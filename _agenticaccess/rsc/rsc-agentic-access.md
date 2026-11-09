@@ -9,25 +9,25 @@ api_specs:
   label: RSC Filter API
   slug: rsc-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-filter-api-openapi.yml
+  url: https://artifacts.apis.io/rsc/openapi/rsc-filter-api-openapi.yml
 - filename: rsc-lookups-api-openapi.yml
   format: yaml
   label: RSC Lookups API
   slug: rsc-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/rsc/openapi/rsc-lookups-api-openapi.yml
 - filename: rsc-records-api-openapi.yml
   format: yaml
   label: RSC Records API
   slug: rsc-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-records-api-openapi.yml
+  url: https://artifacts.apis.io/rsc/openapi/rsc-records-api-openapi.yml
 - filename: rsc-tools-api-openapi.yml
   format: yaml
   label: RSC Tools API
   slug: rsc-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-tools-api-openapi.yml
+  url: https://artifacts.apis.io/rsc/openapi/rsc-tools-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rsc-fi
   \ getFilterResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/datasources\n  method: get\n  operationId: getDataSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /records/{recordId}/details\n  method: get\n  operationId: getRecordDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /records/batch\n  method: post\n  operationId: getRecordsBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /records/{recordId}/externalreferences\n  method: get\n  operationId: getExternalReferences\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /records/{recordId}/image\n  method: get\n  operationId: getRecordImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /records/{recordId}/mol\n  method: get\n  operationId: getRecordMol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tools/convert\n  method: post\n  operationId: convertChemicalFormat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/validate/inchikey\n  method: post\n  operationId: validateInchikey\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/agentic-access/rsc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rsc/agentic-access/rsc-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Chemistry

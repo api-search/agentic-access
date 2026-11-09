@@ -9,31 +9,31 @@ api_specs:
   label: Nookal Appointments API
   slug: nookal-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-appointments-api-openapi.yml
 - filename: nookal-clinic-api-openapi.yml
   format: yaml
   label: Nookal Clinic API
   slug: nookal-clinic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-clinic-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-clinic-api-openapi.yml
 - filename: nookal-invoices-api-openapi.yml
   format: yaml
   label: Nookal Invoices API
   slug: nookal-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-invoices-api-openapi.yml
 - filename: nookal-patients-api-openapi.yml
   format: yaml
   label: Nookal Patients API
   slug: nookal-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-patients-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-patients-api-openapi.yml
 - filename: nookal-verification-api-openapi.yml
   format: yaml
   label: Nookal Verification API
   slug: nookal-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/openapi/nookal-verification-api-openapi.yml
+  url: https://artifacts.apis.io/nookal/openapi/nookal-verification-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 24
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nookal
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getTreatmentNotes\n  method: get\n  operationId: getTreatmentNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getAllTreatmentNotes\n  method: get\n  operationId: getAllTreatmentNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /addTreatmentNote\n  method: post\n  operationId: addTreatmentNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getPatientFiles\n  method:\
   \ get\n  operationId: getPatientFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFileUrl\n  method: get\n  operationId: getFileUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /addCase\n  method: post\n  operationId: addCase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updatePatientMedicareDetails\n  method: post\n  operationId: updatePatientMedicareDetails\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify\n  method: get\n  operationId: verify\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/agentic-access/nookal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nookal/agentic-access/nookal-agentic-access.yml
 summary_line: 36 operations · 12 acting
 tags:
 - Practice Management

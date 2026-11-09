@@ -9,67 +9,67 @@ api_specs:
   label: SharpAPI Account API
   slug: sharpapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-account-api-openapi.yml
 - filename: sharpapi-betting-splits-api-openapi.yml
   format: yaml
   label: SharpAPI Betting Splits API
   slug: sharpapi-betting-splits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-betting-splits-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-betting-splits-api-openapi.yml
 - filename: sharpapi-deep-links-api-openapi.yml
   format: yaml
   label: SharpAPI Deep Links API
   slug: sharpapi-deep-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-deep-links-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-deep-links-api-openapi.yml
 - filename: sharpapi-events-api-openapi.yml
   format: yaml
   label: SharpAPI Events API
   slug: sharpapi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-events-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-events-api-openapi.yml
 - filename: sharpapi-futures-api-openapi.yml
   format: yaml
   label: SharpAPI Futures API
   slug: sharpapi-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-futures-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-futures-api-openapi.yml
 - filename: sharpapi-game-state-api-openapi.yml
   format: yaml
   label: SharpAPI Game State API
   slug: sharpapi-game-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-game-state-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-game-state-api-openapi.yml
 - filename: sharpapi-health-api-openapi.yml
   format: yaml
   label: SharpAPI Health API
   slug: sharpapi-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-health-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-health-api-openapi.yml
 - filename: sharpapi-odds-api-openapi.yml
   format: yaml
   label: SharpAPI Odds API
   slug: sharpapi-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-odds-api-openapi.yml
 - filename: sharpapi-opportunities-api-openapi.yml
   format: yaml
   label: SharpAPI Opportunities API
   slug: sharpapi-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-opportunities-api-openapi.yml
 - filename: sharpapi-reference-data-api-openapi.yml
   format: yaml
   label: SharpAPI Reference Data API
   slug: sharpapi-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-reference-data-api-openapi.yml
 - filename: sharpapi-streaming-api-openapi.yml
   format: yaml
   label: SharpAPI Streaming API
   slug: sharpapi-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/openapi/sharpapi-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/sharpapi/openapi/sharpapi-streaming-api-openapi.yml
 consequence_counts:
   read: 31
   safety-critical: 1
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/sharpa
   \ required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /account/keys/{keyId}/rotate\n  method: post\n  operationId: rotateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deeplinks/batch\n  method: post\n  operationId: batchDeepLinks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deeplink/{id}\n  method: get\n  operationId: redirectDeepLink\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /futures\n  method: get\n  operationId: listFuturesMarkets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /futures/odds\n  method: get\n  operationId: listFuturesOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gamestate\n  method: get\n  operationId: listAllGameState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gamestate/{sport}\n  method: get\n  operationId: getGameStateForSport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharpapi/refs/heads/main/agentic-access/sharpapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sharpapi/agentic-access/sharpapi-agentic-access.yml
 summary_line: 36 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Company

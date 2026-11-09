@@ -9,49 +9,49 @@ api_specs:
   label: TMT ID Authenticate API
   slug: tmt-id-authenticate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-authenticate-api-openapi.yml
+  url: https://artifacts.apis.io/tmt-id/openapi/tmt-id-authenticate-api-openapi.yml
 - filename: tmt-id-http-api-api-openapi.yml
   format: yaml
   label: TMT ID HTTP API
   slug: tmt-id-http-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-http-api-api-openapi.yml
+  url: https://artifacts.apis.io/tmt-id/openapi/tmt-id-http-api-api-openapi.yml
 - filename: tmt-id-http-api-v1-3-api-openapi.yml
   format: yaml
   label: TMT ID HTTP API v1.3 API
   slug: tmt-id-http-api-v1-3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-http-api-v1-3-api-openapi.yml
+  url: https://artifacts.apis.io/tmt-id/openapi/tmt-id-http-api-v1-3-api-openapi.yml
 - filename: tmt-id-http-api-v2-0-api-openapi.yml
   format: yaml
   label: TMT ID HTTP API v2.0 API
   slug: tmt-id-http-api-v2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-http-api-v2-0-api-openapi.yml
+  url: https://artifacts.apis.io/tmt-id/openapi/tmt-id-http-api-v2-0-api-openapi.yml
 - filename: tmt-id-network-biometrics-api-openapi.yml
   format: yaml
   label: TMT ID Network Biometrics API
   slug: tmt-id-network-biometrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-network-biometrics-api-openapi.yml
+  url: https://artifacts.apis.io/tmt-id/openapi/tmt-id-network-biometrics-api-openapi.yml
 - filename: tmt-id-service-api-openapi.yml
   format: yaml
   label: TMT ID Service API
   slug: tmt-id-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-service-api-openapi.yml
+  url: https://artifacts.apis.io/tmt-id/openapi/tmt-id-service-api-openapi.yml
 - filename: tmt-id-standard-api-call-api-openapi.yml
   format: yaml
   label: TMT ID Standard API Call API
   slug: tmt-id-standard-api-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-standard-api-call-api-openapi.yml
+  url: https://artifacts.apis.io/tmt-id/openapi/tmt-id-standard-api-call-api-openapi.yml
 - filename: tmt-id-v2-deprecated-api-openapi.yml
   format: yaml
   label: TMT ID v2 (deprecated) API
   slug: tmt-id-v2-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/openapi/tmt-id-v2-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/tmt-id/openapi/tmt-id-v2-deprecated-api-openapi.yml
 consequence_counts:
   read: 6
   write: 11
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tmt-id
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network-biometrics\n  method: post\n  operationId: post-network-biometrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authenticate\n  method: get\n  operationId: authenticateUserWithMNO\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authenticate/otp\n  method: get\n  operationId: authenticateUserWithOtp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/\n\
   \  method: post\n  operationId: POST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/v2/NumberAssurance/AssuredRegistration\n  method: post\n  operationId: post-assured-registration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/v2/NumberAssurance/AssuredAge\n  method: post\n  operationId: post-assured-age\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/agentic-access/tmt-id-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tmt-id/agentic-access/tmt-id-agentic-access.yml
 summary_line: 17 operations · 11 acting
 tags:
 - Telecommunications

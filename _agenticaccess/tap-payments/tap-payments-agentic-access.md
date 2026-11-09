@@ -9,55 +9,55 @@ api_specs:
   label: Tap Payments Authorize API
   slug: tap-payments-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-authorize-api-openapi.yml
 - filename: tap-payments-business-api-openapi.yml
   format: yaml
   label: Tap Payments Business API
   slug: tap-payments-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-business-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-business-api-openapi.yml
 - filename: tap-payments-cards-api-openapi.yml
   format: yaml
   label: Tap Payments Cards API
   slug: tap-payments-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-cards-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-cards-api-openapi.yml
 - filename: tap-payments-charges-api-openapi.yml
   format: yaml
   label: Tap Payments Charges API
   slug: tap-payments-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-charges-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-charges-api-openapi.yml
 - filename: tap-payments-customers-api-openapi.yml
   format: yaml
   label: Tap Payments Customers API
   slug: tap-payments-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-customers-api-openapi.yml
 - filename: tap-payments-invoices-api-openapi.yml
   format: yaml
   label: Tap Payments Invoices API
   slug: tap-payments-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-invoices-api-openapi.yml
 - filename: tap-payments-payouts-api-openapi.yml
   format: yaml
   label: Tap Payments Payouts API
   slug: tap-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-payouts-api-openapi.yml
 - filename: tap-payments-refunds-api-openapi.yml
   format: yaml
   label: Tap Payments Refunds API
   slug: tap-payments-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-refunds-api-openapi.yml
 - filename: tap-payments-tokens-api-openapi.yml
   format: yaml
   label: Tap Payments Tokens API
   slug: tap-payments-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/openapi/tap-payments-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/tap-payments/openapi/tap-payments-tokens-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 16
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tap-pa
   \ 3600\n    audit: none\n- path: /card/{customer_id}/{card_id}\n  method: delete\n  operationId: deleteCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices\n  method: post\n  operationId: createInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /invoices/{invoice_id}\n  method: get\n  operationId: retrieveInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{invoice_id}\n  method: put\n  operationId: updateInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payouts\n  method: get\n  operationId: listPayouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payouts/{payout_id}\n  method: get\n  operationId: retrievePayout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /businesses\n  method: post\n  operationId: createBusiness\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /businesses\n  method: get\n  operationId: listBusinesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /destinations/{destination_id}\n  method: get\n  operationId: retrieveDestination\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/agentic-access/tap-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tap-payments/agentic-access/tap-payments-agentic-access.yml
 summary_line: 29 operations · 13 acting
 tags:
 - Payments

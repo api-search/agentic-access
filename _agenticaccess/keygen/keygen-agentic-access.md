@@ -9,73 +9,73 @@ api_specs:
   label: Keygen Artifacts API
   slug: keygen-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-artifacts-api-openapi.yml
 - filename: keygen-components-api-openapi.yml
   format: yaml
   label: Keygen Components API
   slug: keygen-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-components-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-components-api-openapi.yml
 - filename: keygen-entitlements-api-openapi.yml
   format: yaml
   label: Keygen Entitlements API
   slug: keygen-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-entitlements-api-openapi.yml
 - filename: keygen-licenses-api-openapi.yml
   format: yaml
   label: Keygen Licenses API
   slug: keygen-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-licenses-api-openapi.yml
 - filename: keygen-machines-api-openapi.yml
   format: yaml
   label: Keygen Machines API
   slug: keygen-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-machines-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-machines-api-openapi.yml
 - filename: keygen-policies-api-openapi.yml
   format: yaml
   label: Keygen Policies API
   slug: keygen-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-policies-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-policies-api-openapi.yml
 - filename: keygen-processes-api-openapi.yml
   format: yaml
   label: Keygen Processes API
   slug: keygen-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-processes-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-processes-api-openapi.yml
 - filename: keygen-products-api-openapi.yml
   format: yaml
   label: Keygen Products API
   slug: keygen-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-products-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-products-api-openapi.yml
 - filename: keygen-releases-api-openapi.yml
   format: yaml
   label: Keygen Releases API
   slug: keygen-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-releases-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-releases-api-openapi.yml
 - filename: keygen-tokens-api-openapi.yml
   format: yaml
   label: Keygen Tokens API
   slug: keygen-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-tokens-api-openapi.yml
 - filename: keygen-users-api-openapi.yml
   format: yaml
   label: Keygen Users API
   slug: keygen-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-users-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-users-api-openapi.yml
 - filename: keygen-webhooks-api-openapi.yml
   format: yaml
   label: Keygen Webhooks API
   slug: keygen-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/openapi/keygen-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/keygen/openapi/keygen-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 25
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/keygen
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-endpoints\n  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-endpoints\n  method: get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-endpoints/{id}\n  method: get\n  operationId: retrieveWebhookEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-endpoints/{id}\n  method: patch\n  operationId: updateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-endpoints/{id}\n  method: delete\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-events\n  method: get\n  operationId: listWebhookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /webhook-events/{id}/actions/retry\n  method: post\n  operationId: retryWebhookEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keygen/refs/heads/main/agentic-access/keygen-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/keygen/agentic-access/keygen-agentic-access.yml
 summary_line: 63 operations · 38 acting · 1 human-in-the-loop
 tags:
 - Software Licensing

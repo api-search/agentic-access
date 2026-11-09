@@ -9,25 +9,25 @@ api_specs:
   label: Pinpoint Applicants API
   slug: pinpoint-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-applicants-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-applicants-api-openapi.yml
 - filename: pinpoint-applications-api-openapi.yml
   format: yaml
   label: Pinpoint Applications API
   slug: pinpoint-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-applications-api-openapi.yml
 - filename: pinpoint-comments-api-openapi.yml
   format: yaml
   label: Pinpoint Comments API
   slug: pinpoint-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-comments-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-comments-api-openapi.yml
 - filename: pinpoint-jobs-api-openapi.yml
   format: yaml
   label: Pinpoint Jobs API
   slug: pinpoint-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-jobs-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pinpoi
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications\n  method: post\n  operationId: createApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{id}\n  method: get\n  operationId: getApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{id}\n  method: patch\n  operationId: updateApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{id}\n  method: delete\n  operationId: destroyApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /candidates\n  method: get\n  operationId: listCandidates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /candidates/{id}\n  method: get\n  operationId: getCandidate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /candidates/{id}\n  method: patch\n  operationId: updateCandidate\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /comments\n  method: get\n  operationId: listComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comments\n  method: post\n  operationId: createComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /comments/{id}\n  method: get\n  operationId: getComment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/agentic-access/pinpoint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pinpoint/agentic-access/pinpoint-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Applicant Tracking

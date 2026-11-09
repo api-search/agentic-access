@@ -9,31 +9,31 @@ api_specs:
   label: World Meteorological Organization Jobs API
   slug: wmo-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-jobs-api-openapi.yml
 - filename: wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
   format: yaml
   label: World Meteorological Organization Pywcmp Wis2 Wcmp2 Ets API
   slug: wmo-pywcmp-wis2-wcmp2-ets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
 - filename: wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
   format: yaml
   label: World Meteorological Organization Pywcmp Wis2 Wcmp2 Kpi API
   slug: wmo-pywcmp-wis2-wcmp2-kpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
 - filename: wmo-server-api-openapi.yml
   format: yaml
   label: World Meteorological Organization Server API
   slug: wmo-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-server-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-server-api-openapi.yml
 - filename: wmo-wis2-discovery-metadata-api-openapi.yml
   format: yaml
   label: World Meteorological Organization Wis2 Discovery Metadata API
   slug: wmo-wis2-discovery-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-wis2-discovery-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/wmo/openapi/wmo-wis2-discovery-metadata-api-openapi.yml
 consequence_counts:
   read: 18
   write: 3
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wmo-jo
   \      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata\n  method: get\n  operationId: describeWis2-discovery-metadataCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items\n  method: get\n  operationId: getWis2-discovery-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items\n  method: options\n  operationId: optionsWis2-discovery-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items\n  method: post\n  operationId: getCQL2Wis2-discovery-metadataFeatures\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items/{featureId}\n  method: get\n  operationId: getWis2-discovery-metadataFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items/{featureId}\n  method: options\n  operationId: optionsWis2-discovery-metadataFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/queryables\n  method: get\n  operationId: getWis2-discovery-metadataQueryables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/schema\n  method:\
   \ get\n  operationId: getWis2-discovery-metadataSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/agentic-access/wmo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wmo/agentic-access/wmo-agentic-access.yml
 summary_line: 21 operations · 3 acting
 tags:
 - Weather

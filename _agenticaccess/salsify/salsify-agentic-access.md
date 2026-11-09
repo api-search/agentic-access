@@ -9,55 +9,55 @@ api_specs:
   label: Salsify Digital Assets API
   slug: salsify-digital-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-digital-assets-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-digital-assets-api-openapi.yml
 - filename: salsify-export-runs-api-openapi.yml
   format: yaml
   label: Salsify Export Runs API
   slug: salsify-export-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-export-runs-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-export-runs-api-openapi.yml
 - filename: salsify-imports-api-openapi.yml
   format: yaml
   label: Salsify Imports API
   slug: salsify-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-imports-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-imports-api-openapi.yml
 - filename: salsify-lists-api-openapi.yml
   format: yaml
   label: Salsify Lists API
   slug: salsify-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-lists-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-lists-api-openapi.yml
 - filename: salsify-org-id-api-openapi.yml
   format: yaml
   label: Salsify <org ID> API
   slug: salsify-org-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-org-id-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-org-id-api-openapi.yml
 - filename: salsify-products-api-openapi.yml
   format: yaml
   label: Salsify Products API
   slug: salsify-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-products-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-products-api-openapi.yml
 - filename: salsify-properties-api-openapi.yml
   format: yaml
   label: Salsify Properties API
   slug: salsify-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-properties-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-properties-api-openapi.yml
 - filename: salsify-record-types-api-openapi.yml
   format: yaml
   label: Salsify Record Types API
   slug: salsify-record-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-record-types-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-record-types-api-openapi.yml
 - filename: salsify-records-api-openapi.yml
   format: yaml
   label: Salsify Records API
   slug: salsify-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/openapi/salsify-records-api-openapi.yml
+  url: https://artifacts.apis.io/salsify/openapi/salsify-records-api-openapi.yml
 consequence_counts:
   read: 10
   write: 33
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/salsif
   \      - high-value\n    audit: required\n- path: /{org_id}/records\n  method: put\n  operationId: bulk-update-records\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{org_id}/records\n  method: delete\n  operationId: bulk-delete-records\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{org_id}/records/{record_id}\n  method: put\n  operationId: update-record\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{org_id}/records/_upsert\n  method: put\n  operationId: bulk-upsert-records\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{org_id}/records/{product_id}\n  method: delete\n  operationId: delete-record\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{org_id}/record_types\n  method: get\n  operationId: read-record-types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/agentic-access/salsify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/salsify/agentic-access/salsify-agentic-access.yml
 summary_line: 43 operations · 33 acting
 tags:
 - Company

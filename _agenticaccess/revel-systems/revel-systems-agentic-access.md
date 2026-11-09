@@ -9,37 +9,37 @@ api_specs:
   label: Revel Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/asyncapi/revel-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/revel-systems/asyncapi/revel-webhooks-asyncapi.yml
 - filename: revel-systems-customers-api-openapi.yml
   format: yaml
   label: Revel Systems Customers API
   slug: revel-systems-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-customers-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-customers-api-openapi.yml
 - filename: revel-systems-establishments-api-openapi.yml
   format: yaml
   label: Revel Systems Establishments API
   slug: revel-systems-establishments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-establishments-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-establishments-api-openapi.yml
 - filename: revel-systems-orders-api-openapi.yml
   format: yaml
   label: Revel Systems Orders API
   slug: revel-systems-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-orders-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-orders-api-openapi.yml
 - filename: revel-systems-products-api-openapi.yml
   format: yaml
   label: Revel Systems Products API
   slug: revel-systems-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-products-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-products-api-openapi.yml
 - filename: revel-systems-scheduling-api-openapi.yml
   format: yaml
   label: Revel Systems Scheduling API
   slug: revel-systems-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/openapi/revel-systems-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/revel-systems/openapi/revel-systems-scheduling-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/revel-
   \ createProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Product/{id}/\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Customer/\n  method: get\n  operationId: getCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Customer/\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /Customer/{id}/\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Establishment/\n  method: get\n  operationId: getEstablishments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TimeSchedule/\n  method: get\n  operationId: getTimeSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TimeSchedule/\n  method: post\n  operationId: createTimeSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/agentic-access/revel-systems-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/revel-systems/agentic-access/revel-systems-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
 - Point-of-Sale

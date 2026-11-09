@@ -9,127 +9,127 @@ api_specs:
   label: Clarifymedical Activities API
   slug: clarifymedical-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-activities-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-activities-api-openapi.yml
 - filename: clarifymedical-auth-api-openapi.yml
   format: yaml
   label: Clarifymedical Auth API
   slug: clarifymedical-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-auth-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-auth-api-openapi.yml
 - filename: clarifymedical-campaigns-api-openapi.yml
   format: yaml
   label: Clarifymedical Campaigns API
   slug: clarifymedical-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-campaigns-api-openapi.yml
 - filename: clarifymedical-comments-api-openapi.yml
   format: yaml
   label: Clarifymedical Comments API
   slug: clarifymedical-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-comments-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-comments-api-openapi.yml
 - filename: clarifymedical-invitations-api-openapi.yml
   format: yaml
   label: Clarifymedical Invitations API
   slug: clarifymedical-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-invitations-api-openapi.yml
 - filename: clarifymedical-layouts-api-openapi.yml
   format: yaml
   label: Clarifymedical Layouts API
   slug: clarifymedical-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-layouts-api-openapi.yml
 - filename: clarifymedical-listrows-api-openapi.yml
   format: yaml
   label: Clarifymedical List Rows API
   slug: clarifymedical-listrows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-listrows-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-listrows-api-openapi.yml
 - filename: clarifymedical-lists-api-openapi.yml
   format: yaml
   label: Clarifymedical Lists API
   slug: clarifymedical-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-lists-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-lists-api-openapi.yml
 - filename: clarifymedical-meetingrecordings-api-openapi.yml
   format: yaml
   label: Clarifymedical Meeting Recordings API
   slug: clarifymedical-meetingrecordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-meetingrecordings-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-meetingrecordings-api-openapi.yml
 - filename: clarifymedical-objectaccess-api-openapi.yml
   format: yaml
   label: Clarifymedical Object Access API
   slug: clarifymedical-objectaccess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-objectaccess-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-objectaccess-api-openapi.yml
 - filename: clarifymedical-recordaccess-api-openapi.yml
   format: yaml
   label: Clarifymedical Record Access API
   slug: clarifymedical-recordaccess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-recordaccess-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-recordaccess-api-openapi.yml
 - filename: clarifymedical-recordattachments-api-openapi.yml
   format: yaml
   label: Clarifymedical Record Attachments API
   slug: clarifymedical-recordattachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-recordattachments-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-recordattachments-api-openapi.yml
 - filename: clarifymedical-recordrelationships-api-openapi.yml
   format: yaml
   label: Clarifymedical Record Relationships API
   slug: clarifymedical-recordrelationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-recordrelationships-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-recordrelationships-api-openapi.yml
 - filename: clarifymedical-records-api-openapi.yml
   format: yaml
   label: Clarifymedical Records API
   slug: clarifymedical-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-records-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-records-api-openapi.yml
 - filename: clarifymedical-resources-api-openapi.yml
   format: yaml
   label: Clarifymedical Resources API
   slug: clarifymedical-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-resources-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-resources-api-openapi.yml
 - filename: clarifymedical-schemas-api-openapi.yml
   format: yaml
   label: Clarifymedical Schemas API
   slug: clarifymedical-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-schemas-api-openapi.yml
 - filename: clarifymedical-users-api-openapi.yml
   format: yaml
   label: Clarifymedical Users API
   slug: clarifymedical-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-users-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-users-api-openapi.yml
 - filename: clarifymedical-workflows-api-openapi.yml
   format: yaml
   label: Clarifymedical Workflows API
   slug: clarifymedical-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-workflows-api-openapi.yml
 - filename: clarifymedical-workspaces-api-openapi.yml
   format: yaml
   label: Clarifymedical Workspaces API
   slug: clarifymedical-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-workspaces-api-openapi.yml
 - filename: clarifymedical-workspacesettings-api-openapi.yml
   format: yaml
   label: Clarifymedical Workspace Settings API
   slug: clarifymedical-workspacesettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-workspacesettings-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-workspacesettings-api-openapi.yml
 - filename: clarifymedical-api-keys-api-openapi.yml
   format: yaml
   label: Clarifymedical API Keys API
   slug: clarifymedical-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/openapi/clarifymedical-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/clarifymedical/openapi/clarifymedical-api-keys-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 33
@@ -252,7 +252,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/clarif
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace}/invitations\n  method: post\n  operationId: createInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace}/invitations/{invitationId}\n  method: delete\n  operationId: revokeInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /workspaces/{workspace}/invitations/{invitationId}/resend\n  method: post\n  operationId:\
   \ resendInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace}\n  method: patch\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/cli\n  method: get\n  operationId: getCliAuthConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clarifymedical/refs/heads/main/agentic-access/clarifymedical-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clarifymedical/agentic-access/clarifymedical-agentic-access.yml
 summary_line: 91 operations · 58 acting · 6 human-in-the-loop
 tags:
 - Company

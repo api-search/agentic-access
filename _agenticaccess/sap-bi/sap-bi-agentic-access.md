@@ -9,127 +9,127 @@ api_specs:
   label: SAP Business Intelligence Catalog API
   slug: sap-bi-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-catalog-api-openapi.yml
 - filename: sap-bi-connections-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Connections API
   slug: sap-bi-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-connections-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-connections-api-openapi.yml
 - filename: sap-bi-data-import-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Data Import API
   slug: sap-bi-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-data-import-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-data-import-api-openapi.yml
 - filename: sap-bi-data-store-objects-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Data Store Objects API
   slug: sap-bi-data-store-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-data-store-objects-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-data-store-objects-api-openapi.yml
 - filename: sap-bi-folders-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Folders API
   slug: sap-bi-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-folders-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-folders-api-openapi.yml
 - filename: sap-bi-infoobjects-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence InfoObjects API
   slug: sap-bi-infoobjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-infoobjects-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-infoobjects-api-openapi.yml
 - filename: sap-bi-infoproviders-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence InfoProviders API
   slug: sap-bi-infoproviders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-infoproviders-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-infoproviders-api-openapi.yml
 - filename: sap-bi-instances-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Instances API
   slug: sap-bi-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-instances-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-instances-api-openapi.yml
 - filename: sap-bi-logon-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Logon API
   slug: sap-bi-logon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-logon-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-logon-api-openapi.yml
 - filename: sap-bi-metadata-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Metadata API
   slug: sap-bi-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-metadata-api-openapi.yml
 - filename: sap-bi-models-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Models API
   slug: sap-bi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-models-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-models-api-openapi.yml
 - filename: sap-bi-process-chains-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Process Chains API
   slug: sap-bi-process-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-process-chains-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-process-chains-api-openapi.yml
 - filename: sap-bi-queries-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Queries API
   slug: sap-bi-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-queries-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-queries-api-openapi.yml
 - filename: sap-bi-reports-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Reports API
   slug: sap-bi-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-reports-api-openapi.yml
 - filename: sap-bi-servers-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Servers API
   slug: sap-bi-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-servers-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-servers-api-openapi.yml
 - filename: sap-bi-spaces-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Spaces API
   slug: sap-bi-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-spaces-api-openapi.yml
 - filename: sap-bi-stories-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Stories API
   slug: sap-bi-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-stories-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-stories-api-openapi.yml
 - filename: sap-bi-tasks-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Tasks API
   slug: sap-bi-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-tasks-api-openapi.yml
 - filename: sap-bi-users-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Users API
   slug: sap-bi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-users-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-users-api-openapi.yml
 - filename: sap-bi-views-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Views API
   slug: sap-bi-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-views-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-views-api-openapi.yml
 - filename: sap-bi-dataflows-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Dataflows API
   slug: sap-bi-dataflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-dataflows-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi/openapi/sap-bi-dataflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 47
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-bi
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{spaceId}/dataflows/{dataFlowId}/run\n  method: post\n  operationId: runDataFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{spaceId}/views\n  method: get\n  operationId: listViews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{spaceId}/views/{viewId}\n  method: get\n  operationId: getView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{spaceId}/views/{viewId}/deploy\n  method: post\n  operationId:\
   \ deployView\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{taskId}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog\n  method: get\n  operationId: listCatalogAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/{assetId}\n\
   \  method: get\n  operationId: getCatalogAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/agentic-access/sap-bi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-bi/agentic-access/sap-bi-agentic-access.yml
 summary_line: 69 operations · 22 acting
 tags:
 - Analytics

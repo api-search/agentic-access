@@ -9,55 +9,55 @@ api_specs:
   label: TritonAI Developer API — completions
   slug: tritonai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-completions-api-openapi.yml
 - filename: ucsd-embeddings-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — embeddings
   slug: tritonai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-embeddings-api-openapi.yml
 - filename: ucsd-models-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — models
   slug: tritonai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-models-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-models-api-openapi.yml
 - filename: ucsd-images-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — images
   slug: tritonai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-images-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-images-api-openapi.yml
 - filename: ucsd-audio-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — audio
   slug: tritonai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-audio-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-audio-api-openapi.yml
 - filename: ucsd-scim-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — SCIM 2.0 provisioning
   slug: tritonai-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-scim-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-scim-api-openapi.yml
 - filename: ucsd-objects-api-openapi.yml
   format: yaml
   label: University of California, San Diego Objects API
   slug: ucsd-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-objects-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-objects-api-openapi.yml
 - filename: ucsd-search-api-openapi.yml
   format: yaml
   label: University of California, San Diego Search API
   slug: ucsd-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-search-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-search-api-openapi.yml
 - filename: ucsd-chat-completions-api-openapi.yml
   format: yaml
   label: University of California, San Diego Chat Completions API
   slug: ucsd-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ucsd/openapi/ucsd-chat-completions-api-openapi.yml
 consequence_counts:
   read: 14
   write: 14
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/ucsd-a
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: get\n  operationId: get_users_scim_v2_Users_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: post\n  operationId: create_user_scim_v2_Users_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{user_id}\n  method: delete\n  operationId: delete_user_scim_v2_Users__user_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{user_id}\n  method: get\n  operationId: get_user_scim_v2_Users__user_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users/{user_id}\n  method: patch\n  operationId: patch_user_scim_v2_Users__user_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{user_id}\n  method: put\n  operationId: update_user_scim_v2_Users__user_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dc/search.json\n  method: get\n  operationId: searchDigitalCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/agentic-access/ucsd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ucsd/agentic-access/ucsd-agentic-access.yml
 summary_line: 28 operations · 14 acting
 tags:
 - Education

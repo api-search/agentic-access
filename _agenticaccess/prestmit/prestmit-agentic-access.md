@@ -9,37 +9,37 @@ api_specs:
   label: Prestmit Bank Accounts API
   slug: prestmit-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/prestmit/openapi/prestmit-bank-accounts-api-openapi.yml
 - filename: prestmit-general-api-openapi.yml
   format: yaml
   label: Prestmit General API
   slug: prestmit-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-general-api-openapi.yml
+  url: https://artifacts.apis.io/prestmit/openapi/prestmit-general-api-openapi.yml
 - filename: prestmit-gift-cards-buy-api-openapi.yml
   format: yaml
   label: Prestmit Gift Cards - Buy API
   slug: prestmit-gift-cards-buy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-gift-cards-buy-api-openapi.yml
+  url: https://artifacts.apis.io/prestmit/openapi/prestmit-gift-cards-buy-api-openapi.yml
 - filename: prestmit-gift-cards-sell-api-openapi.yml
   format: yaml
   label: Prestmit Gift Cards - Sell API
   slug: prestmit-gift-cards-sell-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-gift-cards-sell-api-openapi.yml
+  url: https://artifacts.apis.io/prestmit/openapi/prestmit-gift-cards-sell-api-openapi.yml
 - filename: prestmit-lookup-api-openapi.yml
   format: yaml
   label: Prestmit Lookup API
   slug: prestmit-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/prestmit/openapi/prestmit-lookup-api-openapi.yml
 - filename: prestmit-wallet-api-openapi.yml
   format: yaml
   label: Prestmit Wallet API
   slug: prestmit-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/openapi/prestmit-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/prestmit/openapi/prestmit-wallet-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 22
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/prestm
   \  method: post\n  operationId: calculateBuyPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/partners/v1/giftcard/trade/buy/create\n  method: post\n  operationId: createBuyOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/partners/v1/giftcard/trade/buy/crypto-payment-status/{reference}\n  method: get\n  operationId: getBuyCryptoPaymentStatus\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/partners/v1/giftcard/trade/buy/fetch-codes/{reference}\n  method: get\n  operationId: fetchBuyCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/partners/v1/giftcard/trade/buy/history\n  method: get\n  operationId: getBuyHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/partners/v1/giftcard/trade/sell/rate-calculator-data\n  method: get\n  operationId: getSellRateCalculatorData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/partners/v1/giftcard/trade/sell/payout-methods\n  method: get\n  operationId: getSellPayoutMethods\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/partners/v1/giftcard/trade/sell/create\n  method: post\n  operationId: createSellTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/partners/v1/giftcard/trade/sell/history\n  method: get\n  operationId: getSellHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/agentic-access/prestmit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/prestmit/agentic-access/prestmit-agentic-access.yml
 summary_line: 31 operations · 9 acting
 tags:
 - Bills

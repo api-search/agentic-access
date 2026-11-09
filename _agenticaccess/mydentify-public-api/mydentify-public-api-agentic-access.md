@@ -9,37 +9,37 @@ api_specs:
   label: Mydentify Public API Directories API
   slug: mydentify-public-api-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-directories-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-directories-api-openapi.yml
 - filename: mydentify-public-api-directories-json-api-openapi.yml
   format: yaml
   label: Mydentify Public API Directories.json API
   slug: mydentify-public-api-directories-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-directories-json-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-directories-json-api-openapi.yml
 - filename: mydentify-public-api-imports-api-openapi.yml
   format: yaml
   label: Mydentify Public API Imports API
   slug: mydentify-public-api-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-imports-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-imports-api-openapi.yml
 - filename: mydentify-public-api-leaderboards-api-openapi.yml
   format: yaml
   label: Mydentify Public API Leaderboards API
   slug: mydentify-public-api-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-leaderboards-api-openapi.yml
 - filename: mydentify-public-api-leaderboards-json-api-openapi.yml
   format: yaml
   label: Mydentify Public API Leaderboards.json API
   slug: mydentify-public-api-leaderboards-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-leaderboards-json-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-leaderboards-json-api-openapi.yml
 - filename: mydentify-public-api-product-categories-json-api-openapi.yml
   format: yaml
   label: Mydentify Public API Product Categories.json API
   slug: mydentify-public-api-product-categories-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/openapi/mydentify-public-api-product-categories-json-api-openapi.yml
+  url: https://artifacts.apis.io/mydentify-public-api/openapi/mydentify-public-api-product-categories-json-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/mydent
   \      - high-value\n    audit: required\n- path: /api/imports\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/imports/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/imports/{id}/events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/imports/{id}/retry\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/imports/{id}/manual-review\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/imports/{id}/goals\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/imports/{id}/verify-badge\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/agentic-access/mydentify-public-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mydentify-public-api/agentic-access/mydentify-public-api-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Product Discovery
@@ -86,7 +86,7 @@ tags:
 - Software-as-a-Service
 - Developer Tools
 - Agent-Native
-- llms-txt
+- Llms.txt
 - Agent Skills
 - Directories
 ---

@@ -8,19 +8,19 @@ api_specs:
   label: Country State City API Cities API
   slug: country-state-city-api-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-cities-api-openapi.yml
+  url: https://artifacts.apis.io/country-state-city-api/openapi/country-state-city-api-cities-api-openapi.yml
 - filename: country-state-city-api-countries-api-openapi.yml
   format: yaml
   label: Country State City API Countries API
   slug: country-state-city-api-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-countries-api-openapi.yml
+  url: https://artifacts.apis.io/country-state-city-api/openapi/country-state-city-api-countries-api-openapi.yml
 - filename: country-state-city-api-states-api-openapi.yml
   format: yaml
   label: Country State City API States API
   slug: country-state-city-api-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-states-api-openapi.yml
+  url: https://artifacts.apis.io/country-state-city-api/openapi/country-state-city-api-states-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/country-state-city-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{ciso}\n  method: get\n  operationId: getCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{ciso}/states\n  method: get\n  operationId:\
   \ listStatesByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{ciso}/states/{siso}\n  method: get\n  operationId: getStateByCountryAndCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{ciso}/states/{siso}/cities\n  method: get\n  operationId: listCitiesByCountryAndState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{ciso}/cities\n  method: get\n  operationId: listCitiesByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /states\n  method: get\n  operationId: listStates\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /states/{sid}/cities\n  method: get\n  operationId: listCitiesByState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cities\n  method: get\n  operationId: listCities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/agentic-access/country-state-city-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/country-state-city-api/agentic-access/country-state-city-api-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Capital

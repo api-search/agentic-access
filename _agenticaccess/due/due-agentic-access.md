@@ -9,109 +9,109 @@ api_specs:
   label: Due Account API
   slug: due-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-account-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-account-api-openapi.yml
 - filename: due-account-wallets-api-openapi.yml
   format: yaml
   label: Due Account Wallets API
   slug: due-account-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-account-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-account-wallets-api-openapi.yml
 - filename: due-blockchain-transfers-api-openapi.yml
   format: yaml
   label: Due Blockchain Transfers API
   slug: due-blockchain-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-blockchain-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-blockchain-transfers-api-openapi.yml
 - filename: due-channels-api-openapi.yml
   format: yaml
   label: Due Channels API
   slug: due-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-channels-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-channels-api-openapi.yml
 - filename: due-financial-institutions-api-openapi.yml
   format: yaml
   label: Due Financial Institutions API
   slug: due-financial-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-financial-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-financial-institutions-api-openapi.yml
 - filename: due-kyc-api-openapi.yml
   format: yaml
   label: Due KYC API
   slug: due-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-kyc-api-openapi.yml
 - filename: due-markets-api-openapi.yml
   format: yaml
   label: Due Markets API
   slug: due-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-markets-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-markets-api-openapi.yml
 - filename: due-quote-api-openapi.yml
   format: yaml
   label: Due Quote API
   slug: due-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-quote-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-quote-api-openapi.yml
 - filename: due-recipients-api-openapi.yml
   format: yaml
   label: Due Recipients API
   slug: due-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-recipients-api-openapi.yml
 - filename: due-simulate-pay-in-api-openapi.yml
   format: yaml
   label: Due Simulate pay-in API
   slug: due-simulate-pay-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-simulate-pay-in-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-simulate-pay-in-api-openapi.yml
 - filename: due-tos-api-openapi.yml
   format: yaml
   label: Due TOS API
   slug: due-tos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-tos-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-tos-api-openapi.yml
 - filename: due-transfers-api-openapi.yml
   format: yaml
   label: Due Transfers API
   slug: due-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-transfers-api-openapi.yml
 - filename: due-usage-api-openapi.yml
   format: yaml
   label: Due Usage API
   slug: due-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-usage-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-usage-api-openapi.yml
 - filename: due-vaults-api-openapi.yml
   format: yaml
   label: Due Vaults API
   slug: due-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-vaults-api-openapi.yml
 - filename: due-virtual-accounts-api-openapi.yml
   format: yaml
   label: Due Virtual Accounts API
   slug: due-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-virtual-accounts-api-openapi.yml
 - filename: due-wallets-api-openapi.yml
   format: yaml
   label: Due Wallets API
   slug: due-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-wallets-api-openapi.yml
 - filename: due-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Due Webhook Endpoints API
   slug: due-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-webhook-endpoints-api-openapi.yml
 - filename: due-webhooks-api-openapi.yml
   format: yaml
   label: Due Webhooks API
   slug: due-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/openapi/due-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/due/openapi/due-webhooks-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 32
@@ -196,7 +196,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/due-op
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transfers/quote\n  method: post\n  operationId: post_v1-transfers-quote\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vaults/credentials/approve\n  method: post\n  operationId: post_v1-vaults-credentials-approve\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/vaults/credentials/deactivate\n  method: post\n  operationId: post_v1-vaults-credentials-deactivate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vaults/credentials/init\n  method: post\n  operationId: post_v1-vaults-credentials-init\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vaults/sign\n  method: post\n  operationId: post_v1-vaults-sign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vaults\n  method: post\n  operationId: post_v1-vaults\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook_endpoints/{webhookId}/events/{eventId}/retry\n  method: post\n  operationId: post_v1-webhook-endpoints-webhookid-events-eventid-retry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/agentic-access/due-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/due/agentic-access/due-agentic-access.yml
 summary_line: 71 operations · 39 acting
 tags:
 - Payments

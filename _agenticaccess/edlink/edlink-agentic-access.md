@@ -9,19 +9,19 @@ api_specs:
   label: Edlink Graph API
   slug: edlink-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-graph-api-openapi.yml
+  url: https://artifacts.apis.io/edlink/openapi/edlink-graph-api-openapi.yml
 - filename: edlink-integrations-api-openapi.yml
   format: yaml
   label: Edlink Integrations API
   slug: edlink-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/edlink/openapi/edlink-integrations-api-openapi.yml
 - filename: edlink-sso-api-openapi.yml
   format: yaml
   label: Edlink SSO API
   slug: edlink-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/openapi/edlink-sso-api-openapi.yml
+  url: https://artifacts.apis.io/edlink/openapi/edlink-sso-api-openapi.yml
 consequence_counts:
   read: 21
   write: 1
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/edlink
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graph/courses/{id}\n  method: get\n  operationId: getCourse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graph/sections\n  method: get\n  operationId: listSections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graph/sections/{id}\n  method: get\n  operationId: getSection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graph/agents\n  method: get\n  operationId: listAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graph/agents/{id}\n\
   \  method: get\n  operationId: getAgent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graph/events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graph/integrations/{id}\n  method: get\n  operationId: getIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meta/integrations\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /my/profile\n  method: get\n  operationId: getMyProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/token\n  method: post\n  operationId: createOauthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/agentic-access/edlink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/edlink/agentic-access/edlink-agentic-access.yml
 summary_line: 22 operations · 1 acting
 tags:
 - Education

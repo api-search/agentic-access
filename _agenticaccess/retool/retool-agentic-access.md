@@ -9,31 +9,31 @@ api_specs:
   label: Retool Apps API
   slug: retool-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-apps-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-apps-api-openapi.yml
 - filename: retool-folders-api-openapi.yml
   format: yaml
   label: Retool Folders API
   slug: retool-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-folders-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-folders-api-openapi.yml
 - filename: retool-groups-api-openapi.yml
   format: yaml
   label: Retool Groups API
   slug: retool-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-groups-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-groups-api-openapi.yml
 - filename: retool-resources-api-openapi.yml
   format: yaml
   label: Retool Resources API
   slug: retool-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-resources-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-resources-api-openapi.yml
 - filename: retool-users-api-openapi.yml
   format: yaml
   label: Retool Users API
   slug: retool-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-users-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-users-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/retool
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps\n  method: post\n  operationId: createApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{appId}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{appId}\n\
   \  method: put\n  operationId: updateApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{appId}\n  method: delete\n  operationId: deleteApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resources\n  method: get\n  operationId: listResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folders\n  method: get\n  operationId: listFolders\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folders\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/agentic-access/retool-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/retool/agentic-access/retool-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Admin Panel

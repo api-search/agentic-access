@@ -8,31 +8,31 @@ api_specs:
   label: Rugspull Read API Indexer API
   slug: rugspull-read-api-indexer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-indexer-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-indexer-api-openapi.yml
 - filename: rugspull-read-api-market-api-openapi.yml
   format: yaml
   label: Rugspull Read API Market API
   slug: rugspull-read-api-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-market-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-market-api-openapi.yml
 - filename: rugspull-read-api-objects-api-openapi.yml
   format: yaml
   label: Rugspull Read API Objects API
   slug: rugspull-read-api-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-objects-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-objects-api-openapi.yml
 - filename: rugspull-read-api-rugs-api-openapi.yml
   format: yaml
   label: Rugspull Read API Rugs API
   slug: rugspull-read-api-rugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-rugs-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-rugs-api-openapi.yml
 - filename: rugspull-read-api-service-api-openapi.yml
   format: yaml
   label: Rugspull Read API Service API
   slug: rugspull-read-api-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/openapi/rugspull-read-api-service-api-openapi.yml
+  url: https://artifacts.apis.io/rugspull-read-api/openapi/rugspull-read-api-service-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: generated\nsource: openapi/rugspull-read-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /api/health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/config\n  method: get\n  operationId: getConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/indexer/status\n  method: get\n  operationId: getIndexerStatus\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rugs\n  method: get\n  operationId: listRugs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rugs/{chainId}/{rug}\n  method: get\n  operationId: getRug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rugs/{chainId}/{rug}/events\n  method: get\n  operationId: listRugEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rugs/{chainId}/{rug}/market\n  method: get\n  operationId: getRugMarket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /api/market/sparklines\n  method: get\n  operationId: listMarketSparklines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/r2/{key}\n  method: get\n  operationId: getPublicObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/agentic-access/rugspull-read-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rugspull-read-api/agentic-access/rugspull-read-api-agentic-access.yml
 summary_line: 9 operations
 tags:
 - BNB Smart Chain

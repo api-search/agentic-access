@@ -9,25 +9,25 @@ api_specs:
   label: Cisco Webex Meetings Invitees API
   slug: cisco-webex-meetings-invitees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-invitees-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-invitees-api-openapi.yml
 - filename: cisco-webex-meetings-meetings-api-openapi.yml
   format: yaml
   label: Cisco Webex Meetings API
   slug: cisco-webex-meetings-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-meetings-api-openapi.yml
 - filename: cisco-webex-meetings-recordings-api-openapi.yml
   format: yaml
   label: Cisco Webex Meetings Recordings API
   slug: cisco-webex-meetings-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-recordings-api-openapi.yml
 - filename: cisco-webex-meetings-transcripts-api-openapi.yml
   format: yaml
   label: Cisco Webex Meetings Transcripts API
   slug: cisco-webex-meetings-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-transcripts-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cisco-
   \   audit: required\n- path: /meetingInvitees\n  method: get\n  operationId: listMeetingInvitees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meetingInvitees\n  method: post\n  operationId: createMeetingInvitee\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meetingInvitees/{meetingInviteeId}\n  method: get\n  operationId: getMeetingInvitee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meetingInvitees/{meetingInviteeId}\n  method: put\n  operationId: updateMeetingInvitee\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meetingInvitees/{meetingInviteeId}\n  method: delete\n  operationId: deleteMeetingInvitee\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recordings\n  method: get\n  operationId: listRecordings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings/{recordingId}\n  method: get\n  operationId: getRecording\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /recordings/{recordingId}\n  method: delete\n  operationId: deleteRecording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meetingTranscripts\n  method: get\n  operationId: listMeetingTranscripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/agentic-access/cisco-webex-meetings-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cisco-webex-meetings/agentic-access/cisco-webex-meetings-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Collaboration

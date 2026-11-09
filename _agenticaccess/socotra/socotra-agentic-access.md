@@ -9,109 +9,109 @@ api_specs:
   label: Socotra Auth API
   slug: socotra-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-auth-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-auth-api-openapi.yml
 - filename: socotra-auxdata-api-openapi.yml
   format: yaml
   label: Socotra Auxdata API
   slug: socotra-auxdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-auxdata-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-auxdata-api-openapi.yml
 - filename: socotra-billing-api-openapi.yml
   format: yaml
   label: Socotra Billing API
   slug: socotra-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-billing-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-billing-api-openapi.yml
 - filename: socotra-business-stats-api-openapi.yml
   format: yaml
   label: Socotra Business Stats API
   slug: socotra-business-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-business-stats-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-business-stats-api-openapi.yml
 - filename: socotra-claim-api-openapi.yml
   format: yaml
   label: Socotra Claim API
   slug: socotra-claim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-claim-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-claim-api-openapi.yml
 - filename: socotra-compliance-api-openapi.yml
   format: yaml
   label: Socotra Compliance API
   slug: socotra-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-compliance-api-openapi.yml
 - filename: socotra-config-api-openapi.yml
   format: yaml
   label: Socotra Config API
   slug: socotra-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-config-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-config-api-openapi.yml
 - filename: socotra-contact-api-openapi.yml
   format: yaml
   label: Socotra Contact API
   slug: socotra-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-contact-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-contact-api-openapi.yml
 - filename: socotra-document-api-openapi.yml
   format: yaml
   label: Socotra Document API
   slug: socotra-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-document-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-document-api-openapi.yml
 - filename: socotra-event-api-openapi.yml
   format: yaml
   label: Socotra Event API
   slug: socotra-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-event-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-event-api-openapi.yml
 - filename: socotra-migration-api-openapi.yml
   format: yaml
   label: Socotra Migration API
   slug: socotra-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-migration-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-migration-api-openapi.yml
 - filename: socotra-payment-execution-api-openapi.yml
   format: yaml
   label: Socotra Payment Execution API
   slug: socotra-payment-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-payment-execution-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-payment-execution-api-openapi.yml
 - filename: socotra-plugin-api-openapi.yml
   format: yaml
   label: Socotra Plugin API
   slug: socotra-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-plugin-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-plugin-api-openapi.yml
 - filename: socotra-policy-api-openapi.yml
   format: yaml
   label: Socotra Policy API
   slug: socotra-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-policy-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-policy-api-openapi.yml
 - filename: socotra-producers-api-openapi.yml
   format: yaml
   label: Socotra Producers API
   slug: socotra-producers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-producers-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-producers-api-openapi.yml
 - filename: socotra-resource-api-openapi.yml
   format: yaml
   label: Socotra Resource API
   slug: socotra-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-resource-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-resource-api-openapi.yml
 - filename: socotra-search-api-openapi.yml
   format: yaml
   label: Socotra Search API
   slug: socotra-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-search-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-search-api-openapi.yml
 - filename: socotra-work-management-api-openapi.yml
   format: yaml
   label: Socotra Work Management API
   slug: socotra-work-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/openapi/socotra-work-management-api-openapi.yml
+  url: https://artifacts.apis.io/socotra/openapi/socotra-work-management-api-openapi.yml
 consequence_counts:
   physical: 39
   read: 314
@@ -300,8 +300,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/socotr
   \    max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/{tenantLocator}/payments/{locator}/number/set\n  method: post\n  operationId: setPaymentNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/{tenantLocator}/payments/{locator}/number/generate\n  method: post\n  operationId: generatePaymentNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/{tenantLocator}/jobs/delinquencies/moratoriums\n  method: post\n  operationId: runDelinquencyMoratoriumsWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/{tenantLocator}/invoices\n  method: post\n  operationId: createAggregatedInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/{tenantLocator}/invoices/{locator}/transfer\n  method:\
   \ post\n  operationId: transferInvoicesBetweenAggregatedInvoices\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/{tenantLocator}/invoices/{locator}/settle\n  method: post\n  operationId: settleNegativeOrZeroInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/{tenantLocator}/invoices/{locator}/number/set\n  method: post\n  operationId: setInvoiceNumber\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/{tenantLocator}/invoices/{locator}/number/generate\n  method: post\n  operationId: generateInvoiceNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (232 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/agentic-access/socotra-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/agentic-access/socotra-agentic-access.yml
+  \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/{tenantLocator}/invoices/{locator}/number/generate\n  method: post\n  operationId: generateInvoiceNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (232 KB total) ---\n# Full source: https://artifacts.apis.io/socotra/agentic-access/socotra-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/socotra/agentic-access/socotra-agentic-access.yml
 summary_line: 722 operations · 408 acting · 12 human-in-the-loop
 tags:
 - Company

@@ -9,7 +9,7 @@ api_specs:
   label: Google Cloud API Gateway Projects API
   slug: google-cloud-api-gateway-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-api-gateway/refs/heads/main/openapi/google-cloud-api-gateway-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-api-gateway/openapi/google-cloud-api-gateway-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/global/apis\n  method: get\n  operationId: listApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/locations/global/apis\n  method: post\n  operationId: createApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/global/apis/{api}\n  method: get\n  operationId: getApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/locations/global/apis/{api}\n  method: delete\n  operationId: deleteApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/global/apis/{api}/configs\n  method: get\n  operationId: listApiConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/locations/global/apis/{api}/configs\n  method: post\n  operationId: createApiConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-api-gateway/refs/heads/main/agentic-access/google-cloud-api-gateway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-api-gateway/agentic-access/google-cloud-api-gateway-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - API Gateway

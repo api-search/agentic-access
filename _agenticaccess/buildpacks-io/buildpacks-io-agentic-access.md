@@ -8,13 +8,13 @@ api_specs:
   label: buildpacks-io Buildpacks API
   slug: buildpacks-io-buildpacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/openapi/buildpacks-io-buildpacks-api-openapi.yml
+  url: https://artifacts.apis.io/buildpacks-io/openapi/buildpacks-io-buildpacks-api-openapi.yml
 - filename: buildpacks-io-search-api-openapi.yml
   format: yaml
   label: buildpacks-io Search API
   slug: buildpacks-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/openapi/buildpacks-io-search-api-openapi.yml
+  url: https://artifacts.apis.io/buildpacks-io/openapi/buildpacks-io-search-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/buildpacks-registry-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: searchBuildpacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buildpacks/{namespace}/{name}\n  method: get\n  operationId: listBuildpackVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buildpacks/{namespace}/{name}/{version}\n\
   \  method: get\n  operationId: getBuildpackVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/agentic-access/buildpacks-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/buildpacks-io/agentic-access/buildpacks-io-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Cloud Native Buildpacks

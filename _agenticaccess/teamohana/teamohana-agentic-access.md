@@ -9,25 +9,25 @@ api_specs:
   label: TeamOhana Discovery API
   slug: teamohana-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/teamohana/openapi/teamohana-discovery-api-openapi.yml
 - filename: teamohana-headcount-api-openapi.yml
   format: yaml
   label: TeamOhana Headcount API
   slug: teamohana-headcount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-headcount-api-openapi.yml
+  url: https://artifacts.apis.io/teamohana/openapi/teamohana-headcount-api-openapi.yml
 - filename: teamohana-scenario-api-openapi.yml
   format: yaml
   label: TeamOhana Scenario API
   slug: teamohana-scenario-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-scenario-api-openapi.yml
+  url: https://artifacts.apis.io/teamohana/openapi/teamohana-scenario-api-openapi.yml
 - filename: teamohana-scim-api-openapi.yml
   format: yaml
   label: TeamOhana SCIM API
   slug: teamohana-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/teamohana-scim-api-openapi.yml
+  url: https://artifacts.apis.io/teamohana/openapi/teamohana-scim-api-openapi.yml
 consequence_counts:
   read: 10
   write: 4
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/teamoh
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{domain}/v1/scenarios\n  method: get\n  operationId: getByDomainV1Scenarios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{domain}/v1/scenarios/{id}/export\n  method: get\n  operationId: getByDomainV1ScenariosByIdExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{domain}/ServiceProviderConfig\n  method: get\n  operationId: getByDomainServiceProviderConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{domain}/Users/{id}\n  method: get\n  operationId:\
   \ getByDomainUsersById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{domain}/Users/{id}\n  method: put\n  operationId: putByDomainUsersById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{domain}/Users/{id}\n  method: delete\n  operationId: deleteByDomainUsersById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{domain}/Users\n  method: get\n  operationId: getByDomainUsers\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{domain}/Users\n  method: post\n  operationId: postByDomainUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/agentic-access/teamohana-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teamohana/agentic-access/teamohana-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - Company

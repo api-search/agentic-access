@@ -9,55 +9,55 @@ api_specs:
   label: Hubble API
   slug: hubble-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/asyncapi/cilium-hubble-asyncapi.yml
+  url: https://artifacts.apis.io/cilium/asyncapi/cilium-hubble-asyncapi.yml
 - filename: cilium-bgp-api-openapi.yml
   format: yaml
   label: Cilium BGP API
   slug: cilium-bgp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-bgp-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-bgp-api-openapi.yml
 - filename: cilium-daemon-api-openapi.yml
   format: yaml
   label: Cilium Daemon API
   slug: cilium-daemon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-daemon-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-daemon-api-openapi.yml
 - filename: cilium-endpoint-api-openapi.yml
   format: yaml
   label: Cilium Endpoint API
   slug: cilium-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-endpoint-api-openapi.yml
 - filename: cilium-ipam-api-openapi.yml
   format: yaml
   label: Cilium IPAM API
   slug: cilium-ipam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-ipam-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-ipam-api-openapi.yml
 - filename: cilium-lrp-api-openapi.yml
   format: yaml
   label: Cilium Lrp API
   slug: cilium-lrp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-lrp-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-lrp-api-openapi.yml
 - filename: cilium-policy-api-openapi.yml
   format: yaml
   label: Cilium Policy API
   slug: cilium-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-policy-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-policy-api-openapi.yml
 - filename: cilium-prefilter-api-openapi.yml
   format: yaml
   label: Cilium Prefilter API
   slug: cilium-prefilter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-prefilter-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-prefilter-api-openapi.yml
 - filename: cilium-service-api-openapi.yml
   format: yaml
   label: Cilium Service API
   slug: cilium-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-service-api-openapi.yml
+  url: https://artifacts.apis.io/cilium/openapi/cilium-service-api-openapi.yml
 consequence_counts:
   read: 26
   write: 15
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cilium
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /service/{id}\n  method: delete\n  operationId: deleteService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lrp\n  method: get\n  operationId: listLocalRedirectPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prefilter\n  method: get\n  operationId: getPrefilterConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prefilter\n  method:\
   \ patch\n  operationId: patchPrefilterConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prefilter\n  method: delete\n  operationId: deletePrefilterConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bgp/peers\n  method: get\n  operationId: getBGPPeers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bgp/routes\n  method: get\n  operationId: getBGPRoutes\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bgp/route-policies\n  method: get\n  operationId: getBGPRoutePolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/agentic-access/cilium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cilium/agentic-access/cilium-agentic-access.yml
 summary_line: 41 operations · 15 acting
 tags:
 - Cloud-Native

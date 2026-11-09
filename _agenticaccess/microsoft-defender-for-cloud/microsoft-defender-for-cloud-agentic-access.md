@@ -9,25 +9,25 @@ api_specs:
   label: Microsoft Defender for Cloud Alerts API
   slug: microsoft-defender-for-cloud-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-alerts-api-openapi.yml
 - filename: microsoft-defender-for-cloud-assessments-api-openapi.yml
   format: yaml
   label: Microsoft Defender for Cloud Assessments API
   slug: microsoft-defender-for-cloud-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-assessments-api-openapi.yml
 - filename: microsoft-defender-for-cloud-pricings-api-openapi.yml
   format: yaml
   label: Microsoft Defender for Cloud Pricings API
   slug: microsoft-defender-for-cloud-pricings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-pricings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-pricings-api-openapi.yml
 - filename: microsoft-defender-for-cloud-securescores-api-openapi.yml
   format: yaml
   label: Microsoft Defender for Cloud SecureScores API
   slug: microsoft-defender-for-cloud-securescores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-securescores-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-securescores-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/locations/{ascLocation}/alerts/default/simulate\n  method: post\n  operationId: alerts_simulate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /{resourceId}/providers/Microsoft.Security/assessments\n  method: get\n  operationId: assessments_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n\
   \    - user_impersonation\n- path: /{resourceId}/providers/Microsoft.Security/assessments/{assessmentName}\n  method: get\n  operationId: assessments_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Security/secureScores\n  method: get\n  operationId: secureScores_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Security/secureScores/{secureScoreName}\n  method: get\n  operationId: secureScores_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Security/pricings\n\
   \  method: get\n  operationId: pricings_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Security/pricings/{pricingName}\n  method: get\n  operationId: pricings_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Security/pricings/{pricingName}\n  method: put\n  operationId: pricings_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/agentic-access/microsoft-defender-for-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-defender-for-cloud/agentic-access/microsoft-defender-for-cloud-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Cloud Security

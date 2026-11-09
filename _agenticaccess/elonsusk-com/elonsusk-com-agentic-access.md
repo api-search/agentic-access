@@ -9,73 +9,73 @@ api_specs:
   label: Artem / A2A Sandbox A2a API
   slug: elonsusk-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-a2a-api-openapi.yml
 - filename: elonsusk-com-a2a-autonomous-trader-agent-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox A2A Autonomous Trader Agent API
   slug: elonsusk-com-a2a-autonomous-trader-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-a2a-autonomous-trader-agent-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-a2a-autonomous-trader-agent-api-openapi.yml
 - filename: elonsusk-com-health-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Health API
   slug: elonsusk-com-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-health-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-health-api-openapi.yml
 - filename: elonsusk-com-healthz-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Healthz API
   slug: elonsusk-com-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-healthz-api-openapi.yml
 - filename: elonsusk-com-healthz-earn-superteam-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Healthz.earn.superteam API
   slug: elonsusk-com-healthz-earn-superteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-healthz-earn-superteam-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-healthz-earn-superteam-api-openapi.yml
 - filename: elonsusk-com-leads-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Leads API
   slug: elonsusk-com-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-leads-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-leads-api-openapi.yml
 - filename: elonsusk-com-metrics-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Metrics API
   slug: elonsusk-com-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-metrics-api-openapi.yml
 - filename: elonsusk-com-payments-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Payments API
   slug: elonsusk-com-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-payments-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-payments-api-openapi.yml
 - filename: elonsusk-com-showcase-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Showcase API
   slug: elonsusk-com-showcase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-showcase-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-showcase-api-openapi.yml
 - filename: elonsusk-com-tasks-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox Tasks API
   slug: elonsusk-com-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-tasks-api-openapi.yml
 - filename: elonsusk-com-well-known-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox .well Known API
   slug: elonsusk-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-well-known-api-openapi.yml
 - filename: elonsusk-com-x402-api-openapi.yml
   format: yaml
   label: Artem / A2A Sandbox X402 API
   slug: elonsusk-com-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/openapi/elonsusk-com-x402-api-openapi.yml
+  url: https://artifacts.apis.io/elonsusk-com/openapi/elonsusk-com-x402-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/elonsu
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/leads\n  method: post\n  operationId: create_public_lead_v1_leads_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /showcase/zeroclaw\n  method: get\n  operationId: zeroclaw_showcase_showcase_zeroclaw_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /showcase/zeroclaw/one-pager\n  method: get\n  operationId: zeroclaw_one_pager_showcase_zeroclaw_one_pager_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /showcase/zeroclaw/readme\n  method: get\n  operationId: zeroclaw_readme_showcase_zeroclaw_readme_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /showcase/zeroclaw/video-shot-list\n  method: get\n  operationId: zeroclaw_video_shot_list_showcase_zeroclaw_video_shot_list_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /showcase/zeroclaw/artifacts.zip\n  method: get\n  operationId: zeroclaw_artifacts_zip_showcase_zeroclaw_artifacts_zip_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: root__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elonsusk-com/refs/heads/main/agentic-access/elonsusk-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/elonsusk-com/agentic-access/elonsusk-com-agentic-access.yml
 summary_line: 23 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Agents

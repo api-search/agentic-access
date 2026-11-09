@@ -9,55 +9,73 @@ api_specs:
   label: Microsoft Excel Charts API
   slug: microsoft-excel-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-charts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-charts-api-openapi.yml
 - filename: microsoft-excel-functions-api-openapi.yml
   format: yaml
   label: Microsoft Excel Functions API
   slug: microsoft-excel-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-functions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-functions-api-openapi.yml
 - filename: microsoft-excel-named-items-api-openapi.yml
   format: yaml
   label: Microsoft Excel Named Items API
   slug: microsoft-excel-named-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-named-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-named-items-api-openapi.yml
 - filename: microsoft-excel-ranges-api-openapi.yml
   format: yaml
   label: Microsoft Excel Ranges API
   slug: microsoft-excel-ranges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-ranges-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-ranges-api-openapi.yml
 - filename: microsoft-excel-sessions-api-openapi.yml
   format: yaml
   label: Microsoft Excel Sessions API
   slug: microsoft-excel-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-sessions-api-openapi.yml
 - filename: microsoft-excel-table-columns-api-openapi.yml
   format: yaml
   label: Microsoft Excel Table Columns API
   slug: microsoft-excel-table-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-table-columns-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-table-columns-api-openapi.yml
 - filename: microsoft-excel-table-rows-api-openapi.yml
   format: yaml
   label: Microsoft Excel Table Rows API
   slug: microsoft-excel-table-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-table-rows-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-table-rows-api-openapi.yml
 - filename: microsoft-excel-tables-api-openapi.yml
   format: yaml
   label: Microsoft Excel Tables API
   slug: microsoft-excel-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-tables-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-tables-api-openapi.yml
 - filename: microsoft-excel-worksheets-api-openapi.yml
   format: yaml
   label: Microsoft Excel Worksheets API
   slug: microsoft-excel-worksheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-worksheets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-worksheets-api-openapi.yml
+- filename: microsoft-excel-drives-drive-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Drives.drive.Actions API
+  slug: microsoft-excel-drives-drive-actions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-drives-drive-actions-api-openapi.yml
+- filename: microsoft-excel-drives-drive-functions-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Drives.drive.Functions API
+  slug: microsoft-excel-drives-drive-functions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-drives-drive-functions-api-openapi.yml
+- filename: microsoft-excel-drives-driveitem-api-openapi.yml
+  format: yaml
+  label: Microsoft Excel Drives.drive Item API
+  slug: microsoft-excel-drives-driveitem-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-drives-driveitem-api-openapi.yml
 consequence_counts:
   read: 8
   write: 15
@@ -93,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   - path: /me/drive/items/{item-id}/workbook/worksheets/{worksheet-id-or-name}/tables/{table-id}/columns({column-id})/filter/apply\n  method: post\n  operationId: applyTableFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Files.Read\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/worksheets/{worksheet-id-or-name}/charts\n  method: get\n  operationId: listCharts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Files.Read\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/worksheets/{worksheet-id-or-name}/charts/Add\n  method: post\n  operationId: addChart\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Files.Read\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/worksheets/{worksheet-id-or-name}/range(address='{address}')\n  method: get\n  operationId: getRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Files.Read\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/worksheets/{worksheet-id-or-name}/range(address='{address}')\n  method: patch\n  operationId: updateRange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Files.Read\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/names\n  method: get\n  operationId: listNamedItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Files.Read\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/functions/{function-name}\n  method: post\n  operationId: callWorkbookFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Files.Read\n    - Files.ReadWrite\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/agentic-access/microsoft-excel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-excel/agentic-access/microsoft-excel-agentic-access.yml
 summary_line: 23 operations · 15 acting
 tags:
 - Automation

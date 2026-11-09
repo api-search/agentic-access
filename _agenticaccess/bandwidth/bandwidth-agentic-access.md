@@ -9,49 +9,49 @@ api_specs:
   label: Bandwidth Calls API
   slug: bandwidth-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-calls-api-openapi.yml
+  url: https://artifacts.apis.io/bandwidth/openapi/bandwidth-calls-api-openapi.yml
 - filename: bandwidth-conferences-api-openapi.yml
   format: yaml
   label: Bandwidth Conferences API
   slug: bandwidth-conferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-conferences-api-openapi.yml
+  url: https://artifacts.apis.io/bandwidth/openapi/bandwidth-conferences-api-openapi.yml
 - filename: bandwidth-emergency-notification-recipients-api-openapi.yml
   format: yaml
   label: Bandwidth Emergency Notification Recipients API
   slug: bandwidth-emergency-notification-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-emergency-notification-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/bandwidth/openapi/bandwidth-emergency-notification-recipients-api-openapi.yml
 - filename: bandwidth-endpoints-api-openapi.yml
   format: yaml
   label: Bandwidth Endpoints API
   slug: bandwidth-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bandwidth/openapi/bandwidth-endpoints-api-openapi.yml
 - filename: bandwidth-locations-api-openapi.yml
   format: yaml
   label: Bandwidth Locations API
   slug: bandwidth-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-locations-api-openapi.yml
+  url: https://artifacts.apis.io/bandwidth/openapi/bandwidth-locations-api-openapi.yml
 - filename: bandwidth-media-api-openapi.yml
   format: yaml
   label: Bandwidth Media API
   slug: bandwidth-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-media-api-openapi.yml
+  url: https://artifacts.apis.io/bandwidth/openapi/bandwidth-media-api-openapi.yml
 - filename: bandwidth-messages-api-openapi.yml
   format: yaml
   label: Bandwidth Messages API
   slug: bandwidth-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-messages-api-openapi.yml
+  url: https://artifacts.apis.io/bandwidth/openapi/bandwidth-messages-api-openapi.yml
 - filename: bandwidth-recordings-api-openapi.yml
   format: yaml
   label: Bandwidth Recordings API
   slug: bandwidth-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/bandwidth/openapi/bandwidth-recordings-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 31
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bandwi
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/calls/{callId}/recordings/{recordingId}/transcription\n  method: get\n  operationId: getRecordingTranscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/recordings\n  method: get\n  operationId: listAccountRecordings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/conferences\n  method: get\n  operationId: listConferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /accounts/{accountId}/conferences/{conferenceId}\n  method: get\n  operationId: getConference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/conferences/{conferenceId}\n  method: post\n  operationId: updateConference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/conferences/{conferenceId}/members/{memberId}\n  method: put\n  operationId: updateConferenceMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/conferences/{conferenceId}/recordings\n  method: get\n  operationId: getConferenceRecordings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/agentic-access/bandwidth-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bandwidth/agentic-access/bandwidth-agentic-access.yml
 summary_line: 62 operations · 31 acting · 1 human-in-the-loop
 tags:
 - Communications

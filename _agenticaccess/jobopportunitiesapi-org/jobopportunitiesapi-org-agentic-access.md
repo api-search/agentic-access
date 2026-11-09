@@ -9,25 +9,25 @@ api_specs:
   label: jobopportunitiesapi-org Companies API
   slug: jobopportunitiesapi-org-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobopportunitiesapi-org/refs/heads/main/openapi/jobopportunitiesapi-org-companies-api-openapi.yml
+  url: https://artifacts.apis.io/jobopportunitiesapi-org/openapi/jobopportunitiesapi-org-companies-api-openapi.yml
 - filename: jobopportunitiesapi-org-jobs-api-openapi.yml
   format: yaml
   label: jobopportunitiesapi-org Jobs API
   slug: jobopportunitiesapi-org-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobopportunitiesapi-org/refs/heads/main/openapi/jobopportunitiesapi-org-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/jobopportunitiesapi-org/openapi/jobopportunitiesapi-org-jobs-api-openapi.yml
 - filename: jobopportunitiesapi-org-meta-api-openapi.yml
   format: yaml
   label: jobopportunitiesapi-org Meta API
   slug: jobopportunitiesapi-org-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobopportunitiesapi-org/refs/heads/main/openapi/jobopportunitiesapi-org-meta-api-openapi.yml
+  url: https://artifacts.apis.io/jobopportunitiesapi-org/openapi/jobopportunitiesapi-org-meta-api-openapi.yml
 - filename: jobopportunitiesapi-org-public-api-openapi.yml
   format: yaml
   label: jobopportunitiesapi-org Public API
   slug: jobopportunitiesapi-org-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobopportunitiesapi-org/refs/heads/main/openapi/jobopportunitiesapi-org-public-api-openapi.yml
+  url: https://artifacts.apis.io/jobopportunitiesapi-org/openapi/jobopportunitiesapi-org-public-api-openapi.yml
 consequence_counts:
   read: 19
   write: 1
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/jobopp
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/export-packs\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/export-packs/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs/closed\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs/expired\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/me/export-estimate\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/me/usage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/meta/facets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/meta/freshness\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/meta/providers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobopportunitiesapi-org/refs/heads/main/agentic-access/jobopportunitiesapi-org-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jobopportunitiesapi-org/agentic-access/jobopportunitiesapi-org-agentic-access.yml
 summary_line: 20 operations · 1 acting
 tags:
 - Job

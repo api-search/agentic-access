@@ -8,25 +8,25 @@ api_specs:
   label: Danish Meteorological Institutes Climate Data API
   slug: danish-meteorological-institutes-climatedata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-climatedata-api-openapi.yml
+  url: https://artifacts.apis.io/danish-meteorological-institutes/openapi/danish-meteorological-institutes-climatedata-api-openapi.yml
 - filename: danish-meteorological-institutes-lightningdata-api-openapi.yml
   format: yaml
   label: Danish Meteorological Institutes Lightning Data API
   slug: danish-meteorological-institutes-lightningdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-lightningdata-api-openapi.yml
+  url: https://artifacts.apis.io/danish-meteorological-institutes/openapi/danish-meteorological-institutes-lightningdata-api-openapi.yml
 - filename: danish-meteorological-institutes-metobs-api-openapi.yml
   format: yaml
   label: Danish Meteorological Institutes Met Obs API
   slug: danish-meteorological-institutes-metobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-metobs-api-openapi.yml
+  url: https://artifacts.apis.io/danish-meteorological-institutes/openapi/danish-meteorological-institutes-metobs-api-openapi.yml
 - filename: danish-meteorological-institutes-oceanobs-api-openapi.yml
   format: yaml
   label: Danish Meteorological Institutes Ocean Obs API
   slug: danish-meteorological-institutes-oceanobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/openapi/danish-meteorological-institutes-oceanobs-api-openapi.yml
+  url: https://artifacts.apis.io/danish-meteorological-institutes/openapi/danish-meteorological-institutes-oceanobs-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dmi-open-data-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /metObs/collections/observation/items\n  method: get\n  operationId: listMetObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metObs/collections/station/items\n  method: get\n  operationId: listMetStations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /climateData/collections/stationValue/items\n\
   \  method: get\n  operationId: listClimateStationValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oceanObs/collections/observation/items\n  method: get\n  operationId: listOceanObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lightningdata/collections/observation/items\n  method: get\n  operationId: listLightningObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/agentic-access/danish-meteorological-institutes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/danish-meteorological-institutes/agentic-access/danish-meteorological-institutes-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Climate

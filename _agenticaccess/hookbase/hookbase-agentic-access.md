@@ -9,199 +9,199 @@ api_specs:
   label: Hookbase Alert Rules API
   slug: hookbase-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-alert-rules-api-openapi.yml
 - filename: hookbase-analytics-api-openapi.yml
   format: yaml
   label: Hookbase Analytics API
   slug: hookbase-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-analytics-api-openapi.yml
 - filename: hookbase-audit-logs-api-openapi.yml
   format: yaml
   label: Hookbase Audit Logs API
   slug: hookbase-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-audit-logs-api-openapi.yml
 - filename: hookbase-cron-groups-api-openapi.yml
   format: yaml
   label: Hookbase Cron Groups API
   slug: hookbase-cron-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-cron-groups-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-cron-groups-api-openapi.yml
 - filename: hookbase-cron-jobs-api-openapi.yml
   format: yaml
   label: Hookbase Cron Jobs API
   slug: hookbase-cron-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-cron-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-cron-jobs-api-openapi.yml
 - filename: hookbase-custom-domains-api-openapi.yml
   format: yaml
   label: Hookbase Custom Domains API
   slug: hookbase-custom-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-custom-domains-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-custom-domains-api-openapi.yml
 - filename: hookbase-deliveries-api-openapi.yml
   format: yaml
   label: Hookbase Deliveries API
   slug: hookbase-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-deliveries-api-openapi.yml
 - filename: hookbase-delivery-clusters-api-openapi.yml
   format: yaml
   label: Hookbase Delivery Clusters API
   slug: hookbase-delivery-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-delivery-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-delivery-clusters-api-openapi.yml
 - filename: hookbase-destinations-api-openapi.yml
   format: yaml
   label: Hookbase Destinations API
   slug: hookbase-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-destinations-api-openapi.yml
 - filename: hookbase-event-types-api-openapi.yml
   format: yaml
   label: Hookbase Event Types API
   slug: hookbase-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-event-types-api-openapi.yml
 - filename: hookbase-events-api-openapi.yml
   format: yaml
   label: Hookbase Events API
   slug: hookbase-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-events-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-events-api-openapi.yml
 - filename: hookbase-filters-api-openapi.yml
   format: yaml
   label: Hookbase Filters API
   slug: hookbase-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-filters-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-filters-api-openapi.yml
 - filename: hookbase-notification-channels-api-openapi.yml
   format: yaml
   label: Hookbase Notification Channels API
   slug: hookbase-notification-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-notification-channels-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-notification-channels-api-openapi.yml
 - filename: hookbase-observability-otel-api-openapi.yml
   format: yaml
   label: Hookbase Observability (OTel) API
   slug: hookbase-observability-otel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-observability-otel-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-observability-otel-api-openapi.yml
 - filename: hookbase-operational-webhooks-api-openapi.yml
   format: yaml
   label: Hookbase Operational Webhooks API
   slug: hookbase-operational-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-operational-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-operational-webhooks-api-openapi.yml
 - filename: hookbase-outbound-messages-api-openapi.yml
   format: yaml
   label: Hookbase Outbound Messages API
   slug: hookbase-outbound-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-outbound-messages-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-outbound-messages-api-openapi.yml
 - filename: hookbase-portal-tokens-api-openapi.yml
   format: yaml
   label: Hookbase Portal Tokens API
   slug: hookbase-portal-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-portal-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-portal-tokens-api-openapi.yml
 - filename: hookbase-provider-catalog-api-openapi.yml
   format: yaml
   label: Hookbase Provider Catalog API
   slug: hookbase-provider-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-provider-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-provider-catalog-api-openapi.yml
 - filename: hookbase-publish-event-v1-api-openapi.yml
   format: yaml
   label: Hookbase Publish Event (v1) API
   slug: hookbase-publish-event-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-publish-event-v1-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-publish-event-v1-api-openapi.yml
 - filename: hookbase-realtime-api-openapi.yml
   format: yaml
   label: Hookbase Realtime API
   slug: hookbase-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-realtime-api-openapi.yml
 - filename: hookbase-redaction-policies-api-openapi.yml
   format: yaml
   label: Hookbase Redaction Policies API
   slug: hookbase-redaction-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-redaction-policies-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-redaction-policies-api-openapi.yml
 - filename: hookbase-routes-api-openapi.yml
   format: yaml
   label: Hookbase Routes API
   slug: hookbase-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-routes-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-routes-api-openapi.yml
 - filename: hookbase-scheduled-sends-api-openapi.yml
   format: yaml
   label: Hookbase Scheduled Sends API
   slug: hookbase-scheduled-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-scheduled-sends-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-scheduled-sends-api-openapi.yml
 - filename: hookbase-schemas-api-openapi.yml
   format: yaml
   label: Hookbase Schemas API
   slug: hookbase-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-schemas-api-openapi.yml
 - filename: hookbase-send-event-api-openapi.yml
   format: yaml
   label: Hookbase Send Event API
   slug: hookbase-send-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-send-event-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-send-event-api-openapi.yml
 - filename: hookbase-signature-testing-api-openapi.yml
   format: yaml
   label: Hookbase Signature Testing API
   slug: hookbase-signature-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-signature-testing-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-signature-testing-api-openapi.yml
 - filename: hookbase-sources-api-openapi.yml
   format: yaml
   label: Hookbase Sources API
   slug: hookbase-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-sources-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-sources-api-openapi.yml
 - filename: hookbase-transforms-api-openapi.yml
   format: yaml
   label: Hookbase Transforms API
   slug: hookbase-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-transforms-api-openapi.yml
 - filename: hookbase-tunnels-api-openapi.yml
   format: yaml
   label: Hookbase Tunnels API
   slug: hookbase-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-tunnels-api-openapi.yml
 - filename: hookbase-webhook-analytics-api-openapi.yml
   format: yaml
   label: Hookbase Webhook Analytics API
   slug: hookbase-webhook-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-webhook-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-webhook-analytics-api-openapi.yml
 - filename: hookbase-webhook-applications-api-openapi.yml
   format: yaml
   label: Hookbase Webhook Applications API
   slug: hookbase-webhook-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-webhook-applications-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-webhook-applications-api-openapi.yml
 - filename: hookbase-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Hookbase Webhook Endpoints API
   slug: hookbase-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-webhook-endpoints-api-openapi.yml
 - filename: hookbase-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Hookbase Webhook Subscriptions API
   slug: hookbase-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/openapi/hookbase-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/hookbase/openapi/hookbase-webhook-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 91
@@ -315,8 +315,8 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/hookba
   \  method: post\n  operationId: webhook_endpoints_rotate_endpoint_secret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhook-subscriptions\n  method: post\n  operationId: webhook_subscriptions_create_subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhook-subscriptions\n  method: get\n  operationId: webhook_subscriptions_list_subscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/webhook-subscriptions/{webhookSubscriptionId}\n  method: get\n  operationId: webhook_subscriptions_get_subscription_by_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhook-subscriptions/{webhookSubscriptionId}\n  method: patch\n  operationId: webhook_subscriptions_update_subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/send-event\n  method: post\n  operationId: send_event_send_event\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/outbound-messages\n  method: get\n  operationId: outbound_messages_list_outbound_messages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/outbound-messages/stats/summary\n  method: get\n  operationId: outbound_messages_outbound_message_stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/outbound-messages/{outboundMessageId}\n  method: get\n  operationId: outbound_messages_get_outbound_message_by_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/outbound-messages/{outboundMessageId}/attempts\n  method: get\n  operationId: outbound_messages_get_outbound_message_attempts\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/outbound-messages/{outboundMessageId}/replay\n  method: post\n  operationId: outbound_messages_replay_outbound_message\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/analytics\n  method: get\n  operationId: webhook_analytics_get_webhook_analytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/agentic-access/hookbase-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/heads/main/agentic-access/hookbase-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/outbound-messages/{outboundMessageId}/replay\n  method: post\n  operationId: outbound_messages_replay_outbound_message\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/analytics\n  method: get\n  operationId: webhook_analytics_get_webhook_analytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/hookbase/agentic-access/hookbase-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/hookbase/agentic-access/hookbase-agentic-access.yml
 summary_line: 182 operations · 91 acting · 3 human-in-the-loop
 tags:
 - Company

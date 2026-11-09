@@ -9,61 +9,61 @@ api_specs:
   label: Quay Build API
   slug: quay-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-build-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-build-api-openapi.yml
 - filename: quay-manifest-api-openapi.yml
   format: yaml
   label: Quay Manifest API
   slug: quay-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-manifest-api-openapi.yml
 - filename: quay-organization-api-openapi.yml
   format: yaml
   label: Quay Organization API
   slug: quay-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-organization-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-organization-api-openapi.yml
 - filename: quay-permission-api-openapi.yml
   format: yaml
   label: Quay Permission API
   slug: quay-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-permission-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-permission-api-openapi.yml
 - filename: quay-repository-api-openapi.yml
   format: yaml
   label: Quay Repository API
   slug: quay-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-repository-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-repository-api-openapi.yml
 - filename: quay-robot-api-openapi.yml
   format: yaml
   label: Quay Robot API
   slug: quay-robot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-robot-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-robot-api-openapi.yml
 - filename: quay-security-api-openapi.yml
   format: yaml
   label: Quay Security API
   slug: quay-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-security-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-security-api-openapi.yml
 - filename: quay-tag-api-openapi.yml
   format: yaml
   label: Quay Tag API
   slug: quay-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-tag-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-tag-api-openapi.yml
 - filename: quay-team-api-openapi.yml
   format: yaml
   label: Quay Team API
   slug: quay-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-team-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-team-api-openapi.yml
 - filename: quay-user-api-openapi.yml
   format: yaml
   label: Quay User API
   slug: quay-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-user-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-user-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quay-o
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repository/{repository}/build/\n  method: get\n  operationId: listRepoBuilds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repository/{repository}/build/\n  method: post\n  operationId: requestRepoBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/{orgname}\n  method: get\n  operationId: getOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/{orgname}/team/{teamname}\n  method: put\n\
   \  operationId: updateOrganizationTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/{orgname}/robots/{robot_shortname}\n  method: put\n  operationId: createOrgRobot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/\n  method: get\n  operationId: getLoggedInUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repository/{repository}/permissions/user/{username}\n  method: put\n  operationId: changeUserPermissions\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/agentic-access/quay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quay/agentic-access/quay-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Container Images

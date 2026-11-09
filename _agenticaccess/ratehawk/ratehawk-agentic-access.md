@@ -9,37 +9,37 @@ api_specs:
   label: RateHawk Booking API
   slug: ratehawk-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-booking-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-booking-api-openapi.yml
 - filename: ratehawk-cancellation-api-openapi.yml
   format: yaml
   label: RateHawk Cancellation API
   slug: ratehawk-cancellation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-cancellation-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-cancellation-api-openapi.yml
 - filename: ratehawk-hotel-content-api-openapi.yml
   format: yaml
   label: RateHawk Hotel Content API
   slug: ratehawk-hotel-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-hotel-content-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-hotel-content-api-openapi.yml
 - filename: ratehawk-hotel-search-api-openapi.yml
   format: yaml
   label: RateHawk Hotel Search API
   slug: ratehawk-hotel-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-hotel-search-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-hotel-search-api-openapi.yml
 - filename: ratehawk-orders-api-openapi.yml
   format: yaml
   label: RateHawk Orders API
   slug: ratehawk-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-orders-api-openapi.yml
 - filename: ratehawk-prebook-api-openapi.yml
   format: yaml
   label: RateHawk Prebook API
   slug: ratehawk-prebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/openapi/ratehawk-prebook-api-openapi.yml
+  url: https://artifacts.apis.io/ratehawk/openapi/ratehawk-prebook-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 5
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rateha
   \      - abnormal\n      - high-value\n    audit: required\n- path: /hotel/order/cancel/\n  method: post\n  operationId: orderCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hotel/info/\n  method: post\n  operationId: hotelInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hotel/info/dump/\n  method: post\n  operationId: hotelInfoDump\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/serp/region/\n  method: post\n  operationId: searchRegion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/serp/hotels/\n  method: post\n  operationId: searchHotels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/serp/geo/\n  method: post\n  operationId: searchGeo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/hp/\n  method: post\n  operationId: searchHotelPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /overview/\n  method: get\n  operationId: getOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotel/order/info/\n  method: post\n  operationId: orderInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hotel/prebook/\n  method: post\n  operationId: hotelPrebook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/agentic-access/ratehawk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ratehawk/agentic-access/ratehawk-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Travel

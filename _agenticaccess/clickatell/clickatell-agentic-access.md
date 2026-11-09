@@ -9,49 +9,49 @@ api_specs:
   label: Clickatell Chat 2 Pay API
   slug: clickatell-chat-2-pay-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickatell/refs/heads/main/openapi/clickatell-chat-2-pay-api-api-openapi.yml
+  url: https://artifacts.apis.io/clickatell/openapi/clickatell-chat-2-pay-api-api-openapi.yml
 - filename: clickatell-chat-2-pay-api-client-callbacks-api-openapi.yml
   format: yaml
   label: Clickatell Chat 2 Pay API Client Callbacks API
   slug: clickatell-chat-2-pay-api-client-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickatell/refs/heads/main/openapi/clickatell-chat-2-pay-api-client-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/clickatell/openapi/clickatell-chat-2-pay-api-client-callbacks-api-openapi.yml
 - filename: clickatell-external-link-callback-api-openapi.yml
   format: yaml
   label: Clickatell External Link Callback API
   slug: clickatell-external-link-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickatell/refs/heads/main/openapi/clickatell-external-link-callback-api-openapi.yml
+  url: https://artifacts.apis.io/clickatell/openapi/clickatell-external-link-callback-api-openapi.yml
 - filename: clickatell-one-api-api-openapi.yml
   format: yaml
   label: Clickatell One API
   slug: clickatell-one-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickatell/refs/heads/main/openapi/clickatell-one-api-api-openapi.yml
+  url: https://artifacts.apis.io/clickatell/openapi/clickatell-one-api-api-openapi.yml
 - filename: clickatell-one-api-client-callbacks-api-openapi.yml
   format: yaml
   label: Clickatell One API Client Callbacks API
   slug: clickatell-one-api-client-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickatell/refs/heads/main/openapi/clickatell-one-api-client-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/clickatell/openapi/clickatell-one-api-client-callbacks-api-openapi.yml
 - filename: clickatell-sms-api-api-openapi.yml
   format: yaml
   label: Clickatell SMS API
   slug: clickatell-sms-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickatell/refs/heads/main/openapi/clickatell-sms-api-api-openapi.yml
+  url: https://artifacts.apis.io/clickatell/openapi/clickatell-sms-api-api-openapi.yml
 - filename: clickatell-sms-client-callbacks-api-openapi.yml
   format: yaml
   label: Clickatell SMS Client Callbacks API
   slug: clickatell-sms-client-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickatell/refs/heads/main/openapi/clickatell-sms-client-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/clickatell/openapi/clickatell-sms-client-callbacks-api-openapi.yml
 - filename: clickatell-wait-for-callback-api-openapi.yml
   format: yaml
   label: Clickatell Wait for Callback API
   slug: clickatell-wait-for-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickatell/refs/heads/main/openapi/clickatell-wait-for-callback-api-openapi.yml
+  url: https://artifacts.apis.io/clickatell/openapi/clickatell-wait-for-callback-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 9
@@ -159,7 +159,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/clicka
   \ uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/balance\n  method: get\n  operationId: accountMessagingBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client-callback/sms-status\n  method: get\n  operationId: sendGetSmsStatusCallback\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client-callback/sms-status\n  method: post\n  operationId: sendPostSmsStatusCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n   \
   \   exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /client-callback/sms-reply\n  method: get\n  operationId: sendGetSmsReplyCallback\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client-callback/sms-reply\n  method: post\n  operationId: sendPostSmsReplyCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages\n  method: post\n  operationId: sendMessageREST_1\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/rest/bulk\n  method: post\n  operationId: sendBulkMessageREST\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/http/send\n  method: get\n  operationId: sendMessageHTTP\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickatell/refs/heads/main/agentic-access/clickatell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clickatell/agentic-access/clickatell-agentic-access.yml
 summary_line: 29 operations · 20 acting
 tags:
 - Company

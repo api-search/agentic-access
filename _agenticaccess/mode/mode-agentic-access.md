@@ -9,67 +9,67 @@ api_specs:
   label: Mode Account API
   slug: mode-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-account-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-account-api-openapi.yml
 - filename: mode-audit-logs-api-openapi.yml
   format: yaml
   label: Mode Audit Logs API
   slug: mode-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-audit-logs-api-openapi.yml
 - filename: mode-data-sources-api-openapi.yml
   format: yaml
   label: Mode Data Sources API
   slug: mode-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-data-sources-api-openapi.yml
 - filename: mode-datasets-api-openapi.yml
   format: yaml
   label: Mode Datasets API
   slug: mode-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-datasets-api-openapi.yml
 - filename: mode-definitions-api-openapi.yml
   format: yaml
   label: Mode Definitions API
   slug: mode-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-definitions-api-openapi.yml
 - filename: mode-groups-api-openapi.yml
   format: yaml
   label: Mode Groups API
   slug: mode-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-groups-api-openapi.yml
 - filename: mode-invites-api-openapi.yml
   format: yaml
   label: Mode Invites API
   slug: mode-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-invites-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-invites-api-openapi.yml
 - filename: mode-memberships-api-openapi.yml
   format: yaml
   label: Mode Memberships API
   slug: mode-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-memberships-api-openapi.yml
 - filename: mode-reports-api-openapi.yml
   format: yaml
   label: Mode Reports API
   slug: mode-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-reports-api-openapi.yml
 - filename: mode-spaces-api-openapi.yml
   format: yaml
   label: Mode Spaces API
   slug: mode-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-spaces-api-openapi.yml
 - filename: mode-verify-api-openapi.yml
   format: yaml
   label: Mode Verify API
   slug: mode-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/openapi/mode-verify-api-openapi.yml
+  url: https://artifacts.apis.io/mode/openapi/mode-verify-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 49
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/mode-o
   \ listGroupMemberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{workspace}/groups/{group_token}/memberships\n  method: post\n  operationId: createGroupMembership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{workspace}/groups/{group_token}/memberships/{membership_token}\n  method: get\n  operationId: getGroupMembership\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{workspace}/groups/{group_token}/memberships/{membership_token}\n  method: delete\n  operationId: deleteGroupMembership\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{workspace}/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{workspace}/groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{workspace}/groups/{group_token}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{workspace}/groups/{group_token}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{workspace}/groups/{group_token}\n  method: patch\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/agentic-access/mode-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mode/agentic-access/mode-agentic-access.yml
 summary_line: 94 operations · 45 acting
 tags:
 - Company

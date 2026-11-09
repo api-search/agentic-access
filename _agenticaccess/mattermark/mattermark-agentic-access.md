@@ -8,37 +8,37 @@ api_specs:
   label: Mattermark Companies API
   slug: mattermark-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-companies-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-companies-api-openapi.yml
 - filename: mattermark-complex-queries-api-openapi.yml
   format: yaml
   label: Mattermark Complex Queries API
   slug: mattermark-complex-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-complex-queries-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-complex-queries-api-openapi.yml
 - filename: mattermark-funding-events-api-openapi.yml
   format: yaml
   label: Mattermark Funding Events API
   slug: mattermark-funding-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-funding-events-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-funding-events-api-openapi.yml
 - filename: mattermark-investors-api-openapi.yml
   format: yaml
   label: Mattermark Investors API
   slug: mattermark-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-investors-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-investors-api-openapi.yml
 - filename: mattermark-search-api-openapi.yml
   format: yaml
   label: Mattermark Search API
   slug: mattermark-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-search-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-search-api-openapi.yml
 - filename: mattermark-utilities-api-openapi.yml
   format: yaml
   label: Mattermark Utilities API
   slug: mattermark-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/mattermark/openapi/mattermark-utilities-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/matter
   \ get\n  operationId: get_company\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{id}/stories\n  method: get\n  operationId: get_company_stories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{id}/similar\n  method: get\n  operationId: get_similar_companies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{id}/people\n  method: get\n  operationId: get_company_personnel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries\n  method: post\n  operationId: query_investors\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fundings\n  method: get\n  operationId: searchFunding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investors/{id}\n  method: get\n  operationId: get_investor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investors/{id}/portfolio\n  method: get\n  operationId: get_investor_portfolio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ratelimit/usage\n  method: get\n  operationId: quota\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/agentic-access/mattermark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mattermark/agentic-access/mattermark-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Company

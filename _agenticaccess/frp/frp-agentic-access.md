@@ -9,55 +9,55 @@ api_specs:
   label: frp Clients API
   slug: frp-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-clients-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-clients-api-openapi.yml
 - filename: frp-configuration-api-openapi.yml
   format: yaml
   label: frp Configuration API
   slug: frp-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-configuration-api-openapi.yml
 - filename: frp-health-api-openapi.yml
   format: yaml
   label: frp Health API
   slug: frp-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-health-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-health-api-openapi.yml
 - filename: frp-lifecycle-api-openapi.yml
   format: yaml
   label: frp Lifecycle API
   slug: frp-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-lifecycle-api-openapi.yml
 - filename: frp-metrics-api-openapi.yml
   format: yaml
   label: frp Metrics API
   slug: frp-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-metrics-api-openapi.yml
 - filename: frp-proxies-api-openapi.yml
   format: yaml
   label: frp Proxies API
   slug: frp-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-proxies-api-openapi.yml
 - filename: frp-server-api-openapi.yml
   format: yaml
   label: frp Server API
   slug: frp-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-server-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-server-api-openapi.yml
 - filename: frp-status-api-openapi.yml
   format: yaml
   label: frp Status API
   slug: frp-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-status-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-status-api-openapi.yml
 - filename: frp-store-api-openapi.yml
   format: yaml
   label: frp Store API
   slug: frp-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-store-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-store-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 1
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/frp-cl
   \ updateStoreVisitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/store/visitors/{name}\n  method: delete\n  operationId: deleteStoreVisitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /healthz\n  method: get\n  operationId: getHealthz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  operationId: getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/serverinfo\n  method: get\n  operationId: getServerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/clients\n  method: get\n  operationId: listClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/clients/{key}\n  method: get\n  operationId: getClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/proxy/{type}\n  method: get\n  operationId: listProxiesByType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/proxy/{type}/{name}\n  method: get\n  operationId:\
   \ getProxyByTypeAndName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/proxies/{name}\n  method: get\n  operationId: getProxyByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/proxies\n  method: delete\n  operationId: deleteOfflineProxies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/traffic/{name}\n  method: get\n  operationId: getProxyTraffic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/agentic-access/frp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/frp/agentic-access/frp-agentic-access.yml
 summary_line: 28 operations · 9 acting · 1 human-in-the-loop
 tags:
 - NAT Traversal

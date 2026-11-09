@@ -9,85 +9,85 @@ api_specs:
   label: Kita Applications API
   slug: kita-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-applications-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-applications-api-openapi.yml
 - filename: kita-batch-api-openapi.yml
   format: yaml
   label: Kita Batch API
   slug: kita-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-batch-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-batch-api-openapi.yml
 - filename: kita-conversation-api-openapi.yml
   format: yaml
   label: Kita Conversation API
   slug: kita-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-conversation-api-openapi.yml
 - filename: kita-credit-api-openapi.yml
   format: yaml
   label: Kita Credit API
   slug: kita-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-credit-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-credit-api-openapi.yml
 - filename: kita-documents-api-openapi.yml
   format: yaml
   label: Kita Documents API
   slug: kita-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-documents-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-documents-api-openapi.yml
 - filename: kita-exports-api-openapi.yml
   format: yaml
   label: Kita Exports API
   slug: kita-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-exports-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-exports-api-openapi.yml
 - filename: kita-folders-api-openapi.yml
   format: yaml
   label: Kita Folders API
   slug: kita-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-folders-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-folders-api-openapi.yml
 - filename: kita-memo-api-openapi.yml
   format: yaml
   label: Kita Memo API
   slug: kita-memo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-memo-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-memo-api-openapi.yml
 - filename: kita-processing-api-openapi.yml
   format: yaml
   label: Kita Processing API
   slug: kita-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-processing-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-processing-api-openapi.yml
 - filename: kita-results-api-openapi.yml
   format: yaml
   label: Kita Results API
   slug: kita-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-results-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-results-api-openapi.yml
 - filename: kita-schemas-api-openapi.yml
   format: yaml
   label: Kita Schemas API
   slug: kita-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-schemas-api-openapi.yml
 - filename: kita-transcripts-api-openapi.yml
   format: yaml
   label: Kita Transcripts API
   slug: kita-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-transcripts-api-openapi.yml
 - filename: kita-verification-api-openapi.yml
   format: yaml
   label: Kita Verification API
   slug: kita-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-verification-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-verification-api-openapi.yml
 - filename: kita-webhooks-api-openapi.yml
   format: yaml
   label: Kita Webhooks API
   slug: kita-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/openapi/kita-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/kita/openapi/kita-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 31
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kita-a
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{webhookId}/test\n  method: post\n  operationId: testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{webhookId}/rotate-secret\n  method: post\n  operationId: rotateWebhookSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/v1/webhooks/{webhookId}/secret\n  method: get\n  operationId: getWebhookSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks/{webhookId}/deliveries\n  method: get\n  operationId: listWebhookDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks/stats\n  method: get\n  operationId: getWebhookStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks/dlq\n  method: get\n  operationId: getWebhookDeadLetterQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks/validate-url\n\
   \  method: post\n  operationId: validateWebhookUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/verify-signature\n  method: post\n  operationId: verifyWebhookSignature\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/agentic-access/kita-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kita/agentic-access/kita-agentic-access.yml
 summary_line: 52 operations · 21 acting
 tags:
 - Company

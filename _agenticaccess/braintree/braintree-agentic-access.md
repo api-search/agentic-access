@@ -9,61 +9,61 @@ api_specs:
   label: Braintree Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/asyncapi/braintree-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/braintree/asyncapi/braintree-webhooks-asyncapi.yml
 - filename: braintree-add-ons-api-openapi.yml
   format: yaml
   label: braintree Add-Ons API
   slug: braintree-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-add-ons-api-openapi.yml
 - filename: braintree-client-tokens-api-openapi.yml
   format: yaml
   label: braintree Client Tokens API
   slug: braintree-client-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-client-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-client-tokens-api-openapi.yml
 - filename: braintree-customers-api-openapi.yml
   format: yaml
   label: braintree Customers API
   slug: braintree-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-customers-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-customers-api-openapi.yml
 - filename: braintree-discounts-api-openapi.yml
   format: yaml
   label: braintree Discounts API
   slug: braintree-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-discounts-api-openapi.yml
 - filename: braintree-disputes-api-openapi.yml
   format: yaml
   label: braintree Disputes API
   slug: braintree-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-disputes-api-openapi.yml
 - filename: braintree-payment-methods-api-openapi.yml
   format: yaml
   label: braintree Payment Methods API
   slug: braintree-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-payment-methods-api-openapi.yml
 - filename: braintree-plans-api-openapi.yml
   format: yaml
   label: braintree Plans API
   slug: braintree-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-plans-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-plans-api-openapi.yml
 - filename: braintree-subscriptions-api-openapi.yml
   format: yaml
   label: braintree Subscriptions API
   slug: braintree-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-subscriptions-api-openapi.yml
 - filename: braintree-transactions-api-openapi.yml
   format: yaml
   label: braintree Transactions API
   slug: braintree-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-transactions-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 9
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/braint
   \ put\n  operationId: acceptDispute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plans\n  method: get\n  operationId: listPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /add_ons\n  method: get\n  operationId: listAddOns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discounts\n  method: get\n  operationId: listDiscounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}\n  method: put\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/cancel\n  method: put\n  operationId: cancelSubscription\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/retry_charge\n  method: post\n  operationId: retrySubscriptionCharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/agentic-access/braintree-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/braintree/agentic-access/braintree-agentic-access.yml
 summary_line: 25 operations · 16 acting
 tags:
 - Payments

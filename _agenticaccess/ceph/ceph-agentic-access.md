@@ -9,37 +9,37 @@ api_specs:
   label: Ceph Auth API
   slug: ceph-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-auth-api-openapi.yml
 - filename: ceph-cluster-api-openapi.yml
   format: yaml
   label: Ceph Cluster API
   slug: ceph-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-cluster-api-openapi.yml
 - filename: ceph-configuration-api-openapi.yml
   format: yaml
   label: Ceph Configuration API
   slug: ceph-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-configuration-api-openapi.yml
 - filename: ceph-crush-api-openapi.yml
   format: yaml
   label: Ceph CRUSH API
   slug: ceph-crush-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-crush-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-crush-api-openapi.yml
 - filename: ceph-daemon-api-openapi.yml
   format: yaml
   label: Ceph Daemon API
   slug: ceph-daemon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-daemon-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-daemon-api-openapi.yml
 - filename: ceph-user-api-openapi.yml
   format: yaml
   label: Ceph User API
   slug: ceph-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/openapi/ceph-user-api-openapi.yml
+  url: https://artifacts.apis.io/ceph/openapi/ceph-user-api-openapi.yml
 consequence_counts:
   read: 6
   write: 12
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ceph-o
   \  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cluster_conf\n  method: get\n  operationId: listClusterConf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cluster_conf\n  method: post\n  operationId: setClusterConf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cluster_conf/filter\n  method: get\n  operationId: filterClusterConf\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cluster_conf/{name}\n  method: delete\n  operationId: deleteClusterConf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /daemon\n  method: get\n  operationId: listDaemons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /daemon/{daemon_name}\n  method: put\n  operationId: daemonAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /crush_rule\n  method: get\n  operationId: listCrushRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crush_rule\n  method: post\n  operationId: createCrushRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crush_rule/{name}\n  method: delete\n  operationId: deleteCrushRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/agentic-access/ceph-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ceph/agentic-access/ceph-agentic-access.yml
 summary_line: 18 operations · 12 acting
 tags:
 - Storage

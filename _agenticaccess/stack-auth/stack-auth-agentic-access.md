@@ -9,79 +9,79 @@ api_specs:
   label: Stack Auth API
   slug: stack-auth-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-auth-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-auth-api-openapi.yml
 - filename: stack-auth-connected-accounts-api-openapi.yml
   format: yaml
   label: Stack Auth Connected Accounts API
   slug: stack-auth-connected-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-connected-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-connected-accounts-api-openapi.yml
 - filename: stack-auth-contact-channels-api-openapi.yml
   format: yaml
   label: Stack Auth Contact Channels API
   slug: stack-auth-contact-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-contact-channels-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-contact-channels-api-openapi.yml
 - filename: stack-auth-emails-api-openapi.yml
   format: yaml
   label: Stack Auth Emails API
   slug: stack-auth-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-emails-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-emails-api-openapi.yml
 - filename: stack-auth-sessions-api-openapi.yml
   format: yaml
   label: Stack Auth Sessions API
   slug: stack-auth-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-sessions-api-openapi.yml
 - filename: stack-auth-stack-auth-rest-api-api-openapi.yml
   format: yaml
   label: Stack Auth Stack Auth REST API
   slug: stack-auth-stack-auth-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-stack-auth-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-stack-auth-rest-api-api-openapi.yml
 - filename: stack-auth-team-api-keys-api-openapi.yml
   format: yaml
   label: Stack Auth Team Api Keys API
   slug: stack-auth-team-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-team-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-team-api-keys-api-openapi.yml
 - filename: stack-auth-team-memberships-api-openapi.yml
   format: yaml
   label: Stack Auth Team Memberships API
   slug: stack-auth-team-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-team-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-team-memberships-api-openapi.yml
 - filename: stack-auth-team-permissions-api-openapi.yml
   format: yaml
   label: Stack Auth Team Permissions API
   slug: stack-auth-team-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-team-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-team-permissions-api-openapi.yml
 - filename: stack-auth-teams-api-openapi.yml
   format: yaml
   label: Stack Auth Teams API
   slug: stack-auth-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-teams-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-teams-api-openapi.yml
 - filename: stack-auth-user-api-keys-api-openapi.yml
   format: yaml
   label: Stack Auth User Api Keys API
   slug: stack-auth-user-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-user-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-user-api-keys-api-openapi.yml
 - filename: stack-auth-users-api-openapi.yml
   format: yaml
   label: Stack Auth Users API
   slug: stack-auth-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-users-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-users-api-openapi.yml
 - filename: stack-auth-webhooks-api-openapi.yml
   format: yaml
   label: Stack Auth Webhooks API
   slug: stack-auth-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/openapi/stack-auth-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/stack-auth/openapi/stack-auth-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 17
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stack-
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contact-channels/{user_id}/{contact_channel_id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contact-channels/{user_id}/{contact_channel_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /emails/send-email\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n\
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /emails/outbox\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connected-accounts/{user_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/agentic-access/stack-auth-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stack-auth/agentic-access/stack-auth-agentic-access.yml
 summary_line: 45 operations · 28 acting
 tags:
 - Authentication

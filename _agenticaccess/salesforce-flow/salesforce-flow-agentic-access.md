@@ -9,19 +9,19 @@ api_specs:
   label: Salesforce Flow Definitions API
   slug: salesforce-flow-flow-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-flow/openapi/salesforce-flow-flow-definitions-api-openapi.yml
 - filename: salesforce-flow-flow-interviews-api-openapi.yml
   format: yaml
   label: Salesforce Flow Interviews API
   slug: salesforce-flow-flow-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-flow/openapi/salesforce-flow-flow-interviews-api-openapi.yml
 - filename: salesforce-flow-invocable-actions-api-openapi.yml
   format: yaml
   label: Salesforce Flow Invocable Actions API
   slug: salesforce-flow-invocable-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-invocable-actions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-flow/openapi/salesforce-flow-invocable-actions-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/salesf
   \  method: patch\n  operationId: updateFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sobjects/FlowInterview\n  method: post\n  operationId: createFlowInterview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sobjects/FlowInterview/{interviewId}\n  method: get\n  operationId: getFlowInterview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sobjects/FlowInterview/{interviewId}\n  method: delete\n  operationId:\
   \ deleteFlowInterview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /actions/custom/flow\n  method: get\n  operationId: listInvocableFlows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /actions/custom/flow/{flowApiName}\n  method: get\n  operationId: getInvocableFlowMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /actions/custom/flow/{flowApiName}\n  method: post\n  operationId: invokeFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /query\n  method: get\n  operationId: queryFlows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/agentic-access/salesforce-flow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-flow/agentic-access/salesforce-flow-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Automation

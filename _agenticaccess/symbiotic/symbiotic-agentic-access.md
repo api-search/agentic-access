@@ -9,7 +9,7 @@ api_specs:
   label: Symbiotic SymbioticAPIService API
   slug: symbiotic-symbioticapiservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symbiotic/refs/heads/main/openapi/symbiotic-symbioticapiservice-api-openapi.yml
+  url: https://artifacts.apis.io/symbiotic/openapi/symbiotic-symbioticapiservice-api-openapi.yml
 consequence_counts:
   read: 21
   write: 1
@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/symbio
   \ get\n  operationId: SymbioticAPIService_ListenSignatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stream/validator-set\n  method: get\n  operationId: SymbioticAPIService_ListenValidatorSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validator-set\n  method: get\n  operationId: SymbioticAPIService_GetValidatorSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validator-set/custom-schedule/node-status\n  method: get\n  operationId: SymbioticAPIService_GetCustomScheduleNodeStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validator-set/header\n\
   \  method: get\n  operationId: SymbioticAPIService_GetValidatorSetHeader\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validator-set/metadata\n  method: get\n  operationId: SymbioticAPIService_GetValidatorSetMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validator/address/{address}\n  method: get\n  operationId: SymbioticAPIService_GetValidatorByAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validator/key/{keyTag}/{onChainKey}\n  method: get\n  operationId: SymbioticAPIService_GetValidatorByKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/validator/local\n  method: get\n  operationId: SymbioticAPIService_GetLocalValidator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/symbiotic/refs/heads/main/agentic-access/symbiotic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/symbiotic/agentic-access/symbiotic-agentic-access.yml
 summary_line: 22 operations · 1 acting
 tags:
 - Company

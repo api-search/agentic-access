@@ -9,73 +9,73 @@ api_specs:
   label: Dodo Payments Checkout Sessions API
   slug: dodo-payments-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-checkout-sessions-api-openapi.yml
 - filename: dodo-payments-customers-api-openapi.yml
   format: yaml
   label: Dodo Payments Customers API
   slug: dodo-payments-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-customers-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-customers-api-openapi.yml
 - filename: dodo-payments-discounts-api-openapi.yml
   format: yaml
   label: Dodo Payments Discounts API
   slug: dodo-payments-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-discounts-api-openapi.yml
 - filename: dodo-payments-disputes-api-openapi.yml
   format: yaml
   label: Dodo Payments Disputes API
   slug: dodo-payments-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-disputes-api-openapi.yml
 - filename: dodo-payments-license-keys-api-openapi.yml
   format: yaml
   label: Dodo Payments License Keys API
   slug: dodo-payments-license-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-license-keys-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-license-keys-api-openapi.yml
 - filename: dodo-payments-licenses-api-openapi.yml
   format: yaml
   label: Dodo Payments Licenses API
   slug: dodo-payments-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-licenses-api-openapi.yml
 - filename: dodo-payments-payments-api-openapi.yml
   format: yaml
   label: Dodo Payments API
   slug: dodo-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-payments-api-openapi.yml
 - filename: dodo-payments-payouts-api-openapi.yml
   format: yaml
   label: Dodo Payments Payouts API
   slug: dodo-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-payouts-api-openapi.yml
 - filename: dodo-payments-products-api-openapi.yml
   format: yaml
   label: Dodo Payments Products API
   slug: dodo-payments-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-products-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-products-api-openapi.yml
 - filename: dodo-payments-refunds-api-openapi.yml
   format: yaml
   label: Dodo Payments Refunds API
   slug: dodo-payments-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-refunds-api-openapi.yml
 - filename: dodo-payments-subscriptions-api-openapi.yml
   format: yaml
   label: Dodo Payments Subscriptions API
   slug: dodo-payments-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-subscriptions-api-openapi.yml
 - filename: dodo-payments-webhooks-api-openapi.yml
   format: yaml
   label: Dodo Payments Webhooks API
   slug: dodo-payments-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/openapi/dodo-payments-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dodo-payments/openapi/dodo-payments-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 24
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dodo-p
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disputes\n  method: get\n  operationId: listDisputes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disputes/{dispute_id}\n  method: get\n  operationId: getDispute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}/headers\n\
   \  method: get\n  operationId: getWebhookHeaders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}/headers\n  method: patch\n  operationId: updateWebhookHeaders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}/secret\n  method: get\n  operationId: getWebhookSigningKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/agentic-access/dodo-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dodo-payments/agentic-access/dodo-payments-agentic-access.yml
 summary_line: 49 operations · 25 acting
 tags:
 - Payments

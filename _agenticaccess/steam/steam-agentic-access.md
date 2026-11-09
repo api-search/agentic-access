@@ -8,25 +8,25 @@ api_specs:
   label: Steam IPlayerService API
   slug: steam-iplayerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-iplayerservice-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-iplayerservice-api-openapi.yml
 - filename: steam-isteamnews-api-openapi.yml
   format: yaml
   label: Steam ISteamNews API
   slug: steam-isteamnews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamnews-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-isteamnews-api-openapi.yml
 - filename: steam-isteamuser-api-openapi.yml
   format: yaml
   label: Steam ISteamUser API
   slug: steam-isteamuser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuser-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-isteamuser-api-openapi.yml
 - filename: steam-isteamuserstats-api-openapi.yml
   format: yaml
   label: Steam ISteamUserStats API
   slug: steam-isteamuserstats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuserstats-api-openapi.yml
+  url: https://artifacts.apis.io/steam/openapi/steam-isteamuserstats-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/steam-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /ISteamNews/GetNewsForApp/v2/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ISteamUserStats/GetGlobalStatsForGame/v1/\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ISteamUserStats/GetNumberOfCurrentPlayers/v1/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ISteamUser/GetPlayerSummaries/v2/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ISteamUser/GetFriendList/v1/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ISteamUser/GetPlayerBans/v1/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ISteamUser/ResolveVanityURL/v1/\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /IPlayerService/GetOwnedGames/v1/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /IPlayerService/GetRecentlyPlayedGames/v1/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /IPlayerService/GetSteamLevel/v1/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/agentic-access/steam-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/steam/agentic-access/steam-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Gaming

@@ -9,79 +9,79 @@ api_specs:
   label: Dapr Actors API
   slug: dapr-actors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-actors-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-actors-api-openapi.yml
 - filename: dapr-bindings-api-openapi.yml
   format: yaml
   label: Dapr Bindings API
   slug: dapr-bindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-bindings-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-bindings-api-openapi.yml
 - filename: dapr-configuration-api-openapi.yml
   format: yaml
   label: Dapr Configuration API
   slug: dapr-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-configuration-api-openapi.yml
 - filename: dapr-cryptography-api-openapi.yml
   format: yaml
   label: Dapr Cryptography API
   slug: dapr-cryptography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-cryptography-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-cryptography-api-openapi.yml
 - filename: dapr-distributedlock-api-openapi.yml
   format: yaml
   label: Dapr DistributedLock API
   slug: dapr-distributedlock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-distributedlock-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-distributedlock-api-openapi.yml
 - filename: dapr-health-api-openapi.yml
   format: yaml
   label: Dapr Health API
   slug: dapr-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-health-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-health-api-openapi.yml
 - filename: dapr-jobs-api-openapi.yml
   format: yaml
   label: Dapr Jobs API
   slug: dapr-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-jobs-api-openapi.yml
 - filename: dapr-metadata-api-openapi.yml
   format: yaml
   label: Dapr Metadata API
   slug: dapr-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-metadata-api-openapi.yml
 - filename: dapr-pubsub-api-openapi.yml
   format: yaml
   label: Dapr PubSub API
   slug: dapr-pubsub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-pubsub-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-pubsub-api-openapi.yml
 - filename: dapr-secrets-api-openapi.yml
   format: yaml
   label: Dapr Secrets API
   slug: dapr-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-secrets-api-openapi.yml
 - filename: dapr-state-api-openapi.yml
   format: yaml
   label: Dapr State API
   slug: dapr-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-state-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-state-api-openapi.yml
 - filename: dapr-workflow-api-openapi.yml
   format: yaml
   label: Dapr Workflow API
   slug: dapr-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-workflow-api-openapi.yml
 - filename: dapr-service-invocation-api-openapi.yml
   format: yaml
   label: Dapr Service Invocation API
   slug: dapr-service-invocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/openapi/dapr-service-invocation-api-openapi.yml
+  url: https://artifacts.apis.io/dapr/openapi/dapr-service-invocation-api-openapi.yml
 consequence_counts:
   read: 18
   safety-critical: 1
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dapr-a
   \ 3600\n    audit: none\n- path: /v1.0/workflows/{workflowComponentName}/{instanceId}/terminate\n  method: post\n  operationId: terminateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1.0/workflows/{workflowComponentName}/{instanceId}/raiseEvent/{eventName}\n  method: post\n  operationId: raiseWorkflowEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/workflows/{workflowComponentName}/{instanceId}/pause\n  method: post\n  operationId: pauseWorkflow\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/workflows/{workflowComponentName}/{instanceId}/resume\n  method: post\n  operationId: resumeWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/workflows/{workflowComponentName}/{instanceId}/purge\n  method: post\n  operationId: purgeWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/agentic-access/dapr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dapr/agentic-access/dapr-agentic-access.yml
 summary_line: 49 operations · 31 acting · 1 human-in-the-loop
 tags:
 - Dapr

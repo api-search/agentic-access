@@ -9,19 +9,19 @@ api_specs:
   label: Penn Courses API (Penn Course Alert / Plan / Review / Degree Plan)
   slug: penn-courses
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-accounts-user-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pennsylvania/openapi/university-of-pennsylvania-accounts-user-api-openapi.yml
 - filename: university-of-pennsylvania-catalog-api-openapi.yml
   format: yaml
   label: University of Pennsylvania Catalog API
   slug: university-of-pennsylvania-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pennsylvania/openapi/university-of-pennsylvania-catalog-api-openapi.yml
 - filename: university-of-pennsylvania-request-api-openapi.yml
   format: yaml
   label: University of Pennsylvania Request API
   slug: university-of-pennsylvania-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/openapi/university-of-pennsylvania-request-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-pennsylvania/openapi/university-of-pennsylvania-request-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 38
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/univer
   \ Degrees Degree Plan Detail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/degree/degreeplans/{degreeplan_pk}/fulfillments/{full_code}/override\n  method: post\n  operationId: Add Override Fulfillment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/degree/degreeplans/{degreeplan_pk}/fulfillments/{full_code}/switch-rule\n  method: post\n  operationId: Switch Rule Fulfillment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/degree/onboard-from-transcript/{degree_plan_id}\n  method: post\n  operationId: Create Onboard From Transcript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/degree/degreeplans/{degreeplan_pk}/fulfillments/{full_code}/override/{rule_id}\n  method: delete\n  operationId: Remove Override Fulfillment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n\
   \      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/agentic-access/university-of-pennsylvania-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/university-of-pennsylvania/agentic-access/university-of-pennsylvania-agentic-access.yml
 summary_line: 68 operations · 30 acting · 2 human-in-the-loop
 tags:
 - Education

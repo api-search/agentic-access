@@ -8,61 +8,61 @@ api_specs:
   label: Recreation.gov Activities API
   slug: recreation-gov-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-activities-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-activities-api-openapi.yml
 - filename: recreation-gov-campsites-api-openapi.yml
   format: yaml
   label: Recreation.gov Campsites API
   slug: recreation-gov-campsites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-campsites-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-campsites-api-openapi.yml
 - filename: recreation-gov-events-api-openapi.yml
   format: yaml
   label: Recreation.gov Events API
   slug: recreation-gov-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-events-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-events-api-openapi.yml
 - filename: recreation-gov-facilities-api-openapi.yml
   format: yaml
   label: Recreation.gov Facilities API
   slug: recreation-gov-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-facilities-api-openapi.yml
 - filename: recreation-gov-links-api-openapi.yml
   format: yaml
   label: Recreation.gov Links API
   slug: recreation-gov-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-links-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-links-api-openapi.yml
 - filename: recreation-gov-media-api-openapi.yml
   format: yaml
   label: Recreation.gov Media API
   slug: recreation-gov-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-media-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-media-api-openapi.yml
 - filename: recreation-gov-organizations-api-openapi.yml
   format: yaml
   label: Recreation.gov Organizations API
   slug: recreation-gov-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-organizations-api-openapi.yml
 - filename: recreation-gov-permitentrances-api-openapi.yml
   format: yaml
   label: Recreation.gov Permitentrances API
   slug: recreation-gov-permitentrances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-permitentrances-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-permitentrances-api-openapi.yml
 - filename: recreation-gov-recareas-api-openapi.yml
   format: yaml
   label: Recreation.gov Recareas API
   slug: recreation-gov-recareas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-recareas-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-recareas-api-openapi.yml
 - filename: recreation-gov-tours-api-openapi.yml
   format: yaml
   label: Recreation.gov Tours API
   slug: recreation-gov-tours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/openapi/recreation-gov-tours-api-openapi.yml
+  url: https://artifacts.apis.io/recreation-gov/openapi/recreation-gov-tours-api-openapi.yml
 consequence_counts:
   read: 25
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/recrea
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recareas/{id}/activities\n  method: get\n  operationId: listRecAreaActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recareas/{id}/facilities\n  method: get\n  operationId: listRecAreaFacilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recareas/{id}/media\n  method: get\n  operationId: listRecAreaMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tours\n  method: get\n  operationId: listTours\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /tours/{id}\n  method: get\n  operationId: getTour\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /permitentrances\n  method: get\n  operationId: listPermitEntrances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /permitentrances/{id}\n  method: get\n  operationId: getPermitEntrance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /media\n  method: get\n  operationId: listMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /links\n  method: get\n  operationId: listLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations\n  method: get\n  operationId: listOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{id}\n  method: get\n  operationId: getOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/agentic-access/recreation-gov-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/recreation-gov/agentic-access/recreation-gov-agentic-access.yml
 summary_line: 25 operations
 tags:
 - Recreation

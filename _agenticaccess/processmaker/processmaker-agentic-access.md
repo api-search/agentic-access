@@ -9,61 +9,61 @@ api_specs:
   label: ProcessMaker Environment Variables API
   slug: processmaker-environment-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-environment-variables-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-environment-variables-api-openapi.yml
 - filename: processmaker-files-api-openapi.yml
   format: yaml
   label: ProcessMaker Files API
   slug: processmaker-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-files-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-files-api-openapi.yml
 - filename: processmaker-groups-api-openapi.yml
   format: yaml
   label: ProcessMaker Groups API
   slug: processmaker-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-groups-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-groups-api-openapi.yml
 - filename: processmaker-notifications-api-openapi.yml
   format: yaml
   label: ProcessMaker Notifications API
   slug: processmaker-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-notifications-api-openapi.yml
 - filename: processmaker-processes-api-openapi.yml
   format: yaml
   label: ProcessMaker Processes API
   slug: processmaker-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-processes-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-processes-api-openapi.yml
 - filename: processmaker-requests-api-openapi.yml
   format: yaml
   label: ProcessMaker Requests API
   slug: processmaker-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-requests-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-requests-api-openapi.yml
 - filename: processmaker-screens-api-openapi.yml
   format: yaml
   label: ProcessMaker Screens API
   slug: processmaker-screens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-screens-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-screens-api-openapi.yml
 - filename: processmaker-settings-api-openapi.yml
   format: yaml
   label: ProcessMaker Settings API
   slug: processmaker-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-settings-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-settings-api-openapi.yml
 - filename: processmaker-tasks-api-openapi.yml
   format: yaml
   label: ProcessMaker Tasks API
   slug: processmaker-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-tasks-api-openapi.yml
 - filename: processmaker-users-api-openapi.yml
   format: yaml
   label: ProcessMaker Users API
   slug: processmaker-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/openapi/processmaker-users-api-openapi.yml
+  url: https://artifacts.apis.io/processmaker/openapi/processmaker-users-api-openapi.yml
 consequence_counts:
   read: 26
   write: 38
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/proces
   \ none\n- path: /files/{file_id}\n  method: put\n  operationId: updateFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{file_id}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notifications\n  method: get\n  operationId: getNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications\n  method: post\n  operationId: createNotification\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notifications/{notification_id}\n  method: get\n  operationId: getNotificationsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications/{notification_id}\n  method: put\n  operationId: updateNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notifications/{notification_id}\n  method: delete\n  operationId: deleteNotification\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings\n  method: get\n  operationId: getSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/{setting_id}\n  method: put\n  operationId: updateSetting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/agentic-access/processmaker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/processmaker/agentic-access/processmaker-agentic-access.yml
 summary_line: 64 operations · 38 acting
 tags:
 - Business Process Management

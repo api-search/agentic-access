@@ -9,49 +9,49 @@ api_specs:
   label: Rocket Lawyer Binders API
   slug: rocket-lawyer-binders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-binders-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-binders-api-openapi.yml
 - filename: rocket-lawyer-documents-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Documents API
   slug: rocket-lawyer-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-documents-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-documents-api-openapi.yml
 - filename: rocket-lawyer-event-consumption-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Event Consumption API
   slug: rocket-lawyer-event-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-event-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-event-consumption-api-openapi.yml
 - filename: rocket-lawyer-interviews-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Interviews API
   slug: rocket-lawyer-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-interviews-api-openapi.yml
 - filename: rocket-lawyer-servicetoken-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Servicetoken API
   slug: rocket-lawyer-servicetoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-servicetoken-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-servicetoken-api-openapi.yml
 - filename: rocket-lawyer-subscription-management-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Subscription Management API
   slug: rocket-lawyer-subscription-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-subscription-management-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-subscription-management-api-openapi.yml
 - filename: rocket-lawyer-templates-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Templates API
   slug: rocket-lawyer-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-templates-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-templates-api-openapi.yml
 - filename: rocket-lawyer-access-token-api-openapi.yml
   format: yaml
   label: Rocket Lawyer Access Token API
   slug: rocket-lawyer-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/openapi/rocket-lawyer-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-lawyer/openapi/rocket-lawyer-access-token-api-openapi.yml
 consequence_counts:
   read: 17
   write: 34
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rocket
   \ POST_binders-binderId-requests-finalisations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /binders/{binderId}/requests/invitations\n  method: post\n  operationId: POST_binders-binderId-requests-invitations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /binders/{binderId}/requests/cancellations\n  method: post\n  operationId: POST_binders-binderId-requests-cancellations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /binders/{binderId}/requests/signatures\n  method: post\n  operationId: POST_binders-binderId-requests-signatures\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /binders/{binderId}/requests/declines\n  method: post\n  operationId: POST_binders-binderId-requests-declines\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /binders/{binderId}/requests/reminders\n  method: post\n  operationId:\
   \ POST_binders-binderId-requests-reminders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /binders/{binderId}/requests/viewers\n  method: post\n  operationId: POST_binders-binderId-requests-viewers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/agentic-access/rocket-lawyer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rocket-lawyer/agentic-access/rocket-lawyer-agentic-access.yml
 summary_line: 51 operations · 34 acting
 tags:
 - Legal

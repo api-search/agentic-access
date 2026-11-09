@@ -9,37 +9,37 @@ api_specs:
   label: Nutrical Solution Ltd Entity API
   slug: nutrical-solution-ltd-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-entity-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-entity-api-openapi.yml
 - filename: nutrical-solution-ltd-ingredients-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Ingredients API
   slug: nutrical-solution-ltd-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-ingredients-api-openapi.yml
 - filename: nutrical-solution-ltd-meal-plans-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Meal Plans API
   slug: nutrical-solution-ltd-meal-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-meal-plans-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-meal-plans-api-openapi.yml
 - filename: nutrical-solution-ltd-metadata-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Metadata API
   slug: nutrical-solution-ltd-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-metadata-api-openapi.yml
 - filename: nutrical-solution-ltd-recipe-categories-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Recipe Categories API
   slug: nutrical-solution-ltd-recipe-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-recipe-categories-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-recipe-categories-api-openapi.yml
 - filename: nutrical-solution-ltd-recipes-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Recipes API
   slug: nutrical-solution-ltd-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-recipes-api-openapi.yml
 consequence_counts:
   read: 12
   write: 9
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nutric
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/api/v2/meal-plans/{mealPlanId}/\n  method: get\n  operationId: getMealPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/api/v2/meal-plan-customers/\n  method: get\n  operationId: listMealPlanCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/api/v2/meal-plan-customers/\n  method: post\n  operationId: createMealPlanCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /external/api/v2/meal-plan-customers/{mealplanCustomerId}/\n  method: get\n  operationId: getMealPlanCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/api/v2/meal-plan-customers/{mealplanCustomerId}/\n  method: patch\n  operationId: updateMealPlanCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/api/v2/meal-plan-customers/{mealplanCustomerId}/\n  method: delete\n  operationId: deleteMealPlanCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/api/v1/nutrients/\n  method: get\n  operationId: listNutrients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/api/v1/allergens/\n  method: get\n  operationId: listAllergens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/api/v1/may-contain-allergens/\n  method: get\n  operationId: listMayContainAllergens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/agentic-access/nutrical-solution-ltd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nutrical-solution-ltd/agentic-access/nutrical-solution-ltd-agentic-access.yml
 summary_line: 21 operations · 9 acting
 tags:
 - Company

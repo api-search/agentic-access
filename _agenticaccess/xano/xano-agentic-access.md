@@ -9,37 +9,37 @@ api_specs:
   label: Xano API Groups API
   slug: xano-api-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/openapi/xano-api-groups-api-openapi.yml
+  url: https://artifacts.apis.io/xano/openapi/xano-api-groups-api-openapi.yml
 - filename: xano-auth-api-openapi.yml
   format: yaml
   label: Xano Auth API
   slug: xano-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/openapi/xano-auth-api-openapi.yml
+  url: https://artifacts.apis.io/xano/openapi/xano-auth-api-openapi.yml
 - filename: xano-content-api-openapi.yml
   format: yaml
   label: Xano Content API
   slug: xano-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/openapi/xano-content-api-openapi.yml
+  url: https://artifacts.apis.io/xano/openapi/xano-content-api-openapi.yml
 - filename: xano-files-api-openapi.yml
   format: yaml
   label: Xano Files API
   slug: xano-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/openapi/xano-files-api-openapi.yml
+  url: https://artifacts.apis.io/xano/openapi/xano-files-api-openapi.yml
 - filename: xano-tables-api-openapi.yml
   format: yaml
   label: Xano Tables API
   slug: xano-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/openapi/xano-tables-api-openapi.yml
+  url: https://artifacts.apis.io/xano/openapi/xano-tables-api-openapi.yml
 - filename: xano-workspace-api-openapi.yml
   format: yaml
   label: Xano Workspace API
   slug: xano-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/openapi/xano-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/xano/openapi/xano-workspace-api-openapi.yml
 consequence_counts:
   read: 17
   write: 20
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/xano-a
   \  method: get\n  operationId: listIndexes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace/{workspace_id}/table/{table_id}/index\n  method: put\n  operationId: replaceIndexes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace/{workspace_id}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /workspace/{workspace_id}/branch\n  method: get\n  operationId: listBranches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace/{workspace_id}/branch/{branch_id}\n  method: delete\n  operationId: deleteBranch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/{workspace_id}/export-schema\n  method: post\n  operationId: exportWorkspaceSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /workspace/{workspace_id}/export\n  method: post\n  operationId: exportWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/agentic-access/xano-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xano/agentic-access/xano-agentic-access.yml
 summary_line: 37 operations · 20 acting
 tags:
 - No-Code

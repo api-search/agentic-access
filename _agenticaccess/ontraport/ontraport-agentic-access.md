@@ -9,13 +9,13 @@ api_specs:
   label: Ontraport Metadata API
   slug: ontraport-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/ontraport/openapi/ontraport-metadata-api-openapi.yml
 - filename: ontraport-objects-api-openapi.yml
   format: yaml
   label: Ontraport Objects API
   slug: ontraport-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/openapi/ontraport-objects-api-openapi.yml
+  url: https://artifacts.apis.io/ontraport/openapi/ontraport-objects-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ontrap
   \  audit: required\n- path: /objects\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /objects\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /object\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /objects/saveorupdate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /objects/meta\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /objects/getInfo\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /objects/tag\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /object/getByEmail\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /objects/fieldeditor\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/agentic-access/ontraport-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ontraport/agentic-access/ontraport-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - CRM

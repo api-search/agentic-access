@@ -9,43 +9,61 @@ api_specs:
   label: Amazon Outposts Catalog API
   slug: amazon-outposts-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-catalog-api-openapi.yml
 - filename: amazon-outposts-connections-api-openapi.yml
   format: yaml
   label: Amazon Outposts Connections API
   slug: amazon-outposts-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-connections-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-connections-api-openapi.yml
 - filename: amazon-outposts-list-orders-api-openapi.yml
   format: yaml
   label: Amazon Outposts List Orders API
   slug: amazon-outposts-list-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-list-orders-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-list-orders-api-openapi.yml
 - filename: amazon-outposts-orders-api-openapi.yml
   format: yaml
   label: Amazon Outposts Orders API
   slug: amazon-outposts-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-orders-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-orders-api-openapi.yml
 - filename: amazon-outposts-outposts-api-openapi.yml
   format: yaml
   label: Amazon Outposts API
   slug: amazon-outposts-outposts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-outposts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-outposts-api-openapi.yml
 - filename: amazon-outposts-sites-api-openapi.yml
   format: yaml
   label: Amazon Outposts Sites API
   slug: amazon-outposts-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-sites-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-sites-api-openapi.yml
 - filename: amazon-outposts-tags-api-openapi.yml
   format: yaml
   label: Amazon Outposts Tags API
   slug: amazon-outposts-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-tags-api-openapi.yml
+- filename: amazon-outposts-capacity-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts Capacity API
+  slug: amazon-outposts-capacity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-capacity-api-openapi.yml
+- filename: amazon-outposts-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts Operations API
+  slug: amazon-outposts-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-operations-api-openapi.yml
+- filename: amazon-outposts-quotes-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts Quotes API
+  slug: amazon-outposts-quotes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-quotes-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -91,9 +109,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{ResourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{ResourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connections\n  method: post\n  operationId: StartConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /tags/{ResourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{SiteId}/address\n  method: put\n  operationId: UpdateSiteAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{SiteId}/rackPhysicalProperties\n  method: patch\n  operationId: UpdateSiteRackPhysicalProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/agentic-access/amazon-outposts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-outposts/agentic-access/amazon-outposts-agentic-access.yml
 summary_line: 26 operations · 13 acting
 tags:
+- Amazon Web Services
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

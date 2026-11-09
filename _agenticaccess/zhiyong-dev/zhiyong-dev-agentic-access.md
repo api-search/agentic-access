@@ -99,7 +99,6 @@ summary_line: 14 operations · 4 acting
 tags:
 - Company
 - Software
-- DeveloperTools
-- APIs
+- Developer Tools
 - Integration
 ---

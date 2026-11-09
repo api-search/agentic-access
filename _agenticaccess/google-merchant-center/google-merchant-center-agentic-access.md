@@ -9,31 +9,31 @@ api_specs:
   label: Google Merchant Center Accounts API
   slug: google-merchant-center-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-accounts-api-openapi.yml
 - filename: google-merchant-center-inventories-api-openapi.yml
   format: yaml
   label: Google Merchant Center Inventories API
   slug: google-merchant-center-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-inventories-api-openapi.yml
 - filename: google-merchant-center-products-api-openapi.yml
   format: yaml
   label: Google Merchant Center Products API
   slug: google-merchant-center-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-products-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-products-api-openapi.yml
 - filename: google-merchant-center-promotions-api-openapi.yml
   format: yaml
   label: Google Merchant Center Promotions API
   slug: google-merchant-center-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-promotions-api-openapi.yml
 - filename: google-merchant-center-reports-api-openapi.yml
   format: yaml
   label: Google Merchant Center Reports API
   slug: google-merchant-center-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-reports-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \    audit: none\n    scope:\n    - https://www.googleapis.com/auth/content\n- path: /inventories/v1/{parent}/localInventories\n  method: post\n  operationId: insertLocalInventory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/content\n- path: /products/v1/{parent}/productInputs\n  method: post\n  operationId: insertProductInput\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/content\n- path: /products/v1/{name}\n  method: get\n  operationId:\
   \ getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/content\n- path: /promotions/v1/{parent}/promotions\n  method: get\n  operationId: listPromotions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/content\n- path: /promotions/v1/{parent}/promotions\n  method: post\n  operationId: createPromotion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/content\n- path: /reports/v1/{parent}/reports:search\n  method: post\n\
   \  operationId: searchReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/content\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/agentic-access/google-merchant-center-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-merchant-center/agentic-access/google-merchant-center-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - E-Commerce

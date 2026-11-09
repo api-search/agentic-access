@@ -9,37 +9,37 @@ api_specs:
   label: InstantDB Realtime Sync API
   slug: instantdb-realtime-sync-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/asyncapi/instantdb-asyncapi.yml
+  url: https://artifacts.apis.io/instantdb/asyncapi/instantdb-asyncapi.yml
 - filename: instantdb-auth-api-openapi.yml
   format: yaml
   label: InstantDB Auth API
   slug: instantdb-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-auth-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-auth-api-openapi.yml
 - filename: instantdb-presence-api-openapi.yml
   format: yaml
   label: InstantDB Presence API
   slug: instantdb-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-presence-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-presence-api-openapi.yml
 - filename: instantdb-query-api-openapi.yml
   format: yaml
   label: InstantDB Query API
   slug: instantdb-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-query-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-query-api-openapi.yml
 - filename: instantdb-storage-api-openapi.yml
   format: yaml
   label: InstantDB Storage API
   slug: instantdb-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-storage-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-storage-api-openapi.yml
 - filename: instantdb-transactions-api-openapi.yml
   format: yaml
   label: InstantDB Transactions API
   slug: instantdb-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/openapi/instantdb-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/instantdb/openapi/instantdb-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/instan
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/sign_out\n  method: post\n  operationId: adminSignOut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runtime/auth/verify_refresh_token\n  method: post\n  operationId: verifyRefreshToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /admin/storage/upload\n  method: put\n  operationId: adminStorageUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/storage/files\n  method: delete\n  operationId: adminStorageDeleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/storage/files/delete\n  method: post\n  operationId: adminStorageDeleteFiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/rooms/presence\n  method: get\n  operationId: adminRoomPresence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/agentic-access/instantdb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instantdb/agentic-access/instantdb-agentic-access.yml
 summary_line: 14 operations · 12 acting
 tags:
 - Database

@@ -9,85 +9,85 @@ api_specs:
   label: Capy Automations API
   slug: capy-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-automations-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-automations-api-openapi.yml
 - filename: capy-projects-api-openapi.yml
   format: yaml
   label: Capy Projects API
   slug: capy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-projects-api-openapi.yml
 - filename: capy-tasks-api-openapi.yml
   format: yaml
   label: Capy Tasks API
   slug: capy-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-tasks-api-openapi.yml
 - filename: capy-threads-api-openapi.yml
   format: yaml
   label: Capy Threads API
   slug: capy-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-threads-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-threads-api-openapi.yml
 - filename: capy-usage-api-openapi.yml
   format: yaml
   label: Capy Usage API
   slug: capy-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-usage-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-usage-api-openapi.yml
 - filename: capy-captains-api-openapi.yml
   format: yaml
   label: Capy Captains API
   slug: capy-captains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-captains-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-captains-api-openapi.yml
 - filename: capy-folders-api-openapi.yml
   format: yaml
   label: Capy Folders API
   slug: capy-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-folders-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-folders-api-openapi.yml
 - filename: capy-messages-api-openapi.yml
   format: yaml
   label: Capy Messages API
   slug: capy-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-messages-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-messages-api-openapi.yml
 - filename: capy-reviewfilters-api-openapi.yml
   format: yaml
   label: Capy Review Filters API
   slug: capy-reviewfilters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-reviewfilters-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-reviewfilters-api-openapi.yml
 - filename: capy-reviewrules-api-openapi.yml
   format: yaml
   label: Capy Review Rules API
   slug: capy-reviewrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-reviewrules-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-reviewrules-api-openapi.yml
 - filename: capy-reviews-api-openapi.yml
   format: yaml
   label: Capy Reviews API
   slug: capy-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-reviews-api-openapi.yml
 - filename: capy-streams-api-openapi.yml
   format: yaml
   label: Capy Streams API
   slug: capy-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-streams-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-streams-api-openapi.yml
 - filename: capy-subagents-api-openapi.yml
   format: yaml
   label: Capy Subagents API
   slug: capy-subagents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-subagents-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-subagents-api-openapi.yml
 - filename: capy-users-api-openapi.yml
   format: yaml
   label: Capy Users API
   slug: capy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-users-api-openapi.yml
+  url: https://artifacts.apis.io/capy/openapi/capy-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/capy-o
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/environment-variables/personal/{name}\n  method: delete\n  operationId: deletePersonalEnvironmentVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/automations\n  method: get\n  operationId: listAutomations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectId}/automations\n  method: post\n  operationId: createAutomation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/automations/{automationId}\n  method: get\n  operationId: getAutomation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectId}/automations/{automationId}\n  method: patch\n  operationId: updateAutomation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/automations/{automationId}\n  method: delete\n  operationId: deleteAutomation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/automations/{automationId}/trigger\n  method: post\n  operationId: triggerAutomation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sessions/verify\n  method: post\n  operationId: verifySession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/agentic-access/capy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/capy/agentic-access/capy-agentic-access.yml
 summary_line: 37 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Company

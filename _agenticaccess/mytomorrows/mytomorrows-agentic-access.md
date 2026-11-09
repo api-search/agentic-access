@@ -9,73 +9,73 @@ api_specs:
   label: myTomorrows Legacy GraphQL Proxy API
   slug: mytomorrows-legacy-graphql-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-legacy-graphql-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-legacy-graphql-proxy-api-openapi.yml
 - filename: mytomorrows-public-api-openapi.yml
   format: yaml
   label: myTomorrows Public API
   slug: mytomorrows-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-public-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-public-api-openapi.yml
 - filename: mytomorrows-system-api-openapi.yml
   format: yaml
   label: myTomorrows System API
   slug: mytomorrows-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-system-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-system-api-openapi.yml
 - filename: mytomorrows-anno-api-openapi.yml
   format: yaml
   label: myTomorrows Anno API
   slug: mytomorrows-anno-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-anno-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-anno-api-openapi.yml
 - filename: mytomorrows-autocomplete-api-openapi.yml
   format: yaml
   label: myTomorrows Autocomplete API
   slug: mytomorrows-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-autocomplete-api-openapi.yml
 - filename: mytomorrows-docs-api-openapi.yml
   format: yaml
   label: myTomorrows Docs API
   slug: mytomorrows-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-docs-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-docs-api-openapi.yml
 - filename: mytomorrows-document-api-openapi.yml
   format: yaml
   label: myTomorrows Document API
   slug: mytomorrows-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-document-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-document-api-openapi.yml
 - filename: mytomorrows-es-api-openapi.yml
   format: yaml
   label: myTomorrows Es API
   slug: mytomorrows-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-es-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-es-api-openapi.yml
 - filename: mytomorrows-llm-api-openapi.yml
   format: yaml
   label: myTomorrows Llm API
   slug: mytomorrows-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-llm-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-llm-api-openapi.yml
 - filename: mytomorrows-mdt-api-openapi.yml
   format: yaml
   label: myTomorrows Mdt API
   slug: mytomorrows-mdt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-mdt-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-mdt-api-openapi.yml
 - filename: mytomorrows-search-api-openapi.yml
   format: yaml
   label: myTomorrows Search API
   slug: mytomorrows-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-search-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-search-api-openapi.yml
 - filename: mytomorrows-wrapper-api-openapi.yml
   format: yaml
   label: myTomorrows Wrapper API
   slug: mytomorrows-wrapper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/openapi/mytomorrows-wrapper-api-openapi.yml
+  url: https://artifacts.apis.io/mytomorrows/openapi/mytomorrows-wrapper-api-openapi.yml
 consequence_counts:
   read: 11
   write: 31
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mytomo
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v01/llm/autocomplete_conditions_synonyms\n  method: post\n  operationId: autocomplete_conditions_endpoint_v01_llm_autocomplete_conditions_synonyms_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v01/llm/autocomplete_trial_id\n  method: post\n  operationId: autocomplete_trial_id_endpoint_v01_llm_autocomplete_trial_id_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v01/mdt/request_pdf\n  method: post\n  operationId: mdt_request_pdf_endpoint_v01_mdt_request_pdf_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v01/wrapper/autocomplete\n  method: get\n  operationId: autocomplete_wrapper_endpoint_v01_wrapper_autocomplete_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v01/wrapper/study/search/counts\n  method: get\n  operationId: count_wrapper_endpoint_v01_wrapper_study_search_counts_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/agentic-access/mytomorrows-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mytomorrows/agentic-access/mytomorrows-agentic-access.yml
 summary_line: 42 operations · 31 acting
 tags:
 - Company

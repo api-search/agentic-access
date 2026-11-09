@@ -9,25 +9,25 @@ api_specs:
   label: Siemens MindSphere Aspect Types API
   slug: siemens-mindsphere-aspect-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-aspect-types-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-aspect-types-api-openapi.yml
 - filename: siemens-mindsphere-asset-types-api-openapi.yml
   format: yaml
   label: Siemens MindSphere Asset Types API
   slug: siemens-mindsphere-asset-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-asset-types-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-asset-types-api-openapi.yml
 - filename: siemens-mindsphere-assets-api-openapi.yml
   format: yaml
   label: Siemens MindSphere Assets API
   slug: siemens-mindsphere-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-assets-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-assets-api-openapi.yml
 - filename: siemens-mindsphere-time-series-api-openapi.yml
   format: yaml
   label: Siemens Insights Hub (MindSphere) Time Series API
   slug: siemens-mindsphere-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/siemens-mindsphere/openapi/siemens-mindsphere-time-series-api-openapi.yml
 consequence_counts:
   read: 6
   write: 8
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/siemen
   \      - abnormal\n      - high-value\n    audit: required\n- path: /assettypes\n  method: get\n  operationId: listAssetTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assettypes\n  method: post\n  operationId: createAssetType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assettypes/{id}\n  method: get\n  operationId: getAssetType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aspecttypes\n  method: get\n  operationId: listAspectTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /aspecttypes\n  method: post\n  operationId: createAspectType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timeseries\n  method: put\n  operationId: putMultipleTimeseries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timeseries/{assetId}/{aspectName}\n  method: put\n  operationId: putTimeseries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timeseries/{assetId}/{aspectName}\n  method: get\n  operationId: getTimeseries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timeseries/{assetId}/{aspectName}\n  method: delete\n  operationId: deleteTimeseries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/agentic-access/siemens-mindsphere-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/siemens-mindsphere/agentic-access/siemens-mindsphere-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - IoT

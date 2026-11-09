@@ -9,91 +9,91 @@ api_specs:
   label: Fulcrum Audio API
   slug: fulcrum-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-audio-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-audio-api-openapi.yml
 - filename: fulcrum-changesets-api-openapi.yml
   format: yaml
   label: Fulcrum Changesets API
   slug: fulcrum-changesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-changesets-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-changesets-api-openapi.yml
 - filename: fulcrum-choice-lists-api-openapi.yml
   format: yaml
   label: Fulcrum Choice Lists API
   slug: fulcrum-choice-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-choice-lists-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-choice-lists-api-openapi.yml
 - filename: fulcrum-classification-sets-api-openapi.yml
   format: yaml
   label: Fulcrum Classification Sets API
   slug: fulcrum-classification-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-classification-sets-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-classification-sets-api-openapi.yml
 - filename: fulcrum-forms-api-openapi.yml
   format: yaml
   label: Fulcrum Forms API
   slug: fulcrum-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-forms-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-forms-api-openapi.yml
 - filename: fulcrum-layers-api-openapi.yml
   format: yaml
   label: Fulcrum Layers API
   slug: fulcrum-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-layers-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-layers-api-openapi.yml
 - filename: fulcrum-memberships-api-openapi.yml
   format: yaml
   label: Fulcrum Memberships API
   slug: fulcrum-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-memberships-api-openapi.yml
 - filename: fulcrum-photos-api-openapi.yml
   format: yaml
   label: Fulcrum Photos API
   slug: fulcrum-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-photos-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-photos-api-openapi.yml
 - filename: fulcrum-projects-api-openapi.yml
   format: yaml
   label: Fulcrum Projects API
   slug: fulcrum-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-projects-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-projects-api-openapi.yml
 - filename: fulcrum-query-api-openapi.yml
   format: yaml
   label: Fulcrum Query API
   slug: fulcrum-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-query-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-query-api-openapi.yml
 - filename: fulcrum-records-api-openapi.yml
   format: yaml
   label: Fulcrum Records API
   slug: fulcrum-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-records-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-records-api-openapi.yml
 - filename: fulcrum-roles-api-openapi.yml
   format: yaml
   label: Fulcrum Roles API
   slug: fulcrum-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-roles-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-roles-api-openapi.yml
 - filename: fulcrum-signatures-api-openapi.yml
   format: yaml
   label: Fulcrum Signatures API
   slug: fulcrum-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-signatures-api-openapi.yml
 - filename: fulcrum-videos-api-openapi.yml
   format: yaml
   label: Fulcrum Videos API
   slug: fulcrum-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-videos-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-videos-api-openapi.yml
 - filename: fulcrum-webhooks-api-openapi.yml
   format: yaml
   label: Fulcrum Webhooks API
   slug: fulcrum-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/openapi/fulcrum-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fulcrum/openapi/fulcrum-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 26
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fulcru
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks.json\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks.json\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}.json\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /webhooks/{id}.json\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}.json\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /changesets.json\n  method: get\n  operationId: listChangesets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /changesets/{id}.json\n  method: get\n  operationId: getChangeset\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query\n  method: get\n  operationId: executeQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/agentic-access/fulcrum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fulcrum/agentic-access/fulcrum-agentic-access.yml
 summary_line: 55 operations · 29 acting
 tags:
 - Data Collection

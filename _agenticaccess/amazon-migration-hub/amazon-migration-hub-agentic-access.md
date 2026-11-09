@@ -9,7 +9,19 @@ api_specs:
   label: Amazon Migration Hub AWS Migration Hub API
   slug: amazon-migration-hub-aws-migration-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/openapi/amazon-migration-hub-aws-migration-hub-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-aws-migration-hub-api-openapi.yml
+- filename: amazon-migration-hub-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Operations API
+  slug: amazon-migration-hub-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-operations-api-openapi.yml
+- filename: amazon-migration-hub-source-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Source Resource API
+  slug: amazon-migration-hub-source-resource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-source-resource-api-openapi.yml
 consequence_counts:
   read: 3
   write: 14
@@ -44,9 +56,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ /#X-Amz-Target=AWSMigrationHub.ListCreatedArtifacts\n  method: post\n  operationId: ListCreatedArtifacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSMigrationHub.ListDiscoveredResources\n  method: post\n  operationId: ListDiscoveredResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=AWSMigrationHub.ListMigrationTasks\n  method: post\n  operationId: ListMigrationTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=AWSMigrationHub.ListProgressUpdateStreams\n  method: post\n  operationId:\
   \ ListProgressUpdateStreams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSMigrationHub.NotifyApplicationState\n  method: post\n  operationId: NotifyApplicationState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSMigrationHub.NotifyMigrationTaskState\n  method: post\n  operationId: NotifyMigrationTaskState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSMigrationHub.PutResourceAttributes\n  method: post\n  operationId: PutResourceAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/agentic-access/amazon-migration-hub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-migration-hub/agentic-access/amazon-migration-hub-agentic-access.yml
 summary_line: 17 operations · 14 acting
 tags:
+- Amazon Web Services
 - Migration
 - Cloud Migration
 - Cloud

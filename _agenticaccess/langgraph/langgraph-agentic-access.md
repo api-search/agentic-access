@@ -9,37 +9,37 @@ api_specs:
   label: LangGraph Agent Connections (v2) API
   slug: langgraph-agent-connections-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-agent-connections-v2-api-openapi.yml
+  url: https://artifacts.apis.io/langgraph/openapi/langgraph-agent-connections-v2-api-openapi.yml
 - filename: langgraph-auth-service-v2-api-openapi.yml
   format: yaml
   label: LangGraph Auth Service (v2) API
   slug: langgraph-auth-service-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-auth-service-v2-api-openapi.yml
+  url: https://artifacts.apis.io/langgraph/openapi/langgraph-auth-service-v2-api-openapi.yml
 - filename: langgraph-deployments-v2-api-openapi.yml
   format: yaml
   label: LangGraph Deployments (v2) API
   slug: langgraph-deployments-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-deployments-v2-api-openapi.yml
+  url: https://artifacts.apis.io/langgraph/openapi/langgraph-deployments-v2-api-openapi.yml
 - filename: langgraph-integrations-v1-api-openapi.yml
   format: yaml
   label: LangGraph Integrations (v1) API
   slug: langgraph-integrations-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-integrations-v1-api-openapi.yml
+  url: https://artifacts.apis.io/langgraph/openapi/langgraph-integrations-v1-api-openapi.yml
 - filename: langgraph-listeners-v2-api-openapi.yml
   format: yaml
   label: LangGraph Listeners (v2) API
   slug: langgraph-listeners-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-listeners-v2-api-openapi.yml
+  url: https://artifacts.apis.io/langgraph/openapi/langgraph-listeners-v2-api-openapi.yml
 - filename: langgraph-integrations-v2-api-openapi.yml
   format: yaml
   label: LangGraph Integrations (v2) API
   slug: langgraph-integrations-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-integrations-v2-api-openapi.yml
+  url: https://artifacts.apis.io/langgraph/openapi/langgraph-integrations-v2-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 19
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/langgr
   \ get\n  operationId: check_oauth_token_exists_v2_auth_tokens_exists_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/auth/tokens/workspace/slack/exists\n  method: get\n  operationId: check_workspace_slack_tokens_exist_v2_auth_tokens_workspace_slack_exists_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/auth/tokens/workspace/slack\n  method: delete\n  operationId: revoke_all_slack_tokens_for_workspace_v2_auth_tokens_workspace_slack_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/auth/agents/{agent_id}/connections\n\
   \  method: get\n  operationId: list_connections_v2_auth_agents__agent_id__connections_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/auth/agents/{agent_id}/connections\n  method: post\n  operationId: create_connection_v2_auth_agents__agent_id__connections_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/auth/agents/{agent_id}/connections/{connection_id}\n  method: delete\n  operationId: remove_connection_v2_auth_agents__agent_id__connections__connection_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/agentic-access/langgraph-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/langgraph/agentic-access/langgraph-agentic-access.yml
 summary_line: 39 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Agents

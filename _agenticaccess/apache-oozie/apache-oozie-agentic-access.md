@@ -9,25 +9,25 @@ api_specs:
   label: Apache Oozie Admin API
   slug: apache-oozie-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/openapi/apache-oozie-admin-api-openapi.yml
+  url: https://artifacts.apis.io/apache-oozie/openapi/apache-oozie-admin-api-openapi.yml
 - filename: apache-oozie-job-api-openapi.yml
   format: yaml
   label: Apache Oozie Job API
   slug: apache-oozie-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/openapi/apache-oozie-job-api-openapi.yml
+  url: https://artifacts.apis.io/apache-oozie/openapi/apache-oozie-job-api-openapi.yml
 - filename: apache-oozie-jobs-api-openapi.yml
   format: yaml
   label: Apache Oozie Jobs API
   slug: apache-oozie-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/openapi/apache-oozie-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/apache-oozie/openapi/apache-oozie-jobs-api-openapi.yml
 - filename: apache-oozie-versions-api-openapi.yml
   format: yaml
   label: Apache Oozie Versions API
   slug: apache-oozie-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/openapi/apache-oozie-versions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-oozie/openapi/apache-oozie-versions-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/admin/available-oozie-servers\n  method: get\n  operationId: getAvailableServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs\n  method: post\n  operationId: submitJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs\n  method: get\n  operationId: getJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs\n  method: put\n  operationId: bulkJobAction\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/job/{job-id}\n  method: get\n  operationId: getJobInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/job/{job-id}\n  method: put\n  operationId: manageJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/job/{job-id}\n  method: get\n  operationId: getJobInfoV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/job/{job-id}\n  method: put\n  operationId: manageJobV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/validate\n  method: post\n  operationId: validateJobXml\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/agentic-access/apache-oozie-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-oozie/agentic-access/apache-oozie-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - Workflows

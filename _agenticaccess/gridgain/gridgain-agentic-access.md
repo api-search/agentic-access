@@ -9,151 +9,151 @@ api_specs:
   label: GridGain Authentication API
   slug: gridgain-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-authentication-api-openapi.yml
 - filename: gridgain-cdcmanagement-api-openapi.yml
   format: yaml
   label: GridGain Cdc Management API
   slug: gridgain-cdcmanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-cdcmanagement-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-cdcmanagement-api-openapi.yml
 - filename: gridgain-clusterconfiguration-api-openapi.yml
   format: yaml
   label: GridGain Cluster Configuration API
   slug: gridgain-clusterconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-clusterconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-clusterconfiguration-api-openapi.yml
 - filename: gridgain-clustermetric-api-openapi.yml
   format: yaml
   label: GridGain Cluster Metric API
   slug: gridgain-clustermetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-clustermetric-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-clustermetric-api-openapi.yml
 - filename: gridgain-compute-api-openapi.yml
   format: yaml
   label: GridGain Compute API
   slug: gridgain-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-compute-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-compute-api-openapi.yml
 - filename: gridgain-dcr-api-openapi.yml
   format: yaml
   label: GridGain Dcr API
   slug: gridgain-dcr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-dcr-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-dcr-api-openapi.yml
 - filename: gridgain-deployment-api-openapi.yml
   format: yaml
   label: GridGain Deployment API
   slug: gridgain-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-deployment-api-openapi.yml
 - filename: gridgain-distribution-api-openapi.yml
   format: yaml
   label: GridGain Distribution API
   slug: gridgain-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-distribution-api-openapi.yml
 - filename: gridgain-nodemanagement-api-openapi.yml
   format: yaml
   label: GridGain Node Management API
   slug: gridgain-nodemanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-nodemanagement-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-nodemanagement-api-openapi.yml
 - filename: gridgain-nodemetric-api-openapi.yml
   format: yaml
   label: GridGain Node Metric API
   slug: gridgain-nodemetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-nodemetric-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-nodemetric-api-openapi.yml
 - filename: gridgain-privilegesgrants-api-openapi.yml
   format: yaml
   label: GridGain Privileges Grants API
   slug: gridgain-privilegesgrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-privilegesgrants-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-privilegesgrants-api-openapi.yml
 - filename: gridgain-recovery-api-openapi.yml
   format: yaml
   label: GridGain Recovery API
   slug: gridgain-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-recovery-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-recovery-api-openapi.yml
 - filename: gridgain-snapshotmanagement-api-openapi.yml
   format: yaml
   label: GridGain Snapshot Management API
   slug: gridgain-snapshotmanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-snapshotmanagement-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-snapshotmanagement-api-openapi.yml
 - filename: gridgain-sql-api-openapi.yml
   format: yaml
   label: GridGain Sql API
   slug: gridgain-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-sql-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-sql-api-openapi.yml
 - filename: gridgain-system-api-openapi.yml
   format: yaml
   label: GridGain System API
   slug: gridgain-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-system-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-system-api-openapi.yml
 - filename: gridgain-topology-api-openapi.yml
   format: yaml
   label: GridGain Topology API
   slug: gridgain-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-topology-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-topology-api-openapi.yml
 - filename: gridgain-transactions-api-openapi.yml
   format: yaml
   label: GridGain Transactions API
   slug: gridgain-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-transactions-api-openapi.yml
 - filename: gridgain-upgrade-api-openapi.yml
   format: yaml
   label: GridGain Upgrade API
   slug: gridgain-upgrade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-upgrade-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-upgrade-api-openapi.yml
 - filename: gridgain-cluster-management-api-openapi.yml
   format: yaml
   label: GridGain Cluster Management API
   slug: gridgain-cluster-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-cluster-management-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-cluster-management-api-openapi.yml
 - filename: gridgain-data-nodes-api-openapi.yml
   format: yaml
   label: GridGain Data Nodes API
   slug: gridgain-data-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-data-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-data-nodes-api-openapi.yml
 - filename: gridgain-license-management-api-openapi.yml
   format: yaml
   label: GridGain License Management API
   slug: gridgain-license-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-license-management-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-license-management-api-openapi.yml
 - filename: gridgain-node-configuration-api-openapi.yml
   format: yaml
   label: GridGain Node Configuration API
   slug: gridgain-node-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-node-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-node-configuration-api-openapi.yml
 - filename: gridgain-role-assignments-api-openapi.yml
   format: yaml
   label: GridGain Role Assignments API
   slug: gridgain-role-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-role-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-role-assignments-api-openapi.yml
 - filename: gridgain-role-management-api-openapi.yml
   format: yaml
   label: GridGain Role Management API
   slug: gridgain-role-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-role-management-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-role-management-api-openapi.yml
 - filename: gridgain-user-management-api-openapi.yml
   format: yaml
   label: GridGain User Management API
   slug: gridgain-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/openapi/gridgain-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/gridgain/openapi/gridgain-user-management-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 59
@@ -312,8 +312,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gridga
   \ required\n- path: /management/v1/rbac/roles/{roleName}\n  method: get\n  operationId: getRole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/rbac/roles/{roleName}\n  method: delete\n  operationId: deleteRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/snapshot/create\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/snapshot/delete\n\
   \  method: post\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/snapshot/list\n  method: get\n  operationId: getList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/snapshot/operations\n  method: get\n  operationId: getOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/snapshot/operations/{operationId}\n  method: get\n  operationId: getOperationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /management/v1/snapshot/restore\n  method: post\n  operationId: restore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/sql/plan/clear-cache\n  method: get\n  operationId: clearCache\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/sql/queries\n  method: get\n  operationId: queries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/sql/queries/{queryId}\n  method: get\n  operationId: query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/sql/queries/{queryId}\n  method: delete\n  operationId: killQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /management/v1/recovery/cluster/migrate\n  method: post\n  operationId: migrate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/agentic-access/gridgain-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/agentic-access/gridgain-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/sql/queries/{queryId}\n  method: delete\n  operationId: killQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /management/v1/recovery/cluster/migrate\n  method: post\n  operationId: migrate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://artifacts.apis.io/gridgain/agentic-access/gridgain-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/gridgain/agentic-access/gridgain-agentic-access.yml
 summary_line: 119 operations · 60 acting · 16 human-in-the-loop
 tags:
 - Caching

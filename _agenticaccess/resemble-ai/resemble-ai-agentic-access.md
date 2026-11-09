@@ -9,157 +9,157 @@ api_specs:
   label: Resemble AI Subpackage Account API
   slug: resemble-ai-subpackage-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-account-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-account-api-openapi.yml
 - filename: resemble-ai-subpackage-agentknowledgebase-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Agent Knowledge Base API
   slug: resemble-ai-subpackage-agentknowledgebase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-agentknowledgebase-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-agentknowledgebase-api-openapi.yml
 - filename: resemble-ai-subpackage-agentphonenumbers-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Agent Phone Numbers API
   slug: resemble-ai-subpackage-agentphonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-agentphonenumbers-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-agentphonenumbers-api-openapi.yml
 - filename: resemble-ai-subpackage-agents-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Agents API
   slug: resemble-ai-subpackage-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-agents-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-agents-api-openapi.yml
 - filename: resemble-ai-subpackage-agenttools-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Agent Tools API
   slug: resemble-ai-subpackage-agenttools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-agenttools-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-agenttools-api-openapi.yml
 - filename: resemble-ai-subpackage-agentwebhooks-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Agent Webhooks API
   slug: resemble-ai-subpackage-agentwebhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-agentwebhooks-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-agentwebhooks-api-openapi.yml
 - filename: resemble-ai-subpackage-audioedit-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Audio Edit API
   slug: resemble-ai-subpackage-audioedit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-audioedit-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-audioedit-api-openapi.yml
 - filename: resemble-ai-subpackage-audioenhancement-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Audio Enhancement API
   slug: resemble-ai-subpackage-audioenhancement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-audioenhancement-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-audioenhancement-api-openapi.yml
 - filename: resemble-ai-subpackage-audiosourcetracing-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Audio Source Tracing API
   slug: resemble-ai-subpackage-audiosourcetracing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-audiosourcetracing-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-audiosourcetracing-api-openapi.yml
 - filename: resemble-ai-subpackage-clips-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Clips API
   slug: resemble-ai-subpackage-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-clips-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-clips-api-openapi.yml
 - filename: resemble-ai-subpackage-custompronunciations-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Custom Pronunciations API
   slug: resemble-ai-subpackage-custompronunciations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-custompronunciations-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-custompronunciations-api-openapi.yml
 - filename: resemble-ai-subpackage-deepfakedetection-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Deepfake Detection API
   slug: resemble-ai-subpackage-deepfakedetection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-deepfakedetection-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-deepfakedetection-api-openapi.yml
 - filename: resemble-ai-subpackage-detectintelligence-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Detect Intelligence API
   slug: resemble-ai-subpackage-detectintelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-detectintelligence-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-detectintelligence-api-openapi.yml
 - filename: resemble-ai-subpackage-duets-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Duets API
   slug: resemble-ai-subpackage-duets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-duets-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-duets-api-openapi.yml
 - filename: resemble-ai-subpackage-identity-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Identity API
   slug: resemble-ai-subpackage-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-identity-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-identity-api-openapi.yml
 - filename: resemble-ai-subpackage-intelligence-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Intelligence API
   slug: resemble-ai-subpackage-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-intelligence-api-openapi.yml
 - filename: resemble-ai-subpackage-projects-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Projects API
   slug: resemble-ai-subpackage-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-projects-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-projects-api-openapi.yml
 - filename: resemble-ai-subpackage-recordings-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Recordings API
   slug: resemble-ai-subpackage-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-recordings-api-openapi.yml
 - filename: resemble-ai-subpackage-secureuploads-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Secure Uploads API
   slug: resemble-ai-subpackage-secureuploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-secureuploads-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-secureuploads-api-openapi.yml
 - filename: resemble-ai-subpackage-speechtotext-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Speech To Text API
   slug: resemble-ai-subpackage-speechtotext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-speechtotext-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-speechtotext-api-openapi.yml
 - filename: resemble-ai-subpackage-termsubstitutions-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Term Substitutions API
   slug: resemble-ai-subpackage-termsubstitutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-termsubstitutions-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-termsubstitutions-api-openapi.yml
 - filename: resemble-ai-subpackage-texttospeech-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Text To Speech API
   slug: resemble-ai-subpackage-texttospeech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-texttospeech-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-texttospeech-api-openapi.yml
 - filename: resemble-ai-subpackage-voicedesign-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Voice Design API
   slug: resemble-ai-subpackage-voicedesign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-voicedesign-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-voicedesign-api-openapi.yml
 - filename: resemble-ai-subpackage-voices-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Voices API
   slug: resemble-ai-subpackage-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-voices-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-voices-api-openapi.yml
 - filename: resemble-ai-subpackage-voicesettingspresets-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Voice Settings Presets API
   slug: resemble-ai-subpackage-voicesettingspresets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-voicesettingspresets-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-voicesettingspresets-api-openapi.yml
 - filename: resemble-ai-subpackage-watermark-api-openapi.yml
   format: yaml
   label: Resemble AI Subpackage Watermark API
   slug: resemble-ai-subpackage-watermark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/resemble-ai-subpackage-watermark-api-openapi.yml
+  url: https://artifacts.apis.io/resemble-ai/openapi/resemble-ai-subpackage-watermark-api-openapi.yml
 consequence_counts:
   read: 53
   safety-critical: 4
@@ -243,8 +243,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/resemb
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voices\n  method: get\n  operationId: list-voices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voices\n  method: post\n  operationId: create-voice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voices/{voice_uuid}\n  method: get\n  operationId: get-voice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /voices/{voice_uuid}\n  method: delete\n  operationId: delete-voice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voices/{voice_uuid}/build\n  method: post\n  operationId: build-voice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voice_settings_presets\n  method: get\n  operationId: list-voice-settings-presets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice_settings_presets\n\
   \  method: post\n  operationId: create-voice-settings-preset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /voice_settings_presets/{uuid}\n  method: get\n  operationId: get-voice-settings-preset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice_settings_presets/{uuid}\n  method: delete\n  operationId: delete-voice-settings-preset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop:\
-  \ required\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/agentic-access/resemble-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/agentic-access/resemble-ai-agentic-access.yml
+  \ required\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/resemble-ai/agentic-access/resemble-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/resemble-ai/agentic-access/resemble-ai-agentic-access.yml
 summary_line: 112 operations · 59 acting · 4 human-in-the-loop
 tags:
 - Artificial Intelligence

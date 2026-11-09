@@ -8,25 +8,25 @@ api_specs:
   label: Horoscope API Calendar API
   slug: horoscope-api-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/horoscope-api/openapi/horoscope-api-calendar-api-openapi.yml
 - filename: horoscope-api-horoscopes-api-openapi.yml
   format: yaml
   label: Horoscope API Horoscopes API
   slug: horoscope-api-horoscopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-horoscopes-api-openapi.yml
+  url: https://artifacts.apis.io/horoscope-api/openapi/horoscope-api-horoscopes-api-openapi.yml
 - filename: horoscope-api-planetary-data-api-openapi.yml
   format: yaml
   label: Horoscope API Planetary data API
   slug: horoscope-api-planetary-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-planetary-data-api-openapi.yml
+  url: https://artifacts.apis.io/horoscope-api/openapi/horoscope-api-planetary-data-api-openapi.yml
 - filename: horoscope-api-tarot-api-openapi.yml
   format: yaml
   label: Horoscope API Tarot API
   slug: horoscope-api-tarot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-tarot-api-openapi.yml
+  url: https://artifacts.apis.io/horoscope-api/openapi/horoscope-api-tarot-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/horoscope-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/get-horoscope/daily\n  method: get\n  operationId: getDailyHoroscope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/get-horoscope/weekly\n  method: get\n  operationId: getWeeklyHoroscope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/get-horoscope/monthly\n\
   \  method: get\n  operationId: getMonthlyHoroscope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/agentic-access/horoscope-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/horoscope-api/agentic-access/horoscope-api-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Astrology

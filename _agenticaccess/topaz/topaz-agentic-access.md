@@ -9,31 +9,31 @@ api_specs:
   label: Topaz Authorizer API
   slug: topaz-authorizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-authorizer-api-openapi.yml
+  url: https://artifacts.apis.io/topaz/openapi/topaz-authorizer-api-openapi.yml
 - filename: topaz-directory-checks-api-openapi.yml
   format: yaml
   label: Topaz Directory Checks API
   slug: topaz-directory-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-directory-checks-api-openapi.yml
+  url: https://artifacts.apis.io/topaz/openapi/topaz-directory-checks-api-openapi.yml
 - filename: topaz-directory-objects-api-openapi.yml
   format: yaml
   label: Topaz Directory Objects API
   slug: topaz-directory-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-directory-objects-api-openapi.yml
+  url: https://artifacts.apis.io/topaz/openapi/topaz-directory-objects-api-openapi.yml
 - filename: topaz-directory-relations-api-openapi.yml
   format: yaml
   label: Topaz Directory Relations API
   slug: topaz-directory-relations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-directory-relations-api-openapi.yml
+  url: https://artifacts.apis.io/topaz/openapi/topaz-directory-relations-api-openapi.yml
 - filename: topaz-policies-api-openapi.yml
   format: yaml
   label: Topaz Policies API
   slug: topaz-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-policies-api-openapi.yml
+  url: https://artifacts.apis.io/topaz/openapi/topaz-policies-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/topaz-
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/directory/object\n  method: post\n  operationId: setObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/directory/relation\n  method: get\n  operationId: getRelation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/directory/relation\n  method: post\n  operationId: setRelation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/v3/directory/relation\n  method: delete\n  operationId: deleteRelation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/directory/relations\n  method: get\n  operationId: getRelations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/{id}\n  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/agentic-access/topaz-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/topaz/agentic-access/topaz-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Access Control

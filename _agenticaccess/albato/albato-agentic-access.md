@@ -9,37 +9,37 @@ api_specs:
   label: Albato Automations API
   slug: albato-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-automations-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-automations-api-openapi.yml
 - filename: albato-connectors-api-openapi.yml
   format: yaml
   label: Albato Connectors API
   slug: albato-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-connectors-api-openapi.yml
 - filename: albato-executions-api-openapi.yml
   format: yaml
   label: Albato Executions API
   slug: albato-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-executions-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-executions-api-openapi.yml
 - filename: albato-teams-api-openapi.yml
   format: yaml
   label: Albato Teams API
   slug: albato-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-teams-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-teams-api-openapi.yml
 - filename: albato-templates-api-openapi.yml
   format: yaml
   label: Albato Templates API
   slug: albato-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-templates-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-templates-api-openapi.yml
 - filename: albato-users-api-openapi.yml
   format: yaml
   label: Albato Users API
   slug: albato-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-users-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-users-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/albato
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: post\n  operationId: createTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{id}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}\n  method: put\n  operationId: updateTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{id}\n  method: delete\n  operationId: deleteTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{teamId}/users\n  method: get\n  operationId: listTeamUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{teamId}/users\n  method: post\n  operationId: createTeamUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectors\n  method: get\n  operationId: listConnectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/agentic-access/albato-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/albato/agentic-access/albato-agentic-access.yml
 summary_line: 18 operations · 10 acting · 1 human-in-the-loop
 tags:
 - No-Code Automation

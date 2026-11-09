@@ -9,43 +9,43 @@ api_specs:
   label: CyberArk Identity Authentication API
   slug: cyberark-identity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-authentication-api-openapi.yml
 - filename: cyberark-identity-cdirectoryservice-api-openapi.yml
   format: yaml
   label: CyberArk Identity CDirectoryService API
   slug: cyberark-identity-cdirectoryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-cdirectoryservice-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-cdirectoryservice-api-openapi.yml
 - filename: cyberark-identity-extdata-api-openapi.yml
   format: yaml
   label: CyberArk Identity ExtData API
   slug: cyberark-identity-extdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-extdata-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-extdata-api-openapi.yml
 - filename: cyberark-identity-org-api-openapi.yml
   format: yaml
   label: CyberArk Identity Org API
   slug: cyberark-identity-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-org-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-org-api-openapi.yml
 - filename: cyberark-identity-scim-api-openapi.yml
   format: yaml
   label: CyberArk Identity SCIM API
   slug: cyberark-identity-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-scim-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-scim-api-openapi.yml
 - filename: cyberark-identity-usermgmt-api-openapi.yml
   format: yaml
   label: CyberArk Identity UserMgmt API
   slug: cyberark-identity-usermgmt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-usermgmt-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-usermgmt-api-openapi.yml
 - filename: cyberark-identity-oauth-api-openapi.yml
   format: yaml
   label: CyberArk Identity O Auth API
   slug: cyberark-identity-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/openapi/cyberark-identity-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark-identity/openapi/cyberark-identity-oauth-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -86,13 +86,14 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cybera
   \ path: /scim/v2/Groups/{id}\n  method: delete\n  operationId: deleteScimV2GroupsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UserMgmt/GetUserInfo\n  method: post\n  operationId: postUserMgmtGetUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /UserMgmt/ChangeUserAttributes\n  method: post\n  operationId: postUserMgmtChangeUserAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UserMgmt/InviteUsers\n\
   \  method: post\n  operationId: postUserMgmtInviteUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UserMgmt/SetCloudLock\n  method: post\n  operationId: postUserMgmtSetCloudLock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UserMgmt/RemoveUsers\n  method: post\n  operationId: postUserMgmtRemoveUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/agentic-access/cyberark-identity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cyberark-identity/agentic-access/cyberark-identity-agentic-access.yml
 summary_line: 22 operations · 16 acting
 tags:
 - Identity
 - Identity and Access Management
 - SSO
 - Multi-Factor Authentication
-- Authentication
+- OAuth
 - Zero Trust
+- Authentication
 ---

@@ -8,43 +8,43 @@ api_specs:
   label: Kyverno ClusterPolicyReports API
   slug: kyverno-clusterpolicyreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-clusterpolicyreports-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-clusterpolicyreports-api-openapi.yml
 - filename: kyverno-health-api-openapi.yml
   format: yaml
   label: Kyverno Health API
   slug: kyverno-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-health-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-health-api-openapi.yml
 - filename: kyverno-namespaces-api-openapi.yml
   format: yaml
   label: Kyverno Namespaces API
   slug: kyverno-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-namespaces-api-openapi.yml
 - filename: kyverno-policies-api-openapi.yml
   format: yaml
   label: Kyverno Policies API
   slug: kyverno-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policies-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-policies-api-openapi.yml
 - filename: kyverno-results-api-openapi.yml
   format: yaml
   label: Kyverno Results API
   slug: kyverno-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-results-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-results-api-openapi.yml
 - filename: kyverno-sources-api-openapi.yml
   format: yaml
   label: Kyverno Sources API
   slug: kyverno-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-sources-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-sources-api-openapi.yml
 - filename: kyverno-policy-reports-api-openapi.yml
   format: yaml
   label: Kyverno Policy Reports API
   slug: kyverno-policy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/openapi/kyverno-policy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/kyverno/openapi/kyverno-policy-reports-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kyvern
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sources\n  method: get\n  operationId: listSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/rules\n  method: get\n  operationId: listRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /api/v1/policy-reports\n  method: get\n  operationId: listPolicyReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/cluster-policy-reports\n  method: get\n  operationId: listClusterPolicyReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespace-scoped/results\n  method: get\n  operationId: listNamespaceScopedResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/cluster-scoped/results\n  method: get\n  operationId: listClusterScopedResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespace-scoped/summary\n\
   \  method: get\n  operationId: getNamespaceScopedSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/cluster-scoped/summary\n  method: get\n  operationId: getClusterScopedSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/agentic-access/kyverno-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kyverno/agentic-access/kyverno-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Cloud-Native

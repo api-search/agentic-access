@@ -9,31 +9,31 @@ api_specs:
   label: Fireworks AI anthropic-messages.openapi_other API
   slug: fireworks-ai-anthropic-messages-openapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-anthropic-messages-openapi-other-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-anthropic-messages-openapi-other-api-openapi.yml
 - filename: fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
   format: yaml
   label: Fireworks AI gateway-extra.openapi_Gateway API
   slug: fireworks-ai-gateway-extra-openapi-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
 - filename: fireworks-ai-gateway-openapi-gateway-api-openapi.yml
   format: yaml
   label: Fireworks AI Gateway.openapi Gateway API
   slug: fireworks-ai-gateway-openapi-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-openapi-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-gateway-openapi-gateway-api-openapi.yml
 - filename: fireworks-ai-responses-openapi-other-api-openapi.yml
   format: yaml
   label: Fireworks AI Responses.openapi Other API
   slug: fireworks-ai-responses-openapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-responses-openapi-other-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-responses-openapi-other-api-openapi.yml
 - filename: fireworks-ai-text-completion-openapi-other-api-openapi.yml
   format: yaml
   label: Fireworks AI Text Completion.openapi Other API
   slug: fireworks-ai-text-completion-openapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-text-completion-openapi-other-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-text-completion-openapi-other-api-openapi.yml
 consequence_counts:
   physical: 42
   read: 184
@@ -222,8 +222,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/firewo
   \  method: post\n  operationId: Gateway_AliasEvaluatorVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/evaluators/{evaluator_id}/versions/{version_id}:rollback\n  method: post\n  operationId: Gateway_RollbackEvaluator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/evaluators/{evaluator_id}:getBuildLogEndpoint\n  method: get\n  operationId: Gateway_GetEvaluatorBuildLogEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}/evaluators/{evaluator_id}:getSourceCodeSignedUrl\n  method: get\n  operationId: Gateway_GetEvaluatorSourceCodeEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}/evaluators/{evaluator_id}:getUploadEndpoint\n  method: post\n  operationId: Gateway_GetEvaluatorUploadEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/evaluators/{evaluator_id}:validateUpload\n  method: post\n  operationId: Gateway_ValidateEvaluatorUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n   \
   \ subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/evaluators:previewEvaluator\n  method: post\n  operationId: Gateway_PreviewEvaluator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/evaluatorsV2\n  method: post\n  operationId: Gateway_CreateEvaluatorV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/genericDeploymentTypes\n\
-  \  method: get\n  operationId: Gateway_ListGenericDeploymentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}/genericDeploymentTypes\n  method: post\n  operationId: Gateway_CreateGenericDeploymentType\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (135 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/agentic-access/fireworks-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/agentic-access/fireworks-ai-agentic-access.yml
+  \  method: get\n  operationId: Gateway_ListGenericDeploymentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}/genericDeploymentTypes\n  method: post\n  operationId: Gateway_CreateGenericDeploymentType\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (135 KB total) ---\n# Full source: https://artifacts.apis.io/fireworks-ai/agentic-access/fireworks-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/fireworks-ai/agentic-access/fireworks-ai-agentic-access.yml
 summary_line: 411 operations · 227 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

@@ -9,55 +9,55 @@ api_specs:
   label: Gitea Admin API
   slug: gitea-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-admin-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-admin-api-openapi.yml
 - filename: gitea-issue-api-openapi.yml
   format: yaml
   label: Gitea Issue API
   slug: gitea-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-issue-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-issue-api-openapi.yml
 - filename: gitea-miscellaneous-api-openapi.yml
   format: yaml
   label: Gitea Miscellaneous API
   slug: gitea-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-miscellaneous-api-openapi.yml
 - filename: gitea-notification-api-openapi.yml
   format: yaml
   label: Gitea Notification API
   slug: gitea-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-notification-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-notification-api-openapi.yml
 - filename: gitea-organization-api-openapi.yml
   format: yaml
   label: Gitea Organization API
   slug: gitea-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-organization-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-organization-api-openapi.yml
 - filename: gitea-package-api-openapi.yml
   format: yaml
   label: Gitea Package API
   slug: gitea-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-package-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-package-api-openapi.yml
 - filename: gitea-repository-api-openapi.yml
   format: yaml
   label: Gitea Repository API
   slug: gitea-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-repository-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-repository-api-openapi.yml
 - filename: gitea-settings-api-openapi.yml
   format: yaml
   label: Gitea Settings API
   slug: gitea-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-settings-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-settings-api-openapi.yml
 - filename: gitea-user-api-openapi.yml
   format: yaml
   label: Gitea User API
   slug: gitea-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-user-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-user-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 474
@@ -232,8 +232,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gitea-
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{owner}/{type}/{name}/-/link/{repo_name}\n  method: post\n  operationId: linkPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /packages/{owner}/{type}/{name}/-/unlink\n  method: post\n  operationId: unlinkPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /packages/{owner}/{type}/{name}/{version}\n  method: get\n  operationId: getPackage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /packages/{owner}/{type}/{name}/{version}\n  method: delete\n  operationId: deletePackageVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /packages/{owner}/{type}/{name}/{version}/files\n  method: get\n  operationId: listPackageFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/issues/search\n  method: get\n  operationId: issueSearchIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/migrate\n  method: post\n  operationId: repoMigrate\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repos/search\n  method: get\n  operationId: repoSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}\n  method: get\n  operationId: repoGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}\n  method: delete\n  operationId: repoDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n\n\n# --- truncated at 32 KB (270 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/agentic-access/gitea-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/agentic-access/gitea-agentic-access.yml
+  \    audit: required\n\n\n# --- truncated at 32 KB (270 KB total) ---\n# Full source: https://artifacts.apis.io/gitea/agentic-access/gitea-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/gitea/agentic-access/gitea-agentic-access.yml
 summary_line: 944 operations · 470 acting · 12 human-in-the-loop
 tags:
 - Gitea

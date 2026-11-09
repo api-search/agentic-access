@@ -8,25 +8,25 @@ api_specs:
   label: The Guardian Content API
   slug: guardian-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-content-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-content-api-openapi.yml
 - filename: guardian-editions-api-openapi.yml
   format: yaml
   label: The Guardian Editions API
   slug: guardian-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-editions-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-editions-api-openapi.yml
 - filename: guardian-sections-api-openapi.yml
   format: yaml
   label: The Guardian Sections API
   slug: guardian-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-sections-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-sections-api-openapi.yml
 - filename: guardian-tags-api-openapi.yml
   format: yaml
   label: The Guardian Tags API
   slug: guardian-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-tags-api-openapi.yml
+  url: https://artifacts.apis.io/guardian/openapi/guardian-tags-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: searchContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{contentId}\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: searchTags\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sections\n  method: get\n  operationId: getSections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editions\n  method: get\n  operationId: getEditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/agentic-access/guardian-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/guardian/agentic-access/guardian-agentic-access.yml
 summary_line: 5 operations
 tags:
 - News

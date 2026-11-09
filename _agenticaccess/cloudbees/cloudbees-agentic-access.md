@@ -9,115 +9,115 @@ api_specs:
   label: CloudBees Computer API
   slug: cloudbees-computer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-computer-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-computer-api-openapi.yml
 - filename: cloudbees-createitem-api-openapi.yml
   format: yaml
   label: CloudBees CreateItem API
   slug: cloudbees-createitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-createitem-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-createitem-api-openapi.yml
 - filename: cloudbees-job-api-openapi.yml
   format: yaml
   label: CloudBees Job API
   slug: cloudbees-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-job-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-job-api-openapi.yml
 - filename: cloudbees-json-api-openapi.yml
   format: yaml
   label: CloudBees Json API
   slug: cloudbees-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-json-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-json-api-openapi.yml
 - filename: cloudbees-python-api-openapi.yml
   format: yaml
   label: CloudBees Python API
   slug: cloudbees-python-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-python-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-python-api-openapi.yml
 - filename: cloudbees-queue-api-openapi.yml
   format: yaml
   label: CloudBees Queue API
   slug: cloudbees-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-queue-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-queue-api-openapi.yml
 - filename: cloudbees-xml-api-openapi.yml
   format: yaml
   label: CloudBees Xml API
   slug: cloudbees-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-xml-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-xml-api-openapi.yml
 - filename: cloudbees-components-api-openapi.yml
   format: yaml
   label: CloudBees Components API
   slug: cloudbees-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-components-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-components-api-openapi.yml
 - filename: cloudbees-environments-api-openapi.yml
   format: yaml
   label: CloudBees Environments API
   slug: cloudbees-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-environments-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-environments-api-openapi.yml
 - filename: cloudbees-flag-configurations-api-openapi.yml
   format: yaml
   label: CloudBees Flag configurations API
   slug: cloudbees-flag-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flag-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-flag-configurations-api-openapi.yml
 - filename: cloudbees-flag-custom-properties-api-openapi.yml
   format: yaml
   label: CloudBees Flag custom properties API
   slug: cloudbees-flag-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flag-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-flag-custom-properties-api-openapi.yml
 - filename: cloudbees-flag-lifecycle-api-openapi.yml
   format: yaml
   label: CloudBees Flag lifecycle API
   slug: cloudbees-flag-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flag-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-flag-lifecycle-api-openapi.yml
 - filename: cloudbees-flags-api-openapi.yml
   format: yaml
   label: CloudBees Flags API
   slug: cloudbees-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flags-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-flags-api-openapi.yml
 - filename: cloudbees-organizations-api-openapi.yml
   format: yaml
   label: CloudBees Organizations API
   slug: cloudbees-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-organizations-api-openapi.yml
 - filename: cloudbees-runs-api-openapi.yml
   format: yaml
   label: CloudBees Runs API
   slug: cloudbees-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-runs-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-runs-api-openapi.yml
 - filename: cloudbees-target-groups-api-openapi.yml
   format: yaml
   label: CloudBees Target groups API
   slug: cloudbees-target-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-target-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-target-groups-api-openapi.yml
 - filename: cloudbees-teams-api-openapi.yml
   format: yaml
   label: CloudBees Teams API
   slug: cloudbees-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-teams-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-teams-api-openapi.yml
 - filename: cloudbees-users-api-openapi.yml
   format: yaml
   label: CloudBees Users API
   slug: cloudbees-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-users-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-users-api-openapi.yml
 - filename: cloudbees-edge-runners-api-openapi.yml
   format: yaml
   label: CloudBees Edge runners API
   slug: cloudbees-edge-runners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-edge-runners-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-edge-runners-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 47
@@ -191,7 +191,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cloudb
   \   exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/teams/{id}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{organizationId}/teams\n  method: get\n  operationId: TeamsService_GetTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/organizations/{organizationId}/invite\n  method: post\n  operationId: InvitesService_CreateInviteV3\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/organizations/{organizationId}/user/{userId}\n  method: delete\n  operationId: MembershipsService_RemoveUsersFromTeamV3\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/xml\n  method: get\n  operationId: getApiXml\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/agentic-access/cloudbees-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudbees/agentic-access/cloudbees-agentic-access.yml
 summary_line: 79 operations · 32 acting
 tags:
 - CI/CD

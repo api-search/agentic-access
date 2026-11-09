@@ -9,7 +9,7 @@ api_specs:
   label: Mastercard Gateway API Merchant API
   slug: mastercard-gateway-api-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/openapi/mastercard-gateway-api-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-gateway-api/openapi/mastercard-gateway-api-merchant-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 5
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/master
   \ x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchant/{merchantId}/token/{tokenId}\n  method: get\n  operationId: retrieveToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/{merchantId}/token/{tokenId}\n  method: delete\n  operationId: deleteToken\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /merchant/{merchantId}/3DSecureId/{3DSecureId}\n  method: put\n  operationId: threeDSecure\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchant/{merchantId}/hostedCheckout\n  method: post\n  operationId: hostedCheckoutInitiate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchant/{merchantId}/batch/{batchId}\n  method: put\n  operationId: batch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchant/{merchantId}/gatewayStatus\n  method: get\n  operationId: checkGateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/agentic-access/mastercard-gateway-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mastercard-gateway-api/agentic-access/mastercard-gateway-api-agentic-access.yml
 summary_line: 14 operations · 9 acting
 tags:
 - Credit Cards

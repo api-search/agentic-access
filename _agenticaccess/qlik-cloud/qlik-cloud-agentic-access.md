@@ -9,37 +9,37 @@ api_specs:
   label: Qlik Cloud Api Keys API
   slug: qlik-cloud-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-api-keys-api-openapi.yml
 - filename: qlik-cloud-apps-api-openapi.yml
   format: yaml
   label: Qlik Cloud Apps API
   slug: qlik-cloud-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-apps-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-apps-api-openapi.yml
 - filename: qlik-cloud-csrf-token-api-openapi.yml
   format: yaml
   label: Qlik Cloud Csrf Token API
   slug: qlik-cloud-csrf-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-csrf-token-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-csrf-token-api-openapi.yml
 - filename: qlik-cloud-spaces-api-openapi.yml
   format: yaml
   label: Qlik Cloud Spaces API
   slug: qlik-cloud-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-spaces-api-openapi.yml
 - filename: qlik-cloud-users-api-openapi.yml
   format: yaml
   label: Qlik Cloud Users API
   slug: qlik-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-users-api-openapi.yml
 - filename: qlik-cloud-webhooks-api-openapi.yml
   format: yaml
   label: Qlik Cloud Webhooks API
   slug: qlik-cloud-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/openapi/qlik-cloud-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-cloud/openapi/qlik-cloud-webhooks-api-openapi.yml
 consequence_counts:
   read: 14
   write: 18
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/qlik-c
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/spaces/{spaceId}\n  method: put\n  operationId: updateSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/spaces/{spaceId}\n  method: delete\n  operationId: deleteSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/spaces/{spaceId}/assignments\n  method: get\n  operationId: listSpaceAssignments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /api/v1/spaces/{spaceId}/assignments\n  method: post\n  operationId: createSpaceAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/spaces/types\n  method: get\n  operationId: listSpaceTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api-keys\n  method: get\n  operationId: listApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api-keys\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/csrf-token\n  method: get\n  operationId: getCsrfToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/agentic-access/qlik-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qlik-cloud/agentic-access/qlik-cloud-agentic-access.yml
 summary_line: 32 operations · 18 acting
 tags:
 - Analytics

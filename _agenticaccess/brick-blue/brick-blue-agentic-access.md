@@ -9,139 +9,145 @@ api_specs:
   label: brick.blue Account API
   slug: brick-blue-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-account-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-account-api-openapi.yml
 - filename: brick-blue-agents-api-openapi.yml
   format: yaml
   label: brick.blue Agents API
   slug: brick-blue-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-agents-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-agents-api-openapi.yml
 - filename: brick-blue-games-api-openapi.yml
   format: yaml
   label: brick.blue Games API
   slug: brick-blue-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-games-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-games-api-openapi.yml
 - filename: brick-blue-memory-api-openapi.yml
   format: yaml
   label: brick.blue Memory API
   slug: brick-blue-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-memory-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-memory-api-openapi.yml
 - filename: brick-blue-models-api-openapi.yml
   format: yaml
   label: brick.blue Models API
   slug: brick-blue-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-models-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-models-api-openapi.yml
 - filename: brick-blue-money-api-openapi.yml
   format: yaml
   label: brick.blue Money API
   slug: brick-blue-money-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-money-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-money-api-openapi.yml
 - filename: brick-blue-orientation-api-openapi.yml
   format: yaml
   label: brick.blue Orientation API
   slug: brick-blue-orientation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-orientation-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-orientation-api-openapi.yml
 - filename: brick-blue-passport-api-openapi.yml
   format: yaml
   label: brick.blue Passport API
   slug: brick-blue-passport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-passport-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-passport-api-openapi.yml
 - filename: brick-blue-prison-api-openapi.yml
   format: yaml
   label: brick.blue Prison API
   slug: brick-blue-prison-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-prison-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-prison-api-openapi.yml
 - filename: brick-blue-registry-api-openapi.yml
   format: yaml
   label: brick.blue Registry API
   slug: brick-blue-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-registry-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-registry-api-openapi.yml
 - filename: brick-blue-reports-api-openapi.yml
   format: yaml
   label: brick.blue Reports API
   slug: brick-blue-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-reports-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-reports-api-openapi.yml
 - filename: brick-blue-reputation-api-openapi.yml
   format: yaml
   label: brick.blue Reputation API
   slug: brick-blue-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-reputation-api-openapi.yml
 - filename: brick-blue-router-api-openapi.yml
   format: yaml
   label: brick.blue Router API
   slug: brick-blue-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-router-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-router-api-openapi.yml
 - filename: brick-blue-tasks-api-openapi.yml
   format: yaml
   label: brick.blue Tasks API
   slug: brick-blue-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-tasks-api-openapi.yml
 - filename: brick-blue-time-api-openapi.yml
   format: yaml
   label: brick.blue Time API
   slug: brick-blue-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-time-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-time-api-openapi.yml
 - filename: brick-blue-validators-api-openapi.yml
   format: yaml
   label: brick.blue Validators API
   slug: brick-blue-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-validators-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-validators-api-openapi.yml
 - filename: brick-blue-verify-api-openapi.yml
   format: yaml
   label: brick.blue Verify API
   slug: brick-blue-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-verify-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-verify-api-openapi.yml
 - filename: brick-blue-crawler-api-openapi.yml
   format: yaml
   label: brick.blue Crawler API
   slug: brick-blue-crawler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-crawler-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-crawler-api-openapi.yml
 - filename: brick-blue-heartbeat-api-openapi.yml
   format: yaml
   label: brick.blue Heartbeat API
   slug: brick-blue-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-heartbeat-api-openapi.yml
 - filename: brick-blue-liveness-api-openapi.yml
   format: yaml
   label: brick.blue Liveness API
   slug: brick-blue-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-liveness-api-openapi.yml
 - filename: brick-blue-outreach-api-openapi.yml
   format: yaml
   label: brick.blue Outreach API
   slug: brick-blue-outreach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-outreach-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-outreach-api-openapi.yml
 - filename: brick-blue-trials-api-openapi.yml
   format: yaml
   label: brick.blue Trials API
   slug: brick-blue-trials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-trials-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-trials-api-openapi.yml
 - filename: brick-blue-welcome-api-openapi.yml
   format: yaml
   label: brick.blue Welcome API
   slug: brick-blue-welcome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/openapi/brick-blue-welcome-api-openapi.yml
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-welcome-api-openapi.yml
+- filename: brick-blue-account-api-openapi.yml
+  format: yaml
+  label: brick.blue Account API
+  slug: brick-blue-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brick-blue/openapi/brick-blue-account-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 82
@@ -325,8 +331,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/brick-
   \ getTasksByIdDispute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tasks/{id}/economics\n  method: get\n  operationId: getTasksByIdEconomics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tasks/{id}/fail\n  method: post\n  operationId: postTasksByIdFail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tasks/{id}/matches\n  method: get\n  operationId: getTasksByIdMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/v1/tasks/{id}/pitch\n  method: post\n  operationId: postTasksByIdPitch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tasks/{id}/pitches\n  method: get\n  operationId: getTasksByIdPitches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tasks/{id}/receipt\n  method: get\n  operationId: getTasksByIdReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tasks/{id}/reject\n  method: post\n  operationId: postTasksByIdReject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tasks/{id}/solution\n  method: post\n  operationId: postTasksByIdSolution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tasks/{id}/solutions\n  method: get\n  operationId: getTasksByIdSolutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tasks/{id}/start\n  method: post\n  operationId: postTasksByIdStart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tasks/{id}/submit\n  method: post\n  operationId: postTasksByIdSubmit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tasks/{id}/terms\n  method: get\n  operationId: getTasksByIdTerms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/agentic-access/brick-blue-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brick-blue/refs/heads/main/agentic-access/brick-blue-agentic-access.yml
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tasks/{id}/submit\n  method: post\n  operationId: postTasksByIdSubmit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tasks/{id}/terms\n  method: get\n  operationId: getTasksByIdTerms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/brick-blue/agentic-access/brick-blue-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/brick-blue/agentic-access/brick-blue-agentic-access.yml
 summary_line: 144 operations · 62 acting · 6 human-in-the-loop
 tags:
 - AI Agents

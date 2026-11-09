@@ -84,8 +84,8 @@ source_yaml_url: https://artifacts.apis.io/emitrr/agentic-access/emitrr-agentic-
 summary_line: 26 operations · 19 acting
 tags:
 - Healthcare
-- AI
-- Communication
+- Artificial Intelligence
+- Communications
 - Messaging
-- SaaS
+- Software-as-a-Service
 ---

@@ -9,49 +9,49 @@ api_specs:
   label: NaviStone API Info API
   slug: navistone-api-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/openapi/navistone-api-info-api-openapi.yml
+  url: https://artifacts.apis.io/navistone/openapi/navistone-api-info-api-openapi.yml
 - filename: navistone-campaigns-api-openapi.yml
   format: yaml
   label: NaviStone Campaigns API
   slug: navistone-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/openapi/navistone-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/navistone/openapi/navistone-campaigns-api-openapi.yml
 - filename: navistone-clients-api-openapi.yml
   format: yaml
   label: NaviStone Clients API
   slug: navistone-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/openapi/navistone-clients-api-openapi.yml
+  url: https://artifacts.apis.io/navistone/openapi/navistone-clients-api-openapi.yml
 - filename: navistone-domains-api-openapi.yml
   format: yaml
   label: NaviStone Domains API
   slug: navistone-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/openapi/navistone-domains-api-openapi.yml
+  url: https://artifacts.apis.io/navistone/openapi/navistone-domains-api-openapi.yml
 - filename: navistone-geo-targeting-api-openapi.yml
   format: yaml
   label: NaviStone Geo Targeting API
   slug: navistone-geo-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/openapi/navistone-geo-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/navistone/openapi/navistone-geo-targeting-api-openapi.yml
 - filename: navistone-health-api-openapi.yml
   format: yaml
   label: NaviStone Health API
   slug: navistone-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/openapi/navistone-health-api-openapi.yml
+  url: https://artifacts.apis.io/navistone/openapi/navistone-health-api-openapi.yml
 - filename: navistone-output-api-openapi.yml
   format: yaml
   label: NaviStone Output API
   slug: navistone-output-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/openapi/navistone-output-api-openapi.yml
+  url: https://artifacts.apis.io/navistone/openapi/navistone-output-api-openapi.yml
 - filename: navistone-segments-api-openapi.yml
   format: yaml
   label: NaviStone Segments API
   slug: navistone-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/openapi/navistone-segments-api-openapi.yml
+  url: https://artifacts.apis.io/navistone/openapi/navistone-segments-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 20
@@ -193,7 +193,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/_origi
   \ operationId: OutputController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/output/{id}\n  method: delete\n  operationId: OutputController_remove\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/segments\n  method: post\n  operationId: SegmentsController_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange:\
   \ true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/segments\n  method: get\n  operationId: SegmentsController_findAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/segments/{id}\n  method: get\n  operationId: SegmentsController_findOne\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/segments/{id}\n  method: patch\n  operationId: SegmentsController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\
   - path: /api/segments/{id}\n  method: delete\n  operationId: SegmentsController_remove\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/agentic-access/navistone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/navistone/agentic-access/navistone-agentic-access.yml
 summary_line: 36 operations · 20 acting · 20 human-in-the-loop
 tags:
 - Company

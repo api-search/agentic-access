@@ -8,19 +8,19 @@ api_specs:
   label: Clever Care Health Plan Drug Formulary API
   slug: clevercarehealthplan-drug-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-drug-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/clevercarehealthplan/openapi/clevercarehealthplan-drug-formulary-api-openapi.yml
 - filename: clevercarehealthplan-patient-access-api-openapi.yml
   format: yaml
   label: Clever Care Health Plan Patient Access API
   slug: clevercarehealthplan-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/clevercarehealthplan/openapi/clevercarehealthplan-patient-access-api-openapi.yml
 - filename: clevercarehealthplan-provider-directory-api-openapi.yml
   format: yaml
   label: Clever Care Health Plan Provider Directory API
   slug: clevercarehealthplan-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/clevercarehealthplan/openapi/clevercarehealthplan-provider-directory-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/clever
   \  method: get\n  operationId: searchHealthcareService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /HealthcareService/{id}\n  method: get\n  operationId: readHealthcareService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Location\n  method: get\n  operationId: searchLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Location/{id}\n  method: get\n  operationId: readLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Endpoint\n  method: get\n  operationId: searchEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Endpoint/{id}\n  method: get\n  operationId: readEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /InsurancePlan\n  method: get\n  operationId: searchInsurancePlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /InsurancePlan/{id}\n  method: get\n  operationId: readInsurancePlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationKnowledge\n  method: get\n  operationId: searchMedicationKnowledge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationKnowledge/{id}\n\
   \  method: get\n  operationId: readMedicationKnowledge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /List\n  method: get\n  operationId: searchList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /List/{id}\n  method: get\n  operationId: readList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata\n  method: get\n  operationId: getCapabilityStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/agentic-access/clevercarehealthplan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clevercarehealthplan/agentic-access/clevercarehealthplan-agentic-access.yml
 summary_line: 27 operations
 tags:
 - Company

@@ -9,121 +9,121 @@ api_specs:
   label: Symphony All API
   slug: symphony-all-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-all-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-all-api-openapi.yml
 - filename: symphony-app-api-openapi.yml
   format: yaml
   label: Symphony App API
   slug: symphony-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-app-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-app-api-openapi.yml
 - filename: symphony-authenticate-api-openapi.yml
   format: yaml
   label: Symphony Authenticate API
   slug: symphony-authenticate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-authenticate-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-authenticate-api-openapi.yml
 - filename: symphony-channelco-api-openapi.yml
   format: yaml
   label: Symphony Channelco API
   slug: symphony-channelco-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-channelco-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-channelco-api-openapi.yml
 - filename: symphony-dlp-api-openapi.yml
   format: yaml
   label: Symphony Dlp API
   slug: symphony-dlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-dlp-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-dlp-api-openapi.yml
 - filename: symphony-events-api-openapi.yml
   format: yaml
   label: Symphony Events API
   slug: symphony-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-events-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-events-api-openapi.yml
 - filename: symphony-groups-api-openapi.yml
   format: yaml
   label: Symphony Groups API
   slug: symphony-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-groups-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-groups-api-openapi.yml
 - filename: symphony-health-api-openapi.yml
   format: yaml
   label: Symphony Health API
   slug: symphony-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-health-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-health-api-openapi.yml
 - filename: symphony-idm-api-openapi.yml
   format: yaml
   label: Symphony Idm API
   slug: symphony-idm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-idm-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-idm-api-openapi.yml
 - filename: symphony-info-api-openapi.yml
   format: yaml
   label: Symphony Info API
   slug: symphony-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-info-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-info-api-openapi.yml
 - filename: symphony-logout-api-openapi.yml
   format: yaml
   label: Symphony Logout API
   slug: symphony-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-logout-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-logout-api-openapi.yml
 - filename: symphony-message-api-openapi.yml
   format: yaml
   label: Symphony Message API
   slug: symphony-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-message-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-message-api-openapi.yml
 - filename: symphony-onboarding-api-openapi.yml
   format: yaml
   label: Symphony Onboarding API
   slug: symphony-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-onboarding-api-openapi.yml
 - filename: symphony-pubkey-api-openapi.yml
   format: yaml
   label: Symphony Pubkey API
   slug: symphony-pubkey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-pubkey-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-pubkey-api-openapi.yml
 - filename: symphony-signals-api-openapi.yml
   format: yaml
   label: Symphony Signals API
   slug: symphony-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-signals-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-signals-api-openapi.yml
 - filename: symphony-stream-api-openapi.yml
   format: yaml
   label: Symphony Stream API
   slug: symphony-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-stream-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-stream-api-openapi.yml
 - filename: symphony-types-api-openapi.yml
   format: yaml
   label: Symphony Types API
   slug: symphony-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-types-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-types-api-openapi.yml
 - filename: symphony-util-api-openapi.yml
   format: yaml
   label: Symphony Util API
   slug: symphony-util-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-util-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-util-api-openapi.yml
 - filename: symphony-audit-trail-api-openapi.yml
   format: yaml
   label: Symphony Audit Trail API
   slug: symphony-audit-trail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-audit-trail-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-audit-trail-api-openapi.yml
 - filename: symphony-data-feeds-api-openapi.yml
   format: yaml
   label: Symphony Data Feeds API
   slug: symphony-data-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/openapi/symphony-data-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/symphony/openapi/symphony-data-feeds-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 62
@@ -272,8 +272,8 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/sympho
   \ 3600\n    audit: none\n- path: /v1/dlp/policies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/dlp/policies\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/dlp/policies/{policyId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/dlp/policies/{policyId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/dlp/policies/{policyId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/dlp/policies/{policyId}/enable\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/dlp/policies/{policyId}/disable\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n \
   \     proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/dlp/policies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/dlp/policies\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/dlp/policies/{policyId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/dlp/policies/{policyId}/update\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
-  \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/dlp/policies/{policyId}/delete\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/dlp/policies/{policyId}/enable\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/agentic-access/symphony-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/agentic-access/symphony-agentic-access.yml
+  \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/dlp/policies/{policyId}/delete\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/dlp/policies/{policyId}/enable\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/symphony/agentic-access/symphony-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/symphony/agentic-access/symphony-agentic-access.yml
 summary_line: 158 operations · 96 acting · 15 human-in-the-loop
 tags:
 - Collaboration

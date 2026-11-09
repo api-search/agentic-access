@@ -39,265 +39,265 @@ api_specs:
   label: Airbus OneAtlas Access API
   slug: airbus-oneatlas-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-access-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-access-api-openapi.yml
 - filename: airbus-oneatlas-accounting-balance-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas accounting/balance API
   slug: airbus-oneatlas-accounting-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-accounting-balance-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-accounting-balance-api-openapi.yml
 - filename: airbus-oneatlas-accounting-transactions-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas accounting/transactions API
   slug: airbus-oneatlas-accounting-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-accounting-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-accounting-transactions-api-openapi.yml
 - filename: airbus-oneatlas-attempts-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Attempts API
   slug: airbus-oneatlas-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-attempts-api-openapi.yml
 - filename: airbus-oneatlas-catalog-search-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Catalog search API
   slug: airbus-oneatlas-catalog-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-catalog-search-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-catalog-search-api-openapi.yml
 - filename: airbus-oneatlas-contract-related-information-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Contract related Information API
   slug: airbus-oneatlas-contract-related-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-contract-related-information-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-contract-related-information-api-openapi.yml
 - filename: airbus-oneatlas-contracts-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Contracts API
   slug: airbus-oneatlas-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-contracts-api-openapi.yml
 - filename: airbus-oneatlas-control-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Control API
   slug: airbus-oneatlas-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-control-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-control-api-openapi.yml
 - filename: airbus-oneatlas-convert-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Convert API
   slug: airbus-oneatlas-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-convert-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-convert-api-openapi.yml
 - filename: airbus-oneatlas-deliver-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Deliver API
   slug: airbus-oneatlas-deliver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-deliver-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-deliver-api-openapi.yml
 - filename: airbus-oneatlas-elevation-orders-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Elevation/orders API
   slug: airbus-oneatlas-elevation-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-elevation-orders-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-elevation-orders-api-openapi.yml
 - filename: airbus-oneatlas-elevation-price-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Elevation/price API
   slug: airbus-oneatlas-elevation-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-elevation-price-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-elevation-price-api-openapi.yml
 - filename: airbus-oneatlas-feasibility-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Feasibility API
   slug: airbus-oneatlas-feasibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-feasibility-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-feasibility-api-openapi.yml
 - filename: airbus-oneatlas-format-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Format API
   slug: airbus-oneatlas-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-format-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-format-api-openapi.yml
 - filename: airbus-oneatlas-freemium-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Freemium API
   slug: airbus-oneatlas-freemium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-freemium-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-freemium-api-openapi.yml
 - filename: airbus-oneatlas-get-capabilities-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Get Capabilities API
   slug: airbus-oneatlas-get-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-get-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-get-capabilities-api-openapi.yml
 - filename: airbus-oneatlas-health-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Health API
   slug: airbus-oneatlas-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-health-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-health-api-openapi.yml
 - filename: airbus-oneatlas-maps-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Maps API
   slug: airbus-oneatlas-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-maps-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-maps-api-openapi.yml
 - filename: airbus-oneatlas-monitor-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Monitor API
   slug: airbus-oneatlas-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-monitor-api-openapi.yml
 - filename: airbus-oneatlas-notifications-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Notifications API
   slug: airbus-oneatlas-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-notifications-api-openapi.yml
 - filename: airbus-oneatlas-notify-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Notify API
   slug: airbus-oneatlas-notify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-notify-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-notify-api-openapi.yml
 - filename: airbus-oneatlas-ordering-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Ordering API
   slug: airbus-oneatlas-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-ordering-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-ordering-api-openapi.yml
 - filename: airbus-oneatlas-orders-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Orders API
   slug: airbus-oneatlas-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-orders-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-orders-api-openapi.yml
 - filename: airbus-oneatlas-payments-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Payments API
   slug: airbus-oneatlas-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-payments-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-payments-api-openapi.yml
 - filename: airbus-oneatlas-pilot-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Pilot API
   slug: airbus-oneatlas-pilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-pilot-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-pilot-api-openapi.yml
 - filename: airbus-oneatlas-pleiadesneo-specific-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas PleiadesNeo specific API
   slug: airbus-oneatlas-pleiadesneo-specific-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-pleiadesneo-specific-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-pleiadesneo-specific-api-openapi.yml
 - filename: airbus-oneatlas-process-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Process API
   slug: airbus-oneatlas-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-process-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-process-api-openapi.yml
 - filename: airbus-oneatlas-sar-baskets-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Sar/Baskets API
   slug: airbus-oneatlas-sar-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-sar-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-sar-baskets-api-openapi.yml
 - filename: airbus-oneatlas-sar-config-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Sar/Config API
   slug: airbus-oneatlas-sar-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-sar-config-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-sar-config-api-openapi.yml
 - filename: airbus-oneatlas-sar-editing-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Sar/Editing API
   slug: airbus-oneatlas-sar-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-sar-editing-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-sar-editing-api-openapi.yml
 - filename: airbus-oneatlas-sar-monitoring-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Sar/Monitoring API
   slug: airbus-oneatlas-sar-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-sar-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-sar-monitoring-api-openapi.yml
 - filename: airbus-oneatlas-sar-prices-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Sar/Prices API
   slug: airbus-oneatlas-sar-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-sar-prices-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-sar-prices-api-openapi.yml
 - filename: airbus-oneatlas-sar-replication-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Sar/Replication API
   slug: airbus-oneatlas-sar-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-sar-replication-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-sar-replication-api-openapi.yml
 - filename: airbus-oneatlas-sar-search-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Sar/Search API
   slug: airbus-oneatlas-sar-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-sar-search-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-sar-search-api-openapi.yml
 - filename: airbus-oneatlas-sar-shopcart-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Sar/Shopcart API
   slug: airbus-oneatlas-sar-shopcart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-sar-shopcart-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-sar-shopcart-api-openapi.yml
 - filename: airbus-oneatlas-spot-and-pleiades-ordering-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas SPOT and Pleiades ordering API
   slug: airbus-oneatlas-spot-and-pleiades-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-spot-and-pleiades-ordering-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-spot-and-pleiades-ordering-api-openapi.yml
 - filename: airbus-oneatlas-spot-and-pleiades-specific-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas SPOT and Pleiades specific API
   slug: airbus-oneatlas-spot-and-pleiades-specific-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-spot-and-pleiades-specific-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-spot-and-pleiades-specific-api-openapi.yml
 - filename: airbus-oneatlas-subscriptions-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Subscriptions API
   slug: airbus-oneatlas-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-subscriptions-api-openapi.yml
 - filename: airbus-oneatlas-tasking-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Tasking API
   slug: airbus-oneatlas-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-tasking-api-openapi.yml
 - filename: airbus-oneatlas-token-retrieval-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Token retrieval API
   slug: airbus-oneatlas-token-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-token-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-token-retrieval-api-openapi.yml
 - filename: airbus-oneatlas-user-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas User API
   slug: airbus-oneatlas-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-user-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-user-api-openapi.yml
 - filename: airbus-oneatlas-workspaces-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Workspaces API
   slug: airbus-oneatlas-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-workspaces-api-openapi.yml
 - filename: airbus-oneatlas-api-key-management-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas API Key Management API
   slug: airbus-oneatlas-api-key-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-api-key-management-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-api-key-management-api-openapi.yml
 - filename: airbus-oneatlas-open-search-api-openapi.yml
   format: yaml
   label: Airbus OneAtlas Open Search API
   slug: airbus-oneatlas-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/openapi/airbus-oneatlas-open-search-api-openapi.yml
+  url: https://artifacts.apis.io/airbus-oneatlas/openapi/airbus-oneatlas-open-search-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 95
@@ -441,8 +441,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/airbus
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sar/baskets\n  method: post\n  operationId: postSarBaskets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sar/baskets/{basketId}\n  method: get\n  operationId: getSarBasketsByBasketId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sar/baskets/{basketId}\n  method: patch\n  operationId: patchSarBasketsByBasketId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /sar/baskets/{basketId}\n  method: put\n  operationId: putSarBasketsByBasketId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sar/baskets/{basketId}\n  method: delete\n  operationId: deleteSarBasketsByBasketId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sar/baskets/{basketId}/addItems\n  method: post\n  operationId: postSarBasketsByBasketIdAddItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sar/baskets/{basketId}/removeItems\n  method: post\n  operationId: postSarBasketsByBasketIdRemoveItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sar/baskets/{basketId}/submit\n  method: post\n  operationId: postSarBasketsByBasketIdSubmit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sar/config\n  method: get\n  operationId:\
-  \ getSarConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sar/config/orderTemplates\n  method: get\n  operationId: getSarConfigOrderTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sar/config/permissions\n  method: get\n  operationId: getSarConfigPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/agentic-access/airbus-oneatlas-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/agentic-access/airbus-oneatlas-agentic-access.yml
+  \ getSarConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sar/config/orderTemplates\n  method: get\n  operationId: getSarConfigOrderTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sar/config/permissions\n  method: get\n  operationId: getSarConfigPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/airbus-oneatlas/agentic-access/airbus-oneatlas-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/airbus-oneatlas/agentic-access/airbus-oneatlas-agentic-access.yml
 summary_line: 161 operations · 66 acting · 3 human-in-the-loop
 tags:
 - Imagery

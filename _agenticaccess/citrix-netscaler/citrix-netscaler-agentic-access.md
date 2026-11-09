@@ -9,37 +9,37 @@ api_specs:
   label: Citrix NetScaler Authentication API
   slug: citrix-netscaler-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-netscaler/openapi/citrix-netscaler-authentication-api-openapi.yml
 - filename: citrix-netscaler-cs-virtual-server-api-openapi.yml
   format: yaml
   label: Citrix NetScaler CS Virtual Server API
   slug: citrix-netscaler-cs-virtual-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-cs-virtual-server-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-netscaler/openapi/citrix-netscaler-cs-virtual-server-api-openapi.yml
 - filename: citrix-netscaler-lb-virtual-server-api-openapi.yml
   format: yaml
   label: Citrix NetScaler LB Virtual Server API
   slug: citrix-netscaler-lb-virtual-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-lb-virtual-server-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-netscaler/openapi/citrix-netscaler-lb-virtual-server-api-openapi.yml
 - filename: citrix-netscaler-ns-config-api-openapi.yml
   format: yaml
   label: Citrix NetScaler NS Config API
   slug: citrix-netscaler-ns-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-ns-config-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-netscaler/openapi/citrix-netscaler-ns-config-api-openapi.yml
 - filename: citrix-netscaler-statistics-api-openapi.yml
   format: yaml
   label: Citrix NetScaler Statistics API
   slug: citrix-netscaler-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-netscaler/openapi/citrix-netscaler-statistics-api-openapi.yml
 - filename: citrix-netscaler-system-api-openapi.yml
   format: yaml
   label: Citrix NetScaler System API
   slug: citrix-netscaler-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-system-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-netscaler/openapi/citrix-netscaler-system-api-openapi.yml
 consequence_counts:
   read: 12
   write: 16
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/citrix
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/csvserver/{name}\n  method: delete\n  operationId: deleteCsVserver\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/csvserver_cspolicy_binding\n  method: put\n  operationId: bindCsPolicyToCsVserver\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/csvserver_cspolicy_binding/{name}\n  method: get\n  operationId: getCsVserverPolicyBindings\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stat/lbvserver\n  method: get\n  operationId: listLbVserverStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stat/lbvserver/{name}\n  method: get\n  operationId: getLbVserverStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stat/csvserver\n  method: get\n  operationId: listCsVserverStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stat/csvserver/{name}\n  method: get\n  operationId: getCsVserverStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/agentic-access/citrix-netscaler-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/citrix-netscaler/agentic-access/citrix-netscaler-agentic-access.yml
 summary_line: 28 operations · 16 acting
 tags:
 - API Gateway

@@ -8,91 +8,91 @@ api_specs:
   label: NOAA — National Oceanic and Atmospheric Administration Alerts API
   slug: noaa-gov-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-alerts-api-openapi.yml
 - filename: noaa-gov-aviation-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Aviation API
   slug: noaa-gov-aviation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-aviation-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-aviation-api-openapi.yml
 - filename: noaa-gov-glossary-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Glossary API
   slug: noaa-gov-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-glossary-api-openapi.yml
 - filename: noaa-gov-gridpoints-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Gridpoints API
   slug: noaa-gov-gridpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-gridpoints-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-gridpoints-api-openapi.yml
 - filename: noaa-gov-icons-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Icons API
   slug: noaa-gov-icons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-icons-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-icons-api-openapi.yml
 - filename: noaa-gov-offices-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Offices API
   slug: noaa-gov-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-offices-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-offices-api-openapi.yml
 - filename: noaa-gov-points-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Points API
   slug: noaa-gov-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-points-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-points-api-openapi.yml
 - filename: noaa-gov-products-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Products API
   slug: noaa-gov-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-products-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-products-api-openapi.yml
 - filename: noaa-gov-radar-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Radar API
   slug: noaa-gov-radar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-radar-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-radar-api-openapi.yml
 - filename: noaa-gov-radio-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Radio API
   slug: noaa-gov-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-radio-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-radio-api-openapi.yml
 - filename: noaa-gov-stations-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Stations API
   slug: noaa-gov-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-stations-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-stations-api-openapi.yml
 - filename: noaa-gov-thumbnails-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Thumbnails API
   slug: noaa-gov-thumbnails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-thumbnails-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-thumbnails-api-openapi.yml
 - filename: noaa-gov-zones-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Zones API
   slug: noaa-gov-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-zones-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-zones-api-openapi.yml
 - filename: noaa-gov-navigational-data-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Navigational Data API
   slug: noaa-gov-navigational-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-navigational-data-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-navigational-data-api-openapi.yml
 - filename: noaa-gov-weather-data-api-openapi.yml
   format: yaml
   label: NOAA — National Oceanic and Atmospheric Administration Weather Data API
   slug: noaa-gov-weather-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-weather-data-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-gov/openapi/noaa-gov-weather-data-api-openapi.yml
 consequence_counts:
   read: 66
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/weathe
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/types/{typeId}\n  method: get\n  operationId: products_type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/types/{typeId}/locations\n  method: get\n  operationId: products_type_locations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/locations/{locationId}/types\n  method: get\n  operationId: location_products\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/types/{typeId}/locations/{locationId}\n  method: get\n  operationId: products_type_location\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /products/types/{typeId}/locations/{locationId}/latest\n  method: get\n  operationId: latest_product_type_location\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones\n  method: get\n  operationId: zone_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/{type}\n  method: get\n  operationId: zone_list_type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/{type}/{zoneId}\n  method: get\n  operationId: zone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/{type}/{zoneId}/forecast\n  method: get\n  operationId: zone_forecast\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/forecast/{zoneId}/observations\n  method: get\n  operationId: zone_obs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/forecast/{zoneId}/stations\n  method: get\n  operationId: zone_stations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/agentic-access/noaa-gov-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/noaa-gov/agentic-access/noaa-gov-agentic-access.yml
 summary_line: 66 operations
 tags:
 - Weather

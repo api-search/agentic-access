@@ -9,103 +9,103 @@ api_specs:
   label: Apache APISIX Consumer Groups API
   slug: apache-apisix-consumer-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-consumer-groups-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-consumer-groups-api-openapi.yml
 - filename: apache-apisix-consumers-api-openapi.yml
   format: yaml
   label: Apache APISIX Consumers API
   slug: apache-apisix-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-consumers-api-openapi.yml
 - filename: apache-apisix-diagnostics-api-openapi.yml
   format: yaml
   label: Apache APISIX Diagnostics API
   slug: apache-apisix-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-diagnostics-api-openapi.yml
 - filename: apache-apisix-global-rules-api-openapi.yml
   format: yaml
   label: Apache APISIX Global Rules API
   slug: apache-apisix-global-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-global-rules-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-global-rules-api-openapi.yml
 - filename: apache-apisix-health-check-api-openapi.yml
   format: yaml
   label: Apache APISIX Health Check API
   slug: apache-apisix-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-health-check-api-openapi.yml
 - filename: apache-apisix-introspection-api-openapi.yml
   format: yaml
   label: Apache APISIX Introspection API
   slug: apache-apisix-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-introspection-api-openapi.yml
 - filename: apache-apisix-plugin-configs-api-openapi.yml
   format: yaml
   label: Apache APISIX Plugin Configs API
   slug: apache-apisix-plugin-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-plugin-configs-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-plugin-configs-api-openapi.yml
 - filename: apache-apisix-plugin-metadata-api-openapi.yml
   format: yaml
   label: Apache APISIX Plugin Metadata API
   slug: apache-apisix-plugin-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-plugin-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-plugin-metadata-api-openapi.yml
 - filename: apache-apisix-plugins-api-openapi.yml
   format: yaml
   label: Apache APISIX Plugins API
   slug: apache-apisix-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-plugins-api-openapi.yml
 - filename: apache-apisix-protos-api-openapi.yml
   format: yaml
   label: Apache APISIX Protos API
   slug: apache-apisix-protos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-protos-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-protos-api-openapi.yml
 - filename: apache-apisix-routes-api-openapi.yml
   format: yaml
   label: Apache APISIX Routes API
   slug: apache-apisix-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-routes-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-routes-api-openapi.yml
 - filename: apache-apisix-schema-api-openapi.yml
   format: yaml
   label: Apache APISIX Schema API
   slug: apache-apisix-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-schema-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-schema-api-openapi.yml
 - filename: apache-apisix-secrets-api-openapi.yml
   format: yaml
   label: Apache APISIX Secrets API
   slug: apache-apisix-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-secrets-api-openapi.yml
 - filename: apache-apisix-services-api-openapi.yml
   format: yaml
   label: Apache APISIX Services API
   slug: apache-apisix-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-services-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-services-api-openapi.yml
 - filename: apache-apisix-ssl-api-openapi.yml
   format: yaml
   label: Apache APISIX SSL API
   slug: apache-apisix-ssl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-ssl-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-ssl-api-openapi.yml
 - filename: apache-apisix-stream-routes-api-openapi.yml
   format: yaml
   label: Apache APISIX Stream Routes API
   slug: apache-apisix-stream-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-stream-routes-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-stream-routes-api-openapi.yml
 - filename: apache-apisix-upstreams-api-openapi.yml
   format: yaml
   label: Apache APISIX Upstreams API
   slug: apache-apisix-upstreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-upstreams-api-openapi.yml
+  url: https://artifacts.apis.io/apache-apisix/openapi/apache-apisix-upstreams-api-openapi.yml
 consequence_counts:
   read: 36
   write: 40
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \  audit: required\n- path: /schema/validate/{resource}\n  method: post\n  operationId: validateSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/healthcheck\n  method: get\n  operationId: getHealthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/healthcheck/upstreams/{upstream_id}\n  method: get\n  operationId: getUpstreamHealthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/healthcheck/routes/{route_id}\n  method: get\n  operationId: getRouteHealthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/healthcheck/services/{service_id}\n  method: get\n  operationId: getServiceHealthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/schema\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/schema/plugins/{plugin_name}\n  method: get\n  operationId: getPluginSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gc\n  method: post\n  operationId: triggerGC\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/routes\n  method: get\n  operationId: getControlRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services\n  method: get\n  operationId: getControlServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/upstreams\n  method: get\n  operationId: getControlUpstreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/discovery/{discovery_type}/dump\n  method: get\n  operationId: dumpDiscoveryNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/agentic-access/apache-apisix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-apisix/agentic-access/apache-apisix-agentic-access.yml
 summary_line: 76 operations · 40 acting
 tags:
 - Apache

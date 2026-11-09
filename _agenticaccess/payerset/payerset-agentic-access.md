@@ -8,31 +8,31 @@ api_specs:
   label: Payerset Billing Codes API
   slug: payerset-billing-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-billing-codes-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-billing-codes-api-openapi.yml
 - filename: payerset-hospital-mrf-api-openapi.yml
   format: yaml
   label: Payerset Hospital MRF API
   slug: payerset-hospital-mrf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-hospital-mrf-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-hospital-mrf-api-openapi.yml
 - filename: payerset-payers-api-openapi.yml
   format: yaml
   label: Payerset Payers API
   slug: payerset-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-payers-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-payers-api-openapi.yml
 - filename: payerset-providers-api-openapi.yml
   format: yaml
   label: Payerset Providers API
   slug: payerset-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-providers-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-providers-api-openapi.yml
 - filename: payerset-rates-api-openapi.yml
   format: yaml
   label: Payerset Rates API
   slug: payerset-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/openapi/payerset-rates-api-openapi.yml
+  url: https://artifacts.apis.io/payerset/openapi/payerset-rates-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/payers
   \ get\n  operationId: getPayerList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metadata/providers/npi_detail\n  method: get\n  operationId: getNpiDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metadata/providers/npi_to_tin\n  method: get\n  operationId: getNpiToTin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metadata/providers/tin_to_npi\n  method: get\n  operationId: getTinToNpi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metadata/providers/npi_to_parent\n  method: get\n  operationId: getNpiToParent\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metadata/providers/npi_parent\n  method: get\n  operationId: getNpiParent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metadata/billing_codes/code_detail\n  method: get\n  operationId: getBillingCodeDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metadata/billing_codes/code_types\n  method: get\n  operationId: getBillingCodeTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hospital_mrf/hospital_list\n  method: get\n  operationId: getHospitalList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hospital_mrf/system_list\n  method: get\n  operationId: getSystemList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hospital_mrf/payer_list\n  method: get\n  operationId: getHospitalPayerList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/agentic-access/payerset-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/payerset/agentic-access/payerset-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Healthcare

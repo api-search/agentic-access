@@ -9,43 +9,43 @@ api_specs:
   label: Duo Security Bulk API
   slug: duo-security-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-bulk-api-openapi.yml
 - filename: duo-security-bypass-codes-api-openapi.yml
   format: yaml
   label: Duo Security Bypass Codes API
   slug: duo-security-bypass-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-bypass-codes-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-bypass-codes-api-openapi.yml
 - filename: duo-security-groups-api-openapi.yml
   format: yaml
   label: Duo Security Groups API
   slug: duo-security-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-groups-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-groups-api-openapi.yml
 - filename: duo-security-phones-api-openapi.yml
   format: yaml
   label: Duo Security Phones API
   slug: duo-security-phones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-phones-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-phones-api-openapi.yml
 - filename: duo-security-tokens-api-openapi.yml
   format: yaml
   label: Duo Security Tokens API
   slug: duo-security-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-tokens-api-openapi.yml
 - filename: duo-security-users-api-openapi.yml
   format: yaml
   label: Duo Security Users API
   slug: duo-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-users-api-openapi.yml
 - filename: duo-security-webauthn-api-openapi.yml
   format: yaml
   label: Duo Security WebAuthn API
   slug: duo-security-webauthn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/openapi/duo-security-webauthn-api-openapi.yml
+  url: https://artifacts.apis.io/duo-security/openapi/duo-security-webauthn-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/duo-ad
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/users/{user_id}/send_verification_push\n  method: post\n  operationId: sendVerificationPush\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/users/{user_id}/verification_push_response\n  method: get\n  operationId: getVerificationPushResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/groups\n\
   \  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/groups/{group_id}\n  method: post\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v2/groups/{group_id}\n  method: get\n  operationId: getGroupV2\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v2/groups/{group_id}/users\n  method: get\n  operationId: listGroupUsersV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/bulk\n  method: post\n  operationId: bulkOperations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/agentic-access/duo-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/duo-security/agentic-access/duo-security-agentic-access.yml
 summary_line: 32 operations · 19 acting
 tags:
 - Authentication
@@ -101,4 +101,9 @@ tags:
 - Zero Trust
 - Identity
 - Identity Federation
+- Security
+- Multi-Factor Authentication
+- Identity and Access Management
+- Cloud Services
+- Enterprise
 ---

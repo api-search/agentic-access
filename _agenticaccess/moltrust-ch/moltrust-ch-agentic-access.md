@@ -9,367 +9,367 @@ api_specs:
   label: MolTrust A2a API
   slug: moltrust-ch-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-a2a-api-openapi.yml
 - filename: moltrust-ch-a2a-json-rpc-api-openapi.yml
   format: yaml
   label: 'MolTrust A2A: JSON-RPC API'
   slug: moltrust-ch-a2a-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-a2a-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-a2a-json-rpc-api-openapi.yml
 - filename: moltrust-ch-aae-api-openapi.yml
   format: yaml
   label: MolTrust Aae API
   slug: moltrust-ch-aae-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-aae-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-aae-api-openapi.yml
 - filename: moltrust-ch-aae-enforcement-api-openapi.yml
   format: yaml
   label: MolTrust AAE Enforcement API
   slug: moltrust-ch-aae-enforcement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-aae-enforcement-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-aae-enforcement-api-openapi.yml
 - filename: moltrust-ch-aae-evaluation-api-openapi.yml
   format: yaml
   label: MolTrust Aae Evaluation API
   slug: moltrust-ch-aae-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-aae-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-aae-evaluation-api-openapi.yml
 - filename: moltrust-ch-admin-api-openapi.yml
   format: yaml
   label: MolTrust Admin API
   slug: moltrust-ch-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-admin-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-admin-api-openapi.yml
 - filename: moltrust-ch-agent-flags-api-openapi.yml
   format: yaml
   label: MolTrust Agent Flags API
   slug: moltrust-ch-agent-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-agent-flags-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-agent-flags-api-openapi.yml
 - filename: moltrust-ch-agent-graph-api-openapi.yml
   format: yaml
   label: MolTrust Agent Graph API
   slug: moltrust-ch-agent-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-agent-graph-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-agent-graph-api-openapi.yml
 - filename: moltrust-ch-agent-scoring-api-openapi.yml
   format: yaml
   label: MolTrust Agent Scoring API
   slug: moltrust-ch-agent-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-agent-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-agent-scoring-api-openapi.yml
 - filename: moltrust-ch-agents-api-openapi.yml
   format: yaml
   label: MolTrust Agents API
   slug: moltrust-ch-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-agents-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-agents-api-openapi.yml
 - filename: moltrust-ch-anchoring-api-openapi.yml
   format: yaml
   label: MolTrust Anchoring API
   slug: moltrust-ch-anchoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-anchoring-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-anchoring-api-openapi.yml
 - filename: moltrust-ch-attestation-and-hackathon-api-openapi.yml
   format: yaml
   label: MolTrust Attestation And Hackathon API
   slug: moltrust-ch-attestation-and-hackathon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-attestation-and-hackathon-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-attestation-and-hackathon-api-openapi.yml
 - filename: moltrust-ch-attestations-api-openapi.yml
   format: yaml
   label: MolTrust Attestations API
   slug: moltrust-ch-attestations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-attestations-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-attestations-api-openapi.yml
 - filename: moltrust-ch-auth-api-openapi.yml
   format: yaml
   label: MolTrust Auth API
   slug: moltrust-ch-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-auth-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-auth-api-openapi.yml
 - filename: moltrust-ch-aws-marketplace-api-openapi.yml
   format: yaml
   label: MolTrust AWS Marketplace API
   slug: moltrust-ch-aws-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-aws-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-aws-marketplace-api-openapi.yml
 - filename: moltrust-ch-badge-api-openapi.yml
   format: yaml
   label: MolTrust Badge API
   slug: moltrust-ch-badge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-badge-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-badge-api-openapi.yml
 - filename: moltrust-ch-billing-admin-api-openapi.yml
   format: yaml
   label: MolTrust Billing Admin API
   slug: moltrust-ch-billing-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-billing-admin-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-billing-admin-api-openapi.yml
 - filename: moltrust-ch-billing-api-openapi.yml
   format: yaml
   label: MolTrust Billing API
   slug: moltrust-ch-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-billing-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-billing-api-openapi.yml
 - filename: moltrust-ch-caep-api-openapi.yml
   format: yaml
   label: MolTrust Caep API
   slug: moltrust-ch-caep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-caep-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-caep-api-openapi.yml
 - filename: moltrust-ch-compliance-api-openapi.yml
   format: yaml
   label: MolTrust Compliance API
   slug: moltrust-ch-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-compliance-api-openapi.yml
 - filename: moltrust-ch-contact-api-openapi.yml
   format: yaml
   label: MolTrust Contact API
   slug: moltrust-ch-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-contact-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-contact-api-openapi.yml
 - filename: moltrust-ch-credential-issuance-api-openapi.yml
   format: yaml
   label: MolTrust Credential Issuance API
   slug: moltrust-ch-credential-issuance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-credential-issuance-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-credential-issuance-api-openapi.yml
 - filename: moltrust-ch-credentials-api-openapi.yml
   format: yaml
   label: MolTrust Credentials API
   slug: moltrust-ch-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-credentials-api-openapi.yml
 - filename: moltrust-ch-credits-api-openapi.yml
   format: yaml
   label: MolTrust Credits API
   slug: moltrust-ch-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-credits-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-credits-api-openapi.yml
 - filename: moltrust-ch-delegation-api-openapi.yml
   format: yaml
   label: MolTrust Delegation API
   slug: moltrust-ch-delegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-delegation-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-delegation-api-openapi.yml
 - filename: moltrust-ch-extendedagentcard-api-openapi.yml
   format: yaml
   label: MolTrust Extended Agent Card API
   slug: moltrust-ch-extendedagentcard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-extendedagentcard-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-extendedagentcard-api-openapi.yml
 - filename: moltrust-ch-health-api-openapi.yml
   format: yaml
   label: MolTrust Health API
   slug: moltrust-ch-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-health-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-health-api-openapi.yml
 - filename: moltrust-ch-identity-api-openapi.yml
   format: yaml
   label: MolTrust Identity API
   slug: moltrust-ch-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-identity-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-identity-api-openapi.yml
 - filename: moltrust-ch-interaction-api-openapi.yml
   format: yaml
   label: MolTrust Interaction API
   slug: moltrust-ch-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-interaction-api-openapi.yml
 - filename: moltrust-ch-join-api-openapi.yml
   format: yaml
   label: MolTrust Join API
   slug: moltrust-ch-join-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-join-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-join-api-openapi.yml
 - filename: moltrust-ch-market-integrity-api-openapi.yml
   format: yaml
   label: MolTrust Market Integrity API
   slug: moltrust-ch-market-integrity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-market-integrity-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-market-integrity-api-openapi.yml
 - filename: moltrust-ch-music-api-openapi.yml
   format: yaml
   label: MolTrust Music API
   slug: moltrust-ch-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-music-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-music-api-openapi.yml
 - filename: moltrust-ch-operators-api-openapi.yml
   format: yaml
   label: MolTrust Operators API
   slug: moltrust-ch-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-operators-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-operators-api-openapi.yml
 - filename: moltrust-ch-output-provenance-admin-api-openapi.yml
   format: yaml
   label: MolTrust Output Provenance Admin API
   slug: moltrust-ch-output-provenance-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-output-provenance-admin-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-output-provenance-admin-api-openapi.yml
 - filename: moltrust-ch-output-provenance-api-openapi.yml
   format: yaml
   label: MolTrust Output Provenance API
   slug: moltrust-ch-output-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-output-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-output-provenance-api-openapi.yml
 - filename: moltrust-ch-payment-api-openapi.yml
   format: yaml
   label: MolTrust Payment API
   slug: moltrust-ch-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-payment-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-payment-api-openapi.yml
 - filename: moltrust-ch-prediction-markets-api-openapi.yml
   format: yaml
   label: MolTrust Prediction Markets API
   slug: moltrust-ch-prediction-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-prediction-markets-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-prediction-markets-api-openapi.yml
 - filename: moltrust-ch-reputation-api-openapi.yml
   format: yaml
   label: MolTrust Reputation API
   slug: moltrust-ch-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-reputation-api-openapi.yml
 - filename: moltrust-ch-reseller-admin-api-openapi.yml
   format: yaml
   label: MolTrust Reseller Admin API
   slug: moltrust-ch-reseller-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-reseller-admin-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-reseller-admin-api-openapi.yml
 - filename: moltrust-ch-reseller-api-openapi.yml
   format: yaml
   label: MolTrust Reseller API
   slug: moltrust-ch-reseller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-reseller-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-reseller-api-openapi.yml
 - filename: moltrust-ch-resolve-api-openapi.yml
   format: yaml
   label: MolTrust Resolve API
   slug: moltrust-ch-resolve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-resolve-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-resolve-api-openapi.yml
 - filename: moltrust-ch-salesguard-api-openapi.yml
   format: yaml
   label: MolTrust Salesguard API
   slug: moltrust-ch-salesguard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-salesguard-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-salesguard-api-openapi.yml
 - filename: moltrust-ch-search-api-openapi.yml
   format: yaml
   label: MolTrust Search API
   slug: moltrust-ch-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-search-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-search-api-openapi.yml
 - filename: moltrust-ch-shopping-vc-api-openapi.yml
   format: yaml
   label: MolTrust Shopping Vc API
   slug: moltrust-ch-shopping-vc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-shopping-vc-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-shopping-vc-api-openapi.yml
 - filename: moltrust-ch-sitemap-xml-api-openapi.yml
   format: yaml
   label: MolTrust Sitemap.xml API
   slug: moltrust-ch-sitemap-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-sitemap-xml-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-sitemap-xml-api-openapi.yml
 - filename: moltrust-ch-skill-api-openapi.yml
   format: yaml
   label: MolTrust Skill API
   slug: moltrust-ch-skill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-skill-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-skill-api-openapi.yml
 - filename: moltrust-ch-skill-verification-api-openapi.yml
   format: yaml
   label: MolTrust Skill Verification API
   slug: moltrust-ch-skill-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-skill-verification-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-skill-verification-api-openapi.yml
 - filename: moltrust-ch-skills-api-openapi.yml
   format: yaml
   label: MolTrust Skills API
   slug: moltrust-ch-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-skills-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-skills-api-openapi.yml
 - filename: moltrust-ch-sports-api-openapi.yml
   format: yaml
   label: MolTrust Sports API
   slug: moltrust-ch-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-sports-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-sports-api-openapi.yml
 - filename: moltrust-ch-stats-api-openapi.yml
   format: yaml
   label: MolTrust Stats API
   slug: moltrust-ch-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-stats-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-stats-api-openapi.yml
 - filename: moltrust-ch-swarm-api-openapi.yml
   format: yaml
   label: MolTrust Swarm API
   slug: moltrust-ch-swarm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-swarm-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-swarm-api-openapi.yml
 - filename: moltrust-ch-sybil-detection-api-openapi.yml
   format: yaml
   label: MolTrust Sybil Detection API
   slug: moltrust-ch-sybil-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-sybil-detection-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-sybil-detection-api-openapi.yml
 - filename: moltrust-ch-test-harness-api-openapi.yml
   format: yaml
   label: MolTrust Test Harness API
   slug: moltrust-ch-test-harness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-test-harness-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-test-harness-api-openapi.yml
 - filename: moltrust-ch-transparency-api-openapi.yml
   format: yaml
   label: MolTrust Transparency API
   slug: moltrust-ch-transparency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-transparency-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-transparency-api-openapi.yml
 - filename: moltrust-ch-travel-vc-api-openapi.yml
   format: yaml
   label: MolTrust Travel Vc API
   slug: moltrust-ch-travel-vc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-travel-vc-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-travel-vc-api-openapi.yml
 - filename: moltrust-ch-trust-api-openapi.yml
   format: yaml
   label: MolTrust Trust API
   slug: moltrust-ch-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-trust-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-trust-api-openapi.yml
 - filename: moltrust-ch-violation-api-openapi.yml
   format: yaml
   label: MolTrust Violation API
   slug: moltrust-ch-violation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-violation-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-violation-api-openapi.yml
 - filename: moltrust-ch-wallet-api-openapi.yml
   format: yaml
   label: MolTrust Wallet API
   slug: moltrust-ch-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-wallet-api-openapi.yml
 - filename: moltrust-ch-webhooks-api-openapi.yml
   format: yaml
   label: MolTrust Webhooks API
   slug: moltrust-ch-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-webhooks-api-openapi.yml
 - filename: moltrust-ch-well-known-api-openapi.yml
   format: yaml
   label: MolTrust .well Known API
   slug: moltrust-ch-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-well-known-api-openapi.yml
 - filename: moltrust-ch-x402-api-openapi.yml
   format: yaml
   label: MolTrust X402 API
   slug: moltrust-ch-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/openapi/moltrust-ch-x402-api-openapi.yml
+  url: https://artifacts.apis.io/moltrust-ch/openapi/moltrust-ch-x402-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 156
@@ -499,8 +499,8 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/moltru
   \ required\n- path: /identity/agent-type/{did}\n  method: post\n  operationId: set_agent_class_identity_agent_type__did__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/agent-type/{did}\n  method: get\n  operationId: get_agent_class_identity_agent_type__did__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identity/agent-types\n  method: get\n  operationId: list_agent_types_identity_agent_types_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identity/register-batch\n  method: post\n  operationId: register_batch_identity_register_batch_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credentials/issue\n  method: post\n  operationId: issue_vc_credentials_issue_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credentials/verify\n  method: post\n  operationId: verify_vc_credentials_verify_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /compliance/assess\n  method: post\n  operationId: compliance_assess_compliance_assess_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance/declaration\n  method: post\n  operationId: compliance_declaration_compliance_declaration_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance/report/{did}\n  method: get\n  operationId: compliance_report_compliance_report__did__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (72 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/agentic-access/moltrust-ch-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moltrust-ch/refs/heads/main/agentic-access/moltrust-ch-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (72 KB total) ---\n# Full source: https://artifacts.apis.io/moltrust-ch/agentic-access/moltrust-ch-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/moltrust-ch/agentic-access/moltrust-ch-agentic-access.yml
 summary_line: 257 operations · 101 acting · 6 human-in-the-loop
 tags:
 - AI Agents

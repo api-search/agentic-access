@@ -9,49 +9,49 @@ api_specs:
   label: Google Cloud Dataflow Debug API
   slug: google-cloud-dataflow-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-debug-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-debug-api-openapi.yml
 - filename: google-cloud-dataflow-flex-templates-api-openapi.yml
   format: yaml
   label: Google Cloud Dataflow Flex Templates API
   slug: google-cloud-dataflow-flex-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-flex-templates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-flex-templates-api-openapi.yml
 - filename: google-cloud-dataflow-jobs-api-openapi.yml
   format: yaml
   label: Google Cloud Dataflow Jobs API
   slug: google-cloud-dataflow-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-jobs-api-openapi.yml
 - filename: google-cloud-dataflow-messages-api-openapi.yml
   format: yaml
   label: Google Cloud Dataflow Messages API
   slug: google-cloud-dataflow-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-messages-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-messages-api-openapi.yml
 - filename: google-cloud-dataflow-metrics-api-openapi.yml
   format: yaml
   label: Google Cloud Dataflow Metrics API
   slug: google-cloud-dataflow-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-metrics-api-openapi.yml
 - filename: google-cloud-dataflow-snapshots-api-openapi.yml
   format: yaml
   label: Google Cloud Dataflow Snapshots API
   slug: google-cloud-dataflow-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-snapshots-api-openapi.yml
 - filename: google-cloud-dataflow-stages-api-openapi.yml
   format: yaml
   label: Google Cloud Dataflow Stages API
   slug: google-cloud-dataflow-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-stages-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-stages-api-openapi.yml
 - filename: google-cloud-dataflow-templates-api-openapi.yml
   format: yaml
   label: Google Cloud Dataflow Templates API
   slug: google-cloud-dataflow-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-templates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \  method: get\n  operationId: getLocationJobStageExecutionDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1b3/projects/{projectId}/locations/{location}/templates\n  method: post\n  operationId: createLocationJobFromTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1b3/projects/{projectId}/locations/{location}/templates:get\n  method: get\n  operationId: getLocationTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1b3/projects/{projectId}/locations/{location}/templates:launch\n  method: post\n  operationId: launchLocationTemplate\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1b3/projects/{projectId}/templates\n  method: post\n  operationId: createProjectJobFromTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1b3/projects/{projectId}/templates:get\n  method: get\n  operationId: getProjectTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1b3/projects/{projectId}/templates:launch\n  method: post\n  operationId: launchProjectTemplate\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/agentic-access/google-cloud-dataflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-dataflow/agentic-access/google-cloud-dataflow-agentic-access.yml
 summary_line: 29 operations · 13 acting
 tags:
 - Apache Beam

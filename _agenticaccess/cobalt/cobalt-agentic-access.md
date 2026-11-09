@@ -9,61 +9,61 @@ api_specs:
   label: Cobalt Applications API
   slug: cobalt-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-applications-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-applications-api-openapi.yml
 - filename: cobalt-cobalt-hosted-api-openapi.yml
   format: yaml
   label: Cobalt Hosted API
   slug: cobalt-cobalt-hosted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-cobalt-hosted-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-cobalt-hosted-api-openapi.yml
 - filename: cobalt-config-api-openapi.yml
   format: yaml
   label: Cobalt Config API
   slug: cobalt-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-config-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-config-api-openapi.yml
 - filename: cobalt-datastores-api-openapi.yml
   format: yaml
   label: Cobalt Datastores API
   slug: cobalt-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-datastores-api-openapi.yml
 - filename: cobalt-events-api-openapi.yml
   format: yaml
   label: Cobalt Events API
   slug: cobalt-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-events-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-events-api-openapi.yml
 - filename: cobalt-executions-api-openapi.yml
   format: yaml
   label: Cobalt Executions API
   slug: cobalt-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-executions-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-executions-api-openapi.yml
 - filename: cobalt-linked-accounts-api-openapi.yml
   format: yaml
   label: Cobalt Linked Accounts API
   slug: cobalt-linked-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-linked-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-linked-accounts-api-openapi.yml
 - filename: cobalt-public-workflows-api-openapi.yml
   format: yaml
   label: Cobalt Public Workflows API
   slug: cobalt-public-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-public-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-public-workflows-api-openapi.yml
 - filename: cobalt-session-token-api-openapi.yml
   format: yaml
   label: Cobalt Session Token API
   slug: cobalt-session-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-session-token-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-session-token-api-openapi.yml
 - filename: cobalt-webhooks-api-openapi.yml
   format: yaml
   label: Cobalt Webhooks API
   slug: cobalt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cobalt/openapi/cobalt-webhooks-api-openapi.yml
 consequence_counts:
   read: 15
   write: 16
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cobalt
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/workflow\n  method: post\n  operationId: createPublicWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/workflow/{workflow_id}/execute\n  method: post\n  operationId: executeWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /public/session-token\n  method: post\n  operationId: createSessionToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/webhook\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/webhook\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/webhook/unsubscribe\n  method: post\n  operationId: unsubscribeWebhook\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/agentic-access/cobalt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cobalt/agentic-access/cobalt-agentic-access.yml
 summary_line: 31 operations · 16 acting
 tags:
 - Automation

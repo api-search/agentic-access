@@ -9,139 +9,139 @@ api_specs:
   label: Stax Admin API
   slug: stax-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-admin-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-admin-api-openapi.yml
 - filename: stax-charge-api-openapi.yml
   format: yaml
   label: Stax Charge API
   slug: stax-charge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-charge-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-charge-api-openapi.yml
 - filename: stax-credit-api-openapi.yml
   format: yaml
   label: Stax Credit API
   slug: stax-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-credit-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-credit-api-openapi.yml
 - filename: stax-customer-api-openapi.yml
   format: yaml
   label: Stax Customer API
   slug: stax-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-customer-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-customer-api-openapi.yml
 - filename: stax-ephemeral-api-openapi.yml
   format: yaml
   label: Stax Ephemeral API
   slug: stax-ephemeral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-ephemeral-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-ephemeral-api-openapi.yml
 - filename: stax-file-api-openapi.yml
   format: yaml
   label: Stax File API
   slug: stax-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-file-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-file-api-openapi.yml
 - filename: stax-file-id-api-openapi.yml
   format: yaml
   label: Stax File{id} API
   slug: stax-file-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-file-id-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-file-id-api-openapi.yml
 - filename: stax-forgot-api-openapi.yml
   format: yaml
   label: Stax Forgot API
   slug: stax-forgot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-forgot-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-forgot-api-openapi.yml
 - filename: stax-invoice-api-openapi.yml
   format: yaml
   label: Stax Invoice API
   slug: stax-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-invoice-api-openapi.yml
 - filename: stax-item-api-openapi.yml
   format: yaml
   label: Stax Item API
   slug: stax-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-item-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-item-api-openapi.yml
 - filename: stax-merchant-api-openapi.yml
   format: yaml
   label: Stax Merchant API
   slug: stax-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-merchant-api-openapi.yml
 - filename: stax-payment-method-api-openapi.yml
   format: yaml
   label: Stax Payment Method API
   slug: stax-payment-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-payment-method-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-payment-method-api-openapi.yml
 - filename: stax-query-api-openapi.yml
   format: yaml
   label: Stax Query API
   slug: stax-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-query-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-query-api-openapi.yml
 - filename: stax-reset-api-openapi.yml
   format: yaml
   label: Stax Reset API
   slug: stax-reset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-reset-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-reset-api-openapi.yml
 - filename: stax-self-api-openapi.yml
   format: yaml
   label: Stax Self API
   slug: stax-self-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-self-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-self-api-openapi.yml
 - filename: stax-surcharge-api-openapi.yml
   format: yaml
   label: Stax Surcharge API
   slug: stax-surcharge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-surcharge-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-surcharge-api-openapi.yml
 - filename: stax-team-api-openapi.yml
   format: yaml
   label: Stax Team API
   slug: stax-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-team-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-team-api-openapi.yml
 - filename: stax-terminal-api-openapi.yml
   format: yaml
   label: Stax Terminal API
   slug: stax-terminal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-terminal-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-terminal-api-openapi.yml
 - filename: stax-transaction-api-openapi.yml
   format: yaml
   label: Stax Transaction API
   slug: stax-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-transaction-api-openapi.yml
 - filename: stax-underwriting-api-openapi.yml
   format: yaml
   label: Stax Underwriting API
   slug: stax-underwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-underwriting-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-underwriting-api-openapi.yml
 - filename: stax-verify-api-openapi.yml
   format: yaml
   label: Stax Verify API
   slug: stax-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-verify-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-verify-api-openapi.yml
 - filename: stax-webhook-api-openapi.yml
   format: yaml
   label: Stax Webhook API
   slug: stax-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-webhook-api-openapi.yml
 - filename: stax-webhookadmin-api-openapi.yml
   format: yaml
   label: Stax Webhookadmin API
   slug: stax-webhookadmin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-webhookadmin-api-openapi.yml
+  url: https://artifacts.apis.io/stax/openapi/stax-webhookadmin-api-openapi.yml
 consequence_counts:
   physical: 29
   read: 55
@@ -331,8 +331,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/stax-a
   \  method: put\n  operationId: update-team-registration-data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team/apikey\n  method: get\n  operationId: list-api-keys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team/option/branding\n  method: post\n  operationId: team-branding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terminal/charge/queue\n  method: post\n  operationId: charge-queue\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terminal/charge\n  method: post\n  operationId: charge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terminal/credit\n  method: post\n  operationId: credit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /terminal/register\n  method: get\n  operationId: get-all-devices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /terminal/{registerId}/status/{transactionId}\n  method: get\n  operationId: get-transaction-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /terminal/print\n  method: post\n  operationId: print\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terminal/promptChoice\n  method: post\n  operationId: get_terminalpromptChoice\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/agentic-access/stax-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/agentic-access/stax-agentic-access.yml
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/stax/agentic-access/stax-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/stax/agentic-access/stax-agentic-access.yml
 summary_line: 133 operations · 78 acting · 2 human-in-the-loop
 tags:
 - Payments

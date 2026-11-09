@@ -9,73 +9,73 @@ api_specs:
   label: Franklin Whole Home Authentication API
   slug: franklin-whole-home-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-authentication-api-openapi.yml
 - filename: franklin-whole-home-device-data-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Device Data API
   slug: franklin-whole-home-device-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-device-data-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-device-data-api-openapi.yml
 - filename: franklin-whole-home-devices-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Devices API
   slug: franklin-whole-home-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-devices-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-devices-api-openapi.yml
 - filename: franklin-whole-home-grid-events-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Grid Events API
   slug: franklin-whole-home-grid-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-grid-events-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-grid-events-api-openapi.yml
 - filename: franklin-whole-home-groups-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Groups API
   slug: franklin-whole-home-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-groups-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-groups-api-openapi.yml
 - filename: franklin-whole-home-modification-records-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Modification Records API
   slug: franklin-whole-home-modification-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-modification-records-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-modification-records-api-openapi.yml
 - filename: franklin-whole-home-sites-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Sites API
   slug: franklin-whole-home-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-sites-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-sites-api-openapi.yml
 - filename: franklin-whole-home-sunrun-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Sunrun API
   slug: franklin-whole-home-sunrun-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-sunrun-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-sunrun-api-openapi.yml
 - filename: franklin-whole-home-sunrun-sites-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Sunrun Sites API
   slug: franklin-whole-home-sunrun-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-sunrun-sites-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-sunrun-sites-api-openapi.yml
 - filename: franklin-whole-home-sunrun-system-setup-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Sunrun System Setup API
   slug: franklin-whole-home-sunrun-system-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-sunrun-system-setup-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-sunrun-system-setup-api-openapi.yml
 - filename: franklin-whole-home-system-settings-api-openapi.yml
   format: yaml
   label: Franklin Whole Home System Settings API
   slug: franklin-whole-home-system-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-system-settings-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-system-settings-api-openapi.yml
 - filename: franklin-whole-home-warnings-and-events-api-openapi.yml
   format: yaml
   label: Franklin Whole Home Warnings and Events API
   slug: franklin-whole-home-warnings-and-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/openapi/franklin-whole-home-warnings-and-events-api-openapi.yml
+  url: https://artifacts.apis.io/franklin-whole-home/openapi/franklin-whole-home-warnings-and-events-api-openapi.yml
 consequence_counts:
   read: 24
   write: 14
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/frankl
   \ post\n  operationId: sunrunSetSwitchParam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-sunrun/queryApowerSwitchStatus\n  method: post\n  operationId: sunrunQueryApowerSwitchStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-common/setTouProfile\n  method: post\n  operationId: setTouProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-common/queryTouProfile\n  method: get\n  operationId:\
   \ queryTouProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-common/setSwitchParam\n  method: post\n  operationId: setSwitchParam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-common/queryApowerSwitchStatus\n  method: get\n  operationId: queryApowerSwitchStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-common/setSmartCircuits\n  method: post\n  operationId: setSmartCircuits\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-common/querySmartCircuitParameters\n  method: get\n  operationId: querySmartCircuitParameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-common/queryDeviceHistoricalWarning\n  method: get\n  operationId: queryDeviceHistoricalWarning\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-common/queryBackupEvents\n  method: get\n  operationId: queryBackupEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/agentic-access/franklin-whole-home-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/franklin-whole-home/agentic-access/franklin-whole-home-agentic-access.yml
 summary_line: 38 operations · 14 acting
 tags:
 - Company

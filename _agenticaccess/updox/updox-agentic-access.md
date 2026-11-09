@@ -9,25 +9,25 @@ api_specs:
   label: Updox Address Book API
   slug: updox-address-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-address-book-api-openapi.yml
+  url: https://artifacts.apis.io/updox/openapi/updox-address-book-api-openapi.yml
 - filename: updox-faxing-api-openapi.yml
   format: yaml
   label: Updox Faxing API
   slug: updox-faxing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-faxing-api-openapi.yml
+  url: https://artifacts.apis.io/updox/openapi/updox-faxing-api-openapi.yml
 - filename: updox-ping-api-openapi.yml
   format: yaml
   label: Updox Ping API
   slug: updox-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-ping-api-openapi.yml
+  url: https://artifacts.apis.io/updox/openapi/updox-ping-api-openapi.yml
 - filename: updox-video-chat-api-openapi.yml
   format: yaml
   label: Updox Video Chat API
   slug: updox-video-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/openapi/updox-video-chat-api-openapi.yml
+  url: https://artifacts.apis.io/updox/openapi/updox-video-chat-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/updox-
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ContactCreate\n  method: post\n  operationId: contactCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /FaxOemPop\n  method: post\n  operationId: faxOemPop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PopPDF\n  method: post\n  operationId: popPdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ping\n  method: post\n  operationId: ping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PingWithApplicationAuth\n  method: post\n  operationId: pingWithApplicationAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PingWithAccountAuth\n  method: post\n  operationId: pingWithAccountAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PingWithAuth\n  method: post\n  operationId: pingWithAuth\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /VideoCallActions\n  method: post\n  operationId: videoCallActions\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/agentic-access/updox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/updox/agentic-access/updox-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Healthcare

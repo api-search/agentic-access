@@ -9,91 +9,91 @@ api_specs:
   label: Border0 Audit Actions API
   slug: border0-audit-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-audit-actions-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-audit-actions-api-openapi.yml
 - filename: border0-client-api-openapi.yml
   format: yaml
   label: Border0 Client API
   slug: border0-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-client-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-client-api-openapi.yml
 - filename: border0-connect-api-openapi.yml
   format: yaml
   label: Border0 Connect API
   slug: border0-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-connect-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-connect-api-openapi.yml
 - filename: border0-login-api-openapi.yml
   format: yaml
   label: Border0 Login API
   slug: border0-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-login-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-login-api-openapi.yml
 - filename: border0-mtls-ca-api-openapi.yml
   format: yaml
   label: Border0 Mtls-Ca API
   slug: border0-mtls-ca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-mtls-ca-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-mtls-ca-api-openapi.yml
 - filename: border0-organization-api-openapi.yml
   format: yaml
   label: Border0 Organization API
   slug: border0-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-organization-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-organization-api-openapi.yml
 - filename: border0-organizations-api-openapi.yml
   format: yaml
   label: Border0 Organizations API
   slug: border0-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-organizations-api-openapi.yml
 - filename: border0-policies-api-openapi.yml
   format: yaml
   label: Border0 Policies API
   slug: border0-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-policies-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-policies-api-openapi.yml
 - filename: border0-policy-api-openapi.yml
   format: yaml
   label: Border0 Policy API
   slug: border0-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-policy-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-policy-api-openapi.yml
 - filename: border0-session-api-openapi.yml
   format: yaml
   label: Border0 Session API
   slug: border0-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-session-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-session-api-openapi.yml
 - filename: border0-sessions-api-openapi.yml
   format: yaml
   label: Border0 Sessions API
   slug: border0-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-sessions-api-openapi.yml
 - filename: border0-socket-api-openapi.yml
   format: yaml
   label: Border0 Socket API
   slug: border0-socket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-socket-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-socket-api-openapi.yml
 - filename: border0-stats-api-openapi.yml
   format: yaml
   label: Border0 Stats API
   slug: border0-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-stats-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-stats-api-openapi.yml
 - filename: border0-user-api-openapi.yml
   format: yaml
   label: Border0 User API
   slug: border0-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-user-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-user-api-openapi.yml
 - filename: border0-users-api-openapi.yml
   format: yaml
   label: Border0 Users API
   slug: border0-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/openapi/border0-users-api-openapi.yml
+  url: https://artifacts.apis.io/border0/openapi/border0-users-api-openapi.yml
 consequence_counts:
   read: 36
   safety-critical: 4
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/border
   \      - high-value\n    audit: required\n- path: /users/organizations/switch\n  method: post\n  operationId: post_users-organizations-switch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/identity_provider_status\n  method: put\n  operationId: put_organization-identity-provider-status\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /organizations/settings\n  method: put\n  operationId: put_organizations-settings\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/users/leave\n  method: put\n  operationId: put_organizations-users-leave\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/password\n  method: put\n  operationId: put_user-password\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/mfa_disabled\n  method: put\n  operationId: put_users-mfa-disabled\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/agentic-access/border0-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/border0/agentic-access/border0-agentic-access.yml
 summary_line: 89 operations · 53 acting · 4 human-in-the-loop
 tags:
 - Zero Trust

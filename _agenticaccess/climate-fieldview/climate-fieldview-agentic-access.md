@@ -9,49 +9,49 @@ api_specs:
   label: Climate FieldView Fields API
   slug: climate-fieldview-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-fields-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-fields-api-openapi.yml
 - filename: climate-fieldview-boundaries-api-openapi.yml
   format: yaml
   label: Climate FieldView Boundaries API
   slug: climate-fieldview-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-boundaries-api-openapi.yml
 - filename: climate-fieldview-exports-api-openapi.yml
   format: yaml
   label: Climate FieldView Exports API
   slug: climate-fieldview-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-exports-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-exports-api-openapi.yml
 - filename: climate-fieldview-farmorganizations-api-openapi.yml
   format: yaml
   label: Climate FieldView Farm Organizations API
   slug: climate-fieldview-farmorganizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-farmorganizations-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-farmorganizations-api-openapi.yml
 - filename: climate-fieldview-layers-api-openapi.yml
   format: yaml
   label: Climate FieldView Layers API
   slug: climate-fieldview-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-layers-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-layers-api-openapi.yml
 - filename: climate-fieldview-operations-api-openapi.yml
   format: yaml
   label: Climate FieldView Operations API
   slug: climate-fieldview-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-operations-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-operations-api-openapi.yml
 - filename: climate-fieldview-resourceowners-api-openapi.yml
   format: yaml
   label: Climate FieldView Resource Owners API
   slug: climate-fieldview-resourceowners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-resourceowners-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-resourceowners-api-openapi.yml
 - filename: climate-fieldview-uploads-api-openapi.yml
   format: yaml
   label: Climate FieldView Uploads API
   slug: climate-fieldview-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/climate-fieldview/openapi/climate-fieldview-uploads-api-openapi.yml
 consequence_counts:
   read: 10
   write: 1
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/climat
   \  method: get\n  operationId: getFieldBoundary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/layers/asPlanted\n  method: get\n  operationId: listAsPlantedLayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/layers/asPlanted/{layerId}\n  method: get\n  operationId: getAsPlantedLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/layers/asPlanted/{layerId}/contents\n  method: get\n  operationId: getAsPlantedLayerContents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/layers/asHarvested\n  method: get\n  operationId: listAsHarvestedLayers\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/layers/asHarvested/{layerId}\n  method: get\n  operationId: getAsHarvestedLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/layers/asApplied\n  method: get\n  operationId: listAsAppliedLayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/soilSampling/results\n  method: get\n  operationId: listSoilSamplingResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/token\n  method: post\n  operationId: getAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/agentic-access/climate-fieldview-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/climate-fieldview/agentic-access/climate-fieldview-agentic-access.yml
 summary_line: 11 operations · 1 acting
 tags:
 - Agriculture
@@ -89,8 +89,9 @@ tags:
 - Crop Data
 - Field Boundaries
 - Harvest
-- Authentication
+- OAuth
 - Planting
 - Precision Agriculture
 - AgTech
+- Authentication
 ---

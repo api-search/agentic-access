@@ -9,109 +9,109 @@ api_specs:
   label: TikTok Ad Groups API
   slug: tiktok-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-ad-groups-api-openapi.yml
 - filename: tiktok-ads-api-openapi.yml
   format: yaml
   label: TikTok Ads API
   slug: tiktok-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-ads-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-ads-api-openapi.yml
 - filename: tiktok-audiences-api-openapi.yml
   format: yaml
   label: TikTok Audiences API
   slug: tiktok-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-audiences-api-openapi.yml
 - filename: tiktok-campaigns-api-openapi.yml
   format: yaml
   label: TikTok Campaigns API
   slug: tiktok-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-campaigns-api-openapi.yml
 - filename: tiktok-data-portability-api-openapi.yml
   format: yaml
   label: TikTok Data Portability API
   slug: tiktok-data-portability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-data-portability-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-data-portability-api-openapi.yml
 - filename: tiktok-finance-api-openapi.yml
   format: yaml
   label: TikTok Finance API
   slug: tiktok-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-finance-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-finance-api-openapi.yml
 - filename: tiktok-logistics-api-openapi.yml
   format: yaml
   label: TikTok Logistics API
   slug: tiktok-logistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-logistics-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-logistics-api-openapi.yml
 - filename: tiktok-orders-api-openapi.yml
   format: yaml
   label: TikTok Orders API
   slug: tiktok-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-orders-api-openapi.yml
 - filename: tiktok-products-api-openapi.yml
   format: yaml
   label: TikTok Products API
   slug: tiktok-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-products-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-products-api-openapi.yml
 - filename: tiktok-reporting-api-openapi.yml
   format: yaml
   label: TikTok Reporting API
   slug: tiktok-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-reporting-api-openapi.yml
 - filename: tiktok-oauth-api-openapi.yml
   format: yaml
   label: TikTok OAuth API
   slug: tiktok-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-oauth-api-openapi.yml
 - filename: tiktok-post-api-openapi.yml
   format: yaml
   label: TikTok Post API
   slug: tiktok-post-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-post-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-post-api-openapi.yml
 - filename: tiktok-research-comments-api-openapi.yml
   format: yaml
   label: TikTok Research Comments API
   slug: tiktok-research-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-research-comments-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-research-comments-api-openapi.yml
 - filename: tiktok-research-social-api-openapi.yml
   format: yaml
   label: TikTok Research Social API
   slug: tiktok-research-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-research-social-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-research-social-api-openapi.yml
 - filename: tiktok-research-users-api-openapi.yml
   format: yaml
   label: TikTok Research Users API
   slug: tiktok-research-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-research-users-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-research-users-api-openapi.yml
 - filename: tiktok-research-videos-api-openapi.yml
   format: yaml
   label: TikTok Research Videos API
   slug: tiktok-research-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-research-videos-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-research-videos-api-openapi.yml
 - filename: tiktok-user-api-openapi.yml
   format: yaml
   label: TikTok User API
   slug: tiktok-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-user-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-user-api-openapi.yml
 - filename: tiktok-video-api-openapi.yml
   format: yaml
   label: TikTok Video API
   slug: tiktok-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/openapi/tiktok-video-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok/openapi/tiktok-video-api-openapi.yml
 consequence_counts:
   read: 23
   safety-critical: 1
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tiktok
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user/info/\n  method: get\n  operationId: getUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/video/list/\n  method: post\n  operationId: listVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/video/query/\n  method: post\n  operationId: queryVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logistics/202309/orders/{order_id}/shipping_documents\n  method: get\n  operationId: getShippingDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/202309/orders\n\
   \  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/202309/orders/{order_id}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product/202309/products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product/202309/products/{product_id}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product/202309/products/{product_id}\n  method: put\n  operationId: updateProduct\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /product/202309/products/upload_files\n  method: post\n  operationId: uploadProductFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /open_api/v1.3/report/integrated/get/\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/agentic-access/tiktok-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tiktok/agentic-access/tiktok-agentic-access.yml
 summary_line: 37 operations · 14 acting · 1 human-in-the-loop
 tags:
 - TikTok

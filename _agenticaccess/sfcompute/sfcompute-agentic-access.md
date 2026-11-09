@@ -9,61 +9,61 @@ api_specs:
   label: SF Compute Account API
   slug: sfcompute-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-account-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-account-api-openapi.yml
 - filename: sfcompute-balance-api-openapi.yml
   format: yaml
   label: SF Compute Balance API
   slug: sfcompute-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-balance-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-balance-api-openapi.yml
 - filename: sfcompute-clusters-api-openapi.yml
   format: yaml
   label: SF Compute Clusters API
   slug: sfcompute-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-clusters-api-openapi.yml
 - filename: sfcompute-contracts-api-openapi.yml
   format: yaml
   label: SF Compute Contracts API
   slug: sfcompute-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-contracts-api-openapi.yml
 - filename: sfcompute-nodes-api-openapi.yml
   format: yaml
   label: SF Compute Nodes API
   slug: sfcompute-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-nodes-api-openapi.yml
 - filename: sfcompute-orders-api-openapi.yml
   format: yaml
   label: SF Compute Orders API
   slug: sfcompute-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-orders-api-openapi.yml
 - filename: sfcompute-prices-api-openapi.yml
   format: yaml
   label: SF Compute Prices API
   slug: sfcompute-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-prices-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-prices-api-openapi.yml
 - filename: sfcompute-images-api-openapi.yml
   format: yaml
   label: SF Compute Images API
   slug: sfcompute-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-images-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-images-api-openapi.yml
 - filename: sfcompute-money-api-openapi.yml
   format: yaml
   label: SF Compute Money API
   slug: sfcompute-money-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-money-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-money-api-openapi.yml
 - filename: sfcompute-vms-api-openapi.yml
   format: yaml
   label: SF Compute V Ms API
   slug: sfcompute-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/openapi/sfcompute-vms-api-openapi.yml
+  url: https://artifacts.apis.io/sfcompute/openapi/sfcompute-vms-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 18
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sfcomp
   \  method: get\n  operationId: getInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones\n  method: get\n  operationId: listZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentials\n  method: get\n  operationId: listCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentials\n  method: post\n  operationId: createCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vms/instances\n  method: get\n  operationId:\
   \ listVmInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: get\n  operationId: listTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/{id}\n  method: delete\n  operationId: deleteToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/agentic-access/sfcompute-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sfcompute/agentic-access/sfcompute-agentic-access.yml
 summary_line: 25 operations · 7 acting
 tags:
 - GPU

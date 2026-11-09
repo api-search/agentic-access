@@ -9,25 +9,25 @@ api_specs:
   label: Ocean Security Metrics API
   slug: ocean-security-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-metrics-api-openapi.yml
 - filename: ocean-security-settings-api-openapi.yml
   format: yaml
   label: Ocean Security Settings API
   slug: ocean-security-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-settings-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-settings-api-openapi.yml
 - filename: ocean-security-sonar-api-openapi.yml
   format: yaml
   label: Ocean Security Sonar API
   slug: ocean-security-sonar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-sonar-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-sonar-api-openapi.yml
 - filename: ocean-security-threats-api-openapi.yml
   format: yaml
   label: Ocean Security Threats API
   slug: ocean-security-threats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-threats-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-security/openapi/ocean-security-threats-api-openapi.yml
 consequence_counts:
   read: 17
   write: 3
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/ocean-
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/settings/allow_deny_entries/{id}\n  method: patch\n  operationId: updateAllowDenyEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sonar/phishing-reports/aggs/verdicts\n  method: get\n  operationId: getAggregatedVerdicts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sonar/phishing-reports/aggs/mttr\n  method: get\n  operationId: getPhishingReportsMttr\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sonar/phishing-reports/{id}\n  method: get\n  operationId: getPhishingReportById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sonar/phishing-reports/by_original_email_internet_message_id/{internet_message_id}\n  method: get\n  operationId: getPhishingReportsByOriginalEmailInternetMessageId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sonar/phishing-reports/by_report_internet_message_id/{internet_message_id}\n  method: get\n  operationId: getPhishingReportsByReportInternetMessageId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sonar/phishing-reports\n\
   \  method: get\n  operationId: listPhishingReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/threats/{id}\n  method: get\n  operationId: getThreatById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/threats/by_internet_message_id/{id}\n  method: get\n  operationId: getThreatsByInternetMessageId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/threats\n  method: get\n  operationId: listRecentThreats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/agentic-access/ocean-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ocean-security/agentic-access/ocean-security-agentic-access.yml
 summary_line: 20 operations · 3 acting
 tags:
 - Company

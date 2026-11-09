@@ -9,127 +9,127 @@ api_specs:
   label: Lukka Market Data Streaming API
   slug: lukka-market-data-streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/asyncapi/lukka-market-data-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/lukka/asyncapi/lukka-market-data-streaming-asyncapi.yml
 - filename: lukka-analytics-analytics-api-api-openapi.yml
   format: yaml
   label: Lukka Analytics - Analytics API
   slug: lukka-analytics-analytics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-analytics-analytics-api-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-analytics-analytics-api-api-openapi.yml
 - filename: lukka-analytics-derived-data-api-openapi.yml
   format: yaml
   label: Lukka Analytics - Derived Data API
   slug: lukka-analytics-derived-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-analytics-derived-data-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-analytics-derived-data-api-openapi.yml
 - filename: lukka-analytics-valuations-api-openapi.yml
   format: yaml
   label: Lukka Analytics - Valuations API
   slug: lukka-analytics-valuations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-analytics-valuations-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-analytics-valuations-api-openapi.yml
 - filename: lukka-market-data-derivatives-api-openapi.yml
   format: yaml
   label: Lukka Market Data - Derivatives API
   slug: lukka-market-data-derivatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-market-data-derivatives-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-market-data-derivatives-api-openapi.yml
 - filename: lukka-market-data-downloadable-data-csv-api-openapi.yml
   format: yaml
   label: Lukka Market Data - Downloadable Data (CSV) API
   slug: lukka-market-data-downloadable-data-csv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-market-data-downloadable-data-csv-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-market-data-downloadable-data-csv-api-openapi.yml
 - filename: lukka-market-data-prediction-markets-api-openapi.yml
   format: yaml
   label: Lukka Market Data - Prediction Markets API
   slug: lukka-market-data-prediction-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-market-data-prediction-markets-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-market-data-prediction-markets-api-openapi.yml
 - filename: lukka-market-data-spot-api-openapi.yml
   format: yaml
   label: Lukka Market Data - Spot API
   slug: lukka-market-data-spot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-market-data-spot-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-market-data-spot-api-openapi.yml
 - filename: lukka-pricing-api-openapi.yml
   format: yaml
   label: Lukka Pricing API
   slug: lukka-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-pricing-api-openapi.yml
 - filename: lukka-pricing-legacy-versions-api-openapi.yml
   format: yaml
   label: Lukka Pricing - Legacy Versions API
   slug: lukka-pricing-legacy-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-pricing-legacy-versions-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-pricing-legacy-versions-api-openapi.yml
 - filename: lukka-reference-data-api-openapi.yml
   format: yaml
   label: Lukka Reference Data API
   slug: lukka-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-api-openapi.yml
 - filename: lukka-reference-data-asset-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Lukka Reference Data - Asset Terms and Conditions API
   slug: lukka-reference-data-asset-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-asset-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-asset-terms-and-conditions-api-openapi.yml
 - filename: lukka-reference-data-crypto-actions-api-openapi.yml
   format: yaml
   label: Lukka Reference Data - Crypto Actions API
   slug: lukka-reference-data-crypto-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-crypto-actions-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-crypto-actions-api-openapi.yml
 - filename: lukka-reference-data-custodian-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Lukka Reference Data - Custodian Terms and Conditions API
   slug: lukka-reference-data-custodian-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-custodian-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-custodian-terms-and-conditions-api-openapi.yml
 - filename: lukka-reference-data-deprecated-api-openapi.yml
   format: yaml
   label: Lukka Reference Data (Deprecated) API
   slug: lukka-reference-data-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-deprecated-api-openapi.yml
 - filename: lukka-reference-data-derivative-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Lukka Reference Data - Derivative Terms and Conditions API
   slug: lukka-reference-data-derivative-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-derivative-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-derivative-terms-and-conditions-api-openapi.yml
 - filename: lukka-reference-data-mapping-and-normalization-api-openapi.yml
   format: yaml
   label: Lukka Reference Data - Mapping and Normalization API
   slug: lukka-reference-data-mapping-and-normalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-mapping-and-normalization-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-mapping-and-normalization-api-openapi.yml
 - filename: lukka-reference-data-marketplace-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Lukka Reference Data - Marketplace Terms and Conditions API
   slug: lukka-reference-data-marketplace-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-marketplace-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-marketplace-terms-and-conditions-api-openapi.yml
 - filename: lukka-reference-data-prediction-markets-api-openapi.yml
   format: yaml
   label: Lukka Reference Data - Prediction Markets API
   slug: lukka-reference-data-prediction-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-prediction-markets-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-prediction-markets-api-openapi.yml
 - filename: lukka-reference-data-v1-api-openapi.yml
   format: yaml
   label: Lukka Reference Data v1 API
   slug: lukka-reference-data-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-v1-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-v1-api-openapi.yml
 - filename: lukka-reference-data-virtual-asset-serivce-providers-api-openapi.yml
   format: yaml
   label: Lukka Reference Data - Virtual Asset Serivce Providers API
   slug: lukka-reference-data-virtual-asset-serivce-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/openapi/lukka-reference-data-virtual-asset-serivce-providers-api-openapi.yml
+  url: https://artifacts.apis.io/lukka/openapi/lukka-reference-data-virtual-asset-serivce-providers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 88
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/lukka-
   \      max-ttl: 3600\n    audit: none\n- path: /v1/entities/assets/mappings/added\n  method: get\n  operationId: newlyAddedAssetMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/entities/assets/mappings/deleted\n  method: get\n  operationId: newlyDeletedAssetMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/entities/pairs/mappings/active\n  method: get\n  operationId: activePairMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/entities/pairs/mappings/inactive\n  method: get\n  operationId: historicalPairMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v1/entities/pairs/mappings/added\n  method: get\n  operationId: newlyAddedPairMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/entities/pairs/mappings/deleted\n  method: get\n  operationId: newlyDeletedPairMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datacalculation\n  method: post\n  operationId: runCalculation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datacalculation\n  method: get\n  operationId: getResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datacalculation/status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/agentic-access/lukka-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lukka/agentic-access/lukka-agentic-access.yml
 summary_line: 91 operations · 3 acting
 tags:
 - Cryptocurrency

@@ -9,19 +9,19 @@ api_specs:
   label: Encore Apps API
   slug: encore-dev-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-apps-api-openapi.yml
+  url: https://artifacts.apis.io/encore-dev/openapi/encore-dev-apps-api-openapi.yml
 - filename: encore-dev-encore-api-openapi.yml
   format: yaml
   label: Encore API
   slug: encore-dev-encore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-encore-api-openapi.yml
+  url: https://artifacts.apis.io/encore-dev/openapi/encore-dev-encore-api-openapi.yml
 - filename: encore-dev-encore-framework-api-api-openapi.yml
   format: yaml
   label: Encore Framework API
   slug: encore-dev-encore-framework-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/openapi/encore-dev-encore-framework-api-api-openapi.yml
+  url: https://artifacts.apis.io/encore-dev/openapi/encore-dev-encore-framework-api-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/encore
   \    audit: none\n- path: /{service}/{endpoint}\n  method: get\n  operationId: invokeEndpointGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{app_id}/environments\n  method: get\n  operationId: listEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{app_id}/environments/{env}/deployments\n  method: get\n  operationId: listDeployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{app_id}/environments/{env}/deployments\n  method: post\n  operationId:\
   \ createDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{app_id}/secrets\n  method: get\n  operationId: listSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{app_id}/secrets\n  method: put\n  operationId: setSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{app_id}/traces\n  method: get\n  operationId: queryTraces\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/agentic-access/encore-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/encore-dev/agentic-access/encore-dev-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Backend

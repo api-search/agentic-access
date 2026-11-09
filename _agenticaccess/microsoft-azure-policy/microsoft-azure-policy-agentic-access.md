@@ -9,13 +9,43 @@ api_specs:
   label: Azure Policy Operations API
   slug: microsoft-azure-policy-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/openapi/microsoft-azure-policy-operations-api-openapi.yml
-- filename: microsoft-azure-policy-policy-definitions-api-openapi.yml
-  format: yaml
-  label: Azure Policy Definitions API
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-operations-api-openapi.yml
+- filename: policyDefinitions.json
+  format: json
+  label: Azure Policy REST API
   slug: microsoft-azure-policy-policy-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/openapi/microsoft-azure-policy-policy-definitions-api-openapi.yml
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/resources/resource-manager/Microsoft.Authorization/policy/stable/2025-01-01/policyDefinitions.json
+- filename: microsoft-azure-policy-policyassignments-api-openapi.yml
+  format: yaml
+  label: Azure Policy Policy Assignments API
+  slug: microsoft-azure-policy-policyassignments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-policyassignments-api-openapi.yml
+- filename: microsoft-azure-policy-policydefinitions-api-openapi.yml
+  format: yaml
+  label: Azure Policy Policy Definitions API
+  slug: microsoft-azure-policy-policydefinitions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-policydefinitions-api-openapi.yml
+- filename: microsoft-azure-policy-policydefinitionversions-api-openapi.yml
+  format: yaml
+  label: Azure Policy Policy Definition Versions API
+  slug: microsoft-azure-policy-policydefinitionversions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-policydefinitionversions-api-openapi.yml
+- filename: microsoft-azure-policy-policysetdefinitions-api-openapi.yml
+  format: yaml
+  label: Azure Policy Policy Set Definitions API
+  slug: microsoft-azure-policy-policysetdefinitions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-policysetdefinitions-api-openapi.yml
+- filename: microsoft-azure-policy-policysetdefinitionversions-api-openapi.yml
+  format: yaml
+  label: Azure Policy Policy Set Definition Versions API
+  slug: microsoft-azure-policy-policysetdefinitionversions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-policysetdefinitionversions-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Authorization/policyDefinitions\n  method: get\n  operationId: listPolicydefinitionsByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Authorization/policyDefinitions/{name}\n  method: get\n  operationId: getPolicydefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Authorization/policyDefinitions/{name}\n\
   \  method: put\n  operationId: createOrUpdatePolicydefinitions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Authorization/policyDefinitions/{name}\n  method: patch\n  operationId: updatePolicydefinitions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Authorization/policyDefinitions/{name}\n\
   \  method: delete\n  operationId: deletePolicydefinitions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/agentic-access/microsoft-azure-policy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-policy/agentic-access/microsoft-azure-policy-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Compliance

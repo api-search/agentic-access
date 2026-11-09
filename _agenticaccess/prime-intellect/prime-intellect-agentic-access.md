@@ -9,121 +9,121 @@ api_specs:
   label: Prime Intellect Sandbox API
   slug: prime-intellect-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-sandbox-api-openapi.yml
 - filename: prime-intellect-training-api-openapi.yml
   format: yaml
   label: Prime Intellect Training API
   slug: prime-intellect-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-training-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-training-api-openapi.yml
 - filename: prime-intellect-inference-api-openapi.yml
   format: yaml
   label: Prime Intellect Inference API
   slug: prime-intellect-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-inference-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-inference-api-openapi.yml
 - filename: prime-intellect-admin-clusters-api-openapi.yml
   format: yaml
   label: Prime Intellect Admin Clusters API
   slug: prime-intellect-admin-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-admin-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-admin-clusters-api-openapi.yml
 - filename: prime-intellect-admin-users-api-openapi.yml
   format: yaml
   label: Prime Intellect Admin Users API
   slug: prime-intellect-admin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-admin-users-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-admin-users-api-openapi.yml
 - filename: prime-intellect-availability-api-openapi.yml
   format: yaml
   label: Prime Intellect Availability API
   slug: prime-intellect-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-availability-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-availability-api-openapi.yml
 - filename: prime-intellect-billing-api-openapi.yml
   format: yaml
   label: Prime Intellect Billing API
   slug: prime-intellect-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-billing-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-billing-api-openapi.yml
 - filename: prime-intellect-disks-api-openapi.yml
   format: yaml
   label: Prime Intellect Disks API
   slug: prime-intellect-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-disks-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-disks-api-openapi.yml
 - filename: prime-intellect-evals-api-openapi.yml
   format: yaml
   label: Prime Intellect Evals API
   slug: prime-intellect-evals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-evals-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-evals-api-openapi.yml
 - filename: prime-intellect-feedback-api-openapi.yml
   format: yaml
   label: Prime Intellect Feedback API
   slug: prime-intellect-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-feedback-api-openapi.yml
 - filename: prime-intellect-frp-plugin-api-openapi.yml
   format: yaml
   label: Prime Intellect FRP Plugin API
   slug: prime-intellect-frp-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-frp-plugin-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-frp-plugin-api-openapi.yml
 - filename: prime-intellect-hosted-evaluations-api-openapi.yml
   format: yaml
   label: Prime Intellect Hosted Evaluations API
   slug: prime-intellect-hosted-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-hosted-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-hosted-evaluations-api-openapi.yml
 - filename: prime-intellect-images-api-openapi.yml
   format: yaml
   label: Prime Intellect Images API
   slug: prime-intellect-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-images-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-images-api-openapi.yml
 - filename: prime-intellect-pods-api-openapi.yml
   format: yaml
   label: Prime Intellect Pods API
   slug: prime-intellect-pods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-pods-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-pods-api-openapi.yml
 - filename: prime-intellect-secrets-api-openapi.yml
   format: yaml
   label: Prime Intellect Secrets API
   slug: prime-intellect-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-secrets-api-openapi.yml
 - filename: prime-intellect-ssh-keys-api-openapi.yml
   format: yaml
   label: Prime Intellect SSH Keys API
   slug: prime-intellect-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-ssh-keys-api-openapi.yml
 - filename: prime-intellect-teams-api-openapi.yml
   format: yaml
   label: Prime Intellect Teams API
   slug: prime-intellect-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-teams-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-teams-api-openapi.yml
 - filename: prime-intellect-template-api-openapi.yml
   format: yaml
   label: Prime Intellect Template API
   slug: prime-intellect-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-template-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-template-api-openapi.yml
 - filename: prime-intellect-tunnel-api-openapi.yml
   format: yaml
   label: Prime Intellect Tunnel API
   slug: prime-intellect-tunnel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-tunnel-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-tunnel-api-openapi.yml
 - filename: prime-intellect-user-api-openapi.yml
   format: yaml
   label: Prime Intellect User API
   slug: prime-intellect-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/openapi/prime-intellect-user-api-openapi.yml
+  url: https://artifacts.apis.io/prime-intellect/openapi/prime-intellect-user-api-openapi.yml
 consequence_counts:
   read: 44
   write: 42
@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/prime-
   \      - high-value\n    audit: required\n- path: /api/v1/tunnel/{tunnel_id}\n  method: get\n  operationId: get_tunnel_status_endpoint_api_v1_tunnel__tunnel_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tunnel/{tunnel_id}\n  method: delete\n  operationId: delete_tunnel_endpoint_api_v1_tunnel__tunnel_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/billing/runs/{run_id}/usage\n  method: get\n  operationId: get_run_usage_api_v1_billing_runs__run_id__usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/billing/wallet\n\
   \  method: get\n  operationId: get_wallet_api_v1_billing_wallet_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/training/runs\n  method: post\n  operationId: create_dedicated_run_api_v1_training_runs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/training/runs/{run_id}\n  method: delete\n  operationId: delete_dedicated_run_api_v1_training_runs__run_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/agentic-access/prime-intellect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/prime-intellect/agentic-access/prime-intellect-agentic-access.yml
 summary_line: 86 operations · 42 acting
 tags:
 - Artificial Intelligence

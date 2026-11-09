@@ -9,73 +9,73 @@ api_specs:
   label: Julep Agents API
   slug: julep-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-agents-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-agents-api-openapi.yml
 - filename: julep-docs-api-openapi.yml
   format: yaml
   label: Julep Docs API
   slug: julep-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-docs-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-docs-api-openapi.yml
 - filename: julep-embed-api-openapi.yml
   format: yaml
   label: Julep Embed API
   slug: julep-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-embed-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-embed-api-openapi.yml
 - filename: julep-executions-api-openapi.yml
   format: yaml
   label: Julep Executions API
   slug: julep-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-executions-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-executions-api-openapi.yml
 - filename: julep-files-api-openapi.yml
   format: yaml
   label: Julep Files API
   slug: julep-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-files-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-files-api-openapi.yml
 - filename: julep-jobs-api-openapi.yml
   format: yaml
   label: Julep Jobs API
   slug: julep-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-jobs-api-openapi.yml
 - filename: julep-projects-api-openapi.yml
   format: yaml
   label: Julep Projects API
   slug: julep-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-projects-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-projects-api-openapi.yml
 - filename: julep-responses-api-openapi.yml
   format: yaml
   label: Julep Responses API
   slug: julep-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-responses-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-responses-api-openapi.yml
 - filename: julep-secrets-api-openapi.yml
   format: yaml
   label: Julep Secrets API
   slug: julep-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-secrets-api-openapi.yml
 - filename: julep-sessions-api-openapi.yml
   format: yaml
   label: Julep Sessions API
   slug: julep-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-sessions-api-openapi.yml
 - filename: julep-tasks-api-openapi.yml
   format: yaml
   label: Julep Tasks API
   slug: julep-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-tasks-api-openapi.yml
 - filename: julep-users-api-openapi.yml
   format: yaml
   label: Julep Users API
   slug: julep-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/openapi/julep-users-api-openapi.yml
+  url: https://artifacts.apis.io/julep/openapi/julep-users-api-openapi.yml
 consequence_counts:
   read: 26
   write: 52
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/julep-
   - path: /users/{id}\n  method: put\n  operationId: UsersRoute_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: patch\n  operationId: UsersRoute_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: delete\n  operationId: UsersRoute_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /users/{id}\n  method: get\n  operationId: UsersRoute_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/docs\n  method: post\n  operationId: UserDocsRoute_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/docs\n  method: get\n  operationId: UserDocsRoute_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/docs\n  method: delete\n  operationId: UserDocsRoute_deleteBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/docs/{child_id}\n  method: delete\n  operationId: UserDocsRoute_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/search\n  method: post\n  operationId: UserDocsSearchRoute_search\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/agentic-access/julep-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/julep/agentic-access/julep-agentic-access.yml
 summary_line: 78 operations · 52 acting
 tags:
 - Company

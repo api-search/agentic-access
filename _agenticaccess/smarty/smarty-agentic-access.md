@@ -9,31 +9,31 @@ api_specs:
   label: Smarty Lookup API
   slug: smarty-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-lookup-api-openapi.yml
 - filename: smarty-street-address-api-openapi.yml
   format: yaml
   label: Smarty Street Address API
   slug: smarty-street-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-street-address-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-street-address-api-openapi.yml
 - filename: smarty-us-enrichment-api-openapi.yml
   format: yaml
   label: Smarty Us Enrichment API
   slug: smarty-us-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-us-enrichment-api-openapi.yml
 - filename: smarty-us-extract-api-api-openapi.yml
   format: yaml
   label: Smarty US Extract API
   slug: smarty-us-extract-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-us-extract-api-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-us-extract-api-api-openapi.yml
 - filename: smarty-verify-api-openapi.yml
   format: yaml
   label: Smarty Verify API
   slug: smarty-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/openapi/smarty-verify-api-openapi.yml
+  url: https://artifacts.apis.io/smarty/openapi/smarty-verify-api-openapi.yml
 consequence_counts:
   read: 14
   write: 2
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/smarty
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lookup/{smartykey}/property\n  method: get\n  operationId: get-lookup-smartykey-property\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/search/property\n  method: get\n  operationId: get-lookup-property\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/{smarykey}/geo-reference/{dataset?}\n  method: get\n  operationId: get-lookup-smartykey-geo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/search/geo-reference/{dataset?}\n  method: get\n  operationId: get-lookup-geo\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/{smartykey}/secondary\n  method: get\n  operationId: get-lookup-smartykey-secondary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/search/secondary\n  method: get\n  operationId: get-lookup-secondary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/{smartykey}/secondary/count\n  method: get\n  operationId: get-lookup-smartykey-secondary-count\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/search/secondary/count\n  method: get\n  operationId: get-lookup-secondary-count\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: post-extract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify\n  method: get\n  operationId: get-verify\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/agentic-access/smarty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smarty/agentic-access/smarty-agentic-access.yml
 summary_line: 16 operations · 2 acting
 tags:
 - Address Verification

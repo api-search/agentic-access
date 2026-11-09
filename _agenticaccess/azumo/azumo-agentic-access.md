@@ -28,7 +28,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: generated\nsource: openapi/ai-college-journey-openapi.json, openapi/ai-roadmap-tool-openapi.json, openapi/ai-srs-generator-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /playground-style/integration\n  method: get\n  operationId: playground_style_integration_playground_style_integration_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playground-style/integration\n  method: get\n  operationId: playground_style_integration_playground_style_integration_get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playground-style/integration\n  method: get\n  operationId: playground_style_integration_playground_style_integration_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/agentic-access/azumo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azumo/agentic-access/azumo-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Company

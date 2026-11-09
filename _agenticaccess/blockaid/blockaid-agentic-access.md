@@ -9,139 +9,139 @@ api_specs:
   label: Blockaid Asset Management API
   slug: blockaid-asset-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-asset-management-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-asset-management-api-openapi.yml
 - filename: blockaid-audit-logs-api-openapi.yml
   format: yaml
   label: Blockaid Audit Logs API
   slug: blockaid-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-audit-logs-api-openapi.yml
 - filename: blockaid-bitcoin-api-openapi.yml
   format: yaml
   label: Blockaid Bitcoin API
   slug: blockaid-bitcoin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-bitcoin-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-bitcoin-api-openapi.yml
 - filename: blockaid-chain-agnostic-api-openapi.yml
   format: yaml
   label: Blockaid Chain Agnostic API
   slug: blockaid-chain-agnostic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-chain-agnostic-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-chain-agnostic-api-openapi.yml
 - filename: blockaid-cosigner-api-openapi.yml
   format: yaml
   label: Blockaid Cosigner API
   slug: blockaid-cosigner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-cosigner-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-cosigner-api-openapi.yml
 - filename: blockaid-crypto-fraud-prevention-api-openapi.yml
   format: yaml
   label: Blockaid Crypto Fraud Prevention API
   slug: blockaid-crypto-fraud-prevention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-crypto-fraud-prevention-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-crypto-fraud-prevention-api-openapi.yml
 - filename: blockaid-enrichment-api-openapi.yml
   format: yaml
   label: Blockaid Enrichment API
   slug: blockaid-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-enrichment-api-openapi.yml
 - filename: blockaid-evm-api-openapi.yml
   format: yaml
   label: Blockaid EVM API
   slug: blockaid-evm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-evm-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-evm-api-openapi.yml
 - filename: blockaid-external-api-integrations-api-openapi.yml
   format: yaml
   label: Blockaid external api integrations API
   slug: blockaid-external-api-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-external-api-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-external-api-integrations-api-openapi.yml
 - filename: blockaid-external-api-openapi.yml
   format: yaml
   label: Blockaid External API
   slug: blockaid-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-external-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-external-api-openapi.yml
 - filename: blockaid-hedera-api-openapi.yml
   format: yaml
   label: Blockaid Hedera API
   slug: blockaid-hedera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-hedera-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-hedera-api-openapi.yml
 - filename: blockaid-metrics-api-openapi.yml
   format: yaml
   label: Blockaid Metrics API
   slug: blockaid-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-metrics-api-openapi.yml
 - filename: blockaid-monitors-api-openapi.yml
   format: yaml
   label: Blockaid Monitors API
   slug: blockaid-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-monitors-api-openapi.yml
 - filename: blockaid-organization-risk-config-api-openapi.yml
   format: yaml
   label: Blockaid Organization Risk Config API
   slug: blockaid-organization-risk-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-organization-risk-config-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-organization-risk-config-api-openapi.yml
 - filename: blockaid-report-api-openapi.yml
   format: yaml
   label: Blockaid Report API
   slug: blockaid-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-report-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-report-api-openapi.yml
 - filename: blockaid-scan-feedback-api-openapi.yml
   format: yaml
   label: Blockaid Scan Feedback API
   slug: blockaid-scan-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-scan-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-scan-feedback-api-openapi.yml
 - filename: blockaid-site-api-openapi.yml
   format: yaml
   label: Blockaid Site API
   slug: blockaid-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-site-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-site-api-openapi.yml
 - filename: blockaid-solana-api-openapi.yml
   format: yaml
   label: Blockaid Solana API
   slug: blockaid-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-solana-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-solana-api-openapi.yml
 - filename: blockaid-starknet-api-openapi.yml
   format: yaml
   label: Blockaid Starknet API
   slug: blockaid-starknet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-starknet-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-starknet-api-openapi.yml
 - filename: blockaid-stellar-api-openapi.yml
   format: yaml
   label: Blockaid Stellar API
   slug: blockaid-stellar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-stellar-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-stellar-api-openapi.yml
 - filename: blockaid-sui-api-openapi.yml
   format: yaml
   label: Blockaid Sui API
   slug: blockaid-sui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-sui-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-sui-api-openapi.yml
 - filename: blockaid-token-api-openapi.yml
   format: yaml
   label: Blockaid Token API
   slug: blockaid-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-token-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-token-api-openapi.yml
 - filename: blockaid-tron-api-openapi.yml
   format: yaml
   label: Blockaid Tron API
   slug: blockaid-tron-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/blockaid-tron-api-openapi.yml
+  url: https://artifacts.apis.io/blockaid/openapi/blockaid-tron-api-openapi.yml
 consequence_counts:
   read: 24
   write: 69
@@ -201,7 +201,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/blocka
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/token/hooks/{chain}\n  method: delete\n  operationId: delete-hook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/token/hooks/\n  method: get\n  operationId: list-hooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/token/bulk-export/jobs\n  method: post\n  operationId: create-bulk-export-job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/token/bulk-export/jobs/{job_id}\n  method: get\n  operationId: get-bulk-export-job-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/token/recent-rugpull-risks\n  method: get\n  operationId: get-recent-rugpull-risks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tron/transaction/scan\n  method: post\n  operationId: scan-tron-transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /v0/tron/address/scan\n  method: post\n  operationId: scan-tron-address\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/agentic-access/blockaid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blockaid/agentic-access/blockaid-agentic-access.yml
 summary_line: 93 operations · 69 acting
 tags:
 - Company

@@ -8,79 +8,79 @@ api_specs:
   label: Roivant Sciences Allergies API
   slug: roivant-sciences-allergies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-allergies-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-allergies-api-openapi.yml
 - filename: roivant-sciences-appointments-api-openapi.yml
   format: yaml
   label: Roivant Sciences Appointments API
   slug: roivant-sciences-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-appointments-api-openapi.yml
 - filename: roivant-sciences-diagnoses-api-openapi.yml
   format: yaml
   label: Roivant Sciences Diagnoses API
   slug: roivant-sciences-diagnoses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-diagnoses-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-diagnoses-api-openapi.yml
 - filename: roivant-sciences-documents-api-openapi.yml
   format: yaml
   label: Roivant Sciences Documents API
   slug: roivant-sciences-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-documents-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-documents-api-openapi.yml
 - filename: roivant-sciences-encounters-api-openapi.yml
   format: yaml
   label: Roivant Sciences Encounters API
   slug: roivant-sciences-encounters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-encounters-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-encounters-api-openapi.yml
 - filename: roivant-sciences-immunizations-api-openapi.yml
   format: yaml
   label: Roivant Sciences Immunizations API
   slug: roivant-sciences-immunizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-immunizations-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-immunizations-api-openapi.yml
 - filename: roivant-sciences-labs-api-openapi.yml
   format: yaml
   label: Roivant Sciences Labs API
   slug: roivant-sciences-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-labs-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-labs-api-openapi.yml
 - filename: roivant-sciences-medications-api-openapi.yml
   format: yaml
   label: Roivant Sciences Medications API
   slug: roivant-sciences-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-medications-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-medications-api-openapi.yml
 - filename: roivant-sciences-patients-api-openapi.yml
   format: yaml
   label: Roivant Sciences Patients API
   slug: roivant-sciences-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-patients-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-patients-api-openapi.yml
 - filename: roivant-sciences-practices-api-openapi.yml
   format: yaml
   label: Roivant Sciences Practices API
   slug: roivant-sciences-practices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-practices-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-practices-api-openapi.yml
 - filename: roivant-sciences-procedures-api-openapi.yml
   format: yaml
   label: Roivant Sciences Procedures API
   slug: roivant-sciences-procedures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-procedures-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-procedures-api-openapi.yml
 - filename: roivant-sciences-providers-api-openapi.yml
   format: yaml
   label: Roivant Sciences Providers API
   slug: roivant-sciences-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-providers-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-providers-api-openapi.yml
 - filename: roivant-sciences-vitals-api-openapi.yml
   format: yaml
   label: Roivant Sciences Vitals API
   slug: roivant-sciences-vitals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/roivant-sciences-vitals-api-openapi.yml
+  url: https://artifacts.apis.io/roivant-sciences/openapi/roivant-sciences-vitals-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/datava
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n- path: /immunizations\n  method: get\n  operationId: listImmunizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n- path: /medications\n  method: get\n  operationId: listMedications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n- path: /diagnoses\n  method: get\n  operationId: listDiagnoses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n- path: /procedures\n  method: get\n  operationId: listProcedures\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n- path: /labs\n  method: get\n  operationId: listLabs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n- path: /documents\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n- path: /appointments\n  method: get\n  operationId: listAppointments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n- path:\
   \ /providers\n  method: get\n  operationId: listProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n- path: /practices\n  method: get\n  operationId: listPractices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read:clinical\n    - read:patients\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/agentic-access/roivant-sciences-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/roivant-sciences/agentic-access/roivant-sciences-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Biotechnology

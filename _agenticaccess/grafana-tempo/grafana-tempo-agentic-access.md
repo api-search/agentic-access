@@ -8,37 +8,37 @@ api_specs:
   label: Grafana Tempo Echo API
   slug: grafana-tempo-echo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-echo-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-echo-api-openapi.yml
 - filename: grafana-tempo-metrics-api-openapi.yml
   format: yaml
   label: Grafana Tempo Metrics API
   slug: grafana-tempo-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-metrics-api-openapi.yml
 - filename: grafana-tempo-ready-api-openapi.yml
   format: yaml
   label: Grafana Tempo Ready API
   slug: grafana-tempo-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-ready-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-ready-api-openapi.yml
 - filename: grafana-tempo-search-api-openapi.yml
   format: yaml
   label: Grafana Tempo Search API
   slug: grafana-tempo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-search-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-search-api-openapi.yml
 - filename: grafana-tempo-status-api-openapi.yml
   format: yaml
   label: Grafana Tempo Status API
   slug: grafana-tempo-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-status-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-status-api-openapi.yml
 - filename: grafana-tempo-traces-api-openapi.yml
   format: yaml
   label: Grafana Tempo Traces API
   slug: grafana-tempo-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/openapi/grafana-tempo-traces-api-openapi.yml
+  url: https://artifacts.apis.io/grafana-tempo/openapi/grafana-tempo-traces-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tempo-http-api.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /api/traces/{traceID}\n  method: get\n  operationId: getTraceByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search\n  method: get\n  operationId: searchTraces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/tags\n  method: get\n  operationId: getSearchTags\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/tag/{tagName}/values\n  method: get\n  operationId: getSearchTagValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/search/tags\n  method: get\n  operationId: getSearchTagsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/search/tag/{tagName}/values\n  method: get\n  operationId: getSearchTagValuesV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/echo\n  method: get\n  operationId: echo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /ready\n  method: get\n  operationId: ready\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/buildinfo\n  method: get\n  operationId: getBuildInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/metrics/summary\n  method: get\n  operationId: getMetricsSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/agentic-access/grafana-tempo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/grafana-tempo/agentic-access/grafana-tempo-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Distributed Tracing

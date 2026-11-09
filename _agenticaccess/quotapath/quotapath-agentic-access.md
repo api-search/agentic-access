@@ -9,43 +9,43 @@ api_specs:
   label: QuotaPath Data API
   slug: quotapath-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-data-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-data-api-openapi.yml
 - filename: quotapath-deal-api-openapi.yml
   format: yaml
   label: QuotaPath Deal API
   slug: quotapath-deal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-deal-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-deal-api-openapi.yml
 - filename: quotapath-path-api-openapi.yml
   format: yaml
   label: QuotaPath Path API
   slug: quotapath-path-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-path-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-path-api-openapi.yml
 - filename: quotapath-payout-api-openapi.yml
   format: yaml
   label: QuotaPath Payout API
   slug: quotapath-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-payout-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-payout-api-openapi.yml
 - filename: quotapath-plan-api-openapi.yml
   format: yaml
   label: QuotaPath Plan API
   slug: quotapath-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-plan-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-plan-api-openapi.yml
 - filename: quotapath-team-api-openapi.yml
   format: yaml
   label: QuotaPath Team API
   slug: quotapath-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-team-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-team-api-openapi.yml
 - filename: quotapath-user-api-openapi.yml
   format: yaml
   label: QuotaPath User API
   slug: quotapath-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/openapi/quotapath-user-api-openapi.yml
+  url: https://artifacts.apis.io/quotapath/openapi/quotapath-user-api-openapi.yml
 consequence_counts:
   read: 10
   write: 8
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/quotap
   \    audit: required\n- path: /path/{path_uuid}/quota/assignments/\n  method: get\n  operationId: path_quota_assignments_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /path/{path_uuid}/quota/assignments/\n  method: post\n  operationId: path_quota_assignments_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /path/{path_uuid}/quota/values/\n  method: get\n  operationId: path_quota_values_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /path/{path_uuid}/quota/values/\n  method: post\n  operationId: path_quota_values_create\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payout/\n  method: get\n  operationId: payout_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payout/resolved/\n  method: get\n  operationId: payout_resolved_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payout/unresolved/\n  method: get\n  operationId: payout_unresolved_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plan/\n  method: get\n  operationId: plan_list\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team/\n  method: get\n  operationId: team_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/\n  method: get\n  operationId: user_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/agentic-access/quotapath-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quotapath/agentic-access/quotapath-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - Company

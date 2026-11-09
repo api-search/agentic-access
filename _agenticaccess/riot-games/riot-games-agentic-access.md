@@ -8,49 +8,49 @@ api_specs:
   label: Riot Games Champion API
   slug: riot-games-champion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-champion-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-champion-api-openapi.yml
 - filename: riot-games-champion-mastery-api-openapi.yml
   format: yaml
   label: Riot Games Champion Mastery API
   slug: riot-games-champion-mastery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-champion-mastery-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-champion-mastery-api-openapi.yml
 - filename: riot-games-clash-api-openapi.yml
   format: yaml
   label: Riot Games Clash API
   slug: riot-games-clash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-clash-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-clash-api-openapi.yml
 - filename: riot-games-league-api-openapi.yml
   format: yaml
   label: Riot Games League API
   slug: riot-games-league-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-league-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-league-api-openapi.yml
 - filename: riot-games-match-api-openapi.yml
   format: yaml
   label: Riot Games Match API
   slug: riot-games-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-match-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-match-api-openapi.yml
 - filename: riot-games-spectator-api-openapi.yml
   format: yaml
   label: Riot Games Spectator API
   slug: riot-games-spectator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-spectator-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-spectator-api-openapi.yml
 - filename: riot-games-status-api-openapi.yml
   format: yaml
   label: Riot Games Status API
   slug: riot-games-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-status-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-status-api-openapi.yml
 - filename: riot-games-summoner-api-openapi.yml
   format: yaml
   label: Riot Games Summoner API
   slug: riot-games-summoner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/openapi/riot-games-summoner-api-openapi.yml
+  url: https://artifacts.apis.io/riot-games/openapi/riot-games-summoner-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/riot-g
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/league/v4/entries/{queue}/{tier}/{division}\n  method: get\n  operationId: getLeagueEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/league/v4/challengerleagues/by-queue/{queue}\n  method: get\n  operationId: getChallengerLeague\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/match/v5/matches/by-puuid/{puuid}/ids\n  method: get\n  operationId: getMatchIdsByPUUID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/match/v5/matches/{matchId}\n  method: get\n  operationId: getMatch\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/match/v5/matches/{matchId}/timeline\n  method: get\n  operationId: getMatchTimeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/spectator/v5/active-games/by-summoner/{encryptedSummonerId}\n  method: get\n  operationId: getLiveGame\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/spectator/v5/featured-games\n  method: get\n  operationId: getFeaturedGames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/clash/v1/players/by-puuid/{puuid}\n  method: get\n  operationId: getClashPlayersByPUUID\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/champion/v3/champion-rotations\n  method: get\n  operationId: getChampionRotations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lol/status/v4/platform-data\n  method: get\n  operationId: getPlatformStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}\n  method: get\n  operationId: getAccountByRiotId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/agentic-access/riot-games-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/riot-games/agentic-access/riot-games-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Esports

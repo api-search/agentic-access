@@ -9,31 +9,31 @@ api_specs:
   label: Anduril Industries Entities API
   slug: anduril-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-entities-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-entities-api-openapi.yml
 - filename: anduril-objects-api-openapi.yml
   format: yaml
   label: Anduril Industries Objects API
   slug: anduril-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-objects-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-objects-api-openapi.yml
 - filename: anduril-tasks-api-openapi.yml
   format: yaml
   label: Anduril Industries Tasks API
   slug: anduril-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-tasks-api-openapi.yml
 - filename: anduril-oauth-api-openapi.yml
   format: yaml
   label: Anduril Industries O Auth API
   slug: anduril-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-oauth-api-openapi.yml
 - filename: anduril-video-api-openapi.yml
   format: yaml
   label: Anduril Industries Video API
   slug: anduril-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-video-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-video-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 2
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/anduri
   \    audit: required\n- path: /tasks/{task_id}\n  method: get\n  operationId: getTasksByTaskId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{task_id}/status\n  method: patch\n  operationId: patchTasksByTaskIdStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}:cancel\n  method: post\n  operationId: postTasks{taskId}:cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks:query\n\
   \  method: post\n  operationId: postTasks:query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks:stream\n  method: get\n  operationId: getTasks:stream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks:listenAsAgent\n  method: post\n  operationId: postTasks:listenAsAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks:streamAsAgent\n  method: get\n  operationId: getTasks:streamAsAgent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /tasks/{task_id}/manualControlFrames:stream\n  method: get\n  operationId: getTasksByTaskIdManualControlFrames:stream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/agentic-access/anduril-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/anduril/agentic-access/anduril-agentic-access.yml
 summary_line: 22 operations · 11 acting · 2 human-in-the-loop
 tags:
 - Defense

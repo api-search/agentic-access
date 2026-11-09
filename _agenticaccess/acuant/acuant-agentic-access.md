@@ -9,61 +9,61 @@ api_specs:
   label: Acuant Authentication API
   slug: acuant-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-authentication-api-openapi.yml
 - filename: acuant-chip-data-api-openapi.yml
   format: yaml
   label: Acuant Chip Data API
   slug: acuant-chip-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-chip-data-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-chip-data-api-openapi.yml
 - filename: acuant-document-data-api-openapi.yml
   format: yaml
   label: Acuant Document Data API
   slug: acuant-document-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-document-data-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-document-data-api-openapi.yml
 - filename: acuant-document-instances-api-openapi.yml
   format: yaml
   label: Acuant Document Instances API
   slug: acuant-document-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-document-instances-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-document-instances-api-openapi.yml
 - filename: acuant-images-api-openapi.yml
   format: yaml
   label: Acuant Images API
   slug: acuant-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-images-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-images-api-openapi.yml
 - filename: acuant-liveness-api-openapi.yml
   format: yaml
   label: Acuant Liveness API
   slug: acuant-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-liveness-api-openapi.yml
 - filename: acuant-metadata-api-openapi.yml
   format: yaml
   label: Acuant Metadata API
   slug: acuant-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-metadata-api-openapi.yml
 - filename: acuant-operations-for-checking-the-status-of-the-service-api-openapi.yml
   format: yaml
   label: Acuant Operations for Checking the Status of the Service API
   slug: acuant-operations-for-checking-the-status-of-the-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-operations-for-checking-the-status-of-the-service-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-operations-for-checking-the-status-of-the-service-api-openapi.yml
 - filename: acuant-operations-for-facial-matching-api-openapi.yml
   format: yaml
   label: Acuant Operations for Facial Matching API
   slug: acuant-operations-for-facial-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-operations-for-facial-matching-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-operations-for-facial-matching-api-openapi.yml
 - filename: acuant-health-check-api-openapi.yml
   format: yaml
   label: Acuant Health Check API
   slug: acuant-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/acuant/openapi/acuant-health-check-api-openapi.yml
 consequence_counts:
   read: 9
   write: 8
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/acuant
   - path: /Document/{instanceId}/Data\n  method: post\n  operationId: uploadDocumentData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DocumentData\n  method: get\n  operationId: getDocumentData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DocumentChipData\n  method: post\n  operationId: uploadDocumentChipData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DocumentChipData\n  method: get\n  operationId: getDocumentChipData\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DocumentTypes\n  method: get\n  operationId: listDocumentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DocumentLog\n  method: get\n  operationId: getDocumentLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/facematch\n  method: post\n  operationId: compareFaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/liveness\n  method: post\n  operationId: checkLiveness\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/agentic-access/acuant-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/acuant/agentic-access/acuant-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
 - Identity Verification

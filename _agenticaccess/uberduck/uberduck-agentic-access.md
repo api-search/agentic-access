@@ -9,25 +9,25 @@ api_specs:
   label: Uberduck Conversational API
   slug: uberduck-conversational-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-conversational-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-conversational-api-openapi.yml
 - filename: uberduck-models-api-openapi.yml
   format: yaml
   label: Uberduck Models API
   slug: uberduck-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-models-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-models-api-openapi.yml
 - filename: uberduck-text-to-speech-api-openapi.yml
   format: yaml
   label: Uberduck Text-to-Speech API
   slug: uberduck-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-text-to-speech-api-openapi.yml
 - filename: uberduck-voices-api-openapi.yml
   format: yaml
   label: Uberduck Voices API
   slug: uberduck-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/openapi/uberduck-voices-api-openapi.yml
+  url: https://artifacts.apis.io/uberduck/openapi/uberduck-voices-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uberduck-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 3\n    connected: 2\n  by_consequence:\n    write: 3\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/text-to-speech\n  method: post\n  operationId: textToSpeech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/voices\n  method: get\n  operationId: getVoices\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/voices\n  method: post\n  operationId: instantVoiceClone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models\n  method: get\n  operationId: getModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/conversational/token\n  method: post\n  operationId: generateConversationalToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/agentic-access/uberduck-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uberduck/agentic-access/uberduck-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
 - Artificial Intelligence

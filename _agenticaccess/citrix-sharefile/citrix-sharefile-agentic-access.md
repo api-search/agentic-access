@@ -9,37 +9,37 @@ api_specs:
   label: Citrix ShareFile Accounts API
   slug: citrix-sharefile-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/openapi/citrix-sharefile-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-sharefile/openapi/citrix-sharefile-accounts-api-openapi.yml
 - filename: citrix-sharefile-groups-api-openapi.yml
   format: yaml
   label: Citrix ShareFile Groups API
   slug: citrix-sharefile-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/openapi/citrix-sharefile-groups-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-sharefile/openapi/citrix-sharefile-groups-api-openapi.yml
 - filename: citrix-sharefile-items-api-openapi.yml
   format: yaml
   label: Citrix ShareFile Items API
   slug: citrix-sharefile-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/openapi/citrix-sharefile-items-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-sharefile/openapi/citrix-sharefile-items-api-openapi.yml
 - filename: citrix-sharefile-sessions-api-openapi.yml
   format: yaml
   label: Citrix ShareFile Sessions API
   slug: citrix-sharefile-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/openapi/citrix-sharefile-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-sharefile/openapi/citrix-sharefile-sessions-api-openapi.yml
 - filename: citrix-sharefile-shares-api-openapi.yml
   format: yaml
   label: Citrix ShareFile Shares API
   slug: citrix-sharefile-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/openapi/citrix-sharefile-shares-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-sharefile/openapi/citrix-sharefile-shares-api-openapi.yml
 - filename: citrix-sharefile-users-api-openapi.yml
   format: yaml
   label: Citrix ShareFile Users API
   slug: citrix-sharefile-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/openapi/citrix-sharefile-users-api-openapi.yml
+  url: https://artifacts.apis.io/citrix-sharefile/openapi/citrix-sharefile-users-api-openapi.yml
 consequence_counts:
   read: 13
   write: 11
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/citrix
   \ 3600\n    audit: none\n- path: /Groups({id})\n  method: patch\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Groups({id})\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Shares\n  method: get\n  operationId: getShares\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Shares\n  method: post\n  operationId: createShare\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Shares({id})\n  method: get\n  operationId: getShare\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Shares({id})\n  method: delete\n  operationId: deleteShare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Accounts\n  method: get\n  operationId: getCurrentAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/agentic-access/citrix-sharefile-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/citrix-sharefile/agentic-access/citrix-sharefile-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
 - File Sharing

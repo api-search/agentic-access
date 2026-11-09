@@ -9,13 +9,13 @@ api_specs:
   label: BetSolutions Player API
   slug: betsolutions-player-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/openapi/betsolutions-player-api-openapi.yml
+  url: https://artifacts.apis.io/betsolutions/openapi/betsolutions-player-api-openapi.yml
 - filename: betsolutions-transfer-wallet-api-openapi.yml
   format: yaml
   label: BetSolutions Transfer Wallet API
   slug: betsolutions-transfer-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/openapi/betsolutions-transfer-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/betsolutions/openapi/betsolutions-transfer-wallet-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 4
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/betsolutions-player-api-openapi.yml, openapi/betsolutions-transfer-wallet-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 4\n    acting: 2\n  by_consequence:\n    read: 4\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /game/list\n  method: post\n  operationId: getGameList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /player/info\n  method: post\n  operationId: getPlayerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /wallet/auth\n  method: get\n  operationId: authenticatePlayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/deposit\n  method: post\n  operationId: depositFunds\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/withdraw\n  method: post\n  operationId: withdrawFunds\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /wallet/balance\n  method: post\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/agentic-access/betsolutions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/betsolutions/agentic-access/betsolutions-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Betting

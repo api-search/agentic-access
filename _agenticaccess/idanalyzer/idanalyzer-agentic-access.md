@@ -9,55 +9,55 @@ api_specs:
   label: ID Analyzer Account API
   slug: idanalyzer-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-account-api-openapi.yml
+  url: https://artifacts.apis.io/idanalyzer/openapi/idanalyzer-account-api-openapi.yml
 - filename: idanalyzer-aml-api-openapi.yml
   format: yaml
   label: ID Analyzer AML API
   slug: idanalyzer-aml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-aml-api-openapi.yml
+  url: https://artifacts.apis.io/idanalyzer/openapi/idanalyzer-aml-api-openapi.yml
 - filename: idanalyzer-biometric-api-openapi.yml
   format: yaml
   label: ID Analyzer Biometric API
   slug: idanalyzer-biometric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-biometric-api-openapi.yml
+  url: https://artifacts.apis.io/idanalyzer/openapi/idanalyzer-biometric-api-openapi.yml
 - filename: idanalyzer-contract-api-openapi.yml
   format: yaml
   label: ID Analyzer Contract API
   slug: idanalyzer-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-contract-api-openapi.yml
+  url: https://artifacts.apis.io/idanalyzer/openapi/idanalyzer-contract-api-openapi.yml
 - filename: idanalyzer-docupass-api-openapi.yml
   format: yaml
   label: ID Analyzer Docupass API
   slug: idanalyzer-docupass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-docupass-api-openapi.yml
+  url: https://artifacts.apis.io/idanalyzer/openapi/idanalyzer-docupass-api-openapi.yml
 - filename: idanalyzer-profile-api-openapi.yml
   format: yaml
   label: ID Analyzer Profile API
   slug: idanalyzer-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-profile-api-openapi.yml
+  url: https://artifacts.apis.io/idanalyzer/openapi/idanalyzer-profile-api-openapi.yml
 - filename: idanalyzer-scanner-api-openapi.yml
   format: yaml
   label: ID Analyzer Scanner API
   slug: idanalyzer-scanner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-scanner-api-openapi.yml
+  url: https://artifacts.apis.io/idanalyzer/openapi/idanalyzer-scanner-api-openapi.yml
 - filename: idanalyzer-transaction-api-openapi.yml
   format: yaml
   label: ID Analyzer Transaction API
   slug: idanalyzer-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/idanalyzer/openapi/idanalyzer-transaction-api-openapi.yml
 - filename: idanalyzer-webhook-api-openapi.yml
   format: yaml
   label: ID Analyzer Webhook API
   slug: idanalyzer-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/openapi/idanalyzer-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/idanalyzer/openapi/idanalyzer-webhook-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/idanal
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile\n  method: post\n  operationId: createProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/{profileId}\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/{profileId}\n  method: put\n  operationId: updateProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/{profileId}\n\
   \  method: delete\n  operationId: deleteProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /export/profile/{profileId}\n  method: get\n  operationId: exportProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/{webhookId}\n  method: post\n  operationId: resendWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /myaccount\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/agentic-access/idanalyzer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/idanalyzer/agentic-access/idanalyzer-agentic-access.yml
 summary_line: 34 operations · 21 acting
 tags:
 - Identity Verification

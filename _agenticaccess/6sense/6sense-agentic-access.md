@@ -9,25 +9,25 @@ api_specs:
   label: 6sense Company API
   slug: 6sense-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-company-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-company-api-openapi.yml
 - filename: 6sense-enrichment-api-openapi.yml
   format: yaml
   label: 6sense Enrichment API
   slug: 6sense-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-enrichment-api-openapi.yml
 - filename: 6sense-people-api-openapi.yml
   format: yaml
   label: 6sense People API
   slug: 6sense-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-people-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-people-api-openapi.yml
 - filename: 6sense-scoring-api-openapi.yml
   format: yaml
   label: 6sense Scoring API
   slug: 6sense-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-scoring-api-openapi.yml
 consequence_counts:
   read: 11
   write: 5
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/6sense
   \    audit: none\n- path: /v1/company/validate_access/segments\n  method: get\n  operationId: validateSegment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/enrichment/people\n  method: post\n  operationId: enrichPeople\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/enrichment/company\n  method: post\n  operationId: companyFirmographics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/people/search\n\
   \  method: post\n  operationId: searchPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/people/search/dictionary\n  method: get\n  operationId: getSearchDictionary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/people/enrichment\n  method: post\n  operationId: getEnrichment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/people/score\n  method: post\n  operationId: getScore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/people/full\n  method: post\n  operationId: getScoreAndEnrichment\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/people\n  method: post\n  operationId: scoreV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/scoring/people\n  method: post\n  operationId: score\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/agentic-access/6sense-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/6sense/agentic-access/6sense-agentic-access.yml
 summary_line: 16 operations · 5 acting
 tags:
 - Account Based Marketing

@@ -8,37 +8,37 @@ api_specs:
   label: International Trade Administration Consolidated Screening List API
   slug: international-trade-administration-consolidated-screening-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-consolidated-screening-list-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-consolidated-screening-list-api-openapi.yml
 - filename: international-trade-administration-country-commercial-guides-api-openapi.yml
   format: yaml
   label: International Trade Administration Country Commercial Guides API
   slug: international-trade-administration-country-commercial-guides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-country-commercial-guides-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-country-commercial-guides-api-openapi.yml
 - filename: international-trade-administration-customs-tariff-api-openapi.yml
   format: yaml
   label: International Trade Administration Customs Tariff API
   slug: international-trade-administration-customs-tariff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-customs-tariff-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-customs-tariff-api-openapi.yml
 - filename: international-trade-administration-de-minimis-api-openapi.yml
   format: yaml
   label: International Trade Administration De Minimis API
   slug: international-trade-administration-de-minimis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-de-minimis-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-de-minimis-api-openapi.yml
 - filename: international-trade-administration-market-intelligence-api-openapi.yml
   format: yaml
   label: International Trade Administration Market Intelligence API
   slug: international-trade-administration-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-market-intelligence-api-openapi.yml
 - filename: international-trade-administration-trade-events-api-openapi.yml
   format: yaml
   label: International Trade Administration Trade Events API
   slug: international-trade-administration-trade-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/openapi/international-trade-administration-trade-events-api-openapi.yml
+  url: https://artifacts.apis.io/international-trade-administration/openapi/international-trade-administration-trade-events-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/international-trade-administration-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /consolidated_screening_list/v1/search\n  method: get\n  operationId: searchConsolidatedScreeningList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consolidated_screening_list/v1/sources\n  method: get\n  operationId: listScreeningSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /CCG/v2/search\n  method: get\n  operationId: searchCountryCommercialGuides\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market_intelligence/v1/search\n  method: get\n  operationId: searchMarketIntelligence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/v1/search\n  method: get\n  operationId: searchTradeEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customs_tariff/v1/search\n  method: get\n  operationId: searchCustomsTariff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /de_minimis/v1/search\n  method: get\n \
   \ operationId: searchDeMinimis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/agentic-access/international-trade-administration-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/international-trade-administration/agentic-access/international-trade-administration-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Compliance

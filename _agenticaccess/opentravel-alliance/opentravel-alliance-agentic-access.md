@@ -9,37 +9,37 @@ api_specs:
   label: OpenTravel Alliance Facilities API
   slug: opentravel-alliance-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-facilities-api-openapi.yml
 - filename: opentravel-alliance-hospitalityfindhospitalityavailability-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hospitality Find Hospitality Availability API
   slug: opentravel-alliance-hospitalityfindhospitalityavailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalityfindhospitalityavailability-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hospitalityfindhospitalityavailability-api-openapi.yml
 - filename: opentravel-alliance-hospitalityoffers-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hospitality Offers API
   slug: opentravel-alliance-hospitalityoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalityoffers-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hospitalityoffers-api-openapi.yml
 - filename: opentravel-alliance-hospitalitypropertyoffers-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hospitality Property Offers API
   slug: opentravel-alliance-hospitalitypropertyoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalitypropertyoffers-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hospitalitypropertyoffers-api-openapi.yml
 - filename: opentravel-alliance-hospitalityretrievefacilityavailability-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hospitality Retrieve Facility Availability API
   slug: opentravel-alliance-hospitalityretrievefacilityavailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalityretrievefacilityavailability-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hospitalityretrievefacilityavailability-api-openapi.yml
 - filename: opentravel-alliance-hoteldescriptivecontents-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hotel Descriptive Contents API
   slug: opentravel-alliance-hoteldescriptivecontents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hoteldescriptivecontents-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hoteldescriptivecontents-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/opentr
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Facilities/{Identifier}\n  method: get\n  operationId: Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /HospitalityFindHospitalityAvailability\n  method: post\n  operationId: FindHospitalityAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /HospitalityOffers\n  method: post\n  operationId: FindMultiPropertyOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /HospitalityPropertyOffers\n\
   \  method: post\n  operationId: FindSinglePropertyOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /HospitalityRetrieveFacilityAvailability\n  method: post\n  operationId: RetrieveHospitalityAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /HotelDescriptiveContents\n  method: get\n  operationId: Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /HotelDescriptiveContents/Notifications\n  method: post\n  operationId: Notification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /HotelDescriptiveContents/Query\n  method: post\n  operationId: Query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/agentic-access/opentravel-alliance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opentravel-alliance/agentic-access/opentravel-alliance-agentic-access.yml
 summary_line: 9 operations · 2 acting
 tags:
 - Travel

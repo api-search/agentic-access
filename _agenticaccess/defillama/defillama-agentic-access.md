@@ -8,37 +8,37 @@ api_specs:
   label: DefiLlama Coins API
   slug: defillama-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-coins-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-coins-api-openapi.yml
 - filename: defillama-fees-api-openapi.yml
   format: yaml
   label: DefiLlama Fees API
   slug: defillama-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-fees-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-fees-api-openapi.yml
 - filename: defillama-stablecoins-api-openapi.yml
   format: yaml
   label: DefiLlama Stablecoins API
   slug: defillama-stablecoins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-stablecoins-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-stablecoins-api-openapi.yml
 - filename: defillama-tvl-api-openapi.yml
   format: yaml
   label: DefiLlama TVL API
   slug: defillama-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-tvl-api-openapi.yml
 - filename: defillama-volumes-api-openapi.yml
   format: yaml
   label: DefiLlama Volumes API
   slug: defillama-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-volumes-api-openapi.yml
 - filename: defillama-yields-api-openapi.yml
   format: yaml
   label: DefiLlama Yields API
   slug: defillama-yields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/openapi/defillama-yields-api-openapi.yml
+  url: https://artifacts.apis.io/defillama/openapi/defillama-yields-api-openapi.yml
 consequence_counts:
   read: 31
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/defill
   \ getPoolChart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/dexs\n  method: get\n  operationId: overviewDexs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/dexs/{chain}\n  method: get\n  operationId: overviewDexsByChain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary/dexs/{protocol}\n  method: get\n  operationId: summaryDexsProtocol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/options\n  method: get\n  operationId: overviewOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/options/{chain}\n  method: get\n  operationId: overviewOptionsByChain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary/options/{protocol}\n  method: get\n  operationId: summaryOptionsProtocol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/open-interest\n  method: get\n  operationId: openInterestOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/fees\n  method: get\n  operationId: feesOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/fees/{chain}\n\
   \  method: get\n  operationId: feesOverviewByChain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary/fees/{protocol}\n  method: get\n  operationId: feesSummaryProtocol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/agentic-access/defillama-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/defillama/agentic-access/defillama-agentic-access.yml
 summary_line: 31 operations
 tags:
 - Web3

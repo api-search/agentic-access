@@ -9,97 +9,97 @@ api_specs:
   label: Stacklok Clients API
   slug: stacklok-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-clients-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-clients-api-openapi.yml
 - filename: stacklok-discovery-api-openapi.yml
   format: yaml
   label: Stacklok Discovery API
   slug: stacklok-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-discovery-api-openapi.yml
 - filename: stacklok-groups-api-openapi.yml
   format: yaml
   label: Stacklok Groups API
   slug: stacklok-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-groups-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-groups-api-openapi.yml
 - filename: stacklok-logs-api-openapi.yml
   format: yaml
   label: Stacklok Logs API
   slug: stacklok-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-logs-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-logs-api-openapi.yml
 - filename: stacklok-registry-api-openapi.yml
   format: yaml
   label: Stacklok Registry API
   slug: stacklok-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registry-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-registry-api-openapi.yml
 - filename: stacklok-registry-servers-api-openapi.yml
   format: yaml
   label: Stacklok Registry Servers API
   slug: stacklok-registry-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registry-servers-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-registry-servers-api-openapi.yml
 - filename: stacklok-registry-skills-api-openapi.yml
   format: yaml
   label: Stacklok Registry Skills API
   slug: stacklok-registry-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registry-skills-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-registry-skills-api-openapi.yml
 - filename: stacklok-secrets-api-openapi.yml
   format: yaml
   label: Stacklok Secrets API
   slug: stacklok-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-secrets-api-openapi.yml
 - filename: stacklok-skills-api-openapi.yml
   format: yaml
   label: Stacklok Skills API
   slug: stacklok-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-skills-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-skills-api-openapi.yml
 - filename: stacklok-system-api-openapi.yml
   format: yaml
   label: Stacklok System API
   slug: stacklok-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-system-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-system-api-openapi.yml
 - filename: stacklok-version-api-openapi.yml
   format: yaml
   label: Stacklok Version API
   slug: stacklok-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-version-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-version-api-openapi.yml
 - filename: stacklok-workloads-api-openapi.yml
   format: yaml
   label: Stacklok Workloads API
   slug: stacklok-workloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-workloads-api-openapi.yml
 - filename: stacklok-entries-api-openapi.yml
   format: yaml
   label: Stacklok Entries API
   slug: stacklok-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-entries-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-entries-api-openapi.yml
 - filename: stacklok-me-api-openapi.yml
   format: yaml
   label: Stacklok Me API
   slug: stacklok-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-me-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-me-api-openapi.yml
 - filename: stacklok-registries-api-openapi.yml
   format: yaml
   label: Stacklok Registries API
   slug: stacklok-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registries-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-registries-api-openapi.yml
 - filename: stacklok-sources-api-openapi.yml
   format: yaml
   label: Stacklok Sources API
   slug: stacklok-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-sources-api-openapi.yml
+  url: https://artifacts.apis.io/stacklok/openapi/stacklok-sources-api-openapi.yml
 consequence_counts:
   read: 45
   safety-critical: 8
@@ -192,7 +192,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/stackl
   \    audit: required\n- path: /api/v1beta/workloads/{name}/upgrade\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1beta/workloads/{name}/upgrade-check\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1beta/workloads/delete\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1beta/workloads/restart\n  method: post\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1beta/workloads/stop\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1beta/workloads/upgrade-check\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registry/{registryName}/v0.1/servers\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registry/{registryName}/v0.1/servers/{serverName}/versions/latest\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registry/{registryName}/v0.1/x/dev.toolhive/skills\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registry/{registryName}/v0.1/x/dev.toolhive/skills/{namespace}/{skillName}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/agentic-access/stacklok-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stacklok/agentic-access/stacklok-agentic-access.yml
 summary_line: 84 operations · 39 acting · 8 human-in-the-loop
 tags:
 - Company

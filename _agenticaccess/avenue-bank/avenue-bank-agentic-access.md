@@ -8,43 +8,43 @@ api_specs:
   label: Avenue Bank Banking Account Balances API
   slug: avenue-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-account-balances-api-openapi.yml
 - filename: avenue-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Account Direct Debits API
   slug: avenue-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-account-direct-debits-api-openapi.yml
 - filename: avenue-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Account Scheduled Payments API
   slug: avenue-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: avenue-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Account Transactions API
   slug: avenue-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-account-transactions-api-openapi.yml
 - filename: avenue-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Accounts API
   slug: avenue-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-accounts-api-openapi.yml
 - filename: avenue-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Payees API
   slug: avenue-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-payees-api-openapi.yml
 - filename: avenue-bank-banking-products-api-openapi.yml
   format: yaml
   label: Avenue Bank Banking Products API
   slug: avenue-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/openapi/avenue-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/avenue-bank/openapi/avenue-bank-banking-products-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts for the Consumer Data Standards Banking API surface. Every operation in this surface is a read (the POST 'For Specific Accounts' operations pass an account-id list in the request body but change no state), so all are classified connected/read. Products (PRD) operations are public/unauthenticated (subject optional); all other families require a consented consumer subject under the CDR ADR model. A governance starting point — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/avenue-
   \  method: get\n  operationId: listScheduledPaymentsBulk\n  summary: Get Scheduled Payments Bulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payments/scheduled\n  method: post\n  operationId: listScheduledPaymentsSpecificAccounts\n  summary: Get Scheduled Payments For Specific Accounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}/payments/plans\n  method: get\n  operationId: listInstalmentPlans\n  summary: Get Instalment Plans for Account\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/payments/plans\n  method: get\n  operationId: listInstalmentPlansBulk\n  summary: Get Instalment Plans Bulk\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payees\n  method: get\n  operationId: listBankingPayees\n  summary: Get Payees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payees/{payeeId}\n  method: get\n  operationId: getBankingPayeeDetail\n  summary: Get Payee Detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/products\n  method: get\n  operationId: listBankingProducts\n  summary: Get Products\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/products/{productId}\n  method: get\n  operationId: getBankingProductDetail\n  summary: Get Product Detail\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/agentic-access/avenue-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/avenue-bank/agentic-access/avenue-bank-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Finance

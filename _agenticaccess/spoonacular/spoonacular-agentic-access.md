@@ -9,43 +9,43 @@ api_specs:
   label: Spoonacular Ingredients API
   slug: spoonacular-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-ingredients-api-openapi.yml
 - filename: spoonacular-meal-planning-api-openapi.yml
   format: yaml
   label: Spoonacular Meal Planning API
   slug: spoonacular-meal-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-meal-planning-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-meal-planning-api-openapi.yml
 - filename: spoonacular-menu-items-api-openapi.yml
   format: yaml
   label: Spoonacular Menu Items API
   slug: spoonacular-menu-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-menu-items-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-menu-items-api-openapi.yml
 - filename: spoonacular-misc-api-openapi.yml
   format: yaml
   label: Spoonacular Misc API
   slug: spoonacular-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-misc-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-misc-api-openapi.yml
 - filename: spoonacular-products-api-openapi.yml
   format: yaml
   label: Spoonacular Products API
   slug: spoonacular-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-products-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-products-api-openapi.yml
 - filename: spoonacular-recipes-api-openapi.yml
   format: yaml
   label: Spoonacular Recipes API
   slug: spoonacular-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-recipes-api-openapi.yml
 - filename: spoonacular-wine-api-openapi.yml
   format: yaml
   label: Spoonacular Wine API
   slug: spoonacular-wine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-wine-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-wine-api-openapi.yml
 consequence_counts:
   read: 75
   write: 24
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spoona
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/detect\n  method: post\n  operationId: detectFoodInText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /food/site/search\n  method: get\n  operationId: searchSiteContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/search\n  method: get\n  operationId: searchAllFood\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/videos/search\n  method: get\n  operationId: searchFoodVideos\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/jokes/random\n  method: get\n  operationId: getARandomFoodJoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/trivia/random\n  method: get\n  operationId: getRandomFoodTrivia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/converse\n  method: get\n  operationId: talkToChatbot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/converse/suggest\n  method: get\n  operationId: getConversationSuggests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/agentic-access/spoonacular-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spoonacular/agentic-access/spoonacular-agentic-access.yml
 summary_line: 99 operations · 24 acting
 tags:
 - Restaurant

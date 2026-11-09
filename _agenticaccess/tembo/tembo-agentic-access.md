@@ -9,115 +9,115 @@ api_specs:
   label: Tembo Agents API
   slug: tembo-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-agents-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-agents-api-openapi.yml
 - filename: tembo-api-keys-api-openapi.yml
   format: yaml
   label: Tembo API Keys API
   slug: tembo-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-api-keys-api-openapi.yml
 - filename: tembo-artifacts-api-openapi.yml
   format: yaml
   label: Tembo Artifacts API
   slug: tembo-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-artifacts-api-openapi.yml
 - filename: tembo-authentication-api-openapi.yml
   format: yaml
   label: Tembo Authentication API
   slug: tembo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-authentication-api-openapi.yml
 - filename: tembo-billing-api-openapi.yml
   format: yaml
   label: Tembo Billing API
   slug: tembo-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-billing-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-billing-api-openapi.yml
 - filename: tembo-insights-api-openapi.yml
   format: yaml
   label: Tembo Insights API
   slug: tembo-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-insights-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-insights-api-openapi.yml
 - filename: tembo-integrations-api-openapi.yml
   format: yaml
   label: Tembo Integrations API
   slug: tembo-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-integrations-api-openapi.yml
 - filename: tembo-mcp-connections-api-openapi.yml
   format: yaml
   label: Tembo MCP Connections API
   slug: tembo-mcp-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-mcp-connections-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-mcp-connections-api-openapi.yml
 - filename: tembo-messages-api-openapi.yml
   format: yaml
   label: Tembo Messages API
   slug: tembo-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-messages-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-messages-api-openapi.yml
 - filename: tembo-models-api-openapi.yml
   format: yaml
   label: Tembo Models API
   slug: tembo-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-models-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-models-api-openapi.yml
 - filename: tembo-oauth-api-openapi.yml
   format: yaml
   label: Tembo OAuth API
   slug: tembo-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-oauth-api-openapi.yml
 - filename: tembo-organizations-api-openapi.yml
   format: yaml
   label: Tembo Organizations API
   slug: tembo-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-organizations-api-openapi.yml
 - filename: tembo-projects-api-openapi.yml
   format: yaml
   label: Tembo Projects API
   slug: tembo-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-projects-api-openapi.yml
 - filename: tembo-pull-requests-api-openapi.yml
   format: yaml
   label: Tembo Pull requests API
   slug: tembo-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-pull-requests-api-openapi.yml
 - filename: tembo-repositories-api-openapi.yml
   format: yaml
   label: Tembo Repositories API
   slug: tembo-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-repositories-api-openapi.yml
 - filename: tembo-runtimes-api-openapi.yml
   format: yaml
   label: Tembo Runtimes API
   slug: tembo-runtimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-runtimes-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-runtimes-api-openapi.yml
 - filename: tembo-sessions-api-openapi.yml
   format: yaml
   label: Tembo Sessions API
   slug: tembo-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-sessions-api-openapi.yml
 - filename: tembo-skills-api-openapi.yml
   format: yaml
   label: Tembo Skills API
   slug: tembo-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-skills-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-skills-api-openapi.yml
 - filename: tembo-users-api-openapi.yml
   format: yaml
   label: Tembo Users API
   slug: tembo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/openapi/tembo-users-api-openapi.yml
+  url: https://artifacts.apis.io/tembo/openapi/tembo-users-api-openapi.yml
 consequence_counts:
   read: 77
   safety-critical: 6
@@ -211,8 +211,8 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/tembo-
   - path: /v1/projects/{projectId}/builds/{buildId}/cancel\n  method: post\n  operationId: cancelProjectBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/schedules\n  method: get\n  operationId: listProjectSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectId}/schedules\n  method: post\n  operationId: createProjectSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/projects/{projectId}/schedules/{scheduleId}\n  method: get\n  operationId: retrieveProjectSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectId}/schedules/{scheduleId}\n  method: patch\n  operationId: updateProjectSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/schedules/{scheduleId}\n  method: delete\n  operationId: deleteProjectSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /v1/pull-requests\n  method: get\n  operationId: listPullRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pull-requests/{pullRequestId}\n  method: get\n  operationId: retrievePullRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agents\n  method: get\n  operationId: listAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agents\n  method: post\n  operationId: createAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/agentic-access/tembo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tembo/refs/heads/main/agentic-access/tembo-agentic-access.yml
+  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://artifacts.apis.io/tembo/agentic-access/tembo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/tembo/agentic-access/tembo-agentic-access.yml
 summary_line: 152 operations · 75 acting · 6 human-in-the-loop
 tags:
 - Company

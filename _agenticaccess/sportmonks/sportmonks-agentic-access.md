@@ -14,61 +14,61 @@ api_specs:
   label: Sportmonks Fixtures API
   slug: sportmonks-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-fixtures-api-openapi.yml
 - filename: sportmonks-leagues-api-openapi.yml
   format: yaml
   label: Sportmonks Leagues API
   slug: sportmonks-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-leagues-api-openapi.yml
 - filename: sportmonks-livescores-api-openapi.yml
   format: yaml
   label: Sportmonks Livescores API
   slug: sportmonks-livescores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-livescores-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-livescores-api-openapi.yml
 - filename: sportmonks-odds-api-openapi.yml
   format: yaml
   label: Sportmonks Odds API
   slug: sportmonks-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-odds-api-openapi.yml
 - filename: sportmonks-players-api-openapi.yml
   format: yaml
   label: Sportmonks Players API
   slug: sportmonks-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-players-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-players-api-openapi.yml
 - filename: sportmonks-predictions-api-openapi.yml
   format: yaml
   label: Sportmonks Predictions API
   slug: sportmonks-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-predictions-api-openapi.yml
 - filename: sportmonks-schedules-api-openapi.yml
   format: yaml
   label: Sportmonks Schedules API
   slug: sportmonks-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-schedules-api-openapi.yml
 - filename: sportmonks-seasons-api-openapi.yml
   format: yaml
   label: Sportmonks Seasons API
   slug: sportmonks-seasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-seasons-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-seasons-api-openapi.yml
 - filename: sportmonks-standings-api-openapi.yml
   format: yaml
   label: Sportmonks Standings API
   slug: sportmonks-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-standings-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-standings-api-openapi.yml
 - filename: sportmonks-teams-api-openapi.yml
   format: yaml
   label: Sportmonks Teams API
   slug: sportmonks-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sportmonks/openapi/sportmonks-teams-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -98,12 +98,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sportm
   - path: /seasons\n  method: get\n  operationId: listSeasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /standings/seasons/{seasonId}\n  method: get\n  operationId: getStandingsBySeason\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /players\n  method: get\n  operationId: listPlayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /players/{id}\n  method: get\n  operationId: getPlayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /predictions/probabilities/fixtures/{fixtureId}\n  method: get\n  operationId: getPredictionByFixture\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odds/pre-match/fixtures/{fixtureId}\n  method: get\n  operationId: getPreMatchOddsByFixture\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odds/inplay/fixtures/{fixtureId}\n  method: get\n  operationId: getInplayOddsByFixture\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /schedules/seasons/{seasonId}\n  method: get\n  operationId: getScheduleBySeason\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/agentic-access/sportmonks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sportmonks/agentic-access/sportmonks-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Cricket
 - Data
-- Developer-Friendly
 - Football
 - Formula 1
 - Live Scores

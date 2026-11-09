@@ -9,151 +9,151 @@ api_specs:
   label: Tink Accounts API
   slug: tink-com-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-accounts-api-openapi.yml
 - filename: tink-com-accountverificationreports-api-openapi.yml
   format: yaml
   label: Tink AccountVerificationReports API
   slug: tink-com-accountverificationreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-accountverificationreports-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-accountverificationreports-api-openapi.yml
 - filename: tink-com-balancerefresh-api-openapi.yml
   format: yaml
   label: Tink BalanceRefresh API
   slug: tink-com-balancerefresh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-balancerefresh-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-balancerefresh-api-openapi.yml
 - filename: tink-com-budgets-api-openapi.yml
   format: yaml
   label: Tink Budgets API
   slug: tink-com-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-budgets-api-openapi.yml
 - filename: tink-com-businessaccountverificationreports-api-openapi.yml
   format: yaml
   label: Tink BusinessAccountVerificationReports API
   slug: tink-com-businessaccountverificationreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-businessaccountverificationreports-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-businessaccountverificationreports-api-openapi.yml
 - filename: tink-com-categories-api-openapi.yml
   format: yaml
   label: Tink Categories API
   slug: tink-com-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-categories-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-categories-api-openapi.yml
 - filename: tink-com-connectoraccounts-api-openapi.yml
   format: yaml
   label: Tink ConnectorAccounts API
   slug: tink-com-connectoraccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-connectoraccounts-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-connectoraccounts-api-openapi.yml
 - filename: tink-com-connectortransactions-api-openapi.yml
   format: yaml
   label: Tink ConnectorTransactions API
   slug: tink-com-connectortransactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-connectortransactions-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-connectortransactions-api-openapi.yml
 - filename: tink-com-enrichedtransactions-api-openapi.yml
   format: yaml
   label: Tink EnrichedTransactions API
   slug: tink-com-enrichedtransactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-enrichedtransactions-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-enrichedtransactions-api-openapi.yml
 - filename: tink-com-expensechecks-api-openapi.yml
   format: yaml
   label: Tink ExpenseChecks API
   slug: tink-com-expensechecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-expensechecks-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-expensechecks-api-openapi.yml
 - filename: tink-com-financialcalendar-api-openapi.yml
   format: yaml
   label: Tink FinancialCalendar API
   slug: tink-com-financialcalendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-financialcalendar-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-financialcalendar-api-openapi.yml
 - filename: tink-com-identities-api-openapi.yml
   format: yaml
   label: Tink Identities API
   slug: tink-com-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-identities-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-identities-api-openapi.yml
 - filename: tink-com-incomechecks-api-openapi.yml
   format: yaml
   label: Tink IncomeChecks API
   slug: tink-com-incomechecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-incomechecks-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-incomechecks-api-openapi.yml
 - filename: tink-com-investments-api-openapi.yml
   format: yaml
   label: Tink Investments API
   slug: tink-com-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-investments-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-investments-api-openapi.yml
 - filename: tink-com-loans-api-openapi.yml
   format: yaml
   label: Tink Loans API
   slug: tink-com-loans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-loans-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-loans-api-openapi.yml
 - filename: tink-com-mandates-api-openapi.yml
   format: yaml
   label: Tink Mandates API
   slug: tink-com-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-mandates-api-openapi.yml
 - filename: tink-com-payments-api-openapi.yml
   format: yaml
   label: Tink Payments API
   slug: tink-com-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-payments-api-openapi.yml
 - filename: tink-com-recurringtransactions-api-openapi.yml
   format: yaml
   label: Tink RecurringTransactions API
   slug: tink-com-recurringtransactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-recurringtransactions-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-recurringtransactions-api-openapi.yml
 - filename: tink-com-riskcategorisation-api-openapi.yml
   format: yaml
   label: Tink RiskCategorisation API
   slug: tink-com-riskcategorisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-riskcategorisation-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-riskcategorisation-api-openapi.yml
 - filename: tink-com-riskinsights-api-openapi.yml
   format: yaml
   label: Tink RiskInsights API
   slug: tink-com-riskinsights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-riskinsights-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-riskinsights-api-openapi.yml
 - filename: tink-com-transactions-api-openapi.yml
   format: yaml
   label: Tink Transactions API
   slug: tink-com-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-transactions-api-openapi.yml
 - filename: tink-com-user-api-openapi.yml
   format: yaml
   label: Tink User API
   slug: tink-com-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-user-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-user-api-openapi.yml
 - filename: tink-com-oauth-api-openapi.yml
   format: yaml
   label: Tink O Auth API
   slug: tink-com-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-oauth-api-openapi.yml
 - filename: tink-com-cash-flow-api-openapi.yml
   format: yaml
   label: Tink Cash Flow API
   slug: tink-com-cash-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-cash-flow-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-cash-flow-api-openapi.yml
 - filename: tink-com-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Tink Webhook Endpoints API
   slug: tink-com-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/tink-com/openapi/tink-com-webhook-endpoints-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 38
@@ -229,7 +229,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tink-a
   \    audit: required\n- path: /v2/income-checks/{report_id}\n  method: get\n  operationId: getIncomeCheckReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/income-checks/{report_id}:generate-pdf\n  method: get\n  operationId: generateIncomeCheckPdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk/v1/expense-checks/{report_id}\n  method: get\n  operationId: getExpenseCheckReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk/v1/risk-insights/{report_id}\n  method: get\n  operationId: getRiskInsightsReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /risk/v2/risk-categorisation/reports/{report_id}\n  method: get\n  operationId: getRiskCategorisationReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/v2/webhook-endpoints\n  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/v2/webhook-endpoints\n  method: get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/v2/webhook-endpoints/{endpointId}\n  method: get\n  operationId: getWebhookEndpoint\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/v2/webhook-endpoints/{endpointId}\n  method: patch\n  operationId: updateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/v2/webhook-endpoints/{endpointId}\n  method: delete\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/agentic-access/tink-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tink-com/agentic-access/tink-com-agentic-access.yml
 summary_line: 63 operations · 25 acting · 1 human-in-the-loop
 tags:
 - Open Banking

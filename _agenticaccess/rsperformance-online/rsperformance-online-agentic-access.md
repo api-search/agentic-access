@@ -8,13 +8,13 @@ api_specs:
   label: RS Performance Search API
   slug: rsperformance-online-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-search-api-openapi.yml
+  url: https://artifacts.apis.io/rsperformance-online/openapi/rsperformance-online-search-api-openapi.yml
 - filename: rsperformance-online-well-known-api-openapi.yml
   format: yaml
   label: RS Performance .well Known API
   slug: rsperformance-online-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/rsperformance-online/openapi/rsperformance-online-well-known-api-openapi.yml
 consequence_counts:
   read: 3
 description: 'Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/. Curated 2026-09-19: all three operations are reads; the surface has no write, so no human-in-the-loop trigger applies. Note the provider''s OTHER agent surfaces do have writes outside this OpenAPI — A2A message/send creates a task and the MCP tools write_intake_note and diagnostic_ingest_brand_knowledge write to the provider''s store (see mcp/ and conventions/).'
@@ -42,7 +42,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/rsperformance-online-ai-gateway-openapi.yml (heuristic classification by derive-agentic-access.py,\n  then curated against the OpenAPI operation descriptions and the live probe on 2026-09-19)\ndescription: 'Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance\n  starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.\n  Curated 2026-09-19: all three operations are reads; the surface has no write, so no human-in-the-loop trigger\n  applies. Note the provider''s OTHER agent surfaces do have writes outside this OpenAPI — A2A message/send creates\n  a task and the MCP tools write_intake_note and diagnostic_ingest_brand_knowledge write to the provider''s store\n  (see mcp/ and conventions/).'\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required:\
   \ 0\noperations:\n- path: /api/search\n  method: post\n  operationId: semanticSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    audience: null\n    token:\n      max-ttl: 3600\n    escalation:\n      human-in-the-loop: none\n      triggers: []\n    audit: recommended\n  x-curation-note: Reclassified from acting/write to connected/read. The heuristic keyed on the POST verb, but the\n    provider's OpenAPI describes the operation as retrieval ('Runs answer-first retrieval across services, symptom\n    pages, DTC references, repair reports, and editorial content'), its request body carries only a query and a\n    limit, and the live call created no resource. It is a POST-shaped read.\n- path: /.well-known/freshness.json\n  method: get\n  operationId: gatewayFreshness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/answer-routing.json\n\
   \  method: get\n  operationId: gatewayAnswerRouting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/agentic-access/rsperformance-online-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rsperformance-online/agentic-access/rsperformance-online-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Automotive

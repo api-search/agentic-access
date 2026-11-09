@@ -8,55 +8,55 @@ api_specs:
   label: Jefferson Health Endpoint API
   slug: jefferson-health-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-endpoint-api-openapi.yml
 - filename: jefferson-health-location-api-openapi.yml
   format: yaml
   label: Jefferson Health Location API
   slug: jefferson-health-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-location-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-location-api-openapi.yml
 - filename: jefferson-health-organization-api-openapi.yml
   format: yaml
   label: Jefferson Health Organization API
   slug: jefferson-health-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-organization-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-organization-api-openapi.yml
 - filename: jefferson-health-practitioner-api-openapi.yml
   format: yaml
   label: Jefferson Health Practitioner API
   slug: jefferson-health-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-practitioner-api-openapi.yml
 - filename: jefferson-health-organizationaffiliation-api-openapi.yml
   format: yaml
   label: Jefferson Health Organization Affiliation API
   slug: jefferson-health-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-organizationaffiliation-api-openapi.yml
 - filename: jefferson-health-system-level-operations-api-openapi.yml
   format: yaml
   label: Jefferson Health System Level Operations API
   slug: jefferson-health-system-level-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-system-level-operations-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-system-level-operations-api-openapi.yml
 - filename: jefferson-health-healthcare-service-api-openapi.yml
   format: yaml
   label: Jefferson Health Healthcare Service API
   slug: jefferson-health-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-healthcare-service-api-openapi.yml
 - filename: jefferson-health-insurance-plan-api-openapi.yml
   format: yaml
   label: Jefferson Health Insurance Plan API
   slug: jefferson-health-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-insurance-plan-api-openapi.yml
 - filename: jefferson-health-practitioner-role-api-openapi.yml
   format: yaml
   label: Jefferson Health Practitioner Role API
   slug: jefferson-health-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-practitioner-role-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jeffer
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - fhirUser\n    - launch\n    - offline_access\n    - openid\n    - patient/AllergyIntolerance.read\n    - patient/Condition.read\n    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /MedicationRequest\n  method: get\n  operationId: searchMedicationRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - fhirUser\n    - launch\n    - offline_access\n    - openid\n    - patient/AllergyIntolerance.read\n    - patient/Condition.read\n    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n    - patient/Observation.read\n    - patient/Patient.read\n\
   - path: /AllergyIntolerance\n  method: get\n  operationId: searchAllergyIntolerance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - fhirUser\n    - launch\n    - offline_access\n    - openid\n    - patient/AllergyIntolerance.read\n    - patient/Condition.read\n    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /DocumentReference\n  method: get\n  operationId: searchDocumentReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - fhirUser\n    - launch\n    - offline_access\n    - openid\n    - patient/AllergyIntolerance.read\n    - patient/Condition.read\n    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n\
   \    - patient/Observation.read\n    - patient/Patient.read\n- path: /Group/{id}/$export\n  method: get\n  operationId: bulkExportGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - fhirUser\n    - launch\n    - offline_access\n    - openid\n    - patient/AllergyIntolerance.read\n    - patient/Condition.read\n    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n    - patient/Observation.read\n    - patient/Patient.read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/agentic-access/jefferson-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jefferson-health/agentic-access/jefferson-health-agentic-access.yml
 summary_line: 21 operations
 tags:
 - Academic Medical Center
@@ -104,10 +104,11 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- Authentication
+- OAuth
 - Patient Access
 - Provider Directory
 - SMART on FHIR
 - US Core
 - USCDI
+- Authentication
 ---

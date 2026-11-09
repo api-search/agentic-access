@@ -9,109 +9,109 @@ api_specs:
   label: Screenpipe Activity API
   slug: screenpipe-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-activity-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-activity-api-openapi.yml
 - filename: screenpipe-audio-api-openapi.yml
   format: yaml
   label: Screenpipe Audio API
   slug: screenpipe-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-audio-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-audio-api-openapi.yml
 - filename: screenpipe-cloud-archive-api-openapi.yml
   format: yaml
   label: Screenpipe Cloud Archive API
   slug: screenpipe-cloud-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-cloud-archive-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-cloud-archive-api-openapi.yml
 - filename: screenpipe-cloud-sync-api-openapi.yml
   format: yaml
   label: Screenpipe Cloud Sync API
   slug: screenpipe-cloud-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-cloud-sync-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-cloud-sync-api-openapi.yml
 - filename: screenpipe-data-management-api-openapi.yml
   format: yaml
   label: Screenpipe Data Management API
   slug: screenpipe-data-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-data-management-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-data-management-api-openapi.yml
 - filename: screenpipe-data-retention-api-openapi.yml
   format: yaml
   label: Screenpipe Data Retention API
   slug: screenpipe-data-retention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-data-retention-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-data-retention-api-openapi.yml
 - filename: screenpipe-database-api-openapi.yml
   format: yaml
   label: Screenpipe Database API
   slug: screenpipe-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-database-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-database-api-openapi.yml
 - filename: screenpipe-elements-api-openapi.yml
   format: yaml
   label: Screenpipe Elements API
   slug: screenpipe-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-elements-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-elements-api-openapi.yml
 - filename: screenpipe-experimental-api-openapi.yml
   format: yaml
   label: Screenpipe Experimental API
   slug: screenpipe-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-experimental-api-openapi.yml
 - filename: screenpipe-frames-api-openapi.yml
   format: yaml
   label: Screenpipe Frames API
   slug: screenpipe-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-frames-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-frames-api-openapi.yml
 - filename: screenpipe-meetings-api-openapi.yml
   format: yaml
   label: Screenpipe Meetings API
   slug: screenpipe-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-meetings-api-openapi.yml
 - filename: screenpipe-memories-api-openapi.yml
   format: yaml
   label: Screenpipe Memories API
   slug: screenpipe-memories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-memories-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-memories-api-openapi.yml
 - filename: screenpipe-search-api-openapi.yml
   format: yaml
   label: Screenpipe Search API
   slug: screenpipe-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-search-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-search-api-openapi.yml
 - filename: screenpipe-speakers-api-openapi.yml
   format: yaml
   label: Screenpipe Speakers API
   slug: screenpipe-speakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-speakers-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-speakers-api-openapi.yml
 - filename: screenpipe-system-api-openapi.yml
   format: yaml
   label: Screenpipe System API
   slug: screenpipe-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-system-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-system-api-openapi.yml
 - filename: screenpipe-tags-api-openapi.yml
   format: yaml
   label: Screenpipe Tags API
   slug: screenpipe-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-tags-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-tags-api-openapi.yml
 - filename: screenpipe-vault-api-openapi.yml
   format: yaml
   label: Screenpipe Vault API
   slug: screenpipe-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-vault-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-vault-api-openapi.yml
 - filename: screenpipe-vision-api-openapi.yml
   format: yaml
   label: Screenpipe Vision API
   slug: screenpipe-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/openapi/screenpipe-vision-api-openapi.yml
+  url: https://artifacts.apis.io/screenpipe/openapi/screenpipe-vision-api-openapi.yml
 consequence_counts:
   read: 29
   safety-critical: 3
@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/screen
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/vision/batch\n  method: post\n  operationId: routes_content_get_tags_batch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{content_type}/{id}\n  method: post\n  operationId: routes_content_add_tags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{content_type}/{id}\n  method: delete\n  operationId: routes_content_remove_tags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vault/status\n  method: get\n  operationId: routes_vault_vault_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vault/lock\n  method: post\n  operationId: routes_vault_vault_lock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vault/unlock\n  method: post\n  operationId: routes_vault_vault_unlock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /vault/setup\n  method: post\n  operationId: routes_vault_vault_setup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vision/list\n  method: get\n  operationId: routes_health_api_list_monitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/agentic-access/screenpipe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/screenpipe/agentic-access/screenpipe-agentic-access.yml
 summary_line: 71 operations · 42 acting · 3 human-in-the-loop
 tags:
 - Company

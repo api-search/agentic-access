@@ -9,25 +9,25 @@ api_specs:
   label: Sendbird Channels API
   slug: sendbird-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-channels-api-openapi.yml
+  url: https://artifacts.apis.io/sendbird/openapi/sendbird-channels-api-openapi.yml
 - filename: sendbird-messages-api-openapi.yml
   format: yaml
   label: Sendbird Messages API
   slug: sendbird-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-messages-api-openapi.yml
+  url: https://artifacts.apis.io/sendbird/openapi/sendbird-messages-api-openapi.yml
 - filename: sendbird-moderation-api-openapi.yml
   format: yaml
   label: Sendbird Moderation API
   slug: sendbird-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/sendbird/openapi/sendbird-moderation-api-openapi.yml
 - filename: sendbird-users-api-openapi.yml
   format: yaml
   label: Sendbird Users API
   slug: sendbird-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-users-api-openapi.yml
+  url: https://artifacts.apis.io/sendbird/openapi/sendbird-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sendbi
   \ /group_channels\n  method: get\n  operationId: listGroupChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /group_channels\n  method: post\n  operationId: createGroupChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /group_channels/{channel_url}\n  method: get\n  operationId: getGroupChannel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /group_channels/{channel_url}\n  method: delete\n  operationId: deleteGroupChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /group_channels/{channel_url}/messages\n  method: get\n  operationId: listMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /group_channels/{channel_url}/messages\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/ban\n  method: post\n  operationId: banUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/mute\n  method: post\n  operationId: muteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/agentic-access/sendbird-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sendbird/agentic-access/sendbird-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Customer Service

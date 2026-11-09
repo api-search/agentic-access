@@ -8,31 +8,31 @@ api_specs:
   label: Quarkus Dev UI API
   slug: quarkus-dev-ui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-dev-ui-api-openapi.yml
+  url: https://artifacts.apis.io/quarkus/openapi/quarkus-dev-ui-api-openapi.yml
 - filename: quarkus-health-api-openapi.yml
   format: yaml
   label: Quarkus Health API
   slug: quarkus-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-health-api-openapi.yml
+  url: https://artifacts.apis.io/quarkus/openapi/quarkus-health-api-openapi.yml
 - filename: quarkus-info-api-openapi.yml
   format: yaml
   label: Quarkus Info API
   slug: quarkus-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-info-api-openapi.yml
+  url: https://artifacts.apis.io/quarkus/openapi/quarkus-info-api-openapi.yml
 - filename: quarkus-metrics-api-openapi.yml
   format: yaml
   label: Quarkus Metrics API
   slug: quarkus-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/quarkus/openapi/quarkus-metrics-api-openapi.yml
 - filename: quarkus-open-api-api-openapi.yml
   format: yaml
   label: Quarkus Open API
   slug: quarkus-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/quarkus/openapi/quarkus-open-api-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quarkus-dev-ui-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /q/health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /q/health/live\n  method: get\n  operationId: getLiveness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /q/health/ready\n  method: get\n  operationId: getReadiness\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /q/health/started\n  method: get\n  operationId: getStartup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /q/metrics\n  method: get\n  operationId: getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /q/openapi\n  method: get\n  operationId: getOpenAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /q/swagger-ui\n  method: get\n  operationId: getSwaggerUI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /q/info\n  method: get\n\
   \  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /q/dev-ui\n  method: get\n  operationId: getDevUI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/agentic-access/quarkus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quarkus/agentic-access/quarkus-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Cloud-Native

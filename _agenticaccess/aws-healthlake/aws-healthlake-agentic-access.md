@@ -9,25 +9,43 @@ api_specs:
   label: AWS HealthLake Datastore API
   slug: aws-healthlake-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/openapi/aws-healthlake-datastore-api-openapi.yml
+  url: https://artifacts.apis.io/aws-healthlake/openapi/aws-healthlake-datastore-api-openapi.yml
 - filename: aws-healthlake-export-api-openapi.yml
   format: yaml
   label: AWS HealthLake Export API
   slug: aws-healthlake-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/openapi/aws-healthlake-export-api-openapi.yml
+  url: https://artifacts.apis.io/aws-healthlake/openapi/aws-healthlake-export-api-openapi.yml
 - filename: aws-healthlake-import-api-openapi.yml
   format: yaml
   label: AWS HealthLake Import API
   slug: aws-healthlake-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/openapi/aws-healthlake-import-api-openapi.yml
+  url: https://artifacts.apis.io/aws-healthlake/openapi/aws-healthlake-import-api-openapi.yml
 - filename: aws-healthlake-tags-api-openapi.yml
   format: yaml
   label: AWS HealthLake Tags API
   slug: aws-healthlake-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/openapi/aws-healthlake-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-healthlake/openapi/aws-healthlake-tags-api-openapi.yml
+- filename: aws-healthlake-data-transformation-job-api-openapi.yml
+  format: yaml
+  label: AWS HealthLake Healthlake Data Transformation Job API
+  slug: aws-healthlake-data-transformation-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-healthlake/openapi/aws-healthlake-data-transformation-job-api-openapi.yml
+- filename: aws-healthlake-data-transformation-profile-api-openapi.yml
+  format: yaml
+  label: AWS HealthLake Healthlake Data Transformation Profile API
+  slug: aws-healthlake-data-transformation-profile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-healthlake/openapi/aws-healthlake-data-transformation-profile-api-openapi.yml
+- filename: aws-healthlake-operations-api-openapi.yml
+  format: yaml
+  label: AWS HealthLake Healthlake Operations API
+  slug: aws-healthlake-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-healthlake/openapi/aws-healthlake-operations-api-openapi.yml
 consequence_counts:
   read: 3
   write: 10
@@ -59,7 +77,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aws-he
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=HealthLake.DescribeFHIRImportJob\n  method: post\n  operationId: describeFHIRImportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=HealthLake.ListFHIRImportJobs\n  method: post\n  operationId: listFHIRImportJobs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=HealthLake.StartFHIRImportJob\n  method: post\n  operationId: startFHIRImportJob\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=HealthLake.ListTagsForResource\n  method: post\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=HealthLake.TagResource\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=HealthLake.UntagResource\n  method: post\n  operationId: untagResource\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/agentic-access/aws-healthlake-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-healthlake/agentic-access/aws-healthlake-agentic-access.yml
 summary_line: 13 operations · 10 acting
 tags:
 - Healthcare
@@ -71,4 +89,5 @@ tags:
 - Natural Language Processing
 - Medical
 - HL7
+- Amazon Web Services
 ---

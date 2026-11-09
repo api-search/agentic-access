@@ -8,19 +8,19 @@ api_specs:
   label: Independence Blue Cross Formulary API
   slug: independence-blue-cross-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/independence-blue-cross-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/independence-blue-cross/openapi/independence-blue-cross-formulary-api-openapi.yml
 - filename: independence-blue-cross-patient-access-api-openapi.yml
   format: yaml
   label: Independence Blue Cross Patient Access API
   slug: independence-blue-cross-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/independence-blue-cross-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/independence-blue-cross/openapi/independence-blue-cross-patient-access-api-openapi.yml
 - filename: independence-blue-cross-provider-directory-api-openapi.yml
   format: yaml
   label: Independence Blue Cross Provider Directory API
   slug: independence-blue-cross-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/independence-blue-cross-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/independence-blue-cross/openapi/independence-blue-cross-provider-directory-api-openapi.yml
 consequence_counts:
   read: 60
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/indepe
   \ get_HealthcareService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /HealthcareService/{rid}\n  method: get\n  operationId: get_HealthcareService_rid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OrganizationAffiliation\n  method: get\n  operationId: get_OrganizationAffiliation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OrganizationAffiliation/{rid}\n  method: get\n  operationId: get_OrganizationAffiliation_rid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Organization\n  method: get\n  operationId: get_Organization\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Organization/{rid}\n  method: get\n  operationId: get_Organization_rid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PractitionerRole\n  method: get\n  operationId: get_PractitionerRole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PractitionerRole/{rid}\n  method: get\n  operationId: get_PractitionerRole_rid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Endpoint\n  method: get\n  operationId: get_Endpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /Endpoint/{rid}\n  method: get\n  operationId: get_Endpoint_rid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/agentic-access/independence-blue-cross-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/independence-blue-cross/agentic-access/independence-blue-cross-agentic-access.yml
 summary_line: 60 operations
 tags:
 - Healthcare

@@ -9,97 +9,97 @@ api_specs:
   label: Direct Hire Agents API
   slug: directhireagents-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-agents-api-openapi.yml
 - filename: directhireagents-com-contracts-api-openapi.yml
   format: yaml
   label: Direct Hire Contracts API
   slug: directhireagents-com-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-contracts-api-openapi.yml
 - filename: directhireagents-com-conversations-api-openapi.yml
   format: yaml
   label: Direct Hire Conversations API
   slug: directhireagents-com-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-conversations-api-openapi.yml
 - filename: directhireagents-com-deliveries-api-openapi.yml
   format: yaml
   label: Direct Hire Deliveries API
   slug: directhireagents-com-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-deliveries-api-openapi.yml
 - filename: directhireagents-com-directory-api-openapi.yml
   format: yaml
   label: Direct Hire Directory API
   slug: directhireagents-com-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-directory-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-directory-api-openapi.yml
 - filename: directhireagents-com-feed-api-openapi.yml
   format: yaml
   label: Direct Hire Feed API
   slug: directhireagents-com-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-feed-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-feed-api-openapi.yml
 - filename: directhireagents-com-hire-offers-api-openapi.yml
   format: yaml
   label: Direct Hire Hire Offers API
   slug: directhireagents-com-hire-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-hire-offers-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-hire-offers-api-openapi.yml
 - filename: directhireagents-com-jobs-api-openapi.yml
   format: yaml
   label: Direct Hire Jobs API
   slug: directhireagents-com-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-jobs-api-openapi.yml
 - filename: directhireagents-com-network-api-openapi.yml
   format: yaml
   label: Direct Hire Network API
   slug: directhireagents-com-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-network-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-network-api-openapi.yml
 - filename: directhireagents-com-onboarding-api-openapi.yml
   format: yaml
   label: Direct Hire Onboarding API
   slug: directhireagents-com-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-onboarding-api-openapi.yml
 - filename: directhireagents-com-organization-invites-api-openapi.yml
   format: yaml
   label: Direct Hire Organization Invites API
   slug: directhireagents-com-organization-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-organization-invites-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-organization-invites-api-openapi.yml
 - filename: directhireagents-com-organizations-api-openapi.yml
   format: yaml
   label: Direct Hire Organizations API
   slug: directhireagents-com-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-organizations-api-openapi.yml
 - filename: directhireagents-com-search-api-openapi.yml
   format: yaml
   label: Direct Hire Search API
   slug: directhireagents-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-search-api-openapi.yml
 - filename: directhireagents-com-session-api-openapi.yml
   format: yaml
   label: Direct Hire Session API
   slug: directhireagents-com-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-session-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-session-api-openapi.yml
 - filename: directhireagents-com-signed-request-spec-api-openapi.yml
   format: yaml
   label: Direct Hire Signed Request Spec API
   slug: directhireagents-com-signed-request-spec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-signed-request-spec-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-signed-request-spec-api-openapi.yml
 - filename: directhireagents-com-well-known-api-openapi.yml
   format: yaml
   label: Direct Hire .well Known API
   slug: directhireagents-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/openapi/directhireagents-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/directhireagents-com/openapi/directhireagents-com-well-known-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 35
@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/direct
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{id}/members/{agentId}\n  method: delete\n  operationId: deleteOrganizationsByIdMembersByAgentId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{id}/invites\n  method: post\n  operationId: postOrganizationsByIdInvites\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{id}/jobs\n  method: get\n  operationId: getOrganizationsByIdJobs\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{id}/jobs/{jobId}\n  method: post\n  operationId: postOrganizationsByIdJobsByJobId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{id}/jobs/{jobId}\n  method: delete\n  operationId: deleteOrganizationsByIdJobsByJobId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search\n  method: get\n  operationId: getSearch\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signed-request-spec\n  method: get\n  operationId: getSignedRequestSpec\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/agent-acquisition.json\n  method: get\n  operationId: getWellKnownAgentAcquisitionJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/directhireagents-com/refs/heads/main/agentic-access/directhireagents-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/directhireagents-com/agentic-access/directhireagents-com-agentic-access.yml
 summary_line: 68 operations · 33 acting · 3 human-in-the-loop
 tags:
 - Company

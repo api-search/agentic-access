@@ -9,43 +9,43 @@ api_specs:
   label: EmailConnect by XADI API v1 - Emails API
   slug: emailconnect-api-v1-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/openapi/emailconnect-api-v1-emails-api-openapi.yml
+  url: https://artifacts.apis.io/emailconnect/openapi/emailconnect-api-v1-emails-api-openapi.yml
 - filename: emailconnect-api-v1-logs-api-openapi.yml
   format: yaml
   label: EmailConnect by XADI API v1 - Logs API
   slug: emailconnect-api-v1-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/openapi/emailconnect-api-v1-logs-api-openapi.yml
+  url: https://artifacts.apis.io/emailconnect/openapi/emailconnect-api-v1-logs-api-openapi.yml
 - filename: emailconnect-api-v1-metrics-api-openapi.yml
   format: yaml
   label: EmailConnect by XADI API v1 - Metrics API
   slug: emailconnect-api-v1-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/openapi/emailconnect-api-v1-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/emailconnect/openapi/emailconnect-api-v1-metrics-api-openapi.yml
 - filename: emailconnect-user-aliases-api-openapi.yml
   format: yaml
   label: EmailConnect by XADI User Aliases API
   slug: emailconnect-user-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/openapi/emailconnect-user-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/emailconnect/openapi/emailconnect-user-aliases-api-openapi.yml
 - filename: emailconnect-user-domains-api-openapi.yml
   format: yaml
   label: EmailConnect by XADI User Domains API
   slug: emailconnect-user-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/openapi/emailconnect-user-domains-api-openapi.yml
+  url: https://artifacts.apis.io/emailconnect/openapi/emailconnect-user-domains-api-openapi.yml
 - filename: emailconnect-user-webhooks-api-openapi.yml
   format: yaml
   label: EmailConnect by XADI User Webhooks API
   slug: emailconnect-user-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/openapi/emailconnect-user-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/emailconnect/openapi/emailconnect-user-webhooks-api-openapi.yml
 - filename: emailconnect-webhook-alias-api-openapi.yml
   format: yaml
   label: EmailConnect by XADI Webhook Alias API
   slug: emailconnect-webhook-alias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/openapi/emailconnect-webhook-alias-api-openapi.yml
+  url: https://artifacts.apis.io/emailconnect/openapi/emailconnect-webhook-alias-api-openapi.yml
 consequence_counts:
   read: 11
   write: 14
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-10-16'\nmethod: generated\nsource: openapi/emailc
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/metrics\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/logs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/logs/{messageId}/retry\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/emails/{messageId}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/emails/{messageId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/emails/{messageId}/attachments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/attachments/{fileId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks/alias\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/agentic-access/emailconnect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/emailconnect/agentic-access/emailconnect-agentic-access.yml
 summary_line: 25 operations · 14 acting
 tags:
 - Company

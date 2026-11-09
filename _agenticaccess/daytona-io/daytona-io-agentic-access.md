@@ -9,175 +9,175 @@ api_specs:
   label: Daytona API Keys API
   slug: daytona-io-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-api-keys-api-openapi.yml
 - filename: daytona-io-audit-api-openapi.yml
   format: yaml
   label: Daytona Audit API
   slug: daytona-io-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-audit-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-audit-api-openapi.yml
 - filename: daytona-io-computer-use-api-openapi.yml
   format: yaml
   label: Daytona Computer Use API
   slug: daytona-io-computer-use-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-computer-use-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-computer-use-api-openapi.yml
 - filename: daytona-io-config-api-openapi.yml
   format: yaml
   label: Daytona Config API
   slug: daytona-io-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-config-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-config-api-openapi.yml
 - filename: daytona-io-docker-registry-api-openapi.yml
   format: yaml
   label: Daytona Docker Registry API
   slug: daytona-io-docker-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-docker-registry-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-docker-registry-api-openapi.yml
 - filename: daytona-io-git-api-openapi.yml
   format: yaml
   label: Daytona Git API
   slug: daytona-io-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-git-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-git-api-openapi.yml
 - filename: daytona-io-health-api-openapi.yml
   format: yaml
   label: Daytona Health API
   slug: daytona-io-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-health-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-health-api-openapi.yml
 - filename: daytona-io-info-api-openapi.yml
   format: yaml
   label: Daytona Info API
   slug: daytona-io-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-info-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-info-api-openapi.yml
 - filename: daytona-io-interpreter-api-openapi.yml
   format: yaml
   label: Daytona Interpreter API
   slug: daytona-io-interpreter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-interpreter-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-interpreter-api-openapi.yml
 - filename: daytona-io-jobs-api-openapi.yml
   format: yaml
   label: Daytona Jobs API
   slug: daytona-io-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-jobs-api-openapi.yml
 - filename: daytona-io-lsp-api-openapi.yml
   format: yaml
   label: Daytona Lsp API
   slug: daytona-io-lsp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-lsp-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-lsp-api-openapi.yml
 - filename: daytona-io-object-storage-api-openapi.yml
   format: yaml
   label: Daytona Object Storage API
   slug: daytona-io-object-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-object-storage-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-object-storage-api-openapi.yml
 - filename: daytona-io-organizations-api-openapi.yml
   format: yaml
   label: Daytona Organizations API
   slug: daytona-io-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-organizations-api-openapi.yml
 - filename: daytona-io-port-api-openapi.yml
   format: yaml
   label: Daytona Port API
   slug: daytona-io-port-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-port-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-port-api-openapi.yml
 - filename: daytona-io-preview-api-openapi.yml
   format: yaml
   label: Daytona Preview API
   slug: daytona-io-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-preview-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-preview-api-openapi.yml
 - filename: daytona-io-process-api-openapi.yml
   format: yaml
   label: Daytona Process API
   slug: daytona-io-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-process-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-process-api-openapi.yml
 - filename: daytona-io-regions-api-openapi.yml
   format: yaml
   label: Daytona Regions API
   slug: daytona-io-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-regions-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-regions-api-openapi.yml
 - filename: daytona-io-runners-api-openapi.yml
   format: yaml
   label: Daytona Runners API
   slug: daytona-io-runners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-runners-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-runners-api-openapi.yml
 - filename: daytona-io-sandbox-api-openapi.yml
   format: yaml
   label: Daytona Sandbox API
   slug: daytona-io-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-sandbox-api-openapi.yml
 - filename: daytona-io-server-api-openapi.yml
   format: yaml
   label: Daytona Server API
   slug: daytona-io-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-server-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-server-api-openapi.yml
 - filename: daytona-io-snapshots-api-openapi.yml
   format: yaml
   label: Daytona Snapshots API
   slug: daytona-io-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-snapshots-api-openapi.yml
 - filename: daytona-io-toolbox-api-openapi.yml
   format: yaml
   label: Daytona Toolbox API
   slug: daytona-io-toolbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-toolbox-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-toolbox-api-openapi.yml
 - filename: daytona-io-users-api-openapi.yml
   format: yaml
   label: Daytona Users API
   slug: daytona-io-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-users-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-users-api-openapi.yml
 - filename: daytona-io-volumes-api-openapi.yml
   format: yaml
   label: Daytona Volumes API
   slug: daytona-io-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-volumes-api-openapi.yml
 - filename: daytona-io-webhooks-api-openapi.yml
   format: yaml
   label: Daytona Webhooks API
   slug: daytona-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-webhooks-api-openapi.yml
 - filename: daytona-io-daytona-toolbox-api-api-openapi.yml
   format: yaml
   label: Daytona Toolbox API
   slug: daytona-io-daytona-toolbox-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-toolbox-api-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-daytona-toolbox-api-api-openapi.yml
 - filename: daytona-io-secret-api-openapi.yml
   format: yaml
   label: Daytona Secret API
   slug: daytona-io-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-secret-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-secret-api-openapi.yml
 - filename: daytona-io-warm-pools-api-openapi.yml
   format: yaml
   label: Daytona Warm Pools API
   slug: daytona-io-warm-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-warm-pools-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-warm-pools-api-openapi.yml
 - filename: daytona-io-filesystem-api-openapi.yml
   format: yaml
   label: Daytona Filesystem API
   slug: daytona-io-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/daytona-io/openapi/daytona-io-filesystem-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 153
@@ -317,8 +317,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dayton
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /process/interpreter/context\n  method: get\n  operationId: ListInterpreterContexts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /process/interpreter/context\n  method: post\n  operationId: CreateInterpreterContext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /process/interpreter/context/{id}\n  method: delete\n  operationId: DeleteInterpreterContext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n    \
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /process/interpreter/execute\n  method: get\n  operationId: ExecuteInterpreterCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - email\n    - openid\n    - profile\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/poll\n  method: get\n  operationId: pollJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - email\n    - openid\n    - profile\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    -\
   \ email\n    - openid\n    - profile\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}/status\n  method: post\n  operationId: updateJobStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - email\n    - openid\n    - profile\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lsp/completions\n  method: post\n  operationId: Completions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lsp/did-close\n  method: post\n  operationId: DidClose\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
-  \   - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (109 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/agentic-access/daytona-io-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/agentic-access/daytona-io-agentic-access.yml
+  \   - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (109 KB total) ---\n# Full source: https://artifacts.apis.io/daytona-io/agentic-access/daytona-io-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/daytona-io/agentic-access/daytona-io-agentic-access.yml
 summary_line: 330 operations · 177 acting · 11 human-in-the-loop
 tags:
 - Artificial Intelligence

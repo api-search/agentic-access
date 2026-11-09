@@ -9,37 +9,37 @@ api_specs:
   label: Launch27 Account API
   slug: launch27-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/openapi/launch27-account-api-openapi.yml
+  url: https://artifacts.apis.io/launch27/openapi/launch27-account-api-openapi.yml
 - filename: launch27-authentication-api-openapi.yml
   format: yaml
   label: Launch27 Authentication API
   slug: launch27-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/openapi/launch27-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/launch27/openapi/launch27-authentication-api-openapi.yml
 - filename: launch27-booking-helpers-api-openapi.yml
   format: yaml
   label: Launch27 Booking Helpers API
   slug: launch27-booking-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/openapi/launch27-booking-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/launch27/openapi/launch27-booking-helpers-api-openapi.yml
 - filename: launch27-customer-bookings-api-openapi.yml
   format: yaml
   label: Launch27 Customer Bookings API
   slug: launch27-customer-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/openapi/launch27-customer-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/launch27/openapi/launch27-customer-bookings-api-openapi.yml
 - filename: launch27-guest-booking-api-openapi.yml
   format: yaml
   label: Launch27 Guest Booking API
   slug: launch27-guest-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/openapi/launch27-guest-booking-api-openapi.yml
+  url: https://artifacts.apis.io/launch27/openapi/launch27-guest-booking-api-openapi.yml
 - filename: launch27-policy-api-openapi.yml
   format: yaml
   label: Launch27 Policy API
   slug: launch27-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/openapi/launch27-policy-api-openapi.yml
+  url: https://artifacts.apis.io/launch27/openapi/launch27-policy-api-openapi.yml
 consequence_counts:
   read: 15
   write: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/launch
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/bookings/{id}\n  method: get\n  operationId: getCustomerBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/bookings/{id}\n  method: put\n  operationId: updateCustomerBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer/bookings/{id}/cancel\n  method: post\n  operationId: cancelCustomerBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /booking\n  method: post\n  operationId: createGuestBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policy/booking\n  method: get\n  operationId: getNewBookingPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy/reschedule\n  method: get\n  operationId: getRescheduleBookingPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy/cancellation\n  method: get\n  operationId: getCancellationPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy/location\n  method: get\n  operationId: getLocationPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/agentic-access/launch27-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/launch27/agentic-access/launch27-agentic-access.yml
 summary_line: 21 operations · 6 acting
 tags:
 - Field Service Management

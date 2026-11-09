@@ -9,37 +9,37 @@ api_specs:
   label: HealthSherpa Enrollment Sessions API
   slug: healthsherpa-enrollment-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-enrollment-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-enrollment-sessions-api-openapi.yml
 - filename: healthsherpa-enrollments-api-openapi.yml
   format: yaml
   label: HealthSherpa Enrollments API
   slug: healthsherpa-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-enrollments-api-openapi.yml
 - filename: healthsherpa-quotes-api-openapi.yml
   format: yaml
   label: HealthSherpa Quotes API
   slug: healthsherpa-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-quotes-api-openapi.yml
 - filename: healthsherpa-reference-api-openapi.yml
   format: yaml
   label: HealthSherpa Reference API
   slug: healthsherpa-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-reference-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-reference-api-openapi.yml
 - filename: healthsherpa-utility-api-openapi.yml
   format: yaml
   label: HealthSherpa Utility API
   slug: healthsherpa-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-utility-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-utility-api-openapi.yml
 - filename: healthsherpa-policy-status-api-openapi.yml
   format: yaml
   label: HealthSherpa Policy Status API
   slug: healthsherpa-policy-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-policy-status-api-openapi.yml
+  url: https://artifacts.apis.io/healthsherpa/openapi/healthsherpa-policy-status-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/health
   \ getEnrollmentPaymentRedirect\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/enrollments/{enrollment_id}/supporting_documentation\n  method: post\n  operationId: uploadEnrollmentSupportingDocumentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/enrollments/{enrollment_id}\n  method: get\n  operationId: getEnrollment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/enrollments/{enrollment_id}\n  method: put\n  operationId: updateEnrollment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reference/counties\n  method: get\n  operationId: listCounties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reference/issuers\n  method: get\n  operationId: listIssuers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reference/providers\n  method: get\n  operationId: searchProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/agentic-access/healthsherpa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/healthsherpa/agentic-access/healthsherpa-agentic-access.yml
 summary_line: 15 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -8,25 +8,25 @@ api_specs:
   label: CarGurus Car Selector API
   slug: cargurus-dealer-car-selector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-car-selector-api-openapi.yml
+  url: https://artifacts.apis.io/cargurus-dealer/openapi/cargurus-dealer-car-selector-api-openapi.yml
 - filename: cargurus-dealer-dealer-reviews-api-openapi.yml
   format: yaml
   label: CarGurus Dealer Reviews API
   slug: cargurus-dealer-dealer-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-dealer-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/cargurus-dealer/openapi/cargurus-dealer-dealer-reviews-api-openapi.yml
 - filename: cargurus-dealer-dealer-stats-api-openapi.yml
   format: yaml
   label: CarGurus Dealer Stats API
   slug: cargurus-dealer-dealer-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-dealer-stats-api-openapi.yml
+  url: https://artifacts.apis.io/cargurus-dealer/openapi/cargurus-dealer-dealer-stats-api-openapi.yml
 - filename: cargurus-dealer-instant-market-value-api-openapi.yml
   format: yaml
   label: CarGurus Instant Market Value API
   slug: cargurus-dealer-instant-market-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/openapi/cargurus-dealer-instant-market-value-api-openapi.yml
+  url: https://artifacts.apis.io/cargurus-dealer/openapi/cargurus-dealer-instant-market-value-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cargurus-dealer-car-selector-api-openapi.yml, openapi/cargurus-dealer-dealer-reviews-api-openapi.yml,\n  openapi/cargurus-dealer-dealer-stats-api-openapi.yml, openapi/cargurus-dealer-instant-market-value-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /carselector/listMakes.action\n  method: get\n  operationId: listMakes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carselector/listModels.action\n  method: get\n  operationId: listModels\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carselector/listingSearch.action\n  method: get\n  operationId: listingSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dealerReviewsRequest.action\n  method: post\n  operationId: dealerReviewsRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dealerStatsRequest.action\n  method: post\n  operationId: dealerStatsRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /imvRequest.action\n  method: post\n  operationId: imvRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/agentic-access/cargurus-dealer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cargurus-dealer/agentic-access/cargurus-dealer-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Automotive

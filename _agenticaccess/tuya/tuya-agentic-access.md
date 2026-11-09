@@ -9,31 +9,31 @@ api_specs:
   label: Tuya Device Control API
   slug: tuya-device-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-control-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-device-control-api-openapi.yml
 - filename: tuya-device-logs-api-openapi.yml
   format: yaml
   label: Tuya Device Logs API
   slug: tuya-device-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-logs-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-device-logs-api-openapi.yml
 - filename: tuya-device-users-api-openapi.yml
   format: yaml
   label: Tuya Device Users API
   slug: tuya-device-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-users-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-device-users-api-openapi.yml
 - filename: tuya-devices-api-openapi.yml
   format: yaml
   label: Tuya Devices API
   slug: tuya-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-devices-api-openapi.yml
 - filename: tuya-sub-devices-api-openapi.yml
   format: yaml
   label: Tuya Sub Devices API
   slug: tuya-sub-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-sub-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tuya/openapi/tuya-sub-devices-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 2
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tuya-d
   \  method: get\n  operationId: getDeviceLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/devices/{device_id}/sub-devices\n  method: get\n  operationId: listSubDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/devices/factory-infos\n  method: get\n  operationId: getDeviceFactoryInfos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/devices/{device_id}/users\n  method: post\n  operationId: addDeviceUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1.0/devices/{device_id}/users/{user_id}\n  method: get\n  operationId: getDeviceUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/devices/{device_id}/users/{user_id}\n  method: put\n  operationId: updateDeviceUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/devices/{device_id}/users/{user_id}\n  method: delete\n  operationId: removeDeviceUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/agentic-access/tuya-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tuya/agentic-access/tuya-agentic-access.yml
 summary_line: 15 operations · 7 acting · 2 human-in-the-loop
 tags:
 - IoT

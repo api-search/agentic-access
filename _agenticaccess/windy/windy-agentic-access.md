@@ -8,13 +8,13 @@ api_specs:
   label: Windy Point Forecast API
   slug: windy-point-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-point-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/windy/openapi/windy-point-forecast-api-openapi.yml
 - filename: windy-webcams-api-openapi.yml
   format: yaml
   label: Windy Webcams API
   slug: windy-webcams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-webcams-api-openapi.yml
+  url: https://artifacts.apis.io/windy/openapi/windy-webcams-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/windy-point-forecast-api-openapi.yml, openapi/windy-webcams-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/point-forecast/v2\n  method: post\n  operationId: getPointForecast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webcams/api/v3/webcams\n  method: get\n  operationId: listWebcams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /webcams/api/v3/webcams/{webcamId}\n  method: get\n  operationId: getWebcam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/agentic-access/windy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/windy/agentic-access/windy-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Weather

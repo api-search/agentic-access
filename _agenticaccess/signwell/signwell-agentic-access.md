@@ -9,43 +9,43 @@ api_specs:
   label: SignWell API Application API
   slug: signwell-api-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-api-application-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-api-application-api-openapi.yml
 - filename: signwell-bulk-send-api-openapi.yml
   format: yaml
   label: SignWell Bulk Send API
   slug: signwell-bulk-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-bulk-send-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-bulk-send-api-openapi.yml
 - filename: signwell-document-api-openapi.yml
   format: yaml
   label: SignWell Document API
   slug: signwell-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-document-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-document-api-openapi.yml
 - filename: signwell-me-api-openapi.yml
   format: yaml
   label: SignWell Me API
   slug: signwell-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-me-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-me-api-openapi.yml
 - filename: signwell-regional-api-openapi.yml
   format: yaml
   label: SignWell Regional API
   slug: signwell-regional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-regional-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-regional-api-openapi.yml
 - filename: signwell-template-api-openapi.yml
   format: yaml
   label: SignWell Template API
   slug: signwell-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-template-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-template-api-openapi.yml
 - filename: signwell-webhooks-api-openapi.yml
   format: yaml
   label: SignWell Webhooks API
   slug: signwell-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/openapi/signwell-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/signwell/openapi/signwell-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 13
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/signwe
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/hooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bulk_sends/{id}\n  method: get\n  operationId: getBulkSend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/v1/bulk_sends\n  method: get\n  operationId: listBulkSends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bulk_sends\n  method: post\n  operationId: createBulkSend\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/bulk_sends/csv_template\n  method: get\n  operationId: getBulkSendCsvTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bulk_sends/validate_csv\n  method: post\n  operationId: validateBulkSendCsv\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/bulk_sends/{id}/documents\n  method: get\n  operationId: getBulkSendDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/documents/{id}/nom151_certificate\n  method: get\n  operationId: getNom151Certificate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/agentic-access/signwell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/signwell/agentic-access/signwell-agentic-access.yml
 summary_line: 27 operations · 14 acting
 tags:
 - E-Signature

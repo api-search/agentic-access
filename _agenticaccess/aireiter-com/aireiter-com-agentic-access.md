@@ -34,8 +34,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: generated\nsource: openapi/aireit
 source_yaml_url: https://artifacts.apis.io/aireiter-com/agentic-access/aireiter-com-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
-- AI
-- Multimodal
+- Artificial Intelligence
+- Multi-Modal
 - Generation
 - OpenAI-Compatible
 - Credit-Pricing

@@ -9,37 +9,37 @@ api_specs:
   label: OnPay Company API
   slug: onpay-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-company-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-company-api-openapi.yml
 - filename: onpay-deductions-api-openapi.yml
   format: yaml
   label: OnPay Deductions API
   slug: onpay-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-deductions-api-openapi.yml
 - filename: onpay-employees-api-openapi.yml
   format: yaml
   label: OnPay Employees API
   slug: onpay-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-employees-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-employees-api-openapi.yml
 - filename: onpay-pay-runs-api-openapi.yml
   format: yaml
   label: OnPay Pay Runs API
   slug: onpay-pay-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-pay-runs-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-pay-runs-api-openapi.yml
 - filename: onpay-reports-api-openapi.yml
   format: yaml
   label: OnPay Reports API
   slug: onpay-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-reports-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-reports-api-openapi.yml
 - filename: onpay-user-api-openapi.yml
   format: yaml
   label: OnPay User API
   slug: onpay-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-user-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-user-api-openapi.yml
 consequence_counts:
   read: 30
   write: 28
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/onpay-
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - Approver\n    - Owner\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /company/unprocessed-hours\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Approver\n    - Owner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/unprocessed-hours\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - Approver\n    - Owner\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /company/pay-schedule-dates\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    scope:\n    - Approver\n    - Controller\n    - Manager\n    - Owner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Approver\n    - Controller\n    - Employee\n    - Manager\n    - Owner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/listing\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Approver\n    - Owner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/pagination/listing\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Approver\n    - Owner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/approved-pay-runs\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    scope:\n    - Approver\n    - Owner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/retirement-summary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Approver\n    - Owner\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/agentic-access/onpay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/onpay/agentic-access/onpay-agentic-access.yml
 summary_line: 58 operations · 28 acting
 tags:
 - Payroll

@@ -9,133 +9,133 @@ api_specs:
   label: BICS Address Management API
   slug: bics-network-address-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-address-management-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-address-management-api-openapi.yml
 - filename: bics-network-cdr-api-openapi.yml
   format: yaml
   label: BICS CDR API
   slug: bics-network-cdr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-cdr-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-cdr-api-openapi.yml
 - filename: bics-network-connections-management-api-openapi.yml
   format: yaml
   label: BICS Connections Management API
   slug: bics-network-connections-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-connections-management-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-connections-management-api-openapi.yml
 - filename: bics-network-conversions-api-openapi.yml
   format: yaml
   label: BICS Conversions API
   slug: bics-network-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-conversions-api-openapi.yml
 - filename: bics-network-conversionsinfos-api-openapi.yml
   format: yaml
   label: BICS Conversionsinfos API
   slug: bics-network-conversionsinfos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-conversionsinfos-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-conversionsinfos-api-openapi.yml
 - filename: bics-network-disconnection-services-api-openapi.yml
   format: yaml
   label: BICS Disconnection Services API
   slug: bics-network-disconnection-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-disconnection-services-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-disconnection-services-api-openapi.yml
 - filename: bics-network-document-management-api-openapi.yml
   format: yaml
   label: BICS Document Management API
   slug: bics-network-document-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-document-management-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-document-management-api-openapi.yml
 - filename: bics-network-emergency-services-api-openapi.yml
   format: yaml
   label: BICS Emergency Services API
   slug: bics-network-emergency-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-emergency-services-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-emergency-services-api-openapi.yml
 - filename: bics-network-inbound-api-openapi.yml
   format: yaml
   label: BICS Inbound API
   slug: bics-network-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-inbound-api-openapi.yml
 - filename: bics-network-interconnects-list-api-openapi.yml
   format: yaml
   label: BICS Interconnects List API
   slug: bics-network-interconnects-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-interconnects-list-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-interconnects-list-api-openapi.yml
 - filename: bics-network-inventory-api-openapi.yml
   format: yaml
   label: BICS Inventory API
   slug: bics-network-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-inventory-api-openapi.yml
 - filename: bics-network-number-api-openapi.yml
   format: yaml
   label: BICS Number API
   slug: bics-network-number-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-number-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-number-api-openapi.yml
 - filename: bics-network-order-api-openapi.yml
   format: yaml
   label: BICS Order API
   slug: bics-network-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-order-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-order-api-openapi.yml
 - filename: bics-network-outbound-api-openapi.yml
   format: yaml
   label: BICS Outbound API
   slug: bics-network-outbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-outbound-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-outbound-api-openapi.yml
 - filename: bics-network-porting-api-openapi.yml
   format: yaml
   label: BICS Porting API
   slug: bics-network-porting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-porting-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-porting-api-openapi.yml
 - filename: bics-network-porting-specification-api-openapi.yml
   format: yaml
   label: BICS Porting Specification API
   slug: bics-network-porting-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-porting-specification-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-porting-specification-api-openapi.yml
 - filename: bics-network-pricelist-api-openapi.yml
   format: yaml
   label: BICS Pricelist API
   slug: bics-network-pricelist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-pricelist-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-pricelist-api-openapi.yml
 - filename: bics-network-reference-api-openapi.yml
   format: yaml
   label: BICS Reference API
   slug: bics-network-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-reference-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-reference-api-openapi.yml
 - filename: bics-network-reference-data-api-openapi.yml
   format: yaml
   label: BICS Reference Data API
   slug: bics-network-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-reference-data-api-openapi.yml
 - filename: bics-network-routing-api-openapi.yml
   format: yaml
   label: BICS Routing API
   slug: bics-network-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-routing-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-routing-api-openapi.yml
 - filename: bics-network-specification-api-openapi.yml
   format: yaml
   label: BICS Specification API
   slug: bics-network-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-specification-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-specification-api-openapi.yml
 - filename: bics-network-stock-api-openapi.yml
   format: yaml
   label: BICS Stock API
   slug: bics-network-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-stock-api-openapi.yml
+  url: https://artifacts.apis.io/bics-network/openapi/bics-network-stock-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 38
@@ -266,7 +266,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bics-c
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversions\n  method: post\n  operationId: Process SMS Conversion info\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversionsinfos\n  method: post\n  operationId: Process SMS Conversion infos\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outbound/{senderAddress}/requests\n  method: post\n  operationId: Send Message\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outbound/subscriptions\n  method: get\n  operationId: Get Delivery Info Subscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outbound/subscriptions\n  method: post\n  operationId: Create Delivery Info Subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outbound/subscriptions\n  method: delete\n  operationId: Delete Delivery Info Subscription\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inbound/registrations/{inboundNumber}/messages\n  method: get\n  operationId: Get Inbound Messages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outbound/{senderAddress}/requests/{requestId}/deliveryInfos\n  method: get\n  operationId: Get Delivery Infos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/agentic-access/bics-network-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bics-network/agentic-access/bics-network-agentic-access.yml
 summary_line: 76 operations · 38 acting · 7 human-in-the-loop
 tags:
 - Number Verification

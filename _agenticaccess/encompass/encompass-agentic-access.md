@@ -9,61 +9,61 @@ api_specs:
   label: Encompass Authentication API
   slug: encompass-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-authentication-api-openapi.yml
 - filename: encompass-borrower-pairs-api-openapi.yml
   format: yaml
   label: Encompass Borrower Pairs API
   slug: encompass-borrower-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-borrower-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-borrower-pairs-api-openapi.yml
 - filename: encompass-conditions-api-openapi.yml
   format: yaml
   label: Encompass Conditions API
   slug: encompass-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-conditions-api-openapi.yml
 - filename: encompass-contacts-api-openapi.yml
   format: yaml
   label: Encompass Contacts API
   slug: encompass-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-contacts-api-openapi.yml
 - filename: encompass-efolder-api-openapi.yml
   format: yaml
   label: Encompass eFolder API
   slug: encompass-efolder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-efolder-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-efolder-api-openapi.yml
 - filename: encompass-loan-management-api-openapi.yml
   format: yaml
   label: Encompass Loan Management API
   slug: encompass-loan-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-loan-management-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-loan-management-api-openapi.yml
 - filename: encompass-loan-pipeline-api-openapi.yml
   format: yaml
   label: Encompass Loan Pipeline API
   slug: encompass-loan-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-loan-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-loan-pipeline-api-openapi.yml
 - filename: encompass-milestones-api-openapi.yml
   format: yaml
   label: Encompass Milestones API
   slug: encompass-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-milestones-api-openapi.yml
 - filename: encompass-users-api-openapi.yml
   format: yaml
   label: Encompass Users API
   slug: encompass-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-users-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-users-api-openapi.yml
 - filename: encompass-webhooks-api-openapi.yml
   format: yaml
   label: Encompass Webhooks API
   slug: encompass-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/encompass/openapi/encompass-webhooks-api-openapi.yml
 consequence_counts:
   read: 23
   write: 20
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/encomp
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /encompass/v1/users/{userId}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/v1/subscriptions\n  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/v1/subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /webhook/v1/subscriptions/{id}\n  method: get\n  operationId: getWebhookSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/v1/subscriptions/{id}\n  method: put\n  operationId: updateWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/v1/subscriptions/{id}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /webhook/v1/resources\n  method: get\n  operationId: listWebhookResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/v1/resources/{id}/events\n  method: get\n  operationId: getWebhookResourceEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/v1/events\n  method: get\n  operationId: listWebhookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/v1/events/{id}\n  method: get\n  operationId: getWebhookEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/agentic-access/encompass-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/encompass/agentic-access/encompass-agentic-access.yml
 summary_line: 43 operations · 20 acting
 tags:
 - Mortgage

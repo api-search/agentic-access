@@ -9,139 +9,139 @@ api_specs:
   label: Backstage Actions API
   slug: backstage-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-actions-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-actions-api-openapi.yml
 - filename: backstage-authentication-api-openapi.yml
   format: yaml
   label: Backstage Authentication API
   slug: backstage-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-authentication-api-openapi.yml
 - filename: backstage-authorization-api-openapi.yml
   format: yaml
   label: Backstage Authorization API
   slug: backstage-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-authorization-api-openapi.yml
 - filename: backstage-documentation-api-openapi.yml
   format: yaml
   label: Backstage Documentation API
   slug: backstage-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-documentation-api-openapi.yml
 - filename: backstage-locations-api-openapi.yml
   format: yaml
   label: Backstage Locations API
   slug: backstage-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-locations-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-locations-api-openapi.yml
 - filename: backstage-metadata-api-openapi.yml
   format: yaml
   label: Backstage Metadata API
   slug: backstage-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-metadata-api-openapi.yml
 - filename: backstage-search-api-openapi.yml
   format: yaml
   label: Backstage Search API
   slug: backstage-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-search-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-search-api-openapi.yml
 - filename: backstage-sync-api-openapi.yml
   format: yaml
   label: Backstage Sync API
   slug: backstage-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-sync-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-sync-api-openapi.yml
 - filename: backstage-tasks-api-openapi.yml
   format: yaml
   label: Backstage Tasks API
   slug: backstage-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-tasks-api-openapi.yml
 - filename: backstage-templates-api-openapi.yml
   format: yaml
   label: Backstage Templates API
   slug: backstage-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-templates-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-templates-api-openapi.yml
 - filename: backstage-token-verification-api-openapi.yml
   format: yaml
   label: Backstage Token Verification API
   slug: backstage-token-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-token-verification-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-token-verification-api-openapi.yml
 - filename: backstage-autocomplete-api-openapi.yml
   format: yaml
   label: Backstage Autocomplete API
   slug: backstage-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-autocomplete-api-openapi.yml
 - filename: backstage-bus-api-openapi.yml
   format: yaml
   label: Backstage Bus API
   slug: backstage-bus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-bus-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-bus-api-openapi.yml
 - filename: backstage-dry-run-api-openapi.yml
   format: yaml
   label: Backstage Dry Run API
   slug: backstage-dry-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-dry-run-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-dry-run-api-openapi.yml
 - filename: backstage-entity-api-openapi.yml
   format: yaml
   label: Backstage Entity API
   slug: backstage-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-entity-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-entity-api-openapi.yml
 - filename: backstage-notifications-api-openapi.yml
   format: yaml
   label: Backstage Notifications API
   slug: backstage-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-notifications-api-openapi.yml
 - filename: backstage-provider-api-openapi.yml
   format: yaml
   label: Backstage Provider API
   slug: backstage-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-provider-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-provider-api-openapi.yml
 - filename: backstage-remotes-api-openapi.yml
   format: yaml
   label: Backstage Remotes API
   slug: backstage-remotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-remotes-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-remotes-api-openapi.yml
 - filename: backstage-settings-api-openapi.yml
   format: yaml
   label: Backstage Settings API
   slug: backstage-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-settings-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-settings-api-openapi.yml
 - filename: backstage-status-api-openapi.yml
   format: yaml
   label: Backstage Status API
   slug: backstage-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-status-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-status-api-openapi.yml
 - filename: backstage-templating-extensions-api-openapi.yml
   format: yaml
   label: Backstage Templating Extensions API
   slug: backstage-templating-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-templating-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-templating-extensions-api-openapi.yml
 - filename: backstage-topics-api-openapi.yml
   format: yaml
   label: Backstage Topics API
   slug: backstage-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-topics-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-topics-api-openapi.yml
 - filename: backstage-update-api-openapi.yml
   format: yaml
   label: Backstage Update API
   slug: backstage-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-update-api-openapi.yml
+  url: https://artifacts.apis.io/backstage/openapi/backstage-update-api-openapi.yml
 consequence_counts:
   read: 42
   write: 25
@@ -187,7 +187,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/backst
   \    audit: required\n- path: /v2/tasks/{taskId}/retry\n  method: post\n  operationId: Retry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tasks/{taskId}/events\n  method: get\n  operationId: StreamLogsPolling\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasks/{taskId}/eventstream\n  method: get\n  operationId: getTaskEventStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasks/{taskId}/logs\n  method: get\n  operationId: getTaskLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/dry-run\n  method: post\n  operationId: dryRunTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/templates/{namespace}/{kind}/{name}/parameter-schema\n  method: get\n  operationId: GetTemplateParameterSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/templating-extensions\n  method: get\n  operationId: ListTemplatingExtensions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/backstage/auth/v1/jwks.json\n  method: get\n  operationId: getJwks\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics\n  method: get\n  operationId: GetTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /update\n  method: post\n  operationId: UpdateNotificationsLegacy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/agentic-access/backstage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/backstage/agentic-access/backstage-agentic-access.yml
 summary_line: 67 operations · 25 acting
 tags:
 - Developer Portal

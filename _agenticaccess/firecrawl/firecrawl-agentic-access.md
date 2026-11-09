@@ -9,61 +9,61 @@ api_specs:
   label: Firecrawl Account API
   slug: firecrawl-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-account-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-account-api-openapi.yml
 - filename: firecrawl-agent-api-openapi.yml
   format: yaml
   label: Firecrawl Agent API
   slug: firecrawl-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-agent-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-agent-api-openapi.yml
 - filename: firecrawl-billing-api-openapi.yml
   format: yaml
   label: Firecrawl Billing API
   slug: firecrawl-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-billing-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-billing-api-openapi.yml
 - filename: firecrawl-browser-api-openapi.yml
   format: yaml
   label: Firecrawl Browser API
   slug: firecrawl-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-browser-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-browser-api-openapi.yml
 - filename: firecrawl-crawling-api-openapi.yml
   format: yaml
   label: Firecrawl Crawling API
   slug: firecrawl-crawling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-crawling-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-crawling-api-openapi.yml
 - filename: firecrawl-extraction-api-openapi.yml
   format: yaml
   label: Firecrawl Extraction API
   slug: firecrawl-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-extraction-api-openapi.yml
 - filename: firecrawl-mapping-api-openapi.yml
   format: yaml
   label: Firecrawl Mapping API
   slug: firecrawl-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-mapping-api-openapi.yml
 - filename: firecrawl-miscellaneous-api-openapi.yml
   format: yaml
   label: Firecrawl Miscellaneous API
   slug: firecrawl-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-miscellaneous-api-openapi.yml
 - filename: firecrawl-scraping-api-openapi.yml
   format: yaml
   label: Firecrawl Scraping API
   slug: firecrawl-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-scraping-api-openapi.yml
 - filename: firecrawl-search-api-openapi.yml
   format: yaml
   label: Firecrawl Search API
   slug: firecrawl-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/openapi/firecrawl-search-api-openapi.yml
+  url: https://artifacts.apis.io/firecrawl/openapi/firecrawl-search-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/firecr
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team/token-usage\n  method: get\n  operationId: getTokenUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team/token-usage/historical\n  method: get\n  operationId: getHistoricalTokenUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team/queue-status\n  method: get\n  operationId: getQueueStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team/activity\n  method: get\n  operationId: getActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n- path: /search\n  method: post\n  operationId: searchAndScrape\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /browser\n  method: post\n  operationId: createBrowserSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /browser\n  method: get\n  operationId: listBrowserSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /browser/{sessionId}/execute\n  method: post\n  operationId: executeBrowserCode\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /browser/{sessionId}\n  method: delete\n  operationId: deleteBrowserSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/agentic-access/firecrawl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/firecrawl/agentic-access/firecrawl-agentic-access.yml
 summary_line: 31 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Crawling

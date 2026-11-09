@@ -9,67 +9,67 @@ api_specs:
   label: Messari AI API
   slug: messari-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-ai-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-ai-api-openapi.yml
 - filename: messari-assets-api-openapi.yml
   format: yaml
   label: Messari Assets API
   slug: messari-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-assets-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-assets-api-openapi.yml
 - filename: messari-datasets-api-openapi.yml
   format: yaml
   label: Messari Datasets API
   slug: messari-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-datasets-api-openapi.yml
 - filename: messari-exchanges-api-openapi.yml
   format: yaml
   label: Messari Exchanges API
   slug: messari-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-exchanges-api-openapi.yml
 - filename: messari-markets-api-openapi.yml
   format: yaml
   label: Messari Markets API
   slug: messari-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-markets-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-markets-api-openapi.yml
 - filename: messari-monitoring-api-openapi.yml
   format: yaml
   label: Messari Monitoring API
   slug: messari-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-monitoring-api-openapi.yml
 - filename: messari-networks-api-openapi.yml
   format: yaml
   label: Messari Networks API
   slug: messari-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-networks-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-networks-api-openapi.yml
 - filename: messari-news-api-openapi.yml
   format: yaml
   label: Messari News API
   slug: messari-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-news-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-news-api-openapi.yml
 - filename: messari-protocols-api-openapi.yml
   format: yaml
   label: Messari Protocols API
   slug: messari-protocols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-protocols-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-protocols-api-openapi.yml
 - filename: messari-research-api-openapi.yml
   format: yaml
   label: Messari Research API
   slug: messari-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-research-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-research-api-openapi.yml
 - filename: messari-token-unlocks-api-openapi.yml
   format: yaml
   label: Messari Token Unlocks API
   slug: messari-token-unlocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/openapi/messari-token-unlocks-api-openapi.yml
+  url: https://artifacts.apis.io/messari/openapi/messari-token-unlocks-api-openapi.yml
 consequence_counts:
   read: 37
   safety-critical: 1
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/messar
   \      max-ttl: 3600\n    audit: none\n- path: /protocols\n  method: get\n  operationId: getProtocols\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /protocols/{protocol}/metrics\n  method: get\n  operationId: getProtocolsByProtocolMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dex\n  method: get\n  operationId: getDex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lending\n  method: get\n  operationId: getLending\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /liquid-staking\n  method: get\n  operationId: getLiquidStaking\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports\n  method: get\n  operationId: getV1Reports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports/{reportId}\n  method: get\n  operationId: getV1ReportsByReportId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports/tags\n  method: get\n  operationId: getV1ReportsTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/assets/{assetId}/unlocks\n  method: get\n  operationId: getV1AssetsByAssetIdUnlocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /v1/assets/{assetId}/vesting-schedule\n  method: get\n  operationId: getV1AssetsByAssetIdVestingSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/agentic-access/messari-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/messari/agentic-access/messari-agentic-access.yml
 summary_line: 42 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Web3

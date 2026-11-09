@@ -9,25 +9,25 @@ api_specs:
   label: Better Stack Heartbeats API
   slug: betterstack-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-heartbeats-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-heartbeats-api-openapi.yml
 - filename: betterstack-incidents-api-openapi.yml
   format: yaml
   label: Better Stack Incidents API
   slug: betterstack-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-incidents-api-openapi.yml
 - filename: betterstack-monitors-api-openapi.yml
   format: yaml
   label: Better Stack Monitors API
   slug: betterstack-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-monitors-api-openapi.yml
 - filename: betterstack-status-pages-api-openapi.yml
   format: yaml
   label: Better Stack Status Pages API
   slug: betterstack-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/openapi/betterstack-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/betterstack/openapi/betterstack-status-pages-api-openapi.yml
 consequence_counts:
   read: 13
   write: 15
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/better
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incidents\n  method: post\n  operationId: createIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/{id}\n  method: get\n  operationId: getIncident\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incidents/{id}\n  method: delete\n  operationId: deleteIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/{id}/timeline\n\
   \  method: get\n  operationId: getIncidentTimeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incidents/{id}/acknowledge\n  method: post\n  operationId: acknowledgeIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/{id}/resolve\n  method: post\n  operationId: resolveIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/{id}/reopen\n  method: post\n  operationId: reopenIncident\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/{id}/escalate\n  method: post\n  operationId: escalateIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/agentic-access/betterstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/betterstack/agentic-access/betterstack-agentic-access.yml
 summary_line: 28 operations · 15 acting
 tags:
 - Observability

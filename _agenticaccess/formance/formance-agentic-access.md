@@ -9,49 +9,49 @@ api_specs:
   label: Formance Auth API
   slug: formance-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-auth-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-auth-api-openapi.yml
 - filename: formance-ledger-api-openapi.yml
   format: yaml
   label: Formance Ledger API
   slug: formance-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-ledger-api-openapi.yml
 - filename: formance-orchestration-api-openapi.yml
   format: yaml
   label: Formance Orchestration API
   slug: formance-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-orchestration-api-openapi.yml
 - filename: formance-payments-api-openapi.yml
   format: yaml
   label: Formance Payments API
   slug: formance-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-payments-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-payments-api-openapi.yml
 - filename: formance-reconciliation-api-openapi.yml
   format: yaml
   label: Formance Reconciliation API
   slug: formance-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-reconciliation-api-openapi.yml
 - filename: formance-search-api-openapi.yml
   format: yaml
   label: Formance Search API
   slug: formance-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-search-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-search-api-openapi.yml
 - filename: formance-wallets-api-openapi.yml
   format: yaml
   label: Formance Wallets API
   slug: formance-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-wallets-api-openapi.yml
 - filename: formance-webhooks-api-openapi.yml
   format: yaml
   label: Formance Webhooks API
   slug: formance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/formance/openapi/formance-webhooks-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 50
@@ -168,7 +168,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/forman
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/configs\n  method: get\n  operationId: getManyConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks/configs\n  method: post\n  operationId: insertConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/configs/{id}\n  method: put\n  operationId: updateConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/configs/{id}\n  method: delete\n  operationId: deleteConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/configs/{id}/activate\n  method: put\n  operationId: activateConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/configs/{id}/deactivate\n  method: put\n  operationId: deactivateConfig\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/configs/{id}/secret/change\n  method: put\n  operationId: changeConfigSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/configs/{id}/test\n  method: get\n  operationId: testConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/agentic-access/formance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/formance/agentic-access/formance-agentic-access.yml
 summary_line: 95 operations · 45 acting
 tags:
 - Financial Infrastructure

@@ -8,55 +8,55 @@ api_specs:
   label: SolarEdge Accounts API
   slug: solar-edge-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-accounts-api-openapi.yml
 - filename: solar-edge-energy-api-openapi.yml
   format: yaml
   label: SolarEdge Energy API
   slug: solar-edge-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-energy-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-energy-api-openapi.yml
 - filename: solar-edge-environmental-api-openapi.yml
   format: yaml
   label: SolarEdge Environmental API
   slug: solar-edge-environmental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-environmental-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-environmental-api-openapi.yml
 - filename: solar-edge-equipment-api-openapi.yml
   format: yaml
   label: SolarEdge Equipment API
   slug: solar-edge-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-equipment-api-openapi.yml
 - filename: solar-edge-power-api-openapi.yml
   format: yaml
   label: SolarEdge Power API
   slug: solar-edge-power-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-power-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-power-api-openapi.yml
 - filename: solar-edge-sites-api-openapi.yml
   format: yaml
   label: SolarEdge Sites API
   slug: solar-edge-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-sites-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-sites-api-openapi.yml
 - filename: solar-edge-storage-api-openapi.yml
   format: yaml
   label: SolarEdge Storage API
   slug: solar-edge-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-storage-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-storage-api-openapi.yml
 - filename: solar-edge-version-api-openapi.yml
   format: yaml
   label: SolarEdge Version API
   slug: solar-edge-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-version-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-version-api-openapi.yml
 - filename: solar-edge-account-api-openapi.yml
   format: yaml
   label: SolarEdge Account API
   slug: solar-edge-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/openapi/solar-edge-account-api-openapi.yml
+  url: https://artifacts.apis.io/solar-edge/openapi/solar-edge-account-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/solar-
   \ 3600\n    audit: none\n- path: /site/{siteId}/inventory\n  method: get\n  operationId: getSiteInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /equipment/{siteId}/list\n  method: get\n  operationId: getComponentsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/{siteId}/inverter/{serialNumber}/data\n  method: get\n  operationId: getInverterTechnicalData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/{siteId}/{serialNumber}/changeLog\n  method: get\n  operationId: getEquipmentChangeLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/{siteId}/meters\n\
   \  method: get\n  operationId: getSiteMeters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /equipment/{siteId}/sensors\n  method: get\n  operationId: getSensorList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/{siteId}/envBenefits\n  method: get\n  operationId: getSiteEnvironmentalBenefits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/{siteId}/image\n  method: get\n  operationId: getSiteImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/{siteId}/installerImage\n  method: get\n  operationId: getSiteInstallerImage\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/list\n  method: get\n  operationId: getAccountList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version/current\n  method: get\n  operationId: getCurrentApiVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version/supported\n  method: get\n  operationId: getSupportedApiVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/agentic-access/solar-edge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/solar-edge/agentic-access/solar-edge-agentic-access.yml
 summary_line: 23 operations
 tags:
 - Solar

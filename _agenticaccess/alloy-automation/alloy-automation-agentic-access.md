@@ -9,73 +9,73 @@ api_specs:
   label: Alloy Automation Credentials API
   slug: alloy-automation-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-credentials-api-openapi.yml
 - filename: alloy-automation-events-api-openapi.yml
   format: yaml
   label: Alloy Automation Events API
   slug: alloy-automation-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-events-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-events-api-openapi.yml
 - filename: alloy-automation-integrations-api-openapi.yml
   format: yaml
   label: Alloy Automation Integrations API
   slug: alloy-automation-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-integrations-api-openapi.yml
 - filename: alloy-automation-passthrough-api-openapi.yml
   format: yaml
   label: Alloy Automation Passthrough API
   slug: alloy-automation-passthrough-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-passthrough-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-passthrough-api-openapi.yml
 - filename: alloy-automation-users-api-openapi.yml
   format: yaml
   label: Alloy Automation Users API
   slug: alloy-automation-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-users-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-users-api-openapi.yml
 - filename: alloy-automation-analytics-api-openapi.yml
   format: yaml
   label: Alloy Automation Analytics API
   slug: alloy-automation-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-analytics-api-openapi.yml
 - filename: alloy-automation-headless-api-openapi.yml
   format: yaml
   label: Alloy Automation Headless API
   slug: alloy-automation-headless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-headless-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-headless-api-openapi.yml
 - filename: alloy-automation-installations-api-openapi.yml
   format: yaml
   label: Alloy Automation Installations API
   slug: alloy-automation-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-installations-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-installations-api-openapi.yml
 - filename: alloy-automation-logs-api-openapi.yml
   format: yaml
   label: Alloy Automation Logs API
   slug: alloy-automation-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-logs-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-logs-api-openapi.yml
 - filename: alloy-automation-metadata-api-openapi.yml
   format: yaml
   label: Alloy Automation Metadata API
   slug: alloy-automation-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-metadata-api-openapi.yml
 - filename: alloy-automation-run-api-openapi.yml
   format: yaml
   label: Alloy Automation Run API
   slug: alloy-automation-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-run-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-run-api-openapi.yml
 - filename: alloy-automation-workflows-api-openapi.yml
   format: yaml
   label: Alloy Automation Workflows API
   slug: alloy-automation-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-automation/openapi/alloy-automation-workflows-api-openapi.yml
 consequence_counts:
   read: 18
   write: 9
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/alloy-
   \ audit: none\n- path: /events/{eventId}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/customers\n  method: get\n  operationId: listCommerceCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/contacts\n  method: get\n  operationId: listContacts\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/contacts\n  method: post\n  operationId: createContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crm/companies\n  method: get\n  operationId: listCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/deals\n  method: get\n  operationId: listDeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/accounts\n  method: post\n  operationId: createAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/agentic-access/alloy-automation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alloy-automation/agentic-access/alloy-automation-agentic-access.yml
 summary_line: 27 operations · 9 acting
 tags:
 - iPaaS

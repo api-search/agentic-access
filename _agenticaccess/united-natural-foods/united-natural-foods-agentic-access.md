@@ -9,25 +9,25 @@ api_specs:
   label: United Natural Foods (UNFI) Insights API
   slug: united-natural-foods-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-insights-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-insights-api-openapi.yml
 - filename: united-natural-foods-orders-api-openapi.yml
   format: yaml
   label: United Natural Foods (UNFI) Orders API
   slug: united-natural-foods-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-orders-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-orders-api-openapi.yml
 - filename: united-natural-foods-products-api-openapi.yml
   format: yaml
   label: United Natural Foods (UNFI) Products API
   slug: united-natural-foods-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-products-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-products-api-openapi.yml
 - filename: united-natural-foods-suppliers-api-openapi.yml
   format: yaml
   label: United Natural Foods (UNFI) Suppliers API
   slug: united-natural-foods-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-suppliers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unfi-s
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/{productId}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}\n  method: put\n  operationId: updateProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/fulfillment\n  method: post\n  operationId: submitFulfillment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /insights/sales\n  method: get\n  operationId: getSalesInsights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/fill-rates\n  method: get\n  operationId: getFillRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/inventory\n  method: get\n  operationId:\
   \ getInventoryInsights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suppliers/{supplierId}\n  method: get\n  operationId: getSupplier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suppliers/{supplierId}\n  method: put\n  operationId: updateSupplier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/agentic-access/united-natural-foods-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/united-natural-foods/agentic-access/united-natural-foods-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Food Distribution

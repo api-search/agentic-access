@@ -9,175 +9,175 @@ api_specs:
   label: Bancomat Accounts API
   slug: bancomat-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-accounts-api-openapi.yml
 - filename: bancomat-ais-service-api-openapi.yml
   format: yaml
   label: Bancomat AIS Service API
   slug: bancomat-ais-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-ais-service-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-ais-service-api-openapi.yml
 - filename: bancomat-authentication-api-openapi.yml
   format: yaml
   label: Bancomat Authentication API
   slug: bancomat-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-authentication-api-openapi.yml
 - filename: bancomat-banche-api-openapi.yml
   format: yaml
   label: Bancomat Banche API
   slug: bancomat-banche-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-banche-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-banche-api-openapi.yml
 - filename: bancomat-banks-api-openapi.yml
   format: yaml
   label: Bancomat Banks API
   slug: bancomat-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-banks-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-banks-api-openapi.yml
 - filename: bancomat-bulk-api-openapi.yml
   format: yaml
   label: Bancomat Bulk API
   slug: bancomat-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-bulk-api-openapi.yml
 - filename: bancomat-chain-api-openapi.yml
   format: yaml
   label: Bancomat Chain API
   slug: bancomat-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-chain-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-chain-api-openapi.yml
 - filename: bancomat-checkout-api-openapi.yml
   format: yaml
   label: Bancomat Checkout API
   slug: bancomat-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-checkout-api-openapi.yml
 - filename: bancomat-consent-api-openapi.yml
   format: yaml
   label: Bancomat Consent API
   slug: bancomat-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-consent-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-consent-api-openapi.yml
 - filename: bancomat-construction-api-openapi.yml
   format: yaml
   label: Bancomat Construction API
   slug: bancomat-construction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-construction-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-construction-api-openapi.yml
 - filename: bancomat-constructions-api-openapi.yml
   format: yaml
   label: Bancomat Constructions API
   slug: bancomat-constructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-constructions-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-constructions-api-openapi.yml
 - filename: bancomat-conti-api-openapi.yml
   format: yaml
   label: Bancomat Conti API
   slug: bancomat-conti-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-conti-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-conti-api-openapi.yml
 - filename: bancomat-documents-api-openapi.yml
   format: yaml
   label: Bancomat Documents API
   slug: bancomat-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-documents-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-documents-api-openapi.yml
 - filename: bancomat-fatture-api-openapi.yml
   format: yaml
   label: Bancomat Fatture API
   slug: bancomat-fatture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-fatture-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-fatture-api-openapi.yml
 - filename: bancomat-fee-api-openapi.yml
   format: yaml
   label: Bancomat Fee API
   slug: bancomat-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-fee-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-fee-api-openapi.yml
 - filename: bancomat-invoices-api-openapi.yml
   format: yaml
   label: Bancomat Invoices API
   slug: bancomat-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-invoices-api-openapi.yml
 - filename: bancomat-kyc-api-openapi.yml
   format: yaml
   label: Bancomat KYC API
   slug: bancomat-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-kyc-api-openapi.yml
 - filename: bancomat-pagamenti-api-openapi.yml
   format: yaml
   label: Bancomat Pagamenti API
   slug: bancomat-pagamenti-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-pagamenti-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-pagamenti-api-openapi.yml
 - filename: bancomat-pagopa-api-openapi.yml
   format: yaml
   label: Bancomat Pago PA API
   slug: bancomat-pagopa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-pagopa-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-pagopa-api-openapi.yml
 - filename: bancomat-payments-api-openapi.yml
   format: yaml
   label: Bancomat Payments API
   slug: bancomat-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-payments-api-openapi.yml
 - filename: bancomat-saldo-api-openapi.yml
   format: yaml
   label: Bancomat Saldo API
   slug: bancomat-saldo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-saldo-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-saldo-api-openapi.yml
 - filename: bancomat-sessioni-di-checkout-api-openapi.yml
   format: yaml
   label: Bancomat Sessioni di checkout API
   slug: bancomat-sessioni-di-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-sessioni-di-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-sessioni-di-checkout-api-openapi.yml
 - filename: bancomat-stipendi-api-openapi.yml
   format: yaml
   label: Bancomat Stipendi API
   slug: bancomat-stipendi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-stipendi-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-stipendi-api-openapi.yml
 - filename: bancomat-transactions-api-openapi.yml
   format: yaml
   label: Bancomat Transactions API
   slug: bancomat-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-transactions-api-openapi.yml
 - filename: bancomat-transazioni-api-openapi.yml
   format: yaml
   label: Bancomat Transazioni API
   slug: bancomat-transazioni-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-transazioni-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-transazioni-api-openapi.yml
 - filename: bancomat-transfer-api-openapi.yml
   format: yaml
   label: Bancomat Transfer API
   slug: bancomat-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-transfer-api-openapi.yml
 - filename: bancomat-transfers-api-openapi.yml
   format: yaml
   label: Bancomat Transfers API
   slug: bancomat-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-transfers-api-openapi.yml
 - filename: bancomat-webhook-api-openapi.yml
   format: yaml
   label: Bancomat Webhook API
   slug: bancomat-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-webhook-api-openapi.yml
 - filename: bancomat-webhooks-api-openapi.yml
   format: yaml
   label: Bancomat Webhooks API
   slug: bancomat-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/openapi/bancomat-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bancomat/openapi/bancomat-webhooks-api-openapi.yml
 consequence_counts:
   physical: 31
   read: 73
@@ -362,8 +362,8 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/bancom
   \ abnormal\n      - high-value\n    audit: required\n- path: /pagopa/{fingerprint}\n  method: get\n  operationId: getPagopaByFingerprint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - pagopa\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pagopa/{fingerprint}\n  method: patch\n  operationId: patchPagopaByFingerprint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - pagopa\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pagopa/receipts/:id\n  method: get\n  operationId: getPagopaReceipts:id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - pagopa\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pagopa/{fingerprint}/receipt\n  method:\
   \ get\n  operationId: getPagopaReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - pagopa:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: get\n  operationId: getPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{paymentID}\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tenantID}/balances\n  method: get\n  operationId: getByTenantIDBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - account:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tenantID}/balances/last\n\
   \  method: get\n  operationId: getByTenantIDBalancesLast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - account:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tenantID}/checkout\n  method: post\n  operationId: postByTenantIDCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - pagopa\n    - transfer:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tenantID}/checkout/intents\n  method: post\n  operationId: postByTenantIDCheckoutIntents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payment:read\n    - transfer:write\n    audience: null\n    token:\n      max-ttl: 300\n\
-  \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tenantID}/checkout/{code}\n  method: delete\n  operationId: deleteByTenantIDCheckoutByCode\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - pagopa\n    - transfer:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/agentic-access/bancomat-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/agentic-access/bancomat-agentic-access.yml
+  \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tenantID}/checkout/{code}\n  method: delete\n  operationId: deleteByTenantIDCheckoutByCode\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - pagopa\n    - transfer:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/bancomat/agentic-access/bancomat-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bancomat/agentic-access/bancomat-agentic-access.yml
 summary_line: 131 operations · 58 acting
 tags:
 - ATM

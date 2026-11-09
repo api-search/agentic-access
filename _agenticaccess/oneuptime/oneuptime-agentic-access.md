@@ -9,7 +9,7 @@ api_specs:
   label: OneUptime Projects API
   slug: oneuptime-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/openapi/oneuptime-projects-api-openapi.yml
+  url: https://artifacts.apis.io/oneuptime/openapi/oneuptime-projects-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oneupt
   \      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/incidents\n  method: get\n  operationId: listIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/incidents\n  method: post\n  operationId: createIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/monitors\n  method: get\n  operationId: listMonitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/monitors\n  method: post\n  operationId: createMonitor\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/alerts\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/on-call-policies\n  method: get\n  operationId: listOnCallPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/workflows\n  method: post\n  operationId: createWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/agentic-access/oneuptime-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oneuptime/agentic-access/oneuptime-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Observability

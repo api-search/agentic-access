@@ -9,169 +9,169 @@ api_specs:
   label: Ava Labs AVAX Supply API
   slug: ava-labs-avax-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-avax-supply-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-avax-supply-api-openapi.yml
 - filename: ava-labs-chain-metrics-api-openapi.yml
   format: yaml
   label: Ava Labs Chain Metrics API
   slug: ava-labs-chain-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-chain-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-chain-metrics-api-openapi.yml
 - filename: ava-labs-chain-throughput-api-openapi.yml
   format: yaml
   label: Ava Labs Chain Throughput API
   slug: ava-labs-chain-throughput-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-chain-throughput-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-chain-throughput-api-openapi.yml
 - filename: ava-labs-cumulative-api-openapi.yml
   format: yaml
   label: Ava Labs Cumulative API
   slug: ava-labs-cumulative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-cumulative-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-cumulative-api-openapi.yml
 - filename: ava-labs-data-api-usage-metrics-api-openapi.yml
   format: yaml
   label: Ava Labs Data API Usage Metrics API
   slug: ava-labs-data-api-usage-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-data-api-usage-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-data-api-usage-metrics-api-openapi.yml
 - filename: ava-labs-evm-balances-api-openapi.yml
   format: yaml
   label: Ava Labs EVM Balances API
   slug: ava-labs-evm-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-evm-balances-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-evm-balances-api-openapi.yml
 - filename: ava-labs-evm-blocks-api-openapi.yml
   format: yaml
   label: Ava Labs EVM Blocks API
   slug: ava-labs-evm-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-evm-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-evm-blocks-api-openapi.yml
 - filename: ava-labs-evm-chains-api-openapi.yml
   format: yaml
   label: Ava Labs EVM Chains API
   slug: ava-labs-evm-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-evm-chains-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-evm-chains-api-openapi.yml
 - filename: ava-labs-evm-contracts-api-openapi.yml
   format: yaml
   label: Ava Labs EVM Contracts API
   slug: ava-labs-evm-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-evm-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-evm-contracts-api-openapi.yml
 - filename: ava-labs-evm-transactions-api-openapi.yml
   format: yaml
   label: Ava Labs EVM Transactions API
   slug: ava-labs-evm-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-evm-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-evm-transactions-api-openapi.yml
 - filename: ava-labs-health-check-api-openapi.yml
   format: yaml
   label: Ava Labs Health Check API
   slug: ava-labs-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-health-check-api-openapi.yml
 - filename: ava-labs-interchain-messaging-api-openapi.yml
   format: yaml
   label: Ava Labs Interchain Messaging API
   slug: ava-labs-interchain-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-interchain-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-interchain-messaging-api-openapi.yml
 - filename: ava-labs-l1-validator-metrics-api-openapi.yml
   format: yaml
   label: Ava Labs L1 Validator Metrics API
   slug: ava-labs-l1-validator-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-l1-validator-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-l1-validator-metrics-api-openapi.yml
 - filename: ava-labs-looking-glass-api-openapi.yml
   format: yaml
   label: Ava Labs Looking Glass API
   slug: ava-labs-looking-glass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-looking-glass-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-looking-glass-api-openapi.yml
 - filename: ava-labs-operations-api-openapi.yml
   format: yaml
   label: Ava Labs Operations API
   slug: ava-labs-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-operations-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-operations-api-openapi.yml
 - filename: ava-labs-primary-network-api-openapi.yml
   format: yaml
   label: Ava Labs Primary Network API
   slug: ava-labs-primary-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-primary-network-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-primary-network-api-openapi.yml
 - filename: ava-labs-primary-network-balances-api-openapi.yml
   format: yaml
   label: Ava Labs Primary Network Balances API
   slug: ava-labs-primary-network-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-primary-network-balances-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-primary-network-balances-api-openapi.yml
 - filename: ava-labs-primary-network-blocks-api-openapi.yml
   format: yaml
   label: Ava Labs Primary Network Blocks API
   slug: ava-labs-primary-network-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-primary-network-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-primary-network-blocks-api-openapi.yml
 - filename: ava-labs-primary-network-rewards-api-openapi.yml
   format: yaml
   label: Ava Labs Primary Network Rewards API
   slug: ava-labs-primary-network-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-primary-network-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-primary-network-rewards-api-openapi.yml
 - filename: ava-labs-primary-network-transactions-api-openapi.yml
   format: yaml
   label: Ava Labs Primary Network Transactions API
   slug: ava-labs-primary-network-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-primary-network-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-primary-network-transactions-api-openapi.yml
 - filename: ava-labs-primary-network-utxos-api-openapi.yml
   format: yaml
   label: Ava Labs Primary Network UTXOs API
   slug: ava-labs-primary-network-utxos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-primary-network-utxos-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-primary-network-utxos-api-openapi.yml
 - filename: ava-labs-primary-network-vertices-api-openapi.yml
   format: yaml
   label: Ava Labs Primary Network Vertices API
   slug: ava-labs-primary-network-vertices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-primary-network-vertices-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-primary-network-vertices-api-openapi.yml
 - filename: ava-labs-signature-aggregator-api-openapi.yml
   format: yaml
   label: Ava Labs Signature Aggregator API
   slug: ava-labs-signature-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-signature-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-signature-aggregator-api-openapi.yml
 - filename: ava-labs-staking-information-api-openapi.yml
   format: yaml
   label: Ava Labs Staking Information API
   slug: ava-labs-staking-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-staking-information-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-staking-information-api-openapi.yml
 - filename: ava-labs-teleporter-api-openapi.yml
   format: yaml
   label: Ava Labs Teleporter API
   slug: ava-labs-teleporter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-teleporter-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-teleporter-api-openapi.yml
 - filename: ava-labs-webhooks-api-openapi.yml
   format: yaml
   label: Ava Labs Webhooks API
   slug: ava-labs-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-webhooks-api-openapi.yml
 - filename: ava-labs-data-api-api-openapi.yml
   format: yaml
   label: Ava Labs Data API
   slug: ava-labs-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-data-api-api-openapi.yml
 - filename: ava-labs-nfts-api-openapi.yml
   format: yaml
   label: Ava Labs NF Ts API
   slug: ava-labs-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/openapi/ava-labs-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/ava-labs/openapi/ava-labs-nfts-api-openapi.yml
 consequence_counts:
   read: 130
   write: 11
@@ -230,8 +230,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ava-la
   \      max-ttl: 3600\n    audit: none\n- path: /v1/networks/{network}/blockchains/{blockchainId}/vertices\n  method: get\n  operationId: listLatestXChainVertices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/networks/{network}/blockchains/{blockchainId}/vertices/{vertexHash}\n  method: get\n  operationId: getVertexByHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/networks/{network}/blockchains/{blockchainId}/vertices:listByHeight\n  method: get\n  operationId: getVertexByHeight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/signatureAggregator/{network}/aggregateSignatures\n  method: post\n  operationId: aggregateSignatures\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/signatureAggregator/{network}/aggregateSignatures/{txHash}\n  method: get\n  operationId: getAggregatedSignatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validators/network/{network}/subnetId/{subnetID}/count\n  method: get\n  operationId: getValidatorCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validators/network/{network}/subnetId/{subnetID}/weight\n  method: get\n  operationId: getValidatorWeight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/delegators/network/{network}/subnetId/{subnetID}/count\n  method: get\n  operationId: getDelegatorCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/delegators/network/{network}/subnetId/{subnetID}/weight\n  method: get\n  operationId: getDelegatorWeight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validators/network/{network}/subnetId/{subnetID}\n  method: get\n  operationId: getSubnetValidationPeriod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validators/network/{network}/node/{nodeID}\n  method: get\n  operationId: getNodeValidationPeriod\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validators/count/{subnetID}\n  method: get\n  operationId: getValidatorCountBySubnetId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validators/weight/{subnetID}\n  method: get\n  operationId: getValidatorWeightBySubnetId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/delegators/count/{subnetID}\n  method: get\n  operationId: getDelegatorCountBySubnetId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/agentic-access/ava-labs-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/agentic-access/ava-labs-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validators/count/{subnetID}\n  method: get\n  operationId: getValidatorCountBySubnetId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/validators/weight/{subnetID}\n  method: get\n  operationId: getValidatorWeightBySubnetId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/delegators/count/{subnetID}\n  method: get\n  operationId: getDelegatorCountBySubnetId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/ava-labs/agentic-access/ava-labs-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ava-labs/agentic-access/ava-labs-agentic-access.yml
 summary_line: 141 operations · 11 acting
 tags:
 - Company

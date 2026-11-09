@@ -9,199 +9,199 @@ api_specs:
   label: AmTrust Financial Services Admin API
   slug: amtrust-financial-services-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-admin-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-admin-api-openapi.yml
 - filename: amtrust-financial-services-agent-contacts-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Agent Contacts API
   slug: amtrust-financial-services-agent-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-agent-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-agent-contacts-api-openapi.yml
 - filename: amtrust-financial-services-appetite-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Appetite API
   slug: amtrust-financial-services-appetite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-appetite-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-appetite-api-openapi.yml
 - filename: amtrust-financial-services-authentication-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Authentication API
   slug: amtrust-financial-services-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-authentication-api-openapi.yml
 - filename: amtrust-financial-services-bind-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Bind API
   slug: amtrust-financial-services-bind-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-bind-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-bind-api-openapi.yml
 - filename: amtrust-financial-services-callconsent-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Callconsent API
   slug: amtrust-financial-services-callconsent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-callconsent-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-callconsent-api-openapi.yml
 - filename: amtrust-financial-services-contract-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Contract API
   slug: amtrust-financial-services-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-contract-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-contract-api-openapi.yml
 - filename: amtrust-financial-services-dmsdocument-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Dms Document API
   slug: amtrust-financial-services-dmsdocument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-dmsdocument-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-dmsdocument-api-openapi.yml
 - filename: amtrust-financial-services-document-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Document API
   slug: amtrust-financial-services-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-document-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-document-api-openapi.yml
 - filename: amtrust-financial-services-downloadinfo-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Download Info API
   slug: amtrust-financial-services-downloadinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-downloadinfo-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-downloadinfo-api-openapi.yml
 - filename: amtrust-financial-services-hardstops-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Hard Stops API
   slug: amtrust-financial-services-hardstops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-hardstops-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-hardstops-api-openapi.yml
 - filename: amtrust-financial-services-health-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Health API
   slug: amtrust-financial-services-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-health-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-health-api-openapi.yml
 - filename: amtrust-financial-services-insured-clearance-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Insured Clearance API
   slug: amtrust-financial-services-insured-clearance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-insured-clearance-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-insured-clearance-api-openapi.yml
 - filename: amtrust-financial-services-layer-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Layer API
   slug: amtrust-financial-services-layer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-layer-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-layer-api-openapi.yml
 - filename: amtrust-financial-services-liability-limits-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Liability Limits API
   slug: amtrust-financial-services-liability-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-liability-limits-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-liability-limits-api-openapi.yml
 - filename: amtrust-financial-services-location-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Location API
   slug: amtrust-financial-services-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-location-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-location-api-openapi.yml
 - filename: amtrust-financial-services-loss-history-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Loss History API
   slug: amtrust-financial-services-loss-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-loss-history-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-loss-history-api-openapi.yml
 - filename: amtrust-financial-services-mcm-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Mcm API
   slug: amtrust-financial-services-mcm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-mcm-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-mcm-api-openapi.yml
 - filename: amtrust-financial-services-payment-plans-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Payment Plans API
   slug: amtrust-financial-services-payment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-payment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-payment-plans-api-openapi.yml
 - filename: amtrust-financial-services-payments-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Payments API
   slug: amtrust-financial-services-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-payments-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-payments-api-openapi.yml
 - filename: amtrust-financial-services-policies-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Policies API
   slug: amtrust-financial-services-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-policies-api-openapi.yml
 - filename: amtrust-financial-services-policy-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Policy API
   slug: amtrust-financial-services-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-policy-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-policy-api-openapi.yml
 - filename: amtrust-financial-services-quote-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Quote API
   slug: amtrust-financial-services-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-quote-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-quote-api-openapi.yml
 - filename: amtrust-financial-services-quotes-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Quotes API
   slug: amtrust-financial-services-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-quotes-api-openapi.yml
 - filename: amtrust-financial-services-reference-resources-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Reference Resources API
   slug: amtrust-financial-services-reference-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-reference-resources-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-reference-resources-api-openapi.yml
 - filename: amtrust-financial-services-shared-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Shared API
   slug: amtrust-financial-services-shared-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-shared-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-shared-api-openapi.yml
 - filename: amtrust-financial-services-synclog-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Sync Log API
   slug: amtrust-financial-services-synclog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-synclog-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-synclog-api-openapi.yml
 - filename: amtrust-financial-services-terms-of-agreement-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Terms of Agreement API
   slug: amtrust-financial-services-terms-of-agreement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-terms-of-agreement-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-terms-of-agreement-api-openapi.yml
 - filename: amtrust-financial-services-underwriting-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Underwriting API
   slug: amtrust-financial-services-underwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-underwriting-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-underwriting-api-openapi.yml
 - filename: amtrust-financial-services-underwriting-questions-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Underwriting Questions API
   slug: amtrust-financial-services-underwriting-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-underwriting-questions-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-underwriting-questions-api-openapi.yml
 - filename: amtrust-financial-services-workers-comp-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Workers Comp API
   slug: amtrust-financial-services-workers-comp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-workers-comp-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-workers-comp-api-openapi.yml
 - filename: amtrust-financial-services-workers-comp-specialty-programs-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Workers Comp-Specialty Programs API
   slug: amtrust-financial-services-workers-comp-specialty-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-workers-comp-specialty-programs-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-workers-comp-specialty-programs-api-openapi.yml
 - filename: amtrust-financial-services-action-log-api-openapi.yml
   format: yaml
   label: AmTrust Financial Services Action Log API
   slug: amtrust-financial-services-action-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-action-log-api-openapi.yml
+  url: https://artifacts.apis.io/amtrust-financial-services/openapi/amtrust-financial-services-action-log-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 197
@@ -360,8 +360,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amtrus
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v{version}/Layer/ContractBrokers\n  method: get\n  operationId: Layer_ContractBrokers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v{version}/Layer/ContractUWYears\n  method: get\n  operationId: Layer_ContractUWYears\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v{version}/Layer/ContractFirms\n  method: get\n  operationId: Layer_ContractFirms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v{version}/Layer/ContractsList\n  method: post\n  operationId: Layer_ContractsList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v{version}/Layer/ContractNamesList\n  method: post\n  operationId: Layer_ContractNamesList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v{version}/Layer/GetFile\n  method: post\n  operationId: Layer_GetFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/quotes/{quoteId}/liability-limits\n\
   \  method: get\n  operationId: get-api-v1-quotes-quoteid-liability-limits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/quotes/{quoteId}/liability-limits\n  method: post\n  operationId: post-api-v1-quotes-quoteid-liability-limits\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/quotes/{quoteId}/locations\n  method: post\n  operationId: post-api-v1-quotes-quoteid-locations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /api/v1/quotes/{quoteId}/locations\n  method: get\n  operationId: get-api-v1-quotes-quoteid-locations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/quotes/{quoteId}/locations/{locationId}\n  method: patch\n  operationId: patch-api-v1-quotes-quoteid-locations-locationid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (119 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/agentic-access/amtrust-financial-services-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/agentic-access/amtrust-financial-services-agentic-access.yml
+  \ required\n- path: /api/v1/quotes/{quoteId}/locations\n  method: get\n  operationId: get-api-v1-quotes-quoteid-locations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/quotes/{quoteId}/locations/{locationId}\n  method: patch\n  operationId: patch-api-v1-quotes-quoteid-locations-locationid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (119 KB total) ---\n# Full source: https://artifacts.apis.io/amtrust-financial-services/agentic-access/amtrust-financial-services-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amtrust-financial-services/agentic-access/amtrust-financial-services-agentic-access.yml
 summary_line: 371 operations · 174 acting · 1 human-in-the-loop
 tags:
 - Commercial Insurance

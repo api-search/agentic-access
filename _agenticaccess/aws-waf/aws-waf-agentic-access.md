@@ -9,25 +9,91 @@ api_specs:
   label: AWS WAF AWS WAFV2 API
   slug: aws-waf-aws-wafv2-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/aws-waf-aws-wafv2-api-api-openapi.yml
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-aws-wafv2-api-api-openapi.yml
 - filename: aws-waf-ip-sets-api-openapi.yml
   format: yaml
   label: AWS WAF IP Sets API
   slug: aws-waf-ip-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/aws-waf-ip-sets-api-openapi.yml
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-ip-sets-api-openapi.yml
 - filename: aws-waf-rule-groups-api-openapi.yml
   format: yaml
   label: AWS WAF Rule Groups API
   slug: aws-waf-rule-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/aws-waf-rule-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-rule-groups-api-openapi.yml
 - filename: aws-waf-web-acls-api-openapi.yml
   format: yaml
   label: AWS WAF Web ACLs API
   slug: aws-waf-web-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/aws-waf-web-acls-api-openapi.yml
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-web-acls-api-openapi.yml
+- filename: aws-waf-byte-match-set-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Byte Match Set API
+  slug: aws-waf-byte-match-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-byte-match-set-api-openapi.yml
+- filename: aws-waf-geo-match-set-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Geo Match Set API
+  slug: aws-waf-geo-match-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-geo-match-set-api-openapi.yml
+- filename: aws-waf-logging-configuration-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Logging Configuration API
+  slug: aws-waf-logging-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-logging-configuration-api-openapi.yml
+- filename: aws-waf-permission-policy-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Permission Policy API
+  slug: aws-waf-permission-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-permission-policy-api-openapi.yml
+- filename: aws-waf-rate-based-rule-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Rate Based Rule API
+  slug: aws-waf-rate-based-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-rate-based-rule-api-openapi.yml
+- filename: aws-waf-regex-match-set-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Regex Match Set API
+  slug: aws-waf-regex-match-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-regex-match-set-api-openapi.yml
+- filename: aws-waf-regex-pattern-set-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Regex Pattern Set API
+  slug: aws-waf-regex-pattern-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-regex-pattern-set-api-openapi.yml
+- filename: aws-waf-rule-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Rule API
+  slug: aws-waf-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-rule-api-openapi.yml
+- filename: aws-waf-size-constraint-set-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Size Constraint Set API
+  slug: aws-waf-size-constraint-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-size-constraint-set-api-openapi.yml
+- filename: aws-waf-sql-injection-match-set-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Sql Injection Match Set API
+  slug: aws-waf-sql-injection-match-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-sql-injection-match-set-api-openapi.yml
+- filename: aws-waf-xss-match-set-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Xss Match Set API
+  slug: aws-waf-xss-match-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-xss-match-set-api-openapi.yml
 consequence_counts:
   read: 2
   write: 4
@@ -56,7 +122,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/amazon-waf-ip-sets-api-openapi.yml, openapi/amazon-waf-rule-groups-api-openapi.yml,\n  openapi/amazon-waf-web-acls-api-openapi.yml, openapi/aws-waf-aws-wafv2-api-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 4\n    connected: 2\n  by_consequence:\n    write: 4\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /#CreateIPSet\n  method: post\n  operationId: CreateIPSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /#CreateRuleGroup\n  method: post\n  operationId: CreateRuleGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#CreateWebACL\n  method: post\n  operationId: CreateWebACL\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#GetWebACL\n  method: post\n  operationId: GetWebACL\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#ListWebACLs\n  method: post\n  operationId: ListWebACLs\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: invokeWafv2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/agentic-access/aws-waf-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-waf/agentic-access/aws-waf-agentic-access.yml
 summary_line: 6 operations · 4 acting
 tags:
 - Security
@@ -65,4 +131,5 @@ tags:
 - Bot Management
 - Edge Security
 - Cloud
+- Amazon Web Services
 ---

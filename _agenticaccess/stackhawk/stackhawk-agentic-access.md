@@ -9,85 +9,85 @@ api_specs:
   label: StackHawk Api Authentication API
   slug: stackhawk-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-api-authentication-api-openapi.yml
 - filename: stackhawk-applications-api-openapi.yml
   format: yaml
   label: StackHawk Applications API
   slug: stackhawk-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-applications-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-applications-api-openapi.yml
 - filename: stackhawk-global-configuration-api-openapi.yml
   format: yaml
   label: StackHawk Global Configuration API
   slug: stackhawk-global-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-global-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-global-configuration-api-openapi.yml
 - filename: stackhawk-hosted-oas-api-openapi.yml
   format: yaml
   label: StackHawk Hosted OAS API
   slug: stackhawk-hosted-oas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-hosted-oas-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-hosted-oas-api-openapi.yml
 - filename: stackhawk-organization-teams-api-openapi.yml
   format: yaml
   label: StackHawk Organization Teams API
   slug: stackhawk-organization-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-organization-teams-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-organization-teams-api-openapi.yml
 - filename: stackhawk-organizations-api-openapi.yml
   format: yaml
   label: StackHawk Organizations API
   slug: stackhawk-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-organizations-api-openapi.yml
 - filename: stackhawk-perch-api-openapi.yml
   format: yaml
   label: StackHawk Perch API
   slug: stackhawk-perch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-perch-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-perch-api-openapi.yml
 - filename: stackhawk-profile-scans-api-openapi.yml
   format: yaml
   label: StackHawk Profile Scans API
   slug: stackhawk-profile-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-profile-scans-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-profile-scans-api-openapi.yml
 - filename: stackhawk-reports-api-openapi.yml
   format: yaml
   label: StackHawk Reports API
   slug: stackhawk-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-reports-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-reports-api-openapi.yml
 - filename: stackhawk-repositories-api-openapi.yml
   format: yaml
   label: StackHawk Repositories API
   slug: stackhawk-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-repositories-api-openapi.yml
 - filename: stackhawk-scan-configuration-api-openapi.yml
   format: yaml
   label: StackHawk Scan Configuration API
   slug: stackhawk-scan-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-scan-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-scan-configuration-api-openapi.yml
 - filename: stackhawk-scan-policies-api-openapi.yml
   format: yaml
   label: StackHawk Scan Policies API
   slug: stackhawk-scan-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-scan-policies-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-scan-policies-api-openapi.yml
 - filename: stackhawk-scan-results-api-openapi.yml
   format: yaml
   label: StackHawk Scan Results API
   slug: stackhawk-scan-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-scan-results-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-scan-results-api-openapi.yml
 - filename: stackhawk-user-api-openapi.yml
   format: yaml
   label: StackHawk User API
   slug: stackhawk-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/openapi/stackhawk-user-api-openapi.yml
+  url: https://artifacts.apis.io/stackhawk/openapi/stackhawk-user-api-openapi.yml
 consequence_counts:
   read: 29
   write: 25
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stackh
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/org/{orgId}/audit\n  method: get\n  operationId: getAuditHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/org/{orgId}/policy\n  method: get\n  operationId: listScanPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/org/{orgId}/policy\n  method: post\n  operationId: createScanPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/org/{orgId}/policy/{policyId}\n  method: get\n  operationId: getScanPolicy\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/org/{orgId}/policy/{policyId}\n  method: post\n  operationId: updateScanPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/org/{orgId}/policy/{policyId}\n  method: delete\n  operationId: deleteScanPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/perch/scan\n  method: post\n  operationId: requestPerchScan\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/perch/status/{scanId}\n  method: get\n  operationId: getPerchScanStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/agentic-access/stackhawk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stackhawk/agentic-access/stackhawk-agentic-access.yml
 summary_line: 54 operations · 25 acting
 tags:
 - API Security

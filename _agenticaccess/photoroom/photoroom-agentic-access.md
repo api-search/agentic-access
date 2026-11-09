@@ -9,25 +9,25 @@ api_specs:
   label: Photoroom Account API
   slug: photoroom-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/openapi/photoroom-account-api-openapi.yml
+  url: https://artifacts.apis.io/photoroom/openapi/photoroom-account-api-openapi.yml
 - filename: photoroom-edit-api-openapi.yml
   format: yaml
   label: Photoroom Edit API
   slug: photoroom-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/openapi/photoroom-edit-api-openapi.yml
+  url: https://artifacts.apis.io/photoroom/openapi/photoroom-edit-api-openapi.yml
 - filename: photoroom-render-api-openapi.yml
   format: yaml
   label: Photoroom Render API
   slug: photoroom-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/openapi/photoroom-render-api-openapi.yml
+  url: https://artifacts.apis.io/photoroom/openapi/photoroom-render-api-openapi.yml
 - filename: photoroom-segment-api-openapi.yml
   format: yaml
   label: Photoroom Segment API
   slug: photoroom-segment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/openapi/photoroom-segment-api-openapi.yml
+  url: https://artifacts.apis.io/photoroom/openapi/photoroom-segment-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/photoroom-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 3\n    connected: 4\n  by_consequence:\n    write: 3\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/segment\n  method: post\n  operationId: remove-background\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account\n  method: get\n  operationId: account-details-v1\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/account\n  method: get\n  operationId: account-details-v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/edit\n  method: get\n  operationId: edit-image-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/edit\n  method: post\n  operationId: edit-image-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/render\n  method: get\n  operationId: edit-image-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/render\n  method: post\n  operationId: edit-image-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/agentic-access/photoroom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/photoroom/agentic-access/photoroom-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Artificial Intelligence

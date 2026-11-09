@@ -9,19 +9,19 @@ api_specs:
   label: MuleSoft Applications API
   slug: mulesoft-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-applications-api-openapi.yml
+  url: https://artifacts.apis.io/mulesoft/openapi/mulesoft-applications-api-openapi.yml
 - filename: mulesoft-environments-api-openapi.yml
   format: yaml
   label: MuleSoft Environments API
   slug: mulesoft-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-environments-api-openapi.yml
+  url: https://artifacts.apis.io/mulesoft/openapi/mulesoft-environments-api-openapi.yml
 - filename: mulesoft-organizations-api-openapi.yml
   format: yaml
   label: MuleSoft Organizations API
   slug: mulesoft-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mulesoft/openapi/mulesoft-organizations-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/muleso
   \ - abnormal\n      - high-value\n    audit: required\n- path: /accounts/api/organizations/{orgId}/environments/{envId}\n  method: delete\n  operationId: deleteEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cloudhub/api/v2/applications\n  method: get\n  operationId: listApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloudhub/api/v2/applications\n  method: post\n  operationId: createApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /cloudhub/api/v2/applications/{domain}\n  method: get\n  operationId: getApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloudhub/api/v2/applications/{domain}\n  method: put\n  operationId: updateApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cloudhub/api/v2/applications/{domain}\n  method: delete\n  operationId: deleteApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /cloudhub/api/v2/applications/{domain}/status\n  method: get\n  operationId: getApplicationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/agentic-access/mulesoft-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mulesoft/agentic-access/mulesoft-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - API Gateway

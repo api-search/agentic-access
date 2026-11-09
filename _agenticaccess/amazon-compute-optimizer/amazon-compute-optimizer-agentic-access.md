@@ -9,7 +9,13 @@ api_specs:
   label: Amazon Compute Optimizer AWS Compute Optimizer API
   slug: amazon-compute-optimizer-aws-compute-optimizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-aws-compute-optimizer-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-aws-compute-optimizer-api-openapi.yml
+- filename: amazon-compute-optimizer-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer Compute Optimizer Operations API
+  slug: amazon-compute-optimizer-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-operations-api-openapi.yml
 consequence_counts:
   read: 12
   write: 9
@@ -46,9 +52,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  operationId: GetEnrollmentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEnrollmentStatusesForOrganization\n  method: post\n  operationId: GetEnrollmentStatusesForOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetLambdaFunctionRecommendations\n  method: post\n  operationId: GetLambdaFunctionRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetRecommendationPreferences\n  method: post\n  operationId: GetRecommendationPreferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetRecommendationSummaries\n  method: post\n  operationId: GetRecommendationSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.PutRecommendationPreferences\n  method: post\n  operationId: PutRecommendationPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.UpdateEnrollmentStatus\n  method: post\n  operationId: UpdateEnrollmentStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/agentic-access/amazon-compute-optimizer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-compute-optimizer/agentic-access/amazon-compute-optimizer-agentic-access.yml
 summary_line: 21 operations · 9 acting
 tags:
+- Amazon Web Services
 - Cost Optimization
 - FinOps
 - Machine Learning

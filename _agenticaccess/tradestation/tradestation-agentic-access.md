@@ -9,37 +9,37 @@ api_specs:
   label: TradeStation Streaming API
   slug: tradestation-streaming
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/asyncapi/tradestation-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/tradestation/asyncapi/tradestation-streaming-asyncapi.yml
 - filename: tradestation-accounts-api-openapi.yml
   format: yaml
   label: TradeStation Accounts API
   slug: tradestation-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-accounts-api-openapi.yml
 - filename: tradestation-market-data-api-openapi.yml
   format: yaml
   label: TradeStation Market Data API
   slug: tradestation-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-market-data-api-openapi.yml
 - filename: tradestation-options-api-openapi.yml
   format: yaml
   label: TradeStation Options API
   slug: tradestation-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-options-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-options-api-openapi.yml
 - filename: tradestation-order-execution-api-openapi.yml
   format: yaml
   label: TradeStation Order Execution API
   slug: tradestation-order-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-order-execution-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-order-execution-api-openapi.yml
 - filename: tradestation-reference-data-api-openapi.yml
   format: yaml
   label: TradeStation Reference Data API
   slug: tradestation-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-reference-data-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 16
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trades
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/orderexecution/orders/{orderId}\n  method: delete\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/orderexecution/orderconfirm\n  method: post\n  operationId: confirmOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/orderexecution/ordergroups\n\
   \  method: post\n  operationId: placeOrderGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/orderexecution/ordergroupconfirm\n  method: post\n  operationId: confirmOrderGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/orderexecution/activationtriggers\n  method: get\n  operationId: getActivationTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/orderexecution/routes\n  method: get\n  operationId: getRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/agentic-access/tradestation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tradestation/agentic-access/tradestation-agentic-access.yml
 summary_line: 23 operations · 7 acting
 tags:
 - Brokerage

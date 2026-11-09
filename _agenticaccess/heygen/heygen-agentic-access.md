@@ -9,73 +9,73 @@ api_specs:
   label: HeyGen Account API
   slug: heygen-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-account-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-account-api-openapi.yml
 - filename: heygen-assets-api-openapi.yml
   format: yaml
   label: HeyGen Assets API
   slug: heygen-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-assets-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-assets-api-openapi.yml
 - filename: heygen-avatars-api-openapi.yml
   format: yaml
   label: HeyGen Avatars API
   slug: heygen-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-avatars-api-openapi.yml
 - filename: heygen-digital-twins-api-openapi.yml
   format: yaml
   label: HeyGen Digital Twins API
   slug: heygen-digital-twins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-digital-twins-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-digital-twins-api-openapi.yml
 - filename: heygen-folders-api-openapi.yml
   format: yaml
   label: HeyGen Folders API
   slug: heygen-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-folders-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-folders-api-openapi.yml
 - filename: heygen-photo-avatars-api-openapi.yml
   format: yaml
   label: HeyGen Photo Avatars API
   slug: heygen-photo-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-photo-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-photo-avatars-api-openapi.yml
 - filename: heygen-streaming-api-openapi.yml
   format: yaml
   label: HeyGen Streaming API
   slug: heygen-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-streaming-api-openapi.yml
 - filename: heygen-templates-api-openapi.yml
   format: yaml
   label: HeyGen Templates API
   slug: heygen-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-templates-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-templates-api-openapi.yml
 - filename: heygen-video-translation-api-openapi.yml
   format: yaml
   label: HeyGen Video Translation API
   slug: heygen-video-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-video-translation-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-video-translation-api-openapi.yml
 - filename: heygen-videos-api-openapi.yml
   format: yaml
   label: HeyGen Videos API
   slug: heygen-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-videos-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-videos-api-openapi.yml
 - filename: heygen-voices-api-openapi.yml
   format: yaml
   label: HeyGen Voices API
   slug: heygen-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-voices-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-voices-api-openapi.yml
 - filename: heygen-webhooks-api-openapi.yml
   format: yaml
   label: HeyGen Webhooks API
   slug: heygen-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/openapi/heygen-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/heygen/openapi/heygen-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 23
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/heygen
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/folders/{folder_id}/trash\n  method: post\n  operationId: trash-folder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/folders/{folder_id}/restore\n  method: post\n  operationId: restore-folder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/brand_voice/{brand_voice_id}\n  method: post\n  operationId: update-brand-voice\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/asset\n  method: post\n  operationId: upload-asset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/video_avatar/{avatar_id}\n  method: get\n  operationId: check-video-avatar-generation-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/video_avatar/{avatar_id}\n  method: delete\n  operationId: delete-video-avatar\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/video_avatar\n  method: post\n  operationId: submit-video-avatar-creation-request\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/template/{template_id}\n  method: get\n  operationId: get-template-v3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/agentic-access/heygen-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/heygen/agentic-access/heygen-agentic-access.yml
 summary_line: 53 operations · 30 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

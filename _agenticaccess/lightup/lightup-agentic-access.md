@@ -9,73 +9,73 @@ api_specs:
   label: Lightup API Credentials API
   slug: lightup-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-api-credentials-api-openapi.yml
 - filename: lightup-catalogs-api-openapi.yml
   format: yaml
   label: Lightup Catalogs API
   slug: lightup-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-catalogs-api-openapi.yml
 - filename: lightup-dashboard-chart-api-openapi.yml
   format: yaml
   label: Lightup Dashboard chart API
   slug: lightup-dashboard-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-dashboard-chart-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-dashboard-chart-api-openapi.yml
 - filename: lightup-datapoints-api-openapi.yml
   format: yaml
   label: Lightup Datapoints API
   slug: lightup-datapoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-datapoints-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-datapoints-api-openapi.yml
 - filename: lightup-health-check-api-openapi.yml
   format: yaml
   label: Lightup Health check API
   slug: lightup-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-health-check-api-openapi.yml
 - filename: lightup-incidents-api-openapi.yml
   format: yaml
   label: Lightup Incidents API
   slug: lightup-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-incidents-api-openapi.yml
 - filename: lightup-integrations-api-openapi.yml
   format: yaml
   label: Lightup Integrations API
   slug: lightup-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-integrations-api-openapi.yml
 - filename: lightup-metrics-api-openapi.yml
   format: yaml
   label: Lightup Metrics API
   slug: lightup-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-metrics-api-openapi.yml
 - filename: lightup-monitors-api-openapi.yml
   format: yaml
   label: Lightup Monitors API
   slug: lightup-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-monitors-api-openapi.yml
 - filename: lightup-users-api-openapi.yml
   format: yaml
   label: Lightup Users API
   slug: lightup-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-users-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-users-api-openapi.yml
 - filename: lightup-workspaces-api-openapi.yml
   format: yaml
   label: Lightup Workspaces API
   slug: lightup-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-workspaces-api-openapi.yml
 - filename: lightup-data-sources-api-openapi.yml
   format: yaml
   label: Lightup Data Sources API
   slug: lightup-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/openapi/lightup-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/lightup/openapi/lightup-data-sources-api-openapi.yml
 consequence_counts:
   read: 24
   write: 30
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lightu
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{api_version}/ws/{workspace_id}/sources/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{api_version}/ws/{workspace_id}/sources/\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{api_version}/ws/{workspace_id}/sources/{pk}/trigger\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{api_version}/ws/{workspace_id}/sources/{pk}/trigger\n  method: post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{api_version}/ws/{workspace_id}/sources/{source_uuid}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{api_version}/ws/{workspace_id}/sources/{source_uuid}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{api_version}/ws/{workspace_id}/sources/{source_uuid}\n  method: put\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/agentic-access/lightup-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lightup/agentic-access/lightup-agentic-access.yml
 summary_line: 54 operations · 30 acting
 tags:
 - Data Quality

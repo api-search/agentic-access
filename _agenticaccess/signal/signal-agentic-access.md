@@ -9,55 +9,55 @@ api_specs:
   label: Signal Accounts API
   slug: signal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-accounts-api-openapi.yml
 - filename: signal-attachments-api-openapi.yml
   format: yaml
   label: Signal Attachments API
   slug: signal-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-attachments-api-openapi.yml
 - filename: signal-certificates-api-openapi.yml
   format: yaml
   label: Signal Certificates API
   slug: signal-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-certificates-api-openapi.yml
 - filename: signal-devices-api-openapi.yml
   format: yaml
   label: Signal Devices API
   slug: signal-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-devices-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-devices-api-openapi.yml
 - filename: signal-keys-api-openapi.yml
   format: yaml
   label: Signal Keys API
   slug: signal-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-keys-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-keys-api-openapi.yml
 - filename: signal-messages-api-openapi.yml
   format: yaml
   label: Signal Messages API
   slug: signal-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-messages-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-messages-api-openapi.yml
 - filename: signal-profiles-api-openapi.yml
   format: yaml
   label: Signal Profiles API
   slug: signal-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-profiles-api-openapi.yml
 - filename: signal-registration-api-openapi.yml
   format: yaml
   label: Signal Registration API
   slug: signal-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-registration-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-registration-api-openapi.yml
 - filename: signal-stickers-api-openapi.yml
   format: yaml
   label: Signal Stickers API
   slug: signal-stickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/openapi/signal-stickers-api-openapi.yml
+  url: https://artifacts.apis.io/signal/openapi/signal-stickers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/signal
   \ required\n- path: /v1/devices/{deviceId}\n  method: delete\n  operationId: removeDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/messages/{destinationUuid}\n  method: put\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/keys\n  method: get\n  operationId: getPreKeyCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v2/keys\n  method: put\n  operationId: setKeys\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/keys/{identifier}/{deviceId}\n  method: get\n  operationId: getDeviceKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/profile/{identifier}\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/profile\n  method: put\n  operationId: setProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/attachments/form/upload\n  method: get\n  operationId: getAttachmentUploadForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sticker/pack/form/{packSize}\n  method: get\n  operationId: getStickerPackUploadForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/certificate/delivery\n  method: get\n  operationId: getDeliveryCertificate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/agentic-access/signal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/signal/agentic-access/signal-agentic-access.yml
 summary_line: 18 operations · 9 acting
 tags:
 - Encryption

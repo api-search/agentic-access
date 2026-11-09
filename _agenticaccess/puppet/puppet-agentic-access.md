@@ -9,13 +9,13 @@ api_specs:
   label: Puppet Commands API
   slug: puppet-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-commands-api-openapi.yml
+  url: https://artifacts.apis.io/puppet/openapi/puppet-commands-api-openapi.yml
 - filename: puppet-jobs-api-openapi.yml
   format: yaml
   label: Puppet Jobs API
   slug: puppet-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/openapi/puppet-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/puppet/openapi/puppet-jobs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/puppet
   \    audit: required\n- path: /command/environment_plan_run\n  method: post\n  operationId: commandEnvironmentPlanRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /command/stop\n  method: post\n  operationId: commandStop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /command/stop_plan\n  method: post\n  operationId: commandStopPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{job_id}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{job_id}/nodes\n  method: get\n  operationId: getJobNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{job_id}/report\n  method: get\n  operationId: getJobReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /jobs/{job_id}/events\n  method: get\n  operationId: getJobEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/agentic-access/puppet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/puppet/agentic-access/puppet-agentic-access.yml
 summary_line: 12 operations · 7 acting · 2 human-in-the-loop
 tags:
 - Automation

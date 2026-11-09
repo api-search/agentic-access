@@ -9,73 +9,73 @@ api_specs:
   label: Workday Advanced Compensation Bonus Plans API
   slug: workday-advanced-compensation-bonus-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-bonus-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/_ae-authored/workday-advanced-compensation-bonus-plans-api-openapi.yml
 - filename: workday-advanced-compensation-compensation-budgets-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Budgets API
   slug: workday-advanced-compensation-compensation-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-compensation-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/_ae-authored/workday-advanced-compensation-compensation-budgets-api-openapi.yml
 - filename: workday-advanced-compensation-compensation-grades-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Grades API
   slug: workday-advanced-compensation-compensation-grades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-compensation-grades-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/_ae-authored/workday-advanced-compensation-compensation-grades-api-openapi.yml
 - filename: workday-advanced-compensation-compensation-plans-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Plans API
   slug: workday-advanced-compensation-compensation-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-compensation-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/_ae-authored/workday-advanced-compensation-compensation-plans-api-openapi.yml
 - filename: workday-advanced-compensation-compensation-reviews-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Reviews API
   slug: workday-advanced-compensation-compensation-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-compensation-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/_ae-authored/workday-advanced-compensation-compensation-reviews-api-openapi.yml
 - filename: workday-advanced-compensation-employee-compensation-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Employee Compensation API
   slug: workday-advanced-compensation-employee-compensation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-employee-compensation-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/_ae-authored/workday-advanced-compensation-employee-compensation-api-openapi.yml
 - filename: workday-advanced-compensation-merit-plans-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Merit Plans API
   slug: workday-advanced-compensation-merit-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-merit-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/_ae-authored/workday-advanced-compensation-merit-plans-api-openapi.yml
 - filename: workday-advanced-compensation-stock-plans-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Stock Plans API
   slug: workday-advanced-compensation-stock-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-stock-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/_ae-authored/workday-advanced-compensation-stock-plans-api-openapi.yml
 - filename: workday-advanced-compensation-prompt-values-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Prompt Values API
   slug: workday-advanced-compensation-prompt-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-prompt-values-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/workday-advanced-compensation-prompt-values-api-openapi.yml
 - filename: workday-advanced-compensation-scorecardresults-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Scorecard Results API
   slug: workday-advanced-compensation-scorecardresults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-scorecardresults-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/workday-advanced-compensation-scorecardresults-api-openapi.yml
 - filename: workday-advanced-compensation-scorecards-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Scorecards API
   slug: workday-advanced-compensation-scorecards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-scorecards-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/workday-advanced-compensation-scorecards-api-openapi.yml
 - filename: workday-advanced-compensation-workers-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Workers API
   slug: workday-advanced-compensation-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-workers-api-openapi.yml
+  url: https://artifacts.apis.io/workday-advanced-compensation/openapi/workday-advanced-compensation-workers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/workda
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scorecards/{ID}\n  method: get\n  operationId: getScorecardsByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scorecards/{ID}\n  method: put\n  operationId: putScorecardsByID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scorecards/{ID}\n  method: delete\n  operationId: deleteScorecardsByID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stockPlans\n  method: get\n  operationId: listStockPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers\n  method: get\n  operationId: getWorkers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{ID}/requestOneTimePayment\n  method: post\n  operationId: postWorkersByIDRequestOneTimePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /workers/{ID}\n  method: get\n  operationId: getWorkersByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/agentic-access/workday-advanced-compensation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workday-advanced-compensation/agentic-access/workday-advanced-compensation-agentic-access.yml
 summary_line: 25 operations · 8 acting
 tags:
 - Compensation

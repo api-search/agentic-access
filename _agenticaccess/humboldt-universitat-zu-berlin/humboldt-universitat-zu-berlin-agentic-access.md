@@ -8,31 +8,31 @@ api_specs:
   label: edoc-Server DSpace REST API
   slug: edoc-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-core-api-openapi.yml
+  url: https://artifacts.apis.io/humboldt-universitat-zu-berlin/openapi/humboldt-universitat-zu-berlin-core-api-openapi.yml
 - filename: humboldt-universitat-zu-berlin-oai-pmh-api-openapi.yml
   format: yaml
   label: edoc-Server OAI-PMH 2.0 Interface
   slug: edoc-oai
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/humboldt-universitat-zu-berlin/openapi/humboldt-universitat-zu-berlin-oai-pmh-api-openapi.yml
 - filename: humboldt-universitat-zu-berlin-annotations-api-openapi.yml
   format: yaml
   label: Humboldt-Universität zu Berlin Annotations API
   slug: humboldt-universitat-zu-berlin-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/humboldt-universitat-zu-berlin/openapi/humboldt-universitat-zu-berlin-annotations-api-openapi.yml
 - filename: humboldt-universitat-zu-berlin-corpora-api-openapi.yml
   format: yaml
   label: Humboldt-Universität zu Berlin Corpora API
   slug: humboldt-universitat-zu-berlin-corpora-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-corpora-api-openapi.yml
+  url: https://artifacts.apis.io/humboldt-universitat-zu-berlin/openapi/humboldt-universitat-zu-berlin-corpora-api-openapi.yml
 - filename: humboldt-universitat-zu-berlin-documents-api-openapi.yml
   format: yaml
   label: Humboldt-Universität zu Berlin Documents API
   slug: humboldt-universitat-zu-berlin-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/openapi/humboldt-universitat-zu-berlin-documents-api-openapi.yml
+  url: https://artifacts.apis.io/humboldt-universitat-zu-berlin/openapi/humboldt-universitat-zu-berlin-documents-api-openapi.yml
 consequence_counts:
   read: 31
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/humbol
   \    audit: none\n- path: /discover/search/objects\n  method: get\n  operationId: searchObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/elasticapi/v1/documents\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/elasticapi/v1/documents/latest/count\n  method: get\n  operationId: countLatestDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/elasticapi/v1/documents/latest/{from}/{size}\n  method: get\n  operationId: listLatestDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/elasticapi/v1/documents/latest/searchMain\n\
   \  method: get\n  operationId: searchLatestDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/elasticapi/v1/documents/latest/searchMain/count\n  method: get\n  operationId: countSearchLatestDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/elasticapi/v1/documents/{id}/{index}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/elasticapi/v1/documents/{id}/{index}/annotations\n  method: get\n  operationId: getDocumentAnnotations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /request\n  method: get\n\
   \  operationId: oaiRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: getApiRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/agentic-access/humboldt-universitat-zu-berlin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/humboldt-universitat-zu-berlin/agentic-access/humboldt-universitat-zu-berlin-agentic-access.yml
 summary_line: 31 operations
 tags:
 - University

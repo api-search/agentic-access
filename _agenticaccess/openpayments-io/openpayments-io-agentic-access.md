@@ -9,67 +9,67 @@ api_specs:
   label: Open Payments Account Information Service (AIS) API
   slug: openpayments-io-account-information-service-ais-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-account-information-service-ais-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-account-information-service-ais-api-openapi.yml
 - filename: openpayments-io-aspsp-information-service-api-openapi.yml
   format: yaml
   label: Open Payments ASPSP Information Service API
   slug: openpayments-io-aspsp-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-aspsp-information-service-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-aspsp-information-service-api-openapi.yml
 - filename: openpayments-io-bankgiro-lookup-api-openapi.yml
   format: yaml
   label: Open Payments Bankgiro Lookup API
   slug: openpayments-io-bankgiro-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-bankgiro-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-bankgiro-lookup-api-openapi.yml
 - filename: openpayments-io-consent-service-api-openapi.yml
   format: yaml
   label: Open Payments Consent Service API
   slug: openpayments-io-consent-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-consent-service-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-consent-service-api-openapi.yml
 - filename: openpayments-io-fx-connect-api-openapi.yml
   format: yaml
   label: Open Payments FX Connect API
   slug: openpayments-io-fx-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-fx-connect-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-fx-connect-api-openapi.yml
 - filename: openpayments-io-iso-payments-api-openapi.yml
   format: yaml
   label: Open Payments ISO Payments API
   slug: openpayments-io-iso-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-iso-payments-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-iso-payments-api-openapi.yml
 - filename: openpayments-io-kyc-service-api-openapi.yml
   format: yaml
   label: Open Payments KYC Service API
   slug: openpayments-io-kyc-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-kyc-service-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-kyc-service-api-openapi.yml
 - filename: openpayments-io-payment-initiation-service-pis-api-openapi.yml
   format: yaml
   label: Open Payments Payment Initiation Service (PIS) API
   slug: openpayments-io-payment-initiation-service-pis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-payment-initiation-service-pis-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-payment-initiation-service-pis-api-openapi.yml
 - filename: openpayments-io-payout-service-api-openapi.yml
   format: yaml
   label: Open Payments Payout Service API
   slug: openpayments-io-payout-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-payout-service-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-payout-service-api-openapi.yml
 - filename: openpayments-io-sepa-direct-debit-api-openapi.yml
   format: yaml
   label: Open Payments SEPA Direct Debit API
   slug: openpayments-io-sepa-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-sepa-direct-debit-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-sepa-direct-debit-api-openapi.yml
 - filename: openpayments-io-verification-of-payee-vop-api-openapi.yml
   format: yaml
   label: Open Payments Verification of Payee (VoP) API
   slug: openpayments-io-verification-of-payee-vop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-verification-of-payee-vop-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-verification-of-payee-vop-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 32
@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/openpa
   \  method: get\n  operationId: getConsentAuthorisation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accountinformation bankgiroinformation corporate\n    - accountinformation corporate\n    - accountinformation private\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /psd2/consent/v1/consents/{consentId}/authorisations/{authorisationId}\n  method: get\n  operationId: getConsentScaStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accountinformation bankgiroinformation corporate\n    - accountinformation corporate\n    - accountinformation private\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /psd2/consent/v1/consents/{consentId}/authorisations/{authorisationId}\n  method: put\n  operationId: updateConsentsPsuData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    -\
   \ accountinformation bankgiroinformation corporate\n    - accountinformation corporate\n    - accountinformation private\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /psd2/aspspinformation/v1/aspsps\n  method: get\n  operationId: getASPSPList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - aspspinformation corporate\n    - aspspinformation private\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /psd2/aspspinformation/v1/aspsps/{bicFi}\n  method: get\n  operationId: getASPSPDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - aspspinformation corporate\n    - aspspinformation private\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /psd2/aspspinformation/v1/countries\n  method: get\n  operationId:\
   \ getCountriesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - aspspinformation corporate\n    - aspspinformation private\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/status\n  method: get\n  operationId: getObpStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accountinformation corporate\n    - accountinformation private\n    - paymentinitiation corporate\n    - paymentinitiation private\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/agentic-access/openpayments-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openpayments-io/agentic-access/openpayments-io-agentic-access.yml
 summary_line: 57 operations · 25 acting
 tags:
 - Company

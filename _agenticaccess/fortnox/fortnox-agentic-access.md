@@ -9,73 +9,73 @@ api_specs:
   label: Fortnox Topics WebSocket API
   slug: fortnox-topics-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/asyncapi/fortnox-asyncapi.yml
+  url: https://artifacts.apis.io/fortnox/asyncapi/fortnox-asyncapi.yml
 - filename: fortnox-accounts-api-openapi.yml
   format: yaml
   label: Fortnox Accounts API
   slug: fortnox-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-accounts-api-openapi.yml
 - filename: fortnox-articles-api-openapi.yml
   format: yaml
   label: Fortnox Articles API
   slug: fortnox-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-articles-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-articles-api-openapi.yml
 - filename: fortnox-customers-api-openapi.yml
   format: yaml
   label: Fortnox Customers API
   slug: fortnox-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-customers-api-openapi.yml
 - filename: fortnox-financial-years-api-openapi.yml
   format: yaml
   label: Fortnox Financial Years API
   slug: fortnox-financial-years-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-financial-years-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-financial-years-api-openapi.yml
 - filename: fortnox-invoices-api-openapi.yml
   format: yaml
   label: Fortnox Invoices API
   slug: fortnox-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-invoices-api-openapi.yml
 - filename: fortnox-offers-api-openapi.yml
   format: yaml
   label: Fortnox Offers API
   slug: fortnox-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-offers-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-offers-api-openapi.yml
 - filename: fortnox-orders-api-openapi.yml
   format: yaml
   label: Fortnox Orders API
   slug: fortnox-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-orders-api-openapi.yml
 - filename: fortnox-projects-api-openapi.yml
   format: yaml
   label: Fortnox Projects API
   slug: fortnox-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-projects-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-projects-api-openapi.yml
 - filename: fortnox-supplier-invoices-api-openapi.yml
   format: yaml
   label: Fortnox Supplier Invoices API
   slug: fortnox-supplier-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-supplier-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-supplier-invoices-api-openapi.yml
 - filename: fortnox-suppliers-api-openapi.yml
   format: yaml
   label: Fortnox Suppliers API
   slug: fortnox-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-suppliers-api-openapi.yml
 - filename: fortnox-vouchers-api-openapi.yml
   format: yaml
   label: Fortnox Vouchers API
   slug: fortnox-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/openapi/fortnox-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/fortnox/openapi/fortnox-vouchers-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 21
@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fortno
   \  method: put\n  operationId: updateSupplier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /supplierinvoices\n  method: get\n  operationId: listSupplierInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /supplierinvoices\n  method: post\n  operationId: createSupplierInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /supplierinvoices/{GivenNumber}\n\
   \  method: get\n  operationId: getSupplierInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{ProjectNumber}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{ProjectNumber}\n\
   \  method: put\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{ProjectNumber}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/agentic-access/fortnox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fortnox/agentic-access/fortnox-agentic-access.yml
 summary_line: 42 operations · 21 acting
 tags:
 - Accounting

@@ -9,43 +9,43 @@ api_specs:
   label: Accelo Activities API
   slug: accelo-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-activities-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-activities-api-openapi.yml
 - filename: accelo-companies-api-openapi.yml
   format: yaml
   label: Accelo Companies API
   slug: accelo-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-companies-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-companies-api-openapi.yml
 - filename: accelo-contacts-api-openapi.yml
   format: yaml
   label: Accelo Contacts API
   slug: accelo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-contacts-api-openapi.yml
 - filename: accelo-issues-api-openapi.yml
   format: yaml
   label: Accelo Issues API
   slug: accelo-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-issues-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-issues-api-openapi.yml
 - filename: accelo-jobs-api-openapi.yml
   format: yaml
   label: Accelo Jobs API
   slug: accelo-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-jobs-api-openapi.yml
 - filename: accelo-tasks-api-openapi.yml
   format: yaml
   label: Accelo Tasks API
   slug: accelo-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-tasks-api-openapi.yml
 - filename: accelo-oauth-api-openapi.yml
   format: yaml
   label: Accelo O Auth API
   slug: accelo-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/accelo/openapi/accelo-oauth-api-openapi.yml
 consequence_counts:
   read: 15
   write: 14
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/accelo
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{job_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{job_id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues/{issue_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues/{issue_id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{task_id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokeninfo\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/agentic-access/accelo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/accelo/agentic-access/accelo-agentic-access.yml
 summary_line: 29 operations · 14 acting
 tags:
 - Professional Services Automation

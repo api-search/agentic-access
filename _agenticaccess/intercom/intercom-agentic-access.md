@@ -9,55 +9,55 @@ api_specs:
   label: Intercom Admins API
   slug: intercom-admins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-admins-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-admins-api-openapi.yml
 - filename: intercom-articles-api-openapi.yml
   format: yaml
   label: Intercom Articles API
   slug: intercom-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-articles-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-articles-api-openapi.yml
 - filename: intercom-companies-api-openapi.yml
   format: yaml
   label: Intercom Companies API
   slug: intercom-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-companies-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-companies-api-openapi.yml
 - filename: intercom-contacts-api-openapi.yml
   format: yaml
   label: Intercom Contacts API
   slug: intercom-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-contacts-api-openapi.yml
 - filename: intercom-conversations-api-openapi.yml
   format: yaml
   label: Intercom Conversations API
   slug: intercom-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-conversations-api-openapi.yml
 - filename: intercom-data-events-api-openapi.yml
   format: yaml
   label: Intercom Data Events API
   slug: intercom-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-data-events-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-data-events-api-openapi.yml
 - filename: intercom-messages-api-openapi.yml
   format: yaml
   label: Intercom Messages API
   slug: intercom-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-messages-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-messages-api-openapi.yml
 - filename: intercom-news-api-openapi.yml
   format: yaml
   label: Intercom News API
   slug: intercom-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-news-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-news-api-openapi.yml
 - filename: intercom-segments-api-openapi.yml
   format: yaml
   label: Intercom Segments API
   slug: intercom-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/openapi/intercom-segments-api-openapi.yml
+  url: https://artifacts.apis.io/intercom/openapi/intercom-segments-api-openapi.yml
 consequence_counts:
   read: 11
   write: 7
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/interc
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /articles\n  method: get\n  operationId: listArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /articles\n  method: post\n  operationId: createArticle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /segments\n  method: get\n  operationId: listSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messages\n  method: post\n  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: post\n  operationId: submitEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/news_items\n  method: get\n  operationId: listNewsItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/news_items\n  method: post\n  operationId: createNewsItem\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/agentic-access/intercom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/intercom/agentic-access/intercom-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - Artificial Intelligence

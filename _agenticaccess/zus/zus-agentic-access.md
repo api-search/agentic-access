@@ -9,31 +9,31 @@ api_specs:
   label: Zus Health Auth API
   slug: zus-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-auth-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-auth-api-openapi.yml
 - filename: zus-documents-api-openapi.yml
   format: yaml
   label: Zus Health Documents API
   slug: zus-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-documents-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-documents-api-openapi.yml
 - filename: zus-fhir-api-openapi.yml
   format: yaml
   label: Zus Health FHIR API
   slug: zus-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-fhir-api-openapi.yml
 - filename: zus-patient-api-openapi.yml
   format: yaml
   label: Zus Health Patient API
   slug: zus-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-patient-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-patient-api-openapi.yml
 - filename: zus-patient-history-api-openapi.yml
   format: yaml
   label: Zus Health Patient History API
   slug: zus-patient-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/openapi/zus-patient-history-api-openapi.yml
+  url: https://artifacts.apis.io/zus/openapi/zus-patient-history-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zus-op
   \ /fhir/{resourceType}\n  method: get\n  operationId: searchResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/{resourceType}\n  method: post\n  operationId: createResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fhir/{resourceType}/{id}\n  method: get\n  operationId: readResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/{resourceType}/{id}\n  method: delete\n  operationId: deleteResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fhir\n  method: post\n  operationId: submitBundle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /patient-history/jobs\n  method: post\n  operationId: createPatientHistoryJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /patient-history/jobs\n  method: get\n  operationId: listPatientHistoryJobs\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient-history/jobs/{jobId}\n  method: get\n  operationId: getPatientHistoryJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/DocumentReference/{id}\n  method: get\n  operationId: readDocumentReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/Binary/{id}\n  method: get\n  operationId: readBinary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/agentic-access/zus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zus/agentic-access/zus-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Health

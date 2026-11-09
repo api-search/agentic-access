@@ -9,97 +9,97 @@ api_specs:
   label: National Archives and Records Administration (NARA) Accounts API
   slug: national-archives-and-records-administration-nara--accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--accounts-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--accounts-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--announcements-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Announcements API
   slug: national-archives-and-records-administration-nara--announcements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--announcements-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--announcements-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--comments-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Comments API
   slug: national-archives-and-records-administration-nara--comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--comments-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--comments-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--contributions-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Contributions API
   slug: national-archives-and-records-administration-nara--contributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--contributions-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--contributions-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--extracted-text-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Extracted Text API
   slug: national-archives-and-records-administration-nara--extracted-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--extracted-text-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--extracted-text-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--justifications-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Justifications API
   slug: national-archives-and-records-administration-nara--justifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--justifications-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--justifications-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--metadata-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Metadata API
   slug: national-archives-and-records-administration-nara--metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--metadata-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--metadata-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--online-availability-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Online Availability API
   slug: national-archives-and-records-administration-nara--online-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--online-availability-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--online-availability-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--other-extracted-text-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Other Extracted Text API
   slug: national-archives-and-records-administration-nara--other-extracted-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--other-extracted-text-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--other-extracted-text-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--partner-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Partner API
   slug: national-archives-and-records-administration-nara--partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--partner-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--partner-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--records-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Records API
   slug: national-archives-and-records-administration-nara--records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--records-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--records-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--statistics-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Statistics API
   slug: national-archives-and-records-administration-nara--statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--statistics-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--statistics-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--tags-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Tags API
   slug: national-archives-and-records-administration-nara--tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--tags-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--tags-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--transcriptions-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Transcriptions API
   slug: national-archives-and-records-administration-nara--transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--transcriptions-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--users-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Users API
   slug: national-archives-and-records-administration-nara--users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--users-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--users-api-openapi.yml
 - filename: national-archives-and-records-administration-nara--utilities-api-openapi.yml
   format: yaml
   label: National Archives and Records Administration (NARA) Utilities API
   slug: national-archives-and-records-administration-nara--utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/openapi/national-archives-and-records-administration-nara--utilities-api-openapi.yml
+  url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/openapi/national-archives-and-records-administration-nara--utilities-api-openapi.yml
 consequence_counts:
   read: 44
   write: 20
@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nation
   \      - high-value\n    audit: required\n- path: /transcriptions/\n  method: post\n  operationId: postTranscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transcriptions/history/:parentContributionId\n  method: post\n  operationId: postTranscriptionsHistory:parentContributionId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transcriptions/:contributionId/justificationId/:justificationId\n  method: delete\n  operationId: deleteTranscriptions:contributionIdJustificationId:justificationId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transcriptions/:contributionId/justificationId/:justificationId\n  method: post\n  operationId: postTranscriptions:contributionIdJustificationId:justificationId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: patch\n  operationId: patchUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/username\n  method: patch\n  operationId: patchUsersUsername\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/notifications/:userId\n  method: get\n  operationId: getUsersNotifications:userId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fetch-coords\n  method: post\n  operationId: postFetchCoords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/agentic-access/national-archives-and-records-administration-nara--agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/national-archives-and-records-administration-nara-/agentic-access/national-archives-and-records-administration-nara--agentic-access.yml
 summary_line: 64 operations · 20 acting
 tags:
 - Archives

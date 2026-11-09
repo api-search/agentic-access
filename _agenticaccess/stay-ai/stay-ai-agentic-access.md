@@ -9,49 +9,49 @@ api_specs:
   label: Stay AI Account API
   slug: stay-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/stay-ai/openapi/stay-ai-account-api-openapi.yml
 - filename: stay-ai-catalog-api-openapi.yml
   format: yaml
   label: Stay AI Catalog API
   slug: stay-ai-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/stay-ai/openapi/stay-ai-catalog-api-openapi.yml
 - filename: stay-ai-customer-portal-api-openapi.yml
   format: yaml
   label: Stay AI Customer Portal API
   slug: stay-ai-customer-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-customer-portal-api-openapi.yml
+  url: https://artifacts.apis.io/stay-ai/openapi/stay-ai-customer-portal-api-openapi.yml
 - filename: stay-ai-data-export-api-openapi.yml
   format: yaml
   label: Stay AI Data Export API
   slug: stay-ai-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/stay-ai/openapi/stay-ai-data-export-api-openapi.yml
 - filename: stay-ai-orders-api-openapi.yml
   format: yaml
   label: Stay AI Orders API
   slug: stay-ai-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-orders-api-openapi.yml
+  url: https://artifacts.apis.io/stay-ai/openapi/stay-ai-orders-api-openapi.yml
 - filename: stay-ai-selling-plans-api-openapi.yml
   format: yaml
   label: Stay AI Selling Plans API
   slug: stay-ai-selling-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-selling-plans-api-openapi.yml
+  url: https://artifacts.apis.io/stay-ai/openapi/stay-ai-selling-plans-api-openapi.yml
 - filename: stay-ai-subscriptions-api-openapi.yml
   format: yaml
   label: Stay AI Subscriptions API
   slug: stay-ai-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/stay-ai/openapi/stay-ai-subscriptions-api-openapi.yml
 - filename: stay-ai-webhooks-api-openapi.yml
   format: yaml
   label: Stay AI Webhooks API
   slug: stay-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/openapi/stay-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/stay-ai/openapi/stay-ai-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stay-a
   \    audit: none\n- path: /selling-plan-groups\n  method: post\n  operationId: create-selling-plan-group\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /selling-plan-groups/{sellingPlanGroupId}\n  method: get\n  operationId: query-selling-plan-group-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selling-plan-groups/{sellingPlanGroupId}\n  method: put\n  operationId: update-selling-plan-group\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /products/catalog\n  method: get\n  operationId: get-catalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}\n  method: get\n  operationId: get-catalog-product-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings\n  method: get\n  operationId: query-account-settings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/export\n  method: post\n  operationId: export-data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: get-webhook-subscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: create-webhook-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: delete-webhook-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/agentic-access/stay-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stay-ai/agentic-access/stay-ai-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - Subscription

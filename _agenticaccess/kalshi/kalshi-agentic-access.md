@@ -21,103 +21,103 @@ api_specs:
   label: Kalshi Account API
   slug: kalshi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-account-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-account-api-openapi.yml
 - filename: kalshi-api-keys-api-openapi.yml
   format: yaml
   label: Kalshi API Keys API
   slug: kalshi-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-api-keys-api-openapi.yml
 - filename: kalshi-communications-api-openapi.yml
   format: yaml
   label: Kalshi Communications API
   slug: kalshi-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-communications-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-communications-api-openapi.yml
 - filename: kalshi-events-api-openapi.yml
   format: yaml
   label: Kalshi Events API
   slug: kalshi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-events-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-events-api-openapi.yml
 - filename: kalshi-exchange-api-openapi.yml
   format: yaml
   label: Kalshi Exchange API
   slug: kalshi-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-exchange-api-openapi.yml
 - filename: kalshi-fcm-api-openapi.yml
   format: yaml
   label: Kalshi Fcm API
   slug: kalshi-fcm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-fcm-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-fcm-api-openapi.yml
 - filename: kalshi-historical-api-openapi.yml
   format: yaml
   label: Kalshi Historical API
   slug: kalshi-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-historical-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-historical-api-openapi.yml
 - filename: kalshi-incentive-programs-api-openapi.yml
   format: yaml
   label: Kalshi Incentive Programs API
   slug: kalshi-incentive-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-incentive-programs-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-incentive-programs-api-openapi.yml
 - filename: kalshi-live-data-api-openapi.yml
   format: yaml
   label: Kalshi Live Data API
   slug: kalshi-live-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-live-data-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-live-data-api-openapi.yml
 - filename: kalshi-market-api-openapi.yml
   format: yaml
   label: Kalshi Market API
   slug: kalshi-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-market-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-market-api-openapi.yml
 - filename: kalshi-milestone-api-openapi.yml
   format: yaml
   label: Kalshi Milestone API
   slug: kalshi-milestone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-milestone-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-milestone-api-openapi.yml
 - filename: kalshi-multivariate-api-openapi.yml
   format: yaml
   label: Kalshi Multivariate API
   slug: kalshi-multivariate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-multivariate-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-multivariate-api-openapi.yml
 - filename: kalshi-order-groups-api-openapi.yml
   format: yaml
   label: Kalshi Order Groups API
   slug: kalshi-order-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-order-groups-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-order-groups-api-openapi.yml
 - filename: kalshi-orders-api-openapi.yml
   format: yaml
   label: Kalshi Orders API
   slug: kalshi-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-orders-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-orders-api-openapi.yml
 - filename: kalshi-portfolio-api-openapi.yml
   format: yaml
   label: Kalshi Portfolio API
   slug: kalshi-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-portfolio-api-openapi.yml
 - filename: kalshi-search-api-openapi.yml
   format: yaml
   label: Kalshi Search API
   slug: kalshi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-search-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-search-api-openapi.yml
 - filename: kalshi-structured-targets-api-openapi.yml
   format: yaml
   label: Kalshi Structured Targets API
   slug: kalshi-structured-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/openapi/kalshi-structured-targets-api-openapi.yml
+  url: https://artifacts.apis.io/kalshi/openapi/kalshi-structured-targets-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 67
@@ -267,7 +267,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kalshi
   \      max-ttl: 3600\n    audit: none\n- path: /incentive_programs\n  method: get\n  operationId: GetIncentivePrograms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fcm/orders\n  method: get\n  operationId: GetFCMOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fcm/positions\n  method: get\n  operationId: GetFCMPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/cutoff\n  method: get\n  operationId: GetHistoricalCutoff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/markets/{ticker}/candlesticks\n  method: get\n  operationId:\
   \ GetMarketCandlesticksHistorical\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/fills\n  method: get\n  operationId: GetFillsHistorical\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/orders\n  method: get\n  operationId: GetHistoricalOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/trades\n  method: get\n  operationId: GetTradesHistorical\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/markets\n  method: get\n  operationId: GetHistoricalMarkets\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/markets/{ticker}\n  method: get\n  operationId: GetHistoricalMarket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/agentic-access/kalshi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kalshi/agentic-access/kalshi-agentic-access.yml
 summary_line: 98 operations · 31 acting · 1 human-in-the-loop
 tags:
 - Prediction Markets

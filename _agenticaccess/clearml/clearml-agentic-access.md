@@ -9,49 +9,49 @@ api_specs:
   label: ClearML Auth API
   slug: clearml-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-auth-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-auth-api-openapi.yml
 - filename: clearml-debug-api-openapi.yml
   format: yaml
   label: ClearML Debug API
   slug: clearml-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-debug-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-debug-api-openapi.yml
 - filename: clearml-events-api-openapi.yml
   format: yaml
   label: ClearML Events API
   slug: clearml-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-events-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-events-api-openapi.yml
 - filename: clearml-models-api-openapi.yml
   format: yaml
   label: ClearML Models API
   slug: clearml-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-models-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-models-api-openapi.yml
 - filename: clearml-projects-api-openapi.yml
   format: yaml
   label: ClearML Projects API
   slug: clearml-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-projects-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-projects-api-openapi.yml
 - filename: clearml-queues-api-openapi.yml
   format: yaml
   label: ClearML Queues API
   slug: clearml-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-queues-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-queues-api-openapi.yml
 - filename: clearml-tasks-api-openapi.yml
   format: yaml
   label: ClearML Tasks API
   slug: clearml-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-tasks-api-openapi.yml
 - filename: clearml-workers-api-openapi.yml
   format: yaml
   label: ClearML Workers API
   slug: clearml-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/openapi/clearml-workers-api-openapi.yml
+  url: https://artifacts.apis.io/clearml/openapi/clearml-workers-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 3
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/clearm
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks.stopped\n  method: post\n  operationId: tasksStopped\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tasks.completed\n  method: post\n  operationId: tasksCompleted\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks.failed\n  method: post\n  operationId:\
   \ tasksFailed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks.reset\n  method: post\n  operationId: tasksReset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tasks.publish\n  method: post\n  operationId: tasksPublish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /tasks.add_or_update_artifacts\n  method: post\n  operationId: tasksAddOrUpdateArtifacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers.get_all\n  method: post\n  operationId: workersGetAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/agentic-access/clearml-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clearml/agentic-access/clearml-agentic-access.yml
 summary_line: 34 operations · 25 acting · 3 human-in-the-loop
 tags:
 - Machine Learning

@@ -9,13 +9,13 @@ api_specs:
   label: Turborepo Analytics API
   slug: turborepo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/openapi/turborepo-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/turborepo/openapi/turborepo-analytics-api-openapi.yml
 - filename: turborepo-artifacts-api-openapi.yml
   format: yaml
   label: Turborepo Artifacts API
   slug: turborepo-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/openapi/turborepo-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/turborepo/openapi/turborepo-artifacts-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/turborepo-analytics-api-openapi.yml, openapi/turborepo-artifacts-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 2\n    connected: 4\n  by_consequence:\n    write: 2\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /artifacts/events\n  method: post\n  operationId: recordCacheEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /artifacts/status\n  method: get\n  operationId: getArtifactStatus\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artifacts/{hash}\n  method: head\n  operationId: artifactExists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artifacts/{hash}\n  method: get\n  operationId: downloadArtifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artifacts/{hash}\n  method: put\n  operationId: uploadArtifact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /artifacts\n  method: post\n  operationId: queryArtifacts\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/agentic-access/turborepo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/turborepo/agentic-access/turborepo-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Build Systems

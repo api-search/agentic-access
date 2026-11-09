@@ -9,25 +9,163 @@ api_specs:
   label: EagleView Order Adjustments API
   slug: eagleview-order-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eagleview/refs/heads/main/openapi/eagleview-order-adjustments-api-openapi.yml
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-order-adjustments-api-openapi.yml
 - filename: eagleview-order-status-api-openapi.yml
   format: yaml
   label: EagleView Order Status API
   slug: eagleview-order-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eagleview/refs/heads/main/openapi/eagleview-order-status-api-openapi.yml
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-order-status-api-openapi.yml
 - filename: eagleview-ordering-api-openapi.yml
   format: yaml
   label: EagleView Ordering API
   slug: eagleview-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eagleview/refs/heads/main/openapi/eagleview-ordering-api-openapi.yml
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-ordering-api-openapi.yml
 - filename: eagleview-retrieving-files-api-openapi.yml
   format: yaml
   label: EagleView Retrieving Files API
   slug: eagleview-retrieving-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eagleview/refs/heads/main/openapi/eagleview-retrieving-files-api-openapi.yml
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-retrieving-files-api-openapi.yml
+- filename: eagleview-discovery-api-openapi.yml
+  format: yaml
+  label: EagleView Discovery API
+  slug: eagleview-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-discovery-api-openapi.yml
+- filename: eagleview-eviwapi-api-openapi.yml
+  format: yaml
+  label: EagleView Eviw API
+  slug: eagleview-eviwapi-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-eviwapi-api-openapi.yml
+- filename: eagleview-exports-api-openapi.yml
+  format: yaml
+  label: EagleView Exports API
+  slug: eagleview-exports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-exports-api-openapi.yml
+- filename: eagleview-get-capabilities-api-openapi.yml
+  format: yaml
+  label: EagleView Get Capabilities API
+  slug: eagleview-get-capabilities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-get-capabilities-api-openapi.yml
+- filename: eagleview-get-property-data-api-openapi.yml
+  format: yaml
+  label: EagleView Get Property Data API
+  slug: eagleview-get-property-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-get-property-data-api-openapi.yml
+- filename: eagleview-get-property-data-bulk-api-openapi.yml
+  format: yaml
+  label: EagleView Get Property Data (Bulk) API
+  slug: eagleview-get-property-data-bulk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-get-property-data-bulk-api-openapi.yml
+- filename: eagleview-get-property-summary-data-api-openapi.yml
+  format: yaml
+  label: EagleView Get Property Summary Data API
+  slug: eagleview-get-property-summary-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-get-property-summary-data-api-openapi.yml
+- filename: eagleview-get-property-summary-data-bulk-api-openapi.yml
+  format: yaml
+  label: EagleView Get Property Summary Data (Bulk) API
+  slug: eagleview-get-property-summary-data-bulk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-get-property-summary-data-bulk-api-openapi.yml
+- filename: eagleview-get-request-status-api-openapi.yml
+  format: yaml
+  label: EagleView Get Request Status API
+  slug: eagleview-get-request-status-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-get-request-status-api-openapi.yml
+- filename: eagleview-get-results-api-openapi.yml
+  format: yaml
+  label: EagleView Get Results API
+  slug: eagleview-get-results-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-get-results-api-openapi.yml
+- filename: eagleview-gettile-api-openapi.yml
+  format: yaml
+  label: EagleView Get Tile API
+  slug: eagleview-gettile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-gettile-api-openapi.yml
+- filename: eagleview-image-retrieval-api-openapi.yml
+  format: yaml
+  label: EagleView Image Retrieval API
+  slug: eagleview-image-retrieval-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-image-retrieval-api-openapi.yml
+- filename: eagleview-launch-api-openapi.yml
+  format: yaml
+  label: EagleView Launch API
+  slug: eagleview-launch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-launch-api-openapi.yml
+- filename: eagleview-management-api-openapi.yml
+  format: yaml
+  label: EagleView Management API
+  slug: eagleview-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-management-api-openapi.yml
+- filename: eagleview-oauth2-api-openapi.yml
+  format: yaml
+  label: EagleView O Auth2 API
+  slug: eagleview-oauth2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-oauth2-api-openapi.yml
+- filename: eagleview-optimization-api-openapi.yml
+  format: yaml
+  label: EagleView Optimization API
+  slug: eagleview-optimization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-optimization-api-openapi.yml
+- filename: eagleview-product-availability-api-openapi.yml
+  format: yaml
+  label: EagleView Product Availability API
+  slug: eagleview-product-availability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-product-availability-api-openapi.yml
+- filename: eagleview-request-property-data-api-openapi.yml
+  format: yaml
+  label: EagleView Request Property Data API
+  slug: eagleview-request-property-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-request-property-data-api-openapi.yml
+- filename: eagleview-request-property-data-bulk-api-openapi.yml
+  format: yaml
+  label: EagleView Request Property Data (Bulk) API
+  slug: eagleview-request-property-data-bulk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-request-property-data-bulk-api-openapi.yml
+- filename: eagleview-request-property-summary-data-api-openapi.yml
+  format: yaml
+  label: EagleView Request Property Summary Data API
+  slug: eagleview-request-property-summary-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-request-property-summary-data-api-openapi.yml
+- filename: eagleview-request-property-summary-data-bulk-api-openapi.yml
+  format: yaml
+  label: EagleView Request Property Summary Data (Bulk) API
+  slug: eagleview-request-property-summary-data-bulk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-request-property-summary-data-bulk-api-openapi.yml
+- filename: eagleview-roof-api-openapi.yml
+  format: yaml
+  label: EagleView Roof API
+  slug: eagleview-roof-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-roof-api-openapi.yml
+- filename: eagleview-settings-api-openapi.yml
+  format: yaml
+  label: EagleView Settings API
+  slug: eagleview-settings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eagleview/openapi/eagleview-settings-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 12
@@ -102,7 +240,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/measur
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/Report/DenyReportTypeChange\n  method: post\n  operationId: POST /v2/Report/DenyReportTypeChange\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/Report/CloseReport\n  method: post\n  operationId: POST /v2/Report/CloseReport\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/File/GetReportFile\n  method: get\n\
   \  operationId: GET /v1/File/GetReportFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/File/GetReportFileAnyFormat\n  method: get\n  operationId: GET /v1/File/GetReportFileAnyFormat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /FileDelivery\n  method: post\n  operationId: POST /FileDelivery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /FileDeliveryConfirmation\n  method: get\n  operationId: GET /FileDeliveryConfirmation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v3/Report/{reportId}/file-links\n  method: get\n  operationId: GET /v3/Report/{reportId}/file-links\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eagleview/refs/heads/main/agentic-access/eagleview-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eagleview/agentic-access/eagleview-agentic-access.yml
 summary_line: 21 operations · 9 acting
 tags:
 - Geospatial

@@ -9,103 +9,103 @@ api_specs:
   label: Unqork Applications API
   slug: unqork-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-applications-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-applications-api-openapi.yml
 - filename: unqork-authentication-api-openapi.yml
   format: yaml
   label: Unqork Authentication API
   slug: unqork-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-authentication-api-openapi.yml
 - filename: unqork-credentials-api-openapi.yml
   format: yaml
   label: Unqork Credentials API
   slug: unqork-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-credentials-api-openapi.yml
 - filename: unqork-data-collections-api-openapi.yml
   format: yaml
   label: Unqork Data Collections API
   slug: unqork-data-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-data-collections-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-data-collections-api-openapi.yml
 - filename: unqork-data-model-records-api-openapi.yml
   format: yaml
   label: Unqork Data Model Records API
   slug: unqork-data-model-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-data-model-records-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-data-model-records-api-openapi.yml
 - filename: unqork-global-variables-api-openapi.yml
   format: yaml
   label: Unqork Global Variables API
   slug: unqork-global-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-global-variables-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-global-variables-api-openapi.yml
 - filename: unqork-groups-api-openapi.yml
   format: yaml
   label: Unqork Groups API
   slug: unqork-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-groups-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-groups-api-openapi.yml
 - filename: unqork-logs-api-openapi.yml
   format: yaml
   label: Unqork Logs API
   slug: unqork-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-logs-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-logs-api-openapi.yml
 - filename: unqork-modules-api-openapi.yml
   format: yaml
   label: Unqork Modules API
   slug: unqork-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-modules-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-modules-api-openapi.yml
 - filename: unqork-promotions-api-openapi.yml
   format: yaml
   label: Unqork Promotions API
   slug: unqork-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-promotions-api-openapi.yml
 - filename: unqork-query-api-openapi.yml
   format: yaml
   label: Unqork Query API
   slug: unqork-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-query-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-query-api-openapi.yml
 - filename: unqork-revisions-api-openapi.yml
   format: yaml
   label: Unqork Revisions API
   slug: unqork-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-revisions-api-openapi.yml
 - filename: unqork-search-configs-api-openapi.yml
   format: yaml
   label: Unqork Search Configs API
   slug: unqork-search-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-search-configs-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-search-configs-api-openapi.yml
 - filename: unqork-submissions-api-openapi.yml
   format: yaml
   label: Unqork Submissions API
   slug: unqork-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-submissions-api-openapi.yml
 - filename: unqork-transforms-api-openapi.yml
   format: yaml
   label: Unqork Transforms API
   slug: unqork-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-transforms-api-openapi.yml
 - filename: unqork-users-api-openapi.yml
   format: yaml
   label: Unqork Users API
   slug: unqork-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-users-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-users-api-openapi.yml
 - filename: unqork-workflow-api-openapi.yml
   format: yaml
   label: Unqork Workflow API
   slug: unqork-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-workflow-api-openapi.yml
 consequence_counts:
   read: 38
   safety-critical: 2
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-31'\nmethod: generated\nsource: openapi/unqork
   \ required\n- path: /applications/{applicationId}\n  method: delete\n  operationId: applicationsDeleteById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logs/audit-logs\n  method: get\n  operationId: listAuditLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentials\n  method: get\n  operationId: credentialsGetAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentials\n  method: post\n  operationId: credentialsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credentials/{clientId}\n  method: put\n  operationId: credentialsUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credentials/{clientId}\n  method: delete\n  operationId: credentialsDeleteById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credentials/{clientId}/revoke\n  method: put\n  operationId: credentialsRevoke\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /models/validateFromSchema\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /searchConfigs/{queryId}/execute\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/agentic-access/unqork-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unqork/agentic-access/unqork-agentic-access.yml
 summary_line: 93 operations · 55 acting · 2 human-in-the-loop
 tags:
 - Company

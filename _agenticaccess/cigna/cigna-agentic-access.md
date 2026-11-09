@@ -8,91 +8,91 @@ api_specs:
   label: Cigna Bulk Data API
   slug: cigna-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-bulk-data-api-openapi.yml
 - filename: cigna-condition-api-openapi.yml
   format: yaml
   label: Cigna Condition API
   slug: cigna-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-condition-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-condition-api-openapi.yml
 - filename: cigna-coverage-api-openapi.yml
   format: yaml
   label: Cigna Coverage API
   slug: cigna-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-coverage-api-openapi.yml
 - filename: cigna-encounter-api-openapi.yml
   format: yaml
   label: Cigna Encounter API
   slug: cigna-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-encounter-api-openapi.yml
 - filename: cigna-explanationofbenefit-api-openapi.yml
   format: yaml
   label: Cigna ExplanationOfBenefit API
   slug: cigna-explanationofbenefit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-explanationofbenefit-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-explanationofbenefit-api-openapi.yml
 - filename: cigna-location-api-openapi.yml
   format: yaml
   label: Cigna Location API
   slug: cigna-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-location-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-location-api-openapi.yml
 - filename: cigna-medicationknowledge-api-openapi.yml
   format: yaml
   label: Cigna MedicationKnowledge API
   slug: cigna-medicationknowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-medicationknowledge-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-medicationknowledge-api-openapi.yml
 - filename: cigna-observation-api-openapi.yml
   format: yaml
   label: Cigna Observation API
   slug: cigna-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-observation-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-observation-api-openapi.yml
 - filename: cigna-organization-api-openapi.yml
   format: yaml
   label: Cigna Organization API
   slug: cigna-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-organization-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-organization-api-openapi.yml
 - filename: cigna-patient-api-openapi.yml
   format: yaml
   label: Cigna Patient API
   slug: cigna-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-patient-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-patient-api-openapi.yml
 - filename: cigna-practitioner-api-openapi.yml
   format: yaml
   label: Cigna Practitioner API
   slug: cigna-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-practitioner-api-openapi.yml
 - filename: cigna-healthcare-service-api-openapi.yml
   format: yaml
   label: Cigna Healthcare Service API
   slug: cigna-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-healthcare-service-api-openapi.yml
 - filename: cigna-insurance-plan-api-openapi.yml
   format: yaml
   label: Cigna Insurance Plan API
   slug: cigna-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-insurance-plan-api-openapi.yml
 - filename: cigna-medication-request-api-openapi.yml
   format: yaml
   label: Cigna Medication Request API
   slug: cigna-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-medication-request-api-openapi.yml
 - filename: cigna-practitioner-role-api-openapi.yml
   format: yaml
   label: Cigna Practitioner Role API
   slug: cigna-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/cigna/openapi/cigna-practitioner-role-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cigna-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationRequest\n  method: get\n  operationId: searchMedicationRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata\n  method: get\n  operationId: getCapabilityStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Group/{groupId}/$export\n  method: get\n  operationId: bulkExportGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient/{patientId}/$everything\n  method: get\n  operationId: getPatientEverything\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata\n  method: get\n\
   \  operationId: getCapabilityStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Practitioner\n  method: get\n  operationId: searchPractitioner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Organization\n  method: get\n  operationId: searchOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Location\n  method: get\n  operationId: searchLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /HealthcareService\n  method: get\n  operationId: searchHealthcareService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PractitionerRole\n  method: get\n  operationId: searchPractitionerRole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /InsurancePlan\n  method: get\n  operationId: searchInsurancePlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/agentic-access/cigna-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cigna/agentic-access/cigna-agentic-access.yml
 summary_line: 22 operations
 tags:
 - CMS Interoperability

@@ -9,61 +9,79 @@ api_specs:
   label: JobsPipe Account API
   slug: jobspipe-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-account-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-account-api-openapi.yml
 - filename: jobspipe-billing-api-openapi.yml
   format: yaml
   label: JobsPipe Billing API
   slug: jobspipe-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-billing-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-billing-api-openapi.yml
 - filename: jobspipe-companies-api-openapi.yml
   format: yaml
   label: JobsPipe Companies API
   slug: jobspipe-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-companies-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-companies-api-openapi.yml
 - filename: jobspipe-jobs-api-openapi.yml
   format: yaml
   label: JobsPipe Jobs API
   slug: jobspipe-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-jobs-api-openapi.yml
 - filename: jobspipe-jobspipe-api-api-openapi.yml
   format: yaml
   label: JobsPipe JobsPipe API
   slug: jobspipe-jobspipe-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-jobspipe-api-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-jobspipe-api-api-openapi.yml
 - filename: jobspipe-labour-market-insights-api-openapi.yml
   format: yaml
   label: JobsPipe Labour Market Insights API
   slug: jobspipe-labour-market-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-labour-market-insights-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-labour-market-insights-api-openapi.yml
 - filename: jobspipe-monitors-api-openapi.yml
   format: yaml
   label: JobsPipe Monitors API
   slug: jobspipe-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-monitors-api-openapi.yml
 - filename: jobspipe-sandbox-api-openapi.yml
   format: yaml
   label: JobsPipe Sandbox API
   slug: jobspipe-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-sandbox-api-openapi.yml
 - filename: jobspipe-stack-api-openapi.yml
   format: yaml
   label: JobsPipe Stack API
   slug: jobspipe-stack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-stack-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-stack-api-openapi.yml
 - filename: jobspipe-technologies-api-openapi.yml
   format: yaml
   label: JobsPipe Technologies API
   slug: jobspipe-technologies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/openapi/jobspipe-technologies-api-openapi.yml
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-technologies-api-openapi.yml
+- filename: jobspipe-contacts-api-openapi.yml
+  format: yaml
+  label: JobsPipe Contacts API
+  slug: jobspipe-contacts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-contacts-api-openapi.yml
+- filename: jobspipe-layoffs-api-openapi.yml
+  format: yaml
+  label: JobsPipe Layoffs API
+  slug: jobspipe-layoffs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-layoffs-api-openapi.yml
+- filename: jobspipe-live-api-openapi.yml
+  format: yaml
+  label: JobsPipe Live API
+  slug: jobspipe-live-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-live-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 22
@@ -106,11 +124,12 @@ source_yaml: "generated: '2026-10-02'\nmethod: generated\nsource: openapi/jobspi
   \  max-ttl: 3600\n    audit: none\n- path: /v1/insights/skills/{slug}/trend\n  method: get\n  operationId: insightsSkillTrend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/insights/technology/ai-exposure\n  method: get\n  operationId: insightsAiExposure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/insights/salary/benchmark\n  method: post\n  operationId: insightsSalaryBenchmark\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sandbox/jobs/search\n  method: post\n  operationId: sandboxSearchJobs\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sandbox/jobs/search/batch\n  method: post\n  operationId: sandboxSearchJobsBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sandbox/jobs/export\n  method: post\n  operationId: sandboxCreateExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sandbox/jobs/export/{id}\n\
   \  method: get\n  operationId: sandboxGetExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/agentic-access/jobspipe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jobspipe/agentic-access/jobspipe-agentic-access.yml
 summary_line: 33 operations · 11 acting
 tags:
 - Company
 - Job
 - Data
 - Hiring
+- JobsAPI
 ---

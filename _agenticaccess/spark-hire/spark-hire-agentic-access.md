@@ -9,43 +9,43 @@ api_specs:
   label: Spark Hire Account API
   slug: spark-hire-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-account-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-account-api-openapi.yml
 - filename: spark-hire-interview-questions-api-openapi.yml
   format: yaml
   label: Spark Hire Interview Questions API
   slug: spark-hire-interview-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-interview-questions-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-interview-questions-api-openapi.yml
 - filename: spark-hire-interviews-api-openapi.yml
   format: yaml
   label: Spark Hire Interviews API
   slug: spark-hire-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-interviews-api-openapi.yml
 - filename: spark-hire-jobs-api-openapi.yml
   format: yaml
   label: Spark Hire Jobs API
   slug: spark-hire-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-jobs-api-openapi.yml
 - filename: spark-hire-share-links-api-openapi.yml
   format: yaml
   label: Spark Hire Share Links API
   slug: spark-hire-share-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-share-links-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-share-links-api-openapi.yml
 - filename: spark-hire-users-api-openapi.yml
   format: yaml
   label: Spark Hire Users API
   slug: spark-hire-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-users-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-users-api-openapi.yml
 - filename: spark-hire-webhooks-api-openapi.yml
   format: yaml
   label: Spark Hire Webhooks API
   slug: spark-hire-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-webhooks-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 1
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spark-
   \ /share_links\n  method: get\n  operationId: listShareLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /share_links\n  method: post\n  operationId: createShareLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /share_links/{uuid}\n  method: get\n  operationId: getShareLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /share_links/{uuid}\n  method: put\n  operationId: updateShareLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /share_links/{uuid}\n  method: delete\n  operationId: deleteShareLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
   \  - high-value\n    audit: required\n- path: /webhooks/{uuid}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/replay/{event}\n  method: get\n  operationId: replayWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/agentic-access/spark-hire-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spark-hire/agentic-access/spark-hire-agentic-access.yml
 summary_line: 44 operations · 25 acting · 1 human-in-the-loop
 tags:
 - Video Interviewing

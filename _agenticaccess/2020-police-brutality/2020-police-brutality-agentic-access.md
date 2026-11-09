@@ -8,7 +8,7 @@ api_specs:
   label: 2020 Police Brutality Incidents API
   slug: 2020-police-brutality-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/openapi/2020-police-brutality-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/2020-police-brutality/openapi/2020-police-brutality-incidents-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -35,7 +35,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/2020-police-brutality-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /all-locations.json\n  method: get\n  operationId: getAllIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /all-locations-v2.json\n  method: get\n  operationId: getAllIncidentsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /all-locations.csv\n  method: get\n\
   \  operationId: getAllIncidentsCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/agentic-access/2020-police-brutality-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/2020-police-brutality/agentic-access/2020-police-brutality-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Brutality

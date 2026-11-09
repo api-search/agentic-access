@@ -9,67 +9,67 @@ api_specs:
   label: Mercedes-Benz Mercedes me Components API
   slug: mercedes-me-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-components-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-components-api-openapi.yml
 - filename: mercedes-me-configurations-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Configurations API
   slug: mercedes-me-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-configurations-api-openapi.yml
 - filename: mercedes-me-dealer-search-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Dealer search API
   slug: mercedes-me-dealer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-dealer-search-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-dealer-search-api-openapi.yml
 - filename: mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Diagnostic Trouble Code (DTC) Snapshots API
   slug: mercedes-me-diagnostic-trouble-code-dtc-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
 - filename: mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Diagnostic Trouble Codes (DTC's) API
   slug: mercedes-me-diagnostic-trouble-codes-dtc-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
 - filename: mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Electronical Control Units (ECU's) API
   slug: mercedes-me-electronical-control-units-ecu-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
 - filename: mercedes-me-images-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Images API
   slug: mercedes-me-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-images-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-images-api-openapi.yml
 - filename: mercedes-me-perspectives-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Perspectives API
   slug: mercedes-me-perspectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-perspectives-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-perspectives-api-openapi.yml
 - filename: mercedes-me-references-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me References API
   slug: mercedes-me-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-references-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-references-api-openapi.yml
 - filename: mercedes-me-resources-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Resources API
   slug: mercedes-me-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-resources-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-resources-api-openapi.yml
 - filename: mercedes-me-saved-configurations-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Saved configurations API
   slug: mercedes-me-saved-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-saved-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-saved-configurations-api-openapi.yml
 consequence_counts:
   read: 38
   write: 1
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/merced
   \      max-ttl: 3600\n    audit: none\n- path: /markets/{marketId}/classes\n  method: get\n  operationId: classesGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{marketId}/classes/{classId}\n  method: get\n  operationId: classGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{marketId}/models\n  method: get\n  operationId: modelsGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{marketId}/models/{modelId}\n  method: get\n  operationId: modelGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{marketId}/productgroups\n  method:\
   \ get\n  operationId: productGroupsGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries\n  method: get\n  operationId: countriesGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{vehicleId}/resourceReadouts\n  method: post\n  operationId: getResourceReadoutsUsingPOST\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{marketId}/onlinecode\n  method: post\n  operationId: onlineCodePOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /markets/{marketId}/onlinecode/{onlineCode}\n  method: get\n  operationId: onlineCodeGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/agentic-access/mercedes-me-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mercedes-me/agentic-access/mercedes-me-agentic-access.yml
 summary_line: 39 operations · 1 acting
 tags:
 - Automotive

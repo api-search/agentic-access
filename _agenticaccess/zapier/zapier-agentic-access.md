@@ -9,61 +9,61 @@ api_specs:
   label: Zapier Accounts API
   slug: zapier-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-accounts-api-openapi.yml
 - filename: zapier-actions-api-openapi.yml
   format: yaml
   label: Zapier Actions API
   slug: zapier-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-actions-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-actions-api-openapi.yml
 - filename: zapier-apps-api-openapi.yml
   format: yaml
   label: Zapier Apps API
   slug: zapier-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-apps-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-apps-api-openapi.yml
 - filename: zapier-authentications-api-openapi.yml
   format: yaml
   label: Zapier Authentications API
   slug: zapier-authentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-authentications-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-authentications-api-openapi.yml
 - filename: zapier-categories-api-openapi.yml
   format: yaml
   label: Zapier Categories API
   slug: zapier-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-categories-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-categories-api-openapi.yml
 - filename: zapier-experimental-api-openapi.yml
   format: yaml
   label: Zapier Experimental API
   slug: zapier-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-experimental-api-openapi.yml
 - filename: zapier-inputs-api-openapi.yml
   format: yaml
   label: Zapier Inputs API
   slug: zapier-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-inputs-api-openapi.yml
 - filename: zapier-outputs-api-openapi.yml
   format: yaml
   label: Zapier Outputs API
   slug: zapier-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-outputs-api-openapi.yml
 - filename: zapier-zap-templates-api-openapi.yml
   format: yaml
   label: Zapier Zap Templates API
   slug: zapier-zap-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-zap-templates-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-zap-templates-api-openapi.yml
 - filename: zapier-zaps-api-openapi.yml
   format: yaml
   label: Zapier Zaps API
   slug: zapier-zaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-zaps-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-zaps-api-openapi.yml
 consequence_counts:
   read: 22
   write: 5
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zapier
   \  method: post\n  operationId: get-choices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - zap\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/actions/{action_id}/outputs\n  method: post\n  operationId: get-fields-outputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - zap:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/zap-templates\n  method: get\n  operationId: v1_zap_templates_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/zaps\n  method: get\n  operationId: v1_zaps_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - zap\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/guess\n  method: post\n  operationId: create-zap-guess\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/zap-runs\n  method: get\n  operationId: get-zap-runs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - zap:runs\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/zaps\n  method: get\n  operationId: get-v2-zaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - zap\n    - zap:all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/zaps\n  method: post\n  operationId: post-zaps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - zap:write\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/agentic-access/zapier-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zapier/agentic-access/zapier-agentic-access.yml
 summary_line: 27 operations · 5 acting
 tags:
 - Zapier
@@ -107,8 +107,8 @@ tags:
 - Workflow Automation
 - Automation
 - No-Code
-- App integration
+- App Integration
 - AI workflow
-- Enterprise security
-- Workflow orchestration
+- Enterprise Security
+- Workflow Orchestration
 ---

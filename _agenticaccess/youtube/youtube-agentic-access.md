@@ -9,133 +9,133 @@ api_specs:
   label: Youtube Analytics Groups API
   slug: youtube-analytics-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-analytics-groups-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-analytics-groups-api-openapi.yml
 - filename: youtube-analytics-reports-api-openapi.yml
   format: yaml
   label: Youtube Analytics Reports API
   slug: youtube-analytics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-analytics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-analytics-reports-api-openapi.yml
 - filename: youtube-captions-api-openapi.yml
   format: yaml
   label: Youtube Captions API
   slug: youtube-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-captions-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-captions-api-openapi.yml
 - filename: youtube-channels-api-openapi.yml
   format: yaml
   label: Youtube Channels API
   slug: youtube-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-channels-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-channels-api-openapi.yml
 - filename: youtube-comments-api-openapi.yml
   format: yaml
   label: Youtube Comments API
   slug: youtube-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-comments-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-comments-api-openapi.yml
 - filename: youtube-group-items-api-openapi.yml
   format: yaml
   label: Youtube Group Items API
   slug: youtube-group-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-group-items-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-group-items-api-openapi.yml
 - filename: youtube-groups-api-openapi.yml
   format: yaml
   label: Youtube Groups API
   slug: youtube-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-groups-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-groups-api-openapi.yml
 - filename: youtube-i18n-api-openapi.yml
   format: yaml
   label: Youtube I18n API
   slug: youtube-i18n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-i18n-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-i18n-api-openapi.yml
 - filename: youtube-jobs-api-openapi.yml
   format: yaml
   label: Youtube Jobs API
   slug: youtube-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-jobs-api-openapi.yml
 - filename: youtube-livebroadcasts-api-openapi.yml
   format: yaml
   label: Youtube LiveBroadcasts API
   slug: youtube-livebroadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livebroadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-livebroadcasts-api-openapi.yml
 - filename: youtube-livechatmessages-api-openapi.yml
   format: yaml
   label: Youtube LiveChatMessages API
   slug: youtube-livechatmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livechatmessages-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-livechatmessages-api-openapi.yml
 - filename: youtube-livechatmoderators-api-openapi.yml
   format: yaml
   label: Youtube LiveChatModerators API
   slug: youtube-livechatmoderators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-livechatmoderators-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-livechatmoderators-api-openapi.yml
 - filename: youtube-playlist-items-api-openapi.yml
   format: yaml
   label: Youtube Playlist Items API
   slug: youtube-playlist-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-playlist-items-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-playlist-items-api-openapi.yml
 - filename: youtube-playlists-api-openapi.yml
   format: yaml
   label: Youtube Playlists API
   slug: youtube-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-playlists-api-openapi.yml
 - filename: youtube-reports-api-openapi.yml
   format: yaml
   label: Youtube Reports API
   slug: youtube-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-reports-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-reports-api-openapi.yml
 - filename: youtube-search-api-openapi.yml
   format: yaml
   label: Youtube Search API
   slug: youtube-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-search-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-search-api-openapi.yml
 - filename: youtube-subscriptions-api-openapi.yml
   format: yaml
   label: Youtube Subscriptions API
   slug: youtube-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-subscriptions-api-openapi.yml
 - filename: youtube-videocategories-api-openapi.yml
   format: yaml
   label: Youtube VideoCategories API
   slug: youtube-videocategories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-videocategories-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-videocategories-api-openapi.yml
 - filename: youtube-videos-api-openapi.yml
   format: yaml
   label: Youtube Videos API
   slug: youtube-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-videos-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-videos-api-openapi.yml
 - filename: youtube-comment-threads-api-openapi.yml
   format: yaml
-  label: Youtube Comment Threads API
+  label: YouTube Comment Threads API
   slug: youtube-comment-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-comment-threads-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-comment-threads-api-openapi.yml
 - filename: youtube-live-streams-api-openapi.yml
   format: yaml
-  label: Youtube Live Streams API
+  label: YouTube Live Streams API
   slug: youtube-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-live-streams-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-live-streams-api-openapi.yml
 - filename: youtube-report-types-api-openapi.yml
   format: yaml
-  label: Youtube Report Types API
+  label: YouTube Report Types API
   slug: youtube-report-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-report-types-api-openapi.yml
+  url: https://artifacts.apis.io/youtube/openapi/youtube-report-types-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 36
@@ -154,14 +154,14 @@ notable_actions:
   method: POST
   path: /liveChatMessages
 operation_count: 91
-overview: 'Youtube exposes 91 API operations that an AI agent could call, of which 55 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'YouTube exposes 91 API operations that an AI agent could call, of which 55 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 36 read, 54 write, and 1 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Youtube
+provider_name: YouTube
 provider_slug: youtube
 slug: youtube-agentic-access
 source_filename: youtube-agentic-access.yml
@@ -200,8 +200,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/youtub
   \   token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/youtube\n- path: /liveChatMessages\n  method: post\n  operationId: youtube.liveChatMessages.insert\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/youtube\n- path: /liveChatMessages\n  method: delete\n  operationId: youtube.liveChatMessages.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/youtube\n\
   - path: /liveChatModerators\n  method: get\n  operationId: youtube.liveChatModerators.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/youtube\n- path: /liveChatModerators\n  method: post\n  operationId: youtube.liveChatModerators.insert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/youtube\n- path: /liveChatModerators\n  method: delete\n  operationId: youtube.liveChatModerators.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/youtube\n- path: /jobs\n  method: post\n  operationId: youtubeReporting.jobs.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/yt-analytics.readonly\n- path: /jobs\n  method: get\n  operationId: youtubeReporting.jobs.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/yt-analytics.readonly\n- path: /jobs/{jobId}\n  method: get\n  operationId: youtubeReporting.jobs.get\n  x-agentic-access:\n    action-class: connected\n \
-  \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/yt-analytics.readonly\n- path: /jobs/{jobId}\n  method: delete\n  operationId: youtubeReporting.jobs.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/yt-analytics.readonly\n- path: /jobs/{jobId}/reports\n  method: get\n  operationId: youtubeReporting.reports.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/yt-analytics.readonly\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/agentic-access/youtube-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/agentic-access/youtube-agentic-access.yml
+  \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/yt-analytics.readonly\n- path: /jobs/{jobId}\n  method: delete\n  operationId: youtubeReporting.jobs.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/yt-analytics.readonly\n- path: /jobs/{jobId}/reports\n  method: get\n  operationId: youtubeReporting.reports.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/yt-analytics.readonly\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/youtube/agentic-access/youtube-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/youtube/agentic-access/youtube-agentic-access.yml
 summary_line: 91 operations · 55 acting
 tags:
 - Video

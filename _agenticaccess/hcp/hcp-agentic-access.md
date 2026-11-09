@@ -9,31 +9,31 @@ api_specs:
   label: HashiCorp Cloud Platform Apps API
   slug: hcp-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-apps-api-openapi.yml
+  url: https://artifacts.apis.io/hcp/openapi/hcp-apps-api-openapi.yml
 - filename: hcp-gateway-api-openapi.yml
   format: yaml
   label: HashiCorp Cloud Platform Gateway API
   slug: hcp-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/hcp/openapi/hcp-gateway-api-openapi.yml
 - filename: hcp-integrations-api-openapi.yml
   format: yaml
   label: HashiCorp Cloud Platform Integrations API
   slug: hcp-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/hcp/openapi/hcp-integrations-api-openapi.yml
 - filename: hcp-secrets-api-openapi.yml
   format: yaml
   label: HashiCorp Cloud Platform Secrets API
   slug: hcp-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/hcp/openapi/hcp-secrets-api-openapi.yml
 - filename: hcp-sync-api-openapi.yml
   format: yaml
   label: HashiCorp Cloud Platform Sync API
   slug: hcp-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/openapi/hcp-sync-api-openapi.yml
+  url: https://artifacts.apis.io/hcp/openapi/hcp-sync-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hcp-op
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secrets/2023-11-28/organizations/{org_id}/projects/{project_id}/apps/{app_name}/secrets\n  method: get\n  operationId: listSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets/2023-11-28/organizations/{org_id}/projects/{project_id}/apps/{app_name}/secrets/{name}\n  method: get\n  operationId: getSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets/2023-11-28/organizations/{org_id}/projects/{project_id}/apps/{app_name}/secrets/{name}\n  method: delete\n  operationId: deleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secrets/2023-11-28/organizations/{org_id}/projects/{project_id}/apps/{app_name}/secrets/{name}:open\n  method: get\n  operationId: openSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets/2023-11-28/organizations/{org_id}/projects/{project_id}/integrations\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets/2023-11-28/organizations/{org_id}/projects/{project_id}/syncs\n  method: get\n  operationId: listSyncs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /secrets/2023-11-28/organizations/{org_id}/projects/{project_id}/gateway-pools\n  method: get\n  operationId: listGatewayPools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/agentic-access/hcp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hcp/agentic-access/hcp-agentic-access.yml
 summary_line: 9 operations · 2 acting
 tags:
 - Cloud

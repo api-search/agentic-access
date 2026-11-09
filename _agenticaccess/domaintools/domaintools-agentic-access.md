@@ -9,73 +9,73 @@ api_specs:
   label: DomainTools Flex search API
   slug: domaintools-flex-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-flex-search-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-flex-search-api-openapi.yml
 - filename: domaintools-information-api-openapi.yml
   format: yaml
   label: DomainTools Information API
   slug: domaintools-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-information-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-information-api-openapi.yml
 - filename: domaintools-iris-detect-api-openapi.yml
   format: yaml
   label: DomainTools Iris Detect API
   slug: domaintools-iris-detect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-iris-detect-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-iris-detect-api-openapi.yml
 - filename: domaintools-iris-enrich-api-openapi.yml
   format: yaml
   label: DomainTools Iris Enrich API
   slug: domaintools-iris-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-iris-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-iris-enrich-api-openapi.yml
 - filename: domaintools-iris-investigate-api-openapi.yml
   format: yaml
   label: DomainTools Iris Investigate API
   slug: domaintools-iris-investigate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-iris-investigate-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-iris-investigate-api-openapi.yml
 - filename: domaintools-lookups-api-openapi.yml
   format: yaml
   label: DomainTools Lookups API
   slug: domaintools-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-lookups-api-openapi.yml
 - filename: domaintools-monitors-api-openapi.yml
   format: yaml
   label: DomainTools Monitors API
   slug: domaintools-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-monitors-api-openapi.yml
 - filename: domaintools-ping-api-openapi.yml
   format: yaml
   label: DomainTools Ping API
   slug: domaintools-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-ping-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-ping-api-openapi.yml
 - filename: domaintools-rate-limit-api-openapi.yml
   format: yaml
   label: DomainTools Rate Limit API
   slug: domaintools-rate-limit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-rate-limit-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-rate-limit-api-openapi.yml
 - filename: domaintools-rdata-lookups-api-openapi.yml
   format: yaml
   label: DomainTools rdata Lookups API
   slug: domaintools-rdata-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-rdata-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-rdata-lookups-api-openapi.yml
 - filename: domaintools-rrset-lookups-api-openapi.yml
   format: yaml
   label: DomainTools rrset Lookups API
   slug: domaintools-rrset-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-rrset-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-rrset-lookups-api-openapi.yml
 - filename: domaintools-siebatchd-api-openapi.yml
   format: yaml
   label: DomainTools Siebatchd API
   slug: domaintools-siebatchd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/openapi/domaintools-siebatchd-api-openapi.yml
+  url: https://artifacts.apis.io/domaintools/openapi/domaintools-siebatchd-api-openapi.yml
 consequence_counts:
   read: 43
   safety-critical: 1
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/domain
   \ 3600\n    audit: none\n- path: /lookup/rrset/{type}/{value}/{rrtype}/{bailiwick}\n  method: get\n  operationId: lookupRrsetByTypeAndBailiwick\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summarize/rrset/{type}/{value}\n  method: get\n  operationId: summarizeRrset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summarize/rrset/{type}/{value}/{rrtype}\n  method: get\n  operationId: summarizeRrsetByType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summarize/rrset/{type}/{value}/{rrtype}/{bailiwick}\n  method: get\n  operationId: summarizeRrsetByTypeAndBailiwick\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /siebatchd/v1/validate\n  method: post\n  operationId: validate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /siebatchd/v1/siebatch/chdetails\n  method: post\n  operationId: chdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /siebatchd/v1/siebatch/chfetch\n  method: post\n  operationId: chfetch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /siebatchd/v1/siebatch/makeurl\n  method: post\n  operationId: makeurl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n   \
   \ subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/agentic-access/domaintools-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/domaintools/agentic-access/domaintools-agentic-access.yml
 summary_line: 52 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Company

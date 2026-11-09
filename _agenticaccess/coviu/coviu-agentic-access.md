@@ -9,37 +9,37 @@ api_specs:
   label: Coviu Auth API
   slug: coviu-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-auth-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-auth-api-openapi.yml
 - filename: coviu-collections-api-openapi.yml
   format: yaml
   label: Coviu Collections API
   slug: coviu-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-collections-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-collections-api-openapi.yml
 - filename: coviu-participants-api-openapi.yml
   format: yaml
   label: Coviu Participants API
   slug: coviu-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-participants-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-participants-api-openapi.yml
 - filename: coviu-sessions-api-openapi.yml
   format: yaml
   label: Coviu Sessions API
   slug: coviu-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-sessions-api-openapi.yml
 - filename: coviu-waiting-area-api-openapi.yml
   format: yaml
   label: Coviu Waiting Area API
   slug: coviu-waiting-area-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-waiting-area-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-waiting-area-api-openapi.yml
 - filename: coviu-webhook-requests-api-openapi.yml
   format: yaml
   label: Coviu Webhook Requests API
   slug: coviu-webhook-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-webhook-requests-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-webhook-requests-api-openapi.yml
 consequence_counts:
   read: 13
   write: 8
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: generated\nsource: openapi/coviu-
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/waiting/{teamId}\n  method: get\n  operationId: getCurrentlyWaitingCalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/waiting/{teamId}/queue/{waitingQueueId}\n  method: get\n  operationId: getCurrentlyWaitingCallsForQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/waiting/{teamId}/calls/{callId}\n  method: get\n  operationId: getCall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/collections/{teamId}\n  method: get\n  operationId: getCollections\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/collections/{teamId}/collection/{collectionId}\n  method: get\n  operationId: listSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/collections/{teamId}/collection/{collectionId}/submission/{submissionId}\n  method: get\n  operationId: getSubmission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/collections/{teamId}/collection/{collectionId}/submission/{submissionId}/file/{fileId}\n  method: get\n  operationId: getSubmissionFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/collections/{teamId}/collection/{collectionId}/recording/{submissionId}\n\
   \  method: get\n  operationId: getAudioRecording\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/agentic-access/coviu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coviu/agentic-access/coviu-agentic-access.yml
 summary_line: 21 operations · 8 acting
 tags:
 - Healthcare

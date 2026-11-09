@@ -8,55 +8,55 @@ api_specs:
   label: RAWG Creator Roles API
   slug: rawg-creator-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-creator-roles-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-creator-roles-api-openapi.yml
 - filename: rawg-creators-api-openapi.yml
   format: yaml
   label: RAWG Creators API
   slug: rawg-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-creators-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-creators-api-openapi.yml
 - filename: rawg-developers-api-openapi.yml
   format: yaml
   label: RAWG Developers API
   slug: rawg-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-developers-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-developers-api-openapi.yml
 - filename: rawg-games-api-openapi.yml
   format: yaml
   label: RAWG Games API
   slug: rawg-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-games-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-games-api-openapi.yml
 - filename: rawg-genres-api-openapi.yml
   format: yaml
   label: RAWG Genres API
   slug: rawg-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-genres-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-genres-api-openapi.yml
 - filename: rawg-platforms-api-openapi.yml
   format: yaml
   label: RAWG Platforms API
   slug: rawg-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-platforms-api-openapi.yml
 - filename: rawg-publishers-api-openapi.yml
   format: yaml
   label: RAWG Publishers API
   slug: rawg-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-publishers-api-openapi.yml
 - filename: rawg-stores-api-openapi.yml
   format: yaml
   label: RAWG Stores API
   slug: rawg-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-stores-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-stores-api-openapi.yml
 - filename: rawg-tags-api-openapi.yml
   format: yaml
   label: RAWG Tags API
   slug: rawg-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/openapi/rawg-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rawg/openapi/rawg-tags-api-openapi.yml
 consequence_counts:
   read: 60
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rawg-o
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /games/{id}/youtube\n  method: get\n  operationId: games_youtube_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /genres\n  method: get\n  operationId: genres_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /genres/{id}\n  method: get\n  operationId: genres_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platforms\n  method: get\n  operationId: platforms_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /platforms/lists/parents\n  method: get\n  operationId: platforms_lists_parents_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platforms/{id}\n  method: get\n  operationId: platforms_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers\n  method: get\n  operationId: publishers_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers/{id}\n  method: get\n  operationId: publishers_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores\n  method: get\n  operationId: stores_list\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{id}\n  method: get\n  operationId: stores_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: tags_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{id}\n  method: get\n  operationId: tags_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/agentic-access/rawg-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rawg/agentic-access/rawg-agentic-access.yml
 summary_line: 60 operations
 tags:
 - Database

@@ -9,31 +9,43 @@ api_specs:
   label: Amazon MQ Broker Engine Types API
   slug: amazon-mq-broker-engine-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-broker-engine-types-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mq/openapi/amazon-mq-broker-engine-types-api-openapi.yml
 - filename: amazon-mq-broker-instance-options-api-openapi.yml
   format: yaml
   label: Amazon MQ Broker Instance Options API
   slug: amazon-mq-broker-instance-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-broker-instance-options-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mq/openapi/amazon-mq-broker-instance-options-api-openapi.yml
 - filename: amazon-mq-brokers-api-openapi.yml
   format: yaml
   label: Amazon MQ Brokers API
   slug: amazon-mq-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mq/openapi/amazon-mq-brokers-api-openapi.yml
 - filename: amazon-mq-configurations-api-openapi.yml
   format: yaml
   label: Amazon MQ Configurations API
   slug: amazon-mq-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mq/openapi/amazon-mq-configurations-api-openapi.yml
 - filename: amazon-mq-tags-api-openapi.yml
   format: yaml
   label: Amazon MQ Tags API
   slug: amazon-mq-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mq/openapi/amazon-mq-tags-api-openapi.yml
+- filename: amazon-mq-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MQ Mq Operations API
+  slug: amazon-mq-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mq/openapi/amazon-mq-operations-api-openapi.yml
+- filename: amazon-mq-users-api-openapi.yml
+  format: yaml
+  label: Amazon MQ Mq Users API
+  slug: amazon-mq-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mq/openapi/amazon-mq-users-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -76,9 +88,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/broker-instance-options\n  method: get\n  operationId: DescribeBrokerInstanceOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/configurations/{configuration-id}\n  method: get\n  operationId: DescribeConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/configurations/{configuration-id}\n  method: put\n  operationId: UpdateConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1/configurations/{configuration-id}/revisions/{configuration-revision}\n  method: get\n  operationId: DescribeConfigurationRevision\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/configurations/{configuration-id}/revisions\n  method: get\n  operationId: ListConfigurationRevisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/brokers/{broker-id}/users\n  method: get\n  operationId: ListUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/brokers/{broker-id}/reboot\n  method: post\n  operationId: RebootBroker\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/agentic-access/amazon-mq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mq/agentic-access/amazon-mq-agentic-access.yml
 summary_line: 22 operations · 11 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Message Queue
 - Messaging
 - Message Broker

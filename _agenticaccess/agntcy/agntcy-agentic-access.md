@@ -9,121 +9,121 @@ api_specs:
   label: AGNTCY Agents API
   slug: agntcy-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-agents-api-openapi.yml
 - filename: agntcy-appservice-api-openapi.yml
   format: yaml
   label: AGNTCY App Service API
   slug: agntcy-appservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-appservice-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-appservice-api-openapi.yml
 - filename: agntcy-badgeservice-api-openapi.yml
   format: yaml
   label: AGNTCY Badge Service API
   slug: agntcy-badgeservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-badgeservice-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-badgeservice-api-openapi.yml
 - filename: agntcy-classes-and-objects-api-openapi.yml
   format: yaml
   label: AGNTCY Classes and Objects API
   slug: agntcy-classes-and-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-classes-and-objects-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-classes-and-objects-api-openapi.yml
 - filename: agntcy-deviceservice-api-openapi.yml
   format: yaml
   label: AGNTCY Device Service API
   slug: agntcy-deviceservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-deviceservice-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-deviceservice-api-openapi.yml
 - filename: agntcy-idservice-api-openapi.yml
   format: yaml
   label: AGNTCY ID Service API
   slug: agntcy-idservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-idservice-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-idservice-api-openapi.yml
 - filename: agntcy-issuerservice-api-openapi.yml
   format: yaml
   label: AGNTCY Issuer Service API
   slug: agntcy-issuerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-issuerservice-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-issuerservice-api-openapi.yml
 - filename: agntcy-json-schema-api-openapi.yml
   format: yaml
   label: AGNTCY JSON Schema API
   slug: agntcy-json-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-json-schema-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-json-schema-api-openapi.yml
 - filename: agntcy-policyservice-api-openapi.yml
   format: yaml
   label: AGNTCY Policy Service API
   slug: agntcy-policyservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-policyservice-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-policyservice-api-openapi.yml
 - filename: agntcy-sample-data-api-openapi.yml
   format: yaml
   label: AGNTCY Sample Data API
   slug: agntcy-sample-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-sample-data-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-sample-data-api-openapi.yml
 - filename: agntcy-schema-api-openapi.yml
   format: yaml
   label: AGNTCY Schema API
   slug: agntcy-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-schema-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-schema-api-openapi.yml
 - filename: agntcy-settingsservice-api-openapi.yml
   format: yaml
   label: AGNTCY Settings Service API
   slug: agntcy-settingsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-settingsservice-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-settingsservice-api-openapi.yml
 - filename: agntcy-stateless-runs-api-openapi.yml
   format: yaml
   label: AGNTCY Stateless Runs API
   slug: agntcy-stateless-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-stateless-runs-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-stateless-runs-api-openapi.yml
 - filename: agntcy-taxonomy-api-openapi.yml
   format: yaml
   label: AGNTCY Taxonomy API
   slug: agntcy-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-taxonomy-api-openapi.yml
 - filename: agntcy-thread-runs-api-openapi.yml
   format: yaml
   label: AGNTCY Thread Runs API
   slug: agntcy-thread-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-thread-runs-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-thread-runs-api-openapi.yml
 - filename: agntcy-threads-api-openapi.yml
   format: yaml
   label: AGNTCY Threads API
   slug: agntcy-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-threads-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-threads-api-openapi.yml
 - filename: agntcy-translation-api-openapi.yml
   format: yaml
   label: AGNTCY Translation API
   slug: agntcy-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-translation-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-translation-api-openapi.yml
 - filename: agntcy-validation-api-openapi.yml
   format: yaml
   label: AGNTCY Validation API
   slug: agntcy-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-validation-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-validation-api-openapi.yml
 - filename: agntcy-vcservice-api-openapi.yml
   format: yaml
   label: AGNTCY Vc Service API
   slug: agntcy-vcservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-vcservice-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-vcservice-api-openapi.yml
 - filename: agntcy-auth-service-api-openapi.yml
   format: yaml
   label: AGNTCY Auth Service API
   slug: agntcy-auth-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-auth-service-api-openapi.yml
+  url: https://artifacts.apis.io/agntcy/openapi/agntcy-auth-service-api-openapi.yml
 consequence_counts:
   read: 53
   safety-critical: 9
@@ -232,7 +232,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/agntcy
   \    audit: required\n- path: /api/1.1.0/validate/module\n  method: post\n  operationId: SchemaWeb.SchemaController.validate_module\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/1.1.0/validate/object/{name}\n  method: post\n  operationId: SchemaWeb.SchemaController.validate_object\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/1.1.0/validate/skill\n  method: post\n  operationId: SchemaWeb.SchemaController.validate_skill\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1alpha1/vc/publish\n  method: post\n  operationId: VcService_Publish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha1/vc/revoke\n  method: post\n  operationId: VcService_Revoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop:\
   \ required\n    audit: required\n- path: /v1alpha1/vc/search\n  method: post\n  operationId: VcService_Search\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha1/vc/verify\n  method: post\n  operationId: VcService_Verify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha1/vc/{id}/.well-known/vcs.json\n  method: get\n  operationId: VcService_GetWellKnown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/agentic-access/agntcy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agntcy/agentic-access/agntcy-agentic-access.yml
 summary_line: 106 operations · 53 acting · 9 human-in-the-loop
 tags:
 - AI Agents

@@ -9,31 +9,31 @@ api_specs:
   label: Best Practice Software FHIR API
   slug: best-practice-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/best-practice/openapi/best-practice-fhir-api-openapi.yml
 - filename: best-practice-registered-queries-api-openapi.yml
   format: yaml
   label: Best Practice Software Registered Queries API
   slug: best-practice-registered-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-registered-queries-api-openapi.yml
+  url: https://artifacts.apis.io/best-practice/openapi/best-practice-registered-queries-api-openapi.yml
 - filename: best-practice-sites-api-openapi.yml
   format: yaml
   label: Best Practice Software Sites API
   slug: best-practice-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-sites-api-openapi.yml
+  url: https://artifacts.apis.io/best-practice/openapi/best-practice-sites-api-openapi.yml
 - filename: best-practice-sql-passthrough-api-openapi.yml
   format: yaml
   label: Best Practice Software SQL Passthrough API
   slug: best-practice-sql-passthrough-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-sql-passthrough-api-openapi.yml
+  url: https://artifacts.apis.io/best-practice/openapi/best-practice-sql-passthrough-api-openapi.yml
 - filename: best-practice-tokens-api-openapi.yml
   format: yaml
   label: Best Practice Software Tokens API
   slug: best-practice-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/openapi/best-practice-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/best-practice/openapi/best-practice-tokens-api-openapi.yml
 consequence_counts:
   read: 18
   write: 11
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/best-p
   \ none\n- path: /desktop/sites/{siteId}/queries/{queryId}/results/{pageNumber}\n  method: get\n  operationId: getResultPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/sites/{siteId}/queries/immediate\n  method: post\n  operationId: createImmediateQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrator/sites/{siteId}/queries/async\n  method: post\n  operationId: createAsyncQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /integrator/sites/{siteId}/queries/{queryId}\n  method: get\n  operationId: getQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/sites/{siteId}/queries/status\n  method: post\n  operationId: getQueryStatusBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/sites/{siteId}/queries/{queryId}/results/{pageNumber}\n  method: get\n  operationId: getResultPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/sites/{siteId}/queries/{queryId}/results/{pageNumber}/stream\n  method: get\n  operationId: streamResultPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/token\n  method: post\n  operationId: obtainToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/agentic-access/best-practice-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/best-practice/agentic-access/best-practice-agentic-access.yml
 summary_line: 29 operations · 11 acting
 tags:
 - Healthcare

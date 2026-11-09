@@ -9,37 +9,37 @@ api_specs:
   label: Cursor Audit Logs API
   slug: cursor-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-audit-logs-api-openapi.yml
 - filename: cursor-groups-api-openapi.yml
   format: yaml
   label: Cursor Groups API
   slug: cursor-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-groups-api-openapi.yml
 - filename: cursor-members-api-openapi.yml
   format: yaml
   label: Cursor Members API
   slug: cursor-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-members-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-members-api-openapi.yml
 - filename: cursor-repo-blocklists-api-openapi.yml
   format: yaml
   label: Cursor Repo Blocklists API
   slug: cursor-repo-blocklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-repo-blocklists-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-repo-blocklists-api-openapi.yml
 - filename: cursor-spend-api-openapi.yml
   format: yaml
   label: Cursor Spend API
   slug: cursor-spend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-spend-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-spend-api-openapi.yml
 - filename: cursor-usage-api-openapi.yml
   format: yaml
   label: Cursor Usage API
   slug: cursor-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-usage-api-openapi.yml
+  url: https://artifacts.apis.io/cursor/openapi/cursor-usage-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cursor
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/members\n  method: get\n  operationId: getTeamMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/remove-member\n  method: post\n  operationId: removeTeamMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/repo-blocklists/repos\n  method: get\n  operationId: getRepoBlocklists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /settings/repo-blocklists/repos/upsert\n  method: post\n  operationId: upsertRepoBlocklists\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/repo-blocklists/repos/{repoId}\n  method: delete\n  operationId: deleteRepoBlocklist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/user-spend-limit\n  method: post\n  operationId: setUserSpendLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/spend\n  method: post\n  operationId: getSpend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/daily-usage-data\n  method: post\n  operationId: getDailyUsageData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/filtered-usage-events\n  method: post\n  operationId: getFilteredUsageEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/agentic-access/cursor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cursor/agentic-access/cursor-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Artificial Intelligence

@@ -9,127 +9,127 @@ api_specs:
   label: APIClarity Control API
   slug: apiclarity-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-control-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-control-api-openapi.yml
 - filename: apiclarity-features-api-openapi.yml
   format: yaml
   label: APIClarity Features API
   slug: apiclarity-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-features-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-features-api-openapi.yml
 - filename: apiclarity-apievents-api-openapi.yml
   format: yaml
   label: APIClarity API Events API
   slug: apiclarity-apievents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-apievents-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-apievents-api-openapi.yml
 - filename: apiclarity-apifindings-api-openapi.yml
   format: yaml
   label: APIClarity API Findings API
   slug: apiclarity-apifindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-apifindings-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-apifindings-api-openapi.yml
 - filename: apiclarity-apiinventory-api-openapi.yml
   format: yaml
   label: APIClarity API Inventory API
   slug: apiclarity-apiinventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-apiinventory-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-apiinventory-api-openapi.yml
 - filename: apiclarity-bfla-api-openapi.yml
   format: yaml
   label: APIClarity Bfla API
   slug: apiclarity-bfla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-bfla-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-bfla-api-openapi.yml
 - filename: apiclarity-dashboard-api-openapi.yml
   format: yaml
   label: APIClarity Dashboard API
   slug: apiclarity-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-dashboard-api-openapi.yml
 - filename: apiclarity-enable-api-openapi.yml
   format: yaml
   label: APIClarity Enable API
   slug: apiclarity-enable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-enable-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-enable-api-openapi.yml
 - filename: apiclarity-eventannotations-api-openapi.yml
   format: yaml
   label: APIClarity Event Annotations API
   slug: apiclarity-eventannotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-eventannotations-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-eventannotations-api-openapi.yml
 - filename: apiclarity-fuzzer-api-openapi.yml
   format: yaml
   label: APIClarity Fuzzer API
   slug: apiclarity-fuzzer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-fuzzer-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-fuzzer-api-openapi.yml
 - filename: apiclarity-hoststotrace-api-openapi.yml
   format: yaml
   label: APIClarity Hosts To Trace API
   slug: apiclarity-hoststotrace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-hoststotrace-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-hoststotrace-api-openapi.yml
 - filename: apiclarity-local-bfla-api-openapi.yml
   format: yaml
   label: APIClarity Local Bfla API
   slug: apiclarity-local-bfla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-local-bfla-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-local-bfla-api-openapi.yml
 - filename: apiclarity-local-fuzzer-api-openapi.yml
   format: yaml
   label: APIClarity Local Fuzzer API
   slug: apiclarity-local-fuzzer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-local-fuzzer-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-local-fuzzer-api-openapi.yml
 - filename: apiclarity-modules-api-openapi.yml
   format: yaml
   label: APIClarity Modules API
   slug: apiclarity-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-modules-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-modules-api-openapi.yml
 - filename: apiclarity-notification-api-openapi.yml
   format: yaml
   label: APIClarity Notification API
   slug: apiclarity-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-notification-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-notification-api-openapi.yml
 - filename: apiclarity-start-api-openapi.yml
   format: yaml
   label: APIClarity Start API
   slug: apiclarity-start-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-start-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-start-api-openapi.yml
 - filename: apiclarity-state-api-openapi.yml
   format: yaml
   label: APIClarity State API
   slug: apiclarity-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-state-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-state-api-openapi.yml
 - filename: apiclarity-stop-api-openapi.yml
   format: yaml
   label: APIClarity Stop API
   slug: apiclarity-stop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-stop-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-stop-api-openapi.yml
 - filename: apiclarity-telemetry-api-openapi.yml
   format: yaml
   label: APIClarity Telemetry API
   slug: apiclarity-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-telemetry-api-openapi.yml
 - filename: apiclarity-version-api-openapi.yml
   format: yaml
   label: APIClarity Version API
   slug: apiclarity-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-version-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-version-api-openapi.yml
 - filename: apiclarity-api-usage-api-openapi.yml
   format: yaml
   label: APIClarity API Usage API
   slug: apiclarity-api-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-api-usage-api-openapi.yml
+  url: https://artifacts.apis.io/apiclarity/openapi/apiclarity-api-usage-api-openapi.yml
 consequence_counts:
   read: 54
   safety-critical: 19
@@ -287,7 +287,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/apicla
   \    audit: none\n- path: /modules/traceanalyzer/apiFindings/{apiID}/reset\n  method: post\n  operationId: traceanalyzerResetApiFindings\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /modules/traceanalyzer/eventAnnotations/{eventID}\n  method: get\n  operationId: traceanalyzerGetEventAnnotations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notification/{apiID}\n  method: post\n  operationId: postNotificationByApiID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{apiID}/start\n  method: post\n  operationId: PostAPIIDStart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /state\n  method: get\n  operationId: getState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{apiID}/stop\n  method: post\n  operationId: PostAPIIDStop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit:\
   \ required\n- path: /telemetry\n  method: post\n  operationId: postTelemetry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/agentic-access/apiclarity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apiclarity/agentic-access/apiclarity-agentic-access.yml
 summary_line: 100 operations · 46 acting · 19 human-in-the-loop
 tags:
 - API Observability

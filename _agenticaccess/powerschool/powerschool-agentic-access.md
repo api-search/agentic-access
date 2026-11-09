@@ -9,49 +9,49 @@ api_specs:
   label: PowerSchool Authentication API
   slug: powerschool-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/powerschool/openapi/powerschool-authentication-api-openapi.yml
 - filename: powerschool-courses-api-openapi.yml
   format: yaml
   label: PowerSchool Courses API
   slug: powerschool-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-courses-api-openapi.yml
+  url: https://artifacts.apis.io/powerschool/openapi/powerschool-courses-api-openapi.yml
 - filename: powerschool-district-api-openapi.yml
   format: yaml
   label: PowerSchool District API
   slug: powerschool-district-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-district-api-openapi.yml
+  url: https://artifacts.apis.io/powerschool/openapi/powerschool-district-api-openapi.yml
 - filename: powerschool-metadata-api-openapi.yml
   format: yaml
   label: PowerSchool Metadata API
   slug: powerschool-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/powerschool/openapi/powerschool-metadata-api-openapi.yml
 - filename: powerschool-powerquery-api-openapi.yml
   format: yaml
   label: PowerSchool PowerQuery API
   slug: powerschool-powerquery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-powerquery-api-openapi.yml
+  url: https://artifacts.apis.io/powerschool/openapi/powerschool-powerquery-api-openapi.yml
 - filename: powerschool-schools-api-openapi.yml
   format: yaml
   label: PowerSchool Schools API
   slug: powerschool-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-schools-api-openapi.yml
+  url: https://artifacts.apis.io/powerschool/openapi/powerschool-schools-api-openapi.yml
 - filename: powerschool-sections-api-openapi.yml
   format: yaml
   label: PowerSchool Sections API
   slug: powerschool-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-sections-api-openapi.yml
+  url: https://artifacts.apis.io/powerschool/openapi/powerschool-sections-api-openapi.yml
 - filename: powerschool-students-api-openapi.yml
   format: yaml
   label: PowerSchool Students API
   slug: powerschool-students-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/openapi/powerschool-students-api-openapi.yml
+  url: https://artifacts.apis.io/powerschool/openapi/powerschool-students-api-openapi.yml
 consequence_counts:
   read: 13
   write: 2
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/powers
   \    max-ttl: 3600\n    audit: none\n- path: /ws/v1/district/student/{studentDcid}\n  method: get\n  operationId: getStudent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/v1/school/{schoolDcid}\n  method: get\n  operationId: getSchool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/v1/school/{schoolDcid}/course\n  method: get\n  operationId: getCoursesForSchool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/v1/school/{schoolDcid}/course/count\n  method: get\n  operationId: getCoursesCountForSchool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/v1/school/{schoolDcid}/section\n\
   \  method: get\n  operationId: getSectionsForSchool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/v1/school/{schoolDcid}/section/count\n  method: get\n  operationId: getSectionsCountForSchool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/schema/query/{queryName}\n  method: post\n  operationId: executePowerQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/schema/table/{tableName}\n  method: get\n  operationId: getSchemaTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/schema/table/{tableName}/count\n  method: get\n  operationId: getSchemaTableCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/agentic-access/powerschool-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/powerschool/agentic-access/powerschool-agentic-access.yml
 summary_line: 15 operations · 2 acting
 tags:
 - K-12

@@ -9,121 +9,121 @@ api_specs:
   label: Salesflare Accounts API
   slug: salesflare-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-accounts-api-openapi.yml
 - filename: salesflare-ai-message-feedbacks-api-openapi.yml
   format: yaml
   label: Salesflare AI Message Feedbacks API
   slug: salesflare-ai-message-feedbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-ai-message-feedbacks-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-ai-message-feedbacks-api-openapi.yml
 - filename: salesflare-aisetings-api-openapi.yml
   format: yaml
   label: Salesflare AISetings API
   slug: salesflare-aisetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-aisetings-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-aisetings-api-openapi.yml
 - filename: salesflare-calls-api-openapi.yml
   format: yaml
   label: Salesflare Calls API
   slug: salesflare-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-calls-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-calls-api-openapi.yml
 - filename: salesflare-contacts-api-openapi.yml
   format: yaml
   label: Salesflare Contacts API
   slug: salesflare-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-contacts-api-openapi.yml
 - filename: salesflare-custom-fields-api-openapi.yml
   format: yaml
   label: Salesflare Custom Fields API
   slug: salesflare-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-custom-fields-api-openapi.yml
 - filename: salesflare-email-data-sources-api-openapi.yml
   format: yaml
   label: Salesflare Email Data Sources API
   slug: salesflare-email-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-email-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-email-data-sources-api-openapi.yml
 - filename: salesflare-filter-fields-api-openapi.yml
   format: yaml
   label: Salesflare Filter Fields API
   slug: salesflare-filter-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-filter-fields-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-filter-fields-api-openapi.yml
 - filename: salesflare-groups-api-openapi.yml
   format: yaml
   label: Salesflare Groups API
   slug: salesflare-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-groups-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-groups-api-openapi.yml
 - filename: salesflare-internal-notes-api-openapi.yml
   format: yaml
   label: Salesflare Internal Notes API
   slug: salesflare-internal-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-internal-notes-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-internal-notes-api-openapi.yml
 - filename: salesflare-meetings-api-openapi.yml
   format: yaml
   label: Salesflare Meetings API
   slug: salesflare-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-meetings-api-openapi.yml
 - filename: salesflare-opportunities-api-openapi.yml
   format: yaml
   label: Salesflare Opportunities API
   slug: salesflare-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-opportunities-api-openapi.yml
 - filename: salesflare-persons-api-openapi.yml
   format: yaml
   label: Salesflare Persons API
   slug: salesflare-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-persons-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-persons-api-openapi.yml
 - filename: salesflare-pipelines-api-openapi.yml
   format: yaml
   label: Salesflare Pipelines API
   slug: salesflare-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-pipelines-api-openapi.yml
 - filename: salesflare-regional-settings-api-openapi.yml
   format: yaml
   label: Salesflare Regional Settings API
   slug: salesflare-regional-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-regional-settings-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-regional-settings-api-openapi.yml
 - filename: salesflare-tags-api-openapi.yml
   format: yaml
   label: Salesflare Tags API
   slug: salesflare-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-tags-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-tags-api-openapi.yml
 - filename: salesflare-tasks-api-openapi.yml
   format: yaml
   label: Salesflare Tasks API
   slug: salesflare-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-tasks-api-openapi.yml
 - filename: salesflare-users-api-openapi.yml
   format: yaml
   label: Salesflare Users API
   slug: salesflare-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-users-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-users-api-openapi.yml
 - filename: salesflare-workflows-api-openapi.yml
   format: yaml
   label: Salesflare Workflows API
   slug: salesflare-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-workflows-api-openapi.yml
 - filename: salesflare-ai-settings-api-openapi.yml
   format: yaml
   label: Salesflare AI Settings API
   slug: salesflare-ai-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/openapi/salesflare-ai-settings-api-openapi.yml
+  url: https://artifacts.apis.io/salesflare/openapi/salesflare-ai-settings-api-openapi.yml
 consequence_counts:
   read: 35
   safety-critical: 1
@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/salesf
   - path: /calls/{meeting_id}\n  method: put\n  operationId: putCallsMeeting_id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/{message_id}\n  method: put\n  operationId: putMessagesMessage_id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/{message_id}\n  method: delete\n  operationId: deleteMessagesMessage_id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: put\n  operationId: putTasksId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: delete\n  operationId: deleteTasksId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasources/email/{id}\n  method: put\n  operationId: putDatasourcesEmailId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{id}/audience/{record_id}\n  method: put\n  operationId: putWorkflowsIdAudienceRecord_id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/agentic-access/salesflare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/salesflare/agentic-access/salesflare-agentic-access.yml
 summary_line: 72 operations · 37 acting · 1 human-in-the-loop
 tags:
 - CRM

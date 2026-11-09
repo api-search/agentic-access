@@ -9,49 +9,49 @@ api_specs:
   label: ZebPay Futures API
   slug: zebpay-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-api-openapi.yml
 - filename: zebpay-futures-exchange-api-openapi.yml
   format: yaml
   label: ZebPay Futures > Exchange API
   slug: zebpay-futures-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-exchange-api-openapi.yml
 - filename: zebpay-futures-market-api-openapi.yml
   format: yaml
   label: ZebPay Futures > Market API
   slug: zebpay-futures-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-market-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-market-api-openapi.yml
 - filename: zebpay-futures-trade-api-openapi.yml
   format: yaml
   label: ZebPay Futures > Trade API
   slug: zebpay-futures-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-trade-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-trade-api-openapi.yml
 - filename: zebpay-futures-user-leverage-api-openapi.yml
   format: yaml
   label: ZebPay Futures > User Leverage API
   slug: zebpay-futures-user-leverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-user-leverage-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-user-leverage-api-openapi.yml
 - filename: zebpay-futures-wallet-api-openapi.yml
   format: yaml
   label: ZebPay Futures > Wallet API
   slug: zebpay-futures-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-wallet-api-openapi.yml
 - filename: zebpay-market-api-openapi.yml
   format: yaml
   label: ZebPay Market API
   slug: zebpay-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-market-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-market-api-openapi.yml
 - filename: zebpay-trade-api-api-openapi.yml
   format: yaml
   label: ZebPay Trade API
   slug: zebpay-trade-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-trade-api-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-trade-api-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 26
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/zebpay
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/trade/reduceMargin\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/trade/order/open-orders\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/trade/order/history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/v1/trade/linkedOrders/{clientOrderId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/trade/positions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/trade/history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/trade/transaction/history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/trade/userLeverage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/v1/trade/update/userLeverage\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /healthCheckStatus\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/agentic-access/zebpay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zebpay/agentic-access/zebpay-agentic-access.yml
 summary_line: 34 operations · 8 acting
 tags:
 - Company

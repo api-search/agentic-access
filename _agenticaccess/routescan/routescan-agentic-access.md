@@ -3,43 +3,6 @@ acting_count: 3
 action_class_counts:
   acting: 3
   connected: 96
-api_specs:
-- filename: routescan-avm-api-openapi.yml
-  format: yaml
-  label: Routescan AVM API
-  slug: routescan-avm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routescan/refs/heads/main/openapi/routescan-avm-api-openapi.yml
-- filename: routescan-etherscan-api-openapi.yml
-  format: yaml
-  label: Routescan Etherscan API
-  slug: routescan-etherscan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routescan/refs/heads/main/openapi/routescan-etherscan-api-openapi.yml
-- filename: routescan-evm-api-openapi.yml
-  format: yaml
-  label: Routescan EVM API
-  slug: routescan-evm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routescan/refs/heads/main/openapi/routescan-evm-api-openapi.yml
-- filename: routescan-misc-api-openapi.yml
-  format: yaml
-  label: Routescan Misc API
-  slug: routescan-misc-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routescan/refs/heads/main/openapi/routescan-misc-api-openapi.yml
-- filename: routescan-pvm-api-openapi.yml
-  format: yaml
-  label: Routescan PVM API
-  slug: routescan-pvm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routescan/refs/heads/main/openapi/routescan-pvm-api-openapi.yml
-- filename: routescan-staking-api-openapi.yml
-  format: yaml
-  label: Routescan Staking API
-  slug: routescan-staking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routescan/refs/heads/main/openapi/routescan-staking-api-openapi.yml
 consequence_counts:
   read: 96
   write: 3
@@ -89,13 +52,8 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/routes
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/pvm/{blockchainId}/staking/address/{addressId}/overview\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/pvm/{blockchainId}/staking/validations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/pvm/{blockchainId}/staking/validations/{validationId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/pvm/{blockchainId}/staking/delegations\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/pvm/{blockchainId}/staking/subnets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/staking/address/{addressId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/staking/address/{addressId}/overview\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/staking/validations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v2/network/{networkId}/staking/validations/{validationId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/staking/delegations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network/{networkId}/staking/subnets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routescan/refs/heads/main/agentic-access/routescan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/routescan/agentic-access/routescan-agentic-access.yml
 summary_line: 99 operations · 3 acting
 tags:
 - Company
-- Blockchain
-- Data
-- API
-- Multichain
-- Analytics
 ---

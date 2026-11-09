@@ -9,19 +9,19 @@ api_specs:
   label: Subspace AcceleratorService API
   slug: subspace-acceleratorservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-acceleratorservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-acceleratorservice-api-openapi.yml
 - filename: subspace-sipteleportservice-api-openapi.yml
   format: yaml
   label: Subspace SipTeleportService API
   slug: subspace-sipteleportservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-sipteleportservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-sipteleportservice-api-openapi.yml
 - filename: subspace-webrtccdnservice-api-openapi.yml
   format: yaml
   label: Subspace WebRtcCdnService API
   slug: subspace-webrtccdnservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-webrtccdnservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-webrtccdnservice-api-openapi.yml
 consequence_counts:
   read: 4
   write: 7
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/subspa
   \  method: post\n  operationId: SipTeleportService_Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - accelerators:read\n    - accelerators:write\n    - sipteleport:read\n    - sipteleport:write\n- path: /v1/sipteleport/{id}\n  method: delete\n  operationId: SipTeleportService_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - accelerators:read\n    - accelerators:write\n    - sipteleport:read\n    - sipteleport:write\n- path: /v1/sipteleport/{id}\n  method: get\n  operationId: SipTeleportService_Get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - accelerators:read\n    - accelerators:write\n    - sipteleport:read\n    - sipteleport:write\n- path: /v1/sipteleport/{id}\n  method: put\n  operationId: SipTeleportService_Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - accelerators:read\n    - accelerators:write\n    - sipteleport:read\n    - sipteleport:write\n- path: /v1/webrtc-cdn\n  method: post\n  operationId: WebRtcCdnService_GetWebRtcCdn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - accelerators:read\n    - accelerators:write\n    - sipteleport:read\n    - sipteleport:write\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/agentic-access/subspace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/subspace/agentic-access/subspace-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
 - Company

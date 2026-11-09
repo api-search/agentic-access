@@ -9,43 +9,43 @@ api_specs:
   label: Smartlook Events API
   slug: smartlook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-events-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-events-api-openapi.yml
 - filename: smartlook-funnels-api-openapi.yml
   format: yaml
   label: Smartlook Funnels API
   slug: smartlook-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-funnels-api-openapi.yml
 - filename: smartlook-mappingfiles-api-openapi.yml
   format: yaml
   label: Smartlook Mapping Files API
   slug: smartlook-mappingfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-mappingfiles-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-mappingfiles-api-openapi.yml
 - filename: smartlook-sessions-api-openapi.yml
   format: yaml
   label: Smartlook Sessions API
   slug: smartlook-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-sessions-api-openapi.yml
 - filename: smartlook-system-api-openapi.yml
   format: yaml
   label: Smartlook System API
   slug: smartlook-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-system-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-system-api-openapi.yml
 - filename: smartlook-visitors-api-openapi.yml
   format: yaml
   label: Smartlook Visitors API
   slug: smartlook-visitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-visitors-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-visitors-api-openapi.yml
 - filename: smartlook-webhooks-api-openapi.yml
   format: yaml
   label: Smartlook Webhooks API
   slug: smartlook-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-webhooks-api-openapi.yml
 consequence_counts:
   read: 16
   write: 8
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/smartl
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/visitors/{visitorId}/sessions\n  method: get\n  operationId: getVisitorSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/visitors/{visitorId}/events\n  method: get\n  operationId: getVisitorEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/visitors/search\n  method: post\n  operationId: searchVisitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{webhookOid}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks/{webhookOid}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n- path: /api/v1/webhooks/{webhookOid}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/agentic-access/smartlook-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartlook/agentic-access/smartlook-agentic-access.yml
 summary_line: 24 operations · 8 acting
 tags:
 - Product Analytics

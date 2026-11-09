@@ -9,43 +9,43 @@ api_specs:
   label: SingleFile Documents API
   slug: singlefile-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-documents-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-documents-api-openapi.yml
 - filename: singlefile-entities-api-openapi.yml
   format: yaml
   label: SingleFile Entities API
   slug: singlefile-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-entities-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-entities-api-openapi.yml
 - filename: singlefile-jurisdictions-api-openapi.yml
   format: yaml
   label: SingleFile Jurisdictions API
   slug: singlefile-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-jurisdictions-api-openapi.yml
 - filename: singlefile-orders-api-openapi.yml
   format: yaml
   label: SingleFile Orders API
   slug: singlefile-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-orders-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-orders-api-openapi.yml
 - filename: singlefile-organizations-api-openapi.yml
   format: yaml
   label: SingleFile Organizations API
   slug: singlefile-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-organizations-api-openapi.yml
 - filename: singlefile-schemas-api-openapi.yml
   format: yaml
   label: SingleFile Schemas API
   slug: singlefile-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-schemas-api-openapi.yml
 - filename: singlefile-tasks-api-openapi.yml
   format: yaml
   label: SingleFile Tasks API
   slug: singlefile-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-tasks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 25
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/single
   \  method: get\n  operationId: organizations_list_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /organizations/{organization_id}/orders\n  method: get\n  operationId: organizations_orders_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /organizations/{organization_id}\n  method: get\n  operationId: organizations_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /organizations/{organization_id}/tasks\n  method: get\n  operationId: organizations_tasks_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /schemas/list\n  method: get\n  operationId: schemas_list_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /schemas\n  method: get\n  operationId: schemas_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /tasks/list\n  method: get\n  operationId: tasks_list_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /tasks/{task_id}\n  method: get\n  operationId: tasks_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/agentic-access/singlefile-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/singlefile/agentic-access/singlefile-agentic-access.yml
 summary_line: 50 operations · 25 acting
 tags:
 - Company
@@ -133,5 +133,6 @@ tags:
 - Business Filings
 - Regulatory
 - Webhook
+- OAuth
 - Authentication
 ---

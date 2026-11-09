@@ -9,139 +9,139 @@ api_specs:
   label: Nestcoin Auth OAUTH API
   slug: nestcoin-auth-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-auth-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-auth-oauth-api-openapi.yml
 - filename: nestcoin-auth-userauth-api-openapi.yml
   format: yaml
   label: Nestcoin Auth Userauth API
   slug: nestcoin-auth-userauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-auth-userauth-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-auth-userauth-api-openapi.yml
 - filename: nestcoin-exchange-external-api-api-openapi.yml
   format: yaml
   label: Nestcoin Exchange External API
   slug: nestcoin-exchange-external-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-exchange-external-api-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-exchange-external-api-api-openapi.yml
 - filename: nestcoin-exchange-orders-api-openapi.yml
   format: yaml
   label: Nestcoin Exchange Orders API
   slug: nestcoin-exchange-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-exchange-orders-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-exchange-orders-api-openapi.yml
 - filename: nestcoin-ledger-account-activity-api-openapi.yml
   format: yaml
   label: Nestcoin ledger-account activity API
   slug: nestcoin-ledger-account-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-ledger-account-activity-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-ledger-account-activity-api-openapi.yml
 - filename: nestcoin-ledger-accounts-api-openapi.yml
   format: yaml
   label: Nestcoin Ledger Accounts API
   slug: nestcoin-ledger-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-ledger-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-ledger-accounts-api-openapi.yml
 - filename: nestcoin-ledger-beneficiaries-api-openapi.yml
   format: yaml
   label: Nestcoin Ledger Beneficiaries API
   slug: nestcoin-ledger-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-ledger-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-ledger-beneficiaries-api-openapi.yml
 - filename: nestcoin-ledger-cash-deposits-api-openapi.yml
   format: yaml
   label: Nestcoin ledger-cash deposits API
   slug: nestcoin-ledger-cash-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-ledger-cash-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-ledger-cash-deposits-api-openapi.yml
 - filename: nestcoin-ledger-offramp-accounts-api-openapi.yml
   format: yaml
   label: Nestcoin ledger-offramp accounts API
   slug: nestcoin-ledger-offramp-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-ledger-offramp-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-ledger-offramp-accounts-api-openapi.yml
 - filename: nestcoin-ledger-payments-api-openapi.yml
   format: yaml
   label: Nestcoin Ledger Payments API
   slug: nestcoin-ledger-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-ledger-payments-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-ledger-payments-api-openapi.yml
 - filename: nestcoin-ledger-sub-accounts-api-openapi.yml
   format: yaml
   label: Nestcoin Ledger Sub Accounts API
   slug: nestcoin-ledger-sub-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-ledger-sub-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-ledger-sub-accounts-api-openapi.yml
 - filename: nestcoin-ledger-transfer-api-openapi.yml
   format: yaml
   label: Nestcoin Ledger Transfer API
   slug: nestcoin-ledger-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-ledger-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-ledger-transfer-api-openapi.yml
 - filename: nestcoin-offers-offers-api-openapi.yml
   format: yaml
   label: Nestcoin Offers Offers API
   slug: nestcoin-offers-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-offers-offers-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-offers-offers-api-openapi.yml
 - filename: nestcoin-offers-onboardapi-api-openapi.yml
   format: yaml
   label: Nestcoin Offers Onboardapi API
   slug: nestcoin-offers-onboardapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-offers-onboardapi-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-offers-onboardapi-api-openapi.yml
 - filename: nestcoin-orders-orders-api-openapi.yml
   format: yaml
   label: Nestcoin Orders Orders API
   slug: nestcoin-orders-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-orders-orders-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-orders-orders-api-openapi.yml
 - filename: nestcoin-orders-quotes-api-openapi.yml
   format: yaml
   label: Nestcoin Orders Quotes API
   slug: nestcoin-orders-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-orders-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-orders-quotes-api-openapi.yml
 - filename: nestcoin-payment-methods-users-api-openapi.yml
   format: yaml
   label: Nestcoin Payment Methods Users API
   slug: nestcoin-payment-methods-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-payment-methods-users-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-payment-methods-users-api-openapi.yml
 - filename: nestcoin-transactions-offramp-api-openapi.yml
   format: yaml
   label: Nestcoin Transactions Offramp API
   slug: nestcoin-transactions-offramp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-transactions-offramp-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-transactions-offramp-api-openapi.yml
 - filename: nestcoin-transactions-onboardapi-api-openapi.yml
   format: yaml
   label: Nestcoin Transactions Onboardapi API
   slug: nestcoin-transactions-onboardapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-transactions-onboardapi-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-transactions-onboardapi-api-openapi.yml
 - filename: nestcoin-transactions-onramp-api-openapi.yml
   format: yaml
   label: Nestcoin Transactions Onramp API
   slug: nestcoin-transactions-onramp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-transactions-onramp-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-transactions-onramp-api-openapi.yml
 - filename: nestcoin-transactions-transactions-api-openapi.yml
   format: yaml
   label: Nestcoin Transactions Transactions API
   slug: nestcoin-transactions-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-transactions-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-transactions-transactions-api-openapi.yml
 - filename: nestcoin-users-onboardapi-api-openapi.yml
   format: yaml
   label: Nestcoin Users Onboardapi API
   slug: nestcoin-users-onboardapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-users-onboardapi-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-users-onboardapi-api-openapi.yml
 - filename: nestcoin-users-users-api-openapi.yml
   format: yaml
   label: Nestcoin Users Users API
   slug: nestcoin-users-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/openapi/nestcoin-users-users-api-openapi.yml
+  url: https://artifacts.apis.io/nestcoin/openapi/nestcoin-users-users-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 58
@@ -278,7 +278,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nestco
   \      - high-value\n    audit: required\n- path: /transactions/v2/offramp/initiate\n  method: post\n  operationId: initiateOfframpWithoutReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/offramp/customer-approve\n  method: post\n  operationId: offrampCustomerApprove\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/offramp/customer-confirm\n  method: post\n  operationId: offrampCustomerConfirm\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/offramp/customer-cancel\n  method: post\n  operationId: offrampCustomerCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me/send-otp\n  method: get\n  operationId: sendOtp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me\n  method: get\n  operationId: getMyProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /users/me/update-profile\n  method: put\n  operationId: updateProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/agentic-access/nestcoin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nestcoin/agentic-access/nestcoin-agentic-access.yml
 summary_line: 96 operations · 38 acting
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: Scanner Ad Hoc Queries API
   slug: scanner-ad-hoc-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-ad-hoc-queries-api-openapi.yml
+  url: https://artifacts.apis.io/scanner/openapi/scanner-ad-hoc-queries-api-openapi.yml
 - filename: scanner-detection-rules-api-openapi.yml
   format: yaml
   label: Scanner Detection Rules API
   slug: scanner-detection-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-detection-rules-api-openapi.yml
+  url: https://artifacts.apis.io/scanner/openapi/scanner-detection-rules-api-openapi.yml
 - filename: scanner-event-sinks-api-openapi.yml
   format: yaml
   label: Scanner Event Sinks API
   slug: scanner-event-sinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-event-sinks-api-openapi.yml
+  url: https://artifacts.apis.io/scanner/openapi/scanner-event-sinks-api-openapi.yml
 - filename: scanner-indexes-api-openapi.yml
   format: yaml
   label: Scanner Indexes API
   slug: scanner-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/scanner/openapi/scanner-indexes-api-openapi.yml
 - filename: scanner-info-api-openapi.yml
   format: yaml
   label: Scanner Info API
   slug: scanner-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-info-api-openapi.yml
+  url: https://artifacts.apis.io/scanner/openapi/scanner-info-api-openapi.yml
 - filename: scanner-lookup-tables-api-openapi.yml
   format: yaml
   label: Scanner Lookup Tables API
   slug: scanner-lookup-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/openapi/scanner-lookup-tables-api-openapi.yml
+  url: https://artifacts.apis.io/scanner/openapi/scanner-lookup-tables-api-openapi.yml
 consequence_counts:
   read: 12
   write: 13
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/scanne
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lookup_table_file/{id}\n  method: delete\n  operationId: deleteLookupTableFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lookup_table_file/{id}/data\n  method: get\n  operationId: downloadLookupTableFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lookup_table_file/{id}/csv_preview\n  method: get\n  operationId: previewLookupTableFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v1/lookup_table_file/{id}/replace_data\n  method: post\n  operationId: replaceLookupTableFileData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/start_query\n  method: post\n  operationId: startQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/query_progress/{qr_id}\n  method: get\n  operationId: getQueryProgress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cancel_query/{qr_id}\n\
   \  method: post\n  operationId: cancelQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/blocking_query\n  method: post\n  operationId: blockingQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/info/query_capacity\n  method: get\n  operationId: getQueryCapacity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/agentic-access/scanner-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scanner/agentic-access/scanner-agentic-access.yml
 summary_line: 25 operations · 13 acting
 tags:
 - Company

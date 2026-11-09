@@ -9,115 +9,115 @@ api_specs:
   label: Trello Webhooks API
   slug: webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/asyncapi/trello-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/trello/asyncapi/trello-webhooks-asyncapi.yml
 - filename: trello-actions-api-openapi.yml
   format: yaml
   label: trello Actions API
   slug: trello-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-actions-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-actions-api-openapi.yml
 - filename: trello-boards-api-openapi.yml
   format: yaml
   label: trello Boards API
   slug: trello-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-boards-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-boards-api-openapi.yml
 - filename: trello-cards-api-openapi.yml
   format: yaml
   label: trello Cards API
   slug: trello-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-cards-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-cards-api-openapi.yml
 - filename: trello-checklists-api-openapi.yml
   format: yaml
   label: trello Checklists API
   slug: trello-checklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-checklists-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-checklists-api-openapi.yml
 - filename: trello-labels-api-openapi.yml
   format: yaml
   label: trello Labels API
   slug: trello-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-labels-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-labels-api-openapi.yml
 - filename: trello-lists-api-openapi.yml
   format: yaml
   label: trello Lists API
   slug: trello-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-lists-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-lists-api-openapi.yml
 - filename: trello-members-api-openapi.yml
   format: yaml
   label: trello Members API
   slug: trello-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-members-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-members-api-openapi.yml
 - filename: trello-notifications-api-openapi.yml
   format: yaml
   label: trello Notifications API
   slug: trello-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-notifications-api-openapi.yml
 - filename: trello-organizations-api-openapi.yml
   format: yaml
   label: trello Organizations API
   slug: trello-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-organizations-api-openapi.yml
 - filename: trello-plugins-api-openapi.yml
   format: yaml
   label: trello Plugins API
   slug: trello-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-plugins-api-openapi.yml
 - filename: trello-search-api-openapi.yml
   format: yaml
   label: trello Search API
   slug: trello-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-search-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-search-api-openapi.yml
 - filename: trello-tokens-api-openapi.yml
   format: yaml
   label: trello Tokens API
   slug: trello-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-tokens-api-openapi.yml
 - filename: trello-webhooks-api-openapi.yml
   format: yaml
   label: trello Webhooks API
   slug: trello-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-webhooks-api-openapi.yml
 - filename: trello-applications-api-openapi.yml
   format: yaml
   label: Trello Applications API
   slug: trello-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-applications-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-applications-api-openapi.yml
 - filename: trello-batch-api-openapi.yml
   format: yaml
   label: Trello Batch API
   slug: trello-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-batch-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-batch-api-openapi.yml
 - filename: trello-emoji-api-openapi.yml
   format: yaml
   label: Trello Emoji API
   slug: trello-emoji-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-emoji-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-emoji-api-openapi.yml
 - filename: trello-enterprises-api-openapi.yml
   format: yaml
   label: Trello Enterprises API
   slug: trello-enterprises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-enterprises-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-enterprises-api-openapi.yml
 - filename: trello-custom-fields-api-openapi.yml
   format: yaml
   label: Trello Custom Fields API
   slug: trello-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/trello/openapi/trello-custom-fields-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 177
@@ -197,8 +197,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/trello
   \ required\n    scope:\n    - read:board:trello\n    - write:board:trello\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /actions/{idAction}/reactions\n  method: get\n  operationId: get-actions-idaction-reactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:board:trello\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /actions/{idAction}/reactions\n  method: post\n  operationId: post-actions-idaction-reactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read:board:trello\n    - write:board:trello\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /actions/{idAction}/reactions/{id}\n\
   \  method: get\n  operationId: get-actions-idaction-reactions-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:board:trello\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /actions/{idAction}/reactions/{id}\n  method: delete\n  operationId: delete-actions-idaction-reactions-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read:board:trello\n    - write:board:trello\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /actions/{idAction}/reactionsSummary\n  method: get\n  operationId: get-actions-idaction-reactionsummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:board:trello\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /applications/{key}/compliance\n  method: get\n  operationId: applications-key-compliance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batch\n  method: get\n  operationId: get-batch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /boards/{id}/memberships\n  method: get\n  operationId: get-boards-id-memberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:board:trello\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /boards/{id}\n  method: get\n  operationId: get-boards-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:board:trello\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB\
-  \ (113 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/agentic-access/trello-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/agentic-access/trello-agentic-access.yml
+  \ (113 KB total) ---\n# Full source: https://artifacts.apis.io/trello/agentic-access/trello-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/trello/agentic-access/trello-agentic-access.yml
 summary_line: 362 operations · 185 acting · 1 human-in-the-loop
 tags:
 - Project Management

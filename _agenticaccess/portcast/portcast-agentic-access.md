@@ -9,31 +9,31 @@ api_specs:
   label: Portcast Augmentation API
   slug: portcast-augmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-augmentation-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-augmentation-api-openapi.yml
 - filename: portcast-container-detail-api-openapi.yml
   format: yaml
   label: Portcast Container Detail API
   slug: portcast-container-detail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-container-detail-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-container-detail-api-openapi.yml
 - filename: portcast-reference-api-openapi.yml
   format: yaml
   label: Portcast Reference API
   slug: portcast-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-reference-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-reference-api-openapi.yml
 - filename: portcast-tracking-data-api-openapi.yml
   format: yaml
   label: Portcast Tracking Data API
   slug: portcast-tracking-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-tracking-data-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-tracking-data-api-openapi.yml
 - filename: portcast-tracking-upload-api-openapi.yml
   format: yaml
   label: Portcast Tracking Upload API
   slug: portcast-tracking-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/openapi/portcast-tracking-upload-api-openapi.yml
+  url: https://artifacts.apis.io/portcast/openapi/portcast-tracking-upload-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/portca
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/bill-of-lading-bookmarks/{bookmark_id}/container_route\n  method: get\n  operationId: getContainerRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/bill-of-lading-bookmarks/{bookmark_id}/risks\n  method: get\n  operationId: getContainerRisks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/bill-of-lading-bookmarks/{bookmark_id}/import_export_plan\n  method: get\n  operationId: getContainerTerminalData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/bill-of-lading-bookmarks/{bookmark_id}/augmentations\n  method: get\n\
   \  operationId: fetchAugmentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/bill-of-lading-bookmarks/{bookmark_id}/augmentations\n  method: post\n  operationId: uploadAugmentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tracking/bill-of-lading-bookmarks/{bookmark_id}/augmentations\n  method: put\n  operationId: updateAugmentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tracking/bill-of-lading-bookmarks/{bookmark_id}/augmentations\n\
   \  method: delete\n  operationId: deleteAugmentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scac\n  method: get\n  operationId: listCarrierScac\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/agentic-access/portcast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/portcast/agentic-access/portcast-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Supply Chain

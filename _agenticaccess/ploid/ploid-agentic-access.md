@@ -9,55 +9,55 @@ api_specs:
   label: Ploid Account API
   slug: ploid-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/openapi/ploid-account-api-openapi.yml
+  url: https://artifacts.apis.io/ploid/openapi/ploid-account-api-openapi.yml
 - filename: ploid-discovery-api-openapi.yml
   format: yaml
   label: Ploid Discovery API
   slug: ploid-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/openapi/ploid-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/ploid/openapi/ploid-discovery-api-openapi.yml
 - filename: ploid-enrichment-api-openapi.yml
   format: yaml
   label: Ploid Enrichment API
   slug: ploid-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/openapi/ploid-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/ploid/openapi/ploid-enrichment-api-openapi.yml
 - filename: ploid-harness-api-openapi.yml
   format: yaml
   label: Ploid Harness API
   slug: ploid-harness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/openapi/ploid-harness-api-openapi.yml
+  url: https://artifacts.apis.io/ploid/openapi/ploid-harness-api-openapi.yml
 - filename: ploid-monitors-api-openapi.yml
   format: yaml
   label: Ploid Monitors API
   slug: ploid-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/openapi/ploid-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/ploid/openapi/ploid-monitors-api-openapi.yml
 - filename: ploid-people-api-openapi.yml
   format: yaml
   label: Ploid People API
   slug: ploid-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/openapi/ploid-people-api-openapi.yml
+  url: https://artifacts.apis.io/ploid/openapi/ploid-people-api-openapi.yml
 - filename: ploid-search-api-openapi.yml
   format: yaml
   label: Ploid Search API
   slug: ploid-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/openapi/ploid-search-api-openapi.yml
+  url: https://artifacts.apis.io/ploid/openapi/ploid-search-api-openapi.yml
 - filename: ploid-social-api-openapi.yml
   format: yaml
   label: Ploid Social API
   slug: ploid-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/openapi/ploid-social-api-openapi.yml
+  url: https://artifacts.apis.io/ploid/openapi/ploid-social-api-openapi.yml
 - filename: ploid-linked-in-api-openapi.yml
   format: yaml
   label: Ploid Linked In API
   slug: ploid-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/openapi/ploid-linked-in-api-openapi.yml
+  url: https://artifacts.apis.io/ploid/openapi/ploid-linked-in-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 2
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/ploid-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/linkedin/companies/posts\n  method: get\n  operationId: listLinkedInCompanyPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/enrich\n  method: post\n  operationId: enrichPerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/credits\n  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/usage\n  method: get\n  operationId: getAccountUsage\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/profile\n  method: get\n  operationId: getAccountProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/profile\n  method: patch\n  operationId: updateAccountProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/key\n  method: delete\n  operationId: revokeCurrentApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n  \
   \    proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ploid/refs/heads/main/agentic-access/ploid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ploid/agentic-access/ploid-agentic-access.yml
 summary_line: 31 operations · 12 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Split Admin API
   slug: split-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-admin-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-admin-api-openapi.yml
 - filename: split-evaluation-api-openapi.yml
   format: yaml
   label: Split Evaluation API
   slug: split-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-evaluation-api-openapi.yml
 - filename: split-events-api-openapi.yml
   format: yaml
   label: Split Events API
   slug: split-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-events-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-events-api-openapi.yml
 - filename: split-feature-flag-definitions-api-openapi.yml
   format: yaml
   label: Split Feature Flag Definitions API
   slug: split-feature-flag-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-feature-flag-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-feature-flag-definitions-api-openapi.yml
 - filename: split-feature-flags-api-openapi.yml
   format: yaml
   label: Split Feature Flags API
   slug: split-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/openapi/split-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/split/openapi/split-feature-flags-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/split-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /splits/ws/{workspaceId}/{featureFlagName}/environments/{environmentId}/kill\n  method: put\n  operationId: killFeatureFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /splits/ws/{workspaceId}/{featureFlagName}/environments/{environmentId}/restore\n  method: put\n  operationId: restoreFeatureFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /splits/ws/{workspaceId}\n  method: get\n  operationId: listFeatureFlags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /splits/ws/{workspaceId}/trafficTypes/{trafficTypeId}\n  method: post\n  operationId: createFeatureFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /splits/ws/{workspaceId}/{featureFlagName}\n  method: get\n  operationId: getFeatureFlag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /splits/ws/{workspaceId}/{featureFlagName}\n  method: put\n  operationId: updateFeatureFlag\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /splits/ws/{workspaceId}/{featureFlagName}\n  method: delete\n  operationId: deleteFeatureFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/agentic-access/split-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/split/agentic-access/split-agentic-access.yml
 summary_line: 23 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Experimentation

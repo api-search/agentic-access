@@ -9,61 +9,61 @@ api_specs:
   label: CDC App Notifications API
   slug: cdc-gov-app-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-app-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-app-notifications-api-openapi.yml
 - filename: cdc-gov-code-systems-api-openapi.yml
   format: yaml
   label: CDC Code Systems API
   slug: cdc-gov-code-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-code-systems-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-code-systems-api-openapi.yml
 - filename: cdc-gov-conditions-api-openapi.yml
   format: yaml
   label: CDC Conditions API
   slug: cdc-gov-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-conditions-api-openapi.yml
 - filename: cdc-gov-configurations-api-openapi.yml
   format: yaml
   label: CDC Configurations API
   slug: cdc-gov-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-configurations-api-openapi.yml
 - filename: cdc-gov-events-api-openapi.yml
   format: yaml
   label: CDC Events API
   slug: cdc-gov-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-events-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-events-api-openapi.yml
 - filename: cdc-gov-query-api-openapi.yml
   format: yaml
   label: CDC Query API
   slug: cdc-gov-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-query-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-query-api-openapi.yml
 - filename: cdc-gov-query-connector-api-openapi-3-0-api-openapi.yml
   format: yaml
   label: CDC Query Connector API OpenAPI 3.0 API
   slug: cdc-gov-query-connector-api-openapi-3-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-query-connector-api-openapi-3-0-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-query-connector-api-openapi-3-0-api-openapi.yml
 - filename: cdc-gov-releases-api-openapi.yml
   format: yaml
   label: CDC Releases API
   slug: cdc-gov-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-releases-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-releases-api-openapi.yml
 - filename: cdc-gov-simulator-api-openapi.yml
   format: yaml
   label: CDC Simulator API
   slug: cdc-gov-simulator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-simulator-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-simulator-api-openapi.yml
 - filename: cdc-gov-user-api-openapi.yml
   format: yaml
   label: CDC User API
   slug: cdc-gov-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/openapi/cdc-gov-user-api-openapi.yml
+  url: https://artifacts.apis.io/cdc-gov/openapi/cdc-gov-user-api-openapi.yml
 consequence_counts:
   read: 13
   write: 20
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dibbs-
   \ required\n- path: /api/v1/simulator/download/{filename}\n  method: get\n  operationId: downloadRefinedEcr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/events/\n  method: get\n  operationId: getEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/events/{event_id}/custom-code-uploads\n  method: get\n  operationId: getCustomCodeUploadEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/releases/\n  method: get\n  operationId: getReleases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/code-systems/\n  method: get\n  operationId:\
   \ getCodeSystems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/notifications\n  method: patch\n  operationId: updateUserNotifications\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/query\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /api/query\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cdc-gov/refs/heads/main/agentic-access/cdc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cdc-gov/agentic-access/cdc-agentic-access.yml
 summary_line: 33 operations · 20 acting
 tags:
 - Public Health

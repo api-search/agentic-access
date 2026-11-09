@@ -9,157 +9,157 @@ api_specs:
   label: Modulr Access Group API
   slug: modulr-access-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-access-group-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-access-group-api-openapi.yml
 - filename: modulr-accounts-api-openapi.yml
   format: yaml
   label: Modulr Accounts API
   slug: modulr-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-accounts-api-openapi.yml
 - filename: modulr-async-api-openapi.yml
   format: yaml
   label: Modulr Async API
   slug: modulr-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-async-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-async-api-openapi.yml
 - filename: modulr-beneficiaries-api-openapi.yml
   format: yaml
   label: Modulr Beneficiaries API
   slug: modulr-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-beneficiaries-api-openapi.yml
 - filename: modulr-card-simulator-api-openapi.yml
   format: yaml
   label: Modulr Card Simulator API
   slug: modulr-card-simulator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-card-simulator-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-card-simulator-api-openapi.yml
 - filename: modulr-cards-api-openapi.yml
   format: yaml
   label: Modulr Cards API
   slug: modulr-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-cards-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-cards-api-openapi.yml
 - filename: modulr-cards-bulk-operations-api-openapi.yml
   format: yaml
   label: Modulr Cards Bulk Operations API
   slug: modulr-cards-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-cards-bulk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-cards-bulk-operations-api-openapi.yml
 - filename: modulr-channel-manager-card-api-openapi.yml
   format: yaml
   label: Modulr Channel Manager Card API
   slug: modulr-channel-manager-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-channel-manager-card-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-channel-manager-card-api-openapi.yml
 - filename: modulr-channel-manager-webhook-notifications-api-openapi.yml
   format: yaml
   label: Modulr Channel Manager Webhook Notifications API
   slug: modulr-channel-manager-webhook-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-channel-manager-webhook-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-channel-manager-webhook-notifications-api-openapi.yml
 - filename: modulr-confirmation-of-payee-api-openapi.yml
   format: yaml
   label: Modulr Confirmation of Payee API
   slug: modulr-confirmation-of-payee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-confirmation-of-payee-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-confirmation-of-payee-api-openapi.yml
 - filename: modulr-customers-api-openapi.yml
   format: yaml
   label: Modulr Customers API
   slug: modulr-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-customers-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-customers-api-openapi.yml
 - filename: modulr-direct-debit-outbound-mandate-operations-api-openapi.yml
   format: yaml
   label: Modulr Direct Debit Outbound Mandate Operations API
   slug: modulr-direct-debit-outbound-mandate-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-direct-debit-outbound-mandate-operations-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-direct-debit-outbound-mandate-operations-api-openapi.yml
 - filename: modulr-direct-debits-api-openapi.yml
   format: yaml
   label: Modulr Direct Debits API
   slug: modulr-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-direct-debits-api-openapi.yml
 - filename: modulr-document-api-openapi.yml
   format: yaml
   label: Modulr Document API
   slug: modulr-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-document-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-document-api-openapi.yml
 - filename: modulr-file-upload-api-openapi.yml
   format: yaml
   label: Modulr File Upload API
   slug: modulr-file-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-file-upload-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-file-upload-api-openapi.yml
 - filename: modulr-inbound-payments-api-openapi.yml
   format: yaml
   label: Modulr Inbound Payments API
   slug: modulr-inbound-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-inbound-payments-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-inbound-payments-api-openapi.yml
 - filename: modulr-integration-notification-api-openapi.yml
   format: yaml
   label: Modulr Integration Notification API
   slug: modulr-integration-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-integration-notification-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-integration-notification-api-openapi.yml
 - filename: modulr-notification-api-openapi.yml
   format: yaml
   label: Modulr Notification API
   slug: modulr-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-notification-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-notification-api-openapi.yml
 - filename: modulr-payment-initiations-api-openapi.yml
   format: yaml
   label: Modulr Payment Initiations API
   slug: modulr-payment-initiations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-payment-initiations-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-payment-initiations-api-openapi.yml
 - filename: modulr-payments-api-openapi.yml
   format: yaml
   label: Modulr Payments API
   slug: modulr-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-payments-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-payments-api-openapi.yml
 - filename: modulr-restricted-api-openapi.yml
   format: yaml
   label: Modulr Restricted API
   slug: modulr-restricted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-restricted-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-restricted-api-openapi.yml
 - filename: modulr-rules-api-openapi.yml
   format: yaml
   label: Modulr Rules API
   slug: modulr-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-rules-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-rules-api-openapi.yml
 - filename: modulr-share-secure-card-details-api-openapi.yml
   format: yaml
   label: Modulr Share secure card details API
   slug: modulr-share-secure-card-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-share-secure-card-details-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-share-secure-card-details-api-openapi.yml
 - filename: modulr-transactions-api-openapi.yml
   format: yaml
   label: Modulr Transactions API
   slug: modulr-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-transactions-api-openapi.yml
 - filename: modulr-variable-recurring-payments-api-openapi.yml
   format: yaml
   label: Modulr Variable Recurring Payments API
   slug: modulr-variable-recurring-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-variable-recurring-payments-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-variable-recurring-payments-api-openapi.yml
 - filename: modulr-verification-of-payee-api-openapi.yml
   format: yaml
   label: Modulr Verification of Payee API
   slug: modulr-verification-of-payee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-verification-of-payee-api-openapi.yml
+  url: https://artifacts.apis.io/modulr/openapi/modulr-verification-of-payee-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 74
@@ -323,8 +323,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/modulr
   \ none\n- path: /partner/{partnerId}/card-custom-fields/{key}\n  method: delete\n  operationId: deletePartnerCustomFieldKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer/{customerId}/card-custom-fields/{key}\n  method: delete\n  operationId: deleteCustomerCustomFieldKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cards/{cardId}/custom-fields/{key}\n  method: delete\n  operationId: deleteCardCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bulk-cards\n  method: get\n  operationId: getActiveBulkCardRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk-cards\n  method: post\n  operationId: submitBulkCardOperations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bulk-cards/upload\n  method: post\n  operationId: uploadBulkCards\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bulk-cards/{bulkRequestId}\n  method: get\n  operationId: getBulkCardsInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk-cards/{bulkRequestId}\n  method: delete\n  operationId: deleteBulkRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel-managers/cards/{cardId}\n  method: post\n  operationId: channelManagerUpdateCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /channel-managers/cards/{cardId}\n  method: patch\n  operationId: channelManagerUpdateCard_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel-managers/cards/{cardId}/replace\n  method: post\n  operationId: channelManagerReplaceCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/agentic-access/modulr-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/agentic-access/modulr-agentic-access.yml
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /channel-managers/cards/{cardId}\n  method: patch\n  operationId: channelManagerUpdateCard_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel-managers/cards/{cardId}/replace\n  method: post\n  operationId: channelManagerReplaceCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://artifacts.apis.io/modulr/agentic-access/modulr-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/modulr/agentic-access/modulr-agentic-access.yml
 summary_line: 212 operations · 138 acting · 4 human-in-the-loop
 tags:
 - Payments

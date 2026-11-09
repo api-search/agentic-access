@@ -9,31 +9,31 @@ api_specs:
   label: Aleo Blocks API
   slug: aleo-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/aleo/openapi/aleo-blocks-api-openapi.yml
 - filename: aleo-chain-api-openapi.yml
   format: yaml
   label: Aleo Chain API
   slug: aleo-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-chain-api-openapi.yml
+  url: https://artifacts.apis.io/aleo/openapi/aleo-chain-api-openapi.yml
 - filename: aleo-network-api-openapi.yml
   format: yaml
   label: Aleo Network API
   slug: aleo-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-network-api-openapi.yml
+  url: https://artifacts.apis.io/aleo/openapi/aleo-network-api-openapi.yml
 - filename: aleo-programs-api-openapi.yml
   format: yaml
   label: Aleo Programs API
   slug: aleo-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-programs-api-openapi.yml
+  url: https://artifacts.apis.io/aleo/openapi/aleo-programs-api-openapi.yml
 - filename: aleo-transactions-api-openapi.yml
   format: yaml
   label: Aleo Transactions API
   slug: aleo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/openapi/aleo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/aleo/openapi/aleo-transactions-api-openapi.yml
 consequence_counts:
   read: 12
   write: 1
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/aleo-n
   \  method: get\n  operationId: getLatestStateRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/latest/block\n  method: get\n  operationId: getLatestBlock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/block/{height}\n  method: get\n  operationId: getBlock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/block/{height}/transactions\n  method: get\n  operationId: getBlockTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/transaction/{id}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/program/{programId}\n  method: get\n  operationId: getProgram\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/program/{programId}/mappings\n  method: get\n  operationId: getProgramMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/program/{programId}/mapping/{mappingName}/{key}\n  method: get\n  operationId: getMappingValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/committee/latest\n  method: get\n  operationId: getLatestCommittee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/find/blockHash/{transactionId}\n  method: get\n  operationId: findBlockHashByTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{network}/transaction/broadcast\n  method: post\n  operationId: broadcastTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/agentic-access/aleo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aleo/agentic-access/aleo-agentic-access.yml
 summary_line: 13 operations · 1 acting
 tags:
 - Company

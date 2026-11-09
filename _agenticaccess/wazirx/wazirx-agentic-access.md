@@ -9,49 +9,49 @@ api_specs:
   label: WazirX WebSocket API
   slug: wazirx-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-websocket-api-openapi.yml
 - filename: wazirx-account-api-openapi.yml
   format: yaml
   label: WazirX Account API
   slug: wazirx-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-account-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-account-api-openapi.yml
 - filename: wazirx-general-api-openapi.yml
   format: yaml
   label: WazirX General API
   slug: wazirx-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-general-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-general-api-openapi.yml
 - filename: wazirx-market-data-api-openapi.yml
   format: yaml
   label: WazirX Market Data API
   slug: wazirx-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-market-data-api-openapi.yml
 - filename: wazirx-sub-account-api-openapi.yml
   format: yaml
   label: WazirX Sub-Account API
   slug: wazirx-sub-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-sub-account-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-sub-account-api-openapi.yml
 - filename: wazirx-trading-api-openapi.yml
   format: yaml
   label: WazirX Trading API
   slug: wazirx-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-trading-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-trading-api-openapi.yml
 - filename: wazirx-wallet-api-openapi.yml
   format: yaml
   label: WazirX Wallet API
   slug: wazirx-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-wallet-api-openapi.yml
 - filename: wazirx-websocket-api-openapi.yml
   format: yaml
   label: WazirX WebSocket API
   slug: wazirx-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/openapi/wazirx-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/wazirx/openapi/wazirx-websocket-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 21
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ get\n  operationId: getMyTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/coins\n  method: get\n  operationId: getCoins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/crypto/withdraws\n  method: get\n  operationId: getWithdrawals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/crypto/deposits/address\n  method: get\n  operationId: getDepositAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/account\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/funds\n  method: get\n  operationId: getFunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/sub_account/fund_transfer\n  method: post\n  operationId: subAccountFundTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sapi/v1/sub_account/fund_transfer/history\n  method: get\n  operationId: getSubAccountFundTransferHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/sub_account/accounts\n\
   \  method: get\n  operationId: getSubAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/create_auth_token\n  method: post\n  operationId: createAuthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/agentic-access/wazirx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wazirx/agentic-access/wazirx-agentic-access.yml
 summary_line: 27 operations · 6 acting
 tags:
 - Cryptocurrency

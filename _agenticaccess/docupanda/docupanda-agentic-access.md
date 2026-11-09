@@ -9,79 +9,79 @@ api_specs:
   label: DocuPipe Analysis API
   slug: docupanda-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-analysis-api-openapi.yml
 - filename: docupanda-account-api-openapi.yml
   format: yaml
   label: DocuPipe Account API
   slug: docupanda-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-account-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-account-api-openapi.yml
 - filename: docupanda-account-api-openapi.yml
   format: yaml
   label: DocuPipe Account API
   slug: docupanda-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-account-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-account-api-openapi.yml
 - filename: docupanda-analysis-api-openapi.yml
   format: yaml
   label: DocuPipe Analysis API
   slug: docupanda-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-analysis-api-openapi.yml
 - filename: docupanda-classification-api-openapi.yml
   format: yaml
   label: DocuPipe Classification API
   slug: docupanda-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-classification-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-classification-api-openapi.yml
 - filename: docupanda-document-api-openapi.yml
   format: yaml
   label: DocuPipe Document API
   slug: docupanda-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-document-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-document-api-openapi.yml
 - filename: docupanda-job-api-openapi.yml
   format: yaml
   label: DocuPipe Job API
   slug: docupanda-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-job-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-job-api-openapi.yml
 - filename: docupanda-review-api-openapi.yml
   format: yaml
   label: DocuPipe Review API
   slug: docupanda-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-review-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-review-api-openapi.yml
 - filename: docupanda-schema-api-openapi.yml
   format: yaml
   label: DocuPipe Schema API
   slug: docupanda-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-schema-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-schema-api-openapi.yml
 - filename: docupanda-standardization-api-openapi.yml
   format: yaml
   label: DocuPipe Standardization API
   slug: docupanda-standardization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-standardization-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-standardization-api-openapi.yml
 - filename: docupanda-transformation-api-openapi.yml
   format: yaml
   label: DocuPipe Transformation API
   slug: docupanda-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-transformation-api-openapi.yml
 - filename: docupanda-webhook-api-openapi.yml
   format: yaml
   label: DocuPipe Webhook API
   slug: docupanda-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-webhook-api-openapi.yml
 - filename: docupanda-workflow-api-openapi.yml
   format: yaml
   label: DocuPipe Workflow API
   slug: docupanda-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/docupanda/openapi/docupanda-workflow-api-openapi.yml
 consequence_counts:
   read: 44
   write: 46
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/docupa
   \ list_webhook_endpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/generate-endpoint\n  method: post\n  operationId: generate_endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/get-portal-link\n  method: get\n  operationId: get_portal_link\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/on-submit-document\n  method: post\n  operationId: post_workflow_on_submit_document\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow/{workflow_id}\n  method: delete\n  operationId: delete_workflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow/{workflow_id}/update\n  method: post\n  operationId: update_workflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows\n  method: get\n  operationId: list_workflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/agentic-access/docupanda-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/docupanda/agentic-access/docupanda-agentic-access.yml
 summary_line: 90 operations · 46 acting
 tags:
 - Artificial Intelligence

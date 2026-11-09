@@ -9,25 +9,25 @@ api_specs:
   label: Refersion Affiliates API
   slug: refersion-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/refersion/openapi/refersion-affiliates-api-openapi.yml
 - filename: refersion-conversions-api-openapi.yml
   format: yaml
   label: Refersion Conversions API
   slug: refersion-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/refersion/openapi/refersion-conversions-api-openapi.yml
 - filename: refersion-offers-api-openapi.yml
   format: yaml
   label: Refersion Offers API
   slug: refersion-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-offers-api-openapi.yml
+  url: https://artifacts.apis.io/refersion/openapi/refersion-offers-api-openapi.yml
 - filename: refersion-reporting-api-openapi.yml
   format: yaml
   label: Refersion Reporting API
   slug: refersion-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/openapi/refersion-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/refersion/openapi/refersion-reporting-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/refers
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversion/cancel\n  method: post\n  operationId: cancel_conversion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversion/totals\n  method: post\n  operationId: get_totals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversion/manual_credit\n  method: post\n  operationId: manual_commission_credit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversion/manual_credit_order_id\n  method: post\n  operationId: manual_credit_order_id\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversion/status_change\n  method: post\n  operationId: status_change\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /offer/new_sku_commission\n  method: post\n  operationId: new_sku_commission\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reporting/link\n  method: post\n  operationId: get_reporting_link\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/agentic-access/refersion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/refersion/agentic-access/refersion-agentic-access.yml
 summary_line: 15 operations · 10 acting
 tags:
 - Affiliate Marketing

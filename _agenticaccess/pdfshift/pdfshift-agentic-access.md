@@ -9,49 +9,49 @@ api_specs:
   label: PDFShift Account API
   slug: pdfshift-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-account-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-account-api-openapi.yml
 - filename: pdfshift-convert-api-openapi.yml
   format: yaml
   label: PDFShift Convert API
   slug: pdfshift-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-convert-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-convert-api-openapi.yml
 - filename: pdfshift-credits-api-openapi.yml
   format: yaml
   label: PDFShift Credits API
   slug: pdfshift-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-credits-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-credits-api-openapi.yml
 - filename: pdfshift-details-api-openapi.yml
   format: yaml
   label: PDFShift Details API
   slug: pdfshift-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-details-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-details-api-openapi.yml
 - filename: pdfshift-invoices-api-openapi.yml
   format: yaml
   label: PDFShift Invoices API
   slug: pdfshift-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-invoices-api-openapi.yml
 - filename: pdfshift-logs-api-openapi.yml
   format: yaml
   label: PDFShift Logs API
   slug: pdfshift-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-logs-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-logs-api-openapi.yml
 - filename: pdfshift-templates-api-openapi.yml
   format: yaml
   label: PDFShift Templates API
   slug: pdfshift-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-templates-api-openapi.yml
 - filename: pdfshift-usage-api-openapi.yml
   format: yaml
   label: PDFShift Usage API
   slug: pdfshift-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/openapi/pdfshift-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pdfshift/openapi/pdfshift-usage-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pdfshi
   \    audit: required\n- path: /convert/webp\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs/{request_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{slug}.html\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{slug}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{slug}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /templates/{slug}.{ext}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/agentic-access/pdfshift-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pdfshift/agentic-access/pdfshift-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - PDF

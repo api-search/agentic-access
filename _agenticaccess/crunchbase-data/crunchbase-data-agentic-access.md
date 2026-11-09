@@ -8,31 +8,31 @@ api_specs:
   label: Crunchbase Autocomplete API
   slug: crunchbase-data-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-autocomplete-api-openapi.yml
 - filename: crunchbase-data-deleted-entities-api-openapi.yml
   format: yaml
   label: Crunchbase Deleted Entities API
   slug: crunchbase-data-deleted-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-deleted-entities-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-deleted-entities-api-openapi.yml
 - filename: crunchbase-data-entity-api-openapi.yml
   format: yaml
   label: Crunchbase Entity API
   slug: crunchbase-data-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-entity-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-entity-api-openapi.yml
 - filename: crunchbase-data-metadata-api-openapi.yml
   format: yaml
   label: Crunchbase Metadata API
   slug: crunchbase-data-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-metadata-api-openapi.yml
 - filename: crunchbase-data-search-api-openapi.yml
   format: yaml
   label: Crunchbase Search API
   slug: crunchbase-data-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-search-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-search-api-openapi.yml
 consequence_counts:
   read: 109
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/crunch
   \      max-ttl: 3600\n    audit: none\n- path: /data/searches/micro_categories\n  method: post\n  operationId: searchMicroCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/searches/org_similarities\n  method: post\n  operationId: searchOrgSimilarities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/searches/partnership_announcements\n  method: post\n  operationId: searchPartnershipAnnouncements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/searches/principals\n  method: post\n  operationId: searchPrincipals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /data/searches/products\n  method: post\n  operationId: searchProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/searches/product_launches\n  method: post\n  operationId: searchProductLaunches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/searches/product_similarities\n  method: post\n  operationId: searchProductSimilarities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/searches/remain_private_predictions\n  method: post\n  operationId: searchRemainPrivatePredictions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/searches/research_insights\n\
   \  method: post\n  operationId: searchResearchInsights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/agentic-access/crunchbase-data-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crunchbase-data/agentic-access/crunchbase-data-agentic-access.yml
 summary_line: 109 operations
 tags:
 - Company Data

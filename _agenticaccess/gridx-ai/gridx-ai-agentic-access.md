@@ -9,205 +9,205 @@ api_specs:
   label: gridX Account API
   slug: gridx-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-account-api-openapi.yml
 - filename: gridx-ai-appliance-api-openapi.yml
   format: yaml
   label: gridX Appliance API
   slug: gridx-ai-appliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-appliance-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-appliance-api-openapi.yml
 - filename: gridx-ai-asset-api-openapi.yml
   format: yaml
   label: gridX Asset API
   slug: gridx-ai-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-asset-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-asset-api-openapi.yml
 - filename: gridx-ai-cluster-api-openapi.yml
   format: yaml
   label: gridX Cluster API
   slug: gridx-ai-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-cluster-api-openapi.yml
 - filename: gridx-ai-customer-api-openapi.yml
   format: yaml
   label: gridX Customer API
   slug: gridx-ai-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-customer-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-customer-api-openapi.yml
 - filename: gridx-ai-draft-api-openapi.yml
   format: yaml
   label: gridX Draft API
   slug: gridx-ai-draft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-draft-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-draft-api-openapi.yml
 - filename: gridx-ai-emobility-time-of-use-api-openapi.yml
   format: yaml
   label: gridX Emobility Time Of Use API
   slug: gridx-ai-emobility-time-of-use-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-emobility-time-of-use-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-emobility-time-of-use-api-openapi.yml
 - filename: gridx-ai-ev-charging-schedule-api-openapi.yml
   format: yaml
   label: gridX EV Charging Schedule API
   slug: gridx-ai-ev-charging-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-ev-charging-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-ev-charging-schedule-api-openapi.yml
 - filename: gridx-ai-ev-configuration-api-openapi.yml
   format: yaml
   label: gridX EV Configuration API
   slug: gridx-ai-ev-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-ev-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-ev-configuration-api-openapi.yml
 - filename: gridx-ai-ev-profile-api-openapi.yml
   format: yaml
   label: gridX EV Profile API
   slug: gridx-ai-ev-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-ev-profile-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-ev-profile-api-openapi.yml
 - filename: gridx-ai-evcs-user-prioritization-api-openapi.yml
   format: yaml
   label: gridX Evcs User Prioritization API
   slug: gridx-ai-evcs-user-prioritization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-evcs-user-prioritization-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-evcs-user-prioritization-api-openapi.yml
 - filename: gridx-ai-export-power-limit-api-openapi.yml
   format: yaml
   label: gridX Export Power Limit API
   slug: gridx-ai-export-power-limit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-export-power-limit-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-export-power-limit-api-openapi.yml
 - filename: gridx-ai-gateway-api-openapi.yml
   format: yaml
   label: gridX Gateway API
   slug: gridx-ai-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-gateway-api-openapi.yml
 - filename: gridx-ai-health-checks-api-openapi.yml
   format: yaml
   label: gridX Health Checks API
   slug: gridx-ai-health-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-health-checks-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-health-checks-api-openapi.yml
 - filename: gridx-ai-import-power-limit-api-openapi.yml
   format: yaml
   label: gridX Import Power Limit API
   slug: gridx-ai-import-power-limit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-import-power-limit-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-import-power-limit-api-openapi.yml
 - filename: gridx-ai-intent-api-openapi.yml
   format: yaml
   label: gridX Intent API
   slug: gridx-ai-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-intent-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-intent-api-openapi.yml
 - filename: gridx-ai-job-api-openapi.yml
   format: yaml
   label: gridX Job API
   slug: gridx-ai-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-job-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-job-api-openapi.yml
 - filename: gridx-ai-kpis-api-openapi.yml
   format: yaml
   label: gridX KPIs API
   slug: gridx-ai-kpis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-kpis-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-kpis-api-openapi.yml
 - filename: gridx-ai-market-prices-api-openapi.yml
   format: yaml
   label: gridX Market Prices API
   slug: gridx-ai-market-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-market-prices-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-market-prices-api-openapi.yml
 - filename: gridx-ai-measurements-api-openapi.yml
   format: yaml
   label: gridX Measurements API
   slug: gridx-ai-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-measurements-api-openapi.yml
 - filename: gridx-ai-power-limit-schedule-api-openapi.yml
   format: yaml
   label: gridX Power Limit Schedule API
   slug: gridx-ai-power-limit-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-power-limit-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-power-limit-schedule-api-openapi.yml
 - filename: gridx-ai-product-functionality-api-openapi.yml
   format: yaml
   label: gridX Product Functionality API
   slug: gridx-ai-product-functionality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-product-functionality-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-product-functionality-api-openapi.yml
 - filename: gridx-ai-product-option-api-openapi.yml
   format: yaml
   label: gridX Product Option API
   slug: gridx-ai-product-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-product-option-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-product-option-api-openapi.yml
 - filename: gridx-ai-scan-api-openapi.yml
   format: yaml
   label: gridX Scan API
   slug: gridx-ai-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-scan-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-scan-api-openapi.yml
 - filename: gridx-ai-scan-configuration-api-openapi.yml
   format: yaml
   label: gridX Scan Configuration API
   slug: gridx-ai-scan-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-scan-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-scan-configuration-api-openapi.yml
 - filename: gridx-ai-star-api-openapi.yml
   format: yaml
   label: gridX Star API
   slug: gridx-ai-star-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-star-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-star-api-openapi.yml
 - filename: gridx-ai-system-api-openapi.yml
   format: yaml
   label: gridX System API
   slug: gridx-ai-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-system-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-system-api-openapi.yml
 - filename: gridx-ai-tag-api-openapi.yml
   format: yaml
   label: gridX Tag API
   slug: gridx-ai-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-tag-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-tag-api-openapi.yml
 - filename: gridx-ai-tariffv2-api-openapi.yml
   format: yaml
   label: gridX Tariff V2 API
   slug: gridx-ai-tariffv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-tariffv2-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-tariffv2-api-openapi.yml
 - filename: gridx-ai-timeofuse-api-openapi.yml
   format: yaml
   label: gridX Time Of Use API
   slug: gridx-ai-timeofuse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-timeofuse-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-timeofuse-api-openapi.yml
 - filename: gridx-ai-token-api-openapi.yml
   format: yaml
   label: gridX Token API
   slug: gridx-ai-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-token-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-token-api-openapi.yml
 - filename: gridx-ai-user-api-openapi.yml
   format: yaml
   label: gridX User API
   slug: gridx-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-user-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-user-api-openapi.yml
 - filename: gridx-ai-users-api-openapi.yml
   format: yaml
   label: gridX Users API
   slug: gridx-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-users-api-openapi.yml
 - filename: gridx-ai-webhook-api-openapi.yml
   format: yaml
   label: gridX Webhook API
   slug: gridx-ai-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/openapi/gridx-ai-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/gridx-ai/openapi/gridx-ai-webhook-api-openapi.yml
 consequence_counts:
   read: 79
   safety-critical: 1
@@ -275,8 +275,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/gridx-
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - AppliancesWrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/{gatewayID}/appliances/{applianceID}\n  method: delete\n  operationId: deleteGatewayAppliance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - AppliancesWrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways\n  method: get\n  operationId: listGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - GatewaysRead\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gatewayID}\n  method: get\n  operationId:\
   \ getGateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - GatewaysRead\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gatewayID}\n  method: delete\n  operationId: deleteGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - GatewaysWrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/{gatewayID}/scans\n  method: get\n  operationId: listGatewayScans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ScansRead\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gatewayID}/firmware\n  method: get\n  operationId: getGatewayFirmware\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    scope:\n    - GatewaysRead\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gatewayID}/jobs\n  method: get\n  operationId: listGatewayJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - JobsRead\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gatewayID}/jobs\n  method: post\n  operationId: createJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - JobsWrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/{gatewayID}/jobs/{jobType}\n  method: post\n  operationId: createGatewayJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - JobsWrite\n    audience: null\n    token:\n  \
-  \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/{gatewayID}/jobs/{jobID}\n  method: get\n  operationId: getGatewayJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - JobsRead\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gatewayID}/jobs/{jobID}\n  method: delete\n  operationId: cancelGatewayJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - JobsWrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/agentic-access/gridx-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/agentic-access/gridx-ai-agentic-access.yml
+  \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/{gatewayID}/jobs/{jobID}\n  method: get\n  operationId: getGatewayJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - JobsRead\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gatewayID}/jobs/{jobID}\n  method: delete\n  operationId: cancelGatewayJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - JobsWrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/gridx-ai/agentic-access/gridx-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/gridx-ai/agentic-access/gridx-ai-agentic-access.yml
 summary_line: 157 operations · 78 acting · 1 human-in-the-loop
 tags:
 - Company

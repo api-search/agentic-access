@@ -9,31 +9,31 @@ api_specs:
   label: Manage BGL Authentication API
   slug: manage-bgl-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-authentication-api-openapi.yml
 - filename: manage-bgl-logs-api-openapi.yml
   format: yaml
   label: Manage BGL Logs API
   slug: manage-bgl-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-logs-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-logs-api-openapi.yml
 - filename: manage-bgl-predictions-api-openapi.yml
   format: yaml
   label: Manage BGL Predictions API
   slug: manage-bgl-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-predictions-api-openapi.yml
 - filename: manage-bgl-settings-api-openapi.yml
   format: yaml
   label: Manage BGL Settings API
   slug: manage-bgl-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-settings-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-settings-api-openapi.yml
 - filename: manage-bgl-system-api-openapi.yml
   format: yaml
   label: Manage BGL System API
   slug: manage-bgl-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/openapi/manage-bgl-system-api-openapi.yml
+  url: https://artifacts.apis.io/manage-bgl/openapi/manage-bgl-system-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/manage
   \ deleteLog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /extract\n  method: get\n  operationId: extract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /log_range\n  method: get\n  operationId: logRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sync_status\n  method: get\n  operationId: syncStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /import\n  method: post\n  operationId: importData\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /predict\n  method: post\n  operationId: predict\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings\n  method: get\n  operationId: getSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /avatar\n  method: post\n  operationId: uploadAvatar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ping\n\
   \  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping_db\n  method: get\n  operationId: pingDb\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/agentic-access/manage-bgl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/manage-bgl/agentic-access/manage-bgl-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
 - Company

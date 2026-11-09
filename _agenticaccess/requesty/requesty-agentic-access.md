@@ -9,31 +9,31 @@ api_specs:
   label: Requesty API Keys API
   slug: requesty-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-api-keys-api-openapi.yml
 - filename: requesty-embeddings-api-openapi.yml
   format: yaml
   label: Requesty Embeddings API
   slug: requesty-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-embeddings-api-openapi.yml
 - filename: requesty-models-api-openapi.yml
   format: yaml
   label: Requesty Models API
   slug: requesty-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-models-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-models-api-openapi.yml
 - filename: requesty-usage-api-openapi.yml
   format: yaml
   label: Requesty Usage API
   slug: requesty-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-usage-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-usage-api-openapi.yml
 - filename: requesty-chat-completions-api-openapi.yml
   format: yaml
   label: Requesty Chat Completions API
   slug: requesty-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/openapi/requesty-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/requesty/openapi/requesty-chat-completions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reques
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys\n  method: get\n  operationId: listApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-keys/{key_id}\n\
   \  method: get\n  operationId: getApiKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys/{key_id}\n  method: delete\n  operationId: deleteApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-keys/{key_id}/usage\n  method: get\n  operationId: getApiKeyUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys/{key_id}/limit\n  method: patch\n  operationId: updateApiKeyLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/usage\n  method: get\n  operationId: getOrganizationUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/agentic-access/requesty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/requesty/agentic-access/requesty-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Artificial Intelligence

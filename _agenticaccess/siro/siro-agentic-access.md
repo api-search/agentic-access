@@ -9,97 +9,97 @@ api_specs:
   label: Siro Audit API
   slug: siro-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-audit-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-audit-api-openapi.yml
 - filename: siro-core-api-openapi.yml
   format: yaml
   label: Siro Core API
   slug: siro-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-core-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-core-api-openapi.yml
 - filename: siro-folders-api-openapi.yml
   format: yaml
   label: Siro Folders API
   slug: siro-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-folders-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-folders-api-openapi.yml
 - filename: siro-integrations-api-openapi.yml
   format: yaml
   label: Siro Integrations API
   slug: siro-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-integrations-api-openapi.yml
 - filename: siro-agents-api-openapi.yml
   format: yaml
   label: Siro Agents API
   slug: siro-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-agents-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-agents-api-openapi.yml
 - filename: siro-billing-graph-api-openapi.yml
   format: yaml
   label: Siro Billing Graph API
   slug: siro-billing-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-billing-graph-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-billing-graph-api-openapi.yml
 - filename: siro-docs-api-openapi.yml
   format: yaml
   label: Siro Docs API
   slug: siro-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-docs-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-docs-api-openapi.yml
 - filename: siro-halftime-api-openapi.yml
   format: yaml
   label: Siro Halftime API
   slug: siro-halftime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-halftime-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-halftime-api-openapi.yml
 - filename: siro-intercom-api-openapi.yml
   format: yaml
   label: Siro Intercom API
   slug: siro-intercom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-intercom-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-intercom-api-openapi.yml
 - filename: siro-invoices-api-openapi.yml
   format: yaml
   label: Siro Invoices API
   slug: siro-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-invoices-api-openapi.yml
 - filename: siro-jobs-api-openapi.yml
   format: yaml
   label: Siro Jobs API
   slug: siro-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-jobs-api-openapi.yml
 - filename: siro-licenses-api-openapi.yml
   format: yaml
   label: Siro Licenses API
   slug: siro-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-licenses-api-openapi.yml
 - filename: siro-portal-api-openapi.yml
   format: yaml
   label: Siro Portal API
   slug: siro-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-portal-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-portal-api-openapi.yml
 - filename: siro-sessions-api-openapi.yml
   format: yaml
   label: Siro Sessions API
   slug: siro-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-sessions-api-openapi.yml
 - filename: siro-subscription-api-openapi.yml
   format: yaml
   label: Siro Subscription API
   slug: siro-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-subscription-api-openapi.yml
 - filename: siro-suggested-questions-api-openapi.yml
   format: yaml
   label: Siro Suggested Questions API
   slug: siro-suggested-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/openapi/siro-suggested-questions-api-openapi.yml
+  url: https://artifacts.apis.io/siro/openapi/siro-suggested-questions-api-openapi.yml
 consequence_counts:
   read: 103
   safety-critical: 1
@@ -167,8 +167,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/siro-a
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/core/conversation-configurations\n  method: get\n  operationId: getV1CoreConversationConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/core/conversation-configurations/{id}\n  method: patch\n  operationId: patchV1CoreConversationConfigurationsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/core/summary-prompts/industry\n  method: get\n  operationId: getV1CoreSummaryPromptsIndustry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/core/conversation-configurations/{conversationTypeId}/summary-prompts\n  method: get\n  operationId: getV1CoreConversationConfigurationsByConversationTypeIdSummaryPrompts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/core/conversation-configurations/{conversationTypeId}/summary-prompts\n  method: post\n  operationId: postV1CoreConversationConfigurationsByConversationTypeIdSummaryPrompts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/core/conversation-configurations/{conversationTypeId}/summary-prompts\n  method: put\n  operationId: putV1CoreConversationConfigurationsByConversationTypeIdSummaryPrompts\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/core/teams/{teamId}/team-code-link\n  method: get\n  operationId: getV1CoreTeamsByTeamIdTeamCodeLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/core/bookmark-configs\n  method: get\n  operationId: getV1CoreBookmarkConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/core/bookmark-groups\n  method: get\n  operationId: getV1CoreBookmarkGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/core/bookmark-models\n\
-  \  method: get\n  operationId: getV1CoreBookmarkModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/core/bookmark-models\n  method: post\n  operationId: postV1CoreBookmarkModels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (65 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/agentic-access/siro-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/agentic-access/siro-agentic-access.yml
+  \  method: get\n  operationId: getV1CoreBookmarkModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/core/bookmark-models\n  method: post\n  operationId: postV1CoreBookmarkModels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (65 KB total) ---\n# Full source: https://artifacts.apis.io/siro/agentic-access/siro-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/siro/agentic-access/siro-agentic-access.yml
 summary_line: 213 operations · 110 acting · 1 human-in-the-loop
 tags:
 - Company

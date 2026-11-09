@@ -9,43 +9,43 @@ api_specs:
   label: Caspio Applications API
   slug: caspio-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-applications-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-applications-api-openapi.yml
 - filename: caspio-authentication-api-openapi.yml
   format: yaml
   label: Caspio Authentication API
   slug: caspio-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-authentication-api-openapi.yml
 - filename: caspio-files-api-openapi.yml
   format: yaml
   label: Caspio Files API
   slug: caspio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-files-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-files-api-openapi.yml
 - filename: caspio-tables-api-openapi.yml
   format: yaml
   label: Caspio Tables API
   slug: caspio-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-tables-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-tables-api-openapi.yml
 - filename: caspio-tasks-api-openapi.yml
   format: yaml
   label: Caspio Tasks API
   slug: caspio-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-tasks-api-openapi.yml
 - filename: caspio-users-api-openapi.yml
   format: yaml
   label: Caspio Users API
   slug: caspio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-users-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-users-api-openapi.yml
 - filename: caspio-views-api-openapi.yml
   format: yaml
   label: Caspio Views API
   slug: caspio-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/openapi/caspio-views-api-openapi.yml
+  url: https://artifacts.apis.io/caspio/openapi/caspio-views-api-openapi.yml
 consequence_counts:
   read: 12
   write: 10
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/caspio
   \      max-ttl: 3600\n    audit: none\n- path: /files/{externalKey}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{username}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{username}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications\n  method: get\n  operationId: listApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{taskName}/run\n  method: post\n  operationId: runTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/agentic-access/caspio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/caspio/agentic-access/caspio-agentic-access.yml
 summary_line: 22 operations · 10 acting
 tags:
 - Low-Code

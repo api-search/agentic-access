@@ -9,91 +9,91 @@ api_specs:
   label: Langflow Base API
   slug: langflow-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-base-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-base-api-openapi.yml
 - filename: langflow-chat-api-openapi.yml
   format: yaml
   label: Langflow Chat API
   slug: langflow-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-chat-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-chat-api-openapi.yml
 - filename: langflow-files-api-openapi.yml
   format: yaml
   label: Langflow Files API
   slug: langflow-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-files-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-files-api-openapi.yml
 - filename: langflow-flow-events-api-openapi.yml
   format: yaml
   label: Langflow Flow Events API
   slug: langflow-flow-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-flow-events-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-flow-events-api-openapi.yml
 - filename: langflow-flows-api-openapi.yml
   format: yaml
   label: Langflow Flows API
   slug: langflow-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-flows-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-flows-api-openapi.yml
 - filename: langflow-health-check-api-openapi.yml
   format: yaml
   label: Langflow Health Check API
   slug: langflow-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-health-check-api-openapi.yml
 - filename: langflow-log-api-openapi.yml
   format: yaml
   label: Langflow Log API
   slug: langflow-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-log-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-log-api-openapi.yml
 - filename: langflow-mcp-api-openapi.yml
   format: yaml
   label: Langflow MCP API
   slug: langflow-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-mcp-api-openapi.yml
 - filename: langflow-mcp-projects-api-openapi.yml
   format: yaml
   label: Langflow MCP Projects API
   slug: langflow-mcp-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-mcp-projects-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-mcp-projects-api-openapi.yml
 - filename: langflow-monitor-api-openapi.yml
   format: yaml
   label: Langflow Monitor API
   slug: langflow-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-monitor-api-openapi.yml
 - filename: langflow-openai-responses-api-api-openapi.yml
   format: yaml
   label: Langflow OpenAI Responses API
   slug: langflow-openai-responses-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openai-responses-api-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-openai-responses-api-api-openapi.yml
 - filename: langflow-projects-api-openapi.yml
   format: yaml
   label: Langflow Projects API
   slug: langflow-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-projects-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-projects-api-openapi.yml
 - filename: langflow-traces-api-openapi.yml
   format: yaml
   label: Langflow Traces API
   slug: langflow-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-traces-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-traces-api-openapi.yml
 - filename: langflow-users-api-openapi.yml
   format: yaml
   label: Langflow Users API
   slug: langflow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-users-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-users-api-openapi.yml
 - filename: langflow-workflow-api-openapi.yml
   format: yaml
   label: Langflow Workflow API
   slug: langflow-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-workflow-api-openapi.yml
 consequence_counts:
   read: 42
   safety-critical: 2
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/langfl
   \  method: post\n  operationId: add_server_api_v2_mcp_servers__server_name__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/workflows\n  method: get\n  operationId: get_workflow_status_api_v2_workflows_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/workflows\n  method: post\n  operationId: execute_workflow_api_v2_workflows_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/workflows/stop\n\
   \  method: post\n  operationId: stop_workflow_api_v2_workflows_stop_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /health\n  method: get\n  operationId: health_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health_check\n  method: get\n  operationId: health_check_health_check_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs\n  method: get\n  operationId: logs_logs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /logs-stream\n  method: get\n  operationId: stream_logs_logs_stream_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/agentic-access/langflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/langflow/agentic-access/langflow-agentic-access.yml
 summary_line: 95 operations · 53 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

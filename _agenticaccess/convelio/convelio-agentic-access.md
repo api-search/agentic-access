@@ -9,13 +9,13 @@ api_specs:
   label: Convelio Shipping API
   slug: convelio-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/openapi/convelio-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/convelio/openapi/convelio-shipping-api-openapi.yml
 - filename: convelio-webhook-api-openapi.yml
   format: yaml
   label: Convelio Webhook API
   slug: convelio-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/openapi/convelio-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/convelio/openapi/convelio-webhook-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 3
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/convel
   \ post\n  operationId: createShippingQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipping/quote/{quoteId}\n  method: get\n  operationId: getShippingQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipping/order\n  method: post\n  operationId: createShippingOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /webhook\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/{webhookId}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/agentic-access/convelio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/convelio/agentic-access/convelio-agentic-access.yml
 summary_line: 9 operations · 6 acting
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Azure Container Apps Authentication API
   slug: azure-container-apps-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-authentication-api-openapi.yml
 - filename: azure-container-apps-container-apps-api-openapi.yml
   format: yaml
   label: Azure Container Apps Container Apps API
   slug: azure-container-apps-container-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-container-apps-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-container-apps-api-openapi.yml
 - filename: azure-container-apps-jobs-api-openapi.yml
   format: yaml
   label: Azure Container Apps Jobs API
   slug: azure-container-apps-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-jobs-api-openapi.yml
 - filename: azure-container-apps-managed-environments-api-openapi.yml
   format: yaml
   label: Azure Container Apps Managed Environments API
   slug: azure-container-apps-managed-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-managed-environments-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-managed-environments-api-openapi.yml
 - filename: azure-container-apps-revisions-api-openapi.yml
   format: yaml
   label: Azure Container Apps Revisions API
   slug: azure-container-apps-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-apps/openapi/azure-container-apps-revisions-api-openapi.yml
 consequence_counts:
   read: 10
   write: 12
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/jobs/{jobName}\n  method: delete\n  operationId: Jobs_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/jobs/{jobName}/start\n  method: post\n  operationId: Jobs_Start\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}/listSecrets\n  method: post\n  operationId: ContainerApps_ListSecrets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}/authConfigs\n  method: get\n  operationId: ContainerAppsAuthConfigs_ListByContainerApp\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/agentic-access/azure-container-apps-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-container-apps/agentic-access/azure-container-apps-agentic-access.yml
 summary_line: 22 operations · 12 acting
 tags:
 - Microsoft Azure

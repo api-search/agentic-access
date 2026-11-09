@@ -9,61 +9,61 @@ api_specs:
   label: RouterOS Bridge API
   slug: routeros-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-bridge-api-openapi.yml
 - filename: routeros-dhcp-api-openapi.yml
   format: yaml
   label: RouterOS DHCP API
   slug: routeros-dhcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-dhcp-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-dhcp-api-openapi.yml
 - filename: routeros-dns-api-openapi.yml
   format: yaml
   label: RouterOS DNS API
   slug: routeros-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-dns-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-dns-api-openapi.yml
 - filename: routeros-firewall-api-openapi.yml
   format: yaml
   label: RouterOS Firewall API
   slug: routeros-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-firewall-api-openapi.yml
 - filename: routeros-interface-api-openapi.yml
   format: yaml
   label: RouterOS Interface API
   slug: routeros-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-interface-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-interface-api-openapi.yml
 - filename: routeros-ip-address-api-openapi.yml
   format: yaml
   label: RouterOS IP Address API
   slug: routeros-ip-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-ip-address-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-ip-address-api-openapi.yml
 - filename: routeros-routing-api-openapi.yml
   format: yaml
   label: RouterOS Routing API
   slug: routeros-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-routing-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-routing-api-openapi.yml
 - filename: routeros-system-api-openapi.yml
   format: yaml
   label: RouterOS System API
   slug: routeros-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-system-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-system-api-openapi.yml
 - filename: routeros-vpn-api-openapi.yml
   format: yaml
   label: RouterOS VPN API
   slug: routeros-vpn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-vpn-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-vpn-api-openapi.yml
 - filename: routeros-wireless-api-openapi.yml
   format: yaml
   label: RouterOS Wireless API
   slug: routeros-wireless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/openapi/routeros-wireless-api-openapi.yml
+  url: https://artifacts.apis.io/routeros/openapi/routeros-wireless-api-openapi.yml
 consequence_counts:
   read: 20
   write: 15
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/router
   \ getDnsSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ip/dns\n  method: patch\n  operationId: updateDnsSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /interface/bridge\n  method: get\n  operationId: listBridges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interface/bridge\n  method: put\n  operationId: addBridge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /interface/bridge/port\n  method: get\n  operationId: listBridgePorts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interface/wireless\n  method: get\n  operationId: listWirelessInterfaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interface/wireless/registration-table\n  method: get\n  operationId: listWirelessClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ip/ipsec/policy\n  method: get\n  operationId: listIpsecPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /ip/ipsec/peer\n  method: get\n  operationId: listIpsecPeers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/agentic-access/routeros-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/routeros/agentic-access/routeros-agentic-access.yml
 summary_line: 35 operations · 15 acting
 tags:
 - Networking

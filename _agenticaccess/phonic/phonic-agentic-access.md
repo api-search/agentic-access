@@ -9,61 +9,61 @@ api_specs:
   label: Phonic Agents API
   slug: phonic-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-agents-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-agents-api-openapi.yml
 - filename: phonic-auth-api-openapi.yml
   format: yaml
   label: Phonic Auth API
   slug: phonic-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-auth-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-auth-api-openapi.yml
 - filename: phonic-conversationitems-api-openapi.yml
   format: yaml
   label: Phonic Conversation Items API
   slug: phonic-conversationitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-conversationitems-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-conversationitems-api-openapi.yml
 - filename: phonic-conversations-api-openapi.yml
   format: yaml
   label: Phonic Conversations API
   slug: phonic-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-conversations-api-openapi.yml
 - filename: phonic-extractionschemas-api-openapi.yml
   format: yaml
   label: Phonic Extraction Schemas API
   slug: phonic-extractionschemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-extractionschemas-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-extractionschemas-api-openapi.yml
 - filename: phonic-projects-api-openapi.yml
   format: yaml
   label: Phonic Projects API
   slug: phonic-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-projects-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-projects-api-openapi.yml
 - filename: phonic-tools-api-openapi.yml
   format: yaml
   label: Phonic Tools API
   slug: phonic-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-tools-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-tools-api-openapi.yml
 - filename: phonic-voices-api-openapi.yml
   format: yaml
   label: Phonic Voices API
   slug: phonic-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-voices-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-voices-api-openapi.yml
 - filename: phonic-workspace-api-openapi.yml
   format: yaml
   label: Phonic Workspace API
   slug: phonic-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-workspace-api-openapi.yml
 - filename: phonic-api-keys-api-openapi.yml
   format: yaml
   label: Phonic API Keys API
   slug: phonic-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/openapi/phonic-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/phonic/openapi/phonic-api-keys-api-openapi.yml
 consequence_counts:
   read: 18
   write: 32
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/phonic
   \  operationId: create-conversation-token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{nameOrId}\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{nameOrId}\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{nameOrId}\n  method: patch\n  operationId: update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{id}/conversation_eval_prompts\n  method: get\n  operationId: list-eval-prompts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /projects/{id}/conversation_eval_prompts\n  method: post\n  operationId: create-eval-prompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{id}/conversation_evals\n  method: get\n  operationId: list-evals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/agentic-access/phonic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/phonic/agentic-access/phonic-agentic-access.yml
 summary_line: 50 operations · 32 acting
 tags:
 - Company

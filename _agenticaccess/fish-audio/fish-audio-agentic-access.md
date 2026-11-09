@@ -9,25 +9,25 @@ api_specs:
   label: Fish Audio Asr API
   slug: fish-audio-asr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-asr-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-asr-api-openapi.yml
 - filename: fish-audio-model-api-openapi.yml
   format: yaml
   label: Fish Audio Model API
   slug: fish-audio-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-model-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-model-api-openapi.yml
 - filename: fish-audio-tts-api-openapi.yml
   format: yaml
   label: Fish Audio Tts API
   slug: fish-audio-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-tts-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-tts-api-openapi.yml
 - filename: fish-audio-wallet-api-openapi.yml
   format: yaml
   label: Fish Audio Wallet API
   slug: fish-audio-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/openapi/fish-audio-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-wallet-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fish-a
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/asr\n  method: post\n  operationId: speechToText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model\n  method: post\n  operationId: createModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/{id}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/{id}\n  method: patch\n  operationId: updateModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/{id}\n  method: delete\n  operationId: deleteModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /wallet/{user_id}/package\n  method: get\n  operationId: getUserPackage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/{user_id}/api-credit\n  method: get\n  operationId: getApiCredit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/agentic-access/fish-audio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fish-audio/agentic-access/fish-audio-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Voice

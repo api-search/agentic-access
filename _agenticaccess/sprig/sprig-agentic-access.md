@@ -9,31 +9,31 @@ api_specs:
   label: Sprig Purge API
   slug: sprig-purge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-purge-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-purge-api-openapi.yml
 - filename: sprig-responses-api-openapi.yml
   format: yaml
   label: Sprig Responses API
   slug: sprig-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-responses-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-responses-api-openapi.yml
 - filename: sprig-surveys-api-openapi.yml
   format: yaml
   label: Sprig Surveys API
   slug: sprig-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-surveys-api-openapi.yml
 - filename: sprig-themes-api-openapi.yml
   format: yaml
   label: Sprig Themes API
   slug: sprig-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-themes-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-themes-api-openapi.yml
 - filename: sprig-users-api-openapi.yml
   format: yaml
   label: Sprig Users API
   slug: sprig-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-users-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-users-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sprig-api-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 4\n    acting: 2\n  by_consequence:\n    read: 4\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/responses\n  method: get\n  operationId: get-v1-responses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/surveys\n  method: get\n  operationId: get-v1-surveys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/themes\n  method: get\n\
   \  operationId: get-v1-themes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/purge/visitors\n  method: post\n  operationId: post-v2-purge-visitors\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users\n  method: post\n  operationId: post-user-v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/{userId}\n  method: get\n  operationId: get-v2-users-:userId\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/agentic-access/sprig-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sprig/agentic-access/sprig-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Company

@@ -9,115 +9,115 @@ api_specs:
   label: Firecracker Actions API
   slug: firecracker-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-actions-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-actions-api-openapi.yml
 - filename: firecracker-balloon-api-openapi.yml
   format: yaml
   label: Firecracker Balloon API
   slug: firecracker-balloon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-balloon-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-balloon-api-openapi.yml
 - filename: firecracker-boot-source-api-openapi.yml
   format: yaml
   label: Firecracker Boot Source API
   slug: firecracker-boot-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-boot-source-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-boot-source-api-openapi.yml
 - filename: firecracker-cpu-config-api-openapi.yml
   format: yaml
   label: Firecracker Cpu Config API
   slug: firecracker-cpu-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-cpu-config-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-cpu-config-api-openapi.yml
 - filename: firecracker-drives-api-openapi.yml
   format: yaml
   label: Firecracker Drives API
   slug: firecracker-drives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-drives-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-drives-api-openapi.yml
 - filename: firecracker-entropy-api-openapi.yml
   format: yaml
   label: Firecracker Entropy API
   slug: firecracker-entropy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-entropy-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-entropy-api-openapi.yml
 - filename: firecracker-firecracker-api-api-openapi.yml
   format: yaml
   label: Firecracker API
   slug: firecracker-firecracker-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-firecracker-api-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-firecracker-api-api-openapi.yml
 - filename: firecracker-hotplug-api-openapi.yml
   format: yaml
   label: Firecracker Hotplug API
   slug: firecracker-hotplug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-hotplug-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-hotplug-api-openapi.yml
 - filename: firecracker-logger-api-openapi.yml
   format: yaml
   label: Firecracker Logger API
   slug: firecracker-logger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-logger-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-logger-api-openapi.yml
 - filename: firecracker-machine-config-api-openapi.yml
   format: yaml
   label: Firecracker Machine Config API
   slug: firecracker-machine-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-machine-config-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-machine-config-api-openapi.yml
 - filename: firecracker-metrics-api-openapi.yml
   format: yaml
   label: Firecracker Metrics API
   slug: firecracker-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-metrics-api-openapi.yml
 - filename: firecracker-mmds-api-openapi.yml
   format: yaml
   label: Firecracker Mmds API
   slug: firecracker-mmds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-mmds-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-mmds-api-openapi.yml
 - filename: firecracker-network-interfaces-api-openapi.yml
   format: yaml
   label: Firecracker Network Interfaces API
   slug: firecracker-network-interfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-network-interfaces-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-network-interfaces-api-openapi.yml
 - filename: firecracker-pmem-api-openapi.yml
   format: yaml
   label: Firecracker Pmem API
   slug: firecracker-pmem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-pmem-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-pmem-api-openapi.yml
 - filename: firecracker-serial-api-openapi.yml
   format: yaml
   label: Firecracker Serial API
   slug: firecracker-serial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-serial-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-serial-api-openapi.yml
 - filename: firecracker-snapshot-api-openapi.yml
   format: yaml
   label: Firecracker Snapshot API
   slug: firecracker-snapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-snapshot-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-snapshot-api-openapi.yml
 - filename: firecracker-version-api-openapi.yml
   format: yaml
   label: Firecracker Version API
   slug: firecracker-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-version-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-version-api-openapi.yml
 - filename: firecracker-vm-api-openapi.yml
   format: yaml
   label: Firecracker Vm API
   slug: firecracker-vm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-vm-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-vm-api-openapi.yml
 - filename: firecracker-vsock-api-openapi.yml
   format: yaml
   label: Firecracker Vsock API
   slug: firecracker-vsock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-vsock-api-openapi.yml
+  url: https://artifacts.apis.io/firecracker/openapi/firecracker-vsock-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -165,9 +165,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/firecr
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network-interfaces/{iface_id}\n  method: put\n  operationId: putGuestNetworkInterfaceByID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network-interfaces/{iface_id}\n  method: patch\n  operationId: patchGuestNetworkInterfaceByID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /snapshot/create\n  method: put\n  operationId: createSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /snapshot/load\n  method: put\n  operationId: loadSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /version\n  method: get\n  operationId: getFirecrackerVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vm\n  method: patch\n  operationId: patchVm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vm/config\n  method: get\n  operationId: getExportVmConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vsock\n  method: put\n  operationId: putGuestVsock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/agentic-access/firecracker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/firecracker/agentic-access/firecracker-agentic-access.yml
 summary_line: 38 operations · 29 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Containers
 - MicroVM
 - Open Source

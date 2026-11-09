@@ -9,61 +9,61 @@ api_specs:
   label: OpenStreetMap Capabilities API
   slug: openstreetmap-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-capabilities-api-openapi.yml
 - filename: openstreetmap-changesets-api-openapi.yml
   format: yaml
   label: OpenStreetMap Changesets API
   slug: openstreetmap-changesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-changesets-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-changesets-api-openapi.yml
 - filename: openstreetmap-map-data-api-openapi.yml
   format: yaml
   label: OpenStreetMap Map Data API
   slug: openstreetmap-map-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-map-data-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-map-data-api-openapi.yml
 - filename: openstreetmap-nodes-api-openapi.yml
   format: yaml
   label: OpenStreetMap Nodes API
   slug: openstreetmap-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-nodes-api-openapi.yml
 - filename: openstreetmap-notes-api-openapi.yml
   format: yaml
   label: OpenStreetMap Notes API
   slug: openstreetmap-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-notes-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-notes-api-openapi.yml
 - filename: openstreetmap-relations-api-openapi.yml
   format: yaml
   label: OpenStreetMap Relations API
   slug: openstreetmap-relations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-relations-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-relations-api-openapi.yml
 - filename: openstreetmap-users-api-openapi.yml
   format: yaml
   label: OpenStreetMap Users API
   slug: openstreetmap-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-users-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-users-api-openapi.yml
 - filename: openstreetmap-ways-api-openapi.yml
   format: yaml
   label: OpenStreetMap Ways API
   slug: openstreetmap-ways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-ways-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-ways-api-openapi.yml
 - filename: openstreetmap-geocoding-api-openapi.yml
   format: yaml
   label: OpenStreetMap Geocoding API
   slug: openstreetmap-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-geocoding-api-openapi.yml
 - filename: openstreetmap-status-api-openapi.yml
   format: yaml
   label: OpenStreetMap Status API
   slug: openstreetmap-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-status-api-openapi.yml
+  url: https://artifacts.apis.io/openstreetmap/openapi/openstreetmap-status-api-openapi.yml
 consequence_counts:
   read: 10
   write: 8
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openst
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read_prefs\n    - write_api\n    - write_notes\n- path: /changeset/{id}/close\n  method: put\n  operationId: closeChangeset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read_prefs\n    - write_api\n    - write_notes\n- path: /changeset/{id}/upload\n  method: post\n  operationId: uploadChangeset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n    scope:\n    - read_prefs\n    - write_api\n    - write_notes\n- path: /notes\n  method: get\n  operationId: searchNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read_prefs\n    - write_api\n    - write_notes\n- path: /notes\n  method: post\n  operationId: createNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read_prefs\n    - write_api\n    - write_notes\n- path: /notes/{id}\n  method: get\n  operationId: getNote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read_prefs\n    - write_api\n\
   \    - write_notes\n- path: /user/details\n  method: get\n  operationId: getUserDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read_prefs\n    - write_api\n    - write_notes\n- path: /capabilities\n  method: get\n  operationId: getCapabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read_prefs\n    - write_api\n    - write_notes\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/agentic-access/openstreetmap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openstreetmap/agentic-access/openstreetmap-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - Geospatial

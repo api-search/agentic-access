@@ -8,19 +8,19 @@ api_specs:
   label: Foreign Agricultural Service ESR Data API - United States Weekly Export Sales of Agricultural Commodity Data API
   slug: foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api-openapi.yml
+  url: https://artifacts.apis.io/foreign-agricultural-service/openapi/foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api-openapi.yml
 - filename: foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
   format: yaml
   label: Foreign Agricultural Service GATS Data API - US Census and UN ComTrade Import Export & Re-Export Data API
   slug: foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
+  url: https://artifacts.apis.io/foreign-agricultural-service/openapi/foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api-openapi.yml
 - filename: foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
   format: yaml
   label: Foreign Agricultural Service PSD Data API - Production, Supply and Distribution Forecast Data of World Agricultural Commodities API
   slug: foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
+  url: https://artifacts.apis.io/foreign-agricultural-service/openapi/foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api-openapi.yml
 consequence_counts:
   read: 35
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/foreig
   \ /api/gats/UNTradeReExports/reporterCode/{reporterCode}/year/{year}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/psd/commodity/{commodityCode}/dataReleaseDates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/psd/commodity/{commodityCode}/country/all/year/{marketYear}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/psd/commodity/{commodityCode}/country/{countryCode}/year/{marketYear}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/psd/commodity/{commodityCode}/world/year/{marketYear}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/psd/regions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/psd/countries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/psd/commodities\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/psd/unitsOfMeasure\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/psd/commodityAttributes\n  method: get\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/agentic-access/foreign-agricultural-service-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/foreign-agricultural-service/agentic-access/foreign-agricultural-service-agentic-access.yml
 summary_line: 35 operations
 tags:
 - Agriculture

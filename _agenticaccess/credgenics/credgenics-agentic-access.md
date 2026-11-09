@@ -9,19 +9,19 @@ api_specs:
   label: Credgenics Authentication API
   slug: credgenics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-authentication-api-openapi.yml
 - filename: credgenics-credit-line-api-openapi.yml
   format: yaml
   label: Credgenics Credit Line API
   slug: credgenics-credit-line-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-credit-line-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-credit-line-api-openapi.yml
 - filename: credgenics-lending-api-openapi.yml
   format: yaml
   label: Credgenics Lending API
   slug: credgenics-lending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-lending-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-lending-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/credgenics-recovery-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 5\n    connected: 2\n  by_consequence:\n    write: 4\n    read: 2\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /user/public/access-token\n  method: post\n  operationId: createAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recovery/v1/loans/{loan_id}\n  method: get\n  operationId: getLoan\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recovery/v1/loan/{loan_id}\n  method: post\n  operationId: uploadLoan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recovery/v1/loan/{loan_id}\n  method: patch\n  operationId: updateLoan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recovery/payments/{loan_id}\n  method: patch\n  operationId: updatePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recovery/v1/customers/{customer_id}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recovery/loan/{transaction_id}\n  method: post\n  operationId: uploadTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/agentic-access/credgenics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/credgenics/agentic-access/credgenics-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
 - Company

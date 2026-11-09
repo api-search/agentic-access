@@ -9,25 +9,25 @@ api_specs:
   label: Better Uptime Heartbeats API
   slug: betteruptime-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-heartbeats-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-heartbeats-api-openapi.yml
 - filename: betteruptime-incidents-api-openapi.yml
   format: yaml
   label: Better Uptime Incidents API
   slug: betteruptime-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-incidents-api-openapi.yml
 - filename: betteruptime-monitors-api-openapi.yml
   format: yaml
   label: Better Uptime Monitors API
   slug: betteruptime-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-monitors-api-openapi.yml
 - filename: betteruptime-status-pages-api-openapi.yml
   format: yaml
   label: Better Uptime Status Pages API
   slug: betteruptime-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/openapi/betteruptime-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/betteruptime/openapi/betteruptime-status-pages-api-openapi.yml
 consequence_counts:
   read: 7
   write: 9
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/better
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /heartbeats/{id}\n  method: delete\n  operationId: deleteHeartbeat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /status-pages\n  method: get\n  operationId: listStatusPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status-pages\n  method: post\n  operationId: createStatusPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /status-pages/{id}\n  method: get\n  operationId: getStatusPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status-pages/{id}\n  method: patch\n  operationId: updateStatusPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /status-pages/{id}\n  method: delete\n  operationId: deleteStatusPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents\n  method:\
   \ get\n  operationId: listIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/agentic-access/betteruptime-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/betteruptime/agentic-access/betteruptime-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - Uptime Monitoring

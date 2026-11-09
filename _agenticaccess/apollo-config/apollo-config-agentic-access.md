@@ -9,31 +9,31 @@ api_specs:
   label: Apollo Config Apps API
   slug: apollo-config-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-apps-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-apps-api-openapi.yml
 - filename: apollo-config-clusters-api-openapi.yml
   format: yaml
   label: Apollo Config Clusters API
   slug: apollo-config-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-clusters-api-openapi.yml
 - filename: apollo-config-items-api-openapi.yml
   format: yaml
   label: Apollo Config Items API
   slug: apollo-config-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-items-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-items-api-openapi.yml
 - filename: apollo-config-namespaces-api-openapi.yml
   format: yaml
   label: Apollo Config Namespaces API
   slug: apollo-config-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-namespaces-api-openapi.yml
 - filename: apollo-config-releases-api-openapi.yml
   format: yaml
   label: Apollo Config Releases API
   slug: apollo-config-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-config-releases-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-config/openapi/apollo-config-releases-api-openapi.yml
 consequence_counts:
   read: 10
   write: 8
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apollo
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key}\n  method: put\n  operationId: updateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key}\n  method: delete\n  operationId: deleteItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases/latest\n\
   \  method: get\n  operationId: getLatestRelease\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases\n  method: post\n  operationId: createRelease\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v1/envs/{env}/releases/{releaseId}/rollback\n  method: put\n  operationId: rollbackRelease\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/gray-del-releases\n  method: post\n  operationId: createGrayRelease\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/agentic-access/apollo-config-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apollo-config/agentic-access/apollo-config-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - Apache 2.0

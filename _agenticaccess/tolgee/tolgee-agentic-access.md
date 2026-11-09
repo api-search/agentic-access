@@ -9,43 +9,43 @@ api_specs:
   label: Tolgee API Keys API
   slug: tolgee-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-api-keys-api-openapi.yml
 - filename: tolgee-import-export-api-openapi.yml
   format: yaml
   label: Tolgee Import/Export API
   slug: tolgee-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-import-export-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-import-export-api-openapi.yml
 - filename: tolgee-keys-api-openapi.yml
   format: yaml
   label: Tolgee Keys API
   slug: tolgee-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-keys-api-openapi.yml
 - filename: tolgee-languages-api-openapi.yml
   format: yaml
   label: Tolgee Languages API
   slug: tolgee-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-languages-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-languages-api-openapi.yml
 - filename: tolgee-projects-api-openapi.yml
   format: yaml
   label: Tolgee Projects API
   slug: tolgee-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-projects-api-openapi.yml
 - filename: tolgee-screenshots-api-openapi.yml
   format: yaml
   label: Tolgee Screenshots API
   slug: tolgee-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-screenshots-api-openapi.yml
 - filename: tolgee-translations-api-openapi.yml
   format: yaml
   label: Tolgee Translations API
   slug: tolgee-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/openapi/tolgee-translations-api-openapi.yml
+  url: https://artifacts.apis.io/tolgee/openapi/tolgee-translations-api-openapi.yml
 consequence_counts:
   read: 9
   write: 16
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tolgee
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/projects/{projectId}/languages/{languageId}\n  method: delete\n  operationId: deleteLanguage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/projects/export\n  method: get\n  operationId: exportData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/projects/{projectId}/import\n  method: post\n  operationId: addImportFiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/projects/{projectId}/import/apply\n  method: put\n  operationId: applyImport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/projects/{projectId}/keys/{keyId}/screenshots\n  method: get\n  operationId: getKeyScreenshots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/projects/{projectId}/keys/{keyId}/screenshots\n  method: post\n  operationId: uploadScreenshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/projects/{projectId}/keys/{keyId}/screenshots/{screenshotId}\n  method: delete\n  operationId: deleteScreenshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/agentic-access/tolgee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tolgee/agentic-access/tolgee-agentic-access.yml
 summary_line: 25 operations · 16 acting
 tags:
 - Localization

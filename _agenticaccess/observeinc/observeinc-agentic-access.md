@@ -9,127 +9,127 @@ api_specs:
   label: Observe Alert API
   slug: observeinc-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-alert-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-alert-api-openapi.yml
 - filename: observeinc-apm-api-openapi.yml
   format: yaml
   label: Observe APM API
   slug: observeinc-apm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-apm-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-apm-api-openapi.yml
 - filename: observeinc-dashboards-api-openapi.yml
   format: yaml
   label: Observe Dashboards API
   slug: observeinc-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-dashboards-api-openapi.yml
 - filename: observeinc-dataset-api-openapi.yml
   format: yaml
   label: Observe Dataset API
   slug: observeinc-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-dataset-api-openapi.yml
 - filename: observeinc-dataset-legacy-api-openapi.yml
   format: yaml
   label: Observe Dataset Legacy API
   slug: observeinc-dataset-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-dataset-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-dataset-legacy-api-openapi.yml
 - filename: observeinc-dataset-query-filter-api-openapi.yml
   format: yaml
   label: Observe Dataset Query Filter API
   slug: observeinc-dataset-query-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-dataset-query-filter-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-dataset-query-filter-api-openapi.yml
 - filename: observeinc-documentation-api-openapi.yml
   format: yaml
   label: Observe Documentation API
   slug: observeinc-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-documentation-api-openapi.yml
 - filename: observeinc-drop-filters-api-openapi.yml
   format: yaml
   label: Observe Drop Filters API
   slug: observeinc-drop-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-drop-filters-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-drop-filters-api-openapi.yml
 - filename: observeinc-export-api-openapi.yml
   format: yaml
   label: Observe Export API
   slug: observeinc-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-export-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-export-api-openapi.yml
 - filename: observeinc-ingest-routes-api-openapi.yml
   format: yaml
   label: Observe Ingest Routes API
   slug: observeinc-ingest-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-ingest-routes-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-ingest-routes-api-openapi.yml
 - filename: observeinc-ingest-tokens-api-openapi.yml
   format: yaml
   label: Observe Ingest Tokens API
   slug: observeinc-ingest-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-ingest-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-ingest-tokens-api-openapi.yml
 - filename: observeinc-login-api-openapi.yml
   format: yaml
   label: Observe Login API
   slug: observeinc-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-login-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-login-api-openapi.yml
 - filename: observeinc-metrics-api-openapi.yml
   format: yaml
   label: Observe Metrics API
   slug: observeinc-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-metrics-api-openapi.yml
 - filename: observeinc-monitor-api-openapi.yml
   format: yaml
   label: Observe Monitor API
   slug: observeinc-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-monitor-api-openapi.yml
 - filename: observeinc-monitormute-api-openapi.yml
   format: yaml
   label: Observe Monitor Mute API
   slug: observeinc-monitormute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-monitormute-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-monitormute-api-openapi.yml
 - filename: observeinc-objecttags-api-openapi.yml
   format: yaml
   label: Observe Object Tags API
   slug: observeinc-objecttags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-objecttags-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-objecttags-api-openapi.yml
 - filename: observeinc-referencetables-api-openapi.yml
   format: yaml
   label: Observe Reference Tables API
   slug: observeinc-referencetables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-referencetables-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-referencetables-api-openapi.yml
 - filename: observeinc-skills-api-openapi.yml
   format: yaml
   label: Observe Skills API
   slug: observeinc-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-skills-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-skills-api-openapi.yml
 - filename: observeinc-tags-api-openapi.yml
   format: yaml
   label: Observe Tags API
   slug: observeinc-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-tags-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-tags-api-openapi.yml
 - filename: observeinc-service-accounts-api-openapi.yml
   format: yaml
   label: Observe Service Accounts API
   slug: observeinc-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-service-accounts-api-openapi.yml
 - filename: observeinc-tag-values-api-openapi.yml
   format: yaml
   label: Observe Tag Values API
   slug: observeinc-tag-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/openapi/observeinc-tag-values-api-openapi.yml
+  url: https://artifacts.apis.io/observeinc/openapi/observeinc-tag-values-api-openapi.yml
 consequence_counts:
   read: 46
   safety-critical: 3
@@ -201,7 +201,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/observ
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metrics\n  method: get\n  operationId: ListMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/login/delegated/{serverToken}\n  method: get\n  operationId: pollDelegatedLogin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/documentation/search\n  method: post\n  operationId: SearchDocumentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/object-tags/search\n  method: get\n  operationId: SearchObjectTagKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/object-tags/search/{key}\n  method: get\n  operationId: SearchObjectTagValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/values\n  method: get\n  operationId: SearchTagValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/login/delegated\n  method: post\n  operationId: startDelegatedLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ingest/filters/validate\n  method: post\n  operationId: ValidateIngestFilterExpression\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/observeinc/refs/heads/main/agentic-access/observeinc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/observeinc/agentic-access/observeinc-agentic-access.yml
 summary_line: 88 operations · 42 acting · 3 human-in-the-loop
 tags:
 - Company

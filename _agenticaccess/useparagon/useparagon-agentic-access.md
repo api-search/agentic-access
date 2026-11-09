@@ -9,49 +9,49 @@ api_specs:
   label: Paragon ActionKit API
   slug: useparagon-actionkit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-actionkit-api-openapi.yml
+  url: https://artifacts.apis.io/useparagon/openapi/useparagon-actionkit-api-openapi.yml
 - filename: useparagon-connect-api-openapi.yml
   format: yaml
   label: Paragon Connect API
   slug: useparagon-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-connect-api-openapi.yml
+  url: https://artifacts.apis.io/useparagon/openapi/useparagon-connect-api-openapi.yml
 - filename: useparagon-integrations-api-openapi.yml
   format: yaml
   label: Paragon Integrations API
   slug: useparagon-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/useparagon/openapi/useparagon-integrations-api-openapi.yml
 - filename: useparagon-managed-sync-api-openapi.yml
   format: yaml
   label: Paragon Managed Sync API
   slug: useparagon-managed-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-managed-sync-api-openapi.yml
+  url: https://artifacts.apis.io/useparagon/openapi/useparagon-managed-sync-api-openapi.yml
 - filename: useparagon-permissions-api-openapi.yml
   format: yaml
   label: Paragon Permissions API
   slug: useparagon-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/useparagon/openapi/useparagon-permissions-api-openapi.yml
 - filename: useparagon-proxy-api-openapi.yml
   format: yaml
   label: Paragon Proxy API
   slug: useparagon-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/useparagon/openapi/useparagon-proxy-api-openapi.yml
 - filename: useparagon-users-api-openapi.yml
   format: yaml
   label: Paragon Users API
   slug: useparagon-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-users-api-openapi.yml
+  url: https://artifacts.apis.io/useparagon/openapi/useparagon-users-api-openapi.yml
 - filename: useparagon-workflows-api-openapi.yml
   format: yaml
   label: Paragon Workflows API
   slug: useparagon-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/openapi/useparagon-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/useparagon/openapi/useparagon-workflows-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/usepar
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/sdk/proxy/{integrationType}/{apiPath}\n  method: post\n  operationId: proxyRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/actions\n  method: get\n  operationId: listActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/actions/run\n  method: post\n  operationId: runAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/syncs\n  method: post\n  operationId: createSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/syncs\n  method: get\n  operationId: listSyncs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sync/{syncId}/records\n  method: get\n  operationId: listSyncRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sync/{syncId}/records/{recordId}/content\n  method: get\n  operationId: getRecordContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /permissions/check\n  method: post\n  operationId: checkPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/agentic-access/useparagon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/useparagon/agentic-access/useparagon-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Integration

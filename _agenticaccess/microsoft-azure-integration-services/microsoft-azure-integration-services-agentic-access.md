@@ -4,18 +4,42 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
+- filename: microsoft-azure-integration-services-azure-logic-apps-openapi.yml
+  format: yaml
+  label: Azure Logic Apps
+  slug: azure-logic-apps
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-logic-apps-openapi.yml
+- filename: microsoft-azure-integration-services-azure-service-bus-openapi.yml
+  format: yaml
+  label: Azure Service Bus
+  slug: azure-service-bus
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-service-bus-openapi.yml
+- filename: microsoft-azure-integration-services-azure-event-grid-openapi.yml
+  format: yaml
+  label: Azure Event Grid
+  slug: azure-event-grid
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-event-grid-openapi.yml
+- filename: microsoft-azure-integration-services-azure-event-hubs-openapi.yml
+  format: yaml
+  label: Azure Event Hubs
+  slug: azure-event-hubs
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-event-hubs-openapi.yml
 - filename: microsoft-azure-integration-services-operations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Integration Services Operations API
   slug: microsoft-azure-integration-services-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/openapi/microsoft-azure-integration-services-operations-api-openapi.yml
-- filename: microsoft-azure-integration-services-services-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-operations-api-openapi.yml
+- filename: microsoft-azure-integration-services-azure-api-management-openapi.yml
   format: yaml
-  label: Microsoft Azure Integration Services API
+  label: Azure API Management
   slug: microsoft-azure-integration-services-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/openapi/microsoft-azure-integration-services-services-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-api-management-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service\n  method: get\n  operationId: listServiceByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{name}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{name}\n\
   \  method: put\n  operationId: createOrUpdateService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{name}\n  method: patch\n  operationId: updateService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{name}\n  method: delete\n\
   \  operationId: deleteService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/agentic-access/microsoft-azure-integration-services-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-integration-services/agentic-access/microsoft-azure-integration-services-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - API Management

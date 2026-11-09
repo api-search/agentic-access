@@ -9,145 +9,145 @@ api_specs:
   label: SolarWinds Account API
   slug: solarwinds-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-account-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-account-api-openapi.yml
 - filename: solarwinds-assets-api-openapi.yml
   format: yaml
   label: SolarWinds Assets API
   slug: solarwinds-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-assets-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-assets-api-openapi.yml
 - filename: solarwinds-categories-api-openapi.yml
   format: yaml
   label: SolarWinds Categories API
   slug: solarwinds-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-categories-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-categories-api-openapi.yml
 - filename: solarwinds-changes-api-openapi.yml
   format: yaml
   label: SolarWinds Changes API
   slug: solarwinds-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-changes-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-changes-api-openapi.yml
 - filename: solarwinds-checks-api-openapi.yml
   format: yaml
   label: SolarWinds Checks API
   slug: solarwinds-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-checks-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-checks-api-openapi.yml
 - filename: solarwinds-contacts-api-openapi.yml
   format: yaml
   label: SolarWinds Contacts API
   slug: solarwinds-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-contacts-api-openapi.yml
 - filename: solarwinds-crud-api-openapi.yml
   format: yaml
   label: SolarWinds CRUD API
   slug: solarwinds-crud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-crud-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-crud-api-openapi.yml
 - filename: solarwinds-events-api-openapi.yml
   format: yaml
   label: SolarWinds Events API
   slug: solarwinds-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-events-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-events-api-openapi.yml
 - filename: solarwinds-groups-api-openapi.yml
   format: yaml
   label: SolarWinds Groups API
   slug: solarwinds-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-groups-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-groups-api-openapi.yml
 - filename: solarwinds-incidents-api-openapi.yml
   format: yaml
   label: SolarWinds Incidents API
   slug: solarwinds-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-incidents-api-openapi.yml
 - filename: solarwinds-invoke-api-openapi.yml
   format: yaml
   label: SolarWinds Invoke API
   slug: solarwinds-invoke-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-invoke-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-invoke-api-openapi.yml
 - filename: solarwinds-maintenance-api-openapi.yml
   format: yaml
   label: SolarWinds Maintenance API
   slug: solarwinds-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-maintenance-api-openapi.yml
 - filename: solarwinds-probeservers-api-openapi.yml
   format: yaml
   label: SolarWinds ProbeServers API
   slug: solarwinds-probeservers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-probeservers-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-probeservers-api-openapi.yml
 - filename: solarwinds-problems-api-openapi.yml
   format: yaml
   label: SolarWinds Problems API
   slug: solarwinds-problems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-problems-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-problems-api-openapi.yml
 - filename: solarwinds-query-api-openapi.yml
   format: yaml
   label: SolarWinds Query API
   slug: solarwinds-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-query-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-query-api-openapi.yml
 - filename: solarwinds-results-api-openapi.yml
   format: yaml
   label: SolarWinds Results API
   slug: solarwinds-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-results-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-results-api-openapi.yml
 - filename: solarwinds-search-api-openapi.yml
   format: yaml
   label: SolarWinds Search API
   slug: solarwinds-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-search-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-search-api-openapi.yml
 - filename: solarwinds-summary-api-openapi.yml
   format: yaml
   label: SolarWinds Summary API
   slug: solarwinds-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-summary-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-summary-api-openapi.yml
 - filename: solarwinds-systems-api-openapi.yml
   format: yaml
   label: SolarWinds Systems API
   slug: solarwinds-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-systems-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-systems-api-openapi.yml
 - filename: solarwinds-teams-api-openapi.yml
   format: yaml
   label: SolarWinds Teams API
   slug: solarwinds-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-teams-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-teams-api-openapi.yml
 - filename: solarwinds-users-api-openapi.yml
   format: yaml
   label: SolarWinds Users API
   slug: solarwinds-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-users-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-users-api-openapi.yml
 - filename: solarwinds-bulk-operations-api-openapi.yml
   format: yaml
   label: SolarWinds Bulk Operations API
   slug: solarwinds-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-bulk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-bulk-operations-api-openapi.yml
 - filename: solarwinds-saved-searches-api-openapi.yml
   format: yaml
   label: SolarWinds Saved Searches API
   slug: solarwinds-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-saved-searches-api-openapi.yml
 - filename: solarwinds-service-requests-api-openapi.yml
   format: yaml
   label: SolarWinds Service Requests API
   slug: solarwinds-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/solarwinds/openapi/solarwinds-service-requests-api-openapi.yml
 consequence_counts:
   read: 30
   write: 16
@@ -187,7 +187,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/solarw
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /summary.average/{checkid}\n  method: get\n  operationId: getSummaryAverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary.outage/{checkid}\n  method: get\n  operationId: getSummaryOutage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems.json\n  method: get\n  operationId: listSystems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems.json\n  method: post\n  operationId: registerSystem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /systems/{id}.json\n  method: get\n  operationId: getSystem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{id}.json\n  method: put\n  operationId: updateSystem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /systems/{id}.json\n  method: delete\n  operationId: deleteSystem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /alerting/teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users.json\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/agentic-access/solarwinds-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/solarwinds/agentic-access/solarwinds-agentic-access.yml
 summary_line: 46 operations · 16 acting
 tags:
 - Application Monitoring

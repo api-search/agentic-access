@@ -9,67 +9,67 @@ api_specs:
   label: Nimbleway Agents API
   slug: nimbleway-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-agents-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-agents-api-openapi.yml
 - filename: nimbleway-crawl-api-openapi.yml
   format: yaml
   label: Nimbleway Crawl API
   slug: nimbleway-crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-crawl-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-crawl-api-openapi.yml
 - filename: nimbleway-domain-knowledge-api-openapi.yml
   format: yaml
   label: Nimbleway Domain Knowledge API
   slug: nimbleway-domain-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-domain-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-domain-knowledge-api-openapi.yml
 - filename: nimbleway-extract-api-openapi.yml
   format: yaml
   label: Nimbleway Extract API
   slug: nimbleway-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-extract-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-extract-api-openapi.yml
 - filename: nimbleway-fast-serp-api-openapi.yml
   format: yaml
   label: Nimbleway Fast SERP API
   slug: nimbleway-fast-serp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-fast-serp-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-fast-serp-api-openapi.yml
 - filename: nimbleway-jobs-api-openapi.yml
   format: yaml
   label: Nimbleway Jobs API
   slug: nimbleway-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-jobs-api-openapi.yml
 - filename: nimbleway-map-api-openapi.yml
   format: yaml
   label: Nimbleway Map API
   slug: nimbleway-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-map-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-map-api-openapi.yml
 - filename: nimbleway-media-api-openapi.yml
   format: yaml
   label: Nimbleway Media API
   slug: nimbleway-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-media-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-media-api-openapi.yml
 - filename: nimbleway-search-api-openapi.yml
   format: yaml
   label: Nimbleway Search API
   slug: nimbleway-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-search-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-search-api-openapi.yml
 - filename: nimbleway-serp-api-openapi.yml
   format: yaml
   label: Nimbleway SERP API
   slug: nimbleway-serp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-serp-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-serp-api-openapi.yml
 - filename: nimbleway-tasks-api-openapi.yml
   format: yaml
   label: Nimbleway Tasks API
   slug: nimbleway-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/nimbleway-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nimbleway/openapi/nimbleway-tasks-api-openapi.yml
 consequence_counts:
   read: 21
   write: 21
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nimble
   \      max-ttl: 3600\n    audit: none\n- path: /v1/serp\n  method: post\n  operationId: postV1Serp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/serp/async\n  method: post\n  operationId: postV1SerpAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/serp/batch\n  method: post\n  operationId: postV1SerpBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tasks\n  method: get\n  operationId: getV1Tasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/{task_id}\n  method: get\n  operationId: getV1TasksByTaskId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/{task_id}/results\n  method: get\n  operationId: getV1TasksByTaskIdResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/batches\n  method: get\n  operationId: getV1Batches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/batches/{batch_id}\n  method:\
   \ get\n  operationId: getV1BatchesByBatchId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/batches/{batch_id}/progress\n  method: get\n  operationId: getV1BatchesByBatchIdProgress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/agentic-access/nimbleway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nimbleway/agentic-access/nimbleway-agentic-access.yml
 summary_line: 42 operations · 21 acting
 tags:
 - Company

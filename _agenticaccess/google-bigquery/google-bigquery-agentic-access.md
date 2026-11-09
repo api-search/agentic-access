@@ -9,43 +9,43 @@ api_specs:
   label: Google BigQuery Datasets API
   slug: google-bigquery-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-datasets-api-openapi.yml
 - filename: google-bigquery-jobs-api-openapi.yml
   format: yaml
   label: Google BigQuery Jobs API
   slug: google-bigquery-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-jobs-api-openapi.yml
 - filename: google-bigquery-models-api-openapi.yml
   format: yaml
   label: Google BigQuery Models API
   slug: google-bigquery-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-models-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-models-api-openapi.yml
 - filename: google-bigquery-projects-api-openapi.yml
   format: yaml
   label: Google BigQuery Projects API
   slug: google-bigquery-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-projects-api-openapi.yml
 - filename: google-bigquery-routines-api-openapi.yml
   format: yaml
   label: Google BigQuery Routines API
   slug: google-bigquery-routines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-routines-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-routines-api-openapi.yml
 - filename: google-bigquery-tabledata-api-openapi.yml
   format: yaml
   label: Google BigQuery Tabledata API
   slug: google-bigquery-tabledata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-tabledata-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-tabledata-api-openapi.yml
 - filename: google-bigquery-tables-api-openapi.yml
   format: yaml
   label: Google BigQuery Tables API
   slug: google-bigquery-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/google-bigquery-tables-api-openapi.yml
+  url: https://artifacts.apis.io/google-bigquery/openapi/google-bigquery-tables-api-openapi.yml
 consequence_counts:
   read: 14
   write: 16
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \  method: get\n  operationId: listTabledata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/datasets/{datasetId}/tables/{tableId}/insertAll\n  method: post\n  operationId: insertAllTabledata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/datasets/{datasetId}/tables\n  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/datasets/{datasetId}/tables\n  method: post\n  operationId: insertTable\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/datasets/{datasetId}/tables/{tableId}\n  method: get\n  operationId: getTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/datasets/{datasetId}/tables/{tableId}\n  method: patch\n  operationId: patchTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/datasets/{datasetId}/tables/{tableId}\n  method: delete\n  operationId: deleteTable\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/agentic-access/google-bigquery-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-bigquery/agentic-access/google-bigquery-agentic-access.yml
 summary_line: 30 operations · 16 acting
 tags:
 - Analytics

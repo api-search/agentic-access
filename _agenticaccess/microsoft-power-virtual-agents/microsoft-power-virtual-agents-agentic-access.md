@@ -9,13 +9,13 @@ api_specs:
   label: Microsoft Power Virtual Agents Conversations API
   slug: microsoft-power-virtual-agents-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/openapi/microsoft-power-virtual-agents-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-virtual-agents/openapi/microsoft-power-virtual-agents-conversations-api-openapi.yml
 - filename: microsoft-power-virtual-agents-tokens-api-openapi.yml
   format: yaml
   label: Microsoft Power Virtual Agents Tokens API
   slug: microsoft-power-virtual-agents-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/openapi/microsoft-power-virtual-agents-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-virtual-agents/openapi/microsoft-power-virtual-agents-tokens-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/microsoft-power-virtual-agents-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 4\n    connected: 2\n  by_consequence:\n    write: 3\n    read: 2\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v3/directline/tokens/generate\n  method: post\n  operationId: generateDirectLineToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/directline/tokens/refresh\n  method: post\n  operationId:\
   \ refreshDirectLineToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/directline/conversations\n  method: post\n  operationId: startConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/directline/conversations/{conversationId}\n  method: get\n  operationId: getConversation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/directline/conversations/{conversationId}/activities\n  method: get\n  operationId:\
   \ getActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/directline/conversations/{conversationId}/activities\n  method: post\n  operationId: postActivity\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/agentic-access/microsoft-power-virtual-agents-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-power-virtual-agents/agentic-access/microsoft-power-virtual-agents-agentic-access.yml
 summary_line: 6 operations · 4 acting
 tags:
 - Chatbots

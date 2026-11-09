@@ -9,43 +9,43 @@ api_specs:
   label: Neo4j Query API
   slug: query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-query-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-query-api-openapi.yml
 - filename: neo4j-authentication-api-openapi.yml
   format: yaml
   label: Neo4j Authentication API
   slug: neo4j-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-authentication-api-openapi.yml
 - filename: neo4j-discovery-api-openapi.yml
   format: yaml
   label: Neo4j Discovery API
   slug: neo4j-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-discovery-api-openapi.yml
 - filename: neo4j-instances-api-openapi.yml
   format: yaml
   label: Neo4j Instances API
   slug: neo4j-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-instances-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-instances-api-openapi.yml
 - filename: neo4j-snapshots-api-openapi.yml
   format: yaml
   label: Neo4j Snapshots API
   slug: neo4j-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-snapshots-api-openapi.yml
 - filename: neo4j-tenants-api-openapi.yml
   format: yaml
   label: Neo4j Tenants API
   slug: neo4j-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-tenants-api-openapi.yml
 - filename: neo4j-transactions-api-openapi.yml
   format: yaml
   label: Neo4j Transactions API
   slug: neo4j-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-transactions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 14
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/neo4j-
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: getDiscovery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /db/{databaseName}/query\n  method: post\n  operationId: executeQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /db/{databaseName}/tx\n  method: post\n  operationId: openTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /db/{databaseName}/tx/{transactionId}\n  method: post\n  operationId: executeInTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /db/{databaseName}/tx/{transactionId}\n  method: delete\n  operationId: rollbackTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /db/{databaseName}/tx/{transactionId}/commit\n  method: post\n  operationId: commitTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/agentic-access/neo4j-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/neo4j/agentic-access/neo4j-agentic-access.yml
 summary_line: 21 operations · 14 acting
 tags:
 - Neo4j

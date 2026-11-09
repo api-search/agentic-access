@@ -9,31 +9,31 @@ api_specs:
   label: PartnerStack Customers API
   slug: partnerstack-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-customers-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-customers-api-openapi.yml
 - filename: partnerstack-deals-api-openapi.yml
   format: yaml
   label: PartnerStack Deals API
   slug: partnerstack-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-deals-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-deals-api-openapi.yml
 - filename: partnerstack-partnerships-api-openapi.yml
   format: yaml
   label: PartnerStack Partnerships API
   slug: partnerstack-partnerships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-partnerships-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-partnerships-api-openapi.yml
 - filename: partnerstack-rewards-api-openapi.yml
   format: yaml
   label: PartnerStack Rewards API
   slug: partnerstack-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-rewards-api-openapi.yml
 - filename: partnerstack-transactions-api-openapi.yml
   format: yaml
   label: PartnerStack Transactions API
   slug: partnerstack-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/openapi/partnerstack-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/partnerstack/openapi/partnerstack-transactions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1
@@ -61,7 +61,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/partnerstack-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 5\n    acting: 1\n  by_consequence:\n    read: 5\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /partnerships\n  method: get\n  operationId: listPartnerships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: post\n  operationId:\
   \ createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals\n  method: get\n  operationId: listDeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rewards\n  method: get\n  operationId: listRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/agentic-access/partnerstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/partnerstack/agentic-access/partnerstack-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
 - Partnerships

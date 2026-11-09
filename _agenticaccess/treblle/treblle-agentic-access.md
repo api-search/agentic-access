@@ -9,37 +9,37 @@ api_specs:
   label: Treblle Analytics API
   slug: treblle-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/treblle/openapi/treblle-analytics-api-openapi.yml
 - filename: treblle-endpoints-api-openapi.yml
   format: yaml
   label: Treblle Endpoints API
   slug: treblle-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/treblle/openapi/treblle-endpoints-api-openapi.yml
 - filename: treblle-governance-api-openapi.yml
   format: yaml
   label: Treblle Governance API
   slug: treblle-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-governance-api-openapi.yml
+  url: https://artifacts.apis.io/treblle/openapi/treblle-governance-api-openapi.yml
 - filename: treblle-members-api-openapi.yml
   format: yaml
   label: Treblle Members API
   slug: treblle-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-members-api-openapi.yml
+  url: https://artifacts.apis.io/treblle/openapi/treblle-members-api-openapi.yml
 - filename: treblle-projects-api-openapi.yml
   format: yaml
   label: Treblle Projects API
   slug: treblle-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-projects-api-openapi.yml
+  url: https://artifacts.apis.io/treblle/openapi/treblle-projects-api-openapi.yml
 - filename: treblle-requests-api-openapi.yml
   format: yaml
   label: Treblle Requests API
   slug: treblle-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/openapi/treblle-requests-api-openapi.yml
+  url: https://artifacts.apis.io/treblle/openapi/treblle-requests-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trebll
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}\n  method: put\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /projects/{projectId}/requests\n  method: get\n  operationId: listRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/requests/{requestId}\n  method: get\n  operationId: getRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/analytics\n  method: get\n  operationId: getProjectAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/endpoints\n  method: get\n  operationId: listEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/governance\n  method: post\n \
   \ operationId: runGovernanceCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/members\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/members\n  method: post\n  operationId: inviteMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/agentic-access/treblle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/treblle/agentic-access/treblle-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Analytics

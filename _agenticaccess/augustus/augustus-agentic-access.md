@@ -9,115 +9,115 @@ api_specs:
   label: Augustus Account Programs API
   slug: augustus-account-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-account-programs-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-account-programs-api-openapi.yml
 - filename: augustus-accounts-api-openapi.yml
   format: yaml
   label: Augustus Accounts API
   slug: augustus-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-accounts-api-openapi.yml
 - filename: augustus-api-key-api-openapi.yml
   format: yaml
   label: Augustus API Key API
   slug: augustus-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-api-key-api-openapi.yml
 - filename: augustus-api-versions-api-openapi.yml
   format: yaml
   label: Augustus API Versions API
   slug: augustus-api-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-api-versions-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-api-versions-api-openapi.yml
 - filename: augustus-conversions-api-openapi.yml
   format: yaml
   label: Augustus Conversions API
   slug: augustus-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-conversions-api-openapi.yml
 - filename: augustus-deposits-api-openapi.yml
   format: yaml
   label: Augustus Deposits API
   slug: augustus-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-deposits-api-openapi.yml
 - filename: augustus-events-api-openapi.yml
   format: yaml
   label: Augustus Events API
   slug: augustus-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-events-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-events-api-openapi.yml
 - filename: augustus-payouts-api-openapi.yml
   format: yaml
   label: Augustus Payouts API
   slug: augustus-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-payouts-api-openapi.yml
 - filename: augustus-quotes-api-openapi.yml
   format: yaml
   label: Augustus Quotes API
   slug: augustus-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-quotes-api-openapi.yml
 - filename: augustus-returns-api-openapi.yml
   format: yaml
   label: Augustus Returns API
   slug: augustus-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-returns-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-returns-api-openapi.yml
 - filename: augustus-scopes-api-openapi.yml
   format: yaml
   label: Augustus Scopes API
   slug: augustus-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-scopes-api-openapi.yml
 - filename: augustus-webhook-deliveries-api-openapi.yml
   format: yaml
   label: Augustus Webhook Deliveries API
   slug: augustus-webhook-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-webhook-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-webhook-deliveries-api-openapi.yml
 - filename: augustus-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Augustus Webhook Subscriptions API
   slug: augustus-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-webhook-subscriptions-api-openapi.yml
 - filename: augustus-webhook-events-api-openapi.yml
   format: yaml
   label: Augustus Webhook Events API
   slug: augustus-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-webhook-events-api-openapi.yml
 - filename: augustus-account-holders-api-openapi.yml
   format: yaml
   label: Augustus Account Holders API
   slug: augustus-account-holders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-account-holders-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-account-holders-api-openapi.yml
 - filename: augustus-counterparties-api-openapi.yml
   format: yaml
   label: Augustus Counterparties API
   slug: augustus-counterparties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-counterparties-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-counterparties-api-openapi.yml
 - filename: augustus-payout-tracking-events-api-openapi.yml
   format: yaml
   label: Augustus Payout Tracking Events API
   slug: augustus-payout-tracking-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-payout-tracking-events-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-payout-tracking-events-api-openapi.yml
 - filename: augustus-simulations-api-openapi.yml
   format: yaml
   label: Augustus Simulations API
   slug: augustus-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-simulations-api-openapi.yml
 - filename: augustus-transactions-api-openapi.yml
   format: yaml
   label: Augustus Transactions API
   slug: augustus-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/augustus/openapi/augustus-transactions-api-openapi.yml
 consequence_counts:
   read: 25
   safety-critical: 12
@@ -218,7 +218,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/august
   \      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/webhook_subscriptions\n  method: post\n  operationId: WebhookSubscriptionsController_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/webhook_subscriptions\n  method: get\n  operationId: WebhookSubscriptionsController_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook_subscriptions/{id}\n  method: get\n  operationId: WebhookSubscriptionsController_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/webhook_subscriptions/{id}\n  method: post\n  operationId: WebhookSubscriptionsController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/webhook_subscriptions/{id}\n  method: delete\n  operationId: WebhookSubscriptionsController_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/webhook_subscriptions/{id}/send_test_event\n  method: post\n  operationId: WebhookSubscriptionsController_sendTestEvent\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/agentic-access/augustus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/augustus/agentic-access/augustus-agentic-access.yml
 summary_line: 37 operations · 12 acting · 12 human-in-the-loop
 tags:
 - Company

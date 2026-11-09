@@ -9,25 +9,25 @@ api_specs:
   label: Cargoson Carriers API
   slug: cargoson-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/cargoson/openapi/cargoson-carriers-api-openapi.yml
 - filename: cargoson-price-requests-api-openapi.yml
   format: yaml
   label: Cargoson Price Requests API
   slug: cargoson-price-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-price-requests-api-openapi.yml
+  url: https://artifacts.apis.io/cargoson/openapi/cargoson-price-requests-api-openapi.yml
 - filename: cargoson-shipments-api-openapi.yml
   format: yaml
   label: Cargoson Shipments API
   slug: cargoson-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/cargoson/openapi/cargoson-shipments-api-openapi.yml
 - filename: cargoson-transports-tracking-api-openapi.yml
   format: yaml
   label: Cargoson Transports & Tracking API
   slug: cargoson-transports-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/openapi/cargoson-transports-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/cargoson/openapi/cargoson-transports-tracking-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 3
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cargoson-carriers-api-openapi.yml, openapi/cargoson-price-requests-api-openapi.yml,\n  openapi/cargoson-shipments-api-openapi.yml, openapi/cargoson-transports-tracking-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 3\n    acting: 2\n  by_consequence:\n    read: 3\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /services/list\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /freightPrices/list\n  method: post\n  operationId: listFreightPrices\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries\n  method: post\n  operationId: createQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{reference}/return_labels\n  method: post\n  operationId: createReturnLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{reference}\n  method: get\n  operationId:\
   \ getBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/agentic-access/cargoson-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cargoson/agentic-access/cargoson-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - Transport Management

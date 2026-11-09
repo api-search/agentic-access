@@ -9,7 +9,7 @@ api_specs:
   label: Taxley (UK Corporation Tax API) Tools API
   slug: taxley-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxley/refs/heads/main/openapi/taxley-tools-api-openapi.yml
+  url: https://artifacts.apis.io/taxley/openapi/taxley-tools-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 18
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/taxley
   \ 3600\n    audit: none\n- path: /api/v1/tools/dividend-reserves\n  method: post\n  operationId: ukDividendReservesCheckPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/salary-dividends\n  method: get\n  operationId: directorSalaryVsDividends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/salary-dividends\n  method: post\n  operationId: directorSalaryVsDividendsPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v1/tools/sole-trader-vs-limited\n  method: get\n  operationId: soleTraderVsLimitedCompanyTax\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/sole-trader-vs-limited\n  method: post\n  operationId: soleTraderVsLimitedCompanyTaxPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/director-pension\n  method: get\n  operationId: limitedCompanyPensionContribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/director-pension\n\
   \  method: post\n  operationId: limitedCompanyPensionContributionPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taxley/refs/heads/main/agentic-access/taxley-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/taxley/agentic-access/taxley-agentic-access.yml
 summary_line: 35 operations · 17 acting
 tags:
 - Company

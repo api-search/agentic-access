@@ -9,73 +9,73 @@ api_specs:
   label: Instructure ExternalTool API
   slug: instructure-externaltool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-externaltool-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-externaltool-api-openapi.yml
 - filename: instructure-lti-accountexternaltool-api-openapi.yml
   format: yaml
   label: Instructure Lti::AccountExternalTool API
   slug: instructure-lti-accountexternaltool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-accountexternaltool-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-accountexternaltool-api-openapi.yml
 - filename: instructure-lti-accountlookup-api-openapi.yml
   format: yaml
   label: Instructure Lti::AccountLookup API
   slug: instructure-lti-accountlookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-accountlookup-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-accountlookup-api-openapi.yml
 - filename: instructure-lti-dataservice-api-openapi.yml
   format: yaml
   label: Instructure Lti::DataService API
   slug: instructure-lti-dataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-dataservice-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-dataservice-api-openapi.yml
 - filename: instructure-lti-ims-authentication-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::Authentication API
   slug: instructure-lti-ims-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-authentication-api-openapi.yml
 - filename: instructure-lti-ims-dynamicregistration-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::DynamicRegistration API
   slug: instructure-lti-ims-dynamicregistration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-dynamicregistration-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-dynamicregistration-api-openapi.yml
 - filename: instructure-lti-ims-lineitem-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::LineItem API
   slug: instructure-lti-ims-lineitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-lineitem-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-lineitem-api-openapi.yml
 - filename: instructure-lti-ims-namesandrole-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::NamesAndRole API
   slug: instructure-lti-ims-namesandrole-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-namesandrole-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-namesandrole-api-openapi.yml
 - filename: instructure-lti-ims-result-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::Result API
   slug: instructure-lti-ims-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-result-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-result-api-openapi.yml
 - filename: instructure-lti-membershipservice-api-openapi.yml
   format: yaml
   label: Instructure Lti::MembershipService API
   slug: instructure-lti-membershipservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-membershipservice-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-membershipservice-api-openapi.yml
 - filename: instructure-lti-toolconfigurationsapi-api-openapi.yml
   format: yaml
   label: Instructure Lti::ToolConfigurationsApi API
   slug: instructure-lti-toolconfigurationsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-toolconfigurationsapi-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-toolconfigurationsapi-api-openapi.yml
 - filename: instructure-security-api-openapi.yml
   format: yaml
   label: Instructure Security API
   slug: instructure-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-security-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-security-api-openapi.yml
 consequence_counts:
   read: 18
   write: 5
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/instru
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/lti/developer_keys/{developer_key_id}/tool_configuration\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/lti/groups/{group_id}/names_and_roles\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lti/groups/{group_id}/membership_service\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lti/register\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lti/registration_token\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lti/registrations\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/lti/security/jwks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lti/security/openid-configuration\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/agentic-access/instructure-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instructure/agentic-access/instructure-agentic-access.yml
 summary_line: 23 operations · 5 acting
 tags:
 - Enrollment

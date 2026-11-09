@@ -9,187 +9,187 @@ api_specs:
   label: Domain Group Address Locators API
   slug: domain-group-addresslocators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-addresslocators-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-addresslocators-api-openapi.yml
 - filename: domain-group-agencies-api-openapi.yml
   format: yaml
   label: Domain Group Agencies API
   slug: domain-group-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-agencies-api-openapi.yml
 - filename: domain-group-agents-api-openapi.yml
   format: yaml
   label: Domain Group Agents API
   slug: domain-group-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-agents-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-agents-api-openapi.yml
 - filename: domain-group-authorities-api-openapi.yml
   format: yaml
   label: Domain Group Authorities API
   slug: domain-group-authorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-authorities-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-authorities-api-openapi.yml
 - filename: domain-group-campaignreporting-api-openapi.yml
   format: yaml
   label: Domain Group Campaign Reporting API
   slug: domain-group-campaignreporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-campaignreporting-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-campaignreporting-api-openapi.yml
 - filename: domain-group-dataset-api-openapi.yml
   format: yaml
   label: Domain Group Dataset API
   slug: domain-group-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-dataset-api-openapi.yml
 - filename: domain-group-demographics-api-openapi.yml
   format: yaml
   label: Domain Group Demographics API
   slug: domain-group-demographics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-demographics-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-demographics-api-openapi.yml
 - filename: domain-group-disclaimers-api-openapi.yml
   format: yaml
   label: Domain Group Disclaimers API
   slug: domain-group-disclaimers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-disclaimers-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-disclaimers-api-openapi.yml
 - filename: domain-group-enquiries-api-openapi.yml
   format: yaml
   label: Domain Group Enquiries API
   slug: domain-group-enquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-enquiries-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-enquiries-api-openapi.yml
 - filename: domain-group-leadscope-api-openapi.yml
   format: yaml
   label: Domain Group Leadscope API
   slug: domain-group-leadscope-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-leadscope-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-leadscope-api-openapi.yml
 - filename: domain-group-listings-api-openapi.yml
   format: yaml
   label: Domain Group Listings API
   slug: domain-group-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-listings-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-listings-api-openapi.yml
 - filename: domain-group-listingsearch-api-openapi.yml
   format: yaml
   label: Domain Group Listing Search API
   slug: domain-group-listingsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-listingsearch-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-listingsearch-api-openapi.yml
 - filename: domain-group-locations-api-openapi.yml
   format: yaml
   label: Domain Group Locations API
   slug: domain-group-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-locations-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-locations-api-openapi.yml
 - filename: domain-group-me-api-openapi.yml
   format: yaml
   label: Domain Group Me API
   slug: domain-group-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-me-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-me-api-openapi.yml
 - filename: domain-group-premarket-api-openapi.yml
   format: yaml
   label: Domain Group Pre Market API
   slug: domain-group-premarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-premarket-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-premarket-api-openapi.yml
 - filename: domain-group-products-api-openapi.yml
   format: yaml
   label: Domain Group Products API
   slug: domain-group-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-products-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-products-api-openapi.yml
 - filename: domain-group-projects-api-openapi.yml
   format: yaml
   label: Domain Group Projects API
   slug: domain-group-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-projects-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-projects-api-openapi.yml
 - filename: domain-group-properties-api-openapi.yml
   format: yaml
   label: Domain Group Properties API
   slug: domain-group-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-properties-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-properties-api-openapi.yml
 - filename: domain-group-propertyavm-api-openapi.yml
   format: yaml
   label: Domain Group Property Avm API
   slug: domain-group-propertyavm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-propertyavm-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-propertyavm-api-openapi.yml
 - filename: domain-group-propertyfeatures-api-openapi.yml
   format: yaml
   label: Domain Group Property Features API
   slug: domain-group-propertyfeatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-propertyfeatures-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-propertyfeatures-api-openapi.yml
 - filename: domain-group-propertylike-api-openapi.yml
   format: yaml
   label: Domain Group Property Like API
   slug: domain-group-propertylike-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-propertylike-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-propertylike-api-openapi.yml
 - filename: domain-group-propertyradar-api-openapi.yml
   format: yaml
   label: Domain Group Property Radar API
   slug: domain-group-propertyradar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-propertyradar-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-propertyradar-api-openapi.yml
 - filename: domain-group-propertyzoningperils-api-openapi.yml
   format: yaml
   label: Domain Group Property Zoning Perils API
   slug: domain-group-propertyzoningperils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-propertyzoningperils-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-propertyzoningperils-api-openapi.yml
 - filename: domain-group-salesresults-api-openapi.yml
   format: yaml
   label: Domain Group Sales Results API
   slug: domain-group-salesresults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-salesresults-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-salesresults-api-openapi.yml
 - filename: domain-group-schools-api-openapi.yml
   format: yaml
   label: Domain Group Schools API
   slug: domain-group-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-schools-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-schools-api-openapi.yml
 - filename: domain-group-statistics-api-openapi.yml
   format: yaml
   label: Domain Group Statistics API
   slug: domain-group-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-statistics-api-openapi.yml
 - filename: domain-group-webhooks-api-openapi.yml
   format: yaml
   label: Domain Group Webhooks API
   slug: domain-group-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-webhooks-api-openapi.yml
 - filename: domain-group-avmhistory-api-openapi.yml
   format: yaml
   label: Domain Group Avm History API
   slug: domain-group-avmhistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-avmhistory-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-avmhistory-api-openapi.yml
 - filename: domain-group-auctioncollection-api-openapi.yml
   format: yaml
   label: Domain Group Auction Collection API
   slug: domain-group-auctioncollection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-auctioncollection-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-auctioncollection-api-openapi.yml
 - filename: domain-group-agentsearch-api-openapi.yml
   format: yaml
   label: Domain Group Agent Search API
   slug: domain-group-agentsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-agentsearch-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-agentsearch-api-openapi.yml
 - filename: domain-group-property-search-api-openapi.yml
   format: yaml
   label: Domain Group Property Search API
   slug: domain-group-property-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-property-search-api-openapi.yml
+  url: https://artifacts.apis.io/domain-group/openapi/domain-group-property-search-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 145
@@ -259,8 +259,8 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/domain
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/propertyradar/portfoliosummary\n  method: get\n  operationId: PropertyRadar_ListPortfolios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_propertyportfolio_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/properties/search/radius/{searchType}\n  method: post\n  operationId: PropertySearch_ByRadius\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - api_properties_read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/property/zoning-perils\n  method: get\n  operationId: Property_Zoning_Perils\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_properties_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/salesResults/_head\n  method: get\n  operationId: SalesResults_Head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_salesresults_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/salesResults/{city}\n  method: get\n  operationId: SalesResults_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_salesresults_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/salesResults/{city}/listings\n  method: get\n  operationId: SalesResults_Listings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_salesresults_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/salesResults/saturday\n\
   \  method: get\n  operationId: SalesResults_SaturdayReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_salesresults_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/salesResults/weeklyMedia\n  method: get\n  operationId: SalesResults_WeeklyMediaReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_salesresults_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/schools/{id}\n  method: get\n  operationId: Schools_Get_ById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_locations_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/schools/{latitude}/{longitude}\n  method: get\n  operationId: Schools_Search_ByLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n\
-  \    - api_locations_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/statistics/{event}\n  method: post\n  operationId: Statistics_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - api_statistics_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/suburbHistorical/{state}/{suburb}/{postcode}\n  method: get\n  operationId: SuburbHistorical_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_suburbhistorical_read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/agentic-access/domain-group-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/agentic-access/domain-group-agentic-access.yml
+  \    - api_locations_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/statistics/{event}\n  method: post\n  operationId: Statistics_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - api_statistics_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/suburbHistorical/{state}/{suburb}/{postcode}\n  method: get\n  operationId: SuburbHistorical_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api_suburbhistorical_read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://artifacts.apis.io/domain-group/agentic-access/domain-group-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/domain-group/agentic-access/domain-group-agentic-access.yml
 summary_line: 221 operations · 76 acting
 tags:
 - Real Estate

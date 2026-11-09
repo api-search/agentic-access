@@ -9,43 +9,109 @@ api_specs:
   label: Amazon Fraud Detector Detectors API
   slug: amazon-fraud-detector-detectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-detectors-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-detectors-api-openapi.yml
 - filename: amazon-fraud-detector-event-types-api-openapi.yml
   format: yaml
   label: Amazon Fraud Detector Event Types API
   slug: amazon-fraud-detector-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-event-types-api-openapi.yml
 - filename: amazon-fraud-detector-labels-api-openapi.yml
   format: yaml
   label: Amazon Fraud Detector Labels API
   slug: amazon-fraud-detector-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-labels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-labels-api-openapi.yml
 - filename: amazon-fraud-detector-models-api-openapi.yml
   format: yaml
   label: Amazon Fraud Detector Models API
   slug: amazon-fraud-detector-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-models-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-models-api-openapi.yml
 - filename: amazon-fraud-detector-predictions-api-openapi.yml
   format: yaml
   label: Amazon Fraud Detector Predictions API
   slug: amazon-fraud-detector-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-predictions-api-openapi.yml
 - filename: amazon-fraud-detector-rules-api-openapi.yml
   format: yaml
   label: Amazon Fraud Detector Rules API
   slug: amazon-fraud-detector-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-rules-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-rules-api-openapi.yml
 - filename: amazon-fraud-detector-tags-api-openapi.yml
   format: yaml
   label: Amazon Fraud Detector Tags API
   slug: amazon-fraud-detector-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/openapi/amazon-fraud-detector-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-tags-api-openapi.yml
+- filename: amazon-fraud-detector-batch-import-job-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector Batch Import Job API
+  slug: amazon-fraud-detector-batch-import-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-batch-import-job-api-openapi.yml
+- filename: amazon-fraud-detector-batch-prediction-job-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector Batch Prediction Job API
+  slug: amazon-fraud-detector-batch-prediction-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-batch-prediction-job-api-openapi.yml
+- filename: amazon-fraud-detector-detector-version-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector Detector Version API
+  slug: amazon-fraud-detector-detector-version-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-detector-version-api-openapi.yml
+- filename: amazon-fraud-detector-entity-type-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector Entity Type API
+  slug: amazon-fraud-detector-entity-type-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-entity-type-api-openapi.yml
+- filename: amazon-fraud-detector-event-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector Event API
+  slug: amazon-fraud-detector-event-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-event-api-openapi.yml
+- filename: amazon-fraud-detector-external-model-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector External Model API
+  slug: amazon-fraud-detector-external-model-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-external-model-api-openapi.yml
+- filename: amazon-fraud-detector-list-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector List API
+  slug: amazon-fraud-detector-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-list-api-openapi.yml
+- filename: amazon-fraud-detector-model-version-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector Model Version API
+  slug: amazon-fraud-detector-model-version-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-model-version-api-openapi.yml
+- filename: amazon-fraud-detector-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector Operations API
+  slug: amazon-fraud-detector-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-operations-api-openapi.yml
+- filename: amazon-fraud-detector-outcome-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector Outcome API
+  slug: amazon-fraud-detector-outcome-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-outcome-api-openapi.yml
+- filename: amazon-fraud-detector-variable-api-openapi.yml
+  format: yaml
+  label: Amazon Fraud Detector Fraud Detector Variable API
+  slug: amazon-fraud-detector-variable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fraud-detector/openapi/amazon-fraud-detector-variable-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -76,9 +142,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event-types\n  method: post\n  operationId: getEventTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /labels\n  method: put\n  operationId: putLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: put\n  operationId: putModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /models\n  method: post\n  operationId: getModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /predictions/event/{eventId}\n  method: post\n  operationId: getEventPrediction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rules\n  method: put\n  operationId: createRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rules\n  method: post\n  operationId: getRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /tags/{resourceARN}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceARN}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/agentic-access/amazon-fraud-detector-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-fraud-detector/agentic-access/amazon-fraud-detector-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
+- Amazon Web Services
 - Financial Services
 - Fraud Prevention
 - Machine Learning

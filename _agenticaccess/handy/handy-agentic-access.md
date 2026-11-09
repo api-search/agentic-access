@@ -9,25 +9,25 @@ api_specs:
   label: handy Bookings API
   slug: handy-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/openapi/handy-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/handy/openapi/handy-bookings-api-openapi.yml
 - filename: handy-order-products-api-openapi.yml
   format: yaml
   label: handy Order Products API
   slug: handy-order-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/openapi/handy-order-products-api-openapi.yml
+  url: https://artifacts.apis.io/handy/openapi/handy-order-products-api-openapi.yml
 - filename: handy-orders-api-openapi.yml
   format: yaml
   label: handy Orders API
   slug: handy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/openapi/handy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/handy/openapi/handy-orders-api-openapi.yml
 - filename: handy-testing-api-openapi.yml
   format: yaml
   label: handy Testing API
   slug: handy-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/openapi/handy-testing-api-openapi.yml
+  url: https://artifacts.apis.io/handy/openapi/handy-testing-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 4
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/handy-
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orders/{partner_order_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orders/{partner_order_id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/orders/{partner_order_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/orders/products/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/orders/{partner_order_id}/line_items/{line_no}/cancel\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/bookings/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orders/echo\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/orders/echo\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/agentic-access/handy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/handy/agentic-access/handy-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Company

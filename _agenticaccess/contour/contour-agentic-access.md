@@ -9,37 +9,37 @@ api_specs:
   label: Contour Gateway API
   slug: contour-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-gateway-api-openapi.yml
 - filename: contour-gatewayclass-api-openapi.yml
   format: yaml
   label: Contour GatewayClass API
   slug: contour-gatewayclass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-gatewayclass-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-gatewayclass-api-openapi.yml
 - filename: contour-httpproxy-api-openapi.yml
   format: yaml
   label: Contour HTTPProxy API
   slug: contour-httpproxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-httpproxy-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-httpproxy-api-openapi.yml
 - filename: contour-httproute-api-openapi.yml
   format: yaml
   label: Contour HTTPRoute API
   slug: contour-httproute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-httproute-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-httproute-api-openapi.yml
 - filename: contour-tlscertificatedelegation-api-openapi.yml
   format: yaml
   label: Contour TLSCertificateDelegation API
   slug: contour-tlscertificatedelegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-tlscertificatedelegation-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-tlscertificatedelegation-api-openapi.yml
 - filename: contour-tlsroute-api-openapi.yml
   format: yaml
   label: Contour TLSRoute API
   slug: contour-tlsroute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-tlsroute-api-openapi.yml
+  url: https://artifacts.apis.io/contour/openapi/contour-tlsroute-api-openapi.yml
 consequence_counts:
   read: 11
   write: 12
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contou
   \ required\n- path: /apis/projectcontour.io/v1/namespaces/{namespace}/httpproxies/{name}\n  method: get\n  operationId: readNamespacedHTTPProxy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/projectcontour.io/v1/namespaces/{namespace}/httpproxies/{name}\n  method: put\n  operationId: replaceNamespacedHTTPProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/projectcontour.io/v1/namespaces/{namespace}/httpproxies/{name}\n  method: patch\n  operationId: patchNamespacedHTTPProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/projectcontour.io/v1/namespaces/{namespace}/httpproxies/{name}\n  method: delete\n  operationId: deleteNamespacedHTTPProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/projectcontour.io/v1/httpproxies\n  method: get\n  operationId: listHTTPProxyAllNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/projectcontour.io/v1/namespaces/{namespace}/tlscertificatedelegations\n  method: get\n  operationId: listNamespacedTLSCertificateDelegation\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/projectcontour.io/v1/namespaces/{namespace}/tlscertificatedelegations\n  method: post\n  operationId: createNamespacedTLSCertificateDelegation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/agentic-access/contour-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/contour/agentic-access/contour-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Envoy

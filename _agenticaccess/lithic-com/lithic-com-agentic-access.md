@@ -9,187 +9,187 @@ api_specs:
   label: Lithic Account API
   slug: lithic-com-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-account-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-account-api-openapi.yml
 - filename: lithic-com-account-holder-api-openapi.yml
   format: yaml
   label: Lithic Account Holder API
   slug: lithic-com-account-holder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-account-holder-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-account-holder-api-openapi.yml
 - filename: lithic-com-auth-rules-api-openapi.yml
   format: yaml
   label: Lithic Auth Rules API
   slug: lithic-com-auth-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-auth-rules-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-auth-rules-api-openapi.yml
 - filename: lithic-com-auth-stream-access-asa-api-openapi.yml
   format: yaml
   label: Lithic Auth Stream Access (ASA) API
   slug: lithic-com-auth-stream-access-asa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-auth-stream-access-asa-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-auth-stream-access-asa-api-openapi.yml
 - filename: lithic-com-balance-api-openapi.yml
   format: yaml
   label: Lithic Balance API
   slug: lithic-com-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-balance-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-balance-api-openapi.yml
 - filename: lithic-com-book-transfer-api-openapi.yml
   format: yaml
   label: Lithic Book Transfer API
   slug: lithic-com-book-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-book-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-book-transfer-api-openapi.yml
 - filename: lithic-com-card-api-openapi.yml
   format: yaml
   label: Lithic Card API
   slug: lithic-com-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-card-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-card-api-openapi.yml
 - filename: lithic-com-card-authorizations-api-openapi.yml
   format: yaml
   label: Lithic Card Authorizations API
   slug: lithic-com-card-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-card-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-card-authorizations-api-openapi.yml
 - filename: lithic-com-card-bulk-orders-api-openapi.yml
   format: yaml
   label: Lithic Card Bulk Orders API
   slug: lithic-com-card-bulk-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-card-bulk-orders-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-card-bulk-orders-api-openapi.yml
 - filename: lithic-com-chargeback-api-openapi.yml
   format: yaml
   label: Lithic Chargeback API
   slug: lithic-com-chargeback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-chargeback-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-chargeback-api-openapi.yml
 - filename: lithic-com-credit-product-api-openapi.yml
   format: yaml
   label: Lithic Credit Product API
   slug: lithic-com-credit-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-credit-product-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-credit-product-api-openapi.yml
 - filename: lithic-com-event-api-openapi.yml
   format: yaml
   label: Lithic Event API
   slug: lithic-com-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-event-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-event-api-openapi.yml
 - filename: lithic-com-external-bank-account-api-openapi.yml
   format: yaml
   label: Lithic External Bank Account API
   slug: lithic-com-external-bank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-external-bank-account-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-external-bank-account-api-openapi.yml
 - filename: lithic-com-external-payments-api-openapi.yml
   format: yaml
   label: Lithic External Payments API
   slug: lithic-com-external-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-external-payments-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-external-payments-api-openapi.yml
 - filename: lithic-com-financial-account-api-openapi.yml
   format: yaml
   label: Lithic Financial Account API
   slug: lithic-com-financial-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-financial-account-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-financial-account-api-openapi.yml
 - filename: lithic-com-fraud-report-api-openapi.yml
   format: yaml
   label: Lithic Fraud Report API
   slug: lithic-com-fraud-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-fraud-report-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-fraud-report-api-openapi.yml
 - filename: lithic-com-funding-events-api-openapi.yml
   format: yaml
   label: Lithic Funding Events API
   slug: lithic-com-funding-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-funding-events-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-funding-events-api-openapi.yml
 - filename: lithic-com-hold-api-openapi.yml
   format: yaml
   label: Lithic Hold API
   slug: lithic-com-hold-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-hold-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-hold-api-openapi.yml
 - filename: lithic-com-managed-disputes-api-openapi.yml
   format: yaml
   label: Lithic Managed Disputes API
   slug: lithic-com-managed-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-managed-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-managed-disputes-api-openapi.yml
 - filename: lithic-com-management-operations-api-openapi.yml
   format: yaml
   label: Lithic Management Operations API
   slug: lithic-com-management-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-management-operations-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-management-operations-api-openapi.yml
 - filename: lithic-com-network-program-api-openapi.yml
   format: yaml
   label: Lithic Network Program API
   slug: lithic-com-network-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-network-program-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-network-program-api-openapi.yml
 - filename: lithic-com-payment-api-openapi.yml
   format: yaml
   label: Lithic Payment API
   slug: lithic-com-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-payment-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-payment-api-openapi.yml
 - filename: lithic-com-responder-endpoints-api-openapi.yml
   format: yaml
   label: Lithic Responder Endpoints API
   slug: lithic-com-responder-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-responder-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-responder-endpoints-api-openapi.yml
 - filename: lithic-com-settlement-report-api-openapi.yml
   format: yaml
   label: Lithic Settlement Report API
   slug: lithic-com-settlement-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-settlement-report-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-settlement-report-api-openapi.yml
 - filename: lithic-com-statements-api-openapi.yml
   format: yaml
   label: Lithic Statements API
   slug: lithic-com-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-statements-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-statements-api-openapi.yml
 - filename: lithic-com-status-api-openapi.yml
   format: yaml
   label: Lithic Status API
   slug: lithic-com-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-status-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-status-api-openapi.yml
 - filename: lithic-com-tokenization-api-openapi.yml
   format: yaml
   label: Lithic Tokenization API
   slug: lithic-com-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-tokenization-api-openapi.yml
 - filename: lithic-com-transaction-api-openapi.yml
   format: yaml
   label: Lithic Transaction API
   slug: lithic-com-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-transaction-api-openapi.yml
 - filename: lithic-com-transaction-monitoring-api-openapi.yml
   format: yaml
   label: Lithic Transaction Monitoring API
   slug: lithic-com-transaction-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-transaction-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-transaction-monitoring-api-openapi.yml
 - filename: lithic-com-transfer-limits-api-openapi.yml
   format: yaml
   label: Lithic Transfer Limits API
   slug: lithic-com-transfer-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-transfer-limits-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-transfer-limits-api-openapi.yml
 - filename: lithic-com-3-ds-api-openapi.yml
   format: yaml
   label: Lithic 3 DS API
   slug: lithic-com-3-ds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/openapi/lithic-com-3-ds-api-openapi.yml
+  url: https://artifacts.apis.io/lithic-com/openapi/lithic-com-3-ds-api-openapi.yml
 consequence_counts:
   physical: 31
   read: 107
@@ -378,8 +378,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lithic
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/event_subscriptions/{event_subscription_token}/replay_missing\n  method: post\n  operationId: replayMissingEventSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/event_subscriptions/{event_subscription_token}/secret\n  method: get\n  operationId: getEventSubscriptionSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/event_subscriptions/{event_subscription_token}/secret/rotate\n  method: post\n  operationId: rotateEventSubscriptionSecret\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/events\n  method: get\n  operationId: getEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events/{event_token}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events/{event_token}/attempts\n  method: get\n  operationId: getMessageAttemptsForEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events/{event_token}/event_subscriptions/{event_subscription_token}/resend\n\
   \  method: post\n  operationId: resendEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/simulate/event_subscriptions/{event_subscription_token}/send_example\n  method: post\n  operationId: sendEventSubscriptionExample\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/external_bank_accounts\n  method: get\n  operationId: searchExternalBankAccounts\n  x-agentic-access:\n    action-class: connected\n   \
-  \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/external_bank_accounts\n  method: post\n  operationId: createExternalBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/external_bank_accounts/{external_bank_account_token}\n  method: get\n  operationId: getExternalBankAccountByToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/agentic-access/lithic-com-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/agentic-access/lithic-com-agentic-access.yml
+  \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/external_bank_accounts\n  method: post\n  operationId: createExternalBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/external_bank_accounts/{external_bank_account_token}\n  method: get\n  operationId: getExternalBankAccountByToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://artifacts.apis.io/lithic-com/agentic-access/lithic-com-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/lithic-com/agentic-access/lithic-com-agentic-access.yml
 summary_line: 215 operations · 108 acting · 1 human-in-the-loop
 tags:
 - Fintech

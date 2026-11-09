@@ -9,19 +9,67 @@ api_specs:
   label: Amazon Route 53 Health Checks API
   slug: amazon-route-53-health-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/openapi/amazon-route-53-health-checks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-health-checks-api-openapi.yml
 - filename: amazon-route-53-hosted-zones-api-openapi.yml
   format: yaml
   label: Amazon Route 53 Hosted Zones API
   slug: amazon-route-53-hosted-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/openapi/amazon-route-53-hosted-zones-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-hosted-zones-api-openapi.yml
 - filename: amazon-route-53-resource-record-sets-api-openapi.yml
   format: yaml
   label: Amazon Route 53 Resource Record Sets API
   slug: amazon-route-53-resource-record-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/openapi/amazon-route-53-resource-record-sets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-resource-record-sets-api-openapi.yml
+- filename: amazon-route-53-cidrcollection-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Cidrcollection API
+  slug: amazon-route-53-cidrcollection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-cidrcollection-api-openapi.yml
+- filename: amazon-route-53-delegationset-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Delegationset API
+  slug: amazon-route-53-delegationset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-delegationset-api-openapi.yml
+- filename: amazon-route-53-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Operations API
+  slug: amazon-route-53-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-operations-api-openapi.yml
+- filename: amazon-route-53-queryloggingconfig-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Queryloggingconfig API
+  slug: amazon-route-53-queryloggingconfig-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-queryloggingconfig-api-openapi.yml
+- filename: amazon-route-53-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Tags API
+  slug: amazon-route-53-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-tags-api-openapi.yml
+- filename: amazon-route-53-trafficpolicy-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Trafficpolicy API
+  slug: amazon-route-53-trafficpolicy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-trafficpolicy-api-openapi.yml
+- filename: amazon-route-53-trafficpolicyinstance-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Trafficpolicyinstance API
+  slug: amazon-route-53-trafficpolicyinstance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-trafficpolicyinstance-api-openapi.yml
+- filename: amazon-route-53-trafficpolicyinstances-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Route 53 Trafficpolicyinstances API
+  slug: amazon-route-53-trafficpolicyinstances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route-53/openapi/amazon-route-53-trafficpolicyinstances-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4
@@ -51,9 +99,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2013-04-01/hostedzone/{Id}\n  method: get\n  operationId: GetHostedZone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2013-04-01/hostedzone/{Id}\n  method: delete\n  operationId: DeleteHostedZone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2013-04-01/hostedzone/{Id}/rrset\n  method: post\n  operationId: ChangeResourceRecordSets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2013-04-01/hostedzone/{Id}/rrset\n  method: get\n  operationId: ListResourceRecordSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2013-04-01/healthcheck\n  method: post\n  operationId: CreateHealthCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2013-04-01/healthcheck\n  method: get\n  operationId: ListHealthChecks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2013-04-01/healthcheck/{HealthCheckId}\n  method: get\n  operationId: GetHealthCheck\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/agentic-access/amazon-route-53-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-route-53/agentic-access/amazon-route-53-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
+- Amazon Web Services
 - DNS
 - Domain Registration
 - Health Checks

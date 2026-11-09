@@ -9,61 +9,61 @@ api_specs:
   label: Kronos Quant Signal API Agent API
   slug: kronos-seshat-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-agent-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-agent-api-openapi.yml
 - filename: kronos-seshat-agent-intelligence-api-openapi.yml
   format: yaml
   label: Kronos Quant Signal API Agent Intelligence API
   slug: kronos-seshat-agent-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-agent-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-agent-intelligence-api-openapi.yml
 - filename: kronos-seshat-analysis-api-openapi.yml
   format: yaml
   label: Kronos Quant Signal API Analysis API
   slug: kronos-seshat-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-analysis-api-openapi.yml
 - filename: kronos-seshat-discovery-api-openapi.yml
   format: yaml
   label: Kronos Quant Signal API Discovery API
   slug: kronos-seshat-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-discovery-api-openapi.yml
 - filename: kronos-seshat-experimental-api-openapi.yml
   format: yaml
   label: Kronos Quant Signal API Experimental API
   slug: kronos-seshat-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-experimental-api-openapi.yml
 - filename: kronos-seshat-forecast-api-openapi.yml
   format: yaml
   label: Kronos Quant Signal API Forecast API
   slug: kronos-seshat-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-forecast-api-openapi.yml
 - filename: kronos-seshat-market-intelligence-api-openapi.yml
   format: yaml
   label: Kronos Quant Signal API Market Intelligence API
   slug: kronos-seshat-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-market-intelligence-api-openapi.yml
 - filename: kronos-seshat-semantic-similarity-api-openapi.yml
   format: yaml
   label: Kronos Quant Signal API Semantic Similarity API
   slug: kronos-seshat-semantic-similarity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-semantic-similarity-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-semantic-similarity-api-openapi.yml
 - filename: kronos-seshat-signal-api-openapi.yml
   format: yaml
   label: Kronos Quant Signal API Signal API
   slug: kronos-seshat-signal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-signal-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-signal-api-openapi.yml
 - filename: kronos-seshat-verification-api-openapi.yml
   format: yaml
   label: Kronos Quant Signal API Verification API
   slug: kronos-seshat-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/openapi/kronos-seshat-verification-api-openapi.yml
+  url: https://artifacts.apis.io/kronos-seshat/openapi/kronos-seshat-verification-api-openapi.yml
 consequence_counts:
   read: 31
   write: 1
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/kronos
   \      max-ttl: 3600\n    audit: none\n- path: /feeds/kronos/benchmark\n  method: get\n  operationId: kronos_benchmark\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/kronos/digest/{symbolKey}\n  method: get\n  operationId: kronos_digest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/kronos/market-brief/{symbolKey}\n  method: get\n  operationId: kronos_market_brief\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/similar-markets\n  method: get\n  operationId: similar_markets_text\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/similar-markets/outcome-stats\n\
   \  method: get\n  operationId: similar_markets_outcome_stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/agent-intelligence/behavioral-correlations\n  method: get\n  operationId: behavioral_correlations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/agent-intelligence/rationale-novelty\n  method: get\n  operationId: rationale_novelty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/kronos/market-context/{symbolKey}\n  method: get\n  operationId: kronos_market_context\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/kronos/playground/{symbolKey}\n\
   \  method: post\n  operationId: runKronosPlayground\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/agentic-access/kronos-seshat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kronos-seshat/agentic-access/kronos-seshat-agentic-access.yml
 summary_line: 32 operations · 1 acting
 tags:
 - Cryptocurrency

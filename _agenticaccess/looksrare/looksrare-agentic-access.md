@@ -9,31 +9,31 @@ api_specs:
   label: LooksRare Collections API
   slug: looksrare-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-collections-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-collections-api-openapi.yml
 - filename: looksrare-events-api-openapi.yml
   format: yaml
   label: LooksRare Events API
   slug: looksrare-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-events-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-events-api-openapi.yml
 - filename: looksrare-orders-api-openapi.yml
   format: yaml
   label: LooksRare Orders API
   slug: looksrare-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-orders-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-orders-api-openapi.yml
 - filename: looksrare-seaport-api-openapi.yml
   format: yaml
   label: LooksRare Seaport API
   slug: looksrare-seaport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-seaport-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-seaport-api-openapi.yml
 - filename: looksrare-tokens-api-openapi.yml
   format: yaml
   label: LooksRare Tokens API
   slug: looksrare-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/openapi/looksrare-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/looksrare/openapi/looksrare-tokens-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/looksr
   \ createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/orders/seaport\n  method: get\n  operationId: getSeaportOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/orders/seaport\n  method: post\n  operationId: createSeaportOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/events\n\
   \  method: get\n  operationId: getEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events\n  method: get\n  operationId: getV1Events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/events/seaport\n  method: get\n  operationId: getSeaportEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tokens\n  method: get\n  operationId: getToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/collections/seaport\n  method: get\n  operationId: checkCollectionSeaportEligibility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/agentic-access/looksrare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/looksrare/agentic-access/looksrare-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - NFT

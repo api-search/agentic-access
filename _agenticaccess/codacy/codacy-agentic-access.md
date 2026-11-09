@@ -9,181 +9,181 @@ api_specs:
   label: Codacy Account API
   slug: codacy-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-account-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-account-api-openapi.yml
 - filename: codacy-coverage-api-openapi.yml
   format: yaml
   label: Codacy Coverage API
   slug: codacy-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-coverage-api-openapi.yml
 - filename: codacy-security-api-openapi.yml
   format: yaml
   label: Codacy Security API
   slug: codacy-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-security-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-security-api-openapi.yml
 - filename: codacy-admin-api-openapi.yml
   format: yaml
   label: Codacy Admin API
   slug: codacy-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-admin-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-admin-api-openapi.yml
 - filename: codacy-aiinventory-api-openapi.yml
   format: yaml
   label: Codacy Aiinventory API
   slug: codacy-aiinventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-aiinventory-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-aiinventory-api-openapi.yml
 - filename: codacy-analysis-api-openapi.yml
   format: yaml
   label: Codacy Analysis API
   slug: codacy-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-analysis-api-openapi.yml
 - filename: codacy-app-api-openapi.yml
   format: yaml
   label: Codacy App API
   slug: codacy-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-app-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-app-api-openapi.yml
 - filename: codacy-billing-api-openapi.yml
   format: yaml
   label: Codacy Billing API
   slug: codacy-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-billing-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-billing-api-openapi.yml
 - filename: codacy-coding-standards-api-openapi.yml
   format: yaml
   label: Codacy coding standards API
   slug: codacy-coding-standards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-coding-standards-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-coding-standards-api-openapi.yml
 - filename: codacy-configuration-api-openapi.yml
   format: yaml
   label: Codacy Configuration API
   slug: codacy-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-configuration-api-openapi.yml
 - filename: codacy-dast-api-openapi.yml
   format: yaml
   label: Codacy Dast API
   slug: codacy-dast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-dast-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-dast-api-openapi.yml
 - filename: codacy-enterprise-api-openapi.yml
   format: yaml
   label: Codacy Enterprise API
   slug: codacy-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-enterprise-api-openapi.yml
 - filename: codacy-file-api-openapi.yml
   format: yaml
   label: Codacy File API
   slug: codacy-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-file-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-file-api-openapi.yml
 - filename: codacy-gate-policies-api-openapi.yml
   format: yaml
   label: Codacy gate policies API
   slug: codacy-gate-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-gate-policies-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-gate-policies-api-openapi.yml
 - filename: codacy-health-api-openapi.yml
   format: yaml
   label: Codacy Health API
   slug: codacy-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-health-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-health-api-openapi.yml
 - filename: codacy-integrations-api-openapi.yml
   format: yaml
   label: Codacy Integrations API
   slug: codacy-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-integrations-api-openapi.yml
 - filename: codacy-jira-api-openapi.yml
   format: yaml
   label: Codacy Jira API
   slug: codacy-jira-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-jira-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-jira-api-openapi.yml
 - filename: codacy-language-settings-api-openapi.yml
   format: yaml
   label: Codacy Language Settings API
   slug: codacy-language-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-language-settings-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-language-settings-api-openapi.yml
 - filename: codacy-languages-api-openapi.yml
   format: yaml
   label: Codacy Languages API
   slug: codacy-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-languages-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-languages-api-openapi.yml
 - filename: codacy-metrics-api-openapi.yml
   format: yaml
   label: Codacy Metrics API
   slug: codacy-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-metrics-api-openapi.yml
 - filename: codacy-organization-api-openapi.yml
   format: yaml
   label: Codacy Organization API
   slug: codacy-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-organization-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-organization-api-openapi.yml
 - filename: codacy-people-api-openapi.yml
   format: yaml
   label: Codacy People API
   slug: codacy-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-people-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-people-api-openapi.yml
 - filename: codacy-reports-api-openapi.yml
   format: yaml
   label: Codacy Reports API
   slug: codacy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-reports-api-openapi.yml
 - filename: codacy-repository-api-openapi.yml
   format: yaml
   label: Codacy Repository API
   slug: codacy-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-repository-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-repository-api-openapi.yml
 - filename: codacy-sbom-api-openapi.yml
   format: yaml
   label: Codacy Sbom API
   slug: codacy-sbom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-sbom-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-sbom-api-openapi.yml
 - filename: codacy-segments-api-openapi.yml
   format: yaml
   label: Codacy Segments API
   slug: codacy-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-segments-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-segments-api-openapi.yml
 - filename: codacy-session-api-openapi.yml
   format: yaml
   label: Codacy Session API
   slug: codacy-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-session-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-session-api-openapi.yml
 - filename: codacy-tools-api-openapi.yml
   format: yaml
   label: Codacy Tools API
   slug: codacy-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-tools-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-tools-api-openapi.yml
 - filename: codacy-version-api-openapi.yml
   format: yaml
   label: Codacy Version API
   slug: codacy-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-version-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-version-api-openapi.yml
 - filename: codacy-webhooks-api-openapi.yml
   format: yaml
   label: Codacy Webhooks API
   slug: codacy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/openapi/codacy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/codacy/openapi/codacy-webhooks-api-openapi.yml
 consequence_counts:
   read: 14
   write: 4
@@ -216,7 +216,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/codacy
   \  method: post\n  operationId: triggerPullRequestAiReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{provider}/{remoteOrganizationName}/repositories/{repositoryName}/settings/quality/pull-requests\n  method: get\n  operationId: getPullRequestQualitySettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{provider}/{remoteOrganizationName}/repositories/{repositoryName}/settings/quality/pull-requests\n  method: put\n  operationId: updatePullRequestQualitySettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analysis/organizations/{provider}/{remoteOrganizationName}/repositories\n  method: get\n  operationId: listOrganizationRepositoriesWithAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analysis/organizations/{provider}/{remoteOrganizationName}/repositories/{repositoryName}\n  method: get\n  operationId: getRepositoryWithAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{provider}/{remoteOrganizationName}/repositories/{repositoryName}/follow\n  method: post\n  operationId: followAddedRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{provider}/{remoteOrganizationName}/repositories/{repositoryName}/follow\n  method: delete\n  operationId: unfollowRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{provider}/{remoteOrganizationName}/repositories/{repositoryName}/settings/stored-ssh-key\n  method: get\n  operationId: getRepositoryPublicSshKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/agentic-access/codacy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/codacy/agentic-access/codacy-agentic-access.yml
 summary_line: 18 operations · 4 acting
 tags:
 - Code Quality

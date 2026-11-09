@@ -9,67 +9,67 @@ api_specs:
   label: Kushki Subscriptions API
   slug: kushki-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-subscriptions-api-openapi.yml
 - filename: kushki-payouts-api-openapi.yml
   format: yaml
   label: Kushki Payouts API
   slug: kushki-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-payouts-api-openapi.yml
 - filename: kushki-branches-api-openapi.yml
   format: yaml
   label: Kushki Branches API
   slug: kushki-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-branches-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-branches-api-openapi.yml
 - filename: kushki-card-present-charges-api-openapi.yml
   format: yaml
   label: Kushki Card Present Charges API
   slug: kushki-card-present-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-card-present-charges-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-card-present-charges-api-openapi.yml
 - filename: kushki-cash-api-openapi.yml
   format: yaml
   label: Kushki Cash API
   slug: kushki-cash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-cash-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-cash-api-openapi.yml
 - filename: kushki-charges-api-openapi.yml
   format: yaml
   label: Kushki Charges API
   slug: kushki-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-charges-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-charges-api-openapi.yml
 - filename: kushki-pre-authorization-api-openapi.yml
   format: yaml
   label: Kushki Pre-Authorization API
   slug: kushki-pre-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-pre-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-pre-authorization-api-openapi.yml
 - filename: kushki-terminals-api-openapi.yml
   format: yaml
   label: Kushki Terminals API
   slug: kushki-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-terminals-api-openapi.yml
 - filename: kushki-tokens-api-openapi.yml
   format: yaml
   label: Kushki Tokens API
   slug: kushki-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-tokens-api-openapi.yml
 - filename: kushki-transfer-api-openapi.yml
   format: yaml
   label: Kushki Transfer API
   slug: kushki-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-transfer-api-openapi.yml
 - filename: kushki-voids-and-refunds-api-openapi.yml
   format: yaml
   label: Kushki Voids and Refunds API
   slug: kushki-voids-and-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/openapi/kushki-voids-and-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/kushki/openapi/kushki-voids-and-refunds-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 8
@@ -172,7 +172,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kushki
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/card/{subscriptionId}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/v1/card/{subscriptionId}\n  method: put\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/card/{subscriptionId}\n  method: delete\n  operationId: cancelSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/card/{subscriptionId}/charge\n  method: post\n  operationId: chargeSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfer/v1/init\n  method: post\n  operationId: initTransferCharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfer/v1/charge\n\
   \  method: post\n  operationId: confirmTransferCharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfer/v1/charges/{ticketNumber}\n  method: get\n  operationId: getTransferCharge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/agentic-access/kushki-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kushki/agentic-access/kushki-agentic-access.yml
 summary_line: 28 operations · 20 acting
 tags:
 - Payments

@@ -8,25 +8,25 @@ api_specs:
   label: Microsoft .NET PackageContent API
   slug: microsoft-net-packagecontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-packagecontent-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-net/openapi/microsoft-net-packagecontent-api-openapi.yml
 - filename: microsoft-net-registration-api-openapi.yml
   format: yaml
   label: Microsoft .NET Registration API
   slug: microsoft-net-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-registration-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-net/openapi/microsoft-net-registration-api-openapi.yml
 - filename: microsoft-net-search-api-openapi.yml
   format: yaml
   label: Microsoft .NET Search API
   slug: microsoft-net-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-net/openapi/microsoft-net-search-api-openapi.yml
 - filename: microsoft-net-service-index-api-openapi.yml
   format: yaml
   label: Microsoft .NET Service Index API
   slug: microsoft-net-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/openapi/microsoft-net-service-index-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-net/openapi/microsoft-net-service-index-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/microsoft-net-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /index.json\n  method: get\n  operationId: getServiceIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query\n  method: get\n  operationId: searchPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registration5-semver1/{id}/index.json\n  method: get\n  operationId:\
   \ getRegistrationIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registration5-semver1/{id}/{version}.json\n  method: get\n  operationId: getRegistrationLeaf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flatcontainer/{id}/index.json\n  method: get\n  operationId: listPackageVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flatcontainer/{id}/{version}/{id_lower}.{version_lower}.nupkg\n  method: get\n  operationId: downloadPackage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flatcontainer/{id}/{version}/{id_lower}.nuspec\n  method: get\n  operationId:\
   \ downloadNuspec\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/agentic-access/microsoft-net-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-net/agentic-access/microsoft-net-agentic-access.yml
 summary_line: 7 operations
 tags:
 - .NET

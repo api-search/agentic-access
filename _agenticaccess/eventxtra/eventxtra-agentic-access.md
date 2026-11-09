@@ -9,91 +9,91 @@ api_specs:
   label: EventX Attendee API
   slug: eventxtra-attendee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-attendee-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-attendee-api-openapi.yml
 - filename: eventxtra-auth-api-openapi.yml
   format: yaml
   label: EventX Auth API
   slug: eventxtra-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-auth-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-auth-api-openapi.yml
 - filename: eventxtra-custom-field-api-openapi.yml
   format: yaml
   label: EventX Custom Field API
   slug: eventxtra-custom-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-custom-field-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-custom-field-api-openapi.yml
 - filename: eventxtra-event-api-openapi.yml
   format: yaml
   label: EventX Event API
   slug: eventxtra-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-event-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-event-api-openapi.yml
 - filename: eventxtra-event-webhook-api-openapi.yml
   format: yaml
   label: EventX Event Webhook API
   slug: eventxtra-event-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-event-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-event-webhook-api-openapi.yml
 - filename: eventxtra-invoice-api-openapi.yml
   format: yaml
   label: EventX Invoice API
   slug: eventxtra-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-invoice-api-openapi.yml
 - filename: eventxtra-media-api-openapi.yml
   format: yaml
   label: EventX Media API
   slug: eventxtra-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-media-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-media-api-openapi.yml
 - filename: eventxtra-order-api-openapi.yml
   format: yaml
   label: EventX Order API
   slug: eventxtra-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-order-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-order-api-openapi.yml
 - filename: eventxtra-outreach-api-openapi.yml
   format: yaml
   label: EventX Outreach API
   slug: eventxtra-outreach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-outreach-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-outreach-api-openapi.yml
 - filename: eventxtra-public-api-api-openapi.yml
   format: yaml
   label: EventX Public API
   slug: eventxtra-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-public-api-api-openapi.yml
 - filename: eventxtra-registration-form-api-openapi.yml
   format: yaml
   label: EventX Registration Form API
   slug: eventxtra-registration-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-registration-form-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-registration-form-api-openapi.yml
 - filename: eventxtra-registration-order-api-openapi.yml
   format: yaml
   label: EventX Registration Order API
   slug: eventxtra-registration-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-registration-order-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-registration-order-api-openapi.yml
 - filename: eventxtra-registration-service-api-openapi.yml
   format: yaml
   label: EventX Registration Service API
   slug: eventxtra-registration-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-registration-service-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-registration-service-api-openapi.yml
 - filename: eventxtra-salesforce-api-openapi.yml
   format: yaml
   label: EventX Salesforce API
   slug: eventxtra-salesforce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-salesforce-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-salesforce-api-openapi.yml
 - filename: eventxtra-ticket-class-api-openapi.yml
   format: yaml
   label: EventX Ticket Class API
   slug: eventxtra-ticket-class-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/openapi/eventxtra-ticket-class-api-openapi.yml
+  url: https://artifacts.apis.io/eventxtra/openapi/eventxtra-ticket-class-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 25
@@ -171,7 +171,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/eventx
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public-api/v1/reg/event/{eventId}\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public-api/v1/reg/event/{eventId}/{orderId}/status\n  method: get\n  operationId: getOrderStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-api/v1/reg/event/{eventId}/quotation\n  method: post\n  operationId: getOrderQuotation\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-api/v1/reg/event/{eventId}\n  method: get\n  operationId: getPaymentConfigByEventId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-api/v1/reg/event/{eventId}/{eventRegFormId}\n  method: get\n  operationId: getRegFormByEventIdAndId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-api/v1/salesforce-account\n  method: get\n  operationId: getSalesforceAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-api/v1/event/{eventId}/ticket-class/all\n  method: get\n  operationId: getAllTicketClassByEventId\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-api/v1/event/{eventId}/ticket-class\n  method: post\n  operationId: createTicketClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public-api/v1/event/{eventId}/ticket-class-add-on/all\n  method: get\n  operationId: getAllTicketClassAddOnByEventId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/agentic-access/eventxtra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eventxtra/agentic-access/eventxtra-agentic-access.yml
 summary_line: 58 operations · 33 acting
 tags:
 - Company

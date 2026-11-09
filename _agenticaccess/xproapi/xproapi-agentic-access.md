@@ -8,31 +8,31 @@ api_specs:
   label: Xproapi Default API
   slug: xproapi-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-default-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-default-api-openapi.yml
 - filename: xproapi-follow-followings-api-openapi.yml
   format: yaml
   label: Xproapi Follow, Followings API
   slug: xproapi-follow-followings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-follow-followings-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-follow-followings-api-openapi.yml
 - filename: xproapi-tweet-activity-api-openapi.yml
   format: yaml
   label: Xproapi Tweet Activity API
   slug: xproapi-tweet-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-tweet-activity-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-tweet-activity-api-openapi.yml
 - filename: xproapi-tweets-api-openapi.yml
   format: yaml
   label: Xproapi Tweets API
   slug: xproapi-tweets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-tweets-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-tweets-api-openapi.yml
 - filename: xproapi-users-api-openapi.yml
   format: yaml
   label: Xproapi Users API
   slug: xproapi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/openapi/xproapi-users-api-openapi.yml
+  url: https://artifacts.apis.io/xproapi/openapi/xproapi-users-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/xproap
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /twitter/tweet/advanced_search\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /twitter/tweet/replies/v2\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /twitter/tweet/quotes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /twitter/tweet/retweeters\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /twitter/tweet/thread_context\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /twitter/tweet/replies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /twitter/user/followers/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /twitter/user/followings\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /twitter/user/followers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /twitter/user/mentions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /twitter/article\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xproapi/refs/heads/main/agentic-access/xproapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xproapi/agentic-access/xproapi-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Company

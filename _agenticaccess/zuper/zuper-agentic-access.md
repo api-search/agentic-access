@@ -9,85 +9,85 @@ api_specs:
   label: Zuper Assets API
   slug: zuper-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-assets-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-assets-api-openapi.yml
 - filename: zuper-authentication-api-openapi.yml
   format: yaml
   label: Zuper Authentication API
   slug: zuper-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-authentication-api-openapi.yml
 - filename: zuper-customers-api-openapi.yml
   format: yaml
   label: Zuper Customers API
   slug: zuper-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-customers-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-customers-api-openapi.yml
 - filename: zuper-invoices-api-openapi.yml
   format: yaml
   label: Zuper Invoices API
   slug: zuper-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-invoices-api-openapi.yml
 - filename: zuper-jobs-api-openapi.yml
   format: yaml
   label: Zuper Jobs API
   slug: zuper-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-jobs-api-openapi.yml
 - filename: zuper-organizations-api-openapi.yml
   format: yaml
   label: Zuper Organizations API
   slug: zuper-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-organizations-api-openapi.yml
 - filename: zuper-projects-api-openapi.yml
   format: yaml
   label: Zuper Projects API
   slug: zuper-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-projects-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-projects-api-openapi.yml
 - filename: zuper-properties-api-openapi.yml
   format: yaml
   label: Zuper Properties API
   slug: zuper-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-properties-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-properties-api-openapi.yml
 - filename: zuper-purchase-orders-api-openapi.yml
   format: yaml
   label: Zuper Purchase Orders API
   slug: zuper-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-purchase-orders-api-openapi.yml
 - filename: zuper-teams-api-openapi.yml
   format: yaml
   label: Zuper Teams API
   slug: zuper-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-teams-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-teams-api-openapi.yml
 - filename: zuper-timesheets-api-openapi.yml
   format: yaml
   label: Zuper Timesheets API
   slug: zuper-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-timesheets-api-openapi.yml
 - filename: zuper-users-api-openapi.yml
   format: yaml
   label: Zuper Users API
   slug: zuper-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-users-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-users-api-openapi.yml
 - filename: zuper-vendors-api-openapi.yml
   format: yaml
   label: Zuper Vendors API
   slug: zuper-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-vendors-api-openapi.yml
 - filename: zuper-webhooks-api-openapi.yml
   format: yaml
   label: Zuper Webhooks API
   slug: zuper-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/openapi/zuper-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zuper/openapi/zuper-webhooks-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 27
@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zuper-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /vendors/{vendor_uid}\n  method: delete\n  operationId: deleteVendor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_uid}\n \
   \ method: get\n  operationId: getWebhookDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_uid}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_uid}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_uid}/activate\n  method: put\n  operationId: activateWebhook\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/agentic-access/zuper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zuper/agentic-access/zuper-agentic-access.yml
 summary_line: 69 operations · 42 acting
 tags:
 - Field Service Management

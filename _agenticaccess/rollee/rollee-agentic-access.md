@@ -9,73 +9,73 @@ api_specs:
   label: Rollee Accounts API
   slug: rollee-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-accounts-api-openapi.yml
 - filename: rollee-authentication-api-openapi.yml
   format: yaml
   label: Rollee Authentication API
   slug: rollee-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-authentication-api-openapi.yml
 - filename: rollee-companies-api-openapi.yml
   format: yaml
   label: Rollee Companies API
   slug: rollee-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-companies-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-companies-api-openapi.yml
 - filename: rollee-company-accounts-api-openapi.yml
   format: yaml
   label: Rollee Company accounts API
   slug: rollee-company-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-company-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-company-accounts-api-openapi.yml
 - filename: rollee-data-settings-api-openapi.yml
   format: yaml
   label: Rollee Data settings API
   slug: rollee-data-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-data-settings-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-data-settings-api-openapi.yml
 - filename: rollee-data-sources-api-openapi.yml
   format: yaml
   label: Rollee Data sources API
   slug: rollee-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-data-sources-api-openapi.yml
 - filename: rollee-employer-endpoints-api-openapi.yml
   format: yaml
   label: Rollee Employer endpoints API
   slug: rollee-employer-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-employer-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-employer-endpoints-api-openapi.yml
 - filename: rollee-endpoints-api-openapi.yml
   format: yaml
   label: Rollee Endpoints API
   slug: rollee-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-endpoints-api-openapi.yml
 - filename: rollee-fleet-endpoints-api-openapi.yml
   format: yaml
   label: Rollee Fleet endpoints API
   slug: rollee-fleet-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-fleet-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-fleet-endpoints-api-openapi.yml
 - filename: rollee-sessions-api-openapi.yml
   format: yaml
   label: Rollee Sessions API
   slug: rollee-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-sessions-api-openapi.yml
 - filename: rollee-users-api-openapi.yml
   format: yaml
   label: Rollee Users API
   slug: rollee-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-users-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-users-api-openapi.yml
 - filename: rollee-webhooks-api-openapi.yml
   format: yaml
   label: Rollee Webhooks API
   slug: rollee-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/rollee/openapi/rollee-webhooks-api-openapi.yml
 consequence_counts:
   read: 45
   write: 23
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/rollee
   \    audit: none\n- path: /users/{id}/sessions/new\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/accounts\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/endpoints\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/multi_endpoints\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/rollee_connect_events\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/users\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{type}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks_v2\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/agentic-access/rollee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rollee/agentic-access/rollee-agentic-access.yml
 summary_line: 68 operations · 23 acting
 tags:
 - Company

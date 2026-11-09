@@ -8,43 +8,43 @@ api_specs:
   label: Synthient API Account API
   slug: synthient-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-account-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-account-api-openapi.yml
 - filename: synthient-anonymizers-api-openapi.yml
   format: yaml
   label: Synthient API Anonymizers API
   slug: synthient-anonymizers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-anonymizers-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-anonymizers-api-openapi.yml
 - filename: synthient-helios-api-openapi.yml
   format: yaml
   label: Synthient API Helios API
   slug: synthient-helios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-helios-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-helios-api-openapi.yml
 - filename: synthient-ja4t-api-openapi.yml
   format: yaml
   label: Synthient API JA4T API
   slug: synthient-ja4t-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-ja4t-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-ja4t-api-openapi.yml
 - filename: synthient-lookup-api-openapi.yml
   format: yaml
   label: Synthient API Lookup API
   slug: synthient-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-lookup-api-openapi.yml
 - filename: synthient-proxies-api-openapi.yml
   format: yaml
   label: Synthient API Proxies API
   slug: synthient-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-proxies-api-openapi.yml
 - filename: synthient-torrents-api-openapi.yml
   format: yaml
   label: Synthient API Torrents API
   slug: synthient-torrents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/openapi/synthient-torrents-api-openapi.yml
+  url: https://artifacts.apis.io/synthient/openapi/synthient-torrents-api-openapi.yml
 consequence_counts:
   read: 53
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-09-28'\nmethod: generated\nsource: openapi/synthi
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/torrents/export/{date}\n  method: get\n  operationId: downloadTorrentsExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/torrents/export/{date}/meta\n  method: get\n  operationId: getTorrentsExportMeta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/torrents/export/{date}/{hour}\n  method: get\n  operationId: downloadTorrentsHourlyExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/torrents/export/{date}/{hour}/meta\n  method: get\n  operationId: getTorrentsHourlyExportMeta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds/torrents/stream\n  method: get\n  operationId: streamTorrents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/domain/{domain}\n  method: get\n  operationId: domainLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/ip/{ip_address}\n  method: get\n  operationId: ipLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/ips\n  method: post\n  operationId: lookupIpBatch\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/agentic-access/synthient-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/synthient/agentic-access/synthient-agentic-access.yml
 summary_line: 53 operations
 tags:
 - Company

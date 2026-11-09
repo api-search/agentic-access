@@ -9,49 +9,49 @@ api_specs:
   label: NodePing Accounts API
   slug: nodeping-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-accounts-api-openapi.yml
 - filename: nodeping-checks-api-openapi.yml
   format: yaml
   label: NodePing Checks API
   slug: nodeping-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-checks-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-checks-api-openapi.yml
 - filename: nodeping-contacts-api-openapi.yml
   format: yaml
   label: NodePing Contacts API
   slug: nodeping-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-contacts-api-openapi.yml
 - filename: nodeping-info-api-openapi.yml
   format: yaml
   label: NodePing Info API
   slug: nodeping-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-info-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-info-api-openapi.yml
 - filename: nodeping-notifications-api-openapi.yml
   format: yaml
   label: NodePing Notifications API
   slug: nodeping-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-notifications-api-openapi.yml
 - filename: nodeping-results-api-openapi.yml
   format: yaml
   label: NodePing Results API
   slug: nodeping-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-results-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-results-api-openapi.yml
 - filename: nodeping-schedules-api-openapi.yml
   format: yaml
   label: NodePing Schedules API
   slug: nodeping-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-schedules-api-openapi.yml
 - filename: nodeping-contact-groups-api-openapi.yml
   format: yaml
   label: NodePing Contact Groups API
   slug: nodeping-contact-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-contact-groups-api-openapi.yml
+  url: https://artifacts.apis.io/nodeping/openapi/nodeping-contact-groups-api-openapi.yml
 consequence_counts:
   read: 11
   write: 14
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nodepi
   - path: /contactgroups\n  method: put\n  operationId: updateContactGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contactgroups\n  method: delete\n  operationId: deleteContactGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedules\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules\n  method: put\n  operationId: updateSchedule\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedules\n  method: delete\n  operationId: deleteSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /results\n  method: get\n  operationId: getResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results/uptime\n  method: get\n  operationId: getUptime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /results/current\n  method: get\n  operationId: getCurrentResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications\n  method: get\n  operationId: listNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info\n  method: get\n  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/agentic-access/nodeping-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nodeping/agentic-access/nodeping-agentic-access.yml
 summary_line: 25 operations · 14 acting
 tags:
 - Monitoring

@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud Data Catalog API
   slug: google-cloud-data-catalog-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/openapi/google-cloud-data-catalog-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-catalog-api-openapi.yml
 - filename: google-cloud-data-catalog-entries-api-openapi.yml
   format: yaml
   label: Google Cloud Data Catalog Entries API
   slug: google-cloud-data-catalog-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/openapi/google-cloud-data-catalog-entries-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-entries-api-openapi.yml
 - filename: google-cloud-data-catalog-entrygroups-api-openapi.yml
   format: yaml
   label: Google Cloud Data Catalog EntryGroups API
   slug: google-cloud-data-catalog-entrygroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/openapi/google-cloud-data-catalog-entrygroups-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-entrygroups-api-openapi.yml
 - filename: google-cloud-data-catalog-tagtemplates-api-openapi.yml
   format: yaml
   label: Google Cloud Data Catalog TagTemplates API
   slug: google-cloud-data-catalog-tagtemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/openapi/google-cloud-data-catalog-tagtemplates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-tagtemplates-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \  method: get\n  operationId: listEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/entryGroups/{entryGroupId}/entries\n  method: post\n  operationId: createEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/entryGroups/{entryGroupId}/entries/{entryId}\n  method: get\n  operationId: getEntry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/entryGroups/{entryGroupId}/entries/{entryId}\n  method: patch\n  operationId:\
   \ updateEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/entryGroups/{entryGroupId}/entries/{entryId}\n  method: delete\n  operationId: deleteEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/entryGroups\n  method: get\n  operationId: listEntryGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/entryGroups\n\
   \  method: post\n  operationId: createEntryGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/tagTemplates\n  method: post\n  operationId: createTagTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/tagTemplates/{tagTemplateId}\n  method: get\n  operationId: getTagTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-catalog/refs/heads/main/agentic-access/google-cloud-data-catalog-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-data-catalog/agentic-access/google-cloud-data-catalog-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Data Catalog

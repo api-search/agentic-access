@@ -9,121 +9,121 @@ api_specs:
   label: GroundTruth Accounts API
   slug: groundtruth-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-accounts-api-openapi.yml
 - filename: groundtruth-ad-groups-api-openapi.yml
   format: yaml
   label: GroundTruth Ad Groups API
   slug: groundtruth-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-ad-groups-api-openapi.yml
 - filename: groundtruth-audiences-api-openapi.yml
   format: yaml
   label: GroundTruth Audiences API
   slug: groundtruth-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-audiences-api-openapi.yml
 - filename: groundtruth-campaigns-api-openapi.yml
   format: yaml
   label: GroundTruth Campaigns API
   slug: groundtruth-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-campaigns-api-openapi.yml
 - filename: groundtruth-creative-assets-api-openapi.yml
   format: yaml
   label: GroundTruth Creative Assets API
   slug: groundtruth-creative-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-creative-assets-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-creative-assets-api-openapi.yml
 - filename: groundtruth-creatives-api-openapi.yml
   format: yaml
   label: GroundTruth Creatives API
   slug: groundtruth-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-creatives-api-openapi.yml
 - filename: groundtruth-demand-api-openapi.yml
   format: yaml
   label: GroundTruth Demand API
   slug: groundtruth-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-demand-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-demand-api-openapi.yml
 - filename: groundtruth-direct-mail-api-openapi.yml
   format: yaml
   label: GroundTruth Direct Mail API
   slug: groundtruth-direct-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-direct-mail-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-direct-mail-api-openapi.yml
 - filename: groundtruth-health-api-openapi.yml
   format: yaml
   label: GroundTruth Health API
   slug: groundtruth-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-health-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-health-api-openapi.yml
 - filename: groundtruth-jobs-api-openapi.yml
   format: yaml
   label: GroundTruth Jobs API
   slug: groundtruth-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-jobs-api-openapi.yml
 - filename: groundtruth-miscellaneous-api-openapi.yml
   format: yaml
   label: GroundTruth Miscellaneous API
   slug: groundtruth-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-miscellaneous-api-openapi.yml
 - filename: groundtruth-organizations-api-openapi.yml
   format: yaml
   label: GroundTruth Organizations API
   slug: groundtruth-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-organizations-api-openapi.yml
 - filename: groundtruth-reporting-api-openapi.yml
   format: yaml
   label: GroundTruth Reporting API
   slug: groundtruth-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-reporting-api-openapi.yml
 - filename: groundtruth-search-api-openapi.yml
   format: yaml
   label: GroundTruth Search API
   slug: groundtruth-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-search-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-search-api-openapi.yml
 - filename: groundtruth-static-api-openapi.yml
   format: yaml
   label: GroundTruth Static API
   slug: groundtruth-static-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-static-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-static-api-openapi.yml
 - filename: groundtruth-tenants-api-openapi.yml
   format: yaml
   label: GroundTruth Tenants API
   slug: groundtruth-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-tenants-api-openapi.yml
 - filename: groundtruth-upload-api-openapi.yml
   format: yaml
   label: GroundTruth Upload API
   slug: groundtruth-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-upload-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-upload-api-openapi.yml
 - filename: groundtruth-users-api-openapi.yml
   format: yaml
   label: GroundTruth Users API
   slug: groundtruth-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-users-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-users-api-openapi.yml
 - filename: groundtruth-location-groups-api-openapi.yml
   format: yaml
   label: GroundTruth Location Groups API
   slug: groundtruth-location-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-location-groups-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-location-groups-api-openapi.yml
 - filename: groundtruth-pois-api-openapi.yml
   format: yaml
   label: GroundTruth POIs API
   slug: groundtruth-pois-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-pois-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-pois-api-openapi.yml
 consequence_counts:
   read: 276
   write: 42
@@ -182,8 +182,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ground
   \  method: get\n  operationId: getDemandV2AdgroupsAudioPublisherByCampaignID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /direct_mail/orders\n  method: get\n  operationId: get_orders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: get_health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: get\n  operationId: get_jobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{job_id}\n  method: get\n  operationId: get_job\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/campaign_bulk_upload\n  method: post\n  operationId: create_campaign_bulk_upload_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/campaign_bulk_upload/{job_id}/cancel\n  method: post\n  operationId: cancel_campaign_bulk_upload_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/campaign_bulk_upload/{job_id}/confirm\n  method: post\n  operationId: confirm_campaign_bulk_upload_job\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/location_filter_bulk_upload\n  method: post\n  operationId: create_location_filter_bulk_upload_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/campaign_bulk_download\n  method: post\n  operationId: create_campaign_bulk_download_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/location_filter_bulk_upload/{job_id}/confirm\n\
-  \  method: post\n  operationId: confirm_location_filter_bulk_upload_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/location_filter_bulk_upload/{job_id}/cancel\n  method: post\n  operationId: cancel_location_filter_bulk_upload_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (83 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/agentic-access/groundtruth-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/agentic-access/groundtruth-agentic-access.yml
+  \  method: post\n  operationId: confirm_location_filter_bulk_upload_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/location_filter_bulk_upload/{job_id}/cancel\n  method: post\n  operationId: cancel_location_filter_bulk_upload_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (83 KB total) ---\n# Full source: https://artifacts.apis.io/groundtruth/agentic-access/groundtruth-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/groundtruth/agentic-access/groundtruth-agentic-access.yml
 summary_line: 318 operations · 42 acting
 tags:
 - Company

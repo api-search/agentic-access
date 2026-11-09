@@ -9,49 +9,49 @@ api_specs:
   label: Azure Pipelines Artifacts API
   slug: microsoft-azure-pipelines-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml
 - filename: microsoft-azure-pipelines-build-artifacts-api-openapi.yml
   format: yaml
   label: Azure Pipelines Build Artifacts API
   slug: microsoft-azure-pipelines-build-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml
 - filename: microsoft-azure-pipelines-build-definitions-api-openapi.yml
   format: yaml
   label: Azure Pipelines Build Definitions API
   slug: microsoft-azure-pipelines-build-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml
 - filename: microsoft-azure-pipelines-build-tags-api-openapi.yml
   format: yaml
   label: Azure Pipelines Build Tags API
   slug: microsoft-azure-pipelines-build-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml
 - filename: microsoft-azure-pipelines-builds-api-openapi.yml
   format: yaml
   label: Azure Pipelines Builds API
   slug: microsoft-azure-pipelines-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-builds-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-builds-api-openapi.yml
 - filename: microsoft-azure-pipelines-logs-api-openapi.yml
   format: yaml
   label: Azure Pipelines Logs API
   slug: microsoft-azure-pipelines-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-logs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-logs-api-openapi.yml
 - filename: microsoft-azure-pipelines-pipelines-api-openapi.yml
   format: yaml
   label: Azure Pipelines API
   slug: microsoft-azure-pipelines-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml
 - filename: microsoft-azure-pipelines-runs-api-openapi.yml
   format: yaml
   label: Azure Pipelines Runs API
   slug: microsoft-azure-pipelines-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-runs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-runs-api-openapi.yml
 consequence_counts:
   read: 14
   write: 6
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /build/definitions\n  method: get\n  operationId: listBuildDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /build/definitions/{definitionId}\n  method: get\n  operationId: getBuildDefinition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines\n  method: get\n  operationId: listPipelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines\n  method: post\n  operationId: createPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{pipelineId}\n  method: get\n  operationId: getPipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineId}/runs\n  method: get\n  operationId: listRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineId}/runs\n  method: post\n  operationId: runPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{pipelineId}/runs/{runId}\n\
   \  method: get\n  operationId: getRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineId}/runs/{runId}/logs\n  method: get\n  operationId: listLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineId}/runs/{runId}/logs/{logId}\n  method: get\n  operationId: getLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineId}/runs/{runId}/artifacts\n  method: get\n  operationId: listRunArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/agentic-access/microsoft-azure-pipelines-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-pipelines/agentic-access/microsoft-azure-pipelines-agentic-access.yml
 summary_line: 20 operations · 6 acting
 tags:
 - Automation

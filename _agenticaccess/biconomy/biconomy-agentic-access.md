@@ -9,19 +9,19 @@ api_specs:
   label: Biconomy Instructions API
   slug: biconomy-instructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-instructions-api-openapi.yml
+  url: https://artifacts.apis.io/biconomy/openapi/biconomy-instructions-api-openapi.yml
 - filename: biconomy-mee-api-openapi.yml
   format: yaml
   label: Biconomy Mee API
   slug: biconomy-mee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-mee-api-openapi.yml
+  url: https://artifacts.apis.io/biconomy/openapi/biconomy-mee-api-openapi.yml
 - filename: biconomy-root-api-openapi.yml
   format: yaml
   label: Biconomy Root API
   slug: biconomy-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-root-api-openapi.yml
+  url: https://artifacts.apis.io/biconomy/openapi/biconomy-root-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 1
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/biconomy-instructions-api-openapi.yml, openapi/biconomy-mee-api-openapi.yml,\n  openapi/biconomy-root-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 5\n    connected: 1\n  by_consequence:\n    physical: 1\n    write: 4\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/instructions/hyperliquid/deposit\n  method: post\n  operationId: hyperliquidDeposit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - instructions:*\n    - mee:*\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/instructions/build-ccip\n  method: post\n  operationId: buildCcip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - instructions:*\n    - mee:*\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/mee/orchestrator\n  method: post\n  operationId: getOrchestrator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mee/upgrade\n  method: post\n  operationId: upgrade\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/quote\n  method: post\n  operationId: quote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - instructions:*\n    - mee:*\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/execute\n  method: post\n  operationId: execute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - instructions:*\n    - mee:*\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/agentic-access/biconomy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/biconomy/agentic-access/biconomy-agentic-access.yml
 summary_line: 6 operations · 5 acting
 tags:
 - Account Abstraction

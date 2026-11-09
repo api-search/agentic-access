@@ -8,55 +8,55 @@ api_specs:
   label: Nord Pool Intraday Trading API
   slug: nordpool-intraday-trading-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/asyncapi/nordpool-intraday-asyncapi.yml
+  url: https://artifacts.apis.io/nordpool/asyncapi/nordpool-intraday-asyncapi.yml
 - filename: nordpool-auction-api-openapi.yml
   format: yaml
   label: Nord Pool Auction API
   slug: nordpool-auction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-auction-api-openapi.yml
+  url: https://artifacts.apis.io/nordpool/openapi/nordpool-auction-api-openapi.yml
 - filename: nordpool-balancemarket-api-openapi.yml
   format: yaml
   label: Nord Pool BalanceMarket API
   slug: nordpool-balancemarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-balancemarket-api-openapi.yml
+  url: https://artifacts.apis.io/nordpool/openapi/nordpool-balancemarket-api-openapi.yml
 - filename: nordpool-day-ahead-prices-api-openapi.yml
   format: yaml
   label: Nord Pool Day-Ahead Prices API
   slug: nordpool-day-ahead-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-day-ahead-prices-api-openapi.yml
+  url: https://artifacts.apis.io/nordpool/openapi/nordpool-day-ahead-prices-api-openapi.yml
 - filename: nordpool-intraday-api-openapi.yml
   format: yaml
   label: Nord Pool Intraday API
   slug: nordpool-intraday-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-intraday-api-openapi.yml
+  url: https://artifacts.apis.io/nordpool/openapi/nordpool-intraday-api-openapi.yml
 - filename: nordpool-pricecurves-api-openapi.yml
   format: yaml
   label: Nord Pool PriceCurves API
   slug: nordpool-pricecurves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-pricecurves-api-openapi.yml
+  url: https://artifacts.apis.io/nordpool/openapi/nordpool-pricecurves-api-openapi.yml
 - filename: nordpool-system-api-openapi.yml
   format: yaml
   label: Nord Pool System API
   slug: nordpool-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-system-api-openapi.yml
+  url: https://artifacts.apis.io/nordpool/openapi/nordpool-system-api-openapi.yml
 - filename: nordpool-exchange-rate-api-openapi.yml
   format: yaml
   label: Nord Pool Exchange Rate API
   slug: nordpool-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-exchange-rate-api-openapi.yml
+  url: https://artifacts.apis.io/nordpool/openapi/nordpool-exchange-rate-api-openapi.yml
 - filename: nordpool-power-system-api-openapi.yml
   format: yaml
   label: Nord Pool Power System API
   slug: nordpool-power-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/openapi/nordpool-power-system-api-openapi.yml
+  url: https://artifacts.apis.io/nordpool/openapi/nordpool-power-system-api-openapi.yml
 consequence_counts:
   read: 59
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nordpo
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/PowerSystem/ProductionForecasts/ByLocations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/PowerSystem/Productions/ByAreas\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/PowerSystem/Productions/ByLocations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/PowerSystem/Productions/Yearly/ByArea\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v2/PowerSystem/Productions/Yearly/ByLocation\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/System/Price\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/System/Price/Yearly\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/System/Turnover\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/System/Turnover/Yearly\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/agentic-access/nordpool-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nordpool/agentic-access/nordpool-agentic-access.yml
 summary_line: 59 operations
 tags:
 - Day-Ahead Prices

@@ -9,19 +9,19 @@ api_specs:
   label: GameAnalytics Collection API
   slug: gameanalytics-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-collection-api-openapi.yml
+  url: https://artifacts.apis.io/gameanalytics/openapi/gameanalytics-collection-api-openapi.yml
 - filename: gameanalytics-metrics-api-openapi.yml
   format: yaml
   label: GameAnalytics Metrics API
   slug: gameanalytics-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/gameanalytics/openapi/gameanalytics-metrics-api-openapi.yml
 - filename: gameanalytics-organization-api-openapi.yml
   format: yaml
   label: GameAnalytics Organization API
   slug: gameanalytics-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/openapi/gameanalytics-organization-api-openapi.yml
+  url: https://artifacts.apis.io/gameanalytics/openapi/gameanalytics-organization-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gamean
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/games/{game_id}\n  method: get\n  operationId: getGame\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/studios\n  method: get\n  operationId: listStudios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/studios\n  method: post\n  operationId: createStudio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/studios/{studio_id}\n  method: get\n  operationId: getStudio\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/invite\n  method: post\n  operationId: inviteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user_id}/replace_acl\n  method: post\n  operationId: replaceUserAcl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/agentic-access/gameanalytics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gameanalytics/agentic-access/gameanalytics-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Analytics

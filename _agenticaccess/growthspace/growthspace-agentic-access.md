@@ -9,37 +9,37 @@ api_specs:
   label: GrowthSpace Admin API
   slug: growthspace-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-admin-api-openapi.yml
+  url: https://artifacts.apis.io/growthspace/openapi/growthspace-admin-api-openapi.yml
 - filename: growthspace-ah-api-openapi.yml
   format: yaml
   label: GrowthSpace Ah API
   slug: growthspace-ah-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-ah-api-openapi.yml
+  url: https://artifacts.apis.io/growthspace/openapi/growthspace-ah-api-openapi.yml
 - filename: growthspace-growthspace-engineering-public-api-management-api-openapi.yml
   format: yaml
   label: GrowthSpace @growthspace Engineering/public Api Management API
   slug: growthspace-growthspace-engineering-public-api-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-growthspace-engineering-public-api-management-api-openapi.yml
+  url: https://artifacts.apis.io/growthspace/openapi/growthspace-growthspace-engineering-public-api-management-api-openapi.yml
 - filename: growthspace-healthz-api-openapi.yml
   format: yaml
   label: GrowthSpace Healthz API
   slug: growthspace-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/growthspace/openapi/growthspace-healthz-api-openapi.yml
 - filename: growthspace-public-api-openapi.yml
   format: yaml
   label: GrowthSpace Public API
   slug: growthspace-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-public-api-openapi.yml
+  url: https://artifacts.apis.io/growthspace/openapi/growthspace-public-api-openapi.yml
 - filename: growthspace-up-time-check-api-openapi.yml
   format: yaml
   label: GrowthSpace Up Time Check API
   slug: growthspace-up-time-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/openapi/growthspace-up-time-check-api-openapi.yml
+  url: https://artifacts.apis.io/growthspace/openapi/growthspace-up-time-check-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 6
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-08-22'\nmethod: generated\nsource: openapi/growth
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /admin/apps\n  method: get\n  operationId: AppsManagementController_listApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/apps/{appId}/token\n  method: post\n  operationId: AppsManagementController_generateToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /admin/apps/{appId}\n  method: delete\n  operationId: AppsManagementController_revokeApp\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange:\
   \ true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /admin/apps/{appId}/scopes\n  method: put\n  operationId: AppsManagementController_updateScopes\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /admin/apps/{appId}/refresh\n  method: post\n  operationId: AppsManagementController_refreshForApp\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /public/refresh\n\
   \  method: post\n  operationId: AppsManagementController_publicRefresh\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/agentic-access/growthspace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/growthspace/agentic-access/growthspace-agentic-access.yml
 summary_line: 12 operations · 6 acting · 6 human-in-the-loop
 tags:
 - Company

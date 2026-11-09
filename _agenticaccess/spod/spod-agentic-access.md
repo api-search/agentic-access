@@ -9,43 +9,43 @@ api_specs:
   label: SPOD Articles API
   slug: spod-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-articles-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-articles-api-openapi.yml
 - filename: spod-common-api-openapi.yml
   format: yaml
   label: SPOD Common API
   slug: spod-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-common-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-common-api-openapi.yml
 - filename: spod-orders-api-openapi.yml
   format: yaml
   label: SPOD Orders API
   slug: spod-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-orders-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-orders-api-openapi.yml
 - filename: spod-product-types-api-openapi.yml
   format: yaml
   label: SPOD Product Types API
   slug: spod-product-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-product-types-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-product-types-api-openapi.yml
 - filename: spod-shipping-api-openapi.yml
   format: yaml
   label: SPOD Shipping API
   slug: spod-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-shipping-api-openapi.yml
 - filename: spod-stock-api-openapi.yml
   format: yaml
   label: SPOD Stock API
   slug: spod-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-stock-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-stock-api-openapi.yml
 - filename: spod-subscriptions-api-openapi.yml
   format: yaml
   label: SPOD Subscriptions API
   slug: spod-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/openapi/spod-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/spod/openapi/spod-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 11
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spod-o
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /stock\n  method: get\n  operationId: getStocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/{sku}\n  method: get\n  operationId: getStock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: getSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/simulate/order-cancelled\n  method: post\n  operationId: simulateOrderCancelledEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/simulate/order-processed\n  method: post\n  operationId: simulateOrderProcessedEvent\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/simulate/shipment-sent\n  method: post\n  operationId: simulateShipmentSentEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/agentic-access/spod-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spod/agentic-access/spod-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Print on Demand

@@ -9,7 +9,7 @@ api_specs:
   label: Google Cloud Datastore Projects API
   slug: google-cloud-datastore-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/openapi/google-cloud-datastore-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastore/openapi/google-cloud-datastore-projects-api-openapi.yml
 consequence_counts:
   read: 2
   write: 7
@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \ none\n    scope:\n    - cloud-platform\n    - datastore\n- path: /v1/projects/{projectId}:reserveIds\n  method: post\n  operationId: reserveIds\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - cloud-platform\n    - datastore\n- path: /v1/projects/{projectId}:rollback\n  method: post\n  operationId: rollback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - cloud-platform\n    - datastore\n- path: /v1/projects/{projectId}:runQuery\n  method: post\n  operationId: runQuery\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - cloud-platform\n    - datastore\n- path: /v1/projects/{projectId}:runAggregationQuery\n  method: post\n  operationId: runAggregationQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - cloud-platform\n    - datastore\n- path: /v1/projects/{projectId}/operations\n  method: get\n  operationId: listOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - cloud-platform\n   \
   \ - datastore\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/agentic-access/google-cloud-datastore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-datastore/agentic-access/google-cloud-datastore-agentic-access.yml
 summary_line: 9 operations · 7 acting
 tags:
 - NoSQL

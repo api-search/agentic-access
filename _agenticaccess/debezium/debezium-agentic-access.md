@@ -9,31 +9,31 @@ api_specs:
   label: Debezium Cluster API
   slug: debezium-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-cluster-api-openapi.yml
 - filename: debezium-connectors-api-openapi.yml
   format: yaml
   label: Debezium Connectors API
   slug: debezium-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-connectors-api-openapi.yml
 - filename: debezium-offsets-api-openapi.yml
   format: yaml
   label: Debezium Offsets API
   slug: debezium-offsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-offsets-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-offsets-api-openapi.yml
 - filename: debezium-plugins-api-openapi.yml
   format: yaml
   label: Debezium Plugins API
   slug: debezium-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-plugins-api-openapi.yml
 - filename: debezium-tasks-api-openapi.yml
   format: yaml
   label: Debezium Tasks API
   slug: debezium-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/debezium/openapi/debezium-tasks-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/debezi
   \      max-ttl: 3600\n    audit: none\n- path: /connectors/{connector}/tasks/{task}/status\n  method: get\n  operationId: getTaskStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectors/{connector}/tasks/{task}/restart\n  method: post\n  operationId: restartTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectors/{connector}/offsets\n  method: get\n  operationId: getConnectorOffsets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectors/{connector}/offsets\n  method: patch\n  operationId: alterOffsets\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectors/{connector}/offsets\n  method: delete\n  operationId: resetOffsets\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /connector-plugins\n  method: get\n  operationId: listPlugins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connector-plugins/{plugin}/config/validate\n  method: put\n  operationId: validateConfig\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/agentic-access/debezium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/debezium/agentic-access/debezium-agentic-access.yml
 summary_line: 19 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Apache Kafka

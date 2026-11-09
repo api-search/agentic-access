@@ -9,25 +9,25 @@ api_specs:
   label: Orderly Network Admin API
   slug: orderly-network-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-admin-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-network/openapi/orderly-network-admin-api-openapi.yml
 - filename: orderly-network-client-api-openapi.yml
   format: yaml
   label: Orderly Network Client API
   slug: orderly-network-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-client-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-network/openapi/orderly-network-client-api-openapi.yml
 - filename: orderly-network-private-api-openapi.yml
   format: yaml
   label: Orderly Network Private API
   slug: orderly-network-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-private-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-network/openapi/orderly-network-private-api-openapi.yml
 - filename: orderly-network-public-api-openapi.yml
   format: yaml
   label: Orderly Network Public API
   slug: orderly-network-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/openapi/orderly-network-public-api-openapi.yml
+  url: https://artifacts.apis.io/orderly-network/openapi/orderly-network-public-api-openapi.yml
 consequence_counts:
   physical: 28
   read: 182
@@ -216,8 +216,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/orderl
   \    - abnormal\n      - high-value\n    audit: required\n- path: /v1/referral/auto_referral/info\n  method: get\n  operationId: getV1ReferralAutoReferralInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referral/auto_referral/progress\n  method: get\n  operationId: getV1ReferralAutoReferralProgress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referral/edit_referral_code\n  method: post\n  operationId: postV1ReferralEditReferralCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/referral/multi_level/max_rebate_rate\n  method:\
   \ get\n  operationId: getV1ReferralMultiLevelMaxRebateRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referral/multi_level/claim_code\n  method: post\n  operationId: postV1ReferralMultiLevelClaimCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/referral/multi_level/rebate_info\n  method: get\n  operationId: getV1ReferralMultiLevelRebateInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referral/multi_level/rebate_rate/update\n  method: post\n  operationId: postV1ReferralMultiLevelRebateRateUpdate\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/referral/multi_level/rebate_rate/set_default\n  method: post\n  operationId: postV1ReferralMultiLevelRebateRateSetDefault\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/referral/multi_level/statistics\n  method: get\n  operationId: getV1ReferralMultiLevelStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referral/multi_level/referee_list\n\
-  \  method: get\n  operationId: getV1ReferralMultiLevelRefereeList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referral/multi_level/volume_prerequisite\n  method: get\n  operationId: getV1ReferralMultiLevelVolumePrerequisite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referral/multi_level/admin\n  method: post\n  operationId: postV1ReferralMultiLevelAdmin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (66 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/agentic-access/orderly-network-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/agentic-access/orderly-network-agentic-access.yml
+  \  method: get\n  operationId: getV1ReferralMultiLevelRefereeList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referral/multi_level/volume_prerequisite\n  method: get\n  operationId: getV1ReferralMultiLevelVolumePrerequisite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referral/multi_level/admin\n  method: post\n  operationId: postV1ReferralMultiLevelAdmin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (66 KB total) ---\n# Full source: https://artifacts.apis.io/orderly-network/agentic-access/orderly-network-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/orderly-network/agentic-access/orderly-network-agentic-access.yml
 summary_line: 248 operations · 66 acting · 4 human-in-the-loop
 tags:
 - Company

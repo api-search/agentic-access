@@ -8,13 +8,13 @@ api_specs:
   label: Aviation Weather Center Navigational Data API
   slug: aviationweather-navigational-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-navigational-data-api-openapi.yml
+  url: https://artifacts.apis.io/aviationweather/openapi/aviationweather-navigational-data-api-openapi.yml
 - filename: aviationweather-weather-data-api-openapi.yml
   format: yaml
   label: Aviation Weather Center Weather Data API
   slug: aviationweather-weather-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-weather-data-api-openapi.yml
+  url: https://artifacts.apis.io/aviationweather/openapi/aviationweather-weather-data-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aviati
   - path: /api/data/cwa\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/windtemp\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/areafcst\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/fcstdisc\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/mis\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/stationinfo\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/airport\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/navaid\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/fix\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/feature\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/obstacle\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/dataserver\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/agentic-access/aviationweather-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aviationweather/agentic-access/aviationweather-agentic-access.yml
 summary_line: 20 operations
 tags:
 - Aviation

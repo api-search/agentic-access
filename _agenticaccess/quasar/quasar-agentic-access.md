@@ -9,61 +9,61 @@ api_specs:
   label: Quasar Cluster API
   slug: quasar-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-cluster-api-openapi.yml
 - filename: quasar-login-api-openapi.yml
   format: yaml
   label: Quasar Login API
   slug: quasar-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-login-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-login-api-openapi.yml
 - filename: quasar-max-in-buffer-size-api-openapi.yml
   format: yaml
   label: Quasar Max In Buffer Size API
   slug: quasar-max-in-buffer-size-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-max-in-buffer-size-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-max-in-buffer-size-api-openapi.yml
 - filename: quasar-option-api-openapi.yml
   format: yaml
   label: Quasar Option API
   slug: quasar-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-option-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-option-api-openapi.yml
 - filename: quasar-parallelism-api-openapi.yml
   format: yaml
   label: Quasar Parallelism API
   slug: quasar-parallelism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-parallelism-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-parallelism-api-openapi.yml
 - filename: quasar-prometheus-api-openapi.yml
   format: yaml
   label: Quasar Prometheus API
   slug: quasar-prometheus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-prometheus-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-prometheus-api-openapi.yml
 - filename: quasar-query-api-openapi.yml
   format: yaml
   label: Quasar Query API
   slug: quasar-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-query-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-query-api-openapi.yml
 - filename: quasar-status-api-openapi.yml
   format: yaml
   label: Quasar Status API
   slug: quasar-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-status-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-status-api-openapi.yml
 - filename: quasar-tables-api-openapi.yml
   format: yaml
   label: Quasar Tables API
   slug: quasar-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tables-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-tables-api-openapi.yml
 - filename: quasar-tags-api-openapi.yml
   format: yaml
   label: Quasar Tags API
   slug: quasar-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tags-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-tags-api-openapi.yml
 consequence_counts:
   read: 11
   write: 3
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/quasar
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /option/max-in-buffer-size\n  method: get\n  operationId: get-max-in-buffer-size\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /option/parallelism\n  method: get\n  operationId: get-parallelism\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prometheus/read\n  method: post\n  operationId: prometheusRead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prometheus/write\n  method: post\n  operationId: prometheusWrite\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /query\n  method: post\n  operationId: post-query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/liveness\n  method: get\n  operationId: status-liveness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/readiness\n  method: get\n  operationId: status-readiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables/{name}.csv\n  method: get\n  operationId: get-table-csv\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: get-tags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/agentic-access/quasar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quasar/agentic-access/quasar-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - Company

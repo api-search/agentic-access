@@ -9,43 +9,43 @@ api_specs:
   label: Waste Management Cases API
   slug: waste-management-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-cases-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-cases-api-openapi.yml
 - filename: waste-management-contacts-api-openapi.yml
   format: yaml
   label: Waste Management Contacts API
   slug: waste-management-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-contacts-api-openapi.yml
 - filename: waste-management-customers-api-openapi.yml
   format: yaml
   label: Waste Management Customers API
   slug: waste-management-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-customers-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-customers-api-openapi.yml
 - filename: waste-management-invoices-api-openapi.yml
   format: yaml
   label: Waste Management Invoices API
   slug: waste-management-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-invoices-api-openapi.yml
 - filename: waste-management-preferences-api-openapi.yml
   format: yaml
   label: Waste Management Preferences API
   slug: waste-management-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-preferences-api-openapi.yml
 - filename: waste-management-services-api-openapi.yml
   format: yaml
   label: Waste Management Services API
   slug: waste-management-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-services-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-services-api-openapi.yml
 - filename: waste-management-tickets-api-openapi.yml
   format: yaml
   label: Waste Management Tickets API
   slug: waste-management-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-tickets-api-openapi.yml
 consequence_counts:
   read: 15
   write: 2
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/waste-
   \ none\n- path: /customers/{customerId}/services/next-pickup\n  method: get\n  operationId: getNextPickup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/services/{serviceId}/eta\n  method: get\n  operationId: getServiceEta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/invoices/{invoiceId}\n  method: get\n  operationId: getInvoiceDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/balance\n\
   \  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/contacts\n  method: get\n  operationId: listContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/contacts\n  method: patch\n  operationId: updateContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerId}/cases\n  method: get\n  operationId: listCases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /customers/{customerId}/preferences\n  method: get\n  operationId: listPreferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/preferences\n  method: patch\n  operationId: updatePreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerId}/tickets\n  method: get\n  operationId: listTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/agentic-access/waste-management-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/waste-management/agentic-access/waste-management-agentic-access.yml
 summary_line: 17 operations · 2 acting
 tags:
 - Environmental Services

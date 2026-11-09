@@ -134,5 +134,5 @@ tags:
 - Insurance
 - AutoQuotes
 - Georgia
-- AI-Integration
+- AI Integration
 ---

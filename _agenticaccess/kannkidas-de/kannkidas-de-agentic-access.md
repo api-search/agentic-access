@@ -9,31 +9,31 @@ api_specs:
   label: Kann KI das? Sponsoring Agent Agent API
   slug: kannkidas-de-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-agent-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-agent-api-openapi.yml
 - filename: kannkidas-de-kann-ki-das-api-api-openapi.yml
   format: yaml
   label: Kann KI das? Sponsoring Agent Kann KI Das? API
   slug: kannkidas-de-kann-ki-das-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-kann-ki-das-api-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-kann-ki-das-api-api-openapi.yml
 - filename: kannkidas-de-oauth-api-openapi.yml
   format: yaml
   label: Kann KI das? Sponsoring Agent OAuth API
   slug: kannkidas-de-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-oauth-api-openapi.yml
 - filename: kannkidas-de-search-api-openapi.yml
   format: yaml
   label: Kann KI das? Sponsoring Agent Search API
   slug: kannkidas-de-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-search-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-search-api-openapi.yml
 - filename: kannkidas-de-slots-api-openapi.yml
   format: yaml
   label: Kann KI das? Sponsoring Agent Slots API
   slug: kannkidas-de-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-slots-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-slots-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/kannki
   \ /search/similar\n  method: get\n  operationId: getSimilarProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /slots\n  method: get\n  operationId: listSponsorSlots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1\n  method: get\n  operationId: getPaidSponsorBuyerBrief\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/register\n  method: post\n  operationId: registerAgentClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /oauth/token\n  method: post\n  operationId: issueAgentAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/purchases\n  method: post\n  operationId: createSponsorPurchase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - sponsorship:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/purchases/{purchase_id}\n  method: get\n  operationId: getSponsorPurchase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    -\
   \ sponsorship:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/agentic-access/kannkidas-de-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kannkidas-de/agentic-access/kannkidas-de-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Company
@@ -81,8 +81,9 @@ tags:
 - Agent-Native
 - MCP
 - A2A
-- Authentication
+- OAuth
 - x402
 - Stripe Checkout
 - Germany
+- Authentication
 ---

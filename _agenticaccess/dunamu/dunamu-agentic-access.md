@@ -9,13 +9,13 @@ api_specs:
   label: Dunamu Exchange API
   slug: dunamu-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/openapi/dunamu-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/dunamu/openapi/dunamu-exchange-api-openapi.yml
 - filename: dunamu-quotation-api-openapi.yml
   format: yaml
   label: Dunamu Quotation API
   slug: dunamu-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/openapi/dunamu-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/dunamu/openapi/dunamu-quotation-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 29
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/dunamu
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/candles/minutes/{unit}\n  method: get\n  operationId: list-candles-minutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/candles/months\n  method: get\n  operationId: list-candles-months\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/candles/seconds\n  method: get\n  operationId: list-candles-seconds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/candles/weeks\n  method: get\n  operationId: list-candles-weeks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /v1/candles/years\n  method: get\n  operationId: list-candles-years\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/market/all\n  method: get\n  operationId: list-trading-pairs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orderbook\n  method: get\n  operationId: list-orderbooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orderbook/instruments\n  method: get\n  operationId: list-orderbook-instruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ticker\n  method: get\n  operationId: list-tickers\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ticker/all\n  method: get\n  operationId: list-quote-tickers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trades/ticks\n  method: get\n  operationId: list-pair-trades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/agentic-access/dunamu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dunamu/agentic-access/dunamu-agentic-access.yml
 summary_line: 40 operations · 11 acting
 tags:
 - Fintech

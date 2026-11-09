@@ -9,133 +9,133 @@ api_specs:
   label: Coactive agentic-search > agenticSearch API
   slug: coactive-agentic-search-agenticsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-agentic-search-agenticsearch-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-agentic-search-agenticsearch-api-openapi.yml
 - filename: coactive-celebrity-detection-api-openapi.yml
   format: yaml
   label: Coactive Celebrity Detection API
   slug: coactive-celebrity-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-celebrity-detection-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-celebrity-detection-api-openapi.yml
 - filename: coactive-classification-api-openapi.yml
   format: yaml
   label: Coactive Classification API
   slug: coactive-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-classification-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-classification-api-openapi.yml
 - filename: coactive-concept-api-openapi.yml
   format: yaml
   label: Coactive Concept API
   slug: coactive-concept-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-concept-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-concept-api-openapi.yml
 - filename: coactive-connections-connections-api-openapi.yml
   format: yaml
   label: Coactive connections > connections API
   slug: coactive-connections-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-connections-connections-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-connections-connections-api-openapi.yml
 - filename: coactive-context-studio-adsegments-api-openapi.yml
   format: yaml
   label: Coactive context-studio > adSegments API
   slug: coactive-context-studio-adsegments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-context-studio-adsegments-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-context-studio-adsegments-api-openapi.yml
 - filename: coactive-datasets-dataset-api-openapi.yml
   format: yaml
   label: Coactive datasets > dataset API
   slug: coactive-datasets-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-datasets-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-datasets-dataset-api-openapi.yml
 - filename: coactive-datasets-datasetconfig-api-openapi.yml
   format: yaml
   label: Coactive datasets > datasetConfig API
   slug: coactive-datasets-datasetconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-datasets-datasetconfig-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-datasets-datasetconfig-api-openapi.yml
 - filename: coactive-datasets-encoder-api-openapi.yml
   format: yaml
   label: Coactive datasets > encoder API
   slug: coactive-datasets-encoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-datasets-encoder-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-datasets-encoder-api-openapi.yml
 - filename: coactive-dynamictags-api-openapi.yml
   format: yaml
   label: Coactive Dynamic Tags API
   slug: coactive-dynamictags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-dynamictags-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-dynamictags-api-openapi.yml
 - filename: coactive-ingestion-api-openapi.yml
   format: yaml
   label: Coactive Ingestion API
   slug: coactive-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-ingestion-api-openapi.yml
 - filename: coactive-ingestion-ingest-api-openapi.yml
   format: yaml
   label: Coactive ingestion > ingest API
   slug: coactive-ingestion-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-ingestion-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-ingestion-ingest-api-openapi.yml
 - filename: coactive-ingestion-status-api-openapi.yml
   format: yaml
   label: Coactive ingestion > status API
   slug: coactive-ingestion-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-ingestion-status-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-ingestion-status-api-openapi.yml
 - filename: coactive-queries-api-openapi.yml
   format: yaml
   label: Coactive Queries API
   slug: coactive-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-queries-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-queries-api-openapi.yml
 - filename: coactive-search-metadata-filter-api-openapi.yml
   format: yaml
   label: Coactive Search Metadata Filter API
   slug: coactive-search-metadata-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-search-metadata-filter-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-search-metadata-filter-api-openapi.yml
 - filename: coactive-search-search-api-openapi.yml
   format: yaml
   label: Coactive search > search API
   slug: coactive-search-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-search-search-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-search-search-api-openapi.yml
 - filename: coactive-search-video-searchvideo-api-openapi.yml
   format: yaml
   label: Coactive search-video > searchVideo API
   slug: coactive-search-video-searchvideo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-search-video-searchvideo-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-search-video-searchvideo-api-openapi.yml
 - filename: coactive-video-narative-metadata-videonarrativemetadata-api-openapi.yml
   format: yaml
   label: Coactive video-narative-metadata > videoNarrativeMetadata API
   slug: coactive-video-narative-metadata-videonarrativemetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-video-narative-metadata-videonarrativemetadata-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-video-narative-metadata-videonarrativemetadata-api-openapi.yml
 - filename: coactive-video-narative-metadata-videosummarization-api-openapi.yml
   format: yaml
   label: Coactive video-narative-metadata > videoSummarization API
   slug: coactive-video-narative-metadata-videosummarization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-video-narative-metadata-videosummarization-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-video-narative-metadata-videosummarization-api-openapi.yml
 - filename: coactive-video-scores-videoscores-api-openapi.yml
   format: yaml
   label: Coactive video-scores > videoScores API
   slug: coactive-video-scores-videoscores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-video-scores-videoscores-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-video-scores-videoscores-api-openapi.yml
 - filename: coactive-system-credentials-api-openapi.yml
   format: yaml
   label: Coactive System Credentials API
   slug: coactive-system-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-system-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-system-credentials-api-openapi.yml
 - filename: coactive-user-management-api-openapi.yml
   format: yaml
   label: Coactive User Management API
   slug: coactive-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/openapi/coactive-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/coactive/openapi/coactive-user-management-api-openapi.yml
 consequence_counts:
   read: 55
   safety-critical: 1
@@ -203,8 +203,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/coacti
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/auth-management/clients\n  method: get\n  operationId: list-credentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/auth-management/clients/{client_id}\n  method: delete\n  operationId: delete-credentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/auth-management/clients/{client_id}\n  method: get\n  operationId: get-credentials\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/auth-management/clients/{client_id}\n  method: put\n  operationId: update-credentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/auth-management/user-invitations\n  method: post\n  operationId: create-invitation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/auth-management/user-invitations\n  method: get\n  operationId: list-invitations\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/auth-management/user-invitations/{invitation_id}\n  method: delete\n  operationId: delete-invitation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/auth-management/user-invitations/{invitation_id}\n  method: get\n  operationId: get-invitation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/auth-management/roles\n  method: get\n  operationId: list-roles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/auth-management/users\n\
-  \  method: get\n  operationId: list-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/auth-management/users/{user_id}\n  method: delete\n  operationId: remove-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/agentic-access/coactive-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/agentic-access/coactive-agentic-access.yml
+  \  method: get\n  operationId: list-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/auth-management/users/{user_id}\n  method: delete\n  operationId: remove-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/coactive/agentic-access/coactive-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/coactive/agentic-access/coactive-agentic-access.yml
 summary_line: 118 operations · 63 acting · 1 human-in-the-loop
 tags:
 - Company

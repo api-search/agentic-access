@@ -9,85 +9,85 @@ api_specs:
   label: Oracle Financials Budgetary Control API
   slug: oracle-financials-budgetary-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-budgetary-control-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-budgetary-control-api-openapi.yml
 - filename: oracle-financials-chart-of-accounts-api-openapi.yml
   format: yaml
   label: Oracle Financials Chart of Accounts API
   slug: oracle-financials-chart-of-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-chart-of-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-chart-of-accounts-api-openapi.yml
 - filename: oracle-financials-currency-rates-api-openapi.yml
   format: yaml
   label: Oracle Financials Currency Rates API
   slug: oracle-financials-currency-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-currency-rates-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-currency-rates-api-openapi.yml
 - filename: oracle-financials-journal-batches-api-openapi.yml
   format: yaml
   label: Oracle Financials Journal Batches API
   slug: oracle-financials-journal-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-journal-batches-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-journal-batches-api-openapi.yml
 - filename: oracle-financials-ledger-balances-api-openapi.yml
   format: yaml
   label: Oracle Financials Ledger Balances API
   slug: oracle-financials-ledger-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-ledger-balances-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-ledger-balances-api-openapi.yml
 - filename: oracle-financials-accounting-periods-api-openapi.yml
   format: yaml
   label: Oracle Financials Accounting Periods API
   slug: oracle-financials-accounting-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-accounting-periods-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-accounting-periods-api-openapi.yml
 - filename: oracle-financials-cash-management-api-openapi.yml
   format: yaml
   label: Oracle Financials Cash Management API
   slug: oracle-financials-cash-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-cash-management-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-cash-management-api-openapi.yml
 - filename: oracle-financials-erp-integrations-api-openapi.yml
   format: yaml
   label: Oracle Financials ERP Integrations API
   slug: oracle-financials-erp-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-erp-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-erp-integrations-api-openapi.yml
 - filename: oracle-financials-fixed-assets-api-openapi.yml
   format: yaml
   label: Oracle Financials Fixed Assets API
   slug: oracle-financials-fixed-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-fixed-assets-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-fixed-assets-api-openapi.yml
 - filename: oracle-financials-general-ledger-api-openapi.yml
   format: yaml
   label: Oracle Financials General Ledger API
   slug: oracle-financials-general-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-general-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-general-ledger-api-openapi.yml
 - filename: oracle-financials-intercompany-api-openapi.yml
   format: yaml
   label: Oracle Financials Intercompany API
   slug: oracle-financials-intercompany-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-intercompany-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-intercompany-api-openapi.yml
 - filename: oracle-financials-ledger-options-api-openapi.yml
   format: yaml
   label: Oracle Financials Ledger Options API
   slug: oracle-financials-ledger-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-ledger-options-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-ledger-options-api-openapi.yml
 - filename: oracle-financials-payables-api-openapi.yml
   format: yaml
   label: Oracle Financials Payables API
   slug: oracle-financials-payables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-payables-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-payables-api-openapi.yml
 - filename: oracle-financials-receivables-api-openapi.yml
   format: yaml
   label: Oracle Financials Receivables API
   slug: oracle-financials-receivables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/openapi/oracle-financials-receivables-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-financials/openapi/oracle-financials-receivables-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/oracle
   \ listBudgetExecutionControls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /erpintegrations\n  method: post\n  operationId: submitErpIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /intercompanyTransactions\n  method: get\n  operationId: listIntercompanyTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /intercompanyTransactions\n  method: post\n  operationId: createIntercompanyTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /journalBatches\n  method: get\n  operationId: listJournalBatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /journalBatches/{JournalBatchesUniqID}\n  method: get\n  operationId: getJournalBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /journalBatches/{JournalBatchesUniqID}\n  method: patch\n  operationId: updateJournalBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /journalBatches/{JournalBatchesUniqID}\n\
   \  method: delete\n  operationId: deleteJournalBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ledgerBalances\n  method: get\n  operationId: listLedgerBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fedLedgerOptions\n  method: get\n  operationId: listLedgerOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/agentic-access/oracle-financials-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oracle-financials/agentic-access/oracle-financials-agentic-access.yml
 summary_line: 32 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Accounting

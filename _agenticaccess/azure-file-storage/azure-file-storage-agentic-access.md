@@ -9,31 +9,55 @@ api_specs:
   label: Azure Files Account API
   slug: azure-file-storage-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-account-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-account-api-openapi.yml
 - filename: azure-file-storage-directories-api-openapi.yml
   format: yaml
   label: Azure Files Directories API
   slug: azure-file-storage-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-directories-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-directories-api-openapi.yml
 - filename: azure-file-storage-files-api-openapi.yml
   format: yaml
   label: Azure Files API
   slug: azure-file-storage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-files-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-files-api-openapi.yml
 - filename: azure-file-storage-shares-api-openapi.yml
   format: yaml
   label: Azure Files Shares API
   slug: azure-file-storage-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-shares-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-shares-api-openapi.yml
 - filename: azure-file-storage-shares-api-openapi.yml
   format: yaml
   label: Azure File Storage Shares API
   slug: microsoft-azure-file-storage-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-shares-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-shares-api-openapi.yml
+- filename: azure-file-storage-directory-api-openapi.yml
+  format: yaml
+  label: Azure Files Directory API
+  slug: azure-file-storage-directory-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-directory-api-openapi.yml
+- filename: azure-file-storage-file-api-openapi.yml
+  format: yaml
+  label: Azure Files File API
+  slug: azure-file-storage-file-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-file-api-openapi.yml
+- filename: azure-file-storage-service-api-openapi.yml
+  format: yaml
+  label: Azure Files Service API
+  slug: azure-file-storage-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-service-api-openapi.yml
+- filename: azure-file-storage-share-api-openapi.yml
+  format: yaml
+  label: Azure Files Share API
+  slug: azure-file-storage-share-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-share-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -63,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{shareName}\n  method: get\n  operationId: getShareProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{shareName}\n  method: delete\n  operationId: deleteShare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{shareName}/{directoryPath}\n  method: put\n  operationId: createDirectory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /{shareName}/{directoryPath}\n  method: get\n  operationId: listFilesAndDirectories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{shareName}/{directoryPath}\n  method: delete\n  operationId: deleteDirectory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{shareName}/{filePath}\n  method: put\n  operationId: putFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{shareName}/{filePath}\n \
   \ method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{shareName}/{filePath}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{shareName}/{filePath}\n  method: head\n  operationId: headFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/agentic-access/azure-file-storage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-file-storage/agentic-access/azure-file-storage-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Storage

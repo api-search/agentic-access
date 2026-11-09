@@ -9,43 +9,43 @@ api_specs:
   label: Toolhouse Agent Runs API
   slug: toolhouse-agent-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-agent-runs-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-agent-runs-api-openapi.yml
 - filename: toolhouse-api-keys-api-openapi.yml
   format: yaml
   label: Toolhouse API Keys API
   slug: toolhouse-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-api-keys-api-openapi.yml
 - filename: toolhouse-backoffice-api-openapi.yml
   format: yaml
   label: Toolhouse Backoffice API
   slug: toolhouse-backoffice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-backoffice-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-backoffice-api-openapi.yml
 - filename: toolhouse-logs-api-openapi.yml
   format: yaml
   label: Toolhouse Logs API
   slug: toolhouse-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-logs-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-logs-api-openapi.yml
 - filename: toolhouse-metrics-api-openapi.yml
   format: yaml
   label: Toolhouse Metrics API
   slug: toolhouse-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-metrics-api-openapi.yml
 - filename: toolhouse-sdk-api-api-openapi.yml
   format: yaml
   label: Toolhouse SDK API
   slug: toolhouse-sdk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-sdk-api-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-sdk-api-api-openapi.yml
 - filename: toolhouse-user-api-api-openapi.yml
   format: yaml
   label: Toolhouse User API
   slug: toolhouse-user-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/openapi/toolhouse-user-api-api-openapi.yml
+  url: https://artifacts.apis.io/toolhouse/openapi/toolhouse-user-api-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 67
@@ -119,8 +119,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toolho
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /backoffice/worker-status\n  method: get\n  operationId: get_worker_status_backoffice_worker_status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent-runs\n  method: get\n  operationId: get_all_agent_runs_v1_agent_runs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent-runs\n  method: post\n  operationId: create_agent_run_v1_agent_runs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agent-runs/{run_id}\n  method: get\n  operationId: get_agent_run_v1_agent_runs__run_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent-runs/{run_id}\n  method: put\n  operationId: put_agent_run_v1_agent_runs__run_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agents/{agent_id}/files\n  method: get\n  operationId: get_agent_files_for_service_v1_agents__agent_id__files_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v1/agents\n  method: get\n  operationId: get_all_chats_v1_agents_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agents\n  method: post\n  operationId: upsert_agent_v1_agents_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agents/{chat_id}\n  method: get\n  operationId: get_chat_v1_agents__chat_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agents/{chat_id}\n  method: put\n  operationId: edit_chat_v1_agents__chat_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agents/{chat_id}\n  method: patch\n  operationId: patch_chat_v1_agents__chat_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/agentic-access/toolhouse-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/agentic-access/toolhouse-agentic-access.yml
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agents/{chat_id}\n  method: patch\n  operationId: patch_chat_v1_agents__chat_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://artifacts.apis.io/toolhouse/agentic-access/toolhouse-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/toolhouse/agentic-access/toolhouse-agentic-access.yml
 summary_line: 124 operations · 57 acting · 1 human-in-the-loop
 tags:
 - Agent Infrastructure

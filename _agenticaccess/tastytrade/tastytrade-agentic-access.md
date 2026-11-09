@@ -9,163 +9,163 @@ api_specs:
   label: tastytrade Accounts API
   slug: tastytrade-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-accounts-api-openapi.yml
 - filename: tastytrade-api-quote-tokens-api-openapi.yml
   format: yaml
   label: tastytrade API Quote Tokens API
   slug: tastytrade-api-quote-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-api-quote-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-api-quote-tokens-api-openapi.yml
 - filename: tastytrade-available-dates-api-openapi.yml
   format: yaml
   label: tastytrade Available Dates API
   slug: tastytrade-available-dates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-available-dates-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-available-dates-api-openapi.yml
 - filename: tastytrade-backtests-api-openapi.yml
   format: yaml
   label: tastytrade Backtests API
   slug: tastytrade-backtests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-backtests-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-backtests-api-openapi.yml
 - filename: tastytrade-balance-snapshots-api-openapi.yml
   format: yaml
   label: tastytrade Balance Snapshots API
   slug: tastytrade-balance-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-balance-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-balance-snapshots-api-openapi.yml
 - filename: tastytrade-complex-orders-api-openapi.yml
   format: yaml
   label: tastytrade Complex Orders API
   slug: tastytrade-complex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-complex-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-complex-orders-api-openapi.yml
 - filename: tastytrade-customers-api-openapi.yml
   format: yaml
   label: tastytrade Customers API
   slug: tastytrade-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-customers-api-openapi.yml
 - filename: tastytrade-futures-option-chains-api-openapi.yml
   format: yaml
   label: tastytrade Futures Option Chains API
   slug: tastytrade-futures-option-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-futures-option-chains-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-futures-option-chains-api-openapi.yml
 - filename: tastytrade-instruments-api-openapi.yml
   format: yaml
   label: tastytrade Instruments API
   slug: tastytrade-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-instruments-api-openapi.yml
 - filename: tastytrade-margin-requirements-api-openapi.yml
   format: yaml
   label: tastytrade Margin Requirements API
   slug: tastytrade-margin-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-margin-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-margin-requirements-api-openapi.yml
 - filename: tastytrade-margin-requirements-public-configuration-api-openapi.yml
   format: yaml
   label: tastytrade Margin Requirements Public Configuration API
   slug: tastytrade-margin-requirements-public-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-margin-requirements-public-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-margin-requirements-public-configuration-api-openapi.yml
 - filename: tastytrade-market-data-controller-api-openapi.yml
   format: yaml
   label: tastytrade Market Data Controller API
   slug: tastytrade-market-data-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-market-data-controller-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-market-data-controller-api-openapi.yml
 - filename: tastytrade-market-metrics-api-openapi.yml
   format: yaml
   label: tastytrade Market Metrics API
   slug: tastytrade-market-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-market-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-market-metrics-api-openapi.yml
 - filename: tastytrade-market-time-api-openapi.yml
   format: yaml
   label: tastytrade Market Time API
   slug: tastytrade-market-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-market-time-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-market-time-api-openapi.yml
 - filename: tastytrade-net-liq-controller-api-openapi.yml
   format: yaml
   label: tastytrade Net Liq Controller API
   slug: tastytrade-net-liq-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-net-liq-controller-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-net-liq-controller-api-openapi.yml
 - filename: tastytrade-option-chains-api-openapi.yml
   format: yaml
   label: tastytrade Option Chains API
   slug: tastytrade-option-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-option-chains-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-option-chains-api-openapi.yml
 - filename: tastytrade-orders-api-openapi.yml
   format: yaml
   label: tastytrade Orders API
   slug: tastytrade-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-orders-api-openapi.yml
 - filename: tastytrade-pairs-watchlists-api-openapi.yml
   format: yaml
   label: tastytrade Pairs Watchlists API
   slug: tastytrade-pairs-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-pairs-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-pairs-watchlists-api-openapi.yml
 - filename: tastytrade-positions-api-openapi.yml
   format: yaml
   label: tastytrade Positions API
   slug: tastytrade-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-positions-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-positions-api-openapi.yml
 - filename: tastytrade-public-watchlists-api-openapi.yml
   format: yaml
   label: tastytrade Public Watchlists API
   slug: tastytrade-public-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-public-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-public-watchlists-api-openapi.yml
 - filename: tastytrade-quote-alerts-api-openapi.yml
   format: yaml
   label: tastytrade Quote Alerts API
   slug: tastytrade-quote-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-quote-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-quote-alerts-api-openapi.yml
 - filename: tastytrade-simulate-trade-api-openapi.yml
   format: yaml
   label: tastytrade Simulate Trade API
   slug: tastytrade-simulate-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-simulate-trade-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-simulate-trade-api-openapi.yml
 - filename: tastytrade-span-api-openapi.yml
   format: yaml
   label: tastytrade Span API
   slug: tastytrade-span-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-span-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-span-api-openapi.yml
 - filename: tastytrade-symbols-api-openapi.yml
   format: yaml
   label: tastytrade Symbols API
   slug: tastytrade-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-symbols-api-openapi.yml
 - filename: tastytrade-trading-status-api-openapi.yml
   format: yaml
   label: tastytrade Trading Status API
   slug: tastytrade-trading-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-trading-status-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-trading-status-api-openapi.yml
 - filename: tastytrade-transactions-api-openapi.yml
   format: yaml
   label: tastytrade Transactions API
   slug: tastytrade-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-transactions-api-openapi.yml
 - filename: tastytrade-user-watchlists-api-openapi.yml
   format: yaml
   label: tastytrade User Watchlists API
   slug: tastytrade-user-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/openapi/tastytrade-user-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/tastytrade/openapi/tastytrade-user-watchlists-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 76
@@ -281,7 +281,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/accoun
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-watchlists/{watchlist_name}\n  method: get\n  operationId: getPublicWatchlistsWatchlistName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /watchlists\n  method: post\n  operationId: postWatchlists\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists\n  method: get\n  operationId: getWatchlists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /watchlists/{watchlist_name}\n  method: put\n  operationId: putWatchlistsWatchlistName\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/{watchlist_name}\n  method: delete\n  operationId: deleteWatchlistsWatchlistName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/{watchlist_name}\n  method: get\n  operationId: getWatchlistsWatchlistName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pairs-watchlists\n  method: get\n  operationId: getPairsWatchlists\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pairs-watchlists/{pairs_watchlist_name}\n  method: get\n  operationId: getPairsWatchlistsPairsWatchlistName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/agentic-access/tastytrade-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tastytrade/agentic-access/tastytrade-agentic-access.yml
 summary_line: 96 operations · 20 acting
 tags:
 - Finance

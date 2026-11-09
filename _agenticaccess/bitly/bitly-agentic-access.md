@@ -9,61 +9,61 @@ api_specs:
   label: Bitly BSDs API
   slug: bitly-bsds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-bsds-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-bsds-api-openapi.yml
 - filename: bitly-bitlinks-api-openapi.yml
   format: yaml
   label: Bitly Bitlinks API
   slug: bitly-bitlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-bitlinks-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-bitlinks-api-openapi.yml
 - filename: bitly-campaigns-api-openapi.yml
   format: yaml
   label: Bitly Campaigns API
   slug: bitly-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-campaigns-api-openapi.yml
 - filename: bitly-custom-bitlinks-api-openapi.yml
   format: yaml
   label: Bitly Custom Bitlinks API
   slug: bitly-custom-bitlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-custom-bitlinks-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-custom-bitlinks-api-openapi.yml
 - filename: bitly-groups-api-openapi.yml
   format: yaml
   label: Bitly Groups API
   slug: bitly-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-groups-api-openapi.yml
 - filename: bitly-organizations-api-openapi.yml
   format: yaml
   label: Bitly Organizations API
   slug: bitly-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-organizations-api-openapi.yml
 - filename: bitly-qr-codes-api-openapi.yml
   format: yaml
   label: Bitly QR Codes API
   slug: bitly-qr-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-qr-codes-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-qr-codes-api-openapi.yml
 - filename: bitly-user-api-openapi.yml
   format: yaml
   label: Bitly User API
   slug: bitly-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-user-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-user-api-openapi.yml
 - filename: bitly-webhooks-api-openapi.yml
   format: yaml
   label: Bitly Webhooks API
   slug: bitly-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-webhooks-api-openapi.yml
 - filename: bitly-apps-api-openapi.yml
   format: yaml
   label: Bitly Apps API
   slug: bitly-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/openapi/bitly-apps-api-openapi.yml
+  url: https://artifacts.apis.io/bitly/openapi/bitly-apps-api-openapi.yml
 consequence_counts:
   read: 67
   write: 27
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/bitly-
   \ updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/platform_limits\n  method: get\n  operationId: getPlatformLimits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_guid}/webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId:\
   \ createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_guid}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_guid}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_guid}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_guid}/verify\n  method: post\n  operationId: verifyWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/agentic-access/bitly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitly/agentic-access/bitly-agentic-access.yml
 summary_line: 94 operations · 27 acting
 tags:
 - Links

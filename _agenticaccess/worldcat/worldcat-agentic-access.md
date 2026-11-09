@@ -9,115 +9,115 @@ api_specs:
   label: WorldCat Bibliographic Resources API
   slug: worldcat-bibliographic-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-bibliographic-resources-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-bibliographic-resources-api-openapi.yml
 - filename: worldcat-local-bib-resources-api-openapi.yml
   format: yaml
   label: WorldCat Local Bib Resources API
   slug: worldcat-local-bib-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-local-bib-resources-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-local-bib-resources-api-openapi.yml
 - filename: worldcat-local-holdings-resources-api-openapi.yml
   format: yaml
   label: WorldCat Local Holdings Resources API
   slug: worldcat-local-holdings-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-local-holdings-resources-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-local-holdings-resources-api-openapi.yml
 - filename: worldcat-manage-bibliographic-records-api-openapi.yml
   format: yaml
   label: WorldCat Manage Bibliographic Records API
   slug: worldcat-manage-bibliographic-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-manage-bibliographic-records-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-manage-bibliographic-records-api-openapi.yml
 - filename: worldcat-manage-institution-api-openapi.yml
   format: yaml
   label: WorldCat Manage Institution API
   slug: worldcat-manage-institution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-manage-institution-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-manage-institution-api-openapi.yml
 - filename: worldcat-manage-local-bibliographic-data-api-openapi.yml
   format: yaml
   label: WorldCat Manage Local Bibliographic Data API
   slug: worldcat-manage-local-bibliographic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-manage-local-bibliographic-data-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-manage-local-bibliographic-data-api-openapi.yml
 - filename: worldcat-manage-local-holdings-records-api-openapi.yml
   format: yaml
   label: WorldCat Manage Local Holdings Records API
   slug: worldcat-manage-local-holdings-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-manage-local-holdings-records-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-manage-local-holdings-records-api-openapi.yml
 - filename: worldcat-member-enabled-collections-api-openapi.yml
   format: yaml
   label: WorldCat Member Enabled Collections API
   slug: worldcat-member-enabled-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-member-enabled-collections-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-member-enabled-collections-api-openapi.yml
 - filename: worldcat-member-enabled-providers-api-openapi.yml
   format: yaml
   label: WorldCat Member Enabled Providers API
   slug: worldcat-member-enabled-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-member-enabled-providers-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-member-enabled-providers-api-openapi.yml
 - filename: worldcat-member-enabled-title-by-openurl-api-openapi.yml
   format: yaml
   label: WorldCat Member Enabled Title by OpenURL API
   slug: worldcat-member-enabled-title-by-openurl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-member-enabled-title-by-openurl-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-member-enabled-title-by-openurl-api-openapi.yml
 - filename: worldcat-member-enabled-titles-api-openapi.yml
   format: yaml
   label: WorldCat Member Enabled Titles API
   slug: worldcat-member-enabled-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-member-enabled-titles-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-member-enabled-titles-api-openapi.yml
 - filename: worldcat-member-enabled-titles-by-openurl-api-openapi.yml
   format: yaml
   label: WorldCat Member Enabled Titles by OpenURL API
   slug: worldcat-member-enabled-titles-by-openurl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-member-enabled-titles-by-openurl-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-member-enabled-titles-by-openurl-api-openapi.yml
 - filename: worldcat-member-general-holdings-api-openapi.yml
   format: yaml
   label: WorldCat Member General Holdings API
   slug: worldcat-member-general-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-member-general-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-member-general-holdings-api-openapi.yml
 - filename: worldcat-member-shared-print-holdings-api-openapi.yml
   format: yaml
   label: WorldCat Member Shared Print Holdings API
   slug: worldcat-member-shared-print-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-member-shared-print-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-member-shared-print-holdings-api-openapi.yml
 - filename: worldcat-retrieve-entity-api-openapi.yml
   format: yaml
   label: WorldCat Retrieve entity API
   slug: worldcat-retrieve-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-retrieve-entity-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-retrieve-entity-api-openapi.yml
 - filename: worldcat-search-bibliographic-resources-api-openapi.yml
   format: yaml
   label: WorldCat Search Bibliographic Resources API
   slug: worldcat-search-bibliographic-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-search-bibliographic-resources-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-search-bibliographic-resources-api-openapi.yml
 - filename: worldcat-search-local-holdings-resources-api-openapi.yml
   format: yaml
   label: WorldCat Search Local Holdings Resources API
   slug: worldcat-search-local-holdings-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-search-local-holdings-resources-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-search-local-holdings-resources-api-openapi.yml
 - filename: worldcat-search-member-general-holdings-api-openapi.yml
   format: yaml
   label: WorldCat Search Member General Holdings API
   slug: worldcat-search-member-general-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-search-member-general-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-search-member-general-holdings-api-openapi.yml
 - filename: worldcat-search-member-shared-print-holdings-api-openapi.yml
   format: yaml
   label: WorldCat Search Member Shared Print Holdings API
   slug: worldcat-search-member-shared-print-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-search-member-shared-print-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/worldcat/openapi/worldcat-search-member-shared-print-holdings-api-openapi.yml
 consequence_counts:
   read: 43
   safety-critical: 4
@@ -187,7 +187,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/worldc
   \ path: /worldcat/search/v2/bibs-holdings\n  method: get\n  operationId: find-bib-holdings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wcapi:view_institution_holdings\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worldcat/search/v2/bibs-detailed-holdings\n  method: get\n  operationId: find-bib-detailed-holdings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wcapi:view_holdings\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worldcat/search/v2/bibs\n  method: get\n  operationId: search-bibs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wcapi:view_bib\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worldcat/search/v2/bibs/{oclcNumber}\n  method: get\n  operationId: retrieve-bib\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    scope:\n    - wcapi:view_bib\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worldcat/search/v2/brief-bibs\n  method: get\n  operationId: search-brief-bibs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wcapi:view_brief_bib\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worldcat/search/v2/brief-bibs/{oclcNumber}\n  method: get\n  operationId: retrieve-brief-bib\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wcapi:view_brief_bib\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worldcat/search/v2/brief-bibs/{oclcNumber}/other-editions\n  method: get\n  operationId: retrieve-other-editions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wcapi:view_brief_bib\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worldcat/search/v2/my-holdings/{controlNumber}\n\
   \  method: get\n  operationId: retrieve-lhr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wcapi:view_my_holdings\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worldcat/search/v2/my-holdings\n  method: get\n  operationId: search-lhr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wcapi:view_my_holdings\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worldcat/search/v2/retained-holdings\n  method: get\n  operationId: search-retrained-lhr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wcapi:view_retained_holdings\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/agentic-access/worldcat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/worldcat/agentic-access/worldcat-agentic-access.yml
 summary_line: 58 operations · 15 acting · 4 human-in-the-loop
 tags:
 - Library

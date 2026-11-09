@@ -9,67 +9,67 @@ api_specs:
   label: Monid API Keys API
   slug: monid-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-api-keys-api-openapi.yml
 - filename: monid-auth-api-openapi.yml
   format: yaml
   label: Monid Auth API
   slug: monid-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-auth-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-auth-api-openapi.yml
 - filename: monid-controls-api-openapi.yml
   format: yaml
   label: Monid Controls API
   slug: monid-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-controls-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-controls-api-openapi.yml
 - filename: monid-discover-api-openapi.yml
   format: yaml
   label: Monid Discover API
   slug: monid-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-discover-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-discover-api-openapi.yml
 - filename: monid-endpoints-api-openapi.yml
   format: yaml
   label: Monid Endpoints API
   slug: monid-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-endpoints-api-openapi.yml
 - filename: monid-inspect-api-openapi.yml
   format: yaml
   label: Monid Inspect API
   slug: monid-inspect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-inspect-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-inspect-api-openapi.yml
 - filename: monid-public-registry-api-openapi.yml
   format: yaml
   label: Monid Public Registry API
   slug: monid-public-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-public-registry-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-public-registry-api-openapi.yml
 - filename: monid-resources-api-openapi.yml
   format: yaml
   label: Monid Resources API
   slug: monid-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-resources-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-resources-api-openapi.yml
 - filename: monid-runs-api-openapi.yml
   format: yaml
   label: Monid Runs API
   slug: monid-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-runs-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-runs-api-openapi.yml
 - filename: monid-wallet-api-openapi.yml
   format: yaml
   label: Monid Wallet API
   slug: monid-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-wallet-api-openapi.yml
 - filename: monid-identities-api-openapi.yml
   format: yaml
   label: Monid Identities API
   slug: monid-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-identities-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-identities-api-openapi.yml
 consequence_counts:
   read: 26
   safety-critical: 3
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/monid-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/resources/{resourceId}/events\n  method: get\n  operationId: getV1ResourcesByResourceIdEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/resources/{resourceId}/release\n  method: post\n  operationId: postV1ResourcesByResourceIdRelease\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/resources/{resourceId}\n  method: get\n  operationId: getV1ResourcesByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/run\n  method: post\n  operationId: postV1Run\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/runs\n  method: get\n  operationId: getV1Runs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/runs/{runId}\n  method: get\n  operationId: getV1RunsByRunId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/runs/{runId}/controls\n  method: get\n  operationId: getV1RunsByRunIdControls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/runs/{runId}/stop\n  method: post\n  operationId: postV1RunsByRunIdStop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/wallet/balance\n  method: get\n  operationId: getV1WalletBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/wallet/topup\n  method: get\n  operationId: getV1WalletTopup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/agentic-access/monid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/monid/agentic-access/monid-agentic-access.yml
 summary_line: 33 operations · 7 acting · 3 human-in-the-loop
 tags:
 - Company

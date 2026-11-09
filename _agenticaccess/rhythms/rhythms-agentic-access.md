@@ -9,79 +9,79 @@ api_specs:
   label: Rhythms Access Requests API
   slug: rhythms-access-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-access-requests-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-access-requests-api-openapi.yml
 - filename: rhythms-chat-refresh-threads-api-openapi.yml
   format: yaml
   label: Rhythms Chat Refresh Threads API
   slug: rhythms-chat-refresh-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-chat-refresh-threads-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-chat-refresh-threads-api-openapi.yml
 - filename: rhythms-connector-requests-api-openapi.yml
   format: yaml
   label: Rhythms Connector Requests API
   slug: rhythms-connector-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-connector-requests-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-connector-requests-api-openapi.yml
 - filename: rhythms-data-sources-api-openapi.yml
   format: yaml
   label: Rhythms Data Sources API
   slug: rhythms-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-data-sources-api-openapi.yml
 - filename: rhythms-documents-api-openapi.yml
   format: yaml
   label: Rhythms Documents API
   slug: rhythms-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-documents-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-documents-api-openapi.yml
 - filename: rhythms-explorer-views-api-openapi.yml
   format: yaml
   label: Rhythms Explorer Views API
   slug: rhythms-explorer-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-explorer-views-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-explorer-views-api-openapi.yml
 - filename: rhythms-labels-api-openapi.yml
   format: yaml
   label: Rhythms Labels API
   slug: rhythms-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-labels-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-labels-api-openapi.yml
 - filename: rhythms-mention-access-checks-api-openapi.yml
   format: yaml
   label: Rhythms Mention Access Checks API
   slug: rhythms-mention-access-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-mention-access-checks-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-mention-access-checks-api-openapi.yml
 - filename: rhythms-notifications-api-openapi.yml
   format: yaml
   label: Rhythms Notifications API
   slug: rhythms-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-notifications-api-openapi.yml
 - filename: rhythms-objectives-api-openapi.yml
   format: yaml
   label: Rhythms Objectives API
   slug: rhythms-objectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-objectives-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-objectives-api-openapi.yml
 - filename: rhythms-teams-api-openapi.yml
   format: yaml
   label: Rhythms Teams API
   slug: rhythms-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-teams-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-teams-api-openapi.yml
 - filename: rhythms-time-periods-api-openapi.yml
   format: yaml
   label: Rhythms Time Periods API
   slug: rhythms-time-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-time-periods-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-time-periods-api-openapi.yml
 - filename: rhythms-users-api-openapi.yml
   format: yaml
   label: Rhythms Users API
   slug: rhythms-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/openapi/rhythms-users-api-openapi.yml
+  url: https://artifacts.apis.io/rhythms/openapi/rhythms-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 14
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/rhythm
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: post\n  operationId: post_teams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{id}\n  method: put\n  operationId: put_teams_id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{id}/add_members\n  method: put\n  operationId: put_teams_id_add_members\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{id}/remove_member/{member_uuid}\n  method: delete\n  operationId: delete_teams_id_remove_member_member_uuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{id}/owners\n  method: get\n  operationId: get_teams_id_owners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}/members\n  method: get\n  operationId: get_teams_id_members\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: get_users\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/agentic-access/rhythms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rhythms/agentic-access/rhythms-agentic-access.yml
 summary_line: 31 operations · 17 acting
 tags:
 - Company
@@ -141,4 +141,6 @@ tags:
 - Team Collaboration
 - Business Reviews
 - MCP
+- Workflows
+- Business Intelligence
 ---

@@ -9,37 +9,37 @@ api_specs:
   label: BrowserStack AccessKey API
   slug: browserstack-accesskey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-accesskey-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-accesskey-api-openapi.yml
 - filename: browserstack-browsers-api-openapi.yml
   format: yaml
   label: BrowserStack Browsers API
   slug: browserstack-browsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-browsers-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-browsers-api-openapi.yml
 - filename: browserstack-builds-api-openapi.yml
   format: yaml
   label: BrowserStack Builds API
   slug: browserstack-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-builds-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-builds-api-openapi.yml
 - filename: browserstack-plan-api-openapi.yml
   format: yaml
   label: BrowserStack Plan API
   slug: browserstack-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-plan-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-plan-api-openapi.yml
 - filename: browserstack-projects-api-openapi.yml
   format: yaml
   label: BrowserStack Projects API
   slug: browserstack-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-projects-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-projects-api-openapi.yml
 - filename: browserstack-sessions-api-openapi.yml
   format: yaml
   label: BrowserStack Sessions API
   slug: browserstack-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-sessions-api-openapi.yml
 consequence_counts:
   read: 11
   write: 7
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/browse
   \  method: delete\n  operationId: deleteBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /automate/builds/{buildId}/sessions.json\n  method: get\n  operationId: listBuildSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /automate/sessions/{sessionId}.json\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /automate/sessions/{sessionId}.json\n  method: put\n  operationId: updateSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /automate/sessions/{sessionId}.json\n  method: delete\n  operationId: deleteSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /automate/sessions/{sessionId}/logs\n  method: get\n  operationId: getSessionLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /automate/sessions/{sessionId}/networklogs\n  method: get\n  operationId: getSessionNetworkLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /automate/sessions/{sessionId}/consolelogs\n  method: get\n  operationId: getSessionConsoleLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /automate/recycle_key.json\n  method: put\n  operationId: recycleAccessKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/agentic-access/browserstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/browserstack/agentic-access/browserstack-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - Accessibility

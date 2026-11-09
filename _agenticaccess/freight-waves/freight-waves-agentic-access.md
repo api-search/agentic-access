@@ -9,19 +9,19 @@ api_specs:
   label: Freight Waves Authentication API
   slug: freight-waves-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/freight-waves/openapi/freight-waves-authentication-api-openapi.yml
 - filename: freight-waves-data-api-openapi.yml
   format: yaml
   label: Freight Waves Data API
   slug: freight-waves-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-data-api-openapi.yml
+  url: https://artifacts.apis.io/freight-waves/openapi/freight-waves-data-api-openapi.yml
 - filename: freight-waves-lookup-api-openapi.yml
   format: yaml
   label: Freight Waves Lookup API
   slug: freight-waves-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/freight-waves/openapi/freight-waves-lookup-api-openapi.yml
 consequence_counts:
   read: 8
   write: 1
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/freight-waves-sonar-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    acting: 1\n    connected: 8\n  by_consequence:\n    write: 1\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /Credential/authenticate\n  method: post\n  operationId: authenticate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/{index}/{qualifier}/{date}\n  method: get\n  operationId: getIndexData\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/{index}/{qualifier}/{startDate}/{endDate}\n  method: get\n  operationId: getIndexDataRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Lookup/Indexes\n  method: get\n  operationId: lookupIndexes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Lookup/Qualifiers\n  method: get\n  operationId: lookupQualifiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Lookup/Levels\n  method: get\n  operationId: lookupLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /Lookup/Lanes\n  method: get\n  operationId: lookupLanes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Lookup/Zip3\n  method: get\n  operationId: lookupZip3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Lookup/Latest\n  method: get\n  operationId: lookupLatestData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/agentic-access/freight-waves-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/freight-waves/agentic-access/freight-waves-agentic-access.yml
 summary_line: 9 operations · 1 acting
 tags:
 - Company

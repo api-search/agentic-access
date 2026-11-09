@@ -9,37 +9,37 @@ api_specs:
   label: Cellulant Acknowledgement API
   slug: cellulant-acknowledgement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-acknowledgement-api-openapi.yml
+  url: https://artifacts.apis.io/cellulant/openapi/cellulant-acknowledgement-api-openapi.yml
 - filename: cellulant-authentication-api-openapi.yml
   format: yaml
   label: Cellulant Authentication API
   slug: cellulant-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cellulant/openapi/cellulant-authentication-api-openapi.yml
 - filename: cellulant-custom-checkout-api-openapi.yml
   format: yaml
   label: Cellulant Custom Checkout API
   slug: cellulant-custom-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-custom-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/cellulant/openapi/cellulant-custom-checkout-api-openapi.yml
 - filename: cellulant-engagement-api-openapi.yml
   format: yaml
   label: Cellulant Engagement API
   slug: cellulant-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/cellulant/openapi/cellulant-engagement-api-openapi.yml
 - filename: cellulant-express-checkout-api-openapi.yml
   format: yaml
   label: Cellulant Express Checkout API
   slug: cellulant-express-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-express-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/cellulant/openapi/cellulant-express-checkout-api-openapi.yml
 - filename: cellulant-payments-api-openapi.yml
   format: yaml
   label: Cellulant Payments API
   slug: cellulant-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/openapi/cellulant-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cellulant/openapi/cellulant-payments-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 1
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cellul
   - path: /v3/checkout-api/checkout-request/express-request\n  method: post\n  operationId: createExpressCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/checkout-api/checkout-request/custom-request\n  method: post\n  operationId: initiateCustomCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/checkout-api/checkout-request/charge\n  method: post\n  operationId: initiateChargeRequest\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/checkout-api/query-status\n  method: get\n  operationId: queryRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/checkout-api/acknowledgement/request\n  method: post\n  operationId: acknowledgePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/engagement\n\
   \  method: post\n  operationId: sendEngagement\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/global-api/payments\n  method: post\n  operationId: postPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/agentic-access/cellulant-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cellulant/agentic-access/cellulant-agentic-access.yml
 summary_line: 8 operations · 7 acting
 tags:
 - Payments

@@ -9,31 +9,31 @@ api_specs:
   label: VivaLNK Devices API
   slug: vivalink-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-devices-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-devices-api-openapi.yml
 - filename: vivalink-fhir-api-openapi.yml
   format: yaml
   label: VivaLNK FHIR API
   slug: vivalink-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-fhir-api-openapi.yml
 - filename: vivalink-subjects-api-openapi.yml
   format: yaml
   label: VivaLNK Subjects API
   slug: vivalink-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-subjects-api-openapi.yml
 - filename: vivalink-vital-signs-api-openapi.yml
   format: yaml
   label: VivaLNK Vital Signs API
   slug: vivalink-vital-signs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-vital-signs-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-vital-signs-api-openapi.yml
 - filename: vivalink-webhooks-api-openapi.yml
   format: yaml
   label: VivaLNK Webhooks API
   slug: vivalink-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/openapi/vivalink-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vivalink/openapi/vivalink-webhooks-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vivali
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/subjects/{subjectId}/measurements\n  method: get\n  operationId: listMeasurements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subjects/{subjectId}/exports\n  method: post\n  operationId: createExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fhir/Observation\n  method: get\n  operationId: searchFhirObservations\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/agentic-access/vivalink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vivalink/agentic-access/vivalink-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Connected Health

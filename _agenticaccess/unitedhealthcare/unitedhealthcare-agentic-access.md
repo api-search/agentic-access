@@ -9,43 +9,43 @@ api_specs:
   label: UnitedHealthcare Claims API
   slug: unitedhealthcare-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-claims-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealthcare/openapi/unitedhealthcare-claims-api-openapi.yml
 - filename: unitedhealthcare-eligibility-api-openapi.yml
   format: yaml
   label: UnitedHealthcare Eligibility API
   slug: unitedhealthcare-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealthcare/openapi/unitedhealthcare-eligibility-api-openapi.yml
 - filename: unitedhealthcare-formulary-api-openapi.yml
   format: yaml
   label: UnitedHealthcare Formulary API
   slug: unitedhealthcare-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealthcare/openapi/unitedhealthcare-formulary-api-openapi.yml
 - filename: unitedhealthcare-patient-access-api-openapi.yml
   format: yaml
   label: UnitedHealthcare Patient Access API
   slug: unitedhealthcare-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealthcare/openapi/unitedhealthcare-patient-access-api-openapi.yml
 - filename: unitedhealthcare-prior-authorization-api-openapi.yml
   format: yaml
   label: UnitedHealthcare Prior Authorization API
   slug: unitedhealthcare-prior-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-prior-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealthcare/openapi/unitedhealthcare-prior-authorization-api-openapi.yml
 - filename: unitedhealthcare-provider-directory-api-openapi.yml
   format: yaml
   label: UnitedHealthcare Provider Directory API
   slug: unitedhealthcare-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealthcare/openapi/unitedhealthcare-provider-directory-api-openapi.yml
 - filename: unitedhealthcare-providers-api-openapi.yml
   format: yaml
   label: UnitedHealthcare Providers API
   slug: unitedhealthcare-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/openapi/unitedhealthcare-providers-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealthcare/openapi/unitedhealthcare-providers-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/united
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /Coverage\n  method: get\n  operationId: listCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Practitioner\n  method: get\n  operationId: listPractitioners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Organization\n  method: get\n  operationId: listOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationKnowledge\n  method: get\n  operationId: listFormulary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eligibility/v1/real-time\n  method: post\n  operationId: checkEligibility\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eligibility/v1/patient-benefit-check\n  method: post\n  operationId: checkPatientBenefit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claims/v1/pre-check\n  method: post\n  operationId: claimPreCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /claims/v1/inquiry\n  method: post\n  operationId: inquireClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prior-auth/v1/check\n  method: post\n  operationId: checkPriorAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /providers/v1/demographics\n  method: get\n  operationId: getProviderDemographics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/agentic-access/unitedhealthcare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unitedhealthcare/agentic-access/unitedhealthcare-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Health Insurance

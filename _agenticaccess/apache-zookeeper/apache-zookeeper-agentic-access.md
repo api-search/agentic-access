@@ -8,31 +8,31 @@ api_specs:
   label: Apache ZooKeeper Cluster API
   slug: apache-zookeeper-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/apache-zookeeper/openapi/apache-zookeeper-cluster-api-openapi.yml
 - filename: apache-zookeeper-configuration-api-openapi.yml
   format: yaml
   label: Apache ZooKeeper Configuration API
   slug: apache-zookeeper-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/apache-zookeeper/openapi/apache-zookeeper-configuration-api-openapi.yml
 - filename: apache-zookeeper-health-api-openapi.yml
   format: yaml
   label: Apache ZooKeeper Health API
   slug: apache-zookeeper-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-health-api-openapi.yml
+  url: https://artifacts.apis.io/apache-zookeeper/openapi/apache-zookeeper-health-api-openapi.yml
 - filename: apache-zookeeper-monitoring-api-openapi.yml
   format: yaml
   label: Apache ZooKeeper Monitoring API
   slug: apache-zookeeper-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/apache-zookeeper/openapi/apache-zookeeper-monitoring-api-openapi.yml
 - filename: apache-zookeeper-watches-api-openapi.yml
   format: yaml
   label: Apache ZooKeeper Watches API
   slug: apache-zookeeper-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-watches-api-openapi.yml
+  url: https://artifacts.apis.io/apache-zookeeper/openapi/apache-zookeeper-watches-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zookee
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /srst\n  method: get\n  operationId: resetStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mntr\n  method: get\n  operationId: getMonitorMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wchs\n  method: get\n  operationId: getWatchSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wchc\n  method: get\n  operationId: getWatchesByConnection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wchp\n \
   \ method: get\n  operationId: getWatchesByPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dirs\n  method: get\n  operationId: getDirectorySize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /isro\n  method: get\n  operationId: isReadOnly\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hash\n  method: get\n  operationId: getHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voting_view\n  method: get\n  operationId: getVotingView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /leader\n  method: get\n  operationId: getLeader\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /initial_configuration\n  method: get\n  operationId: getInitialConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /last_snapshot\n  method: get\n  operationId: getLastSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system_properties\n  method: get\n  operationId: getSystemProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/agentic-access/apache-zookeeper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-zookeeper/agentic-access/apache-zookeeper-agentic-access.yml
 summary_line: 21 operations
 tags:
 - Configuration Management

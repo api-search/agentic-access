@@ -9,49 +9,49 @@ api_specs:
   label: CloudAlly API Authorization API
   slug: cloudally-api-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-api-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-api-authorization-api-openapi.yml
 - filename: cloudally-backup-management-api-openapi.yml
   format: yaml
   label: CloudAlly Backup management API
   slug: cloudally-backup-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-backup-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-backup-management-api-openapi.yml
 - filename: cloudally-billing-management-api-openapi.yml
   format: yaml
   label: CloudAlly Billing management API
   slug: cloudally-billing-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-billing-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-billing-management-api-openapi.yml
 - filename: cloudally-distributor-backup-management-api-openapi.yml
   format: yaml
   label: CloudAlly Distributor Backup management API
   slug: cloudally-distributor-backup-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-distributor-backup-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-distributor-backup-management-api-openapi.yml
 - filename: cloudally-partner-portal-api-openapi.yml
   format: yaml
   label: CloudAlly Partner Portal API
   slug: cloudally-partner-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-partner-portal-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-partner-portal-api-openapi.yml
 - filename: cloudally-reseller-backup-management-api-openapi.yml
   format: yaml
   label: CloudAlly Reseller Backup management API
   slug: cloudally-reseller-backup-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-reseller-backup-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-reseller-backup-management-api-openapi.yml
 - filename: cloudally-restore-download-api-openapi.yml
   format: yaml
   label: CloudAlly Restore & Download API
   slug: cloudally-restore-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-restore-download-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-restore-download-api-openapi.yml
 - filename: cloudally-user-management-api-openapi.yml
   format: yaml
   label: CloudAlly User management API
   slug: cloudally-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-user-management-api-openapi.yml
 consequence_counts:
   read: 10
   write: 4
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/clouda
   \  method: get\n  operationId: getPartnerStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/partners/tasks\n  method: get\n  operationId: listPartnerTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/partners/resellers\n  method: get\n  operationId: listResellers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/partners/resellers/{resellerId}\n  method: get\n  operationId: getReseller\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/partners/users\n  method: get\n  operationId: listPartnerUsers\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/backup-tasks\n  method: get\n  operationId: listBackupTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/backup-tasks/{taskId}\n  method: get\n  operationId: getBackupTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/restore\n  method: post\n  operationId: createRestoreRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/restore/{jobId}\n  method: get\n  operationId: getRestoreStatus\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/agentic-access/cloudally-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudally/agentic-access/cloudally-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - Backup

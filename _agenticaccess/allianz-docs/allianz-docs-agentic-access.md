@@ -9,25 +9,25 @@ api_specs:
   label: Allianz Certificates API
   slug: allianz-docs-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-certificates-api-openapi.yml
 - filename: allianz-docs-leads-api-openapi.yml
   format: yaml
   label: Allianz Leads API
   slug: allianz-docs-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-leads-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-leads-api-openapi.yml
 - filename: allianz-docs-policy-details-api-openapi.yml
   format: yaml
   label: Allianz Policy Details API
   slug: allianz-docs-policy-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-policy-details-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-policy-details-api-openapi.yml
 - filename: allianz-docs-price-estimates-api-openapi.yml
   format: yaml
   label: Allianz Price Estimates API
   slug: allianz-docs-price-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-price-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-price-estimates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/allian
   \ createInstantLeadReferral\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policy-details/assisted\n  method: post\n  operationId: getPolicyDetailsAssisted\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy-details/self-service\n  method: post\n  operationId: createPolicyDetailsSelfService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /price-estimate/assisted\n  method: post\n  operationId: createPriceEstimateAssisted\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /price-estimate/email\n  method: post\n  operationId: sendPriceEstimateEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /price-estimate/self-service\n  method: post\n  operationId: createPriceEstimateSelfService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /price-estimate/{estimate_id}/summary\n  method: get\n  operationId: getPriceEstimateSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price-estimate/{estimate_id}/rating-factors\n  method: get\n  operationId: getPriceEstimateRatingFactors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/agentic-access/allianz-docs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/allianz-docs/agentic-access/allianz-docs-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Financial Services

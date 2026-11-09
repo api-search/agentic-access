@@ -9,109 +9,109 @@ api_specs:
   label: Bigtincan Admin API
   slug: bigtincan-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-admin-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-admin-api-openapi.yml
 - filename: bigtincan-bookmark-api-openapi.yml
   format: yaml
   label: Bigtincan Bookmark API
   slug: bigtincan-bookmark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-bookmark-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-bookmark-api-openapi.yml
 - filename: bigtincan-channel-api-openapi.yml
   format: yaml
   label: Bigtincan Channel API
   slug: bigtincan-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-channel-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-channel-api-openapi.yml
 - filename: bigtincan-crm-api-openapi.yml
   format: yaml
   label: Bigtincan CRM API
   slug: bigtincan-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-crm-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-crm-api-openapi.yml
 - filename: bigtincan-event-api-openapi.yml
   format: yaml
   label: Bigtincan Event API
   slug: bigtincan-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-event-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-event-api-openapi.yml
 - filename: bigtincan-file-api-openapi.yml
   format: yaml
   label: Bigtincan File API
   slug: bigtincan-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-file-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-file-api-openapi.yml
 - filename: bigtincan-form-api-openapi.yml
   format: yaml
   label: Bigtincan Form API
   slug: bigtincan-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-form-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-form-api-openapi.yml
 - filename: bigtincan-group-api-openapi.yml
   format: yaml
   label: Bigtincan Group API
   slug: bigtincan-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-group-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-group-api-openapi.yml
 - filename: bigtincan-history-api-openapi.yml
   format: yaml
   label: Bigtincan History API
   slug: bigtincan-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-history-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-history-api-openapi.yml
 - filename: bigtincan-links-api-openapi.yml
   format: yaml
   label: Bigtincan Links API
   slug: bigtincan-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-links-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-links-api-openapi.yml
 - filename: bigtincan-public-file-share-api-openapi.yml
   format: yaml
   label: Bigtincan Public File Share API
   slug: bigtincan-public-file-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-public-file-share-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-public-file-share-api-openapi.yml
 - filename: bigtincan-search-api-openapi.yml
   format: yaml
   label: Bigtincan Search API
   slug: bigtincan-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-search-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-search-api-openapi.yml
 - filename: bigtincan-settings-api-openapi.yml
   format: yaml
   label: Bigtincan Settings API
   slug: bigtincan-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-settings-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-settings-api-openapi.yml
 - filename: bigtincan-story-api-openapi.yml
   format: yaml
   label: Bigtincan Story API
   slug: bigtincan-story-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-story-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-story-api-openapi.yml
 - filename: bigtincan-tab-api-openapi.yml
   format: yaml
   label: Bigtincan Tab API
   slug: bigtincan-tab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-tab-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-tab-api-openapi.yml
 - filename: bigtincan-tag-api-openapi.yml
   format: yaml
   label: Bigtincan Tag API
   slug: bigtincan-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-tag-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-tag-api-openapi.yml
 - filename: bigtincan-user-api-openapi.yml
   format: yaml
   label: Bigtincan User API
   slug: bigtincan-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-user-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-user-api-openapi.yml
 - filename: bigtincan-user-metadata-api-openapi.yml
   format: yaml
   label: Bigtincan User Metadata API
   slug: bigtincan-user-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-user-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/bigtincan/openapi/bigtincan-user-metadata-api-openapi.yml
 consequence_counts:
   read: 38
   safety-critical: 1
@@ -172,7 +172,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bigtin
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/{user_id}/metadata\n  method: patch\n  operationId: patch-v1-user-by-user-id-metadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.1/user\n  method: post\n  operationId: post-v1-1-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.1/user\n  method: patch\n  operationId: patch-v1-1-user\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user-metadata\n  method: get\n  operationId: get-v1-user-metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/{user_id}/metadata\n  method: get\n  operationId: get-v1-user-by-user-id-metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/{user_id}/metadata\n  method: patch\n  operationId: patch-v1-user-by-user-id-metadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/agentic-access/bigtincan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bigtincan/agentic-access/bigtincan-agentic-access.yml
 summary_line: 78 operations · 40 acting · 1 human-in-the-loop
 tags:
 - Sales Enablement

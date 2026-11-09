@@ -9,37 +9,37 @@ api_specs:
   label: Pollfish Apps API
   slug: pollfish-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-apps-api-openapi.yml
+  url: https://artifacts.apis.io/pollfish/openapi/pollfish-apps-api-openapi.yml
 - filename: pollfish-demographics-api-openapi.yml
   format: yaml
   label: Pollfish Demographics API
   slug: pollfish-demographics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-demographics-api-openapi.yml
+  url: https://artifacts.apis.io/pollfish/openapi/pollfish-demographics-api-openapi.yml
 - filename: pollfish-logs-api-openapi.yml
   format: yaml
   label: Pollfish Logs API
   slug: pollfish-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-logs-api-openapi.yml
+  url: https://artifacts.apis.io/pollfish/openapi/pollfish-logs-api-openapi.yml
 - filename: pollfish-performance-api-openapi.yml
   format: yaml
   label: Pollfish Performance API
   slug: pollfish-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-performance-api-openapi.yml
+  url: https://artifacts.apis.io/pollfish/openapi/pollfish-performance-api-openapi.yml
 - filename: pollfish-revenue-api-openapi.yml
   format: yaml
   label: Pollfish Revenue API
   slug: pollfish-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-revenue-api-openapi.yml
+  url: https://artifacts.apis.io/pollfish/openapi/pollfish-revenue-api-openapi.yml
 - filename: pollfish-survey-distribution-api-openapi.yml
   format: yaml
   label: Pollfish Survey Distribution API
   slug: pollfish-survey-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/openapi/pollfish-survey-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/pollfish/openapi/pollfish-survey-distribution-api-openapi.yml
 consequence_counts:
   read: 14
   write: 3
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pollfi
   \    audit: required\n- path: /api/public/v3/apps/performance\n  method: get\n  operationId: getAllAppsPerformance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v3/apps/{api_key}/performance\n  method: get\n  operationId: getAppPerformance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v3/apps/{api_key}/performanceByCountry\n  method: get\n  operationId: getAppPerformanceByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v3/apps/revenue\n  method: get\n  operationId: getAllAppsRevenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/public/v3/apps/{api_key}/revenue\n  method: get\n  operationId: getAppRevenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v3/apps/revenuePerCountry\n  method: get\n  operationId: getAllAppsRevenuePerCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v3/apps/{api_key}/revenuePerCountry\n  method: get\n  operationId: getAppRevenuePerCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v3/apps/demographics\n  method: get\n  operationId: getRespondentDemographics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/public/v3/apps/{api_key}/users_log\n  method: get\n  operationId: getUsersLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/device/register/true\n  method: get\n  operationId: registerDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/device/register/true\n  method: head\n  operationId: checkSurveyAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/device/survey/{survey_id}\n  method: get\n  operationId: loadSurvey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pollfish/refs/heads/main/agentic-access/pollfish-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pollfish/agentic-access/pollfish-agentic-access.yml
 summary_line: 17 operations · 3 acting
 tags:
 - Surveys

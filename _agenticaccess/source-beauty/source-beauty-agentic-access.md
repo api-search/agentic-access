@@ -26,7 +26,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://sourcebeauty.com/llms.txt + https://sourcebeauty.com/.well-known/ucp\naudience: null\nsummary:\n  surface: Universal Commerce Protocol (UCP) shopping MCP + Shop skill\n  mcp_endpoint: https://sourcebeauty.com/api/ucp/mcp\n  human_in_the_loop_required: true\n  notes: >-\n    Source Beauty publishes explicit agent-access guidance (/llms.txt, mirrored at\n    /agents.md). Two sanctioned agent paths: (1) the store's own UCP shopping MCP\n    endpoint, (2) the cross-store Shop skill (https://shop.app/SKILL.md) routing\n    payment through Shop Pay. Published invariant: checkout MUST NOT complete payment\n    without contemporaneous, explicit buyer approval; agents must back off on HTTP 429.\noperations:\n- tool: search_catalog\n  action_class: read\n  consequence: read\n  human_in_the_loop: false\n- tool: create_cart\n  action_class: write\n  consequence: write\n  human_in_the_loop: false\n- tool: create_checkout\n  action_class:\
   \ acting\n  consequence: write\n  human_in_the_loop: false\n- tool: update_checkout\n  action_class: acting\n  consequence: write\n  human_in_the_loop: false\n- tool: complete_checkout\n  action_class: acting\n  consequence: physical\n  human_in_the_loop: required\n  rule: Buyer must explicitly approve payment at the moment of completion (published UCP rule).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/agentic-access/source-beauty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/source-beauty/agentic-access/source-beauty-agentic-access.yml
 summary_line: 5 operations · 1 human-in-the-loop
 tags:
 - Company

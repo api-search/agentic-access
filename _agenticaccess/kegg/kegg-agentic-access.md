@@ -8,43 +8,43 @@ api_specs:
   label: Kyoto Encyclopedia of Genes and Genomes (KEGG) conv API
   slug: kegg-conv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-conv-api-openapi.yml
+  url: https://artifacts.apis.io/kegg/openapi/kegg-conv-api-openapi.yml
 - filename: kegg-ddi-api-openapi.yml
   format: yaml
   label: Kyoto Encyclopedia of Genes and Genomes (KEGG) ddi API
   slug: kegg-ddi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-ddi-api-openapi.yml
+  url: https://artifacts.apis.io/kegg/openapi/kegg-ddi-api-openapi.yml
 - filename: kegg-find-api-openapi.yml
   format: yaml
   label: Kyoto Encyclopedia of Genes and Genomes (KEGG) Find API
   slug: kegg-find-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-find-api-openapi.yml
+  url: https://artifacts.apis.io/kegg/openapi/kegg-find-api-openapi.yml
 - filename: kegg-get-api-openapi.yml
   format: yaml
   label: Kyoto Encyclopedia of Genes and Genomes (KEGG) Get API
   slug: kegg-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-get-api-openapi.yml
+  url: https://artifacts.apis.io/kegg/openapi/kegg-get-api-openapi.yml
 - filename: kegg-info-api-openapi.yml
   format: yaml
   label: Kyoto Encyclopedia of Genes and Genomes (KEGG) Info API
   slug: kegg-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-info-api-openapi.yml
+  url: https://artifacts.apis.io/kegg/openapi/kegg-info-api-openapi.yml
 - filename: kegg-link-api-openapi.yml
   format: yaml
   label: Kyoto Encyclopedia of Genes and Genomes (KEGG) Link API
   slug: kegg-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-link-api-openapi.yml
+  url: https://artifacts.apis.io/kegg/openapi/kegg-link-api-openapi.yml
 - filename: kegg-list-api-openapi.yml
   format: yaml
   label: Kyoto Encyclopedia of Genes and Genomes (KEGG) List API
   slug: kegg-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-list-api-openapi.yml
+  url: https://artifacts.apis.io/kegg/openapi/kegg-list-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kegg-r
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /find/{database}/{query}\n  method: get\n  operationId: findEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /find/{database}/{query}/{option}\n  method: get\n  operationId: findEntriesWithOption\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get/{dbentries}\n  method: get\n  operationId: getEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get/{dbentries}/{option}\n  method: get\n  operationId: getEntriesWithOption\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /conv/{target_db}/{source_db}\n  method: get\n  operationId: convertIdentifiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conv/{target_db}/{dbentries}\n  method: get\n  operationId: convertEntryIdentifiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /link/{target_db}/{source_db}\n  method: get\n  operationId: linkDatabases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /link/{target_db}/{dbentries}\n  method: get\n  operationId: linkEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ddi/{dbentry}\n\
   \  method: get\n  operationId: getDrugInteraction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ddi/{dbentries}\n  method: get\n  operationId: getDrugInteractions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/agentic-access/kegg-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kegg/agentic-access/kegg-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Bioinformatics

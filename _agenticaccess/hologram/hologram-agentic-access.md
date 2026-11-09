@@ -9,49 +9,49 @@ api_specs:
   label: Hologram Cellular Links API
   slug: hologram-cellular-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-cellular-links-api-openapi.yml
+  url: https://artifacts.apis.io/hologram/openapi/hologram-cellular-links-api-openapi.yml
 - filename: hologram-devices-api-openapi.yml
   format: yaml
   label: Hologram Devices API
   slug: hologram-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-devices-api-openapi.yml
+  url: https://artifacts.apis.io/hologram/openapi/hologram-devices-api-openapi.yml
 - filename: hologram-messaging-api-openapi.yml
   format: yaml
   label: Hologram Messaging API
   slug: hologram-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/hologram/openapi/hologram-messaging-api-openapi.yml
 - filename: hologram-plans-api-openapi.yml
   format: yaml
   label: Hologram Plans API
   slug: hologram-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-plans-api-openapi.yml
+  url: https://artifacts.apis.io/hologram/openapi/hologram-plans-api-openapi.yml
 - filename: hologram-sms-api-openapi.yml
   format: yaml
   label: Hologram SMS API
   slug: hologram-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-sms-api-openapi.yml
+  url: https://artifacts.apis.io/hologram/openapi/hologram-sms-api-openapi.yml
 - filename: hologram-tags-api-openapi.yml
   format: yaml
   label: Hologram Tags API
   slug: hologram-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-tags-api-openapi.yml
+  url: https://artifacts.apis.io/hologram/openapi/hologram-tags-api-openapi.yml
 - filename: hologram-usage-api-openapi.yml
   format: yaml
   label: Hologram Usage API
   slug: hologram-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-usage-api-openapi.yml
+  url: https://artifacts.apis.io/hologram/openapi/hologram-usage-api-openapi.yml
 - filename: hologram-webhooks-api-openapi.yml
   format: yaml
   label: Hologram Webhooks API
   slug: hologram-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/openapi/hologram-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hologram/openapi/hologram-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hologr
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /usage/data\n  method: get\n  operationId: listDataUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/data/daily\n  method: get\n  operationId: listDailyDataUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/sms\n  method: get\n  operationId: listSmsUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/incoming\n  method: post\n  operationId: sendSmsToDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices/messages\n  method: post\n  operationId: sendCloudMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices/messages/{deviceid}/{webhookguid}\n  method: post\n  operationId: sendWebhookMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plans\n  method: get\n  operationId: listPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plans/{planid}\n  method: get\n  operationId: getPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/agentic-access/hologram-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hologram/agentic-access/hologram-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - IoT

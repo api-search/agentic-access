@@ -9,31 +9,31 @@ api_specs:
   label: SoundCloud Playlists API
   slug: soundcloud-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-playlists-api-openapi.yml
 - filename: soundcloud-search-api-openapi.yml
   format: yaml
   label: SoundCloud Search API
   slug: soundcloud-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-search-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-search-api-openapi.yml
 - filename: soundcloud-social-api-openapi.yml
   format: yaml
   label: SoundCloud Social API
   slug: soundcloud-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-social-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-social-api-openapi.yml
 - filename: soundcloud-tracks-api-openapi.yml
   format: yaml
   label: SoundCloud Tracks API
   slug: soundcloud-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-tracks-api-openapi.yml
 - filename: soundcloud-users-api-openapi.yml
   format: yaml
   label: SoundCloud Users API
   slug: soundcloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-users-api-openapi.yml
 consequence_counts:
   read: 7
   write: 12
@@ -66,13 +66,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/soundc
   \    - non-expiring\n- path: /resolve\n  method: get\n  operationId: resolveUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - non-expiring\n- path: /me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - non-expiring\n- path: /me/followings/{userId}\n  method: put\n  operationId: followUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - non-expiring\n- path: /me/followings/{userId}\n  method: delete\n  operationId: unfollowUser\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - non-expiring\n- path: /likes/tracks/{id}\n  method: post\n  operationId: likeTrack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - non-expiring\n- path: /likes/tracks/{id}\n  method: delete\n  operationId: unlikeTrack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n\
   \    - non-expiring\n- path: /likes/playlists/{id}\n  method: post\n  operationId: likePlaylist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - non-expiring\n- path: /likes/playlists/{id}\n  method: delete\n  operationId: unlikePlaylist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - non-expiring\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/agentic-access/soundcloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/soundcloud/agentic-access/soundcloud-agentic-access.yml
 summary_line: 19 operations · 12 acting
 tags:
 - Music
 - Streaming
 - Audio
-- Authentication
+- OAuth
 - Tracks
 - Playlists
+- Authentication
 ---

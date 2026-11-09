@@ -9,25 +9,25 @@ api_specs:
   label: Oso Cloud Centralized Authorization Data API
   slug: oso-centralized-authorization-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-centralized-authorization-data-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-centralized-authorization-data-api-openapi.yml
 - filename: oso-check-api-api-openapi.yml
   format: yaml
   label: Oso Cloud Check API
   slug: oso-check-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-check-api-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-check-api-api-openapi.yml
 - filename: oso-local-check-api-api-openapi.yml
   format: yaml
   label: Oso Cloud Local Check API
   slug: oso-local-check-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-local-check-api-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-local-check-api-api-openapi.yml
 - filename: oso-policy-api-openapi.yml
   format: yaml
   label: Oso Cloud Policy API
   slug: oso-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/openapi/oso-policy-api-openapi.yml
+  url: https://artifacts.apis.io/oso/openapi/oso-policy-api-openapi.yml
 consequence_counts:
   read: 2
   write: 18
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oso-au
   \ abnormal\n      - high-value\n    audit: required\n- path: /evaluate_query\n  method: post\n  operationId: post_evaluate_query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clear_data\n  method: post\n  operationId: clear_data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /actions_query\n  method: post\n  operationId: post_actions_query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorize_query\n  method: post\n  operationId: post_authorize_query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /list_query\n  method: post\n  operationId: post_list_query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /evaluate_query_local\n  method: post\n  operationId: post_evaluate_query_local\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/agentic-access/oso-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oso/agentic-access/oso-agentic-access.yml
 summary_line: 20 operations · 18 acting
 tags:
 - Authorization

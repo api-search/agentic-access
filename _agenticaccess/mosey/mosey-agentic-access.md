@@ -9,73 +9,73 @@ api_specs:
   label: Mosey Accounts API
   slug: mosey-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-accounts-api-openapi.yml
 - filename: mosey-agency-accounts-api-openapi.yml
   format: yaml
   label: Mosey Agency Accounts API
   slug: mosey-agency-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-agency-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-agency-accounts-api-openapi.yml
 - filename: mosey-auth-api-openapi.yml
   format: yaml
   label: Mosey Auth API
   slug: mosey-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-auth-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-auth-api-openapi.yml
 - filename: mosey-documents-api-openapi.yml
   format: yaml
   label: Mosey Documents API
   slug: mosey-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-documents-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-documents-api-openapi.yml
 - filename: mosey-handbook-api-openapi.yml
   format: yaml
   label: Mosey Handbook API
   slug: mosey-handbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-handbook-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-handbook-api-openapi.yml
 - filename: mosey-legal-entity-api-openapi.yml
   format: yaml
   label: Mosey Legal Entity API
   slug: mosey-legal-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-legal-entity-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-legal-entity-api-openapi.yml
 - filename: mosey-locations-api-openapi.yml
   format: yaml
   label: Mosey Locations API
   slug: mosey-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-locations-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-locations-api-openapi.yml
 - filename: mosey-logins-api-openapi.yml
   format: yaml
   label: Mosey Logins API
   slug: mosey-logins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-logins-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-logins-api-openapi.yml
 - filename: mosey-mail-api-openapi.yml
   format: yaml
   label: Mosey Mail API
   slug: mosey-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-mail-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-mail-api-openapi.yml
 - filename: mosey-regions-api-openapi.yml
   format: yaml
   label: Mosey Regions API
   slug: mosey-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-regions-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-regions-api-openapi.yml
 - filename: mosey-signup-api-openapi.yml
   format: yaml
   label: Mosey Signup API
   slug: mosey-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-signup-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-signup-api-openapi.yml
 - filename: mosey-tasks-api-openapi.yml
   format: yaml
   label: Mosey Tasks API
   slug: mosey-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/openapi/mosey-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mosey/openapi/mosey-tasks-api-openapi.yml
 consequence_counts:
   read: 23
   write: 29
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/mosey-
   \  operationId: Create_a_Task_Resolution_Session_v2_tasks__task_id__session_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/handbook\n  method: get\n  operationId: Display_Handbook_Summary_v2_handbook_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/handbook/session\n  method: post\n  operationId: Create_Handbook_Session_v2_handbook_session_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/logins\n\
   \  method: get\n  operationId: list_account_logins_v2_logins_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/logins/{account_login_public_id}/session\n  method: post\n  operationId: Create_Account_Login_Session_v2_logins__account_login_public_id__session_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/manage/session\n  method: post\n  operationId: Create_Agency_Accounts_Management_Session_v2_accounts_manage_session_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/documents/manage/session\n  method: post\n  operationId: Create_Documents_Management_Session_v2_documents_manage_session_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/mail\n  method: get\n  operationId: get_legal_entity_mail_handler_v2_mail_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/agency_accounts\n  method: get\n  operationId: list_agency_accounts_handler_v2_agency_accounts_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/agentic-access/mosey-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mosey/agentic-access/mosey-agentic-access.yml
 summary_line: 52 operations · 29 acting
 tags:
 - Company

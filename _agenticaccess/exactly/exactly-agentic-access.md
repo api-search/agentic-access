@@ -9,73 +9,73 @@ api_specs:
   label: Exactly Protocol ERC-4626 API
   slug: exactly-erc-4626-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-erc-4626-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-erc-4626-api-openapi.yml
 - filename: exactly-fixed-rate-api-openapi.yml
   format: yaml
   label: Exactly Protocol Fixed Rate API
   slug: exactly-fixed-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-fixed-rate-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-fixed-rate-api-openapi.yml
 - filename: exactly-liquidations-api-openapi.yml
   format: yaml
   label: Exactly Protocol Liquidations API
   slug: exactly-liquidations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-liquidations-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-liquidations-api-openapi.yml
 - filename: exactly-liquidity-api-openapi.yml
   format: yaml
   label: Exactly Protocol Liquidity API
   slug: exactly-liquidity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-liquidity-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-liquidity-api-openapi.yml
 - filename: exactly-market-management-api-openapi.yml
   format: yaml
   label: Exactly Protocol Market Management API
   slug: exactly-market-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-market-management-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-market-management-api-openapi.yml
 - filename: exactly-market-state-api-openapi.yml
   format: yaml
   label: Exactly Protocol Market State API
   slug: exactly-market-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-market-state-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-market-state-api-openapi.yml
 - filename: exactly-markets-api-openapi.yml
   format: yaml
   label: Exactly Protocol Markets API
   slug: exactly-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-markets-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-markets-api-openapi.yml
 - filename: exactly-previewer-api-openapi.yml
   format: yaml
   label: Exactly Protocol Previewer API
   slug: exactly-previewer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-previewer-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-previewer-api-openapi.yml
 - filename: exactly-reward-configuration-api-openapi.yml
   format: yaml
   label: Exactly Protocol Reward Configuration API
   slug: exactly-reward-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-reward-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-reward-configuration-api-openapi.yml
 - filename: exactly-rewards-claims-api-openapi.yml
   format: yaml
   label: Exactly Protocol Rewards Claims API
   slug: exactly-rewards-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-rewards-claims-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-rewards-claims-api-openapi.yml
 - filename: exactly-rewards-query-api-openapi.yml
   format: yaml
   label: Exactly Protocol Rewards Query API
   slug: exactly-rewards-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-rewards-query-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-rewards-query-api-openapi.yml
 - filename: exactly-variable-rate-api-openapi.yml
   format: yaml
   label: Exactly Protocol Variable Rate API
   slug: exactly-variable-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/openapi/exactly-variable-rate-api-openapi.yml
+  url: https://artifacts.apis.io/exactly/openapi/exactly-variable-rate-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 14
@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/exactl
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rewards/claimable\n  method: post\n  operationId: claimable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rewards/previewAllocation\n  method: post\n  operationId: previewAllocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /market/deposit\n  method: post\n  operationId: deposit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /market/withdraw\n  method: post\n  operationId: withdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /market/borrow\n  method: post\n  operationId: borrow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /market/repay\n  method: post\n  operationId: repay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/agentic-access/exactly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/exactly/agentic-access/exactly-agentic-access.yml
 summary_line: 43 operations · 29 acting · 1 human-in-the-loop
 tags:
 - DeFi

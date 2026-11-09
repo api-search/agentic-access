@@ -8,49 +8,49 @@ api_specs:
   label: ISBNdb Author API
   slug: isbndb-author-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-author-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-author-api-openapi.yml
 - filename: isbndb-books-api-openapi.yml
   format: yaml
   label: ISBNdb Books API
   slug: isbndb-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-books-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-books-api-openapi.yml
 - filename: isbndb-feed-api-openapi.yml
   format: yaml
   label: ISBNdb Feed API
   slug: isbndb-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-feed-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-feed-api-openapi.yml
 - filename: isbndb-key-api-openapi.yml
   format: yaml
   label: ISBNdb Key API
   slug: isbndb-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-key-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-key-api-openapi.yml
 - filename: isbndb-publisher-api-openapi.yml
   format: yaml
   label: ISBNdb Publisher API
   slug: isbndb-publisher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-publisher-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-publisher-api-openapi.yml
 - filename: isbndb-search-api-openapi.yml
   format: yaml
   label: ISBNdb Search API
   slug: isbndb-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-search-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-search-api-openapi.yml
 - filename: isbndb-stats-api-openapi.yml
   format: yaml
   label: ISBNdb Stats API
   slug: isbndb-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-stats-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-stats-api-openapi.yml
 - filename: isbndb-subject-api-openapi.yml
   format: yaml
   label: ISBNdb Subject API
   slug: isbndb-subject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/openapi/isbndb-subject-api-openapi.yml
+  url: https://artifacts.apis.io/isbndb/openapi/isbndb-subject-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/isbndb
   \ method: get\n  operationId: get_app_api_feed_updatedbooks__invoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /key\n  method: get\n  operationId: get_app_api_key__invoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publisher/{name}\n  method: get\n  operationId: get_app_api_publisher_publisherdetails__invoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers/{query}\n  method: get\n  operationId: get_app_api_publisher_searchpublishers__invoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/authors\n  method: get\n  operationId: get_app_api_search_searchauthors__invoke\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/books\n  method: get\n  operationId: get_app_api_search_searchbooks__invoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/publishers\n  method: get\n  operationId: get_app_api_search_searchpublishers__invoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/subjects\n  method: get\n  operationId: get_app_api_search_searchsubjects__invoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats\n  method: get\n  operationId: get_app_api_stats_getstats__invoke\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subjects/{query}\n  method: get\n  operationId: get_app_api_subject_searchsubjects__invoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subject/{name}\n  method: get\n  operationId: get_app_api_subject_subjectsdetails__invoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/agentic-access/isbndb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/isbndb/agentic-access/isbndb-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Books

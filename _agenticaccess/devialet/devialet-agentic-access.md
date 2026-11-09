@@ -9,37 +9,37 @@ api_specs:
   label: Devialet Audio Settings API
   slug: devialet-audio-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-audio-settings-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-audio-settings-api-openapi.yml
 - filename: devialet-devices-api-openapi.yml
   format: yaml
   label: Devialet Devices API
   slug: devialet-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-devices-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-devices-api-openapi.yml
 - filename: devialet-groups-api-openapi.yml
   format: yaml
   label: Devialet Groups API
   slug: devialet-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-groups-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-groups-api-openapi.yml
 - filename: devialet-playback-api-openapi.yml
   format: yaml
   label: Devialet Playback API
   slug: devialet-playback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-playback-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-playback-api-openapi.yml
 - filename: devialet-sound-control-api-openapi.yml
   format: yaml
   label: Devialet Sound Control API
   slug: devialet-sound-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-sound-control-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-sound-control-api-openapi.yml
 - filename: devialet-systems-api-openapi.yml
   format: yaml
   label: Devialet Systems API
   slug: devialet-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-systems-api-openapi.yml
+  url: https://artifacts.apis.io/devialet/openapi/devialet-systems-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 6
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/devial
   \  method: post\n  operationId: playGroupSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/sources/current/playback/pause\n  method: post\n  operationId: pauseGroupPlayback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/sources/current/playback/mute\n  method: post\n  operationId: muteGroupPlayback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/sources/current/playback/unmute\n  method: post\n  operationId: unmuteGroupPlayback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/sources/current/playback/next\n  method: post\n  operationId: nextGroupTrack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/sources/current/playback/previous\n  method: post\n  operationId: previousGroupTrack\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/agentic-access/devialet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/devialet/agentic-access/devialet-agentic-access.yml
 summary_line: 25 operations · 18 acting · 6 human-in-the-loop
 tags:
 - Audio

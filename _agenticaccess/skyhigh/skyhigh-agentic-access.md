@@ -8,7 +8,7 @@ api_specs:
   label: Skyhigh Security Tenant API
   slug: skyhigh-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/openapi/skyhigh-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/skyhigh/openapi/skyhigh-tenant-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -36,7 +36,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/skyhigh-incidents-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 4\n  by_consequence:\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/modifyIncidents\n  method: post\n  operationId: v1ModifyIncidents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:users\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/queryIncidentGroups\n  method: post\n  operationId: v1QueryIncidentGroups\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read:data\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/queryIncidentInformationKeys\n  method: post\n  operationId: v1QueryIncidentInformationKeys\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read:data\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/queryIncidents\n  method: post\n  operationId: v1QueryIncidents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read:data\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/agentic-access/skyhigh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/skyhigh/agentic-access/skyhigh-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
 - Company

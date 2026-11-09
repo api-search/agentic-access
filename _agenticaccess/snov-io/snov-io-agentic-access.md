@@ -9,67 +9,67 @@ api_specs:
   label: Snov.io Authentication API
   slug: snov-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-authentication-api-openapi.yml
 - filename: snov-io-campaigns-api-openapi.yml
   format: yaml
   label: Snov.io Campaigns API
   slug: snov-io-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-campaigns-api-openapi.yml
 - filename: snov-io-crm-pipeline-api-openapi.yml
   format: yaml
   label: Snov.io CRM Pipeline API
   slug: snov-io-crm-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-crm-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-crm-pipeline-api-openapi.yml
 - filename: snov-io-domain-search-api-openapi.yml
   format: yaml
   label: Snov.io Domain Search API
   slug: snov-io-domain-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-domain-search-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-domain-search-api-openapi.yml
 - filename: snov-io-email-accounts-api-openapi.yml
   format: yaml
   label: Snov.io Email Accounts API
   slug: snov-io-email-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-accounts-api-openapi.yml
 - filename: snov-io-email-finder-api-openapi.yml
   format: yaml
   label: Snov.io Email Finder API
   slug: snov-io-email-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-finder-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-finder-api-openapi.yml
 - filename: snov-io-email-verification-api-openapi.yml
   format: yaml
   label: Snov.io Email Verification API
   slug: snov-io-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-verification-api-openapi.yml
 - filename: snov-io-email-warm-up-api-openapi.yml
   format: yaml
   label: Snov.io Email Warm-up API
   slug: snov-io-email-warm-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-warm-up-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-warm-up-api-openapi.yml
 - filename: snov-io-prospects-api-openapi.yml
   format: yaml
   label: Snov.io Prospects API
   slug: snov-io-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-prospects-api-openapi.yml
 - filename: snov-io-user-api-openapi.yml
   format: yaml
   label: Snov.io User API
   slug: snov-io-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-user-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-user-api-openapi.yml
 - filename: snov-io-webhooks-api-openapi.yml
   format: yaml
   label: Snov.io Webhooks API
   slug: snov-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 37
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/snov-i
   - path: /v1/find-prospect-by-email\n  method: post\n  operationId: findProspectByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prospect-custom-fields\n  method: get\n  operationId: getProspectCustomFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user-lists\n  method: get\n  operationId: listProspectLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/view-prospects-in-list\n  method: post\n  operationId: viewProspectsInList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n- path: /v1/create-prospect-list\n  method: post\n  operationId: createProspectList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user-balance\n  method: get\n  operationId: getUserBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: addWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/agentic-access/snov-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snov-io/agentic-access/snov-io-agentic-access.yml
 summary_line: 65 operations · 28 acting
 tags:
 - Sales Automation

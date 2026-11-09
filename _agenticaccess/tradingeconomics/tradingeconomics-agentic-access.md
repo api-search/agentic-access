@@ -8,43 +8,43 @@ api_specs:
   label: Trading Economics Streaming API
   slug: tradingeconomics-streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradingeconomics/refs/heads/main/asyncapi/tradingeconomics-asyncapi.yml
+  url: https://artifacts.apis.io/tradingeconomics/asyncapi/tradingeconomics-asyncapi.yml
 - filename: tradingeconomics-economic-calendar-api-openapi.yml
   format: yaml
   label: Trading Economics Economic Calendar API
   slug: tradingeconomics-economic-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradingeconomics/refs/heads/main/openapi/tradingeconomics-economic-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/tradingeconomics/openapi/tradingeconomics-economic-calendar-api-openapi.yml
 - filename: tradingeconomics-financials-api-openapi.yml
   format: yaml
   label: Trading Economics Financials API
   slug: tradingeconomics-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradingeconomics/refs/heads/main/openapi/tradingeconomics-financials-api-openapi.yml
+  url: https://artifacts.apis.io/tradingeconomics/openapi/tradingeconomics-financials-api-openapi.yml
 - filename: tradingeconomics-forecasts-api-openapi.yml
   format: yaml
   label: Trading Economics Forecasts API
   slug: tradingeconomics-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradingeconomics/refs/heads/main/openapi/tradingeconomics-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/tradingeconomics/openapi/tradingeconomics-forecasts-api-openapi.yml
 - filename: tradingeconomics-historical-api-openapi.yml
   format: yaml
   label: Trading Economics Historical API
   slug: tradingeconomics-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradingeconomics/refs/heads/main/openapi/tradingeconomics-historical-api-openapi.yml
+  url: https://artifacts.apis.io/tradingeconomics/openapi/tradingeconomics-historical-api-openapi.yml
 - filename: tradingeconomics-indicators-api-openapi.yml
   format: yaml
   label: Trading Economics Indicators API
   slug: tradingeconomics-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradingeconomics/refs/heads/main/openapi/tradingeconomics-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/tradingeconomics/openapi/tradingeconomics-indicators-api-openapi.yml
 - filename: tradingeconomics-markets-api-openapi.yml
   format: yaml
   label: Trading Economics Markets API
   slug: tradingeconomics-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradingeconomics/refs/heads/main/openapi/tradingeconomics-markets-api-openapi.yml
+  url: https://artifacts.apis.io/tradingeconomics/openapi/tradingeconomics-markets-api-openapi.yml
 consequence_counts:
   read: 30
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tradin
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forecast/indicator/{indicators}\n  method: get\n  operationId: getForecastsByIndicator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forecast/country/{countries}/indicator/{indicators}\n  method: get\n  operationId: getForecastsByCountryAndIndicator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forecast/ticker/{tickers}\n  method: get\n  operationId: getForecastsByTicker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/country/{countries}/indicator/{indicators}\n  method: get\n  operationId: getHistoricalByCountryAndIndicator\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/country/{countries}/indicator/{indicators}/{startDate}/{endDate}\n  method: get\n  operationId: getHistoricalByCountryIndicatorAndDates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/ticker/{ticker}/{startDate}\n  method: get\n  operationId: getHistoricalByTicker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/latest\n  method: get\n  operationId: getHistoricalLatest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical/updates\n  method: get\n  operationId: getHistoricalUpdates\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /financials/category/{category}\n  method: get\n  operationId: getFinancialsByCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /financials/symbol/{symbol}\n  method: get\n  operationId: getFinancialsBySymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradingeconomics/refs/heads/main/agentic-access/tradingeconomics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tradingeconomics/agentic-access/tradingeconomics-agentic-access.yml
 summary_line: 30 operations
 tags:
 - Economic Indicators

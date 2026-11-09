@@ -9,109 +9,109 @@ api_specs:
   label: Ki Insurance Administration API
   slug: ki-insurance-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-administration-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-administration-api-openapi.yml
 - filename: ki-insurance-broking-houses-api-openapi.yml
   format: yaml
   label: Ki Insurance Broking Houses API
   slug: ki-insurance-broking-houses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-broking-houses-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-broking-houses-api-openapi.yml
 - filename: ki-insurance-classes-of-business-api-openapi.yml
   format: yaml
   label: Ki Insurance Classes of Business API
   slug: ki-insurance-classes-of-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-classes-of-business-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-classes-of-business-api-openapi.yml
 - filename: ki-insurance-configuration-api-openapi.yml
   format: yaml
   label: Ki Insurance Configuration API
   slug: ki-insurance-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-configuration-api-openapi.yml
 - filename: ki-insurance-dashboard-api-openapi.yml
   format: yaml
   label: Ki Insurance Dashboard API
   slug: ki-insurance-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-dashboard-api-openapi.yml
 - filename: ki-insurance-facilities-api-openapi.yml
   format: yaml
   label: Ki Insurance Facilities API
   slug: ki-insurance-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-facilities-api-openapi.yml
 - filename: ki-insurance-indications-api-openapi.yml
   format: yaml
   label: Ki Insurance Indications API
   slug: ki-insurance-indications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-indications-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-indications-api-openapi.yml
 - filename: ki-insurance-leads-api-openapi.yml
   format: yaml
   label: Ki Insurance Leads API
   slug: ki-insurance-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-leads-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-leads-api-openapi.yml
 - filename: ki-insurance-market-leaders-api-openapi.yml
   format: yaml
   label: Ki Insurance Market Leaders API
   slug: ki-insurance-market-leaders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-market-leaders-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-market-leaders-api-openapi.yml
 - filename: ki-insurance-master-data-api-openapi.yml
   format: yaml
   label: Ki Insurance Master Data API
   slug: ki-insurance-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-master-data-api-openapi.yml
 - filename: ki-insurance-pipeline-api-openapi.yml
   format: yaml
   label: Ki Insurance Pipeline API
   slug: ki-insurance-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-pipeline-api-openapi.yml
 - filename: ki-insurance-quotes-api-openapi.yml
   format: yaml
   label: Ki Insurance Quotes API
   slug: ki-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-quotes-api-openapi.yml
 - filename: ki-insurance-risk-codes-api-openapi.yml
   format: yaml
   label: Ki Insurance Risk Codes API
   slug: ki-insurance-risk-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-risk-codes-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-risk-codes-api-openapi.yml
 - filename: ki-insurance-schedule-of-values-api-openapi.yml
   format: yaml
   label: Ki Insurance Schedule of Values API
   slug: ki-insurance-schedule-of-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-schedule-of-values-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-schedule-of-values-api-openapi.yml
 - filename: ki-insurance-slip-extraction-api-openapi.yml
   format: yaml
   label: Ki Insurance Slip Extraction API
   slug: ki-insurance-slip-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-slip-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-slip-extraction-api-openapi.yml
 - filename: ki-insurance-support-api-openapi.yml
   format: yaml
   label: Ki Insurance Support API
   slug: ki-insurance-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-support-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-support-api-openapi.yml
 - filename: ki-insurance-telemetry-api-openapi.yml
   format: yaml
   label: Ki Insurance Telemetry API
   slug: ki-insurance-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-telemetry-api-openapi.yml
 - filename: ki-insurance-users-api-openapi.yml
   format: yaml
   label: Ki Insurance Users API
   slug: ki-insurance-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-users-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 72
@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ki-ins
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/user/bulk\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/user/bulk/email\n  method: post\n  operationId: createUserWelcomeEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/user/bulk/register\n  method: post\n  operationId: createUserBulkUpload\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/user/consent\n  method: post\n  operationId: createUserConsent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/user/current\n  method: get\n  operationId: getUserCurrent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user/reset-password\n  method: post\n  operationId: createUserResetPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/user/{userId}\n  method: put\n  operationId: updateUserWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/user/{userId}/selected-cobs\n  method: put\n  operationId: updateUserClassOfBusiness\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/agentic-access/ki-insurance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ki-insurance/agentic-access/ki-insurance-agentic-access.yml
 summary_line: 109 operations · 37 acting · 1 human-in-the-loop
 tags:
 - Insurance

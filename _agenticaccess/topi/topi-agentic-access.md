@@ -9,31 +9,31 @@ api_specs:
   label: Topi Catalog API
   slug: topi-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-catalog-api-openapi.yml
 - filename: topi-offer-api-openapi.yml
   format: yaml
   label: Topi Offer API
   slug: topi-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-offer-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-offer-api-openapi.yml
 - filename: topi-order-api-openapi.yml
   format: yaml
   label: Topi Order API
   slug: topi-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-order-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-order-api-openapi.yml
 - filename: topi-shipment-api-openapi.yml
   format: yaml
   label: Topi Shipment API
   slug: topi-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-shipment-api-openapi.yml
 - filename: topi-shipping-method-api-openapi.yml
   format: yaml
   label: Topi Shipping Method API
   slug: topi-shipping-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-shipping-method-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-shipping-method-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 13
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/topi-c
   \    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - seller-order:edit\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{id}/acknowledge\n  method: post\n  operationId: order#acknowledgeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - seller-order:edit\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{id}/reject\n  method: post\n  operationId: order#rejectOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n\
   \    - seller-order:edit\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/paginated\n  method: get\n  operationId: order#getBySellerPaginated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - seller-order:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipment\n  method: post\n  operationId: shipment#create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - seller-shipment:edit\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/shipping-method\n\
   \  method: get\n  operationId: shippingMethod#getShippingMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - seller-shipping-method:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipping-method/method\n  method: post\n  operationId: shippingMethod#create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - seller-shipping-method:edit\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/agentic-access/topi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/topi/agentic-access/topi-agentic-access.yml
 summary_line: 31 operations · 18 acting
 tags:
 - Company

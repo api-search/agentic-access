@@ -9,43 +9,43 @@ api_specs:
   label: Rasayel Channels API
   slug: rasayel-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-channels-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-channels-api-openapi.yml
 - filename: rasayel-contacts-api-openapi.yml
   format: yaml
   label: Rasayel Contacts API
   slug: rasayel-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-contacts-api-openapi.yml
 - filename: rasayel-conversations-api-openapi.yml
   format: yaml
   label: Rasayel Conversations API
   slug: rasayel-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-conversations-api-openapi.yml
 - filename: rasayel-messages-api-openapi.yml
   format: yaml
   label: Rasayel Messages API
   slug: rasayel-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-messages-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-messages-api-openapi.yml
 - filename: rasayel-properties-api-openapi.yml
   format: yaml
   label: Rasayel Properties API
   slug: rasayel-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-properties-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-properties-api-openapi.yml
 - filename: rasayel-tags-api-openapi.yml
   format: yaml
   label: Rasayel Tags API
   slug: rasayel-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-tags-api-openapi.yml
 - filename: rasayel-templates-api-openapi.yml
   format: yaml
   label: Rasayel Templates API
   slug: rasayel-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-templates-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-templates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/rasaye
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messages\n  method: post\n  operationId: messagesSendAMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations\n  method: get\n  operationId: conversationsFetchConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{id}\n  method: put\n  operationId: conversationsUpdateConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags\n  method: get\n  operationId: tagsFetchTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels\n  method: get\n  operationId: channelsFetchChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties\n  method: get\n  operationId: propertiesFetchProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties\n  method: post\n  operationId: propertiesCreateProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /properties/{id}\n  method: get\n  operationId: propertiesFetchProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/agentic-access/rasayel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rasayel/agentic-access/rasayel-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
 - Company

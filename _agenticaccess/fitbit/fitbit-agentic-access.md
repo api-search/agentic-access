@@ -9,19 +9,19 @@ api_specs:
   label: Fitbit User API
   slug: fitbit-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-user-api-openapi.yml
+  url: https://artifacts.apis.io/fitbit/openapi/fitbit-user-api-openapi.yml
 - filename: fitbit-foods-api-openapi.yml
   format: yaml
   label: Fitbit Foods API
   slug: fitbit-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-foods-api-openapi.yml
+  url: https://artifacts.apis.io/fitbit/openapi/fitbit-foods-api-openapi.yml
 - filename: fitbit-oauth2-api-openapi.yml
   format: yaml
   label: Fitbit Oauth2 API
   slug: fitbit-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/fitbit/openapi/fitbit-oauth2-api-openapi.yml
 consequence_counts:
   read: 37
   safety-critical: 1
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fitbit
   \    - respiratory_rate\n    - temperature\n- path: /1/user/{user-id}/cardioscore/date/{date}.json\n  method: get\n  operationId: getVo2MaxByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - cardio_fitness\n    - heartrate\n    - oxygen_saturation\n    - respiratory_rate\n    - temperature\n- path: /1/user/{user-id}/{collection-path}/apiSubscriptions/{subscription-id}.json\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/user/{user-id}/{collection-path}/apiSubscriptions/{subscription-id}.json\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/user/{user-id}/{collection-path}/apiSubscriptions.json\n  method: get\n  operationId: getSubscriptionList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/user/{user-id}/profile.json\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - profile\n- path: /1/user/{user-id}/profile.json\n  method: post\n  operationId: updateProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - profile\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/agentic-access/fitbit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fitbit/agentic-access/fitbit-agentic-access.yml
 summary_line: 55 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Wearables

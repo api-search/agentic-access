@@ -8,25 +8,25 @@ api_specs:
   label: KeepTrack Catalog API
   slug: keeptrack-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/keeptrack/openapi/keeptrack-catalog-api-openapi.yml
 - filename: keeptrack-orbits-api-openapi.yml
   format: yaml
   label: KeepTrack Orbits API
   slug: keeptrack-orbits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-orbits-api-openapi.yml
+  url: https://artifacts.apis.io/keeptrack/openapi/keeptrack-orbits-api-openapi.yml
 - filename: keeptrack-positions-api-openapi.yml
   format: yaml
   label: KeepTrack Positions API
   slug: keeptrack-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-positions-api-openapi.yml
+  url: https://artifacts.apis.io/keeptrack/openapi/keeptrack-positions-api-openapi.yml
 - filename: keeptrack-satellites-api-openapi.yml
   format: yaml
   label: KeepTrack Satellites API
   slug: keeptrack-satellites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/openapi/keeptrack-satellites-api-openapi.yml
+  url: https://artifacts.apis.io/keeptrack/openapi/keeptrack-satellites-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/keeptrack-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /satellites/search\n  method: get\n  operationId: searchSatellites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /satellites/{noradId}\n  method: get\n  operationId: getSatellite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /satellites/{noradId}/position\n  method: get\n  operationId:\
   \ getSatellitePosition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /satellites/{noradId}/tle\n  method: get\n  operationId: getSatelliteTle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog\n  method: get\n  operationId: listCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/agentic-access/keeptrack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/keeptrack/agentic-access/keeptrack-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Satellite

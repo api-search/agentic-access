@@ -9,115 +9,115 @@ api_specs:
   label: Refuel Applications API
   slug: refuel-ai-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-applications-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-applications-api-openapi.yml
 - filename: refuel-ai-access-api-openapi.yml
   format: yaml
   label: Refuel Access API
   slug: refuel-ai-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-access-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-access-api-openapi.yml
 - filename: refuel-ai-csp-reports-api-openapi.yml
   format: yaml
   label: Refuel Csp Reports API
   slug: refuel-ai-csp-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-csp-reports-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-csp-reports-api-openapi.yml
 - filename: refuel-ai-datasets-api-openapi.yml
   format: yaml
   label: Refuel Datasets API
   slug: refuel-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-datasets-api-openapi.yml
 - filename: refuel-ai-finetuned-models-api-openapi.yml
   format: yaml
   label: Refuel Finetuned Models API
   slug: refuel-ai-finetuned-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-finetuned-models-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-finetuned-models-api-openapi.yml
 - filename: refuel-ai-integrations-api-openapi.yml
   format: yaml
   label: Refuel Integrations API
   slug: refuel-ai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-integrations-api-openapi.yml
 - filename: refuel-ai-labs-api-openapi.yml
   format: yaml
   label: Refuel Labs API
   slug: refuel-ai-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-labs-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-labs-api-openapi.yml
 - filename: refuel-ai-models-api-openapi.yml
   format: yaml
   label: Refuel Models API
   slug: refuel-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-models-api-openapi.yml
 - filename: refuel-ai-projects-api-openapi.yml
   format: yaml
   label: Refuel Projects API
   slug: refuel-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-projects-api-openapi.yml
 - filename: refuel-ai-schema-api-openapi.yml
   format: yaml
   label: Refuel Schema API
   slug: refuel-ai-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-schema-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-schema-api-openapi.yml
 - filename: refuel-ai-tasks-api-openapi.yml
   format: yaml
   label: Refuel Tasks API
   slug: refuel-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-tasks-api-openapi.yml
 - filename: refuel-ai-team-api-openapi.yml
   format: yaml
   label: Refuel Team API
   slug: refuel-ai-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-team-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-team-api-openapi.yml
 - filename: refuel-ai-teams-api-openapi.yml
   format: yaml
   label: Refuel Teams API
   slug: refuel-ai-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-teams-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-teams-api-openapi.yml
 - filename: refuel-ai-usage-api-openapi.yml
   format: yaml
   label: Refuel Usage API
   slug: refuel-ai-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-usage-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-usage-api-openapi.yml
 - filename: refuel-ai-user-api-openapi.yml
   format: yaml
   label: Refuel User API
   slug: refuel-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-user-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-user-api-openapi.yml
 - filename: refuel-ai-users-api-openapi.yml
   format: yaml
   label: Refuel Users API
   slug: refuel-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-users-api-openapi.yml
 - filename: refuel-ai-webhook-api-openapi.yml
   format: yaml
   label: Refuel Webhook API
   slug: refuel-ai-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-webhook-api-openapi.yml
 - filename: refuel-ai-webhooks-api-openapi.yml
   format: yaml
   label: Refuel Webhooks API
   slug: refuel-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-webhooks-api-openapi.yml
 - filename: refuel-ai-fastapi-api-openapi.yml
   format: yaml
   label: Refuel Fast API
   slug: refuel-ai-fastapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-fastapi-api-openapi.yml
+  url: https://artifacts.apis.io/refuel-ai/openapi/refuel-ai-fastapi-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 46
@@ -182,8 +182,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/refuel
   \   max-ttl: 3600\n    audit: none\n- path: /tasks/{task_id}/taxonomies/{taxonomy_id}\n  method: post\n  operationId: add_labels_to_taxonomy_with_file_tasks__task_id__taxonomies__taxonomy_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}/taxonomies/{taxonomy_id}\n  method: delete\n  operationId: delete_taxonomy_tasks__task_id__taxonomies__taxonomy_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}/taxonomies\n  method: post\n  operationId: create_taxonomy_with_labels_file_tasks__task_id__taxonomies_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}/taxonomies/{taxonomy_id}/labels/{label_id}\n  method: delete\n  operationId: delete_subtask_label_tasks__task_id__taxonomies__taxonomy_id__labels__label_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}/taxonomies/{taxonomy_id}/labels/{label_id}\n  method: patch\n  operationId: edit_taxonomy_label_tasks__task_id__taxonomies__taxonomy_id__labels__label_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}/taxonomies/{taxonomy_id}/duplicate\n  method: post\n  operationId: duplicate_taxonomy_tasks__task_id__taxonomies__taxonomy_id__duplicate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}/calibrations\n  method: get\n  operationId: get_calibration_models_tasks__task_id__calibrations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{task_id}/calibrations\n  method: post\n  operationId: calibrate_task_tasks__task_id__calibrations_post\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}/calibrations/{calibration_id}\n  method: get\n  operationId: get_calibration_model_from_id_tasks__task_id__calibrations__calibration_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/agentic-access/refuel-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/agentic-access/refuel-ai-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}/calibrations/{calibration_id}\n  method: get\n  operationId: get_calibration_model_from_id_tasks__task_id__calibrations__calibration_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://artifacts.apis.io/refuel-ai/agentic-access/refuel-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/refuel-ai/agentic-access/refuel-ai-agentic-access.yml
 summary_line: 109 operations · 63 acting
 tags:
 - Artificial Intelligence

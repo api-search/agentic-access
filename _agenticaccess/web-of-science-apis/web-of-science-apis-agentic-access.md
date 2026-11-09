@@ -8,37 +8,37 @@ api_specs:
   label: Web of Science APIs Citations API
   slug: web-of-science-apis-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-citations-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-citations-api-openapi.yml
 - filename: web-of-science-apis-documents-api-openapi.yml
   format: yaml
   label: Web of Science APIs Documents API
   slug: web-of-science-apis-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-documents-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-documents-api-openapi.yml
 - filename: web-of-science-apis-journals-api-openapi.yml
   format: yaml
   label: Web of Science APIs Journals API
   slug: web-of-science-apis-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-journals-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-journals-api-openapi.yml
 - filename: web-of-science-apis-records-api-openapi.yml
   format: yaml
   label: Web of Science APIs Records API
   slug: web-of-science-apis-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-records-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-records-api-openapi.yml
 - filename: web-of-science-apis-reports-api-openapi.yml
   format: yaml
   label: Web of Science APIs Reports API
   slug: web-of-science-apis-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-reports-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-reports-api-openapi.yml
 - filename: web-of-science-apis-search-api-openapi.yml
   format: yaml
   label: Web of Science APIs Search API
   slug: web-of-science-apis-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/openapi/web-of-science-apis-search-api-openapi.yml
+  url: https://artifacts.apis.io/web-of-science-apis/openapi/web-of-science-apis-search-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/web-of
   \ none\n- path: /references\n  method: get\n  operationId: getReferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /related\n  method: get\n  operationId: getRelatedRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents\n  method: get\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{uid}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /journals\n  method: get\n  operationId: getJournals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /journals/{id}\n  method: get\n  operationId: getJournal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /id/{uniqueId}\n  method: get\n  operationId: getRecordById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /citation-report/{queryId}\n  method: get\n  operationId: getCitationReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /category-context/{uniqueId}\n  method: get\n  operationId: getCategoryContext\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId:\
   \ searchDocumentsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: searchDocumentsPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/{queryId}\n  method: get\n  operationId: getQueryResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordids/{queryId}\n  method: get\n  operationId: getRecordIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/agentic-access/web-of-science-apis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/web-of-science-apis/agentic-access/web-of-science-apis-agentic-access.yml
 summary_line: 14 operations
 tags:
 - Research

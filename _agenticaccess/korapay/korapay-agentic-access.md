@@ -9,43 +9,43 @@ api_specs:
   label: Kora Balances API
   slug: korapay-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-balances-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-balances-api-openapi.yml
 - filename: korapay-charges-api-openapi.yml
   format: yaml
   label: Kora Charges API
   slug: korapay-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-charges-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-charges-api-openapi.yml
 - filename: korapay-currency-conversion-api-openapi.yml
   format: yaml
   label: Kora Currency Conversion API
   slug: korapay-currency-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-currency-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-currency-conversion-api-openapi.yml
 - filename: korapay-misc-api-openapi.yml
   format: yaml
   label: Kora Misc API
   slug: korapay-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-misc-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-misc-api-openapi.yml
 - filename: korapay-payouts-api-openapi.yml
   format: yaml
   label: Kora Payouts API
   slug: korapay-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-payouts-api-openapi.yml
 - filename: korapay-refunds-api-openapi.yml
   format: yaml
   label: Kora Refunds API
   slug: korapay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-refunds-api-openapi.yml
 - filename: korapay-virtual-bank-accounts-api-openapi.yml
   format: yaml
   label: Kora Virtual Bank Accounts API
   slug: korapay-virtual-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/openapi/korapay-virtual-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/korapay/openapi/korapay-virtual-bank-accounts-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 16
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/korapa
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payouts/availability\n  method: get\n  operationId: getPayoutAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refunds/initiate\n  method: post\n  operationId: initiateRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refunds/{reference}\n  method: get\n  operationId: getRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refunds\n  method:\
   \ get\n  operationId: listRefunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virtual-bank-account\n  method: post\n  operationId: createVirtualBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual-bank-account/transactions\n  method: get\n  operationId: listVirtualBankAccountTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virtual-bank-account/{accountReference}\n  method: get\n  operationId: getVirtualBankAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/agentic-access/korapay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/korapay/agentic-access/korapay-agentic-access.yml
 summary_line: 30 operations · 14 acting
 tags:
 - Payments

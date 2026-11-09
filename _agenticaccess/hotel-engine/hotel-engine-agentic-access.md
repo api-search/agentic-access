@@ -9,25 +9,25 @@ api_specs:
   label: Engine Catalog Service API
   slug: hotel-engine-catalogservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-catalogservice-api-openapi.yml
+  url: https://artifacts.apis.io/hotel-engine/openapi/hotel-engine-catalogservice-api-openapi.yml
 - filename: hotel-engine-lodgingbookingservice-api-openapi.yml
   format: yaml
   label: Engine Lodging Booking Service API
   slug: hotel-engine-lodgingbookingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-lodgingbookingservice-api-openapi.yml
+  url: https://artifacts.apis.io/hotel-engine/openapi/hotel-engine-lodgingbookingservice-api-openapi.yml
 - filename: hotel-engine-lodgingshoppingservice-api-openapi.yml
   format: yaml
   label: Engine Lodging Shopping Service API
   slug: hotel-engine-lodgingshoppingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-lodgingshoppingservice-api-openapi.yml
+  url: https://artifacts.apis.io/hotel-engine/openapi/hotel-engine-lodgingshoppingservice-api-openapi.yml
 - filename: hotel-engine-content-service-api-openapi.yml
   format: yaml
   label: Engine Content Service API
   slug: hotel-engine-content-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-content-service-api-openapi.yml
+  url: https://artifacts.apis.io/hotel-engine/openapi/hotel-engine-content-service-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 4
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hotel-
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /book/v1/lodging/booking/generate-folio\n  method: post\n  operationId: LodgingBookingService_GenerateFolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /book/v1/lodging/booking/preview-cancellation\n  method: post\n  operationId: LodgingBookingService_PreviewCancellation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /book/v1/lodging/booking/submit-cancellation\n  method: post\n  operationId: LodgingBookingService_SubmitCancellation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /book/v1/lodging/confirm-offer\n  method: post\n  operationId: LodgingBookingService_ConfirmOffer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shop/v1/lodging/availability\n  method: post\n  operationId: LodgingShoppingService_FindAvailability\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shop/v1/lodging/best-offers\n  method: post\n  operationId: LodgingShoppingService_FindBestOffers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/agentic-access/hotel-engine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hotel-engine/agentic-access/hotel-engine-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
 - Company

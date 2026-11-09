@@ -9,37 +9,37 @@ api_specs:
   label: Denim Companies API
   slug: denim-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-companies-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-companies-api-openapi.yml
 - filename: denim-debtors-api-openapi.yml
   format: yaml
   label: Denim Debtors API
   slug: denim-debtors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-debtors-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-debtors-api-openapi.yml
 - filename: denim-jobs-api-openapi.yml
   format: yaml
   label: Denim Jobs API
   slug: denim-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-jobs-api-openapi.yml
 - filename: denim-jobs-v2-api-openapi.yml
   format: yaml
   label: Denim Jobs V2 API
   slug: denim-jobs-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-jobs-v2-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-jobs-v2-api-openapi.yml
 - filename: denim-payees-api-openapi.yml
   format: yaml
   label: Denim Payees API
   slug: denim-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-payees-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-payees-api-openapi.yml
 - filename: denim-transactions-api-openapi.yml
   format: yaml
   label: Denim Transactions API
   slug: denim-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/openapi/denim-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/denim/openapi/denim-transactions-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 9
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/denim-
   \ required\n    audit: required\n- path: /api/v2/jobs/{job_id}\n  method: get\n  operationId: AxlePayWeb.Api.V2.JobController.show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/jobs/{job_id}/document\n  method: post\n  operationId: AxlePayWeb.Api.V2.JobController.create_document\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/payee-relationships\n  method: get\n  operationId: AxlePayWeb.Api.V1.ClientPayeeRelationshipController.index (2)\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/payee-relationships\n\
   \  method: post\n  operationId: AxlePayWeb.Api.V1.ClientPayeeRelationshipController.create (2)\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/payee-relationships/{client_payee_relationship_id}/update-assign-factor\n  method: post\n  operationId: AxlePayWeb.Api.V1.ClientPayeeRelationshipController.update_assign_factor (2)\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/transactions\n  method: get\n  operationId: AxlePayWeb.Api.V1.TransactionController.index\
   \ (2)\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/agentic-access/denim-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/denim/agentic-access/denim-agentic-access.yml
 summary_line: 19 operations · 9 acting · 9 human-in-the-loop
 tags:
 - Company

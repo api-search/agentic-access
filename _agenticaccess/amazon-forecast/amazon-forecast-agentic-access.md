@@ -9,37 +9,103 @@ api_specs:
   label: Amazon Forecast Dataset Groups API
   slug: amazon-forecast-dataset-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-dataset-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-dataset-groups-api-openapi.yml
 - filename: amazon-forecast-datasets-api-openapi.yml
   format: yaml
   label: Amazon Forecast Datasets API
   slug: amazon-forecast-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-datasets-api-openapi.yml
 - filename: amazon-forecast-export-jobs-api-openapi.yml
   format: yaml
   label: Amazon Forecast Export Jobs API
   slug: amazon-forecast-export-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-export-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-export-jobs-api-openapi.yml
 - filename: amazon-forecast-forecasts-api-openapi.yml
   format: yaml
   label: Amazon Forecast Forecasts API
   slug: amazon-forecast-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-forecasts-api-openapi.yml
 - filename: amazon-forecast-predictors-api-openapi.yml
   format: yaml
   label: Amazon Forecast Predictors API
   slug: amazon-forecast-predictors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-predictors-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-predictors-api-openapi.yml
 - filename: amazon-forecast-tags-api-openapi.yml
   format: yaml
   label: Amazon Forecast Tags API
   slug: amazon-forecast-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-tags-api-openapi.yml
+- filename: amazon-forecast-dataset-import-job-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast Dataset Import Job API
+  slug: amazon-forecast-dataset-import-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-dataset-import-job-api-openapi.yml
+- filename: amazon-forecast-explainability-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast Explainability API
+  slug: amazon-forecast-explainability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-explainability-api-openapi.yml
+- filename: amazon-forecast-explainability-export-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast Explainability Export API
+  slug: amazon-forecast-explainability-export-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-explainability-export-api-openapi.yml
+- filename: amazon-forecast-forecast-export-job-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast Forecast Export Job API
+  slug: amazon-forecast-forecast-export-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-forecast-export-job-api-openapi.yml
+- filename: amazon-forecast-monitor-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast Monitor API
+  slug: amazon-forecast-monitor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-monitor-api-openapi.yml
+- filename: amazon-forecast-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast Operations API
+  slug: amazon-forecast-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-operations-api-openapi.yml
+- filename: amazon-forecast-predictor-backtest-export-job-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast Predictor Backtest Export Job API
+  slug: amazon-forecast-predictor-backtest-export-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-predictor-backtest-export-job-api-openapi.yml
+- filename: amazon-forecast-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast Resource API
+  slug: amazon-forecast-resource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-resource-api-openapi.yml
+- filename: amazon-forecast-what-if-analysis-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast What If Analysis API
+  slug: amazon-forecast-what-if-analysis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-what-if-analysis-api-openapi.yml
+- filename: amazon-forecast-what-if-forecast-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast What If Forecast API
+  slug: amazon-forecast-what-if-forecast-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-what-if-forecast-api-openapi.yml
+- filename: amazon-forecast-what-if-forecast-export-api-openapi.yml
+  format: yaml
+  label: Amazon Forecast Forecast What If Forecast Export API
+  slug: amazon-forecast-what-if-forecast-export-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-forecast/openapi/amazon-forecast-what-if-forecast-export-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -69,9 +135,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /describe/dataset/{datasetArn}\n  method: get\n  operationId: describeDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dataset-groups\n  method: post\n  operationId: createDatasetGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dataset-groups\n  method: get\n  operationId: listDatasetGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /predictors\n  method: post\n  operationId: createPredictor\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /predictors\n  method: get\n  operationId: listPredictors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forecasts\n  method: post\n  operationId: createForecast\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /forecasts\n  method: get\n  operationId: listForecasts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /forecast-export-jobs\n  method: post\n  operationId: createForecastExportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/agentic-access/amazon-forecast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-forecast/agentic-access/amazon-forecast-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
+- Amazon Web Services
 - Forecasting
 - Machine Learning
 - Predictive Analytics

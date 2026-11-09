@@ -9,61 +9,61 @@ api_specs:
   label: iStreamPlanet Audit Operations for Organization API
   slug: istreamplanet-audit-operations-for-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-audit-operations-for-organization-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-audit-operations-for-organization-api-openapi.yml
 - filename: istreamplanet-available-sources-api-openapi.yml
   format: yaml
   label: iStreamPlanet Available Sources API
   slug: istreamplanet-available-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-available-sources-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-available-sources-api-openapi.yml
 - filename: istreamplanet-channel-operations-for-organization-api-openapi.yml
   format: yaml
   label: iStreamPlanet Channel Operations for Organization API
   slug: istreamplanet-channel-operations-for-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-channel-operations-for-organization-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-channel-operations-for-organization-api-openapi.yml
 - filename: istreamplanet-channels-api-openapi.yml
   format: yaml
   label: iStreamPlanet Channels API
   slug: istreamplanet-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-channels-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-channels-api-openapi.yml
 - filename: istreamplanet-channels-for-organization-api-openapi.yml
   format: yaml
   label: iStreamPlanet Channels for Organization API
   slug: istreamplanet-channels-for-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-channels-for-organization-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-channels-for-organization-api-openapi.yml
 - filename: istreamplanet-deprecated-live2vod-api-openapi.yml
   format: yaml
   label: iStreamPlanet Deprecated Live2VOD API
   slug: istreamplanet-deprecated-live2vod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-deprecated-live2vod-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-deprecated-live2vod-api-openapi.yml
 - filename: istreamplanet-live2vod-for-organization-api-openapi.yml
   format: yaml
   label: iStreamPlanet Live2VOD for Organization API
   slug: istreamplanet-live2vod-for-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-live2vod-for-organization-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-live2vod-for-organization-api-openapi.yml
 - filename: istreamplanet-organizations-api-openapi.yml
   format: yaml
   label: iStreamPlanet Organizations API
   slug: istreamplanet-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-organizations-api-openapi.yml
 - filename: istreamplanet-source-previews-api-openapi.yml
   format: yaml
   label: iStreamPlanet Source Previews API
   slug: istreamplanet-source-previews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-source-previews-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-source-previews-api-openapi.yml
 - filename: istreamplanet-transcoder-telemetry-api-openapi.yml
   format: yaml
   label: iStreamPlanet Transcoder Telemetry API
   slug: istreamplanet-transcoder-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/openapi/istreamplanet-transcoder-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/istreamplanet/openapi/istreamplanet-transcoder-telemetry-api-openapi.yml
 consequence_counts:
   read: 44
   write: 29
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/istrea
   \ /v2/{org}/products/{product-id}/config\n  method: post\n  operationId: post-org-product-config\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{org}/products/{product-id}/programs\n  method: get\n  operationId: list-org-products-programs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{org}/sources\n  method: get\n  operationId: list-org-sources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{org}/sources/{source-id}\n  method: get\n  operationId: get-org-source\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{org}/sources/{source-id}/preview\n  method: put\n  operationId: put-source-preview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{org}/sources/{source-id}/preview/ingest-pin\n  method: delete\n  operationId: source-preview-unpin-ingest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{org}/sources/{source-id}/preview/ingest-pin\n  method: put\n  operationId: source-preview-pin-ingest\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{org}/sources/{source-id}/preview/stream\n  method: get\n  operationId: get-source-preview-stream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{org}/sources/{source-id}/preview/transcoder-status\n  method: get\n  operationId: get-source-preview-transcoder-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/agentic-access/istreamplanet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/istreamplanet/agentic-access/istreamplanet-agentic-access.yml
 summary_line: 73 operations · 29 acting
 tags:
 - Company

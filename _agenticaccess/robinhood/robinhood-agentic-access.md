@@ -9,31 +9,31 @@ api_specs:
   label: Robinhood Account API
   slug: robinhood-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-account-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-account-api-openapi.yml
 - filename: robinhood-holdings-api-openapi.yml
   format: yaml
   label: Robinhood Holdings API
   slug: robinhood-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-holdings-api-openapi.yml
 - filename: robinhood-market-data-api-openapi.yml
   format: yaml
   label: Robinhood Market Data API
   slug: robinhood-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-market-data-api-openapi.yml
 - filename: robinhood-orders-api-openapi.yml
   format: yaml
   label: Robinhood Orders API
   slug: robinhood-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-orders-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-orders-api-openapi.yml
 - filename: robinhood-trading-pairs-api-openapi.yml
   format: yaml
   label: Robinhood Trading Pairs API
   slug: robinhood-trading-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/openapi/robinhood-trading-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/robinhood/openapi/robinhood-trading-pairs-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/robinh
   \ 3600\n    audit: none\n- path: /api/v1/crypto/marketdata/estimated_price/\n  method: get\n  operationId: getEstimatedPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/crypto/trading/trading_pairs/\n  method: get\n  operationId: getTradingPairs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/crypto/trading/holdings/\n  method: get\n  operationId: getHoldings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/crypto/trading/orders/\n  method: get\n  operationId: getOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/crypto/trading/orders/\n\
   \  method: post\n  operationId: placeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/crypto/trading/orders/{id}/\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/crypto/trading/orders/{id}/cancel/\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/agentic-access/robinhood-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/robinhood/agentic-access/robinhood-agentic-access.yml
 summary_line: 9 operations · 2 acting
 tags:
 - Company

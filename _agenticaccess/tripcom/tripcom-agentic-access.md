@@ -9,25 +9,25 @@ api_specs:
   label: Trip.com SearchAttractionAndActivity API
   slug: tripcom-searchattractionandactivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/openapi/tripcom-searchattractionandactivity-api-openapi.yml
+  url: https://artifacts.apis.io/tripcom/openapi/tripcom-searchattractionandactivity-api-openapi.yml
 - filename: tripcom-searchcars-api-openapi.yml
   format: yaml
   label: Trip.com SearchCars API
   slug: tripcom-searchcars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/openapi/tripcom-searchcars-api-openapi.yml
+  url: https://artifacts.apis.io/tripcom/openapi/tripcom-searchcars-api-openapi.yml
 - filename: tripcom-searchflightticket-api-openapi.yml
   format: yaml
   label: Trip.com SearchFlightTicket API
   slug: tripcom-searchflightticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/openapi/tripcom-searchflightticket-api-openapi.yml
+  url: https://artifacts.apis.io/tripcom/openapi/tripcom-searchflightticket-api-openapi.yml
 - filename: tripcom-searchhotel-api-openapi.yml
   format: yaml
   label: Trip.com SearchHotel API
   slug: tripcom-searchhotel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/openapi/tripcom-searchhotel-api-openapi.yml
+  url: https://artifacts.apis.io/tripcom/openapi/tripcom-searchhotel-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tripcom-searchattractionandactivity-api-openapi.yml, openapi/tripcom-searchcars-api-openapi.yml,\n  openapi/tripcom-searchflightticket-api-openapi.yml, openapi/tripcom-searchhotel-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 1\n    connected: 3\n  by_consequence:\n    write: 1\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /searchAttractionAndActivity\n  method: post\n  operationId: search_attraction_ticket_and_activity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /searchCars\n  method: post\n  operationId: search_cars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /searchFlightTicket\n  method: post\n  operationId: search_flight_ticket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /searchHotel\n  method: post\n  operationId: search_hotel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/agentic-access/tripcom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tripcom/agentic-access/tripcom-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
 - Company

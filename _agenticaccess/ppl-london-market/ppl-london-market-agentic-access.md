@@ -9,79 +9,79 @@ api_specs:
   label: PPL Contract API
   slug: ppl-london-market-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-contract-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-contract-api-openapi.yml
 - filename: ppl-london-market-document-api-openapi.yml
   format: yaml
   label: PPL Document API
   slug: ppl-london-market-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-document-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-document-api-openapi.yml
 - filename: ppl-london-market-health-api-openapi.yml
   format: yaml
   label: PPL Health API
   slug: ppl-london-market-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-health-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-health-api-openapi.yml
 - filename: ppl-london-market-negotiation-api-openapi.yml
   format: yaml
   label: PPL Negotiation API
   slug: ppl-london-market-negotiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-negotiation-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-negotiation-api-openapi.yml
 - filename: ppl-london-market-notification-api-openapi.yml
   format: yaml
   label: PPL Notification API
   slug: ppl-london-market-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-notification-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-notification-api-openapi.yml
 - filename: ppl-london-market-organisation-api-openapi.yml
   format: yaml
   label: PPL Organisation API
   slug: ppl-london-market-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-organisation-api-openapi.yml
 - filename: ppl-london-market-participation-api-openapi.yml
   format: yaml
   label: PPL Participation API
   slug: ppl-london-market-participation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-participation-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-participation-api-openapi.yml
 - filename: ppl-london-market-placement-api-openapi.yml
   format: yaml
   label: PPL Placement API
   slug: ppl-london-market-placement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-placement-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-placement-api-openapi.yml
 - filename: ppl-london-market-programme-api-openapi.yml
   format: yaml
   label: PPL Programme API
   slug: ppl-london-market-programme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-programme-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-programme-api-openapi.yml
 - filename: ppl-london-market-section-api-openapi.yml
   format: yaml
   label: PPL Section API
   slug: ppl-london-market-section-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-section-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-section-api-openapi.yml
 - filename: ppl-london-market-submission-api-openapi.yml
   format: yaml
   label: PPL Submission API
   slug: ppl-london-market-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-submission-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-submission-api-openapi.yml
 - filename: ppl-london-market-transaction-api-openapi.yml
   format: yaml
   label: PPL Transaction API
   slug: ppl-london-market-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-transaction-api-openapi.yml
 - filename: ppl-london-market-version-api-openapi.yml
   format: yaml
   label: PPL Version API
   slug: ppl-london-market-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/openapi/ppl-london-market-version-api-openapi.yml
+  url: https://artifacts.apis.io/ppl-london-market/openapi/ppl-london-market-version-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 38
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/ppl-lo
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /submissions/{submissionId}/negotiations\n  method: get\n  operationId: Negotiation_GetAll_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submissions/{submissionId}/negotiations\n  method: post\n  operationId: Negotiation_Post_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submissions/{submissionId}/negotiations/{negotiationId}\n  method: get\n  operationId: Negotiation_GetById_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submissions/{submissionId}/negotiations/{negotiationId}\n\
   \  method: put\n  operationId: Negotiation_Put_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submissions/{submissionId}/negotiations/{negotiationId}/reaassign\n  method: put\n  operationId: Negotiation_Reassign_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submissions\n  method: get\n  operationId: Submission_GetAll_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submissions/{submissionId}\n  method:\
   \ get\n  operationId: Submission_GetById_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submissions/{submissionId}/send\n  method: post\n  operationId: Submission_Send_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/agentic-access/ppl-london-market-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ppl-london-market/agentic-access/ppl-london-market-agentic-access.yml
 summary_line: 67 operations · 29 acting
 tags:
 - Insurance

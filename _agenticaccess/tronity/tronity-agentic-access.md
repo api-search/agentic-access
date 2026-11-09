@@ -9,37 +9,37 @@ api_specs:
   label: TRONITY Authentication API
   slug: tronity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-authentication-api-openapi.yml
 - filename: tronity-charging-battery-api-openapi.yml
   format: yaml
   label: TRONITY Charging & Battery API
   slug: tronity-charging-battery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-charging-battery-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-charging-battery-api-openapi.yml
 - filename: tronity-commands-api-openapi.yml
   format: yaml
   label: TRONITY Commands API
   slug: tronity-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-commands-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-commands-api-openapi.yml
 - filename: tronity-vehicle-data-api-openapi.yml
   format: yaml
   label: TRONITY Vehicle Data API
   slug: tronity-vehicle-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-vehicle-data-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-vehicle-data-api-openapi.yml
 - filename: tronity-vehicles-api-openapi.yml
   format: yaml
   label: TRONITY Vehicles API
   slug: tronity-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-vehicles-api-openapi.yml
 - filename: tronity-webhooks-api-openapi.yml
   format: yaml
   label: TRONITY Webhooks API
   slug: tronity-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/openapi/tronity-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tronity/openapi/tronity-webhooks-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 4
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tronit
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vehicles/{vehicleId}/charges\n  method: get\n  operationId: getManyCharges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vehicles/{vehicleId}/charge_start\n  method: post\n  operationId: vehicleControllerChargeStart\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/vehicles/{vehicleId}/charge_stop\n  method: post\n  operationId: vehicleControllerChargeStop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/vehicles/{vehicleId}/wake_up\n  method: post\n  operationId: vehicleControllerWakeUp\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/users/{userId}/apps/{appId}/webhooks\n  method: get\n  operationId: getManyWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}/apps/{appId}/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{userId}/apps/{appId}/webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/agentic-access/tronity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tronity/agentic-access/tronity-agentic-access.yml
 summary_line: 21 operations · 7 acting · 4 human-in-the-loop
 tags:
 - Connected Vehicles

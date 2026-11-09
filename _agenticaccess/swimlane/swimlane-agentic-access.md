@@ -9,55 +9,55 @@ api_specs:
   label: Swimlane Applications API
   slug: swimlane-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-applications-api-openapi.yml
+  url: https://artifacts.apis.io/swimlane/openapi/swimlane-applications-api-openapi.yml
 - filename: swimlane-authentication-api-openapi.yml
   format: yaml
   label: Swimlane Authentication API
   slug: swimlane-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/swimlane/openapi/swimlane-authentication-api-openapi.yml
 - filename: swimlane-groups-api-openapi.yml
   format: yaml
   label: Swimlane Groups API
   slug: swimlane-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-groups-api-openapi.yml
+  url: https://artifacts.apis.io/swimlane/openapi/swimlane-groups-api-openapi.yml
 - filename: swimlane-logging-api-openapi.yml
   format: yaml
   label: Swimlane Logging API
   slug: swimlane-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-logging-api-openapi.yml
+  url: https://artifacts.apis.io/swimlane/openapi/swimlane-logging-api-openapi.yml
 - filename: swimlane-records-api-openapi.yml
   format: yaml
   label: Swimlane Records API
   slug: swimlane-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-records-api-openapi.yml
+  url: https://artifacts.apis.io/swimlane/openapi/swimlane-records-api-openapi.yml
 - filename: swimlane-reports-api-openapi.yml
   format: yaml
   label: Swimlane Reports API
   slug: swimlane-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-reports-api-openapi.yml
+  url: https://artifacts.apis.io/swimlane/openapi/swimlane-reports-api-openapi.yml
 - filename: swimlane-settings-api-openapi.yml
   format: yaml
   label: Swimlane Settings API
   slug: swimlane-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-settings-api-openapi.yml
+  url: https://artifacts.apis.io/swimlane/openapi/swimlane-settings-api-openapi.yml
 - filename: swimlane-tasks-api-openapi.yml
   format: yaml
   label: Swimlane Tasks API
   slug: swimlane-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/swimlane/openapi/swimlane-tasks-api-openapi.yml
 - filename: swimlane-users-api-openapi.yml
   format: yaml
   label: Swimlane Users API
   slug: swimlane-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/openapi/swimlane-users-api-openapi.yml
+  url: https://artifacts.apis.io/swimlane/openapi/swimlane-users-api-openapi.yml
 consequence_counts:
   read: 21
   write: 7
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/swimla
   \  method: get\n  operationId: listRecordRevisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/{appId}/record/{recordId}/history/{revisionNumber}\n  method: get\n  operationId: getRecordRevision\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/{appId}/record/{recordId}/add-references\n  method: post\n  operationId: addRecordReferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/{appId}/record/{recordId}/{fieldId}/comment\n  method: post\n  operationId: addRecordComment\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/app/{appId}\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{reportId}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/{id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/light\n  method: get\n  operationId: listTasksLight\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/execute/record\n  method: post\n  operationId: executeTaskOnRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logging/job/{jobId}\n  method: get\n  operationId: getBulkJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/agentic-access/swimlane-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/swimlane/agentic-access/swimlane-agentic-access.yml
 summary_line: 28 operations · 7 acting
 tags:
 - SOAR

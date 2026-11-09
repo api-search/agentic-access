@@ -8,37 +8,37 @@ api_specs:
   label: World Time API Geo API
   slug: worldtimeapi-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-geo-api-openapi.yml
+  url: https://artifacts.apis.io/worldtimeapi/openapi/worldtimeapi-geo-api-openapi.yml
 - filename: worldtimeapi-geo-txt-api-openapi.yml
   format: yaml
   label: World Time API Geo.txt API
   slug: worldtimeapi-geo-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-geo-txt-api-openapi.yml
+  url: https://artifacts.apis.io/worldtimeapi/openapi/worldtimeapi-geo-txt-api-openapi.yml
 - filename: worldtimeapi-ip-api-openapi.yml
   format: yaml
   label: World Time API Ip API
   slug: worldtimeapi-ip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-ip-api-openapi.yml
+  url: https://artifacts.apis.io/worldtimeapi/openapi/worldtimeapi-ip-api-openapi.yml
 - filename: worldtimeapi-ip-txt-api-openapi.yml
   format: yaml
   label: World Time API Ip.txt API
   slug: worldtimeapi-ip-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-ip-txt-api-openapi.yml
+  url: https://artifacts.apis.io/worldtimeapi/openapi/worldtimeapi-ip-txt-api-openapi.yml
 - filename: worldtimeapi-timezone-api-openapi.yml
   format: yaml
   label: World Time API Timezone API
   slug: worldtimeapi-timezone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-timezone-api-openapi.yml
+  url: https://artifacts.apis.io/worldtimeapi/openapi/worldtimeapi-timezone-api-openapi.yml
 - filename: worldtimeapi-timezone-txt-api-openapi.yml
   format: yaml
   label: World Time API Timezone.txt API
   slug: worldtimeapi-timezone-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/openapi/worldtimeapi-timezone-txt-api-openapi.yml
+  url: https://artifacts.apis.io/worldtimeapi/openapi/worldtimeapi-timezone-txt-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \      max-ttl: 3600\n    audit: none\n- path: /timezone/{area}.txt\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timezone/{area}/{location}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timezone/{area}/{location}.txt\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timezone/{area}/{location}/{region}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timezone/{area}/{location}/{region}.txt\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /ip\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ip.txt\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ip/{ip}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ip/{ip}.txt\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geo\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geo.txt\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geo/{ip}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geo/{ip}.txt\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/agentic-access/worldtimeapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/worldtimeapi/agentic-access/worldtimeapi-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Time

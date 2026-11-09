@@ -9,19 +9,19 @@ api_specs:
   label: MixerBox Gpt API
   slug: mixerbox-gpt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-gpt-api-openapi.yml
+  url: https://artifacts.apis.io/mixerbox/openapi/mixerbox-gpt-api-openapi.yml
 - filename: mixerbox-gpt-plugins-api-openapi.yml
   format: yaml
   label: MixerBox Gpt Plugins API
   slug: mixerbox-gpt-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-gpt-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/mixerbox/openapi/mixerbox-gpt-plugins-api-openapi.yml
 - filename: mixerbox-services-api-openapi.yml
   format: yaml
   label: MixerBox Services API
   slug: mixerbox-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/openapi/mixerbox-services-api-openapi.yml
+  url: https://artifacts.apis.io/mixerbox/openapi/mixerbox-services-api-openapi.yml
 consequence_counts:
   read: 21
   write: 8
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mixerb
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/gpt_plugins/scholar/upload\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/gpt_plugins/scholar/query\n  method: post\n  operationId: queryFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/gpt_plugins/scholar/abstract\n  method: post\n  operationId: searchAbstract\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/gpt_plugins/translate/translate\n  method: post\n  operationId: translate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/gpt_plugins/translate/explain\n  method: post\n  operationId: explain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/gpt_plugins/translate/task\n  method: post\n  operationId: task\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services?funcs=GetWeatherInfo&mobile=0\n  method: get\n  operationId: getWeatherInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/agentic-access/mixerbox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mixerbox/agentic-access/mixerbox-agentic-access.yml
 summary_line: 29 operations · 8 acting
 tags:
 - Company

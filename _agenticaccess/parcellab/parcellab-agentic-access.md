@@ -9,43 +9,43 @@ api_specs:
   label: parcelLab Campaigns API
   slug: parcellab-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-campaigns-api-openapi.yml
 - filename: parcellab-events-api-openapi.yml
   format: yaml
   label: parcelLab Events API
   slug: parcellab-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-events-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-events-api-openapi.yml
 - filename: parcellab-orders-api-openapi.yml
   format: yaml
   label: parcelLab Orders API
   slug: parcellab-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-orders-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-orders-api-openapi.yml
 - filename: parcellab-place-info-api-openapi.yml
   format: yaml
   label: parcelLab Place Info API
   slug: parcellab-place-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-place-info-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-place-info-api-openapi.yml
 - filename: parcellab-promise-api-openapi.yml
   format: yaml
   label: parcelLab Promise API
   slug: parcellab-promise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-promise-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-promise-api-openapi.yml
 - filename: parcellab-returns-api-openapi.yml
   format: yaml
   label: parcelLab Returns API
   slug: parcellab-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-returns-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-returns-api-openapi.yml
 - filename: parcellab-surveys-api-openapi.yml
   format: yaml
   label: parcelLab Surveys API
   slug: parcellab-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/openapi/parcellab-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-surveys-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/parcel
   \ none\n- path: /v4/returns/return-registrations/\n  method: post\n  operationId: createReturnRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/returns/return-registrations/{external_id}/\n  method: get\n  operationId: getReturnRegistration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/returns/returns-configurations/\n  method: get\n  operationId: listReturnConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/returns/returns-configurations/{id}/\n  method: get\n  operationId: getReturnConfiguration\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/returns/document-templates/\n  method: get\n  operationId: listDocumentTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/survey/survey/{id}/\n  method: get\n  operationId: getSurvey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/survey/survey/{id}/answer/\n  method: get\n  operationId: getSurveyAnswer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/survey/survey/{id}/answer/\n  method: post\n  operationId: submitSurveyAnswer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/survey/survey/themes/\n  method: get\n  operationId: listSurveyThemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/agentic-access/parcellab-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parcellab/agentic-access/parcellab-agentic-access.yml
 summary_line: 17 operations · 4 acting
 tags:
 - Post-Purchase

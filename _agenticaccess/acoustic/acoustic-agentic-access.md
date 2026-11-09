@@ -9,7 +9,7 @@ api_specs:
   label: Acoustic Campaign REST API
   slug: acoustic-campaign-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-campaign-rest-swagger-index.json
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-campaign-rest-swagger-index.json
 - filename: 2sBXqQEHNz
   format: yaml
   label: Acoustic Campaign XML API
@@ -21,175 +21,175 @@ api_specs:
   label: Acoustic Administering user profiles API
   slug: acoustic-administering-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-administering-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-administering-user-profiles-api-openapi.yml
 - filename: acoustic-authoring-assets-api-openapi.yml
   format: yaml
   label: Acoustic Authoring assets API
   slug: acoustic-authoring-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-assets-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-assets-api-openapi.yml
 - filename: acoustic-authoring-categories-api-openapi.yml
   format: yaml
   label: Acoustic Authoring categories API
   slug: acoustic-authoring-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-categories-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-categories-api-openapi.yml
 - filename: acoustic-authoring-changes-api-openapi.yml
   format: yaml
   label: Acoustic Authoring changes API
   slug: acoustic-authoring-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-changes-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-changes-api-openapi.yml
 - filename: acoustic-authoring-comments-api-openapi.yml
   format: yaml
   label: Acoustic Authoring comments API
   slug: acoustic-authoring-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-comments-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-comments-api-openapi.yml
 - filename: acoustic-authoring-content-api-openapi.yml
   format: yaml
   label: Acoustic Authoring content API
   slug: acoustic-authoring-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-content-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-content-api-openapi.yml
 - filename: acoustic-authoring-context-search-api-openapi.yml
   format: yaml
   label: Acoustic Authoring context search API
   slug: acoustic-authoring-context-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-context-search-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-context-search-api-openapi.yml
 - filename: acoustic-authoring-image-profiles-api-openapi.yml
   format: yaml
   label: Acoustic Authoring image profiles API
   slug: acoustic-authoring-image-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-image-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-image-profiles-api-openapi.yml
 - filename: acoustic-authoring-import-api-openapi.yml
   format: yaml
   label: Acoustic Authoring Import API
   slug: acoustic-authoring-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-import-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-import-api-openapi.yml
 - filename: acoustic-authoring-layouts-api-openapi.yml
   format: yaml
   label: Acoustic Authoring layouts API
   slug: acoustic-authoring-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-layouts-api-openapi.yml
 - filename: acoustic-authoring-library-api-openapi.yml
   format: yaml
   label: Acoustic Authoring library API
   slug: acoustic-authoring-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-library-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-library-api-openapi.yml
 - filename: acoustic-authoring-reference-api-openapi.yml
   format: yaml
   label: Acoustic Authoring reference API
   slug: acoustic-authoring-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-reference-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-reference-api-openapi.yml
 - filename: acoustic-authoring-renditions-api-openapi.yml
   format: yaml
   label: Acoustic Authoring renditions API
   slug: acoustic-authoring-renditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-renditions-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-renditions-api-openapi.yml
 - filename: acoustic-authoring-resources-api-openapi.yml
   format: yaml
   label: Acoustic Authoring resources API
   slug: acoustic-authoring-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-resources-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-resources-api-openapi.yml
 - filename: acoustic-authoring-review-api-openapi.yml
   format: yaml
   label: Acoustic Authoring review API
   slug: acoustic-authoring-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-review-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-review-api-openapi.yml
 - filename: acoustic-authoring-search-api-openapi.yml
   format: yaml
   label: Acoustic Authoring search API
   slug: acoustic-authoring-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-search-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-search-api-openapi.yml
 - filename: acoustic-authoring-sites-api-openapi.yml
   format: yaml
   label: Acoustic Authoring sites API
   slug: acoustic-authoring-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-sites-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-sites-api-openapi.yml
 - filename: acoustic-authoring-types-api-openapi.yml
   format: yaml
   label: Acoustic Authoring types API
   slug: acoustic-authoring-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-types-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-types-api-openapi.yml
 - filename: acoustic-authoring-version-api-openapi.yml
   format: yaml
   label: Acoustic Authoring version API
   slug: acoustic-authoring-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-authoring-version-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-authoring-version-api-openapi.yml
 - filename: acoustic-delivery-content-api-openapi.yml
   format: yaml
   label: Acoustic Delivery content API
   slug: acoustic-delivery-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-delivery-content-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-delivery-content-api-openapi.yml
 - filename: acoustic-delivery-context-search-api-openapi.yml
   format: yaml
   label: Acoustic Delivery context search API
   slug: acoustic-delivery-context-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-delivery-context-search-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-delivery-context-search-api-openapi.yml
 - filename: acoustic-delivery-render-api-openapi.yml
   format: yaml
   label: Acoustic Delivery render API
   slug: acoustic-delivery-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-delivery-render-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-delivery-render-api-openapi.yml
 - filename: acoustic-delivery-resources-api-openapi.yml
   format: yaml
   label: Acoustic Delivery resources API
   slug: acoustic-delivery-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-delivery-resources-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-delivery-resources-api-openapi.yml
 - filename: acoustic-delivery-search-api-openapi.yml
   format: yaml
   label: Acoustic Delivery search API
   slug: acoustic-delivery-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-delivery-search-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-delivery-search-api-openapi.yml
 - filename: acoustic-delivery-sites-api-openapi.yml
   format: yaml
   label: Acoustic Delivery sites API
   slug: acoustic-delivery-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-delivery-sites-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-delivery-sites-api-openapi.yml
 - filename: acoustic-login-service-api-openapi.yml
   format: yaml
   label: Acoustic Login service API
   slug: acoustic-login-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-login-service-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-login-service-api-openapi.yml
 - filename: acoustic-publishing-api-openapi.yml
   format: yaml
   label: Acoustic Publishing API
   slug: acoustic-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-publishing-api-openapi.yml
 - filename: acoustic-tenant-registry-api-openapi.yml
   format: yaml
   label: Acoustic Tenant Registry API
   slug: acoustic-tenant-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-tenant-registry-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-tenant-registry-api-openapi.yml
 - filename: acoustic-webhook-profiles-api-openapi.yml
   format: yaml
   label: Acoustic Webhook profiles API
   slug: acoustic-webhook-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/openapi/acoustic-webhook-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/acoustic/openapi/acoustic-webhook-profiles-api-openapi.yml
 consequence_counts:
   read: 107
   safety-critical: 1
@@ -257,8 +257,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/acoust
   \  operationId: getAuthoringV1LibrariesCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authoring/v1/references/outgoing\n  method: post\n  operationId: postAuthoringV1ReferencesOutgoing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authoring/v1/references/outgoing/{classification}/{id}\n  method: get\n  operationId: getAuthoringV1ReferencesOutgoingByClassificationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authoring/v1/references/incoming\n  method: post\n  operationId: postAuthoringV1ReferencesIncoming\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /authoring/v1/references/incoming/{classification}/{id}\n  method: get\n  operationId: getAuthoringV1ReferencesIncomingByClassificationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authoring/v1/renditions\n  method: get\n  operationId: getAuthoringV1Renditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authoring/v1/renditions\n  method: post\n  operationId: postAuthoringV1Renditions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authoring/v1/renditions/{id}\n  method: get\n  operationId: getAuthoringV1RenditionsById\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authoring/v1/renditions/views/by-created\n  method: get\n  operationId: getAuthoringV1RenditionsViewsByCreated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authoring/v1/resources\n  method: post\n  operationId: postAuthoringV1Resources\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authoring/v1/resources/{id}\n  method: get\n  operationId: getAuthoringV1ResourcesById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /authoring/v1/resources/{id}\n  method: put\n  operationId: putAuthoringV1ResourcesById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authoring/v1/resources/views/by-created\n  method: get\n  operationId: getAuthoringV1ResourcesViewsByCreated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/agentic-access/acoustic-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/agentic-access/acoustic-agentic-access.yml
+  - path: /authoring/v1/resources/{id}\n  method: put\n  operationId: putAuthoringV1ResourcesById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authoring/v1/resources/views/by-created\n  method: get\n  operationId: getAuthoringV1ResourcesViewsByCreated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://artifacts.apis.io/acoustic/agentic-access/acoustic-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/acoustic/agentic-access/acoustic-agentic-access.yml
 summary_line: 187 operations · 80 acting · 1 human-in-the-loop
 tags:
 - Company

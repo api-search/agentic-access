@@ -9,61 +9,61 @@ api_specs:
   label: Zeal Companies API
   slug: zeal-hq-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-companies-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-companies-api-openapi.yml
 - filename: zeal-hq-contractor-payments-api-openapi.yml
   format: yaml
   label: Zeal Contractor Payments API
   slug: zeal-hq-contractor-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-contractor-payments-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-contractor-payments-api-openapi.yml
 - filename: zeal-hq-contractors-api-openapi.yml
   format: yaml
   label: Zeal Contractors API
   slug: zeal-hq-contractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-contractors-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-contractors-api-openapi.yml
 - filename: zeal-hq-employee-check-api-openapi.yml
   format: yaml
   label: Zeal Employee Check API
   slug: zeal-hq-employee-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-employee-check-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-employee-check-api-openapi.yml
 - filename: zeal-hq-employees-api-openapi.yml
   format: yaml
   label: Zeal Employees API
   slug: zeal-hq-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-employees-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-employees-api-openapi.yml
 - filename: zeal-hq-funding-api-openapi.yml
   format: yaml
   label: Zeal Funding API
   slug: zeal-hq-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-funding-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-funding-api-openapi.yml
 - filename: zeal-hq-onboarding-api-openapi.yml
   format: yaml
   label: Zeal Onboarding API
   slug: zeal-hq-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-onboarding-api-openapi.yml
 - filename: zeal-hq-pay-schedules-api-openapi.yml
   format: yaml
   label: Zeal Pay Schedules API
   slug: zeal-hq-pay-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-pay-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-pay-schedules-api-openapi.yml
 - filename: zeal-hq-reports-api-openapi.yml
   format: yaml
   label: Zeal Reports API
   slug: zeal-hq-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-reports-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-reports-api-openapi.yml
 - filename: zeal-hq-tax-api-openapi.yml
   format: yaml
   label: Zeal Tax API
   slug: zeal-hq-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/openapi/zeal-hq-tax-api-openapi.yml
+  url: https://artifacts.apis.io/zeal-hq/openapi/zeal-hq-tax-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 17
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zeal-h
   \ getUpcomingRegularPayroll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkDate\n  method: get\n  operationId: getNextAvailableCheckDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxes/location\n  method: post\n  operationId: resolveTaxableLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /minimumWage\n  method: get\n  operationId: getMinimumWageRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/payrollJournal\n\
   \  method: post\n  operationId: createPayrollJournalReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/cashRequirements\n  method: post\n  operationId: createCashRequirementsReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/status\n  method: get\n  operationId: getReportJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/download\n  method: get\n  operationId: retrieveReportDownload\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reserve/balance\n  method: get\n  operationId: getReserveBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/agentic-access/zeal-hq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zeal-hq/agentic-access/zeal-hq-agentic-access.yml
 summary_line: 36 operations · 19 acting
 tags:
 - Payroll

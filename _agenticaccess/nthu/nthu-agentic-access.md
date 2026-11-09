@@ -9,13 +9,13 @@ api_specs:
   label: NTHU Data API
   slug: nthu-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/_original/nthu-data-api.yaml
+  url: https://artifacts.apis.io/nthu/openapi/_original/nthu-data-api.yaml
 - filename: nthu-oauth-api-openapi.yml
   format: yaml
   label: National Tsing Hua University O Auth API
   slug: nthu-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/nthu/openapi/nthu-oauth-api-openapi.yml
 consequence_counts:
   read: 25
   write: 2
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nthu-a
   \  method: get\n  operationId: getLibraryRssData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/\n  method: get\n  operationId: getAllLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/search\n  method: get\n  operationId: fuzzySearchLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsletters/\n  method: get\n  operationId: getAllNewsletters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsletters/{newsletter_name}\n  method: get\n  operationId: getNewsletterByName\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authorize.php\n  method: get\n  operationId: authorize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - userid\n- path: /token.php\n  method: post\n  operationId: token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - userid\n- path: /resource.php\n  method: get\n  operationId: getResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - userid\n- path: /resource.php\n  method: post\n  operationId: postResource\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - userid\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/agentic-access/nthu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nthu/agentic-access/nthu-agentic-access.yml
 summary_line: 27 operations · 2 acting
 tags:
 - Education

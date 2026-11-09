@@ -9,79 +9,79 @@ api_specs:
   label: Spring Framework Beans API
   slug: spring-beans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-beans-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-beans-api-openapi.yml
 - filename: spring-environment-api-openapi.yml
   format: yaml
   label: Spring Framework Environment API
   slug: spring-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-environment-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-environment-api-openapi.yml
 - filename: spring-health-api-openapi.yml
   format: yaml
   label: Spring Framework Health API
   slug: spring-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-health-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-health-api-openapi.yml
 - filename: spring-info-api-openapi.yml
   format: yaml
   label: Spring Framework Info API
   slug: spring-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-info-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-info-api-openapi.yml
 - filename: spring-loggers-api-openapi.yml
   format: yaml
   label: Spring Framework Loggers API
   slug: spring-loggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-loggers-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-loggers-api-openapi.yml
 - filename: spring-mappings-api-openapi.yml
   format: yaml
   label: Spring Framework Mappings API
   slug: spring-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-mappings-api-openapi.yml
 - filename: spring-metadata-api-openapi.yml
   format: yaml
   label: Spring Framework Metadata API
   slug: spring-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-metadata-api-openapi.yml
 - filename: spring-metrics-api-openapi.yml
   format: yaml
   label: Spring Framework Metrics API
   slug: spring-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-metrics-api-openapi.yml
 - filename: spring-project-generation-api-openapi.yml
   format: yaml
   label: Spring Framework Project Generation API
   slug: spring-project-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-project-generation-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-project-generation-api-openapi.yml
 - filename: spring-threads-api-openapi.yml
   format: yaml
   label: Spring Framework Threads API
   slug: spring-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-threads-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-threads-api-openapi.yml
 - filename: spring-filters-api-openapi.yml
   format: yaml
   label: Spring Framework Filters API
   slug: spring-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-filters-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-filters-api-openapi.yml
 - filename: spring-predicates-api-openapi.yml
   format: yaml
   label: Spring Framework Predicates API
   slug: spring-predicates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-predicates-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-predicates-api-openapi.yml
 - filename: spring-routes-api-openapi.yml
   format: yaml
   label: Spring Framework Routes API
   slug: spring-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-routes-api-openapi.yml
+  url: https://artifacts.apis.io/spring/openapi/spring-routes-api-openapi.yml
 consequence_counts:
   read: 16
   write: 1
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spring
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loggers\n  method: get\n  operationId: listLoggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loggers/{name}\n  method: get\n  operationId: getLogger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loggers/{name}\n  method: post\n  operationId: setLoggerLevel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mappings\n  method: get\n  operationId: getMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /threaddump\n  method: get\n  operationId: getThreadDump\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beans\n  method: get\n  operationId: getBeans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /starter.zip\n  method: get\n  operationId: generateProjectZip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /starter.tgz\n  method: get\n  operationId: generateProjectTgz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dependencies\n  method: get\n  operationId: getDependencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/agentic-access/spring-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spring/agentic-access/spring-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
 - Spring Framework

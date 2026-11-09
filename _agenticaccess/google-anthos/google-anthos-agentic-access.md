@@ -9,19 +9,19 @@ api_specs:
   label: Google Anthos BareMetalClusters API
   slug: google-anthos-baremetalclusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/google-anthos-baremetalclusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-baremetalclusters-api-openapi.yml
 - filename: google-anthos-vmwareclusters-api-openapi.yml
   format: yaml
   label: Google Anthos VmwareClusters API
   slug: google-anthos-vmwareclusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/google-anthos-vmwareclusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-vmwareclusters-api-openapi.yml
 - filename: google-anthos-vmwarenodepools-api-openapi.yml
   format: yaml
   label: Google Anthos VmwareNodePools API
   slug: google-anthos-vmwarenodepools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/google-anthos-vmwarenodepools-api-openapi.yml
+  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-vmwarenodepools-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gke-on
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/vmwareClusters/{clusterId}\n  method: get\n  operationId: getVmwareCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/vmwareClusters/{clusterId}\n  method: delete\n  operationId: deleteVmwareCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/bareMetalClusters\n  method: get\n  operationId: listBareMetalClusters\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/bareMetalClusters\n  method: post\n  operationId: createBareMetalCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/vmwareClusters/{clusterId}/vmwareNodePools\n  method: get\n  operationId: listVmwareNodePools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/vmwareClusters/{clusterId}/vmwareNodePools\n  method: post\n  operationId: createVmwareNodePool\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/agentic-access/google-anthos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-anthos/agentic-access/google-anthos-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Container Platform

@@ -9,61 +9,61 @@ api_specs:
   label: TutorCruncher Agents API
   slug: tutorcruncher-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-agents-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-agents-api-openapi.yml
 - filename: tutorcruncher-appointments-api-openapi.yml
   format: yaml
   label: TutorCruncher Appointments API
   slug: tutorcruncher-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-appointments-api-openapi.yml
 - filename: tutorcruncher-clients-api-openapi.yml
   format: yaml
   label: TutorCruncher Clients API
   slug: tutorcruncher-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-clients-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-clients-api-openapi.yml
 - filename: tutorcruncher-contractors-api-openapi.yml
   format: yaml
   label: TutorCruncher Contractors API
   slug: tutorcruncher-contractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-contractors-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-contractors-api-openapi.yml
 - filename: tutorcruncher-invoices-api-openapi.yml
   format: yaml
   label: TutorCruncher Invoices API
   slug: tutorcruncher-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-invoices-api-openapi.yml
 - filename: tutorcruncher-payments-api-openapi.yml
   format: yaml
   label: TutorCruncher Payments API
   slug: tutorcruncher-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-payments-api-openapi.yml
 - filename: tutorcruncher-recipients-api-openapi.yml
   format: yaml
   label: TutorCruncher Recipients API
   slug: tutorcruncher-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-recipients-api-openapi.yml
 - filename: tutorcruncher-reference-api-openapi.yml
   format: yaml
   label: TutorCruncher Reference API
   slug: tutorcruncher-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-reference-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-reference-api-openapi.yml
 - filename: tutorcruncher-services-api-openapi.yml
   format: yaml
   label: TutorCruncher Services API
   slug: tutorcruncher-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-services-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-services-api-openapi.yml
 - filename: tutorcruncher-webhooks-api-openapi.yml
   format: yaml
   label: TutorCruncher Webhooks API
   slug: tutorcruncher-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/openapi/tutorcruncher-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tutorcruncher/openapi/tutorcruncher-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 28
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tutorc
   \ 3600\n    audit: none\n- path: /adhoccharges/\n  method: post\n  operationId: createAdHocCharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ahc-categories/\n  method: get\n  operationId: listAdHocChargeCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subjects/\n  method: get\n  operationId: listSubjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contractor-skills/\n  method: get\n  operationId: listContractorSkills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qualification-levels/\n  method: get\n  operationId: listQualificationLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /labels/\n  method: get\n  operationId: listLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipeline-stages/\n  method: get\n  operationId: listPipelineStages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action-types/\n  method:\
   \ get\n  operationId: listActionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/agentic-access/tutorcruncher-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tutorcruncher/agentic-access/tutorcruncher-agentic-access.yml
 summary_line: 54 operations · 26 acting
 tags:
 - Tutoring

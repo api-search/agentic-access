@@ -9,49 +9,49 @@ api_specs:
   label: Eventbrite Attendees API
   slug: eventbrite-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/openapi/eventbrite-attendees-api-openapi.yml
+  url: https://artifacts.apis.io/eventbrite/openapi/eventbrite-attendees-api-openapi.yml
 - filename: eventbrite-categories-api-openapi.yml
   format: yaml
   label: Eventbrite Categories API
   slug: eventbrite-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/openapi/eventbrite-categories-api-openapi.yml
+  url: https://artifacts.apis.io/eventbrite/openapi/eventbrite-categories-api-openapi.yml
 - filename: eventbrite-events-api-openapi.yml
   format: yaml
   label: Eventbrite Events API
   slug: eventbrite-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/openapi/eventbrite-events-api-openapi.yml
+  url: https://artifacts.apis.io/eventbrite/openapi/eventbrite-events-api-openapi.yml
 - filename: eventbrite-orders-api-openapi.yml
   format: yaml
   label: Eventbrite Orders API
   slug: eventbrite-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/openapi/eventbrite-orders-api-openapi.yml
+  url: https://artifacts.apis.io/eventbrite/openapi/eventbrite-orders-api-openapi.yml
 - filename: eventbrite-organizations-api-openapi.yml
   format: yaml
   label: Eventbrite Organizations API
   slug: eventbrite-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/openapi/eventbrite-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/eventbrite/openapi/eventbrite-organizations-api-openapi.yml
 - filename: eventbrite-ticket-classes-api-openapi.yml
   format: yaml
   label: Eventbrite Ticket Classes API
   slug: eventbrite-ticket-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/openapi/eventbrite-ticket-classes-api-openapi.yml
+  url: https://artifacts.apis.io/eventbrite/openapi/eventbrite-ticket-classes-api-openapi.yml
 - filename: eventbrite-users-api-openapi.yml
   format: yaml
   label: Eventbrite Users API
   slug: eventbrite-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/openapi/eventbrite-users-api-openapi.yml
+  url: https://artifacts.apis.io/eventbrite/openapi/eventbrite-users-api-openapi.yml
 - filename: eventbrite-venues-api-openapi.yml
   format: yaml
   label: Eventbrite Venues API
   slug: eventbrite-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/openapi/eventbrite-venues-api-openapi.yml
+  url: https://artifacts.apis.io/eventbrite/openapi/eventbrite-venues-api-openapi.yml
 consequence_counts:
   read: 11
   write: 3
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eventb
   - path: /events/{event_id}/ticket_classes/\n  method: post\n  operationId: createTicketClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/{event_id}/attendees/\n  method: get\n  operationId: listEventAttendees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{event_id}/orders/\n  method: get\n  operationId: listEventOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_id}/\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /venues/{venue_id}/\n  method: get\n  operationId: getVenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/venues/\n  method: get\n  operationId: listOrganizationVenues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/venues/\n  method: post\n  operationId: createOrganizationVenue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /categories/\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/agentic-access/eventbrite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eventbrite/agentic-access/eventbrite-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - Event

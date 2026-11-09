@@ -9,67 +9,67 @@ api_specs:
   label: Timeular Activities API
   slug: timeular-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-activities-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-activities-api-openapi.yml
 - filename: timeular-authentication-api-openapi.yml
   format: yaml
   label: Timeular Authentication API
   slug: timeular-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-authentication-api-openapi.yml
 - filename: timeular-current-tracking-api-openapi.yml
   format: yaml
   label: Timeular Current Tracking API
   slug: timeular-current-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-current-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-current-tracking-api-openapi.yml
 - filename: timeular-folders-api-openapi.yml
   format: yaml
   label: Timeular Folders API
   slug: timeular-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-folders-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-folders-api-openapi.yml
 - filename: timeular-leaves-api-openapi.yml
   format: yaml
   label: Timeular Leaves API
   slug: timeular-leaves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-leaves-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-leaves-api-openapi.yml
 - filename: timeular-members-api-openapi.yml
   format: yaml
   label: Timeular Members API
   slug: timeular-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-members-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-members-api-openapi.yml
 - filename: timeular-reports-api-openapi.yml
   format: yaml
   label: Timeular Reports API
   slug: timeular-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-reports-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-reports-api-openapi.yml
 - filename: timeular-tags-mentions-api-openapi.yml
   format: yaml
   label: Timeular Tags & Mentions API
   slug: timeular-tags-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-tags-mentions-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-tags-mentions-api-openapi.yml
 - filename: timeular-time-entries-api-openapi.yml
   format: yaml
   label: Timeular Time Entries API
   slug: timeular-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-time-entries-api-openapi.yml
 - filename: timeular-users-api-openapi.yml
   format: yaml
   label: Timeular Users API
   slug: timeular-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-users-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-users-api-openapi.yml
 - filename: timeular-webhooks-api-openapi.yml
   format: yaml
   label: Timeular Webhooks API
   slug: timeular-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/openapi/timeular-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/timeular/openapi/timeular-webhooks-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/timeul
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/leaves/{id}\n  method: delete\n  operationId: deleteALeave\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/webhooks/event\n  method: get\n  operationId: listAvailableEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/webhooks/subscription\n  method: post\n  operationId: subscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/webhooks/subscription\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/webhooks/subscription\n  method: delete\n  operationId: unsubscribeAllForUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/webhooks/subscription/{id}\n  method: delete\n  operationId: unsubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/agentic-access/timeular-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/timeular/agentic-access/timeular-agentic-access.yml
 summary_line: 52 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Company

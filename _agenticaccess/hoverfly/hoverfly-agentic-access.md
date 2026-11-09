@@ -9,61 +9,61 @@ api_specs:
   label: Hoverfly Cache API
   slug: hoverfly-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-cache-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-cache-api-openapi.yml
 - filename: hoverfly-diff-api-openapi.yml
   format: yaml
   label: Hoverfly Diff API
   slug: hoverfly-diff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-diff-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-diff-api-openapi.yml
 - filename: hoverfly-hoverfly-api-openapi.yml
   format: yaml
   label: Hoverfly API
   slug: hoverfly-hoverfly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-hoverfly-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-hoverfly-api-openapi.yml
 - filename: hoverfly-journal-api-openapi.yml
   format: yaml
   label: Hoverfly Journal API
   slug: hoverfly-journal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-journal-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-journal-api-openapi.yml
 - filename: hoverfly-logs-api-openapi.yml
   format: yaml
   label: Hoverfly Logs API
   slug: hoverfly-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-logs-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-logs-api-openapi.yml
 - filename: hoverfly-post-serve-actions-api-openapi.yml
   format: yaml
   label: Hoverfly Post-Serve Actions API
   slug: hoverfly-post-serve-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-post-serve-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-post-serve-actions-api-openapi.yml
 - filename: hoverfly-simulation-api-openapi.yml
   format: yaml
   label: Hoverfly Simulation API
   slug: hoverfly-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-simulation-api-openapi.yml
 - filename: hoverfly-state-api-openapi.yml
   format: yaml
   label: Hoverfly State API
   slug: hoverfly-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-state-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-state-api-openapi.yml
 - filename: hoverfly-system-api-openapi.yml
   format: yaml
   label: Hoverfly System API
   slug: hoverfly-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-system-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-system-api-openapi.yml
 - filename: hoverfly-templating-data-api-openapi.yml
   format: yaml
   label: Hoverfly Templating Data API
   slug: hoverfly-templating-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/openapi/hoverfly-templating-data-api-openapi.yml
+  url: https://artifacts.apis.io/hoverfly/openapi/hoverfly-templating-data-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 1
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hoverf
   - path: /api/v2/state\n  method: patch\n  operationId: patchState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/state\n  method: delete\n  operationId: clearState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/diff\n  method: get\n  operationId: getDiff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/diff\n  method: post\n  operationId: filterDiff\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/diff\n  method: delete\n  operationId: clearDiff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/hoverfly/templating-data-source/csv\n  method: get\n  operationId: listCsvDataSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/hoverfly/templating-data-source/csv\n  method: put\n  operationId: upsertCsvDataSource\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/hoverfly/templating-data-source/csv/{dataSourceName}\n  method: delete\n  operationId: deleteCsvDataSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/shutdown\n  method: delete\n  operationId: shutdown\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/agentic-access/hoverfly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hoverfly/agentic-access/hoverfly-agentic-access.yml
 summary_line: 42 operations · 23 acting · 1 human-in-the-loop
 tags:
 - Mocking

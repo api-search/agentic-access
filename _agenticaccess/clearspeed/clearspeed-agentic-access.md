@@ -8,19 +8,19 @@ api_specs:
   label: Clearspeed Clearspeed Integration API
   slug: clearspeed-clearspeed-integration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-clearspeed-integration-api-api-openapi.yml
+  url: https://artifacts.apis.io/clearspeed/openapi/clearspeed-clearspeed-integration-api-api-openapi.yml
 - filename: clearspeed-participant-api-openapi.yml
   format: yaml
   label: Clearspeed Participant API
   slug: clearspeed-participant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-participant-api-openapi.yml
+  url: https://artifacts.apis.io/clearspeed/openapi/clearspeed-participant-api-openapi.yml
 - filename: clearspeed-tenants-api-openapi.yml
   format: yaml
   label: Clearspeed Tenants API
   slug: clearspeed-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/clearspeed/openapi/clearspeed-tenants-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/clearspeed-integration-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 4\n  by_consequence:\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/participant\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/participant/{participant_id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tenants/{tenant_id}/questionnaires/{questionnaire_id}/apikeys\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tenants/{tenant_id}/questionnaires/{questionnaire_id}/apikeys/{apikey}\n  method: delete\n  operationId: deleteApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/agentic-access/clearspeed-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clearspeed/agentic-access/clearspeed-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
 - Company

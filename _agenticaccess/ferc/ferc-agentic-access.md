@@ -9,49 +9,49 @@ api_specs:
   label: FERC Data API
   slug: ferc-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-data-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-data-api-openapi.yml
 - filename: ferc-data-assets-api-openapi.yml
   format: yaml
   label: FERC Data Assets API
   slug: ferc-data-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-data-assets-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-data-assets-api-openapi.yml
 - filename: ferc-details-api-openapi.yml
   format: yaml
   label: FERC Details API
   slug: ferc-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-details-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-details-api-openapi.yml
 - filename: ferc-dictionary-api-openapi.yml
   format: yaml
   label: FERC Dictionary API
   slug: ferc-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-dictionary-api-openapi.yml
 - filename: ferc-filing-api-openapi.yml
   format: yaml
   label: FERC Filing API
   slug: ferc-filing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-filing-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-filing-api-openapi.yml
 - filename: ferc-public-filings-api-openapi.yml
   format: yaml
   label: FERC Public Filings API
   slug: ferc-public-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-public-filings-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-public-filings-api-openapi.yml
 - filename: ferc-reference-api-openapi.yml
   format: yaml
   label: FERC Reference API
   slug: ferc-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-reference-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-reference-api-openapi.yml
 - filename: ferc-taxonomy-api-openapi.yml
   format: yaml
   label: FERC Taxonomy API
   slug: ferc-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/ferc/openapi/ferc-taxonomy-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/ferc-d
   \      max-ttl: 3600\n    audit: none\n- path: /SubmissionHistory/forms\n  method: get\n  operationId: listForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getTestStatus\n  method: get\n  operationId: getTestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TaxonomyHistory\n  method: get\n  operationId: listTaxonomyHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TaxonomyHistory/TaxonomyFile/{versionID}\n  method: get\n  operationId: getTaxonomyFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TaxonomyHistory/SampleForm/{versionID}\n  method:\
   \ get\n  operationId: getTaxonomySampleForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TaxonomyHistory/getReleaseFiles\n  method: get\n  operationId: getTaxonomyReleaseFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /faq\n  method: get\n  operationId: listFaq\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /claims\n  method: get\n  operationId: getFilerClaims\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /SubmissionHistory\n  method: get\n  operationId: listFilerSubmissionHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TaxonomyRevision\n  method: get\n  operationId: listTaxonomyRevisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/agentic-access/ferc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ferc/agentic-access/ferc-agentic-access.yml
 summary_line: 18 operations · 2 acting · 1 human-in-the-loop
 tags:
 - Energy

@@ -8,67 +8,67 @@ api_specs:
   label: PokéAPI Berries API
   slug: pokeapi-berries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-berries-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-berries-api-openapi.yml
 - filename: pokeapi-contests-api-openapi.yml
   format: yaml
   label: PokéAPI Contests API
   slug: pokeapi-contests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-contests-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-contests-api-openapi.yml
 - filename: pokeapi-encounters-api-openapi.yml
   format: yaml
   label: PokéAPI Encounters API
   slug: pokeapi-encounters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-encounters-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-encounters-api-openapi.yml
 - filename: pokeapi-evolution-api-openapi.yml
   format: yaml
   label: PokéAPI Evolution API
   slug: pokeapi-evolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-evolution-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-evolution-api-openapi.yml
 - filename: pokeapi-games-api-openapi.yml
   format: yaml
   label: PokéAPI Games API
   slug: pokeapi-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-games-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-games-api-openapi.yml
 - filename: pokeapi-items-api-openapi.yml
   format: yaml
   label: PokéAPI Items API
   slug: pokeapi-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-items-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-items-api-openapi.yml
 - filename: pokeapi-locations-api-openapi.yml
   format: yaml
   label: PokéAPI Locations API
   slug: pokeapi-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-locations-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-locations-api-openapi.yml
 - filename: pokeapi-machines-api-openapi.yml
   format: yaml
   label: PokéAPI Machines API
   slug: pokeapi-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-machines-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-machines-api-openapi.yml
 - filename: pokeapi-moves-api-openapi.yml
   format: yaml
   label: PokéAPI Moves API
   slug: pokeapi-moves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-moves-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-moves-api-openapi.yml
 - filename: pokeapi-pok-mon-api-openapi.yml
   format: yaml
   label: PokéAPI Pokémon API
   slug: pokeapi-pok-mon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-pok-mon-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-pok-mon-api-openapi.yml
 - filename: pokeapi-utility-api-openapi.yml
   format: yaml
   label: PokéAPI Utility API
   slug: pokeapi-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/openapi/pokeapi-utility-api-openapi.yml
+  url: https://artifacts.apis.io/pokeapi/openapi/pokeapi-utility-api-openapi.yml
 consequence_counts:
   read: 86
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pokeap
   \      max-ttl: 3600\n    audit: none\n- path: /pokemon/{id}\n  method: get\n  operationId: getPokemon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pokemon/{id}/encounters\n  method: get\n  operationId: getPokemonEncounters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pokemon-species\n  method: get\n  operationId: listPokemonSpecies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pokemon-species/{id}\n  method: get\n  operationId: getPokemonSpecies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stat\n  method: get\n  operationId: listStats\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stat/{id}\n  method: get\n  operationId: getStat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /type\n  method: get\n  operationId: listTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /type/{id}\n  method: get\n  operationId: getType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /language\n  method: get\n  operationId: listLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /language/{id}\n  method: get\n  operationId:\
   \ getLanguage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/agentic-access/pokeapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pokeapi/agentic-access/pokeapi-agentic-access.yml
 summary_line: 86 operations
 tags:
 - Pokémon

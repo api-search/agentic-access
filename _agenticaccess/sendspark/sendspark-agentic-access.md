@@ -9,25 +9,25 @@ api_specs:
   label: Sendspark DVM Bundles API
   slug: sendspark-dvm-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dvm-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-dvm-bundles-api-openapi.yml
 - filename: sendspark-dynamics-campaign-api-openapi.yml
   format: yaml
   label: Sendspark Dynamics Campaign API
   slug: sendspark-dynamics-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dynamics-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-dynamics-campaign-api-openapi.yml
 - filename: sendspark-webhook-api-openapi.yml
   format: yaml
   label: Sendspark Webhook API
   slug: sendspark-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-webhook-api-openapi.yml
 - filename: sendspark-workspace-api-openapi.yml
   format: yaml
   label: Sendspark Workspace API
   slug: sendspark-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-workspace-api-openapi.yml
 consequence_counts:
   read: 9
   write: 14
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sendsp
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/dynamics/{dynamicsId}/prospects/bulk\n  method: post\n  operationId: postDynamicsProspectsBulkModify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/dvm-bundles/{bundleId}\n  method: patch\n  operationId: updateDvmBundle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/workspaces/{workspaceId}/dynamics/{dynamicsId}\n\
   \  method: patch\n  operationId: patchDynamicsModifyV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/dynamics/{dynamicId}/settings\n  method: patch\n  operationId: patchDynamicModifySettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/dynamics/{dynamicsId}/prospects/urls/bulk\n  method: patch\n  operationId: patchDynamicsProspectsUrlsBulkUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/agentic-access/sendspark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sendspark/agentic-access/sendspark-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - Company

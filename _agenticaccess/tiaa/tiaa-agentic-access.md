@@ -9,55 +9,55 @@ api_specs:
   label: TIAA Accounts API
   slug: tiaa-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-accounts-api-openapi.yml
 - filename: tiaa-contributions-api-openapi.yml
   format: yaml
   label: TIAA Contributions API
   slug: tiaa-contributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-contributions-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-contributions-api-openapi.yml
 - filename: tiaa-customer-api-openapi.yml
   format: yaml
   label: TIAA Customer API
   slug: tiaa-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-customer-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-customer-api-openapi.yml
 - filename: tiaa-investments-api-openapi.yml
   format: yaml
   label: TIAA Investments API
   slug: tiaa-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-investments-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-investments-api-openapi.yml
 - filename: tiaa-participants-api-openapi.yml
   format: yaml
   label: TIAA Participants API
   slug: tiaa-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-participants-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-participants-api-openapi.yml
 - filename: tiaa-plans-api-openapi.yml
   format: yaml
   label: TIAA Plans API
   slug: tiaa-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-plans-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-plans-api-openapi.yml
 - filename: tiaa-projections-api-openapi.yml
   format: yaml
   label: TIAA Projections API
   slug: tiaa-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-projections-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-projections-api-openapi.yml
 - filename: tiaa-tax-api-openapi.yml
   format: yaml
   label: TIAA Tax API
   slug: tiaa-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-tax-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-tax-api-openapi.yml
 - filename: tiaa-transactions-api-openapi.yml
   format: yaml
   label: TIAA Transactions API
   slug: tiaa-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/tiaa/openapi/tiaa-transactions-api-openapi.yml
 consequence_counts:
   read: 10
   write: 2
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tiaa-f
   \  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/positions\n  method: get\n  operationId: listPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tax-forms\n  method: get\n  operationId: listTaxForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plans/{planId}/participants\n  method: get\n  operationId: listParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plans/{planId}/participants\n  method: post\n  operationId: enrollParticipant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plans/{planId}/participants/{participantId}\n  method: get\n  operationId: getParticipant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plans/{planId}/contributions\n  method: post\n  operationId: submitContribution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /plans/{planId}/participants/{participantId}/projections\n  method: get\n  operationId: getIncomeProjection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plans/{planId}\n  method: get\n  operationId: getPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/agentic-access/tiaa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tiaa/agentic-access/tiaa-agentic-access.yml
 summary_line: 12 operations · 2 acting
 tags:
 - Finance

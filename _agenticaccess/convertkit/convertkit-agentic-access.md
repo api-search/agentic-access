@@ -9,91 +9,91 @@ api_specs:
   label: Kit Accounts API
   slug: convertkit-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-accounts-api-openapi.yml
 - filename: convertkit-broadcasts-api-openapi.yml
   format: yaml
   label: Kit Broadcasts API
   slug: convertkit-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-broadcasts-api-openapi.yml
 - filename: convertkit-custom-fields-api-openapi.yml
   format: yaml
   label: Kit Custom Fields API
   slug: convertkit-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-custom-fields-api-openapi.yml
 - filename: convertkit-email-templates-api-openapi.yml
   format: yaml
   label: Kit Email Templates API
   slug: convertkit-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-email-templates-api-openapi.yml
 - filename: convertkit-forms-api-openapi.yml
   format: yaml
   label: Kit Forms API
   slug: convertkit-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-forms-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-forms-api-openapi.yml
 - filename: convertkit-posts-api-openapi.yml
   format: yaml
   label: Kit Posts API
   slug: convertkit-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-posts-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-posts-api-openapi.yml
 - filename: convertkit-purchases-api-openapi.yml
   format: yaml
   label: Kit Purchases API
   slug: convertkit-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-purchases-api-openapi.yml
 - filename: convertkit-segments-api-openapi.yml
   format: yaml
   label: Kit Segments API
   slug: convertkit-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-segments-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-segments-api-openapi.yml
 - filename: convertkit-sequence-emails-api-openapi.yml
   format: yaml
   label: Kit Sequence Emails API
   slug: convertkit-sequence-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-sequence-emails-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-sequence-emails-api-openapi.yml
 - filename: convertkit-sequences-api-openapi.yml
   format: yaml
   label: Kit Sequences API
   slug: convertkit-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-sequences-api-openapi.yml
 - filename: convertkit-snippets-api-openapi.yml
   format: yaml
   label: Kit Snippets API
   slug: convertkit-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-snippets-api-openapi.yml
 - filename: convertkit-subscribers-api-openapi.yml
   format: yaml
   label: Kit Subscribers API
   slug: convertkit-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-subscribers-api-openapi.yml
 - filename: convertkit-tags-api-openapi.yml
   format: yaml
   label: Kit Tags API
   slug: convertkit-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-tags-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-tags-api-openapi.yml
 - filename: convertkit-webhooks-api-openapi.yml
   format: yaml
   label: Kit Webhooks API
   slug: convertkit-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-webhooks-api-openapi.yml
 - filename: convertkit-account-api-openapi.yml
   format: yaml
   label: Kit Account API
   slug: convertkit-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-account-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-account-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 33
@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/tags/{tag_id}/subscribers\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/tags/{tag_id}/subscribers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/tags/{tag_id}/subscribers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/tags/{tag_id}/subscribers/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/tags/{tag_id}/subscribers/{id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/webhooks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/webhooks\n  method:\
   \ post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/webhooks/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/agentic-access/convertkit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/convertkit/agentic-access/convertkit-agentic-access.yml
 summary_line: 72 operations · 39 acting
 tags:
 - Email Marketing

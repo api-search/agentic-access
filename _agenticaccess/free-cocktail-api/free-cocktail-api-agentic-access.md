@@ -8,31 +8,31 @@ api_specs:
   label: Free Cocktail API Filter API
   slug: free-cocktail-api-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-filter-api-openapi.yml
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-filter-api-openapi.yml
 - filename: free-cocktail-api-lookup-api-openapi.yml
   format: yaml
   label: Free Cocktail API Lookup API
   slug: free-cocktail-api-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-lookup-api-openapi.yml
 - filename: free-cocktail-api-search-api-openapi.yml
   format: yaml
   label: Free Cocktail API Search API
   slug: free-cocktail-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-search-api-openapi.yml
 - filename: free-cocktail-api-discovery-api-openapi.yml
   format: yaml
   label: Free Cocktail API Discovery API
   slug: free-cocktail-api-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-discovery-api-openapi.yml
 - filename: free-cocktail-api-lists-api-openapi.yml
   format: yaml
   label: Free Cocktail API Lists API
   slug: free-cocktail-api-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-lists-api-openapi.yml
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-lists-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/free-cocktail-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /search.php\n  method: get\n  operationId: searchCocktails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup.php\n  method: get\n  operationId: lookupById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /random.php\n  method: get\n  operationId: randomCocktail\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /filter.php\n  method: get\n  operationId: filterCocktails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list.php\n  method: get\n  operationId: listFilters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/agentic-access/free-cocktail-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/free-cocktail-api/agentic-access/free-cocktail-api-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Beverages

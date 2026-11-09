@@ -8,31 +8,31 @@ api_specs:
   label: YGOPRODeck Archetypes API
   slug: yu-gi-oh-archetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-archetypes-api-openapi.yml
+  url: https://artifacts.apis.io/yu-gi-oh/openapi/yu-gi-oh-archetypes-api-openapi.yml
 - filename: yu-gi-oh-card-sets-api-openapi.yml
   format: yaml
   label: YGOPRODeck Card Sets API
   slug: yu-gi-oh-card-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-card-sets-api-openapi.yml
+  url: https://artifacts.apis.io/yu-gi-oh/openapi/yu-gi-oh-card-sets-api-openapi.yml
 - filename: yu-gi-oh-cards-api-openapi.yml
   format: yaml
   label: YGOPRODeck Cards API
   slug: yu-gi-oh-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-cards-api-openapi.yml
+  url: https://artifacts.apis.io/yu-gi-oh/openapi/yu-gi-oh-cards-api-openapi.yml
 - filename: yu-gi-oh-database-api-openapi.yml
   format: yaml
   label: YGOPRODeck Database API
   slug: yu-gi-oh-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-database-api-openapi.yml
+  url: https://artifacts.apis.io/yu-gi-oh/openapi/yu-gi-oh-database-api-openapi.yml
 - filename: yu-gi-oh-reference-data-api-openapi.yml
   format: yaml
   label: YGOPRODeck Reference Data API
   slug: yu-gi-oh-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/yu-gi-oh/openapi/yu-gi-oh-reference-data-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/yu-gi-oh-ygoprodeck-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /cardinfo.php\n  method: get\n  operationId: searchCards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /randomcard.php\n  method: get\n  operationId: getRandomCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cardsets.php\n  method: get\n  operationId: listCardSets\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cardsetsinfo.php\n  method: get\n  operationId: getCardSetInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /archetypes.php\n  method: get\n  operationId: listArchetypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cardvalues.php\n  method: get\n  operationId: getCardValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkDBVer.php\n  method: get\n  operationId: getDatabaseVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/agentic-access/yu-gi-oh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yu-gi-oh/agentic-access/yu-gi-oh-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Games

@@ -9,25 +9,25 @@ api_specs:
   label: RCSB PDB General API
   slug: pdb-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/pdb-general-api-openapi.yml
+  url: https://artifacts.apis.io/pdb/openapi/pdb-general-api-openapi.yml
 - filename: pdb-metadata-service-api-openapi.yml
   format: yaml
   label: RCSB PDB Metadata Service API
   slug: pdb-metadata-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/pdb-metadata-service-api-openapi.yml
+  url: https://artifacts.apis.io/pdb/openapi/pdb-metadata-service-api-openapi.yml
 - filename: pdb-search-service-api-openapi.yml
   format: yaml
   label: RCSB PDB Search Service API
   slug: pdb-search-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/pdb-search-service-api-openapi.yml
+  url: https://artifacts.apis.io/pdb/openapi/pdb-search-service-api-openapi.yml
 - filename: pdb-suggest-service-api-openapi.yml
   format: yaml
   label: RCSB PDB Suggest Service API
   slug: pdb-suggest-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/openapi/pdb-suggest-service-api-openapi.yml
+  url: https://artifacts.apis.io/pdb/openapi/pdb-suggest-service-api-openapi.yml
 consequence_counts:
   read: 19
   write: 9
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pdb-ge
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{source}/{id}/cell/\n  method: get\n  operationId: getCell\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rcsbsearch/v2/metadata/unreleased/schema\n  method: get\n  operationId: getUnreleasedEntryMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rcsbsearch/v2/metadata/schema\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rcsbsearch/v2/metadata/chemical/schema\n  method: get\n  operationId: getChemicalMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rcsbsearch/v2/query\n  method: get\n  operationId: runJsonQueriesGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rcsbsearch/v2/query\n  method: post\n  operationId: runJsonQueriesPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rcsbsearch/v2/query/unreleased\n  method: get\n  operationId: runUnreleasedEntryJsonQueries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rcsbsearch/v2/suggest\n  method: get\n  operationId: getSuggestions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/agentic-access/pdb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pdb/agentic-access/pdb-agentic-access.yml
 summary_line: 28 operations · 9 acting
 tags:
 - Structural Biology

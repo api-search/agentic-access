@@ -9,25 +9,25 @@ api_specs:
   label: Lucidchart Groups API
   slug: lucidchart-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-groups-api-openapi.yml
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-groups-api-openapi.yml
 - filename: lucidchart-schemas-api-openapi.yml
   format: yaml
   label: Lucidchart Schemas API
   slug: lucidchart-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-schemas-api-openapi.yml
 - filename: lucidchart-service-provider-config-api-openapi.yml
   format: yaml
   label: Lucidchart Service Provider Config API
   slug: lucidchart-service-provider-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-service-provider-config-api-openapi.yml
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-service-provider-config-api-openapi.yml
 - filename: lucidchart-users-api-openapi.yml
   format: yaml
   label: Lucidchart Users API
   slug: lucidchart-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-users-api-openapi.yml
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-users-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lucidchart-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 3\n    connected: 2\n  by_consequence:\n    write: 3\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/documents\n  method: post\n  operationId: createDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/documents/{id}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/documents/{id}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/folders\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/folders/{id}\n  method: get\n  operationId: getFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/agentic-access/lucidchart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lucidchart/agentic-access/lucidchart-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
 - Productivity

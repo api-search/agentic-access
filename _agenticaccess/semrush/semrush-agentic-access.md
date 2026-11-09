@@ -9,19 +9,19 @@ api_specs:
   label: Semrush Hermes Partner API
   slug: semrush-hermes-partner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-hermes-partner-api-api-openapi.yml
+  url: https://artifacts.apis.io/semrush/openapi/semrush-hermes-partner-api-api-openapi.yml
 - filename: semrush-jwt-issuer-api-openapi.yml
   format: yaml
   label: Semrush JWT Issuer API
   slug: semrush-jwt-issuer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-jwt-issuer-api-openapi.yml
+  url: https://artifacts.apis.io/semrush/openapi/semrush-jwt-issuer-api-openapi.yml
 - filename: semrush-partner-service-api-openapi.yml
   format: yaml
   label: Semrush Partner Service API
   slug: semrush-partner-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/openapi/semrush-partner-service-api-openapi.yml
+  url: https://artifacts.apis.io/semrush/openapi/semrush-partner-service-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 3
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/semrush-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 3\n    connected: 3\n  by_consequence:\n    write: 2\n    read: 3\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /app-center-api/v2/jwt-token/\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v4/app-center/v2/partner/viewer-status\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v4/hermes/v0/subscriptions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/v4/hermes/v0/user/{user_id}/subscription/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/v4/hermes/v0/event\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /apis/v4/hermes/v0/event/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/agentic-access/semrush-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/semrush/agentic-access/semrush-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
 - Data

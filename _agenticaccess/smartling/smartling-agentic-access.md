@@ -9,109 +9,109 @@ api_specs:
   label: Smartling Account & Projects API
   slug: smartling-account-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-account-projects-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-account-projects-api-openapi.yml
 - filename: smartling-attachments-api-openapi.yml
   format: yaml
   label: Smartling Attachments API
   slug: smartling-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-attachments-api-openapi.yml
 - filename: smartling-authentication-api-openapi.yml
   format: yaml
   label: Smartling Authentication API
   slug: smartling-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-authentication-api-openapi.yml
 - filename: smartling-content-search-api-openapi.yml
   format: yaml
   label: Smartling Content Search API
   slug: smartling-content-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-content-search-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-content-search-api-openapi.yml
 - filename: smartling-context-api-openapi.yml
   format: yaml
   label: Smartling Context API
   slug: smartling-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-context-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-context-api-openapi.yml
 - filename: smartling-estimates-api-openapi.yml
   format: yaml
   label: Smartling Estimates API
   slug: smartling-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-estimates-api-openapi.yml
 - filename: smartling-files-api-openapi.yml
   format: yaml
   label: Smartling Files API
   slug: smartling-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-files-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-files-api-openapi.yml
 - filename: smartling-gdn-url-management-api-openapi.yml
   format: yaml
   label: Smartling GDN url management API
   slug: smartling-gdn-url-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-gdn-url-management-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-gdn-url-management-api-openapi.yml
 - filename: smartling-jobs-api-openapi.yml
   format: yaml
   label: Smartling Jobs API
   slug: smartling-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-jobs-api-openapi.yml
 - filename: smartling-language-detection-api-openapi.yml
   format: yaml
   label: Smartling Language Detection API
   slug: smartling-language-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-language-detection-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-language-detection-api-openapi.yml
 - filename: smartling-locales-api-openapi.yml
   format: yaml
   label: Smartling Locales API
   slug: smartling-locales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-locales-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-locales-api-openapi.yml
 - filename: smartling-machine-translation-mt-api-openapi.yml
   format: yaml
   label: Smartling Machine Translation (MT) API
   slug: smartling-machine-translation-mt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-machine-translation-mt-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-machine-translation-mt-api-openapi.yml
 - filename: smartling-people-api-openapi.yml
   format: yaml
   label: Smartling People API
   slug: smartling-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-people-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-people-api-openapi.yml
 - filename: smartling-reports-api-openapi.yml
   format: yaml
   label: Smartling Reports API
   slug: smartling-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-reports-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-reports-api-openapi.yml
 - filename: smartling-strings-api-openapi.yml
   format: yaml
   label: Smartling Strings API
   slug: smartling-strings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-strings-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-strings-api-openapi.yml
 - filename: smartling-tags-api-openapi.yml
   format: yaml
   label: Smartling Tags API
   slug: smartling-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-tags-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-tags-api-openapi.yml
 - filename: smartling-vendors-api-openapi.yml
   format: yaml
   label: Smartling Vendors API
   slug: smartling-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-vendors-api-openapi.yml
 - filename: smartling-workflow-assignment-api-openapi.yml
   format: yaml
   label: Smartling Workflow Assignment API
   slug: smartling-workflow-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/openapi/smartling-workflow-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/smartling/openapi/smartling-workflow-assignment-api-openapi.yml
 consequence_counts:
   read: 63
   safety-critical: 2
@@ -184,8 +184,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/smartl
   \ 3600\n    audit: none\n- path: /reports-api/v3/word-count\n  method: get\n  operationId: getWordCountReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports-api/v3/word-count/csv\n  method: get\n  operationId: exportWordCountReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /strings-api/v2/projects/{projectId}\n  method: post\n  operationId: addStringsToProject\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /strings-api/v2/projects/{projectId}/processes/{processUid}\n  method: get\n  operationId:\
   \ getAddStringsToProjectRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /strings-api/v2/projects/{projectId}/source-strings\n  method: get\n  operationId: getAllSourceStringsByProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /strings-api/v2/projects/{projectId}/source-strings\n  method: post\n  operationId: getAllSourceStringsByProjectPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /strings-api/v2/projects/{projectId}/translations\n  method: get\n  operationId: getAllTranslationsByProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /strings-api/v2/projects/{projectId}/translations\n\
   \  method: post\n  operationId: getAllTranslationsByProjectPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags-api/v2/accounts/{accountUid}/tags\n  method: post\n  operationId: getTagsListByAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags-api/v2/projects/{projectId}/tags\n  method: get\n  operationId: getTagsListByProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags-api/v2/projects/{projectId}/strings/tags/search\n  method: post\n  operationId: getAllTagsForStrings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags-api/v2/projects/{projectId}/strings/tags/add\n\
-  \  method: post\n  operationId: addTagToStrings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags-api/v2/projects/{projectId}/strings/tags/remove\n  method: post\n  operationId: removeTagsFromStrings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/agentic-access/smartling-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/agentic-access/smartling-agentic-access.yml
+  \  method: post\n  operationId: addTagToStrings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags-api/v2/projects/{projectId}/strings/tags/remove\n  method: post\n  operationId: removeTagsFromStrings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/smartling/agentic-access/smartling-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/smartling/agentic-access/smartling-agentic-access.yml
 summary_line: 109 operations · 46 acting · 2 human-in-the-loop
 tags:
 - Localization

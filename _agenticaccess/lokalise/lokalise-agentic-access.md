@@ -9,61 +9,61 @@ api_specs:
   label: Lokalise Files API
   slug: lokalise-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-files-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-files-api-openapi.yml
 - filename: lokalise-keys-api-openapi.yml
   format: yaml
   label: Lokalise Keys API
   slug: lokalise-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-keys-api-openapi.yml
 - filename: lokalise-projects-api-openapi.yml
   format: yaml
   label: Lokalise Projects API
   slug: lokalise-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-projects-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-projects-api-openapi.yml
 - filename: lokalise-branches-api-openapi.yml
   format: yaml
   label: Lokalise Branches API
   slug: lokalise-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-branches-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-branches-api-openapi.yml
 - filename: lokalise-comments-api-openapi.yml
   format: yaml
   label: Lokalise Comments API
   slug: lokalise-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-comments-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-comments-api-openapi.yml
 - filename: lokalise-languages-api-openapi.yml
   format: yaml
   label: Lokalise Languages API
   slug: lokalise-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-languages-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-languages-api-openapi.yml
 - filename: lokalise-queued-processes-api-openapi.yml
   format: yaml
   label: Lokalise Queued Processes API
   slug: lokalise-queued-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-queued-processes-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-queued-processes-api-openapi.yml
 - filename: lokalise-screenshots-api-openapi.yml
   format: yaml
   label: Lokalise Screenshots API
   slug: lokalise-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-screenshots-api-openapi.yml
 - filename: lokalise-tasks-api-openapi.yml
   format: yaml
   label: Lokalise Tasks API
   slug: lokalise-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-tasks-api-openapi.yml
 - filename: lokalise-translations-api-openapi.yml
   format: yaml
   label: Lokalise Translations API
   slug: lokalise-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-translations-api-openapi.yml
+  url: https://artifacts.apis.io/lokalise/openapi/lokalise-translations-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lokali
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/keys\n  method: get\n  operationId: listKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/keys\n  method: post\n  operationId: createKeys\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/keys/{key_id}\n  method: get\n  operationId: getKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/keys/{key_id}\n  method: put\n  operationId: updateKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/keys/{key_id}\n  method: delete\n  operationId: deleteKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/files/upload\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/agentic-access/lokalise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lokalise/agentic-access/lokalise-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Localization

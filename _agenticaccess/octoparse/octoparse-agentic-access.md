@@ -9,85 +9,85 @@ api_specs:
   label: Octoparse Action API
   slug: octoparse-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-action-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-action-api-openapi.yml
 - filename: octoparse-actions-api-openapi.yml
   format: yaml
   label: Octoparse Actions API
   slug: octoparse-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-actions-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-actions-api-openapi.yml
 - filename: octoparse-cloud-extraction-api-openapi.yml
   format: yaml
   label: Octoparse Cloud_ Extraction API
   slug: octoparse-cloud-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-cloud-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-cloud-extraction-api-openapi.yml
 - filename: octoparse-copy-api-openapi.yml
   format: yaml
   label: Octoparse Copy API
   slug: octoparse-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-copy-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-copy-api-openapi.yml
 - filename: octoparse-data-api-openapi.yml
   format: yaml
   label: Octoparse Data API
   slug: octoparse-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-data-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-data-api-openapi.yml
 - filename: octoparse-files-api-openapi.yml
   format: yaml
   label: Octoparse Files API
   slug: octoparse-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-files-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-files-api-openapi.yml
 - filename: octoparse-group-api-openapi.yml
   format: yaml
   label: Octoparse Group API
   slug: octoparse-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-group-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-group-api-openapi.yml
 - filename: octoparse-groups-api-openapi.yml
   format: yaml
   label: Octoparse Groups API
   slug: octoparse-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-groups-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-groups-api-openapi.yml
 - filename: octoparse-items-api-openapi.yml
   format: yaml
   label: Octoparse Items API
   slug: octoparse-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-items-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-items-api-openapi.yml
 - filename: octoparse-search-api-openapi.yml
   format: yaml
   label: Octoparse Search API
   slug: octoparse-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-search-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-search-api-openapi.yml
 - filename: octoparse-statuses-api-openapi.yml
   format: yaml
   label: Octoparse Statuses API
   slug: octoparse-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-statuses-api-openapi.yml
 - filename: octoparse-stop-api-openapi.yml
   format: yaml
   label: Octoparse Stop API
   slug: octoparse-stop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-stop-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-stop-api-openapi.yml
 - filename: octoparse-subtasks-api-openapi.yml
   format: yaml
   label: Octoparse Subtasks API
   slug: octoparse-subtasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-subtasks-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-subtasks-api-openapi.yml
 - filename: octoparse-token-api-openapi.yml
   format: yaml
   label: Octoparse Token API
   slug: octoparse-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/openapi/octoparse-token-api-openapi.yml
+  url: https://artifacts.apis.io/octoparse/openapi/octoparse-token-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 2
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/octopa
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: task/copy\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: task/moveToGroup\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: task/search\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: task/urls{file}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: taskGroup\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: task/getActions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: task/updateActionProperties\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: task/updateLoopItems\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/agentic-access/octoparse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/octoparse/agentic-access/octoparse-agentic-access.yml
 summary_line: 21 operations · 15 acting · 2 human-in-the-loop
 tags:
 - Harvesting

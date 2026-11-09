@@ -9,7 +9,7 @@ api_specs:
   label: Apache Druid API
   slug: apache-druid-druid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-druid/refs/heads/main/openapi/apache-druid-druid-api-openapi.yml
+  url: https://artifacts.apis.io/apache-druid/openapi/apache-druid-druid-api-openapi.yml
 consequence_counts:
   read: 2
   write: 11
@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ - abnormal\n      - high-value\n    audit: required\n- path: /druid/v2/sql/statements/{queryId}/results\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /druid/indexer/v1/datasources/{datasource}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /druid/indexer/v1/datasources/{datasource}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /druid/indexer/v1/datasources/{datasource}/markUsed\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /druid/indexer/v1/datasources/{datasource}/markUnused\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /druid/indexer/v1/datasources/{datasource}/segments/{segmentId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /druid/indexer/v1/datasources/{datasource}/segments/{segmentId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /druid/coordinator/v1/datasources/{datasource}/intervals/{interval}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-druid/refs/heads/main/agentic-access/apache-druid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-druid/agentic-access/apache-druid-agentic-access.yml
 summary_line: 13 operations · 11 acting
 tags:
 - Analytics

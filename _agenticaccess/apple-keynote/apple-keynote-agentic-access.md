@@ -9,25 +9,25 @@ api_specs:
   label: Apple Keynote Export API
   slug: apple-keynote-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/openapi/apple-keynote-export-api-openapi.yml
+  url: https://artifacts.apis.io/apple-keynote/openapi/apple-keynote-export-api-openapi.yml
 - filename: apple-keynote-presentations-api-openapi.yml
   format: yaml
   label: Apple Keynote Presentations API
   slug: apple-keynote-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/openapi/apple-keynote-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/apple-keynote/openapi/apple-keynote-presentations-api-openapi.yml
 - filename: apple-keynote-slides-api-openapi.yml
   format: yaml
   label: Apple Keynote Slides API
   slug: apple-keynote-slides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/openapi/apple-keynote-slides-api-openapi.yml
+  url: https://artifacts.apis.io/apple-keynote/openapi/apple-keynote-slides-api-openapi.yml
 - filename: apple-keynote-themes-api-openapi.yml
   format: yaml
   label: Apple Keynote Themes API
   slug: apple-keynote-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/openapi/apple-keynote-themes-api-openapi.yml
+  url: https://artifacts.apis.io/apple-keynote/openapi/apple-keynote-themes-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apple-
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /presentations/{presentationId}\n  method: get\n  operationId: getPresentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /presentations/{presentationId}\n  method: put\n  operationId: updatePresentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /presentations/{presentationId}\n  method: delete\n  operationId: deletePresentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /presentations/{presentationId}/slides\n  method: get\n  operationId: listSlides\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /presentations/{presentationId}/slides\n  method: post\n  operationId: addSlide\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /presentations/{presentationId}/slides/{slideNumber}\n  method: get\n  operationId: getSlide\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /presentations/{presentationId}/slides/{slideNumber}\n  method: delete\n\
   \  operationId: deleteSlide\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /presentations/{presentationId}/export\n  method: post\n  operationId: exportPresentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /themes\n  method: get\n  operationId: listThemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/agentic-access/apple-keynote-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apple-keynote/agentic-access/apple-keynote-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Apple

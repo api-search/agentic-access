@@ -9,67 +9,67 @@ api_specs:
   label: Reolink AI API
   slug: reolink-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-ai-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-ai-api-openapi.yml
 - filename: reolink-alarm-api-openapi.yml
   format: yaml
   label: Reolink Alarm API
   slug: reolink-alarm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-alarm-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-alarm-api-openapi.yml
 - filename: reolink-authentication-api-openapi.yml
   format: yaml
   label: Reolink Authentication API
   slug: reolink-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-authentication-api-openapi.yml
 - filename: reolink-encoding-api-openapi.yml
   format: yaml
   label: Reolink Encoding API
   slug: reolink-encoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-encoding-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-encoding-api-openapi.yml
 - filename: reolink-led-api-openapi.yml
   format: yaml
   label: Reolink LED API
   slug: reolink-led-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-led-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-led-api-openapi.yml
 - filename: reolink-network-api-openapi.yml
   format: yaml
   label: Reolink Network API
   slug: reolink-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-network-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-network-api-openapi.yml
 - filename: reolink-ptz-api-openapi.yml
   format: yaml
   label: Reolink PTZ API
   slug: reolink-ptz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-ptz-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-ptz-api-openapi.yml
 - filename: reolink-recording-api-openapi.yml
   format: yaml
   label: Reolink Recording API
   slug: reolink-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-recording-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-recording-api-openapi.yml
 - filename: reolink-security-api-openapi.yml
   format: yaml
   label: Reolink Security API
   slug: reolink-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-security-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-security-api-openapi.yml
 - filename: reolink-system-api-openapi.yml
   format: yaml
   label: Reolink System API
   slug: reolink-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-system-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-system-api-openapi.yml
 - filename: reolink-video-api-openapi.yml
   format: yaml
   label: Reolink Video API
   slug: reolink-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/openapi/reolink-video-api-openapi.yml
+  url: https://artifacts.apis.io/reolink/openapi/reolink-video-api-openapi.yml
 consequence_counts:
   read: 42
   safety-critical: 3
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/reolin
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cgi-bin/api.cgi?cmd=SetImage&token={token}\n  method: post\n  operationId: setImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cgi-bin/api.cgi?cmd=GetOsd&token={token}\n  method: post\n  operationId: getOsd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cgi-bin/api.cgi?cmd=SetOsd&token={token}\n  method: post\n  operationId: setOsd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n- path: /cgi-bin/api.cgi?cmd=GetIsp&token={token}\n  method: post\n  operationId: getIsp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cgi-bin/api.cgi?cmd=GetMask&token={token}\n  method: post\n  operationId: getMask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cgi-bin/api.cgi?cmd=SetMask&token={token}\n  method: post\n  operationId: setMask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cgi-bin/api.cgi?cmd=Snap&token={token}\n  method: post\n  operationId: snap\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/agentic-access/reolink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reolink/agentic-access/reolink-agentic-access.yml
 summary_line: 69 operations · 27 acting · 3 human-in-the-loop
 tags:
 - IoT

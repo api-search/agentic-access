@@ -9,25 +9,25 @@ api_specs:
   label: Oxylabs Login API
   slug: oxylabs-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-login-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-login-api-openapi.yml
 - filename: oxylabs-queries-api-openapi.yml
   format: yaml
   label: Oxylabs Queries API
   slug: oxylabs-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-queries-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-queries-api-openapi.yml
 - filename: oxylabs-stats-api-openapi.yml
   format: yaml
   label: Oxylabs Stats API
   slug: oxylabs-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-stats-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-stats-api-openapi.yml
 - filename: oxylabs-users-api-openapi.yml
   format: yaml
   label: Oxylabs Users API
   slug: oxylabs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/openapi/oxylabs-users-api-openapi.yml
+  url: https://artifacts.apis.io/oxylabs/openapi/oxylabs-users-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oxylab
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/v1/usage\n  method: get\n  operationId: getUsageStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /login\n  method: post\n  operationId: residentialLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/sub-users\n  method: get\n  operationId: listSubUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/sub-users\n  method: post\n  operationId: createSubUser\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/sub-users/{subUserId}\n  method: get\n  operationId: getSubUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/sub-users/{subUserId}\n  method: patch\n  operationId: updateSubUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/sub-users/{subUserId}\n  method: delete\n  operationId: deleteSubUser\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/sub-users/{subUserId}/target-stats\n  method: get\n  operationId: getSubUserTargetStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/client-stats\n  method: get\n  operationId: getClientStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/agentic-access/oxylabs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oxylabs/agentic-access/oxylabs-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - AI Web Scraping

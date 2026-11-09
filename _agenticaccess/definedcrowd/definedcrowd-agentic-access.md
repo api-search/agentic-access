@@ -9,49 +9,49 @@ api_specs:
   label: Defined.ai (DefinedCrowd) Deliverables API
   slug: definedcrowd-deliverables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-deliverables-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-deliverables-api-openapi.yml
 - filename: definedcrowd-input-units-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Input Units API
   slug: definedcrowd-input-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-input-units-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-input-units-api-openapi.yml
 - filename: definedcrowd-jobs-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Jobs API
   slug: definedcrowd-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-jobs-api-openapi.yml
 - filename: definedcrowd-mean-opinion-score-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Mean Opinion Score API
   slug: definedcrowd-mean-opinion-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-mean-opinion-score-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-mean-opinion-score-api-openapi.yml
 - filename: definedcrowd-project-management-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Project Management API
   slug: definedcrowd-project-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-project-management-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-project-management-api-openapi.yml
 - filename: definedcrowd-pronunciation-validation-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Pronunciation Validation API
   slug: definedcrowd-pronunciation-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-pronunciation-validation-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-pronunciation-validation-api-openapi.yml
 - filename: definedcrowd-subscriptions-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Subscriptions API
   slug: definedcrowd-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-subscriptions-api-openapi.yml
 - filename: definedcrowd-supported-languages-api-openapi.yml
   format: yaml
   label: Defined.ai (DefinedCrowd) Supported Languages API
   slug: definedcrowd-supported-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/openapi/definedcrowd-supported-languages-api-openapi.yml
+  url: https://artifacts.apis.io/definedcrowd/openapi/definedcrowd-supported-languages-api-openapi.yml
 consequence_counts:
   read: 15
   write: 14
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/define
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.0/public/projects/MeanOpinionScore/{projectId}/clone\n  method: post\n  operationId: MeanOpinionScoreProject_CloneProjectConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.0/public/projects/PronunciationValidation\n  method: post\n  operationId: PronunciationValidationProject_CreateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.0/public/projects/PronunciationValidation/{projectId}/inputUnits\n\
   \  method: post\n  operationId: PronunciationValidationProject_UploadProjectInputUnits\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.0/public/projects/PronunciationValidation/{projectId}/resultset\n  method: get\n  operationId: PronunciationValidationProject_GetProjectResultSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.0/public/projects/PronunciationValidation/{projectId}/clone\n  method: post\n  operationId: PronunciationValidationProject_CloneProjectConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/agentic-access/definedcrowd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/definedcrowd/agentic-access/definedcrowd-agentic-access.yml
 summary_line: 29 operations · 14 acting
 tags:
 - Company

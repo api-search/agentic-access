@@ -9,67 +9,67 @@ api_specs:
   label: Argo Workflows ArchivedWorkflowService API
   slug: argo-workflows-archivedworkflowservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-archivedworkflowservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-archivedworkflowservice-api-openapi.yml
 - filename: argo-workflows-artifactservice-api-openapi.yml
   format: yaml
   label: Argo Workflows ArtifactService API
   slug: argo-workflows-artifactservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-artifactservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-artifactservice-api-openapi.yml
 - filename: argo-workflows-clusterworkflowtemplateservice-api-openapi.yml
   format: yaml
   label: Argo Workflows ClusterWorkflowTemplateService API
   slug: argo-workflows-clusterworkflowtemplateservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-clusterworkflowtemplateservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-clusterworkflowtemplateservice-api-openapi.yml
 - filename: argo-workflows-cronworkflowservice-api-openapi.yml
   format: yaml
   label: Argo Workflows CronWorkflowService API
   slug: argo-workflows-cronworkflowservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-cronworkflowservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-cronworkflowservice-api-openapi.yml
 - filename: argo-workflows-eventsourceservice-api-openapi.yml
   format: yaml
   label: Argo Workflows EventSourceService API
   slug: argo-workflows-eventsourceservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-eventsourceservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-eventsourceservice-api-openapi.yml
 - filename: argo-workflows-infoservice-api-openapi.yml
   format: yaml
   label: Argo Workflows InfoService API
   slug: argo-workflows-infoservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-infoservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-infoservice-api-openapi.yml
 - filename: argo-workflows-sensorservice-api-openapi.yml
   format: yaml
   label: Argo Workflows SensorService API
   slug: argo-workflows-sensorservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-sensorservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-sensorservice-api-openapi.yml
 - filename: argo-workflows-syncservice-api-openapi.yml
   format: yaml
   label: Argo Workflows SyncService API
   slug: argo-workflows-syncservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-syncservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-syncservice-api-openapi.yml
 - filename: argo-workflows-workflowservice-api-openapi.yml
   format: yaml
   label: Argo Workflows WorkflowService API
   slug: argo-workflows-workflowservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-workflowservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-workflowservice-api-openapi.yml
 - filename: argo-workflows-workflowtemplateservice-api-openapi.yml
   format: yaml
   label: Argo Workflows WorkflowTemplateService API
   slug: argo-workflows-workflowtemplateservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-workflowtemplateservice-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-workflowtemplateservice-api-openapi.yml
 - filename: argo-workflows-event-service-api-openapi.yml
   format: yaml
   label: Argo Workflows Event Service API
   slug: argo-workflows-event-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-event-service-api-openapi.yml
+  url: https://artifacts.apis.io/argo-workflows/openapi/argo-workflows-event-service-api-openapi.yml
 consequence_counts:
   read: 34
   safety-critical: 2
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/argo-w
   \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/workflows/{namespace}/{name}/suspend\n  method: put\n  operationId: WorkflowService_SuspendWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workflows/{namespace}/{name}/terminate\n  method: put\n  operationId: WorkflowService_TerminateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n\
   \    audit: required\n- path: /api/v1/workflows/{namespace}/{name}/{podName}/log\n  method: get\n  operationId: WorkflowService_PodLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artifact-files/{namespace}/{idDiscriminator}/{id}/{nodeId}/{artifactDiscriminator}/{artifactName}\n  method: get\n  operationId: ArtifactService_GetArtifactFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artifacts-by-uid/{uid}/{nodeId}/{artifactName}\n  method: get\n  operationId: ArtifactService_GetOutputArtifactByUID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artifacts/{namespace}/{name}/{nodeId}/{artifactName}\n  method: get\n  operationId: ArtifactService_GetOutputArtifact\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /input-artifacts-by-uid/{uid}/{nodeId}/{artifactName}\n  method: get\n  operationId: ArtifactService_GetInputArtifactByUID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /input-artifacts/{namespace}/{name}/{nodeId}/{artifactName}\n  method: get\n  operationId: ArtifactService_GetInputArtifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/agentic-access/argo-workflows-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/argo-workflows/agentic-access/argo-workflows-agentic-access.yml
 summary_line: 73 operations · 39 acting · 2 human-in-the-loop
 tags:
 - CNCF

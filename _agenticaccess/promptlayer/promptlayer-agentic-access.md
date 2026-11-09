@@ -9,25 +9,25 @@ api_specs:
   label: PromptLayer Evaluations & Datasets API
   slug: promptlayer-evaluations-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-evaluations-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/promptlayer/openapi/promptlayer-evaluations-datasets-api-openapi.yml
 - filename: promptlayer-logging-tracking-api-openapi.yml
   format: yaml
   label: PromptLayer Logging & Tracking API
   slug: promptlayer-logging-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-logging-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/promptlayer/openapi/promptlayer-logging-tracking-api-openapi.yml
 - filename: promptlayer-prompt-registry-api-openapi.yml
   format: yaml
   label: PromptLayer Prompt Registry API
   slug: promptlayer-prompt-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-prompt-registry-api-openapi.yml
+  url: https://artifacts.apis.io/promptlayer/openapi/promptlayer-prompt-registry-api-openapi.yml
 - filename: promptlayer-spans-traces-api-openapi.yml
   format: yaml
   label: PromptLayer Spans & Traces API
   slug: promptlayer-spans-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-spans-traces-api-openapi.yml
+  url: https://artifacts.apis.io/promptlayer/openapi/promptlayer-spans-traces-api-openapi.yml
 consequence_counts:
   read: 6
   write: 10
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/prompt
   \  method: post\n  operationId: trackScore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/track-metadata\n  method: post\n  operationId: trackMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prompt-templates/{identifier}\n  method: post\n  operationId: getPromptTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/prompt-templates\n  method: post\n  operationId: publishPromptTemplate\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spans-bulk\n  method: post\n  operationId: createSpansBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /otlp/v1/traces\n  method: post\n  operationId: ingestOtlpTraces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /traces/{id}\n  method: get\n  operationId:\
   \ getTrace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces/{id}/close\n  method: post\n  operationId: closeTrace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/agentic-access/promptlayer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/promptlayer/agentic-access/promptlayer-agentic-access.yml
 summary_line: 16 operations · 10 acting
 tags:
 - Artificial Intelligence

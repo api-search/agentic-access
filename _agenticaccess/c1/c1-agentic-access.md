@@ -9,277 +9,277 @@ api_specs:
   label: C1 Access Conflict API
   slug: c1-access-conflict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-access-conflict-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-access-conflict-api-openapi.yml
 - filename: c1-app-api-openapi.yml
   format: yaml
   label: C1 App API
   slug: c1-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-api-openapi.yml
 - filename: c1-app-entitlement-api-openapi.yml
   format: yaml
   label: C1 App Entitlement API
   slug: c1-app-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-entitlement-api-openapi.yml
 - filename: c1-app-entitlement-automation-api-openapi.yml
   format: yaml
   label: C1 App Entitlement Automation API
   slug: c1-app-entitlement-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-entitlement-automation-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-entitlement-automation-api-openapi.yml
 - filename: c1-app-entitlement-automation-exclusion-api-openapi.yml
   format: yaml
   label: C1 App Entitlement Automation Exclusion API
   slug: c1-app-entitlement-automation-exclusion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-entitlement-automation-exclusion-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-entitlement-automation-exclusion-api-openapi.yml
 - filename: c1-app-entitlement-monitor-binding-api-openapi.yml
   format: yaml
   label: C1 App Entitlement Monitor Binding API
   slug: c1-app-entitlement-monitor-binding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-entitlement-monitor-binding-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-entitlement-monitor-binding-api-openapi.yml
 - filename: c1-app-entitlement-owner-api-openapi.yml
   format: yaml
   label: C1 App Entitlement Owner API
   slug: c1-app-entitlement-owner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-entitlement-owner-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-entitlement-owner-api-openapi.yml
 - filename: c1-app-entitlement-proxy-binding-api-openapi.yml
   format: yaml
   label: C1 App Entitlement Proxy Binding API
   slug: c1-app-entitlement-proxy-binding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-entitlement-proxy-binding-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-entitlement-proxy-binding-api-openapi.yml
 - filename: c1-app-entitlement-user-binding-api-openapi.yml
   format: yaml
   label: C1 App Entitlement User Binding API
   slug: c1-app-entitlement-user-binding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-entitlement-user-binding-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-entitlement-user-binding-api-openapi.yml
 - filename: c1-app-entitlement-user-binding-feed-api-openapi.yml
   format: yaml
   label: C1 App Entitlement User Binding Feed API
   slug: c1-app-entitlement-user-binding-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-entitlement-user-binding-feed-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-entitlement-user-binding-feed-api-openapi.yml
 - filename: c1-app-entitlement-user-binding-history-api-openapi.yml
   format: yaml
   label: C1 App Entitlement User Binding History API
   slug: c1-app-entitlement-user-binding-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-entitlement-user-binding-history-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-entitlement-user-binding-history-api-openapi.yml
 - filename: c1-app-owner-api-openapi.yml
   format: yaml
   label: C1 App Owner API
   slug: c1-app-owner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-owner-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-owner-api-openapi.yml
 - filename: c1-app-reports-api-openapi.yml
   format: yaml
   label: C1 App Reports API
   slug: c1-app-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-reports-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-reports-api-openapi.yml
 - filename: c1-app-resource-api-openapi.yml
   format: yaml
   label: C1 App Resource API
   slug: c1-app-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-resource-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-resource-api-openapi.yml
 - filename: c1-app-resource-owner-api-openapi.yml
   format: yaml
   label: C1 App Resource Owner API
   slug: c1-app-resource-owner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-resource-owner-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-resource-owner-api-openapi.yml
 - filename: c1-app-resource-type-api-openapi.yml
   format: yaml
   label: C1 App Resource Type API
   slug: c1-app-resource-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-resource-type-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-resource-type-api-openapi.yml
 - filename: c1-app-usage-controls-api-openapi.yml
   format: yaml
   label: C1 App Usage Controls API
   slug: c1-app-usage-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-usage-controls-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-usage-controls-api-openapi.yml
 - filename: c1-appaccessrequestdefaults-api-openapi.yml
   format: yaml
   label: C1 AppAccessRequestDefaults API
   slug: c1-appaccessrequestdefaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-appaccessrequestdefaults-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-appaccessrequestdefaults-api-openapi.yml
 - filename: c1-attribute-api-openapi.yml
   format: yaml
   label: C1 Attribute API
   slug: c1-attribute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-attribute-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-attribute-api-openapi.yml
 - filename: c1-auth-api-openapi.yml
   format: yaml
   label: C1 Auth API
   slug: c1-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-auth-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-auth-api-openapi.yml
 - filename: c1-automations-api-openapi.yml
   format: yaml
   label: C1 Automations API
   slug: c1-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-automations-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-automations-api-openapi.yml
 - filename: c1-aws-external-id-settings-api-openapi.yml
   format: yaml
   label: C1 AWS External ID Settings API
   slug: c1-aws-external-id-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-aws-external-id-settings-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-aws-external-id-settings-api-openapi.yml
 - filename: c1-compliance-framework-api-openapi.yml
   format: yaml
   label: C1 Compliance Framework API
   slug: c1-compliance-framework-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-compliance-framework-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-compliance-framework-api-openapi.yml
 - filename: c1-connector-api-openapi.yml
   format: yaml
   label: C1 Connector API
   slug: c1-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-connector-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-connector-api-openapi.yml
 - filename: c1-connector-catalog-api-openapi.yml
   format: yaml
   label: C1 Connector Catalog API
   slug: c1-connector-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-connector-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-connector-catalog-api-openapi.yml
 - filename: c1-directory-api-openapi.yml
   format: yaml
   label: C1 Directory API
   slug: c1-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-directory-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-directory-api-openapi.yml
 - filename: c1-function-api-openapi.yml
   format: yaml
   label: C1 Function API
   slug: c1-function-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-function-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-function-api-openapi.yml
 - filename: c1-function-commit-api-openapi.yml
   format: yaml
   label: C1 Function Commit API
   slug: c1-function-commit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-function-commit-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-function-commit-api-openapi.yml
 - filename: c1-function-tag-api-openapi.yml
   format: yaml
   label: C1 Function Tag API
   slug: c1-function-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-function-tag-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-function-tag-api-openapi.yml
 - filename: c1-org-domain-api-openapi.yml
   format: yaml
   label: C1 Org Domain API
   slug: c1-org-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-org-domain-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-org-domain-api-openapi.yml
 - filename: c1-personal-client-api-openapi.yml
   format: yaml
   label: C1 Personal Client API
   slug: c1-personal-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-personal-client-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-personal-client-api-openapi.yml
 - filename: c1-policy-api-openapi.yml
   format: yaml
   label: C1 Policy API
   slug: c1-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-policy-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-policy-api-openapi.yml
 - filename: c1-request-catalog-api-openapi.yml
   format: yaml
   label: C1 Request Catalog API
   slug: c1-request-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-request-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-request-catalog-api-openapi.yml
 - filename: c1-request-schema-api-openapi.yml
   format: yaml
   label: C1 Request Schema API
   slug: c1-request-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-request-schema-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-request-schema-api-openapi.yml
 - filename: c1-request-schema-entitlement-binding-api-openapi.yml
   format: yaml
   label: C1 Request Schema Entitlement Binding API
   slug: c1-request-schema-entitlement-binding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-request-schema-entitlement-binding-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-request-schema-entitlement-binding-api-openapi.yml
 - filename: c1-risk-level-api-openapi.yml
   format: yaml
   label: C1 Risk Level API
   slug: c1-risk-level-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-risk-level-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-risk-level-api-openapi.yml
 - filename: c1-role-api-openapi.yml
   format: yaml
   label: C1 Role API
   slug: c1-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-role-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-role-api-openapi.yml
 - filename: c1-session-settings-api-openapi.yml
   format: yaml
   label: C1 Session Settings API
   slug: c1-session-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-session-settings-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-session-settings-api-openapi.yml
 - filename: c1-step-up-authentication-providers-api-openapi.yml
   format: yaml
   label: C1 Step Up Authentication Providers API
   slug: c1-step-up-authentication-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-step-up-authentication-providers-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-step-up-authentication-providers-api-openapi.yml
 - filename: c1-step-up-authentication-transactions-api-openapi.yml
   format: yaml
   label: C1 Step Up Authentication Transactions API
   slug: c1-step-up-authentication-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-step-up-authentication-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-step-up-authentication-transactions-api-openapi.yml
 - filename: c1-system-log-api-openapi.yml
   format: yaml
   label: C1 System Log API
   slug: c1-system-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-system-log-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-system-log-api-openapi.yml
 - filename: c1-system-log-exporter-api-openapi.yml
   format: yaml
   label: C1 System Log Exporter API
   slug: c1-system-log-exporter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-system-log-exporter-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-system-log-exporter-api-openapi.yml
 - filename: c1-task-api-openapi.yml
   format: yaml
   label: C1 Task API
   slug: c1-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-task-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-task-api-openapi.yml
 - filename: c1-user-api-openapi.yml
   format: yaml
   label: C1 User API
   slug: c1-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-user-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-user-api-openapi.yml
 - filename: c1-webhook-api-openapi.yml
   format: yaml
   label: C1 Webhook API
   slug: c1-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-webhook-api-openapi.yml
 - filename: c1-app-users-api-openapi.yml
   format: yaml
   label: C1 App Users API
   slug: c1-app-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/openapi/c1-app-users-api-openapi.yml
+  url: https://artifacts.apis.io/c1/openapi/c1-app-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 104
@@ -383,8 +383,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/c1-acc
   \ 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/app_users/{app_user_id}/credentials\n  method: get\n  operationId: c1.api.app.v1.AppUserService.ListAppUserCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/users/{user_id}/app_users\n  method: get\n  operationId: c1.api.app.v1.AppUserService.ListAppUsersForUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_user_app_id}/app_users/{app_user_id}\n  method: post\n  operationId: c1.api.app.v1.AppUserService.Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/v1/search/app_users\n  method: post\n  operationId: c1.api.app.v1.AppUserService.Search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/access_request_defaults\n  method: get\n  operationId: c1.api.app.v1.AppAccessRequestsDefaultsService.GetAppAccessRequestsDefaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/access_request_defaults\n  method: post\n  operationId: c1.api.app.v1.AppAccessRequestsDefaultsService.CreateAppAccessRequestsDefaults\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/v1/apps/{app_id}/access_request_defaults/cancel\n  method: post\n  operationId: c1.api.app.v1.AppAccessRequestsDefaultsService.CancelAppAccessRequestsDefaults\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attribute/{id}\n  method: delete\n  operationId: c1.api.attribute.v1.Attributes.DeleteAttributeValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attributes\n  method: post\n  operationId: c1.api.attribute.v1.Attributes.CreateAttributeValue\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attributes/{id}\n  method: get\n  operationId: c1.api.attribute.v1.Attributes.GetAttributeValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (83 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/agentic-access/c1-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/c1/refs/heads/main/agentic-access/c1-agentic-access.yml
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attributes/{id}\n  method: get\n  operationId: c1.api.attribute.v1.Attributes.GetAttributeValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (83 KB total) ---\n# Full source: https://artifacts.apis.io/c1/agentic-access/c1-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/c1/agentic-access/c1-agentic-access.yml
 summary_line: 243 operations · 139 acting · 6 human-in-the-loop
 tags:
 - Company

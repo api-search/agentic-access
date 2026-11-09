@@ -8,43 +8,43 @@ api_specs:
   label: Liquity V2 Protocol Stats API
   slug: liquity-v2-protocol-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-protocol-stats-api-openapi.yml
+  url: https://artifacts.apis.io/liquity/openapi/liquity-v2-protocol-stats-api-openapi.yml
 - filename: liquity-v2-website-data-api-openapi.yml
   format: yaml
   label: Liquity V2 Website Data API
   slug: liquity-v2-website-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-website-data-api-openapi.yml
+  url: https://artifacts.apis.io/liquity/openapi/liquity-v2-website-data-api-openapi.yml
 - filename: liquity-v2-governance-api-openapi.yml
   format: yaml
   label: Liquity V2 Governance API
   slug: liquity-v2-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-governance-api-openapi.yml
+  url: https://artifacts.apis.io/liquity/openapi/liquity-v2-governance-api-openapi.yml
 - filename: liquity-v1-supply-api-openapi.yml
   format: yaml
   label: Liquity V1 Supply API
   slug: liquity-v1-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v1-supply-api-openapi.yml
+  url: https://artifacts.apis.io/liquity/openapi/liquity-v1-supply-api-openapi.yml
 - filename: liquity-v2-governance-api-openapi.yml
   format: yaml
   label: Liquity V2 Governance API
   slug: liquity-v2-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-governance-api-openapi.yml
+  url: https://artifacts.apis.io/liquity/openapi/liquity-v2-governance-api-openapi.yml
 - filename: liquity-v2-protocol-stats-api-openapi.yml
   format: yaml
   label: Liquity V2 Protocol Stats API
   slug: liquity-v2-protocol-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-protocol-stats-api-openapi.yml
+  url: https://artifacts.apis.io/liquity/openapi/liquity-v2-protocol-stats-api-openapi.yml
 - filename: liquity-v2-website-data-api-openapi.yml
   format: yaml
   label: Liquity V2 Website Data API
   slug: liquity-v2-website-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/openapi/liquity-v2-website-data-api-openapi.yml
+  url: https://artifacts.apis.io/liquity/openapi/liquity-v2-website-data-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  method: get\n  operationId: getLusdChickenBondsBammStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/ethereum.json\n  method: get\n  operationId: getEthereumProtocolStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/mainnet.json\n  method: get\n  operationId: getMainnetProtocolStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/testnet/sepolia.json\n  method: get\n  operationId: getSepoliaTestnetStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/website/bold-venues.json\n  method: get\n  operationId: getBoldYieldVenues\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/website/fork-venues.json\n  method: get\n  operationId: getForkVenues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/website/leaderboard.json\n  method: get\n  operationId: getPointsLeaderboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/website/borrow-rates.json\n  method: get\n  operationId: getBorrowRatesComparison\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/governance/initiatives.json\n  method: get\n  operationId: getGovernanceInitiatives\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/governance/latest_completed_epoch.json\n  method: get\n  operationId: getLatestCompletedEpoch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/agentic-access/liquity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liquity/agentic-access/liquity-agentic-access.yml
 summary_line: 12 operations
 tags:
 - DeFi

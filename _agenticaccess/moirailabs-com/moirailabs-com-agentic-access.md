@@ -9,55 +9,55 @@ api_specs:
   label: Moirai Labs Analytics Controller API
   slug: moirailabs-com-analytics-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-analytics-controller-api-openapi.yml
+  url: https://artifacts.apis.io/moirailabs-com/openapi/moirailabs-com-analytics-controller-api-openapi.yml
 - filename: moirailabs-com-analytics-invocation-controller-api-openapi.yml
   format: yaml
   label: Moirai Labs Analytics Invocation Controller API
   slug: moirailabs-com-analytics-invocation-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-analytics-invocation-controller-api-openapi.yml
+  url: https://artifacts.apis.io/moirailabs-com/openapi/moirailabs-com-analytics-invocation-controller-api-openapi.yml
 - filename: moirailabs-com-contract-info-controller-api-openapi.yml
   format: yaml
   label: Moirai Labs Contract Info Controller API
   slug: moirailabs-com-contract-info-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-contract-info-controller-api-openapi.yml
+  url: https://artifacts.apis.io/moirailabs-com/openapi/moirailabs-com-contract-info-controller-api-openapi.yml
 - filename: moirailabs-com-functions-controller-api-openapi.yml
   format: yaml
   label: Moirai Labs Functions Controller API
   slug: moirailabs-com-functions-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-functions-controller-api-openapi.yml
+  url: https://artifacts.apis.io/moirailabs-com/openapi/moirailabs-com-functions-controller-api-openapi.yml
 - filename: moirailabs-com-plan-controller-api-openapi.yml
   format: yaml
   label: Moirai Labs Plan Controller API
   slug: moirailabs-com-plan-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-plan-controller-api-openapi.yml
+  url: https://artifacts.apis.io/moirailabs-com/openapi/moirailabs-com-plan-controller-api-openapi.yml
 - filename: moirailabs-com-report-controller-api-openapi.yml
   format: yaml
   label: Moirai Labs Report Controller API
   slug: moirailabs-com-report-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-report-controller-api-openapi.yml
+  url: https://artifacts.apis.io/moirailabs-com/openapi/moirailabs-com-report-controller-api-openapi.yml
 - filename: moirailabs-com-subscription-controller-api-openapi.yml
   format: yaml
   label: Moirai Labs Subscription Controller API
   slug: moirailabs-com-subscription-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-subscription-controller-api-openapi.yml
+  url: https://artifacts.apis.io/moirailabs-com/openapi/moirailabs-com-subscription-controller-api-openapi.yml
 - filename: moirailabs-com-user-info-controller-api-openapi.yml
   format: yaml
   label: Moirai Labs User Info Controller API
   slug: moirailabs-com-user-info-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-user-info-controller-api-openapi.yml
+  url: https://artifacts.apis.io/moirailabs-com/openapi/moirailabs-com-user-info-controller-api-openapi.yml
 - filename: moirailabs-com-wallet-profiling-controller-api-openapi.yml
   format: yaml
   label: Moirai Labs Wallet Profiling Controller API
   slug: moirailabs-com-wallet-profiling-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/openapi/moirailabs-com-wallet-profiling-controller-api-openapi.yml
+  url: https://artifacts.apis.io/moirailabs-com/openapi/moirailabs-com-wallet-profiling-controller-api-openapi.yml
 consequence_counts:
   read: 23
   safety-critical: 13
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/moirai
   \      max-ttl: 3600\n    audit: none\n- path: /api/reports/daily/{contractAddress}\n  method: get\n  operationId: getReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/tokens\n  method: get\n  operationId: getTokenAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/product-dashboard\n  method: get\n  operationId: getProductDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/metrics\n  method: get\n  operationId: getProductMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/methods\n  method: get\n  operationId:\
   \ getMethodAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/invocations/{id}\n  method: get\n  operationId: status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/invocations/{id}/result\n  method: get\n  operationId: result\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/dashboard\n  method: get\n  operationId: getDashboardAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/cohorts\n  method: get\n  operationId: getCohortAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/cohort-transactions\n  method: get\n  operationId: getCohortTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{contractAddress}\n  method: delete\n  operationId: deleteContract\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moirailabs-com/refs/heads/main/agentic-access/moirailabs-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moirailabs-com/agentic-access/moirailabs-com-agentic-access.yml
 summary_line: 36 operations · 13 acting · 13 human-in-the-loop
 tags:
 - Company

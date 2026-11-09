@@ -9,235 +9,235 @@ api_specs:
   label: Neynar Action API
   slug: neynar-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-action-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-action-api-openapi.yml
 - filename: neynar-agents-api-openapi.yml
   format: yaml
   label: Neynar Agents API
   slug: neynar-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-agents-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-agents-api-openapi.yml
 - filename: neynar-app-host-api-openapi.yml
   format: yaml
   label: Neynar App Host API
   slug: neynar-app-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-app-host-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-app-host-api-openapi.yml
 - filename: neynar-authaddress-api-openapi.yml
   format: yaml
   label: Neynar AuthAddress API
   slug: neynar-authaddress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-authaddress-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-authaddress-api-openapi.yml
 - filename: neynar-ban-api-openapi.yml
   format: yaml
   label: Neynar Ban API
   slug: neynar-ban-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-ban-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-ban-api-openapi.yml
 - filename: neynar-block-api-openapi.yml
   format: yaml
   label: Neynar Block API
   slug: neynar-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-block-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-block-api-openapi.yml
 - filename: neynar-cast-api-openapi.yml
   format: yaml
   label: Neynar Cast API
   slug: neynar-cast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-cast-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-cast-api-openapi.yml
 - filename: neynar-casts-api-openapi.yml
   format: yaml
   label: Neynar Casts API
   slug: neynar-casts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-casts-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-casts-api-openapi.yml
 - filename: neynar-channel-api-openapi.yml
   format: yaml
   label: Neynar Channel API
   slug: neynar-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-channel-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-channel-api-openapi.yml
 - filename: neynar-feed-api-openapi.yml
   format: yaml
   label: Neynar Feed API
   slug: neynar-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-feed-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-feed-api-openapi.yml
 - filename: neynar-fname-api-openapi.yml
   format: yaml
   label: Neynar Fname API
   slug: neynar-fname-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-fname-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-fname-api-openapi.yml
 - filename: neynar-follows-api-openapi.yml
   format: yaml
   label: Neynar Follows API
   slug: neynar-follows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-follows-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-follows-api-openapi.yml
 - filename: neynar-frame-api-openapi.yml
   format: yaml
   label: Neynar Frame API
   slug: neynar-frame-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-frame-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-frame-api-openapi.yml
 - filename: neynar-hubevents-api-openapi.yml
   format: yaml
   label: Neynar HubEvents API
   slug: neynar-hubevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-hubevents-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-hubevents-api-openapi.yml
 - filename: neynar-info-api-openapi.yml
   format: yaml
   label: Neynar Info API
   slug: neynar-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-info-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-info-api-openapi.yml
 - filename: neynar-links-api-openapi.yml
   format: yaml
   label: Neynar Links API
   slug: neynar-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-links-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-links-api-openapi.yml
 - filename: neynar-login-api-openapi.yml
   format: yaml
   label: Neynar Login API
   slug: neynar-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-login-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-login-api-openapi.yml
 - filename: neynar-message-api-openapi.yml
   format: yaml
   label: Neynar Message API
   slug: neynar-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-message-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-message-api-openapi.yml
 - filename: neynar-metrics-api-openapi.yml
   format: yaml
   label: Neynar Metrics API
   slug: neynar-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-metrics-api-openapi.yml
 - filename: neynar-mute-api-openapi.yml
   format: yaml
   label: Neynar Mute API
   slug: neynar-mute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-mute-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-mute-api-openapi.yml
 - filename: neynar-notifications-api-openapi.yml
   format: yaml
   label: Neynar Notifications API
   slug: neynar-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-notifications-api-openapi.yml
 - filename: neynar-onchainevents-api-openapi.yml
   format: yaml
   label: Neynar OnChainEvents API
   slug: neynar-onchainevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-onchainevents-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-onchainevents-api-openapi.yml
 - filename: neynar-organization-api-openapi.yml
   format: yaml
   label: Neynar Organization API
   slug: neynar-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-organization-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-organization-api-openapi.yml
 - filename: neynar-portal-api-openapi.yml
   format: yaml
   label: Neynar Portal API
   slug: neynar-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-portal-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-portal-api-openapi.yml
 - filename: neynar-reaction-api-openapi.yml
   format: yaml
   label: Neynar Reaction API
   slug: neynar-reaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-reaction-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-reaction-api-openapi.yml
 - filename: neynar-reactions-api-openapi.yml
   format: yaml
   label: Neynar Reactions API
   slug: neynar-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-reactions-api-openapi.yml
 - filename: neynar-signer-api-openapi.yml
   format: yaml
   label: Neynar Signer API
   slug: neynar-signer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-signer-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-signer-api-openapi.yml
 - filename: neynar-storage-api-openapi.yml
   format: yaml
   label: Neynar Storage API
   slug: neynar-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-storage-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-storage-api-openapi.yml
 - filename: neynar-studio-api-openapi.yml
   format: yaml
   label: Neynar Studio API
   slug: neynar-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-studio-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-studio-api-openapi.yml
 - filename: neynar-subscribers-api-openapi.yml
   format: yaml
   label: Neynar Subscribers API
   slug: neynar-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-subscribers-api-openapi.yml
 - filename: neynar-subscription-api-openapi.yml
   format: yaml
   label: Neynar Subscription API
   slug: neynar-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-subscription-api-openapi.yml
 - filename: neynar-topic-api-openapi.yml
   format: yaml
   label: Neynar Topic API
   slug: neynar-topic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-topic-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-topic-api-openapi.yml
 - filename: neynar-user-api-openapi.yml
   format: yaml
   label: Neynar User API
   slug: neynar-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-user-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-user-api-openapi.yml
 - filename: neynar-usernames-api-openapi.yml
   format: yaml
   label: Neynar Usernames API
   slug: neynar-usernames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-usernames-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-usernames-api-openapi.yml
 - filename: neynar-verifications-api-openapi.yml
   format: yaml
   label: Neynar Verifications API
   slug: neynar-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-verifications-api-openapi.yml
 - filename: neynar-webhook-api-openapi.yml
   format: yaml
   label: Neynar Webhook API
   slug: neynar-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-webhook-api-openapi.yml
 - filename: neynar-fids-api-openapi.yml
   format: yaml
   label: Neynar Fids API
   slug: neynar-fids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-fids-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-fids-api-openapi.yml
 - filename: neynar-on-chain-api-openapi.yml
   format: yaml
   label: Neynar On Chain API
   slug: neynar-on-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-on-chain-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-on-chain-api-openapi.yml
 - filename: neynar-user-data-api-openapi.yml
   format: yaml
   label: Neynar User Data API
   slug: neynar-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/openapi/neynar-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/neynar/openapi/neynar-user-data-api-openapi.yml
 consequence_counts:
   physical: 24
   read: 132
@@ -427,8 +427,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/neynar
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/onChainEventsByFid\n  method: get\n  operationId: fetch-user-on-chain-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/onChainSignersByFid\n  method: get\n  operationId: fetch-user-on-chain-signers-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portal/organization/billing\n  method: get\n  operationId: billing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portal/organization/billing\n  method: get\n  operationId: billing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /portal/subscription/upgrade\n  method: post\n  operationId: upgrade\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portal/subscription/upgrade/preview\n  method: get\n  operationId: upgrade-preview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/farcaster/reaction/\n  method: delete\n  operationId: delete-reaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/farcaster/reaction/\n\
   \  method: post\n  operationId: publish-reaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/farcaster/reactions/cast/\n  method: get\n  operationId: fetch-cast-reactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/farcaster/reactions/user/\n  method: get\n  operationId: fetch-user-reactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reactionById\n  method: get\n  operationId: lookup-reaction-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n\n\n# --- truncated at 32 KB (56 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/agentic-access/neynar-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/agentic-access/neynar-agentic-access.yml
+  \ 3600\n    audit: none\n\n\n# --- truncated at 32 KB (56 KB total) ---\n# Full source: https://artifacts.apis.io/neynar/agentic-access/neynar-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/neynar/agentic-access/neynar-agentic-access.yml
 summary_line: 203 operations · 71 acting · 1 human-in-the-loop
 tags:
 - Farcaster

@@ -9,13 +9,13 @@ api_specs:
   label: Amazon Lookout for Vision Projects API
   slug: amazon-lookout-for-vision-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/openapi/amazon-lookout-for-vision-projects-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lookout-for-vision/openapi/amazon-lookout-for-vision-projects-api-openapi.yml
 - filename: amazon-lookout-for-vision-tags-api-openapi.yml
   format: yaml
   label: Amazon Lookout for Vision Tags API
   slug: amazon-lookout-for-vision-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/openapi/amazon-lookout-for-vision-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lookout-for-vision/openapi/amazon-lookout-for-vision-tags-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -58,9 +58,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  method: patch\n  operationId: UpdateDatasetEntries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2020-11-20/projects/{projectName}/modelpackagingjobs\n  method: get\n  operationId: ListModelPackagingJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2020-11-20/projects/{projectName}/modelpackagingjobs\n  method: post\n  operationId: StartModelPackagingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2020-11-20/tags/{resourceArn}\n\
   \  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2020-11-20/tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2020-11-20/projects/{projectName}/models/{modelVersion}/start\n  method: post\n  operationId: StartModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2020-11-20/projects/{projectName}/models/{modelVersion}/stop\n\
   \  method: post\n  operationId: StopModel\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /2020-11-20/tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/agentic-access/amazon-lookout-for-vision-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-lookout-for-vision/agentic-access/amazon-lookout-for-vision-agentic-access.yml
 summary_line: 22 operations · 13 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Computer Vision
 - Machine Learning
 - Manufacturing

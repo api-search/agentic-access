@@ -9,25 +9,25 @@ api_specs:
   label: Mage Blocks API
   slug: mage-ai-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-blocks-api-openapi.yml
 - filename: mage-ai-pipeline-runs-api-openapi.yml
   format: yaml
   label: Mage Pipeline Runs API
   slug: mage-ai-pipeline-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-pipeline-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-pipeline-runs-api-openapi.yml
 - filename: mage-ai-pipeline-schedules-api-openapi.yml
   format: yaml
   label: Mage Pipeline Schedules API
   slug: mage-ai-pipeline-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-pipeline-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-pipeline-schedules-api-openapi.yml
 - filename: mage-ai-pipelines-api-openapi.yml
   format: yaml
   label: Mage Pipelines API
   slug: mage-ai-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/openapi/mage-ai-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/mage-ai/openapi/mage-ai-pipelines-api-openapi.yml
 consequence_counts:
   read: 6
   write: 9
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mage-a
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{uuid}/blocks/{block_uuid}\n  method: get\n  operationId: readBlock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{uuid}/blocks/{block_uuid}\n  method: put\n  operationId: updateBlock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{uuid}/blocks/{block_uuid}\n  method: delete\n  operationId: deleteBlock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipeline_schedules\n  method: get\n  operationId: listPipelineSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{uuid}/pipeline_schedules\n  method: post\n  operationId: createPipelineSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipeline_schedules/{id}\n  method: put\n  operationId: updatePipelineSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/agentic-access/mage-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mage-ai/agentic-access/mage-ai-agentic-access.yml
 summary_line: 15 operations · 9 acting
 tags:
 - Data Pipeline

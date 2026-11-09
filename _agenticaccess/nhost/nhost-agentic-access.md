@@ -9,67 +9,67 @@ api_specs:
   label: Nhost Authentication API
   slug: nhost-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-authentication-api-openapi.yml
 - filename: nhost-documentation-api-openapi.yml
   format: yaml
   label: Nhost Documentation API
   slug: nhost-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-documentation-api-openapi.yml
 - filename: nhost-excludeme-api-openapi.yml
   format: yaml
   label: Nhost Excludeme API
   slug: nhost-excludeme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-excludeme-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-excludeme-api-openapi.yml
 - filename: nhost-files-api-openapi.yml
   format: yaml
   label: Nhost Files API
   slug: nhost-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-files-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-files-api-openapi.yml
 - filename: nhost-operations-api-openapi.yml
   format: yaml
   label: Nhost Operations API
   slug: nhost-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-operations-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-operations-api-openapi.yml
 - filename: nhost-security-api-openapi.yml
   format: yaml
   label: Nhost Security API
   slug: nhost-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-security-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-security-api-openapi.yml
 - filename: nhost-session-api-openapi.yml
   format: yaml
   label: Nhost Session API
   slug: nhost-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-session-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-session-api-openapi.yml
 - filename: nhost-storage-api-openapi.yml
   format: yaml
   label: Nhost Storage API
   slug: nhost-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-storage-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-storage-api-openapi.yml
 - filename: nhost-system-api-openapi.yml
   format: yaml
   label: Nhost System API
   slug: nhost-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-system-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-system-api-openapi.yml
 - filename: nhost-user-api-openapi.yml
   format: yaml
   label: Nhost User API
   slug: nhost-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-user-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-user-api-openapi.yml
 - filename: nhost-verification-api-openapi.yml
   format: yaml
   label: Nhost Verification API
   slug: nhost-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/openapi/nhost-verification-api-openapi.yml
+  url: https://artifacts.apis.io/nhost/openapi/nhost-verification-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nhost-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/email/send-verification-email\n  method: post\n  operationId: sendVerificationEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/password\n  method: post\n  operationId: changeUserPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /user/password/reset\n  method: post\n  operationId: sendPasswordResetEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /signup/webauthn/verify\n  method: post\n  operationId: verifySignUpWebauthn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify\n  method: get\n  operationId: verifyTicket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/agentic-access/nhost-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nhost/agentic-access/nhost-agentic-access.yml
 summary_line: 58 operations · 38 acting · 1 human-in-the-loop
 tags:
 - GraphQL

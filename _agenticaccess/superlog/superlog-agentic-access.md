@@ -9,25 +9,25 @@ api_specs:
   label: Superlog API keys API
   slug: superlog-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-api-keys-api-openapi.yml
 - filename: superlog-github-integration-api-openapi.yml
   format: yaml
   label: Superlog GitHub integration API
   slug: superlog-github-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-github-integration-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-github-integration-api-openapi.yml
 - filename: superlog-projects-api-openapi.yml
   format: yaml
   label: Superlog Projects API
   slug: superlog-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-projects-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-projects-api-openapi.yml
 - filename: superlog-telemetry-read-api-openapi.yml
   format: yaml
   label: Superlog Telemetry read API
   slug: superlog-telemetry-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-telemetry-read-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-telemetry-read-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/superl
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectId}/github/repos\n  method: post\n  operationId: postApiV1ProjectsByProjectIdGithubRepos\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{projectId}/github/repos\n  method: get\n  operationId: getApiV1ProjectsByProjectIdGithubRepos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectId}/github/repos/{repoId}\n  method: delete\n  operationId: deleteApiV1ProjectsByProjectIdGithubReposByRepoId\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/projects/{projectId}/traces/{traceId}\n  method: get\n  operationId: getApiV1ProjectsByProjectIdTracesByTraceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectId}/logs\n  method: get\n  operationId: getApiV1ProjectsByProjectIdLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectId}/metrics\n  method: get\n  operationId: getApiV1ProjectsByProjectIdMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/agentic-access/superlog-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/superlog/agentic-access/superlog-agentic-access.yml
 summary_line: 17 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Company

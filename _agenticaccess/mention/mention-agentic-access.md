@@ -9,55 +9,55 @@ api_specs:
   label: Mention Accounts API
   slug: mention-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-accounts-api-openapi.yml
 - filename: mention-alerts-api-openapi.yml
   format: yaml
   label: Mention Alerts API
   slug: mention-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-alerts-api-openapi.yml
 - filename: mention-authors-api-openapi.yml
   format: yaml
   label: Mention Authors API
   slug: mention-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-authors-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-authors-api-openapi.yml
 - filename: mention-mentions-api-openapi.yml
   format: yaml
   label: Mention Mentions API
   slug: mention-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-mentions-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-mentions-api-openapi.yml
 - filename: mention-shares-api-openapi.yml
   format: yaml
   label: Mention Shares API
   slug: mention-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-shares-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-shares-api-openapi.yml
 - filename: mention-stats-api-openapi.yml
   format: yaml
   label: Mention Stats API
   slug: mention-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-stats-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-stats-api-openapi.yml
 - filename: mention-tags-api-openapi.yml
   format: yaml
   label: Mention Tags API
   slug: mention-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-tags-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-tags-api-openapi.yml
 - filename: mention-tasks-api-openapi.yml
   format: yaml
   label: Mention Tasks API
   slug: mention-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-tasks-api-openapi.yml
 - filename: mention-app-api-openapi.yml
   format: yaml
   label: Mention App API
   slug: mention-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/openapi/mention-app-api-openapi.yml
+  url: https://artifacts.apis.io/mention/openapi/mention-app-api-openapi.yml
 consequence_counts:
   read: 17
   write: 19
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/mentio
   \      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/alerts/{alert_id}/tags/{tag_id}\n  method: delete\n  operationId: deleteTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/alerts/{alert_id}/tasks\n  method: get\n  operationId: listAlertTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/alerts/{alert_id}/mentions/{mention_id}/tasks\n  method: post\n  operationId: createMentionTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/alerts/{alert_id}/mentions/{mention_id}/tasks/{task_id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/alerts/{alert_id}/mentions/{mention_id}/tasks/{task_id}\n  method: put\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/alerts/{alert_id}/mentions/{mention_id}/tasks/{task_id}\n  method: delete\n  operationId: deleteTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/agentic-access/mention-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mention/agentic-access/mention-agentic-access.yml
 summary_line: 36 operations · 19 acting
 tags:
 - Alerts

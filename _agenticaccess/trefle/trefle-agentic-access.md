@@ -8,61 +8,61 @@ api_specs:
   label: Trefle Distributions API
   slug: trefle-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-distributions-api-openapi.yml
 - filename: trefle-division-classes-api-openapi.yml
   format: yaml
   label: Trefle Division Classes API
   slug: trefle-division-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-division-classes-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-division-classes-api-openapi.yml
 - filename: trefle-division-orders-api-openapi.yml
   format: yaml
   label: Trefle Division Orders API
   slug: trefle-division-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-division-orders-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-division-orders-api-openapi.yml
 - filename: trefle-divisions-api-openapi.yml
   format: yaml
   label: Trefle Divisions API
   slug: trefle-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-divisions-api-openapi.yml
 - filename: trefle-families-api-openapi.yml
   format: yaml
   label: Trefle Families API
   slug: trefle-families-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-families-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-families-api-openapi.yml
 - filename: trefle-genus-api-openapi.yml
   format: yaml
   label: Trefle Genus API
   slug: trefle-genus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-genus-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-genus-api-openapi.yml
 - filename: trefle-kingdoms-api-openapi.yml
   format: yaml
   label: Trefle Kingdoms API
   slug: trefle-kingdoms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-kingdoms-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-kingdoms-api-openapi.yml
 - filename: trefle-plants-api-openapi.yml
   format: yaml
   label: Trefle Plants API
   slug: trefle-plants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-plants-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-plants-api-openapi.yml
 - filename: trefle-species-api-openapi.yml
   format: yaml
   label: Trefle Species API
   slug: trefle-species-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-species-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-species-api-openapi.yml
 - filename: trefle-subkingdoms-api-openapi.yml
   format: yaml
   label: Trefle Subkingdoms API
   slug: trefle-subkingdoms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/openapi/trefle-subkingdoms-api-openapi.yml
+  url: https://artifacts.apis.io/trefle/openapi/trefle-subkingdoms-api-openapi.yml
 consequence_counts:
   read: 18
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trefle
   \ get\n  operationId: getKingdom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subkingdoms\n  method: get\n  operationId: listSubkingdoms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /divisions\n  method: get\n  operationId: listDivisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /division_classes\n  method: get\n  operationId: listDivisionClasses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /division_orders\n  method: get\n  operationId: listDivisionOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /families\n  method: get\n  operationId: listFamilies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /families/{id}\n  method: get\n  operationId: getFamily\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /genus\n  method: get\n  operationId: listGenus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /genus/{id}\n  method: get\n  operationId: getGenus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /distributions\n  method: get\n  operationId: listDistributions\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /distributions/{id}/plants\n  method: get\n  operationId: getPlantsByDistribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/agentic-access/trefle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trefle/agentic-access/trefle-agentic-access.yml
 summary_line: 18 operations
 tags:
 - Agriculture

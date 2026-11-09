@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Data Fusion Instances API
   slug: google-cloud-data-fusion-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-fusion/openapi/google-cloud-data-fusion-instances-api-openapi.yml
 - filename: google-cloud-data-fusion-locations-api-openapi.yml
   format: yaml
   label: Google Cloud Data Fusion Locations API
   slug: google-cloud-data-fusion-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-fusion/openapi/google-cloud-data-fusion-locations-api-openapi.yml
 - filename: google-cloud-data-fusion-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Data Fusion Operations API
   slug: google-cloud-data-fusion-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-fusion/openapi/google-cloud-data-fusion-operations-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \ 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/instances\n  method: post\n  operationId: createInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}\n  method: get\n  operationId: getInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}\n  method: patch\n  operationId: updateInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}\n  method: delete\n  operationId: deleteInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}:restart\n  method: post\n  operationId: restartInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/operations\n  method: get\n  operationId: listOperations\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/operations/{operationId}\n  method: get\n  operationId: getOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/agentic-access/google-cloud-data-fusion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-data-fusion/agentic-access/google-cloud-data-fusion-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Data Integration

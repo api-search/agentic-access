@@ -8,25 +8,25 @@ api_specs:
   label: PredictHQ Events API
   slug: predicthq-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-events-api-openapi.yml
+  url: https://artifacts.apis.io/predicthq/openapi/predicthq-events-api-openapi.yml
 - filename: predicthq-features-api-openapi.yml
   format: yaml
   label: PredictHQ Features API
   slug: predicthq-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-features-api-openapi.yml
+  url: https://artifacts.apis.io/predicthq/openapi/predicthq-features-api-openapi.yml
 - filename: predicthq-places-api-openapi.yml
   format: yaml
   label: PredictHQ Places API
   slug: predicthq-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-places-api-openapi.yml
+  url: https://artifacts.apis.io/predicthq/openapi/predicthq-places-api-openapi.yml
 - filename: predicthq-suggested-radius-api-openapi.yml
   format: yaml
   label: PredictHQ Suggested Radius API
   slug: predicthq-suggested-radius-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/openapi/predicthq-suggested-radius-api-openapi.yml
+  url: https://artifacts.apis.io/predicthq/openapi/predicthq-suggested-radius-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/predicthq-events-api-openapi.yml, openapi/predicthq-features-api-openapi.yml,\n  openapi/predicthq-places-api-openapi.yml, openapi/predicthq-suggested-radius-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /events/\n  method: get\n  operationId: searchEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/count/\n  method: get\n  operationId: getEventCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /features/\n  method: post\n  operationId: getFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places/\n  method: get\n  operationId: getPlaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suggested-radius/\n  method: get\n  operationId: getSuggestedRadius\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/agentic-access/predicthq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/predicthq/agentic-access/predicthq-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Demand Intelligence

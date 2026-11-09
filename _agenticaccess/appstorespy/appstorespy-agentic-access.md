@@ -9,37 +9,37 @@ api_specs:
   label: AppstoreSpy App Store API
   slug: appstorespy-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-app-store-api-openapi.yml
 - filename: appstorespy-events-api-openapi.yml
   format: yaml
   label: AppstoreSpy Events API
   slug: appstorespy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-events-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-events-api-openapi.yml
 - filename: appstorespy-google-play-api-openapi.yml
   format: yaml
   label: AppstoreSpy Google Play API
   slug: appstorespy-google-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-google-play-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-google-play-api-openapi.yml
 - filename: appstorespy-jobs-api-openapi.yml
   format: yaml
   label: AppstoreSpy Jobs API
   slug: appstorespy-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-jobs-api-openapi.yml
 - filename: appstorespy-search-filter-v-2-api-openapi.yml
   format: yaml
   label: AppstoreSpy Search Filter v.2 API
   slug: appstorespy-search-filter-v-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-search-filter-v-2-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-search-filter-v-2-api-openapi.yml
 - filename: appstorespy-suggestions-api-openapi.yml
   format: yaml
   label: AppstoreSpy Suggestions API
   slug: appstorespy-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/openapi/appstorespy-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/appstorespy/openapi/appstorespy-suggestions-api-openapi.yml
 consequence_counts:
   read: 35
   write: 1
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/appsto
   \      max-ttl: 3600\n    audit: none\n- path: /play/developers/{id}/estimates\n  method: get\n  operationId: get_apps_estimates_play_developers__id__estimates_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /play/estimates\n  method: get\n  operationId: get_apps_estimates_play_estimates_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /play/apps/{id}/installs_daily\n  method: get\n  operationId: get_apps_installs_daily_play_apps__id__installs_daily_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /play/suggestions\n  method: get\n  operationId: get_suggests_play_suggestions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /play/liveops\n  method: get\n  operationId: get_events_play_liveops_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /play/rankings\n  method: get\n  operationId: get_play_rankings_play_rankings_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/search\n  method: get\n  operationId: get_search_jobs_search_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/search\n  method: post\n  operationId: create_search_jobs_search_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ios/apps/query\n  method: post\n  operationId: get_filter_search_ios_apps_query_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /play/suggestions\n  method: get\n  operationId: get_suggests_play_suggestions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/agentic-access/appstorespy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appstorespy/agentic-access/appstorespy-agentic-access.yml
 summary_line: 36 operations · 1 acting
 tags:
 - Mobile App

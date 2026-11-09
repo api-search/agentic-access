@@ -9,31 +9,31 @@ api_specs:
   label: Bithumb Account API
   slug: bithumb-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-account-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-account-api-openapi.yml
 - filename: bithumb-general-api-openapi.yml
   format: yaml
   label: Bithumb General API
   slug: bithumb-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-general-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-general-api-openapi.yml
 - filename: bithumb-market-data-api-openapi.yml
   format: yaml
   label: Bithumb Market Data API
   slug: bithumb-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-market-data-api-openapi.yml
 - filename: bithumb-spot-trading-api-openapi.yml
   format: yaml
   label: Bithumb Spot Trading API
   slug: bithumb-spot-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-spot-trading-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-spot-trading-api-openapi.yml
 - filename: bithumb-wallet-api-openapi.yml
   format: yaml
   label: Bithumb Wallet API
   slug: bithumb-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/openapi/bithumb-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/bithumb/openapi/bithumb-wallet-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 12
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bithum
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spot/openOrders\n  method: post\n  operationId: getSpotOpenOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spot/orderList\n  method: post\n  operationId: getSpotOrderList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spot/orderDetail\n  method: post\n  operationId: getSpotOrderDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spot/myTrades\n  method: post\n  operationId: getSpotMyTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/depositHistory\n  method:\
   \ post\n  operationId: getDepositHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/withdrawHistory\n  method: post\n  operationId: getWithdrawHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /withdraw\n  method: post\n  operationId: submitWithdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/agentic-access/bithumb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bithumb/agentic-access/bithumb-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
 - Cryptocurrency

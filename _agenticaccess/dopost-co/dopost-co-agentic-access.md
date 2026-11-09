@@ -9,19 +9,19 @@ api_specs:
   label: dopost Media API
   slug: dopost-co-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-co-media-api-openapi.yml
+  url: https://artifacts.apis.io/dopost-co/openapi/dopost-co-media-api-openapi.yml
 - filename: dopost-co-posts-api-openapi.yml
   format: yaml
   label: dopost Posts API
   slug: dopost-co-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-co-posts-api-openapi.yml
+  url: https://artifacts.apis.io/dopost-co/openapi/dopost-co-posts-api-openapi.yml
 - filename: dopost-co-social-accounts-api-openapi.yml
   format: yaml
   label: dopost Social Accounts API
   slug: dopost-co-social-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/openapi/dopost-co-social-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dopost-co/openapi/dopost-co-social-accounts-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dopost
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/post/{postId}\n  method: get\n  operationId: getPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/post/{postId}\n  method: patch\n  operationId: reschedulePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/post/delete/{postId}\n  method: delete\n  operationId: deletePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/v1/social/accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/social/limits/{platform}\n  method: get\n  operationId: getPlatformLimits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/media\n  method: post\n  operationId: uploadMedia\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/media\n  method: get\n  operationId: listMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v1/media/{mediaId}\n  method: delete\n  operationId: deleteMedia\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/agentic-access/dopost-co-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dopost-co/agentic-access/dopost-co-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Social Media

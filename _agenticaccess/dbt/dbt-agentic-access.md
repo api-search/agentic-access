@@ -9,61 +9,61 @@ api_specs:
   label: dbt Accounts API
   slug: dbt-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-accounts-api-openapi.yml
 - filename: dbt-environments-api-openapi.yml
   format: yaml
   label: dbt Environments API
   slug: dbt-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-environments-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-environments-api-openapi.yml
 - filename: dbt-jobs-api-openapi.yml
   format: yaml
   label: dbt Jobs API
   slug: dbt-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-jobs-api-openapi.yml
 - filename: dbt-metrics-api-openapi.yml
   format: yaml
   label: dbt Metrics API
   slug: dbt-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-metrics-api-openapi.yml
 - filename: dbt-projects-api-openapi.yml
   format: yaml
   label: dbt Projects API
   slug: dbt-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-projects-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-projects-api-openapi.yml
 - filename: dbt-runs-api-openapi.yml
   format: yaml
   label: dbt Runs API
   slug: dbt-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-runs-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-runs-api-openapi.yml
 - filename: dbt-fastapi-api-openapi.yml
   format: yaml
   label: dbt Fast API
   slug: dbt-fastapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-fastapi-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-fastapi-api-openapi.yml
 - filename: dbt-private-api-openapi.yml
   format: yaml
   label: dbt Private API
   slug: dbt-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-private-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-private-api-openapi.yml
 - filename: dbt-ready-api-openapi.yml
   format: yaml
   label: dbt Ready API
   slug: dbt-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-ready-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-ready-api-openapi.yml
 - filename: dbt-graph-ql-api-openapi.yml
   format: yaml
   label: dbt Graph QL API
   slug: dbt-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/dbt/openapi/dbt-graph-ql-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dbt-cl
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/projects/{projectId}/\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/jobs/\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/jobs/\n  method: post\n  operationId: createJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/jobs/{jobId}/run/\n  method: post\n  operationId: triggerJobRun\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/runs/\n  method: get\n  operationId: listRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/runs/{runId}/\n  method: get\n  operationId: getRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/runs/{runId}/artifacts/\n  method: get\n  operationId: listRunArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/environments/\n\
   \  method: get\n  operationId: listEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graphql\n  method: post\n  operationId: executeDiscoveryQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/graphql\n  method: post\n  operationId: executeSemanticQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/agentic-access/dbt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dbt/agentic-access/dbt-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Analytics Engineering

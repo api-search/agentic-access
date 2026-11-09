@@ -9,13 +9,13 @@ api_specs:
   label: Genability GET API
   slug: genability-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-get-api-openapi.yml
+  url: https://artifacts.apis.io/genability/openapi/genability-get-api-openapi.yml
 - filename: genability-rest-api-openapi.yml
   format: yaml
   label: Genability Rest API
   slug: genability-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/openapi/genability-rest-api-openapi.yml
+  url: https://artifacts.apis.io/genability/openapi/genability-rest-api-openapi.yml
 consequence_counts:
   read: 30
   write: 3
@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/genabi
   \ method: get\n  operationId: get-calendar-dates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/public/properties\n  method: get\n  operationId: properties-api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/public/properties/{keyName}\n  method: get\n  operationId: get-one-property\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GET /rest/v1/utilitytaxes\n  method: get\n  operationId: get-utility-taxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/utilitytaxes/{utilityTaxId}\n  method: get\n  operationId: get-one-utility-tax\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/public/properties/{keyName}/lookups\n  method: get\n  operationId: get-lookups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/public/properties/{propertyKey}/stats\n  method: get\n  operationId: lookup-stats-api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/typicals/baselines/best\n  method: get\n  operationId: typical-baseline-api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/public/zipcodes/{zipCode}\n  method: get\n  operationId: zip-code-api\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/orgs/usage\n  method: get\n  operationId: product-usage-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/public/tariffs/{masterTariffId}\n  method: get\n  operationId: get-tariff-1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/agentic-access/genability-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/genability/agentic-access/genability-agentic-access.yml
 summary_line: 33 operations · 3 acting
 tags:
 - Energy

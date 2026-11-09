@@ -9,25 +9,25 @@ api_specs:
   label: Lucent Insights API
   slug: lucent-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-insights-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-insights-api-openapi.yml
 - filename: lucent-issues-api-openapi.yml
   format: yaml
   label: Lucent Issues API
   slug: lucent-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-issues-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-issues-api-openapi.yml
 - filename: lucent-sdk-api-openapi.yml
   format: yaml
   label: Lucent Sdk API
   slug: lucent-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-sdk-api-openapi.yml
 - filename: lucent-signals-api-openapi.yml
   format: yaml
   label: Lucent Signals API
   slug: lucent-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-signals-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-signals-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/lucent-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 2\n    connected: 4\n  by_consequence:\n    write: 2\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /api/sdk/replay\n  method: post\n  operationId: sdkReplay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/issues\n  method: get\n  operationId: listIssues\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/issues/{issueId}\n  method: get\n  operationId: getIssue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/issues/{issueId}\n  method: patch\n  operationId: updateIssueStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/signals\n  method: get\n  operationId: listSignals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/insights\n  method: get\n  operationId: listInsights\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/agentic-access/lucent-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lucent/agentic-access/lucent-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Company

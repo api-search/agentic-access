@@ -9,175 +9,175 @@ api_specs:
   label: Open Education API academic sessions API
   slug: open-education-api-academic-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-academic-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-academic-sessions-api-openapi.yml
 - filename: open-education-api-associations-api-openapi.yml
   format: yaml
   label: Open Education API Associations API
   slug: open-education-api-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-associations-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-associations-api-openapi.yml
 - filename: open-education-api-buildings-api-openapi.yml
   format: yaml
   label: Open Education API Buildings API
   slug: open-education-api-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-buildings-api-openapi.yml
 - filename: open-education-api-components-api-openapi.yml
   format: yaml
   label: Open Education API Components API
   slug: open-education-api-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-components-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-components-api-openapi.yml
 - filename: open-education-api-course-offering-associations-api-openapi.yml
   format: yaml
   label: Open Education API course offering associations API
   slug: open-education-api-course-offering-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-course-offering-associations-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-course-offering-associations-api-openapi.yml
 - filename: open-education-api-course-offerings-api-openapi.yml
   format: yaml
   label: Open Education API course offerings API
   slug: open-education-api-course-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-course-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-course-offerings-api-openapi.yml
 - filename: open-education-api-courses-api-openapi.yml
   format: yaml
   label: Open Education API Courses API
   slug: open-education-api-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-courses-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-courses-api-openapi.yml
 - filename: open-education-api-documents-api-openapi.yml
   format: yaml
   label: Open Education API Documents API
   slug: open-education-api-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-documents-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-documents-api-openapi.yml
 - filename: open-education-api-education-specifications-api-openapi.yml
   format: yaml
   label: Open Education API education specifications API
   slug: open-education-api-education-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-education-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-education-specifications-api-openapi.yml
 - filename: open-education-api-groups-api-openapi.yml
   format: yaml
   label: Open Education API Groups API
   slug: open-education-api-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-groups-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-groups-api-openapi.yml
 - filename: open-education-api-learning-component-offering-associations-api-openapi.yml
   format: yaml
   label: Open Education API learning component offering associations API
   slug: open-education-api-learning-component-offering-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-learning-component-offering-associations-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-learning-component-offering-associations-api-openapi.yml
 - filename: open-education-api-learning-component-offerings-api-openapi.yml
   format: yaml
   label: Open Education API learning component offerings API
   slug: open-education-api-learning-component-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-learning-component-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-learning-component-offerings-api-openapi.yml
 - filename: open-education-api-learning-components-api-openapi.yml
   format: yaml
   label: Open Education API learning components API
   slug: open-education-api-learning-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-learning-components-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-learning-components-api-openapi.yml
 - filename: open-education-api-learning-outcomes-api-openapi.yml
   format: yaml
   label: Open Education API learning outcomes API
   slug: open-education-api-learning-outcomes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-learning-outcomes-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-learning-outcomes-api-openapi.yml
 - filename: open-education-api-news-api-openapi.yml
   format: yaml
   label: Open Education API News API
   slug: open-education-api-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-news-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-news-api-openapi.yml
 - filename: open-education-api-offerings-api-openapi.yml
   format: yaml
   label: Open Education API Offerings API
   slug: open-education-api-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-offerings-api-openapi.yml
 - filename: open-education-api-organisations-api-openapi.yml
   format: yaml
   label: Open Education API Organisations API
   slug: open-education-api-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-organisations-api-openapi.yml
 - filename: open-education-api-organizations-api-openapi.yml
   format: yaml
   label: Open Education API Organizations API
   slug: open-education-api-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-organizations-api-openapi.yml
 - filename: open-education-api-persons-api-openapi.yml
   format: yaml
   label: Open Education API Persons API
   slug: open-education-api-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-persons-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-persons-api-openapi.yml
 - filename: open-education-api-programme-offering-associations-api-openapi.yml
   format: yaml
   label: Open Education API programme offering associations API
   slug: open-education-api-programme-offering-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-programme-offering-associations-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-programme-offering-associations-api-openapi.yml
 - filename: open-education-api-programme-offerings-api-openapi.yml
   format: yaml
   label: Open Education API programme offerings API
   slug: open-education-api-programme-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-programme-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-programme-offerings-api-openapi.yml
 - filename: open-education-api-programmes-api-openapi.yml
   format: yaml
   label: Open Education API Programmes API
   slug: open-education-api-programmes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-programmes-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-programmes-api-openapi.yml
 - filename: open-education-api-programs-api-openapi.yml
   format: yaml
   label: Open Education API Programs API
   slug: open-education-api-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-programs-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-programs-api-openapi.yml
 - filename: open-education-api-rooms-api-openapi.yml
   format: yaml
   label: Open Education API Rooms API
   slug: open-education-api-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-rooms-api-openapi.yml
 - filename: open-education-api-service-metadata-api-openapi.yml
   format: yaml
   label: Open Education API service metadata API
   slug: open-education-api-service-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-service-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-service-metadata-api-openapi.yml
 - filename: open-education-api-test-component-offering-association-attempts-api-openapi.yml
   format: yaml
   label: Open Education API test component offering association attempts API
   slug: open-education-api-test-component-offering-association-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-test-component-offering-association-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-test-component-offering-association-attempts-api-openapi.yml
 - filename: open-education-api-test-component-offering-associations-api-openapi.yml
   format: yaml
   label: Open Education API test component offering associations API
   slug: open-education-api-test-component-offering-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-test-component-offering-associations-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-test-component-offering-associations-api-openapi.yml
 - filename: open-education-api-test-component-offerings-api-openapi.yml
   format: yaml
   label: Open Education API test component offerings API
   slug: open-education-api-test-component-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-test-component-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-test-component-offerings-api-openapi.yml
 - filename: open-education-api-test-components-api-openapi.yml
   format: yaml
   label: Open Education API test components API
   slug: open-education-api-test-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/openapi/open-education-api-test-components-api-openapi.yml
+  url: https://artifacts.apis.io/open-education-api/openapi/open-education-api-test-components-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 124
@@ -242,8 +242,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/open-e
   \  operationId: listTestComponentOfferingAssociationsByTestComponentOfferingId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /test-components\n  method: get\n  operationId: listTestComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /test-components/{testComponentId}\n  method: get\n  operationId: listTestComponentById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /test-components/{testComponentId}/test-component-offerings\n  method: get\n  operationId: listOfferingsByTestComponentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /persons\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /persons\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /persons/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /persons/{personId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /persons/{personId}/associations\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /persons/{personId}/groups\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/programs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/courses\n\
-  \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/components\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/offerings\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/groups\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/agentic-access/open-education-api-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-education-api/refs/heads/main/agentic-access/open-education-api-agentic-access.yml
+  \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/components\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/offerings\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/groups\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/open-education-api/agentic-access/open-education-api-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/open-education-api/agentic-access/open-education-api-agentic-access.yml
 summary_line: 153 operations · 29 acting
 tags:
 - Company

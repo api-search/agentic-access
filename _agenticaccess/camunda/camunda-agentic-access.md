@@ -9,61 +9,61 @@ api_specs:
   label: Camunda Cluster API
   slug: camunda-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-cluster-api-openapi.yml
 - filename: camunda-decisions-api-openapi.yml
   format: yaml
   label: Camunda Decisions API
   slug: camunda-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-decisions-api-openapi.yml
 - filename: camunda-deployments-api-openapi.yml
   format: yaml
   label: Camunda Deployments API
   slug: camunda-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-deployments-api-openapi.yml
 - filename: camunda-incidents-api-openapi.yml
   format: yaml
   label: Camunda Incidents API
   slug: camunda-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-incidents-api-openapi.yml
 - filename: camunda-jobs-api-openapi.yml
   format: yaml
   label: Camunda Jobs API
   slug: camunda-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-jobs-api-openapi.yml
 - filename: camunda-messages-api-openapi.yml
   format: yaml
   label: Camunda Messages API
   slug: camunda-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-messages-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-messages-api-openapi.yml
 - filename: camunda-process-definitions-api-openapi.yml
   format: yaml
   label: Camunda Process Definitions API
   slug: camunda-process-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-process-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-process-definitions-api-openapi.yml
 - filename: camunda-process-instances-api-openapi.yml
   format: yaml
   label: Camunda Process Instances API
   slug: camunda-process-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-process-instances-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-process-instances-api-openapi.yml
 - filename: camunda-signals-api-openapi.yml
   format: yaml
   label: Camunda Signals API
   slug: camunda-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-signals-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-signals-api-openapi.yml
 - filename: camunda-user-tasks-api-openapi.yml
   format: yaml
   label: Camunda User Tasks API
   slug: camunda-user-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-user-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/camunda/openapi/camunda-user-tasks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/camund
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /process-instances/{processInstanceKey}\n  method: get\n  operationId: getProcessInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /process-instances/{processInstanceKey}\n  method: delete\n  operationId: cancelProcessInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /signals/broadcast\n  method: post\n  operationId: broadcastSignal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user-tasks/search\n  method: post\n  operationId: searchUserTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user-tasks/{userTaskKey}/assignment\n  method: post\n  operationId: assignUserTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user-tasks/{userTaskKey}/completion\n  method: post\n  operationId: completeUserTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/agentic-access/camunda-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/camunda/agentic-access/camunda-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - BPMN

@@ -8,13 +8,13 @@ api_specs:
   label: Ripe Insurance Content API
   slug: ripe-insurance-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-content-api-openapi.yml
+  url: https://artifacts.apis.io/ripe-insurance/openapi/ripe-insurance-content-api-openapi.yml
 - filename: ripe-insurance-media-api-openapi.yml
   format: yaml
   label: Ripe Insurance Media API
   slug: ripe-insurance-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-media-api-openapi.yml
+  url: https://artifacts.apis.io/ripe-insurance/openapi/ripe-insurance-media-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/ripe-i
   \    audit: none\n- path: /umbraco/delivery/api/v2/content/item/{id}\n  method: get\n  operationId: GetContentItemById2.0\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umbraco/delivery/api/v2/content/items\n  method: get\n  operationId: GetContentItems2.0\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umbraco/delivery/api/v1/media\n  method: get\n  operationId: GetMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umbraco/delivery/api/v2/media\n  method: get\n  operationId: GetMedia2.0\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umbraco/delivery/api/v1/media/item\n\
   \  method: get\n  operationId: GetMediaItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umbraco/delivery/api/v1/media/item/{path}\n  method: get\n  operationId: GetMediaItemByPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umbraco/delivery/api/v2/media/item/{path}\n  method: get\n  operationId: GetMediaItemByPath2.0\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umbraco/delivery/api/v1/media/item/{id}\n  method: get\n  operationId: GetMediaItemById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umbraco/delivery/api/v2/media/item/{id}\n  method: get\n\
   \  operationId: GetMediaItemById2.0\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umbraco/delivery/api/v2/media/items\n  method: get\n  operationId: GetMediaItems2.0\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/agentic-access/ripe-insurance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ripe-insurance/agentic-access/ripe-insurance-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Insurance

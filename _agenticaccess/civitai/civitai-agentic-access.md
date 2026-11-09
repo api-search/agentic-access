@@ -9,67 +9,67 @@ api_specs:
   label: Civitai Blobs API
   slug: civitai-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-blobs-api-openapi.yml
 - filename: civitai-creators-api-openapi.yml
   format: yaml
   label: Civitai Creators API
   slug: civitai-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-creators-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-creators-api-openapi.yml
 - filename: civitai-enums-api-openapi.yml
   format: yaml
   label: Civitai Enums API
   slug: civitai-enums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-enums-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-enums-api-openapi.yml
 - filename: civitai-images-api-openapi.yml
   format: yaml
   label: Civitai Images API
   slug: civitai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-images-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-images-api-openapi.yml
 - filename: civitai-models-api-openapi.yml
   format: yaml
   label: Civitai Models API
   slug: civitai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-models-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-models-api-openapi.yml
 - filename: civitai-permissions-api-openapi.yml
   format: yaml
   label: Civitai Permissions API
   slug: civitai-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-permissions-api-openapi.yml
 - filename: civitai-tags-api-openapi.yml
   format: yaml
   label: Civitai Tags API
   slug: civitai-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-tags-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-tags-api-openapi.yml
 - filename: civitai-users-api-openapi.yml
   format: yaml
   label: Civitai Users API
   slug: civitai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-users-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-users-api-openapi.yml
 - filename: civitai-vault-api-openapi.yml
   format: yaml
   label: Civitai Vault API
   slug: civitai-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-vault-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-vault-api-openapi.yml
 - filename: civitai-workflows-api-openapi.yml
   format: yaml
   label: Civitai Workflows API
   slug: civitai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-workflows-api-openapi.yml
 - filename: civitai-model-versions-api-openapi.yml
   format: yaml
   label: Civitai Model Versions API
   slug: civitai-model-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/openapi/civitai-model-versions-api-openapi.yml
+  url: https://artifacts.apis.io/civitai/openapi/civitai-model-versions-api-openapi.yml
 consequence_counts:
   read: 22
   write: 7
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/civita
   \  method: post\n  operationId: toggleVaultVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/consumer/workflows\n  method: post\n  operationId: submitWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/consumer/workflows\n  method: get\n  operationId: queryWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/consumer/workflows/{workflowId}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/consumer/workflows/{workflowId}\n  method: put\n  operationId: updateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/consumer/workflows/{workflowId}\n  method: patch\n  operationId: patchWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/consumer/workflows/{workflowId}\n  method: delete\n  operationId: deleteWorkflow\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/agentic-access/civitai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/civitai/agentic-access/civitai-agentic-access.yml
 summary_line: 29 operations · 7 acting
 tags:
 - Artificial Intelligence

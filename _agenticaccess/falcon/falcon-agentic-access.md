@@ -9,241 +9,241 @@ api_specs:
   label: Falcon Account API
   slug: falcon-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-account-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-account-api-openapi.yml
 - filename: falcon-aggregator-api-openapi.yml
   format: yaml
   label: Falcon Aggregator API
   slug: falcon-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-aggregator-api-openapi.yml
 - filename: falcon-balance-api-openapi.yml
   format: yaml
   label: Falcon Balance API
   slug: falcon-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-balance-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-balance-api-openapi.yml
 - filename: falcon-banking-api-openapi.yml
   format: yaml
   label: Falcon Banking API
   slug: falcon-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-banking-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-banking-api-openapi.yml
 - filename: falcon-card-api-openapi.yml
   format: yaml
   label: Falcon Card API
   slug: falcon-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-card-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-card-api-openapi.yml
 - filename: falcon-card-cvv-api-openapi.yml
   format: yaml
   label: Falcon Card Cvv API
   slug: falcon-card-cvv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-card-cvv-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-card-cvv-api-openapi.yml
 - filename: falcon-cc-open-api-api-openapi.yml
   format: yaml
   label: Falcon Cc Open API
   slug: falcon-cc-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-cc-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-cc-open-api-api-openapi.yml
 - filename: falcon-close-api-openapi.yml
   format: yaml
   label: Falcon Close API
   slug: falcon-close-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-close-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-close-api-openapi.yml
 - filename: falcon-convert-emi-api-openapi.yml
   format: yaml
   label: Falcon Convert Emi API
   slug: falcon-convert-emi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-convert-emi-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-convert-emi-api-openapi.yml
 - filename: falcon-dispute-api-openapi.yml
   format: yaml
   label: Falcon Dispute API
   slug: falcon-dispute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-dispute-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-dispute-api-openapi.yml
 - filename: falcon-due-date-api-openapi.yml
   format: yaml
   label: Falcon Due Date API
   slug: falcon-due-date-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-due-date-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-due-date-api-openapi.yml
 - filename: falcon-emi-details-api-openapi.yml
   format: yaml
   label: Falcon Emi Details API
   slug: falcon-emi-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-emi-details-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-emi-details-api-openapi.yml
 - filename: falcon-emi-plan-api-openapi.yml
   format: yaml
   label: Falcon Emi Plan API
   slug: falcon-emi-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-emi-plan-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-emi-plan-api-openapi.yml
 - filename: falcon-employee-api-openapi.yml
   format: yaml
   label: Falcon Employee API
   slug: falcon-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-employee-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-employee-api-openapi.yml
 - filename: falcon-enterprise-api-openapi.yml
   format: yaml
   label: Falcon Enterprise API
   slug: falcon-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-enterprise-api-openapi.yml
 - filename: falcon-enterprise-details-api-openapi.yml
   format: yaml
   label: Falcon Enterprise Details API
   slug: falcon-enterprise-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-enterprise-details-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-enterprise-details-api-openapi.yml
 - filename: falcon-enterprise-summary-api-openapi.yml
   format: yaml
   label: Falcon Enterprise Summary API
   slug: falcon-enterprise-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-enterprise-summary-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-enterprise-summary-api-openapi.yml
 - filename: falcon-fd-api-openapi.yml
   format: yaml
   label: Falcon FD API
   slug: falcon-fd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-fd-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-fd-api-openapi.yml
 - filename: falcon-fee-api-openapi.yml
   format: yaml
   label: Falcon Fee API
   slug: falcon-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-fee-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-fee-api-openapi.yml
 - filename: falcon-foreclose-api-openapi.yml
   format: yaml
   label: Falcon Foreclose API
   slug: falcon-foreclose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-foreclose-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-foreclose-api-openapi.yml
 - filename: falcon-foreclose-quote-api-openapi.yml
   format: yaml
   label: Falcon Foreclose Quote API
   slug: falcon-foreclose-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-foreclose-quote-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-foreclose-quote-api-openapi.yml
 - filename: falcon-initiate-payment-api-openapi.yml
   format: yaml
   label: Falcon Initiate Payment API
   slug: falcon-initiate-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-initiate-payment-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-initiate-payment-api-openapi.yml
 - filename: falcon-interest-api-openapi.yml
   format: yaml
   label: Falcon Interest API
   slug: falcon-interest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-interest-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-interest-api-openapi.yml
 - filename: falcon-issuer-api-openapi.yml
   format: yaml
   label: Falcon Issuer API
   slug: falcon-issuer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-issuer-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-issuer-api-openapi.yml
 - filename: falcon-list-emi-api-openapi.yml
   format: yaml
   label: Falcon List Emi API
   slug: falcon-list-emi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-list-emi-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-list-emi-api-openapi.yml
 - filename: falcon-non-pci-card-api-openapi.yml
   format: yaml
   label: Falcon Non Pci Card API
   slug: falcon-non-pci-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-non-pci-card-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-non-pci-card-api-openapi.yml
 - filename: falcon-npa-api-openapi.yml
   format: yaml
   label: Falcon Npa API
   slug: falcon-npa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-npa-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-npa-api-openapi.yml
 - filename: falcon-pci-card-api-openapi.yml
   format: yaml
   label: Falcon Pci Card API
   slug: falcon-pci-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-pci-card-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-pci-card-api-openapi.yml
 - filename: falcon-product-api-openapi.yml
   format: yaml
   label: Falcon Product API
   slug: falcon-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-product-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-product-api-openapi.yml
 - filename: falcon-program-api-openapi.yml
   format: yaml
   label: Falcon Program API
   slug: falcon-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-program-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-program-api-openapi.yml
 - filename: falcon-programs-api-openapi.yml
   format: yaml
   label: Falcon Programs API
   slug: falcon-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-programs-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-programs-api-openapi.yml
 - filename: falcon-repayment-api-openapi.yml
   format: yaml
   label: Falcon Repayment API
   slug: falcon-repayment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-repayment-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-repayment-api-openapi.yml
 - filename: falcon-reward-api-openapi.yml
   format: yaml
   label: Falcon Reward API
   slug: falcon-reward-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-reward-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-reward-api-openapi.yml
 - filename: falcon-statement-api-openapi.yml
   format: yaml
   label: Falcon Statement API
   slug: falcon-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-statement-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-statement-api-openapi.yml
 - filename: falcon-statement-past-api-openapi.yml
   format: yaml
   label: Falcon Statement Past API
   slug: falcon-statement-past-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-statement-past-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-statement-past-api-openapi.yml
 - filename: falcon-statementlist-api-openapi.yml
   format: yaml
   label: Falcon Statementlist API
   slug: falcon-statementlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-statementlist-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-statementlist-api-openapi.yml
 - filename: falcon-transaction-eligibility-api-openapi.yml
   format: yaml
   label: Falcon Transaction Eligibility API
   slug: falcon-transaction-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-transaction-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-transaction-eligibility-api-openapi.yml
 - filename: falcon-update-status-emi-plan-api-openapi.yml
   format: yaml
   label: Falcon Update Status Emi Plan API
   slug: falcon-update-status-emi-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-update-status-emi-plan-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-update-status-emi-plan-api-openapi.yml
 - filename: falcon-user-api-openapi.yml
   format: yaml
   label: Falcon User API
   slug: falcon-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-user-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-user-api-openapi.yml
 - filename: falcon-view-amortisation-schedules-api-openapi.yml
   format: yaml
   label: Falcon View Amortisation Schedules API
   slug: falcon-view-amortisation-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/openapi/falcon-view-amortisation-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/falcon/openapi/falcon-view-amortisation-schedules-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 52
@@ -352,8 +352,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/falcon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statement/user/{statementId}\n  method: get\n  operationId: get-user-account-statement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statementlist/corporate/{accountId}\n  method: get\n  operationId: get-enterprise-statement-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statementlist/enterprise-past/{accountId}\n  method: get\n  operationId: get-enterprise-past-statements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statementlist/enterprise/{statementId}\n  method: get\n  operationId: get-enterprise-statement\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statementlist/{accountId}/user?pageOffset=2&pageSize=12'\n  method: get\n  operationId: get-user-statement-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{bank}/{userId}/statement\n  method: get\n  operationId: get-credit-card-statement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/chargeback\n  method: post\n  operationId: post-chargeback\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
   \  audit: required\n- path: /account/credit\n  method: post\n  operationId: add-manual-credit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/debit\n  method: post\n  operationId: add-manual-debit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/refund\n  method: post\n  operationId: post-bank-refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n  \
-  \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountId}\n  method: get\n  operationId: get-transaction-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{accountId}/enterprise/unbilled\n  method: get\n  operationId: view-enterprise-unbilled-transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{accountId}/unbilled\n  method: get\n  operationId: view-user-unbilled-transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/agentic-access/falcon-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/agentic-access/falcon-agentic-access.yml
+  \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountId}\n  method: get\n  operationId: get-transaction-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{accountId}/enterprise/unbilled\n  method: get\n  operationId: view-enterprise-unbilled-transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{accountId}/unbilled\n  method: get\n  operationId: view-user-unbilled-transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://artifacts.apis.io/falcon/agentic-access/falcon-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/falcon/agentic-access/falcon-agentic-access.yml
 summary_line: 119 operations · 67 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,25 +9,25 @@ api_specs:
   label: Autoderm – AI Dermatology API Device API
   slug: autoderm-ai-dermatology-api-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/openapi/autoderm-ai-dermatology-api-device-api-openapi.yml
+  url: https://artifacts.apis.io/autoderm-ai-dermatology-api/openapi/autoderm-ai-dermatology-api-device-api-openapi.yml
 - filename: autoderm-ai-dermatology-api-inference-api-openapi.yml
   format: yaml
   label: Autoderm – AI Dermatology API Inference API
   slug: autoderm-ai-dermatology-api-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/openapi/autoderm-ai-dermatology-api-inference-api-openapi.yml
+  url: https://artifacts.apis.io/autoderm-ai-dermatology-api/openapi/autoderm-ai-dermatology-api-inference-api-openapi.yml
 - filename: autoderm-ai-dermatology-api-system-api-openapi.yml
   format: yaml
   label: Autoderm – AI Dermatology API System API
   slug: autoderm-ai-dermatology-api-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/openapi/autoderm-ai-dermatology-api-system-api-openapi.yml
+  url: https://artifacts.apis.io/autoderm-ai-dermatology-api/openapi/autoderm-ai-dermatology-api-system-api-openapi.yml
 - filename: autoderm-ai-dermatology-api-utils-api-openapi.yml
   format: yaml
   label: Autoderm – AI Dermatology API Utils API
   slug: autoderm-ai-dermatology-api-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/openapi/autoderm-ai-dermatology-api-utils-api-openapi.yml
+  url: https://artifacts.apis.io/autoderm-ai-dermatology-api/openapi/autoderm-ai-dermatology-api-utils-api-openapi.yml
 consequence_counts:
   read: 12
   write: 5
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/autode
   \      max-ttl: 3600\n    audit: none\n- path: /v1/utils/detect-blur\n  method: post\n  operationId: detect_blur_v1_utils_detect_blur_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/infer-genitals/v1\n  method: post\n  operationId: infer_genitals_v1_v1_infer_genitals_v1_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/infer-age/v1\n  method: post\n  operationId: infer_age_v1_v1_infer_age_v1_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/infer-diseases/v1\n  method: post\n  operationId: infer_diseases_v1_v1_infer_diseases_v1_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/infer-diseases/v1/diseases\n  method: get\n  operationId: get_disease_catalog_v1_v1_infer_diseases_v1_diseases_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/infer-skin-tone/v1\n  method: post\n  operationId: infer_skin_tone_v1_v1_infer_skin_tone_v1_post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/agentic-access/autoderm-ai-dermatology-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/autoderm-ai-dermatology-api/agentic-access/autoderm-ai-dermatology-api-agentic-access.yml
 summary_line: 17 operations · 5 acting
 tags:
 - dermatology-api
@@ -69,7 +69,7 @@ tags:
 - skin-analysis
 - REST API
 - OpenAPI
-- llms-txt
+- Llms.txt
 - ce-marked
 - White Label
 - Healthcare

@@ -9,31 +9,31 @@ api_specs:
   label: Zenserp Batch API
   slug: zenserp-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-batch-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-batch-api-openapi.yml
 - filename: zenserp-lists-api-openapi.yml
   format: yaml
   label: Zenserp Lists API
   slug: zenserp-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-lists-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-lists-api-openapi.yml
 - filename: zenserp-search-api-openapi.yml
   format: yaml
   label: Zenserp Search API
   slug: zenserp-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-search-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-search-api-openapi.yml
 - filename: zenserp-shopping-api-openapi.yml
   format: yaml
   label: Zenserp Shopping Product Page API
   slug: zenserp-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-shopping-api-openapi.yml
 - filename: zenserp-trends-api-openapi.yml
   format: yaml
   label: Zenserp Trends API
   slug: zenserp-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-trends-api-openapi.yml
+  url: https://artifacts.apis.io/zenserp/openapi/zenserp-trends-api-openapi.yml
 consequence_counts:
   read: 12
   write: 1
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zenser
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/batches/{id}\n  method: get\n  operationId: getBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/hl\n  method: get\n  operationId: listLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/gl\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/search_engines\n  method: get\n  operationId: listEngines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/status\n  method: post\n  operationId: getStatusPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/shopping\n  method:\
   \ get\n  operationId: shoppingProductPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/trends\n  method: get\n  operationId: trendsSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/trends/trending\n  method: get\n  operationId: trendsTrending\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/agentic-access/zenserp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zenserp/agentic-access/zenserp-agentic-access.yml
 summary_line: 13 operations · 1 acting
 tags:
 - SERP

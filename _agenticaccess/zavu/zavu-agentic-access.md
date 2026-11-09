@@ -9,127 +9,127 @@ api_specs:
   label: Zavu 10DLC API
   slug: zavu-10dlc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-10dlc-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-10dlc-api-openapi.yml
 - filename: zavu-account-api-openapi.yml
   format: yaml
   label: Zavu Account API
   slug: zavu-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-account-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-account-api-openapi.yml
 - filename: zavu-agent-flows-api-openapi.yml
   format: yaml
   label: Zavu Agent Flows API
   slug: zavu-agent-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-agent-flows-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-agent-flows-api-openapi.yml
 - filename: zavu-agent-knowledge-bases-api-openapi.yml
   format: yaml
   label: Zavu Agent Knowledge Bases API
   slug: zavu-agent-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-agent-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-agent-knowledge-bases-api-openapi.yml
 - filename: zavu-agent-tools-api-openapi.yml
   format: yaml
   label: Zavu Agent Tools API
   slug: zavu-agent-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-agent-tools-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-agent-tools-api-openapi.yml
 - filename: zavu-agents-api-openapi.yml
   format: yaml
   label: Zavu Agents API
   slug: zavu-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-agents-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-agents-api-openapi.yml
 - filename: zavu-balance-api-openapi.yml
   format: yaml
   label: Zavu Balance API
   slug: zavu-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-balance-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-balance-api-openapi.yml
 - filename: zavu-broadcasts-api-openapi.yml
   format: yaml
   label: Zavu Broadcasts API
   slug: zavu-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-broadcasts-api-openapi.yml
 - filename: zavu-contacts-api-openapi.yml
   format: yaml
   label: Zavu Contacts API
   slug: zavu-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-contacts-api-openapi.yml
 - filename: zavu-functions-api-openapi.yml
   format: yaml
   label: Zavu Functions API
   slug: zavu-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-functions-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-functions-api-openapi.yml
 - filename: zavu-introspect-api-openapi.yml
   format: yaml
   label: Zavu Introspect API
   slug: zavu-introspect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-introspect-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-introspect-api-openapi.yml
 - filename: zavu-invitations-api-openapi.yml
   format: yaml
   label: Zavu Invitations API
   slug: zavu-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-invitations-api-openapi.yml
 - filename: zavu-messages-api-openapi.yml
   format: yaml
   label: Zavu Messages API
   slug: zavu-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-messages-api-openapi.yml
 - filename: zavu-phone-numbers-api-openapi.yml
   format: yaml
   label: Zavu Phone Numbers API
   slug: zavu-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-phone-numbers-api-openapi.yml
 - filename: zavu-regulatory-api-openapi.yml
   format: yaml
   label: Zavu Regulatory API
   slug: zavu-regulatory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-regulatory-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-regulatory-api-openapi.yml
 - filename: zavu-senders-api-openapi.yml
   format: yaml
   label: Zavu Senders API
   slug: zavu-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-senders-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-senders-api-openapi.yml
 - filename: zavu-templates-api-openapi.yml
   format: yaml
   label: Zavu Templates API
   slug: zavu-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-templates-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-templates-api-openapi.yml
 - filename: zavu-url-verification-api-openapi.yml
   format: yaml
   label: Zavu URL Verification API
   slug: zavu-url-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-url-verification-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-url-verification-api-openapi.yml
 - filename: zavu-whatsapp-alternative-api-openapi.yml
   format: yaml
   label: Zavu WhatsApp Alternative API
   slug: zavu-whatsapp-alternative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-whatsapp-alternative-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-whatsapp-alternative-api-openapi.yml
 - filename: zavu-whatsapp-sync-api-openapi.yml
   format: yaml
   label: Zavu WhatsApp Sync API
   slug: zavu-whatsapp-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-whatsapp-sync-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-whatsapp-sync-api-openapi.yml
 - filename: zavu-subaccounts-api-openapi.yml
   format: yaml
   label: Zavu Subaccounts API
   slug: zavu-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/openapi/zavu-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/zavu/openapi/zavu-subaccounts-api-openapi.yml
 consequence_counts:
   physical: 33
   read: 63
@@ -318,8 +318,8 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/zavu-o
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/senders/{senderId}/agent/tools\n  method: get\n  operationId: listAgentTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/senders/{senderId}/agent/tools\n  method: post\n  operationId: createAgentTool\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/senders/{senderId}/agent/tools/{toolId}\n  method: get\n  operationId: getAgentTool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/senders/{senderId}/agent/tools/{toolId}\n\
   \  method: patch\n  operationId: updateAgentTool\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/senders/{senderId}/agent/tools/{toolId}\n  method: delete\n  operationId: deleteAgentTool\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/senders/{senderId}/agent/tools/{toolId}/test\n  method: post\n  operationId: testAgentTool\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/senders/{senderId}/agent/knowledge-bases\n  method: get\n  operationId: listAgentKnowledgeBases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/senders/{senderId}/agent/knowledge-bases\n  method: post\n  operationId: createAgentKnowledgeBase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/senders/{senderId}/agent/knowledge-bases/{kbId}\n\
-  \  method: get\n  operationId: getAgentKnowledgeBase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/senders/{senderId}/agent/knowledge-bases/{kbId}\n  method: patch\n  operationId: updateAgentKnowledgeBase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/agentic-access/zavu-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/agentic-access/zavu-agentic-access.yml
+  \  method: get\n  operationId: getAgentKnowledgeBase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/senders/{senderId}/agent/knowledge-bases/{kbId}\n  method: patch\n  operationId: updateAgentKnowledgeBase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://artifacts.apis.io/zavu/agentic-access/zavu-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/zavu/agentic-access/zavu-agentic-access.yml
 summary_line: 163 operations · 100 acting · 3 human-in-the-loop
 tags:
 - Company

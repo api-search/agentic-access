@@ -9,7 +9,19 @@ api_specs:
   label: Amazon WorkMail Amazon WorkMail API
   slug: amazon-workmail-amazon-workmail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/openapi/amazon-workmail-amazon-workmail-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-workmail/openapi/amazon-workmail-amazon-workmail-api-openapi.yml
+- filename: amazon-workmail-identity-provider-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon WorkMail Workmail Identity Provider Configuration API
+  slug: amazon-workmail-identity-provider-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workmail/openapi/amazon-workmail-identity-provider-configuration-api-openapi.yml
+- filename: amazon-workmail-operations-api-openapi.yml
+  format: yaml
+  label: Amazon WorkMail Workmail Operations API
+  slug: amazon-workmail-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workmail/openapi/amazon-workmail-operations-api-openapi.yml
 consequence_counts:
   read: 21
   safety-critical: 8
@@ -112,10 +124,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=WorkMailService.PutMobileDeviceAccessOverride\n  method: post\n  operationId: PutMobileDeviceAccessOverride\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=WorkMailService.PutRetentionPolicy\n  method: post\n  operationId: PutRetentionPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=WorkMailService.RegisterMailDomain\n  method: post\n  operationId: RegisterMailDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=WorkMailService.RegisterToWorkMail\n  method: post\n  operationId: RegisterToWorkMail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=WorkMailService.ResetPassword\n  method: post\n  operationId: ResetPassword\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=WorkMailService.StartMailboxExportJob\n  method: post\n  operationId: StartMailboxExportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=WorkMailService.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/agentic-access/amazon-workmail-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/agentic-access/amazon-workmail-agentic-access.yml
+  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-workmail/agentic-access/amazon-workmail-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-workmail/agentic-access/amazon-workmail-agentic-access.yml
 summary_line: 80 operations · 59 acting · 8 human-in-the-loop
 tags:
+- Amazon Web Services
 - Business Communication
 - Calendar
 - Email

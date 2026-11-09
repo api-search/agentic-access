@@ -9,37 +9,37 @@ api_specs:
   label: Mob.ly Activations API
   slug: mobly-activations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-activations-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-activations-api-openapi.yml
 - filename: mobly-events-api-openapi.yml
   format: yaml
   label: Mob.ly Events API
   slug: mobly-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-events-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-events-api-openapi.yml
 - filename: mobly-industryevents-api-openapi.yml
   format: yaml
   label: Mob.ly Industry Events API
   slug: mobly-industryevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-industryevents-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-industryevents-api-openapi.yml
 - filename: mobly-leadactivityevents-api-openapi.yml
   format: yaml
   label: Mob.ly Lead Activity Events API
   slug: mobly-leadactivityevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-leadactivityevents-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-leadactivityevents-api-openapi.yml
 - filename: mobly-leads-api-openapi.yml
   format: yaml
   label: Mob.ly Leads API
   slug: mobly-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-leads-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-leads-api-openapi.yml
 - filename: mobly-tag-groups-api-openapi.yml
   format: yaml
   label: Mob.ly Tag Groups API
   slug: mobly-tag-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/openapi/mobly-tag-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mobly/openapi/mobly-tag-groups-api-openapi.yml
 consequence_counts:
   read: 15
   write: 12
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/mobly-
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tagGroups/{tagGroupId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /industryEvents\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /industryEvents\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /industryEvents/bookmarks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /industryEvents/{industryEventId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /industryEvents/{industryEventId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /industryEvents/{industryEventId}/bookmark\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /industryEvents/{industryEventId}/bookmark\n  method: delete\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/agentic-access/mobly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mobly/agentic-access/mobly-agentic-access.yml
 summary_line: 27 operations · 12 acting
 tags:
 - Company

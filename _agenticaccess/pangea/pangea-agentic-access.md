@@ -9,49 +9,49 @@ api_specs:
   label: Pangea AI Guard API
   slug: pangea-ai-guard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-ai-guard-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-ai-guard-api-openapi.yml
 - filename: pangea-authn-api-openapi.yml
   format: yaml
   label: Pangea AuthN API
   slug: pangea-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-authn-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-authn-api-openapi.yml
 - filename: pangea-domain-intel-api-openapi.yml
   format: yaml
   label: Pangea Domain Intel API
   slug: pangea-domain-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-domain-intel-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-domain-intel-api-openapi.yml
 - filename: pangea-file-scan-api-openapi.yml
   format: yaml
   label: Pangea File Scan API
   slug: pangea-file-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-file-scan-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-file-scan-api-openapi.yml
 - filename: pangea-ip-intel-api-openapi.yml
   format: yaml
   label: Pangea IP Intel API
   slug: pangea-ip-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-ip-intel-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-ip-intel-api-openapi.yml
 - filename: pangea-redact-api-openapi.yml
   format: yaml
   label: Pangea Redact API
   slug: pangea-redact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-redact-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-redact-api-openapi.yml
 - filename: pangea-secure-audit-log-api-openapi.yml
   format: yaml
   label: Pangea Secure Audit Log API
   slug: pangea-secure-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-secure-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-secure-audit-log-api-openapi.yml
 - filename: pangea-vault-api-openapi.yml
   format: yaml
   label: Pangea Vault API
   slug: pangea-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/openapi/pangea-vault-api-openapi.yml
+  url: https://artifacts.apis.io/pangea/openapi/pangea-vault-api-openapi.yml
 consequence_counts:
   read: 5
   write: 13
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pangea
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/log\n  method: post\n  operationId: auditLog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/log\n  method: post\n  operationId: auditLogBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/search\n  method: post\n  operationId:\
   \ auditSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/root\n  method: post\n  operationId: auditRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/encrypt\n  method: post\n  operationId: vaultEncrypt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/decrypt\n  method: post\n  operationId: vaultDecrypt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /v2/secret/store\n  method: post\n  operationId: vaultSecretStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/agentic-access/pangea-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pangea/agentic-access/pangea-agentic-access.yml
 summary_line: 18 operations · 13 acting
 tags:
 - Security

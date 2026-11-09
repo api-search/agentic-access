@@ -9,79 +9,79 @@ api_specs:
   label: Coinbase Commerce Charges API
   slug: commerce-coinbase-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-charges-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-charges-api-openapi.yml
 - filename: commerce-coinbase-checkouts-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Checkouts API
   slug: commerce-coinbase-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-checkouts-api-openapi.yml
 - filename: commerce-coinbase-events-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Events API
   slug: commerce-coinbase-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-events-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-events-api-openapi.yml
 - filename: commerce-coinbase-webhooks-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Webhooks API
   slug: commerce-coinbase-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-webhooks-api-openapi.yml
 - filename: commerce-coinbase-account-management-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Account Management API
   slug: commerce-coinbase-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-account-management-api-openapi.yml
 - filename: commerce-coinbase-authentication-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Authentication API
   slug: commerce-coinbase-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-authentication-api-openapi.yml
 - filename: commerce-coinbase-combo-books-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Combo Books API
   slug: commerce-coinbase-combo-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-combo-books-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-combo-books-api-openapi.yml
 - filename: commerce-coinbase-market-data-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Market Data API
   slug: commerce-coinbase-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-market-data-api-openapi.yml
 - filename: commerce-coinbase-session-management-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Session Management API
   slug: commerce-coinbase-session-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-session-management-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-session-management-api-openapi.yml
 - filename: commerce-coinbase-subscription-management-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Subscription Management API
   slug: commerce-coinbase-subscription-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-subscription-management-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-subscription-management-api-openapi.yml
 - filename: commerce-coinbase-supporting-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Supporting API
   slug: commerce-coinbase-supporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-supporting-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-supporting-api-openapi.yml
 - filename: commerce-coinbase-trading-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Trading API
   slug: commerce-coinbase-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-trading-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-trading-api-openapi.yml
 - filename: commerce-coinbase-wallet-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Wallet API
   slug: commerce-coinbase-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/commerce-coinbase/openapi/commerce-coinbase-wallet-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 6
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{event_id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkouts\n  method: post\n  operationId: createCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /checkouts\n  method: get\n  operationId: listCheckouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkouts/{id}\n  method: get\n  operationId: getCheckout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkouts/{id}/deactivate\n  method: post\n  operationId: deactivateCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /checkouts/{id}/refund\n  method: post\n  operationId: refundCheckout\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/agentic-access/commerce-coinbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/commerce-coinbase/agentic-access/commerce-coinbase-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Crypto Payments

@@ -9,31 +9,31 @@ api_specs:
   label: Magaya Invoices API
   slug: magaya-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-invoices-api-openapi.yml
 - filename: magaya-items-api-openapi.yml
   format: yaml
   label: Magaya Items API
   slug: magaya-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-items-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-items-api-openapi.yml
 - filename: magaya-shipments-api-openapi.yml
   format: yaml
   label: Magaya Shipments API
   slug: magaya-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-shipments-api-openapi.yml
 - filename: magaya-transactions-api-openapi.yml
   format: yaml
   label: Magaya Transactions API
   slug: magaya-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-transactions-api-openapi.yml
 - filename: magaya-warehouse-receipts-api-openapi.yml
   format: yaml
   label: Magaya Warehouse Receipts API
   slug: magaya-warehouse-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-warehouse-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-warehouse-receipts-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/magaya
   \ getWarehouseReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: post\n  operationId: createInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/{guid}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items\n\
   \  method: get\n  operationId: listItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items\n  method: post\n  operationId: createItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /items/{guid}\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{guid}\n  method: get\n  operationId:\
   \ getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/agentic-access/magaya-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/magaya/agentic-access/magaya-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - Logistics

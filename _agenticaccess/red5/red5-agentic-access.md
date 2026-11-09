@@ -9,67 +9,67 @@ api_specs:
   label: Red5 Pro WebRTC SDK
   slug: webrtc-sdk
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/asyncapi/red5-webrtc-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/red5/asyncapi/red5-webrtc-streaming-asyncapi.yml
 - filename: red5-admin-api-openapi.yml
   format: yaml
   label: Red5 Admin API
   slug: red5-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-admin-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-admin-api-openapi.yml
 - filename: red5-file-restreamer-api-openapi.yml
   format: yaml
   label: Red5 File Restreamer API
   slug: red5-file-restreamer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-file-restreamer-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-file-restreamer-api-openapi.yml
 - filename: red5-images-api-openapi.yml
   format: yaml
   label: Red5 Images API
   slug: red5-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-images-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-images-api-openapi.yml
 - filename: red5-inputs-api-openapi.yml
   format: yaml
   label: Red5 Inputs API
   slug: red5-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-inputs-api-openapi.yml
 - filename: red5-mixers-api-openapi.yml
   format: yaml
   label: Red5 Mixers API
   slug: red5-mixers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-mixers-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-mixers-api-openapi.yml
 - filename: red5-provision-api-openapi.yml
   format: yaml
   label: Red5 Provision API
   slug: red5-provision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-provision-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-provision-api-openapi.yml
 - filename: red5-proxy-api-openapi.yml
   format: yaml
   label: Red5 Proxy API
   slug: red5-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-proxy-api-openapi.yml
 - filename: red5-rtmp-restreamer-api-openapi.yml
   format: yaml
   label: Red5 RTMP Restreamer API
   slug: red5-rtmp-restreamer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-rtmp-restreamer-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-rtmp-restreamer-api-openapi.yml
 - filename: red5-servlet-configuration-api-openapi.yml
   format: yaml
   label: Red5 Servlet Configuration API
   slug: red5-servlet-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-servlet-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-servlet-configuration-api-openapi.yml
 - filename: red5-streams-api-openapi.yml
   format: yaml
   label: Red5 Streams API
   slug: red5-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/red5-streams-api-openapi.yml
+  url: https://artifacts.apis.io/red5/openapi/red5-streams-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 17
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/red5-b
   \  method: get\n  operationId: getSubscribeStreamEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/provision/{nodeGroupName}/{streamGuid}\n  method: get\n  operationId: getStreamProvision\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/provision/{nodeGroupName}/{streamGuid}\n  method: post\n  operationId: createStreamProvision\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/provision/{nodeGroupName}/{streamGuid}\n  method: delete\n  operationId: deleteStreamProvision\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/nodegroups\n  method: get\n  operationId: listNodeGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/nodegroups/{nodeGroupName}/nodes\n  method: get\n  operationId: listNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/system\n  method: get\n  operationId: getSystemInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /proxy/whip/{nodeGroupName}/{streamGuid}\n  method: post\n  operationId: whipPublish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /proxy/whep/{nodeGroupName}/{streamGuid}\n  method: post\n  operationId: whepSubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/agentic-access/red5-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/red5/agentic-access/red5-agentic-access.yml
 summary_line: 35 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Live Streaming

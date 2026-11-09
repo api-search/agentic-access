@@ -9,37 +9,37 @@ api_specs:
   label: Certifaction Account API
   slug: certifaction-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-account-api-openapi.yml
+  url: https://artifacts.apis.io/certifaction/openapi/certifaction-account-api-openapi.yml
 - filename: certifaction-documents-api-openapi.yml
   format: yaml
   label: Certifaction Documents API
   slug: certifaction-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-documents-api-openapi.yml
+  url: https://artifacts.apis.io/certifaction/openapi/certifaction-documents-api-openapi.yml
 - filename: certifaction-organization-api-openapi.yml
   format: yaml
   label: Certifaction Organization API
   slug: certifaction-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-organization-api-openapi.yml
+  url: https://artifacts.apis.io/certifaction/openapi/certifaction-organization-api-openapi.yml
 - filename: certifaction-server-api-openapi.yml
   format: yaml
   label: Certifaction Server API
   slug: certifaction-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-server-api-openapi.yml
+  url: https://artifacts.apis.io/certifaction/openapi/certifaction-server-api-openapi.yml
 - filename: certifaction-signing-api-openapi.yml
   format: yaml
   label: Certifaction Signing API
   slug: certifaction-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-signing-api-openapi.yml
+  url: https://artifacts.apis.io/certifaction/openapi/certifaction-signing-api-openapi.yml
 - filename: certifaction-teamspace-api-openapi.yml
   format: yaml
   label: Certifaction Teamspace API
   slug: certifaction-teamspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/certifaction-teamspace-api-openapi.yml
+  url: https://artifacts.apis.io/certifaction/openapi/certifaction-teamspace-api-openapi.yml
 consequence_counts:
   read: 8
   write: 14
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/certif
   \    audit: required\n- path: /request/cancel/all\n  method: post\n  operationId: cancel_request_all\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /request/list\n  method: post\n  operationId: list_requests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /request/status\n  method: get\n  operationId: request_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /request/file/status\n  method: get\n  operationId: file_requests_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /qes/check\n  method: post\n  operationId: postQesCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team-space/{id}/rename\n  method: patch\n  operationId: patchTeamSpaceByIdRename\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team-space/{id}/members\n  method: post\n  operationId: postTeamSpaceByIdMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team-space/{id}/members/{memberId}\n  method: delete\n  operationId: deleteTeamSpaceByIdMembersByMemberId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/agentic-access/certifaction-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/certifaction/agentic-access/certifaction-agentic-access.yml
 summary_line: 22 operations · 14 acting
 tags:
 - Company

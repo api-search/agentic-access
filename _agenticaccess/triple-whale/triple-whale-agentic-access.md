@@ -9,31 +9,31 @@ api_specs:
   label: Triple Whale API Keys API
   slug: triple-whale-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-api-keys-api-openapi.yml
 - filename: triple-whale-compliance-api-openapi.yml
   format: yaml
   label: Triple Whale Compliance API
   slug: triple-whale-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-compliance-api-openapi.yml
 - filename: triple-whale-data-in-api-openapi.yml
   format: yaml
   label: Triple Whale Data In API
   slug: triple-whale-data-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-in-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-data-in-api-openapi.yml
 - filename: triple-whale-data-out-api-openapi.yml
   format: yaml
   label: Triple Whale Data Out API
   slug: triple-whale-data-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-out-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-data-out-api-openapi.yml
 - filename: triple-whale-bi-api-openapi.yml
   format: yaml
   label: Triple Whale Bi API
   slug: triple-whale-bi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-bi-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-bi-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 4
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/triple
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-in/orders-enrichment\n  method: post\n  operationId: enrich-orders-data\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-in/products-enrichment\n  method: post\n  operationId: enrich-products-data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /data-in/event\n  method: post\n  operationId: enrich-pixel-with-offline-events\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orcabase/api/moby\n  method: post\n  operationId: data-out-execute-natural-language-query-moby\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orcabase/api/sql\n  method: post\n  operationId: data-out-execute-custom-sql-query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /attribution/get-orders-with-journeys-v2\n  method: post\n  operationId: get-customer-journey-attribution-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary-page/get-data\n  method: post\n  operationId: get-summary-page-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/agentic-access/triple-whale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/triple-whale/agentic-access/triple-whale-agentic-access.yml
 summary_line: 17 operations · 13 acting
 tags:
 - E-Commerce

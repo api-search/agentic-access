@@ -9,13 +9,13 @@ api_specs:
   label: Azure Load Balancer Load Balancers API
   slug: microsoft-azure-load-balancer-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/openapi/microsoft-azure-load-balancer-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-load-balancers-api-openapi.yml
 - filename: microsoft-azure-load-balancer-operations-api-openapi.yml
   format: yaml
   label: Azure Load Balancer Operations API
   slug: microsoft-azure-load-balancer-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/openapi/microsoft-azure-load-balancer-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-operations-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/loadBalancers\n  method: get\n  operationId: listLoadbalancersByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/loadBalancers/{name}\n  method: get\n  operationId: getLoadbalancers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/loadBalancers/{name}\n  method:\
   \ put\n  operationId: createOrUpdateLoadbalancers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/loadBalancers/{name}\n  method: patch\n  operationId: updateLoadbalancers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/loadBalancers/{name}\n  method: delete\n\
   \  operationId: deleteLoadbalancers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/agentic-access/microsoft-azure-load-balancer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-load-balancer/agentic-access/microsoft-azure-load-balancer-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Microsoft Azure

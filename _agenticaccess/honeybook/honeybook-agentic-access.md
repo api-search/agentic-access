@@ -9,25 +9,25 @@ api_specs:
   label: HoneyBook Projects API
   slug: honeybook-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-projects-api-openapi.yml
+  url: https://artifacts.apis.io/honeybook/openapi/honeybook-projects-api-openapi.yml
 - filename: honeybook-contacts-api-openapi.yml
   format: yaml
   label: HoneyBook Contacts API
   slug: honeybook-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/honeybook/openapi/honeybook-contacts-api-openapi.yml
 - filename: honeybook-pipeline-api-openapi.yml
   format: yaml
   label: HoneyBook Pipeline API
   slug: honeybook-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/honeybook/openapi/honeybook-pipeline-api-openapi.yml
 - filename: honeybook-workspaces-api-openapi.yml
   format: yaml
   label: HoneyBook Workspaces API
   slug: honeybook-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/honeybook/openapi/honeybook-workspaces-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 15
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/honeyb
   \  - abnormal\n      - high-value\n    audit: required\n- path: /invoices/{id}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{id}\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduler/session-types\n  method: get\n  operationId: listSessionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduler/bookings\n  method: get\n  operationId: listBookings\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduler/bookings\n  method: post\n  operationId: createBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/agentic-access/honeybook-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/honeybook/agentic-access/honeybook-agentic-access.yml
 summary_line: 25 operations · 10 acting
 tags:
 - CRM

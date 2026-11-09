@@ -9,85 +9,85 @@ api_specs:
   label: temp.md Accounts API
   slug: temp-md-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-accounts-api-openapi.yml
 - filename: temp-md-agents-api-openapi.yml
   format: yaml
   label: temp.md Agents API
   slug: temp-md-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-agents-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-agents-api-openapi.yml
 - filename: temp-md-applications-api-openapi.yml
   format: yaml
   label: temp.md Applications API
   slug: temp-md-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-applications-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-applications-api-openapi.yml
 - filename: temp-md-comments-api-openapi.yml
   format: yaml
   label: temp.md Comments API
   slug: temp-md-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-comments-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-comments-api-openapi.yml
 - filename: temp-md-health-api-openapi.yml
   format: yaml
   label: temp.md Health API
   slug: temp-md-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-health-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-health-api-openapi.yml
 - filename: temp-md-lifecycle-api-openapi.yml
   format: yaml
   label: temp.md Lifecycle API
   slug: temp-md-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-lifecycle-api-openapi.yml
 - filename: temp-md-organizations-api-openapi.yml
   format: yaml
   label: temp.md Organizations API
   slug: temp-md-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-organizations-api-openapi.yml
 - filename: temp-md-previews-api-openapi.yml
   format: yaml
   label: temp.md Previews API
   slug: temp-md-previews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-previews-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-previews-api-openapi.yml
 - filename: temp-md-publish-api-openapi.yml
   format: yaml
   label: temp.md Publish API
   slug: temp-md-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-publish-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-publish-api-openapi.yml
 - filename: temp-md-publish-grants-api-openapi.yml
   format: yaml
   label: temp.md Publish Grants API
   slug: temp-md-publish-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-publish-grants-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-publish-grants-api-openapi.yml
 - filename: temp-md-publish-sessions-api-openapi.yml
   format: yaml
   label: temp.md Publish Sessions API
   slug: temp-md-publish-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-publish-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-publish-sessions-api-openapi.yml
 - filename: temp-md-review-requests-api-openapi.yml
   format: yaml
   label: temp.md Review Requests API
   slug: temp-md-review-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-review-requests-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-review-requests-api-openapi.yml
 - filename: temp-md-safety-api-openapi.yml
   format: yaml
   label: temp.md Safety API
   slug: temp-md-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-safety-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-safety-api-openapi.yml
 - filename: temp-md-usage-api-openapi.yml
   format: yaml
   label: temp.md Usage API
   slug: temp-md-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/openapi/temp-md-usage-api-openapi.yml
+  url: https://artifacts.apis.io/temp-md/openapi/temp-md-usage-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 17
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/temp-m
   \ none\n- path: /v1/applications/{applicationId}/domains\n  method: get\n  operationId: listDomainBindings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/applications/{applicationId}/domains\n  method: post\n  operationId: createDomainBinding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/{applicationId}/domains/{domainId}/verify\n  method: post\n  operationId: verifyDomainBinding\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/{applicationId}/domains/{domainId}\n  method: delete\n  operationId: disableDomainBinding\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/previews/{previewId}/review-requests\n  method: get\n  operationId: listReviewRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/previews/{previewId}/review-requests\n  method: post\n  operationId: createReviewRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/review-requests/{reviewRequestId}\n  method: get\n  operationId: getReviewRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/review-requests/{reviewRequestId}/decisions\n  method: post\n  operationId: createReviewDecision\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/usage\n  method: get\n  operationId: getPlatformUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temp-md/refs/heads/main/agentic-access/temp-md-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/temp-md/agentic-access/temp-md-agentic-access.yml
 summary_line: 50 operations · 33 acting · 8 human-in-the-loop
 tags:
 - Web Publishing

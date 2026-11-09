@@ -9,103 +9,103 @@ api_specs:
   label: Root Insurance Applications API
   slug: root-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-applications-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-applications-api-openapi.yml
 - filename: root-calls-api-openapi.yml
   format: yaml
   label: Root Insurance Calls API
   slug: root-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-calls-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-calls-api-openapi.yml
 - filename: root-claims-api-openapi.yml
   format: yaml
   label: Root Insurance Claims API
   slug: root-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-claims-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-claims-api-openapi.yml
 - filename: root-complaints-api-openapi.yml
   format: yaml
   label: Root Insurance Complaints API
   slug: root-complaints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-complaints-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-complaints-api-openapi.yml
 - filename: root-data-exports-api-openapi.yml
   format: yaml
   label: Root Insurance Data exports API
   slug: root-data-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-data-exports-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-data-exports-api-openapi.yml
 - filename: root-embed-api-openapi.yml
   format: yaml
   label: Root Insurance Embed API
   slug: root-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-embed-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-embed-api-openapi.yml
 - filename: root-files-api-openapi.yml
   format: yaml
   label: Root Insurance Files API
   slug: root-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-files-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-files-api-openapi.yml
 - filename: root-leads-api-openapi.yml
   format: yaml
   label: Root Insurance Leads API
   slug: root-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-leads-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-leads-api-openapi.yml
 - filename: root-notifications-api-openapi.yml
   format: yaml
   label: Root Insurance Notifications API
   slug: root-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-notifications-api-openapi.yml
 - filename: root-payment-methods-api-openapi.yml
   format: yaml
   label: Root Insurance Payment Methods API
   slug: root-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-payment-methods-api-openapi.yml
 - filename: root-payments-api-openapi.yml
   format: yaml
   label: Root Insurance Payments API
   slug: root-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-payments-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-payments-api-openapi.yml
 - filename: root-policies-api-openapi.yml
   format: yaml
   label: Root Insurance Policies API
   slug: root-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-policies-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-policies-api-openapi.yml
 - filename: root-policyholders-api-openapi.yml
   format: yaml
   label: Root Insurance Policyholders API
   slug: root-policyholders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-policyholders-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-policyholders-api-openapi.yml
 - filename: root-quotes-api-openapi.yml
   format: yaml
   label: Root Insurance Quotes API
   slug: root-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-quotes-api-openapi.yml
 - filename: root-secret-keys-api-openapi.yml
   format: yaml
   label: Root Insurance Secret keys API
   slug: root-secret-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-secret-keys-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-secret-keys-api-openapi.yml
 - filename: root-webhooks-api-openapi.yml
   format: yaml
   label: Root Insurance Webhooks API
   slug: root-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-webhooks-api-openapi.yml
 - filename: root-datastores-api-openapi.yml
   format: yaml
   label: Root Insurance Datastores API
   slug: root-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/openapi/root-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/root/openapi/root-datastores-api-openapi.yml
 consequence_counts:
   physical: 27
   read: 70
@@ -294,8 +294,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/root-p
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data-stores/{data_store_key}/entities/{data_store_entity_id}\n  method: patch\n  operationId: update-data-store-entity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /leads\n  method: get\n  operationId: fetch-leads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads\n  method: post\n  operationId: create-lead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /leads\n  method: put\n  operationId: create-or-update-lead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /leads/archive\n  method: post\n  operationId: archive-leads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notifications\n  method: get\n  operationId: fetch-notifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications\n  method: post\n  operationId: create-external-notification\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notifications/{notification_id}\n  method: get\n  operationId: retrieve-a-notification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications/{notification_id}\n  method: patch\n  operationId: update-external-notification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-batches/{payment_batch_id}\n  method: patch\n  operationId: update-payment-batch\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/async-create\n  method: post\n  operationId: async-payments-create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (63 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/agentic-access/root-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/agentic-access/root-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/async-create\n  method: post\n  operationId: async-payments-create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (63 KB total) ---\n# Full source: https://artifacts.apis.io/root/agentic-access/root-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/root/agentic-access/root-agentic-access.yml
 summary_line: 198 operations · 128 acting · 1 human-in-the-loop
 tags:
 - Insurance

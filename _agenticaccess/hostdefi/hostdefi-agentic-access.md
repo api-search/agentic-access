@@ -9,43 +9,43 @@ api_specs:
   label: HostDeFi Token Risk API
   slug: hostdefi-token-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostdefi/refs/heads/main/openapi/hostdefi-token-risk-api-openapi.yml
+  url: https://artifacts.apis.io/hostdefi/openapi/hostdefi-token-risk-api-openapi.yml
 - filename: hostdefi-analyze-token-api-openapi.yml
   format: yaml
   label: HostDeFi Analyze Token API
   slug: hostdefi-analyze-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostdefi/refs/heads/main/openapi/hostdefi-analyze-token-api-openapi.yml
+  url: https://artifacts.apis.io/hostdefi/openapi/hostdefi-analyze-token-api-openapi.yml
 - filename: hostdefi-health-api-openapi.yml
   format: yaml
   label: HostDeFi Health API
   slug: hostdefi-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostdefi/refs/heads/main/openapi/hostdefi-health-api-openapi.yml
+  url: https://artifacts.apis.io/hostdefi/openapi/hostdefi-health-api-openapi.yml
 - filename: hostdefi-keys-api-openapi.yml
   format: yaml
   label: HostDeFi Keys API
   slug: hostdefi-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostdefi/refs/heads/main/openapi/hostdefi-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hostdefi/openapi/hostdefi-keys-api-openapi.yml
 - filename: hostdefi-scan-api-openapi.yml
   format: yaml
   label: HostDeFi Scan API
   slug: hostdefi-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostdefi/refs/heads/main/openapi/hostdefi-scan-api-openapi.yml
+  url: https://artifacts.apis.io/hostdefi/openapi/hostdefi-scan-api-openapi.yml
 - filename: hostdefi-usage-api-openapi.yml
   format: yaml
   label: HostDeFi Usage API
   slug: hostdefi-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostdefi/refs/heads/main/openapi/hostdefi-usage-api-openapi.yml
+  url: https://artifacts.apis.io/hostdefi/openapi/hostdefi-usage-api-openapi.yml
 - filename: hostdefi-x402-machine-payable-api-openapi.yml
   format: yaml
   label: HostDeFi x402 (machine-payable) API
   slug: hostdefi-x402-machine-payable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostdefi/refs/heads/main/openapi/hostdefi-x402-machine-payable-api-openapi.yml
+  url: https://artifacts.apis.io/hostdefi/openapi/hostdefi-x402-machine-payable-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 22
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: generated\nsource: openapi/hostde
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/datasets/safety-snapshot\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/radar/history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/provider-risk\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/provider-risk/all\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/swap/evm/quote\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/swap/evm/price\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/token-risk/deep/{chain}/{address}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/token-risk/report/{chain}/{address}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/wallet\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/x402/launches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/predict/markets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x402/predict/history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hostdefi/refs/heads/main/agentic-access/hostdefi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hostdefi/agentic-access/hostdefi-agentic-access.yml
 summary_line: 32 operations · 10 acting
 tags:
 - Solana

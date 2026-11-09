@@ -8,43 +8,43 @@ api_specs:
   label: Open Government, New South Wales Browse API
   slug: open-government-new-south-wales-browse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/openapi/open-government-new-south-wales-browse-api-openapi.yml
+  url: https://artifacts.apis.io/open-government-new-south-wales/openapi/open-government-new-south-wales-browse-api-openapi.yml
 - filename: open-government-new-south-wales-details-api-openapi.yml
   format: yaml
   label: Open Government, New South Wales Details API
   slug: open-government-new-south-wales-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/openapi/open-government-new-south-wales-details-api-openapi.yml
+  url: https://artifacts.apis.io/open-government-new-south-wales/openapi/open-government-new-south-wales-details-api-openapi.yml
 - filename: open-government-new-south-wales-fuelcheckrefdata-api-openapi.yml
   format: yaml
   label: Open Government, New South Wales Fuel Check Ref Data API
   slug: open-government-new-south-wales-fuelcheckrefdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/openapi/open-government-new-south-wales-fuelcheckrefdata-api-openapi.yml
+  url: https://artifacts.apis.io/open-government-new-south-wales/openapi/open-government-new-south-wales-fuelcheckrefdata-api-openapi.yml
 - filename: open-government-new-south-wales-fuelpricecheck-api-openapi.yml
   format: yaml
   label: Open Government, New South Wales Fuel Price Check API
   slug: open-government-new-south-wales-fuelpricecheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/openapi/open-government-new-south-wales-fuelpricecheck-api-openapi.yml
+  url: https://artifacts.apis.io/open-government-new-south-wales/openapi/open-government-new-south-wales-fuelpricecheck-api-openapi.yml
 - filename: open-government-new-south-wales-pharmacyregister-api-openapi.yml
   format: yaml
   label: Open Government, New South Wales Pharmacyregister API
   slug: open-government-new-south-wales-pharmacyregister-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/openapi/open-government-new-south-wales-pharmacyregister-api-openapi.yml
+  url: https://artifacts.apis.io/open-government-new-south-wales/openapi/open-government-new-south-wales-pharmacyregister-api-openapi.yml
 - filename: open-government-new-south-wales-security-api-openapi.yml
   format: yaml
   label: Open Government, New South Wales Security API
   slug: open-government-new-south-wales-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/openapi/open-government-new-south-wales-security-api-openapi.yml
+  url: https://artifacts.apis.io/open-government-new-south-wales/openapi/open-government-new-south-wales-security-api-openapi.yml
 - filename: open-government-new-south-wales-verify-api-openapi.yml
   format: yaml
   label: Open Government, New South Wales Verify API
   slug: open-government-new-south-wales-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/openapi/open-government-new-south-wales-verify-api-openapi.yml
+  url: https://artifacts.apis.io/open-government-new-south-wales/openapi/open-government-new-south-wales-verify-api-openapi.yml
 consequence_counts:
   read: 35
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-10-21'\nmethod: generated\nsource: openapi/open-g
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /propertyregister/v1/verify\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /propertyregister/v1/details\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/client_credential/accesstoken\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityregister/v1/browse\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityregister/v1/verify\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityregister/v1/details\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/client_credential/accesstoken\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tradesregister/v1/browse\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tradesregister/v1/verify\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tradesregister/v1/details\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-government-new-south-wales/refs/heads/main/agentic-access/open-government-new-south-wales-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-government-new-south-wales/agentic-access/open-government-new-south-wales-agentic-access.yml
 summary_line: 35 operations
 tags:
 - Government

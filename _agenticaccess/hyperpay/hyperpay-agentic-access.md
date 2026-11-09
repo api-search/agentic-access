@@ -9,25 +9,25 @@ api_specs:
   label: HyperPay COPYandPAY API
   slug: hyperpay-copyandpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-copyandpay-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-copyandpay-api-openapi.yml
 - filename: hyperpay-payments-api-openapi.yml
   format: yaml
   label: HyperPay Payments API
   slug: hyperpay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-payments-api-openapi.yml
 - filename: hyperpay-query-api-openapi.yml
   format: yaml
   label: HyperPay Query API
   slug: hyperpay-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-query-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-query-api-openapi.yml
 - filename: hyperpay-registrations-api-openapi.yml
   format: yaml
   label: HyperPay Registrations API
   slug: hyperpay-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/openapi/hyperpay-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/hyperpay/openapi/hyperpay-registrations-api-openapi.yml
 consequence_counts:
   read: 3
   write: 6
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/hyperp
   \  operationId: getCheckoutStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - card-data\n      - high-value\n    audit: required\n- path: /v1/payments/{id}\n  method: post\n  operationId: managePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - refund\n      - reversal\n    audit: required\n- path: /v1/registrations\n  method: post\n  operationId: createRegistration\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - card-data\n      - tokenization\n    audit: required\n- path: /v1/registrations/{id}\n  method: get\n  operationId: getRegistration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: required\n- path: /v1/registrations/{id}\n  method: delete\n  operationId: deleteRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    audit: required\n- path: /v1/registrations/{id}/payments\n  method: post\n  operationId: createRegistrationPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n \
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - recurring\n      - high-value\n    audit: required\n- path: /v1/query/{id}\n  method: get\n  operationId: queryPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/agentic-access/hyperpay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hyperpay/agentic-access/hyperpay-agentic-access.yml
 summary_line: 9 operations · 6 acting · 5 human-in-the-loop
 tags:
 - Payments

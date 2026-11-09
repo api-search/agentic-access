@@ -9,25 +9,25 @@ api_specs:
   label: Flower Shop Network Authentication API
   slug: flower-shop-network-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/openapi/flower-shop-network-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/flower-shop-network/openapi/flower-shop-network-authentication-api-openapi.yml
 - filename: flower-shop-network-florists-api-openapi.yml
   format: yaml
   label: Flower Shop Network Florists API
   slug: flower-shop-network-florists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/openapi/flower-shop-network-florists-api-openapi.yml
+  url: https://artifacts.apis.io/flower-shop-network/openapi/flower-shop-network-florists-api-openapi.yml
 - filename: flower-shop-network-orders-api-openapi.yml
   format: yaml
   label: Flower Shop Network Orders API
   slug: flower-shop-network-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/openapi/flower-shop-network-orders-api-openapi.yml
+  url: https://artifacts.apis.io/flower-shop-network/openapi/flower-shop-network-orders-api-openapi.yml
 - filename: flower-shop-network-products-api-openapi.yml
   format: yaml
   label: Flower Shop Network Products API
   slug: flower-shop-network-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/openapi/flower-shop-network-products-api-openapi.yml
+  url: https://artifacts.apis.io/flower-shop-network/openapi/flower-shop-network-products-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 3
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/flower
   \ post\n  operationId: postRelayOrderApiReceiveOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /RelayOrder.apiAcceptOrder\n  method: post\n  operationId: postRelayOrderApiAcceptOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /RelayOrder.apiRefuseOrder\n  method: post\n  operationId: postRelayOrderApiRefuseOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /RelayOrder.apiSendOrder\n  method: post\n  operationId: postRelayOrderApiSendOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /RelayOrder.apiConfirmDelivery\n  method: post\n  operationId: postRelayOrderApiConfirmDelivery\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /RelayOrder.apiGetDeliveryConfirmation\n  method: post\n  operationId: postRelayOrderApiGetDeliveryConfirmation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MyfsnProduct.apiLoadProductData\n  method: post\n  operationId: postMyfsnProductApiLoadProductData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/agentic-access/flower-shop-network-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flower-shop-network/agentic-access/flower-shop-network-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - Florists

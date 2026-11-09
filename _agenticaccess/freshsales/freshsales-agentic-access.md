@@ -9,73 +9,73 @@ api_specs:
   label: Freshsales Appointments API
   slug: freshsales-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-appointments-api-openapi.yml
 - filename: freshsales-calls-api-openapi.yml
   format: yaml
   label: Freshsales Calls API
   slug: freshsales-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-calls-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-calls-api-openapi.yml
 - filename: freshsales-contacts-api-openapi.yml
   format: yaml
   label: Freshsales Contacts API
   slug: freshsales-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-contacts-api-openapi.yml
 - filename: freshsales-deals-api-openapi.yml
   format: yaml
   label: Freshsales Deals API
   slug: freshsales-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-deals-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-deals-api-openapi.yml
 - filename: freshsales-jobs-api-openapi.yml
   format: yaml
   label: Freshsales Jobs API
   slug: freshsales-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-jobs-api-openapi.yml
 - filename: freshsales-lists-api-openapi.yml
   format: yaml
   label: Freshsales Lists API
   slug: freshsales-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-lists-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-lists-api-openapi.yml
 - filename: freshsales-notes-api-openapi.yml
   format: yaml
   label: Freshsales Notes API
   slug: freshsales-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-notes-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-notes-api-openapi.yml
 - filename: freshsales-products-api-openapi.yml
   format: yaml
   label: Freshsales Products API
   slug: freshsales-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-products-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-products-api-openapi.yml
 - filename: freshsales-search-api-openapi.yml
   format: yaml
   label: Freshsales Search API
   slug: freshsales-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-search-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-search-api-openapi.yml
 - filename: freshsales-tasks-api-openapi.yml
   format: yaml
   label: Freshsales Tasks API
   slug: freshsales-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-tasks-api-openapi.yml
 - filename: freshsales-sales-accounts-api-openapi.yml
   format: yaml
   label: Freshsales Sales Accounts API
   slug: freshsales-sales-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-sales-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-sales-accounts-api-openapi.yml
 - filename: freshsales-sales-activities-api-openapi.yml
   format: yaml
   label: Freshsales Sales Activities API
   slug: freshsales-sales-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-sales-activities-api-openapi.yml
+  url: https://artifacts.apis.io/freshsales/openapi/freshsales-sales-activities-api-openapi.yml
 consequence_counts:
   read: 15
   write: 27
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freshs
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cpq/products\n  method: post\n  operationId: createProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cpq/products/{id}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cpq/products/{id}\n  method: put\n  operationId: updateProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /sales_activities\n  method: post\n  operationId: createSalesActivity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /phone_calls\n  method: post\n  operationId: logPhoneCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /job_statuses/{id}\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/agentic-access/freshsales-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/freshsales/agentic-access/freshsales-agentic-access.yml
 summary_line: 42 operations · 27 acting
 tags:
 - CRM

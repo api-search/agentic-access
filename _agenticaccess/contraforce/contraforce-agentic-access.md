@@ -9,85 +9,85 @@ api_specs:
   label: Contraforce Agent Tools API
   slug: contraforce-agent-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-agent-tools-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-agent-tools-api-openapi.yml
 - filename: contraforce-azure-resources-api-openapi.yml
   format: yaml
   label: Contraforce Azure resources API
   slug: contraforce-azure-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-azure-resources-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-azure-resources-api-openapi.yml
 - filename: contraforce-cross-workspace-data-sources-api-openapi.yml
   format: yaml
   label: Contraforce Cross-workspace data sources API
   slug: contraforce-cross-workspace-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-cross-workspace-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-cross-workspace-data-sources-api-openapi.yml
 - filename: contraforce-cross-workspace-gamebooks-api-openapi.yml
   format: yaml
   label: Contraforce Cross-workspace gamebooks API
   slug: contraforce-cross-workspace-gamebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-cross-workspace-gamebooks-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-cross-workspace-gamebooks-api-openapi.yml
 - filename: contraforce-cross-workspace-incidents-api-openapi.yml
   format: yaml
   label: Contraforce Cross-workspace incidents API
   slug: contraforce-cross-workspace-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-cross-workspace-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-cross-workspace-incidents-api-openapi.yml
 - filename: contraforce-data-sources-api-openapi.yml
   format: yaml
   label: Contraforce Data sources API
   slug: contraforce-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-data-sources-api-openapi.yml
 - filename: contraforce-export-api-openapi.yml
   format: yaml
   label: Contraforce Export API
   slug: contraforce-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-export-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-export-api-openapi.yml
 - filename: contraforce-gamebooks-api-openapi.yml
   format: yaml
   label: Contraforce Gamebooks API
   slug: contraforce-gamebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-gamebooks-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-gamebooks-api-openapi.yml
 - filename: contraforce-incidents-api-openapi.yml
   format: yaml
   label: Contraforce Incidents API
   slug: contraforce-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-incidents-api-openapi.yml
 - filename: contraforce-investigation-api-openapi.yml
   format: yaml
   label: Contraforce Investigation API
   slug: contraforce-investigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-investigation-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-investigation-api-openapi.yml
 - filename: contraforce-service-accounts-api-openapi.yml
   format: yaml
   label: Contraforce Service accounts API
   slug: contraforce-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-service-accounts-api-openapi.yml
 - filename: contraforce-service-tickets-api-openapi.yml
   format: yaml
   label: Contraforce Service tickets API
   slug: contraforce-service-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-service-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-service-tickets-api-openapi.yml
 - filename: contraforce-users-api-openapi.yml
   format: yaml
   label: Contraforce Users API
   slug: contraforce-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-users-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-users-api-openapi.yml
 - filename: contraforce-webhooks-api-openapi.yml
   format: yaml
   label: Contraforce Webhooks API
   slug: contraforce-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/openapi/contraforce-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/contraforce/openapi/contraforce-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 41
@@ -161,7 +161,7 @@ source_yaml: "generated: '2026-10-10'\nmethod: generated\nsource: openapi/contra
   \  operationId: v2-list-azure-nsgs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/azure-resources/subscriptions/is-owner\n  method: get\n  operationId: v2-check-azure-subscription-owner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/azure-resources/subscriptions/{subscriptionId}/resource-groups\n  method: get\n  operationId: v2-list-azure-resource-groups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/azure-resources/subscriptions/{subscriptionId}/resource-groups/{resourceGroup}/workspaces\n  method: get\n  operationId: v2-list-azure-workspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v2/azure-resources/subscriptions/{subscriptionId}/resource-groups/{resourceGroup}/sentinels\n  method: get\n  operationId: v2-list-azure-sentinels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/azure-resources/subscriptions/{subscriptionId}/resource-groups/{resourceGroup}/workspaces/{workspaceName}/validate\n  method: get\n  operationId: v2-validate-azure-workspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/azure-resources/analytical-rules/{ruleId}\n  method: put\n  operationId: v2-update-analytical-rule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contraforce/refs/heads/main/agentic-access/contraforce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/contraforce/agentic-access/contraforce-agentic-access.yml
 summary_line: 81 operations · 40 acting · 2 human-in-the-loop
 tags:
 - Security

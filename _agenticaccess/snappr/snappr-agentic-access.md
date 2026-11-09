@@ -9,55 +9,55 @@ api_specs:
   label: Snappr Availability API
   slug: snappr-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-availability-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-availability-api-openapi.yml
 - filename: snappr-bookings-api-openapi.yml
   format: yaml
   label: Snappr Bookings API
   slug: snappr-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-bookings-api-openapi.yml
 - filename: snappr-coverage-api-openapi.yml
   format: yaml
   label: Snappr Coverage API
   slug: snappr-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-coverage-api-openapi.yml
 - filename: snappr-editing-job-types-api-openapi.yml
   format: yaml
   label: Snappr Editing Job Types API
   slug: snappr-editing-job-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-editing-job-types-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-editing-job-types-api-openapi.yml
 - filename: snappr-editing-jobs-api-openapi.yml
   format: yaml
   label: Snappr Editing Jobs API
   slug: snappr-editing-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-editing-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-editing-jobs-api-openapi.yml
 - filename: snappr-images-api-openapi.yml
   format: yaml
   label: Snappr Images API
   slug: snappr-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-images-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-images-api-openapi.yml
 - filename: snappr-presets-api-openapi.yml
   format: yaml
   label: Snappr Presets API
   slug: snappr-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-presets-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-presets-api-openapi.yml
 - filename: snappr-shoot-types-api-openapi.yml
   format: yaml
   label: Snappr Shoot Types API
   slug: snappr-shoot-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-shoot-types-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-shoot-types-api-openapi.yml
 - filename: snappr-videos-api-openapi.yml
   format: yaml
   label: Snappr Videos API
   slug: snappr-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/openapi/snappr-videos-api-openapi.yml
+  url: https://artifacts.apis.io/snappr/openapi/snappr-videos-api-openapi.yml
 consequence_counts:
   read: 12
   write: 2
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/snappr
   \ listBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings\n  method: post\n  operationId: createBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{booking_uid}\n  method: get\n  operationId: getBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/{booking_uid}/images\n  method: get\n  operationId: listBookingImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/{booking_uid}/videos\n\
   \  method: get\n  operationId: listBookingVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editing-jobs\n  method: get\n  operationId: listEditingJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editing-jobs\n  method: post\n  operationId: createEditingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /editing-jobs/{editing_job_uid}\n  method: get\n  operationId: getEditingJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /editing-jobs/{editing_job_uid}/images\n  method: get\n  operationId: listEditingJobImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /presets\n  method: get\n  operationId: listPresets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shoottypes\n  method: get\n  operationId: listShootTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editing-job-types\n  method: get\n  operationId: listEditingJobTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/agentic-access/snappr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snappr/agentic-access/snappr-agentic-access.yml
 summary_line: 14 operations · 2 acting
 tags:
 - Company

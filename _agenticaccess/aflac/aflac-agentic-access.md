@@ -9,31 +9,31 @@ api_specs:
   label: aflac Claims API
   slug: aflac-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-claims-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-claims-api-openapi.yml
 - filename: aflac-eligibility-api-openapi.yml
   format: yaml
   label: aflac Eligibility API
   slug: aflac-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-eligibility-api-openapi.yml
 - filename: aflac-enrollment-api-openapi.yml
   format: yaml
   label: aflac Enrollment API
   slug: aflac-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-enrollment-api-openapi.yml
 - filename: aflac-groups-api-openapi.yml
   format: yaml
   label: aflac Groups API
   slug: aflac-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-groups-api-openapi.yml
 - filename: aflac-policies-api-openapi.yml
   format: yaml
   label: aflac Policies API
   slug: aflac-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-policies-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-policies-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aflac-
   \ purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/{policy_id}\n  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /claims\n  method: get\n  operationId: listClaims\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /claims\n  method: post\n  operationId: submitClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claims/{claim_id}\n  method: get\n  operationId: getClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eligibility/verify\n  method: post\n  operationId: verifyEligibility\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{group_id}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/agentic-access/aflac-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aflac/agentic-access/aflac-agentic-access.yml
 summary_line: 13 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Fortune 500

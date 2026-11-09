@@ -15,43 +15,43 @@ api_specs:
   label: Paack Check coverage API
   slug: paack-check-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-check-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-check-coverage-api-openapi.yml
 - filename: paack-generate-labels-api-openapi.yml
   format: yaml
   label: Paack Generate labels API
   slug: paack-generate-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-generate-labels-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-generate-labels-api-openapi.yml
 - filename: paack-get-access-token-api-openapi.yml
   format: yaml
   label: Paack Get access token API
   slug: paack-get-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-get-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-get-access-token-api-openapi.yml
 - filename: paack-manage-orders-api-openapi.yml
   format: yaml
   label: Paack Manage orders API
   slug: paack-manage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-manage-orders-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-manage-orders-api-openapi.yml
 - filename: paack-retrieve-delivery-proof-api-openapi.yml
   format: yaml
   label: Paack Retrieve delivery proof API
   slug: paack-retrieve-delivery-proof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-delivery-proof-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-retrieve-delivery-proof-api-openapi.yml
 - filename: paack-retrieve-events-history-api-openapi.yml
   format: yaml
   label: Paack Retrieve events history API
   slug: paack-retrieve-events-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-events-history-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-retrieve-events-history-api-openapi.yml
 - filename: paack-retrieve-last-event-api-openapi.yml
   format: yaml
   label: Paack Retrieve last event API
   slug: paack-retrieve-last-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-last-event-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-retrieve-last-event-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 5
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/paack-
   \    - abnormal\n      - high-value\n    audit: required\n- path: /coverage\n  method: get\n  operationId: coverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /labels\n  method: post\n  operationId: CreateLabelRequestPDF\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v3/orders\n  method: post\n  operationId: orders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /public/v3/orders/{external_id}\n  method: get\n  operationId: orders-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v3/orders/{external_id}\n  method: put\n  operationId: orders-put\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v3/orders/{external_id}\n  method: delete\n  operationId: orders-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /public/v3/orders/{external_id}/delivery_verifications\n  method: get\n  operationId: delivery-verifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tracking/events\n  method: get\n  operationId: list-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tracking/events/latest\n  method: get\n  operationId: get-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/agentic-access/paack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paack/agentic-access/paack-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Company

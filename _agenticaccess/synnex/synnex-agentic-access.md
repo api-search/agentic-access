@@ -9,37 +9,37 @@ api_specs:
   label: Synnex Cart API
   slug: synnex-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-cart-api-openapi.yml
+  url: https://artifacts.apis.io/synnex/openapi/synnex-cart-api-openapi.yml
 - filename: synnex-customers-api-openapi.yml
   format: yaml
   label: Synnex Customers API
   slug: synnex-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-customers-api-openapi.yml
+  url: https://artifacts.apis.io/synnex/openapi/synnex-customers-api-openapi.yml
 - filename: synnex-orders-api-openapi.yml
   format: yaml
   label: Synnex Orders API
   slug: synnex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-orders-api-openapi.yml
+  url: https://artifacts.apis.io/synnex/openapi/synnex-orders-api-openapi.yml
 - filename: synnex-products-api-openapi.yml
   format: yaml
   label: Synnex Products API
   slug: synnex-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-products-api-openapi.yml
+  url: https://artifacts.apis.io/synnex/openapi/synnex-products-api-openapi.yml
 - filename: synnex-reports-api-openapi.yml
   format: yaml
   label: Synnex Reports API
   slug: synnex-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-reports-api-openapi.yml
+  url: https://artifacts.apis.io/synnex/openapi/synnex-reports-api-openapi.yml
 - filename: synnex-subscriptions-api-openapi.yml
   format: yaml
   label: Synnex Subscriptions API
   slug: synnex-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/openapi/synnex-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/synnex/openapi/synnex-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/synnex
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/customers/{customerId}/subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/customers/{customerId}/subscriptions/{subscriptionId}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/customers/{customerId}/subscriptions/{subscriptionId}\n  method: put\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/cart\n  method: post\n  operationId: createCart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/cart/{cartId}/checkout\n  method: post\n  operationId: checkoutCart\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/reports\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/agentic-access/synnex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/synnex/agentic-access/synnex-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Technology Distribution

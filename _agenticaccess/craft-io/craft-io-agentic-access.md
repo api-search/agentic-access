@@ -27,43 +27,43 @@ api_specs:
   label: Craft.io Feedback items API
   slug: craft-io-feedback-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-feedback-items-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-feedback-items-api-openapi.yml
 - filename: craft-io-feedback-portals-api-openapi.yml
   format: yaml
   label: Craft.io Feedback Portals API
   slug: craft-io-feedback-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-feedback-portals-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-feedback-portals-api-openapi.yml
 - filename: craft-io-introspection-api-openapi.yml
   format: yaml
   label: Craft.io Introspection API
   slug: craft-io-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-introspection-api-openapi.yml
 - filename: craft-io-portfolios-api-openapi.yml
   format: yaml
   label: Craft.io Portfolios API
   slug: craft-io-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-portfolios-api-openapi.yml
 - filename: craft-io-work-items-and-okrs-api-openapi.yml
   format: yaml
   label: Craft.io Work Items and OKRs API
   slug: craft-io-work-items-and-okrs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-work-items-and-okrs-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-work-items-and-okrs-api-openapi.yml
 - filename: craft-io-workspaces-api-openapi.yml
   format: yaml
   label: Craft.io Workspaces API
   slug: craft-io-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-workspaces-api-openapi.yml
 - filename: craft-io-views-api-openapi.yml
   format: yaml
   label: Craft.io Views API
   slug: craft-io-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-views-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-views-api-openapi.yml
 consequence_counts:
   read: 22
   write: 5
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/craft-
   \  method: delete\n  operationId: DeleteItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - delete:items:craft\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /item/{itemId}/flat\n  method: get\n  operationId: GetItemFlat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:items:craft\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace/{workspaceId}/items\n  method: get\n  operationId: GetItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:items:craft\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace/{workspaceId}/items/flat\n  method: get\n  operationId: GetItemsFlat\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:items:craft\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolio_item/{itemId}\n  method: get\n  operationId: GetInitiative\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:portfolios:craft\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolio/{portfolioId}/items\n  method: get\n  operationId: GetInitiatives\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:portfolios:craft\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /item\n  method: post\n  operationId: CreateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:items:craft\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /item\n  method: put\n  operationId: UpdateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:items:craft\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/agentic-access/craft-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/craft-io/agentic-access/craft-io-agentic-access.yml
 summary_line: 27 operations · 5 acting
 tags:
 - Product Management

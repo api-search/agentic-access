@@ -9,13 +9,13 @@ api_specs:
   label: Azure Front Door Operations API
   slug: microsoft-azure-front-door-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-operations-api-openapi.yml
 - filename: microsoft-azure-front-door-profiles-api-openapi.yml
   format: yaml
   label: Azure Front Door Profiles API
   slug: microsoft-azure-front-door-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-profiles-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles\n  method: get\n  operationId: listProfilesByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{name}\n  method: get\n  operationId: getProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{name}\n  method: put\n  operationId: createOrUpdateProfiles\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{name}\n  method: patch\n  operationId: updateProfiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{name}\n  method: delete\n  operationId: deleteProfiles\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/agentic-access/microsoft-azure-front-door-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-front-door/agentic-access/microsoft-azure-front-door-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - CDN

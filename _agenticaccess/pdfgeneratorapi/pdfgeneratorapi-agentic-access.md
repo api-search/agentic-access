@@ -9,19 +9,19 @@ api_specs:
   label: PDF Generator API Documents API
   slug: pdfgeneratorapi-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-documents-api-openapi.yml
+  url: https://artifacts.apis.io/pdfgeneratorapi/openapi/pdfgeneratorapi-documents-api-openapi.yml
 - filename: pdfgeneratorapi-templates-api-openapi.yml
   format: yaml
   label: PDF Generator API Templates API
   slug: pdfgeneratorapi-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdfgeneratorapi/openapi/pdfgeneratorapi-templates-api-openapi.yml
 - filename: pdfgeneratorapi-workspaces-api-openapi.yml
   format: yaml
   label: PDF Generator API Workspaces API
   slug: pdfgeneratorapi-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/openapi/pdfgeneratorapi-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/pdfgeneratorapi/openapi/pdfgeneratorapi-workspaces-api-openapi.yml
 consequence_counts:
   read: 11
   write: 15
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pdfgen
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{publicId}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{publicId}/actions\n  method: get\n  operationId: getDocumentActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{publicId}/actions\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{publicId}/versions\n  method: get\n  operationId:\
   \ getDocumentVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: get\n  operationId: getWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceIdentifier}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceIdentifier}\n\
   \  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/agentic-access/pdfgeneratorapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pdfgeneratorapi/agentic-access/pdfgeneratorapi-agentic-access.yml
 summary_line: 26 operations · 15 acting
 tags:
 - PDF

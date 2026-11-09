@@ -9,19 +9,19 @@ api_specs:
   label: Endgame Threads API
   slug: end-game-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-threads-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-threads-api-openapi.yml
 - filename: end-game-internal-api-openapi.yml
   format: yaml
   label: Endgame Internal API
   slug: end-game-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-internal-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-internal-api-openapi.yml
 - filename: end-game-protected-static-api-openapi.yml
   format: yaml
   label: Endgame Protected Static API
   slug: end-game-protected-static-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-protected-static-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-protected-static-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/end-ga
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/threads\n  method: get\n  operationId: listThreads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/threads/{id}\n  method: get\n  operationId: getThread\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/threads/{id}\n  method: patch\n  operationId: updateThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/threads/{id}\n  method: delete\n  operationId: deleteThread\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /threads\n  method: post\n  operationId: threads.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /threads\n  method: get\n  operationId: threads.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /threads/{id}\n  method: get\n  operationId: threads.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /threads/{id}\n  method: patch\n  operationId: threads.update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /threads/{id}\n  method: delete\n  operationId: threads.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/agentic-access/end-game-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/end-game/agentic-access/end-game-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Company

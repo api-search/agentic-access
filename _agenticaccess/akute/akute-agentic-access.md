@@ -9,49 +9,49 @@ api_specs:
   label: Akute Health Appointments API
   slug: akute-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/akute/openapi/akute-appointments-api-openapi.yml
 - filename: akute-documents-api-openapi.yml
   format: yaml
   label: Akute Health Documents API
   slug: akute-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-documents-api-openapi.yml
+  url: https://artifacts.apis.io/akute/openapi/akute-documents-api-openapi.yml
 - filename: akute-encounters-api-openapi.yml
   format: yaml
   label: Akute Health Encounters API
   slug: akute-encounters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-encounters-api-openapi.yml
+  url: https://artifacts.apis.io/akute/openapi/akute-encounters-api-openapi.yml
 - filename: akute-labs-api-openapi.yml
   format: yaml
   label: Akute Health Labs API
   slug: akute-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-labs-api-openapi.yml
+  url: https://artifacts.apis.io/akute/openapi/akute-labs-api-openapi.yml
 - filename: akute-medications-api-openapi.yml
   format: yaml
   label: Akute Health Medications API
   slug: akute-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-medications-api-openapi.yml
+  url: https://artifacts.apis.io/akute/openapi/akute-medications-api-openapi.yml
 - filename: akute-patients-api-openapi.yml
   format: yaml
   label: Akute Health Patients API
   slug: akute-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-patients-api-openapi.yml
+  url: https://artifacts.apis.io/akute/openapi/akute-patients-api-openapi.yml
 - filename: akute-tasks-api-openapi.yml
   format: yaml
   label: Akute Health Tasks API
   slug: akute-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/akute/openapi/akute-tasks-api-openapi.yml
 - filename: akute-webhooks-api-openapi.yml
   format: yaml
   label: Akute Health Webhooks API
   slug: akute-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/openapi/akute-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/akute/openapi/akute-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 30
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/akute-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /diagnosticreport\n  method: get\n  operationId: searchDiagnosticReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /diagnosticreport/{diagnostic_report_id}\n  method: get\n  operationId: getDiagnosticReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /diagnosticreport/{diagnostic_report_id}\n  method: put\n  operationId: updateDiagnosticReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /diagnosticreport/{diagnostic_report_id}/pdf\n\
   \  method: get\n  operationId: getDiagnosticReportPdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observations\n  method: get\n  operationId: searchObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observations/{observation_id}\n  method: get\n  operationId: getObservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: post\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/agentic-access/akute-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/akute/agentic-access/akute-agentic-access.yml
 summary_line: 42 operations · 12 acting
 tags:
 - Healthcare

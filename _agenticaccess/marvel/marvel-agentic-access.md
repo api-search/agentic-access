@@ -8,37 +8,37 @@ api_specs:
   label: Marvel Characters API
   slug: marvel-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-characters-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-characters-api-openapi.yml
 - filename: marvel-comics-api-openapi.yml
   format: yaml
   label: Marvel Comics API
   slug: marvel-comics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-comics-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-comics-api-openapi.yml
 - filename: marvel-creators-api-openapi.yml
   format: yaml
   label: Marvel Creators API
   slug: marvel-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-creators-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-creators-api-openapi.yml
 - filename: marvel-events-api-openapi.yml
   format: yaml
   label: Marvel Events API
   slug: marvel-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-events-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-events-api-openapi.yml
 - filename: marvel-series-api-openapi.yml
   format: yaml
   label: Marvel Series API
   slug: marvel-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-series-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-series-api-openapi.yml
 - filename: marvel-stories-api-openapi.yml
   format: yaml
   label: Marvel Stories API
   slug: marvel-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/openapi/marvel-stories-api-openapi.yml
+  url: https://artifacts.apis.io/marvel/openapi/marvel-stories-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/marvel
   \ listCharacterComics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comics\n  method: get\n  operationId: listComics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comics/{comicId}\n  method: get\n  operationId: getComic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /creators\n  method: get\n  operationId: listCreators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /creators/{creatorId}\n  method: get\n  operationId: getCreator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventId}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series\n  method: get\n  operationId: listSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series/{seriesId}\n  method: get\n  operationId: getSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stories\n  method: get\n  operationId: listStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stories/{storyId}\n  method: get\n  operationId: getStory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marvel/refs/heads/main/agentic-access/marvel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/marvel/agentic-access/marvel-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Characters

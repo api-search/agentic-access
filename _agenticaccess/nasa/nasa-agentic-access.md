@@ -9,217 +9,217 @@ api_specs:
   label: NASA Asset API
   slug: nasa-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-asset-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-asset-api-openapi.yml
 - filename: nasa-captions-api-openapi.yml
   format: yaml
   label: NASA Captions API
   slug: nasa-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-captions-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-captions-api-openapi.yml
 - filename: nasa-donki-api-openapi.yml
   format: yaml
   label: NASA DONKI API
   slug: nasa-donki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-donki-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-donki-api-openapi.yml
 - filename: nasa-epic-api-openapi.yml
   format: yaml
   label: NASA EPIC API
   slug: nasa-epic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-epic-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-epic-api-openapi.yml
 - filename: nasa-mars-photos-api-openapi.yml
   format: yaml
   label: NASA Mars Photos API
   slug: nasa-mars-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-mars-photos-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-mars-photos-api-openapi.yml
 - filename: nasa-metadata-api-openapi.yml
   format: yaml
   label: NASA Metadata API
   slug: nasa-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-metadata-api-openapi.yml
 - filename: nasa-neo-api-openapi.yml
   format: yaml
   label: NASA Neo API
   slug: nasa-neo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-neo-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-neo-api-openapi.yml
 - filename: nasa-planetary-api-openapi.yml
   format: yaml
   label: NASA Planetary API
   slug: nasa-planetary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-planetary-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-planetary-api-openapi.yml
 - filename: nasa-search-api-openapi.yml
   format: yaml
   label: NASA Search API
   slug: nasa-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-search-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-search-api-openapi.yml
 - filename: nasa-album-api-openapi.yml
   format: yaml
   label: NASA Album API
   slug: nasa-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-album-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-album-api-openapi.yml
 - filename: nasa-cad-api-openapi.yml
   format: yaml
   label: NASA CAD API
   slug: nasa-cad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-cad-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-cad-api-openapi.yml
 - filename: nasa-categories-api-openapi.yml
   format: yaml
   label: NASA Categories API
   slug: nasa-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-categories-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-categories-api-openapi.yml
 - filename: nasa-earth-api-openapi.yml
   format: yaml
   label: NASA Earth API
   slug: nasa-earth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-earth-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-earth-api-openapi.yml
 - filename: nasa-enhanced-api-openapi.yml
   format: yaml
   label: NASA Enhanced API
   slug: nasa-enhanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-enhanced-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-enhanced-api-openapi.yml
 - filename: nasa-events-api-openapi.yml
   format: yaml
   label: NASA Events API
   slug: nasa-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-events-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-events-api-openapi.yml
 - filename: nasa-fireball-api-openapi.yml
   format: yaml
   label: NASA Fireball API
   slug: nasa-fireball-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-fireball-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-fireball-api-openapi.yml
 - filename: nasa-layers-api-openapi.yml
   format: yaml
   label: NASA Layers API
   slug: nasa-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-layers-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-layers-api-openapi.yml
 - filename: nasa-locations-api-openapi.yml
   format: yaml
   label: NASA Locations API
   slug: nasa-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-locations-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-locations-api-openapi.yml
 - filename: nasa-magnitudes-api-openapi.yml
   format: yaml
   label: NASA Magnitudes API
   slug: nasa-magnitudes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-magnitudes-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-magnitudes-api-openapi.yml
 - filename: nasa-natural-api-openapi.yml
   format: yaml
   label: NASA Natural API
   slug: nasa-natural-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-natural-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-natural-api-openapi.yml
 - filename: nasa-nhats-api-openapi.yml
   format: yaml
   label: NASA NHATS API
   slug: nasa-nhats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-nhats-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-nhats-api-openapi.yml
 - filename: nasa-observatories-api-openapi.yml
   format: yaml
   label: NASA Observatories API
   slug: nasa-observatories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-observatories-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-observatories-api-openapi.yml
 - filename: nasa-patents-api-openapi.yml
   format: yaml
   label: NASA Patents API
   slug: nasa-patents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-patents-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-patents-api-openapi.yml
 - filename: nasa-projects-api-openapi.yml
   format: yaml
   label: NASA Projects API
   slug: nasa-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-projects-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-projects-api-openapi.yml
 - filename: nasa-rovers-api-openapi.yml
   format: yaml
   label: NASA Rovers API
   slug: nasa-rovers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-rovers-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-rovers-api-openapi.yml
 - filename: nasa-sbdb-api-openapi.yml
   format: yaml
   label: NASA SBDB API
   slug: nasa-sbdb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-sbdb-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-sbdb-api-openapi.yml
 - filename: nasa-scout-api-openapi.yml
   format: yaml
   label: NASA Scout API
   slug: nasa-scout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-scout-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-scout-api-openapi.yml
 - filename: nasa-sentry-api-openapi.yml
   format: yaml
   label: NASA Sentry API
   slug: nasa-sentry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-sentry-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-sentry-api-openapi.yml
 - filename: nasa-software-api-openapi.yml
   format: yaml
   label: NASA Software API
   slug: nasa-software-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-software-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-software-api-openapi.yml
 - filename: nasa-sources-api-openapi.yml
   format: yaml
   label: NASA Sources API
   slug: nasa-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-sources-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-sources-api-openapi.yml
 - filename: nasa-spinoff-api-openapi.yml
   format: yaml
   label: NASA Spinoff API
   slug: nasa-spinoff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-spinoff-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-spinoff-api-openapi.yml
 - filename: nasa-stations-api-openapi.yml
   format: yaml
   label: NASA Stations API
   slug: nasa-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-stations-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-stations-api-openapi.yml
 - filename: nasa-tap-api-openapi.yml
   format: yaml
   label: NASA Tap API
   slug: nasa-tap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-tap-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-tap-api-openapi.yml
 - filename: nasa-tle-api-openapi.yml
   format: yaml
   label: NASA TLE API
   slug: nasa-tle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-tle-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-tle-api-openapi.yml
 - filename: nasa-weather-api-openapi.yml
   format: yaml
   label: NASA Weather API
   slug: nasa-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-weather-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-weather-api-openapi.yml
 - filename: nasa-wmts-api-openapi.yml
   format: yaml
   label: NASA WMTS API
   slug: nasa-wmts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/openapi/nasa-wmts-api-openapi.yml
+  url: https://artifacts.apis.io/nasa/openapi/nasa-wmts-api-openapi.yml
 consequence_counts:
   read: 73
   write: 1
@@ -264,7 +264,7 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/nasa-a
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mars-photos/api/v1/rovers/{rover}/photos\n  method: get\n  operationId: getRoverPhotos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mars-photos/api/v1/rovers/{rover}/latest_photos\n  method: get\n  operationId: getLatestRoverPhotos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mars-photos/api/v1/manifests/{rover}\n  method: get\n  operationId: getRoverManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata/{nasa_id}\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /neo/rest/v1/feed\n  method: get\n  operationId: getNeoFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /neo/rest/v1/neo/{asteroid_id}\n  method: get\n  operationId: getNeoById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /neo/rest/v1/neo/browse\n  method: get\n  operationId: browseNeos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /planetary/apod\n  method: get\n  operationId: getApod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId:\
   \ searchMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/agentic-access/nasa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nasa/agentic-access/nasa-agentic-access.yml
 summary_line: 74 operations · 1 acting
 tags:
 - Government

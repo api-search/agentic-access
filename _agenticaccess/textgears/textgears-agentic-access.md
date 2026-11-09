@@ -9,43 +9,43 @@ api_specs:
   label: TextGears Account API
   slug: textgears-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-account-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-account-api-openapi.yml
 - filename: textgears-dictionaries-api-openapi.yml
   format: yaml
   label: TextGears Dictionaries API
   slug: textgears-dictionaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-dictionaries-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-dictionaries-api-openapi.yml
 - filename: textgears-exceptions-api-openapi.yml
   format: yaml
   label: TextGears Exceptions API
   slug: textgears-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-exceptions-api-openapi.yml
 - filename: textgears-grammar-api-openapi.yml
   format: yaml
   label: TextGears Grammar API
   slug: textgears-grammar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-grammar-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-grammar-api-openapi.yml
 - filename: textgears-language-api-openapi.yml
   format: yaml
   label: TextGears Language API
   slug: textgears-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-language-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-language-api-openapi.yml
 - filename: textgears-readability-api-openapi.yml
   format: yaml
   label: TextGears Readability API
   slug: textgears-readability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-readability-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-readability-api-openapi.yml
 - filename: textgears-summarization-api-openapi.yml
   format: yaml
   label: TextGears Summarization API
   slug: textgears-summarization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/openapi/textgears-summarization-api-openapi.yml
+  url: https://artifacts.apis.io/textgears/openapi/textgears-summarization-api-openapi.yml
 consequence_counts:
   read: 5
   write: 15
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/textge
   \      - high-value\n    audit: required\n- path: /translate\n  method: post\n  operationId: translate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /split\n  method: post\n  operationId: splitSentences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /detect\n  method: post\n  operationId: detectLanguage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /readability\n  method: post\n  operationId: checkReadability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analyze\n  method: post\n  operationId: analyzeText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /summarize\n  method: post\n  operationId: summarize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/agentic-access/textgears-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/textgears/agentic-access/textgears-agentic-access.yml
 summary_line: 20 operations · 15 acting
 tags:
 - Grammar

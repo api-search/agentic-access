@@ -9,13 +9,13 @@ api_specs:
   label: Mem CoreApi__service-info API
   slug: mem-coreapi-service-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-coreapi-service-info-api-openapi.yml
+  url: https://artifacts.apis.io/mem/openapi/mem-coreapi-service-info-api-openapi.yml
 - filename: mem-external-api-openapi.yml
   format: yaml
   label: Mem External API
   slug: mem-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-external-api-openapi.yml
+  url: https://artifacts.apis.io/mem/openapi/mem-external-api-openapi.yml
 consequence_counts:
   read: 31
   write: 33
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mem-co
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/sessions/{session_id}\n  method: delete\n  operationId: app_src_api_routes_external_v2_sessions_views_delete_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/sessions/{session_id}\n  method: get\n  operationId: app_src_api_routes_external_v2_sessions_views_read_session\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sessions/{session_id}\n  method: patch\n  operationId: app_src_api_routes_external_v2_sessions_views_update_session\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/sessions/{session_id}\n  method: put\n  operationId: app_src_api_routes_external_v2_sessions_views_upsert_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tasks\n  method: get\n  operationId: app_src_api_routes_external_v2_tasks_views_list_tasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasks/{task_id}\n  method: get\n  operationId: app_src_api_routes_external_v2_tasks_views_read_task\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/agentic-access/mem-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mem/agentic-access/mem-agentic-access.yml
 summary_line: 64 operations · 33 acting
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: UpTrain Auth API
   slug: uptrain-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-auth-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-auth-api-openapi.yml
 - filename: uptrain-checksets-api-openapi.yml
   format: yaml
   label: UpTrain Checksets API
   slug: uptrain-checksets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-checksets-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-checksets-api-openapi.yml
 - filename: uptrain-datasets-api-openapi.yml
   format: yaml
   label: UpTrain Datasets API
   slug: uptrain-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-datasets-api-openapi.yml
 - filename: uptrain-evaluation-api-openapi.yml
   format: yaml
   label: UpTrain Evaluation API
   slug: uptrain-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-evaluation-api-openapi.yml
 - filename: uptrain-root-cause-analysis-api-openapi.yml
   format: yaml
   label: UpTrain Root Cause Analysis API
   slug: uptrain-root-cause-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-root-cause-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-root-cause-analysis-api-openapi.yml
 - filename: uptrain-runs-api-openapi.yml
   format: yaml
   label: UpTrain Runs API
   slug: uptrain-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/openapi/uptrain-runs-api-openapi.yml
+  url: https://artifacts.apis.io/uptrain/openapi/uptrain-runs-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uptrai
   \      - abnormal\n      - high-value\n    audit: required\n- path: /log_and_evaluate\n  method: post\n  operationId: logAndEvaluate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /perform_root_cause_analysis\n  method: post\n  operationId: performRootCauseAnalysis\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /run\n  method: post\n  operationId: addRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /run/{run_id}\n  method: get\n  operationId: getRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /run/{run_id}/results\n  method: get\n  operationId: getRunResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dataset\n  method: post\n  operationId: addDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dataset\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkset\n  method: post\n  operationId: addCheckset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /evaluation_results/{project_name}\n  method: get\n  operationId: downloadProjectEvalResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/agentic-access/uptrain-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uptrain/agentic-access/uptrain-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Artificial Intelligence

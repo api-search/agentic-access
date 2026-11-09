@@ -9,121 +9,121 @@ api_specs:
   label: Basecamp Webhooks
   slug: basecamp-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/asyncapi/basecamp-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/basecamp/asyncapi/basecamp-webhooks-asyncapi.yml
 - filename: basecamp-authorization-api-openapi.yml
   format: yaml
   label: Basecamp Authorization API
   slug: basecamp-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-authorization-api-openapi.yml
 - filename: basecamp-campfires-api-openapi.yml
   format: yaml
   label: Basecamp Campfires API
   slug: basecamp-campfires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-campfires-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-campfires-api-openapi.yml
 - filename: basecamp-card-tables-api-openapi.yml
   format: yaml
   label: Basecamp Card Tables API
   slug: basecamp-card-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-card-tables-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-card-tables-api-openapi.yml
 - filename: basecamp-comments-api-openapi.yml
   format: yaml
   label: Basecamp Comments API
   slug: basecamp-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-comments-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-comments-api-openapi.yml
 - filename: basecamp-documents-api-openapi.yml
   format: yaml
   label: Basecamp Documents API
   slug: basecamp-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-documents-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-documents-api-openapi.yml
 - filename: basecamp-identity-api-openapi.yml
   format: yaml
   label: Basecamp Identity API
   slug: basecamp-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-identity-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-identity-api-openapi.yml
 - filename: basecamp-messages-api-openapi.yml
   format: yaml
   label: Basecamp Messages API
   slug: basecamp-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-messages-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-messages-api-openapi.yml
 - filename: basecamp-people-api-openapi.yml
   format: yaml
   label: Basecamp People API
   slug: basecamp-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-people-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-people-api-openapi.yml
 - filename: basecamp-projects-api-openapi.yml
   format: yaml
   label: Basecamp Projects API
   slug: basecamp-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-projects-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-projects-api-openapi.yml
 - filename: basecamp-recordings-api-openapi.yml
   format: yaml
   label: Basecamp Recordings API
   slug: basecamp-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-recordings-api-openapi.yml
 - filename: basecamp-schedule-entries-api-openapi.yml
   format: yaml
   label: Basecamp Schedule Entries API
   slug: basecamp-schedule-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-schedule-entries-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-schedule-entries-api-openapi.yml
 - filename: basecamp-schedules-api-openapi.yml
   format: yaml
   label: Basecamp Schedules API
   slug: basecamp-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-schedules-api-openapi.yml
 - filename: basecamp-subscriptions-api-openapi.yml
   format: yaml
   label: Basecamp Subscriptions API
   slug: basecamp-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-subscriptions-api-openapi.yml
 - filename: basecamp-templates-api-openapi.yml
   format: yaml
   label: Basecamp Templates API
   slug: basecamp-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-templates-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-templates-api-openapi.yml
 - filename: basecamp-to-do-lists-api-openapi.yml
   format: yaml
   label: Basecamp To-Do Lists API
   slug: basecamp-to-do-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-to-do-lists-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-to-do-lists-api-openapi.yml
 - filename: basecamp-to-dos-api-openapi.yml
   format: yaml
   label: Basecamp To-Dos API
   slug: basecamp-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-to-dos-api-openapi.yml
 - filename: basecamp-token-api-openapi.yml
   format: yaml
   label: Basecamp Token API
   slug: basecamp-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-token-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-token-api-openapi.yml
 - filename: basecamp-uploads-api-openapi.yml
   format: yaml
   label: Basecamp Uploads API
   slug: basecamp-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-uploads-api-openapi.yml
 - filename: basecamp-webhooks-api-openapi.yml
   format: yaml
   label: Basecamp Webhooks API
   slug: basecamp-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/basecamp/openapi/basecamp-webhooks-api-openapi.yml
 consequence_counts:
   read: 36
   write: 41
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/baseca
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recordings/{recordingId}/subscription.json\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings/{recordingId}/subscription.json\n  method: post\n  operationId: subscribeToRecording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recordings/{recordingId}/subscription.json\n  method: delete\n  operationId: unsubscribeFromRecording\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recordings/{recordingId}/subscription.json\n  method: put\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorization\n  method: get\n  operationId: authorizeUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authorization/token\n  method: post\n  operationId: exchangeCodeForToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorization/token/refresh\n  method: post\n  operationId: refreshAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorization.json\n  method: get\n  operationId: getIdentity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/agentic-access/basecamp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/basecamp/agentic-access/basecamp-agentic-access.yml
 summary_line: 77 operations · 41 acting
 tags:
 - Collaboration

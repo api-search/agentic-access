@@ -9,25 +9,25 @@ api_specs:
   label: Enable Banking Accounts data API
   slug: enable-banking-accounts-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-accounts-data-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-accounts-data-api-openapi.yml
 - filename: enable-banking-misc-api-openapi.yml
   format: yaml
   label: Enable Banking Misc API
   slug: enable-banking-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-misc-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-misc-api-openapi.yml
 - filename: enable-banking-payments-api-openapi.yml
   format: yaml
   label: Enable Banking Payments API
   slug: enable-banking-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-payments-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-payments-api-openapi.yml
 - filename: enable-banking-user-sessions-api-openapi.yml
   format: yaml
   label: Enable Banking User sessions API
   slug: enable-banking-user-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/openapi/enable-banking-user-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/enable-banking/openapi/enable-banking-user-sessions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/enable
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/balances\n  method: get\n  operationId: get_account_balances_accounts__account_id__balances_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/transactions\n  method: get\n  operationId: get_account_transactions_accounts__account_id__transactions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/transactions/{transaction_id}\n  method: get\n  operationId: get_transaction_accounts__account_id__transactions__transaction_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /payments\n  method: post\n  operationId: create_payment_payments_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/{payment_id}\n  method: get\n  operationId: get_payment_payments__payment_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{payment_id}\n  method: delete\n  operationId: delete_payment_payments__payment_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/{payment_id}/transactions/{transaction_id}\n  method: get\n  operationId: get_payment_transaction_payments__payment_id__transactions__transaction_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aspsps\n  method: get\n  operationId: get_aspsps_aspsps_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /application\n  method: get\n  operationId: get_application_application_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/agentic-access/enable-banking-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/enable-banking/agentic-access/enable-banking-agentic-access.yml
 summary_line: 14 operations · 5 acting
 tags:
 - Open Banking

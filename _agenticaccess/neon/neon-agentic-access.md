@@ -9,67 +9,67 @@ api_specs:
   label: Neon Auth
   slug: auth
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/asyncapi/neon-auth-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/neon/asyncapi/neon-auth-webhooks-asyncapi.yml
 - filename: neon-api-keys-api-openapi.yml
   format: yaml
   label: Neon API Keys API
   slug: neon-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-api-keys-api-openapi.yml
 - filename: neon-auth-api-openapi.yml
   format: yaml
   label: Neon Auth API
   slug: neon-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-auth-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-auth-api-openapi.yml
 - filename: neon-branches-api-openapi.yml
   format: yaml
   label: Neon Branches API
   slug: neon-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-branches-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-branches-api-openapi.yml
 - filename: neon-consumption-api-openapi.yml
   format: yaml
   label: Neon Consumption API
   slug: neon-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-consumption-api-openapi.yml
 - filename: neon-data-api-api-openapi.yml
   format: yaml
   label: Neon Data API
   slug: neon-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-data-api-api-openapi.yml
 - filename: neon-databases-api-openapi.yml
   format: yaml
   label: Neon Databases API
   slug: neon-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-databases-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-databases-api-openapi.yml
 - filename: neon-endpoints-api-openapi.yml
   format: yaml
   label: Neon Endpoints API
   slug: neon-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-endpoints-api-openapi.yml
 - filename: neon-operations-api-openapi.yml
   format: yaml
   label: Neon Operations API
   slug: neon-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-operations-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-operations-api-openapi.yml
 - filename: neon-projects-api-openapi.yml
   format: yaml
   label: Neon Projects API
   slug: neon-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-projects-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-projects-api-openapi.yml
 - filename: neon-roles-api-openapi.yml
   format: yaml
   label: Neon Roles API
   slug: neon-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/openapi/neon-roles-api-openapi.yml
+  url: https://artifacts.apis.io/neon/openapi/neon-roles-api-openapi.yml
 consequence_counts:
   read: 20
   safety-critical: 2
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/neon-m
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/branches/{branch_id}/auth\n  method: get\n  operationId: getProjectBranchAuth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/branches/{branch_id}/auth\n  method: put\n  operationId: updateProjectBranchAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/branches/{branch_id}/auth/providers\n  method:\
   \ get\n  operationId: listNeonAuthOAuthProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/branches/{branch_id}/auth/providers\n  method: post\n  operationId: createNeonAuthOAuthProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/branches/{branch_id}/auth/providers/{provider_id}\n  method: patch\n  operationId: updateNeonAuthOAuthProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /projects/{project_id}/branches/{branch_id}/auth/providers/{provider_id}\n  method: delete\n  operationId: deleteNeonAuthOAuthProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/connection_uri\n  method: get\n  operationId: getConnectionUri\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/agentic-access/neon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/neon/agentic-access/neon-agentic-access.yml
 summary_line: 46 operations · 26 acting · 2 human-in-the-loop
 tags:
 - Database

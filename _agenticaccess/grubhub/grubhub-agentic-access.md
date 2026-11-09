@@ -9,61 +9,61 @@ api_specs:
   label: Grubhub Delivery Quotes API
   slug: grubhub-delivery-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-quotes-api-openapi.yml
 - filename: grubhub-delivery-refunds-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Refunds API
   slug: grubhub-delivery-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-refunds-api-openapi.yml
 - filename: grubhub-delivery-service-areas-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Service Areas API
   slug: grubhub-delivery-service-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-service-areas-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-service-areas-api-openapi.yml
 - filename: grubhub-delivery-status-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Status API
   slug: grubhub-delivery-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-status-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-status-api-openapi.yml
 - filename: grubhub-delivery-tests-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Tests API
   slug: grubhub-delivery-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-tests-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-tests-api-openapi.yml
 - filename: grubhub-delivery-updates-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Updates API
   slug: grubhub-delivery-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-updates-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-updates-api-openapi.yml
 - filename: grubhub-delivery-webhooks-emulation-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Webhooks Emulation API
   slug: grubhub-delivery-webhooks-emulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-webhooks-emulation-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-webhooks-emulation-api-openapi.yml
 - filename: grubhub-endpoints-api-openapi.yml
   format: yaml
   label: Grubhub Endpoints API
   slug: grubhub-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-endpoints-api-openapi.yml
 - filename: grubhub-requesting-reports-api-openapi.yml
   format: yaml
   label: Grubhub Requesting Reports API
   slug: grubhub-requesting-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-requesting-reports-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-requesting-reports-api-openapi.yml
 - filename: grubhub-webhooks-api-openapi.yml
   format: yaml
   label: Grubhub Webhooks API
   slug: grubhub-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-webhooks-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 35
@@ -232,7 +232,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: generated\nsource: openapi/grubhu
   \  method: get\n  operationId: getPosOrdersByMerchantStatusDateRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pos/v1/group/{group_key}/orders\n  method: get\n  operationId: getPosOrdersByGroupStatusDateRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/reporting/v1/reports\n  method: post\n  operationId: createExportReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchant/reporting/v1/reports/{reportUuid}\n  method: get\n  operationId: getDownloadUrl\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/reporting/v1/merchants\n  method: get\n  operationId: getEnabledMerchants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pos/v1/merchant/{merchant_long_id}/test/transmission\n  method: post\n  operationId: postTestOrderRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pos/v1/merchant/{merchant_long_id}/test/jitevent\n  method: post\n  operationId: simulateJitOrderEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pos/v1/merchant/{merchant_long_id}/test/delivery\n  method: post\n  operationId: postTestDeliveryRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/agentic-access/grubhub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/grubhub/agentic-access/grubhub-agentic-access.yml
 summary_line: 91 operations · 56 acting · 5 human-in-the-loop
 tags:
 - Food Delivery

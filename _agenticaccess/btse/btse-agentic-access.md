@@ -9,49 +9,49 @@ api_specs:
   label: BTSE Account API
   slug: btse-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/openapi/btse-account-api-openapi.yml
+  url: https://artifacts.apis.io/btse/openapi/btse-account-api-openapi.yml
 - filename: btse-earn-api-openapi.yml
   format: yaml
   label: BTSE Earn API
   slug: btse-earn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/openapi/btse-earn-api-openapi.yml
+  url: https://artifacts.apis.io/btse/openapi/btse-earn-api-openapi.yml
 - filename: btse-markets-api-openapi.yml
   format: yaml
   label: BTSE Markets API
   slug: btse-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/openapi/btse-markets-api-openapi.yml
+  url: https://artifacts.apis.io/btse/openapi/btse-markets-api-openapi.yml
 - filename: btse-otc-api-openapi.yml
   format: yaml
   label: BTSE OTC API
   slug: btse-otc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/openapi/btse-otc-api-openapi.yml
+  url: https://artifacts.apis.io/btse/openapi/btse-otc-api-openapi.yml
 - filename: btse-trade-api-openapi.yml
   format: yaml
   label: BTSE Trade API
   slug: btse-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/openapi/btse-trade-api-openapi.yml
+  url: https://artifacts.apis.io/btse/openapi/btse-trade-api-openapi.yml
 - filename: btse-trade-v3-api-openapi.yml
   format: yaml
   label: BTSE Trade V3 API
   slug: btse-trade-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/openapi/btse-trade-v3-api-openapi.yml
+  url: https://artifacts.apis.io/btse/openapi/btse-trade-v3-api-openapi.yml
 - filename: btse-trade-v4-api-openapi.yml
   format: yaml
   label: BTSE Trade V4 API
   slug: btse-trade-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/openapi/btse-trade-v4-api-openapi.yml
+  url: https://artifacts.apis.io/btse/openapi/btse-trade-v4-api-openapi.yml
 - filename: btse-wallet-api-openapi.yml
   format: yaml
   label: BTSE Wallet API
   slug: btse-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/openapi/btse-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/btse/openapi/btse-wallet-api-openapi.yml
 consequence_counts:
   physical: 36
   read: 51
@@ -238,7 +238,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/btse-e
   \ 3600\n    audit: none\n- path: /public-api/wallet/v1/user/crypto/address\n  method: get\n  operationId: getAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-api/wallet/v1/user/crypto/address\n  method: post\n  operationId: createAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public-api/wallet/v1/user/crypto/address\n  method: delete\n  operationId: deleteAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /public-api/wallet/v1/user/crypto/withdraw\n  method: post\n  operationId: withdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public-api/wallet/v1/user/assets/sendTo\n  method: post\n  operationId: sendTo\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public-api/wallet/v1/user/assets/convert\n  method: post\n  operationId: convert\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/agentic-access/btse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/btse/agentic-access/btse-agentic-access.yml
 summary_line: 95 operations · 44 acting · 1 human-in-the-loop
 tags:
 - Company

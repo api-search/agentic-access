@@ -9,25 +9,25 @@ api_specs:
   label: Karma.Domains Domains API
   slug: karma-domains-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/openapi/karma-domains-domains-api-openapi.yml
+  url: https://artifacts.apis.io/karma-domains/openapi/karma-domains-domains-api-openapi.yml
 - filename: karma-domains-reports-api-openapi.yml
   format: yaml
   label: Karma.Domains Reports API
   slug: karma-domains-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/openapi/karma-domains-reports-api-openapi.yml
+  url: https://artifacts.apis.io/karma-domains/openapi/karma-domains-reports-api-openapi.yml
 - filename: karma-domains-user-api-openapi.yml
   format: yaml
   label: Karma.Domains User API
   slug: karma-domains-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/openapi/karma-domains-user-api-openapi.yml
+  url: https://artifacts.apis.io/karma-domains/openapi/karma-domains-user-api-openapi.yml
 - filename: karma-domains-webhooks-api-openapi.yml
   format: yaml
   label: Karma.Domains Webhooks API
   slug: karma-domains-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/openapi/karma-domains-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/karma-domains/openapi/karma-domains-webhooks-api-openapi.yml
 consequence_counts:
   read: 26
   write: 14
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-10-06'\nmethod: generated\nsource: openapi/karma-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/\n  method: get\n  operationId: list_webhooks_v1_webhooks__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/\n  method: post\n  operationId: create_webhook_v1_webhooks__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{subscription_id}\n  method: get\n  operationId: get_webhook_v1_webhooks__subscription_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/webhooks/{subscription_id}\n  method: patch\n  operationId: patch_webhook_v1_webhooks__subscription_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{subscription_id}\n  method: delete\n  operationId: delete_webhook_v1_webhooks__subscription_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{subscription_id}/secret\n  method: post\n  operationId: rotate_webhook_secret_v1_webhooks__subscription_id__secret_post\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{subscription_id}/ping\n  method: post\n  operationId: ping_webhook_v1_webhooks__subscription_id__ping_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{subscription_id}/deliveries\n  method: get\n  operationId: webhook_deliveries_v1_webhooks__subscription_id__deliveries_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karma-domains/refs/heads/main/agentic-access/karma-domains-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/karma-domains/agentic-access/karma-domains-agentic-access.yml
 summary_line: 40 operations · 14 acting
 tags:
 - Company

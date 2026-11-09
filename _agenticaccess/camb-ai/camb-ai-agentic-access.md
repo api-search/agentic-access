@@ -9,37 +9,37 @@ api_specs:
   label: Camb.AI Dubbing API
   slug: camb-ai-dubbing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-dubbing-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-dubbing-api-openapi.yml
 - filename: camb-ai-languages-api-openapi.yml
   format: yaml
   label: Camb.AI Languages API
   slug: camb-ai-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-languages-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-languages-api-openapi.yml
 - filename: camb-ai-text-to-speech-api-openapi.yml
   format: yaml
   label: Camb.AI Text-to-Speech API
   slug: camb-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-text-to-speech-api-openapi.yml
 - filename: camb-ai-transcription-api-openapi.yml
   format: yaml
   label: Camb.AI Transcription API
   slug: camb-ai-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-transcription-api-openapi.yml
 - filename: camb-ai-translation-api-openapi.yml
   format: yaml
   label: Camb.AI Translation API
   slug: camb-ai-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-translation-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-translation-api-openapi.yml
 - filename: camb-ai-voices-api-openapi.yml
   format: yaml
   label: Camb.AI Voices API
   slug: camb-ai-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/openapi/camb-ai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-voices-api-openapi.yml
 consequence_counts:
   read: 9
   write: 8
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/camb-a
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transcribe/{task_id}\n  method: get\n  operationId: getTranscriptionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-voices\n  method: get\n  operationId: listVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /create-custom-voice\n  method: post\n  operationId: createCustomVoice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text-to-voice\n  method: post\n  operationId: createTextToVoice\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text-to-voice/{task_id}\n  method: get\n  operationId: getTextToVoiceStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /delete-voice/{voice_id}\n  method: delete\n  operationId: deleteVoice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /source-languages\n  method: get\n  operationId: getSourceLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /target-languages\n  method: get\n  operationId: getTargetLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/agentic-access/camb-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/camb-ai/agentic-access/camb-ai-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
 - Artificial Intelligence

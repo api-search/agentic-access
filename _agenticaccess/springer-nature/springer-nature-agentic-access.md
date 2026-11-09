@@ -8,13 +8,13 @@ api_specs:
   label: Springer Nature Open Access API
   slug: springer-nature-open-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-open-access-api-openapi.yml
+  url: https://artifacts.apis.io/springer-nature/openapi/springer-nature-open-access-api-openapi.yml
 - filename: springer-nature-search-api-openapi.yml
   format: yaml
   label: Springer Nature Search API
   slug: springer-nature-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-search-api-openapi.yml
+  url: https://artifacts.apis.io/springer-nature/openapi/springer-nature-search-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/springer-nature-meta-openapi.yml, openapi/springer-nature-openaccess-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /json\n  method: get\n  operationId: searchMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pam\n  method: get\n  operationId: searchMetadataPam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json\n  method: get\n\
   \  operationId: searchOpenAccess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jats\n  method: get\n  operationId: searchOpenAccessJats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/agentic-access/springer-nature-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/springer-nature/agentic-access/springer-nature-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Scholarly Publishing

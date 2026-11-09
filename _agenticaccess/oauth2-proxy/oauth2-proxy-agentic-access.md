@@ -8,37 +8,37 @@ api_specs:
   label: Oauth2-Proxy Metrics API
   slug: oauth2-proxy-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/oauth2-proxy/openapi/oauth2-proxy-metrics-api-openapi.yml
 - filename: oauth2-proxy-oauth2-proxy-endpoints-api-openapi.yml
   format: yaml
   label: Oauth2-Proxy OAuth2 Proxy Endpoints API
   slug: oauth2-proxy-oauth2-proxy-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-oauth2-proxy-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/oauth2-proxy/openapi/oauth2-proxy-oauth2-proxy-endpoints-api-openapi.yml
 - filename: oauth2-proxy-ping-api-openapi.yml
   format: yaml
   label: Oauth2-Proxy Ping API
   slug: oauth2-proxy-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-ping-api-openapi.yml
+  url: https://artifacts.apis.io/oauth2-proxy/openapi/oauth2-proxy-ping-api-openapi.yml
 - filename: oauth2-proxy-ready-api-openapi.yml
   format: yaml
   label: Oauth2-Proxy Ready API
   slug: oauth2-proxy-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-ready-api-openapi.yml
+  url: https://artifacts.apis.io/oauth2-proxy/openapi/oauth2-proxy-ready-api-openapi.yml
 - filename: oauth2-proxy-robots-txt-api-openapi.yml
   format: yaml
   label: Oauth2-Proxy Robots.txt API
   slug: oauth2-proxy-robots-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-robots-txt-api-openapi.yml
+  url: https://artifacts.apis.io/oauth2-proxy/openapi/oauth2-proxy-robots-txt-api-openapi.yml
 - filename: oauth2-proxy-oauth2-api-openapi.yml
   format: yaml
   label: Oauth2-Proxy Oauth2 API
   slug: oauth2-proxy-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/openapi/oauth2-proxy-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/oauth2-proxy/openapi/oauth2-proxy-oauth2-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oauth2-proxy-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 12\n  by_action_class:\n    connected: 12\n  by_consequence:\n    read: 12\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /robots.txt\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n- path: /ready\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/sign_in\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/sign_out\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/start\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/callback\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/auth\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/userinfo\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/static/{path}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/agentic-access/oauth2-proxy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oauth2-proxy/agentic-access/oauth2-proxy-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Authentication Proxy

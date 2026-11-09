@@ -8,37 +8,37 @@ api_specs:
   label: CricAPI Fantasy API
   slug: cricapi-fantasy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-fantasy-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-fantasy-api-openapi.yml
 - filename: cricapi-generic-api-openapi.yml
   format: yaml
   label: CricAPI Generic API
   slug: cricapi-generic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-generic-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-generic-api-openapi.yml
 - filename: cricapi-info-api-openapi.yml
   format: yaml
   label: CricAPI Info API
   slug: cricapi-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-info-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-info-api-openapi.yml
 - filename: cricapi-matches-api-openapi.yml
   format: yaml
   label: CricAPI Matches API
   slug: cricapi-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-matches-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-matches-api-openapi.yml
 - filename: cricapi-players-api-openapi.yml
   format: yaml
   label: CricAPI Players API
   slug: cricapi-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-players-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-players-api-openapi.yml
 - filename: cricapi-series-api-openapi.yml
   format: yaml
   label: CricAPI Series API
   slug: cricapi-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/openapi/cricapi-series-api-openapi.yml
+  url: https://artifacts.apis.io/cricapi/openapi/cricapi-series-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cricapi-cricket-data-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series\n  method: get\n  operationId: listSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matches\n  method: get\n  operationId: listMatches\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /currentMatches\n  method: get\n  operationId: listCurrentMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /players\n  method: get\n  operationId: listPlayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series_info\n  method: get\n  operationId: getSeriesInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /match_info\n  method: get\n  operationId: getMatchInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /players_info\n\
   \  method: get\n  operationId: getPlayerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /match_squad\n  method: get\n  operationId: getFantasySquad\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /match_scorecard\n  method: get\n  operationId: getFantasyScorecard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /match_points\n  method: get\n  operationId: getFantasyPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/agentic-access/cricapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cricapi/agentic-access/cricapi-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Cricket

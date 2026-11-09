@@ -8,19 +8,19 @@ api_specs:
   label: Dog API Breeds API
   slug: dog-api-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-breeds-api-openapi.yml
+  url: https://artifacts.apis.io/dog-api/openapi/dog-api-breeds-api-openapi.yml
 - filename: dog-api-images-api-openapi.yml
   format: yaml
   label: Dog API Images API
   slug: dog-api-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-images-api-openapi.yml
+  url: https://artifacts.apis.io/dog-api/openapi/dog-api-images-api-openapi.yml
 - filename: dog-api-info-api-openapi.yml
   format: yaml
   label: Dog API Info API
   slug: dog-api-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-info-api-openapi.yml
+  url: https://artifacts.apis.io/dog-api/openapi/dog-api-info-api-openapi.yml
 consequence_counts:
   read: 24
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dog-ap
   \ randomImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breeds/image/random/{amount}\n  method: get\n  operationId: randomImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breeds/image/random/{amount}/alt\n  method: get\n  operationId: randomImagesWithAlt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breed/{breed}/images/alt\n  method: get\n  operationId: listImagesByBreedWithAlt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breed/{breed}/images/random/{amount}/alt\n  method: get\n  operationId: randomImagesByBreedWithAlt\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breed/{breed}/{subBreed}/images/alt\n  method: get\n  operationId: listImagesBySubBreedWithAlt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breed/{breed}/{subBreed}/images/random/{amount}/alt\n  method: get\n  operationId: randomImagesBySubBreedWithAlt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breed/{breed}\n  method: get\n  operationId: getBreedInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breed/{breed}/{subBreed}\n  method: get\n  operationId: getSubBreedInfo\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/agentic-access/dog-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dog-api/agentic-access/dog-api-agentic-access.yml
 summary_line: 24 operations
 tags:
 - Dogs

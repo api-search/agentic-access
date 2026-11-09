@@ -9,25 +9,25 @@ api_specs:
   label: Eventuate Entities API
   slug: eventuate-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-entities-api-openapi.yml
+  url: https://artifacts.apis.io/eventuate/openapi/eventuate-entities-api-openapi.yml
 - filename: eventuate-events-api-openapi.yml
   format: yaml
   label: Eventuate Events API
   slug: eventuate-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-events-api-openapi.yml
+  url: https://artifacts.apis.io/eventuate/openapi/eventuate-events-api-openapi.yml
 - filename: eventuate-subscriptions-api-openapi.yml
   format: yaml
   label: Eventuate Subscriptions API
   slug: eventuate-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/eventuate/openapi/eventuate-subscriptions-api-openapi.yml
 - filename: eventuate-system-api-openapi.yml
   format: yaml
   label: Eventuate System API
   slug: eventuate-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-system-api-openapi.yml
+  url: https://artifacts.apis.io/eventuate/openapi/eventuate-system-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eventu
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entity/{entityType}/{entityId}\n  method: post\n  operationId: updateEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entity/{entityType}/{entityId}/events\n  method: get\n  operationId: getEntityEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/events\n  method: get\n  operationId: getSubscriptionEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}/acknowledge\n  method: post\n  operationId: acknowledgeEvents\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/agentic-access/eventuate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eventuate/agentic-access/eventuate-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - CQRS

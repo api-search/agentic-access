@@ -9,13 +9,13 @@ api_specs:
   label: Amazon Nova Async API
   slug: amazon-nova-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/openapi/amazon-nova-async-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-nova/openapi/amazon-nova-async-api-openapi.yml
 - filename: amazon-nova-inference-api-openapi.yml
   format: yaml
   label: Amazon Nova Inference API
   slug: amazon-nova-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/openapi/amazon-nova-inference-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-nova/openapi/amazon-nova-inference-api-openapi.yml
 consequence_counts:
   read: 1
   write: 5
@@ -44,9 +44,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-nova-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 5\n    connected: 1\n  by_consequence:\n    write: 5\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /model/{modelId}/invoke\n  method: post\n  operationId: invokeModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/{modelId}/invoke-with-response-stream\n  method: post\n  operationId: invokeModelWithResponseStream\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/{modelId}/converse\n  method: post\n  operationId: converse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/{modelId}/converse-stream\n  method: post\n  operationId: converseStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /async-invoke\n  method: post\n  operationId: startAsyncInvoke\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /async-invoke/{invocationArn}\n  method: get\n  operationId: getAsyncInvoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/agentic-access/amazon-nova-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-nova/agentic-access/amazon-nova-agentic-access.yml
 summary_line: 6 operations · 5 acting
 tags:
+- Amazon Web Services
 - Foundation Models
 - Generative AI
 - Image Generation

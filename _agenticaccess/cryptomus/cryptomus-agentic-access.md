@@ -9,43 +9,43 @@ api_specs:
   label: Cryptomus Recurring Payments API
   slug: cryptomus-recurring-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-recurring-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-recurring-payments-api-openapi.yml
 - filename: cryptomus-exchange-api-openapi.yml
   format: yaml
   label: Cryptomus Exchange API
   slug: cryptomus-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-exchange-api-openapi.yml
 - filename: cryptomus-payments-api-openapi.yml
   format: yaml
   label: Cryptomus Payments API
   slug: cryptomus-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-payments-api-openapi.yml
 - filename: cryptomus-payouts-api-openapi.yml
   format: yaml
   label: Cryptomus Payouts API
   slug: cryptomus-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-payouts-api-openapi.yml
 - filename: cryptomus-recurring-payments-api-openapi.yml
   format: yaml
   label: Cryptomus Recurring Payments API
   slug: cryptomus-recurring-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-recurring-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-recurring-payments-api-openapi.yml
 - filename: cryptomus-wallets-api-openapi.yml
   format: yaml
   label: Cryptomus Wallets API
   slug: cryptomus-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-wallets-api-openapi.yml
 - filename: cryptomus-webhooks-api-openapi.yml
   format: yaml
   label: Cryptomus Webhooks API
   slug: cryptomus-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/openapi/cryptomus-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cryptomus/openapi/cryptomus-webhooks-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 12
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/crypto
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet\n  method: post\n  operationId: createStaticWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/qr\n  method: post\n  operationId: getWalletQrCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/block-address\n  method: post\n  operationId: blockStaticWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /test-webhook/payment\n  method: post\n  operationId: testPaymentWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /test-webhook/payout\n  method: post\n  operationId: testPayoutWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /test-webhook/wallet\n  method: post\n  operationId: testWalletWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/agentic-access/cryptomus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cryptomus/agentic-access/cryptomus-agentic-access.yml
 summary_line: 24 operations · 12 acting
 tags:
 - Cryptocurrency

@@ -8,139 +8,139 @@ api_specs:
   label: OpenAQ Averages API
   slug: openaq-averages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-averages-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-averages-api-openapi.yml
 - filename: openaq-cities-api-openapi.yml
   format: yaml
   label: OpenAQ Cities API
   slug: openaq-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-cities-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-cities-api-openapi.yml
 - filename: openaq-countries-api-openapi.yml
   format: yaml
   label: OpenAQ Countries API
   slug: openaq-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-countries-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-countries-api-openapi.yml
 - filename: openaq-daily-api-openapi.yml
   format: yaml
   label: OpenAQ Daily API
   slug: openaq-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-daily-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-daily-api-openapi.yml
 - filename: openaq-days-api-openapi.yml
   format: yaml
   label: OpenAQ Days API
   slug: openaq-days-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-days-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-days-api-openapi.yml
 - filename: openaq-flags-api-openapi.yml
   format: yaml
   label: OpenAQ Flags API
   slug: openaq-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-flags-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-flags-api-openapi.yml
 - filename: openaq-hourly-api-openapi.yml
   format: yaml
   label: OpenAQ Hourly API
   slug: openaq-hourly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-hourly-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-hourly-api-openapi.yml
 - filename: openaq-hours-api-openapi.yml
   format: yaml
   label: OpenAQ Hours API
   slug: openaq-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-hours-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-hours-api-openapi.yml
 - filename: openaq-instruments-api-openapi.yml
   format: yaml
   label: OpenAQ Instruments API
   slug: openaq-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-instruments-api-openapi.yml
 - filename: openaq-latest-api-openapi.yml
   format: yaml
   label: OpenAQ Latest API
   slug: openaq-latest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-latest-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-latest-api-openapi.yml
 - filename: openaq-licenses-api-openapi.yml
   format: yaml
   label: OpenAQ Licenses API
   slug: openaq-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-licenses-api-openapi.yml
 - filename: openaq-locations-api-openapi.yml
   format: yaml
   label: OpenAQ Locations API
   slug: openaq-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-locations-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-locations-api-openapi.yml
 - filename: openaq-manufacturers-api-openapi.yml
   format: yaml
   label: OpenAQ Manufacturers API
   slug: openaq-manufacturers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-manufacturers-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-manufacturers-api-openapi.yml
 - filename: openaq-measurements-api-openapi.yml
   format: yaml
   label: OpenAQ Measurements API
   slug: openaq-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-measurements-api-openapi.yml
 - filename: openaq-owners-api-openapi.yml
   format: yaml
   label: OpenAQ Owners API
   slug: openaq-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-owners-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-owners-api-openapi.yml
 - filename: openaq-parameters-api-openapi.yml
   format: yaml
   label: OpenAQ Parameters API
   slug: openaq-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-parameters-api-openapi.yml
 - filename: openaq-project-api-openapi.yml
   format: yaml
   label: OpenAQ Project API
   slug: openaq-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-project-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-project-api-openapi.yml
 - filename: openaq-projects-api-openapi.yml
   format: yaml
   label: OpenAQ Projects API
   slug: openaq-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-projects-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-projects-api-openapi.yml
 - filename: openaq-providers-api-openapi.yml
   format: yaml
   label: OpenAQ Providers API
   slug: openaq-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-providers-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-providers-api-openapi.yml
 - filename: openaq-readme-api-openapi.yml
   format: yaml
   label: OpenAQ Readme API
   slug: openaq-readme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-readme-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-readme-api-openapi.yml
 - filename: openaq-sensors-api-openapi.yml
   format: yaml
   label: OpenAQ Sensors API
   slug: openaq-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-sensors-api-openapi.yml
 - filename: openaq-sources-api-openapi.yml
   format: yaml
   label: OpenAQ Sources API
   slug: openaq-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-sources-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-sources-api-openapi.yml
 - filename: openaq-summary-api-openapi.yml
   format: yaml
   label: OpenAQ Summary API
   slug: openaq-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/openapi/openaq-summary-api-openapi.yml
+  url: https://artifacts.apis.io/openaq/openapi/openaq-summary-api-openapi.yml
 consequence_counts:
   read: 64
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -183,7 +183,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openaq
   - path: /v1/measurements\n  method: get\n  operationId: measurements_get_v1_v1_measurements_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/parameters\n  method: get\n  operationId: parameters_get_v2_parameters_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/parameters\n  method: get\n  operationId: parameters_getv1_v1_parameters_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/projects/{project_id}\n  method: get\n  operationId: projects_get_v2_projects__project_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/projects\n  method: get\n\
   \  operationId: projects_get_v2_projects_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sources\n  method: get\n  operationId: sources_get_v2_sources_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sources\n  method: get\n  operationId: sources_v1_get_v1_sources_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sources/readme/{slug}\n  method: get\n  operationId: readme_get_v2_sources_readme__slug__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/summary\n  method: get\n  operationId: summary_get_v2_summary_get\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/agentic-access/openaq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openaq/agentic-access/openaq-agentic-access.yml
 summary_line: 64 operations
 tags:
 - Data

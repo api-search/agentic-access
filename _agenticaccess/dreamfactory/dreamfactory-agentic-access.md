@@ -15,91 +15,91 @@ api_specs:
   label: DreamFactory Admin API
   slug: dreamfactory-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-admin-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-admin-api-openapi.yml
 - filename: dreamfactory-app-api-openapi.yml
   format: yaml
   label: DreamFactory App API
   slug: dreamfactory-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-app-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-app-api-openapi.yml
 - filename: dreamfactory-cors-api-openapi.yml
   format: yaml
   label: DreamFactory CORS API
   slug: dreamfactory-cors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-cors-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-cors-api-openapi.yml
 - filename: dreamfactory-custom-api-openapi.yml
   format: yaml
   label: DreamFactory Custom API
   slug: dreamfactory-custom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-custom-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-custom-api-openapi.yml
 - filename: dreamfactory-environment-api-openapi.yml
   format: yaml
   label: DreamFactory Environment API
   slug: dreamfactory-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-environment-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-environment-api-openapi.yml
 - filename: dreamfactory-event-api-openapi.yml
   format: yaml
   label: DreamFactory Event API
   slug: dreamfactory-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-event-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-event-api-openapi.yml
 - filename: dreamfactory-limit-api-openapi.yml
   format: yaml
   label: DreamFactory Limit API
   slug: dreamfactory-limit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-limit-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-limit-api-openapi.yml
 - filename: dreamfactory-lookup-api-openapi.yml
   format: yaml
   label: DreamFactory Lookup API
   slug: dreamfactory-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-lookup-api-openapi.yml
 - filename: dreamfactory-package-api-openapi.yml
   format: yaml
   label: DreamFactory Package API
   slug: dreamfactory-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-package-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-package-api-openapi.yml
 - filename: dreamfactory-role-api-openapi.yml
   format: yaml
   label: DreamFactory Role API
   slug: dreamfactory-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-role-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-role-api-openapi.yml
 - filename: dreamfactory-scripttype-api-openapi.yml
   format: yaml
   label: DreamFactory ScriptType API
   slug: dreamfactory-scripttype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-scripttype-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-scripttype-api-openapi.yml
 - filename: dreamfactory-servicetype-api-openapi.yml
   format: yaml
   label: DreamFactory ServiceType API
   slug: dreamfactory-servicetype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-servicetype-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-servicetype-api-openapi.yml
 - filename: dreamfactory-user-api-openapi.yml
   format: yaml
   label: DreamFactory User API
   slug: dreamfactory-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-user-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-user-api-openapi.yml
 - filename: dreamfactory-app-group-api-openapi.yml
   format: yaml
   label: DreamFactory App Group API
   slug: dreamfactory-app-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-app-group-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-app-group-api-openapi.yml
 - filename: dreamfactory-email-template-api-openapi.yml
   format: yaml
   label: DreamFactory Email Template API
   slug: dreamfactory-email-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-email-template-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-email-template-api-openapi.yml
 consequence_counts:
   read: 24
   safety-critical: 1
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dreamf
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /system/user/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system/user/{id}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /system/user/{id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /system/custom\n  method: get\n  operationId: listCustomSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system/custom\n  method: post\n  operationId: setCustomSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /system/package\n  method: get\n  operationId: listPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system/package\n  method: post\n  operationId: importPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/agentic-access/dreamfactory-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dreamfactory/agentic-access/dreamfactory-agentic-access.yml
 summary_line: 51 operations · 27 acting · 1 human-in-the-loop
 tags:
 - Automation

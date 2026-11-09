@@ -9,49 +9,49 @@ api_specs:
   label: Redocly Health API
   slug: redocly-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-health-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-health-api-openapi.yml
 - filename: redocly-metadata-api-openapi.yml
   format: yaml
   label: Redocly Metadata API
   slug: redocly-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-metadata-api-openapi.yml
 - filename: redocly-remotes-api-openapi.yml
   format: yaml
   label: Redocly Remotes API
   slug: redocly-remotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-remotes-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-remotes-api-openapi.yml
 - filename: redocly-search-api-openapi.yml
   format: yaml
   label: Redocly Search API
   slug: redocly-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-search-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-search-api-openapi.yml
 - filename: redocly-status-api-openapi.yml
   format: yaml
   label: Redocly Status API
   slug: redocly-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-status-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-status-api-openapi.yml
 - filename: redocly-tasks-api-openapi.yml
   format: yaml
   label: Redocly Tasks API
   slug: redocly-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-tasks-api-openapi.yml
 - filename: redocly-webhooks-api-openapi.yml
   format: yaml
   label: Redocly Webhooks API
   slug: redocly-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-webhooks-api-openapi.yml
 - filename: redocly-to-dos-api-openapi.yml
   format: yaml
   label: Redocly To Dos API
   slug: redocly-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/redocly/openapi/redocly-to-dos-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-10-04'\nmethod: generated\nsource: openapi/redocl
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/projects/{projectId}/scout/tasks\n  method: get\n  operationId: getAllTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/projects/{projectId}/scout/tasks/{jobId}\n  method: get\n  operationId: getJobById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/projects/{projectId}/scout/tasks/{jobId}\n  method: patch\n  operationId: updateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/projects/{projectId}/scout/todos\n  method: post\n  operationId: createTodo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/projects/{projectId}/scout/todos\n  method: get\n  operationId: getAllTodos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/github\n  method: post\n  operationId: processGithubWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/gitlab\n  method: post\n  operationId: processGitlabWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/agentic-access/redocly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/redocly/agentic-access/redocly-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Artificial Intelligence

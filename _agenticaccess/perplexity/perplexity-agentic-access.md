@@ -21,49 +21,73 @@ api_specs:
   label: Perplexity Agent API
   slug: perplexity-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-agent-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-agent-api-openapi.yml
 - filename: perplexity-async-api-openapi.yml
   format: yaml
   label: Perplexity Async API
   slug: perplexity-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-async-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-async-api-openapi.yml
 - filename: perplexity-contextualizedembeddings-api-openapi.yml
   format: yaml
   label: Perplexity Contextualizedembeddings API
   slug: perplexity-contextualizedembeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-contextualizedembeddings-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-contextualizedembeddings-api-openapi.yml
 - filename: perplexity-embeddings-api-openapi.yml
   format: yaml
   label: Perplexity Embeddings API
   slug: perplexity-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-embeddings-api-openapi.yml
 - filename: perplexity-models-api-openapi.yml
   format: yaml
   label: Perplexity Models API
   slug: perplexity-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-models-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-models-api-openapi.yml
 - filename: perplexity-search-api-openapi.yml
   format: yaml
   label: Perplexity Search API
   slug: perplexity-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-search-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-search-api-openapi.yml
 - filename: perplexity-decisions-api-openapi.yml
   format: yaml
   label: Perplexity Decisions API
   slug: perplexity-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-decisions-api-openapi.yml
 - filename: perplexity-sonar-api-openapi.yml
   format: yaml
   label: Perplexity Sonar API
   slug: perplexity-sonar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-sonar-api-openapi.yml
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-sonar-api-openapi.yml
+- filename: perplexity-admin-api-openapi.yml
+  format: yaml
+  label: Perplexity Admin API
+  slug: perplexity-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-admin-api-openapi.yml
+- filename: perplexity-analytics-api-openapi.yml
+  format: yaml
+  label: Perplexity Analytics API
+  slug: perplexity-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-analytics-api-openapi.yml
+- filename: perplexity-batches-api-openapi.yml
+  format: yaml
+  label: Perplexity Batches API
+  slug: perplexity-batches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-batches-api-openapi.yml
+- filename: perplexity-skills-api-openapi.yml
+  format: yaml
+  label: Perplexity Skills API
+  slug: perplexity-skills-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/perplexity/openapi/perplexity-skills-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -93,7 +117,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/perple
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/async/sonar/{api_request}\n  method: get\n  operationId: get_async_chat_completion_response_async_chat_completions__api_request__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/async/sonar\n  method: get\n  operationId: list_async_chat_completions_async_chat_completions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/async/sonar\n  method: post\n  operationId: create_async_chat_completions_async_chat_completions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/contextualizedembeddings\n  method: post\n  operationId: contextualized_embeddings_v1_contextualizedembeddings_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/embeddings\n  method: post\n  operationId: embeddings_v1_embeddings_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: post\n  operationId: search_search_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sonar\n  method: post\n  operationId: chat_completions_chat_completions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/agentic-access/perplexity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/perplexity/agentic-access/perplexity-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Artificial Intelligence

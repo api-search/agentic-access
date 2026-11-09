@@ -8,49 +8,49 @@ api_specs:
   label: SkimBit Commissions API
   slug: skimbit-commissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-commissions-api-openapi.yml
+  url: https://artifacts.apis.io/skimbit/openapi/skimbit-commissions-api-openapi.yml
 - filename: skimbit-domains-api-openapi.yml
   format: yaml
   label: SkimBit Domains API
   slug: skimbit-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-domains-api-openapi.yml
+  url: https://artifacts.apis.io/skimbit/openapi/skimbit-domains-api-openapi.yml
 - filename: skimbit-merchants-api-openapi.yml
   format: yaml
   label: SkimBit Merchants API
   slug: skimbit-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/skimbit/openapi/skimbit-merchants-api-openapi.yml
 - filename: skimbit-offers-api-openapi.yml
   format: yaml
   label: SkimBit Offers API
   slug: skimbit-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-offers-api-openapi.yml
+  url: https://artifacts.apis.io/skimbit/openapi/skimbit-offers-api-openapi.yml
 - filename: skimbit-payments-api-openapi.yml
   format: yaml
   label: SkimBit Payments API
   slug: skimbit-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-payments-api-openapi.yml
+  url: https://artifacts.apis.io/skimbit/openapi/skimbit-payments-api-openapi.yml
 - filename: skimbit-products-api-openapi.yml
   format: yaml
   label: SkimBit Products API
   slug: skimbit-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-products-api-openapi.yml
+  url: https://artifacts.apis.io/skimbit/openapi/skimbit-products-api-openapi.yml
 - filename: skimbit-reports-api-openapi.yml
   format: yaml
   label: SkimBit Reports API
   slug: skimbit-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-reports-api-openapi.yml
+  url: https://artifacts.apis.io/skimbit/openapi/skimbit-reports-api-openapi.yml
 - filename: skimbit-verticals-api-openapi.yml
   format: yaml
   label: SkimBit Verticals API
   slug: skimbit-verticals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/openapi/skimbit-verticals-api-openapi.yml
+  url: https://artifacts.apis.io/skimbit/openapi/skimbit-verticals-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/skimbi
   \  method: get\n  operationId: getAggregatedReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publisher/{publisher_id}/aggregation/v1/link-report\n  method: get\n  operationId: getLinkReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publisher/{publisher_id}/aggregation/v1/link-report/dimensions\n  method: get\n  operationId: getLinkReportDimensions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publisher/{publisher_id}/aggregation/v1/link-report/metrics\n  method: get\n  operationId: getLinkReportMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /publisher/{publisher_id}/aggregation/v1/page-report\n  method: get\n  operationId: getPageReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publisher/{publisher_id}/aggregation/v1/page-report/dimensions\n  method: get\n  operationId: getPageReportDimensions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publisher/{publisher_id}/aggregation/v1/page-report/metrics\n  method: get\n  operationId: getPageReportMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publisher/{publisher_id}/deactivated-merchants\n  method: get\n  operationId: getDeactivatedMerchants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/verticals\n  method: get\n  operationId: listVerticals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/alternative_verticals\n  method: get\n  operationId: listAlternativeVerticals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/agentic-access/skimbit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/skimbit/agentic-access/skimbit-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Company

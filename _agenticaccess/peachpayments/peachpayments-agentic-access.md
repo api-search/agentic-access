@@ -9,37 +9,37 @@ api_specs:
   label: Peach Payments Authentication API
   slug: peachpayments-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/openapi/peachpayments-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/peachpayments/openapi/peachpayments-authentication-api-openapi.yml
 - filename: peachpayments-checkout-api-openapi.yml
   format: yaml
   label: Peach Payments Checkout API
   slug: peachpayments-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/openapi/peachpayments-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/peachpayments/openapi/peachpayments-checkout-api-openapi.yml
 - filename: peachpayments-payment-links-api-openapi.yml
   format: yaml
   label: Peach Payments Payment Links API
   slug: peachpayments-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/openapi/peachpayments-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/peachpayments/openapi/peachpayments-payment-links-api-openapi.yml
 - filename: peachpayments-payments-api-openapi.yml
   format: yaml
   label: Peach Payments API
   slug: peachpayments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/openapi/peachpayments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/peachpayments/openapi/peachpayments-payments-api-openapi.yml
 - filename: peachpayments-payouts-api-openapi.yml
   format: yaml
   label: Peach Payments Payouts API
   slug: peachpayments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/openapi/peachpayments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/peachpayments/openapi/peachpayments-payouts-api-openapi.yml
 - filename: peachpayments-reconciliation-api-openapi.yml
   format: yaml
   label: Peach Payments Reconciliation API
   slug: peachpayments-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/openapi/peachpayments-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/peachpayments/openapi/peachpayments-reconciliation-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 6
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/peachp
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/{uniqueId}\n  method: get\n  operationId: getPaymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payouts\n  method: post\n  operationId: createPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payouts/{payoutId}\n  method: get\n  operationId: getPayout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/verify\n  method: post\n  operationId: verifyBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/merchants/{merchantId}/transactions-recon\n  method: get\n  operationId: getTransactionsReconciliation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/agentic-access/peachpayments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/peachpayments/agentic-access/peachpayments-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Payments

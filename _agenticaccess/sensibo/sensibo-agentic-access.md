@@ -9,49 +9,49 @@ api_specs:
   label: Sensibo AC States API
   slug: sensibo-ac-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-ac-states-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-ac-states-api-openapi.yml
 - filename: sensibo-climate-react-api-openapi.yml
   format: yaml
   label: Sensibo Climate React API
   slug: sensibo-climate-react-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-climate-react-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-climate-react-api-openapi.yml
 - filename: sensibo-devices-api-openapi.yml
   format: yaml
   label: Sensibo Devices API
   slug: sensibo-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-devices-api-openapi.yml
 - filename: sensibo-historical-data-api-openapi.yml
   format: yaml
   label: Sensibo Historical Data API
   slug: sensibo-historical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-historical-data-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-historical-data-api-openapi.yml
 - filename: sensibo-measurements-api-openapi.yml
   format: yaml
   label: Sensibo Measurements API
   slug: sensibo-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-measurements-api-openapi.yml
 - filename: sensibo-schedules-api-openapi.yml
   format: yaml
   label: Sensibo Schedules API
   slug: sensibo-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-schedules-api-openapi.yml
 - filename: sensibo-timers-api-openapi.yml
   format: yaml
   label: Sensibo Timers API
   slug: sensibo-timers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-timers-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-timers-api-openapi.yml
 - filename: sensibo-users-api-openapi.yml
   format: yaml
   label: Sensibo Users API
   slug: sensibo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/openapi/sensibo-users-api-openapi.yml
+  url: https://artifacts.apis.io/sensibo/openapi/sensibo-users-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 2
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sensib
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pods/{device_id}/schedules/{schedule_id}\n  method: get\n  operationId: getSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pods/{device_id}/schedules/{schedule_id}\n  method: put\n  operationId: toggleSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /pods/{device_id}/schedules/{schedule_id}\n  method: delete\n  operationId: deleteSchedule\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pods/{device_id}/timer\n  method: get\n  operationId: getTimer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pods/{device_id}/timer\n  method: put\n  operationId: setTimer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pods/{device_id}/timer\n  method: delete\n  operationId: deleteTimer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/agentic-access/sensibo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sensibo/agentic-access/sensibo-agentic-access.yml
 summary_line: 19 operations · 9 acting · 2 human-in-the-loop
 tags:
 - Smart Home

@@ -9,19 +9,19 @@ api_specs:
   label: Kairos AR Emotion Analysis API
   slug: kairos-ar-emotion-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-emotion-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/kairos-ar/openapi/kairos-ar-emotion-analysis-api-openapi.yml
 - filename: kairos-ar-face-recognition-api-openapi.yml
   format: yaml
   label: Kairos AR Face Recognition API
   slug: kairos-ar-face-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-face-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/kairos-ar/openapi/kairos-ar-face-recognition-api-openapi.yml
 - filename: kairos-ar-galleries-api-openapi.yml
   format: yaml
   label: Kairos AR Galleries API
   slug: kairos-ar-galleries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/openapi/kairos-ar-galleries-api-openapi.yml
+  url: https://artifacts.apis.io/kairos-ar/openapi/kairos-ar-galleries-api-openapi.yml
 consequence_counts:
   read: 3
   write: 10
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kairos
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify\n  method: post\n  operationId: verify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recognize\n  method: post\n  operationId: recognize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /detect\n  method: post\n  operationId: detect\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gallery/list_all\n  method: post\n  operationId: listGalleries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gallery/view\n  method: post\n  operationId: viewGallery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gallery/view_subject\n  method: post\n  operationId: viewSubject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /gallery/remove\n  method: post\n  operationId: removeGallery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gallery/remove_subject\n  method: post\n  operationId: removeSubject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/agentic-access/kairos-ar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kairos-ar/agentic-access/kairos-ar-agentic-access.yml
 summary_line: 13 operations · 10 acting
 tags:
 - Company

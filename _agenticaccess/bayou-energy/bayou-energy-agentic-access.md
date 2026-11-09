@@ -9,25 +9,25 @@ api_specs:
   label: Bayou Energy Bills API
   slug: bayou-energy-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-bills-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-bills-api-openapi.yml
 - filename: bayou-energy-customers-api-openapi.yml
   format: yaml
   label: Bayou Energy Customers API
   slug: bayou-energy-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-customers-api-openapi.yml
 - filename: bayou-energy-intervals-api-openapi.yml
   format: yaml
   label: Bayou Energy Intervals API
   slug: bayou-energy-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-intervals-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-intervals-api-openapi.yml
 - filename: bayou-energy-utilities-api-openapi.yml
   format: yaml
   label: Bayou Energy Utilities API
   slug: bayou-energy-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-utilities-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bayou-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{id}\n  method: patch\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}/bills\n  method: get\n  operationId: getCustomerBills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{id}/intervals\n  method: get\n  operationId: getCustomerIntervals\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bills\n  method: post\n  operationId: createBill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bills/{id}\n  method: get\n  operationId: getBill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bills/{id}\n  method: patch\n  operationId: updateBill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bills/{id}/unlock\n\
   \  method: post\n  operationId: unlockBill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /utilities\n  method: get\n  operationId: listUtilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utilities/{id}\n  method: get\n  operationId: getUtility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/agentic-access/bayou-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bayou-energy/agentic-access/bayou-energy-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Utility Data

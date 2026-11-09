@@ -9,61 +9,61 @@ api_specs:
   label: Herald Applications API
   slug: herald-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-applications-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-applications-api-openapi.yml
 - filename: herald-authentication-api-openapi.yml
   format: yaml
   label: Herald Authentication API
   slug: herald-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-authentication-api-openapi.yml
 - filename: herald-classifications-api-openapi.yml
   format: yaml
   label: Herald Classifications API
   slug: herald-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-classifications-api-openapi.yml
 - filename: herald-distributors-api-openapi.yml
   format: yaml
   label: Herald Distributors API
   slug: herald-distributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-distributors-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-distributors-api-openapi.yml
 - filename: herald-files-api-openapi.yml
   format: yaml
   label: Herald Files API
   slug: herald-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-files-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-files-api-openapi.yml
 - filename: herald-producers-api-openapi.yml
   format: yaml
   label: Herald Producers API
   slug: herald-producers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-producers-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-producers-api-openapi.yml
 - filename: herald-products-api-openapi.yml
   format: yaml
   label: Herald Products API
   slug: herald-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-products-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-products-api-openapi.yml
 - filename: herald-quotes-api-openapi.yml
   format: yaml
   label: Herald Quotes API
   slug: herald-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-quotes-api-openapi.yml
 - filename: herald-submissions-api-openapi.yml
   format: yaml
   label: Herald Submissions API
   slug: herald-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-submissions-api-openapi.yml
 - filename: herald-webhooks-api-openapi.yml
   format: yaml
   label: Herald Webhooks API
   slug: herald-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-webhooks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 8
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/herald
   \    max-ttl: 3600\n    audit: none\n- path: /classifications\n  method: get\n  operationId: listClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /distributors\n  method: post\n  operationId: createDistributor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /distributors\n  method: get\n  operationId: listDistributors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /distributors/{distributor_id}/producers\n  method: post\n  operationId: createProducer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /distributors/{distributor_id}/producers\n  method: get\n  operationId: listProducers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{file_id}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n\
   \  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/agentic-access/herald-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/herald/agentic-access/herald-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - Insurance

@@ -9,25 +9,25 @@ api_specs:
   label: Tabby Checkout API
   slug: tabby-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/tabby/openapi/tabby-checkout-api-openapi.yml
 - filename: tabby-disputes-api-openapi.yml
   format: yaml
   label: Tabby Disputes API
   slug: tabby-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/tabby/openapi/tabby-disputes-api-openapi.yml
 - filename: tabby-payments-api-openapi.yml
   format: yaml
   label: Tabby Payments API
   slug: tabby-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tabby/openapi/tabby-payments-api-openapi.yml
 - filename: tabby-webhooks-api-openapi.yml
   format: yaml
   label: Tabby Webhooks API
   slug: tabby-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/openapi/tabby-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tabby/openapi/tabby-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 7
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tabby-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/disputes\n  method: get\n  operationId: getDisputes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - secret_key\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/disputes/{disputeId}\n  method: get\n  operationId: getDispute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - secret_key\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/disputes/{disputeId}/provide-evidence\n  method: post\n  operationId: postDisputeProvideEvidence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - secret_key\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /api/v1/disputes/approve\n  method: post\n  operationId: postDisputesApprove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - secret_key\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/disputes/challenge\n  method: post\n  operationId: postDisputesChallenge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - secret_key\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/disputes/attachments/upload\n  method: post\n  operationId: postUploadAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n \
   \   subject: required\n    scope:\n    - secret_key\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/agentic-access/tabby-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tabby/agentic-access/tabby-agentic-access.yml
 summary_line: 19 operations · 12 acting
 tags:
 - Buy Now Pay Later

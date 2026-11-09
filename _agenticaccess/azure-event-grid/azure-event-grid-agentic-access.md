@@ -9,25 +9,25 @@ api_specs:
   label: Azure Event Grid Namespace Topics API
   slug: azure-event-grid-namespace-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-namespace-topics-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-namespace-topics-api-openapi.yml
 - filename: azure-event-grid-publish-api-openapi.yml
   format: yaml
   label: Azure Event Grid Publish API
   slug: azure-event-grid-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-publish-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-publish-api-openapi.yml
 - filename: azure-event-grid-operations-api-openapi.yml
   format: yaml
   label: Azure Event Grid Operations API
   slug: microsoft-azure-event-grid-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-operations-api-openapi.yml
 - filename: azure-event-grid-topics-api-openapi.yml
   format: yaml
   label: Azure Event Grid Topics API
   slug: microsoft-azure-event-grid-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-topics-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-topics-api-openapi.yml
 consequence_counts:
   read: 4
   write: 9
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/azure-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.EventGrid/topics\n  method: get\n  operationId: listTopicsBySubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/topics\n  method: get\n  operationId: listTopicsByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/topics/{name}\n\
   \  method: get\n  operationId: getTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/topics/{name}\n  method: put\n  operationId: createOrUpdateTopics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/topics/{name}\n  method: patch\n  operationId: updateTopics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/topics/{name}\n  method: delete\n  operationId: deleteTopics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/agentic-access/azure-event-grid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-event-grid/agentic-access/azure-event-grid-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
 - Eventing

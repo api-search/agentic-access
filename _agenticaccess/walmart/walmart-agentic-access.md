@@ -9,133 +9,133 @@ api_specs:
   label: Walmart Assortment Recommendations API
   slug: walmart-assortment-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-assortment-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-assortment-recommendations-api-openapi.yml
 - filename: walmart-authorization-api-openapi.yml
   format: yaml
   label: Walmart Authorization API
   slug: walmart-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-authorization-api-openapi.yml
 - filename: walmart-feeds-api-openapi.yml
   format: yaml
   label: Walmart Feeds API
   slug: walmart-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-feeds-api-openapi.yml
 - filename: walmart-fulfillment-api-openapi.yml
   format: yaml
   label: Walmart Fulfillment API
   slug: walmart-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-fulfillment-api-openapi.yml
 - filename: walmart-insight-api-openapi.yml
   format: yaml
   label: Walmart Insight API
   slug: walmart-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-insight-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-insight-api-openapi.yml
 - filename: walmart-inventory-api-openapi.yml
   format: yaml
   label: Walmart Inventory API
   slug: walmart-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-inventory-api-openapi.yml
 - filename: walmart-items-api-openapi.yml
   format: yaml
   label: Walmart Items API
   slug: walmart-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-items-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-items-api-openapi.yml
 - filename: walmart-lag-time-api-openapi.yml
   format: yaml
   label: Walmart Lag Time API
   slug: walmart-lag-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-lag-time-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-lag-time-api-openapi.yml
 - filename: walmart-listing-quality-api-openapi.yml
   format: yaml
   label: Walmart Listing Quality API
   slug: walmart-listing-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-listing-quality-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-listing-quality-api-openapi.yml
 - filename: walmart-notifications-api-openapi.yml
   format: yaml
   label: Walmart Notifications API
   slug: walmart-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-notifications-api-openapi.yml
 - filename: walmart-on-request-reports-api-openapi.yml
   format: yaml
   label: Walmart On Request Reports API
   slug: walmart-on-request-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-on-request-reports-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-on-request-reports-api-openapi.yml
 - filename: walmart-orders-api-openapi.yml
   format: yaml
   label: Walmart Orders API
   slug: walmart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-orders-api-openapi.yml
 - filename: walmart-pre-generated-reports-api-openapi.yml
   format: yaml
   label: Walmart Pre-Generated Reports API
   slug: walmart-pre-generated-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-pre-generated-reports-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-pre-generated-reports-api-openapi.yml
 - filename: walmart-prices-api-openapi.yml
   format: yaml
   label: Walmart Prices API
   slug: walmart-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-prices-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-prices-api-openapi.yml
 - filename: walmart-promotions-api-openapi.yml
   format: yaml
   label: Walmart Promotions API
   slug: walmart-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-promotions-api-openapi.yml
 - filename: walmart-reports-api-openapi.yml
   format: yaml
   label: Walmart Reports API
   slug: walmart-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-reports-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-reports-api-openapi.yml
 - filename: walmart-returns-refunds-api-openapi.yml
   format: yaml
   label: Walmart Returns/Refunds API
   slug: walmart-returns-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-returns-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-returns-refunds-api-openapi.yml
 - filename: walmart-reviews-api-openapi.yml
   format: yaml
   label: Walmart Reviews API
   slug: walmart-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-reviews-api-openapi.yml
 - filename: walmart-rules-api-openapi.yml
   format: yaml
   label: Walmart Rules API
   slug: walmart-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-rules-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-rules-api-openapi.yml
 - filename: walmart-settings-api-openapi.yml
   format: yaml
   label: Walmart Settings API
   slug: walmart-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-settings-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-settings-api-openapi.yml
 - filename: walmart-ship-with-walmart-api-openapi.yml
   format: yaml
   label: Walmart Ship with Walmart API
   slug: walmart-ship-with-walmart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-ship-with-walmart-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-ship-with-walmart-api-openapi.yml
 - filename: walmart-utilities-api-openapi.yml
   format: yaml
   label: Walmart Utilities API
   slug: walmart-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/walmart/openapi/walmart-utilities-api-openapi.yml
 consequence_counts:
   physical: 32
   read: 90
@@ -324,8 +324,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/walmar
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/promo/sku/{sku}\n  method: get\n  operationId: getPromotionalPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/report/reconreport/reconFile\n  method: get\n  operationId: getReconReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/report/reconreport/reconFileJson\n  method: get\n  operationId: getAvailableV1ReconReportAsJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/report/reconreport/reconFile?reportVersion=v1\n  method: get\n  operationId:\
   \ getReconReportV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/report/reconreport/availableReconFiles\n  method: get\n  operationId: getAvailableReconReportDates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/report/reconreport/availableReconFiles?reportVersion=v1\n  method: get\n  operationId: getAvailableV1ReconReportDates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/report/payment/statement\n  method: get\n  operationId: getPartnerStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/report/payment/performance\n  method: get\n  operationId:\
   \ getPartnerPerformance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/returns/{returnOrderId}/refund\n  method: post\n  operationId: issueRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/feeds\n  method: post\n  operationId: bulkItemOverrideFeed\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/returns\n \
-  \ method: get\n  operationId: getReturns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/growth/reviews-accelerator/items/status\n  method: put\n  operationId: bulkUpdateItemStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/growth/reviews-accelerator/items\n  method: post\n  operationId: getIrpItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/agentic-access/walmart-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/agentic-access/walmart-agentic-access.yml
+  \ method: get\n  operationId: getReturns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/growth/reviews-accelerator/items/status\n  method: put\n  operationId: bulkUpdateItemStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/growth/reviews-accelerator/items\n  method: post\n  operationId: getIrpItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/walmart/agentic-access/walmart-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/walmart/agentic-access/walmart-agentic-access.yml
 summary_line: 155 operations · 65 acting · 2 human-in-the-loop
 tags:
 - Walmart

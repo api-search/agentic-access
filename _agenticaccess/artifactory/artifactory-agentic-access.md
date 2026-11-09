@@ -9,103 +9,103 @@ api_specs:
   label: JFrog Artifactory AQL Search API
   slug: artifactory-aql-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-aql-search-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-aql-search-api-openapi.yml
 - filename: artifactory-artifactory-extensions-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Extensions API
   slug: artifactory-artifactory-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-artifactory-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-artifactory-extensions-api-openapi.yml
 - filename: artifactory-artifacts-storage-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Artifacts & Storage API
   slug: artifactory-artifacts-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-artifacts-storage-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-artifacts-storage-api-openapi.yml
 - filename: artifactory-base-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Base API
   slug: artifactory-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-base-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-base-api-openapi.yml
 - filename: artifactory-blobs-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Blobs API
   slug: artifactory-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-blobs-api-openapi.yml
 - filename: artifactory-build-diff-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Build Diff API
   slug: artifactory-build-diff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-build-diff-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-build-diff-api-openapi.yml
 - filename: artifactory-build-info-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Build Info API
   slug: artifactory-build-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-build-info-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-build-info-api-openapi.yml
 - filename: artifactory-build-management-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Build Management API
   slug: artifactory-build-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-build-management-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-build-management-api-openapi.yml
 - filename: artifactory-build-promotion-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Build Promotion API
   slug: artifactory-build-promotion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-build-promotion-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-build-promotion-api-openapi.yml
 - filename: artifactory-catalog-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Catalog API
   slug: artifactory-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-catalog-api-openapi.yml
 - filename: artifactory-manifests-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Manifests API
   slug: artifactory-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-manifests-api-openapi.yml
 - filename: artifactory-replication-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Replication API
   slug: artifactory-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-replication-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-replication-api-openapi.yml
 - filename: artifactory-repositories-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Repositories API
   slug: artifactory-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-repositories-api-openapi.yml
 - filename: artifactory-search-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Search API
   slug: artifactory-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-search-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-search-api-openapi.yml
 - filename: artifactory-security-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Security API
   slug: artifactory-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-security-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-security-api-openapi.yml
 - filename: artifactory-system-configuration-api-openapi.yml
   format: yaml
   label: JFrog Artifactory System & Configuration API
   slug: artifactory-system-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-system-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-system-configuration-api-openapi.yml
 - filename: artifactory-tags-api-openapi.yml
   format: yaml
   label: JFrog Artifactory Tags API
   slug: artifactory-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/openapi/artifactory-tags-api-openapi.yml
+  url: https://artifacts.apis.io/artifactory/openapi/artifactory-tags-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 34
@@ -168,7 +168,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/artifa
   \ required\n    audit: required\n- path: /api/storage/{repoKey}/{itemPath}?properties\n  method: get\n  operationId: getItemProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/storage/{repoKey}/{itemPath}?properties\n  method: put\n  operationId: setItemProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/storage/{repoKey}/{itemPath}?properties\n  method: delete\n  operationId: deleteItemProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/replications/{repoKey}\n  method: get\n  operationId: getReplicationConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/replications/{repoKey}\n  method: put\n  operationId: createOrReplaceReplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/replications/{repoKey}\n  method: delete\n  operationId: deleteReplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/system/storage\n  method: get\n  operationId: getStorageSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/agentic-access/artifactory-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/artifactory/agentic-access/artifactory-agentic-access.yml
 summary_line: 69 operations · 35 acting · 1 human-in-the-loop
 tags:
 - Artifacts

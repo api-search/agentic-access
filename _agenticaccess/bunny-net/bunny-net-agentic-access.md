@@ -9,67 +9,109 @@ api_specs:
   label: Bunny.net Stream Webhooks
   slug: stream-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/asyncapi/bunny-net-stream-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/bunny-net/asyncapi/bunny-net-stream-webhooks-asyncapi.yml
 - filename: bunny-net-billing-api-openapi.yml
   format: yaml
   label: Bunny.net Billing API
   slug: bunny-net-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-billing-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-billing-api-openapi.yml
 - filename: bunny-net-countries-api-openapi.yml
   format: yaml
   label: Bunny.net Countries API
   slug: bunny-net-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-countries-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-countries-api-openapi.yml
 - filename: bunny-net-pullzones-api-openapi.yml
   format: yaml
   label: Bunny.net PullZones API
   slug: bunny-net-pullzones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-pullzones-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-pullzones-api-openapi.yml
 - filename: bunny-net-purge-api-openapi.yml
   format: yaml
   label: Bunny.net Purge API
   slug: bunny-net-purge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-purge-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-purge-api-openapi.yml
 - filename: bunny-net-regions-api-openapi.yml
   format: yaml
   label: Bunny.net Regions API
   slug: bunny-net-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-regions-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-regions-api-openapi.yml
 - filename: bunny-net-statistics-api-openapi.yml
   format: yaml
   label: Bunny.net Statistics API
   slug: bunny-net-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-statistics-api-openapi.yml
 - filename: bunny-net-storagezones-api-openapi.yml
   format: yaml
   label: Bunny.net StorageZones API
   slug: bunny-net-storagezones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-storagezones-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-storagezones-api-openapi.yml
 - filename: bunny-net-stream-api-openapi.yml
   format: yaml
   label: Bunny.net Stream API
   slug: bunny-net-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-stream-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-stream-api-openapi.yml
 - filename: bunny-net-api-keys-api-openapi.yml
   format: yaml
   label: Bunny.net API Keys API
   slug: bunny-net-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-api-keys-api-openapi.yml
+- filename: bunny-net-dns-zone-api-openapi.yml
+  format: yaml
+  label: Bunny.net DNS Zone API
+  slug: bunny-net-dns-zone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-dns-zone-api-openapi.yml
+- filename: bunny-net-pull-zone-api-openapi.yml
+  format: yaml
+  label: Bunny.net Pull Zone API
+  slug: bunny-net-pull-zone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-pull-zone-api-openapi.yml
+- filename: bunny-net-region-api-openapi.yml
+  format: yaml
+  label: Bunny.net Region API
+  slug: bunny-net-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-region-api-openapi.yml
+- filename: bunny-net-search-api-openapi.yml
+  format: yaml
+  label: Bunny.net Search API
+  slug: bunny-net-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-search-api-openapi.yml
+- filename: bunny-net-storage-zone-api-openapi.yml
+  format: yaml
+  label: Bunny.net Storage Zone API
+  slug: bunny-net-storage-zone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-storage-zone-api-openapi.yml
+- filename: bunny-net-stream-video-library-api-openapi.yml
+  format: yaml
+  label: Bunny.net Stream Video Library API
+  slug: bunny-net-stream-video-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-stream-video-library-api-openapi.yml
+- filename: bunny-net-user-api-openapi.yml
+  format: yaml
+  label: Bunny.net User API
+  slug: bunny-net-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-user-api-openapi.yml
 - filename: bunny-net-dns-zones-api-openapi.yml
   format: yaml
   label: Bunny.net DNS Zones API
   slug: bunny-net-dns-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/openapi/bunny-net-dns-zones-api-openapi.yml
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-dns-zones-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 4
@@ -135,7 +177,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bunny-
   \  method: get\n  operationId: getOptimizerStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statistics/safehop\n  method: get\n  operationId: getSafehopStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing\n  method: get\n  operationId: getBilling\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/summary\n  method: get\n  operationId: getBillingSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/paymentRequests\n  method: get\n  operationId: getPaymentRequests\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /purge\n  method: post\n  operationId: purgeUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apikey\n  method: get\n  operationId: listApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /region\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/agentic-access/bunny-net-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bunny-net/agentic-access/bunny-net-agentic-access.yml
 summary_line: 47 operations · 30 acting · 4 human-in-the-loop
 tags:
 - CDN

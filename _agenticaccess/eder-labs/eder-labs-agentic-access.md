@@ -9,25 +9,25 @@ api_specs:
   label: Eder Labs Ingestion API
   slug: eder-labs-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/eder-labs/openapi/eder-labs-ingestion-api-openapi.yml
 - filename: eder-labs-meta-api-openapi.yml
   format: yaml
   label: Eder Labs Meta API
   slug: eder-labs-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-meta-api-openapi.yml
+  url: https://artifacts.apis.io/eder-labs/openapi/eder-labs-meta-api-openapi.yml
 - filename: eder-labs-query-api-openapi.yml
   format: yaml
   label: Eder Labs Query API
   slug: eder-labs-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-query-api-openapi.yml
+  url: https://artifacts.apis.io/eder-labs/openapi/eder-labs-query-api-openapi.yml
 - filename: eder-labs-users-api-openapi.yml
   format: yaml
   label: Eder Labs Users API
   slug: eder-labs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/openapi/eder-labs-users-api-openapi.yml
+  url: https://artifacts.apis.io/eder-labs/openapi/eder-labs-users-api-openapi.yml
 consequence_counts:
   read: 1
   write: 6
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/eder-labs-persona-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 1\n    acting: 6\n  by_consequence:\n    read: 1\n    write: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /version\n  method: get\n  operationId: get_version\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: post\n  operationId: create_user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}\n  method: delete\n  operationId: delete_user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/ingest\n  method: post\n  operationId: ingest_data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/ingest/batch\n  method: post\n  operationId: ingest_batch_data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/rag/query\n  method: post\n  operationId: rag_query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/ask\n  method: post\n  operationId: ask_insights\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/agentic-access/eder-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eder-labs/agentic-access/eder-labs-agentic-access.yml
 summary_line: 7 operations · 6 acting
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: SuperViz Channels API
   slug: superviz-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-channels-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-channels-api-openapi.yml
 - filename: superviz-comments-api-openapi.yml
   format: yaml
   label: SuperViz Comments API
   slug: superviz-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-comments-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-comments-api-openapi.yml
 - filename: superviz-meetings-api-openapi.yml
   format: yaml
   label: SuperViz Meetings API
   slug: superviz-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-meetings-api-openapi.yml
 - filename: superviz-presence-api-openapi.yml
   format: yaml
   label: SuperViz Presence API
   slug: superviz-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-presence-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-presence-api-openapi.yml
 - filename: superviz-realtime-api-openapi.yml
   format: yaml
   label: SuperViz Realtime API
   slug: superviz-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-realtime-api-openapi.yml
 - filename: superviz-rooms-api-openapi.yml
   format: yaml
   label: SuperViz Rooms API
   slug: superviz-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/openapi/superviz-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/superviz/openapi/superviz-rooms-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/superviz-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 5\n    acting: 1\n  by_consequence:\n    read: 5\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /realtime/1.0/participants/{channel}\n  method: get\n  operationId: getChannelParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /realtime/1.0/channels\n  method: get\n  operationId: listChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /realtime/1.0/channels/{channel}/events\n  method: post\n  operationId: publishEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{roomId}/participants\n  method: get\n  operationId: getRoomParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rooms/{roomId}/comments\n  method: get\n  operationId: listRoomComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meetings/{meetingId}\n  method: get\n  operationId: getMeetingStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/agentic-access/superviz-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/superviz/agentic-access/superviz-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
 - Real-Time

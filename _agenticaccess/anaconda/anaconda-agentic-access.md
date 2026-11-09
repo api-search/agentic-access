@@ -9,133 +9,133 @@ api_specs:
   label: Anaconda Account API
   slug: anaconda-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-account-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-account-api-openapi.yml
 - filename: anaconda-ai-navigator-api-api-openapi.yml
   format: yaml
   label: Anaconda AI Navigator API
   slug: anaconda-ai-navigator-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-ai-navigator-api-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-ai-navigator-api-api-openapi.yml
 - filename: anaconda-artifacts-api-openapi.yml
   format: yaml
   label: Anaconda Artifacts API
   slug: anaconda-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-artifacts-api-openapi.yml
 - filename: anaconda-audit-logs-api-openapi.yml
   format: yaml
   label: Anaconda Audit Logs API
   slug: anaconda-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-audit-logs-api-openapi.yml
 - filename: anaconda-auth-api-openapi.yml
   format: yaml
   label: Anaconda Auth API
   slug: anaconda-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-auth-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-auth-api-openapi.yml
 - filename: anaconda-channels-api-openapi.yml
   format: yaml
   label: Anaconda Channels API
   slug: anaconda-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-channels-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-channels-api-openapi.yml
 - filename: anaconda-diagnosis-api-openapi.yml
   format: yaml
   label: Anaconda Diagnosis API
   slug: anaconda-diagnosis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-diagnosis-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-diagnosis-api-openapi.yml
 - filename: anaconda-docs-api-openapi.yml
   format: yaml
   label: Anaconda Docs API
   slug: anaconda-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-docs-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-docs-api-openapi.yml
 - filename: anaconda-files-api-openapi.yml
   format: yaml
   label: Anaconda Files API
   slug: anaconda-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-files-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-files-api-openapi.yml
 - filename: anaconda-groups-api-openapi.yml
   format: yaml
   label: Anaconda Groups API
   slug: anaconda-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-groups-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-groups-api-openapi.yml
 - filename: anaconda-installers-api-openapi.yml
   format: yaml
   label: Anaconda Installers API
   slug: anaconda-installers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-installers-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-installers-api-openapi.yml
 - filename: anaconda-mirrors-api-openapi.yml
   format: yaml
   label: Anaconda Mirrors API
   slug: anaconda-mirrors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-mirrors-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-mirrors-api-openapi.yml
 - filename: anaconda-models-api-openapi.yml
   format: yaml
   label: Anaconda Models API
   slug: anaconda-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-models-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-models-api-openapi.yml
 - filename: anaconda-organizations-api-openapi.yml
   format: yaml
   label: Anaconda Organizations API
   slug: anaconda-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-organizations-api-openapi.yml
 - filename: anaconda-repo-api-openapi.yml
   format: yaml
   label: Anaconda Repo API
   slug: anaconda-repo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-repo-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-repo-api-openapi.yml
 - filename: anaconda-reports-api-openapi.yml
   format: yaml
   label: Anaconda Reports API
   slug: anaconda-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-reports-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-reports-api-openapi.yml
 - filename: anaconda-servers-api-openapi.yml
   format: yaml
   label: Anaconda Servers API
   slug: anaconda-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-servers-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-servers-api-openapi.yml
 - filename: anaconda-system-api-openapi.yml
   format: yaml
   label: Anaconda System API
   slug: anaconda-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-system-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-system-api-openapi.yml
 - filename: anaconda-users-api-openapi.yml
   format: yaml
   label: Anaconda Users API
   slug: anaconda-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-users-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-users-api-openapi.yml
 - filename: anaconda-vectordb-api-openapi.yml
   format: yaml
   label: Anaconda Vector DB API
   slug: anaconda-vectordb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-vectordb-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-vectordb-api-openapi.yml
 - filename: anaconda-websocket-api-openapi.yml
   format: yaml
   label: Anaconda Websocket API
   slug: anaconda-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-websocket-api-openapi.yml
 - filename: anaconda-cves-api-openapi.yml
   format: yaml
   label: Anaconda Cves API
   slug: anaconda-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/openapi/anaconda-cves-api-openapi.yml
+  url: https://artifacts.apis.io/anaconda/openapi/anaconda-cves-api-openapi.yml
 consequence_counts:
   read: 140
   safety-critical: 6
@@ -228,8 +228,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/anacon
   \ 3600\n    audit: none\n- path: /channels/{channel_name}/subchannels/{subchannel_name}/artifacts\n  method: post\n  operationId: repo.endpoints.channels.subchannel_artifacts.upload_placeholder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels/{channel_name}/subchannels/{subchannel_name}/stats\n  method: get\n  operationId: repo.endpoints.channels.subchannels.subchannel_stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{channel_name}/subchannels/{subchannel_name}/virtual-channels\n  method: get\n  operationId: repo.endpoints.channels.subchannels.list_virtual_channels\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{channel_name}/subchannels/{subchannel_name}/artifacts/bulk\n  method: put\n  operationId: repo.endpoints.channels.subchannel_artifacts.bulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels/{channel_name}/subchannels/{subchannel_name}/artifacts/{artifact_family}\n  method: put\n  operationId: repo.endpoints.channels.subchannel_artifacts.refresh_artifact_family_index\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /channels/{channel_name}/subchannels/{subchannel_name}/artifacts/{artifact_family}/{artifact_name}\n  method: get\n  operationId: repo.endpoints.channels.subchannel_artifacts.get_artifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{channel_name}/subchannels/{subchannel_name}/artifacts/{artifact_family}/{artifact_name}\n  method: delete\n  operationId: repo.endpoints.channels.subchannel_artifacts.delete_artifact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels/{channel_name}/subchannels/{subchannel_name}/artifacts/{artifact_family}/{artifact_name}/readme\n  method: get\n  operationId: repo.endpoints.channels.subchannel_artifacts.get_artifact_readme\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{channel_name}/subchannels/{subchannel_name}/cves\n  method: get\n  operationId: repo.endpoints.channels.subchannel_artifacts.list_subchannel_cves\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (74 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/agentic-access/anaconda-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/agentic-access/anaconda-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{channel_name}/subchannels/{subchannel_name}/cves\n  method: get\n  operationId: repo.endpoints.channels.subchannel_artifacts.list_subchannel_cves\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (74 KB total) ---\n# Full source: https://artifacts.apis.io/anaconda/agentic-access/anaconda-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/anaconda/agentic-access/anaconda-agentic-access.yml
 summary_line: 235 operations · 95 acting · 6 human-in-the-loop
 tags:
 - Company

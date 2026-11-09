@@ -9,43 +9,43 @@ api_specs:
   label: Apache EventMesh Messaging API
   slug: eventmesh-messaging-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/asyncapi/eventmesh-messaging.yml
+  url: https://artifacts.apis.io/apache-event-mesh/asyncapi/eventmesh-messaging.yml
 - filename: apache-event-mesh-client-api-openapi.yml
   format: yaml
   label: Apache EventMesh Client API
   slug: apache-event-mesh-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/openapi/apache-event-mesh-client-api-openapi.yml
+  url: https://artifacts.apis.io/apache-event-mesh/openapi/apache-event-mesh-client-api-openapi.yml
 - filename: apache-event-mesh-event-api-openapi.yml
   format: yaml
   label: Apache EventMesh Event API
   slug: apache-event-mesh-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/openapi/apache-event-mesh-event-api-openapi.yml
+  url: https://artifacts.apis.io/apache-event-mesh/openapi/apache-event-mesh-event-api-openapi.yml
 - filename: apache-event-mesh-monitoring-api-openapi.yml
   format: yaml
   label: Apache EventMesh Monitoring API
   slug: apache-event-mesh-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/openapi/apache-event-mesh-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/apache-event-mesh/openapi/apache-event-mesh-monitoring-api-openapi.yml
 - filename: apache-event-mesh-registry-api-openapi.yml
   format: yaml
   label: Apache EventMesh Registry API
   slug: apache-event-mesh-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/openapi/apache-event-mesh-registry-api-openapi.yml
+  url: https://artifacts.apis.io/apache-event-mesh/openapi/apache-event-mesh-registry-api-openapi.yml
 - filename: apache-event-mesh-subscription-api-openapi.yml
   format: yaml
   label: Apache EventMesh Subscription API
   slug: apache-event-mesh-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/openapi/apache-event-mesh-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/apache-event-mesh/openapi/apache-event-mesh-subscription-api-openapi.yml
 - filename: apache-event-mesh-topic-api-openapi.yml
   format: yaml
   label: Apache EventMesh Topic API
   slug: apache-event-mesh-topic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/openapi/apache-event-mesh-topic-api-openapi.yml
+  url: https://artifacts.apis.io/apache-event-mesh/openapi/apache-event-mesh-topic-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eventm
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topic/list\n  method: get\n  operationId: listTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscription/query\n  method: get\n  operationId: querySubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/query\n  method: get\n  operationId: queryClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event/publish\n  method: post\n  operationId: publishEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event/request\n  method: post\n  operationId: requestEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /registry/query\n  method: get\n  operationId: queryRegistry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  operationId: getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /configuration\n\
   \  method: get\n  operationId: getConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/agentic-access/apache-event-mesh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-event-mesh/agentic-access/apache-event-mesh-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Apache

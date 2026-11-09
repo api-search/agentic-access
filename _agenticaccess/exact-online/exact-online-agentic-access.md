@@ -9,37 +9,37 @@ api_specs:
   label: Exact Online CRM API
   slug: exact-online-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-crm-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-crm-api-openapi.yml
 - filename: exact-online-financial-api-openapi.yml
   format: yaml
   label: Exact Online Financial API
   slug: exact-online-financial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-financial-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-financial-api-openapi.yml
 - filename: exact-online-logistics-api-openapi.yml
   format: yaml
   label: Exact Online Logistics API
   slug: exact-online-logistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-logistics-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-logistics-api-openapi.yml
 - filename: exact-online-purchase-api-openapi.yml
   format: yaml
   label: Exact Online Purchase API
   slug: exact-online-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-purchase-api-openapi.yml
 - filename: exact-online-sales-api-openapi.yml
   format: yaml
   label: Exact Online Sales API
   slug: exact-online-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-sales-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-sales-api-openapi.yml
 - filename: exact-online-system-api-openapi.yml
   format: yaml
   label: Exact Online System API
   slug: exact-online-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-system-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-system-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 13
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/exact-
   \  - abnormal\n      - high-value\n    audit: required\n- path: /{division}/salesorder/SalesOrders\n  method: get\n  operationId: listSalesOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{division}/salesorder/SalesOrders\n  method: post\n  operationId: createSalesOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{division}/purchaseorder/PurchaseOrders\n  method: get\n  operationId: listPurchaseOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{division}/purchaseorder/PurchaseOrders\n\
   \  method: post\n  operationId: createPurchaseOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{division}/financial/GLAccounts\n  method: get\n  operationId: listGLAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{division}/financial/GLAccounts\n  method: post\n  operationId: createGLAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{division}/logistics/Items\n\
   \  method: get\n  operationId: listItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{division}/logistics/Items\n  method: post\n  operationId: createItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/agentic-access/exact-online-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/exact-online/agentic-access/exact-online-agentic-access.yml
 summary_line: 26 operations · 13 acting
 tags:
 - Accounting

@@ -9,67 +9,67 @@ api_specs:
   label: Spliceforms account data inquiry API
   slug: spliceforms-account-data-inquiry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-account-data-inquiry-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-account-data-inquiry-api-openapi.yml
 - filename: spliceforms-branches-api-openapi.yml
   format: yaml
   label: Spliceforms Branches API
   slug: spliceforms-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-branches-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-branches-api-openapi.yml
 - filename: spliceforms-calculators-api-openapi.yml
   format: yaml
   label: Spliceforms Calculators API
   slug: spliceforms-calculators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-calculators-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-calculators-api-openapi.yml
 - filename: spliceforms-codesets-api-openapi.yml
   format: yaml
   label: Spliceforms Codesets API
   slug: spliceforms-codesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-codesets-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-codesets-api-openapi.yml
 - filename: spliceforms-consents-api-openapi.yml
   format: yaml
   label: Spliceforms Consents API
   slug: spliceforms-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-consents-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-consents-api-openapi.yml
 - filename: spliceforms-data-validations-api-openapi.yml
   format: yaml
   label: Spliceforms data validations API
   slug: spliceforms-data-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-data-validations-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-data-validations-api-openapi.yml
 - filename: spliceforms-form-capture-api-openapi.yml
   format: yaml
   label: Spliceforms Form Capture API
   slug: spliceforms-form-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-form-capture-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-form-capture-api-openapi.yml
 - filename: spliceforms-location-api-openapi.yml
   format: yaml
   label: Spliceforms Location API
   slug: spliceforms-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-location-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-location-api-openapi.yml
 - filename: spliceforms-otp-auth-api-openapi.yml
   format: yaml
   label: Spliceforms OTP Auth API
   slug: spliceforms-otp-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-otp-auth-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-otp-auth-api-openapi.yml
 - filename: spliceforms-status-tracking-api-openapi.yml
   format: yaml
   label: Spliceforms Status Tracking API
   slug: spliceforms-status-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-status-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-status-tracking-api-openapi.yml
 - filename: spliceforms-submission-api-openapi.yml
   format: yaml
   label: Spliceforms Submission API
   slug: spliceforms-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/openapi/spliceforms-submission-api-openapi.yml
+  url: https://artifacts.apis.io/spliceforms/openapi/spliceforms-submission-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/splice
   \ get\n  operationId: get-v1-data-codesets-codes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/banks\n  method: get\n  operationId: get-v1-banks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/banks/branches\n  method: get\n  operationId: get-v1-banks-branches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customer/vpa/verification\n  method: post\n  operationId: verifyCustomerVpa\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /v1/customer/bank-account/verification\n  method: post\n  operationId: verifyCustomerBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customer/accounts/nominees/get\n  method: post\n  operationId: getCustomerAccountNominees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customer/fd-maturity\n  method: post\n  operationId: calculateFDMaturity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v1/applications/submit\n  method: post\n  operationId: submitApplicationForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/status\n  method: post\n  operationId: get-v1-applications-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spliceforms/refs/heads/main/agentic-access/spliceforms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spliceforms/agentic-access/spliceforms-agentic-access.yml
 summary_line: 39 operations · 19 acting
 tags:
 - Company

@@ -9,19 +9,19 @@ api_specs:
   label: OPay Cashier API
   slug: opay-cashier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-cashier-api-openapi.yml
+  url: https://artifacts.apis.io/opay/openapi/opay-cashier-api-openapi.yml
 - filename: opay-payments-api-openapi.yml
   format: yaml
   label: OPay Payments API
   slug: opay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/opay/openapi/opay-payments-api-openapi.yml
 - filename: opay-refunds-api-openapi.yml
   format: yaml
   label: OPay Refunds API
   slug: opay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/opay/openapi/opay-refunds-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 1
@@ -70,7 +70,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/opay-cashier-api-openapi.yml, openapi/opay-payments-api-openapi.yml, openapi/opay-refunds-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 4\n    connected: 1\n  by_consequence:\n    physical: 4\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /cashier/create\n  method: post\n  operationId: createCashierPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /cashier/status\n  method: post\n  operationId: queryPaymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment/create\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment/refund\n  method: post\n  operationId: refundPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /payment/refund/status\n  method: post\n  operationId: queryRefundStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/agentic-access/opay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opay/agentic-access/opay-agentic-access.yml
 summary_line: 5 operations · 4 acting
 tags:
 - Payments

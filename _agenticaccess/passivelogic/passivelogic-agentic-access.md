@@ -9,109 +9,109 @@ api_specs:
   label: PassiveLogic Account API
   slug: passivelogic-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-account-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-account-api-openapi.yml
 - filename: passivelogic-app-api-openapi.yml
   format: yaml
   label: PassiveLogic App API
   slug: passivelogic-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-app-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-app-api-openapi.yml
 - filename: passivelogic-auth-groups-api-openapi.yml
   format: yaml
   label: PassiveLogic Auth Groups API
   slug: passivelogic-auth-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-auth-groups-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-auth-groups-api-openapi.yml
 - filename: passivelogic-authentication-api-openapi.yml
   format: yaml
   label: PassiveLogic Authentication API
   slug: passivelogic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-authentication-api-openapi.yml
 - filename: passivelogic-bindings-api-openapi.yml
   format: yaml
   label: PassiveLogic Bindings API
   slug: passivelogic-bindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-bindings-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-bindings-api-openapi.yml
 - filename: passivelogic-export-api-openapi.yml
   format: yaml
   label: PassiveLogic Export API
   slug: passivelogic-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-export-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-export-api-openapi.yml
 - filename: passivelogic-health-api-openapi.yml
   format: yaml
   label: PassiveLogic Health API
   slug: passivelogic-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-health-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-health-api-openapi.yml
 - filename: passivelogic-images-api-openapi.yml
   format: yaml
   label: PassiveLogic Images API
   slug: passivelogic-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-images-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-images-api-openapi.yml
 - filename: passivelogic-organization-api-openapi.yml
   format: yaml
   label: PassiveLogic Organization API
   slug: passivelogic-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-organization-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-organization-api-openapi.yml
 - filename: passivelogic-passivelogic-device-api-openapi.yml
   format: yaml
   label: PassiveLogic Device API
   slug: passivelogic-passivelogic-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-passivelogic-device-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-passivelogic-device-api-openapi.yml
 - filename: passivelogic-quantum-sync-api-openapi.yml
   format: yaml
   label: PassiveLogic Quantum Sync API
   slug: passivelogic-quantum-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-quantum-sync-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-quantum-sync-api-openapi.yml
 - filename: passivelogic-site-api-openapi.yml
   format: yaml
   label: PassiveLogic Site API
   slug: passivelogic-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-site-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-site-api-openapi.yml
 - filename: passivelogic-tunnel-api-openapi.yml
   format: yaml
   label: PassiveLogic Tunnel API
   slug: passivelogic-tunnel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-tunnel-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-tunnel-api-openapi.yml
 - filename: passivelogic-utility-api-openapi.yml
   format: yaml
   label: PassiveLogic Utility API
   slug: passivelogic-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-utility-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-utility-api-openapi.yml
 - filename: passivelogic-meta-json-api-openapi.yml
   format: yaml
   label: PassiveLogic Meta.json API
   slug: passivelogic-meta-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-meta-json-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-meta-json-api-openapi.yml
 - filename: passivelogic-metrics-api-openapi.yml
   format: yaml
   label: PassiveLogic Metrics API
   slug: passivelogic-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-metrics-api-openapi.yml
 - filename: passivelogic-passivelogic-rest-api-api-openapi.yml
   format: yaml
   label: PassiveLogic PassiveLogic REST API
   slug: passivelogic-passivelogic-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-passivelogic-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-passivelogic-rest-api-api-openapi.yml
 - filename: passivelogic-graph-ql-api-openapi.yml
   format: yaml
   label: PassiveLogic Graph QL API
   slug: passivelogic-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/openapi/passivelogic-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/passivelogic/openapi/passivelogic-graph-ql-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 105
@@ -245,8 +245,8 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/passiv
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.20/tunnel/{serialNumber}/**\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.20/tunnel/{serialNumber}/**\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.20/tunnel/{serialNumber}/**\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0.20/util/quantumlens\n  method: post\n  operationId: postApiV0.20UtilQuantumlens\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.20/image/{imageID}\n  method: delete\n  operationId: deleteApiV0.20ImageByImageID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.19/organization/decline\n  method: post\n  operationId: postApiV0.19OrganizationDecline\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.20/graphqlSubscribe\n  method: get\n  operationId: getApiV0.20GraphqlSubscribe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/login/finish\n  method: get\n  operationId: getAppLoginFinish\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/health/readiness\n  method: get\n  operationId: getApiHealthReadiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/auth/api-key\n\
-  \  method: delete\n  operationId: deleteApiAuthApi-key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.20/graphql\n  method: post\n  operationId: postApiV0.20Graphql\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.20/graphql\n  method: get\n  operationId: getApiV0.20Graphql\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/agentic-access/passivelogic-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/agentic-access/passivelogic-agentic-access.yml
+  \  method: delete\n  operationId: deleteApiAuthApi-key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.20/graphql\n  method: post\n  operationId: postApiV0.20Graphql\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0.20/graphql\n  method: get\n  operationId: getApiV0.20Graphql\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://artifacts.apis.io/passivelogic/agentic-access/passivelogic-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/passivelogic/agentic-access/passivelogic-agentic-access.yml
 summary_line: 197 operations · 92 acting · 6 human-in-the-loop
 tags:
 - Company

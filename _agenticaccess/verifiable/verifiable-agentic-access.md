@@ -9,199 +9,199 @@ api_specs:
   label: Verifiable Alerts API
   slug: verifiable-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-alerts-api-openapi.yml
 - filename: verifiable-audit-api-openapi.yml
   format: yaml
   label: Verifiable Audit API
   slug: verifiable-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-audit-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-audit-api-openapi.yml
 - filename: verifiable-authentication-api-openapi.yml
   format: yaml
   label: Verifiable Authentication API
   slug: verifiable-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-authentication-api-openapi.yml
 - filename: verifiable-boardcertifications-api-openapi.yml
   format: yaml
   label: Verifiable BoardCertifications API
   slug: verifiable-boardcertifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-boardcertifications-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-boardcertifications-api-openapi.yml
 - filename: verifiable-cognitoformswebhook-api-openapi.yml
   format: yaml
   label: Verifiable CognitoFormsWebhook API
   slug: verifiable-cognitoformswebhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-cognitoformswebhook-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-cognitoformswebhook-api-openapi.yml
 - filename: verifiable-createoauthcredentialsclientsecret-api-openapi.yml
   format: yaml
   label: Verifiable CreateOAuthCredentialsClientSecret API
   slug: verifiable-createoauthcredentialsclientsecret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-createoauthcredentialsclientsecret-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-createoauthcredentialsclientsecret-api-openapi.yml
 - filename: verifiable-credentialingrequests-api-openapi.yml
   format: yaml
   label: Verifiable CredentialingRequests API
   slug: verifiable-credentialingrequests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-credentialingrequests-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-credentialingrequests-api-openapi.yml
 - filename: verifiable-datasets-api-openapi.yml
   format: yaml
   label: Verifiable Datasets API
   slug: verifiable-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-datasets-api-openapi.yml
 - filename: verifiable-dea-api-openapi.yml
   format: yaml
   label: Verifiable DEA API
   slug: verifiable-dea-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-dea-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-dea-api-openapi.yml
 - filename: verifiable-definitions-api-openapi.yml
   format: yaml
   label: Verifiable Definitions API
   slug: verifiable-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-definitions-api-openapi.yml
 - filename: verifiable-deleteoauthcredentialsclientsecret-api-openapi.yml
   format: yaml
   label: Verifiable DeleteOAuthCredentialsClientSecret API
   slug: verifiable-deleteoauthcredentialsclientsecret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-deleteoauthcredentialsclientsecret-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-deleteoauthcredentialsclientsecret-api-openapi.yml
 - filename: verifiable-facilities-api-openapi.yml
   format: yaml
   label: Verifiable Facilities API
   slug: verifiable-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-facilities-api-openapi.yml
 - filename: verifiable-facilitiesinfo-api-openapi.yml
   format: yaml
   label: Verifiable FacilitiesInfo API
   slug: verifiable-facilitiesinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-facilitiesinfo-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-facilitiesinfo-api-openapi.yml
 - filename: verifiable-facilitiesspecialties-api-openapi.yml
   format: yaml
   label: Verifiable FacilitiesSpecialties API
   slug: verifiable-facilitiesspecialties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-facilitiesspecialties-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-facilitiesspecialties-api-openapi.yml
 - filename: verifiable-files-api-openapi.yml
   format: yaml
   label: Verifiable Files API
   slug: verifiable-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-files-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-files-api-openapi.yml
 - filename: verifiable-groups-api-openapi.yml
   format: yaml
   label: Verifiable Groups API
   slug: verifiable-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-groups-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-groups-api-openapi.yml
 - filename: verifiable-integrations-api-openapi.yml
   format: yaml
   label: Verifiable Integrations API
   slug: verifiable-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-integrations-api-openapi.yml
 - filename: verifiable-licenses-api-openapi.yml
   format: yaml
   label: Verifiable Licenses API
   slug: verifiable-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-licenses-api-openapi.yml
 - filename: verifiable-listoauthcredentials-api-openapi.yml
   format: yaml
   label: Verifiable ListOAuthCredentials API
   slug: verifiable-listoauthcredentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-listoauthcredentials-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-listoauthcredentials-api-openapi.yml
 - filename: verifiable-monitoring-api-openapi.yml
   format: yaml
   label: Verifiable Monitoring API
   slug: verifiable-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-monitoring-api-openapi.yml
 - filename: verifiable-notes-api-openapi.yml
   format: yaml
   label: Verifiable Notes API
   slug: verifiable-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-notes-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-notes-api-openapi.yml
 - filename: verifiable-payerplans-api-openapi.yml
   format: yaml
   label: Verifiable PayerPlans API
   slug: verifiable-payerplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-payerplans-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-payerplans-api-openapi.yml
 - filename: verifiable-payers-api-openapi.yml
   format: yaml
   label: Verifiable Payers API
   slug: verifiable-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-payers-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-payers-api-openapi.yml
 - filename: verifiable-providerenrollments-api-openapi.yml
   format: yaml
   label: Verifiable ProviderEnrollments API
   slug: verifiable-providerenrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-providerenrollments-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-providerenrollments-api-openapi.yml
 - filename: verifiable-providerprofiles-api-openapi.yml
   format: yaml
   label: Verifiable ProviderProfiles API
   slug: verifiable-providerprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-providerprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-providerprofiles-api-openapi.yml
 - filename: verifiable-providers-api-openapi.yml
   format: yaml
   label: Verifiable Providers API
   slug: verifiable-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-providers-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-providers-api-openapi.yml
 - filename: verifiable-providersinfo-api-openapi.yml
   format: yaml
   label: Verifiable ProvidersInfo API
   slug: verifiable-providersinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-providersinfo-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-providersinfo-api-openapi.yml
 - filename: verifiable-reports-api-openapi.yml
   format: yaml
   label: Verifiable Reports API
   slug: verifiable-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-reports-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-reports-api-openapi.yml
 - filename: verifiable-ssoadminportal-api-openapi.yml
   format: yaml
   label: Verifiable SsoAdminPortal API
   slug: verifiable-ssoadminportal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-ssoadminportal-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-ssoadminportal-api-openapi.yml
 - filename: verifiable-ssoauth-api-openapi.yml
   format: yaml
   label: Verifiable SsoAuth API
   slug: verifiable-ssoauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-ssoauth-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-ssoauth-api-openapi.yml
 - filename: verifiable-users-api-openapi.yml
   format: yaml
   label: Verifiable Users API
   slug: verifiable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-users-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-users-api-openapi.yml
 - filename: verifiable-webhooks-api-openapi.yml
   format: yaml
   label: Verifiable Webhooks API
   slug: verifiable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-webhooks-api-openapi.yml
 - filename: verifiable-workoswebhook-api-openapi.yml
   format: yaml
   label: Verifiable WorkOsWebhook API
   slug: verifiable-workoswebhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/openapi/verifiable-workoswebhook-api-openapi.yml
+  url: https://artifacts.apis.io/verifiable/openapi/verifiable-workoswebhook-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 255
@@ -305,8 +305,8 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/verifi
   \    audit: required\n- path: /facilities/{facilityId}/info/licenses\n  method: post\n  operationId: CreateFacilityLicenseInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /facilities/{facilityId}/info/licenses\n  method: get\n  operationId: ListFacilityLicenseInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities/{facilityId}/info/licenses/{id}\n  method: get\n  operationId: GetFacilityLicenseInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities/{facilityId}/info/licenses/{id}\n  method: patch\n  operationId: PatchFacilityLicenseInfo\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /facilities/{facilityId}/info/licenses/{id}\n  method: delete\n  operationId: DeleteFacilityLicenseInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /facilities/{facilityId}/info/accreditations\n  method: post\n  operationId: CreateFacilityAccreditationInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /facilities/{facilityId}/info/accreditations\n  method: get\n  operationId: ListFacilityAccreditationInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities/{facilityId}/info/accreditations/{id}\n  method: get\n  operationId: GetFacilityAccreditationInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities/{facilityId}/info/accreditations/{id}\n  method: patch\n  operationId: PatchFacilityAccreditationInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /facilities/{facilityId}/info/accreditations/{id}\n\
-  \  method: delete\n  operationId: DeleteFacilityAccreditationInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /facilities/{facilityId}/info/cmsCertifications\n  method: post\n  operationId: CreateFacilityCmsCertificationInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (153 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/agentic-access/verifiable-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/agentic-access/verifiable-agentic-access.yml
+  \  method: delete\n  operationId: DeleteFacilityAccreditationInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /facilities/{facilityId}/info/cmsCertifications\n  method: post\n  operationId: CreateFacilityCmsCertificationInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (153 KB total) ---\n# Full source: https://artifacts.apis.io/verifiable/agentic-access/verifiable-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/verifiable/agentic-access/verifiable-agentic-access.yml
 summary_line: 519 operations · 264 acting · 6 human-in-the-loop
 tags:
 - Company

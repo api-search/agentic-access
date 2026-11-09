@@ -9,283 +9,283 @@ api_specs:
   label: Veeam Agents API
   slug: veeam-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-agents-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-agents-api-openapi.yml
 - filename: veeam-amazonconnections-api-openapi.yml
   format: yaml
   label: Veeam AmazonConnections API
   slug: veeam-amazonconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-amazonconnections-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-amazonconnections-api-openapi.yml
 - filename: veeam-automation-api-openapi.yml
   format: yaml
   label: Veeam Automation API
   slug: veeam-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-automation-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-automation-api-openapi.yml
 - filename: veeam-backup-objects-api-openapi.yml
   format: yaml
   label: Veeam Backup Objects API
   slug: veeam-backup-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-backup-objects-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-backup-objects-api-openapi.yml
 - filename: veeam-backups-api-openapi.yml
   format: yaml
   label: Veeam Backups API
   slug: veeam-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-backups-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-backups-api-openapi.yml
 - filename: veeam-buckets-api-openapi.yml
   format: yaml
   label: Veeam Buckets API
   slug: veeam-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-buckets-api-openapi.yml
 - filename: veeam-certificates-api-openapi.yml
   format: yaml
   label: Veeam Certificates API
   slug: veeam-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-certificates-api-openapi.yml
 - filename: veeam-cloud-browser-api-openapi.yml
   format: yaml
   label: Veeam Cloud Browser API
   slug: veeam-cloud-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-cloud-browser-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-cloud-browser-api-openapi.yml
 - filename: veeam-configuration-backup-api-openapi.yml
   format: yaml
   label: Veeam Configuration Backup API
   slug: veeam-configuration-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-configuration-backup-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-configuration-backup-api-openapi.yml
 - filename: veeam-connection-api-openapi.yml
   format: yaml
   label: Veeam Connection API
   slug: veeam-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-connection-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-connection-api-openapi.yml
 - filename: veeam-credentials-api-openapi.yml
   format: yaml
   label: Veeam Credentials API
   slug: veeam-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-credentials-api-openapi.yml
 - filename: veeam-encryption-api-openapi.yml
   format: yaml
   label: Veeam Encryption API
   slug: veeam-encryption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-encryption-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-encryption-api-openapi.yml
 - filename: veeam-general-options-api-openapi.yml
   format: yaml
   label: Veeam General Options API
   slug: veeam-general-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-general-options-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-general-options-api-openapi.yml
 - filename: veeam-instances-api-openapi.yml
   format: yaml
   label: Veeam Instances API
   slug: veeam-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-instances-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-instances-api-openapi.yml
 - filename: veeam-inventory-browser-api-openapi.yml
   format: yaml
   label: Veeam Inventory Browser API
   slug: veeam-inventory-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-inventory-browser-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-inventory-browser-api-openapi.yml
 - filename: veeam-jobs-api-openapi.yml
   format: yaml
   label: Veeam Jobs API
   slug: veeam-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-jobs-api-openapi.yml
 - filename: veeam-licenseagreement-api-openapi.yml
   format: yaml
   label: Veeam LicenseAgreement API
   slug: veeam-licenseagreement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-licenseagreement-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-licenseagreement-api-openapi.yml
 - filename: veeam-licensing-api-openapi.yml
   format: yaml
   label: Veeam Licensing API
   slug: veeam-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-licensing-api-openapi.yml
 - filename: veeam-login-api-openapi.yml
   format: yaml
   label: Veeam Login API
   slug: veeam-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-login-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-login-api-openapi.yml
 - filename: veeam-managed-servers-api-openapi.yml
   format: yaml
   label: Veeam Managed Servers API
   slug: veeam-managed-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-managed-servers-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-managed-servers-api-openapi.yml
 - filename: veeam-object-restore-points-api-openapi.yml
   format: yaml
   label: Veeam Object Restore Points API
   slug: veeam-object-restore-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-object-restore-points-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-object-restore-points-api-openapi.yml
 - filename: veeam-overview-api-openapi.yml
   format: yaml
   label: Veeam Overview API
   slug: veeam-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-overview-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-overview-api-openapi.yml
 - filename: veeam-policies-api-openapi.yml
   format: yaml
   label: Veeam Policies API
   slug: veeam-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-policies-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-policies-api-openapi.yml
 - filename: veeam-problems-api-openapi.yml
   format: yaml
   label: Veeam Problems API
   slug: veeam-problems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-problems-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-problems-api-openapi.yml
 - filename: veeam-proxies-api-openapi.yml
   format: yaml
   label: Veeam Proxies API
   slug: veeam-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-proxies-api-openapi.yml
 - filename: veeam-regions-api-openapi.yml
   format: yaml
   label: Veeam Regions API
   slug: veeam-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-regions-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-regions-api-openapi.yml
 - filename: veeam-repositories-api-openapi.yml
   format: yaml
   label: Veeam Repositories API
   slug: veeam-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-repositories-api-openapi.yml
 - filename: veeam-restore-api-openapi.yml
   format: yaml
   label: Veeam Restore API
   slug: veeam-restore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-restore-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-restore-api-openapi.yml
 - filename: veeam-retentionsettings-api-openapi.yml
   format: yaml
   label: Veeam RetentionSettings API
   slug: veeam-retentionsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-retentionsettings-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-retentionsettings-api-openapi.yml
 - filename: veeam-service-api-openapi.yml
   format: yaml
   label: Veeam Service API
   slug: veeam-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-service-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-service-api-openapi.yml
 - filename: veeam-services-api-openapi.yml
   format: yaml
   label: Veeam Services API
   slug: veeam-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-services-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-services-api-openapi.yml
 - filename: veeam-sessions-api-openapi.yml
   format: yaml
   label: Veeam Sessions API
   slug: veeam-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-sessions-api-openapi.yml
 - filename: veeam-smtpservercredentialsrecords-api-openapi.yml
   format: yaml
   label: Veeam SMTPServerCredentialsRecords API
   slug: veeam-smtpservercredentialsrecords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-smtpservercredentialsrecords-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-smtpservercredentialsrecords-api-openapi.yml
 - filename: veeam-statistics-api-openapi.yml
   format: yaml
   label: Veeam Statistics API
   slug: veeam-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-statistics-api-openapi.yml
 - filename: veeam-system-api-openapi.yml
   format: yaml
   label: Veeam System API
   slug: veeam-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-system-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-system-api-openapi.yml
 - filename: veeam-tags-api-openapi.yml
   format: yaml
   label: Veeam Tags API
   slug: veeam-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-tags-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-tags-api-openapi.yml
 - filename: veeam-test-api-openapi.yml
   format: yaml
   label: Veeam Test API
   slug: veeam-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-test-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-test-api-openapi.yml
 - filename: veeam-timezone-api-openapi.yml
   format: yaml
   label: Veeam Timezone API
   slug: veeam-timezone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-timezone-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-timezone-api-openapi.yml
 - filename: veeam-token-api-openapi.yml
   format: yaml
   label: Veeam Token API
   slug: veeam-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-token-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-token-api-openapi.yml
 - filename: veeam-traffic-rules-api-openapi.yml
   format: yaml
   label: Veeam Traffic Rules API
   slug: veeam-traffic-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-traffic-rules-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-traffic-rules-api-openapi.yml
 - filename: veeam-users-api-openapi.yml
   format: yaml
   label: Veeam Users API
   slug: veeam-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-users-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-users-api-openapi.yml
 - filename: veeam-version-api-openapi.yml
   format: yaml
   label: Veeam Version API
   slug: veeam-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-version-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-version-api-openapi.yml
 - filename: veeam-vmrestorepoints-api-openapi.yml
   format: yaml
   label: Veeam VmRestorePoints API
   slug: veeam-vmrestorepoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-vmrestorepoints-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-vmrestorepoints-api-openapi.yml
 - filename: veeam-workers-api-openapi.yml
   format: yaml
   label: Veeam Workers API
   slug: veeam-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-workers-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-workers-api-openapi.yml
 - filename: veeam-cost-estimation-api-openapi.yml
   format: yaml
   label: Veeam Cost Estimation API
   slug: veeam-cost-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-cost-estimation-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-cost-estimation-api-openapi.yml
 - filename: veeam-email-notifications-api-openapi.yml
   format: yaml
   label: Veeam Email Notifications API
   slug: veeam-email-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-email-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-email-notifications-api-openapi.yml
 - filename: veeam-iam-roles-api-openapi.yml
   format: yaml
   label: Veeam IAM Roles API
   slug: veeam-iam-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/openapi/veeam-iam-roles-api-openapi.yml
+  url: https://artifacts.apis.io/veeam/openapi/veeam-iam-roles-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 140
@@ -424,8 +424,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/veeam-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/amazon\n  method: get\n  operationId: AmazonAccountsGetAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts/amazon\n  method: post\n  operationId: AddAmazonAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/amazon/validateName\n  method: post\n  operationId: ValidateAmazonAccountName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v1/accounts/amazon/{amazonAccountId}/validateDelete\n  method: post\n  operationId: ValidateDeleteAmazonAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/amazon/{amazonAccountId}\n  method: get\n  operationId: AmazonAccountsGetOneById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts/amazon/{amazonAccountId}\n  method: put\n  operationId: UpdateAmazonAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/amazon/{amazonAccountId}\n  method: delete\n  operationId: DeleteAmazonAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/amazon/{amazonAccountId}/rescan\n  method: post\n  operationId: RescanAmazonAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/amazon/export\n  method: post\n  operationId: ExportAmazonAccounts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/virtualMachines\n  method: get\n  operationId: VirtualMachines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/virtualMachines/{virtualMachineId}\n  method: get\n  operationId: VirtualMachineById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (89 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/agentic-access/veeam-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/agentic-access/veeam-agentic-access.yml
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/virtualMachines\n  method: get\n  operationId: VirtualMachines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/virtualMachines/{virtualMachineId}\n  method: get\n  operationId: VirtualMachineById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (89 KB total) ---\n# Full source: https://artifacts.apis.io/veeam/agentic-access/veeam-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/veeam/agentic-access/veeam-agentic-access.yml
 summary_line: 295 operations · 155 acting · 13 human-in-the-loop
 tags:
 - Backup
@@ -436,6 +436,7 @@ tags:
 - Replication
 - Data Protection
 - Microsoft 365
+- Amazon Web Services
 - Microsoft Azure
 - Google Cloud
 - Ransomware Recovery

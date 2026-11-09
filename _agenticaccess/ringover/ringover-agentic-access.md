@@ -9,169 +9,169 @@ api_specs:
   label: Ringover Blacklist API
   slug: ringover-blacklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-blacklist-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-blacklist-api-openapi.yml
 - filename: ringover-callbacks-api-openapi.yml
   format: yaml
   label: Ringover Callbacks API
   slug: ringover-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-callbacks-api-openapi.yml
 - filename: ringover-calls-api-openapi.yml
   format: yaml
   label: Ringover Calls API
   slug: ringover-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-calls-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-calls-api-openapi.yml
 - filename: ringover-campaigns-api-openapi.yml
   format: yaml
   label: Ringover Campaigns API
   slug: ringover-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-campaigns-api-openapi.yml
 - filename: ringover-cdn-api-openapi.yml
   format: yaml
   label: Ringover Cdn API
   slug: ringover-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-cdn-api-openapi.yml
 - filename: ringover-channels-api-openapi.yml
   format: yaml
   label: Ringover Channels API
   slug: ringover-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-channels-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-channels-api-openapi.yml
 - filename: ringover-conferences-api-openapi.yml
   format: yaml
   label: Ringover Conferences API
   slug: ringover-conferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-conferences-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-conferences-api-openapi.yml
 - filename: ringover-contacts-api-openapi.yml
   format: yaml
   label: Ringover Contacts API
   slug: ringover-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-contacts-api-openapi.yml
 - filename: ringover-conversations-api-openapi.yml
   format: yaml
   label: Ringover Conversations API
   slug: ringover-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-conversations-api-openapi.yml
 - filename: ringover-empower-api-openapi.yml
   format: yaml
   label: Ringover Empower API
   slug: ringover-empower-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-empower-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-empower-api-openapi.yml
 - filename: ringover-groups-api-openapi.yml
   format: yaml
   label: Ringover Groups API
   slug: ringover-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-groups-api-openapi.yml
 - filename: ringover-ivrs-api-openapi.yml
   format: yaml
   label: Ringover Ivrs API
   slug: ringover-ivrs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-ivrs-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-ivrs-api-openapi.yml
 - filename: ringover-mcp-api-openapi.yml
   format: yaml
   label: Ringover MCP API
   slug: ringover-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-mcp-api-openapi.yml
 - filename: ringover-messages-api-openapi.yml
   format: yaml
   label: Ringover Messages API
   slug: ringover-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-messages-api-openapi.yml
 - filename: ringover-numbers-api-openapi.yml
   format: yaml
   label: Ringover Numbers API
   slug: ringover-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-numbers-api-openapi.yml
 - filename: ringover-presences-api-openapi.yml
   format: yaml
   label: Ringover Presences API
   slug: ringover-presences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-presences-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-presences-api-openapi.yml
 - filename: ringover-profiles-api-openapi.yml
   format: yaml
   label: Ringover Profiles API
   slug: ringover-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-profiles-api-openapi.yml
 - filename: ringover-scim-api-openapi.yml
   format: yaml
   label: Ringover SCIM API
   slug: ringover-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-scim-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-scim-api-openapi.yml
 - filename: ringover-sms-api-openapi.yml
   format: yaml
   label: Ringover Sms API
   slug: ringover-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-sms-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-sms-api-openapi.yml
 - filename: ringover-snoozes-api-openapi.yml
   format: yaml
   label: Ringover Snoozes API
   slug: ringover-snoozes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-snoozes-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-snoozes-api-openapi.yml
 - filename: ringover-surveys-api-openapi.yml
   format: yaml
   label: Ringover Surveys API
   slug: ringover-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-surveys-api-openapi.yml
 - filename: ringover-tags-api-openapi.yml
   format: yaml
   label: Ringover Tags API
   slug: ringover-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-tags-api-openapi.yml
 - filename: ringover-task-api-openapi.yml
   format: yaml
   label: Ringover Task API
   slug: ringover-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-task-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-task-api-openapi.yml
 - filename: ringover-teams-api-openapi.yml
   format: yaml
   label: Ringover Teams API
   slug: ringover-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-teams-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-teams-api-openapi.yml
 - filename: ringover-transcriptions-api-openapi.yml
   format: yaml
   label: Ringover Transcriptions API
   slug: ringover-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-transcriptions-api-openapi.yml
 - filename: ringover-users-api-openapi.yml
   format: yaml
   label: Ringover Users API
   slug: ringover-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-users-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-users-api-openapi.yml
 - filename: ringover-webhook-api-openapi.yml
   format: yaml
   label: Ringover Webhook API
   slug: ringover-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-webhook-api-openapi.yml
 - filename: ringover-whatsapp-api-openapi.yml
   format: yaml
   label: Ringover WhatsApp API
   slug: ringover-whatsapp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/openapi/ringover-whatsapp-api-openapi.yml
+  url: https://artifacts.apis.io/ringover/openapi/ringover-whatsapp-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 73
@@ -280,13 +280,13 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/ringov
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels/{channelId}/events/hangup\n  method: post\n  operationId: postChannelsChannelidEventsHangup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels/{channelId}/events/transfer\n  method: post\n  operationId: postChannelsChannelidEventsTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels/{channelId}/events/dtmf\n  method: post\n  operationId: postChannelsChannelidEventsDtmf\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts\n  method: get\n  operationId: getContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts\n  method: post\n  operationId: postContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}\n  method: get\n  operationId: getContactsContactid\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{contactId}\n  method: put\n  operationId: putContactsContactid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}\n  method: delete\n  operationId: deleteContactsContactid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}/shared/toggle\n  method: patch\n  operationId: patchContactsContactidSharedToggle\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}/firstname/{firstname}\n  method: patch\n  operationId: patchContactsContactidFirstnameFirstname\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (53 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/agentic-access/ringover-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ringover/refs/heads/main/agentic-access/ringover-agentic-access.yml
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}/firstname/{firstname}\n  method: patch\n  operationId: patchContactsContactidFirstnameFirstname\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (53 KB total) ---\n# Full source: https://artifacts.apis.io/ringover/agentic-access/ringover-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ringover/agentic-access/ringover-agentic-access.yml
 summary_line: 176 operations · 103 acting · 2 human-in-the-loop
 tags:
-- Company
 - Communications
+- Cloud
 - VoIP
-- AI
 - Collaboration
+- Artificial Intelligence
 ---

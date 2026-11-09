@@ -9,37 +9,37 @@ api_specs:
   label: Apache Kylin Authentication API
   slug: apache-kylin-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-authentication-api-openapi.yml
 - filename: apache-kylin-jobs-api-openapi.yml
   format: yaml
   label: Apache Kylin Jobs API
   slug: apache-kylin-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-jobs-api-openapi.yml
 - filename: apache-kylin-models-api-openapi.yml
   format: yaml
   label: Apache Kylin Models API
   slug: apache-kylin-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-models-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-models-api-openapi.yml
 - filename: apache-kylin-projects-api-openapi.yml
   format: yaml
   label: Apache Kylin Projects API
   slug: apache-kylin-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-projects-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-projects-api-openapi.yml
 - filename: apache-kylin-query-api-openapi.yml
   format: yaml
   label: Apache Kylin Query API
   slug: apache-kylin-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-query-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-query-api-openapi.yml
 - filename: apache-kylin-tables-api-openapi.yml
   format: yaml
   label: Apache Kylin Tables API
   slug: apache-kylin-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-tables-api-openapi.yml
+  url: https://artifacts.apis.io/apache-kylin/openapi/apache-kylin-tables-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: get\n\
   \  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}/resume\n  method: put\n  operationId: resumeJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{jobId}/cancel\n  method: put\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables\n  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/authentication\n  method: post\n  operationId: authenticate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/agentic-access/apache-kylin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-kylin/agentic-access/apache-kylin-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Analytics

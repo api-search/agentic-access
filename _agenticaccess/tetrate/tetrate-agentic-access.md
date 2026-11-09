@@ -9,61 +9,61 @@ api_specs:
   label: Tetrate Applications API
   slug: tetrate-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-applications-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-applications-api-openapi.yml
 - filename: tetrate-clusters-api-openapi.yml
   format: yaml
   label: Tetrate Clusters API
   slug: tetrate-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-clusters-api-openapi.yml
 - filename: tetrate-gateway-groups-api-openapi.yml
   format: yaml
   label: Tetrate Gateway Groups API
   slug: tetrate-gateway-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-gateway-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-gateway-groups-api-openapi.yml
 - filename: tetrate-organizations-api-openapi.yml
   format: yaml
   label: Tetrate Organizations API
   slug: tetrate-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-organizations-api-openapi.yml
 - filename: tetrate-rbac-api-openapi.yml
   format: yaml
   label: Tetrate RBAC API
   slug: tetrate-rbac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-rbac-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-rbac-api-openapi.yml
 - filename: tetrate-security-groups-api-openapi.yml
   format: yaml
   label: Tetrate Security Groups API
   slug: tetrate-security-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-security-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-security-groups-api-openapi.yml
 - filename: tetrate-tenants-api-openapi.yml
   format: yaml
   label: Tetrate Tenants API
   slug: tetrate-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-tenants-api-openapi.yml
 - filename: tetrate-traffic-groups-api-openapi.yml
   format: yaml
   label: Tetrate Traffic Groups API
   slug: tetrate-traffic-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-traffic-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-traffic-groups-api-openapi.yml
 - filename: tetrate-workspaces-api-openapi.yml
   format: yaml
   label: Tetrate Workspaces API
   slug: tetrate-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-workspaces-api-openapi.yml
 - filename: tetrate-apis-api-openapi.yml
   format: yaml
   label: Tetrate APIs API
   slug: tetrate-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-apis-api-openapi.yml
+  url: https://artifacts.apis.io/tetrate/openapi/tetrate-apis-api-openapi.yml
 consequence_counts:
   read: 17
   write: 22
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tetrat
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization}/tenants/{tenant}/workspaces/{workspace}/trafficgroups\n  method: get\n  operationId: listTrafficGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization}/tenants/{tenant}/workspaces/{workspace}/trafficgroups\n  method: post\n  operationId: createTrafficGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization}/tenants/{tenant}/workspaces/{workspace}/securitygroups\n\
   \  method: get\n  operationId: listSecurityGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization}/tenants/{tenant}/workspaces/{workspace}/securitygroups\n  method: post\n  operationId: createSecurityGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization}/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization}/roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization}/roles\n  method: post\n  operationId: createRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/agentic-access/tetrate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tetrate/agentic-access/tetrate-agentic-access.yml
 summary_line: 39 operations · 22 acting
 tags:
 - Enterprise

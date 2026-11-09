@@ -9,55 +9,55 @@ api_specs:
   label: Orakl CommonContent API
   slug: orakl-commoncontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-commoncontent-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-commoncontent-api-openapi.yml
 - filename: orakl-customform-api-openapi.yml
   format: yaml
   label: Orakl CustomForm API
   slug: orakl-customform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-customform-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-customform-api-openapi.yml
 - filename: orakl-folder-api-openapi.yml
   format: yaml
   label: Orakl Folder API
   slug: orakl-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-folder-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-folder-api-openapi.yml
 - filename: orakl-login-check-api-openapi.yml
   format: yaml
   label: Orakl Login Check API
   slug: orakl-login-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-login-check-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-login-check-api-openapi.yml
 - filename: orakl-nodessources-api-openapi.yml
   format: yaml
   label: Orakl NodesSources API
   slug: orakl-nodessources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-nodessources-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-nodessources-api-openapi.yml
 - filename: orakl-page-api-openapi.yml
   format: yaml
   label: Orakl Page API
   slug: orakl-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-page-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-page-api-openapi.yml
 - filename: orakl-tag-api-openapi.yml
   format: yaml
   label: Orakl Tag API
   slug: orakl-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-tag-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-tag-api-openapi.yml
 - filename: orakl-translation-api-openapi.yml
   format: yaml
   label: Orakl Translation API
   slug: orakl-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-translation-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-translation-api-openapi.yml
 - filename: orakl-webresponse-api-openapi.yml
   format: yaml
   label: Orakl WebResponse API
   slug: orakl-webresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/openapi/orakl-webresponse-api-openapi.yml
+  url: https://artifacts.apis.io/orakl/openapi/orakl-webresponse-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/orakl-
   \    audit: none\n- path: /api/custom_forms/{id}/post\n  method: post\n  operationId: api_custom_forms_item_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/folders\n  method: get\n  operationId: api_folders_get_collection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/folders/{id}\n  method: get\n  operationId: api_folders_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/token\n  method: post\n  operationId: login_check_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/nodes_sources\n  method: get\n  operationId: api_nodes_sources_get_collection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/pages\n  method: get\n  operationId: page_get_collection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tags\n  method: get\n  operationId: api_tags_get_collection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/translations\n  method: get\n  operationId: api_translations_get_collection\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/web_response_by_path\n  method: get\n  operationId: page_get_by_path\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/agentic-access/orakl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orakl/agentic-access/orakl-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Company

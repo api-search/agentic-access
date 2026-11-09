@@ -9,127 +9,127 @@ api_specs:
   label: Envestnet Account Token API
   slug: envestnet-account-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-account-token-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-account-token-api-openapi.yml
 - filename: envestnet-accounts-api-openapi.yml
   format: yaml
   label: Envestnet Accounts API
   slug: envestnet-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-accounts-api-openapi.yml
 - filename: envestnet-associated-details-api-openapi.yml
   format: yaml
   label: Envestnet Associated Details API
   slug: envestnet-associated-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-associated-details-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-associated-details-api-openapi.yml
 - filename: envestnet-auth-api-openapi.yml
   format: yaml
   label: Envestnet Auth API
   slug: envestnet-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-auth-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-auth-api-openapi.yml
 - filename: envestnet-configs-api-openapi.yml
   format: yaml
   label: Envestnet Configs API
   slug: envestnet-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-configs-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-configs-api-openapi.yml
 - filename: envestnet-consents-api-openapi.yml
   format: yaml
   label: Envestnet Consents API
   slug: envestnet-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-consents-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-consents-api-openapi.yml
 - filename: envestnet-creditacceleratorfile-api-openapi.yml
   format: yaml
   label: Envestnet CreditAcceleratorFile API
   slug: envestnet-creditacceleratorfile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-creditacceleratorfile-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-creditacceleratorfile-api-openapi.yml
 - filename: envestnet-customer-api-openapi.yml
   format: yaml
   label: Envestnet Customer API
   slug: envestnet-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-customer-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-customer-api-openapi.yml
 - filename: envestnet-dataextracts-api-openapi.yml
   format: yaml
   label: Envestnet DataExtracts API
   slug: envestnet-dataextracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-dataextracts-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-dataextracts-api-openapi.yml
 - filename: envestnet-derived-api-openapi.yml
   format: yaml
   label: Envestnet Derived API
   slug: envestnet-derived-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-derived-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-derived-api-openapi.yml
 - filename: envestnet-documents-api-openapi.yml
   format: yaml
   label: Envestnet Documents API
   slug: envestnet-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-documents-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-documents-api-openapi.yml
 - filename: envestnet-holdings-api-openapi.yml
   format: yaml
   label: Envestnet Holdings API
   slug: envestnet-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-holdings-api-openapi.yml
 - filename: envestnet-payment-processor-api-openapi.yml
   format: yaml
   label: Envestnet Payment Processor API
   slug: envestnet-payment-processor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-payment-processor-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-payment-processor-api-openapi.yml
 - filename: envestnet-providers-api-openapi.yml
   format: yaml
   label: Envestnet Providers API
   slug: envestnet-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-providers-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-providers-api-openapi.yml
 - filename: envestnet-statements-api-openapi.yml
   format: yaml
   label: Envestnet Statements API
   slug: envestnet-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-statements-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-statements-api-openapi.yml
 - filename: envestnet-transactions-api-openapi.yml
   format: yaml
   label: Envestnet Transactions API
   slug: envestnet-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-transactions-api-openapi.yml
 - filename: envestnet-user-api-openapi.yml
   format: yaml
   label: Envestnet User API
   slug: envestnet-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-user-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-user-api-openapi.yml
 - filename: envestnet-verification-api-openapi.yml
   format: yaml
   label: Envestnet Verification API
   slug: envestnet-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-verification-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-verification-api-openapi.yml
 - filename: envestnet-verify-account-api-openapi.yml
   format: yaml
   label: Envestnet Verify Account API
   slug: envestnet-verify-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-verify-account-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-verify-account-api-openapi.yml
 - filename: envestnet-view-api-openapi.yml
   format: yaml
   label: Envestnet View API
   slug: envestnet-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-view-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-view-api-openapi.yml
 - filename: envestnet-provider-accounts-api-openapi.yml
   format: yaml
   label: Envestnet Provider Accounts API
   slug: envestnet-provider-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/openapi/envestnet-provider-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/envestnet/openapi/envestnet-provider-accounts-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 74
@@ -224,8 +224,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/envest
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /views/{viewId}/rules\n  method: delete\n  operationId: deleteUserViewRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /views/{viewId}/budgets\n  method: patch\n  operationId: patchUserViewbudget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /views/{viewId}/budgets\n\
   \  method: delete\n  operationId: deleteUserViewbudget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /views/{viewId}/transactions\n  method: get\n  operationId: getUserViewTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /views/{viewId}/peerData\n  method: get\n  operationId: getUserViewPeerData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /views/{viewId}/transactionSummary\n  method: get\n  operationId: getUserViewTransactionSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /views/{viewId}/transactionTrends\n  method: get\n  operationId: getUserViewTransactionTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /views/recommendations\n  method: get\n  operationId: getUserViewRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /views/{viewId}/budgetSummary\n  method: get\n  operationId: getUserBudgetSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated\
-  \ at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/agentic-access/envestnet-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/agentic-access/envestnet-agentic-access.yml
+  \ at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/envestnet/agentic-access/envestnet-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/envestnet/agentic-access/envestnet-agentic-access.yml
 summary_line: 150 operations · 76 acting · 2 human-in-the-loop
 tags:
 - Finance

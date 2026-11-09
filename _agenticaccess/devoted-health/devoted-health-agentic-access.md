@@ -9,127 +9,127 @@ api_specs:
   label: Devoted Health CodeSystem API
   slug: devoted-health-codesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-codesystem-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-codesystem-api-openapi.yml
 - filename: devoted-health-condition-api-openapi.yml
   format: yaml
   label: Devoted Health Condition API
   slug: devoted-health-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-condition-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-condition-api-openapi.yml
 - filename: devoted-health-encounter-api-openapi.yml
   format: yaml
   label: Devoted Health Encounter API
   slug: devoted-health-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-encounter-api-openapi.yml
 - filename: devoted-health-explanationofbenefit-api-openapi.yml
   format: yaml
   label: Devoted Health ExplanationOfBenefit API
   slug: devoted-health-explanationofbenefit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-explanationofbenefit-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-explanationofbenefit-api-openapi.yml
 - filename: devoted-health-list-api-openapi.yml
   format: yaml
   label: Devoted Health List API
   slug: devoted-health-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-list-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-list-api-openapi.yml
 - filename: devoted-health-location-api-openapi.yml
   format: yaml
   label: Devoted Health Location API
   slug: devoted-health-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-location-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-location-api-openapi.yml
 - filename: devoted-health-medication-api-openapi.yml
   format: yaml
   label: Devoted Health Medication API
   slug: devoted-health-medication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-medication-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-medication-api-openapi.yml
 - filename: devoted-health-medicationknowledge-api-openapi.yml
   format: yaml
   label: Devoted Health MedicationKnowledge API
   slug: devoted-health-medicationknowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-medicationknowledge-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-medicationknowledge-api-openapi.yml
 - filename: devoted-health-operationdefinition-api-openapi.yml
   format: yaml
   label: Devoted Health OperationDefinition API
   slug: devoted-health-operationdefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-operationdefinition-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-operationdefinition-api-openapi.yml
 - filename: devoted-health-organization-api-openapi.yml
   format: yaml
   label: Devoted Health Organization API
   slug: devoted-health-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-organization-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-organization-api-openapi.yml
 - filename: devoted-health-organizationaffiliation-api-openapi.yml
   format: yaml
   label: Devoted Health OrganizationAffiliation API
   slug: devoted-health-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-organizationaffiliation-api-openapi.yml
 - filename: devoted-health-patient-api-openapi.yml
   format: yaml
   label: Devoted Health Patient API
   slug: devoted-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-patient-api-openapi.yml
 - filename: devoted-health-practitioner-api-openapi.yml
   format: yaml
   label: Devoted Health Practitioner API
   slug: devoted-health-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-practitioner-api-openapi.yml
 - filename: devoted-health-structuredefinition-api-openapi.yml
   format: yaml
   label: Devoted Health StructureDefinition API
   slug: devoted-health-structuredefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-structuredefinition-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-structuredefinition-api-openapi.yml
 - filename: devoted-health-subscription-api-openapi.yml
   format: yaml
   label: Devoted Health Subscription API
   slug: devoted-health-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-subscription-api-openapi.yml
 - filename: devoted-health-system-level-operations-api-openapi.yml
   format: yaml
   label: Devoted Health System Level Operations API
   slug: devoted-health-system-level-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-system-level-operations-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-system-level-operations-api-openapi.yml
 - filename: devoted-health-valueset-api-openapi.yml
   format: yaml
   label: Devoted Health ValueSet API
   slug: devoted-health-valueset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-valueset-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-valueset-api-openapi.yml
 - filename: devoted-health-healthcare-service-api-openapi.yml
   format: yaml
   label: Devoted Health Healthcare Service API
   slug: devoted-health-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-healthcare-service-api-openapi.yml
 - filename: devoted-health-insurance-plan-api-openapi.yml
   format: yaml
   label: Devoted Health Insurance Plan API
   slug: devoted-health-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-insurance-plan-api-openapi.yml
 - filename: devoted-health-practitioner-role-api-openapi.yml
   format: yaml
   label: Devoted Health Practitioner Role API
   slug: devoted-health-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-practitioner-role-api-openapi.yml
 - filename: devoted-health-search-parameter-api-openapi.yml
   format: yaml
   label: Devoted Health Search Parameter API
   slug: devoted-health-search-parameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/openapi/devoted-health-search-parameter-api-openapi.yml
+  url: https://artifacts.apis.io/devoted-health/openapi/devoted-health-search-parameter-api-openapi.yml
 consequence_counts:
   read: 136
   safety-critical: 9
@@ -238,8 +238,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/devote
   - path: /MedicationKnowledge/{id}\n  method: delete\n  operationId: deleteMedicationKnowledgeById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /MedicationKnowledge/{id}\n  method: patch\n  operationId: patchMedicationKnowledgeById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /MedicationKnowledge/{id}/_history/{version_id}\n  method: get\n  operationId: getMedicationKnowledgeByIdHistoryByVersionId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /MedicationKnowledge\n  method: get\n  operationId: getMedicationKnowledge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationKnowledge\n  method: post\n  operationId: postMedicationKnowledge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /MedicationKnowledge/_history\n  method: get\n  operationId: getMedicationKnowledgeHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationKnowledge/{id}/_history\n  method: get\n  operationId: getMedicationKnowledgeByIdHistory\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationKnowledge/_search\n  method: get\n  operationId: getMedicationKnowledgeSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationKnowledge/$validate\n  method: get\n  operationId: getMedicationKnowledge$validate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationKnowledge/$validate\n  method: post\n  operationId: postMedicationKnowledge$validate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated\
-  \ at 32 KB (89 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/agentic-access/devoted-health-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/agentic-access/devoted-health-agentic-access.yml
+  \ at 32 KB (89 KB total) ---\n# Full source: https://artifacts.apis.io/devoted-health/agentic-access/devoted-health-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/devoted-health/agentic-access/devoted-health-agentic-access.yml
 summary_line: 300 operations · 164 acting · 9 human-in-the-loop
 tags:
 - Company

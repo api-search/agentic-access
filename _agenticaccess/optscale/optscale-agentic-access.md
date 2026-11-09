@@ -9,55 +9,55 @@ api_specs:
   label: OptScale Authentication API
   slug: optscale-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/openapi/optscale-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/optscale/openapi/optscale-authentication-api-openapi.yml
 - filename: optscale-cloud-accounts-api-openapi.yml
   format: yaml
   label: OptScale Cloud Accounts API
   slug: optscale-cloud-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/openapi/optscale-cloud-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/optscale/openapi/optscale-cloud-accounts-api-openapi.yml
 - filename: optscale-employees-api-openapi.yml
   format: yaml
   label: OptScale Employees API
   slug: optscale-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/openapi/optscale-employees-api-openapi.yml
+  url: https://artifacts.apis.io/optscale/openapi/optscale-employees-api-openapi.yml
 - filename: optscale-expenses-api-openapi.yml
   format: yaml
   label: OptScale Expenses API
   slug: optscale-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/openapi/optscale-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/optscale/openapi/optscale-expenses-api-openapi.yml
 - filename: optscale-optimizations-api-openapi.yml
   format: yaml
   label: OptScale Optimizations API
   slug: optscale-optimizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/openapi/optscale-optimizations-api-openapi.yml
+  url: https://artifacts.apis.io/optscale/openapi/optscale-optimizations-api-openapi.yml
 - filename: optscale-organizations-api-openapi.yml
   format: yaml
   label: OptScale Organizations API
   slug: optscale-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/openapi/optscale-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/optscale/openapi/optscale-organizations-api-openapi.yml
 - filename: optscale-pools-api-openapi.yml
   format: yaml
   label: OptScale Pools API
   slug: optscale-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/openapi/optscale-pools-api-openapi.yml
+  url: https://artifacts.apis.io/optscale/openapi/optscale-pools-api-openapi.yml
 - filename: optscale-recommendations-api-openapi.yml
   format: yaml
   label: OptScale Recommendations API
   slug: optscale-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/openapi/optscale-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/optscale/openapi/optscale-recommendations-api-openapi.yml
 - filename: optscale-resources-api-openapi.yml
   format: yaml
   label: OptScale Resources API
   slug: optscale-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/openapi/optscale-resources-api-openapi.yml
+  url: https://artifacts.apis.io/optscale/openapi/optscale-resources-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/optsca
   \ deleteCloudAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/employees\n  method: get\n  operationId: listEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/pools\n  method: get\n  operationId: listPools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/pools\n  method: post\n  operationId: createPool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pools/{pool_id}\n  method: get\n  operationId: getPool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloud_accounts/{cloud_account_id}/cloud_resources\n  method: get\n  operationId: listCloudResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/expenses\n  method: get\n  operationId: getExpenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/optimizations\n  method: get\n  operationId: listOptimizations\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/agentic-access/optscale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/optscale/agentic-access/optscale-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - FinOps

@@ -9,43 +9,43 @@ api_specs:
   label: Enfuce Authorisation Request API
   slug: enfuce-authorisation-request-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/openapi/enfuce-authorisation-request-api-api-openapi.yml
+  url: https://artifacts.apis.io/enfuce/openapi/enfuce-authorisation-request-api-api-openapi.yml
 - filename: enfuce-create-card-api-openapi.yml
   format: yaml
   label: Enfuce Create Card API
   slug: enfuce-create-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/openapi/enfuce-create-card-api-openapi.yml
+  url: https://artifacts.apis.io/enfuce/openapi/enfuce-create-card-api-openapi.yml
 - filename: enfuce-create-pin-control-access-token-api-openapi.yml
   format: yaml
   label: Enfuce Create PIN Control access token API
   slug: enfuce-create-pin-control-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/openapi/enfuce-create-pin-control-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/enfuce/openapi/enfuce-create-pin-control-access-token-api-openapi.yml
 - filename: enfuce-get-card-api-openapi.yml
   format: yaml
   label: Enfuce Get card API
   slug: enfuce-get-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/openapi/enfuce-get-card-api-openapi.yml
+  url: https://artifacts.apis.io/enfuce/openapi/enfuce-get-card-api-openapi.yml
 - filename: enfuce-get-card-payment-info-api-openapi.yml
   format: yaml
   label: Enfuce Get Card Payment Info API
   slug: enfuce-get-card-payment-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/openapi/enfuce-get-card-payment-info-api-openapi.yml
+  url: https://artifacts.apis.io/enfuce/openapi/enfuce-get-card-payment-info-api-openapi.yml
 - filename: enfuce-get-plastic-manufacturing-history-api-openapi.yml
   format: yaml
   label: Enfuce Get plastic manufacturing history API
   slug: enfuce-get-plastic-manufacturing-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/openapi/enfuce-get-plastic-manufacturing-history-api-openapi.yml
+  url: https://artifacts.apis.io/enfuce/openapi/enfuce-get-plastic-manufacturing-history-api-openapi.yml
 - filename: enfuce-update-card-api-openapi.yml
   format: yaml
   label: Enfuce Update card API
   slug: enfuce-update-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/openapi/enfuce-update-card-api-openapi.yml
+  url: https://artifacts.apis.io/enfuce/openapi/enfuce-update-card-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/enfuce
   \ 3600\n    audit: none\n- path: /v1/cards/{id}/manufacturing-history\n  method: get\n  operationId: manufacturingHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cards/{id}\n  method: patch\n  operationId: patchCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/replace\n  method: post\n  operationId: replaceCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/reissue\n \
   \ method: post\n  operationId: reissueCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/activate\n  method: post\n  operationId: activateCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/reorder-pin\n  method: post\n  operationId: reorderPin\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/agentic-access/enfuce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/enfuce/agentic-access/enfuce-agentic-access.yml
 summary_line: 13 operations · 9 acting · 2 human-in-the-loop
 tags:
 - Company

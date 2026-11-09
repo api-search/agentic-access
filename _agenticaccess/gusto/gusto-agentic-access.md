@@ -15,61 +15,61 @@ api_specs:
   label: Gusto Companies API
   slug: gusto-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-companies-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-companies-api-openapi.yml
 - filename: gusto-contractors-api-openapi.yml
   format: yaml
   label: Gusto Contractors API
   slug: gusto-contractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-contractors-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-contractors-api-openapi.yml
 - filename: gusto-employees-api-openapi.yml
   format: yaml
   label: Gusto Employees API
   slug: gusto-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-employees-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-employees-api-openapi.yml
 - filename: gusto-flows-api-openapi.yml
   format: yaml
   label: Gusto Flows API
   slug: gusto-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-flows-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-flows-api-openapi.yml
 - filename: gusto-payrolls-api-openapi.yml
   format: yaml
   label: Gusto Payrolls API
   slug: gusto-payrolls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-payrolls-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-payrolls-api-openapi.yml
 - filename: gusto-reports-api-openapi.yml
   format: yaml
   label: Gusto Reports API
   slug: gusto-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-reports-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-reports-api-openapi.yml
 - filename: gusto-webhooks-api-openapi.yml
   format: yaml
   label: Gusto Webhooks API
   slug: gusto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-webhooks-api-openapi.yml
 - filename: gusto-bank-accounts-api-openapi.yml
   format: yaml
   label: Gusto Bank Accounts API
   slug: gusto-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-bank-accounts-api-openapi.yml
 - filename: gusto-contractor-payments-api-openapi.yml
   format: yaml
   label: Gusto Contractor Payments API
   slug: gusto-contractor-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-contractor-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-contractor-payments-api-openapi.yml
 - filename: gusto-pay-schedules-api-openapi.yml
   format: yaml
   label: Gusto Pay Schedules API
   slug: gusto-pay-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-pay-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-pay-schedules-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 8
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gusto-
   \ listPaySchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companies/{company_id}/pay_schedules\n  method: post\n  operationId: createPaySchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companies/{company_id}/pay_schedules/{pay_schedule_id}\n  method: put\n  operationId: updatePaySchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/company/flows\n  method: post\n  operationId: createFlowLink\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companies/{company_uuid}/reports\n  method: post\n  operationId: createReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/{request_uuid}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/agentic-access/gusto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gusto/agentic-access/gusto-agentic-access.yml
 summary_line: 25 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Human Resources

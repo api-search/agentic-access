@@ -9,91 +9,91 @@ api_specs:
   label: Profound Agents API
   slug: profound-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-agents-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-agents-api-openapi.yml
 - filename: profound-beta-api-openapi.yml
   format: yaml
   label: Profound Beta API
   slug: profound-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-beta-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-beta-api-openapi.yml
 - filename: profound-bot-traffic-reports-api-openapi.yml
   format: yaml
   label: Profound Bot Traffic Reports API
   slug: profound-bot-traffic-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-bot-traffic-reports-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-bot-traffic-reports-api-openapi.yml
 - filename: profound-categories-api-openapi.yml
   format: yaml
   label: Profound Categories API
   slug: profound-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-categories-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-categories-api-openapi.yml
 - filename: profound-content-api-openapi.yml
   format: yaml
   label: Profound Content API
   slug: profound-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-content-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-content-api-openapi.yml
 - filename: profound-content-optimization-api-openapi.yml
   format: yaml
   label: Profound Content optimization API
   slug: profound-content-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-content-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-content-optimization-api-openapi.yml
 - filename: profound-documents-api-openapi.yml
   format: yaml
   label: Profound Documents API
   slug: profound-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-documents-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-documents-api-openapi.yml
 - filename: profound-human-referrals-api-openapi.yml
   format: yaml
   label: Profound Human Referrals API
   slug: profound-human-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-human-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-human-referrals-api-openapi.yml
 - filename: profound-integrations-api-openapi.yml
   format: yaml
   label: Profound Integrations API
   slug: profound-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-integrations-api-openapi.yml
 - filename: profound-knowledge-bases-api-openapi.yml
   format: yaml
   label: Profound Knowledge bases API
   slug: profound-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-knowledge-bases-api-openapi.yml
 - filename: profound-openai-ads-api-openapi.yml
   format: yaml
   label: Profound OpenAI Ads API
   slug: profound-openai-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-openai-ads-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-openai-ads-api-openapi.yml
 - filename: profound-organization-api-openapi.yml
   format: yaml
   label: Profound Organization API
   slug: profound-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-organization-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-organization-api-openapi.yml
 - filename: profound-projects-api-openapi.yml
   format: yaml
   label: Profound Projects API
   slug: profound-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-projects-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-projects-api-openapi.yml
 - filename: profound-prompts-api-openapi.yml
   format: yaml
   label: Profound Prompts API
   slug: profound-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-prompts-api-openapi.yml
 - filename: profound-reports-api-openapi.yml
   format: yaml
   label: Profound Reports API
   slug: profound-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-reports-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-reports-api-openapi.yml
 consequence_counts:
   read: 78
   write: 67
@@ -152,8 +152,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/profou
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/referrals\n  method: post\n  operationId: get_referrals_report_v1_v1_reports_referrals_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports/bots\n  method: post\n  operationId: get_bots_report_v1_v1_reports_bots_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports/query-fanouts\n  method: post\n  operationId: query_fanouts_v1_reports_query_fanouts_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/reports/shopping/visibility\n  method: post\n  operationId: shopping_visibility_v1_reports_shopping_visibility_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/shopping/item-visibility\n  method: post\n  operationId: shopping_item_visibility_v1_reports_shopping_item_visibility_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/shopping/merchant-distribution\n  method: post\n  operationId: shopping_merchant_distribution_v1_reports_shopping_merchant_distribution_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/shopping/merchant-visibility-by-brand\n  method: post\n  operationId: shopping_merchant_visibility_by_brand_v1_reports_shopping_merchant_visibility_by_brand_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/shopping/merchant-by-items\n  method: post\n  operationId: shopping_merchant_by_items_v1_reports_shopping_merchant_by_items_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/shopping/all-items-with-merchants\n  method: post\n  operationId: shopping_all_items_with_merchants_v1_reports_shopping_all_items_with_merchants_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/agentic-access/profound-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/agentic-access/profound-agentic-access.yml
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/shopping/all-items-with-merchants\n  method: post\n  operationId: shopping_all_items_with_merchants_v1_reports_shopping_all_items_with_merchants_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://artifacts.apis.io/profound/agentic-access/profound-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/profound/agentic-access/profound-agentic-access.yml
 summary_line: 145 operations · 67 acting
 tags:
 - Company

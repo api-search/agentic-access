@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Dataproc Clusters API
   slug: google-cloud-dataproc-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataproc/openapi/google-cloud-dataproc-clusters-api-openapi.yml
 - filename: google-cloud-dataproc-jobs-api-openapi.yml
   format: yaml
   label: Google Cloud Dataproc Jobs API
   slug: google-cloud-dataproc-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataproc/openapi/google-cloud-dataproc-jobs-api-openapi.yml
 - filename: google-cloud-dataproc-workflow-templates-api-openapi.yml
   format: yaml
   label: Google Cloud Dataproc Workflow Templates API
   slug: google-cloud-dataproc-workflow-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/google-cloud-dataproc-workflow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataproc/openapi/google-cloud-dataproc-workflow-templates-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloud-
   \ required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/regions/{region}/jobs/{jobId}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project}/regions/{region}/jobs/{jobId}\n  method: delete\n  operationId: deleteJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /projects/{project}/regions/{region}/jobs/{jobId}:cancel\n  method: post\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/regions/{region}/workflowTemplates\n  method: get\n  operationId: listWorkflowTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project}/regions/{region}/workflowTemplates\n  method: post\n  operationId: createWorkflowTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/agentic-access/google-cloud-dataproc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-dataproc/agentic-access/google-cloud-dataproc-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Big Data

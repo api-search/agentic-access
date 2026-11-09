@@ -9,55 +9,55 @@ api_specs:
   label: Tekmetric Appointments API
   slug: tekmetric-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-appointments-api-openapi.yml
 - filename: tekmetric-canned-jobs-api-openapi.yml
   format: yaml
   label: Tekmetric Canned Jobs API
   slug: tekmetric-canned-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-canned-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-canned-jobs-api-openapi.yml
 - filename: tekmetric-customers-api-openapi.yml
   format: yaml
   label: Tekmetric Customers API
   slug: tekmetric-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-customers-api-openapi.yml
 - filename: tekmetric-employees-api-openapi.yml
   format: yaml
   label: Tekmetric Employees API
   slug: tekmetric-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-employees-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-employees-api-openapi.yml
 - filename: tekmetric-inventory-api-openapi.yml
   format: yaml
   label: Tekmetric Inventory API
   slug: tekmetric-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-inventory-api-openapi.yml
 - filename: tekmetric-jobs-api-openapi.yml
   format: yaml
   label: Tekmetric Jobs API
   slug: tekmetric-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-jobs-api-openapi.yml
 - filename: tekmetric-repair-orders-api-openapi.yml
   format: yaml
   label: Tekmetric Repair Orders API
   slug: tekmetric-repair-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-repair-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-repair-orders-api-openapi.yml
 - filename: tekmetric-shops-api-openapi.yml
   format: yaml
   label: Tekmetric Shops API
   slug: tekmetric-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-shops-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-shops-api-openapi.yml
 - filename: tekmetric-vehicles-api-openapi.yml
   format: yaml
   label: Tekmetric Vehicles API
   slug: tekmetric-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/openapi/tekmetric-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/tekmetric/openapi/tekmetric-vehicles-api-openapi.yml
 consequence_counts:
   read: 16
   write: 1
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tekmet
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repair-orders\n  method: get\n  operationId: listRepairOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repair-orders/{id}\n  method: get\n  operationId: getRepairOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{id}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees\n  method:\
   \ get\n  operationId: listEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees/{id}\n  method: get\n  operationId: getEmployee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appointments\n  method: get\n  operationId: listAppointments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appointments/{id}\n  method: get\n  operationId: getAppointment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory\n  method: get\n  operationId: listInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /canned-jobs\n  method: get\n  operationId: listCannedJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/agentic-access/tekmetric-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tekmetric/agentic-access/tekmetric-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
 - Automotive

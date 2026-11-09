@@ -9,25 +9,25 @@ api_specs:
   label: Knostic Extensions API
   slug: knostic-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/knostic/openapi/knostic-extensions-api-openapi.yml
 - filename: knostic-mcp-api-openapi.yml
   format: yaml
   label: Knostic MCP API
   slug: knostic-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/knostic/openapi/knostic-mcp-api-openapi.yml
 - filename: knostic-scans-api-openapi.yml
   format: yaml
   label: Knostic Scans API
   slug: knostic-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-scans-api-openapi.yml
+  url: https://artifacts.apis.io/knostic/openapi/knostic-scans-api-openapi.yml
 - filename: knostic-skills-api-openapi.yml
   format: yaml
   label: Knostic Skills API
   slug: knostic-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/openapi/knostic-skills-api-openapi.yml
+  url: https://artifacts.apis.io/knostic/openapi/knostic-skills-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/knosti
   \  method: get\n  operationId: getVersionScans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp\n  method: get\n  operationId: listMcp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp/{server_id}\n  method: get\n  operationId: getMcp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp/{server_id}/versions/{version_id}\n  method: get\n  operationId: getMcpVersionScans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extensions\n  method: get\n  operationId: listExtensions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extensions/{ext_id}\n  method: get\n  operationId: getExtension\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scan/skill/{slug}\n  method: post\n  operationId: scanSkill\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /scan/extension/{slug}\n  method: post\n  operationId: scanExtension\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /scans\n  method: get\n  operationId: listScans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scans/{scan_id}\n  method: get\n  operationId: getScan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/agentic-access/knostic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/knostic/agentic-access/knostic-agentic-access.yml
 summary_line: 12 operations · 2 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,97 +9,97 @@ api_specs:
   label: Panopto Accessibility API
   slug: panopto-accessibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-accessibility-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-accessibility-api-openapi.yml
 - filename: panopto-auth-api-openapi.yml
   format: yaml
   label: Panopto Auth API
   slug: panopto-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-auth-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-auth-api-openapi.yml
 - filename: panopto-captionproviders-api-openapi.yml
   format: yaml
   label: Panopto CaptionProviders API
   slug: panopto-captionproviders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-captionproviders-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-captionproviders-api-openapi.yml
 - filename: panopto-folders-api-openapi.yml
   format: yaml
   label: Panopto Folders API
   slug: panopto-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-folders-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-folders-api-openapi.yml
 - filename: panopto-groups-api-openapi.yml
   format: yaml
   label: Panopto Groups API
   slug: panopto-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-groups-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-groups-api-openapi.yml
 - filename: panopto-playlists-api-openapi.yml
   format: yaml
   label: Panopto Playlists API
   slug: panopto-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-playlists-api-openapi.yml
 - filename: panopto-remoterecorderapi-api-openapi.yml
   format: yaml
   label: Panopto RemoteRecorderAPI API
   slug: panopto-remoterecorderapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-remoterecorderapi-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-remoterecorderapi-api-openapi.yml
 - filename: panopto-remoterecorders-api-openapi.yml
   format: yaml
   label: Panopto RemoteRecorders API
   slug: panopto-remoterecorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-remoterecorders-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-remoterecorders-api-openapi.yml
 - filename: panopto-reports-api-openapi.yml
   format: yaml
   label: Panopto Reports API
   slug: panopto-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-reports-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-reports-api-openapi.yml
 - filename: panopto-scheduledrecordings-api-openapi.yml
   format: yaml
   label: Panopto ScheduledRecordings API
   slug: panopto-scheduledrecordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-scheduledrecordings-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-scheduledrecordings-api-openapi.yml
 - filename: panopto-searchindexsyncupdates-api-openapi.yml
   format: yaml
   label: Panopto SearchIndexSyncUpdates API
   slug: panopto-searchindexsyncupdates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-searchindexsyncupdates-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-searchindexsyncupdates-api-openapi.yml
 - filename: panopto-sessions-api-openapi.yml
   format: yaml
   label: Panopto Sessions API
   slug: panopto-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-sessions-api-openapi.yml
 - filename: panopto-streams-api-openapi.yml
   format: yaml
   label: Panopto Streams API
   slug: panopto-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-streams-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-streams-api-openapi.yml
 - filename: panopto-tags-api-openapi.yml
   format: yaml
   label: Panopto Tags API
   slug: panopto-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-tags-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-tags-api-openapi.yml
 - filename: panopto-users-api-openapi.yml
   format: yaml
   label: Panopto Users API
   slug: panopto-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-users-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-users-api-openapi.yml
 - filename: panopto-xfpuserprofiles-api-openapi.yml
   format: yaml
   label: Panopto XfpUserProfiles API
   slug: panopto-xfpuserprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/openapi/panopto-xfpuserprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/panopto/openapi/panopto-xfpuserprofiles-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 39
@@ -222,7 +222,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/panopt
   - path: /api/v1/tags\n  method: get\n  operationId: Tags_GetTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tags/{id}\n  method: get\n  operationId: Tags_GetTagById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tags/{id}\n  method: put\n  operationId: Tags_UpdateTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tags/{id}\n  method: delete\n  operationId: Tags_DeleteTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tags/{id}/merge\n  method: post\n  operationId: Tags_MergeTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/me/sessions/viewed\n  method: get\n  operationId: Users_GetMyViewedSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{id}/sessions/viewed\n  method: get\n  operationId: Users_GetUsersViewedSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/search\n\
   \  method: get\n  operationId: Users_Search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/agentic-access/panopto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/panopto/agentic-access/panopto-agentic-access.yml
 summary_line: 89 operations · 50 acting
 tags:
 - Video Management

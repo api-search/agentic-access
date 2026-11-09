@@ -9,37 +9,37 @@ api_specs:
   label: Infobip AI Hub API
   slug: infobip-ai-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-ai-hub-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-ai-hub-api-openapi.yml
 - filename: infobip-channels-api-openapi.yml
   format: yaml
   label: Infobip Channels API
   slug: infobip-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-channels-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-channels-api-openapi.yml
 - filename: infobip-connectivity-api-openapi.yml
   format: yaml
   label: Infobip Connectivity API
   slug: infobip-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-connectivity-api-openapi.yml
 - filename: infobip-customer-engagement-api-openapi.yml
   format: yaml
   label: Infobip Customer Engagement API
   slug: infobip-customer-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-customer-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-customer-engagement-api-openapi.yml
 - filename: infobip-platform-api-openapi.yml
   format: yaml
   label: Infobip Platform API
   slug: infobip-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-platform-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-platform-api-openapi.yml
 - filename: infobip-tools-api-openapi.yml
   format: yaml
   label: Infobip Tools API
   slug: infobip-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-tools-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-tools-api-openapi.yml
 consequence_counts:
   physical: 143
   read: 367
@@ -228,8 +228,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/infobi
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calls/1/dialogs/{dialogId}/stop-recording\n  method: post\n  operationId: dialog-stop-recording\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /calls/1/dialogs/{dialogId}/broadcast-webrtc-text\n  method: post\n  operationId: dialog-broadcast-webrtc-text\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calls/1/dialogs/{dialogId}/send-message\n  method: post\n  operationId: dialog-send-message\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calls/1/dialogs/{dialogId}/transfer/accept\n  method: post\n  operationId: dialog-transfer-accept\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calls/1/dialogs/{dialogId}/transfer/reject\n  method: post\n  operationId: dialog-transfer-reject\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calls/1/sip-trunks\n  method: get\n  operationId: get-sip-trunks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calls/1/sip-trunks\n  method: post\n  operationId: create-sip-trunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calls/1/sip-trunks/{sipTrunkId}\n  method: get\n  operationId: get-sip-trunk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /calls/1/sip-trunks/{sipTrunkId}\n  method: put\n  operationId: update-sip-trunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calls/1/sip-trunks/{sipTrunkId}\n  method: delete\n  operationId: delete-sip-trunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (295 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/agentic-access/infobip-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/agentic-access/infobip-agentic-access.yml
+  \ 3600\n    audit: none\n- path: /calls/1/sip-trunks/{sipTrunkId}\n  method: put\n  operationId: update-sip-trunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calls/1/sip-trunks/{sipTrunkId}\n  method: delete\n  operationId: delete-sip-trunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (295 KB total) ---\n# Full source: https://artifacts.apis.io/infobip/agentic-access/infobip-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/infobip/agentic-access/infobip-agentic-access.yml
 summary_line: 943 operations · 576 acting · 15 human-in-the-loop
 tags:
 - Telecommunications

@@ -9,37 +9,37 @@ api_specs:
   label: Vimeo OTT Analytics API
   slug: vimeo-ott-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-analytics-api-openapi.yml
 - filename: vimeo-ott-authorizations-api-openapi.yml
   format: yaml
   label: Vimeo OTT Authorizations API
   slug: vimeo-ott-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-authorizations-api-openapi.yml
 - filename: vimeo-ott-collections-api-openapi.yml
   format: yaml
   label: Vimeo OTT Collections API
   slug: vimeo-ott-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-collections-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-collections-api-openapi.yml
 - filename: vimeo-ott-customers-api-openapi.yml
   format: yaml
   label: Vimeo OTT Customers API
   slug: vimeo-ott-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-customers-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-customers-api-openapi.yml
 - filename: vimeo-ott-products-api-openapi.yml
   format: yaml
   label: Vimeo OTT Products API
   slug: vimeo-ott-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-products-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-products-api-openapi.yml
 - filename: vimeo-ott-videos-api-openapi.yml
   format: yaml
   label: Vimeo OTT Videos API
   slug: vimeo-ott-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-videos-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo-ott/openapi/vimeo-ott-videos-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vimeo-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{id}/update_position\n  method: put\n  operationId: updateCollectionPosition\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{id}/items\n  method: get\n  operationId: listCollectionItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{id}/items\n  method: put\n  operationId: addCollectionItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{id}/items\n  method: delete\n  operationId: removeCollectionItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{id}/items/{item_id}\n  method: put\n  operationId: repositionCollectionItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorizations\n  method: post\n  operationId: createAuthorization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics\n  method: get\n  operationId: getAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/agentic-access/vimeo-ott-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vimeo-ott/agentic-access/vimeo-ott-agentic-access.yml
 summary_line: 30 operations · 16 acting · 1 human-in-the-loop
 tags:
 - OTT

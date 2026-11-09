@@ -9,43 +9,43 @@ api_specs:
   label: Akool Authentication API
   slug: akool-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-authentication-api-openapi.yml
 - filename: akool-face-swap-api-openapi.yml
   format: yaml
   label: Akool Face Swap API
   slug: akool-face-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-face-swap-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-face-swap-api-openapi.yml
 - filename: akool-image-generation-api-openapi.yml
   format: yaml
   label: Akool Image Generation API
   slug: akool-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-image-generation-api-openapi.yml
 - filename: akool-live-avatar-api-openapi.yml
   format: yaml
   label: Akool Live Avatar API
   slug: akool-live-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-live-avatar-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-live-avatar-api-openapi.yml
 - filename: akool-talking-avatar-api-openapi.yml
   format: yaml
   label: Akool Talking Avatar API
   slug: akool-talking-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-talking-avatar-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-talking-avatar-api-openapi.yml
 - filename: akool-talking-photo-api-openapi.yml
   format: yaml
   label: Akool Talking Photo API
   slug: akool-talking-photo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-talking-photo-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-talking-photo-api-openapi.yml
 - filename: akool-video-translation-api-openapi.yml
   format: yaml
   label: Akool Video Translation API
   slug: akool-video-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/openapi/akool-video-translation-api-openapi.yml
+  url: https://artifacts.apis.io/akool/openapi/akool-video-translation-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/akool-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/open/v3/faceswap/result/listbyids\n  method: get\n  operationId: listFaceSwapResultsByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/open/v3/language/list\n  method: get\n  operationId: listTranslationLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/open/v3/content/video/createbytranslate\n  method: post\n  operationId: createByTranslate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/open/v4/content/image/createBySourcePrompt\n  method: post\n  operationId: createImageBySourcePrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/open/v3/content/image/infobymodelid\n  method: get\n  operationId: getImageInfoByModelId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/open/v4/liveAvatar/avatar/list\n  method: get\n  operationId: listLiveAvatars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/open/v4/liveAvatar/session/create\n  method: post\n  operationId: createLiveAvatarSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/open/v4/liveAvatar/session/close\n  method: post\n  operationId: closeLiveAvatarSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/agentic-access/akool-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/akool/agentic-access/akool-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - AI Avatars

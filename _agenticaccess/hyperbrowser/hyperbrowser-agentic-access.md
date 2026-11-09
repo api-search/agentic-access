@@ -9,103 +9,103 @@ api_specs:
   label: Hyperbrowser Sessions API
   slug: sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-sessions-api-openapi.yml
 - filename: hyperbrowser-profiles-api-openapi.yml
   format: yaml
   label: Hyperbrowser Profiles API
   slug: profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-profiles-api-openapi.yml
 - filename: hyperbrowser-scrape-api-openapi.yml
   format: yaml
   label: Hyperbrowser Scrape API
   slug: scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-scrape-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-scrape-api-openapi.yml
 - filename: hyperbrowser-crawl-api-openapi.yml
   format: yaml
   label: Hyperbrowser Crawl API
   slug: crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-crawl-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-crawl-api-openapi.yml
 - filename: hyperbrowser-extract-api-openapi.yml
   format: yaml
   label: Hyperbrowser Extract API
   slug: extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-extract-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-extract-api-openapi.yml
 - filename: hyperbrowser-extensions-api-openapi.yml
   format: yaml
   label: Hyperbrowser Extensions API
   slug: extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-extensions-api-openapi.yml
 - filename: hyperbrowser-web-api-openapi.yml
   format: yaml
   label: Hyperbrowser Web API
   slug: web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-web-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-web-api-openapi.yml
 - filename: hyperbrowser-profile-api-openapi.yml
   format: yaml
   label: Hyperbrowser Profile API
   slug: hyperbrowser-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-profile-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-profile-api-openapi.yml
 - filename: hyperbrowser-session-api-openapi.yml
   format: yaml
   label: Hyperbrowser Session API
   slug: hyperbrowser-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-session-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-session-api-openapi.yml
 - filename: hyperbrowser-task-api-openapi.yml
   format: yaml
   label: Hyperbrowser Task API
   slug: hyperbrowser-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-task-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-task-api-openapi.yml
 - filename: hyperbrowser-x402-api-openapi.yml
   format: yaml
   label: Hyperbrowser X402 API
   slug: hyperbrowser-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-x402-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-x402-api-openapi.yml
 - filename: hyperbrowser-images-api-openapi.yml
   format: yaml
   label: Hyperbrowser Images API
   slug: hyperbrowser-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-images-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-images-api-openapi.yml
 - filename: hyperbrowser-sandboxes-api-openapi.yml
   format: yaml
   label: Hyperbrowser Sandboxes API
   slug: hyperbrowser-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-sandboxes-api-openapi.yml
 - filename: hyperbrowser-secrets-api-openapi.yml
   format: yaml
   label: Hyperbrowser Secrets API
   slug: hyperbrowser-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-secrets-api-openapi.yml
 - filename: hyperbrowser-snapshots-api-openapi.yml
   format: yaml
   label: Hyperbrowser Snapshots API
   slug: hyperbrowser-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-snapshots-api-openapi.yml
 - filename: hyperbrowser-vaults-api-openapi.yml
   format: yaml
   label: Hyperbrowser Vaults API
   slug: hyperbrowser-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-vaults-api-openapi.yml
 - filename: hyperbrowser-volumes-api-openapi.yml
   format: yaml
   label: Hyperbrowser Volumes API
   slug: hyperbrowser-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/hyperbrowser/openapi/hyperbrowser-volumes-api-openapi.yml
 consequence_counts:
   read: 32
   safety-critical: 6
@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hyperb
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/task/cua/{id}\n  method: get\n  operationId: getApiTaskCuaById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/task/cua/{id}/stop\n  method: put\n  operationId: putApiTaskCuaByIdStop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/task/cua/{id}/status\n  method: get\n  operationId: getApiTaskCuaByIdStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/web/fetch\n \
   \ method: post\n  operationId: postApiWebFetch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/web/search\n  method: post\n  operationId: postApiWebSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/web/crawl\n  method: post\n  operationId: postApiWebCrawl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/web/crawl/{id}\n  method: get\n  operationId: getApiWebCrawlById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/web/crawl/{id}/status\n\
   \  method: get\n  operationId: getApiWebCrawlByIdStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /x402/web/fetch\n  method: post\n  operationId: postX402WebFetch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /x402/web/search\n  method: post\n  operationId: postX402WebSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/agentic-access/hyperbrowser-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hyperbrowser/agentic-access/hyperbrowser-agentic-access.yml
 summary_line: 54 operations · 22 acting · 6 human-in-the-loop
 tags:
 - Browser Automation

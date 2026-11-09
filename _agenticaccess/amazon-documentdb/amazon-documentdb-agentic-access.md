@@ -9,7 +9,55 @@ api_specs:
   label: Amazon DocumentDB Amazon DocumentDB API
   slug: amazon-documentdb-amazon-documentdb-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/openapi/amazon-documentdb-amazon-documentdb-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-amazon-documentdb-api-api-openapi.yml
+- filename: amazon-documentdb-db-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Db Cluster API
+  slug: amazon-documentdb-db-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-db-cluster-api-openapi.yml
+- filename: amazon-documentdb-db-cluster-parameter-group-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Db Cluster Parameter Group API
+  slug: amazon-documentdb-db-cluster-parameter-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-db-cluster-parameter-group-api-openapi.yml
+- filename: amazon-documentdb-db-cluster-snapshot-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Db Cluster Snapshot API
+  slug: amazon-documentdb-db-cluster-snapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-db-cluster-snapshot-api-openapi.yml
+- filename: amazon-documentdb-db-subnet-group-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Db Subnet Group API
+  slug: amazon-documentdb-db-subnet-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-db-subnet-group-api-openapi.yml
+- filename: amazon-documentdb-event-subscription-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Event Subscription API
+  slug: amazon-documentdb-event-subscription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-event-subscription-api-openapi.yml
+- filename: amazon-documentdb-global-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Global Cluster API
+  slug: amazon-documentdb-global-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-global-cluster-api-openapi.yml
+- filename: amazon-documentdb-operations-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Operations API
+  slug: amazon-documentdb-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-operations-api-openapi.yml
+- filename: amazon-documentdb-tag-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Tag API
+  slug: amazon-documentdb-tag-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-tag-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3
@@ -38,7 +86,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-documentdb-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 3\n    connected: 2\n  by_consequence:\n    write: 3\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: post\n  operationId: createDBCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: describeDBClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#DeleteDBCluster\n  method: post\n  operationId: deleteDBCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#CreateDBInstance\n  method: post\n  operationId: createDBInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DescribeDBInstances\n  method: get\n  operationId: describeDBInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/agentic-access/amazon-documentdb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-documentdb/agentic-access/amazon-documentdb-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
 - Amazon Web Services

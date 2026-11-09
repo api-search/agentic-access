@@ -9,55 +9,55 @@ api_specs:
   label: Brightfield Software Authentication API
   slug: distyra-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/openapi/distyra-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/distyra/openapi/distyra-authentication-api-openapi.yml
 - filename: distyra-billing-api-openapi.yml
   format: yaml
   label: Brightfield Software Billing API
   slug: distyra-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/openapi/distyra-billing-api-openapi.yml
+  url: https://artifacts.apis.io/distyra/openapi/distyra-billing-api-openapi.yml
 - filename: distyra-catalog-api-openapi.yml
   format: yaml
   label: Brightfield Software Catalog API
   slug: distyra-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/openapi/distyra-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/distyra/openapi/distyra-catalog-api-openapi.yml
 - filename: distyra-connect-api-openapi.yml
   format: yaml
   label: Brightfield Software Connect API
   slug: distyra-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/openapi/distyra-connect-api-openapi.yml
+  url: https://artifacts.apis.io/distyra/openapi/distyra-connect-api-openapi.yml
 - filename: distyra-enrichment-api-openapi.yml
   format: yaml
   label: Brightfield Software Enrichment API
   slug: distyra-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/openapi/distyra-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/distyra/openapi/distyra-enrichment-api-openapi.yml
 - filename: distyra-feedback-api-openapi.yml
   format: yaml
   label: Brightfield Software Feedback API
   slug: distyra-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/openapi/distyra-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/distyra/openapi/distyra-feedback-api-openapi.yml
 - filename: distyra-system-api-openapi.yml
   format: yaml
   label: Brightfield Software System API
   slug: distyra-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/openapi/distyra-system-api-openapi.yml
+  url: https://artifacts.apis.io/distyra/openapi/distyra-system-api-openapi.yml
 - filename: distyra-underwriting-api-openapi.yml
   format: yaml
   label: Brightfield Software Underwriting API
   slug: distyra-underwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/openapi/distyra-underwriting-api-openapi.yml
+  url: https://artifacts.apis.io/distyra/openapi/distyra-underwriting-api-openapi.yml
 - filename: distyra-webhooks-api-openapi.yml
   format: yaml
   label: Brightfield Software Webhooks API
   slug: distyra-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/openapi/distyra-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/distyra/openapi/distyra-webhooks-api-openapi.yml
 consequence_counts:
   read: 24
   safety-critical: 3
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-10-16'\nmethod: generated\nsource: openapi/distyr
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/connect/connections\n  method: get\n  operationId: listConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connect/connections/{id}\n  method: get\n  operationId: getConnection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connect/connections/{id}\n  method: delete\n  operationId: revokeConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/connect/connections/{id}/accounts\n\
   \  method: get\n  operationId: getConnectionAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connect/connections/{id}/identity\n  method: get\n  operationId: getConnectionIdentity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connect/connections/{id}/transactions\n  method: get\n  operationId: getConnectionTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connect/connections/{id}/revoke-link\n  method: post\n  operationId: createConnectionRevokeLink\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/connect/hosted-link\n  method: post\n  operationId: createHostedConnectLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/keys/rotate\n  method: post\n  operationId: rotateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/distyra/refs/heads/main/agentic-access/distyra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/distyra/agentic-access/distyra-agentic-access.yml
 summary_line: 50 operations · 26 acting · 3 human-in-the-loop
 tags:
 - Company

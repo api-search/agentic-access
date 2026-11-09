@@ -9,49 +9,49 @@ api_specs:
   label: HookLogic (Criteo) Accounts API
   slug: hooklogic-criteo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-accounts-api-openapi.yml
 - filename: hooklogic-criteo-analytics-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Analytics API
   slug: hooklogic-criteo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-analytics-api-openapi.yml
 - filename: hooklogic-criteo-audience-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Audience API
   slug: hooklogic-criteo-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-audience-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-audience-api-openapi.yml
 - filename: hooklogic-criteo-balance-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Balance API
   slug: hooklogic-criteo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-balance-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-balance-api-openapi.yml
 - filename: hooklogic-criteo-billing-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Billing API
   slug: hooklogic-criteo-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-billing-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-billing-api-openapi.yml
 - filename: hooklogic-criteo-campaign-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Campaign API
   slug: hooklogic-criteo-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-campaign-api-openapi.yml
 - filename: hooklogic-criteo-catalog-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Catalog API
   slug: hooklogic-criteo-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-catalog-api-openapi.yml
 - filename: hooklogic-criteo-gateway-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Gateway API
   slug: hooklogic-criteo-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-gateway-api-openapi.yml
 consequence_counts:
   read: 48
   safety-critical: 2
@@ -124,8 +124,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hooklo
   \ optional\n    scope:\n    - RetailMedia_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/retail-media/categories/{categoryId}\n  method: get\n  operationId: GetCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - RetailMedia_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/retail-media/line-items/{externalLineItemId}/keywords/recommended\n  method: get\n  operationId: GetRecommendedKeywords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - RetailMedia_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/retail-media/line-items/{id}/keywords\n  method: get\n  operationId: FetchKeywords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - RetailMedia_Campaign_Read\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /2026-07/retail-media/line-items/{id}/keywords/add-remove\n  method: post\n  operationId: AddRemoveKeywords\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - RetailMedia_Campaign_Manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2026-07/retail-media/line-items/{id}/keywords/set-bid\n  method: post\n  operationId: SetKeywordBids\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - RetailMedia_Campaign_Manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2026-07/retail-media/line-items/{line-item-id}\n  method: get\n  operationId: GetLineItemsByCampaignId\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - RetailMedia_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/retail-media/line-items/{line-item-id}/bid-multipliers\n  method: get\n  operationId: GetBidMultipliersByLineItemId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - RetailMedia_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/retail-media/line-items/{line-item-id}/bid-multipliers\n  method: put\n  operationId: UpdateBidMultipliersByLineItemId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - RetailMedia_Campaign_Manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2026-07/retail-media/line-items/{line-item-id}/keywords/review\n\
-  \  method: post\n  operationId: UpdateKeywordReviews\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - RetailMedia_Campaign_Manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2026-07/retail-media/line-items/{line-item-id}/products\n  method: get\n  operationId: FetchPromotedProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - RetailMedia_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/agentic-access/hooklogic-criteo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/agentic-access/hooklogic-criteo-agentic-access.yml
+  \  method: post\n  operationId: UpdateKeywordReviews\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - RetailMedia_Campaign_Manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2026-07/retail-media/line-items/{line-item-id}/products\n  method: get\n  operationId: FetchPromotedProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - RetailMedia_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://artifacts.apis.io/hooklogic-criteo/agentic-access/hooklogic-criteo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/hooklogic-criteo/agentic-access/hooklogic-criteo-agentic-access.yml
 summary_line: 114 operations · 66 acting · 2 human-in-the-loop
 tags:
 - Company

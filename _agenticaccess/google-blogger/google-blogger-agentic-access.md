@@ -9,13 +9,13 @@ api_specs:
   label: Google Blogger Blogs API
   slug: google-blogger-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/openapi/google-blogger-blogs-api-openapi.yml
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-blogs-api-openapi.yml
 - filename: google-blogger-users-api-openapi.yml
   format: yaml
   label: Google Blogger Users API
   slug: google-blogger-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/openapi/google-blogger-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-users-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blogge
   \  method: put\n  operationId: updatePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /blogs/{blogId}/posts/{postId}\n  method: patch\n  operationId: patchPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /blogs/{blogId}/posts/{postId}\n  method: delete\n  operationId: deletePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /blogs/{blogId}/posts/search\n  method: get\n  operationId: searchPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blogs/{blogId}/pages\n  method: get\n  operationId: listPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blogs/{blogId}/pages\n  method: post\n  operationId: insertPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /blogs/{blogId}/posts/{postId}/comments\n  method: get\n  operationId: listComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blogs/{blogId}/posts/{postId}/comments/{commentId}\n  method: get\n  operationId: getComment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blogs/{blogId}/posts/{postId}/comments/{commentId}\n  method: delete\n  operationId: deleteComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/agentic-access/google-blogger-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-blogger/agentic-access/google-blogger-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - Blogging

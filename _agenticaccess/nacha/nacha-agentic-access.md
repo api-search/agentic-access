@@ -9,115 +9,115 @@ api_specs:
   label: Nacha Account Validation API
   slug: nacha-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-account-validation-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-account-validation-api-openapi.yml
 - filename: nacha-accounts-api-openapi.yml
   format: yaml
   label: Nacha Accounts API
   slug: nacha-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-accounts-api-openapi.yml
 - filename: nacha-ach-payments-api-openapi.yml
   format: yaml
   label: Nacha ACH Payments API
   slug: nacha-ach-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-ach-payments-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-ach-payments-api-openapi.yml
 - filename: nacha-ach-transaction-status-api-openapi.yml
   format: yaml
   label: Nacha ACH Transaction Status API
   slug: nacha-ach-transaction-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-ach-transaction-status-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-ach-transaction-status-api-openapi.yml
 - filename: nacha-authorize-to-pay-api-openapi.yml
   format: yaml
   label: Nacha Authorize to Pay API
   slug: nacha-authorize-to-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-authorize-to-pay-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-authorize-to-pay-api-openapi.yml
 - filename: nacha-banks-api-openapi.yml
   format: yaml
   label: Nacha Banks API
   slug: nacha-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-banks-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-banks-api-openapi.yml
 - filename: nacha-expand-bank-contact-v2-api-openapi.yml
   format: yaml
   label: Nacha Expand Bank Contact V2 API
   slug: nacha-expand-bank-contact-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-expand-bank-contact-v2-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-expand-bank-contact-v2-api-openapi.yml
 - filename: nacha-get-corporate-account-balances-api-openapi.yml
   format: yaml
   label: Nacha Get Corporate Account Balances API
   slug: nacha-get-corporate-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-get-corporate-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-get-corporate-account-balances-api-openapi.yml
 - filename: nacha-get-corporate-transaction-history-api-openapi.yml
   format: yaml
   label: Nacha Get Corporate Transaction History API
   slug: nacha-get-corporate-transaction-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-get-corporate-transaction-history-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-get-corporate-transaction-history-api-openapi.yml
 - filename: nacha-get-participants-profile-api-openapi.yml
   format: yaml
   label: Nacha Get Participants Profile API
   slug: nacha-get-participants-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-get-participants-profile-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-get-participants-profile-api-openapi.yml
 - filename: nacha-initiate-payment-api-openapi.yml
   format: yaml
   label: Nacha Initiate Payment API
   slug: nacha-initiate-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-initiate-payment-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-initiate-payment-api-openapi.yml
 - filename: nacha-instant-payment-api-openapi.yml
   format: yaml
   label: Nacha Instant Payment API
   slug: nacha-instant-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-instant-payment-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-instant-payment-api-openapi.yml
 - filename: nacha-instant-payment-transfer-api-openapi.yml
   format: yaml
   label: Nacha Instant Payment Transfer API
   slug: nacha-instant-payment-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-instant-payment-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-instant-payment-transfer-api-openapi.yml
 - filename: nacha-international-ach-remittance-iar-api-openapi.yml
   format: yaml
   label: Nacha International ACH Remittance (IAR) API
   slug: nacha-international-ach-remittance-iar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-international-ach-remittance-iar-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-international-ach-remittance-iar-api-openapi.yml
 - filename: nacha-proof-of-authorization-api-openapi.yml
   format: yaml
   label: Nacha Proof of Authorization API
   slug: nacha-proof-of-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-proof-of-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-proof-of-authorization-api-openapi.yml
 - filename: nacha-reporting-ach-return-payments-api-openapi.yml
   format: yaml
   label: Nacha Reporting ACH Return Payments API
   slug: nacha-reporting-ach-return-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-reporting-ach-return-payments-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-reporting-ach-return-payments-api-openapi.yml
 - filename: nacha-route-billing-information-api-openapi.yml
   format: yaml
   label: Nacha Route Billing Information API
   slug: nacha-route-billing-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-route-billing-information-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-route-billing-information-api-openapi.yml
 - filename: nacha-wire-transfer-api-openapi.yml
   format: yaml
   label: Nacha Wire Transfer API
   slug: nacha-wire-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-wire-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-wire-transfer-api-openapi.yml
 - filename: nacha-written-statement-of-unauthorized-debit-wsud-api-openapi.yml
   format: yaml
   label: Nacha Written Statement of Unauthorized Debit (WSUD) API
   slug: nacha-written-statement-of-unauthorized-debit-wsud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/openapi/nacha-written-statement-of-unauthorized-debit-wsud-api-openapi.yml
+  url: https://artifacts.apis.io/nacha/openapi/nacha-written-statement-of-unauthorized-debit-wsud-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 8
@@ -227,7 +227,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nacha-
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ret\n  method: post\n  operationId: Reporting ACH Return Payments\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/payers/bill\n  method: post\n  operationId: Route Billing Information\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /wirestatus\n  method: post\n  operationId: Wire Status\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wire\n  method: post\n  operationId: Initiate Wire Transfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/WSUD\n  method: post\n  operationId: Written Statement of Unauthorized Debit - Request\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/agentic-access/nacha-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nacha/agentic-access/nacha-agentic-access.yml
 summary_line: 30 operations · 22 acting
 tags:
 - Payments

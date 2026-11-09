@@ -9,37 +9,37 @@ api_specs:
   label: CrewAI AMP Webhook Streaming
   slug: crewai-amp-webhook-streaming
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/asyncapi/crewai-amp-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/asyncapi/crewai-amp-webhooks-asyncapi.yml
 - filename: crewai-cloud-blog-posts-api-openapi.yml
   format: yaml
   label: CrewAI Cloud Blog Posts API
   slug: crewai-cloud-blog-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-blog-posts-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-blog-posts-api-openapi.yml
 - filename: crewai-cloud-case-studies-api-openapi.yml
   format: yaml
   label: CrewAI Cloud Case Studies API
   slug: crewai-cloud-case-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-case-studies-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-case-studies-api-openapi.yml
 - filename: crewai-cloud-events-api-openapi.yml
   format: yaml
   label: CrewAI Cloud Events API
   slug: crewai-cloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-events-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-events-api-openapi.yml
 - filename: crewai-cloud-health-api-openapi.yml
   format: yaml
   label: CrewAI Cloud Health API
   slug: crewai-cloud-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-health-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-health-api-openapi.yml
 - filename: crewai-cloud-webinars-api-openapi.yml
   format: yaml
   label: CrewAI Cloud Webinars API
   slug: crewai-cloud-webinars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-webinars-api-openapi.yml
+  url: https://artifacts.apis.io/crewai-cloud/openapi/crewai-cloud-webinars-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2
@@ -67,7 +67,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/crewai-amp-rest-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 2\n    acting: 2\n  by_consequence:\n    read: 2\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /inputs\n  method: get\n  operationId: listInputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kickoff\n  method: post\n  operationId: kickoffCrew\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /status/{kickoff_id}\n  method: get\n  operationId: getKickoffStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resume\n  method: post\n  operationId: resumeKickoff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/agentic-access/crewai-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crewai-cloud/agentic-access/crewai-cloud-agentic-access.yml
 summary_line: 4 operations · 2 acting
 tags:
 - AI Agents

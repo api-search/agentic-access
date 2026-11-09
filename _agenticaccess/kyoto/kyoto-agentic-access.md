@@ -8,19 +8,19 @@ api_specs:
   label: KURENAI OAI-PMH API
   slug: kyoto-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/kyoto/openapi/kyoto-oai-pmh-api-openapi.yml
 - filename: kyoto-rest-api-openapi.yml
   format: yaml
   label: KURENAI DSpace REST API
   slug: kyoto-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-rest-api-openapi.yml
+  url: https://artifacts.apis.io/kyoto/openapi/kyoto-rest-api-openapi.yml
 - filename: kyoto-lms-api-openapi.yml
   format: yaml
   label: PandA Learning Support System API (Sakai Entity Broker + IMS LTI)
   slug: kyoto-lms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-lms-api-openapi.yml
+  url: https://artifacts.apis.io/kyoto/openapi/kyoto-lms-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPIs in this repository. A governance starting point for exposing these surfaces to AI agents — review and bind audience per deployment. Every operation covered here is an anonymous or session-gated READ; Kyoto University publishes no write surface. See research/curity/agentic-governance/.
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: generated\nsource: openapi/_origi
   \ none\n- path: /direct/lti.json\n  method: get\n  operationId: listLtiTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /direct/session.json\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /direct/user.json\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 3600\n    audit: none\n    note: Anonymous callers are refused (403/401/400). An agent needs a Kyoto University session, which\n      is federated through the IIMC Shibboleth IdP — treat as out of scope for unattended agents.\n- path: /direct/poll.json\n  method: get\n  operationId: listPolls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: required\n    token:\n      max-ttl: 3600\n    audit: none\n    note: Anonymous callers are refused (403/401/400). An agent needs a Kyoto University session, which\n      is federated through the IIMC Shibboleth IdP — treat as out of scope for unattended agents.\n- path: /direct/membership.json\n  method: get\n  operationId: listMemberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 3600\n    audit: none\n    note: Anonymous callers are refused (403/401/400). An agent needs a Kyoto University session, which\n      is federated through the IIMC Shibboleth IdP — treat as out of scope for unattended agents.\n- path: /imsblis/lti13/keyset\n  method: get\n  operationId: getLti13Keyset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /imsblis/service/\n  method: get\n  operationId: ltiBasicOutcomesService\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    note: LTI 1.1 grade passback. Reads succeed but real use is a signed POST that writes grades — do\n      not let an agent call this without a human.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/agentic-access/kyoto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kyoto/agentic-access/kyoto-agentic-access.yml
 summary_line: 21 operations
 tags:
 - University

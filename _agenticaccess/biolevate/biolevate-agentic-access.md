@@ -9,55 +9,55 @@ api_specs:
   label: Biolevate Agent API
   slug: biolevate-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-agent-api-openapi.yml
+  url: https://artifacts.apis.io/biolevate/openapi/biolevate-agent-api-openapi.yml
 - filename: biolevate-collections-api-openapi.yml
   format: yaml
   label: Biolevate Collections API
   slug: biolevate-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-collections-api-openapi.yml
+  url: https://artifacts.apis.io/biolevate/openapi/biolevate-collections-api-openapi.yml
 - filename: biolevate-extraction-api-openapi.yml
   format: yaml
   label: Biolevate Extraction API
   slug: biolevate-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/biolevate/openapi/biolevate-extraction-api-openapi.yml
 - filename: biolevate-files-api-openapi.yml
   format: yaml
   label: Biolevate Files API
   slug: biolevate-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-files-api-openapi.yml
+  url: https://artifacts.apis.io/biolevate/openapi/biolevate-files-api-openapi.yml
 - filename: biolevate-find-similar-files-api-openapi.yml
   format: yaml
   label: Biolevate Find similar files API
   slug: biolevate-find-similar-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-find-similar-files-api-openapi.yml
+  url: https://artifacts.apis.io/biolevate/openapi/biolevate-find-similar-files-api-openapi.yml
 - filename: biolevate-multi-dimensional-extraction-api-openapi.yml
   format: yaml
   label: Biolevate Multi-Dimensional Extraction API
   slug: biolevate-multi-dimensional-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-multi-dimensional-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/biolevate/openapi/biolevate-multi-dimensional-extraction-api-openapi.yml
 - filename: biolevate-provider-items-api-openapi.yml
   format: yaml
   label: Biolevate Provider Items API
   slug: biolevate-provider-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-provider-items-api-openapi.yml
+  url: https://artifacts.apis.io/biolevate/openapi/biolevate-provider-items-api-openapi.yml
 - filename: biolevate-providers-api-openapi.yml
   format: yaml
   label: Biolevate Providers API
   slug: biolevate-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-providers-api-openapi.yml
+  url: https://artifacts.apis.io/biolevate/openapi/biolevate-providers-api-openapi.yml
 - filename: biolevate-question-answering-api-openapi.yml
   format: yaml
   label: Biolevate Question Answering API
   slug: biolevate-question-answering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/biolevate-question-answering-api-openapi.yml
+  url: https://artifacts.apis.io/biolevate/openapi/biolevate-question-answering-api-openapi.yml
 consequence_counts:
   read: 33
   write: 19
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/biolev
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/core/extraction/jobs/{jobId}/results\n  method: get\n  operationId: getExtractionJobOutputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/core/extraction/jobs/{jobId}/inputs\n  method: get\n  operationId: getExtractionJobInputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/core/extraction/jobs/{jobId}/annotations\n  method: get\n  operationId: getExtractionJobAnnotations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/core/agent/jobs/{jobId}\n  method: get\n  operationId: getAgentJob\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/core/agent/jobs/{jobId}/results\n  method: get\n  operationId: getAgentJobOutputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/core/agent/jobs/{jobId}/inputs\n  method: get\n  operationId: getAgentJobInputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/core/agent/jobs/{jobId}/annotations\n  method: get\n  operationId: getAgentJobAnnotations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/core/collections/{id}/files/{fileId}\n  method: delete\n  operationId: removeFileFromCollection\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/agentic-access/biolevate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/biolevate/agentic-access/biolevate-agentic-access.yml
 summary_line: 52 operations · 19 acting
 tags:
 - Company

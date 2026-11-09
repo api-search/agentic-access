@@ -9,19 +9,19 @@ api_specs:
   label: API3 Airnodes API
   slug: api3-airnodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/api3-airnodes-api-openapi.yml
+  url: https://artifacts.apis.io/api3/openapi/api3-airnodes-api-openapi.yml
 - filename: api3-signed-data-api-openapi.yml
   format: yaml
   label: API3 Signed Data API
   slug: api3-signed-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/api3-signed-data-api-openapi.yml
+  url: https://artifacts.apis.io/api3/openapi/api3-signed-data-api-openapi.yml
 - filename: api3-status-api-openapi.yml
   format: yaml
   label: API3 Status API
   slug: api3-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/api3-status-api-openapi.yml
+  url: https://artifacts.apis.io/api3/openapi/api3-status-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/api3-signed-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 3\n    acting: 1\n  by_consequence:\n    read: 3\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airnodes\n  method: get\n  operationId: listAirnodeAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{airnodeAddress}\n  method: get\n  operationId:\
   \ getSignedData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{airnodeAddress}\n  method: post\n  operationId: batchInsertSignedData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/agentic-access/api3-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/api3/agentic-access/api3-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
 - Blockchain

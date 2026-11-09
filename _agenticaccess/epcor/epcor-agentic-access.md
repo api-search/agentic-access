@@ -8,43 +8,43 @@ api_specs:
   label: EPCOR Boundaries API
   slug: epcor-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/epcor/openapi/epcor-boundaries-api-openapi.yml
 - filename: epcor-catalog-api-openapi.yml
   format: yaml
   label: EPCOR Catalog API
   slug: epcor-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/epcor/openapi/epcor-catalog-api-openapi.yml
 - filename: epcor-infrastructure-api-openapi.yml
   format: yaml
   label: EPCOR Infrastructure API
   slug: epcor-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/epcor/openapi/epcor-infrastructure-api-openapi.yml
 - filename: epcor-power-outages-api-openapi.yml
   format: yaml
   label: EPCOR Power Outages API
   slug: epcor-power-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-power-outages-api-openapi.yml
+  url: https://artifacts.apis.io/epcor/openapi/epcor-power-outages-api-openapi.yml
 - filename: epcor-service-areas-api-openapi.yml
   format: yaml
   label: EPCOR Service Areas API
   slug: epcor-service-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-service-areas-api-openapi.yml
+  url: https://artifacts.apis.io/epcor/openapi/epcor-service-areas-api-openapi.yml
 - filename: epcor-us-water-outages-api-openapi.yml
   format: yaml
   label: EPCOR Us Water Outages API
   slug: epcor-us-water-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-us-water-outages-api-openapi.yml
+  url: https://artifacts.apis.io/epcor/openapi/epcor-us-water-outages-api-openapi.yml
 - filename: epcor-water-outages-api-openapi.yml
   format: yaml
   label: EPCOR Water Outages API
   slug: epcor-water-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/openapi/epcor-water-outages-api-openapi.yml
+  url: https://artifacts.apis.io/epcor/openapi/epcor-water-outages-api-openapi.yml
 consequence_counts:
   read: 115
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/epcor-
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /water_canada_outages_prod/FeatureServer\n  method: get\n  operationId: getWaterCanadaOutagesProdService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /water_canada_outages_prod/FeatureServer/0\n  method: get\n  operationId: getWaterCanadaOutagesProdLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /water_canada_outages_prod/FeatureServer/0/query\n  method: get\n  operationId: queryWaterCanadaOutagesProd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Water_InfrastructureProjects_Prod/FeatureServer\n  method: get\n  operationId: getWaterInfrastructureProjectsProdService\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Water_InfrastructureProjects_Prod/FeatureServer/0\n  method: get\n  operationId: getWaterInfrastructureProjectsProdL0Layer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Water_InfrastructureProjects_Prod/FeatureServer/0/query\n  method: get\n  operationId: queryWaterInfrastructureProjectsProdL0\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Water_InfrastructureProjects_Prod/FeatureServer/1\n  method: get\n  operationId: getWaterInfrastructureProjectsProdL1Layer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Water_InfrastructureProjects_Prod/FeatureServer/1/query\n\
   \  method: get\n  operationId: queryWaterInfrastructureProjectsProdL1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/agentic-access/epcor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/epcor/agentic-access/epcor-agentic-access.yml
 summary_line: 115 operations
 tags:
 - Energy

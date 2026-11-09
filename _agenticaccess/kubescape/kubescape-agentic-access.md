@@ -9,37 +9,37 @@ api_specs:
   label: Kubescape Access Keys API
   slug: kubescape-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-access-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-access-keys-api-openapi.yml
 - filename: kubescape-network-policies-api-openapi.yml
   format: yaml
   label: Kubescape Network Policies API
   slug: kubescape-network-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-network-policies-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-network-policies-api-openapi.yml
 - filename: kubescape-posture-compliance-api-openapi.yml
   format: yaml
   label: Kubescape Posture & Compliance API
   slug: kubescape-posture-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-posture-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-posture-compliance-api-openapi.yml
 - filename: kubescape-registry-repository-api-openapi.yml
   format: yaml
   label: Kubescape Registry & Repository API
   slug: kubescape-registry-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-registry-repository-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-registry-repository-api-openapi.yml
 - filename: kubescape-runtime-security-api-openapi.yml
   format: yaml
   label: Kubescape Runtime Security API
   slug: kubescape-runtime-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-runtime-security-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-runtime-security-api-openapi.yml
 - filename: kubescape-vulnerabilities-api-openapi.yml
   format: yaml
   label: Kubescape Vulnerabilities API
   slug: kubescape-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/openapi/kubescape-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/kubescape/openapi/kubescape-vulnerabilities-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 2
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kubesc
   \ post\n  operationId: resolveRuntimeIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /attackChains\n  method: post\n  operationId: getAttackChains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityRisks\n  method: get\n  operationId: getSecurityRisks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability/scan\n  method: post\n  operationId: startVulnerabilityScan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vulnerability/scanResults/summary\n  method: post\n  operationId: getVulnerabilityScanSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability/scanResults/details\n  method: post\n  operationId: getVulnerabilityScanDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability/severity\n  method: post\n  operationId: getVulnerabilitySeverity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerabilities/list\n  method: post\n  operationId: listVulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images/list\n  method: post\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/agentic-access/kubescape-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kubescape/agentic-access/kubescape-agentic-access.yml
 summary_line: 23 operations · 8 acting · 2 human-in-the-loop
 tags:
 - Kubernetes Security

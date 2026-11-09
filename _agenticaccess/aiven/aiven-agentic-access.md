@@ -9,205 +9,235 @@ api_specs:
   label: Aiven Account API
   slug: aiven-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-account-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-account-api-openapi.yml
 - filename: aiven-application-users-api-openapi.yml
   format: yaml
   label: Aiven Application_Users API
   slug: aiven-application-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-application-users-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-application-users-api-openapi.yml
 - filename: aiven-authentication-methods-api-openapi.yml
   format: yaml
   label: Aiven Authentication_Methods API
   slug: aiven-authentication-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-authentication-methods-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-authentication-methods-api-openapi.yml
 - filename: aiven-billing-api-openapi.yml
   format: yaml
   label: Aiven Billing API
   slug: aiven-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-billing-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-billing-api-openapi.yml
 - filename: aiven-billinggroup-api-openapi.yml
   format: yaml
   label: Aiven BillingGroup API
   slug: aiven-billinggroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-billinggroup-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-billinggroup-api-openapi.yml
 - filename: aiven-cloud-platforms-api-openapi.yml
   format: yaml
   label: Aiven Cloud_platforms API
   slug: aiven-cloud-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-cloud-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-cloud-platforms-api-openapi.yml
 - filename: aiven-custom-cloud-api-openapi.yml
   format: yaml
   label: Aiven Custom_Cloud API
   slug: aiven-custom-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-custom-cloud-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-custom-cloud-api-openapi.yml
 - filename: aiven-domains-api-openapi.yml
   format: yaml
   label: Aiven Domains API
   slug: aiven-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-domains-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-domains-api-openapi.yml
 - filename: aiven-groups-api-openapi.yml
   format: yaml
   label: Aiven Groups API
   slug: aiven-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-groups-api-openapi.yml
 - filename: aiven-organization-vpc-api-openapi.yml
   format: yaml
   label: Aiven Organization_Vpc API
   slug: aiven-organization-vpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-organization-vpc-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-organization-vpc-api-openapi.yml
 - filename: aiven-organizationbillinggroup-api-openapi.yml
   format: yaml
   label: Aiven OrganizationBillingGroup API
   slug: aiven-organizationbillinggroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-organizationbillinggroup-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-organizationbillinggroup-api-openapi.yml
 - filename: aiven-organizationemissions-api-openapi.yml
   format: yaml
   label: Aiven OrganizationEmissions API
   slug: aiven-organizationemissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-organizationemissions-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-organizationemissions-api-openapi.yml
 - filename: aiven-organizationpaymentmethod-api-openapi.yml
   format: yaml
   label: Aiven OrganizationPaymentMethod API
   slug: aiven-organizationpaymentmethod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-organizationpaymentmethod-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-organizationpaymentmethod-api-openapi.yml
 - filename: aiven-organizations-api-openapi.yml
   format: yaml
   label: Aiven Organizations API
   slug: aiven-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-organizations-api-openapi.yml
 - filename: aiven-payment-api-openapi.yml
   format: yaml
   label: Aiven Payment API
   slug: aiven-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-payment-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-payment-api-openapi.yml
 - filename: aiven-permissions-api-openapi.yml
   format: yaml
   label: Aiven Permissions API
   slug: aiven-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-permissions-api-openapi.yml
 - filename: aiven-project-api-openapi.yml
   format: yaml
   label: Aiven Project API
   slug: aiven-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-project-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-project-api-openapi.yml
 - filename: aiven-project-billing-api-openapi.yml
   format: yaml
   label: Aiven Project_Billing API
   slug: aiven-project-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-project-billing-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-project-billing-api-openapi.yml
 - filename: aiven-project-key-management-api-openapi.yml
   format: yaml
   label: Aiven Project_Key_Management API
   slug: aiven-project-key-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-project-key-management-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-project-key-management-api-openapi.yml
 - filename: aiven-secrets-api-openapi.yml
   format: yaml
   label: Aiven Secrets API
   slug: aiven-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-secrets-api-openapi.yml
 - filename: aiven-service-api-openapi.yml
   format: yaml
   label: Aiven Service API
   slug: aiven-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-api-openapi.yml
 - filename: aiven-service-clickhouse-api-openapi.yml
   format: yaml
   label: Aiven Service:_ClickHouse API
   slug: aiven-service-clickhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-clickhouse-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-clickhouse-api-openapi.yml
 - filename: aiven-service-flink-api-openapi.yml
   format: yaml
   label: Aiven Service:_Flink API
   slug: aiven-service-flink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-flink-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-flink-api-openapi.yml
 - filename: aiven-service-integrations-api-openapi.yml
   format: yaml
   label: Aiven Service_Integrations API
   slug: aiven-service-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-integrations-api-openapi.yml
 - filename: aiven-service-kafka-api-openapi.yml
   format: yaml
   label: Aiven Service:_Kafka API
   slug: aiven-service-kafka-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-kafka-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-kafka-api-openapi.yml
 - filename: aiven-service-kafka-mirrormaker-api-openapi.yml
   format: yaml
   label: Aiven Service:_Kafka_MirrorMaker API
   slug: aiven-service-kafka-mirrormaker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-kafka-mirrormaker-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-kafka-mirrormaker-api-openapi.yml
 - filename: aiven-service-mysql-api-openapi.yml
   format: yaml
   label: Aiven Service:_MySQL API
   slug: aiven-service-mysql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-mysql-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-mysql-api-openapi.yml
 - filename: aiven-service-opensearch-api-openapi.yml
   format: yaml
   label: Aiven Service:_OpenSearch API
   slug: aiven-service-opensearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-opensearch-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-opensearch-api-openapi.yml
 - filename: aiven-service-postgresql-api-openapi.yml
   format: yaml
   label: Aiven Service:_PostgreSQL API
   slug: aiven-service-postgresql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-postgresql-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-postgresql-api-openapi.yml
 - filename: aiven-service-thanos-api-openapi.yml
   format: yaml
   label: Aiven Service:_Thanos API
   slug: aiven-service-thanos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-service-thanos-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-thanos-api-openapi.yml
 - filename: aiven-staticip-api-openapi.yml
   format: yaml
   label: Aiven StaticIP API
   slug: aiven-staticip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-staticip-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-staticip-api-openapi.yml
 - filename: aiven-ticket-deprecated-api-openapi.yml
   format: yaml
   label: Aiven Ticket_[deprecated] API
   slug: aiven-ticket-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-ticket-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-ticket-deprecated-api-openapi.yml
 - filename: aiven-upgrade-pipeline-api-openapi.yml
   format: yaml
   label: Aiven Upgrade_pipeline API
   slug: aiven-upgrade-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-upgrade-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-upgrade-pipeline-api-openapi.yml
 - filename: aiven-users-api-openapi.yml
   format: yaml
   label: Aiven Users API
   slug: aiven-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/openapi/aiven-users-api-openapi.yml
+  url: https://artifacts.apis.io/aiven/openapi/aiven-users-api-openapi.yml
+- filename: aiven-aigateway-api-openapi.yml
+  format: yaml
+  label: Aiven AI Gateway API
+  slug: aiven-aigateway-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiven/openapi/aiven-aigateway-api-openapi.yml
+- filename: aiven-kafka-connect-custom-plugins-api-openapi.yml
+  format: yaml
+  label: Aiven Kafka Connect Custom Plugins API
+  slug: aiven-kafka-connect-custom-plugins-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiven/openapi/aiven-kafka-connect-custom-plugins-api-openapi.yml
+- filename: aiven-oauth2-api-openapi.yml
+  format: yaml
+  label: Aiven O Auth2 API
+  slug: aiven-oauth2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiven/openapi/aiven-oauth2-api-openapi.yml
+- filename: aiven-service-application-api-openapi.yml
+  format: yaml
+  label: 'Aiven Service: Application API'
+  slug: aiven-service-application-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-application-api-openapi.yml
+- filename: aiven-service-managed-agents-api-openapi.yml
+  format: yaml
+  label: 'Aiven Service: Managed Agents API'
+  slug: aiven-service-managed-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiven/openapi/aiven-service-managed-agents-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 213
@@ -396,8 +426,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aiven-
   \ put\n  operationId: CustomCloudEnvironmentUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounts:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/{organization_id}/custom-cloud-environments/{custom_cloud_environment_id}/permissions\n  method: get\n  operationId: CustomCloudEnvironmentPermissionsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/{organization_id}/custom-cloud-environments/{custom_cloud_environment_id}/permissions\n  method: put\n  operationId: CustomCloudEnvironmentPermissionsSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n\
   \    - accounts:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/{organization_id}/custom-cloud-environments/{custom_cloud_environment_id}/provision\n  method: post\n  operationId: CustomCloudEnvironmentProvision\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - accounts:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/{organization_id}/domains\n  method: post\n  operationId: OrganizationDomainAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounts:write\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/{organization_id}/domains\n  method: get\n  operationId: OrganizationDomainsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/{organization_id}/domains/{domain_id}\n  method: patch\n  operationId: OrganizationDomainUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounts:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/{organization_id}/domains/{domain_id}\n  method: delete\n  operationId: OrganizationDomainsRemove\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounts:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/{organization_id}/domains/{domain_id}/verify\n  method: post\n  operationId: OrganizationDomainVerify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounts:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (163 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/agentic-access/aiven-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/agentic-access/aiven-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounts:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/{organization_id}/domains/{domain_id}/verify\n  method: post\n  operationId: OrganizationDomainVerify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounts:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (163 KB total) ---\n# Full source: https://artifacts.apis.io/aiven/agentic-access/aiven-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/aiven/agentic-access/aiven-agentic-access.yml
 summary_line: 457 operations · 244 acting · 14 human-in-the-loop
 tags:
 - Managed Data Infrastructure

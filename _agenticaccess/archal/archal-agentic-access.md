@@ -9,13 +9,13 @@ api_specs:
   label: Archal Sessions API
   slug: archal-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/archal/openapi/archal-sessions-api-openapi.yml
 - filename: archal-environments-api-openapi.yml
   format: yaml
   label: Archal Environments API
   slug: archal-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-environments-api-openapi.yml
+  url: https://artifacts.apis.io/archal/openapi/archal-environments-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/archal
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/runs/{runId}\n  method: get\n  operationId: getRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/traces\n  method: get\n  operationId: listTraces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/traces\n  method: post\n  operationId: ingestTrace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/traces\n  method: delete\n  operationId: deleteTraces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/traces/{rootTraceId}\n  method: get\n  operationId: getTrace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runtime/{sessionId}/{cloneId}/api/{path}\n  method: get\n  operationId: proxyCloneGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runtime/{sessionId}/{cloneId}/api/{path}\n  method: post\n  operationId: proxyClonePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/agentic-access/archal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/archal/agentic-access/archal-agentic-access.yml
 summary_line: 16 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Company

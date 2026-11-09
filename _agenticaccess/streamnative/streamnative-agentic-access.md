@@ -9,19 +9,19 @@ api_specs:
   label: StreamNative Cloud Streamnative Io V1alpha1 API
   slug: streamnative-cloudstreamnativeio-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamnative/refs/heads/main/openapi/streamnative-cloudstreamnativeio-v1alpha1-api-openapi.yml
+  url: https://artifacts.apis.io/streamnative/openapi/streamnative-cloudstreamnativeio-v1alpha1-api-openapi.yml
 - filename: streamnative-ksn-consumer-group-api-openapi.yml
   format: yaml
   label: StreamNative Ksn Consumer Group API
   slug: streamnative-ksn-consumer-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamnative/refs/heads/main/openapi/streamnative-ksn-consumer-group-api-openapi.yml
+  url: https://artifacts.apis.io/streamnative/openapi/streamnative-ksn-consumer-group-api-openapi.yml
 - filename: streamnative-ksn-topics-api-openapi.yml
   format: yaml
   label: StreamNative Ksn Topics API
   slug: streamnative-ksn-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamnative/refs/heads/main/openapi/streamnative-ksn-topics-api-openapi.yml
+  url: https://artifacts.apis.io/streamnative/openapi/streamnative-ksn-topics-api-openapi.yml
 consequence_counts:
   read: 27
   write: 32
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/stream
   \ 3600\n    audit: none\n- path: /admin/v1/consumer-groups/{consumer_group_id}/lags\n  method: get\n  operationId: getConsumerGroupLags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/consumer-groups/{consumer_group_id}\n  method: get\n  operationId: listConsumerGroupsSpecifiedByTheConsumerGroupId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/consumer-groups/{consumer_group_id}/consumers\n  method: get\n  operationId: listConsumersBySpecifiedConsumerGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/topics\n  method: get\n  operationId: listTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/topics\n  method: post\n  operationId: createTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/topics/{topicName}\n  method: get\n  operationId: getTopic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/topics/{topicName}\n  method: delete\n  operationId: deleteTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/topics/{topicName}/messages\n\
   \  method: get\n  operationId: getTopicMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/topics/{topicName}/records\n  method: post\n  operationId: produceRecords\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/topics/{topicName}/unload\n  method: put\n  operationId: unloadTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamnative/refs/heads/main/agentic-access/streamnative-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/streamnative/agentic-access/streamnative-agentic-access.yml
 summary_line: 59 operations · 32 acting
 tags:
 - Company

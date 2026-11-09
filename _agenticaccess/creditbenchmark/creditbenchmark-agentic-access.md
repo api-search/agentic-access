@@ -9,55 +9,55 @@ api_specs:
   label: Credit Benchmark Analytics API
   slug: creditbenchmark-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/creditbenchmark/openapi/creditbenchmark-analytics-api-openapi.yml
 - filename: creditbenchmark-authentication-api-openapi.yml
   format: yaml
   label: Credit Benchmark Authentication API
   slug: creditbenchmark-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/creditbenchmark/openapi/creditbenchmark-authentication-api-openapi.yml
 - filename: creditbenchmark-contributor-data-api-openapi.yml
   format: yaml
   label: Credit Benchmark Contributor Data API
   slug: creditbenchmark-contributor-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-contributor-data-api-openapi.yml
+  url: https://artifacts.apis.io/creditbenchmark/openapi/creditbenchmark-contributor-data-api-openapi.yml
 - filename: creditbenchmark-entity-data-api-openapi.yml
   format: yaml
   label: Credit Benchmark Entity Data API
   slug: creditbenchmark-entity-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-entity-data-api-openapi.yml
+  url: https://artifacts.apis.io/creditbenchmark/openapi/creditbenchmark-entity-data-api-openapi.yml
 - filename: creditbenchmark-entity-matching-api-openapi.yml
   format: yaml
   label: Credit Benchmark Entity Matching API
   slug: creditbenchmark-entity-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-entity-matching-api-openapi.yml
+  url: https://artifacts.apis.io/creditbenchmark/openapi/creditbenchmark-entity-matching-api-openapi.yml
 - filename: creditbenchmark-portfolio-analytics-api-openapi.yml
   format: yaml
   label: Credit Benchmark Portfolio Analytics API
   slug: creditbenchmark-portfolio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-portfolio-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/creditbenchmark/openapi/creditbenchmark-portfolio-analytics-api-openapi.yml
 - filename: creditbenchmark-data-api-openapi.yml
   format: yaml
   label: Credit Benchmark Data API
   slug: creditbenchmark-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-data-api-openapi.yml
+  url: https://artifacts.apis.io/creditbenchmark/openapi/creditbenchmark-data-api-openapi.yml
 - filename: creditbenchmark-entity-resolution-api-openapi.yml
   format: yaml
   label: Credit Benchmark Entity Resolution API
   slug: creditbenchmark-entity-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-entity-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/creditbenchmark/openapi/creditbenchmark-entity-resolution-api-openapi.yml
 - filename: creditbenchmark-metadata-api-openapi.yml
   format: yaml
   label: Credit Benchmark Metadata API
   slug: creditbenchmark-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/creditbenchmark/openapi/creditbenchmark-metadata-api-openapi.yml
 consequence_counts:
   read: 6
   write: 17
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/credit
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /matching/match\n  method: post\n  operationId: matchEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /matching/text/match_external\n  method: post\n  operationId: matchExternalEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/v2/metadata/columns\n  method: get\n  operationId: metadata_columns_v2_metadata_columns_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/v2/metadata/rating-scales\n  method: get\n  operationId: metadata_rating_scales_v2_metadata_rating_scales_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/v2/metadata/industry-schema\n  method: get\n  operationId: metadata_industry_schema_v2_metadata_industry_schema_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/v2/metadata/geography-schema\n  method: get\n  operationId: metadata_geography_schema_v2_metadata_geography_schema_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/v2/metadata/available-dates\n  method: get\n  operationId: metadata_available_dates_v2_metadata_available_dates_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/analytics/portfolio-data\n  method: post\n  operationId: portfolioData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/analytics/portfolio-summary\n  method: post\n  operationId: portfolioSummary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/agentic-access/creditbenchmark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/creditbenchmark/agentic-access/creditbenchmark-agentic-access.yml
 summary_line: 23 operations · 17 acting
 tags:
 - Company

@@ -8,19 +8,19 @@ api_specs:
   label: PostalCodes.info Downloads API
   slug: postalcodes-info-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/openapi/postalcodes-info-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/postalcodes-info/openapi/postalcodes-info-downloads-api-openapi.yml
 - filename: postalcodes-info-lookup-pages-api-openapi.yml
   format: yaml
   label: PostalCodes.info Lookup Pages API
   slug: postalcodes-info-lookup-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/openapi/postalcodes-info-lookup-pages-api-openapi.yml
+  url: https://artifacts.apis.io/postalcodes-info/openapi/postalcodes-info-lookup-pages-api-openapi.yml
 - filename: postalcodes-info-search-api-openapi.yml
   format: yaml
   label: PostalCodes.info Search API
   slug: postalcodes-info-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/openapi/postalcodes-info-search-api-openapi.yml
+  url: https://artifacts.apis.io/postalcodes-info/openapi/postalcodes-info-search-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/postalcodes-info-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: searchPostalCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ajax-preview\n  method: get\n  operationId: previewCountryRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /download-token.php\n  method: get\n  operationId: createDownloadToken\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /download.php\n  method: get\n  operationId: downloadCountryDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /postal-codes/{country}\n  method: get\n  operationId: getCountryLookupPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/agentic-access/postalcodes-info-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/postalcodes-info/agentic-access/postalcodes-info-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Postal Codes

@@ -9,31 +9,31 @@ api_specs:
   label: Azure Log Analytics Ingestion API
   slug: azure-log-analytics-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-ingestion-api-openapi.yml
 - filename: azure-log-analytics-query-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Query API
   slug: azure-log-analytics-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-query-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-query-api-openapi.yml
 - filename: azure-log-analytics-saved-searches-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Saved Searches API
   slug: azure-log-analytics-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-saved-searches-api-openapi.yml
 - filename: azure-log-analytics-tables-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Tables API
   slug: azure-log-analytics-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-tables-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-tables-api-openapi.yml
 - filename: azure-log-analytics-workspaces-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Workspaces API
   slug: azure-log-analytics-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-workspaces-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \  method: delete\n  operationId: deleteSavedSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables\n  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables/{tableName}\n  method: get\n  operationId: getTable\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables/{tableName}\n  method: put\n  operationId: createOrUpdateTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables/{tableName}\n  method: delete\n  operationId: deleteTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /workspaces/{workspaceId}/query\n  method: get\n  operationId: getQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/query\n  method: post\n  operationId: postQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/agentic-access/azure-log-analytics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-log-analytics/agentic-access/azure-log-analytics-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Analytics

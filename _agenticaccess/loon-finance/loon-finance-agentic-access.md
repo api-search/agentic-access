@@ -8,19 +8,19 @@ api_specs:
   label: Loon Finance Attestations API
   slug: loon-finance-attestations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-attestations-api-openapi.yml
+  url: https://artifacts.apis.io/loon-finance/openapi/loon-finance-attestations-api-openapi.yml
 - filename: loon-finance-issuances-api-openapi.yml
   format: yaml
   label: Loon Finance Issuances API
   slug: loon-finance-issuances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-issuances-api-openapi.yml
+  url: https://artifacts.apis.io/loon-finance/openapi/loon-finance-issuances-api-openapi.yml
 - filename: loon-finance-supply-api-openapi.yml
   format: yaml
   label: Loon Finance Supply API
   slug: loon-finance-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-supply-api-openapi.yml
+  url: https://artifacts.apis.io/loon-finance/openapi/loon-finance-supply-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/loon-finance-transparency-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/supply\n  method: get\n  operationId: getSupply\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/issuances\n  method: get\n  operationId: listIssuances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/attestations\n  method: get\n  operationId: listAttestations\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/agentic-access/loon-finance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loon-finance/agentic-access/loon-finance-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Company

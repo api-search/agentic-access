@@ -9,109 +9,109 @@ api_specs:
   label: Ubicloud Audit Log API
   slug: ubicloud-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-audit-log-api-openapi.yml
 - filename: ubicloud-firewall-api-openapi.yml
   format: yaml
   label: Ubicloud Firewall API
   slug: ubicloud-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-firewall-api-openapi.yml
 - filename: ubicloud-firewall-rule-api-openapi.yml
   format: yaml
   label: Ubicloud Firewall Rule API
   slug: ubicloud-firewall-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-firewall-rule-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-firewall-rule-api-openapi.yml
 - filename: ubicloud-github-api-openapi.yml
   format: yaml
   label: Ubicloud GitHub API
   slug: ubicloud-github-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-github-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-github-api-openapi.yml
 - filename: ubicloud-inference-api-key-api-openapi.yml
   format: yaml
   label: Ubicloud Inference Api Key API
   slug: ubicloud-inference-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-inference-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-inference-api-key-api-openapi.yml
 - filename: ubicloud-inference-endpoint-api-openapi.yml
   format: yaml
   label: Ubicloud Inference Endpoint API
   slug: ubicloud-inference-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-inference-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-inference-endpoint-api-openapi.yml
 - filename: ubicloud-kubernetes-cluster-api-openapi.yml
   format: yaml
   label: Ubicloud Kubernetes Cluster API
   slug: ubicloud-kubernetes-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-kubernetes-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-kubernetes-cluster-api-openapi.yml
 - filename: ubicloud-load-balancer-api-openapi.yml
   format: yaml
   label: Ubicloud Load Balancer API
   slug: ubicloud-load-balancer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-load-balancer-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-load-balancer-api-openapi.yml
 - filename: ubicloud-machine-image-api-openapi.yml
   format: yaml
   label: Ubicloud Machine Image API
   slug: ubicloud-machine-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-machine-image-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-machine-image-api-openapi.yml
 - filename: ubicloud-postgres-database-api-openapi.yml
   format: yaml
   label: Ubicloud Postgres Database API
   slug: ubicloud-postgres-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-postgres-database-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-postgres-database-api-openapi.yml
 - filename: ubicloud-postgres-firewall-rule-api-openapi.yml
   format: yaml
   label: Ubicloud Postgres Firewall Rule API
   slug: ubicloud-postgres-firewall-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-postgres-firewall-rule-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-postgres-firewall-rule-api-openapi.yml
 - filename: ubicloud-postgres-log-destination-api-openapi.yml
   format: yaml
   label: Ubicloud Postgres Log Destination API
   slug: ubicloud-postgres-log-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-postgres-log-destination-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-postgres-log-destination-api-openapi.yml
 - filename: ubicloud-postgres-metric-destination-api-openapi.yml
   format: yaml
   label: Ubicloud Postgres Metric Destination API
   slug: ubicloud-postgres-metric-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-postgres-metric-destination-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-postgres-metric-destination-api-openapi.yml
 - filename: ubicloud-private-location-api-openapi.yml
   format: yaml
   label: Ubicloud Private Location API
   slug: ubicloud-private-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-private-location-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-private-location-api-openapi.yml
 - filename: ubicloud-private-subnet-api-openapi.yml
   format: yaml
   label: Ubicloud Private Subnet API
   slug: ubicloud-private-subnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-private-subnet-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-private-subnet-api-openapi.yml
 - filename: ubicloud-project-api-openapi.yml
   format: yaml
   label: Ubicloud Project API
   slug: ubicloud-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-project-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-project-api-openapi.yml
 - filename: ubicloud-ssh-public-key-api-openapi.yml
   format: yaml
   label: Ubicloud SSH Public Key API
   slug: ubicloud-ssh-public-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-ssh-public-key-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-ssh-public-key-api-openapi.yml
 - filename: ubicloud-virtual-machine-api-openapi.yml
   format: yaml
   label: Ubicloud Virtual Machine API
   slug: ubicloud-virtual-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/openapi/ubicloud-virtual-machine-api-openapi.yml
+  url: https://artifacts.apis.io/ubicloud/openapi/ubicloud-virtual-machine-api-openapi.yml
 consequence_counts:
   read: 51
   safety-critical: 4
@@ -194,8 +194,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/ubiclo
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project/{project_id}/location/{location}/postgres/{postgres_database_reference}/firewall-rule/{firewall_rule_id}\n  method: delete\n  operationId: deleteLocationPostgresFirewallRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project/{project_id}/location/{location}/postgres/{postgres_database_reference}/log-destination\n  method: post\n  operationId: createLocationPostgresLogDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
   \  - high-value\n    audit: required\n- path: /project/{project_id}/location/{location}/postgres/{postgres_database_reference}/log-destination/{log_destination_id}\n  method: delete\n  operationId: deleteLocationPostgresLogDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project/{project_id}/location/{location}/postgres/{postgres_database_reference}/logs\n  method: get\n  operationId: getPostgresDatabaseLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /project/{project_id}/location/{location}/postgres/{postgres_database_reference}/metric-destination\n  method: post\n  operationId: createLocationPostgresMetricDestination\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project/{project_id}/location/{location}/postgres/{postgres_database_reference}/metric-destination/{metric_destination_id}\n  method: delete\n  operationId: deleteLocationPostgresMetricDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project/{project_id}/location/{location}/postgres/{postgres_database_reference}/metrics\n  method: get\n  operationId: getPostgresDatabaseMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /project/{project_id}/location/{location}/postgres/{postgres_database_reference}/promote\n  method: post\n  operationId: promotePostgresDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/agentic-access/ubicloud-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubicloud/refs/heads/main/agentic-access/ubicloud-agentic-access.yml
+  \      max-ttl: 3600\n    audit: none\n- path: /project/{project_id}/location/{location}/postgres/{postgres_database_reference}/promote\n  method: post\n  operationId: promotePostgresDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://artifacts.apis.io/ubicloud/agentic-access/ubicloud-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ubicloud/agentic-access/ubicloud-agentic-access.yml
 summary_line: 132 operations · 81 acting · 4 human-in-the-loop
 tags:
 - Company

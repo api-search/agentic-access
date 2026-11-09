@@ -9,307 +9,307 @@ api_specs:
   label: Quadrillion Account API
   slug: quadrillion-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-account-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-account-api-openapi.yml
 - filename: quadrillion-admin-api-openapi.yml
   format: yaml
   label: Quadrillion Admin API
   slug: quadrillion-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-admin-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-admin-api-openapi.yml
 - filename: quadrillion-api-keys-api-openapi.yml
   format: yaml
   label: Quadrillion API Keys API
   slug: quadrillion-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-api-keys-api-openapi.yml
 - filename: quadrillion-auth-api-openapi.yml
   format: yaml
   label: Quadrillion Auth API
   slug: quadrillion-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-auth-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-auth-api-openapi.yml
 - filename: quadrillion-autocomplete-api-openapi.yml
   format: yaml
   label: Quadrillion Autocomplete API
   slug: quadrillion-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-autocomplete-api-openapi.yml
 - filename: quadrillion-blobs-api-openapi.yml
   format: yaml
   label: Quadrillion Blobs API
   slug: quadrillion-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-blobs-api-openapi.yml
 - filename: quadrillion-cerebras-api-openapi.yml
   format: yaml
   label: Quadrillion Cerebras API
   slug: quadrillion-cerebras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-cerebras-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-cerebras-api-openapi.yml
 - filename: quadrillion-ckg-api-openapi.yml
   format: yaml
   label: Quadrillion Ckg API
   slug: quadrillion-ckg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-ckg-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-ckg-api-openapi.yml
 - filename: quadrillion-compute-api-openapi.yml
   format: yaml
   label: Quadrillion Compute API
   slug: quadrillion-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-compute-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-compute-api-openapi.yml
 - filename: quadrillion-credentials-api-openapi.yml
   format: yaml
   label: Quadrillion Credentials API
   slug: quadrillion-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-credentials-api-openapi.yml
 - filename: quadrillion-execution-api-openapi.yml
   format: yaml
   label: Quadrillion Execution API
   slug: quadrillion-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-execution-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-execution-api-openapi.yml
 - filename: quadrillion-files-api-openapi.yml
   format: yaml
   label: Quadrillion Files API
   slug: quadrillion-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-files-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-files-api-openapi.yml
 - filename: quadrillion-filesystems-api-openapi.yml
   format: yaml
   label: Quadrillion Filesystems API
   slug: quadrillion-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-filesystems-api-openapi.yml
 - filename: quadrillion-fireworks-api-openapi.yml
   format: yaml
   label: Quadrillion Fireworks API
   slug: quadrillion-fireworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-fireworks-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-fireworks-api-openapi.yml
 - filename: quadrillion-health-api-openapi.yml
   format: yaml
   label: Quadrillion Health API
   slug: quadrillion-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-health-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-health-api-openapi.yml
 - filename: quadrillion-integration-relay-api-openapi.yml
   format: yaml
   label: Quadrillion Integration Relay API
   slug: quadrillion-integration-relay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-integration-relay-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-integration-relay-api-openapi.yml
 - filename: quadrillion-kernel-api-openapi.yml
   format: yaml
   label: Quadrillion Kernel API
   slug: quadrillion-kernel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-kernel-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-kernel-api-openapi.yml
 - filename: quadrillion-latency-distribution-api-openapi.yml
   format: yaml
   label: Quadrillion Latency Distribution API
   slug: quadrillion-latency-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-latency-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-latency-distribution-api-openapi.yml
 - filename: quadrillion-linear-api-openapi.yml
   format: yaml
   label: Quadrillion Linear API
   slug: quadrillion-linear-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-linear-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-linear-api-openapi.yml
 - filename: quadrillion-messages-api-openapi.yml
   format: yaml
   label: Quadrillion Messages API
   slug: quadrillion-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-messages-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-messages-api-openapi.yml
 - filename: quadrillion-modal-files-api-openapi.yml
   format: yaml
   label: Quadrillion Modal Files API
   slug: quadrillion-modal-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-modal-files-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-modal-files-api-openapi.yml
 - filename: quadrillion-modal-filewatcher-api-openapi.yml
   format: yaml
   label: Quadrillion Modal Filewatcher API
   slug: quadrillion-modal-filewatcher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-modal-filewatcher-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-modal-filewatcher-api-openapi.yml
 - filename: quadrillion-modal-terminal-api-openapi.yml
   format: yaml
   label: Quadrillion Modal Terminal API
   slug: quadrillion-modal-terminal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-modal-terminal-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-modal-terminal-api-openapi.yml
 - filename: quadrillion-notebook-api-openapi.yml
   format: yaml
   label: Quadrillion Notebook API
   slug: quadrillion-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-notebook-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-notebook-api-openapi.yml
 - filename: quadrillion-onboarding-api-openapi.yml
   format: yaml
   label: Quadrillion Onboarding API
   slug: quadrillion-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-onboarding-api-openapi.yml
 - filename: quadrillion-org-api-openapi.yml
   format: yaml
   label: Quadrillion Org API
   slug: quadrillion-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-org-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-org-api-openapi.yml
 - filename: quadrillion-project-api-openapi.yml
   format: yaml
   label: Quadrillion Project API
   slug: quadrillion-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-project-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-project-api-openapi.yml
 - filename: quadrillion-quadrillion-cloud-api-api-openapi.yml
   format: yaml
   label: Quadrillion Cloud API
   slug: quadrillion-quadrillion-cloud-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-quadrillion-cloud-api-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-quadrillion-cloud-api-api-openapi.yml
 - filename: quadrillion-releases-api-openapi.yml
   format: yaml
   label: Quadrillion Releases API
   slug: quadrillion-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-releases-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-releases-api-openapi.yml
 - filename: quadrillion-responses-api-openapi.yml
   format: yaml
   label: Quadrillion Responses API
   slug: quadrillion-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-responses-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-responses-api-openapi.yml
 - filename: quadrillion-rules-api-openapi.yml
   format: yaml
   label: Quadrillion Rules API
   slug: quadrillion-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-rules-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-rules-api-openapi.yml
 - filename: quadrillion-runtime-mutations-api-openapi.yml
   format: yaml
   label: Quadrillion Runtime Mutations API
   slug: quadrillion-runtime-mutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-runtime-mutations-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-runtime-mutations-api-openapi.yml
 - filename: quadrillion-runtime-session-api-openapi.yml
   format: yaml
   label: Quadrillion Runtime Session API
   slug: quadrillion-runtime-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-runtime-session-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-runtime-session-api-openapi.yml
 - filename: quadrillion-settings-api-openapi.yml
   format: yaml
   label: Quadrillion Settings API
   slug: quadrillion-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-settings-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-settings-api-openapi.yml
 - filename: quadrillion-slack-api-openapi.yml
   format: yaml
   label: Quadrillion Slack API
   slug: quadrillion-slack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-slack-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-slack-api-openapi.yml
 - filename: quadrillion-slack-webhooks-api-openapi.yml
   format: yaml
   label: Quadrillion Slack Webhooks API
   slug: quadrillion-slack-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-slack-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-slack-webhooks-api-openapi.yml
 - filename: quadrillion-store-api-openapi.yml
   format: yaml
   label: Quadrillion Store API
   slug: quadrillion-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-store-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-store-api-openapi.yml
 - filename: quadrillion-stripe-api-openapi.yml
   format: yaml
   label: Quadrillion Stripe API
   slug: quadrillion-stripe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-stripe-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-stripe-api-openapi.yml
 - filename: quadrillion-tags-api-openapi.yml
   format: yaml
   label: Quadrillion Tags API
   slug: quadrillion-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-tags-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-tags-api-openapi.yml
 - filename: quadrillion-task-dag-mutations-api-openapi.yml
   format: yaml
   label: Quadrillion Task Dag Mutations API
   slug: quadrillion-task-dag-mutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-task-dag-mutations-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-task-dag-mutations-api-openapi.yml
 - filename: quadrillion-task-dag-reads-api-openapi.yml
   format: yaml
   label: Quadrillion Task Dag Reads API
   slug: quadrillion-task-dag-reads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-task-dag-reads-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-task-dag-reads-api-openapi.yml
 - filename: quadrillion-terminal-api-openapi.yml
   format: yaml
   label: Quadrillion Terminal API
   slug: quadrillion-terminal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-terminal-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-terminal-api-openapi.yml
 - filename: quadrillion-token-usage-api-openapi.yml
   format: yaml
   label: Quadrillion Token Usage API
   slug: quadrillion-token-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-token-usage-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-token-usage-api-openapi.yml
 - filename: quadrillion-tool-results-api-openapi.yml
   format: yaml
   label: Quadrillion Tool Results API
   slug: quadrillion-tool-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-tool-results-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-tool-results-api-openapi.yml
 - filename: quadrillion-user-api-openapi.yml
   format: yaml
   label: Quadrillion User API
   slug: quadrillion-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-user-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-user-api-openapi.yml
 - filename: quadrillion-v1beta-api-openapi.yml
   format: yaml
   label: Quadrillion V1beta API
   slug: quadrillion-v1beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-v1beta-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-v1beta-api-openapi.yml
 - filename: quadrillion-workos-api-openapi.yml
   format: yaml
   label: Quadrillion Workos API
   slug: quadrillion-workos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-workos-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-workos-api-openapi.yml
 - filename: quadrillion-workspace-credentials-api-openapi.yml
   format: yaml
   label: Quadrillion Workspace Credentials API
   slug: quadrillion-workspace-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-workspace-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-workspace-credentials-api-openapi.yml
 - filename: quadrillion-writeup-api-openapi.yml
   format: yaml
   label: Quadrillion Writeup API
   slug: quadrillion-writeup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-writeup-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-writeup-api-openapi.yml
 - filename: quadrillion-you-api-openapi.yml
   format: yaml
   label: Quadrillion You API
   slug: quadrillion-you-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-you-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-you-api-openapi.yml
 - filename: quadrillion-open-router-api-openapi.yml
   format: yaml
   label: Quadrillion Open Router API
   slug: quadrillion-open-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/openapi/quadrillion-open-router-api-openapi.yml
+  url: https://artifacts.apis.io/quadrillion/openapi/quadrillion-open-router-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 189
@@ -433,8 +433,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/quadri
   \   audit: none\n- path: /v1/kernel/kernels/{notebook_id}/stop\n  method: post\n  operationId: stop_kernel_v1_kernel_kernels__notebook_id__stop_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/kernel/kernels/{notebook_id}/interrupt\n  method: post\n  operationId: interrupt_kernel_v1_kernel_kernels__notebook_id__interrupt_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kernel/kernels/{notebook_id}/restart\n  method: post\n  operationId: restart_kernel_v1_kernel_kernels__notebook_id__restart_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kernel/kernels/{notebook_id}/status\n  method: get\n  operationId: kernel_status_v1_kernel_kernels__notebook_id__status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/kernel/kernels\n  method: get\n  operationId: list_kernels_v1_kernel_kernels_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/kernel/compute/gpu-availability\n  method: get\n  operationId: gpu_availability_v1_kernel_compute_gpu_availability_get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/kernel/kernels/{notebook_id}/execute\n  method: post\n  operationId: execute_code_v1_kernel_kernels__notebook_id__execute_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kernel/kernels/{notebook_id}/execute_silent\n  method: post\n  operationId: execute_silent_v1_kernel_kernels__notebook_id__execute_silent_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kernel/kernels/{notebook_id}/complete\n  method: post\n \
-  \ operationId: complete_code_v1_kernel_kernels__notebook_id__complete_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kernel/bash\n  method: post\n  operationId: execute_bash_v1_kernel_bash_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (150 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/agentic-access/quadrillion-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/agentic-access/quadrillion-agentic-access.yml
+  \ operationId: complete_code_v1_kernel_kernels__notebook_id__complete_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kernel/bash\n  method: post\n  operationId: execute_bash_v1_kernel_bash_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (150 KB total) ---\n# Full source: https://artifacts.apis.io/quadrillion/agentic-access/quadrillion-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/quadrillion/agentic-access/quadrillion-agentic-access.yml
 summary_line: 454 operations · 265 acting · 9 human-in-the-loop
 tags:
 - Company

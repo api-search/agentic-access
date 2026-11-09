@@ -9,49 +9,49 @@ api_specs:
   label: Kenjo Attendance API
   slug: kenjo-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-attendance-api-openapi.yml
+  url: https://artifacts.apis.io/kenjo/openapi/kenjo-attendance-api-openapi.yml
 - filename: kenjo-authentication-api-openapi.yml
   format: yaml
   label: Kenjo Authentication API
   slug: kenjo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/kenjo/openapi/kenjo-authentication-api-openapi.yml
 - filename: kenjo-compensation-api-openapi.yml
   format: yaml
   label: Kenjo Compensation API
   slug: kenjo-compensation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-compensation-api-openapi.yml
+  url: https://artifacts.apis.io/kenjo/openapi/kenjo-compensation-api-openapi.yml
 - filename: kenjo-documents-api-openapi.yml
   format: yaml
   label: Kenjo Documents API
   slug: kenjo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-documents-api-openapi.yml
+  url: https://artifacts.apis.io/kenjo/openapi/kenjo-documents-api-openapi.yml
 - filename: kenjo-employees-api-openapi.yml
   format: yaml
   label: Kenjo Employees API
   slug: kenjo-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-employees-api-openapi.yml
+  url: https://artifacts.apis.io/kenjo/openapi/kenjo-employees-api-openapi.yml
 - filename: kenjo-organization-api-openapi.yml
   format: yaml
   label: Kenjo Organization API
   slug: kenjo-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-organization-api-openapi.yml
+  url: https://artifacts.apis.io/kenjo/openapi/kenjo-organization-api-openapi.yml
 - filename: kenjo-recruiting-api-openapi.yml
   format: yaml
   label: Kenjo Recruiting API
   slug: kenjo-recruiting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-recruiting-api-openapi.yml
+  url: https://artifacts.apis.io/kenjo/openapi/kenjo-recruiting-api-openapi.yml
 - filename: kenjo-time-off-api-openapi.yml
   format: yaml
   label: Kenjo Time Off API
   slug: kenjo-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/kenjo/openapi/kenjo-time-off-api-openapi.yml
 consequence_counts:
   read: 42
   safety-critical: 1
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kenjo-
   \ /recruiting/candidates/{candidateId}\n  method: get\n  operationId: getCandidate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recruiting/candidates/{candidateId}\n  method: put\n  operationId: updateCandidate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recruiting/candidates/{candidateId}/attachment\n  method: post\n  operationId: addCandidateAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recruiting/candidates/{candidateId}/documents\n\
   \  method: get\n  operationId: getCandidateDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recruiting/applications\n  method: get\n  operationId: listApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recruiting/applications/position/{positionId}/candidate/{candidateId}\n  method: post\n  operationId: createApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recruiting/applications/position/{positionId}/candidate/{candidateId}\n  method: put\n  operationId: updateApplication\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recruiting/applications/position/{positionId}/candidate/{candidateId}/attachment\n  method: post\n  operationId: addApplicationAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/agentic-access/kenjo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kenjo/agentic-access/kenjo-agentic-access.yml
 summary_line: 80 operations · 38 acting · 1 human-in-the-loop
 tags:
 - Human Resources

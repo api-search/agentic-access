@@ -9,73 +9,73 @@ api_specs:
   label: Paytronix Check API
   slug: paytronix-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-check-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-check-api-openapi.yml
 - filename: paytronix-enrollment-api-openapi.yml
   format: yaml
   label: Paytronix Enrollment API
   slug: paytronix-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-enrollment-api-openapi.yml
 - filename: paytronix-gift-api-openapi.yml
   format: yaml
   label: Paytronix Gift API
   slug: paytronix-gift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-gift-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-gift-api-openapi.yml
 - filename: paytronix-guest-api-openapi.yml
   format: yaml
   label: Paytronix Guest API
   slug: paytronix-guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-guest-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-guest-api-openapi.yml
 - filename: paytronix-menu-items-api-openapi.yml
   format: yaml
   label: Paytronix Menu Items API
   slug: paytronix-menu-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-menu-items-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-menu-items-api-openapi.yml
 - filename: paytronix-orders-api-openapi.yml
   format: yaml
   label: Paytronix Orders API
   slug: paytronix-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-orders-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-orders-api-openapi.yml
 - filename: paytronix-payment-api-openapi.yml
   format: yaml
   label: Paytronix Payment API
   slug: paytronix-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-payment-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-payment-api-openapi.yml
 - filename: paytronix-restaurants-api-openapi.yml
   format: yaml
   label: Paytronix Restaurants API
   slug: paytronix-restaurants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-restaurants-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-restaurants-api-openapi.yml
 - filename: paytronix-search-api-openapi.yml
   format: yaml
   label: Paytronix Search API
   slug: paytronix-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-search-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-search-api-openapi.yml
 - filename: paytronix-store-api-openapi.yml
   format: yaml
   label: Paytronix Store API
   slug: paytronix-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-store-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-store-api-openapi.yml
 - filename: paytronix-transaction-api-openapi.yml
   format: yaml
   label: Paytronix Transaction API
   slug: paytronix-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-transaction-api-openapi.yml
 - filename: paytronix-oauth-api-openapi.yml
   format: yaml
   label: Paytronix O Auth API
   slug: paytronix-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/openapi/paytronix-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/paytronix/openapi/paytronix-oauth-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/paytro
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/menuitems\n  method: get\n  operationId: searchMenuItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /store/nearbyLocations.json\n  method: get\n  operationId: getNearbyLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /store/stores.json\n  method: get\n  operationId: getStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction/activate.json\n  method: post\n  operationId: activateCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/balanceInquiry.json\n  method: post\n  operationId: balanceInquiry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/addRedeem.json\n  method: post\n  operationId: addRedeem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/accountQuery.json\n  method: post\n  operationId: accountQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/agentic-access/paytronix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paytronix/agentic-access/paytronix-agentic-access.yml
 summary_line: 30 operations · 15 acting
 tags:
 - Restaurant

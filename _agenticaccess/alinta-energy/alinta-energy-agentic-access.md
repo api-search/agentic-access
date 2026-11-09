@@ -8,55 +8,55 @@ api_specs:
   label: Alinta Energy Data Holder Customers API
   slug: alinta-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-data-holder-customers-api-openapi.yml
 - filename: alinta-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Alinta Energy Data Holder Operations API
   slug: alinta-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-data-holder-operations-api-openapi.yml
 - filename: alinta-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Alinta Energy Distributed Energy Resources API
   slug: alinta-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-distributed-energy-resources-api-openapi.yml
 - filename: alinta-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Alinta Energy Electricity Service Points API
   slug: alinta-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-electricity-service-points-api-openapi.yml
 - filename: alinta-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Alinta Energy Electricity Usage API
   slug: alinta-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-electricity-usage-api-openapi.yml
 - filename: alinta-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Alinta Energy Account Balances API
   slug: alinta-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-account-balances-api-openapi.yml
 - filename: alinta-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Alinta Energy Account Billing API
   slug: alinta-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-account-billing-api-openapi.yml
 - filename: alinta-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Alinta Energy Accounts API
   slug: alinta-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-accounts-api-openapi.yml
 - filename: alinta-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Alinta Energy Plans API
   slug: alinta-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-plans-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/alinta
   \ operationId: listEnergyAccountInvoicesBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/invoices\n  method: post\n  operationId: listEnergyInvoicesForSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/billing\n  method: get\n  operationId: getBillingForEnergyAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/billing\n  method: get\n  operationId: listEnergyAccountBillingBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/billing\n  method: post\n  operationId: listEnergyAccountBillingForSpecificAccounts\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts\n  method: get\n  operationId: listEnergyAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}\n  method: get\n  operationId: getEnergyAccountDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/payment-schedule\n  method: get\n  operationId: getEnergyAccountPaymentSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/concessions\n  method: get\n  operationId: getEnergyAccountConcessions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans\n  method: get\n  operationId: listEnergyPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans/{planId}\n  method: get\n  operationId: getEnergyPlanDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/agentic-access/alinta-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alinta-energy/agentic-access/alinta-energy-agentic-access.yml
 summary_line: 27 operations
 tags:
 - Energy

@@ -9,31 +9,31 @@ api_specs:
   label: Google People API
   slug: google-people-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-people-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-people-api-openapi.yml
 - filename: google-people-people-batchget-api-openapi.yml
   format: yaml
   label: Google People:batchGet API
   slug: google-people-people-batchget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-people-batchget-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-people-batchget-api-openapi.yml
 - filename: google-people-contact-groups-api-openapi.yml
   format: yaml
   label: Google People Contact Groups API
   slug: google-people-contact-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-contact-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-contact-groups-api-openapi.yml
 - filename: google-people-people-create-contact-api-openapi.yml
   format: yaml
   label: Google People People:create Contact API
   slug: google-people-people-create-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-people-create-contact-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-people-create-contact-api-openapi.yml
 - filename: google-people-people-search-contacts-api-openapi.yml
   format: yaml
   label: Google People People:search Contacts API
   slug: google-people-people-search-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-people-search-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-people-search-contacts-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/me/connections\n  method: get\n  operationId: listConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contactGroups\n  method: get\n  operationId: listContactGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contactGroups\n  method: post\n  operationId: createContactGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /contactGroups/{resourceName}\n  method: get\n  operationId: getContactGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contactGroups/{resourceName}\n  method: put\n  operationId: updateContactGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contactGroups/{resourceName}\n  method: delete\n  operationId: deleteContactGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/agentic-access/google-people-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-people/agentic-access/google-people-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Address Book

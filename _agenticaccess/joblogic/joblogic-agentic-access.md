@@ -9,55 +9,55 @@ api_specs:
   label: Joblogic Assets API
   slug: joblogic-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-assets-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-assets-api-openapi.yml
 - filename: joblogic-contacts-api-openapi.yml
   format: yaml
   label: Joblogic Contacts API
   slug: joblogic-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-contacts-api-openapi.yml
 - filename: joblogic-customers-api-openapi.yml
   format: yaml
   label: Joblogic Customers API
   slug: joblogic-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-customers-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-customers-api-openapi.yml
 - filename: joblogic-engineers-api-openapi.yml
   format: yaml
   label: Joblogic Engineers API
   slug: joblogic-engineers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-engineers-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-engineers-api-openapi.yml
 - filename: joblogic-invoices-api-openapi.yml
   format: yaml
   label: Joblogic Invoices API
   slug: joblogic-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-invoices-api-openapi.yml
 - filename: joblogic-jobs-api-openapi.yml
   format: yaml
   label: Joblogic Jobs API
   slug: joblogic-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-jobs-api-openapi.yml
 - filename: joblogic-quotes-api-openapi.yml
   format: yaml
   label: Joblogic Quotes API
   slug: joblogic-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-quotes-api-openapi.yml
 - filename: joblogic-sites-api-openapi.yml
   format: yaml
   label: Joblogic Sites API
   slug: joblogic-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-sites-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-sites-api-openapi.yml
 - filename: joblogic-visits-api-openapi.yml
   format: yaml
   label: Joblogic Visits API
   slug: joblogic-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/openapi/joblogic-visits-api-openapi.yml
+  url: https://artifacts.apis.io/joblogic/openapi/joblogic-visits-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 21
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/joblog
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Site/GetById\n  method: get\n  operationId: getSiteById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Visit/GetAll\n  method: post\n  operationId: searchVisits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Visit\n  method: post\n  operationId: createVisit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Visit\n  method: put\n  operationId: updateVisit\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Visit\n  method: delete\n  operationId: deleteVisit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Visit/GetById\n  method: get\n  operationId: getVisitById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Visit/Deploy\n  method: post\n  operationId: deployVisit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n\
   \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/agentic-access/joblogic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/joblogic/agentic-access/joblogic-agentic-access.yml
 summary_line: 52 operations · 31 acting
 tags:
 - Field Service Management

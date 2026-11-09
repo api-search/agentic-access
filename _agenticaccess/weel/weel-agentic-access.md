@@ -9,91 +9,91 @@ api_specs:
   label: Weel Accounting Codes API
   slug: weel-accounting-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-accounting-codes-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-accounting-codes-api-openapi.yml
 - filename: weel-budget-members-api-openapi.yml
   format: yaml
   label: Weel Budget Members API
   slug: weel-budget-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-budget-members-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-budget-members-api-openapi.yml
 - filename: weel-budget-owners-api-openapi.yml
   format: yaml
   label: Weel Budget Owners API
   slug: weel-budget-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-budget-owners-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-budget-owners-api-openapi.yml
 - filename: weel-budget-topups-api-openapi.yml
   format: yaml
   label: Weel Budget Topups API
   slug: weel-budget-topups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-budget-topups-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-budget-topups-api-openapi.yml
 - filename: weel-budgets-api-openapi.yml
   format: yaml
   label: Weel Budgets API
   slug: weel-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-budgets-api-openapi.yml
 - filename: weel-categories-api-openapi.yml
   format: yaml
   label: Weel Categories API
   slug: weel-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-categories-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-categories-api-openapi.yml
 - filename: weel-custom-field-budgets-api-openapi.yml
   format: yaml
   label: Weel Custom Field Budgets API
   slug: weel-custom-field-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-custom-field-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-custom-field-budgets-api-openapi.yml
 - filename: weel-custom-field-options-api-openapi.yml
   format: yaml
   label: Weel Custom Field Options API
   slug: weel-custom-field-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-custom-field-options-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-custom-field-options-api-openapi.yml
 - filename: weel-custom-fields-api-openapi.yml
   format: yaml
   label: Weel Custom Fields API
   slug: weel-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-custom-fields-api-openapi.yml
 - filename: weel-invites-api-openapi.yml
   format: yaml
   label: Weel Invites API
   slug: weel-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-invites-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-invites-api-openapi.yml
 - filename: weel-roles-api-openapi.yml
   format: yaml
   label: Weel Roles API
   slug: weel-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-roles-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-roles-api-openapi.yml
 - filename: weel-statements-api-openapi.yml
   format: yaml
   label: Weel Statements API
   slug: weel-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-statements-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-statements-api-openapi.yml
 - filename: weel-tax-rates-api-openapi.yml
   format: yaml
   label: Weel Tax Rates API
   slug: weel-tax-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-tax-rates-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-tax-rates-api-openapi.yml
 - filename: weel-transactions-api-openapi.yml
   format: yaml
   label: Weel Transactions API
   slug: weel-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-transactions-api-openapi.yml
 - filename: weel-users-api-openapi.yml
   format: yaml
   label: Weel Users API
   slug: weel-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/openapi/weel-users-api-openapi.yml
+  url: https://artifacts.apis.io/weel/openapi/weel-users-api-openapi.yml
 consequence_counts:
   read: 24
   write: 27
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: generated\nsource: openapi/weel-o
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/businesses/{client_id}/categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/businesses/{client_id}/categories\n  method: post\n  operationId: createCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/businesses/{client_id}/categories/{category_id}\n  method: patch\n  operationId: updateCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/businesses/{client_id}/categories/{category_id}\n  method: delete\n  operationId: deleteCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/businesses/{client_id}/tax-rates\n  method: get\n  operationId: listTaxRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/businesses/{client_id}/tax-rates/{tax_rate_id}\n  method: get\n  operationId: getTaxRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/agentic-access/weel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weel/agentic-access/weel-agentic-access.yml
 summary_line: 51 operations · 27 acting
 tags:
 - Payments

@@ -9,31 +9,31 @@ api_specs:
   label: Allianz Engagement Survey Action Plans API
   slug: allianz-engagement-survey-action-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-action-plans-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-action-plans-api-openapi.yml
 - filename: allianz-engagement-survey-analytics-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Analytics API
   slug: allianz-engagement-survey-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-analytics-api-openapi.yml
 - filename: allianz-engagement-survey-participants-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Participants API
   slug: allianz-engagement-survey-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-participants-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-participants-api-openapi.yml
 - filename: allianz-engagement-survey-responses-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Responses API
   slug: allianz-engagement-survey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-responses-api-openapi.yml
 - filename: allianz-engagement-survey-surveys-api-openapi.yml
   format: yaml
   label: Allianz Engagement Survey Surveys API
   slug: allianz-engagement-survey-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-engagement-survey/openapi/allianz-engagement-survey-surveys-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/allianz-engagement-survey.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 6\n    acting: 3\n  by_consequence:\n    read: 6\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /surveys\n  method: get\n  operationId: listSurveys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys\n  method: post\n  operationId: createSurvey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /surveys/{survey_id}\n  method: get\n  operationId: getSurvey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/participants\n  method: get\n  operationId: listParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/participants\n  method: post\n  operationId: addParticipants\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /surveys/{survey_id}/responses\n  method: get\n  operationId: listResponses\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/analytics\n  method: get\n  operationId: getSurveyAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/action-plans\n  method: get\n  operationId: listActionPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/action-plans\n  method: post\n  operationId: createActionPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/agentic-access/allianz-engagement-survey-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/allianz-engagement-survey/agentic-access/allianz-engagement-survey-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Analytics

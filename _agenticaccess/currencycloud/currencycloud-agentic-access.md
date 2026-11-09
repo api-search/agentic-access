@@ -9,163 +9,163 @@ api_specs:
   label: Currencycloud Account Usage API
   slug: currencycloud-account-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-account-usage-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-account-usage-api-openapi.yml
 - filename: currencycloud-accounts-api-openapi.yml
   format: yaml
   label: Currencycloud Accounts API
   slug: currencycloud-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-accounts-api-openapi.yml
 - filename: currencycloud-authenticate-api-openapi.yml
   format: yaml
   label: Currencycloud Authenticate API
   slug: currencycloud-authenticate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-authenticate-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-authenticate-api-openapi.yml
 - filename: currencycloud-balances-api-openapi.yml
   format: yaml
   label: Currencycloud Balances API
   slug: currencycloud-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-balances-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-balances-api-openapi.yml
 - filename: currencycloud-beneficiaries-api-openapi.yml
   format: yaml
   label: Currencycloud Beneficiaries API
   slug: currencycloud-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-beneficiaries-api-openapi.yml
 - filename: currencycloud-business-information-api-openapi.yml
   format: yaml
   label: Currencycloud Business Information API
   slug: currencycloud-business-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-business-information-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-business-information-api-openapi.yml
 - filename: currencycloud-contacts-api-openapi.yml
   format: yaml
   label: Currencycloud Contacts API
   slug: currencycloud-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-contacts-api-openapi.yml
 - filename: currencycloud-conversions-api-openapi.yml
   format: yaml
   label: Currencycloud Conversions API
   slug: currencycloud-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-conversions-api-openapi.yml
 - filename: currencycloud-country-api-openapi.yml
   format: yaml
   label: Currencycloud Country API
   slug: currencycloud-country-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-country-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-country-api-openapi.yml
 - filename: currencycloud-currency-api-openapi.yml
   format: yaml
   label: Currencycloud Currency API
   slug: currencycloud-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-currency-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-currency-api-openapi.yml
 - filename: currencycloud-demo-api-openapi.yml
   format: yaml
   label: Currencycloud Demo API
   slug: currencycloud-demo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-demo-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-demo-api-openapi.yml
 - filename: currencycloud-document-images-api-openapi.yml
   format: yaml
   label: Currencycloud Document Images API
   slug: currencycloud-document-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-document-images-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-document-images-api-openapi.yml
 - filename: currencycloud-documents-api-openapi.yml
   format: yaml
   label: Currencycloud Documents API
   slug: currencycloud-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-documents-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-documents-api-openapi.yml
 - filename: currencycloud-form-api-openapi.yml
   format: yaml
   label: Currencycloud Form API
   slug: currencycloud-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-form-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-form-api-openapi.yml
 - filename: currencycloud-funding-api-openapi.yml
   format: yaml
   label: Currencycloud Funding API
   slug: currencycloud-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-funding-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-funding-api-openapi.yml
 - filename: currencycloud-payers-api-openapi.yml
   format: yaml
   label: Currencycloud Payers API
   slug: currencycloud-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-payers-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-payers-api-openapi.yml
 - filename: currencycloud-payments-api-openapi.yml
   format: yaml
   label: Currencycloud Payments API
   slug: currencycloud-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-payments-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-payments-api-openapi.yml
 - filename: currencycloud-people-api-openapi.yml
   format: yaml
   label: Currencycloud People API
   slug: currencycloud-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-people-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-people-api-openapi.yml
 - filename: currencycloud-quotes-api-openapi.yml
   format: yaml
   label: Currencycloud Quotes API
   slug: currencycloud-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-quotes-api-openapi.yml
 - filename: currencycloud-rates-api-openapi.yml
   format: yaml
   label: Currencycloud Rates API
   slug: currencycloud-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-rates-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-rates-api-openapi.yml
 - filename: currencycloud-reference-api-openapi.yml
   format: yaml
   label: Currencycloud Reference API
   slug: currencycloud-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-reference-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-reference-api-openapi.yml
 - filename: currencycloud-reporting-api-openapi.yml
   format: yaml
   label: Currencycloud Reporting API
   slug: currencycloud-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-reporting-api-openapi.yml
 - filename: currencycloud-sender-api-openapi.yml
   format: yaml
   label: Currencycloud Sender API
   slug: currencycloud-sender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-sender-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-sender-api-openapi.yml
 - filename: currencycloud-transaction-approval-api-openapi.yml
   format: yaml
   label: Currencycloud Transaction Approval API
   slug: currencycloud-transaction-approval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-transaction-approval-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-transaction-approval-api-openapi.yml
 - filename: currencycloud-transactions-api-openapi.yml
   format: yaml
   label: Currencycloud Transactions API
   slug: currencycloud-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-transactions-api-openapi.yml
 - filename: currencycloud-transfers-api-openapi.yml
   format: yaml
   label: Currencycloud Transfers API
   slug: currencycloud-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-transfers-api-openapi.yml
 - filename: currencycloud-withdrawal-accounts-api-openapi.yml
   format: yaml
   label: Currencycloud Withdrawal Accounts API
   slug: currencycloud-withdrawal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/openapi/currencycloud-withdrawal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/currencycloud/openapi/currencycloud-withdrawal-accounts-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 60
@@ -290,8 +290,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/curren
   \ get\n  operationId: GetPayerRequirements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference/payment_dates\n  method: get\n  operationId: GetPaymentDates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference/payment_fee_rules\n  method: get\n  operationId: GetPaymentFeeRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference/payment_purpose_codes\n  method: get\n  operationId: GetPaymentPurposeCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference/settlement_accounts\n  method: get\n  operationId: GetSettlementAccounts\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/conversions/create\n  method: post\n  operationId: GenerateConversionReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/payments/create\n  method: post\n  operationId: GeneratePaymentReport\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/report_requests/find\n  method: get\n  operationId: Find Report Requests\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/report_requests/{id}\n  method: get\n  operationId: Retrieve a Report Request\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/sender/{id}\n  method: get\n  operationId: GetSenderDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections_screening/{transactionId}/complete\n  method: put\n  operationId: CompleteCollectionsScreening\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /transactions/find\n  method: get\n  operationId: FindTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{id}\n  method: get\n  operationId: GetTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/create\n  method: post\n  operationId: CreateTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/agentic-access/currencycloud-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/agentic-access/currencycloud-agentic-access.yml
+  \ required\n- path: /transactions/find\n  method: get\n  operationId: FindTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{id}\n  method: get\n  operationId: GetTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/create\n  method: post\n  operationId: CreateTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/currencycloud/agentic-access/currencycloud-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/currencycloud/agentic-access/currencycloud-agentic-access.yml
 summary_line: 111 operations · 51 acting
 tags:
 - Company

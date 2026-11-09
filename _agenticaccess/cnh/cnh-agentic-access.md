@@ -9,43 +9,43 @@ api_specs:
   label: CNH Equipment API
   slug: cnh-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-equipment-api-openapi.yml
 - filename: cnh-farm-setup-api-openapi.yml
   format: yaml
   label: CNH Farm Setup API
   slug: cnh-farm-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-farm-setup-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-farm-setup-api-openapi.yml
 - filename: cnh-operations-api-openapi.yml
   format: yaml
   label: CNH Operations API
   slug: cnh-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-operations-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-operations-api-openapi.yml
 - filename: cnh-prescriptions-api-openapi.yml
   format: yaml
   label: CNH Prescriptions API
   slug: cnh-prescriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-prescriptions-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-prescriptions-api-openapi.yml
 - filename: cnh-tokens-api-openapi.yml
   format: yaml
   label: CNH Tokens API
   slug: cnh-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-tokens-api-openapi.yml
 - filename: cnh-vehicle-telemetry-api-openapi.yml
   format: yaml
   label: CNH Vehicle Telemetry API
   slug: cnh-vehicle-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-vehicle-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-vehicle-telemetry-api-openapi.yml
 - filename: cnh-webhooks-api-openapi.yml
   format: yaml
   label: CNH Webhooks API
   slug: cnh-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cnh-fi
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /equipment/{vehicleId}\n  method: get\n  operationId: getEquipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /telemetry/{vehicleId}\n  method: get\n  operationId: getVehicleTelemetry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /telemetry/{vehicleId}/fault-codes\n  method: get\n  operationId: getFaultCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/{vehicleId}\n  method: get\n  operationId: getVehicleMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /operations/by-vehicle/{vehicleId}\n  method: get\n  operationId: listOperationsByVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prescriptions\n  method: post\n  operationId: sendPrescription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /growers\n  method: get\n  operationId: listGrowers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /farms\n  method: get\n  operationId: listFarms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields\n  method: get\n  operationId: listFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/agentic-access/cnh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cnh/agentic-access/cnh-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - Agriculture

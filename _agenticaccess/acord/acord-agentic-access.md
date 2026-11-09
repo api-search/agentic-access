@@ -9,25 +9,25 @@ api_specs:
   label: ACORD Claims API
   slug: acord-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-claims-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-claims-api-openapi.yml
 - filename: acord-party-api-openapi.yml
   format: yaml
   label: ACORD Party API
   slug: acord-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-party-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-party-api-openapi.yml
 - filename: acord-policy-api-openapi.yml
   format: yaml
   label: ACORD Policy API
   slug: acord-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-policy-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-policy-api-openapi.yml
 - filename: acord-underwriting-api-openapi.yml
   format: yaml
   label: ACORD Underwriting API
   slug: acord-underwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-underwriting-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-underwriting-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/acord-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policies/{policyId}\n  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/{policyId}\n  method: patch\n  operationId: updatePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claims\n  method: get\n  operationId: listClaims\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /claims\n  method: post\n  operationId: submitClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claims/{claimId}\n  method: get\n  operationId: getClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parties\n  method: get\n  operationId: listParties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parties\n  method: post\n  operationId: createParty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /underwriting/submissions\n  method: post\n  operationId:\
   \ submitUnderwritingSubmission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/agentic-access/acord-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/acord/agentic-access/acord-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Claims

@@ -9,25 +9,25 @@ api_specs:
   label: IonQ Backends API
   slug: ionq-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-backends-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-backends-api-openapi.yml
 - filename: ionq-characterizations-api-openapi.yml
   format: yaml
   label: IonQ Characterizations API
   slug: ionq-characterizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-characterizations-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-characterizations-api-openapi.yml
 - filename: ionq-jobs-api-openapi.yml
   format: yaml
   label: IonQ Jobs API
   slug: ionq-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-jobs-api-openapi.yml
 - filename: ionq-calibrations-api-openapi.yml
   format: yaml
   label: IonQ Calibrations API
   slug: ionq-calibrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-calibrations-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-calibrations-api-openapi.yml
 consequence_counts:
   read: 18
   write: 7
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ionq-q
   \  method: get\n  operationId: GetVariantHistogram\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{UUID}/variants/{variantId}/results/shots\n  method: get\n  operationId: GetVariantShots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions\n  method: post\n  operationId: CreateSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions\n  method: get\n  operationId: GetSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /sessions/{session_id}/end\n  method: post\n  operationId: EndSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{session_id}\n  method: get\n  operationId: GetSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}/jobs\n  method: get\n  operationId: GetSessionJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/usage\n  method: get\n  operationId: get-usages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/agentic-access/ionq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ionq/agentic-access/ionq-agentic-access.yml
 summary_line: 25 operations · 7 acting
 tags:
 - Quantum Computing

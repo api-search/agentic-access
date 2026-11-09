@@ -9,31 +9,31 @@ api_specs:
   label: Landcor Data AVM Summary API
   slug: landcor-avm-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-avm-summary-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-avm-summary-api-openapi.yml
 - filename: landcor-comparables-api-openapi.yml
   format: yaml
   label: Landcor Data Comparables API
   slug: landcor-comparables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-comparables-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-comparables-api-openapi.yml
 - filename: landcor-health-api-openapi.yml
   format: yaml
   label: Landcor Data Health API
   slug: landcor-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-health-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-health-api-openapi.yml
 - filename: landcor-property-api-openapi.yml
   format: yaml
   label: Landcor Data Property API
   slug: landcor-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-property-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-property-api-openapi.yml
 - filename: landcor-valuation-api-openapi.yml
   format: yaml
   label: Landcor Data Valuation API
   slug: landcor-valuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/openapi/landcor-valuation-api-openapi.yml
+  url: https://artifacts.apis.io/landcor/openapi/landcor-valuation-api-openapi.yml
 consequence_counts:
   read: 10
   write: 2
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/landco
   - path: /property/{pid}\n  method: get\n  operationId: read_property_property__pid__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /property/{pid}/report/pdf\n  method: get\n  operationId: read_property_pdf_property__pid__report_pdf_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /valuationRange/{pid}\n  method: get\n  operationId: read_valuation_range_valuationRange__pid__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /valuationRange/{pid}/updates\n  method: get\n  operationId: read_property_monthly_update_valuationRange__pid__updates_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /valuationRange/{pid}/history\n  method: get\n  operationId: read_valuation_history_valuationRange__pid__history_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /valuation/ltv-check\n  method: post\n  operationId: run_ltv_check_valuation_ltv_check_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /valuation/neighbourhood/{neighbourhood_code}/{unit_type_code}/sales\n  method: get\n  operationId: read_neighbourhood_sales_series_valuation_neighbourhood__neighbourhood_code___unit_type_code__sales_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n- path: /comparables/{pid}\n  method: get\n  operationId: read_comparables_comparables__pid__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /address/autocomplete\n  method: get\n  operationId: autocomplete_address_address_autocomplete_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /generate-avm-summary\n  method: post\n  operationId: generate_avm_summary_generate_avm_summary_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/agentic-access/landcor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/landcor/agentic-access/landcor-agentic-access.yml
 summary_line: 12 operations · 2 acting
 tags:
 - Real Estate

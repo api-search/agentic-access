@@ -9,97 +9,97 @@ api_specs:
   label: Pipedream Accounts API
   slug: pipedream-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-accounts-api-openapi.yml
 - filename: pipedream-actions-api-openapi.yml
   format: yaml
   label: Pipedream Actions API
   slug: pipedream-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-actions-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-actions-api-openapi.yml
 - filename: pipedream-app-categories-api-openapi.yml
   format: yaml
   label: Pipedream App Categories API
   slug: pipedream-app-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-app-categories-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-app-categories-api-openapi.yml
 - filename: pipedream-apps-api-openapi.yml
   format: yaml
   label: Pipedream Apps API
   slug: pipedream-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-apps-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-apps-api-openapi.yml
 - filename: pipedream-components-api-openapi.yml
   format: yaml
   label: Pipedream Components API
   slug: pipedream-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-components-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-components-api-openapi.yml
 - filename: pipedream-deployed-triggers-api-openapi.yml
   format: yaml
   label: Pipedream Deployed Triggers API
   slug: pipedream-deployed-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-deployed-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-deployed-triggers-api-openapi.yml
 - filename: pipedream-file-stash-api-openapi.yml
   format: yaml
   label: Pipedream File Stash API
   slug: pipedream-file-stash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-file-stash-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-file-stash-api-openapi.yml
 - filename: pipedream-mcp-api-openapi.yml
   format: yaml
   label: Pipedream MCP API
   slug: pipedream-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-mcp-api-openapi.yml
 - filename: pipedream-projects-api-openapi.yml
   format: yaml
   label: Pipedream Projects API
   slug: pipedream-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-projects-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-projects-api-openapi.yml
 - filename: pipedream-proxy-api-openapi.yml
   format: yaml
   label: Pipedream Proxy API
   slug: pipedream-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-proxy-api-openapi.yml
 - filename: pipedream-tokens-api-openapi.yml
   format: yaml
   label: Pipedream Tokens API
   slug: pipedream-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-tokens-api-openapi.yml
 - filename: pipedream-triggers-api-openapi.yml
   format: yaml
   label: Pipedream Triggers API
   slug: pipedream-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-triggers-api-openapi.yml
 - filename: pipedream-usage-api-openapi.yml
   format: yaml
   label: Pipedream Usage API
   slug: pipedream-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-usage-api-openapi.yml
 - filename: pipedream-users-api-openapi.yml
   format: yaml
   label: Pipedream Users API
   slug: pipedream-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-users-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-users-api-openapi.yml
 - filename: pipedream-webhooks-api-openapi.yml
   format: yaml
   label: Pipedream Webhooks API
   slug: pipedream-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-webhooks-api-openapi.yml
 - filename: pipedream-oauth-api-openapi.yml
   format: yaml
   label: Pipedream O Auth API
   slug: pipedream-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/pipedream/openapi/pipedream-oauth-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 31
@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pipedr
   \ required\n- path: /v1/connect/{project_id}/proxy/{url_64}\n  method: delete\n  operationId: deleteProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/connect/{project_id}/proxy/{url_64}\n  method: patch\n  operationId: patchProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/connect/{project_id}/tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/connect/tokens/{ctok}/validate\n  method: get\n  operationId: validateToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connect/usage\n  method: get\n  operationId: listUsages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connect/{project_id}/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - connect:users:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/oauth/token\n  method: post\n  operationId: createOauthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/agentic-access/pipedream-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pipedream/agentic-access/pipedream-agentic-access.yml
 summary_line: 62 operations · 31 acting
 tags:
 - Pipedream

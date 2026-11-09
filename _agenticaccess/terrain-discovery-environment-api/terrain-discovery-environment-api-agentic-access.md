@@ -9,55 +9,55 @@ api_specs:
   label: Terrain Discovery Environment API Analyses API
   slug: terrain-discovery-environment-api-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/openapi/terrain-discovery-environment-api-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/terrain-discovery-environment-api/openapi/terrain-discovery-environment-api-analyses-api-openapi.yml
 - filename: terrain-discovery-environment-api-apps-api-openapi.yml
   format: yaml
   label: Terrain Discovery Environment API Apps API
   slug: terrain-discovery-environment-api-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/openapi/terrain-discovery-environment-api-apps-api-openapi.yml
+  url: https://artifacts.apis.io/terrain-discovery-environment-api/openapi/terrain-discovery-environment-api-apps-api-openapi.yml
 - filename: terrain-discovery-environment-api-authentication-api-openapi.yml
   format: yaml
   label: Terrain Discovery Environment API Authentication API
   slug: terrain-discovery-environment-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/openapi/terrain-discovery-environment-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/terrain-discovery-environment-api/openapi/terrain-discovery-environment-api-authentication-api-openapi.yml
 - filename: terrain-discovery-environment-api-filesystem-api-openapi.yml
   format: yaml
   label: Terrain Discovery Environment API Filesystem API
   slug: terrain-discovery-environment-api-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/openapi/terrain-discovery-environment-api-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/terrain-discovery-environment-api/openapi/terrain-discovery-environment-api-filesystem-api-openapi.yml
 - filename: terrain-discovery-environment-api-identifiers-api-openapi.yml
   format: yaml
   label: Terrain Discovery Environment API Identifiers API
   slug: terrain-discovery-environment-api-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/openapi/terrain-discovery-environment-api-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/terrain-discovery-environment-api/openapi/terrain-discovery-environment-api-identifiers-api-openapi.yml
 - filename: terrain-discovery-environment-api-metadata-api-openapi.yml
   format: yaml
   label: Terrain Discovery Environment API Metadata API
   slug: terrain-discovery-environment-api-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/openapi/terrain-discovery-environment-api-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/terrain-discovery-environment-api/openapi/terrain-discovery-environment-api-metadata-api-openapi.yml
 - filename: terrain-discovery-environment-api-notifications-api-openapi.yml
   format: yaml
   label: Terrain Discovery Environment API Notifications API
   slug: terrain-discovery-environment-api-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/openapi/terrain-discovery-environment-api-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/terrain-discovery-environment-api/openapi/terrain-discovery-environment-api-notifications-api-openapi.yml
 - filename: terrain-discovery-environment-api-search-api-openapi.yml
   format: yaml
   label: Terrain Discovery Environment API Search API
   slug: terrain-discovery-environment-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/openapi/terrain-discovery-environment-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/terrain-discovery-environment-api/openapi/terrain-discovery-environment-api-search-api-openapi.yml
 - filename: terrain-discovery-environment-api-sharing-api-openapi.yml
   format: yaml
   label: Terrain Discovery Environment API Sharing API
   slug: terrain-discovery-environment-api-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/openapi/terrain-discovery-environment-api-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/terrain-discovery-environment-api/openapi/terrain-discovery-environment-api-sharing-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/terrai
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secured/analyses/{analysis-id}\n  method: get\n  operationId: GetAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secured/analyses/{analysis-id}\n  method: delete\n  operationId: DeleteAnalysis\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secured/analyses/{analysis-id}/stop\n  method: post\n  operationId: StopAnalysis\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /secured/notifications\n  method: get\n  operationId: ListNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secured/notifications/mark-all-seen\n  method: post\n  operationId: MarkAllNotificationsSeen\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secured/permanent-id-requests\n  method: get\n  operationId: ListPermanentIdRequests\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secured/permanent-id-requests\n  method: post\n  operationId: CreatePermanentIdRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/agentic-access/terrain-discovery-environment-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/terrain-discovery-environment-api/agentic-access/terrain-discovery-environment-api-agentic-access.yml
 summary_line: 27 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Bioinformatics

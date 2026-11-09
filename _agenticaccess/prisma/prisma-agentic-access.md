@@ -9,175 +9,175 @@ api_specs:
   label: Prisma Aggregation API
   slug: prisma-aggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-aggregation-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-aggregation-api-openapi.yml
 - filename: prisma-api-keys-api-openapi.yml
   format: yaml
   label: Prisma API Keys API
   slug: prisma-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-api-keys-api-openapi.yml
 - filename: prisma-batch-api-openapi.yml
   format: yaml
   label: Prisma Batch API
   slug: prisma-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-batch-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-batch-api-openapi.yml
 - filename: prisma-cache-api-openapi.yml
   format: yaml
   label: Prisma Cache API
   slug: prisma-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-cache-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-cache-api-openapi.yml
 - filename: prisma-connections-api-openapi.yml
   format: yaml
   label: Prisma Connections API
   slug: prisma-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-connections-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-connections-api-openapi.yml
 - filename: prisma-crud-api-openapi.yml
   format: yaml
   label: Prisma CRUD API
   slug: prisma-crud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-crud-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-crud-api-openapi.yml
 - filename: prisma-database-backups-api-openapi.yml
   format: yaml
   label: Prisma Database Backups API
   slug: prisma-database-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-database-backups-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-database-backups-api-openapi.yml
 - filename: prisma-database-usage-api-openapi.yml
   format: yaml
   label: Prisma Database Usage API
   slug: prisma-database-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-database-usage-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-database-usage-api-openapi.yml
 - filename: prisma-databases-api-openapi.yml
   format: yaml
   label: Prisma Databases API
   slug: prisma-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-databases-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-databases-api-openapi.yml
 - filename: prisma-environments-api-openapi.yml
   format: yaml
   label: Prisma Environments API
   slug: prisma-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-environments-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-environments-api-openapi.yml
 - filename: prisma-events-api-openapi.yml
   format: yaml
   label: Prisma Events API
   slug: prisma-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-events-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-events-api-openapi.yml
 - filename: prisma-health-api-openapi.yml
   format: yaml
   label: Prisma Health API
   slug: prisma-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-health-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-health-api-openapi.yml
 - filename: prisma-integrations-api-openapi.yml
   format: yaml
   label: Prisma Integrations API
   slug: prisma-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-integrations-api-openapi.yml
 - filename: prisma-members-api-openapi.yml
   format: yaml
   label: Prisma Members API
   slug: prisma-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-members-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-members-api-openapi.yml
 - filename: prisma-metrics-api-openapi.yml
   format: yaml
   label: Prisma Metrics API
   slug: prisma-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-metrics-api-openapi.yml
 - filename: prisma-projects-api-openapi.yml
   format: yaml
   label: Prisma Projects API
   slug: prisma-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-projects-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-projects-api-openapi.yml
 - filename: prisma-queries-api-openapi.yml
   format: yaml
   label: Prisma Queries API
   slug: prisma-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-queries-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-queries-api-openapi.yml
 - filename: prisma-raw-api-openapi.yml
   format: yaml
   label: Prisma Raw API
   slug: prisma-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-raw-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-raw-api-openapi.yml
 - filename: prisma-recommendations-api-openapi.yml
   format: yaml
   label: Prisma Recommendations API
   slug: prisma-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-recommendations-api-openapi.yml
 - filename: prisma-sessions-api-openapi.yml
   format: yaml
   label: Prisma Sessions API
   slug: prisma-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-sessions-api-openapi.yml
 - filename: prisma-streams-api-openapi.yml
   format: yaml
   label: Prisma Streams API
   slug: prisma-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-streams-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-streams-api-openapi.yml
 - filename: prisma-subscriptions-api-openapi.yml
   format: yaml
   label: Prisma Subscriptions API
   slug: prisma-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-subscriptions-api-openapi.yml
 - filename: prisma-workspaces-api-openapi.yml
   format: yaml
   label: Prisma Workspaces API
   slug: prisma-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-workspaces-api-openapi.yml
 - filename: prisma-buckets-api-openapi.yml
   format: yaml
   label: Prisma Buckets API
   slug: prisma-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-buckets-api-openapi.yml
 - filename: prisma-databases-connections-api-openapi.yml
   format: yaml
   label: Prisma Databases Connections API
   slug: prisma-databases-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-databases-connections-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-databases-connections-api-openapi.yml
 - filename: prisma-experimental-api-openapi.yml
   format: yaml
   label: Prisma [Experimental] API
   slug: prisma-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-experimental-api-openapi.yml
 - filename: prisma-misc-api-openapi.yml
   format: yaml
   label: Prisma Misc API
   slug: prisma-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-misc-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-misc-api-openapi.yml
 - filename: prisma-regions-api-openapi.yml
   format: yaml
   label: Prisma Regions API
   slug: prisma-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-regions-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-regions-api-openapi.yml
 - filename: prisma-service-tokens-api-openapi.yml
   format: yaml
   label: Prisma Service Tokens API
   slug: prisma-service-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-service-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/prisma/openapi/prisma-service-tokens-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 84
@@ -321,8 +321,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/prisma
   \      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/connections/{id}/rotate\n  method: post\n  operationId: postV1ConnectionsByIdRotate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases\n  method: get\n  operationId: getV1Databases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases\n  method: post\n  operationId: postV1Databases\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases/{databaseId}\n  method: get\n  operationId: getV1DatabasesByDatabaseId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases/{databaseId}\n  method: patch\n  operationId: patchV1DatabasesByDatabaseId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases/{databaseId}\n  method: delete\n\
   \  operationId: deleteV1DatabasesByDatabaseId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases/{databaseId}/connections\n  method: get\n  operationId: getV1DatabasesByDatabaseIdConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases/{databaseId}/connections\n  method: post\n  operationId: postV1DatabasesByDatabaseIdConnections\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases/{databaseId}/backups\n  method: get\n  operationId: getV1DatabasesByDatabaseIdBackups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases/{targetDatabaseId}/restore\n  method: post\n  operationId: postV1DatabasesByTargetDatabaseIdRestore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - offline_access\n    - workspace:admin\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/agentic-access/prisma-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/agentic-access/prisma-agentic-access.yml
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases/{databaseId}/backups\n  method: get\n  operationId: getV1DatabasesByDatabaseIdBackups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - offline_access\n    - workspace:admin\n- path: /v1/databases/{targetDatabaseId}/restore\n  method: post\n  operationId: postV1DatabasesByTargetDatabaseIdRestore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - offline_access\n    - workspace:admin\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://artifacts.apis.io/prisma/agentic-access/prisma-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/prisma/agentic-access/prisma-agentic-access.yml
 summary_line: 175 operations · 91 acting · 3 human-in-the-loop
 tags:
 - Database

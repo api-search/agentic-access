@@ -3,175 +3,6 @@ acting_count: 88
 action_class_counts:
   acting: 88
   connected: 57
-api_specs:
-- filename: alexishr-additional-compensation-api-openapi.yml
-  format: yaml
-  label: Alexis Additional Compensation API
-  slug: alexishr-additional-compensation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-additional-compensation-api-openapi.yml
-- filename: alexishr-bonus-compensation-api-openapi.yml
-  format: yaml
-  label: Alexis Bonus Compensation API
-  slug: alexishr-bonus-compensation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-bonus-compensation-api-openapi.yml
-- filename: alexishr-child-api-openapi.yml
-  format: yaml
-  label: Alexis Child API
-  slug: alexishr-child-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-child-api-openapi.yml
-- filename: alexishr-company-api-openapi.yml
-  format: yaml
-  label: Alexis Company API
-  slug: alexishr-company-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-company-api-openapi.yml
-- filename: alexishr-compensation-api-openapi.yml
-  format: yaml
-  label: Alexis Compensation API
-  slug: alexishr-compensation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-compensation-api-openapi.yml
-- filename: alexishr-competence-api-openapi.yml
-  format: yaml
-  label: Alexis Competence API
-  slug: alexishr-competence-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-competence-api-openapi.yml
-- filename: alexishr-competence-employee-api-openapi.yml
-  format: yaml
-  label: Alexis Competence Employee API
-  slug: alexishr-competence-employee-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-competence-employee-api-openapi.yml
-- filename: alexishr-competence-level-api-openapi.yml
-  format: yaml
-  label: Alexis Competence Level API
-  slug: alexishr-competence-level-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-competence-level-api-openapi.yml
-- filename: alexishr-cost-center-api-openapi.yml
-  format: yaml
-  label: Alexis Cost Center API
-  slug: alexishr-cost-center-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-cost-center-api-openapi.yml
-- filename: alexishr-custom-field-api-openapi.yml
-  format: yaml
-  label: Alexis Custom Field API
-  slug: alexishr-custom-field-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-custom-field-api-openapi.yml
-- filename: alexishr-department-api-openapi.yml
-  format: yaml
-  label: Alexis Department API
-  slug: alexishr-department-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-department-api-openapi.yml
-- filename: alexishr-employee-api-openapi.yml
-  format: yaml
-  label: Alexis Employee API
-  slug: alexishr-employee-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-employee-api-openapi.yml
-- filename: alexishr-employee-team-reference-api-openapi.yml
-  format: yaml
-  label: Alexis Employee Team Reference API
-  slug: alexishr-employee-team-reference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-employee-team-reference-api-openapi.yml
-- filename: alexishr-employment-api-openapi.yml
-  format: yaml
-  label: Alexis Employment API
-  slug: alexishr-employment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-employment-api-openapi.yml
-- filename: alexishr-employment-type-api-openapi.yml
-  format: yaml
-  label: Alexis Employment Type API
-  slug: alexishr-employment-type-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-employment-type-api-openapi.yml
-- filename: alexishr-leave-api-openapi.yml
-  format: yaml
-  label: Alexis Leave API
-  slug: alexishr-leave-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-leave-api-openapi.yml
-- filename: alexishr-leave-transaction-api-openapi.yml
-  format: yaml
-  label: Alexis Leave Transaction API
-  slug: alexishr-leave-transaction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-leave-transaction-api-openapi.yml
-- filename: alexishr-leave-type-api-openapi.yml
-  format: yaml
-  label: Alexis Leave Type API
-  slug: alexishr-leave-type-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-leave-type-api-openapi.yml
-- filename: alexishr-office-api-openapi.yml
-  format: yaml
-  label: Alexis Office API
-  slug: alexishr-office-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-office-api-openapi.yml
-- filename: alexishr-organization-api-openapi.yml
-  format: yaml
-  label: Alexis Organization API
-  slug: alexishr-organization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-organization-api-openapi.yml
-- filename: alexishr-project-api-openapi.yml
-  format: yaml
-  label: Alexis Project API
-  slug: alexishr-project-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-project-api-openapi.yml
-- filename: alexishr-scope-api-openapi.yml
-  format: yaml
-  label: Alexis Scope API
-  slug: alexishr-scope-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-scope-api-openapi.yml
-- filename: alexishr-team-api-openapi.yml
-  format: yaml
-  label: Alexis Team API
-  slug: alexishr-team-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-team-api-openapi.yml
-- filename: alexishr-timesheet-api-openapi.yml
-  format: yaml
-  label: Alexis Timesheet API
-  slug: alexishr-timesheet-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-timesheet-api-openapi.yml
-- filename: alexishr-timesheet-entry-api-openapi.yml
-  format: yaml
-  label: Alexis Timesheet Entry API
-  slug: alexishr-timesheet-entry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-timesheet-entry-api-openapi.yml
-- filename: alexishr-timesheet-entry-type-api-openapi.yml
-  format: yaml
-  label: Alexis Timesheet Entry Type API
-  slug: alexishr-timesheet-entry-type-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-timesheet-entry-type-api-openapi.yml
-- filename: alexishr-vacation-balance-api-openapi.yml
-  format: yaml
-  label: Alexis Vacation Balance API
-  slug: alexishr-vacation-balance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-vacation-balance-api-openapi.yml
-- filename: alexishr-work-week-api-openapi.yml
-  format: yaml
-  label: Alexis Work Week API
-  slug: alexishr-work-week-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/openapi/alexishr-work-week-api-openapi.yml
 consequence_counts:
   read: 57
   write: 88
@@ -231,13 +62,15 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/alexis
   \ path: /timesheet-entry/{id}\n  method: patch\n  operationId: updateTimesheetEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheet-entry/{id}\n  method: put\n  operationId: replaceTimesheetEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheet-entry/{id}\n  method: delete\n  operationId: deleteTimesheetEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheet-entry-type\n  method: get\n  operationId: getmanyTimesheetEntryType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timesheet-entry-type/{id}\n  method: get\n  operationId: getTimesheetEntryType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /work-week\n  method: get\n  operationId: getmanyWorkWeek\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /work-week\n  method: post\n  operationId: createWorkWeek\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /work-week/{id}\n  method: get\n  operationId: getWorkWeek\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /work-week/{id}\n  method: patch\n  operationId: updateWorkWeek\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /work-week/{id}\n  method: put\n  operationId: replaceWorkWeek\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  \n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/agentic-access/alexishr-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alexishr/refs/heads/main/agentic-access/alexishr-agentic-access.yml
+  \n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/alexishr/agentic-access/alexishr-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/alexishr/agentic-access/alexishr-agentic-access.yml
 summary_line: 145 operations · 88 acting
 tags:
-- HR
-- SaaS
+- People Analytics
 - Payroll
-- PeopleAnalytics
-- AI
+- AI Chatbot
+- Integration
+- Onboarding
+- Performance Management
+- User Provisioning
 ---

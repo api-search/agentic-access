@@ -9,37 +9,37 @@ api_specs:
   label: Sparetech Authentication API
   slug: sparetech-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-authentication-api-openapi.yml
 - filename: sparetech-changeintent-api-openapi.yml
   format: yaml
   label: Sparetech ChangeIntent API
   slug: sparetech-changeintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-changeintent-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-changeintent-api-openapi.yml
 - filename: sparetech-creationintent-api-openapi.yml
   format: yaml
   label: Sparetech CreationIntent API
   slug: sparetech-creationintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-creationintent-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-creationintent-api-openapi.yml
 - filename: sparetech-extensionintent-api-openapi.yml
   format: yaml
   label: Sparetech ExtensionIntent API
   slug: sparetech-extensionintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-extensionintent-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-extensionintent-api-openapi.yml
 - filename: sparetech-material-master-sync-api-openapi.yml
   format: yaml
   label: Sparetech Material Master Sync API
   slug: sparetech-material-master-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-material-master-sync-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-material-master-sync-api-openapi.yml
 - filename: sparetech-schema-api-openapi.yml
   format: yaml
   label: Sparetech Schema API
   slug: sparetech-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/openapi/sparetech-schema-api-openapi.yml
+  url: https://artifacts.apis.io/sparetech/openapi/sparetech-schema-api-openapi.yml
 consequence_counts:
   read: 8
   write: 20
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sparet
   \  operationId: upsertMaterial\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /creation-intents/{id}/confirm\n  method: post\n  operationId: confirmCreationIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /creation-intents/{id}/reject\n  method: post\n  operationId: rejectCreationIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /change-intents/{id}/confirm\n  method: post\n  operationId: applyChangeIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /change-intents/{id}/reject\n  method: post\n  operationId: rejectChangeIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /extension-intents/{id}/confirm\n  method: post\n  operationId: confirmExtensionIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /extension-intents/{id}/reject\n  method: post\n  operationId: rejectExtensionIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/agentic-access/sparetech-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sparetech/agentic-access/sparetech-agentic-access.yml
 summary_line: 28 operations · 20 acting
 tags:
 - Company

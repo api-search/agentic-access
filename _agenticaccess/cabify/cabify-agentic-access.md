@@ -9,79 +9,79 @@ api_specs:
   label: Cabify Delivery API
   slug: cabify-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-delivery-api-openapi.yml
 - filename: cabify-estimates-api-openapi.yml
   format: yaml
   label: Cabify Estimates API
   slug: cabify-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-estimates-api-openapi.yml
 - filename: cabify-hubs-api-openapi.yml
   format: yaml
   label: Cabify Hubs API
   slug: cabify-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-hubs-api-openapi.yml
 - filename: cabify-journeys-api-openapi.yml
   format: yaml
   label: Cabify Journeys API
   slug: cabify-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-journeys-api-openapi.yml
 - filename: cabify-label-api-openapi.yml
   format: yaml
   label: Cabify Label API
   slug: cabify-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-label-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-label-api-openapi.yml
 - filename: cabify-labels-api-openapi.yml
   format: yaml
   label: Cabify Labels API
   slug: cabify-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-labels-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-labels-api-openapi.yml
 - filename: cabify-parcels-api-openapi.yml
   format: yaml
   label: Cabify Parcels API
   slug: cabify-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-parcels-api-openapi.yml
 - filename: cabify-sales-api-openapi.yml
   format: yaml
   label: Cabify Sales API
   slug: cabify-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-sales-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-sales-api-openapi.yml
 - filename: cabify-shipment-api-openapi.yml
   format: yaml
   label: Cabify Shipment API
   slug: cabify-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-shipment-api-openapi.yml
 - filename: cabify-shipping-types-api-openapi.yml
   format: yaml
   label: Cabify Shipping Types API
   slug: cabify-shipping-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-shipping-types-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-shipping-types-api-openapi.yml
 - filename: cabify-status-api-openapi.yml
   format: yaml
   label: Cabify Status API
   slug: cabify-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-status-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-status-api-openapi.yml
 - filename: cabify-users-api-openapi.yml
   format: yaml
   label: Cabify Users API
   slug: cabify-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-users-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-users-api-openapi.yml
 - filename: cabify-webhooks-api-openapi.yml
   format: yaml
   label: Cabify Webhooks API
   slug: cabify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/openapi/cabify-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cabify/openapi/cabify-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 26
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cabify
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/users\n  method: patch\n  operationId: updateUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/users/email/{email}\n  method: get\n  operationId: getUserByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/users/{id}\n  method: get\n  operationId: getUserById\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{hook}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: subscribeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/agentic-access/cabify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cabify/agentic-access/cabify-agentic-access.yml
 summary_line: 46 operations · 20 acting
 tags:
 - Company
@@ -144,5 +144,6 @@ tags:
 - Delivery
 - Last Mile Delivery
 - Webhook
+- OAuth
 - Authentication
 ---

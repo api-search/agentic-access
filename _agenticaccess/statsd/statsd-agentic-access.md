@@ -9,49 +9,49 @@ api_specs:
   label: StatsD Wire Protocol
   slug: statsd-wire-protocol
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/asyncapi/statsd-wire-protocol-asyncapi.yml
+  url: https://artifacts.apis.io/statsd/asyncapi/statsd-wire-protocol-asyncapi.yml
 - filename: dogstatsd-wire-protocol-asyncapi.yml
   format: yaml
   label: DogStatsD Wire Protocol
   slug: dogstatsd-wire-protocol
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/asyncapi/dogstatsd-wire-protocol-asyncapi.yml
+  url: https://artifacts.apis.io/statsd/asyncapi/dogstatsd-wire-protocol-asyncapi.yml
 - filename: statsd-configuration-api-openapi.yml
   format: yaml
   label: StatsD Configuration API
   slug: statsd-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/statsd/openapi/statsd-configuration-api-openapi.yml
 - filename: statsd-counters-api-openapi.yml
   format: yaml
   label: StatsD Counters API
   slug: statsd-counters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-counters-api-openapi.yml
+  url: https://artifacts.apis.io/statsd/openapi/statsd-counters-api-openapi.yml
 - filename: statsd-gauges-api-openapi.yml
   format: yaml
   label: StatsD Gauges API
   slug: statsd-gauges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-gauges-api-openapi.yml
+  url: https://artifacts.apis.io/statsd/openapi/statsd-gauges-api-openapi.yml
 - filename: statsd-health-api-openapi.yml
   format: yaml
   label: StatsD Health API
   slug: statsd-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-health-api-openapi.yml
+  url: https://artifacts.apis.io/statsd/openapi/statsd-health-api-openapi.yml
 - filename: statsd-stats-api-openapi.yml
   format: yaml
   label: StatsD Stats API
   slug: statsd-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-stats-api-openapi.yml
+  url: https://artifacts.apis.io/statsd/openapi/statsd-stats-api-openapi.yml
 - filename: statsd-timers-api-openapi.yml
   format: yaml
   label: StatsD Timers API
   slug: statsd-timers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-timers-api-openapi.yml
+  url: https://artifacts.apis.io/statsd/openapi/statsd-timers-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/statsd
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timers\n  method: get\n  operationId: listTimers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /delcounters\n  method: post\n  operationId: deleteCounters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /delgauges\n  method: post\n  operationId: deleteGauges\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /deltimers\n  method: post\n  operationId: deleteTimers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: post\n  operationId: setHealth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config\n  method: get\n  operationId: dumpConfig\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/agentic-access/statsd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/statsd/agentic-access/statsd-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Aggregation

@@ -9,43 +9,43 @@ api_specs:
   label: Matrixport Account API
   slug: matrixport-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-account-api-openapi.yml
+  url: https://artifacts.apis.io/matrixport/openapi/matrixport-account-api-openapi.yml
 - filename: matrixport-batch-orders-api-openapi.yml
   format: yaml
   label: Matrixport Batch Orders API
   slug: matrixport-batch-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-batch-orders-api-openapi.yml
+  url: https://artifacts.apis.io/matrixport/openapi/matrixport-batch-orders-api-openapi.yml
 - filename: matrixport-block-trade-api-openapi.yml
   format: yaml
   label: Matrixport Block Trade API
   slug: matrixport-block-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-block-trade-api-openapi.yml
+  url: https://artifacts.apis.io/matrixport/openapi/matrixport-block-trade-api-openapi.yml
 - filename: matrixport-market-api-openapi.yml
   format: yaml
   label: Matrixport Market API
   slug: matrixport-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-market-api-openapi.yml
+  url: https://artifacts.apis.io/matrixport/openapi/matrixport-market-api-openapi.yml
 - filename: matrixport-order-api-openapi.yml
   format: yaml
   label: Matrixport Order API
   slug: matrixport-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-order-api-openapi.yml
+  url: https://artifacts.apis.io/matrixport/openapi/matrixport-order-api-openapi.yml
 - filename: matrixport-system-api-openapi.yml
   format: yaml
   label: Matrixport System API
   slug: matrixport-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-system-api-openapi.yml
+  url: https://artifacts.apis.io/matrixport/openapi/matrixport-system-api-openapi.yml
 - filename: matrixport-websocket-api-openapi.yml
   format: yaml
   label: Matrixport WebSocket API
   slug: matrixport-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/openapi/matrixport-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/matrixport/openapi/matrixport-websocket-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 29
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/matrix
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/open_orders\n  method: get\n  operationId: getOpenOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stop_orders\n  method: get\n  operationId: getStopOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/trades\n  method: get\n  operationId: getUserTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/margins\n  method: get\n  operationId: getEstMargins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/batchorders\n  method: post\n  operationId: newBatchOrders\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/amend_batchorders\n  method: post\n  operationId: amendBatchOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/blocktrades\n  method: post\n  operationId: newParadigmBlockOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n   \
   \   purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/blocktrades\n  method: get\n  operationId: queryParadigmBlockOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/platform_blocktrades\n  method: get\n  operationId: queryBlockOrdersByPlatform\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ws/auth\n  method: get\n  operationId: getWsAuthToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/agentic-access/matrixport-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/matrixport/agentic-access/matrixport-agentic-access.yml
 summary_line: 39 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Company
@@ -141,4 +141,8 @@ tags:
 - WebSocket
 - REST API
 - Real-Time
+- Fintech
+- Digital Assets
+- Cryptocurrency
+- Institutional
 ---

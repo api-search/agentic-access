@@ -9,85 +9,85 @@ api_specs:
   label: Bannerbear Images API
   slug: bannerbear-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-images-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-images-api-openapi.yml
 - filename: bannerbear-account-api-openapi.yml
   format: yaml
   label: Bannerbear Account API
   slug: bannerbear-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-account-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-account-api-openapi.yml
 - filename: bannerbear-animation-templates-api-openapi.yml
   format: yaml
   label: Bannerbear Animation Templates API
   slug: bannerbear-animation-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-animation-templates-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-animation-templates-api-openapi.yml
 - filename: bannerbear-animations-api-openapi.yml
   format: yaml
   label: Bannerbear Animations API
   slug: bannerbear-animations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-animations-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-animations-api-openapi.yml
 - filename: bannerbear-assets-api-openapi.yml
   format: yaml
   label: Bannerbear Assets API
   slug: bannerbear-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-assets-api-openapi.yml
 - filename: bannerbear-batches-api-openapi.yml
   format: yaml
   label: Bannerbear Batches API
   slug: bannerbear-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-batches-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-batches-api-openapi.yml
 - filename: bannerbear-image-templates-api-openapi.yml
   format: yaml
   label: Bannerbear Image Templates API
   slug: bannerbear-image-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-image-templates-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-image-templates-api-openapi.yml
 - filename: bannerbear-instant-urls-api-openapi.yml
   format: yaml
   label: Bannerbear Instant Urls API
   slug: bannerbear-instant-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-instant-urls-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-instant-urls-api-openapi.yml
 - filename: bannerbear-publications-api-openapi.yml
   format: yaml
   label: Bannerbear Publications API
   slug: bannerbear-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-publications-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-publications-api-openapi.yml
 - filename: bannerbear-tool-jobs-api-openapi.yml
   format: yaml
   label: Bannerbear Tool Jobs API
   slug: bannerbear-tool-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-tool-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-tool-jobs-api-openapi.yml
 - filename: bannerbear-tools-api-openapi.yml
   format: yaml
   label: Bannerbear Tools API
   slug: bannerbear-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-tools-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-tools-api-openapi.yml
 - filename: bannerbear-webhooks-api-openapi.yml
   format: yaml
   label: Bannerbear Webhooks API
   slug: bannerbear-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-webhooks-api-openapi.yml
 - filename: bannerbear-workflow-runs-api-openapi.yml
   format: yaml
   label: Bannerbear Workflow Runs API
   slug: bannerbear-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-workflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-workflow-runs-api-openapi.yml
 - filename: bannerbear-workflows-api-openapi.yml
   format: yaml
   label: Bannerbear Workflows API
   slug: bannerbear-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/bannerbear/openapi/bannerbear-workflows-api-openapi.yml
 consequence_counts:
   read: 18
   write: 11
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/banner
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{uid}\n  method: delete\n  operationId: deleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template_sets\n  method: post\n  operationId: createTemplateSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template_sets\n  method: get\n  operationId: listTemplateSets\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template_sets/{uid}\n  method: get\n  operationId: getTemplateSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template_sets/{uid}\n  method: patch\n  operationId: updateTemplateSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fonts\n  method: get\n  operationId: listFonts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /effects\n  method: get\n  operationId: listEffects\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/agentic-access/bannerbear-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bannerbear/agentic-access/bannerbear-agentic-access.yml
 summary_line: 29 operations · 11 acting
 tags:
 - Image Generation

@@ -9,49 +9,49 @@ api_specs:
   label: KG-NINJA A2a API
   slug: kgninja-dev-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-a2a-api-openapi.yml
 - filename: kgninja-dev-decision-support-api-openapi.yml
   format: yaml
   label: KG-NINJA Decision Support API
   slug: kgninja-dev-decision-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-decision-support-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-decision-support-api-openapi.yml
 - filename: kgninja-dev-discovery-api-openapi.yml
   format: yaml
   label: KG-NINJA Discovery API
   slug: kgninja-dev-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-discovery-api-openapi.yml
 - filename: kgninja-dev-goals-api-openapi.yml
   format: yaml
   label: KG-NINJA Goals API
   slug: kgninja-dev-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-goals-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-goals-api-openapi.yml
 - filename: kgninja-dev-mcp-api-openapi.yml
   format: yaml
   label: KG-NINJA MCP API
   slug: kgninja-dev-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-mcp-api-openapi.yml
 - filename: kgninja-dev-operations-api-openapi.yml
   format: yaml
   label: KG-NINJA Operations API
   slug: kgninja-dev-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-operations-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-operations-api-openapi.yml
 - filename: kgninja-dev-purchase-api-openapi.yml
   format: yaml
   label: KG-NINJA Purchase API
   slug: kgninja-dev-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-purchase-api-openapi.yml
 - filename: kgninja-dev-registration-api-openapi.yml
   format: yaml
   label: KG-NINJA Registration API
   slug: kgninja-dev-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/openapi/kgninja-dev-registration-api-openapi.yml
+  url: https://artifacts.apis.io/kgninja-dev/openapi/kgninja-dev-registration-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 38
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/kgninj
   \ get\n  operationId: getAgentSkillsIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/agent-skills/verify-json-evidence/SKILL.md\n  method: get\n  operationId: getVerifyJsonEvidenceSkill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/jwks.json\n  method: get\n  operationId: getEvidenceJwks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llms.txt\n  method: get\n  operationId: getLlmsIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llms-full.txt\n  method: get\n  operationId: getLlmsFullIndex\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /index.md\n  method: get\n  operationId: getMarkdownServiceGuide\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /icon.svg\n  method: get\n  operationId: getServiceIcon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /robots.txt\n  method: get\n  operationId: getRobots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sitemap.xml\n  method: get\n  operationId: getSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi.json\n  method: get\n  operationId:\
   \ getOpenApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp\n  method: post\n  operationId: mcpStreamableHttp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kgninja-dev/refs/heads/main/agentic-access/kgninja-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kgninja-dev/agentic-access/kgninja-dev-agentic-access.yml
 summary_line: 44 operations · 6 acting
 tags:
 - Agents

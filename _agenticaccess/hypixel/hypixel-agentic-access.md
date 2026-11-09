@@ -8,31 +8,31 @@ api_specs:
   label: Hypixel Housing API
   slug: hypixel-housing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-housing-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-housing-api-openapi.yml
 - filename: hypixel-other-api-openapi.yml
   format: yaml
   label: Hypixel Other API
   slug: hypixel-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-other-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-other-api-openapi.yml
 - filename: hypixel-player-data-api-openapi.yml
   format: yaml
   label: Hypixel Player Data API
   slug: hypixel-player-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-player-data-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-player-data-api-openapi.yml
 - filename: hypixel-resources-api-openapi.yml
   format: yaml
   label: Hypixel Resources API
   slug: hypixel-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-resources-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-resources-api-openapi.yml
 - filename: hypixel-skyblock-api-openapi.yml
   format: yaml
   label: Hypixel SkyBlock API
   slug: hypixel-skyblock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/openapi/hypixel-skyblock-api-openapi.yml
+  url: https://artifacts.apis.io/hypixel/openapi/hypixel-skyblock-api-openapi.yml
 consequence_counts:
   read: 68
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hypixe
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/skyblock/profile\n  method: get\n  operationId: getSkyblockProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/skyblock/profiles\n  method: get\n  operationId: getSkyblockProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/skyblock/museum\n  method: get\n  operationId: getSkyblockMuseum\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/skyblock/garden\n  method: get\n  operationId: getSkyblockGarden\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v2/skyblock/bingo\n  method: get\n  operationId: getSkyblockBingo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/skyblock/firesales\n  method: get\n  operationId: getSkyblockFiresales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/housing/active\n  method: get\n  operationId: getHousingActive\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/housing/house\n  method: get\n  operationId: getHousingHouse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/housing/houses\n  method: get\n  operationId: getHousingHouses\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/boosters\n  method: get\n  operationId: getBoosters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/counts\n  method: get\n  operationId: getCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/leaderboards\n  method: get\n  operationId: getLeaderboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/punishmentstats\n  method: get\n  operationId: getPunishmentstats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/agentic-access/hypixel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hypixel/agentic-access/hypixel-agentic-access.yml
 summary_line: 68 operations
 tags:
 - Gaming

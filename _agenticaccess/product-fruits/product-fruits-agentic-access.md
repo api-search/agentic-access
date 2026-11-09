@@ -9,25 +9,25 @@ api_specs:
   label: Product Fruits Events API
   slug: product-fruits-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-events-api-openapi.yml
+  url: https://artifacts.apis.io/product-fruits/openapi/product-fruits-events-api-openapi.yml
 - filename: product-fruits-feedback-api-openapi.yml
   format: yaml
   label: Product Fruits Feedback API
   slug: product-fruits-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/product-fruits/openapi/product-fruits-feedback-api-openapi.yml
 - filename: product-fruits-knowledge-base-api-openapi.yml
   format: yaml
   label: Product Fruits Knowledge Base API
   slug: product-fruits-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/product-fruits/openapi/product-fruits-knowledge-base-api-openapi.yml
 - filename: product-fruits-users-api-openapi.yml
   format: yaml
   label: Product Fruits Users API
   slug: product-fruits-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/openapi/product-fruits-users-api-openapi.yml
+  url: https://artifacts.apis.io/product-fruits/openapi/product-fruits-users-api-openapi.yml
 consequence_counts:
   read: 3
   write: 13
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/knowledgebase/categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/knowledgebase/categories/import\n  method: post\n  operationId: importCategories\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/knowledgebase/categories/{correlationId}\n  method: get\n  operationId: getCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/knowledgebase/categories/{correlationId}\n  method: put\n  operationId: updateCategory\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/knowledgebase/categories/{correlationId}\n  method: delete\n  operationId: deleteCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/knowledgebase/upload-image\n  method: post\n  operationId: uploadImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/agentic-access/product-fruits-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/product-fruits/agentic-access/product-fruits-agentic-access.yml
 summary_line: 16 operations · 13 acting
 tags:
 - Product Adoption

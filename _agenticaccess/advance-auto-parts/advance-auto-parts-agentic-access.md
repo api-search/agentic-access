@@ -9,43 +9,43 @@ api_specs:
   label: Advance Auto Parts Cart API
   slug: advance-auto-parts-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-cart-api-openapi.yml
+  url: https://artifacts.apis.io/advance-auto-parts/openapi/advance-auto-parts-cart-api-openapi.yml
 - filename: advance-auto-parts-inventory-api-openapi.yml
   format: yaml
   label: Advance Auto Parts Inventory API
   slug: advance-auto-parts-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/advance-auto-parts/openapi/advance-auto-parts-inventory-api-openapi.yml
 - filename: advance-auto-parts-loyalty-api-openapi.yml
   format: yaml
   label: Advance Auto Parts Loyalty API
   slug: advance-auto-parts-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/advance-auto-parts/openapi/advance-auto-parts-loyalty-api-openapi.yml
 - filename: advance-auto-parts-orders-api-openapi.yml
   format: yaml
   label: Advance Auto Parts Orders API
   slug: advance-auto-parts-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-orders-api-openapi.yml
+  url: https://artifacts.apis.io/advance-auto-parts/openapi/advance-auto-parts-orders-api-openapi.yml
 - filename: advance-auto-parts-products-api-openapi.yml
   format: yaml
   label: Advance Auto Parts Products API
   slug: advance-auto-parts-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-products-api-openapi.yml
+  url: https://artifacts.apis.io/advance-auto-parts/openapi/advance-auto-parts-products-api-openapi.yml
 - filename: advance-auto-parts-stores-api-openapi.yml
   format: yaml
   label: Advance Auto Parts Stores API
   slug: advance-auto-parts-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-stores-api-openapi.yml
+  url: https://artifacts.apis.io/advance-auto-parts/openapi/advance-auto-parts-stores-api-openapi.yml
 - filename: advance-auto-parts-vehicles-api-openapi.yml
   format: yaml
   label: Advance Auto Parts Vehicles API
   slug: advance-auto-parts-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/advance-auto-parts/openapi/advance-auto-parts-vehicles-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/advanc
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/models\n  method: get\n  operationId: getVehicleModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: searchProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory\n  method: get\n  operationId: checkInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores\n  method: get\n  operationId: getStores\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cart\n  method: get\n  operationId: getCart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cart\n  method: post\n  operationId: addToCart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders\n  method: get\n  operationId: getOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loyalty/account\n  method: get\n  operationId: getLoyaltyAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loyalty/transactions\n  method: get\n  operationId: getLoyaltyTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/agentic-access/advance-auto-parts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/advance-auto-parts/agentic-access/advance-auto-parts-agentic-access.yml
 summary_line: 14 operations · 2 acting
 tags:
 - Automotive

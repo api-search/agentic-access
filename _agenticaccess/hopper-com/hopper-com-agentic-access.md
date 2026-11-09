@@ -9,31 +9,31 @@ api_specs:
   label: Hopper Analytics API
   slug: hopper-com-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/hopper-com/openapi/hopper-com-analytics-api-openapi.yml
 - filename: hopper-com-authentication-api-openapi.yml
   format: yaml
   label: Hopper Authentication API
   slug: hopper-com-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/hopper-com/openapi/hopper-com-authentication-api-openapi.yml
 - filename: hopper-com-cancel-for-any-reason-cfar-api-openapi.yml
   format: yaml
   label: Hopper Cancel For Any Reason (CFAR) API
   slug: hopper-com-cancel-for-any-reason-cfar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-cancel-for-any-reason-cfar-api-openapi.yml
+  url: https://artifacts.apis.io/hopper-com/openapi/hopper-com-cancel-for-any-reason-cfar-api-openapi.yml
 - filename: hopper-com-disruption-guarantee-dg-api-openapi.yml
   format: yaml
   label: Hopper Disruption Guarantee (DG) API
   slug: hopper-com-disruption-guarantee-dg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-disruption-guarantee-dg-api-openapi.yml
+  url: https://artifacts.apis.io/hopper-com/openapi/hopper-com-disruption-guarantee-dg-api-openapi.yml
 - filename: hopper-com-sessions-api-openapi.yml
   format: yaml
   label: Hopper Sessions API
   slug: hopper-com-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/openapi/hopper-com-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/hopper-com/openapi/hopper-com-sessions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 5
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hopper
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dg_contracts/{id}/payment\n  method: post\n  operationId: postDg_contractsIdPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dg_contracts/{id}/update_status\n  method: put\n  operationId: putDg_contractsIdUpdate_status\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dg_contracts/{id}/itinerary_slices\n  method: put\n  operationId:\
   \ putDg_contractsIdItinerary_slices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dg_contract_exercises\n  method: post\n  operationId: postDg_contract_exercises\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer/dg/payout/receipt\n  method: get\n  operationId: getCustomerDgPayoutReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/dg_exercises/{id}/session\n  method: get\n  operationId: getCustomerDg_exercisesIdSession\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth\n  method: post\n  operationId: postAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/agentic-access/hopper-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hopper-com/agentic-access/hopper-com-agentic-access.yml
 summary_line: 23 operations · 18 acting
 tags:
 - Travel

@@ -8,7 +8,7 @@ api_specs:
   label: Apidog Import And Export API
   slug: apidog-import-and-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/openapi/apidog-import-and-export-api-openapi.yml
+  url: https://artifacts.apis.io/apidog/openapi/apidog-import-and-export-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -35,7 +35,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apidog-apidog-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 3\n  by_consequence:\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/projects/{projectId}/import-openapi\n  method: post\n  operationId: importOpenApiData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/export-openapi\n  method: post\n  operationId: exportOpenApiData\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/import-postman-collection\n  method: post\n  operationId: importPostmanCollectionData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/agentic-access/apidog-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apidog/agentic-access/apidog-agentic-access.yml
 summary_line: 3 operations · 3 acting
 tags:
 - AI Coding

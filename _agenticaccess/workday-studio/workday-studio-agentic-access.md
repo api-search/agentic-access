@@ -9,91 +9,91 @@ api_specs:
   label: Workday Studio Absence Management API
   slug: workday-studio-absence-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-absence-management-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-absence-management-api-openapi.yml
 - filename: workday-studio-benefits-administration-api-openapi.yml
   format: yaml
   label: Workday Studio Benefits Administration API
   slug: workday-studio-benefits-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-benefits-administration-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-benefits-administration-api-openapi.yml
 - filename: workday-studio-compensation-api-openapi.yml
   format: yaml
   label: Workday Studio Compensation API
   slug: workday-studio-compensation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-compensation-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-compensation-api-openapi.yml
 - filename: workday-studio-financial-management-api-openapi.yml
   format: yaml
   label: Workday Studio Financial Management API
   slug: workday-studio-financial-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-financial-management-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-financial-management-api-openapi.yml
 - filename: workday-studio-human-resources-api-openapi.yml
   format: yaml
   label: Workday Studio Human Resources API
   slug: workday-studio-human-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-human-resources-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-human-resources-api-openapi.yml
 - filename: workday-studio-integration-assemblies-api-openapi.yml
   format: yaml
   label: Workday Studio Integration Assemblies API
   slug: workday-studio-integration-assemblies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-integration-assemblies-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-integration-assemblies-api-openapi.yml
 - filename: workday-studio-integration-events-api-openapi.yml
   format: yaml
   label: Workday Studio Integration Events API
   slug: workday-studio-integration-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-integration-events-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-integration-events-api-openapi.yml
 - filename: workday-studio-integration-systems-api-openapi.yml
   format: yaml
   label: Workday Studio Integration Systems API
   slug: workday-studio-integration-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-integration-systems-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-integration-systems-api-openapi.yml
 - filename: workday-studio-integration-templates-api-openapi.yml
   format: yaml
   label: Workday Studio Integration Templates API
   slug: workday-studio-integration-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-integration-templates-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-integration-templates-api-openapi.yml
 - filename: workday-studio-launch-parameters-api-openapi.yml
   format: yaml
   label: Workday Studio Launch Parameters API
   slug: workday-studio-launch-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-launch-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-launch-parameters-api-openapi.yml
 - filename: workday-studio-payroll-api-openapi.yml
   format: yaml
   label: Workday Studio Payroll API
   slug: workday-studio-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-payroll-api-openapi.yml
 - filename: workday-studio-recruiting-api-openapi.yml
   format: yaml
   label: Workday Studio Recruiting API
   slug: workday-studio-recruiting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-recruiting-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-recruiting-api-openapi.yml
 - filename: workday-studio-service-directory-api-openapi.yml
   format: yaml
   label: Workday Studio Service Directory API
   slug: workday-studio-service-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-service-directory-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-service-directory-api-openapi.yml
 - filename: workday-studio-staffing-api-openapi.yml
   format: yaml
   label: Workday Studio Staffing API
   slug: workday-studio-staffing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-staffing-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-staffing-api-openapi.yml
 - filename: workday-studio-time-tracking-api-openapi.yml
   format: yaml
   label: Workday Studio Time Tracking API
   slug: workday-studio-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/workday-studio/openapi/workday-studio-time-tracking-api-openapi.yml
 consequence_counts:
   read: 22
   write: 1
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/workda
   \    - r:integrations\n    - w:integrations\n- path: /integrationSystems/{ID}\n  method: get\n  operationId: getIntegrationSystem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - r:integrations\n    - w:integrations\n- path: /integrationSystems/{ID}/launch\n  method: post\n  operationId: launchIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - r:integrations\n    - w:integrations\n- path: /integrationTemplates\n  method: get\n  operationId: listIntegrationTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n\
   \    - r:integrations\n    - w:integrations\n- path: /integrationTemplates/{ID}\n  method: get\n  operationId: getIntegrationTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - r:integrations\n    - w:integrations\n- path: /launchParameters\n  method: get\n  operationId: listLaunchParameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - r:integrations\n    - w:integrations\n- path: /Payroll/Get_Payroll_Results\n  method: post\n  operationId: getPayrollResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - r:wws\n    - w:wws\n- path: /Recruiting/Get_Candidates\n  method: post\n  operationId: getCandidates\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - r:wws\n    - w:wws\n- path: /Human_Resources\n  method: get\n  operationId: getHumanResourcesService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - r:wws\n    - w:wws\n- path: /Staffing/Get_Job_Postings\n  method: post\n  operationId: getJobPostings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - r:wws\n    - w:wws\n- path: /Time_Tracking/Get_Time_Clock_Events\n  method: post\n  operationId: getTimeClockEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - r:wws\n    - w:wws\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/agentic-access/workday-studio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workday-studio/agentic-access/workday-studio-agentic-access.yml
 summary_line: 23 operations · 1 acting
 tags:
 - Cloud

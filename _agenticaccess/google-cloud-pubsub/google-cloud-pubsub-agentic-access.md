@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Pub/Sub Schemas API
   slug: google-cloud-pubsub-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/openapi/google-cloud-pubsub-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-schemas-api-openapi.yml
 - filename: google-cloud-pubsub-subscriptions-api-openapi.yml
   format: yaml
   label: Google Cloud Pub/Sub Subscriptions API
   slug: google-cloud-pubsub-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/openapi/google-cloud-pubsub-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-subscriptions-api-openapi.yml
 - filename: google-cloud-pubsub-topics-api-openapi.yml
   format: yaml
   label: Google Cloud Pub/Sub Topics API
   slug: google-cloud-pubsub-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/openapi/google-cloud-pubsub-topics-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-topics-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/subscriptions/{subscriptionId}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/subscriptions/{subscriptionId}\n  method: put\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /projects/{projectId}/subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/subscriptions/{subscriptionId}:pull\n  method: post\n  operationId: pullMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/subscriptions/{subscriptionId}:acknowledge\n  method: post\n  operationId: acknowledgeMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/schemas\n  method: get\n  operationId: listSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/schemas\n  method: post\n  operationId: createSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/agentic-access/google-cloud-pubsub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-pubsub/agentic-access/google-cloud-pubsub-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Event-Driven

@@ -8,37 +8,37 @@ api_specs:
   label: FVAP.gov Ballot Rules API
   slug: fvapgov-ballot-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-ballot-rules-api-openapi.yml
+  url: https://artifacts.apis.io/fvapgov/openapi/fvapgov-ballot-rules-api-openapi.yml
 - filename: fvapgov-deadline-dates-api-openapi.yml
   format: yaml
   label: FVAP.gov Deadline Dates API
   slug: fvapgov-deadline-dates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-deadline-dates-api-openapi.yml
+  url: https://artifacts.apis.io/fvapgov/openapi/fvapgov-deadline-dates-api-openapi.yml
 - filename: fvapgov-election-offices-api-openapi.yml
   format: yaml
   label: FVAP.gov Election Offices API
   slug: fvapgov-election-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-election-offices-api-openapi.yml
+  url: https://artifacts.apis.io/fvapgov/openapi/fvapgov-election-offices-api-openapi.yml
 - filename: fvapgov-evag-api-openapi.yml
   format: yaml
   label: FVAP.gov eVAG API
   slug: fvapgov-evag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-evag-api-openapi.yml
+  url: https://artifacts.apis.io/fvapgov/openapi/fvapgov-evag-api-openapi.yml
 - filename: fvapgov-important-info-api-openapi.yml
   format: yaml
   label: FVAP.gov Important Info API
   slug: fvapgov-important-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-important-info-api-openapi.yml
+  url: https://artifacts.apis.io/fvapgov/openapi/fvapgov-important-info-api-openapi.yml
 - filename: fvapgov-schema-api-openapi.yml
   format: yaml
   label: FVAP.gov Schema API
   slug: fvapgov-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-schema-api-openapi.yml
+  url: https://artifacts.apis.io/fvapgov/openapi/fvapgov-schema-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fvapgov-xml-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /xml-api/{state}/important-info.xml\n  method: get\n  operationId: getImportantInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml-api/{state}/deadline-dates.xml\n  method: get\n  operationId: getDeadlineDates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml-api/{state}/ballot-rules.xml\n\
   \  method: get\n  operationId: getBallotRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml-api/{state}/election-offices.xml\n  method: get\n  operationId: getElectionOffices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml-api/{state}/evag.xml\n  method: get\n  operationId: getEvag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml-api/api-schema.xsd\n  method: get\n  operationId: getApiSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/agentic-access/fvapgov-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fvapgov/agentic-access/fvapgov-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Government

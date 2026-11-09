@@ -9,211 +9,211 @@ api_specs:
   label: Azure DevOps Attachments API
   slug: microsoft-azure-devops-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-attachments-api-openapi.yml
 - filename: microsoft-azure-devops-build-artifacts-api-openapi.yml
   format: yaml
   label: Azure DevOps Build Artifacts API
   slug: microsoft-azure-devops-build-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-build-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-build-artifacts-api-openapi.yml
 - filename: microsoft-azure-devops-build-definitions-api-openapi.yml
   format: yaml
   label: Azure DevOps Build Definitions API
   slug: microsoft-azure-devops-build-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-build-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-build-definitions-api-openapi.yml
 - filename: microsoft-azure-devops-build-logs-api-openapi.yml
   format: yaml
   label: Azure DevOps Build Logs API
   slug: microsoft-azure-devops-build-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-build-logs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-build-logs-api-openapi.yml
 - filename: microsoft-azure-devops-builds-api-openapi.yml
   format: yaml
   label: Azure DevOps Builds API
   slug: microsoft-azure-devops-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-builds-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-builds-api-openapi.yml
 - filename: microsoft-azure-devops-comments-api-openapi.yml
   format: yaml
   label: Azure DevOps Comments API
   slug: microsoft-azure-devops-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-comments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-comments-api-openapi.yml
 - filename: microsoft-azure-devops-commits-api-openapi.yml
   format: yaml
   label: Azure DevOps Commits API
   slug: microsoft-azure-devops-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-commits-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-commits-api-openapi.yml
 - filename: microsoft-azure-devops-consumers-api-openapi.yml
   format: yaml
   label: Azure DevOps Consumers API
   slug: microsoft-azure-devops-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-consumers-api-openapi.yml
 - filename: microsoft-azure-devops-deployments-api-openapi.yml
   format: yaml
   label: Azure DevOps Deployments API
   slug: microsoft-azure-devops-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-deployments-api-openapi.yml
 - filename: microsoft-azure-devops-feeds-api-openapi.yml
   format: yaml
   label: Azure DevOps Feeds API
   slug: microsoft-azure-devops-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-feeds-api-openapi.yml
 - filename: microsoft-azure-devops-notifications-api-openapi.yml
   format: yaml
   label: Azure DevOps Notifications API
   slug: microsoft-azure-devops-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-notifications-api-openapi.yml
 - filename: microsoft-azure-devops-package-versions-api-openapi.yml
   format: yaml
   label: Azure DevOps Package Versions API
   slug: microsoft-azure-devops-package-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-package-versions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-package-versions-api-openapi.yml
 - filename: microsoft-azure-devops-packages-api-openapi.yml
   format: yaml
   label: Azure DevOps Packages API
   slug: microsoft-azure-devops-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-packages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-packages-api-openapi.yml
 - filename: microsoft-azure-devops-pipeline-artifacts-api-openapi.yml
   format: yaml
   label: Azure DevOps Pipeline Artifacts API
   slug: microsoft-azure-devops-pipeline-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-pipeline-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-pipeline-artifacts-api-openapi.yml
 - filename: microsoft-azure-devops-pipeline-runs-api-openapi.yml
   format: yaml
   label: Azure DevOps Pipeline Runs API
   slug: microsoft-azure-devops-pipeline-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-pipeline-runs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-pipeline-runs-api-openapi.yml
 - filename: microsoft-azure-devops-pipelines-api-openapi.yml
   format: yaml
   label: Azure DevOps Pipelines API
   slug: microsoft-azure-devops-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-pipelines-api-openapi.yml
 - filename: microsoft-azure-devops-publishers-api-openapi.yml
   format: yaml
   label: Azure DevOps Publishers API
   slug: microsoft-azure-devops-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-publishers-api-openapi.yml
 - filename: microsoft-azure-devops-pull-requests-api-openapi.yml
   format: yaml
   label: Azure DevOps Pull Requests API
   slug: microsoft-azure-devops-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-pull-requests-api-openapi.yml
 - filename: microsoft-azure-devops-pushes-api-openapi.yml
   format: yaml
   label: Azure DevOps Pushes API
   slug: microsoft-azure-devops-pushes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-pushes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-pushes-api-openapi.yml
 - filename: microsoft-azure-devops-refs-api-openapi.yml
   format: yaml
   label: Azure DevOps Refs API
   slug: microsoft-azure-devops-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-refs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-refs-api-openapi.yml
 - filename: microsoft-azure-devops-release-definitions-api-openapi.yml
   format: yaml
   label: Azure DevOps Release Definitions API
   slug: microsoft-azure-devops-release-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-release-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-release-definitions-api-openapi.yml
 - filename: microsoft-azure-devops-releases-api-openapi.yml
   format: yaml
   label: Azure DevOps Releases API
   slug: microsoft-azure-devops-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-releases-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-releases-api-openapi.yml
 - filename: microsoft-azure-devops-repositories-api-openapi.yml
   format: yaml
   label: Azure DevOps Repositories API
   slug: microsoft-azure-devops-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-repositories-api-openapi.yml
 - filename: microsoft-azure-devops-subscriptions-api-openapi.yml
   format: yaml
   label: Azure DevOps Subscriptions API
   slug: microsoft-azure-devops-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-subscriptions-api-openapi.yml
 - filename: microsoft-azure-devops-test-cases-api-openapi.yml
   format: yaml
   label: Azure DevOps Test Cases API
   slug: microsoft-azure-devops-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-test-cases-api-openapi.yml
 - filename: microsoft-azure-devops-test-plans-api-openapi.yml
   format: yaml
   label: Azure DevOps Test Plans API
   slug: microsoft-azure-devops-test-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-test-plans-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-test-plans-api-openapi.yml
 - filename: microsoft-azure-devops-test-suites-api-openapi.yml
   format: yaml
   label: Azure DevOps Test Suites API
   slug: microsoft-azure-devops-test-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-test-suites-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-test-suites-api-openapi.yml
 - filename: microsoft-azure-devops-wiki-pages-api-openapi.yml
   format: yaml
   label: Azure DevOps Wiki Pages API
   slug: microsoft-azure-devops-wiki-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-wiki-pages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-wiki-pages-api-openapi.yml
 - filename: microsoft-azure-devops-wikis-api-openapi.yml
   format: yaml
   label: Azure DevOps Wikis API
   slug: microsoft-azure-devops-wikis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-wikis-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-wikis-api-openapi.yml
 - filename: microsoft-azure-devops-work-item-tracking-api-openapi.yml
   format: yaml
   label: Azure DevOps Work Item Tracking API
   slug: microsoft-azure-devops-work-item-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-work-item-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-work-item-tracking-api-openapi.yml
 - filename: microsoft-azure-devops-work-item-types-api-openapi.yml
   format: yaml
   label: Azure DevOps Work Item Types API
   slug: microsoft-azure-devops-work-item-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-work-item-types-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-work-item-types-api-openapi.yml
 - filename: microsoft-azure-devops-work-items-api-openapi.yml
   format: yaml
   label: Azure DevOps Work Items API
   slug: microsoft-azure-devops-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-work-items-api-openapi.yml
 - filename: microsoft-azure-devops-fields-api-openapi.yml
   format: yaml
   label: Azure DevOps Fields API
   slug: microsoft-azure-devops-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-fields-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-fields-api-openapi.yml
 - filename: microsoft-azure-devops-queries-api-openapi.yml
   format: yaml
   label: Azure DevOps Queries API
   slug: microsoft-azure-devops-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-queries-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-queries-api-openapi.yml
 - filename: microsoft-azure-devops-runs-api-openapi.yml
   format: yaml
   label: Azure DevOps Runs API
   slug: microsoft-azure-devops-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/microsoft-azure-devops-runs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-devops/openapi/microsoft-azure-devops-runs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 58
@@ -279,7 +279,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/micros
   \      - abnormal\n      - high-value\n    audit: required\n- path: /wit/workitems/{id}\n  method: get\n  operationId: workItems_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wit/workitems/{id}\n  method: patch\n  operationId: workItems_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wit/workitems/{id}\n  method: delete\n  operationId: workItems_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /{project}/_apis/wit/workitems/{id}\n  method: get\n  operationId: getWorkItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{project}/_apis/wit/workitems/{id}\n  method: patch\n  operationId: updateWorkItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{project}/_apis/wit/workitems/${type}\n  method: post\n  operationId: createWorkItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{project}/_apis/wit/workitems\n\
   \  method: get\n  operationId: getWorkItemsBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/agentic-access/microsoft-azure-devops-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-devops/agentic-access/microsoft-azure-devops-agentic-access.yml
 summary_line: 105 operations · 47 acting
 tags:
 - Agile

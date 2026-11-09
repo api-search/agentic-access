@@ -4,48 +4,12 @@ action_class_counts:
   acting: 17
   connected: 13
 api_specs:
-- filename: clayhr-agents-api-openapi.yml
+- filename: clayhr-openapi-generated.yml
   format: yaml
-  label: ClayHR Agents API
-  slug: clayhr-agents-api
+  label: ClayHR API
+  slug: clayhr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clayhr/refs/heads/main/openapi/clayhr-agents-api-openapi.yml
-- filename: clayhr-auth-api-openapi.yml
-  format: yaml
-  label: ClayHR Auth API
-  slug: clayhr-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clayhr/refs/heads/main/openapi/clayhr-auth-api-openapi.yml
-- filename: clayhr-documents-api-openapi.yml
-  format: yaml
-  label: ClayHR Documents API
-  slug: clayhr-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clayhr/refs/heads/main/openapi/clayhr-documents-api-openapi.yml
-- filename: clayhr-leads-api-openapi.yml
-  format: yaml
-  label: ClayHR Leads API
-  slug: clayhr-leads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clayhr/refs/heads/main/openapi/clayhr-leads-api-openapi.yml
-- filename: clayhr-system-api-openapi.yml
-  format: yaml
-  label: ClayHR System API
-  slug: clayhr-system-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clayhr/refs/heads/main/openapi/clayhr-system-api-openapi.yml
-- filename: clayhr-tickets-api-openapi.yml
-  format: yaml
-  label: ClayHR Tickets API
-  slug: clayhr-tickets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clayhr/refs/heads/main/openapi/clayhr-tickets-api-openapi.yml
-- filename: clayhr-widget-api-openapi.yml
-  format: yaml
-  label: ClayHR Widget API
-  slug: clayhr-widget-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clayhr/refs/heads/main/openapi/clayhr-widget-api-openapi.yml
+  url: https://artifacts.apis.io/clayhr/openapi/_ae-authored/clayhr-openapi-generated.yml
 consequence_counts:
   read: 13
   write: 17
@@ -82,13 +46,13 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/openap
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agents/{agent_id}/leads\n  method: get\n  operationId: list_leads_api_agents__agent_id__leads_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/agents/{agent_id}/leads/{lead_id}\n  method: patch\n  operationId: update_lead_api_agents__agent_id__leads__lead_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/assets/{key}\n  method: get\n  operationId:\
   \ get_asset_api_assets__key__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/widget/bootstrap\n  method: get\n  operationId: widget_bootstrap_api_widget_bootstrap_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/chat\n  method: post\n  operationId: chat_api_chat_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/chat/close\n  method: post\n  operationId: close_conversation_api_chat_close_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: health_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clayhr/refs/heads/main/agentic-access/clayhr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clayhr/agentic-access/clayhr-agentic-access.yml
 summary_line: 30 operations · 17 acting
 tags:
-- HR
-- SaaS
-- Cloud
-- Human Capital Management
-- Recruiting
-- Company
+- Human Resources
+- HRMS
+- Software-as-a-Service
+- Artificial Intelligence
+- Employee Management
+- Performance Management
 ---

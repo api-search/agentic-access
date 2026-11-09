@@ -9,79 +9,115 @@ api_specs:
   label: AgentPhone Agent Webhooks API
   slug: agentphone-agent-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-agent-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-agent-webhooks-api-openapi.yml
 - filename: agentphone-agents-api-openapi.yml
   format: yaml
   label: AgentPhone Agents API
   slug: agentphone-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-agents-api-openapi.yml
 - filename: agentphone-calls-api-openapi.yml
   format: yaml
   label: AgentPhone Calls API
   slug: agentphone-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-calls-api-openapi.yml
-- filename: agentphone-contactcards-api-openapi.yml
-  format: yaml
-  label: AgentPhone Contact Cards API
-  slug: agentphone-contactcards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-contactcards-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-calls-api-openapi.yml
 - filename: agentphone-contacts-api-openapi.yml
   format: yaml
   label: AgentPhone Contacts API
   slug: agentphone-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-contacts-api-openapi.yml
 - filename: agentphone-conversations-api-openapi.yml
   format: yaml
   label: AgentPhone Conversations API
   slug: agentphone-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-conversations-api-openapi.yml
 - filename: agentphone-location-api-openapi.yml
   format: yaml
   label: AgentPhone Location API
   slug: agentphone-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-location-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-location-api-openapi.yml
 - filename: agentphone-messages-api-openapi.yml
   format: yaml
   label: AgentPhone Messages API
   slug: agentphone-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-messages-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-messages-api-openapi.yml
 - filename: agentphone-numbers-api-openapi.yml
   format: yaml
   label: AgentPhone Numbers API
   slug: agentphone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-numbers-api-openapi.yml
 - filename: agentphone-registration-api-openapi.yml
   format: yaml
   label: AgentPhone Registration API
   slug: agentphone-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-registration-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-registration-api-openapi.yml
 - filename: agentphone-usage-api-openapi.yml
   format: yaml
   label: AgentPhone Usage API
   slug: agentphone-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-usage-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-usage-api-openapi.yml
 - filename: agentphone-webhooks-api-openapi.yml
   format: yaml
   label: AgentPhone Webhooks API
   slug: agentphone-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-webhooks-api-openapi.yml
+- filename: agentphone-agent-signup-api-openapi.yml
+  format: yaml
+  label: AgentPhone Agent Signup API
+  slug: agentphone-agent-signup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-agent-signup-api-openapi.yml
+- filename: agentphone-contact-cards-api-openapi.yml
+  format: yaml
+  label: AgentPhone contact cards API
+  slug: agentphone-contact-cards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-contact-cards-api-openapi.yml
+- filename: agentphone-feedback-api-openapi.yml
+  format: yaml
+  label: AgentPhone Feedback API
+  slug: agentphone-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-feedback-api-openapi.yml
+- filename: agentphone-integrations-api-openapi.yml
+  format: yaml
+  label: AgentPhone Integrations API
+  slug: agentphone-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-integrations-api-openapi.yml
+- filename: agentphone-sip-trunks-api-openapi.yml
+  format: yaml
+  label: AgentPhone Sip Trunks API
+  slug: agentphone-sip-trunks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-sip-trunks-api-openapi.yml
+- filename: agentphone-verification-api-openapi.yml
+  format: yaml
+  label: AgentPhone Verification API
+  slug: agentphone-verification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-verification-api-openapi.yml
+- filename: agentphone-whatsapp-api-openapi.yml
+  format: yaml
+  label: AgentPhone WhatsApp API
+  slug: agentphone-whatsapp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-whatsapp-api-openapi.yml
 - filename: agentphone-subaccounts-api-openapi.yml
   format: yaml
   label: AgentPhone Subaccounts API
   slug: agentphone-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-subaccounts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 35
@@ -146,7 +182,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/agentp
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sub-accounts/{sub_account_id}\n  method: delete\n  operationId: delete-sub-account-v-1-sub-accounts-sub-account-id-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sub-accounts/{sub_account_id}\n  method: patch\n  operationId: update-sub-account-v-1-sub-accounts-sub-account-id-patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/register/status\n  method: get\n  operationId: get-registration-status-v-1-register-status-get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/register\n  method: post\n  operationId: register-a-2-p-v-1-register-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/location/{phone_number}\n  method: get\n  operationId: get-location-v-1-location-phone-number-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/location/refresh\n  method: post\n  operationId: refresh-locations-v-1-location-refresh-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/agentic-access/agentphone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agentphone/agentic-access/agentphone-agentic-access.yml
 summary_line: 67 operations · 32 acting
 tags:
 - Company

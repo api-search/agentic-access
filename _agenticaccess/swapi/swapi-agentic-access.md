@@ -8,37 +8,37 @@ api_specs:
   label: SWAPI - Star Wars API Films API
   slug: swapi-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-films-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-films-api-openapi.yml
 - filename: swapi-people-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API People API
   slug: swapi-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-people-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-people-api-openapi.yml
 - filename: swapi-planets-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API Planets API
   slug: swapi-planets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-planets-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-planets-api-openapi.yml
 - filename: swapi-species-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API Species API
   slug: swapi-species-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-species-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-species-api-openapi.yml
 - filename: swapi-starships-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API Starships API
   slug: swapi-starships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-starships-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-starships-api-openapi.yml
 - filename: swapi-vehicles-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API Vehicles API
   slug: swapi-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-vehicles-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/swapi-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{id}/\n  method: get\n  operationId: getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /planets/\n  method: get\n  operationId: listPlanets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /planets/{id}/\n  method: get\n  operationId: getPlanet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /species/\n  method: get\n  operationId: listSpecies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /species/{id}/\n  method: get\n  operationId:\
   \ getSpecies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /starships/\n  method: get\n  operationId: listStarships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /starships/{id}/\n  method: get\n  operationId: getStarship\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/\n  method: get\n  operationId: listVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{id}/\n  method: get\n  operationId: getVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/agentic-access/swapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/swapi/agentic-access/swapi-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Star Wars

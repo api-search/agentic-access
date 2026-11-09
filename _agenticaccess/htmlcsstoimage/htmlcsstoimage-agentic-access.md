@@ -9,49 +9,49 @@ api_specs:
   label: HTML/CSS to Image Templates API
   slug: htmlcsstoimage-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-templates-api-openapi.yml
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-templates-api-openapi.yml
 - filename: htmlcsstoimage-api-keys-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image API Keys API
   slug: htmlcsstoimage-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-api-keys-api-openapi.yml
 - filename: htmlcsstoimage-feedback-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image Feedback API
   slug: htmlcsstoimage-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-feedback-api-openapi.yml
 - filename: htmlcsstoimage-images-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image Images API
   slug: htmlcsstoimage-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-images-api-openapi.yml
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-images-api-openapi.yml
 - filename: htmlcsstoimage-og-configs-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image OG Configs API
   slug: htmlcsstoimage-og-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-og-configs-api-openapi.yml
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-og-configs-api-openapi.yml
 - filename: htmlcsstoimage-proxies-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image Proxies API
   slug: htmlcsstoimage-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-proxies-api-openapi.yml
 - filename: htmlcsstoimage-storage-destinations-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image Storage Destinations API
   slug: htmlcsstoimage-storage-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-storage-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-storage-destinations-api-openapi.yml
 - filename: htmlcsstoimage-usage-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image Usage API
   slug: htmlcsstoimage-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-usage-api-openapi.yml
+  url: https://artifacts.apis.io/htmlcsstoimage/openapi/htmlcsstoimage-usage-api-openapi.yml
 consequence_counts:
   read: 6
   write: 8
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/htmlcs
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images\n  method: get\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template/{template_id}\n  method: get\n  operationId: listTemplateVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template/{template_id}\n  method: post\n  operationId: editTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/{template_id}\n  method: post\n  operationId: createTemplatedImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /image/{template_id}/{template_version}\n  method: post\n  operationId: createTemplatedImageVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/{template_id}/{signed_token}{format}\n  method: get\n  operationId: getSignedTemplatedImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/agentic-access/htmlcsstoimage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/htmlcsstoimage/agentic-access/htmlcsstoimage-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - Image Generation

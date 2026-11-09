@@ -9,25 +9,25 @@ api_specs:
   label: Liberty Mutual Insurance Data API
   slug: liberty-mutual-insurance-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-data-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-mutual-insurance/openapi/liberty-mutual-insurance-data-api-openapi.yml
 - filename: liberty-mutual-insurance-policies-api-openapi.yml
   format: yaml
   label: Liberty Mutual Insurance Policies API
   slug: liberty-mutual-insurance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-policies-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-mutual-insurance/openapi/liberty-mutual-insurance-policies-api-openapi.yml
 - filename: liberty-mutual-insurance-quotes-api-openapi.yml
   format: yaml
   label: Liberty Mutual Insurance Quotes API
   slug: liberty-mutual-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-mutual-insurance/openapi/liberty-mutual-insurance-quotes-api-openapi.yml
 - filename: liberty-mutual-insurance-safety-api-openapi.yml
   format: yaml
   label: Liberty Mutual Insurance Safety API
   slug: liberty-mutual-insurance-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/openapi/liberty-mutual-insurance-safety-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-mutual-insurance/openapi/liberty-mutual-insurance-safety-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/liberty-mutual-insurance-renters-insurance-api-openapi.yml, openapi/liberty-mutual-insurance-solaria-labs-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 2\n    connected: 4\n  by_consequence:\n    write: 2\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes/{quoteId}\n  method:\
   \ get\n  operationId: getQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies\n  method: post\n  operationId: bindPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /safety/routes\n  method: get\n  operationId: getSafeRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /safety/parking\n  method: get\n  operationId: getSafeParking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/incidents\n  method: get\n  operationId:\
   \ getIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/agentic-access/liberty-mutual-insurance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liberty-mutual-insurance/agentic-access/liberty-mutual-insurance-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Casualty

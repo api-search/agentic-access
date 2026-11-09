@@ -8,31 +8,31 @@ api_specs:
   label: DiscGolfAPI Countries API
   slug: discgolfapi-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-countries-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-countries-api-openapi.yml
 - filename: discgolfapi-courses-api-openapi.yml
   format: yaml
   label: DiscGolfAPI Courses API
   slug: discgolfapi-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-courses-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-courses-api-openapi.yml
 - filename: discgolfapi-metadata-api-openapi.yml
   format: yaml
   label: DiscGolfAPI Metadata API
   slug: discgolfapi-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-metadata-api-openapi.yml
 - filename: discgolfapi-regions-api-openapi.yml
   format: yaml
   label: DiscGolfAPI Regions API
   slug: discgolfapi-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-regions-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-regions-api-openapi.yml
 - filename: discgolfapi-updates-api-openapi.yml
   format: yaml
   label: DiscGolfAPI Updates API
   slug: discgolfapi-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-updates-api-openapi.yml
+  url: https://artifacts.apis.io/discgolfapi/openapi/discgolfapi-updates-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/discgolfapi-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /courses\n  method: get\n  operationId: listCourses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /courses/{id}\n  method: get\n  operationId: getCourse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /updates/recent\n  method: get\n  operationId: listRecentUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manifest.json\n  method: get\n  operationId: getManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/agentic-access/discgolfapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/discgolfapi/agentic-access/discgolfapi-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Disc Golf

@@ -8,13 +8,13 @@ api_specs:
   label: Resultid Endpoints API
   slug: resultid-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/resultid/openapi/resultid-endpoints-api-openapi.yml
 - filename: resultid-insight-endpoints-api-openapi.yml
   format: yaml
   label: Resultid Insight endpoints API
   slug: resultid-insight-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-insight-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/resultid/openapi/resultid-insight-endpoints-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -42,7 +42,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/resultid-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /get_insight_last_result\n  method: get\n  operationId: do_get_insight_last_result_get_insight_last_result_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_all_highlights_for_tracker_value\n  method: get\n  operationId: do_get_all_highlights_for_tracker_value_get_all_highlights_for_tracker_value_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_campaign_data\n  method: get\n  operationId: do_get_campaign_data_get_campaign_data_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_campaign_theme_data\n  method: get\n  operationId: do_get_campaign_theme_data_get_campaign_theme_data_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /read_insight_grid_data\n  method: get\n  operationId: do_read_insight_grid_data_read_insight_grid_data_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /read_insight_grid_data_by_filtered_data_efs_key\n  method: get\n  operationId: do_read_insight_grid_data_by_filtered_data_efs_key_read_insight_grid_data_by_filtered_data_efs_key_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /read_campaign_trend_data\n  method: get\n  operationId: do_read_campaign_trend_data_read_campaign_trend_data_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_unique_values_for_tracker\n  method: get\n  operationId: do_get_unique_values_for_tracker_get_unique_values_for_tracker_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_campaign_uuids\n  method: get\n  operationId: do_get_campaign_uuids_get_campaign_uuids_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/agentic-access/resultid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/resultid/agentic-access/resultid-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Company

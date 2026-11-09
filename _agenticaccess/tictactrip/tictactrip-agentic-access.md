@@ -9,43 +9,43 @@ api_specs:
   label: TicTacTrip Autocomplete API
   slug: tictactrip-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/tictactrip/openapi/tictactrip-autocomplete-api-openapi.yml
 - filename: tictactrip-booking-api-openapi.yml
   format: yaml
   label: TicTacTrip Booking API
   slug: tictactrip-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-booking-api-openapi.yml
+  url: https://artifacts.apis.io/tictactrip/openapi/tictactrip-booking-api-openapi.yml
 - filename: tictactrip-cities-api-openapi.yml
   format: yaml
   label: TicTacTrip Cities API
   slug: tictactrip-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-cities-api-openapi.yml
+  url: https://artifacts.apis.io/tictactrip/openapi/tictactrip-cities-api-openapi.yml
 - filename: tictactrip-results-api-openapi.yml
   format: yaml
   label: TicTacTrip Results API
   slug: tictactrip-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-results-api-openapi.yml
+  url: https://artifacts.apis.io/tictactrip/openapi/tictactrip-results-api-openapi.yml
 - filename: tictactrip-segmentproviders-api-openapi.yml
   format: yaml
   label: TicTacTrip SegmentProviders API
   slug: tictactrip-segmentproviders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-segmentproviders-api-openapi.yml
+  url: https://artifacts.apis.io/tictactrip/openapi/tictactrip-segmentproviders-api-openapi.yml
 - filename: tictactrip-stopclusters-api-openapi.yml
   format: yaml
   label: TicTacTrip StopClusters API
   slug: tictactrip-stopclusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-stopclusters-api-openapi.yml
+  url: https://artifacts.apis.io/tictactrip/openapi/tictactrip-stopclusters-api-openapi.yml
 - filename: tictactrip-stopgroups-api-openapi.yml
   format: yaml
   label: TicTacTrip StopGroups API
   slug: tictactrip-stopgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/openapi/tictactrip-stopgroups-api-openapi.yml
+  url: https://artifacts.apis.io/tictactrip/openapi/tictactrip-stopgroups-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tictac
   \ GetPopularCities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - bookPartner\n    - searchPartner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/cities/popular/{direction}/{uniqueName}/{limit}\n  method: get\n  operationId: GetPopularCitiesFromTo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - bookPartner\n    - searchPartner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/results\n  method: post\n  operationId: GetResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - bookPartner\n    - searchPartner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/segmentProviders\n  method: get\n  operationId: GetSegmentProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    scope:\n    - admin\n    - bookPartner\n    - searchPartner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stopClusters\n  method: get\n  operationId: GetAllStopClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - bookPartner\n    - searchPartner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stopClusters/{stopClusterGpuid}\n  method: get\n  operationId: GetStopCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - bookPartner\n    - searchPartner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stopGroups\n  method: get\n  operationId: GetAllStopGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - bookPartner\n    - searchPartner\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stopGroups/{stopGroupGpuid}\n\
   \  method: get\n  operationId: GetStopGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - bookPartner\n    - searchPartner\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/agentic-access/tictactrip-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tictactrip/agentic-access/tictactrip-agentic-access.yml
 summary_line: 20 operations · 5 acting
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Actionpower Image API
   slug: actionpower-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-image-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-image-api-openapi.yml
 - filename: actionpower-nlp-api-openapi.yml
   format: yaml
   label: Actionpower NLP API
   slug: actionpower-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-nlp-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-nlp-api-openapi.yml
 - filename: actionpower-stt-api-openapi.yml
   format: yaml
   label: Actionpower STT API
   slug: actionpower-stt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-stt-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-stt-api-openapi.yml
 - filename: actionpower-tts-api-openapi.yml
   format: yaml
   label: Actionpower TTS API
   slug: actionpower-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-tts-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-tts-api-openapi.yml
 - filename: actionpower-video-api-openapi.yml
   format: yaml
   label: Actionpower Video API
   slug: actionpower-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-video-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-video-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: generated\nsource: openapi/action
   \  audit: required\n- path: /stt/v1/async/transcripts/{rid}\n  method: get\n  operationId: get-stt-v1-async-transctips-rid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stt/v1/async/transcripts/{rid}/{format}\n  method: get\n  operationId: get-stt-v1-async-transctips-rid-format\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nlp/v1/sync/summaries\n  method: post\n  operationId: post-nlp-v1-sync-summaries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/v1/async/minutes\n  method: post\n  operationId: post-nlp-v1-async-minutes\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/v1/async/minutes/{rid}\n  method: get\n  operationId: get-nlp-v1-async-minutes-rid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nlp/v1/sync/paragraphs\n  method: post\n  operationId: post-nlp-v1-sync-paragraphs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tts/v1/sync/audios\n  method: post\n  operationId: post-tts-v1-sync-audios\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/agentic-access/actionpower-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/actionpower/agentic-access/actionpower-agentic-access.yml
 summary_line: 40 operations · 28 acting
 tags:
 - Speech Recognition

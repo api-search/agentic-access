@@ -9,37 +9,37 @@ api_specs:
   label: Eclipse RDF4J Namespaces API
   slug: eclipse-rdf4j-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-namespaces-api-openapi.yml
 - filename: eclipse-rdf4j-protocol-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Protocol API
   slug: eclipse-rdf4j-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-protocol-api-openapi.yml
 - filename: eclipse-rdf4j-repositories-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Repositories API
   slug: eclipse-rdf4j-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-repositories-api-openapi.yml
 - filename: eclipse-rdf4j-transactions-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Transactions API
   slug: eclipse-rdf4j-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-transactions-api-openapi.yml
 - filename: eclipse-rdf4j-graph-store-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Graph Store API
   slug: eclipse-rdf4j-graph-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-graph-store-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-graph-store-api-openapi.yml
 - filename: eclipse-rdf4j-sparql-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J SPARQL API
   slug: eclipse-rdf4j-sparql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-sparql-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-sparql-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rdf4j-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repositoryID}/namespaces\n  method: get\n  operationId: listNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repositoryID}/namespaces\n  method: delete\n  operationId: clearNamespaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repositoryID}/namespaces/{prefix}\n  method: get\n  operationId: getNamespace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repositoryID}/namespaces/{prefix}\n\
   \  method: put\n  operationId: setNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repositoryID}/namespaces/{prefix}\n  method: delete\n  operationId: deleteNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repositoryID}/transactions\n  method: post\n  operationId: beginTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repositoryID}/transactions/{transactionID}\n  method: put\n  operationId: executeTransactionAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repositoryID}/transactions/{transactionID}\n  method: delete\n  operationId: rollbackTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/agentic-access/eclipse-rdf4j-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eclipse-rdf4j/agentic-access/eclipse-rdf4j-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
 - Eclipse Foundation

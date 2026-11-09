@@ -9,187 +9,187 @@ api_specs:
   label: Hetzner Actions API
   slug: hetzner-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-actions-api-openapi.yml
 - filename: hetzner-certificate-actions-api-openapi.yml
   format: yaml
   label: Hetzner Certificate Actions API
   slug: hetzner-certificate-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-certificate-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-certificate-actions-api-openapi.yml
 - filename: hetzner-certificates-api-openapi.yml
   format: yaml
   label: Hetzner Certificates API
   slug: hetzner-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-certificates-api-openapi.yml
 - filename: hetzner-data-centers-api-openapi.yml
   format: yaml
   label: Hetzner Data Centers API
   slug: hetzner-data-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-data-centers-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-data-centers-api-openapi.yml
 - filename: hetzner-firewall-actions-api-openapi.yml
   format: yaml
   label: Hetzner Firewall Actions API
   slug: hetzner-firewall-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-firewall-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-firewall-actions-api-openapi.yml
 - filename: hetzner-firewalls-api-openapi.yml
   format: yaml
   label: Hetzner Firewalls API
   slug: hetzner-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-firewalls-api-openapi.yml
 - filename: hetzner-floating-ip-actions-api-openapi.yml
   format: yaml
   label: Hetzner Floating IP Actions API
   slug: hetzner-floating-ip-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-floating-ip-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-floating-ip-actions-api-openapi.yml
 - filename: hetzner-floating-ips-api-openapi.yml
   format: yaml
   label: Hetzner Floating IPs API
   slug: hetzner-floating-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-floating-ips-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-floating-ips-api-openapi.yml
 - filename: hetzner-image-actions-api-openapi.yml
   format: yaml
   label: Hetzner Image Actions API
   slug: hetzner-image-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-image-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-image-actions-api-openapi.yml
 - filename: hetzner-images-api-openapi.yml
   format: yaml
   label: Hetzner Images API
   slug: hetzner-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-images-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-images-api-openapi.yml
 - filename: hetzner-isos-api-openapi.yml
   format: yaml
   label: Hetzner ISOs API
   slug: hetzner-isos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-isos-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-isos-api-openapi.yml
 - filename: hetzner-load-balancer-actions-api-openapi.yml
   format: yaml
   label: Hetzner Load Balancer Actions API
   slug: hetzner-load-balancer-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-load-balancer-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-load-balancer-actions-api-openapi.yml
 - filename: hetzner-load-balancer-types-api-openapi.yml
   format: yaml
   label: Hetzner Load Balancer Types API
   slug: hetzner-load-balancer-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-load-balancer-types-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-load-balancer-types-api-openapi.yml
 - filename: hetzner-load-balancers-api-openapi.yml
   format: yaml
   label: Hetzner Load Balancers API
   slug: hetzner-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-load-balancers-api-openapi.yml
 - filename: hetzner-locations-api-openapi.yml
   format: yaml
   label: Hetzner Locations API
   slug: hetzner-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-locations-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-locations-api-openapi.yml
 - filename: hetzner-network-actions-api-openapi.yml
   format: yaml
   label: Hetzner Network Actions API
   slug: hetzner-network-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-network-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-network-actions-api-openapi.yml
 - filename: hetzner-networks-api-openapi.yml
   format: yaml
   label: Hetzner Networks API
   slug: hetzner-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-networks-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-networks-api-openapi.yml
 - filename: hetzner-placement-groups-api-openapi.yml
   format: yaml
   label: Hetzner Placement Groups API
   slug: hetzner-placement-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-placement-groups-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-placement-groups-api-openapi.yml
 - filename: hetzner-pricing-api-openapi.yml
   format: yaml
   label: Hetzner Pricing API
   slug: hetzner-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-pricing-api-openapi.yml
 - filename: hetzner-primary-ip-actions-api-openapi.yml
   format: yaml
   label: Hetzner Primary IP Actions API
   slug: hetzner-primary-ip-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-primary-ip-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-primary-ip-actions-api-openapi.yml
 - filename: hetzner-primary-ips-api-openapi.yml
   format: yaml
   label: Hetzner Primary IPs API
   slug: hetzner-primary-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-primary-ips-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-primary-ips-api-openapi.yml
 - filename: hetzner-server-actions-api-openapi.yml
   format: yaml
   label: Hetzner Server Actions API
   slug: hetzner-server-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-server-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-server-actions-api-openapi.yml
 - filename: hetzner-server-types-api-openapi.yml
   format: yaml
   label: Hetzner Server Types API
   slug: hetzner-server-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-server-types-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-server-types-api-openapi.yml
 - filename: hetzner-servers-api-openapi.yml
   format: yaml
   label: Hetzner Servers API
   slug: hetzner-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-servers-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-servers-api-openapi.yml
 - filename: hetzner-ssh-keys-api-openapi.yml
   format: yaml
   label: Hetzner SSH Keys API
   slug: hetzner-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-ssh-keys-api-openapi.yml
 - filename: hetzner-volume-actions-api-openapi.yml
   format: yaml
   label: Hetzner Volume Actions API
   slug: hetzner-volume-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-volume-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-volume-actions-api-openapi.yml
 - filename: hetzner-volumes-api-openapi.yml
   format: yaml
   label: Hetzner Volumes API
   slug: hetzner-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-volumes-api-openapi.yml
 - filename: hetzner-zone-actions-api-openapi.yml
   format: yaml
   label: Hetzner Zone Actions API
   slug: hetzner-zone-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-zone-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-zone-actions-api-openapi.yml
 - filename: hetzner-zone-rrset-actions-api-openapi.yml
   format: yaml
   label: Hetzner Zone RRSet Actions API
   slug: hetzner-zone-rrset-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-zone-rrset-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-zone-rrset-actions-api-openapi.yml
 - filename: hetzner-zone-rrsets-api-openapi.yml
   format: yaml
   label: Hetzner Zone RRSets API
   slug: hetzner-zone-rrsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-zone-rrsets-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-zone-rrsets-api-openapi.yml
 - filename: hetzner-zones-api-openapi.yml
   format: yaml
   label: Hetzner Zones API
   slug: hetzner-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/openapi/hetzner-zones-api-openapi.yml
+  url: https://artifacts.apis.io/hetzner/openapi/hetzner-zones-api-openapi.yml
 consequence_counts:
   read: 82
   safety-critical: 7
@@ -288,8 +288,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hetzne
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /primary_ips/{id}\n  method: get\n  operationId: get_primary_ip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /primary_ips/{id}\n  method: put\n  operationId: update_primary_ip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /primary_ips/{id}\n  method: delete\n  operationId: delete_primary_ip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /primary_ips/{id}/actions/assign\n  method: post\n  operationId: assign_primary_ip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /primary_ips/{id}/actions/change_dns_ptr\n  method: post\n  operationId: change_primary_ip_dns_ptr\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /primary_ips/{id}/actions/change_protection\n  method: post\n  operationId: change_primary_ip_protection\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /primary_ips/{id}/actions/unassign\n  method: post\n  operationId: unassign_primary_ip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /server_types\n  method: get\n  operationId: list_server_types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /server_types/{id}\n  method: get\n  operationId: get_server_type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/agentic-access/hetzner-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/agentic-access/hetzner-agentic-access.yml
+  \ 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://artifacts.apis.io/hetzner/agentic-access/hetzner-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/hetzner/agentic-access/hetzner-agentic-access.yml
 summary_line: 189 operations · 107 acting · 7 human-in-the-loop
 tags:
 - Cloud Hosting

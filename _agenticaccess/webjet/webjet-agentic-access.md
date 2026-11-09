@@ -15,109 +15,109 @@ api_specs:
   label: Webjet Book API
   slug: webjet-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-book-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-book-api-openapi.yml
 - filename: webjet-booking-api-openapi.yml
   format: yaml
   label: Webjet Booking API
   slug: webjet-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-booking-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-booking-api-openapi.yml
 - filename: webjet-cancel-api-openapi.yml
   format: yaml
   label: Webjet Cancel API
   slug: webjet-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-cancel-api-openapi.yml
 - filename: webjet-details-api-openapi.yml
   format: yaml
   label: Webjet Details API
   slug: webjet-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-details-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-details-api-openapi.yml
 - filename: webjet-generate-solutions-api-openapi.yml
   format: yaml
   label: Webjet Generate Solutions API
   slug: webjet-generate-solutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-generate-solutions-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-generate-solutions-api-openapi.yml
 - filename: webjet-get-searches-api-openapi.yml
   format: yaml
   label: Webjet Get Searches API
   slug: webjet-get-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-get-searches-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-get-searches-api-openapi.yml
 - filename: webjet-msdp-api-openapi.yml
   format: yaml
   label: Webjet Msdp API
   slug: webjet-msdp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-msdp-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-msdp-api-openapi.yml
 - filename: webjet-pre-booking-api-openapi.yml
   format: yaml
   label: Webjet Pre Booking API
   slug: webjet-pre-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-pre-booking-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-pre-booking-api-openapi.yml
 - filename: webjet-price-api-openapi.yml
   format: yaml
   label: Webjet Price API
   slug: webjet-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-price-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-price-api-openapi.yml
 - filename: webjet-queue-api-openapi.yml
   format: yaml
   label: Webjet Queue API
   slug: webjet-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-queue-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-queue-api-openapi.yml
 - filename: webjet-report-api-openapi.yml
   format: yaml
   label: Webjet Report API
   slug: webjet-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-report-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-report-api-openapi.yml
 - filename: webjet-results-api-openapi.yml
   format: yaml
   label: Webjet Results API
   slug: webjet-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-results-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-results-api-openapi.yml
 - filename: webjet-rules-api-openapi.yml
   format: yaml
   label: Webjet Rules API
   slug: webjet-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-rules-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-rules-api-openapi.yml
 - filename: webjet-search-api-openapi.yml
   format: yaml
   label: Webjet Search API
   slug: webjet-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-search-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-search-api-openapi.yml
 - filename: webjet-super-trip-api-openapi.yml
   format: yaml
   label: Webjet Super Trip API
   slug: webjet-super-trip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-super-trip-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-super-trip-api-openapi.yml
 - filename: webjet-ticket-api-openapi.yml
   format: yaml
   label: Webjet Ticket API
   slug: webjet-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-ticket-api-openapi.yml
 - filename: webjet-ticketing-api-openapi.yml
   format: yaml
   label: Webjet Ticketing API
   slug: webjet-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-ticketing-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-ticketing-api-openapi.yml
 - filename: webjet-admin-panel-api-openapi.yml
   format: yaml
   label: Webjet Admin panel API
   slug: webjet-admin-panel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/openapi/webjet-admin-panel-api-openapi.yml
+  url: https://artifacts.apis.io/webjet/openapi/webjet-admin-panel-api-openapi.yml
 consequence_counts:
   read: 9
   write: 33
@@ -159,7 +159,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/webjet
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/flights/{endpoint}/\n  method: post\n  operationId: FlightSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/hotels/{endpoint}\n  method: post\n  operationId: Search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/flight/{endpoint}/flight/\n  method: post\n  operationId: Search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /super_trip/{id}/\n  method: put\n  operationId: SuperTrip\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /super_trip/{id}/part/\n  method: delete\n  operationId: SuperTripPartDeletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ticket/\n  method: post\n  operationId: Ticket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ticketing/\n  method: post\n  operationId: TicketingReport\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/agentic-access/webjet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/webjet/agentic-access/webjet-agentic-access.yml
 summary_line: 42 operations · 33 acting
 tags:
 - Travel

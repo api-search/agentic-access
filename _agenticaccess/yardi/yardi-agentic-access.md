@@ -8,31 +8,31 @@ api_specs:
   label: Yardi Billing and Payments Interface
   slug: yardi-billing-and-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-billing-and-payments-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-billing-and-payments-api-openapi.yml
 - filename: yardi-common-data-api-openapi.yml
   format: yaml
   label: Yardi Common Data Interface
   slug: yardi-common-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-common-data-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-common-data-api-openapi.yml
 - filename: yardi-job-cost-api-openapi.yml
   format: yaml
   label: Yardi Job Cost Interface
   slug: yardi-job-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-job-cost-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-job-cost-api-openapi.yml
 - filename: yardi-service-requests-api-openapi.yml
   format: yaml
   label: Yardi Service Requests Interface
   slug: yardi-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-service-requests-api-openapi.yml
 - filename: yardi-vendor-invoicing-api-openapi.yml
   format: yaml
   label: Yardi Vendor Invoicing Interface
   slug: yardi-vendor-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-vendor-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/yardi/openapi/yardi-vendor-invoicing-api-openapi.yml
 consequence_counts:
   physical: 6
   write: 7
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/yardi-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ItfCommonData.asmx/GetTenants_Login\n  method: post\n  operationId: getTenantsLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ItfCommonData.asmx/GetChartOfAccounts_Login\n  method: post\n  operationId: getChartOfAccountsLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ItfServiceRequests.asmx/GetServiceRequests_Login\n  method: post\n  operationId: getServiceRequestsLogin\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ItfServiceRequests.asmx/ImportServiceRequests_Login\n  method: post\n  operationId: importServiceRequestsLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ItfVendorInvoice.asmx/GetVendorInvoices_Login\n  method: post\n  operationId: getVendorInvoicesLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ItfVendorInvoice.asmx/ImportVendorInvoices_Login\n  method: post\n  operationId: importVendorInvoicesLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ItfJobCost.asmx/GetJobCostData_Login\n  method: post\n  operationId: getJobCostDataLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/agentic-access/yardi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yardi/agentic-access/yardi-agentic-access.yml
 summary_line: 13 operations · 13 acting
 tags:
 - Accounting

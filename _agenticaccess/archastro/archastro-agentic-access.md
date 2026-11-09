@@ -9,61 +9,61 @@ api_specs:
   label: Archastro Activity Feed API
   slug: archastro-activity-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-activity-feed-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-activity-feed-api-openapi.yml
 - filename: archastro-agents-api-openapi.yml
   format: yaml
   label: Archastro Agents API
   slug: archastro-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-agents-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-agents-api-openapi.yml
 - filename: archastro-auth-api-openapi.yml
   format: yaml
   label: Archastro Auth API
   slug: archastro-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-auth-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-auth-api-openapi.yml
 - filename: archastro-files-api-openapi.yml
   format: yaml
   label: Archastro Files API
   slug: archastro-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-files-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-files-api-openapi.yml
 - filename: archastro-s2s-api-openapi.yml
   format: yaml
   label: Archastro S2s API
   slug: archastro-s2s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-s2s-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-s2s-api-openapi.yml
 - filename: archastro-slack-channel-bindings-api-openapi.yml
   format: yaml
   label: Archastro Slack Channel Bindings API
   slug: archastro-slack-channel-bindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-slack-channel-bindings-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-slack-channel-bindings-api-openapi.yml
 - filename: archastro-teams-api-openapi.yml
   format: yaml
   label: Archastro Teams API
   slug: archastro-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-teams-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-teams-api-openapi.yml
 - filename: archastro-threads-api-openapi.yml
   format: yaml
   label: Archastro Threads API
   slug: archastro-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-threads-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-threads-api-openapi.yml
 - filename: archastro-users-api-openapi.yml
   format: yaml
   label: Archastro Users API
   slug: archastro-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-users-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-users-api-openapi.yml
 - filename: archastro-oauth-api-openapi.yml
   format: yaml
   label: Archastro OAUTH API
   slug: archastro-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/openapi/archastro-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/archastro/openapi/archastro-oauth-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 39
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/archas
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{user}\n  method: get\n  operationId: get_api_v1_users__user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{user}/artifacts\n  method: get\n  operationId: get_api_v1_users__user_artifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{user}/artifacts\n  method: post\n  operationId: post_api_v1_users__user_artifacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user}/invites\n  method: post\n  operationId:\
   \ post_api_v1_users__user_invites\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user}/orgs\n  method: get\n  operationId: get_api_v1_users__user_orgs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{user}/profile\n  method: put\n  operationId: put_api_v1_users__user_profile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user}/threads\n  method: get\n  operationId: get_api_v1_users__user_threads\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{user}/threads\n  method: post\n  operationId: post_api_v1_users__user_threads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/agentic-access/archastro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/archastro/agentic-access/archastro-agentic-access.yml
 summary_line: 89 operations · 50 acting
 tags:
 - Company

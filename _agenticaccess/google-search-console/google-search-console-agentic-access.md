@@ -9,37 +9,37 @@ api_specs:
   label: Google Search Console Search Analytics API
   slug: google-search-console-search-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-search-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-search-analytics-api-openapi.yml
 - filename: google-search-console-sitemaps-api-openapi.yml
   format: yaml
   label: Google Search Console Sitemaps API
   slug: google-search-console-sitemaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-sitemaps-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-sitemaps-api-openapi.yml
 - filename: google-search-console-sites-api-openapi.yml
   format: yaml
   label: Google Search Console Sites API
   slug: google-search-console-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-sites-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-sites-api-openapi.yml
 - filename: google-search-console-url-inspection-api-openapi.yml
   format: yaml
   label: Google Search Console URL Inspection API
   slug: google-search-console-url-inspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-url-inspection-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-url-inspection-api-openapi.yml
 - filename: google-search-console-urlnotifications-api-openapi.yml
   format: yaml
   label: Google Search Console URL Notifications API
   slug: google-search-console-urlnotifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-urlnotifications-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-urlnotifications-api-openapi.yml
 - filename: google-search-console-urltestingtools-api-openapi.yml
   format: yaml
   label: Google Search Console URL Testing Tools API
   slug: google-search-console-urltestingtools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-urltestingtools-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-urltestingtools-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \ /webmasters/v3/sites/{siteUrl}\n  method: get\n  operationId: getSite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/webmasters.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webmasters/v3/sites/{siteUrl}\n  method: put\n  operationId: addSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/webmasters\n- path: /webmasters/v3/sites/{siteUrl}\n  method: delete\n  operationId: deleteSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/webmasters\n- path: /v1/urlInspection/index:inspect\n  method: post\n  operationId: inspectUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/webmasters\n- path: /v3/urlNotifications:publish\n  method: post\n  operationId: indexing_urlNotifications_publish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/indexing\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /v3/urlNotifications/metadata\n  method: get\n  operationId: indexing_urlNotifications_getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/indexing\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/urlTestingTools/mobileFriendlyTest:run\n  method: post\n  operationId: searchconsole_urlTestingTools_mobileFriendlyTest_run\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/webmasters\n    - https://www.googleapis.com/auth/webmasters.readonly\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/agentic-access/google-search-console-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-search-console/agentic-access/google-search-console-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Analytics

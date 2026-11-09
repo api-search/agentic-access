@@ -9,31 +9,31 @@ api_specs:
   label: Eppo Allocations API
   slug: eppo-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-allocations-api-openapi.yml
 - filename: eppo-assignments-api-openapi.yml
   format: yaml
   label: Eppo Assignments API
   slug: eppo-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-assignments-api-openapi.yml
 - filename: eppo-experiments-api-openapi.yml
   format: yaml
   label: Eppo Experiments API
   slug: eppo-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-experiments-api-openapi.yml
 - filename: eppo-flags-api-openapi.yml
   format: yaml
   label: Eppo Flags API
   slug: eppo-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-flags-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-flags-api-openapi.yml
 - filename: eppo-metrics-api-openapi.yml
   format: yaml
   label: Eppo Metrics API
   slug: eppo-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/eppo/openapi/eppo-metrics-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eppo-o
   \  method: get\n  operationId: listAllocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flags/{flagKey}/allocations\n  method: post\n  operationId: createAllocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiments\n  method: get\n  operationId: listExperiments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experiments\n  method: post\n  operationId: createExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiments/{experimentId}\n  method: get\n  operationId: getExperiment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  operationId: listMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: post\n  operationId: createMetric\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assignments\n  method: post\n  operationId: ingestAssignments\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/agentic-access/eppo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eppo/agentic-access/eppo-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Experimentation

@@ -9,79 +9,79 @@ api_specs:
   label: Tableau Authentication API
   slug: tableau-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-authentication-api-openapi.yml
 - filename: tableau-data-sources-api-openapi.yml
   format: yaml
   label: Tableau Data Sources API
   slug: tableau-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-data-sources-api-openapi.yml
 - filename: tableau-favorites-api-openapi.yml
   format: yaml
   label: Tableau Favorites API
   slug: tableau-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-favorites-api-openapi.yml
 - filename: tableau-groups-api-openapi.yml
   format: yaml
   label: Tableau Groups API
   slug: tableau-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-groups-api-openapi.yml
 - filename: tableau-jobs-api-openapi.yml
   format: yaml
   label: Tableau Jobs API
   slug: tableau-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-jobs-api-openapi.yml
 - filename: tableau-permissions-api-openapi.yml
   format: yaml
   label: Tableau Permissions API
   slug: tableau-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-permissions-api-openapi.yml
 - filename: tableau-projects-api-openapi.yml
   format: yaml
   label: Tableau Projects API
   slug: tableau-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-projects-api-openapi.yml
 - filename: tableau-schedules-api-openapi.yml
   format: yaml
   label: Tableau Schedules API
   slug: tableau-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-schedules-api-openapi.yml
 - filename: tableau-sites-api-openapi.yml
   format: yaml
   label: Tableau Sites API
   slug: tableau-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-sites-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-sites-api-openapi.yml
 - filename: tableau-subscriptions-api-openapi.yml
   format: yaml
   label: Tableau Subscriptions API
   slug: tableau-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-subscriptions-api-openapi.yml
 - filename: tableau-users-api-openapi.yml
   format: yaml
   label: Tableau Users API
   slug: tableau-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-users-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-users-api-openapi.yml
 - filename: tableau-views-api-openapi.yml
   format: yaml
   label: Tableau Views API
   slug: tableau-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-views-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-views-api-openapi.yml
 - filename: tableau-workbooks-api-openapi.yml
   format: yaml
   label: Tableau Workbooks API
   slug: tableau-workbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-workbooks-api-openapi.yml
+  url: https://artifacts.apis.io/tableau/openapi/tableau-workbooks-api-openapi.yml
 consequence_counts:
   read: 38
   write: 32
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tablea
   \    audit: required\n- path: /sites/{site-id}/subscriptions/{subscription-id}\n  method: get\n  operationId: querySubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site-id}/subscriptions/{subscription-id}\n  method: put\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{site-id}/subscriptions/{subscription-id}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /sites/{site-id}/jobs\n  method: get\n  operationId: queryJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site-id}/jobs/{job-id}\n  method: get\n  operationId: queryJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site-id}/jobs/{job-id}\n  method: put\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{site-id}/favorites/{user-id}\n  method: get\n  operationId: getFavorites\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site-id}/favorites/{user-id}\n  method: put\n  operationId: addFavorites\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/agentic-access/tableau-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tableau/agentic-access/tableau-agentic-access.yml
 summary_line: 70 operations · 32 acting
 tags:
 - Analytics

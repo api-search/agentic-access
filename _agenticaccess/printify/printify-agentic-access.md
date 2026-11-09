@@ -9,37 +9,37 @@ api_specs:
   label: Printify Catalog API
   slug: printify-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-catalog-api-openapi.yml
 - filename: printify-orders-api-openapi.yml
   format: yaml
   label: Printify Orders API
   slug: printify-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-orders-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-orders-api-openapi.yml
 - filename: printify-products-api-openapi.yml
   format: yaml
   label: Printify Products API
   slug: printify-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-products-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-products-api-openapi.yml
 - filename: printify-shops-api-openapi.yml
   format: yaml
   label: Printify Shops API
   slug: printify-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-shops-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-shops-api-openapi.yml
 - filename: printify-uploads-api-openapi.yml
   format: yaml
   label: Printify Uploads API
   slug: printify-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-uploads-api-openapi.yml
 - filename: printify-webhooks-api-openapi.yml
   format: yaml
   label: Printify Webhooks API
   slug: printify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 15
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/printi
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uploads/images.json\n  method: post\n  operationId: uploadImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uploads/{image_id}/archive.json\n  method: post\n  operationId: archiveUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shops/{shop_id}/webhooks.json\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /shops/{shop_id}/webhooks.json\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shops/{shop_id}/webhooks/{webhook_id}.json\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shops/{shop_id}/webhooks/{webhook_id}.json\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/agentic-access/printify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/printify/agentic-access/printify-agentic-access.yml
 summary_line: 33 operations · 18 acting
 tags:
 - Print on Demand

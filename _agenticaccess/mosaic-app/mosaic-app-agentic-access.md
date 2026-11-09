@@ -9,31 +9,31 @@ api_specs:
   label: Mosaic Members API
   slug: mosaic-app-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-members-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-members-api-openapi.yml
 - filename: mosaic-app-projects-api-openapi.yml
   format: yaml
   label: Mosaic Projects API
   slug: mosaic-app-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-projects-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-projects-api-openapi.yml
 - filename: mosaic-app-tasks-api-openapi.yml
   format: yaml
   label: Mosaic Tasks API
   slug: mosaic-app-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-tasks-api-openapi.yml
 - filename: mosaic-app-time-entries-api-openapi.yml
   format: yaml
   label: Mosaic Time Entries API
   slug: mosaic-app-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-time-entries-api-openapi.yml
 - filename: mosaic-app-work-plans-api-openapi.yml
   format: yaml
   label: Mosaic Work Plans API
   slug: mosaic-app-work-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/openapi/mosaic-app-work-plans-api-openapi.yml
+  url: https://artifacts.apis.io/mosaic-app/openapi/mosaic-app-work-plans-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mosaic
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{team_id}/time_entries/{id}\n  method: delete\n  operationId: deleteTimeEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{team_id}/work_plans\n  method: get\n  operationId: listWorkPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{team_id}/work_plans\n  method: post\n  operationId: createWorkPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{team_id}/work_plans/{id}\n  method: patch\n  operationId: updateWorkPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{team_id}/work_plans/{id}\n  method: delete\n  operationId: deleteWorkPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{team_id}/work_plans/bulk_delete\n  method: post\n  operationId:\
   \ bulkDeleteWorkPlans\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/agentic-access/mosaic-app-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mosaic-app/agentic-access/mosaic-app-agentic-access.yml
 summary_line: 23 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Resource Management

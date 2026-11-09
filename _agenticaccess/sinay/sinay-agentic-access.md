@@ -9,37 +9,37 @@ api_specs:
   label: Sinay CO2 Emission API
   slug: sinay-co2-emission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-co2-emission-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-co2-emission-api-openapi.yml
 - filename: sinay-eta-api-openapi.yml
   format: yaml
   label: Sinay ETA API
   slug: sinay-eta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-eta-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-eta-api-openapi.yml
 - filename: sinay-metocean-api-openapi.yml
   format: yaml
   label: Sinay Metocean API
   slug: sinay-metocean-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-metocean-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-metocean-api-openapi.yml
 - filename: sinay-port-congestion-api-openapi.yml
   format: yaml
   label: Sinay Port Congestion API
   slug: sinay-port-congestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-port-congestion-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-port-congestion-api-openapi.yml
 - filename: sinay-ports-and-vessels-api-openapi.yml
   format: yaml
   label: Sinay Ports and Vessels API
   slug: sinay-ports-and-vessels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-ports-and-vessels-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-ports-and-vessels-api-openapi.yml
 - filename: sinay-usage-api-openapi.yml
   format: yaml
   label: Sinay Usage API
   slug: sinay-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/openapi/sinay-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sinay/openapi/sinay-usage-api-openapi.yml
 consequence_counts:
   read: 13
   write: 1
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sinay-
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /congestion/api/v1/congestion/batch\n  method: post\n  operationId: retrieveCongestionAggregateBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ports-vessels/api/v1/vessels\n  method: get\n  operationId: getVesselsByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ports-vessels/api/v1/ports\n  method: get\n  operationId: getPortsByNameOrCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ports-vessels/api/v1/usages\n  method: get\n  operationId: getPortsVesselsUsages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /metocean/api/v1/usages\n  method: get\n  operationId: getMetoceanUsages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /co2/api/v2/usages\n  method: get\n  operationId: getCo2Usages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /etac/api/v1/usages\n  method: get\n  operationId: getEtaUsages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /congestion/api/v1/consumption/current-period\n  method: get\n  operationId: retrieveCurrentConsumptionPeriod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /congestion/api/v1/consumption/periods\n  method: get\n\
   \  operationId: retrieveConsumptionPeriods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/agentic-access/sinay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sinay/agentic-access/sinay-agentic-access.yml
 summary_line: 14 operations · 1 acting
 tags:
 - Vessel Tracking

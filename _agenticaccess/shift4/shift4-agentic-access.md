@@ -9,127 +9,127 @@ api_specs:
   label: Shift4 3D Secure API
   slug: shift4-3d-secure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-3d-secure-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-3d-secure-api-openapi.yml
 - filename: shift4-ach-api-openapi.yml
   format: yaml
   label: Shift4 ACH API
   slug: shift4-ach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-ach-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-ach-api-openapi.yml
 - filename: shift4-batches-api-openapi.yml
   format: yaml
   label: Shift4 Batches API
   slug: shift4-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-batches-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-batches-api-openapi.yml
 - filename: shift4-cards-api-openapi.yml
   format: yaml
   label: Shift4 Cards API
   slug: shift4-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-cards-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-cards-api-openapi.yml
 - filename: shift4-checkout-sessions-api-openapi.yml
   format: yaml
   label: Shift4 Checkout Sessions API
   slug: shift4-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-checkout-sessions-api-openapi.yml
 - filename: shift4-credentials-api-openapi.yml
   format: yaml
   label: Shift4 Credentials API
   slug: shift4-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-credentials-api-openapi.yml
 - filename: shift4-dcc-api-openapi.yml
   format: yaml
   label: Shift4 DCC API
   slug: shift4-dcc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-dcc-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-dcc-api-openapi.yml
 - filename: shift4-devices-api-openapi.yml
   format: yaml
   label: Shift4 Devices API
   slug: shift4-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-devices-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-devices-api-openapi.yml
 - filename: shift4-gift-cards-api-openapi.yml
   format: yaml
   label: Shift4 Gift Cards API
   slug: shift4-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-gift-cards-api-openapi.yml
 - filename: shift4-merchants-api-openapi.yml
   format: yaml
   label: Shift4 Merchants API
   slug: shift4-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-merchants-api-openapi.yml
 - filename: shift4-mode-api-openapi.yml
   format: yaml
   label: Shift4 Mode API
   slug: shift4-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-mode-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-mode-api-openapi.yml
 - filename: shift4-oct-api-openapi.yml
   format: yaml
   label: Shift4 OCT API
   slug: shift4-oct-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-oct-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-oct-api-openapi.yml
 - filename: shift4-payment-links-api-openapi.yml
   format: yaml
   label: Shift4 Payment Links API
   slug: shift4-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-payment-links-api-openapi.yml
 - filename: shift4-qr-payments-api-openapi.yml
   format: yaml
   label: Shift4 QR Payments API
   slug: shift4-qr-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-qr-payments-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-qr-payments-api-openapi.yml
 - filename: shift4-reports-api-openapi.yml
   format: yaml
   label: Shift4 Reports API
   slug: shift4-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-reports-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-reports-api-openapi.yml
 - filename: shift4-risk-api-openapi.yml
   format: yaml
   label: Shift4 Risk API
   slug: shift4-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-risk-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-risk-api-openapi.yml
 - filename: shift4-rule-api-openapi.yml
   format: yaml
   label: Shift4 Rule API
   slug: shift4-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-rule-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-rule-api-openapi.yml
 - filename: shift4-tokens-api-openapi.yml
   format: yaml
   label: Shift4 Tokens API
   slug: shift4-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-tokens-api-openapi.yml
 - filename: shift4-transactions-api-openapi.yml
   format: yaml
   label: Shift4 Transactions API
   slug: shift4-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-transactions-api-openapi.yml
 - filename: shift4-updater-api-openapi.yml
   format: yaml
   label: Shift4 Updater API
   slug: shift4-updater-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-updater-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-updater-api-openapi.yml
 - filename: shift4-pay-pal-api-openapi.yml
   format: yaml
   label: Shift4 Pay Pal API
   slug: shift4-pay-pal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/openapi/shift4-pay-pal-api-openapi.yml
+  url: https://artifacts.apis.io/shift4/openapi/shift4-pay-pal-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 14
@@ -236,7 +236,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shift4
   \      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/invoice\n  method: get\n  operationId: getinvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/invoice\n  method: delete\n  operationId: void\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/manualauthorization\n  method: post\n  operationId: manualauthorization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /transactions/manualsale\n  method: post\n  operationId: manualsale\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/signature\n  method: post\n  operationId: transactionssignature\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updater/request\n  method: post\n  operationId: updaterrequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updater/status\n  method: post\n  operationId: updaterstatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/agentic-access/shift4-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shift4/agentic-access/shift4-agentic-access.yml
 summary_line: 72 operations · 58 acting · 1 human-in-the-loop
 tags:
 - Payments

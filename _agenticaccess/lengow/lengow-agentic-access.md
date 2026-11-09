@@ -9,25 +9,25 @@ api_specs:
   label: Lengow Authentication API
   slug: lengow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/openapi/lengow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/lengow/openapi/lengow-authentication-api-openapi.yml
 - filename: lengow-catalogues-api-openapi.yml
   format: yaml
   label: Lengow Catalogues API
   slug: lengow-catalogues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/openapi/lengow-catalogues-api-openapi.yml
+  url: https://artifacts.apis.io/lengow/openapi/lengow-catalogues-api-openapi.yml
 - filename: lengow-marketplaces-api-openapi.yml
   format: yaml
   label: Lengow Marketplaces API
   slug: lengow-marketplaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/openapi/lengow-marketplaces-api-openapi.yml
+  url: https://artifacts.apis.io/lengow/openapi/lengow-marketplaces-api-openapi.yml
 - filename: lengow-rate-limits-api-openapi.yml
   format: yaml
   label: Lengow Rate limits API
   slug: lengow-rate-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/openapi/lengow-rate-limits-api-openapi.yml
+  url: https://artifacts.apis.io/lengow/openapi/lengow-rate-limits-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: generated\nsource: openapi/lengow
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/catalogues/{catalogue_id}/products\n  method: post\n  operationId: upsert_products_public_catalogues__catalogue_id__products_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/catalogues/{catalogue_id}/products/{product_id_value}\n  method: delete\n  operationId: delete_product_public_catalogues__catalogue_id__products__product_id_value__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/catalogues/{catalogue_id}/products/{product_id_value}\n  method: get\n  operationId: get_product_public_catalogues__catalogue_id__products__product_id_value__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/catalogues/{catalogue_id}/products/{product_id_value}\n  method: patch\n  operationId: update_product_public_catalogues__catalogue_id__products__product_id_value__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3.0/report/export\n  method: get\n  operationId: Get product reports\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/agentic-access/lengow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lengow/agentic-access/lengow-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Company

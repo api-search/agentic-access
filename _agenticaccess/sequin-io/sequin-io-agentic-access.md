@@ -9,31 +9,31 @@ api_specs:
   label: Sequin Backfills API
   slug: sequin-io-backfills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-backfills-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-backfills-api-openapi.yml
 - filename: sequin-io-http-endpoints-api-openapi.yml
   format: yaml
   label: Sequin HTTP Endpoints API
   slug: sequin-io-http-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-http-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-http-endpoints-api-openapi.yml
 - filename: sequin-io-postgres-databases-api-openapi.yml
   format: yaml
   label: Sequin Postgres Databases API
   slug: sequin-io-postgres-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-postgres-databases-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-postgres-databases-api-openapi.yml
 - filename: sequin-io-sink-consumers-api-openapi.yml
   format: yaml
   label: Sequin Sink Consumers API
   slug: sequin-io-sink-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-sink-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-sink-consumers-api-openapi.yml
 - filename: sequin-io-stream-pull-api-openapi.yml
   format: yaml
   label: Sequin Stream Pull API
   slug: sequin-io-stream-pull-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/openapi/sequin-io-stream-pull-api-openapi.yml
+  url: https://artifacts.apis.io/sequin-io/openapi/sequin-io-stream-pull-api-openapi.yml
 consequence_counts:
   read: 9
   write: 16
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sequin
   \  method: get\n  operationId: listBackfills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sinks/{sink_id_or_name}/backfills\n  method: post\n  operationId: createBackfill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sinks/{sink_id_or_name}/backfills/{backfill_id}\n  method: get\n  operationId: getBackfill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sinks/{sink_id_or_name}/backfills/{backfill_id}\n  method: patch\n  operationId: updateBackfill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sinks/{sink_id_or_name}/backfills/{backfill_id}\n  method: delete\n  operationId: deleteBackfill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /http_pull_consumers/{consumer_name}/receive\n  method: get\n  operationId: receiveMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /http_pull_consumers/{consumer_name}/ack\n  method: post\n  operationId: ackMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /http_pull_consumers/{consumer_name}/nack\n  method: post\n  operationId: nackMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/agentic-access/sequin-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sequin-io/agentic-access/sequin-io-agentic-access.yml
 summary_line: 25 operations · 16 acting
 tags:
 - Change Data Capture

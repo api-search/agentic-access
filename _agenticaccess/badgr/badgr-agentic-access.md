@@ -9,43 +9,43 @@ api_specs:
   label: Badgr Assertions API
   slug: badgr-assertions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-assertions-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-assertions-api-openapi.yml
 - filename: badgr-authentication-api-openapi.yml
   format: yaml
   label: Badgr Authentication API
   slug: badgr-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-authentication-api-openapi.yml
 - filename: badgr-backpack-api-openapi.yml
   format: yaml
   label: Badgr Backpack API
   slug: badgr-backpack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-backpack-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-backpack-api-openapi.yml
 - filename: badgr-badgeclasses-api-openapi.yml
   format: yaml
   label: Badgr BadgeClasses API
   slug: badgr-badgeclasses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-badgeclasses-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-badgeclasses-api-openapi.yml
 - filename: badgr-collections-api-openapi.yml
   format: yaml
   label: Badgr Collections API
   slug: badgr-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-collections-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-collections-api-openapi.yml
 - filename: badgr-issuers-api-openapi.yml
   format: yaml
   label: Badgr Issuers API
   slug: badgr-issuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-issuers-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-issuers-api-openapi.yml
 - filename: badgr-users-api-openapi.yml
   format: yaml
   label: Badgr Users API
   slug: badgr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-users-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-users-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 3
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/badgr-
   \ required\n- path: /v2/backpack/collections/{entityId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/backpack/collections/{entityId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/backpack/collections/{entityId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/backpack/share/collection/{entityId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/self\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/self\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/{entityId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{entityId}\n  method: put\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/termsVersions/latest\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/agentic-access/badgr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/badgr/agentic-access/badgr-agentic-access.yml
 summary_line: 48 operations · 26 acting · 3 human-in-the-loop
 tags:
 - Digital Badges

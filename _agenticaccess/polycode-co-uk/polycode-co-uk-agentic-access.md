@@ -9,109 +9,109 @@ api_specs:
   label: Polycode Admin API
   slug: polycode-co-uk-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-admin-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-admin-api-openapi.yml
 - filename: polycode-co-uk-budget-api-openapi.yml
   format: yaml
   label: Polycode Budget API
   slug: polycode-co-uk-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-budget-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-budget-api-openapi.yml
 - filename: polycode-co-uk-chat-api-openapi.yml
   format: yaml
   label: Polycode Chat API
   slug: polycode-co-uk-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-chat-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-chat-api-openapi.yml
 - filename: polycode-co-uk-diverts-api-openapi.yml
   format: yaml
   label: Polycode Diverts API
   slug: polycode-co-uk-diverts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-diverts-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-diverts-api-openapi.yml
 - filename: polycode-co-uk-flag-api-openapi.yml
   format: yaml
   label: Polycode Flag API
   slug: polycode-co-uk-flag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-flag-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-flag-api-openapi.yml
 - filename: polycode-co-uk-graph-api-openapi.yml
   format: yaml
   label: Polycode Graph API
   slug: polycode-co-uk-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-graph-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-graph-api-openapi.yml
 - filename: polycode-co-uk-graphs-api-openapi.yml
   format: yaml
   label: Polycode Graphs API
   slug: polycode-co-uk-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-graphs-api-openapi.yml
 - filename: polycode-co-uk-hooks-api-openapi.yml
   format: yaml
   label: Polycode Hooks API
   slug: polycode-co-uk-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-hooks-api-openapi.yml
 - filename: polycode-co-uk-keys-api-openapi.yml
   format: yaml
   label: Polycode Keys API
   slug: polycode-co-uk-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-keys-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-keys-api-openapi.yml
 - filename: polycode-co-uk-me-api-openapi.yml
   format: yaml
   label: Polycode Me API
   slug: polycode-co-uk-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-me-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-me-api-openapi.yml
 - filename: polycode-co-uk-openapi-json-api-openapi.yml
   format: yaml
   label: Polycode Openapi.json API
   slug: polycode-co-uk-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-openapi-json-api-openapi.yml
 - filename: polycode-co-uk-project-api-openapi.yml
   format: yaml
   label: Polycode Project API
   slug: polycode-co-uk-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-project-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-project-api-openapi.yml
 - filename: polycode-co-uk-projects-api-openapi.yml
   format: yaml
   label: Polycode Projects API
   slug: polycode-co-uk-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-projects-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-projects-api-openapi.yml
 - filename: polycode-co-uk-sessions-api-openapi.yml
   format: yaml
   label: Polycode Sessions API
   slug: polycode-co-uk-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-sessions-api-openapi.yml
 - filename: polycode-co-uk-status-api-openapi.yml
   format: yaml
   label: Polycode Status API
   slug: polycode-co-uk-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-status-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-status-api-openapi.yml
 - filename: polycode-co-uk-test-api-openapi.yml
   format: yaml
   label: Polycode Test API
   slug: polycode-co-uk-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-test-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-test-api-openapi.yml
 - filename: polycode-co-uk-usage-api-openapi.yml
   format: yaml
   label: Polycode Usage API
   slug: polycode-co-uk-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-usage-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-usage-api-openapi.yml
 - filename: polycode-co-uk-visitor-api-openapi.yml
   format: yaml
   label: Polycode Visitor API
   slug: polycode-co-uk-visitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-visitor-api-openapi.yml
+  url: https://artifacts.apis.io/polycode-co-uk/openapi/polycode-co-uk-visitor-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 26
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/polyco
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/graphs/{graphId}/prompt-note\n  method: get\n  operationId: getPromptNote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/graphs/{graphId}/prompt-note\n  method: post\n  operationId: setPromptNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/admin/work-item\n  method: post\n  operationId: postWorkItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/admin/turn\n  method: post\n  operationId: postAdminTurn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/admin/delivery\n  method: post\n  operationId: postDelivery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/hooks/gitlab/{graphId}\n  method: post\n  operationId: postGitlabHook\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/hooks/github/{graphId}\n  method: post\n  operationId: postGithubHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/hooks/push\n  method: post\n  operationId: postHooksPush\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/agentic-access/polycode-co-uk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/polycode-co-uk/agentic-access/polycode-co-uk-agentic-access.yml
 summary_line: 50 operations · 24 acting
 tags:
 - Chat

@@ -9,115 +9,115 @@ api_specs:
   label: Buildkite Access Token API
   slug: buildkite-com-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-access-token-api-openapi.yml
 - filename: buildkite-com-agent-tokens-api-openapi.yml
   format: yaml
   label: Buildkite Agent Tokens API
   slug: buildkite-com-agent-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-agent-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-agent-tokens-api-openapi.yml
 - filename: buildkite-com-agents-api-openapi.yml
   format: yaml
   label: Buildkite Agents API
   slug: buildkite-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-agents-api-openapi.yml
 - filename: buildkite-com-annotations-api-openapi.yml
   format: yaml
   label: Buildkite Annotations API
   slug: buildkite-com-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-annotations-api-openapi.yml
 - filename: buildkite-com-artifacts-api-openapi.yml
   format: yaml
   label: Buildkite Artifacts API
   slug: buildkite-com-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-artifacts-api-openapi.yml
 - filename: buildkite-com-builds-api-openapi.yml
   format: yaml
   label: Buildkite Builds API
   slug: buildkite-com-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-builds-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-builds-api-openapi.yml
 - filename: buildkite-com-clusters-api-openapi.yml
   format: yaml
   label: Buildkite Clusters API
   slug: buildkite-com-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-clusters-api-openapi.yml
 - filename: buildkite-com-emojis-api-openapi.yml
   format: yaml
   label: Buildkite Emojis API
   slug: buildkite-com-emojis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-emojis-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-emojis-api-openapi.yml
 - filename: buildkite-com-jobs-api-openapi.yml
   format: yaml
   label: Buildkite Jobs API
   slug: buildkite-com-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-jobs-api-openapi.yml
 - filename: buildkite-com-meta-api-openapi.yml
   format: yaml
   label: Buildkite Meta API
   slug: buildkite-com-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-meta-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-meta-api-openapi.yml
 - filename: buildkite-com-metrics-api-openapi.yml
   format: yaml
   label: Buildkite Metrics API
   slug: buildkite-com-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-metrics-api-openapi.yml
 - filename: buildkite-com-organizations-api-openapi.yml
   format: yaml
   label: Buildkite Organizations API
   slug: buildkite-com-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-organizations-api-openapi.yml
 - filename: buildkite-com-pipeline-templates-api-openapi.yml
   format: yaml
   label: Buildkite Pipeline Templates API
   slug: buildkite-com-pipeline-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-pipeline-templates-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-pipeline-templates-api-openapi.yml
 - filename: buildkite-com-pipelines-api-openapi.yml
   format: yaml
   label: Buildkite Pipelines API
   slug: buildkite-com-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-pipelines-api-openapi.yml
 - filename: buildkite-com-queues-api-openapi.yml
   format: yaml
   label: Buildkite Queues API
   slug: buildkite-com-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-queues-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-queues-api-openapi.yml
 - filename: buildkite-com-rules-api-openapi.yml
   format: yaml
   label: Buildkite Rules API
   slug: buildkite-com-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-rules-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-rules-api-openapi.yml
 - filename: buildkite-com-stacks-api-openapi.yml
   format: yaml
   label: Buildkite Stacks API
   slug: buildkite-com-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-stacks-api-openapi.yml
 - filename: buildkite-com-teams-api-openapi.yml
   format: yaml
   label: Buildkite Teams API
   slug: buildkite-com-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-teams-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-teams-api-openapi.yml
 - filename: buildkite-com-user-api-openapi.yml
   format: yaml
   label: Buildkite User API
   slug: buildkite-com-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-user-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-user-api-openapi.yml
 consequence_counts:
   read: 23
   safety-critical: 2
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/buildk
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org}/agents/{id}\n  method: get\n  operationId: getAgent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org}/agents/{id}/stop\n  method: put\n  operationId: stopAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /organizations/{org}/clusters\n  method: get\n  operationId: listClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /organizations/{org}/clusters/{cluster}/queues\n  method: get\n  operationId: listQueues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org}/clusters/{cluster}/tokens\n  method: get\n  operationId: listAgentTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org}/teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org}/pipeline-templates\n  method: get\n  operationId: listPipelineTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org}/rules\n\
   \  method: get\n  operationId: listRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org}/emojis\n  method: get\n  operationId: listEmojis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/agentic-access/buildkite-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/buildkite-com/agentic-access/buildkite-com-agentic-access.yml
 summary_line: 32 operations · 9 acting · 2 human-in-the-loop
 tags:
 - CI/CD

@@ -9,43 +9,43 @@ api_specs:
   label: Sesame HR Absences and Leave API
   slug: sesame-hr-absences-and-leave-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-absences-and-leave-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-absences-and-leave-api-openapi.yml
 - filename: sesame-hr-departments-and-org-api-openapi.yml
   format: yaml
   label: Sesame HR Departments and Org API
   slug: sesame-hr-departments-and-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-departments-and-org-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-departments-and-org-api-openapi.yml
 - filename: sesame-hr-employees-api-openapi.yml
   format: yaml
   label: Sesame HR Employees API
   slug: sesame-hr-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-employees-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-employees-api-openapi.yml
 - filename: sesame-hr-meta-api-openapi.yml
   format: yaml
   label: Sesame HR Meta API
   slug: sesame-hr-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-meta-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-meta-api-openapi.yml
 - filename: sesame-hr-scheduling-api-openapi.yml
   format: yaml
   label: Sesame HR Scheduling API
   slug: sesame-hr-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-scheduling-api-openapi.yml
 - filename: sesame-hr-time-tracking-api-openapi.yml
   format: yaml
   label: Sesame HR Time Tracking API
   slug: sesame-hr-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-time-tracking-api-openapi.yml
 - filename: sesame-hr-webhooks-api-openapi.yml
   format: yaml
   label: Sesame HR Webhooks API
   slug: sesame-hr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sesame-hr/openapi/sesame-hr-webhooks-api-openapi.yml
 consequence_counts:
   read: 15
   write: 18
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sesame
   \ createOffice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization-chart/manager/{employeeId}\n  method: get\n  operationId: getManagerByEmployee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /planners\n  method: get\n  operationId: listPlanners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /planners/{id}/shifts\n  method: post\n  operationId: assignPlannerShifts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shifts\n  method: get\n  operationId: listShifts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shifts\n  method: post\n  operationId: createShift\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedule-templates\n  method: get\n  operationId: listScheduleTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: manageWebhooks\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/agentic-access/sesame-hr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sesame-hr/agentic-access/sesame-hr-agentic-access.yml
 summary_line: 33 operations · 18 acting
 tags:
 - Human Resources

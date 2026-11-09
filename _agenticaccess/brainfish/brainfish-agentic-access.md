@@ -9,55 +9,55 @@ api_specs:
   label: Brainfish Agents API
   slug: brainfish-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-agents-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-agents-api-openapi.yml
 - filename: brainfish-analytics-api-openapi.yml
   format: yaml
   label: Brainfish Analytics API
   slug: brainfish-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-analytics-api-openapi.yml
 - filename: brainfish-authentication-api-openapi.yml
   format: yaml
   label: Brainfish Authentication API
   slug: brainfish-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-authentication-api-openapi.yml
 - filename: brainfish-catalogs-api-openapi.yml
   format: yaml
   label: Brainfish Catalogs API
   slug: brainfish-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-catalogs-api-openapi.yml
 - filename: brainfish-collections-api-openapi.yml
   format: yaml
   label: Brainfish Collections API
   slug: brainfish-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-collections-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-collections-api-openapi.yml
 - filename: brainfish-conversations-api-openapi.yml
   format: yaml
   label: Brainfish Conversations API
   slug: brainfish-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-conversations-api-openapi.yml
 - filename: brainfish-documents-api-openapi.yml
   format: yaml
   label: Brainfish Documents API
   slug: brainfish-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-documents-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-documents-api-openapi.yml
 - filename: brainfish-sessions-api-openapi.yml
   format: yaml
   label: Brainfish Sessions API
   slug: brainfish-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-sessions-api-openapi.yml
 - filename: brainfish-users-api-openapi.yml
   format: yaml
   label: Brainfish Users API
   slug: brainfish-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/openapi/brainfish-users-api-openapi.yml
+  url: https://artifacts.apis.io/brainfish/openapi/brainfish-users-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/brainf
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/documents/search\n  method: post\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/documents/suggestion\n  method: post\n  operationId: generateArticleSuggestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sessions/search\n  method: post\n  operationId: searchSessions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /v1/sessions/{id}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sessions/{id}/timeline\n  method: get\n  operationId: getSessionTimeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sessions/{id}/insights\n  method: post\n  operationId: generateSessionInsights\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/answer\n  method: post\n  operationId: generateUserAnswer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/agentic-access/brainfish-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brainfish/agentic-access/brainfish-agentic-access.yml
 summary_line: 27 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Company

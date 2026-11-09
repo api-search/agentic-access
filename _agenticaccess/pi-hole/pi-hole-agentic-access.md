@@ -9,25 +9,25 @@ api_specs:
   label: Pi-hole Auth API
   slug: pi-hole-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-auth-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-auth-api-openapi.yml
 - filename: pi-hole-dns-api-openapi.yml
   format: yaml
   label: Pi-hole DNS API
   slug: pi-hole-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-dns-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-dns-api-openapi.yml
 - filename: pi-hole-groups-api-openapi.yml
   format: yaml
   label: Pi-hole Groups API
   slug: pi-hole-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-groups-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-groups-api-openapi.yml
 - filename: pi-hole-info-api-openapi.yml
   format: yaml
   label: Pi-hole Info API
   slug: pi-hole-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-info-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-info-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pi-hole-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 4\n    connected: 3\n  by_consequence:\n    write: 4\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/auth\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/auth\n  method: delete\n  operationId: deleteSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/groups/{id}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/dns/blocking\n  method: get\n  operationId: getDnsBlockingStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/info/version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/agentic-access/pi-hole-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pi-hole/agentic-access/pi-hole-agentic-access.yml
 summary_line: 7 operations · 4 acting
 tags:
 - DNS

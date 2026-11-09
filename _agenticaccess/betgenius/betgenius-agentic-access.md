@@ -9,25 +9,25 @@ api_specs:
   label: BetGenius Booking V1 API
   slug: betgenius-bookingv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv1-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-bookingv1-api-openapi.yml
 - filename: betgenius-bookingv2-api-openapi.yml
   format: yaml
   label: BetGenius Booking V2 API
   slug: betgenius-bookingv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv2-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-bookingv2-api-openapi.yml
 - filename: betgenius-fixtures-api-openapi.yml
   format: yaml
   label: BetGenius Fixtures API
   slug: betgenius-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-fixtures-api-openapi.yml
 - filename: betgenius-regions-api-openapi.yml
   format: yaml
   label: BetGenius Regions API
   slug: betgenius-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-regions-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-regions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/betgen
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/booking/Fixtures\n  method: get\n  operationId: BookingV2_Fixtures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fixtures\n  method: get\n  operationId: getFixtures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fixtures/{id}\n  method: get\n  operationId: getFixture\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fixtures/{id}/live-streams/{streamId}/deliveries/dash/{deliveryId}\n  method: post\n\
   \  operationId: createDASHStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fixtures/{id}/live-streams/{streamId}/deliveries/hls/{deliveryId}\n  method: post\n  operationId: createHLSStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fixtures/{id}/live-streams/{streamId}/deliveries/srt/{deliveryId}\n  method: post\n  operationId: createSRTStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fixtures/{id}/vod-streams/{streamId}/deliveries/hls/{deliveryId}\n  method: post\n  operationId: createHlsVod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /regions\n  method: get\n  operationId: getRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/agentic-access/betgenius-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/betgenius/agentic-access/betgenius-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Sportsbook

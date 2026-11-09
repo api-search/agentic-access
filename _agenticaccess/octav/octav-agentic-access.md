@@ -9,85 +9,85 @@ api_specs:
   label: Octav Airdrops API
   slug: octav-airdrops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-airdrops-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-airdrops-api-openapi.yml
 - filename: octav-approvals-api-openapi.yml
   format: yaml
   label: Octav Approvals API
   slug: octav-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-approvals-api-openapi.yml
 - filename: octav-beacon-validators-api-openapi.yml
   format: yaml
   label: Octav Beacon Validators API
   slug: octav-beacon-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-beacon-validators-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-beacon-validators-api-openapi.yml
 - filename: octav-chains-api-openapi.yml
   format: yaml
   label: Octav Chains API
   slug: octav-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-chains-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-chains-api-openapi.yml
 - filename: octav-contract-protocol-api-openapi.yml
   format: yaml
   label: Octav Contract Protocol API
   slug: octav-contract-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-contract-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-contract-protocol-api-openapi.yml
 - filename: octav-credits-api-openapi.yml
   format: yaml
   label: Octav Credits API
   slug: octav-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-credits-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-credits-api-openapi.yml
 - filename: octav-nav-api-openapi.yml
   format: yaml
   label: Octav Nav API
   slug: octav-nav-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-nav-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-nav-api-openapi.yml
 - filename: octav-portfolio-api-openapi.yml
   format: yaml
   label: Octav Portfolio API
   slug: octav-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-portfolio-api-openapi.yml
 - filename: octav-status-api-openapi.yml
   format: yaml
   label: Octav Status API
   slug: octav-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-status-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-status-api-openapi.yml
 - filename: octav-sync-api-openapi.yml
   format: yaml
   label: Octav Sync API
   slug: octav-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-sync-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-sync-api-openapi.yml
 - filename: octav-tokens-api-openapi.yml
   format: yaml
   label: Octav Tokens API
   slug: octav-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-tokens-api-openapi.yml
 - filename: octav-transactions-api-openapi.yml
   format: yaml
   label: Octav Transactions API
   slug: octav-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-transactions-api-openapi.yml
 - filename: octav-virtual-users-api-openapi.yml
   format: yaml
   label: Octav Virtual Users API
   slug: octav-virtual-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-virtual-users-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-virtual-users-api-openapi.yml
 - filename: octav-wallet-api-openapi.yml
   format: yaml
   label: Octav Wallet API
   slug: octav-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/octav-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/octav/openapi/octav-wallet-api-openapi.yml
 consequence_counts:
   read: 24
   write: 1
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/octav-
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credits\n  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beacon/validators/details/index/{index}\n  method: get\n  operationId: getValidatorDetailsByIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beacon/validators/details/pubkey/{pubkey}\n  method: get\n  operationId: getValidatorDetailsByPubkey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beacon/validators/rewards/index/{index}\n  method: get\n  operationId: getValidatorRewardsByIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beacon/validators/rewards/pubkey/{pubkey}\n  method: get\n  operationId: getValidatorRewardsByPubkey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beacon/validators/withdrawals/index/{index}\n  method: get\n  operationId: getValidatorWithdrawalsByIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beacon/validators/withdrawals/pubkey/{pubkey}\n  method: get\n  operationId: getValidatorWithdrawalsByPubkey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beacon/validators/deposits/index/{index}\n  method: get\n  operationId: getValidatorDepositsByIndex\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beacon/validators/deposits/pubkey/{pubkey}\n  method: get\n  operationId: getValidatorDepositsByPubkey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/agentic-access/octav-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/octav/agentic-access/octav-agentic-access.yml
 summary_line: 25 operations · 1 acting
 tags:
 - Company

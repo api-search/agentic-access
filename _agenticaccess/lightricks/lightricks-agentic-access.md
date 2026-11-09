@@ -9,19 +9,19 @@ api_specs:
   label: Lightricks Async Video Generation API
   slug: lightricks-asyncvideogeneration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-asyncvideogeneration-api-openapi.yml
+  url: https://artifacts.apis.io/lightricks/openapi/lightricks-asyncvideogeneration-api-openapi.yml
 - filename: lightricks-upload-api-openapi.yml
   format: yaml
   label: Lightricks Upload API
   slug: lightricks-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-upload-api-openapi.yml
+  url: https://artifacts.apis.io/lightricks/openapi/lightricks-upload-api-openapi.yml
 - filename: lightricks-video-generation-api-openapi.yml
   format: yaml
   label: Lightricks Video Generation API
   slug: lightricks-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-video-generation-api-openapi.yml
+  url: https://artifacts.apis.io/lightricks/openapi/lightricks-video-generation-api-openapi.yml
 consequence_counts:
   read: 2
   write: 26
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lightr
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/retake\n  method: post\n  operationId: submit-retake\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/extend\n  method: post\n  operationId: submit-extend\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/video-to-video-hdr\n  method: post\n  operationId: submit-video-to-video-hdr\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/video-to-video-reframe\n  method: post\n  operationId: submit-video-to-video-reframe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{endpoint}/{id}\n  method: get\n  operationId: get-job-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/upload\n  method: post\n  operationId: create-upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/agentic-access/lightricks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lightricks/agentic-access/lightricks-agentic-access.yml
 summary_line: 28 operations · 26 acting
 tags:
 - Company

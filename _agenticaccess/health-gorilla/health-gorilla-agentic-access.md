@@ -9,61 +9,61 @@ api_specs:
   label: Health Gorilla Binary API
   slug: health-gorilla-binary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-binary-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-binary-api-openapi.yml
 - filename: health-gorilla-coverage-api-openapi.yml
   format: yaml
   label: Health Gorilla Coverage API
   slug: health-gorilla-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-coverage-api-openapi.yml
 - filename: health-gorilla-diagnosticreport-api-openapi.yml
   format: yaml
   label: Health Gorilla DiagnosticReport API
   slug: health-gorilla-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-diagnosticreport-api-openapi.yml
 - filename: health-gorilla-observation-api-openapi.yml
   format: yaml
   label: Health Gorilla Observation API
   slug: health-gorilla-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-observation-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-observation-api-openapi.yml
 - filename: health-gorilla-patient-api-openapi.yml
   format: yaml
   label: Health Gorilla Patient API
   slug: health-gorilla-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-patient-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-patient-api-openapi.yml
 - filename: health-gorilla-practitioner-api-openapi.yml
   format: yaml
   label: Health Gorilla Practitioner API
   slug: health-gorilla-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-practitioner-api-openapi.yml
 - filename: health-gorilla-requestgroup-api-openapi.yml
   format: yaml
   label: Health Gorilla RequestGroup API
   slug: health-gorilla-requestgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-requestgroup-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-requestgroup-api-openapi.yml
 - filename: health-gorilla-servicerequest-api-openapi.yml
   format: yaml
   label: Health Gorilla ServiceRequest API
   slug: health-gorilla-servicerequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-servicerequest-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-servicerequest-api-openapi.yml
 - filename: health-gorilla-capability-statement-api-openapi.yml
   format: yaml
   label: Health Gorilla Capability Statement API
   slug: health-gorilla-capability-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-capability-statement-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-capability-statement-api-openapi.yml
 - filename: health-gorilla-document-reference-api-openapi.yml
   format: yaml
   label: Health Gorilla Document Reference API
   slug: health-gorilla-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-document-reference-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/health
   \ searchServiceRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ServiceRequest\n  method: post\n  operationId: createServiceRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ServiceRequest/{id}\n  method: get\n  operationId: readServiceRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DiagnosticReport\n  method: get\n  operationId: searchDiagnosticReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DiagnosticReport/{id}\n\
   \  method: get\n  operationId: readDiagnosticReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Observation\n  method: get\n  operationId: searchObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DocumentReference\n  method: get\n  operationId: searchDocumentReferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DocumentReference/{id}\n  method: get\n  operationId: readDocumentReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Binary/{id}\n  method: get\n  operationId: readBinary\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Coverage\n  method: get\n  operationId: searchCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Coverage/{id}\n  method: get\n  operationId: readCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Practitioner\n  method: get\n  operationId: searchPractitioners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Practitioner/{id}\n  method: get\n  operationId: readPractitioner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/agentic-access/health-gorilla-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/health-gorilla/agentic-access/health-gorilla-agentic-access.yml
 summary_line: 22 operations · 4 acting
 tags:
 - Health

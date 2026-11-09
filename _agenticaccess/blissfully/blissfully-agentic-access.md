@@ -9,25 +9,25 @@ api_specs:
   label: Blissfully Pricing API
   slug: blissfully-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/blissfully/openapi/blissfully-pricing-api-openapi.yml
 - filename: blissfully-products-api-openapi.yml
   format: yaml
   label: Blissfully Products API
   slug: blissfully-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-products-api-openapi.yml
+  url: https://artifacts.apis.io/blissfully/openapi/blissfully-products-api-openapi.yml
 - filename: blissfully-vendors-api-openapi.yml
   format: yaml
   label: Blissfully Vendors API
   slug: blissfully-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/blissfully/openapi/blissfully-vendors-api-openapi.yml
 - filename: blissfully-webhooks-api-openapi.yml
   format: yaml
   label: Blissfully Webhooks API
   slug: blissfully-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/blissfully/openapi/blissfully-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/blissfully-pricing-api-openapi.yml, openapi/blissfully-products-api-openapi.yml,\n  openapi/blissfully-vendors-api-openapi.yml, openapi/blissfully-webhooks-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 5\n    acting: 1\n  by_consequence:\n    read: 5\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /pricing\n  method: post\n  operationId: getPricingInsights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{product_id}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendors\n  method: get\n  operationId: listVendors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/agentic-access/blissfully-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blissfully/agentic-access/blissfully-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
 - Procurement

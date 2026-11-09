@@ -9,55 +9,55 @@ api_specs:
   label: HorizonIQ Action Items API
   slug: horizoniq-action-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-action-items-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-action-items-api-openapi.yml
 - filename: horizoniq-billing-api-openapi.yml
   format: yaml
   label: HorizonIQ Billing API
   slug: horizoniq-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-billing-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-billing-api-openapi.yml
 - filename: horizoniq-devices-api-openapi.yml
   format: yaml
   label: HorizonIQ Devices API
   slug: horizoniq-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-devices-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-devices-api-openapi.yml
 - filename: horizoniq-images-api-openapi.yml
   format: yaml
   label: HorizonIQ Images API
   slug: horizoniq-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-images-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-images-api-openapi.yml
 - filename: horizoniq-managed-firewalls-api-openapi.yml
   format: yaml
   label: HorizonIQ Managed Firewalls API
   slug: horizoniq-managed-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-managed-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-managed-firewalls-api-openapi.yml
 - filename: horizoniq-servers-api-openapi.yml
   format: yaml
   label: HorizonIQ Servers API
   slug: horizoniq-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-servers-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-servers-api-openapi.yml
 - filename: horizoniq-ssl-certificates-api-openapi.yml
   format: yaml
   label: HorizonIQ SSL Certificates API
   slug: horizoniq-ssl-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-ssl-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-ssl-certificates-api-openapi.yml
 - filename: horizoniq-support-api-openapi.yml
   format: yaml
   label: HorizonIQ Support API
   slug: horizoniq-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-support-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-support-api-openapi.yml
 - filename: horizoniq-user-accounts-api-openapi.yml
   format: yaml
   label: HorizonIQ User Accounts API
   slug: horizoniq-user-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/openapi/horizoniq-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/horizoniq/openapi/horizoniq-user-accounts-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 33
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/horizo
   \  method: patch\n  operationId: updateUsersByUserUUIDRoles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servers/{serverUUID}/reboot\n  method: post\n  operationId: createServersByServerUUIDReboot\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /servers/{serverUUID}/reinstall\n  method: post\n  operationId: createServersByServerUUIDReinstall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ssl-certificates/{certificateId}/finalize\n  method: post\n  operationId: createSslCertificatesByCertificateIdFinalize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ssl-certificates/{certificateId}/resend-approval\n  method: post\n  operationId: createSslCertificatesByCertificateIdResendApproval\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
   \  audit: required\n- path: /ssl-certificates/initialize\n  method: post\n  operationId: createSslCertificatesInitialize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/agentic-access/horizoniq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/horizoniq/agentic-access/horizoniq-agentic-access.yml
 summary_line: 54 operations · 21 acting · 2 human-in-the-loop
 tags:
 - Company

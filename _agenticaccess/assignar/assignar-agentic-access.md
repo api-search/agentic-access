@@ -9,151 +9,151 @@ api_specs:
   label: Assignar Activities API
   slug: assignar-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-activities-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-activities-api-openapi.yml
 - filename: assignar-allocations-api-openapi.yml
   format: yaml
   label: Assignar Allocations API
   slug: assignar-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-allocations-api-openapi.yml
 - filename: assignar-allowances-api-openapi.yml
   format: yaml
   label: Assignar Allowances API
   slug: assignar-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-allowances-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-allowances-api-openapi.yml
 - filename: assignar-asset-attachments-api-openapi.yml
   format: yaml
   label: Assignar Asset Attachments API
   slug: assignar-asset-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-asset-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-asset-attachments-api-openapi.yml
 - filename: assignar-asset-classes-api-openapi.yml
   format: yaml
   label: Assignar Asset Classes API
   slug: assignar-asset-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-asset-classes-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-asset-classes-api-openapi.yml
 - filename: assignar-assets-api-openapi.yml
   format: yaml
   label: Assignar Assets API
   slug: assignar-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-assets-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-assets-api-openapi.yml
 - filename: assignar-clients-api-openapi.yml
   format: yaml
   label: Assignar Clients API
   slug: assignar-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-clients-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-clients-api-openapi.yml
 - filename: assignar-contacts-api-openapi.yml
   format: yaml
   label: Assignar Contacts API
   slug: assignar-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-contacts-api-openapi.yml
 - filename: assignar-digitaldockets-api-openapi.yml
   format: yaml
   label: Assignar Digital Dockets API
   slug: assignar-digitaldockets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-digitaldockets-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-digitaldockets-api-openapi.yml
 - filename: assignar-documents-api-openapi.yml
   format: yaml
   label: Assignar Documents API
   slug: assignar-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-documents-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-documents-api-openapi.yml
 - filename: assignar-form-results-api-openapi.yml
   format: yaml
   label: Assignar Form Results API
   slug: assignar-form-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-form-results-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-form-results-api-openapi.yml
 - filename: assignar-invoices-api-openapi.yml
   format: yaml
   label: Assignar Invoices API
   slug: assignar-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-invoices-api-openapi.yml
 - filename: assignar-leave-requests-api-openapi.yml
   format: yaml
   label: Assignar Leave Requests API
   slug: assignar-leave-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-leave-requests-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-leave-requests-api-openapi.yml
 - filename: assignar-leave-types-api-openapi.yml
   format: yaml
   label: Assignar Leave Types API
   slug: assignar-leave-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-leave-types-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-leave-types-api-openapi.yml
 - filename: assignar-order-templates-api-openapi.yml
   format: yaml
   label: Assignar Order Templates API
   slug: assignar-order-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-order-templates-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-order-templates-api-openapi.yml
 - filename: assignar-orders-api-openapi.yml
   format: yaml
   label: Assignar Orders API
   slug: assignar-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-orders-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-orders-api-openapi.yml
 - filename: assignar-projects-api-openapi.yml
   format: yaml
   label: Assignar Projects API
   slug: assignar-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-projects-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-projects-api-openapi.yml
 - filename: assignar-site-diary-api-openapi.yml
   format: yaml
   label: Assignar Site Diary API
   slug: assignar-site-diary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-site-diary-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-site-diary-api-openapi.yml
 - filename: assignar-skills-competencies-api-openapi.yml
   format: yaml
   label: Assignar Skills & Competencies API
   slug: assignar-skills-competencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-skills-competencies-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-skills-competencies-api-openapi.yml
 - filename: assignar-suppliers-api-openapi.yml
   format: yaml
   label: Assignar Suppliers API
   slug: assignar-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-suppliers-api-openapi.yml
 - filename: assignar-tags-api-openapi.yml
   format: yaml
   label: Assignar Tags API
   slug: assignar-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-tags-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-tags-api-openapi.yml
 - filename: assignar-taskgroups-api-openapi.yml
   format: yaml
   label: Assignar Task Groups API
   slug: assignar-taskgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-taskgroups-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-taskgroups-api-openapi.yml
 - filename: assignar-tasks-api-openapi.yml
   format: yaml
   label: Assignar Tasks API
   slug: assignar-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-tasks-api-openapi.yml
 - filename: assignar-timesheets-api-openapi.yml
   format: yaml
   label: Assignar Timesheets API
   slug: assignar-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-timesheets-api-openapi.yml
 - filename: assignar-users-api-openapi.yml
   format: yaml
   label: Assignar Users API
   slug: assignar-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/openapi/assignar-users-api-openapi.yml
+  url: https://artifacts.apis.io/assignar/openapi/assignar-users-api-openapi.yml
 consequence_counts:
   physical: 24
   read: 102
@@ -342,8 +342,8 @@ source_yaml: "generated: '2026-09-26'\nmethod: generated\nsource: openapi/assign
   \  method: get\n  operationId: getOrderAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n- path: /orders/{orderId}/attachments\n  method: post\n  operationId: postOrderAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n- path: /orders/{orderId}/attachments/{orderAttachmentId}\n  method: delete\n  operationId: deleteOrderAttachments\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n- path: /orders/{orderId}/contacts\n  method: get\n  operationId: getOrderContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n- path: /orders/{orderId}/contacts\n  method: post\n  operationId: postOrderContact\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n- path: /orders/{orderId}/contacts/{orderContactId}\n  method: delete\n  operationId: deleteOrderContact\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n- path: /order-types\n  method: get\n  operationId: getOrderTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n- path: /order-types/{orderTypeId}\n  method: get\n  operationId:\
-  \ getOrderType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n- path: /order-statuses\n  method: get\n  operationId: getOrderStatuses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n\n\n# --- truncated at 32 KB (72 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/agentic-access/assignar-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/agentic-access/assignar-agentic-access.yml
+  \ getOrderType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n- path: /order-statuses\n  method: get\n  operationId: getOrderStatuses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - target-entity:b816a5d3-40c3-477f-a551-1d066d7211cc:api_access\n\n\n# --- truncated at 32 KB (72 KB total) ---\n# Full source: https://artifacts.apis.io/assignar/agentic-access/assignar-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/assignar/agentic-access/assignar-agentic-access.yml
 summary_line: 208 operations · 106 acting · 15 human-in-the-loop
 tags:
 - Construction

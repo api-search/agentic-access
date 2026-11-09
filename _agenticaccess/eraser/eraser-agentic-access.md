@@ -9,43 +9,43 @@ api_specs:
   label: Eraser AI Requests API
   slug: eraser-ai-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-ai-requests-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-ai-requests-api-openapi.yml
 - filename: eraser-audit-logs-api-openapi.yml
   format: yaml
   label: Eraser Audit Logs API
   slug: eraser-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-audit-logs-api-openapi.yml
 - filename: eraser-diagram-elements-api-openapi.yml
   format: yaml
   label: Eraser Diagram Elements API
   slug: eraser-diagram-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-diagram-elements-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-diagram-elements-api-openapi.yml
 - filename: eraser-diagrams-ai-api-openapi.yml
   format: yaml
   label: Eraser Diagrams (AI) API
   slug: eraser-diagrams-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-diagrams-ai-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-diagrams-ai-api-openapi.yml
 - filename: eraser-files-api-openapi.yml
   format: yaml
   label: Eraser Files API
   slug: eraser-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-files-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-files-api-openapi.yml
 - filename: eraser-folders-api-openapi.yml
   format: yaml
   label: Eraser Folders API
   slug: eraser-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-folders-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-folders-api-openapi.yml
 - filename: eraser-usage-metrics-api-openapi.yml
   format: yaml
   label: Eraser Usage Metrics API
   slug: eraser-usage-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/openapi/eraser-usage-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/eraser/openapi/eraser-usage-metrics-api-openapi.yml
 consequence_counts:
   read: 9
   write: 11
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eraser
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/files/{fileId}/diagrams/{diagramId}\n  method: delete\n  operationId: deleteDiagram\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/folders\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/folders\n  method: get\n  operationId: listFolders\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/folders/{folderId}\n  method: get\n  operationId: getFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/folders/{folderId}\n  method: put\n  operationId: updateFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/folders/{folderId}\n  method: delete\n  operationId: deleteFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/audit-logs\n  method: get\n  operationId: getAuditLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/reports/usage\n  method: get\n  operationId: getUsageMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/agentic-access/eraser-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eraser/agentic-access/eraser-agentic-access.yml
 summary_line: 20 operations · 11 acting
 tags:
 - Diagramming

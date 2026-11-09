@@ -9,85 +9,85 @@ api_specs:
   label: Algorand Common API
   slug: algorand-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-common-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-common-api-openapi.yml
 - filename: algorand-key-api-openapi.yml
   format: yaml
   label: Algorand Key API
   slug: algorand-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-key-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-key-api-openapi.yml
 - filename: algorand-lookup-api-openapi.yml
   format: yaml
   label: Algorand Lookup API
   slug: algorand-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-lookup-api-openapi.yml
 - filename: algorand-master-key-api-openapi.yml
   format: yaml
   label: Algorand Master Key API
   slug: algorand-master-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-master-key-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-master-key-api-openapi.yml
 - filename: algorand-multisig-api-openapi.yml
   format: yaml
   label: Algorand Multisig API
   slug: algorand-multisig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-multisig-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-multisig-api-openapi.yml
 - filename: algorand-private-api-openapi.yml
   format: yaml
   label: Algorand Private API
   slug: algorand-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-private-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-private-api-openapi.yml
 - filename: algorand-program-api-openapi.yml
   format: yaml
   label: Algorand Program API
   slug: algorand-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-program-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-program-api-openapi.yml
 - filename: algorand-public-api-openapi.yml
   format: yaml
   label: Algorand Public API
   slug: algorand-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-public-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-public-api-openapi.yml
 - filename: algorand-search-api-openapi.yml
   format: yaml
   label: Algorand Search API
   slug: algorand-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-search-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-search-api-openapi.yml
 - filename: algorand-swagger-json-api-openapi.yml
   format: yaml
   label: Algorand Swagger.json API
   slug: algorand-swagger-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-swagger-json-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-swagger-json-api-openapi.yml
 - filename: algorand-transaction-api-openapi.yml
   format: yaml
   label: Algorand Transaction API
   slug: algorand-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-transaction-api-openapi.yml
 - filename: algorand-versions-api-openapi.yml
   format: yaml
   label: Algorand Versions API
   slug: algorand-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-versions-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-versions-api-openapi.yml
 - filename: algorand-wallet-api-openapi.yml
   format: yaml
   label: Algorand Wallet API
   slug: algorand-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-wallet-api-openapi.yml
 - filename: algorand-wallets-api-openapi.yml
   format: yaml
   label: Algorand Wallets API
   slug: algorand-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/openapi/algorand-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/algorand/openapi/algorand-wallets-api-openapi.yml
 consequence_counts:
   read: 66
   safety-critical: 1
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/algora
   \    audit: required\n- path: /versions\n  method: get\n  operationId: GetVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/wallet\n  method: post\n  operationId: CreateWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallet/info\n  method: post\n  operationId: GetWalletInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/wallet/init\n  method: post\n  operationId: InitWalletHandleToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallet/release\n  method: post\n  operationId: ReleaseWalletHandleToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallet/rename\n  method: post\n  operationId: RenameWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallet/renew\n  method: post\n  operationId: RenewWalletHandleToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallets\n  method: get\n  operationId: ListWallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/agentic-access/algorand-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/algorand/agentic-access/algorand-agentic-access.yml
 summary_line: 100 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Blockchain

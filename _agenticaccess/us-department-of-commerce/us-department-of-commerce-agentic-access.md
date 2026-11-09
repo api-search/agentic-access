@@ -8,19 +8,19 @@ api_specs:
   label: US Department of Commerce Blogs API
   slug: us-department-of-commerce-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/us-department-of-commerce-blogs-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-commerce/openapi/us-department-of-commerce-blogs-api-openapi.yml
 - filename: us-department-of-commerce-images-api-openapi.yml
   format: yaml
   label: US Department of Commerce Images API
   slug: us-department-of-commerce-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/us-department-of-commerce-images-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-commerce/openapi/us-department-of-commerce-images-api-openapi.yml
 - filename: us-department-of-commerce-news-api-openapi.yml
   format: yaml
   label: US Department of Commerce News API
   slug: us-department-of-commerce-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/us-department-of-commerce-news-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-commerce/openapi/us-department-of-commerce-news-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/commerce-gov-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /api/news\n  method: get\n  operationId: listNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/news/{id}\n  method: get\n  operationId: getNewsArticle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/blog\n  method: get\n  operationId: listBlogs\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/blog/{id}\n  method: get\n  operationId: getBlogPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/image\n  method: get\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/agentic-access/us-department-of-commerce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-department-of-commerce/agentic-access/us-department-of-commerce-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Commerce

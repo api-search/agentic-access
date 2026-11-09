@@ -9,133 +9,145 @@ api_specs:
   label: Boxc CalculateDuty API
   slug: boxc-calculateduty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-calculateduty-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-calculateduty-api-openapi.yml
 - filename: boxc-classify-api-openapi.yml
   format: yaml
   label: Boxc Classify API
   slug: boxc-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-classify-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-classify-api-openapi.yml
 - filename: boxc-credentials-api-openapi.yml
   format: yaml
   label: Boxc Credentials API
   slug: boxc-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-credentials-api-openapi.yml
 - filename: boxc-customsproducts-api-openapi.yml
   format: yaml
   label: Boxc CustomsProducts API
   slug: boxc-customsproducts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-customsproducts-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-customsproducts-api-openapi.yml
 - filename: boxc-estimate-api-openapi.yml
   format: yaml
   label: Boxc Estimate API
   slug: boxc-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-estimate-api-openapi.yml
 - filename: boxc-inbound-api-openapi.yml
   format: yaml
   label: Boxc Inbound API
   slug: boxc-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-inbound-api-openapi.yml
 - filename: boxc-invoices-api-openapi.yml
   format: yaml
   label: Boxc Invoices API
   slug: boxc-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-invoices-api-openapi.yml
 - filename: boxc-labels-api-openapi.yml
   format: yaml
   label: Boxc Labels API
   slug: boxc-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-labels-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-labels-api-openapi.yml
 - filename: boxc-manifests-api-openapi.yml
   format: yaml
   label: Boxc Manifests API
   slug: boxc-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-manifests-api-openapi.yml
 - filename: boxc-orders-api-openapi.yml
   format: yaml
   label: Boxc Orders API
   slug: boxc-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-orders-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-orders-api-openapi.yml
 - filename: boxc-overpacks-api-openapi.yml
   format: yaml
   label: Boxc Overpacks API
   slug: boxc-overpacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-overpacks-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-overpacks-api-openapi.yml
 - filename: boxc-products-api-openapi.yml
   format: yaml
   label: Boxc Products API
   slug: boxc-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-products-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-products-api-openapi.yml
 - filename: boxc-reshipments-api-openapi.yml
   format: yaml
   label: Boxc Reshipments API
   slug: boxc-reshipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-reshipments-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-reshipments-api-openapi.yml
 - filename: boxc-returns-api-openapi.yml
   format: yaml
   label: Boxc Returns API
   slug: boxc-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-returns-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-returns-api-openapi.yml
 - filename: boxc-shipments-api-openapi.yml
   format: yaml
   label: Boxc Shipments API
   slug: boxc-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-shipments-api-openapi.yml
 - filename: boxc-shops-api-openapi.yml
   format: yaml
   label: Boxc Shops API
   slug: boxc-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-shops-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-shops-api-openapi.yml
 - filename: boxc-track-api-openapi.yml
   format: yaml
   label: Boxc Track API
   slug: boxc-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-track-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-track-api-openapi.yml
 - filename: boxc-users-api-openapi.yml
   format: yaml
   label: Boxc Users API
   slug: boxc-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-users-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-users-api-openapi.yml
 - filename: boxc-warehouses-api-openapi.yml
   format: yaml
   label: Boxc Warehouses API
   slug: boxc-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-warehouses-api-openapi.yml
 - filename: boxc-webhooks-api-openapi.yml
   format: yaml
   label: Boxc Webhooks API
   slug: boxc-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-webhooks-api-openapi.yml
+- filename: boxc-pga-api-openapi.yml
+  format: yaml
+  label: Boxc PGA API
+  slug: boxc-pga-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/boxc/openapi/boxc-pga-api-openapi.yml
+- filename: boxc-waybills-api-openapi.yml
+  format: yaml
+  label: Boxc Waybills API
+  slug: boxc-waybills-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/boxc/openapi/boxc-waybills-api-openapi.yml
 - filename: boxc-entry-points-api-openapi.yml
   format: yaml
   label: Boxc Entry Points API
   slug: boxc-entry-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-entry-points-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-entry-points-api-openapi.yml
 - filename: boxc-validate-address-api-openapi.yml
   format: yaml
   label: Boxc Validate Address API
   slug: boxc-validate-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-validate-address-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-validate-address-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 34
@@ -245,7 +257,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/boxc-o
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validate-address\n  method: post\n  operationId: validateAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - validate\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /warehouses\n  method: get\n  operationId: getWarehouses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /warehouses/{id}\n  method: get\n  operationId: getWarehousesById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - read_webhooks\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: addWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhooksById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read_webhooks\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_webhooks\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/queue\n  method: post\n  operationId: addWebhookEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/agentic-access/boxc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/boxc/agentic-access/boxc-agentic-access.yml
 summary_line: 83 operations · 49 acting
 tags:
 - Company

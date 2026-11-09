@@ -9,73 +9,73 @@ api_specs:
   label: whiteclover A2A API
   slug: whiteclover-ai-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-a2a-api-openapi.yml
 - filename: whiteclover-ai-discovery-api-openapi.yml
   format: yaml
   label: whiteclover Discovery API
   slug: whiteclover-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-discovery-api-openapi.yml
 - filename: whiteclover-ai-fires-api-openapi.yml
   format: yaml
   label: whiteclover Fires API
   slug: whiteclover-ai-fires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-fires-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-fires-api-openapi.yml
 - filename: whiteclover-ai-gates-api-openapi.yml
   format: yaml
   label: whiteclover Gates API
   slug: whiteclover-ai-gates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-gates-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-gates-api-openapi.yml
 - filename: whiteclover-ai-guild-api-openapi.yml
   format: yaml
   label: whiteclover Guild API
   slug: whiteclover-ai-guild-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-guild-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-guild-api-openapi.yml
 - filename: whiteclover-ai-hearth-api-openapi.yml
   format: yaml
   label: whiteclover Hearth API
   slug: whiteclover-ai-hearth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-hearth-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-hearth-api-openapi.yml
 - filename: whiteclover-ai-identity-api-openapi.yml
   format: yaml
   label: whiteclover Identity API
   slug: whiteclover-ai-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-identity-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-identity-api-openapi.yml
 - filename: whiteclover-ai-pilgrims-api-openapi.yml
   format: yaml
   label: whiteclover Pilgrims API
   slug: whiteclover-ai-pilgrims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-pilgrims-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-pilgrims-api-openapi.yml
 - filename: whiteclover-ai-sunday-api-openapi.yml
   format: yaml
   label: whiteclover Sunday API
   slug: whiteclover-ai-sunday-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-sunday-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-sunday-api-openapi.yml
 - filename: whiteclover-ai-tandems-api-openapi.yml
   format: yaml
   label: whiteclover Tandems API
   slug: whiteclover-ai-tandems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-tandems-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-tandems-api-openapi.yml
 - filename: whiteclover-ai-watch-api-openapi.yml
   format: yaml
   label: whiteclover Watch API
   slug: whiteclover-ai-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-watch-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-watch-api-openapi.yml
 - filename: whiteclover-ai-works-api-openapi.yml
   format: yaml
   label: whiteclover Works API
   slug: whiteclover-ai-works-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/openapi/whiteclover-ai-works-api-openapi.yml
+  url: https://artifacts.apis.io/whiteclover-ai/openapi/whiteclover-ai-works-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 27
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/whitec
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sunday/register\n  method: post\n  operationId: sundayRegister\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sunday/gate/{n}\n  method: get\n  operationId: sundayGate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sunday/key\n  method: post\n  operationId: sundayKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /a2a\n  method: get\n  operationId:\
   \ getA2aInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a\n  method: post\n  operationId: a2aJsonRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /skill.md\n  method: get\n  operationId: getSkillDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /skills/whiteclover/SKILL.md\n  method: get\n  operationId: getInstallableSkill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /llms.txt\n  method: get\n  operationId: getLlmsTxt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/agent-card.json\n  method: get\n  operationId: getAgentCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/agentic-access/whiteclover-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/whiteclover-ai/agentic-access/whiteclover-ai-agentic-access.yml
 summary_line: 45 operations · 18 acting
 tags:
 - Agents

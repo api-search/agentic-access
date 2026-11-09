@@ -9,157 +9,157 @@ api_specs:
   label: Compresr Admin API
   slug: compresr-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-admin-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-admin-api-openapi.yml
 - filename: compresr-admin-whitelist-api-openapi.yml
   format: yaml
   label: Compresr Admin - Whitelist API
   slug: compresr-admin-whitelist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-admin-whitelist-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-admin-whitelist-api-openapi.yml
 - filename: compresr-api-keys-api-openapi.yml
   format: yaml
   label: Compresr API Keys API
   slug: compresr-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-api-keys-api-openapi.yml
 - filename: compresr-auth-api-openapi.yml
   format: yaml
   label: Compresr Auth API
   slug: compresr-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-auth-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-auth-api-openapi.yml
 - filename: compresr-billing-api-openapi.yml
   format: yaml
   label: Compresr Billing API
   slug: compresr-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-billing-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-billing-api-openapi.yml
 - filename: compresr-compresr-platform-api-api-openapi.yml
   format: yaml
   label: Compresr Platform API
   slug: compresr-compresr-platform-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-compresr-platform-api-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-compresr-platform-api-api-openapi.yml
 - filename: compresr-compression-agentic-api-openapi.yml
   format: yaml
   label: Compresr Compression-Agentic API
   slug: compresr-compression-agentic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-compression-agentic-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-compression-agentic-api-openapi.yml
 - filename: compresr-compression-api-openapi.yml
   format: yaml
   label: Compresr Compression API
   slug: compresr-compression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-compression-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-compression-api-openapi.yml
 - filename: compresr-compression-demo-api-openapi.yml
   format: yaml
   label: Compresr Compression-Demo API
   slug: compresr-compression-demo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-compression-demo-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-compression-demo-api-openapi.yml
 - filename: compresr-compression-models-api-openapi.yml
   format: yaml
   label: Compresr Compression-Models API
   slug: compresr-compression-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-compression-models-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-compression-models-api-openapi.yml
 - filename: compresr-dashboard-api-openapi.yml
   format: yaml
   label: Compresr Dashboard API
   slug: compresr-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-dashboard-api-openapi.yml
 - filename: compresr-feature-requests-api-openapi.yml
   format: yaml
   label: Compresr Feature Requests API
   slug: compresr-feature-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-feature-requests-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-feature-requests-api-openapi.yml
 - filename: compresr-gateway-api-openapi.yml
   format: yaml
   label: Compresr Gateway API
   slug: compresr-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-gateway-api-openapi.yml
 - filename: compresr-health-api-openapi.yml
   format: yaml
   label: Compresr Health API
   slug: compresr-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-health-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-health-api-openapi.yml
 - filename: compresr-inference-api-openapi.yml
   format: yaml
   label: Compresr Inference API
   slug: compresr-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-inference-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-inference-api-openapi.yml
 - filename: compresr-logs-api-openapi.yml
   format: yaml
   label: Compresr Logs API
   slug: compresr-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-logs-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-logs-api-openapi.yml
 - filename: compresr-metrics-api-openapi.yml
   format: yaml
   label: Compresr Metrics API
   slug: compresr-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-metrics-api-openapi.yml
 - filename: compresr-newsletter-api-openapi.yml
   format: yaml
   label: Compresr Newsletter API
   slug: compresr-newsletter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-newsletter-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-newsletter-api-openapi.yml
 - filename: compresr-oauth-authorization-api-openapi.yml
   format: yaml
   label: Compresr OAuth Authorization API
   slug: compresr-oauth-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-oauth-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-oauth-authorization-api-openapi.yml
 - filename: compresr-on-prem-api-openapi.yml
   format: yaml
   label: Compresr On-Prem API
   slug: compresr-on-prem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-on-prem-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-on-prem-api-openapi.yml
 - filename: compresr-on-prem-telemetry-api-openapi.yml
   format: yaml
   label: Compresr On-Prem Telemetry API
   slug: compresr-on-prem-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-on-prem-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-on-prem-telemetry-api-openapi.yml
 - filename: compresr-pricing-api-openapi.yml
   format: yaml
   label: Compresr Pricing API
   slug: compresr-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-pricing-api-openapi.yml
 - filename: compresr-profile-api-openapi.yml
   format: yaml
   label: Compresr Profile API
   slug: compresr-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-profile-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-profile-api-openapi.yml
 - filename: compresr-ready-api-openapi.yml
   format: yaml
   label: Compresr Ready API
   slug: compresr-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-ready-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-ready-api-openapi.yml
 - filename: compresr-usage-api-openapi.yml
   format: yaml
   label: Compresr Usage API
   slug: compresr-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-usage-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-usage-api-openapi.yml
 - filename: compresr-oauth-api-openapi.yml
   format: yaml
   label: Compresr O Auth API
   slug: compresr-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/compresr/openapi/compresr-oauth-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 79
@@ -238,8 +238,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/compre
   \    audit: required\n- path: /api/newsletter/unsubscribe\n  method: get\n  operationId: unsubscribe_via_link_api_newsletter_unsubscribe_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/newsletter/status\n  method: get\n  operationId: get_subscription_status_api_newsletter_status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/feature/request\n  method: post\n  operationId: submit_feature_request_api_feature_request_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/feature/admin/requests\n  method: get\n  operationId:\
   \ list_feature_requests_api_feature_admin_requests_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/feature/admin/requests/{request_id}\n  method: get\n  operationId: get_feature_request_api_feature_admin_requests__request_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/feature/admin/requests/{request_id}\n  method: patch\n  operationId: update_feature_request_api_feature_admin_requests__request_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/feature/admin/requests/{request_id}\n  method: delete\n  operationId:\
   \ delete_feature_request_api_feature_admin_requests__request_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/jobs/admin\n  method: get\n  operationId: admin_list_jobs_api_jobs_admin_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/jobs/admin\n  method: post\n  operationId: admin_create_job_api_jobs_admin_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/jobs/admin/applications\n  method:\
-  \ get\n  operationId: admin_list_applications_api_jobs_admin_applications_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/jobs/admin/applications/{application_id}/cv/download\n  method: get\n  operationId: admin_download_cv_api_jobs_admin_applications__application_id__cv_download_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/agentic-access/compresr-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/agentic-access/compresr-agentic-access.yml
+  \ get\n  operationId: admin_list_applications_api_jobs_admin_applications_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/jobs/admin/applications/{application_id}/cv/download\n  method: get\n  operationId: admin_download_cv_api_jobs_admin_applications__application_id__cv_download_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://artifacts.apis.io/compresr/agentic-access/compresr-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/compresr/agentic-access/compresr-agentic-access.yml
 summary_line: 142 operations · 63 acting · 1 human-in-the-loop
 tags:
 - LLM

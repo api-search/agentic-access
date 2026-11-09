@@ -9,67 +9,67 @@ api_specs:
   label: Travelport Booking API
   slug: travelport-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-booking-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-booking-api-openapi.yml
 - filename: travelport-emds-api-openapi.yml
   format: yaml
   label: Travelport EMDs API
   slug: travelport-emds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-emds-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-emds-api-openapi.yml
 - filename: travelport-fare-rules-api-openapi.yml
   format: yaml
   label: Travelport Fare Rules API
   slug: travelport-fare-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-fare-rules-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-fare-rules-api-openapi.yml
 - filename: travelport-modifications-api-openapi.yml
   format: yaml
   label: Travelport Modifications API
   slug: travelport-modifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-modifications-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-modifications-api-openapi.yml
 - filename: travelport-pricing-api-openapi.yml
   format: yaml
   label: Travelport Pricing API
   slug: travelport-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-pricing-api-openapi.yml
 - filename: travelport-queues-api-openapi.yml
   format: yaml
   label: Travelport Queues API
   slug: travelport-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-queues-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-queues-api-openapi.yml
 - filename: travelport-reservations-api-openapi.yml
   format: yaml
   label: Travelport Reservations API
   slug: travelport-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-reservations-api-openapi.yml
 - filename: travelport-search-api-openapi.yml
   format: yaml
   label: Travelport Search API
   slug: travelport-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-search-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-search-api-openapi.yml
 - filename: travelport-seats-and-ancillaries-api-openapi.yml
   format: yaml
   label: Travelport Seats and Ancillaries API
   slug: travelport-seats-and-ancillaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-seats-and-ancillaries-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-seats-and-ancillaries-api-openapi.yml
 - filename: travelport-ticketing-api-openapi.yml
   format: yaml
   label: Travelport Ticketing API
   slug: travelport-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-ticketing-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-ticketing-api-openapi.yml
 - filename: travelport-workbench-api-openapi.yml
   format: yaml
   label: Travelport Workbench API
   slug: travelport-workbench-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/openapi/travelport-workbench-api-openapi.yml
+  url: https://artifacts.apis.io/travelport/openapi/travelport-workbench-api-openapi.yml
 consequence_counts:
   read: 12
   write: 18
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/travel
   \ put\n  operationId: putAirTicketTicketsUpdatestatusByIdentifier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/void\n  method: post\n  operationId: postDocumentsVoid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /air/book/session/reservationworkbench\n  method: post\n  operationId: postAirBookSessionReservationworkbench\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /air/book/session/reservationworkbench/buildfromlocator\n  method: post\n  operationId: postAirBookSessionReservationworkbenchBuildfromlocator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /air/book/session/reservationworkbench/{Identifier}\n  method: get\n  operationId: getAirBookSessionReservationworkbenchByIdentifier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /air/book/session/reservationworkbench/{Identifier}\n  method: delete\n  operationId: deleteAirBookSessionReservationworkbenchByIdentifier\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/agentic-access/travelport-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/travelport/agentic-access/travelport-agentic-access.yml
 summary_line: 30 operations · 18 acting
 tags:
 - Travel

@@ -9,25 +9,25 @@ api_specs:
   label: Allianz Trade Claims API
   slug: allianz-trade-online-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-claims-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-trade-online/openapi/allianz-trade-online-claims-api-openapi.yml
 - filename: allianz-trade-online-company-grade-api-openapi.yml
   format: yaml
   label: Allianz Trade Company Grade API
   slug: allianz-trade-online-company-grade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-company-grade-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-trade-online/openapi/allianz-trade-online-company-grade-api-openapi.yml
 - filename: allianz-trade-online-payment-overdues-api-openapi.yml
   format: yaml
   label: Allianz Trade Payment Overdues API
   slug: allianz-trade-online-payment-overdues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-payment-overdues-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-trade-online/openapi/allianz-trade-online-payment-overdues-api-openapi.yml
 - filename: allianz-trade-online-policy-api-openapi.yml
   format: yaml
   label: Allianz Trade Policy API
   slug: allianz-trade-online-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-policy-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-trade-online/openapi/allianz-trade-online-policy-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 13
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/allian
   \ reportOverdue\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /overdues/{overdueId}\n  method: get\n  operationId: getOverdue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/{policyId}\n\
   \  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/{policyId}/joint-insureds\n  method: get\n  operationId: listJointInsureds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/{policyId}/joint-insureds\n  method: post\n  operationId: addJointInsured\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{jobId}\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/agentic-access/allianz-trade-online-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/allianz-trade-online/agentic-access/allianz-trade-online-agentic-access.yml
 summary_line: 17 operations · 4 acting
 tags:
 - Credit Insurance

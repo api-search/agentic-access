@@ -9,19 +9,19 @@ api_specs:
   label: Code Ocean Capsules API
   slug: code-ocean-capsules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-capsules-api-openapi.yml
+  url: https://artifacts.apis.io/code-ocean/openapi/code-ocean-capsules-api-openapi.yml
 - filename: code-ocean-computations-api-openapi.yml
   format: yaml
   label: Code Ocean Computations API
   slug: code-ocean-computations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-computations-api-openapi.yml
+  url: https://artifacts.apis.io/code-ocean/openapi/code-ocean-computations-api-openapi.yml
 - filename: code-ocean-data-assets-api-openapi.yml
   format: yaml
   label: Code Ocean Data Assets API
   slug: code-ocean-data-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-data-assets-api-openapi.yml
+  url: https://artifacts.apis.io/code-ocean/openapi/code-ocean-data-assets-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/code-o
   \ /data_assets/{data_asset_id}\n  method: put\n  operationId: updateDataAssetMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data_assets/{data_asset_id}\n  method: delete\n  operationId: deleteDataAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data_assets/{data_asset_id}/archive\n  method: patch\n  operationId: archiveDataAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data_assets/search\n  method: post\n  operationId: searchDataAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data_assets/{data_asset_id}/permissions\n  method: post\n  operationId: updateDataAssetPermissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data_assets/{data_asset_id}/transfer\n  method: post\n  operationId: transferDataAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data_assets/{data_asset_id}/files\n  method: post\n  operationId: listDataAssetFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data_assets/{data_asset_id}/files/urls\n  method: get\n  operationId: getDataAssetFileURLs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/agentic-access/code-ocean-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/code-ocean/agentic-access/code-ocean-agentic-access.yml
 summary_line: 26 operations · 14 acting
 tags:
 - Company

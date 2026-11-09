@@ -8,55 +8,55 @@ api_specs:
   label: Giant Bomb Characters API
   slug: giantbomb-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/openapi/giantbomb-characters-api-openapi.yml
+  url: https://artifacts.apis.io/giantbomb/openapi/giantbomb-characters-api-openapi.yml
 - filename: giantbomb-companies-api-openapi.yml
   format: yaml
   label: Giant Bomb Companies API
   slug: giantbomb-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/openapi/giantbomb-companies-api-openapi.yml
+  url: https://artifacts.apis.io/giantbomb/openapi/giantbomb-companies-api-openapi.yml
 - filename: giantbomb-franchises-api-openapi.yml
   format: yaml
   label: Giant Bomb Franchises API
   slug: giantbomb-franchises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/openapi/giantbomb-franchises-api-openapi.yml
+  url: https://artifacts.apis.io/giantbomb/openapi/giantbomb-franchises-api-openapi.yml
 - filename: giantbomb-games-api-openapi.yml
   format: yaml
   label: Giant Bomb Games API
   slug: giantbomb-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/openapi/giantbomb-games-api-openapi.yml
+  url: https://artifacts.apis.io/giantbomb/openapi/giantbomb-games-api-openapi.yml
 - filename: giantbomb-platforms-api-openapi.yml
   format: yaml
   label: Giant Bomb Platforms API
   slug: giantbomb-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/openapi/giantbomb-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/giantbomb/openapi/giantbomb-platforms-api-openapi.yml
 - filename: giantbomb-releases-api-openapi.yml
   format: yaml
   label: Giant Bomb Releases API
   slug: giantbomb-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/openapi/giantbomb-releases-api-openapi.yml
+  url: https://artifacts.apis.io/giantbomb/openapi/giantbomb-releases-api-openapi.yml
 - filename: giantbomb-reviews-api-openapi.yml
   format: yaml
   label: Giant Bomb Reviews API
   slug: giantbomb-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/openapi/giantbomb-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/giantbomb/openapi/giantbomb-reviews-api-openapi.yml
 - filename: giantbomb-search-api-openapi.yml
   format: yaml
   label: Giant Bomb Search API
   slug: giantbomb-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/openapi/giantbomb-search-api-openapi.yml
+  url: https://artifacts.apis.io/giantbomb/openapi/giantbomb-search-api-openapi.yml
 - filename: giantbomb-videos-api-openapi.yml
   format: yaml
   label: Giant Bomb Videos API
   slug: giantbomb-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/openapi/giantbomb-videos-api-openapi.yml
+  url: https://artifacts.apis.io/giantbomb/openapi/giantbomb-videos-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ get\n  operationId: getCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /franchises/\n  method: get\n  operationId: getFranchises\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /franchise/{guid}/\n  method: get\n  operationId: getFranchise\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reviews/\n  method: get\n  operationId: getReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /review/{guid}/\n  method: get\n  operationId: getReview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /videos/\n  method: get\n  operationId: getVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video/{guid}/\n  method: get\n  operationId: getVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /releases/\n  method: get\n  operationId: getReleases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /release/{guid}/\n  method: get\n  operationId: getRelease\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/agentic-access/giantbomb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/giantbomb/agentic-access/giantbomb-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Entertainment

@@ -9,61 +9,61 @@ api_specs:
   label: Blend Borrowers & Parties API
   slug: blend-mortgage-borrowers-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-borrowers-parties-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-borrowers-parties-api-openapi.yml
 - filename: blend-mortgage-closings-esignature-api-openapi.yml
   format: yaml
   label: Blend Closings & eSignature API
   slug: blend-mortgage-closings-esignature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-closings-esignature-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-closings-esignature-api-openapi.yml
 - filename: blend-mortgage-consumer-lending-deposit-api-openapi.yml
   format: yaml
   label: Blend Consumer Lending & Deposit API
   slug: blend-mortgage-consumer-lending-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-consumer-lending-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-consumer-lending-deposit-api-openapi.yml
 - filename: blend-mortgage-documents-disclosures-api-openapi.yml
   format: yaml
   label: Blend Documents & Disclosures API
   slug: blend-mortgage-documents-disclosures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-documents-disclosures-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-documents-disclosures-api-openapi.yml
 - filename: blend-mortgage-events-webhooks-api-openapi.yml
   format: yaml
   label: Blend Events & Webhooks API
   slug: blend-mortgage-events-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-events-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-events-webhooks-api-openapi.yml
 - filename: blend-mortgage-follow-ups-api-openapi.yml
   format: yaml
   label: Blend Follow-ups API
   slug: blend-mortgage-follow-ups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-follow-ups-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-follow-ups-api-openapi.yml
 - filename: blend-mortgage-home-lending-applications-api-openapi.yml
   format: yaml
   label: Blend Home Lending Applications API
   slug: blend-mortgage-home-lending-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-home-lending-applications-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-home-lending-applications-api-openapi.yml
 - filename: blend-mortgage-lenders-assignments-api-openapi.yml
   format: yaml
   label: Blend Lenders & Assignments API
   slug: blend-mortgage-lenders-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-lenders-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-lenders-assignments-api-openapi.yml
 - filename: blend-mortgage-products-pricing-api-openapi.yml
   format: yaml
   label: Blend Products & Pricing API
   slug: blend-mortgage-products-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-products-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-products-pricing-api-openapi.yml
 - filename: blend-mortgage-reporting-api-openapi.yml
   format: yaml
   label: Blend Reporting API
   slug: blend-mortgage-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/openapi/blend-mortgage-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/blend-mortgage/openapi/blend-mortgage-reporting-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 27
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blend-
   \  operationId: listDepositAccountApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deposit-accounts/products\n  method: get\n  operationId: listDepositAccountProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lenders\n  method: get\n  operationId: listLenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lenders\n  method: post\n  operationId: createLenders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lenders\n\
   \  method: patch\n  operationId: updateLenders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lenders\n  method: delete\n  operationId: removeLenders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{id}/assignments\n  method: get\n  operationId: listAssignments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{id}/assignments\n  method: put\n  operationId: overrideAssignments\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /reports/loans\n  method: get\n  operationId: getLoansReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/lenders\n  method: get\n  operationId: getLendersReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/borrowers\n  method: get\n  operationId: getBorrowersReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/agentic-access/blend-mortgage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blend-mortgage/agentic-access/blend-mortgage-agentic-access.yml
 summary_line: 52 operations · 25 acting · 1 human-in-the-loop
 tags:
 - Digital Lending

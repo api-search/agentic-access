@@ -9,31 +9,31 @@ api_specs:
   label: Waxell Cost Management API
   slug: waxell-cost-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-cost-management-api-openapi.yml
+  url: https://artifacts.apis.io/waxell/openapi/waxell-cost-management-api-openapi.yml
 - filename: waxell-governance-api-openapi.yml
   format: yaml
   label: Waxell Governance API
   slug: waxell-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-governance-api-openapi.yml
+  url: https://artifacts.apis.io/waxell/openapi/waxell-governance-api-openapi.yml
 - filename: waxell-prompts-api-openapi.yml
   format: yaml
   label: Waxell Prompts API
   slug: waxell-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/waxell/openapi/waxell-prompts-api-openapi.yml
 - filename: waxell-runs-api-openapi.yml
   format: yaml
   label: Waxell Runs API
   slug: waxell-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-runs-api-openapi.yml
+  url: https://artifacts.apis.io/waxell/openapi/waxell-runs-api-openapi.yml
 - filename: waxell-telemetry-api-openapi.yml
   format: yaml
   label: Waxell Telemetry API
   slug: waxell-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/openapi/waxell-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/waxell/openapi/waxell-telemetry-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 2
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/waxell
   \ audit: required\n- path: /api/v1/observe/runs/{run_id}/spans/\n  method: post\n  operationId: recordSpan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/observe/runs/{run_id}/scores/\n  method: post\n  operationId: recordScore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/observe/prompts/{name}/\n  method: get\n  operationId: getPrompt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/observe/policy-check/\n\
   \  method: post\n  operationId: checkPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/observe/events/\n  method: post\n  operationId: recordEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/observe/model-costs/\n  method: get\n  operationId: listModelCosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/observe/model-costs/{model_id}/\n  method: put\n  operationId: setModelCost\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/observe/model-costs/{model_id}/\n  method: delete\n  operationId: deleteModelCost\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/agentic-access/waxell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/waxell/agentic-access/waxell-agentic-access.yml
 summary_line: 12 operations · 10 acting · 2 human-in-the-loop
 tags:
 - AI Agent Governance

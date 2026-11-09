@@ -9,49 +9,49 @@ api_specs:
   label: Coyote Logistics Associated Entities API
   slug: coyote-associated-entities-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-associated-entities-api-api-openapi.yml
+  url: https://artifacts.apis.io/coyote/openapi/coyote-associated-entities-api-api-openapi.yml
 - filename: coyote-carrier-available-load-apis-api-openapi.yml
   format: yaml
   label: Coyote Logistics Carrier - Available Load APIs API
   slug: coyote-carrier-available-load-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-carrier-available-load-apis-api-openapi.yml
+  url: https://artifacts.apis.io/coyote/openapi/coyote-carrier-available-load-apis-api-openapi.yml
 - filename: coyote-carrier-booking-apis-api-openapi.yml
   format: yaml
   label: Coyote Logistics Carrier - Booking APIs API
   slug: coyote-carrier-booking-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-carrier-booking-apis-api-openapi.yml
+  url: https://artifacts.apis.io/coyote/openapi/coyote-carrier-booking-apis-api-openapi.yml
 - filename: coyote-carrier-offer-apis-api-openapi.yml
   format: yaml
   label: Coyote Logistics Carrier - Offer APIs API
   slug: coyote-carrier-offer-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-carrier-offer-apis-api-openapi.yml
+  url: https://artifacts.apis.io/coyote/openapi/coyote-carrier-offer-apis-api-openapi.yml
 - filename: coyote-document-apis-api-openapi.yml
   format: yaml
   label: Coyote Logistics Document APIs API
   slug: coyote-document-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-document-apis-api-openapi.yml
+  url: https://artifacts.apis.io/coyote/openapi/coyote-document-apis-api-openapi.yml
 - filename: coyote-shipper-quoting-apis-api-openapi.yml
   format: yaml
   label: Coyote Logistics Shipper - Quoting APIs API
   slug: coyote-shipper-quoting-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-shipper-quoting-apis-api-openapi.yml
+  url: https://artifacts.apis.io/coyote/openapi/coyote-shipper-quoting-apis-api-openapi.yml
 - filename: coyote-shipper-shipment-apis-api-openapi.yml
   format: yaml
   label: Coyote Logistics Shipper - Shipment APIs API
   slug: coyote-shipper-shipment-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-shipper-shipment-apis-api-openapi.yml
+  url: https://artifacts.apis.io/coyote/openapi/coyote-shipper-shipment-apis-api-openapi.yml
 - filename: coyote-shipper-tracking-apis-api-openapi.yml
   format: yaml
   label: Coyote Logistics Shipper - Tracking APIs API
   slug: coyote-shipper-tracking-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-shipper-tracking-apis-api-openapi.yml
+  url: https://artifacts.apis.io/coyote/openapi/coyote-shipper-tracking-apis-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 12
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/coyote
   - path: /api/v1/LTLSpotQuotes\n  method: post\n  operationId: postApiV1LTLSpotQuotes\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/Loads\n  method: post\n  operationId: postApiV1Loads\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/Loads/{loadRequestId}/buildstatus\n  method: get\n  operationId: getApiV1LoadsByLoadRequestIdBuildstatus\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/Loads/{loadId}\n  method: delete\n  operationId: deleteApiV1LoadsByLoadId\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/Loads/search\n  method: get\n  operationId: getApiV1LoadsSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/Trackings/{loadId}/stopdetails\n  method: get\n  operationId: getApiV1TrackingsByLoadIdStopdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/Trackings/{loadId}/summaries\n  method: get\n  operationId: getApiV1TrackingsByLoadIdSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/LocationStatuses/{loadId}\n  method: get\n  operationId: getApiV1LocationStatusesByLoadId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/LocationStatuses/{loadId}/latest\n  method: get\n  operationId: getApiV1LocationStatusesByLoadIdLatest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/agentic-access/coyote-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coyote/agentic-access/coyote-agentic-access.yml
 summary_line: 22 operations · 10 acting
 tags:
 - Freight Brokerage

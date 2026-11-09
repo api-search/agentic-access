@@ -9,49 +9,49 @@ api_specs:
   label: BackBase Approve API
   slug: backbase-approve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/openapi/backbase-approve-api-openapi.yml
+  url: https://artifacts.apis.io/backbase/openapi/backbase-approve-api-openapi.yml
 - filename: backbase-bbt-api-openapi.yml
   format: yaml
   label: BackBase Bbt API
   slug: backbase-bbt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/openapi/backbase-bbt-api-openapi.yml
+  url: https://artifacts.apis.io/backbase/openapi/backbase-bbt-api-openapi.yml
 - filename: backbase-patch-api-openapi.yml
   format: yaml
   label: BackBase Patch API
   slug: backbase-patch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/openapi/backbase-patch-api-openapi.yml
+  url: https://artifacts.apis.io/backbase/openapi/backbase-patch-api-openapi.yml
 - filename: backbase-payment-orders-api-openapi.yml
   format: yaml
   label: BackBase Payment Orders API
   slug: backbase-payment-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/openapi/backbase-payment-orders-api-openapi.yml
+  url: https://artifacts.apis.io/backbase/openapi/backbase-payment-orders-api-openapi.yml
 - filename: backbase-test-api-openapi.yml
   format: yaml
   label: BackBase Test API
   slug: backbase-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/openapi/backbase-test-api-openapi.yml
+  url: https://artifacts.apis.io/backbase/openapi/backbase-test-api-openapi.yml
 - filename: backbase-utility-api-openapi.yml
   format: yaml
   label: BackBase Utility API
   slug: backbase-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/openapi/backbase-utility-api-openapi.yml
+  url: https://artifacts.apis.io/backbase/openapi/backbase-utility-api-openapi.yml
 - filename: backbase-validate-api-openapi.yml
   format: yaml
   label: BackBase Validate API
   slug: backbase-validate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/openapi/backbase-validate-api-openapi.yml
+  url: https://artifacts.apis.io/backbase/openapi/backbase-validate-api-openapi.yml
 - filename: backbase-wallet-api-openapi.yml
   format: yaml
   label: BackBase Wallet API
   slug: backbase-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/openapi/backbase-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/backbase/openapi/backbase-wallet-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 14
@@ -143,12 +143,12 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/backba
   \ 3600\n    audit: none\n- path: /client-api/v2/payment-orders/currencies\n  method: get\n  operationId: getCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client-api/v2/payment-orders/rate\n  method: get\n  operationId: getRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client-api/v2/payment-orders/validate\n  method: post\n  operationId: postValidate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/paymentcards\n  method: get\n  operationId: getPaymentcards\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/paymentcards\n  method: post\n  operationId: postPaymentcards\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/paymentcards/{cardId}\n  method: get\n  operationId: getCardIdByCardId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/paymentcards/{cardId}\n  method: delete\n  operationId: deleteCardIdByCardId\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/agentic-access/backbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/backbase/agentic-access/backbase-agentic-access.yml
 summary_line: 26 operations · 12 acting
 tags:
 - Banking
 - Fintech
 - Digital Banking
 - API Platform
-- AI-Native
+- AI-native
 ---

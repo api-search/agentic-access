@@ -9,19 +9,19 @@ api_specs:
   label: Newforma Hub API
   slug: newforma-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-hub-api-openapi.yml
+  url: https://artifacts.apis.io/newforma/openapi/newforma-hub-api-openapi.yml
 - filename: newforma-issue-api-openapi.yml
   format: yaml
   label: Newforma Issue API
   slug: newforma-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-issue-api-openapi.yml
+  url: https://artifacts.apis.io/newforma/openapi/newforma-issue-api-openapi.yml
 - filename: newforma-project-api-openapi.yml
   format: yaml
   label: Newforma Project API
   slug: newforma-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/openapi/newforma-project-api-openapi.yml
+  url: https://artifacts.apis.io/newforma/openapi/newforma-project-api-openapi.yml
 consequence_counts:
   read: 21
   write: 18
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/newfor
   \ getV3HubsByHubIdProjectsByProjectIdIssuesByIssueIdViewpointsByViewpointIdViewstate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/hubs/{hubId}/projects/{projectId}/issuefiltertemplate\n  method: get\n  operationId: getV3HubsByHubIdProjectsByProjectIdIssuefiltertemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/hubs/{hubId}/projects/{projectId}/issuefiltertemplate/{userTemplateId}\n  method: get\n  operationId: getV3HubsByHubIdProjectsByProjectIdIssuefiltertemplateByUserTemplateId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/hubs/{hubId}/projects/{projectId}/sheets\n  method: get\n  operationId: getV3HubsByHubIdProjectsByProjectIdSheets\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/hubs/{hubId}/projects/{projectId}/sheets\n  method: post\n  operationId: postV3HubsByHubIdProjectsByProjectIdSheets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/hubs/{hubId}/projects/{projectId}/models/{modelId}/revisions/{revisionId}/disciplines\n  method: put\n  operationId: putV3HubsByHubIdProjectsByProjectIdModelsByModelIdRevisionsByRevisionIdDisciplines\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/agentic-access/newforma-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/newforma/agentic-access/newforma-agentic-access.yml
 summary_line: 39 operations · 18 acting
 tags:
 - Company

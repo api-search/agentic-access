@@ -9,49 +9,49 @@ api_specs:
   label: Mason Apps API
   slug: mason-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-apps-api-openapi.yml
+  url: https://artifacts.apis.io/mason/openapi/mason-apps-api-openapi.yml
 - filename: mason-create-image-api-openapi.yml
   format: yaml
   label: Mason Create Image API
   slug: mason-create-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-create-image-api-openapi.yml
+  url: https://artifacts.apis.io/mason/openapi/mason-create-image-api-openapi.yml
 - filename: mason-images-api-openapi.yml
   format: yaml
   label: Mason Images API
   slug: mason-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-images-api-openapi.yml
+  url: https://artifacts.apis.io/mason/openapi/mason-images-api-openapi.yml
 - filename: mason-retrieve-an-image-api-openapi.yml
   format: yaml
   label: Mason Retrieve an Image API
   slug: mason-retrieve-an-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-retrieve-an-image-api-openapi.yml
+  url: https://artifacts.apis.io/mason/openapi/mason-retrieve-an-image-api-openapi.yml
 - filename: mason-search-api-openapi.yml
   format: yaml
   label: Mason Search API
   slug: mason-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-search-api-openapi.yml
+  url: https://artifacts.apis.io/mason/openapi/mason-search-api-openapi.yml
 - filename: mason-template-mappings-api-openapi.yml
   format: yaml
   label: Mason Template Mappings API
   slug: mason-template-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-template-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/mason/openapi/mason-template-mappings-api-openapi.yml
 - filename: mason-tiered-discounts-api-openapi.yml
   format: yaml
   label: Mason Tiered Discounts API
   slug: mason-tiered-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-tiered-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/mason/openapi/mason-tiered-discounts-api-openapi.yml
 - filename: mason-webhooks-api-openapi.yml
   format: yaml
   label: Mason Webhooks API
   slug: mason-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/openapi/mason-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mason/openapi/mason-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 11
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/mason-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/search\n  method: get\n  operationId: Asset_Search_v1_search_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/task/creative\n  method: post\n  operationId: Creative_task_v1_task_creative_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/creative/status\n  method: post\n  operationId: Creative_task_status_v1_creative_status_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook\n  method: post\n  operationId: Register_a_Webhook_v1_webhook_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook\n  method: get\n  operationId: Get_Webhook_v1_webhook_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook/{id}\n  method: delete\n  operationId: Delete_Webhook_v1_webhook__id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/agentic-access/mason-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mason/agentic-access/mason-agentic-access.yml
 summary_line: 16 operations · 11 acting
 tags:
 - Company

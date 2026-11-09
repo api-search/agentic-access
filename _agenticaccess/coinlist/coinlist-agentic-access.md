@@ -9,67 +9,73 @@ api_specs:
   label: CoinList KYC API
   slug: coinlist-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-kyc-api-openapi.yml
 - filename: coinlist-offers-api-openapi.yml
   format: yaml
   label: CoinList Offers API
   slug: coinlist-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-offers-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-offers-api-openapi.yml
 - filename: coinlist-participations-api-openapi.yml
   format: yaml
   label: CoinList Participations API
   slug: coinlist-participations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-participations-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-participations-api-openapi.yml
 - filename: coinlist-pii-api-openapi.yml
   format: yaml
   label: CoinList Pii API
   slug: coinlist-pii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-pii-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-pii-api-openapi.yml
 - filename: coinlist-requirements-api-openapi.yml
   format: yaml
   label: CoinList Requirements API
   slug: coinlist-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-requirements-api-openapi.yml
 - filename: coinlist-swap-api-openapi.yml
   format: yaml
   label: CoinList Swap API
   slug: coinlist-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-swap-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-swap-api-openapi.yml
 - filename: coinlist-token-api-openapi.yml
   format: yaml
   label: CoinList Token API
   slug: coinlist-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-token-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-token-api-openapi.yml
 - filename: coinlist-wallet-api-openapi.yml
   format: yaml
   label: CoinList Wallet API
   slug: coinlist-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-wallet-api-openapi.yml
 - filename: coinlist-wallet-ownership-api-openapi.yml
   format: yaml
   label: CoinList Wallet Ownership API
   slug: coinlist-wallet-ownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-wallet-ownership-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-wallet-ownership-api-openapi.yml
 - filename: coinlist-oauth-api-openapi.yml
   format: yaml
   label: CoinList O Auth API
   slug: coinlist-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-oauth-api-openapi.yml
+- filename: coinlist-ondo-api-openapi.yml
+  format: yaml
+  label: CoinList Ondo API
+  slug: coinlist-ondo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-ondo-api-openapi.yml
 - filename: coinlist-document-submissions-api-openapi.yml
   format: yaml
   label: CoinList document submissions API
   slug: coinlist-document-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/openapi/coinlist-document-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-document-submissions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -128,7 +134,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/coinli
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pii\n  method: get\n  operationId: getPii\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/swap/output-token\n  method: get\n  operationId: getSwapOutputToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/swap/preview\n  method: get\n  operationId: getSwapPreview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/swap/status\n  method: get\n  operationId: getSwapStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/token/allowance\n\
   \  method: get\n  operationId: getTokenAllowance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/token/balance\n  method: get\n  operationId: getTokenBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/wallet-ownership\n  method: post\n  operationId: createWalletOwnershipChallenge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallet/authorized\n  method: get\n  operationId: getWalletAuthorized\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/agentic-access/coinlist-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coinlist/agentic-access/coinlist-agentic-access.yml
 summary_line: 22 operations · 9 acting · 3 human-in-the-loop
 tags:
 - Company
@@ -137,8 +143,9 @@ tags:
 - Token Sales
 - Tokenized Equities
 - KYC
-- Authentication
+- OAuth
 - Blockchain
 - Digital Assets
 - Embedded Finance
+- Authentication
 ---

@@ -9,61 +9,61 @@ api_specs:
   label: Descartes Systems Group 3rd Party TMS Integration API
   slug: descartes-3rd-party-tms-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-3rd-party-tms-integration-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-3rd-party-tms-integration-api-openapi.yml
 - filename: descartes-api-xml-api-openapi.yml
   format: yaml
   label: Descartes Systems Group API - XML API
   slug: descartes-api-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-api-xml-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-api-xml-api-openapi.yml
 - filename: descartes-carrier-data-connection-and-communication-api-openapi.yml
   format: yaml
   label: Descartes Systems Group Carrier Data Connection and Communication API
   slug: descartes-carrier-data-connection-and-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-carrier-data-connection-and-communication-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-carrier-data-connection-and-communication-api-openapi.yml
 - filename: descartes-custom-integration-api-openapi.yml
   format: yaml
   label: Descartes Systems Group Custom Integration API
   slug: descartes-custom-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-custom-integration-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-custom-integration-api-openapi.yml
 - filename: descartes-export-api-api-openapi.yml
   format: yaml
   label: Descartes Systems Group Export API
   slug: descartes-export-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-export-api-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-export-api-api-openapi.yml
 - filename: descartes-fraudguard-carrier-and-load-lookup-api-openapi.yml
   format: yaml
   label: Descartes Systems Group FraudGuard Carrier and Load Lookup API
   slug: descartes-fraudguard-carrier-and-load-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-fraudguard-carrier-and-load-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-fraudguard-carrier-and-load-lookup-api-openapi.yml
 - filename: descartes-import-api-api-openapi.yml
   format: yaml
   label: Descartes Systems Group Import API
   slug: descartes-import-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-import-api-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-import-api-api-openapi.yml
 - filename: descartes-load-visibility-order-creation-xml-api-openapi.yml
   format: yaml
   label: Descartes Systems Group Load Visibility Order Creation - XML API
   slug: descartes-load-visibility-order-creation-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-load-visibility-order-creation-xml-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-load-visibility-order-creation-xml-api-openapi.yml
 - filename: descartes-load-visibility-url-and-data-export-retrieval-api-openapi.yml
   format: yaml
   label: Descartes Systems Group Load Visibility URL and Data Export Retrieval API
   slug: descartes-load-visibility-url-and-data-export-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-load-visibility-url-and-data-export-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-load-visibility-url-and-data-export-retrieval-api-openapi.yml
 - filename: descartes-search-api-api-openapi.yml
   format: yaml
   label: Descartes Systems Group Search API
   slug: descartes-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/descartes/openapi/descartes-search-api-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 9
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/descar
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/1.0/tms/data/tmsgateway\n  method: post\n  operationId: postTmsDataTmsgateway\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1.0/carrier/carrierwishlist\n  method: post\n  operationId: postCarrierCarrierwishlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1.0/carrier/requestpartnerstatus/{CarrierID}\n  method: get\n  operationId: getCarrierRequestpartnerstatusCarrierID\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/1.0/orders/SendMessage\n  method: post\n  operationId: postOrdersSendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carrier-lookup\n  method: options\n  operationId: optionsCarrierlookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/1.0/fraudguard\n  method: post\n  operationId: postFraudguard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/agentic-access/descartes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/descartes/agentic-access/descartes-agentic-access.yml
 summary_line: 25 operations · 16 acting · 2 human-in-the-loop
 tags:
 - Logistics

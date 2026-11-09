@@ -9,31 +9,31 @@ api_specs:
   label: SPARQL Query API
   slug: sparql-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-query-api-openapi.yml
+  url: https://artifacts.apis.io/sparql/openapi/sparql-query-api-openapi.yml
 - filename: sparql-sparql-api-openapi.yml
   format: yaml
   label: SPARQL API
   slug: sparql-sparql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-sparql-api-openapi.yml
+  url: https://artifacts.apis.io/sparql/openapi/sparql-sparql-api-openapi.yml
 - filename: sparql-sparql-graph-api-openapi.yml
   format: yaml
   label: SPARQL Graph API
   slug: sparql-sparql-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-sparql-graph-api-openapi.yml
+  url: https://artifacts.apis.io/sparql/openapi/sparql-sparql-graph-api-openapi.yml
 - filename: sparql-sparql-update-api-openapi.yml
   format: yaml
   label: SPARQL Update API
   slug: sparql-sparql-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-sparql-update-api-openapi.yml
+  url: https://artifacts.apis.io/sparql/openapi/sparql-sparql-update-api-openapi.yml
 - filename: sparql-update-api-openapi.yml
   format: yaml
   label: SPARQL Update API
   slug: sparql-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/openapi/sparql-update-api-openapi.yml
+  url: https://artifacts.apis.io/sparql/openapi/sparql-update-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sparql
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sparql\n  method: get\n  operationId: sparqlQueryGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sparql\n  method: post\n  operationId: sparqlQueryPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sparql-graph\n  method: get\n  operationId: graphStoreGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sparql-graph\n  method: put\n  operationId: graphStorePut\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sparql-graph\n  method: post\n  operationId: graphStorePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sparql-graph\n  method: delete\n  operationId: graphStoreDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sparql-update\n  method: post\n  operationId: sparqlUpdate\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sparql/update\n  method: post\n  operationId: update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/agentic-access/sparql-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sparql/agentic-access/sparql-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Linked Data

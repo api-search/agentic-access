@@ -9,25 +9,25 @@ api_specs:
   label: AIHubMix AIHubMix Unified API
   slug: aihubmix-aihubmix-unified-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/openapi/aihubmix-aihubmix-unified-api-api-openapi.yml
+  url: https://artifacts.apis.io/aihubmix/openapi/aihubmix-aihubmix-unified-api-api-openapi.yml
 - filename: aihubmix-anthropic-compatible-api-openapi.yml
   format: yaml
   label: AIHubMix Anthropic Compatible API
   slug: aihubmix-anthropic-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/openapi/aihubmix-anthropic-compatible-api-openapi.yml
+  url: https://artifacts.apis.io/aihubmix/openapi/aihubmix-anthropic-compatible-api-openapi.yml
 - filename: aihubmix-google-vertex-ai-compatible-api-openapi.yml
   format: yaml
   label: AIHubMix Google Vertex AI Compatible API
   slug: aihubmix-google-vertex-ai-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/openapi/aihubmix-google-vertex-ai-compatible-api-openapi.yml
+  url: https://artifacts.apis.io/aihubmix/openapi/aihubmix-google-vertex-ai-compatible-api-openapi.yml
 - filename: aihubmix-openai-compatible-api-openapi.yml
   format: yaml
   label: AIHubMix OpenAI Compatible API
   slug: aihubmix-openai-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/openapi/aihubmix-openai-compatible-api-openapi.yml
+  url: https://artifacts.apis.io/aihubmix/openapi/aihubmix-openai-compatible-api-openapi.yml
 consequence_counts:
   read: 14
   write: 16
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/aihubm
   \ /ai/v1/videos\n  method: post\n  operationId: createAIHubMixVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ai/v1/videos\n  method: get\n  operationId: listAIHubMixVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/v1/videos/{id}\n  method: get\n  operationId: getAIHubMixVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/v1/videos/{id}/content\n  method: get\n  operationId: downloadAIHubMixVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /ai/v1/tasks\n  method: get\n  operationId: listAIHubMixTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/v1/tasks/{id}\n  method: get\n  operationId: getAIHubMixTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/v1/tasks/{id}/content\n  method: get\n  operationId: downloadAIHubMixTaskContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/v1/tasks/{id}/content/{result_id}\n  method: get\n  operationId: downloadAIHubMixTaskResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/models\n  method: get\n  operationId:\
   \ listAIHubMixAsyncModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /call/schema/models/{model}/endpoints\n  method: get\n  operationId: getAIHubMixModelEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/agentic-access/aihubmix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aihubmix/agentic-access/aihubmix-agentic-access.yml
 summary_line: 30 operations · 16 acting
 tags:
 - Company

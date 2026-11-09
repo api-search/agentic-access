@@ -9,25 +9,25 @@ api_specs:
   label: tyntec Number Information API
   slug: tyntec-number-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-number-information-api-openapi.yml
+  url: https://artifacts.apis.io/tyntec/openapi/tyntec-number-information-api-openapi.yml
 - filename: tyntec-number-verification-api-openapi.yml
   format: yaml
   label: tyntec Number Verification API
   slug: tyntec-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-number-verification-api-openapi.yml
+  url: https://artifacts.apis.io/tyntec/openapi/tyntec-number-verification-api-openapi.yml
 - filename: tyntec-service-api-openapi.yml
   format: yaml
   label: tyntec Service API
   slug: tyntec-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-service-api-openapi.yml
+  url: https://artifacts.apis.io/tyntec/openapi/tyntec-service-api-openapi.yml
 - filename: tyntec-verify-templates-api-openapi.yml
   format: yaml
   label: tyntec Verify Templates API
   slug: tyntec-verify-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/openapi/tyntec-verify-templates-api-openapi.yml
+  url: https://artifacts.apis.io/tyntec/openapi/tyntec-verify-templates-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tyntec
   - path: /verify/v1/templates\n  method: post\n  operationId: createVerifyTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify/v1/templates/{criteriaTemplateName}\n  method: get\n  operationId: getVerifyTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify/v1/templates/{criteriaTemplateName}\n  method: put\n  operationId: updateVerifyTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify/v1/templates/{criteriaTemplateName}\n\
   \  method: delete\n  operationId: deleteVerifyTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nis/v1/gnv\n  method: get\n  operationId: hlrLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nis/v1/gnp\n  method: get\n  operationId: numberPortabilityLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify/v1/health\n  method: get\n  operationId: verifyHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify/v1/version\n\
   \  method: get\n  operationId: verifyVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/agentic-access/tyntec-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tyntec/agentic-access/tyntec-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Number Verification

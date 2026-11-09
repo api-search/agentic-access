@@ -9,67 +9,67 @@ api_specs:
   label: Beam AI Agent Context Files API
   slug: beam-ai-agent-context-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-agent-context-files-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-agent-context-files-api-openapi.yml
 - filename: beam-ai-agent-graph-api-openapi.yml
   format: yaml
   label: Beam AI Agent Graph API
   slug: beam-ai-agent-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-agent-graph-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-agent-graph-api-openapi.yml
 - filename: beam-ai-agent-setup-api-openapi.yml
   format: yaml
   label: Beam AI Agent Setup API
   slug: beam-ai-agent-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-agent-setup-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-agent-setup-api-openapi.yml
 - filename: beam-ai-agent-skills-api-openapi.yml
   format: yaml
   label: Beam AI Agent Skills API
   slug: beam-ai-agent-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-agent-skills-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-agent-skills-api-openapi.yml
 - filename: beam-ai-agent-task-api-openapi.yml
   format: yaml
   label: Beam AI Agent Task API
   slug: beam-ai-agent-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-agent-task-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-agent-task-api-openapi.yml
 - filename: beam-ai-agent-views-api-openapi.yml
   format: yaml
   label: Beam AI Agent Views API
   slug: beam-ai-agent-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-agent-views-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-agent-views-api-openapi.yml
 - filename: beam-ai-agents-api-openapi.yml
   format: yaml
   label: Beam AI Agents API
   slug: beam-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-agents-api-openapi.yml
 - filename: beam-ai-complete-agent-graph-api-openapi.yml
   format: yaml
   label: Beam AI Complete Agent Graph API
   slug: beam-ai-complete-agent-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-complete-agent-graph-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-complete-agent-graph-api-openapi.yml
 - filename: beam-ai-custom-tool-api-openapi.yml
   format: yaml
   label: Beam AI Custom Tool API
   slug: beam-ai-custom-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-custom-tool-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-custom-tool-api-openapi.yml
 - filename: beam-ai-tool-api-openapi.yml
   format: yaml
   label: Beam AI Tool API
   slug: beam-ai-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-tool-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-tool-api-openapi.yml
 - filename: beam-ai-user-api-openapi.yml
   format: yaml
   label: Beam AI User API
   slug: beam-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/openapi/beam-ai-user-api-openapi.yml
+  url: https://artifacts.apis.io/beam-ai/openapi/beam-ai-user-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 26
@@ -240,7 +240,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/beam-a
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent-graphs/{agentId}\n  method: put\n  operationId: CompleteAgentGraphController_updateAgentGraph\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /agent-graphs/agent-task-nodes/{toolFunctionName}\n  method: get\n  operationId: AgentGraphController_getTaskNodesByToolFunctionName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent-graphs/{graphId}/publish\n  method: patch\n  operationId: AgentGraphController_publishGraph\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /agent-graphs/complete\n  method: post\n  operationId: CompleteAgentGraphController_createAgentGraph\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /agent/{agentId}/skills/import\n  method: post\n  operationId: AgentSkillController_importSkill\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /context/agent/{agentId}/file/{fileKey}\n  method: delete\n  operationId: AgentContextFilesController_deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /agent/{agentId}\n  method: put\n  operationId: AgentController_updateAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/heads/main/agentic-access/beam-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beam-ai/agentic-access/beam-ai-agentic-access.yml
 summary_line: 48 operations · 26 acting · 26 human-in-the-loop
 tags:
 - Company

@@ -8,37 +8,37 @@ api_specs:
   label: Nowsta Clients API
   slug: nowsta-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-clients-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-clients-api-openapi.yml
 - filename: nowsta-events-api-openapi.yml
   format: yaml
   label: Nowsta Events API
   slug: nowsta-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-events-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-events-api-openapi.yml
 - filename: nowsta-positions-api-openapi.yml
   format: yaml
   label: Nowsta Positions API
   slug: nowsta-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-positions-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-positions-api-openapi.yml
 - filename: nowsta-uniforms-api-openapi.yml
   format: yaml
   label: Nowsta Uniforms API
   slug: nowsta-uniforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-uniforms-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-uniforms-api-openapi.yml
 - filename: nowsta-venues-api-openapi.yml
   format: yaml
   label: Nowsta Venues API
   slug: nowsta-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-venues-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-venues-api-openapi.yml
 - filename: nowsta-workers-api-openapi.yml
   format: yaml
   label: Nowsta Workers API
   slug: nowsta-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/openapi/nowsta-workers-api-openapi.yml
+  url: https://artifacts.apis.io/nowsta/openapi/nowsta-workers-api-openapi.yml
 consequence_counts:
   write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/nowsta-integration-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 6\n  by_consequence:\n    write: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /integrations/v1/events/publications\n  method: post\n  operationId: publishEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/v1/venues/publications\n  method: post\n  operationId: publishVenues\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/v1/clients/publications\n  method: post\n  operationId: publishClients\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/v1/uniforms/publications\n  method: post\n  operationId: publishUniforms\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/v1/positions/publications\n\
   \  method: post\n  operationId: publishPositions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/v1/workers/publications\n  method: post\n  operationId: publishWorkers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/agentic-access/nowsta-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nowsta/agentic-access/nowsta-agentic-access.yml
 summary_line: 6 operations · 6 acting
 tags:
 - Workforce Management

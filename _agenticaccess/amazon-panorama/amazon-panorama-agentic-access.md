@@ -9,37 +9,37 @@ api_specs:
   label: Amazon Panorama Application Instances API
   slug: amazon-panorama-application-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-application-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-application-instances-api-openapi.yml
 - filename: amazon-panorama-devices-api-openapi.yml
   format: yaml
   label: Amazon Panorama Devices API
   slug: amazon-panorama-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-devices-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-devices-api-openapi.yml
 - filename: amazon-panorama-jobs-api-openapi.yml
   format: yaml
   label: Amazon Panorama Jobs API
   slug: amazon-panorama-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-jobs-api-openapi.yml
 - filename: amazon-panorama-nodes-api-openapi.yml
   format: yaml
   label: Amazon Panorama Nodes API
   slug: amazon-panorama-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-nodes-api-openapi.yml
 - filename: amazon-panorama-packages-api-openapi.yml
   format: yaml
   label: Amazon Panorama Packages API
   slug: amazon-panorama-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-packages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-packages-api-openapi.yml
 - filename: amazon-panorama-tags-api-openapi.yml
   format: yaml
   label: Amazon Panorama Tags API
   slug: amazon-panorama-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-panorama/openapi/amazon-panorama-tags-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -82,11 +82,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /application-instances/{ApplicationInstanceId}/node-instances\n  method: get\n  operationId: ListApplicationInstanceNodeInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: get\n  operationId: ListDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: post\n  operationId: ProvisionDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /nodes\n  method: get\n  operationId: ListNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{ResourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{ResourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /application-instances/{ApplicationInstanceId}/node-signals\n  method: put\n  operationId: SignalApplicationInstanceNodeInstances\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{ResourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/agentic-access/amazon-panorama-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-panorama/agentic-access/amazon-panorama-agentic-access.yml
 summary_line: 34 operations · 15 acting
 tags:
+- Amazon Web Services
 - Camera
 - Computer Vision
 - Edge ML
 - Industrial IoT
+- Defunct
 ---

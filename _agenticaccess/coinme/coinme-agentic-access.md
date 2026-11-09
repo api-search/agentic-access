@@ -9,169 +9,169 @@ api_specs:
   label: Coinme AuthLinkResult API
   slug: coinme-authlinkresult-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-authlinkresult-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-authlinkresult-api-openapi.yml
 - filename: coinme-authorize-api-openapi.yml
   format: yaml
   label: Coinme Authorize API
   slug: coinme-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-authorize-api-openapi.yml
 - filename: coinme-businessonboarding-api-openapi.yml
   format: yaml
   label: Coinme Businessonboarding API
   slug: coinme-businessonboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-businessonboarding-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-businessonboarding-api-openapi.yml
 - filename: coinme-cryptoassetbalance-api-openapi.yml
   format: yaml
   label: Coinme Cryptoassetbalance API
   slug: coinme-cryptoassetbalance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-cryptoassetbalance-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-cryptoassetbalance-api-openapi.yml
 - filename: coinme-cryptochains-api-openapi.yml
   format: yaml
   label: Coinme CryptoChains API
   slug: coinme-cryptochains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-cryptochains-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-cryptochains-api-openapi.yml
 - filename: coinme-cryptoquote-api-openapi.yml
   format: yaml
   label: Coinme Cryptoquote API
   slug: coinme-cryptoquote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-cryptoquote-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-cryptoquote-api-openapi.yml
 - filename: coinme-customeronboarding-api-openapi.yml
   format: yaml
   label: Coinme Customeronboarding API
   slug: coinme-customeronboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-customeronboarding-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-customeronboarding-api-openapi.yml
 - filename: coinme-historiccryptodata-api-openapi.yml
   format: yaml
   label: Coinme Historiccryptodata API
   slug: coinme-historiccryptodata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-historiccryptodata-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-historiccryptodata-api-openapi.yml
 - filename: coinme-identity-api-openapi.yml
   format: yaml
   label: Coinme Identity API
   slug: coinme-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-identity-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-identity-api-openapi.yml
 - filename: coinme-locationlicensing-api-openapi.yml
   format: yaml
   label: Coinme Locationlicensing API
   slug: coinme-locationlicensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-locationlicensing-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-locationlicensing-api-openapi.yml
 - filename: coinme-locations-api-openapi.yml
   format: yaml
   label: Coinme Locations API
   slug: coinme-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-locations-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-locations-api-openapi.yml
 - filename: coinme-mobileauthfinish-api-openapi.yml
   format: yaml
   label: Coinme MobileAuthFinish API
   slug: coinme-mobileauthfinish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-mobileauthfinish-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-mobileauthfinish-api-openapi.yml
 - filename: coinme-order-template-api-openapi.yml
   format: yaml
   label: Coinme Order Template API
   slug: coinme-order-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-order-template-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-order-template-api-openapi.yml
 - filename: coinme-quote-and-transaction-api-openapi.yml
   format: yaml
   label: Coinme Quote And Transaction API
   slug: coinme-quote-and-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-quote-and-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-quote-and-transaction-api-openapi.yml
 - filename: coinme-send-api-openapi.yml
   format: yaml
   label: Coinme Send API
   slug: coinme-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-send-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-send-api-openapi.yml
 - filename: coinme-sendauthsms-api-openapi.yml
   format: yaml
   label: Coinme SendAuthSms API
   slug: coinme-sendauthsms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-sendauthsms-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-sendauthsms-api-openapi.yml
 - filename: coinme-services-api-openapi.yml
   format: yaml
   label: Coinme Services API
   slug: coinme-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-services-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-services-api-openapi.yml
 - filename: coinme-smsauth-api-openapi.yml
   format: yaml
   label: Coinme SmsAuth API
   slug: coinme-smsauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-smsauth-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-smsauth-api-openapi.yml
 - filename: coinme-submit-blockchain-id-api-openapi.yml
   format: yaml
   label: Coinme Submit Blockchain Id API
   slug: coinme-submit-blockchain-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-submit-blockchain-id-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-submit-blockchain-id-api-openapi.yml
 - filename: coinme-transaction-api-openapi.yml
   format: yaml
   label: Coinme Transaction API
   slug: coinme-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-transaction-api-openapi.yml
 - filename: coinme-transactionlimits-api-openapi.yml
   format: yaml
   label: Coinme Transactionlimits API
   slug: coinme-transactionlimits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-transactionlimits-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-transactionlimits-api-openapi.yml
 - filename: coinme-transactions-api-openapi.yml
   format: yaml
   label: Coinme Transactions API
   slug: coinme-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-transactions-api-openapi.yml
 - filename: coinme-verify-api-openapi.yml
   format: yaml
   label: Coinme Verify API
   slug: coinme-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-verify-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-verify-api-openapi.yml
 - filename: coinme-wallets-api-openapi.yml
   format: yaml
   label: Coinme Wallets API
   slug: coinme-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-wallets-api-openapi.yml
 - filename: coinme-widget-api-openapi.yml
   format: yaml
   label: Coinme Widget API
   slug: coinme-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-widget-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-widget-api-openapi.yml
 - filename: coinme-mobile-auth-api-openapi.yml
   format: yaml
   label: Coinme Mobile Auth API
   slug: coinme-mobile-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-mobile-auth-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-mobile-auth-api-openapi.yml
 - filename: coinme-payment-methods-api-openapi.yml
   format: yaml
   label: Coinme Payment Methods API
   slug: coinme-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-payment-methods-api-openapi.yml
 - filename: coinme-transaction-history-api-openapi.yml
   format: yaml
   label: Coinme Transaction History API
   slug: coinme-transaction-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/openapi/coinme-transaction-history-api-openapi.yml
+  url: https://artifacts.apis.io/coinme/openapi/coinme-transaction-history-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 20
@@ -242,7 +242,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/coinme
   \ /smsAuth/{authId}\n  method: get\n  operationId: get-instant-link-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submit-blockchain-id\n  method: put\n  operationId: put_submit-blockchain-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction\n  method: post\n  operationId: initiate-buy-sell-transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactionhistory\n  method: get\n  operationId:\
   \ get-transaction-history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactionlimits\n  method: get\n  operationId: get-transaction-limits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{partnerTransactionId}\n  method: get\n  operationId: get-specific-transaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify\n  method: post\n  operationId: verify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallets\n\
   \  method: get\n  operationId: get_wallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets/estimateFee\n  method: get\n  operationId: get_walletsestimateFee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /widget/transactionhistory\n  method: get\n  operationId: get_transactionhistory-1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/agentic-access/coinme-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coinme/agentic-access/coinme-agentic-access.yml
 summary_line: 39 operations · 19 acting
 tags:
 - Company

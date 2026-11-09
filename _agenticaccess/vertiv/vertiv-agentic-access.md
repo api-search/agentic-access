@@ -9,49 +9,49 @@ api_specs:
   label: Vertiv Alarms API
   slug: vertiv-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-alarms-api-openapi.yml
 - filename: vertiv-assets-api-openapi.yml
   format: yaml
   label: Vertiv Assets API
   slug: vertiv-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-assets-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-assets-api-openapi.yml
 - filename: vertiv-authentication-api-openapi.yml
   format: yaml
   label: Vertiv Authentication API
   slug: vertiv-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-authentication-api-openapi.yml
 - filename: vertiv-circuits-api-openapi.yml
   format: yaml
   label: Vertiv Circuits API
   slug: vertiv-circuits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-circuits-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-circuits-api-openapi.yml
 - filename: vertiv-devices-api-openapi.yml
   format: yaml
   label: Vertiv Devices API
   slug: vertiv-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-devices-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-devices-api-openapi.yml
 - filename: vertiv-racks-api-openapi.yml
   format: yaml
   label: Vertiv Racks API
   slug: vertiv-racks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-racks-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-racks-api-openapi.yml
 - filename: vertiv-sensors-api-openapi.yml
   format: yaml
   label: Vertiv Sensors API
   slug: vertiv-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-sensors-api-openapi.yml
 - filename: vertiv-datasets-api-openapi.yml
   format: yaml
   label: Vertiv Datasets API
   slug: vertiv-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-datasets-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1
@@ -80,7 +80,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vertiv-environet-alert-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    acting: 1\n    connected: 9\n  by_consequence:\n    write: 1\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /auth\n  method: post\n  operationId: authenticate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{category}\n  method: get\n  operationId: getDatasetByCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{deviceId}\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alarms\n  method: get\n  operationId: listAlarms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /racks\n  method: get\n  operationId: listRacks\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /circuits\n  method: get\n  operationId: listCircuits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets\n  method: get\n  operationId: listAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sensors\n  method: get\n  operationId: listSensors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/agentic-access/vertiv-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vertiv/agentic-access/vertiv-agentic-access.yml
 summary_line: 10 operations · 1 acting
 tags:
 - Critical Infrastructure

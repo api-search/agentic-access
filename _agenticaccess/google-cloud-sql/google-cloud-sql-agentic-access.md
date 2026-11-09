@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud SQL BackupRuns API
   slug: google-cloud-sql-backupruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-backupruns-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-backupruns-api-openapi.yml
 - filename: google-cloud-sql-databases-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Databases API
   slug: google-cloud-sql-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-databases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-databases-api-openapi.yml
 - filename: google-cloud-sql-instances-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Instances API
   slug: google-cloud-sql-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-instances-api-openapi.yml
 - filename: google-cloud-sql-users-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Users API
   slug: google-cloud-sql-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/google-cloud-sql-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-users-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloud-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project}/instances/{instance}/databases\n  method: post\n  operationId: insertDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/sqlservice.admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/instances/{instance}/databases/{database}\n  method: get\n  operationId: getDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/sqlservice.admin\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project}/instances/{instance}/databases/{database}\n\
   \  method: delete\n  operationId: deleteDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/sqlservice.admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/instances/{instance}/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/sqlservice.admin\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project}/instances/{instance}/users\n  method: post\n  operationId: insertUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/sqlservice.admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/instances/{instance}/backupRuns\n  method: get\n  operationId: listBackupRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/sqlservice.admin\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/agentic-access/google-cloud-sql-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-sql/agentic-access/google-cloud-sql-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Database

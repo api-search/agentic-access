@@ -9,61 +9,61 @@ api_specs:
   label: Slope Auth API
   slug: slope-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-auth-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-auth-api-openapi.yml
 - filename: slope-customers-api-openapi.yml
   format: yaml
   label: Slope Customers API
   slug: slope-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-customers-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-customers-api-openapi.yml
 - filename: slope-files-api-openapi.yml
   format: yaml
   label: Slope Files API
   slug: slope-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-files-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-files-api-openapi.yml
 - filename: slope-orders-api-openapi.yml
   format: yaml
   label: Slope Orders API
   slug: slope-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-orders-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-orders-api-openapi.yml
 - filename: slope-payout-accounts-api-openapi.yml
   format: yaml
   label: Slope Payout Accounts API
   slug: slope-payout-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-payout-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-payout-accounts-api-openapi.yml
 - filename: slope-persons-api-openapi.yml
   format: yaml
   label: Slope Persons API
   slug: slope-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-persons-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-persons-api-openapi.yml
 - filename: slope-prescreens-api-openapi.yml
   format: yaml
   label: Slope Prescreens API
   slug: slope-prescreens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-prescreens-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-prescreens-api-openapi.yml
 - filename: slope-simulation-api-openapi.yml
   format: yaml
   label: Slope Simulation API
   slug: slope-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-simulation-api-openapi.yml
 - filename: slope-transactions-api-openapi.yml
   format: yaml
   label: Slope Transactions API
   slug: slope-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-transactions-api-openapi.yml
 - filename: slope-user-links-api-openapi.yml
   format: yaml
   label: Slope User Links API
   slug: slope-user-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/openapi/slope-user-links-api-openapi.yml
+  url: https://artifacts.apis.io/slope/openapi/slope-user-links-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 15
@@ -174,7 +174,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/slope-
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/simulation/payment-methods/bank-account\n  method: post\n  operationId: simulateCreateBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/simulation/payment-methods/card\n  method: post\n  operationId: simulateCreateCard\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /v4/simulation/reject-order\n  method: post\n  operationId: simulateRejectOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/user-links/{linkToken}/access-token\n  method: post\n  operationId: createUserLinkAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/user-links/{linkToken}/iframe-url\n  method: post\n  operationId: createUserLinkIframeUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/customers/{customerId}/persons\n  method: post\n  operationId: createPersons\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/agentic-access/slope-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/slope/agentic-access/slope-agentic-access.yml
 summary_line: 40 operations · 25 acting
 tags:
 - Company

@@ -9,97 +9,97 @@ api_specs:
   label: Lev Account & Team API
   slug: lev-account-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-account-team-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-account-team-api-openapi.yml
 - filename: lev-api-keys-api-openapi.yml
   format: yaml
   label: Lev API Keys API
   slug: lev-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-api-keys-api-openapi.yml
 - filename: lev-billing-api-openapi.yml
   format: yaml
   label: Lev Billing API
   slug: lev-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-billing-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-billing-api-openapi.yml
 - filename: lev-companies-api-openapi.yml
   format: yaml
   label: Lev Companies API
   slug: lev-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-companies-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-companies-api-openapi.yml
 - filename: lev-contacts-api-openapi.yml
   format: yaml
   label: Lev Contacts API
   slug: lev-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-contacts-api-openapi.yml
 - filename: lev-deal-financials-api-openapi.yml
   format: yaml
   label: Lev Deal Financials API
   slug: lev-deal-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deal-financials-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deal-financials-api-openapi.yml
 - filename: lev-deal-properties-api-openapi.yml
   format: yaml
   label: Lev Deal Properties API
   slug: lev-deal-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deal-properties-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deal-properties-api-openapi.yml
 - filename: lev-deal-team-api-openapi.yml
   format: yaml
   label: Lev Deal Team API
   slug: lev-deal-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deal-team-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deal-team-api-openapi.yml
 - filename: lev-deals-api-openapi.yml
   format: yaml
   label: Lev Deals API
   slug: lev-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deals-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deals-api-openapi.yml
 - filename: lev-lender-directory-api-openapi.yml
   format: yaml
   label: Lev Lender Directory API
   slug: lev-lender-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-lender-directory-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-lender-directory-api-openapi.yml
 - filename: lev-lev-api-documentation-api-openapi.yml
   format: yaml
   label: Lev API Documentation API
   slug: lev-lev-api-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-lev-api-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-lev-api-documentation-api-openapi.yml
 - filename: lev-market-data-api-openapi.yml
   format: yaml
   label: Lev Market Data API
   slug: lev-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-market-data-api-openapi.yml
 - filename: lev-pipelines-api-openapi.yml
   format: yaml
   label: Lev Pipelines API
   slug: lev-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-pipelines-api-openapi.yml
 - filename: lev-placements-api-openapi.yml
   format: yaml
   label: Lev Placements API
   slug: lev-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-placements-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-placements-api-openapi.yml
 - filename: lev-quickstart-api-openapi.yml
   format: yaml
   label: Lev Quickstart API
   slug: lev-quickstart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-quickstart-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-quickstart-api-openapi.yml
 - filename: lev-term-sheets-api-openapi.yml
   format: yaml
   label: Lev Term Sheets API
   slug: lev-term-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-term-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-term-sheets-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 43
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lev-ac
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/external/v2/placements/{placement_id}/notes/{note_id}\n  method: delete\n  operationId: deletePlacementsPlacementIdNotesNoteId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/external/v2/auth/validate-api-key\n  method: post\n  operationId: postAuthValidateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /api/external/v2/deals/{deal_id}/term-sheets\n  method: get\n  operationId: getDealsDealIdTermSheets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/external/v2/deals/{deal_id}/term-sheets\n  method: post\n  operationId: postDealsDealIdTermSheets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/external/v2/deals/{deal_id}/term-sheets/{term_sheet_id}\n  method: get\n  operationId: getDealsDealIdTermSheetsTermSheetId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/external/v2/deals/{deal_id}/term-sheets/{term_sheet_id}\n  method:\
   \ patch\n  operationId: patchDealsDealIdTermSheetsTermSheetId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/external/v2/deals/{deal_id}/term-sheets/{term_sheet_id}\n  method: delete\n  operationId: deleteDealsDealIdTermSheetsTermSheetId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/agentic-access/lev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lev/agentic-access/lev-agentic-access.yml
 summary_line: 81 operations · 38 acting · 1 human-in-the-loop
 tags:
 - Company

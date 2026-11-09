@@ -9,37 +9,37 @@ api_specs:
   label: FullContact Address API
   slug: fullcontact-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-address-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-address-api-openapi.yml
 - filename: fullcontact-audience-api-openapi.yml
   format: yaml
   label: FullContact Audience API
   slug: fullcontact-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-audience-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-audience-api-openapi.yml
 - filename: fullcontact-enrich-api-openapi.yml
   format: yaml
   label: FullContact Enrich API
   slug: fullcontact-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-enrich-api-openapi.yml
 - filename: fullcontact-identity-api-openapi.yml
   format: yaml
   label: FullContact Identity API
   slug: fullcontact-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-identity-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-identity-api-openapi.yml
 - filename: fullcontact-permission-api-openapi.yml
   format: yaml
   label: FullContact Permission API
   slug: fullcontact-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-permission-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-permission-api-openapi.yml
 - filename: fullcontact-tags-api-openapi.yml
   format: yaml
   label: FullContact Tags API
   slug: fullcontact-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/openapi/fullcontact-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fullcontact/openapi/fullcontact-tags-api-openapi.yml
 consequence_counts:
   read: 3
   write: 14
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fullco
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/permission.delete\n  method: post\n  operationId: deletePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/permission.find\n  method: post\n  operationId: findPermission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/permission.current\n  method: post\n  operationId: currentPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/permission.verify\n  method: post\n  operationId: verifyPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/tags.create\n  method: post\n  operationId: createTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/tags.get\n  method: post\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v3/tags.delete\n  method: post\n  operationId: deleteTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/agentic-access/fullcontact-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fullcontact/agentic-access/fullcontact-agentic-access.yml
 summary_line: 17 operations · 14 acting
 tags:
 - Identity Resolution

@@ -8,25 +8,25 @@ api_specs:
   label: CharlieHR Company API
   slug: charliehr-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-company-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-company-api-openapi.yml
 - filename: charliehr-leave-absences-api-openapi.yml
   format: yaml
   label: CharlieHR Leave / Absences API
   slug: charliehr-leave-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-leave-absences-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-leave-absences-api-openapi.yml
 - filename: charliehr-leave-allowances-api-openapi.yml
   format: yaml
   label: CharlieHR Leave Allowances API
   slug: charliehr-leave-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-leave-allowances-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-leave-allowances-api-openapi.yml
 - filename: charliehr-team-members-api-openapi.yml
   format: yaml
   label: CharlieHR Team Members API
   slug: charliehr-team-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-team-members-api-openapi.yml
+  url: https://artifacts.apis.io/charliehr/openapi/charliehr-team-members-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/charli
   \ listTeamMemberNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team_members/{id}/leave_requests\n  method: get\n  operationId: listTeamMemberLeaveRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team_members/{id}/leave_allowance\n  method: get\n  operationId: getTeamMemberLeaveAllowance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leave_requests\n  method: get\n  operationId: listLeaveRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leave_requests/{id}\n  method: get\n  operationId: getLeaveRequest\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leave_allowances\n  method: get\n  operationId: listLeaveAllowances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company\n  method: get\n  operationId: getCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offices\n  method: get\n  operationId: listOffices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offices/{id}\n  method: get\n  operationId: getOffice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId:\
   \ listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/agentic-access/charliehr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/charliehr/agentic-access/charliehr-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Human Resources

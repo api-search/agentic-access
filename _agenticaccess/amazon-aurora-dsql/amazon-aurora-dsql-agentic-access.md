@@ -9,13 +9,31 @@ api_specs:
   label: Amazon Aurora DSQL Clusters API
   slug: amazon-aurora-dsql-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/openapi/amazon-aurora-dsql-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-aurora-dsql/openapi/amazon-aurora-dsql-clusters-api-openapi.yml
+- filename: amazon-aurora-dsql-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Aurora DSQL Aurora Dsql Operations API
+  slug: amazon-aurora-dsql-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-aurora-dsql/openapi/amazon-aurora-dsql-operations-api-openapi.yml
+- filename: amazon-aurora-dsql-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Aurora DSQL Aurora Dsql Policy API
+  slug: amazon-aurora-dsql-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-aurora-dsql/openapi/amazon-aurora-dsql-policy-api-openapi.yml
+- filename: amazon-aurora-dsql-stream-api-openapi.yml
+  format: yaml
+  label: Amazon Aurora DSQL Aurora Dsql Stream API
+  slug: amazon-aurora-dsql-stream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-aurora-dsql/openapi/amazon-aurora-dsql-stream-api-openapi.yml
 - filename: amazon-aurora-dsql-multi-region-clusters-api-openapi.yml
   format: yaml
   label: Amazon Aurora DSQL Multi-Region Clusters API
   slug: amazon-aurora-dsql-multi-region-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/openapi/amazon-aurora-dsql-multi-region-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-aurora-dsql/openapi/amazon-aurora-dsql-multi-region-clusters-api-openapi.yml
 consequence_counts:
   read: 4
   write: 7
@@ -45,11 +63,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cluster/{identifier}\n  method: put\n  operationId: updateCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cluster/{identifier}\n  method: delete\n  operationId: deleteCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cluster/{identifier}/endpoint\n  method: get\n  operationId: getClusterEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /clusters\n  method: get\n  operationId: listClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /multi-region-clusters\n  method: post\n  operationId: createMultiRegionClusters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /multi-region-clusters\n  method: delete\n  operationId: deleteMultiRegionClusters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n\
   \  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: delete\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/agentic-access/amazon-aurora-dsql-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-aurora-dsql/agentic-access/amazon-aurora-dsql-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
 - Amazon Aurora DSQL
 - Distributed SQL
 - PostgreSQL
 - Serverless
+- Amazon Web Services
 ---

@@ -9,49 +9,49 @@ api_specs:
   label: Physna Collections API
   slug: physna-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-collections-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-collections-api-openapi.yml
 - filename: physna-deprecated-api-openapi.yml
   format: yaml
   label: Physna Deprecated API
   slug: physna-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-deprecated-api-openapi.yml
 - filename: physna-folders-api-openapi.yml
   format: yaml
   label: Physna Folders API
   slug: physna-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-folders-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-folders-api-openapi.yml
 - filename: physna-image-search-api-openapi.yml
   format: yaml
   label: Physna Image Search API
   slug: physna-image-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-image-search-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-image-search-api-openapi.yml
 - filename: physna-metadata-api-openapi.yml
   format: yaml
   label: Physna Metadata API
   slug: physna-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-metadata-api-openapi.yml
 - filename: physna-models-api-openapi.yml
   format: yaml
   label: Physna Models API
   slug: physna-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-models-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-models-api-openapi.yml
 - filename: physna-users-api-openapi.yml
   format: yaml
   label: Physna Users API
   slug: physna-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-users-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-users-api-openapi.yml
 - filename: physna-client-credentials-api-openapi.yml
   format: yaml
   label: Physna Client Credentials API
   slug: physna-client-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-client-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/physna/openapi/physna-client-credentials-api-openapi.yml
 consequence_counts:
   read: 37
   write: 35
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/physna
   \ write\n    subject: required\n    scope:\n    - Administrators\n    - Authors\n    - Viewers\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{id}/metadata/{metadataKeyId}\n  method: put\n  operationId: UpsertCollectionMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - Administrators\n    - Authors\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{id}/metadata/{metadataKeyId}\n  method: delete\n  operationId: DeleteCollectionMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - Administrators\n    - Authors\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /client-credentials\n  method: post\n  operationId: CreateClientCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - Administrators\n    - Authors\n    - Viewers\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /client-credentials\n  method: get\n  operationId: GetClientCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Administrators\n    - Authors\n    - Viewers\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client-credentials/{clientId}\n  method: delete\n  operationId: DeleteClientCredentials\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - Administrators\n    - Authors\n    - Viewers\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/agentic-access/physna-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/physna/agentic-access/physna-agentic-access.yml
 summary_line: 72 operations · 35 acting
 tags:
 - Company

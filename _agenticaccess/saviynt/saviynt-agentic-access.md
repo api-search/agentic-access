@@ -9,7 +9,7 @@ api_specs:
   label: Saviynt Analytics API
   slug: saviynt-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/openapi/saviynt-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/saviynt/openapi/saviynt-analytics-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/saviyn
   \ fetchControlDetails\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /runAnalyticsControls\n  method: post\n  operationId: runAnalyticsControls\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /fetchRuntimeControlsData\n  method: post\n  operationId: fetchRuntimeControlsData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fetchRuntimeControlsDataV2\n\
   \  method: post\n  operationId: fetchRuntimeControlsDataV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fetchControlAttributes\n  method: post\n  operationId: fetchControlAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /fetchControlListES\n  method: post\n  operationId: fetchControlListES\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\
   - path: /fetchControlDetailsES\n  method: post\n  operationId: fetchControlDetailsES\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/agentic-access/saviynt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/saviynt/agentic-access/saviynt-agentic-access.yml
 summary_line: 8 operations · 6 acting · 6 human-in-the-loop
 tags:
 - Identity Governance

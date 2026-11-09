@@ -8,37 +8,37 @@ api_specs:
   label: Octopus Deploy Accounts API
   slug: octopus-deploy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-accounts-api-openapi.yml
 - filename: octopus-deploy-environments-api-openapi.yml
   format: yaml
   label: Octopus Deploy Environments API
   slug: octopus-deploy-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-environments-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-environments-api-openapi.yml
 - filename: octopus-deploy-feeds-api-openapi.yml
   format: yaml
   label: Octopus Deploy Feeds API
   slug: octopus-deploy-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-feeds-api-openapi.yml
 - filename: octopus-deploy-machines-api-openapi.yml
   format: yaml
   label: Octopus Deploy Machines API
   slug: octopus-deploy-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-machines-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-machines-api-openapi.yml
 - filename: octopus-deploy-projects-api-openapi.yml
   format: yaml
   label: Octopus Deploy Projects API
   slug: octopus-deploy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-projects-api-openapi.yml
 - filename: octopus-deploy-root-api-openapi.yml
   format: yaml
   label: Octopus Deploy Root API
   slug: octopus-deploy-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-root-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-deploy/openapi/octopus-deploy-root-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/octopus-deploy-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Spaces-1/projects\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Spaces-1/environments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /Spaces-1/machines\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Spaces-1/accounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/agentic-access/octopus-deploy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/octopus-deploy/agentic-access/octopus-deploy-agentic-access.yml
 summary_line: 6 operations
 tags:
 - DevOps

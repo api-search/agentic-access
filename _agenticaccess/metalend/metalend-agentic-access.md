@@ -9,61 +9,61 @@ api_specs:
   label: MetaLend AI Agent Guide API
   slug: metalend-ai-agent-guide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-ai-agent-guide-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-ai-agent-guide-api-openapi.yml
 - filename: metalend-auth-api-openapi.yml
   format: yaml
   label: MetaLend Auth API
   slug: metalend-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-auth-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-auth-api-openapi.yml
 - filename: metalend-balances-api-openapi.yml
   format: yaml
   label: MetaLend Balances API
   slug: metalend-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-balances-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-balances-api-openapi.yml
 - filename: metalend-deposits-api-openapi.yml
   format: yaml
   label: MetaLend Deposits API
   slug: metalend-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-deposits-api-openapi.yml
 - filename: metalend-pools-api-openapi.yml
   format: yaml
   label: MetaLend Pools API
   slug: metalend-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-pools-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-pools-api-openapi.yml
 - filename: metalend-rewards-api-openapi.yml
   format: yaml
   label: MetaLend Rewards API
   slug: metalend-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-rewards-api-openapi.yml
 - filename: metalend-services-api-openapi.yml
   format: yaml
   label: MetaLend Services API
   slug: metalend-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-services-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-services-api-openapi.yml
 - filename: metalend-transaction-costs-api-openapi.yml
   format: yaml
   label: MetaLend Transaction Costs API
   slug: metalend-transaction-costs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-transaction-costs-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-transaction-costs-api-openapi.yml
 - filename: metalend-user-configuration-api-openapi.yml
   format: yaml
   label: MetaLend User Configuration API
   slug: metalend-user-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-user-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-user-configuration-api-openapi.yml
 - filename: metalend-withdrawals-api-openapi.yml
   format: yaml
   label: MetaLend Withdrawals API
   slug: metalend-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/openapi/metalend-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/metalend/openapi/metalend-withdrawals-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/metale
   \    audit: none\n- path: /v1/pools\n  method: get\n  operationId: getPools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/balances/{walletAddress}\n  method: get\n  operationId: getRebalancerBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/rewards/{walletAddress}\n  method: get\n  operationId: getRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transaction-costs/{token}\n  method: get\n  operationId: getTransactionCosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/auth/challenge\n  method: post\n  operationId: createAuthChallenge\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/auth/verify\n  method: post\n  operationId: verifyAuthChallenge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/balances/bridge/{walletAddress}\n  method: get\n  operationId: getBridgeBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/agentic-access/metalend-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/metalend/agentic-access/metalend-agentic-access.yml
 summary_line: 17 operations · 5 acting
 tags:
 - Company

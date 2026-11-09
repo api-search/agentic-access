@@ -9,109 +9,109 @@ api_specs:
   label: Enrich Email Finder API
   slug: enrich-so-email-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-finder-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-email-finder-api-openapi.yml
 - filename: enrich-so-lead-finder-api-openapi.yml
   format: yaml
   label: Enrich Lead Finder API
   slug: enrich-so-lead-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-lead-finder-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-lead-finder-api-openapi.yml
 - filename: enrich-so-phone-finder-api-openapi.yml
   format: yaml
   label: Enrich Phone Finder API
   slug: enrich-so-phone-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-phone-finder-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-phone-finder-api-openapi.yml
 - filename: enrich-so-teams-api-openapi.yml
   format: yaml
   label: Enrich Teams API
   slug: enrich-so-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-teams-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-teams-api-openapi.yml
 - filename: enrich-so-people-search-api-openapi.yml
   format: yaml
   label: Enrich People Search API
   slug: enrich-so-people-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-people-search-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-people-search-api-openapi.yml
 - filename: enrich-so-authentication-api-openapi.yml
   format: yaml
   label: Enrich Authentication API
   slug: enrich-so-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-authentication-api-openapi.yml
 - filename: enrich-so-company-followers-api-openapi.yml
   format: yaml
   label: Enrich Company Followers API
   slug: enrich-so-company-followers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-company-followers-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-company-followers-api-openapi.yml
 - filename: enrich-so-company-followers-count-estimation-api-openapi.yml
   format: yaml
   label: Enrich Company Followers/Count Estimation API
   slug: enrich-so-company-followers-count-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-company-followers-count-estimation-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-company-followers-count-estimation-api-openapi.yml
 - filename: enrich-so-email-validation-api-openapi.yml
   format: yaml
   label: Enrich Email Validation API
   slug: enrich-so-email-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-validation-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-email-validation-api-openapi.yml
 - filename: enrich-so-enrich-api-openapi.yml
   format: yaml
   label: Enrich API
   slug: enrich-so-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-enrich-api-openapi.yml
 - filename: enrich-so-ip-to-company-api-openapi.yml
   format: yaml
   label: Enrich IP to Company API
   slug: enrich-so-ip-to-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-ip-to-company-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-ip-to-company-api-openapi.yml
 - filename: enrich-so-reverse-email-lookup-api-openapi.yml
   format: yaml
   label: Enrich Reverse Email Lookup API
   slug: enrich-so-reverse-email-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-reverse-email-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-reverse-email-lookup-api-openapi.yml
 - filename: enrich-so-wallets-api-openapi.yml
   format: yaml
   label: Enrich Wallets API
   slug: enrich-so-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-wallets-api-openapi.yml
 - filename: enrich-so-account-api-openapi.yml
   format: yaml
   label: Enrich Account API
   slug: enrich-so-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-account-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-account-api-openapi.yml
 - filename: enrich-so-company-intelligence-api-openapi.yml
   format: yaml
   label: Enrich Company Intelligence API
   slug: enrich-so-company-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-company-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-company-intelligence-api-openapi.yml
 - filename: enrich-so-email-verification-api-openapi.yml
   format: yaml
   label: Enrich Email Verification API
   slug: enrich-so-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-email-verification-api-openapi.yml
 - filename: enrich-so-person-enrichment-api-openapi.yml
   format: yaml
   label: Enrich Person Enrichment API
   slug: enrich-so-person-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-person-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-person-enrichment-api-openapi.yml
 - filename: enrich-so-webhooks-api-openapi.yml
   format: yaml
   label: Enrich Webhooks API
   slug: enrich-so-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/openapi/enrich-so-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/enrich-so/openapi/enrich-so-webhooks-api-openapi.yml
 consequence_counts:
   read: 43
   write: 21
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/enrich
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /reverse-lookup/bulk-lookup\n  method: post\n  operationId: bulkReverseLookup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reverse-lookup/bulk-lookup/{batchId}\n  method: get\n  operationId: getBulkLookupStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reverse-lookup/bulk-lookup/{batchId}/results\n  method: get\n  operationId: getBulkLookupResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reverse-lookup/lookup\n  method: post\n  operationId: reverseLookup\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{teamId}/invitations\n  method: post\n  operationId: inviteTeamMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{teamId}/invitations\n  method: get\n  operationId: listTeamInvitations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{teamId}/invitations/{invitationId}\n  method: delete\n  operationId: cancelInvitation\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{teamId}/members\n  method: get\n  operationId: listTeamMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets/balance\n  method: get\n  operationId: getWalletBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets/transactions\n  method: get\n  operationId: getWalletTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/agentic-access/enrich-so-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/enrich-so/agentic-access/enrich-so-agentic-access.yml
 summary_line: 64 operations · 21 acting
 tags:
 - Data Enrichment

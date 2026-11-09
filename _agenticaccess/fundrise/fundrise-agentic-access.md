@@ -9,55 +9,55 @@ api_specs:
   label: Fundrise Acknowledgments API
   slug: fundrise-acknowledgments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-acknowledgments-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-acknowledgments-api-openapi.yml
 - filename: fundrise-authentication-api-openapi.yml
   format: yaml
   label: Fundrise Authentication API
   slug: fundrise-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-authentication-api-openapi.yml
 - filename: fundrise-clients-api-openapi.yml
   format: yaml
   label: Fundrise Clients API
   slug: fundrise-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-clients-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-clients-api-openapi.yml
 - filename: fundrise-holdings-api-openapi.yml
   format: yaml
   label: Fundrise Holdings API
   slug: fundrise-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-holdings-api-openapi.yml
 - filename: fundrise-investments-api-openapi.yml
   format: yaml
   label: Fundrise Investments API
   slug: fundrise-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-investments-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-investments-api-openapi.yml
 - filename: fundrise-liquidations-api-openapi.yml
   format: yaml
   label: Fundrise Liquidations API
   slug: fundrise-liquidations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-liquidations-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-liquidations-api-openapi.yml
 - filename: fundrise-offerings-api-openapi.yml
   format: yaml
   label: Fundrise Offerings API
   slug: fundrise-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-offerings-api-openapi.yml
 - filename: fundrise-tax-forms-api-openapi.yml
   format: yaml
   label: Fundrise Tax Forms API
   slug: fundrise-tax-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-tax-forms-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-tax-forms-api-openapi.yml
 - filename: fundrise-transactions-api-openapi.yml
   format: yaml
   label: Fundrise Transactions API
   slug: fundrise-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-transactions-api-openapi.yml
 consequence_counts:
   read: 10
   write: 7
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/fundri
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/client\n  method: post\n  operationId: CreateClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/client\n  method: get\n  operationId: GetClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/client\n  method: put\n  operationId: UpdateClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/{accountId}/investment\n\
   \  method: post\n  operationId: PlaceInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/{accountId}/investment/{transactionId}/cancel\n  method: put\n  operationId: CancelInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/{accountId}/tax-forms\n  method: get\n  operationId: GetTaxForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/{accountId}/transaction/{transactionType}/{transactionId}\n\
   \  method: get\n  operationId: GetTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/{accountId}/transactions\n  method: get\n  operationId: GetTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/agentic-access/fundrise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fundrise/agentic-access/fundrise-agentic-access.yml
 summary_line: 17 operations · 7 acting
 tags:
 - Company

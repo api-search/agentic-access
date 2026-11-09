@@ -14,43 +14,43 @@ api_specs:
   label: Westpac Banking Corporation Banking Account Balances API
   slug: westpac-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-balances-api-openapi.yml
 - filename: westpac-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Direct Debits API
   slug: westpac-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-direct-debits-api-openapi.yml
 - filename: westpac-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Scheduled Payments API
   slug: westpac-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-scheduled-payments-api-openapi.yml
 - filename: westpac-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Transactions API
   slug: westpac-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-transactions-api-openapi.yml
 - filename: westpac-banking-accounts-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Accounts API
   slug: westpac-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-accounts-api-openapi.yml
 - filename: westpac-banking-payees-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Payees API
   slug: westpac-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-payees-api-openapi.yml
 - filename: westpac-banking-products-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Products API
   slug: westpac-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-products-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/westpa
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}/payments/plans\n  method: get\n  operationId: listInstalmentPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/payments/plans\n  method: get\n  operationId: listInstalmentPlansBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}/transactions\n  method: get\n  operationId: listBankingTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}/transactions/{transactionId}\n  method: get\n  operationId: getBankingTransactionDetail\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts\n  method: get\n  operationId: listBankingAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}\n  method: get\n  operationId: getBankingAccountDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payees\n  method: get\n  operationId: listBankingPayees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payees/{payeeId}\n  method: get\n  operationId: getBankingPayeeDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /banking/products\n  method: get\n  operationId: listBankingProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/products/{productId}\n  method: get\n  operationId: getBankingProductDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/agentic-access/westpac-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/westpac/agentic-access/westpac-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Finance

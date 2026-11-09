@@ -9,73 +9,73 @@ api_specs:
   label: Gingr Invoices API
   slug: gingr-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-invoices-api-openapi.yml
 - filename: gingr-payments-api-openapi.yml
   format: yaml
   label: Gingr Payments API
   slug: gingr-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-payments-api-openapi.yml
 - filename: gingr-pets-api-openapi.yml
   format: yaml
   label: Gingr Pets API
   slug: gingr-pets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-pets-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-pets-api-openapi.yml
 - filename: gingr-booking-type-rates-api-openapi.yml
   format: yaml
   label: Gingr Booking Type Rates API
   slug: gingr-booking-type-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-booking-type-rates-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-booking-type-rates-api-openapi.yml
 - filename: gingr-bookings-api-openapi.yml
   format: yaml
   label: Gingr Bookings API
   slug: gingr-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-bookings-api-openapi.yml
 - filename: gingr-card-on-file-api-openapi.yml
   format: yaml
   label: Gingr Card On File API
   slug: gingr-card-on-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-card-on-file-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-card-on-file-api-openapi.yml
 - filename: gingr-config-api-openapi.yml
   format: yaml
   label: Gingr Config API
   slug: gingr-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-config-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-config-api-openapi.yml
 - filename: gingr-group-classes-api-openapi.yml
   format: yaml
   label: Gingr Group Classes API
   slug: gingr-group-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-group-classes-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-group-classes-api-openapi.yml
 - filename: gingr-parents-api-openapi.yml
   format: yaml
   label: Gingr Parents API
   slug: gingr-parents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-parents-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-parents-api-openapi.yml
 - filename: gingr-payment-api-openapi.yml
   format: yaml
   label: Gingr Payment API
   slug: gingr-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-payment-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-payment-api-openapi.yml
 - filename: gingr-precheck-api-openapi.yml
   format: yaml
   label: Gingr Precheck API
   slug: gingr-precheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-precheck-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-precheck-api-openapi.yml
 - filename: gingr-upload-api-openapi.yml
   format: yaml
   label: Gingr Upload API
   slug: gingr-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-upload-api-openapi.yml
+  url: https://artifacts.apis.io/gingr/openapi/gingr-upload-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 26
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gingr-
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/deposits/{depositId}\n  method: post\n  operationId: v1PaymentsPayDeposit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pets/{petId}/immunizations\n  method: get\n  operationId: v1PetsImmunizationsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/pets/{petId}/immunizations/{immunizationTypeId}\n  method: put\n  operationId: v1PetsImmunizationsUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pets/immunization/expired\n  method: get\n  operationId: v1PetsImmunizationExpired\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/config/immunization-types\n  method: get\n  operationId: v1ConfigImmunizationTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pets/{petId}/report-cards\n  method: get\n  operationId: v1PetsReportCardsList\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pets/{petId}/report-cards/{reportCardId}\n  method: get\n  operationId: v1ReportCardDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pets/report-card-media\n  method: get\n  operationId: v1ReportCardMediaList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/config/report-card-form\n  method: get\n  operationId: v1ConfigReportCardForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/agentic-access/gingr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gingr/agentic-access/gingr-agentic-access.yml
 summary_line: 48 operations · 22 acting
 tags:
 - Pet Care

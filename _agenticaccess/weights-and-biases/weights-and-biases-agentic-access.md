@@ -9,55 +9,55 @@ api_specs:
   label: Weights & Biases Calls API
   slug: weights-and-biases-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/openapi/weights-and-biases-calls-api-openapi.yml
+  url: https://artifacts.apis.io/weights-and-biases/openapi/weights-and-biases-calls-api-openapi.yml
 - filename: weights-and-biases-costs-api-openapi.yml
   format: yaml
   label: Weights & Biases Costs API
   slug: weights-and-biases-costs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/openapi/weights-and-biases-costs-api-openapi.yml
+  url: https://artifacts.apis.io/weights-and-biases/openapi/weights-and-biases-costs-api-openapi.yml
 - filename: weights-and-biases-feedback-api-openapi.yml
   format: yaml
   label: Weights & Biases Feedback API
   slug: weights-and-biases-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/openapi/weights-and-biases-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/weights-and-biases/openapi/weights-and-biases-feedback-api-openapi.yml
 - filename: weights-and-biases-files-api-openapi.yml
   format: yaml
   label: Weights & Biases Files API
   slug: weights-and-biases-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/openapi/weights-and-biases-files-api-openapi.yml
+  url: https://artifacts.apis.io/weights-and-biases/openapi/weights-and-biases-files-api-openapi.yml
 - filename: weights-and-biases-objects-api-openapi.yml
   format: yaml
   label: Weights & Biases Objects API
   slug: weights-and-biases-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/openapi/weights-and-biases-objects-api-openapi.yml
+  url: https://artifacts.apis.io/weights-and-biases/openapi/weights-and-biases-objects-api-openapi.yml
 - filename: weights-and-biases-refs-api-openapi.yml
   format: yaml
   label: Weights & Biases Refs API
   slug: weights-and-biases-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/openapi/weights-and-biases-refs-api-openapi.yml
+  url: https://artifacts.apis.io/weights-and-biases/openapi/weights-and-biases-refs-api-openapi.yml
 - filename: weights-and-biases-service-api-openapi.yml
   format: yaml
   label: Weights & Biases Service API
   slug: weights-and-biases-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/openapi/weights-and-biases-service-api-openapi.yml
+  url: https://artifacts.apis.io/weights-and-biases/openapi/weights-and-biases-service-api-openapi.yml
 - filename: weights-and-biases-table-api-openapi.yml
   format: yaml
   label: Weights & Biases Table API
   slug: weights-and-biases-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/openapi/weights-and-biases-table-api-openapi.yml
+  url: https://artifacts.apis.io/weights-and-biases/openapi/weights-and-biases-table-api-openapi.yml
 - filename: weights-and-biases-tables-api-openapi.yml
   format: yaml
   label: Weights & Biases Tables API
   slug: weights-and-biases-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/openapi/weights-and-biases-tables-api-openapi.yml
+  url: https://artifacts.apis.io/weights-and-biases/openapi/weights-and-biases-tables-api-openapi.yml
 consequence_counts:
   read: 2
   write: 27
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/weight
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cost/create\n  method: post\n  operationId: cost_create_cost_create_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cost/query\n  method: post\n  operationId: cost_query_cost_query_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cost/purge\n  method:\
   \ post\n  operationId: cost_purge_cost_purge_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback/create\n  method: post\n  operationId: feedback_create_feedback_create_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback/query\n  method: post\n  operationId: feedback_query_feedback_query_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /feedback/purge\n  method: post\n  operationId: feedback_purge_feedback_purge_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback/replace\n  method: post\n  operationId: feedback_replace_feedback_replace_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/agentic-access/weights-and-biases-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weights-and-biases/agentic-access/weights-and-biases-agentic-access.yml
 summary_line: 29 operations · 27 acting
 tags:
 - Machine Learning

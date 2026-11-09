@@ -103,9 +103,8 @@ source_yaml_url: https://artifacts.apis.io/sarnai-dev/agentic-access/sarnai-dev-
 summary_line: 33 operations · 11 acting
 tags:
 - Company
-- AI
-- Marketplace
+- Artificial Intelligence
 - Agents
 - Directory
-- Open-Source
+- Platform
 ---

@@ -9,25 +9,25 @@ api_specs:
   label: Gravatar Avatars API
   slug: gravatar-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-avatars-api-openapi.yml
 - filename: gravatar-experimental-api-openapi.yml
   format: yaml
   label: Gravatar Experimental API
   slug: gravatar-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-experimental-api-openapi.yml
 - filename: gravatar-profiles-api-openapi.yml
   format: yaml
   label: Gravatar Profiles API
   slug: gravatar-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-profiles-api-openapi.yml
 - filename: gravatar-qr-code-api-openapi.yml
   format: yaml
   label: Gravatar Qr Code API
   slug: gravatar-qr-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-qr-code-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-qr-code-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   - path: /verified-accounts/services\n  method: get\n  operationId: getVerifiedAccountServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qr-code/{sha256_hash}\n  method: get\n  operationId: getQrCodeBySha256Hash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/profile\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/profile\n  method: patch\n  operationId: updateProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /me/associated-email\n  method: get\n  operationId: associatedEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/avatars\n  method: get\n  operationId: getAvatars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/avatars\n  method: post\n  operationId: uploadAvatar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/avatars/{imageHash}\n  method: delete\n  operationId: deleteAvatar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/avatars/{imageHash}\n  method: patch\n  operationId: updateAvatar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/avatars/{imageId}/email\n  method: post\n  operationId: setEmailAvatar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/agentic-access/gravatar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gravatar/agentic-access/gravatar-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Avatars

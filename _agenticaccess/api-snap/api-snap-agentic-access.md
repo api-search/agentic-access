@@ -9,31 +9,31 @@ api_specs:
   label: API Snap Browser API
   slug: api-snap-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-browser-api-openapi.yml
+  url: https://artifacts.apis.io/api-snap/openapi/api-snap-browser-api-openapi.yml
 - filename: api-snap-documents-api-openapi.yml
   format: yaml
   label: API Snap Documents API
   slug: api-snap-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-documents-api-openapi.yml
+  url: https://artifacts.apis.io/api-snap/openapi/api-snap-documents-api-openapi.yml
 - filename: api-snap-images-api-openapi.yml
   format: yaml
   label: API Snap Images API
   slug: api-snap-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-images-api-openapi.yml
+  url: https://artifacts.apis.io/api-snap/openapi/api-snap-images-api-openapi.yml
 - filename: api-snap-security-api-openapi.yml
   format: yaml
   label: API Snap Security API
   slug: api-snap-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-security-api-openapi.yml
+  url: https://artifacts.apis.io/api-snap/openapi/api-snap-security-api-openapi.yml
 - filename: api-snap-utilities-api-openapi.yml
   format: yaml
   label: API Snap Utilities API
   slug: api-snap-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/openapi/api-snap-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/api-snap/openapi/api-snap-utilities-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/api-sn
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/uuid\n  method: get\n  operationId: generateId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/meta\n  method: get\n  operationId: extractUrlMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/base64\n  method: post\n  operationId: base64EncodeDecode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/jwt-decode\n  method: post\n  operationId:\
   \ decodeJwt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/color\n  method: get\n  operationId: convertColor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lorem\n  method: get\n  operationId: generateLoremIpsum\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/markdown\n  method: post\n  operationId: markdownToHtml\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/placeholder\n  method: get\n  operationId: generatePlaceholderImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/agentic-access/api-snap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/api-snap/agentic-access/api-snap-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - API Utilities

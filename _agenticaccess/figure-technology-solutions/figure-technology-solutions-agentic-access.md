@@ -9,49 +9,49 @@ api_specs:
   label: Figure Technology Solutions Encryption API
   slug: figure-technology-solutions-encryption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-encryption-api-openapi.yml
+  url: https://artifacts.apis.io/figure-technology-solutions/openapi/figure-technology-solutions-encryption-api-openapi.yml
 - filename: figure-technology-solutions-heloc-application-requests-api-openapi.yml
   format: yaml
   label: Figure Technology Solutions HELOC application requests API
   slug: figure-technology-solutions-heloc-application-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-heloc-application-requests-api-openapi.yml
+  url: https://artifacts.apis.io/figure-technology-solutions/openapi/figure-technology-solutions-heloc-application-requests-api-openapi.yml
 - filename: figure-technology-solutions-heloc-offers-api-openapi.yml
   format: yaml
   label: Figure Technology Solutions HELOC Offers API
   slug: figure-technology-solutions-heloc-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-heloc-offers-api-openapi.yml
+  url: https://artifacts.apis.io/figure-technology-solutions/openapi/figure-technology-solutions-heloc-offers-api-openapi.yml
 - filename: figure-technology-solutions-loan-originator-requests-api-openapi.yml
   format: yaml
   label: Figure Technology Solutions Loan Originator requests API
   slug: figure-technology-solutions-loan-originator-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-loan-originator-requests-api-openapi.yml
+  url: https://artifacts.apis.io/figure-technology-solutions/openapi/figure-technology-solutions-loan-originator-requests-api-openapi.yml
 - filename: figure-technology-solutions-loan-tape-v1-api-openapi.yml
   format: yaml
   label: Figure Technology Solutions Loan Tape V1 API
   slug: figure-technology-solutions-loan-tape-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-loan-tape-v1-api-openapi.yml
+  url: https://artifacts.apis.io/figure-technology-solutions/openapi/figure-technology-solutions-loan-tape-v1-api-openapi.yml
 - filename: figure-technology-solutions-loan-tape-v2-api-openapi.yml
   format: yaml
   label: Figure Technology Solutions Loan Tape V2 API
   slug: figure-technology-solutions-loan-tape-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-loan-tape-v2-api-openapi.yml
+  url: https://artifacts.apis.io/figure-technology-solutions/openapi/figure-technology-solutions-loan-tape-v2-api-openapi.yml
 - filename: figure-technology-solutions-payment-history-v1-api-openapi.yml
   format: yaml
   label: Figure Technology Solutions Payment History V1 API
   slug: figure-technology-solutions-payment-history-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-payment-history-v1-api-openapi.yml
+  url: https://artifacts.apis.io/figure-technology-solutions/openapi/figure-technology-solutions-payment-history-v1-api-openapi.yml
 - filename: figure-technology-solutions-payment-history-v2-api-openapi.yml
   format: yaml
   label: Figure Technology Solutions Payment History V2 API
   slug: figure-technology-solutions-payment-history-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/openapi/figure-technology-solutions-payment-history-v2-api-openapi.yml
+  url: https://artifacts.apis.io/figure-technology-solutions/openapi/figure-technology-solutions-payment-history-v2-api-openapi.yml
 consequence_counts:
   read: 22
   write: 14
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/figure
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/secure/api/v1/portfolio/download/pledged/{assetType}/{layout}/{date}\n  method: get\n  operationId: getExternalSecureApiV1PortfolioDownloadPledgedByAssetTypeByLayoutByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/secure/api/v2/portfolio/asset/types\n  method: get\n  operationId: getExternalSecureApiV2PortfolioAssetTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/secure/api/v2/portfolio/layouts\n  method: get\n  operationId: getExternalSecureApiV2PortfolioLayouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/secure/api/v2/portfolio/download/owned/{layout}\n\
   \  method: get\n  operationId: getExternalSecureApiV2PortfolioDownloadOwnedByLayout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/secure/api/v1/portfolio/download/owned/payment-history\n  method: get\n  operationId: getExternalSecureApiV1PortfolioDownloadOwnedPaymentHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/secure/api/v1/portfolio/download/owned/payment-history/{assetType}/{reportDate}\n  method: get\n  operationId: getExternalSecureApiV1PortfolioDownloadOwnedPaymentHistoryByAssetTypeByReportDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/secure/api/v1/portfolio/download/owned/payment-history/{assetType}/{reportStartDate}/{reportEndDate}\n\
   \  method: get\n  operationId: getExternalSecureApiV1PortfolioDownloadOwnedPaymentHistoryByAssetTypeByReportStartDateByReportEndDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/secure/api/v2/portfolio/download/owned/payment-history\n  method: get\n  operationId: getExternalSecureApiV2PortfolioDownloadOwnedPaymentHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/agentic-access/figure-technology-solutions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/figure-technology-solutions/agentic-access/figure-technology-solutions-agentic-access.yml
 summary_line: 36 operations · 14 acting
 tags:
 - Company

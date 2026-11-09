@@ -8,25 +8,25 @@ api_specs:
   label: KPMG Locations API
   slug: kpmg-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-locations-api-openapi.yml
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-locations-api-openapi.yml
 - filename: kpmg-organizations-api-openapi.yml
   format: yaml
   label: KPMG Organizations API
   slug: kpmg-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-organizations-api-openapi.yml
 - filename: kpmg-producttemplates-api-openapi.yml
   format: yaml
   label: KPMG Product Templates API
   slug: kpmg-producttemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-producttemplates-api-openapi.yml
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-producttemplates-api-openapi.yml
 - filename: kpmg-token-api-openapi.yml
   format: yaml
   label: KPMG Token API
   slug: kpmg-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-token-api-openapi.yml
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-token-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kpmg-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /client-api/v4/swagger.json\n  method: get\n  operationId: movementsV4Swagger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client-api/v3/swagger.json\n  method: get\n  operationId: movementsV3Swagger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client-api/v2/swagger.json\n  method:\
   \ get\n  operationId: movementsV2Swagger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cr/client-api/v1/swagger.json\n  method: get\n  operationId: registriesV1Swagger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client-api/swagger/\n  method: get\n  operationId: movementsSwaggerUi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cr/client-api/swagger/\n  method: get\n  operationId: registriesSwaggerUi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/agentic-access/kpmg-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kpmg/agentic-access/kpmg-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Consulting

@@ -9,163 +9,163 @@ api_specs:
   label: Affise Admin Adcosts API
   slug: affise-admin-adcosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-adcosts-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-adcosts-api-openapi.yml
 - filename: affise-admin-advertisers-api-openapi.yml
   format: yaml
   label: Affise Admin Advertisers API
   slug: affise-admin-advertisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-advertisers-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-advertisers-api-openapi.yml
 - filename: affise-admin-affiliates-api-openapi.yml
   format: yaml
   label: Affise Admin Affiliates API
   slug: affise-admin-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-affiliates-api-openapi.yml
 - filename: affise-admin-automation-api-openapi.yml
   format: yaml
   label: Affise Admin Automation API
   slug: affise-admin-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-automation-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-automation-api-openapi.yml
 - filename: affise-admin-billing-api-openapi.yml
   format: yaml
   label: Affise Admin Billing API
   slug: affise-admin-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-billing-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-billing-api-openapi.yml
 - filename: affise-admin-conversions-api-openapi.yml
   format: yaml
   label: Affise Admin Conversions API
   slug: affise-admin-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-conversions-api-openapi.yml
 - filename: affise-admin-offers-api-openapi.yml
   format: yaml
   label: Affise Admin Offers API
   slug: affise-admin-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-offers-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-offers-api-openapi.yml
 - filename: affise-admin-other-api-openapi.yml
   format: yaml
   label: Affise Admin Other API
   slug: affise-admin-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-other-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-other-api-openapi.yml
 - filename: affise-admin-payments-api-openapi.yml
   format: yaml
   label: Affise Admin Payments API
   slug: affise-admin-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-payments-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-payments-api-openapi.yml
 - filename: affise-admin-presets-api-openapi.yml
   format: yaml
   label: Affise Admin Presets API
   slug: affise-admin-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-presets-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-presets-api-openapi.yml
 - filename: affise-admin-smartlinks-api-openapi.yml
   format: yaml
   label: Affise Admin Smartlinks API
   slug: affise-admin-smartlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-smartlinks-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-smartlinks-api-openapi.yml
 - filename: affise-admin-stats-api-openapi.yml
   format: yaml
   label: Affise Admin Stats API
   slug: affise-admin-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-stats-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-stats-api-openapi.yml
 - filename: affise-admin-tickets-api-openapi.yml
   format: yaml
   label: Affise Admin Tickets API
   slug: affise-admin-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-tickets-api-openapi.yml
 - filename: affise-admin-users-api-openapi.yml
   format: yaml
   label: Affise Admin Users API
   slug: affise-admin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-admin-users-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-admin-users-api-openapi.yml
 - filename: affise-advertiser-auth-api-openapi.yml
   format: yaml
   label: Affise Advertiser Auth API
   slug: affise-advertiser-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-advertiser-auth-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-advertiser-auth-api-openapi.yml
 - filename: affise-advertiser-offers-api-openapi.yml
   format: yaml
   label: Affise Advertiser Offers API
   slug: affise-advertiser-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-advertiser-offers-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-advertiser-offers-api-openapi.yml
 - filename: affise-advertiser-stats-api-openapi.yml
   format: yaml
   label: Affise Advertiser Stats API
   slug: affise-advertiser-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-advertiser-stats-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-advertiser-stats-api-openapi.yml
 - filename: affise-affiliate-conversions-api-openapi.yml
   format: yaml
   label: Affise Affiliate Conversions API
   slug: affise-affiliate-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-conversions-api-openapi.yml
 - filename: affise-affiliate-news-api-openapi.yml
   format: yaml
   label: Affise Affiliate News API
   slug: affise-affiliate-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-news-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-news-api-openapi.yml
 - filename: affise-affiliate-offers-api-openapi.yml
   format: yaml
   label: Affise Affiliate Offers API
   slug: affise-affiliate-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-offers-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-offers-api-openapi.yml
 - filename: affise-affiliate-other-api-openapi.yml
   format: yaml
   label: Affise Affiliate Other API
   slug: affise-affiliate-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-other-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-other-api-openapi.yml
 - filename: affise-affiliate-pixels-api-openapi.yml
   format: yaml
   label: Affise Affiliate Pixels API
   slug: affise-affiliate-pixels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-pixels-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-pixels-api-openapi.yml
 - filename: affise-affiliate-postbacks-api-openapi.yml
   format: yaml
   label: Affise Affiliate Postbacks API
   slug: affise-affiliate-postbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-postbacks-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-postbacks-api-openapi.yml
 - filename: affise-affiliate-profile-api-openapi.yml
   format: yaml
   label: Affise Affiliate Profile API
   slug: affise-affiliate-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-profile-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-profile-api-openapi.yml
 - filename: affise-affiliate-smartlinks-api-openapi.yml
   format: yaml
   label: Affise Affiliate Smartlinks API
   slug: affise-affiliate-smartlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-smartlinks-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-smartlinks-api-openapi.yml
 - filename: affise-affiliate-stats-api-openapi.yml
   format: yaml
   label: Affise Affiliate Stats API
   slug: affise-affiliate-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-affiliate-stats-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-affiliate-stats-api-openapi.yml
 - filename: affise-resources-api-openapi.yml
   format: yaml
   label: Affise Resources API
   slug: affise-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/openapi/affise-resources-api-openapi.yml
+  url: https://artifacts.apis.io/affise/openapi/affise-resources-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 140
@@ -319,8 +319,8 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/affise
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /3.0/stats/custom\n  method: get\n  operationId: get30StatsCustom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/conversionsbyid\n  method: get\n  operationId: get30StatsConversionsbyid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/conversions\n  method: get\n  operationId: get30StatsConversions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbydate\n\
   \  method: get\n  operationId: get30StatsGetbydate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbyhour\n  method: get\n  operationId: get30StatsGetbyhour\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbyprogram\n  method: get\n  operationId: get30StatsGetbyprogram\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbyadvertiser\n  method: get\n  operationId: get30StatsGetbyadvertiser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbyaccountmanager\n  method: get\n  operationId: get30StatsGetbyaccountmanager\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbyaffiliatemanager\n  method: get\n  operationId: get30StatsGetbyaffiliatemanager\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbypartner\n  method: get\n  operationId: get30StatsGetbypartner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbypartnerbydate\n  method: get\n  operationId: get30StatsGetbypartnerbydate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbycountries\n  method: get\n  operationId: get30StatsGetbycountries\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbybrowsers\n  method: get\n  operationId: get30StatsGetbybrowsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbybrowsersversion\n  method: get\n  operationId: get30StatsGetbybrowsersversion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbylanding\n  method: get\n  operationId: get30StatsGetbylanding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/agentic-access/affise-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/agentic-access/affise-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbybrowsers\n  method: get\n  operationId: get30StatsGetbybrowsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbybrowsersversion\n  method: get\n  operationId: get30StatsGetbybrowsersversion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.0/stats/getbylanding\n  method: get\n  operationId: get30StatsGetbylanding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://artifacts.apis.io/affise/agentic-access/affise-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/affise/agentic-access/affise-agentic-access.yml
 summary_line: 216 operations · 76 acting · 7 human-in-the-loop
 tags:
 - Affiliate Marketing

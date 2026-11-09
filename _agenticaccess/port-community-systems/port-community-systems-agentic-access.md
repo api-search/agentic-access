@@ -9,31 +9,31 @@ api_specs:
   label: Port Community Systems CargoManifests API
   slug: port-community-systems-cargomanifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-cargomanifests-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-cargomanifests-api-openapi.yml
 - filename: port-community-systems-containers-api-openapi.yml
   format: yaml
   label: Port Community Systems Containers API
   slug: port-community-systems-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-containers-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-containers-api-openapi.yml
 - filename: port-community-systems-customsdeclarations-api-openapi.yml
   format: yaml
   label: Port Community Systems CustomsDeclarations API
   slug: port-community-systems-customsdeclarations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-customsdeclarations-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-customsdeclarations-api-openapi.yml
 - filename: port-community-systems-hazardouscargo-api-openapi.yml
   format: yaml
   label: Port Community Systems HazardousCargo API
   slug: port-community-systems-hazardouscargo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-hazardouscargo-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-hazardouscargo-api-openapi.yml
 - filename: port-community-systems-vesselcalls-api-openapi.yml
   format: yaml
   label: Port Community Systems VesselCalls API
   slug: port-community-systems-vesselcalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-vesselcalls-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-vesselcalls-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/portba
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vessel-calls/{vesselCallId}\n  method: get\n  operationId: getVesselCall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel-calls/{vesselCallId}\n  method: put\n  operationId: updateVesselCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cargo-manifests\n  method: post\n  operationId: submitCargoManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /cargo-manifests/{manifestId}\n  method: get\n  operationId: getCargoManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customs/import-declarations\n  method: post\n  operationId: submitImportDeclaration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /containers/{containerId}\n  method: get\n  operationId: getContainer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hazardous-cargo\n  method: post\n  operationId: submitHazardousCargoDeclaration\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/agentic-access/port-community-systems-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/port-community-systems/agentic-access/port-community-systems-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Maritime

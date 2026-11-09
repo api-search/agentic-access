@@ -9,19 +9,19 @@ api_specs:
   label: Kurly Authentication API
   slug: kurly-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/kurly/openapi/kurly-authentication-api-openapi.yml
 - filename: kurly-default-api-openapi.yml
   format: yaml
   label: Kurly 배송운영 정책 API
   slug: kurly-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-default-api-openapi.yml
+  url: https://artifacts.apis.io/kurly/openapi/kurly-default-api-openapi.yml
 - filename: kurly-delivery-tracking-api-openapi.yml
   format: yaml
   label: Kurly Delivery Tracking (배송추적) API
   slug: kurly-delivery-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/openapi/kurly-delivery-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/kurly/openapi/kurly-delivery-tracking-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 19
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kurly-
   \ none\n- path: /api/fulfillment/v2/orders/bulk\n  method: post\n  operationId: createOrdersBulkV2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fulfillment/v2/orders\n  method: post\n  operationId: createOrderV2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fulfillment/v1/orders\n  method: get\n  operationId: findOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/fulfillment/v2/orders/bulk/cancel\n  method: put\n  operationId: cancelOrdersBulkV2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fulfillment/v2/orders/cancel\n  method: put\n  operationId: cancelOrderV2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fulfillment/v1/operation-plans/bulk\n  method: post\n  operationId:\
   \ findOperationPlansBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/fulfillment/v1/operation-plans\n  method: post\n  operationId: findOperationPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/couriers/{courier}/trackings/{invoiceNumber}\n  method: get\n  operationId: findDeliveryTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/agentic-access/kurly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kurly/agentic-access/kurly-agentic-access.yml
 summary_line: 33 operations · 14 acting
 tags:
 - Company

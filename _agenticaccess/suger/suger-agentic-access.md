@@ -9,67 +9,67 @@ api_specs:
   label: Suger Billing API
   slug: suger-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-billing-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-billing-api-openapi.yml
 - filename: suger-buyer-api-openapi.yml
   format: yaml
   label: Suger Buyer API
   slug: suger-buyer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-buyer-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-buyer-api-openapi.yml
 - filename: suger-contact-api-openapi.yml
   format: yaml
   label: Suger Contact API
   slug: suger-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-contact-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-contact-api-openapi.yml
 - filename: suger-entitlement-api-openapi.yml
   format: yaml
   label: Suger Entitlement API
   slug: suger-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-entitlement-api-openapi.yml
 - filename: suger-metering-api-openapi.yml
   format: yaml
   label: Suger Metering API
   slug: suger-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-metering-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-metering-api-openapi.yml
 - filename: suger-notification-api-openapi.yml
   format: yaml
   label: Suger Notification API
   slug: suger-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-notification-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-notification-api-openapi.yml
 - filename: suger-offer-api-openapi.yml
   format: yaml
   label: Suger Offer API
   slug: suger-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-offer-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-offer-api-openapi.yml
 - filename: suger-product-api-openapi.yml
   format: yaml
   label: Suger Product API
   slug: suger-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-product-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-product-api-openapi.yml
 - filename: suger-report-api-openapi.yml
   format: yaml
   label: Suger Report API
   slug: suger-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-report-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-report-api-openapi.yml
 - filename: suger-support-api-openapi.yml
   format: yaml
   label: Suger Support API
   slug: suger-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-support-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-support-api-openapi.yml
 - filename: suger-org-api-openapi.yml
   format: yaml
   label: Suger Org API
   slug: suger-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/openapi/suger-org-api-openapi.yml
+  url: https://artifacts.apis.io/suger/openapi/suger-org-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 43
@@ -165,8 +165,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/suger-
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{orgId}/product/{productId}/publish\n  method: patch\n  operationId: PublishProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{orgId}/dailyRevenueRecord\n  method: get\n  operationId: ListDailyRevenueRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{orgId}/partner/{partner}/revenueRecord\n  method: get\n  operationId: ListRevenueRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{orgId}/partner/{partner}/revenueRecordDetail\n  method: get\n  operationId: ListRevenueRecordDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{orgId}/partner/{partner}/usageMeteringDailyRecord\n  method: get\n  operationId: ListUsageMeteringDailyRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{orgId}/revenueReport\n  method: post\n  operationId: GetRevenueReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{orgId}/support/ticket\n  method: get\n  operationId: ListSupportTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{orgId}/support/ticket\n  method: post\n  operationId: CreateSupportTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{orgId}/support/ticket/{ticketId}\n  method: get\n  operationId: GetSupportTicket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{orgId}/support/ticket/{ticketId}\n  method: patch\n  operationId: UpdateSupportTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/agentic-access/suger-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/agentic-access/suger-agentic-access.yml
+  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/suger/agentic-access/suger-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/suger/agentic-access/suger-agentic-access.yml
 summary_line: 106 operations · 63 acting
 tags:
 - Cloud Marketplace

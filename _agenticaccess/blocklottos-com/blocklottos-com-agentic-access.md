@@ -9,25 +9,25 @@ api_specs:
   label: Block Lottos Advertising API
   slug: blocklottos-com-advertising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-advertising-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-advertising-api-openapi.yml
 - filename: blocklottos-com-affiliate-api-openapi.yml
   format: yaml
   label: Block Lottos Affiliate API
   slug: blocklottos-com-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-affiliate-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-affiliate-api-openapi.yml
 - filename: blocklottos-com-agents-api-openapi.yml
   format: yaml
   label: Block Lottos Agents API
   slug: blocklottos-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-agents-api-openapi.yml
 - filename: blocklottos-com-lottery-api-openapi.yml
   format: yaml
   label: Block Lottos Lottery API
   slug: blocklottos-com-lottery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/openapi/blocklottos-com-lottery-api-openapi.yml
+  url: https://artifacts.apis.io/blocklottos-com/openapi/blocklottos-com-lottery-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 12
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/blockl
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/ads/activate/pay\n  method: post\n  operationId: confirmAdActivationPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/lottery/jackpot\n  method: get\n  operationId: getLotteryJackpotAlias\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lottery/stats\n  method: get\n  operationId: getLotteryStatsAlias\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lottery/agent-capabilities\n  method:\
   \ get\n  operationId: getBaseAgentCapabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lottery/agent-referral\n  method: post\n  operationId: getOrCreateUnifiedAffiliateProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/lottery/agent-purchase\n  method: post\n  operationId: prepareBaseAgentPurchase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/lottery/confirm-ticket-tx\n  method: post\n  operationId: confirmBaseTicketPurchase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blocklottos-com/refs/heads/main/agentic-access/blocklottos-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blocklottos-com/agentic-access/blocklottos-com-agentic-access.yml
 summary_line: 20 operations · 8 acting
 tags:
 - Company

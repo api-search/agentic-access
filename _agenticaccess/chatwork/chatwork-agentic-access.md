@@ -9,55 +9,55 @@ api_specs:
   label: Chatwork Contacts API
   slug: chatwork-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/chatwork/openapi/chatwork-contacts-api-openapi.yml
 - filename: chatwork-files-api-openapi.yml
   format: yaml
   label: Chatwork Files API
   slug: chatwork-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-files-api-openapi.yml
+  url: https://artifacts.apis.io/chatwork/openapi/chatwork-files-api-openapi.yml
 - filename: chatwork-incoming-requests-api-openapi.yml
   format: yaml
   label: Chatwork Incoming Requests API
   slug: chatwork-incoming-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-incoming-requests-api-openapi.yml
+  url: https://artifacts.apis.io/chatwork/openapi/chatwork-incoming-requests-api-openapi.yml
 - filename: chatwork-link-api-openapi.yml
   format: yaml
   label: Chatwork Link API
   slug: chatwork-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-link-api-openapi.yml
+  url: https://artifacts.apis.io/chatwork/openapi/chatwork-link-api-openapi.yml
 - filename: chatwork-me-api-openapi.yml
   format: yaml
   label: Chatwork Me API
   slug: chatwork-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-me-api-openapi.yml
+  url: https://artifacts.apis.io/chatwork/openapi/chatwork-me-api-openapi.yml
 - filename: chatwork-members-api-openapi.yml
   format: yaml
   label: Chatwork Members API
   slug: chatwork-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-members-api-openapi.yml
+  url: https://artifacts.apis.io/chatwork/openapi/chatwork-members-api-openapi.yml
 - filename: chatwork-messages-api-openapi.yml
   format: yaml
   label: Chatwork Messages API
   slug: chatwork-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-messages-api-openapi.yml
+  url: https://artifacts.apis.io/chatwork/openapi/chatwork-messages-api-openapi.yml
 - filename: chatwork-rooms-api-openapi.yml
   format: yaml
   label: Chatwork Rooms API
   slug: chatwork-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/chatwork/openapi/chatwork-rooms-api-openapi.yml
 - filename: chatwork-tasks-api-openapi.yml
   format: yaml
   label: Chatwork Tasks API
   slug: chatwork-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/openapi/chatwork-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/chatwork/openapi/chatwork-tasks-api-openapi.yml
 consequence_counts:
   read: 15
   write: 17
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chatwo
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{room_id}/tasks/{task_id}\n  method: get\n  operationId: getRoomTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rooms/{room_id}/tasks/{task_id}/status\n  method: put\n  operationId: updateRoomTaskStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{room_id}/files\n  method: get\n  operationId: listRoomFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /rooms/{room_id}/files\n  method: post\n  operationId: uploadRoomFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{room_id}/files/{file_id}\n  method: get\n  operationId: getRoomFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rooms/{room_id}/link\n  method: get\n  operationId: getRoomLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rooms/{room_id}/link\n  method: post\n  operationId: createRoomLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{room_id}/link\n  method: put\n  operationId: updateRoomLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{room_id}/link\n  method: delete\n  operationId: deleteRoomLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/agentic-access/chatwork-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chatwork/agentic-access/chatwork-agentic-access.yml
 summary_line: 32 operations · 17 acting
 tags:
 - Messaging

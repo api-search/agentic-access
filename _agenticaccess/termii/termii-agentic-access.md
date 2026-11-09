@@ -9,37 +9,37 @@ api_specs:
   label: Termii Campaigns API
   slug: termii-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/termii/openapi/termii-campaigns-api-openapi.yml
 - filename: termii-contacts-api-openapi.yml
   format: yaml
   label: Termii Contacts API
   slug: termii-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/termii/openapi/termii-contacts-api-openapi.yml
 - filename: termii-insights-api-openapi.yml
   format: yaml
   label: Termii Insights API
   slug: termii-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-insights-api-openapi.yml
+  url: https://artifacts.apis.io/termii/openapi/termii-insights-api-openapi.yml
 - filename: termii-messaging-api-openapi.yml
   format: yaml
   label: Termii Messaging API
   slug: termii-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/termii/openapi/termii-messaging-api-openapi.yml
 - filename: termii-sender-ids-api-openapi.yml
   format: yaml
   label: Termii Sender IDs API
   slug: termii-sender-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-sender-ids-api-openapi.yml
+  url: https://artifacts.apis.io/termii/openapi/termii-sender-ids-api-openapi.yml
 - filename: termii-token-api-openapi.yml
   format: yaml
   label: Termii Token API
   slug: termii-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/openapi/termii-token-api-openapi.yml
+  url: https://artifacts.apis.io/termii/openapi/termii-token-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 8
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/termii
   \ /phonebooks/{phonebook_id}\n  method: delete\n  operationId: deletePhonebook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /phonebooks/{phonebook_id}/contacts\n  method: get\n  operationId: listContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /phonebooks/{phonebook_id}/contacts\n  method: post\n  operationId: addContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /phonebooks/{phonebook_id}/contacts\n\
   \  method: delete\n  operationId: deleteContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /phonebooks/contacts/upload\n  method: post\n  operationId: uploadContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /get-balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/inbox\n  method: get\n  operationId: getMessageHistory\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insight/number/query\n  method: get\n  operationId: queryNumberStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/agentic-access/termii-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/termii/agentic-access/termii-agentic-access.yml
 summary_line: 24 operations · 16 acting
 tags:
 - Messaging

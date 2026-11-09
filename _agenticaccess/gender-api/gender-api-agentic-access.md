@@ -8,25 +8,25 @@ api_specs:
   label: Gender API Country Of Origin API
   slug: gender-api-country-of-origin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-country-of-origin-api-openapi.yml
+  url: https://artifacts.apis.io/gender-api/openapi/gender-api-country-of-origin-api-openapi.yml
 - filename: gender-api-gender-api-openapi.yml
   format: yaml
   label: Gender API Gender API
   slug: gender-api-gender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-gender-api-openapi.yml
+  url: https://artifacts.apis.io/gender-api/openapi/gender-api-gender-api-openapi.yml
 - filename: gender-api-statistic-api-openapi.yml
   format: yaml
   label: Gender API Statistic API
   slug: gender-api-statistic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-statistic-api-openapi.yml
+  url: https://artifacts.apis.io/gender-api/openapi/gender-api-statistic-api-openapi.yml
 - filename: gender-api-signup-api-openapi.yml
   format: yaml
   label: Gender API Signup API
   slug: gender-api-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-signup-api-openapi.yml
+  url: https://artifacts.apis.io/gender-api/openapi/gender-api-signup-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gender-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /get\n  method: get\n  operationId: getGender\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get-country-of-origin\n  method: get\n  operationId: getCountryOfOrigin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get-stats\n  method: get\n  operationId: getStats\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/agentic-access/gender-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gender-api/agentic-access/gender-api-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Artificial Intelligence

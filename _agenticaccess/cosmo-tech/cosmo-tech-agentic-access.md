@@ -9,43 +9,43 @@ api_specs:
   label: Cosmo Tech Dataset API
   slug: cosmo-tech-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-dataset-api-openapi.yml
 - filename: cosmo-tech-meta-api-openapi.yml
   format: yaml
   label: Cosmo Tech Meta API
   slug: cosmo-tech-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-meta-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-meta-api-openapi.yml
 - filename: cosmo-tech-organization-api-openapi.yml
   format: yaml
   label: Cosmo Tech Organization API
   slug: cosmo-tech-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-organization-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-organization-api-openapi.yml
 - filename: cosmo-tech-run-api-openapi.yml
   format: yaml
   label: Cosmo Tech Run API
   slug: cosmo-tech-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-run-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-run-api-openapi.yml
 - filename: cosmo-tech-runner-api-openapi.yml
   format: yaml
   label: Cosmo Tech Runner API
   slug: cosmo-tech-runner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-runner-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-runner-api-openapi.yml
 - filename: cosmo-tech-solution-api-openapi.yml
   format: yaml
   label: Cosmo Tech Solution API
   slug: cosmo-tech-solution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-solution-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-solution-api-openapi.yml
 - filename: cosmo-tech-workspace-api-openapi.yml
   format: yaml
   label: Cosmo Tech Workspace API
   slug: cosmo-tech-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-workspace-api-openapi.yml
 consequence_counts:
   read: 47
   safety-critical: 16
@@ -188,8 +188,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cosmo-
   \      human-in-the-loop: required\n    audit: required\n- path: /organizations/{organization_id}/solutions/{solution_id}/security/access/{identity_id}\n  method: delete\n  operationId: deleteSolutionAccessControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /organizations/{organization_id}/workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/workspaces\n  method: get\n  operationId: listWorkspaces\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/workspaces/{workspace_id}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/workspaces/{workspace_id}\n  method: patch\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/workspaces/{workspace_id}\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/workspaces/{workspace_id}/files\n  method: post\n  operationId: createWorkspaceFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/workspaces/{workspace_id}/files\n  method: get\n  operationId: listWorkspaceFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/workspaces/{workspace_id}/files\n  method: delete\n  operationId: deleteWorkspaceFiles\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/workspaces/{workspace_id}/files/download\n  method: get\n  operationId: getWorkspaceFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/agentic-access/cosmo-tech-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/agentic-access/cosmo-tech-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/workspaces/{workspace_id}/files/download\n  method: get\n  operationId: getWorkspaceFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/cosmo-tech/agentic-access/cosmo-tech-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/cosmo-tech/agentic-access/cosmo-tech-agentic-access.yml
 summary_line: 101 operations · 54 acting · 16 human-in-the-loop
 tags:
 - Company

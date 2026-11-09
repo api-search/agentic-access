@@ -9,37 +9,37 @@ api_specs:
   label: Lodgify Availability API
   slug: lodgify-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-availability-api-openapi.yml
+  url: https://artifacts.apis.io/lodgify/openapi/lodgify-availability-api-openapi.yml
 - filename: lodgify-bookings-api-openapi.yml
   format: yaml
   label: Lodgify Bookings API
   slug: lodgify-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/lodgify/openapi/lodgify-bookings-api-openapi.yml
 - filename: lodgify-messaging-api-openapi.yml
   format: yaml
   label: Lodgify Messaging API
   slug: lodgify-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/lodgify/openapi/lodgify-messaging-api-openapi.yml
 - filename: lodgify-properties-api-openapi.yml
   format: yaml
   label: Lodgify Properties API
   slug: lodgify-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-properties-api-openapi.yml
+  url: https://artifacts.apis.io/lodgify/openapi/lodgify-properties-api-openapi.yml
 - filename: lodgify-rates-quotes-api-openapi.yml
   format: yaml
   label: Lodgify Rates & Quotes API
   slug: lodgify-rates-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-rates-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/lodgify/openapi/lodgify-rates-quotes-api-openapi.yml
 - filename: lodgify-webhooks-api-openapi.yml
   format: yaml
   label: Lodgify Webhooks API
   slug: lodgify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/openapi/lodgify-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lodgify/openapi/lodgify-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lodgif
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reservations/bookings/{id}/checkin\n  method: put\n  operationId: checkinBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reservations/bookings/{id}/checkout\n  method: put\n  operationId: checkoutBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/messaging/{threadGuid}\n  method: get\n  operationId: getThread\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/v1/list\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/v1/subscribe\n  method: post\n  operationId: subscribeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/v1/unsubscribe\n  method: delete\n  operationId: unsubscribeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
   \  - high-value\n    audit: required\n- path: /webhooks/v1/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/agentic-access/lodgify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lodgify/agentic-access/lodgify-agentic-access.yml
 summary_line: 23 operations · 11 acting
 tags:
 - Vacation Rentals

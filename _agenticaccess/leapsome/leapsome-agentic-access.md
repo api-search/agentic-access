@@ -9,85 +9,85 @@ api_specs:
   label: Leapsome Absences API
   slug: leapsome-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-absences-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-absences-api-openapi.yml
 - filename: leapsome-auth-api-openapi.yml
   format: yaml
   label: Leapsome Auth API
   slug: leapsome-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-auth-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-auth-api-openapi.yml
 - filename: leapsome-documents-api-openapi.yml
   format: yaml
   label: Leapsome Documents API
   slug: leapsome-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-documents-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-documents-api-openapi.yml
 - filename: leapsome-feedback-api-openapi.yml
   format: yaml
   label: Leapsome Feedback API
   slug: leapsome-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-feedback-api-openapi.yml
 - filename: leapsome-goals-api-openapi.yml
   format: yaml
   label: Leapsome Goals API
   slug: leapsome-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-goals-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-goals-api-openapi.yml
 - filename: leapsome-groups-api-openapi.yml
   format: yaml
   label: Leapsome Groups API
   slug: leapsome-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-groups-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-groups-api-openapi.yml
 - filename: leapsome-leapsome-api-api-openapi.yml
   format: yaml
   label: Leapsome API
   slug: leapsome-leapsome-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-leapsome-api-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-leapsome-api-api-openapi.yml
 - filename: leapsome-payroll-api-openapi.yml
   format: yaml
   label: Leapsome Payroll API
   slug: leapsome-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-payroll-api-openapi.yml
 - filename: leapsome-reviews-api-openapi.yml
   format: yaml
   label: Leapsome Reviews API
   slug: leapsome-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-reviews-api-openapi.yml
 - filename: leapsome-schemas-api-openapi.yml
   format: yaml
   label: Leapsome Schemas API
   slug: leapsome-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-schemas-api-openapi.yml
 - filename: leapsome-users-api-openapi.yml
   format: yaml
   label: Leapsome Users API
   slug: leapsome-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-users-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-users-api-openapi.yml
 - filename: leapsome-worklocations-api-openapi.yml
   format: yaml
   label: Leapsome Work Locations API
   slug: leapsome-worklocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-worklocations-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-worklocations-api-openapi.yml
 - filename: leapsome-access-roles-api-openapi.yml
   format: yaml
   label: Leapsome Access Roles API
   slug: leapsome-access-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-access-roles-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-access-roles-api-openapi.yml
 - filename: leapsome-time-tracking-api-openapi.yml
   format: yaml
   label: Leapsome Time Tracking API
   slug: leapsome-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/openapi/leapsome-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/leapsome/openapi/leapsome-time-tracking-api-openapi.yml
 consequence_counts:
   read: 24
   write: 12
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/leapso
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Groups/{groupId}\n  method: patch\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ServiceProviderConfig\n  method: get\n  operationId: getServiceProviderConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Users\n  method: post\n  operationId: createUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Users/{userId}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Users/{userId}\n  method: put\n  operationId: replaceUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/agentic-access/leapsome-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/leapsome/agentic-access/leapsome-agentic-access.yml
 summary_line: 36 operations · 12 acting
 tags:
 - People Enablement

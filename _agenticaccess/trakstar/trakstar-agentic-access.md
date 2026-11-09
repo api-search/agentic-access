@@ -9,73 +9,73 @@ api_specs:
   label: Trakstar Auth API
   slug: trakstar-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-auth-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-auth-api-openapi.yml
 - filename: trakstar-candidate-messages-api-openapi.yml
   format: yaml
   label: Trakstar Candidate Messages API
   slug: trakstar-candidate-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-candidate-messages-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-candidate-messages-api-openapi.yml
 - filename: trakstar-candidates-api-openapi.yml
   format: yaml
   label: Trakstar Candidates API
   slug: trakstar-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-candidates-api-openapi.yml
 - filename: trakstar-courses-api-openapi.yml
   format: yaml
   label: Trakstar Courses API
   slug: trakstar-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-courses-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-courses-api-openapi.yml
 - filename: trakstar-evaluations-api-openapi.yml
   format: yaml
   label: Trakstar Evaluations API
   slug: trakstar-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-evaluations-api-openapi.yml
 - filename: trakstar-groups-api-openapi.yml
   format: yaml
   label: Trakstar Groups API
   slug: trakstar-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-groups-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-groups-api-openapi.yml
 - filename: trakstar-internal-notes-api-openapi.yml
   format: yaml
   label: Trakstar Internal Notes API
   slug: trakstar-internal-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-internal-notes-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-internal-notes-api-openapi.yml
 - filename: trakstar-interviews-api-openapi.yml
   format: yaml
   label: Trakstar Interviews API
   slug: trakstar-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-interviews-api-openapi.yml
 - filename: trakstar-openings-api-openapi.yml
   format: yaml
   label: Trakstar Openings API
   slug: trakstar-openings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-openings-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-openings-api-openapi.yml
 - filename: trakstar-reviews-api-openapi.yml
   format: yaml
   label: Trakstar Reviews API
   slug: trakstar-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-reviews-api-openapi.yml
 - filename: trakstar-to-dos-api-openapi.yml
   format: yaml
   label: Trakstar To-Dos API
   slug: trakstar-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-to-dos-api-openapi.yml
 - filename: trakstar-users-api-openapi.yml
   format: yaml
   label: Trakstar Users API
   slug: trakstar-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/openapi/trakstar-users-api-openapi.yml
+  url: https://artifacts.apis.io/trakstar/openapi/trakstar-users-api-openapi.yml
 consequence_counts:
   read: 22
   write: 12
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trakst
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /group/{groupId}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /group/{groupId}/user/{userId}\n  method: post\n  operationId: addUserToGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /group/{groupId}/user/{userId}\n  method: delete\n  operationId: removeUserFromGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /course\n  method: get\n  operationId: listCourses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /course/{courseId}\n  method: get\n  operationId: getCourse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /course/{courseId}/user/{userId}\n  method: post\n  operationId: inviteUserToCourse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /course/{courseId}/user\n  method: post\n  operationId: inviteUsersToCourse\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth\n  method: get\n  operationId: authorizeUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/agentic-access/trakstar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trakstar/agentic-access/trakstar-agentic-access.yml
 summary_line: 34 operations · 12 acting
 tags:
 - Human Resources

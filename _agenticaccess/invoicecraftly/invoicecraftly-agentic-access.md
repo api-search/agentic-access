@@ -8,13 +8,13 @@ api_specs:
   label: InvoiceCraftly Developer Document API Documents API
   slug: invoicecraftly-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/openapi/invoicecraftly-documents-api-openapi.yml
+  url: https://artifacts.apis.io/invoicecraftly/openapi/invoicecraftly-documents-api-openapi.yml
 - filename: invoicecraftly-structured-invoicing-api-openapi.yml
   format: yaml
   label: InvoiceCraftly Developer Document API Structured invoicing API
   slug: invoicecraftly-structured-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/openapi/invoicecraftly-structured-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/invoicecraftly/openapi/invoicecraftly-structured-invoicing-api-openapi.yml
 consequence_counts:
   physical: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -56,7 +56,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/invoicecraftly-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 3\n  by_consequence:\n    physical: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/documents/pdf\n  method: post\n  operationId: generateInvoicePdf\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/invoices/readiness\n  method: post\n  operationId: checkInvoiceReadiness\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/documents/structured\n  method: post\n  operationId: generateStructuredInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/agentic-access/invoicecraftly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/invoicecraftly/agentic-access/invoicecraftly-agentic-access.yml
 summary_line: 3 operations · 3 acting
 tags:
 - Invoicing
@@ -64,7 +64,6 @@ tags:
 - Free Tools
 - DocumentExport
 - Payment QR
-- No Signup
 - CSV Import
 - Company Lookup
 ---

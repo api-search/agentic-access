@@ -9,25 +9,25 @@ api_specs:
   label: United States Postal Service Addresses API
   slug: usps-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/usps/openapi/usps-addresses-api-openapi.yml
 - filename: usps-carrier-pickup-api-openapi.yml
   format: yaml
   label: United States Postal Service Carrier Pickup API
   slug: usps-carrier-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-carrier-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/usps/openapi/usps-carrier-pickup-api-openapi.yml
 - filename: usps-domestic-prices-api-openapi.yml
   format: yaml
   label: United States Postal Service Domestic Prices API
   slug: usps-domestic-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-domestic-prices-api-openapi.yml
+  url: https://artifacts.apis.io/usps/openapi/usps-domestic-prices-api-openapi.yml
 - filename: usps-tracking-api-openapi.yml
   format: yaml
   label: United States Postal Service Tracking API
   slug: usps-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/usps/openapi/usps-tracking-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/united
   \  method: get\n  operationId: getCityState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /addresses/v3/zipcode\n  method: get\n  operationId: getZIPCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pickup/v3/carrier-pickup\n  method: post\n  operationId: scheduleCarrierPickup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pickup/v3/carrier-pickup\n  method: get\n  operationId: getCarrierPickup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /pickup/v3/carrier-pickup\n  method: put\n  operationId: updateCarrierPickup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pickup/v3/carrier-pickup\n  method: delete\n  operationId: cancelCarrierPickup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prices/v3/base-rates/search\n  method: post\n  operationId: searchBaseRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices/v3/extra-service-rates/search\n\
   \  method: post\n  operationId: searchExtraServiceRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices/v3/total-rates/search\n  method: post\n  operationId: searchTotalRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/v3/tracking/{trackingNumber}\n  method: get\n  operationId: getTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/v3/tracking\n  method: post\n  operationId: getMultipleTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/agentic-access/united-states-postal-service-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/usps/agentic-access/united-states-postal-service-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
 - Government

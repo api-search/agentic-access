@@ -9,37 +9,37 @@ api_specs:
   label: Unbabel Account API
   slug: unbabel-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-account-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-account-api-openapi.yml
 - filename: unbabel-language-pairs-api-openapi.yml
   format: yaml
   label: Unbabel Language Pairs API
   slug: unbabel-language-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-language-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-language-pairs-api-openapi.yml
 - filename: unbabel-machine-translation-api-openapi.yml
   format: yaml
   label: Unbabel Machine Translation API
   slug: unbabel-machine-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-machine-translation-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-machine-translation-api-openapi.yml
 - filename: unbabel-tone-and-topic-api-openapi.yml
   format: yaml
   label: Unbabel Tone and Topic API
   slug: unbabel-tone-and-topic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-tone-and-topic-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-tone-and-topic-api-openapi.yml
 - filename: unbabel-translation-api-openapi.yml
   format: yaml
   label: Unbabel Translation API
   slug: unbabel-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-translation-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-translation-api-openapi.yml
 - filename: unbabel-word-count-api-openapi.yml
   format: yaml
   label: Unbabel Word Count API
   slug: unbabel-word-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-word-count-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-word-count-api-openapi.yml
 consequence_counts:
   read: 8
   write: 5
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unbabe
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mt_translation/{uid}/\n  method: get\n  operationId: getMachineTranslation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mt_translation/{uid}/\n  method: patch\n  operationId: upgradeMachineTranslation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /language_pair/\n  method: get\n  operationId: listLanguagePairs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tone/\n  method: get\n  operationId: listTones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topic/\n  method: get\n  operationId: listTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wordcount/\n  method: post\n  operationId: calculateWordCount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/agentic-access/unbabel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unbabel/agentic-access/unbabel-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
 - Translation

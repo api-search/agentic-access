@@ -9,49 +9,49 @@ api_specs:
   label: Circle Realtime WebSocket API
   slug: circle-community-realtime-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/asyncapi/circle-community-asyncapi.yml
+  url: https://artifacts.apis.io/circle-community/asyncapi/circle-community-asyncapi.yml
 - filename: circle-community-admin-courses-api-openapi.yml
   format: yaml
   label: Circle Admin - Courses API
   slug: circle-community-admin-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-courses-api-openapi.yml
+  url: https://artifacts.apis.io/circle-community/openapi/circle-community-admin-courses-api-openapi.yml
 - filename: circle-community-admin-events-api-openapi.yml
   format: yaml
   label: Circle Admin - Events API
   slug: circle-community-admin-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-events-api-openapi.yml
+  url: https://artifacts.apis.io/circle-community/openapi/circle-community-admin-events-api-openapi.yml
 - filename: circle-community-admin-members-api-openapi.yml
   format: yaml
   label: Circle Admin - Members API
   slug: circle-community-admin-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-members-api-openapi.yml
+  url: https://artifacts.apis.io/circle-community/openapi/circle-community-admin-members-api-openapi.yml
 - filename: circle-community-admin-posts-api-openapi.yml
   format: yaml
   label: Circle Admin - Posts API
   slug: circle-community-admin-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-posts-api-openapi.yml
+  url: https://artifacts.apis.io/circle-community/openapi/circle-community-admin-posts-api-openapi.yml
 - filename: circle-community-admin-spaces-api-openapi.yml
   format: yaml
   label: Circle Admin - Spaces API
   slug: circle-community-admin-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-admin-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/circle-community/openapi/circle-community-admin-spaces-api-openapi.yml
 - filename: circle-community-headless-auth-api-openapi.yml
   format: yaml
   label: Circle Headless - Auth API
   slug: circle-community-headless-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-headless-auth-api-openapi.yml
+  url: https://artifacts.apis.io/circle-community/openapi/circle-community-headless-auth-api-openapi.yml
 - filename: circle-community-headless-member-api-openapi.yml
   format: yaml
   label: Circle Headless - Member API
   slug: circle-community-headless-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/openapi/circle-community-headless-member-api-openapi.yml
+  url: https://artifacts.apis.io/circle-community/openapi/circle-community-headless-member-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 31
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/circle
   - path: /api/headless/v1/events/{event_id}/event_attendees\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/headless/v1/courses/{course_id}/sections\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/headless/v1/courses/{course_id}/lessons/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/headless/v1/messages\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/headless/v1/messages\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/headless/v1/messages/{chat_room_uuid}/chat_room_messages\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/headless/v1/messages/{chat_room_uuid}/chat_room_messages\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/headless/v1/notifications\n  method: get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/headless/v1/profile\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/agentic-access/circle-community-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/circle-community/agentic-access/circle-community-agentic-access.yml
 summary_line: 69 operations · 38 acting
 tags:
 - Community

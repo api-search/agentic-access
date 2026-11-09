@@ -9,25 +9,25 @@ api_specs:
   label: Payflex Authentication API
   slug: payflex-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-authentication-api-openapi.yml
 - filename: payflex-configuration-api-openapi.yml
   format: yaml
   label: Payflex Configuration API
   slug: payflex-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-configuration-api-openapi.yml
 - filename: payflex-orders-api-openapi.yml
   format: yaml
   label: Payflex Orders API
   slug: payflex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-orders-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-orders-api-openapi.yml
 - filename: payflex-refunds-api-openapi.yml
   format: yaml
   label: Payflex Refunds API
   slug: payflex-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/openapi/payflex-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/payflex/openapi/payflex-refunds-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 2
@@ -67,7 +67,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 3\n    connected: 2\n  by_consequence:\n    write: 1\n    physical: 2\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /auth/merchant\n  method: post\n  operationId: getAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/productSelect\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/{orderId}/refund\n  method: post\n  operationId: createRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /configuration\n  method: get\n  operationId: getConfiguration\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/agentic-access/payflex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/payflex/agentic-access/payflex-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
 - Buy Now Pay Later

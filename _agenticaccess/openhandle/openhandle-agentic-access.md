@@ -8,37 +8,37 @@ api_specs:
   label: Openhandle Instagram API
   slug: openhandle-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-instagram-api-openapi.yml
 - filename: openhandle-reddit-api-openapi.yml
   format: yaml
   label: Openhandle Reddit API
   slug: openhandle-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-reddit-api-openapi.yml
 - filename: openhandle-test-data-api-openapi.yml
   format: yaml
   label: Openhandle Test Data API
   slug: openhandle-test-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-test-data-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-test-data-api-openapi.yml
 - filename: openhandle-tiktok-api-openapi.yml
   format: yaml
   label: Openhandle Tiktok API
   slug: openhandle-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-tiktok-api-openapi.yml
 - filename: openhandle-twitter-api-openapi.yml
   format: yaml
   label: Openhandle Twitter API
   slug: openhandle-twitter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-twitter-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-twitter-api-openapi.yml
 - filename: openhandle-utilities-api-openapi.yml
   format: yaml
   label: Openhandle Utilities API
   slug: openhandle-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-utilities-api-openapi.yml
 consequence_counts:
   read: 109
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -91,13 +91,13 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/openha
   \      max-ttl: 3600\n    audit: none\n- path: /v1/twitter/profiles/{identifier}/followers\n  method: get\n  operationId: twitterProfileFollowersList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/twitter/profiles/{identifier}/following\n  method: get\n  operationId: twitterProfileFollowingList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/twitter/profiles/{identifier}/media\n  method: get\n  operationId: twitterProfileMediaList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/twitter/profiles/{identifier}/posts\n  method: get\n  operationId: twitterProfilePostsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/twitter/profiles/{identifier}/replies\n  method: get\n  operationId: twitterProfileRepliesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/twitter/search/media\n  method: get\n  operationId: twitterSearchMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/twitter/search/posts\n  method: get\n  operationId: twitterSearchPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/twitter/search/suggestions\n  method: get\n  operationId: Twitter_search_suggestions_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /v1/twitter/search/users\n  method: get\n  operationId: twitterSearchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/urls/fetch\n  method: post\n  operationId: fetchSocialURL\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/agentic-access/openhandle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openhandle/agentic-access/openhandle-agentic-access.yml
 summary_line: 109 operations
 tags:
 - Social Data
 - Instagram
 - TikTok
-- twitter
+- Twitter
 - Reddit
 - Public Data
 - social-media-api

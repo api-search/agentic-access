@@ -9,19 +9,19 @@ api_specs:
   label: OPNsense Core API
   slug: opnsense-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-core-api-openapi.yml
+  url: https://artifacts.apis.io/opnsense/openapi/opnsense-core-api-openapi.yml
 - filename: opnsense-diagnostics-api-openapi.yml
   format: yaml
   label: OPNsense Diagnostics API
   slug: opnsense-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/opnsense/openapi/opnsense-diagnostics-api-openapi.yml
 - filename: opnsense-firewall-api-openapi.yml
   format: yaml
   label: OPNsense Firewall API
   slug: opnsense-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/openapi/opnsense-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/opnsense/openapi/opnsense-firewall-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/opnsense-core-api-openapi.yml, openapi/opnsense-diagnostics-api-openapi.yml,\n  openapi/opnsense-firewall-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 5\n    acting: 1\n  by_consequence:\n    read: 5\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /core/service/search\n  method: post\n  operationId: searchCoreServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/firmware/status\n  method: get\n  operationId: getFirmwareStatus\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/system/status\n  method: get\n  operationId: getSystemStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /diagnostics/interface/getInterfaceNames\n  method: get\n  operationId: getInterfaceNames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /firewall/alias/get\n  method: get\n  operationId: getFirewallAliases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /firewall/alias/reconfigure\n  method: post\n  operationId: reconfigureFirewallAliases\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/agentic-access/opnsense-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opnsense/agentic-access/opnsense-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
 - Firewall

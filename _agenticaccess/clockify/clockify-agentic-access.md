@@ -9,163 +9,163 @@ api_specs:
   label: Clockify Approval API
   slug: clockify-approval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-approval-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-approval-api-openapi.yml
 - filename: clockify-audit-log-report-api-openapi.yml
   format: yaml
   label: Clockify Audit Log Report API
   slug: clockify-audit-log-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-audit-log-report-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-audit-log-report-api-openapi.yml
 - filename: clockify-balance-api-openapi.yml
   format: yaml
   label: Clockify Balance API
   slug: clockify-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-balance-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-balance-api-openapi.yml
 - filename: clockify-client-api-openapi.yml
   format: yaml
   label: Clockify Client API
   slug: clockify-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-client-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-client-api-openapi.yml
 - filename: clockify-custom-fields-api-openapi.yml
   format: yaml
   label: Clockify Custom fields API
   slug: clockify-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-custom-fields-api-openapi.yml
 - filename: clockify-entity-changes-experimental-api-openapi.yml
   format: yaml
   label: Clockify Entity changes (Experimental) API
   slug: clockify-entity-changes-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-entity-changes-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-entity-changes-experimental-api-openapi.yml
 - filename: clockify-expense-api-openapi.yml
   format: yaml
   label: Clockify Expense API
   slug: clockify-expense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-expense-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-expense-api-openapi.yml
 - filename: clockify-expense-report-api-openapi.yml
   format: yaml
   label: Clockify Expense Report API
   slug: clockify-expense-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-expense-report-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-expense-report-api-openapi.yml
 - filename: clockify-group-api-openapi.yml
   format: yaml
   label: Clockify Group API
   slug: clockify-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-group-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-group-api-openapi.yml
 - filename: clockify-holiday-api-openapi.yml
   format: yaml
   label: Clockify Holiday API
   slug: clockify-holiday-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-holiday-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-holiday-api-openapi.yml
 - filename: clockify-invoice-api-openapi.yml
   format: yaml
   label: Clockify Invoice API
   slug: clockify-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-invoice-api-openapi.yml
 - filename: clockify-policy-api-openapi.yml
   format: yaml
   label: Clockify Policy API
   slug: clockify-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-policy-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-policy-api-openapi.yml
 - filename: clockify-project-api-openapi.yml
   format: yaml
   label: Clockify Project API
   slug: clockify-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-project-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-project-api-openapi.yml
 - filename: clockify-scheduling-api-openapi.yml
   format: yaml
   label: Clockify Scheduling API
   slug: clockify-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-scheduling-api-openapi.yml
 - filename: clockify-scheduling-deprecated-api-openapi.yml
   format: yaml
   label: Clockify Scheduling (Deprecated) API
   slug: clockify-scheduling-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-scheduling-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-scheduling-deprecated-api-openapi.yml
 - filename: clockify-shared-report-api-openapi.yml
   format: yaml
   label: Clockify Shared Report API
   slug: clockify-shared-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-shared-report-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-shared-report-api-openapi.yml
 - filename: clockify-tag-api-openapi.yml
   format: yaml
   label: Clockify Tag API
   slug: clockify-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-tag-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-tag-api-openapi.yml
 - filename: clockify-task-api-openapi.yml
   format: yaml
   label: Clockify Task API
   slug: clockify-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-task-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-task-api-openapi.yml
 - filename: clockify-team-report-api-openapi.yml
   format: yaml
   label: Clockify Team Report API
   slug: clockify-team-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-team-report-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-team-report-api-openapi.yml
 - filename: clockify-template-deprecated-api-openapi.yml
   format: yaml
   label: Clockify Template (Deprecated) API
   slug: clockify-template-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-template-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-template-deprecated-api-openapi.yml
 - filename: clockify-time-entry-api-openapi.yml
   format: yaml
   label: Clockify Time entry API
   slug: clockify-time-entry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-time-entry-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-time-entry-api-openapi.yml
 - filename: clockify-time-entry-report-api-openapi.yml
   format: yaml
   label: Clockify Time Entry Report API
   slug: clockify-time-entry-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-time-entry-report-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-time-entry-report-api-openapi.yml
 - filename: clockify-time-off-api-openapi.yml
   format: yaml
   label: Clockify Time Off API
   slug: clockify-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-time-off-api-openapi.yml
 - filename: clockify-user-api-openapi.yml
   format: yaml
   label: Clockify User API
   slug: clockify-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-user-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-user-api-openapi.yml
 - filename: clockify-webhooks-api-openapi.yml
   format: yaml
   label: Clockify Webhooks API
   slug: clockify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-webhooks-api-openapi.yml
 - filename: clockify-workspace-api-openapi.yml
   format: yaml
   label: Clockify Workspace API
   slug: clockify-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-workspace-api-openapi.yml
 - filename: clockify-workspace-deprecated-api-openapi.yml
   format: yaml
   label: Clockify Workspace (Deprecated) API
   slug: clockify-workspace-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/openapi/clockify-workspace-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/clockify/openapi/clockify-workspace-deprecated-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 56
@@ -309,8 +309,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/clocki
   - path: /v1/workspaces/{workspaceId}/projects/{projectId}/users/{userId}/cost-rate\n  method: put\n  operationId: addUsersCostRate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/projects/{projectId}/users/{userId}/hourly-rate\n  method: put\n  operationId: addUsersHourlyRate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/scheduling/assignments/all\n  method: get\n  operationId: getAllAssignments\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workspaces/{workspaceId}/scheduling/assignments/projects/totals\n  method: post\n  operationId: getFilteredProjectTotals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workspaces/{workspaceId}/scheduling/assignments/projects/totals/{projectId}\n  method: get\n  operationId: getProjectTotalsForSingleProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workspaces/{workspaceId}/scheduling/assignments/publish\n  method: put\n  operationId: publishAssignments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/scheduling/assignments/recurring\n  method: post\n  operationId: createRecurring\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/scheduling/assignments/recurring/{assignmentId}\n  method: delete\n  operationId: deleteRRecurringAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/scheduling/assignments/recurring/{assignmentId}\n  method: patch\n  operationId: editRecurring\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/scheduling/assignments/series/{assignmentId}\n  method: put\n  operationId: editRecurringPeriod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/agentic-access/clockify-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/agentic-access/clockify-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/scheduling/assignments/series/{assignmentId}\n  method: put\n  operationId: editRecurringPeriod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://artifacts.apis.io/clockify/agentic-access/clockify-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/clockify/agentic-access/clockify-agentic-access.yml
 summary_line: 166 operations · 110 acting · 2 human-in-the-loop
 tags:
 - Time Tracking

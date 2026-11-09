@@ -9,163 +9,163 @@ api_specs:
   label: DoseSpot Medications API
   slug: dosespot-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-medications-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-medications-api-openapi.yml
 - filename: dosespot-notifications-api-openapi.yml
   format: yaml
   label: DoseSpot Notifications API
   slug: dosespot-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-notifications-api-openapi.yml
 - filename: dosespot-patients-api-openapi.yml
   format: yaml
   label: DoseSpot Patients API
   slug: dosespot-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-patients-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-patients-api-openapi.yml
 - filename: dosespot-pharmacies-api-openapi.yml
   format: yaml
   label: DoseSpot Pharmacies API
   slug: dosespot-pharmacies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-pharmacies-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-pharmacies-api-openapi.yml
 - filename: dosespot-prescribers-api-openapi.yml
   format: yaml
   label: DoseSpot Prescribers API
   slug: dosespot-prescribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-prescribers-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-prescribers-api-openapi.yml
 - filename: dosespot-prescriptions-api-openapi.yml
   format: yaml
   label: DoseSpot Prescriptions API
   slug: dosespot-prescriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-prescriptions-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-prescriptions-api-openapi.yml
 - filename: dosespot-allergens-api-openapi.yml
   format: yaml
   label: DoseSpot Allergens API
   slug: dosespot-allergens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-allergens-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-allergens-api-openapi.yml
 - filename: dosespot-allergies-api-openapi.yml
   format: yaml
   label: DoseSpot Allergies API
   slug: dosespot-allergies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-allergies-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-allergies-api-openapi.yml
 - filename: dosespot-clinicfavorites-api-openapi.yml
   format: yaml
   label: DoseSpot Clinic Favorites API
   slug: dosespot-clinicfavorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-clinicfavorites-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-clinicfavorites-api-openapi.yml
 - filename: dosespot-clinicgroups-api-openapi.yml
   format: yaml
   label: DoseSpot Clinic Groups API
   slug: dosespot-clinicgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-clinicgroups-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-clinicgroups-api-openapi.yml
 - filename: dosespot-clinicianfavorites-api-openapi.yml
   format: yaml
   label: DoseSpot Clinician Favorites API
   slug: dosespot-clinicianfavorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-clinicianfavorites-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-clinicianfavorites-api-openapi.yml
 - filename: dosespot-clinicianordersets-api-openapi.yml
   format: yaml
   label: DoseSpot Clinician Order Sets API
   slug: dosespot-clinicianordersets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-clinicianordersets-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-clinicianordersets-api-openapi.yml
 - filename: dosespot-clinicians-api-openapi.yml
   format: yaml
   label: DoseSpot Clinicians API
   slug: dosespot-clinicians-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-clinicians-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-clinicians-api-openapi.yml
 - filename: dosespot-clinicordersets-api-openapi.yml
   format: yaml
   label: DoseSpot Clinic Order Sets API
   slug: dosespot-clinicordersets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-clinicordersets-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-clinicordersets-api-openapi.yml
 - filename: dosespot-clinics-api-openapi.yml
   format: yaml
   label: DoseSpot Clinics API
   slug: dosespot-clinics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-clinics-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-clinics-api-openapi.yml
 - filename: dosespot-diagnoses-api-openapi.yml
   format: yaml
   label: DoseSpot Diagnoses API
   slug: dosespot-diagnoses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-diagnoses-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-diagnoses-api-openapi.yml
 - filename: dosespot-eligibilities-api-openapi.yml
   format: yaml
   label: DoseSpot Eligibilities API
   slug: dosespot-eligibilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-eligibilities-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-eligibilities-api-openapi.yml
 - filename: dosespot-interactions-api-openapi.yml
   format: yaml
   label: DoseSpot Interactions API
   slug: dosespot-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-interactions-api-openapi.yml
 - filename: dosespot-medicationhistory-api-openapi.yml
   format: yaml
   label: DoseSpot Medication History API
   slug: dosespot-medicationhistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-medicationhistory-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-medicationhistory-api-openapi.yml
 - filename: dosespot-narx-api-openapi.yml
   format: yaml
   label: DoseSpot Narx API
   slug: dosespot-narx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-narx-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-narx-api-openapi.yml
 - filename: dosespot-priorauthorizations-api-openapi.yml
   format: yaml
   label: DoseSpot Prior Authorizations API
   slug: dosespot-priorauthorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-priorauthorizations-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-priorauthorizations-api-openapi.yml
 - filename: dosespot-refills-api-openapi.yml
   format: yaml
   label: DoseSpot Refills API
   slug: dosespot-refills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-refills-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-refills-api-openapi.yml
 - filename: dosespot-rxchanges-api-openapi.yml
   format: yaml
   label: DoseSpot Rx Changes API
   slug: dosespot-rxchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-rxchanges-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-rxchanges-api-openapi.yml
 - filename: dosespot-selfreportedmedications-api-openapi.yml
   format: yaml
   label: DoseSpot Self Reported Medications API
   slug: dosespot-selfreportedmedications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-selfreportedmedications-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-selfreportedmedications-api-openapi.yml
 - filename: dosespot-supplies-api-openapi.yml
   format: yaml
   label: DoseSpot Supplies API
   slug: dosespot-supplies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-supplies-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-supplies-api-openapi.yml
 - filename: dosespot-transparency-api-openapi.yml
   format: yaml
   label: DoseSpot Transparency API
   slug: dosespot-transparency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-transparency-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-transparency-api-openapi.yml
 - filename: dosespot-health-check-api-openapi.yml
   format: yaml
   label: DoseSpot Health Check API
   slug: dosespot-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/dosespot-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/dosespot/openapi/dosespot-health-check-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 80
@@ -279,8 +279,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/dosesp
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /medications/search\n  method: get\n  operationId: searchMedications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /medications/interactions\n  method: post\n  operationId: checkMedicationInteractions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/dispenseUnits\n  method: get\n  operationId: Medications_GetStandardDispenseUnitsV2\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/dispenseUnits/{dispenseUnitId}\n  method: get\n  operationId: Medications_GetStandardDispenseUnitByIDV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/medications/searchByRxCUI\n  method: get\n  operationId: Medications_MedicationSearchRxCUIV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/medications/search\n  method: get\n  operationId: Medications_MedicationSearchV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/medications/select\n  method: get\n  operationId: Medications_MedicationSelectV2\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/medications/monograph\n  method: get\n  operationId: Medications_GetDrugMonographV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/patients/{patientId}/narx\n  method: get\n  operationId: Narx_GetPatientNarxReportV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/patients/{patientId}/narx/latest\n  method: get\n  operationId: Narx_GetLatestNarxV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/patients/{patientId}/narx/report\n  method: get\n  operationId: Narx_GetPatientNarxReportLinkV2\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications/counts\n  method: get\n  operationId: getNotificationCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/notifications/counts\n  method: get\n  operationId: Notifications_GetPrescriberNotificationCountsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/notifications/errors\n  method: get\n  operationId: Notifications_GetTransmissionErrorDetailsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (61 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/agentic-access/dosespot-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/agentic-access/dosespot-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications/counts\n  method: get\n  operationId: getNotificationCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/notifications/counts\n  method: get\n  operationId: Notifications_GetPrescriberNotificationCountsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/notifications/errors\n  method: get\n  operationId: Notifications_GetTransmissionErrorDetailsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (61 KB total) ---\n# Full source: https://artifacts.apis.io/dosespot/agentic-access/dosespot-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/dosespot/agentic-access/dosespot-agentic-access.yml
 summary_line: 188 operations · 108 acting · 2 human-in-the-loop
 tags:
 - e-Prescribing

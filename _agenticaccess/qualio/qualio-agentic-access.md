@@ -9,67 +9,67 @@ api_specs:
   label: Qualio Audit Trail API
   slug: qualio-audit-trail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-audit-trail-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-audit-trail-api-openapi.yml
 - filename: qualio-change-management-api-openapi.yml
   format: yaml
   label: Qualio Change Management API
   slug: qualio-change-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-change-management-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-change-management-api-openapi.yml
 - filename: qualio-compliance-intelligence-api-openapi.yml
   format: yaml
   label: Qualio Compliance Intelligence API
   slug: qualio-compliance-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-compliance-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-compliance-intelligence-api-openapi.yml
 - filename: qualio-design-controls-api-openapi.yml
   format: yaml
   label: Qualio Design Controls API
   slug: qualio-design-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-design-controls-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-design-controls-api-openapi.yml
 - filename: qualio-documents-api-openapi.yml
   format: yaml
   label: Qualio Documents API
   slug: qualio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-documents-api-openapi.yml
 - filename: qualio-events-api-openapi.yml
   format: yaml
   label: Qualio Events API
   slug: qualio-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-events-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-events-api-openapi.yml
 - filename: qualio-resource-library-api-openapi.yml
   format: yaml
   label: Qualio Resource Library API
   slug: qualio-resource-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-resource-library-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-resource-library-api-openapi.yml
 - filename: qualio-suppliers-api-openapi.yml
   format: yaml
   label: Qualio Suppliers API
   slug: qualio-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-suppliers-api-openapi.yml
 - filename: qualio-tags-api-openapi.yml
   format: yaml
   label: Qualio Tags API
   slug: qualio-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-tags-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-tags-api-openapi.yml
 - filename: qualio-training-api-openapi.yml
   format: yaml
   label: Qualio Training API
   slug: qualio-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-training-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-training-api-openapi.yml
 - filename: qualio-user-management-api-openapi.yml
   format: yaml
   label: Qualio User Management API
   slug: qualio-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-user-management-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 98
@@ -189,8 +189,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/qualio
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/suppliers/suppliers/{supplierId}/audits\n  method: get\n  operationId: listSupplierAudits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/suppliers/suppliers/{supplierId}/audits\n  method: options\n  operationId: listSupplierAuditsOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/tags\n  method: options\n  operationId: listTagsOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v1/training/user-training/query\n  method: get\n  operationId: queryUserTraining\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/training/user-training/query\n  method: options\n  operationId: queryUserTrainingOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/training/document/{documentId}/remind\n  method: put\n  operationId: sendTrainingReminders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/training/document/{documentId}/remind\n  method:\
   \ options\n  operationId: sendTrainingRemindersOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user-management/invite\n  method: post\n  operationId: inviteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user-management/invite\n  method: options\n  operationId: inviteUserOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user-management/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
-  \   audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/agentic-access/qualio-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/agentic-access/qualio-agentic-access.yml
+  \   audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/qualio/agentic-access/qualio-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/qualio/agentic-access/qualio-agentic-access.yml
 summary_line: 132 operations · 34 acting · 10 human-in-the-loop
 tags:
 - Company

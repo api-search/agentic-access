@@ -9,19 +9,19 @@ api_specs:
   label: Findigs Applications API
   slug: findigs-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-applications-api-openapi.yml
+  url: https://artifacts.apis.io/findigs/openapi/findigs-applications-api-openapi.yml
 - filename: findigs-groups-api-openapi.yml
   format: yaml
   label: Findigs Groups API
   slug: findigs-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-groups-api-openapi.yml
+  url: https://artifacts.apis.io/findigs/openapi/findigs-groups-api-openapi.yml
 - filename: findigs-listings-api-openapi.yml
   format: yaml
   label: Findigs Listings API
   slug: findigs-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-listings-api-openapi.yml
+  url: https://artifacts.apis.io/findigs/openapi/findigs-listings-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2
@@ -50,12 +50,12 @@ source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: generated\nsource: openapi/findigs-client-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 6\n    acting: 2\n  by_consequence:\n    read: 6\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /listings/\n  method: get\n  operationId: get_listings_listings__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/\n  method: post\n  operationId: post_listing_listings__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listings/{listing_id}\n  method: get\n  operationId: get_listing_listings__listing_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/{listing_id}\n  method: patch\n  operationId: patch_listing_listings__listing_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/\n  method: get\n  operationId: get_applications_applications__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application_id}\n\
   \  method: get\n  operationId: get_application_applications__application_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/\n  method: get\n  operationId: get_groups_groups__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{group_id}\n  method: get\n  operationId: get_group_groups__group_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/agentic-access/findigs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/findigs/agentic-access/findigs-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
 - rental-screening
 - Tenant Screening
-- resident-screening
+- Resident Screening
 - rental-application
 - Underwriting
 - Decisioning

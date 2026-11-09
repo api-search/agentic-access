@@ -8,43 +8,43 @@ api_specs:
   label: Bird Discovery API
   slug: bird-rides-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-discovery-api-openapi.yml
 - filename: bird-rides-geofencing-api-openapi.yml
   format: yaml
   label: Bird Geofencing API
   slug: bird-rides-geofencing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-geofencing-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-geofencing-api-openapi.yml
 - filename: bird-rides-pricing-api-openapi.yml
   format: yaml
   label: Bird Pricing API
   slug: bird-rides-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-pricing-api-openapi.yml
 - filename: bird-rides-realtime-api-openapi.yml
   format: yaml
   label: Bird Realtime API
   slug: bird-rides-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-realtime-api-openapi.yml
 - filename: bird-rides-stations-api-openapi.yml
   format: yaml
   label: Bird Stations API
   slug: bird-rides-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-stations-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-stations-api-openapi.yml
 - filename: bird-rides-system-api-openapi.yml
   format: yaml
   label: Bird System API
   slug: bird-rides-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-system-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-system-api-openapi.yml
 - filename: bird-rides-vehicles-api-openapi.yml
   format: yaml
   label: Bird Vehicles API
   slug: bird-rides-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/bird-rides/openapi/bird-rides-vehicles-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bird-gbfs-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /gbfs.json\n  method: get\n  operationId: getGbfsDiscovery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gbfs_versions.json\n  method: get\n  operationId: getGbfsVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system_information.json\n  method: get\n  operationId:\
   \ getSystemInformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle_types.json\n  method: get\n  operationId: getVehicleTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /free_bike_status.json\n  method: get\n  operationId: getFreeBikeStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /station_information.json\n  method: get\n  operationId: getStationInformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /station_status.json\n  method: get\n  operationId: getStationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geofencing_zones.json\n  method: get\n  operationId: getGeofencingZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system_pricing_plans.json\n  method: get\n  operationId: getSystemPricingPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system_regions.json\n  method: get\n  operationId: getSystemRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/agentic-access/bird-rides-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bird-rides/agentic-access/bird-rides-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Micromobility

@@ -151,8 +151,8 @@ source_yaml_url: https://artifacts.apis.io/getziztu-com/agentic-access/getziztu-
 summary_line: 56 operations · 40 acting · 1 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video
-- SocialMedia
-- ContentCreation
+- Social Media
+- Content Creation
 ---

@@ -8,19 +8,19 @@ api_specs:
   label: BFE Debug API
   slug: bfe-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-debug-api-openapi.yml
+  url: https://artifacts.apis.io/bfe/openapi/bfe-debug-api-openapi.yml
 - filename: bfe-monitor-api-openapi.yml
   format: yaml
   label: BFE Monitor API
   slug: bfe-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/bfe/openapi/bfe-monitor-api-openapi.yml
 - filename: bfe-reload-api-openapi.yml
   format: yaml
   label: BFE Reload API
   slug: bfe-reload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-reload-api-openapi.yml
+  url: https://artifacts.apis.io/bfe/openapi/bfe-reload-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bfe-management-api.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /monitor\n  method: get\n  operationId: listMonitorCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitor/{name}\n  method: get\n  operationId: getMonitorMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reload\n  method: get\n  operationId: listReloadEntries\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reload/{name}\n  method: get\n  operationId: reloadConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /debug/pprof/\n  method: get\n  operationId: getPprofIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /debug/cmdline\n  method: get\n  operationId: getCommandLine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /debug/profile\n  method: get\n  operationId: getCpuProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/agentic-access/bfe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bfe/agentic-access/bfe-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Load Balancer

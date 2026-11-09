@@ -9,31 +9,31 @@ api_specs:
   label: Azure SQL Database Databases API
   slug: microsoft-azure-sql-database-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-databases-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-databases-api-openapi.yml
 - filename: microsoft-azure-sql-database-elasticpools-api-openapi.yml
   format: yaml
   label: Azure SQL Database ElasticPools API
   slug: microsoft-azure-sql-database-elasticpools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-elasticpools-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-elasticpools-api-openapi.yml
 - filename: microsoft-azure-sql-database-failovergroups-api-openapi.yml
   format: yaml
   label: Azure SQL Database FailoverGroups API
   slug: microsoft-azure-sql-database-failovergroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-failovergroups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-failovergroups-api-openapi.yml
 - filename: microsoft-azure-sql-database-servers-api-openapi.yml
   format: yaml
   label: Azure SQL Database Servers API
   slug: microsoft-azure-sql-database-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-servers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-servers-api-openapi.yml
 - filename: microsoft-azure-sql-database-firewall-rules-api-openapi.yml
   format: yaml
   label: Azure SQL Database Firewall Rules API
   slug: microsoft-azure-sql-database-firewall-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/openapi/microsoft-azure-sql-database-firewall-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-sql-database/openapi/microsoft-azure-sql-database-firewall-rules-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -66,10 +66,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/elasticPools\n  method: get\n  operationId: listElasticPoolsByServer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/firewallRules\n  method: get\n  operationId: listFirewallRulesByServer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/firewallRules/{firewallRuleName}\n\
   \  method: put\n  operationId: createOrUpdateFirewallRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/firewallRules/{firewallRuleName}\n  method: delete\n  operationId: deleteFirewallRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/failoverGroups\n  method: get\n  operationId: listFailoverGroups\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/agentic-access/microsoft-azure-sql-database-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-sql-database/agentic-access/microsoft-azure-sql-database-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Database
 - SQL
 - Relational Database
+- Microsoft Azure
+- Microsoft
+- Cloud Database
+- Managed Database
+- SQL Server
 ---

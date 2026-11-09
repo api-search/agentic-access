@@ -9,127 +9,127 @@ api_specs:
   label: Workday Payroll Agent Definition API
   slug: workday-payroll-agentdefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-agentdefinition-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-agentdefinition-api-openapi.yml
 - filename: workday-payroll-deductions-api-openapi.yml
   format: yaml
   label: Workday Payroll Deductions API
   slug: workday-payroll-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-deductions-api-openapi.yml
 - filename: workday-payroll-earnings-api-openapi.yml
   format: yaml
   label: Workday Payroll Earnings API
   slug: workday-payroll-earnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-earnings-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-earnings-api-openapi.yml
 - filename: workday-payroll-input-batches-api-openapi.yml
   format: yaml
   label: Workday Payroll Input Batches API
   slug: workday-payroll-input-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-input-batches-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-input-batches-api-openapi.yml
 - filename: workday-payroll-one-time-payments-api-openapi.yml
   format: yaml
   label: Workday Payroll One-Time Payments API
   slug: workday-payroll-one-time-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-one-time-payments-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-one-time-payments-api-openapi.yml
 - filename: workday-payroll-pay-groups-api-openapi.yml
   format: yaml
   label: Workday Payroll Pay Groups API
   slug: workday-payroll-pay-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-pay-groups-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-pay-groups-api-openapi.yml
 - filename: workday-payroll-pay-runs-api-openapi.yml
   format: yaml
   label: Workday Payroll Pay Runs API
   slug: workday-payroll-pay-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-pay-runs-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-pay-runs-api-openapi.yml
 - filename: workday-payroll-payment-elections-api-openapi.yml
   format: yaml
   label: Workday Payroll Payment Elections API
   slug: workday-payroll-payment-elections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payment-elections-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-payment-elections-api-openapi.yml
 - filename: workday-payroll-payment-results-api-openapi.yml
   format: yaml
   label: Workday Payroll Payment Results API
   slug: workday-payroll-payment-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payment-results-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-payment-results-api-openapi.yml
 - filename: workday-payroll-payroll-adjustments-api-openapi.yml
   format: yaml
   label: Workday Payroll Adjustments API
   slug: workday-payroll-payroll-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-adjustments-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-payroll-adjustments-api-openapi.yml
 - filename: workday-payroll-payroll-calculations-api-openapi.yml
   format: yaml
   label: Workday Payroll Calculations API
   slug: workday-payroll-payroll-calculations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-calculations-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-payroll-calculations-api-openapi.yml
 - filename: workday-payroll-payroll-summaries-api-openapi.yml
   format: yaml
   label: Workday Payroll Summaries API
   slug: workday-payroll-payroll-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-payroll-summaries-api-openapi.yml
 - filename: workday-payroll-payslips-api-openapi.yml
   format: yaml
   label: Workday Payroll Payslips API
   slug: workday-payroll-payslips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payslips-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-payslips-api-openapi.yml
 - filename: workday-payroll-supplemental-earnings-api-openapi.yml
   format: yaml
   label: Workday Payroll Supplemental Earnings API
   slug: workday-payroll-supplemental-earnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-supplemental-earnings-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-supplemental-earnings-api-openapi.yml
 - filename: workday-payroll-tax-calculations-api-openapi.yml
   format: yaml
   label: Workday Payroll Tax Calculations API
   slug: workday-payroll-tax-calculations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-tax-calculations-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-tax-calculations-api-openapi.yml
 - filename: workday-payroll-tax-elections-api-openapi.yml
   format: yaml
   label: Workday Payroll Tax Elections API
   slug: workday-payroll-tax-elections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-tax-elections-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-tax-elections-api-openapi.yml
 - filename: workday-payroll-tax-filing-api-openapi.yml
   format: yaml
   label: Workday Payroll Tax Filing API
   slug: workday-payroll-tax-filing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-tax-filing-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-tax-filing-api-openapi.yml
 - filename: workday-payroll-tax-jurisdictions-api-openapi.yml
   format: yaml
   label: Workday Payroll Tax Jurisdictions API
   slug: workday-payroll-tax-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-tax-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-tax-jurisdictions-api-openapi.yml
 - filename: workday-payroll-tax-withholdings-api-openapi.yml
   format: yaml
   label: Workday Payroll Tax Withholdings API
   slug: workday-payroll-tax-withholdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-tax-withholdings-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-tax-withholdings-api-openapi.yml
 - filename: workday-payroll-time-off-inputs-api-openapi.yml
   format: yaml
   label: Workday Payroll Time Off Inputs API
   slug: workday-payroll-time-off-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-time-off-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-time-off-inputs-api-openapi.yml
 - filename: workday-payroll-workers-api-openapi.yml
   format: yaml
   label: Workday Payroll Workers API
   slug: workday-payroll-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-workers-api-openapi.yml
+  url: https://artifacts.apis.io/workday-payroll/openapi/workday-payroll-workers-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 37
@@ -186,7 +186,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workda
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{workerId}/taxElections\n  method: get\n  operationId: listWorkerTaxElections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{workerId}/taxElections\n  method: post\n  operationId: createWorkerTaxElection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{workerId}/taxElections/{electionId}\n  method: get\n  operationId: getWorkerTaxElection\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxJurisdictions\n  method: get\n  operationId: listTaxJurisdictions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxJurisdictions/{jurisdictionId}\n  method: get\n  operationId: getTaxJurisdiction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxFilings\n  method: get\n  operationId: listTaxFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxFilings/{filingId}\n  method: get\n  operationId: getTaxFiling\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /payRuns/{payRunId}/taxResults\n  method: get\n  operationId: listPayRunTaxResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{workerId}/taxSummary\n  method: get\n  operationId: getWorkerTaxSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/agentic-access/workday-payroll-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workday-payroll/agentic-access/workday-payroll-agentic-access.yml
 summary_line: 51 operations · 14 acting
 tags:
 - Compensation

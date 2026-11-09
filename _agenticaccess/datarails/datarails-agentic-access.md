@@ -8,25 +8,25 @@ api_specs:
   label: Datarails Health API
   slug: datarails-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-health-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-health-api-openapi.yml
 - filename: datarails-ready-api-openapi.yml
   format: yaml
   label: Datarails Ready API
   slug: datarails-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-ready-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-ready-api-openapi.yml
 - filename: datarails-well-known-api-openapi.yml
   format: yaml
   label: Datarails .well Known API
   slug: datarails-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-well-known-api-openapi.yml
 - filename: datarails-oauth-api-openapi.yml
   format: yaml
   label: Datarails OAUTH API
   slug: datarails-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-oauth-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/datarails-financeos-mcp-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /health\n  method: get\n  operationId: health_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/oauth-protected-resource\n  method: get\n  operationId: protected_resource_metadata__well_known_oauth_protected_resource_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /.well-known/openid-configuration\n  method: get\n  operationId: openid_configuration__well_known_openid_configuration_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/callback\n  method: get\n  operationId: oauth_callback_oauth_callback_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ready\n  method: get\n  operationId: ready_ready_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/agentic-access/datarails-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datarails/agentic-access/datarails-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Company

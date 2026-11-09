@@ -9,37 +9,37 @@ api_specs:
   label: Shazam Albums API
   slug: shazam-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-albums-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-albums-api-openapi.yml
 - filename: shazam-artists-api-openapi.yml
   format: yaml
   label: Shazam Artists API
   slug: shazam-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-artists-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-artists-api-openapi.yml
 - filename: shazam-charts-api-openapi.yml
   format: yaml
   label: Shazam Charts API
   slug: shazam-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-charts-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-charts-api-openapi.yml
 - filename: shazam-recognition-api-openapi.yml
   format: yaml
   label: Shazam Recognition API
   slug: shazam-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-recognition-api-openapi.yml
 - filename: shazam-search-api-openapi.yml
   format: yaml
   label: Shazam Search API
   slug: shazam-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-search-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-search-api-openapi.yml
 - filename: shazam-tracks-api-openapi.yml
   format: yaml
   label: Shazam Tracks API
   slug: shazam-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/openapi/shazam-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/shazam/openapi/shazam-tracks-api-openapi.yml
 consequence_counts:
   read: 11
   write: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shazam
   \  method: get\n  operationId: getTrack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/amapi/v1/catalog/{endpoint_country}/playlists/{playlist_id}/tracks\n  method: get\n  operationId: getPlaylistTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/charts/locations\n  method: get\n  operationId: getChartLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/search/v4/{language}/{endpoint_country}/web/search\n  method: get\n  operationId: searchArtists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/search/v3/{language}/{endpoint_country}/web/search\n\
   \  method: get\n  operationId: searchTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/amapi/v1/catalog/{endpoint_country}/artists/{artist_id}\n  method: get\n  operationId: getArtist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/amapi/v1/catalog/{endpoint_country}/artists/{artist_id}/albums\n  method: get\n  operationId: getArtistAlbums\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/amapi/v1/catalog/{endpoint_country}/albums/{album_id}\n  method: get\n  operationId: getAlbum\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shazam/v3/{language}/{endpoint_country}/web/-/tracks/track-similarities-id-{track_id}\n\
   \  method: get\n  operationId: getRelatedTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/count/v2/web/track/{track_id}\n  method: get\n  operationId: getListeningCounter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/count/v2/web/track\n  method: get\n  operationId: getListeningCounterMany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/agentic-access/shazam-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shazam/agentic-access/shazam-agentic-access.yml
 summary_line: 12 operations · 1 acting
 tags:
 - Music

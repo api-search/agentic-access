@@ -8,79 +8,79 @@ api_specs:
   label: Weather.gov Alerts API
   slug: weather-gov-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-alerts-api-openapi.yml
 - filename: weather-gov-aviation-api-openapi.yml
   format: yaml
   label: Weather.gov Aviation API
   slug: weather-gov-aviation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-aviation-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-aviation-api-openapi.yml
 - filename: weather-gov-glossary-api-openapi.yml
   format: yaml
   label: Weather.gov Glossary API
   slug: weather-gov-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-glossary-api-openapi.yml
 - filename: weather-gov-gridpoints-api-openapi.yml
   format: yaml
   label: Weather.gov Gridpoints API
   slug: weather-gov-gridpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-gridpoints-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-gridpoints-api-openapi.yml
 - filename: weather-gov-icons-api-openapi.yml
   format: yaml
   label: Weather.gov Icons API
   slug: weather-gov-icons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-icons-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-icons-api-openapi.yml
 - filename: weather-gov-offices-api-openapi.yml
   format: yaml
   label: Weather.gov Offices API
   slug: weather-gov-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-offices-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-offices-api-openapi.yml
 - filename: weather-gov-points-api-openapi.yml
   format: yaml
   label: Weather.gov Points API
   slug: weather-gov-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-points-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-points-api-openapi.yml
 - filename: weather-gov-products-api-openapi.yml
   format: yaml
   label: Weather.gov Products API
   slug: weather-gov-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-products-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-products-api-openapi.yml
 - filename: weather-gov-radar-api-openapi.yml
   format: yaml
   label: Weather.gov Radar API
   slug: weather-gov-radar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-radar-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-radar-api-openapi.yml
 - filename: weather-gov-radio-api-openapi.yml
   format: yaml
   label: Weather.gov Radio API
   slug: weather-gov-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-radio-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-radio-api-openapi.yml
 - filename: weather-gov-stations-api-openapi.yml
   format: yaml
   label: Weather.gov Stations API
   slug: weather-gov-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-stations-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-stations-api-openapi.yml
 - filename: weather-gov-thumbnails-api-openapi.yml
   format: yaml
   label: Weather.gov Thumbnails API
   slug: weather-gov-thumbnails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-thumbnails-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-thumbnails-api-openapi.yml
 - filename: weather-gov-zones-api-openapi.yml
   format: yaml
   label: Weather.gov Zones API
   slug: weather-gov-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/openapi/weather-gov-zones-api-openapi.yml
+  url: https://artifacts.apis.io/weather-gov/openapi/weather-gov-zones-api-openapi.yml
 consequence_counts:
   read: 65
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ none\n- path: /products/types/{typeId}/locations\n  method: get\n  operationId: products_type_locations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/locations/{locationId}/types\n  method: get\n  operationId: location_products\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/types/{typeId}/locations/{locationId}\n  method: get\n  operationId: products_type_location\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/types/{typeId}/locations/{locationId}/latest\n  method: get\n  operationId: latest_product_type_location\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /zones\n  method: get\n  operationId: zone_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/{type}\n  method: get\n  operationId: zone_list_type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/{type}/{zoneId}\n  method: get\n  operationId: zone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/{type}/{zoneId}/forecast\n  method: get\n  operationId: zone_forecast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/forecast/{zoneId}/observations\n  method: get\n  operationId: zone_obs\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/forecast/{zoneId}/stations\n  method: get\n  operationId: zone_stations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/agentic-access/weather-gov-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weather-gov/agentic-access/weather-gov-agentic-access.yml
 summary_line: 65 operations
 tags:
 - Weather

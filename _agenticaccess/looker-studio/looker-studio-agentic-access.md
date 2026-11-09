@@ -9,67 +9,67 @@ api_specs:
   label: Looker Studio Assets API
   slug: looker-studio-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-assets-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-assets-api-openapi.yml
 - filename: looker-studio-authentication-api-openapi.yml
   format: yaml
   label: Looker Studio Authentication API
   slug: looker-studio-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-authentication-api-openapi.yml
 - filename: looker-studio-configuration-api-openapi.yml
   format: yaml
   label: Looker Studio Configuration API
   slug: looker-studio-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-configuration-api-openapi.yml
 - filename: looker-studio-data-api-openapi.yml
   format: yaml
   label: Looker Studio Data API
   slug: looker-studio-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-data-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-data-api-openapi.yml
 - filename: looker-studio-embed-api-openapi.yml
   format: yaml
   label: Looker Studio Embed API
   slug: looker-studio-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-embed-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-embed-api-openapi.yml
 - filename: looker-studio-manifest-api-openapi.yml
   format: yaml
   label: Looker Studio Manifest API
   slug: looker-studio-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-manifest-api-openapi.yml
 - filename: looker-studio-permissions-api-openapi.yml
   format: yaml
   label: Looker Studio Permissions API
   slug: looker-studio-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-permissions-api-openapi.yml
 - filename: looker-studio-reports-api-openapi.yml
   format: yaml
   label: Looker Studio Reports API
   slug: looker-studio-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-reports-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-reports-api-openapi.yml
 - filename: looker-studio-schema-api-openapi.yml
   format: yaml
   label: Looker Studio Schema API
   slug: looker-studio-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-schema-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-schema-api-openapi.yml
 - filename: looker-studio-visualization-api-openapi.yml
   format: yaml
   label: Looker Studio Visualization API
   slug: looker-studio-visualization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-visualization-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-visualization-api-openapi.yml
 - filename: looker-studio-o-embed-api-openapi.yml
   format: yaml
   label: Looker Studio o Embed API
   slug: looker-studio-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-o-embed-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-o-embed-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/looker
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/{assetId}/permissions:addMembers\n  method: post\n  operationId: addAssetMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/{assetId}/permissions:revokeAllPermissions\n  method: post\n  operationId: revokeAllAssetPermissions\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\
   - path: /reporting/create\n  method: get\n  operationId: createLinkedReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connector/getSchema\n  method: post\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /visualization\n  method: get\n  operationId: listCommunityVisualizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /visualization/load\n  method: post\n  operationId: loadVisualization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/agentic-access/looker-studio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/looker-studio/agentic-access/looker-studio-agentic-access.yml
 summary_line: 18 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Analytics

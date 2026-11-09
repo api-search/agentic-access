@@ -9,37 +9,37 @@ api_specs:
   label: Who Represents This Address (RJH Signal Technologies) Batch API
   slug: rjhsignaltech-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-batch-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-batch-api-openapi.yml
 - filename: rjhsignaltech-civicinfo-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) Civicinfo API
   slug: rjhsignaltech-civicinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-civicinfo-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-civicinfo-api-openapi.yml
 - filename: rjhsignaltech-divisions-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) Divisions API
   slug: rjhsignaltech-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-divisions-api-openapi.yml
 - filename: rjhsignaltech-lookup-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) Lookup API
   slug: rjhsignaltech-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-lookup-api-openapi.yml
 - filename: rjhsignaltech-x402-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) X402 API
   slug: rjhsignaltech-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-x402-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-x402-api-openapi.yml
 - filename: rjhsignaltech-zip-api-openapi.yml
   format: yaml
   label: Who Represents This Address (RJH Signal Technologies) Zip API
   slug: rjhsignaltech-zip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/openapi/rjhsignaltech-zip-api-openapi.yml
+  url: https://artifacts.apis.io/rjhsignaltech/openapi/rjhsignaltech-zip-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/whorepresents.openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 6\n    acting: 2\n  by_consequence:\n    read: 6\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /civicinfo/v2/representatives\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /civicinfo/v2/divisionsByAddress\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /x402/v1/lookup\n  method: get\n  operationId: x402Lookup\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /x402/v1/lookup\n  method: post\n  operationId: x402LookupPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/zip\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/batch\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/divisions\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lookup\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/refs/heads/main/agentic-access/rjhsignaltech-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rjhsignaltech/agentic-access/rjhsignaltech-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
 - Company

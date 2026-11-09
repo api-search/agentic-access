@@ -9,91 +9,91 @@ api_specs:
   label: PandaDoc API Logs API
   slug: pandadoc-api-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-api-logs-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-api-logs-api-openapi.yml
 - filename: pandadoc-contacts-api-openapi.yml
   format: yaml
   label: PandaDoc Contacts API
   slug: pandadoc-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-contacts-api-openapi.yml
 - filename: pandadoc-document-attachments-api-openapi.yml
   format: yaml
   label: PandaDoc Document Attachments API
   slug: pandadoc-document-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-document-attachments-api-openapi.yml
 - filename: pandadoc-document-fields-api-openapi.yml
   format: yaml
   label: PandaDoc Document Fields API
   slug: pandadoc-document-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-fields-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-document-fields-api-openapi.yml
 - filename: pandadoc-document-link-to-crm-api-openapi.yml
   format: yaml
   label: PandaDoc Document Link to CRM API
   slug: pandadoc-document-link-to-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-link-to-crm-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-document-link-to-crm-api-openapi.yml
 - filename: pandadoc-document-recipients-api-openapi.yml
   format: yaml
   label: PandaDoc Document Recipients API
   slug: pandadoc-document-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-document-recipients-api-openapi.yml
 - filename: pandadoc-document-reminders-api-openapi.yml
   format: yaml
   label: PandaDoc Document Reminders API
   slug: pandadoc-document-reminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-document-reminders-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-document-reminders-api-openapi.yml
 - filename: pandadoc-documents-api-openapi.yml
   format: yaml
   label: PandaDoc Documents API
   slug: pandadoc-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-documents-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-documents-api-openapi.yml
 - filename: pandadoc-folders-api-openapi.yml
   format: yaml
   label: PandaDoc Folders API
   slug: pandadoc-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-folders-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-folders-api-openapi.yml
 - filename: pandadoc-forms-api-openapi.yml
   format: yaml
   label: PandaDoc Forms API
   slug: pandadoc-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-forms-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-forms-api-openapi.yml
 - filename: pandadoc-members-api-openapi.yml
   format: yaml
   label: PandaDoc Members API
   slug: pandadoc-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-members-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-members-api-openapi.yml
 - filename: pandadoc-templates-api-openapi.yml
   format: yaml
   label: PandaDoc Templates API
   slug: pandadoc-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-templates-api-openapi.yml
 - filename: pandadoc-webhook-events-api-openapi.yml
   format: yaml
   label: PandaDoc Webhook Events API
   slug: pandadoc-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-webhook-events-api-openapi.yml
 - filename: pandadoc-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: PandaDoc Webhook Subscriptions API
   slug: pandadoc-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-webhook-subscriptions-api-openapi.yml
 - filename: pandadoc-workspaces-api-openapi.yml
   format: yaml
   label: PandaDoc Workspaces API
   slug: pandadoc-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/pandadoc/openapi/pandadoc-workspaces-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 25
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pandad
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-subscriptions/{id}\n  method: get\n  operationId: getWebhookSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-subscriptions/{id}\n  method: patch\n  operationId: updateWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-subscriptions/{id}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-subscriptions/{id}/shared-key\n  method: patch\n  operationId: updateWebhookSubscriptionSharedKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-events\n  method: get\n  operationId: listWebhookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-events/{id}\n  method: get\n  operationId: getWebhookEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs\n  method: get\n  operationId: listApiLogs\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/agentic-access/pandadoc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pandadoc/agentic-access/pandadoc-agentic-access.yml
 summary_line: 43 operations · 18 acting
 tags:
 - Document Automation

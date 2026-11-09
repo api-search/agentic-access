@@ -9,25 +9,25 @@ api_specs:
   label: Conductor OSS Events API
   slug: conductor-oss-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-events-api-openapi.yml
+  url: https://artifacts.apis.io/conductor-oss/openapi/conductor-oss-events-api-openapi.yml
 - filename: conductor-oss-metadata-api-openapi.yml
   format: yaml
   label: Conductor OSS Metadata API
   slug: conductor-oss-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/conductor-oss/openapi/conductor-oss-metadata-api-openapi.yml
 - filename: conductor-oss-tasks-api-openapi.yml
   format: yaml
   label: Conductor OSS Tasks API
   slug: conductor-oss-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/conductor-oss/openapi/conductor-oss-tasks-api-openapi.yml
 - filename: conductor-oss-workflow-api-openapi.yml
   format: yaml
   label: Conductor OSS Workflow API
   slug: conductor-oss-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/openapi/conductor-oss-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/conductor-oss/openapi/conductor-oss-workflow-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/conduc
   \      - high-value\n    audit: required\n- path: /workflow/{workflowId}/skiptask/{taskReferenceName}\n  method: put\n  operationId: skipTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow/search\n  method: get\n  operationId: searchWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/poll/{taskType}\n  method: get\n  operationId: pollTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/poll/batch/{taskType}\n  method: get\n  operationId: batchPollTasks\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: post\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{taskId}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/queue/sizes\n  method: get\n  operationId: getTaskQueueSizes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event\n  method: get\n  operationId: listEventHandlers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event\n  method: post\n  operationId: createEventHandler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/agentic-access/conductor-oss-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/conductor-oss/agentic-access/conductor-oss-agentic-access.yml
 summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 tags:
 - AI Agents

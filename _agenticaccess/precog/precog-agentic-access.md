@@ -9,73 +9,73 @@ api_specs:
   label: Precog Admin API
   slug: precog-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-admin-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-admin-api-openapi.yml
 - filename: precog-data-model-api-openapi.yml
   format: yaml
   label: Precog Data Model API
   slug: precog-data-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-data-model-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-data-model-api-openapi.yml
 - filename: precog-datasets-api-openapi.yml
   format: yaml
   label: Precog Datasets API
   slug: precog-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-datasets-api-openapi.yml
 - filename: precog-destinations-api-openapi.yml
   format: yaml
   label: Precog Destinations API
   slug: precog-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-destinations-api-openapi.yml
 - filename: precog-issues-api-openapi.yml
   format: yaml
   label: Precog Issues API
   slug: precog-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-issues-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-issues-api-openapi.yml
 - filename: precog-kinds-api-openapi.yml
   format: yaml
   label: Precog Kinds API
   slug: precog-kinds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-kinds-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-kinds-api-openapi.yml
 - filename: precog-loads-api-openapi.yml
   format: yaml
   label: Precog Loads API
   slug: precog-loads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-loads-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-loads-api-openapi.yml
 - filename: precog-log-api-openapi.yml
   format: yaml
   label: Precog Log API
   slug: precog-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-log-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-log-api-openapi.yml
 - filename: precog-pipelines-api-openapi.yml
   format: yaml
   label: Precog Pipelines API
   slug: precog-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-pipelines-api-openapi.yml
 - filename: precog-semantic-model-api-openapi.yml
   format: yaml
   label: Precog Semantic Model API
   slug: precog-semantic-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-semantic-model-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-semantic-model-api-openapi.yml
 - filename: precog-sources-api-openapi.yml
   format: yaml
   label: Precog Sources API
   slug: precog-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-sources-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-sources-api-openapi.yml
 - filename: precog-stripe-api-openapi.yml
   format: yaml
   label: Precog Stripe API
   slug: precog-stripe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/openapi/precog-stripe-api-openapi.yml
+  url: https://artifacts.apis.io/precog/openapi/precog-stripe-api-openapi.yml
 consequence_counts:
   read: 27
   safety-critical: 4
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/precog
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stripe/check\n  method: post\n  operationId: post-stripe-check\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stripe/session\n  method: post\n  operationId: post-stripe-session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues/\n  method: post\n  operationId: post-issues\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues/{issue-id}/assets\n  method: post\n  operationId: post-issues-issue-id-assets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues/{issue-id}/respond\n  method: put\n  operationId: put-issues-issue-id-respond\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /issues/{issue-id}/approve\n  method: put\n  operationId: put-issues-issue-id-approve\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/agentic-access/precog-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/precog/agentic-access/precog-agentic-access.yml
 summary_line: 62 operations · 35 acting · 4 human-in-the-loop
 tags:
 - Company

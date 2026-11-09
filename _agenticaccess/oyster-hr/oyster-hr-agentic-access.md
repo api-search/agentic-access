@@ -9,145 +9,145 @@ api_specs:
   label: Oyster HR Authentication API
   slug: oyster-hr-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-authentication-api-openapi.yml
 - filename: oyster-hr-bank-accounts-api-openapi.yml
   format: yaml
   label: Oyster HR Bank Accounts API
   slug: oyster-hr-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-bank-accounts-api-openapi.yml
 - filename: oyster-hr-benefits-api-openapi.yml
   format: yaml
   label: Oyster HR Benefits API
   slug: oyster-hr-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-benefits-api-openapi.yml
 - filename: oyster-hr-company-api-openapi.yml
   format: yaml
   label: Oyster HR Company API
   slug: oyster-hr-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-company-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-company-api-openapi.yml
 - filename: oyster-hr-consent-api-openapi.yml
   format: yaml
   label: Oyster HR Consent API
   slug: oyster-hr-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-consent-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-consent-api-openapi.yml
 - filename: oyster-hr-contract-changes-api-openapi.yml
   format: yaml
   label: Oyster HR Contract Changes API
   slug: oyster-hr-contract-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-contract-changes-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-contract-changes-api-openapi.yml
 - filename: oyster-hr-cost-estimate-api-openapi.yml
   format: yaml
   label: Oyster HR Cost Estimate API
   slug: oyster-hr-cost-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-cost-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-cost-estimate-api-openapi.yml
 - filename: oyster-hr-credit-notes-api-openapi.yml
   format: yaml
   label: Oyster HR Credit notes API
   slug: oyster-hr-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-credit-notes-api-openapi.yml
 - filename: oyster-hr-departments-api-openapi.yml
   format: yaml
   label: Oyster HR Departments API
   slug: oyster-hr-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-departments-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-departments-api-openapi.yml
 - filename: oyster-hr-employments-api-openapi.yml
   format: yaml
   label: Oyster HR Employments API
   slug: oyster-hr-employments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-employments-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-employments-api-openapi.yml
 - filename: oyster-hr-engagements-api-openapi.yml
   format: yaml
   label: Oyster HR Engagements API
   slug: oyster-hr-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-engagements-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-engagements-api-openapi.yml
 - filename: oyster-hr-expenses-api-openapi.yml
   format: yaml
   label: Oyster HR Expenses API
   slug: oyster-hr-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-expenses-api-openapi.yml
 - filename: oyster-hr-identity-verification-api-openapi.yml
   format: yaml
   label: Oyster HR Identity Verification API
   slug: oyster-hr-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-identity-verification-api-openapi.yml
 - filename: oyster-hr-invoices-api-openapi.yml
   format: yaml
   label: Oyster HR Invoices API
   slug: oyster-hr-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-invoices-api-openapi.yml
 - filename: oyster-hr-offboarding-api-openapi.yml
   format: yaml
   label: Oyster HR Offboarding API
   slug: oyster-hr-offboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-offboarding-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-offboarding-api-openapi.yml
 - filename: oyster-hr-operations-api-openapi.yml
   format: yaml
   label: Oyster HR Operations API
   slug: oyster-hr-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-operations-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-operations-api-openapi.yml
 - filename: oyster-hr-oysterhr-prepay-api-openapi.yml
   format: yaml
   label: Oyster HR @oysterhr/prepay API
   slug: oyster-hr-oysterhr-prepay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-oysterhr-prepay-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-oysterhr-prepay-api-openapi.yml
 - filename: oyster-hr-payments-api-openapi.yml
   format: yaml
   label: Oyster HR Payments API
   slug: oyster-hr-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-payments-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-payments-api-openapi.yml
 - filename: oyster-hr-payroll-api-openapi.yml
   format: yaml
   label: Oyster HR Payroll API
   slug: oyster-hr-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-payroll-api-openapi.yml
 - filename: oyster-hr-payroll-changes-api-openapi.yml
   format: yaml
   label: Oyster HR Payroll Changes API
   slug: oyster-hr-payroll-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-payroll-changes-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-payroll-changes-api-openapi.yml
 - filename: oyster-hr-reseller-api-openapi.yml
   format: yaml
   label: Oyster HR Reseller API
   slug: oyster-hr-reseller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-reseller-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-reseller-api-openapi.yml
 - filename: oyster-hr-time-off-api-openapi.yml
   format: yaml
   label: Oyster HR Time Off API
   slug: oyster-hr-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-time-off-api-openapi.yml
 - filename: oyster-hr-time-tracking-api-openapi.yml
   format: yaml
   label: Oyster HR Time Tracking API
   slug: oyster-hr-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-time-tracking-api-openapi.yml
 - filename: oyster-hr-webhooks-api-openapi.yml
   format: yaml
   label: Oyster HR Webhooks API
   slug: oyster-hr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/openapi/oyster-hr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/oyster-hr/openapi/oyster-hr-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 76
@@ -242,8 +242,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/oyster
   \ consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payroll_changes/sources/types\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payroll_changes/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payroll_changes/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payroll_changes/{id}\n  method: patch\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/public_holidays\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reseller/customers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reseller/customers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/reseller/customers/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/time_off/entitlements\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/time_off/entitlements/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/time_off/requests\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n \
-  \   - read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/agentic-access/oyster-hr-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/agentic-access/oyster-hr-agentic-access.yml
+  \   - read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://artifacts.apis.io/oyster-hr/agentic-access/oyster-hr-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/oyster-hr/agentic-access/oyster-hr-agentic-access.yml
 summary_line: 141 operations · 65 acting · 2 human-in-the-loop
 tags:
 - Human Resources

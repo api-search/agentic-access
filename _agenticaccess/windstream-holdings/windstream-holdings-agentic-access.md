@@ -9,55 +9,55 @@ api_specs:
   label: Windstream Holdings Agents API
   slug: windstream-holdings-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-agents-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-agents-api-openapi.yml
 - filename: windstream-holdings-auto-attendants-api-openapi.yml
   format: yaml
   label: Windstream Holdings Auto Attendants API
   slug: windstream-holdings-auto-attendants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-auto-attendants-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-auto-attendants-api-openapi.yml
 - filename: windstream-holdings-calls-api-openapi.yml
   format: yaml
   label: Windstream Holdings Calls API
   slug: windstream-holdings-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-calls-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-calls-api-openapi.yml
 - filename: windstream-holdings-extensions-api-openapi.yml
   format: yaml
   label: Windstream Holdings Extensions API
   slug: windstream-holdings-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-extensions-api-openapi.yml
 - filename: windstream-holdings-products-api-openapi.yml
   format: yaml
   label: Windstream Holdings Products API
   slug: windstream-holdings-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-products-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-products-api-openapi.yml
 - filename: windstream-holdings-roles-api-openapi.yml
   format: yaml
   label: Windstream Holdings Roles API
   slug: windstream-holdings-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-roles-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-roles-api-openapi.yml
 - filename: windstream-holdings-system-api-openapi.yml
   format: yaml
   label: Windstream Holdings System API
   slug: windstream-holdings-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-system-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-system-api-openapi.yml
 - filename: windstream-holdings-tenants-api-openapi.yml
   format: yaml
   label: Windstream Holdings Tenants API
   slug: windstream-holdings-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-tenants-api-openapi.yml
 - filename: windstream-holdings-users-api-openapi.yml
   format: yaml
   label: Windstream Holdings Users API
   slug: windstream-holdings-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-users-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-users-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 4
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/windst
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auto-attendants/{attendantId}\n  method: put\n  operationId: updateAutoAttendant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auto-attendants/{attendantId}\n  method: delete\n  operationId: deleteAutoAttendant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/agentic-access/windstream-holdings-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/windstream-holdings/agentic-access/windstream-holdings-agentic-access.yml
 summary_line: 38 operations · 16 acting · 4 human-in-the-loop
 tags:
 - Broadband

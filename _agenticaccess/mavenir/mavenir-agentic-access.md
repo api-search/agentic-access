@@ -9,19 +9,19 @@ api_specs:
   label: Mavenir One To One Call API
   slug: mavenir-onetoonecall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-onetoonecall-api-openapi.yml
+  url: https://artifacts.apis.io/mavenir/openapi/mavenir-onetoonecall-api-openapi.yml
 - filename: mavenir-push-token-api-openapi.yml
   format: yaml
   label: Mavenir Push Token API
   slug: mavenir-push-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-push-token-api-openapi.yml
+  url: https://artifacts.apis.io/mavenir/openapi/mavenir-push-token-api-openapi.yml
 - filename: mavenir-racm-api-openapi.yml
   format: yaml
   label: Mavenir RACM API
   slug: mavenir-racm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/openapi/mavenir-racm-api-openapi.yml
+  url: https://artifacts.apis.io/mavenir/openapi/mavenir-racm-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 1
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/maveni
   \  method: get\n  operationId: getSessionDetailsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    - write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}\n  method: delete\n  operationId: deleteSessionById\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - read\n    - write\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /sessions/{sessionId}/status\n  method: put\n  operationId: postSessionStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n   \
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/{sessionId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/{sessionId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read\n    - write\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /push\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/agentic-access/mavenir-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mavenir/agentic-access/mavenir-agentic-access.yml
 summary_line: 8 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Telecommunications

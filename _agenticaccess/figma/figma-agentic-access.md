@@ -9,73 +9,109 @@ api_specs:
   label: Figma Files API
   slug: figma-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-files-api-openapi.yml
-- filename: figma-teams-api-openapi.yml
-  format: yaml
-  label: Figma Teams API
-  slug: figma-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-teams-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-files-api-openapi.yml
 - filename: figma-projects-api-openapi.yml
   format: yaml
   label: Figma Projects API
   slug: figma-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-projects-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-projects-api-openapi.yml
 - filename: figma-component-sets-api-openapi.yml
   format: yaml
   label: Figma Component Sets API
   slug: figma-component-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-component-sets-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-component-sets-api-openapi.yml
 - filename: figma-activity-logs-api-openapi.yml
   format: yaml
   label: Figma Activity Logs API
   slug: figma-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-activity-logs-api-openapi.yml
 - filename: figma-payments-api-openapi.yml
   format: yaml
   label: Figma Payments API
   slug: figma-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-payments-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-payments-api-openapi.yml
 - filename: figma-dev-resources-api-openapi.yml
   format: yaml
   label: Figma Dev Resources API
   slug: figma-dev-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-dev-resources-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-dev-resources-api-openapi.yml
 - filename: figma-comments-api-openapi.yml
   format: yaml
   label: Figma Comments API
   slug: figma-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-comments-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-comments-api-openapi.yml
 - filename: figma-components-api-openapi.yml
   format: yaml
   label: Figma Components API
   slug: figma-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-components-api-openapi.yml
-- filename: figma-keys-api-openapi.yml
-  format: yaml
-  label: Figma Keys API
-  slug: figma-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-keys-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-components-api-openapi.yml
 - filename: figma-library-analytics-api-openapi.yml
   format: yaml
   label: Figma Library Analytics API
   slug: figma-library-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-library-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-library-analytics-api-openapi.yml
 - filename: figma-users-api-openapi.yml
   format: yaml
   label: Figma Users API
   slug: figma-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-users-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-users-api-openapi.yml
+- filename: figma-ai-usage-api-openapi.yml
+  format: yaml
+  label: Figma AI Usage API
+  slug: figma-ai-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-ai-usage-api-openapi.yml
+- filename: figma-comment-reactions-api-openapi.yml
+  format: yaml
+  label: Figma Comment Reactions API
+  slug: figma-comment-reactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-comment-reactions-api-openapi.yml
+- filename: figma-developer-logs-api-openapi.yml
+  format: yaml
+  label: Figma Developer Logs API
+  slug: figma-developer-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-developer-logs-api-openapi.yml
+- filename: figma-folders-api-openapi.yml
+  format: yaml
+  label: Figma Folders API
+  slug: figma-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-folders-api-openapi.yml
+- filename: figma-styles-api-openapi.yml
+  format: yaml
+  label: Figma Styles API
+  slug: figma-styles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-styles-api-openapi.yml
+- filename: figma-variables-api-openapi.yml
+  format: yaml
+  label: Figma Variables API
+  slug: figma-variables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-variables-api-openapi.yml
+- filename: figma-webhooks-api-openapi.yml
+  format: yaml
+  label: Figma Webhooks API
+  slug: figma-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-webhooks-api-openapi.yml
+- filename: figma-o-embed-api-openapi.yml
+  format: yaml
+  label: Figma o Embed API
+  slug: figma-o-embed-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-o-embed-api-openapi.yml
 consequence_counts:
   read: 25
   write: 6
@@ -111,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/figma-
   \    consequence: write\n    subject: required\n    scope:\n    - file_comments:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/teams/{team_id}/components\n  method: get\n  operationId: getTeamComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - files:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/files/{file_key}/components\n  method: get\n  operationId: getFileComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - files:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/components/{key}\n  method: get\n  operationId: getComponent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - files:read\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams/{team_id}/component_sets\n  method: get\n  operationId: getTeamComponentSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - files:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams/{team_id}/styles\n  method: get\n  operationId: getTeamStyles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - files:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams/{team_id}/projects\n  method: get\n  operationId: getTeamProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - files:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/files\n  method: get\n  operationId: getProjectFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    scope:\n    - files:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - files:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/styles/{key}\n  method: get\n  operationId: getStyle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - files:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/teams/{team_id}/webhooks\n  method: get\n  operationId: getTeamWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - files:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/agentic-access/figma-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/figma/agentic-access/figma-agentic-access.yml
 summary_line: 31 operations · 6 acting
 tags:
 - Collaboration

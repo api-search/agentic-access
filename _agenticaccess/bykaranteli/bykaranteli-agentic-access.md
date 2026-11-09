@@ -8,7 +8,31 @@ api_specs:
   label: ByKaranteli X402 API
   slug: bykaranteli-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bykaranteli/refs/heads/main/openapi/bykaranteli-x402-api-openapi.yml
+  url: https://artifacts.apis.io/bykaranteli/openapi/bykaranteli-x402-api-openapi.yml
+- filename: bykaranteli-public-api-openapi.yml
+  format: yaml
+  label: ByKaranteli Public API
+  slug: bykaranteli-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bykaranteli/openapi/bykaranteli-public-api-openapi.yml
+- filename: bykaranteli-public-api-openapi.yml
+  format: yaml
+  label: ByKaranteli Public API
+  slug: bykaranteli-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bykaranteli/openapi/bykaranteli-public-api-openapi.yml
+- filename: bykaranteli-series-api-openapi.yml
+  format: yaml
+  label: ByKaranteli Series API
+  slug: bykaranteli-series-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bykaranteli/openapi/bykaranteli-series-api-openapi.yml
+- filename: bykaranteli-usage-api-openapi.yml
+  format: yaml
+  label: ByKaranteli Usage API
+  slug: bykaranteli-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bykaranteli/openapi/bykaranteli-usage-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -42,7 +66,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/bykara
   \ solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp\n      - eip155:8453\n      billed: per successful response\n    human-in-the-loop: recommended (spend approval)\n- path: /api/x402/slippage-history\n  method: get\n  operationId: slippage-history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: payment settlement is onchain and self-auditing\n    cost:\n      model: x402-per-call\n      currency: USD\n      amount: 0.002\n      asset: USDC\n      networks:\n      - solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp\n      - eip155:8453\n      billed: per successful response\n    human-in-the-loop: recommended (spend approval)\n- path: /api/x402/listings-history\n  method: get\n  operationId: listings-history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: payment settlement is onchain and self-auditing\n    cost:\n      model:\
   \ x402-per-call\n      currency: USD\n      amount: 0.002\n      asset: USDC\n      networks:\n      - solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp\n      - eip155:8453\n      billed: per successful response\n    human-in-the-loop: recommended (spend approval)\n- path: /api/x402/spot-microstructure\n  method: get\n  operationId: spot-microstructure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: payment settlement is onchain and self-auditing\n    cost:\n      model: x402-per-call\n      currency: USD\n      amount: 0.01\n      asset: USDC\n      networks:\n      - solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp\n      - eip155:8453\n      billed: per successful response\n    human-in-the-loop: recommended (spend approval)\nx-payment-correction:\n  note: 'The heuristic classifier read all 14 operations as consequence: read, which is true of the DATA\n    but false of the CALL. Thirteen of the fourteen settle\
   \ a USDC micropayment per successful response,\n    so they are read-with-spend, not free reads. Per-operation cost blocks and a spend-approval recommendation\n    have been added above from the provider''s own /api/x402 catalog and per-operation x-payment-info.\n    Only x402Catalog is genuinely free.'\n  operations_corrected: 13\n  source: https://bykaranteli.com/api/x402\n  detail: finops/bykaranteli-finops.yml\nx-free-surface-note: The free public REST surface (/api/public/*, /api/v1/public/*) and the 20 anonymous\n  MCP tools at https://mcp.bykaranteli.com are genuinely unauthenticated read-only reads with no spend\n  consequence. They are not classified here because they have no OpenAPI to classify from.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bykaranteli/refs/heads/main/agentic-access/bykaranteli-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bykaranteli/agentic-access/bykaranteli-agentic-access.yml
 summary_line: 14 operations
 tags:
 - Cryptocurrency

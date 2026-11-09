@@ -8,19 +8,19 @@ api_specs:
   label: Starwood Hotels and Resorts Availability API
   slug: starwood-hotels-and-resorts-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-availability-api-openapi.yml
+  url: https://artifacts.apis.io/starwood-hotels-and-resorts/openapi/starwood-hotels-and-resorts-availability-api-openapi.yml
 - filename: starwood-hotels-and-resorts-hotels-api-openapi.yml
   format: yaml
   label: Starwood Hotels and Resorts Hotels API
   slug: starwood-hotels-and-resorts-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/starwood-hotels-and-resorts/openapi/starwood-hotels-and-resorts-hotels-api-openapi.yml
 - filename: starwood-hotels-and-resorts-properties-api-openapi.yml
   format: yaml
   label: Starwood Hotels and Resorts Properties API
   slug: starwood-hotels-and-resorts-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-properties-api-openapi.yml
+  url: https://artifacts.apis.io/starwood-hotels-and-resorts/openapi/starwood-hotels-and-resorts-properties-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/starwood-hotel-search-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/hotels/search\n  method: get\n  operationId: searchHotels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hotels/{hotelId}\n  method: get\n  operationId: getHotelById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hotels/{hotelId}/availability\n  method:\
   \ get\n  operationId: getHotelAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/agentic-access/starwood-hotels-and-resorts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/starwood-hotels-and-resorts/agentic-access/starwood-hotels-and-resorts-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Hotels

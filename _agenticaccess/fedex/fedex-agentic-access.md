@@ -6,16 +6,100 @@ action_class_counts:
 api_specs:
 - filename: fedex-authorization-api-openapi.yml
   format: yaml
-  label: FedEx Authorization API
-  slug: fedex-authorization-api
+  label: FedEx API Authorization
+  slug: fedex-api-authorization
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/openapi/fedex-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/fedex/openapi/fedex-authorization-api-openapi.yml
+- filename: fedex-rate-api-openapi.yml
+  format: yaml
+  label: FedEx Rates and Transit Times API
+  slug: fedex-rates-and-transit-times-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-rate-api-openapi.yml
+- filename: fedex-ship-api-openapi.yml
+  format: yaml
+  label: FedEx Ship API
+  slug: fedex-ship-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-ship-api-openapi.yml
+- filename: fedex-pickup-api-openapi.yml
+  format: yaml
+  label: FedEx Pickup Request API
+  slug: fedex-pickup-request-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-pickup-api-openapi.yml
 - filename: fedex-track-api-openapi.yml
   format: yaml
-  label: FedEx Track API
-  slug: fedex-track-api
+  label: FedEx Basic Integrated Visibility
+  slug: fedex-basic-integrated-visibility
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/openapi/fedex-track-api-openapi.yml
+  url: https://artifacts.apis.io/fedex/openapi/fedex-track-api-openapi.yml
+- filename: fedex-regulatory-api-openapi.yml
+  format: yaml
+  label: FedEx Regulatory API
+  slug: fedex-regulatory-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-regulatory-api-openapi.yml
+- filename: fedex-address-api-openapi.yml
+  format: yaml
+  label: FedEx Address API
+  slug: fedex-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-address-api-openapi.yml
+- filename: fedex-availability-api-openapi.yml
+  format: yaml
+  label: FedEx Availability API
+  slug: fedex-availability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-availability-api-openapi.yml
+- filename: fedex-commodity-api-openapi.yml
+  format: yaml
+  label: FedEx Commodity API
+  slug: fedex-commodity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-commodity-api-openapi.yml
+- filename: fedex-country-api-openapi.yml
+  format: yaml
+  label: FedEx Country API
+  slug: fedex-country-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-country-api-openapi.yml
+- filename: fedex-documents-api-openapi.yml
+  format: yaml
+  label: FedEx Documents API
+  slug: fedex-documents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-documents-api-openapi.yml
+- filename: fedex-dutytax-api-openapi.yml
+  format: yaml
+  label: FedEx Dutytax API
+  slug: fedex-dutytax-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-dutytax-api-openapi.yml
+- filename: fedex-globaltrade-api-openapi.yml
+  format: yaml
+  label: FedEx Globaltrade API
+  slug: fedex-globaltrade-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-globaltrade-api-openapi.yml
+- filename: fedex-irc-api-openapi.yml
+  format: yaml
+  label: FedEx Irc API
+  slug: fedex-irc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-irc-api-openapi.yml
+- filename: fedex-location-api-openapi.yml
+  format: yaml
+  label: FedEx Location API
+  slug: fedex-location-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-location-api-openapi.yml
+- filename: fedex-webhook-api-openapi.yml
+  format: yaml
+  label: FedEx Webhook API
+  slug: fedex-webhook-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fedex/openapi/fedex-webhook-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 1
@@ -65,7 +149,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fedex-
   \  method: post\n  operationId: postTrackV1Trackingnumbers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /track/v1/referencenumbers\n  method: post\n  operationId: postTrackV1Referencenumbers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /track/v1/tcn\n  method: post\n  operationId: postTrackV1Tcn\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /track/v1/associatedshipments\n  method: post\n  operationId: postTrackV1Associatedshipments\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /track/v1/trackingdocuments\n  method: post\n  operationId: postTrackV1Trackingdocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track/v1/notifications\n  method: post\n  operationId: postTrackV1Notifications\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n \
   \     exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/agentic-access/fedex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fedex/agentic-access/fedex-agentic-access.yml
 summary_line: 7 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Address Validation

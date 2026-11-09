@@ -9,49 +9,49 @@ api_specs:
   label: Emplifi Ads API
   slug: emplifi-io-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-ads-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-ads-api-openapi.yml
 - filename: emplifi-io-assets-api-openapi.yml
   format: yaml
   label: Emplifi Assets API
   slug: emplifi-io-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-assets-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-assets-api-openapi.yml
 - filename: emplifi-io-care-api-openapi.yml
   format: yaml
   label: Emplifi Care API
   slug: emplifi-io-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-care-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-care-api-openapi.yml
 - filename: emplifi-io-community-api-openapi.yml
   format: yaml
   label: Emplifi Community API
   slug: emplifi-io-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-community-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-community-api-openapi.yml
 - filename: emplifi-io-listening-api-openapi.yml
   format: yaml
   label: Emplifi Listening API
   slug: emplifi-io-listening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-listening-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-listening-api-openapi.yml
 - filename: emplifi-io-posts-api-openapi.yml
   format: yaml
   label: Emplifi Posts API
   slug: emplifi-io-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-posts-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-posts-api-openapi.yml
 - filename: emplifi-io-profile-metrics-api-openapi.yml
   format: yaml
   label: Emplifi Profile Metrics API
   slug: emplifi-io-profile-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-profile-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-profile-metrics-api-openapi.yml
 - filename: emplifi-io-reference-api-openapi.yml
   format: yaml
   label: Emplifi Reference API
   slug: emplifi-io-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-reference-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-reference-api-openapi.yml
 consequence_counts:
   read: 32
   write: 9
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/social
   \  method: post\n  operationId: getLinkedinMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/pinterest/metrics\n  method: post\n  operationId: getPinterestMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/tiktok/metrics\n  method: post\n  operationId: getTiktokMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/aggregated-metrics\n  method: post\n  operationId: getAggregatedMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/{network}/profiles\n  method: get\n  operationId: listProfiles\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/profile/labels\n  method: get\n  operationId: getProfileLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/post/labels\n  method: get\n  operationId: getPostLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/post/label-groups\n  method: get\n  operationId: getPostLabelGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/listening/queries\n  method: get\n  operationId: getListeningQueries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/ads/accounts\n\
   \  method: post\n  operationId: listAdAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/agentic-access/socialbakers-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/emplifi-io/agentic-access/socialbakers-agentic-access.yml
 summary_line: 41 operations · 9 acting
 tags:
 - Company

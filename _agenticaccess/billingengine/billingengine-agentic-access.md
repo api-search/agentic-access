@@ -9,19 +9,19 @@ api_specs:
   label: BillingEngine Customers API
   slug: billingengine-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billingengine/refs/heads/main/openapi/billingengine-customers-api-openapi.yml
+  url: https://artifacts.apis.io/billingengine/openapi/billingengine-customers-api-openapi.yml
 - filename: billingengine-invoices-api-openapi.yml
   format: yaml
   label: BillingEngine Invoices API
   slug: billingengine-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billingengine/refs/heads/main/openapi/billingengine-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/billingengine/openapi/billingengine-invoices-api-openapi.yml
 - filename: billingengine-payments-api-openapi.yml
   format: yaml
   label: BillingEngine Payments API
   slug: billingengine-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billingengine/refs/heads/main/openapi/billingengine-payments-api-openapi.yml
+  url: https://artifacts.apis.io/billingengine/openapi/billingengine-payments-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 7
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/billin
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{id}\n  method: patch\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: post\n  operationId: createInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/{id}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{id}\n  method: patch\n  operationId: updateInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/{id}.pdf\n  method: get\n  operationId: downloadInvoicePdf\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{id}.xml\n  method: get\n  operationId: downloadInvoiceXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billingengine/refs/heads/main/agentic-access/billingengine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/billingengine/agentic-access/billingengine-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Invoicing

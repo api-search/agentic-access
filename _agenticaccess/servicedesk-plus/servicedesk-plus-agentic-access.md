@@ -9,7 +9,7 @@ api_specs:
   label: ManageEngine ServiceDesk Plus Requests API
   slug: servicedesk-plus-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/openapi/servicedesk-plus-requests-api-openapi.yml
+  url: https://artifacts.apis.io/servicedesk-plus/openapi/servicedesk-plus-requests-api-openapi.yml
 consequence_counts:
   read: 2
   write: 4
@@ -38,7 +38,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/servicedesk-plus-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 2\n    acting: 4\n  by_consequence:\n    read: 2\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /app/{portal}/api/v3/requests\n  method: get\n  operationId: listRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/{portal}/api/v3/requests\n  method: post\n  operationId: createRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/{portal}/api/v3/requests/{request_id}\n  method: get\n  operationId: getRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/{portal}/api/v3/requests/{request_id}\n  method: put\n  operationId: updateRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/{portal}/api/v3/requests/{request_id}\n  method: delete\n  operationId: deleteRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/{portal}/api/v3/requests/{request_id}/attachments\n  method: post\n  operationId: addRequestAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/agentic-access/servicedesk-plus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/servicedesk-plus/agentic-access/servicedesk-plus-agentic-access.yml
 summary_line: 6 operations · 4 acting
 tags:
 - ITSM

@@ -9,43 +9,43 @@ api_specs:
   label: WorkMotion Absences API
   slug: workmotion-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-absences-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-absences-api-openapi.yml
 - filename: workmotion-contracts-api-openapi.yml
   format: yaml
   label: WorkMotion Contracts API
   slug: workmotion-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-contracts-api-openapi.yml
 - filename: workmotion-cost-calculator-api-openapi.yml
   format: yaml
   label: WorkMotion Cost Calculator API
   slug: workmotion-cost-calculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-cost-calculator-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-cost-calculator-api-openapi.yml
 - filename: workmotion-documents-api-openapi.yml
   format: yaml
   label: WorkMotion Documents API
   slug: workmotion-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-documents-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-documents-api-openapi.yml
 - filename: workmotion-employees-api-openapi.yml
   format: yaml
   label: WorkMotion Employees API
   slug: workmotion-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-employees-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-employees-api-openapi.yml
 - filename: workmotion-onboarding-api-openapi.yml
   format: yaml
   label: WorkMotion Onboarding API
   slug: workmotion-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-onboarding-api-openapi.yml
 - filename: workmotion-webhooks-api-openapi.yml
   format: yaml
   label: WorkMotion Webhooks API
   slug: workmotion-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-webhooks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workmo
   \ get\n  operationId: getAbsence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees/{employeeId}/documents\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees/{employeeId}/documents\n  method: post\n  operationId: uploadDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}\n  method: get\n  operationId: downloadDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /cost-calculator\n  method: post\n  operationId: calculateEmploymentCost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/agentic-access/workmotion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workmotion/agentic-access/workmotion-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Employer of Record

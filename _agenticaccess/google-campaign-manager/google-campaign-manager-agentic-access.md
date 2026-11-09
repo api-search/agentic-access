@@ -9,25 +9,25 @@ api_specs:
   label: Google Campaign Manager Ads API
   slug: google-campaign-manager-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-ads-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-ads-api-openapi.yml
 - filename: google-campaign-manager-campaigns-api-openapi.yml
   format: yaml
   label: Google Campaign Manager Campaigns API
   slug: google-campaign-manager-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-campaigns-api-openapi.yml
 - filename: google-campaign-manager-placements-api-openapi.yml
   format: yaml
   label: Google Campaign Manager Placements API
   slug: google-campaign-manager-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-placements-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-placements-api-openapi.yml
 - filename: google-campaign-manager-reports-api-openapi.yml
   format: yaml
   label: Google Campaign Manager Reports API
   slug: google-campaign-manager-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-reports-api-openapi.yml
 consequence_counts:
   read: 8
   write: 15
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \ https://www.googleapis.com/auth/dfatrafficking\n- path: /userprofiles/{profileId}/reports/{reportId}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/dfareporting\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userprofiles/{profileId}/reports/{reportId}\n  method: put\n  operationId: updateReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/dfareporting\n    - https://www.googleapis.com/auth/dfatrafficking\n- path: /userprofiles/{profileId}/reports/{reportId}\n  method: patch\n  operationId: patchReport\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/dfareporting\n    - https://www.googleapis.com/auth/dfatrafficking\n- path: /userprofiles/{profileId}/reports/{reportId}\n  method: delete\n  operationId: deleteReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/dfareporting\n    - https://www.googleapis.com/auth/dfatrafficking\n- path: /userprofiles/{profileId}/reports/{reportId}/run\n  method: post\n  operationId: runReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/dfareporting\n    - https://www.googleapis.com/auth/dfatrafficking\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/agentic-access/google-campaign-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-campaign-manager/agentic-access/google-campaign-manager-agentic-access.yml
 summary_line: 23 operations · 15 acting
 tags:
 - Advertising

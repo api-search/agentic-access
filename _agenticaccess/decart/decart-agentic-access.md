@@ -9,49 +9,49 @@ api_specs:
   label: Decart Client API
   slug: decart-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-client-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-client-api-openapi.yml
 - filename: decart-files-api-openapi.yml
   format: yaml
   label: Decart Files API
   slug: decart-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-files-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-files-api-openapi.yml
 - filename: decart-generate-api-openapi.yml
   format: yaml
   label: Decart Generate API
   slug: decart-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-generate-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-generate-api-openapi.yml
 - filename: decart-jobs-api-openapi.yml
   format: yaml
   label: Decart Jobs API
   slug: decart-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-jobs-api-openapi.yml
 - filename: decart-models-api-openapi.yml
   format: yaml
   label: Decart Models API
   slug: decart-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-models-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-models-api-openapi.yml
 - filename: decart-realtime-api-openapi.yml
   format: yaml
   label: Decart Realtime API
   slug: decart-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-realtime-api-openapi.yml
 - filename: decart-verify-api-openapi.yml
   format: yaml
   label: Decart Verify API
   slug: decart-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-verify-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-verify-api-openapi.yml
 - filename: decart-watch-stream-api-openapi.yml
   format: yaml
   label: Decart Watch Stream API
   slug: decart-watch-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-watch-stream-api-openapi.yml
+  url: https://artifacts.apis.io/decart/openapi/decart-watch-stream-api-openapi.yml
 consequence_counts:
   read: 8
   write: 67
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/decart
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/client/tokens\n  method: post\n  operationId: create_client_token_v1_client_tokens_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/lucy-latest\n  method: post\n  operationId: lucy_latest_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/lucy-vton-latest\n  method: post\n  operationId: lucy_vton_latest_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/lucy-restyle-latest\n  method: post\n  operationId: lucy_restyle_latest_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/lucy-clip-latest\n  method: post\n  operationId: lucy_clip_latest_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/generate/lucy-image-latest\n  method: post\n  operationId: lucy_image_latest_generate\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models/resolve\n  method: post\n  operationId: resolve_model_aliases\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/realtime/quota\n  method: get\n  operationId: get_realtime_quota_v1_realtime_quota_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/agentic-access/decart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/decart/agentic-access/decart-agentic-access.yml
 summary_line: 75 operations · 67 acting
 tags:
 - Artificial Intelligence

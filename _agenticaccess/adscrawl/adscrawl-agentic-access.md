@@ -9,19 +9,19 @@ api_specs:
   label: AdsCrawl Browser tasks API
   slug: adscrawl-browser-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/openapi/adscrawl-browser-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/adscrawl/openapi/adscrawl-browser-tasks-api-openapi.yml
 - filename: adscrawl-cloud-browsers-api-openapi.yml
   format: yaml
   label: AdsCrawl Cloud browsers API
   slug: adscrawl-cloud-browsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/openapi/adscrawl-cloud-browsers-api-openapi.yml
+  url: https://artifacts.apis.io/adscrawl/openapi/adscrawl-cloud-browsers-api-openapi.yml
 - filename: adscrawl-remote-cdp-api-openapi.yml
   format: yaml
   label: AdsCrawl Remote CDP API
   slug: adscrawl-remote-cdp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/openapi/adscrawl-remote-cdp-api-openapi.yml
+  url: https://artifacts.apis.io/adscrawl/openapi/adscrawl-remote-cdp-api-openapi.yml
 consequence_counts:
   read: 5
   safety-critical: 3
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-10-02'\nmethod: generated\nsource: openapi/adscra
   \ post\n  operationId: startCloudBrowser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cloud-browsers/{id}/stop\n  method: post\n  operationId: stopCloudBrowser\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /cdp/sessions\n  method: post\n  operationId: createCdpSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /cdp/sessions\n  method: get\n  operationId: listCdpSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cdp/sessions/{sessionId}\n  method: delete\n  operationId: deleteCdpSession\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /cdp/sessions/{sessionId}/json/version\n  method: get\n  operationId: getCdpDiscovery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cdp/live-token\n  method: post\n  operationId: createLiveControlToken\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/agentic-access/adscrawl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adscrawl/agentic-access/adscrawl-agentic-access.yml
 summary_line: 15 operations · 10 acting · 3 human-in-the-loop
 tags:
 - Company

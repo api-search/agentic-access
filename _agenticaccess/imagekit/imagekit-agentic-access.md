@@ -9,37 +9,37 @@ api_specs:
   label: ImageKit Account Management API
   slug: imagekit-account-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-account-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-account-management-api-api-openapi.yml
 - filename: imagekit-caching-api-openapi.yml
   format: yaml
   label: ImageKit Caching API
   slug: imagekit-caching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-caching-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-caching-api-openapi.yml
 - filename: imagekit-digital-asset-management-dam-api-openapi.yml
   format: yaml
   label: ImageKit Digital Asset Management (DAM) API
   slug: imagekit-digital-asset-management-dam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-digital-asset-management-dam-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-digital-asset-management-dam-api-openapi.yml
 - filename: imagekit-dummy-test-api-openapi.yml
   format: yaml
   label: ImageKit Dummy Test API
   slug: imagekit-dummy-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-dummy-test-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-dummy-test-api-openapi.yml
 - filename: imagekit-file-metadata-api-openapi.yml
   format: yaml
   label: ImageKit File Metadata API
   slug: imagekit-file-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-file-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-file-metadata-api-openapi.yml
 - filename: imagekit-upload-file-api-openapi.yml
   format: yaml
   label: ImageKit Upload File API
   slug: imagekit-upload-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/openapi/imagekit-upload-file-api-openapi.yml
+  url: https://artifacts.apis.io/imagekit/openapi/imagekit-upload-file-api-openapi.yml
 consequence_counts:
   read: 16
   write: 32
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/imagek
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/origins/{id}\n  method: get\n  operationId: get-origin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/origins/{id}\n  method: put\n  operationId: update-origin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/origins/{id}\n  method: delete\n  operationId: delete-origin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /v1/accounts/url-endpoints\n  method: get\n  operationId: list-url-endpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/url-endpoints\n  method: post\n  operationId: create-url-endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/url-endpoints/{id}\n  method: get\n  operationId: get-url-endpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/url-endpoints/{id}\n  method: put\n  operationId: update-url-endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/url-endpoints/{id}\n  method: delete\n  operationId: delete-url-endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/agentic-access/imagekit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/imagekit/agentic-access/imagekit-agentic-access.yml
 summary_line: 48 operations · 32 acting
 tags:
 - Image

@@ -8,37 +8,37 @@ api_specs:
   label: Musixmatch Album API
   slug: musixmatch-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-album-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-album-api-openapi.yml
 - filename: musixmatch-artist-api-openapi.yml
   format: yaml
   label: Musixmatch Artist API
   slug: musixmatch-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-artist-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-artist-api-openapi.yml
 - filename: musixmatch-lyrics-api-openapi.yml
   format: yaml
   label: Musixmatch Lyrics API
   slug: musixmatch-lyrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-lyrics-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-lyrics-api-openapi.yml
 - filename: musixmatch-snippets-api-openapi.yml
   format: yaml
   label: Musixmatch Snippets API
   slug: musixmatch-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-snippets-api-openapi.yml
 - filename: musixmatch-subtitle-api-openapi.yml
   format: yaml
   label: Musixmatch Subtitle API
   slug: musixmatch-subtitle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-subtitle-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-subtitle-api-openapi.yml
 - filename: musixmatch-track-api-openapi.yml
   format: yaml
   label: Musixmatch Track API
   slug: musixmatch-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/openapi/musixmatch-track-api-openapi.yml
+  url: https://artifacts.apis.io/musixmatch/openapi/musixmatch-track-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/musixm
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artist.albums.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artist.search\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artist.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matcher.subtitle.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matcher.track.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /matcher.lyrics.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track.snippet.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track.lyrics.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track.subtitle.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track.search\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chart.tracks.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chart.artists.get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/agentic-access/musixmatch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/musixmatch/agentic-access/musixmatch-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Lyrics

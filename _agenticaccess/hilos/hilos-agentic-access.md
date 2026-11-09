@@ -9,37 +9,37 @@ api_specs:
   label: Hilos Contact API
   slug: hilos-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-contact-api-openapi.yml
 - filename: hilos-conversation-api-openapi.yml
   format: yaml
   label: Hilos Conversation API
   slug: hilos-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-conversation-api-openapi.yml
 - filename: hilos-flow-execution-api-openapi.yml
   format: yaml
   label: Hilos Flow Execution API
   slug: hilos-flow-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-flow-execution-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-flow-execution-api-openapi.yml
 - filename: hilos-flow-execution-contact-api-openapi.yml
   format: yaml
   label: Hilos Flow Execution Contact API
   slug: hilos-flow-execution-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-flow-execution-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-flow-execution-contact-api-openapi.yml
 - filename: hilos-user-api-openapi.yml
   format: yaml
   label: Hilos User API
   slug: hilos-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-user-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-user-api-openapi.yml
 - filename: hilos-whats-app-api-openapi.yml
   format: yaml
   label: Hilos Whats App API
   slug: hilos-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/openapi/hilos-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/hilos/openapi/hilos-whats-app-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/hilos-
   \ Flow Execution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/flow-execution-contact\n  method: get\n  operationId: List Flow Execution Contact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/flow-execution-contact/{id}\n  method: get\n  operationId: Get Flow Execution Contact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/flow-execution/{id}\n  method: get\n  operationId: Get Flow Execution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/flow/{id}/run\n  method: post\n  operationId: Create a Flow Execution\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/inbox/conversation\n  method: get\n  operationId: List Conversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/inbox/conversation/{id}/update\n  method: patch\n  operationId: Partially update a Conversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/inbox/conversation/{id}/update\n  method: put\n  operationId: Update a Conversation\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/agentic-access/hilos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hilos/agentic-access/hilos-agentic-access.yml
 summary_line: 19 operations · 9 acting
 tags:
 - Company

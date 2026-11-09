@@ -9,37 +9,37 @@ api_specs:
   label: Cloudflare Stream Analytics API
   slug: cloudflare-stream-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-analytics-api-openapi.yml
 - filename: cloudflare-stream-captions-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Captions API
   slug: cloudflare-stream-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-captions-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-captions-api-openapi.yml
 - filename: cloudflare-stream-live-inputs-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Live Inputs API
   slug: cloudflare-stream-live-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-live-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-live-inputs-api-openapi.yml
 - filename: cloudflare-stream-signed-urls-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Signed URLs API
   slug: cloudflare-stream-signed-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-signed-urls-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-signed-urls-api-openapi.yml
 - filename: cloudflare-stream-videos-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Videos API
   slug: cloudflare-stream-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-videos-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-videos-api-openapi.yml
 - filename: cloudflare-stream-webhooks-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Webhooks API
   slug: cloudflare-stream-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-webhooks-api-openapi.yml
 consequence_counts:
   read: 12
   write: 21
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloudf
   \ high-value\n    audit: required\n- path: /accounts/{account_id}/stream/{identifier}/captions/{language}/vtt\n  method: get\n  operationId: getCaptionVtt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/stream/keys\n  method: get\n  operationId: listSigningKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/stream/keys\n  method: post\n  operationId: createSigningKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/stream/keys/{key_id}\n  method: delete\n  operationId: deleteSigningKey\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/stream/{identifier}/token\n  method: post\n  operationId: createSignedToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/stream/webhook\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/stream/webhook\n  method: put\n  operationId: createWebhook\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/stream/webhook\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/agentic-access/cloudflare-stream-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-stream/agentic-access/cloudflare-stream-agentic-access.yml
 summary_line: 33 operations · 21 acting
 tags:
 - Video

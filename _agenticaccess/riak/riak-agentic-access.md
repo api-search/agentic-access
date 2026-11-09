@@ -9,37 +9,37 @@ api_specs:
   label: Riak KV Mapred API
   slug: riak-mapred-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-mapred-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-mapred-api-openapi.yml
 - filename: riak-ping-api-openapi.yml
   format: yaml
   label: Riak KV Ping API
   slug: riak-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-ping-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-ping-api-openapi.yml
 - filename: riak-riak-kv-http-api-api-openapi.yml
   format: yaml
   label: Riak KV Riak KV HTTP API
   slug: riak-riak-kv-http-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-riak-kv-http-api-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-riak-kv-http-api-api-openapi.yml
 - filename: riak-search-api-openapi.yml
   format: yaml
   label: Riak KV Search API
   slug: riak-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-search-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-search-api-openapi.yml
 - filename: riak-stats-api-openapi.yml
   format: yaml
   label: Riak KV Stats API
   slug: riak-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-stats-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-stats-api-openapi.yml
 - filename: riak-types-api-openapi.yml
   format: yaml
   label: Riak KV Types API
   slug: riak-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/openapi/riak-types-api-openapi.yml
+  url: https://artifacts.apis.io/riak/openapi/riak-types-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/riak-o
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /types/{type}/buckets/{bucket}/datatypes/{key}\n  method: post\n  operationId: updateDataType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mapred\n  method: post\n  operationId: mapReduce\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/query/{index_name}\n  method: get\n  operationId: searchQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /search/index\n  method: get\n  operationId: listSearchIndexes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/index/{index_name}\n  method: get\n  operationId: getSearchIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/index/{index_name}\n  method: put\n  operationId: putSearchIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/index/{index_name}\n  method: delete\n  operationId: deleteSearchIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/schema/{schema_name}\n  method: get\n  operationId: getSearchSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/schema/{schema_name}\n  method: put\n  operationId: putSearchSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/agentic-access/riak-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/riak/agentic-access/riak-agentic-access.yml
 summary_line: 25 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Database

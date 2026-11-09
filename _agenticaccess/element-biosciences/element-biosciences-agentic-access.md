@@ -8,31 +8,31 @@ api_specs:
   label: Element Biosciences Execution Service API
   slug: element-biosciences-executionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-executionservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-executionservice-api-openapi.yml
 - filename: element-biosciences-instrumentservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Instrument Service API
   slug: element-biosciences-instrumentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-instrumentservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-instrumentservice-api-openapi.yml
 - filename: element-biosciences-runservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Run Service API
   slug: element-biosciences-runservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-runservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-runservice-api-openapi.yml
 - filename: element-biosciences-storageconnectionservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Storage Connection Service API
   slug: element-biosciences-storageconnectionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-storageconnectionservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-storageconnectionservice-api-openapi.yml
 - filename: element-biosciences-auth-service-api-openapi.yml
   format: yaml
   label: Element Biosciences Auth Service API
   slug: element-biosciences-auth-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-auth-service-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-auth-service-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/elemen
   \  method: get\n  operationId: InstrumentService_ListInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/instruments/{serial_number}\n  method: get\n  operationId: InstrumentService_GetInstrument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/runs\n  method: get\n  operationId: RunService_ListRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/runs/{id}\n  method: get\n  operationId: RunService_GetRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/runs/{run_id}/credentials\n  method: get\n  operationId: RunService_GetRunDownloadCredentials\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/runs/{run_id}/files\n  method: get\n  operationId: RunService_ListRunFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storage-connections\n  method: get\n  operationId: StorageConnectionService_ListStorageConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storage-connections/{id}\n  method: get\n  operationId: StorageConnectionService_GetStorageConnection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storage-connections/{storage_connection_id}/credentials\n  method: get\n  operationId: StorageConnectionService_GetDownloadCredentials\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storage-connections/{storage_connection_id}/files\n  method: get\n  operationId: StorageConnectionService_ListFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/agentic-access/element-biosciences-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/element-biosciences/agentic-access/element-biosciences-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Company

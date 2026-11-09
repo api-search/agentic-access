@@ -9,31 +9,31 @@ api_specs:
   label: SnackMagic Authentication API
   slug: snackmagic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-authentication-api-openapi.yml
 - filename: snackmagic-automation-management-api-openapi.yml
   format: yaml
   label: SnackMagic Automation management API
   slug: snackmagic-automation-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-automation-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-automation-management-api-openapi.yml
 - filename: snackmagic-order-management-api-openapi.yml
   format: yaml
   label: SnackMagic Order management API
   slug: snackmagic-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-order-management-api-openapi.yml
 - filename: snackmagic-store-management-api-openapi.yml
   format: yaml
   label: SnackMagic Store management API
   slug: snackmagic-store-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-store-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-store-management-api-openapi.yml
 - filename: snackmagic-user-management-api-openapi.yml
   format: yaml
   label: SnackMagic User management API
   slug: snackmagic-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-user-management-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 7
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/snackm
   \ audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{order_number}/checkout\n  method: post\n  operationId: orderCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /orders/{order_number}\n  method: get\n  operationId: orderDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_number}/shipment_status\n  method: get\n  operationId: orderShipmentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /automations/orders\n  method: post\n  operationId: createAutomationOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /automations/order_status\n  method: get\n  operationId: checkOrderStatus\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/agentic-access/snackmagic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snackmagic/agentic-access/snackmagic-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Company

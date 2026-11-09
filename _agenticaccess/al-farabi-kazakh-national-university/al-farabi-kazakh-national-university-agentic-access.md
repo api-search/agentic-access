@@ -9,283 +9,283 @@ api_specs:
   label: Al-Farabi Kazakh National University Agreements API
   slug: al-farabi-kazakh-national-university-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-agreements-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-bookmarks-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Bookmarks API
   slug: al-farabi-kazakh-national-university-bookmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-bookmarks-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-bookmarks-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-certificates-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Certificates API
   slug: al-farabi-kazakh-national-university-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-certificates-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-change-email-settings-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Change Email Settings API
   slug: al-farabi-kazakh-national-university-change-email-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-change-email-settings-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-change-email-settings-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-cohorts-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Cohorts API
   slug: al-farabi-kazakh-national-university-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-cohorts-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-cohorts-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-commerce-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Commerce API
   slug: al-farabi-kazakh-national-university-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-commerce-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-commerce-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-completion-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Completion API
   slug: al-farabi-kazakh-national-university-completion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-completion-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-completion-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-course-experience-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Course Experience API
   slug: al-farabi-kazakh-national-university-course-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-course-experience-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-course-experience-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-course-home-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Course Home API
   slug: al-farabi-kazakh-national-university-course-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-course-home-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-course-home-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-course-live-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Course Live API
   slug: al-farabi-kazakh-national-university-course-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-course-live-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-course-live-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-course-modes-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Course Modes API
   slug: al-farabi-kazakh-national-university-course-modes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-course-modes-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-course-modes-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-courses-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Courses API
   slug: al-farabi-kazakh-national-university-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-courses-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-courses-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-courseware-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Courseware API
   slug: al-farabi-kazakh-national-university-courseware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-courseware-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-courseware-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-credit-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Credit API
   slug: al-farabi-kazakh-national-university-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-credit-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-credit-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-dashboard-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Dashboard API
   slug: al-farabi-kazakh-national-university-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-dashboard-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-discounts-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Discounts API
   slug: al-farabi-kazakh-national-university-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-discounts-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-discussion-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Discussion API
   slug: al-farabi-kazakh-national-university-discussion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-discussion-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-discussion-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-edx-name-affirmation-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Edx Name Affirmation API
   slug: al-farabi-kazakh-national-university-edx-name-affirmation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-edx-name-affirmation-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-edx-name-affirmation-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-edx-proctoring-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Edx Proctoring API
   slug: al-farabi-kazakh-national-university-edx-proctoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-edx-proctoring-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-edx-proctoring-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-edxnotes-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Edxnotes API
   slug: al-farabi-kazakh-national-university-edxnotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-edxnotes-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-edxnotes-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-enrollment-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Enrollment API
   slug: al-farabi-kazakh-national-university-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-enrollment-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-entitlements-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Entitlements API
   slug: al-farabi-kazakh-national-university-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-entitlements-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-experiments-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Experiments API
   slug: al-farabi-kazakh-national-university-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-experiments-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-grades-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Grades API
   slug: al-farabi-kazakh-national-university-grades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-grades-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-grades-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-instructor-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Instructor API
   slug: al-farabi-kazakh-national-university-instructor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-instructor-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-instructor-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-instructor-task-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Instructor Task API
   slug: al-farabi-kazakh-national-university-instructor-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-instructor-task-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-instructor-task-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-learner-home-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Learner Home API
   slug: al-farabi-kazakh-national-university-learner-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-learner-home-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-learner-home-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-learning-sequences-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Learning Sequences API
   slug: al-farabi-kazakh-national-university-learning-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-learning-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-learning-sequences-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-lti-consumer-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Lti Consumer API
   slug: al-farabi-kazakh-national-university-lti-consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-lti-consumer-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-lti-consumer-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-mfe-config-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Mfe Config API
   slug: al-farabi-kazakh-national-university-mfe-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-mfe-config-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-mfe-config-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-mfe-context-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Mfe Context API
   slug: al-farabi-kazakh-national-university-mfe-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-mfe-context-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-mfe-context-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-mobile-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Mobile API
   slug: al-farabi-kazakh-national-university-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-mobile-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-notifications-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Notifications API
   slug: al-farabi-kazakh-national-university-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-notifications-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-ora-staff-grader-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Ora Staff Grader API
   slug: al-farabi-kazakh-national-university-ora-staff-grader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-ora-staff-grader-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-ora-staff-grader-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-organizations-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Organizations API
   slug: al-farabi-kazakh-national-university-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-organizations-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-profile-images-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Profile Images API
   slug: al-farabi-kazakh-national-university-profile-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-profile-images-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-profile-images-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-program-enrollments-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Program Enrollments API
   slug: al-farabi-kazakh-national-university-program-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-program-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-program-enrollments-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-send-account-activation-email-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Send Account Activation Email API
   slug: al-farabi-kazakh-national-university-send-account-activation-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-send-account-activation-email-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-send-account-activation-email-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-team-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Team API
   slug: al-farabi-kazakh-national-university-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-team-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-team-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-third-party-auth-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Third Party Auth API
   slug: al-farabi-kazakh-national-university-third-party-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-third-party-auth-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-third-party-auth-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-third-party-auth-context-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Third Party Auth Context API
   slug: al-farabi-kazakh-national-university-third-party-auth-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-third-party-auth-context-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-third-party-auth-context-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-toggles-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Toggles API
   slug: al-farabi-kazakh-national-university-toggles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-toggles-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-toggles-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-univertest-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Univertest API
   slug: al-farabi-kazakh-national-university-univertest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-univertest-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-univertest-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-user-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University User API
   slug: al-farabi-kazakh-national-university-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-user-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-user-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-user-tours-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University User Tours API
   slug: al-farabi-kazakh-national-university-user-tours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-user-tours-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-user-tours-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-val-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Val API
   slug: al-farabi-kazakh-national-university-val-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-val-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-val-api-openapi.yml
 - filename: al-farabi-kazakh-national-university-xblock-api-openapi.yml
   format: yaml
   label: Al-Farabi Kazakh National University Xblock API
   slug: al-farabi-kazakh-national-university-xblock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-xblock-api-openapi.yml
+  url: https://artifacts.apis.io/al-farabi-kazakh-national-university/openapi/al-farabi-kazakh-national-university-xblock-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 217
@@ -389,8 +389,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/al-far
   \ post\n  operationId: discussion_v1_accounts_replace_username_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discussion/v1/accounts/retire_forum/\n  method: post\n  operationId: discussion_v1_accounts_retire_forum_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discussion/v1/comments/\n  method: get\n  operationId: discussion_v1_comments_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discussion/v1/comments/\n\
   \  method: post\n  operationId: discussion_v1_comments_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discussion/v1/comments/{comment_id}/\n  method: get\n  operationId: discussion_v1_comments_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discussion/v1/comments/{comment_id}/\n  method: patch\n  operationId: discussion_v1_comments_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discussion/v1/comments/{comment_id}/\n\
   \  method: delete\n  operationId: discussion_v1_comments_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discussion/v1/course_topics/{course_id}\n  method: get\n  operationId: discussion_v1_course_topics_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discussion/v1/courses/{course_id}\n  method: get\n  operationId: discussion_v1_courses_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discussion/v1/courses/{course_id}/learner/\n  method: get\n  operationId: discussion_v1_courses_learner_list\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discussion/v1/courses/{course_id}/roles/{rolename}/\n  method: get\n  operationId: discussion_v1_courses_roles_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (126 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/agentic-access/al-farabi-kazakh-national-university-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/agentic-access/al-farabi-kazakh-national-university-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discussion/v1/courses/{course_id}/roles/{rolename}/\n  method: get\n  operationId: discussion_v1_courses_roles_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (126 KB total) ---\n# Full source: https://artifacts.apis.io/al-farabi-kazakh-national-university/agentic-access/al-farabi-kazakh-national-university-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/al-farabi-kazakh-national-university/agentic-access/al-farabi-kazakh-national-university-agentic-access.yml
 summary_line: 400 operations · 183 acting · 4 human-in-the-loop
 tags:
 - Education

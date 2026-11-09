@@ -8,25 +8,25 @@ api_specs:
   label: Weatherbys Bank ATM API
   slug: weatherbys-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-atm-api-openapi.yml
+  url: https://artifacts.apis.io/weatherbys-bank/openapi/weatherbys-bank-atm-api-openapi.yml
 - filename: weatherbys-bank-bca-api-openapi.yml
   format: yaml
   label: Weatherbys Bank BCA API
   slug: weatherbys-bank-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-bca-api-openapi.yml
+  url: https://artifacts.apis.io/weatherbys-bank/openapi/weatherbys-bank-bca-api-openapi.yml
 - filename: weatherbys-bank-branch-api-openapi.yml
   format: yaml
   label: Weatherbys Bank Branch API
   slug: weatherbys-bank-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-branch-api-openapi.yml
+  url: https://artifacts.apis.io/weatherbys-bank/openapi/weatherbys-bank-branch-api-openapi.yml
 - filename: weatherbys-bank-pca-api-openapi.yml
   format: yaml
   label: Weatherbys Bank PCA API
   slug: weatherbys-bank-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/openapi/weatherbys-bank-pca-api-openapi.yml
+  url: https://artifacts.apis.io/weatherbys-bank/openapi/weatherbys-bank-pca-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-opendata-atm-locator-standard.json, openapi/obie-opendata-branch-locator-standard.json,\n  openapi/obie-opendata-business-current-accounts-standard.json, openapi/obie-opendata-personal-current-accounts-standard.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /atms\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /atms\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /branches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /branches\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business-current-accounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business-current-accounts\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal-current-accounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /personal-current-accounts\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/agentic-access/weatherbys-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weatherbys-bank/agentic-access/weatherbys-bank-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Financial Services

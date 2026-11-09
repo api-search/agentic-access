@@ -9,91 +9,91 @@ api_specs:
   label: Pirsch Access Links API
   slug: pirsch-access-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-access-links-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-access-links-api-openapi.yml
 - filename: pirsch-authentication-api-openapi.yml
   format: yaml
   label: Pirsch Authentication API
   slug: pirsch-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-authentication-api-openapi.yml
 - filename: pirsch-clients-api-openapi.yml
   format: yaml
   label: Pirsch Clients API
   slug: pirsch-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-clients-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-clients-api-openapi.yml
 - filename: pirsch-conversion-goals-api-openapi.yml
   format: yaml
   label: Pirsch Conversion Goals API
   slug: pirsch-conversion-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-conversion-goals-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-conversion-goals-api-openapi.yml
 - filename: pirsch-domains-api-openapi.yml
   format: yaml
   label: Pirsch Domains API
   slug: pirsch-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-domains-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-domains-api-openapi.yml
 - filename: pirsch-email-reports-api-openapi.yml
   format: yaml
   label: Pirsch Email Reports API
   slug: pirsch-email-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-email-reports-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-email-reports-api-openapi.yml
 - filename: pirsch-funnels-api-openapi.yml
   format: yaml
   label: Pirsch Funnels API
   slug: pirsch-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-funnels-api-openapi.yml
 - filename: pirsch-members-api-openapi.yml
   format: yaml
   label: Pirsch Members API
   slug: pirsch-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-members-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-members-api-openapi.yml
 - filename: pirsch-short-links-api-openapi.yml
   format: yaml
   label: Pirsch Short Links API
   slug: pirsch-short-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-short-links-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-short-links-api-openapi.yml
 - filename: pirsch-statistics-api-openapi.yml
   format: yaml
   label: Pirsch Statistics API
   slug: pirsch-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-statistics-api-openapi.yml
 - filename: pirsch-tracking-api-openapi.yml
   format: yaml
   label: Pirsch Tracking API
   slug: pirsch-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-tracking-api-openapi.yml
 - filename: pirsch-traffic-management-api-openapi.yml
   format: yaml
   label: Pirsch Traffic Management API
   slug: pirsch-traffic-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-traffic-management-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-traffic-management-api-openapi.yml
 - filename: pirsch-user-api-openapi.yml
   format: yaml
   label: Pirsch User API
   slug: pirsch-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-user-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-user-api-openapi.yml
 - filename: pirsch-views-api-openapi.yml
   format: yaml
   label: Pirsch Views API
   slug: pirsch-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-views-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-views-api-openapi.yml
 - filename: pirsch-webhooks-api-openapi.yml
   format: yaml
   label: Pirsch Webhooks API
   slug: pirsch-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/openapi/pirsch-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pirsch/openapi/pirsch-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 43
@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pirsch
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/name\n  method: post\n  operationId: updateUserName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/email\n  method: post\n  operationId: updateUserEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/password\n  method: post\n  operationId: updateUserPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/language\n  method: post\n  operationId: updateUserLanguage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/filter\n  method: post\n  operationId: updateUserFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/news\n  method: get\n  operationId: getUserNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/news\n  method: post\n  operationId: markNewsRead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/rewards\n  method: get\n  operationId: getUserRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/agentic-access/pirsch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pirsch/agentic-access/pirsch-agentic-access.yml
 summary_line: 97 operations · 54 acting
 tags:
 - Analytics

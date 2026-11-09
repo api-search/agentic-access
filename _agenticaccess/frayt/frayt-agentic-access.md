@@ -9,19 +9,19 @@ api_specs:
   label: FRAYT match estimates API
   slug: frayt-match-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/openapi/frayt-match-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/frayt/openapi/frayt-match-estimates-api-openapi.yml
 - filename: frayt-matches-api-openapi.yml
   format: yaml
   label: FRAYT Matches API
   slug: frayt-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/openapi/frayt-matches-api-openapi.yml
+  url: https://artifacts.apis.io/frayt/openapi/frayt-matches-api-openapi.yml
 - filename: frayt-oauth-api-openapi.yml
   format: yaml
   label: FRAYT OAUTH API
   slug: frayt-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/openapi/frayt-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/frayt/openapi/frayt-oauth-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 7
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-08-16'\nmethod: generated\nsource: openapi/frayt-
   \      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2.2/matches/{id}\n  method: delete\n  operationId: FraytElixirWeb.API.V2x2.MatchController.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2.2/matches/{id}\n  method: get\n  operationId: FraytElixirWeb.API.V2x2.MatchController.show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2.2/matches/{id}\n  method: patch\n  operationId: FraytElixirWeb.API.V2x2.MatchController.update\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2.2/matches/{match_id}/stops/{stop_id}\n  method: patch\n  operationId: FraytElixirWeb.API.V2x2.MatchStopController.update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2.2/oauth/token\n  method: post\n  operationId: FraytElixirWeb.API.OauthController.authenticate\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n   \
   \   exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/agentic-access/frayt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/frayt/agentic-access/frayt-agentic-access.yml
 summary_line: 8 operations · 7 acting · 7 human-in-the-loop
 tags:
 - Company

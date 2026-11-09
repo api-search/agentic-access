@@ -9,61 +9,61 @@ api_specs:
   label: SuperTokens Email Password API
   slug: supertokens-email-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-email-password-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-email-password-api-openapi.yml
 - filename: supertokens-email-verification-api-openapi.yml
   format: yaml
   label: SuperTokens Email Verification API
   slug: supertokens-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-email-verification-api-openapi.yml
 - filename: supertokens-health-api-openapi.yml
   format: yaml
   label: SuperTokens Health API
   slug: supertokens-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-health-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-health-api-openapi.yml
 - filename: supertokens-multi-tenancy-api-openapi.yml
   format: yaml
   label: SuperTokens Multi Tenancy API
   slug: supertokens-multi-tenancy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-multi-tenancy-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-multi-tenancy-api-openapi.yml
 - filename: supertokens-passwordless-api-openapi.yml
   format: yaml
   label: SuperTokens Passwordless API
   slug: supertokens-passwordless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-passwordless-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-passwordless-api-openapi.yml
 - filename: supertokens-sessions-api-openapi.yml
   format: yaml
   label: SuperTokens Sessions API
   slug: supertokens-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-sessions-api-openapi.yml
 - filename: supertokens-third-party-api-openapi.yml
   format: yaml
   label: SuperTokens Third Party API
   slug: supertokens-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-third-party-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-third-party-api-openapi.yml
 - filename: supertokens-user-metadata-api-openapi.yml
   format: yaml
   label: SuperTokens User Metadata API
   slug: supertokens-user-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-user-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-user-metadata-api-openapi.yml
 - filename: supertokens-user-roles-api-openapi.yml
   format: yaml
   label: SuperTokens User Roles API
   slug: supertokens-user-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-user-roles-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-user-roles-api-openapi.yml
 - filename: supertokens-users-api-openapi.yml
   format: yaml
   label: SuperTokens Users API
   slug: supertokens-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/openapi/supertokens-users-api-openapi.yml
+  url: https://artifacts.apis.io/supertokens/openapi/supertokens-users-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 2
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/supert
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/remove\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recipe/roles\n  method: put\n  operationId: createOrUpdateRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /recipe/roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipe/user/roles\n  method: put\n  operationId: assignRoleToUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recipe/user/roles\n  method: get\n  operationId: getUserRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipe/user/roles\n  method: delete\n  operationId: removeUserRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/agentic-access/supertokens-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/supertokens/agentic-access/supertokens-agentic-access.yml
 summary_line: 31 operations · 20 acting · 2 human-in-the-loop
 tags:
 - Authentication

@@ -9,31 +9,31 @@ api_specs:
   label: Allianz Future Cloud Platform Deployments API
   slug: allianz-future-cloud-platform-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-deployments-api-openapi.yml
 - filename: allianz-future-cloud-platform-infrastructure-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Infrastructure API
   slug: allianz-future-cloud-platform-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-infrastructure-api-openapi.yml
 - filename: allianz-future-cloud-platform-namespaces-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Namespaces API
   slug: allianz-future-cloud-platform-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-namespaces-api-openapi.yml
 - filename: allianz-future-cloud-platform-observability-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Observability API
   slug: allianz-future-cloud-platform-observability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-observability-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-observability-api-openapi.yml
 - filename: allianz-future-cloud-platform-services-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Services API
   slug: allianz-future-cloud-platform-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-services-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-services-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 5
@@ -73,7 +73,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/allianz-future-cloud-platform-services.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 5\n    acting: 3\n  by_consequence:\n    read: 5\n    write: 1\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: post\n  operationId: registerService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{service_id}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{service_id}/deployments\n  method: get\n  operationId: listDeployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{service_id}/deployments\n  method: post\n  operationId: deployService\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /namespaces\n  method: get\n  operationId: listNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observability/metrics\n  method: get\n  operationId: getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infrastructure/resources\n  method: post\n  operationId: provisionResource\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/agentic-access/allianz-future-cloud-platform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/allianz-future-cloud-platform/agentic-access/allianz-future-cloud-platform-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Cloud Platform

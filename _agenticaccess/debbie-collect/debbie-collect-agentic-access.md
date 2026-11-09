@@ -9,61 +9,61 @@ api_specs:
   label: Debbie Collect Billing API
   slug: debbie-collect-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-billing-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-billing-api-openapi.yml
 - filename: debbie-collect-case-vouchers-api-openapi.yml
   format: yaml
   label: Debbie Collect Case Vouchers API
   slug: debbie-collect-case-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-case-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-case-vouchers-api-openapi.yml
 - filename: debbie-collect-cases-api-openapi.yml
   format: yaml
   label: Debbie Collect Cases API
   slug: debbie-collect-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-cases-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-cases-api-openapi.yml
 - filename: debbie-collect-creditors-api-openapi.yml
   format: yaml
   label: Debbie Collect Creditors API
   slug: debbie-collect-creditors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-creditors-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-creditors-api-openapi.yml
 - filename: debbie-collect-customers-api-openapi.yml
   format: yaml
   label: Debbie Collect Customers API
   slug: debbie-collect-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-customers-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-customers-api-openapi.yml
 - filename: debbie-collect-files-api-openapi.yml
   format: yaml
   label: Debbie Collect Files API
   slug: debbie-collect-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-files-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-files-api-openapi.yml
 - filename: debbie-collect-payments-api-openapi.yml
   format: yaml
   label: Debbie Collect Payments API
   slug: debbie-collect-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-payments-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-payments-api-openapi.yml
 - filename: debbie-collect-properties-api-openapi.yml
   format: yaml
   label: Debbie Collect Properties API
   slug: debbie-collect-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-properties-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-properties-api-openapi.yml
 - filename: debbie-collect-updates-api-openapi.yml
   format: yaml
   label: Debbie Collect Updates API
   slug: debbie-collect-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-updates-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-updates-api-openapi.yml
 - filename: debbie-collect-webhooks-api-openapi.yml
   format: yaml
   label: Debbie Collect Webhooks API
   slug: debbie-collect-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/openapi/debbie-collect-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/debbie-collect/openapi/debbie-collect-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/debbie
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files\n  method: post\n  operationId: createFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{fileId}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties\n  method: get\n  operationId: getProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /updates\n  method: post\n  operationId: createUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updates/{updateId}\n  method: patch\n  operationId: patchUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/items\n  method: get\n  operationId: listWebhookItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/items/{itemId}\n  method: patch\n  operationId: patchWebhookItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/deposit-distribution\n  method: get\n  operationId: getDepositDistribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/agentic-access/debbie-collect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/debbie-collect/agentic-access/debbie-collect-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - Accounts Receivable

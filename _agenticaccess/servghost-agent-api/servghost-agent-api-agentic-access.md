@@ -9,55 +9,55 @@ api_specs:
   label: ServGhost Agent API Account API
   slug: servghost-agent-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-account-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-account-api-openapi.yml
 - filename: servghost-agent-api-catalog-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Catalog API
   slug: servghost-agent-api-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-catalog-api-openapi.yml
 - filename: servghost-agent-api-domains-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Domains API
   slug: servghost-agent-api-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-domains-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-domains-api-openapi.yml
 - filename: servghost-agent-api-locations-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Locations API
   slug: servghost-agent-api-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-locations-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-locations-api-openapi.yml
 - filename: servghost-agent-api-orders-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Orders API
   slug: servghost-agent-api-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-orders-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-orders-api-openapi.yml
 - filename: servghost-agent-api-quote-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Quote API
   slug: servghost-agent-api-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-quote-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-quote-api-openapi.yml
 - filename: servghost-agent-api-servers-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Servers API
   slug: servghost-agent-api-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-servers-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-servers-api-openapi.yml
 - filename: servghost-agent-api-servghost-agent-api-api-openapi.yml
   format: yaml
   label: ServGhost Agent API ServGhost Agent API
   slug: servghost-agent-api-servghost-agent-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-servghost-agent-api-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-servghost-agent-api-api-openapi.yml
 - filename: servghost-agent-api-top-up-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Top Up API
   slug: servghost-agent-api-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-top-up-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-21'\nmethod: generated\nsource: openapi/servgh
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/quote\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/topup/bonus\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/topup\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/topup/{id}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orders\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/orders/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/servers/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/servers/{id}/action\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/account\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/account\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/domains/check\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/agentic-access/servghost-agent-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/servghost-agent-api/agentic-access/servghost-agent-api-agentic-access.yml
 summary_line: 14 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Cloud Infrastructure

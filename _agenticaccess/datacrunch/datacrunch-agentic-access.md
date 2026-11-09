@@ -9,133 +9,133 @@ api_specs:
   label: DataCrunch Balance API
   slug: datacrunch-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-balance-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-balance-api-openapi.yml
 - filename: datacrunch-images-api-openapi.yml
   format: yaml
   label: DataCrunch Images API
   slug: datacrunch-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-images-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-images-api-openapi.yml
 - filename: datacrunch-instance-availability-api-openapi.yml
   format: yaml
   label: DataCrunch Instance Availability API
   slug: datacrunch-instance-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-instance-availability-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-instance-availability-api-openapi.yml
 - filename: datacrunch-instance-types-api-openapi.yml
   format: yaml
   label: DataCrunch Instance Types API
   slug: datacrunch-instance-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-instance-types-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-instance-types-api-openapi.yml
 - filename: datacrunch-instances-api-openapi.yml
   format: yaml
   label: DataCrunch Instances API
   slug: datacrunch-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-instances-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-instances-api-openapi.yml
 - filename: datacrunch-locations-api-openapi.yml
   format: yaml
   label: DataCrunch Locations API
   slug: datacrunch-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-locations-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-locations-api-openapi.yml
 - filename: datacrunch-serverless-containers-api-openapi.yml
   format: yaml
   label: DataCrunch Serverless Containers API
   slug: datacrunch-serverless-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-serverless-containers-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-serverless-containers-api-openapi.yml
 - filename: datacrunch-ssh-keys-api-openapi.yml
   format: yaml
   label: DataCrunch SSH Keys API
   slug: datacrunch-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-ssh-keys-api-openapi.yml
 - filename: datacrunch-startup-scripts-api-openapi.yml
   format: yaml
   label: DataCrunch Startup Scripts API
   slug: datacrunch-startup-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-startup-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-startup-scripts-api-openapi.yml
 - filename: datacrunch-volumes-api-openapi.yml
   format: yaml
   label: DataCrunch Volumes API
   slug: datacrunch-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-volumes-api-openapi.yml
 - filename: datacrunch-authentication-api-openapi.yml
   format: yaml
   label: DataCrunch Authentication API
   slug: datacrunch-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-authentication-api-openapi.yml
 - filename: datacrunch-clusters-api-openapi.yml
   format: yaml
   label: DataCrunch Clusters API
   slug: datacrunch-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-clusters-api-openapi.yml
 - filename: datacrunch-container-registry-api-openapi.yml
   format: yaml
   label: DataCrunch Container Registry API
   slug: datacrunch-container-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-container-registry-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-container-registry-api-openapi.yml
 - filename: datacrunch-container-types-api-openapi.yml
   format: yaml
   label: DataCrunch Container Types API
   slug: datacrunch-container-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-container-types-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-container-types-api-openapi.yml
 - filename: datacrunch-instance-groups-api-openapi.yml
   format: yaml
   label: DataCrunch Instance groups API
   slug: datacrunch-instance-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-instance-groups-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-instance-groups-api-openapi.yml
 - filename: datacrunch-journal-api-openapi.yml
   format: yaml
   label: DataCrunch Journal API
   slug: datacrunch-journal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-journal-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-journal-api-openapi.yml
 - filename: datacrunch-long-term-api-openapi.yml
   format: yaml
   label: DataCrunch Long Term API
   slug: datacrunch-long-term-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-long-term-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-long-term-api-openapi.yml
 - filename: datacrunch-managed-endpoints-api-openapi.yml
   format: yaml
   label: DataCrunch Managed Endpoints API
   slug: datacrunch-managed-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-managed-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-managed-endpoints-api-openapi.yml
 - filename: datacrunch-object-storage-api-openapi.yml
   format: yaml
   label: DataCrunch Object Storage API
   slug: datacrunch-object-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-object-storage-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-object-storage-api-openapi.yml
 - filename: datacrunch-private-networks-internal-api-openapi.yml
   format: yaml
   label: DataCrunch Private Networks (internal) API
   slug: datacrunch-private-networks-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-private-networks-internal-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-private-networks-internal-api-openapi.yml
 - filename: datacrunch-serverless-jobs-api-openapi.yml
   format: yaml
   label: DataCrunch Serverless Jobs API
   slug: datacrunch-serverless-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-serverless-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-serverless-jobs-api-openapi.yml
 - filename: datacrunch-volume-types-api-openapi.yml
   format: yaml
   label: DataCrunch Volume Types API
   slug: datacrunch-volume-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-volume-types-api-openapi.yml
+  url: https://artifacts.apis.io/datacrunch/openapi/datacrunch-volume-types-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 22
@@ -215,7 +215,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/datacr
   \ 3600\n    audit: none\n- path: /container-deployments/{deployment_name}/scaling\n  method: patch\n  operationId: updateContainerDeploymentScaling\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /container-deployments/{deployment_name}/pause\n  method: post\n  operationId: pauseContainerDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /container-deployments/{deployment_name}/resume\n  method: post\n\
   \  operationId: resumeContainerDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /container-deployments/{deployment_name}/purge-queue\n  method: post\n  operationId: purgeContainerDeploymentQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /container-types\n  method: get\n  operationId: listContainerTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/agentic-access/datacrunch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datacrunch/agentic-access/datacrunch-agentic-access.yml
 summary_line: 39 operations · 17 acting
 tags:
 - GPU Cloud

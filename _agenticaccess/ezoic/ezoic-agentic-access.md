@@ -9,49 +9,49 @@ api_specs:
   label: ezoic Access API
   slug: ezoic-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-access-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-access-api-openapi.yml
 - filename: ezoic-products-api-openapi.yml
   format: yaml
   label: ezoic Products API
   slug: ezoic-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-products-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-products-api-openapi.yml
 - filename: ezoic-purchases-api-openapi.yml
   format: yaml
   label: ezoic Purchases API
   slug: ezoic-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-purchases-api-openapi.yml
 - filename: ezoic-cdn-api-openapi.yml
   format: yaml
   label: ezoic CDN API
   slug: ezoic-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-cdn-api-openapi.yml
 - filename: ezoic-data-api-openapi.yml
   format: yaml
   label: ezoic Data API
   slug: ezoic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-data-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-data-api-openapi.yml
 - filename: ezoic-filters-api-openapi.yml
   format: yaml
   label: ezoic Filters API
   slug: ezoic-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-filters-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-filters-api-openapi.yml
 - filename: ezoic-reports-api-openapi.yml
   format: yaml
   label: ezoic Reports API
   slug: ezoic-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-reports-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-reports-api-openapi.yml
 - filename: ezoic-segments-api-openapi.yml
   format: yaml
   label: ezoic Segments API
   slug: ezoic-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-segments-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-segments-api-openapi.yml
 consequence_counts:
   read: 12
   write: 7
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ezoic-
   \    audit: none\n- path: /bdaservices/getCustomData/\n  method: post\n  operationId: getCustomData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bdaservices/getmultifilters/\n  method: get\n  operationId: getMultiFilters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bdaservices/getmultifiltertypes/\n  method: get\n  operationId: getMultiFilterTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /purchases\n  method: get\n  operationId: listPurchases\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bdaservices/getreports/\n  method: get\n  operationId: getReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bdaservices/getreport/\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bdaservices/getcustomreports/\n  method: get\n  operationId: getCustomReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bdaservices/createcustomreport/\n  method: post\n  operationId: createCustomReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bdaservices/getcolumns/\n  method: get\n  operationId: getColumns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bdaservices/getsegments/\n  method: get\n  operationId: getSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bdaservices/createsegment/\n  method: post\n  operationId: createSegment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/agentic-access/ezoic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ezoic/agentic-access/ezoic-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
 - Company
@@ -98,6 +98,7 @@ tags:
 - CDN
 - Caching
 - MCP
-- Authentication
+- OAuth
 - Agents
+- Authentication
 ---

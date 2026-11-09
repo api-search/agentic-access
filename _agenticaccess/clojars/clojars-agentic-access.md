@@ -8,31 +8,31 @@ api_specs:
   label: Clojars Artifacts API
   slug: clojars-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-artifacts-api-openapi.yml
 - filename: clojars-feeds-api-openapi.yml
   format: yaml
   label: Clojars Feeds API
   slug: clojars-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-feeds-api-openapi.yml
 - filename: clojars-groups-api-openapi.yml
   format: yaml
   label: Clojars Groups API
   slug: clojars-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-groups-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-groups-api-openapi.yml
 - filename: clojars-search-api-openapi.yml
   format: yaml
   label: Clojars Search API
   slug: clojars-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-search-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-search-api-openapi.yml
 - filename: clojars-users-api-openapi.yml
   format: yaml
   label: Clojars Users API
   slug: clojars-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/openapi/clojars-users-api-openapi.yml
+  url: https://artifacts.apis.io/clojars/openapi/clojars-users-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /api/users/{username}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/groups/{group_name}\n  method: get\n  operationId: getGroupArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/artifacts/{artifact_name}\n  method: get\n  operationId:\
   \ getArtifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/artifacts/{group_name}/{artifact_name}\n  method: get\n  operationId: getArtifactByGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/release-feed\n  method: get\n  operationId: getReleaseFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /all-poms.txt\n  method: get\n  operationId: getAllPoms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /all-jars.clj\n  method: get\n  operationId: getAllJars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/all.edn\n  method: get\n  operationId: getDownloadStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/agentic-access/clojars-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clojars/agentic-access/clojars-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Clojure

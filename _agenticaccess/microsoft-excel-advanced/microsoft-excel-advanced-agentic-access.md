@@ -9,55 +9,55 @@ api_specs:
   label: Microsoft Excel (Advanced) Charts API
   slug: microsoft-excel-advanced-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-charts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-charts-api-openapi.yml
 - filename: microsoft-excel-advanced-functions-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Functions API
   slug: microsoft-excel-advanced-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-functions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-functions-api-openapi.yml
 - filename: microsoft-excel-advanced-range-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Range API
   slug: microsoft-excel-advanced-range-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-range-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-range-api-openapi.yml
 - filename: microsoft-excel-advanced-sessions-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Sessions API
   slug: microsoft-excel-advanced-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-sessions-api-openapi.yml
 - filename: microsoft-excel-advanced-tables-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Tables API
   slug: microsoft-excel-advanced-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-tables-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-tables-api-openapi.yml
 - filename: microsoft-excel-advanced-worksheets-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Worksheets API
   slug: microsoft-excel-advanced-worksheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-worksheets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-worksheets-api-openapi.yml
 - filename: microsoft-excel-advanced-named-items-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Named Items API
   slug: microsoft-excel-advanced-named-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-named-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-named-items-api-openapi.yml
 - filename: microsoft-excel-advanced-table-columns-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Table Columns API
   slug: microsoft-excel-advanced-table-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-table-columns-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-table-columns-api-openapi.yml
 - filename: microsoft-excel-advanced-table-rows-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Table Rows API
   slug: microsoft-excel-advanced-table-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-table-rows-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-table-rows-api-openapi.yml
 consequence_counts:
   read: 9
   write: 13
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \      max-ttl: 3600\n    audit: none\n    scope:\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/tables/{table-id}/rows\n  method: post\n  operationId: tableRows_add\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/tables/{table-id}/columns\n  method: get\n  operationId: tableColumns_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/tables/{table-id}/columns\n  method: post\n  operationId: tableColumns_add\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/worksheets/{worksheet-id}/charts\n  method: get\n  operationId: charts_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/worksheets/{worksheet-id}/charts/add\n  method: post\n  operationId: charts_add\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/names\n\
   \  method: get\n  operationId: namedItems_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Files.ReadWrite\n- path: /me/drive/items/{item-id}/workbook/functions/{function-name}\n  method: post\n  operationId: functions_invoke\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Files.ReadWrite\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/agentic-access/microsoft-excel-advanced-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-excel-advanced/agentic-access/microsoft-excel-advanced-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
 - Automation

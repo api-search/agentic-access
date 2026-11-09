@@ -9,91 +9,91 @@ api_specs:
   label: Superform Auxiliary API
   slug: superform-auxiliary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-auxiliary-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-auxiliary-api-openapi.yml
 - filename: superform-balances-api-openapi.yml
   format: yaml
   label: Superform Balances API
   slug: superform-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-balances-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-balances-api-openapi.yml
 - filename: superform-contract-checker-api-openapi.yml
   format: yaml
   label: Superform Contract Checker API
   slug: superform-contract-checker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-contract-checker-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-contract-checker-api-openapi.yml
 - filename: superform-data-api-openapi.yml
   format: yaml
   label: Superform Data API
   slug: superform-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-data-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-data-api-openapi.yml
 - filename: superform-execution-api-openapi.yml
   format: yaml
   label: Superform Execution API
   slug: superform-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-execution-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-execution-api-openapi.yml
 - filename: superform-explorer-api-openapi.yml
   format: yaml
   label: Superform Explorer API
   slug: superform-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-explorer-api-openapi.yml
 - filename: superform-health-api-openapi.yml
   format: yaml
   label: Superform Health API
   slug: superform-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-health-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-health-api-openapi.yml
 - filename: superform-migrate-api-openapi.yml
   format: yaml
   label: Superform Migrate API
   slug: superform-migrate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-migrate-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-migrate-api-openapi.yml
 - filename: superform-protocol-api-openapi.yml
   format: yaml
   label: Superform Protocol API
   slug: superform-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-protocol-api-openapi.yml
 - filename: superform-protocol-rewards-api-openapi.yml
   format: yaml
   label: Superform Protocol Rewards API
   slug: superform-protocol-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-protocol-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-protocol-rewards-api-openapi.yml
 - filename: superform-simulator-api-openapi.yml
   format: yaml
   label: Superform Simulator API
   slug: superform-simulator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-simulator-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-simulator-api-openapi.yml
 - filename: superform-stats-api-openapi.yml
   format: yaml
   label: Superform Stats API
   slug: superform-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-stats-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-stats-api-openapi.yml
 - filename: superform-superrewardsapi-api-openapi.yml
   format: yaml
   label: Superform SuperRewardsAPI API
   slug: superform-superrewardsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-superrewardsapi-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-superrewardsapi-api-openapi.yml
 - filename: superform-token-distribution-api-openapi.yml
   format: yaml
   label: Superform Token Distribution API
   slug: superform-token-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-token-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-token-distribution-api-openapi.yml
 - filename: superform-vault-api-openapi.yml
   format: yaml
   label: Superform Vault API
   slug: superform-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/openapi/superform-vault-api-openapi.yml
+  url: https://artifacts.apis.io/superform/openapi/superform-vault-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 61
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/superf
   \  method: get\n  operationId: redeem-referral-code-superrewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/referral/code\n  method: get\n  operationId: get-referral-code-superrewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token-distribution/balance/{user}\n  method: get\n  operationId: get-reward-token-balance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token-distribution/claim/{user}\n  method: get\n  operationId: start-piggy-token-claim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token-distribution/slop-bucket/start/deposit/{user}\n\
   \  method: get\n  operationId: start-slop-bucket-deposit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token-distribution/slop-bucket/start/harvest/{user}\n  method: get\n  operationId: start-slop-bucket-claim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token-distribution/slop-bucket/start/withdraw/{user}\n  method: get\n  operationId: start-slop-bucket-withdraw\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token-distribution/{user}\n  method: get\n  operationId: get-token-distribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vault\n  method: post\n\
   \  operationId: add-vault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vault/{vaultOrSuperformIDOrContractAddress}\n  method: get\n  operationId: get-vault-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vaults\n  method: get\n  operationId: get-all-vaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/agentic-access/superform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/superform/agentic-access/superform-agentic-access.yml
 summary_line: 66 operations · 5 acting
 tags:
 - Company

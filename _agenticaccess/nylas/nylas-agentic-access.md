@@ -9,223 +9,259 @@ api_specs:
   label: Nylas Contacts API
   slug: nylas-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-contacts-api-openapi.yml
 - filename: nylas-drafts-api-openapi.yml
   format: yaml
   label: Nylas Drafts API
   slug: nylas-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-drafts-api-openapi.yml
 - filename: nylas-events-api-openapi.yml
   format: yaml
   label: Nylas Events API
   slug: nylas-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-events-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-events-api-openapi.yml
 - filename: nylas-messages-api-openapi.yml
   format: yaml
   label: Nylas Messages API
   slug: nylas-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-messages-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-messages-api-openapi.yml
 - filename: nylas-threads-api-openapi.yml
   format: yaml
   label: Nylas Threads API
   slug: nylas-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-threads-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-threads-api-openapi.yml
 - filename: nylas-notetaker-api-openapi.yml
   format: yaml
   label: Nylas Notetaker API
   slug: nylas-notetaker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-notetaker-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-notetaker-api-openapi.yml
 - filename: nylas-amazon-sns-notifications-api-openapi.yml
   format: yaml
   label: Nylas Amazon SNS Notifications API
   slug: nylas-amazon-sns-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-amazon-sns-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-amazon-sns-notifications-api-openapi.yml
 - filename: nylas-app-migration-api-openapi.yml
   format: yaml
   label: Nylas App migration API
   slug: nylas-app-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-app-migration-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-app-migration-api-openapi.yml
 - filename: nylas-applications-api-openapi.yml
   format: yaml
   label: Nylas Applications API
   slug: nylas-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-applications-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-applications-api-openapi.yml
 - filename: nylas-attachments-api-openapi.yml
   format: yaml
   label: Nylas Attachments API
   slug: nylas-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-attachments-api-openapi.yml
 - filename: nylas-authentication-apis-api-openapi.yml
   format: yaml
   label: Nylas Authentication APIs API
   slug: nylas-authentication-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-authentication-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-authentication-apis-api-openapi.yml
 - filename: nylas-availability-api-openapi.yml
   format: yaml
   label: Nylas Availability API
   slug: nylas-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-availability-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-availability-api-openapi.yml
 - filename: nylas-bookings-api-openapi.yml
   format: yaml
   label: Nylas Bookings API
   slug: nylas-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-bookings-api-openapi.yml
 - filename: nylas-calendar-api-openapi.yml
   format: yaml
   label: Nylas Calendar API
   slug: nylas-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-calendar-api-openapi.yml
 - filename: nylas-configurations-api-openapi.yml
   format: yaml
   label: Nylas Configurations API
   slug: nylas-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-configurations-api-openapi.yml
 - filename: nylas-connector-credentials-api-openapi.yml
   format: yaml
   label: Nylas Connector credentials API
   slug: nylas-connector-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-connector-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-connector-credentials-api-openapi.yml
 - filename: nylas-connectors-integrations-api-openapi.yml
   format: yaml
   label: Nylas Connectors (Integrations) API
   slug: nylas-connectors-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-connectors-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-connectors-integrations-api-openapi.yml
 - filename: nylas-data-migration-api-openapi.yml
   format: yaml
   label: Nylas Data migration API
   slug: nylas-data-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-data-migration-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-data-migration-api-openapi.yml
 - filename: nylas-folders-api-openapi.yml
   format: yaml
   label: Nylas Folders API
   slug: nylas-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-folders-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-folders-api-openapi.yml
 - filename: nylas-group-events-api-openapi.yml
   format: yaml
   label: Nylas Group Events API
   slug: nylas-group-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-group-events-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-group-events-api-openapi.yml
 - filename: nylas-lists-api-openapi.yml
   format: yaml
   label: Nylas Lists API
   slug: nylas-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-lists-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-lists-api-openapi.yml
 - filename: nylas-manage-api-keys-api-openapi.yml
   format: yaml
   label: Nylas Manage API keys API
   slug: nylas-manage-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-manage-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-manage-api-keys-api-openapi.yml
 - filename: nylas-manage-domains-api-openapi.yml
   format: yaml
   label: Nylas Manage Domains API
   slug: nylas-manage-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-manage-domains-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-manage-domains-api-openapi.yml
 - filename: nylas-manage-grants-api-openapi.yml
   format: yaml
   label: Nylas Manage Grants API
   slug: nylas-manage-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-manage-grants-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-manage-grants-api-openapi.yml
 - filename: nylas-policies-api-openapi.yml
   format: yaml
   label: Nylas Policies API
   slug: nylas-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-policies-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-policies-api-openapi.yml
 - filename: nylas-pub-sub-notifications-api-openapi.yml
   format: yaml
   label: Nylas Pub/Sub Notifications API
   slug: nylas-pub-sub-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-pub-sub-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-pub-sub-notifications-api-openapi.yml
 - filename: nylas-room-resources-api-openapi.yml
   format: yaml
   label: Nylas Room resources API
   slug: nylas-room-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-room-resources-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-room-resources-api-openapi.yml
 - filename: nylas-rules-api-openapi.yml
   format: yaml
   label: Nylas Rules API
   slug: nylas-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-rules-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-rules-api-openapi.yml
 - filename: nylas-sessions-api-openapi.yml
   format: yaml
   label: Nylas Sessions API
   slug: nylas-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-sessions-api-openapi.yml
 - filename: nylas-signatures-api-openapi.yml
   format: yaml
   label: Nylas Signatures API
   slug: nylas-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-signatures-api-openapi.yml
 - filename: nylas-smart-compose-api-openapi.yml
   format: yaml
   label: Nylas Smart compose API
   slug: nylas-smart-compose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-smart-compose-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-smart-compose-api-openapi.yml
 - filename: nylas-standalone-notetaker-api-openapi.yml
   format: yaml
   label: Nylas Standalone Notetaker API
   slug: nylas-standalone-notetaker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-standalone-notetaker-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-standalone-notetaker-api-openapi.yml
 - filename: nylas-transactional-send-api-openapi.yml
   format: yaml
   label: Nylas Transactional send API
   slug: nylas-transactional-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-transactional-send-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-transactional-send-api-openapi.yml
 - filename: nylas-v2-redirects-api-openapi.yml
   format: yaml
   label: Nylas v2 Redirects API
   slug: nylas-v2-redirects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-v2-redirects-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-v2-redirects-api-openapi.yml
 - filename: nylas-webhook-notifications-api-openapi.yml
   format: yaml
   label: Nylas Webhook Notifications API
   slug: nylas-webhook-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-webhook-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-webhook-notifications-api-openapi.yml
 - filename: nylas-workspaces-api-openapi.yml
   format: yaml
   label: Nylas Workspaces API
   slug: nylas-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-workspaces-api-openapi.yml
-- filename: nylas-templates-and-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-workspaces-api-openapi.yml
+- filename: nylas-application-level-templates-api-openapi.yml
   format: yaml
-  label: Nylas Templates and Workflows API
-  slug: nylas-templates-and-workflows-api
+  label: Nylas Application-level templates API
+  slug: nylas-application-level-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-templates-and-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/nylas/openapi/nylas-application-level-templates-api-openapi.yml
+- filename: nylas-application-level-workflows-api-openapi.yml
+  format: yaml
+  label: Nylas Application-level workflows API
+  slug: nylas-application-level-workflows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nylas/openapi/nylas-application-level-workflows-api-openapi.yml
+- filename: nylas-grant-level-templates-api-openapi.yml
+  format: yaml
+  label: Nylas Grant-level templates API
+  slug: nylas-grant-level-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nylas/openapi/nylas-grant-level-templates-api-openapi.yml
+- filename: nylas-grant-level-workflows-api-openapi.yml
+  format: yaml
+  label: Nylas Grant-level workflows API
+  slug: nylas-grant-level-workflows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nylas/openapi/nylas-grant-level-workflows-api-openapi.yml
+- filename: nylas-iam-credentials-api-openapi.yml
+  format: yaml
+  label: Nylas IAM credentials API
+  slug: nylas-iam-credentials-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nylas/openapi/nylas-iam-credentials-api-openapi.yml
+- filename: nylas-iam-principals-api-openapi.yml
+  format: yaml
+  label: Nylas IAM principals API
+  slug: nylas-iam-principals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nylas/openapi/nylas-iam-principals-api-openapi.yml
+- filename: nylas-notetaker-configurations-api-openapi.yml
+  format: yaml
+  label: Nylas Notetaker Configurations API
+  slug: nylas-notetaker-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nylas/openapi/nylas-notetaker-configurations-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 83
@@ -319,8 +355,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nylas-
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/grants/{grant_id}/folders\n  method: get\n  operationId: get-folder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/grants/{grant_id}/folders\n  method: post\n  operationId: post-folder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/grants/{grant_id}/folders/{folder_id}\n  method: get\n  operationId: get-folders-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/grants/{grant_id}/folders/{folder_id}\n  method: put\n  operationId: put-folders-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/grants/{grant_id}/folders/{folder_id}\n  method: delete\n  operationId: delete-folders-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/grants/{grant_id}/templates\n  method: get\n  operationId: get-grant-level-templates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/grants/{grant_id}/templates\n  method: post\n  operationId: create-grant-level-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/grants/{grant_id}/templates/{template_id}\n  method: get\n  operationId: get-grant-level-template\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/grants/{grant_id}/templates/{template_id}\n  method: put\n  operationId: update-grant-level-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/grants/{grant_id}/templates/{template_id}\n  method: delete\n  operationId: delete-grant-level-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/grants/{grant_id}/templates/{template_id}/render\n  method: post\n  operationId: render-grant-level-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (65 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/agentic-access/nylas-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/agentic-access/nylas-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/grants/{grant_id}/templates/{template_id}\n  method: delete\n  operationId: delete-grant-level-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/grants/{grant_id}/templates/{template_id}/render\n  method: post\n  operationId: render-grant-level-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (65 KB total) ---\n# Full source: https://artifacts.apis.io/nylas/agentic-access/nylas-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/nylas/agentic-access/nylas-agentic-access.yml
 summary_line: 210 operations · 127 acting · 1 human-in-the-loop
 tags:
 - Calendar

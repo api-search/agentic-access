@@ -9,109 +9,109 @@ api_specs:
   label: Synthflow Chat API
   slug: synthflow-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-chat-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-chat-api-openapi.yml
 - filename: synthflow-contacts-api-openapi.yml
   format: yaml
   label: Synthflow Contacts API
   slug: synthflow-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-contacts-api-openapi.yml
 - filename: synthflow-mcp-api-openapi.yml
   format: yaml
   label: Synthflow MCP API
   slug: synthflow-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-mcp-api-openapi.yml
 - filename: synthflow-memory-stores-api-openapi.yml
   format: yaml
   label: Synthflow Memory Stores API
   slug: synthflow-memory-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-memory-stores-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-memory-stores-api-openapi.yml
 - filename: synthflow-actions-api-openapi.yml
   format: yaml
   label: Synthflow Actions API
   slug: synthflow-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-actions-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-actions-api-openapi.yml
 - filename: synthflow-analytics-api-openapi.yml
   format: yaml
   label: Synthflow Analytics API
   slug: synthflow-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-analytics-api-openapi.yml
 - filename: synthflow-assistants-api-openapi.yml
   format: yaml
   label: Synthflow Assistants API
   slug: synthflow-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-assistants-api-openapi.yml
 - filename: synthflow-calls-api-openapi.yml
   format: yaml
   label: Synthflow Calls API
   slug: synthflow-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-calls-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-calls-api-openapi.yml
 - filename: synthflow-knowledge-base-api-openapi.yml
   format: yaml
   label: Synthflow Knowledge Base API
   slug: synthflow-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-knowledge-base-api-openapi.yml
 - filename: synthflow-phonebooks-api-openapi.yml
   format: yaml
   label: Synthflow Phonebooks API
   slug: synthflow-phonebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phonebooks-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-phonebooks-api-openapi.yml
 - filename: synthflow-simulation-cases-api-openapi.yml
   format: yaml
   label: Synthflow Simulation Cases API
   slug: synthflow-simulation-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-cases-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulation-cases-api-openapi.yml
 - filename: synthflow-simulation-scenarios-api-openapi.yml
   format: yaml
   label: Synthflow Simulation Scenarios API
   slug: synthflow-simulation-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulation-scenarios-api-openapi.yml
 - filename: synthflow-simulation-suites-api-openapi.yml
   format: yaml
   label: Synthflow Simulation Suites API
   slug: synthflow-simulation-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-suites-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulation-suites-api-openapi.yml
 - filename: synthflow-simulations-api-openapi.yml
   format: yaml
   label: Synthflow Simulations API
   slug: synthflow-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulations-api-openapi.yml
 - filename: synthflow-subaccounts-api-openapi.yml
   format: yaml
   label: Synthflow Subaccounts API
   slug: synthflow-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-subaccounts-api-openapi.yml
 - filename: synthflow-voices-api-openapi.yml
   format: yaml
   label: Synthflow Voices API
   slug: synthflow-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-voices-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-voices-api-openapi.yml
 - filename: synthflow-phone-numbers-api-openapi.yml
   format: yaml
   label: Synthflow Phone Numbers API
   slug: synthflow-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-phone-numbers-api-openapi.yml
 - filename: synthflow-webhook-logs-api-openapi.yml
   format: yaml
   label: Synthflow Webhook Logs API
   slug: synthflow-webhook-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-webhook-logs-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-webhook-logs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 37
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/synthf
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /memory_stores/{memory_store_id}/assistants/{assistant_id}/attach\n  method: post\n  operationId: attach-a-memory-store-to-an-agent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memory_stores/{memory_store_id}/assistants/{assistant_id}/detach\n  method: post\n  operationId: detach-a-memory-store-from-an-agent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memory_stores/{memory_store_id}/contacts/{contact_id}/memory_data\n\
   \  method: get\n  operationId: get-data-for-a-specific-memory-store-and-contact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /memory_stores/{memory_store_id}/contacts/{contact_id}/attach\n  method: post\n  operationId: attach-a-contact-to-a-memory-store\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memory_stores/{memory_store_id}/contacts/{contact_id}/detach\n  method: post\n  operationId: detach-a-contact-from-a-memory-store\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /logs\n  method: get\n  operationId: list-webhook-logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs/{webhook_log_id}\n  method: get\n  operationId: get-webhook-log-detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/agentic-access/synthflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/synthflow/agentic-access/synthflow-agentic-access.yml
 summary_line: 98 operations · 61 acting
 tags:
 - Voice

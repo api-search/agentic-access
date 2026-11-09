@@ -9,55 +9,55 @@ api_specs:
   label: Azure AI Document Intelligence DocumentClassifiers:authorizeCopy API
   slug: azure-document-intelligence-documentclassifiers-authorizecopy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-documentclassifiers-authorizecopy-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-documentclassifiers-authorizecopy-api-openapi.yml
 - filename: azure-document-intelligence-info-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Info API
   slug: azure-document-intelligence-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-info-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-info-api-openapi.yml
 - filename: azure-document-intelligence-operations-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Operations API
   slug: azure-document-intelligence-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-operations-api-openapi.yml
 - filename: azure-document-intelligence-document-classifiers-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Classifiers API
   slug: azure-document-intelligence-document-classifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-classifiers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-classifiers-api-openapi.yml
 - filename: azure-document-intelligence-document-classifiers-build-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Classifiers:build API
   slug: azure-document-intelligence-document-classifiers-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-classifiers-build-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-classifiers-build-api-openapi.yml
 - filename: azure-document-intelligence-document-models-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Models API
   slug: azure-document-intelligence-document-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-models-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-api-openapi.yml
 - filename: azure-document-intelligence-document-models-authorize-copy-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Models:authorize Copy API
   slug: azure-document-intelligence-document-models-authorize-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-models-authorize-copy-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-authorize-copy-api-openapi.yml
 - filename: azure-document-intelligence-document-models-build-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Models:build API
   slug: azure-document-intelligence-document-models-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-models-build-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-build-api-openapi.yml
 - filename: azure-document-intelligence-document-models-compose-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Models:compose API
   slug: azure-document-intelligence-document-models-compose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-models-compose-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-compose-api-openapi.yml
 consequence_counts:
   read: 13
   write: 14
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/azure-
   \  method: post\n  operationId: DocumentModels_AuthorizeModelCopy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://cognitiveservices.azure.com/.default\n- path: /documentModels:build\n  method: post\n  operationId: DocumentModels_BuildModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://cognitiveservices.azure.com/.default\n- path: /documentModels:compose\n  method: post\n  operationId: DocumentModels_ComposeModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://cognitiveservices.azure.com/.default\n- path: /documentClassifiers:authorizeCopy\n  method: post\n  operationId: DocumentClassifiers_AuthorizeClassifierCopy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://cognitiveservices.azure.com/.default\n- path: /info\n  method: get\n  operationId: MiscellaneousOperations_GetResourceDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://cognitiveservices.azure.com/.default\n\
   - path: /operations\n  method: get\n  operationId: MiscellaneousOperations_ListOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://cognitiveservices.azure.com/.default\n- path: /operations/{operationId}\n  method: get\n  operationId: MiscellaneousOperations_GetDocumentModelBuildOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://cognitiveservices.azure.com/.default\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/agentic-access/azure-document-intelligence-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-document-intelligence/agentic-access/azure-document-intelligence-agentic-access.yml
 summary_line: 27 operations · 14 acting
 tags:
 - Artificial Intelligence

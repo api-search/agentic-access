@@ -9,37 +9,37 @@ api_specs:
   label: Spring Data Association API
   slug: spring-data-association-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-association-api-openapi.yml
+  url: https://artifacts.apis.io/spring-data/openapi/spring-data-association-api-openapi.yml
 - filename: spring-data-collection-api-openapi.yml
   format: yaml
   label: Spring Data Collection API
   slug: spring-data-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-collection-api-openapi.yml
+  url: https://artifacts.apis.io/spring-data/openapi/spring-data-collection-api-openapi.yml
 - filename: spring-data-discovery-api-openapi.yml
   format: yaml
   label: Spring Data Discovery API
   slug: spring-data-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/spring-data/openapi/spring-data-discovery-api-openapi.yml
 - filename: spring-data-item-api-openapi.yml
   format: yaml
   label: Spring Data Item API
   slug: spring-data-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-item-api-openapi.yml
+  url: https://artifacts.apis.io/spring-data/openapi/spring-data-item-api-openapi.yml
 - filename: spring-data-profile-api-openapi.yml
   format: yaml
   label: Spring Data Profile API
   slug: spring-data-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-profile-api-openapi.yml
+  url: https://artifacts.apis.io/spring-data/openapi/spring-data-profile-api-openapi.yml
 - filename: spring-data-search-api-openapi.yml
   format: yaml
   label: Spring Data Search API
   slug: spring-data-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/openapi/spring-data-search-api-openapi.yml
+  url: https://artifacts.apis.io/spring-data/openapi/spring-data-search-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spring
   \ replaceResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{repository}/{id}\n  method: patch\n  operationId: patchResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{repository}/{id}\n  method: delete\n  operationId: deleteResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /{repository}/search\n  method: get\n  operationId: listSearchMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{repository}/search/{method}\n  method: get\n  operationId: executeSearchMethod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{repository}/{id}/{association}\n  method: get\n  operationId: getAssociation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{repository}/{id}/{association}\n  method: put\n  operationId: setAssociation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /{repository}/{id}/{association}\n  method: delete\n  operationId: deleteAssociation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/agentic-access/spring-data-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spring-data/agentic-access/spring-data-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Data Access

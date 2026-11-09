@@ -9,31 +9,31 @@ api_specs:
   label: Amazon HealthImaging Datastore API
   slug: amazon-healthimaging-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-datastore-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthimaging/openapi/amazon-healthimaging-datastore-api-openapi.yml
 - filename: amazon-healthimaging-tags-api-openapi.yml
   format: yaml
   label: Amazon HealthImaging Tags API
   slug: amazon-healthimaging-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthimaging/openapi/amazon-healthimaging-tags-api-openapi.yml
 - filename: amazon-healthimaging-get-dicom-import-job-api-openapi.yml
   format: yaml
   label: Amazon HealthImaging Get DICOM Import Job API
   slug: amazon-healthimaging-get-dicom-import-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-get-dicom-import-job-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthimaging/openapi/amazon-healthimaging-get-dicom-import-job-api-openapi.yml
 - filename: amazon-healthimaging-list-dicom-import-jobs-api-openapi.yml
   format: yaml
   label: Amazon HealthImaging List DICOM Import Jobs API
   slug: amazon-healthimaging-list-dicom-import-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-list-dicom-import-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthimaging/openapi/amazon-healthimaging-list-dicom-import-jobs-api-openapi.yml
 - filename: amazon-healthimaging-start-dicom-import-job-api-openapi.yml
   format: yaml
   label: Amazon HealthImaging Start DICOM Import Job API
   slug: amazon-healthimaging-start-dicom-import-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-start-dicom-import-job-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthimaging/openapi/amazon-healthimaging-start-dicom-import-job-api-openapi.yml
 consequence_counts:
   read: 7
   write: 11
@@ -66,9 +66,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datastore/{datastoreId}/searchImageSets\n  method: post\n  operationId: SearchImageSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datastore/{datastoreId}/imageSet/{imageSetId}/updateImageSetMetadata#latestVersion\n  method: post\n  operationId: UpdateImageSetMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getDICOMImportJob/datastore/{datastoreId}/job/{jobId}\n  method: get\n  operationId: GetDICOMImportJob\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listDICOMImportJobs/datastore/{datastoreId}\n  method: get\n  operationId: ListDICOMImportJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /startDICOMImportJob/datastore/{datastoreId}\n  method: post\n  operationId: StartDICOMImportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n\
   \  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/agentic-access/amazon-healthimaging-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-healthimaging/agentic-access/amazon-healthimaging-agentic-access.yml
 summary_line: 18 operations · 11 acting
 tags:
+- Amazon Web Services
 - Healthcare
 - HIPAA
 - Machine Learning

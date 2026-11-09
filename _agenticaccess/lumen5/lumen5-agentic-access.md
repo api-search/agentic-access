@@ -9,7 +9,7 @@ api_specs:
   label: Lumen5 Video Creation API
   slug: lumen5-video-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumen5/refs/heads/main/openapi/lumen5-video-creation-api-openapi.yml
+  url: https://artifacts.apis.io/lumen5/openapi/lumen5-video-creation-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/lumen5
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/video-creation/voices/\n  method: get\n  operationId: v1_video_creation_voices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/video-creation/webhook-endpoints/\n  method: get\n  operationId: v1_video_creation_webhook_endpoints_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/video-creation/webhook-endpoints/\n  method: post\n  operationId: v1_video_creation_webhook_endpoints_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/video-creation/webhook-endpoints/{endpoint_id}/\n\
   \  method: delete\n  operationId: v1_video_creation_webhook_endpoints_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/video-creation/webhook-endpoints/{endpoint_id}/rotate-secret/\n  method: post\n  operationId: v1_video_creation_webhook_endpoints_rotate_secret_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/video-creation/workspaces/\n  method: get\n  operationId: v1_video_creation_workspaces_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumen5/refs/heads/main/agentic-access/lumen5-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lumen5/agentic-access/lumen5-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Company

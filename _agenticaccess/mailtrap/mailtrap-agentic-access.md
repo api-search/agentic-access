@@ -9,19 +9,19 @@ api_specs:
   label: Mailtrap Inboxes API
   slug: mailtrap-inboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-inboxes-api-openapi.yml
+  url: https://artifacts.apis.io/mailtrap/openapi/mailtrap-inboxes-api-openapi.yml
 - filename: mailtrap-messages-api-openapi.yml
   format: yaml
   label: Mailtrap Messages API
   slug: mailtrap-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-messages-api-openapi.yml
+  url: https://artifacts.apis.io/mailtrap/openapi/mailtrap-messages-api-openapi.yml
 - filename: mailtrap-send-api-openapi.yml
   format: yaml
   label: Mailtrap Send API
   slug: mailtrap-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/openapi/mailtrap-send-api-openapi.yml
+  url: https://artifacts.apis.io/mailtrap/openapi/mailtrap-send-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 11
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mailtr
   \  method: post\n  operationId: forwardMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/accounts/{account_id}/inboxes/{inbox_id}/messages/{message_id}/spam_report\n  method: get\n  operationId: getSpamReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{account_id}/inboxes/{inbox_id}/messages/{message_id}/analyze\n  method: get\n  operationId: getHtmlAnalyze\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{account_id}/inboxes/{inbox_id}/messages/{message_id}/body.txt\n  method: get\n  operationId: getMessageBodyText\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{account_id}/inboxes/{inbox_id}/messages/{message_id}/body.html\n  method: get\n  operationId: getMessageBodyHtml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{account_id}/inboxes/{inbox_id}/messages/{message_id}/body.raw\n  method: get\n  operationId: getMessageBodyRaw\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{account_id}/inboxes/{inbox_id}/messages/{message_id}/body.eml\n  method: get\n  operationId: getMessageEml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{account_id}/inboxes/{inbox_id}/messages/{message_id}/mail_headers\n\
   \  method: get\n  operationId: getMessageHeaders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/agentic-access/mailtrap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mailtrap/agentic-access/mailtrap-agentic-access.yml
 summary_line: 23 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Email

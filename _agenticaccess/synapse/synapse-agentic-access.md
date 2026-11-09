@@ -9,49 +9,49 @@ api_specs:
   label: Synapse Federation API
   slug: synapse-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-federation-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-federation-api-openapi.yml
 - filename: synapse-media-api-openapi.yml
   format: yaml
   label: Synapse Media API
   slug: synapse-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-media-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-media-api-openapi.yml
 - filename: synapse-registration-api-openapi.yml
   format: yaml
   label: Synapse Registration API
   slug: synapse-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-registration-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-registration-api-openapi.yml
 - filename: synapse-reports-api-openapi.yml
   format: yaml
   label: Synapse Reports API
   slug: synapse-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-reports-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-reports-api-openapi.yml
 - filename: synapse-rooms-api-openapi.yml
   format: yaml
   label: Synapse Rooms API
   slug: synapse-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-rooms-api-openapi.yml
 - filename: synapse-server-api-openapi.yml
   format: yaml
   label: Synapse Server API
   slug: synapse-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-server-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-server-api-openapi.yml
 - filename: synapse-statistics-api-openapi.yml
   format: yaml
   label: Synapse Statistics API
   slug: synapse-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-statistics-api-openapi.yml
 - filename: synapse-users-api-openapi.yml
   format: yaml
   label: Synapse Users API
   slug: synapse-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/openapi/synapse-users-api-openapi.yml
+  url: https://artifacts.apis.io/synapse/openapi/synapse-users-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/synaps
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/rooms/{roomId}/members\n  method: get\n  operationId: getRoomMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/join/{roomIdOrAlias}\n  method: post\n  operationId: joinUserToRoom\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/statistics/users/media\n  method: get\n  operationId: getUserMediaStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/server_version\n  method: get\n  operationId: getServerVersion\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/registration_tokens\n  method: get\n  operationId: listRegistrationTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/registration_tokens\n  method: post\n  operationId: createRegistrationToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/event_reports\n  method: get\n  operationId: listEventReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/federation/destinations\n  method: get\n  operationId: listFederationDestinations\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/background_updates/enabled\n  method: get\n  operationId: getBackgroundUpdatesEnabled\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/agentic-access/synapse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/synapse/agentic-access/synapse-agentic-access.yml
 summary_line: 18 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Chat

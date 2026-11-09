@@ -9,49 +9,49 @@ api_specs:
   label: Prosci ADKAR Assessments API
   slug: prosci-adkar-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/openapi/prosci-adkar-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/prosci/openapi/prosci-adkar-assessments-api-openapi.yml
 - filename: prosci-change-plans-api-openapi.yml
   format: yaml
   label: Prosci Change Plans API
   slug: prosci-change-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/openapi/prosci-change-plans-api-openapi.yml
+  url: https://artifacts.apis.io/prosci/openapi/prosci-change-plans-api-openapi.yml
 - filename: prosci-organizations-api-openapi.yml
   format: yaml
   label: Prosci Organizations API
   slug: prosci-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/openapi/prosci-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/prosci/openapi/prosci-organizations-api-openapi.yml
 - filename: prosci-pct-assessments-api-openapi.yml
   format: yaml
   label: Prosci PCT Assessments API
   slug: prosci-pct-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/openapi/prosci-pct-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/prosci/openapi/prosci-pct-assessments-api-openapi.yml
 - filename: prosci-projects-api-openapi.yml
   format: yaml
   label: Prosci Projects API
   slug: prosci-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/openapi/prosci-projects-api-openapi.yml
+  url: https://artifacts.apis.io/prosci/openapi/prosci-projects-api-openapi.yml
 - filename: prosci-risk-assessment-api-openapi.yml
   format: yaml
   label: Prosci Risk Assessment API
   slug: prosci-risk-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/openapi/prosci-risk-assessment-api-openapi.yml
+  url: https://artifacts.apis.io/prosci/openapi/prosci-risk-assessment-api-openapi.yml
 - filename: prosci-stakeholders-api-openapi.yml
   format: yaml
   label: Prosci Stakeholders API
   slug: prosci-stakeholders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/openapi/prosci-stakeholders-api-openapi.yml
+  url: https://artifacts.apis.io/prosci/openapi/prosci-stakeholders-api-openapi.yml
 - filename: prosci-training-api-openapi.yml
   format: yaml
   label: Prosci Training API
   slug: prosci-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/openapi/prosci-training-api-openapi.yml
+  url: https://artifacts.apis.io/prosci/openapi/prosci-training-api-openapi.yml
 consequence_counts:
   read: 12
   write: 11
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/prosci
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/change-plans/{planId}\n  method: get\n  operationId: getChangePlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/change-plans/{planId}\n  method: put\n  operationId: updateChangePlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/risk-assessment\n  method: get\n  operationId: getRiskAssessment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/risk-assessment\n\
   \  method: put\n  operationId: updateRiskAssessment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /training/programs\n  method: get\n  operationId: listTrainingPrograms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/enrollments\n  method: get\n  operationId: listEnrollments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/enrollments\n  method: post\n  operationId: createEnrollment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/maturity\n  method: get\n  operationId: getOrganizationMaturity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/agentic-access/prosci-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/prosci/agentic-access/prosci-agentic-access.yml
 summary_line: 23 operations · 11 acting
 tags:
 - Change Management

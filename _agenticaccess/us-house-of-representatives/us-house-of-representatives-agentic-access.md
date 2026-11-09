@@ -8,31 +8,31 @@ api_specs:
   label: US House of Representatives Bills API
   slug: us-house-of-representatives-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/openapi/us-house-of-representatives-bills-api-openapi.yml
+  url: https://artifacts.apis.io/us-house-of-representatives/openapi/us-house-of-representatives-bills-api-openapi.yml
 - filename: us-house-of-representatives-committees-api-openapi.yml
   format: yaml
   label: US House of Representatives Committees API
   slug: us-house-of-representatives-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/openapi/us-house-of-representatives-committees-api-openapi.yml
+  url: https://artifacts.apis.io/us-house-of-representatives/openapi/us-house-of-representatives-committees-api-openapi.yml
 - filename: us-house-of-representatives-members-api-openapi.yml
   format: yaml
   label: US House of Representatives Members API
   slug: us-house-of-representatives-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/openapi/us-house-of-representatives-members-api-openapi.yml
+  url: https://artifacts.apis.io/us-house-of-representatives/openapi/us-house-of-representatives-members-api-openapi.yml
 - filename: us-house-of-representatives-nominations-api-openapi.yml
   format: yaml
   label: US House of Representatives Nominations API
   slug: us-house-of-representatives-nominations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/openapi/us-house-of-representatives-nominations-api-openapi.yml
+  url: https://artifacts.apis.io/us-house-of-representatives/openapi/us-house-of-representatives-nominations-api-openapi.yml
 - filename: us-house-of-representatives-treaties-api-openapi.yml
   format: yaml
   label: US House of Representatives Treaties API
   slug: us-house-of-representatives-treaties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/openapi/us-house-of-representatives-treaties-api-openapi.yml
+  url: https://artifacts.apis.io/us-house-of-representatives/openapi/us-house-of-representatives-treaties-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/congre
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bill/{congress}/{type}/{number}/text\n  method: get\n  operationId: getBillText\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member/{bioguideId}\n  method: get\n  operationId: getMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member/congress/{congress}\n  method: get\n  operationId: listMembersByCongress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /member/{bioguideId}/sponsored-legislation\n  method: get\n  operationId: getMemberSponsoredLegislation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member/{bioguideId}/cosponsored-legislation\n  method: get\n  operationId: getMemberCosponsoredLegislation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /committee/{congress}/{chamber}\n  method: get\n  operationId: listCommittees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /committee/{chamber}/{systemCode}\n  method: get\n  operationId: getCommittee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /committee/{chamber}/{systemCode}/bills\n\
   \  method: get\n  operationId: getCommitteeBills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /committee/{chamber}/{systemCode}/reports\n  method: get\n  operationId: getCommitteeReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nomination\n  method: get\n  operationId: listNominations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /treaty\n  method: get\n  operationId: listTreaties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/agentic-access/us-house-of-representatives-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-house-of-representatives/agentic-access/us-house-of-representatives-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Federal Government

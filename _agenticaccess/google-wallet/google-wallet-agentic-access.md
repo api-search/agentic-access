@@ -9,31 +9,31 @@ api_specs:
   label: Google Wallet Event Tickets API
   slug: google-wallet-event-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-event-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-event-tickets-api-openapi.yml
 - filename: google-wallet-generic-passes-api-openapi.yml
   format: yaml
   label: Google Wallet Generic Passes API
   slug: google-wallet-generic-passes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-generic-passes-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-generic-passes-api-openapi.yml
 - filename: google-wallet-issuers-api-openapi.yml
   format: yaml
   label: Google Wallet Issuers API
   slug: google-wallet-issuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-issuers-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-issuers-api-openapi.yml
 - filename: google-wallet-jwt-api-openapi.yml
   format: yaml
   label: Google Wallet JWT API
   slug: google-wallet-jwt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-jwt-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-jwt-api-openapi.yml
 - filename: google-wallet-loyalty-cards-api-openapi.yml
   format: yaml
   label: Google Wallet Loyalty Cards API
   slug: google-wallet-loyalty-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/google-wallet-loyalty-cards-api-openapi.yml
+  url: https://artifacts.apis.io/google-wallet/openapi/google-wallet-loyalty-cards-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /genericClass/{resourceId}\n  method: get\n  operationId: getGenericClass\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /genericClass/{resourceId}\n  method: put\n  operationId: updateGenericClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /genericObject\n  method: post\n  operationId: insertGenericObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /genericObject/{resourceId}\n  method: get\n  operationId: getGenericObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eventTicketClass\n  method: post\n  operationId: insertEventTicketClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loyaltyClass\n  method: post\n  operationId: insertLoyaltyClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issuer\n  method: get\n  operationId:\
   \ listIssuers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jwt\n  method: post\n  operationId: insertJwt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/agentic-access/google-wallet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-wallet/agentic-access/google-wallet-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Digital Wallet

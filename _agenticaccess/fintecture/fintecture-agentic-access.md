@@ -9,133 +9,133 @@ api_specs:
   label: Fintecture Customers API
   slug: fintecture-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-customers-api-openapi.yml
 - filename: fintecture-transactions-api-openapi.yml
   format: yaml
   label: Fintecture Transactions and Settlements API
   slug: fintecture-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-transactions-api-openapi.yml
 - filename: fintecture-accounts-api-openapi.yml
   format: yaml
   label: Fintecture Accounts API
   slug: fintecture-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-accounts-api-openapi.yml
 - filename: fintecture-applications-api-openapi.yml
   format: yaml
   label: Fintecture Applications API
   slug: fintecture-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-applications-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-applications-api-openapi.yml
 - filename: fintecture-authentication-api-openapi.yml
   format: yaml
   label: Fintecture Authentication API
   slug: fintecture-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-authentication-api-openapi.yml
 - filename: fintecture-bank-accounts-api-openapi.yml
   format: yaml
   label: Fintecture Bank Accounts API
   slug: fintecture-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-bank-accounts-api-openapi.yml
 - filename: fintecture-companies-api-openapi.yml
   format: yaml
   label: Fintecture Companies API
   slug: fintecture-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-companies-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-companies-api-openapi.yml
 - filename: fintecture-e-mandates-api-openapi.yml
   format: yaml
   label: Fintecture E-Mandates API
   slug: fintecture-e-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-e-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-e-mandates-api-openapi.yml
 - filename: fintecture-memberships-api-openapi.yml
   format: yaml
   label: Fintecture Memberships API
   slug: fintecture-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-memberships-api-openapi.yml
 - filename: fintecture-organisation-nodes-api-openapi.yml
   format: yaml
   label: Fintecture Organisation Nodes API
   slug: fintecture-organisation-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-organisation-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-organisation-nodes-api-openapi.yml
 - filename: fintecture-payments-api-openapi.yml
   format: yaml
   label: Fintecture Payments API
   slug: fintecture-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-payments-api-openapi.yml
 - filename: fintecture-payouts-api-openapi.yml
   format: yaml
   label: Fintecture Payouts API
   slug: fintecture-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-payouts-api-openapi.yml
 - filename: fintecture-providers-api-openapi.yml
   format: yaml
   label: Fintecture Providers API
   slug: fintecture-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-providers-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-providers-api-openapi.yml
 - filename: fintecture-refunds-api-openapi.yml
   format: yaml
   label: Fintecture Refunds API
   slug: fintecture-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-refunds-api-openapi.yml
 - filename: fintecture-request-to-pay-api-openapi.yml
   format: yaml
   label: Fintecture Request To Pay API
   slug: fintecture-request-to-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-request-to-pay-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-request-to-pay-api-openapi.yml
 - filename: fintecture-sandbox-api-openapi.yml
   format: yaml
   label: Fintecture Sandbox API
   slug: fintecture-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-sandbox-api-openapi.yml
 - filename: fintecture-settlements-api-openapi.yml
   format: yaml
   label: Fintecture Settlements API
   slug: fintecture-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-settlements-api-openapi.yml
 - filename: fintecture-test-accounts-api-openapi.yml
   format: yaml
   label: Fintecture Test Accounts API
   slug: fintecture-test-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-test-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-test-accounts-api-openapi.yml
 - filename: fintecture-users-api-openapi.yml
   format: yaml
   label: Fintecture Users API
   slug: fintecture-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-users-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-users-api-openapi.yml
 - filename: fintecture-verification-api-openapi.yml
   format: yaml
   label: Fintecture Verification API
   slug: fintecture-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-verification-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-verification-api-openapi.yml
 - filename: fintecture-verifications-api-openapi.yml
   format: yaml
   label: Fintecture Verifications API
   slug: fintecture-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-verifications-api-openapi.yml
 - filename: fintecture-oauth-api-openapi.yml
   format: yaml
   label: Fintecture O Auth API
   slug: fintecture-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/openapi/fintecture-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fintecture/openapi/fintecture-oauth-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 36
@@ -219,7 +219,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fintec
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pis/v2/request-for-payout\n  method: post\n  operationId: createPisV2RequestForPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pis/v2/settlements\n  method: get\n  operationId: getPisV2Settlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pis/v2/settlements/{settlement_id}\n  method: get\n  operationId: getSettlementById\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /res/v1/providers\n  method: get\n  operationId: getResV1Providers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /res/v1/providers/{provider_id}\n  method: get\n  operationId: getResV1Provider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /res/v1/test-accounts\n  method: get\n  operationId: getResV1TestAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /res/v1/test-accounts/{account_id}\n  method: get\n  operationId: getResV1TestAccountById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transactions\n  method: get\n  operationId: listAllTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transactions/{transaction_id}\n  method: get\n  operationId: getTransactionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transactions/simulate\n  method: post\n  operationId: simulateTransactionEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/agentic-access/fintecture-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fintecture/agentic-access/fintecture-agentic-access.yml
 summary_line: 69 operations · 33 acting
 tags:
 - Open Banking

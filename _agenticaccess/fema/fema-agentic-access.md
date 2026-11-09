@@ -8,43 +8,43 @@ api_specs:
   label: OpenFEMA Catalog API
   slug: fema-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-catalog-api-openapi.yml
 - filename: fema-disaster-declarations-api-openapi.yml
   format: yaml
   label: OpenFEMA Disaster Declarations API
   slug: fema-disaster-declarations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-disaster-declarations-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-disaster-declarations-api-openapi.yml
 - filename: fema-hazard-mitigation-api-openapi.yml
   format: yaml
   label: OpenFEMA Hazard Mitigation API
   slug: fema-hazard-mitigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-hazard-mitigation-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-hazard-mitigation-api-openapi.yml
 - filename: fema-ipaws-api-openapi.yml
   format: yaml
   label: OpenFEMA IPAWS API
   slug: fema-ipaws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-ipaws-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-ipaws-api-openapi.yml
 - filename: fema-nfip-api-openapi.yml
   format: yaml
   label: OpenFEMA NFIP API
   slug: fema-nfip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-nfip-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-nfip-api-openapi.yml
 - filename: fema-public-assistance-api-openapi.yml
   format: yaml
   label: OpenFEMA Public Assistance API
   slug: fema-public-assistance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-public-assistance-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-public-assistance-api-openapi.yml
 - filename: fema-web-disaster-summaries-api-openapi.yml
   format: yaml
   label: OpenFEMA Web Disaster Summaries API
   slug: fema-web-disaster-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/openapi/fema-web-disaster-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/fema/openapi/fema-web-disaster-summaries-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fema-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/DisasterDeclarationsSummaries\n  method: get\n  operationId: listDisasterDeclarationsSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/PublicAssistanceFundedProjectsDetails\n  method: get\n  operationId: listPublicAssistanceFundedProjectsDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v3/HazardMitigationAssistanceProjects\n  method: get\n  operationId: listHazardMitigationAssistanceProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/FimaNfipPolicies\n  method: get\n  operationId: listFimaNfipPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/FimaNfipClaims\n  method: get\n  operationId: listFimaNfipClaims\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/IpawsArchivedAlerts\n  method: get\n  operationId: listIpawsArchivedAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/FemaWebDisasterSummaries\n\
   \  method: get\n  operationId: listFemaWebDisasterSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/OpenFemaDataSets\n  method: get\n  operationId: listOpenFemaDataSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/OpenFemaDataSetFields\n  method: get\n  operationId: listOpenFemaDataSetFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/agentic-access/fema-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fema/agentic-access/fema-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Government

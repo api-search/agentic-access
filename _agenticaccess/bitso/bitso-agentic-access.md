@@ -15,13 +15,13 @@ api_specs:
   label: Bitso Private API
   slug: bitso-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/openapi/bitso-private-api-openapi.yml
+  url: https://artifacts.apis.io/bitso/openapi/bitso-private-api-openapi.yml
 - filename: bitso-public-api-openapi.yml
   format: yaml
   label: Bitso Public API
   slug: bitso-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/openapi/bitso-public-api-openapi.yml
+  url: https://artifacts.apis.io/bitso/openapi/bitso-public-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bitso-
   \ get\n  operationId: getOrderBook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/trades\n  method: get\n  operationId: listTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/balance\n  method: get\n  operationId: getAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/account_status\n  method: get\n  operationId: getAccountStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/fees\n  method: get\n  operationId: getFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/open_orders\n  method: get\n  operationId: listOpenOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/orders\n  method: post\n  operationId: placeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/orders/{oid}\n  method: get\n  operationId: lookupOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/orders/{oid}\n  method: delete\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/user_trades\n  method: get\n  operationId: listUserTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/agentic-access/bitso-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitso/agentic-access/bitso-agentic-access.yml
 summary_line: 12 operations · 2 acting
 tags:
 - Cryptocurrency

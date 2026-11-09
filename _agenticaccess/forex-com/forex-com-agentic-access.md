@@ -9,43 +9,43 @@ api_specs:
   label: FOREX.com Account API
   slug: forex-com-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-account-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-account-api-openapi.yml
 - filename: forex-com-margin-api-openapi.yml
   format: yaml
   label: FOREX.com Margin API
   slug: forex-com-margin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-margin-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-margin-api-openapi.yml
 - filename: forex-com-market-api-openapi.yml
   format: yaml
   label: FOREX.com Market API
   slug: forex-com-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-market-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-market-api-openapi.yml
 - filename: forex-com-orders-api-openapi.yml
   format: yaml
   label: FOREX.com Orders API
   slug: forex-com-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-orders-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-orders-api-openapi.yml
 - filename: forex-com-positions-api-openapi.yml
   format: yaml
   label: FOREX.com Positions API
   slug: forex-com-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-positions-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-positions-api-openapi.yml
 - filename: forex-com-pricing-api-openapi.yml
   format: yaml
   label: FOREX.com Pricing API
   slug: forex-com-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-pricing-api-openapi.yml
 - filename: forex-com-session-api-openapi.yml
   format: yaml
   label: FOREX.com Session API
   slug: forex-com-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/openapi/forex-com-session-api-openapi.yml
+  url: https://artifacts.apis.io/forex-com/openapi/forex-com-session-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/forex-
   \ token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/openpositions\n  method: get\n  operationId: listOpenPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/{marketId}/tickhistory\n  method: get\n  operationId: getTickHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/{marketId}/tickhistorybetween\n  method: get\n  operationId: getTickHistoryBetween\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/{marketId}/tickhistoryafter\n  method: get\n  operationId: getTickHistoryAfter\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/{marketId}/tickhistorybefore\n  method: get\n  operationId: getTickHistoryBefore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/{marketId}/barhistory\n  method: get\n  operationId: getBarHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/{marketId}/barhistorybetween\n  method: get\n  operationId: getBarHistoryBetween\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/{marketId}/barhistorybefore\n  method: get\n  operationId: getBarHistoryBefore\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/agentic-access/forex-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/forex-com/agentic-access/forex-com-agentic-access.yml
 summary_line: 17 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Foreign Exchange

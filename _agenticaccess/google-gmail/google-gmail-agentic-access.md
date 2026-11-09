@@ -9,7 +9,7 @@ api_specs:
   label: Google Gmail API
   slug: google-gmail-gmail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-gmail/refs/heads/main/openapi/google-gmail-gmail-api-openapi.yml
+  url: https://artifacts.apis.io/google-gmail/openapi/google-gmail-gmail-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gmail/v1/users/{userId}/drafts/{id}\n  method: delete\n  operationId: deleteDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gmail/v1/users/{userId}/drafts/send\n  method: post\n  operationId: sendDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gmail/v1/users/{userId}/history\n  method: get\n  operationId: listHistory\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gmail/v1/users/{userId}/watch\n  method: post\n  operationId: watchMailbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gmail/v1/users/{userId}/stop\n  method: post\n  operationId: stopMailboxWatch\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /gmail/v1/users/{userId}/settings/autoForwarding\n  method: get\n  operationId: getAutoForwarding\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gmail/v1/users/{userId}/settings/filters\n  method: get\n  operationId: listFilters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gmail/v1/users/{userId}/settings/filters\n  method: post\n  operationId: createFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-gmail/refs/heads/main/agentic-access/google-gmail-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-gmail/agentic-access/google-gmail-agentic-access.yml
 summary_line: 29 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Drafts

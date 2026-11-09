@@ -9,31 +9,31 @@ api_specs:
   label: BlueCart Catalogs API
   slug: bluecart-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-catalogs-api-openapi.yml
 - filename: bluecart-clients-api-openapi.yml
   format: yaml
   label: BlueCart Clients API
   slug: bluecart-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-clients-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-clients-api-openapi.yml
 - filename: bluecart-orders-api-openapi.yml
   format: yaml
   label: BlueCart Orders API
   slug: bluecart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-orders-api-openapi.yml
 - filename: bluecart-products-api-openapi.yml
   format: yaml
   label: BlueCart Products API
   slug: bluecart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-products-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-products-api-openapi.yml
 - filename: bluecart-users-api-openapi.yml
   format: yaml
   label: BlueCart Users API
   slug: bluecart-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/openapi/bluecart-users-api-openapi.yml
+  url: https://artifacts.apis.io/bluecart/openapi/bluecart-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blueca
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/clients/{id}\n  method: get\n  operationId: retrieveClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/clients/{id}\n  method: put\n  operationId: updateClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: get\n  operationId: retrieveUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: delete\n  operationId: disableUser\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/agentic-access/bluecart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bluecart/agentic-access/bluecart-agentic-access.yml
 summary_line: 22 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Restaurant

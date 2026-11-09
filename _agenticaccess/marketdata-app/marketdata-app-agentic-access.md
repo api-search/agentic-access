@@ -8,25 +8,25 @@ api_specs:
   label: Market Data Indices API
   slug: marketdata-app-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-indices-api-openapi.yml
+  url: https://artifacts.apis.io/marketdata-app/openapi/marketdata-app-indices-api-openapi.yml
 - filename: marketdata-app-markets-api-openapi.yml
   format: yaml
   label: Market Data Markets API
   slug: marketdata-app-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-markets-api-openapi.yml
+  url: https://artifacts.apis.io/marketdata-app/openapi/marketdata-app-markets-api-openapi.yml
 - filename: marketdata-app-options-api-openapi.yml
   format: yaml
   label: Market Data Options API
   slug: marketdata-app-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-options-api-openapi.yml
+  url: https://artifacts.apis.io/marketdata-app/openapi/marketdata-app-options-api-openapi.yml
 - filename: marketdata-app-stocks-api-openapi.yml
   format: yaml
   label: Market Data Stocks API
   slug: marketdata-app-stocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-stocks-api-openapi.yml
+  url: https://artifacts.apis.io/marketdata-app/openapi/marketdata-app-stocks-api-openapi.yml
 consequence_counts:
   read: 29
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/market
   \ v1_options_quotes_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/options/strikes/{underlying}/\n  method: get\n  operationId: v1_options_strikes_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stocks/bulkcandles/{resolution}/\n  method: get\n  operationId: v1_stocks_bulkcandles_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stocks/bulkquotes/\n  method: get\n  operationId: v1_stocks_bulkquotes_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stocks/candles/{resolution}/{symbol}/\n  method: get\n  operationId: v1_stocks_candles_retrieve\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stocks/earnings/{symbol}/\n  method: get\n  operationId: v1_stocks_earnings_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stocks/news/{symbol}/\n  method: get\n  operationId: v1_stocks_news_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stocks/prices/\n  method: get\n  operationId: stocks_prices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stocks/prices/{symbol}/\n  method: get\n  operationId: stocks_price_by_symbol\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stocks/quotes/\n  method: get\n  operationId: stocks_quotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stocks/quotes/{symbol}/\n  method: get\n  operationId: stocks_quote_by_symbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/agentic-access/marketdata-app-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/marketdata-app/agentic-access/marketdata-app-agentic-access.yml
 summary_line: 29 operations
 tags:
 - Market Data

@@ -9,37 +9,37 @@ api_specs:
   label: NetApp Aggregates API
   slug: netapp-aggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-aggregates-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-aggregates-api-openapi.yml
 - filename: netapp-cluster-api-openapi.yml
   format: yaml
   label: NetApp Cluster API
   slug: netapp-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-cluster-api-openapi.yml
 - filename: netapp-network-api-openapi.yml
   format: yaml
   label: NetApp Network API
   slug: netapp-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-network-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-network-api-openapi.yml
 - filename: netapp-snapshots-api-openapi.yml
   format: yaml
   label: NetApp Snapshots API
   slug: netapp-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-snapshots-api-openapi.yml
 - filename: netapp-svms-api-openapi.yml
   format: yaml
   label: NetApp SVMs API
   slug: netapp-svms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-svms-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-svms-api-openapi.yml
 - filename: netapp-volumes-api-openapi.yml
   format: yaml
   label: NetApp Volumes API
   slug: netapp-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/netapp/openapi/netapp-volumes-api-openapi.yml
 consequence_counts:
   read: 12
   write: 11
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/netapp
   \ required\n- path: /storage/aggregates/{uuid}\n  method: delete\n  operationId: deleteAggregate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /svm/svms\n  method: get\n  operationId: listSvms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /svm/svms\n  method: post\n  operationId: createSvm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /svm/svms/{uuid}\n  method: get\n  operationId: getSvm\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /svm/svms/{uuid}\n  method: patch\n  operationId: updateSvm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /svm/svms/{uuid}\n  method: delete\n  operationId: deleteSvm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network/ip/interfaces\n  method: get\n  operationId: listNetworkInterfaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/agentic-access/netapp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/netapp/agentic-access/netapp-agentic-access.yml
 summary_line: 23 operations · 11 acting
 tags:
 - Cloud

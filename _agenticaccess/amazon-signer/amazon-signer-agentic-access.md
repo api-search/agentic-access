@@ -9,31 +9,31 @@ api_specs:
   label: Amazon Signer Signing Jobs API
   slug: amazon-signer-signing-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-signing-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-signer/openapi/amazon-signer-signing-jobs-api-openapi.yml
 - filename: amazon-signer-signing-platforms-api-openapi.yml
   format: yaml
   label: Amazon Signer Signing Platforms API
   slug: amazon-signer-signing-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-signing-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-signer/openapi/amazon-signer-signing-platforms-api-openapi.yml
 - filename: amazon-signer-signing-profiles-api-openapi.yml
   format: yaml
   label: Amazon Signer Signing Profiles API
   slug: amazon-signer-signing-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-signing-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-signer/openapi/amazon-signer-signing-profiles-api-openapi.yml
 - filename: amazon-signer-tags-api-openapi.yml
   format: yaml
   label: Amazon Signer Tags API
   slug: amazon-signer-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-signer/openapi/amazon-signer-tags-api-openapi.yml
 - filename: amazon-signer-revocations-api-openapi.yml
   format: yaml
   label: Amazon Signer Revocations API
   slug: amazon-signer-revocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-revocations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-signer/openapi/amazon-signer-revocations-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 2
@@ -80,9 +80,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /signing-profiles/{profileName}/permissions/{statementId}#revisionId\n  method: delete\n  operationId: RemoveProfilePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /signing-jobs/{jobId}/revoke\n  method: put\n  operationId: RevokeSignature\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /signing-profiles/{profileName}/revoke\n  method: put\n  operationId: RevokeSigningProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /signing-jobs/with-payload\n  method: post\n  operationId: SignPayload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/agentic-access/amazon-signer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-signer/agentic-access/amazon-signer-agentic-access.yml
 summary_line: 19 operations · 10 acting · 2 human-in-the-loop
 tags:
+- Amazon Web Services
 - Code Signing
 - IoT
 - Lambda

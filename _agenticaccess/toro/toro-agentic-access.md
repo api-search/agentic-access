@@ -9,67 +9,67 @@ api_specs:
   label: Toro Crews API
   slug: toro-crews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-crews-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-crews-api-openapi.yml
 - filename: toro-customers-api-openapi.yml
   format: yaml
   label: Toro Customers API
   slug: toro-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-customers-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-customers-api-openapi.yml
 - filename: toro-equipment-api-openapi.yml
   format: yaml
   label: Toro Equipment API
   slug: toro-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-equipment-api-openapi.yml
 - filename: toro-invoices-api-openapi.yml
   format: yaml
   label: Toro Invoices API
   slug: toro-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-invoices-api-openapi.yml
 - filename: toro-irrigation-api-openapi.yml
   format: yaml
   label: Toro Irrigation API
   slug: toro-irrigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-irrigation-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-irrigation-api-openapi.yml
 - filename: toro-jobs-api-openapi.yml
   format: yaml
   label: Toro Jobs API
   slug: toro-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-jobs-api-openapi.yml
 - filename: toro-payments-api-openapi.yml
   format: yaml
   label: Toro Payments API
   slug: toro-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-payments-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-payments-api-openapi.yml
 - filename: toro-reports-api-openapi.yml
   format: yaml
   label: Toro Reports API
   slug: toro-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-reports-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-reports-api-openapi.yml
 - filename: toro-schedules-api-openapi.yml
   format: yaml
   label: Toro Schedules API
   slug: toro-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-schedules-api-openapi.yml
 - filename: toro-sensors-api-openapi.yml
   format: yaml
   label: Toro Sensors API
   slug: toro-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-sensors-api-openapi.yml
 - filename: toro-zones-api-openapi.yml
   format: yaml
   label: Toro Zones API
   slug: toro-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/openapi/toro-zones-api-openapi.yml
+  url: https://artifacts.apis.io/toro/openapi/toro-zones-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 21
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toro-h
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /irrigation/zones\n  method: get\n  operationId: listIrrigationZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /irrigation/zones/{zoneId}\n  method: get\n  operationId: getIrrigationZone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /irrigation/zones/{zoneId}/start\n  method: post\n  operationId: startIrrigation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /irrigation/zones/{zoneId}/stop\n  method: post\n\
   \  operationId: stopIrrigation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /equipment\n  method: get\n  operationId: listFleetEquipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /equipment/{equipmentId}\n  method: get\n  operationId: getFleetEquipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /equipment/{equipmentId}/location\n  method: get\n  operationId: getEquipmentLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /sensors\n  method: get\n  operationId: listSensors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sensors/{sensorId}/readings\n  method: get\n  operationId: getSensorReadings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/water-usage\n  method: get\n  operationId: getWaterUsageReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/equipment-health\n  method: get\n  operationId: getEquipmentHealthReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toro/refs/heads/main/agentic-access/toro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/toro/agentic-access/toro-agentic-access.yml
 summary_line: 34 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Landscaping

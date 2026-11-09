@@ -9,67 +9,67 @@ api_specs:
   label: evcc (self-hosted) Auth API
   slug: evcc-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-auth-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-auth-api-openapi.yml
 - filename: evcc-battery-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) Battery API
   slug: evcc-battery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-battery-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-battery-api-openapi.yml
 - filename: evcc-db-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) Db API
   slug: evcc-db-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-db-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-db-api-openapi.yml
 - filename: evcc-experimental-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) Experimental API
   slug: evcc-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-experimental-api-openapi.yml
 - filename: evcc-general-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) General API
   slug: evcc-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-general-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-general-api-openapi.yml
 - filename: evcc-loadpoints-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) Loadpoints API
   slug: evcc-loadpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-loadpoints-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-loadpoints-api-openapi.yml
 - filename: evcc-sessions-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) Sessions API
   slug: evcc-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-sessions-api-openapi.yml
 - filename: evcc-state-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) State API
   slug: evcc-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-state-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-state-api-openapi.yml
 - filename: evcc-system-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) System API
   slug: evcc-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-system-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-system-api-openapi.yml
 - filename: evcc-tariffs-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) Tariffs API
   slug: evcc-tariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-tariffs-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-tariffs-api-openapi.yml
 - filename: evcc-vehicles-api-openapi.yml
   format: yaml
   label: evcc (self-hosted) Vehicles API
   slug: evcc-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/openapi/evcc-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/evcc/openapi/evcc-vehicles-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 16
@@ -222,12 +222,13 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/evcc-o
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /db/backup\n  method: get\n  operationId: downloadBackup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /db/restore\n  method: post\n  operationId: restoreBackup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /db/reset\n  method: post\n  operationId: resetDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n\
   \      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /db/metrics/energy\n  method: delete\n  operationId: deleteEnergyMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /db/metrics/tariffs\n  method: delete\n  operationId: deleteTariffMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /history/energy\n  method: get\n  operationId: getEnergyHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /history/flow\n  method: get\n  operationId: getEnergyFlow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /history/tariffs\n  method: get\n  operationId: getTariffHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evcc/refs/heads/main/agentic-access/evcc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/evcc/agentic-access/evcc-agentic-access.yml
 summary_line: 88 operations · 72 acting · 10 human-in-the-loop
 tags:
-- Energy
-- SmartCharging
-- OpenSource
-- HomeAutomation
-- EV
+- Company
+- Electric Vehicles
+- Smart Charging
+- Open Source
+- Energy Management
+- Home Automation
 ---

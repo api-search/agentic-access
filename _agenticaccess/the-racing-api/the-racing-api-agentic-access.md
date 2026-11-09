@@ -8,85 +8,85 @@ api_specs:
   label: The Racing API Australia API
   slug: the-racing-api-australia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-australia-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-australia-api-openapi.yml
 - filename: the-racing-api-courses-api-openapi.yml
   format: yaml
   label: The Racing API Courses API
   slug: the-racing-api-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-courses-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-courses-api-openapi.yml
 - filename: the-racing-api-dams-api-openapi.yml
   format: yaml
   label: The Racing API Dams API
   slug: the-racing-api-dams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-dams-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-dams-api-openapi.yml
 - filename: the-racing-api-damsires-api-openapi.yml
   format: yaml
   label: The Racing API Damsires API
   slug: the-racing-api-damsires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-damsires-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-damsires-api-openapi.yml
 - filename: the-racing-api-horses-api-openapi.yml
   format: yaml
   label: The Racing API Horses API
   slug: the-racing-api-horses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-horses-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-horses-api-openapi.yml
 - filename: the-racing-api-jockeys-api-openapi.yml
   format: yaml
   label: The Racing API Jockeys API
   slug: the-racing-api-jockeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-jockeys-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-jockeys-api-openapi.yml
 - filename: the-racing-api-north-america-api-openapi.yml
   format: yaml
   label: The Racing API North America API
   slug: the-racing-api-north-america-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-north-america-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-north-america-api-openapi.yml
 - filename: the-racing-api-odds-api-openapi.yml
   format: yaml
   label: The Racing API Odds API
   slug: the-racing-api-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-odds-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-odds-api-openapi.yml
 - filename: the-racing-api-owners-api-openapi.yml
   format: yaml
   label: The Racing API Owners API
   slug: the-racing-api-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-owners-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-owners-api-openapi.yml
 - filename: the-racing-api-pro-plan-api-openapi.yml
   format: yaml
   label: The Racing API Pro Plan API
   slug: the-racing-api-pro-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-pro-plan-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-pro-plan-api-openapi.yml
 - filename: the-racing-api-racecards-api-openapi.yml
   format: yaml
   label: The Racing API Racecards API
   slug: the-racing-api-racecards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-racecards-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-racecards-api-openapi.yml
 - filename: the-racing-api-results-api-openapi.yml
   format: yaml
   label: The Racing API Results API
   slug: the-racing-api-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-results-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-results-api-openapi.yml
 - filename: the-racing-api-sires-api-openapi.yml
   format: yaml
   label: The Racing API Sires API
   slug: the-racing-api-sires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-sires-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-sires-api-openapi.yml
 - filename: the-racing-api-trainers-api-openapi.yml
   format: yaml
   label: The Racing API Trainers API
   slug: the-racing-api-trainers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/openapi/the-racing-api-trainers-api-openapi.yml
+  url: https://artifacts.apis.io/the-racing-api/openapi/the-racing-api-trainers-api-openapi.yml
 consequence_counts:
   read: 58
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/the-ra
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sires/{sire_id}/analysis/classes\n  method: get\n  operationId: sire_progeny_class_analysis_v1_sires__sire_id__analysis_classes_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sires/{sire_id}/analysis/distances\n  method: get\n  operationId: sire_progeny_distance_analysis_v1_sires__sire_id__analysis_distances_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trainers/search\n  method: get\n  operationId: trainer_search_v1_trainers_search_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trainers/{trainer_id}/results\n  method: get\n  operationId: trainer_results_v1_trainers__trainer_id__results_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trainers/{trainer_id}/analysis/horse-age\n  method: get\n  operationId: trainer_horse_age_analysis_v1_trainers__trainer_id__analysis_horse_age_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trainers/{trainer_id}/analysis/courses\n  method: get\n  operationId: trainer_course_analysis_v1_trainers__trainer_id__analysis_courses_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trainers/{trainer_id}/analysis/distances\n  method: get\n  operationId: trainer_distance_analysis_v1_trainers__trainer_id__analysis_distances_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trainers/{trainer_id}/analysis/jockeys\n  method: get\n  operationId: trainer_jockey_analysis_v1_trainers__trainer_id__analysis_jockeys_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trainers/{trainer_id}/analysis/owners\n  method: get\n  operationId: trainer_owner_analysis_v1_trainers__trainer_id__analysis_owners_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/agentic-access/the-racing-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/the-racing-api/agentic-access/the-racing-api-agentic-access.yml
 summary_line: 58 operations
 tags:
 - Horse Racing

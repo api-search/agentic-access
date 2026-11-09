@@ -9,31 +9,31 @@ api_specs:
   label: LinkSquares Account API
   slug: linksquares-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-account-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-account-api-openapi.yml
 - filename: linksquares-agreements-api-openapi.yml
   format: yaml
   label: LinkSquares Agreements API
   slug: linksquares-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-agreements-api-openapi.yml
 - filename: linksquares-attachments-api-openapi.yml
   format: yaml
   label: LinkSquares Attachments API
   slug: linksquares-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-attachments-api-openapi.yml
 - filename: linksquares-finalize-api-openapi.yml
   format: yaml
   label: LinkSquares Finalize API
   slug: linksquares-finalize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-finalize-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-finalize-api-openapi.yml
 - filename: linksquares-metadata-and-smart-values-api-openapi.yml
   format: yaml
   label: LinkSquares Metadata and Smart Values API
   slug: linksquares-metadata-and-smart-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/openapi/linksquares-metadata-and-smart-values-api-openapi.yml
+  url: https://artifacts.apis.io/linksquares/openapi/linksquares-metadata-and-smart-values-api-openapi.yml
 consequence_counts:
   read: 12
   write: 6
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/linksq
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/analyze/v1/agreements/{agreement_id}/attachments\n  method: post\n  operationId: addAgreementAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/analyze/v2/agreements/{agreement_id}/attachments\n  method: get\n  operationId: listAgreementAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/analyze/v2/agreements/{agreement_id}/attachments/{attachment_id}/download\n  method: get\n  operationId: downloadAgreementAttachment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n- path: /api/analyze/v1/uploads/{upload_id}\n  method: get\n  operationId: getUpload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/finalize/v1/templates\n  method: get\n  operationId: listFinalizeTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/finalize/v1/tasks\n  method: get\n  operationId: listFinalizeTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/finalize/v1/tasks/{task_id}\n  method: get\n  operationId: getFinalizeTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/finalize/v1/tasks/{task_id}\n\
   \  method: patch\n  operationId: approveFinalizeTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/finalize/v1/agreements\n  method: post\n  operationId: createFinalizeAgreement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/agentic-access/linksquares-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/linksquares/agentic-access/linksquares-agentic-access.yml
 summary_line: 18 operations · 6 acting
 tags:
 - Contract Management

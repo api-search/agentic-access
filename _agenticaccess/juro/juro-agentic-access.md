@@ -9,31 +9,31 @@ api_specs:
   label: Juro Contracts API
   slug: juro-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-contracts-api-openapi.yml
 - filename: juro-health-api-openapi.yml
   format: yaml
   label: Juro Health API
   slug: juro-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-health-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-health-api-openapi.yml
 - filename: juro-signatures-api-openapi.yml
   format: yaml
   label: Juro Signatures API
   slug: juro-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-signatures-api-openapi.yml
 - filename: juro-templates-api-openapi.yml
   format: yaml
   label: Juro Templates API
   slug: juro-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-templates-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-templates-api-openapi.yml
 - filename: juro-webhooks-api-openapi.yml
   format: yaml
   label: Juro Webhooks API
   slug: juro-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/openapi/juro-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/juro/openapi/juro-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/juro-o
   \   audit: required\n- path: /contracts/{contract_id}/pdf/binary\n  method: get\n  operationId: getContractPdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{contract_id}/sign\n  method: post\n  operationId: signContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/signing-request/{signing_side_uid}\n  method: post\n  operationId: sendSigningRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n    \
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/signing-request/{signing_side_uid}/signatures/{signature_uid}\n  method: post\n  operationId: sendSigningRequestToSignatory\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/agentic-access/juro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/juro/agentic-access/juro-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - Contract Management

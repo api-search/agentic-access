@@ -9,175 +9,175 @@ api_specs:
   label: Bazaarvoice Answers API
   slug: bazaarvoice-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-answers-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-answers-api-openapi.yml
 - filename: bazaarvoice-clients-api-openapi.yml
   format: yaml
   label: Bazaarvoice Clients API
   slug: bazaarvoice-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-clients-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-clients-api-openapi.yml
 - filename: bazaarvoice-contributor-api-openapi.yml
   format: yaml
   label: Bazaarvoice Contributor API
   slug: bazaarvoice-contributor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-contributor-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-contributor-api-openapi.yml
 - filename: bazaarvoice-lookahead-api-openapi.yml
   format: yaml
   label: Bazaarvoice Lookahead API
   slug: bazaarvoice-lookahead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-lookahead-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-lookahead-api-openapi.yml
 - filename: bazaarvoice-questions-api-openapi.yml
   format: yaml
   label: Bazaarvoice Questions API
   slug: bazaarvoice-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-questions-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-questions-api-openapi.yml
 - filename: bazaarvoice-reviews-api-openapi.yml
   format: yaml
   label: Bazaarvoice Reviews API
   slug: bazaarvoice-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-reviews-api-openapi.yml
 - filename: bazaarvoice-authenticateuser-api-openapi.yml
   format: yaml
   label: Bazaarvoice Authenticateuser API
   slug: bazaarvoice-authenticateuser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-authenticateuser-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-authenticateuser-api-openapi.yml
 - filename: bazaarvoice-author-api-openapi.yml
   format: yaml
   label: Bazaarvoice Author API
   slug: bazaarvoice-author-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-author-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-author-api-openapi.yml
 - filename: bazaarvoice-client-response-api-openapi.yml
   format: yaml
   label: Bazaarvoice Client Response API
   slug: bazaarvoice-client-response-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-client-response-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-client-response-api-openapi.yml
 - filename: bazaarvoice-comments-api-openapi.yml
   format: yaml
   label: Bazaarvoice Comments API
   slug: bazaarvoice-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-comments-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-comments-api-openapi.yml
 - filename: bazaarvoice-default-api-openapi.yml
   format: yaml
   label: Bazaarvoice Default API
   slug: bazaarvoice-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-default-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-default-api-openapi.yml
 - filename: bazaarvoice-expressions-api-openapi.yml
   format: yaml
   label: Bazaarvoice Expressions API
   slug: bazaarvoice-expressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-expressions-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-expressions-api-openapi.yml
 - filename: bazaarvoice-facebook-api-openapi.yml
   format: yaml
   label: Bazaarvoice Facebook API
   slug: bazaarvoice-facebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-facebook-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-facebook-api-openapi.yml
 - filename: bazaarvoice-features-api-openapi.yml
   format: yaml
   label: Bazaarvoice Features API
   slug: bazaarvoice-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-features-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-features-api-openapi.yml
 - filename: bazaarvoice-feedback-api-openapi.yml
   format: yaml
   label: Bazaarvoice Feedback API
   slug: bazaarvoice-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-feedback-api-openapi.yml
 - filename: bazaarvoice-instagram-api-openapi.yml
   format: yaml
   label: Bazaarvoice Instagram API
   slug: bazaarvoice-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-instagram-api-openapi.yml
 - filename: bazaarvoice-media-api-openapi.yml
   format: yaml
   label: Bazaarvoice Media API
   slug: bazaarvoice-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-media-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-media-api-openapi.yml
 - filename: bazaarvoice-meta-api-openapi.yml
   format: yaml
   label: Bazaarvoice Meta API
   slug: bazaarvoice-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-meta-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-meta-api-openapi.yml
 - filename: bazaarvoice-notifications-client-subscriptions-api-openapi.yml
   format: yaml
   label: Bazaarvoice Notifications/{client}/subscriptions API
   slug: bazaarvoice-notifications-client-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-notifications-client-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-notifications-client-subscriptions-api-openapi.yml
 - filename: bazaarvoice-progressivesubmit-api-openapi.yml
   format: yaml
   label: Bazaarvoice Progressive Submit API
   slug: bazaarvoice-progressivesubmit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-progressivesubmit-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-progressivesubmit-api-openapi.yml
 - filename: bazaarvoice-quotes-api-openapi.yml
   format: yaml
   label: Bazaarvoice Quotes API
   slug: bazaarvoice-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-quotes-api-openapi.yml
 - filename: bazaarvoice-report-api-openapi.yml
   format: yaml
   label: Bazaarvoice Report API
   slug: bazaarvoice-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-report-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-report-api-openapi.yml
 - filename: bazaarvoice-review-api-openapi.yml
   format: yaml
   label: Bazaarvoice Review API
   slug: bazaarvoice-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-review-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-review-api-openapi.yml
 - filename: bazaarvoice-step-1-api-openapi.yml
   format: yaml
   label: Bazaarvoice Step 1 API
   slug: bazaarvoice-step-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-step-1-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-step-1-api-openapi.yml
 - filename: bazaarvoice-structured-data-api-openapi.yml
   format: yaml
   label: Bazaarvoice Structured Data API
   slug: bazaarvoice-structured-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-structured-data-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-structured-data-api-openapi.yml
 - filename: bazaarvoice-submitreview-api-openapi.yml
   format: yaml
   label: Bazaarvoice Submitreview API
   slug: bazaarvoice-submitreview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-submitreview-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-submitreview-api-openapi.yml
 - filename: bazaarvoice-transactions-api-openapi.yml
   format: yaml
   label: Bazaarvoice Transactions API
   slug: bazaarvoice-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-transactions-api-openapi.yml
 - filename: bazaarvoice-upload-api-openapi.yml
   format: yaml
   label: Bazaarvoice Upload API
   slug: bazaarvoice-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-upload-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-upload-api-openapi.yml
 - filename: bazaarvoice-uploadphoto-api-openapi.yml
   format: yaml
   label: Bazaarvoice Uploadphoto API
   slug: bazaarvoice-uploadphoto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/openapi/bazaarvoice-uploadphoto-api-openapi.yml
+  url: https://artifacts.apis.io/bazaarvoice/openapi/bazaarvoice-uploadphoto-api-openapi.yml
 consequence_counts:
   read: 53
   write: 26
@@ -228,7 +228,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bazaar
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer-transactions/bulk-transactions\n  method: post\n  operationId: ingestBulkTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer-transactions/transactions/{id}\n  method: patch\n  operationId: invalidateTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/upload/{dataSourceId}\n  method: post\n  operationId: postV1UploadByDataSourceId\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/upload/{dataSourceId}/submit\n  method: post\n  operationId: postV1UploadByDataSourceIdSubmit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/upload/{dataSourceId}/video-status/{videoId}\n  method: get\n  operationId: getV1UploadByDataSourceIdVideoStatusByVideoId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/uploadphoto.json\n  method: post\n  operationId: UploadPhoto\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/agentic-access/bazaarvoice-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bazaarvoice/agentic-access/bazaarvoice-agentic-access.yml
 summary_line: 79 operations · 26 acting
 tags:
 - BazaarVoice

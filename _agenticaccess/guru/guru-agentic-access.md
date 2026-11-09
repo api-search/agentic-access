@@ -9,103 +9,109 @@ api_specs:
   label: Guru Analytics API
   slug: guru-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-analytics-api-openapi.yml
 - filename: guru-announcements-api-openapi.yml
   format: yaml
   label: Guru Announcements API
   slug: guru-announcements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-announcements-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-announcements-api-openapi.yml
 - filename: guru-answers-api-openapi.yml
   format: yaml
   label: Guru Answers API
   slug: guru-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-answers-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-answers-api-openapi.yml
 - filename: guru-cardcomments-api-openapi.yml
   format: yaml
   label: Guru CardComments API
   slug: guru-cardcomments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-cardcomments-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-cardcomments-api-openapi.yml
 - filename: guru-cards-api-openapi.yml
   format: yaml
   label: Guru Cards API
   slug: guru-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-cards-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-cards-api-openapi.yml
 - filename: guru-cardverifiers-api-openapi.yml
   format: yaml
   label: Guru CardVerifiers API
   slug: guru-cardverifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-cardverifiers-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-cardverifiers-api-openapi.yml
 - filename: guru-collections-api-openapi.yml
   format: yaml
   label: Guru Collections API
   slug: guru-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-collections-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-collections-api-openapi.yml
 - filename: guru-folders-api-openapi.yml
   format: yaml
   label: Guru Folders API
   slug: guru-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-folders-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-folders-api-openapi.yml
 - filename: guru-groups-api-openapi.yml
   format: yaml
   label: Guru Groups API
   slug: guru-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-groups-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-groups-api-openapi.yml
 - filename: guru-members-api-openapi.yml
   format: yaml
   label: Guru Members API
   slug: guru-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-members-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-members-api-openapi.yml
 - filename: guru-people-api-openapi.yml
   format: yaml
   label: Guru People API
   slug: guru-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-people-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-people-api-openapi.yml
 - filename: guru-search-api-openapi.yml
   format: yaml
   label: Guru Search API
   slug: guru-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-search-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-search-api-openapi.yml
 - filename: guru-tags-api-openapi.yml
   format: yaml
   label: Guru Tags API
   slug: guru-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-tags-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-tags-api-openapi.yml
 - filename: guru-tasks-api-openapi.yml
   format: yaml
   label: Guru Tasks API
   slug: guru-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-tasks-api-openapi.yml
 - filename: guru-templates-api-openapi.yml
   format: yaml
   label: Guru Templates API
   slug: guru-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-templates-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-templates-api-openapi.yml
 - filename: guru-ticketlinking-api-openapi.yml
   format: yaml
   label: Guru TicketLinking API
   slug: guru-ticketlinking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-ticketlinking-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-ticketlinking-api-openapi.yml
 - filename: guru-user-api-openapi.yml
   format: yaml
   label: Guru User API
   slug: guru-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/openapi/guru-user-api-openapi.yml
+  url: https://artifacts.apis.io/guru/openapi/guru-user-api-openapi.yml
+- filename: guru-drafts-api-openapi.yml
+  format: yaml
+  label: Guru Drafts API
+  slug: guru-drafts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/guru/openapi/guru-drafts-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 43
@@ -169,7 +175,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/guru-a
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/delete\n  method: delete\n  operationId: deleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kcs/create\n  method: post\n  operationId: createTicketLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kcs\n  method: get\n  operationId: listTicketLinks\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kcs\n  method: delete\n  operationId: deleteTicketLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kcs/apps\n  method: get\n  operationId: listTicketApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kcs/add-app\n  method: put\n  operationId: addTicketApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /kcs/delete-app\n  method: delete\n  operationId: deleteTicketApp\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /whoami\n  method: get\n  operationId: whoami\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/agentic-access/guru-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/guru/agentic-access/guru-agentic-access.yml
 summary_line: 77 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Knowledge Management

@@ -9,61 +9,61 @@ api_specs:
   label: Sponge Agents API
   slug: sponge-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-agents-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-agents-api-openapi.yml
 - filename: sponge-cards-api-openapi.yml
   format: yaml
   label: Sponge Cards API
   slug: sponge-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-cards-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-cards-api-openapi.yml
 - filename: sponge-fiat-api-openapi.yml
   format: yaml
   label: Sponge Fiat API
   slug: sponge-fiat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-fiat-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-fiat-api-openapi.yml
 - filename: sponge-mpp-api-openapi.yml
   format: yaml
   label: Sponge MPP API
   slug: sponge-mpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-mpp-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-mpp-api-openapi.yml
 - filename: sponge-payments-api-openapi.yml
   format: yaml
   label: Sponge Payments API
   slug: sponge-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-payments-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-payments-api-openapi.yml
 - filename: sponge-secrets-api-openapi.yml
   format: yaml
   label: Sponge Secrets API
   slug: sponge-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-secrets-api-openapi.yml
 - filename: sponge-sponge-card-api-openapi.yml
   format: yaml
   label: Sponge Card API
   slug: sponge-sponge-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-sponge-card-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-sponge-card-api-openapi.yml
 - filename: sponge-trading-api-openapi.yml
   format: yaml
   label: Sponge Trading API
   slug: sponge-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-trading-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-trading-api-openapi.yml
 - filename: sponge-transfers-api-openapi.yml
   format: yaml
   label: Sponge Transfers API
   slug: sponge-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-transfers-api-openapi.yml
 - filename: sponge-wallet-api-openapi.yml
   format: yaml
   label: Sponge Wallet API
   slug: sponge-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-wallet-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 26
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sponge
   \ 3600\n    audit: none\n- path: /api/solana/tokens/search\n  method: get\n  operationId: getApiSolanaTokensSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/transactions/history\n  method: get\n  operationId: getApiTransactionsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/transactions/status/{txHash}\n  method: get\n  operationId: getApiTransactionsStatusByTxHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/transactions/swap\n  method: post\n  operationId: postApiTransactionsSwap\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/transactions/base-swap\n  method: post\n  operationId: postApiTransactionsBase-swap\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/transactions/bridge\n  method: post\n  operationId: postApiTransactionsBridge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/balances\n  method: get\n  operationId: getApiBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/wallets/\n  method: get\n  operationId: getApiWallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/wallets/{id}\n  method: get\n  operationId: getApiWalletsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/wallets/{id}/balance\n  method: get\n  operationId: getApiWalletsByIdBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/agentic-access/sponge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sponge/agentic-access/sponge-agentic-access.yml
 summary_line: 57 operations · 31 acting
 tags:
 - Company

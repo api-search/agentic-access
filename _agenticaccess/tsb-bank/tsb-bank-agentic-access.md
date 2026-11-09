@@ -9,55 +9,55 @@ api_specs:
   label: TSB Bank ATM API
   slug: tsb-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-atm-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-atm-api-openapi.yml
 - filename: tsb-bank-authorization-server-apis-api-openapi.yml
   format: yaml
   label: TSB Bank Authorization Server APIs API
   slug: tsb-bank-authorization-server-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-authorization-server-apis-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-authorization-server-apis-api-openapi.yml
 - filename: tsb-bank-bca-api-openapi.yml
   format: yaml
   label: TSB Bank BCA API
   slug: tsb-bank-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-bca-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-bca-api-openapi.yml
 - filename: tsb-bank-branch-api-openapi.yml
   format: yaml
   label: TSB Bank Branch API
   slug: tsb-bank-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-branch-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-branch-api-openapi.yml
 - filename: tsb-bank-ccc-api-openapi.yml
   format: yaml
   label: TSB Bank CCC API
   slug: tsb-bank-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-ccc-api-openapi.yml
 - filename: tsb-bank-pca-api-openapi.yml
   format: yaml
   label: TSB Bank PCA API
   slug: tsb-bank-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-pca-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-pca-api-openapi.yml
 - filename: tsb-bank-resource-server-apis-api-openapi.yml
   format: yaml
   label: TSB Bank Resource Server APIs API
   slug: tsb-bank-resource-server-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-resource-server-apis-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-resource-server-apis-api-openapi.yml
 - filename: tsb-bank-sme-api-openapi.yml
   format: yaml
   label: TSB Bank SME API
   slug: tsb-bank-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-sme-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-sme-api-openapi.yml
 - filename: tsb-bank-token-server-apis-api-openapi.yml
   format: yaml
   label: TSB Bank Token Server APIs API
   slug: tsb-bank-token-server-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-token-server-apis-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-token-server-apis-api-openapi.yml
 consequence_counts:
   read: 25
   safety-critical: 1
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-o
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /.well-known/openid-configuration\n  method: options\n  operationId: Options_getOpenIDDiscovery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/openid-configuration\n  method: get\n  operationId: Get_OpenIDDiscovery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openid/connect/register\n  method: options\n  operationId: Options_oidc_register\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openid/connect/register\n  method: post\n  operationId: Post_oidc_register\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openid/connect/register/{client_id}\n  method: options\n  operationId: Options_oidc_register_config\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openid/connect/register/{client_id}\n  method: get\n  operationId: Get_oidc_register_config\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openid/connect/jwks.json\n  method: options\n  operationId: Options_jwk_set_\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openid/connect/jwks.json\n\
   \  method: get\n  operationId: Get_jwk_set_\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/agentic-access/tsb-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tsb-bank/agentic-access/tsb-bank-agentic-access.yml
 summary_line: 31 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Financial Services

@@ -8,37 +8,37 @@ api_specs:
   label: OpenWallet Foundation Basicmessages API
   slug: openwallet-foundation-basicmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-basicmessages-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-basicmessages-api-openapi.yml
 - filename: openwallet-foundation-connections-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Connections API
   slug: openwallet-foundation-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-connections-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-connections-api-openapi.yml
 - filename: openwallet-foundation-forward-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Forward API
   slug: openwallet-foundation-forward-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-forward-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-forward-api-openapi.yml
 - filename: openwallet-foundation-issue-credential-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Issue Credential API
   slug: openwallet-foundation-issue-credential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-issue-credential-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-issue-credential-api-openapi.yml
 - filename: openwallet-foundation-present-proof-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Present Proof API
   slug: openwallet-foundation-present-proof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-present-proof-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-present-proof-api-openapi.yml
 - filename: openwallet-foundation-ws-api-openapi.yml
   format: yaml
   label: OpenWallet Foundation Ws API
   slug: openwallet-foundation-ws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/openapi/openwallet-foundation-ws-api-openapi.yml
+  url: https://artifacts.apis.io/openwallet-foundation/openapi/openwallet-foundation-ws-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openwallet-foundation-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /connections\n  method: get\n  operationId: listConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basicmessages\n  method: get\n  operationId: listBasicMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issue_credential\n  method: get\n  operationId:\
   \ listCredentialExchanges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /present_proof\n  method: get\n  operationId: listPresentationExchanges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forward\n  method: get\n  operationId: listForwardMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws\n  method: get\n  operationId: webhookWebSocket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/agentic-access/openwallet-foundation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openwallet-foundation/agentic-access/openwallet-foundation-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Credentials

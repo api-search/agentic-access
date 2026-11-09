@@ -9,7 +9,7 @@ api_specs:
   label: Import.io Schedule.import.io API
   slug: import-io-schedule-import-io-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-schedule-import-io-api-openapi.yml
+  url: https://artifacts.apis.io/import-io/openapi/import-io-schedule-import-io-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/import
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crawlruns/{crawlrunId}\n  method: get\n  operationId: getCrawlrun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crawlruns/{crawlrunId}/{fileType}\n  method: get\n  operationId: getCrawlrunFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{reportId}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /reports/{reportId}\n  method: delete\n  operationId: deleteReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/{reportId}/start\n  method: post\n  operationId: startReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/{reportId}/reportruns\n  method: get\n  operationId: listReportRunsForReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reportruns/\n  method:\
   \ get\n  operationId: listReportRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reportruns/{reportRunId}\n  method: get\n  operationId: getReportRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reportruns/{reportRunId}/{fileType}\n  method: get\n  operationId: getReportRunFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/agentic-access/import-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/import-io/agentic-access/import-io-agentic-access.yml
 summary_line: 22 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Data Aggregation

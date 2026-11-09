@@ -9,103 +9,103 @@ api_specs:
   label: TeamCity Agent Pools API
   slug: teamcity-agent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-agent-pools-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-agent-pools-api-openapi.yml
 - filename: teamcity-agents-api-openapi.yml
   format: yaml
   label: TeamCity Agents API
   slug: teamcity-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-agents-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-agents-api-openapi.yml
 - filename: teamcity-audit-api-openapi.yml
   format: yaml
   label: TeamCity Audit API
   slug: teamcity-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-audit-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-audit-api-openapi.yml
 - filename: teamcity-build-configurations-api-openapi.yml
   format: yaml
   label: TeamCity Build Configurations API
   slug: teamcity-build-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-build-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-build-configurations-api-openapi.yml
 - filename: teamcity-build-queue-api-openapi.yml
   format: yaml
   label: TeamCity Build Queue API
   slug: teamcity-build-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-build-queue-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-build-queue-api-openapi.yml
 - filename: teamcity-builds-api-openapi.yml
   format: yaml
   label: TeamCity Builds API
   slug: teamcity-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-builds-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-builds-api-openapi.yml
 - filename: teamcity-changes-api-openapi.yml
   format: yaml
   label: TeamCity Changes API
   slug: teamcity-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-changes-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-changes-api-openapi.yml
 - filename: teamcity-cloud-api-openapi.yml
   format: yaml
   label: TeamCity Cloud API
   slug: teamcity-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-cloud-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-cloud-api-openapi.yml
 - filename: teamcity-investigations-api-openapi.yml
   format: yaml
   label: TeamCity Investigations API
   slug: teamcity-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-investigations-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-investigations-api-openapi.yml
 - filename: teamcity-mutes-api-openapi.yml
   format: yaml
   label: TeamCity Mutes API
   slug: teamcity-mutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-mutes-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-mutes-api-openapi.yml
 - filename: teamcity-problems-api-openapi.yml
   format: yaml
   label: TeamCity Problems API
   slug: teamcity-problems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-problems-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-problems-api-openapi.yml
 - filename: teamcity-projects-api-openapi.yml
   format: yaml
   label: TeamCity Projects API
   slug: teamcity-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-projects-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-projects-api-openapi.yml
 - filename: teamcity-server-api-openapi.yml
   format: yaml
   label: TeamCity Server API
   slug: teamcity-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-server-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-server-api-openapi.yml
 - filename: teamcity-tests-api-openapi.yml
   format: yaml
   label: TeamCity Tests API
   slug: teamcity-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-tests-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-tests-api-openapi.yml
 - filename: teamcity-user-groups-api-openapi.yml
   format: yaml
   label: TeamCity User Groups API
   slug: teamcity-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-user-groups-api-openapi.yml
 - filename: teamcity-users-api-openapi.yml
   format: yaml
   label: TeamCity Users API
   slug: teamcity-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-users-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-users-api-openapi.yml
 - filename: teamcity-vcs-roots-api-openapi.yml
   format: yaml
   label: TeamCity VCS Roots API
   slug: teamcity-vcs-roots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-vcs-roots-api-openapi.yml
+  url: https://artifacts.apis.io/teamcity/openapi/teamcity-vcs-roots-api-openapi.yml
 consequence_counts:
   read: 39
   write: 16
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/teamci
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /userGroups\n  method: get\n  operationId: getAllUserGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userGroups\n  method: post\n  operationId: createUserGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /investigations\n  method: get\n  operationId: getAllInvestigations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mutes\n  method: get\n  operationId:\
   \ getAllMutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mutes\n  method: post\n  operationId: createMute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /problemOccurrences\n  method: get\n  operationId: getAllProblemOccurrences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /server\n  method: get\n  operationId: getServerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /server/plugins\n  method: get\n  operationId: getServerPlugins\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloud/profiles\n  method: get\n  operationId: getAllCloudProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloud/instances\n  method: get\n  operationId: getAllCloudInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit\n  method: get\n  operationId: getAuditEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/agentic-access/teamcity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teamcity/agentic-access/teamcity-agentic-access.yml
 summary_line: 55 operations · 16 acting
 tags:
 - Build Automation

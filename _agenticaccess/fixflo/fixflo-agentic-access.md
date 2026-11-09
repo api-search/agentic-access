@@ -9,145 +9,145 @@ api_specs:
   label: Fixflo Agency API
   slug: fixflo-agency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-agency-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-agency-api-openapi.yml
 - filename: fixflo-agent-api-openapi.yml
   format: yaml
   label: Fixflo Agent API
   slug: fixflo-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-agent-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-agent-api-openapi.yml
 - filename: fixflo-asset-api-openapi.yml
   format: yaml
   label: Fixflo Asset API
   slug: fixflo-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-asset-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-asset-api-openapi.yml
 - filename: fixflo-block-api-openapi.yml
   format: yaml
   label: Fixflo Block API
   slug: fixflo-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-block-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-block-api-openapi.yml
 - filename: fixflo-brand-api-openapi.yml
   format: yaml
   label: Fixflo Brand API
   slug: fixflo-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-brand-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-brand-api-openapi.yml
 - filename: fixflo-contractor-api-openapi.yml
   format: yaml
   label: Fixflo Contractor API
   slug: fixflo-contractor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-contractor-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-contractor-api-openapi.yml
 - filename: fixflo-contractor-networks-api-openapi.yml
   format: yaml
   label: Fixflo Contractor networks API
   slug: fixflo-contractor-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-contractor-networks-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-contractor-networks-api-openapi.yml
 - filename: fixflo-cost-code-api-openapi.yml
   format: yaml
   label: Fixflo Cost code API
   slug: fixflo-cost-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-cost-code-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-cost-code-api-openapi.yml
 - filename: fixflo-estate-api-openapi.yml
   format: yaml
   label: Fixflo Estate API
   slug: fixflo-estate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-estate-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-estate-api-openapi.yml
 - filename: fixflo-faulttree-api-openapi.yml
   format: yaml
   label: Fixflo Fault Tree API
   slug: fixflo-faulttree-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-faulttree-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-faulttree-api-openapi.yml
 - filename: fixflo-issue-api-openapi.yml
   format: yaml
   label: Fixflo Issue API
   slug: fixflo-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-issue-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-issue-api-openapi.yml
 - filename: fixflo-issue-draft-api-openapi.yml
   format: yaml
   label: Fixflo Issue draft API
   slug: fixflo-issue-draft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-issue-draft-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-issue-draft-api-openapi.yml
 - filename: fixflo-job-api-openapi.yml
   format: yaml
   label: Fixflo Job API
   slug: fixflo-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-job-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-job-api-openapi.yml
 - filename: fixflo-landlord-api-openapi.yml
   format: yaml
   label: Fixflo Landlord API
   slug: fixflo-landlord-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-landlord-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-landlord-api-openapi.yml
 - filename: fixflo-leaseholder-api-openapi.yml
   format: yaml
   label: Fixflo Leaseholder API
   slug: fixflo-leaseholder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-leaseholder-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-leaseholder-api-openapi.yml
 - filename: fixflo-media-api-openapi.yml
   format: yaml
   label: Fixflo Media API
   slug: fixflo-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-media-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-media-api-openapi.yml
 - filename: fixflo-property-api-openapi.yml
   format: yaml
   label: Fixflo Property API
   slug: fixflo-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-property-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-property-api-openapi.yml
 - filename: fixflo-service-event-api-openapi.yml
   format: yaml
   label: Fixflo Service Event API
   slug: fixflo-service-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-service-event-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-service-event-api-openapi.yml
 - filename: fixflo-service-programme-api-openapi.yml
   format: yaml
   label: Fixflo Service Programme API
   slug: fixflo-service-programme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-service-programme-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-service-programme-api-openapi.yml
 - filename: fixflo-service-programme-definition-api-openapi.yml
   format: yaml
   label: Fixflo Service programme definition API
   slug: fixflo-service-programme-definition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-service-programme-definition-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-service-programme-definition-api-openapi.yml
 - filename: fixflo-team-api-openapi.yml
   format: yaml
   label: Fixflo Team API
   slug: fixflo-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-team-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-team-api-openapi.yml
 - filename: fixflo-tenant-api-openapi.yml
   format: yaml
   label: Fixflo Tenant API
   slug: fixflo-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-tenant-api-openapi.yml
 - filename: fixflo-warranty-api-openapi.yml
   format: yaml
   label: Fixflo Warranty API
   slug: fixflo-warranty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-warranty-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-warranty-api-openapi.yml
 - filename: fixflo-webhook-api-openapi.yml
   format: yaml
   label: Fixflo Webhook API
   slug: fixflo-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/openapi/fixflo-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/fixflo/openapi/fixflo-webhook-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 92
@@ -218,8 +218,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fixflo
   \  operationId: post-LeaseholderPropertyJoin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /LeaseholderPropertyJoin/Search\n  method: get\n  operationId: get-leaseholderpropertyjoin-search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Leaseholder/{id}/Brand\n  method: get\n  operationId: get-leaseholder-brand\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Leaseholder/{id}/Brand\n  method: post\n  operationId: post-Leaseholder-id-Brand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Leaseholder\n  method: get\n  operationId: get-leaseholder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Leaseholder\n  method: post\n  operationId: post-Leaseholder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Leaseholders\n  method: get\n  operationId: get-leaseholders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /LeaseholderProperty\n  method: get\n  operationId:\
   \ get-leaseholderproperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Leaseholder/{LeaseholderId}/LeaseholderProperties\n  method: get\n  operationId: get-leaseholder-leaseholderproperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /LeaseholderProperty/Delete\n  method: post\n  operationId: get-leaseholderproperty-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Medias/PropertyCertificate\n  method: get\n  operationId: get-Medias\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/agentic-access/fixflo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/agentic-access/fixflo-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/fixflo/agentic-access/fixflo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/fixflo/agentic-access/fixflo-agentic-access.yml
 summary_line: 168 operations · 76 acting
 tags:
 - Real Estate

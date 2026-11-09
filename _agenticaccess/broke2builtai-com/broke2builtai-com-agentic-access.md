@@ -9,67 +9,67 @@ api_specs:
   label: broke2built Buy Zero API
   slug: broke2builtai-com-buy-zero-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-buy-zero-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-buy-zero-api-openapi.yml
 - filename: broke2builtai-com-contract-audit-api-openapi.yml
   format: yaml
   label: broke2built Contract Audit API
   slug: broke2builtai-com-contract-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-contract-audit-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-contract-audit-api-openapi.yml
 - filename: broke2builtai-com-interface-xray-api-openapi.yml
   format: yaml
   label: broke2built Interface Xray API
   slug: broke2builtai-com-interface-xray-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-interface-xray-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-interface-xray-api-openapi.yml
 - filename: broke2builtai-com-payer-census-api-openapi.yml
   format: yaml
   label: broke2built Payer Census API
   slug: broke2builtai-com-payer-census-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-payer-census-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-payer-census-api-openapi.yml
 - filename: broke2builtai-com-payout-oracle-api-openapi.yml
   format: yaml
   label: broke2built Payout Oracle API
   slug: broke2builtai-com-payout-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-payout-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-payout-oracle-api-openapi.yml
 - filename: broke2builtai-com-resolver-allowlist-api-openapi.yml
   format: yaml
   label: broke2built Resolver Allowlist API
   slug: broke2builtai-com-resolver-allowlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-resolver-allowlist-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-resolver-allowlist-api-openapi.yml
 - filename: broke2builtai-com-source-verify-api-openapi.yml
   format: yaml
   label: broke2built Source Verify API
   slug: broke2builtai-com-source-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-source-verify-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-source-verify-api-openapi.yml
 - filename: broke2builtai-com-video-api-openapi.yml
   format: yaml
   label: broke2built Video API
   slug: broke2builtai-com-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-video-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-video-api-openapi.yml
 - filename: broke2builtai-com-vies-check-api-openapi.yml
   format: yaml
   label: broke2built Vies Check API
   slug: broke2builtai-com-vies-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-vies-check-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-vies-check-api-openapi.yml
 - filename: broke2builtai-com-wallet-brief-api-openapi.yml
   format: yaml
   label: broke2built Wallet Brief API
   slug: broke2builtai-com-wallet-brief-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-wallet-brief-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-wallet-brief-api-openapi.yml
 - filename: broke2builtai-com-watch-api-openapi.yml
   format: yaml
   label: broke2built Watch API
   slug: broke2builtai-com-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/openapi/broke2builtai-com-watch-api-openapi.yml
+  url: https://artifacts.apis.io/broke2builtai-com/openapi/broke2builtai-com-watch-api-openapi.yml
 consequence_counts:
   read: 11
   write: 2
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/broke2
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /watch\n  method: post\n  operationId: createWatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watch/{id}\n  method: get\n  operationId: getWatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /source-verify\n  method: get\n  operationId: sourceVerify\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vies-check\n  method: get\n  operationId: viesCheck\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resolver-allowlist\n  method: get\n  operationId: getResolverAllowlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/contract-audit\n  method: get\n  operationId: contract_audit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/wallet-brief\n  method: get\n  operationId: wallet_brief\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/payout-oracle\n  method: get\n  operationId: payout_oracle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/interface-xray\n\
   \  method: get\n  operationId: interface_xray\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/payer-census\n  method: get\n  operationId: payer_census\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/buy-zero\n  method: get\n  operationId: buy_zero\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/agentic-access/broke2builtai-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/broke2builtai-com/agentic-access/broke2builtai-com-agentic-access.yml
 summary_line: 13 operations · 2 acting
 tags:
 - Company

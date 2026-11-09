@@ -9,31 +9,31 @@ api_specs:
   label: Tropic Contracts API
   slug: tropic-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-contracts-api-openapi.yml
 - filename: tropic-requests-api-openapi.yml
   format: yaml
   label: Tropic Requests API
   slug: tropic-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-requests-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-requests-api-openapi.yml
 - filename: tropic-suppliers-api-openapi.yml
   format: yaml
   label: Tropic Suppliers API
   slug: tropic-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-suppliers-api-openapi.yml
 - filename: tropic-users-api-openapi.yml
   format: yaml
   label: Tropic Users API
   slug: tropic-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-users-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-users-api-openapi.yml
 - filename: tropic-webhooks-api-openapi.yml
   format: yaml
   label: Tropic Webhooks API
   slug: tropic-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/openapi/tropic-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tropic/openapi/tropic-webhooks-api-openapi.yml
 consequence_counts:
   read: 9
   write: 10
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tropic
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests\n  method: get\n  operationId: listRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /requests\n  method: post\n  operationId: createRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{id}\n  method: get\n  operationId: getRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /requests/{id}/approve\n  method: post\n  operationId: approveRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{id}/reject\n  method: post\n  operationId: rejectRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/agentic-access/tropic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tropic/agentic-access/tropic-agentic-access.yml
 summary_line: 19 operations · 10 acting
 tags:
 - Benchmarking

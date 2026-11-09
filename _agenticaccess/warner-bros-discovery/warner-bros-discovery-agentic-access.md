@@ -9,25 +9,25 @@ api_specs:
   label: Warner Bros. Discovery Assets API
   slug: warner-bros-discovery-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-assets-api-openapi.yml
+  url: https://artifacts.apis.io/warner-bros-discovery/openapi/warner-bros-discovery-assets-api-openapi.yml
 - filename: warner-bros-discovery-deliveries-api-openapi.yml
   format: yaml
   label: Warner Bros. Discovery Deliveries API
   slug: warner-bros-discovery-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/warner-bros-discovery/openapi/warner-bros-discovery-deliveries-api-openapi.yml
 - filename: warner-bros-discovery-metadata-api-openapi.yml
   format: yaml
   label: Warner Bros. Discovery Metadata API
   slug: warner-bros-discovery-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/warner-bros-discovery/openapi/warner-bros-discovery-metadata-api-openapi.yml
 - filename: warner-bros-discovery-status-api-openapi.yml
   format: yaml
   label: Warner Bros. Discovery Status API
   slug: warner-bros-discovery-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-status-api-openapi.yml
+  url: https://artifacts.apis.io/warner-bros-discovery/openapi/warner-bros-discovery-status-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/warner-bros-discovery-content-partner-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 4\n    acting: 3\n  by_consequence:\n    read: 4\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/deliveries\n  method: get\n  operationId: listDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - content:read\n- path: /v1/deliveries\n  method: post\n  operationId: createDelivery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - content:read\n- path: /v1/deliveries/{deliveryId}\n  method: get\n  operationId: getDelivery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - content:read\n- path: /v1/deliveries/{deliveryId}/status\n  method: get\n  operationId: getDeliveryStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - content:read\n- path: /v1/metadata\n  method: post\n  operationId: submitMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - content:read\n- path: /v1/metadata/validate\n  method: post\n  operationId: validateMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - content:read\n- path: /v1/assets\n  method: get\n  operationId: listAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - content:read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/agentic-access/warner-bros-discovery-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/warner-bros-discovery/agentic-access/warner-bros-discovery-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Entertainment

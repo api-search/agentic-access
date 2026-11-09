@@ -9,109 +9,109 @@ api_specs:
   label: Blizzard Entertainment Achievements API
   slug: blizzard-entertainment-achievements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-achievements-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-achievements-api-openapi.yml
 - filename: blizzard-entertainment-acts-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Acts API
   slug: blizzard-entertainment-acts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-acts-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-acts-api-openapi.yml
 - filename: blizzard-entertainment-artisans-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Artisans API
   slug: blizzard-entertainment-artisans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-artisans-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-artisans-api-openapi.yml
 - filename: blizzard-entertainment-auctions-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Auctions API
   slug: blizzard-entertainment-auctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-auctions-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-auctions-api-openapi.yml
 - filename: blizzard-entertainment-authorization-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Authorization API
   slug: blizzard-entertainment-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-authorization-api-openapi.yml
 - filename: blizzard-entertainment-card-backs-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Card Backs API
   slug: blizzard-entertainment-card-backs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-card-backs-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-card-backs-api-openapi.yml
 - filename: blizzard-entertainment-cards-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Cards API
   slug: blizzard-entertainment-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-cards-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-cards-api-openapi.yml
 - filename: blizzard-entertainment-characters-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Characters API
   slug: blizzard-entertainment-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-characters-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-characters-api-openapi.yml
 - filename: blizzard-entertainment-decks-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Decks API
   slug: blizzard-entertainment-decks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-decks-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-decks-api-openapi.yml
 - filename: blizzard-entertainment-guilds-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Guilds API
   slug: blizzard-entertainment-guilds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-guilds-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-guilds-api-openapi.yml
 - filename: blizzard-entertainment-items-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Items API
   slug: blizzard-entertainment-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-items-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-items-api-openapi.yml
 - filename: blizzard-entertainment-ladders-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Ladders API
   slug: blizzard-entertainment-ladders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-ladders-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-ladders-api-openapi.yml
 - filename: blizzard-entertainment-metadata-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Metadata API
   slug: blizzard-entertainment-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-metadata-api-openapi.yml
 - filename: blizzard-entertainment-mounts-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Mounts API
   slug: blizzard-entertainment-mounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-mounts-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-mounts-api-openapi.yml
 - filename: blizzard-entertainment-profiles-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Profiles API
   slug: blizzard-entertainment-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-profiles-api-openapi.yml
 - filename: blizzard-entertainment-realms-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Realms API
   slug: blizzard-entertainment-realms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-realms-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-realms-api-openapi.yml
 - filename: blizzard-entertainment-token-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Token API
   slug: blizzard-entertainment-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-token-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-token-api-openapi.yml
 - filename: blizzard-entertainment-user-info-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment User Info API
   slug: blizzard-entertainment-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/openapi/blizzard-entertainment-user-info-api-openapi.yml
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-user-info-api-openapi.yml
 consequence_counts:
   read: 24
   write: 2
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blizza
   \     - high-value\n    audit: required\n- path: /oauth/userinfo\n  method: get\n  operationId: getUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sc2/profile/{regionId}/{realmId}/{profileId}\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sc2/profile/{regionId}/{realmId}/{profileId}/ladders\n  method: get\n  operationId: getProfileLadders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sc2/ladder/grandmaster/{regionId}\n  method: get\n  operationId: getGrandmasterLeaderboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /sc2/ladder/season/{regionId}\n  method: get\n  operationId: getSeason\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/wow/realm/index\n  method: get\n  operationId: getRealmIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/wow/realm/{realmSlug}\n  method: get\n  operationId: getRealm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/wow/connected-realm/{connectedRealmId}/auctions\n  method: get\n  operationId: getAuctions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/wow/character/{realmSlug}/{characterName}\n  method: get\n \
   \ operationId: getCharacterProfileSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/wow/guild/{realmSlug}/{nameSlug}\n  method: get\n  operationId: getGuild\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/wow/achievement/index\n  method: get\n  operationId: getAchievementIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/wow/mount/index\n  method: get\n  operationId: getMountIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/agentic-access/blizzard-entertainment-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blizzard-entertainment/agentic-access/blizzard-entertainment-agentic-access.yml
 summary_line: 26 operations · 2 acting
 tags:
 - Games

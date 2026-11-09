@@ -9,55 +9,55 @@ api_specs:
   label: Chado Studio A2a API
   slug: llama-box-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-a2a-api-openapi.yml
 - filename: llama-box-access-log-api-openapi.yml
   format: yaml
   label: Chado Studio Access Log API
   slug: llama-box-access-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-access-log-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-access-log-api-openapi.yml
 - filename: llama-box-best-yield-api-openapi.yml
   format: yaml
   label: Chado Studio Best Yield API
   slug: llama-box-best-yield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-best-yield-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-best-yield-api-openapi.yml
 - filename: llama-box-health-api-openapi.yml
   format: yaml
   label: Chado Studio Health API
   slug: llama-box-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-health-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-health-api-openapi.yml
 - filename: llama-box-pools-api-openapi.yml
   format: yaml
   label: Chado Studio Pools API
   slug: llama-box-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-pools-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-pools-api-openapi.yml
 - filename: llama-box-pricing-api-openapi.yml
   format: yaml
   label: Chado Studio Pricing API
   slug: llama-box-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-pricing-api-openapi.yml
 - filename: llama-box-rebalance-api-openapi.yml
   format: yaml
   label: Chado Studio Rebalance API
   slug: llama-box-rebalance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-rebalance-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-rebalance-api-openapi.yml
 - filename: llama-box-risk-score-api-openapi.yml
   format: yaml
   label: Chado Studio Risk Score API
   slug: llama-box-risk-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-risk-score-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-risk-score-api-openapi.yml
 - filename: llama-box-well-known-api-openapi.yml
   format: yaml
   label: Chado Studio .well Known API
   slug: llama-box-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/openapi/llama-box-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/llama-box/openapi/llama-box-well-known-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/llama-
   \ /api/pools\n  method: get\n  operationId: list_pools_api_pools_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/best-yield\n  method: get\n  operationId: best_yield_api_best_yield_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/risk-score/{pool_id}\n  method: get\n  operationId: risk_score_api_risk_score__pool_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rebalance\n  method: post\n  operationId: simulate_rebalance_api_rebalance_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n    \
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /a2a\n  method: post\n  operationId: a2a_endpoint_a2a_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /a2a/stream\n  method: post\n  operationId: a2a_stream_endpoint_a2a_stream_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/pricing\n  method: get\n  operationId: pricing_api_pricing_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /.well-known/agent.json\n  method: get\n  operationId: agent_card__well_known_agent_json_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llama-box/refs/heads/main/agentic-access/llama-box-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/llama-box/agentic-access/llama-box-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Agents

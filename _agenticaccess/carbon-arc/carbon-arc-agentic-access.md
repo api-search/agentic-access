@@ -9,91 +9,91 @@ api_specs:
   label: Carbon Arc Block API
   slug: carbon-arc-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-block-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-block-api-openapi.yml
 - filename: carbon-arc-bucket-access-api-openapi.yml
   format: yaml
   label: Carbon Arc Bucket Access API
   slug: carbon-arc-bucket-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-bucket-access-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-bucket-access-api-openapi.yml
 - filename: carbon-arc-catalog-api-openapi.yml
   format: yaml
   label: Carbon Arc Catalog API
   slug: carbon-arc-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-catalog-api-openapi.yml
 - filename: carbon-arc-clients-api-openapi.yml
   format: yaml
   label: Carbon Arc Clients API
   slug: carbon-arc-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-clients-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-clients-api-openapi.yml
 - filename: carbon-arc-data-library-api-openapi.yml
   format: yaml
   label: Carbon Arc Data Library API
   slug: carbon-arc-data-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-data-library-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-data-library-api-openapi.yml
 - filename: carbon-arc-explore-use-cases-api-openapi.yml
   format: yaml
   label: Carbon Arc Explore Use Cases API
   slug: carbon-arc-explore-use-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-explore-use-cases-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-explore-use-cases-api-openapi.yml
 - filename: carbon-arc-framework-api-openapi.yml
   format: yaml
   label: Carbon Arc Framework API
   slug: carbon-arc-framework-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-framework-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-framework-api-openapi.yml
 - filename: carbon-arc-ontology-api-openapi.yml
   format: yaml
   label: Carbon Arc Ontology API
   slug: carbon-arc-ontology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-ontology-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-ontology-api-openapi.yml
 - filename: carbon-arc-ontology-internal-api-openapi.yml
   format: yaml
   label: Carbon Arc Ontology Internal API
   slug: carbon-arc-ontology-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-ontology-internal-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-ontology-internal-api-openapi.yml
 - filename: carbon-arc-polaris-api-openapi.yml
   format: yaml
   label: Carbon Arc Polaris API
   slug: carbon-arc-polaris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-polaris-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-polaris-api-openapi.yml
 - filename: carbon-arc-prisms-api-openapi.yml
   format: yaml
   label: Carbon Arc Prisms API
   slug: carbon-arc-prisms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-prisms-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-prisms-api-openapi.yml
 - filename: carbon-arc-public-api-openapi.yml
   format: yaml
   label: Carbon Arc Public API
   slug: carbon-arc-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-public-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-public-api-openapi.yml
 - filename: carbon-arc-research-api-openapi.yml
   format: yaml
   label: Carbon Arc Research API
   slug: carbon-arc-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-research-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-research-api-openapi.yml
 - filename: carbon-arc-tracking-api-openapi.yml
   format: yaml
   label: Carbon Arc Tracking API
   slug: carbon-arc-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-tracking-api-openapi.yml
 - filename: carbon-arc-transcripts-api-openapi.yml
   format: yaml
   label: Carbon Arc Transcripts API
   slug: carbon-arc-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/openapi/carbon-arc-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-arc/openapi/carbon-arc-transcripts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 65
@@ -184,7 +184,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/carbon
   \  method: post\n  operationId: assign_bulk_browse_v2_polaris_principals__principal_name__bulk_browse_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bucket-access/datasets/{dataset_id}/grant\n  method: post\n  operationId: grant_bucket_access_v2_bucket_access_datasets__dataset_id__grant_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bucket-access/datasets/{dataset_id}/revoke\n  method: post\n  operationId: revoke_bucket_access_v2_bucket_access_datasets__dataset_id__revoke_post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/bucket-access/datasets/{dataset_id}/verify\n  method: post\n  operationId: verify_bucket_access_v2_bucket_access_datasets__dataset_id__verify_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/ontology/internal/entities\n  method: get\n  operationId: search_entities_v2_ontology_internal_entities_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /v2/ontology/internal/all-insights\n  method: get\n  operationId: all_insights_v2_ontology_internal_all_insights_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/agentic-access/carbon-arc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/carbon-arc/agentic-access/carbon-arc-agentic-access.yml
 summary_line: 92 operations · 27 acting · 3 human-in-the-loop
 tags:
 - Artificial Intelligence

@@ -9,25 +9,25 @@ api_specs:
   label: Cesanta Data API
   slug: cesanta-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-data-api-openapi.yml
+  url: https://artifacts.apis.io/cesanta/openapi/cesanta-data-api-openapi.yml
 - filename: cesanta-devices-api-openapi.yml
   format: yaml
   label: Cesanta Devices API
   slug: cesanta-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-devices-api-openapi.yml
+  url: https://artifacts.apis.io/cesanta/openapi/cesanta-devices-api-openapi.yml
 - filename: cesanta-keys-api-openapi.yml
   format: yaml
   label: Cesanta Keys API
   slug: cesanta-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cesanta/openapi/cesanta-keys-api-openapi.yml
 - filename: cesanta-logs-api-openapi.yml
   format: yaml
   label: Cesanta Logs API
   slug: cesanta-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/openapi/cesanta-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cesanta/openapi/cesanta-logs-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cesant
   \  method: delete\n  operationId: deleteDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices/{id}/rpc/{func}\n  method: post\n  operationId: callDeviceRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices/{id}/ota\n  method: post\n  operationId: deviceOta\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /keys\n  method: get\n  operationId: listKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keys\n  method: post\n  operationId: createKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{id}\n  method: delete\n  operationId: deleteKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logs\n  method: post\n  operationId: getLogs\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/agentic-access/cesanta-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cesanta/agentic-access/cesanta-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Company

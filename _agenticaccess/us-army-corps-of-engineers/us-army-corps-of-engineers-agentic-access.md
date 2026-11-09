@@ -8,43 +8,43 @@ api_specs:
   label: US Army Corps of Engineers Catalog API
   slug: us-army-corps-of-engineers-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/us-army-corps-of-engineers/openapi/us-army-corps-of-engineers-catalog-api-openapi.yml
 - filename: us-army-corps-of-engineers-levels-api-openapi.yml
   format: yaml
   label: US Army Corps of Engineers Levels API
   slug: us-army-corps-of-engineers-levels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-levels-api-openapi.yml
+  url: https://artifacts.apis.io/us-army-corps-of-engineers/openapi/us-army-corps-of-engineers-levels-api-openapi.yml
 - filename: us-army-corps-of-engineers-locations-api-openapi.yml
   format: yaml
   label: US Army Corps of Engineers Locations API
   slug: us-army-corps-of-engineers-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-locations-api-openapi.yml
+  url: https://artifacts.apis.io/us-army-corps-of-engineers/openapi/us-army-corps-of-engineers-locations-api-openapi.yml
 - filename: us-army-corps-of-engineers-offices-api-openapi.yml
   format: yaml
   label: US Army Corps of Engineers Offices API
   slug: us-army-corps-of-engineers-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-offices-api-openapi.yml
+  url: https://artifacts.apis.io/us-army-corps-of-engineers/openapi/us-army-corps-of-engineers-offices-api-openapi.yml
 - filename: us-army-corps-of-engineers-ratings-api-openapi.yml
   format: yaml
   label: US Army Corps of Engineers Ratings API
   slug: us-army-corps-of-engineers-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/us-army-corps-of-engineers/openapi/us-army-corps-of-engineers-ratings-api-openapi.yml
 - filename: us-army-corps-of-engineers-reservoirs-api-openapi.yml
   format: yaml
   label: US Army Corps of Engineers Reservoirs API
   slug: us-army-corps-of-engineers-reservoirs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-reservoirs-api-openapi.yml
+  url: https://artifacts.apis.io/us-army-corps-of-engineers/openapi/us-army-corps-of-engineers-reservoirs-api-openapi.yml
 - filename: us-army-corps-of-engineers-time-series-api-openapi.yml
   format: yaml
   label: US Army Corps of Engineers Time Series API
   slug: us-army-corps-of-engineers-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/us-army-corps-of-engineers/openapi/us-army-corps-of-engineers-time-series-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/usace-cwms-data-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /timeseries\n  method: get\n  operationId: getTimeseries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timeseries/catalog\n  method: get\n  operationId: getTimeseriesCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: getLocations\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{location-id}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/{dataset}\n  method: get\n  operationId: getCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ratings\n  method: get\n  operationId: getRatings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /levels\n  method: get\n  operationId: getLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /offices\n  method: get\n  operationId: getOffices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservoirs\n  method: get\n  operationId: getReservoirs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/agentic-access/us-army-corps-of-engineers-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-army-corps-of-engineers/agentic-access/us-army-corps-of-engineers-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Water Resources

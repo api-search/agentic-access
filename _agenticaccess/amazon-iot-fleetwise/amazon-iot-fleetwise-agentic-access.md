@@ -9,7 +9,19 @@ api_specs:
   label: Amazon IoT FleetWise AWS IoT FleetWise API
   slug: amazon-iot-fleetwise-aws-iot-fleetwise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/openapi/amazon-iot-fleetwise-aws-iot-fleetwise-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-fleetwise/openapi/amazon-iot-fleetwise-aws-iot-fleetwise-api-openapi.yml
+- filename: amazon-iot-fleetwise-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT FleetWise Iot Fleetwise Operations API
+  slug: amazon-iot-fleetwise-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-fleetwise/openapi/amazon-iot-fleetwise-operations-api-openapi.yml
+- filename: amazon-iot-fleetwise-state-template-api-openapi.yml
+  format: yaml
+  label: Amazon IoT FleetWise Iot Fleetwise State Template API
+  slug: amazon-iot-fleetwise-state-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-fleetwise/openapi/amazon-iot-fleetwise-state-template-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 28
@@ -187,10 +199,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=IoTAutobahnControlPlane.UpdateDecoderManifest\n  method: post\n  operationId: UpdateDecoderManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=IoTAutobahnControlPlane.UpdateFleet\n  method: post\n  operationId: UpdateFleet\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=IoTAutobahnControlPlane.UpdateModelManifest\n  method: post\n  operationId:\
   \ UpdateModelManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=IoTAutobahnControlPlane.UpdateSignalCatalog\n  method: post\n  operationId: UpdateSignalCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=IoTAutobahnControlPlane.UpdateVehicle\n  method: post\n  operationId: UpdateVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/agentic-access/amazon-iot-fleetwise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iot-fleetwise/agentic-access/amazon-iot-fleetwise-agentic-access.yml
 summary_line: 50 operations · 28 acting · 28 human-in-the-loop
 tags:
 - Automotive
+- Amazon Web Services
 - Connected Vehicles
 - IoT
 - Telematics

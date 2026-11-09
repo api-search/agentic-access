@@ -9,67 +9,67 @@ api_specs:
   label: Tomorrow.io Historical Weather API
   slug: tomorrow-io-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-historical-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-historical-api-openapi.yml
 - filename: tomorrow-io-events-api-openapi.yml
   format: yaml
   label: Tomorrow.io Events API
   slug: tomorrow-io-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-events-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-events-api-openapi.yml
 - filename: tomorrow-io-route-api-openapi.yml
   format: yaml
   label: Tomorrow.io Weather on Routes API
   slug: tomorrow-io-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-route-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-route-api-openapi.yml
 - filename: tomorrow-io-locations-api-openapi.yml
   format: yaml
   label: Tomorrow.io Locations API
   slug: tomorrow-io-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-locations-api-openapi.yml
 - filename: tomorrow-io-alerts-api-openapi.yml
   format: yaml
   label: Tomorrow.io Alerts API
   slug: tomorrow-io-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-alerts-api-openapi.yml
 - filename: tomorrow-io-insights-api-openapi.yml
   format: yaml
   label: Tomorrow.io Insights API
   slug: tomorrow-io-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-insights-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-insights-api-openapi.yml
 - filename: tomorrow-io-forecast-api-openapi.yml
   format: yaml
   label: Tomorrow.io Forecast API
   slug: tomorrow-io-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-forecast-api-openapi.yml
 - filename: tomorrow-io-maps-api-openapi.yml
   format: yaml
   label: Tomorrow.io Maps API
   slug: tomorrow-io-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-maps-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-maps-api-openapi.yml
 - filename: tomorrow-io-realtime-api-openapi.yml
   format: yaml
   label: Tomorrow.io Realtime API
   slug: tomorrow-io-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-realtime-api-openapi.yml
 - filename: tomorrow-io-timelines-api-openapi.yml
   format: yaml
   label: Tomorrow.io Timelines API
   slug: tomorrow-io-timelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-timelines-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-timelines-api-openapi.yml
 - filename: tomorrow-io-climate-api-openapi.yml
   format: yaml
   label: Tomorrow.io Climate API
   slug: tomorrow-io-climate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-climate-api-openapi.yml
+  url: https://artifacts.apis.io/tomorrow-io/openapi/tomorrow-io-climate-api-openapi.yml
 consequence_counts:
   read: 17
   write: 15
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tomorr
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations/{locationId}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{locationId}\n  method: put\n  operationId: updateLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations/{locationId}\n  method: delete\n  operationId: deleteLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations/tags/add\n  method: post\n  operationId: addLocationTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations/tags/remove\n  method: post\n  operationId: removeLocationTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /map/tile/{zoom}/{x}/{y}/{field}/{timeFormat}\n  method: get\n  operationId: getMapTile\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weather/realtime\n  method: get\n  operationId: getRealtimeWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /route\n  method: post\n  operationId: postRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timelines\n  method: get\n  operationId: getTimelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timelines\n  method: post\n  operationId: postTimelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/agentic-access/tomorrow-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tomorrow-io/agentic-access/tomorrow-io-agentic-access.yml
 summary_line: 32 operations · 15 acting
 tags:
 - Weather

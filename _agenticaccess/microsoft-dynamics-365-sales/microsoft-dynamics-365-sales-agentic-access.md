@@ -9,61 +9,61 @@ api_specs:
   label: Microsoft Dynamics 365 Sales Accounts API
   slug: microsoft-dynamics-365-sales-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-accounts-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-batch-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales $batch API
   slug: microsoft-dynamics-365-sales-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-batch-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-batch-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-contacts-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Contacts API
   slug: microsoft-dynamics-365-sales-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-contacts-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-invoices-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Invoices API
   slug: microsoft-dynamics-365-sales-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-invoices-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-leads-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Leads API
   slug: microsoft-dynamics-365-sales-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-leads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-leads-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-opportunities-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Opportunities API
   slug: microsoft-dynamics-365-sales-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-opportunities-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-products-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Products API
   slug: microsoft-dynamics-365-sales-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-products-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-products-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-quotes-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Quotes API
   slug: microsoft-dynamics-365-sales-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-quotes-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-tasks-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Tasks API
   slug: microsoft-dynamics-365-sales-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-tasks-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Sales Orders API
   slug: microsoft-dynamics-365-sales-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-sales/openapi/microsoft-dynamics-365-sales-sales-orders-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /salesorders\n  method: get\n  operationId: salesorders_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /salesorders\n  method: post\n  operationId: salesorders_create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices\n  method: get\n  operationId: invoices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: post\n  operationId: invoices_create\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products\n  method: get\n  operationId: products_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: post\n  operationId: products_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks\n  method: get\n  operationId: tasks_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: post\n  operationId: tasks_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /$batch\n  method: post\n  operationId: batch_execute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/agentic-access/microsoft-dynamics-365-sales-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-dynamics-365-sales/agentic-access/microsoft-dynamics-365-sales-agentic-access.yml
 summary_line: 31 operations · 18 acting
 tags:
 - CRM

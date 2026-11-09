@@ -9,25 +9,25 @@ api_specs:
   label: Syndicate api-key-manager > admin API
   slug: syndicate-api-key-manager-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-api-key-manager-admin-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-api-key-manager-admin-api-openapi.yml
 - filename: syndicate-call-api-openapi.yml
   format: yaml
   label: Syndicate Call API
   slug: syndicate-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-call-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-call-api-openapi.yml
 - filename: syndicate-transact-api-openapi.yml
   format: yaml
   label: Syndicate Transact API
   slug: syndicate-transact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-transact-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-transact-api-openapi.yml
 - filename: syndicate-wallet-api-openapi.yml
   format: yaml
   label: Syndicate Wallet API
   slug: syndicate-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/openapi/syndicate-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/syndicate/openapi/syndicate-wallet-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/syndic
   \  operationId: get-personal-signature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/project/{projectId}/signatures\n  method: get\n  operationId: get-project-signatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/project/{projectId}/signature/{signatureId}\n  method: get\n  operationId: get-signature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/project/{projectId}/request/{transactionId}\n  method: get\n  operationId: get-transaction-request\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/project/{projectId}/requests\n  method:\
   \ get\n  operationId: get-transaction-requests-by-project\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/project/{projectId}/transactions\n  method: get\n  operationId: get-transactions-by-project\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transact/sendTransaction\n  method: post\n  operationId: send-transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transact/call\n  method: post\n  operationId: call\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/project/{projectId}/wallets\n  method: get\n  operationId: get-wallets-by-project\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/agentic-access/syndicate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/syndicate/agentic-access/syndicate-agentic-access.yml
 summary_line: 24 operations · 14 acting
 tags:
 - Blockchain

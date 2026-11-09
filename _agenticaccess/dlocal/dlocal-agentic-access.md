@@ -9,91 +9,91 @@ api_specs:
   label: dLocal Payouts API
   slug: dlocal-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-payouts-api-openapi.yml
 - filename: dlocal-accounts-api-openapi.yml
   format: yaml
   label: dLocal Accounts API
   slug: dlocal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-accounts-api-openapi.yml
 - filename: dlocal-balance-api-openapi.yml
   format: yaml
   label: dLocal Balance API
   slug: dlocal-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-balance-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-balance-api-openapi.yml
 - filename: dlocal-bank-accounts-api-openapi.yml
   format: yaml
   label: dLocal Bank Accounts API
   slug: dlocal-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-bank-accounts-api-openapi.yml
 - filename: dlocal-chargebacks-api-openapi.yml
   format: yaml
   label: dLocal Chargebacks API
   slug: dlocal-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-chargebacks-api-openapi.yml
 - filename: dlocal-currency-api-openapi.yml
   format: yaml
   label: dLocal Currency API
   slug: dlocal-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-currency-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-currency-api-openapi.yml
 - filename: dlocal-documents-api-openapi.yml
   format: yaml
   label: dLocal Documents API
   slug: dlocal-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-documents-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-documents-api-openapi.yml
 - filename: dlocal-kyc-api-openapi.yml
   format: yaml
   label: dLocal KYC API
   slug: dlocal-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-kyc-api-openapi.yml
 - filename: dlocal-payment-methods-api-openapi.yml
   format: yaml
   label: dLocal Payment Methods API
   slug: dlocal-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-payment-methods-api-openapi.yml
 - filename: dlocal-payments-api-openapi.yml
   format: yaml
   label: dLocal Payments API
   slug: dlocal-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-payments-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-payments-api-openapi.yml
 - filename: dlocal-payouts-api-openapi.yml
   format: yaml
   label: dLocal Payouts API
   slug: dlocal-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-payouts-api-openapi.yml
 - filename: dlocal-refunds-api-openapi.yml
   format: yaml
   label: dLocal Refunds API
   slug: dlocal-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-refunds-api-openapi.yml
 - filename: dlocal-tokens-api-openapi.yml
   format: yaml
   label: dLocal Tokens API
   slug: dlocal-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-tokens-api-openapi.yml
 - filename: dlocal-transfers-api-openapi.yml
   format: yaml
   label: dLocal Transfers API
   slug: dlocal-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-transfers-api-openapi.yml
 - filename: dlocal-verifications-api-openapi.yml
   format: yaml
   label: dLocal Verifications API
   slug: dlocal-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/openapi/dlocal-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/dlocal/openapi/dlocal-verifications-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 16
@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dlocal
   \ none\n- path: /transfers\n  method: post\n  operationId: createTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers/{transfer_id}\n  method: get\n  operationId: getTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verifications\n  method: post\n  operationId: createVerification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verifications/{verification_id}\n\
   \  method: get\n  operationId: getVerification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verifications/{verification_id}/documents\n  method: post\n  operationId: uploadVerificationDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verifications/{verification_id}/documents\n  method: get\n  operationId: listVerificationDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verifications/{verification_id}/status\n  method: put\n  operationId: updateVerificationStatus\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/agentic-access/dlocal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dlocal/agentic-access/dlocal-agentic-access.yml
 summary_line: 34 operations · 18 acting
 tags:
 - Payments

@@ -9,61 +9,61 @@ api_specs:
   label: Heidi Health Ask Heidi API
   slug: heidi-health-ask-heidi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-ask-heidi-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-ask-heidi-api-openapi.yml
 - filename: heidi-health-authentication-api-openapi.yml
   format: yaml
   label: Heidi Health Authentication API
   slug: heidi-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-authentication-api-openapi.yml
 - filename: heidi-health-clinical-coding-api-openapi.yml
   format: yaml
   label: Heidi Health Clinical Coding API
   slug: heidi-health-clinical-coding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-clinical-coding-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-clinical-coding-api-openapi.yml
 - filename: heidi-health-consult-notes-api-openapi.yml
   format: yaml
   label: Heidi Health Consult Notes API
   slug: heidi-health-consult-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-consult-notes-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-consult-notes-api-openapi.yml
 - filename: heidi-health-documents-api-openapi.yml
   format: yaml
   label: Heidi Health Documents API
   slug: heidi-health-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-documents-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-documents-api-openapi.yml
 - filename: heidi-health-patient-profiles-api-openapi.yml
   format: yaml
   label: Heidi Health Patient Profiles API
   slug: heidi-health-patient-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-patient-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-patient-profiles-api-openapi.yml
 - filename: heidi-health-session-context-api-openapi.yml
   format: yaml
   label: Heidi Health Session Context API
   slug: heidi-health-session-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-session-context-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-session-context-api-openapi.yml
 - filename: heidi-health-sessions-api-openapi.yml
   format: yaml
   label: Heidi Health Sessions API
   slug: heidi-health-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-sessions-api-openapi.yml
 - filename: heidi-health-templates-api-openapi.yml
   format: yaml
   label: Heidi Health Templates API
   slug: heidi-health-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-templates-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-templates-api-openapi.yml
 - filename: heidi-health-transcription-api-openapi.yml
   format: yaml
   label: Heidi Health Transcription API
   slug: heidi-health-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/openapi/heidi-health-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/heidi-health/openapi/heidi-health-transcription-api-openapi.yml
 consequence_counts:
   read: 11
   write: 13
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/heidi-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{session_id}/upload-audio\n  method: post\n  operationId: uploadSessionAudio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{session_id}/transcript\n  method: get\n  operationId: getSessionTranscript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}/transcript/live\n  method: get\n  operationId: getLiveSessionTranscript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}/consult-note\n\
   \  method: post\n  operationId: generateConsultNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{session_id}/client-customised-template/response\n  method: post\n  operationId: generateCustomTemplateConsultNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{session_id}/documents\n  method: post\n  operationId: generateDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{session_id}/documents\n  method: get\n  operationId: listSessionDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}/clinical-codes\n  method: get\n  operationId: getSessionClinicalCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}/ask-ai\n  method: post\n  operationId: askHeidi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/agentic-access/heidi-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/heidi-health/agentic-access/heidi-health-agentic-access.yml
 summary_line: 24 operations · 13 acting
 tags:
 - Healthcare

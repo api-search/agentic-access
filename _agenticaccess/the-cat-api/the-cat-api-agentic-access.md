@@ -9,31 +9,31 @@ api_specs:
   label: The Cat API Breeds API
   slug: the-cat-api-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-breeds-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-breeds-api-openapi.yml
 - filename: the-cat-api-categories-api-openapi.yml
   format: yaml
   label: The Cat API Categories API
   slug: the-cat-api-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-categories-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-categories-api-openapi.yml
 - filename: the-cat-api-favourites-api-openapi.yml
   format: yaml
   label: The Cat API Favourites API
   slug: the-cat-api-favourites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-favourites-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-favourites-api-openapi.yml
 - filename: the-cat-api-images-api-openapi.yml
   format: yaml
   label: The Cat API Images API
   slug: the-cat-api-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-images-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-images-api-openapi.yml
 - filename: the-cat-api-votes-api-openapi.yml
   format: yaml
   label: The Cat API Votes API
   slug: the-cat-api-votes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/openapi/the-cat-api-votes-api-openapi.yml
+  url: https://artifacts.apis.io/the-cat-api/openapi/the-cat-api-votes-api-openapi.yml
 consequence_counts:
   read: 11
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/the-ca
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breeds/search\n  method: get\n  operationId: searchBreeds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breeds/{breed_id}\n  method: get\n  operationId: getBreed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /favourites\n  method: get\n  operationId: listFavourites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /favourites\n  method: post\n  operationId: saveFavourite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /favourites/{favourite_id}\n  method: get\n  operationId: getFavourite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /favourites/{favourite_id}\n  method: delete\n  operationId: deleteFavourite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /votes\n  method: get\n  operationId: listVotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /votes\n  method: post\n  operationId: createVote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /votes/{vote_id}\n  method: get\n  operationId: getVote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /votes/{vote_id}\n  method: delete\n  operationId: deleteVote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/agentic-access/the-cat-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/the-cat-api/agentic-access/the-cat-api-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - Animals

@@ -9,97 +9,97 @@ api_specs:
   label: Demandbase Activities Management API
   slug: demandbase-activities-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-activities-management-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-activities-management-api-openapi.yml
 - filename: demandbase-asynchronous-batch-api-api-openapi.yml
   format: yaml
   label: Demandbase Asynchronous (Batch) API
   slug: demandbase-asynchronous-batch-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-asynchronous-batch-api-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-asynchronous-batch-api-api-openapi.yml
 - filename: demandbase-auth-api-openapi.yml
   format: yaml
   label: Demandbase Auth API
   slug: demandbase-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-auth-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-auth-api-openapi.yml
 - filename: demandbase-company-intent-api-openapi.yml
   format: yaml
   label: Demandbase Company Intent API
   slug: demandbase-company-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-company-intent-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-company-intent-api-openapi.yml
 - filename: demandbase-create-export-job-api-openapi.yml
   format: yaml
   label: Demandbase Create Export Job API
   slug: demandbase-create-export-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-create-export-job-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-create-export-job-api-openapi.yml
 - filename: demandbase-credit-usage-api-openapi.yml
   format: yaml
   label: Demandbase Credit Usage API
   slug: demandbase-credit-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-credit-usage-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-credit-usage-api-openapi.yml
 - filename: demandbase-custom-sources-api-openapi.yml
   format: yaml
   label: Demandbase Custom Sources API
   slug: demandbase-custom-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-custom-sources-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-custom-sources-api-openapi.yml
 - filename: demandbase-field-mappings-api-openapi.yml
   format: yaml
   label: Demandbase Field Mappings API
   slug: demandbase-field-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-field-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-field-mappings-api-openapi.yml
 - filename: demandbase-get-fields-api-openapi.yml
   format: yaml
   label: Demandbase Get Fields API
   slug: demandbase-get-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-get-fields-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-get-fields-api-openapi.yml
 - filename: demandbase-get-job-details-api-openapi.yml
   format: yaml
   label: Demandbase Get Job Details API
   slug: demandbase-get-job-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-get-job-details-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-get-job-details-api-openapi.yml
 - filename: demandbase-get-reference-data-api-openapi.yml
   format: yaml
   label: Demandbase Get Reference Data API
   slug: demandbase-get-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-get-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-get-reference-data-api-openapi.yml
 - filename: demandbase-import-job-api-openapi.yml
   format: yaml
   label: Demandbase Import Job API
   slug: demandbase-import-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-import-job-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-import-job-api-openapi.yml
 - filename: demandbase-reference-tables-api-openapi.yml
   format: yaml
   label: Demandbase Reference Tables API
   slug: demandbase-reference-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-reference-tables-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-reference-tables-api-openapi.yml
 - filename: demandbase-subscription-api-api-openapi.yml
   format: yaml
   label: Demandbase Subscription API
   slug: demandbase-subscription-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-subscription-api-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-subscription-api-api-openapi.yml
 - filename: demandbase-sync-api-api-openapi.yml
   format: yaml
   label: Demandbase Sync API
   slug: demandbase-sync-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-sync-api-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-sync-api-api-openapi.yml
 - filename: demandbase-user-management-api-openapi.yml
   format: yaml
   label: Demandbase User Management API
   slug: demandbase-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-user-management-api-openapi.yml
 consequence_counts:
   read: 35
   write: 19
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/demand
   \  method: get\n  operationId: companyNewsFetch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/{companyId}/logos/{logoSize}\n  method: get\n  operationId: companyLogoFetch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /match\n  method: post\n  operationId: match_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/user\n  method: post\n  operationId: postAdminV1User\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/user\n  method: put\n  operationId: put-users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/users\n  method: get\n  operationId: getAdminV1Users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/user/{id}\n  method: get\n  operationId: getAdminV1UserById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/user/{id}\n  method: delete\n  operationId: delete-users\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/agentic-access/demandbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/demandbase/agentic-access/demandbase-agentic-access.yml
 summary_line: 54 operations · 19 acting
 tags:
 - Account Based Marketing

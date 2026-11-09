@@ -9,61 +9,61 @@ api_specs:
   label: Archbee Access Control API
   slug: archbee-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-access-control-api-openapi.yml
 - filename: archbee-api-reference-api-openapi.yml
   format: yaml
   label: Archbee API Reference API
   slug: archbee-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-api-reference-api-openapi.yml
 - filename: archbee-documents-api-openapi.yml
   format: yaml
   label: Archbee Documents API
   slug: archbee-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-documents-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-documents-api-openapi.yml
 - filename: archbee-file-manager-api-openapi.yml
   format: yaml
   label: Archbee File Manager API
   slug: archbee-file-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-file-manager-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-file-manager-api-openapi.yml
 - filename: archbee-members-api-openapi.yml
   format: yaml
   label: Archbee Members API
   slug: archbee-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-members-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-members-api-openapi.yml
 - filename: archbee-organization-api-openapi.yml
   format: yaml
   label: Archbee Organization API
   slug: archbee-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-organization-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-organization-api-openapi.yml
 - filename: archbee-pages-api-openapi.yml
   format: yaml
   label: Archbee Pages API
   slug: archbee-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-pages-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-pages-api-openapi.yml
 - filename: archbee-space-groups-api-openapi.yml
   format: yaml
   label: Archbee Space Groups API
   slug: archbee-space-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-space-groups-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-space-groups-api-openapi.yml
 - filename: archbee-spaces-api-openapi.yml
   format: yaml
   label: Archbee Spaces API
   slug: archbee-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-spaces-api-openapi.yml
 - filename: archbee-suggestions-api-openapi.yml
   format: yaml
   label: Archbee Suggestions API
   slug: archbee-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/archbee/openapi/archbee-suggestions-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/archbe
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /space/clone\n  method: post\n  operationId: cloneSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /space/create\n  method: post\n  operationId: createSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /space/delete\n  method: delete\n  operationId: deleteSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /space/publish\n  method: post\n  operationId: publishSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /space/update\n  method: post\n  operationId: updateSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /suggest-change/discard\n  method: post\n  operationId: discardSuggestionDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /suggest-change/merge\n  method: post\n  operationId: mergeSuggestionIntoMainDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/agentic-access/archbee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/archbee/agentic-access/archbee-agentic-access.yml
 summary_line: 31 operations · 21 acting · 1 human-in-the-loop
 tags:
 - API Documentation

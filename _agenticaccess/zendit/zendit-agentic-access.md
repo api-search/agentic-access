@@ -9,49 +9,49 @@ api_specs:
   label: Zendit Account API
   slug: zendit-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/openapi/zendit-account-api-openapi.yml
+  url: https://artifacts.apis.io/zendit/openapi/zendit-account-api-openapi.yml
 - filename: zendit-brands-api-openapi.yml
   format: yaml
   label: Zendit Brands API
   slug: zendit-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/openapi/zendit-brands-api-openapi.yml
+  url: https://artifacts.apis.io/zendit/openapi/zendit-brands-api-openapi.yml
 - filename: zendit-esim-api-openapi.yml
   format: yaml
   label: Zendit eSIM API
   slug: zendit-esim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/openapi/zendit-esim-api-openapi.yml
+  url: https://artifacts.apis.io/zendit/openapi/zendit-esim-api-openapi.yml
 - filename: zendit-mobile-top-up-api-openapi.yml
   format: yaml
   label: Zendit Mobile Top-Up API
   slug: zendit-mobile-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/openapi/zendit-mobile-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/zendit/openapi/zendit-mobile-top-up-api-openapi.yml
 - filename: zendit-reports-api-openapi.yml
   format: yaml
   label: Zendit Reports API
   slug: zendit-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/openapi/zendit-reports-api-openapi.yml
+  url: https://artifacts.apis.io/zendit/openapi/zendit-reports-api-openapi.yml
 - filename: zendit-tools-api-openapi.yml
   format: yaml
   label: Zendit Tools API
   slug: zendit-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/openapi/zendit-tools-api-openapi.yml
+  url: https://artifacts.apis.io/zendit/openapi/zendit-tools-api-openapi.yml
 - filename: zendit-transactions-api-openapi.yml
   format: yaml
   label: Zendit Transactions API
   slug: zendit-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/openapi/zendit-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/zendit/openapi/zendit-transactions-api-openapi.yml
 - filename: zendit-vouchers-api-openapi.yml
   format: yaml
   label: Zendit Vouchers API
   slug: zendit-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/openapi/zendit-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/zendit/openapi/zendit-vouchers-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 24
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zendit
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vouchers/offers\n  method: get\n  operationId: listVoucherOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vouchers/offers/{offerId}\n  method: get\n  operationId: getVoucherOffer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vouchers/purchases\n  method: get\n  operationId: listVoucherPurchases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vouchers/purchases\n  method: post\n  operationId: createVoucherPurchase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vouchers/purchases/{transactionId}\n  method: get\n  operationId: getVoucherPurchase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transactionId}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tools/phonenumberlookup/{msisdn}\n  method: get\n  operationId: lookupPhoneNumber\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports\n  method: post\n  operationId: createReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/{reportId}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{reportId}/download\n  method: get\n  operationId: downloadReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/agentic-access/zendit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zendit/agentic-access/zendit-agentic-access.yml
 summary_line: 29 operations · 5 acting
 tags:
 - eSIM

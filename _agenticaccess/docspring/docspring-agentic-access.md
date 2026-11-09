@@ -9,49 +9,49 @@ api_specs:
   label: DocSpring Authentication API
   slug: docspring-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/docspring/openapi/docspring-authentication-api-openapi.yml
 - filename: docspring-combine-pdfs-api-openapi.yml
   format: yaml
   label: DocSpring Combine PDFs API
   slug: docspring-combine-pdfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-combine-pdfs-api-openapi.yml
+  url: https://artifacts.apis.io/docspring/openapi/docspring-combine-pdfs-api-openapi.yml
 - filename: docspring-custom-files-api-openapi.yml
   format: yaml
   label: DocSpring Custom Files API
   slug: docspring-custom-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-custom-files-api-openapi.yml
+  url: https://artifacts.apis.io/docspring/openapi/docspring-custom-files-api-openapi.yml
 - filename: docspring-data-requests-api-openapi.yml
   format: yaml
   label: DocSpring Data Requests API
   slug: docspring-data-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-data-requests-api-openapi.yml
+  url: https://artifacts.apis.io/docspring/openapi/docspring-data-requests-api-openapi.yml
 - filename: docspring-folders-api-openapi.yml
   format: yaml
   label: DocSpring Folders API
   slug: docspring-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-folders-api-openapi.yml
+  url: https://artifacts.apis.io/docspring/openapi/docspring-folders-api-openapi.yml
 - filename: docspring-pdf-submissions-api-openapi.yml
   format: yaml
   label: DocSpring PDF Submissions API
   slug: docspring-pdf-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-pdf-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/docspring/openapi/docspring-pdf-submissions-api-openapi.yml
 - filename: docspring-submission-batches-api-openapi.yml
   format: yaml
   label: DocSpring Submission Batches API
   slug: docspring-submission-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-submission-batches-api-openapi.yml
+  url: https://artifacts.apis.io/docspring/openapi/docspring-submission-batches-api-openapi.yml
 - filename: docspring-templates-api-openapi.yml
   format: yaml
   label: DocSpring Templates API
   slug: docspring-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/openapi/docspring-templates-api-openapi.yml
+  url: https://artifacts.apis.io/docspring/openapi/docspring-templates-api-openapi.yml
 consequence_counts:
   read: 13
   write: 22
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/docspr
   \ - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}\n  method: delete\n  operationId: deleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}/publish_version\n  method: post\n  operationId: publishTemplateVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}/restore_version\n  method: post\n  operationId: restoreTemplateVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}/add_fields\n  method: put\n  operationId: addFieldsToTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}/move\n  method: post\n  operationId: moveTemplateToFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}/copy\n  method: post\n  operationId: copyTemplate\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}/schema\n  method: get\n  operationId: getTemplateSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/agentic-access/docspring-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/docspring/agentic-access/docspring-agentic-access.yml
 summary_line: 35 operations · 22 acting
 tags:
 - PDF

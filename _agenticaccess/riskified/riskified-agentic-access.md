@@ -8,55 +8,55 @@ api_specs:
   label: Riskified Automation Endpoints API
   slug: riskified-automation-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-automation-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/riskified/openapi/riskified-automation-endpoints-api-openapi.yml
 - filename: riskified-customer-actions-api-openapi.yml
   format: yaml
   label: Riskified Customer Actions API
   slug: riskified-customer-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-customer-actions-api-openapi.yml
+  url: https://artifacts.apis.io/riskified/openapi/riskified-customer-actions-api-openapi.yml
 - filename: riskified-customer-management-api-openapi.yml
   format: yaml
   label: Riskified Customer Management API
   slug: riskified-customer-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-customer-management-api-openapi.yml
+  url: https://artifacts.apis.io/riskified/openapi/riskified-customer-management-api-openapi.yml
 - filename: riskified-order-pre-auth-review-and-psd2-3ds-cvv-recommendations-api-openapi.yml
   format: yaml
   label: Riskified Order Pre-Auth Review and PSD2/3DS/CVV Recommendations API
   slug: riskified-order-pre-auth-review-and-psd2-3ds-cvv-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-order-pre-auth-review-and-psd2-3ds-cvv-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/riskified/openapi/riskified-order-pre-auth-review-and-psd2-3ds-cvv-recommendations-api-openapi.yml
 - filename: riskified-otp-recover-sync-flow-api-openapi.yml
   format: yaml
   label: Riskified OTP Recover (Sync flow) API
   slug: riskified-otp-recover-sync-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-otp-recover-sync-flow-api-openapi.yml
+  url: https://artifacts.apis.io/riskified/openapi/riskified-otp-recover-sync-flow-api-openapi.yml
 - filename: riskified-post-authorization-flow-api-openapi.yml
   format: yaml
   label: Riskified Post-Authorization Flow API
   slug: riskified-post-authorization-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-post-authorization-flow-api-openapi.yml
+  url: https://artifacts.apis.io/riskified/openapi/riskified-post-authorization-flow-api-openapi.yml
 - filename: riskified-pre-authorization-flow-api-openapi.yml
   format: yaml
   label: Riskified Pre-Authorization Flow API
   slug: riskified-pre-authorization-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-pre-authorization-flow-api-openapi.yml
+  url: https://artifacts.apis.io/riskified/openapi/riskified-pre-authorization-flow-api-openapi.yml
 - filename: riskified-refunds-api-openapi.yml
   format: yaml
   label: Riskified Refunds API
   slug: riskified-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/riskified/openapi/riskified-refunds-api-openapi.yml
 - filename: riskified-returns-api-openapi.yml
   format: yaml
   label: Riskified Returns API
   slug: riskified-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-returns-api-openapi.yml
+  url: https://artifacts.apis.io/riskified/openapi/riskified-returns-api-openapi.yml
 consequence_counts:
   physical: 11
   safety-critical: 1
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/riskif
   - path: /api/refund\n  method: post\n  operationId: refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/submit\n  method: post\n  operationId: submit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /initiate\n  method: post\n  operationId: initiateOtp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claim_create\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claim_decision\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claim_update\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/agentic-access/riskified-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/riskified/agentic-access/riskified-agentic-access.yml
 summary_line: 20 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Fraud Prevention

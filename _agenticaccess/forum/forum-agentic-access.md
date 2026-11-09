@@ -9,55 +9,55 @@ api_specs:
   label: Forum Account API
   slug: forum-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-account-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-account-api-openapi.yml
 - filename: forum-exchange-api-openapi.yml
   format: yaml
   label: Forum Exchange API
   slug: forum-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-exchange-api-openapi.yml
 - filename: forum-fills-api-openapi.yml
   format: yaml
   label: Forum Fills API
   slug: forum-fills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-fills-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-fills-api-openapi.yml
 - filename: forum-funding-api-openapi.yml
   format: yaml
   label: Forum Funding API
   slug: forum-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-funding-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-funding-api-openapi.yml
 - filename: forum-indices-api-openapi.yml
   format: yaml
   label: Forum Indices API
   slug: forum-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-indices-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-indices-api-openapi.yml
 - filename: forum-market-data-api-openapi.yml
   format: yaml
   label: Forum Market Data API
   slug: forum-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-market-data-api-openapi.yml
 - filename: forum-markets-api-openapi.yml
   format: yaml
   label: Forum Markets API
   slug: forum-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-markets-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-markets-api-openapi.yml
 - filename: forum-orders-api-openapi.yml
   format: yaml
   label: Forum Orders API
   slug: forum-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-orders-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-orders-api-openapi.yml
 - filename: forum-positions-api-openapi.yml
   format: yaml
   label: Forum Positions API
   slug: forum-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/forum-positions-api-openapi.yml
+  url: https://artifacts.apis.io/forum/openapi/forum-positions-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 18
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/forum-
   \ get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: delete\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/client/{clientOrderId}\n  method: get\n  operationId: getOrderByClientId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/client/{clientOrderId}\n  method: delete\n  operationId: cancelOrderByClientId\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/batch\n  method: post\n  operationId: batchCreateOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/batch\n  method: delete\n  operationId: batchCancelOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /fills\n  method: get\n  operationId: listFills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /positions\n  method: get\n  operationId: listPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /positions/{ticker}\n  method: get\n  operationId: getPosition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/agentic-access/forum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/forum/agentic-access/forum-agentic-access.yml
 summary_line: 24 operations · 6 acting
 tags:
 - Company

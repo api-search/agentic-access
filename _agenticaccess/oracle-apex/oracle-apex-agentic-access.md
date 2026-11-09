@@ -9,61 +9,61 @@ api_specs:
   label: Oracle APEX AutoREST API
   slug: oracle-apex-autorest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-autorest-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-autorest-api-openapi.yml
 - filename: oracle-apex-handlers-api-openapi.yml
   format: yaml
   label: Oracle APEX Handlers API
   slug: oracle-apex-handlers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-handlers-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-handlers-api-openapi.yml
 - filename: oracle-apex-modules-api-openapi.yml
   format: yaml
   label: Oracle APEX Modules API
   slug: oracle-apex-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-modules-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-modules-api-openapi.yml
 - filename: oracle-apex-oauth-clients-api-openapi.yml
   format: yaml
   label: Oracle APEX OAuth Clients API
   slug: oracle-apex-oauth-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-oauth-clients-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-oauth-clients-api-openapi.yml
 - filename: oracle-apex-overview-api-openapi.yml
   format: yaml
   label: Oracle APEX Overview API
   slug: oracle-apex-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-overview-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-overview-api-openapi.yml
 - filename: oracle-apex-parameters-api-openapi.yml
   format: yaml
   label: Oracle APEX Parameters API
   slug: oracle-apex-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-parameters-api-openapi.yml
 - filename: oracle-apex-privileges-api-openapi.yml
   format: yaml
   label: Oracle APEX Privileges API
   slug: oracle-apex-privileges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-privileges-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-privileges-api-openapi.yml
 - filename: oracle-apex-properties-api-openapi.yml
   format: yaml
   label: Oracle APEX Properties API
   slug: oracle-apex-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-properties-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-properties-api-openapi.yml
 - filename: oracle-apex-roles-api-openapi.yml
   format: yaml
   label: Oracle APEX Roles API
   slug: oracle-apex-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-roles-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-roles-api-openapi.yml
 - filename: oracle-apex-templates-api-openapi.yml
   format: yaml
   label: Oracle APEX Templates API
   slug: oracle-apex-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/openapi/oracle-apex-templates-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-apex/openapi/oracle-apex-templates-api-openapi.yml
 consequence_counts:
   read: 32
   safety-critical: 1
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ords-r
   \  method: get\n  operationId: getOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ords/rest/overview/objects_recent\n  method: get\n  operationId: getRecentObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ords/properties/\n  method: get\n  operationId: listProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ords/properties/{key}\n  method: get\n  operationId: getProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ords/properties/{key}\n  method: put\n  operationId: setProperty\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ords/properties/{key}\n  method: delete\n  operationId: unsetProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ords/properties/{schema}/{key}\n  method: get\n  operationId: getSchemaProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ords/properties/{schema}/{key}\n  method: put\n  operationId: setSchemaProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ords/properties/{schema}/{key}\n  method: delete\n  operationId: unsetSchemaProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/agentic-access/oracle-apex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oracle-apex/agentic-access/oracle-apex-agentic-access.yml
 summary_line: 59 operations · 27 acting · 1 human-in-the-loop
 tags:
 - APEX

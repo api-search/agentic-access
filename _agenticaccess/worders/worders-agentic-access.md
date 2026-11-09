@@ -9,43 +9,43 @@ api_specs:
   label: Worders Customers API
   slug: worders-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-customers-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-customers-api-openapi.yml
 - filename: worders-freelancers-api-openapi.yml
   format: yaml
   label: Worders Freelancers API
   slug: worders-freelancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-freelancers-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-freelancers-api-openapi.yml
 - filename: worders-invoices-api-openapi.yml
   format: yaml
   label: Worders Invoices API
   slug: worders-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-invoices-api-openapi.yml
 - filename: worders-orders-api-openapi.yml
   format: yaml
   label: Worders Orders API
   slug: worders-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-orders-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-orders-api-openapi.yml
 - filename: worders-quotes-api-openapi.yml
   format: yaml
   label: Worders Quotes API
   slug: worders-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-quotes-api-openapi.yml
 - filename: worders-templates-api-openapi.yml
   format: yaml
   label: Worders Templates API
   slug: worders-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-templates-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-templates-api-openapi.yml
 - filename: worders-purchase-orders-api-openapi.yml
   format: yaml
   label: Worders Purchase Orders API
   slug: worders-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/openapi/worders-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/worders/openapi/worders-purchase-orders-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/worder
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/invoices/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/orders\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/orders\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /V1/orders/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /V1/freelancers/{freelancer_id}/purchase_orders\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/purchase_orders/{po_number}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/quotes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /V1/quotes/{id}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/customers/{customer_id}/templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/agentic-access/worders-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/worders/agentic-access/worders-agentic-access.yml
 summary_line: 13 operations · 2 acting
 tags:
 - Company

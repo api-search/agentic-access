@@ -9,115 +9,115 @@ api_specs:
   label: Bond Cards API
   slug: bond-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-cards-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-cards-api-openapi.yml
 - filename: bond-credit-api-openapi.yml
   format: yaml
   label: Bond Credit API
   slug: bond-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-credit-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-credit-api-openapi.yml
 - filename: bond-webhooks-api-openapi.yml
   format: yaml
   label: Bond Webhooks API
   slug: bond-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-webhooks-api-openapi.yml
 - filename: bond-accounts-api-openapi.yml
   format: yaml
   label: Bond Accounts API
   slug: bond-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-accounts-api-openapi.yml
 - filename: bond-beneficial-owners-address-api-openapi.yml
   format: yaml
   label: Bond Beneficial owners address API
   slug: bond-beneficial-owners-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-beneficial-owners-address-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-beneficial-owners-address-api-openapi.yml
 - filename: bond-beneficial-owners-api-openapi.yml
   format: yaml
   label: Bond Beneficial owners API
   slug: bond-beneficial-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-beneficial-owners-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-beneficial-owners-api-openapi.yml
 - filename: bond-business-address-api-openapi.yml
   format: yaml
   label: Bond Business address API
   slug: bond-business-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-business-address-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-business-address-api-openapi.yml
 - filename: bond-businesses-api-openapi.yml
   format: yaml
   label: Bond Businesses API
   slug: bond-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-businesses-api-openapi.yml
 - filename: bond-card-restrictions-api-openapi.yml
   format: yaml
   label: Bond Card restrictions API
   slug: bond-card-restrictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-card-restrictions-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-card-restrictions-api-openapi.yml
 - filename: bond-cards-api-openapi.yml
   format: yaml
   label: Bond Cards API
   slug: bond-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-cards-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-cards-api-openapi.yml
 - filename: bond-credit-api-openapi.yml
   format: yaml
   label: Bond Credit API
   slug: bond-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-credit-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-credit-api-openapi.yml
 - filename: bond-customers-api-openapi.yml
   format: yaml
   label: Bond Customers API
   slug: bond-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-customers-api-openapi.yml
 - filename: bond-kyb-api-openapi.yml
   format: yaml
   label: Bond KYB API
   slug: bond-kyb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-kyb-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-kyb-api-openapi.yml
 - filename: bond-kyc-api-openapi.yml
   format: yaml
   label: Bond KYC API
   slug: bond-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-kyc-api-openapi.yml
 - filename: bond-simulate-api-openapi.yml
   format: yaml
   label: Bond Simulate API
   slug: bond-simulate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-simulate-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-simulate-api-openapi.yml
 - filename: bond-statements-api-openapi.yml
   format: yaml
   label: Bond Statements API
   slug: bond-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-statements-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-statements-api-openapi.yml
 - filename: bond-transactions-api-openapi.yml
   format: yaml
   label: Bond Transactions API
   slug: bond-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-transactions-api-openapi.yml
 - filename: bond-transfer-api-openapi.yml
   format: yaml
   label: Bond Transfer API
   slug: bond-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-transfer-api-openapi.yml
 - filename: bond-webhooks-api-openapi.yml
   format: yaml
   label: Bond Webhooks API
   slug: bond-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/openapi/bond-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bond/openapi/bond-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 27
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/bond-a
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /simulate/kyc-pass\n  method: post\n  operationId: post_simulate_kyc_pass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /simulate/settlement\n  method: post\n  operationId: post_settle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers\n  method: post\n\
   \  operationId: post-transfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: post\n  operationId: post_webhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: get_webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: patch\n  operationId: patch_webhooks\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: delete_webhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/agentic-access/bond-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bond/agentic-access/bond-agentic-access.yml
 summary_line: 71 operations · 44 acting
 tags:
 - Company

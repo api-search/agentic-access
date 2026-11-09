@@ -9,43 +9,43 @@ api_specs:
   label: Velt Auth API
   slug: velt-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-auth-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-auth-api-openapi.yml
 - filename: velt-comments-api-openapi.yml
   format: yaml
   label: Velt Comments API
   slug: velt-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-comments-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-comments-api-openapi.yml
 - filename: velt-documents-api-openapi.yml
   format: yaml
   label: Velt Documents API
   slug: velt-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-documents-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-documents-api-openapi.yml
 - filename: velt-notifications-api-openapi.yml
   format: yaml
   label: Velt Notifications API
   slug: velt-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-notifications-api-openapi.yml
 - filename: velt-organizations-api-openapi.yml
   format: yaml
   label: Velt Organizations API
   slug: velt-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-organizations-api-openapi.yml
 - filename: velt-users-api-openapi.yml
   format: yaml
   label: Velt Users API
   slug: velt-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-users-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-users-api-openapi.yml
 - filename: velt-webhooks-api-openapi.yml
   format: yaml
   label: Velt Webhooks API
   slug: velt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/openapi/velt-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/velt/openapi/velt-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/velt-a
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/get\n  method: post\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/update\n  method: post\n  operationId: updateUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/delete\n  method: post\n  operationId: deleteUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user-groups/add\n  method: post\n  operationId: addUserGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user-groups/users/add\n  method: post\n  operationId: addUsersToGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/endpoints/create\n  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/endpoints/get\n  method: post\n  operationId: getWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints/delete\n  method: post\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/agentic-access/velt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/velt/agentic-access/velt-agentic-access.yml
 summary_line: 35 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Real-Time Collaboration

@@ -9,73 +9,73 @@ api_specs:
   label: Authelia Authentication API
   slug: authelia-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-authentication-api-openapi.yml
 - filename: authelia-authorization-api-openapi.yml
   format: yaml
   label: Authelia Authorization API
   slug: authelia-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-authorization-api-openapi.yml
 - filename: authelia-first-factor-api-openapi.yml
   format: yaml
   label: Authelia First Factor API
   slug: authelia-first-factor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-first-factor-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-first-factor-api-openapi.yml
 - filename: authelia-oauth-2-0-api-openapi.yml
   format: yaml
   label: Authelia OAuth 2.0 API
   slug: authelia-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-oauth-2-0-api-openapi.yml
 - filename: authelia-openid-connect-1-0-api-openapi.yml
   format: yaml
   label: Authelia OpenID Connect 1.0 API
   slug: authelia-openid-connect-1-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-openid-connect-1-0-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-openid-connect-1-0-api-openapi.yml
 - filename: authelia-password-change-api-openapi.yml
   format: yaml
   label: Authelia Password Change API
   slug: authelia-password-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-password-change-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-password-change-api-openapi.yml
 - filename: authelia-password-reset-api-openapi.yml
   format: yaml
   label: Authelia Password Reset API
   slug: authelia-password-reset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-password-reset-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-password-reset-api-openapi.yml
 - filename: authelia-second-factor-api-openapi.yml
   format: yaml
   label: Authelia Second Factor API
   slug: authelia-second-factor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-second-factor-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-second-factor-api-openapi.yml
 - filename: authelia-state-api-openapi.yml
   format: yaml
   label: Authelia State API
   slug: authelia-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-state-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-state-api-openapi.yml
 - filename: authelia-user-elevation-api-openapi.yml
   format: yaml
   label: Authelia User Elevation API
   slug: authelia-user-elevation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-user-elevation-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-user-elevation-api-openapi.yml
 - filename: authelia-user-information-api-openapi.yml
   format: yaml
   label: Authelia User Information API
   slug: authelia-user-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-user-information-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-user-information-api-openapi.yml
 - filename: authelia-utilities-api-openapi.yml
   format: yaml
   label: Authelia Utilities API
   slug: authelia-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-utilities-api-openapi.yml
 consequence_counts:
   read: 40
   safety-critical: 11
@@ -193,8 +193,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/authel
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/secondfactor/webauthn/credential/register\n  method: post\n  operationId: postSecondFactorWebAuthnCredentialRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/secondfactor/webauthn/credential/register\n  method: delete\n  operationId: deleteSecondFactorWebAuthnCredentialRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/secondfactor/webauthn/credential/{credentialID}\n  method: put\n  operationId: putSecondFactorWebAuthnCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/secondfactor/webauthn/credential/{credentialID}\n  method: delete\n  operationId: deleteSecondFactorWebAuthnCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/secondfactor/duo\n  method: get\n  operationId: getSecondFactorDuo\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/secondfactor/duo\n  method: post\n  operationId: postSecondFactorDuo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/secondfactor/duo_devices\n  method: get\n  operationId: getSecondFactorDuoDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/secondfactor/duo_device\n  method: post\n  operationId: postSecondFactorDuoDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/secondfactor/password\n  method: post\n  operationId: postSecondFactorPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/configuration\n  method: get\n  operationId: getConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/configuration/password-policy\n  method: get\n  operationId: getPasswordPolicyConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/agentic-access/authelia-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/agentic-access/authelia-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/secondfactor/password\n  method: post\n  operationId: postSecondFactorPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/configuration\n  method: get\n  operationId: getConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/configuration/password-policy\n  method: get\n  operationId: getPasswordPolicyConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/authelia/agentic-access/authelia-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/authelia/agentic-access/authelia-agentic-access.yml
 summary_line: 111 operations · 71 acting · 11 human-in-the-loop
 tags:
 - Authentication

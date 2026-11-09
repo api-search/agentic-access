@@ -9,31 +9,31 @@ api_specs:
   label: supernormal Agent Sessions API
   slug: supernormal-agent-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-agent-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-agent-sessions-api-openapi.yml
 - filename: supernormal-agents-api-openapi.yml
   format: yaml
   label: supernormal Agents API
   slug: supernormal-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-agents-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-agents-api-openapi.yml
 - filename: supernormal-calendar-events-api-openapi.yml
   format: yaml
   label: supernormal Calendar Events API
   slug: supernormal-calendar-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-calendar-events-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-calendar-events-api-openapi.yml
 - filename: supernormal-current-user-api-openapi.yml
   format: yaml
   label: supernormal Current User API
   slug: supernormal-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-current-user-api-openapi.yml
 - filename: supernormal-posts-api-openapi.yml
   format: yaml
   label: supernormal Posts API
   slug: supernormal-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-posts-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-posts-api-openapi.yml
 consequence_counts:
   read: 8
   write: 5
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/supern
   \ post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - agents:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - agents:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/{id}/publish\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - agents:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{id}/unpublish\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    scope:\n    - agents:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent_sessions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - agent_sessions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent_sessions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - agent_sessions:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent_sessions/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - agent_sessions:read\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/agentic-access/supernormal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/supernormal/agentic-access/supernormal-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
 - Company

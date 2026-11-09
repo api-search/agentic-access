@@ -9,49 +9,49 @@ api_specs:
   label: European Space Agency (ESA) Bulk Transaction Extension API
   slug: esa-bulk-transaction-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-bulk-transaction-extension-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-bulk-transaction-extension-api-openapi.yml
 - filename: esa-collections-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Collections API
   slug: esa-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-collections-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-collections-api-openapi.yml
 - filename: esa-conformance-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Conformance API
   slug: esa-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-conformance-api-openapi.yml
 - filename: esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Copernicus Data Space Ecosystem (CDSE) Asset Level STAC Catalogue API
   slug: esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api-openapi.yml
 - filename: esa-filter-extension-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Filter Extension API
   slug: esa-filter-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-filter-extension-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-filter-extension-api-openapi.yml
 - filename: esa-liveliness-readiness-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Liveliness/Readiness API
   slug: esa-liveliness-readiness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-liveliness-readiness-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-liveliness-readiness-api-openapi.yml
 - filename: esa-search-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Search API
   slug: esa-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-search-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-search-api-openapi.yml
 - filename: esa-transaction-extension-api-openapi.yml
   format: yaml
   label: European Space Agency (ESA) Transaction Extension API
   slug: esa-transaction-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/openapi/esa-transaction-extension-api-openapi.yml
+  url: https://artifacts.apis.io/esa/openapi/esa-transaction-extension-api-openapi.yml
 consequence_counts:
   read: 11
   write: 7
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/esa-bu
   \ /collections/{collection_id}/items/{item_id}\n  method: put\n  operationId: Update_Item_collections__collection_id__items__item_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_id}/items/{item_id}\n  method: delete\n  operationId: Delete_Item_collections__collection_id__items__item_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections\n  method: post\n  operationId: Create_Collection_collections_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_id}\n  method: put\n  operationId: Update_Collection_collections__collection_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_id}\n  method: delete\n  operationId: Delete_Collection_collections__collection_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /collections/{collection_id}/items\n  method: post\n  operationId: Create_Item_collections__collection_id__items_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/agentic-access/esa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/esa/agentic-access/esa-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - Earth Observation

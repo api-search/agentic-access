@@ -8,25 +8,25 @@ api_specs:
   label: OddsRelay Account API
   slug: oddsrelay-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/openapi/oddsrelay-account-api-openapi.yml
+  url: https://artifacts.apis.io/oddsrelay/openapi/oddsrelay-account-api-openapi.yml
 - filename: oddsrelay-discovery-api-openapi.yml
   format: yaml
   label: OddsRelay Discovery API
   slug: oddsrelay-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/openapi/oddsrelay-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/oddsrelay/openapi/oddsrelay-discovery-api-openapi.yml
 - filename: oddsrelay-odds-api-openapi.yml
   format: yaml
   label: OddsRelay Odds API
   slug: oddsrelay-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/openapi/oddsrelay-odds-api-openapi.yml
+  url: https://artifacts.apis.io/oddsrelay/openapi/oddsrelay-odds-api-openapi.yml
 - filename: oddsrelay-service-api-openapi.yml
   format: yaml
   label: OddsRelay Service API
   slug: oddsrelay-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/openapi/oddsrelay-service-api-openapi.yml
+  url: https://artifacts.apis.io/oddsrelay/openapi/oddsrelay-service-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/oddsre
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sports\n  method: get\n  operationId: listSports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bookmakers\n  method: get\n  operationId: listBookmakers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/regions\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coverage\n\
   \  method: get\n  operationId: getCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/pricing\n  method: get\n  operationId: getPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v2/openapi.json\n  method: get\n  operationId: getOpenApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /healthz\n  method: get\n  operationId: getLiveness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/agentic-access/oddsrelay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oddsrelay/agentic-access/oddsrelay-agentic-access.yml
 summary_line: 14 operations
 tags:
 - Company

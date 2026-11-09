@@ -9,31 +9,31 @@ api_specs:
   label: Breathe HR Absences API
   slug: breathe-hr-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-absences-api-openapi.yml
+  url: https://artifacts.apis.io/breathe-hr/openapi/breathe-hr-absences-api-openapi.yml
 - filename: breathe-hr-account-api-openapi.yml
   format: yaml
   label: Breathe HR Account API
   slug: breathe-hr-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-account-api-openapi.yml
+  url: https://artifacts.apis.io/breathe-hr/openapi/breathe-hr-account-api-openapi.yml
 - filename: breathe-hr-employees-api-openapi.yml
   format: yaml
   label: Breathe HR Employees API
   slug: breathe-hr-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-employees-api-openapi.yml
+  url: https://artifacts.apis.io/breathe-hr/openapi/breathe-hr-employees-api-openapi.yml
 - filename: breathe-hr-holidays-api-openapi.yml
   format: yaml
   label: Breathe HR Holidays API
   slug: breathe-hr-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-holidays-api-openapi.yml
+  url: https://artifacts.apis.io/breathe-hr/openapi/breathe-hr-holidays-api-openapi.yml
 - filename: breathe-hr-sicknesses-api-openapi.yml
   format: yaml
   label: Breathe HR Sicknesses API
   slug: breathe-hr-sicknesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/openapi/breathe-hr-sicknesses-api-openapi.yml
+  url: https://artifacts.apis.io/breathe-hr/openapi/breathe-hr-sicknesses-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/breath
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /absences\n  method: get\n  operationId: listAbsences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /absences/{id}\n  method: get\n  operationId: getAbsence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /holidays\n  method: get\n  operationId: listHolidays\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /holidays\n  method: post\n  operationId: createHoliday\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /holidays/{id}\n  method: get\n  operationId: getHoliday\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /holidays/{id}\n  method: put\n  operationId: updateHoliday\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sicknesses\n  method: get\n  operationId: listSicknesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sicknesses\n  method: post\n  operationId:\
   \ createSickness\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sicknesses/{id}\n  method: get\n  operationId: getSickness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/agentic-access/breathe-hr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/breathe-hr/agentic-access/breathe-hr-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Human Resources

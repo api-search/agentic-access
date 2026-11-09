@@ -9,13 +9,13 @@ api_specs:
   label: Otonomo EU API
   slug: otonomo-eu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-eu-api-openapi.yml
+  url: https://artifacts.apis.io/otonomo/openapi/otonomo-eu-api-openapi.yml
 - filename: otonomo-us-api-openapi.yml
   format: yaml
   label: Otonomo US API
   slug: otonomo-us-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-us-api-openapi.yml
+  url: https://artifacts.apis.io/otonomo/openapi/otonomo-us-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/otonom
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/vehicle-management/vehicles/\n  method: post\n  operationId: vehicle-management-upload-new-vin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vehicle-management/vehicles/remove\n  method: post\n  operationId: vehicle-management-remove-vins\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vehicle-management/vehicles/enable\n  method: post\n  operationId: vehicle-management-request-vins-consent-1\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vehicle-management/vehicles/disable\n  method: post\n  operationId: vehicle-management-revoke-vins\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/file-verification/<vin>/\n  method: post\n  operationId: vehicle-ownership-verification\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vehicles/{vin}/status\n  method: get\n  operationId: vehicle-status-for-fleets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/vehicles/{vin}/status\n  method: get\n  operationId: vehicle-status-time-per-attribute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/agentic-access/otonomo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/otonomo/agentic-access/otonomo-agentic-access.yml
 summary_line: 18 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: CodaMetrix Components API
   slug: codametrix-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-components-api-openapi.yml
+  url: https://artifacts.apis.io/codametrix/openapi/codametrix-components-api-openapi.yml
 - filename: codametrix-incidents-api-openapi.yml
   format: yaml
   label: CodaMetrix Incidents API
   slug: codametrix-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/codametrix/openapi/codametrix-incidents-api-openapi.yml
 - filename: codametrix-scheduled-maintenances-api-openapi.yml
   format: yaml
   label: CodaMetrix Scheduled Maintenances API
   slug: codametrix-scheduled-maintenances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-scheduled-maintenances-api-openapi.yml
+  url: https://artifacts.apis.io/codametrix/openapi/codametrix-scheduled-maintenances-api-openapi.yml
 - filename: codametrix-status-api-openapi.yml
   format: yaml
   label: CodaMetrix Status API
   slug: codametrix-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-status-api-openapi.yml
+  url: https://artifacts.apis.io/codametrix/openapi/codametrix-status-api-openapi.yml
 - filename: codametrix-summary-api-openapi.yml
   format: yaml
   label: CodaMetrix Summary API
   slug: codametrix-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-summary-api-openapi.yml
+  url: https://artifacts.apis.io/codametrix/openapi/codametrix-summary-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/codametrix-status-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /summary.json\n  method: get\n  operationId: getSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status.json\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /components.json\n  method: get\n  operationId: getComponents\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incidents.json\n  method: get\n  operationId: getIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incidents/unresolved.json\n  method: get\n  operationId: getUnresolvedIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduled-maintenances.json\n  method: get\n  operationId: getScheduledMaintenances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduled-maintenances/upcoming.json\n  method: get\n  operationId: getUpcomingScheduledMaintenances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduled-maintenances/active.json\n  method: get\n  operationId: getActiveScheduledMaintenances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/agentic-access/codametrix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/codametrix/agentic-access/codametrix-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Company

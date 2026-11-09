@@ -8,37 +8,37 @@ api_specs:
   label: Amazon VPC Internet Gateways API
   slug: amazon-vpc-internet-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-internet-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-internet-gateways-api-openapi.yml
 - filename: amazon-vpc-nat-gateways-api-openapi.yml
   format: yaml
   label: Amazon VPC NAT Gateways API
   slug: amazon-vpc-nat-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-nat-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-nat-gateways-api-openapi.yml
 - filename: amazon-vpc-network-acls-api-openapi.yml
   format: yaml
   label: Amazon VPC Network ACLs API
   slug: amazon-vpc-network-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-network-acls-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-network-acls-api-openapi.yml
 - filename: amazon-vpc-route-tables-api-openapi.yml
   format: yaml
   label: Amazon VPC Route Tables API
   slug: amazon-vpc-route-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-route-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-route-tables-api-openapi.yml
 - filename: amazon-vpc-subnets-api-openapi.yml
   format: yaml
   label: Amazon VPC Subnets API
   slug: amazon-vpc-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-subnets-api-openapi.yml
 - filename: amazon-vpc-vpcs-api-openapi.yml
   format: yaml
   label: Amazon VPC VP Cs API
   slug: amazon-vpc-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-vpc/openapi/amazon-vpc-vpcs-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -68,9 +68,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateInternetGateway\n  method: get\n  operationId: createInternetGateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=AttachInternetGateway\n  method: get\n  operationId: attachInternetGateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateNatGateway\n  method: get\n  operationId: createNatGateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeNatGateways\n  method: get\n  operationId: describeNatGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /?Action=CreateRouteTable\n  method: get\n  operationId: createRouteTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeRouteTables\n  method: get\n  operationId: describeRouteTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateRoute\n  method: get\n  operationId: createRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=AssociateRouteTable\n  method: get\n  operationId: associateRouteTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateNetworkAcl\n  method: get\n  operationId: createNetworkAcl\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeNetworkAcls\n  method: get\n  operationId: describeNetworkAcls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/agentic-access/amazon-vpc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-vpc/agentic-access/amazon-vpc-agentic-access.yml
 summary_line: 17 operations
 tags:
+- Amazon Web Services
 - Networking
 - Private Cloud
 - Security

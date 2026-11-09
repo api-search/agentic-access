@@ -9,7 +9,7 @@ api_specs:
   label: Parea AI Parea API
   slug: parea-parea-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/openapi/parea-parea-api-openapi.yml
+  url: https://artifacts.apis.io/parea/openapi/parea-parea-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/parea-
   \  operationId: get_test_case_collection_by_identifier_api_parea_v1_collection__test_collection_identifier__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/parea/v1/collection\n  method: post\n  operationId: create_collection_api_parea_v1_collection_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/parea/v1/testcases\n  method: post\n  operationId: create_test_cases_for_dataset_api_parea_v1_testcases_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/parea/v1/trace_log/{trace_id}\n  method: get\n  operationId: get_trace_log_api_api_parea_v1_trace_log__trace_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/parea/v1/experiments\n  method: post\n  operationId: list_experiments_api_api_parea_v1_experiments_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/parea/v1/experiment/{experiment_uuid}/trace_logs\n  method: post\n  operationId: get_experiment_trace_logs_api_api_parea_v1_experiment__experiment_uuid__trace_logs_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/parea/v1/get_trace_logs\n  method: post\n  operationId: get_trace_logs_api_api_parea_v1_get_trace_logs_post\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/parea/v1/update_test_case/{dataset_id}/{test_case_id}\n  method: post\n  operationId: update_test_case_api_parea_v1_update_test_case__dataset_id___test_case_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/agentic-access/parea-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parea/agentic-access/parea-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
 - LLM

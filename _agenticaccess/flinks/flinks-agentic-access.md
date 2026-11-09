@@ -9,19 +9,19 @@ api_specs:
   label: Flinks Connect API
   slug: flinks-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-connect-api-openapi.yml
+  url: https://artifacts.apis.io/flinks/openapi/flinks-connect-api-openapi.yml
 - filename: flinks-enrich-api-openapi.yml
   format: yaml
   label: Flinks Enrich API
   slug: flinks-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/flinks/openapi/flinks-enrich-api-openapi.yml
 - filename: flinks-authorization-api-openapi.yml
   format: yaml
   label: Flinks Authorization API
   slug: flinks-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/flinks/openapi/flinks-authorization-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/flinks
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetStatements\n  method: post\n  operationId: getStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetCategorization\n  method: post\n  operationId: getCategorization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Upload\n  method: post\n  operationId: upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /FraudAnalysis\n  method: post\n  operationId: fraudAnalysis\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /FieldMatch\n  method: post\n  operationId: fieldMatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /GetIncomeAttributes\n  method: post\n  operationId: getIncomeAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetCreditRiskAttributes\n  method: post\n  operationId: getCreditRiskAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/agentic-access/flinks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flinks/agentic-access/flinks-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Financial Data

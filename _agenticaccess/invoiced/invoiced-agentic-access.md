@@ -9,55 +9,55 @@ api_specs:
   label: Invoiced Credit Notes API
   slug: invoiced-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-credit-notes-api-openapi.yml
 - filename: invoiced-customers-api-openapi.yml
   format: yaml
   label: Invoiced Customers API
   slug: invoiced-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-customers-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-customers-api-openapi.yml
 - filename: invoiced-estimates-api-openapi.yml
   format: yaml
   label: Invoiced Estimates API
   slug: invoiced-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-estimates-api-openapi.yml
 - filename: invoiced-events-api-openapi.yml
   format: yaml
   label: Invoiced Events API
   slug: invoiced-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-events-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-events-api-openapi.yml
 - filename: invoiced-invoices-api-openapi.yml
   format: yaml
   label: Invoiced Invoices API
   slug: invoiced-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-invoices-api-openapi.yml
 - filename: invoiced-items-api-openapi.yml
   format: yaml
   label: Invoiced Items API
   slug: invoiced-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-items-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-items-api-openapi.yml
 - filename: invoiced-payments-api-openapi.yml
   format: yaml
   label: Invoiced Payments API
   slug: invoiced-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-payments-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-payments-api-openapi.yml
 - filename: invoiced-plans-api-openapi.yml
   format: yaml
   label: Invoiced Plans API
   slug: invoiced-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-plans-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-plans-api-openapi.yml
 - filename: invoiced-subscriptions-api-openapi.yml
   format: yaml
   label: Invoiced Subscriptions API
   slug: invoiced-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/openapi/invoiced-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/invoiced/openapi/invoiced-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 19
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/invoic
   \      - high-value\n    audit: required\n- path: /plans/{id}\n  method: delete\n  operationId: deletePlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /items\n  method: get\n  operationId: listItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items\n  method: post\n  operationId: createItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /items/{id}\n  method: get\n  operationId: getItem\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items/{id}\n  method: patch\n  operationId: updateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /items/{id}\n  method: delete\n  operationId: deleteItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /events/{id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/agentic-access/invoiced-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/invoiced/agentic-access/invoiced-agentic-access.yml
 summary_line: 48 operations · 29 acting
 tags:
 - Accounts Receivable

@@ -9,181 +9,181 @@ api_specs:
   label: Deliverect Accounts API
   slug: deliverect-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-accounts-api-openapi.yml
 - filename: deliverect-allergens-api-openapi.yml
   format: yaml
   label: Deliverect Allergens API
   slug: deliverect-allergens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-allergens-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-allergens-api-openapi.yml
 - filename: deliverect-authentication-api-openapi.yml
   format: yaml
   label: Deliverect Authentication API
   slug: deliverect-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-authentication-api-openapi.yml
 - filename: deliverect-baskets-api-openapi.yml
   format: yaml
   label: Deliverect Baskets API
   slug: deliverect-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-baskets-api-openapi.yml
 - filename: deliverect-channel-links-api-openapi.yml
   format: yaml
   label: Deliverect Channel Links API
   slug: deliverect-channel-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-channel-links-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-channel-links-api-openapi.yml
 - filename: deliverect-checkout-api-openapi.yml
   format: yaml
   label: Deliverect Checkout API
   slug: deliverect-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-checkout-api-openapi.yml
 - filename: deliverect-compensation-cards-api-openapi.yml
   format: yaml
   label: Deliverect Compensation Cards API
   slug: deliverect-compensation-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-compensation-cards-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-compensation-cards-api-openapi.yml
 - filename: deliverect-configuration-api-openapi.yml
   format: yaml
   label: Deliverect Configuration API
   slug: deliverect-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-configuration-api-openapi.yml
 - filename: deliverect-coupons-api-openapi.yml
   format: yaml
   label: Deliverect Coupons API
   slug: deliverect-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-coupons-api-openapi.yml
 - filename: deliverect-couriers-api-openapi.yml
   format: yaml
   label: Deliverect Couriers API
   slug: deliverect-couriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-couriers-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-couriers-api-openapi.yml
 - filename: deliverect-customers-api-openapi.yml
   format: yaml
   label: Deliverect Customers API
   slug: deliverect-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-customers-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-customers-api-openapi.yml
 - filename: deliverect-floors-api-openapi.yml
   format: yaml
   label: Deliverect Floors API
   slug: deliverect-floors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-floors-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-floors-api-openapi.yml
 - filename: deliverect-fulfillment-api-openapi.yml
   format: yaml
   label: Deliverect Fulfillment API
   slug: deliverect-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-fulfillment-api-openapi.yml
 - filename: deliverect-gateways-api-openapi.yml
   format: yaml
   label: Deliverect Gateways API
   slug: deliverect-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-gateways-api-openapi.yml
 - filename: deliverect-gift-cards-api-openapi.yml
   format: yaml
   label: Deliverect Gift Cards API
   slug: deliverect-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-gift-cards-api-openapi.yml
 - filename: deliverect-inventory-api-openapi.yml
   format: yaml
   label: Deliverect Inventory API
   slug: deliverect-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-inventory-api-openapi.yml
 - filename: deliverect-jobs-api-openapi.yml
   format: yaml
   label: Deliverect Jobs API
   slug: deliverect-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-jobs-api-openapi.yml
 - filename: deliverect-locations-api-openapi.yml
   format: yaml
   label: Deliverect Locations API
   slug: deliverect-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-locations-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-locations-api-openapi.yml
 - filename: deliverect-menus-api-openapi.yml
   format: yaml
   label: Deliverect Menus API
   slug: deliverect-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-menus-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-menus-api-openapi.yml
 - filename: deliverect-opening-hours-api-openapi.yml
   format: yaml
   label: Deliverect Opening Hours API
   slug: deliverect-opening-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-opening-hours-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-opening-hours-api-openapi.yml
 - filename: deliverect-orders-api-openapi.yml
   format: yaml
   label: Deliverect Orders API
   slug: deliverect-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-orders-api-openapi.yml
 - filename: deliverect-payments-api-openapi.yml
   format: yaml
   label: Deliverect Payments API
   slug: deliverect-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-payments-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-payments-api-openapi.yml
 - filename: deliverect-products-api-openapi.yml
   format: yaml
   label: Deliverect Products API
   slug: deliverect-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-products-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-products-api-openapi.yml
 - filename: deliverect-profiles-api-openapi.yml
   format: yaml
   label: Deliverect Profiles API
   slug: deliverect-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-profiles-api-openapi.yml
 - filename: deliverect-programs-api-openapi.yml
   format: yaml
   label: Deliverect Programs API
   slug: deliverect-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-programs-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-programs-api-openapi.yml
 - filename: deliverect-registration-api-openapi.yml
   format: yaml
   label: Deliverect Registration API
   slug: deliverect-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-registration-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-registration-api-openapi.yml
 - filename: deliverect-store-status-api-openapi.yml
   format: yaml
   label: Deliverect Store Status API
   slug: deliverect-store-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-store-status-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-store-status-api-openapi.yml
 - filename: deliverect-stores-api-openapi.yml
   format: yaml
   label: Deliverect Stores API
   slug: deliverect-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-stores-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-stores-api-openapi.yml
 - filename: deliverect-tables-api-openapi.yml
   format: yaml
   label: Deliverect Tables API
   slug: deliverect-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-tables-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-tables-api-openapi.yml
 - filename: deliverect-upsell-api-openapi.yml
   format: yaml
   label: Deliverect Upsell API
   slug: deliverect-upsell-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/openapi/deliverect-upsell-api-openapi.yml
+  url: https://artifacts.apis.io/deliverect/openapi/deliverect-upsell-api-openapi.yml
 consequence_counts:
   physical: 23
   read: 34
@@ -372,8 +372,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/delive
   - path: /kds/productUpdate\n  method: post\n  operationId: kds_productupdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /syncProducts\n  method: get\n  operationId: pos_syncproducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/locations/{locationId}/syncProducts\n  method: get\n  operationId: get_v2_locations_locationid_syncproducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /productAndCategories\n  method: post\n  operationId: insertUpdateProductsAndCategories\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /product_sync_callback\n  method: post\n  operationId: pos_api_product_sync_callback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products\n  method: get\n  operationId: get_products\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/snoozeByPlus\n  method: post\n  operationId: post_snooze_by_plu\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/snoozeByTags\n  method: post\n  operationId: post_mark_products_out_of_stock_by_tag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channelDisabledProducts\n  method: get\n  operationId: get_get_channeldisabledproducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /giftCards/registerProfile\n  method: post\n  operationId: giftcards_registerprofile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
-  \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /giftCards/channel/{channelLinkId}/providerProfileLinks\n  method: get\n  operationId: get_giftcards_channel_channellinkid_providerprofilelinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /register\n  method: post\n  operationId: payplatform_payments_profile_register\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/agentic-access/deliverect-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/agentic-access/deliverect-agentic-access.yml
+  \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /giftCards/channel/{channelLinkId}/providerProfileLinks\n  method: get\n  operationId: get_giftcards_channel_channellinkid_providerprofilelinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /register\n  method: post\n  operationId: payplatform_payments_profile_register\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://artifacts.apis.io/deliverect/agentic-access/deliverect-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/deliverect/agentic-access/deliverect-agentic-access.yml
 summary_line: 104 operations · 70 acting · 5 human-in-the-loop
 tags:
 - Restaurant

@@ -9,13 +9,13 @@ api_specs:
   label: GoTo Group (Gojek + Tokopedia) Tokenization API
   slug: goto-gojek-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/openapi/goto-gojek-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/goto-gojek/openapi/goto-gojek-tokenization-api-openapi.yml
 - filename: goto-gojek-transactions-api-openapi.yml
   format: yaml
   label: GoTo Group (Gojek + Tokopedia) Transactions API
   slug: goto-gojek-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/openapi/goto-gojek-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/goto-gojek/openapi/goto-gojek-transactions-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 5
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/goto-g
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{orderId}/cancel\n  method: post\n  operationId: cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{orderId}/expire\n  method: post\n  operationId: expire\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{orderId}/refund\n\
   \  method: post\n  operationId: refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{orderId}/refund/online/direct\n  method: post\n  operationId: refundDirect\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/capture\n  method: post\n  operationId: capture\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/card/register\n  method: get\n  operationId: registerCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/token\n  method: get\n  operationId: getToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/bins/{binNumber}\n  method: get\n  operationId: getBin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/agentic-access/goto-gojek-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/goto-gojek/agentic-access/goto-gojek-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Super App

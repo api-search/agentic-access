@@ -9,25 +9,25 @@ api_specs:
   label: Fawry Installments API
   slug: fawry-installments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/openapi/fawry-installments-api-openapi.yml
+  url: https://artifacts.apis.io/fawry/openapi/fawry-installments-api-openapi.yml
 - filename: fawry-orders-api-openapi.yml
   format: yaml
   label: Fawry Orders API
   slug: fawry-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/openapi/fawry-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fawry/openapi/fawry-orders-api-openapi.yml
 - filename: fawry-payments-api-openapi.yml
   format: yaml
   label: Fawry Payments API
   slug: fawry-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/openapi/fawry-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fawry/openapi/fawry-payments-api-openapi.yml
 - filename: fawry-refunds-api-openapi.yml
   format: yaml
   label: Fawry Refunds API
   slug: fawry-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/openapi/fawry-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/fawry/openapi/fawry-refunds-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 2
@@ -71,7 +71,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fawrypay-server-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 3\n    connected: 2\n  by_consequence:\n    physical: 3\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /ECommerceWeb/Fawry/payments/charge\n  method: post\n  operationId: createCharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ECommerceWeb/Fawry/payments/refund\n\
   \  method: post\n  operationId: refundCharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ECommerceWeb/api/orders/cancel-unpaid-order\n  method: post\n  operationId: cancelUnpaidOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ECommerceWeb/Fawry/payments/status/v2\n  method: get\n  operationId: getPaymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /ECommerceWeb/api/merchant/installment-plans\n  method: get\n  operationId: listInstallmentPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/agentic-access/fawry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fawry/agentic-access/fawry-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
 - Payments

@@ -9,43 +9,43 @@ api_specs:
   label: Mathpix Strokes API
   slug: mathpix-strokes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-strokes-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-strokes-api-openapi.yml
 - filename: mathpix-app-tokens-api-openapi.yml
   format: yaml
   label: Mathpix App Tokens API
   slug: mathpix-app-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-app-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-app-tokens-api-openapi.yml
 - filename: mathpix-batches-api-openapi.yml
   format: yaml
   label: Mathpix Batches API
   slug: mathpix-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-batches-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-batches-api-openapi.yml
 - filename: mathpix-conversions-api-openapi.yml
   format: yaml
   label: Mathpix Conversions API
   slug: mathpix-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-conversions-api-openapi.yml
 - filename: mathpix-images-api-openapi.yml
   format: yaml
   label: Mathpix Images API
   slug: mathpix-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-images-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-images-api-openapi.yml
 - filename: mathpix-usage-api-openapi.yml
   format: yaml
   label: Mathpix Usage API
   slug: mathpix-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-usage-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-usage-api-openapi.yml
 - filename: mathpix-documents-api-openapi.yml
   format: yaml
   label: Mathpix Documents API
   slug: mathpix-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/openapi/mathpix-documents-api-openapi.yml
+  url: https://artifacts.apis.io/mathpix/openapi/mathpix-documents-api-openapi.yml
 consequence_counts:
   read: 12
   write: 7
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/mathpi
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/pdf/{pdf_id}/stream\n  method: get\n  operationId: streamDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/pdf/{pdf_id}.mmd\n  method: get\n  operationId: downloadMmd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/pdf/{pdf_id}.md\n  method: get\n  operationId: downloadMd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/pdf/{pdf_id}.docx\n  method: get\n  operationId: downloadDocx\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/pdf/{pdf_id}.tex.zip\n  method: get\n  operationId: downloadTexZip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/pdf/{pdf_id}.html\n  method: get\n  operationId: downloadHtml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/pdf/{pdf_id}.pptx\n  method: get\n  operationId: downloadPptx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/pdf/{pdf_id}.lines.json\n  method: get\n  operationId: downloadLinesJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/text\n\
   \  method: post\n  operationId: processImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/strokes\n  method: post\n  operationId: processStrokes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/ocr-usage\n  method: get\n  operationId: queryOcrUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/agentic-access/mathpix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mathpix/agentic-access/mathpix-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
 - OCR

@@ -9,31 +9,31 @@ api_specs:
   label: 'Stack Moxie How To: Administer API'
   slug: stack-moxie-how-to-administer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-administer-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-administer-api-openapi.yml
 - filename: stack-moxie-how-to-automate-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Automate API'
   slug: stack-moxie-how-to-automate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-automate-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-automate-api-openapi.yml
 - filename: stack-moxie-how-to-integrate-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Integrate API'
   slug: stack-moxie-how-to-integrate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-integrate-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-integrate-api-openapi.yml
 - filename: stack-moxie-how-to-organize-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Organize API'
   slug: stack-moxie-how-to-organize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-organize-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-organize-api-openapi.yml
 - filename: stack-moxie-how-to-test-api-openapi.yml
   format: yaml
   label: 'Stack Moxie How To: Test API'
   slug: stack-moxie-how-to-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-how-to-test-api-openapi.yml
+  url: https://artifacts.apis.io/stack-moxie/openapi/stack-moxie-how-to-test-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/stack-
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{org}/schedules\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{org}/schedules/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{org}/schedules/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/organizations/{org}/schedules/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{org}/scenarios/{id}/runs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{org}/scenarios/{id}/runs\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{org}/scenarios/{scenarioId}/runs/{id}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{org}/scenarios/{scenarioId}/mostRecentRun\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{org}/scenarios/{scenarioId}/runs/{runId}/log/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/agentic-access/stack-moxie-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stack-moxie/agentic-access/stack-moxie-agentic-access.yml
 summary_line: 43 operations · 23 acting
 tags:
 - Company

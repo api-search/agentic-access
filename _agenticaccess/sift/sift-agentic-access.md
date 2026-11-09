@@ -9,43 +9,43 @@ api_specs:
   label: Sift Decisions API
   slug: sift-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-decisions-api-openapi.yml
 - filename: sift-events-api-openapi.yml
   format: yaml
   label: Sift Events API
   slug: sift-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-events-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-events-api-openapi.yml
 - filename: sift-labels-api-openapi.yml
   format: yaml
   label: Sift Labels API
   slug: sift-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-labels-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-labels-api-openapi.yml
 - filename: sift-psp-merchant-management-api-openapi.yml
   format: yaml
   label: Sift PSP Merchant Management API
   slug: sift-psp-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-psp-merchant-management-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-psp-merchant-management-api-openapi.yml
 - filename: sift-score-api-openapi.yml
   format: yaml
   label: Sift Score API
   slug: sift-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-score-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-score-api-openapi.yml
 - filename: sift-verification-api-openapi.yml
   format: yaml
   label: Sift Verification API
   slug: sift-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-verification-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-verification-api-openapi.yml
 - filename: sift-workflows-api-openapi.yml
   format: yaml
   label: Sift Workflows API
   slug: sift-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/openapi/sift-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/sift/openapi/sift-workflows-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 7
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sift-o
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{account_id}/psp_management/merchants\n  method: post\n  operationId: createPspMerchant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/accounts/{account_id}/psp_management/merchants/{merchant_id}\n  method: get\n  operationId: getPspMerchant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{account_id}/psp_management/merchants/{merchant_id}\n  method: put\n  operationId: updatePspMerchant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/verification/send\n  method: post\n  operationId: verificationSend\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/verification/resend\n  method: post\n  operationId: verificationResend\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/verification/check\n  method: post\n  operationId: verificationCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/agentic-access/sift-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sift/agentic-access/sift-agentic-access.yml
 summary_line: 20 operations · 13 acting
 tags:
 - Fraud Prevention

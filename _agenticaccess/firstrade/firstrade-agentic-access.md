@@ -9,7 +9,7 @@ api_specs:
   label: Firstrade Plaid API
   slug: firstrade-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-plaid-api-openapi.yml
+  url: https://artifacts.apis.io/firstrade/openapi/firstrade-plaid-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 14
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/firstr
   \ - abnormal\n      - high-value\n    audit: required\n- path: /private/option_order\n  method: post\n  operationId: placeOptionOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /private/watchlists\n  method: get\n  operationId: listWatchlists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/watchlists\n  method: post\n  operationId: createWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /private/watchlists/{list_id}\n  method: get\n  operationId: getWatchlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/watchlists/{list_id}\n  method: delete\n  operationId: deleteWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /private/all_watchlist_items\n  method: get\n  operationId: getAllWatchlistItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/watchlist/{list_id}\n  method: post\n  operationId: addWatchlistItem\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /private/watchlist/{list_id}\n  method: delete\n  operationId: deleteWatchlistItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/agentic-access/firstrade-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/firstrade/agentic-access/firstrade-agentic-access.yml
 summary_line: 24 operations · 10 acting
 tags:
 - Brokerage

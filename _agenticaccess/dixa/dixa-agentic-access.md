@@ -9,121 +9,121 @@ api_specs:
   label: Dixa Agents API
   slug: dixa-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-agents-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-agents-api-openapi.yml
 - filename: dixa-analytics-api-openapi.yml
   format: yaml
   label: Dixa Analytics API
   slug: dixa-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-analytics-api-openapi.yml
 - filename: dixa-anonymization-api-openapi.yml
   format: yaml
   label: Dixa Anonymization API
   slug: dixa-anonymization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-anonymization-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-anonymization-api-openapi.yml
 - filename: dixa-business-hours-api-openapi.yml
   format: yaml
   label: Dixa Business Hours API
   slug: dixa-business-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-business-hours-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-business-hours-api-openapi.yml
 - filename: dixa-chatbots-api-openapi.yml
   format: yaml
   label: Dixa Chatbots API
   slug: dixa-chatbots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-chatbots-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-chatbots-api-openapi.yml
 - filename: dixa-contact-endpoints-api-openapi.yml
   format: yaml
   label: Dixa Contact Endpoints API
   slug: dixa-contact-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-contact-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-contact-endpoints-api-openapi.yml
 - filename: dixa-conversations-api-openapi.yml
   format: yaml
   label: Dixa Conversations API
   slug: dixa-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-conversations-api-openapi.yml
 - filename: dixa-custom-attributes-api-openapi.yml
   format: yaml
   label: Dixa Custom Attributes API
   slug: dixa-custom-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-custom-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-custom-attributes-api-openapi.yml
 - filename: dixa-end-users-api-openapi.yml
   format: yaml
   label: Dixa End Users API
   slug: dixa-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-end-users-api-openapi.yml
 - filename: dixa-internal-notes-api-openapi.yml
   format: yaml
   label: Dixa Internal Notes API
   slug: dixa-internal-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-internal-notes-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-internal-notes-api-openapi.yml
 - filename: dixa-knowledge-api-openapi.yml
   format: yaml
   label: Dixa Knowledge API
   slug: dixa-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-knowledge-api-openapi.yml
 - filename: dixa-messages-api-openapi.yml
   format: yaml
   label: Dixa Messages API
   slug: dixa-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-messages-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-messages-api-openapi.yml
 - filename: dixa-organization-api-openapi.yml
   format: yaml
   label: Dixa Organization API
   slug: dixa-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-organization-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-organization-api-openapi.yml
 - filename: dixa-queues-api-openapi.yml
   format: yaml
   label: Dixa Queues API
   slug: dixa-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-queues-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-queues-api-openapi.yml
 - filename: dixa-ratings-api-openapi.yml
   format: yaml
   label: Dixa Ratings API
   slug: dixa-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-ratings-api-openapi.yml
 - filename: dixa-search-api-openapi.yml
   format: yaml
   label: Dixa Search API
   slug: dixa-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-search-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-search-api-openapi.yml
 - filename: dixa-tags-api-openapi.yml
   format: yaml
   label: Dixa Tags API
   slug: dixa-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-tags-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-tags-api-openapi.yml
 - filename: dixa-teams-api-openapi.yml
   format: yaml
   label: Dixa Teams API
   slug: dixa-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-teams-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-teams-api-openapi.yml
 - filename: dixa-templates-api-openapi.yml
   format: yaml
   label: Dixa Templates API
   slug: dixa-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-templates-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-templates-api-openapi.yml
 - filename: dixa-webhooks-api-openapi.yml
   format: yaml
   label: Dixa Webhooks API
   slug: dixa-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/openapi/dixa-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dixa/openapi/dixa-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 71
@@ -193,8 +193,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dixa-a
   \      - high-value\n    audit: required\n- path: /beta/endusers/{userId}/custom-attributes\n  method: patch\n  operationId: patchEndusersUseridCustom-attributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/endusers/{userId}/conversations\n  method: get\n  operationId: getEndusersUseridConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/conversations/{conversationId}/notes/bulk\n  method: post\n  operationId: postConversationsConversationidNotesBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/conversations/{conversationId}/notes\n  method: get\n  operationId: getConversationsConversationidNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/conversations/{conversationId}/notes\n  method: post\n  operationId: postConversationsConversationidNotes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/knowledge/collections/{collectionId}\n  method: get\n  operationId: getKnowledgeCollectionsCollectionid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /beta/knowledge/collections/{collectionId}/catalog\n  method: get\n  operationId: getKnowledgeCollectionsCollectionidCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/knowledge/categories/{categoryId}\n  method: get\n  operationId: getKnowledgeCategoriesCategoryid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/knowledge/categories/{categoryId}/translations\n  method: get\n  operationId: getKnowledgeCategoriesCategoryidTranslations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/knowledge/articles/{articleId}\n  method: get\n  operationId: getKnowledgeArticlesArticleid\n  x-agentic-access:\n    action-class: connected\n \
-  \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/knowledge/articles/{articleId}\n  method: delete\n  operationId: deleteKnowledgeArticlesArticleid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/knowledge/articles/{articleId}\n  method: patch\n  operationId: patchKnowledgeArticlesArticleid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/agentic-access/dixa-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/agentic-access/dixa-agentic-access.yml
+  \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/knowledge/articles/{articleId}\n  method: delete\n  operationId: deleteKnowledgeArticlesArticleid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/knowledge/articles/{articleId}\n  method: patch\n  operationId: patchKnowledgeArticlesArticleid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/dixa/agentic-access/dixa-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/dixa/agentic-access/dixa-agentic-access.yml
 summary_line: 157 operations · 86 acting
 tags:
 - Customer Service

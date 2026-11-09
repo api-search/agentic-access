@@ -9,37 +9,37 @@ api_specs:
   label: CMiC Cost Tracking API
   slug: cmic-cost-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-cost-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-cost-tracking-api-openapi.yml
 - filename: cmic-documents-api-openapi.yml
   format: yaml
   label: CMiC Documents API
   slug: cmic-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-documents-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-documents-api-openapi.yml
 - filename: cmic-equipment-api-openapi.yml
   format: yaml
   label: CMiC Equipment API
   slug: cmic-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-equipment-api-openapi.yml
 - filename: cmic-jobs-api-openapi.yml
   format: yaml
   label: CMiC Jobs API
   slug: cmic-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-jobs-api-openapi.yml
 - filename: cmic-projects-api-openapi.yml
   format: yaml
   label: CMiC Projects API
   slug: cmic-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-projects-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-projects-api-openapi.yml
 - filename: cmic-subcontractors-api-openapi.yml
   format: yaml
   label: CMiC Subcontractors API
   slug: cmic-subcontractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-subcontractors-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-subcontractors-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cmic-c
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pm-rest-api/v1/PMproject/{projectId}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pm-rest-api/v1/PMproject/{projectId}\n  method: put\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jc-rest-api/v1/JCjob\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jc-rest-api/v1/JCjob/{jobId}\n  method: get\n  operationId:\
   \ getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jc-rest-api/v1/JCcostCode\n  method: get\n  operationId: listCostCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ap-rest-api/v1/APvendor\n  method: get\n  operationId: listVendors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ap-rest-api/v1/APvendor/{vendorId}\n  method: get\n  operationId: getVendor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dm-rest-api/v1/DMdocument\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eq-rest-api/v1/EQequipment\n  method: get\n  operationId: listEquipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/agentic-access/cmic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cmic/agentic-access/cmic-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Construction

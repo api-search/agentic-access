@@ -9,187 +9,187 @@ api_specs:
   label: Major League Baseball Analytics API
   slug: major-league-baseball-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-analytics-api-openapi.yml
 - filename: major-league-baseball-attendance-api-openapi.yml
   format: yaml
   label: Major League Baseball Attendance API
   slug: major-league-baseball-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-attendance-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-attendance-api-openapi.yml
 - filename: major-league-baseball-awards-api-openapi.yml
   format: yaml
   label: Major League Baseball Awards API
   slug: major-league-baseball-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-awards-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-awards-api-openapi.yml
 - filename: major-league-baseball-bat-tracking-api-openapi.yml
   format: yaml
   label: Major League Baseball Bat Tracking API
   slug: major-league-baseball-bat-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-bat-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-bat-tracking-api-openapi.yml
 - filename: major-league-baseball-biomechanics-api-openapi.yml
   format: yaml
   label: Major League Baseball Biomechanics API
   slug: major-league-baseball-biomechanics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-biomechanics-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-biomechanics-api-openapi.yml
 - filename: major-league-baseball-broadcast-api-openapi.yml
   format: yaml
   label: Major League Baseball Broadcast API
   slug: major-league-baseball-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-broadcast-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-broadcast-api-openapi.yml
 - filename: major-league-baseball-conference-api-openapi.yml
   format: yaml
   label: Major League Baseball Conference API
   slug: major-league-baseball-conference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-conference-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-conference-api-openapi.yml
 - filename: major-league-baseball-config-api-openapi.yml
   format: yaml
   label: Major League Baseball Config API
   slug: major-league-baseball-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-config-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-config-api-openapi.yml
 - filename: major-league-baseball-division-api-openapi.yml
   format: yaml
   label: Major League Baseball Division API
   slug: major-league-baseball-division-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-division-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-division-api-openapi.yml
 - filename: major-league-baseball-draft-api-openapi.yml
   format: yaml
   label: Major League Baseball Draft API
   slug: major-league-baseball-draft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-draft-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-draft-api-openapi.yml
 - filename: major-league-baseball-game-api-openapi.yml
   format: yaml
   label: Major League Baseball Game API
   slug: major-league-baseball-game-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-game-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-game-api-openapi.yml
 - filename: major-league-baseball-game-pace-api-openapi.yml
   format: yaml
   label: Major League Baseball Game Pace API
   slug: major-league-baseball-game-pace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-game-pace-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-game-pace-api-openapi.yml
 - filename: major-league-baseball-high-low-api-openapi.yml
   format: yaml
   label: Major League Baseball High/Low API
   slug: major-league-baseball-high-low-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-high-low-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-high-low-api-openapi.yml
 - filename: major-league-baseball-homerun-derby-api-openapi.yml
   format: yaml
   label: Major League Baseball Homerun Derby API
   slug: major-league-baseball-homerun-derby-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-homerun-derby-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-homerun-derby-api-openapi.yml
 - filename: major-league-baseball-job-api-openapi.yml
   format: yaml
   label: Major League Baseball Job API
   slug: major-league-baseball-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-job-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-job-api-openapi.yml
 - filename: major-league-baseball-league-api-openapi.yml
   format: yaml
   label: Major League Baseball League API
   slug: major-league-baseball-league-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-league-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-league-api-openapi.yml
 - filename: major-league-baseball-milestones-api-openapi.yml
   format: yaml
   label: Major League Baseball Milestones API
   slug: major-league-baseball-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-milestones-api-openapi.yml
 - filename: major-league-baseball-person-api-openapi.yml
   format: yaml
   label: Major League Baseball Person API
   slug: major-league-baseball-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-person-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-person-api-openapi.yml
 - filename: major-league-baseball-predictions-api-openapi.yml
   format: yaml
   label: Major League Baseball Predictions API
   slug: major-league-baseball-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-predictions-api-openapi.yml
 - filename: major-league-baseball-reviews-api-openapi.yml
   format: yaml
   label: Major League Baseball Reviews API
   slug: major-league-baseball-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-reviews-api-openapi.yml
 - filename: major-league-baseball-schedule-api-openapi.yml
   format: yaml
   label: Major League Baseball Schedule API
   slug: major-league-baseball-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-schedule-api-openapi.yml
 - filename: major-league-baseball-season-api-openapi.yml
   format: yaml
   label: Major League Baseball Season API
   slug: major-league-baseball-season-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-season-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-season-api-openapi.yml
 - filename: major-league-baseball-skeletal-api-openapi.yml
   format: yaml
   label: Major League Baseball Skeletal API
   slug: major-league-baseball-skeletal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-skeletal-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-skeletal-api-openapi.yml
 - filename: major-league-baseball-sports-api-openapi.yml
   format: yaml
   label: Major League Baseball Sports API
   slug: major-league-baseball-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-sports-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-sports-api-openapi.yml
 - filename: major-league-baseball-standings-api-openapi.yml
   format: yaml
   label: Major League Baseball Standings API
   slug: major-league-baseball-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-standings-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-standings-api-openapi.yml
 - filename: major-league-baseball-stats-api-openapi.yml
   format: yaml
   label: Major League Baseball Stats API
   slug: major-league-baseball-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-stats-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-stats-api-openapi.yml
 - filename: major-league-baseball-streaks-api-openapi.yml
   format: yaml
   label: Major League Baseball Streaks API
   slug: major-league-baseball-streaks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-streaks-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-streaks-api-openapi.yml
 - filename: major-league-baseball-teams-api-openapi.yml
   format: yaml
   label: Major League Baseball Teams API
   slug: major-league-baseball-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-teams-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-teams-api-openapi.yml
 - filename: major-league-baseball-transactions-api-openapi.yml
   format: yaml
   label: Major League Baseball Transactions API
   slug: major-league-baseball-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-transactions-api-openapi.yml
 - filename: major-league-baseball-venues-api-openapi.yml
   format: yaml
   label: Major League Baseball Venues API
   slug: major-league-baseball-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-venues-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-venues-api-openapi.yml
 - filename: major-league-baseball-weather-api-openapi.yml
   format: yaml
   label: Major League Baseball Weather API
   slug: major-league-baseball-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/openapi/major-league-baseball-weather-api-openapi.yml
+  url: https://artifacts.apis.io/major-league-baseball/openapi/major-league-baseball-weather-api-openapi.yml
 consequence_counts:
   read: 180
   write: 6
@@ -248,8 +248,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/major-
   \  method: get\n  operationId: currentGameStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/people/{personId}/stats/game/current\n  method: get\n  operationId: currentGameStats_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/people/{personId}/awards\n  method: get\n  operationId: award\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/people/{personId}\n  method: get\n  operationId: person\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/people\n  method: get\n  operationId: person_1\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/people/search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/people/freeAgents\n  method: get\n  operationId: freeAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/people/changes\n  method: get\n  operationId: currentGameStats_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/props/play/predictions\n  method: get\n  operationId: getProps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/props/play/predictions/adjust\n\
   \  method: get\n  operationId: getPropsAdjust\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/review\n  method: get\n  operationId: getReviewInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/schedule/postseason\n  method: get\n  operationId: postseasonSchedule_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/schedule/postseason\n  method: post\n  operationId: postseasonSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /api/v1/schedule/trackingEvents\n  method: get\n  operationId: trackingEventsSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/schedule/private\n  method: get\n  operationId: schedulePrivate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/schedule/private/{scheduleType}\n  method: get\n  operationId: schedulePrivate_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/agentic-access/major-league-baseball-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/major-league-baseball/refs/heads/main/agentic-access/major-league-baseball-agentic-access.yml
+  - path: /api/v1/schedule/trackingEvents\n  method: get\n  operationId: trackingEventsSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/schedule/private\n  method: get\n  operationId: schedulePrivate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/schedule/private/{scheduleType}\n  method: get\n  operationId: schedulePrivate_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/major-league-baseball/agentic-access/major-league-baseball-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/major-league-baseball/agentic-access/major-league-baseball-agentic-access.yml
 summary_line: 186 operations · 6 acting
 tags:
 - Analytics

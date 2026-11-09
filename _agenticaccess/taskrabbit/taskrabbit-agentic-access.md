@@ -9,31 +9,31 @@ api_specs:
   label: TaskRabbit Delivery API
   slug: taskrabbit-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-delivery-api-openapi.yml
 - filename: taskrabbit-home-services-availability-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Availability API
   slug: taskrabbit-home-services-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-availability-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-availability-api-openapi.yml
 - filename: taskrabbit-home-services-booking-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Booking API
   slug: taskrabbit-home-services-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-booking-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-booking-api-openapi.yml
 - filename: taskrabbit-home-services-catalog-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Catalog API
   slug: taskrabbit-home-services-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-catalog-api-openapi.yml
 - filename: taskrabbit-home-services-estimate-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Estimate API
   slug: taskrabbit-home-services-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-estimate-api-openapi.yml
 consequence_counts:
   read: 6
   write: 8
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/taskra
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_uuid}/cancel\n  method: post\n  operationId: cancelBookedProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_uuid}/reschedule-availability\n  method: get\n  operationId: getRescheduleAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_uuid}/reschedule\n  method: post\n  operationId: rescheduleProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /brands/{brand_uuid}/services\n  method: get\n  operationId: listServicesByBrandUuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{service_uuid}/external-identifier\n  method: put\n  operationId: updateServiceExternalIdentifier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/estimate\n  method: post\n  operationId: estimateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/agentic-access/taskrabbit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/taskrabbit/agentic-access/taskrabbit-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - Gig Economy

@@ -9,7 +9,7 @@ api_specs:
   label: Evari Quotes API
   slug: evari-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/openapi/evari-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/evari/openapi/evari-quotes-api-openapi.yml
 consequence_counts:
   read: 39
   write: 17
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/evari-
   \    audit: required\n- path: /api/quotes/referred-quotes/{referredQuoteId}/notes\n  method: get\n  operationId: ReferredQuoteGetAllNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/quotes/referred-quotes/{referredQuoteId}/notes/{id}\n  method: get\n  operationId: ReferredQuoteGetNote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/quotes/products/{id}/quote-date-config\n  method: get\n  operationId: QuoteDateConfigGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/quotes/products/{id}/quote-date-config\n  method: patch\n  operationId: QuoteDateConfigPatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/quotes/public/products/{id}/quote-date-config\n  method: get\n  operationId: QuoteDateConfigGetPublicQuoteDateConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/quotes/public/referred-quotes/{referredQuoteId}/refer-to-underwriter\n  method: post\n  operationId: PublicReferredQuoteReferQuoteToUnderwriter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/quotes/public/referred-quotes/{id}\n  method: get\n  operationId: PublicReferredQuoteGet\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/quotes/public/quotes/{quoteId}/referred-quotes\n  method: get\n  operationId: PublicReferredQuoteGetByQuoteId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/agentic-access/evari-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/evari/agentic-access/evari-agentic-access.yml
 summary_line: 56 operations · 17 acting
 tags:
 - Insurance

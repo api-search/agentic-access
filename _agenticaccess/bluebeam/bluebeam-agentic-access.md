@@ -9,25 +9,25 @@ api_specs:
   label: bluebeam Documents API
   slug: bluebeam-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-documents-api-openapi.yml
+  url: https://artifacts.apis.io/bluebeam/openapi/bluebeam-documents-api-openapi.yml
 - filename: bluebeam-markups-api-openapi.yml
   format: yaml
   label: bluebeam Markups API
   slug: bluebeam-markups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-markups-api-openapi.yml
+  url: https://artifacts.apis.io/bluebeam/openapi/bluebeam-markups-api-openapi.yml
 - filename: bluebeam-sessions-api-openapi.yml
   format: yaml
   label: bluebeam Sessions API
   slug: bluebeam-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/bluebeam/openapi/bluebeam-sessions-api-openapi.yml
 - filename: bluebeam-users-api-openapi.yml
   format: yaml
   label: bluebeam Users API
   slug: bluebeam-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-users-api-openapi.yml
+  url: https://artifacts.apis.io/bluebeam/openapi/bluebeam-users-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bluebe
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /studio/v1/sessions/{sessionId}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studio/v1/sessions/{sessionId}\n  method: patch\n  operationId: updateSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /studio/v1/sessions/{sessionId}/finish\n  method: post\n  operationId: finishSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /studio/v1/sessions/{sessionId}/documents\n  method: get\n  operationId: listSessionDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studio/v1/sessions/{sessionId}/documents\n  method: post\n  operationId: uploadSessionDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /studio/v1/sessions/{sessionId}/documents/{documentId}/markups\n  method: get\n  operationId: getDocumentMarkups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studio/v1/sessions/{sessionId}/users\n\
   \  method: get\n  operationId: listSessionUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studio/v1/sessions/{sessionId}/users\n  method: post\n  operationId: inviteSessionUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/agentic-access/bluebeam-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bluebeam/agentic-access/bluebeam-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Construction

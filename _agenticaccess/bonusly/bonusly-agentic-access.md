@@ -9,37 +9,37 @@ api_specs:
   label: Bonusly Analytics API
   slug: bonusly-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-analytics-api-openapi.yml
 - filename: bonusly-bonuses-api-openapi.yml
   format: yaml
   label: Bonusly Bonuses API
   slug: bonusly-bonuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-bonuses-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-bonuses-api-openapi.yml
 - filename: bonusly-company-api-openapi.yml
   format: yaml
   label: Bonusly Company API
   slug: bonusly-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-company-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-company-api-openapi.yml
 - filename: bonusly-redemptions-api-openapi.yml
   format: yaml
   label: Bonusly Redemptions API
   slug: bonusly-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-redemptions-api-openapi.yml
 - filename: bonusly-rewards-api-openapi.yml
   format: yaml
   label: Bonusly Rewards API
   slug: bonusly-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-rewards-api-openapi.yml
 - filename: bonusly-users-api-openapi.yml
   format: yaml
   label: Bonusly Users API
   slug: bonusly-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/openapi/bonusly-users-api-openapi.yml
+  url: https://artifacts.apis.io/bonusly/openapi/bonusly-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bonusl
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/snapshots/analytics_users\n  method: post\n  operationId: queueUsersSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/snapshots/recognition_events\n  method: post\n  operationId: queueRecognitionEventsSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/snapshots/{id}\n  method: get\n  operationId: getSnapshotStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /analytics/analytics_users\n  method: get\n  operationId: listAnalyticsUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/recognition_events\n  method: get\n  operationId: listRecognitionEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company\n  method: get\n  operationId: retrieveCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company\n  method: put\n  operationId: updateCompany\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/agentic-access/bonusly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bonusly/agentic-access/bonusly-agentic-access.yml
 summary_line: 31 operations · 12 acting
 tags:
 - Employee Recognition

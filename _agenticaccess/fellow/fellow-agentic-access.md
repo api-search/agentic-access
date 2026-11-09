@@ -9,31 +9,31 @@ api_specs:
   label: Fellow Action Items API
   slug: fellow-action-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-action-items-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-action-items-api-openapi.yml
 - filename: fellow-notes-api-openapi.yml
   format: yaml
   label: Fellow Notes API
   slug: fellow-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-notes-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-notes-api-openapi.yml
 - filename: fellow-recordings-api-openapi.yml
   format: yaml
   label: Fellow Recordings API
   slug: fellow-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-recordings-api-openapi.yml
 - filename: fellow-users-api-openapi.yml
   format: yaml
   label: Fellow Users API
   slug: fellow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-users-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-users-api-openapi.yml
 - filename: fellow-webhooks-api-openapi.yml
   format: yaml
   label: Fellow Webhooks API
   slug: fellow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   write: 12
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/fellow
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/recordings\n  method: post\n  operationId: apps_developer_api_api_get_recordings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/recordings/upload\n  method: post\n  operationId: apps_developer_api_api_upload_recording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/recordings/upload/list\n  method: post\n  operationId: apps_developer_api_api_list_uploads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/recordings/upload/{recording_id}\n  method: get\n  operationId: apps_developer_api_api_get_upload_by_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhook\n  method: post\n  operationId: apps_developer_api_api_create_webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhook/{webhook_id}\n  method: get\n  operationId: apps_developer_api_api_get_webhook_by_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhook/{webhook_id}\n  method: patch\n \
   \ operationId: apps_developer_api_api_update_webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhook/{webhook_id}\n  method: delete\n  operationId: apps_developer_api_api_delete_webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks\n  method: get\n  operationId: apps_developer_api_api_list_webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/agentic-access/fellow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fellow/agentic-access/fellow-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Company

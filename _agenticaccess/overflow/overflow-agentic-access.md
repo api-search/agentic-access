@@ -9,79 +9,79 @@ api_specs:
   label: Overflow Campaigns API
   slug: overflow-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-campaigns-api-openapi.yml
 - filename: overflow-chargebacks-api-openapi.yml
   format: yaml
   label: Overflow Chargebacks API
   slug: overflow-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-chargebacks-api-openapi.yml
 - filename: overflow-contributions-api-openapi.yml
   format: yaml
   label: Overflow Contributions API
   slug: overflow-contributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-contributions-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-contributions-api-openapi.yml
 - filename: overflow-deposits-api-openapi.yml
   format: yaml
   label: Overflow Deposits API
   slug: overflow-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-deposits-api-openapi.yml
 - filename: overflow-donors-api-openapi.yml
   format: yaml
   label: Overflow Donors API
   slug: overflow-donors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-donors-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-donors-api-openapi.yml
 - filename: overflow-locations-api-openapi.yml
   format: yaml
   label: Overflow Locations API
   slug: overflow-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-locations-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-locations-api-openapi.yml
 - filename: overflow-payment-methods-api-openapi.yml
   format: yaml
   label: Overflow Payment Methods API
   slug: overflow-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-payment-methods-api-openapi.yml
 - filename: overflow-payments-api-openapi.yml
   format: yaml
   label: Overflow Payments API
   slug: overflow-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-payments-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-payments-api-openapi.yml
 - filename: overflow-refunds-api-openapi.yml
   format: yaml
   label: Overflow Refunds API
   slug: overflow-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-refunds-api-openapi.yml
 - filename: overflow-status-api-openapi.yml
   format: yaml
   label: Overflow Status API
   slug: overflow-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-status-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-status-api-openapi.yml
 - filename: overflow-subscriptions-api-openapi.yml
   format: yaml
   label: Overflow Subscriptions API
   slug: overflow-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-subscriptions-api-openapi.yml
 - filename: overflow-tap-api-openapi.yml
   format: yaml
   label: Overflow Tap API
   slug: overflow-tap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-tap-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-tap-api-openapi.yml
 - filename: overflow-webhooks-api-openapi.yml
   format: yaml
   label: Overflow Webhooks API
   slug: overflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/openapi/overflow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/overflow/openapi/overflow-webhooks-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 8
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/overfl
   \ 3600\n    audit: none\n- path: /api/v3/locations/{locationId}\n  method: get\n  operationId: OpenApiLocationsController_getLocationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/payments/authorize\n  method: post\n  operationId: OpenApiPaymentsController_authorizePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v3/tap/destinations\n  method: get\n  operationId: OpenApiTapDestinationsController_getDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tap/destinations/{destinationId}\n\
   \  method: get\n  operationId: OpenApiTapDestinationsController_getDestinationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tap/devices\n  method: get\n  operationId: OpenApiTapDevicesController_getDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tap/devices/{deviceId}\n  method: get\n  operationId: OpenApiTapDevicesController_getDeviceById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tap/events\n  method: get\n  operationId: OpenApiTapEventsController_getEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tap/groups\n\
   \  method: get\n  operationId: OpenApiTapGroupsController_getGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tap/groups/{groupId}\n  method: get\n  operationId: OpenApiTapGroupsController_getGroupById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/health\n  method: get\n  operationId: OpenApiController_health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/agentic-access/overflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/overflow/agentic-access/overflow-agentic-access.yml
 summary_line: 38 operations · 8 acting · 8 human-in-the-loop
 tags:
 - Company

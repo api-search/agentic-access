@@ -8,13 +8,13 @@ api_specs:
   label: Nas Academy AI discovery API
   slug: nas-academy-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nas-academy/openapi/nas-academy-ai-discovery-api-openapi.yml
 - filename: nas-academy-developer-discovery-api-openapi.yml
   format: yaml
   label: Nas Academy Developer discovery API
   slug: nas-academy-developer-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-developer-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nas-academy/openapi/nas-academy-developer-discovery-api-openapi.yml
 consequence_counts:
   read: 36
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nas-ac
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/api-catalog\n  method: get\n  operationId: getNasApiCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: getNasHomepage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/agent/page-context\n  method: get\n  operationId: getNasPublicPageAgentContext\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema-feeds.json\n  method: get\n  operationId: getNasSchemaFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing.md\n  method: get\n\
   \  operationId: getNasPricingSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compare/shopify-vs-nas.md\n  method: get\n  operationId: getShopifyVsNasComparison\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compare/etsy-vs-nas.md\n  method: get\n  operationId: getEtsyVsNasComparison\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /best/ai-selling-platforms.md\n  method: get\n  operationId: getBestAiSellingPlatformsGuide\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guides/sell-products-with-ai.md\n  method: get\n  operationId: getSellProductsWithAiGuide\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guides/customer-acquisition-for-sellers.md\n  method: get\n  operationId: getCustomerAcquisitionForSellersGuide\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/ai-commerce-discovery.md\n  method: get\n  operationId: getAiCommerceDiscoveryGuide\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/agentic-access/nas-academy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nas-academy/agentic-access/nas-academy-agentic-access.yml
 summary_line: 36 operations
 tags:
 - Company

@@ -9,43 +9,43 @@ api_specs:
   label: Aserto Decision Logs API
   slug: aserto-decision-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-decision-logs-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-decision-logs-api-openapi.yml
 - filename: aserto-authorizer-api-openapi.yml
   format: yaml
   label: Aserto Authorizer API
   slug: aserto-authorizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-authorizer-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-authorizer-api-openapi.yml
 - filename: aserto-decision-logs-api-openapi.yml
   format: yaml
   label: Aserto Decision Logs API
   slug: aserto-decision-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-decision-logs-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-decision-logs-api-openapi.yml
 - filename: aserto-directory-api-openapi.yml
   format: yaml
   label: Aserto Directory API
   slug: aserto-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-directory-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-directory-api-openapi.yml
 - filename: aserto-info-api-openapi.yml
   format: yaml
   label: Aserto Info API
   slug: aserto-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-info-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-info-api-openapi.yml
 - filename: aserto-policy-api-openapi.yml
   format: yaml
   label: Aserto Policy API
   slug: aserto-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-policy-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-policy-api-openapi.yml
 - filename: aserto-auth-zen-api-openapi.yml
   format: yaml
   label: Aserto Auth ZEN API
   slug: aserto-auth-zen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/openapi/aserto-auth-zen-api-openapi.yml
+  url: https://artifacts.apis.io/aserto/openapi/aserto-auth-zen-api-openapi.yml
 consequence_counts:
   read: 17
   write: 19
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aserto
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/directory/relation\n  method: delete\n  operationId: directory.writer.v3.relation.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/directory/relation\n  method: get\n  operationId: directory.reader.v3.relation.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/directory/relation\n  method: post\n  operationId: directory.writer.v3.relation.set\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/directory/relations\n  method: get\n  operationId: directory.reader.v3.relations.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/info\n  method: get\n  operationId: info.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies\n  method: get\n  operationId: policies.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/{id}\n  method: get\n  operationId: policies.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/agentic-access/aserto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aserto/agentic-access/aserto-agentic-access.yml
 summary_line: 36 operations · 19 acting
 tags:
 - Authorization

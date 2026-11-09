@@ -8,19 +8,19 @@ api_specs:
   label: Open Liberty Configuration API
   slug: open-liberty-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/open-liberty/openapi/open-liberty-configuration-api-openapi.yml
 - filename: open-liberty-health-api-openapi.yml
   format: yaml
   label: Open Liberty Health API
   slug: open-liberty-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-health-api-openapi.yml
+  url: https://artifacts.apis.io/open-liberty/openapi/open-liberty-health-api-openapi.yml
 - filename: open-liberty-metrics-api-openapi.yml
   format: yaml
   label: Open Liberty Metrics API
   slug: open-liberty-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/open-liberty/openapi/open-liberty-metrics-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/open-liberty-admin.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /health\n  method: get\n  operationId: getOverallHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health/ready\n  method: get\n  operationId: getReadiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health/live\n  method: get\n  operationId: getLiveness\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health/started\n  method: get\n  operationId: getStartup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  operationId: getAllMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/base\n  method: get\n  operationId: getBaseMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/vendor\n  method: get\n  operationId: getVendorMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/application\n\
   \  method: get\n  operationId: getApplicationMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ibm/api/config\n  method: get\n  operationId: getServerConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ibm/api/config/{elementName}\n  method: get\n  operationId: getConfigElement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ibm/api/validation\n  method: get\n  operationId: validateConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/agentic-access/open-liberty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-liberty/agentic-access/open-liberty-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Application Server

@@ -9,37 +9,37 @@ api_specs:
   label: Tint Claims API
   slug: tint-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-claims-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-claims-api-openapi.yml
 - filename: tint-decisions-api-openapi.yml
   format: yaml
   label: Tint Decisions API
   slug: tint-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-decisions-api-openapi.yml
 - filename: tint-policies-api-openapi.yml
   format: yaml
   label: Tint Policies API
   slug: tint-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-policies-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-policies-api-openapi.yml
 - filename: tint-programs-api-openapi.yml
   format: yaml
   label: Tint Programs API
   slug: tint-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-programs-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-programs-api-openapi.yml
 - filename: tint-questionnaires-api-openapi.yml
   format: yaml
   label: Tint Questionnaires API
   slug: tint-questionnaires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-questionnaires-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-questionnaires-api-openapi.yml
 - filename: tint-quotes-api-openapi.yml
   format: yaml
   label: Tint Quotes API
   slug: tint-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/openapi/tint-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/tint/openapi/tint-quotes-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 17
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tint-o
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claim/{id}/withdraw\n  method: post\n  operationId: withdrawClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claim/{claimId}/notes\n  method: get\n  operationId: listClaimNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /claim/{claimId}/note\n  method: post\n  operationId: createClaimNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claim/{claimId}/note/{noteId}\n  method: put\n  operationId: updateClaimNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claim/{claimId}/payment\n  method: post\n  operationId: createClaimPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claim/{claimId}/upload-url\n  method: get\n\
   \  operationId: getClaimUploadUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/agentic-access/tint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tint/agentic-access/tint-agentic-access.yml
 summary_line: 41 operations · 24 acting
 tags:
 - Insurance

@@ -9,67 +9,67 @@ api_specs:
   label: Wiktionary Definition API
   slug: wiktionary-definition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-definition-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-definition-api-openapi.yml
 - filename: wiktionary-expandtemplates-api-openapi.yml
   format: yaml
   label: Wiktionary ExpandTemplates API
   slug: wiktionary-expandtemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-expandtemplates-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-expandtemplates-api-openapi.yml
 - filename: wiktionary-file-api-openapi.yml
   format: yaml
   label: Wiktionary File API
   slug: wiktionary-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-file-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-file-api-openapi.yml
 - filename: wiktionary-history-api-openapi.yml
   format: yaml
   label: Wiktionary History API
   slug: wiktionary-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-history-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-history-api-openapi.yml
 - filename: wiktionary-page-api-openapi.yml
   format: yaml
   label: Wiktionary Page API
   slug: wiktionary-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-page-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-page-api-openapi.yml
 - filename: wiktionary-page-content-api-openapi.yml
   format: yaml
   label: Wiktionary Page Content API
   slug: wiktionary-page-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-page-content-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-page-content-api-openapi.yml
 - filename: wiktionary-parse-api-openapi.yml
   format: yaml
   label: Wiktionary Parse API
   slug: wiktionary-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-parse-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-parse-api-openapi.yml
 - filename: wiktionary-query-api-openapi.yml
   format: yaml
   label: Wiktionary Query API
   slug: wiktionary-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-query-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-query-api-openapi.yml
 - filename: wiktionary-search-api-openapi.yml
   format: yaml
   label: Wiktionary Search API
   slug: wiktionary-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-search-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-search-api-openapi.yml
 - filename: wiktionary-transform-api-openapi.yml
   format: yaml
   label: Wiktionary Transform API
   slug: wiktionary-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-transform-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-transform-api-openapi.yml
 - filename: wiktionary-open-search-api-openapi.yml
   format: yaml
   label: Wiktionary Open Search API
   slug: wiktionary-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-open-search-api-openapi.yml
+  url: https://artifacts.apis.io/wiktionary/openapi/wiktionary-open-search-api-openapi.yml
 consequence_counts:
   read: 21
   write: 3
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wiktio
   \ get\n  operationId: expandTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /page/definition/{term}\n  method: get\n  operationId: getDefinition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /page/summary/{title}\n  method: get\n  operationId: getPageSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /page/html/{title}\n  method: get\n  operationId: getPageHtml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /page/title/{title}\n  method: get\n  operationId: getPageTitle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /page/mobile-html/{title}\n  method: get\n  operationId: getPageMobileHtml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transform/wikitext/to/html/{title}\n  method: post\n  operationId: transformWikitextToHtml\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transform/html/to/wikitext/{title}/{revision}\n  method: post\n  operationId: transformHtmlToWikitext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /transform/wikitext/to/lint/{title}\n  method: post\n  operationId: transformWikitextToLint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/agentic-access/wiktionary-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wiktionary/agentic-access/wiktionary-agentic-access.yml
 summary_line: 24 operations · 3 acting
 tags:
 - Dictionaries

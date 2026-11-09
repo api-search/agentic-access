@@ -9,103 +9,103 @@ api_specs:
   label: Notarize Cost Centers API
   slug: notarize-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-cost-centers-api-openapi.yml
 - filename: notarize-documents-api-openapi.yml
   format: yaml
   label: Notarize Documents API
   slug: notarize-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-documents-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-documents-api-openapi.yml
 - filename: notarize-eligibilities-api-openapi.yml
   format: yaml
   label: Notarize Eligibilities API
   slug: notarize-eligibilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-eligibilities-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-eligibilities-api-openapi.yml
 - filename: notarize-enote-api-openapi.yml
   format: yaml
   label: Notarize E Note API
   slug: notarize-enote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-enote-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-enote-api-openapi.yml
 - filename: notarize-integrations-api-openapi.yml
   format: yaml
   label: Notarize Integrations API
   slug: notarize-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-integrations-api-openapi.yml
 - filename: notarize-notaries-api-openapi.yml
   format: yaml
   label: Notarize Notaries API
   slug: notarize-notaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-notaries-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-notaries-api-openapi.yml
 - filename: notarize-notarization-records-api-openapi.yml
   format: yaml
   label: Notarize Notarization Records API
   slug: notarize-notarization-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-notarization-records-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-notarization-records-api-openapi.yml
 - filename: notarize-oauth-2-0-api-openapi.yml
   format: yaml
   label: Notarize OAuth 2.0 API
   slug: notarize-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-oauth-2-0-api-openapi.yml
 - filename: notarize-oid4vp-api-openapi.yml
   format: yaml
   label: Notarize OID4VP API
   slug: notarize-oid4vp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-oid4vp-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-oid4vp-api-openapi.yml
 - filename: notarize-organizations-api-openapi.yml
   format: yaml
   label: Notarize Organizations API
   slug: notarize-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-organizations-api-openapi.yml
 - filename: notarize-referrals-api-openapi.yml
   format: yaml
   label: Notarize Referrals API
   slug: notarize-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-referrals-api-openapi.yml
 - filename: notarize-scim-api-openapi.yml
   format: yaml
   label: Notarize SCIM API
   slug: notarize-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-scim-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-scim-api-openapi.yml
 - filename: notarize-security-events-api-openapi.yml
   format: yaml
   label: Notarize Security Events API
   slug: notarize-security-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-security-events-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-security-events-api-openapi.yml
 - filename: notarize-templates-api-openapi.yml
   format: yaml
   label: Notarize Templates API
   slug: notarize-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-templates-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-templates-api-openapi.yml
 - filename: notarize-title-agencies-api-openapi.yml
   format: yaml
   label: Notarize Title Agencies API
   slug: notarize-title-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-title-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-title-agencies-api-openapi.yml
 - filename: notarize-transactions-api-openapi.yml
   format: yaml
   label: Notarize Transactions API
   slug: notarize-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-transactions-api-openapi.yml
 - filename: notarize-webhooks-api-openapi.yml
   format: yaml
   label: Notarize Webhooks API
   slug: notarize-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 47
@@ -204,8 +204,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/notari
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mortgage/v2/webhooks\n  method: post\n  operationId: createMortgageWebhookV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mortgage/v2/webhooks/subscriptions\n  method: get\n  operationId: getMortgageWebhookSubscriptionsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mortgage/v2/webhooks/{id}\n  method: get\n  operationId: getMortgageWebhookV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mortgage/v2/webhooks/{id}\n  method: put\n\
   \  operationId: updateMortgageWebhookV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mortgage/v2/webhooks/{id}\n  method: delete\n  operationId: deleteMortgageWebhookV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mortgage/v2/webhooks/{id}/events\n  method: get\n  operationId: getMortgageWebhookEventsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verifiable-credentials/v1/presentation/authorize\n  method:\
   \ get\n  operationId: authorizeVerifiableCredentialPresentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verifiable-credentials/v1/x401-handoff\n  method: post\n  operationId: createPresentationX401Handoff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verifiable-credentials/v1/x401-result/{id}\n  method: get\n  operationId: getX401Result\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verifiable-credentials/v1/x401-signatures\n  method: post\n  operationId: getX401Signatures\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/organizations/{organization_id}/ResourceTypes\n  method: get\n  operationId: resourceTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/organizations/{organization_id}/Schemas/Users\n  method: get\n  operationId: userSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/organizations/{organization_id}/ServiceProviderConfig\n  method: get\n  operationId: serviceProviderConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/agentic-access/notarize-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/agentic-access/notarize-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/organizations/{organization_id}/ResourceTypes\n  method: get\n  operationId: resourceTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/organizations/{organization_id}/Schemas/Users\n  method: get\n  operationId: userSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/organizations/{organization_id}/ServiceProviderConfig\n  method: get\n  operationId: serviceProviderConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/notarize/agentic-access/notarize-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/notarize/agentic-access/notarize-agentic-access.yml
 summary_line: 111 operations · 64 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,97 +9,97 @@ api_specs:
   label: Google Display & Video 360 Advertisers API
   slug: google-display-video-360-advertisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-advertisers-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-advertisers-api-openapi.yml
 - filename: google-display-video-360-combined-audiences-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Combined Audiences API
   slug: google-display-video-360-combined-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-combined-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-combined-audiences-api-openapi.yml
 - filename: google-display-video-360-custom-bidding-algorithms-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Custom Bidding Algorithms API
   slug: google-display-video-360-custom-bidding-algorithms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-custom-bidding-algorithms-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-custom-bidding-algorithms-api-openapi.yml
 - filename: google-display-video-360-custom-lists-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Custom Lists API
   slug: google-display-video-360-custom-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-custom-lists-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-custom-lists-api-openapi.yml
 - filename: google-display-video-360-first-party-and-partner-audiences-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 First Party and Partner Audiences API
   slug: google-display-video-360-first-party-and-partner-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-first-party-and-partner-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-first-party-and-partner-audiences-api-openapi.yml
 - filename: google-display-video-360-floodlight-groups-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Floodlight Groups API
   slug: google-display-video-360-floodlight-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-floodlight-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-floodlight-groups-api-openapi.yml
 - filename: google-display-video-360-google-audiences-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Google Audiences API
   slug: google-display-video-360-google-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-google-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-google-audiences-api-openapi.yml
 - filename: google-display-video-360-guaranteed-orders-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Guaranteed Orders API
   slug: google-display-video-360-guaranteed-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-guaranteed-orders-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-guaranteed-orders-api-openapi.yml
 - filename: google-display-video-360-inventory-source-groups-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Inventory Source Groups API
   slug: google-display-video-360-inventory-source-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-inventory-source-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-inventory-source-groups-api-openapi.yml
 - filename: google-display-video-360-inventory-sources-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Inventory Sources API
   slug: google-display-video-360-inventory-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-inventory-sources-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-inventory-sources-api-openapi.yml
 - filename: google-display-video-360-media-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Media API
   slug: google-display-video-360-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-media-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-media-api-openapi.yml
 - filename: google-display-video-360-partners-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Partners API
   slug: google-display-video-360-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-partners-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-partners-api-openapi.yml
 - filename: google-display-video-360-sdf-download-tasks-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 SDF Download Tasks API
   slug: google-display-video-360-sdf-download-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-sdf-download-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-sdf-download-tasks-api-openapi.yml
 - filename: google-display-video-360-sdf-upload-tasks-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 SDF Upload Tasks API
   slug: google-display-video-360-sdf-upload-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-sdf-upload-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-sdf-upload-tasks-api-openapi.yml
 - filename: google-display-video-360-targeting-types-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Targeting Types API
   slug: google-display-video-360-targeting-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-targeting-types-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-targeting-types-api-openapi.yml
 - filename: google-display-video-360-users-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Users API
   slug: google-display-video-360-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-users-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 126
@@ -204,8 +204,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/google
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/advertisers/{advertisersId}/campaigns\n  method: post\n  operationId: advertisersCampaignsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/display-video\n    - https://www.googleapis.com/auth/display-video-mediaplanning\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/advertisers/{advertisersId}/campaigns\n  method: get\n  operationId: advertisersCampaignsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/display-video\n    - https://www.googleapis.com/auth/display-video-mediaplanning\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/advertisers/{advertisersId}/campaigns/{campaignsId}\n\
   \  method: get\n  operationId: advertisersCampaignsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/display-video\n    - https://www.googleapis.com/auth/display-video-mediaplanning\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/advertisers/{advertisersId}/campaigns/{campaignsId}\n  method: delete\n  operationId: advertisersCampaignsDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/display-video\n    - https://www.googleapis.com/auth/display-video-mediaplanning\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/advertisers/{advertisersId}/campaigns/{campaignsId}\n  method: patch\n  operationId: advertisersCampaignsPatch\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/display-video\n    - https://www.googleapis.com/auth/display-video-mediaplanning\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/advertisers/{advertisersId}/locationLists/{locationListsId}\n  method: get\n  operationId: advertisersLocationListsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/display-video\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/advertisers/{advertisersId}/locationLists\n  method: get\n  operationId: advertisersLocationListsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/display-video\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/advertisers/{advertisersId}/locationLists\n  method: post\n  operationId: advertisersLocationListsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/display-video\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (115 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/agentic-access/google-display-video-360-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/agentic-access/google-display-video-360-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/advertisers/{advertisersId}/locationLists\n  method: post\n  operationId: advertisersLocationListsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/display-video\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (115 KB total) ---\n# Full source: https://artifacts.apis.io/google-display-video-360/agentic-access/google-display-video-360-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/google-display-video-360/agentic-access/google-display-video-360-agentic-access.yml
 summary_line: 282 operations · 156 acting
 tags:
 - Campaign Management

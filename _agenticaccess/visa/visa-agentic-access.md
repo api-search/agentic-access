@@ -9,325 +9,325 @@ api_specs:
   label: Visa Government Insights Hub
   slug: visa-government-insights-hub
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-government-insights-hub.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-government-insights-hub.yml
 - filename: visa-payment-account-reference-inquiry.yml
   format: yaml
   label: Visa Payment Account Reference Inquiry
   slug: visa-payment-account-reference-inquiry
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-payment-account-reference-inquiry.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-payment-account-reference-inquiry.yml
 - filename: visa-pilot-program-enablement.yml
   format: yaml
   label: Visa Pilot Program Enablement
   slug: visa-pilot-program-enablement
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-pilot-program-enablement.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-pilot-program-enablement.yml
 - filename: visa-underwriting-intelligence-solutions.yml
   format: yaml
   label: Visa Underwriting Intelligence Solutions
   slug: visa-underwriting-intelligence-solutions
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-underwriting-intelligence-solutions.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-underwriting-intelligence-solutions.yml
 - filename: vca-data-exchange.yml
   format: yaml
   label: VCA Data Exchange
   slug: vca-data-exchange
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/vca-data-exchange.yml
+  url: https://artifacts.apis.io/visa/openapi/vca-data-exchange.yml
 - filename: visa-practical-money-skills-financial-education-platform.yml
   format: yaml
   label: Visa Practical Money Skills Financial Education Platform
   slug: visa-practical-money-skills-financial-education-platform
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-practical-money-skills-financial-education-platform.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-practical-money-skills-financial-education-platform.yml
 - filename: visa-account-management-service-api-openapi.yml
   format: yaml
   label: Visa Account Management service API
   slug: visa-account-management-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-account-management-service-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-account-management-service-api-openapi.yml
 - filename: visa-alert-history-api-api-openapi.yml
   format: yaml
   label: Visa Alert History API
   slug: visa-alert-history-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-alert-history-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-alert-history-api-api-openapi.yml
 - filename: visa-alerts-preference-management-api-api-openapi.yml
   format: yaml
   label: Visa Alerts Preference Management API
   slug: visa-alerts-preference-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-alerts-preference-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-alerts-preference-management-api-api-openapi.yml
 - filename: visa-atm-locator-api-api-openapi.yml
   format: yaml
   label: Visa ATM Locator API
   slug: visa-atm-locator-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-atm-locator-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-atm-locator-api-api-openapi.yml
 - filename: visa-authorization-data-api-api-openapi.yml
   format: yaml
   label: Visa Authorization Data API
   slug: visa-authorization-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-authorization-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-authorization-data-api-api-openapi.yml
 - filename: visa-b2b-connect-api-api-openapi.yml
   format: yaml
   label: Visa B2B Connect API
   slug: visa-b2b-connect-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-b2b-connect-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-b2b-connect-api-api-openapi.yml
 - filename: visa-bin-file-transfer-api-openapi.yml
   format: yaml
   label: Visa BIN File Transfer API
   slug: visa-bin-file-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-bin-file-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-bin-file-transfer-api-openapi.yml
 - filename: visa-bin-files-metadata-api-openapi.yml
   format: yaml
   label: Visa BIN Files Metadata API
   slug: visa-bin-files-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-bin-files-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-bin-files-metadata-api-openapi.yml
 - filename: visa-business-data-corporate-setup-api-api-openapi.yml
   format: yaml
   label: Visa Business Data Corporate Setup API
   slug: visa-business-data-corporate-setup-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-business-data-corporate-setup-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-business-data-corporate-setup-api-api-openapi.yml
 - filename: visa-business-data-transactions-api-api-openapi.yml
   format: yaml
   label: Visa Business Data Transactions API
   slug: visa-business-data-transactions-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-business-data-transactions-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-business-data-transactions-api-api-openapi.yml
 - filename: visa-buyer-management-service-api-openapi.yml
   format: yaml
   label: Visa Buyer Management Service API
   slug: visa-buyer-management-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-buyer-management-service-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-buyer-management-service-api-openapi.yml
 - filename: visa-card-on-file-data-inquiry-api-api-openapi.yml
   format: yaml
   label: Visa Card on File Data Inquiry API
   slug: visa-card-on-file-data-inquiry-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-card-on-file-data-inquiry-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-card-on-file-data-inquiry-api-api-openapi.yml
 - filename: visa-ctp-checkout-api-api-openapi.yml
   format: yaml
   label: Visa CTP Checkout API
   slug: visa-ctp-checkout-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-ctp-checkout-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-ctp-checkout-api-api-openapi.yml
 - filename: visa-ctp-consumer-management-api-api-openapi.yml
   format: yaml
   label: Visa CTP Consumer Management API
   slug: visa-ctp-consumer-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-ctp-consumer-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-ctp-consumer-management-api-api-openapi.yml
 - filename: visa-customer-rules-api-api-openapi.yml
   format: yaml
   label: Visa Customer Rules API
   slug: visa-customer-rules-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-customer-rules-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-customer-rules-api-api-openapi.yml
 - filename: visa-data-tokens-api-api-openapi.yml
   format: yaml
   label: Visa Data Tokens API
   slug: visa-data-tokens-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-data-tokens-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-data-tokens-api-api-openapi.yml
 - filename: visa-foreign-exchange-rates-api-api-openapi.yml
   format: yaml
   label: Visa Foreign Exchange Rates API
   slug: visa-foreign-exchange-rates-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-foreign-exchange-rates-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-foreign-exchange-rates-api-api-openapi.yml
 - filename: visa-full-bin-list-api-openapi.yml
   format: yaml
   label: Visa Full BIN List API
   slug: visa-full-bin-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-full-bin-list-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-full-bin-list-api-openapi.yml
 - filename: visa-funds-transfer-api-api-openapi.yml
   format: yaml
   label: Visa Funds Transfer API
   slug: visa-funds-transfer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-funds-transfer-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-funds-transfer-api-api-openapi.yml
 - filename: visa-funds-transfer-attributes-inquiry-api-api-openapi.yml
   format: yaml
   label: Visa Funds Transfer Attributes Inquiry API
   slug: visa-funds-transfer-attributes-inquiry-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-funds-transfer-attributes-inquiry-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-funds-transfer-attributes-inquiry-api-api-openapi.yml
 - filename: visa-in-app-provisioning-for-apple-pay-api-openapi.yml
   format: yaml
   label: Visa In-App Provisioning for Apple Pay API
   slug: visa-in-app-provisioning-for-apple-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-in-app-provisioning-for-apple-pay-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-in-app-provisioning-for-apple-pay-api-openapi.yml
 - filename: visa-in-app-provisioning-for-google-pay-api-openapi.yml
   format: yaml
   label: Visa In-App Provisioning for Google Pay API
   slug: visa-in-app-provisioning-for-google-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-in-app-provisioning-for-google-pay-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-in-app-provisioning-for-google-pay-api-openapi.yml
 - filename: visa-in-app-provisioning-for-samsung-pay-api-openapi.yml
   format: yaml
   label: Visa In-App Provisioning for Samsung Pay API
   slug: visa-in-app-provisioning-for-samsung-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-in-app-provisioning-for-samsung-pay-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-in-app-provisioning-for-samsung-pay-api-openapi.yml
 - filename: visa-issuer-api-api-openapi.yml
   format: yaml
   label: Visa Issuer API
   slug: visa-issuer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-issuer-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-issuer-api-api-openapi.yml
 - filename: visa-issuer-stop-advice-api-api-openapi.yml
   format: yaml
   label: Visa Issuer Stop Advice API
   slug: visa-issuer-stop-advice-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-issuer-stop-advice-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-issuer-stop-advice-api-api-openapi.yml
 - filename: visa-merchant-search-api-api-openapi.yml
   format: yaml
   label: Visa Merchant Search API
   slug: visa-merchant-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-merchant-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-merchant-search-api-api-openapi.yml
 - filename: visa-nearby-merchants-api-api-openapi.yml
   format: yaml
   label: Visa Nearby Merchants API
   slug: visa-nearby-merchants-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-nearby-merchants-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-nearby-merchants-api-api-openapi.yml
 - filename: visa-offers-data-api-api-openapi.yml
   format: yaml
   label: Visa Offers Data API
   slug: visa-offers-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-offers-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-offers-data-api-api-openapi.yml
 - filename: visa-payment-account-validation-api-api-openapi.yml
   format: yaml
   label: Visa Payment Account Validation API
   slug: visa-payment-account-validation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-payment-account-validation-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-payment-account-validation-api-api-openapi.yml
 - filename: visa-payment-service-api-openapi.yml
   format: yaml
   label: Visa Payment Service API
   slug: visa-payment-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-payment-service-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-payment-service-api-openapi.yml
 - filename: visa-push-authorization-data-api-api-openapi.yml
   format: yaml
   label: Visa Push Authorization Data API
   slug: visa-push-authorization-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-push-authorization-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-push-authorization-data-api-api-openapi.yml
 - filename: visa-reference-data-api-api-openapi.yml
   format: yaml
   label: Visa Reference Data API
   slug: visa-reference-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-reference-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-reference-data-api-api-openapi.yml
 - filename: visa-registered-user-details-service-api-openapi.yml
   format: yaml
   label: Visa Registered User Details Service API
   slug: visa-registered-user-details-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-registered-user-details-service-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-registered-user-details-service-api-openapi.yml
 - filename: visa-single-bin-lookup-api-openapi.yml
   format: yaml
   label: Visa Single BIN Lookup API
   slug: visa-single-bin-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-single-bin-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-single-bin-lookup-api-openapi.yml
 - filename: visa-single-use-account-pool-maintenance-service-api-openapi.yml
   format: yaml
   label: Visa Single Use Account Pool Maintenance Service API
   slug: visa-single-use-account-pool-maintenance-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-single-use-account-pool-maintenance-service-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-single-use-account-pool-maintenance-service-api-openapi.yml
 - filename: visa-supplier-service-api-openapi.yml
   format: yaml
   label: Visa Supplier Service API
   slug: visa-supplier-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-supplier-service-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-supplier-service-api-openapi.yml
 - filename: visa-termination-inquiry-apis-api-openapi.yml
   format: yaml
   label: Visa Termination Inquiry APIs API
   slug: visa-termination-inquiry-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-termination-inquiry-apis-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-termination-inquiry-apis-api-openapi.yml
 - filename: visa-transaction-enrichment-api-api-openapi.yml
   format: yaml
   label: Visa Transaction Enrichment API
   slug: visa-transaction-enrichment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-transaction-enrichment-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-transaction-enrichment-api-api-openapi.yml
 - filename: visa-universal-card-enrollment-api-openapi.yml
   format: yaml
   label: Visa Universal Card Enrollment API
   slug: visa-universal-card-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-universal-card-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-universal-card-enrollment-api-openapi.yml
 - filename: visa-url-generation-api-api-openapi.yml
   format: yaml
   label: Visa URL Generation API
   slug: visa-url-generation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-url-generation-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-url-generation-api-api-openapi.yml
 - filename: visa-vcs-enrollment-api-api-openapi.yml
   format: yaml
   label: Visa VCS Enrollment API
   slug: visa-vcs-enrollment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-vcs-enrollment-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-vcs-enrollment-api-api-openapi.yml
 - filename: visa-visa-account-updater-acquirer-api-api-openapi.yml
   format: yaml
   label: Visa Account Updater Acquirer API
   slug: visa-visa-account-updater-acquirer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-visa-account-updater-acquirer-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-visa-account-updater-acquirer-api-api-openapi.yml
 - filename: visa-visa-account-updater-merchant-api-api-openapi.yml
   format: yaml
   label: Visa Account Updater Merchant API
   slug: visa-visa-account-updater-merchant-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-visa-account-updater-merchant-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-visa-account-updater-merchant-api-api-openapi.yml
 - filename: visa-visa-card-program-enrollment-api-openapi.yml
   format: yaml
   label: Visa Card Program Enrollment API
   slug: visa-visa-card-program-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-visa-card-program-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-visa-card-program-enrollment-api-openapi.yml
 - filename: visa-visa-consent-management-api-api-openapi.yml
   format: yaml
   label: Visa Consent Management API
   slug: visa-visa-consent-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-visa-consent-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-visa-consent-management-api-api-openapi.yml
 - filename: visa-visa-supplier-matching-service-api-api-openapi.yml
   format: yaml
   label: Visa Supplier Matching Service API
   slug: visa-visa-supplier-matching-service-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-visa-supplier-matching-service-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-visa-supplier-matching-service-api-api-openapi.yml
 - filename: visa-visa-supplier-matching-service-bulk-api-api-openapi.yml
   format: yaml
   label: Visa Supplier Matching Service Bulk API
   slug: visa-visa-supplier-matching-service-bulk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-visa-supplier-matching-service-bulk-api-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-visa-supplier-matching-service-bulk-api-api-openapi.yml
 - filename: visa-workflows-api-openapi.yml
   format: yaml
   label: Visa Workflows API
   slug: visa-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/openapi/visa-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/visa/openapi/visa-workflows-api-openapi.yml
 consequence_counts:
   physical: 26
   read: 43
@@ -516,8 +516,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/visa-a
   \ /CPRAPI/v1/registeredUserDetails\n  method: post\n  operationId: RegisteredUserDetails\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/paymentAccountLookup\n  method: post\n  operationId: PAN TOKEN Lookup Using POST V1\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/paymentAccountLookup\n  method: post\n  operationId: PAN TOKEN Lookup Using POST V2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpa/v1/proxy/UpdateProxyPool\n  method: post\n  operationId: Update Proxy Pool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpa/v1/proxy/GetProxyPool\n  method: post\n  operationId: Get Proxy Pool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vpa/v1/proxy/ManageProxy\n  method: post\n  operationId: Manage Proxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpa/v1/proxy/GetAccountStatus\n  method: post\n  operationId: SUA Get Account Status\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpa/v1/proxy/DeleteProxyPool\n  method: delete\n  operationId: Delete Proxy Pool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpa/v1/proxy/CreateProxyPool\n  method: post\n  operationId: Create Proxy Pool\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpa/v1/supplier/DisableSupplier\n  method: post\n  operationId: Disable Supplier\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/agentic-access/visa-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/agentic-access/visa-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpa/v1/supplier/DisableSupplier\n  method: post\n  operationId: Disable Supplier\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/visa/agentic-access/visa-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/visa/agentic-access/visa-agentic-access.yml
 summary_line: 129 operations · 86 acting · 9 human-in-the-loop
 tags:
 - Visa

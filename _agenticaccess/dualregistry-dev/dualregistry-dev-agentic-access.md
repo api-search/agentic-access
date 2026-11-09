@@ -9,37 +9,37 @@ api_specs:
   label: Scro Orphan Desk Echo API
   slug: dualregistry-dev-echo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-echo-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-echo-api-openapi.yml
 - filename: dualregistry-dev-index-json-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Index.json API
   slug: dualregistry-dev-index-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-index-json-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-index-json-api-openapi.yml
 - filename: dualregistry-dev-orphandust-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Orphandust API
   slug: dualregistry-dev-orphandust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-orphandust-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-orphandust-api-openapi.yml
 - filename: dualregistry-dev-quote-fee-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Quote Fee API
   slug: dualregistry-dev-quote-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-quote-fee-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-quote-fee-api-openapi.yml
 - filename: dualregistry-dev-settle-fee-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Settle Fee API
   slug: dualregistry-dev-settle-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-settle-fee-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-settle-fee-api-openapi.yml
 - filename: dualregistry-dev-stats-json-api-openapi.yml
   format: yaml
   label: Scro Orphan Desk Stats.json API
   slug: dualregistry-dev-stats-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/openapi/dualregistry-dev-stats-json-api-openapi.yml
+  url: https://artifacts.apis.io/dualregistry-dev/openapi/dualregistry-dev-stats-json-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/dualregistry-dev-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 4\n    acting: 3\n  by_consequence:\n    read: 4\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /index.json\n  method: get\n  operationId: listEchoes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats.json\n  method: get\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/echo\n  method: get\n  operationId: redeemEcho\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/quote_fee\n  method: post\n  operationId: quoteFee\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/settle_fee\n  method: post\n  operationId: settleFee\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/orphandust/buy\n  method: get\n  operationId: getOrphanDustInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/orphandust/buy\n  method: post\n  operationId: buyOrphanDustCredits\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dualregistry-dev/refs/heads/main/agentic-access/dualregistry-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dualregistry-dev/agentic-access/dualregistry-dev-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - AI Agents

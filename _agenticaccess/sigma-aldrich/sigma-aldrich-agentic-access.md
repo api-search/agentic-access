@@ -8,25 +8,25 @@ api_specs:
   label: Sigma-Aldrich Pricing and Availability API
   slug: sigma-aldrich-pricing-and-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-pricing-and-availability-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-aldrich/openapi/sigma-aldrich-pricing-and-availability-api-openapi.yml
 - filename: sigma-aldrich-products-api-openapi.yml
   format: yaml
   label: Sigma-Aldrich Products API
   slug: sigma-aldrich-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-products-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-aldrich/openapi/sigma-aldrich-products-api-openapi.yml
 - filename: sigma-aldrich-safety-data-sheets-api-openapi.yml
   format: yaml
   label: Sigma-Aldrich Safety Data Sheets API
   slug: sigma-aldrich-safety-data-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-safety-data-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-aldrich/openapi/sigma-aldrich-safety-data-sheets-api-openapi.yml
 - filename: sigma-aldrich-structures-api-openapi.yml
   format: yaml
   label: Sigma-Aldrich Structures API
   slug: sigma-aldrich-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/openapi/sigma-aldrich-structures-api-openapi.yml
+  url: https://artifacts.apis.io/sigma-aldrich/openapi/sigma-aldrich-structures-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sigma-aldrich-pricing-and-availability-api-openapi.yml, openapi/sigma-aldrich-products-api-openapi.yml,\n  openapi/sigma-aldrich-safety-data-sheets-api-openapi.yml, openapi/sigma-aldrich-structures-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /products/{catalogNumber}/pricing\n  method: get\n  operationId: getProductPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/search\n  method: get\n  operationId: searchProducts\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{catalogNumber}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/cas/{casNumber}\n  method: get\n  operationId: getProductByCas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{catalogNumber}/sds\n  method: get\n  operationId: getProductSds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /structures/search\n  method: post\n  operationId: searchByStructure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/agentic-access/sigma-aldrich-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sigma-aldrich/agentic-access/sigma-aldrich-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Life Sciences

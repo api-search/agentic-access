@@ -9,25 +9,25 @@ api_specs:
   label: Zylo Applications API
   slug: zylo-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-applications-api-openapi.yml
+  url: https://artifacts.apis.io/zylo/openapi/zylo-applications-api-openapi.yml
 - filename: zylo-export-jobs-api-openapi.yml
   format: yaml
   label: Zylo Export Jobs API
   slug: zylo-export-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-export-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zylo/openapi/zylo-export-jobs-api-openapi.yml
 - filename: zylo-import-jobs-api-openapi.yml
   format: yaml
   label: Zylo Import Jobs API
   slug: zylo-import-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-import-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zylo/openapi/zylo-import-jobs-api-openapi.yml
 - filename: zylo-subscriptions-api-openapi.yml
   format: yaml
   label: Zylo Subscriptions API
   slug: zylo-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/openapi/zylo-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/zylo/openapi/zylo-subscriptions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zylo-e
   \  method: get\n  operationId: listApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{applicationId}\n  method: get\n  operationId: getApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{applicationId}\n  method: put\n  operationId: updateApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/-/exportJobs\n  method: post\n  operationId: createExportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/-/exportJobs/{exportJobId}\n  method: get\n  operationId: getExportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}/importJob\n  method: get\n  operationId: listImportJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}/importJob\n  method: post\n  operationId: createImportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /subscriptions/{subscriptionId}/importJob/{importJobId}\n  method: get\n  operationId: getImportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/agentic-access/zylo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zylo/agentic-access/zylo-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Budgets

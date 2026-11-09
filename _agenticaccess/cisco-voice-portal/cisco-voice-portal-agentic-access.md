@@ -9,145 +9,145 @@ api_specs:
   label: Cisco Voice Portal Call Events API
   slug: cisco-voice-portal-call-events-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/asyncapi/cisco-voice-portal-call-events-asyncapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/asyncapi/cisco-voice-portal-call-events-asyncapi.yml
 - filename: cisco-voice-portal-application-configuration-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Application Configuration API
   slug: cisco-voice-portal-application-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-application-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-application-configuration-api-openapi.yml
 - filename: cisco-voice-portal-application-management-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Application Management API
   slug: cisco-voice-portal-application-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-application-management-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-application-management-api-openapi.yml
 - filename: cisco-voice-portal-call-detail-records-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Call Detail Records API
   slug: cisco-voice-portal-call-detail-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-call-detail-records-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-call-detail-records-api-openapi.yml
 - filename: cisco-voice-portal-call-management-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Call Management API
   slug: cisco-voice-portal-call-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-call-management-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-call-management-api-openapi.yml
 - filename: cisco-voice-portal-call-routing-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Call Routing API
   slug: cisco-voice-portal-call-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-call-routing-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-call-routing-api-openapi.yml
 - filename: cisco-voice-portal-call-server-management-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Call Server Management API
   slug: cisco-voice-portal-call-server-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-call-server-management-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-call-server-management-api-openapi.yml
 - filename: cisco-voice-portal-deployment-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Deployment API
   slug: cisco-voice-portal-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-deployment-api-openapi.yml
 - filename: cisco-voice-portal-device-management-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Device Management API
   slug: cisco-voice-portal-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-device-management-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-device-management-api-openapi.yml
 - filename: cisco-voice-portal-dialed-number-patterns-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Dialed Number Patterns API
   slug: cisco-voice-portal-dialed-number-patterns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-dialed-number-patterns-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-dialed-number-patterns-api-openapi.yml
 - filename: cisco-voice-portal-grammar-management-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Grammar Management API
   slug: cisco-voice-portal-grammar-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-grammar-management-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-grammar-management-api-openapi.yml
 - filename: cisco-voice-portal-health-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Health API
   slug: cisco-voice-portal-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-health-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-health-api-openapi.yml
 - filename: cisco-voice-portal-historical-reports-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Historical Reports API
   slug: cisco-voice-portal-historical-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-historical-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-historical-reports-api-openapi.yml
 - filename: cisco-voice-portal-media-management-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Media Management API
   slug: cisco-voice-portal-media-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-media-management-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-media-management-api-openapi.yml
 - filename: cisco-voice-portal-micro-applications-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Micro-Applications API
   slug: cisco-voice-portal-micro-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-micro-applications-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-micro-applications-api-openapi.yml
 - filename: cisco-voice-portal-real-time-statistics-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Real-Time Statistics API
   slug: cisco-voice-portal-real-time-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-real-time-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-real-time-statistics-api-openapi.yml
 - filename: cisco-voice-portal-report-templates-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Report Templates API
   slug: cisco-voice-portal-report-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-report-templates-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-report-templates-api-openapi.yml
 - filename: cisco-voice-portal-server-status-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Server Status API
   slug: cisco-voice-portal-server-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-server-status-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-server-status-api-openapi.yml
 - filename: cisco-voice-portal-session-monitoring-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal Session Monitoring API
   slug: cisco-voice-portal-session-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-session-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-session-monitoring-api-openapi.yml
 - filename: cisco-voice-portal-sip-configuration-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal SIP Configuration API
   slug: cisco-voice-portal-sip-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-sip-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-sip-configuration-api-openapi.yml
 - filename: cisco-voice-portal-sip-sessions-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal SIP Sessions API
   slug: cisco-voice-portal-sip-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-sip-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-sip-sessions-api-openapi.yml
 - filename: cisco-voice-portal-system-configuration-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal System Configuration API
   slug: cisco-voice-portal-system-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-system-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-system-configuration-api-openapi.yml
 - filename: cisco-voice-portal-user-management-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal User Management API
   slug: cisco-voice-portal-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-user-management-api-openapi.yml
 - filename: cisco-voice-portal-vxml-server-management-api-openapi.yml
   format: yaml
   label: Cisco Voice Portal VXML Server Management API
   slug: cisco-voice-portal-vxml-server-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-vxml-server-management-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-voice-portal/openapi/cisco-voice-portal-vxml-server-management-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 44
@@ -223,7 +223,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cisco-
   \      - high-value\n    audit: required\n- path: /application/{applicationName}/elements\n  method: get\n  operationId: listApplicationElements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /application/{applicationName}/sessions\n  method: get\n  operationId: listApplicationSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/{sessionId}\n  method: get\n  operationId: getSessionDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /microapp\n  method: get\n  operationId: listMicroApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /microapp/{microAppName}/config\n\
   \  method: get\n  operationId: getMicroAppConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /media\n  method: get\n  operationId: listMediaFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /media/upload\n  method: post\n  operationId: uploadMediaFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /grammar\n  method: get\n  operationId: listGrammarFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /server/status\n  method: get\n\
   \  operationId: getVxmlServerStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /server/log\n  method: get\n  operationId: getServerLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/agentic-access/cisco-voice-portal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cisco-voice-portal/agentic-access/cisco-voice-portal-agentic-access.yml
 summary_line: 68 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Contact Center

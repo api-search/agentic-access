@@ -9,37 +9,37 @@ api_specs:
   label: IPQualityScore Device Fingerprint API
   slug: ipqualityscore-device-fingerprint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-device-fingerprint-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-device-fingerprint-api-openapi.yml
 - filename: ipqualityscore-email-validation-api-openapi.yml
   format: yaml
   label: IPQualityScore Email Validation API
   slug: ipqualityscore-email-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-email-validation-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-email-validation-api-openapi.yml
 - filename: ipqualityscore-ip-reputation-api-openapi.yml
   format: yaml
   label: IPQualityScore IP Reputation API
   slug: ipqualityscore-ip-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-ip-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-ip-reputation-api-openapi.yml
 - filename: ipqualityscore-leaked-data-api-openapi.yml
   format: yaml
   label: IPQualityScore Leaked Data API
   slug: ipqualityscore-leaked-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-leaked-data-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-leaked-data-api-openapi.yml
 - filename: ipqualityscore-phone-validation-api-openapi.yml
   format: yaml
   label: IPQualityScore Phone Validation API
   slug: ipqualityscore-phone-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-phone-validation-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-phone-validation-api-openapi.yml
 - filename: ipqualityscore-url-scanner-api-openapi.yml
   format: yaml
   label: IPQualityScore URL Scanner API
   slug: ipqualityscore-url-scanner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/openapi/ipqualityscore-url-scanner-api-openapi.yml
+  url: https://artifacts.apis.io/ipqualityscore/openapi/ipqualityscore-url-scanner-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1
@@ -67,7 +67,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ipqualityscore-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 5\n    acting: 1\n  by_consequence:\n    read: 5\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /ip/{api_key}/{ip}\n  method: get\n  operationId: proxyDetection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/{api_key}/{email}\n  method: get\n  operationId: emailValidation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /phone/{api_key}/{phone}\n\
   \  method: get\n  operationId: phoneValidation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /url/{api_key}/{url}\n  method: get\n  operationId: maliciousUrlScanner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fingerprint/{api_key}\n  method: post\n  operationId: deviceFingerprint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /leaked/{type}/{api_key}\n  method: get\n  operationId: leakedData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/agentic-access/ipqualityscore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ipqualityscore/agentic-access/ipqualityscore-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
 - Fraud Prevention

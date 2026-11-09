@@ -9,85 +9,91 @@ api_specs:
   label: Coinflow Authentication API
   slug: coinflow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-authentication-api-openapi.yml
 - filename: coinflow-checkout-api-openapi.yml
   format: yaml
   label: Coinflow Checkout API
   slug: coinflow-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-checkout-api-openapi.yml
 - filename: coinflow-customers-api-openapi.yml
   format: yaml
   label: Coinflow Customers API
   slug: coinflow-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-customers-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-customers-api-openapi.yml
 - filename: coinflow-events-api-openapi.yml
   format: yaml
   label: Coinflow Events API
   slug: coinflow-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-events-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-events-api-openapi.yml
 - filename: coinflow-marketplace-api-openapi.yml
   format: yaml
   label: Coinflow Marketplace API
   slug: coinflow-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-marketplace-api-openapi.yml
 - filename: coinflow-merchant-api-openapi.yml
   format: yaml
   label: Coinflow Merchant API
   slug: coinflow-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-merchant-api-openapi.yml
 - filename: coinflow-merchantsubscription-api-openapi.yml
   format: yaml
   label: Coinflow Merchant Subscription API
   slug: coinflow-merchantsubscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-merchantsubscription-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-merchantsubscription-api-openapi.yml
 - filename: coinflow-redeem-api-openapi.yml
   format: yaml
   label: Coinflow Redeem API
   slug: coinflow-redeem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-redeem-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-redeem-api-openapi.yml
 - filename: coinflow-refund-api-openapi.yml
   format: yaml
   label: Coinflow Refund API
   slug: coinflow-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-refund-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-refund-api-openapi.yml
 - filename: coinflow-submerchant-api-openapi.yml
   format: yaml
   label: Coinflow Sub Merchant API
   slug: coinflow-submerchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-submerchant-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-submerchant-api-openapi.yml
 - filename: coinflow-subscription-api-openapi.yml
   format: yaml
   label: Coinflow Subscription API
   slug: coinflow-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-subscription-api-openapi.yml
 - filename: coinflow-utilities-api-openapi.yml
   format: yaml
   label: Coinflow Utilities API
   slug: coinflow-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-utilities-api-openapi.yml
 - filename: coinflow-withdraw-api-openapi.yml
   format: yaml
   label: Coinflow Withdraw API
   slug: coinflow-withdraw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-withdraw-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-withdraw-api-openapi.yml
+- filename: coinflow-merchantaccounts-api-openapi.yml
+  format: yaml
+  label: Coinflow Merchant Accounts API
+  slug: coinflow-merchantaccounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-merchantaccounts-api-openapi.yml
 - filename: coinflow-card-tokenization-api-openapi.yml
   format: yaml
   label: Coinflow Card Tokenization API
   slug: coinflow-card-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/openapi/coinflow-card-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-card-tokenization-api-openapi.yml
 consequence_counts:
   physical: 78
   read: 64
@@ -277,8 +283,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/coinfl
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchant/chargebacks\n  method: get\n  operationId: get-all-chargebacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/payments\n  method: get\n  operationId: get-all-payments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/chargebacks/{paymentId}\n  method: get\n  operationId: get-chargeback\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/chargebacks/{paymentId}/draft\n  method: get\n  operationId: get-chargeback-response-draft\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/chargebacks/{paymentId}/draft\n  method: put\n  operationId: save-draft-and-notes\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchant/chargebacks/rate\n  method: get\n  operationId: get-chargeback-stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/withdraws/payout/balance\n  method: get\n  operationId: get-payout-balance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/customers\n  method: get\n\
   \  operationId: get-customer-accounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/withdraws/payout/delegated/quote\n  method: post\n  operationId: get-delegated-payout-quote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/payments/enhanced/{paymentId}\n  method: get\n  operationId: get-enhanced-tx-information\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/exports/{exportId}/download\n  method: get\n  operationId: get-export-download-url\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source:\
-  \ https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/agentic-access/coinflow-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/agentic-access/coinflow-agentic-access.yml
+  \ https://artifacts.apis.io/coinflow/agentic-access/coinflow-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/coinflow/agentic-access/coinflow-agentic-access.yml
 summary_line: 180 operations · 116 acting · 3 human-in-the-loop
 tags:
 - Company

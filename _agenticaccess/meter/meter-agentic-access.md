@@ -9,49 +9,49 @@ api_specs:
   label: Meter Accounts API
   slug: meter-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/meter/openapi/meter-accounts-api-openapi.yml
 - filename: meter-blocks-api-openapi.yml
   format: yaml
   label: Meter Blocks API
   slug: meter-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/meter/openapi/meter-blocks-api-openapi.yml
 - filename: meter-debug-api-openapi.yml
   format: yaml
   label: Meter Debug API
   slug: meter-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-debug-api-openapi.yml
+  url: https://artifacts.apis.io/meter/openapi/meter-debug-api-openapi.yml
 - filename: meter-logs-api-openapi.yml
   format: yaml
   label: Meter Logs API
   slug: meter-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-logs-api-openapi.yml
+  url: https://artifacts.apis.io/meter/openapi/meter-logs-api-openapi.yml
 - filename: meter-node-api-openapi.yml
   format: yaml
   label: Meter Node API
   slug: meter-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-node-api-openapi.yml
+  url: https://artifacts.apis.io/meter/openapi/meter-node-api-openapi.yml
 - filename: meter-staking-api-openapi.yml
   format: yaml
   label: Meter Staking API
   slug: meter-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-staking-api-openapi.yml
+  url: https://artifacts.apis.io/meter/openapi/meter-staking-api-openapi.yml
 - filename: meter-subscriptions-api-openapi.yml
   format: yaml
   label: Meter Subscriptions API
   slug: meter-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/meter/openapi/meter-subscriptions-api-openapi.yml
 - filename: meter-transactions-api-openapi.yml
   format: yaml
   label: Meter Transactions API
   slug: meter-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/meter-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/meter/openapi/meter-transactions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 17
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/meter-
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /staking/buckets\n  method: get\n  operationId: getStakingBuckets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /staking/candidates\n  method: get\n  operationId: getStakingCandidates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /staking/stakeholders\n  method: get\n  operationId: getStakingStakeholders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /staking/delegates\n  method: get\n  operationId: getStakingDelegates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/block\n\
   \  method: get\n  operationId: getSubscriptionsBlock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/event\n  method: get\n  operationId: getSubscriptionsEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/transfer\n  method: get\n  operationId: getSubscriptionsTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/beat\n  method: get\n  operationId: getSubscriptionsBeat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{id}\n  method: get\n  operationId: getTransactionsById\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{id}/receipt\n  method: get\n  operationId: getTransactionsByIdReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: post\n  operationId: postTransactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/agentic-access/meter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meter/agentic-access/meter-agentic-access.yml
 summary_line: 28 operations · 11 acting
 tags:
 - Blockchain

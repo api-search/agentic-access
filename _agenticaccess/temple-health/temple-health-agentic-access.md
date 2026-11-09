@@ -8,55 +8,55 @@ api_specs:
   label: Temple Health Allergy Intolerance API
   slug: temple-health-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-allergy-intolerance-api-openapi.yml
 - filename: temple-health-bulk-data-api-openapi.yml
   format: yaml
   label: Temple Health Bulk Data API
   slug: temple-health-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-bulk-data-api-openapi.yml
 - filename: temple-health-condition-api-openapi.yml
   format: yaml
   label: Temple Health Condition API
   slug: temple-health-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-condition-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-condition-api-openapi.yml
 - filename: temple-health-document-reference-api-openapi.yml
   format: yaml
   label: Temple Health Document Reference API
   slug: temple-health-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-document-reference-api-openapi.yml
 - filename: temple-health-encounter-api-openapi.yml
   format: yaml
   label: Temple Health Encounter API
   slug: temple-health-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-encounter-api-openapi.yml
 - filename: temple-health-medication-request-api-openapi.yml
   format: yaml
   label: Temple Health Medication Request API
   slug: temple-health-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-medication-request-api-openapi.yml
 - filename: temple-health-metadata-api-openapi.yml
   format: yaml
   label: Temple Health Metadata API
   slug: temple-health-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-metadata-api-openapi.yml
 - filename: temple-health-observation-api-openapi.yml
   format: yaml
   label: Temple Health Observation API
   slug: temple-health-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-observation-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-observation-api-openapi.yml
 - filename: temple-health-patient-api-openapi.yml
   format: yaml
   label: Temple Health Patient API
   slug: temple-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-patient-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/temple
   \    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /MedicationRequest\n  method: get\n  operationId: searchMedicationRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - fhirUser\n    - launch\n    - offline_access\n    - openid\n    - patient/AllergyIntolerance.read\n    - patient/Condition.read\n    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /AllergyIntolerance\n  method: get\n  operationId: searchAllergyIntolerance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - fhirUser\n    - launch\n    - offline_access\n\
   \    - openid\n    - patient/AllergyIntolerance.read\n    - patient/Condition.read\n    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /DocumentReference\n  method: get\n  operationId: searchDocumentReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - fhirUser\n    - launch\n    - offline_access\n    - openid\n    - patient/AllergyIntolerance.read\n    - patient/Condition.read\n    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /Group/{id}/$export\n  method: get\n  operationId: bulkExportGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n    scope:\n    - fhirUser\n    - launch\n    - offline_access\n    - openid\n    - patient/AllergyIntolerance.read\n    - patient/Condition.read\n    - patient/DocumentReference.read\n    - patient/Encounter.read\n    - patient/MedicationRequest.read\n    - patient/Observation.read\n    - patient/Patient.read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/agentic-access/temple-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/temple-health/agentic-access/temple-health-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Academic Medical Center
@@ -102,7 +102,7 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- Authentication
+- OAuth
 - Patient Access
 - Price Transparency
 - R4
@@ -110,4 +110,5 @@ tags:
 - Temple University
 - US Core
 - USCDI
+- Authentication
 ---

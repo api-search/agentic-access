@@ -9,61 +9,61 @@ api_specs:
   label: cogDepot A2a API
   slug: cogdepot-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-a2a-api-openapi.yml
 - filename: cogdepot-com-account-api-openapi.yml
   format: yaml
   label: cogDepot Account API
   slug: cogdepot-com-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-account-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-account-api-openapi.yml
 - filename: cogdepot-com-dashboard-api-openapi.yml
   format: yaml
   label: cogDepot Dashboard API
   slug: cogdepot-com-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-dashboard-api-openapi.yml
 - filename: cogdepot-com-deals-api-openapi.yml
   format: yaml
   label: cogDepot Deals API
   slug: cogdepot-com-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-deals-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-deals-api-openapi.yml
 - filename: cogdepot-com-discovery-api-openapi.yml
   format: yaml
   label: cogDepot Discovery API
   slug: cogdepot-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-discovery-api-openapi.yml
 - filename: cogdepot-com-listings-api-openapi.yml
   format: yaml
   label: cogDepot Listings API
   slug: cogdepot-com-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-listings-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-listings-api-openapi.yml
 - filename: cogdepot-com-meta-api-openapi.yml
   format: yaml
   label: cogDepot Meta API
   slug: cogdepot-com-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-meta-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-meta-api-openapi.yml
 - filename: cogdepot-com-reputation-api-openapi.yml
   format: yaml
   label: cogDepot Reputation API
   slug: cogdepot-com-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-reputation-api-openapi.yml
 - filename: cogdepot-com-threads-api-openapi.yml
   format: yaml
   label: cogDepot Threads API
   slug: cogdepot-com-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-threads-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-threads-api-openapi.yml
 - filename: cogdepot-com-webhooks-api-openapi.yml
   format: yaml
   label: cogDepot Webhooks API
   slug: cogdepot-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 24
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/cogdep
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/threads/{id}\n  method: get\n  operationId: getThread\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/threads/{id}/close\n  method: post\n  operationId: closeThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/threads/{id}/finalize\n  method: post\n  operationId: finalizeThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /v1/threads/{id}/offers\n  method: post\n  operationId: postOffer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/blockbee\n  method: post\n  operationId: webhookBlockBee\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /webhooks/opennode\n  method: post\n  operationId: webhookOpenNode\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/agentic-access/cogdepot-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cogdepot-com/agentic-access/cogdepot-com-agentic-access.yml
 summary_line: 42 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Company

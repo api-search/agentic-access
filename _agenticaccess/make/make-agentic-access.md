@@ -9,25 +9,25 @@ api_specs:
   label: Make AI Agents API
   slug: make-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-ai-agents-api-openapi.yml
 - filename: make-scenario-execution-api-openapi.yml
   format: yaml
   label: Make Scenario Execution API
   slug: make-scenario-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenario-execution-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-scenario-execution-api-openapi.yml
 - filename: make-scenario-variables-api-openapi.yml
   format: yaml
   label: Make Scenario Variables API
   slug: make-scenario-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenario-variables-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-scenario-variables-api-openapi.yml
 - filename: make-scenarios-api-openapi.yml
   format: yaml
   label: Make Scenarios API
   slug: make-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/openapi/make-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/make/openapi/make-scenarios-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/make-o
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scenarios/{scenarioId}/data/{moduleId}\n  method: get\n  operationId: getScenarioModuleData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scenarios/{scenarioId}/interface\n  method: get\n  operationId: getScenarioInterface\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scenarios/{scenarioId}/interface\n  method: patch\n  operationId: updateScenarioInterface\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scenarios/{scenarioId}/usage\n  method: get\n  operationId:\
   \ getScenarioUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scenarios/{scenarioId}/build-variables\n  method: get\n  operationId: listScenarioBuildVariables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scenarios/{scenarioId}/build-variables\n  method: post\n  operationId: addScenarioBuildVariables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scenarios/{scenarioId}/build-variables\n  method: put\n  operationId: updateScenarioBuildVariables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scenarios/{scenarioId}/build-variables\n  method: delete\n  operationId: deleteScenarioBuildVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scenarios/ai-agents\n  method: get\n  operationId: listAiAgentScenarios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/agentic-access/make-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/make/agentic-access/make-agentic-access.yml
 summary_line: 20 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Automation

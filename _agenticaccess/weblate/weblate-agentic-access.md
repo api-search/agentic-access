@@ -9,133 +9,133 @@ api_specs:
   label: Weblate Categories API
   slug: weblate-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-categories-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-categories-api-openapi.yml
 - filename: weblate-changes-api-openapi.yml
   format: yaml
   label: Weblate Changes API
   slug: weblate-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-changes-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-changes-api-openapi.yml
 - filename: weblate-component-lists-api-openapi.yml
   format: yaml
   label: Weblate Component Lists API
   slug: weblate-component-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-component-lists-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-component-lists-api-openapi.yml
 - filename: weblate-components-api-openapi.yml
   format: yaml
   label: Weblate Components API
   slug: weblate-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-components-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-components-api-openapi.yml
 - filename: weblate-contributions-api-openapi.yml
   format: yaml
   label: Weblate Contributions API
   slug: weblate-contributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-contributions-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-contributions-api-openapi.yml
 - filename: weblate-groups-api-openapi.yml
   format: yaml
   label: Weblate Groups API
   slug: weblate-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-groups-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-groups-api-openapi.yml
 - filename: weblate-hooks-api-openapi.yml
   format: yaml
   label: Weblate Hooks API
   slug: weblate-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-hooks-api-openapi.yml
 - filename: weblate-languages-api-openapi.yml
   format: yaml
   label: Weblate Languages API
   slug: weblate-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-languages-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-languages-api-openapi.yml
 - filename: weblate-memory-api-openapi.yml
   format: yaml
   label: Weblate Memory API
   slug: weblate-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-memory-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-memory-api-openapi.yml
 - filename: weblate-metrics-api-openapi.yml
   format: yaml
   label: Weblate Metrics API
   slug: weblate-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-metrics-api-openapi.yml
 - filename: weblate-projects-api-openapi.yml
   format: yaml
   label: Weblate Projects API
   slug: weblate-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-projects-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-projects-api-openapi.yml
 - filename: weblate-roles-api-openapi.yml
   format: yaml
   label: Weblate Roles API
   slug: weblate-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-roles-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-roles-api-openapi.yml
 - filename: weblate-schema-api-openapi.yml
   format: yaml
   label: Weblate Schema API
   slug: weblate-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-schema-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-schema-api-openapi.yml
 - filename: weblate-screenshots-api-openapi.yml
   format: yaml
   label: Weblate Screenshots API
   slug: weblate-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-screenshots-api-openapi.yml
 - filename: weblate-search-api-openapi.yml
   format: yaml
   label: Weblate Search API
   slug: weblate-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-search-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-search-api-openapi.yml
 - filename: weblate-statistics-api-openapi.yml
   format: yaml
   label: Weblate Statistics API
   slug: weblate-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-statistics-api-openapi.yml
 - filename: weblate-tasks-api-openapi.yml
   format: yaml
   label: Weblate Tasks API
   slug: weblate-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-tasks-api-openapi.yml
 - filename: weblate-translations-api-openapi.yml
   format: yaml
   label: Weblate Translations API
   slug: weblate-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-translations-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-translations-api-openapi.yml
 - filename: weblate-units-api-openapi.yml
   format: yaml
   label: Weblate Units API
   slug: weblate-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-units-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-units-api-openapi.yml
 - filename: weblate-users-api-openapi.yml
   format: yaml
   label: Weblate Users API
   slug: weblate-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-users-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-users-api-openapi.yml
 - filename: weblate-webhooks-api-openapi.yml
   format: yaml
   label: Weblate Webhooks API
   slug: weblate-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-webhooks-api-openapi.yml
 - filename: weblate-add-ons-api-openapi.yml
   format: yaml
   label: Weblate Add Ons API
   slug: weblate-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/openapi/weblate-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/weblate/openapi/weblate-add-ons-api-openapi.yml
 consequence_counts:
   read: 75
   write: 102
@@ -194,8 +194,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/weblat
   \  method: delete\n  operationId: api_projects_announcements_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/projects/{slug}/categories/\n  method: get\n  operationId: api_projects_categories_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/changes/\n  method: get\n  operationId: api_projects_changes_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/components/\n  method: get\n  operationId: api_projects_components_list\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/components/\n  method: post\n  operationId: api_projects_components_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/projects/{slug}/credits/\n  method: get\n  operationId: api_projects_credits_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/file/\n  method: get\n  operationId: api_projects_file_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/labels/\n  method: get\n\
   \  operationId: api_projects_labels_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/labels/\n  method: post\n  operationId: api_projects_labels_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/projects/{slug}/labels/{label_id}/\n  method: delete\n  operationId: api_projects_labels_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/projects/{slug}/languages/\n  method:\
-  \ get\n  operationId: api_projects_languages_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/languages/{language_code}/announcements/\n  method: get\n  operationId: api_projects_languages_announcements_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/languages/{language_code}/announcements/\n  method: post\n  operationId: api_projects_languages_announcements_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/agentic-access/weblate-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/agentic-access/weblate-agentic-access.yml
+  \ get\n  operationId: api_projects_languages_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/languages/{language_code}/announcements/\n  method: get\n  operationId: api_projects_languages_announcements_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/projects/{slug}/languages/{language_code}/announcements/\n  method: post\n  operationId: api_projects_languages_announcements_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/weblate/agentic-access/weblate-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/weblate/agentic-access/weblate-agentic-access.yml
 summary_line: 177 operations · 102 acting
 tags:
 - Localization

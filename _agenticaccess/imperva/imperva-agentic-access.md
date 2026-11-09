@@ -9,79 +9,79 @@ api_specs:
   label: Imperva Account Management API
   slug: imperva-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-account-management-api-openapi.yml
 - filename: imperva-administration-api-openapi.yml
   format: yaml
   label: Imperva Administration API
   slug: imperva-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-administration-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-administration-api-openapi.yml
 - filename: imperva-auth-api-openapi.yml
   format: yaml
   label: Imperva Auth API
   slug: imperva-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-auth-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-auth-api-openapi.yml
 - filename: imperva-conf-api-openapi.yml
   format: yaml
   label: Imperva Conf API
   slug: imperva-conf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-conf-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-conf-api-openapi.yml
 - filename: imperva-ddos-for-networks-test-alerts-api-openapi.yml
   format: yaml
   label: Imperva DDoS for Networks Test Alerts API
   slug: imperva-ddos-for-networks-test-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-ddos-for-networks-test-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-ddos-for-networks-test-alerts-api-openapi.yml
 - filename: imperva-ddos-protection-for-individual-ips-api-openapi.yml
   format: yaml
   label: Imperva DDoS Protection for Individual IPs API
   slug: imperva-ddos-protection-for-individual-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-ddos-protection-for-individual-ips-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-ddos-protection-for-individual-ips-api-openapi.yml
 - filename: imperva-experimental-api-openapi.yml
   format: yaml
   label: Imperva Experimental API
   slug: imperva-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-experimental-api-openapi.yml
 - filename: imperva-integrations-api-openapi.yml
   format: yaml
   label: Imperva Integrations API
   slug: imperva-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-integrations-api-openapi.yml
 - filename: imperva-login-protect-api-openapi.yml
   format: yaml
   label: Imperva Login Protect API
   slug: imperva-login-protect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-login-protect-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-login-protect-api-openapi.yml
 - filename: imperva-management-api-openapi.yml
   format: yaml
   label: Imperva Management API
   slug: imperva-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-management-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-management-api-openapi.yml
 - filename: imperva-site-management-api-openapi.yml
   format: yaml
   label: Imperva Site Management API
   slug: imperva-site-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-site-management-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-site-management-api-openapi.yml
 - filename: imperva-status-api-openapi.yml
   format: yaml
   label: Imperva Status API
   slug: imperva-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-status-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-status-api-openapi.yml
 - filename: imperva-traffic-statistics-and-logs-api-openapi.yml
   format: yaml
   label: Imperva Traffic Statistics and Logs API
   slug: imperva-traffic-statistics-and-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/openapi/imperva-traffic-statistics-and-logs-api-openapi.yml
+  url: https://artifacts.apis.io/imperva/openapi/imperva-traffic-statistics-and-logs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 152
@@ -190,8 +190,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/imperv
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conf/tags/{tagName}\n  method: delete\n  operationId: deleteTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conf/agents/{agentName}/tags/{tagName}\n  method: post\n  operationId: tagAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conf/agents/{agentName}/tags/{tagName}\n  method:\
   \ delete\n  operationId: removeTagFromAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conf/policies/security/webServiceCustomPolicies\n  method: get\n  operationId: getAllPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/conf/webServices/{siteName}/{serverGroupName}/{webServiceName}/krpInboundRules\n  method: get\n  operationId: getAllKrpItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/conf/policies/security/webServiceCustomPolicies/{policyName}\n  method: put\n  operationId: updateWebServiceCustomPolicy\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conf/policies/security/webServiceCustomPolicies/{policyName}\n  method: post\n  operationId: createWebServiceCustomPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conf/policies/security/webServiceCustomPolicies/{policyName}\n  method: delete\n  operationId: deleteWebServiceCustomPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conf/policies/security/webServiceCustomPolicies/{policyName}\n  method: get\n  operationId: getWebServiceCustomPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/conf/gatewayGroups/{gatewayGroupName}\n  method: post\n  operationId: createGatewayGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (135 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/agentic-access/imperva-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/agentic-access/imperva-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conf/policies/security/webServiceCustomPolicies/{policyName}\n  method: get\n  operationId: getWebServiceCustomPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/conf/gatewayGroups/{gatewayGroupName}\n  method: post\n  operationId: createGatewayGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (135 KB total) ---\n# Full source: https://artifacts.apis.io/imperva/agentic-access/imperva-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/imperva/agentic-access/imperva-agentic-access.yml
 summary_line: 414 operations · 262 acting · 8 human-in-the-loop
 tags:
 - Security

@@ -9,43 +9,43 @@ api_specs:
   label: New Relic Alerts API
   slug: new-relic-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-alerts-api-openapi.yml
 - filename: new-relic-applications-api-openapi.yml
   format: yaml
   label: New Relic Applications API
   slug: new-relic-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-applications-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-applications-api-openapi.yml
 - filename: new-relic-events-api-openapi.yml
   format: yaml
   label: New Relic Events API
   slug: new-relic-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-events-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-events-api-openapi.yml
 - filename: new-relic-get-api-openapi.yml
   format: yaml
   label: New Relic Get API
   slug: new-relic-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-get-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-get-api-openapi.yml
 - filename: new-relic-logs-api-openapi.yml
   format: yaml
   label: New Relic Logs API
   slug: new-relic-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-logs-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-logs-api-openapi.yml
 - filename: new-relic-metrics-api-openapi.yml
   format: yaml
   label: New Relic Metrics API
   slug: new-relic-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-metrics-api-openapi.yml
 - filename: new-relic-traces-api-openapi.yml
   format: yaml
   label: New Relic Traces API
   slug: new-relic-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-traces-api-openapi.yml
+  url: https://artifacts.apis.io/new-relic/openapi/new-relic-traces-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 30
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/new-re
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{accountId}/events\n  method: post\n  operationId: sendEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /key_transactions.json\n  method: get\n  operationId: getKeyTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /key_transactions/{id}.json\n  method: get\n  operationId: getKeyTransactionsId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /log/v1\n  method: post\n  operationId: sendLogs\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metric/v1\n  method: post\n  operationId: sendMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trace/v1\n  method: post\n  operationId: sendTraces\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/agentic-access/new-relic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/new-relic/agentic-access/new-relic-agentic-access.yml
 summary_line: 62 operations · 32 acting
 tags:
 - Analysis

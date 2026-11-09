@@ -9,73 +9,73 @@ api_specs:
   label: Sibill Account API
   slug: sibill-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-account-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-account-api-openapi.yml
 - filename: sibill-category-api-openapi.yml
   format: yaml
   label: Sibill Category API
   slug: sibill-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-category-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-category-api-openapi.yml
 - filename: sibill-company-api-openapi.yml
   format: yaml
   label: Sibill Company API
   slug: sibill-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-company-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-company-api-openapi.yml
 - filename: sibill-counterpart-api-openapi.yml
   format: yaml
   label: Sibill Counterpart API
   slug: sibill-counterpart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-counterpart-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-counterpart-api-openapi.yml
 - filename: sibill-document-api-openapi.yml
   format: yaml
   label: Sibill Document API
   slug: sibill-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-document-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-document-api-openapi.yml
 - filename: sibill-documentsectional-api-openapi.yml
   format: yaml
   label: Sibill DocumentSectional API
   slug: sibill-documentsectional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-documentsectional-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-documentsectional-api-openapi.yml
 - filename: sibill-flow-api-openapi.yml
   format: yaml
   label: Sibill Flow API
   slug: sibill-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-flow-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-flow-api-openapi.yml
 - filename: sibill-payment-api-openapi.yml
   format: yaml
   label: Sibill Payment API
   slug: sibill-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-payment-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-payment-api-openapi.yml
 - filename: sibill-product-api-openapi.yml
   format: yaml
   label: Sibill Product API
   slug: sibill-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-product-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-product-api-openapi.yml
 - filename: sibill-reconciliation-api-openapi.yml
   format: yaml
   label: Sibill Reconciliation API
   slug: sibill-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-reconciliation-api-openapi.yml
 - filename: sibill-subcategory-api-openapi.yml
   format: yaml
   label: Sibill Subcategory API
   slug: sibill-subcategory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-subcategory-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-subcategory-api-openapi.yml
 - filename: sibill-transaction-api-openapi.yml
   format: yaml
   label: Sibill Transaction API
   slug: sibill-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/openapi/sibill-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/sibill/openapi/sibill-transaction-api-openapi.yml
 consequence_counts:
   read: 23
   safety-critical: 25
@@ -248,7 +248,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sibill
   \      human-in-the-loop: required\n    audit: required\n- path: /api/v1/companies/{company_id}/subcategories/{id}\n  method: delete\n  operationId: SibillWeb.Integration.V1.SubcategoriesController.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/companies/{company_id}/subcategories/{id}\n  method: get\n  operationId: SibillWeb.Integration.V1.SubcategoriesController.show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}/subcategories/{id}\n  method: patch\n  operationId: SibillWeb.Integration.V1.SubcategoriesController.update\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/companies/{company_id}/transactions\n  method: get\n  operationId: SibillWeb.Integration.V1.TransactionsController.index\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}/transactions/{id}\n  method: get\n  operationId: SibillWeb.Integration.V1.TransactionsController.show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}/transactions/{id}\n  method: patch\n  operationId: SibillWeb.Integration.V1.TransactionsController.update\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/counterparts/search\n  method: get\n  operationId: SibillWeb.Integration.V1.CounterpartsActionsController.search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/agentic-access/sibill-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sibill/agentic-access/sibill-agentic-access.yml
 summary_line: 48 operations · 25 acting · 25 human-in-the-loop
 tags:
 - Company

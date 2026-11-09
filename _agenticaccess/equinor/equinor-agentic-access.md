@@ -9,157 +9,157 @@ api_specs:
   label: Equinor Allowed Locations API
   slug: equinor-allowed-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-allowed-locations-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-allowed-locations-api-openapi.yml
 - filename: equinor-create-api-openapi.yml
   format: yaml
   label: Equinor Create API
   slug: equinor-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-create-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-create-api-openapi.yml
 - filename: equinor-data-api-openapi.yml
   format: yaml
   label: Equinor Data API
   slug: equinor-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-data-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-data-api-openapi.yml
 - filename: equinor-events-api-openapi.yml
   format: yaml
   label: Equinor Events API
   slug: equinor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-events-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-events-api-openapi.yml
 - filename: equinor-facets-api-openapi.yml
   format: yaml
   label: Equinor Facets API
   slug: equinor-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-facets-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-facets-api-openapi.yml
 - filename: equinor-facility-api-openapi.yml
   format: yaml
   label: Equinor Facility API
   slug: equinor-facility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-facility-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-facility-api-openapi.yml
 - filename: equinor-getoradd-api-openapi.yml
   format: yaml
   label: Equinor Getoradd API
   slug: equinor-getoradd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-getoradd-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-getoradd-api-openapi.yml
 - filename: equinor-history-api-openapi.yml
   format: yaml
   label: Equinor History API
   slug: equinor-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-history-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-history-api-openapi.yml
 - filename: equinor-ims-export-subscriptions-api-api-openapi.yml
   format: yaml
   label: Equinor IMS Export Subscriptions API
   slug: equinor-ims-export-subscriptions-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-ims-export-subscriptions-api-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-ims-export-subscriptions-api-api-openapi.yml
 - filename: equinor-ims-metadata-api-api-openapi.yml
   format: yaml
   label: Equinor IMS Metadata API
   slug: equinor-ims-metadata-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-ims-metadata-api-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-ims-metadata-api-api-openapi.yml
 - filename: equinor-locations-api-openapi.yml
   format: yaml
   label: Equinor Locations API
   slug: equinor-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-locations-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-locations-api-openapi.yml
 - filename: equinor-parameter-sets-api-openapi.yml
   format: yaml
   label: Equinor Parameter Sets API
   slug: equinor-parameter-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-parameter-sets-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-parameter-sets-api-openapi.yml
 - filename: equinor-parameters-api-openapi.yml
   format: yaml
   label: Equinor Parameters API
   slug: equinor-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-parameters-api-openapi.yml
 - filename: equinor-query-api-openapi.yml
   format: yaml
   label: Equinor Query API
   slug: equinor-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-query-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-query-api-openapi.yml
 - filename: equinor-realtime-api-openapi.yml
   format: yaml
   label: Equinor Realtime API
   slug: equinor-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-realtime-api-openapi.yml
 - filename: equinor-search-api-openapi.yml
   format: yaml
   label: Equinor Search API
   slug: equinor-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-search-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-search-api-openapi.yml
 - filename: equinor-sources-api-openapi.yml
   format: yaml
   label: Equinor Sources API
   slug: equinor-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-sources-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-sources-api-openapi.yml
 - filename: equinor-streaming-api-openapi.yml
   format: yaml
   label: Equinor Streaming API
   slug: equinor-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-streaming-api-openapi.yml
 - filename: equinor-table-a1s-api-openapi.yml
   format: yaml
   label: Equinor Table A1s API
   slug: equinor-table-a1s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-table-a1s-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-table-a1s-api-openapi.yml
 - filename: equinor-threshold-api-openapi.yml
   format: yaml
   label: Equinor Threshold API
   slug: equinor-threshold-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-threshold-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-threshold-api-openapi.yml
 - filename: equinor-timeseries-api-api-openapi.yml
   format: yaml
   label: Equinor Timeseries API
   slug: equinor-timeseries-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-timeseries-api-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-timeseries-api-api-openapi.yml
 - filename: equinor-timeseriesid-api-openapi.yml
   format: yaml
   label: Equinor Timeseriesid API
   slug: equinor-timeseriesid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-timeseriesid-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-timeseriesid-api-openapi.yml
 - filename: equinor-uid-api-openapi.yml
   format: yaml
   label: Equinor Uid API
   slug: equinor-uid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-uid-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-uid-api-openapi.yml
 - filename: equinor-unit-profiles-api-openapi.yml
   format: yaml
   label: Equinor Unit Profiles API
   slug: equinor-unit-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-unit-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-unit-profiles-api-openapi.yml
 - filename: equinor-units-api-openapi.yml
   format: yaml
   label: Equinor Units API
   slug: equinor-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-units-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-units-api-openapi.yml
 - filename: equinor-weather-api-openapi.yml
   format: yaml
   label: Equinor Weather API
   slug: equinor-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/openapi/equinor-weather-api-openapi.yml
+  url: https://artifacts.apis.io/equinor/openapi/equinor-weather-api-openapi.yml
 consequence_counts:
   read: 57
   write: 22
@@ -206,7 +206,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/equino
   \ GetAggregatedData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/data\n  method: get\n  operationId: getDataByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/data\n  method: post\n  operationId: GetMultipleData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facility/{name}/counters\n  method: get\n  operationId: getFacilityByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{id}/data/first\n  method: get\n  operationId: GetFirst\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /query/data/first\n  method: post\n  operationId: GetMultipleFirst\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{id}/history\n  method: get\n  operationId: HistoryTimeseries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /history\n  method: get\n  operationId: HistoryAllTimeseries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{id}/data/latest\n  method: get\n  operationId: GetLatest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/data/latest\n  method: post\n  operationId: GetMultipleLatest\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: GetSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/{query}\n  method: get\n  operationId: GetSearchByQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streaming/destination\n  method: post\n  operationId: SetRealTimeDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/agentic-access/equinor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/equinor/agentic-access/equinor-agentic-access.yml
 summary_line: 79 operations · 22 acting
 tags:
 - Company

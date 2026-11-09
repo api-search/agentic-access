@@ -9,13 +9,13 @@ api_specs:
   label: Keyo Authentication API
   slug: keyo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/keyo/openapi/keyo-authentication-api-openapi.yml
 - filename: keyo-identities-api-openapi.yml
   format: yaml
   label: Keyo Identities API
   slug: keyo-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/openapi/keyo-identities-api-openapi.yml
+  url: https://artifacts.apis.io/keyo/openapi/keyo-identities-api-openapi.yml
 consequence_counts:
   read: 2
   write: 5
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/keyo-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 5\n    connected: 2\n  by_consequence:\n    write: 5\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /oauth/token/\n  method: post\n  operationId: OAuthClientCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identities/\n  method: get\n  operationId: IdentitiesGet\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identities/\n  method: post\n  operationId: IdentitiesPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identities/{id}/\n  method: get\n  operationId: IdentityGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identities/{id}/\n  method: patch\n  operationId: IdentitiesPatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /identities/{id}/\n  method: delete\n  operationId: IdentitiesDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identities/{id}/start-enroll/\n  method: post\n  operationId: IdentitiesStartEnroll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/agentic-access/keyo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/keyo/agentic-access/keyo-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
 - Company

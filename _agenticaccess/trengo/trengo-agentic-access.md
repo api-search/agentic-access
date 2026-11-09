@@ -9,49 +9,49 @@ api_specs:
   label: Trengo Channels API
   slug: trengo-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-channels-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-channels-api-openapi.yml
 - filename: trengo-contacts-api-openapi.yml
   format: yaml
   label: Trengo Contacts API
   slug: trengo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-contacts-api-openapi.yml
 - filename: trengo-labels-and-custom-fields-api-openapi.yml
   format: yaml
   label: Trengo Labels and Custom Fields API
   slug: trengo-labels-and-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-labels-and-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-labels-and-custom-fields-api-openapi.yml
 - filename: trengo-messages-api-openapi.yml
   format: yaml
   label: Trengo Messages API
   slug: trengo-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-messages-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-messages-api-openapi.yml
 - filename: trengo-teams-and-users-api-openapi.yml
   format: yaml
   label: Trengo Teams and Users API
   slug: trengo-teams-and-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-teams-and-users-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-teams-and-users-api-openapi.yml
 - filename: trengo-tickets-api-openapi.yml
   format: yaml
   label: Trengo Tickets API
   slug: trengo-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-tickets-api-openapi.yml
 - filename: trengo-webhooks-api-openapi.yml
   format: yaml
   label: Trengo Webhooks API
   slug: trengo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-webhooks-api-openapi.yml
 - filename: trengo-whats-app-api-openapi.yml
   format: yaml
   label: Trengo Whats App API
   slug: trengo-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/openapi/trengo-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/trengo/openapi/trengo-whats-app-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trengo
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom_fields\n  method: post\n  operationId: createCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /whatsapp/messages\n  method: post\n  operationId: sendWhatsAppTemplate\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/agentic-access/trengo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trengo/agentic-access/trengo-agentic-access.yml
 summary_line: 21 operations · 15 acting
 tags:
 - Customer Engagement

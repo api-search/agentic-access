@@ -9,61 +9,61 @@ api_specs:
   label: Forgejo Activitypub API
   slug: forgejo-activitypub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-activitypub-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-activitypub-api-openapi.yml
 - filename: forgejo-admin-api-openapi.yml
   format: yaml
   label: Forgejo Admin API
   slug: forgejo-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-admin-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-admin-api-openapi.yml
 - filename: forgejo-issue-api-openapi.yml
   format: yaml
   label: Forgejo Issue API
   slug: forgejo-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-issue-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-issue-api-openapi.yml
 - filename: forgejo-miscellaneous-api-openapi.yml
   format: yaml
   label: Forgejo Miscellaneous API
   slug: forgejo-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-miscellaneous-api-openapi.yml
 - filename: forgejo-notification-api-openapi.yml
   format: yaml
   label: Forgejo Notification API
   slug: forgejo-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-notification-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-notification-api-openapi.yml
 - filename: forgejo-organization-api-openapi.yml
   format: yaml
   label: Forgejo Organization API
   slug: forgejo-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-organization-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-organization-api-openapi.yml
 - filename: forgejo-package-api-openapi.yml
   format: yaml
   label: Forgejo Package API
   slug: forgejo-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-package-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-package-api-openapi.yml
 - filename: forgejo-repository-api-openapi.yml
   format: yaml
   label: Forgejo Repository API
   slug: forgejo-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-repository-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-repository-api-openapi.yml
 - filename: forgejo-settings-api-openapi.yml
   format: yaml
   label: Forgejo Settings API
   slug: forgejo-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-settings-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-settings-api-openapi.yml
 - filename: forgejo-user-api-openapi.yml
   format: yaml
   label: Forgejo User API
   slug: forgejo-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/openapi/forgejo-user-api-openapi.yml
+  url: https://artifacts.apis.io/forgejo/openapi/forgejo-user-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 261
@@ -193,8 +193,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ - high-value\n    audit: required\n- path: /orgs/{org}/block/{username}\n  method: put\n  operationId: orgBlockUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/hooks\n  method: get\n  operationId: orgListHooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/hooks\n  method: post\n  operationId: orgCreateHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/hooks/{id}\n  method:\
   \ get\n  operationId: orgGetHook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/hooks/{id}\n  method: delete\n  operationId: orgDeleteHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/hooks/{id}\n  method: patch\n  operationId: orgEditHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/labels\n  method: get\n  operationId: orgListLabels\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/labels\n  method: post\n  operationId: orgCreateLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/labels/{id}\n  method: get\n  operationId: orgGetLabel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/labels/{id}\n  method: delete\n  operationId: orgDeleteLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (144 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/agentic-access/forgejo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/agentic-access/forgejo-agentic-access.yml
+  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (144 KB total) ---\n# Full source: https://artifacts.apis.io/forgejo/agentic-access/forgejo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/forgejo/agentic-access/forgejo-agentic-access.yml
 summary_line: 506 operations · 245 acting · 5 human-in-the-loop
 tags:
 - Version Control

@@ -9,43 +9,43 @@ api_specs:
   label: Ansa Add Incentive API
   slug: ansa-add-incentive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-add-incentive-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-add-incentive-api-openapi.yml
 - filename: ansa-customer-segments-api-openapi.yml
   format: yaml
   label: Ansa Customer Segments API
   slug: ansa-customer-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-customer-segments-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-customer-segments-api-openapi.yml
 - filename: ansa-customers-api-openapi.yml
   format: yaml
   label: Ansa Customers API
   slug: ansa-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-customers-api-openapi.yml
 - filename: ansa-initialize-payment-session-api-openapi.yml
   format: yaml
   label: Ansa Initialize Payment Session API
   slug: ansa-initialize-payment-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-initialize-payment-session-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-initialize-payment-session-api-openapi.yml
 - filename: ansa-merchants-api-openapi.yml
   format: yaml
   label: Ansa Merchants API
   slug: ansa-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-merchants-api-openapi.yml
 - filename: ansa-refunds-api-openapi.yml
   format: yaml
   label: Ansa Refunds API
   slug: ansa-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-refunds-api-openapi.yml
 - filename: ansa-transactions-api-openapi.yml
   format: yaml
   label: Ansa Transactions API
   slug: ansa-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/openapi/ansa-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ansa/openapi/ansa-transactions-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 19
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/ansa-o
   \     - high-value\n    audit: required\n- path: /v1/refunds/balance\n  method: post\n  operationId: refund-to-balance\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/refunds/payment-method\n  method: post\n  operationId: refund-to-payment-method\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/merchants/{merchantId}/request-settlement\n  method: post\n  operationId: request-settlement\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customers/{customerId}/payment-method/{paymentMethodId}\n  method: put\n  operationId: update-payment-method\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transactions/{transactionId}/metadata\n  method: put\n  operationId: update-transaction-metadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customers/{customerId}/use-balance\n  method: post\n  operationId: use-balance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/agentic-access/ansa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ansa/agentic-access/ansa-agentic-access.yml
 summary_line: 53 operations · 34 acting
 tags:
 - Company

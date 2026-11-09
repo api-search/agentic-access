@@ -9,31 +9,31 @@ api_specs:
   label: Tealium Auth API
   slug: tealium-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-auth-api-openapi.yml
 - filename: tealium-collect-api-openapi.yml
   format: yaml
   label: Tealium Collect API
   slug: tealium-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-collect-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-collect-api-openapi.yml
 - filename: tealium-customer-api-openapi.yml
   format: yaml
   label: Tealium Customer API
   slug: tealium-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-customer-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-customer-api-openapi.yml
 - filename: tealium-personalization-api-openapi.yml
   format: yaml
   label: Tealium Personalization API
   slug: tealium-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-personalization-api-openapi.yml
 - filename: tealium-privacy-api-openapi.yml
   format: yaml
   label: Tealium Privacy API
   slug: tealium-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-privacy-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-privacy-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 8
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tealiu
   \  method: post\n  operationId: collectIntegrationEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /personalization/accounts/{account}/profiles/{profile}/engines/{engineId}/visitors/{visitorId}\n  method: get\n  operationId: getMomentsByVisitorId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personalization/accounts/{account}/profiles/{profile}/engines/{engineId}\n  method: get\n  operationId: getMomentsByAttributeValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /privacy/visitor/accounts/{account}/profiles/{profile}\n\
   \  method: get\n  operationId: getPrivacyVisitor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /privacy/visitor/accounts/{account}/profiles/{profile}\n  method: delete\n  operationId: deletePrivacyVisitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /privacy/visitor/accounts/{account}/profiles/{profile}/transactions/{transaction_id}\n  method: get\n  operationId: getDeleteTransactionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /privacy/visitor/accounts/{account}/profiles/{profile}/ids\n  method: get\n  operationId: getVisitorIdAttributes\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/visitor/accounts/{account}/profiles/{profile}\n  method: get\n  operationId: getVisitorProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/visitor/historical/accounts/{account}/profiles/{profile}\n  method: get\n  operationId: getHistoricalVisitorProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/agentic-access/tealium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tealium/agentic-access/tealium-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Customer Data Platform

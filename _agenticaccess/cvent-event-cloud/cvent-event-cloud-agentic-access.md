@@ -9,325 +9,325 @@ api_specs:
   label: Cvent Event Cloud Attendees API
   slug: cvent-event-cloud-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-attendees-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-attendees-api-openapi.yml
 - filename: cvent-event-cloud-contacts-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Contacts API
   slug: cvent-event-cloud-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-contacts-api-openapi.yml
 - filename: cvent-event-cloud-events-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Events API
   slug: cvent-event-cloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-events-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-events-api-openapi.yml
 - filename: cvent-event-cloud-sessions-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Sessions API
   slug: cvent-event-cloud-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-sessions-api-openapi.yml
 - filename: cvent-event-cloud-appointments-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Appointments API
   slug: cvent-event-cloud-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-appointments-api-openapi.yml
 - filename: cvent-event-cloud-attendee-activities-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Attendee Activities API
   slug: cvent-event-cloud-attendee-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-attendee-activities-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-attendee-activities-api-openapi.yml
 - filename: cvent-event-cloud-attendee-insights-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Attendee Insights API
   slug: cvent-event-cloud-attendee-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-attendee-insights-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-attendee-insights-api-openapi.yml
 - filename: cvent-event-cloud-attendee-messages-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Attendee Messages API
   slug: cvent-event-cloud-attendee-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-attendee-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-attendee-messages-api-openapi.yml
 - filename: cvent-event-cloud-audience-segments-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Audience Segments API
   slug: cvent-event-cloud-audience-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-audience-segments-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-audience-segments-api-openapi.yml
 - filename: cvent-event-cloud-authentication-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Authentication API
   slug: cvent-event-cloud-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-authentication-api-openapi.yml
 - filename: cvent-event-cloud-badge-print-job-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Badge Print Job API
   slug: cvent-event-cloud-badge-print-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-badge-print-job-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-badge-print-job-api-openapi.yml
 - filename: cvent-event-cloud-badge-printer-pools-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Badge Printer Pools API
   slug: cvent-event-cloud-badge-printer-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-badge-printer-pools-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-badge-printer-pools-api-openapi.yml
 - filename: cvent-event-cloud-budget-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Budget API
   slug: cvent-event-cloud-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-budget-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-budget-api-openapi.yml
 - filename: cvent-event-cloud-bulk-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Bulk API
   slug: cvent-event-cloud-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-bulk-api-openapi.yml
 - filename: cvent-event-cloud-campaigns-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Campaigns API
   slug: cvent-event-cloud-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-campaigns-api-openapi.yml
 - filename: cvent-event-cloud-card-tokens-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Card Tokens API
   slug: cvent-event-cloud-card-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-card-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-card-tokens-api-openapi.yml
 - filename: cvent-event-cloud-compliance-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Compliance API
   slug: cvent-event-cloud-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-compliance-api-openapi.yml
 - filename: cvent-event-cloud-custom-fields-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Custom Fields API
   slug: cvent-event-cloud-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-custom-fields-api-openapi.yml
 - filename: cvent-event-cloud-discounts-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Discounts API
   slug: cvent-event-cloud-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-discounts-api-openapi.yml
 - filename: cvent-event-cloud-emails-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Emails API
   slug: cvent-event-cloud-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-emails-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-emails-api-openapi.yml
 - filename: cvent-event-cloud-event-credits-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Event Credits API
   slug: cvent-event-cloud-event-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-event-credits-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-event-credits-api-openapi.yml
 - filename: cvent-event-cloud-event-features-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Event Features API
   slug: cvent-event-cloud-event-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-event-features-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-event-features-api-openapi.yml
 - filename: cvent-event-cloud-event-role-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Event Role API
   slug: cvent-event-cloud-event-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-event-role-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-event-role-api-openapi.yml
 - filename: cvent-event-cloud-event-travel-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Event Travel API
   slug: cvent-event-cloud-event-travel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-event-travel-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-event-travel-api-openapi.yml
 - filename: cvent-event-cloud-events-hub-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Events+ Hub API
   slug: cvent-event-cloud-events-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-events-hub-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-events-hub-api-openapi.yml
 - filename: cvent-event-cloud-exhibitor-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Exhibitor API
   slug: cvent-event-cloud-exhibitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-exhibitor-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-exhibitor-api-openapi.yml
 - filename: cvent-event-cloud-exhibitor-content-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Exhibitor Content API
   slug: cvent-event-cloud-exhibitor-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-exhibitor-content-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-exhibitor-content-api-openapi.yml
 - filename: cvent-event-cloud-exhibitor-team-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Exhibitor Team API
   slug: cvent-event-cloud-exhibitor-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-exhibitor-team-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-exhibitor-team-api-openapi.yml
 - filename: cvent-event-cloud-file-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud File API
   slug: cvent-event-cloud-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-file-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-file-api-openapi.yml
 - filename: cvent-event-cloud-hooks-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Hooks API
   slug: cvent-event-cloud-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-hooks-api-openapi.yml
 - filename: cvent-event-cloud-leads-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Leads API
   slug: cvent-event-cloud-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-leads-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-leads-api-openapi.yml
 - filename: cvent-event-cloud-process-form-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Process Form API
   slug: cvent-event-cloud-process-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-process-form-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-process-form-api-openapi.yml
 - filename: cvent-event-cloud-seating-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Seating API
   slug: cvent-event-cloud-seating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-seating-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-seating-api-openapi.yml
 - filename: cvent-event-cloud-signatures-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Signatures API
   slug: cvent-event-cloud-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-signatures-api-openapi.yml
 - filename: cvent-event-cloud-speakers-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Speakers API
   slug: cvent-event-cloud-speakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-speakers-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-speakers-api-openapi.yml
 - filename: cvent-event-cloud-surveys-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Surveys API
   slug: cvent-event-cloud-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-surveys-api-openapi.yml
 - filename: cvent-event-cloud-usage-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Usage API
   slug: cvent-event-cloud-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-usage-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-usage-api-openapi.yml
 - filename: cvent-event-cloud-user-scim-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud User SCIM API
   slug: cvent-event-cloud-user-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-user-scim-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-user-scim-api-openapi.yml
 - filename: cvent-event-cloud-users-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Users API
   slug: cvent-event-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-users-api-openapi.yml
 - filename: cvent-event-cloud-video-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Video API
   slug: cvent-event-cloud-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-video-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-video-api-openapi.yml
 - filename: cvent-event-cloud-webcasts-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Webcasts API
   slug: cvent-event-cloud-webcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-webcasts-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-webcasts-api-openapi.yml
 - filename: cvent-event-cloud-housing-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Housing API
   slug: cvent-event-cloud-housing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-housing-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-housing-api-openapi.yml
 - filename: cvent-event-cloud-housing-hotels-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Housing Hotels API
   slug: cvent-event-cloud-housing-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-housing-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-housing-hotels-api-openapi.yml
 - filename: cvent-event-cloud-meeting-request-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Meeting Request API
   slug: cvent-event-cloud-meeting-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-meeting-request-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-meeting-request-api-openapi.yml
 - filename: cvent-event-cloud-proposal-draft-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Proposal Draft API
   slug: cvent-event-cloud-proposal-draft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-proposal-draft-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-proposal-draft-api-openapi.yml
 - filename: cvent-event-cloud-rfp-additional-details-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud RFP Additional Details API
   slug: cvent-event-cloud-rfp-additional-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-rfp-additional-details-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-rfp-additional-details-api-openapi.yml
 - filename: cvent-event-cloud-rfp-management-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud RFP Management API
   slug: cvent-event-cloud-rfp-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-rfp-management-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-rfp-management-api-openapi.yml
 - filename: cvent-event-cloud-rfp-requirements-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud RFP Requirements API
   slug: cvent-event-cloud-rfp-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-rfp-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-rfp-requirements-api-openapi.yml
 - filename: cvent-event-cloud-rfp-suppliers-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud RFP Suppliers API
   slug: cvent-event-cloud-rfp-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-rfp-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-rfp-suppliers-api-openapi.yml
 - filename: cvent-event-cloud-travel-accounts-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Travel Accounts API
   slug: cvent-event-cloud-travel-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-travel-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-travel-accounts-api-openapi.yml
 - filename: cvent-event-cloud-travel-rfps-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Travel RFPs API
   slug: cvent-event-cloud-travel-rfps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-travel-rfps-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-travel-rfps-api-openapi.yml
 - filename: cvent-event-cloud-travel-suppliers-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Travel Suppliers API
   slug: cvent-event-cloud-travel-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-travel-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-travel-suppliers-api-openapi.yml
 - filename: cvent-event-cloud-venue-meeting-rooms-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Venue Meeting Rooms API
   slug: cvent-event-cloud-venue-meeting-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-venue-meeting-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-venue-meeting-rooms-api-openapi.yml
 - filename: cvent-event-cloud-venue-profiles-api-openapi.yml
   format: yaml
   label: Cvent Event Cloud Venue Profiles API
   slug: cvent-event-cloud-venue-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-venue-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/cvent-event-cloud/openapi/cvent-event-cloud-venue-profiles-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 264
@@ -437,8 +437,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cvent-
   \    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - budget/payments:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/{id}/budget-items/{budgetItemId}/budget-payments/{paymentId}\n  method: delete\n  operationId: deletePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - budget/payments:delete\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/{id}/budget-items/{budgetItemId}/custom-fields/{customFieldId}/answers\n  method: put\n  operationId: answerBudgetCustomField\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - budget/budget-items:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/{id}/budget-payments\n  method: get\n  operationId: getPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - budget/payments:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}/budget-payments/{paymentId}/invoices/{invoiceId}\n  method: put\n  operationId: attachInvoiceToPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - budget/payments:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /events/{id}/budget-totals\n  method: get\n  operationId: getEventBudgetTotals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - budget/budget-totals:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk-jobs\n  method: post\n  operationId: createBulkJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bulk/bulk-jobs:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bulk-jobs/{id}\n  method: get\n  operationId: getBulkJobById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - bulk/bulk-jobs:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk-jobs/{id}/cancel\n\
-  \  method: post\n  operationId: cancelBulkJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bulk/bulk-jobs:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bulk-jobs/{id}/data\n  method: post\n  operationId: uploadBulkJobData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bulk/bulk-jobs:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (151 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/agentic-access/cvent-event-cloud-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/agentic-access/cvent-event-cloud-agentic-access.yml
+  \  method: post\n  operationId: cancelBulkJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bulk/bulk-jobs:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bulk-jobs/{id}/data\n  method: post\n  operationId: uploadBulkJobData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bulk/bulk-jobs:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (151 KB total) ---\n# Full source: https://artifacts.apis.io/cvent-event-cloud/agentic-access/cvent-event-cloud-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/cvent-event-cloud/agentic-access/cvent-event-cloud-agentic-access.yml
 summary_line: 458 operations · 194 acting
 tags:
 - Attendee Hub
@@ -452,7 +452,7 @@ tags:
 - Exhibitors
 - Hybrid Events
 - MCP
-- Authentication
+- OAuth
 - OnSite
 - OpenAPI
 - Overlays
@@ -466,4 +466,5 @@ tags:
 - Virtual Events
 - Webcasts
 - Webhook
+- Authentication
 ---

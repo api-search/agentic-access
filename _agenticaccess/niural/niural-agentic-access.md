@@ -9,25 +9,25 @@ api_specs:
   label: Niural Authentication API
   slug: niural-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/niural/openapi/niural-authentication-api-openapi.yml
 - filename: niural-contracts-api-openapi.yml
   format: yaml
   label: Niural Contracts API
   slug: niural-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/niural/openapi/niural-contracts-api-openapi.yml
 - filename: niural-invoices-api-openapi.yml
   format: yaml
   label: Niural Invoices API
   slug: niural-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/niural/openapi/niural-invoices-api-openapi.yml
 - filename: niural-transactions-api-openapi.yml
   format: yaml
   label: Niural Transactions API
   slug: niural-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/niural/openapi/niural-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/niural
   - path: /invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{invoice-id}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment-methods\n  method: get\n  operationId: getPaymentMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transaction-id}\n  method: get\n  operationId: getTransactionsByTransactionId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transaction-id}\n  method: patch\n  operationId: patchTransactionsByTransactionId\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: post\n  operationId: postTransactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction-estimates\n  method: post\n  operationId: postTransactionEstimates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/agentic-access/niural-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/niural/agentic-access/niural-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Company

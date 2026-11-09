@@ -9,31 +9,37 @@ api_specs:
   label: Amazon Resource Explorer Index API
   slug: amazon-resource-explorer-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-index-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-index-api-openapi.yml
 - filename: amazon-resource-explorer-resources-api-openapi.yml
   format: yaml
   label: Amazon Resource Explorer Resources API
   slug: amazon-resource-explorer-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-resources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-resources-api-openapi.yml
 - filename: amazon-resource-explorer-search-api-openapi.yml
   format: yaml
   label: Amazon Resource Explorer Search API
   slug: amazon-resource-explorer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-search-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-search-api-openapi.yml
 - filename: amazon-resource-explorer-tags-api-openapi.yml
   format: yaml
   label: Amazon Resource Explorer Tags API
   slug: amazon-resource-explorer-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-tags-api-openapi.yml
 - filename: amazon-resource-explorer-views-api-openapi.yml
   format: yaml
   label: Amazon Resource Explorer Views API
   slug: amazon-resource-explorer-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/amazon-resource-explorer-views-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-views-api-openapi.yml
+- filename: amazon-resource-explorer-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Resource Explorer Resource Explorer Operations API
+  slug: amazon-resource-explorer-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-resource-explorer/openapi/amazon-resource-explorer-operations-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -64,9 +70,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Search\n  method: post\n  operationId: Search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListTagsForResource/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TagResource/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UntagResource/{resourceArn}\n  method: delete\n  operationId: UntagResource\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateView\n  method: post\n  operationId: CreateView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteView\n  method: post\n  operationId: DeleteView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /GetView\n  method: post\n  operationId:\
   \ GetView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListViews\n  method: post\n  operationId: ListViews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /BatchGetView\n  method: post\n  operationId: BatchGetView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/agentic-access/amazon-resource-explorer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-resource-explorer/agentic-access/amazon-resource-explorer-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
+- Amazon Web Services
 - Discovery
 - Inventory
 - Resource Management

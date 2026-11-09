@@ -9,145 +9,145 @@ api_specs:
   label: Whitespace Activities API
   slug: whitespace-london-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-activities-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-activities-api-openapi.yml
 - filename: whitespace-london-attachments-api-openapi.yml
   format: yaml
   label: Whitespace Attachments API
   slug: whitespace-london-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-attachments-api-openapi.yml
 - filename: whitespace-london-bind-notify-parties-api-openapi.yml
   format: yaml
   label: Whitespace Bind Notify Parties API
   slug: whitespace-london-bind-notify-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-bind-notify-parties-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-bind-notify-parties-api-openapi.yml
 - filename: whitespace-london-comments-api-openapi.yml
   format: yaml
   label: Whitespace Comments API
   slug: whitespace-london-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-comments-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-comments-api-openapi.yml
 - filename: whitespace-london-customer-api-openapi.yml
   format: yaml
   label: Whitespace Customer API
   slug: whitespace-london-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-customer-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-customer-api-openapi.yml
 - filename: whitespace-london-data-api-openapi.yml
   format: yaml
   label: Whitespace Data API
   slug: whitespace-london-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-data-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-data-api-openapi.yml
 - filename: whitespace-london-documents-api-openapi.yml
   format: yaml
   label: Whitespace Documents API
   slug: whitespace-london-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-documents-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-documents-api-openapi.yml
 - filename: whitespace-london-endorsements-api-openapi.yml
   format: yaml
   label: Whitespace Endorsements API
   slug: whitespace-london-endorsements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-endorsements-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-endorsements-api-openapi.yml
 - filename: whitespace-london-export-api-openapi.yml
   format: yaml
   label: Whitespace Export API
   slug: whitespace-london-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-export-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-export-api-openapi.yml
 - filename: whitespace-london-internal-broker-note-api-openapi.yml
   format: yaml
   label: Whitespace Internal Broker Note API
   slug: whitespace-london-internal-broker-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-internal-broker-note-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-internal-broker-note-api-openapi.yml
 - filename: whitespace-london-labels-api-openapi.yml
   format: yaml
   label: Whitespace Labels API
   slug: whitespace-london-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-labels-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-labels-api-openapi.yml
 - filename: whitespace-london-lines-api-openapi.yml
   format: yaml
   label: Whitespace Lines API
   slug: whitespace-london-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-lines-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-lines-api-openapi.yml
 - filename: whitespace-london-lookup-api-openapi.yml
   format: yaml
   label: Whitespace Lookup API
   slug: whitespace-london-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-lookup-api-openapi.yml
 - filename: whitespace-london-mireport-api-openapi.yml
   format: yaml
   label: Whitespace MI Report API
   slug: whitespace-london-mireport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-mireport-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-mireport-api-openapi.yml
 - filename: whitespace-london-overview-api-openapi.yml
   format: yaml
   label: Whitespace Overview API
   slug: whitespace-london-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-overview-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-overview-api-openapi.yml
 - filename: whitespace-london-owner-api-openapi.yml
   format: yaml
   label: Whitespace Owner API
   slug: whitespace-london-owner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-owner-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-owner-api-openapi.yml
 - filename: whitespace-london-questionnaire-api-openapi.yml
   format: yaml
   label: Whitespace Questionnaire API
   slug: whitespace-london-questionnaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-questionnaire-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-questionnaire-api-openapi.yml
 - filename: whitespace-london-risks-api-openapi.yml
   format: yaml
   label: Whitespace Risks API
   slug: whitespace-london-risks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-risks-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-risks-api-openapi.yml
 - filename: whitespace-london-sections-api-openapi.yml
   format: yaml
   label: Whitespace Sections API
   slug: whitespace-london-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-sections-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-sections-api-openapi.yml
 - filename: whitespace-london-shared-api-openapi.yml
   format: yaml
   label: Whitespace Shared API
   slug: whitespace-london-shared-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-shared-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-shared-api-openapi.yml
 - filename: whitespace-london-show-declaration-to-facility-api-openapi.yml
   format: yaml
   label: Whitespace Show Declaration to Facility API
   slug: whitespace-london-show-declaration-to-facility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-show-declaration-to-facility-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-show-declaration-to-facility-api-openapi.yml
 - filename: whitespace-london-summary-api-openapi.yml
   format: yaml
   label: Whitespace Summary API
   slug: whitespace-london-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-summary-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-summary-api-openapi.yml
 - filename: whitespace-london-user-api-openapi.yml
   format: yaml
   label: Whitespace User API
   slug: whitespace-london-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-user-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-user-api-openapi.yml
 - filename: whitespace-london-version-api-openapi.yml
   format: yaml
   label: Whitespace Version API
   slug: whitespace-london-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/openapi/whitespace-london-version-api-openapi.yml
+  url: https://artifacts.apis.io/whitespace-london/openapi/whitespace-london-version-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 49
@@ -257,8 +257,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/whites
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/risks/{riskID}/withdrawFirmOrder\n  method: post\n  operationId: postApiRisksByRiskIDWithdrawFirmOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/risks/{riskID}/saveVerticalLines\n  method: post\n  operationId: postApiRisksByRiskIDSaveVerticalLines\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/risks/{riskID}/notTakeUpQuotation\n  method: post\n  operationId: postApiRisksByRiskIDNotTakeUpQuotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/risks/{riskID}/rollbackSigned\n  method: post\n  operationId: postApiRisksByRiskIDRollbackSigned\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/risks/{riskID}/createEndorsement\n  method: post\n  operationId: postApiRisksByRiskIDCreateEndorsement\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/risks/{riskID}/deleteDraft\n  method: post\n  operationId: postApiRisksByRiskIDDeleteDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/risks/{riskID}/applyTemplate\n  method: post\n  operationId: postApiRisksByRiskIDApplyTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /api/risks/{riskID}/rejectWrittenLine/{writtenLineSetID}\n  method: post\n  operationId: postApiRisksByRiskIDRejectWrittenLineByWrittenLineSetID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/risks/{riskID}/acceptWrittenLine/{writtenLineSetID}\n  method: post\n  operationId: postApiRisksByRiskIDAcceptWrittenLineByWrittenLineSetID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/agentic-access/whitespace-london-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/agentic-access/whitespace-london-agentic-access.yml
+  - path: /api/risks/{riskID}/rejectWrittenLine/{writtenLineSetID}\n  method: post\n  operationId: postApiRisksByRiskIDRejectWrittenLineByWrittenLineSetID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/risks/{riskID}/acceptWrittenLine/{writtenLineSetID}\n  method: post\n  operationId: postApiRisksByRiskIDAcceptWrittenLineByWrittenLineSetID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/whitespace-london/agentic-access/whitespace-london-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/whitespace-london/agentic-access/whitespace-london-agentic-access.yml
 summary_line: 121 operations · 72 acting
 tags:
 - Insurance

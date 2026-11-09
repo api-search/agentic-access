@@ -8,37 +8,37 @@ api_specs:
   label: AlphaAI Calendar API
   slug: alphaai-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-calendar-api-openapi.yml
 - filename: alphaai-news-api-openapi.yml
   format: yaml
   label: AlphaAI News API
   slug: alphaai-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-news-api-openapi.yml
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-news-api-openapi.yml
 - filename: alphaai-symbols-api-openapi.yml
   format: yaml
   label: AlphaAI Symbols API
   slug: alphaai-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-symbols-api-openapi.yml
 - filename: alphaai-coverage-api-openapi.yml
   format: yaml
   label: AlphaAI Coverage API
   slug: alphaai-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-coverage-api-openapi.yml
 - filename: alphaai-radar-api-openapi.yml
   format: yaml
   label: AlphaAI Radar API
   slug: alphaai-radar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-radar-api-openapi.yml
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-radar-api-openapi.yml
 - filename: alphaai-stories-api-openapi.yml
   format: yaml
   label: AlphaAI Stories API
   slug: alphaai-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-stories-api-openapi.yml
+  url: https://artifacts.apis.io/alphaai/openapi/alphaai-stories-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: generated\nsource: openapi/alphaa
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/news/macro/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/calendar/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/news/{uid}/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/news/{uid}/related/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/symbols/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/symbols/{ticker}/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/symbols/{ticker}/sentiment-summary/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/symbols/{ticker}/insider-summary/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/symbols/{ticker}/insider-trades/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/symbols/{ticker}/peers/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/symbols/directory/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/symbols/sectors/{slug}/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/agentic-access/alphaai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alphaai/agentic-access/alphaai-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Financial News

@@ -9,139 +9,139 @@ api_specs:
   label: Capmo Organisation Companies API
   slug: capmo-organisation-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-organisation-companies-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-organisation-companies-api-openapi.yml
 - filename: capmo-organisation-memberships-api-openapi.yml
   format: yaml
   label: Capmo Organisation Memberships API
   slug: capmo-organisation-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-organisation-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-organisation-memberships-api-openapi.yml
 - filename: capmo-organisation-people-api-openapi.yml
   format: yaml
   label: Capmo Organisation People API
   slug: capmo-organisation-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-organisation-people-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-organisation-people-api-openapi.yml
 - filename: capmo-organisation-projects-api-openapi.yml
   format: yaml
   label: Capmo Organisation Projects API
   slug: capmo-organisation-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-organisation-projects-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-organisation-projects-api-openapi.yml
 - filename: capmo-other-api-openapi.yml
   format: yaml
   label: Capmo Other API
   slug: capmo-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-other-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-other-api-openapi.yml
 - filename: capmo-project-change-orders-api-openapi.yml
   format: yaml
   label: Capmo Project Change Orders API
   slug: capmo-project-change-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-change-orders-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-change-orders-api-openapi.yml
 - filename: capmo-project-companies-api-openapi.yml
   format: yaml
   label: Capmo Project Companies API
   slug: capmo-project-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-companies-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-companies-api-openapi.yml
 - filename: capmo-project-documents-api-openapi.yml
   format: yaml
   label: Capmo Project Documents API
   slug: capmo-project-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-documents-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-documents-api-openapi.yml
 - filename: capmo-project-memberships-api-openapi.yml
   format: yaml
   label: Capmo Project Memberships API
   slug: capmo-project-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-memberships-api-openapi.yml
 - filename: capmo-project-people-api-openapi.yml
   format: yaml
   label: Capmo Project People API
   slug: capmo-project-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-people-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-people-api-openapi.yml
 - filename: capmo-project-permission-sets-api-openapi.yml
   format: yaml
   label: Capmo Project Permission Sets API
   slug: capmo-project-permission-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-permission-sets-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-permission-sets-api-openapi.yml
 - filename: capmo-project-plans-api-openapi.yml
   format: yaml
   label: Capmo Project Plans API
   slug: capmo-project-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-plans-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-plans-api-openapi.yml
 - filename: capmo-project-room-listings-api-openapi.yml
   format: yaml
   label: Capmo Project Room Listings API
   slug: capmo-project-room-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-room-listings-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-room-listings-api-openapi.yml
 - filename: capmo-project-site-journals-api-openapi.yml
   format: yaml
   label: Capmo Project Site Journals API
   slug: capmo-project-site-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-site-journals-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-site-journals-api-openapi.yml
 - filename: capmo-project-templates-api-openapi.yml
   format: yaml
   label: Capmo Project Templates API
   slug: capmo-project-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-templates-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-templates-api-openapi.yml
 - filename: capmo-project-ticket-attachments-api-openapi.yml
   format: yaml
   label: Capmo Project Ticket Attachments API
   slug: capmo-project-ticket-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-ticket-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-ticket-attachments-api-openapi.yml
 - filename: capmo-project-ticket-categories-api-openapi.yml
   format: yaml
   label: Capmo Project Ticket Categories API
   slug: capmo-project-ticket-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-ticket-categories-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-ticket-categories-api-openapi.yml
 - filename: capmo-project-ticket-comments-api-openapi.yml
   format: yaml
   label: Capmo Project Ticket Comments API
   slug: capmo-project-ticket-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-ticket-comments-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-ticket-comments-api-openapi.yml
 - filename: capmo-project-ticket-tags-api-openapi.yml
   format: yaml
   label: Capmo Project Ticket Tags API
   slug: capmo-project-ticket-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-ticket-tags-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-ticket-tags-api-openapi.yml
 - filename: capmo-project-ticket-types-api-openapi.yml
   format: yaml
   label: Capmo Project Ticket Types API
   slug: capmo-project-ticket-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-ticket-types-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-ticket-types-api-openapi.yml
 - filename: capmo-project-tickets-api-openapi.yml
   format: yaml
   label: Capmo Project Tickets API
   slug: capmo-project-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-project-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-project-tickets-api-openapi.yml
 - filename: capmo-projects-api-openapi.yml
   format: yaml
   label: Capmo Projects API
   slug: capmo-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-projects-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-projects-api-openapi.yml
 - filename: capmo-uploads-api-openapi.yml
   format: yaml
   label: Capmo Uploads API
   slug: capmo-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/openapi/capmo-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/capmo/openapi/capmo-uploads-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 40
@@ -253,7 +253,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/capmo-
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectId}/site-journals/{siteJournalId}\n  method: patch\n  operationId: updateSiteJournal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{projectId}/site-journals/{siteJournalId}\n  method: delete\n  operationId: deleteSiteJournal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{projectId}/change-orders\n  method: get\n  operationId: getChangeOrdersPaginated\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectId}/change-orders\n  method: post\n  operationId: createChangeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{projectId}/change-orders/steps\n  method: get\n  operationId: getChangeOrderSteps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectId}/change-orders/{changeOrderId}\n  method: get\n  operationId: getChangeOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectId}/change-orders/{changeOrderId}\n  method: patch\n  operationId: updateChangeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{projectId}/change-orders/{changeOrderId}\n  method: delete\n  operationId: deleteChangeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/agentic-access/capmo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/capmo/agentic-access/capmo-agentic-access.yml
 summary_line: 92 operations · 52 acting · 2 human-in-the-loop
 tags:
 - Company

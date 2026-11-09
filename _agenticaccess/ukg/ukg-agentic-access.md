@@ -9,49 +9,49 @@ api_specs:
   label: UKG Accruals API
   slug: ukg-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/ukg/openapi/ukg-accruals-api-openapi.yml
 - filename: ukg-benefits-api-openapi.yml
   format: yaml
   label: UKG Benefits API
   slug: ukg-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/ukg/openapi/ukg-benefits-api-openapi.yml
 - filename: ukg-employees-api-openapi.yml
   format: yaml
   label: UKG Employees API
   slug: ukg-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-employees-api-openapi.yml
+  url: https://artifacts.apis.io/ukg/openapi/ukg-employees-api-openapi.yml
 - filename: ukg-organization-api-openapi.yml
   format: yaml
   label: UKG Organization API
   slug: ukg-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-organization-api-openapi.yml
+  url: https://artifacts.apis.io/ukg/openapi/ukg-organization-api-openapi.yml
 - filename: ukg-payroll-api-openapi.yml
   format: yaml
   label: UKG Payroll API
   slug: ukg-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/ukg/openapi/ukg-payroll-api-openapi.yml
 - filename: ukg-personnel-actions-api-openapi.yml
   format: yaml
   label: UKG Personnel Actions API
   slug: ukg-personnel-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-personnel-actions-api-openapi.yml
+  url: https://artifacts.apis.io/ukg/openapi/ukg-personnel-actions-api-openapi.yml
 - filename: ukg-scheduling-api-openapi.yml
   format: yaml
   label: UKG Scheduling API
   slug: ukg-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/ukg/openapi/ukg-scheduling-api-openapi.yml
 - filename: ukg-timekeeping-api-openapi.yml
   format: yaml
   label: UKG Timekeeping API
   slug: ukg-timekeeping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/openapi/ukg-timekeeping-api-openapi.yml
+  url: https://artifacts.apis.io/ukg/openapi/ukg-timekeeping-api-openapi.yml
 consequence_counts:
   read: 16
   write: 2
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ukg-pr
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payroll/v1/pay-statements\n  method: get\n  operationId: listPayStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/employees\n  method: get\n  operationId: listWfmEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/employees/{employeeId}/timecards\n  method: get\n  operationId: getEmployeeTimecards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/employees/{employeeId}/punches\n  method: get\n  operationId: getEmployeePunches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/employees/{employeeId}/punches\n  method: post\n  operationId: createPunch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/employees/{employeeId}/accruals\n  method: get\n  operationId: getEmployeeAccruals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/schedules\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/employees/{employeeId}/shifts\n  method: get\n  operationId: getEmployeeShifts\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/agentic-access/ukg-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ukg/agentic-access/ukg-agentic-access.yml
 summary_line: 18 operations · 2 acting
 tags:
 - HCM

@@ -9,55 +9,55 @@ api_specs:
   label: Skydropx Address Templates API
   slug: skydropx-address-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/openapi/skydropx-address-templates-api-openapi.yml
+  url: https://artifacts.apis.io/skydropx/openapi/skydropx-address-templates-api-openapi.yml
 - filename: skydropx-authentication-api-openapi.yml
   format: yaml
   label: Skydropx Authentication API
   slug: skydropx-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/openapi/skydropx-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/skydropx/openapi/skydropx-authentication-api-openapi.yml
 - filename: skydropx-catalog-api-openapi.yml
   format: yaml
   label: Skydropx Catalog API
   slug: skydropx-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/openapi/skydropx-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/skydropx/openapi/skydropx-catalog-api-openapi.yml
 - filename: skydropx-finance-api-openapi.yml
   format: yaml
   label: Skydropx Finance API
   slug: skydropx-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/openapi/skydropx-finance-api-openapi.yml
+  url: https://artifacts.apis.io/skydropx/openapi/skydropx-finance-api-openapi.yml
 - filename: skydropx-orders-and-labels-api-openapi.yml
   format: yaml
   label: Skydropx Orders and Labels API
   slug: skydropx-orders-and-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/openapi/skydropx-orders-and-labels-api-openapi.yml
+  url: https://artifacts.apis.io/skydropx/openapi/skydropx-orders-and-labels-api-openapi.yml
 - filename: skydropx-pickups-api-openapi.yml
   format: yaml
   label: Skydropx Pickups API
   slug: skydropx-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/openapi/skydropx-pickups-api-openapi.yml
+  url: https://artifacts.apis.io/skydropx/openapi/skydropx-pickups-api-openapi.yml
 - filename: skydropx-quotations-api-openapi.yml
   format: yaml
   label: Skydropx Quotations API
   slug: skydropx-quotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/openapi/skydropx-quotations-api-openapi.yml
+  url: https://artifacts.apis.io/skydropx/openapi/skydropx-quotations-api-openapi.yml
 - filename: skydropx-shipments-api-openapi.yml
   format: yaml
   label: Skydropx Shipments API
   slug: skydropx-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/openapi/skydropx-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/skydropx/openapi/skydropx-shipments-api-openapi.yml
 - filename: skydropx-tracking-api-openapi.yml
   format: yaml
   label: Skydropx Tracking API
   slug: skydropx-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/openapi/skydropx-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/skydropx/openapi/skydropx-tracking-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 18
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/skydro
   \      - abnormal\n      - high-value\n    audit: required\n- path: /address_templates/{id}\n  method: get\n  operationId: getAddressTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /address_templates/{id}\n  method: patch\n  operationId: updateAddressTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /address_templates/{id}\n  method: delete\n  operationId: deleteAddressTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /address_templates/{id}/verify_by_carriers\n  method: post\n  operationId: verifyAddressByCarriers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finance/credits\n  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finance/extra-charges\n  method: get\n  operationId: listExtraCharges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/carrier_services\n  method: get\n  operationId: listCarrierServices\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/packagings\n  method: get\n  operationId: listPackagings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/consignment_notes\n  method: get\n  operationId: listConsignmentNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /office_points\n  method: get\n  operationId: listOfficePoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/agentic-access/skydropx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/skydropx/agentic-access/skydropx-agentic-access.yml
 summary_line: 32 operations · 14 acting
 tags:
 - Shipping

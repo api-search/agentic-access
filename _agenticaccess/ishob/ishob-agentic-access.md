@@ -9,187 +9,187 @@ api_specs:
   label: ISHOB Alarm API
   slug: ishob-alarm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-alarm-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-alarm-api-openapi.yml
 - filename: ishob-barcode-api-openapi.yml
   format: yaml
   label: ISHOB Barcode API
   slug: ishob-barcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-barcode-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-barcode-api-openapi.yml
 - filename: ishob-catalog-api-openapi.yml
   format: yaml
   label: ISHOB Catalog API
   slug: ishob-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-catalog-api-openapi.yml
 - filename: ishob-company-snapshot-api-openapi.yml
   format: yaml
   label: ISHOB Company Snapshot API
   slug: ishob-company-snapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-company-snapshot-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-company-snapshot-api-openapi.yml
 - filename: ishob-crypto-api-openapi.yml
   format: yaml
   label: ISHOB Crypto API
   slug: ishob-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-crypto-api-openapi.yml
 - filename: ishob-dataset-api-openapi.yml
   format: yaml
   label: ISHOB Dataset API
   slug: ishob-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-dataset-api-openapi.yml
 - filename: ishob-datasets-api-openapi.yml
   format: yaml
   label: ISHOB Datasets API
   slug: ishob-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-datasets-api-openapi.yml
 - filename: ishob-document-api-openapi.yml
   format: yaml
   label: ISHOB Document API
   slug: ishob-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-document-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-document-api-openapi.yml
 - filename: ishob-domain-api-openapi.yml
   format: yaml
   label: ISHOB Domain API
   slug: ishob-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-domain-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-domain-api-openapi.yml
 - filename: ishob-embed-api-openapi.yml
   format: yaml
   label: ISHOB Embed API
   slug: ishob-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-embed-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-embed-api-openapi.yml
 - filename: ishob-extract-api-openapi.yml
   format: yaml
   label: ISHOB Extract API
   slug: ishob-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-extract-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-extract-api-openapi.yml
 - filename: ishob-feed-reader-api-openapi.yml
   format: yaml
   label: ISHOB Feed Reader API
   slug: ishob-feed-reader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-feed-reader-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-feed-reader-api-openapi.yml
 - filename: ishob-finance-api-openapi.yml
   format: yaml
   label: ISHOB Finance API
   slug: ishob-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-finance-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-finance-api-openapi.yml
 - filename: ishob-geocode-api-openapi.yml
   format: yaml
   label: ISHOB Geocode API
   slug: ishob-geocode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-geocode-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-geocode-api-openapi.yml
 - filename: ishob-location-report-api-openapi.yml
   format: yaml
   label: ISHOB Location Report API
   slug: ishob-location-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-location-report-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-location-report-api-openapi.yml
 - filename: ishob-mcp-api-openapi.yml
   format: yaml
   label: ISHOB MCP API
   slug: ishob-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-mcp-api-openapi.yml
 - filename: ishob-metadata-api-openapi.yml
   format: yaml
   label: ISHOB Metadata API
   slug: ishob-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-metadata-api-openapi.yml
 - filename: ishob-pdf-tables-api-openapi.yml
   format: yaml
   label: ISHOB Pdf Tables API
   slug: ishob-pdf-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-pdf-tables-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-pdf-tables-api-openapi.yml
 - filename: ishob-ping-status-api-openapi.yml
   format: yaml
   label: ISHOB Ping Status API
   slug: ishob-ping-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-ping-status-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-ping-status-api-openapi.yml
 - filename: ishob-product-code-api-openapi.yml
   format: yaml
   label: ISHOB Product Code API
   slug: ishob-product-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-product-code-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-product-code-api-openapi.yml
 - filename: ishob-render-doc-api-openapi.yml
   format: yaml
   label: ISHOB Render Doc API
   slug: ishob-render-doc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-render-doc-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-render-doc-api-openapi.yml
 - filename: ishob-research-brief-api-openapi.yml
   format: yaml
   label: ISHOB Research Brief API
   slug: ishob-research-brief-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-research-brief-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-research-brief-api-openapi.yml
 - filename: ishob-screenshot-api-openapi.yml
   format: yaml
   label: ISHOB Screenshot API
   slug: ishob-screenshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-screenshot-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-screenshot-api-openapi.yml
 - filename: ishob-search-api-openapi.yml
   format: yaml
   label: ISHOB Search API
   slug: ishob-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-search-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-search-api-openapi.yml
 - filename: ishob-site-audit-api-openapi.yml
   format: yaml
   label: ISHOB Site Audit API
   slug: ishob-site-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-site-audit-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-site-audit-api-openapi.yml
 - filename: ishob-site-speed-api-openapi.yml
   format: yaml
   label: ISHOB Site Speed API
   slug: ishob-site-speed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-site-speed-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-site-speed-api-openapi.yml
 - filename: ishob-specs-api-openapi.yml
   format: yaml
   label: ISHOB Specs API
   slug: ishob-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-specs-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-specs-api-openapi.yml
 - filename: ishob-stats-api-openapi.yml
   format: yaml
   label: ISHOB Stats API
   slug: ishob-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-stats-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-stats-api-openapi.yml
 - filename: ishob-topic-api-openapi.yml
   format: yaml
   label: ISHOB Topic API
   slug: ishob-topic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-topic-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-topic-api-openapi.yml
 - filename: ishob-topics-api-openapi.yml
   format: yaml
   label: ISHOB Topics API
   slug: ishob-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-topics-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-topics-api-openapi.yml
 - filename: ishob-weather-api-openapi.yml
   format: yaml
   label: ISHOB Weather API
   slug: ishob-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/openapi/ishob-weather-api-openapi.yml
+  url: https://artifacts.apis.io/ishob/openapi/ishob-weather-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 31
@@ -249,7 +249,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/ishob-
   \ method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/topics\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/document/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/document/{id}/fulltext\n  method: get\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/document/{id}/references\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/topic/{slug}/content\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp\n  method: post\n  operationId: mcp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/alarm/{id}\n  method: get\n  operationId: alarm_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/heads/main/agentic-access/ishob-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ishob/agentic-access/ishob-agentic-access.yml
 summary_line: 48 operations · 17 acting · 2 human-in-the-loop
 tags:
 - Company

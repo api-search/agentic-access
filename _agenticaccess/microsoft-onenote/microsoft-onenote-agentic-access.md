@@ -9,25 +9,43 @@ api_specs:
   label: Microsoft OneNote Notebooks API
   slug: microsoft-onenote-notebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-notebooks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-notebooks-api-openapi.yml
 - filename: microsoft-onenote-pages-api-openapi.yml
   format: yaml
   label: Microsoft OneNote Pages API
   slug: microsoft-onenote-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-pages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-pages-api-openapi.yml
 - filename: microsoft-onenote-sectiongroups-api-openapi.yml
   format: yaml
   label: Microsoft OneNote SectionGroups API
   slug: microsoft-onenote-sectiongroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-sectiongroups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-sectiongroups-api-openapi.yml
 - filename: microsoft-onenote-sections-api-openapi.yml
   format: yaml
   label: Microsoft OneNote Sections API
   slug: microsoft-onenote-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/openapi/microsoft-onenote-sections-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-sections-api-openapi.yml
+- filename: microsoft-onenote-groups-onenote-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote Groups.onenote API
+  slug: microsoft-onenote-groups-onenote-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-groups-onenote-api-openapi.yml
+- filename: microsoft-onenote-sites-onenote-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote Sites.onenote API
+  slug: microsoft-onenote-sites-onenote-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-sites-onenote-api-openapi.yml
+- filename: microsoft-onenote-users-onenote-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote Users.onenote API
+  slug: microsoft-onenote-users-onenote-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-users-onenote-api-openapi.yml
 consequence_counts:
   read: 11
   write: 6
@@ -59,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /me/onenote/sections/{sectionId}/pages\n  method: get\n  operationId: listSectionPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/onenote/sections/{sectionId}/pages\n  method: post\n  operationId: createSectionPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/onenote/pages\n  method: get\n  operationId: listPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/onenote/pages/{pageId}\n  method: get\n  operationId: getPage\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/onenote/pages/{pageId}\n  method: delete\n  operationId: deletePage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/onenote/pages/{pageId}/content\n  method: get\n  operationId: getPageContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/onenote/pages/{pageId}/content\n  method: patch\n  operationId: updatePageContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /me/onenote/sectionGroups\n  method: get\n  operationId: listSectionGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/agentic-access/microsoft-onenote-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-onenote/agentic-access/microsoft-onenote-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - Microsoft

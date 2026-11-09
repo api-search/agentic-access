@@ -9,55 +9,55 @@ api_specs:
   label: Artifact Hub Organizations API
   slug: artifact-hub-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/artifact-hub/openapi/artifact-hub-organizations-api-openapi.yml
 - filename: artifact-hub-packages-api-openapi.yml
   format: yaml
   label: Artifact Hub Packages API
   slug: artifact-hub-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-packages-api-openapi.yml
+  url: https://artifacts.apis.io/artifact-hub/openapi/artifact-hub-packages-api-openapi.yml
 - filename: artifact-hub-repositories-api-openapi.yml
   format: yaml
   label: Artifact Hub Repositories API
   slug: artifact-hub-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/artifact-hub/openapi/artifact-hub-repositories-api-openapi.yml
 - filename: artifact-hub-stats-api-openapi.yml
   format: yaml
   label: Artifact Hub Stats API
   slug: artifact-hub-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-stats-api-openapi.yml
+  url: https://artifacts.apis.io/artifact-hub/openapi/artifact-hub-stats-api-openapi.yml
 - filename: artifact-hub-subscriptions-api-openapi.yml
   format: yaml
   label: Artifact Hub Subscriptions API
   slug: artifact-hub-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/artifact-hub/openapi/artifact-hub-subscriptions-api-openapi.yml
 - filename: artifact-hub-users-api-openapi.yml
   format: yaml
   label: Artifact Hub Users API
   slug: artifact-hub-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-users-api-openapi.yml
+  url: https://artifacts.apis.io/artifact-hub/openapi/artifact-hub-users-api-openapi.yml
 - filename: artifact-hub-webhooks-api-openapi.yml
   format: yaml
   label: Artifact Hub Webhooks API
   slug: artifact-hub-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/artifact-hub/openapi/artifact-hub-webhooks-api-openapi.yml
 - filename: artifact-hub-availability-checks-api-openapi.yml
   format: yaml
   label: Artifact Hub Availability checks API
   slug: artifact-hub-availability-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-availability-checks-api-openapi.yml
+  url: https://artifacts.apis.io/artifact-hub/openapi/artifact-hub-availability-checks-api-openapi.yml
 - filename: artifact-hub-integrations-api-openapi.yml
   format: yaml
   label: Artifact Hub Integrations API
   slug: artifact-hub-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/openapi/artifact-hub-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/artifact-hub/openapi/artifact-hub-integrations-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 92
@@ -156,8 +156,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/artifa
   \  method: post\n  operationId: addPackageSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions\n  method: delete\n  operationId: deletePackageSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{packageID}\n  method: get\n  operationId: getPackageUserSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/opt-out\n  method: get\n  operationId: getUserOptOutEntries\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/opt-out\n  method: post\n  operationId: addOptOutEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/opt-out/{optOutID}\n  method: delete\n  operationId: deleteOptOutEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: post\n  operationId: registerUser\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/verify-email\n  method: post\n  operationId: verifyEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/profile\n  method: get\n  operationId: getUserProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/profile\n  method: put\n  operationId: updateUserProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
-  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/password\n  method: put\n  operationId: updateUserPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/password-reset-code\n  method: post\n  operationId: resetPasswordCode\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/agentic-access/artifact-hub-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/agentic-access/artifact-hub-agentic-access.yml
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/password\n  method: put\n  operationId: updateUserPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/password-reset-code\n  method: post\n  operationId: resetPasswordCode\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/artifact-hub/agentic-access/artifact-hub-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/artifact-hub/agentic-access/artifact-hub-agentic-access.yml
 summary_line: 129 operations · 37 acting · 3 human-in-the-loop
 tags:
 - Cloud-Native

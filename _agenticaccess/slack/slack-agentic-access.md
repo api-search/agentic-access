@@ -9,253 +9,253 @@ api_specs:
   label: Slack Events API
   slug: slack-events-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/asyncapi/slack-events-asyncapi.yml
+  url: https://artifacts.apis.io/slack/asyncapi/slack-events-asyncapi.yml
 - filename: slack-access-api-openapi.yml
   format: yaml
   label: Slack Access API
   slug: slack-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-access-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-access-api-openapi.yml
 - filename: slack-add-api-openapi.yml
   format: yaml
   label: Slack Add API
   slug: slack-add-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-add-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-add-api-openapi.yml
 - filename: slack-administrative-api-openapi.yml
   format: yaml
   label: Slack Administrative API
   slug: slack-administrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-administrative-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-administrative-api-openapi.yml
 - filename: slack-ai-api-openapi.yml
   format: yaml
   label: Slack AI API
   slug: slack-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-ai-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-ai-api-openapi.yml
 - filename: slack-applications-api-openapi.yml
   format: yaml
   label: Slack Applications API
   slug: slack-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-applications-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-applications-api-openapi.yml
 - filename: slack-archive-api-openapi.yml
   format: yaml
   label: Slack Archive API
   slug: slack-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-archive-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-archive-api-openapi.yml
 - filename: slack-auth-api-openapi.yml
   format: yaml
   label: Slack Auth API
   slug: slack-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-auth-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-auth-api-openapi.yml
 - filename: slack-authentication-api-openapi.yml
   format: yaml
   label: Slack Authentication API
   slug: slack-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-authentication-api-openapi.yml
 - filename: slack-automation-api-openapi.yml
   format: yaml
   label: Slack Automation API
   slug: slack-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-automation-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-automation-api-openapi.yml
 - filename: slack-bookmarks-api-openapi.yml
   format: yaml
   label: Slack Bookmarks API
   slug: slack-bookmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-bookmarks-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-bookmarks-api-openapi.yml
 - filename: slack-bots-api-openapi.yml
   format: yaml
   label: Slack Bots API
   slug: slack-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-bots-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-bots-api-openapi.yml
 - filename: slack-calls-api-openapi.yml
   format: yaml
   label: Slack Calls API
   slug: slack-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-calls-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-calls-api-openapi.yml
 - filename: slack-canvases-api-openapi.yml
   format: yaml
   label: Slack Canvases API
   slug: slack-canvases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-canvases-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-canvases-api-openapi.yml
 - filename: slack-chat-api-openapi.yml
   format: yaml
   label: Slack Chat API
   slug: slack-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-chat-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-chat-api-openapi.yml
 - filename: slack-close-api-openapi.yml
   format: yaml
   label: Slack Close API
   slug: slack-close-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-close-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-close-api-openapi.yml
 - filename: slack-comments-api-openapi.yml
   format: yaml
   label: Slack Comments API
   slug: slack-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-comments-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-comments-api-openapi.yml
 - filename: slack-complete-api-openapi.yml
   format: yaml
   label: Slack Complete API
   slug: slack-complete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-complete-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-complete-api-openapi.yml
 - filename: slack-connect-api-openapi.yml
   format: yaml
   label: Slack Connect API
   slug: slack-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-connect-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-connect-api-openapi.yml
 - filename: slack-conversations-api-openapi.yml
   format: yaml
   label: Slack Conversations API
   slug: slack-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-conversations-api-openapi.yml
 - filename: slack-create-api-openapi.yml
   format: yaml
   label: Slack Create API
   slug: slack-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-create-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-create-api-openapi.yml
 - filename: slack-deletes-api-openapi.yml
   format: yaml
   label: Slack Deletes API
   slug: slack-deletes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-deletes-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-deletes-api-openapi.yml
 - filename: slack-disables-api-openapi.yml
   format: yaml
   label: Slack Disables API
   slug: slack-disables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-disables-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-disables-api-openapi.yml
 - filename: slack-disturb-api-openapi.yml
   format: yaml
   label: Slack Disturb API
   slug: slack-disturb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-disturb-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-disturb-api-openapi.yml
 - filename: slack-dnd-api-openapi.yml
   format: yaml
   label: Slack Dnd API
   slug: slack-dnd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-dnd-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-dnd-api-openapi.yml
 - filename: slack-emoji-api-openapi.yml
   format: yaml
   label: Slack Emoji API
   slug: slack-emoji-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-emoji-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-emoji-api-openapi.yml
 - filename: slack-enables-api-openapi.yml
   format: yaml
   label: Slack Enables API
   slug: slack-enables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-enables-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-enables-api-openapi.yml
 - filename: slack-exchange-api-openapi.yml
   format: yaml
   label: Slack Exchange API
   slug: slack-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-exchange-api-openapi.yml
 - filename: slack-files-api-openapi.yml
   format: yaml
   label: Slack Files API
   slug: slack-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-files-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-files-api-openapi.yml
 - filename: slack-get-api-openapi.yml
   format: yaml
   label: Slack Get API
   slug: slack-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-get-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-get-api-openapi.yml
 - filename: slack-groups-api-openapi.yml
   format: yaml
   label: Slack Groups API
   slug: slack-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-groups-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-groups-api-openapi.yml
 - filename: slack-lists-api-openapi.yml
   format: yaml
   label: Slack Lists API
   slug: slack-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-lists-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-lists-api-openapi.yml
 - filename: slack-pins-api-openapi.yml
   format: yaml
   label: Slack Pins API
   slug: slack-pins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-pins-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-pins-api-openapi.yml
 - filename: slack-post-api-openapi.yml
   format: yaml
   label: Slack Post API
   slug: slack-post-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-post-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-post-api-openapi.yml
 - filename: slack-reactions-api-openapi.yml
   format: yaml
   label: Slack Reactions API
   slug: slack-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-reactions-api-openapi.yml
 - filename: slack-reminders-api-openapi.yml
   format: yaml
   label: Slack Reminders API
   slug: slack-reminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-reminders-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-reminders-api-openapi.yml
 - filename: slack-search-api-openapi.yml
   format: yaml
   label: Slack Search API
   slug: slack-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-search-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-search-api-openapi.yml
 - filename: slack-team-api-openapi.yml
   format: yaml
   label: Slack Team API
   slug: slack-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-team-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-team-api-openapi.yml
 - filename: slack-users-api-openapi.yml
   format: yaml
   label: Slack Users API
   slug: slack-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-users-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-users-api-openapi.yml
 - filename: slack-views-api-openapi.yml
   format: yaml
   label: Slack Views API
   slug: slack-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-views-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-views-api-openapi.yml
 - filename: slack-workflows-api-openapi.yml
   format: yaml
   label: Slack Workflows API
   slug: slack-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-workflows-api-openapi.yml
 - filename: slack-user-groups-api-openapi.yml
   format: yaml
   label: Slack User Groups API
   slug: slack-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/slack/openapi/slack-user-groups-api-openapi.yml
 consequence_counts:
   read: 94
   safety-critical: 5
@@ -343,8 +343,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/slack-
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /openid.connect.userInfo\n  method: get\n  operationId: getOpenIdConnectUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - openid\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /functions.completeSuccess\n  method: post\n  operationId: postFunctionsCompleteSuccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - functions:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions.completeError\n  method: post\n \
   \ operationId: postFunctionsCompleteError\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - functions:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions.distributions.permissions.add\n  method: post\n  operationId: postFunctionsDistributionsPermissionsAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - functions:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions.distributions.permissions.list\n  method: get\n  operationId: getFunctionsDistributionsPermissionsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    scope:\n    - functions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /functions.distributions.permissions.remove\n  method: post\n  operationId: postFunctionsDistributionsPermissionsRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - functions:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookmarks.add\n  method: post\n  operationId: postBookmarksAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bookmarks:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookmarks.edit\n  method: post\n  operationId: postBookmarksEdit\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bookmarks:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookmarks.list\n  method: get\n  operationId: getBookmarksList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - bookmarks:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookmarks.remove\n  method: post\n  operationId: postBookmarksRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bookmarks:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (71 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/agentic-access/slack-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/agentic-access/slack-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bookmarks:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookmarks.list\n  method: get\n  operationId: getBookmarksList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - bookmarks:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookmarks.remove\n  method: post\n  operationId: postBookmarksRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - bookmarks:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (71 KB total) ---\n# Full source: https://artifacts.apis.io/slack/agentic-access/slack-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/slack/agentic-access/slack-agentic-access.yml
 summary_line: 218 operations · 124 acting · 5 human-in-the-loop
 tags:
 - Bots

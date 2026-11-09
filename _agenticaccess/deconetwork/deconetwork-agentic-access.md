@@ -9,25 +9,25 @@ api_specs:
   label: DecoNetwork Inventory API
   slug: deconetwork-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/deconetwork/openapi/deconetwork-inventory-api-openapi.yml
 - filename: deconetwork-orders-api-openapi.yml
   format: yaml
   label: DecoNetwork Orders API
   slug: deconetwork-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deconetwork/openapi/deconetwork-orders-api-openapi.yml
 - filename: deconetwork-products-api-openapi.yml
   format: yaml
   label: DecoNetwork Products API
   slug: deconetwork-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-products-api-openapi.yml
+  url: https://artifacts.apis.io/deconetwork/openapi/deconetwork-products-api-openapi.yml
 - filename: deconetwork-purchase-orders-api-openapi.yml
   format: yaml
   label: DecoNetwork Purchase Orders API
   slug: deconetwork-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deconetwork/openapi/deconetwork-purchase-orders-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 5
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/decone
   \ updateInventory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/json/manage_orders/find\n  method: get\n  operationId: findOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/json/manage_orders/update_order_status\n  method: post\n  operationId: updateOrderStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/json/manage_products/find\n  method:\
   \ post\n  operationId: findProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/json/manage_products/get\n  method: get\n  operationId: getProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/json/manage_purchase_orders/find\n  method: get\n  operationId: findPurchaseOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/json/manage_purchase_orders/receive_stock\n  method: post\n  operationId: receiveStock\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/agentic-access/deconetwork-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/deconetwork/agentic-access/deconetwork-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Custom Apparel

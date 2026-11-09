@@ -9,67 +9,67 @@ api_specs:
   label: Consumer Financial Protection Bureau (CFPB) Aggregations API
   slug: cfpb-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-aggregations-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-aggregations-api-openapi.yml
 - filename: cfpb-complaints-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Complaints API
   slug: cfpb-complaints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-complaints-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-complaints-api-openapi.yml
 - filename: cfpb-csv-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) CSV API
   slug: cfpb-csv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-csv-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-csv-api-openapi.yml
 - filename: cfpb-edits-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Edits API
   slug: cfpb-edits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-edits-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-edits-api-openapi.yml
 - filename: cfpb-filers-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Filers API
   slug: cfpb-filers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-filers-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-filers-api-openapi.yml
 - filename: cfpb-filings-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Filings API
   slug: cfpb-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-filings-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-filings-api-openapi.yml
 - filename: cfpb-health-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Health API
   slug: cfpb-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-health-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-health-api-openapi.yml
 - filename: cfpb-institutions-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Institutions API
   slug: cfpb-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-institutions-api-openapi.yml
 - filename: cfpb-submissions-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Submissions API
   slug: cfpb-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-submissions-api-openapi.yml
 - filename: cfpb-trends-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Trends API
   slug: cfpb-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-trends-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-trends-api-openapi.yml
 - filename: cfpb-typeahead-api-openapi.yml
   format: yaml
   label: Consumer Financial Protection Bureau (CFPB) Typeahead API
   slug: cfpb-typeahead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/openapi/cfpb-typeahead-api-openapi.yml
+  url: https://artifacts.apis.io/cfpb/openapi/cfpb-typeahead-api-openapi.yml
 consequence_counts:
   read: 21
   write: 5
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cfpb-c
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /institutions/{lei}/filings/{period}/submissions/latest\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /institutions/{lei}/filings/{period}/submissions/{submissionId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /institutions/{lei}/filings/{period}/submissions/{submissionId}/parseErrors\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /institutions/{lei}/filings/{period}/submissions/{submissionId}/edits\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /institutions/{lei}/filings/{period}/submissions/{submissionId}/edits/{editType}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /institutions/{lei}/filings/{period}/submissions/{submissionId}/edits/{editName}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /institutions/{lei}/filings/{period}/submissions/{submissionId}/sign\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /institutions/{lei}/filings/{period}/submissions/{submissionId}/sign\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /institutions/{lei}/filings/{period}/submissions/{submissionId}/summary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/agentic-access/cfpb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cfpb/agentic-access/cfpb-agentic-access.yml
 summary_line: 26 operations · 5 acting
 tags:
 - Consumer Finance

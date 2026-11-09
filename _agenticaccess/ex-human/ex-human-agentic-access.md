@@ -9,37 +9,37 @@ api_specs:
   label: Ex-Human Animations API
   slug: ex-human-animations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-animations-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-animations-api-openapi.yml
 - filename: ex-human-chatbot-api-openapi.yml
   format: yaml
   label: Ex-Human Chatbot API
   slug: ex-human-chatbot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-chatbot-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-chatbot-api-openapi.yml
 - filename: ex-human-image-generation-api-openapi.yml
   format: yaml
   label: Ex-Human Image Generation API
   slug: ex-human-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-image-generation-api-openapi.yml
 - filename: ex-human-text-to-speech-api-openapi.yml
   format: yaml
   label: Ex-Human Text to Speech API
   slug: ex-human-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-text-to-speech-api-openapi.yml
 - filename: ex-human-admin-api-openapi.yml
   format: yaml
   label: Ex-Human Admin API
   slug: ex-human-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-admin-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-admin-api-openapi.yml
 - filename: ex-human-metrics-api-openapi.yml
   format: yaml
   label: Ex-Human Metrics API
   slug: ex-human-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ex-human/openapi/ex-human-metrics-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ex-hum
   \      - high-value\n    audit: required\n- path: /animations/v3/jobs/{task_id}\n  method: get\n  operationId: get_animation_job_animations_v3_jobs__task_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /animations/v3/prolong_jobs\n  method: post\n  operationId: create_prolong_animation_job_animations_v3_prolong_jobs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chatbot/v3/response\n  method: post\n  operationId: get_response_chatbot_v3_response_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chatbot/v2/get_smart_replies\n\
   \  method: post\n  operationId: get_smart_replies_chatbot_v2_get_smart_replies_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chatbot/v3/memory\n  method: delete\n  operationId: delete_memory_chatbot_v3_memory_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/v1/generate_gallery_image\n  method: post\n  operationId: generate_gallery_image_image_v1_generate_gallery_image_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /image/v1/generate_avatar\n  method: post\n  operationId: generate_avatar_image_v1_generate_avatar_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tts/v1/generate_speech\n  method: post\n  operationId: generate_speech_tts_v1_generate_speech_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/agentic-access/ex-human-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ex-human/agentic-access/ex-human-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Company

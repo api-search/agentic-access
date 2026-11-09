@@ -9,67 +9,67 @@ api_specs:
   label: WatchGuard Accounts API
   slug: watchguard-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-accounts-api-openapi.yml
 - filename: watchguard-activations-api-openapi.yml
   format: yaml
   label: WatchGuard Activations API
   slug: watchguard-activations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-activations-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-activations-api-openapi.yml
 - filename: watchguard-allocations-api-openapi.yml
   format: yaml
   label: WatchGuard Allocations API
   slug: watchguard-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-allocations-api-openapi.yml
 - filename: watchguard-authorization-api-openapi.yml
   format: yaml
   label: WatchGuard Authorization API
   slug: watchguard-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-authorization-api-openapi.yml
 - filename: watchguard-configurations-api-openapi.yml
   format: yaml
   label: WatchGuard Configurations API
   slug: watchguard-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-configurations-api-openapi.yml
 - filename: watchguard-device-actions-api-openapi.yml
   format: yaml
   label: WatchGuard Device Actions API
   slug: watchguard-device-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-device-actions-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-device-actions-api-openapi.yml
 - filename: watchguard-devices-api-openapi.yml
   format: yaml
   label: WatchGuard Devices API
   slug: watchguard-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-devices-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-devices-api-openapi.yml
 - filename: watchguard-licenses-api-openapi.yml
   format: yaml
   label: WatchGuard Licenses API
   slug: watchguard-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-licenses-api-openapi.yml
 - filename: watchguard-operators-api-openapi.yml
   format: yaml
   label: WatchGuard Operators API
   slug: watchguard-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-operators-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-operators-api-openapi.yml
 - filename: watchguard-risk-assessment-api-openapi.yml
   format: yaml
   label: WatchGuard Risk Assessment API
   slug: watchguard-risk-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-risk-assessment-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-risk-assessment-api-openapi.yml
 - filename: watchguard-security-events-api-openapi.yml
   format: yaml
   label: WatchGuard Security Events API
   slug: watchguard-security-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/watchguard-security-events-api-openapi.yml
+  url: https://artifacts.apis.io/watchguard/openapi/watchguard-security-events-api-openapi.yml
 consequence_counts:
   read: 18
   write: 15
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/watchg
   \    audit: required\n- path: /platform/operator-mgmt/v1/DeleteOperators\n  method: post\n  operationId: deleteOperators\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/operator-mgmt/v1/TransactionStatus\n  method: get\n  operationId: getOperatorTransactionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/operator-mgmt/v1/OperatorsByAccountId\n  method: get\n  operationId: getOperatorsByAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/riskassessment/companyrisksummary\n  method: get\n  operationId:\
   \ getCompanyRiskSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/riskassessment/detectedrisks\n  method: get\n  operationId: getDetectedRisks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/securityeventcounters/{type}\n  method: get\n  operationId: getSecurityEventCounters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/securityevents/{type}/export/{period}\n  method: get\n  operationId: exportSecurityEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/securityoverview/{period}\n\
   \  method: get\n  operationId: getSecurityOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/agentic-access/watchguard-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/watchguard/agentic-access/watchguard-agentic-access.yml
 summary_line: 33 operations · 15 acting
 tags:
 - Cloud Security

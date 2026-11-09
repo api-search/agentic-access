@@ -9,61 +9,61 @@ api_specs:
   label: MOSTLY AI About API
   slug: mostly-ai-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-about-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-about-api-openapi.yml
 - filename: mostly-ai-computes-api-openapi.yml
   format: yaml
   label: MOSTLY AI Computes API
   slug: mostly-ai-computes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-computes-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-computes-api-openapi.yml
 - filename: mostly-ai-connectors-api-openapi.yml
   format: yaml
   label: MOSTLY AI Connectors API
   slug: mostly-ai-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-connectors-api-openapi.yml
 - filename: mostly-ai-datasets-api-openapi.yml
   format: yaml
   label: MOSTLY AI Datasets API
   slug: mostly-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-datasets-api-openapi.yml
 - filename: mostly-ai-generators-api-openapi.yml
   format: yaml
   label: MOSTLY AI Generators API
   slug: mostly-ai-generators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-generators-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-generators-api-openapi.yml
 - filename: mostly-ai-models-api-openapi.yml
   format: yaml
   label: MOSTLY AI Models API
   slug: mostly-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-models-api-openapi.yml
 - filename: mostly-ai-organizations-api-openapi.yml
   format: yaml
   label: MOSTLY AI Organizations API
   slug: mostly-ai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-organizations-api-openapi.yml
 - filename: mostly-ai-synthetic-datasets-api-openapi.yml
   format: yaml
   label: MOSTLY AI Synthetic Datasets API
   slug: mostly-ai-synthetic-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-synthetic-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-synthetic-datasets-api-openapi.yml
 - filename: mostly-ai-synthetic-probes-api-openapi.yml
   format: yaml
   label: MOSTLY AI Synthetic Probes API
   slug: mostly-ai-synthetic-probes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-synthetic-probes-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-synthetic-probes-api-openapi.yml
 - filename: mostly-ai-users-api-openapi.yml
   format: yaml
   label: MOSTLY AI Users API
   slug: mostly-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/openapi/mostly-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/mostly-ai/openapi/mostly-ai-users-api-openapi.yml
 consequence_counts:
   read: 26
   write: 22
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mostly
   \ startSyntheticDatasetGeneration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synthetic-datasets/{id}/generation/cancel\n  method: post\n  operationId: cancelSyntheticDatasetGeneration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synthetic-datasets/{id}/generation\n  method: get\n  operationId: getSyntheticDatasetGeneration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /synthetic-probes\n  method: post\n\
   \  operationId: createSyntheticProbe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me/settings\n  method: get\n  operationId: getMySettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me/settings\n  method: patch\n  operationId: updateMySettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me/key\n  method: post\n  operationId: rotateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me/notifications\n  method: get\n  operationId: listMyNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/agentic-access/mostly-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mostly-ai/agentic-access/mostly-ai-agentic-access.yml
 summary_line: 48 operations · 22 acting
 tags:
 - Synthetic Data

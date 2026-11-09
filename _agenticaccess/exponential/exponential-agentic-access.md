@@ -8,31 +8,31 @@ api_specs:
   label: Exponential Agent API
   slug: exponential-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-agent-api-openapi.yml
+  url: https://artifacts.apis.io/exponential/openapi/exponential-agent-api-openapi.yml
 - filename: exponential-history-api-openapi.yml
   format: yaml
   label: Exponential History API
   slug: exponential-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-history-api-openapi.yml
+  url: https://artifacts.apis.io/exponential/openapi/exponential-history-api-openapi.yml
 - filename: exponential-performance-api-openapi.yml
   format: yaml
   label: Exponential Performance API
   slug: exponential-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-performance-api-openapi.yml
+  url: https://artifacts.apis.io/exponential/openapi/exponential-performance-api-openapi.yml
 - filename: exponential-public-api-openapi.yml
   format: yaml
   label: Exponential Public API
   slug: exponential-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-public-api-openapi.yml
+  url: https://artifacts.apis.io/exponential/openapi/exponential-public-api-openapi.yml
 - filename: exponential-vault-api-openapi.yml
   format: yaml
   label: Exponential Vault API
   slug: exponential-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-vault-api-openapi.yml
+  url: https://artifacts.apis.io/exponential/openapi/exponential-vault-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/expone
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vault/yield/timeseries/{network}/{vaultAddress}\n  method: get\n  operationId: VaultController_getYieldTimeseries_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vault/tvl/timeseries/{network}/{vaultAddress}\n  method: get\n  operationId: VaultController_getTvlTimeseries_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/history/user/{network}/{vaultAddress}/{userAddress}\n  method: get\n  operationId: HistoryController_getAggregatedHistory_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vault/pending-redeems/{network}/{vaultAddress}/{userAddress}\n\
   \  method: get\n  operationId: VaultController_getPendingRedeemsForUser_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/performance/user/{network}/{vaultAddress}/{userAddress}\n  method: get\n  operationId: PerformanceController_getUserPerformance_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/public/vault/{chain}/{vaultAddress}/exposure\n  method: get\n  operationId: getVaultExposure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agent/schema\n  method: get\n  operationId: agentSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agent/search\n\
   \  method: get\n  operationId: agentSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agent/node/{nodeId}\n  method: get\n  operationId: agentNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agent/dependencies\n  method: get\n  operationId: agentDependencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/agentic-access/exponential-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/exponential/agentic-access/exponential-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Company

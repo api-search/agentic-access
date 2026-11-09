@@ -8,55 +8,55 @@ api_specs:
   label: Bridge Interactive Agents API
   slug: bridge-interactive-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-agents-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-agents-api-openapi.yml
 - filename: bridge-interactive-listings-api-openapi.yml
   format: yaml
   label: Bridge Interactive Listings API
   slug: bridge-interactive-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-listings-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-listings-api-openapi.yml
 - filename: bridge-interactive-offices-api-openapi.yml
   format: yaml
   label: Bridge Interactive Offices API
   slug: bridge-interactive-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-offices-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-offices-api-openapi.yml
 - filename: bridge-interactive-open-houses-api-openapi.yml
   format: yaml
   label: Bridge Interactive Open Houses API
   slug: bridge-interactive-open-houses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-open-houses-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-open-houses-api-openapi.yml
 - filename: bridge-interactive-reso-web-api-api-openapi.yml
   format: yaml
   label: Bridge Interactive RESO Web API
   slug: bridge-interactive-reso-web-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-reso-web-api-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-reso-web-api-api-openapi.yml
 - filename: bridge-interactive-webhooks-api-openapi.yml
   format: yaml
   label: Bridge Interactive Webhooks API
   slug: bridge-interactive-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-webhooks-api-openapi.yml
 - filename: bridge-interactive-property-api-openapi.yml
   format: yaml
   label: Bridge Interactive Property API
   slug: bridge-interactive-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-property-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-property-api-openapi.yml
 - filename: bridge-interactive-member-api-openapi.yml
   format: yaml
   label: Bridge Interactive Member API
   slug: bridge-interactive-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-member-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-member-api-openapi.yml
 - filename: bridge-interactive-office-api-openapi.yml
   format: yaml
   label: Bridge Interactive Office API
   slug: bridge-interactive-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-office-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-office-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bridge
   \  operationId: getAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{dataset_id}/agents/{id}\n  method: get\n  operationId: getAgent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{dataset_id}/offices\n  method: get\n  operationId: getOffices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{dataset_id}/offices/{id}\n  method: get\n  operationId: getOffice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{dataset_id}/openhouses\n  method: get\n  operationId: getOpenHouses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OData/{dataset_id}/$metadata\n  method: get\n  operationId: getResoMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OData/{dataset_id}/Property\n  method: get\n  operationId: getResoProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OData/{dataset_id}/Property/replication\n  method: get\n  operationId: getResoPropertyReplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OData/{dataset_id}/Member\n  method: get\n  operationId: getResoMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /OData/{dataset_id}/Office\n  method: get\n  operationId: getResoOffice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OData/{dataset_id}/OpenHouse\n  method: get\n  operationId: getResoOpenHouse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OData/{dataset_id}/Media\n  method: get\n  operationId: getResoMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/agentic-access/bridge-interactive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bridge-interactive/agentic-access/bridge-interactive-agentic-access.yml
 summary_line: 14 operations
 tags:
 - Real Estate

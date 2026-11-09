@@ -9,55 +9,55 @@ api_specs:
   label: Matillion DPC Agents API
   slug: matillion-dpc-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-agents-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-agents-api-openapi.yml
 - filename: matillion-dpc-environments-api-openapi.yml
   format: yaml
   label: Matillion DPC Environments API
   slug: matillion-dpc-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-environments-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-environments-api-openapi.yml
 - filename: matillion-dpc-pipeline-executions-api-openapi.yml
   format: yaml
   label: Matillion DPC Pipeline Executions API
   slug: matillion-dpc-pipeline-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-pipeline-executions-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-pipeline-executions-api-openapi.yml
 - filename: matillion-dpc-projects-api-openapi.yml
   format: yaml
   label: Matillion DPC Projects API
   slug: matillion-dpc-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-projects-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-projects-api-openapi.yml
 - filename: matillion-dpc-schedules-api-openapi.yml
   format: yaml
   label: Matillion DPC Schedules API
   slug: matillion-dpc-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-schedules-api-openapi.yml
 - filename: matillion-etl-groups-projects-api-openapi.yml
   format: yaml
   label: Matillion ETL Groups & Projects API
   slug: matillion-etl-groups-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-groups-projects-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-groups-projects-api-openapi.yml
 - filename: matillion-etl-jobs-runs-api-openapi.yml
   format: yaml
   label: Matillion ETL Jobs & Runs API
   slug: matillion-etl-jobs-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-jobs-runs-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-jobs-runs-api-openapi.yml
 - filename: matillion-etl-schedules-api-openapi.yml
   format: yaml
   label: Matillion ETL Schedules API
   slug: matillion-etl-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-schedules-api-openapi.yml
 - filename: matillion-etl-tasks-api-openapi.yml
   format: yaml
   label: Matillion ETL Tasks API
   slug: matillion-etl-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-tasks-api-openapi.yml
 consequence_counts:
   read: 25
   write: 19
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/matill
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/v1/task/running\n  method: get\n  operationId: listEtlRunningTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/task/id/{taskId}\n  method: get\n  operationId: getEtlTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/task/id/{taskId}/cancel\n  method: post\n  operationId: cancelEtlTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/v1/task/history\n \
   \ method: get\n  operationId: listEtlTaskHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/schedule/name/{schedule}\n  method: get\n  operationId: getEtlSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/schedule/name/{schedule}/export\n  method: get\n  operationId: exportEtlSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/schedule/import\n  method: post\n  operationId: importEtlSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /rest/v1/schedule/name/{schedule}/update\n  method: post\n  operationId: updateEtlSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/v1/schedule/name/{schedule}/delete\n  method: post\n  operationId: deleteEtlSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/agentic-access/matillion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/matillion/agentic-access/matillion-agentic-access.yml
 summary_line: 44 operations · 19 acting
 tags:
 - Data Integration

@@ -8,85 +8,85 @@ api_specs:
   label: Commonwealth Bank Accounts API
   slug: commonwealth-bank-accounts-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-accounts-api-api-openapi.yml
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-accounts-api-api-openapi.yml
 - filename: commonwealth-bank-balances-api-api-openapi.yml
   format: yaml
   label: Commonwealth Bank Balances API
   slug: commonwealth-bank-balances-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-balances-api-api-openapi.yml
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-balances-api-api-openapi.yml
+- filename: commonwealth-bank-banking-account-balances-api-openapi.yml
+  format: yaml
+  label: Commonwealth Bank Banking Account Balances API
+  slug: commonwealth-bank-banking-account-balances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-banking-account-balances-api-openapi.yml
+- filename: commonwealth-bank-banking-account-direct-debits-api-openapi.yml
+  format: yaml
+  label: Commonwealth Bank Banking Account Direct Debits API
+  slug: commonwealth-bank-banking-account-direct-debits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-banking-account-direct-debits-api-openapi.yml
+- filename: commonwealth-bank-banking-account-scheduled-payments-api-openapi.yml
+  format: yaml
+  label: Commonwealth Bank Banking Account Scheduled Payments API
+  slug: commonwealth-bank-banking-account-scheduled-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: commonwealth-bank-banking-account-transactions-api-openapi.yml
+  format: yaml
+  label: Commonwealth Bank Banking Account Transactions API
+  slug: commonwealth-bank-banking-account-transactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-banking-account-transactions-api-openapi.yml
+- filename: commonwealth-bank-banking-accounts-api-openapi.yml
+  format: yaml
+  label: Commonwealth Bank Banking Accounts API
+  slug: commonwealth-bank-banking-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-banking-accounts-api-openapi.yml
+- filename: commonwealth-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Commonwealth Bank Banking Payees API
+  slug: commonwealth-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-banking-payees-api-openapi.yml
+- filename: commonwealth-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Commonwealth Bank Banking Products API
+  slug: commonwealth-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-banking-products-api-openapi.yml
 - filename: commonwealth-bank-customer-api-api-openapi.yml
   format: yaml
   label: Commonwealth Bank Customer API
   slug: commonwealth-bank-customer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-customer-api-api-openapi.yml
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-customer-api-api-openapi.yml
 - filename: commonwealth-bank-payees-api-api-openapi.yml
   format: yaml
   label: Commonwealth Bank Payees API
   slug: commonwealth-bank-payees-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-payees-api-api-openapi.yml
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-payees-api-api-openapi.yml
 - filename: commonwealth-bank-products-api-api-openapi.yml
   format: yaml
   label: Commonwealth Bank Products API
   slug: commonwealth-bank-products-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-products-api-api-openapi.yml
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-products-api-api-openapi.yml
 - filename: commonwealth-bank-regular-payments-api-api-openapi.yml
   format: yaml
   label: Commonwealth Bank Regular Payments API
   slug: commonwealth-bank-regular-payments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-regular-payments-api-api-openapi.yml
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-regular-payments-api-api-openapi.yml
 - filename: commonwealth-bank-transaction-api-api-openapi.yml
   format: yaml
   label: Commonwealth Bank Transaction API
   slug: commonwealth-bank-transaction-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-transaction-api-api-openapi.yml
-- filename: commonwealth-bank-accounts-api-openapi.yml
-  format: yaml
-  label: Commonwealth Bank Accounts API
-  slug: commonwealth-bank-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-accounts-api-openapi.yml
-- filename: commonwealth-bank-agreements-api-openapi.yml
-  format: yaml
-  label: Commonwealth Bank Agreements API
-  slug: commonwealth-bank-agreements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-agreements-api-openapi.yml
-- filename: commonwealth-bank-credit-transfer-initiations-api-openapi.yml
-  format: yaml
-  label: Commonwealth Bank Credit Transfer Initiations API
-  slug: commonwealth-bank-credit-transfer-initiations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-credit-transfer-initiations-api-openapi.yml
-- filename: commonwealth-bank-discovery-api-api-openapi.yml
-  format: yaml
-  label: Commonwealth Bank Discovery API
-  slug: commonwealth-bank-discovery-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-discovery-api-api-openapi.yml
-- filename: commonwealth-bank-partner-api-openapi.yml
-  format: yaml
-  label: Commonwealth Bank Partner API
-  slug: commonwealth-bank-partner-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-partner-api-openapi.yml
-- filename: commonwealth-bank-payments-api-openapi.yml
-  format: yaml
-  label: Commonwealth Bank Payments API
-  slug: commonwealth-bank-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-payments-api-openapi.yml
-- filename: commonwealth-bank-utilities-api-openapi.yml
-  format: yaml
-  label: Commonwealth Bank Utilities API
-  slug: commonwealth-bank-utilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/openapi/commonwealth-bank-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/commonwealth-bank/openapi/commonwealth-bank-transaction-api-api-openapi.yml
 consequence_counts:
   read: 38
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/common
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}\n  method: get\n  operationId: getProductDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/direct-debits\n  method: get\n  operationId: listDirectDebits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/direct-debits\n  method: get\n  operationId: listDirectDebitsBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/direct-debits\n  method: post\n  operationId: listDirectDebitsSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/payments/scheduled\n  method: get\n  operationId: listScheduledPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/scheduled\n  method: get\n  operationId: listScheduledPaymentsBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/scheduled\n  method: post\n  operationId: listScheduledPaymentsSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/transactions\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /accounts/{accountId}/transactions/{transactionId}\n  method: get\n  operationId: getTransactionDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/agentic-access/commonwealth-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/commonwealth-bank/agentic-access/commonwealth-bank-agentic-access.yml
 summary_line: 38 operations
 tags:
 - Finance

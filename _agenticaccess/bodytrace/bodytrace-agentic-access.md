@@ -9,31 +9,31 @@ api_specs:
   label: BodyTrace Alerts API
   slug: bodytrace-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-alerts-api-openapi.yml
 - filename: bodytrace-data-messages-api-openapi.yml
   format: yaml
   label: BodyTrace Data Messages API
   slug: bodytrace-data-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-data-messages-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-data-messages-api-openapi.yml
 - filename: bodytrace-devices-api-openapi.yml
   format: yaml
   label: BodyTrace Devices API
   slug: bodytrace-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-devices-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-devices-api-openapi.yml
 - filename: bodytrace-observations-api-openapi.yml
   format: yaml
   label: BodyTrace Observations API
   slug: bodytrace-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-observations-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-observations-api-openapi.yml
 - filename: bodytrace-provisioning-api-openapi.yml
   format: yaml
   label: BodyTrace Provisioning API
   slug: bodytrace-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/openapi/bodytrace-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/bodytrace/openapi/bodytrace-provisioning-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -67,7 +67,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bodytrace-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 5\n    acting: 1\n  by_consequence:\n    read: 5\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /device/{imei}/datavalues\n  method: get\n  operationId: getDeviceDataValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device/{imei}/datamessages\n  method: get\n  operationId: getDeviceDataMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device/{imei}/status\n  method: get\n  operationId: getDeviceStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device/{imei}/alerts\n  method: get\n  operationId: listDeviceAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device/{imei}/provision\n  method: post\n  operationId: provisionDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/agentic-access/bodytrace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bodytrace/agentic-access/bodytrace-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
 - Remote Patient Monitoring

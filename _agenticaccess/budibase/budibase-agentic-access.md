@@ -9,55 +9,55 @@ api_specs:
   label: Budibase Applications API
   slug: budibase-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-applications-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-applications-api-openapi.yml
 - filename: budibase-queries-api-openapi.yml
   format: yaml
   label: Budibase Queries API
   slug: budibase-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-queries-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-queries-api-openapi.yml
 - filename: budibase-rows-api-openapi.yml
   format: yaml
   label: Budibase Rows API
   slug: budibase-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-rows-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-rows-api-openapi.yml
 - filename: budibase-tables-api-openapi.yml
   format: yaml
   label: Budibase Tables API
   slug: budibase-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-tables-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-tables-api-openapi.yml
 - filename: budibase-users-api-openapi.yml
   format: yaml
   label: Budibase Users API
   slug: budibase-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-users-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-users-api-openapi.yml
 - filename: budibase-metrics-api-openapi.yml
   format: yaml
   label: Budibase Metrics API
   slug: budibase-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-metrics-api-openapi.yml
 - filename: budibase-roles-api-openapi.yml
   format: yaml
   label: Budibase Roles API
   slug: budibase-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-roles-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-roles-api-openapi.yml
 - filename: budibase-views-api-openapi.yml
   format: yaml
   label: Budibase Views API
   slug: budibase-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-views-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-views-api-openapi.yml
 - filename: budibase-workspaces-api-openapi.yml
   format: yaml
   label: Budibase Workspaces API
   slug: budibase-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-workspaces-api-openapi.yml
 consequence_counts:
   read: 24
   write: 43
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/budiba
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}\n  method: get\n  operationId: workspaceGetById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/publish\n  method: post\n  operationId: workspacePublish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/unpublish\n  method: post\n  operationId: workspaceUnpublish\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/import\n  method: post\n  operationId: workspaceImport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/export\n  method: post\n  operationId: workspaceExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/search\n  method:\
   \ post\n  operationId: workspaceSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/agentic-access/budibase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/budibase/agentic-access/budibase-agentic-access.yml
 summary_line: 67 operations · 43 acting
 tags:
 - AI Agents

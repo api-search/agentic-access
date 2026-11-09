@@ -8,67 +8,67 @@ api_specs:
   label: Aviationstack Aircraft Types API
   slug: aviationstack-aircraft-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-aircraft-types-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-aircraft-types-api-openapi.yml
 - filename: aviationstack-airlines-api-openapi.yml
   format: yaml
   label: Aviationstack Airlines API
   slug: aviationstack-airlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-airlines-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-airlines-api-openapi.yml
 - filename: aviationstack-airplanes-api-openapi.yml
   format: yaml
   label: Aviationstack Airplanes API
   slug: aviationstack-airplanes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-airplanes-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-airplanes-api-openapi.yml
 - filename: aviationstack-airports-api-openapi.yml
   format: yaml
   label: Aviationstack Airports API
   slug: aviationstack-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-airports-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-airports-api-openapi.yml
 - filename: aviationstack-cities-api-openapi.yml
   format: yaml
   label: Aviationstack Cities API
   slug: aviationstack-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-cities-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-cities-api-openapi.yml
 - filename: aviationstack-countries-api-openapi.yml
   format: yaml
   label: Aviationstack Countries API
   slug: aviationstack-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-countries-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-countries-api-openapi.yml
 - filename: aviationstack-flights-api-openapi.yml
   format: yaml
   label: Aviationstack Flights API
   slug: aviationstack-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-flights-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-flights-api-openapi.yml
 - filename: aviationstack-flightsfuture-api-openapi.yml
   format: yaml
   label: Aviationstack FlightsFuture API
   slug: aviationstack-flightsfuture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-flightsfuture-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-flightsfuture-api-openapi.yml
 - filename: aviationstack-routes-api-openapi.yml
   format: yaml
   label: Aviationstack Routes API
   slug: aviationstack-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-routes-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-routes-api-openapi.yml
 - filename: aviationstack-taxes-api-openapi.yml
   format: yaml
   label: Aviationstack Taxes API
   slug: aviationstack-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-taxes-api-openapi.yml
 - filename: aviationstack-timetable-api-openapi.yml
   format: yaml
   label: Aviationstack Timetable API
   slug: aviationstack-timetable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/openapi/aviationstack-timetable-api-openapi.yml
+  url: https://artifacts.apis.io/aviationstack/openapi/aviationstack-timetable-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -96,7 +96,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aviationstack-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/flights\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/routes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/airports\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/airlines\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/airplanes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/aircraft_types\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/taxes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cities\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/countries\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/timetable\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/flightsFuture\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/agentic-access/aviationstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aviationstack/agentic-access/aviationstack-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Airlines

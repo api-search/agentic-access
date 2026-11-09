@@ -9,19 +9,19 @@ api_specs:
   label: Plyrium Discovery API
   slug: plyrium-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/plyrium-com/openapi/plyrium-com-discovery-api-openapi.yml
 - filename: plyrium-com-purchase-api-openapi.yml
   format: yaml
   label: Plyrium Purchase API
   slug: plyrium-com-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/plyrium-com/openapi/plyrium-com-purchase-api-openapi.yml
 - filename: plyrium-com-verification-api-openapi.yml
   format: yaml
   label: Plyrium Verification API
   slug: plyrium-com-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-verification-api-openapi.yml
+  url: https://artifacts.apis.io/plyrium-com/openapi/plyrium-com-verification-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1
@@ -58,7 +58,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/plyrium-com-vouchspec-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 7\n    acting: 1\n  by_consequence:\n    read: 7\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /api/vouchspec/v1/health\n  method: get\n  operationId: getVouchSpecHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/vouchspec/v1/discovery\n  method: get\n  operationId: getVouchSpecDiscovery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /.well-known/x402\n  method: get\n  operationId: getVouchSpecX402Manifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/vouchspec/v1/validate\n  method: get\n  operationId: getVouchSpecValidationService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/vouchspec/v1/validate\n  method: post\n  operationId: purchaseExactCommitValidation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/vouchspec/v1/keys/issuer\n  method: get\n  operationId: getVouchSpecIssuerKey\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/vouchspec/v1/receipts/{sha256_hex}\n  method: get\n  operationId: getVouchSpecReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/vouchspec/v1/receipts/{sha256_hex}/status\n  method: get\n  operationId: getVouchSpecReceiptStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/agentic-access/plyrium-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/plyrium-com/agentic-access/plyrium-com-agentic-access.yml
 summary_line: 8 operations · 1 acting · 1 human-in-the-loop
 tags:
 - Company

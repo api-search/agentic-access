@@ -9,115 +9,115 @@ api_specs:
   label: Have I Been Pwned Breach API
   slug: have-i-been-pwned-breach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-breach-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-breach-api-openapi.yml
 - filename: have-i-been-pwned-breachedaccount-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Breachedaccount API
   slug: have-i-been-pwned-breachedaccount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-breachedaccount-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-breachedaccount-api-openapi.yml
 - filename: have-i-been-pwned-breacheddomain-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Breacheddomain API
   slug: have-i-been-pwned-breacheddomain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-breacheddomain-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-breacheddomain-api-openapi.yml
 - filename: have-i-been-pwned-breaches-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Breaches API
   slug: have-i-been-pwned-breaches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-breaches-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-breaches-api-openapi.yml
 - filename: have-i-been-pwned-domainverification-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Domainverification API
   slug: have-i-been-pwned-domainverification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-domainverification-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-domainverification-api-openapi.yml
 - filename: have-i-been-pwned-latestbreach-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Latestbreach API
   slug: have-i-been-pwned-latestbreach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-latestbreach-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-latestbreach-api-openapi.yml
 - filename: have-i-been-pwned-pasteaccount-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Pasteaccount API
   slug: have-i-been-pwned-pasteaccount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-pasteaccount-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-pasteaccount-api-openapi.yml
 - filename: have-i-been-pwned-range-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Range API
   slug: have-i-been-pwned-range-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-range-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-range-api-openapi.yml
 - filename: have-i-been-pwned-stealerlogsbyemail-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Stealerlogsbyemail API
   slug: have-i-been-pwned-stealerlogsbyemail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-stealerlogsbyemail-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-stealerlogsbyemail-api-openapi.yml
 - filename: have-i-been-pwned-stealerlogsbyemaildomain-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Stealerlogsbyemaildomain API
   slug: have-i-been-pwned-stealerlogsbyemaildomain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-stealerlogsbyemaildomain-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-stealerlogsbyemaildomain-api-openapi.yml
 - filename: have-i-been-pwned-stealerlogsbywebsitedomain-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Stealerlogsbywebsitedomain API
   slug: have-i-been-pwned-stealerlogsbywebsitedomain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-stealerlogsbywebsitedomain-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-stealerlogsbywebsitedomain-api-openapi.yml
 - filename: have-i-been-pwned-subscribeddomains-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Subscribeddomains API
   slug: have-i-been-pwned-subscribeddomains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-subscribeddomains-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-subscribeddomains-api-openapi.yml
 - filename: have-i-been-pwned-subscription-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Subscription API
   slug: have-i-been-pwned-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-subscription-api-openapi.yml
 - filename: have-i-been-pwned-breached-accounts-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Breached Accounts API
   slug: have-i-been-pwned-breached-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-breached-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-breached-accounts-api-openapi.yml
 - filename: have-i-been-pwned-data-classes-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Data Classes API
   slug: have-i-been-pwned-data-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-data-classes-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-data-classes-api-openapi.yml
 - filename: have-i-been-pwned-domain-search-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Domain Search API
   slug: have-i-been-pwned-domain-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-domain-search-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-domain-search-api-openapi.yml
 - filename: have-i-been-pwned-pastes-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Pastes API
   slug: have-i-been-pwned-pastes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-pastes-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-pastes-api-openapi.yml
 - filename: have-i-been-pwned-range-search-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Range Search API
   slug: have-i-been-pwned-range-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-range-search-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-range-search-api-openapi.yml
 - filename: have-i-been-pwned-stealer-logs-api-openapi.yml
   format: yaml
   label: Have I Been Pwned Stealer Logs API
   slug: have-i-been-pwned-stealer-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/openapi/have-i-been-pwned-stealer-logs-api-openapi.yml
+  url: https://artifacts.apis.io/have-i-been-pwned/openapi/have-i-been-pwned-stealer-logs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/have-i
   \ required\n- path: /domainverification/sendemail\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /breaches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breach/{name}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /latestbreach\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dataclasses\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stealerlogsbyemail/{email}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stealerlogsbywebsitedomain/{domain}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stealerlogsbyemaildomain/{domain}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pasteaccount/{account}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscription/status\n  method: get\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /range/{prefix}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/agentic-access/have-i-been-pwned-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/have-i-been-pwned/agentic-access/have-i-been-pwned-agentic-access.yml
 summary_line: 17 operations · 3 acting
 tags:
 - Security

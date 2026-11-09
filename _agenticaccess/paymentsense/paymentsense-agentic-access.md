@@ -9,103 +9,103 @@ api_specs:
   label: Paymentsense Access Token API
   slug: paymentsense-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-access-token-api-openapi.yml
 - filename: paymentsense-cross-reference-payment-api-openapi.yml
   format: yaml
   label: Paymentsense Cross Reference Payment API
   slug: paymentsense-cross-reference-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-cross-reference-payment-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-cross-reference-payment-api-openapi.yml
 - filename: paymentsense-hospitality-reports-api-openapi.yml
   format: yaml
   label: Paymentsense Hospitality Reports API
   slug: paymentsense-hospitality-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-hospitality-reports-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-hospitality-reports-api-openapi.yml
 - filename: paymentsense-hospitality-tables-api-openapi.yml
   format: yaml
   label: Paymentsense Hospitality Tables API
   slug: paymentsense-hospitality-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-hospitality-tables-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-hospitality-tables-api-openapi.yml
 - filename: paymentsense-pac-reports-api-openapi.yml
   format: yaml
   label: Paymentsense PAC Reports API
   slug: paymentsense-pac-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pac-reports-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-pac-reports-api-openapi.yml
 - filename: paymentsense-pac-reports-ingenico-only-api-openapi.yml
   format: yaml
   label: Paymentsense PAC Reports (Ingenico Only) API
   slug: paymentsense-pac-reports-ingenico-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pac-reports-ingenico-only-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-pac-reports-ingenico-only-api-openapi.yml
 - filename: paymentsense-pac-terminals-api-openapi.yml
   format: yaml
   label: Paymentsense PAC Terminals API
   slug: paymentsense-pac-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pac-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-pac-terminals-api-openapi.yml
 - filename: paymentsense-pac-transactions-api-openapi.yml
   format: yaml
   label: Paymentsense PAC Transactions API
   slug: paymentsense-pac-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pac-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-pac-transactions-api-openapi.yml
 - filename: paymentsense-pat-reports-api-openapi.yml
   format: yaml
   label: Paymentsense PAT Reports API
   slug: paymentsense-pat-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pat-reports-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-pat-reports-api-openapi.yml
 - filename: paymentsense-pat-tables-api-openapi.yml
   format: yaml
   label: Paymentsense PAT Tables API
   slug: paymentsense-pat-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-pat-tables-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-pat-tables-api-openapi.yml
 - filename: paymentsense-payment-details-api-openapi.yml
   format: yaml
   label: Paymentsense Payment Details API
   slug: paymentsense-payment-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-payment-details-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-payment-details-api-openapi.yml
 - filename: paymentsense-payment-methods-api-openapi.yml
   format: yaml
   label: Paymentsense Payment Methods API
   slug: paymentsense-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-payment-methods-api-openapi.yml
 - filename: paymentsense-resume-payment-api-openapi.yml
   format: yaml
   label: Paymentsense Resume Payment API
   slug: paymentsense-resume-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-resume-payment-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-resume-payment-api-openapi.yml
 - filename: paymentsense-retail-reports-api-openapi.yml
   format: yaml
   label: Paymentsense Retail Reports API
   slug: paymentsense-retail-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-retail-reports-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-retail-reports-api-openapi.yml
 - filename: paymentsense-retail-terminals-api-openapi.yml
   format: yaml
   label: Paymentsense Retail Terminals API
   slug: paymentsense-retail-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-retail-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-retail-terminals-api-openapi.yml
 - filename: paymentsense-retail-transactions-api-openapi.yml
   format: yaml
   label: Paymentsense Retail Transactions API
   slug: paymentsense-retail-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-retail-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-retail-transactions-api-openapi.yml
 - filename: paymentsense-revoke-access-token-api-openapi.yml
   format: yaml
   label: Paymentsense Revoke Access Token API
   slug: paymentsense-revoke-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/openapi/paymentsense-revoke-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/paymentsense/openapi/paymentsense-revoke-access-token-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 22
@@ -168,7 +168,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: generated\nsource: openapi/paymen
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pac/terminals/{tid}/transactions\n  method: post\n  operationId: TransactionOnTID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pac/terminals/{tid}/transactions/{requestId}\n  method: get\n  operationId: GetTransactionWithRequestId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pac/terminals/{tid}/transactions/{requestId}\n  method: delete\n  operationId: CancelTransactionWithRequestId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pac/terminals/{tid}/transactions/{requestId}/signature\n  method: put\n  operationId: VerifySignature\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pac/terminals/{tid}/reports\n  method: post\n  operationId: PACReportRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pac/terminals/{tid}/reports/{requestId}\n  method: get\n  operationId: PACReportDetails\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/agentic-access/paymentsense-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paymentsense/agentic-access/paymentsense-agentic-access.yml
 summary_line: 50 operations · 28 acting · 1 human-in-the-loop
 tags:
 - Payments

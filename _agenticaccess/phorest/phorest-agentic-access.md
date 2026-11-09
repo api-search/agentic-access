@@ -9,85 +9,85 @@ api_specs:
   label: Phorest Appointments API
   slug: phorest-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-appointments-api-openapi.yml
 - filename: phorest-bookings-api-openapi.yml
   format: yaml
   label: Phorest Bookings API
   slug: phorest-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-bookings-api-openapi.yml
 - filename: phorest-branches-api-openapi.yml
   format: yaml
   label: Phorest Branches API
   slug: phorest-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-branches-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-branches-api-openapi.yml
 - filename: phorest-clients-api-openapi.yml
   format: yaml
   label: Phorest Clients API
   slug: phorest-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-clients-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-clients-api-openapi.yml
 - filename: phorest-courses-api-openapi.yml
   format: yaml
   label: Phorest Courses API
   slug: phorest-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-courses-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-courses-api-openapi.yml
 - filename: phorest-leads-api-openapi.yml
   format: yaml
   label: Phorest Leads API
   slug: phorest-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-leads-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-leads-api-openapi.yml
 - filename: phorest-loyalty-api-openapi.yml
   format: yaml
   label: Phorest Loyalty API
   slug: phorest-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-loyalty-api-openapi.yml
 - filename: phorest-products-api-openapi.yml
   format: yaml
   label: Phorest Products API
   slug: phorest-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-products-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-products-api-openapi.yml
 - filename: phorest-purchases-api-openapi.yml
   format: yaml
   label: Phorest Purchases API
   slug: phorest-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-purchases-api-openapi.yml
 - filename: phorest-reporting-api-openapi.yml
   format: yaml
   label: Phorest Reporting API
   slug: phorest-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-reporting-api-openapi.yml
 - filename: phorest-reviews-api-openapi.yml
   format: yaml
   label: Phorest Reviews API
   slug: phorest-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-reviews-api-openapi.yml
 - filename: phorest-services-api-openapi.yml
   format: yaml
   label: Phorest Services API
   slug: phorest-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-services-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-services-api-openapi.yml
 - filename: phorest-staff-api-openapi.yml
   format: yaml
   label: Phorest Staff API
   slug: phorest-staff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-staff-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-staff-api-openapi.yml
 - filename: phorest-vouchers-api-openapi.yml
   format: yaml
   label: Phorest Vouchers API
   slug: phorest-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/openapi/phorest-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/phorest/openapi/phorest-vouchers-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 39
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/phores
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{businessId}/voucher/{voucherId}\n  method: get\n  operationId: getVoucher\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{businessId}/voucher/{voucherId}\n  method: put\n  operationId: updateVoucherBalance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{businessId}/loyaltypoints\n  method: post\n  operationId: changeLoyaltyPoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /{businessId}/branch/{branchId}/csvexportjob\n  method: post\n  operationId: createCsvExportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{businessId}/branch/{branchId}/csvexportjob/{jobId}\n  method: get\n  operationId: getCsvExportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{businessId}/branch/{branchId}/review\n  method: get\n  operationId: getReviewList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{businessId}/branch/{branchId}/review/{reviewId}\n  method:\
   \ get\n  operationId: getReview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{businessId}/branch/{branchId}/leads\n  method: get\n  operationId: getLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{businessId}/branch/{branchId}/leads/stats\n  method: get\n  operationId: getLeadsStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{businessId}/lead\n  method: post\n  operationId: createLead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/agentic-access/phorest-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/phorest/agentic-access/phorest-agentic-access.yml
 summary_line: 62 operations · 23 acting
 tags:
 - Salon Software

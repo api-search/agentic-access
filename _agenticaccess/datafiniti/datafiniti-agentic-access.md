@@ -9,31 +9,31 @@ api_specs:
   label: Datafiniti Authentication API
   slug: datafiniti-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-authentication-api-openapi.yml
 - filename: datafiniti-businesses-api-openapi.yml
   format: yaml
   label: Datafiniti Businesses API
   slug: datafiniti-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-businesses-api-openapi.yml
 - filename: datafiniti-people-api-openapi.yml
   format: yaml
   label: Datafiniti People API
   slug: datafiniti-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-people-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-people-api-openapi.yml
 - filename: datafiniti-products-api-openapi.yml
   format: yaml
   label: Datafiniti Products API
   slug: datafiniti-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-products-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-products-api-openapi.yml
 - filename: datafiniti-properties-api-openapi.yml
   format: yaml
   label: Datafiniti Properties API
   slug: datafiniti-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-properties-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-properties-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -61,7 +61,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/datafiniti-authentication-api-openapi.yml, openapi/datafiniti-businesses-api-openapi.yml,\n  openapi/datafiniti-people-api-openapi.yml, openapi/datafiniti-products-api-openapi.yml, openapi/datafiniti-properties-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 1\n    connected: 4\n  by_consequence:\n    write: 1\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /auth\n  method: post\n  operationId: authenticate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /businesses/search\n  method: post\n  operationId: searchBusinesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/search\n  method: post\n  operationId: searchPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/search\n  method: post\n  operationId: searchProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/search\n  method: post\n  operationId: searchProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/agentic-access/datafiniti-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datafiniti/agentic-access/datafiniti-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Business Data

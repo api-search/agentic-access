@@ -9,55 +9,55 @@ api_specs:
   label: PostalForm Api Keys API
   slug: postalform-com-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-api-keys-api-openapi.yml
 - filename: postalform-com-credits-api-openapi.yml
   format: yaml
   label: PostalForm Credits API
   slug: postalform-com-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-credits-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-credits-api-openapi.yml
 - filename: postalform-com-documents-api-openapi.yml
   format: yaml
   label: PostalForm Documents API
   slug: postalform-com-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-documents-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-documents-api-openapi.yml
 - filename: postalform-com-letters-api-openapi.yml
   format: yaml
   label: PostalForm Letters API
   slug: postalform-com-letters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-letters-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-letters-api-openapi.yml
 - filename: postalform-com-machine-api-openapi.yml
   format: yaml
   label: PostalForm Machine API
   slug: postalform-com-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-machine-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-machine-api-openapi.yml
 - filename: postalform-com-postcards-api-openapi.yml
   format: yaml
   label: PostalForm Postcards API
   slug: postalform-com-postcards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-postcards-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-postcards-api-openapi.yml
 - filename: postalform-com-return-receipts-api-openapi.yml
   format: yaml
   label: PostalForm Return Receipts API
   slug: postalform-com-return-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-return-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-return-receipts-api-openapi.yml
 - filename: postalform-com-webhook-endpoints-api-openapi.yml
   format: yaml
   label: PostalForm Webhook Endpoints API
   slug: postalform-com-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-webhook-endpoints-api-openapi.yml
 - filename: postalform-com-webhook-events-api-openapi.yml
   format: yaml
   label: PostalForm Webhook Events API
   slug: postalform-com-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/postalform-com/openapi/postalform-com-webhook-events-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 20
@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/postal
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/credits/auto-refill\n  method: get\n  operationId: getCreditAutoRefillPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/credits/auto-refill\n  method: post\n  operationId: configureCreditAutoRefill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/credits/ledger\n  method: get\n  operationId: listCreditLedger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v1/api-keys\n  method: get\n  operationId: listApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api-keys/rotate\n  method: post\n  operationId: rotateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/credits/checkout-session\n  method: post\n  operationId: createCreditCheckoutSession\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/agentic-access/postalform-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/postalform-com/agentic-access/postalform-com-agentic-access.yml
 summary_line: 44 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Physical Mail

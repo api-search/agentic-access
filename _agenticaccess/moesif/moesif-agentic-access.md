@@ -9,91 +9,91 @@ api_specs:
   label: Moesif Applications API
   slug: moesif-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-applications-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-applications-api-openapi.yml
 - filename: moesif-balance-transactions-api-openapi.yml
   format: yaml
   label: Moesif Balance Transactions API
   slug: moesif-balance-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-balance-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-balance-transactions-api-openapi.yml
 - filename: moesif-billing-meters-api-openapi.yml
   format: yaml
   label: Moesif Billing Meters API
   slug: moesif-billing-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-billing-meters-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-billing-meters-api-openapi.yml
 - filename: moesif-billing-reports-api-openapi.yml
   format: yaml
   label: Moesif Billing Reports API
   slug: moesif-billing-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-billing-reports-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-billing-reports-api-openapi.yml
 - filename: moesif-cohorts-api-openapi.yml
   format: yaml
   label: Moesif Cohorts API
   slug: moesif-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-cohorts-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-cohorts-api-openapi.yml
 - filename: moesif-companies-api-openapi.yml
   format: yaml
   label: Moesif Companies API
   slug: moesif-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-companies-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-companies-api-openapi.yml
 - filename: moesif-dashboards-api-openapi.yml
   format: yaml
   label: Moesif Dashboards API
   slug: moesif-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-dashboards-api-openapi.yml
 - filename: moesif-email-templates-api-openapi.yml
   format: yaml
   label: Moesif Email Templates API
   slug: moesif-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-email-templates-api-openapi.yml
 - filename: moesif-governance-rules-api-openapi.yml
   format: yaml
   label: Moesif Governance Rules API
   slug: moesif-governance-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-governance-rules-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-governance-rules-api-openapi.yml
 - filename: moesif-metrics-api-openapi.yml
   format: yaml
   label: Moesif Metrics API
   slug: moesif-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-metrics-api-openapi.yml
 - filename: moesif-product-catalog-api-openapi.yml
   format: yaml
   label: Moesif Product Catalog API
   slug: moesif-product-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-product-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-product-catalog-api-openapi.yml
 - filename: moesif-properties-api-openapi.yml
   format: yaml
   label: Moesif Properties API
   slug: moesif-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-properties-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-properties-api-openapi.yml
 - filename: moesif-subscriptions-api-openapi.yml
   format: yaml
   label: Moesif Subscriptions API
   slug: moesif-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-subscriptions-api-openapi.yml
 - filename: moesif-users-api-openapi.yml
   format: yaml
   label: Moesif Users API
   slug: moesif-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-users-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-users-api-openapi.yml
 - filename: moesif-workspaces-api-openapi.yml
   format: yaml
   label: Moesif Workspaces API
   slug: moesif-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/moesif/openapi/moesif-workspaces-api-openapi.yml
 consequence_counts:
   read: 41
   write: 46
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/moesif
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /~/workspaces/{id}/comments\n  method: post\n  operationId: createComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - update:workspaces\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /~/workspaces/{id}/comments\n  method: get\n  operationId: getComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:workspaces\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /~/workspaces/{id}/comments/{commentId}\n  method: post\n  operationId: updateComment\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    scope:\n    - update:workspaces\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /~/workspaces/{id}/comments/{commentId}\n  method: delete\n  operationId: deleteComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - update:workspaces\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /~/workspaces/{id}/policy/acl\n  method: post\n  operationId: addACLPermissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - create:workspaces\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /~/workspaces/{id}/policy/acl\n  method: delete\n  operationId: deleteACLPermissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - delete:workspaces\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/agentic-access/moesif-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moesif/agentic-access/moesif-agentic-access.yml
 summary_line: 87 operations · 46 acting
 tags:
 - Analytics

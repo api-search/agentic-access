@@ -9,115 +9,115 @@ api_specs:
   label: Sonetel Account API
   slug: sonetel-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-account-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-account-api-openapi.yml
 - filename: sonetel-ai-integration-api-openapi.yml
   format: yaml
   label: Sonetel Ai Integration API
   slug: sonetel-ai-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-ai-integration-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-ai-integration-api-openapi.yml
 - filename: sonetel-ai-service-api-openapi.yml
   format: yaml
   label: Sonetel Ai Service API
   slug: sonetel-ai-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-ai-service-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-ai-service-api-openapi.yml
 - filename: sonetel-app-view-settings-api-openapi.yml
   format: yaml
   label: Sonetel App View Settings API
   slug: sonetel-app-view-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-app-view-settings-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-app-view-settings-api-openapi.yml
 - filename: sonetel-business-api-openapi.yml
   format: yaml
   label: Sonetel Business API
   slug: sonetel-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-business-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-business-api-openapi.yml
 - filename: sonetel-call-recording-api-openapi.yml
   format: yaml
   label: Sonetel Call Recording API
   slug: sonetel-call-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-call-recording-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-call-recording-api-openapi.yml
 - filename: sonetel-country-api-openapi.yml
   format: yaml
   label: Sonetel Country API
   slug: sonetel-country-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-country-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-country-api-openapi.yml
 - filename: sonetel-filemgr-api-openapi.yml
   format: yaml
   label: Sonetel Filemgr API
   slug: sonetel-filemgr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-filemgr-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-filemgr-api-openapi.yml
 - filename: sonetel-globaldata-api-openapi.yml
   format: yaml
   label: Sonetel Globaldata API
   slug: sonetel-globaldata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-globaldata-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-globaldata-api-openapi.yml
 - filename: sonetel-internal-api-openapi.yml
   format: yaml
   label: Sonetel Internal API
   slug: sonetel-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-internal-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-internal-api-openapi.yml
 - filename: sonetel-make-calls-api-openapi.yml
   format: yaml
   label: Sonetel Make Calls API
   slug: sonetel-make-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-make-calls-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-make-calls-api-openapi.yml
 - filename: sonetel-numberstocksummary-api-openapi.yml
   format: yaml
   label: Sonetel Numberstocksummary API
   slug: sonetel-numberstocksummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-numberstocksummary-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-numberstocksummary-api-openapi.yml
 - filename: sonetel-oauth-api-openapi.yml
   format: yaml
   label: Sonetel OAuth API
   slug: sonetel-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-oauth-api-openapi.yml
 - filename: sonetel-prompt-api-openapi.yml
   format: yaml
   label: Sonetel Prompt API
   slug: sonetel-prompt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-prompt-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-prompt-api-openapi.yml
 - filename: sonetel-textmgr-api-openapi.yml
   format: yaml
   label: Sonetel Textmgr API
   slug: sonetel-textmgr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-textmgr-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-textmgr-api-openapi.yml
 - filename: sonetel-transcription-api-openapi.yml
   format: yaml
   label: Sonetel Transcription API
   slug: sonetel-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-transcription-api-openapi.yml
 - filename: sonetel-tts-api-openapi.yml
   format: yaml
   label: Sonetel Tts API
   slug: sonetel-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-tts-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-tts-api-openapi.yml
 - filename: sonetel-usage-api-openapi.yml
   format: yaml
   label: Sonetel Usage API
   slug: sonetel-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-usage-api-openapi.yml
 - filename: sonetel-user-api-openapi.yml
   format: yaml
   label: Sonetel User API
   slug: sonetel-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-user-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-user-api-openapi.yml
 consequence_counts:
   read: 58
   write: 58
@@ -176,8 +176,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/sonete
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/account/{accountid}/usagerecord\n  method: get\n  operationId: get-usagerecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/account/{accountid}/usagerecord/download\n  method: get\n  operationId: get-usagerecord-download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{accountid}/user\n  method: post\n  operationId: post-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountid}/user\n \
   \ method: get\n  operationId: getaccount-accountid-user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{accountid}/user/{userid}\n  method: get\n  operationId: get-account-accountid-user-userid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{accountid}/user/{userid}\n  method: put\n  operationId: put-account-accountid-user-userid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountid}/user/{userid}\n  method: delete\n  operationId: delete-account-accountid-user-userid\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountid}/user/{userid}/call\n  method: post\n  operationId: post-account-accountid-user-userid-call\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountid}/user/{userid}/call\n  method: get\n  operationId: get-account-accountid-user-userid-call\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{userid}/settings/data-mgr\n  method: get\n  operationId: get-user-userid-ai-settings\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{userid}/settings/data-mgr\n  method: put\n  operationId: put-user-userid-ai-settings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountid}/voiceapp\n  method: get\n  operationId: get-voiceapps-account\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/agentic-access/sonetel-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/agentic-access/sonetel-agentic-access.yml
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{userid}/settings/data-mgr\n  method: put\n  operationId: put-user-userid-ai-settings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountid}/voiceapp\n  method: get\n  operationId: get-voiceapps-account\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/sonetel/agentic-access/sonetel-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/sonetel/agentic-access/sonetel-agentic-access.yml
 summary_line: 116 operations · 58 acting
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: Google Cloud Natural Language documents:analyzeEntities API
   slug: google-cloud-natural-language-documents-analyzeentities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-analyzeentities-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-natural-language/openapi/google-cloud-natural-language-documents-analyzeentities-api-openapi.yml
 - filename: google-cloud-natural-language-documents-analyzesentiment-api-openapi.yml
   format: yaml
   label: Google Cloud Natural Language documents:analyzeSentiment API
   slug: google-cloud-natural-language-documents-analyzesentiment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-analyzesentiment-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-natural-language/openapi/google-cloud-natural-language-documents-analyzesentiment-api-openapi.yml
 - filename: google-cloud-natural-language-documents-analyzesyntax-api-openapi.yml
   format: yaml
   label: Google Cloud Natural Language Documents:analyze Syntax API
   slug: google-cloud-natural-language-documents-analyzesyntax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-analyzesyntax-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-natural-language/openapi/google-cloud-natural-language-documents-analyzesyntax-api-openapi.yml
 - filename: google-cloud-natural-language-documents-annotatetext-api-openapi.yml
   format: yaml
   label: Google Cloud Natural Language Documents:annotate Text API
   slug: google-cloud-natural-language-documents-annotatetext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-annotatetext-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-natural-language/openapi/google-cloud-natural-language-documents-annotatetext-api-openapi.yml
 - filename: google-cloud-natural-language-documents-classifytext-api-openapi.yml
   format: yaml
   label: Google Cloud Natural Language Documents:classify Text API
   slug: google-cloud-natural-language-documents-classifytext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-classifytext-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-natural-language/openapi/google-cloud-natural-language-documents-classifytext-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 5\n  by_consequence:\n    write: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /documents:analyzeSentiment\n  method: post\n  operationId: analyzeSentiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents:analyzeEntities\n  method: post\n  operationId: analyzeEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents:classifyText\n  method: post\n  operationId: classifyText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents:analyzeSyntax\n  method: post\n  operationId: analyzeSyntax\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents:annotateText\n  method: post\n  operationId: annotateText\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/agentic-access/google-cloud-natural-language-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-natural-language/agentic-access/google-cloud-natural-language-agentic-access.yml
 summary_line: 5 operations · 5 acting
 tags:
 - Entity Recognition

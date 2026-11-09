@@ -9,49 +9,49 @@ api_specs:
   label: Coasty Keys API
   slug: coasty-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-keys-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-keys-api-openapi.yml
 - filename: coasty-machines-api-openapi.yml
   format: yaml
   label: Coasty Machines API
   slug: coasty-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-machines-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-machines-api-openapi.yml
 - filename: coasty-predict-api-openapi.yml
   format: yaml
   label: Coasty Predict API
   slug: coasty-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-predict-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-predict-api-openapi.yml
 - filename: coasty-runs-api-openapi.yml
   format: yaml
   label: Coasty Runs API
   slug: coasty-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-runs-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-runs-api-openapi.yml
 - filename: coasty-schedules-api-openapi.yml
   format: yaml
   label: Coasty Schedules API
   slug: coasty-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-schedules-api-openapi.yml
 - filename: coasty-sessions-api-openapi.yml
   format: yaml
   label: Coasty Sessions API
   slug: coasty-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-sessions-api-openapi.yml
 - filename: coasty-triggers-api-openapi.yml
   format: yaml
   label: Coasty Triggers API
   slug: coasty-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-triggers-api-openapi.yml
 - filename: coasty-workflows-api-openapi.yml
   format: yaml
   label: Coasty Workflows API
   slug: coasty-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/openapi/coasty-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/coasty/openapi/coasty-workflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 30
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/coasty
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflows/runs/{run_id}/events\n  method: get\n  operationId: streamWorkflowRunEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflows/runs/{run_id}/cancel\n  method: post\n  operationId: cancelWorkflowRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workflows/runs/{run_id}/resume\n  method: post\n  operationId: resumeWorkflowRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workflows/{workflow_id}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflows/{workflow_id}\n  method: put\n  operationId: updateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workflows/{workflow_id}\n  method: delete\n  operationId: deleteWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workflows/{workflow_id}/runs\n  method: post\n  operationId: startWorkflowRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/agentic-access/coasty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coasty/agentic-access/coasty-agentic-access.yml
 summary_line: 72 operations · 42 acting · 5 human-in-the-loop
 tags:
 - Company

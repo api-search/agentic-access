@@ -9,37 +9,37 @@ api_specs:
   label: Certn Applications API
   slug: certn-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-applications-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-applications-api-openapi.yml
 - filename: certn-checks-api-openapi.yml
   format: yaml
   label: Certn Checks API
   slug: certn-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-checks-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-checks-api-openapi.yml
 - filename: certn-packages-api-openapi.yml
   format: yaml
   label: Certn Packages API
   slug: certn-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-packages-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-packages-api-openapi.yml
 - filename: certn-reports-api-openapi.yml
   format: yaml
   label: Certn Reports API
   slug: certn-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-reports-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-reports-api-openapi.yml
 - filename: certn-teams-and-users-api-openapi.yml
   format: yaml
   label: Certn Teams and Users API
   slug: certn-teams-and-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-teams-and-users-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-teams-and-users-api-openapi.yml
 - filename: certn-webhooks-api-openapi.yml
   format: yaml
   label: Certn Webhooks API
   slug: certn-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/openapi/certn-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/certn/openapi/certn-webhooks-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/certn-
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/pm/applications/quick/\n  method: post\n  operationId: quickScreenPmApplicant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/pm/applicants/\n  method: get\n  operationId: listPmApplicants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/reports/{applicant_id}/\n  method: get\n  operationId: getApplicantReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/checks/\n  method: get\n  operationId: listAvailableChecks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/packages/\n  method: get\n  operationId: listPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/teams/\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/teams/{team_id}/address/reference_templates/\n  method: get\n\
   \  operationId: getAddressReferenceTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/receiver\n  method: post\n  operationId: receiveWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/agentic-access/certn-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/certn/agentic-access/certn-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Background Checks

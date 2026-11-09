@@ -9,67 +9,67 @@ api_specs:
   label: PodcastIndex Add API
   slug: podcastindex-add-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-add-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-add-api-openapi.yml
 - filename: podcastindex-apple-replacement-api-openapi.yml
   format: yaml
   label: PodcastIndex Apple Replacement API
   slug: podcastindex-apple-replacement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-apple-replacement-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-apple-replacement-api-openapi.yml
 - filename: podcastindex-categories-api-openapi.yml
   format: yaml
   label: PodcastIndex Categories API
   slug: podcastindex-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-categories-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-categories-api-openapi.yml
 - filename: podcastindex-episodes-api-openapi.yml
   format: yaml
   label: PodcastIndex Episodes API
   slug: podcastindex-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-episodes-api-openapi.yml
 - filename: podcastindex-hub-api-openapi.yml
   format: yaml
   label: PodcastIndex Hub API
   slug: podcastindex-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-hub-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-hub-api-openapi.yml
 - filename: podcastindex-podcasts-api-openapi.yml
   format: yaml
   label: PodcastIndex Podcasts API
   slug: podcastindex-podcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-podcasts-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-podcasts-api-openapi.yml
 - filename: podcastindex-recent-api-openapi.yml
   format: yaml
   label: PodcastIndex Recent API
   slug: podcastindex-recent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-recent-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-recent-api-openapi.yml
 - filename: podcastindex-search-api-openapi.yml
   format: yaml
   label: PodcastIndex Search API
   slug: podcastindex-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-search-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-search-api-openapi.yml
 - filename: podcastindex-static-data-api-openapi.yml
   format: yaml
   label: PodcastIndex Static Data API
   slug: podcastindex-static-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-static-data-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-static-data-api-openapi.yml
 - filename: podcastindex-stats-api-openapi.yml
   format: yaml
   label: PodcastIndex Stats API
   slug: podcastindex-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-stats-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-stats-api-openapi.yml
 - filename: podcastindex-value-api-openapi.yml
   format: yaml
   label: PodcastIndex Value API
   slug: podcastindex-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/openapi/podcastindex-value-api-openapi.yml
+  url: https://artifacts.apis.io/podcastindex/openapi/podcastindex-value-api-openapi.yml
 consequence_counts:
   read: 48
   write: 4
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/podcas
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /static/stats/daily_counts.json\n  method: get\n  operationId: daily_counts.json\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/stats/hourly_counts.json\n  method: get\n  operationId: hourly_counts.json\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/stats/chart-data.json\n  method: get\n  operationId: chart-data.json\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/stats/v4vmusic.json\n  method: get\n  operationId: v4vmusic.json\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /static/stats/v4vmusic.opml\n  method: get\n  operationId: v4vmusic.opml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/stats/v4vmusic.rss\n  method: get\n  operationId: v4vmusic.rss\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/tracking/current\n  method: get\n  operationId: current\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/tracking/feedValueBlocks\n  method: get\n  operationId: feedValueBlocks.json\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/tracking/episodeValueBlocks\n  method: get\n  operationId: episodeValueBlocks.json\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/public/podcastindex_dead_feeds.csv\n  method: get\n  operationId: podcastindex_dead_feeds.csv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/public/podcastindex_feeds.db.tgz\n  method: get\n  operationId: podcastindex_feeds_db.tgz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/agentic-access/podcastindex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/podcastindex/agentic-access/podcastindex-agentic-access.yml
 summary_line: 52 operations · 4 acting
 tags:
 - Podcasts

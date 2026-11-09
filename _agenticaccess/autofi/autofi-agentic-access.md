@@ -9,37 +9,37 @@ api_specs:
   label: AutoFi Authorization API
   slug: autofi-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-authorization-api-openapi.yml
 - filename: autofi-calculate-payment-api-openapi.yml
   format: yaml
   label: AutoFi Calculate Payment API
   slug: autofi-calculate-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-calculate-payment-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-calculate-payment-api-openapi.yml
 - filename: autofi-dealers-api-openapi.yml
   format: yaml
   label: AutoFi Dealers API
   slug: autofi-dealers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-dealers-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-dealers-api-openapi.yml
 - filename: autofi-dealmaker-api-openapi.yml
   format: yaml
   label: AutoFi Dealmaker API
   slug: autofi-dealmaker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-dealmaker-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-dealmaker-api-openapi.yml
 - filename: autofi-loan-applications-api-openapi.yml
   format: yaml
   label: AutoFi Loan Applications API
   slug: autofi-loan-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-loan-applications-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-loan-applications-api-openapi.yml
 - filename: autofi-prequalification-api-openapi.yml
   format: yaml
   label: AutoFi Prequalification API
   slug: autofi-prequalification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-prequalification-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-prequalification-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 3
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/autofi
   \ high-value\n    audit: required\n- path: /v1/estimate/lease\n  method: post\n  operationId: postV1EstimateLease\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - create:estimate\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/dealer/lookup\n  method: post\n  operationId: postV1DealerLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - lookup:dealers\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/dealmaker\n  method: post\n  operationId: postV1Dealmaker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - create:dealmaker\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/dealmaker/credit-application\n  method: post\n  operationId: postV1DealmakerCreditApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - create:dealmakercredit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/loan-application\n  method: post\n  operationId: postV1LoanApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - create:loanapplications\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/loan-application/{loanApplicationId}\n  method:\
   \ get\n  operationId: getV1LoanApplicationByLoanApplicationId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:loanapplications\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/loan-application/{loanApplicationId}/externalResources\n  method: get\n  operationId: getV1LoanApplicationByLoanApplicationIdExternalResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:loanapplications\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prequalification\n  method: post\n  operationId: postV1Prequalification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - create:prequalification\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/agentic-access/autofi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/autofi/agentic-access/autofi-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - Company

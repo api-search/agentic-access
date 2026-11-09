@@ -9,85 +9,85 @@ api_specs:
   label: Dust Agents API
   slug: dust-tt-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-agents-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-agents-api-openapi.yml
 - filename: dust-tt-apps-api-openapi.yml
   format: yaml
   label: Dust Apps API
   slug: dust-tt-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-apps-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-apps-api-openapi.yml
 - filename: dust-tt-conversations-api-openapi.yml
   format: yaml
   label: Dust Conversations API
   slug: dust-tt-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-conversations-api-openapi.yml
 - filename: dust-tt-datasourceviews-api-openapi.yml
   format: yaml
   label: Dust DatasourceViews API
   slug: dust-tt-datasourceviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-datasourceviews-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-datasourceviews-api-openapi.yml
 - filename: dust-tt-feedbacks-api-openapi.yml
   format: yaml
   label: Dust Feedbacks API
   slug: dust-tt-feedbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-feedbacks-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-feedbacks-api-openapi.yml
 - filename: dust-tt-mcp-api-openapi.yml
   format: yaml
   label: Dust MCP API
   slug: dust-tt-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-mcp-api-openapi.yml
 - filename: dust-tt-mentions-api-openapi.yml
   format: yaml
   label: Dust Mentions API
   slug: dust-tt-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-mentions-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-mentions-api-openapi.yml
 - filename: dust-tt-search-api-openapi.yml
   format: yaml
   label: Dust Search API
   slug: dust-tt-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-search-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-search-api-openapi.yml
 - filename: dust-tt-skills-api-openapi.yml
   format: yaml
   label: Dust Skills API
   slug: dust-tt-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-skills-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-skills-api-openapi.yml
 - filename: dust-tt-spaces-api-openapi.yml
   format: yaml
   label: Dust Spaces API
   slug: dust-tt-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-spaces-api-openapi.yml
 - filename: dust-tt-tools-api-openapi.yml
   format: yaml
   label: Dust Tools API
   slug: dust-tt-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-tools-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-tools-api-openapi.yml
 - filename: dust-tt-triggers-api-openapi.yml
   format: yaml
   label: Dust Triggers API
   slug: dust-tt-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-triggers-api-openapi.yml
 - filename: dust-tt-analytics-api-openapi.yml
   format: yaml
   label: Dust Analytics API
   slug: dust-tt-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-analytics-api-openapi.yml
 - filename: dust-tt-data-sources-api-openapi.yml
   format: yaml
   label: Dust Data Sources API
   slug: dust-tt-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/dust-tt/openapi/dust-tt-data-sources-api-openapi.yml
 consequence_counts:
   read: 33
   safety-critical: 1
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dust-t
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/w/{wId}/search/tools/upload\n  method: post\n  operationId: postApiV1WByWIdSearchToolsUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/w/{wId}/skills\n  method: get\n  operationId: getApiV1WByWIdSkills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/w/{wId}/skills\n  method: post\n  operationId: postApiV1WByWIdSkills\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/w/{wId}/spaces\n  method: get\n  operationId: getApiV1WByWIdSpaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/w/{wId}/spaces/{spaceId}/mcp_server_views\n  method: get\n  operationId: getApiV1WByWIdSpacesBySpaceIdMcpServerViews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/w/{wId}/triggers/hooks/{webhookSourceId}\n  method: post\n  operationId: postApiV1WByWIdTriggersHooksByWebhookSourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/v1/w/{wId}/analytics/export\n  method: get\n  operationId: getApiV1WByWIdAnalyticsExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/w/{wId}/workspace-usage\n  method: get\n  operationId: getApiV1WByWIdWorkspaceUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/agentic-access/dust-tt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dust-tt/agentic-access/dust-tt-agentic-access.yml
 summary_line: 64 operations · 31 acting · 1 human-in-the-loop
 tags:
 - Agents

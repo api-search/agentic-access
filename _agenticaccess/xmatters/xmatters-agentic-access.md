@@ -9,61 +9,61 @@ api_specs:
   label: xMatters Devices API
   slug: xmatters-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-devices-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-devices-api-openapi.yml
 - filename: xmatters-events-api-openapi.yml
   format: yaml
   label: xMatters Events API
   slug: xmatters-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-events-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-events-api-openapi.yml
 - filename: xmatters-groups-api-openapi.yml
   format: yaml
   label: xMatters Groups API
   slug: xmatters-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-groups-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-groups-api-openapi.yml
 - filename: xmatters-integrations-api-openapi.yml
   format: yaml
   label: xMatters Integrations API
   slug: xmatters-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-integrations-api-openapi.yml
 - filename: xmatters-people-api-openapi.yml
   format: yaml
   label: xMatters People API
   slug: xmatters-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-people-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-people-api-openapi.yml
 - filename: xmatters-plans-api-openapi.yml
   format: yaml
   label: xMatters Plans API
   slug: xmatters-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-plans-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-plans-api-openapi.yml
 - filename: xmatters-scenarios-api-openapi.yml
   format: yaml
   label: xMatters Scenarios API
   slug: xmatters-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-scenarios-api-openapi.yml
 - filename: xmatters-services-api-openapi.yml
   format: yaml
   label: xMatters Services API
   slug: xmatters-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-services-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-services-api-openapi.yml
 - filename: xmatters-shifts-api-openapi.yml
   format: yaml
   label: xMatters Shifts API
   slug: xmatters-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-shifts-api-openapi.yml
 - filename: xmatters-on-call-api-openapi.yml
   format: yaml
   label: xMatters On Call API
   slug: xmatters-on-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-on-call-api-openapi.yml
+  url: https://artifacts.apis.io/xmatters/openapi/xmatters-on-call-api-openapi.yml
 consequence_counts:
   read: 19
   write: 17
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xmatte
   \ 3600\n    audit: none\n- path: /scenarios\n  method: get\n  operationId: listScenarios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scenarios\n  method: post\n  operationId: createScenario\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations\n  method: post\n  operationId: createIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /on-call\n  method: get\n  operationId: getOnCall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: post\n  operationId: createService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shifts\n  method: get\n  operationId: listShifts\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shifts\n  method: post\n  operationId: createShift\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/agentic-access/xmatters-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xmatters/agentic-access/xmatters-agentic-access.yml
 summary_line: 36 operations · 17 acting
 tags:
 - Incident Management

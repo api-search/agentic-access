@@ -9,49 +9,49 @@ api_specs:
   label: MrScraper Analytic API
   slug: mrscraper-analytic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-analytic-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-analytic-api-openapi.yml
 - filename: mrscraper-auth-api-openapi.yml
   format: yaml
   label: MrScraper Auth API
   slug: mrscraper-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-auth-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-auth-api-openapi.yml
 - filename: mrscraper-gateway-api-openapi.yml
   format: yaml
   label: MrScraper Gateway API
   slug: mrscraper-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-gateway-api-openapi.yml
 - filename: mrscraper-jobs-api-openapi.yml
   format: yaml
   label: MrScraper Jobs API
   slug: mrscraper-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-jobs-api-openapi.yml
 - filename: mrscraper-proxies-api-openapi.yml
   format: yaml
   label: MrScraper Proxies API
   slug: mrscraper-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-proxies-api-openapi.yml
 - filename: mrscraper-results-api-openapi.yml
   format: yaml
   label: MrScraper Results API
   slug: mrscraper-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-results-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-results-api-openapi.yml
 - filename: mrscraper-storage-api-openapi.yml
   format: yaml
   label: MrScraper Storage API
   slug: mrscraper-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-storage-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-storage-api-openapi.yml
 - filename: mrscraper-tasks-api-openapi.yml
   format: yaml
   label: MrScraper Tasks API
   slug: mrscraper-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/openapi/mrscraper-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mrscraper/openapi/mrscraper-tasks-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/mrscra
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/{key}\n  method: get\n  operationId: getStoredResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscription-accounts\n  method: get\n  operationId: getSubscriptionAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/bulk\n  method: put\n  operationId: updateTasksBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/bulk\n  method: post\n  operationId: createTasksBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /tasks/{id}\n  method: put\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}/status\n  method: put\n  operationId: updateTaskStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mrscraper/refs/heads/main/agentic-access/mrscraper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mrscraper/agentic-access/mrscraper-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Company

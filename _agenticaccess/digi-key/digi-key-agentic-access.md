@@ -9,73 +9,73 @@ api_specs:
   label: Digi-Key Barcoding API
   slug: digi-key-barcoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-barcoding-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-barcoding-api-openapi.yml
 - filename: digi-key-bondedinventory-api-openapi.yml
   format: yaml
   label: Digi-Key Bonded Inventory API
   slug: digi-key-bondedinventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-bondedinventory-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-bondedinventory-api-openapi.yml
 - filename: digi-key-customerresource-api-openapi.yml
   format: yaml
   label: Digi-Key Customer Resource API
   slug: digi-key-customerresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-customerresource-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-customerresource-api-openapi.yml
 - filename: digi-key-lists-api-openapi.yml
   format: yaml
   label: Digi-Key Lists API
   slug: digi-key-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-lists-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-lists-api-openapi.yml
 - filename: digi-key-orderhistory-api-openapi.yml
   format: yaml
   label: Digi-Key Order History API
   slug: digi-key-orderhistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-orderhistory-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-orderhistory-api-openapi.yml
 - filename: digi-key-ordermanagement-api-openapi.yml
   format: yaml
   label: Digi-Key Order Management API
   slug: digi-key-ordermanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-ordermanagement-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-ordermanagement-api-openapi.yml
 - filename: digi-key-orders-api-openapi.yml
   format: yaml
   label: Digi-Key Orders API
   slug: digi-key-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-orders-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-orders-api-openapi.yml
 - filename: digi-key-packlist-api-openapi.yml
   format: yaml
   label: Digi-Key Pack List API
   slug: digi-key-packlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-packlist-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-packlist-api-openapi.yml
 - filename: digi-key-parts-api-openapi.yml
   format: yaml
   label: Digi-Key Parts API
   slug: digi-key-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-parts-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-parts-api-openapi.yml
 - filename: digi-key-pcn-api-openapi.yml
   format: yaml
   label: Digi-Key Pcn API
   slug: digi-key-pcn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-pcn-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-pcn-api-openapi.yml
 - filename: digi-key-quotes-api-openapi.yml
   format: yaml
   label: Digi-Key Quotes API
   slug: digi-key-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-quotes-api-openapi.yml
 - filename: digi-key-product-search-api-openapi.yml
   format: yaml
   label: Digi-Key Product Search API
   slug: digi-key-product-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/openapi/digi-key-product-search-api-openapi.yml
+  url: https://artifacts.apis.io/digi-key/openapi/digi-key-product-search-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 46
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/digi-k
   \    max-ttl: 3600\n    audit: none\n- path: /quotes\n  method: post\n  operationId: CreateQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes\n  method: get\n  operationId: AllQuotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quotes/{quoteId}/details\n  method: post\n  operationId: AddProductsToQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes/{quoteId}/details\n  method: get\n  operationId:\
   \ ProductsFromQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quotes/{quoteId}\n  method: get\n  operationId: GetQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /BondedQuantity/Locations\n  method: get\n  operationId: GetLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /BondedQuantity/Products\n  method: get\n  operationId: GetAllProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /BondedQuantity/Locations/{accountId}\n  method: get\n  operationId: GetOneLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /BondedQuantity/Locations/{accountId}/Products\n  method: get\n  operationId: GetLocationProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /BondedQuantity/Locations/{accountId}/Products/{partNumber}\n  method: get\n  operationId: GetProductByPartNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/agentic-access/digi-key-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/digi-key/agentic-access/digi-key-agentic-access.yml
 summary_line: 58 operations · 12 acting
 tags:
 - Shopping

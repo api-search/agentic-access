@@ -9,25 +9,25 @@ api_specs:
   label: Element5 Authorization API
   slug: element5-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-authorization-api-openapi.yml
 - filename: element5-eligibility-api-openapi.yml
   format: yaml
   label: Element5 Eligibility API
   slug: element5-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-eligibility-api-openapi.yml
 - filename: element5-object-store-api-openapi.yml
   format: yaml
   label: Element5 Object Store API
   slug: element5-object-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-object-store-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-object-store-api-openapi.yml
 - filename: element5-automation-api-openapi.yml
   format: yaml
   label: Element5 Automation API
   slug: element5-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-automation-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-automation-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/elemen
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wf/v2/workflows/submit-authorization\n  method: post\n  operationId: submitAuthorizationRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wf/v2/workflows/submit-authorization/{task-id}\n  method: get\n  operationId: getSubmitAuthorizationRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wf/v2/workflows/submit-eligibility\n  method: post\n  operationId: submitEligibilityRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wf/v2/workflows/submit-eligibility/{task-id}\n  method: get\n  operationId: getSubmitEligibilityRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wf/v2/workflows/process-x12-eligibility-transaction\n  method: post\n  operationId: processX12EligibilityTransactionRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wf/v2/workflows/process-x12-eligibility-transaction/{task-id}\n  method: get\n  operationId: getProcessX12EligibilityTransactionRequestStatus\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/agentic-access/element5-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/element5/agentic-access/element5-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Company

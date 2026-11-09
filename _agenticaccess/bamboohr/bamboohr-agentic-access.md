@@ -15,37 +15,37 @@ api_specs:
   label: BambooHR Directory API
   slug: bamboohr-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-directory-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-directory-api-openapi.yml
 - filename: bamboohr-employees-api-openapi.yml
   format: yaml
   label: BambooHR Employees API
   slug: bamboohr-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-employees-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-employees-api-openapi.yml
 - filename: bamboohr-files-api-openapi.yml
   format: yaml
   label: BambooHR Files API
   slug: bamboohr-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-files-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-files-api-openapi.yml
 - filename: bamboohr-meta-api-openapi.yml
   format: yaml
   label: BambooHR Meta API
   slug: bamboohr-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-meta-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-meta-api-openapi.yml
 - filename: bamboohr-reports-api-openapi.yml
   format: yaml
   label: BambooHR Reports API
   slug: bamboohr-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-reports-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-reports-api-openapi.yml
 - filename: bamboohr-time-off-api-openapi.yml
   format: yaml
   label: BambooHR Time Off API
   slug: bamboohr-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-time-off-api-openapi.yml
 consequence_counts:
   read: 9
   write: 5
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bamboo
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employees/{id}/files/view\n  method: get\n  operationId: listEmployeeFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees/{employeeId}/files/{fileId}\n  method: get\n  operationId: getEmployeeFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{reportId}\n  method: get\n  operationId: runReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/custom\n  method: post\n  operationId:\
   \ runCustomReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time_off/requests\n  method: get\n  operationId: listTimeOffRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees/{id}/time_off/request\n  method: put\n  operationId: addTimeOffRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meta/fields\n  method: get\n  operationId: listFields\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meta/tables\n  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/agentic-access/bamboohr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bamboohr/agentic-access/bamboohr-agentic-access.yml
 summary_line: 14 operations · 5 acting
 tags:
 - Human Resources

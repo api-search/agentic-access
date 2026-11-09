@@ -9,25 +9,25 @@ api_specs:
   label: Fake Store API Auth API
   slug: fake-store-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/fake-store-api/openapi/fake-store-api-auth-api-openapi.yml
 - filename: fake-store-api-carts-api-openapi.yml
   format: yaml
   label: Fake Store API Carts API
   slug: fake-store-api-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-carts-api-openapi.yml
+  url: https://artifacts.apis.io/fake-store-api/openapi/fake-store-api-carts-api-openapi.yml
 - filename: fake-store-api-products-api-openapi.yml
   format: yaml
   label: Fake Store API Products API
   slug: fake-store-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/fake-store-api/openapi/fake-store-api-products-api-openapi.yml
 - filename: fake-store-api-users-api-openapi.yml
   format: yaml
   label: Fake Store API Users API
   slug: fake-store-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/openapi/fake-store-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/fake-store-api/openapi/fake-store-api-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 13
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fake-s
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carts/{id}\n  method: delete\n  operationId: deleteCart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carts/user/{userId}\n  method: get\n  operationId: listCartsByUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method:\
   \ post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: put\n  operationId: replaceUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/agentic-access/fake-store-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fake-store-api/agentic-access/fake-store-api-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
 - Customers

@@ -9,109 +9,109 @@ api_specs:
   label: Envoy Proxy Certificates API
   slug: envoy-proxy-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-certificates-api-openapi.yml
 - filename: envoy-proxy-cluster-discovery-api-openapi.yml
   format: yaml
   label: Envoy Proxy Cluster Discovery API
   slug: envoy-proxy-cluster-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-cluster-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-cluster-discovery-api-openapi.yml
 - filename: envoy-proxy-clusters-api-openapi.yml
   format: yaml
   label: Envoy Proxy Clusters API
   slug: envoy-proxy-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-clusters-api-openapi.yml
 - filename: envoy-proxy-configuration-api-openapi.yml
   format: yaml
   label: Envoy Proxy Configuration API
   slug: envoy-proxy-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-configuration-api-openapi.yml
 - filename: envoy-proxy-debugging-api-openapi.yml
   format: yaml
   label: Envoy Proxy Debugging API
   slug: envoy-proxy-debugging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-debugging-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-debugging-api-openapi.yml
 - filename: envoy-proxy-endpoint-discovery-api-openapi.yml
   format: yaml
   label: Envoy Proxy Endpoint Discovery API
   slug: envoy-proxy-endpoint-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-endpoint-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-endpoint-discovery-api-openapi.yml
 - filename: envoy-proxy-general-api-openapi.yml
   format: yaml
   label: Envoy Proxy General API
   slug: envoy-proxy-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-general-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-general-api-openapi.yml
 - filename: envoy-proxy-health-api-openapi.yml
   format: yaml
   label: Envoy Proxy Health API
   slug: envoy-proxy-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-health-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-health-api-openapi.yml
 - filename: envoy-proxy-listener-discovery-api-openapi.yml
   format: yaml
   label: Envoy Proxy Listener Discovery API
   slug: envoy-proxy-listener-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-listener-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-listener-discovery-api-openapi.yml
 - filename: envoy-proxy-listeners-api-openapi.yml
   format: yaml
   label: Envoy Proxy Listeners API
   slug: envoy-proxy-listeners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-listeners-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-listeners-api-openapi.yml
 - filename: envoy-proxy-logging-api-openapi.yml
   format: yaml
   label: Envoy Proxy Logging API
   slug: envoy-proxy-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-logging-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-logging-api-openapi.yml
 - filename: envoy-proxy-profiling-api-openapi.yml
   format: yaml
   label: Envoy Proxy Profiling API
   slug: envoy-proxy-profiling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-profiling-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-profiling-api-openapi.yml
 - filename: envoy-proxy-route-discovery-api-openapi.yml
   format: yaml
   label: Envoy Proxy Route Discovery API
   slug: envoy-proxy-route-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-route-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-route-discovery-api-openapi.yml
 - filename: envoy-proxy-runtime-api-openapi.yml
   format: yaml
   label: Envoy Proxy Runtime API
   slug: envoy-proxy-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-runtime-api-openapi.yml
 - filename: envoy-proxy-runtime-discovery-api-openapi.yml
   format: yaml
   label: Envoy Proxy Runtime Discovery API
   slug: envoy-proxy-runtime-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-runtime-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-runtime-discovery-api-openapi.yml
 - filename: envoy-proxy-secret-discovery-api-openapi.yml
   format: yaml
   label: Envoy Proxy Secret Discovery API
   slug: envoy-proxy-secret-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-secret-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-secret-discovery-api-openapi.yml
 - filename: envoy-proxy-server-api-openapi.yml
   format: yaml
   label: Envoy Proxy Server API
   slug: envoy-proxy-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-server-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-server-api-openapi.yml
 - filename: envoy-proxy-statistics-api-openapi.yml
   format: yaml
   label: Envoy Proxy Statistics API
   slug: envoy-proxy-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/openapi/envoy-proxy-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/envoy-proxy/openapi/envoy-proxy-statistics-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 4
@@ -171,7 +171,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/envoy-
   \      human-in-the-loop: required\n    audit: required\n- path: /tap\n  method: post\n  operationId: postTap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contention\n  method: get\n  operationId: getContention\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/discovery:clusters\n  method: post\n  operationId: discoverClusters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/discovery:listeners\n  method:\
   \ post\n  operationId: discoverListeners\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/discovery:routes\n  method: post\n  operationId: discoverRoutes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/discovery:endpoints\n  method: post\n  operationId: discoverEndpoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /v3/discovery:secrets\n  method: post\n  operationId: discoverSecrets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/discovery:runtime\n  method: post\n  operationId: discoverRuntime\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/agentic-access/envoy-proxy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/envoy-proxy/agentic-access/envoy-proxy-agentic-access.yml
 summary_line: 32 operations · 16 acting · 4 human-in-the-loop
 tags:
 - Gateways

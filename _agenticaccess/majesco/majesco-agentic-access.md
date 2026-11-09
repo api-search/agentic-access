@@ -9,25 +9,25 @@ api_specs:
   label: majesco Billing API
   slug: majesco-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-billing-api-openapi.yml
+  url: https://artifacts.apis.io/majesco/openapi/majesco-billing-api-openapi.yml
 - filename: majesco-claims-api-openapi.yml
   format: yaml
   label: majesco Claims API
   slug: majesco-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-claims-api-openapi.yml
+  url: https://artifacts.apis.io/majesco/openapi/majesco-claims-api-openapi.yml
 - filename: majesco-distribution-api-openapi.yml
   format: yaml
   label: majesco Distribution API
   slug: majesco-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/majesco/openapi/majesco-distribution-api-openapi.yml
 - filename: majesco-policies-api-openapi.yml
   format: yaml
   label: majesco Policies API
   slug: majesco-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-policies-api-openapi.yml
+  url: https://artifacts.apis.io/majesco/openapi/majesco-policies-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/majesc
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /policies/{policyNumber}/renew\n  method: post\n  operationId: renewPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /claims\n  method: get\n  operationId: listClaims\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /claims\n  method: post\n  operationId: createClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /claims/{claimNumber}\n  method: get\n  operationId: getClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /billing/accounts\n  method: get\n  operationId: listBillingAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /billing/accounts/{accountId}/payments\n  method: post\n  operationId: recordPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/agentic-access/majesco-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/majesco/agentic-access/majesco-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Insurance

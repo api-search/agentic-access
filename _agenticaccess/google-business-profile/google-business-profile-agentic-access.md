@@ -9,7 +9,7 @@ api_specs:
   label: Google Business Profile Accounts API
   slug: google-business-profile-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/openapi/google-business-profile-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-business-profile/openapi/google-business-profile-accounts-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/locations/{locationId}\n  method: delete\n  operationId: deleteLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/locations/{locationId}/reviews\n  method: get\n  operationId: listReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/locations/{locationId}/reviews/{reviewId}/reply\n  method: put\n  operationId: replyToReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/locations/{locationId}/media\n  method: get\n  operationId: listMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/locations/{locationId}/localPosts\n  method: get\n  operationId: listLocalPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/locations/{locationId}/localPosts\n  method: post\n  operationId: createLocalPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/agentic-access/google-business-profile-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-business-profile/agentic-access/google-business-profile-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Business Profiles

@@ -9,25 +9,25 @@ api_specs:
   label: Flexa Assets API
   slug: flexa-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/openapi/flexa-assets-api-openapi.yml
+  url: https://artifacts.apis.io/flexa/openapi/flexa-assets-api-openapi.yml
 - filename: flexa-commerce-intents-api-openapi.yml
   format: yaml
   label: Flexa Commerce Intents API
   slug: flexa-commerce-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/openapi/flexa-commerce-intents-api-openapi.yml
+  url: https://artifacts.apis.io/flexa/openapi/flexa-commerce-intents-api-openapi.yml
 - filename: flexa-events-api-openapi.yml
   format: yaml
   label: Flexa Events API
   slug: flexa-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/openapi/flexa-events-api-openapi.yml
+  url: https://artifacts.apis.io/flexa/openapi/flexa-events-api-openapi.yml
 - filename: flexa-refunds-api-openapi.yml
   format: yaml
   label: Flexa Refunds API
   slug: flexa-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/openapi/flexa-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/flexa/openapi/flexa-refunds-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/flexa-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 5\n    acting: 3\n  by_consequence:\n    read: 5\n    write: 2\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /assets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce_intents\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commerce_intents/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce_intents/{id}/cancel\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refunds\n  method: post\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refunds/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/agentic-access/flexa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flexa/agentic-access/flexa-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Company

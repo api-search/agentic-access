@@ -9,43 +9,43 @@ api_specs:
   label: Hypto Banking API
   slug: hypto-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypto/refs/heads/main/openapi/hypto-banking-api-openapi.yml
+  url: https://artifacts.apis.io/hypto/openapi/hypto-banking-api-openapi.yml
 - filename: hypto-generate-qr-api-openapi.yml
   format: yaml
   label: Hypto Generate QR API
   slug: hypto-generate-qr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypto/refs/heads/main/openapi/hypto-generate-qr-api-openapi.yml
+  url: https://artifacts.apis.io/hypto/openapi/hypto-generate-qr-api-openapi.yml
 - filename: hypto-payments-api-openapi.yml
   format: yaml
   label: Hypto Payments API
   slug: hypto-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypto/refs/heads/main/openapi/hypto-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hypto/openapi/hypto-payments-api-openapi.yml
 - filename: hypto-status-api-openapi.yml
   format: yaml
   label: Hypto Status API
   slug: hypto-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypto/refs/heads/main/openapi/hypto-status-api-openapi.yml
+  url: https://artifacts.apis.io/hypto/openapi/hypto-status-api-openapi.yml
 - filename: hypto-upi-api-openapi.yml
   format: yaml
   label: Hypto UPI API
   slug: hypto-upi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypto/refs/heads/main/openapi/hypto-upi-api-openapi.yml
+  url: https://artifacts.apis.io/hypto/openapi/hypto-upi-api-openapi.yml
 - filename: hypto-upi-collections-api-openapi.yml
   format: yaml
   label: Hypto UPI Collections API
   slug: hypto-upi-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypto/refs/heads/main/openapi/hypto-upi-collections-api-openapi.yml
+  url: https://artifacts.apis.io/hypto/openapi/hypto-upi-collections-api-openapi.yml
 - filename: hypto-webhooks-api-openapi.yml
   format: yaml
   label: Hypto Webhooks API
   slug: hypto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypto/refs/heads/main/openapi/hypto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hypto/openapi/hypto-webhooks-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 34
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/hypto-
   \ 3600\n    audit: none\n- path: /api/upi_collections/search\n  method: get\n  operationId: search_upi_collect\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/upi_collections/invalid_credits\n  method: get\n  operationId: upi_collections_invalid_credits_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/upi_collections/invalid_credits/{id}\n  method: get\n  operationId: upi_collections_invalid_credits_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/upi_collections/invalid_credits/{id}/refund_action\n  method: post\n  operationId: upi_collections_invalid_credits_refund_action\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/upi_collections/invalid_credits/{id}/refunds\n  method: get\n  operationId: upi_collections_invalid_credits_refunds_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/upi_collections/invalid_credits/{id}/refund_status\n  method: get\n  operationId: upi_collections_invalid_credits_refund_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/upi_collections/refund/{order_id}\n  method: post\n  operationId: create_upi_collection_refund\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypto/refs/heads/main/agentic-access/hypto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hypto/agentic-access/hypto-agentic-access.yml
 summary_line: 65 operations · 31 acting
 tags:
 - Company

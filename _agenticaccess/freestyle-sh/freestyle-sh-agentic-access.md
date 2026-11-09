@@ -9,121 +9,121 @@ api_specs:
   label: Freestyle Auth API
   slug: freestyle-sh-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-auth-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-auth-api-openapi.yml
 - filename: freestyle-sh-certs-api-openapi.yml
   format: yaml
   label: Freestyle Certs API
   slug: freestyle-sh-certs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-certs-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-certs-api-openapi.yml
 - filename: freestyle-sh-cron-api-openapi.yml
   format: yaml
   label: Freestyle Cron API
   slug: freestyle-sh-cron-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-cron-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-cron-api-openapi.yml
 - filename: freestyle-sh-dns-api-openapi.yml
   format: yaml
   label: Freestyle DNS API
   slug: freestyle-sh-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-dns-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-dns-api-openapi.yml
 - filename: freestyle-sh-domains-api-openapi.yml
   format: yaml
   label: Freestyle Domains API
   slug: freestyle-sh-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-domains-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-domains-api-openapi.yml
 - filename: freestyle-sh-execute-api-openapi.yml
   format: yaml
   label: Freestyle Execute API
   slug: freestyle-sh-execute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-execute-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-execute-api-openapi.yml
 - filename: freestyle-sh-git-api-openapi.yml
   format: yaml
   label: Freestyle Git API
   slug: freestyle-sh-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-git-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-git-api-openapi.yml
 - filename: freestyle-sh-identity-api-openapi.yml
   format: yaml
   label: Freestyle Identity API
   slug: freestyle-sh-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-identity-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-identity-api-openapi.yml
 - filename: freestyle-sh-observability-api-openapi.yml
   format: yaml
   label: Freestyle Observability API
   slug: freestyle-sh-observability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-observability-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-observability-api-openapi.yml
 - filename: freestyle-sh-web-api-openapi.yml
   format: yaml
   label: Freestyle Web API
   slug: freestyle-sh-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-web-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-web-api-openapi.yml
 - filename: freestyle-sh-background-requests-api-openapi.yml
   format: yaml
   label: Freestyle Background requests API
   slug: freestyle-sh-background-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-background-requests-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-background-requests-api-openapi.yml
 - filename: freestyle-sh-filesystem-api-openapi.yml
   format: yaml
   label: Freestyle Filesystem API
   slug: freestyle-sh-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-filesystem-api-openapi.yml
 - filename: freestyle-sh-firewall-api-openapi.yml
   format: yaml
   label: Freestyle Firewall API
   slug: freestyle-sh-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-firewall-api-openapi.yml
 - filename: freestyle-sh-hardware-api-openapi.yml
   format: yaml
   label: Freestyle Hardware API
   slug: freestyle-sh-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-hardware-api-openapi.yml
 - filename: freestyle-sh-identities-api-openapi.yml
   format: yaml
   label: Freestyle Identities API
   slug: freestyle-sh-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-identities-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-identities-api-openapi.yml
 - filename: freestyle-sh-snapshots-api-openapi.yml
   format: yaml
   label: Freestyle Snapshots API
   slug: freestyle-sh-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-snapshots-api-openapi.yml
 - filename: freestyle-sh-tls-api-openapi.yml
   format: yaml
   label: Freestyle TLS API
   slug: freestyle-sh-tls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-tls-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-tls-api-openapi.yml
 - filename: freestyle-sh-tunnels-api-openapi.yml
   format: yaml
   label: Freestyle Tunnels API
   slug: freestyle-sh-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-tunnels-api-openapi.yml
 - filename: freestyle-sh-vms-api-openapi.yml
   format: yaml
   label: Freestyle VMs API
   slug: freestyle-sh-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-vms-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-vms-api-openapi.yml
 - filename: freestyle-sh-vpcs-api-openapi.yml
   format: yaml
   label: Freestyle VPCs API
   slug: freestyle-sh-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/freestyle-sh/openapi/freestyle-sh-vpcs-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 67
@@ -247,8 +247,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/freest
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vms/{vm_id}/files/{filepath}\n  method: get\n  operationId: get_file\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vms/{vm_id}/files/{filepath}\n  method: put\n  operationId: put_file\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vms/{vm_id}/fork\n  method: post\n  operationId: fork_vm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vms/{vm_id}/kill\n  method: post\n  operationId: kill_vm\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/vms/{vm_id}/optimize\n  method: post\n  operationId: optimize_vm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vms/{vm_id}/snapshot\n  method: post\n  operationId: snapshot_vm\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vms/{vm_id}/start\n  method: post\n  operationId: start_vm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vms/{vm_id}/stats/stream\n  method: get\n  operationId: stats_stream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vms/{vm_id}/stop\n  method: post\n  operationId: stop_vm\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/vms/{vm_id}/suspend\n  method: post\n  operationId: suspend_vm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vms/{vm_id}/systemd/restart\n  method: post\n  operationId: batch_restart_services\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/agentic-access/freestyle-sh-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/agentic-access/freestyle-sh-agentic-access.yml
+  \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/vms/{vm_id}/suspend\n  method: post\n  operationId: suspend_vm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vms/{vm_id}/systemd/restart\n  method: post\n  operationId: batch_restart_services\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://artifacts.apis.io/freestyle-sh/agentic-access/freestyle-sh-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/freestyle-sh/agentic-access/freestyle-sh-agentic-access.yml
 summary_line: 129 operations · 62 acting · 6 human-in-the-loop
 tags:
 - Artificial Intelligence

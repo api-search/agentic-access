@@ -9,61 +9,61 @@ api_specs:
   label: Confident LIMS Client Info API
   slug: confident-lims-client-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-client-info-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-client-info-api-openapi.yml
 - filename: confident-lims-clients-api-openapi.yml
   format: yaml
   label: Confident LIMS Clients API
   slug: confident-lims-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-clients-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-clients-api-openapi.yml
 - filename: confident-lims-lab-info-api-openapi.yml
   format: yaml
   label: Confident LIMS Lab Info API
   slug: confident-lims-lab-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-lab-info-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-lab-info-api-openapi.yml
 - filename: confident-lims-labs-api-openapi.yml
   format: yaml
   label: Confident LIMS Labs API
   slug: confident-lims-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-labs-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-labs-api-openapi.yml
 - filename: confident-lims-order-status-api-openapi.yml
   format: yaml
   label: Confident LIMS Order Status API
   slug: confident-lims-order-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-order-status-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-order-status-api-openapi.yml
 - filename: confident-lims-orders-api-openapi.yml
   format: yaml
   label: Confident LIMS Orders API
   slug: confident-lims-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-orders-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-orders-api-openapi.yml
 - filename: confident-lims-reference-data-api-openapi.yml
   format: yaml
   label: Confident LIMS Reference Data API
   slug: confident-lims-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-reference-data-api-openapi.yml
 - filename: confident-lims-sample-files-api-openapi.yml
   format: yaml
   label: Confident LIMS Sample Files API
   slug: confident-lims-sample-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-sample-files-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-sample-files-api-openapi.yml
 - filename: confident-lims-samples-api-openapi.yml
   format: yaml
   label: Confident LIMS Samples API
   slug: confident-lims-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-samples-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-samples-api-openapi.yml
 - filename: confident-lims-test-results-api-openapi.yml
   format: yaml
   label: Confident LIMS Test Results API
   slug: confident-lims-test-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/openapi/confident-lims-test-results-api-openapi.yml
+  url: https://artifacts.apis.io/confident-lims/openapi/confident-lims-test-results-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 28
@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/confid
   \  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/labs/order/{order_id}/status/uncancel\n  method: post\n  operationId: uncancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/labs/testpackages\n  method: get\n  operationId: getTestPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v0/labs/testtypes\n  method: get\n  operationId: getLabTestTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/labs/compounds\n  method: get\n  operationId: getLabCompounds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/labs/clients\n  method: get\n  operationId: getClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/labs/clients\n  method: post\n  operationId: createClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v0/labs/client/{client_id}\n  method: get\n  operationId: getClientDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/labs/client/{client_id}/invite\n  method: post\n  operationId: inviteUserToClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/agentic-access/confident-lims-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/confident-lims/agentic-access/confident-lims-agentic-access.yml
 summary_line: 45 operations · 17 acting
 tags:
 - Company

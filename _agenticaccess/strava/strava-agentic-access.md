@@ -9,49 +9,49 @@ api_specs:
   label: Strava Activities API
   slug: strava-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-activities-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-activities-api-openapi.yml
 - filename: strava-athletes-api-openapi.yml
   format: yaml
   label: Strava Athletes API
   slug: strava-athletes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-athletes-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-athletes-api-openapi.yml
 - filename: strava-clubs-api-openapi.yml
   format: yaml
   label: Strava Clubs API
   slug: strava-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-clubs-api-openapi.yml
 - filename: strava-gear-api-openapi.yml
   format: yaml
   label: Strava Gear API
   slug: strava-gear-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-gear-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-gear-api-openapi.yml
 - filename: strava-routes-api-openapi.yml
   format: yaml
   label: Strava Routes API
   slug: strava-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-routes-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-routes-api-openapi.yml
 - filename: strava-segment-efforts-api-openapi.yml
   format: yaml
   label: Strava Segment Efforts API
   slug: strava-segment-efforts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-segment-efforts-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-segment-efforts-api-openapi.yml
 - filename: strava-segments-api-openapi.yml
   format: yaml
   label: Strava Segments API
   slug: strava-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-segments-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-segments-api-openapi.yml
 - filename: strava-streams-api-openapi.yml
   format: yaml
   label: Strava Streams API
   slug: strava-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-streams-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-streams-api-openapi.yml
 consequence_counts:
   read: 19
   write: 3
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/strava
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/{id}/kudos\n  method: get\n  operationId: getKudoersByActivityId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/{id}/streams\n  method: get\n  operationId: getActivityStreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /segments/{id}\n  method: get\n  operationId: getSegmentById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /segments/starred\n  method: get\n  operationId: getLoggedInAthleteStarredSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /segments/{id}/leaderboard\n  method: get\n  operationId: getLeaderboardBySegmentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /segment_efforts/{id}\n  method: get\n  operationId: getSegmentEffortById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /athlete/routes\n  method: get\n  operationId: getRoutesByAthleteId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routes/{id}\n  method: get\n  operationId: getRouteById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clubs/{id}\n  method: get\n\
   \  operationId: getClubById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clubs/{id}/activities\n  method: get\n  operationId: getClubActivitiesById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /athlete/clubs\n  method: get\n  operationId: getLoggedInAthleteClubs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gear/{id}\n  method: get\n  operationId: getGearById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/agentic-access/strava-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/strava/agentic-access/strava-agentic-access.yml
 summary_line: 22 operations · 3 acting
 tags:
 - Cycling

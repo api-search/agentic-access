@@ -9,43 +9,43 @@ api_specs:
   label: Kgateway AIBackend API
   slug: kgateway-aibackend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-aibackend-api-openapi.yml
+  url: https://artifacts.apis.io/kgateway/openapi/kgateway-aibackend-api-openapi.yml
 - filename: kgateway-backend-api-openapi.yml
   format: yaml
   label: Kgateway Backend API
   slug: kgateway-backend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-backend-api-openapi.yml
+  url: https://artifacts.apis.io/kgateway/openapi/kgateway-backend-api-openapi.yml
 - filename: kgateway-directresponse-api-openapi.yml
   format: yaml
   label: Kgateway DirectResponse API
   slug: kgateway-directresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-directresponse-api-openapi.yml
+  url: https://artifacts.apis.io/kgateway/openapi/kgateway-directresponse-api-openapi.yml
 - filename: kgateway-gatewayextension-api-openapi.yml
   format: yaml
   label: Kgateway GatewayExtension API
   slug: kgateway-gatewayextension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-gatewayextension-api-openapi.yml
+  url: https://artifacts.apis.io/kgateway/openapi/kgateway-gatewayextension-api-openapi.yml
 - filename: kgateway-gatewayparameters-api-openapi.yml
   format: yaml
   label: Kgateway GatewayParameters API
   slug: kgateway-gatewayparameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-gatewayparameters-api-openapi.yml
+  url: https://artifacts.apis.io/kgateway/openapi/kgateway-gatewayparameters-api-openapi.yml
 - filename: kgateway-httplistenerpolicy-api-openapi.yml
   format: yaml
   label: Kgateway HTTPListenerPolicy API
   slug: kgateway-httplistenerpolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-httplistenerpolicy-api-openapi.yml
+  url: https://artifacts.apis.io/kgateway/openapi/kgateway-httplistenerpolicy-api-openapi.yml
 - filename: kgateway-trafficpolicy-api-openapi.yml
   format: yaml
   label: Kgateway TrafficPolicy API
   slug: kgateway-trafficpolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/openapi/kgateway-trafficpolicy-api-openapi.yml
+  url: https://artifacts.apis.io/kgateway/openapi/kgateway-trafficpolicy-api-openapi.yml
 consequence_counts:
   read: 14
   write: 21
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kgatew
   \  method: post\n  operationId: createHTTPListenerPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/httplistenerpolicies/{name}\n  method: get\n  operationId: getHTTPListenerPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/httplistenerpolicies/{name}\n  method: put\n  operationId: replaceHTTPListenerPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/httplistenerpolicies/{name}\n\
   \  method: delete\n  operationId: deleteHTTPListenerPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/aibackends\n  method: get\n  operationId: listAIBackends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/aibackends\n  method: post\n  operationId: createAIBackend\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/aibackends/{name}\n  method:\
   \ get\n  operationId: getAIBackend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/aibackends/{name}\n  method: put\n  operationId: replaceAIBackend\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/aibackends/{name}\n  method: delete\n  operationId: deleteAIBackend\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/agentic-access/kgateway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kgateway/agentic-access/kgateway-agentic-access.yml
 summary_line: 35 operations · 21 acting
 tags:
 - Gateways

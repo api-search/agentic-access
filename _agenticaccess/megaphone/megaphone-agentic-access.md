@@ -9,43 +9,43 @@ api_specs:
   label: Megaphone Campaigns API
   slug: megaphone-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/openapi/megaphone-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/megaphone/openapi/megaphone-campaigns-api-openapi.yml
 - filename: megaphone-direct-sales-v2-api-openapi.yml
   format: yaml
   label: Megaphone Direct Sales v2 API
   slug: megaphone-direct-sales-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/openapi/megaphone-direct-sales-v2-api-openapi.yml
+  url: https://artifacts.apis.io/megaphone/openapi/megaphone-direct-sales-v2-api-openapi.yml
 - filename: megaphone-episodes-api-openapi.yml
   format: yaml
   label: Megaphone Episodes API
   slug: megaphone-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/openapi/megaphone-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/megaphone/openapi/megaphone-episodes-api-openapi.yml
 - filename: megaphone-exports-api-openapi.yml
   format: yaml
   label: Megaphone Exports API
   slug: megaphone-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/openapi/megaphone-exports-api-openapi.yml
+  url: https://artifacts.apis.io/megaphone/openapi/megaphone-exports-api-openapi.yml
 - filename: megaphone-networks-api-openapi.yml
   format: yaml
   label: Megaphone Networks API
   slug: megaphone-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/openapi/megaphone-networks-api-openapi.yml
+  url: https://artifacts.apis.io/megaphone/openapi/megaphone-networks-api-openapi.yml
 - filename: megaphone-orders-api-openapi.yml
   format: yaml
   label: Megaphone Orders API
   slug: megaphone-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/openapi/megaphone-orders-api-openapi.yml
+  url: https://artifacts.apis.io/megaphone/openapi/megaphone-orders-api-openapi.yml
 - filename: megaphone-podcasts-api-openapi.yml
   format: yaml
   label: Megaphone Podcasts API
   slug: megaphone-podcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/openapi/megaphone-podcasts-api-openapi.yml
+  url: https://artifacts.apis.io/megaphone/openapi/megaphone-podcasts-api-openapi.yml
 consequence_counts:
   read: 15
   write: 7
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/megaph
   \  method: get\n  operationId: listCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/campaigns/{campaign_id}/orders\n  method: get\n  operationId: listCampaignOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_id}/advertisements\n  method: get\n  operationId: listOrderAdvertisements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/advertisers\n  method: get\n  operationId: listAdvertisersV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/advertisers\n  method: post\n  operationId: createAdvertiserV2\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/campaigns\n  method: get\n  operationId: listCampaignsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/orders\n  method: get\n  operationId: listOrdersV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assets\n  method: get\n  operationId: listAssetsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/targeting\n  method: get\n  operationId: getTargetingOptionsV2\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics_export\n  method: get\n  operationId: exportMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /impressions_export\n  method: get\n  operationId: exportImpressions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/agentic-access/megaphone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/megaphone/agentic-access/megaphone-agentic-access.yml
 summary_line: 22 operations · 7 acting
 tags:
 - Podcasts

@@ -9,55 +9,61 @@ api_specs:
   label: SwaggerHub Domains API
   slug: swaggerhub-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-domains-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-domains-api-openapi.yml
 - filename: swaggerhub-integrations-api-openapi.yml
   format: yaml
   label: SwaggerHub Integrations API
   slug: swaggerhub-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-integrations-api-openapi.yml
 - filename: swaggerhub-organizations-api-openapi.yml
   format: yaml
   label: SwaggerHub Organizations API
   slug: swaggerhub-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-organizations-api-openapi.yml
 - filename: swaggerhub-projects-api-openapi.yml
   format: yaml
   label: SwaggerHub Projects API
   slug: swaggerhub-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-projects-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-projects-api-openapi.yml
 - filename: swaggerhub-search-api-openapi.yml
   format: yaml
   label: SwaggerHub Search API
   slug: swaggerhub-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-search-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-search-api-openapi.yml
 - filename: swaggerhub-settings-api-openapi.yml
   format: yaml
   label: SwaggerHub Settings API
   slug: swaggerhub-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-settings-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-settings-api-openapi.yml
 - filename: swaggerhub-standardization-api-openapi.yml
   format: yaml
   label: SwaggerHub Standardization API
   slug: swaggerhub-standardization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-standardization-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-standardization-api-openapi.yml
 - filename: swaggerhub-teams-api-openapi.yml
   format: yaml
   label: SwaggerHub Teams API
   slug: swaggerhub-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-teams-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-teams-api-openapi.yml
 - filename: swaggerhub-apis-api-openapi.yml
   format: yaml
   label: SwaggerHub APIs API
   slug: swaggerhub-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-apis-api-openapi.yml
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-apis-api-openapi.yml
+- filename: swaggerhub-templates-api-openapi.yml
+  format: yaml
+  label: SwaggerHub Templates API
+  slug: swaggerhub-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swaggerhub/openapi/swaggerhub-templates-api-openapi.yml
 consequence_counts:
   read: 16
   write: 22
@@ -96,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/swagge
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/members/{user}\n  method: delete\n  operationId: removeOrganizationMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/members/{user}\n  method: put\n  operationId: updateOrganizationMemberRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/teams\n  method: get\n  operationId: getOrganizationTeams\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/teams\n  method: post\n  operationId: createTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/teams/{team}/members\n  method: get\n  operationId: getTeamMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/teams/{team}/members\n  method: post\n  operationId: addTeamMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/teams/{team}/members/{user}\n  method: delete\n  operationId: removeTeamMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/agentic-access/swaggerhub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/swaggerhub/agentic-access/swaggerhub-agentic-access.yml
 summary_line: 38 operations · 22 acting
 tags:
 - API Design

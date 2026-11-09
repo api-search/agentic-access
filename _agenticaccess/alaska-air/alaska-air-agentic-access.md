@@ -9,49 +9,49 @@ api_specs:
   label: Alaska Airlines Airports API
   slug: alaska-air-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-airports-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-airports-api-openapi.yml
 - filename: alaska-air-flight-status-api-openapi.yml
   format: yaml
   label: Alaska Airlines Flight Status API
   slug: alaska-air-flight-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-flight-status-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-flight-status-api-openapi.yml
 - filename: alaska-air-members-api-openapi.yml
   format: yaml
   label: Alaska Airlines Members API
   slug: alaska-air-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-members-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-members-api-openapi.yml
 - filename: alaska-air-partner-miles-api-openapi.yml
   format: yaml
   label: Alaska Airlines Partner Miles API
   slug: alaska-air-partner-miles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-partner-miles-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-partner-miles-api-openapi.yml
 - filename: alaska-air-rates-api-openapi.yml
   format: yaml
   label: Alaska Airlines Rates API
   slug: alaska-air-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-rates-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-rates-api-openapi.yml
 - filename: alaska-air-schedules-api-openapi.yml
   format: yaml
   label: Alaska Airlines Schedules API
   slug: alaska-air-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-schedules-api-openapi.yml
 - filename: alaska-air-shipments-api-openapi.yml
   format: yaml
   label: Alaska Airlines Shipments API
   slug: alaska-air-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-shipments-api-openapi.yml
 - filename: alaska-air-transactions-api-openapi.yml
   format: yaml
   label: Alaska Airlines Transactions API
   slug: alaska-air-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/alaska
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights/{flightNumber}/status\n  method: get\n  operationId: getFlightStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights\n  method: get\n  operationId: listFlights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members/{memberId}\n  method: get\n  operationId: getMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partners/miles\n  method: post\n  operationId: reportPartnerMiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rates\n  method: post\n  operationId: getRateEstimate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules\n  method: get\n  operationId: getSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments\n  method: post\n  operationId: createShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments\n  method: get\n  operationId: listShipments\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/{awbNumber}\n  method: get\n  operationId: getShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members/{memberId}/transactions\n  method: get\n  operationId: getMemberTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/agentic-access/alaska-air-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alaska-air/agentic-access/alaska-air-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Airlines

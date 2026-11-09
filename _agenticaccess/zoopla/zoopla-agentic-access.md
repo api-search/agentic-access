@@ -9,13 +9,13 @@ api_specs:
   label: Zoopla Products API
   slug: zoopla-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/openapi/zoopla-products-api-openapi.yml
+  url: https://artifacts.apis.io/zoopla/openapi/zoopla-products-api-openapi.yml
 - filename: zoopla-rest-endpoints-api-openapi.yml
   format: yaml
   label: Zoopla REST Endpoints API
   slug: zoopla-rest-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/openapi/zoopla-rest-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/zoopla/openapi/zoopla-rest-endpoints-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/zoopla
   \ read\n    subject: optional\n    scope:\n    - leads/list:appraisal-leads\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/premium-listings/{uuid}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api/api_access\n- path: /products/premium-listings/{uuid}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api/api_access\n- path: /products/premium-listings\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api/api_access\n- path: /products/premium-listings\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api/api_access\n- path: /products/weekly-featured-properties/{uuid}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api/api_access\n- path: /products/weekly-featured-properties\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api/api_access\n- path: /products/weekly-featured-properties\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api/api_access\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/agentic-access/zoopla-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zoopla/agentic-access/zoopla-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Real Estate

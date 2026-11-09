@@ -9,37 +9,37 @@ api_specs:
   label: Ally Invest Accounts API
   slug: ally-invest-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ally-invest/openapi/ally-invest-accounts-api-openapi.yml
 - filename: ally-invest-market-data-api-openapi.yml
   format: yaml
   label: Ally Invest Market Data API
   slug: ally-invest-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/ally-invest/openapi/ally-invest-market-data-api-openapi.yml
 - filename: ally-invest-member-api-openapi.yml
   format: yaml
   label: Ally Invest Member API
   slug: ally-invest-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-member-api-openapi.yml
+  url: https://artifacts.apis.io/ally-invest/openapi/ally-invest-member-api-openapi.yml
 - filename: ally-invest-orders-api-openapi.yml
   format: yaml
   label: Ally Invest Orders API
   slug: ally-invest-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ally-invest/openapi/ally-invest-orders-api-openapi.yml
 - filename: ally-invest-utilities-api-openapi.yml
   format: yaml
   label: Ally Invest Utilities API
   slug: ally-invest-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/ally-invest/openapi/ally-invest-utilities-api-openapi.yml
 - filename: ally-invest-watchlists-api-openapi.yml
   format: yaml
   label: Ally Invest Watchlists API
   slug: ally-invest-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/ally-invest-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/ally-invest/openapi/ally-invest-watchlists-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 21
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ally-i
   \ get\n  operationId: getOptionExpirations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/timesales.json\n  method: get\n  operationId: getTimeSales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member/profile.json\n  method: get\n  operationId: getMemberProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utility/status.json\n  method: get\n  operationId: getApiStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utility/version.json\n  method: get\n  operationId: getApiVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /watchlists.json\n  method: get\n  operationId: getWatchlists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /watchlists.json\n  method: post\n  operationId: createWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/{id}.json\n  method: get\n  operationId: getWatchlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /watchlists/{id}.json\n  method: delete\n  operationId: deleteWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/{id}/symbols.json\n  method: post\n  operationId: addWatchlistSymbols\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/{id}/symbols.json\n  method: delete\n  operationId: deleteWatchlistSymbols\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/agentic-access/ally-invest-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ally-invest/agentic-access/ally-invest-agentic-access.yml
 summary_line: 28 operations · 7 acting
 tags:
 - Brokerage

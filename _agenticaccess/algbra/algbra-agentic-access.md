@@ -9,79 +9,79 @@ api_specs:
   label: Algbra Accounts API
   slug: algbra-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-accounts-api-openapi.yml
 - filename: algbra-transactions-api-openapi.yml
   format: yaml
   label: Algbra Transactions API
   slug: algbra-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-transactions-api-openapi.yml
 - filename: algbra-automated-payments-api-openapi.yml
   format: yaml
   label: Algbra Automated Payments API
   slug: algbra-automated-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-automated-payments-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-automated-payments-api-openapi.yml
 - filename: algbra-cards-api-openapi.yml
   format: yaml
   label: Algbra Cards API
   slug: algbra-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-cards-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-cards-api-openapi.yml
 - filename: algbra-compliance-api-openapi.yml
   format: yaml
   label: Algbra Compliance API
   slug: algbra-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-compliance-api-openapi.yml
 - filename: algbra-customers-api-openapi.yml
   format: yaml
   label: Algbra Customers API
   slug: algbra-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-customers-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-customers-api-openapi.yml
 - filename: algbra-investments-api-openapi.yml
   format: yaml
   label: Algbra Investments API
   slug: algbra-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-investments-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-investments-api-openapi.yml
 - filename: algbra-onboarding-prospects-business-api-openapi.yml
   format: yaml
   label: Algbra Onboarding Prospects - Business API
   slug: algbra-onboarding-prospects-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-onboarding-prospects-business-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-onboarding-prospects-business-api-openapi.yml
 - filename: algbra-onboarding-prospects-personal-api-openapi.yml
   format: yaml
   label: Algbra Onboarding Prospects - Personal API
   slug: algbra-onboarding-prospects-personal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-onboarding-prospects-personal-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-onboarding-prospects-personal-api-openapi.yml
 - filename: algbra-partner-api-openapi.yml
   format: yaml
   label: Algbra Partner API
   slug: algbra-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-partner-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-partner-api-openapi.yml
 - filename: algbra-partners-api-openapi.yml
   format: yaml
   label: Algbra Partners API
   slug: algbra-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-partners-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-partners-api-openapi.yml
 - filename: algbra-payment-simulations-api-openapi.yml
   format: yaml
   label: Algbra Payment Simulations API
   slug: algbra-payment-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-payment-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-payment-simulations-api-openapi.yml
 - filename: algbra-payments-api-openapi.yml
   format: yaml
   label: Algbra Payments API
   slug: algbra-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-payments-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-payments-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2
@@ -110,7 +110,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/algbra-account-transaction-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 2\n    connected: 6\n  by_consequence:\n    write: 2\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /account-access-consents\n  method: post\n  operationId: CreateAccountAccessConsents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounts\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account-access-consents/{ConsentId}\n  method:\
   \ get\n  operationId: GetAccountAccessConsentsConsentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account-access-consents/{ConsentId}\n  method: delete\n  operationId: DeleteAccountAccessConsentsConsentId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounts\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts\n  method: get\n  operationId: GetAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{AccountId}\n  method: get\n  operationId: GetAccountsAccountId\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{AccountId}/balances\n  method: get\n  operationId: GetAccountsAccountIdBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{AccountId}/beneficiaries\n  method: get\n  operationId: GetAccountsAccountIdBeneficiaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{AccountId}/transactions\n  method: get\n  operationId: GetAccountsAccountIdTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/agentic-access/algbra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/algbra/agentic-access/algbra-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
 - Financial Services

@@ -9,31 +9,31 @@ api_specs:
   label: Scispot ELN API
   slug: scispot-eln-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-eln-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-eln-api-openapi.yml
 - filename: scispot-labsheets-api-openapi.yml
   format: yaml
   label: Scispot Labsheets API
   slug: scispot-labsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-labsheets-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-labsheets-api-openapi.yml
 - filename: scispot-manifests-api-openapi.yml
   format: yaml
   label: Scispot Manifests API
   slug: scispot-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-manifests-api-openapi.yml
 - filename: scispot-samples-api-openapi.yml
   format: yaml
   label: Scispot Samples API
   slug: scispot-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-samples-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-samples-api-openapi.yml
 - filename: scispot-sequences-api-openapi.yml
   format: yaml
   label: Scispot Sequences API
   slug: scispot-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/openapi/scispot-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/scispot/openapi/scispot-sequences-api-openapi.yml
 consequence_counts:
   read: 11
   write: 7
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scispo
   \ none\n- path: /eln/notebooks/{notebookId}/entries\n  method: get\n  operationId: listNotebookEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eln/notebooks/{notebookId}/entries\n  method: post\n  operationId: createNotebookEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /manifests\n  method: get\n  operationId: listManifests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manifests\n  method: post\n  operationId: createManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /manifests/{manifestId}\n  method: get\n  operationId: getManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences\n  method: get\n  operationId: listSequences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences\n  method: post\n  operationId: createSequence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sequences/{sequenceId}\n  method:\
   \ get\n  operationId: getSequence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences/{sequenceId}\n  method: put\n  operationId: updateSequence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/agentic-access/scispot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scispot/agentic-access/scispot-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - Laboratory

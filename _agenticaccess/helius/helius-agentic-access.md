@@ -9,85 +9,85 @@ api_specs:
   label: Helius Solana RPC
   slug: rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/asyncapi/helius-asyncapi.yml
+  url: https://artifacts.apis.io/helius/asyncapi/helius-asyncapi.yml
 - filename: helius-addresses-api-openapi.yml
   format: yaml
   label: Helius Addresses API
   slug: helius-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-addresses-api-openapi.yml
 - filename: helius-admin-api-openapi.yml
   format: yaml
   label: Helius Admin API
   slug: helius-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-admin-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-admin-api-openapi.yml
 - filename: helius-balances-api-openapi.yml
   format: yaml
   label: Helius Balances API
   slug: helius-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-balances-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-balances-api-openapi.yml
 - filename: helius-funding-api-openapi.yml
   format: yaml
   label: Helius Funding API
   slug: helius-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-funding-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-funding-api-openapi.yml
 - filename: helius-helius-api-catalog-api-openapi.yml
   format: yaml
   label: Helius API Catalog API
   slug: helius-helius-api-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-helius-api-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-helius-api-catalog-api-openapi.yml
 - filename: helius-history-api-openapi.yml
   format: yaml
   label: Helius History API
   slug: helius-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-history-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-history-api-openapi.yml
 - filename: helius-identity-api-openapi.yml
   format: yaml
   label: Helius Identity API
   slug: helius-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-identity-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-identity-api-openapi.yml
 - filename: helius-sender-api-openapi.yml
   format: yaml
   label: Helius Sender API
   slug: helius-sender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-sender-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-sender-api-openapi.yml
 - filename: helius-tokens-api-openapi.yml
   format: yaml
   label: Helius Tokens API
   slug: helius-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-tokens-api-openapi.yml
 - filename: helius-transactions-api-openapi.yml
   format: yaml
   label: Helius Transactions API
   slug: helius-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-transactions-api-openapi.yml
 - filename: helius-transfers-api-openapi.yml
   format: yaml
   label: Helius Transfers API
   slug: helius-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-transfers-api-openapi.yml
 - filename: helius-webhooks-api-openapi.yml
   format: yaml
   label: Helius Webhooks API
   slug: helius-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-webhooks-api-openapi.yml
 - filename: helius-nfts-api-openapi.yml
   format: yaml
   label: Helius NF Ts API
   slug: helius-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/openapi/helius-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/helius/openapi/helius-nfts-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/helius
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/raw-transactions\n  method: post\n  operationId: enhancedApi_getRawTransactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/raw-transactions\n  method: post\n  operationId: enhancedApi_queryRawTxns\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallet/{wallet}/transfers\n  method: get\n  operationId: walletApi_getWalletTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/webhooks\n  method: get\n  operationId: webhooks_getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/webhooks\n  method: post\n  operationId: webhooks_createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/webhooks/{webhookID}\n  method: get\n  operationId: webhooks_getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/webhooks/{webhookID}\n  method: put\n  operationId: webhooks_editWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/webhooks/{webhookID}\n  method: delete\n  operationId: webhooks_deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/webhooks/{webhookID}\n  method: patch\n  operationId: webhooks_toggleWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/agentic-access/helius-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/helius/agentic-access/helius-agentic-access.yml
 summary_line: 33 operations · 16 acting
 tags:
 - Web3

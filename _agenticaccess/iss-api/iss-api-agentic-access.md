@@ -8,13 +8,13 @@ api_specs:
   label: ISS Location API (Open Notify) Astronauts API
   slug: iss-api-astronauts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/openapi/iss-api-astronauts-api-openapi.yml
+  url: https://artifacts.apis.io/iss-api/openapi/iss-api-astronauts-api-openapi.yml
 - filename: iss-api-iss-location-api-openapi.yml
   format: yaml
   label: ISS Location API (Open Notify) ISS Location API
   slug: iss-api-iss-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/openapi/iss-api-iss-location-api-openapi.yml
+  url: https://artifacts.apis.io/iss-api/openapi/iss-api-iss-location-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /iss-now.json\n  method: get\n  operationId: getISSLocationNow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iss-now/v1/\n  method: get\n  operationId: getISSLocationNowV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /astros.json\n  method: get\n  operationId: getPeopleInSpace\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /astros/v1/\n  method: get\n  operationId: getPeopleInSpaceV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/agentic-access/iss-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/iss-api/agentic-access/iss-api-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Space

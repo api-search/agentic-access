@@ -9,31 +9,31 @@ api_specs:
   label: Rhino Authentication API
   slug: rhino-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-authentication-api-openapi.yml
 - filename: rhino-partnerapi-v2-test-resident-api-openapi.yml
   format: yaml
   label: Rhino Partner Api::V2::Test::Resident API
   slug: rhino-partnerapi-v2-test-resident-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-partnerapi-v2-test-resident-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-partnerapi-v2-test-resident-api-openapi.yml
 - filename: rhino-partnerapi-v2-test-sayrhinouser-api-openapi.yml
   format: yaml
   label: Rhino Partner Api::V2::Test::Sayrhino User API
   slug: rhino-partnerapi-v2-test-sayrhinouser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-partnerapi-v2-test-sayrhinouser-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-partnerapi-v2-test-sayrhinouser-api-openapi.yml
 - filename: rhino-prospects-api-openapi.yml
   format: yaml
   label: Rhino Prospects API
   slug: rhino-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-prospects-api-openapi.yml
 - filename: rhino-webhooks-api-openapi.yml
   format: yaml
   label: Rhino Webhooks API
   slug: rhino-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/openapi/rhino-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/rhino/openapi/rhino-webhooks-api-openapi.yml
 consequence_counts:
   read: 4
   write: 8
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/rhino-
   \ 3600\n    audit: none\n- path: /partners/{owner_slug}/webhooks/endpoints\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/{owner_slug}/webhooks/endpoints/{endpoint_id}/deliveries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partners/{owner_slug}/webhooks/endpoints/{endpoint_id}/deliveries/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partners/{owner_slug}/webhooks/endpoints/{endpoint_id}/deliveries/{id}/retry\n  method: post\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/{owner_slug}/webhooks/endpoints/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/{owner_slug}/webhooks/endpoints/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /token\n  method: post\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/agentic-access/rhino-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rhino/agentic-access/rhino-agentic-access.yml
 summary_line: 12 operations · 8 acting
 tags:
 - Insurance

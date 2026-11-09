@@ -9,49 +9,49 @@ api_specs:
   label: Nixtla Anomaly Detection API
   slug: nixtla-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-anomaly-detection-api-openapi.yml
+  url: https://artifacts.apis.io/nixtla/openapi/nixtla-anomaly-detection-api-openapi.yml
 - filename: nixtla-cross-validation-api-openapi.yml
   format: yaml
   label: Nixtla Cross Validation API
   slug: nixtla-cross-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-cross-validation-api-openapi.yml
+  url: https://artifacts.apis.io/nixtla/openapi/nixtla-cross-validation-api-openapi.yml
 - filename: nixtla-excluded-api-openapi.yml
   format: yaml
   label: Nixtla Excluded API
   slug: nixtla-excluded-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-excluded-api-openapi.yml
+  url: https://artifacts.apis.io/nixtla/openapi/nixtla-excluded-api-openapi.yml
 - filename: nixtla-finetune-api-openapi.yml
   format: yaml
   label: Nixtla Finetune API
   slug: nixtla-finetune-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-finetune-api-openapi.yml
+  url: https://artifacts.apis.io/nixtla/openapi/nixtla-finetune-api-openapi.yml
 - filename: nixtla-finetuned-models-api-openapi.yml
   format: yaml
   label: Nixtla Finetuned Models API
   slug: nixtla-finetuned-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-finetuned-models-api-openapi.yml
+  url: https://artifacts.apis.io/nixtla/openapi/nixtla-finetuned-models-api-openapi.yml
 - filename: nixtla-forecast-api-openapi.yml
   format: yaml
   label: Nixtla Forecast API
   slug: nixtla-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/nixtla/openapi/nixtla-forecast-api-openapi.yml
 - filename: nixtla-online-anomaly-detection-api-openapi.yml
   format: yaml
   label: Nixtla Online Anomaly Detection API
   slug: nixtla-online-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-online-anomaly-detection-api-openapi.yml
+  url: https://artifacts.apis.io/nixtla/openapi/nixtla-online-anomaly-detection-api-openapi.yml
 - filename: nixtla-validate-api-key-api-openapi.yml
   format: yaml
   label: Nixtla Validate Api Key API
   slug: nixtla-validate-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/openapi/nixtla-validate-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/nixtla/openapi/nixtla-validate-api-key-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nixtla
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/online_anomaly_detection\n  method: post\n  operationId: v2_online_anomaly_detection_v2_online_anomaly_detection_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model_params\n  method: get\n  operationId: get_model_params_model_params_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/cross_validation\n  method: post\n  operationId: v2_cross_validation_v2_cross_validation_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/finetune\n  method: post\n  operationId: v2_finetune_v2_finetune_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/finetuned_models\n  method: get\n  operationId: v2_finetuned_models_v2_finetuned_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/finetuned_models/{finetuned_model_id}\n  method: get\n  operationId: v2_finetuned_model_v2_finetuned_models__finetuned_model_id__get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/finetuned_models/{finetuned_model_id}\n  method: delete\n  operationId: v2_finetuned_models_delete_v2_finetuned_models__finetuned_model_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validate_api_key\n  method: get\n  operationId: validate_api_key_validate_api_key_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/agentic-access/nixtla-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nixtla/agentic-access/nixtla-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Company

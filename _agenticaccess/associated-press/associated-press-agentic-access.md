@@ -9,19 +9,19 @@ api_specs:
   label: Associated Press Account API
   slug: associated-press-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-account-api-openapi.yml
+  url: https://artifacts.apis.io/associated-press/openapi/associated-press-account-api-openapi.yml
 - filename: associated-press-content-api-openapi.yml
   format: yaml
   label: Associated Press Content API
   slug: associated-press-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-content-api-openapi.yml
+  url: https://artifacts.apis.io/associated-press/openapi/associated-press-content-api-openapi.yml
 - filename: associated-press-monitors-and-alerts-api-openapi.yml
   format: yaml
   label: Associated Press Monitors and Alerts API
   slug: associated-press-monitors-and-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/openapi/associated-press-monitors-and-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/associated-press/openapi/associated-press-monitors-and-alerts-api-openapi.yml
 consequence_counts:
   read: 18
   write: 3
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/associ
   \      max-ttl: 3600\n    audit: none\n- path: /account/plans\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/downloads\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/quotas\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/monitors/create\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/monitors/{monitorId}/update\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/monitors/{monitorId}/delete\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/monitors\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/monitors/{monitorId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/monitors/alerts\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/monitors/sessions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/monitors/sessions/{session_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/monitors/sessions/{session_id}/disable\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/monitors/sessions/{session_id}/enable\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/agentic-access/associated-press-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/associated-press/agentic-access/associated-press-agentic-access.yml
 summary_line: 21 operations · 3 acting
 tags:
 - Elections

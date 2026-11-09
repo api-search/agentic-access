@@ -9,61 +9,61 @@ api_specs:
   label: Fin Authentication API
   slug: fin-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-authentication-api-openapi.yml
 - filename: fin-balances-api-openapi.yml
   format: yaml
   label: Fin Balances API
   slug: fin-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-balances-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-balances-api-openapi.yml
 - filename: fin-beneficiaries-api-openapi.yml
   format: yaml
   label: Fin Beneficiaries API
   slug: fin-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-beneficiaries-api-openapi.yml
 - filename: fin-catalogue-api-openapi.yml
   format: yaml
   label: Fin Catalogue API
   slug: fin-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-catalogue-api-openapi.yml
 - filename: fin-crypto-orchestration-api-openapi.yml
   format: yaml
   label: Fin Crypto Orchestration API
   slug: fin-crypto-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-crypto-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-crypto-orchestration-api-openapi.yml
 - filename: fin-customers-api-openapi.yml
   format: yaml
   label: Fin Customers API
   slug: fin-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-customers-api-openapi.yml
 - filename: fin-fees-fx-rates-api-openapi.yml
   format: yaml
   label: Fin Fees & FX Rates API
   slug: fin-fees-fx-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-fees-fx-rates-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-fees-fx-rates-api-openapi.yml
 - filename: fin-transactions-api-openapi.yml
   format: yaml
   label: Fin Transactions API
   slug: fin-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-transactions-api-openapi.yml
 - filename: fin-virtual-accounts-api-openapi.yml
   format: yaml
   label: Fin Virtual Accounts API
   slug: fin-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-virtual-accounts-api-openapi.yml
 - filename: fin-webhooks-api-openapi.yml
   format: yaml
   label: Fin Webhooks API
   slug: fin-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/fin-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fin/openapi/fin-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 31
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/fin-op
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/virtual-account/{virtual_account_id}/transactions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fx-rate\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fee-calculation\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/industries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/occupations\n \
   \ method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/source-of-funds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/source-of-wealth\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/purposes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/countries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/countries/{country_code}/subdivisions\n  method: get\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transaction-purposes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/agentic-access/fin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fin/agentic-access/fin-agentic-access.yml
 summary_line: 62 operations · 31 acting
 tags:
 - Company

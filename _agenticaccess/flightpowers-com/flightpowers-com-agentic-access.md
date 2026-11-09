@@ -64,7 +64,6 @@ tags:
 - Company
 - Travel
 - Data
-- API
 - Flights
 - Hotels
 ---

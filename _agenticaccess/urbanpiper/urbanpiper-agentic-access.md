@@ -9,31 +9,31 @@ api_specs:
   label: UrbanPiper Aggregator API
   slug: urbanpiper-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/urbanpiper/openapi/urbanpiper-aggregator-api-openapi.yml
 - filename: urbanpiper-menu-api-openapi.yml
   format: yaml
   label: UrbanPiper Menu API
   slug: urbanpiper-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-menu-api-openapi.yml
+  url: https://artifacts.apis.io/urbanpiper/openapi/urbanpiper-menu-api-openapi.yml
 - filename: urbanpiper-orders-api-openapi.yml
   format: yaml
   label: UrbanPiper Orders API
   slug: urbanpiper-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-orders-api-openapi.yml
+  url: https://artifacts.apis.io/urbanpiper/openapi/urbanpiper-orders-api-openapi.yml
 - filename: urbanpiper-stores-api-openapi.yml
   format: yaml
   label: UrbanPiper Stores API
   slug: urbanpiper-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-stores-api-openapi.yml
+  url: https://artifacts.apis.io/urbanpiper/openapi/urbanpiper-stores-api-openapi.yml
 - filename: urbanpiper-webhooks-api-openapi.yml
   format: yaml
   label: UrbanPiper Webhooks API
   slug: urbanpiper-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/openapi/urbanpiper-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/urbanpiper/openapi/urbanpiper-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 2
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/urbanp
   \    audit: required\n- path: /external/api/v1/webhooks/\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/api/v1/webhooks/\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/api/v1/webhooks/{webhook_id}/\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/api/v1/webhooks/{webhook_id}/\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/api/v1/webhooks/retry/\n  method: post\n  operationId: retryWebhookOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ext/api/v1/generic/pos/rider-status/\n  method: post\n  operationId: riderStatusUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /ext/api/v1/generic/pos/rider-location/\n  method: post\n  operationId: riderLiveTracking\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/agentic-access/urbanpiper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/urbanpiper/agentic-access/urbanpiper-agentic-access.yml
 summary_line: 16 operations · 14 acting
 tags:
 - Restaurant

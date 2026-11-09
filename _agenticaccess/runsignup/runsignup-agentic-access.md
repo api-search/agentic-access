@@ -9,55 +9,55 @@ api_specs:
   label: RunSignup Corrals API
   slug: runsignup-corrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-corrals-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-corrals-api-openapi.yml
 - filename: runsignup-divisions-api-openapi.yml
   format: yaml
   label: RunSignup Divisions API
   slug: runsignup-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-divisions-api-openapi.yml
 - filename: runsignup-donations-api-openapi.yml
   format: yaml
   label: RunSignup Donations API
   slug: runsignup-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-donations-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-donations-api-openapi.yml
 - filename: runsignup-participants-api-openapi.yml
   format: yaml
   label: RunSignup Participants API
   slug: runsignup-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-participants-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-participants-api-openapi.yml
 - filename: runsignup-races-api-openapi.yml
   format: yaml
   label: RunSignup Races API
   slug: runsignup-races-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-races-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-races-api-openapi.yml
 - filename: runsignup-reference-api-openapi.yml
   format: yaml
   label: RunSignup Reference API
   slug: runsignup-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-reference-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-reference-api-openapi.yml
 - filename: runsignup-results-api-openapi.yml
   format: yaml
   label: RunSignup Results API
   slug: runsignup-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-results-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-results-api-openapi.yml
 - filename: runsignup-teams-api-openapi.yml
   format: yaml
   label: RunSignup Teams API
   slug: runsignup-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-teams-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-teams-api-openapi.yml
 - filename: runsignup-users-api-openapi.yml
   format: yaml
   label: RunSignup Users API
   slug: runsignup-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-users-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 9
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/runsig
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /race/{race_id}/divisions/divisions\n  method: get\n  operationId: getRaceDivisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /race/{race_id}/corrals\n  method: get\n  operationId: getRaceCorrals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /race/{race_id}/teams\n  method: get\n  operationId: getRaceTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /race/{race_id}/teams\n  method: post\n  operationId: addOrEditTeams\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /race/{race_id}/donations/list\n  method: get\n  operationId: getRaceDonations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{user_id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user\n  method: post\n  operationId: createUser\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /countries\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/agentic-access/runsignup-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/runsignup/agentic-access/runsignup-agentic-access.yml
 summary_line: 21 operations · 9 acting
 tags:
 - Race Registration

@@ -9,25 +9,25 @@ api_specs:
   label: Very Good Security Aliases API
   slug: vgs-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-aliases-api-openapi.yml
 - filename: vgs-organizations-api-openapi.yml
   format: yaml
   label: Very Good Security Organizations API
   slug: vgs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-organizations-api-openapi.yml
 - filename: vgs-routes-api-openapi.yml
   format: yaml
   label: Very Good Security Routes API
   slug: vgs-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-routes-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-routes-api-openapi.yml
 - filename: vgs-vaults-api-openapi.yml
   format: yaml
   label: Very Good Security Vaults API
   slug: vgs-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/openapi/vgs-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/vgs/openapi/vgs-vaults-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vgs-op
   \  method: get\n  operationId: listOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}\n  method: get\n  operationId: getOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vaults\n  method: get\n  operationId: listVaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vaults\n  method: post\n  operationId: createVault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vaults/{vaultId}\n\
   \  method: get\n  operationId: getVault\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vaults/{vaultId}/routes\n  method: get\n  operationId: listRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vaults/{vaultId}/routes\n  method: post\n  operationId: createRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vaults/{vaultId}/routes/{routeId}\n  method: get\n  operationId: getRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /vaults/{vaultId}/routes/{routeId}\n  method: put\n  operationId: updateRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vaults/{vaultId}/routes/{routeId}\n  method: delete\n  operationId: deleteRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/agentic-access/vgs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vgs/agentic-access/vgs-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Security

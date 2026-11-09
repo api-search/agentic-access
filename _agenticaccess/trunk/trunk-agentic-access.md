@@ -9,13 +9,13 @@ api_specs:
   label: Trunk Flaky Tests API
   slug: trunk-flaky-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/openapi/trunk-flaky-tests-api-openapi.yml
+  url: https://artifacts.apis.io/trunk/openapi/trunk-flaky-tests-api-openapi.yml
 - filename: trunk-merge-queue-api-openapi.yml
   format: yaml
   label: Trunk Merge Queue API
   slug: trunk-merge-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/openapi/trunk-merge-queue-api-openapi.yml
+  url: https://artifacts.apis.io/trunk/openapi/trunk-merge-queue-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/trunk-
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /setImpactedTargets\n  method: post\n  operationId: setImpactedTargets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getMergeQueueTestingDetails\n  method: post\n  operationId: getMergeQueueTestingDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /createQueue\n  method: post\n  operationId: createQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getQueue\n  method: post\n  operationId: getQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /updateQueue\n  method: post\n  operationId: updateQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deleteQueue\n  method: post\n  operationId: deleteQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /getMergeQueueMetrics\n  method: get\n  operationId: getMergeQueueMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/agentic-access/trunk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trunk/agentic-access/trunk-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Developer Tools

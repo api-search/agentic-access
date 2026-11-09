@@ -9,103 +9,103 @@ api_specs:
   label: Politecnico di Torino Announcements API
   slug: politecnico-di-torino-announcements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-announcements-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-announcements-api-openapi.yml
 - filename: politecnico-di-torino-auth-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Auth API
   slug: politecnico-di-torino-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-auth-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-auth-api-openapi.yml
 - filename: politecnico-di-torino-bookings-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Bookings API
   slug: politecnico-di-torino-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-bookings-api-openapi.yml
 - filename: politecnico-di-torino-courses-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Courses API
   slug: politecnico-di-torino-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-courses-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-courses-api-openapi.yml
 - filename: politecnico-di-torino-esc-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Esc API
   slug: politecnico-di-torino-esc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-esc-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-esc-api-openapi.yml
 - filename: politecnico-di-torino-exams-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Exams API
   slug: politecnico-di-torino-exams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-exams-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-exams-api-openapi.yml
 - filename: politecnico-di-torino-job-offers-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Job offers API
   slug: politecnico-di-torino-job-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-job-offers-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-job-offers-api-openapi.yml
 - filename: politecnico-di-torino-lectures-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Lectures API
   slug: politecnico-di-torino-lectures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-lectures-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-lectures-api-openapi.yml
 - filename: politecnico-di-torino-news-api-openapi.yml
   format: yaml
   label: Politecnico di Torino News API
   slug: politecnico-di-torino-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-news-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-news-api-openapi.yml
 - filename: politecnico-di-torino-offering-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Offering API
   slug: politecnico-di-torino-offering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-offering-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-offering-api-openapi.yml
 - filename: politecnico-di-torino-people-api-openapi.yml
   format: yaml
   label: Politecnico di Torino People API
   slug: politecnico-di-torino-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-people-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-people-api-openapi.yml
 - filename: politecnico-di-torino-places-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Places API
   slug: politecnico-di-torino-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-places-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-places-api-openapi.yml
 - filename: politecnico-di-torino-student-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Student API
   slug: politecnico-di-torino-student-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-student-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-student-api-openapi.yml
 - filename: politecnico-di-torino-surveys-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Surveys API
   slug: politecnico-di-torino-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-surveys-api-openapi.yml
 - filename: politecnico-di-torino-tickets-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Tickets API
   slug: politecnico-di-torino-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-tickets-api-openapi.yml
 - filename: politecnico-di-torino-campus-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Campus API
   slug: politecnico-di-torino-campus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-campus-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-campus-api-openapi.yml
 - filename: politecnico-di-torino-directory-api-openapi.yml
   format: yaml
   label: Politecnico di Torino Directory API
   slug: politecnico-di-torino-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/openapi/politecnico-di-torino-directory-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-torino/openapi/politecnico-di-torino-directory-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 88
@@ -176,8 +176,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/polite
   \  method: post\n  operationId: ProvisionalGrades_acceptProvisionalGrade\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /provisional-grades/{provisionalGradeId}/reject\n  method: post\n  operationId: ProvisionalGrades_rejectProvisionalGrade\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /surveys\n  method: get\n  operationId: Surveys_getSurveys\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ticket-faqs\n  method: get\n  operationId: TicketFAQs_searchTicketFAQs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ticket-topics\n  method: get\n  operationId: TicketTopics_getTicketTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tickets\n  method: get\n  operationId: Tickets_getTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tickets\n  method: post\n  operationId: Tickets_createTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tickets/{ticketId}\n  method: get\n  operationId: Tickets_getTicket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tickets/{ticketId}/attachments/{attachmentId}\n  method: get\n  operationId: Tickets_getTicketAttachment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tickets/{ticketId}/close\n  method: put\n  operationId: Tickets_markTicketAsClosed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full\
-  \ source: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/agentic-access/politecnico-di-torino-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/agentic-access/politecnico-di-torino-agentic-access.yml
+  \ source: https://artifacts.apis.io/politecnico-di-torino/agentic-access/politecnico-di-torino-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/politecnico-di-torino/agentic-access/politecnico-di-torino-agentic-access.yml
 summary_line: 132 operations · 44 acting
 tags:
 - Education

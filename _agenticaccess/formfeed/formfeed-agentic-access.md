@@ -9,55 +9,55 @@ api_specs:
   label: Formfeed Account API
   slug: formfeed-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/openapi/formfeed-account-api-openapi.yml
+  url: https://artifacts.apis.io/formfeed/openapi/formfeed-account-api-openapi.yml
 - filename: formfeed-brand-api-openapi.yml
   format: yaml
   label: Formfeed Brand API
   slug: formfeed-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/openapi/formfeed-brand-api-openapi.yml
+  url: https://artifacts.apis.io/formfeed/openapi/formfeed-brand-api-openapi.yml
 - filename: formfeed-compat-api-openapi.yml
   format: yaml
   label: Formfeed Compat API
   slug: formfeed-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/openapi/formfeed-compat-api-openapi.yml
+  url: https://artifacts.apis.io/formfeed/openapi/formfeed-compat-api-openapi.yml
 - filename: formfeed-files-api-openapi.yml
   format: yaml
   label: Formfeed Files API
   slug: formfeed-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/openapi/formfeed-files-api-openapi.yml
+  url: https://artifacts.apis.io/formfeed/openapi/formfeed-files-api-openapi.yml
 - filename: formfeed-partials-api-openapi.yml
   format: yaml
   label: Formfeed Partials API
   slug: formfeed-partials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/openapi/formfeed-partials-api-openapi.yml
+  url: https://artifacts.apis.io/formfeed/openapi/formfeed-partials-api-openapi.yml
 - filename: formfeed-pdf-tools-api-openapi.yml
   format: yaml
   label: Formfeed PDF tools API
   slug: formfeed-pdf-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/openapi/formfeed-pdf-tools-api-openapi.yml
+  url: https://artifacts.apis.io/formfeed/openapi/formfeed-pdf-tools-api-openapi.yml
 - filename: formfeed-renders-api-openapi.yml
   format: yaml
   label: Formfeed Renders API
   slug: formfeed-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/openapi/formfeed-renders-api-openapi.yml
+  url: https://artifacts.apis.io/formfeed/openapi/formfeed-renders-api-openapi.yml
 - filename: formfeed-templates-api-openapi.yml
   format: yaml
   label: Formfeed Templates API
   slug: formfeed-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/openapi/formfeed-templates-api-openapi.yml
+  url: https://artifacts.apis.io/formfeed/openapi/formfeed-templates-api-openapi.yml
 - filename: formfeed-webhooks-api-openapi.yml
   format: yaml
   label: Formfeed Webhooks API
   slug: formfeed-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/openapi/formfeed-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/formfeed/openapi/formfeed-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 42
@@ -138,8 +138,8 @@ source_yaml: "generated: '2026-09-28'\nmethod: generated\nsource: openapi/api_fo
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{id}/storage\n  method: delete\n  operationId: deleteStorageConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{id}/storage/test\n  method: post\n  operationId: testStorageConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /workspaces/{id}/storage/redeliver\n  method: post\n  operationId: redeliverStorage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pdf/merge\n  method: post\n  operationId: mergePdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pdf/protect\n  method: post\n  operationId: protectPdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /pdf/convert\n  method: post\n  operationId: convertOfficeToPdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pdf/watermark\n  method: post\n  operationId: watermarkPdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pdf/info\n  method: post\n  operationId: pdfInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/agentic-access/formfeed-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/agentic-access/formfeed-agentic-access.yml
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/formfeed/agentic-access/formfeed-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/formfeed/agentic-access/formfeed-agentic-access.yml
 summary_line: 122 operations · 80 acting
 tags:
 - PDF

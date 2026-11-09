@@ -9,169 +9,169 @@ api_specs:
   label: Oracle Cloud Infrastructure Alarms API
   slug: oracle-cloud-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-alarms-api-openapi.yml
 - filename: oracle-cloud-buckets-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Buckets API
   slug: oracle-cloud-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-buckets-api-openapi.yml
 - filename: oracle-cloud-compartments-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Compartments API
   slug: oracle-cloud-compartments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-compartments-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-compartments-api-openapi.yml
 - filename: oracle-cloud-groups-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Groups API
   slug: oracle-cloud-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-groups-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-groups-api-openapi.yml
 - filename: oracle-cloud-images-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Images API
   slug: oracle-cloud-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-images-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-images-api-openapi.yml
 - filename: oracle-cloud-instances-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Instances API
   slug: oracle-cloud-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-instances-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-instances-api-openapi.yml
 - filename: oracle-cloud-metrics-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Metrics API
   slug: oracle-cloud-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-metrics-api-openapi.yml
 - filename: oracle-cloud-namespaces-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Namespaces API
   slug: oracle-cloud-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-namespaces-api-openapi.yml
 - filename: oracle-cloud-objects-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Objects API
   slug: oracle-cloud-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-objects-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-objects-api-openapi.yml
 - filename: oracle-cloud-policies-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Policies API
   slug: oracle-cloud-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-policies-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-policies-api-openapi.yml
 - filename: oracle-cloud-preauthenticated-requests-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Preauthenticated Requests API
   slug: oracle-cloud-preauthenticated-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-preauthenticated-requests-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-preauthenticated-requests-api-openapi.yml
 - filename: oracle-cloud-shapes-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Shapes API
   slug: oracle-cloud-shapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-shapes-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-shapes-api-openapi.yml
 - filename: oracle-cloud-users-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Users API
   slug: oracle-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-users-api-openapi.yml
 - filename: oracle-cloud-volume-attachments-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Volume Attachments API
   slug: oracle-cloud-volume-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-volume-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-volume-attachments-api-openapi.yml
 - filename: oracle-cloud-blockstorage-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Blockstorage API
   slug: oracle-cloud-blockstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-blockstorage-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-blockstorage-api-openapi.yml
 - filename: oracle-cloud-compute-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Compute API
   slug: oracle-cloud-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-compute-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-compute-api-openapi.yml
 - filename: oracle-cloud-computemanagement-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Compute Management API
   slug: oracle-cloud-computemanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-computemanagement-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-computemanagement-api-openapi.yml
 - filename: oracle-cloud-containerengine-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Container Engine API
   slug: oracle-cloud-containerengine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-containerengine-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-containerengine-api-openapi.yml
 - filename: oracle-cloud-database-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Database API
   slug: oracle-cloud-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-database-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-database-api-openapi.yml
 - filename: oracle-cloud-events-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Events API
   slug: oracle-cloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-events-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-events-api-openapi.yml
 - filename: oracle-cloud-functionsinvoke-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Functions Invoke API
   slug: oracle-cloud-functionsinvoke-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-functionsinvoke-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-functionsinvoke-api-openapi.yml
 - filename: oracle-cloud-functionsmanagement-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Functions Management API
   slug: oracle-cloud-functionsmanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-functionsmanagement-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-functionsmanagement-api-openapi.yml
 - filename: oracle-cloud-identity-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Identity API
   slug: oracle-cloud-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-identity-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-identity-api-openapi.yml
 - filename: oracle-cloud-monitoring-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Monitoring API
   slug: oracle-cloud-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-monitoring-api-openapi.yml
 - filename: oracle-cloud-notificationcontrolplane-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Notification Control Plane API
   slug: oracle-cloud-notificationcontrolplane-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-notificationcontrolplane-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-notificationcontrolplane-api-openapi.yml
 - filename: oracle-cloud-notificationdataplane-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Notification Data Plane API
   slug: oracle-cloud-notificationdataplane-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-notificationdataplane-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-notificationdataplane-api-openapi.yml
 - filename: oracle-cloud-virtualnetwork-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Virtual Network API
   slug: oracle-cloud-virtualnetwork-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-virtualnetwork-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-virtualnetwork-api-openapi.yml
 - filename: oracle-cloud-object-storage-api-openapi.yml
   format: yaml
   label: Oracle Cloud Infrastructure Object Storage API
   slug: oracle-cloud-object-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-object-storage-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-cloud/openapi/oracle-cloud-object-storage-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 539
@@ -360,8 +360,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/oracle
   \ audit: required\n- path: /computeCapacityReservations/{capacityReservationId}/actions/changeCompartment\n  method: post\n  operationId: ChangeComputeCapacityReservationCompartment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /computeCapacityReservations/{capacityReservationId}/instances\n  method: get\n  operationId: ListComputeCapacityReservationInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /computeCapacityTopologies\n  method: get\n  operationId: ListComputeCapacityTopologies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /computeCapacityTopologies\n  method: post\n  operationId: CreateComputeCapacityTopology\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /computeCapacityTopologies/{computeCapacityTopologyId}\n  method: delete\n  operationId: DeleteComputeCapacityTopology\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /computeCapacityTopologies/{computeCapacityTopologyId}\n  method: get\n  operationId: GetComputeCapacityTopology\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /computeCapacityTopologies/{computeCapacityTopologyId}\n  method: put\n  operationId: UpdateComputeCapacityTopology\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /computeCapacityTopologies/{computeCapacityTopologyId}/actions/changeCompartment\n  method: post\n  operationId: ChangeComputeCapacityTopologyCompartment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /computeCapacityTopologies/{computeCapacityTopologyId}/computeBareMetalHosts\n  method: get\n  operationId: ListComputeCapacityTopologyComputeBareMetalHosts\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /computeCapacityTopologies/{computeCapacityTopologyId}/computeHpcIslands\n  method: get\n  operationId: ListComputeCapacityTopologyComputeHpcIslands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /computeCapacityTopologies/{computeCapacityTopologyId}/computeNetworkBlocks\n  method: get\n  operationId: ListComputeCapacityTopologyComputeNetworkBlocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (406 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/agentic-access/oracle-cloud-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/agentic-access/oracle-cloud-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /computeCapacityTopologies/{computeCapacityTopologyId}/computeHpcIslands\n  method: get\n  operationId: ListComputeCapacityTopologyComputeHpcIslands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /computeCapacityTopologies/{computeCapacityTopologyId}/computeNetworkBlocks\n  method: get\n  operationId: ListComputeCapacityTopologyComputeNetworkBlocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (406 KB total) ---\n# Full source: https://artifacts.apis.io/oracle-cloud/agentic-access/oracle-cloud-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/oracle-cloud/agentic-access/oracle-cloud-agentic-access.yml
 summary_line: 1309 operations · 770 acting · 45 human-in-the-loop
 tags:
 - Cloud Computing

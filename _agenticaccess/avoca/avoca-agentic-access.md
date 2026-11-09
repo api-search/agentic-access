@@ -8,49 +8,49 @@ api_specs:
   label: Avoca Analytics (v1) API
   slug: avoca-analytics-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-analytics-v1-api-openapi.yml
+  url: https://artifacts.apis.io/avoca/openapi/avoca-analytics-v1-api-openapi.yml
 - filename: avoca-calls-api-openapi.yml
   format: yaml
   label: Avoca Calls API
   slug: avoca-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-calls-api-openapi.yml
+  url: https://artifacts.apis.io/avoca/openapi/avoca-calls-api-openapi.yml
 - filename: avoca-coach-api-openapi.yml
   format: yaml
   label: Avoca Coach API
   slug: avoca-coach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-coach-api-openapi.yml
+  url: https://artifacts.apis.io/avoca/openapi/avoca-coach-api-openapi.yml
 - filename: avoca-leads-api-openapi.yml
   format: yaml
   label: Avoca Leads API
   slug: avoca-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-leads-api-openapi.yml
+  url: https://artifacts.apis.io/avoca/openapi/avoca-leads-api-openapi.yml
 - filename: avoca-outbound-texting-api-openapi.yml
   format: yaml
   label: Avoca Outbound Texting API
   slug: avoca-outbound-texting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-outbound-texting-api-openapi.yml
+  url: https://artifacts.apis.io/avoca/openapi/avoca-outbound-texting-api-openapi.yml
 - filename: avoca-scheduler-analytics-v0-api-openapi.yml
   format: yaml
   label: Avoca Scheduler Analytics (v0) API
   slug: avoca-scheduler-analytics-v0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-scheduler-analytics-v0-api-openapi.yml
+  url: https://artifacts.apis.io/avoca/openapi/avoca-scheduler-analytics-v0-api-openapi.yml
 - filename: avoca-sessions-bookings-api-openapi.yml
   format: yaml
   label: Avoca Sessions & Bookings API
   slug: avoca-sessions-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-sessions-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/avoca/openapi/avoca-sessions-bookings-api-openapi.yml
 - filename: avoca-teams-api-openapi.yml
   format: yaml
   label: Avoca Teams API
   slug: avoca-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/openapi/avoca-teams-api-openapi.yml
+  url: https://artifacts.apis.io/avoca/openapi/avoca-teams-api-openapi.yml
 consequence_counts:
   read: 31
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/avoca-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/teams/{teamId}/analytics/funnel\n  method: get\n  operationId: getTeamFunnel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/teams/{teamId}/analytics/utm\n  method: get\n  operationId: getTeamUtm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/teams/{teamId}/analytics/service-areas\n  method: get\n  operationId: getTeamServiceAreas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/teams/{teamId}/analytics/issue-types\n  method: get\n  operationId: getTeamIssueTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v1/teams/{teamId}/leads\n  method: get\n  operationId: listTeamLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/teams/{teamId}/outbound/campaign-texts\n  method: get\n  operationId: listCampaignTexts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/teams/{teamId}/outbound/events\n  method: get\n  operationId: listOutboundEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/enterprise/{enterpriseId}/leads\n  method: get\n  operationId: listEnterpriseLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/sessions\n  method: get\n  operationId: listSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bookings\n  method: get\n  operationId: listBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/analytics/funnel\n  method: get\n  operationId: getFunnel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/agentic-access/avoca-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/avoca/agentic-access/avoca-agentic-access.yml
 summary_line: 31 operations
 tags:
 - Company

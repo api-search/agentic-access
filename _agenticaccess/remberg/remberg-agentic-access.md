@@ -9,115 +9,115 @@ api_specs:
   label: Remberg AI Chat API
   slug: remberg-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-ai-chat-api-openapi.yml
 - filename: remberg-asset-status-signals-api-openapi.yml
   format: yaml
   label: Remberg Asset Status Signals API
   slug: remberg-asset-status-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-asset-status-signals-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-asset-status-signals-api-openapi.yml
 - filename: remberg-asset-types-api-openapi.yml
   format: yaml
   label: Remberg Asset Types API
   slug: remberg-asset-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-asset-types-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-asset-types-api-openapi.yml
 - filename: remberg-assets-api-openapi.yml
   format: yaml
   label: Remberg Assets API
   slug: remberg-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-assets-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-assets-api-openapi.yml
 - filename: remberg-contacts-api-openapi.yml
   format: yaml
   label: Remberg Contacts API
   slug: remberg-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-contacts-api-openapi.yml
 - filename: remberg-failure-types-api-openapi.yml
   format: yaml
   label: Remberg Failure Types API
   slug: remberg-failure-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-failure-types-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-failure-types-api-openapi.yml
 - filename: remberg-files-api-openapi.yml
   format: yaml
   label: Remberg Files API
   slug: remberg-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-files-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-files-api-openapi.yml
 - filename: remberg-forms-api-openapi.yml
   format: yaml
   label: Remberg Forms API
   slug: remberg-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-forms-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-forms-api-openapi.yml
 - filename: remberg-inventories-api-openapi.yml
   format: yaml
   label: Remberg Inventories API
   slug: remberg-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-inventories-api-openapi.yml
 - filename: remberg-organizations-api-openapi.yml
   format: yaml
   label: Remberg Organizations API
   slug: remberg-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-organizations-api-openapi.yml
 - filename: remberg-part-stock-changes-api-openapi.yml
   format: yaml
   label: Remberg Part Stock Changes API
   slug: remberg-part-stock-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-part-stock-changes-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-part-stock-changes-api-openapi.yml
 - filename: remberg-parts-api-openapi.yml
   format: yaml
   label: Remberg Parts API
   slug: remberg-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-parts-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-parts-api-openapi.yml
 - filename: remberg-procedure-templates-api-openapi.yml
   format: yaml
   label: Remberg Procedure Templates API
   slug: remberg-procedure-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-procedure-templates-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-procedure-templates-api-openapi.yml
 - filename: remberg-tickets-api-openapi.yml
   format: yaml
   label: Remberg Tickets API
   slug: remberg-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-tickets-api-openapi.yml
 - filename: remberg-user-groups-api-openapi.yml
   format: yaml
   label: Remberg User Groups API
   slug: remberg-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-user-groups-api-openapi.yml
 - filename: remberg-user-roles-api-openapi.yml
   format: yaml
   label: Remberg User Roles API
   slug: remberg-user-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-user-roles-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-user-roles-api-openapi.yml
 - filename: remberg-users-api-openapi.yml
   format: yaml
   label: Remberg Users API
   slug: remberg-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-users-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-users-api-openapi.yml
 - filename: remberg-work-orders-api-openapi.yml
   format: yaml
   label: Remberg Work Orders API
   slug: remberg-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-work-orders-api-openapi.yml
 - filename: remberg-work-requests-api-openapi.yml
   format: yaml
   label: Remberg Work Requests API
   slug: remberg-work-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/openapi/remberg-work-requests-api-openapi.yml
+  url: https://artifacts.apis.io/remberg/openapi/remberg-work-requests-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 50
@@ -301,8 +301,8 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/rember
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v2/work-orders/erp/{externalReference}\n  method: delete\n  operationId: /v2/work-orders/erp/{externalReference}_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/work-orders/{id}/checklist\n  method: post\n  operationId: /v2/work-orders/{id}/checklist_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/work-orders/erp/{externalReference}/checklist\n\
   \  method: post\n  operationId: /v2/work-orders/erp/{externalReference}/checklist_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/work-orders/{id}/times\n  method: get\n  operationId: /v2/work-orders/{id}/times_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/work-orders/{id}/stock-changes\n  method: get\n  operationId: /v2/work-orders/{id}/stock-changes_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/work-orders/{id}/stock-changes\n  method: post\n  operationId: /v2/work-orders/{id}/stock-changes_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/work-orders/erp/{externalReference}/stock-changes\n  method: get\n  operationId: /v2/work-orders/erp/{externalReference}/stock-changes_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/work-orders/erp/{externalReference}/stock-changes\n  method: post\n  operationId: /v2/work-orders/erp/{externalReference}/stock-changes_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/work-orders/{id}/procedures\n  method: post\n  operationId: /v2/work-orders/{id}/procedures_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/agentic-access/remberg-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/agentic-access/remberg-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/work-orders/{id}/procedures\n  method: post\n  operationId: /v2/work-orders/{id}/procedures_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://artifacts.apis.io/remberg/agentic-access/remberg-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/remberg/agentic-access/remberg-agentic-access.yml
 summary_line: 115 operations · 65 acting · 10 human-in-the-loop
 tags:
 - Maintenance

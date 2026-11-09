@@ -9,103 +9,103 @@ api_specs:
   label: Spare Account API
   slug: spare-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-account-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-account-api-openapi.yml
 - filename: spare-accountinformationreport-api-openapi.yml
   format: yaml
   label: Spare AccountInformationReport API
   slug: spare-accountinformationreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-accountinformationreport-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-accountinformationreport-api-openapi.yml
 - filename: spare-balance-api-openapi.yml
   format: yaml
   label: Spare Balance API
   slug: spare-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-balance-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-balance-api-openapi.yml
 - filename: spare-beneficiary-api-openapi.yml
   format: yaml
   label: Spare Beneficiary API
   slug: spare-beneficiary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-beneficiary-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-beneficiary-api-openapi.yml
 - filename: spare-cert-api-openapi.yml
   format: yaml
   label: Spare Cert API
   slug: spare-cert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-cert-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-cert-api-openapi.yml
 - filename: spare-connection-api-openapi.yml
   format: yaml
   label: Spare Connection API
   slug: spare-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-connection-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-connection-api-openapi.yml
 - filename: spare-consent-api-openapi.yml
   format: yaml
   label: Spare Consent API
   slug: spare-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-consent-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-consent-api-openapi.yml
 - filename: spare-customer-api-openapi.yml
   format: yaml
   label: Spare Customer API
   slug: spare-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-customer-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-customer-api-openapi.yml
 - filename: spare-parties-api-openapi.yml
   format: yaml
   label: Spare Parties API
   slug: spare-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-parties-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-parties-api-openapi.yml
 - filename: spare-payment-api-openapi.yml
   format: yaml
   label: Spare Payment API
   slug: spare-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-payment-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-payment-api-openapi.yml
 - filename: spare-provider-api-openapi.yml
   format: yaml
   label: Spare Provider API
   slug: spare-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-provider-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-provider-api-openapi.yml
 - filename: spare-request-api-openapi.yml
   format: yaml
   label: Spare Request API
   slug: spare-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-request-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-request-api-openapi.yml
 - filename: spare-riskreport-api-openapi.yml
   format: yaml
   label: Spare RiskReport API
   slug: spare-riskreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-riskreport-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-riskreport-api-openapi.yml
 - filename: spare-statement-api-openapi.yml
   format: yaml
   label: Spare Statement API
   slug: spare-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-statement-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-statement-api-openapi.yml
 - filename: spare-token-api-openapi.yml
   format: yaml
   label: Spare Token API
   slug: spare-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-token-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-token-api-openapi.yml
 - filename: spare-transaction-api-openapi.yml
   format: yaml
   label: Spare Transaction API
   slug: spare-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-transaction-api-openapi.yml
 - filename: spare-direct-debit-api-openapi.yml
   format: yaml
   label: Spare Direct Debit API
   slug: spare-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/openapi/spare-direct-debit-api-openapi.yml
+  url: https://artifacts.apis.io/spare/openapi/spare-direct-debit-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 45
@@ -171,7 +171,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spare-
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1.0/ais/Statement/File\n  method: get\n  operationId: getApiV10AisStatementFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1.0/authentication/Token\n  method: get\n  operationId: getApiV10AuthenticationToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1.0/authentication/Refresh\n  method: get\n  operationId: getApiV10AuthenticationRefresh\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1.0/ais/Transaction/Get\n  method: get\n  operationId:\
   \ getApiV10AisTransactionGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1.0/ais/Transaction/List\n  method: post\n  operationId: postApiV10AisTransactionList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1.0/ais/Transaction/Salaries\n  method: get\n  operationId: getApiV10AisTransactionSalaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2.0/ais/Transaction/Get\n  method: get\n  operationId: getApiV20AisTransactionGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2.0/ais/Transaction/List\n  method: post\n  operationId: postApiV20AisTransactionList\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/agentic-access/spare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spare/agentic-access/spare-agentic-access.yml
 summary_line: 63 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Open Banking

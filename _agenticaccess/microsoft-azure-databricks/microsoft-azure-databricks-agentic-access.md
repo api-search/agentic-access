@@ -9,19 +9,19 @@ api_specs:
   label: Azure Databricks Clusters API
   slug: microsoft-azure-databricks-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-clusters-api-openapi.yml
 - filename: microsoft-azure-databricks-jobs-api-openapi.yml
   format: yaml
   label: Azure Databricks Jobs API
   slug: microsoft-azure-databricks-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-jobs-api-openapi.yml
 - filename: microsoft-azure-databricks-workspace-api-openapi.yml
   format: yaml
   label: Azure Databricks Workspace API
   slug: microsoft-azure-databricks-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/openapi/microsoft-azure-databricks-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-workspace-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 3
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/micros
   \      - high-value\n    audit: required\n- path: /2.1/jobs/runs/delete\n  method: post\n  operationId: deleteJobRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2.1/jobs/runs/get-output\n  method: get\n  operationId: getJobRunOutput\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2.0/workspace/list\n  method: get\n  operationId: listWorkspaceObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2.0/workspace/get-status\n  method: get\n  operationId: getWorkspaceObjectStatus\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2.0/workspace/mkdirs\n  method: post\n  operationId: createWorkspaceDirectory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2.0/workspace/delete\n  method: post\n  operationId: deleteWorkspaceObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2.0/workspace/import\n  method: post\n  operationId: importWorkspaceObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2.0/workspace/export\n  method: get\n  operationId: exportWorkspaceObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/agentic-access/microsoft-azure-databricks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-databricks/agentic-access/microsoft-azure-databricks-agentic-access.yml
 summary_line: 32 operations · 19 acting · 3 human-in-the-loop
 tags:
 - Analytics

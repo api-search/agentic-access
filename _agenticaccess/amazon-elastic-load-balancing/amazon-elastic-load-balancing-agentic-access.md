@@ -8,31 +8,61 @@ api_specs:
   label: Amazon Elastic Load Balancing Listeners API
   slug: amazon-elastic-load-balancing-listeners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-listeners-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-listeners-api-openapi.yml
 - filename: amazon-elastic-load-balancing-load-balancers-api-openapi.yml
   format: yaml
   label: Amazon Elastic Load Balancing Load Balancers API
   slug: amazon-elastic-load-balancing-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-load-balancers-api-openapi.yml
 - filename: amazon-elastic-load-balancing-rules-api-openapi.yml
   format: yaml
   label: Amazon Elastic Load Balancing Rules API
   slug: amazon-elastic-load-balancing-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-rules-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-rules-api-openapi.yml
 - filename: amazon-elastic-load-balancing-target-groups-api-openapi.yml
   format: yaml
   label: Amazon Elastic Load Balancing Target Groups API
   slug: amazon-elastic-load-balancing-target-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-target-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-target-groups-api-openapi.yml
 - filename: amazon-elastic-load-balancing-targets-api-openapi.yml
   format: yaml
   label: Amazon Elastic Load Balancing Targets API
   slug: amazon-elastic-load-balancing-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-targets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-targets-api-openapi.yml
+- filename: amazon-elastic-load-balancing-listener-certificate-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Elastic Load Balancing Listener Certificate API
+  slug: amazon-elastic-load-balancing-listener-certificate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-listener-certificate-api-openapi.yml
+- filename: amazon-elastic-load-balancing-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Elastic Load Balancing Operations API
+  slug: amazon-elastic-load-balancing-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-operations-api-openapi.yml
+- filename: amazon-elastic-load-balancing-tag-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Elastic Load Balancing Tag API
+  slug: amazon-elastic-load-balancing-tag-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-tag-api-openapi.yml
+- filename: amazon-elastic-load-balancing-trust-store-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Elastic Load Balancing Trust Store API
+  slug: amazon-elastic-load-balancing-trust-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-trust-store-api-openapi.yml
+- filename: amazon-elastic-load-balancing-trust-store-revocation-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Elastic Load Balancing Trust Store Revocation API
+  slug: amazon-elastic-load-balancing-trust-store-revocation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-trust-store-revocation-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ /?Action=DeleteLoadBalancer\n  method: get\n  operationId: deleteLoadBalancer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=ModifyLoadBalancerAttributes\n  method: get\n  operationId: modifyLoadBalancerAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateTargetGroup\n  method: get\n  operationId: createTargetGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeTargetGroups\n  method: get\n  operationId: describeTargetGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=RegisterTargets\n  method: get\n  operationId:\
   \ registerTargets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DeregisterTargets\n  method: get\n  operationId: deregisterTargets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeTargetHealth\n  method: get\n  operationId: describeTargetHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateListener\n  method: get\n  operationId: createListener\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeListeners\n  method: get\n  operationId: describeListeners\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateRule\n  method: get\n  operationId: createRule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeRules\n  method: get\n  operationId: describeRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/agentic-access/amazon-elastic-load-balancing-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-elastic-load-balancing/agentic-access/amazon-elastic-load-balancing-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Amazon Web Services

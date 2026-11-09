@@ -9,31 +9,31 @@ api_specs:
   label: Red Hat Satellite Content Views API
   slug: red-hat-satellite-content-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-content-views-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-content-views-api-openapi.yml
 - filename: red-hat-satellite-hosts-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Hosts API
   slug: red-hat-satellite-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-hosts-api-openapi.yml
 - filename: red-hat-satellite-lifecycle-environments-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Lifecycle Environments API
   slug: red-hat-satellite-lifecycle-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml
 - filename: red-hat-satellite-organizations-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Organizations API
   slug: red-hat-satellite-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-organizations-api-openapi.yml
 - filename: red-hat-satellite-subscriptions-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Subscriptions API
   slug: red-hat-satellite-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-subscriptions-api-openapi.yml
 consequence_counts:
   read: 9
   write: 13
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/red-ha
   \ post\n  operationId: uploadSubscriptionManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /katello/api/v2/organizations/{organization_id}/subscriptions/delete_manifest\n  method: post\n  operationId: deleteSubscriptionManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /katello/api/v2/organizations/{organization_id}/subscriptions/refresh_manifest\n  method: put\n  operationId: refreshSubscriptionManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /katello/api/v2/organizations/{organization_id}/environments\n  method: get\n  operationId: listLifecycleEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /katello/api/v2/organizations/{organization_id}/environments\n  method: post\n  operationId: createLifecycleEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /katello/api/v2/organizations/{organization_id}/environments/paths\n  method: get\n  operationId: listLifecycleEnvironmentPaths\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/organizations\n  method: get\n  operationId: listOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/organizations/{id}\n  method: get\n  operationId: showOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/agentic-access/red-hat-satellite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/red-hat-satellite/agentic-access/red-hat-satellite-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
 - Configuration Management

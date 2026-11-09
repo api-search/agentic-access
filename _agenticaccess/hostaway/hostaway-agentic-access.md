@@ -9,61 +9,61 @@ api_specs:
   label: Hostaway Listings API
   slug: hostaway-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listings-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-listings-api-openapi.yml
 - filename: hostaway-reservations-api-openapi.yml
   format: yaml
   label: Hostaway Reservations API
   slug: hostaway-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-reservations-api-openapi.yml
 - filename: hostaway-calendar-api-openapi.yml
   format: yaml
   label: Hostaway Calendar API
   slug: hostaway-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-calendar-api-openapi.yml
 - filename: hostaway-webhooks-api-openapi.yml
   format: yaml
   label: Hostaway Webhooks API
   slug: hostaway-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-webhooks-api-openapi.yml
 - filename: hostaway-listing-amenities-api-openapi.yml
   format: yaml
   label: Hostaway Listing Amenities API
   slug: hostaway-listing-amenities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listing-amenities-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-listing-amenities-api-openapi.yml
 - filename: hostaway-listing-bed-types-api-openapi.yml
   format: yaml
   label: Hostaway Listing Bed Types API
   slug: hostaway-listing-bed-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listing-bed-types-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-listing-bed-types-api-openapi.yml
 - filename: hostaway-listing-images-api-openapi.yml
   format: yaml
   label: Hostaway Listing Images API
   slug: hostaway-listing-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listing-images-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-listing-images-api-openapi.yml
 - filename: hostaway-reservation-coupons-api-openapi.yml
   format: yaml
   label: Hostaway Reservation Coupons API
   slug: hostaway-reservation-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservation-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-reservation-coupons-api-openapi.yml
 - filename: hostaway-reservation-fees-api-openapi.yml
   format: yaml
   label: Hostaway Reservation Fees API
   slug: hostaway-reservation-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservation-fees-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-reservation-fees-api-openapi.yml
 - filename: hostaway-reservation-units-api-openapi.yml
   format: yaml
   label: Hostaway Reservation Units API
   slug: hostaway-reservation-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservation-units-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-reservation-units-api-openapi.yml
 consequence_counts:
   read: 12
   write: 11
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hostaw
   - path: /reservations/{reservationId}/coupons\n  method: post\n  operationId: createReservationCoupon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reservations/{reservationId}/fees\n  method: get\n  operationId: listReservationFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservations/{reservationId}/units\n  method: get\n  operationId: listReservationUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/unifiedWebhooks\n  method: get\n  operationId: listUnifiedWebhooks\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/unifiedWebhooks\n  method: post\n  operationId: createUnifiedWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/unifiedWebhooks/{webhookId}\n  method: get\n  operationId: getUnifiedWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/unifiedWebhooks/{webhookId}\n  method: put\n  operationId: updateUnifiedWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/unifiedWebhooks/{webhookId}\n  method: delete\n  operationId: deleteUnifiedWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/agentic-access/hostaway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hostaway/agentic-access/hostaway-agentic-access.yml
 summary_line: 23 operations · 11 acting
 tags:
 - Vacation Rentals

@@ -9,49 +9,49 @@ api_specs:
   label: Internet2 Co API
   slug: internet2-co-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet2/refs/heads/main/openapi/internet2-co-api-openapi.yml
+  url: https://artifacts.apis.io/internet2/openapi/internet2-co-api-openapi.yml
 - filename: internet2-co-group-members-api-openapi.yml
   format: yaml
   label: Internet2 Co Group Members API
   slug: internet2-co-group-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet2/refs/heads/main/openapi/internet2-co-group-members-api-openapi.yml
+  url: https://artifacts.apis.io/internet2/openapi/internet2-co-group-members-api-openapi.yml
 - filename: internet2-co-group-members-json-api-openapi.yml
   format: yaml
   label: Internet2 Co Group Members.json API
   slug: internet2-co-group-members-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet2/refs/heads/main/openapi/internet2-co-group-members-json-api-openapi.yml
+  url: https://artifacts.apis.io/internet2/openapi/internet2-co-group-members-json-api-openapi.yml
 - filename: internet2-co-groups-api-openapi.yml
   format: yaml
   label: Internet2 Co Groups API
   slug: internet2-co-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet2/refs/heads/main/openapi/internet2-co-groups-api-openapi.yml
+  url: https://artifacts.apis.io/internet2/openapi/internet2-co-groups-api-openapi.yml
 - filename: internet2-co-groups-json-api-openapi.yml
   format: yaml
   label: Internet2 Co Groups.json API
   slug: internet2-co-groups-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet2/refs/heads/main/openapi/internet2-co-groups-json-api-openapi.yml
+  url: https://artifacts.apis.io/internet2/openapi/internet2-co-groups-json-api-openapi.yml
 - filename: internet2-co-people-api-openapi.yml
   format: yaml
   label: Internet2 Co People API
   slug: internet2-co-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet2/refs/heads/main/openapi/internet2-co-people-api-openapi.yml
+  url: https://artifacts.apis.io/internet2/openapi/internet2-co-people-api-openapi.yml
 - filename: internet2-co-people-json-api-openapi.yml
   format: yaml
   label: Internet2 Co People.json API
   slug: internet2-co-people-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet2/refs/heads/main/openapi/internet2-co-people-json-api-openapi.yml
+  url: https://artifacts.apis.io/internet2/openapi/internet2-co-people-json-api-openapi.yml
 - filename: internet2-email-addresses-json-api-openapi.yml
   format: yaml
   label: Internet2 Email Addresses.json API
   slug: internet2-email-addresses-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/internet2/refs/heads/main/openapi/internet2-email-addresses-json-api-openapi.yml
+  url: https://artifacts.apis.io/internet2/openapi/internet2-email-addresses-json-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 7
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/comana
   \      - abnormal\n      - high-value\n    audit: required\n- path: /co_groups/reconcile/{id}.json\n  method: post\n  operationId: reconcileCoGroupMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /co_people.json\n  method: get\n  operationId: getCoPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /co_people.json\n  method: post\n  operationId: addCoPerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /co_people/{id}.json\n  method: delete\n  operationId: deleteCoPerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /co_people/{id}.json\n  method: get\n  operationId: getCoPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /co_people/{id}.json\n  method: put\n  operationId: editCoPerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /email_addresses.json\n\
   \  method: get\n  operationId: getEmailAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email_addresses.json\n  method: post\n  operationId: addEmailAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/internet2/refs/heads/main/agentic-access/internet2-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/internet2/agentic-access/internet2-agentic-access.yml
 summary_line: 19 operations · 12 acting
 tags:
 - Company

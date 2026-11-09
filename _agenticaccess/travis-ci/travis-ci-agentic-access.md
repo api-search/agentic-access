@@ -9,37 +9,37 @@ api_specs:
   label: Travis CI Builds API
   slug: travis-ci-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-builds-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-builds-api-openapi.yml
 - filename: travis-ci-jobs-api-openapi.yml
   format: yaml
   label: Travis CI Jobs API
   slug: travis-ci-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-jobs-api-openapi.yml
 - filename: travis-ci-logs-api-openapi.yml
   format: yaml
   label: Travis CI Logs API
   slug: travis-ci-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-logs-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-logs-api-openapi.yml
 - filename: travis-ci-organizations-api-openapi.yml
   format: yaml
   label: Travis CI Organizations API
   slug: travis-ci-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-organizations-api-openapi.yml
 - filename: travis-ci-repositories-api-openapi.yml
   format: yaml
   label: Travis CI Repositories API
   slug: travis-ci-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-repositories-api-openapi.yml
 - filename: travis-ci-users-api-openapi.yml
   format: yaml
   label: Travis CI Users API
   slug: travis-ci-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-users-api-openapi.yml
+  url: https://artifacts.apis.io/travis-ci/openapi/travis-ci-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 12
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/travis
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job/{job_id}/log\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/{user_id}\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{user_id}/sync\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logout\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{organization_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{organization_id}/suspend\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{organization_id}/unsuspend\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{organization_id}/user_activity\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/agentic-access/travis-ci-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/travis-ci/agentic-access/travis-ci-agentic-access.yml
 summary_line: 24 operations · 12 acting
 tags:
 - DevOps

@@ -9,19 +9,19 @@ api_specs:
   label: Google Classroom Courses API
   slug: google-classroom-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/openapi/google-classroom-courses-api-openapi.yml
+  url: https://artifacts.apis.io/google-classroom/openapi/google-classroom-courses-api-openapi.yml
 - filename: google-classroom-invitations-api-openapi.yml
   format: yaml
   label: Google Classroom Invitations API
   slug: google-classroom-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/openapi/google-classroom-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/google-classroom/openapi/google-classroom-invitations-api-openapi.yml
 - filename: google-classroom-user-profiles-api-openapi.yml
   format: yaml
   label: Google Classroom User Profiles API
   slug: google-classroom-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/openapi/google-classroom-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/google-classroom/openapi/google-classroom-user-profiles-api-openapi.yml
 consequence_counts:
   read: 11
   write: 12
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \   audit: none\n- path: /v1/courses/{courseId}/teachers\n  method: post\n  operationId: addTeacher\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/courses/{courseId}/announcements\n  method: get\n  operationId: listAnnouncements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/courses/{courseId}/announcements\n  method: post\n  operationId: createAnnouncement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v1/courses/{courseId}/topics\n  method: get\n  operationId: listTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/courses/{courseId}/topics\n  method: post\n  operationId: createTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/invitations\n  method: get\n  operationId: listInvitations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invitations\n  method: post\n  operationId: createInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/userProfiles/{userId}\n  method: get\n  operationId: getUserProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/agentic-access/google-classroom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-classroom/agentic-access/google-classroom-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Assignments

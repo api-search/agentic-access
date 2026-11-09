@@ -9,19 +9,19 @@ api_specs:
   label: Gradient Completions API
   slug: gradient-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-completions-api-openapi.yml
+  url: https://artifacts.apis.io/gradient/openapi/gradient-completions-api-openapi.yml
 - filename: gradient-models-api-openapi.yml
   format: yaml
   label: Gradient Models API
   slug: gradient-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-models-api-openapi.yml
+  url: https://artifacts.apis.io/gradient/openapi/gradient-models-api-openapi.yml
 - filename: gradient-chat-completions-api-openapi.yml
   format: yaml
   label: Gradient Chat Completions API
   slug: gradient-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/gradient/openapi/gradient-chat-completions-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/gradient-cloud-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 1\n    acting: 2\n  by_consequence:\n    read: 1\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /ai/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ai/completions\n  method: post\n  operationId: createCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/agentic-access/gradient-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gradient/agentic-access/gradient-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
 - Company

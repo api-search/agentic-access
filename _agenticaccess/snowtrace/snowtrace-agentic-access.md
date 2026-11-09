@@ -9,49 +9,49 @@ api_specs:
   label: Routescan (Snowtrace) Accounts API
   slug: snowtrace-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-accounts-api-openapi.yml
 - filename: snowtrace-blocks-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Blocks API
   slug: snowtrace-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-blocks-api-openapi.yml
 - filename: snowtrace-contracts-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Contracts API
   slug: snowtrace-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-contracts-api-openapi.yml
 - filename: snowtrace-logs-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Logs API
   slug: snowtrace-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-logs-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-logs-api-openapi.yml
 - filename: snowtrace-proxy-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Proxy API
   slug: snowtrace-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-proxy-api-openapi.yml
 - filename: snowtrace-stats-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Stats API
   slug: snowtrace-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-stats-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-stats-api-openapi.yml
 - filename: snowtrace-tokens-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Tokens API
   slug: snowtrace-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-tokens-api-openapi.yml
 - filename: snowtrace-transactions-api-openapi.yml
   format: yaml
   label: Routescan (Snowtrace) Transactions API
   slug: snowtrace-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/openapi/snowtrace-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/snowtrace/openapi/snowtrace-transactions-api-openapi.yml
 consequence_counts:
   read: 28
   write: 1
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction/getstatus\n  method: get\n  operationId: getTransactionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction/gettxreceiptstatus\n  method: get\n  operationId: getTransactionReceiptStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/eth_blockNumber\n  method: get\n  operationId: proxyEthBlockNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/eth_getBlockByNumber\n  method: get\n  operationId: proxyEthGetBlockByNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/eth_getTransactionByHash\n  method: get\n  operationId: proxyEthGetTransactionByHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/eth_getTransactionReceipt\n  method: get\n  operationId: proxyEthGetTransactionReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/eth_call\n  method: get\n  operationId: proxyEthCall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/eth_gasPrice\n  method: get\n  operationId: proxyEthGasPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/eth_estimateGas\n\
   \  method: get\n  operationId: proxyEthEstimateGas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/agentic-access/snowtrace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snowtrace/agentic-access/snowtrace-agentic-access.yml
 summary_line: 29 operations · 1 acting
 tags:
 - Blockchain

@@ -9,43 +9,43 @@ api_specs:
   label: Endor Labs Authentication API
   slug: endor-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-authentication-api-openapi.yml
 - filename: endor-labs-findings-api-openapi.yml
   format: yaml
   label: Endor Labs Findings API
   slug: endor-labs-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-findings-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-findings-api-openapi.yml
 - filename: endor-labs-namespaces-api-openapi.yml
   format: yaml
   label: Endor Labs Namespaces API
   slug: endor-labs-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-namespaces-api-openapi.yml
 - filename: endor-labs-packages-api-openapi.yml
   format: yaml
   label: Endor Labs Packages API
   slug: endor-labs-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-packages-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-packages-api-openapi.yml
 - filename: endor-labs-policies-api-openapi.yml
   format: yaml
   label: Endor Labs Policies API
   slug: endor-labs-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-policies-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-policies-api-openapi.yml
 - filename: endor-labs-projects-api-openapi.yml
   format: yaml
   label: Endor Labs Projects API
   slug: endor-labs-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-projects-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-projects-api-openapi.yml
 - filename: endor-labs-scan-results-api-openapi.yml
   format: yaml
   label: Endor Labs Scan Results API
   slug: endor-labs-scan-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/openapi/endor-labs-scan-results-api-openapi.yml
+  url: https://artifacts.apis.io/endor-labs/openapi/endor-labs-scan-results-api-openapi.yml
 consequence_counts:
   read: 11
   write: 5
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/endor-
   \  method: get\n  operationId: getPackageVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/findings\n  method: get\n  operationId: listFindings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/findings/{uuid}\n  method: get\n  operationId: getFinding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/policies\n  method: post\n  operationId: createPolicy\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/policies/{uuid}\n  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/policies/{uuid}\n  method: patch\n  operationId: updatePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/policies/{uuid}\n  method: delete\n  operationId: deletePolicy\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/scan-results\n  method: get\n  operationId: listScanResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/scan-results/{uuid}\n  method: get\n  operationId: getScanResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/namespaces\n  method: get\n  operationId: listNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/agentic-access/endor-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/endor-labs/agentic-access/endor-labs-agentic-access.yml
 summary_line: 16 operations · 5 acting
 tags:
 - Security

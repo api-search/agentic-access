@@ -9,187 +9,187 @@ api_specs:
   label: Sirenic Acheteur API
   slug: sirenic-eu-acheteur-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-acheteur-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-acheteur-api-openapi.yml
 - filename: sirenic-eu-association-api-openapi.yml
   format: yaml
   label: Sirenic Association API
   slug: sirenic-eu-association-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-association-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-association-api-openapi.yml
 - filename: sirenic-eu-associations-api-openapi.yml
   format: yaml
   label: Sirenic Associations API
   slug: sirenic-eu-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-associations-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-associations-api-openapi.yml
 - filename: sirenic-eu-bodacc-api-openapi.yml
   format: yaml
   label: Sirenic Bodacc API
   slug: sirenic-eu-bodacc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-bodacc-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-bodacc-api-openapi.yml
 - filename: sirenic-eu-comparer-api-openapi.yml
   format: yaml
   label: Sirenic Comparer API
   slug: sirenic-eu-comparer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-comparer-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-comparer-api-openapi.yml
 - filename: sirenic-eu-demo-api-openapi.yml
   format: yaml
   label: Sirenic Demo API
   slug: sirenic-eu-demo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-demo-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-demo-api-openapi.yml
 - filename: sirenic-eu-dirigeant-api-openapi.yml
   format: yaml
   label: Sirenic Dirigeant API
   slug: sirenic-eu-dirigeant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-dirigeant-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-dirigeant-api-openapi.yml
 - filename: sirenic-eu-documents-api-openapi.yml
   format: yaml
   label: Sirenic Documents API
   slug: sirenic-eu-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-documents-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-documents-api-openapi.yml
 - filename: sirenic-eu-entreprise-api-openapi.yml
   format: yaml
   label: Sirenic Entreprise API
   slug: sirenic-eu-entreprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-entreprise-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-entreprise-api-openapi.yml
 - filename: sirenic-eu-eu-api-openapi.yml
   format: yaml
   label: Sirenic Eu API
   slug: sirenic-eu-eu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-eu-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-eu-api-openapi.yml
 - filename: sirenic-eu-facturation-api-openapi.yml
   format: yaml
   label: Sirenic Facturation API
   slug: sirenic-eu-facturation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-facturation-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-facturation-api-openapi.yml
 - filename: sirenic-eu-facture-api-openapi.yml
   format: yaml
   label: Sirenic Facture API
   slug: sirenic-eu-facture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-facture-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-facture-api-openapi.yml
 - filename: sirenic-eu-healthz-api-openapi.yml
   format: yaml
   label: Sirenic Healthz API
   slug: sirenic-eu-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-healthz-api-openapi.yml
 - filename: sirenic-eu-iban-api-openapi.yml
   format: yaml
   label: Sirenic Iban API
   slug: sirenic-eu-iban-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-iban-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-iban-api-openapi.yml
 - filename: sirenic-eu-intelligence-api-openapi.yml
   format: yaml
   label: Sirenic Intelligence API
   slug: sirenic-eu-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-intelligence-api-openapi.yml
 - filename: sirenic-eu-kyb-api-openapi.yml
   format: yaml
   label: Sirenic Kyb API
   slug: sirenic-eu-kyb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-kyb-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-kyb-api-openapi.yml
 - filename: sirenic-eu-lecture-api-openapi.yml
   format: yaml
   label: Sirenic Lecture API
   slug: sirenic-eu-lecture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-lecture-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-lecture-api-openapi.yml
 - filename: sirenic-eu-marches-api-openapi.yml
   format: yaml
   label: Sirenic Marches API
   slug: sirenic-eu-marches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-marches-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-marches-api-openapi.yml
 - filename: sirenic-eu-preview-api-openapi.yml
   format: yaml
   label: Sirenic Preview API
   slug: sirenic-eu-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-preview-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-preview-api-openapi.yml
 - filename: sirenic-eu-prospection-api-openapi.yml
   format: yaml
   label: Sirenic Prospection API
   slug: sirenic-eu-prospection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-prospection-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-prospection-api-openapi.yml
 - filename: sirenic-eu-provenance-api-openapi.yml
   format: yaml
   label: Sirenic Provenance API
   slug: sirenic-eu-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-provenance-api-openapi.yml
 - filename: sirenic-eu-rapport-api-openapi.yml
   format: yaml
   label: Sirenic Rapport API
   slug: sirenic-eu-rapport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-rapport-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-rapport-api-openapi.yml
 - filename: sirenic-eu-recherche-api-openapi.yml
   format: yaml
   label: Sirenic Recherche API
   slug: sirenic-eu-recherche-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-recherche-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-recherche-api-openapi.yml
 - filename: sirenic-eu-regulateurs-api-openapi.yml
   format: yaml
   label: Sirenic Regulateurs API
   slug: sirenic-eu-regulateurs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-regulateurs-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-regulateurs-api-openapi.yml
 - filename: sirenic-eu-reperer-api-openapi.yml
   format: yaml
   label: Sirenic Reperer API
   slug: sirenic-eu-reperer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-reperer-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-reperer-api-openapi.yml
 - filename: sirenic-eu-sanctions-api-openapi.yml
   format: yaml
   label: Sirenic Sanctions API
   slug: sirenic-eu-sanctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-sanctions-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-sanctions-api-openapi.yml
 - filename: sirenic-eu-score-api-openapi.yml
   format: yaml
   label: Sirenic Score API
   slug: sirenic-eu-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-score-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-score-api-openapi.yml
 - filename: sirenic-eu-secteur-api-openapi.yml
   format: yaml
   label: Sirenic Secteur API
   slug: sirenic-eu-secteur-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-secteur-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-secteur-api-openapi.yml
 - filename: sirenic-eu-suggestions-api-openapi.yml
   format: yaml
   label: Sirenic Suggestions API
   slug: sirenic-eu-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-suggestions-api-openapi.yml
 - filename: sirenic-eu-surveillance-api-openapi.yml
   format: yaml
   label: Sirenic Surveillance API
   slug: sirenic-eu-surveillance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-surveillance-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-surveillance-api-openapi.yml
 - filename: sirenic-eu-tva-api-openapi.yml
   format: yaml
   label: Sirenic Tva API
   slug: sirenic-eu-tva-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/openapi/sirenic-eu-tva-api-openapi.yml
+  url: https://artifacts.apis.io/sirenic-eu/openapi/sirenic-eu-tva-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 122
@@ -254,7 +254,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/sireni
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/iban/verifier/{iban}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tva/verifier/{numero}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/provenance/registres\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lecture\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/suggestions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v1/reperer\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preview/entreprise/55203253400646\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/demo/entreprise\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /healthz\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\ncuration_note: All 125 operations are HTTP GET, so the heuristic classified everything as connected/read. Three\n  GETs mutate server state and two of them spend money; they are curated to acting per the provider's own route\n\
   \  descriptions. The whole surface is pay-per-call, so even reads carry a spend consequence — see conventions dry_run\n  for the free quote path.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/agentic-access/sirenic-eu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sirenic-eu/agentic-access/sirenic-eu-agentic-access.yml
 summary_line: 125 operations · 3 acting
 tags:
 - Company Data

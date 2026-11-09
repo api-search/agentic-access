@@ -9,43 +9,43 @@ api_specs:
   label: WHOOP Activity ID Mapping API
   slug: whoop-activity-id-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-activity-id-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-activity-id-mapping-api-openapi.yml
 - filename: whoop-cycle-api-openapi.yml
   format: yaml
   label: WHOOP Cycle API
   slug: whoop-cycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-cycle-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-cycle-api-openapi.yml
 - filename: whoop-partner-api-openapi.yml
   format: yaml
   label: WHOOP Partner API
   slug: whoop-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-partner-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-partner-api-openapi.yml
 - filename: whoop-recovery-api-openapi.yml
   format: yaml
   label: WHOOP Recovery API
   slug: whoop-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-recovery-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-recovery-api-openapi.yml
 - filename: whoop-sleep-api-openapi.yml
   format: yaml
   label: WHOOP Sleep API
   slug: whoop-sleep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-sleep-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-sleep-api-openapi.yml
 - filename: whoop-user-api-openapi.yml
   format: yaml
   label: WHOOP User API
   slug: whoop-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-user-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-user-api-openapi.yml
 - filename: whoop-workout-api-openapi.yml
   format: yaml
   label: WHOOP Workout API
   slug: whoop-workout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-workout-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-workout-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 1
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/whoop-
   \    subject: optional\n    scope:\n    - read:recovery\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/cycle/{cycleId}/recovery\n  method: get\n  operationId: getRecoveryForCycle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:recovery\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/activity/sleep/{sleepId}\n  method: get\n  operationId: getSleepById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:sleep\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/activity/sleep\n  method: get\n  operationId: getSleepCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:sleep\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/activity/sleep/{sleepId}/stream\n  method: get\n  operationId: getSleepStream\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user/measurement/body\n  method: get\n  operationId: getBodyMeasurement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:body_measurement\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user/profile/basic\n  method: get\n  operationId: getProfileBasic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:profile\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user/access\n  method: delete\n  operationId: revokeUserOAuthAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n     \
   \ human-in-the-loop: required\n    audit: required\n- path: /v2/activity/workout/{workoutId}\n  method: get\n  operationId: getWorkoutById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:workout\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/activity/workout\n  method: get\n  operationId: getWorkoutCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:workout\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/agentic-access/whoop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/whoop/agentic-access/whoop-agentic-access.yml
 summary_line: 21 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Fitness

@@ -9,25 +9,25 @@ api_specs:
   label: StockX Batch API
   slug: stockx-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-batch-api-openapi.yml
+  url: https://artifacts.apis.io/stockx/openapi/stockx-batch-api-openapi.yml
 - filename: stockx-catalog-api-openapi.yml
   format: yaml
   label: StockX Catalog API
   slug: stockx-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/stockx/openapi/stockx-catalog-api-openapi.yml
 - filename: stockx-listings-api-openapi.yml
   format: yaml
   label: StockX Listings API
   slug: stockx-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-listings-api-openapi.yml
+  url: https://artifacts.apis.io/stockx/openapi/stockx-listings-api-openapi.yml
 - filename: stockx-order-api-openapi.yml
   format: yaml
   label: StockX Order API
   slug: stockx-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-order-api-openapi.yml
+  url: https://artifacts.apis.io/stockx/openapi/stockx-order-api-openapi.yml
 consequence_counts:
   read: 23
   write: 9
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/stockx
   \     - abnormal\n      - high-value\n    audit: required\n- path: /selling/listings/{listingId}\n  method: delete\n  operationId: DeleteListing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /selling/listings/{listingId}\n  method: get\n  operationId: FindById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selling/listings/{listingId}/operations/{operationId}\n  method: get\n  operationId: FindOperationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selling/listings/{listingId}/operations\n  method: get\n  operationId: GetListingOperations\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selling/orders/active\n  method: get\n  operationId: GetOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selling/orders/history\n  method: get\n  operationId: GetHistoricalOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selling/orders/{orderNumber}\n  method: get\n  operationId: GetOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selling/orders/{orderNumber}/shipping-document/{shippingId}\n  method: get\n  operationId: GetOrderShipment\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selling/orders/{orderNumber}/shipping-document\n  method: get\n  operationId: GetOrderShipmentDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/agentic-access/stockx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stockx/agentic-access/stockx-agentic-access.yml
 summary_line: 32 operations · 9 acting
 tags:
 - Company

@@ -9,151 +9,151 @@ api_specs:
   label: Latitude Account API
   slug: latitude-so-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-account-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-account-api-openapi.yml
 - filename: latitude-so-agent-score-api-openapi.yml
   format: yaml
   label: Latitude Agent Score API
   slug: latitude-so-agent-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-agent-score-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-agent-score-api-openapi.yml
 - filename: latitude-so-analytics-api-openapi.yml
   format: yaml
   label: Latitude Analytics API
   slug: latitude-so-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-analytics-api-openapi.yml
 - filename: latitude-so-annotations-api-openapi.yml
   format: yaml
   label: Latitude Annotations API
   slug: latitude-so-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-annotations-api-openapi.yml
 - filename: latitude-so-api-keys-api-openapi.yml
   format: yaml
   label: Latitude API Keys API
   slug: latitude-so-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-api-keys-api-openapi.yml
 - filename: latitude-so-datasets-api-openapi.yml
   format: yaml
   label: Latitude Datasets API
   slug: latitude-so-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-datasets-api-openapi.yml
 - filename: latitude-so-experiments-api-openapi.yml
   format: yaml
   label: Latitude Experiments API
   slug: latitude-so-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-experiments-api-openapi.yml
 - filename: latitude-so-health-api-openapi.yml
   format: yaml
   label: Latitude Health API
   slug: latitude-so-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-health-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-health-api-openapi.yml
 - filename: latitude-so-imports-api-openapi.yml
   format: yaml
   label: Latitude Imports API
   slug: latitude-so-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-imports-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-imports-api-openapi.yml
 - filename: latitude-so-incidents-api-openapi.yml
   format: yaml
   label: Latitude Incidents API
   slug: latitude-so-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-incidents-api-openapi.yml
 - filename: latitude-so-members-api-openapi.yml
   format: yaml
   label: Latitude Members API
   slug: latitude-so-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-members-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-members-api-openapi.yml
 - filename: latitude-so-memory-api-openapi.yml
   format: yaml
   label: Latitude Memory API
   slug: latitude-so-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-memory-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-memory-api-openapi.yml
 - filename: latitude-so-monitors-api-openapi.yml
   format: yaml
   label: Latitude Monitors API
   slug: latitude-so-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-monitors-api-openapi.yml
 - filename: latitude-so-oauth-keys-api-openapi.yml
   format: yaml
   label: Latitude OAuth Keys API
   slug: latitude-so-oauth-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-oauth-keys-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-oauth-keys-api-openapi.yml
 - filename: latitude-so-projects-api-openapi.yml
   format: yaml
   label: Latitude Projects API
   slug: latitude-so-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-projects-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-projects-api-openapi.yml
 - filename: latitude-so-saved-searches-api-openapi.yml
   format: yaml
   label: Latitude Saved Searches API
   slug: latitude-so-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-saved-searches-api-openapi.yml
 - filename: latitude-so-scores-api-openapi.yml
   format: yaml
   label: Latitude Scores API
   slug: latitude-so-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-scores-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-scores-api-openapi.yml
 - filename: latitude-so-sessions-api-openapi.yml
   format: yaml
   label: Latitude Sessions API
   slug: latitude-so-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-sessions-api-openapi.yml
 - filename: latitude-so-signals-api-openapi.yml
   format: yaml
   label: Latitude Signals API
   slug: latitude-so-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-signals-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-signals-api-openapi.yml
 - filename: latitude-so-spans-api-openapi.yml
   format: yaml
   label: Latitude Spans API
   slug: latitude-so-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-spans-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-spans-api-openapi.yml
 - filename: latitude-so-tools-api-openapi.yml
   format: yaml
   label: Latitude Tools API
   slug: latitude-so-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-tools-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-tools-api-openapi.yml
 - filename: latitude-so-traces-api-openapi.yml
   format: yaml
   label: Latitude Traces API
   slug: latitude-so-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-traces-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-traces-api-openapi.yml
 - filename: latitude-so-usage-api-openapi.yml
   format: yaml
   label: Latitude Usage API
   slug: latitude-so-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-usage-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-usage-api-openapi.yml
 - filename: latitude-so-users-api-openapi.yml
   format: yaml
   label: Latitude Users API
   slug: latitude-so-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-users-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-users-api-openapi.yml
 - filename: latitude-so-well-known-api-openapi.yml
   format: yaml
   label: Latitude Well Known API
   slug: latitude-so-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/openapi/latitude-so-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/latitude-so/openapi/latitude-so-well-known-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 81
@@ -232,8 +232,8 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/latitu
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectSlug}/monitors\n  method: get\n  operationId: listMonitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectSlug}/monitors\n  method: post\n  operationId: createMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectSlug}/monitors/for-target\n  method: post\n  operationId: listMonitorsForTarget\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectSlug}/monitors/{monitorSlug}\n  method: get\n  operationId: getMonitor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectSlug}/monitors/{monitorSlug}\n  method: patch\n  operationId: updateMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectSlug}/monitors/{monitorSlug}\n  method: delete\n  operationId: deleteMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectSlug}/monitors/{monitorSlug}/incidents\n  method: get\n  operationId: listMonitorIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectSlug}/monitors/{monitorSlug}/mute\n  method: post\n  operationId: muteMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectSlug}/monitors/{monitorSlug}/unmute\n  method: post\n  operationId: unmuteMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectSlug}/analytics/query\n  method: post\n  operationId: queryAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectSlug}/spans/query\n  method: post\n  operationId: querySpans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectSlug}/experiments\n  method: get\n  operationId: listExperiments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/agentic-access/latitude-so-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/latitude-so/refs/heads/main/agentic-access/latitude-so-agentic-access.yml
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectSlug}/analytics/query\n  method: post\n  operationId: queryAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectSlug}/spans/query\n  method: post\n  operationId: querySpans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectSlug}/experiments\n  method: get\n  operationId: listExperiments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/latitude-so/agentic-access/latitude-so-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/latitude-so/agentic-access/latitude-so-agentic-access.yml
 summary_line: 139 operations · 58 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -8,19 +8,19 @@ api_specs:
   label: Golden Recursion Entity API
   slug: golden-recursion-entity-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-entity-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden-recursion/openapi/golden-recursion-entity-api-api-openapi.yml
 - filename: golden-recursion-query-api-api-openapi.yml
   format: yaml
   label: Golden Recursion Query API
   slug: golden-recursion-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden-recursion/openapi/golden-recursion-query-api-api-openapi.yml
 - filename: golden-recursion-schema-api-api-openapi.yml
   format: yaml
   label: Golden Recursion Schema API
   slug: golden-recursion-schema-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/openapi/golden-recursion-schema-api-api-openapi.yml
+  url: https://artifacts.apis.io/golden-recursion/openapi/golden-recursion-schema-api-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/golden-recursion-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v2/public/entities/\n  method: get\n  operationId: public_api_entities_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/public/entities/{id}/\n  method: get\n  operationId: public_api_entities_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v2/public/queries/{id}/results/\n  method: get\n  operationId: public_api_queries_results_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/public/queries/permalink/{permalink}/\n  method: get\n  operationId: public_api_queries_permalink_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/public/schema/entityTypes/\n  method: get\n  operationId: public_api_schema_entityTypes_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/public/schema/entityTypes/{id}/\n  method: get\n  operationId: public_api_schema_entityTypes_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /api/v2/public/schema/predicates/\n  method: get\n  operationId: public_api_schema_predicates_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/public/schema/predicates/{id}/\n  method: get\n  operationId: public_api_schema_predicates_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/agentic-access/golden-recursion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/golden-recursion/agentic-access/golden-recursion-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Company

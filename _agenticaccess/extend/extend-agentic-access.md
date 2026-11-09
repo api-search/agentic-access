@@ -9,73 +9,73 @@ api_specs:
   label: Extend Claims Management API
   slug: extend-claims-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-claims-management-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-claims-management-api-openapi.yml
 - filename: extend-contracts-api-openapi.yml
   format: yaml
   label: Extend Contracts API
   slug: extend-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-contracts-api-openapi.yml
 - filename: extend-leads-api-openapi.yml
   format: yaml
   label: Extend Leads API
   slug: extend-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-leads-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-leads-api-openapi.yml
 - filename: extend-offers-api-openapi.yml
   format: yaml
   label: Extend Offers API
   slug: extend-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-offers-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-offers-api-openapi.yml
 - filename: extend-orders-api-openapi.yml
   format: yaml
   label: Extend Orders API
   slug: extend-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-orders-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-orders-api-openapi.yml
 - filename: extend-products-api-openapi.yml
   format: yaml
   label: Extend Products API
   slug: extend-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-products-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-products-api-openapi.yml
 - filename: extend-refunds-api-openapi.yml
   format: yaml
   label: Extend Refunds API
   slug: extend-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-refunds-api-openapi.yml
 - filename: extend-service-orders-api-openapi.yml
   format: yaml
   label: Extend Service Orders API
   slug: extend-service-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-service-orders-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-service-orders-api-openapi.yml
 - filename: extend-dynamic-return-policy-api-openapi.yml
   format: yaml
   label: Extend Dynamic Return Policy API
   slug: extend-dynamic-return-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-dynamic-return-policy-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-dynamic-return-policy-api-openapi.yml
 - filename: extend-line-items-api-openapi.yml
   format: yaml
   label: Extend Line Items API
   slug: extend-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-line-items-api-openapi.yml
 - filename: extend-shippingoffers-api-openapi.yml
   format: yaml
   label: Extend Shipping Offers API
   slug: extend-shippingoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-shippingoffers-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-shippingoffers-api-openapi.yml
 - filename: extend-webhooks-api-openapi.yml
   format: yaml
   label: Extend Webhooks API
   slug: extend-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/extend/openapi/extend-webhooks-api-openapi.yml
 consequence_counts:
   physical: 21
   read: 17
@@ -223,7 +223,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/extend
   \    audit: required\n- path: /service-orders/{serviceOrderId}/generate-repair-label\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /service-orders/{serviceOrderId}/request-payment\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /service-orders/{serviceOrderId}/update-repair\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipping-offers/config\n  method: get\n  operationId: shippingOffersConfigGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipping-offers/config/marketing\n  method: get\n  operationId: shippingOffersMarketingGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipping-offers/quotes\n  method: post\n  operationId: shippingOffersQuoteCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/agentic-access/extend-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/extend/agentic-access/extend-agentic-access.yml
 summary_line: 43 operations · 26 acting
 tags:
 - Company

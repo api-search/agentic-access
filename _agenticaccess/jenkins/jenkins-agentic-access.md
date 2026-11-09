@@ -9,25 +9,25 @@ api_specs:
   label: Jenkins Computer API
   slug: jenkins-computer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-computer-api-openapi.yml
+  url: https://artifacts.apis.io/jenkins/openapi/jenkins-computer-api-openapi.yml
 - filename: jenkins-jobs-api-openapi.yml
   format: yaml
   label: Jenkins Jobs API
   slug: jenkins-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/jenkins/openapi/jenkins-jobs-api-openapi.yml
 - filename: jenkins-queue-api-openapi.yml
   format: yaml
   label: Jenkins Queue API
   slug: jenkins-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-queue-api-openapi.yml
+  url: https://artifacts.apis.io/jenkins/openapi/jenkins-queue-api-openapi.yml
 - filename: jenkins-server-api-openapi.yml
   format: yaml
   label: Jenkins Server API
   slug: jenkins-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/openapi/jenkins-server-api-openapi.yml
+  url: https://artifacts.apis.io/jenkins/openapi/jenkins-server-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jenkins-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 6\n    acting: 2\n  by_consequence:\n    read: 6\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /api/json\n  method: get\n  operationId: getJenkinsInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/xml\n  method: get\n  operationId: getJenkinsInfoXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job/{jobName}/api/json\n  method: get\n  operationId:\
   \ getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job/{jobName}/build\n  method: post\n  operationId: triggerBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /job/{jobName}/buildWithParameters\n  method: post\n  operationId: triggerBuildWithParameters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /job/{jobName}/{buildNumber}/api/json\n  method: get\n  operationId: getBuild\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queue/api/json\n  method: get\n  operationId: getQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /computer/api/json\n  method: get\n  operationId: listComputers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/agentic-access/jenkins-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jenkins/agentic-access/jenkins-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
 - Automation

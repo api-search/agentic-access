@@ -9,55 +9,55 @@ api_specs:
   label: SpyFu Account API
   slug: spyfu-account-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-account-api-api-openapi.yml
+  url: https://artifacts.apis.io/spyfu/openapi/spyfu-account-api-api-openapi.yml
 - filename: spyfu-ad-history-research-api-api-openapi.yml
   format: yaml
   label: SpyFu Ad History Research API
   slug: spyfu-ad-history-research-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-ad-history-research-api-api-openapi.yml
+  url: https://artifacts.apis.io/spyfu/openapi/spyfu-ad-history-research-api-api-openapi.yml
 - filename: spyfu-competitors-api-api-openapi.yml
   format: yaml
   label: SpyFu Competitors API
   slug: spyfu-competitors-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-competitors-api-api-openapi.yml
+  url: https://artifacts.apis.io/spyfu/openapi/spyfu-competitors-api-api-openapi.yml
 - filename: spyfu-domain-stats-api-api-openapi.yml
   format: yaml
   label: SpyFu Domain Stats API
   slug: spyfu-domain-stats-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-domain-stats-api-api-openapi.yml
+  url: https://artifacts.apis.io/spyfu/openapi/spyfu-domain-stats-api-api-openapi.yml
 - filename: spyfu-keyword-research-api-api-openapi.yml
   format: yaml
   label: SpyFu Keyword Research API
   slug: spyfu-keyword-research-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-keyword-research-api-api-openapi.yml
+  url: https://artifacts.apis.io/spyfu/openapi/spyfu-keyword-research-api-api-openapi.yml
 - filename: spyfu-kombat-api-api-openapi.yml
   format: yaml
   label: SpyFu Kombat API
   slug: spyfu-kombat-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-kombat-api-api-openapi.yml
+  url: https://artifacts.apis.io/spyfu/openapi/spyfu-kombat-api-api-openapi.yml
 - filename: spyfu-ppc-research-api-api-openapi.yml
   format: yaml
   label: SpyFu PPC Research API
   slug: spyfu-ppc-research-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-ppc-research-api-api-openapi.yml
+  url: https://artifacts.apis.io/spyfu/openapi/spyfu-ppc-research-api-api-openapi.yml
 - filename: spyfu-ranking-history-api-api-openapi.yml
   format: yaml
   label: SpyFu Ranking History API
   slug: spyfu-ranking-history-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-ranking-history-api-api-openapi.yml
+  url: https://artifacts.apis.io/spyfu/openapi/spyfu-ranking-history-api-api-openapi.yml
 - filename: spyfu-seo-research-api-api-openapi.yml
   format: yaml
   label: SpyFu SEO Research API
   slug: spyfu-seo-research-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/openapi/spyfu-seo-research-api-api-openapi.yml
+  url: https://artifacts.apis.io/spyfu/openapi/spyfu-seo-research-api-api-openapi.yml
 consequence_counts:
   read: 47
   write: 1
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spyfu-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/seo/getSeoKeywords\n  method: get\n  operationId: OrganicSerpApi_GetSeoKeywords_GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/seo/getOrganicOutrankingKeywords\n  method: get\n  operationId: OrganicSerpApi_GetOrganicOutrankingKeywords_GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/seo/getWhereTheyOutRankYou\n  method: get\n  operationId: OrganicSerpApi_GetKeywordsWhereTheyOutRankYou_GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/seo/getWhereTheyJustSurpassedYou\n  method: get\n  operationId: OrganicSerpApi_GetKeywordsWhereTheyJustSurpassedYou_GET\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/seo/getSerpAnalysisKeywords\n  method: get\n  operationId: OrganicSerpApi_GetSerpAnalysisKeywords_GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/seo/getLiveSeoStats\n  method: get\n  operationId: OrganicSerpApi_GetLiveSeoStats_GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/seo/getMostTrafficTopPages\n  method: get\n  operationId: TopPagesApi_GetMostTrafficTopPages_GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/seo/getNewTopPages\n  method: get\n  operationId: TopPagesApi_GetNewTopPages_GET\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/seo/getTopPages\n  method: get\n  operationId: TopPagesApi_GetTopPages_GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/agentic-access/spyfu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spyfu/agentic-access/spyfu-agentic-access.yml
 summary_line: 48 operations · 1 acting
 tags:
 - SEO

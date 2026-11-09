@@ -9,103 +9,103 @@ api_specs:
   label: Salla Webhooks
   slug: salla-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-webhooks-asyncapi.yml
 - filename: salla-branches-api-openapi.yml
   format: yaml
   label: Salla Branches API
   slug: salla-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-branches-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-branches-api-openapi.yml
 - filename: salla-brands-api-openapi.yml
   format: yaml
   label: Salla Brands API
   slug: salla-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-brands-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-brands-api-openapi.yml
 - filename: salla-carts-api-openapi.yml
   format: yaml
   label: Salla Carts API
   slug: salla-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-carts-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-carts-api-openapi.yml
 - filename: salla-categories-api-openapi.yml
   format: yaml
   label: Salla Categories API
   slug: salla-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-categories-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-categories-api-openapi.yml
 - filename: salla-coupons-api-openapi.yml
   format: yaml
   label: Salla Coupons API
   slug: salla-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-coupons-api-openapi.yml
 - filename: salla-customers-api-openapi.yml
   format: yaml
   label: Salla Customers API
   slug: salla-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-customers-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-customers-api-openapi.yml
 - filename: salla-financial-api-openapi.yml
   format: yaml
   label: Salla Financial API
   slug: salla-financial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-financial-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-financial-api-openapi.yml
 - filename: salla-localization-api-openapi.yml
   format: yaml
   label: Salla Localization API
   slug: salla-localization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-localization-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-localization-api-openapi.yml
 - filename: salla-oauth-api-openapi.yml
   format: yaml
   label: Salla OAuth API
   slug: salla-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-oauth-api-openapi.yml
 - filename: salla-orders-api-openapi.yml
   format: yaml
   label: Salla Orders API
   slug: salla-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-orders-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-orders-api-openapi.yml
 - filename: salla-products-api-openapi.yml
   format: yaml
   label: Salla Products API
   slug: salla-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-products-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-products-api-openapi.yml
 - filename: salla-shipments-api-openapi.yml
   format: yaml
   label: Salla Shipments API
   slug: salla-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-shipments-api-openapi.yml
 - filename: salla-shipping-api-openapi.yml
   format: yaml
   label: Salla Shipping API
   slug: salla-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-shipping-api-openapi.yml
 - filename: salla-store-api-openapi.yml
   format: yaml
   label: Salla Store API
   slug: salla-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-store-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-store-api-openapi.yml
 - filename: salla-webhooks-api-openapi.yml
   format: yaml
   label: Salla Webhooks API
   slug: salla-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-webhooks-api-openapi.yml
 - filename: salla-zones-api-openapi.yml
   format: yaml
   label: Salla Zones API
   slug: salla-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-zones-api-openapi.yml
+  url: https://artifacts.apis.io/salla/openapi/salla-zones-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 39
@@ -213,7 +213,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/salla-
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments\n  method: get\n  operationId: listShipments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments\n  method: post\n  operationId: createShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/{shipment_id}\n  method: get\n  operationId: getShipment\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/{shipment_id}\n  method: put\n  operationId: updateShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/{shipment_id}/cancel\n  method: post\n  operationId: cancelShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/{shipment_id}/return\n\
   \  method: post\n  operationId: createShipmentReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/agentic-access/salla-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/salla/agentic-access/salla-agentic-access.yml
 summary_line: 69 operations · 30 acting
 tags:
 - Arabic

@@ -9,43 +9,43 @@ api_specs:
   label: Komerce Cost API
   slug: komerce-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-cost-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-cost-api-openapi.yml
 - filename: komerce-destinations-api-openapi.yml
   format: yaml
   label: Komerce Destinations API
   slug: komerce-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-destinations-api-openapi.yml
 - filename: komerce-orders-api-openapi.yml
   format: yaml
   label: Komerce Orders API
   slug: komerce-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-orders-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-orders-api-openapi.yml
 - filename: komerce-payments-api-openapi.yml
   format: yaml
   label: Komerce Payments API
   slug: komerce-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-payments-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-payments-api-openapi.yml
 - filename: komerce-pickup-api-openapi.yml
   format: yaml
   label: Komerce Pickup API
   slug: komerce-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-pickup-api-openapi.yml
 - filename: komerce-qris-api-openapi.yml
   format: yaml
   label: Komerce QRIS API
   slug: komerce-qris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-qris-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-qris-api-openapi.yml
 - filename: komerce-tracking-api-openapi.yml
   format: yaml
   label: Komerce Tracking API
   slug: komerce-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/openapi/komerce-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/komerce/openapi/komerce-tracking-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 13
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/komerc
   \ searchDeliveryDestination\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tariff/api/v1/calculate\n  method: get\n  operationId: calculateDeliveryPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/api/v1/orders/store\n  method: post\n  operationId: storeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/api/v1/orders/cancel\n  method: put\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/api/v1/orders/detail\n  method: get\n  operationId: getOrderDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/api/v1/orders/history-airway-bill\n  method: get\n  operationId: getAirwayBillHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/api/v1/orders/print-label\n  method: post\n  operationId: printOrderLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/api/v1/pickup/request\n  method: post\n  operationId: requestPickup\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/agentic-access/komerce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/komerce/agentic-access/komerce-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
 - Company

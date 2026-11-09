@@ -9,49 +9,49 @@ api_specs:
   label: Credilinq.ai Authentication API
   slug: credilinqai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-authentication-api-openapi.yml
 - filename: credilinqai-customers-api-openapi.yml
   format: yaml
   label: Credilinq.ai Customers API
   slug: credilinqai-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-customers-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-customers-api-openapi.yml
 - filename: credilinqai-kyc-api-openapi.yml
   format: yaml
   label: Credilinq.ai KYC API
   slug: credilinqai-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-kyc-api-openapi.yml
 - filename: credilinqai-loans-api-openapi.yml
   format: yaml
   label: Credilinq.ai Loans API
   slug: credilinqai-loans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-loans-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-loans-api-openapi.yml
 - filename: credilinqai-miscellaneous-api-openapi.yml
   format: yaml
   label: Credilinq.ai Miscellaneous API
   slug: credilinqai-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-miscellaneous-api-openapi.yml
 - filename: credilinqai-onboarding-api-openapi.yml
   format: yaml
   label: Credilinq.ai Onboarding API
   slug: credilinqai-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-onboarding-api-openapi.yml
 - filename: credilinqai-payment-api-openapi.yml
   format: yaml
   label: Credilinq.ai Payment API
   slug: credilinqai-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-payment-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-payment-api-openapi.yml
 - filename: credilinqai-report-api-openapi.yml
   format: yaml
   label: Credilinq.ai Report API
   slug: credilinqai-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/credilinqai-report-api-openapi.yml
+  url: https://artifacts.apis.io/credilinqai/openapi/credilinqai-report-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 17
@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/credil
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/payments/loans/payment/{loanId}\n  method: get\n  operationId: PaymentsController_getAllPaymentsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports/partner/partner-report\n  method: get\n  operationId: ReportController_getPartnerReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports/customer/{customerReferenceNo}/dashboard\n  method: get\n  operationId: ReportController_getClientDashboardData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/reports/credit-history/{customerReferenceNo}\n  method: get\n  operationId: ReportController_GetAllCreditHistoryByRefNo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/others/demographic-info/postal-codes\n  method: get\n  operationId: OthersController_getPostalCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/others/demographic-info/countries\n  method: get\n  operationId: OthersController_getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/others/demographic-info/addresses\n  method: get\n  operationId: OthersController_getFullAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/others/kyc/document-types\n  method: get\n  operationId: OthersController_getKycDocumentType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/agentic-access/credilinqai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/credilinqai/agentic-access/credilinqai-agentic-access.yml
 summary_line: 31 operations · 17 acting · 17 human-in-the-loop
 tags:
 - Company

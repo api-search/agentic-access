@@ -9,31 +9,31 @@ api_specs:
   label: Noun Project Autocomplete API
   slug: noun-project-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-autocomplete-api-openapi.yml
 - filename: noun-project-blocklist-api-openapi.yml
   format: yaml
   label: Noun Project Blocklist API
   slug: noun-project-blocklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-blocklist-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-blocklist-api-openapi.yml
 - filename: noun-project-collection-api-openapi.yml
   format: yaml
   label: Noun Project Collection API
   slug: noun-project-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-collection-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-collection-api-openapi.yml
 - filename: noun-project-icon-api-openapi.yml
   format: yaml
   label: Noun Project Icon API
   slug: noun-project-icon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-icon-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-icon-api-openapi.yml
 - filename: noun-project-usage-api-openapi.yml
   format: yaml
   label: Noun Project Usage API
   slug: noun-project-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-usage-api-openapi.yml
+  url: https://artifacts.apis.io/noun-project/openapi/noun-project-usage-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/noun-p
   \ get\n  operationId: getSimilarIcons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/icon/{icon_id}/download\n  method: get\n  operationId: downloadIcon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/icon/autocomplete\n  method: get\n  operationId: autocompleteIcons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/collection\n  method: get\n  operationId: searchCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/collection/{collection_id}\n  method: get\n  operationId: getCollection\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/client/usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/client/blacklist\n  method: get\n  operationId: getBlocklist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/client/blacklist/id\n  method: post\n  operationId: addBlocklistIds\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/client/blacklist/term\n  method: post\n  operationId: addBlocklistTerms\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/agentic-access/noun-project-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/noun-project/agentic-access/noun-project-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Icons

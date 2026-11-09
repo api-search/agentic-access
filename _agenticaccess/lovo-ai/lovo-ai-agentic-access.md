@@ -9,19 +9,19 @@ api_specs:
   label: LOVO AI Speakers API
   slug: lovo-ai-speakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-speakers-api-openapi.yml
+  url: https://artifacts.apis.io/lovo-ai/openapi/lovo-ai-speakers-api-openapi.yml
 - filename: lovo-ai-teams-api-openapi.yml
   format: yaml
   label: LOVO AI Teams API
   slug: lovo-ai-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-teams-api-openapi.yml
+  url: https://artifacts.apis.io/lovo-ai/openapi/lovo-ai-teams-api-openapi.yml
 - filename: lovo-ai-text-to-speech-api-openapi.yml
   format: yaml
   label: LOVO AI Text-to-Speech API
   slug: lovo-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/openapi/lovo-ai-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/lovo-ai/openapi/lovo-ai-text-to-speech-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lovo-ai-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 2\n    connected: 3\n  by_consequence:\n    write: 2\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/tts\n  method: post\n  operationId: async-tts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tts/sync\n  method: post\n  operationId: sync-tts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tts/{jobId}\n  method: get\n  operationId: async-retrieve-job\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/speakers\n  method: get\n  operationId: retrieve-speakers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/teams/status\n  method: get\n  operationId: get-team-billing-information\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lovo-ai/refs/heads/main/agentic-access/lovo-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lovo-ai/agentic-access/lovo-ai-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - Artificial Intelligence

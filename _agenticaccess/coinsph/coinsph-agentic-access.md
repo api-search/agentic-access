@@ -9,157 +9,157 @@ api_specs:
   label: Coins.ph Account API
   slug: coinsph-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-account-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-account-api-openapi.yml
 - filename: coinsph-account-validation-api-openapi.yml
   format: yaml
   label: Coins.ph Account Validation API
   slug: coinsph-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-account-validation-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-account-validation-api-openapi.yml
 - filename: coinsph-checkout-api-openapi.yml
   format: yaml
   label: Coins.ph Checkout API
   slug: coinsph-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-checkout-api-openapi.yml
 - filename: coinsph-checkout-refund-api-openapi.yml
   format: yaml
   label: Coins.ph Checkout Refund API
   slug: coinsph-checkout-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-checkout-refund-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-checkout-refund-api-openapi.yml
 - filename: coinsph-collections-crypto-api-openapi.yml
   format: yaml
   label: Coins.ph Collections - Crypto API
   slug: coinsph-collections-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-collections-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-collections-crypto-api-openapi.yml
 - filename: coinsph-collections-qrph-api-openapi.yml
   format: yaml
   label: Coins.ph Collections - QRPH API
   slug: coinsph-collections-qrph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-collections-qrph-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-collections-qrph-api-openapi.yml
 - filename: coinsph-convert-api-openapi.yml
   format: yaml
   label: Coins.ph Convert API
   slug: coinsph-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-convert-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-convert-api-openapi.yml
 - filename: coinsph-disbursements-api-openapi.yml
   format: yaml
   label: Coins.ph Disbursements API
   slug: coinsph-disbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-disbursements-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-disbursements-api-openapi.yml
 - filename: coinsph-general-api-openapi.yml
   format: yaml
   label: Coins.ph General API
   slug: coinsph-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-general-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-general-api-openapi.yml
 - filename: coinsph-listens-api-openapi.yml
   format: yaml
   label: Coins.ph Listens API
   slug: coinsph-listens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-listens-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-listens-api-openapi.yml
 - filename: coinsph-markets-api-openapi.yml
   format: yaml
   label: Coins.ph Markets API
   slug: coinsph-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-markets-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-markets-api-openapi.yml
 - filename: coinsph-on-off-ramp-api-openapi.yml
   format: yaml
   label: Coins.ph ON/OFF Ramp API
   slug: coinsph-on-off-ramp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-on-off-ramp-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-on-off-ramp-api-openapi.yml
 - filename: coinsph-order-history-api-openapi.yml
   format: yaml
   label: Coins.ph Order History API
   slug: coinsph-order-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-order-history-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-order-history-api-openapi.yml
 - filename: coinsph-ramp-callback-api-openapi.yml
   format: yaml
   label: Coins.ph Ramp Callback API
   slug: coinsph-ramp-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-ramp-callback-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-ramp-callback-api-openapi.yml
 - filename: coinsph-reconciliation-api-openapi.yml
   format: yaml
   label: Coins.ph Reconciliation API
   slug: coinsph-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-reconciliation-api-openapi.yml
 - filename: coinsph-refund-api-openapi.yml
   format: yaml
   label: Coins.ph Refund API
   slug: coinsph-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-refund-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-refund-api-openapi.yml
 - filename: coinsph-scan-to-pay-api-openapi.yml
   format: yaml
   label: Coins.ph Scan to Pay API
   slug: coinsph-scan-to-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-scan-to-pay-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-scan-to-pay-api-openapi.yml
 - filename: coinsph-spot-api-openapi.yml
   format: yaml
   label: Coins.ph Spot API
   slug: coinsph-spot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-spot-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-spot-api-openapi.yml
 - filename: coinsph-sub-account-api-openapi.yml
   format: yaml
   label: Coins.ph Sub Account API
   slug: coinsph-sub-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-sub-account-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-sub-account-api-openapi.yml
 - filename: coinsph-tokenized-checkout-api-openapi.yml
   format: yaml
   label: Coins.ph Tokenized Checkout API
   slug: coinsph-tokenized-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-tokenized-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-tokenized-checkout-api-openapi.yml
 - filename: coinsph-trading-convert-api-openapi.yml
   format: yaml
   label: Coins.ph Trading - Convert API
   slug: coinsph-trading-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-trading-convert-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-trading-convert-api-openapi.yml
 - filename: coinsph-trading-otc-api-openapi.yml
   format: yaml
   label: Coins.ph Trading - OTC API
   slug: coinsph-trading-otc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-trading-otc-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-trading-otc-api-openapi.yml
 - filename: coinsph-transfers-api-openapi.yml
   format: yaml
   label: Coins.ph Transfers API
   slug: coinsph-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-transfers-api-openapi.yml
 - filename: coinsph-utility-api-openapi.yml
   format: yaml
   label: Coins.ph Utility API
   slug: coinsph-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-utility-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-utility-api-openapi.yml
 - filename: coinsph-virtual-account-api-openapi.yml
   format: yaml
   label: Coins.ph Virtual Account API
   slug: coinsph-virtual-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-virtual-account-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-virtual-account-api-openapi.yml
 - filename: coinsph-wallet-api-openapi.yml
   format: yaml
   label: Coins.ph Wallet API
   slug: coinsph-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/openapi/coinsph-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/coinsph/openapi/coinsph-wallet-api-openapi.yml
 consequence_counts:
   physical: 27
   read: 61
@@ -345,8 +345,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/coinsp
   \     - high-value\n    audit: required\n- path: /openapi/otc-trade/v1/manual-settle\n  method: post\n  operationId: manualSettle\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/transfer/v4/transfers\n  method: post\n  operationId: post_transfers\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/transfer/v3/transfers\n  method: get\n  operationId: get_transfers\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v1/account\n  method: get\n  operationId: getAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/transfer/v3/transfers\n  method: post\n  operationId: p2pTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v1/user/ip\n  method: get\n  operationId: getUserIP\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v1/virtual-account/create\n\
   \  method: post\n  operationId: createVirtualAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v1/virtual-account/update\n  method: post\n  operationId: updateVirtualAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v1/virtual-account/details\n  method: post\n  operationId: getVirtualAccountDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n\
-  # Full source: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/agentic-access/coinsph-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/agentic-access/coinsph-agentic-access.yml
+  # Full source: https://artifacts.apis.io/coinsph/agentic-access/coinsph-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/coinsph/agentic-access/coinsph-agentic-access.yml
 summary_line: 113 operations · 52 acting
 tags:
 - Company

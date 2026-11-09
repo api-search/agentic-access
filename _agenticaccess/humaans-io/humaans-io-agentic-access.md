@@ -9,91 +9,91 @@ api_specs:
   label: Humaans Audit Events API
   slug: humaans-io-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-audit-events-api-openapi.yml
 - filename: humaans-io-bank-accounts-api-openapi.yml
   format: yaml
   label: Humaans Bank Accounts API
   slug: humaans-io-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-bank-accounts-api-openapi.yml
 - filename: humaans-io-companies-api-openapi.yml
   format: yaml
   label: Humaans Companies API
   slug: humaans-io-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-companies-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-companies-api-openapi.yml
 - filename: humaans-io-compensations-api-openapi.yml
   format: yaml
   label: Humaans Compensations API
   slug: humaans-io-compensations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-compensations-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-compensations-api-openapi.yml
 - filename: humaans-io-custom-fields-api-openapi.yml
   format: yaml
   label: Humaans Custom Fields API
   slug: humaans-io-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-custom-fields-api-openapi.yml
 - filename: humaans-io-documents-api-openapi.yml
   format: yaml
   label: Humaans Documents API
   slug: humaans-io-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-documents-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-documents-api-openapi.yml
 - filename: humaans-io-equipment-api-openapi.yml
   format: yaml
   label: Humaans Equipment API
   slug: humaans-io-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-equipment-api-openapi.yml
 - filename: humaans-io-job-roles-api-openapi.yml
   format: yaml
   label: Humaans Job Roles API
   slug: humaans-io-job-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-job-roles-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-job-roles-api-openapi.yml
 - filename: humaans-io-locations-api-openapi.yml
   format: yaml
   label: Humaans Locations API
   slug: humaans-io-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-locations-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-locations-api-openapi.yml
 - filename: humaans-io-people-api-openapi.yml
   format: yaml
   label: Humaans People API
   slug: humaans-io-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-people-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-people-api-openapi.yml
 - filename: humaans-io-performance-api-openapi.yml
   format: yaml
   label: Humaans Performance API
   slug: humaans-io-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-performance-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-performance-api-openapi.yml
 - filename: humaans-io-time-away-api-openapi.yml
   format: yaml
   label: Humaans Time Away API
   slug: humaans-io-time-away-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-time-away-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-time-away-api-openapi.yml
 - filename: humaans-io-timesheet-api-openapi.yml
   format: yaml
   label: Humaans Timesheet API
   slug: humaans-io-timesheet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-timesheet-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-timesheet-api-openapi.yml
 - filename: humaans-io-webhooks-api-openapi.yml
   format: yaml
   label: Humaans Webhooks API
   slug: humaans-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-webhooks-api-openapi.yml
 - filename: humaans-io-working-patterns-api-openapi.yml
   format: yaml
   label: Humaans Working Patterns API
   slug: humaans-io-working-patterns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/openapi/humaans-io-working-patterns-api-openapi.yml
+  url: https://artifacts.apis.io/humaans-io/openapi/humaans-io-working-patterns-api-openapi.yml
 consequence_counts:
   read: 32
   write: 31
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/humaan
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheet-submissions\n  method: get\n  operationId: listTimesheetSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId:\
   \ getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audit-events\n  method: get\n  operationId: listAuditEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /working-patterns\n  method: get\n  operationId: listWorkingPatterns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/agentic-access/humaans-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/humaans-io/agentic-access/humaans-io-agentic-access.yml
 summary_line: 63 operations · 31 acting
 tags:
 - Human Resources

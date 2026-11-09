@@ -9,31 +9,31 @@ api_specs:
   label: Apifuse Analytics API
   slug: apifuse-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-analytics-api-openapi.yml
 - filename: apifuse-connectors-api-openapi.yml
   format: yaml
   label: Apifuse Connectors API
   slug: apifuse-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-connectors-api-openapi.yml
 - filename: apifuse-integrations-api-openapi.yml
   format: yaml
   label: Apifuse Integrations API
   slug: apifuse-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-integrations-api-openapi.yml
 - filename: apifuse-users-api-openapi.yml
   format: yaml
   label: Apifuse Users API
   slug: apifuse-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-users-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-users-api-openapi.yml
 - filename: apifuse-workflows-api-openapi.yml
   format: yaml
   label: Apifuse Workflows API
   slug: apifuse-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-workflows-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apifuse-api.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 6\n    acting: 1\n  by_consequence:\n    read: 6\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /integrations\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/{integrationId}\n  method: get\n  operationId: getIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectors\n  method:\
   \ get\n  operationId: listConnectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows\n  method: get\n  operationId: listWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows\n  method: post\n  operationId: createWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics\n  method: get\n  operationId: getAnalytics\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/agentic-access/apifuse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apifuse/agentic-access/apifuse-agentic-access.yml
 summary_line: 7 operations · 1 acting
 tags:
 - Embedded Integrations

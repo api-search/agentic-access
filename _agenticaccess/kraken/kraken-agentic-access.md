@@ -9,97 +9,97 @@ api_specs:
   label: Kraken Spot WebSocket API v2
   slug: kraken-spot-websocket-api-v2
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/asyncapi/kraken-asyncapi.yml
+  url: https://artifacts.apis.io/kraken/asyncapi/kraken-asyncapi.yml
 - filename: kraken-earn-api-openapi.yml
   format: yaml
   label: Kraken Earn API
   slug: kraken-earn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-earn-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-earn-api-openapi.yml
 - filename: kraken-account-api-openapi.yml
   format: yaml
   label: Kraken Account API
   slug: kraken-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-account-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-account-api-openapi.yml
 - filename: kraken-account-data-api-openapi.yml
   format: yaml
   label: Kraken Account Data API
   slug: kraken-account-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-account-data-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-account-data-api-openapi.yml
 - filename: kraken-auth-api-openapi.yml
   format: yaml
   label: Kraken Auth API
   slug: kraken-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-auth-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-auth-api-openapi.yml
 - filename: kraken-charts-api-openapi.yml
   format: yaml
   label: Kraken Charts API
   slug: kraken-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-charts-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-charts-api-openapi.yml
 - filename: kraken-earn-api-openapi.yml
   format: yaml
   label: Kraken Earn API
   slug: kraken-earn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-earn-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-earn-api-openapi.yml
 - filename: kraken-funding-api-openapi.yml
   format: yaml
   label: Kraken Funding API
   slug: kraken-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-funding-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-funding-api-openapi.yml
 - filename: kraken-history-api-openapi.yml
   format: yaml
   label: Kraken History API
   slug: kraken-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-history-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-history-api-openapi.yml
 - filename: kraken-market-data-api-openapi.yml
   format: yaml
   label: Kraken Market Data API
   slug: kraken-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-market-data-api-openapi.yml
 - filename: kraken-subaccounts-api-openapi.yml
   format: yaml
   label: Kraken Subaccounts API
   slug: kraken-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-subaccounts-api-openapi.yml
 - filename: kraken-trading-api-openapi.yml
   format: yaml
   label: Kraken Trading API
   slug: kraken-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-trading-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-trading-api-openapi.yml
 - filename: kraken-transfers-api-openapi.yml
   format: yaml
   label: Kraken Transfers API
   slug: kraken-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-transfers-api-openapi.yml
 - filename: kraken-websocket-api-openapi.yml
   format: yaml
   label: Kraken WebSocket API
   slug: kraken-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-websocket-api-openapi.yml
 - filename: kraken-funding-beta-api-openapi.yml
   format: yaml
   label: Kraken Funding Beta API
   slug: kraken-funding-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-funding-beta-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-funding-beta-api-openapi.yml
 - filename: kraken-transparency-api-openapi.yml
   format: yaml
   label: Kraken Transparency API
   slug: kraken-transparency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-transparency-api-openapi.yml
+  url: https://artifacts.apis.io/kraken/openapi/kraken-transparency-api-openapi.yml
 consequence_counts:
   physical: 25
   read: 42
@@ -273,7 +273,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kraken
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /0/private/CancelOrder\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /0/private/CancelAll\n  method: post\n  operationId: cancelAllOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /0/private/CancelAllOrdersAfter\n  method: post\n  operationId: cancelAllOrdersAfter\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /0/private/CancelOrderBatch\n  method: post\n  operationId: cancelOrderBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfer\n  method: post\n  operationId: transferFutures\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /withdrawal\n  method: post\n  operationId: withdrawalFutures\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /0/private/GetWebSocketsToken\n  method: post\n  operationId: getWebSocketsToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/agentic-access/kraken-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kraken/agentic-access/kraken-agentic-access.yml
 summary_line: 71 operations · 29 acting
 tags:
 - Kraken
@@ -293,7 +293,8 @@ tags:
 - OTC
 - Prime Brokerage
 - Embed
-- Authentication
+- OAuth
 - Public APIs
 - Real-Time
+- Authentication
 ---

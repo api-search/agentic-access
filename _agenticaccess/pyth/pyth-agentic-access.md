@@ -8,31 +8,31 @@ api_specs:
   label: Pyth Price Differences API
   slug: pyth-price-differences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-price-differences-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-price-differences-api-openapi.yml
 - filename: pyth-price-feeds-api-openapi.yml
   format: yaml
   label: Pyth Price Feeds API
   slug: pyth-price-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-price-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-price-feeds-api-openapi.yml
 - filename: pyth-rest-api-openapi.yml
   format: yaml
   label: Pyth Rest API
   slug: pyth-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-rest-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-rest-api-openapi.yml
 - filename: pyth-tradingview-api-openapi.yml
   format: yaml
   label: Pyth TradingView API
   slug: pyth-tradingview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-tradingview-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-tradingview-api-openapi.yml
 - filename: pyth-updates-api-openapi.yml
   format: yaml
   label: Pyth Updates API
   slug: pyth-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/openapi/pyth-updates-api-openapi.yml
+  url: https://artifacts.apis.io/pyth/openapi/pyth-updates-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/pyth-b
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/get_vaa_ccip\n  method: get\n  operationId: get_vaa_ccip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/latest_price_feeds\n  method: get\n  operationId: latest_price_feeds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/latest_vaas\n  method: get\n  operationId: latest_vaas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/price_feed_ids\n  method: get\n  operationId: price_feed_ids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v2/price_feeds\n  method: get\n  operationId: price_feeds_metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/updates/price/latest\n  method: get\n  operationId: latest_price_updates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/updates/price/stream\n  method: get\n  operationId: price_stream_sse_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/updates/price/{publish_time}\n  method: get\n  operationId: timestamp_price_updates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/updates/publisher_stake_caps/latest\n\
   \  method: get\n  operationId: latest_publisher_stake_caps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/agentic-access/pyth-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pyth/agentic-access/pyth-agentic-access.yml
 summary_line: 23 operations
 tags:
 - Company

@@ -9,25 +9,25 @@ api_specs:
   label: Koala Accounts API
   slug: koala-io-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/koala-io/openapi/koala-io-accounts-api-openapi.yml
 - filename: koala-io-collection-api-openapi.yml
   format: yaml
   label: Koala Collection API
   slug: koala-io-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-collection-api-openapi.yml
+  url: https://artifacts.apis.io/koala-io/openapi/koala-io-collection-api-openapi.yml
 - filename: koala-io-deletion-api-openapi.yml
   format: yaml
   label: Koala Deletion API
   slug: koala-io-deletion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-deletion-api-openapi.yml
+  url: https://artifacts.apis.io/koala-io/openapi/koala-io-deletion-api-openapi.yml
 - filename: koala-io-sdk-api-openapi.yml
   format: yaml
   label: Koala SDK API
   slug: koala-io-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/openapi/koala-io-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/koala-io/openapi/koala-io-sdk-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 2
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/koala-
   \  max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web/projects/{publicApiKey}/accounts/batch\n  method: post\n  operationId: collectAccountBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web/projects/{publicApiKey}/batch\n  method: post\n  operationId: collectBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/deletion-requests\n  method: post\n\
   \  operationId: createDeletionRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/deletion-requests/{deletionRequestId}\n  method: get\n  operationId: getDeletionRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batch\n  method: post\n  operationId: sendProfileBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web/projects/{publicApiKey}\n\
   \  method: get\n  operationId: getProjectBootstrap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/agentic-access/koala-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/koala-io/agentic-access/koala-io-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
 - Buyer Intent

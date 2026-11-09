@@ -9,67 +9,67 @@ api_specs:
   label: Clearstreet8e71 Accounts API
   slug: clearstreet8e71-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-accounts-api-openapi.yml
 - filename: clearstreet8e71-api-version-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 API version API
   slug: clearstreet8e71-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-api-version-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-api-version-api-openapi.yml
 - filename: clearstreet8e71-calendar-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Calendar API
   slug: clearstreet8e71-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-calendar-api-openapi.yml
 - filename: clearstreet8e71-instrument-data-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Instrument Data API
   slug: clearstreet8e71-instrument-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-instrument-data-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-instrument-data-api-openapi.yml
 - filename: clearstreet8e71-instruments-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Instruments API
   slug: clearstreet8e71-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-instruments-api-openapi.yml
 - filename: clearstreet8e71-omni-ai-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Omni AI API
   slug: clearstreet8e71-omni-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-omni-ai-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-omni-ai-api-openapi.yml
 - filename: clearstreet8e71-orders-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Orders API
   slug: clearstreet8e71-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-orders-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-orders-api-openapi.yml
 - filename: clearstreet8e71-positions-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Positions API
   slug: clearstreet8e71-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-positions-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-positions-api-openapi.yml
 - filename: clearstreet8e71-private-markets-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Private Markets API
   slug: clearstreet8e71-private-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-private-markets-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-private-markets-api-openapi.yml
 - filename: clearstreet8e71-screener-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Screener API
   slug: clearstreet8e71-screener-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-screener-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-screener-api-openapi.yml
 - filename: clearstreet8e71-watchlist-api-openapi.yml
   format: yaml
   label: Clearstreet8e71 Watchlist API
   slug: clearstreet8e71-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/openapi/clearstreet8e71-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/clearstreet8e71/openapi/clearstreet8e71-watchlist-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 46
@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/clears
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/version\n  method: get\n  operationId: get_version\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/watchlists\n  method: get\n  operationId: get_watchlists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/watchlists\n  method: post\n  operationId: create_watchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watchlists/{watchlist_id}\n  method: get\n  operationId: get_watchlist_by_id\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/watchlists/{watchlist_id}\n  method: delete\n  operationId: delete_watchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watchlists/{watchlist_id}/items\n  method: post\n  operationId: add_watchlist_item\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watchlists/{watchlist_id}/items/{item_id}\n  method: delete\n  operationId: delete_watchlist_item\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/agentic-access/clearstreet8e71-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clearstreet8e71/agentic-access/clearstreet8e71-agentic-access.yml
 summary_line: 72 operations · 26 acting
 tags:
 - Company

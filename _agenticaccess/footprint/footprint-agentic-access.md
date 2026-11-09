@@ -9,49 +9,49 @@ api_specs:
   label: Footprint Analytics Chain API
   slug: footprint-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-chain-api-openapi.yml
+  url: https://artifacts.apis.io/footprint/openapi/footprint-chain-api-openapi.yml
 - filename: footprint-defi-api-openapi.yml
   format: yaml
   label: Footprint Analytics DeFi API
   slug: footprint-defi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-defi-api-openapi.yml
+  url: https://artifacts.apis.io/footprint/openapi/footprint-defi-api-openapi.yml
 - filename: footprint-events-api-openapi.yml
   format: yaml
   label: Footprint Analytics Events API
   slug: footprint-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-events-api-openapi.yml
+  url: https://artifacts.apis.io/footprint/openapi/footprint-events-api-openapi.yml
 - filename: footprint-gamefi-api-openapi.yml
   format: yaml
   label: Footprint Analytics GameFi API
   slug: footprint-gamefi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-gamefi-api-openapi.yml
+  url: https://artifacts.apis.io/footprint/openapi/footprint-gamefi-api-openapi.yml
 - filename: footprint-nft-api-openapi.yml
   format: yaml
   label: Footprint Analytics NFT API
   slug: footprint-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-nft-api-openapi.yml
+  url: https://artifacts.apis.io/footprint/openapi/footprint-nft-api-openapi.yml
 - filename: footprint-query-api-openapi.yml
   format: yaml
   label: Footprint Analytics Query API
   slug: footprint-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-query-api-openapi.yml
+  url: https://artifacts.apis.io/footprint/openapi/footprint-query-api-openapi.yml
 - filename: footprint-token-api-openapi.yml
   format: yaml
   label: Footprint Analytics Token API
   slug: footprint-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-token-api-openapi.yml
+  url: https://artifacts.apis.io/footprint/openapi/footprint-token-api-openapi.yml
 - filename: footprint-wallet-api-openapi.yml
   format: yaml
   label: Footprint Analytics Wallet API
   slug: footprint-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/openapi/footprint-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/footprint/openapi/footprint-wallet-api-openapi.yml
 consequence_counts:
   read: 12
   write: 4
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \     max-ttl: 3600\n    audit: none\n- path: /api/v1/gamefi/games/{game_id}/metrics\n  method: get\n  operationId: getGameMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tokens/{token_address}\n  method: get\n  operationId: getTokenInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tokens/{token_address}/holders\n  method: get\n  operationId: getTokenHolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/wallet/{wallet_address}/profile\n  method: get\n  operationId: getWalletProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/wallet/{wallet_address}/eligibility/nft\n  method: get\n  operationId: checkNftHolderEligibility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/wallet/{wallet_address}/eligibility/token\n  method: get\n  operationId: checkTokenHolderEligibility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chain/{chain}/blocks\n  method: get\n  operationId: getChainBlocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/events/track\n  method: post\n  operationId: trackEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user_id}\n  method: put\n  operationId: setUserProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user_id}/accounts\n  method: post\n  operationId: linkWalletAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/agentic-access/footprint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/footprint/agentic-access/footprint-agentic-access.yml
 summary_line: 16 operations · 4 acting
 tags:
 - Blockchain

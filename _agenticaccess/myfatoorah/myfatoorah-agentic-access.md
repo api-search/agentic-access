@@ -9,55 +9,55 @@ api_specs:
   label: MyFatoorah Invoicing API
   slug: myfatoorah-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-invoicing-api-openapi.yml
 - filename: myfatoorah-payment-status-api-openapi.yml
   format: yaml
   label: MyFatoorah Payment Status API
   slug: myfatoorah-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-payment-status-api-openapi.yml
 - filename: myfatoorah-payments-api-openapi.yml
   format: yaml
   label: MyFatoorah Payments API
   slug: myfatoorah-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-payments-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-payments-api-openapi.yml
 - filename: myfatoorah-recurring-api-openapi.yml
   format: yaml
   label: MyFatoorah Recurring API
   slug: myfatoorah-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-recurring-api-openapi.yml
 - filename: myfatoorah-refunds-api-openapi.yml
   format: yaml
   label: MyFatoorah Refunds API
   slug: myfatoorah-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-refunds-api-openapi.yml
 - filename: myfatoorah-sessions-api-openapi.yml
   format: yaml
   label: MyFatoorah Sessions API
   slug: myfatoorah-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-sessions-api-openapi.yml
 - filename: myfatoorah-shipping-api-openapi.yml
   format: yaml
   label: MyFatoorah Shipping API
   slug: myfatoorah-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-shipping-api-openapi.yml
 - filename: myfatoorah-suppliers-api-openapi.yml
   format: yaml
   label: MyFatoorah Suppliers API
   slug: myfatoorah-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-suppliers-api-openapi.yml
 - filename: myfatoorah-webhooks-api-openapi.yml
   format: yaml
   label: MyFatoorah Webhooks API
   slug: myfatoorah-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-webhooks-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 5
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/myfato
   \ required\n- path: /MakeRefund\n  method: post\n  operationId: makeRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /GetRefundStatus\n  method: post\n  operationId: getRefundStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /MakeSupplierRefund\n  method: post\n  operationId: makeSupplierRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /InitiateSession\n  method: post\n  operationId: initiateSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CancelToken\n  method: post\n  operationId: cancelToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /GetCities\n  method: post\n  operationId: getCities\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetSuppliers\n  method: post\n  operationId: getSuppliers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetWebhooks\n  method: post\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/agentic-access/myfatoorah-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/myfatoorah/agentic-access/myfatoorah-agentic-access.yml
 summary_line: 14 operations · 9 acting
 tags:
 - Payments

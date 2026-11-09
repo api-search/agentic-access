@@ -9,19 +9,19 @@ api_specs:
   label: China Mobile Application Development API
   slug: china-mobile-application-development-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-application-development-api-openapi.yml
+  url: https://artifacts.apis.io/china-mobile/openapi/china-mobile-application-development-api-openapi.yml
 - filename: china-mobile-device-management-api-openapi.yml
   format: yaml
   label: China Mobile Device Management API
   slug: china-mobile-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-device-management-api-openapi.yml
+  url: https://artifacts.apis.io/china-mobile/openapi/china-mobile-device-management-api-openapi.yml
 - filename: china-mobile-voice-call-service-api-openapi.yml
   format: yaml
   label: China Mobile Voice Call Service API
   slug: china-mobile-voice-call-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-voice-call-service-api-openapi.yml
+  url: https://artifacts.apis.io/china-mobile/openapi/china-mobile-voice-call-service-api-openapi.yml
 consequence_counts:
   read: 24
   write: 21
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/china-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /common?action=UpdateDevice&version=1\n  method: post\n  operationId: UpdateDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /common?action=DeleteDevice&version=1\n  method: post\n  operationId: DeleteDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /common?action=QueryDeviceDetail&version=1\n  method: get\n  operationId: QueryDeviceDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /common?action=MoveProductDevice&version=1\n  method: post\n  operationId: MoveProductDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /common?action=QuerySystemThingModel&version=1\n  method: get\n  operationId: QuerySystemThingModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /common?action=QueryThingModel&version=1\n  method: get\n  operationId: QueryThingModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /common?action=RegistDeviceIdentity&version=1\n  method:\
   \ post\n  operationId: RegistDeviceIdentity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vcs\n  method: post\n  operationId: vcsAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/agentic-access/china-mobile-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/china-mobile/agentic-access/china-mobile-agentic-access.yml
 summary_line: 45 operations · 21 acting
 tags:
 - Telecommunications

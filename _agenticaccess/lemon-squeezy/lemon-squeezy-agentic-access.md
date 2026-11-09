@@ -9,229 +9,229 @@ api_specs:
   label: Lemon Squeezy License API
   slug: lemon-squeezy-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-license-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-license-api-openapi.yml
 - filename: lemon-squeezy-7c41-api-openapi.yml
   format: yaml
   label: Lemon Squeezy 7c41 API
   slug: lemon-squeezy-7c41-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-7c41-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-7c41-api-openapi.yml
 - filename: lemon-squeezy-affiliates-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Affiliates API
   slug: lemon-squeezy-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-affiliates-api-openapi.yml
 - filename: lemon-squeezy-b6cd-api-openapi.yml
   format: yaml
   label: Lemon Squeezy B6cd API
   slug: lemon-squeezy-b6cd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-b6cd-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-b6cd-api-openapi.yml
 - filename: lemon-squeezy-checkouts-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Checkouts API
   slug: lemon-squeezy-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-checkouts-api-openapi.yml
 - filename: lemon-squeezy-current-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Current API
   slug: lemon-squeezy-current-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-current-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-current-api-openapi.yml
 - filename: lemon-squeezy-customers-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Customers API
   slug: lemon-squeezy-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-customers-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-customers-api-openapi.yml
 - filename: lemon-squeezy-discount-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Discount API
   slug: lemon-squeezy-discount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-discount-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-discount-api-openapi.yml
 - filename: lemon-squeezy-discounts-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Discounts API
   slug: lemon-squeezy-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-discounts-api-openapi.yml
 - filename: lemon-squeezy-files-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Files API
   slug: lemon-squeezy-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-files-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-files-api-openapi.yml
 - filename: lemon-squeezy-health-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Health API
   slug: lemon-squeezy-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-health-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-health-api-openapi.yml
 - filename: lemon-squeezy-instances-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Instances API
   slug: lemon-squeezy-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-instances-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-instances-api-openapi.yml
 - filename: lemon-squeezy-invoices-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Invoices API
   slug: lemon-squeezy-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-invoices-api-openapi.yml
 - filename: lemon-squeezy-items-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Items API
   slug: lemon-squeezy-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-items-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-items-api-openapi.yml
 - filename: lemon-squeezy-keys-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Keys API
   slug: lemon-squeezy-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-keys-api-openapi.yml
 - filename: lemon-squeezy-lemon-squeezy-api-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Lemon Squeezy API
   slug: lemon-squeezy-lemon-squeezy-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-lemon-squeezy-api-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-lemon-squeezy-api-api-openapi.yml
 - filename: lemon-squeezy-me-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Me API
   slug: lemon-squeezy-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-me-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-me-api-openapi.yml
 - filename: lemon-squeezy-order-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Order API
   slug: lemon-squeezy-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-order-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-order-api-openapi.yml
 - filename: lemon-squeezy-orders-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Orders API
   slug: lemon-squeezy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-orders-api-openapi.yml
 - filename: lemon-squeezy-prices-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Prices API
   slug: lemon-squeezy-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-prices-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-prices-api-openapi.yml
 - filename: lemon-squeezy-products-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Products API
   slug: lemon-squeezy-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-products-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-products-api-openapi.yml
 - filename: lemon-squeezy-records-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Records API
   slug: lemon-squeezy-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-records-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-records-api-openapi.yml
 - filename: lemon-squeezy-redemptions-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Redemptions API
   slug: lemon-squeezy-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-redemptions-api-openapi.yml
 - filename: lemon-squeezy-stores-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Stores API
   slug: lemon-squeezy-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-stores-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-stores-api-openapi.yml
 - filename: lemon-squeezy-subscription-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Subscription API
   slug: lemon-squeezy-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-subscription-api-openapi.yml
 - filename: lemon-squeezy-subscriptions-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Subscriptions API
   slug: lemon-squeezy-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-subscriptions-api-openapi.yml
 - filename: lemon-squeezy-usage-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Usage API
   slug: lemon-squeezy-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-usage-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-usage-api-openapi.yml
 - filename: lemon-squeezy-users-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Users API
   slug: lemon-squeezy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-users-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-users-api-openapi.yml
 - filename: lemon-squeezy-variants-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Variants API
   slug: lemon-squeezy-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-variants-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-variants-api-openapi.yml
 - filename: lemon-squeezy-webhooks-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Webhooks API
   slug: lemon-squeezy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-webhooks-api-openapi.yml
 - filename: lemon-squeezy-discount-redemptions-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Discount Redemptions API
   slug: lemon-squeezy-discount-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-discount-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-discount-redemptions-api-openapi.yml
 - filename: lemon-squeezy-license-api-api-openapi.yml
   format: yaml
   label: Lemon Squeezy License API
   slug: lemon-squeezy-license-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-license-api-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-license-api-api-openapi.yml
 - filename: lemon-squeezy-license-key-instances-api-openapi.yml
   format: yaml
   label: Lemon Squeezy License Key Instances API
   slug: lemon-squeezy-license-key-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-license-key-instances-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-license-key-instances-api-openapi.yml
 - filename: lemon-squeezy-license-keys-api-openapi.yml
   format: yaml
   label: Lemon Squeezy License Keys API
   slug: lemon-squeezy-license-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-license-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-license-keys-api-openapi.yml
 - filename: lemon-squeezy-order-items-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Order Items API
   slug: lemon-squeezy-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-order-items-api-openapi.yml
 - filename: lemon-squeezy-subscription-invoices-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Subscription Invoices API
   slug: lemon-squeezy-subscription-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-subscription-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-subscription-invoices-api-openapi.yml
 - filename: lemon-squeezy-subscription-items-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Subscription Items API
   slug: lemon-squeezy-subscription-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-subscription-items-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-subscription-items-api-openapi.yml
 - filename: lemon-squeezy-usage-records-api-openapi.yml
   format: yaml
   label: Lemon Squeezy Usage Records API
   slug: lemon-squeezy-usage-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/openapi/lemon-squeezy-usage-records-api-openapi.yml
+  url: https://artifacts.apis.io/lemon-squeezy/openapi/lemon-squeezy-usage-records-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 101
@@ -317,8 +317,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/lemon-
   \  operationId: getV1UsageRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/usage-records\n  method: post\n  operationId: postV1UsageRecords\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /usage-records\n  method: get\n  operationId: listUsageRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage-records\n  method: post\n  operationId: createUsageRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /usage-records/{id}\n  method: get\n  operationId: retrieveUsageRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me\n  method: get\n  operationId: getV1UsersMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/variants/1\n  method: get\n  operationId: getV1Variants1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/variants\n  method: get\n  operationId: getV1Variants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variants\n  method: get\n  operationId:\
   \ listVariants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variants/{id}\n  method: get\n  operationId: retrieveVariant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/1\n  method: get\n  operationId: getV1Webhooks1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/1\n  method: patch\n  operationId: patchV1Webhooks1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full\
-  \ source: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/agentic-access/lemon-squeezy-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/agentic-access/lemon-squeezy-agentic-access.yml
+  \ source: https://artifacts.apis.io/lemon-squeezy/agentic-access/lemon-squeezy-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/lemon-squeezy/agentic-access/lemon-squeezy-agentic-access.yml
 summary_line: 132 operations · 31 acting
 tags:
 - Digital Products

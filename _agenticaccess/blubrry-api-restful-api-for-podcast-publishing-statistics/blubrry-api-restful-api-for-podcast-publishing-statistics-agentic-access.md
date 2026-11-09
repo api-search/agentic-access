@@ -9,19 +9,19 @@ api_specs:
   label: Blubrry API Episode API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api-openapi.yml
+  url: https://artifacts.apis.io/blubrry-api-restful-api-for-podcast-publishing-statistics/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api-openapi.yml
 - filename: blubrry-api-restful-api-for-podcast-publishing-statistics-media-api-openapi.yml
   format: yaml
   label: Blubrry API Media API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-media-api-openapi.yml
+  url: https://artifacts.apis.io/blubrry-api-restful-api-for-podcast-publishing-statistics/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-media-api-openapi.yml
 - filename: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
   format: yaml
   label: Blubrry API Statistics API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/blubrry-api-restful-api-for-podcast-publishing-statistics/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
 consequence_counts:
   read: 19
   write: 8
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blubrr
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/summary.{format}\n  method: get\n  operationId: getShowStatsSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/show-episodes/\n  method: get\n  operationId: getShowEpisodeStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/\n  method: get\n  operationId: getShowMonthlyStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/countries/\n  method: get\n  operationId: getShowCountryStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/app-types/\n  method: get\n  operationId: getShowAppTypeStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/apps/\n  method: get\n  operationId: getShowAppStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/episodes/\n  method: get\n  operationId: listStatsEpisodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/{episode_id}/countries/\n  method: get\n  operationId: getEpisodeCountryStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/{episode_id}/app-types/\n\
   \  method: get\n  operationId: getEpisodeAppTypeStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/{episode_id}/apps/\n  method: get\n  operationId: getEpisodeAppStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/widget/preview.json\n  method: get\n  operationId: getStatsWidgetPreview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{keyword}/totals.json\n  method: get\n  operationId: getShowStatsTotals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/agentic-access/blubrry-api-restful-api-for-podcast-publishing-statistics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blubrry-api-restful-api-for-podcast-publishing-statistics/agentic-access/blubrry-api-restful-api-for-podcast-publishing-statistics-agentic-access.yml
 summary_line: 27 operations · 8 acting
 tags:
 - Podcasts

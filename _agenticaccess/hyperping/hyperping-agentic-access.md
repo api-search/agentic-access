@@ -9,43 +9,43 @@ api_specs:
   label: Hyperping Incidents API
   slug: hyperping-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/hyperping/openapi/hyperping-incidents-api-openapi.yml
 - filename: hyperping-maintenance-api-openapi.yml
   format: yaml
   label: Hyperping Maintenance API
   slug: hyperping-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/hyperping/openapi/hyperping-maintenance-api-openapi.yml
 - filename: hyperping-monitors-api-openapi.yml
   format: yaml
   label: Hyperping Monitors API
   slug: hyperping-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/hyperping/openapi/hyperping-monitors-api-openapi.yml
 - filename: hyperping-outages-api-openapi.yml
   format: yaml
   label: Hyperping Outages API
   slug: hyperping-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-outages-api-openapi.yml
+  url: https://artifacts.apis.io/hyperping/openapi/hyperping-outages-api-openapi.yml
 - filename: hyperping-reports-api-openapi.yml
   format: yaml
   label: Hyperping Reports API
   slug: hyperping-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-reports-api-openapi.yml
+  url: https://artifacts.apis.io/hyperping/openapi/hyperping-reports-api-openapi.yml
 - filename: hyperping-status-pages-api-openapi.yml
   format: yaml
   label: Hyperping Status Pages API
   slug: hyperping-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/hyperping/openapi/hyperping-status-pages-api-openapi.yml
 - filename: hyperping-health-checks-api-openapi.yml
   format: yaml
   label: Hyperping Health Checks API
   slug: hyperping-health-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/openapi/hyperping-health-checks-api-openapi.yml
+  url: https://artifacts.apis.io/hyperping/openapi/hyperping-health-checks-api-openapi.yml
 consequence_counts:
   read: 13
   write: 22
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hyperp
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outages/{outage_uuid}\n  method: delete\n  operationId: deleteOutage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outages/{outage_uuid}/acknowledge\n  method: post\n  operationId: acknowledgeOutage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outages/{outage_uuid}/unacknowledge\n  method: post\n  operationId: unacknowledgeOutage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outages/{outage_uuid}/resolve\n  method: post\n  operationId: resolveOutage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outages/{outage_uuid}/escalate\n  method: post\n  operationId: escalateOutage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reporting/monitor-reports\n  method: get\n  operationId: listMonitorReports\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/monitor-reports/{monitor_uuid}\n  method: get\n  operationId: getMonitorReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/agentic-access/hyperping-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hyperping/agentic-access/hyperping-agentic-access.yml
 summary_line: 35 operations · 22 acting
 tags:
 - Uptime Monitoring

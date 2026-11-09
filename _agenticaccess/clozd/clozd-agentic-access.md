@@ -9,43 +9,43 @@ api_specs:
   label: Clozd /programs API
   slug: clozd-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-api-openapi.yml
 - filename: clozd-programs-program-id-competitors-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/competitors API
   slug: clozd-programs-program-id-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-competitors-api-openapi.yml
 - filename: clozd-programs-program-id-deals-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/deals API
   slug: clozd-programs-program-id-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-deals-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-deals-api-openapi.yml
 - filename: clozd-programs-program-id-deals-deal-id-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/deals/:deal ID API
   slug: clozd-programs-program-id-deals-deal-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-deals-deal-id-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-deals-deal-id-api-openapi.yml
 - filename: clozd-programs-program-id-deals-import-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/deals/import API
   slug: clozd-programs-program-id-deals-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-deals-import-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-deals-import-api-openapi.yml
 - filename: clozd-programs-program-id-touchpoints-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/touchpoints API
   slug: clozd-programs-program-id-touchpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-touchpoints-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-touchpoints-api-openapi.yml
 - filename: clozd-programs-program-id-touchpoints-touchpoint-id-api-openapi.yml
   format: yaml
   label: Clozd /programs/:program Id/touchpoints/:touchpoint ID API
   slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-touchpoints-touchpoint-id-api-openapi.yml
+  url: https://artifacts.apis.io/clozd/openapi/clozd-programs-program-id-touchpoints-touchpoint-id-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/clozd-
   \  method: get\n  operationId: get-deal-op\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs/{program_id}/deals\n  method: get\n  operationId: get-deals-op\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs/{program_id}/deals\n  method: post\n  operationId: post-deals-op\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /programs\n  method: get\n  operationId: get-programs-op\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs/{program_id}/competitors\n\
   \  method: get\n  operationId: get-competitors-op\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs/{program_id}/deals/{deal_id}\n  method: get\n  operationId: get-deal-op\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs/{program_id}/deals\n  method: get\n  operationId: get-deals-op\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs/{program_id}/deals\n  method: post\n  operationId: post-deals-op\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /programs/{program_id}/touchpoints/{touchpoint_id}\n  method: get\n  operationId: get-touchpoint-op\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs/{program_id}/touchpoints\n  method: get\n  operationId: get-touchpoints-op\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs/{program_id}/touchpoints\n  method: post\n  operationId: post-touchpoints-op\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/agentic-access/clozd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clozd/agentic-access/clozd-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Win-Loss Analysis

@@ -9,7 +9,25 @@ api_specs:
   label: Amazon Payment Cryptography Payment Cryptography Control Plane API
   slug: amazon-payment-cryptography-payment-cryptography-control-plane-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-payment-cryptography-control-plane-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-payment-cryptography/openapi/amazon-payment-cryptography-payment-cryptography-control-plane-api-openapi.yml
+- filename: amazon-payment-cryptography-default-key-replication-region-api-openapi.yml
+  format: yaml
+  label: Amazon Payment Cryptography Payment Cryptography Default Key Replication Region API
+  slug: amazon-payment-cryptography-default-key-replication-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-payment-cryptography/openapi/amazon-payment-cryptography-default-key-replication-region-api-openapi.yml
+- filename: amazon-payment-cryptography-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Payment Cryptography Payment Cryptography Operations API
+  slug: amazon-payment-cryptography-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-payment-cryptography/openapi/amazon-payment-cryptography-operations-api-openapi.yml
+- filename: amazon-payment-cryptography-resource-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Payment Cryptography Payment Cryptography Resource Policy API
+  slug: amazon-payment-cryptography-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-payment-cryptography/openapi/amazon-payment-cryptography-resource-policy-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 13
@@ -114,9 +132,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.StopKeyUsage\n  method: post\n  operationId: StopKeyUsage\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.UpdateAlias\n  method: post\n  operationId: UpdateAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/agentic-access/amazon-payment-cryptography-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-payment-cryptography/agentic-access/amazon-payment-cryptography-agentic-access.yml
 summary_line: 20 operations · 13 acting · 13 human-in-the-loop
 tags:
+- Amazon Web Services
 - Cryptography
 - Financial Services
 - Payment Processing

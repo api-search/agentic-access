@@ -9,43 +9,43 @@ api_specs:
   label: HeyForm Auth API
   slug: heyform-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-auth-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-auth-api-openapi.yml
 - filename: heyform-config-api-openapi.yml
   format: yaml
   label: HeyForm Config API
   slug: heyform-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-config-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-config-api-openapi.yml
 - filename: heyform-forms-api-openapi.yml
   format: yaml
   label: HeyForm Forms API
   slug: heyform-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-forms-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-forms-api-openapi.yml
 - filename: heyform-images-api-openapi.yml
   format: yaml
   label: HeyForm Images API
   slug: heyform-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-images-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-images-api-openapi.yml
 - filename: heyform-submissions-api-openapi.yml
   format: yaml
   label: HeyForm Submissions API
   slug: heyform-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-submissions-api-openapi.yml
 - filename: heyform-upload-api-openapi.yml
   format: yaml
   label: HeyForm Upload API
   slug: heyform-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-upload-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-upload-api-openapi.yml
 - filename: heyform-graph-ql-api-openapi.yml
   format: yaml
   label: HeyForm Graph QL API
   slug: heyform-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-graph-ql-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3
@@ -74,7 +74,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/heyform-heyform-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 6\n    acting: 3\n  by_consequence:\n    read: 6\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/config\n  method: get\n  operationId: getConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/export/submissions\n  method: get\n  operationId: exportSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/upload\n  method:\
   \ post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/image\n  method: get\n  operationId: proxyImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /form/{formId}\n  method: get\n  operationId: renderForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connect/{kind}\n  method: get\n  operationId: socialLoginInitiate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connect/{kind}/callback\n  method: get\n\
   \  operationId: socialLoginCallbackGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connect/{kind}/callback\n  method: post\n  operationId: socialLoginCallbackPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphql\n  method: post\n  operationId: graphqlEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/agentic-access/heyform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/heyform/agentic-access/heyform-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Forms

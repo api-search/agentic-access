@@ -9,55 +9,55 @@ api_specs:
   label: 99 Minutos Coverage API
   slug: 99-minutos-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-coverage-api-openapi.yml
 - filename: 99-minutos-documents-api-openapi.yml
   format: yaml
   label: 99 Minutos Documents API
   slug: 99-minutos-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-documents-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-documents-api-openapi.yml
 - filename: 99-minutos-locations-api-openapi.yml
   format: yaml
   label: 99 Minutos Locations API
   slug: 99-minutos-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-locations-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-locations-api-openapi.yml
 - filename: 99-minutos-orders-api-openapi.yml
   format: yaml
   label: 99 Minutos Orders API
   slug: 99-minutos-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-orders-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-orders-api-openapi.yml
 - filename: 99-minutos-shipments-api-openapi.yml
   format: yaml
   label: 99 Minutos Shipments API
   slug: 99-minutos-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-shipments-api-openapi.yml
 - filename: 99-minutos-shipping-rates-api-openapi.yml
   format: yaml
   label: 99 Minutos Shipping Rates API
   slug: 99-minutos-shipping-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-shipping-rates-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-shipping-rates-api-openapi.yml
 - filename: 99-minutos-super-geocoding-api-openapi.yml
   format: yaml
   label: 99 Minutos Super Geocoding API
   slug: 99-minutos-super-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-super-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-super-geocoding-api-openapi.yml
 - filename: 99-minutos-webhooks-api-openapi.yml
   format: yaml
   label: 99 Minutos Webhooks API
   slug: 99-minutos-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-webhooks-api-openapi.yml
 - filename: 99-minutos-oauth-api-openapi.yml
   format: yaml
   label: 99 Minutos OAUTH API
   slug: 99-minutos-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/99-minutos/openapi/99-minutos-oauth-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 13
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/99minu
   \      - high-value\n    audit: required\n- path: /api/v3/webhooks/{webhook_id}\n  method: delete\n  operationId: delete-api-v3-webhooks-webhook_id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhooks/evidences/{tracking_id}\n  method: get\n  operationId: get-api-v3-webhooks-evidences-by-tracking-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/shipping/rates\n  method: post\n  operationId: calculate_shipping_rates\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/shipping/rates/addresses/{origin_country}/{origin_address}/{destination_country}/{destination_address}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/shipping/rates/coordinates/{origin_country}/{origin_lat}/{origin_lng}/{destination_country}/{destination_lat}/{destination_lng}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/shipping/rates/sizes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/shipping/rates/zipcodes/{origin_country}/{origin_zipcode}/{destination_country}/{destination_zipcode}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/super-geocoding\n  method: post\n  operationId: validate_address_validate_address_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/orders/multibox\n  method: post\n  operationId: createMultiboxOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/agentic-access/99-minutos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/99-minutos/agentic-access/99-minutos-agentic-access.yml
 summary_line: 29 operations · 16 acting
 tags:
 - Company

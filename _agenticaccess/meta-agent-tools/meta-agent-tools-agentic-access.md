@@ -9,277 +9,277 @@ api_specs:
   label: Meta Agent Tools Admin API
   slug: meta-agent-tools-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-admin-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-admin-api-openapi.yml
 - filename: meta-agent-tools-apis-json-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Apis.json API
   slug: meta-agent-tools-apis-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-apis-json-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-apis-json-api-openapi.yml
 - filename: meta-agent-tools-auth-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Auth API
   slug: meta-agent-tools-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-auth-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-auth-api-openapi.yml
 - filename: meta-agent-tools-billing-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Billing API
   slug: meta-agent-tools-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-billing-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-billing-api-openapi.yml
 - filename: meta-agent-tools-comments-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Comments API
   slug: meta-agent-tools-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-comments-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-comments-api-openapi.yml
 - filename: meta-agent-tools-contact-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Contact API
   slug: meta-agent-tools-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-contact-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-contact-api-openapi.yml
 - filename: meta-agent-tools-credito-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Credito API
   slug: meta-agent-tools-credito-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-credito-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-credito-api-openapi.yml
 - filename: meta-agent-tools-facets-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Facets API
   slug: meta-agent-tools-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-facets-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-facets-api-openapi.yml
 - filename: meta-agent-tools-feed-json-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Feed.json API
   slug: meta-agent-tools-feed-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-feed-json-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-feed-json-api-openapi.yml
 - filename: meta-agent-tools-feed-xml-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Feed.xml API
   slug: meta-agent-tools-feed-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-feed-xml-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-feed-xml-api-openapi.yml
 - filename: meta-agent-tools-fila-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Fila API
   slug: meta-agent-tools-fila-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-fila-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-fila-api-openapi.yml
 - filename: meta-agent-tools-go-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Go API
   slug: meta-agent-tools-go-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-go-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-go-api-openapi.yml
 - filename: meta-agent-tools-guest-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Guest API
   slug: meta-agent-tools-guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-guest-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-guest-api-openapi.yml
 - filename: meta-agent-tools-health-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Health API
   slug: meta-agent-tools-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-health-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-health-api-openapi.yml
 - filename: meta-agent-tools-listings-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Listings API
   slug: meta-agent-tools-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-listings-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-listings-api-openapi.yml
 - filename: meta-agent-tools-mcp-api-openapi.yml
   format: yaml
   label: Meta Agent Tools MCP API
   slug: meta-agent-tools-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-mcp-api-openapi.yml
 - filename: meta-agent-tools-me-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Me API
   slug: meta-agent-tools-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-me-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-me-api-openapi.yml
 - filename: meta-agent-tools-metrics-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Metrics API
   slug: meta-agent-tools-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-metrics-api-openapi.yml
 - filename: meta-agent-tools-okf-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Okf API
   slug: meta-agent-tools-okf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-okf-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-okf-api-openapi.yml
 - filename: meta-agent-tools-servers-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Servers API
   slug: meta-agent-tools-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-servers-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-servers-api-openapi.yml
 - filename: meta-agent-tools-visit-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Visit API
   slug: meta-agent-tools-visit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-visit-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-visit-api-openapi.yml
 - filename: meta-agent-tools-well-known-api-openapi.yml
   format: yaml
   label: Meta Agent Tools .well Known API
   slug: meta-agent-tools-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-well-known-api-openapi.yml
 - filename: meta-agent-tools-a2a-api-openapi.yml
   format: yaml
   label: Meta Agent Tools A2a API
   slug: meta-agent-tools-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-a2a-api-openapi.yml
 - filename: meta-agent-tools-account-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Account API
   slug: meta-agent-tools-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-account-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-account-api-openapi.yml
 - filename: meta-agent-tools-acesso-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Acesso API
   slug: meta-agent-tools-acesso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-acesso-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-acesso-api-openapi.yml
 - filename: meta-agent-tools-agent-json-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Agent.json API
   slug: meta-agent-tools-agent-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-agent-json-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-agent-json-api-openapi.yml
 - filename: meta-agent-tools-agentalog-agent-auto-log-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Agentalog — Agent Auto Log API
   slug: meta-agent-tools-agentalog-agent-auto-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-agentalog-agent-auto-log-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-agentalog-agent-auto-log-api-openapi.yml
 - filename: meta-agent-tools-boletim-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Boletim API
   slug: meta-agent-tools-boletim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-boletim-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-boletim-api-openapi.yml
 - filename: meta-agent-tools-briefings-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Briefings API
   slug: meta-agent-tools-briefings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-briefings-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-briefings-api-openapi.yml
 - filename: meta-agent-tools-bundles-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Bundles API
   slug: meta-agent-tools-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-bundles-api-openapi.yml
 - filename: meta-agent-tools-check-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Check API
   slug: meta-agent-tools-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-check-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-check-api-openapi.yml
 - filename: meta-agent-tools-coleta-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Coleta API
   slug: meta-agent-tools-coleta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-coleta-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-coleta-api-openapi.yml
 - filename: meta-agent-tools-contadores-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Contadores API
   slug: meta-agent-tools-contadores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-contadores-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-contadores-api-openapi.yml
 - filename: meta-agent-tools-erro-cliente-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Erro Cliente API
   slug: meta-agent-tools-erro-cliente-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-erro-cliente-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-erro-cliente-api-openapi.yml
 - filename: meta-agent-tools-feeds-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Feeds API
   slug: meta-agent-tools-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-feeds-api-openapi.yml
 - filename: meta-agent-tools-funil-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Funil API
   slug: meta-agent-tools-funil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-funil-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-funil-api-openapi.yml
 - filename: meta-agent-tools-indices-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Indices API
   slug: meta-agent-tools-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-indices-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-indices-api-openapi.yml
 - filename: meta-agent-tools-internal-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Internal API
   slug: meta-agent-tools-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-internal-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-internal-api-openapi.yml
 - filename: meta-agent-tools-monitor-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Monitor API
   slug: meta-agent-tools-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-monitor-api-openapi.yml
 - filename: meta-agent-tools-pagamento-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Pagamento API
   slug: meta-agent-tools-pagamento-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-pagamento-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-pagamento-api-openapi.yml
 - filename: meta-agent-tools-partners-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Partners API
   slug: meta-agent-tools-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-partners-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-partners-api-openapi.yml
 - filename: meta-agent-tools-plans-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Plans API
   slug: meta-agent-tools-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-plans-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-plans-api-openapi.yml
 - filename: meta-agent-tools-pricing-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Pricing API
   slug: meta-agent-tools-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-pricing-api-openapi.yml
 - filename: meta-agent-tools-uso-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Uso API
   slug: meta-agent-tools-uso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-uso-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-uso-api-openapi.yml
 - filename: meta-agent-tools-vitrine-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Vitrine API
   slug: meta-agent-tools-vitrine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-vitrine-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-vitrine-api-openapi.yml
 - filename: meta-agent-tools-volatil-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Volatil API
   slug: meta-agent-tools-volatil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-volatil-api-openapi.yml
+  url: https://artifacts.apis.io/meta-agent-tools/openapi/meta-agent-tools-volatil-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 22
@@ -338,7 +338,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: generated\nsource: openapi/meta-a
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/admin/fila\n  method: post\n  operationId: post_api_admin_fila\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/admin/repos\n  method: post\n  operationId: post_api_admin_repos\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/admin/listings\n  method: get\n  operationId: get_api_admin_listings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /api/admin/listings/{id}\n  method: post\n  operationId: post_api_admin_listings_by_id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/admin/carga\n  method: get\n  operationId: get_api_admin_carga\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/admin/carga\n  method: post\n  operationId: post_api_admin_carga\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/credito\n\
   \  method: post\n  operationId: post_api_credito\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/credito\n  method: get\n  operationId: get_api_credito\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/agentic-access/meta-agent-tools-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meta-agent-tools/agentic-access/meta-agent-tools-agentic-access.yml
 summary_line: 42 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Developer Tools

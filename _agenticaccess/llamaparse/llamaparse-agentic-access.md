@@ -9,193 +9,193 @@ api_specs:
   label: LlamaParse Agent Data API
   slug: llamaparse-agent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-agent-data-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-agent-data-api-openapi.yml
 - filename: llamaparse-batch-processing-api-openapi.yml
   format: yaml
   label: LlamaParse Batch Processing API
   slug: llamaparse-batch-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-batch-processing-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-batch-processing-api-openapi.yml
 - filename: llamaparse-batches-api-openapi.yml
   format: yaml
   label: LlamaParse Batches API
   slug: llamaparse-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-batches-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-batches-api-openapi.yml
 - filename: llamaparse-beta-api-openapi.yml
   format: yaml
   label: LlamaParse Beta API
   slug: llamaparse-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-beta-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-beta-api-openapi.yml
 - filename: llamaparse-chat-api-openapi.yml
   format: yaml
   label: LlamaParse Chat API
   slug: llamaparse-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-chat-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-chat-api-openapi.yml
 - filename: llamaparse-classifier-api-openapi.yml
   format: yaml
   label: LlamaParse Classifier API
   slug: llamaparse-classifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-classifier-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-classifier-api-openapi.yml
 - filename: llamaparse-classify-api-openapi.yml
   format: yaml
   label: LlamaParse Classify API
   slug: llamaparse-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-classify-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-classify-api-openapi.yml
 - filename: llamaparse-configurations-api-openapi.yml
   format: yaml
   label: LlamaParse Configurations API
   slug: llamaparse-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-configurations-api-openapi.yml
 - filename: llamaparse-data-sinks-api-openapi.yml
   format: yaml
   label: LlamaParse Data Sinks API
   slug: llamaparse-data-sinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-data-sinks-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-data-sinks-api-openapi.yml
 - filename: llamaparse-data-sources-api-openapi.yml
   format: yaml
   label: LlamaParse Data Sources API
   slug: llamaparse-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-data-sources-api-openapi.yml
 - filename: llamaparse-directories-api-openapi.yml
   format: yaml
   label: LlamaParse Directories API
   slug: llamaparse-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-directories-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-directories-api-openapi.yml
 - filename: llamaparse-directory-files-api-openapi.yml
   format: yaml
   label: LlamaParse Directory Files API
   slug: llamaparse-directory-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-directory-files-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-directory-files-api-openapi.yml
 - filename: llamaparse-embedding-model-configs-api-openapi.yml
   format: yaml
   label: LlamaParse Embedding Model Configs API
   slug: llamaparse-embedding-model-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-embedding-model-configs-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-embedding-model-configs-api-openapi.yml
 - filename: llamaparse-extract-api-openapi.yml
   format: yaml
   label: LlamaParse Extract API
   slug: llamaparse-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-extract-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-extract-api-openapi.yml
 - filename: llamaparse-files-api-openapi.yml
   format: yaml
   label: LlamaParse Files API
   slug: llamaparse-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-files-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-files-api-openapi.yml
 - filename: llamaparse-indexes-api-openapi.yml
   format: yaml
   label: LlamaParse Indexes API
   slug: llamaparse-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-indexes-api-openapi.yml
 - filename: llamaparse-job-dashboard-api-openapi.yml
   format: yaml
   label: LlamaParse Job Dashboard API
   slug: llamaparse-job-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-job-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-job-dashboard-api-openapi.yml
 - filename: llamaparse-llamaextract-api-openapi.yml
   format: yaml
   label: LlamaParse LlamaExtract API
   slug: llamaparse-llamaextract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-llamaextract-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-llamaextract-api-openapi.yml
 - filename: llamaparse-organizations-api-openapi.yml
   format: yaml
   label: LlamaParse Organizations API
   slug: llamaparse-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-organizations-api-openapi.yml
 - filename: llamaparse-page-figures-api-openapi.yml
   format: yaml
   label: LlamaParse Page Figures API
   slug: llamaparse-page-figures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-page-figures-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-page-figures-api-openapi.yml
 - filename: llamaparse-page-screenshots-api-openapi.yml
   format: yaml
   label: LlamaParse Page Screenshots API
   slug: llamaparse-page-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-page-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-page-screenshots-api-openapi.yml
 - filename: llamaparse-parse-api-openapi.yml
   format: yaml
   label: LlamaParse Parse API
   slug: llamaparse-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-parse-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-parse-api-openapi.yml
 - filename: llamaparse-parsing-api-openapi.yml
   format: yaml
   label: LlamaParse Parsing API
   slug: llamaparse-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-parsing-api-openapi.yml
 - filename: llamaparse-pipeline-data-sources-api-openapi.yml
   format: yaml
   label: LlamaParse Pipeline Data Sources API
   slug: llamaparse-pipeline-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-pipeline-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-pipeline-data-sources-api-openapi.yml
 - filename: llamaparse-pipeline-files-api-openapi.yml
   format: yaml
   label: LlamaParse Pipeline Files API
   slug: llamaparse-pipeline-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-pipeline-files-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-pipeline-files-api-openapi.yml
 - filename: llamaparse-pipelines-api-openapi.yml
   format: yaml
   label: LlamaParse Pipelines API
   slug: llamaparse-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-pipelines-api-openapi.yml
 - filename: llamaparse-projects-api-openapi.yml
   format: yaml
   label: LlamaParse Projects API
   slug: llamaparse-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-projects-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-projects-api-openapi.yml
 - filename: llamaparse-retrieval-api-openapi.yml
   format: yaml
   label: LlamaParse Retrieval API
   slug: llamaparse-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-retrieval-api-openapi.yml
 - filename: llamaparse-retrievers-api-openapi.yml
   format: yaml
   label: LlamaParse Retrievers API
   slug: llamaparse-retrievers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-retrievers-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-retrievers-api-openapi.yml
 - filename: llamaparse-sheets-api-openapi.yml
   format: yaml
   label: LlamaParse Sheets API
   slug: llamaparse-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-sheets-api-openapi.yml
 - filename: llamaparse-split-api-openapi.yml
   format: yaml
   label: LlamaParse Split API
   slug: llamaparse-split-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-split-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-split-api-openapi.yml
 - filename: llamaparse-usage-metrics-api-openapi.yml
   format: yaml
   label: LlamaParse Usage Metrics API
   slug: llamaparse-usage-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/openapi/llamaparse-usage-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/llamaparse/openapi/llamaparse-usage-metrics-api-openapi.yml
 consequence_counts:
   read: 140
   write: 128
@@ -254,8 +254,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/llamap
   \    audit: none\n- path: /api/v1/beta/configurations/{config_id}\n  method: get\n  operationId: get_configuration_api_v1_beta_configurations__config_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/beta/configurations/{config_id}\n  method: put\n  operationId: update_configuration_api_v1_beta_configurations__config_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/beta/configurations/{config_id}\n  method: delete\n  operationId: delete_configuration_api_v1_beta_configurations__config_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/data-sinks\n  method: get\n  operationId: list_data_sinks_api_v1_data_sinks_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/data-sinks\n  method: post\n  operationId: create_data_sink_api_v1_data_sinks_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/data-sinks/{data_sink_id}\n  method: get\n  operationId: get_data_sink_api_v1_data_sinks__data_sink_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v1/data-sinks/{data_sink_id}\n  method: put\n  operationId: update_data_sink_api_v1_data_sinks__data_sink_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/data-sinks/{data_sink_id}\n  method: delete\n  operationId: delete_data_sink_api_v1_data_sinks__data_sink_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/data-sources\n  method: get\n  operationId: list_data_sources_api_v1_data_sources_get\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/data-sources\n  method: post\n  operationId: create_data_source_api_v1_data_sources_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/data-sources/{data_source_id}\n  method: get\n  operationId: get_data_source_api_v1_data_sources__data_source_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (88 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/agentic-access/llamaparse-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/agentic-access/llamaparse-agentic-access.yml
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/data-sources\n  method: post\n  operationId: create_data_source_api_v1_data_sources_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/data-sources/{data_source_id}\n  method: get\n  operationId: get_data_source_api_v1_data_sources__data_source_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (88 KB total) ---\n# Full source: https://artifacts.apis.io/llamaparse/agentic-access/llamaparse-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/llamaparse/agentic-access/llamaparse-agentic-access.yml
 summary_line: 268 operations · 128 acting
 tags:
 - Document Parsing

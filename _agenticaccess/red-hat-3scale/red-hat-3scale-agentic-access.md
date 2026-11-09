@@ -9,79 +9,79 @@ api_specs:
   label: Red Hat 3scale Accounts API
   slug: red-hat-3scale-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-accounts-api-openapi.yml
 - filename: red-hat-3scale-applications-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Applications API
   slug: red-hat-3scale-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-applications-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-applications-api-openapi.yml
 - filename: red-hat-3scale-authorization-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Authorization API
   slug: red-hat-3scale-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-authorization-api-openapi.yml
 - filename: red-hat-3scale-configuration-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Configuration API
   slug: red-hat-3scale-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-configuration-api-openapi.yml
 - filename: red-hat-3scale-dns-api-openapi.yml
   format: yaml
   label: Red Hat 3scale DNS API
   slug: red-hat-3scale-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-dns-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-dns-api-openapi.yml
 - filename: red-hat-3scale-health-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Health API
   slug: red-hat-3scale-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-health-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-health-api-openapi.yml
 - filename: red-hat-3scale-initialization-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Initialization API
   slug: red-hat-3scale-initialization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-initialization-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-initialization-api-openapi.yml
 - filename: red-hat-3scale-invoices-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Invoices API
   slug: red-hat-3scale-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-invoices-api-openapi.yml
 - filename: red-hat-3scale-payment-transactions-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Payment Transactions API
   slug: red-hat-3scale-payment-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-payment-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-payment-transactions-api-openapi.yml
 - filename: red-hat-3scale-plans-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Plans API
   slug: red-hat-3scale-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-plans-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-plans-api-openapi.yml
 - filename: red-hat-3scale-reporting-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Reporting API
   slug: red-hat-3scale-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-reporting-api-openapi.yml
 - filename: red-hat-3scale-services-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Services API
   slug: red-hat-3scale-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-services-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-services-api-openapi.yml
 - filename: red-hat-3scale-oauth-api-openapi.yml
   format: yaml
   label: Red Hat 3scale O Auth API
   slug: red-hat-3scale-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-3scale/openapi/red-hat-3scale-oauth-api-openapi.yml
 consequence_counts:
   read: 22
   write: 10
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/red-ha
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/info\n  method: get\n  operationId: getStatusInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/invoices.json\n  method: get\n  operationId: listAccountInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/invoices/{id}.json\n  method: get\n  operationId: getAccountInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices.json\n  method: get\n  operationId: listAllInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{id}/payment_transactions.json\n\
   \  method: get\n  operationId: listInvoicePaymentTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/authorize.xml\n  method: get\n  operationId: authorizeTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/authrep.xml\n  method: get\n  operationId: authorizeAndReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions.xml\n  method: post\n  operationId: reportTransactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /transactions/oauth_authorize.xml\n  method: get\n  operationId: oauthAuthorize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/agentic-access/red-hat-3scale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/red-hat-3scale/agentic-access/red-hat-3scale-agentic-access.yml
 summary_line: 32 operations · 10 acting
 tags:
 - API Gateway

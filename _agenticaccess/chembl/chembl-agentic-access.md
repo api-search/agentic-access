@@ -8,79 +8,79 @@ api_specs:
   label: ChEMBL Activities API
   slug: chembl-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-activities-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-activities-api-openapi.yml
 - filename: chembl-assays-api-openapi.yml
   format: yaml
   label: ChEMBL Assays API
   slug: chembl-assays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-assays-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-assays-api-openapi.yml
 - filename: chembl-drugs-api-openapi.yml
   format: yaml
   label: ChEMBL Drugs API
   slug: chembl-drugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-drugs-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-drugs-api-openapi.yml
 - filename: chembl-efo-disease-terms-api-openapi.yml
   format: yaml
   label: ChEMBL EFO disease terms API
   slug: chembl-efo-disease-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-efo-disease-terms-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-efo-disease-terms-api-openapi.yml
 - filename: chembl-hpo-api-openapi.yml
   format: yaml
   label: ChEMBL HPO API
   slug: chembl-hpo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-hpo-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-hpo-api-openapi.yml
 - filename: chembl-intact-api-openapi.yml
   format: yaml
   label: ChEMBL Intact API
   slug: chembl-intact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-intact-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-intact-api-openapi.yml
 - filename: chembl-molecules-api-openapi.yml
   format: yaml
   label: ChEMBL Molecules API
   slug: chembl-molecules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-molecules-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-molecules-api-openapi.yml
 - filename: chembl-proteins-api-openapi.yml
   format: yaml
   label: ChEMBL Proteins API
   slug: chembl-proteins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-proteins-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-proteins-api-openapi.yml
 - filename: chembl-pubchem-bioassay-sids-api-openapi.yml
   format: yaml
   label: ChEMBL PubChem Bioassay Sids API
   slug: chembl-pubchem-bioassay-sids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-pubchem-bioassay-sids-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-pubchem-bioassay-sids-api-openapi.yml
 - filename: chembl-pubchem-biossays-api-openapi.yml
   format: yaml
   label: ChEMBL PubChem Biossays API
   slug: chembl-pubchem-biossays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-pubchem-biossays-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-pubchem-biossays-api-openapi.yml
 - filename: chembl-pubchem-compounds-api-openapi.yml
   format: yaml
   label: ChEMBL PubChem Compounds API
   slug: chembl-pubchem-compounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-pubchem-compounds-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-pubchem-compounds-api-openapi.yml
 - filename: chembl-pubchem-substances-api-openapi.yml
   format: yaml
   label: ChEMBL PubChem Substances API
   slug: chembl-pubchem-substances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-pubchem-substances-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-pubchem-substances-api-openapi.yml
 - filename: chembl-targets-api-openapi.yml
   format: yaml
   label: ChEMBL Targets API
   slug: chembl-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/openapi/chembl-targets-api-openapi.yml
+  url: https://artifacts.apis.io/chembl/openapi/chembl-targets-api-openapi.yml
 consequence_counts:
   read: 30
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ get\n  operationId: substructureSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/{molecule_chembl_id}\n  method: get\n  operationId: getMoleculeImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /atc_class\n  method: get\n  operationId: listAtcClasses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /binding_site\n  method: get\n  operationId: listBindingSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cell_line\n  method: get\n  operationId: listCellLines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /chembl_id_lookup\n  method: get\n  operationId: chemblIdLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compound_record\n  method: get\n  operationId: listCompoundRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /go_slim\n  method: get\n  operationId: listGoSlim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metabolism\n  method: get\n  operationId: listMetabolism\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /protein_class\n  method: get\n  operationId: listProteinClasses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tissue\n  method: get\n  operationId: listTissues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xref_source\n  method: get\n  operationId: listXrefSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/agentic-access/chembl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chembl/agentic-access/chembl-agentic-access.yml
 summary_line: 30 operations
 tags:
 - Drug Discovery

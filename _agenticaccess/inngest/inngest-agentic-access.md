@@ -9,79 +9,79 @@ api_specs:
   label: Inngest Account API
   slug: inngest-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-account-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-account-api-openapi.yml
 - filename: inngest-apps-api-openapi.yml
   format: yaml
   label: Inngest Apps API
   slug: inngest-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-apps-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-apps-api-openapi.yml
 - filename: inngest-environments-api-openapi.yml
   format: yaml
   label: Inngest Environments API
   slug: inngest-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-environments-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-environments-api-openapi.yml
 - filename: inngest-events-api-openapi.yml
   format: yaml
   label: Inngest Events API
   slug: inngest-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-events-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-events-api-openapi.yml
 - filename: inngest-functions-api-openapi.yml
   format: yaml
   label: Inngest Functions API
   slug: inngest-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-functions-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-functions-api-openapi.yml
 - filename: inngest-keys-api-openapi.yml
   format: yaml
   label: Inngest Keys API
   slug: inngest-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-keys-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-keys-api-openapi.yml
 - filename: inngest-runs-api-openapi.yml
   format: yaml
   label: Inngest Runs API
   slug: inngest-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-runs-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-runs-api-openapi.yml
 - filename: inngest-webhooks-api-openapi.yml
   format: yaml
   label: Inngest Webhooks API
   slug: inngest-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-webhooks-api-openapi.yml
 - filename: inngest-experiments-api-openapi.yml
   format: yaml
   label: Inngest Experiments API
   slug: inngest-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-experiments-api-openapi.yml
 - filename: inngest-insights-api-openapi.yml
   format: yaml
   label: Inngest Insights API
   slug: inngest-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-insights-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-insights-api-openapi.yml
 - filename: inngest-partner-api-api-openapi.yml
   format: yaml
   label: Inngest Partner API
   slug: inngest-partner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-partner-api-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-partner-api-api-openapi.yml
 - filename: inngest-sandboxes-api-openapi.yml
   format: yaml
   label: Inngest Sandboxes API
   slug: inngest-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-sandboxes-api-openapi.yml
 - filename: inngest-sessions-api-openapi.yml
   format: yaml
   label: Inngest Sessions API
   slug: inngest-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/inngest/openapi/inngest-sessions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/innges
   \      - high-value\n    audit: required\n- path: /v2/apps/{appId}/functions/{functionId}/invoke\n  method: post\n  operationId: v2InvokeFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/env/webhooks\n  method: get\n  operationId: v2ListWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/env/webhooks\n  method: post\n  operationId: v2CreateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v2/keys/events\n  method: get\n  operationId: v2FetchAccountEventKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/keys/signing\n  method: get\n  operationId: v2FetchAccountSigningKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/runs/{runId}\n  method: get\n  operationId: v2GetFunctionRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/runs/{runId}/trace\n  method: get\n  operationId: v2GetFunctionTrace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/partner/accounts\n  method: get\n  operationId: v2FetchPartnerAccounts\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/partner/accounts\n  method: post\n  operationId: v2CreatePartnerAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/agentic-access/inngest-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/inngest/agentic-access/inngest-agentic-access.yml
 summary_line: 22 operations · 8 acting
 tags:
 - AI Agents

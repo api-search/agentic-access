@@ -8,31 +8,31 @@ api_specs:
   label: NVD CPE API
   slug: nvd-cpe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cpe-api-openapi.yml
+  url: https://artifacts.apis.io/nvd/openapi/nvd-cpe-api-openapi.yml
 - filename: nvd-cpe-match-api-openapi.yml
   format: yaml
   label: NVD CPE Match API
   slug: nvd-cpe-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cpe-match-api-openapi.yml
+  url: https://artifacts.apis.io/nvd/openapi/nvd-cpe-match-api-openapi.yml
 - filename: nvd-cve-api-openapi.yml
   format: yaml
   label: NVD CVE API
   slug: nvd-cve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cve-api-openapi.yml
+  url: https://artifacts.apis.io/nvd/openapi/nvd-cve-api-openapi.yml
 - filename: nvd-cve-change-history-api-openapi.yml
   format: yaml
   label: NVD CVE Change History API
   slug: nvd-cve-change-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-cve-change-history-api-openapi.yml
+  url: https://artifacts.apis.io/nvd/openapi/nvd-cve-change-history-api-openapi.yml
 - filename: nvd-sources-api-openapi.yml
   format: yaml
   label: NVD Sources API
   slug: nvd-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/openapi/nvd-sources-api-openapi.yml
+  url: https://artifacts.apis.io/nvd/openapi/nvd-sources-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nvd-cve-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /cves/2.0\n  method: get\n  operationId: getCVEs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cvehistory/2.0\n  method: get\n  operationId: getCVEChangeHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cpes/2.0\n  method: get\n  operationId: getCPEs\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cpematch/2.0\n  method: get\n  operationId: getCPEMatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /source/2.0\n  method: get\n  operationId: getSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/agentic-access/nvd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nvd/agentic-access/nvd-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Security

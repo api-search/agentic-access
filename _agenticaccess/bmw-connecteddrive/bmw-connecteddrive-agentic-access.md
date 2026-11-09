@@ -9,13 +9,13 @@ api_specs:
   label: BMW ConnectedDrive Containers API
   slug: bmw-connecteddrive-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/openapi/bmw-connecteddrive-containers-api-openapi.yml
+  url: https://artifacts.apis.io/bmw-connecteddrive/openapi/bmw-connecteddrive-containers-api-openapi.yml
 - filename: bmw-connecteddrive-vehicles-api-openapi.yml
   format: yaml
   label: BMW ConnectedDrive Vehicles API
   slug: bmw-connecteddrive-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/openapi/bmw-connecteddrive-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/bmw-connecteddrive/openapi/bmw-connecteddrive-vehicles-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bmw-ca
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/vehicles/{vin}/telematicData\n  method: get\n  operationId: getTelematicData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/vehicles/{vin}/smartMaintenanceTyreDiagnosis\n  method: get\n  operationId: getSmartMaintenanceTyreDiagnosis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/vehicles/{vin}/locationBasedChargingSettings\n  method: get\n  operationId: getLocationBasedChargingSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/vehicles/{vin}/image\n  method: get\n  operationId: getImage\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/vehicles/{vin}/chargingHistory\n  method: get\n  operationId: getChargingHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/vehicles/{vin}/basicData\n  method: get\n  operationId: getBasicData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/vehicles/mappings\n  method: get\n  operationId: getMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/containers/{containerId}\n  method: get\n  operationId: getContainerDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/containers/{containerId}\n  method: delete\n  operationId: deleteContainer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/agentic-access/bmw-connecteddrive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bmw-connecteddrive/agentic-access/bmw-connecteddrive-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Automotive
@@ -58,9 +58,10 @@ tags:
 - Charging
 - MQTT
 - Streaming
-- Authentication
+- OAuth
 - Device Code Flow
 - GDPR
 - Right To Repair
 - Mobility
+- Authentication
 ---

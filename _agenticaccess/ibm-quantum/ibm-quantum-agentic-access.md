@@ -9,55 +9,55 @@ api_specs:
   label: ibm-quantum Accounts API
   slug: ibm-quantum-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-accounts-api-openapi.yml
 - filename: ibm-quantum-analytics-api-openapi.yml
   format: yaml
   label: ibm-quantum Analytics API
   slug: ibm-quantum-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-analytics-api-openapi.yml
 - filename: ibm-quantum-backends-api-openapi.yml
   format: yaml
   label: ibm-quantum Backends API
   slug: ibm-quantum-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-backends-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-backends-api-openapi.yml
 - filename: ibm-quantum-instances-api-openapi.yml
   format: yaml
   label: ibm-quantum Instances API
   slug: ibm-quantum-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-instances-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-instances-api-openapi.yml
 - filename: ibm-quantum-jobs-api-openapi.yml
   format: yaml
   label: ibm-quantum Jobs API
   slug: ibm-quantum-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-jobs-api-openapi.yml
 - filename: ibm-quantum-sessions-api-openapi.yml
   format: yaml
   label: ibm-quantum Sessions API
   slug: ibm-quantum-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-sessions-api-openapi.yml
 - filename: ibm-quantum-tags-api-openapi.yml
   format: yaml
   label: ibm-quantum Tags API
   slug: ibm-quantum-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-tags-api-openapi.yml
 - filename: ibm-quantum-versions-api-openapi.yml
   format: yaml
   label: ibm-quantum Versions API
   slug: ibm-quantum-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-versions-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-versions-api-openapi.yml
 - filename: ibm-quantum-workloads-api-openapi.yml
   format: yaml
   label: ibm-quantum Workloads API
   slug: ibm-quantum-workloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/openapi/ibm-quantum-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-quantum/openapi/ibm-quantum-workloads-api-openapi.yml
 consequence_counts:
   read: 22
   write: 8
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ibm-qu
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/{id}/metrics\n  method: get\n  operationId: get_job_metrics_jid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs/{id}/tags\n  method: put\n  operationId: replace_job_tags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags\n  method: get\n  operationId: list_tags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/sessions\n  method: post\n  operationId: create_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sessions/{id}\n  method: get\n  operationId: get_session\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sessions/{id}\n  method: patch\n  operationId: update_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sessions/{id}/close\n  method: delete\n\
   \  operationId: delete_session_close\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/versions\n  method: get\n  operationId: get_versions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/agentic-access/ibm-quantum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ibm-quantum/agentic-access/ibm-quantum-agentic-access.yml
 summary_line: 30 operations · 8 acting
 tags:
 - Quantum Computing

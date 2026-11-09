@@ -8,25 +8,25 @@ api_specs:
   label: Contensis Content Types API
   slug: contensis-content-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-content-types-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-content-types-api-openapi.yml
 - filename: contensis-entries-api-openapi.yml
   format: yaml
   label: Contensis Entries API
   slug: contensis-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-entries-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-entries-api-openapi.yml
 - filename: contensis-projects-api-openapi.yml
   format: yaml
   label: Contensis Projects API
   slug: contensis-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-projects-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-projects-api-openapi.yml
 - filename: contensis-taxonomy-api-openapi.yml
   format: yaml
   label: Contensis Taxonomy API
   slug: contensis-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/contensis/openapi/contensis-taxonomy-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contensis-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /api/delivery/projects/{projectId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/delivery/projects/{projectId}/contenttypes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/delivery/projects/{projectId}/contenttypes/{contentTypeId}\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/delivery/projects/{projectId}/entries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/delivery/projects/{projectId}/entries/{entryId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/delivery/projects/{projectId}/entries/search\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/delivery/projects/{projectId}/taxonomy/nodes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/agentic-access/contensis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/contensis/agentic-access/contensis-agentic-access.yml
 summary_line: 7 operations
 tags:
 - CMS

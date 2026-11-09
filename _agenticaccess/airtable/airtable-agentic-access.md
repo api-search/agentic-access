@@ -9,49 +9,49 @@ api_specs:
   label: Airtable Bases API
   slug: airtable-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-bases-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-bases-api-openapi.yml
 - filename: airtable-comments-api-openapi.yml
   format: yaml
   label: Airtable Comments API
   slug: airtable-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-comments-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-comments-api-openapi.yml
 - filename: airtable-fields-api-openapi.yml
   format: yaml
   label: Airtable Fields API
   slug: airtable-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-fields-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-fields-api-openapi.yml
 - filename: airtable-groups-api-openapi.yml
   format: yaml
   label: Airtable Groups API
   slug: airtable-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-groups-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-groups-api-openapi.yml
 - filename: airtable-records-api-openapi.yml
   format: yaml
   label: Airtable Records API
   slug: airtable-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-records-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-records-api-openapi.yml
 - filename: airtable-tables-api-openapi.yml
   format: yaml
   label: Airtable Tables API
   slug: airtable-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-tables-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-tables-api-openapi.yml
 - filename: airtable-users-api-openapi.yml
   format: yaml
   label: Airtable Users API
   slug: airtable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-users-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-users-api-openapi.yml
 - filename: airtable-webhooks-api-openapi.yml
   format: yaml
   label: Airtable Webhooks API
   slug: airtable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/airtable/openapi/airtable-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/airtab
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Groups\n  method: get\n  operationId: listScimGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Groups\n  method: post\n  operationId: createScimGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Groups/{groupId}\n  method: get\n  operationId: getScimGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Groups/{groupId}\n  method: put\n  operationId: replaceScimGroup\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Groups/{groupId}\n  method: patch\n  operationId: updateScimGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Groups/{groupId}\n  method: delete\n  operationId: deleteScimGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meta/bases/{baseId}/shares\n\
   \  method: get\n  operationId: listShares\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meta/bases/{baseId}/shares/{shareId}\n  method: patch\n  operationId: manageShare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meta/bases/{baseId}/shares/{shareId}\n  method: delete\n  operationId: deleteShare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/agentic-access/airtable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airtable/agentic-access/airtable-agentic-access.yml
 summary_line: 56 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Application

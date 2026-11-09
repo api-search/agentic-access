@@ -9,31 +9,31 @@ api_specs:
   label: ADS-B Exchange Geopolitical Filtering API
   slug: adsbexchange-geopolitical-filtering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-geopolitical-filtering-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-geopolitical-filtering-api-openapi.yml
 - filename: adsbexchange-geospatial-filtering-api-openapi.yml
   format: yaml
   label: ADS-B Exchange Geospatial Filtering API
   slug: adsbexchange-geospatial-filtering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-geospatial-filtering-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-geospatial-filtering-api-openapi.yml
 - filename: adsbexchange-live-positional-data-api-openapi.yml
   format: yaml
   label: ADS-B Exchange Live Positional Data API
   slug: adsbexchange-live-positional-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-live-positional-data-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-live-positional-data-api-openapi.yml
 - filename: adsbexchange-operations-api-openapi.yml
   format: yaml
   label: ADS-B Exchange Operations API
   slug: adsbexchange-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-operations-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-operations-api-openapi.yml
 - filename: adsbexchange-traces-api-openapi.yml
   format: yaml
   label: ADS-B Exchange Traces API
   slug: adsbexchange-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/openapi/adsbexchange-traces-api-openapi.yml
+  url: https://artifacts.apis.io/adsbexchange/openapi/adsbexchange-traces-api-openapi.yml
 consequence_counts:
   read: 29
   write: 1
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/adsbex
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registration\n  method: post\n  operationId: PostApiAircraftV2Registration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sqk/{squawk}\n  method: get\n  operationId: GetApiAircraftV2Sqk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/icaos\n  method: post\n  operationId: PostApiAircraftV2OperationsIcaos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/icao/{icao}\n  method: get\n  operationId: GetApiAircraftV2OperationsIcao\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/airports\n  method: post\n  operationId: PostApiAircraftV2OperationsAirports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/airport/{airport}\n  method: get\n  operationId: GetApiAircraftV2OperationsAirport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces/{folder}/{jsonFile}\n  method: get\n  operationId: GetApiAircraftV2Traces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces-hist/{year}/{month}/{day}/traces/{folder}/{jsonFile}\n  method: get\n  operationId: GetApiAircraftV2TracesHistTraces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/agentic-access/adsbexchange-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adsbexchange/agentic-access/adsbexchange-agentic-access.yml
 summary_line: 30 operations · 1 acting
 tags:
 - Aviation

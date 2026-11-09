@@ -9,25 +9,25 @@ api_specs:
   label: Orama Answer API
   slug: orama-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-answer-api-openapi.yml
+  url: https://artifacts.apis.io/orama/openapi/orama-answer-api-openapi.yml
 - filename: orama-documents-api-openapi.yml
   format: yaml
   label: Orama Documents API
   slug: orama-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-documents-api-openapi.yml
+  url: https://artifacts.apis.io/orama/openapi/orama-documents-api-openapi.yml
 - filename: orama-indexes-api-openapi.yml
   format: yaml
   label: Orama Indexes API
   slug: orama-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/orama/openapi/orama-indexes-api-openapi.yml
 - filename: orama-search-api-openapi.yml
   format: yaml
   label: Orama Search API
   slug: orama-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/openapi/orama-search-api-openapi.yml
+  url: https://artifacts.apis.io/orama/openapi/orama-search-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 1
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/orama-
   - path: /api/v1/webhooks/{indexId}/notify\n  method: post\n  operationId: notify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{indexId}/snapshot\n  method: post\n  operationId: snapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{indexId}/update-schema\n  method: post\n  operationId: updateSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{indexId}/has-data\n  method: post\n  operationId: hasData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{indexId}/empty\n  method: post\n  operationId: emptyIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{indexId}/deploy\n  method: post\n  operationId: deployIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/indexes/{indexId}/search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/agentic-access/orama-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orama/agentic-access/orama-agentic-access.yml
 summary_line: 8 operations · 7 acting
 tags:
 - Search

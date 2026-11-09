@@ -390,9 +390,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: generated\nsource: openapi/robosy
 source_yaml_url: https://artifacts.apis.io/robosystems-ai/agentic-access/robosystems-ai-agentic-access.yml
 summary_line: 231 operations · 159 acting · 7 human-in-the-loop
 tags:
-- Robotics
-- AI
-- Automation
-- Industrial
-- Platform
+- Finance
+- Artificial Intelligence
+- Knowledge Graph
+- Open Source
 ---

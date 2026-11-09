@@ -9,49 +9,49 @@ api_specs:
   label: Monero Blockchain API
   slug: monero-blockchain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-blockchain-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-blockchain-api-openapi.yml
 - filename: monero-json-rpc-api-openapi.yml
   format: yaml
   label: Monero JSON-RPC API
   slug: monero-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-json-rpc-api-openapi.yml
 - filename: monero-mining-api-openapi.yml
   format: yaml
   label: Monero Mining API
   slug: monero-mining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-mining-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-mining-api-openapi.yml
 - filename: monero-network-api-openapi.yml
   format: yaml
   label: Monero Network API
   slug: monero-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-network-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-network-api-openapi.yml
 - filename: monero-node-info-api-openapi.yml
   format: yaml
   label: Monero Node Info API
   slug: monero-node-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-node-info-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-node-info-api-openapi.yml
 - filename: monero-outputs-api-openapi.yml
   format: yaml
   label: Monero Outputs API
   slug: monero-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-outputs-api-openapi.yml
 - filename: monero-transaction-pool-api-openapi.yml
   format: yaml
   label: Monero Transaction Pool API
   slug: monero-transaction-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-transaction-pool-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-transaction-pool-api-openapi.yml
 - filename: monero-transactions-api-openapi.yml
   format: yaml
   label: Monero Transactions API
   slug: monero-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/openapi/monero-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/monero/openapi/monero-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/monero
   \   audit: none\n- path: /get_public_nodes\n  method: post\n  operationId: getPublicNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_height\n  method: post\n  operationId: getHeight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_outs\n  method: post\n  operationId: getOuts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_transaction_pool\n  method: post\n  operationId: getTransactionPool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_transaction_pool_stats\n  method: post\n  operationId: getTransactionPoolStats\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_transactions\n  method: post\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /is_key_image_spent\n  method: post\n  operationId: isKeyImageSpent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /send_raw_transaction\n  method: post\n  operationId: sendRawTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/agentic-access/monero-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/monero/agentic-access/monero-agentic-access.yml
 summary_line: 16 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Cryptocurrency

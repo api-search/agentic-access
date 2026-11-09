@@ -9,271 +9,271 @@ api_specs:
   label: Extreme Networks Account API
   slug: extreme-networks-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-account-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-account-api-openapi.yml
 - filename: extreme-networks-administration-api-openapi.yml
   format: yaml
   label: Extreme Networks Administration API
   slug: extreme-networks-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-administration-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-administration-api-openapi.yml
 - filename: extreme-networks-afc-api-openapi.yml
   format: yaml
   label: Extreme Networks AFC API
   slug: extreme-networks-afc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-afc-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-afc-api-openapi.yml
 - filename: extreme-networks-alert-api-openapi.yml
   format: yaml
   label: Extreme Networks Alert API
   slug: extreme-networks-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-alert-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-alert-api-openapi.yml
 - filename: extreme-networks-application-api-openapi.yml
   format: yaml
   label: Extreme Networks Application API
   slug: extreme-networks-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-application-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-application-api-openapi.yml
 - filename: extreme-networks-authentication-api-openapi.yml
   format: yaml
   label: Extreme Networks Authentication API
   slug: extreme-networks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-authentication-api-openapi.yml
 - filename: extreme-networks-authorization-api-openapi.yml
   format: yaml
   label: Extreme Networks Authorization API
   slug: extreme-networks-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-authorization-api-openapi.yml
 - filename: extreme-networks-client-api-openapi.yml
   format: yaml
   label: Extreme Networks Client API
   slug: extreme-networks-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-client-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-client-api-openapi.yml
 - filename: extreme-networks-client-details-api-openapi.yml
   format: yaml
   label: Extreme Networks Client - Details API
   slug: extreme-networks-client-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-client-details-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-client-details-api-openapi.yml
 - filename: extreme-networks-configuration-authentication-api-openapi.yml
   format: yaml
   label: Extreme Networks Configuration - Authentication API
   slug: extreme-networks-configuration-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-configuration-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-configuration-authentication-api-openapi.yml
 - filename: extreme-networks-configuration-basic-api-openapi.yml
   format: yaml
   label: Extreme Networks Configuration - Basic API
   slug: extreme-networks-configuration-basic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-configuration-basic-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-configuration-basic-api-openapi.yml
 - filename: extreme-networks-configuration-certificate-api-openapi.yml
   format: yaml
   label: Extreme Networks Configuration - Certificate API
   slug: extreme-networks-configuration-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-configuration-certificate-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-configuration-certificate-api-openapi.yml
 - filename: extreme-networks-configuration-deployment-api-openapi.yml
   format: yaml
   label: Extreme Networks Configuration - Deployment API
   slug: extreme-networks-configuration-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-configuration-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-configuration-deployment-api-openapi.yml
 - filename: extreme-networks-configuration-network-api-openapi.yml
   format: yaml
   label: Extreme Networks Configuration - Network API
   slug: extreme-networks-configuration-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-configuration-network-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-configuration-network-api-openapi.yml
 - filename: extreme-networks-configuration-policy-api-openapi.yml
   format: yaml
   label: Extreme Networks Configuration - Policy API
   slug: extreme-networks-configuration-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-configuration-policy-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-configuration-policy-api-openapi.yml
 - filename: extreme-networks-configuration-user-management-api-openapi.yml
   format: yaml
   label: Extreme Networks Configuration - User Management API
   slug: extreme-networks-configuration-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-configuration-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-configuration-user-management-api-openapi.yml
 - filename: extreme-networks-copilot-anomalies-api-openapi.yml
   format: yaml
   label: Extreme Networks Copilot - Anomalies API
   slug: extreme-networks-copilot-anomalies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-copilot-anomalies-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-copilot-anomalies-api-openapi.yml
 - filename: extreme-networks-copilot-connectivity-experience-api-openapi.yml
   format: yaml
   label: Extreme Networks Copilot - Connectivity Experience API
   slug: extreme-networks-copilot-connectivity-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-copilot-connectivity-experience-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-copilot-connectivity-experience-api-openapi.yml
 - filename: extreme-networks-d360-api-openapi.yml
   format: yaml
   label: Extreme Networks D360 API
   slug: extreme-networks-d360-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-d360-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-d360-api-openapi.yml
 - filename: extreme-networks-dashboard-api-openapi.yml
   format: yaml
   label: Extreme Networks Dashboard API
   slug: extreme-networks-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-dashboard-api-openapi.yml
 - filename: extreme-networks-dashboard-wired-client-health-api-openapi.yml
   format: yaml
   label: Extreme Networks Dashboard - Wired Client Health API
   slug: extreme-networks-dashboard-wired-client-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-dashboard-wired-client-health-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-dashboard-wired-client-health-api-openapi.yml
 - filename: extreme-networks-dashboard-wired-device-health-api-openapi.yml
   format: yaml
   label: Extreme Networks Dashboard - Wired Device Health API
   slug: extreme-networks-dashboard-wired-device-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-dashboard-wired-device-health-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-dashboard-wired-device-health-api-openapi.yml
 - filename: extreme-networks-dashboard-wired-usage-and-capacity-api-openapi.yml
   format: yaml
   label: Extreme Networks Dashboard - Wired Usage and Capacity API
   slug: extreme-networks-dashboard-wired-usage-and-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-dashboard-wired-usage-and-capacity-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-dashboard-wired-usage-and-capacity-api-openapi.yml
 - filename: extreme-networks-dashboard-wireless-client-health-api-openapi.yml
   format: yaml
   label: Extreme Networks Dashboard - Wireless Client Health API
   slug: extreme-networks-dashboard-wireless-client-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-dashboard-wireless-client-health-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-dashboard-wireless-client-health-api-openapi.yml
 - filename: extreme-networks-dashboard-wireless-device-health-api-openapi.yml
   format: yaml
   label: Extreme Networks Dashboard - Wireless Device Health API
   slug: extreme-networks-dashboard-wireless-device-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-dashboard-wireless-device-health-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-dashboard-wireless-device-health-api-openapi.yml
 - filename: extreme-networks-dashboard-wireless-usage-and-capacity-api-openapi.yml
   format: yaml
   label: Extreme Networks Dashboard - Wireless Usage and Capacity API
   slug: extreme-networks-dashboard-wireless-usage-and-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-dashboard-wireless-usage-and-capacity-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-dashboard-wireless-usage-and-capacity-api-openapi.yml
 - filename: extreme-networks-device-api-openapi.yml
   format: yaml
   label: Extreme Networks Device API
   slug: extreme-networks-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-device-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-device-api-openapi.yml
 - filename: extreme-networks-essentials-extremelocation-api-openapi.yml
   format: yaml
   label: Extreme Networks Essentials - ExtremeLocation API
   slug: extreme-networks-essentials-extremelocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-essentials-extremelocation-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-essentials-extremelocation-api-openapi.yml
 - filename: extreme-networks-geo-view-api-openapi.yml
   format: yaml
   label: Extreme Networks Geo-View API
   slug: extreme-networks-geo-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-geo-view-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-geo-view-api-openapi.yml
 - filename: extreme-networks-hiq-api-openapi.yml
   format: yaml
   label: Extreme Networks HIQ API
   slug: extreme-networks-hiq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-hiq-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-hiq-api-openapi.yml
 - filename: extreme-networks-location-api-openapi.yml
   format: yaml
   label: Extreme Networks Location API
   slug: extreme-networks-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-location-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-location-api-openapi.yml
 - filename: extreme-networks-log-api-openapi.yml
   format: yaml
   label: Extreme Networks Log API
   slug: extreme-networks-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-log-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-log-api-openapi.yml
 - filename: extreme-networks-misc-api-openapi.yml
   format: yaml
   label: Extreme Networks Misc API
   slug: extreme-networks-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-misc-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-misc-api-openapi.yml
 - filename: extreme-networks-network-policy-api-openapi.yml
   format: yaml
   label: Extreme Networks Network Policy API
   slug: extreme-networks-network-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-network-policy-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-network-policy-api-openapi.yml
 - filename: extreme-networks-network-scorecard-api-openapi.yml
   format: yaml
   label: Extreme Networks Network Scorecard API
   slug: extreme-networks-network-scorecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-network-scorecard-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-network-scorecard-api-openapi.yml
 - filename: extreme-networks-ng-reports-api-openapi.yml
   format: yaml
   label: Extreme Networks NG Reports API
   slug: extreme-networks-ng-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-ng-reports-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-ng-reports-api-openapi.yml
 - filename: extreme-networks-ng-scheduled-reports-api-openapi.yml
   format: yaml
   label: Extreme Networks NG Scheduled Reports API
   slug: extreme-networks-ng-scheduled-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-ng-scheduled-reports-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-ng-scheduled-reports-api-openapi.yml
 - filename: extreme-networks-notification-api-openapi.yml
   format: yaml
   label: Extreme Networks Notification API
   slug: extreme-networks-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-notification-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-notification-api-openapi.yml
 - filename: extreme-networks-operation-api-openapi.yml
   format: yaml
   label: Extreme Networks Operation API
   slug: extreme-networks-operation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-operation-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-operation-api-openapi.yml
 - filename: extreme-networks-packetcaptures-api-openapi.yml
   format: yaml
   label: Extreme Networks PacketCaptures API
   slug: extreme-networks-packetcaptures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-packetcaptures-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-packetcaptures-api-openapi.yml
 - filename: extreme-networks-rtts-api-openapi.yml
   format: yaml
   label: Extreme Networks RTTS API
   slug: extreme-networks-rtts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-rtts-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-rtts-api-openapi.yml
 - filename: extreme-networks-switch-inspector-panel-api-openapi.yml
   format: yaml
   label: Extreme Networks Switch Inspector Panel API
   slug: extreme-networks-switch-inspector-panel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-switch-inspector-panel-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-switch-inspector-panel-api-openapi.yml
 - filename: extreme-networks-thread-api-openapi.yml
   format: yaml
   label: Extreme Networks Thread API
   slug: extreme-networks-thread-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-thread-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-thread-api-openapi.yml
 - filename: extreme-networks-universal-compute-platform-api-openapi.yml
   format: yaml
   label: Extreme Networks Universal Compute Platform API
   slug: extreme-networks-universal-compute-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-universal-compute-platform-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-universal-compute-platform-api-openapi.yml
 - filename: extreme-networks-user-api-openapi.yml
   format: yaml
   label: Extreme Networks User API
   slug: extreme-networks-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extreme-networks-user-api-openapi.yml
+  url: https://artifacts.apis.io/extreme-networks/openapi/extreme-networks-user-api-openapi.yml
 consequence_counts:
   physical: 49
   read: 290
@@ -462,8 +462,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/extrem
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/grid\n  method: post\n  operationId: listApplicationUsageSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/category_metadata\n  method: get\n  operationId: listApplicationCategoriesAndNames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/grid/export\n  method: post\n  operationId: export_application_usage_to_csv\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logout\n  method: post\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /auth/apitoken\n  method: post\n  operationId: generateApiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /auth/apitoken/info\n  method: get\n  operationId: getCurrentApiTokenInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/apitoken/:validate\n  method: post\n  operationId: validateApiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/permissions\n  method: get\n  operationId: listPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/permissions/:check\n  method: post\n  operationId: checkPermissions\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clients/active\n  method: get\n  operationId: getActiveClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/summary\n  method: get\n  operationId: getClientSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/usage\n  method: get\n  operationId: getClientUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (187 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/agentic-access/extreme-networks-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/agentic-access/extreme-networks-agentic-access.yml
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clients/active\n  method: get\n  operationId: getActiveClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/summary\n  method: get\n  operationId: getClientSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/usage\n  method: get\n  operationId: getClientUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (187 KB total) ---\n# Full source: https://artifacts.apis.io/extreme-networks/agentic-access/extreme-networks-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/extreme-networks/agentic-access/extreme-networks-agentic-access.yml
 summary_line: 628 operations · 338 acting · 21 human-in-the-loop
 tags:
 - Networking

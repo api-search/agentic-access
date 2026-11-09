@@ -9,55 +9,55 @@ api_specs:
   label: Height Activities API
   slug: height-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-activities-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-activities-api-openapi.yml
 - filename: height-field-templates-api-openapi.yml
   format: yaml
   label: Height Field Templates API
   slug: height-field-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-field-templates-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-field-templates-api-openapi.yml
 - filename: height-groups-api-openapi.yml
   format: yaml
   label: Height Groups API
   slug: height-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-groups-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-groups-api-openapi.yml
 - filename: height-lists-api-openapi.yml
   format: yaml
   label: Height Lists API
   slug: height-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-lists-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-lists-api-openapi.yml
 - filename: height-security-log-events-api-openapi.yml
   format: yaml
   label: Height Security Log Events API
   slug: height-security-log-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-security-log-events-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-security-log-events-api-openapi.yml
 - filename: height-task-forms-api-openapi.yml
   format: yaml
   label: Height Task Forms API
   slug: height-task-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-task-forms-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-task-forms-api-openapi.yml
 - filename: height-tasks-api-openapi.yml
   format: yaml
   label: Height Tasks API
   slug: height-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-tasks-api-openapi.yml
 - filename: height-users-api-openapi.yml
   format: yaml
   label: Height Users API
   slug: height-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-users-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-users-api-openapi.yml
 - filename: height-workspace-api-openapi.yml
   format: yaml
   label: Height Workspace API
   slug: height-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/openapi/height-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/height/openapi/height-workspace-api-openapi.yml
 consequence_counts:
   read: 12
   write: 10
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/height
   \  method: post\n  operationId: createFieldTemplateOption\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fieldTemplates/:id/options/:optionId\n  method: put\n  operationId: updateFieldTemplateOption\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /taskForms/:id/answers\n  method: post\n  operationId: createTaskFromTaskForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /taskForms/:urlKey\n  method: get\n  operationId: getTaskForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/:id\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups\n  method: get\n  operationId: getAllGroups\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityLogEvents\n  method: get\n  operationId: listSecurityLogEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace\n  method: get\n  operationId: retrieveWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/agentic-access/height-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/height/agentic-access/height-agentic-access.yml
 summary_line: 22 operations · 10 acting
 tags:
 - Project Management

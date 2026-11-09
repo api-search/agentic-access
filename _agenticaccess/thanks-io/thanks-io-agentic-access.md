@@ -215,8 +215,7 @@ source_yaml_url: https://artifacts.apis.io/thanks-io/agentic-access/thanks-io-ag
 summary_line: 52 operations · 33 acting
 tags:
 - Company
-- AI
-- DirectMail
+- Artificial Intelligence
+- Direct Mail
 - Automation
-- API
 ---

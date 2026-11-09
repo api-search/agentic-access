@@ -9,49 +9,49 @@ api_specs:
   label: Shapeshift Account API
   slug: shapeshift-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-account-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-account-api-openapi.yml
 - filename: shapeshift-fees-api-openapi.yml
   format: yaml
   label: Shapeshift Fees API
   slug: shapeshift-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-fees-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-fees-api-openapi.yml
 - filename: shapeshift-gas-api-openapi.yml
   format: yaml
   label: Shapeshift Gas API
   slug: shapeshift-gas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-gas-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-gas-api-openapi.yml
 - filename: shapeshift-info-api-openapi.yml
   format: yaml
   label: Shapeshift Info API
   slug: shapeshift-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-info-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-info-api-openapi.yml
 - filename: shapeshift-jsonrpc-api-openapi.yml
   format: yaml
   label: Shapeshift Jsonrpc API
   slug: shapeshift-jsonrpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-jsonrpc-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-jsonrpc-api-openapi.yml
 - filename: shapeshift-send-api-openapi.yml
   format: yaml
   label: Shapeshift Send API
   slug: shapeshift-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-send-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-send-api-openapi.yml
 - filename: shapeshift-token-api-openapi.yml
   format: yaml
   label: Shapeshift Token API
   slug: shapeshift-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-token-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-token-api-openapi.yml
 - filename: shapeshift-tx-api-openapi.yml
   format: yaml
   label: Shapeshift Tx API
   slug: shapeshift-tx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/openapi/shapeshift-tx-api-openapi.yml
+  url: https://artifacts.apis.io/shapeshift/openapi/shapeshift-tx-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 18
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/shapes
   \ get\n  operationId: GetAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/account/{pubkey}/txs\n  method: get\n  operationId: GetTxHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/{txid}\n  method: get\n  operationId: GetTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/send\n  method: post\n  operationId: SendTx\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v1/fees/priority\n  method: get\n  operationId: GetPriorityFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/fees/estimate\n  method: post\n  operationId: EstimateFees\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/jsonrpc\n  method: post\n  operationId: DoRpcRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/token/{id}\n  method: get\n  operationId:\
   \ GetToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/agentic-access/shapeshift-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shapeshift/agentic-access/shapeshift-agentic-access.yml
 summary_line: 25 operations · 7 acting
 tags:
 - Company

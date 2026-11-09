@@ -9,25 +9,25 @@ api_specs:
   label: TYPO3 Cache API
   slug: typo3-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-cache-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-cache-api-openapi.yml
 - filename: typo3-major-api-openapi.yml
   format: yaml
   label: TYPO3 Major API
   slug: typo3-major-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-major-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-major-api-openapi.yml
 - filename: typo3-release-api-openapi.yml
   format: yaml
   label: TYPO3 Release API
   slug: typo3-release-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-release-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-release-api-openapi.yml
 - filename: typo3-sitepackage-api-openapi.yml
   format: yaml
   label: TYPO3 Sitepackage API
   slug: typo3-sitepackage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-sitepackage-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-sitepackage-api-openapi.yml
 consequence_counts:
   read: 10
   write: 13
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/typo3-
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/release/{version}\n  method: get\n  operationId: get_release_show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/release/{version}\n  method: delete\n  operationId: delete_app_api_release_deleterelease\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/release/{version}\n  method: patch\n  operationId: patch_app_api_release_updaterelease\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/release/{version}/release-notes\n  method: put\n  operationId: put_app_api_release_addreleasenotesforversion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/release/{version}/content\n  method: get\n  operationId: get_app_api_release_getcontentforversion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sitepackage/\n  method: post\n  operationId: post_app_api_sitepackage_createsitepackage\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/agentic-access/typo3-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/typo3/agentic-access/typo3-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - CMS

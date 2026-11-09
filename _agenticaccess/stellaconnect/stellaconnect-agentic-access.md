@@ -9,37 +9,37 @@ api_specs:
   label: Stella Connect (Medallia Agent Connect) Coaching API
   slug: stellaconnect-coaching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-coaching-api-openapi.yml
+  url: https://artifacts.apis.io/stellaconnect/openapi/stellaconnect-coaching-api-openapi.yml
 - filename: stellaconnect-data-api-openapi.yml
   format: yaml
   label: Stella Connect (Medallia Agent Connect) Data API
   slug: stellaconnect-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-data-api-openapi.yml
+  url: https://artifacts.apis.io/stellaconnect/openapi/stellaconnect-data-api-openapi.yml
 - filename: stellaconnect-employees-api-openapi.yml
   format: yaml
   label: Stella Connect (Medallia Agent Connect) Employees API
   slug: stellaconnect-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-employees-api-openapi.yml
+  url: https://artifacts.apis.io/stellaconnect/openapi/stellaconnect-employees-api-openapi.yml
 - filename: stellaconnect-qa-api-openapi.yml
   format: yaml
   label: Stella Connect (Medallia Agent Connect) Qa API
   slug: stellaconnect-qa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-qa-api-openapi.yml
+  url: https://artifacts.apis.io/stellaconnect/openapi/stellaconnect-qa-api-openapi.yml
 - filename: stellaconnect-recoveries-api-openapi.yml
   format: yaml
   label: Stella Connect (Medallia Agent Connect) Recoveries API
   slug: stellaconnect-recoveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-recoveries-api-openapi.yml
+  url: https://artifacts.apis.io/stellaconnect/openapi/stellaconnect-recoveries-api-openapi.yml
 - filename: stellaconnect-requests-api-openapi.yml
   format: yaml
   label: Stella Connect (Medallia Agent Connect) Requests API
   slug: stellaconnect-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/openapi/stellaconnect-requests-api-openapi.yml
+  url: https://artifacts.apis.io/stellaconnect/openapi/stellaconnect-requests-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/stella
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/employees/{id}/activate\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/employees/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/employees/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/employees\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/employees\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/employees/{id}/deactivate\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/employees/invite\n  method: post\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/agentic-access/stellaconnect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stellaconnect/agentic-access/stellaconnect-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Customer Service

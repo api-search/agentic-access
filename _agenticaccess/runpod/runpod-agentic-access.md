@@ -9,49 +9,49 @@ api_specs:
   label: RunPod Billing API
   slug: runpod-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-billing-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-billing-api-openapi.yml
 - filename: runpod-containerregistryauth-api-openapi.yml
   format: yaml
   label: RunPod Containerregistryauth API
   slug: runpod-containerregistryauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-containerregistryauth-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-containerregistryauth-api-openapi.yml
 - filename: runpod-docs-api-openapi.yml
   format: yaml
   label: RunPod Docs API
   slug: runpod-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-docs-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-docs-api-openapi.yml
 - filename: runpod-endpoints-api-openapi.yml
   format: yaml
   label: RunPod Endpoints API
   slug: runpod-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-endpoints-api-openapi.yml
 - filename: runpod-openapi-json-api-openapi.yml
   format: yaml
   label: RunPod Openapi.json API
   slug: runpod-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-openapi-json-api-openapi.yml
 - filename: runpod-pods-api-openapi.yml
   format: yaml
   label: RunPod Pods API
   slug: runpod-pods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-pods-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-pods-api-openapi.yml
 - filename: runpod-templates-api-openapi.yml
   format: yaml
   label: RunPod Templates API
   slug: runpod-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-templates-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-templates-api-openapi.yml
 - filename: runpod-network-volumes-api-openapi.yml
   format: yaml
   label: RunPod Network Volumes API
   slug: runpod-network-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/openapi/runpod-network-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/runpod/openapi/runpod-network-volumes-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 2
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/runpod
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networkvolumes/{networkVolumeId}\n  method: delete\n  operationId: deleteNetworkVolume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networkvolumes/{networkVolumeId}/update\n  method: post\n  operationId: updateNetworkVolume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /containerregistryauth\n  method: get\n  operationId: listContainerRegistryAuth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /containerregistryauth\n  method: post\n  operationId: createContainerRegistryAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /containerregistryauth/{containerRegistryAuthId}\n  method: get\n  operationId: getContainerRegistryAuth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /containerregistryauth/{containerRegistryAuthId}\n  method: delete\n  operationId: deleteContainerRegistryAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/pods\n  method: get\n  operationId: getBillingPods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/endpoints\n  method: get\n  operationId: getBillingEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/networkvolumes\n  method: get\n  operationId: getBillingNetworkVolumes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/agentic-access/runpod-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/runpod/agentic-access/runpod-agentic-access.yml
 summary_line: 37 operations · 22 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

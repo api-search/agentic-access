@@ -9,7 +9,7 @@ api_specs:
   label: FOMO Applications API
   slug: usefomo-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usefomo/refs/heads/main/openapi/usefomo-applications-api-openapi.yml
+  url: https://artifacts.apis.io/usefomo/openapi/usefomo-applications-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -39,12 +39,12 @@ source_yaml: "generated: '2026-10-26'\nmethod: generated\nsource: openapi/usefom
   \ get\n  operationId: application-get-statistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/me/event_types\n  method: post\n  operationId: create-a-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/me/events\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/me/events/:ID\n  method: get\n  operationId: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/me/events/:ID\n  method: patch\n  operationId: update-event\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/me/events/:ID\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/me/events/find\n  method: get\n  operationId: search-for-an-event\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usefomo/refs/heads/main/agentic-access/usefomo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/usefomo/agentic-access/usefomo-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Company
-- SocialProof
+- Social Proof
 - Marketing
-- SaaS
-- ECommerce
+- Software-as-a-Service
+- E-Commerce
 ---

@@ -8,25 +8,25 @@ api_specs:
   label: NASA CMR Capabilities API
   slug: nasa-cmr-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/openapi/nasa-cmr-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-cmr/openapi/nasa-cmr-capabilities-api-openapi.yml
 - filename: nasa-cmr-collections-api-openapi.yml
   format: yaml
   label: NASA CMR Collections API
   slug: nasa-cmr-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/openapi/nasa-cmr-collections-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-cmr/openapi/nasa-cmr-collections-api-openapi.yml
 - filename: nasa-cmr-data-api-openapi.yml
   format: yaml
   label: NASA CMR Data API
   slug: nasa-cmr-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/openapi/nasa-cmr-data-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-cmr/openapi/nasa-cmr-data-api-openapi.yml
 - filename: nasa-cmr-stac-api-openapi.yml
   format: yaml
   label: NASA CMR STAC API
   slug: nasa-cmr-stac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/openapi/nasa-cmr-stac-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-cmr/openapi/nasa-cmr-stac-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nasa-cmr-capabilities-api-openapi.yml, openapi/nasa-cmr-collections-api-openapi.yml,\n  openapi/nasa-cmr-data-api-openapi.yml, openapi/nasa-cmr-stac-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs\n  method: get\n  operationId: getConformanceDeclaration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{providerId}\n  method: get\n  operationId: getProvider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{providerId}/collections\n  method: get\n  operationId: getCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{providerId}/collections/{collectionId}\n  method: get\n  operationId: describeCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections{response_format}\n  method: get\n  operationId: getCollections{responseFormat}\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /{providerId}/collections/{collectionId}/items\n  method: get\n  operationId: getFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: '{providerId}/collections/{collectionId}/items/{featureId}'\n  method: get\n  operationId: getFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{providerId}/search\n  method: get\n  operationId: getSearchSTAC\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{providerId}/search\n  method: post\n  operationId: postSearchSTAC\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/agentic-access/nasa-cmr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nasa-cmr/agentic-access/nasa-cmr-agentic-access.yml
 summary_line: 10 operations
 tags:
 - NASA

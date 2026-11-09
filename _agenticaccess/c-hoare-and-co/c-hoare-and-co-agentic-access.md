@@ -9,121 +9,121 @@ api_specs:
   label: C. Hoare & Co. Account Access API
   slug: c-hoare-and-co-account-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-account-access-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-account-access-api-openapi.yml
 - filename: c-hoare-and-co-accounts-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Accounts API
   slug: c-hoare-and-co-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-accounts-api-openapi.yml
 - filename: c-hoare-and-co-balances-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Balances API
   slug: c-hoare-and-co-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-balances-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-balances-api-openapi.yml
 - filename: c-hoare-and-co-beneficiaries-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Beneficiaries API
   slug: c-hoare-and-co-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-beneficiaries-api-openapi.yml
 - filename: c-hoare-and-co-client-registration-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Client Registration API
   slug: c-hoare-and-co-client-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-client-registration-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-client-registration-api-openapi.yml
 - filename: c-hoare-and-co-direct-debits-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Direct Debits API
   slug: c-hoare-and-co-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-direct-debits-api-openapi.yml
 - filename: c-hoare-and-co-domestic-payments-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Domestic Payments API
   slug: c-hoare-and-co-domestic-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-domestic-payments-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-domestic-payments-api-openapi.yml
 - filename: c-hoare-and-co-domestic-scheduled-payments-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Domestic Scheduled Payments API
   slug: c-hoare-and-co-domestic-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-domestic-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-domestic-scheduled-payments-api-openapi.yml
 - filename: c-hoare-and-co-domestic-standing-orders-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Domestic Standing Orders API
   slug: c-hoare-and-co-domestic-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-domestic-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-domestic-standing-orders-api-openapi.yml
 - filename: c-hoare-and-co-file-payments-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. File Payments API
   slug: c-hoare-and-co-file-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-file-payments-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-file-payments-api-openapi.yml
 - filename: c-hoare-and-co-international-payments-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. International Payments API
   slug: c-hoare-and-co-international-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-international-payments-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-international-payments-api-openapi.yml
 - filename: c-hoare-and-co-international-scheduled-payments-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. International Scheduled Payments API
   slug: c-hoare-and-co-international-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-international-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-international-scheduled-payments-api-openapi.yml
 - filename: c-hoare-and-co-international-standing-orders-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. International Standing Orders API
   slug: c-hoare-and-co-international-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-international-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-international-standing-orders-api-openapi.yml
 - filename: c-hoare-and-co-offers-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Offers API
   slug: c-hoare-and-co-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-offers-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-offers-api-openapi.yml
 - filename: c-hoare-and-co-partys-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Partys API
   slug: c-hoare-and-co-partys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-partys-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-partys-api-openapi.yml
 - filename: c-hoare-and-co-products-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Products API
   slug: c-hoare-and-co-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-products-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-products-api-openapi.yml
 - filename: c-hoare-and-co-scheduled-payments-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Scheduled Payments API
   slug: c-hoare-and-co-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-scheduled-payments-api-openapi.yml
 - filename: c-hoare-and-co-standing-orders-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Standing Orders API
   slug: c-hoare-and-co-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-standing-orders-api-openapi.yml
 - filename: c-hoare-and-co-statements-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Statements API
   slug: c-hoare-and-co-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-statements-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-statements-api-openapi.yml
 - filename: c-hoare-and-co-transactions-api-openapi.yml
   format: yaml
   label: C. Hoare & Co. Transactions API
   slug: c-hoare-and-co-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/openapi/c-hoare-and-co-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/c-hoare-and-co/openapi/c-hoare-and-co-transactions-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 46
@@ -248,7 +248,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/c-hoar
   \  method: post\n  operationId: CreateInternationalScheduledPayments\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /international-scheduled-payments/{InternationalScheduledPaymentId}\n  method: get\n  operationId: GetInternationalScheduledPaymentsInternationalScheduledPaymentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-standing-order-consents\n  method: post\n  operationId: CreateInternationalStandingOrderConsents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n\
   \    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /international-standing-order-consents/{ConsentId}\n  method: get\n  operationId: GetInternationalStandingOrderConsentsConsentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-standing-orders\n  method: post\n  operationId: CreateInternationalStandingOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /international-standing-orders/{InternationalStandingOrderPaymentId}\n  method: get\n  operationId: GetInternationalStandingOrdersInternationalStandingOrderPaymentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/agentic-access/c-hoare-and-co-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/c-hoare-and-co/agentic-access/c-hoare-and-co-agentic-access.yml
 summary_line: 66 operations · 20 acting
 tags:
 - Financial Services

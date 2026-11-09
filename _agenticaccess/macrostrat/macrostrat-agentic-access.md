@@ -8,85 +8,85 @@ api_specs:
   label: Macrostrat Age Model API
   slug: macrostrat-age-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-age-model-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-age-model-api-openapi.yml
 - filename: macrostrat-cartography-api-openapi.yml
   format: yaml
   label: Macrostrat Cartography API
   slug: macrostrat-cartography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-cartography-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-cartography-api-openapi.yml
 - filename: macrostrat-columns-api-openapi.yml
   format: yaml
   label: Macrostrat Columns API
   slug: macrostrat-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-columns-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-columns-api-openapi.yml
 - filename: macrostrat-definitions-api-openapi.yml
   format: yaml
   label: Macrostrat Definitions API
   slug: macrostrat-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-definitions-api-openapi.yml
 - filename: macrostrat-fossils-api-openapi.yml
   format: yaml
   label: Macrostrat Fossils API
   slug: macrostrat-fossils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-fossils-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-fossils-api-openapi.yml
 - filename: macrostrat-geologic-maps-api-openapi.yml
   format: yaml
   label: Macrostrat Geologic Maps API
   slug: macrostrat-geologic-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-geologic-maps-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-geologic-maps-api-openapi.yml
 - filename: macrostrat-grids-api-openapi.yml
   format: yaml
   label: Macrostrat Grids API
   slug: macrostrat-grids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-grids-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-grids-api-openapi.yml
 - filename: macrostrat-measurements-api-openapi.yml
   format: yaml
   label: Macrostrat Measurements API
   slug: macrostrat-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-measurements-api-openapi.yml
 - filename: macrostrat-meta-api-openapi.yml
   format: yaml
   label: Macrostrat Meta API
   slug: macrostrat-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-meta-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-meta-api-openapi.yml
 - filename: macrostrat-mobile-api-openapi.yml
   format: yaml
   label: Macrostrat Mobile API
   slug: macrostrat-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-mobile-api-openapi.yml
 - filename: macrostrat-paleogeography-api-openapi.yml
   format: yaml
   label: Macrostrat Paleogeography API
   slug: macrostrat-paleogeography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-paleogeography-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-paleogeography-api-openapi.yml
 - filename: macrostrat-sections-api-openapi.yml
   format: yaml
   label: Macrostrat Sections API
   slug: macrostrat-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-sections-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-sections-api-openapi.yml
 - filename: macrostrat-stats-api-openapi.yml
   format: yaml
   label: Macrostrat Stats API
   slug: macrostrat-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-stats-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-stats-api-openapi.yml
 - filename: macrostrat-units-api-openapi.yml
   format: yaml
   label: Macrostrat Units API
   slug: macrostrat-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/openapi/macrostrat-units-api-openapi.yml
+  url: https://artifacts.apis.io/macrostrat/openapi/macrostrat-units-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/macros
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fossils\n  method: get\n  operationId: getFossils\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats\n  method: get\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paleogeography\n  method: get\n  operationId: getPaleogeography\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geologic_units/map\n  method: get\n  operationId: getGeologicMapUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geologic_units/map/points\n\
   \  method: get\n  operationId: getGeologicMapPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geologic_units/map/legend\n  method: get\n  operationId: getGeologicMapLegend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /measurements\n  method: get\n  operationId: getMeasurements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /age_model\n  method: get\n  operationId: getAgeModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /defs\n  method: get\n  operationId: getDefs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /carto\n  method: get\n  operationId: getCarto\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grids\n  method: get\n  operationId: getGrids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mobile\n  method: get\n  operationId: getMobile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meta\n  method: get\n  operationId: getMeta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/agentic-access/macrostrat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/macrostrat/agentic-access/macrostrat-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Geological Data

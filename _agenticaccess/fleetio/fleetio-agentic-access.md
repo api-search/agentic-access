@@ -9,67 +9,67 @@ api_specs:
   label: Fleetio Contacts API
   slug: fleetio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-contacts-api-openapi.yml
 - filename: fleetio-fuel-entries-api-openapi.yml
   format: yaml
   label: Fleetio Fuel Entries API
   slug: fleetio-fuel-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-fuel-entries-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-fuel-entries-api-openapi.yml
 - filename: fleetio-inspections-api-openapi.yml
   format: yaml
   label: Fleetio Inspections API
   slug: fleetio-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-inspections-api-openapi.yml
 - filename: fleetio-inventory-journal-entries-api-openapi.yml
   format: yaml
   label: Fleetio Inventory Journal Entries API
   slug: fleetio-inventory-journal-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-inventory-journal-entries-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-inventory-journal-entries-api-openapi.yml
 - filename: fleetio-issues-api-openapi.yml
   format: yaml
   label: Fleetio Issues API
   slug: fleetio-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-issues-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-issues-api-openapi.yml
 - filename: fleetio-parts-api-openapi.yml
   format: yaml
   label: Fleetio Parts API
   slug: fleetio-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-parts-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-parts-api-openapi.yml
 - filename: fleetio-service-entries-api-openapi.yml
   format: yaml
   label: Fleetio Service Entries API
   slug: fleetio-service-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-service-entries-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-service-entries-api-openapi.yml
 - filename: fleetio-service-reminders-api-openapi.yml
   format: yaml
   label: Fleetio Service Reminders API
   slug: fleetio-service-reminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-service-reminders-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-service-reminders-api-openapi.yml
 - filename: fleetio-vehicles-api-openapi.yml
   format: yaml
   label: Fleetio Vehicles API
   slug: fleetio-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-vehicles-api-openapi.yml
 - filename: fleetio-webhooks-api-openapi.yml
   format: yaml
   label: Fleetio Webhooks API
   slug: fleetio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-webhooks-api-openapi.yml
 - filename: fleetio-work-orders-api-openapi.yml
   format: yaml
   label: Fleetio Work Orders API
   slug: fleetio-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/openapi/fleetio-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fleetio/openapi/fleetio-work-orders-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 21
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fleeti
   \ get\n  operationId: listInventoryJournalEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/inspection_forms\n  method: get\n  operationId: listInspectionForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/submitted_inspection_forms\n  method: get\n  operationId: listSubmittedInspectionForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/issues\n  method: get\n  operationId: listIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/issues\n  method: post\n  operationId: createIssue\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/issues/{id}\n  method: get\n  operationId: getIssue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/issues/{id}\n  method: patch\n  operationId: updateIssue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n\
   \  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/agentic-access/fleetio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fleetio/agentic-access/fleetio-agentic-access.yml
 summary_line: 40 operations · 19 acting
 tags:
 - Fleet Management

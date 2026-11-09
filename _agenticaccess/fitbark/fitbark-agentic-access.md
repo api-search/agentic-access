@@ -9,31 +9,31 @@ api_specs:
   label: FitBark Activity API
   slug: fitbark-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-activity-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-activity-api-openapi.yml
 - filename: fitbark-dog-api-openapi.yml
   format: yaml
   label: FitBark Dog API
   slug: fitbark-dog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-dog-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-dog-api-openapi.yml
 - filename: fitbark-goals-api-openapi.yml
   format: yaml
   label: FitBark Goals API
   slug: fitbark-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-goals-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-goals-api-openapi.yml
 - filename: fitbark-user-api-openapi.yml
   format: yaml
   label: FitBark User API
   slug: fitbark-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-user-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-user-api-openapi.yml
 - filename: fitbark-oauth-api-openapi.yml
   format: yaml
   label: FitBark O Auth API
   slug: fitbark-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-oauth-api-openapi.yml
 consequence_counts:
   read: 15
   write: 3
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fitbar
   \ path: /api/v2/daily_goal/{dog_slug}\n  method: put\n  operationId: editDailyGoal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/authorize\n  method: get\n  operationId: authorize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/token\n  method: post\n  operationId: token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/redirect_urls\n  method: get\n  operationId: getRedirectUrls\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/redirect_urls\n  method: post\n  operationId: setRedirectUrls\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/picture/user/{user_slug}\n  method: get\n  operationId: getUserPicture\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/public_picture_user/{dog_slug}.jpg\n  method: get\n  operationId:\
   \ getPublicUserPicture\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/agentic-access/fitbark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fitbark/agentic-access/fitbark-agentic-access.yml
 summary_line: 18 operations · 3 acting
 tags:
 - Company

@@ -9,55 +9,55 @@ api_specs:
   label: Shippo Addresses API
   slug: shippo-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/shippo/openapi/shippo-addresses-api-openapi.yml
 - filename: shippo-carrier-accounts-api-openapi.yml
   format: yaml
   label: Shippo Carrier Accounts API
   slug: shippo-carrier-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-carrier-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/shippo/openapi/shippo-carrier-accounts-api-openapi.yml
 - filename: shippo-parcels-api-openapi.yml
   format: yaml
   label: Shippo Parcels API
   slug: shippo-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/shippo/openapi/shippo-parcels-api-openapi.yml
 - filename: shippo-rates-api-openapi.yml
   format: yaml
   label: Shippo Rates API
   slug: shippo-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-rates-api-openapi.yml
+  url: https://artifacts.apis.io/shippo/openapi/shippo-rates-api-openapi.yml
 - filename: shippo-refunds-api-openapi.yml
   format: yaml
   label: Shippo Refunds API
   slug: shippo-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/shippo/openapi/shippo-refunds-api-openapi.yml
 - filename: shippo-shipments-api-openapi.yml
   format: yaml
   label: Shippo Shipments API
   slug: shippo-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/shippo/openapi/shippo-shipments-api-openapi.yml
 - filename: shippo-tracking-api-openapi.yml
   format: yaml
   label: Shippo Tracking API
   slug: shippo-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/shippo/openapi/shippo-tracking-api-openapi.yml
 - filename: shippo-transactions-api-openapi.yml
   format: yaml
   label: Shippo Transactions API
   slug: shippo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/shippo/openapi/shippo-transactions-api-openapi.yml
 - filename: shippo-webhooks-api-openapi.yml
   format: yaml
   label: Shippo Webhooks API
   slug: shippo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/openapi/shippo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shippo/openapi/shippo-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 18
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shippo
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /carrier_accounts\n  method: post\n  operationId: createCarrierAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carrier_accounts/{CarrierAccountId}\n  method: get\n  operationId: getCarrierAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carrier_accounts/{CarrierAccountId}\n  method: put\n  operationId: updateCarrierAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{WebhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{WebhookId}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{WebhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/agentic-access/shippo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shippo/agentic-access/shippo-agentic-access.yml
 summary_line: 29 operations · 11 acting
 tags:
 - E-Commerce

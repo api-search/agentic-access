@@ -9,73 +9,73 @@ api_specs:
   label: FIWARE API Entry Point API
   slug: fiware-api-entry-point-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-api-entry-point-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-api-entry-point-api-openapi.yml
 - filename: fiware-attribute-value-api-openapi.yml
   format: yaml
   label: FIWARE Attribute Value API
   slug: fiware-attribute-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-attribute-value-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-attribute-value-api-openapi.yml
 - filename: fiware-attributes-api-openapi.yml
   format: yaml
   label: FIWARE Attributes API
   slug: fiware-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-attributes-api-openapi.yml
 - filename: fiware-batch-operations-api-openapi.yml
   format: yaml
   label: FIWARE Batch Operations API
   slug: fiware-batch-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-batch-operations-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-batch-operations-api-openapi.yml
 - filename: fiware-context-information-api-openapi.yml
   format: yaml
   label: FIWARE Context Information API
   slug: fiware-context-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-context-information-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-context-information-api-openapi.yml
 - filename: fiware-context-sources-api-openapi.yml
   format: yaml
   label: FIWARE Context Sources API
   slug: fiware-context-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-context-sources-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-context-sources-api-openapi.yml
 - filename: fiware-context-subscription-api-openapi.yml
   format: yaml
   label: FIWARE Context Subscription API
   slug: fiware-context-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-context-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-context-subscription-api-openapi.yml
 - filename: fiware-entities-api-openapi.yml
   format: yaml
   label: FIWARE Entities API
   slug: fiware-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-entities-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-entities-api-openapi.yml
 - filename: fiware-registrations-api-openapi.yml
   format: yaml
   label: FIWARE Registrations API
   slug: fiware-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-registrations-api-openapi.yml
 - filename: fiware-subscriptions-api-openapi.yml
   format: yaml
   label: FIWARE Subscriptions API
   slug: fiware-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-subscriptions-api-openapi.yml
 - filename: fiware-temporal-evolution-api-openapi.yml
   format: yaml
   label: FIWARE Temporal Evolution API
   slug: fiware-temporal-evolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-temporal-evolution-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-temporal-evolution-api-openapi.yml
 - filename: fiware-types-api-openapi.yml
   format: yaml
   label: FIWARE Types API
   slug: fiware-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/openapi/fiware-types-api-openapi.yml
+  url: https://artifacts.apis.io/fiware/openapi/fiware-types-api-openapi.yml
 consequence_counts:
   read: 23
   write: 40
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fiware
   \      - abnormal\n      - high-value\n    audit: required\n- path: /temporal/entities/{entityId}/attrs/\n  method: post\n  operationId: addTemporalEntityAttrs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /temporal/entities/{entityId}/attrs/{attrId}\n  method: delete\n  operationId: removeEntityTemporalAttr\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /temporal/entities/{entityId}/attrs/{attrId}/{instanceId}\n  method: patch\n  operationId: modifyEntityTemporalAttrInstance\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /temporal/entities/{entityId}/attrs/{attrId}/{instanceId}\n  method: delete\n  operationId: removeEntityTemporalAttrInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/types/\n  method: get\n  operationId: List Entity Types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/types/{entityType}\n  method: get\n  operationId: Retrieve entity type\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/agentic-access/fiware-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fiware/agentic-access/fiware-agentic-access.yml
 summary_line: 63 operations · 40 acting
 tags:
 - Context Information

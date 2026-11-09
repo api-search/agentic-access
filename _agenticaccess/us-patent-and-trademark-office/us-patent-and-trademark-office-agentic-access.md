@@ -9,61 +9,61 @@ api_specs:
   label: US Patent and Trademark Office Bulk Datasets API
   slug: us-patent-and-trademark-office-bulk-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-bulk-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-bulk-datasets-api-openapi.yml
 - filename: us-patent-and-trademark-office-case-documents-api-openapi.yml
   format: yaml
   label: US Patent and Trademark Office Case Documents API
   slug: us-patent-and-trademark-office-case-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-case-documents-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-case-documents-api-openapi.yml
 - filename: us-patent-and-trademark-office-case-status-api-openapi.yml
   format: yaml
   label: US Patent and Trademark Office Case Status API
   slug: us-patent-and-trademark-office-case-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-case-status-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-case-status-api-openapi.yml
 - filename: us-patent-and-trademark-office-patent-search-api-openapi.yml
   format: yaml
   label: US Patent and Trademark Office Patent Search API
   slug: us-patent-and-trademark-office-patent-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-patent-search-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-patent-search-api-openapi.yml
 - filename: us-patent-and-trademark-office-petition-decisions-api-openapi.yml
   format: yaml
   label: US Patent and Trademark Office Petition Decisions API
   slug: us-patent-and-trademark-office-petition-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-petition-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-petition-decisions-api-openapi.yml
 - filename: us-patent-and-trademark-office-ptab-appeals-api-openapi.yml
   format: yaml
   label: US Patent and Trademark Office PTAB Appeals API
   slug: us-patent-and-trademark-office-ptab-appeals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-appeals-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-ptab-appeals-api-openapi.yml
 - filename: us-patent-and-trademark-office-ptab-interferences-api-openapi.yml
   format: yaml
   label: US Patent and Trademark Office PTAB Interferences API
   slug: us-patent-and-trademark-office-ptab-interferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-interferences-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-ptab-interferences-api-openapi.yml
 - filename: us-patent-and-trademark-office-ptab-trials-decisions-api-openapi.yml
   format: yaml
   label: US Patent and Trademark Office PTAB Trials Decisions API
   slug: us-patent-and-trademark-office-ptab-trials-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-trials-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-ptab-trials-decisions-api-openapi.yml
 - filename: us-patent-and-trademark-office-ptab-trials-documents-api-openapi.yml
   format: yaml
   label: US Patent and Trademark Office PTAB Trials Documents API
   slug: us-patent-and-trademark-office-ptab-trials-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-trials-documents-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-ptab-trials-documents-api-openapi.yml
 - filename: us-patent-and-trademark-office-ptab-trials-proceedings-api-openapi.yml
   format: yaml
   label: US Patent and Trademark Office PTAB Trials Proceedings API
   slug: us-patent-and-trademark-office-ptab-trials-proceedings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/openapi/us-patent-and-trademark-office-ptab-trials-proceedings-api-openapi.yml
+  url: https://artifacts.apis.io/us-patent-and-trademark-office/openapi/us-patent-and-trademark-office-ptab-trials-proceedings-api-openapi.yml
 consequence_counts:
   read: 40
   write: 1
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/us-pat
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/interferences/decisions/search\n  method: get\n  operationId: searchPtabInterferenceDecisionsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/interferences/decisions/{documentIdentifier}\n  method: get\n  operationId: getPtabInterferenceDecision\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/trials/decisions/search\n  method: post\n  operationId: searchPtabDecisionsPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/trials/decisions/search\n  method: get\n  operationId: searchPtabDecisionsGet\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/trials/decisions/{documentIdentifier}\n  method: get\n  operationId: getPtabDecision\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/trials/documents/search\n  method: post\n  operationId: searchPtabDocumentsPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/trials/documents/search\n  method: get\n  operationId: searchPtabDocumentsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/trials/documents/{documentIdentifier}\n  method: get\n  operationId: getPtabDocument\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/trials/proceedings/search\n  method: post\n  operationId: searchPtabProceedingsPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/trials/proceedings/search\n  method: get\n  operationId: searchPtabProceedingsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/trials/proceedings/{trialNumber}\n  method: get\n  operationId: getPtabProceeding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/agentic-access/us-patent-and-trademark-office-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-patent-and-trademark-office/agentic-access/us-patent-and-trademark-office-agentic-access.yml
 summary_line: 41 operations · 1 acting
 tags:
 - Federal Government

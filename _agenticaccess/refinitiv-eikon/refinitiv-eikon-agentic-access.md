@@ -9,91 +9,91 @@ api_specs:
   label: LSEG WebSocket API
   slug: lseg-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/asyncapi/refinitiv-eikon-asyncapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/asyncapi/refinitiv-eikon-asyncapi.yml
 - filename: refinitiv-eikon-authentication-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Authentication API
   slug: refinitiv-eikon-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-authentication-api-openapi.yml
 - filename: refinitiv-eikon-esg-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon ESG API
   slug: refinitiv-eikon-esg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-esg-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-esg-api-openapi.yml
 - filename: refinitiv-eikon-extractions-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Extractions API
   slug: refinitiv-eikon-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-extractions-api-openapi.yml
 - filename: refinitiv-eikon-files-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Files API
   slug: refinitiv-eikon-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-files-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-files-api-openapi.yml
 - filename: refinitiv-eikon-historical-pricing-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Historical Pricing API
   slug: refinitiv-eikon-historical-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-historical-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-historical-pricing-api-openapi.yml
 - filename: refinitiv-eikon-instrument-lists-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Instrument Lists API
   slug: refinitiv-eikon-instrument-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-instrument-lists-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-instrument-lists-api-openapi.yml
 - filename: refinitiv-eikon-jobs-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Jobs API
   slug: refinitiv-eikon-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-jobs-api-openapi.yml
 - filename: refinitiv-eikon-news-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon News API
   slug: refinitiv-eikon-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-news-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-news-api-openapi.yml
 - filename: refinitiv-eikon-on-demand-extractions-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon On-Demand Extractions API
   slug: refinitiv-eikon-on-demand-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-on-demand-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-on-demand-extractions-api-openapi.yml
 - filename: refinitiv-eikon-report-templates-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Report Templates API
   slug: refinitiv-eikon-report-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-report-templates-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-report-templates-api-openapi.yml
 - filename: refinitiv-eikon-schedules-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Schedules API
   slug: refinitiv-eikon-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-schedules-api-openapi.yml
 - filename: refinitiv-eikon-search-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Search API
   slug: refinitiv-eikon-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-search-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-search-api-openapi.yml
 - filename: refinitiv-eikon-streaming-pricing-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Streaming Pricing API
   slug: refinitiv-eikon-streaming-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-streaming-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-streaming-pricing-api-openapi.yml
 - filename: refinitiv-eikon-symbology-api-openapi.yml
   format: yaml
   label: Refinitiv Eikon Symbology API
   slug: refinitiv-eikon-symbology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/refinitiv-eikon-symbology-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv-eikon/openapi/refinitiv-eikon-symbology-api-openapi.yml
 consequence_counts:
   read: 20
   write: 8
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/refini
   \  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/news/v1/headlines\n  method: get\n  operationId: getNewsHeadlines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/news/v1/stories/{storyId}\n  method: get\n  operationId: getNewsStory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Extractions/ExtractRaw\n  method: post\n  operationId: extractTickHistoryRaw\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ReportTemplates\n  method: get\n  operationId: listReportTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Schedules\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Schedules\n  method: post\n  operationId: createSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discovery/search/v1/\n  method: post\n  operationId: searchInstruments\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Search/InstrumentSearch\n  method: post\n  operationId: searchInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/pricing/snapshots/v1/{universe}\n  method: get\n  operationId: getPricingSnapshots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discovery/symbology/v1/lookup\n  method: post\n  operationId: lookupSymbology\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/agentic-access/refinitiv-eikon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/refinitiv-eikon/agentic-access/refinitiv-eikon-agentic-access.yml
 summary_line: 28 operations · 8 acting
 tags:
 - Analytics

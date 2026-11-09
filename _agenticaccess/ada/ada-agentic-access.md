@@ -9,103 +9,103 @@ api_specs:
   label: Ada Channels API
   slug: ada-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-channels-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-channels-api-openapi.yml
 - filename: ada-conversations-api-openapi.yml
   format: yaml
   label: Ada Conversations API
   slug: ada-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-conversations-api-openapi.yml
 - filename: ada-custominstructions-api-openapi.yml
   format: yaml
   label: Ada Custom Instructions API
   slug: ada-custominstructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-custominstructions-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-custominstructions-api-openapi.yml
 - filename: ada-deletechatterdata-api-openapi.yml
   format: yaml
   label: Ada Delete Chatter Data API
   slug: ada-deletechatterdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-deletechatterdata-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-deletechatterdata-api-openapi.yml
 - filename: ada-getdeletionjob-api-openapi.yml
   format: yaml
   label: Ada Get Deletion Job API
   slug: ada-getdeletionjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-getdeletionjob-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-getdeletionjob-api-openapi.yml
 - filename: ada-knowledge-api-openapi.yml
   format: yaml
   label: Ada Knowledge API
   slug: ada-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-knowledge-api-openapi.yml
 - filename: ada-knowledge-articles-api-openapi.yml
   format: yaml
   label: Ada knowledge > articles API
   slug: ada-knowledge-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-articles-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-knowledge-articles-api-openapi.yml
 - filename: ada-knowledge-sources-api-openapi.yml
   format: yaml
   label: Ada knowledge > sources API
   slug: ada-knowledge-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-sources-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-knowledge-sources-api-openapi.yml
 - filename: ada-knowledge-tags-api-openapi.yml
   format: yaml
   label: Ada knowledge > tags API
   slug: ada-knowledge-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-knowledge-tags-api-openapi.yml
 - filename: ada-messages-api-openapi.yml
   format: yaml
   label: Ada Messages API
   slug: ada-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-messages-api-openapi.yml
 - filename: ada-persona-api-openapi.yml
   format: yaml
   label: Ada Persona API
   slug: ada-persona-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-persona-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-persona-api-openapi.yml
 - filename: ada-platformintegrations-api-openapi.yml
   format: yaml
   label: Ada Platform Integrations API
   slug: ada-platformintegrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-platformintegrations-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-platformintegrations-api-openapi.yml
 - filename: ada-submitdeletionrequest-api-openapi.yml
   format: yaml
   label: Ada Submit Deletion Request API
   slug: ada-submitdeletionrequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-submitdeletionrequest-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-submitdeletionrequest-api-openapi.yml
 - filename: ada-variables-api-openapi.yml
   format: yaml
   label: Ada Variables API
   slug: ada-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-variables-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-variables-api-openapi.yml
 - filename: ada-audit-log-api-openapi.yml
   format: yaml
   label: Ada Audit Log API
   slug: ada-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-audit-log-api-openapi.yml
 - filename: ada-end-users-api-openapi.yml
   format: yaml
   label: Ada End Users API
   slug: ada-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-end-users-api-openapi.yml
 - filename: ada-webhook-management-api-openapi.yml
   format: yaml
   label: Ada Webhook Management API
   slug: ada-webhook-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-webhook-management-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-webhook-management-api-openapi.yml
 consequence_counts:
   read: 19
   write: 26
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ada-da
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/\n  method: get\n  operationId: list-webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks/\n  method: post\n  operationId: create-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/{id}\n  method: get\n  operationId: get-webhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n- path: /v2/webhooks/{id}\n  method: delete\n  operationId: delete-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/{id}\n  method: patch\n  operationId: update-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/{id}/secret/\n  method: get\n  operationId: get-webhook-secret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks/{id}/secret/rotate/\n\
   \  method: post\n  operationId: rotate-webhook-secret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/event-types/\n  method: get\n  operationId: list-webhook-event-types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/agentic-access/ada-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ada/agentic-access/ada-agentic-access.yml
 summary_line: 45 operations · 26 acting
 tags:
 - Artificial Intelligence

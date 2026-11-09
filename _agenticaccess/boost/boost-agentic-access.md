@@ -8,49 +8,49 @@ api_specs:
   label: Boost Action API
   slug: boost-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-action-api-openapi.yml
+  url: https://artifacts.apis.io/boost/openapi/boost-action-api-openapi.yml
 - filename: boost-action-template-api-openapi.yml
   format: yaml
   label: Boost Action Template API
   slug: boost-action-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-action-template-api-openapi.yml
+  url: https://artifacts.apis.io/boost/openapi/boost-action-template-api-openapi.yml
 - filename: boost-blocklist-api-openapi.yml
   format: yaml
   label: Boost Blocklist API
   slug: boost-blocklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-blocklist-api-openapi.yml
+  url: https://artifacts.apis.io/boost/openapi/boost-blocklist-api-openapi.yml
 - filename: boost-boost-api-openapi.yml
   format: yaml
   label: Boost API
   slug: boost-boost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-boost-api-openapi.yml
+  url: https://artifacts.apis.io/boost/openapi/boost-boost-api-openapi.yml
 - filename: boost-budget-api-openapi.yml
   format: yaml
   label: Boost Budget API
   slug: boost-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-budget-api-openapi.yml
+  url: https://artifacts.apis.io/boost/openapi/boost-budget-api-openapi.yml
 - filename: boost-contract-api-openapi.yml
   format: yaml
   label: Boost Contract API
   slug: boost-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-contract-api-openapi.yml
+  url: https://artifacts.apis.io/boost/openapi/boost-contract-api-openapi.yml
 - filename: boost-rewardkit-api-openapi.yml
   format: yaml
   label: Boost RewardKit API
   slug: boost-rewardkit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-rewardkit-api-openapi.yml
+  url: https://artifacts.apis.io/boost/openapi/boost-rewardkit-api-openapi.yml
 - filename: boost-rewardkittrending-api-openapi.yml
   format: yaml
   label: Boost RewardKitTrending API
   slug: boost-rewardkittrending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/openapi/boost-rewardkittrending-api-openapi.yml
+  url: https://artifacts.apis.io/boost/openapi/boost-rewardkittrending-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/boost-
   \      max-ttl: 3600\n    audit: none\n- path: /boosts/:id/activity\n  method: get\n  operationId: getBoostActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /boosts/:id\n  method: get\n  operationId: getBoost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reward-kit/boosts\n  method: get\n  operationId: getRewardKitRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reward-kit\n  method: get\n  operationId: getRewardKit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reward-kit/boosts/:id\n  method: get\n  operationId: getRewardKitReward\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reward-kit/trending\n  method: get\n  operationId: getRewardKitTrending\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action-templates\n  method: get\n  operationId: getActionTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action-templates/:id\n  method: get\n  operationId: getActionTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /budget-accounts/:id\n  method: get\n  operationId: getBudgetAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /budget-accounts\n  method: get\n  operationId: getBudgetAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/agentic-access/boost-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/boost/agentic-access/boost-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Company

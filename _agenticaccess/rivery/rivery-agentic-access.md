@@ -9,85 +9,85 @@ api_specs:
   label: Rivery Accounts API
   slug: rivery-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-accounts-api-openapi.yml
 - filename: rivery-activities-api-openapi.yml
   format: yaml
   label: Rivery Activities API
   slug: rivery-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-activities-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-activities-api-openapi.yml
 - filename: rivery-audit-events-api-openapi.yml
   format: yaml
   label: Rivery Audit Events API
   slug: rivery-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-audit-events-api-openapi.yml
 - filename: rivery-connections-api-openapi.yml
   format: yaml
   label: Rivery Connections API
   slug: rivery-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-connections-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-connections-api-openapi.yml
 - filename: rivery-data-flows-metadata-api-openapi.yml
   format: yaml
   label: Rivery Data Flows Metadata API
   slug: rivery-data-flows-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-data-flows-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-data-flows-metadata-api-openapi.yml
 - filename: rivery-dataframes-api-openapi.yml
   format: yaml
   label: Rivery Dataframes API
   slug: rivery-dataframes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-dataframes-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-dataframes-api-openapi.yml
 - filename: rivery-environments-api-openapi.yml
   format: yaml
   label: Rivery Environments API
   slug: rivery-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-environments-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-environments-api-openapi.yml
 - filename: rivery-logicode-api-openapi.yml
   format: yaml
   label: Rivery Logicode API
   slug: rivery-logicode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-logicode-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-logicode-api-openapi.yml
 - filename: rivery-mcp-api-openapi.yml
   format: yaml
   label: Rivery MCP API
   slug: rivery-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-mcp-api-openapi.yml
 - filename: rivery-operations-api-openapi.yml
   format: yaml
   label: Rivery Operations API
   slug: rivery-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-operations-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-operations-api-openapi.yml
 - filename: rivery-river-source-api-openapi.yml
   format: yaml
   label: Rivery River Source API
   slug: rivery-river-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-river-source-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-river-source-api-openapi.yml
 - filename: rivery-users-api-openapi.yml
   format: yaml
   label: Rivery Users API
   slug: rivery-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-users-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-users-api-openapi.yml
 - filename: rivery-variables-api-openapi.yml
   format: yaml
   label: Rivery Variables API
   slug: rivery-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-variables-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-variables-api-openapi.yml
 - filename: rivery-dataflows-api-openapi.yml
   format: yaml
   label: Rivery Dataflows API
   slug: rivery-dataflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/openapi/rivery-dataflows-api-openapi.yml
+  url: https://artifacts.apis.io/rivery/openapi/rivery-dataflows-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 42
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/rivery
   \  method: put\n  operationId: update_connection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/environments/{environment_id}/connections/{connection_cross_id}\n  method: delete\n  operationId: delete_connection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/environments/{environment_id}/connections/{connection_type}/files\n  method: post\n  operationId: add_file\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/connections_types\n  method: get\n  operationId: list_connections_types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connections_types/{connection_type}\n  method: get\n  operationId: get_connection_type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}/environments/{environment_id}/variables\n  method: get\n  operationId: list_variables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}/environments/{environment_id}/variables\n  method:\
   \ put\n  operationId: add_or_update_variables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/environments/{environment_id}/variables\n  method: delete\n  operationId: delete_variable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/river_source/metadata\n  method: get\n  operationId: get_source_metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rivery/refs/heads/main/agentic-access/rivery-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rivery/agentic-access/rivery-agentic-access.yml
 summary_line: 83 operations · 41 acting · 2 human-in-the-loop
 tags:
 - Data Integration

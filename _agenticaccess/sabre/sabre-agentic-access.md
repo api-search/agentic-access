@@ -9,25 +9,25 @@ api_specs:
   label: Sabre Air Shopping API
   slug: sabre-air-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-air-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/sabre/openapi/sabre-air-shopping-api-openapi.yml
 - filename: sabre-authentication-api-openapi.yml
   format: yaml
   label: Sabre Authentication API
   slug: sabre-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sabre/openapi/sabre-authentication-api-openapi.yml
 - filename: sabre-hotel-booking-api-openapi.yml
   format: yaml
   label: Sabre Hotel Booking API
   slug: sabre-hotel-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-hotel-booking-api-openapi.yml
+  url: https://artifacts.apis.io/sabre/openapi/sabre-hotel-booking-api-openapi.yml
 - filename: sabre-hotel-search-api-openapi.yml
   format: yaml
   label: Sabre Hotel Search API
   slug: sabre-hotel-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/openapi/sabre-hotel-search-api-openapi.yml
+  url: https://artifacts.apis.io/sabre/openapi/sabre-hotel-search-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sabre-
   \ post\n  operationId: bargainFinderMaxReShop\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/auth/token\n  method: post\n  operationId: getAuthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.0.0/hotels/reservations\n  method: post\n  operationId: createHotelReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /v2.0.0/hotels/reservations/{confirmationId}\n  method: get\n  operationId: getHotelReservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.0.0/hotels/reservations/{confirmationId}\n  method: delete\n  operationId: cancelHotelReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.0.0/offers/hotels\n  method: post\n  operationId: searchHotelAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.0.0/offers/hotels/{hotelCode}/rates\n  method: get\n  operationId: getHotelRates\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/agentic-access/sabre-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sabre/agentic-access/sabre-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Travel

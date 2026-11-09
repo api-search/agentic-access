@@ -9,31 +9,31 @@ api_specs:
   label: Crawlbase Crawling API
   slug: crawlbase-crawling-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-crawling-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-crawling-api-api-openapi.yml
 - filename: crawlbase-leads-api-api-openapi.yml
   format: yaml
   label: Crawlbase Leads API
   slug: crawlbase-leads-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-leads-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-leads-api-api-openapi.yml
 - filename: crawlbase-scraper-api-api-openapi.yml
   format: yaml
   label: Crawlbase Scraper API
   slug: crawlbase-scraper-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-scraper-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-scraper-api-api-openapi.yml
 - filename: crawlbase-screenshots-api-api-openapi.yml
   format: yaml
   label: Crawlbase Screenshots API
   slug: crawlbase-screenshots-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-screenshots-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-screenshots-api-api-openapi.yml
 - filename: crawlbase-storage-api-api-openapi.yml
   format: yaml
   label: Crawlbase Storage API
   slug: crawlbase-storage-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-storage-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-storage-api-api-openapi.yml
 consequence_counts:
   read: 8
   write: 3
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/crawlb
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /leads\n  method: get\n  operationId: getLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scraper\n  method: get\n  operationId: scrape\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /screenshots\n  method: get\n  operationId: screenshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage\n  method: get\n  operationId: getStoredPage\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage\n  method: delete\n  operationId: deleteStoredPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/bulk\n  method: post\n  operationId: getStoredPagesBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage/bulk_delete\n  method: post\n  operationId: deleteStoredPagesBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /storage/rids\n  method: get\n  operationId: listStoredRids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage/total_count\n  method: get\n  operationId: getStoredTotalCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/agentic-access/crawlbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crawlbase/agentic-access/crawlbase-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
 - Web Scraping

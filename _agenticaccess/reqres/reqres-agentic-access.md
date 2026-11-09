@@ -9,37 +9,37 @@ api_specs:
   label: ReqRes Agent Sandbox API
   slug: reqres-agent-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-agent-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/reqres/openapi/reqres-agent-sandbox-api-openapi.yml
 - filename: reqres-app-users-api-openapi.yml
   format: yaml
   label: ReqRes App Users API
   slug: reqres-app-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-app-users-api-openapi.yml
+  url: https://artifacts.apis.io/reqres/openapi/reqres-app-users-api-openapi.yml
 - filename: reqres-authentication-api-openapi.yml
   format: yaml
   label: ReqRes Authentication API
   slug: reqres-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/reqres/openapi/reqres-authentication-api-openapi.yml
 - filename: reqres-collections-api-openapi.yml
   format: yaml
   label: ReqRes Collections API
   slug: reqres-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-collections-api-openapi.yml
+  url: https://artifacts.apis.io/reqres/openapi/reqres-collections-api-openapi.yml
 - filename: reqres-custom-endpoints-api-openapi.yml
   format: yaml
   label: ReqRes Custom Endpoints API
   slug: reqres-custom-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-custom-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/reqres/openapi/reqres-custom-endpoints-api-openapi.yml
 - filename: reqres-legacy-api-openapi.yml
   format: yaml
   label: ReqRes Legacy API
   slug: reqres-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/openapi/reqres-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/reqres/openapi/reqres-legacy-api-openapi.yml
 consequence_counts:
   read: 25
   write: 27
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reqres
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/collections/{slug}/records/{recordId}\n  method: get\n  operationId: getRecordAppUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/collections/{slug}/records/{recordId}\n  method: put\n  operationId: updateRecordAppUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/collections/{slug}/records/{recordId}\n  method: delete\n  operationId: deleteRecordAppUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/v1/health\n  method: get\n  operationId: agentHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/v1/users\n  method: get\n  operationId: agentListUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/v1/users/{id}\n  method: get\n  operationId: agentGetUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/v1/auth/login\n  method: post\n  operationId: agentLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/v1/orders\n  method: get\n  operationId: agentListOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/v1/scenarios\n  method: get\n  operationId: agentListScenarios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/v1/scenarios/{scenario}\n  method: get\n  operationId: agentScenario\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/agentic-access/reqres-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reqres/agentic-access/reqres-agentic-access.yml
 summary_line: 52 operations · 27 acting
 tags:
 - Development

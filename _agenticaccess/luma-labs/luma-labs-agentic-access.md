@@ -9,37 +9,37 @@ api_specs:
   label: Luma AI Concepts API
   slug: luma-labs-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-concepts-api-openapi.yml
+  url: https://artifacts.apis.io/luma-labs/openapi/luma-labs-concepts-api-openapi.yml
 - filename: luma-labs-credits-api-openapi.yml
   format: yaml
   label: Luma AI Credits API
   slug: luma-labs-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-credits-api-openapi.yml
+  url: https://artifacts.apis.io/luma-labs/openapi/luma-labs-credits-api-openapi.yml
 - filename: luma-labs-generations-api-openapi.yml
   format: yaml
   label: Luma AI Generations API
   slug: luma-labs-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-generations-api-openapi.yml
+  url: https://artifacts.apis.io/luma-labs/openapi/luma-labs-generations-api-openapi.yml
 - filename: luma-labs-image-api-openapi.yml
   format: yaml
   label: Luma AI Image API
   slug: luma-labs-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-image-api-openapi.yml
+  url: https://artifacts.apis.io/luma-labs/openapi/luma-labs-image-api-openapi.yml
 - filename: luma-labs-system-api-openapi.yml
   format: yaml
   label: Luma AI System API
   slug: luma-labs-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-system-api-openapi.yml
+  url: https://artifacts.apis.io/luma-labs/openapi/luma-labs-system-api-openapi.yml
 - filename: luma-labs-video-api-openapi.yml
   format: yaml
   label: Luma AI Video API
   slug: luma-labs-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/openapi/luma-labs-video-api-openapi.yml
+  url: https://artifacts.apis.io/luma-labs/openapi/luma-labs-video-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/luma-l
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generations/video/reframe\n  method: post\n  operationId: reframeVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generations/image\n  method: post\n  operationId: createImageGeneration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generations/image/reframe\n  method: post\n  operationId: reframeImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generations/{id}/upscale\n  method: post\n  operationId: upscaleGeneration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generations/{id}/audio\n  method: post\n  operationId: addAudio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generations/concepts/list\n  method: get\n  operationId: listConcepts\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credits\n  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/agentic-access/luma-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/luma-labs/agentic-access/luma-labs-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Artificial Intelligence

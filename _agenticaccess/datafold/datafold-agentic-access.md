@@ -9,79 +9,79 @@ api_specs:
   label: Datafold Audit Logs API
   slug: datafold-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-audit-logs-api-openapi.yml
 - filename: datafold-bi-added-api-openapi.yml
   format: yaml
   label: Datafold Bi Added API
   slug: datafold-bi-added-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-added-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-bi-added-api-openapi.yml
 - filename: datafold-bi-api-openapi.yml
   format: yaml
   label: Datafold BI API
   slug: datafold-bi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-bi-api-openapi.yml
 - filename: datafold-bi-deleted-api-openapi.yml
   format: yaml
   label: Datafold Bi Deleted API
   slug: datafold-bi-deleted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-deleted-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-bi-deleted-api-openapi.yml
 - filename: datafold-bi-modified-api-openapi.yml
   format: yaml
   label: Datafold Bi Modified API
   slug: datafold-bi-modified-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bi-modified-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-bi-modified-api-openapi.yml
 - filename: datafold-bolt-api-openapi.yml
   format: yaml
   label: Datafold Bolt API
   slug: datafold-bolt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-bolt-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-bolt-api-openapi.yml
 - filename: datafold-ci-api-openapi.yml
   format: yaml
   label: Datafold CI API
   slug: datafold-ci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-ci-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-ci-api-openapi.yml
 - filename: datafold-data-diffs-api-openapi.yml
   format: yaml
   label: Datafold Data diffs API
   slug: datafold-data-diffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-data-diffs-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-data-diffs-api-openapi.yml
 - filename: datafold-data-source-added-api-openapi.yml
   format: yaml
   label: Datafold Data Source Added API
   slug: datafold-data-source-added-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-data-source-added-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-data-source-added-api-openapi.yml
 - filename: datafold-data-sources-api-openapi.yml
   format: yaml
   label: Datafold Data sources API
   slug: datafold-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-data-sources-api-openapi.yml
 - filename: datafold-diff-created-api-openapi.yml
   format: yaml
   label: Datafold Diff Created API
   slug: datafold-diff-created-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-diff-created-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-diff-created-api-openapi.yml
 - filename: datafold-explore-api-openapi.yml
   format: yaml
   label: Datafold Explore API
   slug: datafold-explore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-explore-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-explore-api-openapi.yml
 - filename: datafold-monitors-api-openapi.yml
   format: yaml
   label: Datafold Monitors API
   slug: datafold-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/openapi/datafold-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/datafold/openapi/datafold-monitors-api-openapi.yml
 consequence_counts:
   read: 23
   write: 29
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/datafo
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/monitors/{id}\n  method: delete\n  operationId: delete_monitor_api_v1_monitors__id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/monitors/{id}\n  method: get\n  operationId: get_monitor_api_v1_monitors__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/monitors/{id}/run\n  method: post\n  operationId: start_monitor_run_api_v1_monitors__id__run_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/monitors/{id}/runs\n  method: get\n  operationId: list_monitor_runs_api_v1_monitors__id__runs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/monitors/{id}/runs/{run_id}\n  method: get\n  operationId: get_monitor_run_api_v1_monitors__id__runs__run_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/monitors/{id}/toggle\n  method: put\n  operationId: toggle_monitor_on_off_api_v1_monitors__id__toggle_put\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/monitors/{id}/update\n  method: patch\n  operationId: update_monitor_api_v1_monitors__id__update_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/agentic-access/datafold-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datafold/agentic-access/datafold-agentic-access.yml
 summary_line: 52 operations · 29 acting
 tags:
 - Data Reliability

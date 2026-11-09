@@ -9,91 +9,91 @@ api_specs:
   label: Vapi Analytics API
   slug: vapi-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-analytics-api-openapi.yml
 - filename: vapi-assistants-api-openapi.yml
   format: yaml
   label: Vapi Assistants API
   slug: vapi-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-assistants-api-openapi.yml
 - filename: vapi-calls-api-openapi.yml
   format: yaml
   label: Vapi Calls API
   slug: vapi-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-calls-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-calls-api-openapi.yml
 - filename: vapi-campaigns-api-openapi.yml
   format: yaml
   label: Vapi Campaigns API
   slug: vapi-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-campaigns-api-openapi.yml
 - filename: vapi-chats-api-openapi.yml
   format: yaml
   label: Vapi Chats API
   slug: vapi-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-chats-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-chats-api-openapi.yml
 - filename: vapi-eval-api-openapi.yml
   format: yaml
   label: Vapi Eval API
   slug: vapi-eval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-eval-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-eval-api-openapi.yml
 - filename: vapi-files-api-openapi.yml
   format: yaml
   label: Vapi Files API
   slug: vapi-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-files-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-files-api-openapi.yml
 - filename: vapi-insight-api-openapi.yml
   format: yaml
   label: Vapi Insight API
   slug: vapi-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-insight-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-insight-api-openapi.yml
 - filename: vapi-observability-scorecard-api-openapi.yml
   format: yaml
   label: Vapi Observability/Scorecard API
   slug: vapi-observability-scorecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-observability-scorecard-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-observability-scorecard-api-openapi.yml
 - filename: vapi-phone-numbers-api-openapi.yml
   format: yaml
   label: Vapi Phone Numbers API
   slug: vapi-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-phone-numbers-api-openapi.yml
 - filename: vapi-provider-resources-api-openapi.yml
   format: yaml
   label: Vapi Provider Resources API
   slug: vapi-provider-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-provider-resources-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-provider-resources-api-openapi.yml
 - filename: vapi-sessions-api-openapi.yml
   format: yaml
   label: Vapi Sessions API
   slug: vapi-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-sessions-api-openapi.yml
 - filename: vapi-squads-api-openapi.yml
   format: yaml
   label: Vapi Squads API
   slug: vapi-squads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-squads-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-squads-api-openapi.yml
 - filename: vapi-structured-outputs-api-openapi.yml
   format: yaml
   label: Vapi Structured Outputs API
   slug: vapi-structured-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-structured-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-structured-outputs-api-openapi.yml
 - filename: vapi-tools-api-openapi.yml
   format: yaml
   label: Vapi Tools API
   slug: vapi-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/openapi/vapi-tools-api-openapi.yml
+  url: https://artifacts.apis.io/vapi/openapi/vapi-tools-api-openapi.yml
 consequence_counts:
   read: 31
   safety-critical: 48
@@ -274,7 +274,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vapi-o
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observability/scorecard\n  method: post\n  operationId: ScorecardController_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /provider/{provider}/{resourceName}\n  method: post\n  operationId: ProviderResourceController_createProviderResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /provider/{provider}/{resourceName}\n\
   \  method: get\n  operationId: ProviderResourceController_getProviderResourcesPaginated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /provider/{provider}/{resourceName}/{id}\n  method: get\n  operationId: ProviderResourceController_getProviderResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /provider/{provider}/{resourceName}/{id}\n  method: delete\n  operationId: ProviderResourceController_deleteProviderResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /provider/{provider}/{resourceName}/{id}\n\
   \  method: patch\n  operationId: ProviderResourceController_updateProviderResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /analytics\n  method: post\n  operationId: AnalyticsController_query\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/agentic-access/vapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vapi/agentic-access/vapi-agentic-access.yml
 summary_line: 79 operations · 48 acting · 48 human-in-the-loop
 tags:
 - Artificial Intelligence

@@ -9,121 +9,121 @@ api_specs:
   label: Hootsuite Analytics API
   slug: hootsuite-analytics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-analytics-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-analytics-api-api-openapi.yml
 - filename: hootsuite-authentication-api-openapi.yml
   format: yaml
   label: Hootsuite Authentication API
   slug: hootsuite-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-authentication-api-openapi.yml
 - filename: hootsuite-comments-api-openapi.yml
   format: yaml
   label: Hootsuite Comments API
   slug: hootsuite-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-comments-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-comments-api-openapi.yml
 - filename: hootsuite-crm-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite CRM Rest API
   slug: hootsuite-crm-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-crm-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-crm-rest-api-api-openapi.yml
 - filename: hootsuite-crm-webhooks-api-openapi.yml
   format: yaml
   label: Hootsuite CRM Webhooks API
   slug: hootsuite-crm-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-crm-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-crm-webhooks-api-openapi.yml
 - filename: hootsuite-me-api-openapi.yml
   format: yaml
   label: Hootsuite Me API
   slug: hootsuite-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-me-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-me-api-openapi.yml
 - filename: hootsuite-media-api-openapi.yml
   format: yaml
   label: Hootsuite Media API
   slug: hootsuite-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-media-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-media-api-openapi.yml
 - filename: hootsuite-members-api-openapi.yml
   format: yaml
   label: Hootsuite Members API
   slug: hootsuite-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-members-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-members-api-openapi.yml
 - filename: hootsuite-messages-api-openapi.yml
   format: yaml
   label: Hootsuite Messages API
   slug: hootsuite-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-messages-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-messages-api-openapi.yml
 - filename: hootsuite-organizations-api-openapi.yml
   format: yaml
   label: Hootsuite Organizations API
   slug: hootsuite-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-organizations-api-openapi.yml
 - filename: hootsuite-proactive-messaging-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite Proactive Messaging Rest API
   slug: hootsuite-proactive-messaging-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-proactive-messaging-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-proactive-messaging-rest-api-api-openapi.yml
 - filename: hootsuite-queue-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite Queue Rest API
   slug: hootsuite-queue-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-queue-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-queue-rest-api-api-openapi.yml
 - filename: hootsuite-real-time-metrics-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite Real Time Metrics Rest API
   slug: hootsuite-real-time-metrics-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-real-time-metrics-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-real-time-metrics-rest-api-api-openapi.yml
 - filename: hootsuite-rest-api-authentication-api-openapi.yml
   format: yaml
   label: Hootsuite Rest API Authentication API
   slug: hootsuite-rest-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-rest-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-rest-api-authentication-api-openapi.yml
 - filename: hootsuite-scim-2-0-api-openapi.yml
   format: yaml
   label: Hootsuite SCIM 2.0 API
   slug: hootsuite-scim-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-scim-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-scim-2-0-api-openapi.yml
 - filename: hootsuite-social-profiles-api-openapi.yml
   format: yaml
   label: Hootsuite Social Profiles API
   slug: hootsuite-social-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-social-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-social-profiles-api-openapi.yml
 - filename: hootsuite-teams-api-openapi.yml
   format: yaml
   label: Hootsuite Teams API
   slug: hootsuite-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-teams-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-teams-api-openapi.yml
 - filename: hootsuite-user-presence-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite User Presence Rest API
   slug: hootsuite-user-presence-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-user-presence-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-user-presence-rest-api-api-openapi.yml
 - filename: hootsuite-vai-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite Vai Rest API
   slug: hootsuite-vai-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-vai-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-vai-rest-api-api-openapi.yml
 - filename: hootsuite-vai-webhooks-api-openapi.yml
   format: yaml
   label: Hootsuite Vai Webhooks API
   slug: hootsuite-vai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-vai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-vai-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 41
@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hootsu
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{organizationId}/teams/{teamId}/members\n  method: get\n  operationId: getTeamMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{organizationId}/teams/{teamId}/members/{memberId}/permissions\n  method: get\n  operationId: retrieveOrganizationMembersTeamPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{organizationId}/teams/{teamId}/socialProfiles\n  method: get\n  operationId: retrieveOrganizationTeamsSocialProfiles\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams/{teamId}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inbox/v1/user-presence/online-agents\n  method: get\n  operationId: onlineAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inbox/v1/virtual-agent/conversations/{conversationId}\n  method: post\n  operationId: vaiManipulateConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inbox/v1/virtual-agent/conversations/{conversationId}/attachments/{filename}\n\
   \  method: post\n  operationId: vaiUploadConversationAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/agentic-access/hootsuite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hootsuite/agentic-access/hootsuite-agentic-access.yml
 summary_line: 76 operations · 35 acting
 tags:
 - Social Media
@@ -193,8 +193,9 @@ tags:
 - Employee Advocacy
 - Customer Service
 - SCIM
-- Authentication
+- OAuth
 - Webhook
 - Scheduling
 - Canada
+- Authentication
 ---

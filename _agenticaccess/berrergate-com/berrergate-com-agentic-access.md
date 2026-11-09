@@ -9,37 +9,37 @@ api_specs:
   label: Berrer A2a API
   slug: berrergate-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-a2a-api-openapi.yml
 - filename: berrergate-com-agent-api-openapi.yml
   format: yaml
   label: Berrer Agent API
   slug: berrergate-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-agent-api-openapi.yml
 - filename: berrergate-com-research-api-openapi.yml
   format: yaml
   label: Berrer Research API
   slug: berrergate-com-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-research-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-research-api-openapi.yml
 - filename: berrergate-com-search-api-openapi.yml
   format: yaml
   label: Berrer Search API
   slug: berrergate-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-search-api-openapi.yml
 - filename: berrergate-com-skill-md-api-openapi.yml
   format: yaml
   label: Berrer Skill.md API
   slug: berrergate-com-skill-md-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-skill-md-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-skill-md-api-openapi.yml
 - filename: berrergate-com-well-known-api-openapi.yml
   format: yaml
   label: Berrer .well Known API
   slug: berrergate-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/openapi/berrergate-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/berrergate-com/openapi/berrergate-com-well-known-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/berrer
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agent/beta/catalog\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/beta/query\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/beta/receipts/{receipt_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/value-catalog\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/agent/wisdom/discovery\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/wisdom/provider-select\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agent/capabilities\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/decision\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a/v1/message:send\n  method: post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /a2a/jsonrpc\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/berrergate-com/refs/heads/main/agentic-access/berrergate-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/berrergate-com/agentic-access/berrergate-com-agentic-access.yml
 summary_line: 25 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Agents

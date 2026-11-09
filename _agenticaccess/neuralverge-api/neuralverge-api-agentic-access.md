@@ -9,31 +9,31 @@ api_specs:
   label: NeuralVerge API AI Agents API
   slug: neuralverge-api-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-ai-agents-api-openapi.yml
 - filename: neuralverge-api-ai-extract-api-openapi.yml
   format: yaml
   label: NeuralVerge API AI Extract API
   slug: neuralverge-api-ai-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-ai-extract-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-ai-extract-api-openapi.yml
 - filename: neuralverge-api-ai-research-api-openapi.yml
   format: yaml
   label: NeuralVerge API AI Research API
   slug: neuralverge-api-ai-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-ai-research-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-ai-research-api-openapi.yml
 - filename: neuralverge-api-data-sources-api-openapi.yml
   format: yaml
   label: NeuralVerge API Data Sources API
   slug: neuralverge-api-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-data-sources-api-openapi.yml
 - filename: neuralverge-api-search-api-openapi.yml
   format: yaml
   label: NeuralVerge API Search API
   slug: neuralverge-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/openapi/neuralverge-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/neuralverge-api/openapi/neuralverge-api-search-api-openapi.yml
 consequence_counts:
   read: 1
   write: 20
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-18'\nmethod: generated\nsource: openapi/neural
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions/v1/run-phone-enrichment-us\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions/v1/run-crunchbase-company\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions/v1/run-amazon-product-search\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions/v1/run-amazon-product\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions/v1/run-amazon-product-offers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions/v1/run-amazon-seller\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions/v1/run-amazon-seller-products\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neuralverge-api/refs/heads/main/agentic-access/neuralverge-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/neuralverge-api/agentic-access/neuralverge-api-agentic-access.yml
 summary_line: 21 operations · 20 acting
 tags:
 - Company Data

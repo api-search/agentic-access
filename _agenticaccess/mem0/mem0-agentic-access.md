@@ -9,85 +9,85 @@ api_specs:
   label: Mem0 Agents API
   slug: mem0-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-agents-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-agents-api-openapi.yml
 - filename: mem0-apps-api-openapi.yml
   format: yaml
   label: Mem0 Apps API
   slug: mem0-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-apps-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-apps-api-openapi.yml
 - filename: mem0-entities-api-openapi.yml
   format: yaml
   label: Mem0 Entities API
   slug: mem0-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-entities-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-entities-api-openapi.yml
 - filename: mem0-events-api-openapi.yml
   format: yaml
   label: Mem0 Events API
   slug: mem0-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-events-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-events-api-openapi.yml
 - filename: mem0-exports-api-openapi.yml
   format: yaml
   label: Mem0 Exports API
   slug: mem0-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-exports-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-exports-api-openapi.yml
 - filename: mem0-feedback-api-openapi.yml
   format: yaml
   label: Mem0 Feedback API
   slug: mem0-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-feedback-api-openapi.yml
 - filename: mem0-memories-api-openapi.yml
   format: yaml
   label: Mem0 Memories API
   slug: mem0-memories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-memories-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-memories-api-openapi.yml
 - filename: mem0-organizations-api-openapi.yml
   format: yaml
   label: Mem0 Organizations API
   slug: mem0-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-organizations-api-openapi.yml
 - filename: mem0-project-api-openapi.yml
   format: yaml
   label: Mem0 Project API
   slug: mem0-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-project-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-project-api-openapi.yml
 - filename: mem0-projects-api-openapi.yml
   format: yaml
   label: Mem0 Projects API
   slug: mem0-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-projects-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-projects-api-openapi.yml
 - filename: mem0-runs-api-openapi.yml
   format: yaml
   label: Mem0 Runs API
   slug: mem0-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-runs-api-openapi.yml
 - filename: mem0-stats-api-openapi.yml
   format: yaml
   label: Mem0 Stats API
   slug: mem0-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-stats-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-stats-api-openapi.yml
 - filename: mem0-users-api-openapi.yml
   format: yaml
   label: Mem0 Users API
   slug: mem0-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-users-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-users-api-openapi.yml
 - filename: mem0-webhooks-api-openapi.yml
   format: yaml
   label: Mem0 Webhooks API
   slug: mem0-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/openapi/mem0-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mem0/openapi/mem0-webhooks-api-openapi.yml
 consequence_counts:
   read: 20
   write: 32
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mem0-a
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/runs/\n  method: post\n  operationId: runs_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/stats/\n  method: get\n  operationId: stats_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/\n  method: post\n  operationId: users_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/projects/{project_id}/\n  method: get\n  operationId: get_project_webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks/projects/{project_id}/\n  method: post\n  operationId: create_webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{webhook_id}/\n  method: put\n  operationId: update_webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/v1/webhooks/{webhook_id}/\n  method: delete\n  operationId: delete_webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/agentic-access/mem0-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mem0/agentic-access/mem0-agentic-access.yml
 summary_line: 52 operations · 32 acting
 tags:
 - Memory

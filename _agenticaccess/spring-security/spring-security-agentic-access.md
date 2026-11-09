@@ -9,49 +9,49 @@ api_specs:
   label: Spring Security Authorization API
   slug: spring-security-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/spring-security/openapi/spring-security-authorization-api-openapi.yml
 - filename: spring-security-client-management-api-openapi.yml
   format: yaml
   label: Spring Security Client Management API
   slug: spring-security-client-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-client-management-api-openapi.yml
+  url: https://artifacts.apis.io/spring-security/openapi/spring-security-client-management-api-openapi.yml
 - filename: spring-security-device-api-openapi.yml
   format: yaml
   label: Spring Security Device API
   slug: spring-security-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-device-api-openapi.yml
+  url: https://artifacts.apis.io/spring-security/openapi/spring-security-device-api-openapi.yml
 - filename: spring-security-discovery-api-openapi.yml
   format: yaml
   label: Spring Security Discovery API
   slug: spring-security-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/spring-security/openapi/spring-security-discovery-api-openapi.yml
 - filename: spring-security-keys-api-openapi.yml
   format: yaml
   label: Spring Security Keys API
   slug: spring-security-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-keys-api-openapi.yml
+  url: https://artifacts.apis.io/spring-security/openapi/spring-security-keys-api-openapi.yml
 - filename: spring-security-openid-connect-api-openapi.yml
   format: yaml
   label: Spring Security OpenID Connect API
   slug: spring-security-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/spring-security/openapi/spring-security-openid-connect-api-openapi.yml
 - filename: spring-security-session-api-openapi.yml
   format: yaml
   label: Spring Security Session API
   slug: spring-security-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-session-api-openapi.yml
+  url: https://artifacts.apis.io/spring-security/openapi/spring-security-session-api-openapi.yml
 - filename: spring-security-token-api-openapi.yml
   format: yaml
   label: Spring Security Token API
   slug: spring-security-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/openapi/spring-security-token-api-openapi.yml
+  url: https://artifacts.apis.io/spring-security/openapi/spring-security-token-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -92,13 +92,14 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spring
   \ get\n  operationId: oidcLogout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logout\n  method: post\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /login\n  method: get\n  operationId: getLoginPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /login\n  method: post\n  operationId: processLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/token\n  method: post\n  operationId: tokenRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/introspect\n  method: post\n  operationId: tokenIntrospection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/revoke\n  method: post\n  operationId: tokenRevocation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange:\
   \ true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/agentic-access/spring-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spring-security/agentic-access/spring-security-agentic-access.yml
 summary_line: 15 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Authentication
 - Authorization
 - Java
 - JWT
+- OAuth
 - OpenID Connect
 - SAML
 - Security

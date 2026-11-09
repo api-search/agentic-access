@@ -9,43 +9,43 @@ api_specs:
   label: Plunk Campaigns API
   slug: plunk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-campaigns-api-openapi.yml
 - filename: plunk-contacts-api-openapi.yml
   format: yaml
   label: Plunk Contacts API
   slug: plunk-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-contacts-api-openapi.yml
 - filename: plunk-events-api-openapi.yml
   format: yaml
   label: Plunk Events API
   slug: plunk-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-events-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-events-api-openapi.yml
 - filename: plunk-transactional-api-openapi.yml
   format: yaml
   label: Plunk Transactional API
   slug: plunk-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-transactional-api-openapi.yml
 - filename: plunk-public-api-api-openapi.yml
   format: yaml
   label: Plunk Public API
   slug: plunk-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-public-api-api-openapi.yml
 - filename: plunk-segments-api-openapi.yml
   format: yaml
   label: Plunk Segments API
   slug: plunk-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-segments-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-segments-api-openapi.yml
 - filename: plunk-templates-api-openapi.yml
   format: yaml
   label: Plunk Templates API
   slug: plunk-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-templates-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-templates-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 3
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/plunk-
   - path: /contacts\n  method: delete\n  operationId: deleteContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{id}\n  method: get\n  operationId: getContact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/count\n  method: get\n  operationId: getContactCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/subscribe\n  method: post\n  operationId: subscribeContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/unsubscribe\n  method: post\n  operationId: unsubscribeContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /track\n  method: post\n  operationId: trackEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /send\n  method: post\n  operationId: sendEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/agentic-access/plunk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/plunk/agentic-access/plunk-agentic-access.yml
 summary_line: 14 operations · 11 acting
 tags:
 - Email

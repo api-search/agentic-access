@@ -9,19 +9,19 @@ api_specs:
   label: Anomaly Detection ChangePoint API
   slug: anomaly-detection-changepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-changepoint-api-openapi.yml
+  url: https://artifacts.apis.io/anomaly-detection/openapi/anomaly-detection-changepoint-api-openapi.yml
 - filename: anomaly-detection-multivariate-api-openapi.yml
   format: yaml
   label: Anomaly Detection Multivariate API
   slug: anomaly-detection-multivariate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-multivariate-api-openapi.yml
+  url: https://artifacts.apis.io/anomaly-detection/openapi/anomaly-detection-multivariate-api-openapi.yml
 - filename: anomaly-detection-univariate-api-openapi.yml
   format: yaml
   label: Anomaly Detection Univariate API
   slug: anomaly-detection-univariate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-univariate-api-openapi.yml
+  url: https://artifacts.apis.io/anomaly-detection/openapi/anomaly-detection-univariate-api-openapi.yml
 consequence_counts:
   read: 2
   write: 7
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/anomal
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timeseries/changepoint/detect\n  method: post\n  operationId: detectUnivariateChangePoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /multivariate/models\n  method: get\n  operationId: listMultivariateModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /multivariate/models\n  method: post\n  operationId: trainMultivariateModel\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /multivariate/models/{modelId}\n  method: get\n  operationId: getMultivariateModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /multivariate/models/{modelId}\n  method: delete\n  operationId: deleteMultivariateModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /multivariate/models/{modelId}:detect-batch\n  method: post\n  operationId: detectMultivariateBatchAnomaly\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /multivariate/models/{modelId}:detect-last\n  method: post\n  operationId: detectMultivariateLastAnomaly\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/agentic-access/anomaly-detection-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/anomaly-detection/agentic-access/anomaly-detection-agentic-access.yml
 summary_line: 9 operations · 7 acting
 tags:
 - Anomaly Detection

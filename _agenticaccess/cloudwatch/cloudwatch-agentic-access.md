@@ -9,37 +9,37 @@ api_specs:
   label: AWS CloudWatch Alarms API
   slug: cloudwatch-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-alarms-api-openapi.yml
 - filename: cloudwatch-anomaly-detection-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Anomaly Detection API
   slug: cloudwatch-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-anomaly-detection-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-anomaly-detection-api-openapi.yml
 - filename: cloudwatch-composite-alarms-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Composite Alarms API
   slug: cloudwatch-composite-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-composite-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-composite-alarms-api-openapi.yml
 - filename: cloudwatch-dashboards-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Dashboards API
   slug: cloudwatch-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-dashboards-api-openapi.yml
 - filename: cloudwatch-metric-streams-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Metric Streams API
   slug: cloudwatch-metric-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-metric-streams-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-metric-streams-api-openapi.yml
 - filename: cloudwatch-metrics-api-openapi.yml
   format: yaml
   label: AWS CloudWatch Metrics API
   slug: cloudwatch-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/cloudwatch-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/cloudwatch/openapi/cloudwatch-metrics-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1
@@ -83,10 +83,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cloudw
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#PutMetricStream\n  method: post\n  operationId: PutMetricStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#ListMetricStreams\n  method: post\n  operationId: ListMetricStreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: PutMetricData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#GetMetricData\n  method: post\n  operationId: GetMetricData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#GetMetricStatistics\n  method: post\n  operationId: GetMetricStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#ListMetrics\n  method: post\n  operationId: ListMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#ListTagsForResource\n  method: post\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/agentic-access/cloudwatch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudwatch/agentic-access/cloudwatch-agentic-access.yml
 summary_line: 25 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Alarms
+- Amazon Web Services
 - Dashboards
 - Logs
 - Metrics

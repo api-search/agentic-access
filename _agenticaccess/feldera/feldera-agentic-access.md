@@ -9,37 +9,37 @@ api_specs:
   label: Feldera Input Connectors API
   slug: feldera-input-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-input-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-input-connectors-api-openapi.yml
 - filename: feldera-metrics-debugging-api-openapi.yml
   format: yaml
   label: Feldera Metrics & Debugging API
   slug: feldera-metrics-debugging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-metrics-debugging-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-metrics-debugging-api-openapi.yml
 - filename: feldera-output-connectors-api-openapi.yml
   format: yaml
   label: Feldera Output Connectors API
   slug: feldera-output-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-output-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-output-connectors-api-openapi.yml
 - filename: feldera-pipeline-crud-api-openapi.yml
   format: yaml
   label: Feldera Pipeline CRUD API
   slug: feldera-pipeline-crud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-pipeline-crud-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-pipeline-crud-api-openapi.yml
 - filename: feldera-pipeline-lifecycle-api-openapi.yml
   format: yaml
   label: Feldera Pipeline Lifecycle API
   slug: feldera-pipeline-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-pipeline-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-pipeline-lifecycle-api-openapi.yml
 - filename: feldera-platform-api-openapi.yml
   format: yaml
   label: Feldera Platform API
   slug: feldera-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/feldera-platform-api-openapi.yml
+  url: https://artifacts.apis.io/feldera/openapi/feldera-platform-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 34
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/felder
   \   action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v0/pipelines/{pipeline_name}/support_bundle\n  method: get\n  operationId: get_pipeline_support_bundle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/pipelines/{pipeline_name}/tables/{table_name}/connectors/{connector_name}/completion_token\n  method: get\n  operationId: completion_token\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/pipelines/{pipeline_name}/tables/{table_name}/connectors/{connector_name}/stats\n  method: get\n  operationId: get_pipeline_input_connector_status\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/pipelines/{pipeline_name}/tables/{table_name}/connectors/{connector_name}/{action}\n  method: post\n  operationId: post_pipeline_input_connector_action\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v0/pipelines/{pipeline_name}/time_series\n  method: get\n  operationId: get_pipeline_time_series\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/pipelines/{pipeline_name}/time_series_stream\n  method: get\n  operationId: get_pipeline_time_series_stream\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/pipelines/{pipeline_name}/update_runtime\n  method: post\n  operationId: post_update_runtime\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/pipelines/{pipeline_name}/views/{view_name}/connectors/{connector_name}/stats\n  method: get\n  operationId: get_pipeline_output_connector_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/agentic-access/feldera-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/feldera/agentic-access/feldera-agentic-access.yml
 summary_line: 60 operations · 26 acting · 2 human-in-the-loop
 tags:
 - Company

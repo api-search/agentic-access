@@ -9,31 +9,67 @@ api_specs:
   label: Amazon OpenSearch Service API Domain API
   slug: amazon-opensearch-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-domain-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-domain-api-openapi.yml
 - filename: amazon-opensearch-es-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Es API
   slug: amazon-opensearch-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-es-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-es-api-openapi.yml
 - filename: amazon-opensearch-packages-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Packages API
   slug: amazon-opensearch-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-packages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-packages-api-openapi.yml
 - filename: amazon-opensearch-tags-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Tags API
   slug: amazon-opensearch-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-tags-api-openapi.yml
 - filename: amazon-opensearch-tags-removal-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Tags Removal API
   slug: amazon-opensearch-tags-removal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/openapi/amazon-opensearch-tags-removal-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-tags-removal-api-openapi.yml
+- filename: amazon-opensearch-capability-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Capability API
+  slug: amazon-opensearch-capability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-capability-api-openapi.yml
+- filename: amazon-opensearch-config-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Config API
+  slug: amazon-opensearch-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-config-api-openapi.yml
+- filename: amazon-opensearch-index-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Index API
+  slug: amazon-opensearch-index-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-index-api-openapi.yml
+- filename: amazon-opensearch-operations-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Operations API
+  slug: amazon-opensearch-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-operations-api-openapi.yml
+- filename: amazon-opensearch-data-source-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Data Source API
+  slug: amazon-opensearch-data-source-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-data-source-api-openapi.yml
+- filename: amazon-opensearch-open-search-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Open Search API
+  slug: amazon-opensearch-open-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-open-search-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -92,10 +128,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  method: post\n  operationId: RemoveTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2015-01-01/es/domain/{DomainName}/revokeVpcEndpointAccess\n  method: post\n  operationId: RevokeVpcEndpointAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /2015-01-01/es/serviceSoftwareUpdate/start\n  method: post\n  operationId: StartElasticsearchServiceSoftwareUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2015-01-01/packages/update\n  method: post\n  operationId: UpdatePackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2015-01-01/es/vpcEndpoints/update\n  method: post\n  operationId: UpdateVpcEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2015-01-01/es/upgradeDomain\n  method: post\n  operationId: UpgradeElasticsearchDomain\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/agentic-access/amazon-opensearch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-opensearch/agentic-access/amazon-opensearch-agentic-access.yml
 summary_line: 50 operations · 30 acting · 1 human-in-the-loop
 tags:
 - Analytics
+- Amazon Web Services
 - Elasticsearch
 - Search
 ---

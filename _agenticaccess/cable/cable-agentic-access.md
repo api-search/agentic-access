@@ -9,121 +9,121 @@ api_specs:
   label: Cable Alerts API
   slug: cable-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-alerts-api-openapi.yml
 - filename: cable-authentication-api-openapi.yml
   format: yaml
   label: Cable Authentication API
   slug: cable-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-authentication-api-openapi.yml
 - filename: cable-business-api-openapi.yml
   format: yaml
   label: Cable Business API
   slug: cable-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-business-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-business-api-openapi.yml
 - filename: cable-checks-api-openapi.yml
   format: yaml
   label: Cable Checks API
   slug: cable-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-checks-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-checks-api-openapi.yml
 - filename: cable-company-api-openapi.yml
   format: yaml
   label: Cable Company API
   slug: cable-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-company-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-company-api-openapi.yml
 - filename: cable-customersar-api-openapi.yml
   format: yaml
   label: Cable Customer Sar API
   slug: cable-customersar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-customersar-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-customersar-api-openapi.yml
 - filename: cable-helper-api-openapi.yml
   format: yaml
   label: Cable Helper API
   slug: cable-helper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-helper-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-helper-api-openapi.yml
 - filename: cable-onboardingflow-api-openapi.yml
   format: yaml
   label: Cable Onboarding Flow API
   slug: cable-onboardingflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-onboardingflow-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-onboardingflow-api-openapi.yml
 - filename: cable-person-api-openapi.yml
   format: yaml
   label: Cable Person API
   slug: cable-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-person-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-person-api-openapi.yml
 - filename: cable-retail-api-openapi.yml
   format: yaml
   label: Cable Retail API
   slug: cable-retail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-retail-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-retail-api-openapi.yml
 - filename: cable-screening-api-openapi.yml
   format: yaml
   label: Cable Screening API
   slug: cable-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-screening-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-screening-api-openapi.yml
 - filename: cable-suspiciousactivities-api-openapi.yml
   format: yaml
   label: Cable Suspicious Activities API
   slug: cable-suspiciousactivities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-suspiciousactivities-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-suspiciousactivities-api-openapi.yml
 - filename: cable-transactionalerts-api-openapi.yml
   format: yaml
   label: Cable Transaction Alerts API
   slug: cable-transactionalerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactionalerts-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-transactionalerts-api-openapi.yml
 - filename: cable-transactionchecks-api-openapi.yml
   format: yaml
   label: Cable Transaction Checks API
   slug: cable-transactionchecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactionchecks-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-transactionchecks-api-openapi.yml
 - filename: cable-transactions-api-openapi.yml
   format: yaml
   label: Cable Transactions API
   slug: cable-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-transactions-api-openapi.yml
 - filename: cable-transactionsuspiciousactivities-api-openapi.yml
   format: yaml
   label: Cable Transaction Suspicious Activities API
   slug: cable-transactionsuspiciousactivities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-transactionsuspiciousactivities-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-transactionsuspiciousactivities-api-openapi.yml
 - filename: cable-upload-api-openapi.yml
   format: yaml
   label: Cable Upload API
   slug: cable-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-upload-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-upload-api-openapi.yml
 - filename: cable-utilities-api-openapi.yml
   format: yaml
   label: Cable Utilities API
   slug: cable-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-utilities-api-openapi.yml
 - filename: cable-identity-verification-api-openapi.yml
   format: yaml
   label: Cable Identity Verification API
   slug: cable-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-identity-verification-api-openapi.yml
 - filename: cable-risk-assessment-api-openapi.yml
   format: yaml
   label: Cable Risk Assessment API
   slug: cable-risk-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/openapi/cable-risk-assessment-api-openapi.yml
+  url: https://artifacts.apis.io/cable/openapi/cable-risk-assessment-api-openapi.yml
 consequence_counts:
   read: 18
   write: 59
@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/cable-
   \      - high-value\n    audit: required\n- path: /transaction_suspicious_activity\n  method: get\n  operationId: check-transaction-suspicious-activity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction_suspicious_activity\n  method: post\n  operationId: add-transaction-suspicious-activity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction_suspicious_activity\n  method: put\n  operationId: update-transaction-suspicious-activity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction_screening\n  method: get\n  operationId: check-transaction-screening\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction_screening\n  method: post\n  operationId: add-transaction-screening\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction_screening\n  method: put\n  operationId: update-transaction-screening\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/agentic-access/cable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cable/agentic-access/cable-agentic-access.yml
 summary_line: 77 operations · 59 acting
 tags:
 - Company

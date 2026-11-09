@@ -9,67 +9,67 @@ api_specs:
   label: RevenueCat Apps API
   slug: revenuecat-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-apps-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-apps-api-openapi.yml
 - filename: revenuecat-customers-api-openapi.yml
   format: yaml
   label: RevenueCat Customers API
   slug: revenuecat-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-customers-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-customers-api-openapi.yml
 - filename: revenuecat-entitlements-v1-api-openapi.yml
   format: yaml
   label: RevenueCat Entitlements (v1) API
   slug: revenuecat-entitlements-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-entitlements-v1-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-entitlements-v1-api-openapi.yml
 - filename: revenuecat-entitlements-v2-api-openapi.yml
   format: yaml
   label: RevenueCat Entitlements (v2) API
   slug: revenuecat-entitlements-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-entitlements-v2-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-entitlements-v2-api-openapi.yml
 - filename: revenuecat-offerings-v1-api-openapi.yml
   format: yaml
   label: RevenueCat Offerings (v1) API
   slug: revenuecat-offerings-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-offerings-v1-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-offerings-v1-api-openapi.yml
 - filename: revenuecat-offerings-v2-api-openapi.yml
   format: yaml
   label: RevenueCat Offerings (v2) API
   slug: revenuecat-offerings-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-offerings-v2-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-offerings-v2-api-openapi.yml
 - filename: revenuecat-packages-api-openapi.yml
   format: yaml
   label: RevenueCat Packages API
   slug: revenuecat-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-packages-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-packages-api-openapi.yml
 - filename: revenuecat-products-api-openapi.yml
   format: yaml
   label: RevenueCat Products API
   slug: revenuecat-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-products-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-products-api-openapi.yml
 - filename: revenuecat-projects-api-openapi.yml
   format: yaml
   label: RevenueCat Projects API
   slug: revenuecat-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-projects-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-projects-api-openapi.yml
 - filename: revenuecat-purchases-api-openapi.yml
   format: yaml
   label: RevenueCat Purchases API
   slug: revenuecat-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-purchases-api-openapi.yml
 - filename: revenuecat-subscribers-api-openapi.yml
   format: yaml
   label: RevenueCat Subscribers API
   slug: revenuecat-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/openapi/revenuecat-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/revenuecat/openapi/revenuecat-subscribers-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/revenu
   \ 3600\n    audit: none\n- path: /projects/{project_id}/entitlements/{entitlement_id}\n  method: delete\n  operationId: deleteEntitlement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/offerings\n  method: get\n  operationId: listOfferingsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/offerings\n  method: post\n  operationId: createOfferingV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /projects/{project_id}/offerings/{offering_id}\n  method: get\n  operationId: getOfferingV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/offerings/{offering_id}/packages\n  method: get\n  operationId: listPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/offerings/{offering_id}/packages\n  method: post\n  operationId: createPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/offerings/{offering_id}/packages/{package_id}\n  method: get\n\
   \  operationId: getPackage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/offerings/{offering_id}/packages/{package_id}\n  method: delete\n  operationId: deletePackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/agentic-access/revenuecat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/revenuecat/agentic-access/revenuecat-agentic-access.yml
 summary_line: 34 operations · 19 acting · 2 human-in-the-loop
 tags:
 - Subscription

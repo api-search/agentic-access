@@ -9,61 +9,61 @@ api_specs:
   label: Vantiv Authorizations API
   slug: vantiv-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-authorizations-api-openapi.yml
 - filename: vantiv-captures-api-openapi.yml
   format: yaml
   label: Vantiv Captures API
   slug: vantiv-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-captures-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-captures-api-openapi.yml
 - filename: vantiv-chargebacks-api-openapi.yml
   format: yaml
   label: Vantiv Chargebacks API
   slug: vantiv-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-chargebacks-api-openapi.yml
 - filename: vantiv-credits-api-openapi.yml
   format: yaml
   label: Vantiv Credits API
   slug: vantiv-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-credits-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-credits-api-openapi.yml
 - filename: vantiv-documents-api-openapi.yml
   format: yaml
   label: Vantiv Documents API
   slug: vantiv-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-documents-api-openapi.yml
 - filename: vantiv-echeck-api-openapi.yml
   format: yaml
   label: Vantiv eCheck API
   slug: vantiv-echeck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-echeck-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-echeck-api-openapi.yml
 - filename: vantiv-recurring-api-openapi.yml
   format: yaml
   label: Vantiv Recurring API
   slug: vantiv-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-recurring-api-openapi.yml
 - filename: vantiv-sales-api-openapi.yml
   format: yaml
   label: Vantiv Sales API
   slug: vantiv-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-sales-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-sales-api-openapi.yml
 - filename: vantiv-tokenization-api-openapi.yml
   format: yaml
   label: Vantiv Tokenization API
   slug: vantiv-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-tokenization-api-openapi.yml
 - filename: vantiv-voids-api-openapi.yml
   format: yaml
   label: Vantiv Voids API
   slug: vantiv-voids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/openapi/vantiv-voids-api-openapi.yml
+  url: https://artifacts.apis.io/vantiv/openapi/vantiv-voids-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 3
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vantiv
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /registerTokenRequest\n  method: post\n  operationId: registerToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updateCardValidationNumRequest\n  method: post\n  operationId: updateCardValidationNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recurringTransaction\n\
   \  method: post\n  operationId: createRecurringTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /echeckSale\n  method: post\n  operationId: createEcheckSale\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /echeckCredit\n  method: post\n  operationId: createEcheckCredit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/agentic-access/vantiv-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vantiv/agentic-access/vantiv-agentic-access.yml
 summary_line: 16 operations · 13 acting
 tags:
 - Payments

@@ -8,7 +8,7 @@ api_specs:
   label: Jobber Graph QL API
   slug: jobber-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jobber/refs/heads/main/openapi/jobber-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/jobber/openapi/jobber-graph-ql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -34,7 +34,7 @@ source_filename: jobber-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jobber-developer-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1\n  by_action_class:\n    acting: 1\n  by_consequence:\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/graphql\n  method: post\n  operationId: executeGraphQLQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobber/refs/heads/main/agentic-access/jobber-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jobber/agentic-access/jobber-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
 - Field Service Management

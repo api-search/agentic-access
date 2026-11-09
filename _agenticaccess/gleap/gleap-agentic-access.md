@@ -9,199 +9,199 @@ api_specs:
   label: Gleap AI content API
   slug: gleap-ai-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-ai-content-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-ai-content-api-openapi.yml
 - filename: gleap-code-api-openapi.yml
   format: yaml
   label: Gleap Code API
   slug: gleap-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-code-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-code-api-openapi.yml
 - filename: gleap-contactmemory-api-openapi.yml
   format: yaml
   label: Gleap ContactMemory API
   slug: gleap-contactmemory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-contactmemory-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-contactmemory-api-openapi.yml
 - filename: gleap-custom-components-api-openapi.yml
   format: yaml
   label: Gleap Custom components API
   slug: gleap-custom-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-custom-components-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-custom-components-api-openapi.yml
 - filename: gleap-engagement-api-openapi.yml
   format: yaml
   label: Gleap Engagement API
   slug: gleap-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-api-openapi.yml
 - filename: gleap-engagement-banner-api-openapi.yml
   format: yaml
   label: Gleap Engagement Banner API
   slug: gleap-engagement-banner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-banner-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-banner-api-openapi.yml
 - filename: gleap-engagement-chat-message-api-openapi.yml
   format: yaml
   label: Gleap Engagement Chat Message API
   slug: gleap-engagement-chat-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-chat-message-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-chat-message-api-openapi.yml
 - filename: gleap-engagement-checklist-api-openapi.yml
   format: yaml
   label: Gleap Engagement Checklist API
   slug: gleap-engagement-checklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-checklist-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-checklist-api-openapi.yml
 - filename: gleap-engagement-cobrowse-api-openapi.yml
   format: yaml
   label: Gleap Engagement Cobrowse API
   slug: gleap-engagement-cobrowse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-cobrowse-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-cobrowse-api-openapi.yml
 - filename: gleap-engagement-email-api-openapi.yml
   format: yaml
   label: Gleap Engagement Email API
   slug: gleap-engagement-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-email-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-email-api-openapi.yml
 - filename: gleap-engagement-modal-api-openapi.yml
   format: yaml
   label: Gleap Engagement Modal API
   slug: gleap-engagement-modal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-modal-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-modal-api-openapi.yml
 - filename: gleap-engagement-news-api-openapi.yml
   format: yaml
   label: Gleap Engagement News API
   slug: gleap-engagement-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-news-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-news-api-openapi.yml
 - filename: gleap-engagement-product-tour-api-openapi.yml
   format: yaml
   label: Gleap Engagement Product Tour API
   slug: gleap-engagement-product-tour-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-product-tour-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-product-tour-api-openapi.yml
 - filename: gleap-engagement-push-notification-api-openapi.yml
   format: yaml
   label: Gleap Engagement Push Notification API
   slug: gleap-engagement-push-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-push-notification-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-push-notification-api-openapi.yml
 - filename: gleap-engagement-survey-api-openapi.yml
   format: yaml
   label: Gleap Engagement Survey API
   slug: gleap-engagement-survey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-survey-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-survey-api-openapi.yml
 - filename: gleap-engagement-tooltip-api-openapi.yml
   format: yaml
   label: Gleap Engagement Tooltip API
   slug: gleap-engagement-tooltip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-tooltip-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-tooltip-api-openapi.yml
 - filename: gleap-engagement-whatsapp-messages-api-openapi.yml
   format: yaml
   label: Gleap Engagement Whatsapp Messages API
   slug: gleap-engagement-whatsapp-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-engagement-whatsapp-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-engagement-whatsapp-messages-api-openapi.yml
 - filename: gleap-help-center-api-openapi.yml
   format: yaml
   label: Gleap Help center API
   slug: gleap-help-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-help-center-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-help-center-api-openapi.yml
 - filename: gleap-help-center-articles-api-openapi.yml
   format: yaml
   label: Gleap Help center articles API
   slug: gleap-help-center-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-help-center-articles-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-help-center-articles-api-openapi.yml
 - filename: gleap-help-center-collections-api-openapi.yml
   format: yaml
   label: Gleap Help center collections API
   slug: gleap-help-center-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-help-center-collections-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-help-center-collections-api-openapi.yml
 - filename: gleap-help-center-redirects-api-openapi.yml
   format: yaml
   label: Gleap Help center redirects API
   slug: gleap-help-center-redirects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-help-center-redirects-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-help-center-redirects-api-openapi.yml
 - filename: gleap-invitation-api-openapi.yml
   format: yaml
   label: Gleap Invitation API
   slug: gleap-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-invitation-api-openapi.yml
 - filename: gleap-knowledge-api-openapi.yml
   format: yaml
   label: Gleap Knowledge API
   slug: gleap-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-knowledge-api-openapi.yml
 - filename: gleap-message-templates-api-openapi.yml
   format: yaml
   label: Gleap Message templates API
   slug: gleap-message-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-message-templates-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-message-templates-api-openapi.yml
 - filename: gleap-messages-api-openapi.yml
   format: yaml
   label: Gleap Messages API
   slug: gleap-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-messages-api-openapi.yml
 - filename: gleap-project-api-openapi.yml
   format: yaml
   label: Gleap Project API
   slug: gleap-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-project-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-project-api-openapi.yml
 - filename: gleap-session-api-openapi.yml
   format: yaml
   label: Gleap Session API
   slug: gleap-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-session-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-session-api-openapi.yml
 - filename: gleap-statistics-api-openapi.yml
   format: yaml
   label: Gleap Statistics API
   slug: gleap-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-statistics-api-openapi.yml
 - filename: gleap-team-api-openapi.yml
   format: yaml
   label: Gleap Team API
   slug: gleap-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-team-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-team-api-openapi.yml
 - filename: gleap-ticket-api-openapi.yml
   format: yaml
   label: Gleap Ticket API
   slug: gleap-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-ticket-api-openapi.yml
 - filename: gleap-translations-api-openapi.yml
   format: yaml
   label: Gleap Translations API
   slug: gleap-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-translations-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-translations-api-openapi.yml
 - filename: gleap-user-api-openapi.yml
   format: yaml
   label: Gleap User API
   slug: gleap-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-user-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-user-api-openapi.yml
 - filename: gleap-ai-models-api-openapi.yml
   format: yaml
   label: Gleap AI Models API
   slug: gleap-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/openapi/gleap-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/gleap/openapi/gleap-ai-models-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 106
@@ -286,8 +286,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gleap-
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /engagement/tooltips/{tooltipId}\n  method: delete\n  operationId: DeleteTooltip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /engagement/tooltips/{tooltipId}\n  method: get\n  operationId: GetTooltip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/whatsapp-messages\n  method: post\n  operationId: CreateWhatsappMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /engagement/whatsapp-messages\n  method: get\n  operationId: GetWhatsappMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/whatsapp-messages/{whatsappMessageId}\n  method: put\n  operationId: UpdateWhatsappMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /engagement/whatsapp-messages/{whatsappMessageId}\n  method: delete\n  operationId: DeleteWhatsappMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /engagement/whatsapp-messages/{whatsappMessageId}\n  method: get\n  operationId: GetWhatsappMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/whatsapp-messages/send-template\n  method: post\n  operationId: SendWhatsappTemplateMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shared/helpcenter/search\n  method: get\n  operationId: GetHelpcenterCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
-  \  token:\n      max-ttl: 3600\n    audit: none\n- path: /shared/helpcenter/sources\n  method: get\n  operationId: GetHelpcenterSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shared/helpcenter/answer\n  method: get\n  operationId: AnswerHelpCenterQuestion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /helpcenter/collections/{helpcenterCollectionId}/articles\n  method: post\n  operationId: CreateHelpcenterArticle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/agentic-access/gleap-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/agentic-access/gleap-agentic-access.yml
+  \  token:\n      max-ttl: 3600\n    audit: none\n- path: /shared/helpcenter/sources\n  method: get\n  operationId: GetHelpcenterSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shared/helpcenter/answer\n  method: get\n  operationId: AnswerHelpCenterQuestion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /helpcenter/collections/{helpcenterCollectionId}/articles\n  method: post\n  operationId: CreateHelpcenterArticle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://artifacts.apis.io/gleap/agentic-access/gleap-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/gleap/agentic-access/gleap-agentic-access.yml
 summary_line: 231 operations · 125 acting
 tags:
 - Customer Feedback

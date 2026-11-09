@@ -9,139 +9,139 @@ api_specs:
   label: OwnerRez Bookings API
   slug: ownerrez-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-bookings-api-openapi.yml
 - filename: ownerrez-deposits-api-openapi.yml
   format: yaml
   label: OwnerRez Deposits API
   slug: ownerrez-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-deposits-api-openapi.yml
 - filename: ownerrez-discounts-api-openapi.yml
   format: yaml
   label: OwnerRez Discounts API
   slug: ownerrez-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-discounts-api-openapi.yml
 - filename: ownerrez-fees-api-openapi.yml
   format: yaml
   label: OwnerRez Fees API
   slug: ownerrez-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-fees-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-fees-api-openapi.yml
 - filename: ownerrez-fields-api-openapi.yml
   format: yaml
   label: OwnerRez Fields API
   slug: ownerrez-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-fields-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-fields-api-openapi.yml
 - filename: ownerrez-guests-api-openapi.yml
   format: yaml
   label: OwnerRez Guests API
   slug: ownerrez-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-guests-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-guests-api-openapi.yml
 - filename: ownerrez-inquiries-api-openapi.yml
   format: yaml
   label: OwnerRez Inquiries API
   slug: ownerrez-inquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-inquiries-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-inquiries-api-openapi.yml
 - filename: ownerrez-listings-api-openapi.yml
   format: yaml
   label: OwnerRez Listings API
   slug: ownerrez-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-listings-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-listings-api-openapi.yml
 - filename: ownerrez-messages-api-openapi.yml
   format: yaml
   label: OwnerRez Messages API
   slug: ownerrez-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-messages-api-openapi.yml
 - filename: ownerrez-owners-api-openapi.yml
   format: yaml
   label: OwnerRez Owners API
   slug: ownerrez-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-owners-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-owners-api-openapi.yml
 - filename: ownerrez-payments-api-openapi.yml
   format: yaml
   label: OwnerRez Payments API
   slug: ownerrez-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-payments-api-openapi.yml
 - filename: ownerrez-properties-api-openapi.yml
   format: yaml
   label: OwnerRez Properties API
   slug: ownerrez-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-properties-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-properties-api-openapi.yml
 - filename: ownerrez-quotes-api-openapi.yml
   format: yaml
   label: OwnerRez Quotes API
   slug: ownerrez-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-quotes-api-openapi.yml
 - filename: ownerrez-refunds-api-openapi.yml
   format: yaml
   label: OwnerRez Refunds API
   slug: ownerrez-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-refunds-api-openapi.yml
 - filename: ownerrez-reviews-api-openapi.yml
   format: yaml
   label: OwnerRez Reviews API
   slug: ownerrez-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-reviews-api-openapi.yml
 - filename: ownerrez-spotrates-api-openapi.yml
   format: yaml
   label: OwnerRez SpotRates API
   slug: ownerrez-spotrates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-spotrates-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-spotrates-api-openapi.yml
 - filename: ownerrez-surcharges-api-openapi.yml
   format: yaml
   label: OwnerRez Surcharges API
   slug: ownerrez-surcharges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-surcharges-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-surcharges-api-openapi.yml
 - filename: ownerrez-tagdefinitions-api-openapi.yml
   format: yaml
   label: OwnerRez TagDefinitions API
   slug: ownerrez-tagdefinitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-tagdefinitions-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-tagdefinitions-api-openapi.yml
 - filename: ownerrez-tags-api-openapi.yml
   format: yaml
   label: OwnerRez Tags API
   slug: ownerrez-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-tags-api-openapi.yml
 - filename: ownerrez-users-api-openapi.yml
   format: yaml
   label: OwnerRez Users API
   slug: ownerrez-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-users-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-users-api-openapi.yml
 - filename: ownerrez-field-definitions-api-openapi.yml
   format: yaml
   label: OwnerRez Field Definitions API
   slug: ownerrez-field-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-field-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-field-definitions-api-openapi.yml
 - filename: ownerrez-property-search-api-openapi.yml
   format: yaml
   label: OwnerRez Property Search API
   slug: ownerrez-property-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-property-search-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-property-search-api-openapi.yml
 - filename: ownerrez-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: OwnerRez Webhook Subscriptions API
   slug: ownerrez-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ownerrez/openapi/ownerrez-webhook-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 45
@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ownerr
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /fees/{id}\n  method: get\n  operationId: getFee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surcharges\n  method: get\n  operationId: listSurcharges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surcharges\n  method: post\n  operationId: createSurcharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /surcharges/{id}\n  method: get\n  operationId: getSurcharge\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surcharges/{id}\n  method: patch\n  operationId: updateSurcharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /surcharges/{id}\n  method: delete\n  operationId: deleteSurcharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spotrates\n  method: patch\n  operationId: updateSpotRates\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/agentic-access/ownerrez-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ownerrez/agentic-access/ownerrez-agentic-access.yml
 summary_line: 79 operations · 34 acting
 tags:
 - Vacation Rentals

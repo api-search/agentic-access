@@ -9,25 +9,25 @@ api_specs:
   label: SpecCheck Authentication API
   slug: speccheck-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-authentication-api-openapi.yml
 - filename: speccheck-catalogs-api-openapi.yml
   format: yaml
   label: SpecCheck Catalogs API
   slug: speccheck-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-catalogs-api-openapi.yml
 - filename: speccheck-labs-api-openapi.yml
   format: yaml
   label: SpecCheck Labs API
   slug: speccheck-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-labs-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-labs-api-openapi.yml
 - filename: speccheck-orders-api-openapi.yml
   format: yaml
   label: SpecCheck Orders API
   slug: speccheck-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/speccheck-orders-api-openapi.yml
+  url: https://artifacts.apis.io/speccheck/openapi/speccheck-orders-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/speccheck-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 2\n    connected: 6\n  by_consequence:\n    write: 1\n    read: 6\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/oauth/token\n  method: post\n  operationId: createAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/labs\n  method: get\n  operationId: listLabs\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/labs/{id}/order_settings\n  method: get\n  operationId: retrieveOrderSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/catalogs/styles\n  method: get\n  operationId: listLensStyles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/catalogs/materials\n  method: get\n  operationId: listLensMaterials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/catalogs/addons\n  method: get\n  operationId: listLensAddons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/agentic-access/speccheck-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/speccheck/agentic-access/speccheck-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
 - Company

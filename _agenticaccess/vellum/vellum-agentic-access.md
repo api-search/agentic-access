@@ -9,133 +9,133 @@ api_specs:
   label: Vellum AI Subpackage Deployments API
   slug: vellum-subpackage-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-deployments-api-openapi.yml
 - filename: vellum-subpackage-documentindexes-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Document Indexes API
   slug: vellum-subpackage-documentindexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-documentindexes-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-documentindexes-api-openapi.yml
 - filename: vellum-subpackage-documents-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Documents API
   slug: vellum-subpackage-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-documents-api-openapi.yml
 - filename: vellum-subpackage-events-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Events API
   slug: vellum-subpackage-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-events-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-events-api-openapi.yml
 - filename: vellum-subpackage-folderentities-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Folder Entities API
   slug: vellum-subpackage-folderentities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-folderentities-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-folderentities-api-openapi.yml
 - filename: vellum-subpackage-sandboxes-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Sandboxes API
   slug: vellum-subpackage-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-sandboxes-api-openapi.yml
 - filename: vellum-subpackage-testsuiteruns-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Test Suite Runs API
   slug: vellum-subpackage-testsuiteruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-testsuiteruns-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-testsuiteruns-api-openapi.yml
 - filename: vellum-subpackage-testsuites-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Test Suites API
   slug: vellum-subpackage-testsuites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-testsuites-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-testsuites-api-openapi.yml
 - filename: vellum-subpackage-uploadedfiles-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Uploaded Files API
   slug: vellum-subpackage-uploadedfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-uploadedfiles-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-uploadedfiles-api-openapi.yml
 - filename: vellum-subpackage-workflowdeployments-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Workflow Deployments API
   slug: vellum-subpackage-workflowdeployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-workflowdeployments-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-workflowdeployments-api-openapi.yml
 - filename: vellum-subpackage-workflowexecutions-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Workflow Executions API
   slug: vellum-subpackage-workflowexecutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-workflowexecutions-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-workflowexecutions-api-openapi.yml
 - filename: vellum-subpackage-workflows-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Workflows API
   slug: vellum-subpackage-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-workflows-api-openapi.yml
 - filename: vellum-subpackage-workflowsandboxes-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Workflow Sandboxes API
   slug: vellum-subpackage-workflowsandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-workflowsandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-workflowsandboxes-api-openapi.yml
 - filename: vellum-subpackage-workspacesecrets-api-openapi.yml
   format: yaml
   label: Vellum AI Subpackage Workspace Secrets API
   slug: vellum-subpackage-workspacesecrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-subpackage-workspacesecrets-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-subpackage-workspacesecrets-api-openapi.yml
 - filename: vellum-execute-prompt-api-openapi.yml
   format: yaml
   label: Vellum AI Execute Prompt API
   slug: vellum-execute-prompt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-prompt-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-execute-prompt-api-openapi.yml
 - filename: vellum-execute-prompt-stream-api-openapi.yml
   format: yaml
   label: Vellum AI Execute Prompt Stream API
   slug: vellum-execute-prompt-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-prompt-stream-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-execute-prompt-stream-api-openapi.yml
 - filename: vellum-execute-workflow-api-openapi.yml
   format: yaml
   label: Vellum AI Execute Workflow API
   slug: vellum-execute-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-execute-workflow-api-openapi.yml
 - filename: vellum-execute-workflow-async-api-openapi.yml
   format: yaml
   label: Vellum AI Execute Workflow Async API
   slug: vellum-execute-workflow-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-workflow-async-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-execute-workflow-async-api-openapi.yml
 - filename: vellum-execute-workflow-stream-api-openapi.yml
   format: yaml
   label: Vellum AI Execute Workflow Stream API
   slug: vellum-execute-workflow-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-execute-workflow-stream-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-execute-workflow-stream-api-openapi.yml
 - filename: vellum-search-api-openapi.yml
   format: yaml
   label: Vellum AI Search API
   slug: vellum-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-search-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-search-api-openapi.yml
 - filename: vellum-submit-completion-actuals-api-openapi.yml
   format: yaml
   label: Vellum AI Submit Completion Actuals API
   slug: vellum-submit-completion-actuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-submit-completion-actuals-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-submit-completion-actuals-api-openapi.yml
 - filename: vellum-submit-workflow-execution-actuals-api-openapi.yml
   format: yaml
   label: Vellum AI Submit Workflow Execution Actuals API
   slug: vellum-submit-workflow-execution-actuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/openapi/vellum-submit-workflow-execution-actuals-api-openapi.yml
+  url: https://artifacts.apis.io/vellum/openapi/vellum-submit-workflow-execution-actuals-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 29
@@ -207,7 +207,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/vellum
   \ required\n- path: /v1/workflow-deployments/{id}/release-tags\n  method: get\n  operationId: list-workflow-release-tags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflow-deployments/{id}/history/{history_id_or_release_tag}\n  method: get\n  operationId: workflow-deployment-history-item-retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflow-deployments/{id}/execution-events\n  method: get\n  operationId: list-workflow-deployment-event-executions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflow-deployments/{id}/execution-events/{execution_id}\n  method: get\n  operationId: workflow-deployment-event-execution\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflow-executions/{execution_id}/detail\n  method: get\n  operationId: retrieve-workflow-execution-detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflows/executions/{execution_id}/status\n  method: get\n  operationId: workflow-execution-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflow-sandboxes/{id}/deploy\n  method: post\n  operationId: deploy-workflow\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspace-secrets/{id}\n  method: get\n  operationId: retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workspace-secrets/{id}\n  method: patch\n  operationId: partial-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/agentic-access/vellum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vellum/agentic-access/vellum-agentic-access.yml
 summary_line: 59 operations · 30 acting
 tags:
 - LLM Platform

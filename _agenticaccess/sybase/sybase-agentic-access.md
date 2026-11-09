@@ -9,43 +9,43 @@ api_specs:
   label: Sybase Backups API
   slug: sybase-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-backups-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-backups-api-openapi.yml
 - filename: sybase-configuration-api-openapi.yml
   format: yaml
   label: Sybase Configuration API
   slug: sybase-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-configuration-api-openapi.yml
 - filename: sybase-databases-api-openapi.yml
   format: yaml
   label: Sybase Databases API
   slug: sybase-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-databases-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-databases-api-openapi.yml
 - filename: sybase-devices-api-openapi.yml
   format: yaml
   label: Sybase Devices API
   slug: sybase-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-devices-api-openapi.yml
 - filename: sybase-performance-api-openapi.yml
   format: yaml
   label: Sybase Performance API
   slug: sybase-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-performance-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-performance-api-openapi.yml
 - filename: sybase-servers-api-openapi.yml
   format: yaml
   label: Sybase Servers API
   slug: sybase-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-servers-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-servers-api-openapi.yml
 - filename: sybase-users-api-openapi.yml
   format: yaml
   label: Sybase Users API
   slug: sybase-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-users-api-openapi.yml
+  url: https://artifacts.apis.io/sybase/openapi/sybase-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 4
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sybase
   \ 3600\n    audit: none\n- path: /servers/{serverId}/performance\n  method: get\n  operationId: getPerformanceMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers/{serverId}/performance/cache\n  method: get\n  operationId: getCacheMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers/{serverId}/performance/locks\n  method: get\n  operationId: getLockMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers/{serverId}/logins\n  method: get\n  operationId: listLogins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers/{serverId}/logins\n\
   \  method: post\n  operationId: createLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servers/{serverId}/backups\n  method: get\n  operationId: listBackups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers/{serverId}/backups\n  method: post\n  operationId: createBackup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servers/{serverId}/devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers/{serverId}/configuration\n  method: get\n  operationId: getConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers/{serverId}/configuration\n  method: put\n  operationId: updateConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/agentic-access/sybase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sybase/agentic-access/sybase-agentic-access.yml
 summary_line: 16 operations · 4 acting
 tags:
 - Database

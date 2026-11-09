@@ -9,13 +9,13 @@ api_specs:
   label: Nace Ai Health API
   slug: nace-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/nace-ai/openapi/nace-ai-health-api-openapi.yml
 - filename: nace-ai-public-api-api-openapi.yml
   format: yaml
   label: Nace Ai Public API
   slug: nace-ai-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/nace-ai/openapi/nace-ai-public-api-api-openapi.yml
 consequence_counts:
   read: 3
   write: 10
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nace-a
   \ path: /api/v1/ground\n  method: post\n  operationId: ground_sync_api_v1_ground_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/categorize_async\n  method: post\n  operationId: categorize_async_api_v1_categorize_async_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/categorize\n  method: post\n  operationId: categorize_sync_api_v1_categorize_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/extract_async\n  method: post\n  operationId: extract_async_api_v1_extract_async_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/extract\n  method: post\n  operationId: extract_sync_api_v1_extract_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/jobs\n  method: get\n  operationId: list_jobs_api_v1_jobs_get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jobs/{job_id}\n  method: get\n  operationId: get_job_api_v1_jobs__job_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jobs/{job_id}/cancel\n  method: post\n  operationId: cancel_job_api_v1_jobs__job_id__cancel_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/health/load\n  method: get\n  operationId: get_load_probe_api_v1_health_load_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/agentic-access/nace-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nace-ai/agentic-access/nace-ai-agentic-access.yml
 summary_line: 13 operations · 10 acting
 tags:
 - Company

@@ -9,91 +9,91 @@ api_specs:
   label: Moneris 3D Secure API
   slug: moneris-3d-secure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-3d-secure-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-3d-secure-api-openapi.yml
 - filename: moneris-customers-api-openapi.yml
   format: yaml
   label: Moneris Customers API
   slug: moneris-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-customers-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-customers-api-openapi.yml
 - filename: moneris-disputes-api-openapi.yml
   format: yaml
   label: Moneris Disputes API
   slug: moneris-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-disputes-api-openapi.yml
 - filename: moneris-installments-api-openapi.yml
   format: yaml
   label: Moneris Installments API
   slug: moneris-installments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-installments-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-installments-api-openapi.yml
 - filename: moneris-kount-api-openapi.yml
   format: yaml
   label: Moneris Kount API
   slug: moneris-kount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-kount-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-kount-api-openapi.yml
 - filename: moneris-merchant-onboarding-api-openapi.yml
   format: yaml
   label: Moneris Merchant Onboarding API
   slug: moneris-merchant-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-merchant-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-merchant-onboarding-api-openapi.yml
 - filename: moneris-multi-currency-pricing-rate-lookup-api-openapi.yml
   format: yaml
   label: Moneris Multi-Currency Pricing Rate Lookup API
   slug: moneris-multi-currency-pricing-rate-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-multi-currency-pricing-rate-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-multi-currency-pricing-rate-lookup-api-openapi.yml
 - filename: moneris-payment-methods-api-openapi.yml
   format: yaml
   label: Moneris Payment Methods API
   slug: moneris-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-payment-methods-api-openapi.yml
 - filename: moneris-payments-api-openapi.yml
   format: yaml
   label: Moneris Payments API
   slug: moneris-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-payments-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-payments-api-openapi.yml
 - filename: moneris-products-api-openapi.yml
   format: yaml
   label: Moneris Products API
   slug: moneris-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-products-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-products-api-openapi.yml
 - filename: moneris-refunds-api-openapi.yml
   format: yaml
   label: Moneris Refunds API
   slug: moneris-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-refunds-api-openapi.yml
 - filename: moneris-subscriptions-api-openapi.yml
   format: yaml
   label: Moneris Subscriptions API
   slug: moneris-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-subscriptions-api-openapi.yml
 - filename: moneris-surcharge-lookup-api-openapi.yml
   format: yaml
   label: Moneris Surcharge Lookup API
   slug: moneris-surcharge-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-surcharge-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-surcharge-lookup-api-openapi.yml
 - filename: moneris-terminal-service-orders-api-openapi.yml
   format: yaml
   label: Moneris Terminal & Service Orders API
   slug: moneris-terminal-service-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-terminal-service-orders-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-terminal-service-orders-api-openapi.yml
 - filename: moneris-validations-api-openapi.yml
   format: yaml
   label: Moneris Validations API
   slug: moneris-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/openapi/moneris-validations-api-openapi.yml
+  url: https://artifacts.apis.io/moneris/openapi/moneris-validations-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 22
@@ -196,7 +196,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/moneri
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - payment.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /surcharge-lookups\n  method: post\n  operationId: surchargeLookUp\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payment.write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /onboarding/merchants/{merchant-id}/orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - onboarding.order.write\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /onboarding/merchants/{merchant-id}/orders/{merchant-order-id}\n  method: get\n  operationId: getOrderDetailsByOrderId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - onboarding.order.read\n    - onboarding.order.write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /onboarding/merchants/{merchant-id}/orders/{merchant-order-id}\n  method: put\n  operationId: updateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - onboarding.order.write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /validations\n  method: post\n  operationId: createValidation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - payment.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validations\n  method: get\n  operationId: getValidations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payment.read\n    - payment.write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /validations/{validation-id}\n  method: get\n  operationId: getValidation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payment.read\n    - payment.write\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/agentic-access/moneris-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moneris/agentic-access/moneris-agentic-access.yml
 summary_line: 54 operations · 32 acting
 tags:
 - Financial Services

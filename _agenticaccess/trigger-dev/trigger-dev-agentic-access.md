@@ -9,55 +9,55 @@ api_specs:
   label: Trigger.dev Batches API
   slug: trigger-dev-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-batches-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-batches-api-openapi.yml
 - filename: trigger-dev-deployments-api-openapi.yml
   format: yaml
   label: Trigger.dev Deployments API
   slug: trigger-dev-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-deployments-api-openapi.yml
 - filename: trigger-dev-environment-variables-api-openapi.yml
   format: yaml
   label: Trigger.dev Environment Variables API
   slug: trigger-dev-environment-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-environment-variables-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-environment-variables-api-openapi.yml
 - filename: trigger-dev-query-api-openapi.yml
   format: yaml
   label: Trigger.dev Query API
   slug: trigger-dev-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-query-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-query-api-openapi.yml
 - filename: trigger-dev-queues-api-openapi.yml
   format: yaml
   label: Trigger.dev Queues API
   slug: trigger-dev-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-queues-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-queues-api-openapi.yml
 - filename: trigger-dev-runs-api-openapi.yml
   format: yaml
   label: Trigger.dev Runs API
   slug: trigger-dev-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-runs-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-runs-api-openapi.yml
 - filename: trigger-dev-schedules-api-openapi.yml
   format: yaml
   label: Trigger.dev Schedules API
   slug: trigger-dev-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-schedules-api-openapi.yml
 - filename: trigger-dev-tasks-api-openapi.yml
   format: yaml
   label: Trigger.dev Tasks API
   slug: trigger-dev-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-tasks-api-openapi.yml
 - filename: trigger-dev-waitpoints-api-openapi.yml
   format: yaml
   label: Trigger.dev Waitpoints API
   slug: trigger-dev-waitpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/openapi/trigger-dev-waitpoints-api-openapi.yml
+  url: https://artifacts.apis.io/trigger-dev/openapi/trigger-dev-waitpoints-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trigge
   \    audit: required\n- path: /api/v1/batches/{batchId}\n  method: get\n  operationId: getBatchById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/waitpoints\n  method: post\n  operationId: createWaitpointToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/waitpoints/{tokenId}\n  method: get\n  operationId: getWaitpointToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/waitpoints/{tokenId}/complete\n  method: post\n  operationId: completeWaitpointToken\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/waitpoints/tokens\n  method: get\n  operationId: listWaitpointTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/waitpoints/{tokenId}/callback\n  method: post\n  operationId: completeWaitpointTokenCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/query\n  method: post\n  operationId: executeQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/agentic-access/trigger-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trigger-dev/agentic-access/trigger-dev-agentic-access.yml
 summary_line: 44 operations · 26 acting · 2 human-in-the-loop
 tags:
 - Developer-First

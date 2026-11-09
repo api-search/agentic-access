@@ -9,97 +9,97 @@ api_specs:
   label: Nex AI Lists API
   slug: nex-ai-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-ai-lists-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-ai-lists-api-openapi.yml
 - filename: nex-compounding-api-openapi.yml
   format: yaml
   label: Nex Compounding API
   slug: nex-compounding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-compounding-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-compounding-api-openapi.yml
 - filename: nex-context-api-openapi.yml
   format: yaml
   label: Nex Context API
   slug: nex-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-context-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-context-api-openapi.yml
 - filename: nex-graph-api-openapi.yml
   format: yaml
   label: Nex Graph API
   slug: nex-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-graph-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-graph-api-openapi.yml
 - filename: nex-insights-api-openapi.yml
   format: yaml
   label: Nex Insights API
   slug: nex-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-insights-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-insights-api-openapi.yml
 - filename: nex-integrations-api-openapi.yml
   format: yaml
   label: Nex Integrations API
   slug: nex-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-integrations-api-openapi.yml
 - filename: nex-lists-api-openapi.yml
   format: yaml
   label: Nex Lists API
   slug: nex-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-lists-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-lists-api-openapi.yml
 - filename: nex-notes-api-openapi.yml
   format: yaml
   label: Nex Notes API
   slug: nex-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-notes-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-notes-api-openapi.yml
 - filename: nex-notifications-api-openapi.yml
   format: yaml
   label: Nex Notifications API
   slug: nex-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-notifications-api-openapi.yml
 - filename: nex-objects-api-openapi.yml
   format: yaml
   label: Nex Objects API
   slug: nex-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-objects-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-objects-api-openapi.yml
 - filename: nex-records-api-openapi.yml
   format: yaml
   label: Nex Records API
   slug: nex-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-records-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-records-api-openapi.yml
 - filename: nex-relationships-api-openapi.yml
   format: yaml
   label: Nex Relationships API
   slug: nex-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-relationships-api-openapi.yml
 - filename: nex-schema-api-openapi.yml
   format: yaml
   label: Nex Schema API
   slug: nex-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-schema-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-schema-api-openapi.yml
 - filename: nex-search-api-openapi.yml
   format: yaml
   label: Nex Search API
   slug: nex-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-search-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-search-api-openapi.yml
 - filename: nex-tasks-api-openapi.yml
   format: yaml
   label: Nex Tasks API
   slug: nex-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-tasks-api-openapi.yml
 - filename: nex-timeline-api-openapi.yml
   format: yaml
   label: Nex Timeline API
   slug: nex-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/openapi/nex-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/nex/openapi/nex-timeline-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 27
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nex-ai
   \  method: patch\n  operationId: updateAttributeDefinition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/objects/{slug}/attributes/{attr_id}\n  method: delete\n  operationId: deleteAttributeDefinition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/search\n  method: post\n  operationId: searchRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/{task_id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/{task_id}\n  method: patch\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/tasks/{task_id}\n  method: delete\n  operationId: deleteTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/records/{record_id}/timeline\n  method: get\n  operationId: getRecordTimeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/agentic-access/nex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nex/agentic-access/nex-agentic-access.yml
 summary_line: 61 operations · 34 acting
 tags:
 - Company

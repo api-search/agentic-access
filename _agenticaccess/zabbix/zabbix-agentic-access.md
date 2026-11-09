@@ -9,61 +9,61 @@ api_specs:
   label: Zabbix Actions API
   slug: zabbix-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-actions-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-actions-api-openapi.yml
 - filename: zabbix-authentication-api-openapi.yml
   format: yaml
   label: Zabbix Authentication API
   slug: zabbix-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-authentication-api-openapi.yml
 - filename: zabbix-events-api-openapi.yml
   format: yaml
   label: Zabbix Events API
   slug: zabbix-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-events-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-events-api-openapi.yml
 - filename: zabbix-history-api-openapi.yml
   format: yaml
   label: Zabbix History API
   slug: zabbix-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-history-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-history-api-openapi.yml
 - filename: zabbix-host-groups-api-openapi.yml
   format: yaml
   label: Zabbix Host Groups API
   slug: zabbix-host-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-host-groups-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-host-groups-api-openapi.yml
 - filename: zabbix-hosts-api-openapi.yml
   format: yaml
   label: Zabbix Hosts API
   slug: zabbix-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-hosts-api-openapi.yml
 - filename: zabbix-items-api-openapi.yml
   format: yaml
   label: Zabbix Items API
   slug: zabbix-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-items-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-items-api-openapi.yml
 - filename: zabbix-problems-api-openapi.yml
   format: yaml
   label: Zabbix Problems API
   slug: zabbix-problems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-problems-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-problems-api-openapi.yml
 - filename: zabbix-triggers-api-openapi.yml
   format: yaml
   label: Zabbix Triggers API
   slug: zabbix-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-triggers-api-openapi.yml
 - filename: zabbix-users-api-openapi.yml
   format: yaml
   label: Zabbix Users API
   slug: zabbix-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/openapi/zabbix-users-api-openapi.yml
+  url: https://artifacts.apis.io/zabbix/openapi/zabbix-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 11
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zabbix
   \    audit: required\n- path: /host.update\n  method: post\n  operationId: host-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /host.delete\n  method: post\n  operationId: host-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /item.get\n  method: post\n  operationId: item-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /item.create\n  method: post\n  operationId: item-create\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /problem.get\n  method: post\n  operationId: problem-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trigger.get\n  method: post\n  operationId: trigger-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trigger.create\n  method: post\n  operationId: trigger-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /user.get\n  method: post\n  operationId: user-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user.create\n  method: post\n  operationId: user-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/agentic-access/zabbix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zabbix/agentic-access/zabbix-agentic-access.yml
 summary_line: 20 operations · 11 acting
 tags:
 - Monitoring

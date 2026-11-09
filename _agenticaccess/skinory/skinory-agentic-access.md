@@ -8,13 +8,13 @@ api_specs:
   label: Skinory (submitted as g2push) Inventories API
   slug: skinory-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/openapi/skinory-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/skinory/openapi/skinory-inventories-api-openapi.yml
 - filename: skinory-inventory-api-openapi.yml
   format: yaml
   label: Skinory (submitted as g2push) Inventory API
   slug: skinory-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/openapi/skinory-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/skinory/openapi/skinory-inventory-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -40,7 +40,7 @@ source_filename: skinory-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: generated\nsource: openapi/skinory-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    connected: 2\n  by_consequence:\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/inventory\n  method: get\n  operationId: appraiseInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/inventories\n  method: get\n  operationId: batchInventories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/agentic-access/skinory-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/skinory/agentic-access/skinory-agentic-access.yml
 summary_line: 2 operations
 tags:
 - Company

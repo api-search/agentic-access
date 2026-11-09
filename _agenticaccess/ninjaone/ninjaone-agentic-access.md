@@ -9,133 +9,133 @@ api_specs:
   label: NinjaOne Asset Tags API
   slug: ninjaone-asset-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-asset-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-asset-tags-api-openapi.yml
 - filename: ninjaone-backup-api-openapi.yml
   format: yaml
   label: NinjaOne Backup API
   slug: ninjaone-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-backup-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-backup-api-openapi.yml
 - filename: ninjaone-checklist-templates-api-openapi.yml
   format: yaml
   label: NinjaOne Checklist Templates API
   slug: ninjaone-checklist-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-checklist-templates-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-checklist-templates-api-openapi.yml
 - filename: ninjaone-custom-fields-api-openapi.yml
   format: yaml
   label: NinjaOne Custom Fields API
   slug: ninjaone-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-custom-fields-api-openapi.yml
 - filename: ninjaone-custom-tabs-api-openapi.yml
   format: yaml
   label: NinjaOne Custom Tabs API
   slug: ninjaone-custom-tabs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-custom-tabs-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-custom-tabs-api-openapi.yml
 - filename: ninjaone-devices-api-openapi.yml
   format: yaml
   label: NinjaOne Devices API
   slug: ninjaone-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-devices-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-devices-api-openapi.yml
 - filename: ninjaone-document-templates-api-openapi.yml
   format: yaml
   label: NinjaOne Document Templates API
   slug: ninjaone-document-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-document-templates-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-document-templates-api-openapi.yml
 - filename: ninjaone-groups-api-openapi.yml
   format: yaml
   label: NinjaOne Groups API
   slug: ninjaone-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-groups-api-openapi.yml
 - filename: ninjaone-knowledge-base-articles-api-openapi.yml
   format: yaml
   label: NinjaOne Knowledge Base Articles API
   slug: ninjaone-knowledge-base-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-knowledge-base-articles-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-knowledge-base-articles-api-openapi.yml
 - filename: ninjaone-location-api-openapi.yml
   format: yaml
   label: NinjaOne Location API
   slug: ninjaone-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-location-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-location-api-openapi.yml
 - filename: ninjaone-management-api-openapi.yml
   format: yaml
   label: NinjaOne Management API
   slug: ninjaone-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-management-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-management-api-openapi.yml
 - filename: ninjaone-organization-api-openapi.yml
   format: yaml
   label: NinjaOne Organization API
   slug: ninjaone-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-organization-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-organization-api-openapi.yml
 - filename: ninjaone-organization-checklists-api-openapi.yml
   format: yaml
   label: NinjaOne Organization Checklists API
   slug: ninjaone-organization-checklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-organization-checklists-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-organization-checklists-api-openapi.yml
 - filename: ninjaone-organization-documents-api-openapi.yml
   format: yaml
   label: NinjaOne Organization Documents API
   slug: ninjaone-organization-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-organization-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-organization-documents-api-openapi.yml
 - filename: ninjaone-queries-api-openapi.yml
   format: yaml
   label: NinjaOne Queries API
   slug: ninjaone-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-queries-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-queries-api-openapi.yml
 - filename: ninjaone-related-items-api-openapi.yml
   format: yaml
   label: NinjaOne Related Items API
   slug: ninjaone-related-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-related-items-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-related-items-api-openapi.yml
 - filename: ninjaone-system-api-openapi.yml
   format: yaml
   label: NinjaOne System API
   slug: ninjaone-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-system-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-system-api-openapi.yml
 - filename: ninjaone-ticketing-api-openapi.yml
   format: yaml
   label: NinjaOne Ticketing API
   slug: ninjaone-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-ticketing-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-ticketing-api-openapi.yml
 - filename: ninjaone-unmanaged-devices-api-openapi.yml
   format: yaml
   label: NinjaOne Unmanaged Devices API
   slug: ninjaone-unmanaged-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-unmanaged-devices-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-unmanaged-devices-api-openapi.yml
 - filename: ninjaone-users-api-openapi.yml
   format: yaml
   label: NinjaOne Users API
   slug: ninjaone-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-users-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-users-api-openapi.yml
 - filename: ninjaone-vulnerability-management-api-openapi.yml
   format: yaml
   label: NinjaOne Vulnerability Management API
   slug: ninjaone-vulnerability-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-vulnerability-management-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-vulnerability-management-api-openapi.yml
 - filename: ninjaone-webhooks-api-openapi.yml
   format: yaml
   label: NinjaOne Webhooks API
   slug: ninjaone-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/openapi/ninjaone-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ninjaone/openapi/ninjaone-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 130
@@ -244,8 +244,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ninjao
   \  method: post\n  operationId: restoreKnowledgeBaseFolders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/knowledgebase/articles/upload\n  method: post\n  operationId: uploadKnowledgeBaseArticles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/related-items/{relatedItemId}/attachment/download\n  method: get\n  operationId: downloadRelatedItemAttachment\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/related-items/with-entity/{entityType}/{entityId}/attachments/signed-urls\n  method: get\n  operationId: getRelatedItemAttachmentsSignedUrls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/organization/{id}/location/{locationId}/custom-fields\n  method: get\n  operationId: getNodeCustomFields_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/organization/{id}/location/{locationId}/custom-fields\n  method: patch\n  operationId: updateNodeAttributeValues_2\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/contacts\n  method: post\n  operationId: createContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/contact/{id}\n  method: delete\n  operationId: deleteContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/contact/{id}\n  method: patch\n  operationId: updateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/policies/{policy_id}/condition/custom-fields\n  method: get\n  operationId: getCustomFieldsPolicyConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - control\n    - management\n    - monitoring\n\n\n# --- truncated at 32 KB (84 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/agentic-access/ninjaone-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/agentic-access/ninjaone-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/contact/{id}\n  method: patch\n  operationId: updateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - control\n    - management\n    - monitoring\n- path: /v2/policies/{policy_id}/condition/custom-fields\n  method: get\n  operationId: getCustomFieldsPolicyConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - control\n    - management\n    - monitoring\n\n\n# --- truncated at 32 KB (84 KB total) ---\n# Full source: https://artifacts.apis.io/ninjaone/agentic-access/ninjaone-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ninjaone/agentic-access/ninjaone-agentic-access.yml
 summary_line: 244 operations · 114 acting · 6 human-in-the-loop
 tags:
 - Company

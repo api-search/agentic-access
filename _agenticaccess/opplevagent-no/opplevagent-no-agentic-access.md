@@ -9,25 +9,25 @@ api_specs:
   label: Opplevagent A2a API
   slug: opplevagent-no-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/opplevagent-no/openapi/opplevagent-no-a2a-api-openapi.yml
 - filename: opplevagent-no-llms-txt-api-openapi.yml
   format: yaml
   label: Opplevagent Llms.txt API
   slug: opplevagent-no-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/opplevagent-no/openapi/opplevagent-no-llms-txt-api-openapi.yml
 - filename: opplevagent-no-opplevelser-api-openapi.yml
   format: yaml
   label: Opplevagent Opplevelser API
   slug: opplevagent-no-opplevelser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-opplevelser-api-openapi.yml
+  url: https://artifacts.apis.io/opplevagent-no/openapi/opplevagent-no-opplevelser-api-openapi.yml
 - filename: opplevagent-no-well-known-api-openapi.yml
   format: yaml
   label: Opplevagent .well Known API
   slug: opplevagent-no-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/opplevagent-no/openapi/opplevagent-no-well-known-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/opplevagent-no-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 6\n    acting: 1\n  by_consequence:\n    read: 6\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/opplevelser/discover\n  method: get\n  operationId: discoverExperiences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/opplevelser/categories\n  method: get\n  operationId: listExperienceCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/opplevelser/{id}\n  method: get\n  operationId: getExperience\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a\n  method: get\n  operationId: getExperiencesA2ACard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a\n  method: post\n  operationId: experiencesA2AJsonRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /.well-known/agent-card.json\n  method: get\n  operationId: getExperiencesAgentCardWellKnown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /llms.txt\n  method: get\n  operationId: getExperiencesLlmsTxt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/agentic-access/opplevagent-no-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opplevagent-no/agentic-access/opplevagent-no-agentic-access.yml
 summary_line: 7 operations · 1 acting
 tags:
 - Travel

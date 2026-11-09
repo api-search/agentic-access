@@ -9,43 +9,43 @@ api_specs:
   label: Mirage Audio API
   slug: mirage-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-audio-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-audio-api-openapi.yml
 - filename: mirage-health-api-openapi.yml
   format: yaml
   label: Mirage Health API
   slug: mirage-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-health-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-health-api-openapi.yml
 - filename: mirage-internal-api-openapi.yml
   format: yaml
   label: Mirage Internal API
   slug: mirage-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-internal-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-internal-api-openapi.yml
 - filename: mirage-meta-text-overlays-api-openapi.yml
   format: yaml
   label: Mirage Meta Text Overlays API
   slug: mirage-meta-text-overlays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-meta-text-overlays-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-meta-text-overlays-api-openapi.yml
 - filename: mirage-root-api-openapi.yml
   format: yaml
   label: Mirage Root API
   slug: mirage-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-root-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-root-api-openapi.yml
 - filename: mirage-video-captions-api-openapi.yml
   format: yaml
   label: Mirage Video Captions API
   slug: mirage-video-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-video-captions-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-video-captions-api-openapi.yml
 - filename: mirage-videos-api-openapi.yml
   format: yaml
   label: Mirage Videos API
   slug: mirage-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/openapi/mirage-videos-api-openapi.yml
+  url: https://artifacts.apis.io/mirage/openapi/mirage-videos-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 5
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/mirage
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /internal/rate-limits/overrides/{identifier}\n  method: get\n  operationId: get_rate_limit_override_internal_rate_limits_overrides__identifier__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /internal/rate-limits/overrides/{identifier}\n  method: put\n  operationId: update_rate_limit_override_internal_rate_limits_overrides__identifier__put\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /internal/rate-limits/overrides/{identifier}\n  method: delete\n  operationId:\
   \ delete_rate_limit_override_internal_rate_limits_overrides__identifier__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /internal/rate-limits/overrides/{identifier}/invalidate-cache\n  method: post\n  operationId: invalidate_rate_limit_override_cache_internal_rate_limits_overrides__identifier__invalidate_cache_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /\n  method: get\n  operationId: root__get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health_check_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/agentic-access/mirage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mirage/agentic-access/mirage-agentic-access.yml
 summary_line: 23 operations · 11 acting · 5 human-in-the-loop
 tags:
 - Company

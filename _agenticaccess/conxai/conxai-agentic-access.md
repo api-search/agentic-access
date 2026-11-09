@@ -9,103 +9,103 @@ api_specs:
   label: Conxai Annotations API
   slug: conxai-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-annotations-api-openapi.yml
 - filename: conxai-camera-api-openapi.yml
   format: yaml
   label: Conxai Camera API
   slug: conxai-camera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-camera-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-camera-api-openapi.yml
 - filename: conxai-document-types-api-openapi.yml
   format: yaml
   label: Conxai Document Types API
   slug: conxai-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-document-types-api-openapi.yml
 - filename: conxai-documents-api-openapi.yml
   format: yaml
   label: Conxai Documents API
   slug: conxai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-documents-api-openapi.yml
 - filename: conxai-exports-api-openapi.yml
   format: yaml
   label: Conxai Exports API
   slug: conxai-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-exports-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-exports-api-openapi.yml
 - filename: conxai-images-api-openapi.yml
   format: yaml
   label: Conxai Images API
   slug: conxai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-images-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-images-api-openapi.yml
 - filename: conxai-integrations-api-openapi.yml
   format: yaml
   label: Conxai Integrations API
   slug: conxai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-integrations-api-openapi.yml
 - filename: conxai-production-tracking-api-openapi.yml
   format: yaml
   label: Conxai Production Tracking API
   slug: conxai-production-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-production-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-production-tracking-api-openapi.yml
 - filename: conxai-project-api-openapi.yml
   format: yaml
   label: Conxai Project API
   slug: conxai-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-project-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-project-api-openapi.yml
 - filename: conxai-projects-api-openapi.yml
   format: yaml
   label: Conxai Projects API
   slug: conxai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-projects-api-openapi.yml
 - filename: conxai-samples-api-openapi.yml
   format: yaml
   label: Conxai Samples API
   slug: conxai-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-samples-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-samples-api-openapi.yml
 - filename: conxai-schema-api-openapi.yml
   format: yaml
   label: Conxai Schema API
   slug: conxai-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-schema-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-schema-api-openapi.yml
 - filename: conxai-summary-table-api-openapi.yml
   format: yaml
   label: Conxai Summary Table API
   slug: conxai-summary-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-summary-table-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-summary-table-api-openapi.yml
 - filename: conxai-use-cases-api-openapi.yml
   format: yaml
   label: Conxai Use Cases API
   slug: conxai-use-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-use-cases-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-use-cases-api-openapi.yml
 - filename: conxai-users-api-openapi.yml
   format: yaml
   label: Conxai Users API
   slug: conxai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-users-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-users-api-openapi.yml
 - filename: conxai-workflow-api-openapi.yml
   format: yaml
   label: Conxai Workflow API
   slug: conxai-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-workflow-api-openapi.yml
 - filename: conxai-workflow-table-api-openapi.yml
   format: yaml
   label: Conxai Workflow Table API
   slug: conxai-workflow-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/openapi/conxai-workflow-table-api-openapi.yml
+  url: https://artifacts.apis.io/conxai/openapi/conxai-workflow-table-api-openapi.yml
 consequence_counts:
   read: 55
   safety-critical: 2
@@ -178,8 +178,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/conxai
   \  method: get\n  operationId: getProjectsByProjectIdUseCasesByUseCaseIdDocumentTypesByDocumentTypeIdSamplesBySampleIdPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/use-cases/{useCaseId}/document-types/{documentTypeId}/samples/{sampleId}/pages/{pageNum}\n  method: put\n  operationId: putProjectsByProjectIdUseCasesByUseCaseIdDocumentTypesByDocumentTypeIdSamplesBySampleIdPagesByPageNum\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/use-cases/{useCaseId}/document-types/{documentTypeId}/samples/{sampleId}/pages/{pageNum}/draft\n  method: put\n  operationId: putProjectsByProjectIdUseCasesByUseCaseIdDocumentTypesByDocumentTypeIdSamplesBySampleIdPagesByPageNumDraft\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/use-cases/{useCaseId}/document-types/{documentTypeId}/samples/{sampleId}/pdf-with-markups\n  method: get\n  operationId: getProjectsByProjectIdUseCasesByUseCaseIdDocumentTypesByDocumentTypeIdSamplesBySampleIdPdfWithMarkups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/use-cases/{useCaseId}/document-types/{documentTypeId}/samples/{sampleId}/process\n  method: post\n  operationId: postProjectsByProjectIdUseCasesByUseCaseIdDocumentTypesByDocumentTypeIdSamplesBySampleIdProcess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/use-cases/{useCaseId}/document-types/{documentTypeId}/samples/{sampleId}/status\n  method: get\n  operationId: getProjectsByProjectIdUseCasesByUseCaseIdDocumentTypesByDocumentTypeIdSamplesBySampleIdStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/use-cases/{useCaseId}/schemas/{schema}/version/{version}\n  method: get\n  operationId: getProjectsByProjectIdUseCasesByUseCaseIdSchemasBySchemaVersionByVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/use-cases/{useCaseId}/summary-table\n  method: put\n  operationId:\
-  \ putProjectsByProjectIdUseCasesByUseCaseIdSummaryTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/agentic-access/conxai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/agentic-access/conxai-agentic-access.yml
+  \ putProjectsByProjectIdUseCasesByUseCaseIdSummaryTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/conxai/agentic-access/conxai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/conxai/agentic-access/conxai-agentic-access.yml
 summary_line: 114 operations · 59 acting · 2 human-in-the-loop
 tags:
 - Company

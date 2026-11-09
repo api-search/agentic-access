@@ -9,49 +9,49 @@ api_specs:
   label: Kling AI Account API
   slug: kling-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-account-api-openapi.yml
 - filename: kling-ai-image-generation-api-openapi.yml
   format: yaml
   label: Kling AI Image Generation API
   slug: kling-ai-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-image-generation-api-openapi.yml
 - filename: kling-ai-image-to-video-api-openapi.yml
   format: yaml
   label: Kling AI Image-to-Video API
   slug: kling-ai-image-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-image-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-image-to-video-api-openapi.yml
 - filename: kling-ai-lip-sync-api-openapi.yml
   format: yaml
   label: Kling AI Lip-Sync API
   slug: kling-ai-lip-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-lip-sync-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-lip-sync-api-openapi.yml
 - filename: kling-ai-text-to-video-api-openapi.yml
   format: yaml
   label: Kling AI Text-to-Video API
   slug: kling-ai-text-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-text-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-text-to-video-api-openapi.yml
 - filename: kling-ai-video-effects-api-openapi.yml
   format: yaml
   label: Kling AI Video Effects API
   slug: kling-ai-video-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-video-effects-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-video-effects-api-openapi.yml
 - filename: kling-ai-video-extension-api-openapi.yml
   format: yaml
   label: Kling AI Video Extension API
   slug: kling-ai-video-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-video-extension-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-video-extension-api-openapi.yml
 - filename: kling-ai-virtual-try-on-api-openapi.yml
   format: yaml
   label: Kling AI Virtual Try-On API
   slug: kling-ai-virtual-try-on-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/openapi/kling-ai-virtual-try-on-api-openapi.yml
+  url: https://artifacts.apis.io/kling-ai/openapi/kling-ai-virtual-try-on-api-openapi.yml
 consequence_counts:
   read: 9
   write: 8
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kling-
   \ createLipSyncTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos/lip-sync/{task_id}\n  method: get\n  operationId: getLipSyncTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/videos/effects\n  method: post\n  operationId: createVideoEffectsTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos/effects/{task_id}\n  method: get\n  operationId: getVideoEffectsTask\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/images/generations\n  method: post\n  operationId: createImageGenerationTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/generations/{task_id}\n  method: get\n  operationId: getImageGenerationTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/images/kolors-virtual-try-on\n  method: post\n  operationId: createVirtualTryOnTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/kolors-virtual-try-on/{task_id}\n  method: get\n  operationId: getVirtualTryOnTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/costs\n  method: get\n  operationId: getAccountResourcePacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/agentic-access/kling-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kling-ai/agentic-access/kling-ai-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
 - Video Generation

@@ -8,25 +8,25 @@ api_specs:
   label: University of Cambridge Group API
   slug: university-of-cambridge-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-group-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-group-api-openapi.yml
 - filename: university-of-cambridge-ibis-api-openapi.yml
   format: yaml
   label: University of Cambridge Ibis API
   slug: university-of-cambridge-ibis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-ibis-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-ibis-api-openapi.yml
 - filename: university-of-cambridge-institution-api-openapi.yml
   format: yaml
   label: University of Cambridge Institution API
   slug: university-of-cambridge-institution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-institution-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-institution-api-openapi.yml
 - filename: university-of-cambridge-person-api-openapi.yml
   format: yaml
   label: University of Cambridge Person API
   slug: university-of-cambridge-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/openapi/university-of-cambridge-person-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-cambridge/openapi/university-of-cambridge-person-api-openapi.yml
 consequence_counts:
   read: 39
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/univer
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/{scheme}/{identifier}\n  method: get\n  operationId: Person_getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/{scheme}/{identifier}/get-attributes\n  method: get\n  operationId: Person_getAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/{scheme}/{identifier}/groups\n  method: get\n  operationId: Person_getGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/{scheme}/{identifier}/insts\n  method: get\n  operationId: Person_getInsts\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/{scheme}/{identifier}/is-member-of-group/{groupid}\n  method: get\n  operationId: Person_isMemberOfGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/{scheme}/{identifier}/is-member-of-inst/{instid}\n  method: get\n  operationId: Person_isMemberOfInst\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/{scheme}/{identifier}/manages-groups\n  method: get\n  operationId: Person_getManagedGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/{scheme}/{identifier}/manages-insts\n  method: get\n  operationId: Person_getManagedInsts\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/{scheme}/{identifier}/{attrid}\n  method: get\n  operationId: Person_getAttribute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: Ibis_getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/agentic-access/university-of-cambridge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/university-of-cambridge/agentic-access/university-of-cambridge-agentic-access.yml
 summary_line: 39 operations
 tags:
 - Education

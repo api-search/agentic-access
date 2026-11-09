@@ -61,8 +61,8 @@ source_yaml_url: https://artifacts.apis.io/accsly-io/agentic-access/accsly-io-ag
 summary_line: 14 operations · 1 acting
 tags:
 - Marketplace
-- Accounts
+- Account
 - Gaming
 - AI Tools
-- E-commerce
+- E-Commerce
 ---

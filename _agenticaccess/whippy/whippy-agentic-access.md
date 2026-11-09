@@ -9,43 +9,43 @@ api_specs:
   label: Whippy Campaigns API
   slug: whippy-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/whippy/openapi/whippy-campaigns-api-openapi.yml
 - filename: whippy-channels-api-openapi.yml
   format: yaml
   label: Whippy Channels API
   slug: whippy-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-channels-api-openapi.yml
+  url: https://artifacts.apis.io/whippy/openapi/whippy-channels-api-openapi.yml
 - filename: whippy-contacts-api-openapi.yml
   format: yaml
   label: Whippy Contacts API
   slug: whippy-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/whippy/openapi/whippy-contacts-api-openapi.yml
 - filename: whippy-conversations-api-openapi.yml
   format: yaml
   label: Whippy Conversations API
   slug: whippy-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/whippy/openapi/whippy-conversations-api-openapi.yml
 - filename: whippy-messaging-api-openapi.yml
   format: yaml
   label: Whippy Messaging API
   slug: whippy-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/whippy/openapi/whippy-messaging-api-openapi.yml
 - filename: whippy-sequences-api-openapi.yml
   format: yaml
   label: Whippy Sequences API
   slug: whippy-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/whippy/openapi/whippy-sequences-api-openapi.yml
 - filename: whippy-webhooks-api-openapi.yml
   format: yaml
   label: Whippy Webhooks API
   slug: whippy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/openapi/whippy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/whippy/openapi/whippy-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 18
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/whippy
   \   audit: required\n- path: /messaging/sms/campaign\n  method: post\n  operationId: sendCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sequences\n  method: get\n  operationId: getSequences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences/{id}\n  method: get\n  operationId: getSequence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences/{id}/contacts\n  method: get\n  operationId: getSequenceContacts\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences/{id}/contacts\n  method: post\n  operationId: createSequenceContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sequences/{id}/contacts\n  method: delete\n  operationId: removeSequenceContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sequences/runs\n  method: get\n  operationId: getSequenceRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /custom_events\n  method: post\n  operationId: createCustomEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom_events/bulk\n  method: post\n  operationId: createBulkCustomEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/agentic-access/whippy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/whippy/agentic-access/whippy-agentic-access.yml
 summary_line: 34 operations · 16 acting
 tags:
 - Communications

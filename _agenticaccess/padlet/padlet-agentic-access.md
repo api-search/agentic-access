@@ -9,43 +9,43 @@ api_specs:
   label: Padlet AI Recipe Boards API
   slug: padlet-ai-recipe-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-ai-recipe-boards-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-ai-recipe-boards-api-openapi.yml
 - filename: padlet-boards-api-openapi.yml
   format: yaml
   label: Padlet Boards API
   slug: padlet-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-boards-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-boards-api-openapi.yml
 - filename: padlet-comments-api-openapi.yml
   format: yaml
   label: Padlet Comments API
   slug: padlet-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-comments-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-comments-api-openapi.yml
 - filename: padlet-organizations-api-openapi.yml
   format: yaml
   label: Padlet Organizations API
   slug: padlet-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-organizations-api-openapi.yml
 - filename: padlet-posts-api-openapi.yml
   format: yaml
   label: Padlet Posts API
   slug: padlet-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-posts-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-posts-api-openapi.yml
 - filename: padlet-reactions-api-openapi.yml
   format: yaml
   label: Padlet Reactions API
   slug: padlet-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-reactions-api-openapi.yml
 - filename: padlet-users-api-openapi.yml
   format: yaml
   label: Padlet Users API
   slug: padlet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/openapi/padlet-users-api-openapi.yml
+  url: https://artifacts.apis.io/padlet/openapi/padlet-users-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/padlet
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /posts/{post_hashid}/comments\n  method: post\n  operationId: create-comment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /posts/{post_id}/reactions\n  method: post\n  operationId: create-reaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me\n  method: get\n  operationId: get-current-user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /organizations/{org_id}\n  method: get\n  operationId: get-organization-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org_id}/users/{user_id}\n  method: get\n  operationId: get-user-info-in-org\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai-recipe-boards\n  method: post\n  operationId: create-ai-recipe-board\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ai-recipe-boards/status/{status_key}\n  method: get\n  operationId: get-ai-recipe-board-status\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /posts/{post_id}/attachmentData\n  method: get\n  operationId: get-post-attachment-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/agentic-access/padlet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/padlet/agentic-access/padlet-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Collaboration

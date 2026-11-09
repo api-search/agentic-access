@@ -9,43 +9,43 @@ api_specs:
   label: Signaturely Documents API
   slug: signaturely-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-documents-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-documents-api-openapi.yml
 - filename: signaturely-folders-api-openapi.yml
   format: yaml
   label: Signaturely Folders API
   slug: signaturely-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-folders-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-folders-api-openapi.yml
 - filename: signaturely-signature-requests-api-openapi.yml
   format: yaml
   label: Signaturely Signature Requests API
   slug: signaturely-signature-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-signature-requests-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-signature-requests-api-openapi.yml
 - filename: signaturely-team-api-openapi.yml
   format: yaml
   label: Signaturely Team API
   slug: signaturely-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-team-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-team-api-openapi.yml
 - filename: signaturely-templates-api-openapi.yml
   format: yaml
   label: Signaturely Templates API
   slug: signaturely-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-templates-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-templates-api-openapi.yml
 - filename: signaturely-user-api-openapi.yml
   format: yaml
   label: Signaturely User API
   slug: signaturely-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-user-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-user-api-openapi.yml
 - filename: signaturely-webhooks-api-openapi.yml
   format: yaml
   label: Signaturely Webhooks API
   slug: signaturely-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/openapi/signaturely-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/signaturely/openapi/signaturely-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/signat
   \ high-value\n    audit: required\n- path: /teams/members\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/members/role\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /add-teammates/with-role\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /remove-teammates/email\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hooks/subscribe\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hooks/unsubscribe\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/by-api\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/agentic-access/signaturely-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/signaturely/agentic-access/signaturely-agentic-access.yml
 summary_line: 27 operations · 15 acting
 tags:
 - E-Signature

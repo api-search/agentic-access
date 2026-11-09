@@ -9,7 +9,7 @@ api_specs:
   label: Centrapay Payment Requests API
   slug: centrapay-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/openapi/centrapay-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/centrapay/openapi/centrapay-payment-requests-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 8
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/centra
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/payment-requests/{paymentRequestId}/confirm\n  method: post\n  operationId: confirmPaymentRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/payment-activities\n  method: get\n  operationId: listPaymentActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/payment-requests/{paymentRequestId}/activities\n  method: get\n  operationId: listPaymentRequestActivities\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/payment-requests/{paymentRequestId}/conditions/{conditionId}/accept\n  method: post\n  operationId: acceptPaymentCondition\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/payment-requests/{paymentRequestId}/conditions/{conditionId}/decline\n  method: post\n  operationId: declinePaymentCondition\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/agentic-access/centrapay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/centrapay/agentic-access/centrapay-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Company

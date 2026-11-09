@@ -9,31 +9,31 @@ api_specs:
   label: OpenStatus Check API
   slug: openstatus-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-check-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-check-api-openapi.yml
 - filename: openstatus-incident-api-openapi.yml
   format: yaml
   label: OpenStatus Incident API
   slug: openstatus-incident-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-incident-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-incident-api-openapi.yml
 - filename: openstatus-monitor-api-openapi.yml
   format: yaml
   label: OpenStatus Monitor API
   slug: openstatus-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-monitor-api-openapi.yml
 - filename: openstatus-page-api-openapi.yml
   format: yaml
   label: OpenStatus Page API
   slug: openstatus-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-page-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-page-api-openapi.yml
 - filename: openstatus-status-report-api-openapi.yml
   format: yaml
   label: OpenStatus Status Report API
   slug: openstatus-status-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-status-report-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-status-report-api-openapi.yml
 consequence_counts:
   read: 10
   write: 12
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openst
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status_report/{id}\n  method: delete\n  operationId: deleteStatusReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /status_report_update\n  method: post\n  operationId: createStatusReportUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /page\n  method: get\n  operationId: getAllPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /page\n  method: post\n  operationId: createPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /page/{id}\n  method: get\n  operationId: getPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /page/{id}\n  method: put\n  operationId: updatePage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /page_subscriber\n  method: post\n  operationId: createPageSubscriber\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /check\n  method: post\n  operationId: createCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /whoami\n  method: get\n  operationId: getWhoami\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/agentic-access/openstatus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openstatus/agentic-access/openstatus-agentic-access.yml
 summary_line: 22 operations · 12 acting
 tags:
 - Monitoring

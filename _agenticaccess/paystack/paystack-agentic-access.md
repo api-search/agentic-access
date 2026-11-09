@@ -9,127 +9,127 @@ api_specs:
   label: Paystack Webhooks
   slug: paystack-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/asyncapi/paystack-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/paystack/asyncapi/paystack-webhooks-asyncapi.yml
 - filename: paystack-balance-api-openapi.yml
   format: yaml
   label: Paystack Balance API
   slug: paystack-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-balance-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-balance-api-openapi.yml
 - filename: paystack-bulk-charge-api-openapi.yml
   format: yaml
   label: Paystack Bulk Charge API
   slug: paystack-bulk-charge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-bulk-charge-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-bulk-charge-api-openapi.yml
 - filename: paystack-charge-api-openapi.yml
   format: yaml
   label: Paystack Charge API
   slug: paystack-charge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-charge-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-charge-api-openapi.yml
 - filename: paystack-customer-api-openapi.yml
   format: yaml
   label: Paystack Customer API
   slug: paystack-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-customer-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-customer-api-openapi.yml
 - filename: paystack-dedicated-virtual-account-api-openapi.yml
   format: yaml
   label: Paystack Dedicated Virtual Account API
   slug: paystack-dedicated-virtual-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-dedicated-virtual-account-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-dedicated-virtual-account-api-openapi.yml
 - filename: paystack-dispute-api-openapi.yml
   format: yaml
   label: Paystack Dispute API
   slug: paystack-dispute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-dispute-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-dispute-api-openapi.yml
 - filename: paystack-integration-api-openapi.yml
   format: yaml
   label: Paystack Integration API
   slug: paystack-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-integration-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-integration-api-openapi.yml
 - filename: paystack-page-api-openapi.yml
   format: yaml
   label: Paystack Page API
   slug: paystack-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-page-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-page-api-openapi.yml
 - filename: paystack-payment-request-api-openapi.yml
   format: yaml
   label: Paystack Payment Request API
   slug: paystack-payment-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-payment-request-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-payment-request-api-openapi.yml
 - filename: paystack-plan-api-openapi.yml
   format: yaml
   label: Paystack Plan API
   slug: paystack-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-plan-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-plan-api-openapi.yml
 - filename: paystack-product-api-openapi.yml
   format: yaml
   label: Paystack Product API
   slug: paystack-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-product-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-product-api-openapi.yml
 - filename: paystack-refund-api-openapi.yml
   format: yaml
   label: Paystack Refund API
   slug: paystack-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-refund-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-refund-api-openapi.yml
 - filename: paystack-settlement-api-openapi.yml
   format: yaml
   label: Paystack Settlement API
   slug: paystack-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-settlement-api-openapi.yml
 - filename: paystack-split-api-openapi.yml
   format: yaml
   label: Paystack Split API
   slug: paystack-split-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-split-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-split-api-openapi.yml
 - filename: paystack-subscription-api-openapi.yml
   format: yaml
   label: Paystack Subscription API
   slug: paystack-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-subscription-api-openapi.yml
 - filename: paystack-transaction-api-openapi.yml
   format: yaml
   label: Paystack Transaction API
   slug: paystack-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-transaction-api-openapi.yml
 - filename: paystack-transfer-api-openapi.yml
   format: yaml
   label: Paystack Transfer API
   slug: paystack-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-transfer-api-openapi.yml
 - filename: paystack-transfer-recipient-api-openapi.yml
   format: yaml
   label: Paystack Transfer Recipient API
   slug: paystack-transfer-recipient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-transfer-recipient-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-transfer-recipient-api-openapi.yml
 - filename: paystack-verification-api-openapi.yml
   format: yaml
   label: Paystack Verification API
   slug: paystack-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-verification-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-verification-api-openapi.yml
 - filename: paystack-sub-account-api-openapi.yml
   format: yaml
   label: Paystack Sub Account API
   slug: paystack-sub-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/openapi/paystack-sub-account-api-openapi.yml
+  url: https://artifacts.apis.io/paystack/openapi/paystack-sub-account-api-openapi.yml
 consequence_counts:
   physical: 25
   read: 60
@@ -318,8 +318,8 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/paysta
   \ transaction_session\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfer\n  method: post\n  operationId: transfer_initiate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfer\n  method: get\n  operationId: transfer_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfer/finalize_transfer\n  method: post\n  operationId: transfer_finalize\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfer/bulk\n  method: post\n  operationId: transfer_bulk\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfer/{code}\n  method: get\n  operationId: transfer_fetch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfer/verify/{reference}\n  method: get\n  operationId: transfer_verify\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfer/export\n  method: get\n  operationId: transfer_download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfer/resend_otp\n  method: post\n  operationId: transfer_resendOtp\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfer/disable_otp\n  method: post\n  operationId: transfer_disableOtp\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
-  \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /transfer/disable_otp_finalize\n  method: post\n  operationId: transfer_disableOtpFinalize\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /transfer/enable_otp\n  method: post\n  operationId: transfer_enableOtp\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/agentic-access/paystack-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/agentic-access/paystack-agentic-access.yml
+  \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /transfer/disable_otp_finalize\n  method: post\n  operationId: transfer_disableOtpFinalize\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /transfer/enable_otp\n  method: post\n  operationId: transfer_enableOtp\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/paystack/agentic-access/paystack-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/paystack/agentic-access/paystack-agentic-access.yml
 summary_line: 120 operations · 60 acting · 3 human-in-the-loop
 tags:
 - Payments

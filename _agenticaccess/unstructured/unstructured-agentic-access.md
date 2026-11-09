@@ -9,55 +9,55 @@ api_specs:
   label: Unstructured Channels API
   slug: unstructured-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-channels-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-channels-api-openapi.yml
 - filename: unstructured-destinations-api-openapi.yml
   format: yaml
   label: Unstructured Destinations API
   slug: unstructured-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-destinations-api-openapi.yml
 - filename: unstructured-general-api-openapi.yml
   format: yaml
   label: Unstructured General API
   slug: unstructured-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-general-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-general-api-openapi.yml
 - filename: unstructured-jobs-api-openapi.yml
   format: yaml
   label: Unstructured Jobs API
   slug: unstructured-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-jobs-api-openapi.yml
 - filename: unstructured-notifications-api-openapi.yml
   format: yaml
   label: Unstructured Notifications API
   slug: unstructured-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-notifications-api-openapi.yml
 - filename: unstructured-sources-api-openapi.yml
   format: yaml
   label: Unstructured Sources API
   slug: unstructured-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-sources-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-sources-api-openapi.yml
 - filename: unstructured-templates-api-openapi.yml
   format: yaml
   label: Unstructured Templates API
   slug: unstructured-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-templates-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-templates-api-openapi.yml
 - filename: unstructured-workflow-channels-api-openapi.yml
   format: yaml
   label: Unstructured Workflow Channels API
   slug: unstructured-workflow-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-workflow-channels-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-workflow-channels-api-openapi.yml
 - filename: unstructured-workflows-api-openapi.yml
   format: yaml
   label: Unstructured Workflows API
   slug: unstructured-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/openapi/unstructured-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/unstructured/openapi/unstructured-workflows-api-openapi.yml
 consequence_counts:
   read: 22
   write: 24
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unstru
   \ operationId: list_workflow_channels_api_v1_workflows__workflow_id__notifications_channels_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workflows/{workflow_id}/notifications/channels\n  method: post\n  operationId: create_workflow_channel_api_v1_workflows__workflow_id__notifications_channels_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workflows/{workflow_id}/notifications/channels/{channel_id}\n  method: get\n  operationId: get_workflow_channel_api_v1_workflows__workflow_id__notifications_channels__channel_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v1/workflows/{workflow_id}/notifications/channels/{channel_id}\n  method: patch\n  operationId: update_workflow_channel_api_v1_workflows__workflow_id__notifications_channels__channel_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workflows/{workflow_id}/notifications/channels/{channel_id}\n  method: delete\n  operationId: delete_workflow_channel_api_v1_workflows__workflow_id__notifications_channels__channel_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/v1/workflows/{workflow_id}/notifications/channels/{channel_id}/verify\n  method: post\n  operationId: verify_workflow_channel_api_v1_workflows__workflow_id__notifications_channels__channel_id__verify_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/agentic-access/unstructured-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unstructured/agentic-access/unstructured-agentic-access.yml
 summary_line: 46 operations · 24 acting
 tags:
 - Document Processing

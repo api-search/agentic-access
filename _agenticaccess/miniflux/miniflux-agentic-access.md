@@ -9,115 +9,115 @@ api_specs:
   label: Miniflux Api Keys API
   slug: miniflux-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-api-keys-api-openapi.yml
 - filename: miniflux-categories-api-openapi.yml
   format: yaml
   label: Miniflux Categories API
   slug: miniflux-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-categories-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-categories-api-openapi.yml
 - filename: miniflux-enclosures-api-openapi.yml
   format: yaml
   label: Miniflux Enclosures API
   slug: miniflux-enclosures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-enclosures-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-enclosures-api-openapi.yml
 - filename: miniflux-entries-api-openapi.yml
   format: yaml
   label: Miniflux Entries API
   slug: miniflux-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-entries-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-entries-api-openapi.yml
 - filename: miniflux-export-api-openapi.yml
   format: yaml
   label: Miniflux Export API
   slug: miniflux-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-export-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-export-api-openapi.yml
 - filename: miniflux-feeds-api-openapi.yml
   format: yaml
   label: Miniflux Feeds API
   slug: miniflux-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-feeds-api-openapi.yml
 - filename: miniflux-import-api-openapi.yml
   format: yaml
   label: Miniflux Import API
   slug: miniflux-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-import-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-import-api-openapi.yml
 - filename: miniflux-integrations-api-openapi.yml
   format: yaml
   label: Miniflux Integrations API
   slug: miniflux-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-integrations-api-openapi.yml
 - filename: miniflux-liveness-api-openapi.yml
   format: yaml
   label: Miniflux Liveness API
   slug: miniflux-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-liveness-api-openapi.yml
 - filename: miniflux-me-api-openapi.yml
   format: yaml
   label: Miniflux Me API
   slug: miniflux-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-me-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-me-api-openapi.yml
 - filename: miniflux-readiness-api-openapi.yml
   format: yaml
   label: Miniflux Readiness API
   slug: miniflux-readiness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-readiness-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-readiness-api-openapi.yml
 - filename: miniflux-users-api-openapi.yml
   format: yaml
   label: Miniflux Users API
   slug: miniflux-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-users-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-users-api-openapi.yml
 - filename: miniflux-version-api-openapi.yml
   format: yaml
   label: Miniflux Version API
   slug: miniflux-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-version-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-version-api-openapi.yml
 - filename: miniflux-discover-api-openapi.yml
   format: yaml
   label: Miniflux Discover API
   slug: miniflux-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-discover-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-discover-api-openapi.yml
 - filename: miniflux-flush-history-api-openapi.yml
   format: yaml
   label: Miniflux Flush History API
   slug: miniflux-flush-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-flush-history-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-flush-history-api-openapi.yml
 - filename: miniflux-healthz-api-openapi.yml
   format: yaml
   label: Miniflux Healthz API
   slug: miniflux-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-healthz-api-openapi.yml
 - filename: miniflux-icons-api-openapi.yml
   format: yaml
   label: Miniflux Icons API
   slug: miniflux-icons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-icons-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-icons-api-openapi.yml
 - filename: miniflux-readyz-api-openapi.yml
   format: yaml
   label: Miniflux Readyz API
   slug: miniflux-readyz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-readyz-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-readyz-api-openapi.yml
 - filename: miniflux-health-check-api-openapi.yml
   format: yaml
   label: Miniflux Health Check API
   slug: miniflux-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/openapi/miniflux-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/miniflux/openapi/miniflux-health-check-api-openapi.yml
 consequence_counts:
   read: 22
   write: 20
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/minifl
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users\n  method: get\n  operationId: get_v1_users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users\n  method: post\n  operationId: post_v1_users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/123/mark-all-as-read\n  method: put\n  operationId: put_v1_users_123_mark_all_as_read\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/270\n  method: delete\n  operationId: delete_v1_users_270\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/270\n  method: get\n  operationId: get_v1_users_270\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/270\n  method: put\n  operationId: put_v1_users_270\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/foobar\n\
   \  method: get\n  operationId: get_v1_users_foobar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/version\n  method: get\n  operationId: get_v1_version\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: get_version\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/heads/main/agentic-access/miniflux-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/miniflux/agentic-access/miniflux-agentic-access.yml
 summary_line: 42 operations · 20 acting
 tags:
 - Feed Reader

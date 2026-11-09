@@ -9,139 +9,139 @@ api_specs:
   label: Airtm Account Status API
   slug: airtm-account-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-account-status-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-account-status-api-openapi.yml
 - filename: airtm-bulk-payments-api-openapi.yml
   format: yaml
   label: Airtm Bulk Payments API
   slug: airtm-bulk-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-bulk-payments-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-bulk-payments-api-openapi.yml
 - filename: airtm-bulk-payouts-api-openapi.yml
   format: yaml
   label: Airtm Bulk Payouts API
   slug: airtm-bulk-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-bulk-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-bulk-payouts-api-openapi.yml
 - filename: airtm-deposits-api-openapi.yml
   format: yaml
   label: Airtm Deposits API
   slug: airtm-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-deposits-api-openapi.yml
 - filename: airtm-embedded-catalog-api-openapi.yml
   format: yaml
   label: Airtm Embedded Catalog API
   slug: airtm-embedded-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-catalog-api-openapi.yml
 - filename: airtm-embedded-quotes-api-openapi.yml
   format: yaml
   label: Airtm Embedded Quotes API
   slug: airtm-embedded-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-quotes-api-openapi.yml
 - filename: airtm-embedded-receivers-api-openapi.yml
   format: yaml
   label: Airtm Embedded Receivers API
   slug: airtm-embedded-receivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-receivers-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-receivers-api-openapi.yml
 - filename: airtm-embedded-senders-api-openapi.yml
   format: yaml
   label: Airtm Embedded Senders API
   slug: airtm-embedded-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-senders-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-senders-api-openapi.yml
 - filename: airtm-embedded-transactions-api-openapi.yml
   format: yaml
   label: Airtm Embedded Transactions API
   slug: airtm-embedded-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-embedded-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-embedded-transactions-api-openapi.yml
 - filename: airtm-external-bank-account-api-openapi.yml
   format: yaml
   label: Airtm External Bank Account API
   slug: airtm-external-bank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-external-bank-account-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-external-bank-account-api-openapi.yml
 - filename: airtm-external-crypto-account-api-openapi.yml
   format: yaml
   label: Airtm External Crypto Account API
   slug: airtm-external-crypto-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-external-crypto-account-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-external-crypto-account-api-openapi.yml
 - filename: airtm-me-api-openapi.yml
   format: yaml
   label: Airtm Me API
   slug: airtm-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-me-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-me-api-openapi.yml
 - filename: airtm-operations-api-openapi.yml
   format: yaml
   label: Airtm Operations API
   slug: airtm-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-operations-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-operations-api-openapi.yml
 - filename: airtm-partner-api-openapi.yml
   format: yaml
   label: Airtm Partner API
   slug: airtm-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-partner-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-partner-api-openapi.yml
 - filename: airtm-payins-api-openapi.yml
   format: yaml
   label: Airtm Payins API
   slug: airtm-payins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-payins-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-payins-api-openapi.yml
 - filename: airtm-payments-payouts-api-openapi.yml
   format: yaml
   label: Airtm Payments / Payouts API
   slug: airtm-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-payments-payouts-api-openapi.yml
 - filename: airtm-payouts-api-openapi.yml
   format: yaml
   label: Airtm Payouts API
   slug: airtm-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-payouts-api-openapi.yml
 - filename: airtm-purchases-payins-api-openapi.yml
   format: yaml
   label: Airtm Purchases / Payins API
   slug: airtm-purchases-payins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-purchases-payins-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-purchases-payins-api-openapi.yml
 - filename: airtm-reports-api-openapi.yml
   format: yaml
   label: Airtm Reports API
   slug: airtm-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-reports-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-reports-api-openapi.yml
 - filename: airtm-users-api-openapi.yml
   format: yaml
   label: Airtm Users API
   slug: airtm-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-users-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-users-api-openapi.yml
 - filename: airtm-webhooks-api-openapi.yml
   format: yaml
   label: Airtm Webhooks API
   slug: airtm-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-webhooks-api-openapi.yml
 - filename: airtm-withdrawals-api-openapi.yml
   format: yaml
   label: Airtm Withdrawals API
   slug: airtm-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-withdrawals-api-openapi.yml
 - filename: airtm-api-keys-api-openapi.yml
   format: yaml
   label: Airtm API Keys API
   slug: airtm-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/airtm/openapi/airtm-api-keys-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 41
@@ -278,7 +278,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/airtm-
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /embedded/catalog\n  method: get\n  operationId: ListCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deposits\n  method: get\n  operationId: ListDeposits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deposits/{id}\n  method: get\n  operationId: GetDeposit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk-payouts\n  method: post\n  operationId: CreateBulkPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n \
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bulk-payouts\n  method: get\n  operationId: ListBulkPayouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk-payouts/{id}\n  method: get\n  operationId: GetBulkPayout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys\n  method: post\n  operationId: CreateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /api-keys\n  method: get\n  operationId: ListApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys/{id}\n  method: delete\n  operationId: RevokeApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api-keys/{id}/allowed-ips\n  method: post\n  operationId: ToggleAllowedIp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/agentic-access/airtm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airtm/agentic-access/airtm-agentic-access.yml
 summary_line: 69 operations · 28 acting · 1 human-in-the-loop
 tags:
 - Payments
@@ -294,5 +294,6 @@ tags:
 - Latin America
 - Emerging Markets
 - money-services-business
+- OAuth
 - Authentication
 ---

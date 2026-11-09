@@ -9,103 +9,103 @@ api_specs:
   label: Predictive Oncology Model and Data Clearinghouse Asset Details Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-asset-details-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-asset-details-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-asset-details-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-delete-collection-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Delete Collection Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-delete-collection-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-delete-collection-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-delete-collection-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-delete-data-file-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Delete Data File Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-delete-data-file-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-delete-data-file-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-delete-data-file-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-delete-predictions-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Delete Predictions Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-delete-predictions-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-delete-predictions-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-delete-predictions-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-doe-collection-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Doe Collection Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-doe-collection-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-doe-collection-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-doe-collection-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-doe-create-bulk-datafile-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Doe Create Bulk Datafile Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-doe-create-bulk-datafile-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-doe-create-bulk-datafile-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-doe-create-bulk-datafile-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-doe-create-collection-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Doe Create Collection Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-doe-create-collection-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-doe-create-collection-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-doe-create-collection-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-doe-create-datafile-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Doe Create Datafile Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-doe-create-datafile-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-doe-create-datafile-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-doe-create-datafile-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-doe-download-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Doe Download Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-doe-download-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-doe-download-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-doe-download-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-doe-download-files-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Doe Download Files Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-doe-download-files-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-doe-download-files-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-doe-download-files-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-doe-retry-download-task-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Doe Retry Download Task Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-doe-retry-download-task-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-doe-retry-download-task-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-doe-retry-download-task-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-doe-retry-uploadtask-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Doe Retry Uploadtask Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-doe-retry-uploadtask-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-doe-retry-uploadtask-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-doe-retry-uploadtask-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-doe-sync-download-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Doe Sync Download Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-doe-sync-download-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-doe-sync-download-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-doe-sync-download-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-home-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Home Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-home-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-home-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-home-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-perform-inferencing-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Perform Inferencing Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-perform-inferencing-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-perform-inferencing-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-perform-inferencing-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-release-notes-notifications-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse release-notes-notifications-controller API
   slug: predictive-oncology-model-and-data-clearinghouse-release-notes-notifications-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-release-notes-notifications-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-release-notes-notifications-controller-api-openapi.yml
 - filename: predictive-oncology-model-and-data-clearinghouse-rest-api-common-controller-api-openapi.yml
   format: yaml
   label: Predictive Oncology Model and Data Clearinghouse Rest API Common Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-rest-api-common-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/openapi/predictive-oncology-model-and-data-clearinghouse-rest-api-common-controller-api-openapi.yml
+  url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/openapi/predictive-oncology-model-and-data-clearinghouse-rest-api-common-controller-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 27
@@ -275,7 +275,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/predic
   \  method: post\n  operationId: synchronousDownload\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/dataObject/**/generateDownloadRequestURL\n  method: post\n  operationId: generateDownloadRequestURL\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/collection/query\n  method: post\n  operationId: queryCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/v2/registration/**\n  method: get\n  operationId: getDataObjectsRegistrationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/download/**\n  method: get\n  operationId: getDataObjectsOrCollectionsDownloadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/dataObject/download/**\n  method: get\n  operationId: getDataObjectDownloadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/collection/download/**\n  method: get\n  operationId: getCollectionDownloadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/authenticate\n\
   \  method: get\n  operationId: authenticate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/agentic-access/predictive-oncology-model-and-data-clearinghouse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/agentic-access/predictive-oncology-model-and-data-clearinghouse-agentic-access.yml
 summary_line: 37 operations · 27 acting · 27 human-in-the-loop
 tags:
 - Cancer Research

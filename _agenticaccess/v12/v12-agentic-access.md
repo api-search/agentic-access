@@ -9,43 +9,43 @@ api_specs:
   label: V12 Documents API
   slug: v12-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-documents-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-documents-api-openapi.yml
 - filename: v12-findings-api-openapi.yml
   format: yaml
   label: V12 Findings API
   slug: v12-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-findings-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-findings-api-openapi.yml
 - filename: v12-me-api-openapi.yml
   format: yaml
   label: V12 Me API
   slug: v12-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-me-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-me-api-openapi.yml
 - filename: v12-members-api-openapi.yml
   format: yaml
   label: V12 Members API
   slug: v12-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-members-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-members-api-openapi.yml
 - filename: v12-repositories-api-openapi.yml
   format: yaml
   label: V12 Repositories API
   slug: v12-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-repositories-api-openapi.yml
 - filename: v12-runs-api-openapi.yml
   format: yaml
   label: V12 Runs API
   slug: v12-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-runs-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-runs-api-openapi.yml
 - filename: v12-steers-api-openapi.yml
   format: yaml
   label: V12 Steers API
   slug: v12-steers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-steers-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-steers-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/v12-op
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - runs:share\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /orgs/{org}/documents/uploads\n  method: post\n  operationId: requestDocumentUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - runs:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/documents\n  method: post\n  operationId: createDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - runs:write\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/documents\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - runs:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/documents/{document}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - runs:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/documents/{document}\n  method: delete\n  operationId: archiveDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - runs:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/agentic-access/v12-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/v12/agentic-access/v12-agentic-access.yml
 summary_line: 35 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Company

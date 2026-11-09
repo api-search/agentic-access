@@ -9,49 +9,49 @@ api_specs:
   label: Virtual Peaker Commands API
   slug: virtual-peaker-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-commands-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-commands-api-openapi.yml
 - filename: virtual-peaker-devices-api-openapi.yml
   format: yaml
   label: Virtual Peaker Devices API
   slug: virtual-peaker-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-devices-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-devices-api-openapi.yml
 - filename: virtual-peaker-energy-interval-endpoint-api-openapi.yml
   format: yaml
   label: Virtual Peaker Energy Interval Endpoint API
   slug: virtual-peaker-energy-interval-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-energy-interval-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-energy-interval-endpoint-api-openapi.yml
 - filename: virtual-peaker-group-management-api-openapi.yml
   format: yaml
   label: Virtual Peaker Group Management API
   slug: virtual-peaker-group-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-group-management-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-group-management-api-openapi.yml
 - filename: virtual-peaker-oauth-device-discovery-preferred-api-openapi.yml
   format: yaml
   label: Virtual Peaker OAuth Device Discovery (Preferred) API
   slug: virtual-peaker-oauth-device-discovery-preferred-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-oauth-device-discovery-preferred-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-oauth-device-discovery-preferred-api-openapi.yml
 - filename: virtual-peaker-pairing-code-device-discovery-end-user-app-api-openapi.yml
   format: yaml
   label: Virtual Peaker Pairing Code Device Discovery - End User App API
   slug: virtual-peaker-pairing-code-device-discovery-end-user-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-pairing-code-device-discovery-end-user-app-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-pairing-code-device-discovery-end-user-app-api-openapi.yml
 - filename: virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api-openapi.yml
   format: yaml
   label: Virtual Peaker Pairing Code Device Discovery - Utility Commissioned Installation API
   slug: virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api-openapi.yml
 - filename: virtual-peaker-publishing-api-openapi.yml
   format: yaml
   label: Virtual Peaker Publishing API
   slug: virtual-peaker-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/openapi/virtual-peaker-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/virtual-peaker/openapi/virtual-peaker-publishing-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 17
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/virtua
   \ 3600\n    audit: none\n- path: /device/{DEVICE_UID}/user\n  method: get\n  operationId: readDeviceUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - basic_partner_read_write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /houses\n  method: post\n  operationId: publishHouseList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - basic_partner_read_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /publish/{PROGRAM_PUBLISH_KEY}/update\n  method: post\n  operationId: publishSignalSetting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /publish/{PROGRAM_PUBLISH_KEY}/command\n  method: post\n  operationId: publishCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /publish/{PROGRAM_PUBLISH_KEY}/command/device\n  method: post\n  operationId: publishDeviceCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /publish/{PROGRAM_PUBLISH_KEY}/device\n  method: post\n  operationId: publishDeviceEnrollment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /publish/{PROGRAM_PUBLISH_KEY}/enrollment\n  method: post\n  operationId: publishDevicePartnerDrivenEnrollment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/agentic-access/virtual-peaker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/virtual-peaker/agentic-access/virtual-peaker-agentic-access.yml
 summary_line: 47 operations · 30 acting
 tags:
 - Energy

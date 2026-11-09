@@ -9,43 +9,43 @@ api_specs:
   label: Curse Categories API
   slug: curse-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-categories-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-categories-api-openapi.yml
 - filename: curse-files-api-openapi.yml
   format: yaml
   label: Curse Files API
   slug: curse-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-files-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-files-api-openapi.yml
 - filename: curse-games-api-openapi.yml
   format: yaml
   label: Curse Games API
   slug: curse-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-games-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-games-api-openapi.yml
 - filename: curse-minecraft-api-openapi.yml
   format: yaml
   label: Curse Minecraft API
   slug: curse-minecraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-minecraft-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-minecraft-api-openapi.yml
 - filename: curse-mods-api-openapi.yml
   format: yaml
   label: Curse Mods API
   slug: curse-mods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-mods-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-mods-api-openapi.yml
 - filename: curse-subscriptions-api-openapi.yml
   format: yaml
   label: Curse Subscriptions API
   slug: curse-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-subscriptions-api-openapi.yml
 - filename: curse-usermods-api-openapi.yml
   format: yaml
   label: Curse User Mods API
   slug: curse-usermods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-usermods-api-openapi.yml
+  url: https://artifacts.apis.io/curse/openapi/curse-usermods-api-openapi.yml
 consequence_counts:
   read: 40
   write: 6
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/curse-
   \   audit: required\n- path: /v2/mods/{modId}\n  method: get\n  operationId: Get Mod2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/mods/get-mods-by-ids\n  method: post\n  operationId: Get Mods22\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/mods/featured\n  method: post\n  operationId: Get Featured Mods2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me/mods/subscriptions\n  method: get\n  operationId: Get Mods Subscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me/mods/subscriptions/ids\n  method: get\n  operationId: Get\
   \ Mods Subscriptions2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me/mods/subscriptions/subscribe\n  method: post\n  operationId: Add a list of mod ids to the user's subscribed mods\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/me/mods/subscriptions/subscribe/{modId}\n  method: post\n  operationId: Add a mod id to the user's subscribed mods\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v1/users/me/mods/subscriptions/unsubscribe/{modId}\n  method: post\n  operationId: Remove a mod id from the user's subscribed mods\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/agentic-access/curse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/curse/agentic-access/curse-agentic-access.yml
 summary_line: 46 operations · 6 acting
 tags:
 - Company

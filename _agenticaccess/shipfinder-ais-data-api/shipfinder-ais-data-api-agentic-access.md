@@ -9,73 +9,73 @@ api_specs:
   label: ShipFinder AIS Data API 1 AIS Dataset/1.1 Vessel Position API
   slug: shipfinder-ais-data-api-1-ais-dataset-1-1-vessel-position-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-1-ais-dataset-1-1-vessel-position-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-1-ais-dataset-1-1-vessel-position-api-openapi.yml
 - filename: shipfinder-ais-data-api-1-ais-dataset-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 1 AIS Dataset API
   slug: shipfinder-ais-data-api-1-ais-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-1-ais-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-1-ais-dataset-api-openapi.yml
 - filename: shipfinder-ais-data-api-2-voyage-dataset-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 2 Voyage Dataset API
   slug: shipfinder-ais-data-api-2-voyage-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-2-voyage-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-2-voyage-dataset-api-openapi.yml
 - filename: shipfinder-ais-data-api-3-history-dataset-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 3 History Dataset API
   slug: shipfinder-ais-data-api-3-history-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-3-history-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-3-history-dataset-api-openapi.yml
 - filename: shipfinder-ais-data-api-4-prediction-dataset-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 4 Prediction Dataset API
   slug: shipfinder-ais-data-api-4-prediction-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-4-prediction-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-4-prediction-dataset-api-openapi.yml
 - filename: shipfinder-ais-data-api-5-meteorology-dataset-5-1-global-tropical-cyclone-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 5 Meteorology Dataset/5.1 Global Tropical Cyclone API
   slug: shipfinder-ais-data-api-5-meteorology-dataset-5-1-global-tropical-cyclone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-5-meteorology-dataset-5-1-global-tropical-cyclone-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-5-meteorology-dataset-5-1-global-tropical-cyclone-api-openapi.yml
 - filename: shipfinder-ais-data-api-5-meteorology-dataset-5-2-global-port-tide-predictions-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 5 Meteorology Dataset/5.2 Global Port Tide Predictions API
   slug: shipfinder-ais-data-api-5-meteorology-dataset-5-2-global-port-tide-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-5-meteorology-dataset-5-2-global-port-tide-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-5-meteorology-dataset-5-2-global-port-tide-predictions-api-openapi.yml
 - filename: shipfinder-ais-data-api-5-meteorology-dataset-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 5 Meteorology Dataset API
   slug: shipfinder-ais-data-api-5-meteorology-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-5-meteorology-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-5-meteorology-dataset-api-openapi.yml
 - filename: shipfinder-ais-data-api-6-china-region-coastline-warning-dataset-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 6 China Region Coastline Warning Dataset API
   slug: shipfinder-ais-data-api-6-china-region-coastline-warning-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-6-china-region-coastline-warning-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-6-china-region-coastline-warning-dataset-api-openapi.yml
 - filename: shipfinder-ais-data-api-7-event-dataset-7-1-monitored-fleet-management-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 7 Event Dataset/7.1 Monitored Fleet Management API
   slug: shipfinder-ais-data-api-7-event-dataset-7-1-monitored-fleet-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-7-event-dataset-7-1-monitored-fleet-management-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-7-event-dataset-7-1-monitored-fleet-management-api-openapi.yml
 - filename: shipfinder-ais-data-api-7-event-dataset-7-2-geofence-monitoring-push-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 7 Event Dataset/7.2 Geofence Monitoring Push API
   slug: shipfinder-ais-data-api-7-event-dataset-7-2-geofence-monitoring-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-7-event-dataset-7-2-geofence-monitoring-push-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-7-event-dataset-7-2-geofence-monitoring-push-api-openapi.yml
 - filename: shipfinder-ais-data-api-7-event-dataset-7-3-vessel-speed-alert-push-api-openapi.yml
   format: yaml
   label: ShipFinder AIS Data API 7 Event Dataset/7.3 Vessel Speed Alert Push API
   slug: shipfinder-ais-data-api-7-event-dataset-7-3-vessel-speed-alert-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/openapi/shipfinder-ais-data-api-7-event-dataset-7-3-vessel-speed-alert-push-api-openapi.yml
+  url: https://artifacts.apis.io/shipfinder-ais-data-api/openapi/shipfinder-ais-data-api-7-event-dataset-7-3-vessel-speed-alert-push-api-openapi.yml
 consequence_counts:
   read: 29
   write: 11
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/shipfi
   \  method: get\n  operationId: getTideStationInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Meteorology/TideStationList\n  method: get\n  operationId: getTideStationList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Prediction/ETA\n  method: get\n  operationId: getETA\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Prediction/RoutePlanPointToPoint\n  method: get\n  operationId: getRoutePlanPointToPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Prediction/RoutePlanPortToPort\n  method: get\n  operationId: getRoutePlanPortToPort\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Voyage/PortAnchoredVessels\n  method: get\n  operationId: getPortAnchoredVessels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Voyage/PortBerthedVessels\n  method: get\n  operationId: getPortBerthedVessels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Voyage/PortExpectedArrivals\n  method: get\n  operationId: getPortExpectedArrivals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Voyage/PortInfo\n  method: get\n  operationId: getPortInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Warning/NavigationalWarnings\n  method: get\n  operationId: getNavigationalWarnings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/agentic-access/shipfinder-ais-data-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shipfinder-ais-data-api/agentic-access/shipfinder-ais-data-api-agentic-access.yml
 summary_line: 40 operations · 11 acting
 tags:
 - AIS

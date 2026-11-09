@@ -9,61 +9,61 @@ api_specs:
   label: OpenMeter Billing API
   slug: openmeter-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-billing-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-billing-api-openapi.yml
 - filename: openmeter-customers-api-openapi.yml
   format: yaml
   label: OpenMeter Customers API
   slug: openmeter-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-customers-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-customers-api-openapi.yml
 - filename: openmeter-entitlements-api-openapi.yml
   format: yaml
   label: OpenMeter Entitlements API
   slug: openmeter-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-entitlements-api-openapi.yml
 - filename: openmeter-events-api-openapi.yml
   format: yaml
   label: OpenMeter Events API
   slug: openmeter-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-events-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-events-api-openapi.yml
 - filename: openmeter-features-api-openapi.yml
   format: yaml
   label: OpenMeter Features API
   slug: openmeter-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-features-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-features-api-openapi.yml
 - filename: openmeter-grants-api-openapi.yml
   format: yaml
   label: OpenMeter Grants API
   slug: openmeter-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-grants-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-grants-api-openapi.yml
 - filename: openmeter-meters-api-openapi.yml
   format: yaml
   label: OpenMeter Meters API
   slug: openmeter-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-meters-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-meters-api-openapi.yml
 - filename: openmeter-notifications-api-openapi.yml
   format: yaml
   label: OpenMeter Notifications API
   slug: openmeter-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-notifications-api-openapi.yml
 - filename: openmeter-plans-api-openapi.yml
   format: yaml
   label: OpenMeter Plans API
   slug: openmeter-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-plans-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-plans-api-openapi.yml
 - filename: openmeter-subjects-api-openapi.yml
   format: yaml
   label: OpenMeter Subjects API
   slug: openmeter-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/openapi/openmeter-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/openmeter/openapi/openmeter-subjects-api-openapi.yml
 consequence_counts:
   read: 22
   write: 14
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openme
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/notification/channels\n  method: get\n  operationId: listNotificationChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/notification/channels\n  method: post\n  operationId: createNotificationChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/notification/rules\n  method: get\n  operationId: listNotificationRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v1/notification/rules\n  method: post\n  operationId: createNotificationRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/notification/events\n  method: get\n  operationId: listNotificationEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/billing/invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/billing/profiles\n  method: get\n  operationId: listBillingProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/plans\n  method: get\n  operationId: listPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/plans\n  method: post\n  operationId: createPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/agentic-access/openmeter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openmeter/agentic-access/openmeter-agentic-access.yml
 summary_line: 36 operations · 14 acting
 tags:
 - Usage Metering

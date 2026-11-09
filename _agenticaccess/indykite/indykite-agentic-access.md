@@ -9,121 +9,121 @@ api_specs:
   label: Indykite Application Agent Credentials API
   slug: indykite-application-agent-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-application-agent-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-application-agent-credentials-api-openapi.yml
 - filename: indykite-application-agents-api-openapi.yml
   format: yaml
   label: Indykite Application Agents API
   slug: indykite-application-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-application-agents-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-application-agents-api-openapi.yml
 - filename: indykite-applications-api-openapi.yml
   format: yaml
   label: Indykite Applications API
   slug: indykite-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-applications-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-applications-api-openapi.yml
 - filename: indykite-authorization-policies-api-openapi.yml
   format: yaml
   label: Indykite Authorization Policies API
   slug: indykite-authorization-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-authorization-policies-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-authorization-policies-api-openapi.yml
 - filename: indykite-capture-api-openapi.yml
   format: yaml
   label: Indykite Capture API
   slug: indykite-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-capture-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-capture-api-openapi.yml
 - filename: indykite-contx-iq-api-openapi.yml
   format: yaml
   label: Indykite ContX IQ API
   slug: indykite-contx-iq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-contx-iq-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-contx-iq-api-openapi.yml
 - filename: indykite-deprecated-api-openapi.yml
   format: yaml
   label: Indykite Deprecated API
   slug: indykite-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-deprecated-api-openapi.yml
 - filename: indykite-entity-matching-api-openapi.yml
   format: yaml
   label: Indykite Entity Matching API
   slug: indykite-entity-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-entity-matching-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-entity-matching-api-openapi.yml
 - filename: indykite-event-sinks-api-openapi.yml
   format: yaml
   label: Indykite Event Sinks API
   slug: indykite-event-sinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-event-sinks-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-event-sinks-api-openapi.yml
 - filename: indykite-external-data-resolver-api-openapi.yml
   format: yaml
   label: Indykite External Data Resolver API
   slug: indykite-external-data-resolver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-external-data-resolver-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-external-data-resolver-api-openapi.yml
 - filename: indykite-knowledge-queries-api-openapi.yml
   format: yaml
   label: Indykite Knowledge Queries API
   slug: indykite-knowledge-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-knowledge-queries-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-knowledge-queries-api-openapi.yml
 - filename: indykite-mcp-servers-api-openapi.yml
   format: yaml
   label: Indykite MCP Servers API
   slug: indykite-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-mcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-mcp-servers-api-openapi.yml
 - filename: indykite-organizations-api-openapi.yml
   format: yaml
   label: Indykite Organizations API
   slug: indykite-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-organizations-api-openapi.yml
 - filename: indykite-projects-api-openapi.yml
   format: yaml
   label: Indykite Projects API
   slug: indykite-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-projects-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-projects-api-openapi.yml
 - filename: indykite-service-account-credentials-api-openapi.yml
   format: yaml
   label: Indykite Service Account Credentials API
   slug: indykite-service-account-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-service-account-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-service-account-credentials-api-openapi.yml
 - filename: indykite-service-accounts-api-openapi.yml
   format: yaml
   label: Indykite Service Accounts API
   slug: indykite-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-service-accounts-api-openapi.yml
 - filename: indykite-token-introspect-api-openapi.yml
   format: yaml
   label: Indykite Token Introspect API
   slug: indykite-token-introspect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-token-introspect-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-token-introspect-api-openapi.yml
 - filename: indykite-trust-score-api-openapi.yml
   format: yaml
   label: Indykite Trust Score API
   slug: indykite-trust-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-trust-score-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-trust-score-api-openapi.yml
 - filename: indykite-auth-zen-api-openapi.yml
   format: yaml
   label: Indykite Auth ZEN API
   slug: indykite-auth-zen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-auth-zen-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-auth-zen-api-openapi.yml
 - filename: indykite-data-schema-api-openapi.yml
   format: yaml
   label: Indykite Data Schema API
   slug: indykite-data-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-data-schema-api-openapi.yml
+  url: https://artifacts.apis.io/indykite/openapi/indykite-data-schema-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 32
@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/indyki
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access/v1/search/resource\n  method: post\n  operationId: createAccessV1SearchResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access/v1/search/subject\n  method: post\n  operationId: createAccessV1SearchSubject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /access/v1/what-authorized\n  method: post\n  operationId: createAccessV1WhatAuthorized\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access/v1/who-authorized\n  method: post\n  operationId: createAccessV1WhoAuthorized\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{id}/property-mappings\n  method: get\n  operationId: getPipelinesPropertyMapping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /pipelines/{id}/runs\n  method: post\n  operationId: createPipelinesRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{id}/status\n  method: get\n  operationId: getPipelinesByIdStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/agentic-access/indykite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/indykite/agentic-access/indykite-agentic-access.yml
 summary_line: 88 operations · 56 acting
 tags:
 - Company

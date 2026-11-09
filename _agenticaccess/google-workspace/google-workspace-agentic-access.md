@@ -9,37 +9,37 @@ api_specs:
   label: Google Workspace Groups API
   slug: google-workspace-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-groups-api-openapi.yml
 - filename: google-workspace-users-api-openapi.yml
   format: yaml
   label: Google Workspace Users API
   slug: google-workspace-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-users-api-openapi.yml
 - filename: google-workspace-calendar-api-openapi.yml
   format: yaml
   label: Google Workspace APIs Calendar API
   slug: google-suites-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-calendar-api-openapi.yml
 - filename: google-workspace-drive-api-openapi.yml
   format: yaml
   label: Google Workspace APIs Drive API
   slug: google-suites-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-drive-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-drive-api-openapi.yml
 - filename: google-workspace-gmail-api-openapi.yml
   format: yaml
   label: Google Workspace APIs Gmail API
   slug: google-suites-gmail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-gmail-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-gmail-api-openapi.yml
 - filename: google-workspace-org-units-api-openapi.yml
   format: yaml
   label: Google Workspace Org Units API
   slug: google-workspace-org-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-org-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-org-units-api-openapi.yml
 consequence_counts:
   read: 6
   write: 15
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/admin-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/directory/v1/groups/{groupKey}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/directory/v1/customer/{customerId}/orgunits\n  method: get\n  operationId: listOrgUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/directory/v1/customer/{customerId}/orgunits\n  method: post\n  operationId: insertOrgUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/directory/v1/customer/{customerId}/orgunits/{orgUnitPath}\n  method: get\n  operationId: getOrgUnit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/directory/v1/customer/{customerId}/orgunits/{orgUnitPath}\n  method: put\n  operationId: updateOrgUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/directory/v1/customer/{customerId}/orgunits/{orgUnitPath}\n  method: patch\n  operationId: patchOrgUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/directory/v1/customer/{customerId}/orgunits/{orgUnitPath}\n  method: delete\n  operationId: deleteOrgUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/agentic-access/google-workspace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-workspace/agentic-access/google-workspace-agentic-access.yml
 summary_line: 21 operations · 15 acting
 tags:
 - Calendar

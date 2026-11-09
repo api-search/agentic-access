@@ -93,8 +93,7 @@ source_yaml_url: https://artifacts.apis.io/linkace/agentic-access/linkace-agenti
 summary_line: 38 operations · 21 acting
 tags:
 - Company
-- OpenSource
+- Open Source
 - Bookmarking
-- SelfHosted
-- API
+- Self-Hosted
 ---

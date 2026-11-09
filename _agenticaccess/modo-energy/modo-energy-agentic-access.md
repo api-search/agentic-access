@@ -8,19 +8,19 @@ api_specs:
   label: Modo Energy ERCOT API
   slug: modo-energy-ercot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-ercot-api-openapi.yml
+  url: https://artifacts.apis.io/modo-energy/openapi/modo-energy-ercot-api-openapi.yml
 - filename: modo-energy-gb-api-openapi.yml
   format: yaml
   label: Modo Energy GB API
   slug: modo-energy-gb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-gb-api-openapi.yml
+  url: https://artifacts.apis.io/modo-energy/openapi/modo-energy-gb-api-openapi.yml
 - filename: modo-energy-nem-api-openapi.yml
   format: yaml
   label: Modo Energy NEM API
   slug: modo-energy-nem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-nem-api-openapi.yml
+  url: https://artifacts.apis.io/modo-energy/openapi/modo-energy-nem-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/modo-energy-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /gb/modo/benchmarking/monthly-leaderboard\n  method: get\n  operationId: monthlyLeaderboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gb/modo/benchmarking/asset-operations-live\n  method: get\n  operationId: assetOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /gb/modo/benchmarking/leaderboard-live\n  method: get\n  operationId: indexBreakdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /us/ercot/modo/bess-asset-physical\n  method: get\n  operationId: bessPhysicalOperationsErcot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /australia-nem/assets/{asset_id}/revenue/\n  method: get\n  operationId: ausNemAssetRevenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/agentic-access/modo-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/modo-energy/agentic-access/modo-energy-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Energy

@@ -9,25 +9,25 @@ api_specs:
   label: VidMob Media API
   slug: vidmob-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/openapi/vidmob-media-api-openapi.yml
+  url: https://artifacts.apis.io/vidmob/openapi/vidmob-media-api-openapi.yml
 - filename: vidmob-organization-api-openapi.yml
   format: yaml
   label: VidMob Organization API
   slug: vidmob-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/openapi/vidmob-organization-api-openapi.yml
+  url: https://artifacts.apis.io/vidmob/openapi/vidmob-organization-api-openapi.yml
 - filename: vidmob-scoring-api-openapi.yml
   format: yaml
   label: VidMob Scoring API
   slug: vidmob-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/openapi/vidmob-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/vidmob/openapi/vidmob-scoring-api-openapi.yml
 - filename: vidmob-workspaces-api-openapi.yml
   format: yaml
   label: VidMob Workspaces API
   slug: vidmob-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/openapi/vidmob-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/vidmob/openapi/vidmob-workspaces-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/vidmob
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/media\n  method: post\n  operationId: upload-media-for-scoring\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/media/{mediaId}/status\n  method: get\n  operationId: get-media-scoring-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/media/updated-scores\n  method: get\n  operationId: get_v1mediaupdated-scores\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organization\n  method: get\n  operationId: get-organization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/scoring/workspace/{workspaceId}/scorecards\n  method: get\n  operationId: get-workspace-scorecards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/scoring/media/{mediaId}/scores\n  method: get\n  operationId: get-media-score\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/scoring/criteria/metadata\n  method: post\n  operationId: get-criteria-metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/scoring/scorecard/{scorecardId}/media-metadata\n  method: get\n  operationId: get_v1scoringworkspace{workspaceId}scorecards-1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workspaces\n  method: get\n  operationId: get-organization-copy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/agentic-access/vidmob-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vidmob/agentic-access/vidmob-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Creative Intelligence

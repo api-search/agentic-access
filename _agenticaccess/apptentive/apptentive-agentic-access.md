@@ -9,25 +9,25 @@ api_specs:
   label: Apptentive Experimental API
   slug: apptentive-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-experimental-api-openapi.yml
 - filename: apptentive-info-api-openapi.yml
   format: yaml
   label: Apptentive Info API
   slug: apptentive-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-info-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-info-api-openapi.yml
 - filename: apptentive-metrics-api-openapi.yml
   format: yaml
   label: Apptentive Metrics API
   slug: apptentive-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-metrics-api-openapi.yml
 - filename: apptentive-raw-api-openapi.yml
   format: yaml
   label: Apptentive Raw API
   slug: apptentive-raw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/openapi/apptentive-raw-api-openapi.yml
+  url: https://artifacts.apis.io/apptentive/openapi/apptentive-raw-api-openapi.yml
 consequence_counts:
   read: 35
   write: 1
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/appten
   \  method: get\n  operationId: getSingleConversation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /raw/v2/apps/{app_id}/conversation-all-data/{conversation_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /raw/v2/apps/{app_id}/surveys/{survey_id}/responses\n  method: get\n  operationId: getRawSurveyResponses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /raw/v2/apps/{app_id}/custom-attributes-keys\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experimental/v2/apps/{app_id}/surveys\n  method: get\n  operationId: getBasicSingleSurveyResponses\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experimental/v2/apps/{app_id}/surveys/{survey_id}\n  method: get\n  operationId: getBasicSingleSurveyResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experimental/v2/apps/{app_id}/notes\n  method: get\n  operationId: getBasicNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experimental/v2/apps/{app_id}/notes/{note_id}\n  method: get\n  operationId: getBasicSingleNote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experimental/v2/apps/{app_id}/reach/sdk\n  method: get\n  operationId: getSDKDistribution\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experimental/v2/apps/{app_id}/app-health/rating-dialog\n  method: get\n  operationId: getRatingDialog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/agentic-access/apptentive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apptentive/agentic-access/apptentive-agentic-access.yml
 summary_line: 36 operations · 1 acting
 tags:
 - Company

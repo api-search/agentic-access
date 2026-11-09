@@ -9,55 +9,55 @@ api_specs:
   label: Chick-fil-A Accounts API
   slug: chickfila-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chickfila/openapi/chickfila-accounts-api-openapi.yml
 - filename: chickfila-compliance-api-openapi.yml
   format: yaml
   label: Chick-fil-A Compliance API
   slug: chickfila-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/chickfila/openapi/chickfila-compliance-api-openapi.yml
 - filename: chickfila-compute-api-openapi.yml
   format: yaml
   label: Chick-fil-A Compute API
   slug: chickfila-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-compute-api-openapi.yml
+  url: https://artifacts.apis.io/chickfila/openapi/chickfila-compute-api-openapi.yml
 - filename: chickfila-databases-api-openapi.yml
   format: yaml
   label: Chick-fil-A Databases API
   slug: chickfila-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-databases-api-openapi.yml
+  url: https://artifacts.apis.io/chickfila/openapi/chickfila-databases-api-openapi.yml
 - filename: chickfila-identity-api-openapi.yml
   format: yaml
   label: Chick-fil-A Identity API
   slug: chickfila-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-identity-api-openapi.yml
+  url: https://artifacts.apis.io/chickfila/openapi/chickfila-identity-api-openapi.yml
 - filename: chickfila-networking-api-openapi.yml
   format: yaml
   label: Chick-fil-A Networking API
   slug: chickfila-networking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-networking-api-openapi.yml
+  url: https://artifacts.apis.io/chickfila/openapi/chickfila-networking-api-openapi.yml
 - filename: chickfila-storage-api-openapi.yml
   format: yaml
   label: Chick-fil-A Storage API
   slug: chickfila-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-storage-api-openapi.yml
+  url: https://artifacts.apis.io/chickfila/openapi/chickfila-storage-api-openapi.yml
 - filename: chickfila-summary-api-openapi.yml
   format: yaml
   label: Chick-fil-A Summary API
   slug: chickfila-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-summary-api-openapi.yml
+  url: https://artifacts.apis.io/chickfila/openapi/chickfila-summary-api-openapi.yml
 - filename: chickfila-system-api-openapi.yml
   format: yaml
   label: Chick-fil-A System API
   slug: chickfila-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/openapi/chickfila-system-api-openapi.yml
+  url: https://artifacts.apis.io/chickfila/openapi/chickfila-system-api-openapi.yml
 consequence_counts:
   read: 26
   write: 1
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chickf
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/instances\n  method: get\n  operationId: getInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/instance\n  method: get\n  operationId: getInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/securitygroups\n  method: get\n  operationId: getSecurityGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/securitygroup\n  method: get\n  operationId: getSecurityGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/elbs\n  method: get\n  operationId: getElbs\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/elb\n  method: get\n  operationId: getElb\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/databases\n  method: get\n  operationId: getDatabases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/dynamotables\n  method: get\n  operationId: getDynamoTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/redshiftclusters\n  method: get\n  operationId: getRedshiftClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/s3\n\
   \  method: get\n  operationId: getS3Buckets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bucket\n  method: get\n  operationId: getS3Bucket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/agentic-access/chickfila-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chickfila/agentic-access/chickfila-agentic-access.yml
 summary_line: 27 operations · 1 acting
 tags:
 - Fast Food

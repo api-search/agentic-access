@@ -9,109 +9,109 @@ api_specs:
   label: Metronome Alerts API
   slug: metronome-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-alerts-api-openapi.yml
 - filename: metronome-billable-metrics-api-openapi.yml
   format: yaml
   label: Metronome Billable Metrics API
   slug: metronome-billable-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-billable-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-billable-metrics-api-openapi.yml
 - filename: metronome-contracts-api-openapi.yml
   format: yaml
   label: Metronome Contracts API
   slug: metronome-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-contracts-api-openapi.yml
 - filename: metronome-credits-and-commits-api-openapi.yml
   format: yaml
   label: Metronome Credits and commits API
   slug: metronome-credits-and-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-credits-and-commits-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-credits-and-commits-api-openapi.yml
 - filename: metronome-custom-fields-api-openapi.yml
   format: yaml
   label: Metronome Custom fields API
   slug: metronome-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-custom-fields-api-openapi.yml
 - filename: metronome-customers-api-openapi.yml
   format: yaml
   label: Metronome Customers API
   slug: metronome-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-customers-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-customers-api-openapi.yml
 - filename: metronome-integrations-api-openapi.yml
   format: yaml
   label: Metronome Integrations API
   slug: metronome-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-integrations-api-openapi.yml
 - filename: metronome-invoices-api-openapi.yml
   format: yaml
   label: Metronome Invoices API
   slug: metronome-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-invoices-api-openapi.yml
 - filename: metronome-named-schedules-api-openapi.yml
   format: yaml
   label: Metronome Named schedules API
   slug: metronome-named-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-named-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-named-schedules-api-openapi.yml
 - filename: metronome-notifications-api-openapi.yml
   format: yaml
   label: Metronome Notifications API
   slug: metronome-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-notifications-api-openapi.yml
 - filename: metronome-packages-api-openapi.yml
   format: yaml
   label: Metronome Packages API
   slug: metronome-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-packages-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-packages-api-openapi.yml
 - filename: metronome-payments-api-openapi.yml
   format: yaml
   label: Metronome Payments API
   slug: metronome-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-payments-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-payments-api-openapi.yml
 - filename: metronome-products-api-openapi.yml
   format: yaml
   label: Metronome Products API
   slug: metronome-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-products-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-products-api-openapi.yml
 - filename: metronome-rate-cards-api-openapi.yml
   format: yaml
   label: Metronome Rate cards API
   slug: metronome-rate-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-rate-cards-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-rate-cards-api-openapi.yml
 - filename: metronome-security-api-openapi.yml
   format: yaml
   label: Metronome Security API
   slug: metronome-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-security-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-security-api-openapi.yml
 - filename: metronome-settings-api-openapi.yml
   format: yaml
   label: Metronome Settings API
   slug: metronome-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-settings-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-settings-api-openapi.yml
 - filename: metronome-threshold-billing-api-openapi.yml
   format: yaml
   label: Metronome Threshold billing API
   slug: metronome-threshold-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-threshold-billing-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-threshold-billing-api-openapi.yml
 - filename: metronome-usage-api-openapi.yml
   format: yaml
   label: Metronome Usage API
   slug: metronome-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/openapi/metronome-usage-api-openapi.yml
+  url: https://artifacts.apis.io/metronome/openapi/metronome-usage-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 54
@@ -261,8 +261,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/metron
   \  method: post\n  operationId: archiveNotificationConfig-v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/packages/get\n  method: post\n  operationId: getPackage-v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/packages/list\n  method: post\n  operationId: listPackages-v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/packages/archive\n  method: post\n  operationId: archivePackage-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/attempt\n  method: post\n  operationId: attemptPayment-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/cancel\n  method: post\n  operationId: cancelPayment-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/list\n  method: post\n  operationId:\
   \ listPayments-v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/contract-pricing/products/get\n  method: post\n  operationId: getProduct-v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/contract-pricing/products/list\n  method: post\n  operationId: listProducts-v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/contract-pricing/products/create\n  method: post\n  operationId: createProduct-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/agentic-access/metronome-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/agentic-access/metronome-agentic-access.yml
+  \ required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/metronome/agentic-access/metronome-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/metronome/agentic-access/metronome-agentic-access.yml
 summary_line: 133 operations · 79 acting · 3 human-in-the-loop
 tags:
 - Billing

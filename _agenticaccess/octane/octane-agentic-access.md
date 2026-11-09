@@ -9,103 +9,103 @@ api_specs:
   label: Octane Admin API
   slug: octane-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-admin-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-admin-api-openapi.yml
 - filename: octane-avalara-api-openapi.yml
   format: yaml
   label: Octane Avalara API
   slug: octane-avalara-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-avalara-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-avalara-api-openapi.yml
 - filename: octane-billing-settings-api-openapi.yml
   format: yaml
   label: Octane Billing Settings API
   slug: octane-billing-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-billing-settings-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-billing-settings-api-openapi.yml
 - filename: octane-coupons-api-openapi.yml
   format: yaml
   label: Octane Coupons API
   slug: octane-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-coupons-api-openapi.yml
 - filename: octane-credits-api-openapi.yml
   format: yaml
   label: Octane Credits API
   slug: octane-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-credits-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-credits-api-openapi.yml
 - filename: octane-customer-portal-api-openapi.yml
   format: yaml
   label: Octane Customer Portal API
   slug: octane-customer-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-customer-portal-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-customer-portal-api-openapi.yml
 - filename: octane-customers-api-openapi.yml
   format: yaml
   label: Octane Customers API
   slug: octane-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-customers-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-customers-api-openapi.yml
 - filename: octane-features-api-openapi.yml
   format: yaml
   label: Octane Features API
   slug: octane-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-features-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-features-api-openapi.yml
 - filename: octane-invoices-api-openapi.yml
   format: yaml
   label: Octane Invoices API
   slug: octane-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-invoices-api-openapi.yml
 - filename: octane-live-measurements-api-openapi.yml
   format: yaml
   label: Octane Live Measurements API
   slug: octane-live-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-live-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-live-measurements-api-openapi.yml
 - filename: octane-measurements-api-openapi.yml
   format: yaml
   label: Octane Measurements API
   slug: octane-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-measurements-api-openapi.yml
 - filename: octane-meters-api-openapi.yml
   format: yaml
   label: Octane Meters API
   slug: octane-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-meters-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-meters-api-openapi.yml
 - filename: octane-price-plans-api-openapi.yml
   format: yaml
   label: Octane Price Plans API
   slug: octane-price-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-price-plans-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-price-plans-api-openapi.yml
 - filename: octane-refunds-api-openapi.yml
   format: yaml
   label: Octane Refunds API
   slug: octane-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-refunds-api-openapi.yml
 - filename: octane-revenue-recognition-api-openapi.yml
   format: yaml
   label: Octane Revenue Recognition API
   slug: octane-revenue-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-revenue-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-revenue-recognition-api-openapi.yml
 - filename: octane-subscriptions-api-openapi.yml
   format: yaml
   label: Octane Subscriptions API
   slug: octane-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-subscriptions-api-openapi.yml
 - filename: octane-webhooks-api-openapi.yml
   format: yaml
   label: Octane Webhooks API
   slug: octane-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/openapi/octane-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/octane/openapi/octane-webhooks-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 46
@@ -215,7 +215,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/octane
   \    audit: required\n- path: /recognized_revenue\n  method: post\n  operationId: recognizedRevenuePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/tax/avalara/settings\n  method: get\n  operationId: integrationTaxAvalaraSettingsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integration/tax/avalara/settings\n  method: post\n  operationId: integrationTaxAvalaraSettingsPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /integration/tax/avalara/settings\n  method: put\n  operationId: integrationTaxAvalaraSettingsPut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/tax/avalara/credentials/valid\n  method: post\n  operationId: integrationTaxAvalaraCredentialsValidPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/tax/avalara/company\n  method: get\n  operationId: integrationTaxAvalaraCompanyGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integration/tax/avalara/tax_code\n  method: get\n  operationId: integrationTaxAvalaraTaxCodeGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integration/tax/avalara/entity_use_code\n  method: get\n  operationId: integrationTaxAvalaraEntityUseCodeGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/agentic-access/octane-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/octane/agentic-access/octane-agentic-access.yml
 summary_line: 101 operations · 55 acting
 tags:
 - Usage-Based Billing

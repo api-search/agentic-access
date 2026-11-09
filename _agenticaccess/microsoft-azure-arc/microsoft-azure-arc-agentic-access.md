@@ -9,13 +9,13 @@ api_specs:
   label: Azure Arc Machines API
   slug: microsoft-azure-arc-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/openapi/microsoft-azure-arc-machines-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-arc/openapi/microsoft-azure-arc-machines-api-openapi.yml
 - filename: microsoft-azure-arc-operations-api-openapi.yml
   format: yaml
   label: Azure Arc Operations API
   slug: microsoft-azure-arc-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/openapi/microsoft-azure-arc-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-arc/openapi/microsoft-azure-arc-operations-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines\n  method: get\n  operationId: listMachinesByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{name}\n  method: get\n  operationId: getMachines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{name}\n  method: put\n\
   \  operationId: createOrUpdateMachines\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{name}\n  method: patch\n  operationId: updateMachines\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{name}\n  method: delete\n  operationId:\
   \ deleteMachines\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/agentic-access/microsoft-azure-arc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-arc/agentic-access/microsoft-azure-arc-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Arc

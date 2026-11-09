@@ -9,97 +9,97 @@ api_specs:
   label: Deliverart Addresses API
   slug: deliverart-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-addresses-api-openapi.yml
 - filename: deliverart-companies-api-openapi.yml
   format: yaml
   label: Deliverart Companies API
   slug: deliverart-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-companies-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-companies-api-openapi.yml
 - filename: deliverart-customer-addresses-api-openapi.yml
   format: yaml
   label: Deliverart Customer addresses API
   slug: deliverart-customer-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-customer-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-customer-addresses-api-openapi.yml
 - filename: deliverart-customer-business-profiles-api-openapi.yml
   format: yaml
   label: Deliverart Customer business profiles API
   slug: deliverart-customer-business-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-customer-business-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-customer-business-profiles-api-openapi.yml
 - filename: deliverart-customers-api-openapi.yml
   format: yaml
   label: Deliverart Customers API
   slug: deliverart-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-customers-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-customers-api-openapi.yml
 - filename: deliverart-deliveries-api-openapi.yml
   format: yaml
   label: Deliverart Deliveries API
   slug: deliverart-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-deliveries-api-openapi.yml
 - filename: deliverart-delivery-fee-api-openapi.yml
   format: yaml
   label: Deliverart Delivery fee API
   slug: deliverart-delivery-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-delivery-fee-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-delivery-fee-api-openapi.yml
 - filename: deliverart-me-api-openapi.yml
   format: yaml
   label: Deliverart Me API
   slug: deliverart-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-me-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-me-api-openapi.yml
 - filename: deliverart-menu-api-openapi.yml
   format: yaml
   label: Deliverart Menu API
   slug: deliverart-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-menu-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-menu-api-openapi.yml
 - filename: deliverart-orders-api-openapi.yml
   format: yaml
   label: Deliverart Orders API
   slug: deliverart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-orders-api-openapi.yml
 - filename: deliverart-password-reset-api-openapi.yml
   format: yaml
   label: Deliverart Password reset API
   slug: deliverart-password-reset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-password-reset-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-password-reset-api-openapi.yml
 - filename: deliverart-points-of-sale-api-openapi.yml
   format: yaml
   label: Deliverart Points of sale API
   slug: deliverart-points-of-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-points-of-sale-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-points-of-sale-api-openapi.yml
 - filename: deliverart-registration-api-openapi.yml
   format: yaml
   label: Deliverart Registration API
   slug: deliverart-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-registration-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-registration-api-openapi.yml
 - filename: deliverart-reservation-api-openapi.yml
   format: yaml
   label: Deliverart Reservation API
   slug: deliverart-reservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-reservation-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-reservation-api-openapi.yml
 - filename: deliverart-take-away-api-openapi.yml
   format: yaml
   label: Deliverart Take away API
   slug: deliverart-take-away-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-take-away-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-take-away-api-openapi.yml
 - filename: deliverart-work-shifts-api-openapi.yml
   format: yaml
   label: Deliverart Work Shifts API
   slug: deliverart-work-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/openapi/deliverart-work-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/deliverart/openapi/deliverart-work-shifts-api-openapi.yml
 consequence_counts:
   physical: 22
   read: 37
@@ -289,8 +289,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/delive
   \    - high-value\n    audit: required\n- path: /menu/item/{id}/suspend\n  method: post\n  operationId: menuItemsSuspend\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - menu_admin\n    - menu_item_admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /menu/item/{id}/resume\n  method: post\n  operationId: menuItemsResume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - menu_admin\n    - menu_item_admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /menu/item/{id}/translate\n  method: post\n  operationId: menuItemsTranslate\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    scope:\n    - menu_admin\n    - menu_item_ingredient_admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workshift/{id}/detail\n  method: get\n  operationId: workshiftsDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - workshifts_admin\n    - workshifts_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workshift/{workshiftId}/address/{addressId}/delivery/times\n  method: get\n  operationId: workshiftsDeliveryTimes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - workshifts_admin\n    - workshifts_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workshift/{workshiftId}/take-away/times\n  method: get\n  operationId: workshiftsTakeAwayTimes\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - take_away_time_read\n    - workshifts_admin\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workshift/invitation/accept\n  method: post\n  operationId: workshiftsInvitationAccept\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workshift/invitation/reject\n  method: post\n  operationId: workshiftsInvitationReject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (47 KB total)\
-  \ ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/agentic-access/deliverart-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/agentic-access/deliverart-agentic-access.yml
+  \ ---\n# Full source: https://artifacts.apis.io/deliverart/agentic-access/deliverart-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/deliverart/agentic-access/deliverart-agentic-access.yml
 summary_line: 130 operations · 93 acting · 3 human-in-the-loop
 tags:
 - Company

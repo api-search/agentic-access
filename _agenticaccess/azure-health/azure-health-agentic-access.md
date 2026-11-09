@@ -9,79 +9,79 @@ api_specs:
   label: Microsoft Azure Health Data Services Collection API
   slug: azure-health-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-collection-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-collection-api-openapi.yml
 - filename: azure-health-deid-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Deid API
   slug: azure-health-deid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-deid-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-deid-api-openapi.yml
 - filename: azure-health-dicomservices-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services DicomServices API
   slug: azure-health-dicomservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-dicomservices-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-dicomservices-api-openapi.yml
 - filename: azure-health-fhirservices-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services FhirServices API
   slug: azure-health-fhirservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-fhirservices-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-fhirservices-api-openapi.yml
 - filename: azure-health-iotconnectors-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services IotConnectors API
   slug: azure-health-iotconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-iotconnectors-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-iotconnectors-api-openapi.yml
 - filename: azure-health-jobs-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Jobs API
   slug: azure-health-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-jobs-api-openapi.yml
 - filename: azure-health-privatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services PrivateLinkResources API
   slug: azure-health-privatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-privatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-privatelinkresources-api-openapi.yml
 - filename: azure-health-proxy-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Proxy API
   slug: azure-health-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-proxy-api-openapi.yml
 - filename: azure-health-resource-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Resource API
   slug: azure-health-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-resource-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-resource-api-openapi.yml
 - filename: azure-health-workspaceprivateendpointconnections-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services WorkspacePrivateEndpointConnections API
   slug: azure-health-workspaceprivateendpointconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml
 - filename: azure-health-workspaceprivatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services WorkspacePrivateLinkResources API
   slug: azure-health-workspaceprivatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml
 - filename: azure-health-workspaces-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Workspaces API
   slug: azure-health-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-workspaces-api-openapi.yml
 - filename: azure-health-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services Private Endpoint Connections API
   slug: azure-health-private-endpoint-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/openapi/azure-health-private-endpoint-connections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-health/openapi/azure-health-private-endpoint-connections-api-openapi.yml
 consequence_counts:
   read: 27
   write: 26
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/health
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthcareApis/workspaces/{workspaceName}/privateEndpointConnections/{privateEndpointConnectionName}\n  method: put\n  operationId: WorkspacePrivateEndpointConnections_CreateOrUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthcareApis/workspaces/{workspaceName}/privateEndpointConnections/{privateEndpointConnectionName}\n  method: delete\n  operationId: WorkspacePrivateEndpointConnections_Delete\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthcareApis/workspaces/{workspaceName}/privateLinkResources\n  method: get\n  operationId: WorkspacePrivateLinkResources_ListByWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthcareApis/workspaces/{workspaceName}/privateLinkResources/{groupName}\n  method: get\n  operationId: WorkspacePrivateLinkResources_Get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /providers/Microsoft.HealthcareApis/operations\n  method: get\n  operationId: Operations_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.HealthcareApis/locations/{locationName}/operationresults/{operationResultId}\n  method: get\n  operationId: OperationResults_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/agentic-access/azure-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-health/agentic-access/azure-health-agentic-access.yml
 summary_line: 53 operations · 26 acting
 tags:
 - Healthcare

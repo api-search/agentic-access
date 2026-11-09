@@ -9,37 +9,37 @@ api_specs:
   label: Swoogo Authentication API
   slug: swoogo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-authentication-api-openapi.yml
 - filename: swoogo-contacts-api-openapi.yml
   format: yaml
   label: Swoogo Contacts API
   slug: swoogo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-contacts-api-openapi.yml
 - filename: swoogo-events-api-openapi.yml
   format: yaml
   label: Swoogo Events API
   slug: swoogo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-events-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-events-api-openapi.yml
 - filename: swoogo-registrants-api-openapi.yml
   format: yaml
   label: Swoogo Registrants API
   slug: swoogo-registrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-registrants-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-registrants-api-openapi.yml
 - filename: swoogo-sessions-api-openapi.yml
   format: yaml
   label: Swoogo Sessions API
   slug: swoogo-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-sessions-api-openapi.yml
 - filename: swoogo-speakers-api-openapi.yml
   format: yaml
   label: Swoogo Speakers API
   slug: swoogo-speakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/openapi/swoogo-speakers-api-openapi.yml
+  url: https://artifacts.apis.io/swoogo/openapi/swoogo-speakers-api-openapi.yml
 consequence_counts:
   read: 10
   write: 17
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/swoogo
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /speakers/{speaker_id}\n  method: delete\n  operationId: deleteSpeaker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /speakers/{speaker_id}/sessions/{session_id}\n  method: post\n  operationId: assignSpeakerSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /speakers/{speaker_id}/sessions/{session_id}\n  method: delete\n  operationId: removeSpeakerSession\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts\n  method: get\n  operationId: listContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts\n  method: post\n  operationId: createContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contact_id}\n  method: get\n  operationId: getContact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{contact_id}\n\
   \  method: put\n  operationId: updateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contact_id}/forget\n  method: post\n  operationId: forgetContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/agentic-access/swoogo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/swoogo/agentic-access/swoogo-agentic-access.yml
 summary_line: 27 operations · 17 acting
 tags:
 - Event Management

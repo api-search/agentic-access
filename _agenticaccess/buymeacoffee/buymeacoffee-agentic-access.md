@@ -8,19 +8,19 @@ api_specs:
   label: Buy Me a Coffee Extras API
   slug: buymeacoffee-extras-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/collections/buymeacoffee.postman_collection.json
+  url: https://artifacts.apis.io/buymeacoffee/collections/buymeacoffee.postman_collection.json
 - filename: buymeacoffee.postman_collection.json
   format: json
   label: Buy Me a Coffee Subscriptions API
   slug: buymeacoffee-subscriptions-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/collections/buymeacoffee.postman_collection.json
+  url: https://artifacts.apis.io/buymeacoffee/collections/buymeacoffee.postman_collection.json
 - filename: buymeacoffee.postman_collection.json
   format: json
   label: Buy Me a Coffee Supporters API
   slug: buymeacoffee-supporters-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/collections/buymeacoffee.postman_collection.json
+  url: https://artifacts.apis.io/buymeacoffee/collections/buymeacoffee.postman_collection.json
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/buymeacoffee-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /supporters\n  method: get\n  operationId: getSupporters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /supporters/{id}\n  method: get\n  operationId: getSupporter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: getSubscriptions\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{id}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extras\n  method: get\n  operationId: getExtras\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extras/{id}\n  method: get\n  operationId: getExtra\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/agentic-access/buymeacoffee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/buymeacoffee/agentic-access/buymeacoffee-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Creator Economy

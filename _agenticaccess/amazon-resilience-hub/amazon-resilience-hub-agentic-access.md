@@ -9,37 +9,43 @@ api_specs:
   label: Amazon Resilience Hub Applications API
   slug: amazon-resilience-hub-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resilience-hub/openapi/amazon-resilience-hub-applications-api-openapi.yml
 - filename: amazon-resilience-hub-assessments-api-openapi.yml
   format: yaml
   label: Amazon Resilience Hub Assessments API
   slug: amazon-resilience-hub-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resilience-hub/openapi/amazon-resilience-hub-assessments-api-openapi.yml
 - filename: amazon-resilience-hub-recommendations-api-openapi.yml
   format: yaml
   label: Amazon Resilience Hub Recommendations API
   slug: amazon-resilience-hub-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resilience-hub/openapi/amazon-resilience-hub-recommendations-api-openapi.yml
 - filename: amazon-resilience-hub-resiliency-policies-api-openapi.yml
   format: yaml
   label: Amazon Resilience Hub Resiliency Policies API
   slug: amazon-resilience-hub-resiliency-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-resiliency-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resilience-hub/openapi/amazon-resilience-hub-resiliency-policies-api-openapi.yml
 - filename: amazon-resilience-hub-resource-management-api-openapi.yml
   format: yaml
   label: Amazon Resilience Hub Resource Management API
   slug: amazon-resilience-hub-resource-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-resource-management-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resilience-hub/openapi/amazon-resilience-hub-resource-management-api-openapi.yml
 - filename: amazon-resilience-hub-tags-api-openapi.yml
   format: yaml
   label: Amazon Resilience Hub Tags API
   slug: amazon-resilience-hub-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/openapi/amazon-resilience-hub-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-resilience-hub/openapi/amazon-resilience-hub-tags-api-openapi.yml
+- filename: amazon-resilience-hub-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Resilience Hub Resilience Hub Operations API
+  slug: amazon-resilience-hub-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-resilience-hub/openapi/amazon-resilience-hub-operations-api-openapi.yml
 consequence_counts:
   read: 9
   write: 12
@@ -73,9 +79,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \     - abnormal\n      - high-value\n    audit: required\n- path: /list-resiliency-policies\n  method: get\n  operationId: listResiliencyPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-suggested-resiliency-policies\n  method: get\n  operationId: listSuggestedResiliencyPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /add-draft-app-version-resource-mappings\n  method: post\n  operationId: addDraftAppVersionResourceMappings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /import-resources-to-draft-app-version\n  method:\
   \ post\n  operationId: importResourcesToDraftAppVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resolve-app-version-resources\n  method: post\n  operationId: resolveAppVersionResources\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/agentic-access/amazon-resilience-hub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-resilience-hub/agentic-access/amazon-resilience-hub-agentic-access.yml
 summary_line: 21 operations · 12 acting
 tags:
+- Amazon Web Services
 - Disaster Recovery
 - High Availability
 - Resilience

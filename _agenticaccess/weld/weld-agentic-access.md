@@ -9,79 +9,79 @@ api_specs:
   label: Weld Connection Bridge API
   slug: weld-connection-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-connection-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-connection-bridge-api-openapi.yml
 - filename: weld-connections-api-openapi.yml
   format: yaml
   label: Weld Connections API
   slug: weld-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-connections-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-connections-api-openapi.yml
 - filename: weld-custom-reports-api-openapi.yml
   format: yaml
   label: Weld Custom Reports API
   slug: weld-custom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-custom-reports-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-custom-reports-api-openapi.yml
 - filename: weld-elt-stream-runs-api-openapi.yml
   format: yaml
   label: Weld ELT Stream Runs API
   slug: weld-elt-stream-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-elt-stream-runs-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-elt-stream-runs-api-openapi.yml
 - filename: weld-elt-streams-api-openapi.yml
   format: yaml
   label: Weld ELT Streams API
   slug: weld-elt-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-elt-streams-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-elt-streams-api-openapi.yml
 - filename: weld-elt-syncs-api-openapi.yml
   format: yaml
   label: Weld ELT Syncs API
   slug: weld-elt-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-elt-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-elt-syncs-api-openapi.yml
 - filename: weld-integrations-api-openapi.yml
   format: yaml
   label: Weld Integrations API
   slug: weld-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-integrations-api-openapi.yml
 - filename: weld-orchestration-runs-api-openapi.yml
   format: yaml
   label: Weld Orchestration Runs API
   slug: weld-orchestration-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-orchestration-runs-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-orchestration-runs-api-openapi.yml
 - filename: weld-orchestrations-api-openapi.yml
   format: yaml
   label: Weld Orchestrations API
   slug: weld-orchestrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-orchestrations-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-orchestrations-api-openapi.yml
 - filename: weld-reverse-etl-failed-records-api-openapi.yml
   format: yaml
   label: Weld Reverse ETL Failed Records API
   slug: weld-reverse-etl-failed-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-reverse-etl-failed-records-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-reverse-etl-failed-records-api-openapi.yml
 - filename: weld-reverse-etl-sync-runs-api-openapi.yml
   format: yaml
   label: Weld Reverse ETL Sync Runs API
   slug: weld-reverse-etl-sync-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-reverse-etl-sync-runs-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-reverse-etl-sync-runs-api-openapi.yml
 - filename: weld-reverse-etl-syncs-api-openapi.yml
   format: yaml
   label: Weld Reverse ETL Syncs API
   slug: weld-reverse-etl-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-reverse-etl-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-reverse-etl-syncs-api-openapi.yml
 - filename: weld-transforms-api-openapi.yml
   format: yaml
   label: Weld Transforms API
   slug: weld-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/openapi/weld-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/weld/openapi/weld-transforms-api-openapi.yml
 consequence_counts:
   read: 33
   safety-critical: 32
@@ -259,7 +259,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/weld-c
   \ null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /transforms/bulk\n  method: post\n  operationId: TransformOpenApiController_bulkCreateTransforms\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /transforms/{id}/versions\n  method: get\n  operationId: TransformOpenApiController_listVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transforms/{id}/publish\n  method: post\n  operationId: TransformOpenApiController_publishTransform\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /transforms/query_previews\n  method: post\n  operationId: TransformOpenApiController_createQueryPreview\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /transforms/query_previews/{queryExecutionId}/status\n  method: get\n  operationId: TransformOpenApiController_getQueryPreviewStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /transforms/query_previews/{queryExecutionId}/result\n  method: get\n  operationId: TransformOpenApiController_getQueryPreviewResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/agentic-access/weld-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weld/agentic-access/weld-agentic-access.yml
 summary_line: 65 operations · 32 acting · 32 human-in-the-loop
 tags:
 - Company

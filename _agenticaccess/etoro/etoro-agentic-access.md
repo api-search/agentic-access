@@ -9,163 +9,163 @@ api_specs:
   label: eToro Agent Portfolios API
   slug: etoro-agent-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-agent-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-agent-portfolios-api-openapi.yml
 - filename: etoro-balances-api-openapi.yml
   format: yaml
   label: eToro Balances API
   slug: etoro-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-balances-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-balances-api-openapi.yml
 - filename: etoro-cash-accounts-api-openapi.yml
   format: yaml
   label: eToro Cash Accounts API
   slug: etoro-cash-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-cash-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-cash-accounts-api-openapi.yml
 - filename: etoro-clubs-api-openapi.yml
   format: yaml
   label: eToro Clubs API
   slug: etoro-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-clubs-api-openapi.yml
 - filename: etoro-identity-api-openapi.yml
   format: yaml
   label: eToro Identity API
   slug: etoro-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-identity-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-identity-api-openapi.yml
 - filename: etoro-market-data-api-openapi.yml
   format: yaml
   label: eToro Market Data API
   slug: etoro-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-market-data-api-openapi.yml
 - filename: etoro-notifications-api-openapi.yml
   format: yaml
   label: eToro Notifications API
   slug: etoro-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-notifications-api-openapi.yml
 - filename: etoro-pi-data-api-openapi.yml
   format: yaml
   label: eToro PI Data API
   slug: etoro-pi-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-pi-data-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-pi-data-api-openapi.yml
 - filename: etoro-price-alerts-api-openapi.yml
   format: yaml
   label: eToro Price Alerts API
   slug: etoro-price-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-price-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-price-alerts-api-openapi.yml
 - filename: etoro-trading-demo-api-openapi.yml
   format: yaml
   label: eToro Trading - Demo API
   slug: etoro-trading-demo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-trading-demo-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-trading-demo-api-openapi.yml
 - filename: etoro-trading-real-api-openapi.yml
   format: yaml
   label: eToro Trading - Real API
   slug: etoro-trading-real-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-trading-real-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-trading-real-api-openapi.yml
 - filename: etoro-users-info-api-openapi.yml
   format: yaml
   label: eToro Users Info API
   slug: etoro-users-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-users-info-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-users-info-api-openapi.yml
 - filename: etoro-watchlists-api-openapi.yml
   format: yaml
   label: eToro Watchlists API
   slug: etoro-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-watchlists-api-openapi.yml
 - filename: etoro-app-data-api-openapi.yml
   format: yaml
   label: eToro App Data API
   slug: etoro-app-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-app-data-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-app-data-api-openapi.yml
 - filename: etoro-copy-trading-api-openapi.yml
   format: yaml
   label: eToro Copy Trading API
   slug: etoro-copy-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-copy-trading-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-copy-trading-api-openapi.yml
 - filename: etoro-copy-trading-demo-api-openapi.yml
   format: yaml
   label: eToro Copy Trading - Demo API
   slug: etoro-copy-trading-demo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-copy-trading-demo-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-copy-trading-demo-api-openapi.yml
 - filename: etoro-data-api-openapi.yml
   format: yaml
   label: eToro Data API
   slug: etoro-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-data-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-data-api-openapi.yml
 - filename: etoro-portfoliosearch-api-openapi.yml
   format: yaml
   label: eToro Portfolio Search API
   slug: etoro-portfoliosearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-portfoliosearch-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-portfoliosearch-api-openapi.yml
 - filename: etoro-rankings-api-openapi.yml
   format: yaml
   label: eToro Rankings API
   slug: etoro-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-rankings-api-openapi.yml
 - filename: etoro-social-feeds-api-openapi.yml
   format: yaml
   label: eToro Social Feeds API
   slug: etoro-social-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-social-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-social-feeds-api-openapi.yml
 - filename: etoro-sso-applications-api-openapi.yml
   format: yaml
   label: eToro SSO - Applications API
   slug: etoro-sso-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-sso-applications-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-sso-applications-api-openapi.yml
 - filename: etoro-sso-scopes-api-openapi.yml
   format: yaml
   label: eToro SSO - Scopes API
   slug: etoro-sso-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-sso-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-sso-scopes-api-openapi.yml
 - filename: etoro-sub-accounts-etoro-trading-api-openapi.yml
   format: yaml
   label: eToro Sub-Accounts - eToro Trading API
   slug: etoro-sub-accounts-etoro-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-sub-accounts-etoro-trading-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-sub-accounts-etoro-trading-api-openapi.yml
 - filename: etoro-top-assets-api-openapi.yml
   format: yaml
   label: eToro Top Assets API
   slug: etoro-top-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-top-assets-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-top-assets-api-openapi.yml
 - filename: etoro-transfer-api-openapi.yml
   format: yaml
   label: eToro Transfer API
   slug: etoro-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-transfer-api-openapi.yml
 - filename: etoro-user-stats-api-openapi.yml
   format: yaml
   label: eToro User Stats API
   slug: etoro-user-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-user-stats-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-user-stats-api-openapi.yml
 - filename: etoro-subaccounts-api-openapi.yml
   format: yaml
   label: eToro Subaccounts API
   slug: etoro-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/etoro/openapi/etoro-subaccounts-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 77
@@ -315,8 +315,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/etoro-
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/posts/{postId}/saves\n  method: post\n  operationId: saveAPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/posts/{postId}/saves\n  method: delete\n  operationId: unsaveAPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/posts/{postId}/shares\n  method: get\n  operationId: listSharesOfAPost\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/price-alerts\n  method: get\n  operationId: getPriceAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/price-alerts\n  method: post\n  operationId: createAPriceAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/price-alerts/{alertId}\n  method: patch\n  operationId: updateAPriceAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v1/price-alerts/{alertId}\n  method: delete\n  operationId: deleteAPriceAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/trading/execution/demo/market-close-orders/positions/{positionId}\n  method: post\n  operationId: closePositionByMarketRateDemo\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/trading/execution/demo/market-close-orders/{orderId}\n  method: delete\n  operationId: cancelCloseOrderDemo\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/trading/info/demo/aggregate-portfolio\n  method: get\n  operationId: getAggregatedPortfolioDemo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/trading/info/demo/pnl\n  method: get\n  operationId: getDemoAccountPnl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/agentic-access/etoro-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/agentic-access/etoro-agentic-access.yml
+  \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/trading/info/demo/aggregate-portfolio\n  method: get\n  operationId: getAggregatedPortfolioDemo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/trading/info/demo/pnl\n  method: get\n  operationId: getDemoAccountPnl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/etoro/agentic-access/etoro-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/etoro/agentic-access/etoro-agentic-access.yml
 summary_line: 146 operations · 69 acting
 tags:
 - Social Trading

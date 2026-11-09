@@ -9,19 +9,19 @@ api_specs:
   label: Apache Tomcat Applications API
   slug: apache-tomcat-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/openapi/apache-tomcat-applications-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tomcat/openapi/apache-tomcat-applications-api-openapi.yml
 - filename: apache-tomcat-server-api-openapi.yml
   format: yaml
   label: Apache Tomcat Server API
   slug: apache-tomcat-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/openapi/apache-tomcat-server-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tomcat/openapi/apache-tomcat-server-api-openapi.yml
 - filename: apache-tomcat-sessions-api-openapi.yml
   format: yaml
   label: Apache Tomcat Sessions API
   slug: apache-tomcat-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/openapi/apache-tomcat-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-tomcat/openapi/apache-tomcat-sessions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \  operationId: stopApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions\n  method: get\n  operationId: sessionStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expire\n  method: get\n  operationId: expireSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /serverinfo\n  method: get\n  operationId: serverInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resources\n  method: get\n  operationId: listResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /findleaks\n  method: get\n  operationId: findLeaks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sslConnectorCiphers\n  method: get\n  operationId: sslConnectorCiphers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sslConnectorCerts\n  method: get\n  operationId: sslConnectorCerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sslConnectorTrustedCerts\n  method: get\n  operationId: sslConnectorTrustedCerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sslReload\n  method: get\n  operationId: sslReload\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /threaddump\n  method: get\n  operationId: threadDump\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vminfo\n  method: get\n  operationId: vmInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /save\n  method: get\n  operationId: saveConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/agentic-access/apache-tomcat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-tomcat/agentic-access/apache-tomcat-agentic-access.yml
 summary_line: 19 operations · 1 acting
 tags:
 - Application Server

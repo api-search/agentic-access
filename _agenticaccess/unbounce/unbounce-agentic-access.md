@@ -8,43 +8,43 @@ api_specs:
   label: Unbounce Accounts API
   slug: unbounce-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-accounts-api-openapi.yml
 - filename: unbounce-domains-api-openapi.yml
   format: yaml
   label: Unbounce Domains API
   slug: unbounce-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-domains-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-domains-api-openapi.yml
 - filename: unbounce-leads-api-openapi.yml
   format: yaml
   label: Unbounce Leads API
   slug: unbounce-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-leads-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-leads-api-openapi.yml
 - filename: unbounce-meta-api-openapi.yml
   format: yaml
   label: Unbounce Meta API
   slug: unbounce-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-meta-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-meta-api-openapi.yml
 - filename: unbounce-pagegroups-api-openapi.yml
   format: yaml
   label: Unbounce PageGroups API
   slug: unbounce-pagegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-pagegroups-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-pagegroups-api-openapi.yml
 - filename: unbounce-pages-api-openapi.yml
   format: yaml
   label: Unbounce Pages API
   slug: unbounce-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-pages-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-pages-api-openapi.yml
 - filename: unbounce-users-api-openapi.yml
   format: yaml
   label: Unbounce Users API
   slug: unbounce-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-users-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-users-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/unboun
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads/{lead_id}\n  method: get\n  operationId: getLead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: getApiMeta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sub_accounts/{sub_account_id}/page_groups\n  method: get\n  operationId: listPageGroupsForSubAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /page_groups/{page_group_id}/pages\n  method: get\n  operationId: listPagesForPageGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /accounts/{account_id}/pages\n  method: get\n  operationId: listAccountPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sub_accounts/{sub_account_id}/pages\n  method: get\n  operationId: listSubAccountPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domains/{domain_id}/pages\n  method: get\n  operationId: listPagesForDomain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages\n  method: get\n  operationId: listPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages/{page_id}\n  method: get\n  operationId: getPage\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages/{page_id}/form_fields\n  method: get\n  operationId: listFormFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/agentic-access/unbounce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unbounce/agentic-access/unbounce-agentic-access.yml
 summary_line: 21 operations
 tags:
 - Landing Pages

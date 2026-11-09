@@ -9,31 +9,31 @@ api_specs:
   label: Targon Completions API
   slug: targon-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-completions-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-completions-api-openapi.yml
 - filename: targon-images-api-openapi.yml
   format: yaml
   label: Targon Images API
   slug: targon-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-images-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-images-api-openapi.yml
 - filename: targon-models-api-openapi.yml
   format: yaml
   label: Targon Models API
   slug: targon-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-models-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-models-api-openapi.yml
 - filename: targon-search-api-openapi.yml
   format: yaml
   label: Targon Search API
   slug: targon-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-search-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-search-api-openapi.yml
 - filename: targon-chat-completions-api-openapi.yml
   format: yaml
   label: Targon Chat Completions API
   slug: targon-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/openapi/targon-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/targon/openapi/targon-chat-completions-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/targon-chat-api-openapi.yml, openapi/targon-completions-api-openapi.yml, openapi/targon-images-api-openapi.yml,\n  openapi/targon-models-api-openapi.yml, openapi/targon-search-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 3\n    connected: 3\n  by_consequence:\n    write: 3\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /completions\n  method: post\n  operationId: createCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/generations\n  method: post\n  operationId: createImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{model}\n  method: get\n\
   \  operationId: retrieveModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: post\n  operationId: createSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/agentic-access/targon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/targon/agentic-access/targon-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
 - Artificial Intelligence

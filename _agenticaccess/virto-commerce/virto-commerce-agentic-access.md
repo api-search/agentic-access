@@ -9,79 +9,79 @@ api_specs:
   label: Virto Commerce Catalog API
   slug: virto-commerce-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-catalog-api-openapi.yml
 - filename: virto-commerce-companies-and-contacts-api-openapi.yml
   format: yaml
   label: Virto Commerce Companies and Contacts API
   slug: virto-commerce-companies-and-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-companies-and-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-companies-and-contacts-api-openapi.yml
 - filename: virto-commerce-inventory-api-openapi.yml
   format: yaml
   label: Virto Commerce Inventory API
   slug: virto-commerce-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-inventory-api-openapi.yml
 - filename: virto-commerce-marketing-api-openapi.yml
   format: yaml
   label: Virto Commerce Marketing API
   slug: virto-commerce-marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-marketing-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-marketing-api-openapi.yml
 - filename: virto-commerce-order-management-api-openapi.yml
   format: yaml
   label: Virto Commerce Order Management API
   slug: virto-commerce-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-order-management-api-openapi.yml
 - filename: virto-commerce-pricing-api-openapi.yml
   format: yaml
   label: Virto Commerce Pricing API
   slug: virto-commerce-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-pricing-api-openapi.yml
 - filename: virto-commerce-quotes-api-openapi.yml
   format: yaml
   label: Virto Commerce Quotes API
   slug: virto-commerce-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-quotes-api-openapi.yml
 - filename: virto-commerce-shopping-cart-api-openapi.yml
   format: yaml
   label: Virto Commerce Shopping Cart API
   slug: virto-commerce-shopping-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-shopping-cart-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-shopping-cart-api-openapi.yml
 - filename: virto-commerce-store-api-openapi.yml
   format: yaml
   label: Virto Commerce Store API
   slug: virto-commerce-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-store-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-store-api-openapi.yml
 - filename: virto-commerce-virtocommerce-platform-api-openapi.yml
   format: yaml
   label: Virto Commerce VirtoCommerce Platform API
   slug: virto-commerce-virtocommerce-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-virtocommerce-platform-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-virtocommerce-platform-api-openapi.yml
 - filename: virto-commerce-webhooks-api-openapi.yml
   format: yaml
   label: Virto Commerce Webhooks API
   slug: virto-commerce-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-webhooks-api-openapi.yml
 - filename: virto-commerce-returns-api-openapi.yml
   format: yaml
   label: Virto Commerce Returns API
   slug: virto-commerce-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-returns-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-returns-api-openapi.yml
 - filename: virto-commerce-event-bus-module-api-openapi.yml
   format: yaml
   label: Virto Commerce Event Bus module API
   slug: virto-commerce-event-bus-module-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-event-bus-module-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-event-bus-module-api-openapi.yml
 consequence_counts:
   physical: 33
   read: 186
@@ -270,8 +270,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/virto-
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - catalog:dictionary-property:edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/catalog/dictionaryitems/{id}\n  method: patch\n  operationId: CatalogModulePropertyDictionaryItems_PatchPropertyDictionaryItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/catalog/propertygroups/{id}\n  method: get\n  operationId: CatalogModulePropertyGroups_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/catalog/propertygroups/search\n  method: post\n  operationId: CatalogModulePropertyGroups_Search\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/catalog/propertygroups\n  method: post\n  operationId: CatalogModulePropertyGroups_Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/catalog/propertygroups\n  method: delete\n  operationId: CatalogModulePropertyGroups_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/catalog/videos/options\n  method: get\n  operationId: CatalogModuleVideos_GetOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - catalog:access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/catalog/videos/create\n  method: post\n  operationId: CatalogModuleVideos_CreateVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - catalog:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/catalog/videos/search\n  method: post\n  operationId: CatalogModuleVideos_SearchVideos\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    scope:\n    - catalog:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/catalog/videos\n  method: post\n  operationId: CatalogModuleVideos_Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - catalog:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (153 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/agentic-access/virto-commerce-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/agentic-access/virto-commerce-agentic-access.yml
+  \ read\n    subject: optional\n    scope:\n    - catalog:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/catalog/videos\n  method: post\n  operationId: CatalogModuleVideos_Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - catalog:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (153 KB total) ---\n# Full source: https://artifacts.apis.io/virto-commerce/agentic-access/virto-commerce-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/virto-commerce/agentic-access/virto-commerce-agentic-access.yml
 summary_line: 452 operations · 266 acting · 9 human-in-the-loop
 tags:
 - B2B eCommerce

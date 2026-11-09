@@ -9,91 +9,91 @@ api_specs:
   label: Spot AI Analytics API
   slug: spot-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-analytics-api-openapi.yml
 - filename: spot-ai-appliances-api-openapi.yml
   format: yaml
   label: Spot AI Appliances API
   slug: spot-ai-appliances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-appliances-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-appliances-api-openapi.yml
 - filename: spot-ai-audio-api-openapi.yml
   format: yaml
   label: Spot AI Audio API
   slug: spot-ai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-audio-api-openapi.yml
 - filename: spot-ai-cameras-api-openapi.yml
   format: yaml
   label: Spot AI Cameras API
   slug: spot-ai-cameras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-cameras-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-cameras-api-openapi.yml
 - filename: spot-ai-embeds-api-openapi.yml
   format: yaml
   label: Spot AI Embeds API
   slug: spot-ai-embeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-embeds-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-embeds-api-openapi.yml
 - filename: spot-ai-historical-footage-api-openapi.yml
   format: yaml
   label: Spot AI Historical Footage API
   slug: spot-ai-historical-footage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-historical-footage-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-historical-footage-api-openapi.yml
 - filename: spot-ai-integration-devices-api-openapi.yml
   format: yaml
   label: Spot AI Integration Devices API
   slug: spot-ai-integration-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integration-devices-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-integration-devices-api-openapi.yml
 - filename: spot-ai-integration-event-types-api-openapi.yml
   format: yaml
   label: Spot AI Integration Event Types API
   slug: spot-ai-integration-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integration-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-integration-event-types-api-openapi.yml
 - filename: spot-ai-integration-events-api-openapi.yml
   format: yaml
   label: Spot AI Integration Events API
   slug: spot-ai-integration-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integration-events-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-integration-events-api-openapi.yml
 - filename: spot-ai-integrations-api-openapi.yml
   format: yaml
   label: Spot AI Integrations API
   slug: spot-ai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-integrations-api-openapi.yml
 - filename: spot-ai-locations-api-openapi.yml
   format: yaml
   label: Spot AI Locations API
   slug: spot-ai-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-locations-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-locations-api-openapi.yml
 - filename: spot-ai-lpi-api-openapi.yml
   format: yaml
   label: Spot AI LPI API
   slug: spot-ai-lpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-lpi-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-lpi-api-openapi.yml
 - filename: spot-ai-lpr-api-openapi.yml
   format: yaml
   label: Spot AI LPR API
   slug: spot-ai-lpr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-lpr-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-lpr-api-openapi.yml
 - filename: spot-ai-shared-search-api-openapi.yml
   format: yaml
   label: Spot AI Shared Search API
   slug: spot-ai-shared-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-shared-search-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-shared-search-api-openapi.yml
 - filename: spot-ai-zones-api-openapi.yml
   format: yaml
   label: Spot AI Zones API
   slug: spot-ai-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-zones-api-openapi.yml
+  url: https://artifacts.apis.io/spot-ai/openapi/spot-ai-zones-api-openapi.yml
 consequence_counts:
   read: 24
   write: 24
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spot-a
   \ max-ttl: 3600\n    audit: none\n- path: /v1/lpi\n  method: post\n  operationId: CreateInterestList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lpi\n  method: get\n  operationId: GetInterestLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lpr/cameras/{camera_id}/report\n  method: get\n  operationId: LprReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/shared/search\n  method: post\n  operationId: CreateSharedCameraSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cameras/shared/search/{token}\n  method: get\n  operationId: GetSharedCameraSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/shared/search/{token}\n  method: patch\n  operationId: UpdateSharedCameraSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cameras/{camera_id}/zones\n  method: get\n  operationId: GetZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/agentic-access/spot-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spot-ai/agentic-access/spot-ai-agentic-access.yml
 summary_line: 48 operations · 24 acting
 tags:
 - Company

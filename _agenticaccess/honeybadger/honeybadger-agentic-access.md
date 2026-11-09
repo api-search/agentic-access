@@ -15,37 +15,37 @@ api_specs:
   label: Honeybadger Check In API
   slug: honeybadger-check-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-check-in-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-check-in-api-openapi.yml
 - filename: honeybadger-deploys-api-openapi.yml
   format: yaml
   label: Honeybadger Deploys API
   slug: honeybadger-deploys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-deploys-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-deploys-api-openapi.yml
 - filename: honeybadger-events-api-openapi.yml
   format: yaml
   label: Honeybadger Events API
   slug: honeybadger-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-events-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-events-api-openapi.yml
 - filename: honeybadger-notices-api-openapi.yml
   format: yaml
   label: Honeybadger Notices API
   slug: honeybadger-notices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-notices-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-notices-api-openapi.yml
 - filename: honeybadger-projects-api-openapi.yml
   format: yaml
   label: Honeybadger Projects API
   slug: honeybadger-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-projects-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-projects-api-openapi.yml
 - filename: honeybadger-source-maps-api-openapi.yml
   format: yaml
   label: Honeybadger Source Maps API
   slug: honeybadger-source-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-source-maps-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-source-maps-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 15
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/honeyb
   \    audit: required\n- path: /v2/projects/{projectId}/faults/unpause\n  method: post\n  operationId: unpauseAllFaults\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/projects/{projectId}/faults/resolve\n  method: post\n  operationId: resolveAllFaults\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/projects/{projectId}/faults/{faultId}/link\n  method: post\n  operationId: linkFault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/projects/{projectId}/faults/{faultId}/unlink\n  method: post\n  operationId: unlinkFault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/projects/{projectId}/faults/{faultId}/notices\n  method: get\n  operationId: listFaultNotices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/projects/{projectId}/faults/{faultId}/affected_users\n  method: get\n  operationId: listAffectedUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/agentic-access/honeybadger-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/honeybadger/agentic-access/honeybadger-agentic-access.yml
 summary_line: 31 operations · 16 acting
 tags:
 - Error Monitoring

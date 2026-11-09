@@ -9,97 +9,97 @@ api_specs:
   label: AgencyZoom Authentication API
   slug: agencyzoom-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-authentication-api-openapi.yml
 - filename: agencyzoom-business-classifications-api-openapi.yml
   format: yaml
   label: AgencyZoom Business Classifications API
   slug: agencyzoom-business-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-business-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-business-classifications-api-openapi.yml
 - filename: agencyzoom-configuration-and-settings-api-openapi.yml
   format: yaml
   label: AgencyZoom Configuration and Settings API
   slug: agencyzoom-configuration-and-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-configuration-and-settings-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-configuration-and-settings-api-openapi.yml
 - filename: agencyzoom-contact-management-api-openapi.yml
   format: yaml
   label: AgencyZoom Contact Management API
   slug: agencyzoom-contact-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-contact-management-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-contact-management-api-openapi.yml
 - filename: agencyzoom-customer-management-api-openapi.yml
   format: yaml
   label: AgencyZoom Customer Management API
   slug: agencyzoom-customer-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-customer-management-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-customer-management-api-openapi.yml
 - filename: agencyzoom-dashboard-api-openapi.yml
   format: yaml
   label: AgencyZoom Dashboard API
   slug: agencyzoom-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-dashboard-api-openapi.yml
 - filename: agencyzoom-department-and-groups-api-openapi.yml
   format: yaml
   label: AgencyZoom Department and Groups API
   slug: agencyzoom-department-and-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-department-and-groups-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-department-and-groups-api-openapi.yml
 - filename: agencyzoom-lead-management-api-openapi.yml
   format: yaml
   label: AgencyZoom Lead Management API
   slug: agencyzoom-lead-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-lead-management-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-lead-management-api-openapi.yml
 - filename: agencyzoom-life-and-health-lead-management-api-openapi.yml
   format: yaml
   label: AgencyZoom Life and Health Lead Management API
   slug: agencyzoom-life-and-health-lead-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-life-and-health-lead-management-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-life-and-health-lead-management-api-openapi.yml
 - filename: agencyzoom-opportunity-management-api-openapi.yml
   format: yaml
   label: AgencyZoom Opportunity Management API
   slug: agencyzoom-opportunity-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-opportunity-management-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-opportunity-management-api-openapi.yml
 - filename: agencyzoom-pipeline-api-openapi.yml
   format: yaml
   label: AgencyZoom Pipeline API
   slug: agencyzoom-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-pipeline-api-openapi.yml
 - filename: agencyzoom-service-center-api-openapi.yml
   format: yaml
   label: AgencyZoom Service Center API
   slug: agencyzoom-service-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-service-center-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-service-center-api-openapi.yml
 - filename: agencyzoom-task-management-api-openapi.yml
   format: yaml
   label: AgencyZoom Task Management API
   slug: agencyzoom-task-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-task-management-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-task-management-api-openapi.yml
 - filename: agencyzoom-thread-api-openapi.yml
   format: yaml
   label: AgencyZoom Thread API
   slug: agencyzoom-thread-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-thread-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-thread-api-openapi.yml
 - filename: agencyzoom-user-management-api-openapi.yml
   format: yaml
   label: AgencyZoom User Management API
   slug: agencyzoom-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-user-management-api-openapi.yml
 - filename: agencyzoom-v4sso-authentication-api-openapi.yml
   format: yaml
   label: AgencyZoom V4SSO Authentication API
   slug: agencyzoom-v4sso-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/openapi/agencyzoom-v4sso-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/agencyzoom/openapi/agencyzoom-v4sso-authentication-api-openapi.yml
 consequence_counts:
   read: 19
   write: 17
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/agency
   \    audit: none\n- path: /v1/api/opportunities/{opportunityId}\n  method: put\n  operationId: putV1ApiOpportunitiesByOpportunityId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api/opportunities/{opportunityId}/driver\n  method: post\n  operationId: postV1ApiOpportunitiesByOpportunityIdDriver\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api/opportunities/{opportunityId}/vehicle\n  method: post\n  operationId: postV1ApiOpportunitiesByOpportunityIdVehicle\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api/pipelines\n  method: get\n  operationId: getV1ApiPipelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/api/pipelines-and-stages\n  method: get\n  operationId: getV1ApiPipelinesAndStages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/api/policies/create\n  method: post\n  operationId: postV1ApiPoliciesCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api/policies/{policyId}\n  method: put\n  operationId: putV1ApiPoliciesByPolicyId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api/policies/update-tags\n  method: post\n  operationId: postV1ApiPoliciesUpdateTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/agentic-access/agencyzoom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agencyzoom/agentic-access/agencyzoom-agentic-access.yml
 summary_line: 36 operations · 17 acting
 tags:
 - Insurance

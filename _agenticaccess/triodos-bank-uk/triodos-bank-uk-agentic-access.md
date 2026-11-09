@@ -9,61 +9,61 @@ api_specs:
   label: Triodos Bank UK Account Information Service API
   slug: triodos-bank-uk-account-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-account-information-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-account-information-service-api-openapi.yml
 - filename: triodos-bank-uk-authorization-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Authorization Endpoint API
   slug: triodos-bank-uk-authorization-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-authorization-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-authorization-endpoint-api-openapi.yml
 - filename: triodos-bank-uk-client-registration-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Client Registration Endpoint API
   slug: triodos-bank-uk-client-registration-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-client-registration-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-client-registration-endpoint-api-openapi.yml
 - filename: triodos-bank-uk-configuration-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Configuration Endpoint API
   slug: triodos-bank-uk-configuration-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-configuration-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-configuration-endpoint-api-openapi.yml
 - filename: triodos-bank-uk-confirmation-of-funds-service-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Confirmation of Funds Service API
   slug: triodos-bank-uk-confirmation-of-funds-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-confirmation-of-funds-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-confirmation-of-funds-service-api-openapi.yml
 - filename: triodos-bank-uk-extended-account-information-service-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Extended Account Information Service API
   slug: triodos-bank-uk-extended-account-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-extended-account-information-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-extended-account-information-service-api-openapi.yml
 - filename: triodos-bank-uk-initial-access-token-service-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Initial Access Token Service API
   slug: triodos-bank-uk-initial-access-token-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-initial-access-token-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-initial-access-token-service-api-openapi.yml
 - filename: triodos-bank-uk-payment-initiation-service-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Payment Initiation Service API
   slug: triodos-bank-uk-payment-initiation-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-payment-initiation-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-payment-initiation-service-api-openapi.yml
 - filename: triodos-bank-uk-token-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Token Endpoint API
   slug: triodos-bank-uk-token-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-token-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-token-endpoint-api-openapi.yml
 - filename: triodos-bank-uk-userinfo-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK UserInfo Endpoint API
   slug: triodos-bank-uk-userinfo-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-userinfo-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-userinfo-endpoint-api-openapi.yml
 consequence_counts:
   physical: 36
   read: 52
@@ -252,8 +252,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/triodo
   \  method: get\n  operationId: getCancellationAuthorisation_4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tenant}/v1/periodic-payments/sepa-credit-transfers/{resource-id}/cancellation-authorisations/{authorisation-id}\n  method: put\n  operationId: submitCancellationAuthorisation_4\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tenant}/v1/periodic-payments/sepa-credit-transfers/{resource-id}\n  method: delete\n  operationId: deletePayment_4\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n\
   \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tenant}/v1/periodic-payments/sepa-credit-transfers/{resource-id}/status\n  method: get\n  operationId: getStatus_4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tenant}/v1/periodic-payments/sepa-credit-transfers\n  method: post\n  operationId: initiateSepaPeriodicPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tenant}/v1/periodic-payments/uk-domestic-transfers/{resource-id}/authorisations\n\
   \  method: get\n  operationId: getAuthorisations_5\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tenant}/v1/periodic-payments/uk-domestic-transfers/{resource-id}/authorisations\n  method: post\n  operationId: createAuthorisation_5\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tenant}/v1/periodic-payments/uk-domestic-transfers/{resource-id}/authorisations/{authorisation-id}\n  method: get\n  operationId: getAuthorisation_5\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tenant}/v1/periodic-payments/uk-domestic-transfers/{resource-id}/authorisations/{authorisation-id}\n\
-  \  method: put\n  operationId: submitAuthorisation_5\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/agentic-access/triodos-bank-uk-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/agentic-access/triodos-bank-uk-agentic-access.yml
+  \  method: put\n  operationId: submitAuthorisation_5\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/triodos-bank-uk/agentic-access/triodos-bank-uk-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/triodos-bank-uk/agentic-access/triodos-bank-uk-agentic-access.yml
 summary_line: 101 operations · 49 acting · 1 human-in-the-loop
 tags:
 - Financial Services

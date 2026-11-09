@@ -9,91 +9,91 @@ api_specs:
   label: FOSSology Admin API
   slug: fossology-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-admin-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-admin-api-openapi.yml
 - filename: fossology-auth-api-openapi.yml
   format: yaml
   label: FOSSology Auth API
   slug: fossology-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-auth-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-auth-api-openapi.yml
 - filename: fossology-copyrights-api-openapi.yml
   format: yaml
   label: FOSSology Copyrights API
   slug: fossology-copyrights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-copyrights-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-copyrights-api-openapi.yml
 - filename: fossology-folders-api-openapi.yml
   format: yaml
   label: FOSSology Folders API
   slug: fossology-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-folders-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-folders-api-openapi.yml
 - filename: fossology-groups-api-openapi.yml
   format: yaml
   label: FOSSology Groups API
   slug: fossology-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-groups-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-groups-api-openapi.yml
 - filename: fossology-info-api-openapi.yml
   format: yaml
   label: FOSSology Info API
   slug: fossology-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-info-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-info-api-openapi.yml
 - filename: fossology-job-api-openapi.yml
   format: yaml
   label: FOSSology Job API
   slug: fossology-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-job-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-job-api-openapi.yml
 - filename: fossology-license-api-openapi.yml
   format: yaml
   label: FOSSology License API
   slug: fossology-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-license-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-license-api-openapi.yml
 - filename: fossology-maintenance-api-openapi.yml
   format: yaml
   label: FOSSology Maintenance API
   slug: fossology-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-maintenance-api-openapi.yml
 - filename: fossology-organize-api-openapi.yml
   format: yaml
   label: FOSSology Organize API
   slug: fossology-organize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-organize-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-organize-api-openapi.yml
 - filename: fossology-overview-api-openapi.yml
   format: yaml
   label: FOSSology Overview API
   slug: fossology-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-overview-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-overview-api-openapi.yml
 - filename: fossology-report-api-openapi.yml
   format: yaml
   label: FOSSology Report API
   slug: fossology-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-report-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-report-api-openapi.yml
 - filename: fossology-search-api-openapi.yml
   format: yaml
   label: FOSSology Search API
   slug: fossology-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-search-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-search-api-openapi.yml
 - filename: fossology-upload-api-openapi.yml
   format: yaml
   label: FOSSology Upload API
   slug: fossology-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-upload-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-upload-api-openapi.yml
 - filename: fossology-user-api-openapi.yml
   format: yaml
   label: FOSSology User API
   slug: fossology-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/openapi/fossology-user-api-openapi.yml
+  url: https://artifacts.apis.io/fossology/openapi/fossology-user-api-openapi.yml
 consequence_counts:
   read: 98
   safety-critical: 2
@@ -167,8 +167,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fossol
   \  method: put\n  operationId: updatePermissionByGroupIdAndUserId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/deletable\n  method: get\n  operationId: deletableGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{id}/members\n  method: get\n  operationId: getGroupUsersWithRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info\n  method: get\n  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /openapi\n  method: get\n  operationId: getOpenApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customise/banner\n  method: get\n  operationId: getBannerMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: get\n  operationId: getJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: post\n  operationId: startJobs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/all\n  method: get\n  operationId: getAllJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/scheduler/operation/{operationName}\n  method: get\n  operationId: getSchedulerOptionsByOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/scheduler/operation/run\n  method: post\n  operationId: handleSchedulerRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n#\
-  \ --- truncated at 32 KB (57 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/agentic-access/fossology-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/agentic-access/fossology-agentic-access.yml
+  \ --- truncated at 32 KB (57 KB total) ---\n# Full source: https://artifacts.apis.io/fossology/agentic-access/fossology-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/fossology/agentic-access/fossology-agentic-access.yml
 summary_line: 202 operations · 104 acting · 2 human-in-the-loop
 tags:
 - Compliance

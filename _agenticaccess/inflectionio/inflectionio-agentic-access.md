@@ -9,55 +9,55 @@ api_specs:
   label: Inflection.io Contact Activity API
   slug: inflectionio-contact-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contact-activity-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-contact-activity-api-openapi.yml
 - filename: inflectionio-contacts-api-openapi.yml
   format: yaml
   label: Inflection.io Contacts API
   slug: inflectionio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-contacts-api-openapi.yml
 - filename: inflectionio-emails-api-openapi.yml
   format: yaml
   label: Inflection.io Emails API
   slug: inflectionio-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-emails-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-emails-api-openapi.yml
 - filename: inflectionio-email-versions-api-openapi.yml
   format: yaml
   label: Inflection.io Email Versions API
   slug: inflectionio-email-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-email-versions-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-email-versions-api-openapi.yml
 - filename: inflectionio-journeys-api-openapi.yml
   format: yaml
   label: Inflection.io Journeys API
   slug: inflectionio-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-journeys-api-openapi.yml
 - filename: inflectionio-lists-api-openapi.yml
   format: yaml
   label: Inflection.io Lists API
   slug: inflectionio-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-lists-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-lists-api-openapi.yml
 - filename: inflectionio-organizations-api-openapi.yml
   format: yaml
   label: Inflection.io Organizations API
   slug: inflectionio-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-organizations-api-openapi.yml
 - filename: inflectionio-product-users-api-openapi.yml
   format: yaml
   label: Inflection.io Product Users API
   slug: inflectionio-product-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-product-users-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-product-users-api-openapi.yml
 - filename: inflectionio-stats-api-openapi.yml
   format: yaml
   label: Inflection.io Stats API
   slug: inflectionio-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-stats-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-stats-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/inflec
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/emails/{id}\n  method: get\n  operationId: getEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lists\n  method: post\n  operationId: createList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lists/{id}\n  method: get\n  operationId: getList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lists/{id}\n  method: patch\n  operationId: updateList\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lists/{id}\n  method: delete\n  operationId: deleteList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lists/{id}/members\n  method: get\n  operationId: getListMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lists/{id}/members\n  method: post\n  operationId: addListMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lists/{id}/members/{contactId}\n  method: delete\n  operationId: removeListMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/agentic-access/inflectionio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/inflectionio/agentic-access/inflectionio-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Company

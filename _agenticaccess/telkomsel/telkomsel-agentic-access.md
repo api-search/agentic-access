@@ -9,49 +9,49 @@ api_specs:
   label: Telkomsel Consent Management API
   slug: telkomsel-consent-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-consent-management-api-openapi.yml
+  url: https://artifacts.apis.io/telkomsel/openapi/telkomsel-consent-management-api-openapi.yml
 - filename: telkomsel-identity-verification-api-openapi.yml
   format: yaml
   label: Telkomsel Identity Verification API
   slug: telkomsel-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/telkomsel/openapi/telkomsel-identity-verification-api-openapi.yml
 - filename: telkomsel-location-api-openapi.yml
   format: yaml
   label: Telkomsel Location API
   slug: telkomsel-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-location-api-openapi.yml
+  url: https://artifacts.apis.io/telkomsel/openapi/telkomsel-location-api-openapi.yml
 - filename: telkomsel-scoring-and-insights-api-openapi.yml
   format: yaml
   label: Telkomsel Scoring and Insights API
   slug: telkomsel-scoring-and-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-scoring-and-insights-api-openapi.yml
+  url: https://artifacts.apis.io/telkomsel/openapi/telkomsel-scoring-and-insights-api-openapi.yml
 - filename: telkomsel-sim-swap-api-openapi.yml
   format: yaml
   label: Telkomsel SIM Swap API
   slug: telkomsel-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-sim-swap-api-openapi.yml
+  url: https://artifacts.apis.io/telkomsel/openapi/telkomsel-sim-swap-api-openapi.yml
 - filename: telkomsel-sms-api-openapi.yml
   format: yaml
   label: Telkomsel SMS API
   slug: telkomsel-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-sms-api-openapi.yml
+  url: https://artifacts.apis.io/telkomsel/openapi/telkomsel-sms-api-openapi.yml
 - filename: telkomsel-subscriber-check-api-openapi.yml
   format: yaml
   label: Telkomsel Subscriber Check API
   slug: telkomsel-subscriber-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-subscriber-check-api-openapi.yml
+  url: https://artifacts.apis.io/telkomsel/openapi/telkomsel-subscriber-check-api-openapi.yml
 - filename: telkomsel-ussd-api-openapi.yml
   format: yaml
   label: Telkomsel USSD API
   slug: telkomsel-ussd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/openapi/telkomsel-ussd-api-openapi.yml
+  url: https://artifacts.apis.io/telkomsel/openapi/telkomsel-ussd-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 2
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/telkom
   \ telcoScore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digihub/v1/generic/telco/score\n  method: post\n  operationId: telcoScore-125\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digihub/subscheck/sesv2\n  method: post\n  operationId: SES-v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /digihub/subscheck/interestv2\n  method: post\n  operationId: Interest-v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digihub/lifestyle-score\n  method: post\n  operationId: lifestyleScore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digihub/loyalist\n  method: post\n  operationId: customerLoyalty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/agentic-access/telkomsel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/telkomsel/agentic-access/telkomsel-agentic-access.yml
 summary_line: 27 operations · 25 acting
 tags:
 - Telecommunications

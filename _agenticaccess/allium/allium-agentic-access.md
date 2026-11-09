@@ -9,19 +9,19 @@ api_specs:
   label: Allium Explorer API
   slug: allium-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-explorer-api-openapi.yml
 - filename: allium-ping-api-openapi.yml
   format: yaml
   label: Allium Ping API
   slug: allium-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-ping-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-ping-api-openapi.yml
 - filename: allium-polygon-api-openapi.yml
   format: yaml
   label: Allium Polygon API
   slug: allium-polygon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-polygon-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-polygon-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/allium
   \  method: post\n  operationId: execute_query_async_api_v1_explorer_queries__query_id__run_async_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/explorer/query-runs\n  method: get\n  operationId: get_latest_query_run_handler_api_v1_explorer_query_runs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/explorer/query-runs/{run_id}/status\n  method: get\n  operationId: get_query_run_status_api_v1_explorer_query_runs__run_id__status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/explorer/query-runs/{run_id}/results\n\
   \  method: get\n  operationId: get_query_run_results_api_v1_explorer_query_runs__run_id__results_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/explorer/query-runs/{run_id}/cancel\n  method: post\n  operationId: cancel_query_run_api_v1_explorer_query_runs__run_id__cancel_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/polygon/nfts/\n  method: get\n  operationId: get_polygon_nfts_api_v1_polygon_nfts__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping_ping_get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/agentic-access/allium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/allium/agentic-access/allium-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Company

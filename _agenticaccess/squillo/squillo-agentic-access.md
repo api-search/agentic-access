@@ -9,25 +9,25 @@ api_specs:
   label: Squillo Connectors API
   slug: squillo-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-connectors-api-openapi.yml
 - filename: squillo-executions-api-openapi.yml
   format: yaml
   label: Squillo Executions API
   slug: squillo-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-executions-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-executions-api-openapi.yml
 - filename: squillo-variables-api-openapi.yml
   format: yaml
   label: Squillo Variables API
   slug: squillo-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-variables-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-variables-api-openapi.yml
 - filename: squillo-workflows-api-openapi.yml
   format: yaml
   label: Squillo Workflows API
   slug: squillo-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/openapi/squillo-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/squillo/openapi/squillo-workflows-api-openapi.yml
 consequence_counts:
   read: 7
   write: 9
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/squill
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /executions\n  method: get\n  operationId: listExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /executions/{executionId}\n  method: get\n  operationId: getExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /executions/{executionId}/cancel\n  method: post\n  operationId: cancelExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectors\n  method: get\n  operationId: listConnectors\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectors/{connectorId}/connections\n  method: get\n  operationId: listConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectors/{connectorId}/connections\n  method: post\n  operationId: createConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /variables\n  method: get\n  operationId: listVariables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variables\n  method:\
   \ post\n  operationId: createVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/agentic-access/squillo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/squillo/agentic-access/squillo-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - Integration Platform

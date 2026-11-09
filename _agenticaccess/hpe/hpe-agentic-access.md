@@ -9,19 +9,19 @@ api_specs:
   label: Hewlett Packard Enterprise Authorization API
   slug: hpe-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/hpe/openapi/hpe-authorization-api-openapi.yml
 - filename: hpe-identity-api-openapi.yml
   format: yaml
   label: Hewlett Packard Enterprise Identity API
   slug: hpe-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-identity-api-openapi.yml
+  url: https://artifacts.apis.io/hpe/openapi/hpe-identity-api-openapi.yml
 - filename: hpe-workspaces-api-openapi.yml
   format: yaml
   label: Hewlett Packard Enterprise Workspaces API
   slug: hpe-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/openapi/hpe-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/hpe/openapi/hpe-workspaces-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hpe-op
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /authorization/v1beta1/scope-groups/{scope-group-id}/scopes/batch\n  method: post\n  operationId: addScopesBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorization/v1beta1/scope-groups/{scope-group-id}/scopes/bulk\n  method: delete\n  operationId: removeScopesBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorization/v1beta1/role-assignments\n  method: post\n  operationId: createRoleAssignment\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorization/v1beta1/role-assignments/{id}\n  method: get\n  operationId: getRoleAssignment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authorization/v1beta1/role-assignments/{id}\n  method: put\n  operationId: updateRoleAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorization/v1beta1/role-assignments/{id}\n  method: delete\n  operationId: deleteRoleAssignment\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/agentic-access/hpe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hpe/agentic-access/hpe-agentic-access.yml
 summary_line: 20 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Cloud

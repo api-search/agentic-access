@@ -9,67 +9,67 @@ api_specs:
   label: Teradata API Info API
   slug: teradata-api-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-api-info-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-api-info-api-openapi.yml
 - filename: teradata-configuration-api-openapi.yml
   format: yaml
   label: Teradata Configuration API
   slug: teradata-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-configuration-api-openapi.yml
 - filename: teradata-issues-api-openapi.yml
   format: yaml
   label: Teradata Issues API
   slug: teradata-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-issues-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-issues-api-openapi.yml
 - filename: teradata-managers-api-openapi.yml
   format: yaml
   label: Teradata Managers API
   slug: teradata-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-managers-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-managers-api-openapi.yml
 - filename: teradata-nodes-api-openapi.yml
   format: yaml
   label: Teradata Nodes API
   slug: teradata-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-nodes-api-openapi.yml
 - filename: teradata-operations-api-openapi.yml
   format: yaml
   label: Teradata Operations API
   slug: teradata-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-operations-api-openapi.yml
 - filename: teradata-queries-api-openapi.yml
   format: yaml
   label: Teradata Queries API
   slug: teradata-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-queries-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-queries-api-openapi.yml
 - filename: teradata-sessions-api-openapi.yml
   format: yaml
   label: Teradata Sessions API
   slug: teradata-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-sessions-api-openapi.yml
 - filename: teradata-software-api-openapi.yml
   format: yaml
   label: Teradata Software API
   slug: teradata-software-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-software-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-software-api-openapi.yml
 - filename: teradata-systems-api-openapi.yml
   format: yaml
   label: Teradata Systems API
   slug: teradata-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-systems-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-systems-api-openapi.yml
 - filename: teradata-users-api-openapi.yml
   format: yaml
   label: Teradata Users API
   slug: teradata-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-users-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-users-api-openapi.yml
 consequence_counts:
   read: 77
   safety-critical: 3
@@ -147,8 +147,8 @@ source_yaml: "generated: '2026-10-17'\nmethod: generated\nsource: openapi/terada
   - path: /config/user-mappings/{id}\n  method: delete\n  operationId: deleteConfigUserMappingsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/user-mappings/{id}\n  method: get\n  operationId: getConfigUserMappingsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/user-mappings/{id}\n  method: put\n  operationId: putConfigUserMappingsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/datacenters\n\
   \  method: get\n  operationId: listDataCenters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/datacenters\n  method: post\n  operationId: createDataCenter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/systems\n  method: get\n  operationId: listSystems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/systems\n  method: post\n  operationId: createSystem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/bridges\n  method: get\n  operationId: listBridges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/bridges\n  method: post\n  operationId: createBridge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/connectors\n  method: get\n  operationId: listConnectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/connectors\n  method: post\n  operationId: createConnector\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/links\n  method: get\n  operationId: listLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/links\n  method: post\n  operationId: createLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/agentic-access/teradata-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/agentic-access/teradata-agentic-access.yml
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/links\n  method: get\n  operationId: listLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/links\n  method: post\n  operationId: createLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://artifacts.apis.io/teradata/agentic-access/teradata-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/teradata/agentic-access/teradata-agentic-access.yml
 summary_line: 170 operations · 93 acting · 3 human-in-the-loop
 tags:
 - Analytics

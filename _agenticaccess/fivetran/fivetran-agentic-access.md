@@ -9,49 +9,49 @@ api_specs:
   label: Fivetran Connections API
   slug: fivetran-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-connections-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-connections-api-openapi.yml
 - filename: fivetran-destinations-api-openapi.yml
   format: yaml
   label: Fivetran Destinations API
   slug: fivetran-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-destinations-api-openapi.yml
 - filename: fivetran-groups-api-openapi.yml
   format: yaml
   label: Fivetran Groups API
   slug: fivetran-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-groups-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-groups-api-openapi.yml
 - filename: fivetran-metadata-api-openapi.yml
   format: yaml
   label: Fivetran Metadata API
   slug: fivetran-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-metadata-api-openapi.yml
 - filename: fivetran-roles-api-openapi.yml
   format: yaml
   label: Fivetran Roles API
   slug: fivetran-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-roles-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-roles-api-openapi.yml
 - filename: fivetran-teams-api-openapi.yml
   format: yaml
   label: Fivetran Teams API
   slug: fivetran-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-teams-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-teams-api-openapi.yml
 - filename: fivetran-users-api-openapi.yml
   format: yaml
   label: Fivetran Users API
   slug: fivetran-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-users-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-users-api-openapi.yml
 - filename: fivetran-webhooks-api-openapi.yml
   format: yaml
   label: Fivetran Webhooks API
   slug: fivetran-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/openapi/fivetran-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fivetran/openapi/fivetran-webhooks-api-openapi.yml
 consequence_counts:
   read: 13
   write: 23
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fivetr
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}/test\n  method: post\n  operationId: testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata/connector-types\n  method: get\n  operationId: listConnectorTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method:\
   \ get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: post\n  operationId: createTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/agentic-access/fivetran-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fivetran/agentic-access/fivetran-agentic-access.yml
 summary_line: 36 operations · 23 acting
 tags:
 - Connectors

@@ -9,25 +9,25 @@ api_specs:
   label: The Ainglish Project Proposals API
   slug: ainglish-org-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-proposals-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-proposals-api-openapi.yml
 - filename: ainglish-org-read-api-openapi.yml
   format: yaml
   label: The Ainglish Project Read API
   slug: ainglish-org-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-read-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-read-api-openapi.yml
 - filename: ainglish-org-verify-api-openapi.yml
   format: yaml
   label: The Ainglish Project Verify API
   slug: ainglish-org-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-verify-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-verify-api-openapi.yml
 - filename: ainglish-org-write-api-openapi.yml
   format: yaml
   label: The Ainglish Project Write API
   slug: ainglish-org-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/openapi/ainglish-org-write-api-openapi.yml
+  url: https://artifacts.apis.io/ainglish-org/openapi/ainglish-org-write-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 62
@@ -111,8 +111,8 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/aingli
   \ /api/v1/measurements\n  method: get\n  operationId: listMeasurements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/readers\n  method: get\n  operationId: readerRegistry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/measurements/{hash}\n  method: get\n  operationId: measurementByHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/measurements/{attemptId}/void\n  method: post\n  operationId: voidDeterministicSettlement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /api/v1/measurements/{attemptId}/retire-legacy-contract\n  method: post\n  operationId: retireLegacyMeasurementContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/measurements/{attemptId}/retract\n  method: post\n  operationId: retractMeasurement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/proposals/{slug}/history\n  method: get\n  operationId: proposalHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/proposals/{slug}/stage-history\n  method: get\n  operationId: proposalStageHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/proposals/{proposal}/slug-history\n  method: get\n  operationId: getProposalSlugHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/translate\n  method: post\n  operationId: translate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/limits\n  method: get\n  operationId: limits\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/proposals/{slug}/attempts\n  method: get\n  operationId: listProposalAttempts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/proposals/{slug}/attempts\n  method: post\n  operationId: mintAttempt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/agentic-access/ainglish-org-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ainglish-org/refs/heads/main/agentic-access/ainglish-org-agentic-access.yml
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/proposals/{slug}/attempts\n  method: get\n  operationId: listProposalAttempts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/proposals/{slug}/attempts\n  method: post\n  operationId: mintAttempt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/ainglish-org/agentic-access/ainglish-org-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ainglish-org/agentic-access/ainglish-org-agentic-access.yml
 summary_line: 116 operations · 54 acting · 1 human-in-the-loop
 tags:
 - AI Agents
@@ -124,6 +124,6 @@ tags:
 - MCP
 - A2A
 - Webhook
-- llms-txt
+- Llms.txt
 - Agent-Native
 ---

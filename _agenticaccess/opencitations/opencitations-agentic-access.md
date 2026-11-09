@@ -8,31 +8,31 @@ api_specs:
   label: OpenCitations Authors API
   slug: opencitations-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-authors-api-openapi.yml
+  url: https://artifacts.apis.io/opencitations/openapi/opencitations-authors-api-openapi.yml
 - filename: opencitations-citations-api-openapi.yml
   format: yaml
   label: OpenCitations Citations API
   slug: opencitations-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-citations-api-openapi.yml
+  url: https://artifacts.apis.io/opencitations/openapi/opencitations-citations-api-openapi.yml
 - filename: opencitations-editors-api-openapi.yml
   format: yaml
   label: OpenCitations Editors API
   slug: opencitations-editors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-editors-api-openapi.yml
+  url: https://artifacts.apis.io/opencitations/openapi/opencitations-editors-api-openapi.yml
 - filename: opencitations-metadata-api-openapi.yml
   format: yaml
   label: OpenCitations Metadata API
   slug: opencitations-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/opencitations/openapi/opencitations-metadata-api-openapi.yml
 - filename: opencitations-references-api-openapi.yml
   format: yaml
   label: OpenCitations References API
   slug: opencitations-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/openapi/opencitations-references-api-openapi.yml
+  url: https://artifacts.apis.io/opencitations/openapi/opencitations-references-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/index-api.yml, openapi/meta-api.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /citation/{oci}\n  method: get\n  operationId: getCitationByOCI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /citation-count/{id}\n  method: get\n  operationId: getCitationCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /venue-citation-count/{id}\n  method:\
   \ get\n  operationId: getVenueCitationCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference-count/{id}\n  method: get\n  operationId: getReferenceCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /citations/{id}\n  method: get\n  operationId: getCitations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /references/{id}\n  method: get\n  operationId: getReferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata/{ids}\n  method: get\n  operationId: getMetadataByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /author/{id}\n  method: get\n  operationId: getWorksByAuthor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editor/{id}\n  method: get\n  operationId: getWorksByEditor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/agentic-access/opencitations-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opencitations/agentic-access/opencitations-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Citations

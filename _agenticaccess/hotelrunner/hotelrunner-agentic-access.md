@@ -9,25 +9,25 @@ api_specs:
   label: HotelRunner Channels API
   slug: hotelrunner-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-channels-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-channels-api-openapi.yml
 - filename: hotelrunner-inventory-api-openapi.yml
   format: yaml
   label: HotelRunner Inventory API
   slug: hotelrunner-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-inventory-api-openapi.yml
 - filename: hotelrunner-reference-data-api-openapi.yml
   format: yaml
   label: HotelRunner Reference Data API
   slug: hotelrunner-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-reference-data-api-openapi.yml
 - filename: hotelrunner-reservations-api-openapi.yml
   format: yaml
   label: HotelRunner Reservations API
   slug: hotelrunner-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/openapi/hotelrunner-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/hotelrunner/openapi/hotelrunner-reservations-api-openapi.yml
 consequence_counts:
   read: 11
   write: 4
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hotelr
   - path: /reservations/~\n  method: put\n  operationId: confirmReservationDelivery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /infos/connected_channels\n  method: get\n  operationId: listConnectedChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/property/types.json\n  method: get\n  operationId: getPropertyKinds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/room/types.json\n  method: get\n  operationId: getRoomKinds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/currency/currencies.json\n  method: get\n  operationId: getCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/get-property-services\n  method: get\n  operationId: getPropertyServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/get-property-facilities\n  method: get\n  operationId: getPropertyFacilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/get-room-amenities\n  method: get\n  operationId: getRoomAmenities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/country-codes\n\
   \  method: get\n  operationId: getCountryCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/channel-list\n  method: get\n  operationId: getChannelList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/agentic-access/hotelrunner-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hotelrunner/agentic-access/hotelrunner-agentic-access.yml
 summary_line: 15 operations · 4 acting
 tags:
 - Hospitality

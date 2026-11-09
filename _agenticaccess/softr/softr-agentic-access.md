@@ -9,19 +9,19 @@ api_specs:
   label: Softr Databases API
   slug: softr-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-databases-api-openapi.yml
+  url: https://artifacts.apis.io/softr/openapi/softr-databases-api-openapi.yml
 - filename: softr-records-api-openapi.yml
   format: yaml
   label: Softr Records API
   slug: softr-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-records-api-openapi.yml
+  url: https://artifacts.apis.io/softr/openapi/softr-records-api-openapi.yml
 - filename: softr-users-api-openapi.yml
   format: yaml
   label: Softr Users API
   slug: softr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/openapi/softr-users-api-openapi.yml
+  url: https://artifacts.apis.io/softr/openapi/softr-users-api-openapi.yml
 consequence_counts:
   read: 4
   write: 10
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/softr-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{email}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{email}/activate\n  method: post\n  operationId: activateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{email}/deactivate\n  method: post\n  operationId: deactivateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{email}/invite\n  method: post\n  operationId: inviteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/magic-link/generate/{email}\n  method: post\n  operationId: generateMagicLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/sync\n  method: post\n  operationId: syncUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/agentic-access/softr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/softr/agentic-access/softr-agentic-access.yml
 summary_line: 14 operations · 10 acting
 tags:
 - No-Code

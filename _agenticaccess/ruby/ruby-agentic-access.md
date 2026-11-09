@@ -9,55 +9,55 @@ api_specs:
   label: Ruby Programming Language and Popular API Gems Activity API
   slug: ruby-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-activity-api-openapi.yml
+  url: https://artifacts.apis.io/ruby/openapi/ruby-activity-api-openapi.yml
 - filename: ruby-api-keys-api-openapi.yml
   format: yaml
   label: Ruby Programming Language and Popular API Gems API Keys API
   slug: ruby-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ruby/openapi/ruby-api-keys-api-openapi.yml
 - filename: ruby-downloads-api-openapi.yml
   format: yaml
   label: Ruby Programming Language and Popular API Gems Downloads API
   slug: ruby-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/ruby/openapi/ruby-downloads-api-openapi.yml
 - filename: ruby-gems-api-openapi.yml
   format: yaml
   label: Ruby Programming Language and Popular API Gems API
   slug: ruby-gems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-gems-api-openapi.yml
+  url: https://artifacts.apis.io/ruby/openapi/ruby-gems-api-openapi.yml
 - filename: ruby-oidc-api-openapi.yml
   format: yaml
   label: Ruby Programming Language and Popular API Gems OIDC API
   slug: ruby-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/ruby/openapi/ruby-oidc-api-openapi.yml
 - filename: ruby-owners-api-openapi.yml
   format: yaml
   label: Ruby Programming Language and Popular API Gems Owners API
   slug: ruby-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-owners-api-openapi.yml
+  url: https://artifacts.apis.io/ruby/openapi/ruby-owners-api-openapi.yml
 - filename: ruby-profiles-api-openapi.yml
   format: yaml
   label: Ruby Programming Language and Popular API Gems Profiles API
   slug: ruby-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/ruby/openapi/ruby-profiles-api-openapi.yml
 - filename: ruby-versions-api-openapi.yml
   format: yaml
   label: Ruby Programming Language and Popular API Gems Versions API
   slug: ruby-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-versions-api-openapi.yml
+  url: https://artifacts.apis.io/ruby/openapi/ruby-versions-api-openapi.yml
 - filename: ruby-webhooks-api-openapi.yml
   format: yaml
   label: Ruby Programming Language and Popular API Gems Webhooks API
   slug: ruby-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/openapi/ruby-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ruby/openapi/ruby-webhooks-api-openapi.yml
 consequence_counts:
   read: 14
   write: 8
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rubyge
   \    audit: required\n- path: /api/v1/profiles/me.json\n  method: get\n  operationId: getMyProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/web_hooks.json\n  method: get\n  operationId: listWebHooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/web_hooks\n  method: post\n  operationId: createWebHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/web_hooks/remove\n  method: delete\n  operationId: removeWebHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/web_hooks/fire\n  method: post\n  operationId: fireWebHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/activity/latest.json\n  method: get\n  operationId: getLatestActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/activity/just_updated.json\n  method: get\n  operationId: getJustUpdated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/api_key.json\n  method: get\n  operationId: getApiKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/oidc/api_key_role/{token}/assume_role\n  method: post\n  operationId: assumeOidcRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/agentic-access/ruby-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ruby/agentic-access/ruby-agentic-access.yml
 summary_line: 22 operations · 8 acting
 tags:
 - Programming Language

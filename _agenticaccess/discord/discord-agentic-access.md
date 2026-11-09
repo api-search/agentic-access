@@ -9,109 +9,109 @@ api_specs:
   label: Discord Interactions API
   slug: discord-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-interactions-api-openapi.yml
 - filename: discord-webhook-events-api-openapi.yml
   format: yaml
   label: Discord Webhook Events API
   slug: discord-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-webhook-events-api-openapi.yml
 - filename: discord-applications-api-openapi.yml
   format: yaml
   label: Discord Applications API
   slug: discord-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-applications-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-applications-api-openapi.yml
 - filename: discord-channels-api-openapi.yml
   format: yaml
   label: Discord Channels API
   slug: discord-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-channels-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-channels-api-openapi.yml
 - filename: discord-gateway-api-openapi.yml
   format: yaml
   label: Discord Gateway API
   slug: discord-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-gateway-api-openapi.yml
 - filename: discord-guilds-api-openapi.yml
   format: yaml
   label: Discord Guilds API
   slug: discord-guilds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-guilds-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-guilds-api-openapi.yml
 - filename: discord-invites-api-openapi.yml
   format: yaml
   label: Discord Invites API
   slug: discord-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-invites-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-invites-api-openapi.yml
 - filename: discord-stage-instances-api-openapi.yml
   format: yaml
   label: Discord Stage Instances API
   slug: discord-stage-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-stage-instances-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-stage-instances-api-openapi.yml
 - filename: discord-sticker-packs-api-openapi.yml
   format: yaml
   label: Discord Sticker Packs API
   slug: discord-sticker-packs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-sticker-packs-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-sticker-packs-api-openapi.yml
 - filename: discord-stickers-api-openapi.yml
   format: yaml
   label: Discord Stickers API
   slug: discord-stickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-stickers-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-stickers-api-openapi.yml
 - filename: discord-users-api-openapi.yml
   format: yaml
   label: Discord Users API
   slug: discord-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-users-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-users-api-openapi.yml
 - filename: discord-voice-api-openapi.yml
   format: yaml
   label: Discord Voice API
   slug: discord-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-voice-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-voice-api-openapi.yml
 - filename: discord-webhooks-api-openapi.yml
   format: yaml
   label: Discord Webhooks API
   slug: discord-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-webhooks-api-openapi.yml
 - filename: discord-oauth2-api-openapi.yml
   format: yaml
   label: Discord Oauth2 API
   slug: discord-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-oauth2-api-openapi.yml
 - filename: discord-lobbies-api-openapi.yml
   format: yaml
   label: Discord Lobbies API
   slug: discord-lobbies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-lobbies-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-lobbies-api-openapi.yml
 - filename: discord-partner-sdk-api-openapi.yml
   format: yaml
   label: Discord Partner Sdk API
   slug: discord-partner-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-partner-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-partner-sdk-api-openapi.yml
 - filename: discord-skus-api-openapi.yml
   format: yaml
   label: Discord Skus API
   slug: discord-skus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-skus-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-skus-api-openapi.yml
 - filename: discord-soundboard-default-sounds-api-openapi.yml
   format: yaml
   label: Discord Soundboard Default Sounds API
   slug: discord-soundboard-default-sounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-soundboard-default-sounds-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-soundboard-default-sounds-api-openapi.yml
 consequence_counts:
   read: 131
   safety-critical: 2
@@ -184,8 +184,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/discor
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guilds/{guild_id}/auto-moderation/rules/{rule_id}\n  method: get\n  operationId: get_auto_moderation_rule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guilds/{guild_id}/auto-moderation/rules/{rule_id}\n  method: delete\n  operationId: delete_auto_moderation_rule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guilds/{guild_id}/auto-moderation/rules/{rule_id}\n  method: patch\n  operationId: update_auto_moderation_rule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guilds/{guild_id}/auto-moderation/rules\n  method: get\n  operationId: list_auto_moderation_rules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guilds/{guild_id}/auto-moderation/rules\n  method: post\n  operationId: create_auto_moderation_rule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guilds/{guild_id}/voice-states/@me\n  method: patch\n  operationId: update_self_voice_state\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guilds/{guild_id}/members/search\n  method: get\n  operationId: search_guild_members\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guilds/{guild_id}/threads/active\n  method: get\n  operationId: get_active_guild_threads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guilds/{guild_id}/members/@me\n  method: patch\n  operationId: update_my_guild_member\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /guilds/{guild_id}/members/{user_id}/roles/{role_id}\n  method: put\n  operationId: add_guild_member_role\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guilds/{guild_id}/members/{user_id}/roles/{role_id}\n  method: delete\n  operationId: delete_guild_member_role\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (91 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/agentic-access/discord-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/agentic-access/discord-agentic-access.yml
+  \      - high-value\n    audit: required\n- path: /guilds/{guild_id}/members/{user_id}/roles/{role_id}\n  method: put\n  operationId: add_guild_member_role\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guilds/{guild_id}/members/{user_id}/roles/{role_id}\n  method: delete\n  operationId: delete_guild_member_role\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (91 KB total) ---\n# Full source: https://artifacts.apis.io/discord/agentic-access/discord-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/discord/agentic-access/discord-agentic-access.yml
 summary_line: 298 operations · 167 acting · 2 human-in-the-loop
 tags:
 - Discord

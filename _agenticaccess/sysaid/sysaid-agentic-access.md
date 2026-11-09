@@ -9,97 +9,97 @@ api_specs:
   label: SysAid Activities API
   slug: sysaid-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-activities-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-activities-api-openapi.yml
 - filename: sysaid-agents-api-openapi.yml
   format: yaml
   label: SysAid Agents API
   slug: sysaid-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-agents-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-agents-api-openapi.yml
 - filename: sysaid-assets-api-openapi.yml
   format: yaml
   label: SysAid Assets API
   slug: sysaid-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-assets-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-assets-api-openapi.yml
 - filename: sysaid-attachments-api-openapi.yml
   format: yaml
   label: SysAid Attachments API
   slug: sysaid-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-attachments-api-openapi.yml
 - filename: sysaid-auth-api-openapi.yml
   format: yaml
   label: SysAid Auth API
   slug: sysaid-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-auth-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-auth-api-openapi.yml
 - filename: sysaid-companies-api-openapi.yml
   format: yaml
   label: SysAid Companies API
   slug: sysaid-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-companies-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-companies-api-openapi.yml
 - filename: sysaid-groups-api-openapi.yml
   format: yaml
   label: SysAid Groups API
   slug: sysaid-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-groups-api-openapi.yml
 - filename: sysaid-licensemanager-api-openapi.yml
   format: yaml
   label: SysAid LicenseManager API
   slug: sysaid-licensemanager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-licensemanager-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-licensemanager-api-openapi.yml
 - filename: sysaid-servicerecords-api-openapi.yml
   format: yaml
   label: SysAid ServiceRecords API
   slug: sysaid-servicerecords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-servicerecords-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-servicerecords-api-openapi.yml
 - filename: sysaid-templates-api-openapi.yml
   format: yaml
   label: SysAid Templates API
   slug: sysaid-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-templates-api-openapi.yml
 - filename: sysaid-utilities-api-openapi.yml
   format: yaml
   label: SysAid Utilities API
   slug: sysaid-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-utilities-api-openapi.yml
 - filename: sysaid-webhooks-api-openapi.yml
   format: yaml
   label: SysAid Webhooks API
   slug: sysaid-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-webhooks-api-openapi.yml
 - filename: sysaid-cis-api-openapi.yml
   format: yaml
   label: SysAid C Is API
   slug: sysaid-cis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-cis-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-cis-api-openapi.yml
 - filename: sysaid-action-items-api-openapi.yml
   format: yaml
   label: SysAid Action Items API
   slug: sysaid-action-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-action-items-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-action-items-api-openapi.yml
 - filename: sysaid-end-users-api-openapi.yml
   format: yaml
   label: SysAid End Users API
   slug: sysaid-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-end-users-api-openapi.yml
 - filename: sysaid-related-items-api-openapi.yml
   format: yaml
   label: SysAid Related Items API
   slug: sysaid-related-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/openapi/sysaid-related-items-api-openapi.yml
+  url: https://artifacts.apis.io/sysaid/openapi/sysaid-related-items-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 30
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sysaid
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /simulatewebhookevent\n  method: post\n  operationId: simulateWebhookEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getwebhooksubscriberbyid\n  method: get\n  operationId: getWebhookSubscriberById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deletewebhooksubscriberbyid\n  method: delete\n  operationId: deleteWebhookSubscriberById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /getlicensemanagercontracts\n  method: get\n  operationId: getLicenseManagerContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /createlicensemanagercontract\n  method: post\n  operationId: createLicenseManagerContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getindexes\n  method: get\n  operationId: getIndexes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getcustomfieldsinfolist\n  method: get\n  operationId: getCustomFieldsInfoList\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getcategories\n  method: get\n  operationId: getCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/agentic-access/sysaid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sysaid/agentic-access/sysaid-agentic-access.yml
 summary_line: 75 operations · 45 acting
 tags:
 - ITSM

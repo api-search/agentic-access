@@ -9,25 +9,25 @@ api_specs:
   label: Android Orders API
   slug: android-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-orders-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-orders-api-openapi.yml
 - filename: android-purchases-api-openapi.yml
   format: yaml
   label: Android Purchases API
   slug: android-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-purchases-api-openapi.yml
 - filename: android-reviews-api-openapi.yml
   format: yaml
   label: Android Reviews API
   slug: android-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-reviews-api-openapi.yml
 - filename: android-subscriptions-api-openapi.yml
   format: yaml
   label: Android Subscriptions API
   slug: android-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 9
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - androidpublisher\n- path: /applications/{packageName}/monetization/subscriptions/{productId}/basePlans/{basePlanId}/offers\n  method: post\n  operationId: createSubscriptionOffer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - androidpublisher\n- path: /applications/{packageName}/reviews\n  method: get\n  operationId: listReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - androidpublisher\n- path: /applications/{packageName}/reviews/{reviewId}\n  method: get\n  operationId: getReview\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - androidpublisher\n- path: /applications/{packageName}/reviews/{reviewId}:reply\n  method: post\n  operationId: replyToReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - androidpublisher\n- path: /applications/{packageName}/orders/{orderId}:refund\n  method: post\n  operationId: refundOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n    scope:\n    - androidpublisher\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/agentic-access/android-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/android/agentic-access/android-agentic-access.yml
 summary_line: 21 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

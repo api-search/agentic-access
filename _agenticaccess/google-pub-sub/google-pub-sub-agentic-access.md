@@ -9,37 +9,37 @@ api_specs:
   label: Google Pub/Sub Publish API
   slug: google-pub-sub-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-publish-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-publish-api-openapi.yml
 - filename: google-pub-sub-schemas-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Schemas API
   slug: google-pub-sub-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-schemas-api-openapi.yml
 - filename: google-pub-sub-snapshots-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Snapshots API
   slug: google-pub-sub-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-snapshots-api-openapi.yml
 - filename: google-pub-sub-subscribe-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Subscribe API
   slug: google-pub-sub-subscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-subscribe-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-subscribe-api-openapi.yml
 - filename: google-pub-sub-subscriptions-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Subscriptions API
   slug: google-pub-sub-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-subscriptions-api-openapi.yml
 - filename: google-pub-sub-topics-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Topics API
   slug: google-pub-sub-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-topics-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-topics-api-openapi.yml
 consequence_counts:
   read: 7
   write: 12
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \     - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/pubsub\n- path: /v1/{subscription}:modifyAckDeadline\n  method: post\n  operationId: modifyAckDeadline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/pubsub\n- path: /v1/projects/{project}/snapshots\n  method: get\n  operationId: listSnapshots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/pubsub\n- path: /v1/projects/{project}/snapshots/{snapshot}\n  method: get\n  operationId: getSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/pubsub\n- path: /v1/projects/{project}/snapshots/{snapshot}\n  method: put\n  operationId: createSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/pubsub\n- path: /v1/projects/{project}/snapshots/{snapshot}\n  method: delete\n  operationId: deleteSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/pubsub\n- path: /v1/projects/{project}/schemas\n\
   \  method: get\n  operationId: listSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/pubsub\n- path: /v1/projects/{project}/schemas\n  method: post\n  operationId: createSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/pubsub\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/agentic-access/google-pub-sub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-pub-sub/agentic-access/google-pub-sub-agentic-access.yml
 summary_line: 19 operations · 12 acting
 tags:
 - Cloud

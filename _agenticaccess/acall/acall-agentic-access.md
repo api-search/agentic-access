@@ -9,37 +9,37 @@ api_specs:
   label: Acall Event API
   slug: acall-event-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-event-api-api-openapi.yml
+  url: https://artifacts.apis.io/acall/openapi/acall-event-api-api-openapi.yml
 - filename: acall-facility-api-api-openapi.yml
   format: yaml
   label: Acall Facility API
   slug: acall-facility-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-facility-api-api-openapi.yml
+  url: https://artifacts.apis.io/acall/openapi/acall-facility-api-api-openapi.yml
 - filename: acall-gate-api-api-openapi.yml
   format: yaml
   label: Acall Gate API
   slug: acall-gate-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-gate-api-api-openapi.yml
+  url: https://artifacts.apis.io/acall/openapi/acall-gate-api-api-openapi.yml
 - filename: acall-spot-api-api-openapi.yml
   format: yaml
   label: Acall Spot API
   slug: acall-spot-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-spot-api-api-openapi.yml
+  url: https://artifacts.apis.io/acall/openapi/acall-spot-api-api-openapi.yml
 - filename: acall-spot-reservation-api-api-openapi.yml
   format: yaml
   label: Acall Spot Reservation API
   slug: acall-spot-reservation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-spot-reservation-api-api-openapi.yml
+  url: https://artifacts.apis.io/acall/openapi/acall-spot-reservation-api-api-openapi.yml
 - filename: acall-user-api-api-openapi.yml
   format: yaml
   label: Acall User API
   slug: acall-user-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/openapi/acall-user-api-api-openapi.yml
+  url: https://artifacts.apis.io/acall/openapi/acall-user-api-api-openapi.yml
 consequence_counts:
   read: 10
   write: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: generated\nsource: openapi/acall-
   \ getFacilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities/{facility_id}\n  method: get\n  operationId: getFacility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: getEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{event_id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gates/logs\n  method: get\n  operationId: getGateLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /spots\n  method: get\n  operationId: getSpots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spot_reservations/\n  method: get\n  operationId: getSpotReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spot_reservations/\n  method: post\n  operationId: postSpotReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spot_reservations/{spot_reservation_id}\n  method: delete\n  operationId: deleteSpotReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spot_reservations/{spot_reservation_id}\n  method: get\n  operationId: getSpotReservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spot_reservations/{spot_reservation_id}\n  method: patch\n  operationId: putSpotReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acall/refs/heads/main/agentic-access/acall-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/acall/agentic-access/acall-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - Workplace Management

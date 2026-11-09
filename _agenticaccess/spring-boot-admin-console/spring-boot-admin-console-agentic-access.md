@@ -9,19 +9,19 @@ api_specs:
   label: Spring Boot Admin Console Applications API
   slug: spring-boot-admin-console-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/openapi/spring-boot-admin-console-applications-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot-admin-console/openapi/spring-boot-admin-console-applications-api-openapi.yml
 - filename: spring-boot-admin-console-events-api-openapi.yml
   format: yaml
   label: Spring Boot Admin Console Events API
   slug: spring-boot-admin-console-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/openapi/spring-boot-admin-console-events-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot-admin-console/openapi/spring-boot-admin-console-events-api-openapi.yml
 - filename: spring-boot-admin-console-instances-api-openapi.yml
   format: yaml
   label: Spring Boot Admin Console Instances API
   slug: spring-boot-admin-console-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/openapi/spring-boot-admin-console-instances-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot-admin-console/openapi/spring-boot-admin-console-instances-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spring
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{id}\n  method: delete\n  operationId: deregisterInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{id}/actuator\n  method: get\n  operationId: getInstanceActuatorEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{id}/actuator/health\n  method: get\n  operationId: getInstanceHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{id}/actuator/info\n\
   \  method: get\n  operationId: getInstanceInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{id}/actuator/metrics\n  method: get\n  operationId: getInstanceMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{id}/actuator/env\n  method: get\n  operationId: getInstanceEnvironment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{id}/actuator/loggers\n  method: get\n  operationId: getInstanceLoggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{id}/actuator/loggers\n  method: post\n  operationId: setInstanceLoggerLevel\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /instances/events\n  method: get\n  operationId: streamInstanceEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/agentic-access/spring-boot-admin-console-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spring-boot-admin-console/agentic-access/spring-boot-admin-console-agentic-access.yml
 summary_line: 15 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Actuators

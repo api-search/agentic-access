@@ -9,115 +9,115 @@ api_specs:
   label: HookPulse Apis.json API
   slug: hookpulse-apis-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-apis-json-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-apis-json-api-openapi.yml
 - filename: hookpulse-auth-api-openapi.yml
   format: yaml
   label: HookPulse Auth API
   slug: hookpulse-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-auth-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-auth-api-openapi.yml
 - filename: hookpulse-billing-api-openapi.yml
   format: yaml
   label: HookPulse Billing API
   slug: hookpulse-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-billing-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-billing-api-openapi.yml
 - filename: hookpulse-contact-api-openapi.yml
   format: yaml
   label: HookPulse Contact API
   slug: hookpulse-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-contact-api-openapi.yml
 - filename: hookpulse-credito-api-openapi.yml
   format: yaml
   label: HookPulse Credito API
   slug: hookpulse-credito-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-credito-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-credito-api-openapi.yml
 - filename: hookpulse-endpoints-api-openapi.yml
   format: yaml
   label: HookPulse Endpoints API
   slug: hookpulse-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-endpoints-api-openapi.yml
 - filename: hookpulse-guest-api-openapi.yml
   format: yaml
   label: HookPulse Guest API
   slug: hookpulse-guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-guest-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-guest-api-openapi.yml
 - filename: hookpulse-health-api-openapi.yml
   format: yaml
   label: HookPulse Health API
   slug: hookpulse-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-health-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-health-api-openapi.yml
 - filename: hookpulse-hookpulse-api-openapi.yml
   format: yaml
   label: HookPulse Hook Pulse API
   slug: hookpulse-hookpulse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-hookpulse-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-hookpulse-api-openapi.yml
 - filename: hookpulse-in-api-openapi.yml
   format: yaml
   label: HookPulse In API
   slug: hookpulse-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-in-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-in-api-openapi.yml
 - filename: hookpulse-mcp-api-openapi.yml
   format: yaml
   label: HookPulse MCP API
   slug: hookpulse-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-mcp-api-openapi.yml
 - filename: hookpulse-me-api-openapi.yml
   format: yaml
   label: HookPulse Me API
   slug: hookpulse-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-me-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-me-api-openapi.yml
 - filename: hookpulse-metrics-api-openapi.yml
   format: yaml
   label: HookPulse Metrics API
   slug: hookpulse-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-metrics-api-openapi.yml
 - filename: hookpulse-okf-api-openapi.yml
   format: yaml
   label: HookPulse Okf API
   slug: hookpulse-okf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-okf-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-okf-api-openapi.yml
 - filename: hookpulse-s-api-openapi.yml
   format: yaml
   label: HookPulse S API
   slug: hookpulse-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-s-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-s-api-openapi.yml
 - filename: hookpulse-status-feed-api-openapi.yml
   format: yaml
   label: HookPulse Status Feed API
   slug: hookpulse-status-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-status-feed-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-status-feed-api-openapi.yml
 - filename: hookpulse-templates-api-openapi.yml
   format: yaml
   label: HookPulse Templates API
   slug: hookpulse-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-templates-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-templates-api-openapi.yml
 - filename: hookpulse-visit-api-openapi.yml
   format: yaml
   label: HookPulse Visit API
   slug: hookpulse-visit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-visit-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-visit-api-openapi.yml
 - filename: hookpulse-well-known-api-openapi.yml
   format: yaml
   label: HookPulse .well Known API
   slug: hookpulse-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/openapi/hookpulse-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-well-known-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 17
@@ -178,7 +178,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: generated\nsource: openapi/hookpu
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/auth/claim\n  method: post\n  operationId: post_api_auth_claim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/auth/logout\n  method: post\n  operationId: post_api_auth_logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/contact\n  method: post\n  operationId: contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/visit\n  method: post\n  operationId: post_api_visit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/metrics\n  method: get\n  operationId: get_api_metrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/credito\n  method: post\n  operationId: post_api_credito\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/credito\n  method: get\n  operationId: get_api_credito\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookpulse/refs/heads/main/agentic-access/hookpulse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hookpulse/agentic-access/hookpulse-agentic-access.yml
 summary_line: 31 operations · 14 acting · 2 human-in-the-loop
 tags:
 - Monitoring

@@ -9,79 +9,79 @@ api_specs:
   label: Convex Sync Protocol
   slug: sync-protocol
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/asyncapi/convex-asyncapi.yml
+  url: https://artifacts.apis.io/convex/asyncapi/convex-asyncapi.yml
 - filename: convex-actions-api-openapi.yml
   format: yaml
   label: Convex Actions API
   slug: convex-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-actions-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-actions-api-openapi.yml
 - filename: convex-deployments-api-openapi.yml
   format: yaml
   label: Convex Deployments API
   slug: convex-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-deployments-api-openapi.yml
 - filename: convex-functions-api-openapi.yml
   format: yaml
   label: Convex Functions API
   slug: convex-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-functions-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-functions-api-openapi.yml
 - filename: convex-mutations-api-openapi.yml
   format: yaml
   label: Convex Mutations API
   slug: convex-mutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-mutations-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-mutations-api-openapi.yml
 - filename: convex-projects-api-openapi.yml
   format: yaml
   label: Convex Projects API
   slug: convex-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-projects-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-projects-api-openapi.yml
 - filename: convex-queries-api-openapi.yml
   format: yaml
   label: Convex Queries API
   slug: convex-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-queries-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-queries-api-openapi.yml
 - filename: convex-teams-api-openapi.yml
   format: yaml
   label: Convex Teams API
   slug: convex-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-teams-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-teams-api-openapi.yml
 - filename: convex-access-tokens-api-openapi.yml
   format: yaml
   label: Convex Access Tokens API
   slug: convex-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-access-tokens-api-openapi.yml
 - filename: convex-custom-domains-api-openapi.yml
   format: yaml
   label: Convex Custom Domains API
   slug: convex-custom-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-custom-domains-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-custom-domains-api-openapi.yml
 - filename: convex-environment-variables-api-openapi.yml
   format: yaml
   label: Convex Environment Variables API
   slug: convex-environment-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-environment-variables-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-environment-variables-api-openapi.yml
 - filename: convex-custom-roles-api-openapi.yml
   format: yaml
   label: Convex Custom Roles API
   slug: convex-custom-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-custom-roles-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-custom-roles-api-openapi.yml
 - filename: convex-deploy-keys-api-openapi.yml
   format: yaml
   label: Convex Deploy Keys API
   slug: convex-deploy-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-deploy-keys-api-openapi.yml
+  url: https://artifacts.apis.io/convex/openapi/convex-deploy-keys-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 10
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/convex
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/run/{functionIdentifier}\n  method: post\n  operationId: runFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mutation\n  method: post\n  operationId: executeMutation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{team_id}/create_project\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{team_id}/list_projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id_or_slug}/projects/{project_slug}\n  method: get\n  operationId: getProjectBySlug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/delete\n  method: post\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/query\n  method: post\n  operationId: executeQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{team_id}/members\n  method: get\n  operationId: listTeamMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/agentic-access/convex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/convex/agentic-access/convex-agentic-access.yml
 summary_line: 24 operations · 14 acting
 tags:
 - Backend

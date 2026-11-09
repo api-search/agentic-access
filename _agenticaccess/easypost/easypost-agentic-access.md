@@ -9,43 +9,43 @@ api_specs:
   label: EasyPost Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/asyncapi/easypost-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/easypost/asyncapi/easypost-webhooks-asyncapi.yml
 - filename: easypost-addresses-api-openapi.yml
   format: yaml
   label: EasyPost Addresses API
   slug: easypost-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-addresses-api-openapi.yml
 - filename: easypost-parcels-api-openapi.yml
   format: yaml
   label: EasyPost Parcels API
   slug: easypost-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-parcels-api-openapi.yml
 - filename: easypost-refunds-api-openapi.yml
   format: yaml
   label: EasyPost Refunds API
   slug: easypost-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-refunds-api-openapi.yml
 - filename: easypost-reports-api-openapi.yml
   format: yaml
   label: EasyPost Reports API
   slug: easypost-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-reports-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-reports-api-openapi.yml
 - filename: easypost-shipments-api-openapi.yml
   format: yaml
   label: EasyPost Shipments API
   slug: easypost-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-shipments-api-openapi.yml
 - filename: easypost-trackers-api-openapi.yml
   format: yaml
   label: EasyPost Trackers API
   slug: easypost-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/openapi/easypost-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/easypost/openapi/easypost-trackers-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 7
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/easypo
   \  operationId: getAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parcels\n  method: post\n  operationId: createParcel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trackers\n  method: post\n  operationId: createTracker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trackers\n  method: get\n  operationId: listTrackers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trackers/{id}\n  method: get\n  operationId: getTracker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refunds\n  method: post\n  operationId: createRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/{type}\n  method: post\n  operationId: createReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/agentic-access/easypost-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/easypost/agentic-access/easypost-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Shipping

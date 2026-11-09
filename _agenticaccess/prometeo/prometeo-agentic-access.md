@@ -9,31 +9,31 @@ api_specs:
   label: Prometeo Account Validation API
   slug: prometeo-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-account-validation-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-account-validation-api-openapi.yml
 - filename: prometeo-banking-api-openapi.yml
   format: yaml
   label: Prometeo Banking API
   slug: prometeo-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-banking-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-banking-api-openapi.yml
 - filename: prometeo-cross-border-api-openapi.yml
   format: yaml
   label: Prometeo Cross-Border API
   slug: prometeo-cross-border-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-cross-border-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-cross-border-api-openapi.yml
 - filename: prometeo-identity-api-openapi.yml
   format: yaml
   label: Prometeo Identity API
   slug: prometeo-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-identity-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-identity-api-openapi.yml
 - filename: prometeo-payment-api-openapi.yml
   format: yaml
   label: Prometeo Payment API
   slug: prometeo-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/openapi/prometeo-payment-api-openapi.yml
+  url: https://artifacts.apis.io/prometeo/openapi/prometeo-payment-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 17
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/promet
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payout/transfer\n  method: post\n  operationId: createPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payout/transfer\n  method: get\n  operationId: listPayouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payout/transfer/{payout_id}\n  method: get\n  operationId: getPayout\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fx/exchange\n  method: post\n  operationId: exchangeFx\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /query\n  method: post\n  operationId: curpQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reverse-query\n  method: post\n  operationId: curpReverseQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v1/payment-intent/\n  method: post\n  operationId: createPaymentIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/payment-intent/{intent_id}\n  method: get\n  operationId: getPaymentIntent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/agentic-access/prometeo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/prometeo/agentic-access/prometeo-agentic-access.yml
 summary_line: 28 operations · 11 acting
 tags:
 - Open Banking

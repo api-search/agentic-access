@@ -9,55 +9,55 @@ api_specs:
   label: Huuray Balance API
   slug: huuray-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-balance-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-balance-api-openapi.yml
 - filename: huuray-cancel-api-openapi.yml
   format: yaml
   label: Huuray Cancel API
   slug: huuray-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-cancel-api-openapi.yml
 - filename: huuray-catalogue-api-openapi.yml
   format: yaml
   label: Huuray Catalogue API
   slug: huuray-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-catalogue-api-openapi.yml
 - filename: huuray-order-api-openapi.yml
   format: yaml
   label: Huuray Order API
   slug: huuray-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-order-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-order-api-openapi.yml
 - filename: huuray-resend-api-openapi.yml
   format: yaml
   label: Huuray Resend API
   slug: huuray-resend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-resend-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-resend-api-openapi.yml
 - filename: huuray-search-api-openapi.yml
   format: yaml
   label: Huuray Search API
   slug: huuray-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-search-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-search-api-openapi.yml
 - filename: huuray-stock-api-openapi.yml
   format: yaml
   label: Huuray Stock API
   slug: huuray-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-stock-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-stock-api-openapi.yml
 - filename: huuray-template-api-openapi.yml
   format: yaml
   label: Huuray Template API
   slug: huuray-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-template-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-template-api-openapi.yml
 - filename: huuray-exchange-rates-api-openapi.yml
   format: yaml
   label: Huuray Exchange Rates API
   slug: huuray-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/openapi/huuray-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/huuray/openapi/huuray-exchange-rates-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 2
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/huuray
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/Catalogue\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/ExchangeRates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/Order\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/Resend\n  method: post\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/Search\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/Stock\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v4/Template\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/agentic-access/huuray-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/huuray/agentic-access/huuray-agentic-access.yml
 summary_line: 9 operations · 7 acting
 tags:
 - E-Commerce

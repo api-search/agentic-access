@@ -83,8 +83,8 @@ source_yaml_url: https://artifacts.apis.io/twitterapi-io/agentic-access/twittera
 summary_line: 76 operations · 40 acting
 tags:
 - Company
-- X-API
-- Data-Provider
+- xAPI
+- Data Provider
 - REST
-- Third-Party
+- Third Party
 ---

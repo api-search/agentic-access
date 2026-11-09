@@ -9,7 +9,61 @@ api_specs:
   label: Amazon ECR Amazon ECR Amazon Elastic Container Registry (ECR) API
   slug: amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml
+- filename: amazon-ecr-lifecycle-policy-api-openapi.yml
+  format: yaml
+  label: Amazon ECR Ecr Lifecycle Policy API
+  slug: amazon-ecr-lifecycle-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-lifecycle-policy-api-openapi.yml
+- filename: amazon-ecr-operations-api-openapi.yml
+  format: yaml
+  label: Amazon ECR Ecr Operations API
+  slug: amazon-ecr-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-operations-api-openapi.yml
+- filename: amazon-ecr-pull-through-cache-rule-api-openapi.yml
+  format: yaml
+  label: Amazon ECR Ecr Pull Through Cache Rule API
+  slug: amazon-ecr-pull-through-cache-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-pull-through-cache-rule-api-openapi.yml
+- filename: amazon-ecr-pull-time-update-exclusion-api-openapi.yml
+  format: yaml
+  label: Amazon ECR Ecr Pull Time Update Exclusion API
+  slug: amazon-ecr-pull-time-update-exclusion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-pull-time-update-exclusion-api-openapi.yml
+- filename: amazon-ecr-registry-policy-api-openapi.yml
+  format: yaml
+  label: Amazon ECR Ecr Registry Policy API
+  slug: amazon-ecr-registry-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-registry-policy-api-openapi.yml
+- filename: amazon-ecr-replication-backfill-api-openapi.yml
+  format: yaml
+  label: Amazon ECR Ecr Replication Backfill API
+  slug: amazon-ecr-replication-backfill-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-replication-backfill-api-openapi.yml
+- filename: amazon-ecr-repository-creation-template-api-openapi.yml
+  format: yaml
+  label: Amazon ECR Ecr Repository Creation Template API
+  slug: amazon-ecr-repository-creation-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-repository-creation-template-api-openapi.yml
+- filename: amazon-ecr-repository-policy-api-openapi.yml
+  format: yaml
+  label: Amazon ECR Ecr Repository Policy API
+  slug: amazon-ecr-repository-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-repository-policy-api-openapi.yml
+- filename: amazon-ecr-signing-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon ECR Ecr Signing Configuration API
+  slug: amazon-ecr-signing-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecr/openapi/amazon-ecr-signing-configuration-api-openapi.yml
 consequence_counts:
   read: 1
   write: 5
@@ -38,7 +92,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml,\n  openapi/amazon-ecr-batchgetimage-api-openapi.yml, openapi/amazon-ecr-deleterepository-api-openapi.yml,\n  openapi/amazon-ecr-describerepositories-api-openapi.yml, openapi/amazon-ecr-list-images-api-openapi.yml,\n  openapi/amazon-ecr-putimage-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 5\n    connected: 1\n  by_consequence:\n    write: 5\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: post\n  operationId: createRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#BatchGetImage\n  method: post\n  operationId: batchGetImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DeleteRepository\n  method: post\n  operationId: deleteRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DescribeRepositories\n  method: post\n  operationId: describeRepositories\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#ListImages\n  method: post\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#PutImage\n  method: post\n  operationId: putImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/agentic-access/amazon-ecr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-ecr/agentic-access/amazon-ecr-agentic-access.yml
 summary_line: 6 operations · 5 acting
 tags:
 - Amazon Web Services

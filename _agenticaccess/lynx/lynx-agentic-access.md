@@ -9,121 +9,121 @@ api_specs:
   label: Lynx Investments API
   slug: lynx-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-investments-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-investments-api-openapi.yml
 - filename: lynx-tags-api-openapi.yml
   format: yaml
   label: Lynx Tags API
   slug: lynx-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-tags-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-tags-api-openapi.yml
 - filename: lynx-accounts-api-openapi.yml
   format: yaml
   label: Lynx Accounts API
   slug: lynx-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-accounts-api-openapi.yml
 - filename: lynx-cards-api-openapi.yml
   format: yaml
   label: Lynx Cards API
   slug: lynx-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-cards-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-cards-api-openapi.yml
 - filename: lynx-claims-api-openapi.yml
   format: yaml
   label: Lynx Claims API
   slug: lynx-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-claims-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-claims-api-openapi.yml
 - filename: lynx-client-org-application-token-controller-api-openapi.yml
   format: yaml
   label: Lynx Client Org Application Token Controller API
   slug: lynx-client-org-application-token-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-client-org-application-token-controller-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-client-org-application-token-controller-api-openapi.yml
 - filename: lynx-clients-api-openapi.yml
   format: yaml
   label: Lynx Clients API
   slug: lynx-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-clients-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-clients-api-openapi.yml
 - filename: lynx-commerce-api-openapi.yml
   format: yaml
   label: Lynx Commerce API
   slug: lynx-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-commerce-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-commerce-api-openapi.yml
 - filename: lynx-copay-api-openapi.yml
   format: yaml
   label: Lynx Copay API
   slug: lynx-copay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-copay-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-copay-api-openapi.yml
 - filename: lynx-enrollments-api-openapi.yml
   format: yaml
   label: Lynx Enrollments API
   slug: lynx-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-enrollments-api-openapi.yml
 - filename: lynx-expense-api-openapi.yml
   format: yaml
   label: Lynx Expense API
   slug: lynx-expense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-expense-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-expense-api-openapi.yml
 - filename: lynx-externalaccounts-api-openapi.yml
   format: yaml
   label: Lynx Externalaccounts API
   slug: lynx-externalaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-externalaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-externalaccounts-api-openapi.yml
 - filename: lynx-externalnotifications-api-openapi.yml
   format: yaml
   label: Lynx Externalnotifications API
   slug: lynx-externalnotifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-externalnotifications-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-externalnotifications-api-openapi.yml
 - filename: lynx-member-expense-controller-api-openapi.yml
   format: yaml
   label: Lynx Member Expense Controller API
   slug: lynx-member-expense-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-member-expense-controller-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-member-expense-controller-api-openapi.yml
 - filename: lynx-members-api-openapi.yml
   format: yaml
   label: Lynx Members API
   slug: lynx-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-members-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-members-api-openapi.yml
 - filename: lynx-payments-api-openapi.yml
   format: yaml
   label: Lynx Payments API
   slug: lynx-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-payments-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-payments-api-openapi.yml
 - filename: lynx-relatedpersons-api-openapi.yml
   format: yaml
   label: Lynx Relatedpersons API
   slug: lynx-relatedpersons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-relatedpersons-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-relatedpersons-api-openapi.yml
 - filename: lynx-substantiation-api-openapi.yml
   format: yaml
   label: Lynx Substantiation API
   slug: lynx-substantiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-substantiation-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-substantiation-api-openapi.yml
 - filename: lynx-transactions-api-openapi.yml
   format: yaml
   label: Lynx Transactions API
   slug: lynx-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-transactions-api-openapi.yml
 - filename: lynx-uploads-api-openapi.yml
   format: yaml
   label: Lynx Uploads API
   slug: lynx-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/openapi/lynx-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/lynx/openapi/lynx-uploads-api-openapi.yml
 consequence_counts:
   physical: 21
   read: 81
@@ -312,8 +312,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/lynx-a
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/accounts/performance\n  method: get\n  operationId: getAccountPerformance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/accounts/portfolio\n  method: patch\n  operationId: updatePortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /investments/accounts/positions\n  method: get\n  operationId: getAccountPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/accounts/positions/close\n  method: post\n  operationId:\
   \ closeAllPositions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /investments/accounts/transactions\n  method: get\n  operationId: getInvestmentAccountTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/disclosures\n  method: get\n  operationId: getDisclosuresUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/documents\n  method: get\n  operationId: getInvestmentDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n- path: /investments/documents/download\n  method: get\n  operationId: getInvestmentDocumentDownloadUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/fund-lineup\n  method: get\n  operationId: getClientOrgInvestmentList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/instruments\n  method: get\n  operationId: getInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/instruments/chart\n  method: get\n  operationId: getHistoricalBars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/instruments/details\n\
-  \  method: get\n  operationId: getInstrumentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/instruments/most-actives\n  method: get\n  operationId: getMostActives\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/instruments/movers\n  method: get\n  operationId: getMovers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/instruments/quote\n  method: get\n  operationId: getInstrumentsQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (53 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/agentic-access/lynx-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/agentic-access/lynx-agentic-access.yml
+  \  method: get\n  operationId: getInstrumentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/instruments/most-actives\n  method: get\n  operationId: getMostActives\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/instruments/movers\n  method: get\n  operationId: getMovers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /investments/instruments/quote\n  method: get\n  operationId: getInstrumentsQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (53 KB total) ---\n# Full source: https://artifacts.apis.io/lynx/agentic-access/lynx-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/lynx/agentic-access/lynx-agentic-access.yml
 summary_line: 180 operations · 99 acting · 4 human-in-the-loop
 tags:
 - Company

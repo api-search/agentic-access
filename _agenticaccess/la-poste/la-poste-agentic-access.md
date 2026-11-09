@@ -9,13 +9,13 @@ api_specs:
   label: 'La Poste SlsInternalService : Services destinés aux applications internes API'
   slug: la-poste-slsinternalservice-services-destin-s-aux-applications-internes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/openapi/la-poste-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste/openapi/la-poste-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
 - filename: la-poste-slsservicews-documentation-api-openapi.yml
   format: yaml
   label: 'La Poste SlsServiceWS : documentation API'
   slug: la-poste-slsservicews-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/openapi/la-poste-slsservicews-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/la-poste/openapi/la-poste-slsservicews-documentation-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/la-pos
   \     - high-value\n    audit: required\n- path: /generateLabel\n  method: post\n  operationId: generateLabel_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generateCN23\n  method: post\n  operationId: generateCN23_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getListMailBoxPickingDates\n  method: post\n  operationId: getListMailBoxPickingDates_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getLabel\n\
   \  method: post\n  operationId: getLabel_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /generateBordereauByParcelsNumbers\n  method: post\n  operationId: generateBordereauByParcelsNumbers_1\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generateToken\n  method: post\n  operationId: generateToken_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getProductInter\n\
   \  method: post\n  operationId: getProductInter_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /planPickup\n  method: post\n  operationId: planPickup_2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/agentic-access/la-poste-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/la-poste/agentic-access/la-poste-agentic-access.yml
 summary_line: 12 operations · 8 acting
 tags:
 - Postal

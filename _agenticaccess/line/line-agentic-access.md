@@ -9,67 +9,67 @@ api_specs:
   label: LINE Channel Access Token API
   slug: line-channel-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-channel-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-channel-access-token-api-openapi.yml
 - filename: line-dummy-api-openapi.yml
   format: yaml
   label: LINE Dummy API
   slug: line-dummy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-dummy-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-dummy-api-openapi.yml
 - filename: line-insight-api-openapi.yml
   format: yaml
   label: LINE Insight API
   slug: line-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-insight-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-insight-api-openapi.yml
 - filename: line-liff-api-openapi.yml
   format: yaml
   label: LINE Liff API
   slug: line-liff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-liff-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-liff-api-openapi.yml
 - filename: line-line-module-api-openapi.yml
   format: yaml
   label: LINE Module API
   slug: line-line-module-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-line-module-api-openapi.yml
 - filename: line-line-module-attach-api-openapi.yml
   format: yaml
   label: LINE Module Attach API
   slug: line-line-module-attach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-attach-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-line-module-attach-api-openapi.yml
 - filename: line-manage-audience-api-openapi.yml
   format: yaml
   label: LINE Manage Audience API
   slug: line-manage-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-manage-audience-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-manage-audience-api-openapi.yml
 - filename: line-manage-audience-blob-api-openapi.yml
   format: yaml
   label: LINE Manage Audience Blob API
   slug: line-manage-audience-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-manage-audience-blob-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-manage-audience-blob-api-openapi.yml
 - filename: line-messaging-api-api-openapi.yml
   format: yaml
   label: LINE Messaging API
   slug: line-messaging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-messaging-api-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-messaging-api-api-openapi.yml
 - filename: line-messaging-api-blob-api-openapi.yml
   format: yaml
   label: LINE Messaging API Blob API
   slug: line-messaging-api-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-messaging-api-blob-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-messaging-api-blob-api-openapi.yml
 - filename: line-shop-api-openapi.yml
   format: yaml
   label: LINE Shop API
   slug: line-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-shop-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-shop-api-openapi.yml
 consequence_counts:
   read: 52
   safety-critical: 4
@@ -153,8 +153,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/line-c
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bot/coupon/{couponId}\n  method: get\n  operationId: getCouponDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bot/coupon/{couponId}/close\n  method: put\n  operationId: closeCoupon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bot/chat/loading/start\n  method: post\n  operationId: showLoadingAnimation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bot/chat/markAsRead\n  method: post\n  operationId: markMessagesAsReadByToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /module/auth/v1/token\n  method: post\n  operationId: attachModule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bot/channel/detach\n  method: post\n  operationId: detachModule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bot/chat/{chatId}/control/acquire\n  method: post\n  operationId: acquireChatControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/bot/chat/{chatId}/control/release\n  method: post\n  operationId: releaseChatControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB\
-  \ (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/agentic-access/line-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/agentic-access/line-agentic-access.yml
+  \ (32 KB total) ---\n# Full source: https://artifacts.apis.io/line/agentic-access/line-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/line/agentic-access/line-agentic-access.yml
 summary_line: 111 operations · 59 acting · 4 human-in-the-loop
 tags:
 - Messaging

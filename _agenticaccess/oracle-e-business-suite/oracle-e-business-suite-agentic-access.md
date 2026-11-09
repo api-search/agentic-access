@@ -9,133 +9,133 @@ api_specs:
   label: Oracle E-Business Suite Accounts Payable API
   slug: oracle-e-business-suite-accounts-payable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-accounts-payable-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-accounts-payable-api-openapi.yml
 - filename: oracle-e-business-suite-accounts-receivable-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Accounts Receivable API
   slug: oracle-e-business-suite-accounts-receivable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-accounts-receivable-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-accounts-receivable-api-openapi.yml
 - filename: oracle-e-business-suite-authentication-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Authentication API
   slug: oracle-e-business-suite-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-authentication-api-openapi.yml
 - filename: oracle-e-business-suite-benefits-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Benefits API
   slug: oracle-e-business-suite-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-benefits-api-openapi.yml
 - filename: oracle-e-business-suite-bills-of-material-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Bills of Material API
   slug: oracle-e-business-suite-bills-of-material-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-bills-of-material-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-bills-of-material-api-openapi.yml
 - filename: oracle-e-business-suite-cash-management-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Cash Management API
   slug: oracle-e-business-suite-cash-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-cash-management-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-cash-management-api-openapi.yml
 - filename: oracle-e-business-suite-code-conversions-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Code Conversions API
   slug: oracle-e-business-suite-code-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-code-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-code-conversions-api-openapi.yml
 - filename: oracle-e-business-suite-employee-management-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Employee Management API
   slug: oracle-e-business-suite-employee-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-employee-management-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-employee-management-api-openapi.yml
 - filename: oracle-e-business-suite-fixed-assets-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Fixed Assets API
   slug: oracle-e-business-suite-fixed-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-fixed-assets-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-fixed-assets-api-openapi.yml
 - filename: oracle-e-business-suite-general-ledger-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite General Ledger API
   slug: oracle-e-business-suite-general-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-general-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-general-ledger-api-openapi.yml
 - filename: oracle-e-business-suite-inbound-transactions-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Inbound Transactions API
   slug: oracle-e-business-suite-inbound-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-inbound-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-inbound-transactions-api-openapi.yml
 - filename: oracle-e-business-suite-inventory-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Inventory API
   slug: oracle-e-business-suite-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-inventory-api-openapi.yml
 - filename: oracle-e-business-suite-order-management-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Order Management API
   slug: oracle-e-business-suite-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-order-management-api-openapi.yml
 - filename: oracle-e-business-suite-organization-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Organization API
   slug: oracle-e-business-suite-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-organization-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-organization-api-openapi.yml
 - filename: oracle-e-business-suite-outbound-transactions-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Outbound Transactions API
   slug: oracle-e-business-suite-outbound-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-outbound-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-outbound-transactions-api-openapi.yml
 - filename: oracle-e-business-suite-payroll-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Payroll API
   slug: oracle-e-business-suite-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-payroll-api-openapi.yml
 - filename: oracle-e-business-suite-purchasing-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Purchasing API
   slug: oracle-e-business-suite-purchasing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-purchasing-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-purchasing-api-openapi.yml
 - filename: oracle-e-business-suite-service-discovery-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Service Discovery API
   slug: oracle-e-business-suite-service-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-service-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-service-discovery-api-openapi.yml
 - filename: oracle-e-business-suite-service-invocation-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Service Invocation API
   slug: oracle-e-business-suite-service-invocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-service-invocation-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-service-invocation-api-openapi.yml
 - filename: oracle-e-business-suite-shipping-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Shipping API
   slug: oracle-e-business-suite-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-shipping-api-openapi.yml
 - filename: oracle-e-business-suite-trading-partners-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Trading Partners API
   slug: oracle-e-business-suite-trading-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-trading-partners-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-trading-partners-api-openapi.yml
 - filename: oracle-e-business-suite-work-in-process-api-openapi.yml
   format: yaml
   label: Oracle E-Business Suite Work in Process API
   slug: oracle-e-business-suite-work-in-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/oracle-e-business-suite-work-in-process-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-e-business-suite/openapi/oracle-e-business-suite-work-in-process-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 38
@@ -202,7 +202,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ecomme
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /po/purchaseOrders/{poHeaderId}\n  method: get\n  operationId: getPurchaseOrderById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /po/purchaseOrders/{poHeaderId}\n  method: put\n  operationId: updatePurchaseOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /po/requisitions\n  method: get\n\
   \  operationId: getRequisitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /po/suppliers\n  method: get\n  operationId: getSuppliers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oe/salesOrders\n  method: get\n  operationId: getSalesOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oe/salesOrders\n  method: post\n  operationId: createSalesOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /inv/items\n  method: get\n  operationId: getInventoryItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inv/onhandQuantities\n  method: get\n  operationId: getOnhandQuantities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wsh/deliveries\n  method: get\n  operationId: getDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/agentic-access/oracle-e-business-suite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oracle-e-business-suite/agentic-access/oracle-e-business-suite-agentic-access.yml
 summary_line: 53 operations · 15 acting
 tags:
 - Business Applications

@@ -9,25 +9,25 @@ api_specs:
   label: MongoDB Atlas Clusters API
   slug: mongodb-atlas-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-clusters-api-openapi.yml
 - filename: mongodb-atlas-database-users-api-openapi.yml
   format: yaml
   label: MongoDB Atlas Database Users API
   slug: mongodb-atlas-database-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-database-users-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-database-users-api-openapi.yml
 - filename: mongodb-atlas-organizations-api-openapi.yml
   format: yaml
   label: MongoDB Atlas Organizations API
   slug: mongodb-atlas-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-organizations-api-openapi.yml
 - filename: mongodb-atlas-projects-api-openapi.yml
   format: yaml
   label: MongoDB Atlas Projects API
   slug: mongodb-atlas-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/openapi/mongodb-atlas-projects-api-openapi.yml
+  url: https://artifacts.apis.io/mongodb-atlas/openapi/mongodb-atlas-projects-api-openapi.yml
 consequence_counts:
   read: 7
   write: 9
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mongod
   \ /groups/{groupId}/clusters/{clusterName}\n  method: get\n  operationId: getCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}/clusters/{clusterName}\n  method: patch\n  operationId: updateCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/clusters/{clusterName}\n  method: delete\n  operationId: deleteCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/databaseUsers\n\
   \  method: get\n  operationId: listDatabaseUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}/databaseUsers\n  method: post\n  operationId: createDatabaseUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/databaseUsers/{username}\n  method: patch\n  operationId: updateDatabaseUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/databaseUsers/{username}\n \
   \ method: delete\n  operationId: deleteDatabaseUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/agentic-access/mongodb-atlas-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mongodb-atlas/agentic-access/mongodb-atlas-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - Database

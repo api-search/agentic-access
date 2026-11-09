@@ -9,79 +9,79 @@ api_specs:
   label: Eon Accounts API
   slug: eon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-accounts-api-openapi.yml
 - filename: eon-actionapprovals-api-openapi.yml
   format: yaml
   label: Eon Action Approvals API
   slug: eon-actionapprovals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-actionapprovals-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-actionapprovals-api-openapi.yml
 - filename: eon-auth-api-openapi.yml
   format: yaml
   label: Eon Auth API
   slug: eon-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-auth-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-auth-api-openapi.yml
 - filename: eon-backups-api-openapi.yml
   format: yaml
   label: Eon Backups API
   slug: eon-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-backups-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-backups-api-openapi.yml
 - filename: eon-billing-api-openapi.yml
   format: yaml
   label: Eon Billing API
   slug: eon-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-billing-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-billing-api-openapi.yml
 - filename: eon-dashboard-api-openapi.yml
   format: yaml
   label: Eon Dashboard API
   slug: eon-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-dashboard-api-openapi.yml
 - filename: eon-iam-api-openapi.yml
   format: yaml
   label: Eon Iam API
   slug: eon-iam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-iam-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-iam-api-openapi.yml
 - filename: eon-jobs-api-openapi.yml
   format: yaml
   label: Eon Jobs API
   slug: eon-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-jobs-api-openapi.yml
 - filename: eon-resources-api-openapi.yml
   format: yaml
   label: Eon Resources API
   slug: eon-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-resources-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-resources-api-openapi.yml
 - filename: eon-snapshots-api-openapi.yml
   format: yaml
   label: Eon Snapshots API
   slug: eon-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-snapshots-api-openapi.yml
 - filename: eon-vaults-api-openapi.yml
   format: yaml
   label: Eon Vaults API
   slug: eon-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-vaults-api-openapi.yml
 - filename: eon-backup-policies-api-openapi.yml
   format: yaml
   label: Eon Backup Policies API
   slug: eon-backup-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-backup-policies-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-backup-policies-api-openapi.yml
 - filename: eon-database-snapshots-api-openapi.yml
   format: yaml
   label: Eon Database Snapshots API
   slug: eon-database-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/openapi/eon-database-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/eon/openapi/eon-database-snapshots-api-openapi.yml
 consequence_counts:
   read: 33
   safety-critical: 6
@@ -174,8 +174,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/eon-ac
   \  method: post\n  operationId: restoreEc2Instance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/resources/{id}/snapshots/{snapshotId}/restore-dynamo-db-table\n  method: post\n  operationId: restoreDynamoDBTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/resources/{id}/snapshots/{snapshotId}/restore-azure-vm-instance\n  method: post\n  operationId: restoreAzureVmInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/resources/{id}/snapshots/{snapshotId}/restore-azure-sql-database\n  method: post\n  operationId: restoreAzureSqlDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/resources/{id}/snapshots/{snapshotId}/restore-azure-disk\n  method: post\n  operationId: restoreAzureDisk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /v1/projects/{projectId}/resources/{id}/snapshots/{snapshotId}/restore-gcp-disk\n  method: post\n  operationId: restoreGcpDisk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/resources/{id}/snapshots/{snapshotId}/restore-gcp-vm-instance\n  method: post\n  operationId: restoreGcpVmInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/resources/{id}/snapshots/{snapshotId}/restore-gcp-cloudsql\n  method: post\n  operationId: restoreGcpCloudSql\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/snapshots/{id}\n  method: get\n  operationId: getSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/agentic-access/eon-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/agentic-access/eon-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/snapshots/{id}\n  method: get\n  operationId: getSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/eon/agentic-access/eon-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/eon/agentic-access/eon-agentic-access.yml
 summary_line: 99 operations · 66 acting · 6 human-in-the-loop
 tags:
 - Company
@@ -187,6 +187,7 @@ tags:
 - Cloud Storage
 - Data Lake
 - Multi-Cloud
+- Amazon Web Services
 - Microsoft Azure
 - Google Cloud
 ---

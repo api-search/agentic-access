@@ -9,19 +9,19 @@ api_specs:
   label: ParaSwap Prices API
   slug: paraswap-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-prices-api-openapi.yml
+  url: https://artifacts.apis.io/paraswap/openapi/paraswap-prices-api-openapi.yml
 - filename: paraswap-tokens-api-openapi.yml
   format: yaml
   label: ParaSwap Tokens API
   slug: paraswap-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/paraswap/openapi/paraswap-tokens-api-openapi.yml
 - filename: paraswap-transactions-api-openapi.yml
   format: yaml
   label: ParaSwap Transactions API
   slug: paraswap-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/openapi/paraswap-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paraswap/openapi/paraswap-transactions-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/paraswap-market-api-v5.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 3\n    acting: 1\n  by_consequence:\n    read: 3\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /tokens\n  method: get\n  operationId: getTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/{network}\n  method: get\n  operationId: getTokensByNetwork\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices\n  method: get\n  operationId:\
   \ getPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{network}\n  method: post\n  operationId: buildTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/agentic-access/paraswap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paraswap/agentic-access/paraswap-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
 - DeFi

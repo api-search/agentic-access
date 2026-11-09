@@ -9,55 +9,55 @@ api_specs:
   label: AppsMax Access API
   slug: appsmax-rest-api-v1-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-access-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-access-api-openapi.yml
 - filename: appsmax-rest-api-v1-applications-api-openapi.yml
   format: yaml
   label: AppsMax Applications API
   slug: appsmax-rest-api-v1-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-applications-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-applications-api-openapi.yml
 - filename: appsmax-rest-api-v1-bots-api-openapi.yml
   format: yaml
   label: AppsMax Bots API
   slug: appsmax-rest-api-v1-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-bots-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-bots-api-openapi.yml
 - filename: appsmax-rest-api-v1-campaigns-api-openapi.yml
   format: yaml
   label: AppsMax Campaigns API
   slug: appsmax-rest-api-v1-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-campaigns-api-openapi.yml
 - filename: appsmax-rest-api-v1-funnels-api-openapi.yml
   format: yaml
   label: AppsMax Funnels API
   slug: appsmax-rest-api-v1-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-funnels-api-openapi.yml
 - filename: appsmax-rest-api-v1-interactive-menu-api-openapi.yml
   format: yaml
   label: AppsMax Interactive menu API
   slug: appsmax-rest-api-v1-interactive-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-interactive-menu-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-interactive-menu-api-openapi.yml
 - filename: appsmax-rest-api-v1-miniapps-api-openapi.yml
   format: yaml
   label: AppsMax Miniapps API
   slug: appsmax-rest-api-v1-miniapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-miniapps-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-miniapps-api-openapi.yml
 - filename: appsmax-rest-api-v1-organizations-api-openapi.yml
   format: yaml
   label: AppsMax Organizations API
   slug: appsmax-rest-api-v1-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-organizations-api-openapi.yml
 - filename: appsmax-rest-api-v1-subscribers-api-openapi.yml
   format: yaml
   label: AppsMax Subscribers API
   slug: appsmax-rest-api-v1-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-subscribers-api-openapi.yml
 consequence_counts:
   read: 15
   write: 6
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/appsma
   \ required\n- path: /applications/{id}\n  method: get\n  operationId: getApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application}/tags\n  method: post\n  operationId: syncApplicationTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns\n  method: get\n  operationId: listCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /campaigns\n  method: post\n  operationId: createCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns/{campaign}\n  method: get\n  operationId: getCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /campaigns/{id}/run\n  method: post\n  operationId: runCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers\n  method: get\n  operationId: listSubscribers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscribers\n  method: post\n  operationId: upsertSubscriber\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/{id}\n  method: get\n  operationId: getSubscriber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscribers/{id}\n  method: patch\n  operationId: updateSubscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/agentic-access/appsmax-rest-api-v1-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appsmax-rest-api-v1/agentic-access/appsmax-rest-api-v1-agentic-access.yml
 summary_line: 21 operations · 6 acting
 tags:
 - Company

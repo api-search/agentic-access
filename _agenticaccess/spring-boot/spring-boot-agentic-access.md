@@ -9,61 +9,61 @@ api_specs:
   label: Spring Boot Application API
   slug: spring-boot-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-application-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-application-api-openapi.yml
 - filename: spring-boot-caches-api-openapi.yml
   format: yaml
   label: Spring Boot Caches API
   slug: spring-boot-caches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-caches-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-caches-api-openapi.yml
 - filename: spring-boot-configuration-api-openapi.yml
   format: yaml
   label: Spring Boot Configuration API
   slug: spring-boot-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-configuration-api-openapi.yml
 - filename: spring-boot-environment-api-openapi.yml
   format: yaml
   label: Spring Boot Environment API
   slug: spring-boot-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-environment-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-environment-api-openapi.yml
 - filename: spring-boot-health-api-openapi.yml
   format: yaml
   label: Spring Boot Health API
   slug: spring-boot-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-health-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-health-api-openapi.yml
 - filename: spring-boot-info-api-openapi.yml
   format: yaml
   label: Spring Boot Info API
   slug: spring-boot-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-info-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-info-api-openapi.yml
 - filename: spring-boot-jvm-api-openapi.yml
   format: yaml
   label: Spring Boot JVM API
   slug: spring-boot-jvm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-jvm-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-jvm-api-openapi.yml
 - filename: spring-boot-lifecycle-api-openapi.yml
   format: yaml
   label: Spring Boot Lifecycle API
   slug: spring-boot-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-lifecycle-api-openapi.yml
 - filename: spring-boot-loggers-api-openapi.yml
   format: yaml
   label: Spring Boot Loggers API
   slug: spring-boot-loggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-loggers-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-loggers-api-openapi.yml
 - filename: spring-boot-metrics-api-openapi.yml
   format: yaml
   label: Spring Boot Metrics API
   slug: spring-boot-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/openapi/spring-boot-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/spring-boot/openapi/spring-boot-metrics-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spring
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loggers/{name}\n  method: post\n  operationId: setLoggerLevel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /threaddump\n  method: get\n  operationId: getThreadDump\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /heapdump\n  method: get\n  operationId: getHeapDump\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduledtasks\n  method: get\n  operationId: getScheduledTasks\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /caches\n  method: get\n  operationId: getCaches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /caches\n  method: delete\n  operationId: evictAllCaches\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /caches/{cacheName}\n  method: delete\n  operationId: evictCache\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shutdown\n \
   \ method: post\n  operationId: shutdown\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /prometheus\n  method: get\n  operationId: getPrometheus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/agentic-access/spring-boot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spring-boot/agentic-access/spring-boot-agentic-access.yml
 summary_line: 21 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Spring Boot

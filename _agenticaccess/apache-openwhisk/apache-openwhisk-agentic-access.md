@@ -9,37 +9,37 @@ api_specs:
   label: Apache OpenWhisk Actions API
   slug: apache-openwhisk-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-actions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-actions-api-openapi.yml
 - filename: apache-openwhisk-activations-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Activations API
   slug: apache-openwhisk-activations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-activations-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-activations-api-openapi.yml
 - filename: apache-openwhisk-namespaces-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Namespaces API
   slug: apache-openwhisk-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-namespaces-api-openapi.yml
 - filename: apache-openwhisk-packages-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Packages API
   slug: apache-openwhisk-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-packages-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-packages-api-openapi.yml
 - filename: apache-openwhisk-rules-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Rules API
   slug: apache-openwhisk-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-rules-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-rules-api-openapi.yml
 - filename: apache-openwhisk-triggers-api-openapi.yml
   format: yaml
   label: Apache OpenWhisk Triggers API
   slug: apache-openwhisk-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openwhisk/openapi/apache-openwhisk-triggers-api-openapi.yml
 consequence_counts:
   read: 13
   write: 11
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/rules/{ruleName}\n  method: post\n  operationId: updateRuleStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/rules/{ruleName}\n  method: delete\n  operationId: deleteRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /namespaces/{namespace}/packages\n  method: get\n  operationId: listPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/packages/{packageName}\n  method: get\n  operationId: getPackage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/packages/{packageName}\n  method: put\n  operationId: createOrUpdatePackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/packages/{packageName}\n  method: delete\n  operationId: deletePackage\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/activations\n  method: get\n  operationId: listActivations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/activations/{activationId}\n  method: get\n  operationId: getActivation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/agentic-access/apache-openwhisk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-openwhisk/agentic-access/apache-openwhisk-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
 - Cloud-Native

@@ -8,19 +8,19 @@ api_specs:
   label: Yr Alerts API
   slug: yr-no-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/openapi/yr-no-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/yr-no/openapi/yr-no-alerts-api-openapi.yml
 - filename: yr-no-data-api-openapi.yml
   format: yaml
   label: Yr Data API
   slug: yr-no-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/openapi/yr-no-data-api-openapi.yml
+  url: https://artifacts.apis.io/yr-no/openapi/yr-no-data-api-openapi.yml
 - filename: yr-no-metadata-api-openapi.yml
   format: yaml
   label: Yr Metadata API
   slug: yr-no-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/openapi/yr-no-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/yr-no/openapi/yr-no-metadata-api-openapi.yml
 consequence_counts:
   read: 38
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/yr-no-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /complete\n  method: get\n  operationId: getOceanForecast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mox\n  method: get\n  operationId: getOceanForecastXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coverage\n  method: get\n  operationId: getOceanCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /changelog\n  method: get\n  operationId: getChangelog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /healthz\n  method:\
   \ get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sun\n  method: get\n  operationId: getSunEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /moon\n  method: get\n  operationId: getMoonEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /values\n  method: get\n  operationId: listValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /changelog\n  method: get\n  operationId: getChangelog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /healthz\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/agentic-access/yr-no-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yr-no/agentic-access/yr-no-agentic-access.yml
 summary_line: 38 operations
 tags:
 - Weather

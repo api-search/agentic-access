@@ -8,55 +8,55 @@ api_specs:
   label: Sui Coin Query API
   slug: sui-coin-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-coin-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-coin-query-api-api-openapi.yml
 - filename: sui-extended-api-api-openapi.yml
   format: yaml
   label: Sui Extended API
   slug: sui-extended-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-extended-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-extended-api-api-openapi.yml
 - filename: sui-governance-read-api-api-openapi.yml
   format: yaml
   label: Sui Governance Read API
   slug: sui-governance-read-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-governance-read-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-governance-read-api-api-openapi.yml
 - filename: sui-move-utils-api-openapi.yml
   format: yaml
   label: Sui Move Utils API
   slug: sui-move-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-move-utils-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-move-utils-api-openapi.yml
 - filename: sui-pubsub-api-openapi.yml
   format: yaml
   label: Sui PubSub API
   slug: sui-pubsub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-pubsub-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-pubsub-api-openapi.yml
 - filename: sui-read-api-api-openapi.yml
   format: yaml
   label: Sui Read API
   slug: sui-read-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-read-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-read-api-api-openapi.yml
 - filename: sui-transaction-builder-api-api-openapi.yml
   format: yaml
   label: Sui Transaction Builder API
   slug: sui-transaction-builder-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-transaction-builder-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-transaction-builder-api-api-openapi.yml
 - filename: sui-websocket-api-openapi.yml
   format: yaml
   label: Sui Websocket API
   slug: sui-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-websocket-api-openapi.yml
 - filename: sui-write-api-api-openapi.yml
   format: yaml
   label: Sui Write API
   slug: sui-write-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/openapi/sui-write-api-api-openapi.yml
+  url: https://artifacts.apis.io/sui/openapi/sui-write-api-api-openapi.yml
 consequence_counts:
   physical: 3
   write: 53
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#unsafe_requestWithdrawStake\n  method: post\n  operationId: unsafe_requestWithdrawStake\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#unsafe_splitCoin\n  method: post\n  operationId: unsafe_splitCoin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#unsafe_splitCoinEqual\n  method: post\n  operationId: unsafe_splitCoinEqual\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#unsafe_transferObject\n  method: post\n  operationId: unsafe_transferObject\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#unsafe_transferSui\n  method: post\n  operationId: unsafe_transferSui\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/agentic-access/sui-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sui/agentic-access/sui-agentic-access.yml
 summary_line: 56 operations · 56 acting
 tags:
 - Blockchain

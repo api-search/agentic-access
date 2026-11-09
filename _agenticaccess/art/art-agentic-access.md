@@ -9,151 +9,151 @@ api_specs:
   label: Artsy Applications API
   slug: art-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-applications-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-applications-api-openapi.yml
 - filename: art-artists-api-openapi.yml
   format: yaml
   label: Artsy Artists API
   slug: art-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-artists-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-artists-api-openapi.yml
 - filename: art-artworks-api-openapi.yml
   format: yaml
   label: Artsy Artworks API
   slug: art-artworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-artworks-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-artworks-api-openapi.yml
 - filename: art-authentication-api-openapi.yml
   format: yaml
   label: Artsy Authentication API
   slug: art-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-authentication-api-openapi.yml
 - filename: art-bidder-positions-api-openapi.yml
   format: yaml
   label: Artsy Bidder Positions API
   slug: art-bidder-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-bidder-positions-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-bidder-positions-api-openapi.yml
 - filename: art-bidders-api-openapi.yml
   format: yaml
   label: Artsy Bidders API
   slug: art-bidders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-bidders-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-bidders-api-openapi.yml
 - filename: art-collection-items-api-openapi.yml
   format: yaml
   label: Artsy Collection Items API
   slug: art-collection-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-collection-items-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-collection-items-api-openapi.yml
 - filename: art-collections-api-openapi.yml
   format: yaml
   label: Artsy Collections API
   slug: art-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-collections-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-collections-api-openapi.yml
 - filename: art-collector-profiles-api-openapi.yml
   format: yaml
   label: Artsy Collector Profiles API
   slug: art-collector-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-collector-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-collector-profiles-api-openapi.yml
 - filename: art-devices-api-openapi.yml
   format: yaml
   label: Artsy Devices API
   slug: art-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-devices-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-devices-api-openapi.yml
 - filename: art-editions-api-openapi.yml
   format: yaml
   label: Artsy Editions API
   slug: art-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-editions-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-editions-api-openapi.yml
 - filename: art-fairs-api-openapi.yml
   format: yaml
   label: Artsy Fairs API
   slug: art-fairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-fairs-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-fairs-api-openapi.yml
 - filename: art-genes-api-openapi.yml
   format: yaml
   label: Artsy Genes API
   slug: art-genes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-genes-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-genes-api-openapi.yml
 - filename: art-images-api-openapi.yml
   format: yaml
   label: Artsy Images API
   slug: art-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-images-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-images-api-openapi.yml
 - filename: art-partner-communications-api-openapi.yml
   format: yaml
   label: Artsy Partner Communications API
   slug: art-partner-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-partner-communications-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-partner-communications-api-openapi.yml
 - filename: art-partner-contacts-api-openapi.yml
   format: yaml
   label: Artsy Partner Contacts API
   slug: art-partner-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-partner-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-partner-contacts-api-openapi.yml
 - filename: art-partners-api-openapi.yml
   format: yaml
   label: Artsy Partners API
   slug: art-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-partners-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-partners-api-openapi.yml
 - filename: art-profiles-api-openapi.yml
   format: yaml
   label: Artsy Profiles API
   slug: art-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-profiles-api-openapi.yml
 - filename: art-sale-artworks-api-openapi.yml
   format: yaml
   label: Artsy Sale Artworks API
   slug: art-sale-artworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-sale-artworks-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-sale-artworks-api-openapi.yml
 - filename: art-sales-api-openapi.yml
   format: yaml
   label: Artsy Sales API
   slug: art-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-sales-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-sales-api-openapi.yml
 - filename: art-search-api-openapi.yml
   format: yaml
   label: Artsy Search API
   slug: art-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-search-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-search-api-openapi.yml
 - filename: art-shows-api-openapi.yml
   format: yaml
   label: Artsy Shows API
   slug: art-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-shows-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-shows-api-openapi.yml
 - filename: art-status-api-openapi.yml
   format: yaml
   label: Artsy Status API
   slug: art-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-status-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-status-api-openapi.yml
 - filename: art-user-fair-actions-api-openapi.yml
   format: yaml
   label: Artsy User Fair Actions API
   slug: art-user-fair-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-user-fair-actions-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-user-fair-actions-api-openapi.yml
 - filename: art-users-api-openapi.yml
   format: yaml
   label: Artsy Users API
   slug: art-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/openapi/art-users-api-openapi.yml
+  url: https://artifacts.apis.io/art/openapi/art-users-api-openapi.yml
 consequence_counts:
   read: 45
   write: 1
@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/art-op
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner_contacts\n  method: get\n  operationId: listPartnerContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner_contacts/{id}\n  method: get\n  operationId: getPartnerContact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{id}\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user_fair_actions\n  method:\
   \ get\n  operationId: listUserFairActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user_fair_actions/{id}\n  method: get\n  operationId: getUserFairAction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications\n  method: get\n  operationId: listApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{id}\n  method: get\n  operationId: getApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editions/{id}\n  method: get\n  operationId: getEdition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images/{id}\n  method: get\n  operationId: getImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user_details/{id}\n  method: get\n  operationId: getUserDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/agentic-access/art-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/art/agentic-access/art-agentic-access.yml
 summary_line: 46 operations · 1 acting
 tags:
 - Art

@@ -9,73 +9,73 @@ api_specs:
   label: Schoology Assignments API
   slug: schoology-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-assignments-api-openapi.yml
 - filename: schoology-courses-api-openapi.yml
   format: yaml
   label: Schoology Courses API
   slug: schoology-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-courses-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-courses-api-openapi.yml
 - filename: schoology-enrollments-api-openapi.yml
   format: yaml
   label: Schoology Enrollments API
   slug: schoology-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-enrollments-api-openapi.yml
 - filename: schoology-grades-api-openapi.yml
   format: yaml
   label: Schoology Grades API
   slug: schoology-grades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-grades-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-grades-api-openapi.yml
 - filename: schoology-groups-api-openapi.yml
   format: yaml
   label: Schoology Groups API
   slug: schoology-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-groups-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-groups-api-openapi.yml
 - filename: schoology-multi-call-api-openapi.yml
   format: yaml
   label: Schoology Multi-Call API
   slug: schoology-multi-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-multi-call-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-multi-call-api-openapi.yml
 - filename: schoology-sections-api-openapi.yml
   format: yaml
   label: Schoology Sections API
   slug: schoology-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-sections-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-sections-api-openapi.yml
 - filename: schoology-submissions-api-openapi.yml
   format: yaml
   label: Schoology Submissions API
   slug: schoology-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-submissions-api-openapi.yml
 - filename: schoology-subscriptions-api-openapi.yml
   format: yaml
   label: Schoology Subscriptions API
   slug: schoology-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-subscriptions-api-openapi.yml
 - filename: schoology-targets-api-openapi.yml
   format: yaml
   label: Schoology Targets API
   slug: schoology-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-targets-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-targets-api-openapi.yml
 - filename: schoology-users-api-openapi.yml
   format: yaml
   label: Schoology Users API
   slug: schoology-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-users-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-users-api-openapi.yml
 - filename: schoology-events-api-openapi.yml
   format: yaml
   label: Schoology Events API
   slug: schoology-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-events-api-openapi.yml
+  url: https://artifacts.apis.io/schoology/openapi/schoology-events-api-openapi.yml
 consequence_counts:
   read: 20
   write: 8
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/school
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sections/{section_id}/submissions/{grade_item_id}/{user_id}\n  method: get\n  operationId: getSubmission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /multiget\n  method: post\n  operationId: multiget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /multioptions\n  method: post\n  operationId: multioptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /triggers/targets\n  method: get\n  operationId: listTriggerTargets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /triggers/targets\n  method: post\n  operationId: createTriggerTarget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /triggers/targets/{target_id}\n  method: put\n  operationId: updateTriggerTarget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /triggers/targets/{target_id}\n  method: delete\n  operationId: deleteTriggerTarget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /triggers/subscriptions\n  method: get\n  operationId: listTriggerSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /triggers/subscriptions\n  method: put\n  operationId: upsertTriggerSubscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/agentic-access/schoology-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/schoology/agentic-access/schoology-agentic-access.yml
 summary_line: 28 operations · 8 acting
 tags:
 - EdTech

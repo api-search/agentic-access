@@ -9,25 +9,25 @@ api_specs:
   label: HTTP Toolkit Client API
   slug: http-toolkit-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/openapi/http-toolkit-client-api-openapi.yml
+  url: https://artifacts.apis.io/http-toolkit/openapi/http-toolkit-client-api-openapi.yml
 - filename: http-toolkit-config-api-openapi.yml
   format: yaml
   label: HTTP Toolkit Config API
   slug: http-toolkit-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/openapi/http-toolkit-config-api-openapi.yml
+  url: https://artifacts.apis.io/http-toolkit/openapi/http-toolkit-config-api-openapi.yml
 - filename: http-toolkit-interceptors-api-openapi.yml
   format: yaml
   label: HTTP Toolkit Interceptors API
   slug: http-toolkit-interceptors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/openapi/http-toolkit-interceptors-api-openapi.yml
+  url: https://artifacts.apis.io/http-toolkit/openapi/http-toolkit-interceptors-api-openapi.yml
 - filename: http-toolkit-server-api-openapi.yml
   format: yaml
   label: HTTP Toolkit Server API
   slug: http-toolkit-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/openapi/http-toolkit-server-api-openapi.yml
+  url: https://artifacts.apis.io/http-toolkit/openapi/http-toolkit-server-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/http-t
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shutdown\n  method: post\n  operationId: shutdownServer\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /config\n  method: get\n  operationId: getConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/network-interfaces\n  method: get\n  operationId: getNetworkInterfaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interceptors\n  method: get\n  operationId:\
   \ getInterceptors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interceptors/{id}/metadata\n  method: get\n  operationId: getInterceptorMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interceptors/{id}/metadata/{subId}\n  method: get\n  operationId: getInterceptorSubMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interceptors/{id}/activate/{proxyPort}\n  method: post\n  operationId: activateInterceptor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /client/send\n  method: post\n  operationId: sendRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/agentic-access/http-toolkit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/http-toolkit/agentic-access/http-toolkit-agentic-access.yml
 summary_line: 10 operations · 4 acting · 1 human-in-the-loop
 tags:
 - HTTP

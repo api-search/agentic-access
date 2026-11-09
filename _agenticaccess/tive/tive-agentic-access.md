@@ -9,37 +9,37 @@ api_specs:
   label: Tive Alerts API
   slug: tive-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-alerts-api-openapi.yml
 - filename: tive-authentication-api-openapi.yml
   format: yaml
   label: Tive Authentication API
   slug: tive-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-authentication-api-openapi.yml
 - filename: tive-devices-api-openapi.yml
   format: yaml
   label: Tive Devices API
   slug: tive-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-devices-api-openapi.yml
 - filename: tive-sensor-data-api-openapi.yml
   format: yaml
   label: Tive Sensor Data API
   slug: tive-sensor-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-sensor-data-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-sensor-data-api-openapi.yml
 - filename: tive-shipments-api-openapi.yml
   format: yaml
   label: Tive Shipments API
   slug: tive-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-shipments-api-openapi.yml
 - filename: tive-webhooks-api-openapi.yml
   format: yaml
   label: Tive Webhooks API
   slug: tive-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/openapi/tive-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tive/openapi/tive-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 8
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tive-o
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/{shipmentId}/start\n  method: patch\n  operationId: startShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/{shipmentId}/trackerData\n  method: get\n  operationId: getShipmentTrackerData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /devices/{deviceId}\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alertPresets\n  method: get\n  operationId: listAlertPresets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alertPresets\n  method: post\n  operationId: createAlertPreset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/agentic-access/tive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tive/agentic-access/tive-agentic-access.yml
 summary_line: 15 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Supply Chain

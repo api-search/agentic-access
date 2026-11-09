@@ -9,67 +9,67 @@ api_specs:
   label: Liveblocks Comments API
   slug: liveblocks-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-comments-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-comments-api-openapi.yml
 - filename: liveblocks-storage-api-openapi.yml
   format: yaml
   label: Liveblocks Storage API
   slug: liveblocks-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-storage-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-storage-api-openapi.yml
 - filename: liveblocks-yjs-api-openapi.yml
   format: yaml
   label: Liveblocks Yjs API
   slug: liveblocks-yjs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-yjs-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-yjs-api-openapi.yml
 - filename: liveblocks-ai-api-openapi.yml
   format: yaml
   label: Liveblocks AI API
   slug: liveblocks-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-ai-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-ai-api-openapi.yml
 - filename: liveblocks-auth-api-openapi.yml
   format: yaml
   label: Liveblocks Auth API
   slug: liveblocks-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-auth-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-auth-api-openapi.yml
 - filename: liveblocks-feeds-api-openapi.yml
   format: yaml
   label: Liveblocks Feeds API
   slug: liveblocks-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-feeds-api-openapi.yml
 - filename: liveblocks-groups-api-openapi.yml
   format: yaml
   label: Liveblocks Groups API
   slug: liveblocks-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-groups-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-groups-api-openapi.yml
 - filename: liveblocks-management-api-openapi.yml
   format: yaml
   label: Liveblocks Management API
   slug: liveblocks-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-management-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-management-api-openapi.yml
 - filename: liveblocks-notifications-api-openapi.yml
   format: yaml
   label: Liveblocks Notifications API
   slug: liveblocks-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-notifications-api-openapi.yml
 - filename: liveblocks-room-api-openapi.yml
   format: yaml
   label: Liveblocks Room API
   slug: liveblocks-room-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-room-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-room-api-openapi.yml
 - filename: liveblocks-version-history-api-openapi.yml
   format: yaml
   label: Liveblocks Version History API
   slug: liveblocks-version-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/openapi/liveblocks-version-history-api-openapi.yml
+  url: https://artifacts.apis.io/liveblocks/openapi/liveblocks-version-history-api-openapi.yml
 consequence_counts:
   read: 14
   write: 25
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/livebl
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{roomId}/threads/{threadId}/subscriptions\n  method: get\n  operationId: listThreadSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rooms/{roomId}/threads/{threadId}/participants\n  method: get\n  operationId: listThreadParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rooms/{roomId}/threads/{threadId}/comments\n  method: post\n  operationId: addComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{roomId}/threads/{threadId}/comments/{commentId}\n  method: get\n  operationId: getComment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rooms/{roomId}/threads/{threadId}/comments/{commentId}\n  method: post\n  operationId: updateComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{roomId}/threads/{threadId}/comments/{commentId}\n  method: delete\n  operationId: deleteComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{roomId}/threads/{threadId}/comments/{commentId}/add-reaction\n  method: post\n  operationId: addReaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rooms/{roomId}/threads/{threadId}/comments/{commentId}/remove-reaction\n  method: delete\n  operationId: removeReaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/agentic-access/liveblocks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liveblocks/agentic-access/liveblocks-agentic-access.yml
 summary_line: 39 operations · 25 acting
 tags:
 - Real-Time

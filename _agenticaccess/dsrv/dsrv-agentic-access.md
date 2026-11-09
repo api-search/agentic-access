@@ -9,13 +9,13 @@ api_specs:
   label: Dsrv Ethereum API
   slug: dsrv-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dsrv/refs/heads/main/openapi/dsrv-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/dsrv/openapi/dsrv-ethereum-api-openapi.yml
 - filename: dsrv-health-api-openapi.yml
   format: yaml
   label: Dsrv Health API
   slug: dsrv-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dsrv/refs/heads/main/openapi/dsrv-health-api-openapi.yml
+  url: https://artifacts.apis.io/dsrv/openapi/dsrv-health-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 3
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-10-24'\nmethod: generated\nsource: openapi/dsrv-s
   \  method: post\n  operationId: EthereumController_getIncomeDaily\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ethereum/{network}/income-lifetime\n  method: post\n  operationId: EthereumController_getIncomeLifetime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ethereum/{network}/income-monthly\n  method: post\n  operationId: EthereumController_getIncomeMonthly\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ethereum/{network}/key-stat\n  method: get\n  operationId: EthereumController_getKeyStat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ethereum/{network}/request-deposit\n\
   \  method: post\n  operationId: EthereumController_requestDeposit\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /ethereum/{network}/request-withdraw\n  method: post\n  operationId: EthereumController_requestWithdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /ethereum/{network}/transactions\n  method: post\n  operationId: EthereumController_transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ethereum/{network}/validators\n  method: post\n  operationId: EthereumController_getValidators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ethereum/{network}/validators/apr\n  method: post\n  operationId: EthereumController_getValidatorApr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: AppController_health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dsrv/refs/heads/main/agentic-access/dsrv-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dsrv/agentic-access/dsrv-agentic-access.yml
 summary_line: 11 operations · 3 acting · 3 human-in-the-loop
 tags:
 - Company

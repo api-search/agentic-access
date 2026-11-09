@@ -9,37 +9,37 @@ api_specs:
   label: veeva Authentication API
   slug: veeva-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-authentication-api-openapi.yml
 - filename: veeva-documents-api-openapi.yml
   format: yaml
   label: veeva Documents API
   slug: veeva-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-documents-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-documents-api-openapi.yml
 - filename: veeva-objects-api-openapi.yml
   format: yaml
   label: veeva Objects API
   slug: veeva-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-objects-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-objects-api-openapi.yml
 - filename: veeva-query-api-openapi.yml
   format: yaml
   label: veeva Query API
   slug: veeva-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-query-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-query-api-openapi.yml
 - filename: veeva-users-api-openapi.yml
   format: yaml
   label: veeva Users API
   slug: veeva-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-users-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-users-api-openapi.yml
 - filename: veeva-workflows-api-openapi.yml
   format: yaml
   label: veeva Workflows API
   slug: veeva-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/openapi/veeva-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/veeva/openapi/veeva-workflows-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/veeva-
   \    audit: required\n- path: /vobjects/{objectName}\n  method: get\n  operationId: listObjectRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vobjects/{objectName}\n  method: post\n  operationId: createObjectRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vobjects/{objectName}/{recordId}\n  method: get\n  operationId: getObjectRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vobjects/{objectName}/{recordId}\n  method: put\n  operationId: updateObjectRecord\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vobjects/{objectName}/{recordId}\n  method: delete\n  operationId: deleteObjectRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /query\n  method: get\n  operationId: executeVQLQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /objects/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/agentic-access/veeva-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/veeva/agentic-access/veeva-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Life Sciences

@@ -9,55 +9,55 @@ api_specs:
   label: bexio Accounting API
   slug: bexio-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-accounting-api-openapi.yml
 - filename: bexio-banking-api-openapi.yml
   format: yaml
   label: bexio Banking API
   slug: bexio-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-banking-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-banking-api-openapi.yml
 - filename: bexio-contacts-api-openapi.yml
   format: yaml
   label: bexio Contacts API
   slug: bexio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-contacts-api-openapi.yml
 - filename: bexio-files-api-openapi.yml
   format: yaml
   label: bexio Files API
   slug: bexio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-files-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-files-api-openapi.yml
 - filename: bexio-items-api-openapi.yml
   format: yaml
   label: bexio Items API
   slug: bexio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-items-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-items-api-openapi.yml
 - filename: bexio-payroll-api-openapi.yml
   format: yaml
   label: bexio Payroll API
   slug: bexio-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-payroll-api-openapi.yml
 - filename: bexio-projects-api-openapi.yml
   format: yaml
   label: bexio Projects API
   slug: bexio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-projects-api-openapi.yml
 - filename: bexio-purchase-api-openapi.yml
   format: yaml
   label: bexio Purchase API
   slug: bexio-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-purchase-api-openapi.yml
 - filename: bexio-sales-orders-api-openapi.yml
   format: yaml
   label: bexio Sales Orders API
   slug: bexio-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-sales-orders-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/bexio-
   \  method: get\n  operationId: getInvoicePdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /article\n  method: get\n  operationId: listArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /article\n  method: post\n  operationId: createArticle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/manual_entries\n  method: post\n  operationId: createManualEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ required\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pr_project\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheet\n  method: post\n  operationId: createTimesheet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ required\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /banking/accounts\n  method: get\n  operationId: listBankAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/agentic-access/bexio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bexio/agentic-access/bexio-agentic-access.yml
 summary_line: 20 operations · 12 acting · 12 human-in-the-loop
 tags:
 - Accounting

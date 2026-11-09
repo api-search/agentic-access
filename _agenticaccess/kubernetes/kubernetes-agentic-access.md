@@ -9,43 +9,43 @@ api_specs:
   label: Kubernetes Autoscaling API
   slug: kubernetes-autoscaling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-autoscaling-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-autoscaling-api-openapi.yml
 - filename: kubernetes-cluster-api-openapi.yml
   format: yaml
   label: Kubernetes Cluster API
   slug: kubernetes-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-cluster-api-openapi.yml
 - filename: kubernetes-config-api-openapi.yml
   format: yaml
   label: Kubernetes Config API
   slug: kubernetes-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-config-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-config-api-openapi.yml
 - filename: kubernetes-events-api-openapi.yml
   format: yaml
   label: Kubernetes Events API
   slug: kubernetes-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-events-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-events-api-openapi.yml
 - filename: kubernetes-namespaces-api-openapi.yml
   format: yaml
   label: Kubernetes Namespaces API
   slug: kubernetes-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-namespaces-api-openapi.yml
 - filename: kubernetes-rbac-api-openapi.yml
   format: yaml
   label: Kubernetes RBAC API
   slug: kubernetes-rbac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-rbac-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-rbac-api-openapi.yml
 - filename: kubernetes-workloads-api-openapi.yml
   format: yaml
   label: Kubernetes Workloads API
   slug: kubernetes-workloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/openapi/kubernetes-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes/openapi/kubernetes-workloads-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 17
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kubern
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/{namespace}/secrets\n  method: post\n  operationId: createNamespacedSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/nodes\n  method: get\n  operationId: listNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/nodes/{name}\n  method: get\n  operationId: getNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/rbac.authorization.k8s.io/v1/clusterroles\n  method: get\n\
   \  operationId: listClusterRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/rbac.authorization.k8s.io/v1/clusterroles\n  method: post\n  operationId: createClusterRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/autoscaling/v2/namespaces/{namespace}/horizontalpodautoscalers\n  method: get\n  operationId: listNamespacedHorizontalPodAutoscalers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/autoscaling/v2/namespaces/{namespace}/horizontalpodautoscalers\n  method: post\n  operationId: createNamespacedHorizontalPodAutoscaler\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/events.k8s.io/v1/namespaces/{namespace}/events\n  method: get\n  operationId: listNamespacedEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/agentic-access/kubernetes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kubernetes/agentic-access/kubernetes-agentic-access.yml
 summary_line: 34 operations · 17 acting
 tags:
 - Automation

@@ -9,37 +9,37 @@ api_specs:
   label: Pomelo Authentication API
   slug: pomelo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-authentication-api-openapi.yml
 - filename: pomelo-card-accounts-api-openapi.yml
   format: yaml
   label: Pomelo Card Accounts API
   slug: pomelo-card-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-card-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-card-accounts-api-openapi.yml
 - filename: pomelo-cards-api-openapi.yml
   format: yaml
   label: Pomelo Cards API
   slug: pomelo-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-cards-api-openapi.yml
 - filename: pomelo-transactions-api-openapi.yml
   format: yaml
   label: Pomelo Transactions API
   slug: pomelo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-transactions-api-openapi.yml
 - filename: pomelo-transfers-api-openapi.yml
   format: yaml
   label: Pomelo Transfers API
   slug: pomelo-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-transfers-api-openapi.yml
 - filename: pomelo-users-api-openapi.yml
   format: yaml
   label: Pomelo Users API
   slug: pomelo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-users-api-openapi.yml
+  url: https://artifacts.apis.io/pomelo/openapi/pomelo-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pomelo
   \  max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/v1\n  method: get\n  operationId: searchCardAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/v1/{id}\n  method: get\n  operationId: getCardAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/v1/{id}/movements\n  method: get\n  operationId: listAccountMovements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/v1\n  method: get\n  operationId: searchTransactions\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/v1/{id}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/v1\n  method: post\n  operationId: createTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers/v1\n  method: get\n  operationId: searchTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/v1/{id}\n  method: get\n  operationId: getTransfer\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/agentic-access/pomelo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pomelo/agentic-access/pomelo-agentic-access.yml
 summary_line: 20 operations · 9 acting
 tags:
 - Fintech

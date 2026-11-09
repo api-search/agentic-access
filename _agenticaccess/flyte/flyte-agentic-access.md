@@ -9,7 +9,7 @@ api_specs:
   label: Flyte Admin Service API
   slug: flyte-adminservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/openapi/flyte-adminservice-api-openapi.yml
+  url: https://artifacts.apis.io/flyte/openapi/flyte-adminservice-api-openapi.yml
 consequence_counts:
   read: 28
   safety-critical: 1
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flyte-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/project_attributes/{attributes.project}\n  method: put\n  operationId: UpdateProjectAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/project_domain_attributes/{project}/{domain}\n  method: get\n  operationId: GetProjectDomainAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/project_domain_attributes/{attributes.project}/{attributes.domain}\n  method: put\n  operationId: UpdateProjectDomainAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workflow_attributes/{project}/{domain}/{workflow}\n  method: get\n  operationId: GetWorkflowAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workflow_attributes/{attributes.project}/{attributes.domain}/{attributes.workflow}\n  method: put\n  operationId: UpdateWorkflowAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/version\n  method: get\n  operationId: GetVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/agentic-access/flyte-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flyte/agentic-access/flyte-agentic-access.yml
 summary_line: 45 operations · 17 acting · 1 human-in-the-loop
 tags:
 - CNCF

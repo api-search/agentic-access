@@ -9,79 +9,79 @@ api_specs:
   label: Nevercode App Previews API
   slug: nevercode-app-previews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-app-previews-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-app-previews-api-openapi.yml
 - filename: nevercode-applications-api-openapi.yml
   format: yaml
   label: Nevercode Applications API
   slug: nevercode-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-applications-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-applications-api-openapi.yml
 - filename: nevercode-billing-api-openapi.yml
   format: yaml
   label: Nevercode Billing API
   slug: nevercode-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-billing-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-billing-api-openapi.yml
 - filename: nevercode-build-dashboards-api-openapi.yml
   format: yaml
   label: Nevercode Build Dashboards API
   slug: nevercode-build-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-build-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-build-dashboards-api-openapi.yml
 - filename: nevercode-builds-api-openapi.yml
   format: yaml
   label: Nevercode Builds API
   slug: nevercode-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-builds-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-builds-api-openapi.yml
 - filename: nevercode-meta-api-openapi.yml
   format: yaml
   label: Nevercode Meta API
   slug: nevercode-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-meta-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-meta-api-openapi.yml
 - filename: nevercode-over-the-air-updates-api-openapi.yml
   format: yaml
   label: Nevercode Over-the-air Updates API
   slug: nevercode-over-the-air-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-over-the-air-updates-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-over-the-air-updates-api-openapi.yml
 - filename: nevercode-secrets-and-environment-vars-api-openapi.yml
   format: yaml
   label: Nevercode Secrets and Environment Vars API
   slug: nevercode-secrets-and-environment-vars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-secrets-and-environment-vars-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-secrets-and-environment-vars-api-openapi.yml
 - filename: nevercode-team-invitations-api-openapi.yml
   format: yaml
   label: Nevercode Team Invitations API
   slug: nevercode-team-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-team-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-team-invitations-api-openapi.yml
 - filename: nevercode-team-members-api-openapi.yml
   format: yaml
   label: Nevercode Team Members API
   slug: nevercode-team-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-team-members-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-team-members-api-openapi.yml
 - filename: nevercode-teams-api-openapi.yml
   format: yaml
   label: Nevercode Teams API
   slug: nevercode-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-teams-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-teams-api-openapi.yml
 - filename: nevercode-tester-groups-api-openapi.yml
   format: yaml
   label: Nevercode Tester Groups API
   slug: nevercode-tester-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-tester-groups-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-tester-groups-api-openapi.yml
 - filename: nevercode-users-api-openapi.yml
   format: yaml
   label: Nevercode Users API
   slug: nevercode-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/openapi/nevercode-users-api-openapi.yml
+  url: https://artifacts.apis.io/nevercode/openapi/nevercode-users-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 52
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/neverc
   \  method: get\n  operationId: ApiV3TesterGroupsTesterGroupIdGetGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tester-groups/{tester_group_id}\n  method: delete\n  operationId: ApiV3TesterGroupsTesterGroupIdDeleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/tester-groups/{tester_group_id}\n  method: patch\n  operationId: ApiV3TesterGroupsTesterGroupIdUpdateTesterGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v3/previews/{preview_id}\n  method: get\n  operationId: ApiV3PreviewsPreviewIdGetPreviewInformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/previews/{preview_id}\n  method: delete\n  operationId: ApiV3PreviewsPreviewIdStopPreview\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v3/previews/{preview_id}/share\n  method: post\n  operationId: ApiV3PreviewsPreviewIdShareSharePreview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/shared-previews/{shared_preview_id}\n  method: get\n  operationId: ApiV3SharedPreviewsSharedPreviewIdGetSharedPreview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/agentic-access/nevercode-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nevercode/agentic-access/nevercode-agentic-access.yml
 summary_line: 85 operations · 33 acting · 3 human-in-the-loop
 tags:
 - Company

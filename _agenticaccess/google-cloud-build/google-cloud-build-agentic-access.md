@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Build Builds API
   slug: google-cloud-build-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/google-cloud-build-builds-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-build/openapi/google-cloud-build-builds-api-openapi.yml
 - filename: google-cloud-build-triggers-api-openapi.yml
   format: yaml
   label: Google Cloud Build Triggers API
   slug: google-cloud-build-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/google-cloud-build-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-build/openapi/google-cloud-build-triggers-api-openapi.yml
 - filename: google-cloud-build-worker-pools-api-openapi.yml
   format: yaml
   label: Google Cloud Build Worker Pools API
   slug: google-cloud-build-worker-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/google-cloud-build-worker-pools-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-build/openapi/google-cloud-build-worker-pools-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloud-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/builds/{buildId}\n  method: get\n  operationId: getBuild\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/builds/{buildId}:cancel\n  method: post\n  operationId: cancelBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/triggers\n  method: get\n  operationId: listTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/triggers\n  method:\
   \ post\n  operationId: createTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/triggers/{triggerId}\n  method: get\n  operationId: getTrigger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/triggers/{triggerId}\n  method: patch\n  operationId: updateTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/triggers/{triggerId}\n  method: delete\n\
   \  operationId: deleteTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/workerPools\n  method: get\n  operationId: listWorkerPools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/workerPools\n  method: post\n  operationId: createWorkerPool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/agentic-access/google-cloud-build-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-build/agentic-access/google-cloud-build-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Build Automation

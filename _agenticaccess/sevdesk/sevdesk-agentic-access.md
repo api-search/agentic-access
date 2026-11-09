@@ -9,55 +9,55 @@ api_specs:
   label: sevdesk CheckAccount API
   slug: sevdesk-checkaccount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-checkaccount-api-openapi.yml
+  url: https://artifacts.apis.io/sevdesk/openapi/sevdesk-checkaccount-api-openapi.yml
 - filename: sevdesk-checkaccounttransaction-api-openapi.yml
   format: yaml
   label: sevdesk CheckAccountTransaction API
   slug: sevdesk-checkaccounttransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-checkaccounttransaction-api-openapi.yml
+  url: https://artifacts.apis.io/sevdesk/openapi/sevdesk-checkaccounttransaction-api-openapi.yml
 - filename: sevdesk-contact-api-openapi.yml
   format: yaml
   label: sevdesk Contact API
   slug: sevdesk-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-contact-api-openapi.yml
+  url: https://artifacts.apis.io/sevdesk/openapi/sevdesk-contact-api-openapi.yml
 - filename: sevdesk-invoice-api-openapi.yml
   format: yaml
   label: sevdesk Invoice API
   slug: sevdesk-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/sevdesk/openapi/sevdesk-invoice-api-openapi.yml
 - filename: sevdesk-order-api-openapi.yml
   format: yaml
   label: sevdesk Order API
   slug: sevdesk-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-order-api-openapi.yml
+  url: https://artifacts.apis.io/sevdesk/openapi/sevdesk-order-api-openapi.yml
 - filename: sevdesk-part-api-openapi.yml
   format: yaml
   label: sevdesk Part API
   slug: sevdesk-part-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-part-api-openapi.yml
+  url: https://artifacts.apis.io/sevdesk/openapi/sevdesk-part-api-openapi.yml
 - filename: sevdesk-tag-api-openapi.yml
   format: yaml
   label: sevdesk Tag API
   slug: sevdesk-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-tag-api-openapi.yml
+  url: https://artifacts.apis.io/sevdesk/openapi/sevdesk-tag-api-openapi.yml
 - filename: sevdesk-voucher-api-openapi.yml
   format: yaml
   label: sevdesk Voucher API
   slug: sevdesk-voucher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-voucher-api-openapi.yml
+  url: https://artifacts.apis.io/sevdesk/openapi/sevdesk-voucher-api-openapi.yml
 - filename: sevdesk-credit-note-api-openapi.yml
   format: yaml
   label: sevdesk Credit Note API
   slug: sevdesk-credit-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/openapi/sevdesk-credit-note-api-openapi.yml
+  url: https://artifacts.apis.io/sevdesk/openapi/sevdesk-credit-note-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 17
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sevdes
   - path: /CheckAccount/{checkAccountId}\n  method: get\n  operationId: getCheckAccountById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /CheckAccountTransaction\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /CheckAccountTransaction\n  method: post\n  operationId: createTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Part\n  method: get\n  operationId: getParts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /Part\n  method: post\n  operationId: createPart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Part/{partId}/getStock\n  method: get\n  operationId: partGetStock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Tag\n  method: get\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Tag/Factory/create\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/agentic-access/sevdesk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sevdesk/agentic-access/sevdesk-agentic-access.yml
 summary_line: 30 operations · 13 acting
 tags:
 - Accounting

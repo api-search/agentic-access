@@ -9,85 +9,85 @@ api_specs:
   label: LiteLLM Assistants API
   slug: litellm-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-assistants-api-openapi.yml
 - filename: litellm-audio-api-openapi.yml
   format: yaml
   label: LiteLLM Audio API
   slug: litellm-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-audio-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-audio-api-openapi.yml
 - filename: litellm-batches-api-openapi.yml
   format: yaml
   label: LiteLLM Batches API
   slug: litellm-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-batches-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-batches-api-openapi.yml
 - filename: litellm-completions-api-openapi.yml
   format: yaml
   label: LiteLLM Completions API
   slug: litellm-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-completions-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-completions-api-openapi.yml
 - filename: litellm-embeddings-api-openapi.yml
   format: yaml
   label: LiteLLM Embeddings API
   slug: litellm-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-embeddings-api-openapi.yml
 - filename: litellm-fine-tuning-api-openapi.yml
   format: yaml
   label: LiteLLM Fine Tuning API
   slug: litellm-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-fine-tuning-api-openapi.yml
 - filename: litellm-images-api-openapi.yml
   format: yaml
   label: LiteLLM Images API
   slug: litellm-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-images-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-images-api-openapi.yml
 - filename: litellm-messages-api-openapi.yml
   format: yaml
   label: LiteLLM Messages API
   slug: litellm-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-messages-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-messages-api-openapi.yml
 - filename: litellm-moderations-api-openapi.yml
   format: yaml
   label: LiteLLM Moderations API
   slug: litellm-moderations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-moderations-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-moderations-api-openapi.yml
 - filename: litellm-ocr-api-openapi.yml
   format: yaml
   label: LiteLLM Ocr API
   slug: litellm-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-ocr-api-openapi.yml
 - filename: litellm-rag-api-openapi.yml
   format: yaml
   label: LiteLLM Rag API
   slug: litellm-rag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-rag-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-rag-api-openapi.yml
 - filename: litellm-rerank-api-openapi.yml
   format: yaml
   label: LiteLLM Rerank API
   slug: litellm-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-rerank-api-openapi.yml
 - filename: litellm-vector-stores-api-openapi.yml
   format: yaml
   label: LiteLLM Vector Stores API
   slug: litellm-vector-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-vector-stores-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-vector-stores-api-openapi.yml
 - filename: litellm-chat-completions-api-openapi.yml
   format: yaml
   label: LiteLLM Chat Completions API
   slug: litellm-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/litellm/openapi/litellm-chat-completions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 18
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/litell
   \  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/messages/count_tokens\n  method: post\n  operationId: countMessageTokens\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /moderations\n  method: post\n  operationId: createModeration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /ocr\n  method: post\n  operationId: createOcr\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rag/ingest\n  method: post\n  operationId: ragIngest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rag/query\n  method: post\n  operationId: ragQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rerank\n  method: post\n  operationId: rerankDocuments\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vector_stores\n  method: post\n  operationId: createVectorStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vector_stores/search\n  method: post\n  operationId: searchVectorStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/agentic-access/litellm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/litellm/agentic-access/litellm-agentic-access.yml
 summary_line: 20 operations · 18 acting
 tags:
 - Gateways

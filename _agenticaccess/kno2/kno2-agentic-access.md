@@ -9,31 +9,31 @@ api_specs:
   label: Kno2 Attachments API
   slug: kno2-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-attachments-api-openapi.yml
 - filename: kno2-authentication-api-openapi.yml
   format: yaml
   label: Kno2 Authentication API
   slug: kno2-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-authentication-api-openapi.yml
 - filename: kno2-directory-api-openapi.yml
   format: yaml
   label: Kno2 Directory API
   slug: kno2-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-directory-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-directory-api-openapi.yml
 - filename: kno2-intake-api-openapi.yml
   format: yaml
   label: Kno2 Intake API
   slug: kno2-intake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-intake-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-intake-api-openapi.yml
 - filename: kno2-messaging-api-openapi.yml
   format: yaml
   label: Kno2 Messaging API
   slug: kno2-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-messaging-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kno2-o
   \  audit: required\n- path: /api/messages/{id}/send\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/messages/{id}/process\n  method: post\n  operationId: processMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/messages/{id}/attachments/{attachmentId}\n  method: get\n  operationId: getAttachment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /api/messages/{id}/attachments/{attachmentId}\n  method: post\n  operationId: uploadAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/messages/{id}/attachments/{attachmentId}/read\n  method: put\n  operationId: markAttachmentRead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/documenttypes\n  method: get\n  operationId: listDocumentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/directory/validate\n  method: get\n  operationId: validateAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/agentic-access/kno2-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kno2/agentic-access/kno2-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Interoperability

@@ -15,25 +15,25 @@ api_specs:
   label: Vimeo Albums API
   slug: vimeo-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-albums-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-albums-api-openapi.yml
 - filename: vimeo-channels-api-openapi.yml
   format: yaml
   label: Vimeo Channels API
   slug: vimeo-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-channels-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-channels-api-openapi.yml
 - filename: vimeo-users-api-openapi.yml
   format: yaml
   label: Vimeo Users API
   slug: vimeo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-users-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-users-api-openapi.yml
 - filename: vimeo-videos-api-openapi.yml
   format: yaml
   label: Vimeo Videos API
   slug: vimeo-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-videos-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-videos-api-openapi.yml
 consequence_counts:
   read: 10
   write: 7
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/vimeo-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/videos\n  method: get\n  operationId: listMyVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/videos\n  method: post\n  operationId: uploadVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/videos\n  method: get\n  operationId: listUserVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}/videos\n  method: post\n  operationId: uploadUserVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{video_id}\n  method: get\n  operationId: getVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/{video_id}\n  method: patch\n  operationId: editVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{video_id}\n  method:\
   \ delete\n  operationId: deleteVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/agentic-access/vimeo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vimeo/agentic-access/vimeo-agentic-access.yml
 summary_line: 17 operations · 7 acting
 tags:
 - Video

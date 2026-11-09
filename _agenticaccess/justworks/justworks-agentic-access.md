@@ -9,67 +9,67 @@ api_specs:
   label: Justworks Members API
   slug: justworks-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-members-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-members-api-openapi.yml
 - filename: justworks-company-api-openapi.yml
   format: yaml
   label: Justworks Company API
   slug: justworks-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-company-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-company-api-openapi.yml
 - filename: justworks-deductions-api-openapi.yml
   format: yaml
   label: Justworks Deductions API
   slug: justworks-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-deductions-api-openapi.yml
 - filename: justworks-webhooks-api-openapi.yml
   format: yaml
   label: Justworks Webhooks API
   slug: justworks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-webhooks-api-openapi.yml
 - filename: justworks-deduction-types-api-openapi.yml
   format: yaml
   label: Justworks Deduction Types API
   slug: justworks-deduction-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-deduction-types-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-deduction-types-api-openapi.yml
 - filename: justworks-payrolls-api-openapi.yml
   format: yaml
   label: Justworks Payrolls API
   slug: justworks-payrolls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-payrolls-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-payrolls-api-openapi.yml
 - filename: justworks-paystubs-api-openapi.yml
   format: yaml
   label: Justworks Paystubs API
   slug: justworks-paystubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-paystubs-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-paystubs-api-openapi.yml
 - filename: justworks-time-off-balances-api-openapi.yml
   format: yaml
   label: Justworks Time Off Balances API
   slug: justworks-time-off-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-balances-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-time-off-balances-api-openapi.yml
 - filename: justworks-time-off-policies-api-openapi.yml
   format: yaml
   label: Justworks Time Off Policies API
   slug: justworks-time-off-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-policies-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-time-off-policies-api-openapi.yml
 - filename: justworks-time-off-requests-api-openapi.yml
   format: yaml
   label: Justworks Time Off Requests API
   slug: justworks-time-off-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-requests-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-time-off-requests-api-openapi.yml
 - filename: justworks-oauth-api-openapi.yml
   format: yaml
   label: Justworks O Auth API
   slug: justworks-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-oauth-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 1
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/justwo
   \      max-ttl: 3600\n    audit: none\n- path: /v1/paystubs/{paystub_id}\n  method: get\n  operationId: getPaystub\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/time-off/balances\n  method: post\n  operationId: createTimeOffBalancesReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/time-off/balances/{report_id}\n  method: get\n  operationId: getTimeOffBalancesReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/time-off/policies\n  method: get\n  operationId: listTimeOffPolicies\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/time-off/requests\n  method: get\n  operationId: listTimeOffRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/get\n  method: post\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{webhook_id}/resume\n  method: post\n  operationId: resumeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhook_id}/simulate\n  method: post\n  operationId: simulateWebhook\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/agentic-access/justworks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/justworks/agentic-access/justworks-agentic-access.yml
 summary_line: 27 operations · 8 acting · 1 human-in-the-loop
 tags:
 - PEO

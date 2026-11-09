@@ -9,43 +9,43 @@ api_specs:
   label: GP Connect Appointment API
   slug: gp-connect-appointment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-appointment-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-appointment-api-openapi.yml
 - filename: gp-connect-documents-api-openapi.yml
   format: yaml
   label: GP Connect Documents API
   slug: gp-connect-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-documents-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-documents-api-openapi.yml
 - filename: gp-connect-fhir-api-openapi.yml
   format: yaml
   label: GP Connect FHIR API
   slug: gp-connect-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-fhir-api-openapi.yml
 - filename: gp-connect-meta-api-openapi.yml
   format: yaml
   label: GP Connect Meta API
   slug: gp-connect-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-meta-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-meta-api-openapi.yml
 - filename: gp-connect-patient-api-openapi.yml
   format: yaml
   label: GP Connect Patient API
   slug: gp-connect-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-patient-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-patient-api-openapi.yml
 - filename: gp-connect-slot-api-openapi.yml
   format: yaml
   label: GP Connect Slot API
   slug: gp-connect-slot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-slot-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-slot-api-openapi.yml
 - filename: gp-connect-task-api-openapi.yml
   format: yaml
   label: GP Connect Task API
   slug: gp-connect-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/openapi/gp-connect-task-api-openapi.yml
+  url: https://artifacts.apis.io/gp-connect/openapi/gp-connect-task-api-openapi.yml
 consequence_counts:
   read: 10
   write: 4
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gp-con
   \ get\n  operationId: get-document\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /FHIR/STU3/Bundle\n  method: post\n  operationId: post-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meta\n  method: get\n  operationId: get-capabilitystatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient/{id}/Appointment\n  method: get\n  operationId: getPatientByIdAppointment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient/$gpc.getstructuredrecord\n\
   \  method: post\n  operationId: get-structured-record\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient/{id}/DocumentReference\n  method: get\n  operationId: search-document\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient/{id}/MedicationRequest\n  method: get\n  operationId: get-ordered-medicationrequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Slot\n  method: get\n  operationId: getSlot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Task\n  method: post\n  operationId: post-task\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Task\n  method: get\n  operationId: get-task\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/agentic-access/gp-connect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gp-connect/agentic-access/gp-connect-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - NHS

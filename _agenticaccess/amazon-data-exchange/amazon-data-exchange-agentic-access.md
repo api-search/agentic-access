@@ -9,37 +9,49 @@ api_specs:
   label: Amazon Data Exchange Assets API
   slug: amazon-data-exchange-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-assets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-assets-api-openapi.yml
 - filename: amazon-data-exchange-event-actions-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Event Actions API
   slug: amazon-data-exchange-event-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-event-actions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-event-actions-api-openapi.yml
 - filename: amazon-data-exchange-jobs-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Jobs API
   slug: amazon-data-exchange-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-jobs-api-openapi.yml
 - filename: amazon-data-exchange-revisions-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Revisions API
   slug: amazon-data-exchange-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-revisions-api-openapi.yml
 - filename: amazon-data-exchange-tags-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Tags API
   slug: amazon-data-exchange-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-tags-api-openapi.yml
+- filename: amazon-data-exchange-data-grants-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Data Exchange Data Grants API
+  slug: amazon-data-exchange-data-grants-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-data-grants-api-openapi.yml
+- filename: amazon-data-exchange-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Data Exchange Operations API
+  slug: amazon-data-exchange-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-operations-api-openapi.yml
 - filename: amazon-data-exchange-datasets-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Datasets API
   slug: amazon-data-exchange-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-datasets-api-openapi.yml
 consequence_counts:
   read: 11
   write: 16
@@ -74,9 +86,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/{JobId}/cancel\n  method: delete\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/event-actions\n  method: get\n  operationId: listEventActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/event-actions\n  method: post\n  operationId: createEventAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/event-actions/{EventActionId}\n  method: get\n  operationId: getEventAction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/event-actions/{EventActionId}\n  method: patch\n  operationId: updateEventAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/event-actions/{EventActionId}\n  method: delete\n  operationId: deleteEventAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n\
   \  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: delete\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/agentic-access/amazon-data-exchange-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-data-exchange/agentic-access/amazon-data-exchange-agentic-access.yml
 summary_line: 27 operations · 16 acting
 tags:
+- Amazon Web Services
 - Data Exchange
 - Data Marketplace
 - Third-Party Data

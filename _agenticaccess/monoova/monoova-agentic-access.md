@@ -9,187 +9,187 @@ api_specs:
   label: Monoova Automatcher (Bank Account Receivables) API
   slug: monoova-automatcher-bank-account-receivables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-automatcher-bank-account-receivables-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-automatcher-bank-account-receivables-api-openapi.yml
 - filename: monoova-bpay-api-openapi.yml
   format: yaml
   label: Monoova BPAY API
   slug: monoova-bpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-bpay-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-bpay-api-openapi.yml
 - filename: monoova-create-payment-using-token-api-openapi.yml
   format: yaml
   label: Monoova Create Payment Using Token API
   slug: monoova-create-payment-using-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-create-payment-using-token-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-create-payment-using-token-api-openapi.yml
 - filename: monoova-financial-api-openapi.yml
   format: yaml
   label: Monoova Financial API
   slug: monoova-financial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-financial-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-financial-api-openapi.yml
 - filename: monoova-generate-a-bearer-token-api-openapi.yml
   format: yaml
   label: Monoova Generate a Bearer Token API
   slug: monoova-generate-a-bearer-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-generate-a-bearer-token-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-generate-a-bearer-token-api-openapi.yml
 - filename: monoova-generate-a-client-session-api-openapi.yml
   format: yaml
   label: Monoova Generate a Client Session API
   slug: monoova-generate-a-client-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-generate-a-client-session-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-generate-a-client-session-api-openapi.yml
 - filename: monoova-get-async-request-status-api-openapi.yml
   format: yaml
   label: Monoova Get Async Request Status API
   slug: monoova-get-async-request-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-get-async-request-status-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-get-async-request-status-api-openapi.yml
 - filename: monoova-get-payment-method-token-details-api-openapi.yml
   format: yaml
   label: Monoova Get Payment Method Token Details API
   slug: monoova-get-payment-method-token-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-get-payment-method-token-details-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-get-payment-method-token-details-api-openapi.yml
 - filename: monoova-get-transaction-by-date-range-api-openapi.yml
   format: yaml
   label: Monoova Get Transaction By Date Range API
   slug: monoova-get-transaction-by-date-range-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-get-transaction-by-date-range-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-get-transaction-by-date-range-api-openapi.yml
 - filename: monoova-get-transaction-by-id-api-openapi.yml
   format: yaml
   label: Monoova Get Transaction By Id API
   slug: monoova-get-transaction-by-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-get-transaction-by-id-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-get-transaction-by-id-api-openapi.yml
 - filename: monoova-initiate-a-payment-api-openapi.yml
   format: yaml
   label: Monoova Initiate a Payment API
   slug: monoova-initiate-a-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-initiate-a-payment-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-initiate-a-payment-api-openapi.yml
 - filename: monoova-ledger-account-api-openapi.yml
   format: yaml
   label: Monoova Ledger Account API
   slug: monoova-ledger-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-ledger-account-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-ledger-account-api-openapi.yml
 - filename: monoova-maccount-api-openapi.yml
   format: yaml
   label: Monoova M Account API
   slug: monoova-maccount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-maccount-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-maccount-api-openapi.yml
 - filename: monoova-manage-payment-agreements-api-openapi.yml
   format: yaml
   label: Monoova Manage Payment Agreements API
   slug: monoova-manage-payment-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-manage-payment-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-manage-payment-agreements-api-openapi.yml
 - filename: monoova-mwallet-api-openapi.yml
   format: yaml
   label: Monoova M Wallet API
   slug: monoova-mwallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-mwallet-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-mwallet-api-openapi.yml
 - filename: monoova-notification-management-api-openapi.yml
   format: yaml
   label: Monoova Notification Management API
   slug: monoova-notification-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-notification-management-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-notification-management-api-openapi.yml
 - filename: monoova-payid-api-openapi.yml
   format: yaml
   label: Monoova Pay ID API
   slug: monoova-payid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-payid-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-payid-api-openapi.yml
 - filename: monoova-payto-async-api-api-openapi.yml
   format: yaml
   label: Monoova PayTo Async API
   slug: monoova-payto-async-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-payto-async-api-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-payto-async-api-api-openapi.yml
 - filename: monoova-public-endpoints-api-openapi.yml
   format: yaml
   label: Monoova Public Endpoints API
   slug: monoova-public-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-public-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-public-endpoints-api-openapi.yml
 - filename: monoova-reconciliation-rules-api-openapi.yml
   format: yaml
   label: Monoova Reconciliation Rules API
   slug: monoova-reconciliation-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-reconciliation-rules-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-reconciliation-rules-api-openapi.yml
 - filename: monoova-reporting-api-openapi.yml
   format: yaml
   label: Monoova Reporting API
   slug: monoova-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-reporting-api-openapi.yml
 - filename: monoova-reports-api-openapi.yml
   format: yaml
   label: Monoova Reports API
   slug: monoova-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-reports-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-reports-api-openapi.yml
 - filename: monoova-request-refund-transaction-api-openapi.yml
   format: yaml
   label: Monoova Request Refund Transaction API
   slug: monoova-request-refund-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-request-refund-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-request-refund-transaction-api-openapi.yml
 - filename: monoova-security-api-openapi.yml
   format: yaml
   label: Monoova Security API
   slug: monoova-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-security-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-security-api-openapi.yml
 - filename: monoova-subscriptions-api-openapi.yml
   format: yaml
   label: Monoova Subscriptions API
   slug: monoova-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-subscriptions-api-openapi.yml
 - filename: monoova-token-api-openapi.yml
   format: yaml
   label: Monoova Token API
   slug: monoova-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-token-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-token-api-openapi.yml
 - filename: monoova-tools-api-openapi.yml
   format: yaml
   label: Monoova Tools API
   slug: monoova-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-tools-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-tools-api-openapi.yml
 - filename: monoova-update-payment-method-token-status-api-openapi.yml
   format: yaml
   label: Monoova Update Payment Method Token Status API
   slug: monoova-update-payment-method-token-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-update-payment-method-token-status-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-update-payment-method-token-status-api-openapi.yml
 - filename: monoova-verify-api-openapi.yml
   format: yaml
   label: Monoova Verify API
   slug: monoova-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-verify-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-verify-api-openapi.yml
 - filename: monoova-webhooks-api-openapi.yml
   format: yaml
   label: Monoova Webhooks API
   slug: monoova-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-webhooks-api-openapi.yml
 - filename: monoova-whitelisting-for-automatcher-bank-account-receivables-api-openapi.yml
   format: yaml
   label: Monoova Whitelisting for Automatcher (Bank Account Receivables) API
   slug: monoova-whitelisting-for-automatcher-bank-account-receivables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/openapi/monoova-whitelisting-for-automatcher-bank-account-receivables-api-openapi.yml
+  url: https://artifacts.apis.io/monoova/openapi/monoova-whitelisting-for-automatcher-bank-account-receivables-api-openapi.yml
 consequence_counts:
   physical: 28
   read: 65
@@ -378,8 +378,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/monoov
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /au/payto/pam-v1/PaymentAgreement\n  method: get\n  operationId: get-paymentagreement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /au/payto/pam-v1/paymentAgreement/{paymentAgreementUID}\n  method: get\n  operationId: get-paymentagreement-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /au/payto/pas-v1/paymentInstruction\n  method: get\n  operationId: get-paymentinstruction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /au/payto/pas-v1/paymentinstruction/{paymentInitiationUID}\n  method: get\n  operationId: get-paymentinstruction-paymentinitiationid\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/v1/settlement/{date}\n  method: get\n  operationId: ReportSettlement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/v1/statement/{date}\n  method: get\n  operationId: ReportStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /au/card/ccm/CreditCardTransactionAsync/refund\n  method: post\n  operationId: request-refund-transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /security/v1/createOneShotSecurityToken/{timeOutMin}\n  method: get\n  operationId: SecurityCreateOneShotSecurityToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /security/v1/signInAccountSettings\n  method: get\n  operationId: SecuritySignInAccountSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/v1/create\n  method: post\n  operationId: SubscriptionsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/update\n  method: post\n \
-  \ operationId: SubscriptionsUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/list\n  method: get\n  operationId: SubscriptionsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/v1/delete/{id}\n  method: delete\n  operationId: SubscriptionsDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/agentic-access/monoova-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/agentic-access/monoova-agentic-access.yml
+  \ operationId: SubscriptionsUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/list\n  method: get\n  operationId: SubscriptionsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/v1/delete/{id}\n  method: delete\n  operationId: SubscriptionsDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/monoova/agentic-access/monoova-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/monoova/agentic-access/monoova-agentic-access.yml
 summary_line: 141 operations · 76 acting · 1 human-in-the-loop
 tags:
 - Payments

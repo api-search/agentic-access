@@ -9,61 +9,61 @@ api_specs:
   label: Understudy Labs Capabilities API
   slug: understudy-labs-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-capabilities-api-openapi.yml
 - filename: understudy-labs-conversations-api-openapi.yml
   format: yaml
   label: Understudy Labs Conversations API
   slug: understudy-labs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-conversations-api-openapi.yml
 - filename: understudy-labs-downloads-api-openapi.yml
   format: yaml
   label: Understudy Labs Downloads API
   slug: understudy-labs-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-downloads-api-openapi.yml
 - filename: understudy-labs-feedback-api-openapi.yml
   format: yaml
   label: Understudy Labs Feedback API
   slug: understudy-labs-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-feedback-api-openapi.yml
 - filename: understudy-labs-metrics-api-openapi.yml
   format: yaml
   label: Understudy Labs Metrics API
   slug: understudy-labs-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-metrics-api-openapi.yml
 - filename: understudy-labs-models-api-openapi.yml
   format: yaml
   label: Understudy Labs Models API
   slug: understudy-labs-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-models-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-models-api-openapi.yml
 - filename: understudy-labs-residency-api-openapi.yml
   format: yaml
   label: Understudy Labs Residency API
   slug: understudy-labs-residency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-residency-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-residency-api-openapi.yml
 - filename: understudy-labs-runs-api-openapi.yml
   format: yaml
   label: Understudy Labs Runs API
   slug: understudy-labs-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-runs-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-runs-api-openapi.yml
 - filename: understudy-labs-status-api-openapi.yml
   format: yaml
   label: Understudy Labs Status API
   slug: understudy-labs-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-status-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-status-api-openapi.yml
 - filename: understudy-labs-supervision-api-openapi.yml
   format: yaml
   label: Understudy Labs Supervision API
   slug: understudy-labs-supervision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/openapi/understudy-labs-supervision-api-openapi.yml
+  url: https://artifacts.apis.io/understudy-labs/openapi/understudy-labs-supervision-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/unders
   \ desktopDownloadStart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/downloads/{download_id}\n  method: get\n  operationId: desktopDownloadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/downloads/{download_id}/cancel\n  method: post\n  operationId: desktopDownloadCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conversations/{session_id}/turns\n  method: post\n  operationId: conversationTurn\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/runs/{run_id}/cancel\n  method: post\n  operationId: cancelConversationRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/runs/{run_id}/events\n  method: get\n  operationId: conversationRunEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supervision/corrections\n  method: get\n  operationId: exportSupervisionCorrections\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/feedback/supervisor\n  method: post\n  operationId: recordSupervisorFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/agentic-access/understudy-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/understudy-labs/agentic-access/understudy-labs-agentic-access.yml
 summary_line: 20 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

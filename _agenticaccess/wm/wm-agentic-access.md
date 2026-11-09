@@ -9,49 +9,49 @@ api_specs:
   label: WM Activities API
   slug: wm-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-activities-api-openapi.yml
+  url: https://artifacts.apis.io/wm/openapi/wm-activities-api-openapi.yml
 - filename: wm-cases-tickets-api-openapi.yml
   format: yaml
   label: WM Cases & Tickets API
   slug: wm-cases-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-cases-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/wm/openapi/wm-cases-tickets-api-openapi.yml
 - filename: wm-contacts-api-openapi.yml
   format: yaml
   label: WM Contacts API
   slug: wm-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/wm/openapi/wm-contacts-api-openapi.yml
 - filename: wm-invoices-balance-api-openapi.yml
   format: yaml
   label: WM Invoices & Balance API
   slug: wm-invoices-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-invoices-balance-api-openapi.yml
+  url: https://artifacts.apis.io/wm/openapi/wm-invoices-balance-api-openapi.yml
 - filename: wm-profiles-preferences-api-openapi.yml
   format: yaml
   label: WM Profiles & Preferences API
   slug: wm-profiles-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-profiles-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/wm/openapi/wm-profiles-preferences-api-openapi.yml
 - filename: wm-service-operations-materials-api-openapi.yml
   format: yaml
   label: WM Service Operations & Materials API
   slug: wm-service-operations-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-service-operations-materials-api-openapi.yml
+  url: https://artifacts.apis.io/wm/openapi/wm-service-operations-materials-api-openapi.yml
 - filename: wm-service-pricing-api-openapi.yml
   format: yaml
   label: WM Service Pricing API
   slug: wm-service-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-service-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/wm/openapi/wm-service-pricing-api-openapi.yml
 - filename: wm-services-api-openapi.yml
   format: yaml
   label: WM Services API
   slug: wm-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/openapi/wm-services-api-openapi.yml
+  url: https://artifacts.apis.io/wm/openapi/wm-services-api-openapi.yml
 consequence_counts:
   read: 24
   write: 3
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wm-ope
   \  method: put\n  operationId: updateBillingContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerId}/contacts/service\n  method: put\n  operationId: updateServiceContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerId}/cases\n  method: get\n  operationId: listCases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/cases/{caseId}\n  method: get\n \
   \ operationId: getCase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/tickets\n  method: get\n  operationId: listTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/tickets/{ticketId}\n  method: get\n  operationId: getTicket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/activities/notes\n  method: get\n  operationId: listNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/activities/email\n  method: get\n  operationId: listEmailActivity\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/activities/issues\n  method: get\n  operationId: listIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/agentic-access/wm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wm/agentic-access/wm-agentic-access.yml
 summary_line: 27 operations · 3 acting
 tags:
 - Waste Management

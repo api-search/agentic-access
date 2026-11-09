@@ -9,43 +9,43 @@ api_specs:
   label: Google Chat Google Chat API
   slug: google-chat-google-chat-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-google-chat-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-google-chat-api-api-openapi.yml
 - filename: google-chat-members-api-openapi.yml
   format: yaml
   label: Google Chat Members API
   slug: google-chat-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-members-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-members-api-openapi.yml
 - filename: google-chat-messages-api-openapi.yml
   format: yaml
   label: Google Chat Messages API
   slug: google-chat-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-messages-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-messages-api-openapi.yml
 - filename: google-chat-reactions-api-openapi.yml
   format: yaml
   label: Google Chat Reactions API
   slug: google-chat-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-reactions-api-openapi.yml
 - filename: google-chat-spaces-api-openapi.yml
   format: yaml
   label: Google Chat Spaces API
   slug: google-chat-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-spaces-api-openapi.yml
 - filename: google-chat-spaces-setup-api-openapi.yml
   format: yaml
   label: Google Chat Spaces:setup API
   slug: google-chat-spaces-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-spaces-setup-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-spaces-setup-api-openapi.yml
 - filename: google-chat-custom-emojis-api-openapi.yml
   format: yaml
   label: Google Chat Custom Emojis API
   slug: google-chat-custom-emojis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/openapi/google-chat-custom-emojis-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat/openapi/google-chat-custom-emojis-api-openapi.yml
 consequence_counts:
   read: 6
   write: 8
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ setupSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{parent}/members\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{parent}/members\n  method: post\n  operationId: createMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{parent}/messages\n  method: get\n  operationId: listMessages\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{parent}/messages\n  method: post\n  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{parent}/reactions\n  method: get\n  operationId: listReactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{parent}/reactions\n  method: post\n  operationId: createReaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1/customEmojis\n  method: get\n  operationId: listCustomEmojis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customEmojis\n  method: post\n  operationId: createCustomEmoji\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/agentic-access/google-chat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-chat/agentic-access/google-chat-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - Chat

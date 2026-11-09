@@ -8,73 +8,73 @@ api_specs:
   label: SocialListeningAPI Discourse API
   slug: sociallisteningapi-discourse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-discourse-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-discourse-api-openapi.yml
 - filename: sociallisteningapi-facebook-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Facebook API
   slug: sociallisteningapi-facebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-facebook-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-facebook-api-openapi.yml
 - filename: sociallisteningapi-google-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Google API
   slug: sociallisteningapi-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-google-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-google-api-openapi.yml
 - filename: sociallisteningapi-instagram-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Instagram API
   slug: sociallisteningapi-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-instagram-api-openapi.yml
 - filename: sociallisteningapi-meta-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Meta API
   slug: sociallisteningapi-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-meta-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-meta-api-openapi.yml
 - filename: sociallisteningapi-pinterest-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Pinterest API
   slug: sociallisteningapi-pinterest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-pinterest-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-pinterest-api-openapi.yml
 - filename: sociallisteningapi-reddit-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Reddit API
   slug: sociallisteningapi-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-reddit-api-openapi.yml
 - filename: sociallisteningapi-tiktok-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Tiktok API
   slug: sociallisteningapi-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-tiktok-api-openapi.yml
 - filename: sociallisteningapi-x-api-openapi.yml
   format: yaml
   label: SocialListeningAPI X API
   slug: sociallisteningapi-x-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-x-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-x-api-openapi.yml
 - filename: sociallisteningapi-youtube-api-openapi.yml
   format: yaml
   label: SocialListeningAPI YouTube API
   slug: sociallisteningapi-youtube-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-youtube-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-youtube-api-openapi.yml
 - filename: sociallisteningapi-hacker-news-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Hacker News API
   slug: sociallisteningapi-hacker-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-hacker-news-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-hacker-news-api-openapi.yml
 - filename: sociallisteningapi-linked-in-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Linked In API
   slug: sociallisteningapi-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-linked-in-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-linked-in-api-openapi.yml
 consequence_counts:
   read: 43
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/social
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tiktok/search\n  method: get\n  operationId: searchTiktok\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tiktok/search\n  method: post\n  operationId: searchTiktokWithPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/youtube/search\n  method: get\n  operationId: searchYoutube\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/youtube/search\n  method: post\n  operationId: searchYoutubeWithPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /api/v1/pinterest/search\n  method: get\n  operationId: searchPinterest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/pinterest/search\n  method: post\n  operationId: searchPinterestWithPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/google/search\n  method: get\n  operationId: searchGoogle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/google/search\n  method: post\n  operationId: searchGoogleWithPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/discourse/search\n  method: get\n  operationId:\
   \ searchDiscourse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/discourse/search\n  method: post\n  operationId: searchDiscourseWithPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/agentic-access/sociallisteningapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sociallisteningapi/agentic-access/sociallisteningapi-agentic-access.yml
 summary_line: 43 operations
 tags:
 - Social Listening

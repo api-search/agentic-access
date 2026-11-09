@@ -9,175 +9,175 @@ api_specs:
   label: ThoughtSpot AI API
   slug: thoughtspot-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-ai-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-ai-api-openapi.yml
 - filename: thoughtspot-authentication-api-openapi.yml
   format: yaml
   label: ThoughtSpot Authentication API
   slug: thoughtspot-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-authentication-api-openapi.yml
 - filename: thoughtspot-collections-api-openapi.yml
   format: yaml
   label: ThoughtSpot Collections API
   slug: thoughtspot-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-collections-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-collections-api-openapi.yml
 - filename: thoughtspot-connection-configurations-api-openapi.yml
   format: yaml
   label: ThoughtSpot Connection Configurations API
   slug: thoughtspot-connection-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-connection-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-connection-configurations-api-openapi.yml
 - filename: thoughtspot-connections-api-openapi.yml
   format: yaml
   label: ThoughtSpot Connections API
   slug: thoughtspot-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-connections-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-connections-api-openapi.yml
 - filename: thoughtspot-custom-action-api-openapi.yml
   format: yaml
   label: ThoughtSpot Custom Action API
   slug: thoughtspot-custom-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-custom-action-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-custom-action-api-openapi.yml
 - filename: thoughtspot-custom-calendars-api-openapi.yml
   format: yaml
   label: ThoughtSpot Custom Calendars API
   slug: thoughtspot-custom-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-custom-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-custom-calendars-api-openapi.yml
 - filename: thoughtspot-data-api-openapi.yml
   format: yaml
   label: ThoughtSpot Data API
   slug: thoughtspot-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-data-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-data-api-openapi.yml
 - filename: thoughtspot-dbt-api-openapi.yml
   format: yaml
   label: ThoughtSpot DBT API
   slug: thoughtspot-dbt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-dbt-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-dbt-api-openapi.yml
 - filename: thoughtspot-email-customization-api-openapi.yml
   format: yaml
   label: ThoughtSpot Email Customization API
   slug: thoughtspot-email-customization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-email-customization-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-email-customization-api-openapi.yml
 - filename: thoughtspot-groups-api-openapi.yml
   format: yaml
   label: ThoughtSpot Groups API
   slug: thoughtspot-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-groups-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-groups-api-openapi.yml
 - filename: thoughtspot-input-tables-api-openapi.yml
   format: yaml
   label: ThoughtSpot Input Tables API
   slug: thoughtspot-input-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-input-tables-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-input-tables-api-openapi.yml
 - filename: thoughtspot-jobs-api-openapi.yml
   format: yaml
   label: ThoughtSpot Jobs API
   slug: thoughtspot-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-jobs-api-openapi.yml
 - filename: thoughtspot-log-api-openapi.yml
   format: yaml
   label: ThoughtSpot Log API
   slug: thoughtspot-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-log-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-log-api-openapi.yml
 - filename: thoughtspot-manual-translation-api-openapi.yml
   format: yaml
   label: ThoughtSpot Manual Translation API
   slug: thoughtspot-manual-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-manual-translation-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-manual-translation-api-openapi.yml
 - filename: thoughtspot-metadata-api-openapi.yml
   format: yaml
   label: ThoughtSpot Metadata API
   slug: thoughtspot-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-metadata-api-openapi.yml
 - filename: thoughtspot-orgs-api-openapi.yml
   format: yaml
   label: ThoughtSpot Orgs API
   slug: thoughtspot-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-orgs-api-openapi.yml
 - filename: thoughtspot-reports-api-openapi.yml
   format: yaml
   label: ThoughtSpot Reports API
   slug: thoughtspot-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-reports-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-reports-api-openapi.yml
 - filename: thoughtspot-roles-api-openapi.yml
   format: yaml
   label: ThoughtSpot Roles API
   slug: thoughtspot-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-roles-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-roles-api-openapi.yml
 - filename: thoughtspot-schedules-api-openapi.yml
   format: yaml
   label: ThoughtSpot Schedules API
   slug: thoughtspot-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-schedules-api-openapi.yml
 - filename: thoughtspot-security-api-openapi.yml
   format: yaml
   label: ThoughtSpot Security API
   slug: thoughtspot-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-security-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-security-api-openapi.yml
 - filename: thoughtspot-semantic-integrations-api-openapi.yml
   format: yaml
   label: ThoughtSpot Semantic Integrations API
   slug: thoughtspot-semantic-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-semantic-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-semantic-integrations-api-openapi.yml
 - filename: thoughtspot-style-customization-api-openapi.yml
   format: yaml
   label: ThoughtSpot Style Customization API
   slug: thoughtspot-style-customization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-style-customization-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-style-customization-api-openapi.yml
 - filename: thoughtspot-system-api-openapi.yml
   format: yaml
   label: ThoughtSpot System API
   slug: thoughtspot-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-system-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-system-api-openapi.yml
 - filename: thoughtspot-tags-api-openapi.yml
   format: yaml
   label: ThoughtSpot Tags API
   slug: thoughtspot-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-tags-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-tags-api-openapi.yml
 - filename: thoughtspot-users-api-openapi.yml
   format: yaml
   label: ThoughtSpot Users API
   slug: thoughtspot-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-users-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-users-api-openapi.yml
 - filename: thoughtspot-variable-api-openapi.yml
   format: yaml
   label: ThoughtSpot Variable API
   slug: thoughtspot-variable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-variable-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-variable-api-openapi.yml
 - filename: thoughtspot-version-control-api-openapi.yml
   format: yaml
   label: ThoughtSpot Version Control API
   slug: thoughtspot-version-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-version-control-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-version-control-api-openapi.yml
 - filename: thoughtspot-webhooks-api-openapi.yml
   format: yaml
   label: ThoughtSpot Webhooks API
   slug: thoughtspot-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/openapi/thoughtspot-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/thoughtspot/openapi/thoughtspot-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 51
@@ -321,8 +321,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/though
   \  method: post\n  operationId: createUserGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/rest/2.0/groups/{group_identifier}/delete\n  method: post\n  operationId: deleteUserGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/rest/2.0/groups/import\n  method: post\n  operationId: importUserGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/rest/2.0/groups/search\n  method: post\n  operationId: searchUserGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/2.0/groups/{group_identifier}/update\n  method: post\n  operationId: updateUserGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/rest/2.0/input-tables/create\n  method: post\n  operationId: createInputTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /api/rest/2.0/input-tables/{input_table_identifier}/delete\n  method: post\n  operationId: deleteInputTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/rest/2.0/input-tables/{input_table_identifier}/update\n  method: post\n  operationId: updateInputTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/rest/2.0/jobs/history/communication-channels/search\n  method: post\n  operationId: searchChannelHistory\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/2.0/logs/fetch\n  method: post\n  operationId: fetchLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/2.0/localizations/manual-translation/delete\n  method: post\n  operationId: deleteManualTranslations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (64 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/agentic-access/thoughtspot-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/agentic-access/thoughtspot-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/2.0/logs/fetch\n  method: post\n  operationId: fetchLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/2.0/localizations/manual-translation/delete\n  method: post\n  operationId: deleteManualTranslations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (64 KB total) ---\n# Full source: https://artifacts.apis.io/thoughtspot/agentic-access/thoughtspot-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/thoughtspot/agentic-access/thoughtspot-agentic-access.yml
 summary_line: 191 operations · 140 acting · 11 human-in-the-loop
 tags:
 - Company

@@ -9,145 +9,145 @@ api_specs:
   label: Runloop Agents API
   slug: runloop-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-agents-api-openapi.yml
 - filename: runloop-ai-axons-api-openapi.yml
   format: yaml
   label: Runloop Axons API
   slug: runloop-ai-axons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-axons-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-axons-api-openapi.yml
 - filename: runloop-ai-benchmark-api-openapi.yml
   format: yaml
   label: Runloop Benchmark API
   slug: runloop-ai-benchmark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-benchmark-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-benchmark-api-openapi.yml
 - filename: runloop-ai-blueprint-api-openapi.yml
   format: yaml
   label: Runloop Blueprint API
   slug: runloop-ai-blueprint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-blueprint-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-blueprint-api-openapi.yml
 - filename: runloop-ai-blueprint-lifecycle-api-openapi.yml
   format: yaml
   label: Runloop Blueprint-Lifecycle API
   slug: runloop-ai-blueprint-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-blueprint-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-blueprint-lifecycle-api-openapi.yml
 - filename: runloop-ai-blueprint-observabilitytools-api-openapi.yml
   format: yaml
   label: Runloop Blueprint-ObservabilityTools API
   slug: runloop-ai-blueprint-observabilitytools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-blueprint-observabilitytools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-blueprint-observabilitytools-api-openapi.yml
 - filename: runloop-ai-devbox-api-openapi.yml
   format: yaml
   label: Runloop Devbox API
   slug: runloop-ai-devbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-api-openapi.yml
 - filename: runloop-ai-devbox-filetools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-FileTools API
   slug: runloop-ai-devbox-filetools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-filetools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-filetools-api-openapi.yml
 - filename: runloop-ai-devbox-lifecycle-api-openapi.yml
   format: yaml
   label: Runloop Devbox-Lifecycle API
   slug: runloop-ai-devbox-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-lifecycle-api-openapi.yml
 - filename: runloop-ai-devbox-networktools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-NetworkTools API
   slug: runloop-ai-devbox-networktools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-networktools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-networktools-api-openapi.yml
 - filename: runloop-ai-devbox-observabilitytools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-ObservabilityTools API
   slug: runloop-ai-devbox-observabilitytools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-observabilitytools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-observabilitytools-api-openapi.yml
 - filename: runloop-ai-devbox-persistencetools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-PersistenceTools API
   slug: runloop-ai-devbox-persistencetools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-persistencetools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-persistencetools-api-openapi.yml
 - filename: runloop-ai-devbox-shelltools-api-openapi.yml
   format: yaml
   label: Runloop Devbox-ShellTools API
   slug: runloop-ai-devbox-shelltools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-devbox-shelltools-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-devbox-shelltools-api-openapi.yml
 - filename: runloop-ai-executions-api-openapi.yml
   format: yaml
   label: Runloop Executions API
   slug: runloop-ai-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-executions-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-executions-api-openapi.yml
 - filename: runloop-ai-gateway-configs-api-openapi.yml
   format: yaml
   label: Runloop Gateway Configs API
   slug: runloop-ai-gateway-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-gateway-configs-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-gateway-configs-api-openapi.yml
 - filename: runloop-ai-mcp-configs-api-openapi.yml
   format: yaml
   label: Runloop MCP Configs API
   slug: runloop-ai-mcp-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-mcp-configs-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-mcp-configs-api-openapi.yml
 - filename: runloop-ai-network-policies-api-openapi.yml
   format: yaml
   label: Runloop Network Policies API
   slug: runloop-ai-network-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-network-policies-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-network-policies-api-openapi.yml
 - filename: runloop-ai-objects-api-openapi.yml
   format: yaml
   label: Runloop Objects API
   slug: runloop-ai-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-objects-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-objects-api-openapi.yml
 - filename: runloop-ai-restricted-keys-api-openapi.yml
   format: yaml
   label: Runloop Restricted Keys API
   slug: runloop-ai-restricted-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-restricted-keys-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-restricted-keys-api-openapi.yml
 - filename: runloop-ai-scenario-api-openapi.yml
   format: yaml
   label: Runloop Scenario API
   slug: runloop-ai-scenario-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-scenario-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-scenario-api-openapi.yml
 - filename: runloop-ai-scenarioscorer-api-openapi.yml
   format: yaml
   label: Runloop ScenarioScorer API
   slug: runloop-ai-scenarioscorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-scenarioscorer-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-scenarioscorer-api-openapi.yml
 - filename: runloop-ai-secrets-api-openapi.yml
   format: yaml
   label: Runloop Secrets API
   slug: runloop-ai-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-secrets-api-openapi.yml
 - filename: runloop-ai-streaming-api-openapi.yml
   format: yaml
   label: Runloop Streaming API
   slug: runloop-ai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-streaming-api-openapi.yml
 - filename: runloop-ai-api-keys-api-openapi.yml
   format: yaml
   label: Runloop API Keys API
   slug: runloop-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/openapi/runloop-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/runloop-ai/openapi/runloop-ai-api-keys-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 148
@@ -261,8 +261,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/runloo
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/devboxes/{id}/snapshot_disk\n  method: post\n  operationId: createDiskSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/devboxes/{id}/snapshot_disk_async\n  method: post\n  operationId: createDiskSnapshotAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/devboxes/{id}/suspend\n\
   \  method: post\n  operationId: suspendDevbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/devboxes/{id}/upload_file\n  method: post\n  operationId: devboxUploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/devboxes/{id}/usage\n  method: get\n  operationId: getDevboxResourceUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/devboxes/{id}/wait_for_status\n  method: post\n  operationId: waitForDevboxStatus\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/devboxes/{id}/write_file_contents\n  method: post\n  operationId: devboxWriteFileContents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/gateway-configs\n  method: post\n  operationId: createGatewayConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /v1/gateway-configs\n  method: get\n  operationId: listGatewayConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gateway-configs/{id}\n  method: get\n  operationId: getGatewayConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gateway-configs/{id}\n  method: post\n  operationId: updateGatewayConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (86 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/agentic-access/runloop-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/agentic-access/runloop-ai-agentic-access.yml
+  \ required\n- path: /v1/gateway-configs\n  method: get\n  operationId: listGatewayConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gateway-configs/{id}\n  method: get\n  operationId: getGatewayConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gateway-configs/{id}\n  method: post\n  operationId: updateGatewayConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (86 KB total) ---\n# Full source: https://artifacts.apis.io/runloop-ai/agentic-access/runloop-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/runloop-ai/agentic-access/runloop-ai-agentic-access.yml
 summary_line: 302 operations · 154 acting · 8 human-in-the-loop
 tags:
 - Artificial Intelligence

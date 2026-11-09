@@ -9,31 +9,31 @@ api_specs:
   label: Aruba Access Points API
   slug: aruba-access-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-access-points-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-access-points-api-openapi.yml
 - filename: aruba-devices-api-openapi.yml
   format: yaml
   label: Aruba Devices API
   slug: aruba-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-devices-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-devices-api-openapi.yml
 - filename: aruba-groups-api-openapi.yml
   format: yaml
   label: Aruba Groups API
   slug: aruba-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-groups-api-openapi.yml
 - filename: aruba-monitoring-api-openapi.yml
   format: yaml
   label: Aruba Monitoring API
   slug: aruba-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-monitoring-api-openapi.yml
 - filename: aruba-sites-api-openapi.yml
   format: yaml
   label: Aruba Sites API
   slug: aruba-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/openapi/aruba-sites-api-openapi.yml
+  url: https://artifacts.apis.io/aruba/openapi/aruba-sites-api-openapi.yml
 consequence_counts:
   read: 11
   write: 8
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aruba-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /central/v2/sites\n  method: post\n  operationId: createSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /central/v2/sites/{site_id}\n  method: get\n  operationId: getSiteById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /central/v2/sites/{site_id}\n  method: patch\n  operationId: updateSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /central/v2/sites/{site_id}\n  method: delete\n  operationId: deleteSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /central/v2/sites/{site_id}/associate\n  method: post\n  operationId: associateDevicesToSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /monitoring/v2/aps\n  method: get\n  operationId: getAccessPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /monitoring/v2/aps/{serial}\n  method: get\n  operationId: getAccessPointBySerial\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitoring/v2/clients\n  method: get\n  operationId: getClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitoring/v2/networks\n  method: get\n  operationId: getNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitoring/v2/gateways\n  method: get\n  operationId: getGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/agentic-access/aruba-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aruba/agentic-access/aruba-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Cloud

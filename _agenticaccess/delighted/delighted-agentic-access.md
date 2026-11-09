@@ -9,37 +9,37 @@ api_specs:
   label: Delighted Autopilot API
   slug: delighted-autopilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-autopilot-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-autopilot-api-openapi.yml
 - filename: delighted-bounces-api-openapi.yml
   format: yaml
   label: Delighted Bounces API
   slug: delighted-bounces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-bounces-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-bounces-api-openapi.yml
 - filename: delighted-metrics-api-openapi.yml
   format: yaml
   label: Delighted Metrics API
   slug: delighted-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-metrics-api-openapi.yml
 - filename: delighted-people-api-openapi.yml
   format: yaml
   label: Delighted People API
   slug: delighted-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-people-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-people-api-openapi.yml
 - filename: delighted-survey-responses-api-openapi.yml
   format: yaml
   label: Delighted Survey Responses API
   slug: delighted-survey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-survey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-survey-responses-api-openapi.yml
 - filename: delighted-unsubscribes-api-openapi.yml
   format: yaml
   label: Delighted Unsubscribes API
   slug: delighted-unsubscribes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/openapi/delighted-unsubscribes-api-openapi.yml
+  url: https://artifacts.apis.io/delighted/openapi/delighted-unsubscribes-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 9
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/deligh
   \ none\n- path: /autopilot/email/memberships.json\n  method: get\n  operationId: listAutopilotEmailMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /autopilot/email/memberships.json\n  method: post\n  operationId: addPersonToAutopilotEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /autopilot/email/memberships.json\n  method: delete\n  operationId: removePersonFromAutopilotEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /autopilot/sms/memberships.json\n  method: get\n  operationId: listAutopilotSmsMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /autopilot/sms/memberships.json\n  method: post\n  operationId: addPersonToAutopilotSms\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /autopilot/sms/memberships.json\n  method: delete\n  operationId: removePersonFromAutopilotSms\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/agentic-access/delighted-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/delighted/agentic-access/delighted-agentic-access.yml
 summary_line: 18 operations · 9 acting
 tags:
 - NPS

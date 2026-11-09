@@ -8,37 +8,37 @@ api_specs:
   label: Chronicling America Batches API
   slug: chroniclingamerica-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-batches-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-batches-api-openapi.yml
 - filename: chroniclingamerica-issues-api-openapi.yml
   format: yaml
   label: Chronicling America Issues API
   slug: chroniclingamerica-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-issues-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-issues-api-openapi.yml
 - filename: chroniclingamerica-ocr-api-openapi.yml
   format: yaml
   label: Chronicling America OCR API
   slug: chroniclingamerica-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-ocr-api-openapi.yml
 - filename: chroniclingamerica-pages-api-openapi.yml
   format: yaml
   label: Chronicling America Pages API
   slug: chroniclingamerica-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-pages-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-pages-api-openapi.yml
 - filename: chroniclingamerica-search-api-openapi.yml
   format: yaml
   label: Chronicling America Search API
   slug: chroniclingamerica-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-search-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-search-api-openapi.yml
 - filename: chroniclingamerica-titles-api-openapi.yml
   format: yaml
   label: Chronicling America Titles API
   slug: chroniclingamerica-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-titles-api-openapi.yml
+  url: https://artifacts.apis.io/chroniclingamerica/openapi/chroniclingamerica-titles-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chroni
   \ listTitles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /titles/{lccn}.json\n  method: get\n  operationId: getTitle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /titles/{lccn}/issues.json\n  method: get\n  operationId: listIssuesByTitle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /titles/{lccn}/issues/{date}/ed-{edition}.json\n  method: get\n  operationId: getIssue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /titles/{lccn}/issues/{date}/ed-{edition}/seq-{sequence}.json\n  method: get\n  operationId: getPage\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /titles/{lccn}/issues/{date}/ed-{edition}/seq-{sequence}/ocr.txt\n  method: get\n  operationId: getPageOcrText\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches.json\n  method: get\n  operationId: listBatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches/{batch_name}.json\n  method: get\n  operationId: getBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newspapers.json\n  method: get\n  operationId: listNewspapers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/agentic-access/chroniclingamerica-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chroniclingamerica/agentic-access/chroniclingamerica-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Newspapers

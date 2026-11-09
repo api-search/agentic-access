@@ -9,43 +9,43 @@ api_specs:
   label: Simplismart Chat Completion API
   slug: simplismart-chat-completion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-chat-completion-api-openapi.yml
+  url: https://artifacts.apis.io/simplismart/openapi/simplismart-chat-completion-api-openapi.yml
 - filename: simplismart-flux-training-api-openapi.yml
   format: yaml
   label: Simplismart Flux Training API
   slug: simplismart-flux-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-flux-training-api-openapi.yml
+  url: https://artifacts.apis.io/simplismart/openapi/simplismart-flux-training-api-openapi.yml
 - filename: simplismart-llm-api-openapi.yml
   format: yaml
   label: Simplismart Llm API
   slug: simplismart-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-llm-api-openapi.yml
+  url: https://artifacts.apis.io/simplismart/openapi/simplismart-llm-api-openapi.yml
 - filename: simplismart-metrics-api-openapi.yml
   format: yaml
   label: Simplismart Metrics API
   slug: simplismart-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/simplismart/openapi/simplismart-metrics-api-openapi.yml
 - filename: simplismart-model-api-openapi.yml
   format: yaml
   label: Simplismart Model API
   slug: simplismart-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-model-api-openapi.yml
+  url: https://artifacts.apis.io/simplismart/openapi/simplismart-model-api-openapi.yml
 - filename: simplismart-speech-to-text-api-openapi.yml
   format: yaml
   label: Simplismart Speech to Text API
   slug: simplismart-speech-to-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-speech-to-text-api-openapi.yml
+  url: https://artifacts.apis.io/simplismart/openapi/simplismart-speech-to-text-api-openapi.yml
 - filename: simplismart-training-api-openapi.yml
   format: yaml
   label: Simplismart Training API
   slug: simplismart-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/openapi/simplismart-training-api-openapi.yml
+  url: https://artifacts.apis.io/simplismart/openapi/simplismart-training-api-openapi.yml
 consequence_counts:
   read: 10
   write: 15
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/simpli
   \ listTrainingJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job/get/\n  method: get\n  operationId: getTrainingJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job/metrics/\n  method: get\n  operationId: getTrainingMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat/completions\n  method: post\n  operationId: createChatCompletion8B\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chat/completions\n  method: post\n \
   \ operationId: createChatCompletionQwen32B\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/v2/infer/whisper\n  method: post\n  operationId: transcribeAudioV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/infer/whisper\n  method: post\n  operationId: transcribeAudioV3\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/agentic-access/simplismart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simplismart/agentic-access/simplismart-agentic-access.yml
 summary_line: 25 operations · 15 acting
 tags:
 - Company

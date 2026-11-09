@@ -9,49 +9,49 @@ api_specs:
   label: Dun & Bradstreet Authentication API
   slug: dun-and-bradstreet-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/dun-and-bradstreet/openapi/dun-and-bradstreet-authentication-api-openapi.yml
 - filename: dun-and-bradstreet-data-file-api-openapi.yml
   format: yaml
   label: Dun & Bradstreet Data File API
   slug: dun-and-bradstreet-data-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-data-file-api-openapi.yml
+  url: https://artifacts.apis.io/dun-and-bradstreet/openapi/dun-and-bradstreet-data-file-api-openapi.yml
 - filename: dun-and-bradstreet-enrich-api-openapi.yml
   format: yaml
   label: Dun & Bradstreet Enrich API
   slug: dun-and-bradstreet-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/dun-and-bradstreet/openapi/dun-and-bradstreet-enrich-api-openapi.yml
 - filename: dun-and-bradstreet-identity-resolution-api-openapi.yml
   format: yaml
   label: Dun & Bradstreet Identity Resolution API
   slug: dun-and-bradstreet-identity-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-identity-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/dun-and-bradstreet/openapi/dun-and-bradstreet-identity-resolution-api-openapi.yml
 - filename: dun-and-bradstreet-monitoring-api-openapi.yml
   format: yaml
   label: Dun & Bradstreet Monitoring API
   slug: dun-and-bradstreet-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/dun-and-bradstreet/openapi/dun-and-bradstreet-monitoring-api-openapi.yml
 - filename: dun-and-bradstreet-multi-process-api-openapi.yml
   format: yaml
   label: Dun & Bradstreet Multi-Process API
   slug: dun-and-bradstreet-multi-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-multi-process-api-openapi.yml
+  url: https://artifacts.apis.io/dun-and-bradstreet/openapi/dun-and-bradstreet-multi-process-api-openapi.yml
 - filename: dun-and-bradstreet-research-api-openapi.yml
   format: yaml
   label: Dun & Bradstreet Research API
   slug: dun-and-bradstreet-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-research-api-openapi.yml
+  url: https://artifacts.apis.io/dun-and-bradstreet/openapi/dun-and-bradstreet-research-api-openapi.yml
 - filename: dun-and-bradstreet-search-api-openapi.yml
   format: yaml
   label: Dun & Bradstreet Search API
   slug: dun-and-bradstreet-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/openapi/dun-and-bradstreet-search-api-openapi.yml
+  url: https://artifacts.apis.io/dun-and-bradstreet/openapi/dun-and-bradstreet-search-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dnb-di
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/file\n  method: post\n  operationId: submitBatchFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/file/{fileId}/status\n  method: get\n  operationId: getBatchFileStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/file/{fileId}/download\n  method: get\n  operationId: downloadBatchFileResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/monitoring/registrations\n\
   \  method: post\n  operationId: createMonitoringRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/monitoring/registrations/{registrationReference}/duns\n  method: post\n  operationId: addDunsToRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/monitoring/registrations/{registrationReference}/duns\n  method: delete\n  operationId: removeDunsFromRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/monitoring/registrations/{registrationReference}/notifications\n  method: get\n  operationId: pullMonitoringNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/audit/duns/{duns}\n  method: get\n  operationId: getAuditRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/agentic-access/dun-and-bradstreet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dun-and-bradstreet/agentic-access/dun-and-bradstreet-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Business Data

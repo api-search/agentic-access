@@ -9,31 +9,31 @@ api_specs:
   label: Veli Orders API
   slug: veli-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-orders-api-openapi.yml
+  url: https://artifacts.apis.io/veli/openapi/veli-orders-api-openapi.yml
 - filename: veli-performance-api-openapi.yml
   format: yaml
   label: Veli Performance API
   slug: veli-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-performance-api-openapi.yml
+  url: https://artifacts.apis.io/veli/openapi/veli-performance-api-openapi.yml
 - filename: veli-portfolios-api-openapi.yml
   format: yaml
   label: Veli Portfolios API
   slug: veli-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/veli/openapi/veli-portfolios-api-openapi.yml
 - filename: veli-positions-api-openapi.yml
   format: yaml
   label: Veli Positions API
   slug: veli-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-positions-api-openapi.yml
+  url: https://artifacts.apis.io/veli/openapi/veli-positions-api-openapi.yml
 - filename: veli-strategies-api-openapi.yml
   format: yaml
   label: Veli Strategies API
   slug: veli-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/openapi/veli-strategies-api-openapi.yml
+  url: https://artifacts.apis.io/veli/openapi/veli-strategies-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/veli-o
   \ get\n  operationId: listPortfolios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios\n  method: post\n  operationId: createPortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolioId}\n  method: get\n  operationId: getPortfolio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/{portfolioId}\n  method: delete\n  operationId: closePortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolioId}/positions\n  method: get\n  operationId: getPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/{portfolioId}/rebalance\n  method: post\n  operationId: rebalancePortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolioId}/performance\n  method: get\n  operationId: getPerformance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/agentic-access/veli-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/veli/agentic-access/veli-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Cryptocurrency

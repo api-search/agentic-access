@@ -9,79 +9,79 @@ api_specs:
   label: Bold Commerce Customers API
   slug: bold-commerce-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-customers-api-openapi.yml
 - filename: bold-commerce-shops-api-openapi.yml
   format: yaml
   label: Bold Commerce Shops API
   slug: bold-commerce-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-shops-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-shops-api-openapi.yml
 - filename: bold-commerce-subscriptions-api-openapi.yml
   format: yaml
   label: Bold Commerce Subscriptions API
   slug: bold-commerce-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-subscriptions-api-openapi.yml
 - filename: bold-commerce-convertible-adjustments-api-openapi.yml
   format: yaml
   label: Bold Commerce Convertible Adjustments API
   slug: bold-commerce-convertible-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-convertible-adjustments-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-convertible-adjustments-api-openapi.yml
 - filename: bold-commerce-future-orders-api-openapi.yml
   format: yaml
   label: Bold Commerce Future Orders API
   slug: bold-commerce-future-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-future-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-future-orders-api-openapi.yml
 - filename: bold-commerce-payment-methods-api-openapi.yml
   format: yaml
   label: Bold Commerce Payment Methods API
   slug: bold-commerce-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-payment-methods-api-openapi.yml
 - filename: bold-commerce-subscription-adjustments-api-openapi.yml
   format: yaml
   label: Bold Commerce Subscription Adjustments API
   slug: bold-commerce-subscription-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscription-adjustments-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-subscription-adjustments-api-openapi.yml
 - filename: bold-commerce-subscription-groups-api-openapi.yml
   format: yaml
   label: Bold Commerce Subscription Groups API
   slug: bold-commerce-subscription-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscription-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-subscription-groups-api-openapi.yml
 - filename: bold-commerce-subscription-line-items-api-openapi.yml
   format: yaml
   label: Bold Commerce Subscription Line Items API
   slug: bold-commerce-subscription-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscription-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-subscription-line-items-api-openapi.yml
 - filename: bold-commerce-subscription-orders-api-openapi.yml
   format: yaml
   label: Bold Commerce Subscription Orders API
   slug: bold-commerce-subscription-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscription-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-subscription-orders-api-openapi.yml
 - filename: bold-commerce-webhook-events-api-openapi.yml
   format: yaml
   label: Bold Commerce Webhook Events API
   slug: bold-commerce-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-webhook-events-api-openapi.yml
 - filename: bold-commerce-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Bold Commerce Webhook Subscriptions API
   slug: bold-commerce-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-webhook-subscriptions-api-openapi.yml
 - filename: bold-commerce-webhook-topics-api-openapi.yml
   format: yaml
   label: Bold Commerce Webhook Topics API
   slug: bold-commerce-webhook-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-webhook-topics-api-openapi.yml
+  url: https://artifacts.apis.io/bold-commerce/openapi/bold-commerce-webhook-topics-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 11
@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bold-c
   \    audit: required\n- path: /price_rules/rules/v2/shops/{shop_identifier}/rulesets/{ruleset_id}\n  method: get\n  operationId: getRuleset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price_rules/rules/v2/shops/{shop_identifier}/rulesets/{ruleset_id}\n  method: put\n  operationId: updateRuleset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /price_rules/rules/v2/shops/{shop_identifier}/rulesets/{ruleset_id}\n  method: delete\n  operationId: deleteRuleset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /price_rules/rules/v2/shops/{shop_identifier}/process\n  method: post\n  operationId: processPrice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/v2/shops/{shop_identifier}/products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/v2/shops/{shop_identifier}/products/{product_id}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/v2/shops/{shop_identifier}/customers\n\
   \  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/v2/shops/{shop_identifier}/customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shops/v1/info\n  method: get\n  operationId: getShopInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/agentic-access/bold-commerce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bold-commerce/agentic-access/bold-commerce-agentic-access.yml
 summary_line: 29 operations · 18 acting
 tags:
 - E-Commerce

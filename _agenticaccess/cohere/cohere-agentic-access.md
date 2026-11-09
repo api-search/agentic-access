@@ -9,55 +9,103 @@ api_specs:
   label: Cohere Chat API
   slug: chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-chat-api-openapi.yml
+  url: https://artifacts.apis.io/cohere/openapi/cohere-chat-api-openapi.yml
 - filename: cohere-embed-api-openapi.yml
   format: yaml
   label: Cohere Embed API
   slug: embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-embed-api-openapi.yml
+  url: https://artifacts.apis.io/cohere/openapi/cohere-embed-api-openapi.yml
 - filename: cohere-rerank-api-openapi.yml
   format: yaml
   label: Cohere Rerank API
   slug: rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/cohere/openapi/cohere-rerank-api-openapi.yml
 - filename: cohere-classify-api-openapi.yml
   format: yaml
   label: Cohere Classify API
   slug: classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-classify-api-openapi.yml
-- filename: cohere-embed-jobs-api-openapi.yml
-  format: yaml
-  label: Cohere Embed Jobs API
-  slug: embed-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-embed-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cohere/openapi/cohere-classify-api-openapi.yml
 - filename: cohere-datasets-api-openapi.yml
   format: yaml
   label: Cohere Datasets API
   slug: datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/cohere/openapi/cohere-datasets-api-openapi.yml
 - filename: cohere-models-api-openapi.yml
   format: yaml
   label: Cohere Models API
   slug: models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-models-api-openapi.yml
+  url: https://artifacts.apis.io/cohere/openapi/cohere-models-api-openapi.yml
 - filename: cohere-tokenize-api-openapi.yml
   format: yaml
   label: Cohere Tokenize API
   slug: tokenize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-tokenize-api-openapi.yml
+  url: https://artifacts.apis.io/cohere/openapi/cohere-tokenize-api-openapi.yml
 - filename: cohere-detokenize-api-openapi.yml
   format: yaml
   label: Cohere Detokenize API
   slug: detokenize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-detokenize-api-openapi.yml
+  url: https://artifacts.apis.io/cohere/openapi/cohere-detokenize-api-openapi.yml
+- filename: cohere-batches-api-openapi.yml
+  format: yaml
+  label: Cohere Batches API
+  slug: cohere-batches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cohere/openapi/cohere-batches-api-openapi.yml
+- filename: cohere-check-api-key-api-openapi.yml
+  format: yaml
+  label: Cohere Check Api Key API
+  slug: cohere-check-api-key-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cohere/openapi/cohere-check-api-key-api-openapi.yml
+- filename: cohere-connectors-api-openapi.yml
+  format: yaml
+  label: Cohere Connectors API
+  slug: cohere-connectors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cohere/openapi/cohere-connectors-api-openapi.yml
+- filename: cohere-embedjobs-api-openapi.yml
+  format: yaml
+  label: Cohere Embed Jobs API
+  slug: cohere-embedjobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cohere/openapi/cohere-embedjobs-api-openapi.yml
+- filename: cohere-finetuning-api-openapi.yml
+  format: yaml
+  label: Cohere /finetuning API
+  slug: cohere-finetuning-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cohere/openapi/cohere-finetuning-api-openapi.yml
+- filename: cohere-generate-api-openapi.yml
+  format: yaml
+  label: Cohere Generate API
+  slug: cohere-generate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cohere/openapi/cohere-generate-api-openapi.yml
+- filename: cohere-parse-api-openapi.yml
+  format: yaml
+  label: Cohere Parse API
+  slug: cohere-parse-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cohere/openapi/cohere-parse-api-openapi.yml
+- filename: cohere-summarize-api-openapi.yml
+  format: yaml
+  label: Cohere Summarize API
+  slug: cohere-summarize-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cohere/openapi/cohere-summarize-api-openapi.yml
+- filename: cohere-transcriptions-api-openapi.yml
+  format: yaml
+  label: Cohere Transcriptions API
+  slug: cohere-transcriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cohere/openapi/cohere-transcriptions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 11
@@ -90,7 +138,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cohere
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/embed-jobs\n  method: get\n  operationId: listEmbedJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/embed-jobs/{id}\n  method: get\n  operationId: getEmbedJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/embed-jobs/{id}/cancel\n  method: post\n  operationId: cancelEmbedJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /v1/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/models/{model}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/rerank\n  method: post\n  operationId: rerank\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tokenize\n  method: post\n  operationId: tokenize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/agentic-access/cohere-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cohere/agentic-access/cohere-agentic-access.yml
 summary_line: 18 operations · 11 acting
 tags:
 - Artificial Intelligence

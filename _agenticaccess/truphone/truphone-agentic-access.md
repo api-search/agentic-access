@@ -9,31 +9,31 @@ api_specs:
   label: Truphone (1GLOBAL) Connectivity API
   slug: truphone-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-connectivity-api-openapi.yml
 - filename: truphone-devices-api-openapi.yml
   format: yaml
   label: Truphone (1GLOBAL) Devices API
   slug: truphone-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-devices-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-devices-api-openapi.yml
 - filename: truphone-organization-api-openapi.yml
   format: yaml
   label: Truphone (1GLOBAL) Organization API
   slug: truphone-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-organization-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-organization-api-openapi.yml
 - filename: truphone-plans-api-openapi.yml
   format: yaml
   label: Truphone (1GLOBAL) Plans API
   slug: truphone-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-plans-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-plans-api-openapi.yml
 - filename: truphone-sims-api-openapi.yml
   format: yaml
   label: Truphone (1GLOBAL) SI Ms API
   slug: truphone-sims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-sims-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-sims-api-openapi.yml
 consequence_counts:
   read: 11
   write: 6
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trupho
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.0/sims/{iccid}/subscription\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.0/sims/{iccid}/subscription\n  method: patch\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.2/devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.2/devices/{id}\n  method: get\n  operationId:\
   \ getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.2/devices/{id}\n  method: patch\n  operationId: updateDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.0/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.0/tags\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/agentic-access/truphone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/truphone/agentic-access/truphone-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - eSIM

@@ -9,43 +9,43 @@ api_specs:
   label: LINDAT Translation Languages API
   slug: charles-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-languages-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-languages-api-openapi.yml
 - filename: charles-models-api-openapi.yml
   format: yaml
   label: LINDAT Translation Models API
   slug: charles-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-models-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-models-api-openapi.yml
 - filename: charles-root-api-openapi.yml
   format: yaml
   label: LINDAT Translation Root API
   slug: charles-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-root-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-root-api-openapi.yml
 - filename: charles-udpipe-api-openapi.yml
   format: yaml
   label: LINDAT UDPipe API
   slug: lindat-udpipe
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-udpipe-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-udpipe-api-openapi.yml
 - filename: charles-nametag-api-openapi.yml
   format: yaml
   label: LINDAT NameTag API
   slug: lindat-nametag
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-nametag-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-nametag-api-openapi.yml
 - filename: charles-morphodita-api-openapi.yml
   format: yaml
   label: LINDAT MorphoDiTa API
   slug: lindat-morphodita
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-morphodita-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-morphodita-api-openapi.yml
 - filename: charles-korektor-api-openapi.yml
   format: yaml
   label: LINDAT Korektor API
   slug: lindat-korektor
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-korektor-api-openapi.yml
+  url: https://artifacts.apis.io/charles/openapi/charles-korektor-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/charle
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models\n  method: get\n  operationId: listNameTagModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recognize\n  method: get\n  operationId: recognizeEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recognize\n  method: post\n  operationId: recognizeEntitiesPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokenize\n  method: get\n  operationId: tokenizeText\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokenize\n  method: post\n  operationId: tokenizeTextPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: get_root_resource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models\n  method: get\n  operationId: listUDPipeModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /process\n  method: get\n  operationId: processText\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /process\n  method: post\n  operationId: processTextPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/agentic-access/charles-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/charles/agentic-access/charles-agentic-access.yml
 summary_line: 23 operations · 5 acting
 tags:
 - University

@@ -9,31 +9,31 @@ api_specs:
   label: General Translation Context API
   slug: general-translation-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-context-api-openapi.yml
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-context-api-openapi.yml
 - filename: general-translation-files-api-openapi.yml
   format: yaml
   label: General Translation Files API
   slug: general-translation-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-files-api-openapi.yml
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-files-api-openapi.yml
 - filename: general-translation-project-api-openapi.yml
   format: yaml
   label: General Translation Project API
   slug: general-translation-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-project-api-openapi.yml
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-project-api-openapi.yml
 - filename: general-translation-translation-api-openapi.yml
   format: yaml
   label: General Translation API
   slug: general-translation-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-translation-api-openapi.yml
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-translation-api-openapi.yml
 - filename: general-translation-context-management-api-openapi.yml
   format: yaml
   label: General Translation Context Management API
   slug: general-translation-context-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-context-management-api-openapi.yml
+  url: https://artifacts.apis.io/general-translation/openapi/general-translation-context-management-api-openapi.yml
 consequence_counts:
   read: 9
   write: 12
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/genera
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/project/files/orphaned\n  method: post\n  operationId: getOrphanedFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/project/jobs/info\n  method: post\n  operationId: getJobsInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/project/info/{projectId}\n  method: get\n  operationId: getProjectInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/project/info/{projectId}\n  method: post\n  operationId: updateProjectInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/project/tags/create\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/project/translations/enqueue\n  method: post\n  operationId: enqueueTranslations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/translate\n  method: post\n  operationId: translate\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/agentic-access/general-translation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/general-translation/agentic-access/general-translation-agentic-access.yml
 summary_line: 21 operations · 12 acting
 tags:
 - Company

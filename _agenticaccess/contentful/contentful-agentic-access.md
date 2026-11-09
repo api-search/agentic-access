@@ -8,13 +8,13 @@ api_specs:
   label: Contentful Webhooks
   slug: contentful-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/contentful/openapi/contentful-webhooks-asyncapi.yml
 - filename: contentful-spaces-api-openapi.yml
   format: yaml
   label: Contentful Spaces API
   slug: contentful-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/contentful/openapi/contentful-spaces-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/conten
   \ /spaces/{space_id}/environments/{environment_id}/content_types/{content_type_id}\n  method: get\n  operationId: getContentType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/environments/{environment_id}/entries\n  method: get\n  operationId: getEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/environments/{environment_id}/entries/{entry_id}\n  method: get\n  operationId: getEntry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/environments/{environment_id}/assets\n  method: get\n  operationId: getAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/environments/{environment_id}/assets/{asset_id}\n  method: get\n  operationId: getAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/environments/{environment_id}/locales\n  method: get\n  operationId: getLocales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/environments/{environment_id}/tags\n  method: get\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/environments/{environment_id}/sync\n  method: get\n  operationId: sync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
   \   token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/agentic-access/contentful-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/contentful/agentic-access/contentful-agentic-access.yml
 summary_line: 10 operations
 tags:
 - CMS

@@ -9,217 +9,217 @@ api_specs:
   label: Clarifai Annotation Filters API
   slug: clarifai-annotation-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-annotation-filters-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-annotation-filters-api-openapi.yml
 - filename: clarifai-annotations-api-openapi.yml
   format: yaml
   label: Clarifai Annotations API
   slug: clarifai-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-annotations-api-openapi.yml
 - filename: clarifai-app-api-openapi.yml
   format: yaml
   label: Clarifai App API
   slug: clarifai-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-app-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-app-api-openapi.yml
 - filename: clarifai-apps-api-openapi.yml
   format: yaml
   label: Clarifai Apps API
   slug: clarifai-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-apps-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-apps-api-openapi.yml
 - filename: clarifai-artifact-versions-api-openapi.yml
   format: yaml
   label: Clarifai Artifact Versions API
   slug: clarifai-artifact-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-artifact-versions-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-artifact-versions-api-openapi.yml
 - filename: clarifai-bulk-operations-api-openapi.yml
   format: yaml
   label: Clarifai Bulk Operations API
   slug: clarifai-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-bulk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-bulk-operations-api-openapi.yml
 - filename: clarifai-cloud-providers-api-openapi.yml
   format: yaml
   label: Clarifai Cloud Providers API
   slug: clarifai-cloud-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-cloud-providers-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-cloud-providers-api-openapi.yml
 - filename: clarifai-compute-clusters-api-openapi.yml
   format: yaml
   label: Clarifai Compute Clusters API
   slug: clarifai-compute-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-compute-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-compute-clusters-api-openapi.yml
 - filename: clarifai-compute-plane-metrics-api-openapi.yml
   format: yaml
   label: Clarifai Compute Plane Metrics API
   slug: clarifai-compute-plane-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-compute-plane-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-compute-plane-metrics-api-openapi.yml
 - filename: clarifai-concepts-api-openapi.yml
   format: yaml
   label: Clarifai Concepts API
   slug: clarifai-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-concepts-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-concepts-api-openapi.yml
 - filename: clarifai-datasets-api-openapi.yml
   format: yaml
   label: Clarifai Datasets API
   slug: clarifai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-datasets-api-openapi.yml
 - filename: clarifai-deployments-api-openapi.yml
   format: yaml
   label: Clarifai Deployments API
   slug: clarifai-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-deployments-api-openapi.yml
 - filename: clarifai-evaluations-api-openapi.yml
   format: yaml
   label: Clarifai Evaluations API
   slug: clarifai-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-evaluations-api-openapi.yml
 - filename: clarifai-inputs-api-openapi.yml
   format: yaml
   label: Clarifai Inputs API
   slug: clarifai-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-inputs-api-openapi.yml
 - filename: clarifai-label-orders-api-openapi.yml
   format: yaml
   label: Clarifai Label Orders API
   slug: clarifai-label-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-label-orders-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-label-orders-api-openapi.yml
 - filename: clarifai-log-entries-api-openapi.yml
   format: yaml
   label: Clarifai Log Entries API
   slug: clarifai-log-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-log-entries-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-log-entries-api-openapi.yml
 - filename: clarifai-models-api-openapi.yml
   format: yaml
   label: Clarifai Models API
   slug: clarifai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-models-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-models-api-openapi.yml
 - filename: clarifai-my-scopes-api-openapi.yml
   format: yaml
   label: Clarifai My Scopes API
   slug: clarifai-my-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-my-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-my-scopes-api-openapi.yml
 - filename: clarifai-myscopes-api-openapi.yml
   format: yaml
   label: Clarifai Myscopes API
   slug: clarifai-myscopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-myscopes-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-myscopes-api-openapi.yml
 - filename: clarifai-myscopesroot-api-openapi.yml
   format: yaml
   label: Clarifai Myscopesroot API
   slug: clarifai-myscopesroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-myscopesroot-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-myscopesroot-api-openapi.yml
 - filename: clarifai-nodepools-api-openapi.yml
   format: yaml
   label: Clarifai Nodepools API
   slug: clarifai-nodepools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-nodepools-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-nodepools-api-openapi.yml
 - filename: clarifai-open-source-licenses-api-openapi.yml
   format: yaml
   label: Clarifai Open Source Licenses API
   slug: clarifai-open-source-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-open-source-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-open-source-licenses-api-openapi.yml
 - filename: clarifai-pipeline-step-versions-api-openapi.yml
   format: yaml
   label: Clarifai Pipeline Step Versions API
   slug: clarifai-pipeline-step-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-pipeline-step-versions-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-pipeline-step-versions-api-openapi.yml
 - filename: clarifai-pipeline-templates-api-openapi.yml
   format: yaml
   label: Clarifai Pipeline Templates API
   slug: clarifai-pipeline-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-pipeline-templates-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-pipeline-templates-api-openapi.yml
 - filename: clarifai-pipelines-api-openapi.yml
   format: yaml
   label: Clarifai Pipelines API
   slug: clarifai-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-pipelines-api-openapi.yml
 - filename: clarifai-resource-counts-api-openapi.yml
   format: yaml
   label: Clarifai Resource Counts API
   slug: clarifai-resource-counts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-resource-counts-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-resource-counts-api-openapi.yml
 - filename: clarifai-runners-api-openapi.yml
   format: yaml
   label: Clarifai Runners API
   slug: clarifai-runners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-runners-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-runners-api-openapi.yml
 - filename: clarifai-searches-api-openapi.yml
   format: yaml
   label: Clarifai Searches API
   slug: clarifai-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-searches-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-searches-api-openapi.yml
 - filename: clarifai-status-codes-api-openapi.yml
   format: yaml
   label: Clarifai Status Codes API
   slug: clarifai-status-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-status-codes-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-status-codes-api-openapi.yml
 - filename: clarifai-tasks-api-openapi.yml
   format: yaml
   label: Clarifai Tasks API
   slug: clarifai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-tasks-api-openapi.yml
 - filename: clarifai-uploads-api-openapi.yml
   format: yaml
   label: Clarifai Uploads API
   slug: clarifai-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-uploads-api-openapi.yml
 - filename: clarifai-users-api-openapi.yml
   format: yaml
   label: Clarifai Users API
   slug: clarifai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-users-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-users-api-openapi.yml
 - filename: clarifai-validate-password-api-openapi.yml
   format: yaml
   label: Clarifai Validate Password API
   slug: clarifai-validate-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-validate-password-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-validate-password-api-openapi.yml
 - filename: clarifai-workflow-version-evaluation-templates-api-openapi.yml
   format: yaml
   label: Clarifai Workflow Version Evaluation Templates API
   slug: clarifai-workflow-version-evaluation-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-workflow-version-evaluation-templates-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-workflow-version-evaluation-templates-api-openapi.yml
 - filename: clarifai-workflow-version-evaluations-api-openapi.yml
   format: yaml
   label: Clarifai Workflow Version Evaluations API
   slug: clarifai-workflow-version-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-workflow-version-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-workflow-version-evaluations-api-openapi.yml
 - filename: clarifai-workflows-api-openapi.yml
   format: yaml
   label: Clarifai Workflows API
   slug: clarifai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/openapi/clarifai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/clarifai/openapi/clarifai-workflows-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 226
@@ -338,8 +338,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/clarif
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/models/outputs/stream\n  method: post\n  operationId: V2_StreamModelOutputs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/models/searches\n  method: post\n  operationId: V2_PostModelsSearches2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/models/types\n\
   \  method: get\n  operationId: V2_ListModelTypes2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/types/{model_type_id}\n  method: get\n  operationId: V2_GetModelType2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/versions/upload\n  method: post\n  operationId: V2_PostModelVersionsUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/models/{model_id}\n  method: get\n  operationId: V2_GetModel2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v2/models/{model_id}\n  method: delete\n  operationId: V2_DeleteModel2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/models/{model_id}/check_consents\n  method: patch\n  operationId: V2_PatchModelCheckConsents2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/models/{model_id}/inputs\n  method: get\n  operationId: V2_ListModelInputs2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /v2/models/{model_id}/languages\n  method: patch\n  operationId: V2_PatchModelLanguages2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/models/{model_id}/output_info\n  method: get\n  operationId: V2_GetModelOutputInfo2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/{model_id}/outputs\n  method: post\n  operationId: V2_PostModelOutputs4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (148 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/agentic-access/clarifai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/agentic-access/clarifai-agentic-access.yml
+  - path: /v2/models/{model_id}/languages\n  method: patch\n  operationId: V2_PatchModelLanguages2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/models/{model_id}/output_info\n  method: get\n  operationId: V2_GetModelOutputInfo2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/{model_id}/outputs\n  method: post\n  operationId: V2_PostModelOutputs4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (148 KB total) ---\n# Full source: https://artifacts.apis.io/clarifai/agentic-access/clarifai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/clarifai/agentic-access/clarifai-agentic-access.yml
 summary_line: 466 operations · 240 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

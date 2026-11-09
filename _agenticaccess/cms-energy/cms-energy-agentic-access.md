@@ -9,49 +9,49 @@ api_specs:
   label: CMS Energy Authorizations API
   slug: cms-energy-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-authorizations-api-openapi.yml
 - filename: cms-energy-bills-api-openapi.yml
   format: yaml
   label: CMS Energy Bills API
   slug: cms-energy-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-bills-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-bills-api-openapi.yml
 - filename: cms-energy-greenbutton-api-openapi.yml
   format: yaml
   label: CMS Energy GreenButton API
   slug: cms-energy-greenbutton-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-greenbutton-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-greenbutton-api-openapi.yml
 - filename: cms-energy-intervals-api-openapi.yml
   format: yaml
   label: CMS Energy Intervals API
   slug: cms-energy-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-intervals-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-intervals-api-openapi.yml
 - filename: cms-energy-meters-api-openapi.yml
   format: yaml
   label: CMS Energy Meters API
   slug: cms-energy-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-meters-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-meters-api-openapi.yml
 - filename: cms-energy-outage-map-api-openapi.yml
   format: yaml
   label: Consumers Energy Outage Map ArcGIS REST API
   slug: cms-energy-outage-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-outage-map-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-outage-map-api-openapi.yml
 - filename: cms-energy-catalog-api-openapi.yml
   format: yaml
   label: CMS Energy Catalog API
   slug: cms-energy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-catalog-api-openapi.yml
 - filename: cms-energy-service-dashboard-api-openapi.yml
   format: yaml
   label: CMS Energy Service Dashboard API
   slug: cms-energy-service-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-service-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-service-dashboard-api-openapi.yml
 consequence_counts:
   read: 18
   safety-critical: 1
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/cms-en
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meters\n  method: get\n  operationId: listMeters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meters/{id}\n  method: get\n  operationId: getMeter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/CEOutageMap/MapServer\n  method: get\n  operationId: describeOutageMapService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/CEOutageMap/MapServer/{layerId}\n  method: get\n  operationId: describeOutageMapLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/CEOutageMap/MapServer/{layerId}/query\n\
   \  method: get\n  operationId: queryOutageMapLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/ServiceDashboard/MapServer\n  method: get\n  operationId: describeServiceDashboardMapService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/ServiceDashboard/MapServer/{layerId}\n  method: get\n  operationId: describeServiceDashboardLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/ServiceDashboard/MapServer/{layerId}/query\n  method: get\n  operationId: queryServiceDashboardLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/ServiceDashboard/FeatureServer\n\
   \  method: get\n  operationId: describeServiceDashboardFeatureService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/ServiceDashboard/FeatureServer/{layerId}/query\n  method: get\n  operationId: queryServiceDashboardFeatureLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/agentic-access/cms-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cms-energy/agentic-access/cms-energy-agentic-access.yml
 summary_line: 19 operations · 1 acting · 1 human-in-the-loop
 tags:
 - Electric

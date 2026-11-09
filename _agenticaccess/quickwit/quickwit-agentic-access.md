@@ -9,43 +9,43 @@ api_specs:
   label: Quickwit Cluster API
   slug: quickwit-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/quickwit/openapi/quickwit-cluster-api-openapi.yml
 - filename: quickwit-delete-tasks-api-openapi.yml
   format: yaml
   label: Quickwit Delete Tasks API
   slug: quickwit-delete-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-delete-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/quickwit/openapi/quickwit-delete-tasks-api-openapi.yml
 - filename: quickwit-index-templates-api-openapi.yml
   format: yaml
   label: Quickwit Index Templates API
   slug: quickwit-index-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-index-templates-api-openapi.yml
+  url: https://artifacts.apis.io/quickwit/openapi/quickwit-index-templates-api-openapi.yml
 - filename: quickwit-indexes-api-openapi.yml
   format: yaml
   label: Quickwit Indexes API
   slug: quickwit-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/quickwit/openapi/quickwit-indexes-api-openapi.yml
 - filename: quickwit-ingest-api-openapi.yml
   format: yaml
   label: Quickwit Ingest API
   slug: quickwit-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/quickwit/openapi/quickwit-ingest-api-openapi.yml
 - filename: quickwit-search-api-openapi.yml
   format: yaml
   label: Quickwit Search API
   slug: quickwit-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-search-api-openapi.yml
+  url: https://artifacts.apis.io/quickwit/openapi/quickwit-search-api-openapi.yml
 - filename: quickwit-sources-api-openapi.yml
   format: yaml
   label: Quickwit Sources API
   slug: quickwit-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/openapi/quickwit-sources-api-openapi.yml
+  url: https://artifacts.apis.io/quickwit/openapi/quickwit-sources-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/quickw
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{index_id}/search\n  method: get\n  operationId: searchIndexGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{index_id}/search\n  method: post\n  operationId: searchIndexPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{index_id}/sources\n  method: post\n  operationId: createSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /indexes/{index_id}/sources/{source_id}\n  method: put\n  operationId: updateSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{index_id}/sources/{source_id}\n  method: delete\n  operationId: deleteSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{index_id}/sources/{source_id}/toggle\n  method: put\n  operationId: toggleSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{index_id}/sources/{source_id}/reset-checkpoint\n  method: put\n  operationId: resetSourceCheckpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/agentic-access/quickwit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quickwit/agentic-access/quickwit-agentic-access.yml
 summary_line: 26 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Search

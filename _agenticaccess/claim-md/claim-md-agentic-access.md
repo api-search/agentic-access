@@ -9,31 +9,31 @@ api_specs:
   label: Claim.MD Claim Status API
   slug: claim-md-claim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-claim-status-api-openapi.yml
+  url: https://artifacts.apis.io/claim-md/openapi/claim-md-claim-status-api-openapi.yml
 - filename: claim-md-claims-api-openapi.yml
   format: yaml
   label: Claim.MD Claims API
   slug: claim-md-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-claims-api-openapi.yml
+  url: https://artifacts.apis.io/claim-md/openapi/claim-md-claims-api-openapi.yml
 - filename: claim-md-eligibility-api-openapi.yml
   format: yaml
   label: Claim.MD Eligibility API
   slug: claim-md-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/claim-md/openapi/claim-md-eligibility-api-openapi.yml
 - filename: claim-md-era-api-openapi.yml
   format: yaml
   label: Claim.MD ERA API
   slug: claim-md-era-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-era-api-openapi.yml
+  url: https://artifacts.apis.io/claim-md/openapi/claim-md-era-api-openapi.yml
 - filename: claim-md-reference-api-openapi.yml
   format: yaml
   label: Claim.MD Reference API
   slug: claim-md-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/openapi/claim-md-reference-api-openapi.yml
+  url: https://artifacts.apis.io/claim-md/openapi/claim-md-reference-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/claim-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /services/uploadlist/\n  method: post\n  operationId: listUploads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/elig/\n  method: post\n  operationId: submitEligibility270\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/eligdata/\n  method: post\n  operationId: submitEligibilityData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /services/eralist/\n  method: post\n  operationId: listEra\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/era835/\n  method: post\n  operationId: getEra835\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/eradata/\n  method: post\n  operationId: getEraData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/erapdf/\n  method: post\n  operationId: getEraPdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/payerlist/\n  method: post\n  operationId: listPayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/enroll/\n  method: post\n  operationId: requestEnrollment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/appeal/\n  method: post\n  operationId: requestAppeal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/agentic-access/claim-md-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/claim-md/agentic-access/claim-md-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Healthcare

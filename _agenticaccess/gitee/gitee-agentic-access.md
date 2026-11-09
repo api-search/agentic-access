@@ -9,55 +9,55 @@ api_specs:
   label: Gitee Enterprises API
   slug: gitee-enterprises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-enterprises-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-enterprises-api-openapi.yml
 - filename: gitee-gists-api-openapi.yml
   format: yaml
   label: Gitee Gists API
   slug: gitee-gists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-gists-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-gists-api-openapi.yml
 - filename: gitee-issues-api-openapi.yml
   format: yaml
   label: Gitee Issues API
   slug: gitee-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-issues-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-issues-api-openapi.yml
 - filename: gitee-organizations-api-openapi.yml
   format: yaml
   label: Gitee Organizations API
   slug: gitee-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-organizations-api-openapi.yml
 - filename: gitee-pull-requests-api-openapi.yml
   format: yaml
   label: Gitee Pull Requests API
   slug: gitee-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-pull-requests-api-openapi.yml
 - filename: gitee-repositories-api-openapi.yml
   format: yaml
   label: Gitee Repositories API
   slug: gitee-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-repositories-api-openapi.yml
 - filename: gitee-search-api-openapi.yml
   format: yaml
   label: Gitee Search API
   slug: gitee-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-search-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-search-api-openapi.yml
 - filename: gitee-users-api-openapi.yml
   format: yaml
   label: Gitee Users API
   slug: gitee-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-users-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-users-api-openapi.yml
 - filename: gitee-webhooks-api-openapi.yml
   format: yaml
   label: Gitee Webhooks API
   slug: gitee-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/openapi/gitee-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gitee/openapi/gitee-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 27
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gitee-
   \ 3600\n    audit: none\n    scope:\n    - projects\n- path: /enterprises/{enterprise}\n  method: get\n  operationId: getEnterprise\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - projects\n- path: /enterprises/{enterprise}/members\n  method: get\n  operationId: listEnterpriseMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - projects\n- path: /enterprises/{enterprise}/members\n  method: post\n  operationId: addEnterpriseMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - projects\n- path: /repos/{owner}/{repo}/hooks\n\
   \  method: get\n  operationId: listRepoHooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - projects\n- path: /repos/{owner}/{repo}/hooks\n  method: post\n  operationId: createRepoHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - projects\n- path: /repos/{owner}/{repo}/hooks/{id}/tests\n  method: post\n  operationId: testRepoHook\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n    scope:\n    - projects\n- path: /search/repositories\n  method: get\n  operationId: searchRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - projects\n- path: /search/issues\n  method: get\n  operationId: searchIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - projects\n- path: /search/users\n  method: get\n  operationId: searchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - projects\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/agentic-access/gitee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gitee/agentic-access/gitee-agentic-access.yml
 summary_line: 41 operations · 14 acting
 tags:
 - Code Hosting

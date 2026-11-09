@@ -9,79 +9,79 @@ api_specs:
   label: Replicas Analytics API
   slug: replicas-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-analytics-api-openapi.yml
 - filename: replicas-api-keys-api-openapi.yml
   format: yaml
   label: Replicas API Keys API
   slug: replicas-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-api-keys-api-openapi.yml
 - filename: replicas-automation-api-openapi.yml
   format: yaml
   label: Replicas Automation API
   slug: replicas-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-automation-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-automation-api-openapi.yml
 - filename: replicas-credentials-api-openapi.yml
   format: yaml
   label: Replicas Credentials API
   slug: replicas-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-credentials-api-openapi.yml
 - filename: replicas-downloads-api-openapi.yml
   format: yaml
   label: Replicas Downloads API
   slug: replicas-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-downloads-api-openapi.yml
 - filename: replicas-environments-api-openapi.yml
   format: yaml
   label: Replicas Environments API
   slug: replicas-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-environments-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-environments-api-openapi.yml
 - filename: replicas-google-search-console-api-openapi.yml
   format: yaml
   label: Replicas Google Search Console API
   slug: replicas-google-search-console-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-google-search-console-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-google-search-console-api-openapi.yml
 - filename: replicas-preview-api-openapi.yml
   format: yaml
   label: Replicas Preview API
   slug: replicas-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-preview-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-preview-api-openapi.yml
 - filename: replicas-profile-api-openapi.yml
   format: yaml
   label: Replicas Profile API
   slug: replicas-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-profile-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-profile-api-openapi.yml
 - filename: replicas-replica-api-openapi.yml
   format: yaml
   label: Replicas Replica API
   slug: replicas-replica-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-replica-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-replica-api-openapi.yml
 - filename: replicas-repository-api-openapi.yml
   format: yaml
   label: Replicas Repository API
   slug: replicas-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-repository-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-repository-api-openapi.yml
 - filename: replicas-slack-api-openapi.yml
   format: yaml
   label: Replicas Slack API
   slug: replicas-slack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-slack-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-slack-api-openapi.yml
 - filename: replicas-terminal-api-openapi.yml
   format: yaml
   label: Replicas Terminal API
   slug: replicas-terminal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/openapi/replicas-terminal-api-openapi.yml
+  url: https://artifacts.apis.io/replicas/openapi/replicas-terminal-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 43
@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/replic
   \ get\n  operationId: listRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/replica/repository-sets\n  method: get\n  operationId: listRepositorySets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/slack/threads/attach\n  method: post\n  operationId: attachSlackThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/terminal/sessions\n  method: get\n  operationId: listWorkspaceTerminalSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/workspaces/{workspaceId}/terminal/sessions\n  method: post\n  operationId: createWorkspaceTerminalSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/terminal/sessions/{sessionId}/input\n  method: post\n  operationId: writeWorkspaceTerminalSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/terminal/sessions/{sessionId}/resize\n  method: post\n  operationId: resizeWorkspaceTerminalSession\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/terminal/sessions/{sessionId}\n  method: delete\n  operationId: deleteWorkspaceTerminalSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces/{workspaceId}/terminal/sessions/{sessionId}/stream\n  method: get\n  operationId: streamWorkspaceTerminalSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/agentic-access/replicas-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/replicas/agentic-access/replicas-agentic-access.yml
 summary_line: 99 operations · 56 acting · 5 human-in-the-loop
 tags:
 - Company

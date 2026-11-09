@@ -9,31 +9,31 @@ api_specs:
   label: Billie Authentication API
   slug: billie-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-authentication-api-openapi.yml
 - filename: billie-back-end-order-creation-api-openapi.yml
   format: yaml
   label: Billie Back-end Order Creation API
   slug: billie-back-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-back-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-back-end-order-creation-api-openapi.yml
 - filename: billie-captures-api-openapi.yml
   format: yaml
   label: Billie Captures API
   slug: billie-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-captures-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-captures-api-openapi.yml
 - filename: billie-front-end-order-creation-api-openapi.yml
   format: yaml
   label: Billie Front-end Order Creation API
   slug: billie-front-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-front-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-front-end-order-creation-api-openapi.yml
 - filename: billie-order-management-api-openapi.yml
   format: yaml
   label: Billie Order Management API
   slug: billie-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-order-management-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 5
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/billie
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/token/revoke\n  method: post\n  operationId: oauth_token_revoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /orders\n  method: post\n  operationId: order_create_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /orders/{id}\n  method: get\n  operationId: order_get_details_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{id}\n  method: post\n  operationId: order_update_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{id}/cancel\n  method: post\n  operationId: order_cancel_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/agentic-access/billie-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/billie/agentic-access/billie-agentic-access.yml
 summary_line: 18 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Company

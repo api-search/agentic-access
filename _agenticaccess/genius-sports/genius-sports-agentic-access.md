@@ -9,157 +9,157 @@ api_specs:
   label: Genius Sports Competitions API
   slug: genius-sports-competitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitions-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-competitions-api-openapi.yml
 - filename: genius-sports-competitors-api-openapi.yml
   format: yaml
   label: Genius Sports Competitors API
   slug: genius-sports-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-competitors-api-openapi.yml
 - filename: genius-sports-competitors-doubles-api-openapi.yml
   format: yaml
   label: Genius Sports competitors/doubles API
   slug: genius-sports-competitors-doubles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-doubles-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-competitors-doubles-api-openapi.yml
 - filename: genius-sports-competitors-horses-api-openapi.yml
   format: yaml
   label: Genius Sports competitors/horses API
   slug: genius-sports-competitors-horses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-horses-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-competitors-horses-api-openapi.yml
 - filename: genius-sports-competitors-players-api-openapi.yml
   format: yaml
   label: Genius Sports Competitors/players API
   slug: genius-sports-competitors-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-players-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-competitors-players-api-openapi.yml
 - filename: genius-sports-competitors-tbds-api-openapi.yml
   format: yaml
   label: Genius Sports Competitors/tbds API
   slug: genius-sports-competitors-tbds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-tbds-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-competitors-tbds-api-openapi.yml
 - filename: genius-sports-competitors-teams-api-openapi.yml
   format: yaml
   label: Genius Sports Competitors/teams API
   slug: genius-sports-competitors-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-competitors-teams-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-competitors-teams-api-openapi.yml
 - filename: genius-sports-contracts-api-openapi.yml
   format: yaml
   label: Genius Sports Contracts API
   slug: genius-sports-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-contracts-api-openapi.yml
 - filename: genius-sports-fixtures-api-openapi.yml
   format: yaml
   label: Genius Sports Fixtures API
   slug: genius-sports-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-fixtures-api-openapi.yml
 - filename: genius-sports-groups-api-openapi.yml
   format: yaml
   label: Genius Sports Groups API
   slug: genius-sports-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-groups-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-groups-api-openapi.yml
 - filename: genius-sports-ingestion-api-openapi.yml
   format: yaml
   label: Genius Sports Ingestion API
   slug: genius-sports-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-ingestion-api-openapi.yml
 - filename: genius-sports-localities-api-openapi.yml
   format: yaml
   label: Genius Sports Localities API
   slug: genius-sports-localities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-localities-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-localities-api-openapi.yml
 - filename: genius-sports-matches-api-openapi.yml
   format: yaml
   label: Genius Sports Matches API
   slug: genius-sports-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-matches-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-matches-api-openapi.yml
 - filename: genius-sports-organization-api-openapi.yml
   format: yaml
   label: Genius Sports Organization API
   slug: genius-sports-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-organization-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-organization-api-openapi.yml
 - filename: genius-sports-organizations-api-openapi.yml
   format: yaml
   label: Genius Sports Organizations API
   slug: genius-sports-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-organizations-api-openapi.yml
 - filename: genius-sports-pending-requests-api-openapi.yml
   format: yaml
   label: Genius Sports Pending requests API
   slug: genius-sports-pending-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-pending-requests-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-pending-requests-api-openapi.yml
 - filename: genius-sports-people-api-openapi.yml
   format: yaml
   label: Genius Sports People API
   slug: genius-sports-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-people-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-people-api-openapi.yml
 - filename: genius-sports-persons-api-openapi.yml
   format: yaml
   label: Genius Sports Persons API
   slug: genius-sports-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-persons-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-persons-api-openapi.yml
 - filename: genius-sports-probabilistic-matching-api-openapi.yml
   format: yaml
   label: Genius Sports Probabilistic matching API
   slug: genius-sports-probabilistic-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-probabilistic-matching-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-probabilistic-matching-api-openapi.yml
 - filename: genius-sports-rounds-api-openapi.yml
   format: yaml
   label: Genius Sports Rounds API
   slug: genius-sports-rounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-rounds-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-rounds-api-openapi.yml
 - filename: genius-sports-seasons-api-openapi.yml
   format: yaml
   label: Genius Sports Seasons API
   slug: genius-sports-seasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-seasons-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-seasons-api-openapi.yml
 - filename: genius-sports-sourcerequests-api-openapi.yml
   format: yaml
   label: Genius Sports Sourcerequests API
   slug: genius-sports-sourcerequests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-sourcerequests-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-sourcerequests-api-openapi.yml
 - filename: genius-sports-sports-api-openapi.yml
   format: yaml
   label: Genius Sports API
   slug: genius-sports-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-sports-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-sports-api-openapi.yml
 - filename: genius-sports-standings-api-openapi.yml
   format: yaml
   label: Genius Sports Standings API
   slug: genius-sports-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-standings-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-standings-api-openapi.yml
 - filename: genius-sports-statistics-api-openapi.yml
   format: yaml
   label: Genius Sports Statistics API
   slug: genius-sports-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-statistics-api-openapi.yml
 - filename: genius-sports-venues-api-openapi.yml
   format: yaml
   label: Genius Sports Venues API
   slug: genius-sports-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/openapi/genius-sports-venues-api-openapi.yml
+  url: https://artifacts.apis.io/genius-sports/openapi/genius-sports-venues-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 165
@@ -229,8 +229,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/genius
   \ none\n- path: /ingestion/fixtures/searchBySourceEntityId\n  method: get\n  operationId: getIngestionFixturesSearchBySourceEntityId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/fixtures/{trackingRequestId}/status\n  method: options\n  operationId: optionsIngestionFixturesByTrackingRequestIdStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/fixtures/{trackingRequestId}/status\n  method: get\n  operationId: getIngestionFixturesByTrackingRequestIdStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/squads/searchById\n  method: options\n  operationId: optionsIngestionSquadsSearchById\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/squads/searchById\n  method: get\n  operationId: getIngestionSquadsSearchById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/squads/searchBySourceEntityId\n  method: options\n  operationId: optionsIngestionSquadsSearchBySourceEntityId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/squads/searchBySourceEntityId\n  method: get\n  operationId: getIngestionSquadsSearchBySourceEntityId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/squads/{trackingRequestId}/status\n  method: options\n  operationId: optionsIngestionSquadsByTrackingRequestIdStatus\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/squads/{trackingRequestId}/status\n  method: get\n  operationId: getIngestionSquadsByTrackingRequestIdStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/competitions\n  method: post\n  operationId: postIngestionCompetitions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ingestion/fixtures\n  method: post\n  operationId: postIngestionFixtures\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ingestion/fixtures\n  method: patch\n  operationId: patchIngestionFixtures\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ingestion/squads\n  method: post\n  operationId: postIngestionSquads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/agentic-access/genius-sports-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/agentic-access/genius-sports-agentic-access.yml
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ingestion/fixtures\n  method: patch\n  operationId: patchIngestionFixtures\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ingestion/squads\n  method: post\n  operationId: postIngestionSquads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://artifacts.apis.io/genius-sports/agentic-access/genius-sports-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/genius-sports/agentic-access/genius-sports-agentic-access.yml
 summary_line: 227 operations · 62 acting
 tags:
 - Sports

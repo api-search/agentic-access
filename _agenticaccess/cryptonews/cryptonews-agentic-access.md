@@ -8,49 +8,49 @@ api_specs:
   label: CryptoNews API Account API
   slug: cryptonews-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-account-api-openapi.yml
+  url: https://artifacts.apis.io/cryptonews/openapi/cryptonews-account-api-openapi.yml
 - filename: cryptonews-categories-api-openapi.yml
   format: yaml
   label: CryptoNews API Categories API
   slug: cryptonews-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-categories-api-openapi.yml
+  url: https://artifacts.apis.io/cryptonews/openapi/cryptonews-categories-api-openapi.yml
 - filename: cryptonews-digest-api-openapi.yml
   format: yaml
   label: CryptoNews API Digest API
   slug: cryptonews-digest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-digest-api-openapi.yml
+  url: https://artifacts.apis.io/cryptonews/openapi/cryptonews-digest-api-openapi.yml
 - filename: cryptonews-news-api-openapi.yml
   format: yaml
   label: CryptoNews API News API
   slug: cryptonews-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-news-api-openapi.yml
+  url: https://artifacts.apis.io/cryptonews/openapi/cryptonews-news-api-openapi.yml
 - filename: cryptonews-prices-api-openapi.yml
   format: yaml
   label: CryptoNews API Prices API
   slug: cryptonews-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-prices-api-openapi.yml
+  url: https://artifacts.apis.io/cryptonews/openapi/cryptonews-prices-api-openapi.yml
 - filename: cryptonews-sentiment-stats-api-openapi.yml
   format: yaml
   label: CryptoNews API Sentiment & Stats API
   slug: cryptonews-sentiment-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-sentiment-stats-api-openapi.yml
+  url: https://artifacts.apis.io/cryptonews/openapi/cryptonews-sentiment-stats-api-openapi.yml
 - filename: cryptonews-trending-api-openapi.yml
   format: yaml
   label: CryptoNews API Trending API
   slug: cryptonews-trending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-trending-api-openapi.yml
+  url: https://artifacts.apis.io/cryptonews/openapi/cryptonews-trending-api-openapi.yml
 - filename: cryptonews-whale-transactions-api-openapi.yml
   format: yaml
   label: CryptoNews API Whale Transactions API
   slug: cryptonews-whale-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-whale-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cryptonews/openapi/cryptonews-whale-transactions-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -78,7 +78,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getCryptoNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /category\n  method: get\n  operationId: getNewsByCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trending-headlines\n  method: get\n  operationId: getTrendingHeadlines\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /top-mention\n  method: get\n  operationId: getTopMention\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stat\n  method: get\n  operationId: getSentimentStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ticker-price\n  method: get\n  operationId: getTickerPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /whale-transactions\n  method: get\n  operationId: getWhaleTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /whale-summary\n\
   \  method: get\n  operationId: getWhaleSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: getCryptoEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sundown-digest\n  method: get\n  operationId: getSundownDigest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/tickersdbv2\n  method: get\n  operationId: getSupportedTickers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/agentic-access/cryptonews-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cryptonews/agentic-access/cryptonews-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Cryptocurrency

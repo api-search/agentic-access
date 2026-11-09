@@ -9,31 +9,31 @@ api_specs:
   label: Nextdoor Advertising API
   slug: nextdoor-advertising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-advertising-api-openapi.yml
+  url: https://artifacts.apis.io/nextdoor/openapi/nextdoor-advertising-api-openapi.yml
 - filename: nextdoor-conversions-api-openapi.yml
   format: yaml
   label: Nextdoor Conversions API
   slug: nextdoor-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/nextdoor/openapi/nextdoor-conversions-api-openapi.yml
 - filename: nextdoor-creatives-api-openapi.yml
   format: yaml
   label: Nextdoor Creatives API
   slug: nextdoor-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/nextdoor/openapi/nextdoor-creatives-api-openapi.yml
 - filename: nextdoor-posts-api-openapi.yml
   format: yaml
   label: Nextdoor Posts API
   slug: nextdoor-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-posts-api-openapi.yml
+  url: https://artifacts.apis.io/nextdoor/openapi/nextdoor-posts-api-openapi.yml
 - filename: nextdoor-search-api-openapi.yml
   format: yaml
   label: Nextdoor Search API
   slug: nextdoor-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-search-api-openapi.yml
+  url: https://artifacts.apis.io/nextdoor/openapi/nextdoor-search-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nextdo
   \  method: post\n  operationId: createFsfPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/get-your-posts\n  method: get\n  operationId: getYourPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/edit-a-post\n  method: post\n  operationId: editPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/delete-a-post\n  method: post\n  operationId: deletePost\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/search-posts\n  method: get\n  operationId: searchPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/search-event-items\n  method: get\n  operationId: searchEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/search-fsf-items\n  method: get\n  operationId: searchFsfItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/search-businesses\n  method: get\n  operationId: searchBusinesses\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/agentic-access/nextdoor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nextdoor/agentic-access/nextdoor-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
 - Social

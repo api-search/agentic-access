@@ -9,19 +9,19 @@ api_specs:
   label: Odos Information API
   slug: odos-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/openapi/odos-information-api-openapi.yml
+  url: https://artifacts.apis.io/odos/openapi/odos-information-api-openapi.yml
 - filename: odos-pricing-api-openapi.yml
   format: yaml
   label: Odos Pricing API
   slug: odos-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/openapi/odos-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/odos/openapi/odos-pricing-api-openapi.yml
 - filename: odos-smart-order-routing-api-openapi.yml
   format: yaml
   label: Odos Smart Order Routing API
   slug: odos-smart-order-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/openapi/odos-smart-order-routing-api-openapi.yml
+  url: https://artifacts.apis.io/odos/openapi/odos-smart-order-routing-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 11
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \     - abnormal\n      - high-value\n    audit: required\n- path: /sor/quote/v3\n  method: post\n  operationId: quote_v3_sor_quote_v3_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sor/quote/v3/zap\n  method: post\n  operationId: quote_zap_v3_sor_quote_v3_zap_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sor/quote/v2\n  method: post\n  operationId: quote_sor_quote_v2_post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sor/quote/v2/zap\n  method: post\n  operationId: quote_zap_sor_quote_v2_zap_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sor/assemble\n  method: post\n  operationId: assemble_sor_assemble_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pricing/currencies\n  method: get\n  operationId: get_currencies_pricing_currencies_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing/token/{chain_id}/{token_addr}\n  method: get\n  operationId: get_token_price_pricing_token__chain_id___token_addr__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing/token/{chain_id}\n  method: get\n  operationId: get_chain_token_prices_pricing_token__chain_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/agentic-access/odos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/odos/agentic-access/odos-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - Decentralized Exchange

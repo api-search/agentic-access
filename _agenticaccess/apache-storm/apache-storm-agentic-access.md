@@ -9,49 +9,49 @@ api_specs:
   label: Apache Storm Cluster API
   slug: apache-storm-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-cluster-api-openapi.yml
 - filename: apache-storm-drpc-api-openapi.yml
   format: yaml
   label: Apache Storm Drpc API
   slug: apache-storm-drpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-drpc-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-drpc-api-openapi.yml
 - filename: apache-storm-history-api-openapi.yml
   format: yaml
   label: Apache Storm History API
   slug: apache-storm-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-history-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-history-api-openapi.yml
 - filename: apache-storm-nimbus-api-openapi.yml
   format: yaml
   label: Apache Storm Nimbus API
   slug: apache-storm-nimbus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-nimbus-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-nimbus-api-openapi.yml
 - filename: apache-storm-owner-resources-api-openapi.yml
   format: yaml
   label: Apache Storm Owner Resources API
   slug: apache-storm-owner-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-owner-resources-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-owner-resources-api-openapi.yml
 - filename: apache-storm-supervisor-api-openapi.yml
   format: yaml
   label: Apache Storm Supervisor API
   slug: apache-storm-supervisor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-supervisor-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-supervisor-api-openapi.yml
 - filename: apache-storm-topology-api-openapi.yml
   format: yaml
   label: Apache Storm Topology API
   slug: apache-storm-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-topology-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-topology-api-openapi.yml
 - filename: apache-storm-topology-workers-api-openapi.yml
   format: yaml
   label: Apache Storm Topology Workers API
   slug: apache-storm-topology-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-topology-workers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-storm/openapi/apache-storm-topology-workers-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 2
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/topology/{id}/activate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/topology/{id}/deactivate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/topology/{id}/rebalance/{wait-time}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/topology/{id}/kill/{wait-time}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /drpc/{func}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /drpc/{func}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drpc/{func}/{args}\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/agentic-access/apache-storm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-storm/agentic-access/apache-storm-agentic-access.yml
 summary_line: 25 operations · 11 acting · 2 human-in-the-loop
 tags:
 - Distributed Computing

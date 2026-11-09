@@ -9,31 +9,31 @@ api_specs:
   label: Signeasy Embedded API
   slug: signeasy-embedded-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-embedded-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-embedded-api-openapi.yml
 - filename: signeasy-envelopes-api-openapi.yml
   format: yaml
   label: Signeasy Envelopes API
   slug: signeasy-envelopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-envelopes-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-envelopes-api-openapi.yml
 - filename: signeasy-originals-api-openapi.yml
   format: yaml
   label: Signeasy Originals API
   slug: signeasy-originals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-originals-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-originals-api-openapi.yml
 - filename: signeasy-templates-api-openapi.yml
   format: yaml
   label: Signeasy Templates API
   slug: signeasy-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-templates-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-templates-api-openapi.yml
 - filename: signeasy-users-api-openapi.yml
   format: yaml
   label: Signeasy Users API
   slug: signeasy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/openapi/signeasy-users-api-openapi.yml
+  url: https://artifacts.apis.io/signeasy/openapi/signeasy-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/signea
   \  method: get\n  operationId: getEnvelope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rs/envelope/{pending_file_id}/cancel\n  method: post\n  operationId: cancelEnvelope\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rs/{rs_id}/cancel\n  method: post\n  operationId: cancelSignatureRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rs/envelope/signed/{signed_id}/{source_id}/download\n  method: get\n \
   \ operationId: downloadSignedFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /original/\n  method: post\n  operationId: uploadOriginal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template/{template_id}\n  method: put\n  operationId: updateTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template/{template_id}/embed\n  method: post\n  operationId: fetchEmbeddedTemplateCreateUrl\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/\n  method: get\n  operationId: fetchUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/agentic-access/signeasy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/signeasy/agentic-access/signeasy-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - E-Signature

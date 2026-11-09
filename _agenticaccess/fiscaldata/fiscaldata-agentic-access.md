@@ -8,49 +8,49 @@ api_specs:
   label: U.S. Treasury Fiscal Data Daily Treasury Statement API
   slug: fiscaldata-daily-treasury-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-daily-treasury-statement-api-openapi.yml
+  url: https://artifacts.apis.io/fiscaldata/openapi/fiscaldata-daily-treasury-statement-api-openapi.yml
 - filename: fiscaldata-debt-api-openapi.yml
   format: yaml
   label: U.S. Treasury Fiscal Data Debt API
   slug: fiscaldata-debt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-debt-api-openapi.yml
+  url: https://artifacts.apis.io/fiscaldata/openapi/fiscaldata-debt-api-openapi.yml
 - filename: fiscaldata-exchange-rates-api-openapi.yml
   format: yaml
   label: U.S. Treasury Fiscal Data Exchange Rates API
   slug: fiscaldata-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/fiscaldata/openapi/fiscaldata-exchange-rates-api-openapi.yml
 - filename: fiscaldata-interest-rates-api-openapi.yml
   format: yaml
   label: U.S. Treasury Fiscal Data Interest Rates API
   slug: fiscaldata-interest-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-interest-rates-api-openapi.yml
+  url: https://artifacts.apis.io/fiscaldata/openapi/fiscaldata-interest-rates-api-openapi.yml
 - filename: fiscaldata-monthly-treasury-statement-api-openapi.yml
   format: yaml
   label: U.S. Treasury Fiscal Data Monthly Treasury Statement API
   slug: fiscaldata-monthly-treasury-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-monthly-treasury-statement-api-openapi.yml
+  url: https://artifacts.apis.io/fiscaldata/openapi/fiscaldata-monthly-treasury-statement-api-openapi.yml
 - filename: fiscaldata-securities-api-openapi.yml
   format: yaml
   label: U.S. Treasury Fiscal Data Securities API
   slug: fiscaldata-securities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-securities-api-openapi.yml
+  url: https://artifacts.apis.io/fiscaldata/openapi/fiscaldata-securities-api-openapi.yml
 - filename: fiscaldata-national-debt-api-openapi.yml
   format: yaml
   label: U.S. Treasury Fiscal Data National Debt API
   slug: fiscaldata-national-debt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-national-debt-api-openapi.yml
+  url: https://artifacts.apis.io/fiscaldata/openapi/fiscaldata-national-debt-api-openapi.yml
 - filename: fiscaldata-treasury-statements-api-openapi.yml
   format: yaml
   label: U.S. Treasury Fiscal Data Treasury Statements API
   slug: fiscaldata-treasury-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-treasury-statements-api-openapi.yml
+  url: https://artifacts.apis.io/fiscaldata/openapi/fiscaldata-treasury-statements-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -78,7 +78,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fiscaldata-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/accounting/od/debt_to_penny\n  method: get\n  operationId: getDebtToPenny\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounting/od/interest_expense\n  method: get\n  operationId: getInterestExpense\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounting/od/avg_interest_rates\n\
   \  method: get\n  operationId: getAverageInterestRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounting/dts/operating_cash_balance\n  method: get\n  operationId: getOperatingCashBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounting/dts/deposits_withdrawals_operating_cash\n  method: get\n  operationId: getDepositsWithdrawalsOperatingCash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounting/mts/mts_table_4\n  method: get\n  operationId: getMtsReceipts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounting/mts/mts_table_5\n\
   \  method: get\n  operationId: getMtsOutlays\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounting/od/rates_of_exchange\n  method: get\n  operationId: getRatesOfExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounting/od/auctions_query\n  method: get\n  operationId: getAuctionsQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/agentic-access/fiscaldata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fiscaldata/agentic-access/fiscaldata-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Government Data

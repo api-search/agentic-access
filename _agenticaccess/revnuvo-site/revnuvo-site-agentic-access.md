@@ -40,7 +40,7 @@ summary_line: 2 operations · 2 acting
 tags:
 - Company
 - Revenue
-- SaaS
+- Software-as-a-Service
 - Billing
 - Finance
 ---

@@ -8,73 +8,73 @@ api_specs:
   label: SiftingIO Live Stream
   slug: siftingio-live-stream
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/asyncapi/siftingio-asyncapi.yaml
+  url: https://artifacts.apis.io/siftingio/asyncapi/siftingio-asyncapi.yaml
 - filename: siftingio-commodities-api-openapi.yml
   format: yaml
   label: SiftingIO Commodities API
   slug: siftingio-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-commodities-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-commodities-api-openapi.yml
 - filename: siftingio-convert-api-openapi.yml
   format: yaml
   label: SiftingIO Convert API
   slug: siftingio-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-convert-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-convert-api-openapi.yml
 - filename: siftingio-crypto-api-openapi.yml
   format: yaml
   label: SiftingIO Crypto API
   slug: siftingio-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-crypto-api-openapi.yml
 - filename: siftingio-dex-api-openapi.yml
   format: yaml
   label: SiftingIO DEX API
   slug: siftingio-dex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-dex-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-dex-api-openapi.yml
 - filename: siftingio-filers-api-openapi.yml
   format: yaml
   label: SiftingIO Filers API
   slug: siftingio-filers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-filers-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-filers-api-openapi.yml
 - filename: siftingio-forex-api-openapi.yml
   format: yaml
   label: SiftingIO Forex API
   slug: siftingio-forex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-forex-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-forex-api-openapi.yml
 - filename: siftingio-live-api-openapi.yml
   format: yaml
   label: SiftingIO Live API
   slug: siftingio-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-live-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-live-api-openapi.yml
 - filename: siftingio-markets-api-openapi.yml
   format: yaml
   label: SiftingIO Markets API
   slug: siftingio-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-markets-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-markets-api-openapi.yml
 - filename: siftingio-signals-api-openapi.yml
   format: yaml
   label: SiftingIO Signals API
   slug: siftingio-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-signals-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-signals-api-openapi.yml
 - filename: siftingio-stocks-api-openapi.yml
   format: yaml
   label: SiftingIO Stocks API
   slug: siftingio-stocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-stocks-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-stocks-api-openapi.yml
 - filename: siftingio-economic-calendar-api-openapi.yml
   format: yaml
   label: SiftingIO Economic Calendar API
   slug: siftingio-economic-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-economic-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/siftingio/openapi/siftingio-economic-calendar-api-openapi.yml
 consequence_counts:
   read: 37
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: generated\nsource: openapi/siftin
   \ get\n  operationId: getFilingSection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fnd/stocks/{ticker}/risk-factors-diff\n  method: get\n  operationId: getRiskFactorsDiff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fnd/stocks/{ticker}/ratios\n  method: get\n  operationId: getRatios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fnd/stocks/{ticker}/earnings\n  method: get\n  operationId: listEarnings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fnd/stocks/{ticker}/financials\n  method: get\n  operationId: getFinancials\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fnd/stocks/{ticker}/financials/{concept}\n  method: get\n  operationId: getFinancialConcept\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fnd/stocks/{ticker}/insiders\n  method: get\n  operationId: listInsiders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fnd/stocks/{ticker}/ownership\n  method: get\n  operationId: listOwnership\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fnd/stocks/{ticker}/events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fnd/stocks/{ticker}/compensation\n  method: get\n  operationId: listCompensation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hist/stocks/{ticker}/bars\n  method: get\n  operationId: getStockBars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/agentic-access/siftingio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/siftingio/agentic-access/siftingio-agentic-access.yml
 summary_line: 37 operations
 tags:
 - Financial market data

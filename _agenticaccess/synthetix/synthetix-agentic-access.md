@@ -8,79 +8,79 @@ api_specs:
   label: Synthetix Escrowed Balance API
   slug: synthetix-escrowed-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-escrowed-balance-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-escrowed-balance-api-openapi.yml
 - filename: synthetix-health-check-api-openapi.yml
   format: yaml
   label: Synthetix Health Check API
   slug: synthetix-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-health-check-api-openapi.yml
 - filename: synthetix-staking-api-openapi.yml
   format: yaml
   label: Synthetix Staking API
   slug: synthetix-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-staking-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-staking-api-openapi.yml
 - filename: synthetix-stats-api-openapi.yml
   format: yaml
   label: Synthetix Stats API
   slug: synthetix-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-stats-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-stats-api-openapi.yml
 - filename: synthetix-supply-api-openapi.yml
   format: yaml
   label: Synthetix Supply API
   slug: synthetix-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-supply-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-supply-api-openapi.yml
 - filename: synthetix-vested-balance-api-openapi.yml
   format: yaml
   label: Synthetix Vested Balance API
   slug: synthetix-vested-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-vested-balance-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-vested-balance-api-openapi.yml
 - filename: synthetix-arbitrum-api-openapi.yml
   format: yaml
   label: Synthetix Arbitrum API
   slug: synthetix-arbitrum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-arbitrum-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-arbitrum-api-openapi.yml
 - filename: synthetix-base-api-openapi.yml
   format: yaml
   label: Synthetix Base API
   slug: synthetix-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-base-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-base-api-openapi.yml
 - filename: synthetix-mainnet-api-openapi.yml
   format: yaml
   label: Synthetix Mainnet API
   slug: synthetix-mainnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-mainnet-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-mainnet-api-openapi.yml
 - filename: synthetix-optimism-api-openapi.yml
   format: yaml
   label: Synthetix Optimism API
   slug: synthetix-optimism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-optimism-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-optimism-api-openapi.yml
 - filename: synthetix-top-asset-api-openapi.yml
   format: yaml
   label: Synthetix Top Asset API
   slug: synthetix-top-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-top-asset-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-top-asset-api-openapi.yml
 - filename: synthetix-tvl-api-openapi.yml
   format: yaml
   label: Synthetix Tvl API
   slug: synthetix-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-tvl-api-openapi.yml
 - filename: synthetix-tvl420-api-openapi.yml
   format: yaml
   label: Synthetix Tvl420 API
   slug: synthetix-tvl420-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-tvl420-api-openapi.yml
+  url: https://artifacts.apis.io/synthetix/openapi/synthetix-tvl420-api-openapi.yml
 consequence_counts:
   read: 31
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/base/sc-pool-apy-all\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/base/sc-pool-apy-history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/base/sc-pool-apy\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/base/snx-buyback\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/mainnet/issued-debt\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/mainnet/rewards-claimed\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/mainnet/sc-pool-apy-all\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/optimism/lt-leaderboard\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/optimism/lt-trades\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/top-asset\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/tvl\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/tvl420\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/agentic-access/synthetix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/synthetix/agentic-access/synthetix-agentic-access.yml
 summary_line: 31 operations
 tags:
 - DeFi

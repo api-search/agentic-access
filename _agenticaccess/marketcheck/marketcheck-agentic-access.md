@@ -8,61 +8,61 @@ api_specs:
   label: MarketCheck VIN Decoder API
   slug: marketcheck-vin-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-vin-decoder-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-vin-decoder-api-openapi.yml
 - filename: marketcheck-dealer-api-openapi.yml
   format: yaml
   label: MarketCheck Dealer API
   slug: marketcheck-dealer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-dealer-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-dealer-api-openapi.yml
 - filename: marketcheck-dealer-api-openapi.yml
   format: yaml
   label: MarketCheck Dealer API
   slug: marketcheck-dealer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-dealer-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-dealer-api-openapi.yml
 - filename: marketcheck-facets-api-openapi.yml
   format: yaml
   label: MarketCheck Facets API
   slug: marketcheck-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-facets-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-facets-api-openapi.yml
 - filename: marketcheck-graphs-api-openapi.yml
   format: yaml
   label: MarketCheck Graphs API
   slug: marketcheck-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-graphs-api-openapi.yml
 - filename: marketcheck-history-api-openapi.yml
   format: yaml
   label: MarketCheck History API
   slug: marketcheck-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-history-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-history-api-openapi.yml
 - filename: marketcheck-inventory-api-openapi.yml
   format: yaml
   label: MarketCheck Inventory API
   slug: marketcheck-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-inventory-api-openapi.yml
 - filename: marketcheck-listings-api-openapi.yml
   format: yaml
   label: MarketCheck Listings API
   slug: marketcheck-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-listings-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-listings-api-openapi.yml
 - filename: marketcheck-market-api-openapi.yml
   format: yaml
   label: MarketCheck Market API
   slug: marketcheck-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-market-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-market-api-openapi.yml
 - filename: marketcheck-vin-decoder-api-openapi.yml
   format: yaml
   label: MarketCheck VIN Decoder API
   slug: marketcheck-vin-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/openapi/marketcheck-vin-decoder-api-openapi.yml
+  url: https://artifacts.apis.io/marketcheck/openapi/marketcheck-vin-decoder-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/market
   \ 3600\n    audit: none\n- path: /fuel_efficiency\n  method: get\n  operationId: getEfficiency\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /safety\n  method: get\n  operationId: getSafetyRating\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /averages\n  method: get\n  operationId: getAverages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comparison\n  method: get\n  operationId: getComparison\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /competition\n  method: get\n  operationId: getCompetition\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /depreciation\n  method: get\n  operationId: getDepreciation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mds\n  method: get\n  operationId: getMDS\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /popularity\n  method: get\n  operationId: getPopularity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trends\n  method: get\n  operationId: getTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facets\n  method: get\n  operationId: getFacets\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plots\n  method: get\n  operationId: getPriceMilesPlotData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/agentic-access/marketcheck-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/marketcheck/agentic-access/marketcheck-agentic-access.yml
 summary_line: 27 operations
 tags:
 - Automotive

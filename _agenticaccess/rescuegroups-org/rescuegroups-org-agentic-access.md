@@ -9,49 +9,49 @@ api_specs:
   label: RescueGroups.org Animals API
   slug: rescuegroups-org-animals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-animals-api-openapi.yml
+  url: https://artifacts.apis.io/rescuegroups-org/openapi/rescuegroups-org-animals-api-openapi.yml
 - filename: rescuegroups-org-authentication-api-openapi.yml
   format: yaml
   label: RescueGroups.org Authentication API
   slug: rescuegroups-org-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rescuegroups-org/openapi/rescuegroups-org-authentication-api-openapi.yml
 - filename: rescuegroups-org-breeds-api-openapi.yml
   format: yaml
   label: RescueGroups.org Breeds API
   slug: rescuegroups-org-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-breeds-api-openapi.yml
+  url: https://artifacts.apis.io/rescuegroups-org/openapi/rescuegroups-org-breeds-api-openapi.yml
 - filename: rescuegroups-org-colors-api-openapi.yml
   format: yaml
   label: RescueGroups.org Colors API
   slug: rescuegroups-org-colors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-colors-api-openapi.yml
+  url: https://artifacts.apis.io/rescuegroups-org/openapi/rescuegroups-org-colors-api-openapi.yml
 - filename: rescuegroups-org-organizations-api-openapi.yml
   format: yaml
   label: RescueGroups.org Organizations API
   slug: rescuegroups-org-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/rescuegroups-org/openapi/rescuegroups-org-organizations-api-openapi.yml
 - filename: rescuegroups-org-patterns-api-openapi.yml
   format: yaml
   label: RescueGroups.org Patterns API
   slug: rescuegroups-org-patterns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-patterns-api-openapi.yml
+  url: https://artifacts.apis.io/rescuegroups-org/openapi/rescuegroups-org-patterns-api-openapi.yml
 - filename: rescuegroups-org-pet-lists-api-openapi.yml
   format: yaml
   label: RescueGroups.org Pet Lists API
   slug: rescuegroups-org-pet-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-pet-lists-api-openapi.yml
+  url: https://artifacts.apis.io/rescuegroups-org/openapi/rescuegroups-org-pet-lists-api-openapi.yml
 - filename: rescuegroups-org-species-api-openapi.yml
   format: yaml
   label: RescueGroups.org Species API
   slug: rescuegroups-org-species-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/openapi/rescuegroups-org-species-api-openapi.yml
+  url: https://artifacts.apis.io/rescuegroups-org/openapi/rescuegroups-org-species-api-openapi.yml
 consequence_counts:
   read: 10
   write: 2
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rescue
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/animals/{animal_id}\n  method: get\n  operationId: getPublicAnimal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/animals/search/{view_name}\n  method: post\n  operationId: searchPublicAnimals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/animals/breeds\n  method: get\n  operationId: listAnimalBreeds\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/animals/colors\n  method: get\n  operationId: listAnimalColors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/orgs\n  method: get\n  operationId: listPublicOrgs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/orgs/{org_id}\n  method: get\n  operationId: getPublicOrg\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/animals/patterns\n  method: get\n  operationId: listAnimalPatterns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /public/petlists/{keystring}\n  method: get\n  operationId: getPetList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/petlists/{keystring}\n  method: put\n  operationId: updatePetList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/animals/species\n  method: get\n  operationId: listAnimalSpecies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/agentic-access/rescuegroups-org-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rescuegroups-org/agentic-access/rescuegroups-org-agentic-access.yml
 summary_line: 12 operations · 2 acting
 tags:
 - Animals

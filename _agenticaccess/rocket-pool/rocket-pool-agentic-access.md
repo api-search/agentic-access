@@ -9,85 +9,85 @@ api_specs:
   label: Rocket Pool Auction API
   slug: rocket-pool-auction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-auction-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-auction-api-openapi.yml
 - filename: rocket-pool-deposit-api-openapi.yml
   format: yaml
   label: Rocket Pool Deposit API
   slug: rocket-pool-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-deposit-api-openapi.yml
 - filename: rocket-pool-megapool-api-openapi.yml
   format: yaml
   label: Rocket Pool Megapool API
   slug: rocket-pool-megapool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-megapool-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-megapool-api-openapi.yml
 - filename: rocket-pool-minipool-api-openapi.yml
   format: yaml
   label: Rocket Pool Minipool API
   slug: rocket-pool-minipool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-minipool-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-minipool-api-openapi.yml
 - filename: rocket-pool-network-api-openapi.yml
   format: yaml
   label: Rocket Pool Network API
   slug: rocket-pool-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-network-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-network-api-openapi.yml
 - filename: rocket-pool-node-api-openapi.yml
   format: yaml
   label: Rocket Pool Node API
   slug: rocket-pool-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-node-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-node-api-openapi.yml
 - filename: rocket-pool-oracledao-api-openapi.yml
   format: yaml
   label: Rocket Pool OracleDAO API
   slug: rocket-pool-oracledao-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-oracledao-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-oracledao-api-openapi.yml
 - filename: rocket-pool-protocoldao-api-openapi.yml
   format: yaml
   label: Rocket Pool ProtocolDAO API
   slug: rocket-pool-protocoldao-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-protocoldao-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-protocoldao-api-openapi.yml
 - filename: rocket-pool-queue-api-openapi.yml
   format: yaml
   label: Rocket Pool Queue API
   slug: rocket-pool-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-queue-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-queue-api-openapi.yml
 - filename: rocket-pool-rewards-api-openapi.yml
   format: yaml
   label: Rocket Pool Rewards API
   slug: rocket-pool-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-rewards-api-openapi.yml
 - filename: rocket-pool-service-api-openapi.yml
   format: yaml
   label: Rocket Pool Service API
   slug: rocket-pool-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-service-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-service-api-openapi.yml
 - filename: rocket-pool-settings-api-openapi.yml
   format: yaml
   label: Rocket Pool Settings API
   slug: rocket-pool-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-settings-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-settings-api-openapi.yml
 - filename: rocket-pool-tokens-api-openapi.yml
   format: yaml
   label: Rocket Pool Tokens API
   slug: rocket-pool-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-tokens-api-openapi.yml
 - filename: rocket-pool-wallet-api-openapi.yml
   format: yaml
   label: Rocket Pool Wallet API
   slug: rocket-pool-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/openapi/rocket-pool-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-pool/openapi/rocket-pool-wallet-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 39
@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rocket
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auction/bid-lot\n  method: post\n  operationId: bidAuctionLot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /odao/status\n  method: get\n  operationId: getOracleDaoStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odao/members\n  method: get\n  operationId: listOracleDaoMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pdao/settings\n  method: get\n  operationId: getProtocolDaoSettings\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pdao/voting-power\n  method: get\n  operationId: getProtocolDaoVotingPower\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rewards/status\n  method: get\n  operationId: getRewardsStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rewards/claim-all\n  method: post\n  operationId: claimAllRewards\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /service/version\n  method: get\n  operationId: getServiceVersion\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service/status\n  method: get\n  operationId: getServiceStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/agentic-access/rocket-pool-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rocket-pool/agentic-access/rocket-pool-agentic-access.yml
 summary_line: 56 operations · 17 acting
 tags:
 - Blockchain

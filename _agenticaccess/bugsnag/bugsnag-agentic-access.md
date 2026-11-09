@@ -9,157 +9,157 @@ api_specs:
   label: bugsnag Builds API
   slug: bugsnag-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-builds-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-builds-api-openapi.yml
 - filename: bugsnag-collaborators-api-openapi.yml
   format: yaml
   label: bugsnag Collaborators API
   slug: bugsnag-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-collaborators-api-openapi.yml
 - filename: bugsnag-comments-api-openapi.yml
   format: yaml
   label: bugsnag Comments API
   slug: bugsnag-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-comments-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-comments-api-openapi.yml
 - filename: bugsnag-errors-api-openapi.yml
   format: yaml
   label: bugsnag Errors API
   slug: bugsnag-errors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-errors-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-errors-api-openapi.yml
 - filename: bugsnag-eventfields-api-openapi.yml
   format: yaml
   label: bugsnag EventFields API
   slug: bugsnag-eventfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-eventfields-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-eventfields-api-openapi.yml
 - filename: bugsnag-events-api-openapi.yml
   format: yaml
   label: bugsnag Events API
   slug: bugsnag-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-events-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-events-api-openapi.yml
 - filename: bugsnag-organizations-api-openapi.yml
   format: yaml
   label: bugsnag Organizations API
   slug: bugsnag-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-organizations-api-openapi.yml
 - filename: bugsnag-pivots-api-openapi.yml
   format: yaml
   label: bugsnag Pivots API
   slug: bugsnag-pivots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-pivots-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-pivots-api-openapi.yml
 - filename: bugsnag-projects-api-openapi.yml
   format: yaml
   label: bugsnag Projects API
   slug: bugsnag-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-projects-api-openapi.yml
 - filename: bugsnag-releases-api-openapi.yml
   format: yaml
   label: bugsnag Releases API
   slug: bugsnag-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-releases-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-releases-api-openapi.yml
 - filename: bugsnag-sessions-api-openapi.yml
   format: yaml
   label: bugsnag Sessions API
   slug: bugsnag-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-sessions-api-openapi.yml
 - filename: bugsnag-stability-api-openapi.yml
   format: yaml
   label: bugsnag Stability API
   slug: bugsnag-stability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-stability-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-stability-api-openapi.yml
 - filename: bugsnag-traces-api-openapi.yml
   format: yaml
   label: bugsnag Traces API
   slug: bugsnag-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-traces-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-traces-api-openapi.yml
 - filename: bugsnag-trends-api-openapi.yml
   format: yaml
   label: bugsnag Trends API
   slug: bugsnag-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-trends-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-trends-api-openapi.yml
 - filename: bugsnag-current-user-api-openapi.yml
   format: yaml
   label: Bugsnag Current User API
   slug: bugsnag-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-current-user-api-openapi.yml
 - filename: bugsnag-android-api-openapi.yml
   format: yaml
   label: Bugsnag Android API
   slug: bugsnag-android-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-android-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-android-api-openapi.yml
 - filename: bugsnag-apple-api-openapi.yml
   format: yaml
   label: Bugsnag Apple API
   slug: bugsnag-apple-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-apple-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-apple-api-openapi.yml
 - filename: bugsnag-dart-api-openapi.yml
   format: yaml
   label: Bugsnag Dart API
   slug: bugsnag-dart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-dart-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-dart-api-openapi.yml
 - filename: bugsnag-integrations-api-openapi.yml
   format: yaml
   label: Bugsnag Integrations API
   slug: bugsnag-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-integrations-api-openapi.yml
 - filename: bugsnag-javascript-api-openapi.yml
   format: yaml
   label: Bugsnag JavaScript API
   slug: bugsnag-javascript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-javascript-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-javascript-api-openapi.yml
 - filename: bugsnag-linux-api-openapi.yml
   format: yaml
   label: Bugsnag Linux API
   slug: bugsnag-linux-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-linux-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-linux-api-openapi.yml
 - filename: bugsnag-minidump-api-openapi.yml
   format: yaml
   label: Bugsnag Minidump API
   slug: bugsnag-minidump-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-minidump-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-minidump-api-openapi.yml
 - filename: bugsnag-minidumps-api-openapi.yml
   format: yaml
   label: Bugsnag Minidumps API
   slug: bugsnag-minidumps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-minidumps-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-minidumps-api-openapi.yml
 - filename: bugsnag-nintendo-api-openapi.yml
   format: yaml
   label: Bugsnag Nintendo API
   slug: bugsnag-nintendo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-nintendo-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-nintendo-api-openapi.yml
 - filename: bugsnag-scim-api-openapi.yml
   format: yaml
   label: Bugsnag SCIM API
   slug: bugsnag-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-scim-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-scim-api-openapi.yml
 - filename: bugsnag-unity-api-openapi.yml
   format: yaml
   label: Bugsnag Unity API
   slug: bugsnag-unity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/openapi/bugsnag-unity-api-openapi.yml
+  url: https://artifacts.apis.io/bugsnag/openapi/bugsnag-unity-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 100
@@ -274,8 +274,8 @@ source_yaml: "generated: '2026-09-17'\nmethod: generated\nsource: openapi/bugsna
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/event_data_deletions/{id}/confirm\n  method: post\n  operationId: organizationEventDataDeletionsConfirm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/event_data_deletions/{id}\n  method: get\n  operationId: organizationEventDataDeletionsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/scim/v2/Users\n  method: get\n  operationId: listScimCollaborators\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/scim/v2/Users\n  method: post\n  operationId: createScimCollaborator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/scim/v2/Users/{id}\n  method: get\n  operationId: getScimCollaborator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/scim/v2/Users/{id}\n  method: put\n  operationId: updateScimCollaborator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/scim/v2/Users/{id}\n  method: patch\n  operationId: patchScimCollaborator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/scim/v2/Users/{id}\n  method: delete\n  operationId: deleteScimCollaborator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB\
-  \ (58 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/agentic-access/bugsnag-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/agentic-access/bugsnag-agentic-access.yml
+  \ (58 KB total) ---\n# Full source: https://artifacts.apis.io/bugsnag/agentic-access/bugsnag-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bugsnag/agentic-access/bugsnag-agentic-access.yml
 summary_line: 193 operations · 93 acting · 2 human-in-the-loop
 tags:
 - Monitoring

@@ -9,37 +9,37 @@ api_specs:
   label: ShopMy Catalog API
   slug: shopmy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-catalog-api-openapi.yml
 - filename: shopmy-collections-api-openapi.yml
   format: yaml
   label: ShopMy Collections API
   slug: shopmy-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-collections-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-collections-api-openapi.yml
 - filename: shopmy-links-api-openapi.yml
   format: yaml
   label: ShopMy Links API
   slug: shopmy-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-links-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-links-api-openapi.yml
 - filename: shopmy-order-reporting-api-openapi.yml
   format: yaml
   label: ShopMy Order Reporting API
   slug: shopmy-order-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-order-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-order-reporting-api-openapi.yml
 - filename: shopmy-profile-api-openapi.yml
   format: yaml
   label: ShopMy Profile API
   slug: shopmy-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-profile-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-profile-api-openapi.yml
 - filename: shopmy-oauth-api-openapi.yml
   format: yaml
   label: ShopMy O Auth API
   slug: shopmy-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-oauth-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shopmy
   \ searchCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Collections\n  method: get\n  operationId: fetchCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Collections\n  method: post\n  operationId: createCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Collections/{id}\n  method: put\n  operationId: editCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Links\n  method: get\n  operationId: fetchLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Links\n  method: post\n  operationId: createLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth-exchange-token\n  method: post\n  operationId: oauthExchangeToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /OrderReport\n \
   \ method: post\n  operationId: fetchOrderReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Profile\n  method: get\n  operationId: fetchProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/agentic-access/shopmy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shopmy/agentic-access/shopmy-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Apache Solr Cluster API
   slug: apache-solr-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/apache-solr/openapi/apache-solr-cluster-api-openapi.yml
 - filename: apache-solr-collections-api-openapi.yml
   format: yaml
   label: Apache Solr Collections API
   slug: apache-solr-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-collections-api-openapi.yml
+  url: https://artifacts.apis.io/apache-solr/openapi/apache-solr-collections-api-openapi.yml
 - filename: apache-solr-query-api-openapi.yml
   format: yaml
   label: Apache Solr Query API
   slug: apache-solr-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-query-api-openapi.yml
+  url: https://artifacts.apis.io/apache-solr/openapi/apache-solr-query-api-openapi.yml
 - filename: apache-solr-schema-api-openapi.yml
   format: yaml
   label: Apache Solr Schema API
   slug: apache-solr-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-schema-api-openapi.yml
+  url: https://artifacts.apis.io/apache-solr/openapi/apache-solr-schema-api-openapi.yml
 - filename: apache-solr-update-api-openapi.yml
   format: yaml
   label: Apache Solr Update API
   slug: apache-solr-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/openapi/apache-solr-update-api-openapi.yml
+  url: https://artifacts.apis.io/apache-solr/openapi/apache-solr-update-api-openapi.yml
 consequence_counts:
   read: 11
   write: 10
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solr/{collection}/schema\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solr/{collection}/schema\n  method: post\n  operationId: modifySchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solr/{collection}/schema/fields\n  method: get\n  operationId: listFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solr/{collection}/schema/fields/{fieldname}\n  method: get\n  operationId:\
   \ getField\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solr/{collection}/schema/dynamicfields\n  method: get\n  operationId: listDynamicFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solr/{collection}/schema/fieldtypes\n  method: get\n  operationId: listFieldTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solr/{collection}/schema/copyfields\n  method: get\n  operationId: listCopyFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solr/{collection}/schema/uniquekey\n  method: get\n  operationId: getUniqueKey\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solr/{collection}/select\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solr/{collection}/update\n  method: post\n  operationId: update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/agentic-access/apache-solr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-solr/agentic-access/apache-solr-agentic-access.yml
 summary_line: 21 operations · 10 acting
 tags:
 - Enterprise Search

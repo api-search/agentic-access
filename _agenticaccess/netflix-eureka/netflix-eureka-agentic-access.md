@@ -9,19 +9,19 @@ api_specs:
   label: Netflix Eureka Applications API
   slug: netflix-eureka-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/openapi/netflix-eureka-applications-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-eureka/openapi/netflix-eureka-applications-api-openapi.yml
 - filename: netflix-eureka-instances-api-openapi.yml
   format: yaml
   label: Netflix Eureka Instances API
   slug: netflix-eureka-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/openapi/netflix-eureka-instances-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-eureka/openapi/netflix-eureka-instances-api-openapi.yml
 - filename: netflix-eureka-vip-api-openapi.yml
   format: yaml
   label: Netflix Eureka VIP API
   slug: netflix-eureka-vip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/openapi/netflix-eureka-vip-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-eureka/openapi/netflix-eureka-vip-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eureka
   \ sendHeartbeat\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{appId}/{instanceId}/status\n  method: put\n  operationId: updateInstanceStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /apps/{appId}/{instanceId}/status\n  method: delete\n  operationId: removeInstanceStatusOverride\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /apps/{appId}/{instanceId}/metadata\n  method: put\n  operationId: updateInstanceMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{instanceId}\n  method: get\n  operationId: getInstanceById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/delta\n  method: get\n  operationId: getDelta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vips/{vipAddress}\n\
   \  method: get\n  operationId: getByVipAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /svips/{svipAddress}\n  method: get\n  operationId: getBySecureVipAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/agentic-access/netflix-eureka-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/netflix-eureka/agentic-access/netflix-eureka-agentic-access.yml
 summary_line: 13 operations · 6 acting · 2 human-in-the-loop
 tags:
 - Cloud-Native

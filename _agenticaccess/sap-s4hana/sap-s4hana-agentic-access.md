@@ -9,37 +9,37 @@ api_specs:
   label: SAP S/4HANA Partners API
   slug: sap-s4hana-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-partners-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-partners-api-openapi.yml
 - filename: sap-s4hana-pricing-elements-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Pricing Elements API
   slug: sap-s4hana-pricing-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-pricing-elements-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-pricing-elements-api-openapi.yml
 - filename: sap-s4hana-sales-order-items-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Sales Order Items API
   slug: sap-s4hana-sales-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-sales-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-sales-order-items-api-openapi.yml
 - filename: sap-s4hana-sales-orders-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Sales Orders API
   slug: sap-s4hana-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-sales-orders-api-openapi.yml
 - filename: sap-s4hana-schedule-lines-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Schedule Lines API
   slug: sap-s4hana-schedule-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-schedule-lines-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-schedule-lines-api-openapi.yml
 - filename: sap-s4hana-text-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Text API
   slug: sap-s4hana-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-text-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-text-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 9
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-s4
   \  method: get\n  operationId: getSalesOrderItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')\n  method: patch\n  operationId: updateSalesOrderItem\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')\n  method: delete\n  operationId: deleteSalesOrderItem\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /A_SalesOrder('{SalesOrder}')/to_Partner\n  method: get\n  operationId: listSalesOrderPartners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_SalesOrder('{SalesOrder}')/to_PricingElement\n  method: get\n  operationId: listSalesOrderPricingElements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')/to_ScheduleLine\n  method: get\n  operationId: listSalesOrderItemScheduleLines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')/to_PricingElement\n\
   \  method: get\n  operationId: listSalesOrderItemPricingElements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_SalesOrder('{SalesOrder}')/to_Text\n  method: get\n  operationId: listSalesOrderTexts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/agentic-access/sap-s4hana-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-s4hana/agentic-access/sap-s4hana-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Business Applications

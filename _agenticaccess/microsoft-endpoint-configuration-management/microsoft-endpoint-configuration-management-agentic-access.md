@@ -9,121 +9,121 @@ api_specs:
   label: Microsoft Endpoint Configuration Management Applications API
   slug: microsoft-endpoint-configuration-management-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-applications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-applications-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-collections-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Collections API
   slug: microsoft-endpoint-configuration-management-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-collections-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-collections-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-compliance-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Compliance API
   slug: microsoft-endpoint-configuration-management-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-compliance-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-compliance-policies-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Compliance Policies API
   slug: microsoft-endpoint-configuration-management-compliance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-compliance-policies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-compliance-policies-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-configuration-profiles-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Configuration Profiles API
   slug: microsoft-endpoint-configuration-management-configuration-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-configuration-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-configuration-profiles-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-dates-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Dates API
   slug: microsoft-endpoint-configuration-management-dates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-dates-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-dates-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-deployments-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Deployments API
   slug: microsoft-endpoint-configuration-management-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-deployments-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-device-actions-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Device Actions API
   slug: microsoft-endpoint-configuration-management-device-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-device-actions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-device-actions-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-devices-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Devices API
   slug: microsoft-endpoint-configuration-management-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-devices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-devices-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-export-jobs-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Export Jobs API
   slug: microsoft-endpoint-configuration-management-export-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-export-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-export-jobs-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-management-extensions-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Extensions API
   slug: microsoft-endpoint-configuration-management-management-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-management-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-management-extensions-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-packages-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Packages API
   slug: microsoft-endpoint-configuration-management-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-packages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-packages-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-policies-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Policies API
   slug: microsoft-endpoint-configuration-management-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-policies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-policies-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-reports-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Reports API
   slug: microsoft-endpoint-configuration-management-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-reports-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-reports-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-scripts-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Scripts API
   slug: microsoft-endpoint-configuration-management-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-scripts-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-site-administration-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Site Administration API
   slug: microsoft-endpoint-configuration-management-site-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-site-administration-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-site-administration-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-software-updates-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Software Updates API
   slug: microsoft-endpoint-configuration-management-software-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-software-updates-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-software-updates-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-task-sequences-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Task Sequences API
   slug: microsoft-endpoint-configuration-management-task-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-task-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-task-sequences-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-user-device-associations-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management User Device Associations API
   slug: microsoft-endpoint-configuration-management-user-device-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-user-device-associations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-user-device-associations-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-users-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Users API
   slug: microsoft-endpoint-configuration-management-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/openapi/microsoft-endpoint-configuration-management-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-users-api-openapi.yml
 consequence_counts:
   read: 46
   safety-critical: 2
@@ -186,7 +186,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/micros
   \  method: post\n  operationId: getDeviceNonComplianceReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deviceManagement/reports/getCompliancePolicyNonComplianceReport\n  method: post\n  operationId: getCompliancePolicyNonComplianceReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deviceManagement/reports/getComplianceSettingNonComplianceReport\n  method: post\n  operationId: getComplianceSettingNonComplianceReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deviceManagement/reports/getConfigurationPolicyNonComplianceReport\n  method: post\n  operationId: getConfigurationPolicyNonComplianceReport\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deviceManagement/reports/getHistoricalReport\n  method: post\n  operationId: getHistoricalReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deviceManagement/reports/getCachedReport\n  method: post\n  operationId: getCachedReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/Scripts\n  method: get\n  operationId: listScripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wmi/SMS_Site\n  method: get\n  operationId: listSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /wmi/SMS_SoftwareUpdate\n  method: get\n  operationId: listSoftwareUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wmi/SMS_TaskSequence\n  method: get\n  operationId: listTaskSequences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userDeviceAssociations\n  method: get\n  operationId: listUserDeviceAssociations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/agentic-access/microsoft-endpoint-configuration-management-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/agentic-access/microsoft-endpoint-configuration-management-agentic-access.yml
 summary_line: 71 operations · 25 acting · 2 human-in-the-loop
 tags:
 - Compliance

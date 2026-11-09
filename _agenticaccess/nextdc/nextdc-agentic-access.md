@@ -9,85 +9,85 @@ api_specs:
   label: NEXTDC Comments API
   slug: nextdc-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-comments-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-comments-api-openapi.yml
 - filename: nextdc-discount-api-openapi.yml
   format: yaml
   label: NEXTDC Discount API
   slug: nextdc-discount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-discount-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-discount-api-openapi.yml
 - filename: nextdc-discounts-api-openapi.yml
   format: yaml
   label: NEXTDC Discounts API
   slug: nextdc-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-discounts-api-openapi.yml
 - filename: nextdc-limitations-api-openapi.yml
   format: yaml
   label: NEXTDC Limitations API
   slug: nextdc-limitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-limitations-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-limitations-api-openapi.yml
 - filename: nextdc-locations-api-openapi.yml
   format: yaml
   label: NEXTDC Locations API
   slug: nextdc-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-locations-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-locations-api-openapi.yml
 - filename: nextdc-pricepoints-api-openapi.yml
   format: yaml
   label: NEXTDC Pricepoints API
   slug: nextdc-pricepoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-pricepoints-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-pricepoints-api-openapi.yml
 - filename: nextdc-quote-api-openapi.yml
   format: yaml
   label: NEXTDC Quote API
   slug: nextdc-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-quote-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-quote-api-openapi.yml
 - filename: nextdc-quotes-api-openapi.yml
   format: yaml
   label: NEXTDC Quotes API
   slug: nextdc-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-quotes-api-openapi.yml
 - filename: nextdc-resource-api-openapi.yml
   format: yaml
   label: NEXTDC Resource API
   slug: nextdc-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-resource-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-resource-api-openapi.yml
 - filename: nextdc-resources-api-openapi.yml
   format: yaml
   label: NEXTDC Resources API
   slug: nextdc-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-resources-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-resources-api-openapi.yml
 - filename: nextdc-service-api-openapi.yml
   format: yaml
   label: NEXTDC Service API
   slug: nextdc-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-service-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-service-api-openapi.yml
 - filename: nextdc-services-api-openapi.yml
   format: yaml
   label: NEXTDC Services API
   slug: nextdc-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-services-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-services-api-openapi.yml
 - filename: nextdc-task-api-openapi.yml
   format: yaml
   label: NEXTDC Task API
   slug: nextdc-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-task-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-task-api-openapi.yml
 - filename: nextdc-tasks-api-openapi.yml
   format: yaml
   label: NEXTDC Tasks API
   slug: nextdc-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/openapi/nextdc-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nextdc/openapi/nextdc-tasks-api-openapi.yml
 consequence_counts:
   read: 21
   write: 22
@@ -127,11 +127,11 @@ source_yaml: "generated: '2026-10-22'\nmethod: generated\nsource: openapi/nextdc
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/quote/{quote_guid}/render\n  method: get\n  operationId: bizApiQuotesQuoteRender\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/quote/{quote_guid}/pricepoints\n  method: get\n  operationId: bizApiQuotesQuotePricepoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/quote\n  method: post\n  operationId: bizApiQuotesCreateQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/quote/{quote_guid}/ITEMADD\n  method: post\n  operationId: bizApiQuotesQuoteItemAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/quote/{quote_guid}/item/{quote_item_guid}\n  method: put\n  operationId: bizApiQuotesQuoteItemUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/quote/{quote_guid}/{quote_item_guid}/ITEMREMOVE\n  method: delete\n  operationId: bizApiQuotesQuoteItemRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/quote/{quote_guid}/DUPLICATE\n  method: post\n  operationId: bizApiQuotesDuplicateQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/quote/{quote_guid}/SUBMIT\n  method: put\n  operationId: bizApiQuotesSubmitQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextdc/refs/heads/main/agentic-access/nextdc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nextdc/agentic-access/nextdc-agentic-access.yml
 summary_line: 43 operations · 22 acting
 tags:
 - Company
-- Data Centers
+- Data Center
 - Colocation
 - Cloud Infrastructure
 - Connectivity

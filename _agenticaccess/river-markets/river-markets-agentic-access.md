@@ -9,79 +9,79 @@ api_specs:
   label: River Markets Balance API
   slug: river-markets-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-balance-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-balance-api-openapi.yml
 - filename: river-markets-complex-orders-api-openapi.yml
   format: yaml
   label: River Markets Complex Orders API
   slug: river-markets-complex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-complex-orders-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-complex-orders-api-openapi.yml
 - filename: river-markets-fair-values-api-openapi.yml
   format: yaml
   label: River Markets Fair Values API
   slug: river-markets-fair-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-fair-values-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-fair-values-api-openapi.yml
 - filename: river-markets-fills-api-openapi.yml
   format: yaml
   label: River Markets Fills API
   slug: river-markets-fills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-fills-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-fills-api-openapi.yml
 - filename: river-markets-generic-assets-api-openapi.yml
   format: yaml
   label: River Markets Generic Assets API
   slug: river-markets-generic-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-generic-assets-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-generic-assets-api-openapi.yml
 - filename: river-markets-markets-api-openapi.yml
   format: yaml
   label: River Markets API
   slug: river-markets-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-markets-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-markets-api-openapi.yml
 - filename: river-markets-orders-api-openapi.yml
   format: yaml
   label: River Markets Orders API
   slug: river-markets-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-orders-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-orders-api-openapi.yml
 - filename: river-markets-positions-api-openapi.yml
   format: yaml
   label: River Markets Positions API
   slug: river-markets-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-positions-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-positions-api-openapi.yml
 - filename: river-markets-prices-api-openapi.yml
   format: yaml
   label: River Markets Prices API
   slug: river-markets-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-prices-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-prices-api-openapi.yml
 - filename: river-markets-subaccounts-api-openapi.yml
   format: yaml
   label: River Markets Subaccounts API
   slug: river-markets-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-subaccounts-api-openapi.yml
 - filename: river-markets-tradeprints-api-openapi.yml
   format: yaml
   label: River Markets Tradeprints API
   slug: river-markets-tradeprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-tradeprints-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-tradeprints-api-openapi.yml
 - filename: river-markets-watchlists-api-openapi.yml
   format: yaml
   label: River Markets Watchlists API
   slug: river-markets-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-watchlists-api-openapi.yml
 - filename: river-markets-order-books-api-openapi.yml
   format: yaml
   label: River Markets Order Books API
   slug: river-markets-order-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/openapi/river-markets-order-books-api-openapi.yml
+  url: https://artifacts.apis.io/river-markets/openapi/river-markets-order-books-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 24
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/river-
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watchlists/{watchlist_id}\n  method: get\n  operationId: get_watchlist_v1_watchlists__watchlist_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/watchlists/{watchlist_id}\n  method: patch\n  operationId: update_watchlist_v1_watchlists__watchlist_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watchlists/{watchlist_id}\n  method: delete\n  operationId: delete_watchlist_v1_watchlists__watchlist_id__delete\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watchlists/{watchlist_id}/members\n  method: post\n  operationId: add_watchlist_members_v1_watchlists__watchlist_id__members_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watchlists/{watchlist_id}/members\n  method: delete\n  operationId: remove_watchlist_members_v1_watchlists__watchlist_id__members_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watchlists/{watchlist_id}/members/order\n  method: put\n  operationId: reorder_watchlist_members_v1_watchlists__watchlist_id__members_order_put\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/agentic-access/river-markets-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/river-markets/agentic-access/river-markets-agentic-access.yml
 summary_line: 48 operations · 24 acting
 tags:
 - Company

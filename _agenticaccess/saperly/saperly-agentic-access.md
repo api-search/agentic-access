@@ -9,97 +9,97 @@ api_specs:
   label: Saperly API Token Registry API
   slug: saperly-api-token-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-api-token-registry-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-api-token-registry-api-openapi.yml
 - filename: saperly-assistant-api-openapi.yml
   format: yaml
   label: Saperly Assistant API
   slug: saperly-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-assistant-api-openapi.yml
 - filename: saperly-connections-api-openapi.yml
   format: yaml
   label: Saperly Connections API
   slug: saperly-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-connections-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-connections-api-openapi.yml
 - filename: saperly-consent-api-openapi.yml
   format: yaml
   label: Saperly Consent API
   slug: saperly-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-consent-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-consent-api-openapi.yml
 - filename: saperly-customvoices-api-openapi.yml
   format: yaml
   label: Saperly Custom Voices API
   slug: saperly-customvoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-customvoices-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-customvoices-api-openapi.yml
 - filename: saperly-health-api-openapi.yml
   format: yaml
   label: Saperly Health API
   slug: saperly-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-health-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-health-api-openapi.yml
 - filename: saperly-keys-api-openapi.yml
   format: yaml
   label: Saperly Keys API
   slug: saperly-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-keys-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-keys-api-openapi.yml
 - filename: saperly-languages-api-openapi.yml
   format: yaml
   label: Saperly Languages API
   slug: saperly-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-languages-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-languages-api-openapi.yml
 - filename: saperly-messaging-api-openapi.yml
   format: yaml
   label: Saperly Messaging API
   slug: saperly-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-messaging-api-openapi.yml
 - filename: saperly-numbers-api-openapi.yml
   format: yaml
   label: Saperly Numbers API
   slug: saperly-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-numbers-api-openapi.yml
 - filename: saperly-pricing-api-openapi.yml
   format: yaml
   label: Saperly Pricing API
   slug: saperly-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-pricing-api-openapi.yml
 - filename: saperly-usage-api-openapi.yml
   format: yaml
   label: Saperly Usage API
   slug: saperly-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-usage-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-usage-api-openapi.yml
 - filename: saperly-voice-api-openapi.yml
   format: yaml
   label: Saperly Voice API
   slug: saperly-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-voice-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-voice-api-openapi.yml
 - filename: saperly-voices-api-openapi.yml
   format: yaml
   label: Saperly Voices API
   slug: saperly-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-voices-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-voices-api-openapi.yml
 - filename: saperly-workspace-api-openapi.yml
   format: yaml
   label: Saperly Workspace API
   slug: saperly-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-workspace-api-openapi.yml
 - filename: saperly-workspace-invitations-api-openapi.yml
   format: yaml
   label: Saperly Workspace Invitations API
   slug: saperly-workspace-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/openapi/saperly-workspace-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/saperly/openapi/saperly-workspace-invitations-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 24
@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/saperl
   \      - abnormal\n      - high-value\n    audit: required\n- path: /languages\n  method: get\n  operationId: languages.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: usage.summary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consent\n  method: get\n  operationId: consent.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consent\n  method: post\n  operationId: consent.record\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /consent/revoke\n  method: post\n  operationId: consent.revoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /consent/check\n  method: get\n  operationId: consent.check\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing/quote\n  method: get\n  operationId: pricing.quote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-tokens\n  method: get\n  operationId: keys.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /api-tokens\n  method: post\n  operationId: keys.mint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-tokens/{id}/revoke\n  method: post\n  operationId: keys.revoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saperly/refs/heads/main/agentic-access/saperly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/saperly/agentic-access/saperly-agentic-access.yml
 summary_line: 48 operations · 24 acting · 3 human-in-the-loop
 tags:
 - Telephony

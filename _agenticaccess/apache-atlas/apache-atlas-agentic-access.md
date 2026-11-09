@@ -9,37 +9,37 @@ api_specs:
   label: Apache Atlas Discovery API
   slug: apache-atlas-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/apache-atlas/openapi/apache-atlas-discovery-api-openapi.yml
 - filename: apache-atlas-entities-api-openapi.yml
   format: yaml
   label: Apache Atlas Entities API
   slug: apache-atlas-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-entities-api-openapi.yml
+  url: https://artifacts.apis.io/apache-atlas/openapi/apache-atlas-entities-api-openapi.yml
 - filename: apache-atlas-glossary-api-openapi.yml
   format: yaml
   label: Apache Atlas Glossary API
   slug: apache-atlas-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/apache-atlas/openapi/apache-atlas-glossary-api-openapi.yml
 - filename: apache-atlas-lineage-api-openapi.yml
   format: yaml
   label: Apache Atlas Lineage API
   slug: apache-atlas-lineage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-lineage-api-openapi.yml
+  url: https://artifacts.apis.io/apache-atlas/openapi/apache-atlas-lineage-api-openapi.yml
 - filename: apache-atlas-relationships-api-openapi.yml
   format: yaml
   label: Apache Atlas Relationships API
   slug: apache-atlas-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/apache-atlas/openapi/apache-atlas-relationships-api-openapi.yml
 - filename: apache-atlas-types-api-openapi.yml
   format: yaml
   label: Apache Atlas Types API
   slug: apache-atlas-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-types-api-openapi.yml
+  url: https://artifacts.apis.io/apache-atlas/openapi/apache-atlas-types-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/types/typedefs\n  method: post\n  operationId: createTypeDefs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/search/basic\n  method: get\n  operationId: basicSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search/fulltext\n  method: get\n  operationId: fullTextSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/lineage/{guid}\n  method: get\n  operationId: getLineageByGuid\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/glossary\n  method: get\n  operationId: listGlossaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/glossary\n  method: post\n  operationId: createGlossary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/relationship\n  method: post\n  operationId: createRelationship\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/agentic-access/apache-atlas-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-atlas/agentic-access/apache-atlas-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Apache

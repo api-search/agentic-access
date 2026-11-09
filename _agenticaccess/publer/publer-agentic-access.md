@@ -9,49 +9,49 @@ api_specs:
   label: Publer Accounts API
   slug: publer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-accounts-api-openapi.yml
 - filename: publer-analytics-api-openapi.yml
   format: yaml
   label: Publer Analytics API
   slug: publer-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-analytics-api-openapi.yml
 - filename: publer-competitors-api-openapi.yml
   format: yaml
   label: Publer Competitors API
   slug: publer-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-competitors-api-openapi.yml
 - filename: publer-jobs-api-openapi.yml
   format: yaml
   label: Publer Jobs API
   slug: publer-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-jobs-api-openapi.yml
 - filename: publer-media-api-openapi.yml
   format: yaml
   label: Publer Media API
   slug: publer-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-media-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-media-api-openapi.yml
 - filename: publer-posts-api-openapi.yml
   format: yaml
   label: Publer Posts API
   slug: publer-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-posts-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-posts-api-openapi.yml
 - filename: publer-users-api-openapi.yml
   format: yaml
   label: Publer Users API
   slug: publer-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-users-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-users-api-openapi.yml
 - filename: publer-workspaces-api-openapi.yml
   format: yaml
   label: Publer Workspaces API
   slug: publer-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-workspaces-api-openapi.yml
 consequence_counts:
   read: 15
   write: 6
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/publer
   \ post\n  operationId: uploadMediaFromURL\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /posts\n  method: get\n  operationId: listPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /posts\n  method: delete\n  operationId: deleteMultiplePosts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /posts/schedule\n  method: post\n  operationId: schedulePosts\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /posts/schedule/publish\n  method: post\n  operationId: createPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /posts/{id}\n  method: put\n  operationId: updatePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/agentic-access/publer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/publer/agentic-access/publer-agentic-access.yml
 summary_line: 21 operations · 6 acting
 tags:
 - Social Media

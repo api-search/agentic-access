@@ -9,43 +9,43 @@ api_specs:
   label: Chaos Mesh Archives API
   slug: chaos-mesh-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/openapi/chaos-mesh-archives-api-openapi.yml
+  url: https://artifacts.apis.io/chaos-mesh/openapi/chaos-mesh-archives-api-openapi.yml
 - filename: chaos-mesh-common-api-openapi.yml
   format: yaml
   label: Chaos Mesh Common API
   slug: chaos-mesh-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/openapi/chaos-mesh-common-api-openapi.yml
+  url: https://artifacts.apis.io/chaos-mesh/openapi/chaos-mesh-common-api-openapi.yml
 - filename: chaos-mesh-events-api-openapi.yml
   format: yaml
   label: Chaos Mesh Events API
   slug: chaos-mesh-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/openapi/chaos-mesh-events-api-openapi.yml
+  url: https://artifacts.apis.io/chaos-mesh/openapi/chaos-mesh-events-api-openapi.yml
 - filename: chaos-mesh-experiments-api-openapi.yml
   format: yaml
   label: Chaos Mesh Experiments API
   slug: chaos-mesh-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/openapi/chaos-mesh-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/chaos-mesh/openapi/chaos-mesh-experiments-api-openapi.yml
 - filename: chaos-mesh-schedules-api-openapi.yml
   format: yaml
   label: Chaos Mesh Schedules API
   slug: chaos-mesh-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/openapi/chaos-mesh-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/chaos-mesh/openapi/chaos-mesh-schedules-api-openapi.yml
 - filename: chaos-mesh-templates-api-openapi.yml
   format: yaml
   label: Chaos Mesh Templates API
   slug: chaos-mesh-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/openapi/chaos-mesh-templates-api-openapi.yml
+  url: https://artifacts.apis.io/chaos-mesh/openapi/chaos-mesh-templates-api-openapi.yml
 - filename: chaos-mesh-workflows-api-openapi.yml
   format: yaml
   label: Chaos Mesh Workflows API
   slug: chaos-mesh-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/openapi/chaos-mesh-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/chaos-mesh/openapi/chaos-mesh-workflows-api-openapi.yml
 consequence_counts:
   read: 38
   write: 37
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/chaos-
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/render-task/http\n  method: post\n  operationId: renderWorkflowHttpTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/validate-task/http\n  method: post\n  operationId: validateWorkflowHttpTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workflows\n  method:\
   \ get\n  operationId: listWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workflows\n  method: post\n  operationId: createWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workflows/{uid}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workflows/{uid}\n  method: put\n  operationId: updateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workflows/{uid}\n  method: delete\n  operationId: deleteWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/agentic-access/chaos-mesh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chaos-mesh/agentic-access/chaos-mesh-agentic-access.yml
 summary_line: 75 operations · 37 acting
 tags:
 - Chaos Engineering

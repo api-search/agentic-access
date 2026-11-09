@@ -8,31 +8,31 @@ api_specs:
   label: The Trade Desk Advertiser API
   slug: trade-desk-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-advertiser-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-advertiser-api-openapi.yml
 - filename: trade-desk-deletionoptout-api-openapi.yml
   format: yaml
   label: The Trade Desk DeletionOptOut API
   slug: trade-desk-deletionoptout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-deletionoptout-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-deletionoptout-api-openapi.yml
 - filename: trade-desk-offlineconversion-api-openapi.yml
   format: yaml
   label: The Trade Desk OfflineConversion API
   slug: trade-desk-offlineconversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-offlineconversion-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-offlineconversion-api-openapi.yml
 - filename: trade-desk-ip-address-api-openapi.yml
   format: yaml
   label: The Trade Desk IP Address API
   slug: trade-desk-ip-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-ip-address-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-ip-address-api-openapi.yml
 - filename: trade-desk-third-party-api-openapi.yml
   format: yaml
   label: The Trade Desk Third Party API
   slug: trade-desk-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-third-party-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-third-party-api-openapi.yml
 consequence_counts:
   physical: 3
   write: 5
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/trade-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/deletion-optout/advertiser\n  method: post\n  operationId: DataSubjectRequestAdvertiserData\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/deletion-optout/merchant\n  method: post\n  operationId: DataSubjectRequestMerchantData\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/deletion-optout/thirdparty\n\
   \  method: post\n  operationId: DataSubjectRequestThirdPartyData\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/firstpartyipaddress\n  method: post\n  operationId: IngestFirstPartyIPAddressData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/thirdpartyipaddress\n  method: post\n  operationId: IngestThirdPartyIPAddressData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /providerapi/offlineconversion\n  method: post\n  operationId: IngestOfflineConversionData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/thirdparty\n  method: post\n  operationId: IngestThirdPartyData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/agentic-access/trade-desk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trade-desk/agentic-access/trade-desk-agentic-access.yml
 summary_line: 8 operations · 8 acting
 tags:
 - Advertising

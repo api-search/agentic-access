@@ -9,49 +9,49 @@ api_specs:
   label: Zubale API Documentation for External Notification Handler API
   slug: zubale-api-documentation-for-external-notification-handler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml
 - filename: zubale-cancel-tasks-api-openapi.yml
   format: yaml
   label: Zubale Cancel tasks API
   slug: zubale-cancel-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-cancel-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-cancel-tasks-api-openapi.yml
 - filename: zubale-delivery-api-api-openapi.yml
   format: yaml
   label: Zubale Delivery API
   slug: zubale-delivery-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-delivery-api-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-delivery-api-api-openapi.yml
 - filename: zubale-external-outbound-api-openapi.yml
   format: yaml
   label: Zubale External outbound API
   slug: zubale-external-outbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-external-outbound-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-external-outbound-api-openapi.yml
 - filename: zubale-live-tracking-for-cencosud-api-openapi.yml
   format: yaml
   label: Zubale Live Tracking For Cencosud API
   slug: zubale-live-tracking-for-cencosud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-live-tracking-for-cencosud-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-live-tracking-for-cencosud-api-openapi.yml
 - filename: zubale-picking-delivery-api-api-openapi.yml
   format: yaml
   label: Zubale Picking & Delivery API
   slug: zubale-picking-delivery-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-picking-delivery-api-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-picking-delivery-api-api-openapi.yml
 - filename: zubale-product-catalog-api-openapi.yml
   format: yaml
   label: Zubale Product catalog API
   slug: zubale-product-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-product-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-product-catalog-api-openapi.yml
 - filename: zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
   format: yaml
   label: 'Zubale Webhook: Payload Structure for Order Notification API'
   slug: zubale-webhook-payload-structure-for-order-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 2
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/zubale
   \    audit: required\n- path: /product-catalog/api/v1/catalog/{brand_id}\n  method: put\n  operationId: updateCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /product-catalog/api/v1/brands/{brand_id}/products\n  method: post\n  operationId: createProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /product-catalog/api/v1/brands/{brand_id}/products\n  method: get\n  operationId: getProductS\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /product-catalog/api/v1/products\n  method: put\n  operationId: updateProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hermes/integrations/{iINTEGRATION_NAME}/conversations/messages\n  method: post\n  operationId: multipleProductCampaignCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook\n  method: post\n  operationId: webhookConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external-notification-handler/api/v1/events\n  method: post\n  operationId: sendEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/agentic-access/zubale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zubale/agentic-access/zubale-agentic-access.yml
 summary_line: 21 operations · 19 acting
 tags:
 - Company

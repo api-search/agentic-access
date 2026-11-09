@@ -9,25 +9,25 @@ api_specs:
   label: Warner Music Group Artists API
   slug: warner-music-group-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-artists-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-artists-api-openapi.yml
 - filename: warner-music-group-catalog-api-openapi.yml
   format: yaml
   label: Warner Music Group Catalog API
   slug: warner-music-group-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-catalog-api-openapi.yml
 - filename: warner-music-group-licenses-api-openapi.yml
   format: yaml
   label: Warner Music Group Licenses API
   slug: warner-music-group-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-licenses-api-openapi.yml
 - filename: warner-music-group-tracks-api-openapi.yml
   format: yaml
   label: Warner Music Group Tracks API
   slug: warner-music-group-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-tracks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/warner-music-group-licensing-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 5\n    acting: 1\n  by_consequence:\n    read: 5\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/catalog/search\n  method: get\n  operationId: searchCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - catalog:read\n- path: /v1/tracks/{isrc}\n  method: get\n  operationId: getTrack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n    scope:\n    - catalog:read\n- path: /v1/artists/{artistId}\n  method: get\n  operationId: getArtist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - catalog:read\n- path: /v1/licenses\n  method: get\n  operationId: listLicenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - catalog:read\n- path: /v1/licenses\n  method: post\n  operationId: requestLicense\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog:read\n- path: /v1/licenses/{licenseId}\n  method: get\n  operationId: getLicense\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - catalog:read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/agentic-access/warner-music-group-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/warner-music-group/agentic-access/warner-music-group-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
 - Music

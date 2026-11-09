@@ -9,31 +9,31 @@ api_specs:
   label: Luxury Presence Agents API
   slug: luxury-presence-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-agents-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-agents-api-openapi.yml
 - filename: luxury-presence-media-api-openapi.yml
   format: yaml
   label: Luxury Presence Media API
   slug: luxury-presence-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-media-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-media-api-openapi.yml
 - filename: luxury-presence-offices-api-openapi.yml
   format: yaml
   label: Luxury Presence Offices API
   slug: luxury-presence-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-offices-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-offices-api-openapi.yml
 - filename: luxury-presence-teams-api-openapi.yml
   format: yaml
   label: Luxury Presence Teams API
   slug: luxury-presence-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-teams-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-teams-api-openapi.yml
 - filename: luxury-presence-webhooks-api-openapi.yml
   format: yaml
   label: Luxury Presence Webhooks API
   slug: luxury-presence-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 24
@@ -196,7 +196,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/luxury
   - path: /crm/v1/webhooks\n  method: post\n  operationId: WebhookController_createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /crm/v1/webhooks\n  method: get\n  operationId: WebhookController_listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/v1/webhooks/{id}\n  method: get\n  operationId: WebhookController_getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/v1/webhooks/{id}\n  method: patch\n  operationId: WebhookController_updateWebhook\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /crm/v1/webhooks/{id}\n  method: delete\n  operationId: WebhookController_deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /crm/v1/webhooks/webhook-example\n  method: post\n  operationId: WebhookController_exampleWebhookPayload\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/agentic-access/luxury-presence-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/luxury-presence/agentic-access/luxury-presence-agentic-access.yml
 summary_line: 35 operations · 24 acting · 24 human-in-the-loop
 tags:
 - Company

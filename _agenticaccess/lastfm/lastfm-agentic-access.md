@@ -9,55 +9,55 @@ api_specs:
   label: Last.fm Album API
   slug: lastfm-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-album-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-album-api-openapi.yml
 - filename: lastfm-artist-api-openapi.yml
   format: yaml
   label: Last.fm Artist API
   slug: lastfm-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-artist-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-artist-api-openapi.yml
 - filename: lastfm-auth-api-openapi.yml
   format: yaml
   label: Last.fm Auth API
   slug: lastfm-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-auth-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-auth-api-openapi.yml
 - filename: lastfm-chart-api-openapi.yml
   format: yaml
   label: Last.fm Chart API
   slug: lastfm-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-chart-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-chart-api-openapi.yml
 - filename: lastfm-geo-api-openapi.yml
   format: yaml
   label: Last.fm Geo API
   slug: lastfm-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-geo-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-geo-api-openapi.yml
 - filename: lastfm-library-api-openapi.yml
   format: yaml
   label: Last.fm Library API
   slug: lastfm-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-library-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-library-api-openapi.yml
 - filename: lastfm-tag-api-openapi.yml
   format: yaml
   label: Last.fm Tag API
   slug: lastfm-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-tag-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-tag-api-openapi.yml
 - filename: lastfm-track-api-openapi.yml
   format: yaml
   label: Last.fm Track API
   slug: lastfm-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-track-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-track-api-openapi.yml
 - filename: lastfm-user-api-openapi.yml
   format: yaml
   label: Last.fm User API
   slug: lastfm-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-user-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-user-api-openapi.yml
 consequence_counts:
   read: 47
   write: 12
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lastfm
   \ userGetLovedTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?method=user.getPersonalTags\n  method: get\n  operationId: userGetPersonalTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?method=user.getRecentTracks\n  method: get\n  operationId: userGetRecentTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?method=user.getTopAlbums\n  method: get\n  operationId: userGetTopAlbums\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?method=user.getTopArtists\n  method: get\n  operationId: userGetTopArtists\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?method=user.getTopTags\n  method: get\n  operationId: userGetTopTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?method=user.getTopTracks\n  method: get\n  operationId: userGetTopTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?method=user.getWeeklyAlbumChart\n  method: get\n  operationId: userGetWeeklyAlbumChart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?method=user.getWeeklyArtistChart\n  method: get\n  operationId: userGetWeeklyArtistChart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /?method=user.getWeeklyChartList\n  method: get\n  operationId: userGetWeeklyChartList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?method=user.getWeeklyTrackChart\n  method: get\n  operationId: userGetWeeklyTrackChart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/agentic-access/lastfm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lastfm/agentic-access/lastfm-agentic-access.yml
 summary_line: 59 operations · 12 acting
 tags:
 - Music

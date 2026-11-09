@@ -9,163 +9,163 @@ api_specs:
   label: SafetyCulture Actions API
   slug: safetyculture-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-actions-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-actions-api-openapi.yml
 - filename: safetyculture-apps-api-openapi.yml
   format: yaml
   label: SafetyCulture Apps API
   slug: safetyculture-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-apps-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-apps-api-openapi.yml
 - filename: safetyculture-assets-api-openapi.yml
   format: yaml
   label: SafetyCulture Assets API
   slug: safetyculture-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-assets-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-assets-api-openapi.yml
 - filename: safetyculture-bulk-user-operations-api-openapi.yml
   format: yaml
   label: SafetyCulture Bulk user operations API
   slug: safetyculture-bulk-user-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-bulk-user-operations-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-bulk-user-operations-api-openapi.yml
 - filename: safetyculture-companies-api-openapi.yml
   format: yaml
   label: SafetyCulture Companies API
   slug: safetyculture-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-companies-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-companies-api-openapi.yml
 - filename: safetyculture-credentials-api-openapi.yml
   format: yaml
   label: SafetyCulture Credentials API
   slug: safetyculture-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-credentials-api-openapi.yml
 - filename: safetyculture-data-feeds-api-openapi.yml
   format: yaml
   label: SafetyCulture Data Feeds API
   slug: safetyculture-data-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-data-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-data-feeds-api-openapi.yml
 - filename: safetyculture-directory-sites-api-openapi.yml
   format: yaml
   label: SafetyCulture Directory (Sites) API
   slug: safetyculture-directory-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-directory-sites-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-directory-sites-api-openapi.yml
 - filename: safetyculture-documents-api-openapi.yml
   format: yaml
   label: SafetyCulture Documents API
   slug: safetyculture-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-documents-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-documents-api-openapi.yml
 - filename: safetyculture-groups-api-openapi.yml
   format: yaml
   label: SafetyCulture Groups API
   slug: safetyculture-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-groups-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-groups-api-openapi.yml
 - filename: safetyculture-heads-up-api-openapi.yml
   format: yaml
   label: SafetyCulture Heads Up API
   slug: safetyculture-heads-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-heads-up-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-heads-up-api-openapi.yml
 - filename: safetyculture-inspections-api-openapi.yml
   format: yaml
   label: SafetyCulture Inspections API
   slug: safetyculture-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-inspections-api-openapi.yml
 - filename: safetyculture-investigations-api-openapi.yml
   format: yaml
   label: SafetyCulture Investigations API
   slug: safetyculture-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-investigations-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-investigations-api-openapi.yml
 - filename: safetyculture-issues-api-openapi.yml
   format: yaml
   label: SafetyCulture Issues API
   slug: safetyculture-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-issues-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-issues-api-openapi.yml
 - filename: safetyculture-lone-worker-api-openapi.yml
   format: yaml
   label: SafetyCulture Lone Worker API
   slug: safetyculture-lone-worker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-lone-worker-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-lone-worker-api-openapi.yml
 - filename: safetyculture-media-api-openapi.yml
   format: yaml
   label: SafetyCulture Media API
   slug: safetyculture-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-media-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-media-api-openapi.yml
 - filename: safetyculture-osha-api-openapi.yml
   format: yaml
   label: SafetyCulture OSHA API
   slug: safetyculture-osha-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-osha-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-osha-api-openapi.yml
 - filename: safetyculture-response-sets-api-openapi.yml
   format: yaml
   label: SafetyCulture Response Sets API
   slug: safetyculture-response-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-response-sets-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-response-sets-api-openapi.yml
 - filename: safetyculture-roles-api-openapi.yml
   format: yaml
   label: SafetyCulture Roles API
   slug: safetyculture-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-roles-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-roles-api-openapi.yml
 - filename: safetyculture-schedules-api-openapi.yml
   format: yaml
   label: SafetyCulture Schedules API
   slug: safetyculture-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-schedules-api-openapi.yml
 - filename: safetyculture-schedules-legacy-api-openapi.yml
   format: yaml
   label: SafetyCulture Schedules (legacy) API
   slug: safetyculture-schedules-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-schedules-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-schedules-legacy-api-openapi.yml
 - filename: safetyculture-sensors-api-openapi.yml
   format: yaml
   label: SafetyCulture Sensors API
   slug: safetyculture-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-sensors-api-openapi.yml
 - filename: safetyculture-structures-api-openapi.yml
   format: yaml
   label: SafetyCulture Structures API
   slug: safetyculture-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-structures-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-structures-api-openapi.yml
 - filename: safetyculture-templates-api-openapi.yml
   format: yaml
   label: SafetyCulture Templates API
   slug: safetyculture-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-templates-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-templates-api-openapi.yml
 - filename: safetyculture-training-api-openapi.yml
   format: yaml
   label: SafetyCulture Training API
   slug: safetyculture-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-training-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-training-api-openapi.yml
 - filename: safetyculture-users-api-openapi.yml
   format: yaml
   label: SafetyCulture Users API
   slug: safetyculture-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-users-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-users-api-openapi.yml
 - filename: safetyculture-webhooks-api-openapi.yml
   format: yaml
   label: SafetyCulture Webhooks API
   slug: safetyculture-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/openapi/safetyculture-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/safetyculture/openapi/safetyculture-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 197
@@ -279,8 +279,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/safety
   \ post\n  operationId: UserDocumentsService_GetDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credentials/v1/feed/credential-types\n  method: get\n  operationId: FeedService_CredentialTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentials/v1/feed/credentials\n  method: get\n  operationId: FeedService_Credentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentials/v1/settings\n  method: get\n  operationId: UserDocumentsService_GetSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentials/v1/settings\n  method: put\n  operationId: UserDocumentsService_UpdateSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /directory/v1/folder\n  method: post\n  operationId: Directory_CreateFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /directory/v1/folder/{id}\n  method: get\n  operationId: Directory_GetFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /directory/v1/folder/{id}\n  method: patch\n  operationId: Directory_UpdateFolderProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /directory/v1/folder/{id}/users\n  method: get\n  operationId: Directory_GetAllUsersByFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /directory/v1/folder/{id}/users\n  method: delete\n  operationId: Directory_RemoveUsersAssociation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /directory/v1/folder/{id}/users/associated\n  method: get\n  operationId: Directory_GetUsersByFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /directory/v1/folder/{id}/users/inherited\n  method: get\n  operationId: Directory_GetInheritedUsersByFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /directory/v1/folders\n  method: get\n  operationId: Directory_GetFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (129 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/agentic-access/safetyculture-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/agentic-access/safetyculture-agentic-access.yml
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /directory/v1/folder/{id}/users/associated\n  method: get\n  operationId: Directory_GetUsersByFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /directory/v1/folder/{id}/users/inherited\n  method: get\n  operationId: Directory_GetInheritedUsersByFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /directory/v1/folders\n  method: get\n  operationId: Directory_GetFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (129 KB total) ---\n# Full source: https://artifacts.apis.io/safetyculture/agentic-access/safetyculture-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/safetyculture/agentic-access/safetyculture-agentic-access.yml
 summary_line: 416 operations · 219 acting · 4 human-in-the-loop
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Instamojo Authentication API
   slug: instamojo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/instamojo/openapi/instamojo-authentication-api-openapi.yml
 - filename: instamojo-orders-api-openapi.yml
   format: yaml
   label: Instamojo Orders API
   slug: instamojo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/instamojo/openapi/instamojo-orders-api-openapi.yml
 - filename: instamojo-payment-requests-api-openapi.yml
   format: yaml
   label: Instamojo Payment Requests API
   slug: instamojo-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/instamojo/openapi/instamojo-payment-requests-api-openapi.yml
 - filename: instamojo-payments-api-openapi.yml
   format: yaml
   label: Instamojo Payments API
   slug: instamojo-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-payments-api-openapi.yml
+  url: https://artifacts.apis.io/instamojo/openapi/instamojo-payments-api-openapi.yml
 - filename: instamojo-refunds-api-openapi.yml
   format: yaml
   label: Instamojo Refunds API
   slug: instamojo-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/openapi/instamojo-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/instamojo/openapi/instamojo-refunds-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/instam
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_requests/\n  method: post\n  operationId: createPaymentRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment_requests/{id}/\n  method: get\n  operationId: getPaymentRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_requests/{id}/{payment_id}/\n  method: get\n  operationId: getPaymentForRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /payments/{payment_id}/\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refunds/\n  method: get\n  operationId: listRefunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refunds/\n  method: post\n  operationId: createRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refunds/{id}/\n  method: get\n  operationId: getRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/agentic-access/instamojo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instamojo/agentic-access/instamojo-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Payments

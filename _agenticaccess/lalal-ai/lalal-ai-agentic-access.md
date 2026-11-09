@@ -9,25 +9,25 @@ api_specs:
   label: LALAL.AI Batch Stem Separation API
   slug: lalal-ai-batch-stem-separation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-batch-stem-separation-api-openapi.yml
+  url: https://artifacts.apis.io/lalal-ai/openapi/lalal-ai-batch-stem-separation-api-openapi.yml
 - filename: lalal-ai-common-api-openapi.yml
   format: yaml
   label: LALAL.AI Common API
   slug: lalal-ai-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-common-api-openapi.yml
+  url: https://artifacts.apis.io/lalal-ai/openapi/lalal-ai-common-api-openapi.yml
 - filename: lalal-ai-stem-separation-api-openapi.yml
   format: yaml
   label: LALAL.AI Stem Separation API
   slug: lalal-ai-stem-separation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-stem-separation-api-openapi.yml
+  url: https://artifacts.apis.io/lalal-ai/openapi/lalal-ai-stem-separation-api-openapi.yml
 - filename: lalal-ai-voice-change-api-openapi.yml
   format: yaml
   label: LALAL.AI Voice Change API
   slug: lalal-ai-voice-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/openapi/lalal-ai-voice-change-api-openapi.yml
+  url: https://artifacts.apis.io/lalal-ai/openapi/lalal-ai-voice-change-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 2
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lalal-
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/split/demuser/\n  method: post\n  operationId: split_split_demuser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/split/voice_clean/\n  method: post\n  operationId: split_split_voice_clean\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v1/split/multistem/\n  method: post\n  operationId: split_split_multistem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/change_voice/\n  method: post\n  operationId: change_voice_change_voice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/voice_packs/list/\n  method: post\n  operationId: voice_packs_list_packs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/agentic-access/lalal-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lalal-ai/agentic-access/lalal-ai-agentic-access.yml
 summary_line: 15 operations · 14 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

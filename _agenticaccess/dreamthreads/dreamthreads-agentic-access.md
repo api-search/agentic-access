@@ -9,13 +9,13 @@ api_specs:
   label: DreamThreads Dream interpretation API
   slug: dreamthreads-dream-interpretation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamthreads/refs/heads/main/openapi/dreamthreads-dream-interpretation-api-openapi.yml
+  url: https://artifacts.apis.io/dreamthreads/openapi/dreamthreads-dream-interpretation-api-openapi.yml
 - filename: dreamthreads-dream-parsing-api-openapi.yml
   format: yaml
   label: DreamThreads Dream parsing API
   slug: dreamthreads-dream-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamthreads/refs/heads/main/openapi/dreamthreads-dream-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/dreamthreads/openapi/dreamthreads-dream-parsing-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/dreamthreads-dreamgraph-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 1\n    acting: 3\n  by_consequence:\n    read: 1\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /health\n  method: get\n  operationId: getDreamGraphHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/parse\n  method: post\n  operationId: parseDreamPublicly\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /interpret\n  method: post\n  operationId: interpretDream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parse\n  method: post\n  operationId: parseDream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dreamthreads/refs/heads/main/agentic-access/dreamthreads-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dreamthreads/agentic-access/dreamthreads-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
 - dream analysis

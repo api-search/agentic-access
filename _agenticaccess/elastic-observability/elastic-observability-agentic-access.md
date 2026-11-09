@@ -9,25 +9,25 @@ api_specs:
   label: Elastic Observability Server Info API
   slug: elastic-observability-server-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-server-info-api-openapi.yml
+  url: https://artifacts.apis.io/elastic-observability/openapi/elastic-observability-server-info-api-openapi.yml
 - filename: elastic-observability-agent-config-api-openapi.yml
   format: yaml
   label: Elastic Observability agent config API
   slug: elastic-observability-agent-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-agent-config-api-openapi.yml
+  url: https://artifacts.apis.io/elastic-observability/openapi/elastic-observability-agent-config-api-openapi.yml
 - filename: elastic-observability-event-intake-api-openapi.yml
   format: yaml
   label: Elastic Observability event intake API
   slug: elastic-observability-event-intake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-event-intake-api-openapi.yml
+  url: https://artifacts.apis.io/elastic-observability/openapi/elastic-observability-event-intake-api-openapi.yml
 - filename: elastic-observability-opentelemetry-intake-api-openapi.yml
   format: yaml
   label: Elastic Observability opentelemetry intake API
   slug: elastic-observability-opentelemetry-intake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/openapi/elastic-observability-opentelemetry-intake-api-openapi.yml
+  url: https://artifacts.apis.io/elastic-observability/openapi/elastic-observability-opentelemetry-intake-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 5
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/elasti
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opentelemetry.proto.collector.trace.v1.TraceService/Export\n  method: post\n  operationId: postOtlpGrpcTraces\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opentelemetry.proto.collector.logs.v1.LogsService/Export\n  method: post\n  operationId: postOtlpGrpcLogs\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1/metrics\n  method: post\n  operationId: postOtlpHttpMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/traces\n  method: post\n  operationId: postOtlpHttpTraces\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/logs\n  method: post\n  operationId: postOtlpHttpLogs\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: getServerHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: postServerHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/agentic-access/elastic-observability-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/elastic-observability/agentic-access/elastic-observability-agentic-access.yml
 summary_line: 14 operations · 9 acting
 tags:
 - AIOps

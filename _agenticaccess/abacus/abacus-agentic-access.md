@@ -9,19 +9,19 @@ api_specs:
   label: Abacus Authentication API
   slug: abacus-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/abacus/openapi/abacus-authentication-api-openapi.yml
 - filename: abacus-expenses-api-openapi.yml
   format: yaml
   label: Abacus Expenses API
   slug: abacus-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/abacus/openapi/abacus-expenses-api-openapi.yml
 - filename: abacus-members-api-openapi.yml
   format: yaml
   label: Abacus Members API
   slug: abacus-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-members-api-openapi.yml
+  url: https://artifacts.apis.io/abacus/openapi/abacus-members-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/abacus-api-openapi.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 4\n    acting: 4\n  by_consequence:\n    read: 4\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /members\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members\n  method: post\n  operationId: inviteMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members/{member_id}\n  method: get\n  operationId: getMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members/{member_id}\n  method: put\n  operationId: updateMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members/{member_id}/suspend\n  method: post\n  operationId: suspendMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /expenses\n  method: get\n  operationId: listExpenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expenses/{expense_id}\n  method: get\n  operationId: getExpense\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/token\n  method: post\n  operationId: getOAuthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/agentic-access/abacus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/abacus/agentic-access/abacus-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Accounting

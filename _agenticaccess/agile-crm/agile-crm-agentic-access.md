@@ -9,61 +9,61 @@ api_specs:
   label: Agile CRM Campaigns API
   slug: agile-crm-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-campaigns-api-openapi.yml
 - filename: agile-crm-companies-api-openapi.yml
   format: yaml
   label: Agile CRM Companies API
   slug: agile-crm-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-companies-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-companies-api-openapi.yml
 - filename: agile-crm-contacts-api-openapi.yml
   format: yaml
   label: Agile CRM Contacts API
   slug: agile-crm-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-contacts-api-openapi.yml
 - filename: agile-crm-deals-api-openapi.yml
   format: yaml
   label: Agile CRM Deals API
   slug: agile-crm-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-deals-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-deals-api-openapi.yml
 - filename: agile-crm-documents-api-openapi.yml
   format: yaml
   label: Agile CRM Documents API
   slug: agile-crm-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-documents-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-documents-api-openapi.yml
 - filename: agile-crm-events-api-openapi.yml
   format: yaml
   label: Agile CRM Events API
   slug: agile-crm-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-events-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-events-api-openapi.yml
 - filename: agile-crm-helpdesk-api-openapi.yml
   format: yaml
   label: Agile CRM HelpDesk API
   slug: agile-crm-helpdesk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-helpdesk-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-helpdesk-api-openapi.yml
 - filename: agile-crm-notes-api-openapi.yml
   format: yaml
   label: Agile CRM Notes API
   slug: agile-crm-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-notes-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-notes-api-openapi.yml
 - filename: agile-crm-tasks-api-openapi.yml
   format: yaml
   label: Agile CRM Tasks API
   slug: agile-crm-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-tasks-api-openapi.yml
 - filename: agile-crm-tracks-api-openapi.yml
   format: yaml
   label: Agile CRM Tracks API
   slug: agile-crm-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/openapi/agile-crm-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/agile-crm/openapi/agile-crm-tracks-api-openapi.yml
 consequence_counts:
   read: 29
   write: 42
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/agile-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tasks/partial-update\n  method: put\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tasks/pending/{num_days}\n  method: get\n  operationId: listPendingTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tasks/{id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tasks/{id}\n  method: delete\n  operationId: deleteTask\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/milestone/pipelines\n  method: get\n  operationId: listTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/milestone/pipelines\n  method: post\n  operationId: createTrack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/milestone/pipelines\n  method: put\n  operationId: updateTrack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/milestone/pipelines/{id}\n  method: delete\n  operationId: deleteTrack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/agentic-access/agile-crm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agile-crm/agentic-access/agile-crm-agentic-access.yml
 summary_line: 71 operations · 42 acting
 tags:
 - CRM

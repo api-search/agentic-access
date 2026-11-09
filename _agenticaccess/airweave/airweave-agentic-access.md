@@ -9,31 +9,31 @@ api_specs:
   label: Airweave Collections API
   slug: airweave-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-collections-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-collections-api-openapi.yml
 - filename: airweave-collections-search-api-openapi.yml
   format: yaml
   label: Airweave collections > search API
   slug: airweave-collections-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-collections-search-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-collections-search-api-openapi.yml
 - filename: airweave-source-connections-api-openapi.yml
   format: yaml
   label: Airweave Source Connections API
   slug: airweave-source-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-source-connections-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-source-connections-api-openapi.yml
 - filename: airweave-sources-api-openapi.yml
   format: yaml
   label: Airweave Sources API
   slug: airweave-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-sources-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-sources-api-openapi.yml
 - filename: airweave-webhooks-api-openapi.yml
   format: yaml
   label: Airweave Webhooks API
   slug: airweave-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/openapi/airweave-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/airweave/openapi/airweave-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   write: 16
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/airwea
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/messages/{message_id}\n  method: get\n  operationId: get-message-webhooks-messages-message-id-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/subscriptions\n  method: get\n  operationId: get-subscriptions-webhooks-subscriptions-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/subscriptions\n  method: post\n  operationId: create-subscription-webhooks-subscriptions-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/subscriptions/{subscription_id}\n  method: get\n  operationId: get-subscription-webhooks-subscriptions-subscription-id-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/subscriptions/{subscription_id}\n  method: patch\n  operationId: patch-subscription-webhooks-subscriptions-subscription-id-patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/subscriptions/{subscription_id}\n  method: delete\n  operationId: delete-subscription-webhooks-subscriptions-subscription-id-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/subscriptions/{subscription_id}/recover\n  method: post\n  operationId: recover-failed-messages-webhooks-subscriptions-subscription-id-recover-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/agentic-access/airweave-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airweave/agentic-access/airweave-agentic-access.yml
 summary_line: 27 operations · 16 acting
 tags:
 - Company

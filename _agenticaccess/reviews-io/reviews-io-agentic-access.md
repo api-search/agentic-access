@@ -9,37 +9,37 @@ api_specs:
   label: REVIEWS.io Company Reviews API
   slug: reviews-io-company-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-company-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-company-reviews-api-openapi.yml
 - filename: reviews-io-invitations-api-openapi.yml
   format: yaml
   label: REVIEWS.io Invitations API
   slug: reviews-io-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-invitations-api-openapi.yml
 - filename: reviews-io-product-reviews-api-openapi.yml
   format: yaml
   label: REVIEWS.io Product Reviews API
   slug: reviews-io-product-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-product-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-product-reviews-api-openapi.yml
 - filename: reviews-io-questions-api-openapi.yml
   format: yaml
   label: REVIEWS.io Questions API
   slug: reviews-io-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-questions-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-questions-api-openapi.yml
 - filename: reviews-io-ratings-api-openapi.yml
   format: yaml
   label: REVIEWS.io Ratings API
   slug: reviews-io-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-ratings-api-openapi.yml
 - filename: reviews-io-webhooks-api-openapi.yml
   format: yaml
   label: REVIEWS.io Webhooks API
   slug: reviews-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-webhooks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/review
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant/reviews\n  method: get\n  operationId: retrieveCompanyReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product/review\n  method: get\n  operationId: retrieveProductReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product/review/new\n  method: post\n  operationId: createProductReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /product/vote\n  method: get\n  operationId: voteProductReview\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product/rating-batch\n  method: get\n  operationId: retrieveProductRatings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/all\n  method: get\n  operationId: retrieveReviewStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /questions/store\n  method: post\n  operationId: createQuestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reviews\n  method: get\n  operationId: retrieveReviewsAndQuestions\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ugc\n  method: get\n  operationId: retrieveUserGeneratedContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/add\n  method: post\n  operationId: addWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/list\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/agentic-access/reviews-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reviews-io/agentic-access/reviews-io-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - Reviews

@@ -9,49 +9,49 @@ api_specs:
   label: Azure Container Registry Operation API
   slug: azure-container-registry-operation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-operation-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-operation-api-openapi.yml
 - filename: azure-container-registry-registries-api-openapi.yml
   format: yaml
   label: Azure Container Registry Registries API
   slug: azure-container-registry-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-registries-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-registries-api-openapi.yml
 - filename: azure-container-registry-replications-api-openapi.yml
   format: yaml
   label: Azure Container Registry Replications API
   slug: azure-container-registry-replications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-replications-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-replications-api-openapi.yml
 - filename: azure-container-registry-webhooks-api-openapi.yml
   format: yaml
   label: Azure Container Registry Webhooks API
   slug: azure-container-registry-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-webhooks-api-openapi.yml
 - filename: azure-container-registry-blobs-api-openapi.yml
   format: yaml
   label: Azure Container Registry Blobs API
   slug: microsoft-azure-container-registry-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-blobs-api-openapi.yml
 - filename: azure-container-registry-manifests-api-openapi.yml
   format: yaml
   label: Azure Container Registry Manifests API
   slug: microsoft-azure-container-registry-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-manifests-api-openapi.yml
 - filename: azure-container-registry-repositories-api-openapi.yml
   format: yaml
   label: Azure Container Registry Repositories API
   slug: microsoft-azure-container-registry-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-repositories-api-openapi.yml
 - filename: azure-container-registry-tags-api-openapi.yml
   format: yaml
   label: Azure Container Registry Tags API
   slug: microsoft-azure-container-registry-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-tags-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-tags-api-openapi.yml
 consequence_counts:
   read: 9
   write: 16
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   - path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerRegistry/registries/{registryName}/webhooks/{webhookName}\n  method: put\n  operationId: Webhooks_Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerRegistry/registries/{registryName}/webhooks/{webhookName}/getCallbackConfig\n  method: post\n  operationId: Webhooks_GetCallbackConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerRegistry/registries/{registryName}/webhooks/{webhookName}/listEvents\n  method: post\n  operationId: Webhooks_ListEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerRegistry/registries/{registryName}/webhooks/{webhookName}/ping\n  method: post\n  operationId: Webhooks_Ping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/agentic-access/azure-container-registry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-container-registry/agentic-access/azure-container-registry-agentic-access.yml
 summary_line: 25 operations · 16 acting
 tags:
 - Microsoft Azure

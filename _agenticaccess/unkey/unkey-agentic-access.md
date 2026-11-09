@@ -9,49 +9,49 @@ api_specs:
   label: Unkey Analytics API
   slug: unkey-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/unkey/openapi/unkey-analytics-api-openapi.yml
 - filename: unkey-deploy-api-openapi.yml
   format: yaml
   label: Unkey Deploy API
   slug: unkey-deploy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-deploy-api-openapi.yml
+  url: https://artifacts.apis.io/unkey/openapi/unkey-deploy-api-openapi.yml
 - filename: unkey-identities-api-openapi.yml
   format: yaml
   label: Unkey Identities API
   slug: unkey-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-identities-api-openapi.yml
+  url: https://artifacts.apis.io/unkey/openapi/unkey-identities-api-openapi.yml
 - filename: unkey-keys-api-openapi.yml
   format: yaml
   label: Unkey Keys API
   slug: unkey-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-keys-api-openapi.yml
+  url: https://artifacts.apis.io/unkey/openapi/unkey-keys-api-openapi.yml
 - filename: unkey-liveness-api-openapi.yml
   format: yaml
   label: Unkey Liveness API
   slug: unkey-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/unkey/openapi/unkey-liveness-api-openapi.yml
 - filename: unkey-permissions-api-openapi.yml
   format: yaml
   label: Unkey Permissions API
   slug: unkey-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/unkey/openapi/unkey-permissions-api-openapi.yml
 - filename: unkey-apis-api-openapi.yml
   format: yaml
   label: Unkey APIS API
   slug: unkey-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-apis-api-openapi.yml
+  url: https://artifacts.apis.io/unkey/openapi/unkey-apis-api-openapi.yml
 - filename: unkey-rate-limit-api-openapi.yml
   format: yaml
   label: Unkey Rate Limit API
   slug: unkey-rate-limit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/openapi/unkey-rate-limit-api-openapi.yml
+  url: https://artifacts.apis.io/unkey/openapi/unkey-rate-limit-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/unkey-
   \  operationId: permissions.listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/ratelimit.deleteOverride\n  method: post\n  operationId: ratelimit.deleteOverride\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/ratelimit.getOverride\n  method: post\n  operationId: ratelimit.getOverride\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path:\
   \ /v2/ratelimit.limit\n  method: post\n  operationId: ratelimit.limit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/ratelimit.listOverrides\n  method: post\n  operationId: ratelimit.listOverrides\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/ratelimit.multiLimit\n  method: post\n  operationId: ratelimit.multiLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/ratelimit.setOverride\n  method: post\n\
   \  operationId: ratelimit.setOverride\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/agentic-access/unkey-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unkey/agentic-access/unkey-agentic-access.yml
 summary_line: 42 operations · 28 acting · 3 human-in-the-loop
 tags:
 - APIKeys

@@ -9,31 +9,31 @@ api_specs:
   label: Maesn Accounting API
   slug: maesn-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maesn/refs/heads/main/openapi/maesn-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/maesn/openapi/maesn-accounting-api-openapi.yml
 - filename: maesn-auth-api-openapi.yml
   format: yaml
   label: Maesn Auth API
   slug: maesn-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maesn/refs/heads/main/openapi/maesn-auth-api-openapi.yml
+  url: https://artifacts.apis.io/maesn/openapi/maesn-auth-api-openapi.yml
 - filename: maesn-tenants-api-openapi.yml
   format: yaml
   label: Maesn Tenants API
   slug: maesn-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maesn/refs/heads/main/openapi/maesn-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/maesn/openapi/maesn-tenants-api-openapi.yml
 - filename: maesn-user-api-openapi.yml
   format: yaml
   label: Maesn User API
   slug: maesn-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maesn/refs/heads/main/openapi/maesn-user-api-openapi.yml
+  url: https://artifacts.apis.io/maesn/openapi/maesn-user-api-openapi.yml
 - filename: maesn-webhook-api-openapi.yml
   format: yaml
   label: Maesn Webhook API
   slug: maesn-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maesn/refs/heads/main/openapi/maesn-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/maesn/openapi/maesn-webhook-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 85
@@ -139,8 +139,8 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/maesn-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/goodsReceipts\n  method: get\n  operationId: getGoodsReceipts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/goodsReceipts/{goodsReceiptId}\n  method: get\n  operationId: getGoodsReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/goodsReceipts/{goodsReceiptId}/lineItems\n  method: get\n  operationId: getGoodsReceiptLineItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/goodsReceipts/{goodsReceiptId}/lineItems/{lineItemId}\n  method: get\n  operationId: getGoodsReceiptLineItem\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/reasonCodes\n  method: get\n  operationId: getReasonCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/salesOrders\n  method: get\n  operationId: getsalesOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/salesOrders\n  method: post\n  operationId: createSalesOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /accounting/salesOrders/{salesOrderId}\n  method: get\n  operationId: getSalesOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/salesOrders/{salesOrderId}/lineItems\n  method: get\n  operationId: getSalesOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/creditNotes\n  method: get\n  operationId: getCreditNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/creditNotes\n  method: post\n  operationId: createCreditNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/maesn/refs/heads/main/agentic-access/maesn-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maesn/refs/heads/main/agentic-access/maesn-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/maesn/agentic-access/maesn-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/maesn/agentic-access/maesn-agentic-access.yml
 summary_line: 145 operations · 60 acting
 tags:
 - ERP

@@ -9,49 +9,67 @@ api_specs:
   label: Alpic Analytics API
   slug: alpic-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-analytics-api-openapi.yml
 - filename: alpic-beacon-api-openapi.yml
   format: yaml
   label: Alpic Beacon API
   slug: alpic-beacon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-beacon-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-beacon-api-openapi.yml
 - filename: alpic-deployments-api-openapi.yml
   format: yaml
   label: Alpic Deployments API
   slug: alpic-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-deployments-api-openapi.yml
 - filename: alpic-distribution-api-openapi.yml
   format: yaml
   label: Alpic Distribution API
   slug: alpic-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-distribution-api-openapi.yml
 - filename: alpic-environments-api-openapi.yml
   format: yaml
   label: Alpic Environments API
   slug: alpic-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-environments-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-environments-api-openapi.yml
 - filename: alpic-projects-api-openapi.yml
   format: yaml
   label: Alpic Projects API
   slug: alpic-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-projects-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-projects-api-openapi.yml
 - filename: alpic-teams-api-openapi.yml
   format: yaml
   label: Alpic Teams API
   slug: alpic-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-teams-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-teams-api-openapi.yml
 - filename: alpic-tunnels-api-openapi.yml
   format: yaml
   label: Alpic Tunnels API
   slug: alpic-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/openapi/alpic-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/alpic/openapi/alpic-tunnels-api-openapi.yml
+- filename: alpic-insights-api-openapi.yml
+  format: yaml
+  label: Alpic Insights API
+  slug: alpic-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alpic/openapi/alpic-insights-api-openapi.yml
+- filename: alpic-submissions-api-openapi.yml
+  format: yaml
+  label: Alpic Submissions API
+  slug: alpic-submissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alpic/openapi/alpic-submissions-api-openapi.yml
+- filename: alpic-telemetry-api-openapi.yml
+  format: yaml
+  label: Alpic Telemetry API
+  slug: alpic-telemetry-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alpic/openapi/alpic-telemetry-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -91,7 +109,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/alpic-
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects\n  method: get\n  operationId: projects.list.v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects\n  method: post\n  operationId: projects.create.v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/environments/{environmentId}/playground\n  method: get\n  operationId: playground.get.v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/environments/{environmentId}/playground\n  method: put\n  operationId: playground.upsert.v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tunnels/ticket\n  method: get\n  operationId: tunnels.getTicket.v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/distribution/publish\n  method: post\n  operationId: distribution.publish.v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/distribution/get\n\
   \  method: get\n  operationId: distribution.get.v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/beacon/audits\n  method: post\n  operationId: beacon.create.v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/beacon/audits/{auditId}\n  method: get\n  operationId: beacon.get.v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/agentic-access/alpic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alpic/agentic-access/alpic-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
 - Company

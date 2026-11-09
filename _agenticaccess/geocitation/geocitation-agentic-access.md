@@ -9,79 +9,79 @@ api_specs:
   label: GEOCitation Audits API
   slug: geocitation-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-audits-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-audits-api-openapi.yml
 - filename: geocitation-gdpr-api-openapi.yml
   format: yaml
   label: GEOCitation Gdpr API
   slug: geocitation-gdpr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-gdpr-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-gdpr-api-openapi.yml
 - filename: geocitation-health-api-openapi.yml
   format: yaml
   label: GEOCitation Health API
   slug: geocitation-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-health-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-health-api-openapi.yml
 - filename: geocitation-meta-api-openapi.yml
   format: yaml
   label: GEOCitation Meta API
   slug: geocitation-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-meta-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-meta-api-openapi.yml
 - filename: geocitation-opt-out-api-openapi.yml
   format: yaml
   label: GEOCitation Opt Out API
   slug: geocitation-opt-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-opt-out-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-opt-out-api-openapi.yml
 - filename: geocitation-usage-api-openapi.yml
   format: yaml
   label: GEOCitation Usage API
   slug: geocitation-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-usage-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-usage-api-openapi.yml
 - filename: geocitation-agent-tasks-api-openapi.yml
   format: yaml
   label: GEOCitation Agent Tasks API
   slug: geocitation-agent-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-agent-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-agent-tasks-api-openapi.yml
 - filename: geocitation-agents-api-openapi.yml
   format: yaml
   label: GEOCitation Agents API
   slug: geocitation-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-agents-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-agents-api-openapi.yml
 - filename: geocitation-campaigns-api-openapi.yml
   format: yaml
   label: GEOCitation Campaigns API
   slug: geocitation-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-campaigns-api-openapi.yml
 - filename: geocitation-crawler-traffic-api-openapi.yml
   format: yaml
   label: GEOCitation Crawler Traffic API
   slug: geocitation-crawler-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-crawler-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-crawler-traffic-api-openapi.yml
 - filename: geocitation-google-auth-api-openapi.yml
   format: yaml
   label: GEOCitation Google Auth API
   slug: geocitation-google-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-google-auth-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-google-auth-api-openapi.yml
 - filename: geocitation-report-pptx-api-openapi.yml
   format: yaml
   label: GEOCitation Report Pptx API
   slug: geocitation-report-pptx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-report-pptx-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-report-pptx-api-openapi.yml
 - filename: geocitation-user-agents-api-openapi.yml
   format: yaml
   label: GEOCitation User Agents API
   slug: geocitation-user-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-user-agents-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-user-agents-api-openapi.yml
 consequence_counts:
   read: 14
   write: 3
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: generated\nsource: openapi/geocit
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/usage\n  method: get\n  operationId: read_usage_v1_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/meta/kpi-catalog\n  method: get\n  operationId: get_kpi_catalog_v1_meta_kpi_catalog_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/meta/icp-priority/{icp_key}\n  method: get\n  operationId: get_icp_priority_v1_meta_icp_priority__icp_key__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/meta/branding\n  method: get\n  operationId: get_branding_v1_meta_branding_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/opt-out\n  method: post\n  operationId: create_opt_out_v1_opt_out_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/opt-out\n  method: get\n  operationId: list_opt_outs_v1_opt_out_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health/detailed\n  method: get\n  operationId: health_detailed_health_detailed_get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/agentic-access/geocitation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/geocitation/agentic-access/geocitation-agentic-access.yml
 summary_line: 17 operations · 3 acting
 tags:
 - SEO

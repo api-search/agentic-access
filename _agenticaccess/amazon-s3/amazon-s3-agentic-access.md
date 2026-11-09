@@ -9,109 +9,109 @@ api_specs:
   label: Amazon S3 Abac API
   slug: amazon-s3-abac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-abac-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-abac-api-openapi.yml
 - filename: amazon-s3-access-control-api-openapi.yml
   format: yaml
   label: Amazon S3 Access Control API
   slug: amazon-s3-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-access-control-api-openapi.yml
 - filename: amazon-s3-access-grants-api-openapi.yml
   format: yaml
   label: Amazon S3 Access Grants API
   slug: amazon-s3-access-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-access-grants-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-access-grants-api-openapi.yml
 - filename: amazon-s3-access-points-api-openapi.yml
   format: yaml
   label: Amazon S3 Access Points API
   slug: amazon-s3-access-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-access-points-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-access-points-api-openapi.yml
 - filename: amazon-s3-acl-api-openapi.yml
   format: yaml
   label: Amazon S3 Acl API
   slug: amazon-s3-acl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-acl-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-acl-api-openapi.yml
 - filename: amazon-s3-annotation-api-openapi.yml
   format: yaml
   label: Amazon S3 Annotation API
   slug: amazon-s3-annotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-annotation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-annotation-api-openapi.yml
 - filename: amazon-s3-batch-operations-api-openapi.yml
   format: yaml
   label: Amazon S3 Batch Operations API
   slug: amazon-s3-batch-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-batch-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-batch-operations-api-openapi.yml
 - filename: amazon-s3-bucket-api-openapi.yml
   format: yaml
   label: Amazon S3 Bucket API
   slug: amazon-s3-bucket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-bucket-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-bucket-api-openapi.yml
 - filename: amazon-s3-bucket-configuration-api-openapi.yml
   format: yaml
   label: Amazon S3 Bucket Configuration API
   slug: amazon-s3-bucket-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-bucket-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-bucket-configuration-api-openapi.yml
 - filename: amazon-s3-buckets-api-openapi.yml
   format: yaml
   label: Amazon S3 Buckets API
   slug: amazon-s3-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-buckets-api-openapi.yml
 - filename: amazon-s3-delete-api-openapi.yml
   format: yaml
   label: Amazon S3 Delete API
   slug: amazon-s3-delete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-delete-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-delete-api-openapi.yml
 - filename: amazon-s3-multi-region-access-points-api-openapi.yml
   format: yaml
   label: Amazon S3 Multi-Region Access Points API
   slug: amazon-s3-multi-region-access-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-multi-region-access-points-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-multi-region-access-points-api-openapi.yml
 - filename: amazon-s3-multipart-upload-api-openapi.yml
   format: yaml
   label: Amazon S3 Multipart Upload API
   slug: amazon-s3-multipart-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-multipart-upload-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-multipart-upload-api-openapi.yml
 - filename: amazon-s3-object-api-openapi.yml
   format: yaml
   label: Amazon S3 Object API
   slug: amazon-s3-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-object-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-object-api-openapi.yml
 - filename: amazon-s3-objects-api-openapi.yml
   format: yaml
   label: Amazon S3 Objects API
   slug: amazon-s3-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-objects-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-objects-api-openapi.yml
 - filename: amazon-s3-public-access-block-api-openapi.yml
   format: yaml
   label: Amazon S3 Public Access Block API
   slug: amazon-s3-public-access-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-public-access-block-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-public-access-block-api-openapi.yml
 - filename: amazon-s3-storage-lens-api-openapi.yml
   format: yaml
   label: Amazon S3 Storage Lens API
   slug: amazon-s3-storage-lens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-storage-lens-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-storage-lens-api-openapi.yml
 - filename: amazon-s3-tagging-api-openapi.yml
   format: yaml
   label: Amazon S3 Tagging API
   slug: amazon-s3-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3/openapi/amazon-s3-tagging-api-openapi.yml
 consequence_counts:
   read: 34
   safety-critical: 1
@@ -173,10 +173,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{tableBucketARN}/{namespace}/{name}/policy\n  method: delete\n  operationId: DeleteTablePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{tableBucketARN}/{namespace}/{name}/maintenance\n  method: get\n  operationId: GetTableMaintenanceConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables/{tableBucketARN}/{namespace}/{name}/maintenance\n  method: put\n  operationId: PutTableMaintenanceConfiguration\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{tableBucketARN}/{namespace}/{name}/maintenance-job-status\n  method: get\n  operationId: GetTableMaintenanceJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables/{tableBucketARN}/{namespace}/{name}/metadata-location\n  method: get\n  operationId: GetTableMetadataLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables/{tableBucketARN}/{namespace}/{name}/metadata-location\n  method: put\n  operationId: UpdateTableMetadataLocation\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/agentic-access/amazon-s3-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-s3/agentic-access/amazon-s3-agentic-access.yml
 summary_line: 82 operations · 48 acting · 1 human-in-the-loop
 tags:
 - Archives
+- Amazon Web Services
 - Backup
 - Cloud Storage
 - Data Storage

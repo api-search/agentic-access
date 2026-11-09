@@ -9,7 +9,7 @@ api_specs:
   label: Kissmetrics REST API
   slug: rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/openapi/kissmetrics-products-api-openapi.yml
+  url: https://artifacts.apis.io/kissmetrics/openapi/kissmetrics-products-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/kissme
   \  method: get\n  operationId: export-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: fetch-products\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{product_id}/reports\n  method: get\n  operationId: fetch-reports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{product_id}/events\n  method: get\n  operationId: fetch-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{product_id}/properties\n  method: get\n  operationId: fetch-properties\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries\n  method: post\n  operationId: run-query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /queries/report\n  method: post\n  operationId: v3queriesreport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /queries/metric\n  method: post\n  operationId: saved-metric-query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /queries/{id}\n  method: get\n  operationId: v3queriesid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/{id}\n  method: delete\n  operationId: cancel-a-query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/agentic-access/kissmetrics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kissmetrics/agentic-access/kissmetrics-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Analytics

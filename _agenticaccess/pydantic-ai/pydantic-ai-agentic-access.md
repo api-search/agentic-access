@@ -9,103 +9,103 @@ api_specs:
   label: PydanticAI Alerts API
   slug: pydantic-ai-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-alerts-api-openapi.yml
 - filename: pydantic-ai-api-keys-api-openapi.yml
   format: yaml
   label: PydanticAI API Keys API
   slug: pydantic-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-api-keys-api-openapi.yml
 - filename: pydantic-ai-audit-logs-api-openapi.yml
   format: yaml
   label: PydanticAI Audit Logs API
   slug: pydantic-ai-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-audit-logs-api-openapi.yml
 - filename: pydantic-ai-billing-api-openapi.yml
   format: yaml
   label: PydanticAI Billing API
   slug: pydantic-ai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-billing-api-openapi.yml
 - filename: pydantic-ai-channels-api-openapi.yml
   format: yaml
   label: PydanticAI Channels API
   slug: pydantic-ai-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-channels-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-channels-api-openapi.yml
 - filename: pydantic-ai-dashboards-api-openapi.yml
   format: yaml
   label: PydanticAI Dashboards API
   slug: pydantic-ai-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-dashboards-api-openapi.yml
 - filename: pydantic-ai-discovery-api-openapi.yml
   format: yaml
   label: PydanticAI Discovery API
   slug: pydantic-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-discovery-api-openapi.yml
 - filename: pydantic-ai-group-mappings-api-openapi.yml
   format: yaml
   label: PydanticAI Group Mappings API
   slug: pydantic-ai-group-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-group-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-group-mappings-api-openapi.yml
 - filename: pydantic-ai-instance-api-openapi.yml
   format: yaml
   label: PydanticAI Instance API
   slug: pydantic-ai-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-instance-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-instance-api-openapi.yml
 - filename: pydantic-ai-invitations-api-openapi.yml
   format: yaml
   label: PydanticAI Invitations API
   slug: pydantic-ai-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-invitations-api-openapi.yml
 - filename: pydantic-ai-members-api-openapi.yml
   format: yaml
   label: PydanticAI Members API
   slug: pydantic-ai-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-members-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-members-api-openapi.yml
 - filename: pydantic-ai-organizations-api-openapi.yml
   format: yaml
   label: PydanticAI Organizations API
   slug: pydantic-ai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-organizations-api-openapi.yml
 - filename: pydantic-ai-projects-api-openapi.yml
   format: yaml
   label: PydanticAI Projects API
   slug: pydantic-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-projects-api-openapi.yml
 - filename: pydantic-ai-scim-api-openapi.yml
   format: yaml
   label: PydanticAI SCIM API
   slug: pydantic-ai-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-scim-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-scim-api-openapi.yml
 - filename: pydantic-ai-usage-api-openapi.yml
   format: yaml
   label: PydanticAI Usage API
   slug: pydantic-ai-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-usage-api-openapi.yml
 - filename: pydantic-ai-variables-api-openapi.yml
   format: yaml
   label: PydanticAI Variables API
   slug: pydantic-ai-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-variables-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-variables-api-openapi.yml
 - filename: pydantic-ai-oauth-api-openapi.yml
   format: yaml
   label: PydanticAI O Auth API
   slug: pydantic-ai-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/pydantic-ai/openapi/pydantic-ai-oauth-api-openapi.yml
 consequence_counts:
   read: 41
   safety-critical: 3
@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pydant
   \ audit: required\n- path: /oauth/authorize\n  method: get\n  operationId: oauth_authorize_get_oauth_authorize_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/authorize\n  method: post\n  operationId: oauth_authorize_post_oauth_authorize_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/grantable-scopes\n  method: get\n  operationId: oauth_grantable_scopes_oauth_grantable_scopes_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/token\n  method: post\n  operationId: oauth_token_oauth_token_post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/device/code\n  method: post\n  operationId: device_authorization_oauth_device_code_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/register\n  method: post\n  operationId: oauth_register_oauth_register_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /oauth/register/{client_id}\n  method: delete\n  operationId: oauth_deregister_oauth_register__client_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/agentic-access/pydantic-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pydantic-ai/agentic-access/pydantic-ai-agentic-access.yml
 summary_line: 83 operations · 42 acting · 3 human-in-the-loop
 tags:
 - Artificial Intelligence

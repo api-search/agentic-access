@@ -9,43 +9,43 @@ api_specs:
   label: Provet Cloud Appointments API
   slug: provet-cloud-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-appointments-api-openapi.yml
 - filename: provet-cloud-billing-api-openapi.yml
   format: yaml
   label: Provet Cloud Billing API
   slug: provet-cloud-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-billing-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-billing-api-openapi.yml
 - filename: provet-cloud-clients-api-openapi.yml
   format: yaml
   label: Provet Cloud Clients API
   slug: provet-cloud-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-clients-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-clients-api-openapi.yml
 - filename: provet-cloud-consultations-api-openapi.yml
   format: yaml
   label: Provet Cloud Consultations API
   slug: provet-cloud-consultations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-consultations-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-consultations-api-openapi.yml
 - filename: provet-cloud-patients-api-openapi.yml
   format: yaml
   label: Provet Cloud Patients API
   slug: provet-cloud-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-patients-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-patients-api-openapi.yml
 - filename: provet-cloud-reference-data-api-openapi.yml
   format: yaml
   label: Provet Cloud Reference Data API
   slug: provet-cloud-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-reference-data-api-openapi.yml
 - filename: provet-cloud-webhooks-api-openapi.yml
   format: yaml
   label: Provet Cloud Webhooks API
   slug: provet-cloud-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-webhooks-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 26
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/provet
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /department/{id}/\n  method: get\n  operationId: getDepartment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reason/{id}/\n  method: get\n  operationId: getReason\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom_fields/\n  method: get\n  operationId: listCustomFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /codelist/species/\n  method: get\n  operationId: listSpeciesCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /codelist/breeds/\n  method: get\n  operationId: listBreedCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /codelist/diagnoses/\n  method: get\n  operationId: listDiagnosisCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/agentic-access/provet-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/provet-cloud/agentic-access/provet-cloud-agentic-access.yml
 summary_line: 55 operations · 29 acting
 tags:
 - Veterinary

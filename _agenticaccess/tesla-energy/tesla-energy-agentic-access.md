@@ -9,61 +9,61 @@ api_specs:
   label: Tesla Energy Backup API
   slug: tesla-energy-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-backup-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-backup-api-openapi.yml
 - filename: tesla-energy-history-api-openapi.yml
   format: yaml
   label: Tesla Energy History API
   slug: tesla-energy-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-history-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-history-api-openapi.yml
 - filename: tesla-energy-live-status-api-openapi.yml
   format: yaml
   label: Tesla Energy Live Status API
   slug: tesla-energy-live-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-live-status-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-live-status-api-openapi.yml
 - filename: tesla-energy-off-grid-charging-api-openapi.yml
   format: yaml
   label: Tesla Energy Off Grid Charging API
   slug: tesla-energy-off-grid-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-off-grid-charging-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-off-grid-charging-api-openapi.yml
 - filename: tesla-energy-operation-api-openapi.yml
   format: yaml
   label: Tesla Energy Operation API
   slug: tesla-energy-operation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-operation-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-operation-api-openapi.yml
 - filename: tesla-energy-products-api-openapi.yml
   format: yaml
   label: Tesla Energy Products API
   slug: tesla-energy-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-products-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-products-api-openapi.yml
 - filename: tesla-energy-programs-api-openapi.yml
   format: yaml
   label: Tesla Energy Programs API
   slug: tesla-energy-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-programs-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-programs-api-openapi.yml
 - filename: tesla-energy-site-info-api-openapi.yml
   format: yaml
   label: Tesla Energy Site Info API
   slug: tesla-energy-site-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-site-info-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-site-info-api-openapi.yml
 - filename: tesla-energy-storm-mode-api-openapi.yml
   format: yaml
   label: Tesla Energy Storm Mode API
   slug: tesla-energy-storm-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-storm-mode-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-storm-mode-api-openapi.yml
 - filename: tesla-energy-time-of-use-api-openapi.yml
   format: yaml
   label: Tesla Energy Time Of Use API
   slug: tesla-energy-time-of-use-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/openapi/tesla-energy-time-of-use-api-openapi.yml
+  url: https://artifacts.apis.io/tesla-energy/openapi/tesla-energy-time-of-use-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tesla-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - energy_cmds\n    - energy_device_data\n- path: /energy_sites/{site_id}/operation\n  method: post\n  operationId: setSiteOperation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - energy_cmds\n    - energy_device_data\n- path: /energy_sites/{site_id}/storm_mode\n  method: post\n  operationId: setStormMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - energy_cmds\n    - energy_device_data\n- path: /energy_sites/{site_id}/time_of_use_settings\n\
   \  method: post\n  operationId: setTimeOfUseSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - energy_cmds\n    - energy_device_data\n- path: /energy_sites/{site_id}/off_grid_vehicle_charging_reserve\n  method: post\n  operationId: setOffGridVehicleChargingReserve\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - energy_cmds\n    - energy_device_data\n- path: /energy_sites/{site_id}/programs\n  method: get\n  operationId: getEnergySitePrograms\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - energy_cmds\n    - energy_device_data\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/agentic-access/tesla-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tesla-energy/agentic-access/tesla-energy-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Energy

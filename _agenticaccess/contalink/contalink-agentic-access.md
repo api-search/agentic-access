@@ -9,49 +9,49 @@ api_specs:
   label: Contalink Balanza de comprobación API
   slug: contalink-balanza-de-comprobaci-n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-balanza-de-comprobaci-n-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-balanza-de-comprobaci-n-api-openapi.yml
 - filename: contalink-cargar-un-documento-fiscal-api-openapi.yml
   format: yaml
   label: Contalink Cargar un documento fiscal API
   slug: contalink-cargar-un-documento-fiscal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-cargar-un-documento-fiscal-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-cargar-un-documento-fiscal-api-openapi.yml
 - filename: contalink-conciliaci-n-api-openapi.yml
   format: yaml
   label: Contalink Conciliación API
   slug: contalink-conciliaci-n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-conciliaci-n-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-conciliaci-n-api-openapi.yml
 - filename: contalink-listado-de-documentos-fiscales-api-openapi.yml
   format: yaml
   label: Contalink Listado de documentos fiscales API
   slug: contalink-listado-de-documentos-fiscales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-listado-de-documentos-fiscales-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-listado-de-documentos-fiscales-api-openapi.yml
 - filename: contalink-movimientos-bancarios-api-openapi.yml
   format: yaml
   label: Contalink Movimientos bancarios API
   slug: contalink-movimientos-bancarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-movimientos-bancarios-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-movimientos-bancarios-api-openapi.yml
 - filename: contalink-p-lizas-manuales-api-openapi.yml
   format: yaml
   label: Contalink Pólizas manuales API
   slug: contalink-p-lizas-manuales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-p-lizas-manuales-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-p-lizas-manuales-api-openapi.yml
 - filename: contalink-saldo-de-una-cuenta-api-openapi.yml
   format: yaml
   label: Contalink Saldo de una cuenta API
   slug: contalink-saldo-de-una-cuenta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-saldo-de-una-cuenta-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-saldo-de-una-cuenta-api-openapi.yml
 - filename: contalink-status-de-documentos-fiscales-api-openapi.yml
   format: yaml
   label: Contalink Status de documentos fiscales API
   slug: contalink-status-de-documentos-fiscales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-status-de-documentos-fiscales-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-status-de-documentos-fiscales-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/contal
   \     - high-value\n    audit: required\n- path: /accounting/trial-balance/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conciliation/create/\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/check-status/{uuid}/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/list/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/upload/\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /treasury/bank-transactions/\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /treasury/bank-transactions/{id}/\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /treasury/bank-transactions/{id}/\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/agentic-access/contalink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/contalink/agentic-access/contalink-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Company

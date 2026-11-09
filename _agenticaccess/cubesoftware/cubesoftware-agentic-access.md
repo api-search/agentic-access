@@ -9,253 +9,253 @@ api_specs:
   label: Cube Agents API
   slug: cubesoftware-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-agents-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-agents-api-openapi.yml
 - filename: cubesoftware-attributes-api-openapi.yml
   format: yaml
   label: Cube Attributes API
   slug: cubesoftware-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-attributes-api-openapi.yml
 - filename: cubesoftware-audit-trail-api-openapi.yml
   format: yaml
   label: Cube Audit Trail API
   slug: cubesoftware-audit-trail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-audit-trail-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-audit-trail-api-openapi.yml
 - filename: cubesoftware-auth-api-openapi.yml
   format: yaml
   label: Cube Auth API
   slug: cubesoftware-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-auth-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-auth-api-openapi.yml
 - filename: cubesoftware-authentication-api-openapi.yml
   format: yaml
   label: Cube Authentication API
   slug: cubesoftware-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-authentication-api-openapi.yml
 - filename: cubesoftware-canvases-api-openapi.yml
   format: yaml
   label: Cube Canvases API
   slug: cubesoftware-canvases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-canvases-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-canvases-api-openapi.yml
 - filename: cubesoftware-chatsettings-api-openapi.yml
   format: yaml
   label: Cube ChatSettings API
   slug: cubesoftware-chatsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-chatsettings-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-chatsettings-api-openapi.yml
 - filename: cubesoftware-comments-api-openapi.yml
   format: yaml
   label: Cube Comments API
   slug: cubesoftware-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-comments-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-comments-api-openapi.yml
 - filename: cubesoftware-companies-api-openapi.yml
   format: yaml
   label: Cube Companies API
   slug: cubesoftware-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-companies-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-companies-api-openapi.yml
 - filename: cubesoftware-company-groups-api-openapi.yml
   format: yaml
   label: Cube Company Groups API
   slug: cubesoftware-company-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-company-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-company-groups-api-openapi.yml
 - filename: cubesoftware-compliance-api-openapi.yml
   format: yaml
   label: Cube Compliance API
   slug: cubesoftware-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-compliance-api-openapi.yml
 - filename: cubesoftware-connections-api-openapi.yml
   format: yaml
   label: Cube Connections API
   slug: cubesoftware-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-connections-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-connections-api-openapi.yml
 - filename: cubesoftware-cube-api-openapi.yml
   format: yaml
   label: Cube API
   slug: cubesoftware-cube-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-cube-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-cube-api-openapi.yml
 - filename: cubesoftware-cube-data-api-openapi.yml
   format: yaml
   label: Cube Data API
   slug: cubesoftware-cube-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-cube-data-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-cube-data-api-openapi.yml
 - filename: cubesoftware-cube-value-range-api-openapi.yml
   format: yaml
   label: Cube Value Range API
   slug: cubesoftware-cube-value-range-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-cube-value-range-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-cube-value-range-api-openapi.yml
 - filename: cubesoftware-currencies-api-openapi.yml
   format: yaml
   label: Cube Currencies API
   slug: cubesoftware-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-currencies-api-openapi.yml
 - filename: cubesoftware-dashboard-api-openapi.yml
   format: yaml
   label: Cube Dashboard API
   slug: cubesoftware-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-dashboard-api-openapi.yml
 - filename: cubesoftware-data-table-uploads-api-openapi.yml
   format: yaml
   label: Cube Data Table Uploads API
   slug: cubesoftware-data-table-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-data-table-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-data-table-uploads-api-openapi.yml
 - filename: cubesoftware-data-tables-api-openapi.yml
   format: yaml
   label: Cube Data Tables API
   slug: cubesoftware-data-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-data-tables-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-data-tables-api-openapi.yml
 - filename: cubesoftware-dimensions-api-openapi.yml
   format: yaml
   label: Cube Dimensions API
   slug: cubesoftware-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-dimensions-api-openapi.yml
 - filename: cubesoftware-drilldown-api-openapi.yml
   format: yaml
   label: Cube Drilldown API
   slug: cubesoftware-drilldown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-drilldown-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-drilldown-api-openapi.yml
 - filename: cubesoftware-erp-api-openapi.yml
   format: yaml
   label: Cube ERP API
   slug: cubesoftware-erp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-erp-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-erp-api-openapi.yml
 - filename: cubesoftware-events-api-openapi.yml
   format: yaml
   label: Cube Events API
   slug: cubesoftware-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-events-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-events-api-openapi.yml
 - filename: cubesoftware-formulas-api-openapi.yml
   format: yaml
   label: Cube Formulas API
   slug: cubesoftware-formulas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-formulas-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-formulas-api-openapi.yml
 - filename: cubesoftware-integrations-api-openapi.yml
   format: yaml
   label: Cube Integrations API
   slug: cubesoftware-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-integrations-api-openapi.yml
 - filename: cubesoftware-invitations-api-openapi.yml
   format: yaml
   label: Cube Invitations API
   slug: cubesoftware-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-invitations-api-openapi.yml
 - filename: cubesoftware-library-api-openapi.yml
   format: yaml
   label: Cube Library API
   slug: cubesoftware-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-library-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-library-api-openapi.yml
 - filename: cubesoftware-notifications-api-openapi.yml
   format: yaml
   label: Cube Notifications API
   slug: cubesoftware-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-notifications-api-openapi.yml
 - filename: cubesoftware-permissions-api-openapi.yml
   format: yaml
   label: Cube Permissions API
   slug: cubesoftware-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-permissions-api-openapi.yml
 - filename: cubesoftware-planmodesessions-api-openapi.yml
   format: yaml
   label: Cube PlanModeSessions API
   slug: cubesoftware-planmodesessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-planmodesessions-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-planmodesessions-api-openapi.yml
 - filename: cubesoftware-planning-table-api-openapi.yml
   format: yaml
   label: Cube Planning Table API
   slug: cubesoftware-planning-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-planning-table-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-planning-table-api-openapi.yml
 - filename: cubesoftware-scenarios-api-openapi.yml
   format: yaml
   label: Cube Scenarios API
   slug: cubesoftware-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-scenarios-api-openapi.yml
 - filename: cubesoftware-tags-api-openapi.yml
   format: yaml
   label: Cube Tags API
   slug: cubesoftware-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-tags-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-tags-api-openapi.yml
 - filename: cubesoftware-taskflow-api-openapi.yml
   format: yaml
   label: Cube Taskflow API
   slug: cubesoftware-taskflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-taskflow-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-taskflow-api-openapi.yml
 - filename: cubesoftware-team-api-openapi.yml
   format: yaml
   label: Cube Team API
   slug: cubesoftware-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-team-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-team-api-openapi.yml
 - filename: cubesoftware-user-api-openapi.yml
   format: yaml
   label: Cube User API
   slug: cubesoftware-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-user-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-user-api-openapi.yml
 - filename: cubesoftware-usercompanies-api-openapi.yml
   format: yaml
   label: Cube UserCompanies API
   slug: cubesoftware-usercompanies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-usercompanies-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-usercompanies-api-openapi.yml
 - filename: cubesoftware-workflow-api-openapi.yml
   format: yaml
   label: Cube Workflow API
   slug: cubesoftware-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-workflow-api-openapi.yml
 - filename: cubesoftware-chat-messages-api-openapi.yml
   format: yaml
   label: Cube Chat Messages API
   slug: cubesoftware-chat-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-chat-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-chat-messages-api-openapi.yml
 - filename: cubesoftware-chat-sessions-api-openapi.yml
   format: yaml
   label: Cube Chat Sessions API
   slug: cubesoftware-chat-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-chat-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-chat-sessions-api-openapi.yml
 - filename: cubesoftware-content-type-api-openapi.yml
   format: yaml
   label: Cube Content Type API
   slug: cubesoftware-content-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-content-type-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-content-type-api-openapi.yml
 - filename: cubesoftware-permission-sets-api-openapi.yml
   format: yaml
   label: Cube Permission Sets API
   slug: cubesoftware-permission-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/openapi/cubesoftware-permission-sets-api-openapi.yml
+  url: https://artifacts.apis.io/cubesoftware/openapi/cubesoftware-permission-sets-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 129
@@ -335,8 +335,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cubeso
   \    audit: required\n- path: /cube/export\n  method: get\n  operationId: cube_export_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cube/export\n  method: post\n  operationId: cube_export_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cube/export/notification/stale-data\n  method: get\n  operationId: cube_export_notification_stale_data_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cube/export/notification/stale-data\n  method: put\n  operationId: cube_export_notification_stale_data_update\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cube/export/schedule\n  method: get\n  operationId: cube_export_schedule_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cube/export/schedule\n  method: post\n  operationId: cube_export_schedule_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cube/export/schedule/{id}\n  method: patch\n  operationId: cube_export_schedule_partial_update\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cube/export/schedule/{id}\n  method: delete\n  operationId: cube_export_schedule_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cube/pivot\n  method: post\n  operationId: cube_pivot_create\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cube/pivot/sources\n  method: post\n  operationId: cube_pivot_sources_create\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (89 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/agentic-access/cubesoftware-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/agentic-access/cubesoftware-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (89 KB total) ---\n# Full source: https://artifacts.apis.io/cubesoftware/agentic-access/cubesoftware-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/cubesoftware/agentic-access/cubesoftware-agentic-access.yml
 summary_line: 296 operations · 167 acting · 1 human-in-the-loop
 tags:
 - Company

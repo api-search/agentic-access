@@ -9,19 +9,19 @@ api_specs:
   label: Esendex Credential Management API
   slug: esendex-credential-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esendex/refs/heads/main/openapi/esendex-credential-management-api-openapi.yml
+  url: https://artifacts.apis.io/esendex/openapi/esendex-credential-management-api-openapi.yml
 - filename: esendex-message-dispatcher-api-openapi.yml
   format: yaml
   label: Esendex Message Dispatcher API
   slug: esendex-message-dispatcher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esendex/refs/heads/main/openapi/esendex-message-dispatcher-api-openapi.yml
+  url: https://artifacts.apis.io/esendex/openapi/esendex-message-dispatcher-api-openapi.yml
 - filename: esendex-message-headers-api-openapi.yml
   format: yaml
   label: Esendex Message Headers API
   slug: esendex-message-headers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esendex/refs/heads/main/openapi/esendex-message-headers-api-openapi.yml
+  url: https://artifacts.apis.io/esendex/openapi/esendex-message-headers-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/esende
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/messagedispatcher\n  method: post\n  operationId: TitanCustomerUpgradesEmulationEsendexUseCasesSendMessageApiEsendexSendMessageV10Endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1.1/messagedispatcher\n  method: post\n  operationId: TitanCustomerUpgradesEmulationEsendexUseCasesSendMessageApiEsendexSendMessageV11Endpoint\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1.0/messageheaders/{messageId}/body\n  method: get\n  operationId: TitanCustomerUpgradesEmulationEsendexUseCasesGetMessageBodyApiEsendexGetMessageBodyEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/messageheaders/{messageId}\n  method: get\n  operationId: TitanCustomerUpgradesEmulationEsendexUseCasesGetMessageApiEsendexGetMessageEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/messageheaders\n  method: get\n  operationId: TitanCustomerUpgradesEmulationEsendexUseCasesGetAllMessagesApiEsendexGetAllMessagesEndpoint\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esendex/refs/heads/main/agentic-access/esendex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/esendex/agentic-access/esendex-agentic-access.yml
 summary_line: 16 operations · 10 acting · 2 human-in-the-loop
 tags:
 - SMS

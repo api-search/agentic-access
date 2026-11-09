@@ -9,7 +9,13 @@ api_specs:
   label: Amazon Proton AWS Proton API
   slug: amazon-proton-aws-proton-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/openapi/amazon-proton-aws-proton-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-proton/openapi/amazon-proton-aws-proton-api-openapi.yml
+- filename: amazon-proton-deployment-api-openapi.yml
+  format: yaml
+  label: Amazon Proton Proton Deployment API
+  slug: amazon-proton-deployment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-proton/openapi/amazon-proton-deployment-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 38
@@ -94,10 +100,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AwsProton20200720.RejectEnvironmentAccountConnection\n  method: post\n  operationId: RejectEnvironmentAccountConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AwsProton20200720.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /#X-Amz-Target=AwsProton20200720.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AwsProton20200720.UpdateAccountSettings\n  method: post\n  operationId: UpdateAccountSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AwsProton20200720.UpdateComponent\n  method: post\n  operationId: UpdateComponent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AwsProton20200720.UpdateEnvironment\n  method: post\n  operationId: UpdateEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AwsProton20200720.UpdateEnvironmentAccountConnection\n  method: post\n  operationId: UpdateEnvironmentAccountConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total)\
-  \ ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/agentic-access/amazon-proton-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/agentic-access/amazon-proton-agentic-access.yml
+  \ ---\n# Full source: https://artifacts.apis.io/amazon-proton/agentic-access/amazon-proton-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-proton/agentic-access/amazon-proton-agentic-access.yml
 summary_line: 84 operations · 46 acting
 tags:
+- Amazon Web Services
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

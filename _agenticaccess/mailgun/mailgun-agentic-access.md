@@ -9,43 +9,43 @@ api_specs:
   label: Mailgun Domains API
   slug: mailgun-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-domains-api-openapi.yml
+  url: https://artifacts.apis.io/mailgun/openapi/mailgun-domains-api-openapi.yml
 - filename: mailgun-events-api-openapi.yml
   format: yaml
   label: Mailgun Events API
   slug: mailgun-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-events-api-openapi.yml
+  url: https://artifacts.apis.io/mailgun/openapi/mailgun-events-api-openapi.yml
 - filename: mailgun-mailing-lists-api-openapi.yml
   format: yaml
   label: Mailgun Mailing Lists API
   slug: mailgun-mailing-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-mailing-lists-api-openapi.yml
+  url: https://artifacts.apis.io/mailgun/openapi/mailgun-mailing-lists-api-openapi.yml
 - filename: mailgun-messages-api-openapi.yml
   format: yaml
   label: Mailgun Messages API
   slug: mailgun-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-messages-api-openapi.yml
+  url: https://artifacts.apis.io/mailgun/openapi/mailgun-messages-api-openapi.yml
 - filename: mailgun-routes-api-openapi.yml
   format: yaml
   label: Mailgun Routes API
   slug: mailgun-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-routes-api-openapi.yml
+  url: https://artifacts.apis.io/mailgun/openapi/mailgun-routes-api-openapi.yml
 - filename: mailgun-suppressions-api-openapi.yml
   format: yaml
   label: Mailgun Suppressions API
   slug: mailgun-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-suppressions-api-openapi.yml
+  url: https://artifacts.apis.io/mailgun/openapi/mailgun-suppressions-api-openapi.yml
 - filename: mailgun-webhooks-api-openapi.yml
   format: yaml
   label: Mailgun Webhooks API
   slug: mailgun-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/openapi/mailgun-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mailgun/openapi/mailgun-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mailgu
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domains/{domain}/webhooks/{type}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{domain}/bounces\n  method: get\n  operationId: listBounces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{domain}/unsubscribes\n  method: get\n  operationId: listUnsubscribes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{domain}/complaints\n  method: get\n  operationId: listComplaints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists\n  method: get\n  operationId: listMailingLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists\n  method: post\n  operationId: createMailingList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /routes\n  method: get\n  operationId: listRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /routes\n  method: post\n  operationId: createRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/agentic-access/mailgun-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mailgun/agentic-access/mailgun-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
 - Email

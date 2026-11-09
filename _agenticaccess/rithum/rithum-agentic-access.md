@@ -9,49 +9,49 @@ api_specs:
   label: Rithum Authentication API
   slug: rithum-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rithum/openapi/rithum-authentication-api-openapi.yml
 - filename: rithum-catalog-api-openapi.yml
   format: yaml
   label: Rithum Catalog API
   slug: rithum-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/rithum/openapi/rithum-catalog-api-openapi.yml
 - filename: rithum-inventory-api-openapi.yml
   format: yaml
   label: Rithum Inventory API
   slug: rithum-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/rithum/openapi/rithum-inventory-api-openapi.yml
 - filename: rithum-invoices-api-openapi.yml
   format: yaml
   label: Rithum Invoices API
   slug: rithum-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/rithum/openapi/rithum-invoices-api-openapi.yml
 - filename: rithum-orders-api-openapi.yml
   format: yaml
   label: Rithum Orders API
   slug: rithum-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-orders-api-openapi.yml
+  url: https://artifacts.apis.io/rithum/openapi/rithum-orders-api-openapi.yml
 - filename: rithum-returns-api-openapi.yml
   format: yaml
   label: Rithum Returns API
   slug: rithum-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-returns-api-openapi.yml
+  url: https://artifacts.apis.io/rithum/openapi/rithum-returns-api-openapi.yml
 - filename: rithum-shipments-api-openapi.yml
   format: yaml
   label: Rithum Shipments API
   slug: rithum-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/rithum/openapi/rithum-shipments-api-openapi.yml
 - filename: rithum-streams-api-openapi.yml
   format: yaml
   label: Rithum Streams API
   slug: rithum-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/openapi/rithum-streams-api-openapi.yml
+  url: https://artifacts.apis.io/rithum/openapi/rithum-streams-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 4
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dsco-p
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /retailer/order-in\n  method: post\n  operationId: retailerCreateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /retailer/return-in\n  method: post\n  operationId: retailerCreateReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /retailer/cancel-in\n  method: post\n  operationId: retailerRequestCancel\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /retailer/catalog-in\n  method: post\n  operationId: retailerUpdateCatalogAttribution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams\n  method: post\n  operationId: createStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /streams\n  method: get\n  operationId: listStreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/{streamId}/events\n  method: get\n  operationId: getStreamEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/{streamId}/position\n  method: post\n  operationId: updateStreamPosition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/agentic-access/rithum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rithum/agentic-access/rithum-agentic-access.yml
 summary_line: 18 operations · 14 acting
 tags:
 - Commerce
@@ -124,4 +124,6 @@ tags:
 - E-Commerce
 - Supply Chain
 - Retail
+- B2B
+- Platform
 ---

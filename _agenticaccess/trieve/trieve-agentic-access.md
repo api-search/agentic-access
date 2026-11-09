@@ -8,31 +8,31 @@ api_specs:
   label: Trieve Chunk API
   slug: trieve-chunk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-chunk-api-openapi.yml
+  url: https://artifacts.apis.io/trieve/openapi/trieve-chunk-api-openapi.yml
 - filename: trieve-dataset-api-openapi.yml
   format: yaml
   label: Trieve Dataset API
   slug: trieve-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/trieve/openapi/trieve-dataset-api-openapi.yml
 - filename: trieve-file-api-openapi.yml
   format: yaml
   label: Trieve File API
   slug: trieve-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-file-api-openapi.yml
+  url: https://artifacts.apis.io/trieve/openapi/trieve-file-api-openapi.yml
 - filename: trieve-message-api-openapi.yml
   format: yaml
   label: Trieve Message API
   slug: trieve-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-message-api-openapi.yml
+  url: https://artifacts.apis.io/trieve/openapi/trieve-message-api-openapi.yml
 - filename: trieve-topic-api-openapi.yml
   format: yaml
   label: Trieve Topic API
   slug: trieve-topic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-topic-api-openapi.yml
+  url: https://artifacts.apis.io/trieve/openapi/trieve-topic-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trieve-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 5\n  by_consequence:\n    write: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /api/chunk\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/dataset\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/file\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/topic\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/message\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/agentic-access/trieve-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trieve/agentic-access/trieve-agentic-access.yml
 summary_line: 5 operations · 5 acting
 tags:
 - Search

@@ -9,19 +9,19 @@ api_specs:
   label: MailPace API Tokens API
   slug: mailpace-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/mailpace/openapi/mailpace-api-tokens-api-openapi.yml
 - filename: mailpace-domains-api-openapi.yml
   format: yaml
   label: MailPace Domains API
   slug: mailpace-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-domains-api-openapi.yml
+  url: https://artifacts.apis.io/mailpace/openapi/mailpace-domains-api-openapi.yml
 - filename: mailpace-send-api-openapi.yml
   format: yaml
   label: MailPace Send API
   slug: mailpace-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/openapi/mailpace-send-api-openapi.yml
+  url: https://artifacts.apis.io/mailpace/openapi/mailpace-send-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mailpa
   \     - abnormal\n      - high-value\n    audit: required\n- path: /domains/{id}/verify\n  method: post\n  operationId: verifyDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domains/{domain_id}/api_tokens\n  method: get\n  operationId: listApiTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domains/{domain_id}/api_tokens\n  method: post\n  operationId: createApiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /domains/{domain_id}/api_tokens/{id}\n  method: get\n  operationId: getApiToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domains/{domain_id}/api_tokens/{id}\n  method: patch\n  operationId: updateApiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domains/{domain_id}/api_tokens/{id}\n  method: delete\n  operationId: deleteApiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/agentic-access/mailpace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mailpace/agentic-access/mailpace-agentic-access.yml
 summary_line: 11 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Email

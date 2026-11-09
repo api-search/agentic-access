@@ -8,61 +8,61 @@ api_specs:
   label: Energy Information Administration CO2 Emissions API
   slug: energy-information-administration-co2-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-co2-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-co2-emissions-api-openapi.yml
 - filename: energy-information-administration-coal-api-openapi.yml
   format: yaml
   label: Energy Information Administration Coal API
   slug: energy-information-administration-coal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-coal-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-coal-api-openapi.yml
 - filename: energy-information-administration-discovery-api-openapi.yml
   format: yaml
   label: Energy Information Administration Discovery API
   slug: energy-information-administration-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-discovery-api-openapi.yml
 - filename: energy-information-administration-electricity-api-openapi.yml
   format: yaml
   label: Energy Information Administration Electricity API
   slug: energy-information-administration-electricity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-electricity-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-electricity-api-openapi.yml
 - filename: energy-information-administration-international-api-openapi.yml
   format: yaml
   label: Energy Information Administration International API
   slug: energy-information-administration-international-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-international-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-international-api-openapi.yml
 - filename: energy-information-administration-natural-gas-api-openapi.yml
   format: yaml
   label: Energy Information Administration Natural Gas API
   slug: energy-information-administration-natural-gas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-natural-gas-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-natural-gas-api-openapi.yml
 - filename: energy-information-administration-nuclear-api-openapi.yml
   format: yaml
   label: Energy Information Administration Nuclear API
   slug: energy-information-administration-nuclear-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-nuclear-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-nuclear-api-openapi.yml
 - filename: energy-information-administration-petroleum-api-openapi.yml
   format: yaml
   label: Energy Information Administration Petroleum API
   slug: energy-information-administration-petroleum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-petroleum-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-petroleum-api-openapi.yml
 - filename: energy-information-administration-seds-api-openapi.yml
   format: yaml
   label: Energy Information Administration SEDS API
   slug: energy-information-administration-seds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-seds-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-seds-api-openapi.yml
 - filename: energy-information-administration-total-energy-api-openapi.yml
   format: yaml
   label: Energy Information Administration Total Energy API
   slug: energy-information-administration-total-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/openapi/energy-information-administration-total-energy-api-openapi.yml
+  url: https://artifacts.apis.io/energy-information-administration/openapi/energy-information-administration-total-energy-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/energy
   \ get\n  operationId: getElectricityRetailSales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /natural-gas\n  method: get\n  operationId: getNaturalGasRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /natural-gas/pri/sum/data\n  method: get\n  operationId: getNaturalGasPriceSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /petroleum\n  method: get\n  operationId: getPetroleumRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /petroleum/pri/gnd/data\n  method: get\n  operationId: getPetroleumGasolineDieselPrices\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coal\n  method: get\n  operationId: getCoalRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nuclear-outages\n  method: get\n  operationId: getNuclearOutagesRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /total-energy/data\n  method: get\n  operationId: getTotalEnergy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international\n  method: get\n  operationId: getInternationalRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /seds/data\n\
   \  method: get\n  operationId: getStateEnergyData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /co2-emissions/co2-emissions-aggregates/data\n  method: get\n  operationId: getCO2EmissionsAggregates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/agentic-access/energy-information-administration-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/energy-information-administration/agentic-access/energy-information-administration-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Energy

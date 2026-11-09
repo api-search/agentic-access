@@ -9,25 +9,25 @@ api_specs:
   label: Apache RocketMQ Brokers API
   slug: apache-rocketmq-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-rocketmq/openapi/apache-rocketmq-brokers-api-openapi.yml
 - filename: apache-rocketmq-messages-api-openapi.yml
   format: yaml
   label: Apache RocketMQ Messages API
   slug: apache-rocketmq-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-messages-api-openapi.yml
+  url: https://artifacts.apis.io/apache-rocketmq/openapi/apache-rocketmq-messages-api-openapi.yml
 - filename: apache-rocketmq-topics-api-openapi.yml
   format: yaml
   label: Apache RocketMQ Topics API
   slug: apache-rocketmq-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-topics-api-openapi.yml
+  url: https://artifacts.apis.io/apache-rocketmq/openapi/apache-rocketmq-topics-api-openapi.yml
 - filename: apache-rocketmq-consumer-groups-api-openapi.yml
   format: yaml
   label: Apache RocketMQ Consumer Groups API
   slug: apache-rocketmq-consumer-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-consumer-groups-api-openapi.yml
+  url: https://artifacts.apis.io/apache-rocketmq/openapi/apache-rocketmq-consumer-groups-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topics/{topic}\n  method: get\n  operationId: getTopic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics/{topic}\n  method: delete\n  operationId: deleteTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /messages/receive\n  method: post\n  operationId: receiveMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/ack\n  method: post\n  operationId: acknowledgeMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /consumer-groups\n  method: get\n  operationId: listConsumerGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consumer-groups\n  method:\
   \ post\n  operationId: createConsumerGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /brokers\n  method: get\n  operationId: listBrokers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/agentic-access/apache-rocketmq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-rocketmq/agentic-access/apache-rocketmq-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Cloud-Native

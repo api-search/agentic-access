@@ -9,49 +9,49 @@ api_specs:
   label: Weave Contacts API
   slug: weave-hq-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/weave/openapi/weave-contacts-api-openapi.yml
 - filename: weave-events-api-openapi.yml
   format: yaml
   label: Weave Events API
   slug: weave-hq-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-events-api-openapi.yml
+  url: https://artifacts.apis.io/weave/openapi/weave-events-api-openapi.yml
 - filename: weave-forms-api-openapi.yml
   format: yaml
   label: Weave Forms API
   slug: weave-hq-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-forms-api-openapi.yml
+  url: https://artifacts.apis.io/weave/openapi/weave-forms-api-openapi.yml
 - filename: weave-messaging-api-openapi.yml
   format: yaml
   label: Weave Messaging API
   slug: weave-hq-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/weave/openapi/weave-messaging-api-openapi.yml
 - filename: weave-payments-api-openapi.yml
   format: yaml
   label: Weave Payments API
   slug: weave-hq-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-payments-api-openapi.yml
+  url: https://artifacts.apis.io/weave/openapi/weave-payments-api-openapi.yml
 - filename: weave-phone-calls-api-openapi.yml
   format: yaml
   label: Weave Phone & Calls API
   slug: weave-hq-phone-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-phone-calls-api-openapi.yml
+  url: https://artifacts.apis.io/weave/openapi/weave-phone-calls-api-openapi.yml
 - filename: weave-reviews-api-openapi.yml
   format: yaml
   label: Weave Reviews API
   slug: weave-hq-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/weave/openapi/weave-reviews-api-openapi.yml
 - filename: weave-scheduling-api-openapi.yml
   format: yaml
   label: Weave Scheduling API
   slug: weave-hq-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/openapi/weave-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/weave/openapi/weave-scheduling-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 28
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/weave-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/call-queues\n  method: get\n  operationId: listCallQueues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/call-queues/metrics\n  method: get\n  operationId: getCallQueueMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/department/phone-numbers\n  method: get\n  operationId: listDepartmentPhoneNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/provider-review\n  method: get\n  operationId: getProviderReview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/review/completion\n  method: get\n  operationId: getReviewCompletion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/kiosk/listing-status\n  method: get\n  operationId: getListingStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/appointments\n  method: get\n  operationId: listAppointments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/appointment-types\n  method: get\n  operationId: listAppointmentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/schedules\n  method: get\n  operationId:\
   \ listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/calendars/events\n  method: get\n  operationId: listCalendarEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/booking/email-request\n  method: post\n  operationId: createBookingEmailRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/agentic-access/weave-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weave/agentic-access/weave-agentic-access.yml
 summary_line: 38 operations · 10 acting
 tags:
 - Company
@@ -113,5 +113,6 @@ tags:
 - Scheduling
 - Small Business
 - Developer Platform
+- OAuth
 - Authentication
 ---

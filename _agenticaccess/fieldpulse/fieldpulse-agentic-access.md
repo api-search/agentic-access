@@ -9,151 +9,151 @@ api_specs:
   label: FieldPulse Assets API
   slug: fieldpulse-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-assets-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-assets-api-openapi.yml
 - filename: fieldpulse-assets-category-api-openapi.yml
   format: yaml
   label: FieldPulse Assets Category API
   slug: fieldpulse-assets-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-assets-category-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-assets-category-api-openapi.yml
 - filename: fieldpulse-comments-api-openapi.yml
   format: yaml
   label: FieldPulse Comments API
   slug: fieldpulse-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-comments-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-comments-api-openapi.yml
 - filename: fieldpulse-company-profile-api-openapi.yml
   format: yaml
   label: FieldPulse Company Profile API
   slug: fieldpulse-company-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-company-profile-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-company-profile-api-openapi.yml
 - filename: fieldpulse-contracts-api-openapi.yml
   format: yaml
   label: FieldPulse Contracts API
   slug: fieldpulse-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-contracts-api-openapi.yml
 - filename: fieldpulse-custom-fields-api-openapi.yml
   format: yaml
   label: FieldPulse Custom Fields API
   slug: fieldpulse-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-custom-fields-api-openapi.yml
 - filename: fieldpulse-customers-api-openapi.yml
   format: yaml
   label: FieldPulse Customers API
   slug: fieldpulse-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-customers-api-openapi.yml
 - filename: fieldpulse-estimates-api-openapi.yml
   format: yaml
   label: FieldPulse Estimates API
   slug: fieldpulse-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-estimates-api-openapi.yml
 - filename: fieldpulse-invoices-api-openapi.yml
   format: yaml
   label: FieldPulse Invoices API
   slug: fieldpulse-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-invoices-api-openapi.yml
 - filename: fieldpulse-items-api-openapi.yml
   format: yaml
   label: FieldPulse Items API
   slug: fieldpulse-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-items-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-items-api-openapi.yml
 - filename: fieldpulse-jobs-api-openapi.yml
   format: yaml
   label: FieldPulse Jobs API
   slug: fieldpulse-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-jobs-api-openapi.yml
 - filename: fieldpulse-lead-source-api-openapi.yml
   format: yaml
   label: FieldPulse Lead Source API
   slug: fieldpulse-lead-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-lead-source-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-lead-source-api-openapi.yml
 - filename: fieldpulse-locations-api-openapi.yml
   format: yaml
   label: FieldPulse Locations API
   slug: fieldpulse-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-locations-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-locations-api-openapi.yml
 - filename: fieldpulse-material-lists-api-openapi.yml
   format: yaml
   label: FieldPulse Material Lists API
   slug: fieldpulse-material-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-material-lists-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-material-lists-api-openapi.yml
 - filename: fieldpulse-payments-api-openapi.yml
   format: yaml
   label: FieldPulse Payments API
   slug: fieldpulse-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-payments-api-openapi.yml
 - filename: fieldpulse-pipeline-status-api-openapi.yml
   format: yaml
   label: FieldPulse Pipeline Status API
   slug: fieldpulse-pipeline-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-pipeline-status-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-pipeline-status-api-openapi.yml
 - filename: fieldpulse-projects-api-openapi.yml
   format: yaml
   label: FieldPulse Projects API
   slug: fieldpulse-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-projects-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-projects-api-openapi.yml
 - filename: fieldpulse-purchase-orders-api-openapi.yml
   format: yaml
   label: FieldPulse Purchase Orders API
   slug: fieldpulse-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-purchase-orders-api-openapi.yml
 - filename: fieldpulse-subtasks-api-openapi.yml
   format: yaml
   label: FieldPulse Subtasks API
   slug: fieldpulse-subtasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-subtasks-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-subtasks-api-openapi.yml
 - filename: fieldpulse-tags-api-openapi.yml
   format: yaml
   label: FieldPulse Tags API
   slug: fieldpulse-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-tags-api-openapi.yml
 - filename: fieldpulse-teams-api-openapi.yml
   format: yaml
   label: FieldPulse Teams API
   slug: fieldpulse-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-teams-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-teams-api-openapi.yml
 - filename: fieldpulse-timesheets-api-openapi.yml
   format: yaml
   label: FieldPulse Timesheets API
   slug: fieldpulse-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-timesheets-api-openapi.yml
 - filename: fieldpulse-users-api-openapi.yml
   format: yaml
   label: FieldPulse Users API
   slug: fieldpulse-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-users-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-users-api-openapi.yml
 - filename: fieldpulse-vendors-api-openapi.yml
   format: yaml
   label: FieldPulse Vendors API
   slug: fieldpulse-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-vendors-api-openapi.yml
 - filename: fieldpulse-version-api-openapi.yml
   format: yaml
   label: FieldPulse Version API
   slug: fieldpulse-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/openapi/fieldpulse-version-api-openapi.yml
+  url: https://artifacts.apis.io/fieldpulse/openapi/fieldpulse-version-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 52
@@ -263,7 +263,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/fieldp
   \      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: post\n  operationId: postTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams\n  method: get\n  operationId: getTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timesheets/{id}\n  method: get\n  operationId: getTimesheetsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timesheets/{id}\n  method: put\n  operationId: putTimesheetsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheets/{id}\n  method: delete\n  operationId: deleteTimesheetsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheets\n  method: get\n  operationId: getTimesheets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timesheets\n  method: post\n  operationId: postTimesheets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendors/{id}\n  method: get\n  operationId: getVendorsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendors\n  method: get\n  operationId: getVendors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/agentic-access/fieldpulse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fieldpulse/agentic-access/fieldpulse-agentic-access.yml
 summary_line: 109 operations · 57 acting
 tags:
 - Company

@@ -9,7 +9,19 @@ api_specs:
   label: Amazon Global Accelerator AWS Global Accelerator API
   slug: amazon-global-accelerator-aws-global-accelerator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/openapi/amazon-global-accelerator-aws-global-accelerator-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-global-accelerator/openapi/amazon-global-accelerator-aws-global-accelerator-api-openapi.yml
+- filename: amazon-global-accelerator-cross-account-attachment-api-openapi.yml
+  format: yaml
+  label: Amazon Global Accelerator Global Accelerator Cross Account Attachment API
+  slug: amazon-global-accelerator-cross-account-attachment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-global-accelerator/openapi/amazon-global-accelerator-cross-account-attachment-api-openapi.yml
+- filename: amazon-global-accelerator-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Global Accelerator Global Accelerator Operations API
+  slug: amazon-global-accelerator-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-global-accelerator/openapi/amazon-global-accelerator-operations-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10
@@ -76,10 +88,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ UpdateAcceleratorAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GlobalAccelerator_V20180706.UpdateCustomRoutingAccelerator\n  method: post\n  operationId: UpdateCustomRoutingAccelerator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GlobalAccelerator_V20180706.UpdateCustomRoutingAcceleratorAttributes\n  method: post\n  operationId: UpdateCustomRoutingAcceleratorAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GlobalAccelerator_V20180706.UpdateCustomRoutingListener\n  method: post\n  operationId: UpdateCustomRoutingListener\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GlobalAccelerator_V20180706.UpdateEndpointGroup\n  method: post\n  operationId: UpdateEndpointGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GlobalAccelerator_V20180706.UpdateListener\n\
   \  method: post\n  operationId: UpdateListener\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GlobalAccelerator_V20180706.WithdrawByoipCidr\n  method: post\n  operationId: WithdrawByoipCidr\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/agentic-access/amazon-global-accelerator-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-global-accelerator/agentic-access/amazon-global-accelerator-agentic-access.yml
 summary_line: 49 operations · 39 acting
 tags:
 - Availability
+- Amazon Web Services
 - CDN
 - Global
 - Load Balancing

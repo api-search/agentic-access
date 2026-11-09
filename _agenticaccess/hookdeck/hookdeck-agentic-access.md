@@ -9,127 +9,127 @@ api_specs:
   label: Hookdeck Connections API
   slug: hookdeck-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-connections-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-connections-api-openapi.yml
 - filename: hookdeck-sources-api-openapi.yml
   format: yaml
   label: Hookdeck Sources API
   slug: hookdeck-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-sources-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-sources-api-openapi.yml
 - filename: hookdeck-destinations-api-openapi.yml
   format: yaml
   label: Hookdeck Destinations API
   slug: hookdeck-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-destinations-api-openapi.yml
 - filename: hookdeck-events-api-openapi.yml
   format: yaml
   label: Hookdeck Events API
   slug: hookdeck-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-events-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-events-api-openapi.yml
 - filename: hookdeck-requests-api-openapi.yml
   format: yaml
   label: Hookdeck Requests API
   slug: hookdeck-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-requests-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-requests-api-openapi.yml
 - filename: hookdeck-transformations-api-openapi.yml
   format: yaml
   label: Hookdeck Transformations API
   slug: hookdeck-transformations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-transformations-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-transformations-api-openapi.yml
 - filename: hookdeck-bookmarks-api-openapi.yml
   format: yaml
   label: Hookdeck Bookmarks API
   slug: hookdeck-bookmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bookmarks-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-bookmarks-api-openapi.yml
 - filename: hookdeck-issues-api-openapi.yml
   format: yaml
   label: Hookdeck Issues API
   slug: hookdeck-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-issues-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-issues-api-openapi.yml
 - filename: hookdeck-metrics-api-openapi.yml
   format: yaml
   label: Hookdeck Metrics API
   slug: hookdeck-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-metrics-api-openapi.yml
 - filename: hookdeck-integrations-api-openapi.yml
   format: yaml
   label: Hookdeck Integrations API
   slug: hookdeck-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-integrations-api-openapi.yml
 - filename: hookdeck-notifications-api-openapi.yml
   format: yaml
   label: Hookdeck Notifications API
   slug: hookdeck-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-notifications-api-openapi.yml
 - filename: hookdeck-attempts-api-openapi.yml
   format: yaml
   label: Hookdeck Attempts API
   slug: hookdeck-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-attempts-api-openapi.yml
 - filename: hookdeck-issue-triggers-api-openapi.yml
   format: yaml
   label: Hookdeck Issue Triggers API
   slug: hookdeck-issue-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-issue-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-issue-triggers-api-openapi.yml
 - filename: hookdeck-configuration-api-openapi.yml
   format: yaml
   label: Hookdeck Configuration API
   slug: hookdeck-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-configuration-api-openapi.yml
 - filename: hookdeck-health-api-openapi.yml
   format: yaml
   label: Hookdeck Health API
   slug: hookdeck-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-health-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-health-api-openapi.yml
 - filename: hookdeck-operator-events-api-openapi.yml
   format: yaml
   label: Hookdeck Operator Events API
   slug: hookdeck-operator-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-operator-events-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-operator-events-api-openapi.yml
 - filename: hookdeck-publish-api-openapi.yml
   format: yaml
   label: Hookdeck Publish API
   slug: hookdeck-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-publish-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-publish-api-openapi.yml
 - filename: hookdeck-retry-api-openapi.yml
   format: yaml
   label: Hookdeck Retry API
   slug: hookdeck-retry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-retry-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-retry-api-openapi.yml
 - filename: hookdeck-schemas-api-openapi.yml
   format: yaml
   label: Hookdeck Schemas API
   slug: hookdeck-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-schemas-api-openapi.yml
 - filename: hookdeck-tenants-api-openapi.yml
   format: yaml
   label: Hookdeck Tenants API
   slug: hookdeck-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-tenants-api-openapi.yml
 - filename: hookdeck-topics-api-openapi.yml
   format: yaml
   label: Hookdeck Topics API
   slug: hookdeck-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-topics-api-openapi.yml
+  url: https://artifacts.apis.io/hookdeck/openapi/hookdeck-topics-api-openapi.yml
 consequence_counts:
   read: 54
   safety-critical: 7
@@ -228,8 +228,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hookde
   \      - abnormal\n      - high-value\n    audit: required\n- path: /sources/{id}/disable\n  method: put\n  operationId: disableSource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /sources/{id}/archive\n  method: put\n  operationId: disableSource_archive\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /sources/{id}/enable\n  method: put\n  operationId: enableSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sources/{id}/unarchive\n  method: put\n  operationId: enableSource_unarchive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transformations\n  method: get\n  operationId: getTransformations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transformations\n  method: post\n  operationId: createTransformation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transformations\n  method: put\n  operationId: upsertTransformation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transformations/count\n  method: get\n  operationId: getTransformationsCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transformations/{id}\n  method: get\n  operationId: getTransformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n\
-  # Full source: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/agentic-access/hookdeck-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/agentic-access/hookdeck-agentic-access.yml
+  # Full source: https://artifacts.apis.io/hookdeck/agentic-access/hookdeck-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/hookdeck/agentic-access/hookdeck-agentic-access.yml
 summary_line: 116 operations · 62 acting · 7 human-in-the-loop
 tags:
 - Webhook

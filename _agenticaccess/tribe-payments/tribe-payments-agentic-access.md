@@ -9,229 +9,229 @@ api_specs:
   label: Tribe Payments 3DS authentication required API
   slug: tribe-payments-3ds-authentication-required-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-3ds-authentication-required-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-3ds-authentication-required-api-openapi.yml
 - filename: tribe-payments-account-api-openapi.yml
   format: yaml
   label: Tribe Payments Account API
   slug: tribe-payments-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-account-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-account-api-openapi.yml
 - filename: tribe-payments-accounts-api-openapi.yml
   format: yaml
   label: Tribe Payments Accounts API
   slug: tribe-payments-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-accounts-api-openapi.yml
 - filename: tribe-payments-app-api-openapi.yml
   format: yaml
   label: Tribe Payments App API
   slug: tribe-payments-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-app-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-app-api-openapi.yml
 - filename: tribe-payments-authorization-api-openapi.yml
   format: yaml
   label: Tribe Payments Authorization API
   slug: tribe-payments-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-authorization-api-openapi.yml
 - filename: tribe-payments-authorize-api-openapi.yml
   format: yaml
   label: Tribe Payments Authorize API
   slug: tribe-payments-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-authorize-api-openapi.yml
 - filename: tribe-payments-bulk-payments-api-openapi.yml
   format: yaml
   label: Tribe Payments Bulk payments API
   slug: tribe-payments-bulk-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-bulk-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-bulk-payments-api-openapi.yml
 - filename: tribe-payments-cancel-api-openapi.yml
   format: yaml
   label: Tribe Payments Cancel API
   slug: tribe-payments-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-cancel-api-openapi.yml
 - filename: tribe-payments-cancel-recurring-api-openapi.yml
   format: yaml
   label: Tribe Payments Cancel recurring API
   slug: tribe-payments-cancel-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-cancel-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-cancel-recurring-api-openapi.yml
 - filename: tribe-payments-capture-api-openapi.yml
   format: yaml
   label: Tribe Payments Capture API
   slug: tribe-payments-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-capture-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-capture-api-openapi.yml
 - filename: tribe-payments-credit-api-openapi.yml
   format: yaml
   label: Tribe Payments Credit API
   slug: tribe-payments-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-credit-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-credit-api-openapi.yml
 - filename: tribe-payments-direct-payments-api-openapi.yml
   format: yaml
   label: Tribe Payments Direct payments API
   slug: tribe-payments-direct-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-direct-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-direct-payments-api-openapi.yml
 - filename: tribe-payments-direct-payments-without-bank-api-openapi.yml
   format: yaml
   label: Tribe Payments Direct payments without Bank API
   slug: tribe-payments-direct-payments-without-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-direct-payments-without-bank-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-direct-payments-without-bank-api-openapi.yml
 - filename: tribe-payments-disputes-api-openapi.yml
   format: yaml
   label: Tribe Payments Disputes API
   slug: tribe-payments-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-disputes-api-openapi.yml
 - filename: tribe-payments-event-data-api-openapi.yml
   format: yaml
   label: Tribe Payments Event Data API
   slug: tribe-payments-event-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-event-data-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-event-data-api-openapi.yml
 - filename: tribe-payments-funds-api-openapi.yml
   format: yaml
   label: Tribe Payments Funds API
   slug: tribe-payments-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-funds-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-funds-api-openapi.yml
 - filename: tribe-payments-funds-confirmation-api-openapi.yml
   format: yaml
   label: Tribe Payments Funds confirmation API
   slug: tribe-payments-funds-confirmation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-funds-confirmation-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-funds-confirmation-api-openapi.yml
 - filename: tribe-payments-general-api-openapi.yml
   format: yaml
   label: Tribe Payments General API
   slug: tribe-payments-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-general-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-general-api-openapi.yml
 - filename: tribe-payments-health-check-api-openapi.yml
   format: yaml
   label: Tribe Payments Health Check API
   slug: tribe-payments-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-health-check-api-openapi.yml
 - filename: tribe-payments-host-api-openapi.yml
   format: yaml
   label: Tribe Payments Host API
   slug: tribe-payments-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-host-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-host-api-openapi.yml
 - filename: tribe-payments-incremental-authorize-api-openapi.yml
   format: yaml
   label: Tribe Payments Incremental authorize API
   slug: tribe-payments-incremental-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-incremental-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-incremental-authorize-api-openapi.yml
 - filename: tribe-payments-order-status-api-openapi.yml
   format: yaml
   label: Tribe Payments Order status API
   slug: tribe-payments-order-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-order-status-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-order-status-api-openapi.yml
 - filename: tribe-payments-payment-api-openapi.yml
   format: yaml
   label: Tribe Payments Payment API
   slug: tribe-payments-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-payment-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-payment-api-openapi.yml
 - filename: tribe-payments-payments-api-openapi.yml
   format: yaml
   label: Tribe Payments API
   slug: tribe-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-payments-api-openapi.yml
 - filename: tribe-payments-performance-api-openapi.yml
   format: yaml
   label: Tribe Payments Performance API
   slug: tribe-payments-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-performance-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-performance-api-openapi.yml
 - filename: tribe-payments-pre-authorize-api-openapi.yml
   format: yaml
   label: Tribe Payments Pre authorize API
   slug: tribe-payments-pre-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-pre-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-pre-authorize-api-openapi.yml
 - filename: tribe-payments-prepare-api-openapi.yml
   format: yaml
   label: Tribe Payments Prepare API
   slug: tribe-payments-prepare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-prepare-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-prepare-api-openapi.yml
 - filename: tribe-payments-prepare-error-api-openapi.yml
   format: yaml
   label: Tribe Payments Prepare error API
   slug: tribe-payments-prepare-error-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-prepare-error-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-prepare-error-api-openapi.yml
 - filename: tribe-payments-prepare-success-api-openapi.yml
   format: yaml
   label: Tribe Payments Prepare success API
   slug: tribe-payments-prepare-success-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-prepare-success-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-prepare-success-api-openapi.yml
 - filename: tribe-payments-process-api-openapi.yml
   format: yaml
   label: Tribe Payments Process API
   slug: tribe-payments-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-process-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-process-api-openapi.yml
 - filename: tribe-payments-processing-accounts-api-openapi.yml
   format: yaml
   label: Tribe Payments Processing accounts API
   slug: tribe-payments-processing-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-processing-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-processing-accounts-api-openapi.yml
 - filename: tribe-payments-processor-api-openapi.yml
   format: yaml
   label: Tribe Payments Processor API
   slug: tribe-payments-processor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-processor-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-processor-api-openapi.yml
 - filename: tribe-payments-refund-api-openapi.yml
   format: yaml
   label: Tribe Payments Refund API
   slug: tribe-payments-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-refund-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-refund-api-openapi.yml
 - filename: tribe-payments-sale-api-openapi.yml
   format: yaml
   label: Tribe Payments Sale API
   slug: tribe-payments-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-sale-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-sale-api-openapi.yml
 - filename: tribe-payments-status-api-openapi.yml
   format: yaml
   label: Tribe Payments Status API
   slug: tribe-payments-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-status-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-status-api-openapi.yml
 - filename: tribe-payments-transactions-api-openapi.yml
   format: yaml
   label: Tribe Payments Transactions API
   slug: tribe-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-transactions-api-openapi.yml
 - filename: tribe-payments-user-actions-trigger-api-openapi.yml
   format: yaml
   label: Tribe Payments User Actions Trigger API
   slug: tribe-payments-user-actions-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-user-actions-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-user-actions-trigger-api-openapi.yml
 - filename: tribe-payments-p2p-api-openapi.yml
   format: yaml
   label: Tribe Payments P2P API
   slug: tribe-payments-p2p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-p2p-api-openapi.yml
+  url: https://artifacts.apis.io/tribe-payments/openapi/tribe-payments-p2p-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 32
@@ -390,8 +390,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tribe-
   \  method: post\n  operationId: postprocess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /process\n  method: post\n  operationId: postprocess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /registered-processing-accounts-address\n  method: post\n  operationId: postprocessing-accounts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /processing-accounts\n  method: post\n  operationId: postprocessing-accounts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processors/{processorId}/hosts\n  method: get\n  operationId: getProcessorsByProcessorIdHosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processors/{processorId}/hosts\n  method: post\n  operationId: postProcessorsByProcessorIdHosts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /processors/{processorId}/hosts/{hostId}\n  method: get\n  operationId: getProcessorsByProcessorIdHostsByHostId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processors/{processorId}/hosts/{hostId}\n  method: put\n  operationId: putProcessorsByProcessorIdHostsByHostId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processors/{processorId}/hosts/{hostId}\n  method: delete\n  operationId: deleteProcessorsByProcessorIdHostsByHostId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
-  \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processors/{processorId}/devices\n  method: get\n  operationId: getProcessorsByProcessorIdDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processors/{processorId}/devices/{deviceId}\n  method: get\n  operationId: getProcessorsByProcessorIdDevicesByDeviceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processors/{processorId}/terminals/{terminalId}\n  method: get\n  operationId: getProcessorsByProcessorIdTerminalsByTerminalId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/agentic-access/tribe-payments-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/agentic-access/tribe-payments-agentic-access.yml
+  \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processors/{processorId}/devices\n  method: get\n  operationId: getProcessorsByProcessorIdDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processors/{processorId}/devices/{deviceId}\n  method: get\n  operationId: getProcessorsByProcessorIdDevicesByDeviceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processors/{processorId}/terminals/{terminalId}\n  method: get\n  operationId: getProcessorsByProcessorIdTerminalsByTerminalId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/tribe-payments/agentic-access/tribe-payments-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/tribe-payments/agentic-access/tribe-payments-agentic-access.yml
 summary_line: 102 operations · 70 acting · 1 human-in-the-loop
 tags:
 - Payments

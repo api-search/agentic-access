@@ -9,37 +9,37 @@ api_specs:
   label: Harbor Compliance Filings API
   slug: harbor-compliance-compliance-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-compliance-filings-api-openapi.yml
+  url: https://artifacts.apis.io/harbor-compliance/openapi/harbor-compliance-compliance-filings-api-openapi.yml
 - filename: harbor-compliance-entities-api-openapi.yml
   format: yaml
   label: Harbor Compliance Entities API
   slug: harbor-compliance-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-entities-api-openapi.yml
+  url: https://artifacts.apis.io/harbor-compliance/openapi/harbor-compliance-entities-api-openapi.yml
 - filename: harbor-compliance-jurisdictions-api-openapi.yml
   format: yaml
   label: Harbor Compliance Jurisdictions API
   slug: harbor-compliance-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/harbor-compliance/openapi/harbor-compliance-jurisdictions-api-openapi.yml
 - filename: harbor-compliance-licenses-api-openapi.yml
   format: yaml
   label: Harbor Compliance Licenses API
   slug: harbor-compliance-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/harbor-compliance/openapi/harbor-compliance-licenses-api-openapi.yml
 - filename: harbor-compliance-orders-api-openapi.yml
   format: yaml
   label: Harbor Compliance Orders API
   slug: harbor-compliance-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-orders-api-openapi.yml
+  url: https://artifacts.apis.io/harbor-compliance/openapi/harbor-compliance-orders-api-openapi.yml
 - filename: harbor-compliance-registered-agents-api-openapi.yml
   format: yaml
   label: Harbor Compliance Registered Agents API
   slug: harbor-compliance-registered-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/openapi/harbor-compliance-registered-agents-api-openapi.yml
+  url: https://artifacts.apis.io/harbor-compliance/openapi/harbor-compliance-registered-agents-api-openapi.yml
 consequence_counts:
   read: 13
   write: 5
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/harbor
   \ required\n- path: /registered-agents\n  method: get\n  operationId: listRegisteredAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registered-agents\n  method: post\n  operationId: createRegisteredAgentAppointment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /registered-agents/{agentId}\n  method: get\n  operationId: getRegisteredAgent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /filings\n  method: get\n  operationId: listFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /filings/{filingId}\n  method: get\n  operationId: getFiling\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jurisdictions\n  method: get\n  operationId: listJurisdictions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jurisdictions/{state}\n  method: get\n  operationId: getJurisdiction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/agentic-access/harbor-compliance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/harbor-compliance/agentic-access/harbor-compliance-agentic-access.yml
 summary_line: 18 operations · 5 acting
 tags:
 - Business Licensing

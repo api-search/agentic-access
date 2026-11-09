@@ -9,25 +9,25 @@ api_specs:
   label: Afero Cloud Authentication API
   slug: authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-authentication-api-openapi.yml
 - filename: afero-users-api-openapi.yml
   format: yaml
   label: Afero Cloud Users API
   slug: users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-users-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-users-api-openapi.yml
 - filename: afero-devices-api-openapi.yml
   format: yaml
   label: Afero Cloud Devices API
   slug: devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-devices-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-devices-api-openapi.yml
 - filename: afero-ota-api-openapi.yml
   format: yaml
   label: Afero Cloud OTA Firmware API
   slug: ota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-ota-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-ota-api-openapi.yml
 consequence_counts:
   read: 13
   write: 12
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/afero-
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ota/partners/{partnerId}/deviceTypes/{deviceTypeId}/firmwareImages\n  method: post\n  operationId: createDeviceTypeFirmwareImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ota/partners/{partnerId}/deviceTypes/{deviceTypeId}/firmwareImages\n  method: get\n  operationId: listDeviceTypeFirmwareImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ota/partners/{partnerId}/deviceTypes/{deviceTypeId}/firmwareImages/types/{type}\n  method: get\n  operationId: listDeviceTypeFirmwareImagesByType\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ota/partners/{partnerId}/deviceTypes/{deviceTypeId}/firmwareImages/types/{type}/versionNumbers/{versionNumber}\n  method: get\n  operationId: getDeviceTypeFirmwareImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ota/partners/{partnerId}/deviceTypes/{deviceTypeId}/firmwareImages/types/{type}/versionNumbers/{versionNumber}\n  method: delete\n  operationId: deleteDeviceTypeFirmwareImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ota/partners/{partnerId}/deviceTypes/{deviceTypeId}/firmwareImages/{firmwareImageId}/push\n\
   \  method: put\n  operationId: pushFirmwareImageToDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ota/partners/{partnerId}/tags\n  method: get\n  operationId: listFirmwareTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/agentic-access/afero-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/afero/agentic-access/afero-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
 - Company

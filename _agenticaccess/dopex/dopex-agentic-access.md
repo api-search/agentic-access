@@ -8,49 +8,49 @@ api_specs:
   label: Dopex Deposit API
   slug: dopex-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/dopex/openapi/dopex-deposit-api-openapi.yml
 - filename: dopex-exercise-api-openapi.yml
   format: yaml
   label: Dopex Exercise API
   slug: dopex-exercise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-exercise-api-openapi.yml
+  url: https://artifacts.apis.io/dopex/openapi/dopex-exercise-api-openapi.yml
 - filename: dopex-option-markets-api-openapi.yml
   format: yaml
   label: Dopex Option Markets API
   slug: dopex-option-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-option-markets-api-openapi.yml
+  url: https://artifacts.apis.io/dopex/openapi/dopex-option-markets-api-openapi.yml
 - filename: dopex-purchase-api-openapi.yml
   format: yaml
   label: Dopex Purchase API
   slug: dopex-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/dopex/openapi/dopex-purchase-api-openapi.yml
 - filename: dopex-stats-api-openapi.yml
   format: yaml
   label: Dopex Stats API
   slug: dopex-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-stats-api-openapi.yml
+  url: https://artifacts.apis.io/dopex/openapi/dopex-stats-api-openapi.yml
 - filename: dopex-strikes-chain-api-openapi.yml
   format: yaml
   label: Dopex Strikes Chain API
   slug: dopex-strikes-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-strikes-chain-api-openapi.yml
+  url: https://artifacts.apis.io/dopex/openapi/dopex-strikes-chain-api-openapi.yml
 - filename: dopex-withdraw-api-openapi.yml
   format: yaml
   label: Dopex Withdraw API
   slug: dopex-withdraw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-withdraw-api-openapi.yml
+  url: https://artifacts.apis.io/dopex/openapi/dopex-withdraw-api-openapi.yml
 - filename: dopex-xsyk-api-openapi.yml
   format: yaml
   label: Dopex xSYK API
   slug: dopex-xsyk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/openapi/dopex-xsyk-api-openapi.yml
+  url: https://artifacts.apis.io/dopex/openapi/dopex-xsyk-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stryke
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.1/clamm/option-markets\n  method: get\n  operationId: OptionMarketsController_getOptionMarketsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clamm/stats/fees\n  method: get\n  operationId: StatsController_getFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clamm/stats/volume\n  method: get\n  operationId: StatsController_getVolume\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clamm/stats/dau\n  method: get\n  operationId: StatsController_getDau\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clamm/stats/open-interest\n  method: get\n  operationId: StatsController_getOpenInterest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clamm/stats/tvl\n  method: get\n  operationId: StatsController_getTvl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clamm/stats/tvl/{pool}\n  method: get\n  operationId: StatsController_getTvlForPool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clamm/stats/delta\n  method: get\n  operationId: StatsController_getPnlDelta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /xsyk/vest-positions/{account}\n  method: get\n  operationId: VestPositionsController_getUserData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/agentic-access/dopex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dopex/agentic-access/dopex-agentic-access.yml
 summary_line: 20 operations
 tags:
 - DeFi

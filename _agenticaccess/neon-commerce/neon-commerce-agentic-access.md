@@ -9,79 +9,79 @@ api_specs:
   label: Neon Commerce Account API
   slug: neon-commerce-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-account-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-account-api-openapi.yml
 - filename: neon-commerce-assets-api-openapi.yml
   format: yaml
   label: Neon Commerce Assets API
   slug: neon-commerce-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-assets-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-assets-api-openapi.yml
 - filename: neon-commerce-auth-api-openapi.yml
   format: yaml
   label: Neon Commerce Auth API
   slug: neon-commerce-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-auth-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-auth-api-openapi.yml
 - filename: neon-commerce-checkout-api-openapi.yml
   format: yaml
   label: Neon Commerce Checkout API
   slug: neon-commerce-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-checkout-api-openapi.yml
 - filename: neon-commerce-client-api-openapi.yml
   format: yaml
   label: Neon Commerce Client API
   slug: neon-commerce-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-client-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-client-api-openapi.yml
 - filename: neon-commerce-payouts-api-openapi.yml
   format: yaml
   label: Neon Commerce Payouts API
   slug: neon-commerce-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-payouts-api-openapi.yml
 - filename: neon-commerce-prices-api-openapi.yml
   format: yaml
   label: Neon Commerce Prices API
   slug: neon-commerce-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-prices-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-prices-api-openapi.yml
 - filename: neon-commerce-pricing-sheet-api-openapi.yml
   format: yaml
   label: Neon Commerce Pricing Sheet API
   slug: neon-commerce-pricing-sheet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-pricing-sheet-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-pricing-sheet-api-openapi.yml
 - filename: neon-commerce-purchases-api-openapi.yml
   format: yaml
   label: Neon Commerce Purchases API
   slug: neon-commerce-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-purchases-api-openapi.yml
 - filename: neon-commerce-reports-api-openapi.yml
   format: yaml
   label: Neon Commerce Reports API
   slug: neon-commerce-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-reports-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-reports-api-openapi.yml
 - filename: neon-commerce-status-api-openapi.yml
   format: yaml
   label: Neon Commerce Status API
   slug: neon-commerce-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-status-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-status-api-openapi.yml
 - filename: neon-commerce-storefront-api-openapi.yml
   format: yaml
   label: Neon Commerce Storefront API
   slug: neon-commerce-storefront-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-storefront-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-storefront-api-openapi.yml
 - filename: neon-commerce-subscriptions-api-openapi.yml
   format: yaml
   label: Neon Commerce Subscriptions API
   slug: neon-commerce-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/openapi/neon-commerce-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/neon-commerce/openapi/neon-commerce-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 20
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/neon-c
   \  method: put\n  operationId: updateStorefrontOfferGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storefront/prices\n  method: get\n  operationId: getRegionalPricingByIpAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storefront/theme\n  method: get\n  operationId: getTheme\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storefront/theme\n  method: put\n  operationId: updateTheme\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storefront/callbacks\n  method: post\n  operationId: subscribeToCallbacks\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/cancel\n  method: post\n  operationId: cancelSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/update-payment-method\n  method: post\n\
   \  operationId: generateUpdatePaymentMethodUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: postSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/agentic-access/neon-commerce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/neon-commerce/agentic-access/neon-commerce-agentic-access.yml
 summary_line: 48 operations · 28 acting
 tags:
 - Commerce

@@ -9,61 +9,61 @@ api_specs:
   label: Wealthbox Activity API
   slug: wealthbox-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-activity-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-activity-api-openapi.yml
 - filename: wealthbox-contacts-api-openapi.yml
   format: yaml
   label: Wealthbox Contacts API
   slug: wealthbox-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-contacts-api-openapi.yml
 - filename: wealthbox-events-api-openapi.yml
   format: yaml
   label: Wealthbox Events API
   slug: wealthbox-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-events-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-events-api-openapi.yml
 - filename: wealthbox-notes-api-openapi.yml
   format: yaml
   label: Wealthbox Notes API
   slug: wealthbox-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-notes-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-notes-api-openapi.yml
 - filename: wealthbox-opportunities-api-openapi.yml
   format: yaml
   label: Wealthbox Opportunities API
   slug: wealthbox-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-opportunities-api-openapi.yml
 - filename: wealthbox-profile-api-openapi.yml
   format: yaml
   label: Wealthbox Profile API
   slug: wealthbox-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-profile-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-profile-api-openapi.yml
 - filename: wealthbox-tasks-api-openapi.yml
   format: yaml
   label: Wealthbox Tasks API
   slug: wealthbox-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-tasks-api-openapi.yml
 - filename: wealthbox-teams-api-openapi.yml
   format: yaml
   label: Wealthbox Teams API
   slug: wealthbox-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-teams-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-teams-api-openapi.yml
 - filename: wealthbox-users-api-openapi.yml
   format: yaml
   label: Wealthbox Users API
   slug: wealthbox-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-users-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-users-api-openapi.yml
 - filename: wealthbox-workflows-api-openapi.yml
   format: yaml
   label: Wealthbox Workflows API
   slug: wealthbox-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/wealthbox/openapi/wealthbox-workflows-api-openapi.yml
 consequence_counts:
   read: 13
   write: 11
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wealth
   \  audit: none\n- path: /events\n  method: post\n  operationId: createEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opportunities\n  method: get\n  operationId: listOpportunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /opportunities\n  method: post\n  operationId: createOpportunity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notes\n  method: get\n  operationId: listNotes\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notes\n  method: post\n  operationId: createNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows\n  method: get\n  operationId: listWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows\n  method: post\n  operationId: createWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /workflows/{id}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{id}\n  method: delete\n  operationId: deleteWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/agentic-access/wealthbox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wealthbox/agentic-access/wealthbox-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
 - CRM

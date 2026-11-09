@@ -9,61 +9,61 @@ api_specs:
   label: Wodify Classes API
   slug: wodify-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-classes-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-classes-api-openapi.yml
 - filename: wodify-clients-api-openapi.yml
   format: yaml
   label: Wodify Clients API
   slug: wodify-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-clients-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-clients-api-openapi.yml
 - filename: wodify-communications-api-openapi.yml
   format: yaml
   label: Wodify Communications API
   slug: wodify-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-communications-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-communications-api-openapi.yml
 - filename: wodify-financials-api-openapi.yml
   format: yaml
   label: Wodify Financials API
   slug: wodify-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-financials-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-financials-api-openapi.yml
 - filename: wodify-leads-api-openapi.yml
   format: yaml
   label: Wodify Leads API
   slug: wodify-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-leads-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-leads-api-openapi.yml
 - filename: wodify-memberships-api-openapi.yml
   format: yaml
   label: Wodify Memberships API
   slug: wodify-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-memberships-api-openapi.yml
 - filename: wodify-programs-api-openapi.yml
   format: yaml
   label: Wodify Programs API
   slug: wodify-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-programs-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-programs-api-openapi.yml
 - filename: wodify-reference-api-openapi.yml
   format: yaml
   label: Wodify Reference API
   slug: wodify-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-reference-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-reference-api-openapi.yml
 - filename: wodify-services-api-openapi.yml
   format: yaml
   label: Wodify Services API
   slug: wodify-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-services-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-services-api-openapi.yml
 - filename: wodify-workouts-api-openapi.yml
   format: yaml
   label: Wodify Workouts API
   slug: wodify-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/openapi/wodify-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/wodify/openapi/wodify-workouts-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 17
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wodify
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: getLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees\n  method: get\n  operationId: getEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: get\n  operationId: getServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workouts\n  method: get\n  operationId: getWorkouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workouts\n  method: post\n  operationId:\
   \ createWorkout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workouts/{id}\n  method: get\n  operationId: getWorkout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workouts/{id}\n  method: put\n  operationId: updateWorkout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workouts/{id}\n  method: delete\n  operationId: deleteWorkout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/agentic-access/wodify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wodify/agentic-access/wodify-agentic-access.yml
 summary_line: 30 operations · 13 acting
 tags:
 - Fitness

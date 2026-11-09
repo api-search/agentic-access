@@ -9,55 +9,91 @@ api_specs:
   label: Contextual AI Agents API
   slug: contextual-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-api-openapi.yml
 - filename: contextual-ai-agents-query-api-openapi.yml
   format: yaml
   label: Contextual AI Agents Query API
   slug: contextual-ai-agents-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-agents-query-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-query-api-openapi.yml
 - filename: contextual-ai-datastores-api-openapi.yml
   format: yaml
   label: Contextual AI Datastores API
   slug: contextual-ai-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-datastores-api-openapi.yml
 - filename: contextual-ai-documents-api-openapi.yml
   format: yaml
   label: Contextual AI Documents API
   slug: contextual-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-documents-api-openapi.yml
 - filename: contextual-ai-generate-api-openapi.yml
   format: yaml
   label: Contextual AI Generate API
   slug: contextual-ai-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-generate-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-generate-api-openapi.yml
 - filename: contextual-ai-lmunit-api-openapi.yml
   format: yaml
   label: Contextual AI LMUnit API
   slug: contextual-ai-lmunit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-lmunit-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-lmunit-api-openapi.yml
 - filename: contextual-ai-parse-api-openapi.yml
   format: yaml
   label: Contextual AI Parse API
   slug: contextual-ai-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-parse-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-parse-api-openapi.yml
 - filename: contextual-ai-rerank-api-openapi.yml
   format: yaml
   label: Contextual AI Rerank API
   slug: contextual-ai-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-rerank-api-openapi.yml
 - filename: contextual-ai-users-api-openapi.yml
   format: yaml
   label: Contextual AI Users API
   slug: contextual-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-users-api-openapi.yml
+- filename: contextual-ai-agents-id-query-api-openapi.yml
+  format: yaml
+  label: Contextual AI /agents/{id}/query API
+  slug: contextual-ai-agents-id-query-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-id-query-api-openapi.yml
+- filename: contextual-ai-billing-api-openapi.yml
+  format: yaml
+  label: Contextual AI /billing API
+  slug: contextual-ai-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-billing-api-openapi.yml
+- filename: contextual-ai-contents-api-openapi.yml
+  format: yaml
+  label: Contextual AI /contents API
+  slug: contextual-ai-contents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-contents-api-openapi.yml
+- filename: contextual-ai-datastores-id-documents-api-openapi.yml
+  format: yaml
+  label: Contextual AI /datastores/{id}/documents API
+  slug: contextual-ai-datastores-id-documents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-datastores-id-documents-api-openapi.yml
+- filename: contextual-ai-extract-api-openapi.yml
+  format: yaml
+  label: Contextual AI /extract API
+  slug: contextual-ai-extract-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-extract-api-openapi.yml
+- filename: contextual-ai-workspaces-api-openapi.yml
+  format: yaml
+  label: Contextual AI /workspaces API
+  slug: contextual-ai-workspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-workspaces-api-openapi.yml
 consequence_counts:
   read: 10
   write: 15
@@ -92,7 +128,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/contex
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parse/jobs/{job_id}/status\n  method: get\n  operationId: parseStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parse/jobs/{job_id}/results\n  method: get\n  operationId: parseResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parse/jobs\n  method: get\n  operationId: parseListJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rerank\n  method: post\n  operationId: rerank\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: delete\n  operationId: removeUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /users/invite\n  method: post\n  operationId: inviteUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/agentic-access/contextual-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/contextual-ai/agentic-access/contextual-ai-agentic-access.yml
 summary_line: 25 operations · 15 acting
 tags:
 - Artificial Intelligence

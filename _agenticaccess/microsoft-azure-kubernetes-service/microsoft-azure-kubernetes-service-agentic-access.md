@@ -9,13 +9,13 @@ api_specs:
   label: Azure Kubernetes Service Agent Pools API
   slug: microsoft-azure-kubernetes-service-agent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/openapi/microsoft-azure-kubernetes-service-agent-pools-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-kubernetes-service/openapi/microsoft-azure-kubernetes-service-agent-pools-api-openapi.yml
 - filename: microsoft-azure-kubernetes-service-managed-clusters-api-openapi.yml
   format: yaml
   label: Azure Kubernetes Service Managed Clusters API
   slug: microsoft-azure-kubernetes-service-managed-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/openapi/microsoft-azure-kubernetes-service-managed-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-kubernetes-service/openapi/microsoft-azure-kubernetes-service-managed-clusters-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 3
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/managedClusters/{resourceName}/agentPools/{agentPoolName}/availableAgentPoolVersions\n  method: get\n  operationId: AgentPools_GetAvailableAgentPoolVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/managedClusters/{resourceName}/agentPools/{agentPoolName}/upgradeNodeImageVersion\n  method: post\n  operationId: AgentPools_UpgradeNodeImageVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/managedClusters/{resourceName}/agentPools/{agentPoolName}/abort\n  method: post\n  operationId: AgentPools_AbortLatestOperation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/managedClusters/{resourceName}/agentPools/{agentPoolName}/deleteMachines\n  method: post\n  operationId: AgentPools_DeleteMachines\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/agentic-access/microsoft-azure-kubernetes-service-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-kubernetes-service/agentic-access/microsoft-azure-kubernetes-service-agentic-access.yml
 summary_line: 24 operations · 16 acting · 3 human-in-the-loop
 tags:
 - Microsoft Azure

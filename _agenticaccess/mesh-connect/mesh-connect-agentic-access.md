@@ -9,73 +9,73 @@ api_specs:
   label: Mesh Connect Assets API
   slug: mesh-connect-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-assets-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-assets-api-openapi.yml
 - filename: mesh-connect-auth-token-api-openapi.yml
   format: yaml
   label: Mesh Connect Auth token API
   slug: mesh-connect-auth-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-auth-token-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-auth-token-api-openapi.yml
 - filename: mesh-connect-balance-api-openapi.yml
   format: yaml
   label: Mesh Connect Balance API
   slug: mesh-connect-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-balance-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-balance-api-openapi.yml
 - filename: mesh-connect-brokeraccountdetail-api-openapi.yml
   format: yaml
   label: Mesh Connect BrokerAccountDetail API
   slug: mesh-connect-brokeraccountdetail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-brokeraccountdetail-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-brokeraccountdetail-api-openapi.yml
 - filename: mesh-connect-main-clients-api-openapi.yml
   format: yaml
   label: Mesh Connect Main Clients API
   slug: mesh-connect-main-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-main-clients-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-main-clients-api-openapi.yml
 - filename: mesh-connect-managed-account-authentication-api-openapi.yml
   format: yaml
   label: Mesh Connect Managed Account Authentication API
   slug: mesh-connect-managed-account-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-managed-account-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-managed-account-authentication-api-openapi.yml
 - filename: mesh-connect-managed-transfers-api-openapi.yml
   format: yaml
   label: Mesh Connect Managed Transfers API
   slug: mesh-connect-managed-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-managed-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-managed-transfers-api-openapi.yml
 - filename: mesh-connect-portfolio-api-openapi.yml
   format: yaml
   label: Mesh Connect Portfolio API
   slug: mesh-connect-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-portfolio-api-openapi.yml
 - filename: mesh-connect-registered-clients-api-openapi.yml
   format: yaml
   label: Mesh Connect Registered Clients API
   slug: mesh-connect-registered-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-registered-clients-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-registered-clients-api-openapi.yml
 - filename: mesh-connect-self-managed-account-authentication-api-openapi.yml
   format: yaml
   label: Mesh Connect Self Managed Account Authentication API
   slug: mesh-connect-self-managed-account-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-self-managed-account-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-self-managed-account-authentication-api-openapi.yml
 - filename: mesh-connect-transactions-api-openapi.yml
   format: yaml
   label: Mesh Connect Transactions API
   slug: mesh-connect-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-transactions-api-openapi.yml
 - filename: mesh-connect-transfers-api-openapi.yml
   format: yaml
   label: Mesh Connect Transfers API
   slug: mesh-connect-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-transfers-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 26
@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mesh-c
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/transfers/list\n  method: post\n  operationId: postApiV1TransfersList\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/transfers/details\n  method: post\n  operationId: postApiV1TransfersDetails\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/transfers\n\
   \  method: post\n  operationId: postApiV1Transfers\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/transfers/address/get\n  method: post\n  operationId: postApiV1TransfersAddressGet\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/transfers/symbol/details\n  method: post\n  operationId: postApiV1TransfersSymbolDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/agentic-access/mesh-connect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mesh-connect/agentic-access/mesh-connect-agentic-access.yml
 summary_line: 50 operations · 24 acting
 tags:
 - Company

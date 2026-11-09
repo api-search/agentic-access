@@ -9,25 +9,25 @@ api_specs:
   label: Cloudflare Queues Consumer API
   slug: cloudflare-queues-consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-consumer-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-consumer-api-openapi.yml
 - filename: cloudflare-queues-messages-api-openapi.yml
   format: yaml
   label: Cloudflare Queues Messages API
   slug: cloudflare-queues-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-messages-api-openapi.yml
 - filename: cloudflare-queues-metrics-api-openapi.yml
   format: yaml
   label: Cloudflare Queues Metrics API
   slug: cloudflare-queues-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-metrics-api-openapi.yml
 - filename: cloudflare-queues-queue-api-openapi.yml
   format: yaml
   label: Cloudflare Queues Queue API
   slug: cloudflare-queues-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-queue-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-queues/openapi/cloudflare-queues-queue-api-openapi.yml
 consequence_counts:
   read: 6
   write: 14
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloudf
   \   - high-value\n    audit: required\n- path: /accounts/{account_id}/queues/{queue_id}/messages/batch\n  method: post\n  operationId: queues-push-messages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/queues/{queue_id}/messages/preview\n  method: post\n  operationId: queues-preview-messages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/queues/{queue_id}/messages/preview/ack\n  method: post\n  operationId: queues-ack-preview-messages\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/queues/{queue_id}/messages/pull\n  method: post\n  operationId: queues-pull-messages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/queues/{queue_id}/metrics\n  method: get\n  operationId: queues-get-metrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/queues/{queue_id}/purge\n  method: get\n  operationId: queues-purge-get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/queues/{queue_id}/purge\n  method: post\n  operationId: queues-purge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/agentic-access/cloudflare-queues-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-queues/agentic-access/cloudflare-queues-agentic-access.yml
 summary_line: 20 operations · 14 acting
 tags:
 - Messaging

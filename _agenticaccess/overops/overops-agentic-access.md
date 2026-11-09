@@ -9,97 +9,97 @@ api_specs:
   label: Overops Alerts API
   slug: overops-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-alerts-api-openapi.yml
 - filename: overops-categories-api-openapi.yml
   format: yaml
   label: Overops Categories API
   slug: overops-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-categories-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-categories-api-openapi.yml
 - filename: overops-code-redaction-api-openapi.yml
   format: yaml
   label: Overops Code Redaction API
   slug: overops-code-redaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-code-redaction-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-code-redaction-api-openapi.yml
 - filename: overops-data-redaction-api-openapi.yml
   format: yaml
   label: Overops Data Redaction API
   slug: overops-data-redaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-data-redaction-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-data-redaction-api-openapi.yml
 - filename: overops-entry-points-api-openapi.yml
   format: yaml
   label: Overops Entry Points API
   slug: overops-entry-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-entry-points-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-entry-points-api-openapi.yml
 - filename: overops-environment-management-api-openapi.yml
   format: yaml
   label: Overops Environment Management API
   slug: overops-environment-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-environment-management-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-environment-management-api-openapi.yml
 - filename: overops-events-api-openapi.yml
   format: yaml
   label: Overops Events API
   slug: overops-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-events-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-events-api-openapi.yml
 - filename: overops-general-api-openapi.yml
   format: yaml
   label: Overops General API
   slug: overops-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-general-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-general-api-openapi.yml
 - filename: overops-labels-api-openapi.yml
   format: yaml
   label: Overops Labels API
   slug: overops-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-labels-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-labels-api-openapi.yml
 - filename: overops-publish-metrics-api-openapi.yml
   format: yaml
   label: Overops Publish Metrics API
   slug: overops-publish-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-publish-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-publish-metrics-api-openapi.yml
 - filename: overops-system-metrics-api-openapi.yml
   format: yaml
   label: Overops System Metrics API
   slug: overops-system-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-system-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-system-metrics-api-openapi.yml
 - filename: overops-team-management-api-openapi.yml
   format: yaml
   label: Overops Team Management API
   slug: overops-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-team-management-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-team-management-api-openapi.yml
 - filename: overops-timers-api-openapi.yml
   format: yaml
   label: Overops Timers API
   slug: overops-timers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-timers-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-timers-api-openapi.yml
 - filename: overops-udfs-api-openapi.yml
   format: yaml
   label: Overops UDFs API
   slug: overops-udfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-udfs-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-udfs-api-openapi.yml
 - filename: overops-view-metrics-api-openapi.yml
   format: yaml
   label: Overops View Metrics API
   slug: overops-view-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-view-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-view-metrics-api-openapi.yml
 - filename: overops-views-api-openapi.yml
   format: yaml
   label: Overops Views API
   slug: overops-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/openapi/overops-views-api-openapi.yml
+  url: https://artifacts.apis.io/overops/openapi/overops-views-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 76
@@ -173,8 +173,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/overop
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{env_id}/events/{event_id}/actions\n  method: get\n  operationId: getServicesByEnvIdEventsByEventIdActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}/views/{view_id}/events\n  method: get\n  operationId: getServicesByEnvIdViewsByViewIdEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}/views/{view_id}/events/stats\n  method: get\n  operationId: getServicesByEnvIdViewsByViewIdEventsStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}/views/{view_id}/entrypoints\n  method: get\n  operationId: getServicesByEnvIdViewsByViewIdEntrypoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: get\n  operationId: getServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: put\n  operationId: putServices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{env_id}\n  method: get\n  operationId: getServicesByEnvId\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}\n  method: post\n  operationId: postServicesByEnvId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{env_id}/settings\n  method: get\n  operationId: getServicesByEnvIdSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}/servers\n  method: get\n  operationId: getServicesByEnvIdServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}/applications\n  method: get\n  operationId:\
-  \ getServicesByEnvIdApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}/deployments\n  method: get\n  operationId: getServicesByEnvIdDeployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}/settings/storage-settings\n  method: get\n  operationId: getServicesByEnvIdSettingsStorageSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/agentic-access/overops-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/agentic-access/overops-agentic-access.yml
+  \ getServicesByEnvIdApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}/deployments\n  method: get\n  operationId: getServicesByEnvIdDeployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{env_id}/settings/storage-settings\n  method: get\n  operationId: getServicesByEnvIdSettingsStorageSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://artifacts.apis.io/overops/agentic-access/overops-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/overops/agentic-access/overops-agentic-access.yml
 summary_line: 144 operations · 68 acting · 1 human-in-the-loop
 tags:
 - Company

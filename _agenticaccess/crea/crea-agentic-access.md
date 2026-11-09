@@ -9,37 +9,37 @@ api_specs:
   label: CREA (REALTOR.ca) Destination API
   slug: crea-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-destination-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-destination-api-openapi.yml
 - filename: crea-lead-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Lead API
   slug: crea-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-lead-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-lead-api-openapi.yml
 - filename: crea-member-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Member API
   slug: crea-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-member-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-member-api-openapi.yml
 - filename: crea-office-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Office API
   slug: crea-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-office-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-office-api-openapi.yml
 - filename: crea-openhouse-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Open House API
   slug: crea-openhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-openhouse-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-openhouse-api-openapi.yml
 - filename: crea-property-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Property API
   slug: crea-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-property-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-property-api-openapi.yml
 consequence_counts:
   read: 36
   write: 2
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/crea-r
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/v1/Office/{OfficeKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/v1/Office/OfficeReplication()\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/v1/Office/OfficeReplication(DestinationId={DestinationId})\n  method: get\n  operationId: odata/v1/Office/OfficeReplication(DestinationId={DestinationId})\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/v1/OpenHouse\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/v1/OpenHouse/{OpenHouseKey}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/v1/Property\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/v1/Property/{PropertyKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/v1/Property/PropertyReplication()\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/v1/Property/PropertyReplication(DestinationId={DestinationId})\n  method: get\n  operationId: odata/v1/Property/PropertyReplication(DestinationId={DestinationId})\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/agentic-access/crea-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crea/agentic-access/crea-agentic-access.yml
 summary_line: 38 operations · 2 acting
 tags:
 - Real Estate

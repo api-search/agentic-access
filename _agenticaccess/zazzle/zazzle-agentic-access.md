@@ -8,19 +8,19 @@ api_specs:
   label: Zazzle Create a Product API
   slug: zazzle-create-a-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zazzle/refs/heads/main/openapi/zazzle-create-a-product-api-openapi.yml
+  url: https://artifacts.apis.io/zazzle/openapi/zazzle-create-a-product-api-openapi.yml
 - filename: zazzle-realview-api-openapi.yml
   format: yaml
   label: Zazzle Real View API
   slug: zazzle-realview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zazzle/refs/heads/main/openapi/zazzle-realview-api-openapi.yml
+  url: https://artifacts.apis.io/zazzle/openapi/zazzle-realview-api-openapi.yml
 - filename: zazzle-vendor-api-openapi.yml
   format: yaml
   label: Zazzle Vendor API
   slug: zazzle-vendor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zazzle/refs/heads/main/openapi/zazzle-vendor-api-openapi.yml
+  url: https://artifacts.apis.io/zazzle/openapi/zazzle-vendor-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/zazzle-create-a-product-openapi.yml, openapi/zazzle-realview-openapi.yml, openapi/zazzle-vendor-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/create/at-{accountId}\n  method: get\n  operationId: createProductFromTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /svc/view\n  method: get\n  operationId: getRealViewProductImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api.aspx\n  method: get\n  operationId: callVendorApiMethod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zazzle/refs/heads/main/agentic-access/zazzle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zazzle/agentic-access/zazzle-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Company

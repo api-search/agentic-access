@@ -9,43 +9,43 @@ api_specs:
   label: Metriport Consolidated API
   slug: metriport-consolidated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-consolidated-api-openapi.yml
+  url: https://artifacts.apis.io/metriport/openapi/metriport-consolidated-api-openapi.yml
 - filename: metriport-devices-data-api-openapi.yml
   format: yaml
   label: Metriport Devices Data API
   slug: metriport-devices-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-devices-data-api-openapi.yml
+  url: https://artifacts.apis.io/metriport/openapi/metriport-devices-data-api-openapi.yml
 - filename: metriport-document-api-openapi.yml
   format: yaml
   label: Metriport Document API
   slug: metriport-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-document-api-openapi.yml
+  url: https://artifacts.apis.io/metriport/openapi/metriport-document-api-openapi.yml
 - filename: metriport-facility-api-openapi.yml
   format: yaml
   label: Metriport Facility API
   slug: metriport-facility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-facility-api-openapi.yml
+  url: https://artifacts.apis.io/metriport/openapi/metriport-facility-api-openapi.yml
 - filename: metriport-patient-api-openapi.yml
   format: yaml
   label: Metriport Patient API
   slug: metriport-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-patient-api-openapi.yml
+  url: https://artifacts.apis.io/metriport/openapi/metriport-patient-api-openapi.yml
 - filename: metriport-settings-api-openapi.yml
   format: yaml
   label: Metriport Settings API
   slug: metriport-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-settings-api-openapi.yml
+  url: https://artifacts.apis.io/metriport/openapi/metriport-settings-api-openapi.yml
 - filename: metriport-user-api-openapi.yml
   format: yaml
   label: Metriport User API
   slug: metriport-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/openapi/metriport-user-api-openapi.yml
+  url: https://artifacts.apis.io/metriport/openapi/metriport-user-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/metrip
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/connect/token\n  method: get\n  operationId: getConnectToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/revoke\n  method: delete\n  operationId: revokeUserAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /activity\n  method: get\n  operationId: getActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /biometrics\n  method: get\n  operationId: getBiometrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /body\n  method: get\n  operationId: getBody\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nutrition\n  method: get\n  operationId: getNutrition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sleep\n  method: get\n  operationId: getSleep\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings\n  method: get\n  operationId: getSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /settings\n  method: post\n  operationId: updateSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/webhook\n  method: get\n  operationId: getWebhookStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/webhook/retry\n  method: post\n  operationId: retryWebhookRequests\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/agentic-access/metriport-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/metriport/agentic-access/metriport-agentic-access.yml
 summary_line: 30 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Healthcare

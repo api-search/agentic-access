@@ -9,43 +9,43 @@ api_specs:
   label: Apache Flink Checkpoints API
   slug: flink-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-checkpoints-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-checkpoints-api-openapi.yml
 - filename: flink-cluster-api-openapi.yml
   format: yaml
   label: Apache Flink Cluster API
   slug: flink-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-cluster-api-openapi.yml
 - filename: flink-datasets-api-openapi.yml
   format: yaml
   label: Apache Flink Datasets API
   slug: flink-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-datasets-api-openapi.yml
 - filename: flink-jobs-api-openapi.yml
   format: yaml
   label: Apache Flink Jobs API
   slug: flink-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-jobs-api-openapi.yml
 - filename: flink-jars-api-openapi.yml
   format: yaml
   label: Apache Flink JA Rs API
   slug: flink-jars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-jars-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-jars-api-openapi.yml
 - filename: flink-job-manager-api-openapi.yml
   format: yaml
   label: Apache Flink Job Manager API
   slug: flink-job-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-job-manager-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-job-manager-api-openapi.yml
 - filename: flink-task-managers-api-openapi.yml
   format: yaml
   label: Apache Flink Task Managers API
   slug: flink-task-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-task-managers-api-openapi.yml
+  url: https://artifacts.apis.io/flink/openapi/flink-task-managers-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 2
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flink-
   \    audit: none\n- path: /jobs/{jobid}/checkpoints/details/{checkpointid}\n  method: get\n  operationId: getCheckpointDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jars\n  method: get\n  operationId: listJars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jars/upload\n  method: post\n  operationId: uploadJar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jars/{jarid}\n  method: delete\n  operationId: deleteJar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jars/{jarid}/plan\n  method: get\n  operationId: getJarPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jars/{jarid}/run\n  method: post\n  operationId: runJar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /taskmanagers\n  method: get\n  operationId: listTaskManagers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taskmanagers/{taskmanagerid}/metrics\n  method: get\n\
   \  operationId: getTaskManagerMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taskmanagers/{taskmanagerid}/logs\n  method: get\n  operationId: listTaskManagerLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{datasetid}\n  method: delete\n  operationId: deleteDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/agentic-access/flink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flink/agentic-access/flink-agentic-access.yml
 summary_line: 29 operations · 7 acting · 2 human-in-the-loop
 tags:
 - Big Data

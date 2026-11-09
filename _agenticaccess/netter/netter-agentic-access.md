@@ -9,265 +9,265 @@ api_specs:
   label: Netter Actions API
   slug: netter-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-actions-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-actions-api-openapi.yml
 - filename: netter-api-keys-api-openapi.yml
   format: yaml
   label: Netter API Keys API
   slug: netter-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-api-keys-api-openapi.yml
 - filename: netter-app-chat-api-openapi.yml
   format: yaml
   label: Netter App Chat API
   slug: netter-app-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-app-chat-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-app-chat-api-openapi.yml
 - filename: netter-apps-api-openapi.yml
   format: yaml
   label: Netter Apps API
   slug: netter-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-apps-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-apps-api-openapi.yml
 - filename: netter-apps-query-api-openapi.yml
   format: yaml
   label: Netter Apps Query API
   slug: netter-apps-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-apps-query-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-apps-query-api-openapi.yml
 - filename: netter-assistant-api-openapi.yml
   format: yaml
   label: Netter Assistant API
   slug: netter-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-assistant-api-openapi.yml
 - filename: netter-attributes-api-openapi.yml
   format: yaml
   label: Netter Attributes API
   slug: netter-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-attributes-api-openapi.yml
 - filename: netter-automations-api-openapi.yml
   format: yaml
   label: Netter Automations API
   slug: netter-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-automations-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-automations-api-openapi.yml
 - filename: netter-chats-api-openapi.yml
   format: yaml
   label: Netter Chats API
   slug: netter-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-chats-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-chats-api-openapi.yml
 - filename: netter-companies-api-openapi.yml
   format: yaml
   label: Netter Companies API
   slug: netter-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-companies-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-companies-api-openapi.yml
 - filename: netter-dashboard-chat-api-openapi.yml
   format: yaml
   label: Netter Dashboard Chat API
   slug: netter-dashboard-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-dashboard-chat-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-dashboard-chat-api-openapi.yml
 - filename: netter-dashboard-data-api-openapi.yml
   format: yaml
   label: Netter Dashboard Data API
   slug: netter-dashboard-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-dashboard-data-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-dashboard-data-api-openapi.yml
 - filename: netter-dashboard-versions-api-openapi.yml
   format: yaml
   label: Netter Dashboard Versions API
   slug: netter-dashboard-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-dashboard-versions-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-dashboard-versions-api-openapi.yml
 - filename: netter-dashboards-api-openapi.yml
   format: yaml
   label: Netter Dashboards API
   slug: netter-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-dashboards-api-openapi.yml
 - filename: netter-databases-api-openapi.yml
   format: yaml
   label: Netter Databases API
   slug: netter-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-databases-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-databases-api-openapi.yml
 - filename: netter-file-folders-api-openapi.yml
   format: yaml
   label: Netter File Folders API
   slug: netter-file-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-file-folders-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-file-folders-api-openapi.yml
 - filename: netter-files-api-openapi.yml
   format: yaml
   label: Netter Files API
   slug: netter-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-files-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-files-api-openapi.yml
 - filename: netter-folders-api-openapi.yml
   format: yaml
   label: Netter Folders API
   slug: netter-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-folders-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-folders-api-openapi.yml
 - filename: netter-groups-api-openapi.yml
   format: yaml
   label: Netter Groups API
   slug: netter-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-groups-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-groups-api-openapi.yml
 - filename: netter-infra-api-openapi.yml
   format: yaml
   label: Netter Infra API
   slug: netter-infra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-infra-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-infra-api-openapi.yml
 - filename: netter-integrations-api-openapi.yml
   format: yaml
   label: Netter Integrations API
   slug: netter-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-integrations-api-openapi.yml
 - filename: netter-internal-api-openapi.yml
   format: yaml
   label: Netter Internal API
   slug: netter-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-internal-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-internal-api-openapi.yml
 - filename: netter-join-advisor-api-openapi.yml
   format: yaml
   label: Netter Join Advisor API
   slug: netter-join-advisor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-join-advisor-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-join-advisor-api-openapi.yml
 - filename: netter-lego-architect-api-openapi.yml
   format: yaml
   label: Netter Lego Architect API
   slug: netter-lego-architect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-lego-architect-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-lego-architect-api-openapi.yml
 - filename: netter-me-api-openapi.yml
   format: yaml
   label: Netter Me API
   slug: netter-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-me-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-me-api-openapi.yml
 - filename: netter-monitoring-api-openapi.yml
   format: yaml
   label: Netter Monitoring API
   slug: netter-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-monitoring-api-openapi.yml
 - filename: netter-ontology-api-openapi.yml
   format: yaml
   label: Netter Ontology API
   slug: netter-ontology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-ontology-api-openapi.yml
 - filename: netter-ontology-chat-api-openapi.yml
   format: yaml
   label: Netter Ontology Chat API
   slug: netter-ontology-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-chat-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-ontology-chat-api-openapi.yml
 - filename: netter-ontology-entities-api-openapi.yml
   format: yaml
   label: Netter Ontology Entities API
   slug: netter-ontology-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-entities-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-ontology-entities-api-openapi.yml
 - filename: netter-ontology-promotion-api-openapi.yml
   format: yaml
   label: Netter Ontology Promotion API
   slug: netter-ontology-promotion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-promotion-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-ontology-promotion-api-openapi.yml
 - filename: netter-ontology-query-api-openapi.yml
   format: yaml
   label: Netter Ontology Query API
   slug: netter-ontology-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-query-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-ontology-query-api-openapi.yml
 - filename: netter-ontology-records-api-openapi.yml
   format: yaml
   label: Netter Ontology Records API
   slug: netter-ontology-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-records-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-ontology-records-api-openapi.yml
 - filename: netter-ontology-relationships-api-openapi.yml
   format: yaml
   label: Netter Ontology Relationships API
   slug: netter-ontology-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-ontology-relationships-api-openapi.yml
 - filename: netter-ontology-rows-api-openapi.yml
   format: yaml
   label: Netter Ontology Rows API
   slug: netter-ontology-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-rows-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-ontology-rows-api-openapi.yml
 - filename: netter-ontology-traversal-api-openapi.yml
   format: yaml
   label: Netter Ontology Traversal API
   slug: netter-ontology-traversal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-traversal-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-ontology-traversal-api-openapi.yml
 - filename: netter-operators-api-openapi.yml
   format: yaml
   label: Netter Operators API
   slug: netter-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-operators-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-operators-api-openapi.yml
 - filename: netter-permissions-api-openapi.yml
   format: yaml
   label: Netter Permissions API
   slug: netter-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-permissions-api-openapi.yml
 - filename: netter-project-steps-api-openapi.yml
   format: yaml
   label: Netter Project Steps API
   slug: netter-project-steps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-project-steps-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-project-steps-api-openapi.yml
 - filename: netter-projects-api-openapi.yml
   format: yaml
   label: Netter Projects API
   slug: netter-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-projects-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-projects-api-openapi.yml
 - filename: netter-row-policies-api-openapi.yml
   format: yaml
   label: Netter Row Policies API
   slug: netter-row-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-row-policies-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-row-policies-api-openapi.yml
 - filename: netter-run-history-api-openapi.yml
   format: yaml
   label: Netter Run History API
   slug: netter-run-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-run-history-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-run-history-api-openapi.yml
 - filename: netter-step-output-api-openapi.yml
   format: yaml
   label: Netter Step Output API
   slug: netter-step-output-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-step-output-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-step-output-api-openapi.yml
 - filename: netter-steps-api-openapi.yml
   format: yaml
   label: Netter Steps API
   slug: netter-steps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-steps-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-steps-api-openapi.yml
 - filename: netter-workflow-architect-api-openapi.yml
   format: yaml
   label: Netter Workflow Architect API
   slug: netter-workflow-architect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-workflow-architect-api-openapi.yml
+  url: https://artifacts.apis.io/netter/openapi/netter-workflow-architect-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 132
@@ -386,8 +386,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/netter
   \ required\n- path: /api/v1/chats/{chat_id}/context-usage\n  method: get\n  operationId: get_context_usage_api_v1_chats__chat_id__context_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}/compact\n  method: post\n  operationId: compact_chat_api_v1_chats__chat_id__compact_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies\n  method: get\n  operationId: list_my_companies_api_v1_companies_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies\n  method: post\n  operationId: create_company_api_v1_companies_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/accept-invitation\n  method: post\n  operationId: accept_invitation_api_v1_companies_accept_invitation_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/invitations/validate\n  method: get\n  operationId: validate_invitation_api_v1_companies_invitations_validate_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}/switch\n\
   \  method: post\n  operationId: switch_default_company_api_v1_companies__company_id__switch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/{company_id}\n  method: get\n  operationId: get_company_api_v1_companies__company_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}\n  method: patch\n  operationId: update_company_api_v1_companies__company_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
-  \     - high-value\n    audit: required\n- path: /api/v1/companies/{company_id}/invite\n  method: post\n  operationId: invite_member_api_v1_companies__company_id__invite_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (103 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/agentic-access/netter-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/agentic-access/netter-agentic-access.yml
+  \     - high-value\n    audit: required\n- path: /api/v1/companies/{company_id}/invite\n  method: post\n  operationId: invite_member_api_v1_companies__company_id__invite_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (103 KB total) ---\n# Full source: https://artifacts.apis.io/netter/agentic-access/netter-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/netter/agentic-access/netter-agentic-access.yml
 summary_line: 298 operations · 166 acting · 2 human-in-the-loop
 tags:
 - Company

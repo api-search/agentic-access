@@ -9,43 +9,43 @@ api_specs:
   label: Vectara Agents API
   slug: vectara-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-agents-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-agents-api-openapi.yml
 - filename: vectara-authentication-api-openapi.yml
   format: yaml
   label: Vectara Authentication API
   slug: vectara-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-authentication-api-openapi.yml
 - filename: vectara-corpora-api-openapi.yml
   format: yaml
   label: Vectara Corpora API
   slug: vectara-corpora-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-corpora-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-corpora-api-openapi.yml
 - filename: vectara-documents-api-openapi.yml
   format: yaml
   label: Vectara Documents API
   slug: vectara-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-documents-api-openapi.yml
 - filename: vectara-pipelines-api-openapi.yml
   format: yaml
   label: Vectara Pipelines API
   slug: vectara-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-pipelines-api-openapi.yml
 - filename: vectara-query-api-openapi.yml
   format: yaml
   label: Vectara Query API
   slug: vectara-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-query-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-query-api-openapi.yml
 - filename: vectara-tools-api-openapi.yml
   format: yaml
   label: Vectara Tools API
   slug: vectara-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-tools-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-tools-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/vectar
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/pipeline-runs\n  method: get\n  operationId: listPipelineRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/corpora/{corpus_key}/query\n  method: post\n  operationId: queryCorpus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/corpora/{corpus_key}/search\n  method: post\n  operationId: searchCorpus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/corpora/{corpus_key}/queries\n  method: post\n  operationId: queriesCorpus\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tools\n  method: get\n  operationId: listTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tools\n  method: post\n  operationId: createTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tool-servers\n  method: get\n  operationId: listToolServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tool-servers\n\
   \  method: post\n  operationId: createToolServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/agentic-access/vectara-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vectara/agentic-access/vectara-agentic-access.yml
 summary_line: 34 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

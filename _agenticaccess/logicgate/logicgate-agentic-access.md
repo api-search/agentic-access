@@ -9,67 +9,67 @@ api_specs:
   label: LogicGate Access Audit API
   slug: logicgate-access-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-access-audit-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-access-audit-api-openapi.yml
 - filename: logicgate-application-api-openapi.yml
   format: yaml
   label: LogicGate Application API
   slug: logicgate-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-application-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-application-api-openapi.yml
 - filename: logicgate-authentication-api-openapi.yml
   format: yaml
   label: LogicGate Authentication API
   slug: logicgate-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-authentication-api-openapi.yml
 - filename: logicgate-edge-path-api-openapi.yml
   format: yaml
   label: LogicGate Edge Path API
   slug: logicgate-edge-path-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-edge-path-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-edge-path-api-openapi.yml
 - filename: logicgate-field-api-openapi.yml
   format: yaml
   label: LogicGate Field API
   slug: logicgate-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-field-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-field-api-openapi.yml
 - filename: logicgate-next-path-api-openapi.yml
   format: yaml
   label: LogicGate Next Path API
   slug: logicgate-next-path-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-next-path-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-next-path-api-openapi.yml
 - filename: logicgate-record-api-openapi.yml
   format: yaml
   label: LogicGate Record API
   slug: logicgate-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-record-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-record-api-openapi.yml
 - filename: logicgate-redirect-path-api-openapi.yml
   format: yaml
   label: LogicGate Redirect Path API
   slug: logicgate-redirect-path-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-redirect-path-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-redirect-path-api-openapi.yml
 - filename: logicgate-step-api-openapi.yml
   format: yaml
   label: LogicGate Step API
   slug: logicgate-step-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-step-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-step-api-openapi.yml
 - filename: logicgate-workflow-api-openapi.yml
   format: yaml
   label: LogicGate Workflow API
   slug: logicgate-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-workflow-api-openapi.yml
 - filename: logicgate-workflow-map-api-openapi.yml
   format: yaml
   label: LogicGate Workflow Map API
   slug: logicgate-workflow-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/logicgate-workflow-map-api-openapi.yml
+  url: https://artifacts.apis.io/logicgate/openapi/logicgate-workflow-map-api-openapi.yml
 consequence_counts:
   read: 19
   write: 24
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/logicg
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/applications/{id}\n  method: patch\n  operationId: update_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/records\n  method: get\n  operationId: readAllRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/records/{id}\n  method: get\n  operationId: readRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/records/{id}/linked\n  method: get\n  operationId: readAllLinkedRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/paths/next/{next-path}\n  method: get\n  operationId: readNextPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/paths/next/{next-path}\n  method: delete\n  operationId: deleteNextPath\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/fields\n  method: get\n  operationId: readAllFields\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/audits/access\n  method: get\n  operationId: readAllAccessAudits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/agentic-access/logicgate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/logicgate/agentic-access/logicgate-agentic-access.yml
 summary_line: 43 operations · 24 acting
 tags:
 - Company

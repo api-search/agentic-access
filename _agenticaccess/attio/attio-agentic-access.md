@@ -9,103 +9,103 @@ api_specs:
   label: Attio Attributes API
   slug: attio-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-attributes-api-openapi.yml
 - filename: attio-call-recordings-api-openapi.yml
   format: yaml
   label: Attio Call Recordings API
   slug: attio-call-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-call-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-call-recordings-api-openapi.yml
 - filename: attio-comments-api-openapi.yml
   format: yaml
   label: Attio Comments API
   slug: attio-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-comments-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-comments-api-openapi.yml
 - filename: attio-entries-api-openapi.yml
   format: yaml
   label: Attio Entries API
   slug: attio-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-entries-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-entries-api-openapi.yml
 - filename: attio-files-api-openapi.yml
   format: yaml
   label: Attio Files API
   slug: attio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-files-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-files-api-openapi.yml
 - filename: attio-lists-api-openapi.yml
   format: yaml
   label: Attio Lists API
   slug: attio-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-lists-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-lists-api-openapi.yml
 - filename: attio-meetings-api-openapi.yml
   format: yaml
   label: Attio Meetings API
   slug: attio-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-meetings-api-openapi.yml
 - filename: attio-meta-api-openapi.yml
   format: yaml
   label: Attio Meta API
   slug: attio-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-meta-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-meta-api-openapi.yml
 - filename: attio-notes-api-openapi.yml
   format: yaml
   label: Attio Notes API
   slug: attio-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-notes-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-notes-api-openapi.yml
 - filename: attio-objects-api-openapi.yml
   format: yaml
   label: Attio Objects API
   slug: attio-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-objects-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-objects-api-openapi.yml
 - filename: attio-records-api-openapi.yml
   format: yaml
   label: Attio Records API
   slug: attio-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-records-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-records-api-openapi.yml
 - filename: attio-tasks-api-openapi.yml
   format: yaml
   label: Attio Tasks API
   slug: attio-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-tasks-api-openapi.yml
 - filename: attio-threads-api-openapi.yml
   format: yaml
   label: Attio Threads API
   slug: attio-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-threads-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-threads-api-openapi.yml
 - filename: attio-webhooks-api-openapi.yml
   format: yaml
   label: Attio Webhooks API
   slug: attio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-webhooks-api-openapi.yml
 - filename: attio-workspace-members-api-openapi.yml
   format: yaml
   label: Attio Workspace Members API
   slug: attio-workspace-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-workspace-members-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-workspace-members-api-openapi.yml
 - filename: attio-list-entries-api-openapi.yml
   format: yaml
   label: Attio List Entries API
   slug: attio-list-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-list-entries-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-list-entries-api-openapi.yml
 - filename: attio-oauth-api-openapi.yml
   format: yaml
   label: Attio O Auth API
   slug: attio-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/openapi/attio-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/attio/openapi/attio-oauth-api-openapi.yml
 consequence_counts:
   read: 25
   write: 27
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/attio-
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/threads\n  method: get\n  operationId: listThreads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks/{webhook_id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/workspace-members\n  method: get\n  operationId: listWorkspaceMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v2/workspace-members/{member_id}\n  method: get\n  operationId: getWorkspaceMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/agentic-access/attio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/attio/agentic-access/attio-agentic-access.yml
 summary_line: 52 operations · 27 acting
 tags:
 - CRM

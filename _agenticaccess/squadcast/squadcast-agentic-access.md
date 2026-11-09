@@ -9,19 +9,19 @@ api_specs:
   label: Squadcast Authentication API
   slug: squadcast-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/squadcast/openapi/squadcast-authentication-api-openapi.yml
 - filename: squadcast-incidents-api-openapi.yml
   format: yaml
   label: Squadcast Incidents API
   slug: squadcast-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/squadcast/openapi/squadcast-incidents-api-openapi.yml
 - filename: squadcast-requests-api-openapi.yml
   format: yaml
   label: Squadcast Requests API
   slug: squadcast-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/openapi/squadcast-requests-api-openapi.yml
+  url: https://artifacts.apis.io/squadcast/openapi/squadcast-requests-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/squadc
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/incidents/{incidentID}/reassign\n  method: post\n  operationId: reassignIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/incidents/{incidentID}/priority\n  method: patch\n  operationId: updateIncidentPriority\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/incidents/acknowledge\n  method: post\n  operationId: bulkAcknowledgeIncidents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/incidents/resolve\n  method: post\n  operationId: bulkResolveIncidents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/incidents/priority\n  method: put\n  operationId: bulkUpdateIncidentPriority\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/incidents/export\n  method: get\n  operationId: exportIncidents\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/incidents/export/async\n  method: post\n  operationId: exportIncidentsAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/requests/status\n  method: post\n  operationId: getRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/agentic-access/squadcast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/squadcast/agentic-access/squadcast-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Incident Response

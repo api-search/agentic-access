@@ -9,25 +9,25 @@ api_specs:
   label: Colissimo Description et exemples des méthodes du WS SLS API
   slug: colissimo-description-et-exemples-des-m-thodes-du-ws-sls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/openapi/colissimo-description-et-exemples-des-m-thodes-du-ws-sls-api-openapi.yml
+  url: https://artifacts.apis.io/colissimo/openapi/colissimo-description-et-exemples-des-m-thodes-du-ws-sls-api-openapi.yml
 - filename: colissimo-g-n-ration-de-bordereau-de-d-pot-api-openapi.yml
   format: yaml
   label: Colissimo Génération de bordereau de dépot API
   slug: colissimo-g-n-ration-de-bordereau-de-d-pot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/openapi/colissimo-g-n-ration-de-bordereau-de-d-pot-api-openapi.yml
+  url: https://artifacts.apis.io/colissimo/openapi/colissimo-g-n-ration-de-bordereau-de-d-pot-api-openapi.yml
 - filename: colissimo-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
   format: yaml
   label: 'Colissimo SlsInternalService : Services destinés aux applications internes API'
   slug: colissimo-slsinternalservice-services-destin-s-aux-applications-internes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/openapi/colissimo-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
+  url: https://artifacts.apis.io/colissimo/openapi/colissimo-slsinternalservice-services-destin-s-aux-applications-internes-api-openapi.yml
 - filename: colissimo-slsservicews-documentation-api-openapi.yml
   format: yaml
   label: 'Colissimo SlsServiceWS : documentation API'
   slug: colissimo-slsservicews-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/openapi/colissimo-slsservicews-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/colissimo/openapi/colissimo-slsservicews-documentation-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/coliss
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /SlsInternalService/checkInfoPlanPickup\n  method: post\n  operationId: checkInfoPlanPickup_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /SlsInternalService/getListMailBoxPickingDates\n  method: post\n  operationId: getListMailBoxPickingDates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /SlsInternalService/planPickup\n  method: post\n  operationId: planPickup_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /generateBordereauByParcelsNumbers\n  method: post\n  operationId: generateBordereauByParcelsNumbers_1\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generateToken\n  method: post\n  operationId: generateToken_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getProductInter\n  method: post\n  operationId: getProductInter_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /planPickup\n  method: post\n  operationId: planPickup_2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colissimo/refs/heads/main/agentic-access/colissimo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/colissimo/agentic-access/colissimo-agentic-access.yml
 summary_line: 12 operations · 8 acting
 tags:
 - Company

@@ -9,19 +9,19 @@ api_specs:
   label: Insomnia Mock Logs API
   slug: insomnia-mock-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/openapi/insomnia-mock-logs-api-openapi.yml
+  url: https://artifacts.apis.io/insomnia/openapi/insomnia-mock-logs-api-openapi.yml
 - filename: insomnia-mock-routes-api-openapi.yml
   format: yaml
   label: Insomnia Mock Routes API
   slug: insomnia-mock-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/openapi/insomnia-mock-routes-api-openapi.yml
+  url: https://artifacts.apis.io/insomnia/openapi/insomnia-mock-routes-api-openapi.yml
 - filename: insomnia-mock-servers-api-openapi.yml
   format: yaml
   label: Insomnia Mock Servers API
   slug: insomnia-mock-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/openapi/insomnia-mock-servers-api-openapi.yml
+  url: https://artifacts.apis.io/insomnia/openapi/insomnia-mock-servers-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/insomn
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mock-servers/{mockServerId}\n  method: get\n  operationId: getMockServer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mock-servers/{mockServerId}\n  method: put\n  operationId: updateMockServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mock-servers/{mockServerId}\n  method: delete\n  operationId: deleteMockServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /mock-servers/{mockServerId}/routes\n  method: get\n  operationId: listMockRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mock-servers/{mockServerId}/routes\n  method: post\n  operationId: createMockRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mock-servers/{mockServerId}/routes/{routeId}\n  method: put\n  operationId: updateMockRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /mock-servers/{mockServerId}/routes/{routeId}\n  method: delete\n  operationId: deleteMockRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mock-servers/{mockServerId}/logs\n  method: get\n  operationId: listMockServerLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/agentic-access/insomnia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/insomnia/agentic-access/insomnia-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - API Design

@@ -9,61 +9,61 @@ api_specs:
   label: AgentWorld Agents API
   slug: beat-side-de-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-agents-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-agents-api-openapi.yml
 - filename: beat-side-de-game-api-openapi.yml
   format: yaml
   label: AgentWorld Game API
   slug: beat-side-de-game-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-game-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-game-api-openapi.yml
 - filename: beat-side-de-games-api-openapi.yml
   format: yaml
   label: AgentWorld Games API
   slug: beat-side-de-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-games-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-games-api-openapi.yml
 - filename: beat-side-de-presence-api-openapi.yml
   format: yaml
   label: AgentWorld Presence API
   slug: beat-side-de-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-presence-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-presence-api-openapi.yml
 - filename: beat-side-de-reason-api-openapi.yml
   format: yaml
   label: AgentWorld Reason API
   slug: beat-side-de-reason-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-reason-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-reason-api-openapi.yml
 - filename: beat-side-de-register-api-openapi.yml
   format: yaml
   label: AgentWorld Register API
   slug: beat-side-de-register-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-register-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-register-api-openapi.yml
 - filename: beat-side-de-rooms-api-openapi.yml
   format: yaml
   label: AgentWorld Rooms API
   slug: beat-side-de-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-rooms-api-openapi.yml
 - filename: beat-side-de-session-api-openapi.yml
   format: yaml
   label: AgentWorld Session API
   slug: beat-side-de-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-session-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-session-api-openapi.yml
 - filename: beat-side-de-forum-api-openapi.yml
   format: yaml
   label: AgentWorld Forum API
   slug: beat-side-de-forum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-forum-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-forum-api-openapi.yml
 - filename: beat-side-de-navigate-api-openapi.yml
   format: yaml
   label: AgentWorld Navigate API
   slug: beat-side-de-navigate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-navigate-api-openapi.yml
+  url: https://artifacts.apis.io/beat-side-de/openapi/beat-side-de-navigate-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/beat-s
   \  method: get\n  operationId: reasonSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/reason/submissions\n  method: post\n  operationId: reasonSubmit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/register/complete\n  method: post\n  operationId: completeRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/register/start\n  method: post\n  operationId: startRegistration\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/rooms\n  method: get\n  operationId: listRooms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/rooms/{room}/messages\n  method: get\n  operationId: readRoomMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/rooms/{room}/messages\n  method: post\n  operationId: postRoomMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/session/challenge\n  method: post\n  operationId: startSessionRenewal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/session/token\n  method: post\n  operationId: completeSessionRenewal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/agentic-access/beat-side-de-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beat-side-de/agentic-access/beat-side-de-agentic-access.yml
 summary_line: 25 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Company

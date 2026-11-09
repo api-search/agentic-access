@@ -9,73 +9,73 @@ api_specs:
   label: Decentro KYC & Onboarding API
   slug: kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-kyc-api-openapi.yml
 - filename: decentro-virtual-accounts-api-openapi.yml
   format: yaml
   label: Decentro Virtual Accounts API
   slug: virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-virtual-accounts-api-openapi.yml
 - filename: decentro-accounts-api-openapi.yml
   format: yaml
   label: Decentro Accounts API
   slug: decentro-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-accounts-api-openapi.yml
 - filename: decentro-forensics-api-openapi.yml
   format: yaml
   label: Decentro Forensics API
   slug: decentro-forensics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-forensics-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-forensics-api-openapi.yml
 - filename: decentro-journals-api-openapi.yml
   format: yaml
   label: Decentro Journals API
   slug: decentro-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-journals-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-journals-api-openapi.yml
 - filename: decentro-transactions-api-openapi.yml
   format: yaml
   label: Decentro Transactions API
   slug: decentro-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-transactions-api-openapi.yml
 - filename: decentro-verification-api-openapi.yml
   format: yaml
   label: Decentro Verification API
   slug: decentro-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-verification-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-verification-api-openapi.yml
 - filename: decentro-auth-api-openapi.yml
   format: yaml
   label: Decentro Auth API
   slug: decentro-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-auth-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-auth-api-openapi.yml
 - filename: decentro-banking-api-openapi.yml
   format: yaml
   label: Decentro Banking API
   slug: decentro-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-banking-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-banking-api-openapi.yml
 - filename: decentro-decentro-api-openapi.yml
   format: yaml
   label: Decentro Decentro API
   slug: decentro-decentro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-decentro-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-decentro-api-openapi.yml
 - filename: decentro-deposit-simulation-api-openapi.yml
   format: yaml
   label: Decentro Deposit Simulation API
   slug: decentro-deposit-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-deposit-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-deposit-simulation-api-openapi.yml
 - filename: decentro-payments-api-openapi.yml
   format: yaml
   label: Decentro Payments API
   slug: decentro-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/openapi/decentro-payments-api-openapi.yml
+  url: https://artifacts.apis.io/decentro/openapi/decentro-payments-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 6
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/decent
   \ post\n  operationId: registerUpiAutopayMandate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/payments/refund\n  method: post\n  operationId: issueRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/banking/account\n  method: post\n  operationId: createVirtualAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/banking/account/{accountNumber}\n  method: get\n  operationId: getVirtualAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/banking/account/balance\n  method: get\n  operationId: getVirtualAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/banking/account/statement\n  method: get\n  operationId: getVirtualAccountStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/banking/account/whitelist\n  method: post\n  operationId: whitelistRemitter\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/agentic-access/decentro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/decentro/agentic-access/decentro-agentic-access.yml
 summary_line: 22 operations · 16 acting
 tags:
 - Banking

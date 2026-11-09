@@ -9,55 +9,55 @@ api_specs:
   label: Yoast Pages API
   slug: yoast-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-pages-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-pages-api-openapi.yml
 - filename: yoast-posts-api-openapi.yml
   format: yaml
   label: Yoast Posts API
   slug: yoast-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-posts-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-posts-api-openapi.yml
 - filename: yoast-seo-head-api-openapi.yml
   format: yaml
   label: Yoast SEO Head API
   slug: yoast-seo-head-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-seo-head-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-seo-head-api-openapi.yml
 - filename: yoast-abilities-api-openapi.yml
   format: yaml
   label: Yoast SEO Abilities API
   slug: yoast-abilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-abilities-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-abilities-api-openapi.yml
 - filename: yoast-provisioning-account-api-openapi.yml
   format: yaml
   label: Yoast Provisioning Account API
   slug: yoast-provisioning-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-account-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-provisioning-account-api-openapi.yml
 - filename: yoast-provisioning-downloads-api-openapi.yml
   format: yaml
   label: Yoast Provisioning Downloads API
   slug: yoast-provisioning-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-provisioning-downloads-api-openapi.yml
 - filename: yoast-provisioning-users-api-openapi.yml
   format: yaml
   label: Yoast Provisioning Users API
   slug: yoast-provisioning-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-users-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-provisioning-users-api-openapi.yml
 - filename: yoast-schema-aggregator-api-openapi.yml
   format: yaml
   label: Yoast Schema Aggregator API
   slug: yoast-schema-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-schema-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-schema-aggregator-api-openapi.yml
 - filename: yoast-subscription-provisioning-api-openapi.yml
   format: yaml
   label: Yoast Subscription Provisioning API
   slug: yoast-subscription-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-subscription-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-subscription-provisioning-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 7
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/yoast-
   \  method: get\n  operationId: subscriptionProvisioningControllerGetOne\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/provisioning/subscriptions/{id}/renew\n  method: post\n  operationId: subscriptionProvisioningControllerRenewSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/provisioning/subscriptions/{id}/cancel\n  method: post\n  operationId: subscriptionProvisioningControllerCancelSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/provisioning/subscriptions/{id}/refund\n  method: post\n  operationId: subscriptionProvisioningControllerRefundSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/provisioning/subscriptions/{id}/set-site\n  method: post\n  operationId: subscriptionProvisioningControllerSetSiteForSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/agentic-access/yoast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yoast/agentic-access/yoast-agentic-access.yml
 summary_line: 23 operations · 7 acting · 7 human-in-the-loop
 tags:
 - SEO

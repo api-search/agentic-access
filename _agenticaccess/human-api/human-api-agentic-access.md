@@ -9,43 +9,43 @@ api_specs:
   label: Human API Admin API
   slug: human-api-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-admin-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-admin-api-openapi.yml
 - filename: human-api-connect-api-openapi.yml
   format: yaml
   label: Human API Connect API
   slug: human-api-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-connect-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-connect-api-openapi.yml
 - filename: human-api-orders-api-openapi.yml
   format: yaml
   label: Human API Orders API
   slug: human-api-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-orders-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-orders-api-openapi.yml
 - filename: human-api-reports-api-openapi.yml
   format: yaml
   label: Human API Reports API
   slug: human-api-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-reports-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-reports-api-openapi.yml
 - filename: human-api-resources-api-openapi.yml
   format: yaml
   label: Human API Resources API
   slug: human-api-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-resources-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-resources-api-openapi.yml
 - filename: human-api-subscriptions-api-openapi.yml
   format: yaml
   label: Human API Subscriptions API
   slug: human-api-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-subscriptions-api-openapi.yml
 - filename: human-api-users-api-openapi.yml
   format: yaml
   label: Human API Users API
   slug: human-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/openapi/human-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/human-api/openapi/human-api-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/human-
   \  operationId: getUserReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/resources/consumer-link\n  method: post\n  operationId: getTasksLiistLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/subscriptions\n  method: get\n  operationId: getUsersSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/v1/subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/subscriptions/{subscriptionId}\n  method: get\n  operationId: getSubscriptionDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/actions\n  method: post\n  operationId: performActionForUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users\n\
   \  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users\n  method: get\n  operationId: getUsersList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{humanId}\n  method: get\n  operationId: getUserDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/providers\n  method: get\n  operationId: userProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/agentic-access/human-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/human-api/agentic-access/human-api-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Healthcare

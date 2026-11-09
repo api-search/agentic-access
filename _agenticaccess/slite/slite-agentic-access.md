@@ -9,43 +9,43 @@ api_specs:
   label: Slite Ask API
   slug: slite-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-ask-api-openapi.yml
+  url: https://artifacts.apis.io/slite/openapi/slite-ask-api-openapi.yml
 - filename: slite-groups-api-openapi.yml
   format: yaml
   label: Slite Groups API
   slug: slite-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-groups-api-openapi.yml
+  url: https://artifacts.apis.io/slite/openapi/slite-groups-api-openapi.yml
 - filename: slite-knowledge-management-api-openapi.yml
   format: yaml
   label: Slite Knowledge Management API
   slug: slite-knowledge-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-knowledge-management-api-openapi.yml
+  url: https://artifacts.apis.io/slite/openapi/slite-knowledge-management-api-openapi.yml
 - filename: slite-me-api-openapi.yml
   format: yaml
   label: Slite Me API
   slug: slite-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-me-api-openapi.yml
+  url: https://artifacts.apis.io/slite/openapi/slite-me-api-openapi.yml
 - filename: slite-notes-api-openapi.yml
   format: yaml
   label: Slite Notes API
   slug: slite-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-notes-api-openapi.yml
+  url: https://artifacts.apis.io/slite/openapi/slite-notes-api-openapi.yml
 - filename: slite-search-notes-api-openapi.yml
   format: yaml
   label: Slite Search Notes API
   slug: slite-search-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-search-notes-api-openapi.yml
+  url: https://artifacts.apis.io/slite/openapi/slite-search-notes-api-openapi.yml
 - filename: slite-users-api-openapi.yml
   format: yaml
   label: Slite Users API
   slug: slite-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/openapi/slite-users-api-openapi.yml
+  url: https://artifacts.apis.io/slite/openapi/slite-users-api-openapi.yml
 consequence_counts:
   read: 15
   write: 10
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notes/{noteId}/archived\n  method: put\n  operationId: updateNoteArchivedState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notes/{noteId}/owner\n  method: put\n  operationId: updateNoteOwner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notes/{noteId}/tiles/{tileId}\n  method: put\n  operationId: updateTile\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search-notes\n  method: get\n  operationId: searchNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}\n  method: get\n  operationId: getUserById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: searchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}\n  method: get\n  operationId: getGroupById\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups\n  method: get\n  operationId: searchGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/agentic-access/slite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/slite/agentic-access/slite-agentic-access.yml
 summary_line: 25 operations · 10 acting
 tags:
 - Documentation

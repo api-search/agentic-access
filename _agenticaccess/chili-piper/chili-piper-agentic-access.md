@@ -9,91 +9,91 @@ api_specs:
   label: Chili Piper Availability API
   slug: chili-piper-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-availability-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-availability-api-openapi.yml
 - filename: chili-piper-chat-api-openapi.yml
   format: yaml
   label: Chili Piper Chat API
   slug: chili-piper-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-chat-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-chat-api-openapi.yml
 - filename: chili-piper-concierge-api-openapi.yml
   format: yaml
   label: Chili Piper Concierge API
   slug: chili-piper-concierge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-concierge-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-concierge-api-openapi.yml
 - filename: chili-piper-distribution-api-openapi.yml
   format: yaml
   label: Chili Piper Distribution API
   slug: chili-piper-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-distribution-api-openapi.yml
 - filename: chili-piper-distro-api-openapi.yml
   format: yaml
   label: Chili Piper Distro API
   slug: chili-piper-distro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-distro-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-distro-api-openapi.yml
 - filename: chili-piper-meeting-type-api-openapi.yml
   format: yaml
   label: Chili Piper Meeting Type API
   slug: chili-piper-meeting-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-meeting-type-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-meeting-type-api-openapi.yml
 - filename: chili-piper-meeting-type-reminder-api-openapi.yml
   format: yaml
   label: Chili Piper Meeting Type Reminder API
   slug: chili-piper-meeting-type-reminder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-meeting-type-reminder-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-meeting-type-reminder-api-openapi.yml
 - filename: chili-piper-meetings-api-openapi.yml
   format: yaml
   label: Chili Piper Meetings API
   slug: chili-piper-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-meetings-api-openapi.yml
 - filename: chili-piper-rule-api-openapi.yml
   format: yaml
   label: Chili Piper Rule API
   slug: chili-piper-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-rule-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-rule-api-openapi.yml
 - filename: chili-piper-team-api-openapi.yml
   format: yaml
   label: Chili Piper Team API
   slug: chili-piper-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-team-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-team-api-openapi.yml
 - filename: chili-piper-tenant-api-openapi.yml
   format: yaml
   label: Chili Piper Tenant API
   slug: chili-piper-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-tenant-api-openapi.yml
 - filename: chili-piper-user-api-openapi.yml
   format: yaml
   label: Chili Piper User API
   slug: chili-piper-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-user-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-user-api-openapi.yml
 - filename: chili-piper-workspace-api-openapi.yml
   format: yaml
   label: Chili Piper Workspace API
   slug: chili-piper-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-workspace-api-openapi.yml
 - filename: chili-piper-hand-off-api-openapi.yml
   format: yaml
   label: Chili Piper Hand off API
   slug: chili-piper-hand-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-hand-off-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-hand-off-api-openapi.yml
 - filename: chili-piper-scheduling-links-api-openapi.yml
   format: yaml
   label: Chili Piper Scheduling Links API
   slug: chili-piper-scheduling-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-scheduling-links-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-scheduling-links-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 21
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/chili-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/org/tenant/get\n  method: get\n  operationId: tenantGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/user/find\n  method: get\n  operationId: userFind\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/user/read/{userId}\n  method: get\n  operationId: userRead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/user/find-by-id\n  method: post\n  operationId: userFindByIds\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/org/user/licenses\n  method: post\n  operationId: userUpdateLicenses\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/org/workspace\n  method: get\n  operationId: workspaceList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/workspace/users\n  method: get\n  operationId: workspaceListUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/workspace/users/add\n  method: post\n  operationId: workspaceAddUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/org/workspace/users/remove\n  method: post\n  operationId: workspaceRemoveUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/agentic-access/chili-piper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chili-piper/agentic-access/chili-piper-agentic-access.yml
 summary_line: 73 operations · 52 acting
 tags:
 - Scheduling

@@ -9,55 +9,55 @@ api_specs:
   label: Airbrake Activities API
   slug: airbrake-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/openapi/airbrake-activities-api-openapi.yml
+  url: https://artifacts.apis.io/airbrake/openapi/airbrake-activities-api-openapi.yml
 - filename: airbrake-deploys-api-openapi.yml
   format: yaml
   label: Airbrake Deploys API
   slug: airbrake-deploys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/openapi/airbrake-deploys-api-openapi.yml
+  url: https://artifacts.apis.io/airbrake/openapi/airbrake-deploys-api-openapi.yml
 - filename: airbrake-groups-api-openapi.yml
   format: yaml
   label: Airbrake Groups API
   slug: airbrake-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/openapi/airbrake-groups-api-openapi.yml
+  url: https://artifacts.apis.io/airbrake/openapi/airbrake-groups-api-openapi.yml
 - filename: airbrake-ios-crash-reports-api-openapi.yml
   format: yaml
   label: Airbrake iOS Crash Reports API
   slug: airbrake-ios-crash-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/openapi/airbrake-ios-crash-reports-api-openapi.yml
+  url: https://artifacts.apis.io/airbrake/openapi/airbrake-ios-crash-reports-api-openapi.yml
 - filename: airbrake-notices-api-openapi.yml
   format: yaml
   label: Airbrake Notices API
   slug: airbrake-notices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/openapi/airbrake-notices-api-openapi.yml
+  url: https://artifacts.apis.io/airbrake/openapi/airbrake-notices-api-openapi.yml
 - filename: airbrake-performance-api-openapi.yml
   format: yaml
   label: Airbrake Performance API
   slug: airbrake-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/openapi/airbrake-performance-api-openapi.yml
+  url: https://artifacts.apis.io/airbrake/openapi/airbrake-performance-api-openapi.yml
 - filename: airbrake-projects-api-openapi.yml
   format: yaml
   label: Airbrake Projects API
   slug: airbrake-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/openapi/airbrake-projects-api-openapi.yml
+  url: https://artifacts.apis.io/airbrake/openapi/airbrake-projects-api-openapi.yml
 - filename: airbrake-sessions-api-openapi.yml
   format: yaml
   label: Airbrake Sessions API
   slug: airbrake-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/openapi/airbrake-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/airbrake/openapi/airbrake-sessions-api-openapi.yml
 - filename: airbrake-source-maps-api-openapi.yml
   format: yaml
   label: Airbrake Source Maps API
   slug: airbrake-source-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/openapi/airbrake-source-maps-api-openapi.yml
+  url: https://artifacts.apis.io/airbrake/openapi/airbrake-source-maps-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/airbra
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/projects/{project_id}/sourcemaps/{source_map_id}\n  method: delete\n  operationId: deleteSourceMap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v5/projects/{project_id}/routes-stats\n  method: put\n  operationId: putRoutesStats\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v5/projects/{project_id}/routes-breakdowns\n  method: put\n  operationId: putRoutesBreakdowns\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v5/projects/{project_id}/queries-stats\n  method: put\n  operationId: putQueriesStats\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v5/projects/{project_id}/queues-stats\n  method: put\n  operationId: putQueuesStats\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/projects/{project_id}/activities\n\
   \  method: get\n  operationId: listActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/projects/{project_id}/stats\n  method: get\n  operationId: projectStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/projects/{project_id}/ios-reports\n  method: post\n  operationId: createIosReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/agentic-access/airbrake-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airbrake/agentic-access/airbrake-agentic-access.yml
 summary_line: 27 operations · 13 acting
 tags:
 - Error Monitoring

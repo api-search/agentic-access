@@ -9,97 +9,97 @@ api_specs:
   label: availity Auth Attachments API
   slug: availity-auth-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-auth-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-auth-attachments-api-openapi.yml
 - filename: availity-claim-attachments-api-openapi.yml
   format: yaml
   label: availity Claim Attachments API
   slug: availity-claim-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-claim-attachments-api-openapi.yml
 - filename: availity-claim-status-api-openapi.yml
   format: yaml
   label: availity Claim Status API
   slug: availity-claim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-status-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-claim-status-api-openapi.yml
 - filename: availity-eligibility-api-openapi.yml
   format: yaml
   label: availity Eligibility API
   slug: availity-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-eligibility-api-openapi.yml
 - filename: availity-enhanced-claim-status-api-openapi.yml
   format: yaml
   label: availity Enhanced Claim Status API
   slug: availity-enhanced-claim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-enhanced-claim-status-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-enhanced-claim-status-api-openapi.yml
 - filename: availity-is-auth-required-api-openapi.yml
   format: yaml
   label: availity Is Auth Required API
   slug: availity-is-auth-required-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-is-auth-required-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-is-auth-required-api-openapi.yml
 - filename: availity-service-reviews-api-openapi.yml
   format: yaml
   label: availity Service Reviews API
   slug: availity-service-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-service-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-service-reviews-api-openapi.yml
 - filename: availity-availity-payer-list-api-openapi.yml
   format: yaml
   label: Availity Availity Payer List API
   slug: availity-availity-payer-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-availity-payer-list-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-availity-payer-list-api-openapi.yml
 - filename: availity-claim-statuses-api-openapi.yml
   format: yaml
   label: Availity Claim Statuses API
   slug: availity-claim-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-claim-statuses-api-openapi.yml
 - filename: availity-configurations-api-openapi.yml
   format: yaml
   label: Availity Configurations API
   slug: availity-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-configurations-api-openapi.yml
 - filename: availity-coverages-api-openapi.yml
   format: yaml
   label: Availity Coverages API
   slug: availity-coverages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-coverages-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-coverages-api-openapi.yml
 - filename: availity-dental-claims-api-openapi.yml
   format: yaml
   label: Availity Dental Claims API
   slug: availity-dental-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-dental-claims-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-dental-claims-api-openapi.yml
 - filename: availity-dfs-api-openapi.yml
   format: yaml
   label: Availity Dfs API
   slug: availity-dfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-dfs-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-dfs-api-openapi.yml
 - filename: availity-institutional-claims-api-openapi.yml
   format: yaml
   label: Availity Institutional Claims API
   slug: availity-institutional-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-institutional-claims-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-institutional-claims-api-openapi.yml
 - filename: availity-patient-cost-estimator-2-0-0-professional-api-openapi.yml
   format: yaml
   label: Availity Patient Cost Estimator 2.0.0 Professional API
   slug: availity-patient-cost-estimator-2-0-0-professional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-patient-cost-estimator-2-0-0-professional-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-patient-cost-estimator-2-0-0-professional-api-openapi.yml
 - filename: availity-professional-claims-api-openapi.yml
   format: yaml
   label: Availity Professional Claims API
   slug: availity-professional-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-professional-claims-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-professional-claims-api-openapi.yml
 consequence_counts:
   read: 11
   write: 8
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/availi
   \ post\n  operationId: searchClaimBy276\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clmsmgmt/claim-status/claim-status/v1/status/searchBy276\n  method: get\n  operationId: pollSearchBy276\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clmsmgmt/claim-status/claim-status/v1/status/summarySearch\n  method: post\n  operationId: summarySearchClaims\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clmsmgmt/claim-status/claim-status/v1/status/detailSearch\n  method: post\n  operationId: detailSearchClaim\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /value-adds/v1/isauthrequired\n  method: post\n  operationId: checkIsAuthRequired\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /value-adds/v1/isauthrequired/{id}\n  method: get\n  operationId: getIsAuthRequiredResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /availity/intelligent-payer-network/v1/service-reviews\n  method: post\n  operationId: createServiceReview\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /availity/intelligent-payer-network/v1/service-reviews\n  method: get\n  operationId: listServiceReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /availity/intelligent-payer-network/v1/service-reviews/{id}\n  method: get\n  operationId: getServiceReview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/agentic-access/availity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/availity/agentic-access/availity-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Healthcare

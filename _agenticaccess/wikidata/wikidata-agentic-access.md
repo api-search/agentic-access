@@ -9,31 +9,31 @@ api_specs:
   label: Wikidata Descriptions API
   slug: wikidata-descriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-descriptions-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-descriptions-api-openapi.yml
 - filename: wikidata-items-api-openapi.yml
   format: yaml
   label: Wikidata Items API
   slug: wikidata-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-items-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-items-api-openapi.yml
 - filename: wikidata-labels-api-openapi.yml
   format: yaml
   label: Wikidata Labels API
   slug: wikidata-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-labels-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-labels-api-openapi.yml
 - filename: wikidata-properties-api-openapi.yml
   format: yaml
   label: Wikidata Properties API
   slug: wikidata-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-properties-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-properties-api-openapi.yml
 - filename: wikidata-statements-api-openapi.yml
   format: yaml
   label: Wikidata Statements API
   slug: wikidata-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-statements-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-statements-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wikida
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entities/items\n  method: post\n  operationId: createItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entities/items/{item_id}/labels/{language_code}\n  method: get\n  operationId: getItemLabel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entities/items/{item_id}/labels/{language_code}\n  method: put\n  operationId: setItemLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entities/items/{item_id}/descriptions/{language_code}\n  method: get\n  operationId: getItemDescription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entities/items/{item_id}/statements\n  method: get\n  operationId: getItemStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entities/items/{item_id}/statements\n  method: post\n  operationId: addItemStatement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statements/{statement_id}\n  method: get\n\
   \  operationId: getStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statements/{statement_id}\n  method: delete\n  operationId: deleteStatement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entities/properties/{property_id}\n  method: get\n  operationId: getProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/agentic-access/wikidata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wikidata/agentic-access/wikidata-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Knowledge Graph

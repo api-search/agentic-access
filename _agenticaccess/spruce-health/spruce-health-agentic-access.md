@@ -9,91 +9,91 @@ api_specs:
   label: Spruce Health Contact Fields API
   slug: spruce-health-contact-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-contact-fields-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-contact-fields-api-openapi.yml
 - filename: spruce-health-contact-tags-api-openapi.yml
   format: yaml
   label: Spruce Health Contact Tags API
   slug: spruce-health-contact-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-contact-tags-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-contact-tags-api-openapi.yml
 - filename: spruce-health-contacts-api-openapi.yml
   format: yaml
   label: Spruce Health Contacts API
   slug: spruce-health-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-contacts-api-openapi.yml
 - filename: spruce-health-conversation-item-api-openapi.yml
   format: yaml
   label: Spruce Health Conversation Item API
   slug: spruce-health-conversation-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-conversation-item-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-conversation-item-api-openapi.yml
 - filename: spruce-health-conversation-tags-api-openapi.yml
   format: yaml
   label: Spruce Health Conversation Tags API
   slug: spruce-health-conversation-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-conversation-tags-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-conversation-tags-api-openapi.yml
 - filename: spruce-health-conversations-api-openapi.yml
   format: yaml
   label: Spruce Health Conversations API
   slug: spruce-health-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-conversations-api-openapi.yml
 - filename: spruce-health-internal-endpoints-api-openapi.yml
   format: yaml
   label: Spruce Health Internal Endpoints API
   slug: spruce-health-internal-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-internal-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-internal-endpoints-api-openapi.yml
 - filename: spruce-health-media-api-openapi.yml
   format: yaml
   label: Spruce Health Media API
   slug: spruce-health-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-media-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-media-api-openapi.yml
 - filename: spruce-health-organization-api-openapi.yml
   format: yaml
   label: Spruce Health Organization API
   slug: spruce-health-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-organization-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-organization-api-openapi.yml
 - filename: spruce-health-phone-lines-api-openapi.yml
   format: yaml
   label: Spruce Health Phone Lines API
   slug: spruce-health-phone-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-phone-lines-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-phone-lines-api-openapi.yml
 - filename: spruce-health-saved-messages-api-openapi.yml
   format: yaml
   label: Spruce Health Saved Messages API
   slug: spruce-health-saved-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-saved-messages-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-saved-messages-api-openapi.yml
 - filename: spruce-health-scheduled-messages-api-openapi.yml
   format: yaml
   label: Spruce Health Scheduled Messages API
   slug: spruce-health-scheduled-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-scheduled-messages-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-scheduled-messages-api-openapi.yml
 - filename: spruce-health-teams-api-openapi.yml
   format: yaml
   label: Spruce Health Teams API
   slug: spruce-health-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-teams-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-teams-api-openapi.yml
 - filename: spruce-health-transcription-api-openapi.yml
   format: yaml
   label: Spruce Health Transcription API
   slug: spruce-health-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-transcription-api-openapi.yml
 - filename: spruce-health-webhooks-api-openapi.yml
   format: yaml
   label: Spruce Health Webhooks API
   slug: spruce-health-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/spruce-health/openapi/spruce-health-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 26
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spruce
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /transcriptions/{transcriptionId}\n  method: get\n  operationId: Transcription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints\n  method: get\n  operationId: ListWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints\n  method: post\n  operationId: CreateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/endpoints/{endpointId}\n  method: delete\n  operationId: DeleteWebhookEndpoint\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/endpoints/{endpointId}\n  method: get\n  operationId: WebhookEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints/{endpointId}/events\n  method: get\n  operationId: ListWebhookEndpointEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints/{endpointId}/paused\n  method: post\n  operationId: ModifyWebhookEndpointPaused\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/agentic-access/spruce-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spruce-health/agentic-access/spruce-health-agentic-access.yml
 summary_line: 47 operations · 21 acting
 tags:
 - Healthcare

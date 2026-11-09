@@ -9,61 +9,61 @@ api_specs:
   label: Shutterstock Audio API
   slug: shutterstock-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-audio-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-audio-api-openapi.yml
 - filename: shutterstock-computer-vision-api-openapi.yml
   format: yaml
   label: Shutterstock Computer Vision API
   slug: shutterstock-computer-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-computer-vision-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-computer-vision-api-openapi.yml
 - filename: shutterstock-contributors-api-openapi.yml
   format: yaml
   label: Shutterstock Contributors API
   slug: shutterstock-contributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-contributors-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-contributors-api-openapi.yml
 - filename: shutterstock-editorial-images-api-openapi.yml
   format: yaml
   label: Shutterstock Editorial Images API
   slug: shutterstock-editorial-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-editorial-images-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-editorial-images-api-openapi.yml
 - filename: shutterstock-editorial-video-api-openapi.yml
   format: yaml
   label: Shutterstock Editorial Video API
   slug: shutterstock-editorial-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-editorial-video-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-editorial-video-api-openapi.yml
 - filename: shutterstock-images-api-openapi.yml
   format: yaml
   label: Shutterstock Images API
   slug: shutterstock-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-images-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-images-api-openapi.yml
 - filename: shutterstock-test-api-openapi.yml
   format: yaml
   label: Shutterstock Test API
   slug: shutterstock-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-test-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-test-api-openapi.yml
 - filename: shutterstock-users-api-openapi.yml
   format: yaml
   label: Shutterstock Users API
   slug: shutterstock-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-users-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-users-api-openapi.yml
 - filename: shutterstock-videos-api-openapi.yml
   format: yaml
   label: Shutterstock Videos API
   slug: shutterstock-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-videos-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-videos-api-openapi.yml
 - filename: shutterstock-oauth-api-openapi.yml
   format: yaml
   label: Shutterstock OAUTH API
   slug: shutterstock-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/shutterstock/openapi/shutterstock-oauth-api-openapi.yml
 consequence_counts:
   read: 68
   write: 27
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shutte
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - collections.view\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/videos/collections/{id}\n  method: post\n  operationId: renameClipbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - collections.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/videos/collections/{id}\n  method: delete\n  operationId: deleteClipbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - collections.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/videos/categories\n  method: get\n\
   \  operationId: getVideoCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/videos/collections/{id}/items\n  method: post\n  operationId: addClipboxItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - collections.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/videos/collections/{id}/items\n  method: get\n  operationId: getClipboxItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - collections.view\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/videos/collections/{id}/items\n  method: delete\n  operationId: deleteClipboxItems\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    scope:\n    - collections.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/videos/{id}/similar\n  method: get\n  operationId: getSimilarVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/videos/updated\n  method: get\n  operationId: getUpdatedVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/agentic-access/shutterstock-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shutterstock/agentic-access/shutterstock-agentic-access.yml
 summary_line: 95 operations · 27 acting
 tags:
 - Image

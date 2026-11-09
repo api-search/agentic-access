@@ -9,43 +9,43 @@ api_specs:
   label: Safello Account API
   slug: safello-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-account-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-account-api-openapi.yml
 - filename: safello-auth-api-openapi.yml
   format: yaml
   label: Safello Auth API
   slug: safello-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-auth-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-auth-api-openapi.yml
 - filename: safello-compliance-api-openapi.yml
   format: yaml
   label: Safello Compliance API
   slug: safello-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-compliance-api-openapi.yml
 - filename: safello-market-api-openapi.yml
   format: yaml
   label: Safello Market API
   slug: safello-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-market-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-market-api-openapi.yml
 - filename: safello-orders-api-openapi.yml
   format: yaml
   label: Safello Orders API
   slug: safello-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-orders-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-orders-api-openapi.yml
 - filename: safello-prices-api-openapi.yml
   format: yaml
   label: Safello Prices API
   slug: safello-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-prices-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-prices-api-openapi.yml
 - filename: safello-wallet-api-openapi.yml
   format: yaml
   label: Safello Wallet API
   slug: safello-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-wallet-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 31
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/safell
   \ acting\n    consequence: physical\n    subject: required\n    scope:\n    - order\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/orders/{orderId}\n  method: get\n  operationId: checkOrderStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - order\n    - order:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/orders/fees\n  method: get\n  operationId: getFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - order\n    - order:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wallet\n  method: get\n  operationId: getWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  scope:\n    - wallet\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wallet/performance\n  method: get\n  operationId: getWalletPerformance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wallet\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wallet/performance-history\n  method: get\n  operationId: getWalletPerformanceHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - wallet\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/compliance/verify/orders/sell\n  method: post\n  operationId: verifySellOrderCompliance\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - order\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v2/compliance/verify/orders/buy\n  method: post\n  operationId: verifyBuyOrderCompliance\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - order\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/agentic-access/safello-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/safello/agentic-access/safello-agentic-access.yml
 summary_line: 52 operations · 21 acting
 tags:
 - Company

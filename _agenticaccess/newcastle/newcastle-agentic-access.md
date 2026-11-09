@@ -8,61 +8,61 @@ api_specs:
   label: Digitised Objects Repository Search and Data API
   slug: digitised-objects
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-digitised-objects-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-digitised-objects-api-openapi.yml
 - filename: newcastle-entity-api-openapi.yml
   format: yaml
   label: Urban Observatory API (Urban Sciences Building) — Entity
   slug: urban-observatory-entity
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-entity-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-entity-api-openapi.yml
 - filename: newcastle-feed-api-openapi.yml
   format: yaml
   label: Urban Observatory API (Urban Sciences Building) — Feed
   slug: urban-observatory-feed
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-feed-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-feed-api-openapi.yml
 - filename: newcastle-summary-api-openapi.yml
   format: yaml
   label: Urban Observatory API (Urban Sciences Building) — Summary
   slug: urban-observatory-summary
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-summary-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-summary-api-openapi.yml
 - filename: newcastle-api-metadata-information-api-openapi.yml
   format: yaml
   label: Newcastle University API Metadata Information API
   slug: newcastle-api-metadata-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-api-metadata-information-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-api-metadata-information-api-openapi.yml
 - filename: newcastle-collections-api-openapi.yml
   format: yaml
   label: Newcastle University Collections API
   slug: newcastle-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-collections-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-collections-api-openapi.yml
 - filename: newcastle-contentdm-api-openapi.yml
   format: yaml
   label: Newcastle University CONTEN Tdm API
   slug: newcastle-contentdm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-contentdm-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-contentdm-api-openapi.yml
 - filename: newcastle-items-api-openapi.yml
   format: yaml
   label: Newcastle University Items API
   slug: newcastle-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-items-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-items-api-openapi.yml
 - filename: newcastle-tei-api-openapi.yml
   format: yaml
   label: Newcastle University TEI API
   slug: newcastle-tei-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-tei-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-tei-api-openapi.yml
 - filename: newcastle-time-series-api-openapi.yml
   format: yaml
   label: Newcastle University Time Series API
   slug: newcastle-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-time-series-api-openapi.yml
 consequence_counts:
   read: 24
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/newcas
   \ none\n- path: /v1/digitised-objects/search/autocomplete\n  method: get\n  operationId: getV1DigitisedObjectsSearchAutocomplete\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/digitised-objects/{id}\n  method: get\n  operationId: getV1DigitisedObjectsShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/digitised-objects/{id}/transcript/content\n  method: get\n  operationId: getV1DigitisedObjectsTranscriptContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/items\n  method: get\n  operationId: getV1ItemsIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /v1/items/search\n  method: get\n  operationId: getV1ItemsSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/items/search/autocomplete\n  method: get\n  operationId: getV1ItemsSearchAutocomplete\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/items/{id}/{position}\n  method: get\n  operationId: getV1ItemsShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/items/{id}/{position}/transcript/content\n  method: get\n  operationId: getV1ItemsTranscriptContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/contentdm/{collectionId}/{itemId}\n \
   \ method: get\n  operationId: getV1Contentdm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tei/{id}/content\n  method: get\n  operationId: getV1TEIContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/agentic-access/newcastle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/newcastle/agentic-access/newcastle-agentic-access.yml
 summary_line: 24 operations
 tags:
 - University

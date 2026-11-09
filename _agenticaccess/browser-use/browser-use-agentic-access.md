@@ -9,67 +9,85 @@ api_specs:
   label: Browser Use Billing API
   slug: browser-use-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-billing-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-billing-api-openapi.yml
 - filename: browser-use-browsers-api-openapi.yml
   format: yaml
   label: Browser Use Browsers API
   slug: browser-use-browsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-browsers-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-browsers-api-openapi.yml
 - filename: browser-use-files-api-openapi.yml
   format: yaml
   label: Browser Use Files API
   slug: browser-use-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-files-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-files-api-openapi.yml
 - filename: browser-use-profiles-api-openapi.yml
   format: yaml
   label: Browser Use Profiles API
   slug: browser-use-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-profiles-api-openapi.yml
 - filename: browser-use-runs-api-openapi.yml
   format: yaml
   label: Browser Use Runs API
   slug: browser-use-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-runs-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-runs-api-openapi.yml
 - filename: browser-use-sessions-api-openapi.yml
   format: yaml
   label: Browser Use Sessions API
   slug: browser-use-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-sessions-api-openapi.yml
 - filename: browser-use-skills-api-openapi.yml
   format: yaml
   label: Browser Use Skills API
   slug: browser-use-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-skills-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-skills-api-openapi.yml
 - filename: browser-use-skills-marketplace-api-openapi.yml
   format: yaml
   label: Browser Use Skills Marketplace API
   slug: browser-use-skills-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-skills-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-skills-marketplace-api-openapi.yml
 - filename: browser-use-tasks-api-openapi.yml
   format: yaml
   label: Browser Use Tasks API
   slug: browser-use-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-tasks-api-openapi.yml
 - filename: browser-use-workspaces-api-openapi.yml
   format: yaml
   label: Browser Use Workspaces API
   slug: browser-use-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-workspaces-api-openapi.yml
 - filename: browser-use-x402-api-openapi.yml
   format: yaml
   label: Browser Use X402 API
   slug: browser-use-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/openapi/browser-use-x402-api-openapi.yml
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-x402-api-openapi.yml
+- filename: browser-use-extensions-api-openapi.yml
+  format: yaml
+  label: Browser Use Extensions API
+  slug: browser-use-extensions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-extensions-api-openapi.yml
+- filename: browser-use-integrations-api-openapi.yml
+  format: yaml
+  label: Browser Use Integrations API
+  slug: browser-use-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-integrations-api-openapi.yml
+- filename: browser-use-wallets-api-openapi.yml
+  format: yaml
+  label: Browser Use Wallets API
+  slug: browser-use-wallets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-wallets-api-openapi.yml
 consequence_counts:
   read: 50
   safety-critical: 10
@@ -182,8 +200,8 @@ source_yaml: "generated: '2026-08-29'\nmethod: generated\nsource: openapi/browse
   \ required\n- path: /workspaces/{workspace_id}/size\n  method: get\n  operationId: get_workspace_size_workspaces__workspace_id__size_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_id}/files\n  method: get\n  operationId: list_workspace_files_workspaces__workspace_id__files_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_id}/files\n  method: delete\n  operationId: delete_workspace_file_workspaces__workspace_id__files_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /browsers\n  method:\
   \ get\n  operationId: list_browser_sessions_browsers_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /browsers\n  method: post\n  operationId: create_browser_session_browsers_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /browsers/{session_id}\n  method: get\n  operationId: get_browser_session_browsers__session_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /browsers/{session_id}\n  method: patch\n  operationId: update_browser_session_browsers__session_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /browsers/{session_id}/downloads\n  method: get\n  operationId: list_browser_session_downloads_browsers__session_id__downloads_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profiles\n  method: get\n  operationId: list_profiles_profiles_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profiles\n  method: post\n  operationId: create_profile_profiles_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profiles/{profile_id}\n  method: get\n  operationId: get_profile_profiles__profile_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profiles/{profile_id}\n  method: patch\n  operationId: update_profile_profiles__profile_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/agentic-access/browser-use-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/agentic-access/browser-use-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profiles/{profile_id}\n  method: get\n  operationId: get_profile_profiles__profile_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profiles/{profile_id}\n  method: patch\n  operationId: update_profile_profiles__profile_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/browser-use/agentic-access/browser-use-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/browser-use/agentic-access/browser-use-agentic-access.yml
 summary_line: 103 operations · 53 acting · 10 human-in-the-loop
 tags:
 - AI Automation

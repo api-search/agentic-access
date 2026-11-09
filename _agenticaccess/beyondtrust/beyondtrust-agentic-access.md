@@ -9,37 +9,37 @@ api_specs:
   label: BeyondTrust Authentication API
   slug: beyondtrust-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/openapi/beyondtrust-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/beyondtrust/openapi/beyondtrust-authentication-api-openapi.yml
 - filename: beyondtrust-credentials-api-openapi.yml
   format: yaml
   label: BeyondTrust Credentials API
   slug: beyondtrust-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/openapi/beyondtrust-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/beyondtrust/openapi/beyondtrust-credentials-api-openapi.yml
 - filename: beyondtrust-managed-accounts-api-openapi.yml
   format: yaml
   label: BeyondTrust Managed Accounts API
   slug: beyondtrust-managed-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/openapi/beyondtrust-managed-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/beyondtrust/openapi/beyondtrust-managed-accounts-api-openapi.yml
 - filename: beyondtrust-managed-systems-api-openapi.yml
   format: yaml
   label: BeyondTrust Managed Systems API
   slug: beyondtrust-managed-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/openapi/beyondtrust-managed-systems-api-openapi.yml
+  url: https://artifacts.apis.io/beyondtrust/openapi/beyondtrust-managed-systems-api-openapi.yml
 - filename: beyondtrust-requests-api-openapi.yml
   format: yaml
   label: BeyondTrust Requests API
   slug: beyondtrust-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/openapi/beyondtrust-requests-api-openapi.yml
+  url: https://artifacts.apis.io/beyondtrust/openapi/beyondtrust-requests-api-openapi.yml
 - filename: beyondtrust-secrets-api-openapi.yml
   format: yaml
   label: BeyondTrust Secrets API
   slug: beyondtrust-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/openapi/beyondtrust-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/beyondtrust/openapi/beyondtrust-secrets-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/beyond
   - path: /requests/{requestId}\n  method: put\n  operationId: updateRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{requestId}\n  method: delete\n  operationId: deleteRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{requestId}/credentials\n  method: get\n  operationId: getRequestCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /managedaccounts\n  method: get\n  operationId:\
   \ listManagedAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /managedsystems\n  method: get\n  operationId: listManagedSystems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets-safe/secrets\n  method: get\n  operationId: listSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets-safe/secrets\n  method: post\n  operationId: createSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secrets-safe/secrets/{id}\n\
   \  method: get\n  operationId: getSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets-safe/secrets/{id}\n  method: delete\n  operationId: deleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/agentic-access/beyondtrust-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beyondtrust/agentic-access/beyondtrust-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Access

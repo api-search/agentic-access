@@ -9,49 +9,49 @@ api_specs:
   label: Apache James Domains API
   slug: apache-james-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-domains-api-openapi.yml
+  url: https://artifacts.apis.io/apache-james/openapi/apache-james-domains-api-openapi.yml
 - filename: apache-james-mailboxes-api-openapi.yml
   format: yaml
   label: Apache James Mailboxes API
   slug: apache-james-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/apache-james/openapi/apache-james-mailboxes-api-openapi.yml
 - filename: apache-james-mailqueues-api-openapi.yml
   format: yaml
   label: Apache James MailQueues API
   slug: apache-james-mailqueues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-mailqueues-api-openapi.yml
+  url: https://artifacts.apis.io/apache-james/openapi/apache-james-mailqueues-api-openapi.yml
 - filename: apache-james-mailrepositories-api-openapi.yml
   format: yaml
   label: Apache James MailRepositories API
   slug: apache-james-mailrepositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-mailrepositories-api-openapi.yml
+  url: https://artifacts.apis.io/apache-james/openapi/apache-james-mailrepositories-api-openapi.yml
 - filename: apache-james-quotas-api-openapi.yml
   format: yaml
   label: Apache James Quotas API
   slug: apache-james-quotas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-quotas-api-openapi.yml
+  url: https://artifacts.apis.io/apache-james/openapi/apache-james-quotas-api-openapi.yml
 - filename: apache-james-tasks-api-openapi.yml
   format: yaml
   label: Apache James Tasks API
   slug: apache-james-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/apache-james/openapi/apache-james-tasks-api-openapi.yml
 - filename: apache-james-users-api-openapi.yml
   format: yaml
   label: Apache James Users API
   slug: apache-james-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-users-api-openapi.yml
+  url: https://artifacts.apis.io/apache-james/openapi/apache-james-users-api-openapi.yml
 - filename: apache-james-health-check-api-openapi.yml
   format: yaml
   label: Apache James Health Check API
   slug: apache-james-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/apache-james/openapi/apache-james-health-check-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{username}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{username}/mailboxes\n  method: get\n  operationId: listUserMailboxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quota/users/{username}\n  method: get\n  operationId: getUserQuota\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /quota/users/{username}\n  method: put\n  operationId: updateUserQuota\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mailQueues\n  method: get\n  operationId: listMailQueues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mailRepositories\n  method: get\n  operationId: listMailRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /tasks/{taskId}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{taskId}\n  method: delete\n  operationId: cancelTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /healthcheck\n  method: get\n  operationId: checkHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/agentic-access/apache-james-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-james/agentic-access/apache-james-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - Email

@@ -9,49 +9,49 @@ api_specs:
   label: Deepdub Dubbing API
   slug: deepdub-dubbing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-dubbing-api-openapi.yml
+  url: https://artifacts.apis.io/deepdub/openapi/deepdub-dubbing-api-openapi.yml
 - filename: deepdub-gender-detection-api-openapi.yml
   format: yaml
   label: Deepdub Gender Detection API
   slug: deepdub-gender-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-gender-detection-api-openapi.yml
+  url: https://artifacts.apis.io/deepdub/openapi/deepdub-gender-detection-api-openapi.yml
 - filename: deepdub-infrastructure-api-openapi.yml
   format: yaml
   label: Deepdub Infrastructure API
   slug: deepdub-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/deepdub/openapi/deepdub-infrastructure-api-openapi.yml
 - filename: deepdub-issues-api-openapi.yml
   format: yaml
   label: Deepdub Issues API
   slug: deepdub-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-issues-api-openapi.yml
+  url: https://artifacts.apis.io/deepdub/openapi/deepdub-issues-api-openapi.yml
 - filename: deepdub-tts-api-openapi.yml
   format: yaml
   label: Deepdub TTS API
   slug: deepdub-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-tts-api-openapi.yml
+  url: https://artifacts.apis.io/deepdub/openapi/deepdub-tts-api-openapi.yml
 - filename: deepdub-usage-api-openapi.yml
   format: yaml
   label: Deepdub Usage API
   slug: deepdub-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-usage-api-openapi.yml
+  url: https://artifacts.apis.io/deepdub/openapi/deepdub-usage-api-openapi.yml
 - filename: deepdub-voice-api-openapi.yml
   format: yaml
   label: Deepdub Voice API
   slug: deepdub-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-voice-api-openapi.yml
+  url: https://artifacts.apis.io/deepdub/openapi/deepdub-voice-api-openapi.yml
 - filename: deepdub-provenance-api-openapi.yml
   format: yaml
   label: Deepdub Provenance API
   slug: deepdub-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/deepdub/openapi/deepdub-provenance-api-openapi.yml
 consequence_counts:
   read: 9
   write: 15
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/deepdu
   \      - high-value\n    audit: required\n- path: /dubbing/job/{request_id}\n  method: get\n  operationId: get_dubbing_job_dubbing_job__request_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dubbing/job/{request_id}\n  method: put\n  operationId: update_request_handler_dubbing_job__request_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dubbing/job/{request_id}\n  method: delete\n  operationId: cancel_request_handler_dubbing_job__request_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dubbing/job/{request_id}\n  method: patch\n  operationId: create_redubbing_job_handler_dubbing_job__request_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dubbing/jobs\n  method: get\n  operationId: list_dubbing_jobs_dubbing_jobs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dubbing/job/{request_id}/sources\n  method: post\n  operationId: add_source_handler_dubbing_job__request_id__sources_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/agentic-access/deepdub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/deepdub/agentic-access/deepdub-agentic-access.yml
 summary_line: 24 operations · 15 acting
 tags:
 - Company

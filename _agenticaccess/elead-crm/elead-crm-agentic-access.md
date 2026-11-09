@@ -9,25 +9,25 @@ api_specs:
   label: Elead Activities API
   slug: elead-crm-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-activities-api-openapi.yml
+  url: https://artifacts.apis.io/elead-crm/openapi/elead-crm-activities-api-openapi.yml
 - filename: elead-crm-customers-api-openapi.yml
   format: yaml
   label: Elead Customers API
   slug: elead-crm-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-customers-api-openapi.yml
+  url: https://artifacts.apis.io/elead-crm/openapi/elead-crm-customers-api-openapi.yml
 - filename: elead-crm-opportunities-api-openapi.yml
   format: yaml
   label: Elead Opportunities API
   slug: elead-crm-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/elead-crm/openapi/elead-crm-opportunities-api-openapi.yml
 - filename: elead-crm-reference-data-api-openapi.yml
   format: yaml
   label: Elead Reference Data API
   slug: elead-crm-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/openapi/elead-crm-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/elead-crm/openapi/elead-crm-reference-data-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/elead-
   \  method: post\n  operationId: Opportunities_CreateOpportunity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opportunities/search\n  method: get\n  operationId: Opportunities_Search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /opportunities/searchDelta\n  method: get\n  operationId: Opportunities_SearchDelta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /opportunities/{opportunityId}/comments\n  method: post\n  operationId: Opportunities_AddComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opportunities/{opportunityId}/email\n  method: post\n  operationId: Opportunities_SendEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reference/opportunitySources\n  method: get\n  operationId: GetCompanyOpportunitySources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference/vehicles/makes\n  method: get\n  operationId: GetVehicleMakes\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities\n  method: post\n  operationId: Activities_CreateActivity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/history\n  method: get\n  operationId: Activities_GetHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/agentic-access/elead-crm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/elead-crm/agentic-access/elead-crm-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - CRM

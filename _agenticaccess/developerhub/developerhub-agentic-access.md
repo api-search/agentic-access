@@ -9,43 +9,43 @@ api_specs:
   label: DeveloperHub Documentation API
   slug: developerhub-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-documentation-api-openapi.yml
 - filename: developerhub-project-api-openapi.yml
   format: yaml
   label: DeveloperHub Project API
   slug: developerhub-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-project-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-project-api-openapi.yml
 - filename: developerhub-reader-access-api-openapi.yml
   format: yaml
   label: DeveloperHub Reader Access API
   slug: developerhub-reader-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-reader-access-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-reader-access-api-openapi.yml
 - filename: developerhub-changelog-api-openapi.yml
   format: yaml
   label: DeveloperHub Changelog API
   slug: developerhub-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-changelog-api-openapi.yml
 - filename: developerhub-page-api-openapi.yml
   format: yaml
   label: DeveloperHub Page API
   slug: developerhub-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-page-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-page-api-openapi.yml
 - filename: developerhub-reference-api-openapi.yml
   format: yaml
   label: DeveloperHub Reference API
   slug: developerhub-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-reference-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-reference-api-openapi.yml
 - filename: developerhub-version-api-openapi.yml
   format: yaml
   label: DeveloperHub Version API
   slug: developerhub-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-version-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-version-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/develo
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /all\n  method: get\n  operationId: getAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit\n  method: get\n  operationId: queryAudit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /export\n  method: get\n  operationId: exportProject\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reader-access\n  method: get\n  operationId: listReaderAccess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reader-access\n  method: post\n  operationId: grantReaderAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reader-access\n  method: patch\n  operationId: revokeReaderAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n\
   \      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/agentic-access/developerhub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/developerhub/agentic-access/developerhub-agentic-access.yml
 summary_line: 20 operations · 9 acting · 1 human-in-the-loop
 tags:
 - API Reference

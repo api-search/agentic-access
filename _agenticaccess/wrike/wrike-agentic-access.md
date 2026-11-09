@@ -9,79 +9,79 @@ api_specs:
   label: Wrike Access Roles API
   slug: wrike-access-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-access-roles-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-access-roles-api-openapi.yml
 - filename: wrike-accounts-api-openapi.yml
   format: yaml
   label: Wrike Accounts API
   slug: wrike-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-accounts-api-openapi.yml
 - filename: wrike-colors-api-openapi.yml
   format: yaml
   label: Wrike Colors API
   slug: wrike-colors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-colors-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-colors-api-openapi.yml
 - filename: wrike-comments-api-openapi.yml
   format: yaml
   label: Wrike Comments API
   slug: wrike-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-comments-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-comments-api-openapi.yml
 - filename: wrike-contacts-api-openapi.yml
   format: yaml
   label: Wrike Contacts API
   slug: wrike-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-contacts-api-openapi.yml
 - filename: wrike-custom-fields-api-openapi.yml
   format: yaml
   label: Wrike Custom Fields API
   slug: wrike-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-custom-fields-api-openapi.yml
 - filename: wrike-folders-and-projects-api-openapi.yml
   format: yaml
   label: Wrike Folders And Projects API
   slug: wrike-folders-and-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-folders-and-projects-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-folders-and-projects-api-openapi.yml
 - filename: wrike-groups-api-openapi.yml
   format: yaml
   label: Wrike Groups API
   slug: wrike-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-groups-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-groups-api-openapi.yml
 - filename: wrike-tasks-api-openapi.yml
   format: yaml
   label: Wrike Tasks API
   slug: wrike-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-tasks-api-openapi.yml
 - filename: wrike-time-logs-api-openapi.yml
   format: yaml
   label: Wrike Time Logs API
   slug: wrike-time-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-time-logs-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-time-logs-api-openapi.yml
 - filename: wrike-users-api-openapi.yml
   format: yaml
   label: Wrike Users API
   slug: wrike-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-users-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-users-api-openapi.yml
 - filename: wrike-webhooks-api-openapi.yml
   format: yaml
   label: Wrike Webhooks API
   slug: wrike-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-webhooks-api-openapi.yml
 - filename: wrike-workflows-api-openapi.yml
   format: yaml
   label: Wrike Workflows API
   slug: wrike-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/wrike/openapi/wrike-workflows-api-openapi.yml
 consequence_counts:
   read: 25
   write: 23
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wrike-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timelogs/{timelogId}\n  method: delete\n  operationId: deleteTimelog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /webhooks/{webhookId}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access_roles\n  method: get\n  operationId: listAccessRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - amReadOnlyAccessRole\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /colors\n\
   \  method: get\n  operationId: listColors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/agentic-access/wrike-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wrike/agentic-access/wrike-agentic-access.yml
 summary_line: 48 operations · 23 acting
 tags:
 - Work Management

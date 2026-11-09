@@ -9,73 +9,73 @@ api_specs:
   label: NASCAR Companies API
   slug: nascar-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-companies-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-companies-api-openapi.yml
 - filename: nascar-drivers-api-openapi.yml
   format: yaml
   label: NASCAR Drivers API
   slug: nascar-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-drivers-api-openapi.yml
 - filename: nascar-entrylist-api-openapi.yml
   format: yaml
   label: NASCAR EntryList API
   slug: nascar-entrylist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-entrylist-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-entrylist-api-openapi.yml
 - filename: nascar-inspection-api-openapi.yml
   format: yaml
   label: NASCAR Inspection API
   slug: nascar-inspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-inspection-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-inspection-api-openapi.yml
 - filename: nascar-live-api-openapi.yml
   format: yaml
   label: NASCAR Live API
   slug: nascar-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-live-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-live-api-openapi.yml
 - filename: nascar-points-api-openapi.yml
   format: yaml
   label: NASCAR Points API
   slug: nascar-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-points-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-points-api-openapi.yml
 - filename: nascar-races-api-openapi.yml
   format: yaml
   label: NASCAR Races API
   slug: nascar-races-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-races-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-races-api-openapi.yml
 - filename: nascar-series-api-openapi.yml
   format: yaml
   label: NASCAR Series API
   slug: nascar-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-series-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-series-api-openapi.yml
 - filename: nascar-stats-api-openapi.yml
   format: yaml
   label: NASCAR Stats API
   slug: nascar-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-stats-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-stats-api-openapi.yml
 - filename: nascar-tracks-api-openapi.yml
   format: yaml
   label: NASCAR Tracks API
   slug: nascar-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-tracks-api-openapi.yml
 - filename: nascar-tracktemp-api-openapi.yml
   format: yaml
   label: NASCAR TrackTemp API
   slug: nascar-tracktemp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-tracktemp-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-tracktemp-api-openapi.yml
 - filename: nascar-weekend-api-openapi.yml
   format: yaml
   label: NASCAR Weekend API
   slug: nascar-weekend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/openapi/nascar-weekend-api-openapi.yml
+  url: https://artifacts.apis.io/nascar/openapi/nascar-weekend-api-openapi.yml
 consequence_counts:
   read: 40
   safety-critical: 1
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nascar
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/weekendschedule\n  method: get\n  operationId: getWeekendScheduleAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/prelimentrylist/{race_id}\n  method: get\n  operationId: getPreliminaryEntryList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stats/season\n  method: get\n  operationId: getSeasonStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stats/boxscore\n  method: get\n  operationId: getBoxScore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /api/stats/reports/{race_id}\n  method: get\n  operationId: listStatsReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stats/report\n  method: get\n  operationId: getStatsReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Inspection/aim/{id}\n  method: get\n  operationId: getInspectionAim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Inspection/idr/{idrnumber}\n  method: get\n  operationId: getInspectionIdr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Inspection/devicenumbers\n  method: get\n\
   \  operationId: getInspectionDeviceNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Inspection/submission/technique\n  method: get\n  operationId: getInspectionTechniqueSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Inspection/incidentwebhook\n  method: post\n  operationId: postInspectionIncidentWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/agentic-access/nascar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nascar/agentic-access/nascar-agentic-access.yml
 summary_line: 41 operations · 1 acting · 1 human-in-the-loop
 tags:
 - Auto Racing

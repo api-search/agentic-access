@@ -9,49 +9,49 @@ api_specs:
   label: SurveyMonkey Collectors API
   slug: surveymonkey-collectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-collectors-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-collectors-api-openapi.yml
 - filename: surveymonkey-contacts-api-openapi.yml
   format: yaml
   label: SurveyMonkey Contacts API
   slug: surveymonkey-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-contacts-api-openapi.yml
 - filename: surveymonkey-groups-api-openapi.yml
   format: yaml
   label: SurveyMonkey Groups API
   slug: surveymonkey-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-groups-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-groups-api-openapi.yml
 - filename: surveymonkey-responses-api-openapi.yml
   format: yaml
   label: SurveyMonkey Responses API
   slug: surveymonkey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-responses-api-openapi.yml
 - filename: surveymonkey-survey-structure-api-openapi.yml
   format: yaml
   label: SurveyMonkey Survey Structure API
   slug: surveymonkey-survey-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-survey-structure-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-survey-structure-api-openapi.yml
 - filename: surveymonkey-surveys-api-openapi.yml
   format: yaml
   label: SurveyMonkey Surveys API
   slug: surveymonkey-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-surveys-api-openapi.yml
 - filename: surveymonkey-users-api-openapi.yml
   format: yaml
   label: SurveyMonkey Users API
   slug: surveymonkey-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-users-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-users-api-openapi.yml
 - filename: surveymonkey-work-groups-api-openapi.yml
   format: yaml
   label: SurveyMonkey Work Groups API
   slug: surveymonkey-work-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-work-groups-api-openapi.yml
+  url: https://artifacts.apis.io/surveymonkey/openapi/surveymonkey-work-groups-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 24
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/survey
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/rollups\n  method: get\n  operationId: getSurveyRollups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/trends\n  method: get\n  operationId: getSurveyTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/collectors\n  method: get\n  operationId: listSurveyCollectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collectors/{collector_id}/messages/{message_id}/send\n  method: post\n  operationId: sendCollectorMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collectors/{collector_id}/recipients\n  method: get\n  operationId: listCollectorRecipients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contact_lists\n  method: get\n  operationId: listContactLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contact_lists/{contact_list_id}/contacts\n  method: get\n  operationId: listContactsInList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contact_lists/{contact_list_id}/contacts/bulk\n  method: post\n \
   \ operationId: bulkAddContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/agentic-access/surveymonkey-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/surveymonkey/agentic-access/surveymonkey-agentic-access.yml
 summary_line: 30 operations · 6 acting
 tags:
 - Surveys
@@ -100,5 +100,6 @@ tags:
 - Feedback
 - NPS
 - Forms
+- OAuth
 - Authentication
 ---

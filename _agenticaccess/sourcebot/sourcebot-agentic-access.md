@@ -9,31 +9,31 @@ api_specs:
   label: Sourcebot Enterprise (EE) API
   slug: sourcebot-enterprise-ee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-enterprise-ee-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-enterprise-ee-api-openapi.yml
 - filename: sourcebot-git-api-openapi.yml
   format: yaml
   label: Sourcebot Git API
   slug: sourcebot-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-git-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-git-api-openapi.yml
 - filename: sourcebot-repositories-api-openapi.yml
   format: yaml
   label: Sourcebot Repositories API
   slug: sourcebot-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-repositories-api-openapi.yml
 - filename: sourcebot-search-navigation-api-openapi.yml
   format: yaml
   label: Sourcebot Search & Navigation API
   slug: sourcebot-search-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-search-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-search-navigation-api-openapi.yml
 - filename: sourcebot-system-api-openapi.yml
   format: yaml
   label: Sourcebot System API
   slug: sourcebot-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/openapi/sourcebot-system-api-openapi.yml
+  url: https://artifacts.apis.io/sourcebot/openapi/sourcebot-system-api-openapi.yml
 consequence_counts:
   read: 16
   write: 1
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/source
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tree\n  method: post\n  operationId: getFileTree\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/diff\n  method: get\n  operationId: getDiff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/commits\n  method: get\n  operationId: listCommits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/commit\n  method: get\n  operationId: getCommit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/commits/authors\n  method: get\n\
   \  operationId: listCommitAuthors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/repos\n  method: get\n  operationId: listRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/find_definitions\n  method: post\n  operationId: findDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/find_references\n  method: post\n  operationId: findReferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/agentic-access/sourcebot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sourcebot/agentic-access/sourcebot-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
 - Company

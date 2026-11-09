@@ -9,85 +9,85 @@ api_specs:
   label: WordPress Block Types API
   slug: wordpress-block-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-block-types-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-block-types-api-openapi.yml
 - filename: wordpress-blocks-api-openapi.yml
   format: yaml
   label: WordPress Blocks API
   slug: wordpress-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-blocks-api-openapi.yml
 - filename: wordpress-categories-api-openapi.yml
   format: yaml
   label: WordPress Categories API
   slug: wordpress-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-categories-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-categories-api-openapi.yml
 - filename: wordpress-comments-api-openapi.yml
   format: yaml
   label: WordPress Comments API
   slug: wordpress-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-comments-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-comments-api-openapi.yml
 - filename: wordpress-media-api-openapi.yml
   format: yaml
   label: WordPress Media API
   slug: wordpress-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-media-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-media-api-openapi.yml
 - filename: wordpress-pages-api-openapi.yml
   format: yaml
   label: WordPress Pages API
   slug: wordpress-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-pages-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-pages-api-openapi.yml
 - filename: wordpress-plugins-api-openapi.yml
   format: yaml
   label: WordPress Plugins API
   slug: wordpress-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-plugins-api-openapi.yml
 - filename: wordpress-post-types-api-openapi.yml
   format: yaml
   label: WordPress Post Types API
   slug: wordpress-post-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-post-types-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-post-types-api-openapi.yml
 - filename: wordpress-posts-api-openapi.yml
   format: yaml
   label: WordPress Posts API
   slug: wordpress-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-posts-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-posts-api-openapi.yml
 - filename: wordpress-search-api-openapi.yml
   format: yaml
   label: WordPress Search API
   slug: wordpress-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-search-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-search-api-openapi.yml
 - filename: wordpress-settings-api-openapi.yml
   format: yaml
   label: WordPress Settings API
   slug: wordpress-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-settings-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-settings-api-openapi.yml
 - filename: wordpress-tags-api-openapi.yml
   format: yaml
   label: WordPress Tags API
   slug: wordpress-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-tags-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-tags-api-openapi.yml
 - filename: wordpress-themes-api-openapi.yml
   format: yaml
   label: WordPress Themes API
   slug: wordpress-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-themes-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-themes-api-openapi.yml
 - filename: wordpress-users-api-openapi.yml
   format: yaml
   label: WordPress Users API
   slug: wordpress-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/openapi/wordpress-users-api-openapi.yml
+  url: https://artifacts.apis.io/wordpress/openapi/wordpress-users-api-openapi.yml
 consequence_counts:
   read: 18
   write: 6
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wordpr
   \  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/categories\n  method: post\n  operationId: createCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/search\n  method: get\n  operationId:\
   \ searchContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/settings\n  method: get\n  operationId: getSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/themes\n  method: get\n  operationId: listThemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/plugins\n  method: get\n  operationId: listPlugins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/types\n  method: get\n  operationId: listPostTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /wp/v2/blocks\n  method: get\n  operationId: listBlocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/block-types\n  method: get\n  operationId: listBlockTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/agentic-access/wordpress-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wordpress/agentic-access/wordpress-agentic-access.yml
 summary_line: 24 operations · 6 acting
 tags:
 - CMS

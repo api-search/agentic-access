@@ -9,31 +9,31 @@ api_specs:
   label: crates.io Config API
   slug: crates-io-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-config-api-openapi.yml
+  url: https://artifacts.apis.io/crates-io/openapi/crates-io-config-api-openapi.yml
 - filename: crates-io-crates-api-openapi.yml
   format: yaml
   label: crates.io Crates API
   slug: crates-io-crates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-crates-api-openapi.yml
+  url: https://artifacts.apis.io/crates-io/openapi/crates-io-crates-api-openapi.yml
 - filename: crates-io-index-api-openapi.yml
   format: yaml
   label: crates.io Index API
   slug: crates-io-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-index-api-openapi.yml
+  url: https://artifacts.apis.io/crates-io/openapi/crates-io-index-api-openapi.yml
 - filename: crates-io-owners-api-openapi.yml
   format: yaml
   label: crates.io Owners API
   slug: crates-io-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-owners-api-openapi.yml
+  url: https://artifacts.apis.io/crates-io/openapi/crates-io-owners-api-openapi.yml
 - filename: crates-io-versions-api-openapi.yml
   format: yaml
   label: crates.io Versions API
   slug: crates-io-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/openapi/crates-io-versions-api-openapi.yml
+  url: https://artifacts.apis.io/crates-io/openapi/crates-io-versions-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/crates
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/crates/{crate}\n  method: get\n  operationId: getCrate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/crates/{crate}/{version}\n  method: get\n  operationId: getCrateVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/crates/{crate}/{version}/download\n  method: get\n  operationId: downloadCrate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/crates/{crate}/{version}/yank\n  method: delete\n\
   \  operationId: yankVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/crates/{crate}/{version}/unyank\n  method: put\n  operationId: unyankVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/crates/{crate}/owners\n  method: get\n  operationId: listOwners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/crates/{crate}/owners\n  method: put\n  operationId: addOwner\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/crates/{crate}/owners\n  method: delete\n  operationId: removeOwner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/agentic-access/crates-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crates-io/agentic-access/crates-io-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Rust

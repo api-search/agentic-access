@@ -9,31 +9,31 @@ api_specs:
   label: Anysphere Agents API
   slug: anysphere-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-agents-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-agents-api-openapi.yml
 - filename: anysphere-me-api-openapi.yml
   format: yaml
   label: Anysphere Me API
   slug: anysphere-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-me-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-me-api-openapi.yml
 - filename: anysphere-models-api-openapi.yml
   format: yaml
   label: Anysphere Models API
   slug: anysphere-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-models-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-models-api-openapi.yml
 - filename: anysphere-repositories-api-openapi.yml
   format: yaml
   label: Anysphere Repositories API
   slug: anysphere-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-repositories-api-openapi.yml
 - filename: anysphere-sub-tokens-api-openapi.yml
   format: yaml
   label: Anysphere Sub Tokens API
   slug: anysphere-sub-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/openapi/anysphere-sub-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/anysphere/openapi/anysphere-sub-tokens-api-openapi.yml
 consequence_counts:
   read: 11
   write: 7
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/anysph
   \ high-value\n    audit: required\n- path: /v1/agents/{id}/usage\n  method: get\n  operationId: getAgentUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agents/{id}/archive\n  method: post\n  operationId: archiveAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agents/{id}/unarchive\n  method: post\n  operationId: unarchiveAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agents/{id}/artifacts\n\
   \  method: get\n  operationId: listArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agents/{id}/artifacts/download\n  method: get\n  operationId: downloadArtifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/me\n  method: get\n  operationId: getApiKeyInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/repositories\n  method: get\n  operationId: listRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sub-tokens\n  method: post\n  operationId: createSubToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/agentic-access/anysphere-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/anysphere/agentic-access/anysphere-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - Company

@@ -9,43 +9,43 @@ api_specs:
   label: Sevalla Applications API
   slug: sevalla-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-applications-api-openapi.yml
+  url: https://artifacts.apis.io/sevalla/openapi/sevalla-applications-api-openapi.yml
 - filename: sevalla-company-api-openapi.yml
   format: yaml
   label: Sevalla Company API
   slug: sevalla-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-company-api-openapi.yml
+  url: https://artifacts.apis.io/sevalla/openapi/sevalla-company-api-openapi.yml
 - filename: sevalla-databases-api-openapi.yml
   format: yaml
   label: Sevalla Databases API
   slug: sevalla-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-databases-api-openapi.yml
+  url: https://artifacts.apis.io/sevalla/openapi/sevalla-databases-api-openapi.yml
 - filename: sevalla-deployments-api-openapi.yml
   format: yaml
   label: Sevalla Deployments API
   slug: sevalla-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/sevalla/openapi/sevalla-deployments-api-openapi.yml
 - filename: sevalla-object-storage-api-openapi.yml
   format: yaml
   label: Sevalla Object Storage API
   slug: sevalla-object-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-object-storage-api-openapi.yml
+  url: https://artifacts.apis.io/sevalla/openapi/sevalla-object-storage-api-openapi.yml
 - filename: sevalla-pipelines-api-openapi.yml
   format: yaml
   label: Sevalla Pipelines API
   slug: sevalla-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/sevalla/openapi/sevalla-pipelines-api-openapi.yml
 - filename: sevalla-static-sites-api-openapi.yml
   format: yaml
   label: Sevalla Static Sites API
   slug: sevalla-static-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/openapi/sevalla-static-sites-api-openapi.yml
+  url: https://artifacts.apis.io/sevalla/openapi/sevalla-static-sites-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 17
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sevall
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /object-storages/{id}/objects\n  method: get\n  operationId: listObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines\n  method: get\n  operationId: listPipelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines\n  method: post\n  operationId: createPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{id}/promote\n  method: post\n\
   \  operationId: promotePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /company/usage\n  method: get\n  operationId: getCompanyUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/users\n  method: get\n  operationId: listCompanyUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys\n  method: get\n  operationId: listApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys\n  method: post\n  operationId:\
   \ createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/agentic-access/sevalla-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sevalla/agentic-access/sevalla-agentic-access.yml
 summary_line: 36 operations · 19 acting
 tags:
 - Hosting

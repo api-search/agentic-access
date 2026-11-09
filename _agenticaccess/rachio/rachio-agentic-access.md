@@ -9,49 +9,49 @@ api_specs:
   label: Rachio Public API
   slug: rachio-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-public-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-public-api-openapi.yml
 - filename: rachio-lightingservice-api-openapi.yml
   format: yaml
   label: Rachio Lighting Service API
   slug: rachio-lightingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-lightingservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-lightingservice-api-openapi.yml
 - filename: rachio-programservice-api-openapi.yml
   format: yaml
   label: Rachio Program Service API
   slug: rachio-programservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-programservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-programservice-api-openapi.yml
 - filename: rachio-propertyservice-api-openapi.yml
   format: yaml
   label: Rachio Property Service API
   slug: rachio-propertyservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-propertyservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-propertyservice-api-openapi.yml
 - filename: rachio-public-api-openapi.yml
   format: yaml
   label: Rachio Public API
   slug: rachio-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-public-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-public-api-openapi.yml
 - filename: rachio-summaryservice-api-openapi.yml
   format: yaml
   label: Rachio Summary Service API
   slug: rachio-summaryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-summaryservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-summaryservice-api-openapi.yml
 - filename: rachio-valveservice-api-openapi.yml
   format: yaml
   label: Rachio Valve Service API
   slug: rachio-valveservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-valveservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-valveservice-api-openapi.yml
 - filename: rachio-webhookservice-api-openapi.yml
   format: yaml
   label: Rachio Webhook Service API
   slug: rachio-webhookservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-webhookservice-api-openapi.yml
+  url: https://artifacts.apis.io/rachio/openapi/rachio-webhookservice-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 11
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/rachio
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/deleteAllWebhooks\n  method: delete\n  operationId: WebhookService_DeleteAllWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/deleteWebhook/{id}\n  method: delete\n  operationId: WebhookService_DeleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/getWebhook/{id}\n\
   \  method: get\n  operationId: WebhookService_GetWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/listWebhookEventTypes\n  method: get\n  operationId: WebhookService_ListWebhookEventTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/listWebhooks\n  method: get\n  operationId: WebhookService_ListWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/updateWebhook\n  method: put\n  operationId: WebhookService_UpdateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/agentic-access/rachio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rachio/agentic-access/rachio-agentic-access.yml
 summary_line: 79 operations · 49 acting · 11 human-in-the-loop
 tags:
 - Company

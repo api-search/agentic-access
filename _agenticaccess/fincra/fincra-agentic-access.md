@@ -9,49 +9,49 @@ api_specs:
   label: Fincra Account Resolution API
   slug: fincra-account-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-account-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/fincra/openapi/fincra-account-resolution-api-openapi.yml
 - filename: fincra-banks-api-openapi.yml
   format: yaml
   label: Fincra Banks API
   slug: fincra-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-banks-api-openapi.yml
+  url: https://artifacts.apis.io/fincra/openapi/fincra-banks-api-openapi.yml
 - filename: fincra-beneficiaries-api-openapi.yml
   format: yaml
   label: Fincra Beneficiaries API
   slug: fincra-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/fincra/openapi/fincra-beneficiaries-api-openapi.yml
 - filename: fincra-collections-api-openapi.yml
   format: yaml
   label: Fincra Collections API
   slug: fincra-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-collections-api-openapi.yml
+  url: https://artifacts.apis.io/fincra/openapi/fincra-collections-api-openapi.yml
 - filename: fincra-conversions-api-openapi.yml
   format: yaml
   label: Fincra Conversions API
   slug: fincra-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/fincra/openapi/fincra-conversions-api-openapi.yml
 - filename: fincra-payouts-api-openapi.yml
   format: yaml
   label: Fincra Payouts API
   slug: fincra-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/fincra/openapi/fincra-payouts-api-openapi.yml
 - filename: fincra-quotes-api-openapi.yml
   format: yaml
   label: Fincra Quotes API
   slug: fincra-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/fincra/openapi/fincra-quotes-api-openapi.yml
 - filename: fincra-virtual-accounts-api-openapi.yml
   format: yaml
   label: Fincra Virtual Accounts API
   slug: fincra-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/openapi/fincra-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fincra/openapi/fincra-virtual-accounts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 13
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fincra
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/beneficiaries/business/{businessId}/{beneficiaryId}\n  method: patch\n  operationId: updateBeneficiary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/beneficiaries/business/{businessId}/{beneficiaryId}\n  method: delete\n  operationId: deleteBeneficiary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/virtual-accounts/requests\n  method: post\n  operationId: requestVirtualAccount\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/virtual-accounts/business\n  method: get\n  operationId: listVirtualAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/virtual-accounts/{virtualAccountId}\n  method: get\n  operationId: fetchVirtualAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/virtual-accounts/{virtualAccountId}/payins\n  method: get\n  operationId: listVirtualAccountPayins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/banks\n\
   \  method: get\n  operationId: listBanks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/accounts/resolve\n  method: post\n  operationId: resolveAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/agentic-access/fincra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fincra/agentic-access/fincra-agentic-access.yml
 summary_line: 23 operations · 10 acting
 tags:
 - Payments

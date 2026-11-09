@@ -9,43 +9,43 @@ api_specs:
   label: Beeper Accounts API
   slug: beeper-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/beeper/openapi/beeper-accounts-api-openapi.yml
 - filename: beeper-app-api-openapi.yml
   format: yaml
   label: Beeper App API
   slug: beeper-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-app-api-openapi.yml
+  url: https://artifacts.apis.io/beeper/openapi/beeper-app-api-openapi.yml
 - filename: beeper-chats-api-openapi.yml
   format: yaml
   label: Beeper Chats API
   slug: beeper-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-chats-api-openapi.yml
+  url: https://artifacts.apis.io/beeper/openapi/beeper-chats-api-openapi.yml
 - filename: beeper-contacts-api-openapi.yml
   format: yaml
   label: Beeper Contacts API
   slug: beeper-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/beeper/openapi/beeper-contacts-api-openapi.yml
 - filename: beeper-files-api-openapi.yml
   format: yaml
   label: Beeper Files API
   slug: beeper-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-files-api-openapi.yml
+  url: https://artifacts.apis.io/beeper/openapi/beeper-files-api-openapi.yml
 - filename: beeper-messages-api-openapi.yml
   format: yaml
   label: Beeper Messages API
   slug: beeper-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-messages-api-openapi.yml
+  url: https://artifacts.apis.io/beeper/openapi/beeper-messages-api-openapi.yml
 - filename: beeper-server-api-openapi.yml
   format: yaml
   label: Beeper Server API
   slug: beeper-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/openapi/beeper-server-api-openapi.yml
+  url: https://artifacts.apis.io/beeper/openapi/beeper-server-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/beeper
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chats/{chatID}/messages/{messageID}\n  method: delete\n  operationId: deleteMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chats/{chatID}/messages/{messageID}/reactions\n  method: post\n  operationId: addReaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chats/{chatID}/messages/{messageID}/reactions/{reactionKey}\n  method: delete\n  operationId: removeReaction\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/assets/download\n  method: post\n  operationId: downloadAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/assets/serve\n  method: get\n  operationId: serveAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/assets/upload\n  method: post\n  operationId: uploadAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/assets/upload/base64\n  method: post\n  operationId: uploadAssetBase64\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/info\n  method: get\n  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/agentic-access/beeper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beeper/agentic-access/beeper-agentic-access.yml
 summary_line: 30 operations · 18 acting
 tags:
 - Company

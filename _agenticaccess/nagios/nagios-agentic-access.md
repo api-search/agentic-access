@@ -9,67 +9,67 @@ api_specs:
   label: Nagios Config API
   slug: nagios-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-config-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-config-api-openapi.yml
 - filename: nagios-cpu-api-openapi.yml
   format: yaml
   label: Nagios CPU API
   slug: nagios-cpu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-cpu-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-cpu-api-openapi.yml
 - filename: nagios-disk-api-openapi.yml
   format: yaml
   label: Nagios Disk API
   slug: nagios-disk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-disk-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-disk-api-openapi.yml
 - filename: nagios-interface-api-openapi.yml
   format: yaml
   label: Nagios Interface API
   slug: nagios-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-interface-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-interface-api-openapi.yml
 - filename: nagios-memory-api-openapi.yml
   format: yaml
   label: Nagios Memory API
   slug: nagios-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-memory-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-memory-api-openapi.yml
 - filename: nagios-objects-api-openapi.yml
   format: yaml
   label: Nagios Objects API
   slug: nagios-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-objects-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-objects-api-openapi.yml
 - filename: nagios-plugins-api-openapi.yml
   format: yaml
   label: Nagios Plugins API
   slug: nagios-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-plugins-api-openapi.yml
 - filename: nagios-processes-api-openapi.yml
   format: yaml
   label: Nagios Processes API
   slug: nagios-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-processes-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-processes-api-openapi.yml
 - filename: nagios-services-api-openapi.yml
   format: yaml
   label: Nagios Services API
   slug: nagios-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-services-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-services-api-openapi.yml
 - filename: nagios-submission-api-openapi.yml
   format: yaml
   label: Nagios Submission API
   slug: nagios-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-submission-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-submission-api-openapi.yml
 - filename: nagios-system-api-openapi.yml
   format: yaml
   label: Nagios System API
   slug: nagios-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/openapi/nagios-system-api-openapi.yml
+  url: https://artifacts.apis.io/nagios/openapi/nagios-system-api-openapi.yml
 consequence_counts:
   read: 26
   write: 7
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nagios
   \  method: get\n  operationId: getCpuPercent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cpu/count\n  method: get\n  operationId: getCpuCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /memory/virtual\n  method: get\n  operationId: getMemoryVirtual\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /memory/swap\n  method: get\n  operationId: getMemorySwap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disk/logical\n  method: get\n  operationId: getDiskLogical\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /disk/physical\n  method: get\n  operationId: getDiskPhysical\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disk/mount\n  method: get\n  operationId: getDiskMount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interface\n  method: get\n  operationId: getInterface\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processes\n  method: get\n  operationId: listProcesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plugins/{pluginName}\n  method: get\n  operationId: runPlugin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: submitNrdp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/agentic-access/nagios-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nagios/agentic-access/nagios-agentic-access.yml
 summary_line: 33 operations · 7 acting
 tags:
 - Monitoring

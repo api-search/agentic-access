@@ -9,73 +9,73 @@ api_specs:
   label: ARGUS Enterprise Authentication API
   slug: argus-enterprise-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-authentication-api-openapi.yml
 - filename: argus-enterprise-cash-flows-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Cash Flows API
   slug: argus-enterprise-cash-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-cash-flows-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-cash-flows-api-openapi.yml
 - filename: argus-enterprise-events-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Events API
   slug: argus-enterprise-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-events-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-events-api-openapi.yml
 - filename: argus-enterprise-health-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Health API
   slug: argus-enterprise-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-health-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-health-api-openapi.yml
 - filename: argus-enterprise-leases-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Leases API
   slug: argus-enterprise-leases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-leases-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-leases-api-openapi.yml
 - filename: argus-enterprise-portfolios-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Portfolios API
   slug: argus-enterprise-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-portfolios-api-openapi.yml
 - filename: argus-enterprise-properties-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Properties API
   slug: argus-enterprise-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-properties-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-properties-api-openapi.yml
 - filename: argus-enterprise-reports-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Reports API
   slug: argus-enterprise-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-reports-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-reports-api-openapi.yml
 - filename: argus-enterprise-subscriptions-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Subscriptions API
   slug: argus-enterprise-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-subscriptions-api-openapi.yml
 - filename: argus-enterprise-tenants-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Tenants API
   slug: argus-enterprise-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-tenants-api-openapi.yml
 - filename: argus-enterprise-users-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Users API
   slug: argus-enterprise-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-users-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-users-api-openapi.yml
 - filename: argus-enterprise-valuations-api-openapi.yml
   format: yaml
   label: ARGUS Enterprise Valuations API
   slug: argus-enterprise-valuations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-valuations-api-openapi.yml
+  url: https://artifacts.apis.io/argus-enterprise/openapi/argus-enterprise-valuations-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 22
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/argus-
   \ pauseSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/resume\n  method: post\n  operationId: resumeSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/test\n  method: post\n  operationId: testSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventId}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventId}/retry\n  method: post\n  operationId: retryEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: getWebhookHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/agentic-access/argus-enterprise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/argus-enterprise/agentic-access/argus-enterprise-agentic-access.yml
 summary_line: 43 operations · 21 acting
 tags:
 - Altus Group

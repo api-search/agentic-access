@@ -9,43 +9,43 @@ api_specs:
   label: Turvo Accounts API
   slug: turvo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-accounts-api-openapi.yml
 - filename: turvo-authentication-api-openapi.yml
   format: yaml
   label: Turvo Authentication API
   slug: turvo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-authentication-api-openapi.yml
 - filename: turvo-carriers-api-openapi.yml
   format: yaml
   label: Turvo Carriers API
   slug: turvo-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-carriers-api-openapi.yml
 - filename: turvo-locations-api-openapi.yml
   format: yaml
   label: Turvo Locations API
   slug: turvo-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-locations-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-locations-api-openapi.yml
 - filename: turvo-orders-api-openapi.yml
   format: yaml
   label: Turvo Orders API
   slug: turvo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-orders-api-openapi.yml
 - filename: turvo-shipments-api-openapi.yml
   format: yaml
   label: Turvo Shipments API
   slug: turvo-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-shipments-api-openapi.yml
 - filename: turvo-tracking-api-openapi.yml
   format: yaml
   label: Turvo Tracking API
   slug: turvo-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/openapi/turvo-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/turvo/openapi/turvo-tracking-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 11
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/turvo-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts\n  method: post\n  operationId: createAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{id}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{id}\n  method: put\n  operationId: updateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carriers/list\n  method: get\n  operationId:\
   \ listCarriers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers\n  method: post\n  operationId: createCarrier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carriers/{id}\n  method: get\n  operationId: getCarrier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers/{id}\n  method: put\n  operationId: updateCarrier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/{id}/locationUpdates\n  method: get\n  operationId: listLocationUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/{id}/locationUpdates\n  method: post\n  operationId: createLocationUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/agentic-access/turvo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/turvo/agentic-access/turvo-agentic-access.yml
 summary_line: 24 operations · 13 acting
 tags:
 - Logistics

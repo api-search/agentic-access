@@ -9,55 +9,55 @@ api_specs:
   label: J-Quants Derivatives API
   slug: j-quants-derivatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-derivatives-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-derivatives-api-openapi.yml
 - filename: j-quants-equities-api-openapi.yml
   format: yaml
   label: J-Quants Equities API
   slug: j-quants-equities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-equities-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-equities-api-openapi.yml
 - filename: j-quants-fins-api-openapi.yml
   format: yaml
   label: J-Quants Fins API
   slug: j-quants-fins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-fins-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-fins-api-openapi.yml
 - filename: j-quants-indices-api-openapi.yml
   format: yaml
   label: J-Quants Indices API
   slug: j-quants-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-indices-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-indices-api-openapi.yml
 - filename: j-quants-listed-api-openapi.yml
   format: yaml
   label: J-Quants Listed API
   slug: j-quants-listed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-listed-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-listed-api-openapi.yml
 - filename: j-quants-markets-api-openapi.yml
   format: yaml
   label: J-Quants Markets API
   slug: j-quants-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-markets-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-markets-api-openapi.yml
 - filename: j-quants-option-api-openapi.yml
   format: yaml
   label: J-Quants Option API
   slug: j-quants-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-option-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-option-api-openapi.yml
 - filename: j-quants-prices-api-openapi.yml
   format: yaml
   label: J-Quants Prices API
   slug: j-quants-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-prices-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-prices-api-openapi.yml
 - filename: j-quants-token-api-openapi.yml
   format: yaml
   label: J-Quants Token API
   slug: j-quants-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/openapi/j-quants-token-api-openapi.yml
+  url: https://artifacts.apis.io/j-quants/openapi/j-quants-token-api-openapi.yml
 consequence_counts:
   read: 19
   write: 2
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/j-quan
   \      max-ttl: 3600\n    audit: none\n- path: /markets/daily_margin_interest\n  method: get\n  operationId: getDailyMarginInterest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/breakdown\n  method: get\n  operationId: getBreakdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/trading_calendar\n  method: get\n  operationId: getTradingCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indices/topix\n  method: get\n  operationId: getTopix\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fins/statements\n  method: get\n  operationId: getFinStatements\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fins/fs_details\n  method: get\n  operationId: getFsDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fins/dividend\n  method: get\n  operationId: getDividend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fins/announcement\n  method: get\n  operationId: getAnnouncement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /option/index_option\n  method: get\n  operationId: getIndexOption\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /derivatives/futures\n  method: get\n  operationId: getFutures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /derivatives/options\n  method: get\n  operationId: getOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/agentic-access/j-quants-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/j-quants/agentic-access/j-quants-agentic-access.yml
 summary_line: 21 operations · 2 acting
 tags:
 - Financial Data

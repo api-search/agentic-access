@@ -9,115 +9,115 @@ api_specs:
   label: Exa Agent API
   slug: exa-ai-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-agent-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-agent-api-openapi.yml
 - filename: exa-ai-answer-api-openapi.yml
   format: yaml
   label: Exa Answer API
   slug: exa-ai-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-answer-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-answer-api-openapi.yml
 - filename: exa-ai-contents-api-openapi.yml
   format: yaml
   label: Exa Contents API
   slug: exa-ai-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-contents-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-contents-api-openapi.yml
 - filename: exa-ai-enrichments-api-openapi.yml
   format: yaml
   label: Exa Enrichments API
   slug: exa-ai-enrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-enrichments-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-enrichments-api-openapi.yml
 - filename: exa-ai-events-api-openapi.yml
   format: yaml
   label: Exa Events API
   slug: exa-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-events-api-openapi.yml
 - filename: exa-ai-imports-api-openapi.yml
   format: yaml
   label: Exa Imports API
   slug: exa-ai-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-imports-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-imports-api-openapi.yml
 - filename: exa-ai-items-api-openapi.yml
   format: yaml
   label: Exa Items API
   slug: exa-ai-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-items-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-items-api-openapi.yml
 - filename: exa-ai-monitors-api-openapi.yml
   format: yaml
   label: Exa Monitors API
   slug: exa-ai-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-monitors-api-openapi.yml
 - filename: exa-ai-monitors-runs-api-openapi.yml
   format: yaml
   label: Exa Monitors Runs API
   slug: exa-ai-monitors-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-monitors-runs-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-monitors-runs-api-openapi.yml
 - filename: exa-ai-research-api-openapi.yml
   format: yaml
   label: Exa Research API
   slug: exa-ai-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-research-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-research-api-openapi.yml
 - filename: exa-ai-runs-api-openapi.yml
   format: yaml
   label: Exa Runs API
   slug: exa-ai-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-runs-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-runs-api-openapi.yml
 - filename: exa-ai-search-api-openapi.yml
   format: yaml
   label: Exa Search API
   slug: exa-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-search-api-openapi.yml
 - filename: exa-ai-searches-api-openapi.yml
   format: yaml
   label: Exa Searches API
   slug: exa-ai-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-searches-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-searches-api-openapi.yml
 - filename: exa-ai-team-management-api-openapi.yml
   format: yaml
   label: Exa Team Management API
   slug: exa-ai-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-team-management-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-team-management-api-openapi.yml
 - filename: exa-ai-teams-api-openapi.yml
   format: yaml
   label: Exa Teams API
   slug: exa-ai-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-teams-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-teams-api-openapi.yml
 - filename: exa-ai-webhooks-api-openapi.yml
   format: yaml
   label: Exa Webhooks API
   slug: exa-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-webhooks-api-openapi.yml
 - filename: exa-ai-webhooks-attempts-api-openapi.yml
   format: yaml
   label: Exa Webhooks Attempts API
   slug: exa-ai-webhooks-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-webhooks-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-webhooks-attempts-api-openapi.yml
 - filename: exa-ai-websets-api-openapi.yml
   format: yaml
   label: Exa Websets API
   slug: exa-ai-websets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-websets-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-websets-api-openapi.yml
 - filename: exa-ai-websets-preview-api-openapi.yml
   format: yaml
   label: Exa Websets Preview API
   slug: exa-ai-websets-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/openapi/exa-ai-websets-preview-api-openapi.yml
+  url: https://artifacts.apis.io/exa-ai/openapi/exa-ai-websets-preview-api-openapi.yml
 consequence_counts:
   read: 32
   safety-critical: 1
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/exa-ai
   \      - high-value\n    audit: required\n- path: /v0/webhooks/{id}/attempts\n  method: get\n  operationId: webhooks-attempts-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/websets\n  method: post\n  operationId: websets-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/websets\n  method: get\n  operationId: websets-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/websets/{id}\n  method: get\n  operationId: websets-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/websets/{id}\n  method: post\n  operationId: websets-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/websets/{id}\n  method: delete\n  operationId: websets-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/websets/{id}/cancel\n  method: post\n  operationId: websets-cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/websets/preview\n  method: post\n  operationId: websets-preview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/agentic-access/exa-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/exa-ai/agentic-access/exa-ai-agentic-access.yml
 summary_line: 66 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

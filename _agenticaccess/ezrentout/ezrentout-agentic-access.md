@@ -9,67 +9,67 @@ api_specs:
   label: EZRentOut Assets API
   slug: ezrentout-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-assets-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-assets-api-openapi.yml
 - filename: ezrentout-availability-api-openapi.yml
   format: yaml
   label: EZRentOut Availability API
   slug: ezrentout-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-availability-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-availability-api-openapi.yml
 - filename: ezrentout-bundles-api-openapi.yml
   format: yaml
   label: EZRentOut Bundles API
   slug: ezrentout-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-bundles-api-openapi.yml
 - filename: ezrentout-customers-api-openapi.yml
   format: yaml
   label: EZRentOut Customers API
   slug: ezrentout-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-customers-api-openapi.yml
 - filename: ezrentout-inventory-api-openapi.yml
   format: yaml
   label: EZRentOut Inventory API
   slug: ezrentout-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-inventory-api-openapi.yml
 - filename: ezrentout-locations-api-openapi.yml
   format: yaml
   label: EZRentOut Locations API
   slug: ezrentout-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-locations-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-locations-api-openapi.yml
 - filename: ezrentout-maintenance-api-openapi.yml
   format: yaml
   label: EZRentOut Maintenance API
   slug: ezrentout-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-maintenance-api-openapi.yml
 - filename: ezrentout-members-api-openapi.yml
   format: yaml
   label: EZRentOut Members API
   slug: ezrentout-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-members-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-members-api-openapi.yml
 - filename: ezrentout-orders-api-openapi.yml
   format: yaml
   label: EZRentOut Orders API
   slug: ezrentout-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-orders-api-openapi.yml
 - filename: ezrentout-payments-api-openapi.yml
   format: yaml
   label: EZRentOut Payments API
   slug: ezrentout-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-payments-api-openapi.yml
 - filename: ezrentout-purchase-orders-api-openapi.yml
   format: yaml
   label: EZRentOut Purchase Orders API
   slug: ezrentout-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/openapi/ezrentout-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ezrentout/openapi/ezrentout-purchase-orders-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 31
@@ -209,7 +209,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ezrent
   - path: /services.api\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services.api\n  method: post\n  operationId: createService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{serviceId}/complete.api\n  method: patch\n  operationId: completeService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/{assetNum}/maintenance.api\n  method: patch\n  operationId:\
   \ putAssetInMaintenance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks.api\n  method: post\n  operationId: createWorkOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{taskId}.api\n  method: get\n  operationId: getWorkOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{taskId}/start.api\n  method: patch\n  operationId: startWorkOrder\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{taskId}/end.api\n  method: patch\n  operationId: endWorkOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/agentic-access/ezrentout-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ezrentout/agentic-access/ezrentout-agentic-access.yml
 summary_line: 71 operations · 40 acting
 tags:
 - Equipment Rental

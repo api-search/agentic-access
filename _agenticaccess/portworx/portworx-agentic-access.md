@@ -9,151 +9,151 @@ api_specs:
   label: Portworx OpenStorageAlerts API
   slug: portworx-openstoragealerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragealerts-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragealerts-api-openapi.yml
 - filename: portworx-openstoragebucket-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageBucket API
   slug: portworx-openstoragebucket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragebucket-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragebucket-api-openapi.yml
 - filename: portworx-openstoragecloudbackup-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageCloudBackup API
   slug: portworx-openstoragecloudbackup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragecloudbackup-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragecloudbackup-api-openapi.yml
 - filename: portworx-openstoragecluster-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageCluster API
   slug: portworx-openstoragecluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragecluster-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragecluster-api-openapi.yml
 - filename: portworx-openstorageclusterdomains-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageClusterDomains API
   slug: portworx-openstorageclusterdomains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstorageclusterdomains-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstorageclusterdomains-api-openapi.yml
 - filename: portworx-openstorageclusterpair-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageClusterPair API
   slug: portworx-openstorageclusterpair-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstorageclusterpair-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstorageclusterpair-api-openapi.yml
 - filename: portworx-openstoragecredentials-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageCredentials API
   slug: portworx-openstoragecredentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragecredentials-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragecredentials-api-openapi.yml
 - filename: portworx-openstoragediags-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageDiags API
   slug: portworx-openstoragediags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragediags-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragediags-api-openapi.yml
 - filename: portworx-openstoragefilesystemcheck-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageFilesystemCheck API
   slug: portworx-openstoragefilesystemcheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragefilesystemcheck-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragefilesystemcheck-api-openapi.yml
 - filename: portworx-openstoragefilesystemdefrag-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageFilesystemDefrag API
   slug: portworx-openstoragefilesystemdefrag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragefilesystemdefrag-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragefilesystemdefrag-api-openapi.yml
 - filename: portworx-openstoragefilesystemtrim-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageFilesystemTrim API
   slug: portworx-openstoragefilesystemtrim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragefilesystemtrim-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragefilesystemtrim-api-openapi.yml
 - filename: portworx-openstorageidentity-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageIdentity API
   slug: portworx-openstorageidentity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstorageidentity-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstorageidentity-api-openapi.yml
 - filename: portworx-openstoragejob-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageJob API
   slug: portworx-openstoragejob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragejob-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragejob-api-openapi.yml
 - filename: portworx-openstoragemigrate-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageMigrate API
   slug: portworx-openstoragemigrate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragemigrate-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragemigrate-api-openapi.yml
 - filename: portworx-openstoragemountattach-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageMountAttach API
   slug: portworx-openstoragemountattach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragemountattach-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragemountattach-api-openapi.yml
 - filename: portworx-openstoragenode-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageNode API
   slug: portworx-openstoragenode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragenode-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragenode-api-openapi.yml
 - filename: portworx-openstorageobjectstore-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageObjectstore API
   slug: portworx-openstorageobjectstore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstorageobjectstore-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstorageobjectstore-api-openapi.yml
 - filename: portworx-openstoragepolicy-api-openapi.yml
   format: yaml
   label: Portworx OpenStoragePolicy API
   slug: portworx-openstoragepolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragepolicy-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragepolicy-api-openapi.yml
 - filename: portworx-openstoragepool-api-openapi.yml
   format: yaml
   label: Portworx OpenStoragePool API
   slug: portworx-openstoragepool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragepool-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragepool-api-openapi.yml
 - filename: portworx-openstoragerole-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageRole API
   slug: portworx-openstoragerole-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragerole-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragerole-api-openapi.yml
 - filename: portworx-openstorageschedule-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageSchedule API
   slug: portworx-openstorageschedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstorageschedule-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstorageschedule-api-openapi.yml
 - filename: portworx-openstorageschedulepolicy-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageSchedulePolicy API
   slug: portworx-openstorageschedulepolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstorageschedulepolicy-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstorageschedulepolicy-api-openapi.yml
 - filename: portworx-openstorageverifychecksum-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageVerifyChecksum API
   slug: portworx-openstorageverifychecksum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstorageverifychecksum-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstorageverifychecksum-api-openapi.yml
 - filename: portworx-openstoragevolume-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageVolume API
   slug: portworx-openstoragevolume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragevolume-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragevolume-api-openapi.yml
 - filename: portworx-openstoragewatch-api-openapi.yml
   format: yaml
   label: Portworx OpenStorageWatch API
   slug: portworx-openstoragewatch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/openapi/portworx-openstoragewatch-api-openapi.yml
+  url: https://artifacts.apis.io/portworx/openapi/portworx-openstoragewatch-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 49
@@ -267,8 +267,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/portwo
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/schedules/{type}/{id}\n  method: delete\n  operationId: OpenStorageSchedule_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/schedules/{type}/{id}\n  method: get\n  operationId: OpenStorageSchedule_Inspect\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storagepolicies\n  method: get\n  operationId: OpenStoragePolicy_Enumerate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storagepolicies\n\
   \  method: post\n  operationId: OpenStoragePolicy_Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storagepolicies\n  method: put\n  operationId: OpenStoragePolicy_Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storagepolicies/default\n  method: get\n  operationId: OpenStoragePolicy_DefaultInspect\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storagepolicies/default/{name}\n  method: post\n\
   \  operationId: OpenStoragePolicy_SetDefault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storagepolicies/inspect/{name}\n  method: get\n  operationId: OpenStoragePolicy_Inspect\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storagepolicies/release\n  method: post\n  operationId: OpenStoragePolicy_Release\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storagepolicies/{name}\n  method: delete\n  operationId:\
-  \ OpenStoragePolicy_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storagepools/rebalance\n  method: put\n  operationId: OpenStoragePool_Rebalance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storagepools/rebalance/job\n  method: get\n  operationId: OpenStoragePool_EnumerateRebalanceJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/agentic-access/portworx-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/agentic-access/portworx-agentic-access.yml
+  \ OpenStoragePolicy_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storagepools/rebalance\n  method: put\n  operationId: OpenStoragePool_Rebalance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storagepools/rebalance/job\n  method: get\n  operationId: OpenStoragePool_EnumerateRebalanceJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/portworx/agentic-access/portworx-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/portworx/agentic-access/portworx-agentic-access.yml
 summary_line: 131 operations · 82 acting · 9 human-in-the-loop
 tags:
 - Cloud-Native

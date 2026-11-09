@@ -9,43 +9,43 @@ api_specs:
   label: lyft Concierge Rides API
   slug: lyft-concierge-rides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-concierge-rides-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-concierge-rides-api-openapi.yml
 - filename: lyft-cost-estimates-api-openapi.yml
   format: yaml
   label: lyft Cost Estimates API
   slug: lyft-cost-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-cost-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-cost-estimates-api-openapi.yml
 - filename: lyft-drivers-api-openapi.yml
   format: yaml
   label: lyft Drivers API
   slug: lyft-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-drivers-api-openapi.yml
 - filename: lyft-eta-api-openapi.yml
   format: yaml
   label: lyft ETA API
   slug: lyft-eta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-eta-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-eta-api-openapi.yml
 - filename: lyft-profile-api-openapi.yml
   format: yaml
   label: lyft Profile API
   slug: lyft-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-profile-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-profile-api-openapi.yml
 - filename: lyft-ride-types-api-openapi.yml
   format: yaml
   label: lyft Ride Types API
   slug: lyft-ride-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-ride-types-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-ride-types-api-openapi.yml
 - filename: lyft-rides-api-openapi.yml
   format: yaml
   label: lyft Rides API
   slug: lyft-rides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-rides-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-rides-api-openapi.yml
 consequence_counts:
   read: 13
   write: 6
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lyft-c
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /drivers\n  method: get\n  operationId: listNearbyDrivers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rides\n  method: get\n  operationId: listRides\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rides\n  method: post\n  operationId: createRide\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /rides/{id}\n  method: get\n  operationId: getRide\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rides/{id}/cancel\n  method: post\n  operationId: cancelRide\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rides/{id}/destination\n  method: put\n  operationId: updateRideDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rides/{id}/rating\n  method: put\n  operationId: rateRide\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rides/{id}/receipt\n  method: get\n  operationId: getRideReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/agentic-access/lyft-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lyft/agentic-access/lyft-agentic-access.yml
 summary_line: 19 operations · 6 acting
 tags:
 - Transportation

@@ -15,85 +15,85 @@ api_specs:
   label: Shareworks Authentication Token API
   slug: shareworks-authentication-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-authentication-token-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-authentication-token-api-openapi.yml
 - filename: shareworks-authorized-capital-api-openapi.yml
   format: yaml
   label: Shareworks Authorized Capital API
   slug: shareworks-authorized-capital-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-authorized-capital-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-authorized-capital-api-openapi.yml
 - filename: shareworks-award-type-api-openapi.yml
   format: yaml
   label: Shareworks Award Type API
   slug: shareworks-award-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-award-type-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-award-type-api-openapi.yml
 - filename: shareworks-company-api-openapi.yml
   format: yaml
   label: Shareworks Company API
   slug: shareworks-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-company-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-company-api-openapi.yml
 - filename: shareworks-company-board-api-openapi.yml
   format: yaml
   label: Shareworks Company Board API
   slug: shareworks-company-board-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-company-board-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-company-board-api-openapi.yml
 - filename: shareworks-company-integration-api-openapi.yml
   format: yaml
   label: Shareworks Company Integration API
   slug: shareworks-company-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-company-integration-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-company-integration-api-openapi.yml
 - filename: shareworks-entity-stakeholder-api-openapi.yml
   format: yaml
   label: Shareworks Entity Stakeholder API
   slug: shareworks-entity-stakeholder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-entity-stakeholder-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-entity-stakeholder-api-openapi.yml
 - filename: shareworks-grant-api-openapi.yml
   format: yaml
   label: Shareworks Grant API
   slug: shareworks-grant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-grant-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-grant-api-openapi.yml
 - filename: shareworks-holdings-api-openapi.yml
   format: yaml
   label: Shareworks Holdings API
   slug: shareworks-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-holdings-api-openapi.yml
 - filename: shareworks-individual-stakeholder-api-openapi.yml
   format: yaml
   label: Shareworks Individual Stakeholder API
   slug: shareworks-individual-stakeholder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-individual-stakeholder-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-individual-stakeholder-api-openapi.yml
 - filename: shareworks-plan-api-openapi.yml
   format: yaml
   label: Shareworks Plan API
   slug: shareworks-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-plan-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-plan-api-openapi.yml
 - filename: shareworks-stock-certificate-api-openapi.yml
   format: yaml
   label: Shareworks Stock Certificate API
   slug: shareworks-stock-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-stock-certificate-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-stock-certificate-api-openapi.yml
 - filename: shareworks-stock-filing-api-openapi.yml
   format: yaml
   label: Shareworks Stock Filing API
   slug: shareworks-stock-filing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-stock-filing-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-stock-filing-api-openapi.yml
 - filename: shareworks-vesting-schedule-api-openapi.yml
   format: yaml
   label: Shareworks Vesting Schedule API
   slug: shareworks-vesting-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-vesting-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/shareworks/openapi/shareworks-vesting-schedule-api-openapi.yml
 consequence_counts:
   read: 24
   safety-critical: 1
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sharew
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/company/{companyId}/stakeholder/individual\n  method: get\n  operationId: getAllIndividualStakeholders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/company/{companyId}/stakeholder/individual\n  method: post\n  operationId: createIndividualStakeholder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/company/{companyId}/stakeholder/entity/{stakeholderId}\n  method: get\n  operationId: getEntityStakeholder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /v1/company/{companyId}/stakeholder/entity/{stakeholderId}\n  method: put\n  operationId: updateEntityStakeholder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/company/{companyId}/stakeholder/individual/{stakeholderId}\n  method: get\n  operationId: getIndividualStakeholder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/company/{companyId}/stakeholder/individual/{stakeholderId}\n  method: put\n  operationId: updateIndividualStakeholder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/company/{companyId}/stakeholder/entity/search\n  method: post\n  operationId: createStakeholderSearchForEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/company/{companyId}/stakeholder/individual/search\n  method: post\n  operationId: createStakeholderSearchForIndividuals\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/agentic-access/shareworks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shareworks/agentic-access/shareworks-agentic-access.yml
 summary_line: 48 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Equity Compensation

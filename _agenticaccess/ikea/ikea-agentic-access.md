@@ -8,31 +8,31 @@ api_specs:
   label: IKEA Availability API
   slug: ikea-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-availability-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-availability-api-openapi.yml
 - filename: ikea-categories-api-openapi.yml
   format: yaml
   label: IKEA Categories API
   slug: ikea-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-categories-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-categories-api-openapi.yml
 - filename: ikea-parts-api-openapi.yml
   format: yaml
   label: IKEA Parts API
   slug: ikea-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-parts-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-parts-api-openapi.yml
 - filename: ikea-products-api-openapi.yml
   format: yaml
   label: IKEA Products API
   slug: ikea-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-products-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-products-api-openapi.yml
 - filename: ikea-stores-api-openapi.yml
   format: yaml
   label: IKEA Stores API
   slug: ikea-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-stores-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-stores-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ikea-after-purchase-ordering-openapi.yml, openapi/ikea-product-catalog-openapi.yml,\n  openapi/ikea-sales-item-openapi.yml, openapi/ikea-search-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /part/{partId}\n  method: get\n  operationId: getPartById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/{partialPartId}\n  method: get\n  operationId: searchParts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: getProductParts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meta-data/informera/stores-detailed.json\n  method: get\n  operationId: getStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meta-data/navigation/catalog-products-slim.json\n  method: get\n  operationId: getCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productIdSuffix}/{productId}.json\n  method: get\n  operationId: getProductById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /availabilities/{classUnitType}/{classUnitCode}\n  method: get\n  operationId: getProductAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product-list-page\n  method: get\n  operationId: findProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product-list-page/more-products\n  method: get\n  operationId: findProductsPaginated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/agentic-access/ikea-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ikea/agentic-access/ikea-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Retail

@@ -9,49 +9,49 @@ api_specs:
   label: ZincSearch Document API
   slug: zincsearch-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-document-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-document-api-openapi.yml
 - filename: zincsearch-healthz-api-openapi.yml
   format: yaml
   label: ZincSearch Healthz API
   slug: zincsearch-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-healthz-api-openapi.yml
 - filename: zincsearch-index-api-openapi.yml
   format: yaml
   label: ZincSearch Index API
   slug: zincsearch-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-index-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-index-api-openapi.yml
 - filename: zincsearch-permission-api-openapi.yml
   format: yaml
   label: ZincSearch Permission API
   slug: zincsearch-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-permission-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-permission-api-openapi.yml
 - filename: zincsearch-role-api-openapi.yml
   format: yaml
   label: ZincSearch Role API
   slug: zincsearch-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-role-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-role-api-openapi.yml
 - filename: zincsearch-search-api-openapi.yml
   format: yaml
   label: ZincSearch Search API
   slug: zincsearch-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-search-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-search-api-openapi.yml
 - filename: zincsearch-user-api-openapi.yml
   format: yaml
   label: ZincSearch User API
   slug: zincsearch-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-user-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-user-api-openapi.yml
 - filename: zincsearch-version-api-openapi.yml
   format: yaml
   label: ZincSearch Version API
   slug: zincsearch-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/openapi/zincsearch-version-api-openapi.yml
+  url: https://artifacts.apis.io/zincsearch/openapi/zincsearch-version-api-openapi.yml
 consequence_counts:
   read: 20
   write: 28
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/zincse
   \ delete\n  operationId: DeleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /es/_msearch\n  method: post\n  operationId: MSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /es/{index}\n  method: put\n  operationId: ESCreateIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /es/{index}\n  method: head\n  operationId: EsExists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /es/{index}/_delete_by_query\n  method: post\n  operationId: DeleteByQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /es/{index}/_mapping\n  method: get\n  operationId: ESGetMapping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /es/{index}/_search\n  method: post\n  operationId: Search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /es/{target}/_alias/{target_alias}\n  method: get\n  operationId: GetESAliases\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /healthz\n  method: get\n  operationId: Healthz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: Version\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/agentic-access/zincsearch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zincsearch/agentic-access/zincsearch-agentic-access.yml
 summary_line: 48 operations · 28 acting
 tags:
 - Company

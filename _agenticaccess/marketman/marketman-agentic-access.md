@@ -9,55 +9,55 @@ api_specs:
   label: MarketMan Accounts API
   slug: marketman-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/marketman/openapi/marketman-accounts-api-openapi.yml
 - filename: marketman-authentication-api-openapi.yml
   format: yaml
   label: MarketMan Authentication API
   slug: marketman-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/marketman/openapi/marketman-authentication-api-openapi.yml
 - filename: marketman-deliveries-api-openapi.yml
   format: yaml
   label: MarketMan Deliveries API
   slug: marketman-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/marketman/openapi/marketman-deliveries-api-openapi.yml
 - filename: marketman-docs-api-openapi.yml
   format: yaml
   label: MarketMan Docs API
   slug: marketman-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-docs-api-openapi.yml
+  url: https://artifacts.apis.io/marketman/openapi/marketman-docs-api-openapi.yml
 - filename: marketman-inventory-api-openapi.yml
   format: yaml
   label: MarketMan Inventory API
   slug: marketman-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/marketman/openapi/marketman-inventory-api-openapi.yml
 - filename: marketman-items-api-openapi.yml
   format: yaml
   label: MarketMan Items API
   slug: marketman-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-items-api-openapi.yml
+  url: https://artifacts.apis.io/marketman/openapi/marketman-items-api-openapi.yml
 - filename: marketman-orders-api-openapi.yml
   format: yaml
   label: MarketMan Orders API
   slug: marketman-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-orders-api-openapi.yml
+  url: https://artifacts.apis.io/marketman/openapi/marketman-orders-api-openapi.yml
 - filename: marketman-recipes-api-openapi.yml
   format: yaml
   label: MarketMan Recipes API
   slug: marketman-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/marketman/openapi/marketman-recipes-api-openapi.yml
 - filename: marketman-webhooks-api-openapi.yml
   format: yaml
   label: MarketMan Webhooks API
   slug: marketman-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/openapi/marketman-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/marketman/openapi/marketman-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/market
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buyers/orders/GetOrdersBySentDate\n  method: post\n  operationId: getOrdersBySentDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buyers/orders/GetCatalogItems\n  method: post\n  operationId: getCatalogItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buyers/orders/CreateOrder\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /buyers/inventory/GetMenuItems\n  method:\
   \ post\n  operationId: getMenuItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buyers/inventory/GetMenuItemsAvailability\n  method: post\n  operationId: getMenuItemsAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buyers/inventory/GetMenuProfitability\n  method: post\n  operationId: getMenuProfitability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buyers/webhooks/CreateWebhook\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /buyers/webhooks/GetWebhooks\n  method: post\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buyers/webhooks/GetWebhookEventByOrder\n  method: post\n  operationId: getWebhookEventByOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buyers/webhooks/DeleteWebhook\n  method: post\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/agentic-access/marketman-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/marketman/agentic-access/marketman-agentic-access.yml
 summary_line: 24 operations · 9 acting
 tags:
 - Restaurant

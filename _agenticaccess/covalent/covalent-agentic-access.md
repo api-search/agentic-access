@@ -9,97 +9,97 @@ api_specs:
   label: Covalent ABI API
   slug: covalent-abi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-abi-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-abi-api-openapi.yml
 - filename: covalent-balances-api-openapi.yml
   format: yaml
   label: Covalent Balances API
   slug: covalent-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-balances-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-balances-api-openapi.yml
 - filename: covalent-base-api-openapi.yml
   format: yaml
   label: Covalent Base API
   slug: covalent-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-base-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-base-api-openapi.yml
 - filename: covalent-bitcoin-api-openapi.yml
   format: yaml
   label: Covalent Bitcoin API
   slug: covalent-bitcoin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-bitcoin-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-bitcoin-api-openapi.yml
 - filename: covalent-cross-chain-api-openapi.yml
   format: yaml
   label: Covalent Cross-Chain API
   slug: covalent-cross-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-cross-chain-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-cross-chain-api-openapi.yml
 - filename: covalent-data-api-openapi.yml
   format: yaml
   label: Covalent Data API
   slug: covalent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-data-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-data-api-openapi.yml
 - filename: covalent-destinations-api-openapi.yml
   format: yaml
   label: Covalent Destinations API
   slug: covalent-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-destinations-api-openapi.yml
 - filename: covalent-discovery-api-openapi.yml
   format: yaml
   label: Covalent Discovery API
   slug: covalent-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-discovery-api-openapi.yml
 - filename: covalent-info-api-openapi.yml
   format: yaml
   label: Covalent Info API
   slug: covalent-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-info-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-info-api-openapi.yml
 - filename: covalent-nft-api-openapi.yml
   format: yaml
   label: Covalent NFT API
   slug: covalent-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-nft-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-nft-api-openapi.yml
 - filename: covalent-pipelines-api-openapi.yml
   format: yaml
   label: Covalent Pipelines API
   slug: covalent-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-pipelines-api-openapi.yml
 - filename: covalent-pricing-api-openapi.yml
   format: yaml
   label: Covalent Pricing API
   slug: covalent-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-pricing-api-openapi.yml
 - filename: covalent-security-api-openapi.yml
   format: yaml
   label: Covalent Security API
   slug: covalent-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-security-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-security-api-openapi.yml
 - filename: covalent-transactions-api-openapi.yml
   format: yaml
   label: Covalent Transactions API
   slug: covalent-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-transactions-api-openapi.yml
 - filename: covalent-transforms-api-openapi.yml
   format: yaml
   label: Covalent Transforms API
   slug: covalent-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-transforms-api-openapi.yml
 - filename: covalent-graph-ql-api-openapi.yml
   format: yaml
   label: Covalent Graph QL API
   slug: covalent-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/openapi/covalent-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/covalent/openapi/covalent-graph-ql-api-openapi.yml
 consequence_counts:
   read: 49
   write: 10
@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/covale
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{chainName}/address/{walletAddress}/transactions_v3/earliest/\n  method: get\n  operationId: getEarliestTransactionsForAddressV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{chainName}/bulk/transactions/{walletAddress}/{timeBucket}/\n  method: get\n  operationId: getBulkTimeBucketTransactionsForAddressV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{chainName}/address/{walletAddress}/transactions_summary/\n  method: get\n  operationId: getTransactionSummaryForAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{chainName}/transaction_v2/{txHash}/\n\
   \  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{chainName}/block/{blockHeight}/transactions_v3/\n  method: get\n  operationId: getAllTransactionsInBlockV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{chainName}/block/{blockHeight}/transactions_v3/page/{page}/\n  method: get\n  operationId: getAllTransactionsInBlockByPageV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transforms\n  method: get\n  operationId: listTransforms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transforms\n  method: post\n\
   \  operationId: createTransform\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/agentic-access/covalent-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/covalent/agentic-access/covalent-agentic-access.yml
 summary_line: 59 operations · 10 acting
 tags:
 - Blockchain

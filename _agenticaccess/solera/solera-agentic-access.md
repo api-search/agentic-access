@@ -9,67 +9,67 @@ api_specs:
   label: Solera Assignment API
   slug: solera-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-assignment-api-openapi.yml
 - filename: solera-estimatereturn-api-openapi.yml
   format: yaml
   label: Solera Estimate Return API
   slug: solera-estimatereturn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-estimatereturn-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-estimatereturn-api-openapi.yml
 - filename: solera-getclaimimageresponse-api-openapi.yml
   format: yaml
   label: Solera Get Claim Image Response API
   slug: solera-getclaimimageresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getclaimimageresponse-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getclaimimageresponse-api-openapi.yml
 - filename: solera-getdocument-api-openapi.yml
   format: yaml
   label: Solera Get Document API
   slug: solera-getdocument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getdocument-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getdocument-api-openapi.yml
 - filename: solera-getdocuments-api-openapi.yml
   format: yaml
   label: Solera Get Documents API
   slug: solera-getdocuments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getdocuments-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getdocuments-api-openapi.yml
 - filename: solera-getimage-api-openapi.yml
   format: yaml
   label: Solera Get Image API
   slug: solera-getimage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getimage-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getimage-api-openapi.yml
 - filename: solera-getvaluation-api-openapi.yml
   format: yaml
   label: Solera Get Valuation API
   slug: solera-getvaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getvaluation-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getvaluation-api-openapi.yml
 - filename: solera-getvaluationresponse-api-openapi.yml
   format: yaml
   label: Solera Get Valuation Response API
   slug: solera-getvaluationresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getvaluationresponse-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getvaluationresponse-api-openapi.yml
 - filename: solera-gicintegration-api-openapi.yml
   format: yaml
   label: Solera GIC Integration API
   slug: solera-gicintegration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-gicintegration-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-gicintegration-api-openapi.yml
 - filename: solera-valuationreturn-api-openapi.yml
   format: yaml
   label: Solera Valuation Return API
   slug: solera-valuationreturn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-valuationreturn-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-valuationreturn-api-openapi.yml
 - filename: solera-version-api-openapi.yml
   format: yaml
   label: Solera Version API
   slug: solera-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-version-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-version-api-openapi.yml
 consequence_counts:
   read: 16
   write: 5
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/solera
   \  method: get\n  operationId: getApiV{version}GetValuation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - readAccess\n    - writeAccess\n- path: /api/v{version}/valuation/{type}/{processId}\n  method: get\n  operationId: getApiV{version}ValuationByTypeByProcessId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - readAccess\n    - writeAccess\n- path: /api/v1/GICIntegration/{workAssignmentID}\n  method: post\n  operationId: postApiV1GICIntegrationByWorkAssignmentID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - readAccess\n\
   \    - writeAccess\n- path: /api/v1/getM31EventAcks\n  method: post\n  operationId: postApiV1GetM31EventAcks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - readAccess\n    - writeAccess\n- path: /api/v2/valuation/{type}/{processId}\n  method: get\n  operationId: getApiV2ValuationByTypeByProcessId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - readAccess\n    - writeAccess\n- path: /api/v2/valuation/{type}\n  method: get\n  operationId: getApiV2ValuationByType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - readAccess\n\
   \    - writeAccess\n- path: /api/Version\n  method: get\n  operationId: getApiVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - readAccess\n    - writeAccess\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v{version}\n  method: get\n  operationId: getApiV{version}\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/agentic-access/solera-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/solera/agentic-access/solera-agentic-access.yml
 summary_line: 21 operations · 5 acting
 tags:
 - Insurance

@@ -9,55 +9,55 @@ api_specs:
   label: Materials Zone Files API
   slug: materials-zone-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-files-api-openapi.yml
+  url: https://artifacts.apis.io/materials-zone/openapi/materials-zone-files-api-openapi.yml
 - filename: materials-zone-folders-api-openapi.yml
   format: yaml
   label: Materials Zone Folders API
   slug: materials-zone-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-folders-api-openapi.yml
+  url: https://artifacts.apis.io/materials-zone/openapi/materials-zone-folders-api-openapi.yml
 - filename: materials-zone-items-api-openapi.yml
   format: yaml
   label: Materials Zone Items API
   slug: materials-zone-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-items-api-openapi.yml
+  url: https://artifacts.apis.io/materials-zone/openapi/materials-zone-items-api-openapi.yml
 - filename: materials-zone-jobs-api-openapi.yml
   format: yaml
   label: Materials Zone Jobs API
   slug: materials-zone-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/materials-zone/openapi/materials-zone-jobs-api-openapi.yml
 - filename: materials-zone-measurements-api-openapi.yml
   format: yaml
   label: Materials Zone Measurements API
   slug: materials-zone-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/materials-zone/openapi/materials-zone-measurements-api-openapi.yml
 - filename: materials-zone-parameters-api-openapi.yml
   format: yaml
   label: Materials Zone Parameters API
   slug: materials-zone-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/materials-zone/openapi/materials-zone-parameters-api-openapi.yml
 - filename: materials-zone-parsers-api-openapi.yml
   format: yaml
   label: Materials Zone Parsers API
   slug: materials-zone-parsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-parsers-api-openapi.yml
+  url: https://artifacts.apis.io/materials-zone/openapi/materials-zone-parsers-api-openapi.yml
 - filename: materials-zone-protocols-api-openapi.yml
   format: yaml
   label: Materials Zone Protocols API
   slug: materials-zone-protocols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-protocols-api-openapi.yml
+  url: https://artifacts.apis.io/materials-zone/openapi/materials-zone-protocols-api-openapi.yml
 - filename: materials-zone-tables-api-openapi.yml
   format: yaml
   label: Materials Zone Tables API
   slug: materials-zone-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/openapi/materials-zone-tables-api-openapi.yml
+  url: https://artifacts.apis.io/materials-zone/openapi/materials-zone-tables-api-openapi.yml
 consequence_counts:
   read: 10
   write: 25
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/materi
   \      - high-value\n    audit: required\n- path: /tables\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{tableId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables/{tableId}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /tables/{tableId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{tableId}/items\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables/{tableId}/items\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{tableId}/items/batch\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{tableId}/items/batch\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/agentic-access/materials-zone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/materials-zone/agentic-access/materials-zone-agentic-access.yml
 summary_line: 35 operations · 25 acting
 tags:
 - Company

@@ -9,49 +9,49 @@ api_specs:
   label: Hubble Network API Keys API
   slug: hubble-network-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-api-keys-api-openapi.yml
 - filename: hubble-network-billing-api-openapi.yml
   format: yaml
   label: Hubble Network Billing API
   slug: hubble-network-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-billing-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-billing-api-openapi.yml
 - filename: hubble-network-devices-api-openapi.yml
   format: yaml
   label: Hubble Network Devices API
   slug: hubble-network-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-devices-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-devices-api-openapi.yml
 - filename: hubble-network-organizations-api-openapi.yml
   format: yaml
   label: Hubble Network Organizations API
   slug: hubble-network-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-organizations-api-openapi.yml
 - filename: hubble-network-packet-webhooks-api-openapi.yml
   format: yaml
   label: Hubble Network Packet Webhooks API
   slug: hubble-network-packet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-packet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-packet-webhooks-api-openapi.yml
 - filename: hubble-network-packets-api-openapi.yml
   format: yaml
   label: Hubble Network Packets API
   slug: hubble-network-packets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-packets-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-packets-api-openapi.yml
 - filename: hubble-network-platform-metrics-api-openapi.yml
   format: yaml
   label: Hubble Network Platform Metrics API
   slug: hubble-network-platform-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-platform-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-platform-metrics-api-openapi.yml
 - filename: hubble-network-satellite-api-openapi.yml
   format: yaml
   label: Hubble Network Satellite API
   slug: hubble-network-satellite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-satellite-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-satellite-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 20
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/hubble
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/org/{org_id}/webhooks/{webhook_id}\n  method: delete\n  operationId: delete-webhook-endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/org/{org_id}/webhooks/{webhook_id}/test\n  method: post\n  operationId: test-webhook-endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/org/{org_id}/billing/invoices\n  method: get\n  operationId:\
   \ get-recent-invoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/{org_id}/billing/invoices/{invoice_id}/pdf\n  method: get\n  operationId: get-invoice-pdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/{org_id}/billing/usage\n  method: get\n  operationId: get-billing-usage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/{org_id}/billing/active-devices\n  method: get\n  operationId: get-billing-active-devices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/{org_id}/billing/subscription\n  method: get\n  operationId: get-billing-subscription\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/org/{org_id}/billing/payment-method\n  method: get\n  operationId: get-billing-payment-method\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/agentic-access/hubble-network-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hubble-network/agentic-access/hubble-network-agentic-access.yml
 summary_line: 39 operations · 19 acting
 tags:
 - Company

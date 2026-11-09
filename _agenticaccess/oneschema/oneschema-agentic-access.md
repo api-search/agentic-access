@@ -9,169 +9,169 @@ api_specs:
   label: Oneschema AWS Secrets Manager Accounts API
   slug: oneschema-aws-secrets-manager-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-aws-secrets-manager-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-aws-secrets-manager-accounts-api-openapi.yml
 - filename: oneschema-aws-secrets-manager-secrets-api-openapi.yml
   format: yaml
   label: Oneschema AWS Secrets Manager Secrets API
   slug: oneschema-aws-secrets-manager-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-aws-secrets-manager-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-aws-secrets-manager-secrets-api-openapi.yml
 - filename: oneschema-azure-key-vault-accounts-api-openapi.yml
   format: yaml
   label: Oneschema Azure Key Vault Accounts API
   slug: oneschema-azure-key-vault-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-azure-key-vault-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-azure-key-vault-accounts-api-openapi.yml
 - filename: oneschema-azure-key-vault-secrets-api-openapi.yml
   format: yaml
   label: Oneschema Azure Key Vault Secrets API
   slug: oneschema-azure-key-vault-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-azure-key-vault-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-azure-key-vault-secrets-api-openapi.yml
 - filename: oneschema-code-hooks-legacy-api-openapi.yml
   format: yaml
   label: Oneschema Code Hooks (Legacy) API
   slug: oneschema-code-hooks-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-code-hooks-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-code-hooks-legacy-api-openapi.yml
 - filename: oneschema-event-webhooks-api-openapi.yml
   format: yaml
   label: Oneschema Event Webhooks API
   slug: oneschema-event-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-event-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-event-webhooks-api-openapi.yml
 - filename: oneschema-filefeed-folders-api-openapi.yml
   format: yaml
   label: Oneschema FileFeed Folders API
   slug: oneschema-filefeed-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-filefeed-folders-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-filefeed-folders-api-openapi.yml
 - filename: oneschema-filefeed-mappings-api-openapi.yml
   format: yaml
   label: Oneschema FileFeed Mappings API
   slug: oneschema-filefeed-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-filefeed-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-filefeed-mappings-api-openapi.yml
 - filename: oneschema-filefeeds-api-openapi.yml
   format: yaml
   label: Oneschema FileFeeds API
   slug: oneschema-filefeeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-filefeeds-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-filefeeds-api-openapi.yml
 - filename: oneschema-filefeeds-embed-sessions-api-openapi.yml
   format: yaml
   label: Oneschema FileFeeds Embed Sessions API
   slug: oneschema-filefeeds-embed-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-filefeeds-embed-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-filefeeds-embed-sessions-api-openapi.yml
 - filename: oneschema-filefeeds-imports-api-openapi.yml
   format: yaml
   label: Oneschema FileFeeds Imports API
   slug: oneschema-filefeeds-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-filefeeds-imports-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-filefeeds-imports-api-openapi.yml
 - filename: oneschema-headless-importer-api-openapi.yml
   format: yaml
   label: Oneschema Headless Importer API
   slug: oneschema-headless-importer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-headless-importer-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-headless-importer-api-openapi.yml
 - filename: oneschema-importer-embed-events-api-openapi.yml
   format: yaml
   label: Oneschema Importer Embed Events API
   slug: oneschema-importer-embed-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-importer-embed-events-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-importer-embed-events-api-openapi.yml
 - filename: oneschema-importer-embeds-api-openapi.yml
   format: yaml
   label: Oneschema Importer Embeds API
   slug: oneschema-importer-embeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-importer-embeds-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-importer-embeds-api-openapi.yml
 - filename: oneschema-importer-webhooks-api-openapi.yml
   format: yaml
   label: Oneschema Importer Webhooks API
   slug: oneschema-importer-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-importer-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-importer-webhooks-api-openapi.yml
 - filename: oneschema-mcp-server-api-openapi.yml
   format: yaml
   label: Oneschema MCP Server API
   slug: oneschema-mcp-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-mcp-server-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-mcp-server-api-openapi.yml
 - filename: oneschema-multi-filefeed-commits-api-openapi.yml
   format: yaml
   label: Oneschema Multi FileFeed Commits API
   slug: oneschema-multi-filefeed-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-multi-filefeed-commits-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-multi-filefeed-commits-api-openapi.yml
 - filename: oneschema-multi-filefeed-folders-api-openapi.yml
   format: yaml
   label: Oneschema Multi FileFeed Folders API
   slug: oneschema-multi-filefeed-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-multi-filefeed-folders-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-multi-filefeed-folders-api-openapi.yml
 - filename: oneschema-multi-filefeed-imports-api-openapi.yml
   format: yaml
   label: Oneschema Multi FileFeed Imports API
   slug: oneschema-multi-filefeed-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-multi-filefeed-imports-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-multi-filefeed-imports-api-openapi.yml
 - filename: oneschema-multi-filefeed-transforms-api-openapi.yml
   format: yaml
   label: Oneschema Multi FileFeed Transforms API
   slug: oneschema-multi-filefeed-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-multi-filefeed-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-multi-filefeed-transforms-api-openapi.yml
 - filename: oneschema-multi-filefeeds-api-openapi.yml
   format: yaml
   label: Oneschema Multi FileFeeds API
   slug: oneschema-multi-filefeeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-multi-filefeeds-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-multi-filefeeds-api-openapi.yml
 - filename: oneschema-s3-accounts-api-openapi.yml
   format: yaml
   label: Oneschema S3 Accounts API
   slug: oneschema-s3-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-s3-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-s3-accounts-api-openapi.yml
 - filename: oneschema-sftp-accounts-api-openapi.yml
   format: yaml
   label: Oneschema SFTP Accounts API
   slug: oneschema-sftp-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-sftp-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-sftp-accounts-api-openapi.yml
 - filename: oneschema-sheets-api-openapi.yml
   format: yaml
   label: Oneschema Sheets API
   slug: oneschema-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-sheets-api-openapi.yml
 - filename: oneschema-template-hooks-api-openapi.yml
   format: yaml
   label: Oneschema Template Hooks API
   slug: oneschema-template-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-template-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-template-hooks-api-openapi.yml
 - filename: oneschema-templates-api-openapi.yml
   format: yaml
   label: Oneschema Templates API
   slug: oneschema-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-templates-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-templates-api-openapi.yml
 - filename: oneschema-workspace-sheets-api-openapi.yml
   format: yaml
   label: Oneschema Workspace Sheets API
   slug: oneschema-workspace-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-workspace-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-workspace-sheets-api-openapi.yml
 - filename: oneschema-workspaces-api-openapi.yml
   format: yaml
   label: Oneschema Workspaces API
   slug: oneschema-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/openapi/oneschema-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/oneschema/openapi/oneschema-workspaces-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 65
@@ -236,8 +236,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/onesch
   \ - high-value\n    audit: required\n- path: /v0/multi-file-feeds/{multi_file_feed_id}/imports\n  method: get\n  operationId: list-multi-file-feed-imports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/multi-file-feeds\n  method: post\n  operationId: create-multi-file-feed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/multi-file-feeds\n  method: get\n  operationId: list-multi-file-feeds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/multi-file-feed-folders/{folder_id}\n  method: delete\n  operationId: delete-multi-file-feed-folder\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/multi-file-feed-folders/{folder_id}\n  method: get\n  operationId: get-multi-file-feed-folder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/multi-file-feed-folders/{folder_id}\n  method: patch\n  operationId: update-multi-file-feed-folder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/multi-file-feeds/{multi_file_feed_id}\n  method: delete\n  operationId:\
   \ delete-multi-file-feed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/multi-file-feeds/{multi_file_feed_id}\n  method: get\n  operationId: get-multi-file-feed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/multi-file-feeds/{multi_file_feed_id}\n  method: patch\n  operationId: update-multi-file-feed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/multi-file-feeds/{multi_file_feed_id}/duplicate\n  method:\
-  \ post\n  operationId: duplicate-multi-file-feed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/multi-file-feeds/{multi_file_feed_id}/commits/{commit_id}\n  method: get\n  operationId: get-multi-file-feed-commit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/multi-file-feeds/{multi_file_feed_id}/head\n  method: get\n  operationId: get-multi-file-feed-head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/agentic-access/oneschema-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/agentic-access/oneschema-agentic-access.yml
+  \ post\n  operationId: duplicate-multi-file-feed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/multi-file-feeds/{multi_file_feed_id}/commits/{commit_id}\n  method: get\n  operationId: get-multi-file-feed-commit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/multi-file-feeds/{multi_file_feed_id}/head\n  method: get\n  operationId: get-multi-file-feed-head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/oneschema/agentic-access/oneschema-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/oneschema/agentic-access/oneschema-agentic-access.yml
 summary_line: 156 operations · 91 acting
 tags:
 - Company

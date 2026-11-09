@@ -8,7 +8,7 @@ api_specs:
   label: World News API News API
   slug: worldnewsapi-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/openapi/worldnewsapi-news-api-openapi.yml
+  url: https://artifacts.apis.io/worldnewsapi/openapi/worldnewsapi-news-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/worldn
   \ topNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /retrieve-front-page\n  method: get\n  operationId: retrieveNewspaperFrontPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /retrieve-news\n  method: get\n  operationId: retrieveNewsArticlesByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extract-news\n  method: get\n  operationId: extractNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extract-news-links\n  method: get\n  operationId: extractNewsLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /search-news-sources\n  method: get\n  operationId: searchNewsSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feed.rss\n  method: get\n  operationId: newsWebsiteToRSSFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geo-coordinates\n  method: get\n  operationId: getGeoCoordinates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search-news-sources\n  method: get\n  operationId: searchNewsSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /retrieve-news\n  method: get\n  operationId: retrieveNews\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search-news\n  method: get\n  operationId: searchNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /top-news\n  method: get\n  operationId: topNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/agentic-access/worldnewsapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/worldnewsapi/agentic-access/worldnewsapi-agentic-access.yml
 summary_line: 17 operations
 tags:
 - News

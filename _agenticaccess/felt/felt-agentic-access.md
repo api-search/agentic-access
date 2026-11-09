@@ -9,67 +9,67 @@ api_specs:
   label: Felt Comments API
   slug: felt-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-comments-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-comments-api-openapi.yml
 - filename: felt-elements-api-openapi.yml
   format: yaml
   label: Felt Elements API
   slug: felt-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-elements-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-elements-api-openapi.yml
 - filename: felt-embed-tokens-api-openapi.yml
   format: yaml
   label: Felt Embed Tokens API
   slug: felt-embed-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-embed-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-embed-tokens-api-openapi.yml
 - filename: felt-layer-exports-api-openapi.yml
   format: yaml
   label: Felt Layer Exports API
   slug: felt-layer-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-layer-exports-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-layer-exports-api-openapi.yml
 - filename: felt-layer-library-api-openapi.yml
   format: yaml
   label: Felt Layer Library API
   slug: felt-layer-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-layer-library-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-layer-library-api-openapi.yml
 - filename: felt-layer-uploads-api-openapi.yml
   format: yaml
   label: Felt Layer Uploads API
   slug: felt-layer-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-layer-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-layer-uploads-api-openapi.yml
 - filename: felt-layers-api-openapi.yml
   format: yaml
   label: Felt Layers API
   slug: felt-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-layers-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-layers-api-openapi.yml
 - filename: felt-maps-api-openapi.yml
   format: yaml
   label: Felt Maps API
   slug: felt-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-maps-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-maps-api-openapi.yml
 - filename: felt-projects-api-openapi.yml
   format: yaml
   label: Felt Projects API
   slug: felt-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-projects-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-projects-api-openapi.yml
 - filename: felt-sources-api-openapi.yml
   format: yaml
   label: Felt Sources API
   slug: felt-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-sources-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-sources-api-openapi.yml
 - filename: felt-users-api-openapi.yml
   format: yaml
   label: Felt Users API
   slug: felt-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/openapi/felt-users-api-openapi.yml
+  url: https://artifacts.apis.io/felt/openapi/felt-users-api-openapi.yml
 consequence_counts:
   read: 17
   write: 34
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/felt-f
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/maps/{map_id}\n  method: get\n  operationId: show_map\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/maps/{map_id}/element_groups\n  method: get\n  operationId: list_map_element_groups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/maps/{map_id}/element_groups\n  method: post\n  operationId: upsert_map_element_groups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/maps/{map_id}/layers/{layer_id}/custom_export\n  method: post\n \
   \ operationId: create_map_layer_custom_export\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/maps/{map_id}/comments/{comment_id}\n  method: delete\n  operationId: delete_map_comment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/user\n  method: get\n  operationId: show_current_user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/duplicate_layers\n  method: post\n  operationId: duplicate_map_layers\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/agentic-access/felt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/felt/agentic-access/felt-agentic-access.yml
 summary_line: 51 operations · 34 acting
 tags:
 - Maps

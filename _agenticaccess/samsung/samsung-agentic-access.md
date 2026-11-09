@@ -9,37 +9,37 @@ api_specs:
   label: Samsung Apps API
   slug: samsung-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-apps-api-openapi.yml
+  url: https://artifacts.apis.io/samsung/openapi/samsung-apps-api-openapi.yml
 - filename: samsung-devices-api-openapi.yml
   format: yaml
   label: Samsung Devices API
   slug: samsung-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-devices-api-openapi.yml
+  url: https://artifacts.apis.io/samsung/openapi/samsung-devices-api-openapi.yml
 - filename: samsung-locations-api-openapi.yml
   format: yaml
   label: Samsung Locations API
   slug: samsung-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-locations-api-openapi.yml
+  url: https://artifacts.apis.io/samsung/openapi/samsung-locations-api-openapi.yml
 - filename: samsung-rules-api-openapi.yml
   format: yaml
   label: Samsung Rules API
   slug: samsung-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-rules-api-openapi.yml
+  url: https://artifacts.apis.io/samsung/openapi/samsung-rules-api-openapi.yml
 - filename: samsung-scenes-api-openapi.yml
   format: yaml
   label: Samsung Scenes API
   slug: samsung-scenes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-scenes-api-openapi.yml
+  url: https://artifacts.apis.io/samsung/openapi/samsung-scenes-api-openapi.yml
 - filename: samsung-subscriptions-api-openapi.yml
   format: yaml
   label: Samsung Subscriptions API
   slug: samsung-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/openapi/samsung-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/samsung/openapi/samsung-subscriptions-api-openapi.yml
 consequence_counts:
   read: 12
   write: 12
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/samsun
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rules/{ruleId}\n  method: get\n  operationId: getRule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rules/{ruleId}\n  method: put\n  operationId: updateRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rules/{ruleId}\n  method: delete\n  operationId: deleteRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions\n\
   \  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{appId}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/agentic-access/samsung-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/samsung/agentic-access/samsung-agentic-access.yml
 summary_line: 24 operations · 12 acting
 tags:
 - Consumer Electronics

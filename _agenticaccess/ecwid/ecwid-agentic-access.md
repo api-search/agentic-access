@@ -9,37 +9,37 @@ api_specs:
   label: Ecwid by Lightspeed Categories API
   slug: ecwid-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-categories-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-categories-api-openapi.yml
 - filename: ecwid-customers-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Customers API
   slug: ecwid-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-customers-api-openapi.yml
 - filename: ecwid-discount-coupons-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Discount Coupons API
   slug: ecwid-discount-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-discount-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-discount-coupons-api-openapi.yml
 - filename: ecwid-orders-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Orders API
   slug: ecwid-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-orders-api-openapi.yml
 - filename: ecwid-products-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Products API
   slug: ecwid-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-products-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-products-api-openapi.yml
 - filename: ecwid-profile-api-openapi.yml
   format: yaml
   label: Ecwid by Lightspeed Profile API
   slug: ecwid-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/openapi/ecwid-profile-api-openapi.yml
+  url: https://artifacts.apis.io/ecwid/openapi/ecwid-profile-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ecwid-
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderNumber}\n  method: delete\n  operationId: deleteOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers\n  method: get\n  operationId: searchCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerId}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}\n  method: put\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discount_coupons\n  method: get\n  operationId: searchCoupons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /discount_coupons\n  method: post\n  operationId: createCoupon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/agentic-access/ecwid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ecwid/agentic-access/ecwid-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - E-Commerce

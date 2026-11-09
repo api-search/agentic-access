@@ -9,31 +9,31 @@ api_specs:
   label: Vijil Agent Environment API
   slug: vijil-agent-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-agent-environment-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-agent-environment-api-openapi.yml
 - filename: vijil-diamond-api-openapi.yml
   format: yaml
   label: Vijil Diamond API
   slug: vijil-diamond-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-diamond-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-diamond-api-openapi.yml
 - filename: vijil-dome-api-openapi.yml
   format: yaml
   label: Vijil Dome API
   slug: vijil-dome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-dome-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-dome-api-openapi.yml
 - filename: vijil-red-team-api-openapi.yml
   format: yaml
   label: Vijil Red Team API
   slug: vijil-red-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-red-team-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-red-team-api-openapi.yml
 - filename: vijil-teams-api-openapi.yml
   format: yaml
   label: Vijil Teams API
   slug: vijil-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/openapi/vijil-teams-api-openapi.yml
+  url: https://artifacts.apis.io/vijil/openapi/vijil-teams-api-openapi.yml
 consequence_counts:
   read: 81
   safety-critical: 2
@@ -106,8 +106,8 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/vijil-
   \ none\n- path: /v1/genomes/by-agent/{agent_id}/mutation-history\n  method: get\n  operationId: get_mutation_history_v1_genomes_by_agent__agent_id__mutation_history_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/genomes/{genome_id}\n  method: get\n  operationId: get_genome_v1_genomes__genome_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/genomes/{genome_id}\n  method: delete\n  operationId: delete_genome_v1_genomes__genome_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/genomes/{genome_id}/versions\n  method:\
   \ get\n  operationId: list_genome_versions_v1_genomes__genome_id__versions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/genomes/{genome_id}/versions/{version}\n  method: get\n  operationId: get_genome_version_v1_genomes__genome_id__versions__version__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/genomes/{genome_id}/ancestry\n  method: get\n  operationId: get_genome_ancestry_v1_genomes__genome_id__ancestry_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/genomes/{genome_id}/diff\n  method: get\n  operationId: diff_genome_versions_v1_genomes__genome_id__diff_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/genomes/{genome_id}/similar\n  method: get\n  operationId: find_similar_genomes_v1_genomes__genome_id__similar_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/genomes/extract-from-agent/{agent_id}\n  method: post\n  operationId: extract_genome_from_agent_v1_genomes_extract_from_agent__agent_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/genomes/{genome_id}/to-agent-update\n  method: get\n  operationId: genome_to_agent_update_v1_genomes__genome_id__to_agent_update_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/evaluations/\n  method: get\n  operationId: list_team_evaluations_v1_evaluations__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/evaluations/\n  method: post\n  operationId: create_evaluation_v1_evaluations__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/agentic-access/vijil-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/agentic-access/vijil-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/evaluations/\n  method: get\n  operationId: list_team_evaluations_v1_evaluations__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/evaluations/\n  method: post\n  operationId: create_evaluation_v1_evaluations__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://artifacts.apis.io/vijil/agentic-access/vijil-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/vijil/agentic-access/vijil-agentic-access.yml
 summary_line: 149 operations · 68 acting · 2 human-in-the-loop
 tags:
 - Company

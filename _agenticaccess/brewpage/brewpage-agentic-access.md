@@ -9,91 +9,91 @@ api_specs:
   label: BrewPage Files API
   slug: brewpage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-files-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-files-api-openapi.yml
 - filename: brewpage-gallery-api-openapi.yml
   format: yaml
   label: BrewPage Gallery API
   slug: brewpage-gallery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-gallery-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-gallery-api-openapi.yml
 - filename: brewpage-html-api-openapi.yml
   format: yaml
   label: BrewPage HTML API
   slug: brewpage-html-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-html-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-html-api-openapi.yml
 - filename: brewpage-json-api-openapi.yml
   format: yaml
   label: BrewPage JSON API
   slug: brewpage-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-json-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-json-api-openapi.yml
 - filename: brewpage-kv-api-openapi.yml
   format: yaml
   label: BrewPage KV API
   slug: brewpage-kv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-kv-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-kv-api-openapi.yml
 - filename: brewpage-namespace-api-openapi.yml
   format: yaml
   label: BrewPage Namespace API
   slug: brewpage-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-namespace-api-openapi.yml
 - filename: brewpage-owner-check-api-openapi.yml
   format: yaml
   label: BrewPage Owner Check API
   slug: brewpage-owner-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-owner-check-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-owner-check-api-openapi.yml
 - filename: brewpage-preview-api-openapi.yml
   format: yaml
   label: BrewPage Preview API
   slug: brewpage-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-preview-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-preview-api-openapi.yml
 - filename: brewpage-reports-api-openapi.yml
   format: yaml
   label: BrewPage Reports API
   slug: brewpage-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-reports-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-reports-api-openapi.yml
 - filename: brewpage-seo-api-openapi.yml
   format: yaml
   label: BrewPage SEO API
   slug: brewpage-seo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-seo-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-seo-api-openapi.yml
 - filename: brewpage-short-links-api-openapi.yml
   format: yaml
   label: BrewPage Short Links API
   slug: brewpage-short-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-short-links-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-short-links-api-openapi.yml
 - filename: brewpage-sites-api-openapi.yml
   format: yaml
   label: BrewPage Sites API
   slug: brewpage-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-sites-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-sites-api-openapi.yml
 - filename: brewpage-stats-api-openapi.yml
   format: yaml
   label: BrewPage Stats API
   slug: brewpage-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-stats-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-stats-api-openapi.yml
 - filename: brewpage-hosting-management-api-openapi.yml
   format: yaml
   label: BrewPage Hosting Management API
   slug: brewpage-hosting-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-hosting-management-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-hosting-management-api-openapi.yml
 - filename: brewpage-owner-token-api-openapi.yml
   format: yaml
   label: BrewPage Owner Token API
   slug: brewpage-owner-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-owner-token-api-openapi.yml
+  url: https://artifacts.apis.io/brewpage/openapi/brewpage-owner-token-api-openapi.yml
 consequence_counts:
   read: 21
   write: 15
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/brewpa
   \ serveFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sitemap.xml\n  method: get\n  operationId: sitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/namespace/random\n  method: get\n  operationId: random\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/kv/{ns}/{id}\n  method: get\n  operationId: listKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/kv/{ns}/{id}\n  method: delete\n  operationId: deleteBucket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/html/{ns}/{id}/source\n  method: get\n  operationId: getSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/gallery\n  method: get\n  operationId: getGallery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/files/{ns}/{id}\n  method: get\n  operationId: download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/files/{ns}/{id}\n  method: delete\n  operationId: delete_3\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/agentic-access/brewpage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brewpage/agentic-access/brewpage-agentic-access.yml
 summary_line: 36 operations · 15 acting
 tags:
 - Hosting

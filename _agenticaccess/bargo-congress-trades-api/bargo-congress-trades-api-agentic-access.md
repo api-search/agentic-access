@@ -8,19 +8,19 @@ api_specs:
   label: Bargo Congress Trades API Members API
   slug: bargo-congress-trades-api-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/openapi/bargo-congress-trades-api-members-api-openapi.yml
+  url: https://artifacts.apis.io/bargo-congress-trades-api/openapi/bargo-congress-trades-api-members-api-openapi.yml
 - filename: bargo-congress-trades-api-statistics-api-openapi.yml
   format: yaml
   label: Bargo Congress Trades API Statistics API
   slug: bargo-congress-trades-api-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/openapi/bargo-congress-trades-api-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/bargo-congress-trades-api/openapi/bargo-congress-trades-api-statistics-api-openapi.yml
 - filename: bargo-congress-trades-api-trades-api-openapi.yml
   format: yaml
   label: Bargo Congress Trades API Trades API
   slug: bargo-congress-trades-api-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/openapi/bargo-congress-trades-api-trades-api-openapi.yml
+  url: https://artifacts.apis.io/bargo-congress-trades-api/openapi/bargo-congress-trades-api-trades-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/bargo-congress-trades-api-congress-trades-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /trades\n  method: get\n  operationId: listCongressTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trades/{ticker}\n  method: get\n  operationId: listCongressTradesByTicker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members\n  method:\
   \ get\n  operationId: listCongressMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members/{member_slug}\n  method: get\n  operationId: getCongressMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats\n  method: get\n  operationId: getCongressTradeStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: getCongressApiHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/agentic-access/bargo-congress-trades-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bargo-congress-trades-api/agentic-access/bargo-congress-trades-api-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Congress

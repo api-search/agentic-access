@@ -9,49 +9,49 @@ api_specs:
   label: DPD Geo Countries API
   slug: geoapi-countries
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-countries-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-countries-api-openapi.yml
 - filename: dpd-group-customers-api-openapi.yml
   format: yaml
   label: DPD Geo Customers API
   slug: geoapi-customers
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-customers-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-customers-api-openapi.yml
 - filename: dpd-group-me-api-openapi.yml
   format: yaml
   label: DPD Geo Me API
   slug: geoapi-me
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-me-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-me-api-openapi.yml
 - filename: dpd-group-parcels-api-openapi.yml
   format: yaml
   label: DPD Geo Parcels API
   slug: geoapi-parcels
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-parcels-api-openapi.yml
 - filename: dpd-group-pickup-orders-api-openapi.yml
   format: yaml
   label: DPD Geo Pickup Orders API
   slug: geoapi-pickup-orders
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-pickup-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-pickup-orders-api-openapi.yml
 - filename: dpd-group-shipments-api-openapi.yml
   format: yaml
   label: DPD Geo Shipments API
   slug: geoapi-shipments
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-shipments-api-openapi.yml
 - filename: dpd-group-shipping-services-api-openapi.yml
   format: yaml
   label: DPD Geo Shipping Services API
   slug: geoapi-shipping-services
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-shipping-services-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-shipping-services-api-openapi.yml
 - filename: dpd-group-shipping-api-openapi.yml
   format: yaml
   label: DPD META-API Shipment
   slug: meta-api-shipping
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/openapi/dpd-group-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/dpd-group/openapi/dpd-group-shipping-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 10
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/dpd-gr
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipping/v1/shipment\n  method: post\n  operationId: shippingV1ShipmentPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipping/v1/pickupscheduling\n  method: post\n  operationId: shippingV1PickupschedulingPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /shipping/v1/login\n  method: post\n  operationId: shippingV1LoginPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipping/v1/label\n  method: post\n  operationId: shippingV1LabelPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipping/v1/colreq\n  method: post\n  operationId: shippingV1ColreqPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipping-services\n  method: get\n  operationId: getShippingServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dpd-group/refs/heads/main/agentic-access/dpd-group-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dpd-group/agentic-access/dpd-group-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - Logistics

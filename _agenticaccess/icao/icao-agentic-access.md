@@ -8,37 +8,37 @@ api_specs:
   label: ICAO GEO API
   slug: icao-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/openapi/icao-geo-api-openapi.yml
+  url: https://artifacts.apis.io/icao/openapi/icao-geo-api-openapi.yml
 - filename: icao-icao-api-openapi.yml
   format: yaml
   label: ICAO ICAO API
   slug: icao-icao-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/openapi/icao-icao-api-openapi.yml
+  url: https://artifacts.apis.io/icao/openapi/icao-icao-api-openapi.yml
 - filename: icao-infomation-api-openapi.yml
   format: yaml
   label: ICAO Infomation API
   slug: icao-infomation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/openapi/icao-infomation-api-openapi.yml
+  url: https://artifacts.apis.io/icao/openapi/icao-infomation-api-openapi.yml
 - filename: icao-publication-api-openapi.yml
   format: yaml
   label: ICAO Publication API
   slug: icao-publication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/openapi/icao-publication-api-openapi.yml
+  url: https://artifacts.apis.io/icao/openapi/icao-publication-api-openapi.yml
 - filename: icao-safety-api-openapi.yml
   format: yaml
   label: ICAO Safety API
   slug: icao-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/openapi/icao-safety-api-openapi.yml
+  url: https://artifacts.apis.io/icao/openapi/icao-safety-api-openapi.yml
 - filename: icao-usoap-api-openapi.yml
   format: yaml
   label: ICAO USOAP API
   slug: icao-usoap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/openapi/icao-usoap-api-openapi.yml
+  url: https://artifacts.apis.io/icao/openapi/icao-usoap-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/icao-o
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile-stats\n  method: get\n  operationId: getProfileStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /safety-partner-stats\n  method: get\n  operationId: getSafetyPartnerStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registration-states\n  method: get\n  operationId: getRegistrationStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /safety-margin-stats\n  method: get\n  operationId: getSafetyMarginStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usoap-activity-list\n\
   \  method: get\n  operationId: getUsoapActivityList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ei-stats\n  method: get\n  operationId: getEiStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aggregated-ei-trend-stats\n  method: get\n  operationId: getAggregatedEiTrendStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /progress-stats\n  method: get\n  operationId: getProgressStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /progress-cert-stats\n  method: get\n  operationId: getProgressCertStats\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/agentic-access/icao-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/icao/agentic-access/icao-agentic-access.yml
 summary_line: 21 operations
 tags:
 - Airlines

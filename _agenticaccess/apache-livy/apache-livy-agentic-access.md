@@ -9,19 +9,19 @@ api_specs:
   label: Apache Livy Batches API
   slug: apache-livy-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/openapi/apache-livy-batches-api-openapi.yml
+  url: https://artifacts.apis.io/apache-livy/openapi/apache-livy-batches-api-openapi.yml
 - filename: apache-livy-sessions-api-openapi.yml
   format: yaml
   label: Apache Livy Sessions API
   slug: apache-livy-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/openapi/apache-livy-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-livy/openapi/apache-livy-sessions-api-openapi.yml
 - filename: apache-livy-statements-api-openapi.yml
   format: yaml
   label: Apache Livy Statements API
   slug: apache-livy-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/openapi/apache-livy-statements-api-openapi.yml
+  url: https://artifacts.apis.io/apache-livy/openapi/apache-livy-statements-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/statements\n  method: get\n  operationId: listStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/statements\n  method: post\n  operationId: runStatement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/statements/{statementId}\n  method: get\n  operationId: getStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches\n  method: get\n  operationId:\
   \ listBatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches\n  method: post\n  operationId: createBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batches/{batchId}\n  method: get\n  operationId: getBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches/{batchId}\n  method: delete\n  operationId: deleteBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /batches/{batchId}/state\n  method: get\n  operationId: getBatchState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches/{batchId}/log\n  method: get\n  operationId: getBatchLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/agentic-access/apache-livy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-livy/agentic-access/apache-livy-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Big Data

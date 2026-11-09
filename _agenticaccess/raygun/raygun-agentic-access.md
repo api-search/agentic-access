@@ -9,79 +9,79 @@ api_specs:
   label: Raygun Applications API
   slug: raygun-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-applications-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-applications-api-openapi.yml
 - filename: raygun-errors-api-openapi.yml
   format: yaml
   label: Raygun Errors API
   slug: raygun-errors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-errors-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-errors-api-openapi.yml
 - filename: raygun-deployments-api-openapi.yml
   format: yaml
   label: Raygun Deployments API
   slug: raygun-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-deployments-api-openapi.yml
 - filename: raygun-source-maps-api-openapi.yml
   format: yaml
   label: Raygun Source Maps API
   slug: raygun-source-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-source-maps-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-source-maps-api-openapi.yml
 - filename: raygun-sessions-api-openapi.yml
   format: yaml
   label: Raygun Sessions API
   slug: raygun-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-sessions-api-openapi.yml
 - filename: raygun-pages-api-openapi.yml
   format: yaml
   label: Raygun Pages API
   slug: raygun-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-pages-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-pages-api-openapi.yml
 - filename: raygun-customers-api-openapi.yml
   format: yaml
   label: Raygun Customers API
   slug: raygun-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-customers-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-customers-api-openapi.yml
 - filename: raygun-metrics-api-openapi.yml
   format: yaml
   label: Raygun Metrics API
   slug: raygun-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-metrics-api-openapi.yml
 - filename: raygun-flutter-symbols-api-openapi.yml
   format: yaml
   label: Raygun Flutter Symbols API
   slug: raygun-flutter-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-flutter-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-flutter-symbols-api-openapi.yml
 - filename: raygun-teams-api-openapi.yml
   format: yaml
   label: Raygun Teams API
   slug: raygun-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-teams-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-teams-api-openapi.yml
 - filename: raygun-invitations-api-openapi.yml
   format: yaml
   label: Raygun Invitations API
   slug: raygun-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-invitations-api-openapi.yml
 - filename: raygun-plans-api-openapi.yml
   format: yaml
   label: Raygun Plans API
   slug: raygun-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-plans-api-openapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-plans-api-openapi.yml
 - filename: raygun-webhooks-asyncapi.yml
   format: yaml
   label: Raygun Outbound Webhooks
   slug: raygun-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/openapi/raygun-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/raygun/openapi/raygun-webhooks-asyncapi.yml
 consequence_counts:
   physical: 12
   read: 60
@@ -215,8 +215,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/raygun
   \  method: get\n  operationId: list-plans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId: list-teams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - teams:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team-identifier}\n  method: get\n  operationId: get-team-by-identifier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - teams:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application-identifier}/pages\n  method: get\n  operationId: list-pages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - rum.pages:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application-identifier}/pages/{page-identifier}\n\
   \  method: get\n  operationId: get-page\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - rum.pages:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application-identifier}/customers\n  method: get\n  operationId: list-customers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - customers:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application-identifier}/customers/{customer-identifier}\n  method: get\n  operationId: get-customer-by-identifier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - customers:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application-identifier}/sessions\n  method: get\n  operationId: list-sessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    scope:\n    - rum.sessions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application-identifier}/sessions/{session-identifier}\n  method: get\n  operationId: get-session-by-identifier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - rum.sessions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/{application-identifier}/pages/time-series\n  method: post\n  operationId: metrics-pages-time-series\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - metrics:pages\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/{application-identifier}/pages/histogram\n  method: post\n  operationId: metrics-pages-histogram\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    scope:\n    - metrics:pages\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/{application-identifier}/errors/time-series\n  method: post\n  operationId: metrics-errors-time-series\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - metrics:errors\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/agentic-access/raygun-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/agentic-access/raygun-agentic-access.yml
+  \ acting\n    consequence: write\n    subject: required\n    scope:\n    - metrics:pages\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/{application-identifier}/errors/time-series\n  method: post\n  operationId: metrics-errors-time-series\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - metrics:errors\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://artifacts.apis.io/raygun/agentic-access/raygun-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/raygun/agentic-access/raygun-agentic-access.yml
 summary_line: 104 operations · 44 acting · 2 human-in-the-loop
 tags:
 - Observability

@@ -9,43 +9,43 @@ api_specs:
   label: PTC ThingWorx WebSocket/AlwaysOn API
   slug: thingworx-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/asyncapi/ptc-thingworx-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/asyncapi/ptc-thingworx-websocket-asyncapi.yml
 - filename: ptc-thingworx-datashapes-api-openapi.yml
   format: yaml
   label: ptc-thingworx DataShapes API
   slug: ptc-thingworx-datashapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-datashapes-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-datashapes-api-openapi.yml
 - filename: ptc-thingworx-events-api-openapi.yml
   format: yaml
   label: ptc-thingworx Events API
   slug: ptc-thingworx-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-events-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-events-api-openapi.yml
 - filename: ptc-thingworx-properties-api-openapi.yml
   format: yaml
   label: ptc-thingworx Properties API
   slug: ptc-thingworx-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-properties-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-properties-api-openapi.yml
 - filename: ptc-thingworx-things-api-openapi.yml
   format: yaml
   label: ptc-thingworx Things API
   slug: ptc-thingworx-things-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-things-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-things-api-openapi.yml
 - filename: ptc-thingworx-thingtemplates-api-openapi.yml
   format: yaml
   label: ptc-thingworx ThingTemplates API
   slug: ptc-thingworx-thingtemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-thingtemplates-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-thingtemplates-api-openapi.yml
 - filename: ptc-thingworx-valuestreams-api-openapi.yml
   format: yaml
   label: ptc-thingworx ValueStreams API
   slug: ptc-thingworx-valuestreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-valuestreams-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-valuestreams-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ptc-th
   \ get\n  operationId: getThingProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Things/{thingName}/Properties/{propertyName}\n  method: get\n  operationId: getThingProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Things/{thingName}/Properties/{propertyName}\n  method: put\n  operationId: setThingProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Things/{thingName}/Properties/{propertyName}/QueryPropertyHistory\n  method: get\n  operationId: queryPropertyHistory\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Things/{thingName}/Services/{serviceName}\n  method: post\n  operationId: executeService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Things/{thingName}/Events\n  method: get\n  operationId: getThingEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Things/{thingName}/EventHistory\n  method: get\n  operationId: getEventHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ThingTemplates\n  method: get\n  operationId: listThingTemplates\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DataShapes/{dataShapeName}\n  method: get\n  operationId: getDataShape\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/agentic-access/ptc-thingworx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ptc-thingworx/agentic-access/ptc-thingworx-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Manufacturing

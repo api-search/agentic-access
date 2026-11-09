@@ -9,97 +9,97 @@ api_specs:
   label: nexos.ai Agent Management API
   slug: nexosai-agent-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-agent-management-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-agent-management-api-openapi.yml
 - filename: nexosai-assistant-management-api-openapi.yml
   format: yaml
   label: nexos.ai Assistant Management API
   slug: nexosai-assistant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-assistant-management-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-assistant-management-api-openapi.yml
 - filename: nexosai-audio-api-openapi.yml
   format: yaml
   label: nexos.ai Audio API
   slug: nexosai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-audio-api-openapi.yml
 - filename: nexosai-batches-api-openapi.yml
   format: yaml
   label: nexos.ai Batches API
   slug: nexosai-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-batches-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-batches-api-openapi.yml
 - filename: nexosai-budget-limit-management-api-openapi.yml
   format: yaml
   label: nexos.ai Budget Limit Management API
   slug: nexosai-budget-limit-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-budget-limit-management-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-budget-limit-management-api-openapi.yml
 - filename: nexosai-company-management-api-openapi.yml
   format: yaml
   label: nexos.ai Company Management API
   slug: nexosai-company-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-company-management-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-company-management-api-openapi.yml
 - filename: nexosai-embeddings-api-openapi.yml
   format: yaml
   label: nexos.ai Embeddings API
   slug: nexosai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-embeddings-api-openapi.yml
 - filename: nexosai-files-api-openapi.yml
   format: yaml
   label: nexos.ai Files API
   slug: nexosai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-files-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-files-api-openapi.yml
 - filename: nexosai-images-api-openapi.yml
   format: yaml
   label: nexos.ai Images API
   slug: nexosai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-images-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-images-api-openapi.yml
 - filename: nexosai-messages-api-openapi.yml
   format: yaml
   label: nexos.ai Messages API
   slug: nexosai-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-messages-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-messages-api-openapi.yml
 - filename: nexosai-models-api-openapi.yml
   format: yaml
   label: nexos.ai Models API
   slug: nexosai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-models-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-models-api-openapi.yml
 - filename: nexosai-responses-api-openapi.yml
   format: yaml
   label: nexos.ai Responses API
   slug: nexosai-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-responses-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-responses-api-openapi.yml
 - filename: nexosai-storage-api-openapi.yml
   format: yaml
   label: nexos.ai Storage API
   slug: nexosai-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-storage-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-storage-api-openapi.yml
 - filename: nexosai-team-management-api-openapi.yml
   format: yaml
   label: nexos.ai Team Management API
   slug: nexosai-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-team-management-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-team-management-api-openapi.yml
 - filename: nexosai-user-management-api-openapi.yml
   format: yaml
   label: nexos.ai User Management API
   slug: nexosai-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-user-management-api-openapi.yml
 - filename: nexosai-chat-completions-api-openapi.yml
   format: yaml
   label: nexos.ai Chat Completions API
   slug: nexosai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/nexosai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/nexosai/openapi/nexosai-chat-completions-api-openapi.yml
 consequence_counts:
   read: 21
   write: 34
@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nexosa
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/teams/{teamId}/api_keys/{keyId}/regenerate\n  method: patch\n  operationId: regenerate-team-api-key-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/apikey/rotate\n  method: patch\n  operationId: rotate-api-key-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/api_keys\n  method: get\n  operationId:\
   \ list-user-api-keys-v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/api_keys\n  method: post\n  operationId: create-user-api-key-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/api_keys/bulk\n  method: post\n  operationId: update-many-user-api-keys-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/api_keys/{keyId}\n  method: delete\n  operationId: delete-user-api-key-v1\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/api_keys/{keyId}\n  method: patch\n  operationId: update-user-api-key-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/api_keys/{keyId}/regenerate\n  method: patch\n  operationId: regenerate-user-api-key-v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/agentic-access/nexosai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nexosai/agentic-access/nexosai-agentic-access.yml
 summary_line: 55 operations · 34 acting
 tags:
 - Company

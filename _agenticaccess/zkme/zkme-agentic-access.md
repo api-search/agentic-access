@@ -9,31 +9,31 @@ api_specs:
   label: zkMe Auth API
   slug: zkme-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-auth-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-auth-api-openapi.yml
 - filename: zkme-kyt-api-openapi.yml
   format: yaml
   label: zkMe KYT API
   slug: zkme-kyt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-kyt-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-kyt-api-openapi.yml
 - filename: zkme-zkkyb-api-openapi.yml
   format: yaml
   label: zkMe zkKYB API
   slug: zkme-zkkyb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-zkkyb-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-zkkyb-api-openapi.yml
 - filename: zkme-zkkyc-api-openapi.yml
   format: yaml
   label: zkMe zkKYC API
   slug: zkme-zkkyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-zkkyc-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-zkkyc-api-openapi.yml
 - filename: zkme-zkobs-api-openapi.yml
   format: yaml
   label: zkMe zkOBS API
   slug: zkme-zkobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/openapi/zkme-zkobs-api-openapi.yml
+  url: https://artifacts.apis.io/zkme/openapi/zkme-zkobs-api-openapi.yml
 consequence_counts:
   read: 13
   write: 1
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zkme-a
   - path: /zkseradmin/openapi/kyt/address/overview\n  method: post\n  operationId: getAddressOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zkseradmin/openapi/kyt/v1/address/profile\n  method: post\n  operationId: getAddressProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zkseradmin/openapi/kyt/risk/score\n  method: post\n  operationId: getRiskScore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zkseradmin/openapi/kyt/transactions/investigation\n  method: post\n  operationId: getTransactionsInvestigation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /kybpopup/api/kyb/getBusinessStatus\n  method: post\n  operationId: getBusinessStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zkseradmin/openapi/kyc/getUsersList\n  method: post\n  operationId: getUsersList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zkseradmin/openapi/queryKycInfoByAddress\n  method: post\n  operationId: queryKycInfoByAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zkseradmin/openapi/queryPoAInfoByAddress\n  method: post\n  operationId: queryPoAInfoByAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zkseradmin/openapi/queryKycInfoByAddressForPoa\n\
   \  method: post\n  operationId: queryKycInfoByAddressForPoa\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/agentic-access/zkme-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zkme/agentic-access/zkme-agentic-access.yml
 summary_line: 14 operations · 1 acting
 tags:
 - Company

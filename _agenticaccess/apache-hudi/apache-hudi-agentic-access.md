@@ -9,13 +9,13 @@ api_specs:
   label: Apache Hudi Tables API
   slug: apache-hudi-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/openapi/apache-hudi-tables-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hudi/openapi/apache-hudi-tables-api-openapi.yml
 - filename: apache-hudi-timeline-api-openapi.yml
   format: yaml
   label: Apache Hudi Timeline API
   slug: apache-hudi-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/openapi/apache-hudi-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hudi/openapi/apache-hudi-timeline-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache-hudi-timeline-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 3\n    acting: 2\n  by_consequence:\n    read: 3\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/hoodie/timeline/{tableName}\n  method: get\n  operationId: getTimeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hoodie/timeline/{tableName}/commits/{commitTime}\n  method: get\n  operationId: getCommitMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/hoodie/table\n  method: post\n  operationId: createTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/hoodie/table/{tableName}\n  method: get\n  operationId: getTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hoodie/table/{tableName}/clean\n  method: post\n  operationId: runCleaning\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/agentic-access/apache-hudi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-hudi/agentic-access/apache-hudi-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - ACID

@@ -15,61 +15,61 @@ api_specs:
   label: Xceptor Authentication API
   slug: xceptor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-authentication-api-openapi.yml
 - filename: xceptor-data-sources-api-openapi.yml
   format: yaml
   label: Xceptor Data Sources API
   slug: xceptor-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-data-sources-api-openapi.yml
 - filename: xceptor-documents-api-openapi.yml
   format: yaml
   label: Xceptor Documents API
   slug: xceptor-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-documents-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-documents-api-openapi.yml
 - filename: xceptor-extraction-api-openapi.yml
   format: yaml
   label: Xceptor Extraction API
   slug: xceptor-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-extraction-api-openapi.yml
 - filename: xceptor-health-api-openapi.yml
   format: yaml
   label: Xceptor Health API
   slug: xceptor-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-health-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-health-api-openapi.yml
 - filename: xceptor-jobs-api-openapi.yml
   format: yaml
   label: Xceptor Jobs API
   slug: xceptor-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-jobs-api-openapi.yml
 - filename: xceptor-templates-api-openapi.yml
   format: yaml
   label: Xceptor Templates API
   slug: xceptor-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-templates-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-templates-api-openapi.yml
 - filename: xceptor-workflow-runs-api-openapi.yml
   format: yaml
   label: Xceptor Workflow Runs API
   slug: xceptor-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-workflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-workflow-runs-api-openapi.yml
 - filename: xceptor-workflow-steps-api-openapi.yml
   format: yaml
   label: Xceptor Workflow Steps API
   slug: xceptor-workflow-steps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-workflow-steps-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-workflow-steps-api-openapi.yml
 - filename: xceptor-workflows-api-openapi.yml
   format: yaml
   label: Xceptor Workflows API
   slug: xceptor-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/openapi/xceptor-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/xceptor/openapi/xceptor-workflows-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xcepto
   \   audit: required\n- path: /workflows/{workflowId}\n  method: delete\n  operationId: deleteWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{workflowId}/runs\n  method: get\n  operationId: listWorkflowRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{workflowId}/runs\n  method: post\n  operationId: executeWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{workflowId}/runs/{runId}\n\
   \  method: get\n  operationId: getWorkflowRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{workflowId}/runs/{runId}\n  method: delete\n  operationId: cancelWorkflowRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{workflowId}/steps\n  method: get\n  operationId: listWorkflowSteps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{workflowId}/steps\n  method: post\n  operationId: addWorkflowStep\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/agentic-access/xceptor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xceptor/agentic-access/xceptor-agentic-access.yml
 summary_line: 30 operations · 14 acting · 1 human-in-the-loop
 tags:
 - API Integration

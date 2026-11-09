@@ -9,61 +9,61 @@ api_specs:
   label: SumUp Checkouts API
   slug: sumup-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-checkouts-api-openapi.yml
 - filename: sumup-customers-api-openapi.yml
   format: yaml
   label: SumUp Customers API
   slug: sumup-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-customers-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-customers-api-openapi.yml
 - filename: sumup-members-api-openapi.yml
   format: yaml
   label: SumUp Members API
   slug: sumup-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-members-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-members-api-openapi.yml
 - filename: sumup-memberships-api-openapi.yml
   format: yaml
   label: SumUp Memberships API
   slug: sumup-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-memberships-api-openapi.yml
 - filename: sumup-merchants-api-openapi.yml
   format: yaml
   label: SumUp Merchants API
   slug: sumup-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-merchants-api-openapi.yml
 - filename: sumup-payouts-api-openapi.yml
   format: yaml
   label: SumUp Payouts API
   slug: sumup-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-payouts-api-openapi.yml
 - filename: sumup-readers-api-openapi.yml
   format: yaml
   label: SumUp Readers API
   slug: sumup-readers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-readers-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-readers-api-openapi.yml
 - filename: sumup-receipts-api-openapi.yml
   format: yaml
   label: SumUp Receipts API
   slug: sumup-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-receipts-api-openapi.yml
 - filename: sumup-roles-api-openapi.yml
   format: yaml
   label: SumUp Roles API
   slug: sumup-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-roles-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-roles-api-openapi.yml
 - filename: sumup-transactions-api-openapi.yml
   format: yaml
   label: SumUp Transactions API
   slug: sumup-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/openapi/sumup-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/sumup/openapi/sumup-transactions-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 20
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  consequence: read\n    subject: optional\n    scope:\n    - readers.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.1/merchants/{merchant_code}/readers\n  method: post\n  operationId: CreateReader\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - readers.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0.1/merchants/{merchant_code}/readers/{reader_id}\n  method: get\n  operationId: GetReader\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - readers.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.1/merchants/{merchant_code}/readers/{reader_id}\n  method: delete\n  operationId: DeleteReader\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    scope:\n    - readers.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0.1/merchants/{merchant_code}/readers/{reader_id}\n  method: patch\n  operationId: UpdateReader\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - readers.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0.1/merchants/{merchant_code}/readers/{reader_id}/checkout\n  method: post\n  operationId: CreateReaderCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - readers.write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0.1/merchants/{merchant_code}/readers/{reader_id}/status\n  method: get\n  operationId: GetReaderStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - readers.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.1/merchants/{merchant_code}/readers/{reader_id}/terminate\n  method: post\n  operationId: CreateReaderTerminate\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - readers.write\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/agentic-access/sumup-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sumup/agentic-access/sumup-agentic-access.yml
 summary_line: 39 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Payments

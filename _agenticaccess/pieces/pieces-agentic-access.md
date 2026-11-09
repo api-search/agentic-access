@@ -9,49 +9,49 @@ api_specs:
   label: Pieces Applications API
   slug: pieces-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-applications-api-openapi.yml
 - filename: pieces-assets-api-openapi.yml
   format: yaml
   label: Pieces Assets API
   slug: pieces-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-assets-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-assets-api-openapi.yml
 - filename: pieces-conversations-api-openapi.yml
   format: yaml
   label: Pieces Conversations API
   slug: pieces-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-conversations-api-openapi.yml
 - filename: pieces-formats-api-openapi.yml
   format: yaml
   label: Pieces Formats API
   slug: pieces-formats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-formats-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-formats-api-openapi.yml
 - filename: pieces-models-api-openapi.yml
   format: yaml
   label: Pieces Models API
   slug: pieces-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-models-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-models-api-openapi.yml
 - filename: pieces-qgpt-api-openapi.yml
   format: yaml
   label: Pieces QGPT API
   slug: pieces-qgpt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-qgpt-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-qgpt-api-openapi.yml
 - filename: pieces-user-api-openapi.yml
   format: yaml
   label: Pieces User API
   slug: pieces-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-user-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-user-api-openapi.yml
 - filename: pieces-well-known-api-openapi.yml
   format: yaml
   label: Pieces Well Known API
   slug: pieces-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/openapi/pieces-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/pieces/openapi/pieces-well-known-api-openapi.yml
 consequence_counts:
   read: 15
   write: 13
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pieces
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/{model}/load\n  method: post\n  operationId: loadModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/{model}/unload\n  method: post\n  operationId: unloadModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /qgpt/question\n  method: post\n  operationId: qgptQuestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /qgpt/relevance\n  method: post\n  operationId: qgptRelevance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /qgpt/reprompt\n  method: post\n  operationId: qgptReprompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /qgpt/stream\n  method: get\n  operationId: qgptStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/health\n  method: get\n  operationId: getWellKnownHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/version\n  method: get\n  operationId: getWellKnownVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/agentic-access/pieces-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pieces/agentic-access/pieces-agentic-access.yml
 summary_line: 28 operations · 13 acting
 tags:
 - Artificial Intelligence

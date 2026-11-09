@@ -8,19 +8,19 @@ api_specs:
   label: APIToolkit (Monoscope) Metrics API
   slug: apitoolkit-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/apitoolkit/openapi/apitoolkit-metrics-api-openapi.yml
 - filename: apitoolkit-monitors-api-openapi.yml
   format: yaml
   label: APIToolkit (Monoscope) Monitors API
   slug: apitoolkit-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/apitoolkit/openapi/apitoolkit-monitors-api-openapi.yml
 - filename: apitoolkit-schema-api-openapi.yml
   format: yaml
   label: APIToolkit (Monoscope) Schema API
   slug: apitoolkit-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-schema-api-openapi.yml
+  url: https://artifacts.apis.io/apitoolkit/openapi/apitoolkit-schema-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/monoscope-platform-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /metrics\n  method: get\n  operationId: queryMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema\n  method: get\n  operationId: getTelemetrySchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitors\n  method: get\n  operationId: listMonitors\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/agentic-access/apitoolkit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apitoolkit/agentic-access/apitoolkit-agentic-access.yml
 summary_line: 3 operations
 tags:
 - AI Observability

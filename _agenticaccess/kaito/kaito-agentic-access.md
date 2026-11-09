@@ -9,25 +9,25 @@ api_specs:
   label: KAITO Index Management API
   slug: kaito-index-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-index-management-api-openapi.yml
+  url: https://artifacts.apis.io/kaito/openapi/kaito-index-management-api-openapi.yml
 - filename: kaito-persistence-api-openapi.yml
   format: yaml
   label: KAITO Persistence API
   slug: kaito-persistence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-persistence-api-openapi.yml
+  url: https://artifacts.apis.io/kaito/openapi/kaito-persistence-api-openapi.yml
 - filename: kaito-retrieval-api-openapi.yml
   format: yaml
   label: KAITO Retrieval API
   slug: kaito-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/kaito/openapi/kaito-retrieval-api-openapi.yml
 - filename: kaito-chat-completions-api-openapi.yml
   format: yaml
   label: KAITO Chat Completions API
   slug: kaito-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/kaito/openapi/kaito-chat-completions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 7
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kaito-
   \    audit: required\n- path: /index\n  method: post\n  operationId: createIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{index_name}/documents\n  method: get\n  operationId: listIndexDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{index_name}/documents\n  method: post\n  operationId: appendIndexDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{index_name}/documents/delete\n\
   \  method: post\n  operationId: deleteIndexDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{index_name}\n  method: delete\n  operationId: deleteIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /persist/{index_name}\n  method: post\n  operationId: persistIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /load/{index_name}\n  method: post\n  operationId: loadIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /retrieve\n  method: post\n  operationId: retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/agentic-access/kaito-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kaito/agentic-access/kaito-agentic-access.yml
 summary_line: 9 operations · 7 acting
 tags:
 - Artificial Intelligence

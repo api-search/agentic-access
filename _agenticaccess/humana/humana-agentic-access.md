@@ -8,25 +8,25 @@ api_specs:
   label: Humana Clinical API
   slug: humana-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-clinical-api-openapi.yml
+  url: https://artifacts.apis.io/humana/openapi/humana-clinical-api-openapi.yml
 - filename: humana-coverage-api-openapi.yml
   format: yaml
   label: Humana Coverage API
   slug: humana-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/humana/openapi/humana-coverage-api-openapi.yml
 - filename: humana-demographic-api-openapi.yml
   format: yaml
   label: Humana Demographic API
   slug: humana-demographic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-demographic-api-openapi.yml
+  url: https://artifacts.apis.io/humana/openapi/humana-demographic-api-openapi.yml
 - filename: humana-medications-api-openapi.yml
   format: yaml
   label: Humana Medications API
   slug: humana-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-medications-api-openapi.yml
+  url: https://artifacts.apis.io/humana/openapi/humana-medications-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/humana
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Condition\n  method: get\n  operationId: searchCondition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Coverage\n  method: get\n  operationId: searchCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Goal\n  method: get\n  operationId: searchGoal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Immunization\n  method: get\n  operationId: searchImmunization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /MedicationRequest\n  method: get\n  operationId: searchMedicationRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Observation\n  method: get\n  operationId: searchObservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient/{id}\n  method: get\n  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Practitioner\n  method: get\n  operationId: searchPractitioner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Procedure\n  method: get\n  operationId: searchProcedure\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/agentic-access/humana-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/humana/agentic-access/humana-agentic-access.yml
 summary_line: 12 operations
 tags:
 - FHIR

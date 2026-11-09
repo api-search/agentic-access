@@ -8,31 +8,31 @@ api_specs:
   label: iec-cim Customers API
   slug: iec-cim-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-customers-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-customers-api-openapi.yml
 - filename: iec-cim-metering-api-openapi.yml
   format: yaml
   label: iec-cim Metering API
   slug: iec-cim-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-metering-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-metering-api-openapi.yml
 - filename: iec-cim-network-assets-api-openapi.yml
   format: yaml
   label: iec-cim Network Assets API
   slug: iec-cim-network-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-network-assets-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-network-assets-api-openapi.yml
 - filename: iec-cim-outages-api-openapi.yml
   format: yaml
   label: iec-cim Outages API
   slug: iec-cim-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-outages-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-outages-api-openapi.yml
 - filename: iec-cim-work-orders-api-openapi.yml
   format: yaml
   label: iec-cim Work Orders API
   slug: iec-cim-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-work-orders-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/iec-cim-61968-distribution-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /assets\n  method: get\n  operationId: listAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/{mRID}\n  method: get\n  operationId: getAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meters\n  method: get\n  operationId: listMeters\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meters/{mRID}/readings\n  method: get\n  operationId: getMeterReadings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outages\n  method: get\n  operationId: listOutages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outages/{mRID}\n  method: get\n  operationId: getOutage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /work-orders\n\
   \  method: get\n  operationId: listWorkOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/agentic-access/iec-cim-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/iec-cim/agentic-access/iec-cim-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Energy

@@ -8,31 +8,31 @@ api_specs:
   label: Heap Add Account Properties API
   slug: heap-add-account-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-add-account-properties-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-add-account-properties-api-openapi.yml
 - filename: heap-add-user-properties-api-openapi.yml
   format: yaml
   label: Heap Add User Properties API
   slug: heap-add-user-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-add-user-properties-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-add-user-properties-api-openapi.yml
 - filename: heap-identify-api-openapi.yml
   format: yaml
   label: Heap Identify API
   slug: heap-identify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-identify-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-identify-api-openapi.yml
 - filename: heap-track-api-openapi.yml
   format: yaml
   label: Heap Track API
   slug: heap-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-track-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-track-api-openapi.yml
 - filename: heap-webhooks-api-openapi.yml
   format: yaml
   label: Heap Webhooks API
   slug: heap-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-webhooks-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/heap-openapi.yml, openapi/heap-webhooks-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 5\n  by_consequence:\n    write: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /api/track\n  method: post\n  operationId: track\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/identify\n  method: post\n  operationId: identify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/add_user_properties\n  method: post\n  operationId: addUserProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/add_account_properties\n  method: post\n  operationId: addAccountProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{partner_webhook_sync_url}\n  method: post\n  operationId:\
   \ segmentUsersSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/agentic-access/heap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/heap/agentic-access/heap-agentic-access.yml
 summary_line: 5 operations · 5 acting
 tags:
 - Analytics

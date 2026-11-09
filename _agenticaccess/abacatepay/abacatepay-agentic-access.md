@@ -4,36 +4,42 @@ action_class_counts:
   acting: 6
   connected: 6
 api_specs:
+- filename: abacatepay-webhooks-api-openapi.yml
+  format: yaml
+  label: AbacatePay Webhooks
+  slug: abacatepay-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-webhooks-api-openapi.yml
 - filename: abacatepay-billing-api-openapi.yml
   format: yaml
   label: AbacatePay Billing API
   slug: abacatepay-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-billing-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-billing-api-openapi.yml
 - filename: abacatepay-coupon-api-openapi.yml
   format: yaml
   label: AbacatePay Coupon API
   slug: abacatepay-coupon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-coupon-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-coupon-api-openapi.yml
 - filename: abacatepay-customer-api-openapi.yml
   format: yaml
   label: AbacatePay Customer API
   slug: abacatepay-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-customer-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-customer-api-openapi.yml
 - filename: abacatepay-pix-qr-code-api-openapi.yml
   format: yaml
   label: AbacatePay Pix QR Code API
   slug: abacatepay-pix-qr-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-pix-qr-code-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-pix-qr-code-api-openapi.yml
 - filename: abacatepay-withdraw-api-openapi.yml
   format: yaml
   label: AbacatePay Withdraw API
   slug: abacatepay-withdraw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/openapi/abacatepay-withdraw-api-openapi.yml
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-withdraw-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -75,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/abacat
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer/create\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer/list\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coupon/create\n  method: post\n  operationId: createCoupon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /coupon/list\n  method: get\n  operationId: listCoupons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /withdraw/create\n  method: post\n  operationId: createWithdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /withdraw/get\n  method: get\n  operationId: getWithdraw\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /withdraw/list\n  method: get\n  operationId: listWithdraws\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/agentic-access/abacatepay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/abacatepay/agentic-access/abacatepay-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Payments

@@ -9,61 +9,61 @@ api_specs:
   label: Mastra Agents API
   slug: mastra-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-agents-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-agents-api-openapi.yml
 - filename: mastra-conversations-api-openapi.yml
   format: yaml
   label: Mastra Conversations API
   slug: mastra-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-conversations-api-openapi.yml
 - filename: mastra-logs-api-openapi.yml
   format: yaml
   label: Mastra Logs API
   slug: mastra-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-logs-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-logs-api-openapi.yml
 - filename: mastra-mcp-api-openapi.yml
   format: yaml
   label: Mastra Mcp API
   slug: mastra-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-mcp-api-openapi.yml
 - filename: mastra-memory-api-openapi.yml
   format: yaml
   label: Mastra Memory API
   slug: mastra-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-memory-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-memory-api-openapi.yml
 - filename: mastra-responses-api-openapi.yml
   format: yaml
   label: Mastra Responses API
   slug: mastra-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-responses-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-responses-api-openapi.yml
 - filename: mastra-telemetry-api-openapi.yml
   format: yaml
   label: Mastra Telemetry API
   slug: mastra-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-telemetry-api-openapi.yml
 - filename: mastra-tools-api-openapi.yml
   format: yaml
   label: Mastra Tools API
   slug: mastra-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-tools-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-tools-api-openapi.yml
 - filename: mastra-vectors-api-openapi.yml
   format: yaml
   label: Mastra Vectors API
   slug: mastra-vectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-vectors-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-vectors-api-openapi.yml
 - filename: mastra-workflows-api-openapi.yml
   format: yaml
   label: Mastra Workflows API
   slug: mastra-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/openapi/mastra-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/mastra/openapi/mastra-workflows-api-openapi.yml
 consequence_counts:
   read: 21
   write: 16
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mastra
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workflows\n  method: get\n  operationId: listWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workflows/{workflowId}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workflows/{workflowId}/create-run\n  method: post\n  operationId: createWorkflowRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workflows/{workflowId}/start-async\n  method: post\n  operationId: startWorkflowAsync\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workflows/{workflowId}/stream\n  method: post\n  operationId: streamWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workflows/{workflowId}/resume\n  method: post\n  operationId: resumeWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /api/workflows/{workflowId}/runs\n  method: get\n  operationId: listWorkflowRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workflows/{workflowId}/runs/{runId}\n  method: get\n  operationId: getWorkflowRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/agentic-access/mastra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mastra/agentic-access/mastra-agentic-access.yml
 summary_line: 37 operations · 16 acting
 tags:
 - Agents

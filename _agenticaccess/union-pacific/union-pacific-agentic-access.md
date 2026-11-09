@@ -9,49 +9,49 @@ api_specs:
   label: Union Pacific Account API
   slug: union-pacific-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-account-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-account-api-openapi.yml
 - filename: union-pacific-cases-api-openapi.yml
   format: yaml
   label: Union Pacific Cases API
   slug: union-pacific-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-cases-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-cases-api-openapi.yml
 - filename: union-pacific-equipment-api-openapi.yml
   format: yaml
   label: Union Pacific Equipment API
   slug: union-pacific-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-equipment-api-openapi.yml
 - filename: union-pacific-intermodal-api-openapi.yml
   format: yaml
   label: Union Pacific Intermodal API
   slug: union-pacific-intermodal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-intermodal-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-intermodal-api-openapi.yml
 - filename: union-pacific-location-api-openapi.yml
   format: yaml
   label: Union Pacific Location API
   slug: union-pacific-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-location-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-location-api-openapi.yml
 - filename: union-pacific-shipment-actions-api-openapi.yml
   format: yaml
   label: Union Pacific Shipment Actions API
   slug: union-pacific-shipment-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-shipment-actions-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-shipment-actions-api-openapi.yml
 - filename: union-pacific-shipment-api-openapi.yml
   format: yaml
   label: Union Pacific Shipment API
   slug: union-pacific-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-shipment-api-openapi.yml
 - filename: union-pacific-waybill-api-openapi.yml
   format: yaml
   label: Union Pacific Waybill API
   slug: union-pacific-waybill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/openapi/union-pacific-waybill-api-openapi.yml
+  url: https://artifacts.apis.io/union-pacific/openapi/union-pacific-waybill-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/union-
   \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /case\n  method: get\n  operationId: listCases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /case/{caseId}\n  method: get\n  operationId: getCase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /equipment\n  method: get\n  operationId: listEquipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /location\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /account\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /waybill\n  method: get\n  operationId: listWaybills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /intermodal/reservation\n  method: post\n  operationId: createIntermodalReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /intermodal/lane\n  method: get\n  operationId: listIntermodalLanes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /intermodal/departure\n  method: get\n  operationId: listIntermodalDepartures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/agentic-access/union-pacific-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/union-pacific/agentic-access/union-pacific-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - Fortune 500

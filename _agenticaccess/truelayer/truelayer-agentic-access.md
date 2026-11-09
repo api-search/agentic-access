@@ -9,31 +9,31 @@ api_specs:
   label: TrueLayer Mandates API
   slug: truelayer-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-mandates-api-openapi.yml
 - filename: truelayer-merchant-accounts-api-openapi.yml
   format: yaml
   label: TrueLayer Merchant Accounts API
   slug: truelayer-merchant-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-merchant-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-merchant-accounts-api-openapi.yml
 - filename: truelayer-payments-api-openapi.yml
   format: yaml
   label: TrueLayer Payments API
   slug: truelayer-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-payments-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-payments-api-openapi.yml
 - filename: truelayer-payouts-api-openapi.yml
   format: yaml
   label: TrueLayer Payouts API
   slug: truelayer-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-payouts-api-openapi.yml
 - filename: truelayer-refunds-api-openapi.yml
   format: yaml
   label: TrueLayer Refunds API
   slug: truelayer-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/openapi/truelayer-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/truelayer/openapi/truelayer-refunds-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 7
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/truela
   \ high-value\n    audit: required\n- path: /v3/payments/{id}/refunds\n  method: get\n  operationId: listPaymentRefunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/mandates\n  method: post\n  operationId: createMandate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/mandates/{id}\n  method: get\n  operationId: getMandate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/mandates/{id}\n  method: delete\n  operationId: revokeMandate\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/payouts\n  method: post\n  operationId: createPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/payouts/{id}\n  method: get\n  operationId: getPayout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/merchant-accounts\n  method: get\n  operationId: listMerchantAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/merchant-accounts/{id}\n  method: get\n  operationId: getMerchantAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/merchant-accounts/{id}/transactions\n  method: get\n  operationId: listMerchantAccountTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/agentic-access/truelayer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/truelayer/agentic-access/truelayer-agentic-access.yml
 summary_line: 13 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Data API

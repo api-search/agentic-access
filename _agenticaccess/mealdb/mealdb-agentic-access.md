@@ -8,73 +8,73 @@ api_specs:
   label: TheMealDB Categories.php API
   slug: mealdb-categories-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-categories-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-categories-php-api-openapi.yml
 - filename: mealdb-filter-php-api-openapi.yml
   format: yaml
   label: TheMealDB Filter.php API
   slug: mealdb-filter-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-filter-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-filter-php-api-openapi.yml
 - filename: mealdb-list-php-api-openapi.yml
   format: yaml
   label: TheMealDB List.php API
   slug: mealdb-list-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-list-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-list-php-api-openapi.yml
 - filename: mealdb-lookup-php-api-openapi.yml
   format: yaml
   label: TheMealDB Lookup.php API
   slug: mealdb-lookup-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-lookup-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-lookup-php-api-openapi.yml
 - filename: mealdb-premium-api-openapi.yml
   format: yaml
   label: TheMealDB Premium API
   slug: mealdb-premium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-premium-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-premium-api-openapi.yml
 - filename: mealdb-random-php-api-openapi.yml
   format: yaml
   label: TheMealDB Random.php API
   slug: mealdb-random-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-random-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-random-php-api-openapi.yml
 - filename: mealdb-search-php-api-openapi.yml
   format: yaml
   label: TheMealDB Search.php API
   slug: mealdb-search-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-search-php-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-search-php-api-openapi.yml
 - filename: mealdb-discovery-api-openapi.yml
   format: yaml
   label: TheMealDB Discovery API
   slug: mealdb-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-discovery-api-openapi.yml
 - filename: mealdb-filter-api-openapi.yml
   format: yaml
   label: TheMealDB Filter API
   slug: mealdb-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-filter-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-filter-api-openapi.yml
 - filename: mealdb-lists-api-openapi.yml
   format: yaml
   label: TheMealDB Lists API
   slug: mealdb-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-lists-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-lists-api-openapi.yml
 - filename: mealdb-lookup-api-openapi.yml
   format: yaml
   label: TheMealDB Lookup API
   slug: mealdb-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-lookup-api-openapi.yml
 - filename: mealdb-search-api-openapi.yml
   format: yaml
   label: TheMealDB Search API
   slug: mealdb-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-search-api-openapi.yml
+  url: https://artifacts.apis.io/mealdb/openapi/mealdb-search-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -102,7 +102,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /search.php\n  method: get\n  operationId: searchMeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup.php\n  method: get\n  operationId: lookupMeal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /random.php\n  method: get\n  operationId: getRandomMeal\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /randomselection.php\n  method: get\n  operationId: getRandomSelection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /latest.php\n  method: get\n  operationId: getLatestMeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories.php\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list.php\n  method: get\n  operationId: listOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /filter.php\n  method:\
   \ get\n  operationId: filterMeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/agentic-access/mealdb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mealdb/agentic-access/mealdb-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Food

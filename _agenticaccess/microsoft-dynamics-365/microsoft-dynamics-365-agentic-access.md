@@ -9,115 +9,115 @@ api_specs:
   label: Microsoft Dynamics 365 Accounts API
   slug: microsoft-dynamics-365-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-accounts-api-openapi.yml
 - filename: microsoft-dynamics-365-contacts-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Contacts API
   slug: microsoft-dynamics-365-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-contacts-api-openapi.yml
 - filename: microsoft-dynamics-365-opportunities-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Opportunities API
   slug: microsoft-dynamics-365-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-opportunities-api-openapi.yml
 - filename: microsoft-dynamics-365-activities-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Activities API
   slug: microsoft-dynamics-365-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-activities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-activities-api-openapi.yml
 - filename: microsoft-dynamics-365-cases-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Cases API
   slug: microsoft-dynamics-365-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-cases-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-cases-api-openapi.yml
 - filename: microsoft-dynamics-365-companies-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Companies API
   slug: microsoft-dynamics-365-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-companies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-companies-api-openapi.yml
 - filename: microsoft-dynamics-365-customers-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Customers API
   slug: microsoft-dynamics-365-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-customers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-customers-api-openapi.yml
 - filename: microsoft-dynamics-365-employees-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Employees API
   slug: microsoft-dynamics-365-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-employees-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-employees-api-openapi.yml
 - filename: microsoft-dynamics-365-general-ledger-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 General Ledger API
   slug: microsoft-dynamics-365-general-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-general-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-general-ledger-api-openapi.yml
 - filename: microsoft-dynamics-365-human-resources-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Human Resources API
   slug: microsoft-dynamics-365-human-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-human-resources-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-human-resources-api-openapi.yml
 - filename: microsoft-dynamics-365-items-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Items API
   slug: microsoft-dynamics-365-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-items-api-openapi.yml
 - filename: microsoft-dynamics-365-journals-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Journals API
   slug: microsoft-dynamics-365-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-journals-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-journals-api-openapi.yml
 - filename: microsoft-dynamics-365-leads-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Leads API
   slug: microsoft-dynamics-365-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-leads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-leads-api-openapi.yml
 - filename: microsoft-dynamics-365-products-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Products API
   slug: microsoft-dynamics-365-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-products-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-products-api-openapi.yml
 - filename: microsoft-dynamics-365-purchase-invoices-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Purchase Invoices API
   slug: microsoft-dynamics-365-purchase-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-purchase-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-purchase-invoices-api-openapi.yml
 - filename: microsoft-dynamics-365-purchase-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Purchase Orders API
   slug: microsoft-dynamics-365-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-purchase-orders-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-invoices-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Invoices API
   slug: microsoft-dynamics-365-sales-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-sales-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-sales-invoices-api-openapi.yml
 - filename: microsoft-dynamics-365-sales-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Sales Orders API
   slug: microsoft-dynamics-365-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-sales-orders-api-openapi.yml
 - filename: microsoft-dynamics-365-vendors-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Vendors API
   slug: microsoft-dynamics-365-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365/openapi/microsoft-dynamics-365-vendors-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 29
@@ -193,7 +193,7 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/micros
   \  method: post\n  operationId: createSalesInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies({companyId})/salesOrders\n  method: get\n  operationId: listSalesOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies({companyId})/salesOrders\n  method: post\n  operationId: createSalesOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /SalesOrderHeaders\n  method: get\n  operationId: listSalesOrderHeaders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /SalesOrderHeaders\n  method: post\n  operationId: createSalesOrderHeader\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies({companyId})/vendors\n  method: get\n  operationId: listVendors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies({companyId})/vendors\n  method: post\n  operationId: createVendor\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Vendors\n  method: get\n  operationId: listVendors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Vendors\n  method: post\n  operationId: createVendor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/agentic-access/microsoft-dynamics-365-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-dynamics-365/agentic-access/microsoft-dynamics-365-agentic-access.yml
 summary_line: 58 operations · 29 acting
 tags:
 - Business Applications

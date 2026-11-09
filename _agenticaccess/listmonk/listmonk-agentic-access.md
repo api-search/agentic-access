@@ -9,85 +9,85 @@ api_specs:
   label: listmonk Bounces API
   slug: listmonk-bounces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-bounces-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-bounces-api-openapi.yml
 - filename: listmonk-campaigns-api-openapi.yml
   format: yaml
   label: listmonk Campaigns API
   slug: listmonk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-campaigns-api-openapi.yml
 - filename: listmonk-import-api-openapi.yml
   format: yaml
   label: listmonk Import API
   slug: listmonk-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-import-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-import-api-openapi.yml
 - filename: listmonk-lists-api-openapi.yml
   format: yaml
   label: listmonk Lists API
   slug: listmonk-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-lists-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-lists-api-openapi.yml
 - filename: listmonk-media-api-openapi.yml
   format: yaml
   label: listmonk Media API
   slug: listmonk-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-media-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-media-api-openapi.yml
 - filename: listmonk-subscribers-api-openapi.yml
   format: yaml
   label: listmonk Subscribers API
   slug: listmonk-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-subscribers-api-openapi.yml
 - filename: listmonk-templates-api-openapi.yml
   format: yaml
   label: listmonk Templates API
   slug: listmonk-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-templates-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-templates-api-openapi.yml
 - filename: listmonk-transactional-api-openapi.yml
   format: yaml
   label: listmonk Transactional API
   slug: listmonk-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-transactional-api-openapi.yml
 - filename: listmonk-admin-api-openapi.yml
   format: yaml
   label: listmonk Admin API
   slug: listmonk-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-admin-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-admin-api-openapi.yml
 - filename: listmonk-logs-api-openapi.yml
   format: yaml
   label: listmonk Logs API
   slug: listmonk-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-logs-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-logs-api-openapi.yml
 - filename: listmonk-maintenance-api-openapi.yml
   format: yaml
   label: listmonk Maintenance API
   slug: listmonk-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-maintenance-api-openapi.yml
 - filename: listmonk-miscellaneous-api-openapi.yml
   format: yaml
   label: listmonk Miscellaneous API
   slug: listmonk-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-miscellaneous-api-openapi.yml
 - filename: listmonk-public-api-openapi.yml
   format: yaml
   label: listmonk Public API
   slug: listmonk-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-public-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-public-api-openapi.yml
 - filename: listmonk-settings-api-openapi.yml
   format: yaml
   label: listmonk Settings API
   slug: listmonk-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/listmonk-settings-api-openapi.yml
+  url: https://artifacts.apis.io/listmonk/openapi/listmonk-settings-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 19
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/listmo
   \ getImportStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /import/subscribers\n  method: post\n  operationId: importSubscribers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /import/subscribers\n  method: delete\n  operationId: stopImport\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /import/subscribers/logs\n  method: get\n  operationId: getImportLogs\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bounces\n  method: get\n  operationId: getBounces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bounces\n  method: delete\n  operationId: deleteBounces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bounces/{bounce_id}\n  method: delete\n  operationId: deleteBounce\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/agentic-access/listmonk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/listmonk/agentic-access/listmonk-agentic-access.yml
 summary_line: 53 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Email

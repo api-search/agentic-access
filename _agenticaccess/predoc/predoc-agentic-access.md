@@ -9,43 +9,43 @@ api_specs:
   label: Predoc Authentication API
   slug: predoc-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-authentication-api-openapi.yml
 - filename: predoc-documents-api-openapi.yml
   format: yaml
   label: Predoc Documents API
   slug: predoc-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-documents-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-documents-api-openapi.yml
 - filename: predoc-events-api-openapi.yml
   format: yaml
   label: Predoc Events API
   slug: predoc-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-events-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-events-api-openapi.yml
 - filename: predoc-patient-api-openapi.yml
   format: yaml
   label: Predoc Patient API
   slug: predoc-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-patient-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-patient-api-openapi.yml
 - filename: predoc-record-request-api-openapi.yml
   format: yaml
   label: Predoc Record Request API
   slug: predoc-record-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-record-request-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-record-request-api-openapi.yml
 - filename: predoc-record-upload-api-openapi.yml
   format: yaml
   label: Predoc Record Upload API
   slug: predoc-record-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-record-upload-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-record-upload-api-openapi.yml
 - filename: predoc-retrieval-api-openapi.yml
   format: yaml
   label: Predoc Retrieval API
   slug: predoc-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/predoc/openapi/predoc-retrieval-api-openapi.yml
 consequence_counts:
   read: 27
   safety-critical: 13
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/predoc
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/retrievals/previous-providers/{retrievalId}/close\n  method: post\n  operationId: RetrievalController_closeRetrieval_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/patients\n  method: post\n  operationId: PatientController_createPatient_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path:\
   \ /v2/patients/{patientId}/documents/search\n  method: post\n  operationId: PatientController_searchPatientDocuments_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/records/upload\n  method: post\n  operationId: RecordUploadController_uploadRecordV2_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/requests\n  method: post\n  operationId: RequestController_createRecordRequestV2_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/requests\n  method: get\n  operationId: RequestController_getListOfRecordRequests_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/agentic-access/predoc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/predoc/agentic-access/predoc-agentic-access.yml
 summary_line: 40 operations · 13 acting · 13 human-in-the-loop
 tags:
 - Company

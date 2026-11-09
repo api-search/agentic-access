@@ -9,19 +9,19 @@ api_specs:
   label: Allowance Mandates API
   slug: allowance-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/allowance/openapi/allowance-mandates-api-openapi.yml
 - filename: allowance-pricing-api-openapi.yml
   format: yaml
   label: Allowance Pricing API
   slug: allowance-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/allowance/openapi/allowance-pricing-api-openapi.yml
 - filename: allowance-status-api-openapi.yml
   format: yaml
   label: Allowance Status API
   slug: allowance-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-status-api-openapi.yml
+  url: https://artifacts.apis.io/allowance/openapi/allowance-status-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -65,7 +65,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/allowance-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 3\n    connected: 4\n  by_consequence:\n    write: 1\n    read: 4\n    safety-critical: 1\n    physical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /mandates\n  method: post\n  operationId: createMandate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mandates/{id}\n  method: get\n  operationId: getMandate\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mandates/{id}/revoke\n  method: post\n  operationId: revokeMandate\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /mandates/{id}/credential-requests\n  method: post\n  operationId: requestCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mandates/{id}/credential-requests/{cr_id}\n  method:\
   \ get\n  operationId: getCredentialRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing\n  method: get\n  operationId: getPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/agentic-access/allowance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/allowance/agentic-access/allowance-agentic-access.yml
 summary_line: 7 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Company

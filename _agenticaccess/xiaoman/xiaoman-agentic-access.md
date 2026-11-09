@@ -9,43 +9,43 @@ api_specs:
   label: OKKI Go Companies API
   slug: xiaoman-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-companies-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-companies-api-openapi.yml
 - filename: xiaoman-contacts-api-openapi.yml
   format: yaml
   label: OKKI Go Contacts API
   slug: xiaoman-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-contacts-api-openapi.yml
 - filename: xiaoman-credits-api-openapi.yml
   format: yaml
   label: OKKI Go Credits API
   slug: xiaoman-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-credits-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-credits-api-openapi.yml
 - filename: xiaoman-default-api-openapi.yml
   format: yaml
   label: Xiaoman (OKKI CRM) 产品 API
   slug: xiaoman-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-default-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-default-api-openapi.yml
 - filename: xiaoman-emails-api-openapi.yml
   format: yaml
   label: OKKI Go Emails API
   slug: xiaoman-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-emails-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-emails-api-openapi.yml
 - filename: xiaoman-s7-1-api-openapi.yml
   format: yaml
   label: Xiaoman (OKKI CRM) s7.1 API
   slug: xiaoman-s7-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-s7-1-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-s7-1-api-openapi.yml
 - filename: xiaoman-dev-ops-api-openapi.yml
   format: yaml
   label: Xiaoman (OKKI) Dev Ops API
   slug: xiaoman-dev-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-dev-ops-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-dev-ops-api-openapi.yml
 consequence_counts:
   physical: 20
   read: 101
@@ -205,8 +205,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/xiaoma
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices/purchaseInbound/fields\n  method: get\n  operationId: getV1InvoicesPurchaseInboundFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices/purchaseInbound/remove\n  method: post\n  operationId: postV1InvoicesPurchaseInboundRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/invoices/purchaseInbound/push\n  method: post\n  operationId: postV1InvoicesPurchaseInboundPush\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/purchaseOrder/push\n  method: post\n  operationId: postV1PurchaseOrderPush\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/purchaseOrder/info\n  method: get\n  operationId: getV1PurchaseOrderInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/purchaseOrder/list\n  method: get\n  operationId: getV1PurchaseOrderList\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/purchaseOrder/fields\n  method: get\n  operationId: getV1PurchaseOrderFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/purchaseOrder/fields/selector\n  method: get\n  operationId: getV1PurchaseOrderFieldsSelector\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices/purchaseReturn/list\n  method: get\n  operationId: getV1InvoicesPurchaseReturnList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices/purchaseReturn/info\n  method: get\n  operationId: getV1InvoicesPurchaseReturnInfo\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices/purchaseReturn/fields\n  method: get\n  operationId: getV1InvoicesPurchaseReturnFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices/purchaseReturn/push\n  method: post\n  operationId: postV1InvoicesPurchaseReturnPush\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/agentic-access/xiaoman-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/agentic-access/xiaoman-agentic-access.yml
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices/purchaseReturn/fields\n  method: get\n  operationId: getV1InvoicesPurchaseReturnFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices/purchaseReturn/push\n  method: post\n  operationId: postV1InvoicesPurchaseReturnPush\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/xiaoman/agentic-access/xiaoman-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/xiaoman/agentic-access/xiaoman-agentic-access.yml
 summary_line: 172 operations · 71 acting
 tags:
 - Company

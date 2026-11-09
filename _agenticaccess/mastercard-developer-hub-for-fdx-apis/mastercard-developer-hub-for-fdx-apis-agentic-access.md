@@ -9,61 +9,61 @@ api_specs:
   label: Mastercard Developer Hub for FDX APIs Application Check Controller API
   slug: mastercard-developer-hub-for-fdx-apis-application-check-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-application-check-controller-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-application-check-controller-api-openapi.yml
 - filename: mastercard-developer-hub-for-fdx-apis-consent-api-openapi.yml
   format: yaml
   label: Mastercard Developer Hub for FDX APIs Consent API
   slug: mastercard-developer-hub-for-fdx-apis-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-consent-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-consent-api-openapi.yml
 - filename: mastercard-developer-hub-for-fdx-apis-data-resource-apis-api-openapi.yml
   format: yaml
   label: Mastercard Developer Hub for FDX APIs Data Resource APIs API
   slug: mastercard-developer-hub-for-fdx-apis-data-resource-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-data-resource-apis-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-data-resource-apis-api-openapi.yml
 - filename: mastercard-developer-hub-for-fdx-apis-dynamic-client-registration-api-openapi.yml
   format: yaml
   label: Mastercard Developer Hub for FDX APIs Dynamic Client Registration API
   slug: mastercard-developer-hub-for-fdx-apis-dynamic-client-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-dynamic-client-registration-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-dynamic-client-registration-api-openapi.yml
 - filename: mastercard-developer-hub-for-fdx-apis-non-par-authorize-api-openapi.yml
   format: yaml
   label: Mastercard Developer Hub for FDX APIs Non PAR Authorize API
   slug: mastercard-developer-hub-for-fdx-apis-non-par-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-non-par-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-non-par-authorize-api-openapi.yml
 - filename: mastercard-developer-hub-for-fdx-apis-par-rar-authorize-api-openapi.yml
   format: yaml
   label: Mastercard Developer Hub for FDX APIs PAR+RAR Authorize API
   slug: mastercard-developer-hub-for-fdx-apis-par-rar-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-par-rar-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-par-rar-authorize-api-openapi.yml
 - filename: mastercard-developer-hub-for-fdx-apis-resource-token-api-openapi.yml
   format: yaml
   label: Mastercard Developer Hub for FDX APIs Resource Token API
   slug: mastercard-developer-hub-for-fdx-apis-resource-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-resource-token-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-resource-token-api-openapi.yml
 - filename: mastercard-developer-hub-for-fdx-apis-token-introspection-api-openapi.yml
   format: yaml
   label: Mastercard Developer Hub for FDX APIs Token Introspection API
   slug: mastercard-developer-hub-for-fdx-apis-token-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-token-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-token-introspection-api-openapi.yml
 - filename: mastercard-developer-hub-for-fdx-apis-upload-data-api-openapi.yml
   format: yaml
   label: Mastercard Developer Hub for FDX APIs Upload Data API
   slug: mastercard-developer-hub-for-fdx-apis-upload-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-upload-data-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-upload-data-api-openapi.yml
 - filename: mastercard-developer-hub-for-fdx-apis-user-apis-api-openapi.yml
   format: yaml
   label: Mastercard Developer Hub for FDX APIs User APIs API
   slug: mastercard-developer-hub-for-fdx-apis-user-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/openapi/mastercard-developer-hub-for-fdx-apis-user-apis-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/openapi/mastercard-developer-hub-for-fdx-apis-user-apis-api-openapi.yml
 consequence_counts:
   read: 16
   write: 11
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fdx-au
   \ getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fdx/v6/accounts\n  method: get\n  operationId: getAccountsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fdx/v6/accounts/{accountId}\n  method: get\n  operationId: getAccountsDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fdx/v6/accounts/{accountId}/transactions\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fdx/v6/accounts/{accountId}/statements\n  method: get\n  operationId: getStatements\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fdx/v6/accounts/{accountId}/statements/{statementId}\n  method: get\n  operationId: getStatementsByStatementId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fdx/v6/accounts/{accountId}/payment-networks\n  method: get\n  operationId: getPaymentNetworksDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fdx/v6/accounts/{accountId}/contact\n  method: get\n  operationId: getContactsDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consent/accounts\n  method: get\n  operationId: getAccountsByUserId\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/agentic-access/mastercard-developer-hub-for-fdx-apis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mastercard-developer-hub-for-fdx-apis/agentic-access/mastercard-developer-hub-for-fdx-apis-agentic-access.yml
 summary_line: 27 operations · 11 acting
 tags:
 - Banking

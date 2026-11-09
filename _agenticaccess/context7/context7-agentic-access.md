@@ -9,31 +9,31 @@ api_specs:
   label: Context7 Add API
   slug: context7-add-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-add-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-add-api-openapi.yml
 - filename: context7-context-api-openapi.yml
   format: yaml
   label: Context7 Context API
   slug: context7-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-context-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-context-api-openapi.yml
 - filename: context7-libs-api-openapi.yml
   format: yaml
   label: Context7 Libs API
   slug: context7-libs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-libs-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-libs-api-openapi.yml
 - filename: context7-policies-api-openapi.yml
   format: yaml
   label: Context7 Policies API
   slug: context7-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-policies-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-policies-api-openapi.yml
 - filename: context7-refresh-api-openapi.yml
   format: yaml
   label: Context7 Refresh API
   slug: context7-refresh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/openapi/context7-refresh-api-openapi.yml
+  url: https://artifacts.apis.io/context7/openapi/context7-refresh-api-openapi.yml
 consequence_counts:
   read: 3
   write: 8
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contex
   \ refreshLibrary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/policies\n  method: get\n  operationId: getPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/policies\n  method: patch\n  operationId: updatePolicies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/add/repo/{provider}\n  method: post\n  operationId: addRepo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/add/openapi\n  method: post\n  operationId: addOpenApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/add/openapi-upload\n  method: post\n  operationId: uploadOpenApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/add/llmstxt\n  method: post\n  operationId: addLlmsTxt\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/add/website\n  method: post\n  operationId: addWebsite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/add/confluence\n  method: post\n  operationId: addConfluence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/agentic-access/context7-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/context7/agentic-access/context7-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - Artificial Intelligence

@@ -9,97 +9,97 @@ api_specs:
   label: Memesio Agent Infra API
   slug: memesio-agent-infra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-agent-infra-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-agent-infra-api-openapi.yml
 - filename: memesio-ai-captions-api-openapi.yml
   format: yaml
   label: Memesio AI Captions API
   slug: memesio-ai-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-ai-captions-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-ai-captions-api-openapi.yml
 - filename: memesio-ai-jobs-api-openapi.yml
   format: yaml
   label: Memesio AI Jobs API
   slug: memesio-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-ai-jobs-api-openapi.yml
 - filename: memesio-ai-providers-api-openapi.yml
   format: yaml
   label: Memesio AI Providers API
   slug: memesio-ai-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-ai-providers-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-ai-providers-api-openapi.yml
 - filename: memesio-analytics-api-openapi.yml
   format: yaml
   label: Memesio Analytics API
   slug: memesio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-analytics-api-openapi.yml
 - filename: memesio-auth-api-openapi.yml
   format: yaml
   label: Memesio Auth API
   slug: memesio-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-auth-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-auth-api-openapi.yml
 - filename: memesio-billing-api-openapi.yml
   format: yaml
   label: Memesio Billing API
   slug: memesio-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-billing-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-billing-api-openapi.yml
 - filename: memesio-collaboration-api-openapi.yml
   format: yaml
   label: Memesio Collaboration API
   slug: memesio-collaboration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-collaboration-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-collaboration-api-openapi.yml
 - filename: memesio-compliance-api-openapi.yml
   format: yaml
   label: Memesio Compliance API
   slug: memesio-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-compliance-api-openapi.yml
 - filename: memesio-developer-api-api-openapi.yml
   format: yaml
   label: Memesio Developer API
   slug: memesio-developer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-developer-api-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-developer-api-api-openapi.yml
 - filename: memesio-growth-api-openapi.yml
   format: yaml
   label: Memesio Growth API
   slug: memesio-growth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-growth-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-growth-api-openapi.yml
 - filename: memesio-media-api-openapi.yml
   format: yaml
   label: Memesio Media API
   slug: memesio-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-media-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-media-api-openapi.yml
 - filename: memesio-memes-api-openapi.yml
   format: yaml
   label: Memesio Memes API
   slug: memesio-memes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-memes-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-memes-api-openapi.yml
 - filename: memesio-public-free-api-openapi.yml
   format: yaml
   label: Memesio Public Free API
   slug: memesio-public-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-public-free-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-public-free-api-openapi.yml
 - filename: memesio-trend-alerts-api-openapi.yml
   format: yaml
   label: Memesio Trend Alerts API
   slug: memesio-trend-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-trend-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-trend-alerts-api-openapi.yml
 - filename: memesio-video-api-openapi.yml
   format: yaml
   label: Memesio Video API
   slug: memesio-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/openapi/memesio-video-api-openapi.yml
+  url: https://artifacts.apis.io/memesio/openapi/memesio-video-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 52
@@ -201,7 +201,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/memesi
   \      max-ttl: 3600\n    audit: none\n- path: /api/memes/{slug}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/free/templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/free/memes/caption\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/templates/ideas\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/memes/caption-template\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/memes/caption-upload\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/memes/generate\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/memes/generate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/agentic-access/memesio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/memesio/agentic-access/memesio-agentic-access.yml
 summary_line: 111 operations · 59 acting · 5 human-in-the-loop
 tags:
 - Memes

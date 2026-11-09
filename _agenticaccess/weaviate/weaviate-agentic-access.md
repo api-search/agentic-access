@@ -9,133 +9,133 @@ api_specs:
   label: Weaviate Authz API
   slug: weaviate-authz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-authz-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-authz-api-openapi.yml
 - filename: weaviate-backups-api-openapi.yml
   format: yaml
   label: Weaviate Backups API
   slug: weaviate-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-backups-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-backups-api-openapi.yml
 - filename: weaviate-batch-api-openapi.yml
   format: yaml
   label: Weaviate Batch API
   slug: weaviate-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-batch-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-batch-api-openapi.yml
 - filename: weaviate-classifications-api-openapi.yml
   format: yaml
   label: Weaviate Classifications API
   slug: weaviate-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-classifications-api-openapi.yml
 - filename: weaviate-cluster-api-openapi.yml
   format: yaml
   label: Weaviate Cluster API
   slug: weaviate-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-cluster-api-openapi.yml
 - filename: weaviate-discovery-api-openapi.yml
   format: yaml
   label: Weaviate Discovery API
   slug: weaviate-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-discovery-api-openapi.yml
 - filename: weaviate-distributedtasks-api-openapi.yml
   format: yaml
   label: Weaviate Distributed Tasks API
   slug: weaviate-distributedtasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-distributedtasks-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-distributedtasks-api-openapi.yml
 - filename: weaviate-export-api-openapi.yml
   format: yaml
   label: Weaviate Export API
   slug: weaviate-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-export-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-export-api-openapi.yml
 - filename: weaviate-mcp-api-openapi.yml
   format: yaml
   label: Weaviate MCP API
   slug: weaviate-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-mcp-api-openapi.yml
 - filename: weaviate-meta-api-openapi.yml
   format: yaml
   label: Weaviate Meta API
   slug: weaviate-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-meta-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-meta-api-openapi.yml
 - filename: weaviate-namespaces-api-openapi.yml
   format: yaml
   label: Weaviate Namespaces API
   slug: weaviate-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-namespaces-api-openapi.yml
 - filename: weaviate-nodes-api-openapi.yml
   format: yaml
   label: Weaviate Nodes API
   slug: weaviate-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-nodes-api-openapi.yml
 - filename: weaviate-objects-api-openapi.yml
   format: yaml
   label: Weaviate Objects API
   slug: weaviate-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-objects-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-objects-api-openapi.yml
 - filename: weaviate-oidc-api-openapi.yml
   format: yaml
   label: Weaviate Oidc API
   slug: weaviate-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-oidc-api-openapi.yml
 - filename: weaviate-references-api-openapi.yml
   format: yaml
   label: Weaviate References API
   slug: weaviate-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-references-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-references-api-openapi.yml
 - filename: weaviate-replication-api-openapi.yml
   format: yaml
   label: Weaviate Replication API
   slug: weaviate-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-replication-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-replication-api-openapi.yml
 - filename: weaviate-schema-api-openapi.yml
   format: yaml
   label: Weaviate Schema API
   slug: weaviate-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-schema-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-schema-api-openapi.yml
 - filename: weaviate-tokenize-api-openapi.yml
   format: yaml
   label: Weaviate Tokenize API
   slug: weaviate-tokenize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-tokenize-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-tokenize-api-openapi.yml
 - filename: weaviate-users-api-openapi.yml
   format: yaml
   label: Weaviate Users API
   slug: weaviate-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-users-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-users-api-openapi.yml
 - filename: weaviate-weaviate-rest-api-api-openapi.yml
   format: yaml
   label: Weaviate REST API
   slug: weaviate-weaviate-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-weaviate-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-weaviate-rest-api-api-openapi.yml
 - filename: weaviate-well-known-api-openapi.yml
   format: yaml
   label: Weaviate .well Known API
   slug: weaviate-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-well-known-api-openapi.yml
 - filename: weaviate-graph-ql-api-openapi.yml
   format: yaml
   label: Weaviate Graph QL API
   slug: weaviate-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/openapi/weaviate-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/weaviate/openapi/weaviate-graph-ql-api-openapi.yml
 consequence_counts:
   read: 46
   safety-critical: 3
@@ -214,8 +214,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/weavia
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /export/{backend}\n  method: post\n  operationId: export.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /export/{backend}/{id}\n  method: get\n  operationId: export.status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /export/{backend}/{id}\n  method: delete\n  operationId: export.cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cluster/statistics\n  method: get\n  operationId: cluster.get.statistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nodes\n  method: get\n  operationId: nodes.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nodes/{className}\n  method: get\n  operationId: nodes.get.class\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: get\n  operationId: distributedTasks.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /classifications/\n  method: post\n  operationId:\
   \ classifications.post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /classifications/{id}\n  method: get\n  operationId: classifications.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp\n  method: post\n  operationId: mcp.post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mcp\n  method: get\n  operationId: mcp.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/agentic-access/weaviate-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/agentic-access/weaviate-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/weaviate/agentic-access/weaviate-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/weaviate/agentic-access/weaviate-agentic-access.yml
 summary_line: 111 operations · 65 acting · 3 human-in-the-loop
 tags:
 - Vector Search

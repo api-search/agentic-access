@@ -9,7 +9,7 @@ api_specs:
   label: Lightning Labs Lightning API
   slug: lightning-labs-lightning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/openapi/lightning-labs-lightning-api-openapi.yml
+  url: https://artifacts.apis.io/lightning-labs/openapi/lightning-labs-lightning-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 38
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lightn
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transactions\n  method: get\n  operationId: Lightning_GetTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transactions\n  method: post\n  operationId: Lightning_SendCoins\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transactions/fee\n  method: get\n  operationId: Lightning_EstimateFee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transactions/many\n\
   \  method: post\n  operationId: Lightning_SendMany\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transactions/subscribe\n  method: get\n  operationId: Lightning_SubscribeTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/utxos\n  method: get\n  operationId: Lightning_ListUnspent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/verifymessage\n  method: post\n  operationId: Lightning_VerifyMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/agentic-access/lightning-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lightning-labs/agentic-access/lightning-labs-agentic-access.yml
 summary_line: 71 operations · 33 acting · 3 human-in-the-loop
 tags:
 - Bitcoin

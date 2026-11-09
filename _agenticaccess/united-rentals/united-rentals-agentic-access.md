@@ -9,31 +9,31 @@ api_specs:
   label: United Rentals Equipment API
   slug: united-rentals-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-equipment-api-openapi.yml
 - filename: united-rentals-fleet-api-openapi.yml
   format: yaml
   label: United Rentals Fleet API
   slug: united-rentals-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-fleet-api-openapi.yml
 - filename: united-rentals-invoices-api-openapi.yml
   format: yaml
   label: United Rentals Invoices API
   slug: united-rentals-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-invoices-api-openapi.yml
 - filename: united-rentals-locations-api-openapi.yml
   format: yaml
   label: United Rentals Locations API
   slug: united-rentals-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-locations-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-locations-api-openapi.yml
 - filename: united-rentals-rentals-api-openapi.yml
   format: yaml
   label: United Rentals API
   slug: united-rentals-rentals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/openapi/united-rentals-rentals-api-openapi.yml
+  url: https://artifacts.apis.io/united-rentals/openapi/united-rentals-rentals-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/united
   - path: /equipment/{equipmentId}/availability\n  method: get\n  operationId: checkEquipmentAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rentals\n  method: post\n  operationId: createRental\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rentals\n  method: get\n  operationId: listRentals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rentals/{rentalId}\n  method: get\n  operationId: getRental\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /rentals/{rentalId}/extend\n  method: post\n  operationId: extendRental\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rentals/{rentalId}/return\n  method: post\n  operationId: returnRental\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleet\n  method: get\n  operationId: getFleet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{invoiceId}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{invoiceId}/pay\n  method: post\n  operationId: payInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/agentic-access/united-rentals-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/united-rentals/agentic-access/united-rentals-agentic-access.yml
 summary_line: 13 operations · 4 acting
 tags:
 - Equipment Rental

@@ -9,115 +9,115 @@ api_specs:
   label: Oxen Ai API
   slug: oxen-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-ai-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-ai-api-openapi.yml
 - filename: oxen-branches-api-openapi.yml
   format: yaml
   label: Oxen Branches API
   slug: oxen-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-branches-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-branches-api-openapi.yml
 - filename: oxen-commits-api-openapi.yml
   format: yaml
   label: Oxen Commits API
   slug: oxen-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-commits-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-commits-api-openapi.yml
 - filename: oxen-compare-api-openapi.yml
   format: yaml
   label: Oxen Compare API
   slug: oxen-compare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-compare-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-compare-api-openapi.yml
 - filename: oxen-data-frames-api-openapi.yml
   format: yaml
   label: Oxen Data Frames API
   slug: oxen-data-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-data-frames-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-data-frames-api-openapi.yml
 - filename: oxen-directories-api-openapi.yml
   format: yaml
   label: Oxen Directories API
   slug: oxen-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-directories-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-directories-api-openapi.yml
 - filename: oxen-evaluations-api-openapi.yml
   format: yaml
   label: Oxen Evaluations API
   slug: oxen-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-evaluations-api-openapi.yml
 - filename: oxen-export-api-openapi.yml
   format: yaml
   label: Oxen Export API
   slug: oxen-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-export-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-export-api-openapi.yml
 - filename: oxen-files-api-openapi.yml
   format: yaml
   label: Oxen Files API
   slug: oxen-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-files-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-files-api-openapi.yml
 - filename: oxen-fine-tunes-api-openapi.yml
   format: yaml
   label: Oxen Fine Tunes API
   slug: oxen-fine-tunes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-fine-tunes-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-fine-tunes-api-openapi.yml
 - filename: oxen-health-api-openapi.yml
   format: yaml
   label: Oxen Health API
   slug: oxen-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-health-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-health-api-openapi.yml
 - filename: oxen-import-api-openapi.yml
   format: yaml
   label: Oxen Import API
   slug: oxen-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-import-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-import-api-openapi.yml
 - filename: oxen-merge-api-openapi.yml
   format: yaml
   label: Oxen Merge API
   slug: oxen-merge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-merge-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-merge-api-openapi.yml
 - filename: oxen-metadata-api-openapi.yml
   format: yaml
   label: Oxen Metadata API
   slug: oxen-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-metadata-api-openapi.yml
 - filename: oxen-namespaces-api-openapi.yml
   format: yaml
   label: Oxen Namespaces API
   slug: oxen-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-namespaces-api-openapi.yml
 - filename: oxen-repositories-api-openapi.yml
   format: yaml
   label: Oxen Repositories API
   slug: oxen-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-repositories-api-openapi.yml
 - filename: oxen-version-files-api-openapi.yml
   format: yaml
   label: Oxen Version Files API
   slug: oxen-version-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-version-files-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-version-files-api-openapi.yml
 - filename: oxen-workspace-files-api-openapi.yml
   format: yaml
   label: Oxen Workspace Files API
   slug: oxen-workspace-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-workspace-files-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-workspace-files-api-openapi.yml
 - filename: oxen-workspaces-api-openapi.yml
   format: yaml
   label: Oxen Workspaces API
   slug: oxen-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/oxen/openapi/oxen-workspaces-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 58
@@ -296,8 +296,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/oxen-h
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/repos/{namespace}/{repo_name}/merge/{base_head}\n  method: post\n  operationId: merge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/repos/{namespace}/{repo_name}/commits/missing_files\n  method: get\n  operationId: list_missing_files\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/repos/{namespace}/{repo_name}/file/{resource}\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/repos/{namespace}/{repo_name}/file/{resource}\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/repos/{namespace}/{repo_name}/file/{resource}\n  method: patch\n  operationId: mv\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/repos/{namespace}/{repo_name}/file/{resource}\n  method: put\n  operationId: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/repos/{namespace}/{repo_name}/workspaces/{workspace_id}/changes\n  method: delete\n  operationId: unstage_many\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/repos/{namespace}/{repo_name}/data_frames/{resource}/index\n  method: post\n  operationId: index\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/repos/{namespace}/{repo_name}/versions\n  method: post\n  operationId: batch_upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
-  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/repos/{namespace}/{repo_name}/commits/{commit_id}/upload_tree\n  method: post\n  operationId: upload_tree\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/agentic-access/oxen-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/agentic-access/oxen-agentic-access.yml
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/repos/{namespace}/{repo_name}/commits/{commit_id}/upload_tree\n  method: post\n  operationId: upload_tree\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://artifacts.apis.io/oxen/agentic-access/oxen-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/oxen/agentic-access/oxen-agentic-access.yml
 summary_line: 117 operations · 59 acting · 22 human-in-the-loop
 tags:
 - Company

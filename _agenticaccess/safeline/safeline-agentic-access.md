@@ -9,49 +9,49 @@ api_specs:
   label: SafeLine ACL Rules API
   slug: safeline-acl-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-acl-rules-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-acl-rules-api-openapi.yml
 - filename: safeline-authentication-api-openapi.yml
   format: yaml
   label: SafeLine Authentication API
   slug: safeline-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-authentication-api-openapi.yml
 - filename: safeline-reports-api-openapi.yml
   format: yaml
   label: SafeLine Reports API
   slug: safeline-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-reports-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-reports-api-openapi.yml
 - filename: safeline-security-policies-api-openapi.yml
   format: yaml
   label: SafeLine Security Policies API
   slug: safeline-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-security-policies-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-security-policies-api-openapi.yml
 - filename: safeline-ssl-certificates-api-openapi.yml
   format: yaml
   label: SafeLine SSL Certificates API
   slug: safeline-ssl-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-ssl-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-ssl-certificates-api-openapi.yml
 - filename: safeline-system-api-openapi.yml
   format: yaml
   label: SafeLine System API
   slug: safeline-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-system-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-system-api-openapi.yml
 - filename: safeline-users-api-openapi.yml
   format: yaml
   label: SafeLine Users API
   slug: safeline-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-users-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-users-api-openapi.yml
 - filename: safeline-websites-api-openapi.yml
   format: yaml
   label: SafeLine Websites API
   slug: safeline-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/safeline-websites-api-openapi.yml
+  url: https://artifacts.apis.io/safeline/openapi/safeline-websites-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/safeli
   \  method: get\n  operationId: listAclWhitelist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ACLWhiteListAPI\n  method: post\n  operationId: addToAclWhitelist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/PolicyGroupAPI\n  method: get\n  operationId: listPolicyGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/PolicyGroupAPI\n  method: post\n  operationId: createPolicyGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/PolicyRuleAPI\n  method: get\n  operationId: listPolicyRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ReportResultAPI\n  method: get\n  operationId: getReportResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ManualGenerateReportAPI\n  method: post\n  operationId: generateReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/NodeInfoAPI\n  method: get\n  operationId: getNodeInfo\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/LicenseAPI\n  method: get\n  operationId: getLicenseInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ACLRuleExecutionLogAPI\n  method: get\n  operationId: getAclExecutionLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/agentic-access/safeline-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/safeline/agentic-access/safeline-agentic-access.yml
 summary_line: 30 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Proxy

@@ -9,25 +9,37 @@ api_specs:
   label: Azure Web PubSub Client and Upstream Events
   slug: azure-web-pubsub-client-and-upstream-events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/main/asyncapi/microsoft-azure-web-pubsub-asyncapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/asyncapi/microsoft-azure-web-pubsub-asyncapi.yml
 - filename: microsoft-azure-web-pubsub-hub-api-openapi.yml
   format: yaml
   label: Azure Web PubSub Hub API
   slug: microsoft-azure-web-pubsub-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/openapi/microsoft-azure-web-pubsub-hub-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-hub-api-openapi.yml
 - filename: microsoft-azure-web-pubsub-permission-api-openapi.yml
   format: yaml
   label: Azure Web PubSub Permission API
   slug: microsoft-azure-web-pubsub-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/openapi/microsoft-azure-web-pubsub-permission-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-permission-api-openapi.yml
+- filename: microsoft-azure-web-pubsub-general-api-openapi.yml
+  format: yaml
+  label: Azure Web PubSub General API
+  slug: microsoft-azure-web-pubsub-general-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-general-api-openapi.yml
+- filename: microsoft-azure-web-pubsub-webpubsub-api-openapi.yml
+  format: yaml
+  label: Azure Web PubSub Webpubsub API
+  slug: microsoft-azure-web-pubsub-webpubsub-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-webpubsub-api-openapi.yml
 - filename: microsoft-azure-web-pubsub-client-token-api-openapi.yml
   format: yaml
   label: Azure Web PubSub Client Token API
   slug: microsoft-azure-web-pubsub-client-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/openapi/microsoft-azure-web-pubsub-client-token-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-client-token-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 4
@@ -91,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   - path: /api/hubs/{hub}/groups/{group}/connections/{connectionId}\n  method: delete\n  operationId: webPubSub_removeConnectionFromGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/hubs/{hub}/groups/{group}/users/{userId}\n  method: put\n  operationId: webPubSub_addUserToGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/hubs/{hub}/groups/{group}/users/{userId}\n  method: delete\n  operationId: webPubSub_removeUserFromGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/hubs/{hub}/permissions/{permission}/connections/{connectionId}\n  method: put\n  operationId: webPubSub_grantPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/hubs/{hub}/permissions/{permission}/connections/{connectionId}\n  method: delete\n  operationId: webPubSub_revokePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n\
   \      human-in-the-loop: required\n    audit: required\n- path: /api/hubs/{hub}/permissions/{permission}/connections/{connectionId}\n  method: head\n  operationId: webPubSub_checkPermission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/hubs/{hub}/:generateToken\n  method: post\n  operationId: webPubSub_generateClientToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/agentic-access/microsoft-azure-web-pubsub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-web-pubsub/agentic-access/microsoft-azure-web-pubsub-agentic-access.yml
 summary_line: 19 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Messaging

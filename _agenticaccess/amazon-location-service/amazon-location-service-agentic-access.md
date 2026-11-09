@@ -9,7 +9,55 @@ api_specs:
   label: Amazon Location Service Maps API
   slug: amazon-location-service-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/openapi/amazon-location-service-maps-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-maps-api-openapi.yml
+- filename: amazon-location-service-geofencing-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Geofencing API
+  slug: amazon-location-service-geofencing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-geofencing-api-openapi.yml
+- filename: amazon-location-service-metadata-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Metadata API
+  slug: amazon-location-service-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-metadata-api-openapi.yml
+- filename: amazon-location-service-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Operations API
+  slug: amazon-location-service-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-operations-api-openapi.yml
+- filename: amazon-location-service-places-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Places API
+  slug: amazon-location-service-places-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-places-api-openapi.yml
+- filename: amazon-location-service-positions-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Positions API
+  slug: amazon-location-service-positions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-positions-api-openapi.yml
+- filename: amazon-location-service-routes-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Routes API
+  slug: amazon-location-service-routes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-routes-api-openapi.yml
+- filename: amazon-location-service-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Tags API
+  slug: amazon-location-service-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-tags-api-openapi.yml
+- filename: amazon-location-service-tracking-api-openapi.yml
+  format: yaml
+  label: Amazon Location Service Location Service Tracking API
+  slug: amazon-location-service-tracking-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-location-service/openapi/amazon-location-service-tracking-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -38,9 +86,10 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon-location-service-maps-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 4\n    connected: 4\n  by_consequence:\n    write: 4\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /maps\n  method: post\n  operationId: CreateMap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maps\n  method: get\n  operationId: ListMaps\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /maps/{MapName}\n  method: get\n  operationId: DescribeMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /maps/{MapName}\n  method: delete\n  operationId: DeleteMap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tracking/v0/trackers\n  method: post\n  operationId: CreateTracker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /tracking/v0/trackers\n  method: get\n  operationId: ListTrackers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/v0/trackers/{TrackerName}/positions\n  method: post\n  operationId: BatchUpdateDevicePosition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /places/v0/indexes/{IndexName}/search/text\n  method: post\n  operationId: SearchPlaceIndexForText\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/agentic-access/amazon-location-service-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-location-service/agentic-access/amazon-location-service-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
+- Amazon Web Services
 - Geocoding
 - Geofencing
 - Location

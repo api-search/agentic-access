@@ -9,85 +9,85 @@ api_specs:
   label: Kanmon Bank Accounts API
   slug: kanmon-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-bank-accounts-api-openapi.yml
 - filename: kanmon-businesses-api-openapi.yml
   format: yaml
   label: Kanmon Businesses API
   slug: kanmon-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-businesses-api-openapi.yml
 - filename: kanmon-connect-tokens-api-openapi.yml
   format: yaml
   label: Kanmon Connect Tokens API
   slug: kanmon-connect-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-connect-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-connect-tokens-api-openapi.yml
 - filename: kanmon-documents-api-openapi.yml
   format: yaml
   label: Kanmon Documents API
   slug: kanmon-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-documents-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-documents-api-openapi.yml
 - filename: kanmon-draw-requests-api-openapi.yml
   format: yaml
   label: Kanmon Draw Requests API
   slug: kanmon-draw-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-draw-requests-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-draw-requests-api-openapi.yml
 - filename: kanmon-embedded-sessions-api-openapi.yml
   format: yaml
   label: Kanmon Embedded Sessions API
   slug: kanmon-embedded-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-embedded-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-embedded-sessions-api-openapi.yml
 - filename: kanmon-integrated-mca-api-openapi.yml
   format: yaml
   label: Kanmon Integrated MCA API
   slug: kanmon-integrated-mca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-integrated-mca-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-integrated-mca-api-openapi.yml
 - filename: kanmon-invoices-api-openapi.yml
   format: yaml
   label: Kanmon Invoices API
   slug: kanmon-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-invoices-api-openapi.yml
 - filename: kanmon-issued-products-api-openapi.yml
   format: yaml
   label: Kanmon Issued Products API
   slug: kanmon-issued-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-issued-products-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-issued-products-api-openapi.yml
 - filename: kanmon-offers-api-openapi.yml
   format: yaml
   label: Kanmon Offers API
   slug: kanmon-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-offers-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-offers-api-openapi.yml
 - filename: kanmon-payments-api-openapi.yml
   format: yaml
   label: Kanmon Payments API
   slug: kanmon-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-payments-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-payments-api-openapi.yml
 - filename: kanmon-prequalifications-api-openapi.yml
   format: yaml
   label: Kanmon Prequalifications API
   slug: kanmon-prequalifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-prequalifications-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-prequalifications-api-openapi.yml
 - filename: kanmon-sandbox-utilities-api-openapi.yml
   format: yaml
   label: Kanmon Sandbox Utilities API
   slug: kanmon-sandbox-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-sandbox-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-sandbox-utilities-api-openapi.yml
 - filename: kanmon-users-api-openapi.yml
   format: yaml
   label: Kanmon Users API
   slug: kanmon-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/openapi/kanmon-users-api-openapi.yml
+  url: https://artifacts.apis.io/kanmon/openapi/kanmon-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/kanmon
   \ method: get\n  operationId: getDrawRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/platform/v2/draw-requests\n  method: get\n  operationId: getAllDrawRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/platform/v2/documents\n  method: post\n  operationId: createBusinessDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/v2/integrated-mca-receivables\n  method: get\n  operationId: getReceivables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/platform/v2/integrated-mca-receivables\n  method: post\n  operationId: createIntegratedMcaReceivable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/v2/issued-products/{id}/integrated-mca-payment-windows\n  method: get\n  operationId: getIntegratedMcaPaymentWindows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/platform/v2/sandbox/businesses/{id}/reset\n  method: post\n  operationId: sandboxResetBusiness\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n\
   \      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/platform/v2/sandbox/businesses/{id}/delete\n  method: delete\n  operationId: sandboxDeleteBusiness\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/v2/embedded-session\n  method: post\n  operationId: createEmbeddedSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/agentic-access/kanmon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kanmon/agentic-access/kanmon-agentic-access.yml
 summary_line: 35 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Company

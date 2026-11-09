@@ -9,13 +9,13 @@ api_specs:
   label: Dev Proxy JWT API
   slug: dev-proxy-jwt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/openapi/dev-proxy-jwt-api-openapi.yml
+  url: https://artifacts.apis.io/dev-proxy/openapi/dev-proxy-jwt-api-openapi.yml
 - filename: dev-proxy-proxy-api-openapi.yml
   format: yaml
   label: Dev Proxy API
   slug: dev-proxy-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/openapi/dev-proxy-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/dev-proxy/openapi/dev-proxy-proxy-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 2
@@ -58,7 +58,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dev-proxy-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 2\n    acting: 4\n  by_consequence:\n    read: 2\n    safety-critical: 2\n    write: 2\n  human_in_the_loop_required: 2\noperations:\n- path: /proxy\n  method: get\n  operationId: getProxyInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy\n  method: post\n  operationId: setProxyState\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n  \
   \    purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /proxy/jwtToken\n  method: post\n  operationId: generateJwt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /proxy/mockrequest\n  method: post\n  operationId: raiseMockRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /proxy/rootCertificate\n  method: get\n  operationId: getRootCertificate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/stopproxy\n  method: post\n  operationId: stopProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/agentic-access/dev-proxy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dev-proxy/agentic-access/dev-proxy-agentic-access.yml
 summary_line: 6 operations · 4 acting · 2 human-in-the-loop
 tags:
 - Debugging Proxy

@@ -9,49 +9,49 @@ api_specs:
   label: Intely Apps API
   slug: intely-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intely/refs/heads/main/openapi/intely-apps-api-openapi.yml
+  url: https://artifacts.apis.io/intely/openapi/intely-apps-api-openapi.yml
 - filename: intely-connect-api-openapi.yml
   format: yaml
   label: Intely Connect API
   slug: intely-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intely/refs/heads/main/openapi/intely-connect-api-openapi.yml
+  url: https://artifacts.apis.io/intely/openapi/intely-connect-api-openapi.yml
 - filename: intely-data-processor-api-openapi.yml
   format: yaml
   label: Intely Data Processor API
   slug: intely-data-processor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intely/refs/heads/main/openapi/intely-data-processor-api-openapi.yml
+  url: https://artifacts.apis.io/intely/openapi/intely-data-processor-api-openapi.yml
 - filename: intely-forms-api-openapi.yml
   format: yaml
   label: Intely Forms API
   slug: intely-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intely/refs/heads/main/openapi/intely-forms-api-openapi.yml
+  url: https://artifacts.apis.io/intely/openapi/intely-forms-api-openapi.yml
 - filename: intely-identity-management-api-openapi.yml
   format: yaml
   label: Intely Identity Management API
   slug: intely-identity-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intely/refs/heads/main/openapi/intely-identity-management-api-openapi.yml
+  url: https://artifacts.apis.io/intely/openapi/intely-identity-management-api-openapi.yml
 - filename: intely-rosetta-api-openapi.yml
   format: yaml
   label: Intely Rosetta API
   slug: intely-rosetta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intely/refs/heads/main/openapi/intely-rosetta-api-openapi.yml
+  url: https://artifacts.apis.io/intely/openapi/intely-rosetta-api-openapi.yml
 - filename: intely-storage-api-openapi.yml
   format: yaml
   label: Intely Storage API
   slug: intely-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intely/refs/heads/main/openapi/intely-storage-api-openapi.yml
+  url: https://artifacts.apis.io/intely/openapi/intely-storage-api-openapi.yml
 - filename: intely-webhooks-api-openapi.yml
   format: yaml
   label: Intely Webhooks API
   slug: intely-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intely/refs/heads/main/openapi/intely-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/intely/openapi/intely-webhooks-api-openapi.yml
 consequence_counts:
   read: 26
   write: 37
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/intely
   \ required\n- path: /storage/file/download\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/file/move\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/file/rename\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/file/upload/binary\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/file/upload/multipart/start\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/file/upload/multipart/{uploadId}/complete\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/file/upload/multipart/{uploadId}/part\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/file/upload/url\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{webhookId}/app/{appId}/instance/{instanceId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intely/refs/heads/main/agentic-access/intely-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/intely/agentic-access/intely-agentic-access.yml
 summary_line: 63 operations · 37 acting
 tags:
 - Company

@@ -9,55 +9,55 @@ api_specs:
   label: Cyclr Accounts API
   slug: cyclr-accounts-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 - filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Authentication API
   slug: cyclr-authentication-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 - filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Connectors API
   slug: cyclr-connectors-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 - filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Cycles API
   slug: cyclr-cycles-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 - filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Data on Demand API
   slug: cyclr-data-on-demand-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 - filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr LAUNCH API
   slug: cyclr-launch-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 - filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Marketplace API
   slug: cyclr-marketplace-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 - filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Steps API
   slug: cyclr-steps-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 - filename: cyclr-cyclr-asyncapi.yml
   format: yaml
   label: Cyclr Templates API
   slug: cyclr-templates-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml
+  url: https://artifacts.apis.io/cyclr/asyncapi/cyclr-cyclr-asyncapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cyclr-
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /steps/{stepId}/fieldmappings\n  method: get\n  operationId: getStepFieldMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /steps/{stepId}/fieldmappings\n  method: put\n  operationId: updateStepFieldMappings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/launch\n  method: post\n  operationId: deployLaunch\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/marketplace\n  method: post\n  operationId: deployMarketplace\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data\n  method: post\n  operationId: dataOnDemand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/agentic-access/cyclr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cyclr/agentic-access/cyclr-agentic-access.yml
 summary_line: 28 operations · 16 acting
 tags:
 - Connectors
@@ -116,11 +116,12 @@ tags:
 - Integration Platform
 - Integration
 - Marketplace
-- Authentication
+- OAuth
 - REST API
 - Software-as-a-Service
 - Templates
 - Webhook
 - White Label
 - Workflows
+- Authentication
 ---

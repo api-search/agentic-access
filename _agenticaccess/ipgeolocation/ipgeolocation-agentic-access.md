@@ -9,43 +9,43 @@ api_specs:
   label: IPGeolocation.io ASN Lookup API
   slug: ipgeolocation-asn-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-asn-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/ipgeolocation/openapi/ipgeolocation-asn-lookup-api-openapi.yml
 - filename: ipgeolocation-astronomy-api-openapi.yml
   format: yaml
   label: IPGeolocation.io Astronomy API
   slug: ipgeolocation-astronomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-astronomy-api-openapi.yml
+  url: https://artifacts.apis.io/ipgeolocation/openapi/ipgeolocation-astronomy-api-openapi.yml
 - filename: ipgeolocation-ip-abuse-contact-api-openapi.yml
   format: yaml
   label: IPGeolocation.io IP Abuse Contact API
   slug: ipgeolocation-ip-abuse-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-ip-abuse-contact-api-openapi.yml
+  url: https://artifacts.apis.io/ipgeolocation/openapi/ipgeolocation-ip-abuse-contact-api-openapi.yml
 - filename: ipgeolocation-ip-geolocation-api-openapi.yml
   format: yaml
   label: IPGeolocation.io IP Geolocation API
   slug: ipgeolocation-ip-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-ip-geolocation-api-openapi.yml
+  url: https://artifacts.apis.io/ipgeolocation/openapi/ipgeolocation-ip-geolocation-api-openapi.yml
 - filename: ipgeolocation-ip-security-api-openapi.yml
   format: yaml
   label: IPGeolocation.io IP Security API
   slug: ipgeolocation-ip-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-ip-security-api-openapi.yml
+  url: https://artifacts.apis.io/ipgeolocation/openapi/ipgeolocation-ip-security-api-openapi.yml
 - filename: ipgeolocation-timezone-api-openapi.yml
   format: yaml
   label: IPGeolocation.io Timezone API
   slug: ipgeolocation-timezone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-timezone-api-openapi.yml
+  url: https://artifacts.apis.io/ipgeolocation/openapi/ipgeolocation-timezone-api-openapi.yml
 - filename: ipgeolocation-user-agent-api-openapi.yml
   format: yaml
   label: IPGeolocation.io User Agent API
   slug: ipgeolocation-user-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/openapi/ipgeolocation-user-agent-api-openapi.yml
+  url: https://artifacts.apis.io/ipgeolocation/openapi/ipgeolocation-user-agent-api-openapi.yml
 consequence_counts:
   read: 9
   write: 4
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ipgeol
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/security\n  method: get\n  operationId: lookupIpSecurity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/security-bulk\n  method: post\n  operationId: bulkLookupIpSecurity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/timezone\n  method: get\n  operationId: lookupTimezone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v3/timezone/convert\n  method: get\n  operationId: convertTimezone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/user-agent\n  method: get\n  operationId: parseUserAgent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/user-agent\n  method: post\n  operationId: parseCustomUserAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/user-agent-bulk\n  method: post\n  operationId: parseUserAgentBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/agentic-access/ipgeolocation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ipgeolocation/agentic-access/ipgeolocation-agentic-access.yml
 summary_line: 13 operations · 4 acting
 tags:
 - Geocoding

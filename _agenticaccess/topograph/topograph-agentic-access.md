@@ -9,43 +9,43 @@ api_specs:
   label: Topograph Billing API
   slug: topograph-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-billing-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-billing-api-openapi.yml
 - filename: topograph-billing-notifications-api-openapi.yml
   format: yaml
   label: Topograph Billing Notifications API
   slug: topograph-billing-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-billing-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-billing-notifications-api-openapi.yml
 - filename: topograph-data-api-openapi.yml
   format: yaml
   label: Topograph Data API
   slug: topograph-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-data-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-data-api-openapi.yml
 - filename: topograph-monitors-api-openapi.yml
   format: yaml
   label: Topograph Monitors API
   slug: topograph-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-monitors-api-openapi.yml
 - filename: topograph-pricing-api-openapi.yml
   format: yaml
   label: Topograph Pricing API
   slug: topograph-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-pricing-api-openapi.yml
 - filename: topograph-search-api-openapi.yml
   format: yaml
   label: Topograph Search API
   slug: topograph-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-search-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-search-api-openapi.yml
 - filename: topograph-workspaces-api-openapi.yml
   format: yaml
   label: Topograph Workspaces API
   slug: topograph-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-workspaces-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 9
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/topogr
   \ 3600\n    audit: none\n- path: /v2/monitors/{id}\n  method: delete\n  operationId: MonitoringController_stopMonitoring_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/monitors/{id}/logs\n  method: get\n  operationId: MonitoringController_getMonitorLogs_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/pricing\n  method: get\n  operationId: PricingController_getPricing_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search\n  method: get\n  operationId: SearchController_searchV2_v2\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/workspaces\n  method: get\n  operationId: WorkspaceController_listWorkspaces_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/workspaces\n  method: post\n  operationId: WorkspaceController_createWorkspace_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/workspaces/{name}\n  method: patch\n  operationId: WorkspaceController_updateWorkspace_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/workspaces/{name}\n  method: delete\n  operationId: WorkspaceController_deleteWorkspace_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/workspaces/usage\n  method: get\n  operationId: WorkspaceController_getUsageReport_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/agentic-access/topograph-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/topograph/agentic-access/topograph-agentic-access.yml
 summary_line: 22 operations · 9 acting · 9 human-in-the-loop
 tags:
 - Company

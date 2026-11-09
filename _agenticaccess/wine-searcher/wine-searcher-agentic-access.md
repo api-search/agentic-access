@@ -8,13 +8,13 @@ api_specs:
   label: Wine-Searcher Market Price API
   slug: wine-searcher-market-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/openapi/wine-searcher-market-price-api-openapi.yml
+  url: https://artifacts.apis.io/wine-searcher/openapi/wine-searcher-market-price-api-openapi.yml
 - filename: wine-searcher-wine-check-api-openapi.yml
   format: yaml
   label: Wine-Searcher Wine Check API
   slug: wine-searcher-wine-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/openapi/wine-searcher-wine-check-api-openapi.yml
+  url: https://artifacts.apis.io/wine-searcher/openapi/wine-searcher-wine-check-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -40,7 +40,7 @@ source_filename: wine-searcher-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wine-searcher-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    connected: 2\n  by_consequence:\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /wine-check\n  method: get\n  operationId: getWineCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market-price\n  method: get\n  operationId: getMarketPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/agentic-access/wine-searcher-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wine-searcher/agentic-access/wine-searcher-agentic-access.yml
 summary_line: 2 operations
 tags:
 - Data

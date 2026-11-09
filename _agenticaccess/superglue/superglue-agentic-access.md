@@ -9,25 +9,25 @@ api_specs:
   label: Index Commerce Connections API
   slug: superglue-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superglue/refs/heads/main/openapi/superglue-connections-api-openapi.yml
+  url: https://artifacts.apis.io/superglue/openapi/superglue-connections-api-openapi.yml
 - filename: superglue-runs-api-openapi.yml
   format: yaml
   label: Index Commerce Runs API
   slug: superglue-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superglue/refs/heads/main/openapi/superglue-runs-api-openapi.yml
+  url: https://artifacts.apis.io/superglue/openapi/superglue-runs-api-openapi.yml
 - filename: superglue-tools-api-openapi.yml
   format: yaml
   label: Index Commerce Tools API
   slug: superglue-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superglue/refs/heads/main/openapi/superglue-tools-api-openapi.yml
+  url: https://artifacts.apis.io/superglue/openapi/superglue-tools-api-openapi.yml
 - filename: superglue-webhooks-api-openapi.yml
   format: yaml
   label: Index Commerce Webhooks API
   slug: superglue-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superglue/refs/heads/main/openapi/superglue-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/superglue/openapi/superglue-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/superg
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/{toolId}/state\n  method: delete\n  operationId: deleteToolState\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tools/{toolId}/run\n  method: post\n  operationId: runTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runs/{runId}\n  method: get\n  operationId: getRun\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs/{runId}/cancel\n  method: post\n  operationId: cancelRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hooks/{toolId}\n  method: get\n  operationId: verifyWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hooks/{toolId}\n  method: post\n  operationId: triggerWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /runs/{runId}/results\n  method: get\n  operationId: getRunResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs/{runId}/files\n  method: get\n  operationId: listRunFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs/{runId}/files/{fileKey}/download\n  method: get\n  operationId: getRunFileDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs\n  method: get\n  operationId: listRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superglue/refs/heads/main/agentic-access/superglue-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/superglue/agentic-access/superglue-agentic-access.yml
 summary_line: 25 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Company

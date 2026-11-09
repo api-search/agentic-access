@@ -8,25 +8,25 @@ api_specs:
   label: Lens Patents API
   slug: lens-patents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-patents-api-openapi.yml
+  url: https://artifacts.apis.io/lens/openapi/lens-patents-api-openapi.yml
 - filename: lens-scholarly-api-openapi.yml
   format: yaml
   label: Lens Scholarly API
   slug: lens-scholarly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-scholarly-api-openapi.yml
+  url: https://artifacts.apis.io/lens/openapi/lens-scholarly-api-openapi.yml
 - filename: lens-bulk-api-openapi.yml
   format: yaml
   label: Lens Bulk API
   slug: lens-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/lens/openapi/lens-bulk-api-openapi.yml
 - filename: lens-collections-api-openapi.yml
   format: yaml
   label: Lens Collections API
   slug: lens-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-collections-api-openapi.yml
+  url: https://artifacts.apis.io/lens/openapi/lens-collections-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lens-patents-api-openapi.yml, openapi/lens-scholarly-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /patent/search\n  method: get\n  operationId: getPatentSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patent/search\n  method: post\n  operationId: postPatentSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patent/{lens_id}\n\
   \  method: get\n  operationId: getPatentByLensId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scholarly/search\n  method: get\n  operationId: getScholarlySearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scholarly/search\n  method: post\n  operationId: postScholarlySearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scholarly/{lens_id}\n  method: get\n  operationId: getScholarlyByLensId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/agentic-access/lens-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lens/agentic-access/lens-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Scholarly

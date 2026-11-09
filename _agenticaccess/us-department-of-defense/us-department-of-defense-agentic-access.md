@@ -8,49 +8,49 @@ api_specs:
   label: US Department of Defense Catalog API
   slug: us-department-of-defense-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-catalog-api-openapi.yml
 - filename: us-department-of-defense-levels-api-openapi.yml
   format: yaml
   label: US Department of Defense Levels API
   slug: us-department-of-defense-levels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-levels-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-levels-api-openapi.yml
 - filename: us-department-of-defense-locations-api-openapi.yml
   format: yaml
   label: US Department of Defense Locations API
   slug: us-department-of-defense-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-locations-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-locations-api-openapi.yml
 - filename: us-department-of-defense-measurements-api-openapi.yml
   format: yaml
   label: US Department of Defense Measurements API
   slug: us-department-of-defense-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-measurements-api-openapi.yml
 - filename: us-department-of-defense-offices-api-openapi.yml
   format: yaml
   label: US Department of Defense Offices API
   slug: us-department-of-defense-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-offices-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-offices-api-openapi.yml
 - filename: us-department-of-defense-projects-api-openapi.yml
   format: yaml
   label: US Department of Defense Projects API
   slug: us-department-of-defense-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-projects-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-projects-api-openapi.yml
 - filename: us-department-of-defense-ratings-api-openapi.yml
   format: yaml
   label: US Department of Defense Ratings API
   slug: us-department-of-defense-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-ratings-api-openapi.yml
 - filename: us-department-of-defense-time-series-api-openapi.yml
   format: yaml
   label: US Department of Defense Time Series API
   slug: us-department-of-defense-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/openapi/us-department-of-defense-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/us-department-of-defense/openapi/us-department-of-defense-time-series-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/usace-
   \ getLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{locationId}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/catalog\n  method: get\n  operationId: getLocationCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ratings\n  method: get\n  operationId: getRatings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /levels\n  method: get\n  operationId: getLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /offices\n  method: get\n  operationId: getOffices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: get\n  operationId: getProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /measurements\n  method: get\n  operationId: getMeasurements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basins\n  method: get\n  operationId: getBasins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools\n  method: get\n  operationId: getPools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /parameters\n  method: get\n  operationId: getParameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /units\n  method: get\n  operationId: getUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /states\n  method: get\n  operationId: getStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /counties\n  method: get\n  operationId: getCounties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/agentic-access/us-department-of-defense-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-department-of-defense/agentic-access/us-department-of-defense-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Federal Government

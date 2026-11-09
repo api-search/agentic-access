@@ -9,49 +9,49 @@ api_specs:
   label: WarpStream API Keys API
   slug: warpstream-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-api-keys-api-openapi.yml
 - filename: warpstream-monitoring-api-openapi.yml
   format: yaml
   label: WarpStream Monitoring API
   slug: warpstream-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-monitoring-api-openapi.yml
 - filename: warpstream-pipelines-api-openapi.yml
   format: yaml
   label: WarpStream Pipelines API
   slug: warpstream-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-pipelines-api-openapi.yml
 - filename: warpstream-topics-api-openapi.yml
   format: yaml
   label: WarpStream Topics API
   slug: warpstream-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-topics-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-topics-api-openapi.yml
 - filename: warpstream-virtual-cluster-credentials-api-openapi.yml
   format: yaml
   label: WarpStream Virtual Cluster Credentials API
   slug: warpstream-virtual-cluster-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-virtual-cluster-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-virtual-cluster-credentials-api-openapi.yml
 - filename: warpstream-virtual-clusters-api-openapi.yml
   format: yaml
   label: WarpStream Virtual Clusters API
   slug: warpstream-virtual-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-virtual-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-virtual-clusters-api-openapi.yml
 - filename: warpstream-workspaces-api-openapi.yml
   format: yaml
   label: WarpStream Workspaces API
   slug: warpstream-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-workspaces-api-openapi.yml
 - filename: warpstream-acls-api-openapi.yml
   format: yaml
   label: WarpStream AC Ls API
   slug: warpstream-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/openapi/warpstream-acls-api-openapi.yml
+  url: https://artifacts.apis.io/warpstream/openapi/warpstream-acls-api-openapi.yml
 consequence_counts:
   read: 5
   write: 10
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/warpst
   \  audit: none\n- path: /api/v1/create_topic\n  method: post\n  operationId: createTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/delete_topic\n  method: post\n  operationId: deleteTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/create_virtual_cluster_credentials\n  method: post\n  operationId: createVirtualClusterCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/list_virtual_clusters\n  method: get\n  operationId: listVirtualClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/create_virtual_cluster\n  method: post\n  operationId: createVirtualCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/delete_virtual_cluster\n  method: post\n  operationId: deleteVirtualCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/list_workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/create_workspace\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/agentic-access/warpstream-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/warpstream/agentic-access/warpstream-agentic-access.yml
 summary_line: 15 operations · 10 acting
 tags:
 - Kafka

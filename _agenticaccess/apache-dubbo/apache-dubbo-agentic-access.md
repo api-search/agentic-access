@@ -9,85 +9,85 @@ api_specs:
   label: Apache Dubbo ConditionRule API
   slug: apache-dubbo-conditionrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-conditionrule-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-conditionrule-api-openapi.yml
 - filename: apache-dubbo-metrics-api-openapi.yml
   format: yaml
   label: Apache Dubbo Metrics API
   slug: apache-dubbo-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-metrics-api-openapi.yml
 - filename: apache-dubbo-overriderule-api-openapi.yml
   format: yaml
   label: Apache Dubbo OverrideRule API
   slug: apache-dubbo-overriderule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-overriderule-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-overriderule-api-openapi.yml
 - filename: apache-dubbo-services-api-openapi.yml
   format: yaml
   label: Apache Dubbo Services API
   slug: apache-dubbo-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-services-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-services-api-openapi.yml
 - filename: apache-dubbo-tagrule-api-openapi.yml
   format: yaml
   label: Apache Dubbo TagRule API
   slug: apache-dubbo-tagrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-tagrule-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-tagrule-api-openapi.yml
 - filename: apache-dubbo-trafficaccesslog-api-openapi.yml
   format: yaml
   label: Apache Dubbo TrafficAccesslog API
   slug: apache-dubbo-trafficaccesslog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-trafficaccesslog-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-trafficaccesslog-api-openapi.yml
 - filename: apache-dubbo-trafficargument-api-openapi.yml
   format: yaml
   label: Apache Dubbo TrafficArgument API
   slug: apache-dubbo-trafficargument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-trafficargument-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-trafficargument-api-openapi.yml
 - filename: apache-dubbo-trafficgray-api-openapi.yml
   format: yaml
   label: Apache Dubbo TrafficGray API
   slug: apache-dubbo-trafficgray-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-trafficgray-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-trafficgray-api-openapi.yml
 - filename: apache-dubbo-trafficmock-api-openapi.yml
   format: yaml
   label: Apache Dubbo TrafficMock API
   slug: apache-dubbo-trafficmock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-trafficmock-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-trafficmock-api-openapi.yml
 - filename: apache-dubbo-trafficregion-api-openapi.yml
   format: yaml
   label: Apache Dubbo TrafficRegion API
   slug: apache-dubbo-trafficregion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-trafficregion-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-trafficregion-api-openapi.yml
 - filename: apache-dubbo-trafficretry-api-openapi.yml
   format: yaml
   label: Apache Dubbo TrafficRetry API
   slug: apache-dubbo-trafficretry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-trafficretry-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-trafficretry-api-openapi.yml
 - filename: apache-dubbo-traffictimeout-api-openapi.yml
   format: yaml
   label: Apache Dubbo TrafficTimeout API
   slug: apache-dubbo-traffictimeout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-traffictimeout-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-traffictimeout-api-openapi.yml
 - filename: apache-dubbo-trafficweight-api-openapi.yml
   format: yaml
   label: Apache Dubbo TrafficWeight API
   slug: apache-dubbo-trafficweight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-trafficweight-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-trafficweight-api-openapi.yml
 - filename: apache-dubbo-mock-rules-api-openapi.yml
   format: yaml
   label: Apache Dubbo Mock Rules API
   slug: apache-dubbo-mock-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-mock-rules-api-openapi.yml
+  url: https://artifacts.apis.io/apache-dubbo/openapi/apache-dubbo-mock-rules-api-openapi.yml
 consequence_counts:
   read: 24
   safety-critical: 7
@@ -172,7 +172,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{env}/traffic/timeout\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{env}/traffic/timeout\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{env}/traffic/weight\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{env}/traffic/weight\n  method: put\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{env}/traffic/weight\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{env}/traffic/weight\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{env}/version\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/agentic-access/apache-dubbo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-dubbo/agentic-access/apache-dubbo-agentic-access.yml
 summary_line: 65 operations · 41 acting · 7 human-in-the-loop
 tags:
 - Apache

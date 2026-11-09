@@ -9,37 +9,37 @@ api_specs:
   label: Contractbook Attachments API
   slug: contractbook-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-attachments-api-openapi.yml
 - filename: contractbook-automations-api-openapi.yml
   format: yaml
   label: Contractbook Automations API
   slug: contractbook-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-automations-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-automations-api-openapi.yml
 - filename: contractbook-document-sharing-api-openapi.yml
   format: yaml
   label: Contractbook Document sharing API
   slug: contractbook-document-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-document-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-document-sharing-api-openapi.yml
 - filename: contractbook-documents-api-openapi.yml
   format: yaml
   label: Contractbook Documents API
   slug: contractbook-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-documents-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-documents-api-openapi.yml
 - filename: contractbook-spaces-api-openapi.yml
   format: yaml
   label: Contractbook Spaces API
   slug: contractbook-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-spaces-api-openapi.yml
 - filename: contractbook-templates-api-openapi.yml
   format: yaml
   label: Contractbook Templates API
   slug: contractbook-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-templates-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-templates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contra
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{id}/share\n  method: post\n  operationId: share_document\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{id}\n  method: post\n  operationId: create_child_space\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{id}/tree\n  method: get\n  operationId: get_space_tree\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: get\n  operationId: get_templates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{id}\n  method: get\n  operationId: get_template\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{id}/create_document\n  method: post\n  operationId: create_document_from_template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload\n  method: post\n  operationId:\
   \ create_attachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/agentic-access/contractbook-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/contractbook/agentic-access/contractbook-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - Contract Management

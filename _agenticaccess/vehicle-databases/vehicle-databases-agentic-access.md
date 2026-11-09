@@ -8,31 +8,31 @@ api_specs:
   label: Vehicle Databases Maintenance API
   slug: vehicle-databases-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-maintenance-api-openapi.yml
 - filename: vehicle-databases-recalls-api-openapi.yml
   format: yaml
   label: Vehicle Databases Recalls API
   slug: vehicle-databases-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-recalls-api-openapi.yml
 - filename: vehicle-databases-services-api-openapi.yml
   format: yaml
   label: Vehicle Databases Services API
   slug: vehicle-databases-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-services-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-services-api-openapi.yml
 - filename: vehicle-databases-tsbs-api-openapi.yml
   format: yaml
   label: Vehicle Databases TSBs API
   slug: vehicle-databases-tsbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-tsbs-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-tsbs-api-openapi.yml
 - filename: vehicle-databases-vehicles-api-openapi.yml
   format: yaml
   label: Vehicle Databases Vehicles API
   slug: vehicle-databases-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/openapi/vehicle-databases-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-databases/openapi/vehicle-databases-vehicles-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vehicle-databases-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /vehicle\n  method: get\n  operationId: lookupVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vin/{vin}\n  method: get\n  operationId: decodeVin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /maintenance/{vehicleId}\n  method: get\n  operationId: getMaintenanceSchedule\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{vehicleId}\n  method: get\n  operationId: listServiceItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recalls/{vehicleId}\n  method: get\n  operationId: getRecalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tsb/{vehicleId}\n  method: get\n  operationId: getTSBs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/agentic-access/vehicle-databases-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vehicle-databases/agentic-access/vehicle-databases-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Automotive

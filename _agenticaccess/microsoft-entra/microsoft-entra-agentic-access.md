@@ -9,25 +9,25 @@ api_specs:
   label: Microsoft Entra Applications API
   slug: microsoft-entra-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-applications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-entra/openapi/microsoft-entra-applications-api-openapi.yml
 - filename: microsoft-entra-groups-api-openapi.yml
   format: yaml
   label: Microsoft Entra Groups API
   slug: microsoft-entra-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-entra/openapi/microsoft-entra-groups-api-openapi.yml
 - filename: microsoft-entra-users-api-openapi.yml
   format: yaml
   label: Microsoft Entra Users API
   slug: microsoft-entra-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-entra/openapi/microsoft-entra-users-api-openapi.yml
 - filename: microsoft-entra-service-principals-api-openapi.yml
   format: yaml
   label: Microsoft Entra Service Principals API
   slug: microsoft-entra-service-principals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-service-principals-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-entra/openapi/microsoft-entra-service-principals-api-openapi.yml
 consequence_counts:
   read: 11
   write: 17
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \  operationId: listServicePrincipals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servicePrincipals\n  method: post\n  operationId: createServicePrincipal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servicePrincipals/{servicePrincipal-id}\n  method: get\n  operationId: getServicePrincipal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servicePrincipals/{servicePrincipal-id}\n  method: patch\n  operationId: updateServicePrincipal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servicePrincipals/{servicePrincipal-id}\n  method: delete\n  operationId: deleteServicePrincipal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servicePrincipals/{servicePrincipal-id}/appRoleAssignments\n  method: get\n  operationId: listServicePrincipalAppRoleAssignments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servicePrincipals/{servicePrincipal-id}/appRoleAssignments\n  method: post\n  operationId: grantServicePrincipalAppRoleAssignment\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/agentic-access/microsoft-entra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-entra/agentic-access/microsoft-entra-agentic-access.yml
 summary_line: 28 operations · 17 acting
 tags:
 - Identity and Access Management

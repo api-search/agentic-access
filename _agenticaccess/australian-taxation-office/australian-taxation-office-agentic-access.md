@@ -9,73 +9,73 @@ api_specs:
   label: Australian Taxation Office API Info API
   slug: australian-taxation-office-apiinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-apiinfo-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-apiinfo-api-openapi.yml
 - filename: australian-taxation-office-combined-global-and-domestic-group-entity-tax-return-api-openapi.yml
   format: yaml
   label: Australian Taxation Office Combined Global and Domestic Group Entity Tax Return API
   slug: australian-taxation-office-combined-global-and-domestic-group-entity-tax-return-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-combined-global-and-domestic-group-entity-tax-return-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-combined-global-and-domestic-group-entity-tax-return-api-openapi.yml
 - filename: australian-taxation-office-combined-global-and-domestic-minimum-tax-return-api-openapi.yml
   format: yaml
   label: Australian Taxation Office Combined Global and Domestic Minimum Tax Return API
   slug: australian-taxation-office-combined-global-and-domestic-minimum-tax-return-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-combined-global-and-domestic-minimum-tax-return-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-combined-global-and-domestic-minimum-tax-return-api-openapi.yml
 - filename: australian-taxation-office-get-payee-stapled-super-fund-for-receipt-api-openapi.yml
   format: yaml
   label: Australian Taxation Office Get Payee Stapled Super Fund for Receipt API
   slug: australian-taxation-office-get-payee-stapled-super-fund-for-receipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-get-payee-stapled-super-fund-for-receipt-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-get-payee-stapled-super-fund-for-receipt-api-openapi.yml
 - filename: australian-taxation-office-get-payment-reference-number-api-openapi.yml
   format: yaml
   label: Australian Taxation Office Get Payment Reference Number API
   slug: australian-taxation-office-get-payment-reference-number-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-get-payment-reference-number-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-get-payment-reference-number-api-openapi.yml
 - filename: australian-taxation-office-gst-property-settlement-date-confirmation-api-openapi.yml
   format: yaml
   label: Australian Taxation Office GST Property Settlement Date Confirmation API
   slug: australian-taxation-office-gst-property-settlement-date-confirmation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-gst-property-settlement-date-confirmation-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-gst-property-settlement-date-confirmation-api-openapi.yml
 - filename: australian-taxation-office-gst-property-settlement-withholding-notification-api-openapi.yml
   format: yaml
   label: Australian Taxation Office GST Property Settlement Withholding Notification API
   slug: australian-taxation-office-gst-property-settlement-withholding-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-gst-property-settlement-withholding-notification-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-gst-property-settlement-withholding-notification-api-openapi.yml
 - filename: australian-taxation-office-heartbeat-api-openapi.yml
   format: yaml
   label: Australian Taxation Office Heartbeat API
   slug: australian-taxation-office-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-heartbeat-api-openapi.yml
 - filename: australian-taxation-office-providers-api-openapi.yml
   format: yaml
   label: Australian Taxation Office Providers API
   slug: australian-taxation-office-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-providers-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-providers-api-openapi.yml
 - filename: australian-taxation-office-register-a-new-software-application-instance-api-openapi.yml
   format: yaml
   label: Australian Taxation Office Register a new software application instance API
   slug: australian-taxation-office-register-a-new-software-application-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-register-a-new-software-application-instance-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-register-a-new-software-application-instance-api-openapi.yml
 - filename: australian-taxation-office-request-stapled-super-fund-for-payee-api-openapi.yml
   format: yaml
   label: Australian Taxation Office Request Stapled Super Fund for Payee API
   slug: australian-taxation-office-request-stapled-super-fund-for-payee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-request-stapled-super-fund-for-payee-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-request-stapled-super-fund-for-payee-api-openapi.yml
 - filename: australian-taxation-office-spec-api-openapi.yml
   format: yaml
   label: Australian Taxation Office Spec API
   slug: australian-taxation-office-spec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/openapi/australian-taxation-office-spec-api-openapi.yml
+  url: https://artifacts.apis.io/australian-taxation-office/openapi/australian-taxation-office-spec-api-openapi.yml
 consequence_counts:
   read: 12
   write: 8
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-10-22'\nmethod: generated\nsource: openapi/austra
   \ DownloadSpecYaml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - ato.healthcheck.*.*\n- path: /\n  method: post\n  operationId: postClientRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: retrievePaymentReferenceNumberFormat4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers\n  method: get\n  operationId: GetProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method:\
   \ get\n  operationId: GetStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /specs/yaml\n  method: get\n  operationId: GetSpecYaml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /specs/spec.yaml\n  method: get\n  operationId: DownloadSpecYaml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: requestStapledSuperFundForPayeeWithAbn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - ato.super.stapledsuperfund.c,r\n\
   - path: /{receipt}\n  method: get\n  operationId: requestStapledSuperFundForPayeeWithReceiptNumberAndAbn\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - ato.super.stapledsuperfund.c,r\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-taxation-office/refs/heads/main/agentic-access/australian-taxation-office-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/australian-taxation-office/agentic-access/australian-taxation-office-agentic-access.yml
 summary_line: 20 operations · 8 acting
 tags:
 - Company

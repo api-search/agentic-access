@@ -9,85 +9,85 @@ api_specs:
   label: HashiCorp Consul ACL API
   slug: consul-acl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-acl-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-acl-api-openapi.yml
 - filename: consul-agent-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Agent API
   slug: consul-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-agent-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-agent-api-openapi.yml
 - filename: consul-catalog-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Catalog API
   slug: consul-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-catalog-api-openapi.yml
 - filename: consul-config-entries-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Config Entries API
   slug: consul-config-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-config-entries-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-config-entries-api-openapi.yml
 - filename: consul-connect-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Connect API
   slug: consul-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-connect-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-connect-api-openapi.yml
 - filename: consul-coordinates-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Coordinates API
   slug: consul-coordinates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-coordinates-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-coordinates-api-openapi.yml
 - filename: consul-events-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Events API
   slug: consul-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-events-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-events-api-openapi.yml
 - filename: consul-health-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Health API
   slug: consul-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-health-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-health-api-openapi.yml
 - filename: consul-kv-store-api-openapi.yml
   format: yaml
   label: HashiCorp Consul KV Store API
   slug: consul-kv-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-kv-store-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-kv-store-api-openapi.yml
 - filename: consul-operator-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Operator API
   slug: consul-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-operator-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-operator-api-openapi.yml
 - filename: consul-sessions-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Sessions API
   slug: consul-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-sessions-api-openapi.yml
 - filename: consul-snapshot-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Snapshot API
   slug: consul-snapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-snapshot-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-snapshot-api-openapi.yml
 - filename: consul-status-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Status API
   slug: consul-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-status-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-status-api-openapi.yml
 - filename: consul-transaction-api-openapi.yml
   format: yaml
   label: HashiCorp Consul Transaction API
   slug: consul-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/consul/openapi/consul-transaction-api-openapi.yml
 consequence_counts:
   read: 33
   write: 25
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/consul
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/info/{sessionID}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/list\n  method: get\n  operationId: listSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coordinate/datacenters\n  method: get\n  operationId: getCoordinateDatacenters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coordinate/nodes\n  method: get\n  operationId: getCoordinateNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/leader\n  method: get\n  operationId: getStatusLeader\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/peers\n  method: get\n  operationId: getStatusPeers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operator/raft/configuration\n  method: get\n  operationId: getRaftConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /txn\n  method: put\n  operationId: executeTxn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /snapshot\n  method: get\n  operationId: getSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /snapshot\n  method: put\n  operationId: restoreSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/agentic-access/consul-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/consul/agentic-access/consul-agentic-access.yml
 summary_line: 58 operations · 25 acting
 tags:
 - ACL

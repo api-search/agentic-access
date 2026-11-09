@@ -9,31 +9,73 @@ api_specs:
   label: AssetFare Capabilities API
   slug: assetfare-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assetfare/refs/heads/main/openapi/assetfare-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-capabilities-api-openapi.yml
 - filename: assetfare-prepare-api-openapi.yml
   format: yaml
   label: AssetFare Prepare API
   slug: assetfare-prepare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assetfare/refs/heads/main/openapi/assetfare-prepare-api-openapi.yml
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-prepare-api-openapi.yml
 - filename: assetfare-quote-api-openapi.yml
   format: yaml
   label: AssetFare Quote API
   slug: assetfare-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assetfare/refs/heads/main/openapi/assetfare-quote-api-openapi.yml
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-quote-api-openapi.yml
 - filename: assetfare-session-api-openapi.yml
   format: yaml
   label: AssetFare Session API
   slug: assetfare-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assetfare/refs/heads/main/openapi/assetfare-session-api-openapi.yml
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-session-api-openapi.yml
 - filename: assetfare-status-api-openapi.yml
   format: yaml
   label: AssetFare Status API
   slug: assetfare-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assetfare/refs/heads/main/openapi/assetfare-status-api-openapi.yml
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-status-api-openapi.yml
+- filename: assetfare-app-store-api-openapi.yml
+  format: yaml
+  label: AssetFare App Store API
+  slug: assetfare-app-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-app-store-api-openapi.yml
+- filename: assetfare-auth-api-openapi.yml
+  format: yaml
+  label: AssetFare Auth API
+  slug: assetfare-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-auth-api-openapi.yml
+- filename: assetfare-events-api-openapi.yml
+  format: yaml
+  label: AssetFare Events API
+  slug: assetfare-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-events-api-openapi.yml
+- filename: assetfare-google-play-api-openapi.yml
+  format: yaml
+  label: AssetFare Google Play API
+  slug: assetfare-google-play-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-google-play-api-openapi.yml
+- filename: assetfare-jobs-api-openapi.yml
+  format: yaml
+  label: AssetFare Jobs API
+  slug: assetfare-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-jobs-api-openapi.yml
+- filename: assetfare-route-selection-api-openapi.yml
+  format: yaml
+  label: AssetFare Route Selection API
+  slug: assetfare-route-selection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-route-selection-api-openapi.yml
+- filename: assetfare-well-known-api-openapi.yml
+  format: yaml
+  label: AssetFare .well Known API
+  slug: assetfare-well-known-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-well-known-api-openapi.yml
 consequence_counts:
   read: 51
   write: 15
@@ -78,7 +120,7 @@ source_yaml: "generated: '2026-10-04'\nmethod: generated\nsource: openapi/assetf
   \ getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/session\n  method: post\n  operationId: createMultichainSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/session/{session_id}\n  method: get\n  operationId: getMultichainSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/session/{session_id}/observe-output\n  method: post\n  operationId: observeOutputReceipt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/session/{session_id}/observe-source\n  method: post\n  operationId: observeSourceReceipt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/session/{session_id}/refresh-action\n  method: post\n  operationId: refreshMultichainAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/status\n  method: get\n  operationId: getMultichainStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /play/suggestions\n  method: get\n  operationId: get_suggests_play_suggestions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/assetfare-manifest.json\n  method: get\n  operationId: getSignedManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assetfare/refs/heads/main/agentic-access/assetfare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/assetfare/agentic-access/assetfare-agentic-access.yml
 summary_line: 66 operations · 15 acting
 tags:
 - AI Agents

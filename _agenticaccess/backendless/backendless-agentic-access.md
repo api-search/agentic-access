@@ -9,49 +9,49 @@ api_specs:
   label: Backendless Cache API
   slug: backendless-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-cache-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-cache-api-openapi.yml
 - filename: backendless-cloudcode-api-openapi.yml
   format: yaml
   label: Backendless CloudCode API
   slug: backendless-cloudcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-cloudcode-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-cloudcode-api-openapi.yml
 - filename: backendless-counters-api-openapi.yml
   format: yaml
   label: Backendless Counters API
   slug: backendless-counters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-counters-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-counters-api-openapi.yml
 - filename: backendless-data-api-openapi.yml
   format: yaml
   label: Backendless Data API
   slug: backendless-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-data-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-data-api-openapi.yml
 - filename: backendless-files-api-openapi.yml
   format: yaml
   label: Backendless Files API
   slug: backendless-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-files-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-files-api-openapi.yml
 - filename: backendless-geo-api-openapi.yml
   format: yaml
   label: Backendless Geo API
   slug: backendless-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-geo-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-geo-api-openapi.yml
 - filename: backendless-messaging-api-openapi.yml
   format: yaml
   label: Backendless Messaging API
   slug: backendless-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-messaging-api-openapi.yml
 - filename: backendless-users-api-openapi.yml
   format: yaml
   label: Backendless Users API
   slug: backendless-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/openapi/backendless-users-api-openapi.yml
+  url: https://artifacts.apis.io/backendless/openapi/backendless-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/backen
   - path: /cache/{key}\n  method: get\n  operationId: cacheGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cache/{key}\n  method: delete\n  operationId: cacheDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cache/{key}/check\n  method: get\n  operationId: cacheContains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /counters/{counter-name}/increment/get\n  method: put\n  operationId: incrementAndGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /counters/{counter-name}/incrementby/get\n  method: put\n  operationId: incrementByAndGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /counters/{counter-name}/get\n  method: get\n  operationId: getCounter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /counters/{counter-name}/reset\n  method: put\n  operationId: resetCounter\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n\
   \      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /services/{service-name}/{method-name}\n  method: post\n  operationId: invokeCloudCodeService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/agentic-access/backendless-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/backendless/agentic-access/backendless-agentic-access.yml
 summary_line: 26 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Backend-as-a-Service

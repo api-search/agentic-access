@@ -9,13 +9,13 @@ api_specs:
   label: Pantry Basket API
   slug: pantry-basket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/openapi/pantry-basket-api-openapi.yml
+  url: https://artifacts.apis.io/pantry/openapi/pantry-basket-api-openapi.yml
 - filename: pantry-pantry-api-openapi.yml
   format: yaml
   label: Pantry API
   slug: pantry-pantry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/openapi/pantry-pantry-api-openapi.yml
+  url: https://artifacts.apis.io/pantry/openapi/pantry-pantry-api-openapi.yml
 consequence_counts:
   read: 3
   write: 6
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pantry
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pantry/{pantryID}\n  method: put\n  operationId: updatePantry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pantry/{pantryID}\n  method: delete\n  operationId: deletePantry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pantry/{pantryID}/basket/{basketName}\n  method: post\n  operationId: createBasket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pantry/{pantryID}/basket/{basketName}\n  method: put\n  operationId: updateBasket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pantry/{pantryID}/basket/{basketName}\n  method: get\n  operationId: getBasket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pantry/{pantryID}/basket/{basketName}\n  method: delete\n  operationId: deleteBasket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pantry/{pantryID}/basket/{basketName}/public\n  method: get\n  operationId: createPublicBasket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/agentic-access/pantry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pantry/agentic-access/pantry-agentic-access.yml
 summary_line: 9 operations · 6 acting
 tags:
 - Data Storage

@@ -9,7 +9,7 @@ api_specs:
   label: Machine Realms Commons API
   slug: machinerealms-com-commons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinerealms-com/refs/heads/main/openapi/machinerealms-com-commons-api-openapi.yml
+  url: https://artifacts.apis.io/machinerealms-com/openapi/machinerealms-com-commons-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/machin
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/commons/quests/{quest_id}\n  method: get\n  operationId: readResearchQuest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/commons/quests/{quest_id}/claim\n  method: post\n  operationId: claimResearchQuest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/commons/quests/{quest_id}/complete\n  method: post\n  operationId: submitQuestEvidence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/commons/credentials/rotate\n  method: post\n  operationId: rotateOwnCommonsCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/commons/credentials/revoke\n  method: post\n  operationId: revokeOwnCommonsCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop:\
   \ required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/machinerealms-com/refs/heads/main/agentic-access/machinerealms-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/machinerealms-com/agentic-access/machinerealms-com-agentic-access.yml
 summary_line: 27 operations · 14 acting · 2 human-in-the-loop
 tags:
 - Agents

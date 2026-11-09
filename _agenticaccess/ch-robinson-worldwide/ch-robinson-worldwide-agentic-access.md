@@ -9,55 +9,55 @@ api_specs:
   label: C.H. Robinson Authentication API
   slug: ch-robinson-worldwide-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-authentication-api-openapi.yml
 - filename: ch-robinson-worldwide-documents-api-openapi.yml
   format: yaml
   label: C.H. Robinson Documents API
   slug: ch-robinson-worldwide-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-documents-api-openapi.yml
 - filename: ch-robinson-worldwide-events-api-openapi.yml
   format: yaml
   label: C.H. Robinson Events API
   slug: ch-robinson-worldwide-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-events-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-events-api-openapi.yml
 - filename: ch-robinson-worldwide-financials-api-openapi.yml
   format: yaml
   label: C.H. Robinson Financials API
   slug: ch-robinson-worldwide-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-financials-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-financials-api-openapi.yml
 - filename: ch-robinson-worldwide-labels-api-openapi.yml
   format: yaml
   label: C.H. Robinson Labels API
   slug: ch-robinson-worldwide-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-labels-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-labels-api-openapi.yml
 - filename: ch-robinson-worldwide-orders-and-booking-api-openapi.yml
   format: yaml
   label: C.H. Robinson Orders and Booking API
   slug: ch-robinson-worldwide-orders-and-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-orders-and-booking-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-orders-and-booking-api-openapi.yml
 - filename: ch-robinson-worldwide-rating-api-openapi.yml
   format: yaml
   label: C.H. Robinson Rating API
   slug: ch-robinson-worldwide-rating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-rating-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-rating-api-openapi.yml
 - filename: ch-robinson-worldwide-shipments-api-openapi.yml
   format: yaml
   label: C.H. Robinson Shipments API
   slug: ch-robinson-worldwide-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-shipments-api-openapi.yml
 - filename: ch-robinson-worldwide-visibility-api-openapi.yml
   format: yaml
   label: C.H. Robinson Visibility API
   slug: ch-robinson-worldwide-visibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-visibility-api-openapi.yml
+  url: https://artifacts.apis.io/ch-robinson-worldwide/openapi/ch-robinson-worldwide-visibility-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 11
@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: generated\nsource: openapi/ch-rob
   \   action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/visibility/shipments\n  method: post\n  operationId: Visibility Shipment Create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/visibility/shipments\n  method: get\n  operationId: Visibility GET Shipments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/visibility/shipments/{shipmentNumber}\n\
   \  method: delete\n  operationId: Visibility Shipment Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/visibility/invoices\n  method: post\n  operationId: Visibility Invoice Create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/visibility/orders\n  method: post\n  operationId: Visibility Order Create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/visibility/milestones\n  method: get\n  operationId: Visibility GET Milestone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/labels\n  method: post\n  operationId: Generate label\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/agentic-access/ch-robinson-worldwide-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ch-robinson-worldwide/agentic-access/ch-robinson-worldwide-agentic-access.yml
 summary_line: 35 operations · 24 acting
 tags:
 - Freight

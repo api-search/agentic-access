@@ -9,61 +9,61 @@ api_specs:
   label: Total System Services Accounts API
   slug: total-system-services-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-accounts-api-openapi.yml
 - filename: total-system-services-authorization-api-openapi.yml
   format: yaml
   label: Total System Services Authorization API
   slug: total-system-services-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-authorization-api-openapi.yml
 - filename: total-system-services-capture-api-openapi.yml
   format: yaml
   label: Total System Services Capture API
   slug: total-system-services-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-capture-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-capture-api-openapi.yml
 - filename: total-system-services-cards-api-openapi.yml
   format: yaml
   label: Total System Services Cards API
   slug: total-system-services-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-cards-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-cards-api-openapi.yml
 - filename: total-system-services-controls-api-openapi.yml
   format: yaml
   label: Total System Services Controls API
   slug: total-system-services-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-controls-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-controls-api-openapi.yml
 - filename: total-system-services-disputes-api-openapi.yml
   format: yaml
   label: Total System Services Disputes API
   slug: total-system-services-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-disputes-api-openapi.yml
 - filename: total-system-services-inquiries-api-openapi.yml
   format: yaml
   label: Total System Services Inquiries API
   slug: total-system-services-inquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-inquiries-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-inquiries-api-openapi.yml
 - filename: total-system-services-refunds-api-openapi.yml
   format: yaml
   label: Total System Services Refunds API
   slug: total-system-services-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-refunds-api-openapi.yml
 - filename: total-system-services-transactions-api-openapi.yml
   format: yaml
   label: Total System Services Transactions API
   slug: total-system-services-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-transactions-api-openapi.yml
 - filename: total-system-services-voids-api-openapi.yml
   format: yaml
   label: Total System Services Voids API
   slug: total-system-services-voids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/openapi/total-system-services-voids-api-openapi.yml
+  url: https://artifacts.apis.io/total-system-services/openapi/total-system-services-voids-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tsys-i
   \ audit: required\n- path: /transactions/sale\n  method: post\n  operationId: processSale\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}/capture\n  method: post\n  operationId: captureTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}/void\n  method: post\n  operationId: voidTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}/refund\n  method: post\n  operationId: refundTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches/current\n\
   \  method: get\n  operationId: getCurrentBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches/current/close\n  method: post\n  operationId: closeCurrentBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/agentic-access/total-system-services-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/total-system-services/agentic-access/total-system-services-agentic-access.yml
 summary_line: 23 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Payments

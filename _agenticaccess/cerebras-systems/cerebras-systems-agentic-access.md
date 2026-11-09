@@ -9,31 +9,31 @@ api_specs:
   label: Cerebras Systems Completions API
   slug: cerebras-systems-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-completions-api-openapi.yml
+  url: https://artifacts.apis.io/cerebras-systems/openapi/cerebras-systems-completions-api-openapi.yml
 - filename: cerebras-systems-models-api-openapi.yml
   format: yaml
   label: Cerebras Systems Models API
   slug: cerebras-systems-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-models-api-openapi.yml
+  url: https://artifacts.apis.io/cerebras-systems/openapi/cerebras-systems-models-api-openapi.yml
 - filename: cerebras-systems-public-models-api-openapi.yml
   format: yaml
   label: Cerebras Systems Public Models API
   slug: cerebras-systems-public-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-public-models-api-openapi.yml
+  url: https://artifacts.apis.io/cerebras-systems/openapi/cerebras-systems-public-models-api-openapi.yml
 - filename: cerebras-systems-tcp-warming-api-openapi.yml
   format: yaml
   label: Cerebras Systems Tcp Warming API
   slug: cerebras-systems-tcp-warming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-tcp-warming-api-openapi.yml
+  url: https://artifacts.apis.io/cerebras-systems/openapi/cerebras-systems-tcp-warming-api-openapi.yml
 - filename: cerebras-systems-chat-completions-api-openapi.yml
   format: yaml
   label: Cerebras Systems Chat Completions API
   slug: cerebras-systems-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/openapi/cerebras-systems-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/cerebras-systems/openapi/cerebras-systems-chat-completions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/cerebras-systems-chat-completions-openapi.yaml, openapi/cerebras-systems-inference-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 3\n    connected: 5\n  by_consequence:\n    write: 3\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/models\n  method:\
   \ get\n  operationId: list_public_models_endpoint_public_v1_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/models/{model_id}\n  method: get\n  operationId: get_public_model_public_v1_models__model_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/chat/completions\n  method: post\n  operationId: chat_v1_chat_completions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/completions\n  method: post\n  operationId: completions_v1_completions_post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models\n  method: get\n  operationId: list_models_v1_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/models/{model_id}\n  method: get\n  operationId: get_model_v1_models__model_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tcp_warming\n  method: get\n  operationId: tcp_warming_v1_tcp_warming_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/agentic-access/cerebras-systems-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cerebras-systems/agentic-access/cerebras-systems-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Company

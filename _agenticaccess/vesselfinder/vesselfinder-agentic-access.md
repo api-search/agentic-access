@@ -9,61 +9,61 @@ api_specs:
   label: VesselFinder Containers API
   slug: vesselfinder-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-containers-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-containers-api-openapi.yml
 - filename: vesselfinder-distance-api-openapi.yml
   format: yaml
   label: VesselFinder Distance API
   slug: vesselfinder-distance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-distance-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-distance-api-openapi.yml
 - filename: vesselfinder-expected-arrivals-api-openapi.yml
   format: yaml
   label: VesselFinder Expected Arrivals API
   slug: vesselfinder-expected-arrivals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-expected-arrivals-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-expected-arrivals-api-openapi.yml
 - filename: vesselfinder-list-manager-api-openapi.yml
   format: yaml
   label: VesselFinder List Manager API
   slug: vesselfinder-list-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-list-manager-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-list-manager-api-openapi.yml
 - filename: vesselfinder-live-data-api-openapi.yml
   format: yaml
   label: VesselFinder Live Data API
   slug: vesselfinder-live-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-live-data-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-live-data-api-openapi.yml
 - filename: vesselfinder-master-data-api-openapi.yml
   format: yaml
   label: VesselFinder Master Data API
   slug: vesselfinder-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-master-data-api-openapi.yml
 - filename: vesselfinder-port-calls-api-openapi.yml
   format: yaml
   label: VesselFinder Port Calls API
   slug: vesselfinder-port-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-port-calls-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-port-calls-api-openapi.yml
 - filename: vesselfinder-status-api-openapi.yml
   format: yaml
   label: VesselFinder Status API
   slug: vesselfinder-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-status-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-status-api-openapi.yml
 - filename: vesselfinder-vessels-api-openapi.yml
   format: yaml
   label: VesselFinder Vessels API
   slug: vesselfinder-vessels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-vessels-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-vessels-api-openapi.yml
 - filename: vesselfinder-vessels-list-api-openapi.yml
   format: yaml
   label: VesselFinder Vessels List API
   slug: vesselfinder-vessels-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/openapi/vesselfinder-vessels-list-api-openapi.yml
+  url: https://artifacts.apis.io/vesselfinder/openapi/vesselfinder-vessels-list-api-openapi.yml
 consequence_counts:
   read: 10
   write: 3
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vessel
   \  audit: none\n- path: /expectedarrivals\n  method: get\n  operationId: getExpectedArrivals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /masterdata\n  method: get\n  operationId: getMasterData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /distance\n  method: get\n  operationId: getDistance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vesselslist\n  method: get\n  operationId: getVesselsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /livedata\n  method: get\n  operationId: getLiveData\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listmanager\n  method: get\n  operationId: getWatchlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listmanager\n  method: post\n  operationId: addWatchlistVessels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listmanager\n  method: put\n  operationId: replaceWatchlistVessels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n   \
   \ subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listmanager\n  method: delete\n  operationId: deleteWatchlistVessels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /container/{apiKey}/{containerNumber}/{sealine}\n  method: get\n  operationId: trackContainer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/agentic-access/vesselfinder-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vesselfinder/agentic-access/vesselfinder-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - AIS

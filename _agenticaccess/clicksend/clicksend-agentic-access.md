@@ -9,61 +9,61 @@ api_specs:
   label: ClickSend Account API
   slug: clicksend-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-account-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-account-api-openapi.yml
 - filename: clicksend-contact-api-openapi.yml
   format: yaml
   label: ClickSend Contact API
   slug: clicksend-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-contact-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-contact-api-openapi.yml
 - filename: clicksend-email-api-openapi.yml
   format: yaml
   label: ClickSend Email API
   slug: clicksend-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-email-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-email-api-openapi.yml
 - filename: clicksend-mms-api-openapi.yml
   format: yaml
   label: ClickSend MMS API
   slug: clicksend-mms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-mms-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-mms-api-openapi.yml
 - filename: clicksend-post-letter-api-openapi.yml
   format: yaml
   label: ClickSend Post Letter API
   slug: clicksend-post-letter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-post-letter-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-post-letter-api-openapi.yml
 - filename: clicksend-post-postcard-api-openapi.yml
   format: yaml
   label: ClickSend Post Postcard API
   slug: clicksend-post-postcard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-post-postcard-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-post-postcard-api-openapi.yml
 - filename: clicksend-receipts-api-openapi.yml
   format: yaml
   label: ClickSend Receipts API
   slug: clicksend-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-receipts-api-openapi.yml
 - filename: clicksend-sms-api-openapi.yml
   format: yaml
   label: ClickSend SMS API
   slug: clicksend-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-sms-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-sms-api-openapi.yml
 - filename: clicksend-voice-api-openapi.yml
   format: yaml
   label: ClickSend Voice API
   slug: clicksend-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-voice-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-voice-api-openapi.yml
 - filename: clicksend-contact-list-api-openapi.yml
   format: yaml
   label: ClickSend Contact List API
   slug: clicksend-contact-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/openapi/clicksend-contact-list-api-openapi.yml
+  url: https://artifacts.apis.io/clicksend/openapi/clicksend-contact-list-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 21
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/clicks
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/price\n  method: post\n  operationId: smsPricePost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/history\n  method: get\n  operationId: smsHistoryGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/{message_id}/cancel\n  method: put\n  operationId: smsCancelPut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /sms/templates\n  method: get\n  operationId: smsTemplatesGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice/send\n  method: post\n  operationId: voiceSendPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voice/price\n  method: post\n  operationId: voicePricePost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voice/lang\n  method: get\n  operationId: voiceLangGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice/{message_id}/cancel\n  method: put\n  operationId: voiceCancelPut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/agentic-access/clicksend-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clicksend/agentic-access/clicksend-agentic-access.yml
 summary_line: 42 operations · 21 acting
 tags:
 - Communications

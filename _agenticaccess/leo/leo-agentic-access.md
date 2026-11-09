@@ -9,13 +9,13 @@ api_specs:
   label: LeO Public API
   slug: leo-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/leo/openapi/leo-prospects-api-openapi.yml
 - filename: leo-health-api-openapi.yml
   format: yaml
   label: LeO Health API
   slug: leo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-health-api-openapi.yml
+  url: https://artifacts.apis.io/leo/openapi/leo-health-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1
@@ -52,7 +52,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/leo-account-api-openapi.yml, openapi/leo-credits-api-openapi.yml, openapi/leo-health-api-openapi.yml,\n  openapi/leo-jobs-api-openapi.yml, openapi/leo-prospects-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 6\n    acting: 1\n  by_consequence:\n    read: 6\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /v1/account\n  method: get\n  operationId: AccountController_getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/credits/balance\n  method: get\n  operationId: CreditsController_getCreditBalance\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: AppController_health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs/{taskId}\n  method: get\n  operationId: JobsController_getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prospects/search\n  method: post\n  operationId: ProspectsController_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prospects/{prospectId}\n  method: get\n  operationId: ProspectsController_getById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prospects/enrich\n  method: post\n  operationId: ProspectsController_enrich\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/agentic-access/leo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/leo/agentic-access/leo-agentic-access.yml
 summary_line: 7 operations · 1 acting · 1 human-in-the-loop
 tags:
 - Company

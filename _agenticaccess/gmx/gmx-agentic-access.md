@@ -9,109 +9,151 @@ api_specs:
   label: GMX Allowances API
   slug: gmx-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-allowances-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-allowances-api-openapi.yml
 - filename: gmx-apy-api-openapi.yml
   format: yaml
   label: GMX APY API
   slug: gmx-apy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-apy-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-apy-api-openapi.yml
 - filename: gmx-balances-api-openapi.yml
   format: yaml
   label: GMX Balances API
   slug: gmx-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-balances-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-balances-api-openapi.yml
 - filename: gmx-gmx-account-api-openapi.yml
   format: yaml
   label: GMX Account API
   slug: gmx-gmx-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-gmx-account-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-gmx-account-api-openapi.yml
 - filename: gmx-jit-api-openapi.yml
   format: yaml
   label: GMX JIT API
   slug: gmx-jit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-jit-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-jit-api-openapi.yml
 - filename: gmx-markets-api-openapi.yml
   format: yaml
   label: GMX Markets API
   slug: gmx-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-markets-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-markets-api-openapi.yml
 - filename: gmx-order-transactions-api-openapi.yml
   format: yaml
   label: GMX Order Transactions API
   slug: gmx-order-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-order-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-order-transactions-api-openapi.yml
 - filename: gmx-orders-api-openapi.yml
   format: yaml
   label: GMX Orders API
   slug: gmx-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-orders-api-openapi.yml
 - filename: gmx-pairs-api-openapi.yml
   format: yaml
   label: GMX Pairs API
   slug: gmx-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-pairs-api-openapi.yml
 - filename: gmx-performance-api-openapi.yml
   format: yaml
   label: GMX Performance API
   slug: gmx-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-performance-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-performance-api-openapi.yml
 - filename: gmx-positions-api-openapi.yml
   format: yaml
   label: GMX Positions API
   slug: gmx-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-positions-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-positions-api-openapi.yml
 - filename: gmx-prices-api-openapi.yml
   format: yaml
   label: GMX Prices API
   slug: gmx-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-prices-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-prices-api-openapi.yml
 - filename: gmx-rates-api-openapi.yml
   format: yaml
   label: GMX Rates API
   slug: gmx-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-rates-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-rates-api-openapi.yml
 - filename: gmx-staking-api-openapi.yml
   format: yaml
   label: GMX Staking API
   slug: gmx-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-staking-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-staking-api-openapi.yml
 - filename: gmx-subaccounts-api-openapi.yml
   format: yaml
   label: GMX Subaccounts API
   slug: gmx-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-subaccounts-api-openapi.yml
 - filename: gmx-tokens-api-openapi.yml
   format: yaml
   label: GMX Tokens API
   slug: gmx-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-tokens-api-openapi.yml
 - filename: gmx-trades-api-openapi.yml
   format: yaml
   label: GMX Trades API
   slug: gmx-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-trades-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-trades-api-openapi.yml
+- filename: gmx-incentives-api-openapi.yml
+  format: yaml
+  label: GMX Incentives API
+  slug: gmx-incentives-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-incentives-api-openapi.yml
+- filename: gmx-paxos-transit-api-openapi.yml
+  format: yaml
+  label: GMX Paxos Transit API
+  slug: gmx-paxos-transit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-paxos-transit-api-openapi.yml
+- filename: gmx-relay-api-openapi.yml
+  format: yaml
+  label: GMX Relay API
+  slug: gmx-relay-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-relay-api-openapi.yml
+- filename: gmx-risk-oracle-api-openapi.yml
+  format: yaml
+  label: GMX Risk Oracle API
+  slug: gmx-risk-oracle-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-risk-oracle-api-openapi.yml
+- filename: gmx-stats-api-openapi.yml
+  format: yaml
+  label: GMX Stats API
+  slug: gmx-stats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-stats-api-openapi.yml
+- filename: gmx-whitelists-api-openapi.yml
+  format: yaml
+  label: GMX Whitelists API
+  slug: gmx-whitelists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-whitelists-api-openapi.yml
+- filename: gmx-yield-api-openapi.yml
+  format: yaml
+  label: GMX Yield API
+  slug: gmx-yield-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-yield-api-openapi.yml
 - filename: gmx-buy-back-api-openapi.yml
   format: yaml
   label: GMX Buy Back API
   slug: gmx-buy-back-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-buy-back-api-openapi.yml
+  url: https://artifacts.apis.io/gmx/openapi/gmx-buy-back-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 26
@@ -200,7 +242,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gmx-al
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /positions/{key}\n  method: get\n  operationId: GetPositionByKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices/ohlcv\n  method: get\n  operationId: GetOhlcv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rates\n  method: get\n  operationId: GetRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /staking/power\n  method: get\n  operationId: GetStakingPower\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subaccounts/status\n  method: post\n  operationId: FetchStatus\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subaccounts/approval/prepare\n  method: post\n  operationId: PrepareApproval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens\n  method: get\n  operationId: GetTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/info\n  method: get\n  operationId: GetTokensInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trades\n  method: get\n  operationId: GetTrades\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trades/search\n  method: post\n  operationId: SearchTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/agentic-access/gmx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gmx/agentic-access/gmx-agentic-access.yml
 summary_line: 37 operations · 11 acting
 tags:
 - DeFi

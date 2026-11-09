@@ -8,49 +8,49 @@ api_specs:
   label: Statorium Games API
   slug: statorium-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-games-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-games-api-openapi.yml
 - filename: statorium-leagues-api-openapi.yml
   format: yaml
   label: Statorium Leagues API
   slug: statorium-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-leagues-api-openapi.yml
 - filename: statorium-matches-api-openapi.yml
   format: yaml
   label: Statorium Matches API
   slug: statorium-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-matches-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-matches-api-openapi.yml
 - filename: statorium-news-api-openapi.yml
   format: yaml
   label: Statorium News API
   slug: statorium-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-news-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-news-api-openapi.yml
 - filename: statorium-players-api-openapi.yml
   format: yaml
   label: Statorium Players API
   slug: statorium-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-players-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-players-api-openapi.yml
 - filename: statorium-seasons-api-openapi.yml
   format: yaml
   label: Statorium Seasons API
   slug: statorium-seasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-seasons-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-seasons-api-openapi.yml
 - filename: statorium-standings-api-openapi.yml
   format: yaml
   label: Statorium Standings API
   slug: statorium-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-standings-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-standings-api-openapi.yml
 - filename: statorium-teams-api-openapi.yml
   format: yaml
   label: Statorium Teams API
   slug: statorium-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-teams-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-teams-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stator
   \ 3600\n    audit: none\n- path: /basketball/teams/{teamId}/\n  method: get\n  operationId: getBasketballTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basketball/players/{playerId}/\n  method: get\n  operationId: getBasketballPlayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leagues/\n  method: get\n  operationId: listLeagues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leagues/{leagueId}/\n  method: get\n  operationId: getLeague\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /seasons/\n  method: get\n  operationId: listSeasons\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matches/\n  method: get\n  operationId: listMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matches/{matchId}/\n  method: get\n  operationId: getMatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{teamId}/\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /players/{playerId}/\n  method:\
   \ get\n  operationId: getPlayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /standings/\n  method: get\n  operationId: getStandings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/agentic-access/statorium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/statorium/agentic-access/statorium-agentic-access.yml
 summary_line: 22 operations
 tags:
 - Sports

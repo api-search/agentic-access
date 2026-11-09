@@ -9,91 +9,91 @@ api_specs:
   label: AskUI Access Tokens API
   slug: askui-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-access-tokens-api-openapi.yml
 - filename: askui-agent-executions-api-openapi.yml
   format: yaml
   label: AskUI Agent Executions API
   slug: askui-agent-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-agent-executions-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-agent-executions-api-openapi.yml
 - filename: askui-agents-api-openapi.yml
   format: yaml
   label: AskUI Agents API
   slug: askui-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-agents-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-agents-api-openapi.yml
 - filename: askui-analytics-api-openapi.yml
   format: yaml
   label: AskUI Analytics API
   slug: askui-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-analytics-api-openapi.yml
 - filename: askui-auth-api-openapi.yml
   format: yaml
   label: AskUI Auth API
   slug: askui-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-auth-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-auth-api-openapi.yml
 - filename: askui-billing-api-openapi.yml
   format: yaml
   label: AskUI Billing API
   slug: askui-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-billing-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-billing-api-openapi.yml
 - filename: askui-dashboard-api-openapi.yml
   format: yaml
   label: AskUI Dashboard API
   slug: askui-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-dashboard-api-openapi.yml
 - filename: askui-files-api-openapi.yml
   format: yaml
   label: AskUI Files API
   slug: askui-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-files-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-files-api-openapi.yml
 - filename: askui-invites-api-openapi.yml
   format: yaml
   label: AskUI Invites API
   slug: askui-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-invites-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-invites-api-openapi.yml
 - filename: askui-runner-jobs-api-openapi.yml
   format: yaml
   label: AskUI Runner Jobs API
   slug: askui-runner-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-runner-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-runner-jobs-api-openapi.yml
 - filename: askui-runs-api-openapi.yml
   format: yaml
   label: AskUI Runs API
   slug: askui-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-runs-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-runs-api-openapi.yml
 - filename: askui-schedules-api-openapi.yml
   format: yaml
   label: AskUI Schedules API
   slug: askui-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-schedules-api-openapi.yml
 - filename: askui-tools-api-openapi.yml
   format: yaml
   label: AskUI Tools API
   slug: askui-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-tools-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-tools-api-openapi.yml
 - filename: askui-workspace-memberships-api-openapi.yml
   format: yaml
   label: AskUI Workspace Memberships API
   slug: askui-workspace-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-workspace-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-workspace-memberships-api-openapi.yml
 - filename: askui-workspaces-api-openapi.yml
   format: yaml
   label: AskUI Workspaces API
   slug: askui-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/openapi/askui-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/askui/openapi/askui-workspaces-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 15
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/askui-
   \    audit: none\n- path: /api/v1/workspaces/{workspace_id}/schedules/{schedule_id}/suspend\n  method: post\n  operationId: suspend_schedule_api_v1_workspaces__workspace_id__schedules__schedule_id__suspend_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/{workspace_id}/schedules\n  method: post\n  operationId: create_schedule_api_v1_workspaces__workspace_id__schedules_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/{workspace_id}/invites\n  method: post\n  operationId: create_invite_api_v1_workspaces__workspace_id__invites_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/{workspace_id}/invites\n  method: get\n  operationId: list_invites_api_v1_workspaces__workspace_id__invites_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/{workspace_id}/invites/{invitation_id}\n  method: put\n  operationId: process_invite_api_v1_workspaces__workspace_id__invites__invitation_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/v1/workspaces/{workspace_id}/invites/{invitation_id}\n  method: delete\n  operationId: revoke_invite_api_v1_workspaces__workspace_id__invites__invitation_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/agentic-access/askui-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/askui/agentic-access/askui-agentic-access.yml
 summary_line: 46 operations · 31 acting · 1 human-in-the-loop
 tags:
 - Company

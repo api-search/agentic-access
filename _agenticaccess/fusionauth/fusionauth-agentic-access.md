@@ -9,223 +9,223 @@ api_specs:
   label: FusionAuth Api Key API
   slug: fusionauth-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-api-key-api-openapi.yml
 - filename: fusionauth-application-api-openapi.yml
   format: yaml
   label: FusionAuth Application API
   slug: fusionauth-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-application-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-application-api-openapi.yml
 - filename: fusionauth-connector-api-openapi.yml
   format: yaml
   label: FusionAuth Connector API
   slug: fusionauth-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-connector-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-connector-api-openapi.yml
 - filename: fusionauth-consent-api-openapi.yml
   format: yaml
   label: FusionAuth Consent API
   slug: fusionauth-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-consent-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-consent-api-openapi.yml
 - filename: fusionauth-email-api-openapi.yml
   format: yaml
   label: FusionAuth Email API
   slug: fusionauth-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-email-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-email-api-openapi.yml
 - filename: fusionauth-entity-api-openapi.yml
   format: yaml
   label: FusionAuth Entity API
   slug: fusionauth-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-entity-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-entity-api-openapi.yml
 - filename: fusionauth-form-api-openapi.yml
   format: yaml
   label: FusionAuth Form API
   slug: fusionauth-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-form-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-form-api-openapi.yml
 - filename: fusionauth-group-api-openapi.yml
   format: yaml
   label: FusionAuth Group API
   slug: fusionauth-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-group-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-group-api-openapi.yml
 - filename: fusionauth-health-api-openapi.yml
   format: yaml
   label: FusionAuth Health API
   slug: fusionauth-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-health-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-health-api-openapi.yml
 - filename: fusionauth-identity-api-openapi.yml
   format: yaml
   label: FusionAuth Identity API
   slug: fusionauth-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-identity-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-identity-api-openapi.yml
 - filename: fusionauth-identity-provider-api-openapi.yml
   format: yaml
   label: FusionAuth Identity Provider API
   slug: fusionauth-identity-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-identity-provider-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-identity-provider-api-openapi.yml
 - filename: fusionauth-integration-api-openapi.yml
   format: yaml
   label: FusionAuth Integration API
   slug: fusionauth-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-integration-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-integration-api-openapi.yml
 - filename: fusionauth-ip-acl-api-openapi.yml
   format: yaml
   label: FusionAuth Ip Acl API
   slug: fusionauth-ip-acl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-ip-acl-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-ip-acl-api-openapi.yml
 - filename: fusionauth-jwt-api-openapi.yml
   format: yaml
   label: FusionAuth Jwt API
   slug: fusionauth-jwt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-jwt-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-jwt-api-openapi.yml
 - filename: fusionauth-key-api-openapi.yml
   format: yaml
   label: FusionAuth Key API
   slug: fusionauth-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-key-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-key-api-openapi.yml
 - filename: fusionauth-lambda-api-openapi.yml
   format: yaml
   label: FusionAuth Lambda API
   slug: fusionauth-lambda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-lambda-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-lambda-api-openapi.yml
 - filename: fusionauth-login-api-openapi.yml
   format: yaml
   label: FusionAuth Login API
   slug: fusionauth-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-login-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-login-api-openapi.yml
 - filename: fusionauth-logout-api-openapi.yml
   format: yaml
   label: FusionAuth Logout API
   slug: fusionauth-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-logout-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-logout-api-openapi.yml
 - filename: fusionauth-message-api-openapi.yml
   format: yaml
   label: FusionAuth Message API
   slug: fusionauth-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-message-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-message-api-openapi.yml
 - filename: fusionauth-messenger-api-openapi.yml
   format: yaml
   label: FusionAuth Messenger API
   slug: fusionauth-messenger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-messenger-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-messenger-api-openapi.yml
 - filename: fusionauth-passwordless-api-openapi.yml
   format: yaml
   label: FusionAuth Passwordless API
   slug: fusionauth-passwordless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-passwordless-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-passwordless-api-openapi.yml
 - filename: fusionauth-reactor-api-openapi.yml
   format: yaml
   label: FusionAuth Reactor API
   slug: fusionauth-reactor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-reactor-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-reactor-api-openapi.yml
 - filename: fusionauth-report-api-openapi.yml
   format: yaml
   label: FusionAuth Report API
   slug: fusionauth-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-report-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-report-api-openapi.yml
 - filename: fusionauth-status-api-openapi.yml
   format: yaml
   label: FusionAuth Status API
   slug: fusionauth-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-status-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-status-api-openapi.yml
 - filename: fusionauth-system-api-openapi.yml
   format: yaml
   label: FusionAuth System API
   slug: fusionauth-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-system-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-system-api-openapi.yml
 - filename: fusionauth-system-configuration-api-openapi.yml
   format: yaml
   label: FusionAuth System Configuration API
   slug: fusionauth-system-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-system-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-system-configuration-api-openapi.yml
 - filename: fusionauth-tenant-api-openapi.yml
   format: yaml
   label: FusionAuth Tenant API
   slug: fusionauth-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-tenant-api-openapi.yml
 - filename: fusionauth-tenant-manager-api-openapi.yml
   format: yaml
   label: FusionAuth Tenant Manager API
   slug: fusionauth-tenant-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-tenant-manager-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-tenant-manager-api-openapi.yml
 - filename: fusionauth-theme-api-openapi.yml
   format: yaml
   label: FusionAuth Theme API
   slug: fusionauth-theme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-theme-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-theme-api-openapi.yml
 - filename: fusionauth-two-factor-api-openapi.yml
   format: yaml
   label: FusionAuth Two Factor API
   slug: fusionauth-two-factor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-two-factor-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-two-factor-api-openapi.yml
 - filename: fusionauth-user-action-api-openapi.yml
   format: yaml
   label: FusionAuth User Action API
   slug: fusionauth-user-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-user-action-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-user-action-api-openapi.yml
 - filename: fusionauth-user-action-reason-api-openapi.yml
   format: yaml
   label: FusionAuth User Action Reason API
   slug: fusionauth-user-action-reason-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-user-action-reason-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-user-action-reason-api-openapi.yml
 - filename: fusionauth-user-api-openapi.yml
   format: yaml
   label: FusionAuth User API
   slug: fusionauth-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-user-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-user-api-openapi.yml
 - filename: fusionauth-webauthn-api-openapi.yml
   format: yaml
   label: FusionAuth Webauthn API
   slug: fusionauth-webauthn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-webauthn-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-webauthn-api-openapi.yml
 - filename: fusionauth-webhook-api-openapi.yml
   format: yaml
   label: FusionAuth Webhook API
   slug: fusionauth-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-webhook-api-openapi.yml
 - filename: fusionauth-well-known-api-openapi.yml
   format: yaml
   label: FusionAuth .well Known API
   slug: fusionauth-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-well-known-api-openapi.yml
 - filename: fusionauth-oauth2-api-openapi.yml
   format: yaml
   label: FusionAuth Oauth2 API
   slug: fusionauth-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/openapi/fusionauth-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/fusionauth/openapi/fusionauth-oauth2-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 105
@@ -359,14 +359,15 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fusion
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/form/{formId}\n  method: get\n  operationId: retrieveFormWithId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/form/{formId}\n  method: put\n  operationId: updateFormWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group/member\n  method: post\n  operationId: createGroupMembersWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group/member\n  method: delete\n  operationId: deleteGroupMembersWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group/member\n  method: put\n  operationId: updateGroupMembersWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group/member/search\n  method: post\n  operationId: searchGroupMembersWithId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/group/search\n  method: post\n  operationId: searchGroupsWithId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/group/{groupId}\n  method: post\n  operationId: createGroupWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group/{groupId}\n\
-  \  method: delete\n  operationId: deleteGroupWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group/{groupId}\n  method: patch\n  operationId: patchGroupWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group/{groupId}\n  method: get\n  operationId: retrieveGroupWithId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (101 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/agentic-access/fusionauth-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/agentic-access/fusionauth-agentic-access.yml
+  \  method: delete\n  operationId: deleteGroupWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group/{groupId}\n  method: patch\n  operationId: patchGroupWithId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/group/{groupId}\n  method: get\n  operationId: retrieveGroupWithId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (101 KB total) ---\n# Full source: https://artifacts.apis.io/fusionauth/agentic-access/fusionauth-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/fusionauth/agentic-access/fusionauth-agentic-access.yml
 summary_line: 322 operations · 217 acting · 9 human-in-the-loop
 tags:
 - Authentication
 - Authorization
 - Identity
 - CIAM
+- OAuth
 - OpenID Connect
 - SSO
 - Multi-Factor Authentication

@@ -9,31 +9,31 @@ api_specs:
   label: Amazon Braket Devices API
   slug: amazon-braket-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-devices-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-braket/openapi/amazon-braket-devices-api-openapi.yml
 - filename: amazon-braket-jobs-api-openapi.yml
   format: yaml
   label: Amazon Braket Jobs API
   slug: amazon-braket-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-braket/openapi/amazon-braket-jobs-api-openapi.yml
 - filename: amazon-braket-quantum-tasks-api-openapi.yml
   format: yaml
   label: Amazon Braket Quantum Tasks API
   slug: amazon-braket-quantum-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-quantum-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-braket/openapi/amazon-braket-quantum-tasks-api-openapi.yml
 - filename: amazon-braket-spending-limits-api-openapi.yml
   format: yaml
   label: Amazon Braket Spending Limits API
   slug: amazon-braket-spending-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-spending-limits-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-braket/openapi/amazon-braket-spending-limits-api-openapi.yml
 - filename: amazon-braket-tags-api-openapi.yml
   format: yaml
   label: Amazon Braket Tags API
   slug: amazon-braket-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-braket/openapi/amazon-braket-tags-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quantum-tasks/search\n  method: post\n  operationId: SearchQuantumTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spending-limit\n  method: post\n  operationId: CreateSpendingLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spending-limits/search\n  method: post\n  operationId: SearchSpendingLimits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /spending-limit/{spendingLimitId}\n  method: delete\n  operationId: DeleteSpendingLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spending-limit/{spendingLimitId}\n  method: patch\n  operationId: UpdateSpendingLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/agentic-access/amazon-braket-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-braket/agentic-access/amazon-braket-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Quantum Computing

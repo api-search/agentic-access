@@ -9,37 +9,37 @@ api_specs:
   label: Tally Forms API
   slug: tally-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-forms-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-forms-api-openapi.yml
 - filename: tally-organization-api-openapi.yml
   format: yaml
   label: Tally Organization API
   slug: tally-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-organization-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-organization-api-openapi.yml
 - filename: tally-submissions-api-openapi.yml
   format: yaml
   label: Tally Submissions API
   slug: tally-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-submissions-api-openapi.yml
 - filename: tally-users-api-openapi.yml
   format: yaml
   label: Tally Users API
   slug: tally-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-users-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-users-api-openapi.yml
 - filename: tally-webhooks-api-openapi.yml
   format: yaml
   label: Tally Webhooks API
   slug: tally-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-webhooks-api-openapi.yml
 - filename: tally-workspaces-api-openapi.yml
   format: yaml
   label: Tally Workspaces API
   slug: tally-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/openapi/tally-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tally/openapi/tally-workspaces-api-openapi.yml
 consequence_counts:
   read: 12
   write: 14
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tally-
   \   audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/events\n  method: get\n  operationId: listWebhookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}/events/{eventId}/retry\n  method: post\n  operationId: retryWebhookEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/agentic-access/tally-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tally/agentic-access/tally-agentic-access.yml
 summary_line: 26 operations · 14 acting
 tags:
 - Forms

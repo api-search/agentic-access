@@ -8,37 +8,37 @@ api_specs:
   label: LifeMine Board API
   slug: lifemine-board-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-board-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-board-api-openapi.yml
 - filename: lifemine-departments-api-openapi.yml
   format: yaml
   label: LifeMine Departments API
   slug: lifemine-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-departments-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-departments-api-openapi.yml
 - filename: lifemine-education-api-openapi.yml
   format: yaml
   label: LifeMine Education API
   slug: lifemine-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-education-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-education-api-openapi.yml
 - filename: lifemine-jobs-api-openapi.yml
   format: yaml
   label: LifeMine Jobs API
   slug: lifemine-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-jobs-api-openapi.yml
 - filename: lifemine-offices-api-openapi.yml
   format: yaml
   label: LifeMine Offices API
   slug: lifemine-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-offices-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-offices-api-openapi.yml
 - filename: lifemine-sections-api-openapi.yml
   format: yaml
   label: LifeMine Sections API
   slug: lifemine-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/openapi/lifemine-sections-api-openapi.yml
+  url: https://artifacts.apis.io/lifemine/openapi/lifemine-sections-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/lifemi
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /departments/{department_id}\n  method: get\n  operationId: getDepartment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /education/degrees\n  method: get\n  operationId: listEducationDegrees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /education/disciplines\n  method: get\n  operationId: listEducationDisciplines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /education/schools\n  method: get\n  operationId: listEducationSchools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{job_id}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offices\n  method: get\n  operationId: listOffices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offices/{office_id}\n  method: get\n  operationId: getOffice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sections\n  method: get\n  operationId: listSections\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sections/{section_id}\n  method: get\n  operationId: getSection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/agentic-access/lifemine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lifemine/agentic-access/lifemine-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: eSIM Go Catalogue API
   slug: esimgo-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/esimgo/openapi/esimgo-catalogue-api-openapi.yml
 - filename: esimgo-esims-api-openapi.yml
   format: yaml
   label: eSIM Go eSIMs API
   slug: esimgo-esims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-esims-api-openapi.yml
+  url: https://artifacts.apis.io/esimgo/openapi/esimgo-esims-api-openapi.yml
 - filename: esimgo-inventory-api-openapi.yml
   format: yaml
   label: eSIM Go Inventory API
   slug: esimgo-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/esimgo/openapi/esimgo-inventory-api-openapi.yml
 - filename: esimgo-networks-api-openapi.yml
   format: yaml
   label: eSIM Go Networks API
   slug: esimgo-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-networks-api-openapi.yml
+  url: https://artifacts.apis.io/esimgo/openapi/esimgo-networks-api-openapi.yml
 - filename: esimgo-orders-api-openapi.yml
   format: yaml
   label: eSIM Go Orders API
   slug: esimgo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/esimgo/openapi/esimgo-orders-api-openapi.yml
 - filename: esimgo-organisation-api-openapi.yml
   format: yaml
   label: eSIM Go Organisation API
   slug: esimgo-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/openapi/esimgo-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/esimgo/openapi/esimgo-organisation-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 16
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/esimgo
   - path: /esims/{iccid}/bundles\n  method: get\n  operationId: listEsimBundles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /esims/{iccid}/bundles/{name}\n  method: get\n  operationId: getEsimBundleStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /esims/{iccid}/bundles/{name}\n  method: delete\n  operationId: revokeEsimBundle\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /esims/{iccid}/compatible-bundle\n  method: get\n  operationId: checkBundleCompatibility\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory\n  method: get\n  operationId: getInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory/refund\n  method: post\n  operationId: refundInventoryBundle\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks\n  method: get\n  operationId: getNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organisation\n  method: get\n  operationId: getOrganisation\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organisation/groups\n  method: get\n  operationId: getBundleGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/agentic-access/esimgo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/esimgo/agentic-access/esimgo-agentic-access.yml
 summary_line: 22 operations · 6 acting · 1 human-in-the-loop
 tags:
 - eSIM

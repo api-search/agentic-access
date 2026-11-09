@@ -9,25 +9,25 @@ api_specs:
   label: Blumira Health API
   slug: blumira-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/openapi/blumira-health-api-openapi.yml
+  url: https://artifacts.apis.io/blumira/openapi/blumira-health-api-openapi.yml
 - filename: blumira-msp-api-openapi.yml
   format: yaml
   label: Blumira Msp API
   slug: blumira-msp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/openapi/blumira-msp-api-openapi.yml
+  url: https://artifacts.apis.io/blumira/openapi/blumira-msp-api-openapi.yml
 - filename: blumira-org-api-openapi.yml
   format: yaml
   label: Blumira Org API
   slug: blumira-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/openapi/blumira-org-api-openapi.yml
+  url: https://artifacts.apis.io/blumira/openapi/blumira-org-api-openapi.yml
 - filename: blumira-resolutions-api-openapi.yml
   format: yaml
   label: Blumira Resolutions API
   slug: blumira-resolutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/openapi/blumira-resolutions-api-openapi.yml
+  url: https://artifacts.apis.io/blumira/openapi/blumira-resolutions-api-openapi.yml
 consequence_counts:
   read: 41
   safety-critical: 18
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-09-29'\nmethod: generated\nsource: openapi/blumir
   \    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /org/webhooks/{id}\n  method: delete\n  operationId: api.controller.webhooks_resource.delete_endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /org/webhooks/{id}\n  method: get\n  operationId: api.controller.webhooks_resource.get_endpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/webhooks/{id}\n  method: put\n  operationId: api.controller.webhooks_resource.update_endpoint\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /org/webhooks/{id}/deliveries\n  method: get\n  operationId: api.controller.webhooks_resource.get_deliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/webhooks/{id}/deliveries/{delivery_id}\n  method: get\n  operationId: api.controller.webhooks_resource.get_delivery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/webhooks/{id}/rotate-secret\n  method: post\n  operationId: api.controller.webhooks_resource.rotate_secret\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /org/webhooks/{id}/test\n  method: post\n  operationId: api.controller.webhooks_resource.test_endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /resolutions\n  method: get\n  operationId: api.controller.resolutions.get_resolutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blumira/refs/heads/main/agentic-access/blumira-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blumira/agentic-access/blumira-agentic-access.yml
 summary_line: 59 operations · 18 acting · 18 human-in-the-loop
 tags:
 - Company

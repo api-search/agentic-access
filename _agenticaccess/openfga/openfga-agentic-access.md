@@ -9,37 +9,37 @@ api_specs:
   label: OpenFGA Assertions API
   slug: openfga-assertions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-assertions-api-openapi.yml
+  url: https://artifacts.apis.io/openfga/openapi/openfga-assertions-api-openapi.yml
 - filename: openfga-authorization-models-api-openapi.yml
   format: yaml
   label: OpenFGA Authorization Models API
   slug: openfga-authorization-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-authorization-models-api-openapi.yml
+  url: https://artifacts.apis.io/openfga/openapi/openfga-authorization-models-api-openapi.yml
 - filename: openfga-authzenservice-api-openapi.yml
   format: yaml
   label: OpenFGA AuthZenService API
   slug: openfga-authzenservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-authzenservice-api-openapi.yml
+  url: https://artifacts.apis.io/openfga/openapi/openfga-authzenservice-api-openapi.yml
 - filename: openfga-relationship-queries-api-openapi.yml
   format: yaml
   label: OpenFGA Relationship Queries API
   slug: openfga-relationship-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-relationship-queries-api-openapi.yml
+  url: https://artifacts.apis.io/openfga/openapi/openfga-relationship-queries-api-openapi.yml
 - filename: openfga-relationship-tuples-api-openapi.yml
   format: yaml
   label: OpenFGA Relationship Tuples API
   slug: openfga-relationship-tuples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-relationship-tuples-api-openapi.yml
+  url: https://artifacts.apis.io/openfga/openapi/openfga-relationship-tuples-api-openapi.yml
 - filename: openfga-stores-api-openapi.yml
   format: yaml
   label: OpenFGA Stores API
   slug: openfga-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/openapi/openfga-stores-api-openapi.yml
+  url: https://artifacts.apis.io/openfga/openapi/openfga-stores-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 10
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/openfg
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{store_id}/streamed-list-objects\n  method: post\n  operationId: StreamedListObjects\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stores/{store_id}/changes\n  method: get\n  operationId: ReadChanges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{store_id}/read\n  method: post\n  operationId: Read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /stores/{store_id}/write\n  method: post\n  operationId: Write\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stores\n  method: get\n  operationId: ListStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores\n  method: post\n  operationId: CreateStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stores/{store_id}\n  method: get\n  operationId:\
   \ GetStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{store_id}\n  method: delete\n  operationId: DeleteStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/agentic-access/openfga-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openfga/agentic-access/openfga-agentic-access.yml
 summary_line: 24 operations · 14 acting
 tags:
 - Access Control

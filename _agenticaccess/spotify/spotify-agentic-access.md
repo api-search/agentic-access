@@ -9,91 +9,91 @@ api_specs:
   label: Spotify Albums API
   slug: spotify-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-albums-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-albums-api-openapi.yml
 - filename: spotify-artists-api-openapi.yml
   format: yaml
   label: Spotify Artists API
   slug: spotify-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-artists-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-artists-api-openapi.yml
 - filename: spotify-audiobooks-api-openapi.yml
   format: yaml
   label: Spotify Audiobooks API
   slug: spotify-audiobooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-audiobooks-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-audiobooks-api-openapi.yml
 - filename: spotify-categories-api-openapi.yml
   format: yaml
   label: Spotify Categories API
   slug: spotify-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-categories-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-categories-api-openapi.yml
 - filename: spotify-chapters-api-openapi.yml
   format: yaml
   label: Spotify Chapters API
   slug: spotify-chapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-chapters-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-chapters-api-openapi.yml
 - filename: spotify-episodes-api-openapi.yml
   format: yaml
   label: Spotify Episodes API
   slug: spotify-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-episodes-api-openapi.yml
 - filename: spotify-genres-api-openapi.yml
   format: yaml
   label: Spotify Genres API
   slug: spotify-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-genres-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-genres-api-openapi.yml
 - filename: spotify-library-api-openapi.yml
   format: yaml
   label: Spotify Library API
   slug: spotify-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-library-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-library-api-openapi.yml
 - filename: spotify-markets-api-openapi.yml
   format: yaml
   label: Spotify Markets API
   slug: spotify-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-markets-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-markets-api-openapi.yml
 - filename: spotify-player-api-openapi.yml
   format: yaml
   label: Spotify Player API
   slug: spotify-player-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-player-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-player-api-openapi.yml
 - filename: spotify-playlists-api-openapi.yml
   format: yaml
   label: Spotify Playlists API
   slug: spotify-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-playlists-api-openapi.yml
 - filename: spotify-search-api-openapi.yml
   format: yaml
   label: Spotify Search API
   slug: spotify-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-search-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-search-api-openapi.yml
 - filename: spotify-shows-api-openapi.yml
   format: yaml
   label: Spotify Shows API
   slug: spotify-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-shows-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-shows-api-openapi.yml
 - filename: spotify-tracks-api-openapi.yml
   format: yaml
   label: Spotify Tracks API
   slug: spotify-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-tracks-api-openapi.yml
 - filename: spotify-users-api-openapi.yml
   format: yaml
   label: Spotify Users API
   slug: spotify-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-users-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-users-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 60
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spotif
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/player/repeat\n  method: put\n  operationId: set-repeat-mode-on-users-playback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - user-modify-playback-state\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/player/volume\n  method: put\n  operationId: set-volume-for-users-playback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - user-modify-playback-state\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /me/player/shuffle\n  method: put\n  operationId: toggle-shuffle-for-users-playback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - user-modify-playback-state\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/player/recently-played\n  method: get\n  operationId: get-recently-played\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user-read-recently-played\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/player/queue\n  method: get\n  operationId: get-queue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user-read-currently-playing\n    - user-read-playback-state\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/player/queue\n\
   \  method: post\n  operationId: add-to-queue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - user-modify-playback-state\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /markets\n  method: get\n  operationId: get-available-markets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/agentic-access/spotify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spotify/agentic-access/spotify-agentic-access.yml
 summary_line: 96 operations · 36 acting
 tags:
 - Music

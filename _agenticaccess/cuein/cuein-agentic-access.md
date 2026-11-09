@@ -9,13 +9,13 @@ api_specs:
   label: Cuein Answers API
   slug: cuein-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-answers-api-openapi.yml
+  url: https://artifacts.apis.io/cuein/openapi/cuein-answers-api-openapi.yml
 - filename: cuein-conversations-api-openapi.yml
   format: yaml
   label: Cuein Conversations API
   slug: cuein-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/cuein/openapi/cuein-conversations-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/cuein-answers-openapi.json, openapi/cuein-insights-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /answer\n  method: get\n  operationId: getAnswer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations\n  method: get\n  operationId: Retrieve insights for multiple conversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /conversations\n  method: delete\n  operationId: Schedule deletion of conversation text for multiple conversations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/meta/lastProcessed\n  method: get\n  operationId: Retrieve the latest processed conversation timestamp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{id}\n  method: get\n  operationId: Retrieve insights for a conversation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/agentic-access/cuein-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cuein/agentic-access/cuein-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Company

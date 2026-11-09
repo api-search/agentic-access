@@ -9,43 +9,43 @@ api_specs:
   label: LearnWorlds Courses API
   slug: learnworlds-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-courses-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-courses-api-openapi.yml
 - filename: learnworlds-enrollments-api-openapi.yml
   format: yaml
   label: LearnWorlds Enrollments API
   slug: learnworlds-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-enrollments-api-openapi.yml
 - filename: learnworlds-payments-api-openapi.yml
   format: yaml
   label: LearnWorlds Payments API
   slug: learnworlds-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-payments-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-payments-api-openapi.yml
 - filename: learnworlds-progress-api-openapi.yml
   format: yaml
   label: LearnWorlds Progress API
   slug: learnworlds-progress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-progress-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-progress-api-openapi.yml
 - filename: learnworlds-tags-api-openapi.yml
   format: yaml
   label: LearnWorlds Tags API
   slug: learnworlds-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-tags-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-tags-api-openapi.yml
 - filename: learnworlds-users-api-openapi.yml
   format: yaml
   label: LearnWorlds Users API
   slug: learnworlds-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-users-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-users-api-openapi.yml
 - filename: learnworlds-webhooks-api-openapi.yml
   format: yaml
   label: LearnWorlds Webhooks API
   slug: learnworlds-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-webhooks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 8
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/learnw
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/tags\n  method: delete\n  operationId: detachUserTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /courses\n  method: get\n  operationId: listCourses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /courses/{id}\n  method: get\n  operationId: getCourse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /courses/{id}/contents\n  method: get\n  operationId: getCourseContents\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/agentic-access/learnworlds-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/learnworlds/agentic-access/learnworlds-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - Online Courses

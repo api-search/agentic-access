@@ -9,25 +9,25 @@ api_specs:
   label: QUODD Snap API
   slug: quodd-snap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/openapi/quodd-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/quodd/openapi/quodd-snapshots-api-openapi.yml
 - filename: quodd-snapshots-api-openapi.yml
   format: yaml
   label: QUODD Batch Snaps API
   slug: quodd-batch-snaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/openapi/quodd-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/quodd/openapi/quodd-snapshots-api-openapi.yml
 - filename: quodd-options-api-openapi.yml
   format: yaml
   label: QUODD Options Snaps API
   slug: quodd-options-snaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/openapi/quodd-options-api-openapi.yml
+  url: https://artifacts.apis.io/quodd/openapi/quodd-options-api-openapi.yml
 - filename: quodd-authentication-api-openapi.yml
   format: yaml
   label: QUODD Authentication Token API
   slug: quodd-authentication-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/openapi/quodd-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/quodd/openapi/quodd-authentication-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/quodd-authentication-api-openapi.yml, openapi/quodd-options-api-openapi.yml,\n  openapi/quodd-snapshots-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 2\n    connected: 6\n  by_consequence:\n    write: 2\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /tokens/trial\n  method: post\n  operationId: createTrialToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/firm\n  method:\
   \ post\n  operationId: createFirmToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /options/snap/{ticker}\n  method: get\n  operationId: getOptionsSnap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /options/snaps\n  method: get\n  operationId: listOptionsSnaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /options/snaps\n  method: post\n  operationId: batchOptionsSnaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /snap/{ticker}\n\
   \  method: get\n  operationId: getSnap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /snaps\n  method: get\n  operationId: listSnaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /snaps\n  method: post\n  operationId: batchSnaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/agentic-access/quodd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quodd/agentic-access/quodd-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
 - Market Data

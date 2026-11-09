@@ -9,31 +9,31 @@ api_specs:
   label: Apache Pinot Cluster API
   slug: apache-pinot-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-cluster-api-openapi.yml
 - filename: apache-pinot-queries-api-openapi.yml
   format: yaml
   label: Apache Pinot Queries API
   slug: apache-pinot-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-queries-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-queries-api-openapi.yml
 - filename: apache-pinot-schemas-api-openapi.yml
   format: yaml
   label: Apache Pinot Schemas API
   slug: apache-pinot-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-schemas-api-openapi.yml
 - filename: apache-pinot-segments-api-openapi.yml
   format: yaml
   label: Apache Pinot Segments API
   slug: apache-pinot-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-segments-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-segments-api-openapi.yml
 - filename: apache-pinot-tables-api-openapi.yml
   format: yaml
   label: Apache Pinot Tables API
   slug: apache-pinot-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-tables-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-tables-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apache
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/sql\n  method: post\n  operationId: querySql\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas\n  method: get\n  operationId: listSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas\n  method: post\n  operationId: addSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schemas/{schemaName}\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/{schemaName}\n  method: delete\n  operationId: deleteSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /segments/{tableName}\n  method: get\n  operationId: listSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables\n  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables\n  method: post\n  operationId: createTable\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{tableName}\n  method: get\n  operationId: getTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables/{tableName}\n  method: delete\n  operationId: deleteTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/agentic-access/apache-pinot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-pinot/agentic-access/apache-pinot-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Analytics

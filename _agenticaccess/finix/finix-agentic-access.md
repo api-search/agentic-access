@@ -9,115 +9,115 @@ api_specs:
   label: Finix Authorizations API
   slug: finix-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-authorizations-api-openapi.yml
 - filename: finix-balance-transfers-api-openapi.yml
   format: yaml
   label: Finix Balance Transfers API
   slug: finix-balance-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-balance-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-balance-transfers-api-openapi.yml
 - filename: finix-compliance-forms-api-openapi.yml
   format: yaml
   label: Finix Compliance Forms API
   slug: finix-compliance-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-compliance-forms-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-compliance-forms-api-openapi.yml
 - filename: finix-devices-api-openapi.yml
   format: yaml
   label: Finix Devices API
   slug: finix-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-devices-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-devices-api-openapi.yml
 - filename: finix-disputes-api-openapi.yml
   format: yaml
   label: Finix Disputes API
   slug: finix-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-disputes-api-openapi.yml
 - filename: finix-fee-profiles-api-openapi.yml
   format: yaml
   label: Finix Fee Profiles API
   slug: finix-fee-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-fee-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-fee-profiles-api-openapi.yml
 - filename: finix-files-api-openapi.yml
   format: yaml
   label: Finix Files API
   slug: finix-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-files-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-files-api-openapi.yml
 - filename: finix-identities-api-openapi.yml
   format: yaml
   label: Finix Identities API
   slug: finix-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-identities-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-identities-api-openapi.yml
 - filename: finix-instrument-updates-api-openapi.yml
   format: yaml
   label: Finix Instrument Updates API
   slug: finix-instrument-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-instrument-updates-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-instrument-updates-api-openapi.yml
 - filename: finix-merchant-profiles-api-openapi.yml
   format: yaml
   label: Finix Merchant Profiles API
   slug: finix-merchant-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-merchant-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-merchant-profiles-api-openapi.yml
 - filename: finix-merchants-api-openapi.yml
   format: yaml
   label: Finix Merchants API
   slug: finix-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-merchants-api-openapi.yml
 - filename: finix-onboarding-forms-api-openapi.yml
   format: yaml
   label: Finix Onboarding Forms API
   slug: finix-onboarding-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-onboarding-forms-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-onboarding-forms-api-openapi.yml
 - filename: finix-payment-instruments-api-openapi.yml
   format: yaml
   label: Finix Payment Instruments API
   slug: finix-payment-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-payment-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-payment-instruments-api-openapi.yml
 - filename: finix-payout-profiles-api-openapi.yml
   format: yaml
   label: Finix Payout Profiles API
   slug: finix-payout-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-payout-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-payout-profiles-api-openapi.yml
 - filename: finix-settlements-api-openapi.yml
   format: yaml
   label: Finix Settlements API
   slug: finix-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-settlements-api-openapi.yml
 - filename: finix-split-transfers-api-openapi.yml
   format: yaml
   label: Finix Split Transfers API
   slug: finix-split-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-split-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-split-transfers-api-openapi.yml
 - filename: finix-transfers-api-openapi.yml
   format: yaml
   label: Finix Transfers API
   slug: finix-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-transfers-api-openapi.yml
 - filename: finix-verifications-api-openapi.yml
   format: yaml
   label: Finix Verifications API
   slug: finix-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-verifications-api-openapi.yml
 - filename: finix-webhooks-api-openapi.yml
   format: yaml
   label: Finix Webhooks API
   slug: finix-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/openapi/finix-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/finix/openapi/finix-webhooks-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 52
@@ -222,7 +222,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/finix-
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /payout_profiles/{payout_profile_id}\n  method: put\n  operationId: updatePayoutProfileRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchants/{merchant_id}/payout_profile\n  method: get\n  operationId: fetchPayoutProfilesbyMerchant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disputes/{dispute_id}/submit\n  method: post\n  operationId: submitDisputeEvidence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /disputes/{dispute_id}/accept\n  method: post\n  operationId: acceptDispute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /disputes/{dispute_id}/evidence/{evidence_id}/download\n  method: get\n  operationId: downloadDisputeEvidence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /split_transfers/{split_transfer_id}\n  method: get\n  operationId: getSplitTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /split_transfers/{split_transfer_id}/fees\n\
   \  method: get\n  operationId: getSplitTransferFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /split_transfers\n  method: get\n  operationId: listSplitTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/agentic-access/finix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/finix/agentic-access/finix-agentic-access.yml
 summary_line: 91 operations · 39 acting
 tags:
 - Company

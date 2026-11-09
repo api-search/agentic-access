@@ -9,43 +9,43 @@ api_specs:
   label: Synthesia Assets API
   slug: synthesia-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-assets-api-openapi.yml
+  url: https://artifacts.apis.io/synthesia/openapi/synthesia-assets-api-openapi.yml
 - filename: synthesia-dubbing-api-openapi.yml
   format: yaml
   label: Synthesia Dubbing API
   slug: synthesia-dubbing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-dubbing-api-openapi.yml
+  url: https://artifacts.apis.io/synthesia/openapi/synthesia-dubbing-api-openapi.yml
 - filename: synthesia-templates-api-openapi.yml
   format: yaml
   label: Synthesia Templates API
   slug: synthesia-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-templates-api-openapi.yml
+  url: https://artifacts.apis.io/synthesia/openapi/synthesia-templates-api-openapi.yml
 - filename: synthesia-translations-api-openapi.yml
   format: yaml
   label: Synthesia Translations API
   slug: synthesia-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-translations-api-openapi.yml
+  url: https://artifacts.apis.io/synthesia/openapi/synthesia-translations-api-openapi.yml
 - filename: synthesia-videos-api-openapi.yml
   format: yaml
   label: Synthesia Videos API
   slug: synthesia-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-videos-api-openapi.yml
+  url: https://artifacts.apis.io/synthesia/openapi/synthesia-videos-api-openapi.yml
 - filename: synthesia-webhooks-api-openapi.yml
   format: yaml
   label: Synthesia Webhooks API
   slug: synthesia-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/synthesia/openapi/synthesia-webhooks-api-openapi.yml
 - filename: synthesia-audit-logs-api-openapi.yml
   format: yaml
   label: Synthesia Audit Logs API
   slug: synthesia-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/synthesia/openapi/synthesia-audit-logs-api-openapi.yml
 consequence_counts:
   read: 15
   write: 13
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/synthe
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/{videoId}\n  method: patch\n  operationId: updateVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{videoId}\n  method: delete\n  operationId: deleteVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{videoId}/thumbnail\n  method: get\n  operationId: getVideoThumbnail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /videos/{videoId}/thumbnail.gif\n  method: get\n  operationId: getVideoThumbnailGif\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/from-template\n  method: post\n  operationId: createVideoFromTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/agentic-access/synthesia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/synthesia/agentic-access/synthesia-agentic-access.yml
 summary_line: 28 operations · 13 acting
 tags:
 - Artificial Intelligence

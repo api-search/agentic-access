@@ -9,13 +9,13 @@ api_specs:
   label: Amazon Data Lifecycle Manager Lifecycle Policies API
   slug: amazon-data-lifecycle-manager-lifecycle-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/openapi/amazon-data-lifecycle-manager-lifecycle-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-lifecycle-manager/openapi/amazon-data-lifecycle-manager-lifecycle-policies-api-openapi.yml
 - filename: amazon-data-lifecycle-manager-tags-api-openapi.yml
   format: yaml
   label: Amazon Data Lifecycle Manager Tags API
   slug: amazon-data-lifecycle-manager-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/openapi/amazon-data-lifecycle-manager-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-lifecycle-manager/openapi/amazon-data-lifecycle-manager-tags-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -44,9 +44,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-data-lifecycle-manager-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 3\n    acting: 5\n  by_consequence:\n    read: 3\n    write: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /policies\n  method: get\n  operationId: getLifecyclePolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies\n  method: post\n  operationId: createLifecyclePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policies/{policyId}\n  method: get\n  operationId: getLifecyclePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/{policyId}\n  method: patch\n  operationId: updateLifecyclePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policies/{policyId}\n  method: delete\n  operationId: deleteLifecyclePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: delete\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/agentic-access/amazon-data-lifecycle-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-data-lifecycle-manager/agentic-access/amazon-data-lifecycle-manager-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
+- Amazon Web Services
 - Backup
 - EBS Snapshots
 - Lifecycle Management

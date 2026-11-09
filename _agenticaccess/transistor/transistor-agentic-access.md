@@ -9,37 +9,37 @@ api_specs:
   label: Transistor Account API
   slug: transistor-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-account-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-account-api-openapi.yml
 - filename: transistor-analytics-api-openapi.yml
   format: yaml
   label: Transistor Analytics API
   slug: transistor-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-analytics-api-openapi.yml
 - filename: transistor-episodes-api-openapi.yml
   format: yaml
   label: Transistor Episodes API
   slug: transistor-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-episodes-api-openapi.yml
 - filename: transistor-shows-api-openapi.yml
   format: yaml
   label: Transistor Shows API
   slug: transistor-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-shows-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-shows-api-openapi.yml
 - filename: transistor-subscribers-api-openapi.yml
   format: yaml
   label: Transistor Subscribers API
   slug: transistor-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-subscribers-api-openapi.yml
 - filename: transistor-webhooks-api-openapi.yml
   format: yaml
   label: Transistor Webhooks API
   slug: transistor-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-webhooks-api-openapi.yml
 consequence_counts:
   read: 12
   write: 11
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/transi
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscribers\n  method: post\n  operationId: createSubscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers\n  method: delete\n  operationId: deleteSubscriberByEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/batch\n  method: post\n  operationId: batchCreateSubscribers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/{id}\n  method: get\n  operationId: getSubscriber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscribers/{id}\n  method: patch\n  operationId: updateSubscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/{id}\n  method: delete\n  operationId: deleteSubscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/agentic-access/transistor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/transistor/agentic-access/transistor-agentic-access.yml
 summary_line: 23 operations · 11 acting
 tags:
 - Podcasts

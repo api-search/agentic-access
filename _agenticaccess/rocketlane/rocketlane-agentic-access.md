@@ -9,79 +9,79 @@ api_specs:
   label: Rocketlane Comments API
   slug: rocketlane-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-comments-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-comments-api-openapi.yml
 - filename: rocketlane-conversations-api-openapi.yml
   format: yaml
   label: Rocketlane Conversations API
   slug: rocketlane-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-conversations-api-openapi.yml
 - filename: rocketlane-fields-api-openapi.yml
   format: yaml
   label: Rocketlane Fields API
   slug: rocketlane-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-fields-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-fields-api-openapi.yml
 - filename: rocketlane-invoices-api-openapi.yml
   format: yaml
   label: Rocketlane Invoices API
   slug: rocketlane-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-invoices-api-openapi.yml
 - filename: rocketlane-phases-api-openapi.yml
   format: yaml
   label: Rocketlane Phases API
   slug: rocketlane-phases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-phases-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-phases-api-openapi.yml
 - filename: rocketlane-projects-api-openapi.yml
   format: yaml
   label: Rocketlane Projects API
   slug: rocketlane-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-projects-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-projects-api-openapi.yml
 - filename: rocketlane-resource-allocations-api-openapi.yml
   format: yaml
   label: Rocketlane Resource Allocations API
   slug: rocketlane-resource-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-resource-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-resource-allocations-api-openapi.yml
 - filename: rocketlane-space-documents-api-openapi.yml
   format: yaml
   label: Rocketlane Space Documents API
   slug: rocketlane-space-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-space-documents-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-space-documents-api-openapi.yml
 - filename: rocketlane-spaces-api-openapi.yml
   format: yaml
   label: Rocketlane Spaces API
   slug: rocketlane-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-spaces-api-openapi.yml
 - filename: rocketlane-tasks-api-openapi.yml
   format: yaml
   label: Rocketlane Tasks API
   slug: rocketlane-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-tasks-api-openapi.yml
 - filename: rocketlane-time-offs-api-openapi.yml
   format: yaml
   label: Rocketlane Time-Offs API
   slug: rocketlane-time-offs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-time-offs-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-time-offs-api-openapi.yml
 - filename: rocketlane-time-tracking-api-openapi.yml
   format: yaml
   label: Rocketlane Time Tracking API
   slug: rocketlane-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-time-tracking-api-openapi.yml
 - filename: rocketlane-users-api-openapi.yml
   format: yaml
   label: Rocketlane Users API
   slug: rocketlane-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-users-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-users-api-openapi.yml
 consequence_counts:
   read: 30
   write: 46
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rocket
   \      - high-value\n    audit: required\n    scope:\n    - 'read : write'\n- path: /1.0/time-entries/{timeEntryId}\n  method: delete\n  operationId: delete-time-entry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - 'read : write'\n- path: /1.0/time-entries\n  method: get\n  operationId: get-all-time-entries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - 'read : write'\n- path: /1.0/time-entries\n  method: post\n  operationId: create-time-entry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - 'read : write'\n- path: /1.0/time-entries/search\n  method: get\n  operationId: search-time-entries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - 'read : write'\n- path: /1.0/time-entries/categories\n  method: get\n  operationId: get-time-entry-categories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - 'read : write'\n- path: /1.0/users/{userId}\n  method: get\n  operationId: get-user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - 'read : write'\n- path: /1.0/users\n  method: get\n  operationId: get-all-users\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - 'read : write'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/agentic-access/rocketlane-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rocketlane/agentic-access/rocketlane-agentic-access.yml
 summary_line: 76 operations · 46 acting
 tags:
 - Company

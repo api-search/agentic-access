@@ -9,25 +9,25 @@ api_specs:
   label: Subbly Cart API
   slug: subbly-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-cart-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-cart-api-openapi.yml
 - filename: subbly-customers-api-openapi.yml
   format: yaml
   label: Subbly Customers API
   slug: subbly-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-customers-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-customers-api-openapi.yml
 - filename: subbly-products-api-openapi.yml
   format: yaml
   label: Subbly Products API
   slug: subbly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-products-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-products-api-openapi.yml
 - filename: subbly-subscriptions-api-openapi.yml
   format: yaml
   label: Subbly Subscriptions API
   slug: subbly-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/subbly
   \ authenticateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{id}\n  method: patch\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}/addresses\n  method: get\n  operationId: listCustomerAddresses\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{id}/addresses\n  method: post\n  operationId: createCustomerAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}/payment-methods\n  method: get\n  operationId: listCustomerPaymentMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{id}\n  method: get\n  operationId: getSubscription\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{id}\n  method: patch\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/agentic-access/subbly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/subbly/agentic-access/subbly-agentic-access.yml
 summary_line: 21 operations · 10 acting
 tags:
 - Subscription

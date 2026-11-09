@@ -9,19 +9,19 @@ api_specs:
   label: Google Forms API
   slug: google-forms-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-forms-api-openapi.yml
+  url: https://artifacts.apis.io/google-forms/openapi/google-forms-forms-api-openapi.yml
 - filename: google-forms-responses-api-openapi.yml
   format: yaml
   label: Google Forms Responses API
   slug: google-forms-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-responses-api-openapi.yml
+  url: https://artifacts.apis.io/google-forms/openapi/google-forms-responses-api-openapi.yml
 - filename: google-forms-watches-api-openapi.yml
   format: yaml
   label: Google Forms Watches API
   slug: google-forms-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-watches-api-openapi.yml
+  url: https://artifacts.apis.io/google-forms/openapi/google-forms-watches-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/forms/{formId}:batchUpdate\n  method: post\n  operationId: batchUpdateForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/forms/{formId}:setPublishSettings\n  method: post\n  operationId: setPublishSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/forms/{formId}/responses\n  method: get\n  operationId: listFormResponses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/forms/{formId}/responses/{responseId}\n  method: get\n  operationId: getFormResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/forms/{formId}/watches\n  method: post\n  operationId: createWatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/forms/{formId}/watches\n  method: get\n  operationId: listWatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/forms/{formId}/watches/{watchId}\n  method: delete\n  operationId: deleteWatch\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/forms/{formId}/watches/{watchId}:renew\n  method: post\n  operationId: renewWatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/agentic-access/google-forms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-forms/agentic-access/google-forms-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Data Collection

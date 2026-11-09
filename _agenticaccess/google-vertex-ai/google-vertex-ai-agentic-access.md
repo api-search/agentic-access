@@ -9,31 +9,31 @@ api_specs:
   label: Google Vertex AI Datasets API
   slug: google-vertex-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-datasets-api-openapi.yml
 - filename: google-vertex-ai-endpoints-api-openapi.yml
   format: yaml
   label: Google Vertex AI Endpoints API
   slug: google-vertex-ai-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-endpoints-api-openapi.yml
 - filename: google-vertex-ai-models-api-openapi.yml
   format: yaml
   label: Google Vertex AI Models API
   slug: google-vertex-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-models-api-openapi.yml
 - filename: google-vertex-ai-predictions-api-openapi.yml
   format: yaml
   label: Google Vertex AI Predictions API
   slug: google-vertex-ai-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-predictions-api-openapi.yml
 - filename: google-vertex-ai-trainingpipelines-api-openapi.yml
   format: yaml
   label: Google Vertex AI TrainingPipelines API
   slug: google-vertex-ai-trainingpipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-trainingpipelines-api-openapi.yml
+  url: https://artifacts.apis.io/google-vertex-ai/openapi/google-vertex-ai-trainingpipelines-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/models/{model}\n  method: delete\n  operationId: deleteModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/endpoints\n  method: get\n  operationId: listEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/endpoints\n  method: post\n  operationId:\
   \ createEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/endpoints/{endpoint}:predict\n  method: post\n  operationId: predict\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/trainingPipelines\n  method: get\n  operationId: listTrainingPipelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/agentic-access/google-vertex-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-vertex-ai/agentic-access/google-vertex-ai-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Artificial Intelligence

@@ -9,25 +9,25 @@ api_specs:
   label: Cataas Admin API
   slug: cataas-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-admin-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-admin-api-openapi.yml
 - filename: cataas-catalog-api-openapi.yml
   format: yaml
   label: Cataas Catalog API
   slug: cataas-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-catalog-api-openapi.yml
 - filename: cataas-cats-api-openapi.yml
   format: yaml
   label: Cataas Cats API
   slug: cataas-cats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-cats-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-cats-api-openapi.yml
 - filename: cataas-upload-api-openapi.yml
   format: yaml
   label: Cataas Upload API
   slug: cataas-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/openapi/cataas-upload-api-openapi.yml
+  url: https://artifacts.apis.io/cataas/openapi/cataas-upload-api-openapi.yml
 consequence_counts:
   read: 11
   write: 4
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cataas
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /api/cats\n  method: get\n  operationId: listCats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/count\n  method: get\n  operationId: getCatCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upload\n  method: post\n  operationId: uploadCat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /admin/cats\n  method: get\n  operationId: adminListCats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/cats/{id}\n  method: put\n  operationId: adminValidateCat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/cats/{id}\n  method: patch\n  operationId: adminEditCat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/cats/{id}\n  method: delete\n  operationId: adminDeleteCat\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/agentic-access/cataas-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cataas/agentic-access/cataas-agentic-access.yml
 summary_line: 15 operations · 4 acting
 tags:
 - Animals

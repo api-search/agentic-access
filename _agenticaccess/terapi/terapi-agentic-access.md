@@ -9,31 +9,31 @@ api_specs:
   label: Terapi Actions API
   slug: terapi-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-actions-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-actions-api-openapi.yml
 - filename: terapi-authentication-api-openapi.yml
   format: yaml
   label: Terapi Authentication API
   slug: terapi-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-authentication-api-openapi.yml
 - filename: terapi-connections-api-openapi.yml
   format: yaml
   label: Terapi Connections API
   slug: terapi-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-connections-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-connections-api-openapi.yml
 - filename: terapi-integrations-api-openapi.yml
   format: yaml
   label: Terapi Integrations API
   slug: terapi-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-integrations-api-openapi.yml
 - filename: terapi-sync-api-openapi.yml
   format: yaml
   label: Terapi Sync API
   slug: terapi-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-sync-api-openapi.yml
+  url: https://artifacts.apis.io/terapi/openapi/terapi-sync-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/terapi
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/{provider_config_key}\n  method: get\n  operationId: getIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integration/{provider_config_key}\n  method: delete\n  operationId: deleteIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sync/trigger\n  method: post\n  operationId: triggerSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sync/{connection_id}/{sync_name}\n  method: get\n  operationId: getSyncStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/trigger\n  method: post\n  operationId: triggerAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/token/{provider_config_key}/{connection_id}\n  method: get\n  operationId: getAuthToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/agentic-access/terapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/terapi/agentic-access/terapi-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Authentication

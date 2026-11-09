@@ -9,181 +9,181 @@ api_specs:
   label: Nash AI Functions API
   slug: nash-ai-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-ai-functions-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-ai-functions-api-openapi.yml
 - filename: nash-annotate-api-openapi.yml
   format: yaml
   label: Nash Annotate API
   slug: nash-annotate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-annotate-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-annotate-api-openapi.yml
 - filename: nash-batch-job-api-openapi.yml
   format: yaml
   label: Nash Batch Job API
   slug: nash-batch-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-batch-job-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-batch-job-api-openapi.yml
 - filename: nash-contracts-api-openapi.yml
   format: yaml
   label: Nash Contracts API
   slug: nash-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-contracts-api-openapi.yml
 - filename: nash-couriers-api-openapi.yml
   format: yaml
   label: Nash Couriers API
   slug: nash-couriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-couriers-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-couriers-api-openapi.yml
 - filename: nash-delivery-windows-api-openapi.yml
   format: yaml
   label: Nash Delivery Windows API
   slug: nash-delivery-windows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-delivery-windows-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-delivery-windows-api-openapi.yml
 - filename: nash-dispatch-strategies-api-openapi.yml
   format: yaml
   label: Nash Dispatch Strategies API
   slug: nash-dispatch-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-dispatch-strategies-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-dispatch-strategies-api-openapi.yml
 - filename: nash-feedback-api-openapi.yml
   format: yaml
   label: Nash Feedback API
   slug: nash-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-feedback-api-openapi.yml
 - filename: nash-fleet-api-openapi.yml
   format: yaml
   label: Nash Fleet API
   slug: nash-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-fleet-api-openapi.yml
 - filename: nash-job-api-openapi.yml
   format: yaml
   label: Nash Job API
   slug: nash-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-job-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-job-api-openapi.yml
 - filename: nash-messaging-api-openapi.yml
   format: yaml
   label: Nash Messaging API
   slug: nash-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-messaging-api-openapi.yml
 - filename: nash-miscellaneous-api-openapi.yml
   format: yaml
   label: Nash Miscellaneous API
   slug: nash-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-miscellaneous-api-openapi.yml
 - filename: nash-notifications-api-openapi.yml
   format: yaml
   label: Nash Notifications API
   slug: nash-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-notifications-api-openapi.yml
 - filename: nash-optimization-strategies-api-openapi.yml
   format: yaml
   label: Nash Optimization Strategies API
   slug: nash-optimization-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-optimization-strategies-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-optimization-strategies-api-openapi.yml
 - filename: nash-order-api-openapi.yml
   format: yaml
   label: Nash Order API
   slug: nash-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-order-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-order-api-openapi.yml
 - filename: nash-organizations-api-openapi.yml
   format: yaml
   label: Nash Organizations API
   slug: nash-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-organizations-api-openapi.yml
 - filename: nash-provider-api-openapi.yml
   format: yaml
   label: Nash Provider API
   slug: nash-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-provider-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-provider-api-openapi.yml
 - filename: nash-route-api-openapi.yml
   format: yaml
   label: Nash Route API
   slug: nash-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-route-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-route-api-openapi.yml
 - filename: nash-route-restrictions-api-openapi.yml
   format: yaml
   label: Nash Route Restrictions API
   slug: nash-route-restrictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-route-restrictions-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-route-restrictions-api-openapi.yml
 - filename: nash-shifts-api-openapi.yml
   format: yaml
   label: Nash Shifts API
   slug: nash-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-shifts-api-openapi.yml
 - filename: nash-shipping-api-openapi.yml
   format: yaml
   label: Nash Shipping API
   slug: nash-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-shipping-api-openapi.yml
 - filename: nash-store-catalog-api-openapi.yml
   format: yaml
   label: Nash Store Catalog API
   slug: nash-store-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-store-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-store-catalog-api-openapi.yml
 - filename: nash-store-locations-api-openapi.yml
   format: yaml
   label: Nash Store Locations API
   slug: nash-store-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-store-locations-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-store-locations-api-openapi.yml
 - filename: nash-templates-api-openapi.yml
   format: yaml
   label: Nash Templates API
   slug: nash-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-templates-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-templates-api-openapi.yml
 - filename: nash-users-api-openapi.yml
   format: yaml
   label: Nash Users API
   slug: nash-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-users-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-users-api-openapi.yml
 - filename: nash-vehicles-api-openapi.yml
   format: yaml
   label: Nash Vehicles API
   slug: nash-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-vehicles-api-openapi.yml
 - filename: nash-webhooks-api-openapi.yml
   format: yaml
   label: Nash Webhooks API
   slug: nash-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-webhooks-api-openapi.yml
 - filename: nash-workflow-api-openapi.yml
   format: yaml
   label: Nash Workflow API
   slug: nash-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-workflow-api-openapi.yml
 - filename: nash-workflow-execution-api-openapi.yml
   format: yaml
   label: Nash Workflow Execution API
   slug: nash-workflow-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-workflow-execution-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-workflow-execution-api-openapi.yml
 - filename: nash-zones-api-openapi.yml
   format: yaml
   label: Nash Zones API
   slug: nash-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/openapi/nash-zones-api-openapi.yml
+  url: https://artifacts.apis.io/nash/openapi/nash-zones-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 57
@@ -372,8 +372,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nash-a
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/order/external-identifier/{externalId}/autodispatch\n  method: post\n  operationId: autodispatch_order_by_external_id_v1_order_external_identifier__string_externalId__autodispatch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/order/external-identifier/{externalId}/delivery-window\n  method: post\n  operationId: upsert_order_with_delivery_window_v1_order_external_identifier__string_externalId__delivery_window_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n\
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/order/get_quotes\n  method: post\n  operationId: get_order_quotes_v1_order_get_quotes_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/order/refresh_quotes\n  method: post\n  operationId: refresh_order_quotes_v1_order_refresh_quotes_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/order/{id}\n  method: get\n  operationId: get_order_v1_order__string_id__get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/order/{id}\n  method: delete\n  operationId: archive_order_v1_order__string_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/order/{id}\n  method: patch\n  operationId: update_order_v1_order__string_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/order/{id}/autodispatch\n  method:\
-  \ post\n  operationId: autodispatch_order_v1_order__string_id__autodispatch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (61 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/agentic-access/nash-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/agentic-access/nash-agentic-access.yml
+  \ post\n  operationId: autodispatch_order_v1_order__string_id__autodispatch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (61 KB total) ---\n# Full source: https://artifacts.apis.io/nash/agentic-access/nash-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/nash/agentic-access/nash-agentic-access.yml
 summary_line: 173 operations · 116 acting · 16 human-in-the-loop
 tags:
 - Company

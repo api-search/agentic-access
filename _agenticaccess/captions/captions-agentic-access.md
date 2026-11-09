@@ -9,73 +9,73 @@ api_specs:
   label: Captions Audio API
   slug: captions-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-audio-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-audio-api-openapi.yml
 - filename: captions-health-api-openapi.yml
   format: yaml
   label: Captions Health API
   slug: captions-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-health-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-health-api-openapi.yml
 - filename: captions-internal-api-openapi.yml
   format: yaml
   label: Captions Internal API
   slug: captions-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-internal-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-internal-api-openapi.yml
 - filename: captions-meta-text-overlays-api-openapi.yml
   format: yaml
   label: Captions Meta Text Overlays API
   slug: captions-meta-text-overlays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-meta-text-overlays-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-meta-text-overlays-api-openapi.yml
 - filename: captions-root-api-openapi.yml
   format: yaml
   label: Captions Root API
   slug: captions-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-root-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-root-api-openapi.yml
 - filename: captions-video-captions-api-openapi.yml
   format: yaml
   label: Captions Video Captions API
   slug: captions-video-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-video-captions-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-video-captions-api-openapi.yml
 - filename: captions-videos-api-openapi.yml
   format: yaml
   label: Captions Videos API
   slug: captions-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-videos-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-videos-api-openapi.yml
 - filename: captions-ai-ads-api-openapi.yml
   format: yaml
   label: Captions AI Ads API
   slug: captions-ai-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-ai-ads-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-ai-ads-api-openapi.yml
 - filename: captions-ai-creator-api-openapi.yml
   format: yaml
   label: Captions AI Creator API
   slug: captions-ai-creator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-ai-creator-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-ai-creator-api-openapi.yml
 - filename: captions-catalog-api-openapi.yml
   format: yaml
   label: Captions Catalog API
   slug: captions-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-catalog-api-openapi.yml
 - filename: captions-internal-fal-api-openapi.yml
   format: yaml
   label: Captions Internal Fal API
   slug: captions-internal-fal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-internal-fal-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-internal-fal-api-openapi.yml
 - filename: captions-videos-v2-api-openapi.yml
   format: yaml
   label: Captions Videos v2 API
   slug: captions-videos-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-videos-v2-api-openapi.yml
+  url: https://artifacts.apis.io/captions/openapi/captions-videos-v2-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 5
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/captio
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /internal/rate-limits/overrides/{identifier}\n  method: get\n  operationId: get_rate_limit_override_internal_rate_limits_overrides__identifier__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /internal/rate-limits/overrides/{identifier}\n  method: put\n  operationId: update_rate_limit_override_internal_rate_limits_overrides__identifier__put\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /internal/rate-limits/overrides/{identifier}\n  method: delete\n  operationId:\
   \ delete_rate_limit_override_internal_rate_limits_overrides__identifier__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /internal/rate-limits/overrides/{identifier}/invalidate-cache\n  method: post\n  operationId: invalidate_rate_limit_override_cache_internal_rate_limits_overrides__identifier__invalidate_cache_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /\n  method: get\n  operationId: root__get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health_check_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/agentic-access/captions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/captions/agentic-access/captions-agentic-access.yml
 summary_line: 23 operations · 11 acting · 5 human-in-the-loop
 tags:
 - Company

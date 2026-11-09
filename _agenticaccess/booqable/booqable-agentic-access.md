@@ -9,67 +9,67 @@ api_specs:
   label: Booqable Availability API
   slug: booqable-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-availability-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-availability-api-openapi.yml
 - filename: booqable-bundles-collections-api-openapi.yml
   format: yaml
   label: Booqable Bundles & Collections API
   slug: booqable-bundles-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-bundles-collections-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-bundles-collections-api-openapi.yml
 - filename: booqable-customers-api-openapi.yml
   format: yaml
   label: Booqable Customers API
   slug: booqable-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-customers-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-customers-api-openapi.yml
 - filename: booqable-documents-api-openapi.yml
   format: yaml
   label: Booqable Documents API
   slug: booqable-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-documents-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-documents-api-openapi.yml
 - filename: booqable-order-fulfillment-api-openapi.yml
   format: yaml
   label: Booqable Order Fulfillment API
   slug: booqable-order-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-order-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-order-fulfillment-api-openapi.yml
 - filename: booqable-orders-api-openapi.yml
   format: yaml
   label: Booqable Orders API
   slug: booqable-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-orders-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-orders-api-openapi.yml
 - filename: booqable-product-groups-api-openapi.yml
   format: yaml
   label: Booqable Product Groups API
   slug: booqable-product-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-product-groups-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-product-groups-api-openapi.yml
 - filename: booqable-products-api-openapi.yml
   format: yaml
   label: Booqable Products API
   slug: booqable-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-products-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-products-api-openapi.yml
 - filename: booqable-settings-api-openapi.yml
   format: yaml
   label: Booqable Settings API
   slug: booqable-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-settings-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-settings-api-openapi.yml
 - filename: booqable-stock-items-api-openapi.yml
   format: yaml
   label: Booqable Stock Items API
   slug: booqable-stock-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-stock-items-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-stock-items-api-openapi.yml
 - filename: booqable-webhooks-api-openapi.yml
   format: yaml
   label: Booqable Webhooks API
   slug: booqable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-webhooks-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 32
@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/booqab
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: post\n  operationId: createLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tax_rates\n  method: get\n  operationId:\
   \ listTaxRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tax_rates\n  method: post\n  operationId: createTaxRate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coupons\n  method: get\n  operationId: listCoupons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coupons\n  method: post\n  operationId: createCoupon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /notes\n  method: get\n  operationId: listNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notes\n  method: post\n  operationId: createNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/agentic-access/booqable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/booqable/agentic-access/booqable-agentic-access.yml
 summary_line: 60 operations · 28 acting · 1 human-in-the-loop
 tags:
 - Rental Management

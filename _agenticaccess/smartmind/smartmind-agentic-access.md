@@ -9,49 +9,49 @@ api_specs:
   label: SmartMind File API
   slug: smartmind-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-file-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-file-api-openapi.yml
 - filename: smartmind-health-api-openapi.yml
   format: yaml
   label: SmartMind Health API
   slug: smartmind-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-health-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-health-api-openapi.yml
 - filename: smartmind-metric-api-openapi.yml
   format: yaml
   label: SmartMind Metric API
   slug: smartmind-metric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-metric-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-metric-api-openapi.yml
 - filename: smartmind-query-api-openapi.yml
   format: yaml
   label: SmartMind Query API
   slug: smartmind-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-query-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-query-api-openapi.yml
 - filename: smartmind-schema-api-openapi.yml
   format: yaml
   label: SmartMind Schema API
   slug: smartmind-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-schema-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-schema-api-openapi.yml
 - filename: smartmind-table-api-openapi.yml
   format: yaml
   label: SmartMind Table API
   slug: smartmind-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-table-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-table-api-openapi.yml
 - filename: smartmind-table-template-api-openapi.yml
   format: yaml
   label: SmartMind Table Template API
   slug: smartmind-table-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-table-template-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-table-template-api-openapi.yml
 - filename: smartmind-view-api-openapi.yml
   format: yaml
   label: SmartMind View API
   slug: smartmind-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/openapi/smartmind-view-api-openapi.yml
+  url: https://artifacts.apis.io/smartmind/openapi/smartmind-view-api-openapi.yml
 consequence_counts:
   read: 16
   write: 18
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/smartm
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/schema/\n  method: get\n  operationId: get_schemas_api_v1_schema__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/schema/{schema}\n  method: post\n  operationId: create_schema_api_v1_schema__schema__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/healthz\n  method: get\n  operationId: get_db_health_api_v1_healthz_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/metric/memory/\n  method: get\n  operationId: get_memory_metrics_api_v1_metric_memory__get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fm/api/v1/contents/{path}\n  method: get\n  operationId: get_fm_api_v1_contents__path__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fm/api/v1/contents/{path}\n  method: delete\n  operationId: delete_fm_api_v1_contents__path__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fm/api/v1/contents/{destination}\n  method: post\n  operationId: create_fm_api_v1_contents__destination__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fm/api/v1/contents/{source}\n  method: patch\n  operationId: move_fm_api_v1_contents__source__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fm/api/v1/size/\n  method: get\n  operationId: get_size_fm_api_v1_size__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/agentic-access/smartmind-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartmind/agentic-access/smartmind-agentic-access.yml
 summary_line: 34 operations · 18 acting
 tags:
 - Company
@@ -102,4 +102,7 @@ tags:
 - Ontology
 - RAG
 - Enterprise AI
+- Mental Health
+- Wellness
+- Platform
 ---

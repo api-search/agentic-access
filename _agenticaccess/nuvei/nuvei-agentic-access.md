@@ -9,67 +9,67 @@ api_specs:
   label: Nuvei Payments API
   slug: nuvei-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-payments-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-payments-api-openapi.yml
 - filename: nuvei-payouts-api-openapi.yml
   format: yaml
   label: Nuvei Payouts API
   slug: nuvei-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-payouts-api-openapi.yml
 - filename: nuvei-user-payment-options-api-openapi.yml
   format: yaml
   label: Nuvei User Payment Options API
   slug: nuvei-user-payment-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-user-payment-options-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-user-payment-options-api-openapi.yml
 - filename: nuvei-dcc-api-openapi.yml
   format: yaml
   label: Nuvei DCC API
   slug: nuvei-dcc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-dcc-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-dcc-api-openapi.yml
 - filename: nuvei-dmn-asyncapi.yml
   format: yaml
   label: Nuvei Direct Merchant Notifications (DMN)
   slug: nuvei-webhooks-dmn
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/asyncapi/nuvei-dmn-asyncapi.yml
+  url: https://artifacts.apis.io/nuvei/asyncapi/nuvei-dmn-asyncapi.yml
 - filename: nuvei-financial-operations-api-openapi.yml
   format: yaml
   label: Nuvei Financial Operations API
   slug: nuvei-financial-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-financial-operations-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-financial-operations-api-openapi.yml
 - filename: nuvei-merchant-api-openapi.yml
   format: yaml
   label: Nuvei Merchant API
   slug: nuvei-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-merchant-api-openapi.yml
 - filename: nuvei-orders-api-openapi.yml
   format: yaml
   label: Nuvei Orders API
   slug: nuvei-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-orders-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-orders-api-openapi.yml
 - filename: nuvei-sessions-api-openapi.yml
   format: yaml
   label: Nuvei Sessions API
   slug: nuvei-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-sessions-api-openapi.yml
 - filename: nuvei-status-api-openapi.yml
   format: yaml
   label: Nuvei Status API
   slug: nuvei-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-status-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-status-api-openapi.yml
 - filename: nuvei-3-ds-api-openapi.yml
   format: yaml
   label: Nuvei 3 DS API
   slug: nuvei-3-ds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-3-ds-api-openapi.yml
+  url: https://artifacts.apis.io/nuvei/openapi/nuvei-3-ds-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 6
@@ -174,7 +174,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nuvei-
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /addUPOAPM.do\n  method: post\n  operationId: addUPOAPM\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /editUPOCreditCard.do\n  method: post\n  operationId: editUPOCreditCard\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /editUPOAPM.do\n  method: post\n  operationId: editUPOAPM\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deleteUPO.do\n  method: post\n  operationId: deleteUPO\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getUserUPOs.do\n  method: post\n  operationId: getUserUPOs\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enableUPO.do\n  method: post\n  operationId: enableUPO\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /disableUPO.do\n  method: post\n  operationId: disableUPO\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/agentic-access/nuvei-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nuvei/agentic-access/nuvei-agentic-access.yml
 summary_line: 23 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Payments

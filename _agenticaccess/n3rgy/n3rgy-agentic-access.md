@@ -9,79 +9,79 @@ api_specs:
   label: n3rgy Create Export Profiles API
   slug: n3rgy-create-export-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-create-export-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-create-export-profiles-api-openapi.yml
 - filename: n3rgy-customer-service-api-v2-api-openapi.yml
   format: yaml
   label: n3rgy Customer Service API V2 API
   slug: n3rgy-customer-service-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-customer-service-api-v2-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-customer-service-api-v2-api-openapi.yml
 - filename: n3rgy-find-mpxn-api-openapi.yml
   format: yaml
   label: n3rgy Find Mpxn API
   slug: n3rgy-find-mpxn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-find-mpxn-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-find-mpxn-api-openapi.yml
 - filename: n3rgy-get-update-frequencies-api-openapi.yml
   format: yaml
   label: n3rgy Get Update Frequencies API
   slug: n3rgy-get-update-frequencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-get-update-frequencies-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-get-update-frequencies-api-openapi.yml
 - filename: n3rgy-internal-api-openapi.yml
   format: yaml
   label: n3rgy Internal API
   slug: n3rgy-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-internal-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-internal-api-openapi.yml
 - filename: n3rgy-mpxn-api-openapi.yml
   format: yaml
   label: n3rgy Mpxn API
   slug: n3rgy-mpxn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-mpxn-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-mpxn-api-openapi.yml
 - filename: n3rgy-push-api-openapi.yml
   format: yaml
   label: n3rgy Push API
   slug: n3rgy-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-push-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-push-api-openapi.yml
 - filename: n3rgy-read-inventory-api-openapi.yml
   format: yaml
   label: n3rgy Read Inventory API
   slug: n3rgy-read-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-read-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-read-inventory-api-openapi.yml
 - filename: n3rgy-reset-all-update-frequencies-api-openapi.yml
   format: yaml
   label: n3rgy Reset All Update Frequencies API
   slug: n3rgy-reset-all-update-frequencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-reset-all-update-frequencies-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-reset-all-update-frequencies-api-openapi.yml
 - filename: n3rgy-set-defaults-api-openapi.yml
   format: yaml
   label: n3rgy Set Defaults API
   slug: n3rgy-set-defaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-set-defaults-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-set-defaults-api-openapi.yml
 - filename: n3rgy-set-meter-update-frequency-api-openapi.yml
   format: yaml
   label: n3rgy Set Meter Update Frequency API
   slug: n3rgy-set-meter-update-frequency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-set-meter-update-frequency-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-set-meter-update-frequency-api-openapi.yml
 - filename: n3rgy-update-now-api-openapi.yml
   format: yaml
   label: n3rgy Update Now API
   slug: n3rgy-update-now-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-update-now-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-update-now-api-openapi.yml
 - filename: n3rgy-upload-api-openapi.yml
   format: yaml
   label: n3rgy Upload API
   slug: n3rgy-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/openapi/n3rgy-upload-api-openapi.yml
+  url: https://artifacts.apis.io/n3rgy/openapi/n3rgy-upload-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/n3rgy-
   \ put\n  operationId: SetMeterUpdateFrequency\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /update-now/mpxn/{mpxn}/utility/{utility}/readingtype/{readingType}\n  method: get\n  operationId: generateFetchNowRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upload/data/deviceid/{deviceId}/readingtype/{readingType}\n  method: post\n  operationId: uploadData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload/data/deviceid/{deviceId}/readingtype/{readingType}/starttime/{startTime}/endtime/{endTime}\n\
   \  method: delete\n  operationId: deleteData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload/devices/\n  method: post\n  operationId: addDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload/devices/\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upload/devices/deviceid/{deviceId}\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upload/devices/deviceid/{deviceId}\n  method: put\n  operationId: updateDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload/devices/deviceid/{deviceId}\n  method: delete\n  operationId: deleteDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/agentic-access/n3rgy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/n3rgy/agentic-access/n3rgy-agentic-access.yml
 summary_line: 26 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Energy

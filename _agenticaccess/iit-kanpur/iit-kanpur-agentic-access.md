@@ -9,25 +9,25 @@ api_specs:
   label: IIT Kanpur PKK Library Koha REST API
   slug: iit-kanpur-koha-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/openapi/iit-kanpur-article-requests-api-openapi.yml
+  url: https://artifacts.apis.io/iit-kanpur/openapi/iit-kanpur-article-requests-api-openapi.yml
 - filename: iit-kanpur-oai-pmh-api-openapi.yml
   format: yaml
   label: IIT Kanpur PKK Library OAI-PMH API
   slug: iit-kanpur-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/openapi/iit-kanpur-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/iit-kanpur/openapi/iit-kanpur-oai-pmh-api-openapi.yml
 - filename: iit-kanpur-oauth-api-openapi.yml
   format: yaml
   label: Indian Institute of Technology Kanpur OAUTH API
   slug: iit-kanpur-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/openapi/iit-kanpur-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/iit-kanpur/openapi/iit-kanpur-oauth-api-openapi.yml
 - filename: iit-kanpur-2-fa-api-openapi.yml
   format: yaml
   label: Indian Institute of Technology Kanpur 2 FA API
   slug: iit-kanpur-2-fa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/openapi/iit-kanpur-2-fa-api-openapi.yml
+  url: https://artifacts.apis.io/iit-kanpur/openapi/iit-kanpur-2-fa-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 132
@@ -173,8 +173,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/iit-ka
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /erm/counter_files/{erm_counter_files_id}\n  method: delete\n  operationId: deleteERMCounterFiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /erm/counter_files/{erm_counter_files_id}/file/content\n  method: get\n  operationId: downloadCounterFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /erm/counter_logs\n  method: get\n  operationId: listErmCounterLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /erm/counter_registry\n  method: get\n  operationId:\
   \ listCounterRegisteredPlatforms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /erm/default_usage_reports\n  method: get\n  operationId: listErmDefaultUsageReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /erm/default_usage_reports\n  method: post\n  operationId: addErmDefaultUsageReports\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /erm/default_usage_reports/{erm_default_usage_report_id}\n  method: delete\n  operationId: deleteERMDefaultUsageReports\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /erm/documents/{document_id}/file/content\n  method: get\n  operationId: downloadErmDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /erm/eUsage/metric_types_report/{data_type}\n  method: get\n  operationId: getERMUsageMetricTypesReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /erm/eUsage/monthly_report/{data_type}\n  method: get\n  operationId: getERMUsageMonthlyReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (83 KB total) ---\n\
-  # Full source: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/agentic-access/iit-kanpur-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/agentic-access/iit-kanpur-agentic-access.yml
+  # Full source: https://artifacts.apis.io/iit-kanpur/agentic-access/iit-kanpur-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/iit-kanpur/agentic-access/iit-kanpur-agentic-access.yml
 summary_line: 286 operations · 154 acting
 tags:
 - Education

@@ -9,61 +9,61 @@ api_specs:
   label: EMIS Health Appointments API
   slug: emis-health-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-appointments-api-openapi.yml
 - filename: emis-health-cors-api-openapi.yml
   format: yaml
   label: EMIS Health CORS API
   slug: emis-health-cors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-cors-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-cors-api-openapi.yml
 - filename: emis-health-health-api-openapi.yml
   format: yaml
   label: EMIS Health API
   slug: emis-health-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-health-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-health-api-openapi.yml
 - filename: emis-health-medicalrecord-api-openapi.yml
   format: yaml
   label: EMIS Health Medical Record API
   slug: emis-health-medicalrecord-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-medicalrecord-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-medicalrecord-api-openapi.yml
 - filename: emis-health-organisation-api-openapi.yml
   format: yaml
   label: EMIS Health Organisation API
   slug: emis-health-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-organisation-api-openapi.yml
 - filename: emis-health-patient-api-openapi.yml
   format: yaml
   label: EMIS Health Patient API
   slug: emis-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-patient-api-openapi.yml
 - filename: emis-health-patientmatching-api-openapi.yml
   format: yaml
   label: EMIS Health Patient Matching API
   slug: emis-health-patientmatching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-patientmatching-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-patientmatching-api-openapi.yml
 - filename: emis-health-search-api-openapi.yml
   format: yaml
   label: EMIS Health Search API
   slug: emis-health-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-search-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-search-api-openapi.yml
 - filename: emis-health-swagger-api-openapi.yml
   format: yaml
   label: EMIS Health Swagger API
   slug: emis-health-swagger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-swagger-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-swagger-api-openapi.yml
 - filename: emis-health-user-api-openapi.yml
   format: yaml
   label: EMIS Health User API
   slug: emis-health-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-user-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-user-api-openapi.yml
 consequence_counts:
   read: 72
   write: 8
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: generated\nsource: openapi/emis-h
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/medicalRecord/UpdateAttachment\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/medicalRecord/UpdateConsultationVisibility\n  method: patch\n  operationId: UpdateConsultationVisibility\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - papi-cr.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/medicalRecord/UpdateConsultationVisibility\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/medicalRecord/FileRecord\n  method: post\n  operationId: FileRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - papi-cr.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/medicalRecord/FileRecord\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swagger/*\n  method: get\n  operationId: swagger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swagger/*\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/agentic-access/emis-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/emis-health/agentic-access/emis-health-agentic-access.yml
 summary_line: 80 operations · 8 acting
 tags:
 - Healthcare

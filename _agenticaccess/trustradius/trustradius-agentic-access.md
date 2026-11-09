@@ -8,31 +8,31 @@ api_specs:
   label: TrustRadius Product Data API
   slug: trustradius-product-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-product-data-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-product-data-api-openapi.yml
 - filename: trustradius-intent-data-api-openapi.yml
   format: yaml
   label: TrustRadius Downstream Intent Data API
   slug: trustradius-intent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-intent-data-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-intent-data-api-openapi.yml
 - filename: trustradius-trustquotes-api-openapi.yml
   format: yaml
   label: TrustRadius TrustQuotes Content Syndication API
   slug: trustradius-trustquotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-trustquotes-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-trustquotes-api-openapi.yml
 - filename: trustradius-traffic-data-api-openapi.yml
   format: yaml
   label: TrustRadius Traffic Data API
   slug: trustradius-traffic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-traffic-data-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-traffic-data-api-openapi.yml
 - filename: trustradius-legacy-api-openapi.yml
   format: yaml
   label: TrustRadius Legacy Visitor Insights API
   slug: trustradius-legacy-visitor-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/trustradius/openapi/trustradius-legacy-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/trustr
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/visitor-insights/pages\n  method: get\n  operationId: visitor_insights_report_pages_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}\n  method: get\n  operationId: account_details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product-ids\n  method: get\n  operationId: product_ids_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product-scores\n  method: get\n  operationId: product_scores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/traffic/pages\n  method: get\n  operationId: get_traffic_page_types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/traffic/products\n  method: get\n  operationId: get_traffic_products\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/syndication/tqw/pages\n  method: get\n  operationId: tqw_pages_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trustquotes\n  method: get\n  operationId: trustquotes_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId:\
   \ tags_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/agentic-access/trustradius-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trustradius/agentic-access/trustradius-agentic-access.yml
 summary_line: 11 operations
 tags:
 - B2B Software Reviews

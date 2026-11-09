@@ -9,31 +9,31 @@ api_specs:
   label: Decodable Connections API
   slug: decodable-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-connections-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-connections-api-openapi.yml
 - filename: decodable-pipelines-api-openapi.yml
   format: yaml
   label: Decodable Pipelines API
   slug: decodable-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-pipelines-api-openapi.yml
 - filename: decodable-resources-api-openapi.yml
   format: yaml
   label: Decodable Resources API
   slug: decodable-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-resources-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-resources-api-openapi.yml
 - filename: decodable-secrets-api-openapi.yml
   format: yaml
   label: Decodable Secrets API
   slug: decodable-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-secrets-api-openapi.yml
 - filename: decodable-streams-api-openapi.yml
   format: yaml
   label: Decodable Streams API
   slug: decodable-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/openapi/decodable-streams-api-openapi.yml
+  url: https://artifacts.apis.io/decodable/openapi/decodable-streams-api-openapi.yml
 consequence_counts:
   read: 9
   write: 17
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/decoda
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha2/pipelines/{pipeline_id}/activate\n  method: post\n  operationId: activatePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha2/pipelines/{pipeline_id}/deactivate\n  method: post\n  operationId: deactivatePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /v1alpha2/secrets/\n  method: get\n  operationId: listSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha2/secrets/\n  method: post\n  operationId: createSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha2/secrets/{secret_id}\n  method: get\n  operationId: getSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha2/secrets/{secret_id}\n  method: put\n  operationId: updateSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha2/secrets/{secret_id}\n  method: delete\n  operationId: deleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha2/accounts/{account_name}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/agentic-access/decodable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/decodable/agentic-access/decodable-agentic-access.yml
 summary_line: 26 operations · 17 acting
 tags:
 - Stream Processing

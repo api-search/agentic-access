@@ -9,37 +9,37 @@ api_specs:
   label: Sequence Billing Schedules API
   slug: sequence-hq-billing-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-billing-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-billing-schedules-api-openapi.yml
 - filename: sequence-hq-customers-api-openapi.yml
   format: yaml
   label: Sequence Customers API
   slug: sequence-hq-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-customers-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-customers-api-openapi.yml
 - filename: sequence-hq-invoices-api-openapi.yml
   format: yaml
   label: Sequence Invoices API
   slug: sequence-hq-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-invoices-api-openapi.yml
 - filename: sequence-hq-products-api-openapi.yml
   format: yaml
   label: Sequence Products API
   slug: sequence-hq-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-products-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-products-api-openapi.yml
 - filename: sequence-hq-quotes-api-openapi.yml
   format: yaml
   label: Sequence Quotes API
   slug: sequence-hq-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-quotes-api-openapi.yml
 - filename: sequence-hq-usage-api-openapi.yml
   format: yaml
   label: Sequence Usage API
   slug: sequence-hq-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/openapi/sequence-hq-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sequence-hq/openapi/sequence-hq-usage-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sequen
   \ token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/{id}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{id}/finalize\n  method: post\n  operationId: finalizeInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: post\n  operationId: createProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prices\n  method: get\n  operationId: listPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices\n  method: post\n  operationId: createPrice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes\n  method: get\n  operationId: listQuotes\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/agentic-access/sequence-hq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sequence-hq/agentic-access/sequence-hq-agentic-access.yml
 summary_line: 20 operations · 9 acting
 tags:
 - Billing

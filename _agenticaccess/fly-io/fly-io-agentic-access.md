@@ -9,79 +9,79 @@ api_specs:
   label: Fly.io Machines API
   slug: machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-machines-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-machines-api-openapi.yml
 - filename: fly-io-extensions-api-openapi.yml
   format: yaml
   label: Fly.io Extensions API
   slug: extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-extensions-api-openapi.yml
 - filename: fly-io-apps-api-openapi.yml
   format: yaml
   label: fly-io Apps API
   slug: fly-io-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-apps-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-apps-api-openapi.yml
 - filename: fly-io-sso-api-openapi.yml
   format: yaml
   label: fly-io SSO API
   slug: fly-io-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-sso-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-sso-api-openapi.yml
 - filename: fly-io-tokens-api-openapi.yml
   format: yaml
   label: fly-io Tokens API
   slug: fly-io-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-tokens-api-openapi.yml
 - filename: fly-io-volumes-api-openapi.yml
   format: yaml
   label: fly-io Volumes API
   slug: fly-io-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-volumes-api-openapi.yml
 - filename: fly-io-webhooks-api-openapi.yml
   format: yaml
   label: fly-io Webhooks API
   slug: fly-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-webhooks-api-openapi.yml
 - filename: fly-io-oauth-api-openapi.yml
   format: yaml
   label: Fly Io O Auth API
   slug: fly-io-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-oauth-api-openapi.yml
 - filename: fly-io-organizations-api-openapi.yml
   format: yaml
   label: Fly Io Organizations API
   slug: fly-io-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-organizations-api-openapi.yml
 - filename: fly-io-platform-api-openapi.yml
   format: yaml
   label: Fly Io Platform API
   slug: fly-io-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-platform-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-platform-api-openapi.yml
 - filename: fly-io-postgres-clusters-api-openapi.yml
   format: yaml
   label: Fly Io Postgres Clusters API
   slug: fly-io-postgres-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-postgres-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-postgres-clusters-api-openapi.yml
 - filename: fly-io-secrets-api-openapi.yml
   format: yaml
   label: Fly Io Secrets API
   slug: fly-io-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-secrets-api-openapi.yml
 - filename: fly-io-tls-certificates-api-openapi.yml
   format: yaml
   label: Fly Io TLS Certificates API
   slug: fly-io-tls-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-tls-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/fly-io/openapi/fly-io-tls-certificates-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fly-io
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/apps/{app_name}/volumes/{volume_id}\n  method: get\n  operationId: getVolume\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{app_name}/volumes/{volume_id}\n  method: put\n  operationId: updateVolume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/apps/{app_name}/volumes/{volume_id}\n  method: delete\n  operationId: deleteVolume\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/apps/{app_name}/volumes/{volume_id}/extend\n  method: put\n  operationId: extendVolume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/apps/{app_name}/volumes/{volume_id}/snapshots\n  method: get\n  operationId: listVolumeSnapshots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{app_name}/volumes/{volume_id}/snapshots\n  method: post\n  operationId: createVolumeSnapshot\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tokens/oidc\n  method: post\n  operationId: getOidcToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/agentic-access/fly-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fly-io/agentic-access/fly-io-agentic-access.yml
 summary_line: 37 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Platform

@@ -9,31 +9,31 @@ api_specs:
   label: Shadeform Instance Types API
   slug: shadeform-instance-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-instance-types-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-instance-types-api-openapi.yml
 - filename: shadeform-instances-api-openapi.yml
   format: yaml
   label: Shadeform Instances API
   slug: shadeform-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-instances-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-instances-api-openapi.yml
 - filename: shadeform-ssh-keys-api-openapi.yml
   format: yaml
   label: Shadeform SSH Keys API
   slug: shadeform-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-ssh-keys-api-openapi.yml
 - filename: shadeform-templates-api-openapi.yml
   format: yaml
   label: Shadeform Templates API
   slug: shadeform-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-templates-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-templates-api-openapi.yml
 - filename: shadeform-volumes-api-openapi.yml
   format: yaml
   label: Shadeform Volumes API
   slug: shadeform-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/openapi/shadeform-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/shadeform/openapi/shadeform-volumes-api-openapi.yml
 consequence_counts:
   read: 11
   write: 12
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shadef
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumes/{id}/info\n  method: get\n  operationId: getVolume\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volumes/{id}/delete\n  method: post\n  operationId: deleteVolume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sshkeys\n  method: get\n  operationId: listSshKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sshkeys/add\n  method: post\n  operationId: addSshKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sshkeys/{id}/info\n  method: get\n  operationId: getSshKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sshkeys/{id}/setdefault\n  method: post\n  operationId: setDefaultSshKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sshkeys/{id}/delete\n  method: post\n  operationId: deleteSshKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/agentic-access/shadeform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shadeform/agentic-access/shadeform-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - GPU

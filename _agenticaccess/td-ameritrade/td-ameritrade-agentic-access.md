@@ -9,79 +9,79 @@ api_specs:
   label: TD Ameritrade Instruments API
   slug: td-ameritrade-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-instruments-api-openapi.yml
 - filename: td-ameritrade-authentication-api-openapi.yml
   format: yaml
   label: TD Ameritrade Authentication API
   slug: td-ameritrade-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-authentication-api-openapi.yml
 - filename: td-ameritrade-accounts-and-trading-api-openapi.yml
   format: yaml
   label: TD Ameritrade Accounts and Trading API
   slug: td-ameritrade-accounts-and-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-accounts-and-trading-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-accounts-and-trading-api-openapi.yml
 - filename: td-ameritrade-authentication-api-openapi.yml
   format: yaml
   label: TD Ameritrade Authentication API
   slug: td-ameritrade-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-authentication-api-openapi.yml
 - filename: td-ameritrade-instruments-api-openapi.yml
   format: yaml
   label: TD Ameritrade Instruments API
   slug: td-ameritrade-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-instruments-api-openapi.yml
 - filename: td-ameritrade-market-hours-api-openapi.yml
   format: yaml
   label: TD Ameritrade Market Hours API
   slug: td-ameritrade-market-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-market-hours-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-market-hours-api-openapi.yml
 - filename: td-ameritrade-movers-api-openapi.yml
   format: yaml
   label: TD Ameritrade Movers API
   slug: td-ameritrade-movers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-movers-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-movers-api-openapi.yml
 - filename: td-ameritrade-option-chains-api-openapi.yml
   format: yaml
   label: TD Ameritrade Option Chains API
   slug: td-ameritrade-option-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-option-chains-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-option-chains-api-openapi.yml
 - filename: td-ameritrade-price-history-api-openapi.yml
   format: yaml
   label: TD Ameritrade Price History API
   slug: td-ameritrade-price-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-price-history-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-price-history-api-openapi.yml
 - filename: td-ameritrade-quotes-api-openapi.yml
   format: yaml
   label: TD Ameritrade Quotes API
   slug: td-ameritrade-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-quotes-api-openapi.yml
 - filename: td-ameritrade-transaction-history-api-openapi.yml
   format: yaml
   label: TD Ameritrade Transaction History API
   slug: td-ameritrade-transaction-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-transaction-history-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-transaction-history-api-openapi.yml
 - filename: td-ameritrade-user-info-preferences-api-openapi.yml
   format: yaml
   label: TD Ameritrade User Info & Preferences API
   slug: td-ameritrade-user-info-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-user-info-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-user-info-preferences-api-openapi.yml
 - filename: td-ameritrade-watchlist-api-openapi.yml
   format: yaml
   label: TD Ameritrade Watchlist API
   slug: td-ameritrade-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/openapi/td-ameritrade-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/td-ameritrade/openapi/td-ameritrade-watchlist-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 24
@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /userprincipals/streamersubscriptionkeys\n  method: get\n  operationId: getStreamerSubscriptionKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userprincipals\n  method: get\n  operationId: getUserPrincipals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/watchlists\n  method: post\n  operationId: createWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/watchlists\n  method: get\n  operationId:\
   \ getWatchlistSingleAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/watchlists/{watchlistId}\n  method: delete\n  operationId: deleteWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/watchlists/{watchlistId}\n  method: put\n  operationId: replaceWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/watchlists/{watchlistId}\n  method:\
   \ patch\n  operationId: updateWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/watchlists/{watchlistId}\n  method: get\n  operationId: getWatchlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/watchlists\n  method: get\n  operationId: getWatchlistMultipleAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/agentic-access/td-ameritrade-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/td-ameritrade/agentic-access/td-ameritrade-agentic-access.yml
 summary_line: 36 operations · 12 acting
 tags:
 - Brokerage

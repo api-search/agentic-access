@@ -9,61 +9,61 @@ api_specs:
   label: Paylocity Background Check API
   slug: paylocity-background-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-background-check-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-background-check-api-openapi.yml
 - filename: paylocity-company-api-openapi.yml
   format: yaml
   label: Paylocity Company API
   slug: paylocity-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-company-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-company-api-openapi.yml
 - filename: paylocity-deductions-api-openapi.yml
   format: yaml
   label: Paylocity Deductions API
   slug: paylocity-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-deductions-api-openapi.yml
 - filename: paylocity-earnings-api-openapi.yml
   format: yaml
   label: Paylocity Earnings API
   slug: paylocity-earnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-earnings-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-earnings-api-openapi.yml
 - filename: paylocity-employees-api-openapi.yml
   format: yaml
   label: Paylocity Employees API
   slug: paylocity-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-employees-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-employees-api-openapi.yml
 - filename: paylocity-lms-api-openapi.yml
   format: yaml
   label: Paylocity LMS API
   slug: paylocity-lms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-lms-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-lms-api-openapi.yml
 - filename: paylocity-payroll-api-openapi.yml
   format: yaml
   label: Paylocity Payroll API
   slug: paylocity-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-payroll-api-openapi.yml
 - filename: paylocity-scheduling-api-openapi.yml
   format: yaml
   label: Paylocity Scheduling API
   slug: paylocity-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-scheduling-api-openapi.yml
 - filename: paylocity-taxes-api-openapi.yml
   format: yaml
   label: Paylocity Taxes API
   slug: paylocity-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-taxes-api-openapi.yml
 - filename: paylocity-time-api-openapi.yml
   format: yaml
   label: Paylocity Time API
   slug: paylocity-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-time-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-time-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/payloc
   \  method: post\n  operationId: createLmsContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payentry/v2/payentryimport\n  method: post\n  operationId: createPayrollBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payentry/v2/payentryimport/{timeImportFileTrackingId}\n  method: get\n  operationId: getPayrollBatchStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apihub/payrollhistory/v1/companies/{companyId}/employees/{employeeId}/paystatements\n\
   \  method: get\n  operationId: listPayStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/companies/{companyId}/codes\n  method: get\n  operationId: listCompanyCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/companies/{companyId}/openapi\n  method: get\n  operationId: getCompanyOpenApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance/backgroundcheck/screeningpackages\n  method: get\n  operationId: listScreeningPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance/backgroundcheck/candidatescreeningorders/subscription\n\
   \  method: post\n  operationId: createBackgroundCheckSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance/backgroundcheck/candidatescreeningorders/subscription\n  method: delete\n  operationId: deleteBackgroundCheckSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/agentic-access/paylocity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paylocity/agentic-access/paylocity-agentic-access.yml
 summary_line: 29 operations · 13 acting
 tags:
 - Human Resources

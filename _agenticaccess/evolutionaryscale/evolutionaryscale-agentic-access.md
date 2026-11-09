@@ -9,37 +9,37 @@ api_specs:
   label: EvolutionaryScale Embeddings API
   slug: evolutionaryscale-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-embeddings-api-openapi.yml
 - filename: evolutionaryscale-encoding-api-openapi.yml
   format: yaml
   label: EvolutionaryScale Encoding API
   slug: evolutionaryscale-encoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-encoding-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-encoding-api-openapi.yml
 - filename: evolutionaryscale-generation-api-openapi.yml
   format: yaml
   label: EvolutionaryScale Generation API
   slug: evolutionaryscale-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-generation-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-generation-api-openapi.yml
 - filename: evolutionaryscale-msa-api-openapi.yml
   format: yaml
   label: EvolutionaryScale MSA API
   slug: evolutionaryscale-msa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-msa-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-msa-api-openapi.yml
 - filename: evolutionaryscale-sampling-api-openapi.yml
   format: yaml
   label: EvolutionaryScale Sampling API
   slug: evolutionaryscale-sampling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-sampling-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-sampling-api-openapi.yml
 - filename: evolutionaryscale-structure-api-openapi.yml
   format: yaml
   label: EvolutionaryScale Structure API
   slug: evolutionaryscale-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-structure-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-structure-api-openapi.yml
 consequence_counts:
   read: 1
   write: 10
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/evolut
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/batch_generate\n  method: post\n  operationId: batchGenerate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/msa\n  method: post\n  operationId: msa\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/forward_and_sample\n  method: post\n  operationId: forwardAndSample\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/logits\n  method: post\n  operationId: logits\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/esmc/logits\n  method: post\n  operationId: esmcLogits\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/fold\n  method: post\n  operationId: fold\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/inverse_fold\n  method: post\n  operationId: inverseFold\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/agentic-access/evolutionaryscale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/evolutionaryscale/agentic-access/evolutionaryscale-agentic-access.yml
 summary_line: 11 operations · 10 acting
 tags:
 - Artificial Intelligence

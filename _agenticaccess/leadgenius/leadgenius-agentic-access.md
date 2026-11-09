@@ -9,37 +9,37 @@ api_specs:
   label: LeadGenius Campaigns API
   slug: leadgenius-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-campaigns-api-openapi.yml
 - filename: leadgenius-exclusion-api-openapi.yml
   format: yaml
   label: LeadGenius Exclusion API
   slug: leadgenius-exclusion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-exclusion-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-exclusion-api-openapi.yml
 - filename: leadgenius-rapid-enrichment-api-openapi.yml
   format: yaml
   label: LeadGenius Rapid Enrichment API
   slug: leadgenius-rapid-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-rapid-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-rapid-enrichment-api-openapi.yml
 - filename: leadgenius-records-api-openapi.yml
   format: yaml
   label: LeadGenius Records API
   slug: leadgenius-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-records-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-records-api-openapi.yml
 - filename: leadgenius-usage-api-openapi.yml
   format: yaml
   label: LeadGenius Usage API
   slug: leadgenius-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-usage-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-usage-api-openapi.yml
 - filename: leadgenius-leadgenius-enrichment-api-api-openapi.yml
   format: yaml
   label: LeadGenius Enrichment API
   slug: leadgenius-leadgenius-enrichment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-leadgenius-enrichment-api-api-openapi.yml
+  url: https://artifacts.apis.io/leadgenius/openapi/leadgenius-leadgenius-enrichment-api-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/leadge
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/enrichment/upload/{slug}/\n  method: post\n  operationId: uploadRecordsToCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/enrichment/update/{slug}/\n  method: patch\n  operationId: updateCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/enrichment/retrieve/{slug}/\n  method: get\n  operationId: retrieveCampaignRecords\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/enrichment/status/\n  method: get\n  operationId: getApiUsageStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/exclusion/upload/\n  method: post\n  operationId: uploadExclusionRecords\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/enrichment/rapid/\n  method: post\n  operationId: createRapidEnrichmentRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/enrichment/rapid/\n  method: get\n  operationId: listEnrichmentRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/enrichment/rapid/{id}/\n  method: get\n  operationId: retrieveEnrichedRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/enrichment/rapid/stats/\n  method: get\n  operationId: getEnrichmentStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/agentic-access/leadgenius-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/leadgenius/agentic-access/leadgenius-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Company

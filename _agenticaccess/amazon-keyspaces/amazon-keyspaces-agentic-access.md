@@ -9,13 +9,25 @@ api_specs:
   label: Amazon Keyspaces API
   slug: amazon-keyspaces-keyspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-keyspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-keyspaces-api-openapi.yml
 - filename: amazon-keyspaces-tables-api-openapi.yml
   format: yaml
   label: Amazon Keyspaces Tables API
   slug: amazon-keyspaces-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-tables-api-openapi.yml
+- filename: amazon-keyspaces-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Keyspaces Keyspaces Operations API
+  slug: amazon-keyspaces-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-operations-api-openapi.yml
+- filename: amazon-keyspaces-type-api-openapi.yml
+  format: yaml
+  label: Amazon Keyspaces Keyspaces Type API
+  slug: amazon-keyspaces-type-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-keyspaces/openapi/amazon-keyspaces-type-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -45,9 +57,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keyspaces/{keyspaceName}\n  method: get\n  operationId: GetKeyspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keyspaces/{keyspaceName}\n  method: delete\n  operationId: DeleteKeyspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keyspaces/{keyspaceName}/tables\n  method: post\n  operationId: CreateTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /keyspaces/{keyspaceName}/tables\n  method: get\n  operationId: ListTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keyspaces/{keyspaceName}/tables/{tableName}\n  method: get\n  operationId: GetTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keyspaces/{keyspaceName}/tables/{tableName}\n  method: put\n  operationId: UpdateTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keyspaces/{keyspaceName}/tables/{tableName}\n  method: delete\n  operationId: DeleteTable\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keyspaces/{keyspaceName}/tables/{tableName}/restore\n  method: post\n  operationId: RestoreTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/agentic-access/amazon-keyspaces-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-keyspaces/agentic-access/amazon-keyspaces-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
+- Amazon Web Services
 - Cassandra
 - Database
 - Managed Database

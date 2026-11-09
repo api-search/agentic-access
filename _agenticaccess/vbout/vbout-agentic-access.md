@@ -9,79 +9,79 @@ api_specs:
   label: VBOUT Account API
   slug: vbout-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-account-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-account-api-openapi.yml
 - filename: vbout-application-api-openapi.yml
   format: yaml
   label: VBOUT Application API
   slug: vbout-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-application-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-application-api-openapi.yml
 - filename: vbout-automation-api-openapi.yml
   format: yaml
   label: VBOUT Automation API
   slug: vbout-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-automation-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-automation-api-openapi.yml
 - filename: vbout-contact-api-openapi.yml
   format: yaml
   label: VBOUT Contact API
   slug: vbout-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-contact-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-contact-api-openapi.yml
 - filename: vbout-email-marketing-api-openapi.yml
   format: yaml
   label: VBOUT Email Marketing API
   slug: vbout-email-marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-email-marketing-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-email-marketing-api-openapi.yml
 - filename: vbout-goals-api-openapi.yml
   format: yaml
   label: VBOUT Goals API
   slug: vbout-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-goals-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-goals-api-openapi.yml
 - filename: vbout-help-api-openapi.yml
   format: yaml
   label: VBOUT Help API
   slug: vbout-help-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-help-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-help-api-openapi.yml
 - filename: vbout-pipeline-api-openapi.yml
   format: yaml
   label: VBOUT Pipeline API
   slug: vbout-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-pipeline-api-openapi.yml
 - filename: vbout-popups-api-openapi.yml
   format: yaml
   label: VBOUT Popups API
   slug: vbout-popups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-popups-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-popups-api-openapi.yml
 - filename: vbout-settings-api-openapi.yml
   format: yaml
   label: VBOUT Settings API
   slug: vbout-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-settings-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-settings-api-openapi.yml
 - filename: vbout-social-media-api-openapi.yml
   format: yaml
   label: VBOUT Social Media API
   slug: vbout-social-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-social-media-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-social-media-api-openapi.yml
 - filename: vbout-users-workflow-api-openapi.yml
   format: yaml
   label: VBOUT Users & Workflow API
   slug: vbout-users-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-users-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-users-workflow-api-openapi.yml
 - filename: vbout-ai-chatbot-api-openapi.yml
   format: yaml
   label: VBOUT AI Chatbot API
   slug: vbout-ai-chatbot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/openapi/vbout-ai-chatbot-api-openapi.yml
+  url: https://artifacts.apis.io/vbout/openapi/vbout-ai-chatbot-api-openapi.yml
 consequence_counts:
   read: 52
   write: 56
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/vbout-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: User/Add\n  method: post\n  operationId: post-User-Add\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: User/Edit\n  method: post\n  operationId: post-User-Edit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: User/Delete\n  method: delete\n  operationId: delete-User-Delete\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: User/Groups\n  method: get\n  operationId: get-User-Groups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: User/GroupDelete\n  method: delete\n  operationId: delete-User-GroupDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: User/GroupStatus\n  method: get\n  operationId: get-User-GroupStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/agentic-access/vbout-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vbout/agentic-access/vbout-agentic-access.yml
 summary_line: 108 operations · 56 acting
 tags:
 - Marketing Automation

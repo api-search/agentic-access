@@ -9,13 +9,13 @@ api_specs:
   label: Apache ActiveMQ Management API
   slug: apache-activemq-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/apache-activemq-management-api-openapi.yml
+  url: https://artifacts.apis.io/apache-activemq/openapi/apache-activemq-management-api-openapi.yml
 - filename: apache-activemq-messages-api-openapi.yml
   format: yaml
   label: Apache ActiveMQ Messages API
   slug: apache-activemq-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/apache-activemq-messages-api-openapi.yml
+  url: https://artifacts.apis.io/apache-activemq/openapi/apache-activemq-messages-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 3
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache-activemq-rest-openapi.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 2\n    connected: 3\n  by_consequence:\n    physical: 2\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /message/{destination}\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /message/{destination}\n  method: get\n  operationId:\
   \ receiveMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /message\n  method: post\n  operationId: sendMessageToDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /message\n  method: get\n  operationId: receiveMessageFromDestination\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jolokia/read/{mbean}\n  method: get\n  operationId: readMBeanAttribute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/agentic-access/apache-activemq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-activemq/agentic-access/apache-activemq-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - AMQP

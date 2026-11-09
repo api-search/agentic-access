@@ -8,19 +8,19 @@ api_specs:
   label: Sleuth Deployments API
   slug: sleuth-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/sleuth/openapi/sleuth-deployments-api-openapi.yml
 - filename: sleuth-impact-api-openapi.yml
   format: yaml
   label: Sleuth Impact API
   slug: sleuth-impact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-impact-api-openapi.yml
+  url: https://artifacts.apis.io/sleuth/openapi/sleuth-impact-api-openapi.yml
 - filename: sleuth-manual-changes-api-openapi.yml
   format: yaml
   label: Sleuth Manual Changes API
   slug: sleuth-manual-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/openapi/sleuth-manual-changes-api-openapi.yml
+  url: https://artifacts.apis.io/sleuth/openapi/sleuth-manual-changes-api-openapi.yml
 consequence_counts:
   physical: 3
   write: 1
@@ -64,7 +64,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sleuth-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 4\n  by_consequence:\n    physical: 3\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /deployments/{org_slug}/{deployment_slug}/register_deploy\n  method: post\n  operationId: registerDeploy\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/{org_slug}/{project_slug}/register_manual_deploy\n\
   \  method: post\n  operationId: registerManualChange\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /impact/{impact_id}/register_impact\n  method: post\n  operationId: registerMetricImpact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/{org_slug}/{project_slug}/{environment_slug}/{impact_source_slug}/register_impact/{api_key}\n  method: post\n  operationId: registerIncidentImpact\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/agentic-access/sleuth-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sleuth/agentic-access/sleuth-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
 - DORA

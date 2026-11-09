@@ -9,109 +9,109 @@ api_specs:
   label: Coda Account API
   slug: coda-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-account-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-account-api-openapi.yml
 - filename: coda-analytics-api-openapi.yml
   format: yaml
   label: Coda Analytics API
   slug: coda-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-analytics-api-openapi.yml
 - filename: coda-automations-api-openapi.yml
   format: yaml
   label: Coda Automations API
   slug: coda-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-automations-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-automations-api-openapi.yml
 - filename: coda-columns-api-openapi.yml
   format: yaml
   label: Coda Columns API
   slug: coda-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-columns-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-columns-api-openapi.yml
 - filename: coda-controls-api-openapi.yml
   format: yaml
   label: Coda Controls API
   slug: coda-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-controls-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-controls-api-openapi.yml
 - filename: coda-customdocdomains-api-openapi.yml
   format: yaml
   label: Coda CustomDocDomains API
   slug: coda-customdocdomains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-customdocdomains-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-customdocdomains-api-openapi.yml
 - filename: coda-docs-api-openapi.yml
   format: yaml
   label: Coda Docs API
   slug: coda-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-docs-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-docs-api-openapi.yml
 - filename: coda-folders-api-openapi.yml
   format: yaml
   label: Coda Folders API
   slug: coda-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-folders-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-folders-api-openapi.yml
 - filename: coda-formulas-api-openapi.yml
   format: yaml
   label: Coda Formulas API
   slug: coda-formulas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-formulas-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-formulas-api-openapi.yml
 - filename: coda-go-links-api-openapi.yml
   format: yaml
   label: Coda Go Links API
   slug: coda-go-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-go-links-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-go-links-api-openapi.yml
 - filename: coda-miscellaneous-api-openapi.yml
   format: yaml
   label: Coda Miscellaneous API
   slug: coda-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-miscellaneous-api-openapi.yml
 - filename: coda-packs-api-openapi.yml
   format: yaml
   label: Coda Packs API
   slug: coda-packs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-packs-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-packs-api-openapi.yml
 - filename: coda-pages-api-openapi.yml
   format: yaml
   label: Coda Pages API
   slug: coda-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-pages-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-pages-api-openapi.yml
 - filename: coda-permissions-api-openapi.yml
   format: yaml
   label: Coda Permissions API
   slug: coda-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-permissions-api-openapi.yml
 - filename: coda-publishing-api-openapi.yml
   format: yaml
   label: Coda Publishing API
   slug: coda-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-publishing-api-openapi.yml
 - filename: coda-rows-api-openapi.yml
   format: yaml
   label: Coda Rows API
   slug: coda-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-rows-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-rows-api-openapi.yml
 - filename: coda-tables-api-openapi.yml
   format: yaml
   label: Coda Tables API
   slug: coda-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-tables-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-tables-api-openapi.yml
 - filename: coda-workspaces-api-openapi.yml
   format: yaml
   label: Coda Workspaces API
   slug: coda-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/openapi/coda-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/coda/openapi/coda-workspaces-api-openapi.yml
 consequence_counts:
   read: 67
   safety-critical: 1
@@ -179,8 +179,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/coda-a
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /docs/{docId}/pages/{pageIdOrName}/content\n  method: get\n  operationId: listPageContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/{docId}/pages/{pageIdOrName}/content\n  method: delete\n  operationId: deletePageContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /docs/{docId}/pages/{pageIdOrName}/export\n  method: post\n  operationId: beginPageContentExport\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /docs/{docId}/pages/{pageIdOrName}/export/{requestId}\n  method: get\n  operationId: getPageContentExportStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/{docId}/acl/metadata\n  method: get\n  operationId: getSharingMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/{docId}/acl/permissions\n  method: get\n  operationId: getPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/{docId}/acl/permissions\n  method: post\n\
   \  operationId: addPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /docs/{docId}/acl/permissions/{permissionId}\n  method: delete\n  operationId: deletePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /docs/{docId}/acl/principals/search\n  method: get\n  operationId: searchPrincipals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/{docId}/acl/settings\n  method: get\n  operationId: getAclSettings\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/{docId}/acl/settings\n  method: patch\n  operationId: updateAclSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/agentic-access/coda-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/agentic-access/coda-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/{docId}/acl/settings\n  method: patch\n  operationId: updateAclSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/coda/agentic-access/coda-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/coda/agentic-access/coda-agentic-access.yml
 summary_line: 124 operations · 57 acting · 1 human-in-the-loop
 tags:
 - Productivity
@@ -188,4 +188,5 @@ tags:
 - No-Code
 - Collaboration
 - Database
+- Knowledge Management
 ---

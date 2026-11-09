@@ -9,37 +9,37 @@ api_specs:
   label: Whereby Insights API
   slug: whereby-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-insights-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-insights-api-openapi.yml
 - filename: whereby-meetings-api-openapi.yml
   format: yaml
   label: Whereby Meetings API
   slug: whereby-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-meetings-api-openapi.yml
 - filename: whereby-recordings-api-openapi.yml
   format: yaml
   label: Whereby Recordings API
   slug: whereby-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-recordings-api-openapi.yml
 - filename: whereby-rooms-api-openapi.yml
   format: yaml
   label: Whereby Rooms API
   slug: whereby-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-rooms-api-openapi.yml
 - filename: whereby-summaries-api-openapi.yml
   format: yaml
   label: Whereby Summaries API
   slug: whereby-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-summaries-api-openapi.yml
 - filename: whereby-transcriptions-api-openapi.yml
   format: yaml
   label: Whereby Transcriptions API
   slug: whereby-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/openapi/whereby-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/whereby/openapi/whereby-transcriptions-api-openapi.yml
 consequence_counts:
   read: 14
   write: 13
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/whereb
   - path: /transcriptions/bulk-delete\n  method: post\n  operationId: bulkDeleteTranscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /summaries\n  method: get\n  operationId: listSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summaries\n  method: post\n  operationId: createSummary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /summaries/{summaryId}\n  method: get\n  operationId: getSummary\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summaries/{summaryId}\n  method: delete\n  operationId: deleteSummary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /insights/rooms\n  method: get\n  operationId: insightsRooms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/room-sessions\n  method: get\n  operationId: insightsRoomSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/participants\n  method: get\n \
   \ operationId: insightsParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/participant\n  method: get\n  operationId: insightsParticipant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/agentic-access/whereby-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/whereby/agentic-access/whereby-agentic-access.yml
 summary_line: 27 operations · 13 acting
 tags:
 - Video

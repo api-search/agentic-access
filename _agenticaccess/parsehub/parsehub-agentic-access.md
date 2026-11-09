@@ -9,13 +9,13 @@ api_specs:
   label: ParseHub Projects API
   slug: parsehub-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/openapi/parsehub-projects-api-openapi.yml
+  url: https://artifacts.apis.io/parsehub/openapi/parsehub-projects-api-openapi.yml
 - filename: parsehub-runs-api-openapi.yml
   format: yaml
   label: ParseHub Runs API
   slug: parsehub-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/openapi/parsehub-runs-api-openapi.yml
+  url: https://artifacts.apis.io/parsehub/openapi/parsehub-runs-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/parsehub-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 5\n    acting: 3\n  by_consequence:\n    read: 5\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_token}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_token}/run\n  method:\
   \ post\n  operationId: startRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_token}/last_ready_run/data\n  method: get\n  operationId: getLastReadyRunData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs/{run_token}\n  method: get\n  operationId: getRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs/{run_token}\n  method: delete\n  operationId: deleteRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runs/{run_token}/data\n  method: get\n  operationId: getRunData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs/{run_token}/cancel\n  method: post\n  operationId: cancelRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/agentic-access/parsehub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parsehub/agentic-access/parsehub-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Data Extraction

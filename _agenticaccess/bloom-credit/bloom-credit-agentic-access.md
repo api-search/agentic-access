@@ -9,31 +9,31 @@ api_specs:
   label: Bloom Credit Consumers API
   slug: bloom-credit-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-consumers-api-openapi.yml
 - filename: bloom-credit-credit-reports-api-openapi.yml
   format: yaml
   label: Bloom Credit Reports API
   slug: bloom-credit-credit-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-credit-reports-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-credit-reports-api-openapi.yml
 - filename: bloom-credit-credit-scores-api-openapi.yml
   format: yaml
   label: Bloom Credit Scores API
   slug: bloom-credit-credit-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-credit-scores-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-credit-scores-api-openapi.yml
 - filename: bloom-credit-monitoring-api-openapi.yml
   format: yaml
   label: Bloom Credit Monitoring API
   slug: bloom-credit-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-monitoring-api-openapi.yml
 - filename: bloom-credit-trade-lines-api-openapi.yml
   format: yaml
   label: Bloom Credit Trade Lines API
   slug: bloom-credit-trade-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/openapi/bloom-credit-trade-lines-api-openapi.yml
+  url: https://artifacts.apis.io/bloom-credit/openapi/bloom-credit-trade-lines-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bloom-credit-api-openapi.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 2\n    connected: 4\n  by_consequence:\n    write: 2\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /consumers\n  method: post\n  operationId: create-consumer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /consumers/{consumer_id}\n  method: get\n  operationId: get-consumer\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consumers/{consumer_id}/credit-reports\n  method: get\n  operationId: get-credit-reports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consumers/{consumer_id}/scores\n  method: get\n  operationId: get-credit-scores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consumers/{consumer_id}/trade-lines\n  method: get\n  operationId: get-trade-lines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consumers/{consumer_id}/monitoring\n  method: post\n  operationId: enroll-monitoring\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/agentic-access/bloom-credit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bloom-credit/agentic-access/bloom-credit-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Credit Bureau

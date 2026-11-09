@@ -9,25 +9,25 @@ api_specs:
   label: Codehooks Events (AsyncAPI)
   slug: codehooks-events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/asyncapi/codehooks-events-asyncapi.yml
+  url: https://artifacts.apis.io/codehooks/asyncapi/codehooks-events-asyncapi.yml
 - filename: codehooks-documents-api-openapi.yml
   format: yaml
   label: Codehooks Documents API
   slug: codehooks-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-documents-api-openapi.yml
+  url: https://artifacts.apis.io/codehooks/openapi/codehooks-documents-api-openapi.yml
 - filename: codehooks-key-value-store-api-openapi.yml
   format: yaml
   label: Codehooks Key-Value Store API
   slug: codehooks-key-value-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-key-value-store-api-openapi.yml
+  url: https://artifacts.apis.io/codehooks/openapi/codehooks-key-value-store-api-openapi.yml
 - filename: codehooks-queue-api-openapi.yml
   format: yaml
   label: Codehooks Queue API
   slug: codehooks-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-queue-api-openapi.yml
+  url: https://artifacts.apis.io/codehooks/openapi/codehooks-queue-api-openapi.yml
 consequence_counts:
   read: 4
   write: 11
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/codeho
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{collection}/_count\n  method: get\n  operationId: countDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keyv/{key}\n  method: get\n  operationId: getKeyValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keyv/{key}\n  method: put\n  operationId: setKeyValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keyv/{key}\n  method: delete\n  operationId: deleteKeyValue\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keyv/{key}/_incr\n  method: put\n  operationId: incrementKeyValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keyv/{key}/_decr\n  method: put\n  operationId: decrementKeyValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /queue/{topic}\n  method: post\n  operationId: enqueueJob\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/agentic-access/codehooks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/codehooks/agentic-access/codehooks-agentic-access.yml
 summary_line: 15 operations · 11 acting
 tags:
 - Backend

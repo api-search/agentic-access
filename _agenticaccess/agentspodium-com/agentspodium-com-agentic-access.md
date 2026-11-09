@@ -9,43 +9,43 @@ api_specs:
   label: AgentsPodium A2A API
   slug: agentspodium-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-a2a-api-openapi.yml
 - filename: agentspodium-com-agents-api-openapi.yml
   format: yaml
   label: AgentsPodium Agents API
   slug: agentspodium-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-agents-api-openapi.yml
 - filename: agentspodium-com-api-keys-api-openapi.yml
   format: yaml
   label: AgentsPodium API keys API
   slug: agentspodium-com-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-api-keys-api-openapi.yml
 - filename: agentspodium-com-auth-api-openapi.yml
   format: yaml
   label: AgentsPodium Auth API
   slug: agentspodium-com-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-auth-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-auth-api-openapi.yml
 - filename: agentspodium-com-catalog-api-openapi.yml
   format: yaml
   label: AgentsPodium Catalog API
   slug: agentspodium-com-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-catalog-api-openapi.yml
 - filename: agentspodium-com-payment-api-openapi.yml
   format: yaml
   label: AgentsPodium Payment API
   slug: agentspodium-com-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-payment-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-payment-api-openapi.yml
 - filename: agentspodium-com-status-api-openapi.yml
   format: yaml
   label: AgentsPodium Status API
   slug: agentspodium-com-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/openapi/agentspodium-com-status-api-openapi.yml
+  url: https://artifacts.apis.io/agentspodium-com/openapi/agentspodium-com-status-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 26
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/agents
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domains/check\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a-catalog\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/{id}/webhook\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{id}/webhook\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /agents/{id}/webhook/test\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{id}/app\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{id}/build\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentspodium-com/refs/heads/main/agentic-access/agentspodium-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agentspodium-com/agentic-access/agentspodium-com-agentic-access.yml
 summary_line: 52 operations · 26 acting · 3 human-in-the-loop
 tags:
 - AI Agents

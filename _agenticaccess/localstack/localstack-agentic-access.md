@@ -9,13 +9,13 @@ api_specs:
   label: LocalStack Aws API
   slug: localstack-aws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/openapi/localstack-aws-api-openapi.yml
+  url: https://artifacts.apis.io/localstack/openapi/localstack-aws-api-openapi.yml
 - filename: localstack-localstack-api-openapi.yml
   format: yaml
   label: LocalStack API
   slug: localstack-localstack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/openapi/localstack-localstack-api-openapi.yml
+  url: https://artifacts.apis.io/localstack/openapi/localstack-localstack-api-openapi.yml
 consequence_counts:
   read: 19
   write: 8
@@ -49,12 +49,13 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/locals
   \  operationId: update_config_option\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_localstack/diagnose\n  method: get\n  operationId: get_diagnostics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_localstack/health\n  method: get\n  operationId: get_features_and_services\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_localstack/health\n  method: head\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_localstack/health\n\
   \  method: post\n  operationId: manage_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_localstack/health\n  method: put\n  operationId: store_data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_localstack/info\n  method: get\n  operationId: get_session_info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_localstack/init\n  method: get\n  operationId: get_init_script_info\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_localstack/init/{stage}\n  method: get\n  operationId: get_init_script_info_stage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_localstack/plugins\n  method: get\n  operationId: get_plugins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_localstack/usage\n  method: get\n  operationId: get_usage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/agentic-access/localstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/localstack/agentic-access/localstack-agentic-access.yml
 summary_line: 27 operations · 8 acting
 tags:
 - Company
 - Developer Tools
 - Cloud
+- Amazon Web Services
 - Emulator
 - Testing
 - DevOps

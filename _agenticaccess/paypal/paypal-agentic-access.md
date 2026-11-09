@@ -9,163 +9,163 @@ api_specs:
   label: PayPal Authorizations API
   slug: paypal-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-authorizations-api-openapi.yml
 - filename: paypal-balances-api-openapi.yml
   format: yaml
   label: PayPal Balances API
   slug: paypal-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-balances-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-balances-api-openapi.yml
 - filename: paypal-billing-api-openapi.yml
   format: yaml
   label: PayPal Billing API
   slug: paypal-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-billing-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-billing-api-openapi.yml
 - filename: paypal-captures-api-openapi.yml
   format: yaml
   label: PayPal Captures API
   slug: paypal-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-captures-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-captures-api-openapi.yml
 - filename: paypal-disputes-actions-api-openapi.yml
   format: yaml
   label: PayPal Disputes-Actions API
   slug: paypal-disputes-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-disputes-actions-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-disputes-actions-api-openapi.yml
 - filename: paypal-disputes-api-openapi.yml
   format: yaml
   label: PayPal Disputes API
   slug: paypal-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-disputes-api-openapi.yml
 - filename: paypal-invoices-api-openapi.yml
   format: yaml
   label: PayPal Invoices API
   slug: paypal-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-invoices-api-openapi.yml
 - filename: paypal-orders-api-openapi.yml
   format: yaml
   label: PayPal Orders API
   slug: paypal-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-orders-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-orders-api-openapi.yml
 - filename: paypal-partner-referrals-api-openapi.yml
   format: yaml
   label: PayPal Partner-Referrals API
   slug: paypal-partner-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-partner-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-partner-referrals-api-openapi.yml
 - filename: paypal-payment-tokens-api-openapi.yml
   format: yaml
   label: PayPal Payment-Tokens API
   slug: paypal-payment-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payment-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-payment-tokens-api-openapi.yml
 - filename: paypal-payouts-api-openapi.yml
   format: yaml
   label: PayPal Payouts API
   slug: paypal-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-payouts-api-openapi.yml
 - filename: paypal-payouts-item-api-openapi.yml
   format: yaml
   label: PayPal Payouts-Item API
   slug: paypal-payouts-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-payouts-item-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-payouts-item-api-openapi.yml
 - filename: paypal-products-api-openapi.yml
   format: yaml
   label: PayPal Products API
   slug: paypal-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-products-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-products-api-openapi.yml
 - filename: paypal-refunds-api-openapi.yml
   format: yaml
   label: PayPal Refunds API
   slug: paypal-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-refunds-api-openapi.yml
 - filename: paypal-search-invoices-api-openapi.yml
   format: yaml
   label: PayPal Search-Invoices API
   slug: paypal-search-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-search-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-search-invoices-api-openapi.yml
 - filename: paypal-setup-tokens-api-openapi.yml
   format: yaml
   label: PayPal Setup-Tokens API
   slug: paypal-setup-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-setup-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-setup-tokens-api-openapi.yml
 - filename: paypal-simulate-event-api-openapi.yml
   format: yaml
   label: PayPal Simulate-Event API
   slug: paypal-simulate-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-simulate-event-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-simulate-event-api-openapi.yml
 - filename: paypal-templates-api-openapi.yml
   format: yaml
   label: PayPal Templates API
   slug: paypal-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-templates-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-templates-api-openapi.yml
 - filename: paypal-trackers-api-openapi.yml
   format: yaml
   label: PayPal Trackers API
   slug: paypal-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-trackers-api-openapi.yml
 - filename: paypal-trackers-batch-api-openapi.yml
   format: yaml
   label: PayPal Trackers-Batch API
   slug: paypal-trackers-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-trackers-batch-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-trackers-batch-api-openapi.yml
 - filename: paypal-transactions-api-openapi.yml
   format: yaml
   label: PayPal Transactions API
   slug: paypal-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-transactions-api-openapi.yml
 - filename: paypal-verify-webhook-signature-api-openapi.yml
   format: yaml
   label: PayPal Verify-Webhook-Signature API
   slug: paypal-verify-webhook-signature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-verify-webhook-signature-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-verify-webhook-signature-api-openapi.yml
 - filename: paypal-web-profiles-api-openapi.yml
   format: yaml
   label: PayPal Web-Profiles API
   slug: paypal-web-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-web-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-web-profiles-api-openapi.yml
 - filename: paypal-webhooks-api-openapi.yml
   format: yaml
   label: PayPal Webhooks API
   slug: paypal-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-webhooks-api-openapi.yml
 - filename: paypal-webhooks-event-types-api-openapi.yml
   format: yaml
   label: PayPal Webhooks-Event-Types API
   slug: paypal-webhooks-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-webhooks-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-webhooks-event-types-api-openapi.yml
 - filename: paypal-webhooks-events-api-openapi.yml
   format: yaml
   label: PayPal Webhooks-Events API
   slug: paypal-webhooks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-webhooks-events-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-webhooks-events-api-openapi.yml
 - filename: paypal-webhooks-lookup-api-openapi.yml
   format: yaml
   label: PayPal Webhooks-Lookup API
   slug: paypal-webhooks-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/openapi/paypal-webhooks-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/paypal/openapi/paypal-webhooks-lookup-api-openapi.yml
 consequence_counts:
   physical: 38
   read: 36
@@ -350,8 +350,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/paypal
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/invoicing/templates/{template_id}\n  method: put\n  operationId: templates.update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://uri.paypal.com/services/invoicing/invoices/readwrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/invoicing/templates/{template_id}\n  method: delete\n  operationId: templates.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://uri.paypal.com/services/invoicing/invoices/readwrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/notifications/webhooks\n  method:\
   \ post\n  operationId: webhooks.post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://uri.paypal.com/services/applications/webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/notifications/webhooks\n  method: get\n  operationId: webhooks.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://uri.paypal.com/services/applications/webhooks\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/notifications/webhooks/{webhook_id}\n  method: get\n  operationId: webhooks.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://uri.paypal.com/services/applications/webhooks\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/notifications/webhooks/{webhook_id}\n  method: patch\n  operationId: webhooks.update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://uri.paypal.com/services/applications/webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/notifications/webhooks/{webhook_id}\n  method: delete\n  operationId: webhooks.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://uri.paypal.com/services/applications/webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/notifications/webhooks/{webhook_id}/event-types\n  method: get\n  operationId: event-types.list\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://uri.paypal.com/services/applications/webhooks\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/notifications/webhooks-lookup\n  method: post\n  operationId: webhooks-lookup.post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://uri.paypal.com/services/applications/webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/agentic-access/paypal-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/agentic-access/paypal-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://uri.paypal.com/services/applications/webhooks\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/notifications/webhooks-lookup\n  method: post\n  operationId: webhooks-lookup.post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://uri.paypal.com/services/applications/webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://artifacts.apis.io/paypal/agentic-access/paypal-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/paypal/agentic-access/paypal-agentic-access.yml
 summary_line: 111 operations · 75 acting
 tags:
 - PayPal

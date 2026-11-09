@@ -8,85 +8,85 @@ api_specs:
   label: USPTO Appeals API
   slug: uspto-gov-appeals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-appeals-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-appeals-api-openapi.yml
 - filename: uspto-gov-application-api-openapi.yml
   format: yaml
   label: USPTO Application API
   slug: uspto-gov-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-application-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-application-api-openapi.yml
 - filename: uspto-gov-assignments-api-openapi.yml
   format: yaml
   label: USPTO Assignments API
   slug: uspto-gov-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-assignments-api-openapi.yml
 - filename: uspto-gov-citations-api-openapi.yml
   format: yaml
   label: USPTO Citations API
   slug: uspto-gov-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-citations-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-citations-api-openapi.yml
 - filename: uspto-gov-datasets-api-openapi.yml
   format: yaml
   label: USPTO Datasets API
   slug: uspto-gov-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-datasets-api-openapi.yml
 - filename: uspto-gov-decisions-api-openapi.yml
   format: yaml
   label: USPTO Decisions API
   slug: uspto-gov-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-decisions-api-openapi.yml
 - filename: uspto-gov-documents-api-openapi.yml
   format: yaml
   label: USPTO Documents API
   slug: uspto-gov-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-documents-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-documents-api-openapi.yml
 - filename: uspto-gov-enriched-citations-api-openapi.yml
   format: yaml
   label: USPTO Enriched Citations API
   slug: uspto-gov-enriched-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-enriched-citations-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-enriched-citations-api-openapi.yml
 - filename: uspto-gov-office-actions-api-openapi.yml
   format: yaml
   label: USPTO Office Actions API
   slug: uspto-gov-office-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-office-actions-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-office-actions-api-openapi.yml
 - filename: uspto-gov-patentsview-api-openapi.yml
   format: yaml
   label: USPTO Patentsview API
   slug: uspto-gov-patentsview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-patentsview-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-patentsview-api-openapi.yml
 - filename: uspto-gov-proceedings-api-openapi.yml
   format: yaml
   label: USPTO Proceedings API
   slug: uspto-gov-proceedings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-proceedings-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-proceedings-api-openapi.yml
 - filename: uspto-gov-rejections-api-openapi.yml
   format: yaml
   label: USPTO Rejections API
   slug: uspto-gov-rejections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-rejections-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-rejections-api-openapi.yml
 - filename: uspto-gov-search-api-openapi.yml
   format: yaml
   label: USPTO Search API
   slug: uspto-gov-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-search-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-search-api-openapi.yml
 - filename: uspto-gov-status-api-openapi.yml
   format: yaml
   label: USPTO Status API
   slug: uspto-gov-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/openapi/uspto-gov-status-api-openapi.yml
+  url: https://artifacts.apis.io/uspto-gov/openapi/uspto-gov-status-api-openapi.yml
 consequence_counts:
   read: 48
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/uspto-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/patent/applications/search\n  method: post\n  operationId: searchPatentApplicationsPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ts/cd/casestatus/sn{serialNumber}/info.xml\n  method: get\n  operationId: getCaseStatusBySerialNumberXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ts/cd/casestatus/sn{serialNumber}/info.json\n  method: get\n  operationId: getCaseStatusBySerialNumberJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ts/cd/casestatus/rn{registrationNumber}/info.xml\n  method: get\n  operationId: getCaseStatusByRegistrationNumberXml\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ts/cd/casestatus/rn{registrationNumber}/info.json\n  method: get\n  operationId: getCaseStatusByRegistrationNumberJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ts/cd/casestatus/rf{referenceNumber}/info.xml\n  method: get\n  operationId: getCaseStatusByReferenceNumberXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ts/cd/casestatus/ir{internationalRegistrationNumber}/info.xml\n  method: get\n  operationId: getCaseStatusByIrNumberXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ts/cd/casestatus/sn{serialNumber}/info.st96.xml\n\
   \  method: get\n  operationId: getCaseStatusBySerialNumberSt96\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/agentic-access/uspto-gov-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uspto-gov/agentic-access/uspto-gov-agentic-access.yml
 summary_line: 48 operations
 tags:
 - Patents

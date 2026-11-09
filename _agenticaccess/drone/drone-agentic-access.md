@@ -9,61 +9,61 @@ api_specs:
   label: Drone Builds API
   slug: drone-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-builds-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-builds-api-openapi.yml
 - filename: drone-cron-api-openapi.yml
   format: yaml
   label: Drone Cron API
   slug: drone-cron-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-cron-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-cron-api-openapi.yml
 - filename: drone-nodes-api-openapi.yml
   format: yaml
   label: Drone Nodes API
   slug: drone-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-nodes-api-openapi.yml
 - filename: drone-queue-api-openapi.yml
   format: yaml
   label: Drone Queue API
   slug: drone-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-queue-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-queue-api-openapi.yml
 - filename: drone-repos-api-openapi.yml
   format: yaml
   label: Drone Repos API
   slug: drone-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-repos-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-repos-api-openapi.yml
 - filename: drone-secrets-api-openapi.yml
   format: yaml
   label: Drone Secrets API
   slug: drone-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-secrets-api-openapi.yml
 - filename: drone-system-api-openapi.yml
   format: yaml
   label: Drone System API
   slug: drone-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-system-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-system-api-openapi.yml
 - filename: drone-templates-api-openapi.yml
   format: yaml
   label: Drone Templates API
   slug: drone-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-templates-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-templates-api-openapi.yml
 - filename: drone-user-api-openapi.yml
   format: yaml
   label: Drone User API
   slug: drone-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-user-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-user-api-openapi.yml
 - filename: drone-users-api-openapi.yml
   format: yaml
   label: Drone Users API
   slug: drone-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/openapi/drone-users-api-openapi.yml
+  url: https://artifacts.apis.io/drone/openapi/drone-users-api-openapi.yml
 consequence_counts:
   read: 25
   safety-critical: 1
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/drone-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/nodes\n  method: get\n  operationId: listNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/nodes\n  method: post\n  operationId: createNode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/nodes/{name}\n  method: get\n  operationId: getNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/nodes/{name}\n  method: patch\n  operationId: updateNode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/nodes/{name}\n  method: delete\n  operationId: deleteNode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/builds/incomplete\n  method: get\n  operationId: listIncompleteBuilds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/builds/incomplete/v2\n  method: get\n  operationId:\
   \ listIncompleteBuildsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/agentic-access/drone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/drone/agentic-access/drone-agentic-access.yml
 summary_line: 61 operations · 36 acting · 1 human-in-the-loop
 tags:
 - CI/CD

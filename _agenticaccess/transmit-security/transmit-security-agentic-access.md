@@ -9,49 +9,49 @@ api_specs:
   label: Transmit Security Applications API
   slug: transmit-security-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-applications-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-applications-api-openapi.yml
 - filename: transmit-security-auth-api-openapi.yml
   format: yaml
   label: Transmit Security Auth API
   slug: transmit-security-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-auth-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-auth-api-openapi.yml
 - filename: transmit-security-manage-api-openapi.yml
   format: yaml
   label: Transmit Security Manage API
   slug: transmit-security-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-manage-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-manage-api-openapi.yml
 - filename: transmit-security-organizations-api-openapi.yml
   format: yaml
   label: Transmit Security Organizations API
   slug: transmit-security-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-organizations-api-openapi.yml
 - filename: transmit-security-recommendation-api-openapi.yml
   format: yaml
   label: Transmit Security Recommendation API
   slug: transmit-security-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-recommendation-api-openapi.yml
 - filename: transmit-security-token-api-openapi.yml
   format: yaml
   label: Transmit Security Token API
   slug: transmit-security-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-token-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-token-api-openapi.yml
 - filename: transmit-security-users-api-openapi.yml
   format: yaml
   label: Transmit Security Users API
   slug: transmit-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-users-api-openapi.yml
 - filename: transmit-security-verification-api-openapi.yml
   format: yaml
   label: Transmit Security Verification API
   slug: transmit-security-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-verification-api-openapi.yml
+  url: https://artifacts.apis.io/transmit-security/openapi/transmit-security-verification-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 29
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/transm
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/applications/{appId}\n  method: put\n  operationId: updateApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/{appId}\n  method: delete\n  operationId: deleteApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/{appId}/resources\n  method: put\n  operationId: updateResourcesInApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/signing-keys\n  method: post\n  operationId: createClientTokenSigningKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/signing-keys\n  method: get\n  operationId: getClientTokenSigningKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/applications/signing-keys/upload\n  method: post\n  operationId: uploadClientTokenSigningKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/signing-keys/{id}\n  method: put\n  operationId: updateTokenSigningKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/signing-keys/{id}\n  method: delete\n  operationId: deleteClientTokenSigningKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/agentic-access/transmit-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/transmit-security/agentic-access/transmit-security-agentic-access.yml
 summary_line: 78 operations · 49 acting
 tags:
 - CIAM

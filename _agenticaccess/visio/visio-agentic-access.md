@@ -9,43 +9,43 @@ api_specs:
   label: Microsoft Visio API Application API
   slug: visio-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-application-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-application-api-openapi.yml
 - filename: visio-comments-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Comments API
   slug: visio-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-comments-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-comments-api-openapi.yml
 - filename: visio-documents-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Documents API
   slug: visio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-documents-api-openapi.yml
 - filename: visio-hyperlinks-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Hyperlinks API
   slug: visio-hyperlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-hyperlinks-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-hyperlinks-api-openapi.yml
 - filename: visio-pages-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Pages API
   slug: visio-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-pages-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-pages-api-openapi.yml
 - filename: visio-shape-data-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Shape Data API
   slug: visio-shape-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-shape-data-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-shape-data-api-openapi.yml
 - filename: visio-shapes-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Shapes API
   slug: visio-shapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-shapes-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-shapes-api-openapi.yml
 consequence_counts:
   read: 10
   write: 3
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/visio-
   \ get\n  operationId: getPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/pages/{pageName}/shapes\n  method: get\n  operationId: listShapes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/pages/{pageName}/shapes/{shapeId}\n  method: get\n  operationId: getShape\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/pages/{pageName}/shapes/{shapeId}/shapeDataItems\n  method: get\n  operationId: listShapeDataItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/pages/{pageName}/shapes/{shapeId}/hyperlinks\n  method: get\n  operationId:\
   \ listShapeHyperlinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/pages/{pageName}/shapes/{shapeId}/comments\n  method: get\n  operationId: listShapeComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/application\n  method: get\n  operationId: getApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/application\n  method: patch\n  operationId: updateApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /document/getActivePage\n  method: get\n  operationId: getActivePage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/pages/{pageName}/view\n  method: patch\n  operationId: updatePageView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /document/pages/{pageName}/shapes/{shapeId}/view\n  method: patch\n  operationId: updateShapeView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/agentic-access/visio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/visio/agentic-access/visio-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - Business Process

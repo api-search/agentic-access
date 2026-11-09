@@ -9,37 +9,37 @@ api_specs:
   label: Listen Notes Insights API
   slug: insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-insights-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-insights-api-api-openapi.yml
 - filename: listennotes-playlist-api-api-openapi.yml
   format: yaml
   label: Listen Notes Playlist API
   slug: playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-playlist-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-playlist-api-api-openapi.yml
 - filename: listennotes-podcaster-api-api-openapi.yml
   format: yaml
   label: Listen Notes Podcaster API
   slug: listennotes-podcaster-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-podcaster-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-podcaster-api-api-openapi.yml
 - filename: listennotes-search-api-api-openapi.yml
   format: yaml
   label: Listen Notes Search API
   slug: listennotes-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-search-api-api-openapi.yml
 - filename: listennotes-directory-api-api-openapi.yml
   format: yaml
   label: Listen Notes Directory API
   slug: listennotes-directory-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-directory-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-directory-api-api-openapi.yml
 - filename: listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
   format: yaml
   label: 'Listen Notes Listen API: Podcast Search, Directory, And Insights API'
   slug: listennotes-listen-api-podcast-search-directory-and-insights-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/openapi/listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
+  url: https://artifacts.apis.io/listennotes/openapi/listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
 consequence_counts:
   read: 21
   write: 5
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/listen
   \ getGenres\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions\n  method: get\n  operationId: getRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /languages\n  method: get\n  operationId: getLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /just_listen\n  method: get\n  operationId: justListen\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /podcasts/{id}/recommendations\n  method: get\n  operationId: getPodcastRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /episodes/{id}/recommendations\n  method: get\n  operationId: getEpisodeRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playlists\n  method: get\n  operationId: getPlaylists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playlists/{id}\n  method: get\n  operationId: getPlaylistById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /podcasts/{id}/audience\n  method: get\n  operationId: getPodcastAudience\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /podcasts/domains/{domain_name}\n  method: get\n  operationId: getPodcastsByDomain\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /podcasts/submit\n  method: post\n  operationId: submitPodcast\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /podcasts/{id}/rss\n  method: post\n  operationId: refreshPodcastRss\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/agentic-access/listennotes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/listennotes/agentic-access/listennotes-agentic-access.yml
 summary_line: 26 operations · 5 acting
 tags:
 - Podcasts

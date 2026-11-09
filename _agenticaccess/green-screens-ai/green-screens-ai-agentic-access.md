@@ -9,55 +9,55 @@ api_specs:
   label: Green Screens AI Prediction API
   slug: green-screens-ai-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-prediction-api-openapi.yml
 - filename: green-screens-ai-auth-api-openapi.yml
   format: yaml
   label: Green Screens AI Auth API
   slug: green-screens-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-auth-api-openapi.yml
 - filename: green-screens-ai-analytics-api-openapi.yml
   format: yaml
   label: Green Screens AI Analytics API
   slug: green-screens-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-analytics-api-openapi.yml
 - filename: green-screens-ai-bids-api-openapi.yml
   format: yaml
   label: Green Screens AI Bids API
   slug: green-screens-ai-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-bids-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-bids-api-openapi.yml
 - filename: green-screens-ai-history-api-openapi.yml
   format: yaml
   label: Green Screens AI History API
   slug: green-screens-ai-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-history-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-history-api-openapi.yml
 - filename: green-screens-ai-pricing-api-openapi.yml
   format: yaml
   label: Green Screens AI Pricing API
   slug: green-screens-ai-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-pricing-api-openapi.yml
 - filename: green-screens-ai-quotes-api-openapi.yml
   format: yaml
   label: Green Screens AI Quotes API
   slug: green-screens-ai-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-quotes-api-openapi.yml
 - filename: green-screens-ai-tms-api-openapi.yml
   format: yaml
   label: Green Screens AI TMS API
   slug: green-screens-ai-tms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-tms-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-tms-api-openapi.yml
 - filename: green-screens-ai-market-intelligence-api-openapi.yml
   format: yaml
   label: Green Screens AI Market Intelligence API
   slug: green-screens-ai-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-market-intelligence-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 18
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/green-
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tms/batch/import-load\n  method: post\n  operationId: tmsBatchImportLoad\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tms/import-carrier\n  method: post\n  operationId: tmsImportCarrier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tms/batch/import-carrier\n  method: post\n  operationId: tmsBatchImportCarrier\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tms/import-shipper\n  method: post\n  operationId: tmsShipper\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tms/batch/import-shipper\n  method: post\n  operationId: tmsBatchImportShipper\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/agentic-access/green-screens-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/green-screens-ai/agentic-access/green-screens-ai-agentic-access.yml
 summary_line: 54 operations · 36 acting
 tags:
 - Artificial Intelligence

@@ -9,55 +9,55 @@ api_specs:
   label: SingleStore Files API
   slug: singlestore-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-files-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-files-api-openapi.yml
 - filename: singlestore-health-api-openapi.yml
   format: yaml
   label: SingleStore Health API
   slug: singlestore-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-health-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-health-api-openapi.yml
 - filename: singlestore-jobs-api-openapi.yml
   format: yaml
   label: SingleStore Jobs API
   slug: singlestore-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-jobs-api-openapi.yml
 - filename: singlestore-organizations-api-openapi.yml
   format: yaml
   label: SingleStore Organizations API
   slug: singlestore-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-organizations-api-openapi.yml
 - filename: singlestore-queries-api-openapi.yml
   format: yaml
   label: SingleStore Queries API
   slug: singlestore-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-queries-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-queries-api-openapi.yml
 - filename: singlestore-regions-api-openapi.yml
   format: yaml
   label: SingleStore Regions API
   slug: singlestore-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-regions-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-regions-api-openapi.yml
 - filename: singlestore-secrets-api-openapi.yml
   format: yaml
   label: SingleStore Secrets API
   slug: singlestore-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-secrets-api-openapi.yml
 - filename: singlestore-workspaces-api-openapi.yml
   format: yaml
   label: SingleStore Workspaces API
   slug: singlestore-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-workspaces-api-openapi.yml
 - filename: singlestore-workspace-groups-api-openapi.yml
   format: yaml
   label: SingleStore Workspace Groups API
   slug: singlestore-workspace-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspace-groups-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-workspace-groups-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/single
   \ required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceID}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /workspaces/{workspaceID}\n  method: patch\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceID}\n  method: delete\n  operationId: terminateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /workspaces/{workspaceID}/suspend\n  method: post\n  operationId: suspendWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceID}/resume\n  method: post\n  operationId: resumeWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/agentic-access/singlestore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/singlestore/agentic-access/singlestore-agentic-access.yml
 summary_line: 29 operations · 14 acting · 2 human-in-the-loop
 tags:
 - Database

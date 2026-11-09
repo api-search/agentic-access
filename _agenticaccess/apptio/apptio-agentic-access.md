@@ -8,19 +8,19 @@ api_specs:
   label: Apptio Budgets API
   slug: apptio-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/apptio/openapi/apptio-budgets-api-openapi.yml
 - filename: apptio-cost-allocations-api-openapi.yml
   format: yaml
   label: Apptio Cost Allocations API
   slug: apptio-cost-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-cost-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/apptio/openapi/apptio-cost-allocations-api-openapi.yml
 - filename: apptio-reports-api-openapi.yml
   format: yaml
   label: Apptio Reports API
   slug: apptio-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-reports-api-openapi.yml
+  url: https://artifacts.apis.io/apptio/openapi/apptio-reports-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apptio-openapi.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /cost-allocations\n  method: get\n  operationId: listCostAllocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cost-allocations/{allocationId}\n  method: get\n  operationId: getCostAllocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /budgets\n  method: get\n  operationId:\
   \ listBudgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/agentic-access/apptio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apptio/agentic-access/apptio-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Analytics

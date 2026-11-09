@@ -9,7 +9,7 @@ api_specs:
   label: Microsoft PowerPoint Drive Items API
   slug: microsoft-powerpoint-drive-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-powerpoint/refs/heads/main/openapi/microsoft-powerpoint-drive-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-powerpoint/openapi/microsoft-powerpoint-drive-items-api-openapi.yml
 consequence_counts:
   read: 3
   write: 6
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/powerp
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/drive/items/{item-id}\n  method: delete\n  operationId: deleteDriveItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/drive/items/{item-id}/children\n  method: get\n  operationId: listChildren\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/drive/items/{item-id}/content\n  method: get\n  operationId: downloadContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/drive/items/{item-id}/content\n  method:\
   \ put\n  operationId: uploadContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/drive/root:/{path}:/content\n  method: put\n  operationId: uploadContentByPath\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/drive/items/{item-id}/copy\n  method: post\n  operationId: copyDriveItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /me/drive/items/{item-id}/createLink\n  method: post\n  operationId: createSharingLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-powerpoint/refs/heads/main/agentic-access/powerpoint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-powerpoint/agentic-access/powerpoint-agentic-access.yml
 summary_line: 9 operations · 6 acting
 tags:
 - Microsoft Office

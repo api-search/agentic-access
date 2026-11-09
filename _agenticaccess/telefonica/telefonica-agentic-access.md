@@ -9,37 +9,37 @@ api_specs:
   label: Telefónica Device Roaming API
   slug: telefonica-device-roaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-device-roaming-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-device-roaming-api-openapi.yml
 - filename: telefonica-kyc-match-api-openapi.yml
   format: yaml
   label: Telefónica KYC Match API
   slug: telefonica-kyc-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-kyc-match-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-kyc-match-api-openapi.yml
 - filename: telefonica-location-verification-api-openapi.yml
   format: yaml
   label: Telefónica Location Verification API
   slug: telefonica-location-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-location-verification-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-location-verification-api-openapi.yml
 - filename: telefonica-number-verification-api-openapi.yml
   format: yaml
   label: Telefónica Number Verification API
   slug: telefonica-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-number-verification-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-number-verification-api-openapi.yml
 - filename: telefonica-qod-sessions-api-openapi.yml
   format: yaml
   label: Telefónica QoD Sessions API
   slug: telefonica-qod-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-qod-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-qod-sessions-api-openapi.yml
 - filename: telefonica-sim-swap-api-openapi.yml
   format: yaml
   label: Telefónica SIM Swap API
   slug: telefonica-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/openapi/telefonica-sim-swap-api-openapi.yml
+  url: https://artifacts.apis.io/telefonica/openapi/telefonica-sim-swap-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/telefo
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - number-verification:verify\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /number-verification/share\n  method: post\n  operationId: getPhoneNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - number-verification:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qod/sessions\n  method: post\n  operationId: createQodSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - qod:sessions:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /qod/sessions\n  method: get\n  operationId: listQodSessions\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - qod:sessions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qod/sessions/{sessionId}\n  method: get\n  operationId: getQodSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - qod:sessions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qod/sessions/{sessionId}\n  method: delete\n  operationId: deleteQodSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - qod:sessions:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sim-swap/check\n  method: post\n  operationId: checkSimSwap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    scope:\n    - sim-swap:read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sim-swap/retrieve-date\n  method: post\n  operationId: getSimSwapDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sim-swap:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/agentic-access/telefonica-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/telefonica/agentic-access/telefonica-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Telecommunications

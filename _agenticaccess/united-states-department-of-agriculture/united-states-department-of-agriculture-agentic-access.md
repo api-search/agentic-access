@@ -8,49 +8,49 @@ api_specs:
   label: United States Department of Agriculture Data API
   slug: united-states-department-of-agriculture-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-data-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-data-api-openapi.yml
 - filename: united-states-department-of-agriculture-foods-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Foods API
   slug: united-states-department-of-agriculture-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-foods-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-foods-api-openapi.yml
 - filename: united-states-department-of-agriculture-forecasts-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Forecasts API
   slug: united-states-department-of-agriculture-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-forecasts-api-openapi.yml
 - filename: united-states-department-of-agriculture-metadata-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Metadata API
   slug: united-states-department-of-agriculture-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-metadata-api-openapi.yml
 - filename: united-states-department-of-agriculture-nutrients-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Nutrients API
   slug: united-states-department-of-agriculture-nutrients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-nutrients-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-nutrients-api-openapi.yml
 - filename: united-states-department-of-agriculture-stations-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Stations API
   slug: united-states-department-of-agriculture-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-stations-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-stations-api-openapi.yml
 - filename: united-states-department-of-agriculture-statistics-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Statistics API
   slug: united-states-department-of-agriculture-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-statistics-api-openapi.yml
 - filename: united-states-department-of-agriculture-survey-data-api-openapi.yml
   format: yaml
   label: United States Department of Agriculture Survey Data API
   slug: united-states-department-of-agriculture-survey-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/openapi/united-states-department-of-agriculture-survey-data-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-department-of-agriculture/openapi/united-states-department-of-agriculture-survey-data-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/usda-e
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /report\n  method: get\n  operationId: getAvailableReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variable\n  method: get\n  operationId: getAvailableVariables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveydata\n  method: get\n  operationId: getSurveyData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foods/search\n  method: get\n  operationId: searchFoods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/{fdcId}\n  method: get\n  operationId: getFoodById\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foods\n  method: get\n  operationId: getFoodsByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nutrients\n  method: get\n  operationId: getNutrients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api_GET/\n  method: get\n  operationId: getAgriculturalStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_param_values/\n  method: get\n  operationId: getParameterValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_counts/\n  method:\
   \ get\n  operationId: getRecordCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stations\n  method: get\n  operationId: getStations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data\n  method: get\n  operationId: getStationData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forecasts\n  method: get\n  operationId: getWaterSupplyForecasts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/agentic-access/united-states-department-of-agriculture-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/united-states-department-of-agriculture/agentic-access/united-states-department-of-agriculture-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Federal Government

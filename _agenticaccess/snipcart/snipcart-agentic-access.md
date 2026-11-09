@@ -9,55 +9,55 @@ api_specs:
   label: Snipcart Customers API
   slug: snipcart-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-customers-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-customers-api-openapi.yml
 - filename: snipcart-discounts-api-openapi.yml
   format: yaml
   label: Snipcart Discounts API
   slug: snipcart-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-discounts-api-openapi.yml
 - filename: snipcart-domains-api-openapi.yml
   format: yaml
   label: Snipcart Domains API
   slug: snipcart-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-domains-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-domains-api-openapi.yml
 - filename: snipcart-notifications-api-openapi.yml
   format: yaml
   label: Snipcart Notifications API
   slug: snipcart-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-notifications-api-openapi.yml
 - filename: snipcart-orders-api-openapi.yml
   format: yaml
   label: Snipcart Orders API
   slug: snipcart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-orders-api-openapi.yml
 - filename: snipcart-products-api-openapi.yml
   format: yaml
   label: Snipcart Products API
   slug: snipcart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-products-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-products-api-openapi.yml
 - filename: snipcart-refunds-api-openapi.yml
   format: yaml
   label: Snipcart Refunds API
   slug: snipcart-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-refunds-api-openapi.yml
 - filename: snipcart-abandoned-carts-api-openapi.yml
   format: yaml
   label: Snipcart Abandoned Carts API
   slug: snipcart-abandoned-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-abandoned-carts-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-abandoned-carts-api-openapi.yml
 - filename: snipcart-user-sessions-api-openapi.yml
   format: yaml
   label: Snipcart User Sessions API
   slug: snipcart-user-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/openapi/snipcart-user-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/snipcart/openapi/snipcart-user-sessions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 19
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/snipca
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{id}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{id}\n  method: put\n  operationId: updateProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/{id}\n  method: delete\n  operationId: archiveProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n- path: /orders/{token}/refunds\n  method: get\n  operationId: listOrderRefunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{token}/refunds\n  method: post\n  operationId: createRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{token}/refunds/{id}\n  method: get\n  operationId: getRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usersessions/{token}\n  method: get\n  operationId: getUserSession\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/agentic-access/snipcart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snipcart/agentic-access/snipcart-agentic-access.yml
 summary_line: 30 operations · 11 acting
 tags:
 - E-Commerce

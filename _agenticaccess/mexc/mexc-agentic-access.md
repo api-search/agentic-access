@@ -9,55 +9,55 @@ api_specs:
   label: MEXC Accounts and Transactions API
   slug: mexc-accounts-and-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-accounts-and-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/mexc/openapi/mexc-accounts-and-transactions-api-openapi.yml
 - filename: mexc-eft-api-openapi.yml
   format: yaml
   label: MEXC EFT API
   slug: mexc-eft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-eft-api-openapi.yml
+  url: https://artifacts.apis.io/mexc/openapi/mexc-eft-api-openapi.yml
 - filename: mexc-margin-api-openapi.yml
   format: yaml
   label: MEXC Margin API
   slug: mexc-margin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-margin-api-openapi.yml
+  url: https://artifacts.apis.io/mexc/openapi/mexc-margin-api-openapi.yml
 - filename: mexc-market-date-endpoints-api-openapi.yml
   format: yaml
   label: MEXC Market Date Endpoints API
   slug: mexc-market-date-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-market-date-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/mexc/openapi/mexc-market-date-endpoints-api-openapi.yml
 - filename: mexc-parent-child-account-api-openapi.yml
   format: yaml
   label: MEXC Parent child account API
   slug: mexc-parent-child-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-parent-child-account-api-openapi.yml
+  url: https://artifacts.apis.io/mexc/openapi/mexc-parent-child-account-api-openapi.yml
 - filename: mexc-quote-api-openapi.yml
   format: yaml
   label: MEXC Quote API
   slug: mexc-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-quote-api-openapi.yml
+  url: https://artifacts.apis.io/mexc/openapi/mexc-quote-api-openapi.yml
 - filename: mexc-rebate-api-openapi.yml
   format: yaml
   label: MEXC Rebate API
   slug: mexc-rebate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-rebate-api-openapi.yml
+  url: https://artifacts.apis.io/mexc/openapi/mexc-rebate-api-openapi.yml
 - filename: mexc-spot-account-trade-api-openapi.yml
   format: yaml
   label: MEXC Spot Account/Trade API
   slug: mexc-spot-account-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-spot-account-trade-api-openapi.yml
+  url: https://artifacts.apis.io/mexc/openapi/mexc-spot-account-trade-api-openapi.yml
 - filename: mexc-wallet-api-openapi.yml
   format: yaml
   label: MEXC Wallet API
   slug: mexc-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/openapi/mexc-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/mexc/openapi/mexc-wallet-api-openapi.yml
 consequence_counts:
   physical: 25
   read: 93
@@ -246,8 +246,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mexc-a
   \  method: post\n  operationId: sub_account_universaltransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/capital/sub-account/universalTransfer\n  method: get\n  operationId: query_sub_account_universaltransfer_record\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/sub-account/futures\n  method: post\n  operationId: enable_futures_for_sub_account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/v3/sub-account/margin\n  method: post\n  operationId: enable_margin_for_sub_account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/contract/ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/detail\n  method: get\n  operationId: contractdetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/support_currencies\n  method: get\n  operationId: depthbysymbol\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/depth_commits/BTC_USDT/20\n  method: get\n  operationId: fundingratebysymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/kline/BTC_USDT\n  method: get\n  operationId: klinebysymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/kline/index_price/BTC_USDT\n  method: get\n  operationId: indexpriceklinebysymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/kline/fair_price/BTC_USDT\n  method: get\n  operationId: fairpriceklinebysymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/deals/BTC_USDT\n  method: get\n  operationId: dealsbysymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/ticker\n  method: get\n  operationId: ticker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/risk_reverse\n  method: get\n  operationId: riskreverse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/agentic-access/mexc-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/agentic-access/mexc-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/deals/BTC_USDT\n  method: get\n  operationId: dealsbysymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/ticker\n  method: get\n  operationId: ticker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contract/risk_reverse\n  method: get\n  operationId: riskreverse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/mexc/agentic-access/mexc-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/mexc/agentic-access/mexc-agentic-access.yml
 summary_line: 142 operations · 49 acting · 6 human-in-the-loop
 tags:
 - Cryptocurrency

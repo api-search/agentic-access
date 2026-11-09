@@ -9,31 +9,55 @@ api_specs:
   label: Amazon Firewall Manager Admin Accounts API
   slug: amazon-firewall-manager-admin-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-admin-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-admin-accounts-api-openapi.yml
 - filename: amazon-firewall-manager-compliance-api-openapi.yml
   format: yaml
   label: Amazon Firewall Manager Compliance API
   slug: amazon-firewall-manager-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-compliance-api-openapi.yml
 - filename: amazon-firewall-manager-member-accounts-api-openapi.yml
   format: yaml
   label: Amazon Firewall Manager Member Accounts API
   slug: amazon-firewall-manager-member-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-member-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-member-accounts-api-openapi.yml
 - filename: amazon-firewall-manager-policies-api-openapi.yml
   format: yaml
   label: Amazon Firewall Manager Policies API
   slug: amazon-firewall-manager-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-policies-api-openapi.yml
 - filename: amazon-firewall-manager-resources-api-openapi.yml
   format: yaml
   label: Amazon Firewall Manager Resources API
   slug: amazon-firewall-manager-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-resources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-resources-api-openapi.yml
+- filename: amazon-firewall-manager-apps-list-api-openapi.yml
+  format: yaml
+  label: Amazon Firewall Manager Firewall Manager Apps List API
+  slug: amazon-firewall-manager-apps-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-apps-list-api-openapi.yml
+- filename: amazon-firewall-manager-notification-channel-api-openapi.yml
+  format: yaml
+  label: Amazon Firewall Manager Firewall Manager Notification Channel API
+  slug: amazon-firewall-manager-notification-channel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-notification-channel-api-openapi.yml
+- filename: amazon-firewall-manager-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Firewall Manager Firewall Manager Operations API
+  slug: amazon-firewall-manager-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-operations-api-openapi.yml
+- filename: amazon-firewall-manager-protocols-list-api-openapi.yml
+  format: yaml
+  label: Amazon Firewall Manager Firewall Manager Protocols List API
+  slug: amazon-firewall-manager-protocols-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-firewall-manager/openapi/amazon-firewall-manager-protocols-list-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -64,9 +88,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /fms/2018-01-01/member-account\n  method: get\n  operationId: listMemberAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fms/2018-01-01/policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fms/2018-01-01/policies\n  method: post\n  operationId: putPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fms/2018-01-01/policies/{policyId}\n  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fms/2018-01-01/policies/{policyId}\n  method: delete\n  operationId: deletePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fms/2018-01-01/resource-set\n  method: put\n  operationId: putResourceSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fms/2018-01-01/resource-set/list\n  method: post\n  operationId: listResourceSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fms/2018-01-01/tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fms/2018-01-01/tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/agentic-access/amazon-firewall-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-firewall-manager/agentic-access/amazon-firewall-manager-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
+- Amazon Web Services
 - Compliance
 - Firewall
 - Network Security

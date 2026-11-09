@@ -9,85 +9,85 @@ api_specs:
   label: Fixie Accounts API
   slug: fixie-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-accounts-api-openapi.yml
 - filename: fixie-agents-api-openapi.yml
   format: yaml
   label: Fixie Agents API
   slug: fixie-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-agents-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-agents-api-openapi.yml
 - filename: fixie-api-keys-api-openapi.yml
   format: yaml
   label: Fixie API Keys API
   slug: fixie-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-api-keys-api-openapi.yml
 - filename: fixie-call-throttles-api-openapi.yml
   format: yaml
   label: Fixie Call Throttles API
   slug: fixie-call-throttles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-call-throttles-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-call-throttles-api-openapi.yml
 - filename: fixie-calls-api-openapi.yml
   format: yaml
   label: Fixie Calls API
   slug: fixie-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-calls-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-calls-api-openapi.yml
 - filename: fixie-corpora-api-openapi.yml
   format: yaml
   label: Fixie Corpora API
   slug: fixie-corpora-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-corpora-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-corpora-api-openapi.yml
 - filename: fixie-deleted-calls-api-openapi.yml
   format: yaml
   label: Fixie Deleted Calls API
   slug: fixie-deleted-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-deleted-calls-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-deleted-calls-api-openapi.yml
 - filename: fixie-models-api-openapi.yml
   format: yaml
   label: Fixie Models API
   slug: fixie-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-models-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-models-api-openapi.yml
 - filename: fixie-schema-api-openapi.yml
   format: yaml
   label: Fixie Schema API
   slug: fixie-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-schema-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-schema-api-openapi.yml
 - filename: fixie-sip-api-openapi.yml
   format: yaml
   label: Fixie Sip API
   slug: fixie-sip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-sip-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-sip-api-openapi.yml
 - filename: fixie-telephony-configs-api-openapi.yml
   format: yaml
   label: Fixie Telephony Configs API
   slug: fixie-telephony-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-telephony-configs-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-telephony-configs-api-openapi.yml
 - filename: fixie-tools-api-openapi.yml
   format: yaml
   label: Fixie Tools API
   slug: fixie-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-tools-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-tools-api-openapi.yml
 - filename: fixie-voices-api-openapi.yml
   format: yaml
   label: Fixie Voices API
   slug: fixie-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-voices-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-voices-api-openapi.yml
 - filename: fixie-webhooks-api-openapi.yml
   format: yaml
   label: Fixie Webhooks API
   slug: fixie-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fixie/openapi/fixie-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 57
@@ -152,8 +152,8 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/fixie-
   \  operationId: tools_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tools/{tool_id}/history\n  method: get\n  operationId: tools_history_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tools/{tool_id}/test\n  method: post\n  operationId: tools_test_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/voice_preview\n  method: post\n  operationId: preview_voice\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/voices\n  method: get\n  operationId: voices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/voices\n  method: post\n  operationId: voices_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/voices/{voice_id}\n  method: get\n  operationId: voices_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /api/voices/{voice_id}\n  method: put\n  operationId: voices_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/voices/{voice_id}\n  method: patch\n  operationId: voices_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/voices/{voice_id}\n  method: delete\n  operationId: voices_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/voices/{voice_id}/preview\n  method: get\n  operationId: voices_preview_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks\n  method: get\n  operationId: webhooks_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks\n  method: post\n  operationId: webhooks_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/agentic-access/fixie-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/agentic-access/fixie-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/voices/{voice_id}/preview\n  method: get\n  operationId: voices_preview_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks\n  method: get\n  operationId: webhooks_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks\n  method: post\n  operationId: webhooks_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/fixie/agentic-access/fixie-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/fixie/agentic-access/fixie-agentic-access.yml
 summary_line: 114 operations · 57 acting
 tags:
 - Company

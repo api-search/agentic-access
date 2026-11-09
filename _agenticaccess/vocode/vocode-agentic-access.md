@@ -9,43 +9,43 @@ api_specs:
   label: Vocode Actions API
   slug: vocode-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-actions-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-actions-api-openapi.yml
 - filename: vocode-agents-api-openapi.yml
   format: yaml
   label: Vocode Agents API
   slug: vocode-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-agents-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-agents-api-openapi.yml
 - filename: vocode-calls-api-openapi.yml
   format: yaml
   label: Vocode Calls API
   slug: vocode-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-calls-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-calls-api-openapi.yml
 - filename: vocode-numbers-api-openapi.yml
   format: yaml
   label: Vocode Numbers API
   slug: vocode-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-numbers-api-openapi.yml
 - filename: vocode-usage-api-openapi.yml
   format: yaml
   label: Vocode Usage API
   slug: vocode-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-usage-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-usage-api-openapi.yml
 - filename: vocode-voices-api-openapi.yml
   format: yaml
   label: Vocode Voices API
   slug: vocode-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-voices-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-voices-api-openapi.yml
 - filename: vocode-webhooks-api-openapi.yml
   format: yaml
   label: Vocode Webhooks API
   slug: vocode-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/openapi/vocode-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vocode/openapi/vocode-webhooks-api-openapi.yml
 consequence_counts:
   read: 14
   write: 14
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vocode
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voices\n  method: get\n  operationId: getVoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voices/list\n  method: get\n  operationId: listVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voices/update\n  method: post\n  operationId: updateVoice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/create\n  method: post\n  operationId: createWebhook\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/list\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/update\n  method: post\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/agentic-access/vocode-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vocode/agentic-access/vocode-agentic-access.yml
 summary_line: 28 operations · 14 acting
 tags:
 - Voice AI

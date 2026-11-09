@@ -9,19 +9,73 @@ api_specs:
   label: Bloom Account API
   slug: trybloom-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-account-api-openapi.yml
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-account-api-openapi.yml
 - filename: trybloom-brands-api-openapi.yml
   format: yaml
   label: Bloom Brands API
   slug: trybloom-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-brands-api-openapi.yml
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-brands-api-openapi.yml
 - filename: trybloom-images-api-openapi.yml
   format: yaml
   label: Bloom Images API
   slug: trybloom-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/openapi/trybloom-images-api-openapi.yml
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-images-api-openapi.yml
+- filename: trybloom-audio-api-openapi.yml
+  format: yaml
+  label: Bloom Audio API
+  slug: trybloom-audio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-audio-api-openapi.yml
+- filename: trybloom-briefs-api-openapi.yml
+  format: yaml
+  label: Bloom Briefs API
+  slug: trybloom-briefs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-briefs-api-openapi.yml
+- filename: trybloom-feedback-api-openapi.yml
+  format: yaml
+  label: Bloom Feedback API
+  slug: trybloom-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-feedback-api-openapi.yml
+- filename: trybloom-generations-api-openapi.yml
+  format: yaml
+  label: Bloom Generations API
+  slug: trybloom-generations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-generations-api-openapi.yml
+- filename: trybloom-library-api-openapi.yml
+  format: yaml
+  label: Bloom Library API
+  slug: trybloom-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-library-api-openapi.yml
+- filename: trybloom-models-api-openapi.yml
+  format: yaml
+  label: Bloom Models API
+  slug: trybloom-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-models-api-openapi.yml
+- filename: trybloom-reviews-api-openapi.yml
+  format: yaml
+  label: Bloom Reviews API
+  slug: trybloom-reviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-reviews-api-openapi.yml
+- filename: trybloom-uploads-api-openapi.yml
+  format: yaml
+  label: Bloom Uploads API
+  slug: trybloom-uploads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-uploads-api-openapi.yml
+- filename: trybloom-videos-api-openapi.yml
+  format: yaml
+  label: Bloom Videos API
+  slug: trybloom-videos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/trybloom/openapi/trybloom-videos-api-openapi.yml
 consequence_counts:
   read: 7
   write: 16
@@ -55,7 +109,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/_origi
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/{id}/remove-background\n  method: post\n  operationId: images.removeBackground\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/{id}/vectorize\n  method: post\n  operationId: images.vectorize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/uploads\n  method: post\n  operationId: images.upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/uploads/file\n  method: post\n  operationId: images.uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/uploads/file/signed/{token}\n  method: post\n  operationId: images.uploadFileSigned\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/search\n  method: post\n  operationId: images.search\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credits\n  method: get\n  operationId: credits.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: get\n  operationId: workspaces.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/agentic-access/trybloom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trybloom/agentic-access/trybloom-agentic-access.yml
 summary_line: 23 operations · 16 acting
 tags:
 - Company

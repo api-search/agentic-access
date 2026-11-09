@@ -9,61 +9,61 @@ api_specs:
   label: EOSIO Get Abi API
   slug: eosio-get-abi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-abi-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-get-abi-api-openapi.yml
 - filename: eosio-get-account-api-openapi.yml
   format: yaml
   label: EOSIO Get Account API
   slug: eosio-get-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-account-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-get-account-api-openapi.yml
 - filename: eosio-get-block-api-openapi.yml
   format: yaml
   label: EOSIO Get Block API
   slug: eosio-get-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-block-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-get-block-api-openapi.yml
 - filename: eosio-get-code-api-openapi.yml
   format: yaml
   label: EOSIO Get Code API
   slug: eosio-get-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-code-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-get-code-api-openapi.yml
 - filename: eosio-get-currency-balance-api-openapi.yml
   format: yaml
   label: EOSIO Get Currency Balance API
   slug: eosio-get-currency-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-currency-balance-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-get-currency-balance-api-openapi.yml
 - filename: eosio-get-info-api-openapi.yml
   format: yaml
   label: EOSIO Get Info API
   slug: eosio-get-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-info-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-get-info-api-openapi.yml
 - filename: eosio-get-required-keys-api-openapi.yml
   format: yaml
   label: EOSIO Get Required Keys API
   slug: eosio-get-required-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-required-keys-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-get-required-keys-api-openapi.yml
 - filename: eosio-get-table-rows-api-openapi.yml
   format: yaml
   label: EOSIO Get Table Rows API
   slug: eosio-get-table-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-get-table-rows-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-get-table-rows-api-openapi.yml
 - filename: eosio-push-transaction-api-openapi.yml
   format: yaml
   label: EOSIO Push Transaction API
   slug: eosio-push-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-push-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-push-transaction-api-openapi.yml
 - filename: eosio-send-transaction-api-openapi.yml
   format: yaml
   label: EOSIO Send Transaction API
   slug: eosio-send-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/openapi/eosio-send-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/eosio/openapi/eosio-send-transaction-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/eosio-
   \  operationId: getAbi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_account\n  method: post\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_block\n  method: post\n  operationId: getBlock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_code\n  method: post\n  operationId: getCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_currency_balance\n  method: post\n  operationId: getCurrencyBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /get_info\n  method: get\n  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_required_keys\n  method: post\n  operationId: getRequiredKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_table_rows\n  method: post\n  operationId: getTableRows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /push_transaction\n  method: post\n  operationId: pushTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /send_transaction\n  method: post\n  operationId: sendTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/agentic-access/eosio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eosio/agentic-access/eosio-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Antelope

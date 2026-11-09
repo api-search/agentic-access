@@ -9,43 +9,43 @@ api_specs:
   label: OpenZeppelin Health API
   slug: openzeppelin-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-health-api-openapi.yml
+  url: https://artifacts.apis.io/openzeppelin/openapi/openzeppelin-health-api-openapi.yml
 - filename: openzeppelin-metrics-api-openapi.yml
   format: yaml
   label: OpenZeppelin Metrics API
   slug: openzeppelin-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/openzeppelin/openapi/openzeppelin-metrics-api-openapi.yml
 - filename: openzeppelin-networks-api-openapi.yml
   format: yaml
   label: OpenZeppelin Networks API
   slug: openzeppelin-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-networks-api-openapi.yml
+  url: https://artifacts.apis.io/openzeppelin/openapi/openzeppelin-networks-api-openapi.yml
 - filename: openzeppelin-notifications-api-openapi.yml
   format: yaml
   label: OpenZeppelin Notifications API
   slug: openzeppelin-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/openzeppelin/openapi/openzeppelin-notifications-api-openapi.yml
 - filename: openzeppelin-plugins-api-openapi.yml
   format: yaml
   label: OpenZeppelin Plugins API
   slug: openzeppelin-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/openzeppelin/openapi/openzeppelin-plugins-api-openapi.yml
 - filename: openzeppelin-relayers-api-openapi.yml
   format: yaml
   label: OpenZeppelin Relayers API
   slug: openzeppelin-relayers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-relayers-api-openapi.yml
+  url: https://artifacts.apis.io/openzeppelin/openapi/openzeppelin-relayers-api-openapi.yml
 - filename: openzeppelin-signers-api-openapi.yml
   format: yaml
   label: OpenZeppelin Signers API
   slug: openzeppelin-signers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/openapi/openzeppelin-signers-api-openapi.yml
+  url: https://artifacts.apis.io/openzeppelin/openapi/openzeppelin-signers-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 21
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openze
   \ /api/v1/relayers/{relayer_id}/transactions/{transaction_id}\n  method: delete\n  operationId: cancelTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/signers\n  method: get\n  operationId: listSigners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/signers\n  method: post\n  operationId: createSigner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/signers/{signer_id}\n  method:\
   \ get\n  operationId: getSigner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/signers/{signer_id}\n  method: delete\n  operationId: deleteSigner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/signers/{signer_id}\n  method: patch\n  operationId: updateSigner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /debug/metrics/scrape\n  method: get\n  operationId: scrape_metrics\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  operationId: list_metrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/{metric_name}\n  method: get\n  operationId: metric_detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - metrics:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/agentic-access/openzeppelin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openzeppelin/agentic-access/openzeppelin-agentic-access.yml
 summary_line: 43 operations · 22 acting
 tags:
 - Web3

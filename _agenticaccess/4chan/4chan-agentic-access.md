@@ -8,37 +8,37 @@ api_specs:
   label: 4chan Archive API
   slug: 4chan-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-archive-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-archive-api-openapi.yml
 - filename: 4chan-boards-api-openapi.yml
   format: yaml
   label: 4chan Boards API
   slug: 4chan-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-boards-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-boards-api-openapi.yml
 - filename: 4chan-catalog-api-openapi.yml
   format: yaml
   label: 4chan Catalog API
   slug: 4chan-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-catalog-api-openapi.yml
 - filename: 4chan-indexes-api-openapi.yml
   format: yaml
   label: 4chan Indexes API
   slug: 4chan-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-indexes-api-openapi.yml
 - filename: 4chan-threadlist-api-openapi.yml
   format: yaml
   label: 4chan Threadlist API
   slug: 4chan-threadlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-threadlist-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-threadlist-api-openapi.yml
 - filename: 4chan-threads-api-openapi.yml
   format: yaml
   label: 4chan Threads API
   slug: 4chan-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-threads-api-openapi.yml
+  url: https://artifacts.apis.io/4chan/openapi/4chan-threads-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/4chan-api.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /boards.json\n  method: get\n  operationId: getBoards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{board}/threads.json\n  method: get\n  operationId: getBoardThreadlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{board}/catalog.json\n  method: get\n  operationId: getBoardCatalog\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{board}/archive.json\n  method: get\n  operationId: getBoardArchive\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{board}/{page}.json\n  method: get\n  operationId: getBoardIndexPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{board}/thread/{thread}.json\n  method: get\n  operationId: getThread\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/agentic-access/4chan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/4chan/agentic-access/4chan-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Social

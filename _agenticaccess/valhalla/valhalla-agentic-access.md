@@ -9,67 +9,67 @@ api_specs:
   label: Valhalla Expansion API
   slug: valhalla-expansion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-expansion-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-expansion-api-openapi.yml
 - filename: valhalla-height-api-openapi.yml
   format: yaml
   label: Valhalla Height API
   slug: valhalla-height-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-height-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-height-api-openapi.yml
 - filename: valhalla-isochrone-api-openapi.yml
   format: yaml
   label: Valhalla Isochrone API
   slug: valhalla-isochrone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-isochrone-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-isochrone-api-openapi.yml
 - filename: valhalla-locate-api-openapi.yml
   format: yaml
   label: Valhalla Locate API
   slug: valhalla-locate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-locate-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-locate-api-openapi.yml
 - filename: valhalla-optimized-route-api-openapi.yml
   format: yaml
   label: Valhalla Optimized Route API
   slug: valhalla-optimized-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-optimized-route-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-optimized-route-api-openapi.yml
 - filename: valhalla-route-api-openapi.yml
   format: yaml
   label: Valhalla Route API
   slug: valhalla-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-route-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-route-api-openapi.yml
 - filename: valhalla-sources-to-targets-api-openapi.yml
   format: yaml
   label: Valhalla Sources To Targets API
   slug: valhalla-sources-to-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-sources-to-targets-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-sources-to-targets-api-openapi.yml
 - filename: valhalla-status-api-openapi.yml
   format: yaml
   label: Valhalla Status API
   slug: valhalla-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-status-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-status-api-openapi.yml
 - filename: valhalla-tile-api-openapi.yml
   format: yaml
   label: Valhalla Tile API
   slug: valhalla-tile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-tile-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-tile-api-openapi.yml
 - filename: valhalla-trace-attributes-api-openapi.yml
   format: yaml
   label: Valhalla Trace Attributes API
   slug: valhalla-trace-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-trace-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-trace-attributes-api-openapi.yml
 - filename: valhalla-trace-route-api-openapi.yml
   format: yaml
   label: Valhalla Trace Route API
   slug: valhalla-trace-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/openapi/valhalla-trace-route-api-openapi.yml
+  url: https://artifacts.apis.io/valhalla/openapi/valhalla-trace-route-api-openapi.yml
 consequence_counts:
   read: 3
   write: 9
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trace_attributes\n  method: post\n  operationId: traceAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /height\n  method: post\n  operationId: height\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locate\n  method: get\n  operationId: locateGet\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locate\n  method: post\n  operationId: locate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /expansion\n  method: post\n  operationId: expansion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /status\n  method: get\n  operationId: status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tile/{z}/{x}/{y}.mvt\n\
   \  method: get\n  operationId: tile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/agentic-access/valhalla-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/valhalla/agentic-access/valhalla-agentic-access.yml
 summary_line: 12 operations · 9 acting
 tags:
 - Routing

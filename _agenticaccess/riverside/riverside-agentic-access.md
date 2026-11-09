@@ -9,25 +9,25 @@ api_specs:
   label: Riverside Exports API
   slug: riverside-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/openapi/riverside-exports-api-openapi.yml
+  url: https://artifacts.apis.io/riverside/openapi/riverside-exports-api-openapi.yml
 - filename: riverside-productions-api-openapi.yml
   format: yaml
   label: Riverside Productions API
   slug: riverside-productions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/openapi/riverside-productions-api-openapi.yml
+  url: https://artifacts.apis.io/riverside/openapi/riverside-productions-api-openapi.yml
 - filename: riverside-recordings-api-openapi.yml
   format: yaml
   label: Riverside Recordings API
   slug: riverside-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/openapi/riverside-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/riverside/openapi/riverside-recordings-api-openapi.yml
 - filename: riverside-webinars-api-openapi.yml
   format: yaml
   label: Riverside Webinars API
   slug: riverside-webinars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/openapi/riverside-webinars-api-openapi.yml
+  url: https://artifacts.apis.io/riverside/openapi/riverside-webinars-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rivers
   \  method: get\n  operationId: getRecording\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/recordings/{recording_id}\n  method: delete\n  operationId: deleteRecording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/recordings/{recording_id}/files/{file_id}/download\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/recordings/{recording_id}/transcription/download\n  method: get\n  operationId: downloadTranscriptionFile\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/exports\n  method: get\n  operationId: listAllExports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/exports/{export_id}\n  method: get\n  operationId: getExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/exports/{export_id}\n  method: delete\n  operationId: deleteExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/exports/{export_id}/download\n  method: get\n  operationId: downloadExportFile\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webinars/{webinar_id}/registrants\n  method: post\n  operationId: createWebinarRegistrant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webinars/{webinar_id}/registrants\n  method: get\n  operationId: getRegistrants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/agentic-access/riverside-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/riverside/agentic-access/riverside-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
 - Podcasts

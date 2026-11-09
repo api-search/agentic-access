@@ -8,37 +8,37 @@ api_specs:
   label: FAO FAOSTAT Catalog API
   slug: unfao-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/openapi/unfao-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/unfao/openapi/unfao-catalog-api-openapi.yml
 - filename: unfao-data-api-openapi.yml
   format: yaml
   label: FAO FAOSTAT Data API
   slug: unfao-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/openapi/unfao-data-api-openapi.yml
+  url: https://artifacts.apis.io/unfao/openapi/unfao-data-api-openapi.yml
 - filename: unfao-dimensions-api-openapi.yml
   format: yaml
   label: FAO FAOSTAT Dimensions API
   slug: unfao-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/openapi/unfao-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/unfao/openapi/unfao-dimensions-api-openapi.yml
 - filename: unfao-domains-api-openapi.yml
   format: yaml
   label: FAO FAOSTAT Domains API
   slug: unfao-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/openapi/unfao-domains-api-openapi.yml
+  url: https://artifacts.apis.io/unfao/openapi/unfao-domains-api-openapi.yml
 - filename: unfao-downloads-api-openapi.yml
   format: yaml
   label: FAO FAOSTAT Downloads API
   slug: unfao-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/openapi/unfao-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/unfao/openapi/unfao-downloads-api-openapi.yml
 - filename: unfao-metadata-api-openapi.yml
   format: yaml
   label: FAO FAOSTAT Metadata API
   slug: unfao-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/openapi/unfao-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/unfao/openapi/unfao-metadata-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/faosta
   \ get\n  operationId: getGroupsAndDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/definitions/types/domain\n  method: get\n  operationId: getDomainList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/dimensions/{domain}\n  method: get\n  operationId: getDomainDimensions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/dimensions/{domain}/{dimension}\n  method: get\n  operationId: getDimensionMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/data/{domain}\n  method: get\n  operationId: getDomainData\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/definitions/types/flag\n  method: get\n  operationId: getFlags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/definitions/types/area\n  method: get\n  operationId: getAreaList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/definitions/types/area/{area_code}\n  method: get\n  operationId: getAreaDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/metadata/{domain}\n  method: get\n  operationId: getDomainMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/agentic-access/unfao-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unfao/agentic-access/unfao-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Agriculture

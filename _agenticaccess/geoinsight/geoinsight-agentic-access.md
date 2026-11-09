@@ -8,79 +8,79 @@ api_specs:
   label: GeoInsight Collection ID API
   slug: geoinsight-collection-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-collection-id-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-collection-id-api-openapi.yml
 - filename: geoinsight-collections-api-openapi.yml
   format: yaml
   label: GeoInsight Collections API
   slug: geoinsight-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-collections-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-collections-api-openapi.yml
 - filename: geoinsight-data-api-openapi.yml
   format: yaml
   label: GeoInsight Data API
   slug: geoinsight-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-data-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-data-api-openapi.yml
 - filename: geoinsight-dggrs-id-api-openapi.yml
   format: yaml
   label: GeoInsight DGGRS ID API
   slug: geoinsight-dggrs-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-dggrs-id-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-dggrs-id-api-openapi.yml
 - filename: geoinsight-dggs-api-openapi.yml
   format: yaml
   label: GeoInsight DGGS API
   slug: geoinsight-dggs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-dggs-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-dggs-api-openapi.yml
 - filename: geoinsight-items-api-openapi.yml
   format: yaml
   label: GeoInsight Items API
   slug: geoinsight-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-items-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-items-api-openapi.yml
 - filename: geoinsight-root-api-openapi.yml
   format: yaml
   label: GeoInsight Root API
   slug: geoinsight-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-root-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-root-api-openapi.yml
 - filename: geoinsight-zone-id-api-openapi.yml
   format: yaml
   label: GeoInsight Zone ID API
   slug: geoinsight-zone-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-zone-id-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-zone-id-api-openapi.yml
 - filename: geoinsight-zones-api-openapi.yml
   format: yaml
   label: GeoInsight Zones API
   slug: geoinsight-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-zones-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-zones-api-openapi.yml
 - filename: geoinsight-concept-id-api-openapi.yml
   format: yaml
   label: GeoInsight Concept ID API
   slug: geoinsight-concept-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-concept-id-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-concept-id-api-openapi.yml
 - filename: geoinsight-concepts-api-openapi.yml
   format: yaml
   label: GeoInsight Concepts API
   slug: geoinsight-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-concepts-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-concepts-api-openapi.yml
 - filename: geoinsight-conformance-api-openapi.yml
   format: yaml
   label: GeoInsight Conformance API
   slug: geoinsight-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-conformance-api-openapi.yml
 - filename: geoinsight-orders-api-openapi.yml
   format: yaml
   label: GeoInsight Orders API
   slug: geoinsight-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-orders-api-openapi.yml
+  url: https://artifacts.apis.io/geoinsight/openapi/geoinsight-orders-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-08-20'\nmethod: generated\nsource: openapi/geoins
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/dggs\n  method: get\n  operationId: collection_id_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/dggs/{dggrs_id}\n  method: get\n  operationId: collection_id_dggrs_id_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/dggs/{dggrs_id}/zones\n  method: get\n  operationId: collection_id_dggrs_id_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/dggs/{dggrs_id}/zones/{zone_id}\n \
   \ method: get\n  operationId: collection_id_dggrs_id_zone_id_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/dggs/{dggrs_id}/zones/{zone_id}/data\n  method: get\n  operationId: collection_id_dggrs_id_zone_id_data_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/items\n  method: get\n  operationId: items_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/items/{feature_id}\n  method: get\n  operationId: item_id_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /dggs\n  method: get\n  operationId: utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dggs/{dggrs_id}\n  method: get\n  operationId: dggrs_id_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dggs/{dggrs_id}/zones\n  method: get\n  operationId: dggrs_id_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dggs/{dggrs_id}/zones/{zone_id}\n  method: get\n  operationId: dggrs_id_zone_id_utoipa_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/agentic-access/geoinsight-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/geoinsight/agentic-access/geoinsight-agentic-access.yml
 summary_line: 14 operations
 tags:
 - Geospatial

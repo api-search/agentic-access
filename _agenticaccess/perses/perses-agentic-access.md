@@ -9,25 +9,25 @@ api_specs:
   label: Perses Dashboards API
   slug: perses-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/perses/openapi/perses-dashboards-api-openapi.yml
 - filename: perses-global-datasources-api-openapi.yml
   format: yaml
   label: Perses Global Datasources API
   slug: perses-global-datasources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-global-datasources-api-openapi.yml
+  url: https://artifacts.apis.io/perses/openapi/perses-global-datasources-api-openapi.yml
 - filename: perses-projects-api-openapi.yml
   format: yaml
   label: Perses Projects API
   slug: perses-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-projects-api-openapi.yml
+  url: https://artifacts.apis.io/perses/openapi/perses-projects-api-openapi.yml
 - filename: perses-data-sources-api-openapi.yml
   format: yaml
   label: Perses Data Sources API
   slug: perses-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/perses/openapi/perses-data-sources-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/perses
   \ createDatasource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{projectName}/datasources/{datasourceName}\n  method: get\n  operationId: getDatasource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectName}/datasources/{datasourceName}\n  method: put\n  operationId: updateDatasource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{projectName}/datasources/{datasourceName}\n\
   \  method: delete\n  operationId: deleteDatasource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/globaldatasources\n  method: get\n  operationId: listGlobalDatasources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/globaldatasources\n  method: post\n  operationId: createGlobalDatasource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/globaldatasources/{name}\n  method: get\n  operationId:\
   \ getGlobalDatasource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/globaldatasources/{name}\n  method: put\n  operationId: updateGlobalDatasource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/globaldatasources/{name}\n  method: delete\n  operationId: deleteGlobalDatasource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/agentic-access/perses-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/perses/agentic-access/perses-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
 - CNCF

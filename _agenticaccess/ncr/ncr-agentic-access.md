@@ -9,43 +9,43 @@ api_specs:
   label: NCR Catalog API
   slug: ncr-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/ncr/openapi/ncr-catalog-api-openapi.yml
 - filename: ncr-category-api-openapi.yml
   format: yaml
   label: NCR Category API
   slug: ncr-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-category-api-openapi.yml
+  url: https://artifacts.apis.io/ncr/openapi/ncr-category-api-openapi.yml
 - filename: ncr-order-api-openapi.yml
   format: yaml
   label: NCR Order API
   slug: ncr-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-order-api-openapi.yml
+  url: https://artifacts.apis.io/ncr/openapi/ncr-order-api-openapi.yml
 - filename: ncr-provisioning-api-openapi.yml
   format: yaml
   label: NCR Provisioning API
   slug: ncr-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/ncr/openapi/ncr-provisioning-api-openapi.yml
 - filename: ncr-security-api-openapi.yml
   format: yaml
   label: NCR Security API
   slug: ncr-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-security-api-openapi.yml
+  url: https://artifacts.apis.io/ncr/openapi/ncr-security-api-openapi.yml
 - filename: ncr-selling-api-openapi.yml
   format: yaml
   label: NCR Selling API
   slug: ncr-selling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-selling-api-openapi.yml
+  url: https://artifacts.apis.io/ncr/openapi/ncr-selling-api-openapi.yml
 - filename: ncr-site-api-openapi.yml
   format: yaml
   label: NCR Site API
   slug: ncr-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/openapi/ncr-site-api-openapi.yml
+  url: https://artifacts.apis.io/ncr/openapi/ncr-site-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 21
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ncr-ca
   \ get\n  operationId: getCartItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /emerald/selling-service/cart/v1/carts/{cartId}/items\n  method: post\n  operationId: addItemToCart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /emerald/selling-service/cart/v1/carts/{cartId}/items/{lineId}\n  method: patch\n  operationId: updateItemInCart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /emerald/selling-service/cart/v1/carts/{cartId}/items/{lineId}\n\
   \  method: delete\n  operationId: removeItemFromCart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/sites\n  method: post\n  operationId: createSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/sites/{siteId}\n  method: get\n  operationId: getSiteById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/sites/{siteId}\n  method: put\n  operationId: updateSite\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/sites/find-by-criteria\n  method: post\n  operationId: findSitesByCriteria\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/sites/find-nearby/{coordinates}\n  method: get\n  operationId: findNearbySites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/sites/by-reference-id/{referenceId}\n  method: get\n  operationId: getSiteByReferenceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/agentic-access/ncr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ncr/agentic-access/ncr-agentic-access.yml
 summary_line: 43 operations · 22 acting
 tags:
 - Restaurant

@@ -9,49 +9,49 @@ api_specs:
   label: Flatcar Container Linux Activity API
   slug: flatcar-container-linux-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-activity-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-activity-api-openapi.yml
 - filename: flatcar-container-linux-apps-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Apps API
   slug: flatcar-container-linux-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-apps-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-apps-api-openapi.yml
 - filename: flatcar-container-linux-channels-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Channels API
   slug: flatcar-container-linux-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-channels-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-channels-api-openapi.yml
 - filename: flatcar-container-linux-config-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Config API
   slug: flatcar-container-linux-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-config-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-config-api-openapi.yml
 - filename: flatcar-container-linux-health-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Health API
   slug: flatcar-container-linux-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-health-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-health-api-openapi.yml
 - filename: flatcar-container-linux-instances-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Instances API
   slug: flatcar-container-linux-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-instances-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-instances-api-openapi.yml
 - filename: flatcar-container-linux-login-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Login API
   slug: flatcar-container-linux-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-login-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-login-api-openapi.yml
 - filename: flatcar-container-linux-update-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Update API
   slug: flatcar-container-linux-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-update-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-update-api-openapi.yml
 consequence_counts:
   read: 23
   write: 17
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nebras
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/apps/{appIDorProductID}/packages/{packageID}\n  method: delete\n  operationId: deletePackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/apps/{appIDorProductID}/packages/{packageID}/floor-channels\n  method: get\n  operationId: getPackageFloorChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/apps/{appIDorProductID}/groups/{groupID}/instances\n  method: get\n  operationId: getGroupInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/apps/{appIDorProductID}/groups/{groupID}/instancescount\n\
   \  method: get\n  operationId: getGroupInstancesCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/apps/{appIDorProductID}/groups/{groupID}/instances/{instanceID}\n  method: get\n  operationId: getInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/apps/{appIDorProductID}/groups/{groupID}/instances/{instanceID}/status_history\n  method: get\n  operationId: getInstanceStatusHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/instances/{instanceID}\n  method: put\n  operationId: updateInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/activity\n  method: get\n  operationId: paginateActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/agentic-access/flatcar-container-linux-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flatcar-container-linux/agentic-access/flatcar-container-linux-agentic-access.yml
 summary_line: 40 operations · 17 acting
 tags:
 - Cloud-Native

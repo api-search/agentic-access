@@ -9,67 +9,67 @@ api_specs:
   label: Google AdMob Accounts API
   slug: google-admob-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-accounts-api-openapi.yml
 - filename: google-admob-adapters-api-openapi.yml
   format: yaml
   label: Google AdMob Adapters API
   slug: google-admob-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-adapters-api-openapi.yml
 - filename: google-admob-adsources-api-openapi.yml
   format: yaml
   label: Google AdMob Ad Sources API
   slug: google-admob-adsources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adsources-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-adsources-api-openapi.yml
 - filename: google-admob-adunitmappings-api-openapi.yml
   format: yaml
   label: Google AdMob Ad Unit Mappings API
   slug: google-admob-adunitmappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adunitmappings-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-adunitmappings-api-openapi.yml
 - filename: google-admob-apps-api-openapi.yml
   format: yaml
   label: Google AdMob Apps API
   slug: google-admob-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-apps-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-apps-api-openapi.yml
 - filename: google-admob-campaignreport-api-openapi.yml
   format: yaml
   label: Google AdMob Campaign Report API
   slug: google-admob-campaignreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-campaignreport-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-campaignreport-api-openapi.yml
 - filename: google-admob-mediationabexperiments-api-openapi.yml
   format: yaml
   label: Google AdMob Mediation Ab Experiments API
   slug: google-admob-mediationabexperiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationabexperiments-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-mediationabexperiments-api-openapi.yml
 - filename: google-admob-mediationgroups-api-openapi.yml
   format: yaml
   label: Google AdMob Mediation Groups API
   slug: google-admob-mediationgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationgroups-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-mediationgroups-api-openapi.yml
 - filename: google-admob-mediationreport-api-openapi.yml
   format: yaml
   label: Google AdMob Mediation Report API
   slug: google-admob-mediationreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationreport-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-mediationreport-api-openapi.yml
 - filename: google-admob-networkreport-api-openapi.yml
   format: yaml
   label: Google AdMob Network Report API
   slug: google-admob-networkreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-networkreport-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-networkreport-api-openapi.yml
 - filename: google-admob-ad-units-api-openapi.yml
   format: yaml
   label: Google AdMob Ad Units API
   slug: google-admob-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-ad-units-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/google
   \  method: post\n  operationId: accounts_adUnits_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/admob.readonly\n    - https://www.googleapis.com/auth/admob.report\n- path: /v1beta/accounts/{accountsId}/adUnits\n  method: get\n  operationId: accounts_adUnits_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/admob.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/accounts/{accountsId}/adUnits/{adUnitsId}/adUnitMappings\n  method: post\n  operationId: accounts_adUnits_adUnitMappings_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/admob.readonly\n    - https://www.googleapis.com/auth/admob.report\n- path: /v1beta/accounts/{accountsId}/adUnits/{adUnitsId}/adUnitMappings\n  method: get\n  operationId: accounts_adUnits_adUnitMappings_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/admob.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/accounts/{accountsId}/adSources\n  method: get\n  operationId: accounts_adSources_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/admob.readonly\n    - https://www.googleapis.com/auth/admob.report\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1beta/accounts/{accountsId}/adSources/{adSourcesId}/adapters\n  method: get\n  operationId: accounts_adSources_adapters_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/admob.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/agentic-access/google-admob-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-admob/agentic-access/google-admob-agentic-access.yml
 summary_line: 25 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Ad Mediation

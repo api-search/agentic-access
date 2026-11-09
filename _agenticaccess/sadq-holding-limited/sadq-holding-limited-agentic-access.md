@@ -9,85 +9,85 @@ api_specs:
   label: Sadq Holding Limited Archiving & Delegations API
   slug: sadq-holding-limited-archiving-delegations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-archiving-delegations-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-archiving-delegations-api-openapi.yml
 - filename: sadq-holding-limited-authentication-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Authentication API
   slug: sadq-holding-limited-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-authentication-api-openapi.yml
 - filename: sadq-holding-limited-configuration-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Configuration API
   slug: sadq-holding-limited-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-configuration-api-openapi.yml
 - filename: sadq-holding-limited-documents-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Documents API
   slug: sadq-holding-limited-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-documents-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-documents-api-openapi.yml
 - filename: sadq-holding-limited-envelopes-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Envelopes API
   slug: sadq-holding-limited-envelopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-envelopes-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-envelopes-api-openapi.yml
 - filename: sadq-holding-limited-invitations-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Invitations API
   slug: sadq-holding-limited-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-invitations-api-openapi.yml
 - filename: sadq-holding-limited-kyb-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited KYB API
   slug: sadq-holding-limited-kyb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-kyb-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-kyb-api-openapi.yml
 - filename: sadq-holding-limited-reports-requests-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Reports & Requests API
   slug: sadq-holding-limited-reports-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-reports-requests-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-reports-requests-api-openapi.yml
 - filename: sadq-holding-limited-sign-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Sign API
   slug: sadq-holding-limited-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-sign-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-sign-api-openapi.yml
 - filename: sadq-holding-limited-templates-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Templates API
   slug: sadq-holding-limited-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-templates-api-openapi.yml
 - filename: sadq-holding-limited-users-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Users API
   slug: sadq-holding-limited-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-users-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-users-api-openapi.yml
 - filename: sadq-holding-limited-webhooks-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Webhooks API
   slug: sadq-holding-limited-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-webhooks-api-openapi.yml
 - filename: sadq-holding-limited-workflows-api-openapi.yml
   format: yaml
   label: Sadq Holding Limited Workflows API
   slug: sadq-holding-limited-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-workflows-api-openapi.yml
 - filename: sadq-holding-limited-e-sign-api-openapi.yml
   format: yaml
   label: Sadq e Sign API
   slug: sadq-holding-limited-e-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/sadq-holding-limited-e-sign-api-openapi.yml
+  url: https://artifacts.apis.io/sadq-holding-limited/openapi/sadq-holding-limited-e-sign-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 23
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sadq-h
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{id}\n  method: delete\n  operationId: deleteApiV1WebhooksById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/recall\n  method: post\n  operationId: postApiV1WebhooksRecall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/logs\n  method: get\n  operationId:\
   \ getApiV1WebhooksLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workflows\n  method: get\n  operationId: getApiV1Workflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workflows/{workflowId}\n  method: put\n  operationId: putApiV1WorkflowsByWorkflowId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workflows/{id}\n  method: delete\n  operationId: deleteApiV1WorkflowsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/agentic-access/sadq-holding-limited-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sadq-holding-limited/agentic-access/sadq-holding-limited-agentic-access.yml
 summary_line: 65 operations · 42 acting
 tags:
 - Company

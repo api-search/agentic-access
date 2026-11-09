@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Spanner Databases API
   slug: google-cloud-spanner-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/google-cloud-spanner-databases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-spanner/openapi/google-cloud-spanner-databases-api-openapi.yml
 - filename: google-cloud-spanner-instances-api-openapi.yml
   format: yaml
   label: Google Cloud Spanner Instances API
   slug: google-cloud-spanner-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/google-cloud-spanner-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-spanner/openapi/google-cloud-spanner-instances-api-openapi.yml
 - filename: google-cloud-spanner-sessions-api-openapi.yml
   format: yaml
   label: Google Cloud Spanner Sessions API
   slug: google-cloud-spanner-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/google-cloud-spanner-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-spanner/openapi/google-cloud-spanner-sessions-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloud-
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/instances/{instance}\n  method: delete\n  operationId: deleteInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/spanner.admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/instances/{instance}/databases\n  method: get\n  operationId: listDatabases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/spanner.admin\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project}/instances/{instance}/databases\n  method: post\n  operationId: createDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/spanner.admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/instances/{instance}/databases/{database}\n  method: get\n  operationId: getDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/spanner.admin\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project}/instances/{instance}/databases/{database}\n\
   \  method: delete\n  operationId: dropDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/spanner.admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/instances/{instance}/databases/{database}/sessions\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/spanner.data\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/agentic-access/google-cloud-spanner-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-spanner/agentic-access/google-cloud-spanner-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Database

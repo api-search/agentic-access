@@ -9,85 +9,85 @@ api_specs:
   label: Heroku Account API
   slug: heroku-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-account-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-account-api-openapi.yml
 - filename: heroku-add-ons-api-openapi.yml
   format: yaml
   label: Heroku Add-ons API
   slug: heroku-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-add-ons-api-openapi.yml
 - filename: heroku-apps-api-openapi.yml
   format: yaml
   label: Heroku Apps API
   slug: heroku-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-apps-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-apps-api-openapi.yml
 - filename: heroku-builds-api-openapi.yml
   format: yaml
   label: Heroku Builds API
   slug: heroku-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-builds-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-builds-api-openapi.yml
 - filename: heroku-collaborators-api-openapi.yml
   format: yaml
   label: Heroku Collaborators API
   slug: heroku-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-collaborators-api-openapi.yml
 - filename: heroku-config-vars-api-openapi.yml
   format: yaml
   label: Heroku Config Vars API
   slug: heroku-config-vars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-config-vars-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-config-vars-api-openapi.yml
 - filename: heroku-domains-api-openapi.yml
   format: yaml
   label: Heroku Domains API
   slug: heroku-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-domains-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-domains-api-openapi.yml
 - filename: heroku-dynos-api-openapi.yml
   format: yaml
   label: Heroku Dynos API
   slug: heroku-dynos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-dynos-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-dynos-api-openapi.yml
 - filename: heroku-formation-api-openapi.yml
   format: yaml
   label: Heroku Formation API
   slug: heroku-formation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-formation-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-formation-api-openapi.yml
 - filename: heroku-log-sessions-api-openapi.yml
   format: yaml
   label: Heroku Log Sessions API
   slug: heroku-log-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-log-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-log-sessions-api-openapi.yml
 - filename: heroku-pipelines-api-openapi.yml
   format: yaml
   label: Heroku Pipelines API
   slug: heroku-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-pipelines-api-openapi.yml
 - filename: heroku-regions-api-openapi.yml
   format: yaml
   label: Heroku Regions API
   slug: heroku-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-regions-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-regions-api-openapi.yml
 - filename: heroku-releases-api-openapi.yml
   format: yaml
   label: Heroku Releases API
   slug: heroku-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-releases-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-releases-api-openapi.yml
 - filename: heroku-stacks-api-openapi.yml
   format: yaml
   label: Heroku Stacks API
   slug: heroku-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/openapi/heroku-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/heroku/openapi/heroku-stacks-api-openapi.yml
 consequence_counts:
   read: 21
   safety-critical: 1
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/heroku
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{pipeline_id}/pipeline-couplings\n  method: get\n  operationId: listPipelineCouplings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipeline-couplings\n  method: post\n  operationId: createPipelineCoupling\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /account\n  method: patch\n  operationId: updateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /regions\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stacks\n  method: get\n  operationId: listStacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{app_id_or_name}/collaborators\n  method: get\n  operationId: listCollaborators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /apps/{app_id_or_name}/collaborators\n  method: post\n  operationId: createCollaborator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{app_id_or_name}/collaborators/{collaborator_email_or_id}\n  method: delete\n  operationId: deleteCollaborator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/agentic-access/heroku-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/heroku/agentic-access/heroku-agentic-access.yml
 summary_line: 44 operations · 23 acting · 1 human-in-the-loop
 tags:
 - Application Deployment

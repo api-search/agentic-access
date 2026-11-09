@@ -9,49 +9,49 @@ api_specs:
   label: Datavant Configuration API
   slug: datavant-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-configuration-api-openapi.yml
 - filename: datavant-documents-api-openapi.yml
   format: yaml
   label: Datavant Documents API
   slug: datavant-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-documents-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-documents-api-openapi.yml
 - filename: datavant-order-queries-api-openapi.yml
   format: yaml
   label: Datavant Order Queries API
   slug: datavant-order-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-order-queries-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-order-queries-api-openapi.yml
 - filename: datavant-orders-api-openapi.yml
   format: yaml
   label: Datavant Orders API
   slug: datavant-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-orders-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-orders-api-openapi.yml
 - filename: datavant-prematch-api-openapi.yml
   format: yaml
   label: Datavant Prematch API
   slug: datavant-prematch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-prematch-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-prematch-api-openapi.yml
 - filename: datavant-projects-api-openapi.yml
   format: yaml
   label: Datavant Projects API
   slug: datavant-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-projects-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-projects-api-openapi.yml
 - filename: datavant-visits-api-openapi.yml
   format: yaml
   label: Datavant Visits API
   slug: datavant-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-visits-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-visits-api-openapi.yml
 - filename: datavant-oauth2-api-openapi.yml
   format: yaml
   label: Datavant Oauth2 API
   slug: datavant-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-oauth2-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 26
@@ -188,7 +188,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/datava
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/uuid/{project_uuid}\n  method: get\n  operationId: get_project_by_uuid_projects_uuid__project_uuid__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/supporting-documents/{document_type}\n  method: get\n  operationId: get_supporting_document_projects__project_id__supporting_documents__document_type__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/supporting-documents/{document_type}\n  method: put\n  operationId: upload_supporting_document_projects__project_id__supporting_documents__document_type__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/supporting-documents/{document_type}\n  method: delete\n  operationId: delete_request_letter_projects__project_id__supporting_documents__document_type__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/queries/{query_id}/visits/{visit_uuid}\n  method: get\n  operationId: get_visit_details_projects__project_id__queries__query_id__visits__visit_uuid__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/queries/{query_id}/visits\n\
   \  method: get\n  operationId: get_query_visits_projects__project_id__queries__query_id__visits_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/agentic-access/datavant-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datavant/agentic-access/datavant-agentic-access.yml
 summary_line: 54 operations · 28 acting · 2 human-in-the-loop
 tags:
 - Healthcare
@@ -205,6 +205,7 @@ tags:
 - Medical Records
 - Release of Information
 - Privacy
-- Authentication
+- OAuth
 - Health Information Exchange
+- Authentication
 ---

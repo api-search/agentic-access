@@ -9,61 +9,61 @@ api_specs:
   label: Wufoo Webhooks
   slug: wufoo-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/asyncapi/wufoo-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/wufoo/asyncapi/wufoo-webhooks-asyncapi.yml
 - filename: wufoo-comments-api-openapi.yml
   format: yaml
   label: Wufoo Comments API
   slug: wufoo-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/openapi/wufoo-comments-api-openapi.yml
+  url: https://artifacts.apis.io/wufoo/openapi/wufoo-comments-api-openapi.yml
 - filename: wufoo-entries-api-openapi.yml
   format: yaml
   label: Wufoo Entries API
   slug: wufoo-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/openapi/wufoo-entries-api-openapi.yml
+  url: https://artifacts.apis.io/wufoo/openapi/wufoo-entries-api-openapi.yml
 - filename: wufoo-fields-api-openapi.yml
   format: yaml
   label: Wufoo Fields API
   slug: wufoo-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/openapi/wufoo-fields-api-openapi.yml
+  url: https://artifacts.apis.io/wufoo/openapi/wufoo-fields-api-openapi.yml
 - filename: wufoo-forms-api-openapi.yml
   format: yaml
   label: Wufoo Forms API
   slug: wufoo-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/openapi/wufoo-forms-api-openapi.yml
+  url: https://artifacts.apis.io/wufoo/openapi/wufoo-forms-api-openapi.yml
 - filename: wufoo-login-api-openapi.yml
   format: yaml
   label: Wufoo Login API
   slug: wufoo-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/openapi/wufoo-login-api-openapi.yml
+  url: https://artifacts.apis.io/wufoo/openapi/wufoo-login-api-openapi.yml
 - filename: wufoo-reports-api-openapi.yml
   format: yaml
   label: Wufoo Reports API
   slug: wufoo-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/openapi/wufoo-reports-api-openapi.yml
+  url: https://artifacts.apis.io/wufoo/openapi/wufoo-reports-api-openapi.yml
 - filename: wufoo-users-api-openapi.yml
   format: yaml
   label: Wufoo Users API
   slug: wufoo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/openapi/wufoo-users-api-openapi.yml
+  url: https://artifacts.apis.io/wufoo/openapi/wufoo-users-api-openapi.yml
 - filename: wufoo-webhooks-api-openapi.yml
   format: yaml
   label: Wufoo Webhooks API
   slug: wufoo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/openapi/wufoo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/wufoo/openapi/wufoo-webhooks-api-openapi.yml
 - filename: wufoo-widgets-api-openapi.yml
   format: yaml
   label: Wufoo Widgets API
   slug: wufoo-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/openapi/wufoo-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/wufoo/openapi/wufoo-widgets-api-openapi.yml
 consequence_counts:
   read: 14
   write: 4
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wufoo-
   \  method: get\n  operationId: listReportWidgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{identifier}/entries.{format}\n  method: get\n  operationId: listReportEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{identifier}/entries/count.{format}\n  method: get\n  operationId: countReportEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{identifier}/fields.{format}\n  method: get\n  operationId: listReportFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users.{format}\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{identifier}.{format}\n  method: put\n  operationId: putFormWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{identifier}/{hash}.{format}\n  method: delete\n  operationId: deleteFormWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /login.{format}\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/agentic-access/wufoo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wufoo/agentic-access/wufoo-agentic-access.yml
 summary_line: 18 operations · 4 acting
 tags:
 - Forms

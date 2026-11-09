@@ -8,19 +8,19 @@ api_specs:
   label: DLR Capabilities API
   slug: dlr-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/openapi/dlr-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/dlr/openapi/dlr-capabilities-api-openapi.yml
 - filename: dlr-data-api-openapi.yml
   format: yaml
   label: DLR Data API
   slug: dlr-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/openapi/dlr-data-api-openapi.yml
+  url: https://artifacts.apis.io/dlr/openapi/dlr-data-api-openapi.yml
 - filename: dlr-stac-api-openapi.yml
   format: yaml
   label: DLR STAC API
   slug: dlr-stac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/openapi/dlr-stac-api-openapi.yml
+  url: https://artifacts.apis.io/dlr/openapi/dlr-stac-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dlr-ca
   \ none\n- path: /filter-capabilities\n  method: get\n  operationId: getFilterCapabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/queryables\n  method: get\n  operationId: getSearchQueryables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/sortables\n  method: get\n  operationId: getSearchSortables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: get\n  operationId: getCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}\n  method: get\n  operationId: describeCollection\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/queryables\n  method: get\n  operationId: getQueryables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/sortables\n  method: get\n  operationId: getSortables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/items\n  method: get\n  operationId: getFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/items/{featureId}\n  method: get\n  operationId: getFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: getSearchSTAC\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: post\n  operationId: postSearchSTAC\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/agentic-access/dlr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dlr/agentic-access/dlr-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Earth Observation

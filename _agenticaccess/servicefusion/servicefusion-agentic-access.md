@@ -9,55 +9,55 @@ api_specs:
   label: Service Fusion Calendar Tasks API
   slug: servicefusion-calendar-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-calendar-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-calendar-tasks-api-openapi.yml
 - filename: servicefusion-contacts-api-openapi.yml
   format: yaml
   label: Service Fusion Contacts API
   slug: servicefusion-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-contacts-api-openapi.yml
 - filename: servicefusion-customers-api-openapi.yml
   format: yaml
   label: Service Fusion Customers API
   slug: servicefusion-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-customers-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-customers-api-openapi.yml
 - filename: servicefusion-estimates-api-openapi.yml
   format: yaml
   label: Service Fusion Estimates API
   slug: servicefusion-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-estimates-api-openapi.yml
 - filename: servicefusion-invoices-api-openapi.yml
   format: yaml
   label: Service Fusion Invoices API
   slug: servicefusion-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-invoices-api-openapi.yml
 - filename: servicefusion-jobs-api-openapi.yml
   format: yaml
   label: Service Fusion Jobs API
   slug: servicefusion-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-jobs-api-openapi.yml
 - filename: servicefusion-payments-api-openapi.yml
   format: yaml
   label: Service Fusion Payments API
   slug: servicefusion-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-payments-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-payments-api-openapi.yml
 - filename: servicefusion-products-and-services-api-openapi.yml
   format: yaml
   label: Service Fusion Products and Services API
   slug: servicefusion-products-and-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-products-and-services-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-products-and-services-api-openapi.yml
 - filename: servicefusion-techs-and-users-api-openapi.yml
   format: yaml
   label: Service Fusion Techs and Users API
   slug: servicefusion-techs-and-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-techs-and-users-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-techs-and-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 15
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/servic
   - path: /invoices/{id}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: post\n  operationId: createProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method:\
   \ post\n  operationId: createService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /techs\n  method: get\n  operationId: listTechs\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /techs/{id}\n  method: get\n  operationId: getTech\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calendar-tasks\n  method: get\n  operationId: listCalendarTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calendar-tasks\n  method: post\n  operationId: createCalendarTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/agentic-access/servicefusion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/servicefusion/agentic-access/servicefusion-agentic-access.yml
 summary_line: 24 operations · 9 acting
 tags:
 - Field Service Management

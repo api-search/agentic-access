@@ -9,37 +9,37 @@ api_specs:
   label: Gett Authentication API
   slug: gett-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-authentication-api-openapi.yml
 - filename: gett-employee-management-api-openapi.yml
   format: yaml
   label: Gett Employee Management API
   slug: gett-employee-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-employee-management-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-employee-management-api-openapi.yml
 - filename: gett-finance-api-openapi.yml
   format: yaml
   label: Gett Finance API
   slug: gett-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-finance-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-finance-api-openapi.yml
 - filename: gett-orders-api-openapi.yml
   format: yaml
   label: Gett Orders API
   slug: gett-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-orders-api-openapi.yml
 - filename: gett-products-api-openapi.yml
   format: yaml
   label: Gett Products API
   slug: gett-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-products-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-products-api-openapi.yml
 - filename: gett-webhooks-api-openapi.yml
   format: yaml
   label: Gett Webhooks API
   slug: gett-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 8
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gett-a
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders/{orderId}\n  method: put\n  operationId: updateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{orderId}/cancel\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/price-estimate\n  method: post\n  operationId: getPriceEstimate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/products\n  method: get\n  operationId: getProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subscribers\n  method: post\n  operationId: createSubscription\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/subscribers\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subscribers/{subscriberId}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/agentic-access/gett-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gett/agentic-access/gett-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Ground Transportation

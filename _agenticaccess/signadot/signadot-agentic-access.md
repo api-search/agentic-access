@@ -9,31 +9,31 @@ api_specs:
   label: Signadot Cluster API
   slug: signadot-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/signadot/openapi/signadot-cluster-api-openapi.yml
 - filename: signadot-orgs-api-openapi.yml
   format: yaml
   label: Signadot Orgs API
   slug: signadot-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/signadot/openapi/signadot-orgs-api-openapi.yml
 - filename: signadot-resourceplugins-api-openapi.yml
   format: yaml
   label: Signadot ResourcePlugins API
   slug: signadot-resourceplugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-resourceplugins-api-openapi.yml
+  url: https://artifacts.apis.io/signadot/openapi/signadot-resourceplugins-api-openapi.yml
 - filename: signadot-routegroups-api-openapi.yml
   format: yaml
   label: Signadot RouteGroups API
   slug: signadot-routegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-routegroups-api-openapi.yml
+  url: https://artifacts.apis.io/signadot/openapi/signadot-routegroups-api-openapi.yml
 - filename: signadot-sandboxes-api-openapi.yml
   format: yaml
   label: Signadot Sandboxes API
   slug: signadot-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/signadot/openapi/signadot-sandboxes-api-openapi.yml
 consequence_counts:
   read: 11
   write: 10
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/signad
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgName}/resource-plugins/{pluginName}\n  method: put\n  operationId: apply-resource-plugin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgName}/routegroups\n  method: get\n  operationId: list-routegroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgName}/routegroups/{routegroupName}\n  method: delete\n  operationId: delete-routegroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgName}/routegroups/{routegroupName}\n  method: get\n  operationId: get-routegroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgName}/routegroups/{routegroupName}\n  method: put\n  operationId: apply-routegroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgName}/sandboxes\n  method: get\n  operationId: list-sandboxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgName}/sandboxes/{sandboxName}\n  method: delete\n  operationId:\
   \ delete-sandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgName}/sandboxes/{sandboxName}\n  method: get\n  operationId: get-sandbox\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgName}/sandboxes/{sandboxName}\n  method: put\n  operationId: apply-sandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/agentic-access/signadot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/signadot/agentic-access/signadot-agentic-access.yml
 summary_line: 21 operations · 10 acting
 tags:
 - Company

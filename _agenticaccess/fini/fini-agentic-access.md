@@ -9,55 +9,55 @@ api_specs:
   label: Fini Agents API
   slug: fini-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-agents-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-agents-api-openapi.yml
 - filename: fini-articles-api-openapi.yml
   format: yaml
   label: Fini Articles API
   slug: fini-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-articles-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-articles-api-openapi.yml
 - filename: fini-conversations-api-openapi.yml
   format: yaml
   label: Fini Conversations API
   slug: fini-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-conversations-api-openapi.yml
 - filename: fini-knowledge-api-openapi.yml
   format: yaml
   label: Fini Knowledge API
   slug: fini-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-knowledge-api-openapi.yml
 - filename: fini-knowledge-folders-api-openapi.yml
   format: yaml
   label: Fini Knowledge Folders API
   slug: fini-knowledge-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-knowledge-folders-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-knowledge-folders-api-openapi.yml
 - filename: fini-prompts-api-openapi.yml
   format: yaml
   label: Fini Prompts API
   slug: fini-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-prompts-api-openapi.yml
 - filename: fini-rules-api-openapi.yml
   format: yaml
   label: Fini Rules API
   slug: fini-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-rules-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-rules-api-openapi.yml
 - filename: fini-sources-api-openapi.yml
   format: yaml
   label: Fini Sources API
   slug: fini-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-sources-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-sources-api-openapi.yml
 - filename: fini-tags-api-openapi.yml
   format: yaml
   label: Fini Tags API
   slug: fini-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/openapi/fini-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fini/openapi/fini-tags-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fini-a
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag-groups/{id}/tags/public\n  method: get\n  operationId: listTagsInGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tag-groups/{id}/tags/public\n  method: put\n  operationId: updateTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag-groups/public\n  method: post\n  operationId: createTagGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /tag-groups/public\n  method: get\n  operationId: listTagGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tag-groups/{id}/public\n  method: delete\n  operationId: deleteTagGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag-groups/{id}/public\n  method: get\n  operationId: getTagGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tag-groups/{id}/public\n  method: put\n  operationId: updateTagGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{id}/public\n  method: get\n  operationId: getTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tag-groups/tags/public\n  method: get\n  operationId: listTagsAcrossGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/agentic-access/fini-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fini/agentic-access/fini-agentic-access.yml
 summary_line: 56 operations · 38 acting
 tags:
 - Company

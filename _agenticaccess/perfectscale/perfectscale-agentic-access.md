@@ -9,25 +9,25 @@ api_specs:
   label: PerfectScale Authentication API
   slug: perfectscale-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/perfectscale/openapi/perfectscale-authentication-api-openapi.yml
 - filename: perfectscale-automation-api-openapi.yml
   format: yaml
   label: PerfectScale Automation API
   slug: perfectscale-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-automation-api-openapi.yml
+  url: https://artifacts.apis.io/perfectscale/openapi/perfectscale-automation-api-openapi.yml
 - filename: perfectscale-clusters-api-openapi.yml
   format: yaml
   label: PerfectScale Clusters API
   slug: perfectscale-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/perfectscale/openapi/perfectscale-clusters-api-openapi.yml
 - filename: perfectscale-workloads-api-openapi.yml
   format: yaml
   label: PerfectScale Workloads API
   slug: perfectscale-workloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/openapi/perfectscale-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/perfectscale/openapi/perfectscale-workloads-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/perfectscale-authentication-api-openapi.yml, openapi/perfectscale-automation-api-openapi.yml,\n  openapi/perfectscale-clusters-api-openapi.yml, openapi/perfectscale-workloads-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 2\n    connected: 4\n  by_consequence:\n    write: 2\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /auth/public_auth\n  method: post\n  operationId: authenticate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /automation/audit_logs\n  method: post\n  operationId: getAutomationAuditLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters\n  method: get\n  operationId: listClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{cluster_uid}\n  method: get\n  operationId: getCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{cluster_uid}\n  method: delete\n  operationId: deleteCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{cluster_uid}/workloads\n  method: get\n  operationId: listWorkloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perfectscale/refs/heads/main/agentic-access/perfectscale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/perfectscale/agentic-access/perfectscale-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - FinOps

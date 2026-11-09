@@ -9,37 +9,37 @@ api_specs:
   label: Ditto API Keys API
   slug: ditto-live-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-api-keys-api-openapi.yml
 - filename: ditto-live-apps-api-openapi.yml
   format: yaml
   label: Ditto Apps API
   slug: ditto-live-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-apps-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-apps-api-openapi.yml
 - filename: ditto-live-bigpeerreplication-api-openapi.yml
   format: yaml
   label: Ditto BigPeerReplication API
   slug: ditto-live-bigpeerreplication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-bigpeerreplication-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-bigpeerreplication-api-openapi.yml
 - filename: ditto-live-data-bridge-api-openapi.yml
   format: yaml
   label: Ditto Data Bridge API
   slug: ditto-live-data-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-data-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-data-bridge-api-openapi.yml
 - filename: ditto-live-store-api-openapi.yml
   format: yaml
   label: Ditto Store API
   slug: ditto-live-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-store-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-store-api-openapi.yml
 - filename: ditto-live-sync-api-openapi.yml
   format: yaml
   label: Ditto Sync API
   slug: ditto-live-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/openapi/ditto-live-sync-api-openapi.yml
+  url: https://artifacts.apis.io/ditto-live/openapi/ditto-live-sync-api-openapi.yml
 consequence_counts:
   read: 11
   write: 21
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ditto-
   \    audit: none\n- path: /namespace/{namespace}/bigPeer/{big_peer_name}/app/{app_name}/dataBridge/{data_bridge_name}\n  method: delete\n  operationId: deleteDataBridge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /store/count\n  method: post\n  operationId: count_endpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /store/execute\n  method: post\n  operationId: execute_endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /store/find\n  method: post\n  operationId: find_endpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /store/findbyid\n  method: post\n  operationId: find_by_id_endpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /store/write\n  method: post\n  operationId: write_endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sync/remote_execute\n  method: post\n  operationId: remote_execute_endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/agentic-access/ditto-live-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ditto-live/agentic-access/ditto-live-agentic-access.yml
 summary_line: 32 operations · 21 acting
 tags:
 - Developer Tools

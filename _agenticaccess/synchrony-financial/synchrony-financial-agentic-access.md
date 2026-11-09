@@ -9,49 +9,49 @@ api_specs:
   label: Synchrony Financial Applications API
   slug: synchrony-financial-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-applications-api-openapi.yml
+  url: https://artifacts.apis.io/synchrony-financial/openapi/synchrony-financial-applications-api-openapi.yml
 - filename: synchrony-financial-decisions-api-openapi.yml
   format: yaml
   label: Synchrony Financial Decisions API
   slug: synchrony-financial-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/synchrony-financial/openapi/synchrony-financial-decisions-api-openapi.yml
 - filename: synchrony-financial-payments-api-openapi.yml
   format: yaml
   label: Synchrony Financial Payments API
   slug: synchrony-financial-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-payments-api-openapi.yml
+  url: https://artifacts.apis.io/synchrony-financial/openapi/synchrony-financial-payments-api-openapi.yml
 - filename: synchrony-financial-preapprovals-api-openapi.yml
   format: yaml
   label: Synchrony Financial Preapprovals API
   slug: synchrony-financial-preapprovals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-preapprovals-api-openapi.yml
+  url: https://artifacts.apis.io/synchrony-financial/openapi/synchrony-financial-preapprovals-api-openapi.yml
 - filename: synchrony-financial-preauthorizations-api-openapi.yml
   format: yaml
   label: Synchrony Financial Preauthorizations API
   slug: synchrony-financial-preauthorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-preauthorizations-api-openapi.yml
+  url: https://artifacts.apis.io/synchrony-financial/openapi/synchrony-financial-preauthorizations-api-openapi.yml
 - filename: synchrony-financial-purchases-api-openapi.yml
   format: yaml
   label: Synchrony Financial Purchases API
   slug: synchrony-financial-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/synchrony-financial/openapi/synchrony-financial-purchases-api-openapi.yml
 - filename: synchrony-financial-refunds-api-openapi.yml
   format: yaml
   label: Synchrony Financial Refunds API
   slug: synchrony-financial-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/synchrony-financial/openapi/synchrony-financial-refunds-api-openapi.yml
 - filename: synchrony-financial-reversals-api-openapi.yml
   format: yaml
   label: Synchrony Financial Reversals API
   slug: synchrony-financial-reversals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/openapi/synchrony-financial-reversals-api-openapi.yml
+  url: https://artifacts.apis.io/synchrony-financial/openapi/synchrony-financial-reversals-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 1
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/synchr
   \ abnormal\n      - high-value\n    audit: required\n- path: /v1/authorizations/preauthorizations\n  method: post\n  operationId: createPreauthorization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/authorizations/completions\n  method: post\n  operationId: createCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/authorizations/payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/authorizations/refunds\n  method: post\n  operationId: createRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/authorizations/reversals\n  method: post\n  operationId: createReversal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/credit/preapproval\n\
   \  method: post\n  operationId: submitPreapproval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/credit/applications\n  method: post\n  operationId: submitApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/credit/applications/{applicationId}\n  method: get\n  operationId: getApplicationDecision\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/agentic-access/synchrony-financial-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/synchrony-financial/agentic-access/synchrony-financial-agentic-access.yml
 summary_line: 9 operations · 8 acting
 tags:
 - Financial Services

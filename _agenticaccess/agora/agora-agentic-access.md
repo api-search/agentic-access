@@ -9,31 +9,31 @@ api_specs:
   label: Agora Accounts API
   slug: agora-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-accounts-api-openapi.yml
 - filename: agora-auth-api-openapi.yml
   format: yaml
   label: Agora Auth API
   slug: agora-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-auth-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-auth-api-openapi.yml
 - filename: agora-metrics-api-openapi.yml
   format: yaml
   label: Agora Metrics API
   slug: agora-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-metrics-api-openapi.yml
 - filename: agora-routes-api-openapi.yml
   format: yaml
   label: Agora Routes API
   slug: agora-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-routes-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-routes-api-openapi.yml
 - filename: agora-transactions-api-openapi.yml
   format: yaml
   label: Agora Transactions API
   slug: agora-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/openapi/agora-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/agora/openapi/agora-transactions-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/agora-
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/metrics/total-supply\n  method: get\n  operationId: totalsupply\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/metrics/circulating-supply\n  method: get\n  operationId: circulatingsupply\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/accounts\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/accounts\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/accounts/{accountId}\n  method: put\n  operationId: update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/routes\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/routes\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/routes/{routeId}\n  method:\
   \ get\n  operationId: getbyid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/transactions\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/transactions/{txnId}\n  method: get\n  operationId: getbyid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/agentic-access/agora-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agora/agentic-access/agora-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Company

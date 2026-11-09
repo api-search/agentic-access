@@ -9,97 +9,97 @@ api_specs:
   label: Enode Batteries API
   slug: enode-batteries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-batteries-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-batteries-api-openapi.yml
 - filename: enode-chargers-api-openapi.yml
   format: yaml
   label: Enode Chargers API
   slug: enode-chargers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-chargers-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-chargers-api-openapi.yml
 - filename: enode-hvac-api-openapi.yml
   format: yaml
   label: Enode HVAC API
   slug: enode-hvac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-hvac-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-hvac-api-openapi.yml
 - filename: enode-meters-api-openapi.yml
   format: yaml
   label: Enode Meters API
   slug: enode-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-meters-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-meters-api-openapi.yml
 - filename: enode-vehicles-api-openapi.yml
   format: yaml
   label: Enode Vehicles API
   slug: enode-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-vehicles-api-openapi.yml
 - filename: enode-webhooks-api-openapi.yml
   format: yaml
   label: Enode Webhooks API
   slug: enode-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-webhooks-api-openapi.yml
 - filename: enode-beta-api-openapi.yml
   format: yaml
   label: Enode Beta API
   slug: enode-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-beta-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-beta-api-openapi.yml
 - filename: enode-early-adopter-api-openapi.yml
   format: yaml
   label: Enode Early Adopter API
   slug: enode-early-adopter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-early-adopter-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-early-adopter-api-openapi.yml
 - filename: enode-interventions-api-openapi.yml
   format: yaml
   label: Enode Interventions API
   slug: enode-interventions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-interventions-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-interventions-api-openapi.yml
 - filename: enode-locations-api-openapi.yml
   format: yaml
   label: Enode Locations API
   slug: enode-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-locations-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-locations-api-openapi.yml
 - filename: enode-schedules-api-openapi.yml
   format: yaml
   label: Enode Schedules API
   slug: enode-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-schedules-api-openapi.yml
 - filename: enode-service-health-api-openapi.yml
   format: yaml
   label: Enode Service Health API
   slug: enode-service-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-service-health-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-service-health-api-openapi.yml
 - filename: enode-solar-inverters-api-openapi.yml
   format: yaml
   label: Enode Solar inverters API
   slug: enode-solar-inverters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-solar-inverters-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-solar-inverters-api-openapi.yml
 - filename: enode-statistics-api-openapi.yml
   format: yaml
   label: Enode Statistics API
   slug: enode-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-statistics-api-openapi.yml
 - filename: enode-tariffs-api-openapi.yml
   format: yaml
   label: Enode Tariffs API
   slug: enode-tariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-tariffs-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-tariffs-api-openapi.yml
 - filename: enode-user-management-api-openapi.yml
   format: yaml
   label: Enode User Management API
   slug: enode-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/enode/openapi/enode-user-management-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/enode-
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batteries/{batteryId}/operation-mode\n  method: post\n  operationId: setBatteryOperationMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inverters\n  method: get\n  operationId: listInverters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inverters/{inverterId}\n  method: get\n  operationId: getInverter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meters\n  method: get\n  operationId: listMeters\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meters/{meterId}\n  method: get\n  operationId: getMeter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}/test\n  method: post\n  operationId: testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/agentic-access/enode-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/enode/agentic-access/enode-agentic-access.yml
 summary_line: 27 operations · 9 acting · 2 human-in-the-loop
 tags:
 - Energy

@@ -9,43 +9,43 @@ api_specs:
   label: 1Factory Customers API
   slug: 1factory-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-customers-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-customers-api-openapi.yml
 - filename: 1factory-manufacturing-api-openapi.yml
   format: yaml
   label: 1Factory Manufacturing API
   slug: 1factory-manufacturing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-manufacturing-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-manufacturing-api-openapi.yml
 - filename: 1factory-part-master-api-openapi.yml
   format: yaml
   label: 1Factory Part Master API
   slug: 1factory-part-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-part-master-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-part-master-api-openapi.yml
 - filename: 1factory-qms-api-openapi.yml
   format: yaml
   label: 1Factory QMS API
   slug: 1factory-qms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-qms-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-qms-api-openapi.yml
 - filename: 1factory-receiving-api-openapi.yml
   format: yaml
   label: 1Factory Receiving API
   slug: 1factory-receiving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-receiving-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-receiving-api-openapi.yml
 - filename: 1factory-suppliers-api-openapi.yml
   format: yaml
   label: 1Factory Suppliers API
   slug: 1factory-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-suppliers-api-openapi.yml
 - filename: 1factory-work-orders-api-openapi.yml
   format: yaml
   label: 1Factory Work Orders API
   slug: 1factory-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/1factory/openapi/1factory-work-orders-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 30
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/1facto
   - path: /cus/inspections/{inspection_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mfg/fais\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mfg/fais\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mfg/fais/{inspection_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rec/fais\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rec/fais\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rec/fais/{inspection_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qms/ncrs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qms/capas\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qms/complaints\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sup/fais\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sup/fais/{inspection_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cus/fais\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cus/fais/{inspection_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/agentic-access/1factory-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/1factory/agentic-access/1factory-agentic-access.yml
 summary_line: 38 operations · 8 acting
 tags:
 - Analytics

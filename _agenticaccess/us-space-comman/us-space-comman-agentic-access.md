@@ -9,37 +9,37 @@ api_specs:
   label: US Space Command Authentication API
   slug: us-space-comman-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-authentication-api-openapi.yml
 - filename: us-space-comman-conjunction-data-api-openapi.yml
   format: yaml
   label: US Space Command Conjunction Data API
   slug: us-space-comman-conjunction-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-conjunction-data-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-conjunction-data-api-openapi.yml
 - filename: us-space-comman-decay-and-reentry-api-openapi.yml
   format: yaml
   label: US Space Command Decay and Reentry API
   slug: us-space-comman-decay-and-reentry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-decay-and-reentry-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-decay-and-reentry-api-openapi.yml
 - filename: us-space-comman-general-perturbations-api-openapi.yml
   format: yaml
   label: US Space Command General Perturbations API
   slug: us-space-comman-general-perturbations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-general-perturbations-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-general-perturbations-api-openapi.yml
 - filename: us-space-comman-satellite-catalog-api-openapi.yml
   format: yaml
   label: US Space Command Satellite Catalog API
   slug: us-space-comman-satellite-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-satellite-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-satellite-catalog-api-openapi.yml
 - filename: us-space-comman-space-object-history-api-openapi.yml
   format: yaml
   label: US Space Command Space Object History API
   slug: us-space-comman-space-object-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/openapi/us-space-comman-space-object-history-api-openapi.yml
+  url: https://artifacts.apis.io/us-space-comman/openapi/us-space-comman-space-object-history-api-openapi.yml
 consequence_counts:
   read: 7
   write: 1
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/us-space-command-space-track-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 1\n    connected: 7\n  by_consequence:\n    write: 1\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /ajaxauth/login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /basicspacedata/query/class/gp/format/{format}\n  method: get\n  operationId: listCurrentGP\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basicspacedata/query/class/satcat/format/{format}\n  method: get\n  operationId: listSatCat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basicspacedata/query/class/cdm_public/format/{format}\n  method: get\n  operationId: listConjunctionData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basicspacedata/query/class/decay/format/{format}\n  method: get\n  operationId: listDecayData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basicspacedata/query/class/tip/format/{format}\n  method: get\n  operationId: listTrackingImpactPredictions\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basicspacedata/query/class/gp_history/format/{format}\n  method: get\n  operationId: listGPHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basicspacedata/query/class/boxscore/format/{format}\n  method: get\n  operationId: getBoxscore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/agentic-access/us-space-comman-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-space-comman/agentic-access/us-space-comman-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
 - Federal Government

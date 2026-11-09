@@ -9,43 +9,43 @@ api_specs:
   label: OpenPanel Event API
   slug: openpanel-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/openapi/openpanel-event-api-openapi.yml
+  url: https://artifacts.apis.io/openpanel/openapi/openpanel-event-api-openapi.yml
 - filename: openpanel-export-api-openapi.yml
   format: yaml
   label: OpenPanel Export API
   slug: openpanel-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/openapi/openpanel-export-api-openapi.yml
+  url: https://artifacts.apis.io/openpanel/openapi/openpanel-export-api-openapi.yml
 - filename: openpanel-import-api-openapi.yml
   format: yaml
   label: OpenPanel Import API
   slug: openpanel-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/openapi/openpanel-import-api-openapi.yml
+  url: https://artifacts.apis.io/openpanel/openapi/openpanel-import-api-openapi.yml
 - filename: openpanel-insights-api-openapi.yml
   format: yaml
   label: OpenPanel Insights API
   slug: openpanel-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/openapi/openpanel-insights-api-openapi.yml
+  url: https://artifacts.apis.io/openpanel/openapi/openpanel-insights-api-openapi.yml
 - filename: openpanel-manage-api-openapi.yml
   format: yaml
   label: OpenPanel Manage API
   slug: openpanel-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/openapi/openpanel-manage-api-openapi.yml
+  url: https://artifacts.apis.io/openpanel/openapi/openpanel-manage-api-openapi.yml
 - filename: openpanel-profile-api-openapi.yml
   format: yaml
   label: OpenPanel Profile API
   slug: openpanel-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/openapi/openpanel-profile-api-openapi.yml
+  url: https://artifacts.apis.io/openpanel/openapi/openpanel-profile-api-openapi.yml
 - filename: openpanel-track-api-openapi.yml
   format: yaml
   label: OpenPanel Track API
   slug: openpanel-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/openapi/openpanel-track-api-openapi.yml
+  url: https://artifacts.apis.io/openpanel/openapi/openpanel-track-api-openapi.yml
 consequence_counts:
   read: 65
   write: 15
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openpa
   \      max-ttl: 3600\n    audit: none\n- path: /manage/clients/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /manage/clients/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /manage/references\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manage/references\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /manage/references/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manage/references/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /manage/references/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /manage/projects/{projectId}/dashboards\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manage/projects/{projectId}/dashboards/{dashboardId}/reports\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/agentic-access/openpanel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openpanel/agentic-access/openpanel-agentic-access.yml
 summary_line: 80 operations · 15 acting
 tags:
 - Event Tracking

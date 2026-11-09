@@ -9,49 +9,49 @@ api_specs:
   label: Follow Up Boss Calls API
   slug: follow-up-boss-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-calls-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-calls-api-openapi.yml
 - filename: follow-up-boss-deals-api-openapi.yml
   format: yaml
   label: Follow Up Boss Deals API
   slug: follow-up-boss-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-deals-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-deals-api-openapi.yml
 - filename: follow-up-boss-events-api-openapi.yml
   format: yaml
   label: Follow Up Boss Events API
   slug: follow-up-boss-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-events-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-events-api-openapi.yml
 - filename: follow-up-boss-notes-api-openapi.yml
   format: yaml
   label: Follow Up Boss Notes API
   slug: follow-up-boss-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-notes-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-notes-api-openapi.yml
 - filename: follow-up-boss-people-api-openapi.yml
   format: yaml
   label: Follow Up Boss People API
   slug: follow-up-boss-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-people-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-people-api-openapi.yml
 - filename: follow-up-boss-tasks-api-openapi.yml
   format: yaml
   label: Follow Up Boss Tasks API
   slug: follow-up-boss-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-tasks-api-openapi.yml
 - filename: follow-up-boss-textmessages-api-openapi.yml
   format: yaml
   label: Follow Up Boss TextMessages API
   slug: follow-up-boss-textmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-textmessages-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-textmessages-api-openapi.yml
 - filename: follow-up-boss-webhooks-api-openapi.yml
   format: yaml
   label: Follow Up Boss Webhooks API
   slug: follow-up-boss-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/openapi/follow-up-boss-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/follow-up-boss/openapi/follow-up-boss-webhooks-api-openapi.yml
 consequence_counts:
   read: 17
   write: 20
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/follow
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /textMessages\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /textMessages\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /textMessages/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/agentic-access/follow-up-boss-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/follow-up-boss/agentic-access/follow-up-boss-agentic-access.yml
 summary_line: 37 operations · 20 acting
 tags:
 - Real Estate

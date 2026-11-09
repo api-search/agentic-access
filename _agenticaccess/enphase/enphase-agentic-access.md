@@ -9,175 +9,175 @@ api_specs:
   label: Enphase Energy Activations API
   slug: enphase-activations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-activations-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-activations-api-openapi.yml
 - filename: enphase-applications-api-openapi.yml
   format: yaml
   label: Enphase Energy Applications API
   slug: enphase-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-applications-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-applications-api-openapi.yml
 - filename: enphase-arrays-api-openapi.yml
   format: yaml
   label: Enphase Energy Arrays API
   slug: enphase-arrays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-arrays-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-arrays-api-openapi.yml
 - filename: enphase-auth-api-openapi.yml
   format: yaml
   label: Enphase Energy Auth API
   slug: enphase-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-auth-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-auth-api-openapi.yml
 - filename: enphase-companies-api-openapi.yml
   format: yaml
   label: Enphase Energy Companies API
   slug: enphase-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-companies-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-companies-api-openapi.yml
 - filename: enphase-device-level-monitoring-api-openapi.yml
   format: yaml
   label: Enphase Energy Device Level Monitoring API
   slug: enphase-device-level-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-device-level-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-device-level-monitoring-api-openapi.yml
 - filename: enphase-estimate-api-openapi.yml
   format: yaml
   label: Enphase Energy Estimate API
   slug: enphase-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-estimate-api-openapi.yml
 - filename: enphase-ev-charger-control-api-openapi.yml
   format: yaml
   label: Enphase Energy EV Charger Control API
   slug: enphase-ev-charger-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-ev-charger-control-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-ev-charger-control-api-openapi.yml
 - filename: enphase-ev-charger-monitoring-api-openapi.yml
   format: yaml
   label: Enphase Energy EV Charger Monitoring API
   slug: enphase-ev-charger-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-ev-charger-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-ev-charger-monitoring-api-openapi.yml
 - filename: enphase-events-api-openapi.yml
   format: yaml
   label: Enphase Energy Events API
   slug: enphase-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-events-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-events-api-openapi.yml
 - filename: enphase-forecast-api-openapi.yml
   format: yaml
   label: Enphase Energy Forecast API
   slug: enphase-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-forecast-api-openapi.yml
 - filename: enphase-grid-profiles-api-openapi.yml
   format: yaml
   label: Enphase Energy Grid Profiles API
   slug: enphase-grid-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-grid-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-grid-profiles-api-openapi.yml
 - filename: enphase-home-owner-api-openapi.yml
   format: yaml
   label: Enphase Energy Home Owner API
   slug: enphase-home-owner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-home-owner-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-home-owner-api-openapi.yml
 - filename: enphase-manage-vpps-api-openapi.yml
   format: yaml
   label: Enphase Energy Manage VPPs API
   slug: enphase-manage-vpps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-manage-vpps-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-manage-vpps-api-openapi.yml
 - filename: enphase-meters-api-openapi.yml
   format: yaml
   label: Enphase Energy Meters API
   slug: enphase-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-meters-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-meters-api-openapi.yml
 - filename: enphase-programs-api-openapi.yml
   format: yaml
   label: Enphase Energy Programs API
   slug: enphase-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-programs-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-programs-api-openapi.yml
 - filename: enphase-pvmanufacturers-api-openapi.yml
   format: yaml
   label: Enphase Energy Pv Manufacturers API
   slug: enphase-pvmanufacturers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-pvmanufacturers-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-pvmanufacturers-api-openapi.yml
 - filename: enphase-pvmodels-api-openapi.yml
   format: yaml
   label: Enphase Energy Pv Models API
   slug: enphase-pvmodels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-pvmodels-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-pvmodels-api-openapi.yml
 - filename: enphase-site-level-consumption-monitoring-api-openapi.yml
   format: yaml
   label: Enphase Energy Site Level Consumption Monitoring API
   slug: enphase-site-level-consumption-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-site-level-consumption-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-site-level-consumption-monitoring-api-openapi.yml
 - filename: enphase-site-level-production-monitoring-api-openapi.yml
   format: yaml
   label: Enphase Energy Site Level Production Monitoring API
   slug: enphase-site-level-production-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-site-level-production-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-site-level-production-monitoring-api-openapi.yml
 - filename: enphase-streaming-apis-api-openapi.yml
   format: yaml
   label: Enphase Energy Streaming APIs API
   slug: enphase-streaming-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-streaming-apis-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-streaming-apis-api-openapi.yml
 - filename: enphase-system-and-device-configuration-api-openapi.yml
   format: yaml
   label: Enphase Energy System and Device Configuration API
   slug: enphase-system-and-device-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-system-and-device-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-system-and-device-configuration-api-openapi.yml
 - filename: enphase-system-configurations-api-openapi.yml
   format: yaml
   label: Enphase Energy System Configurations API
   slug: enphase-system-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-system-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-system-configurations-api-openapi.yml
 - filename: enphase-system-details-and-telemetry-api-openapi.yml
   format: yaml
   label: Enphase Energy System Details And Telemetry API
   slug: enphase-system-details-and-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-system-details-and-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-system-details-and-telemetry-api-openapi.yml
 - filename: enphase-system-details-api-openapi.yml
   format: yaml
   label: Enphase Energy System Details API
   slug: enphase-system-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-system-details-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-system-details-api-openapi.yml
 - filename: enphase-tariff-api-openapi.yml
   format: yaml
   label: Enphase Energy Tariff API
   slug: enphase-tariff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-tariff-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-tariff-api-openapi.yml
 - filename: enphase-users-api-openapi.yml
   format: yaml
   label: Enphase Energy Users API
   slug: enphase-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-users-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-users-api-openapi.yml
 - filename: enphase-device-level-production-monitoring-api-openapi.yml
   format: yaml
   label: Enphase Energy Device Level Production Monitoring API
   slug: enphase-device-level-production-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-device-level-production-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-device-level-production-monitoring-api-openapi.yml
 - filename: enphase-systems-api-openapi.yml
   format: yaml
   label: Enphase Energy Systems API
   slug: enphase-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/openapi/enphase-systems-api-openapi.yml
+  url: https://artifacts.apis.io/enphase/openapi/enphase-systems-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 123
@@ -291,8 +291,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/enphas
   \  operationId: getLiveStreamRegistrationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/systems/{site_id}/devices/evse/{serial_no}/ocpp_configuration/status\n  method: get\n  operationId: getEVSEConfigurationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/systems/config/{system_id}/battery_settings\n  method: get\n  operationId: getApiV4SystemsConfigBySystemIdBatterySettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/systems/config/{system_id}/battery_settings\n  method: put\n  operationId: putApiV4SystemsConfigBySystemIdBatterySettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/systems/config/{system_id}/storm_guard\n  method: get\n  operationId: getApiV4SystemsConfigBySystemIdStormGuard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/systems/config/{system_id}/storm_guard\n  method: put\n  operationId: putApiV4SystemsConfigBySystemIdStormGuard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/systems/config/{system_id}/grid_status\n  method: get\n  operationId: getApiV4SystemsConfigBySystemIdGridStatus\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/systems/config/{system_id}/load_control\n  method: get\n  operationId: getApiV4SystemsConfigBySystemIdLoadControl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/systems/config/{system_id}/load_control\n  method: put\n  operationId: putApiV4SystemsConfigBySystemIdLoadControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/systems/{site_id}/{serial_no}/evse_telemetry\n  method: get\n  operationId: getDeviceLevelEVSETelemetry\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/systems/{site_id}/{serial_no}/evse_lifetime\n  method: get\n  operationId: getDeviceLevelEVSELifeTimeTelemetry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/systems/{site_id}/telemetry/production_micro\n  method: get\n  operationId: getProductionMicroTelemetry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/agentic-access/enphase-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/agentic-access/enphase-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/systems/{site_id}/{serial_no}/evse_lifetime\n  method: get\n  operationId: getDeviceLevelEVSELifeTimeTelemetry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/systems/{site_id}/telemetry/production_micro\n  method: get\n  operationId: getProductionMicroTelemetry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://artifacts.apis.io/enphase/agentic-access/enphase-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/enphase/agentic-access/enphase-agentic-access.yml
 summary_line: 162 operations · 39 acting · 7 human-in-the-loop
 tags:
 - Energy

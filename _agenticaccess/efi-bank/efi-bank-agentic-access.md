@@ -9,43 +9,43 @@ api_specs:
   label: Efí Authorization API
   slug: efi-bank-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-authorization-api-openapi.yml
 - filename: efi-bank-carn-api-openapi.yml
   format: yaml
   label: Efí Carnê API
   slug: efi-bank-carn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-carn-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-carn-api-openapi.yml
 - filename: efi-bank-cobran-as-api-openapi.yml
   format: yaml
   label: Efí Cobranças API
   slug: efi-bank-cobran-as-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-cobran-as-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-cobran-as-api-openapi.yml
 - filename: efi-bank-open-finance-api-openapi.yml
   format: yaml
   label: Efí Open Finance API
   slug: efi-bank-open-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-open-finance-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-open-finance-api-openapi.yml
 - filename: efi-bank-pix-charges-api-openapi.yml
   format: yaml
   label: Efí Pix Charges API
   slug: efi-bank-pix-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-charges-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-pix-charges-api-openapi.yml
 - filename: efi-bank-pix-payments-api-openapi.yml
   format: yaml
   label: Efí Pix Payments API
   slug: efi-bank-pix-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-payments-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-pix-payments-api-openapi.yml
 - filename: efi-bank-pix-webhooks-api-openapi.yml
   format: yaml
   label: Efí Pix Webhooks API
   slug: efi-bank-pix-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-pix-webhooks-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 12
@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/efi-ba
   - path: /v1/carnet\n  method: post\n  operationId: createCarnet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/carnet/{id}\n  method: get\n  operationId: getCarnet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/carnet/{id}/parcel/{parcel}\n  method: put\n  operationId: updateCarnetParcelDueDate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/carnet/{id}/cancel\n  method: put\n  operationId: cancelCarnet\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/carnet/{id}/settle\n  method: put\n  operationId: settleCarnet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/oauth/token\n  method: post\n  operationId: openFinanceAuthorize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/open-finance/participants\n\
   \  method: get\n  operationId: listOpenFinanceParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/open-finance/payments/pix\n  method: post\n  operationId: initiateOpenFinancePix\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/agentic-access/efi-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/efi-bank/agentic-access/efi-bank-agentic-access.yml
 summary_line: 34 operations · 22 acting
 tags:
 - Payments

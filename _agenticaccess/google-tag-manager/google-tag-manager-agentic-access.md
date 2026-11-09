@@ -9,49 +9,49 @@ api_specs:
   label: Google Tag Manager Accounts API
   slug: google-tag-manager-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-accounts-api-openapi.yml
 - filename: google-tag-manager-containers-api-openapi.yml
   format: yaml
   label: Google Tag Manager Containers API
   slug: google-tag-manager-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-containers-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-containers-api-openapi.yml
 - filename: google-tag-manager-triggers-api-openapi.yml
   format: yaml
   label: Google Tag Manager Triggers API
   slug: google-tag-manager-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-triggers-api-openapi.yml
 - filename: google-tag-manager-user-permissions-api-openapi.yml
   format: yaml
   label: Google Tag Manager User Permissions API
   slug: google-tag-manager-user-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-user-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-user-permissions-api-openapi.yml
 - filename: google-tag-manager-variables-api-openapi.yml
   format: yaml
   label: Google Tag Manager Variables API
   slug: google-tag-manager-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-variables-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-variables-api-openapi.yml
 - filename: google-tag-manager-versions-api-openapi.yml
   format: yaml
   label: Google Tag Manager Versions API
   slug: google-tag-manager-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-versions-api-openapi.yml
 - filename: google-tag-manager-workspaces-api-openapi.yml
   format: yaml
   label: Google Tag Manager Workspaces API
   slug: google-tag-manager-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-workspaces-api-openapi.yml
 - filename: google-tag-manager-tag-manager-api-openapi.yml
   format: yaml
   label: Google Tag Manager Tag Manager API
   slug: google-tag-manager-tag-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-tag-manager-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-tag-manager-api-openapi.yml
 consequence_counts:
   read: 18
   write: 26
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - tagmanager.delete.containers\n    - tagmanager.edit.containers\n    - tagmanager.edit.containerversions\n    - tagmanager.manage.accounts\n    - tagmanager.manage.users\n    - tagmanager.publish\n    - tagmanager.readonly\n- path: /tagmanager/v2/{parent}/user_permissions\n  method: post\n  operationId: createUserPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - tagmanager.delete.containers\n    - tagmanager.edit.containers\n    - tagmanager.edit.containerversions\n    - tagmanager.manage.accounts\n    - tagmanager.manage.users\n    - tagmanager.publish\n    - tagmanager.readonly\n\
   - path: /tagmanager/v2/{userPermissionPath}\n  method: get\n  operationId: getUserPermission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - tagmanager.delete.containers\n    - tagmanager.edit.containers\n    - tagmanager.edit.containerversions\n    - tagmanager.manage.accounts\n    - tagmanager.manage.users\n    - tagmanager.publish\n    - tagmanager.readonly\n- path: /tagmanager/v2/{userPermissionPath}\n  method: put\n  operationId: updateUserPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - tagmanager.delete.containers\n    - tagmanager.edit.containers\n    - tagmanager.edit.containerversions\n    - tagmanager.manage.accounts\n\
   \    - tagmanager.manage.users\n    - tagmanager.publish\n    - tagmanager.readonly\n- path: /tagmanager/v2/{userPermissionPath}\n  method: delete\n  operationId: deleteUserPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - tagmanager.delete.containers\n    - tagmanager.edit.containers\n    - tagmanager.edit.containerversions\n    - tagmanager.manage.accounts\n    - tagmanager.manage.users\n    - tagmanager.publish\n    - tagmanager.readonly\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/agentic-access/google-tag-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-tag-manager/agentic-access/google-tag-manager-agentic-access.yml
 summary_line: 44 operations · 26 acting
 tags:
 - Analytics

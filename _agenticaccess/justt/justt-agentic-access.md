@@ -9,55 +9,55 @@ api_specs:
   label: Justt Chargebacks API
   slug: justt-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/justt/openapi/justt-chargebacks-api-openapi.yml
 - filename: justt-data-subjects-api-openapi.yml
   format: yaml
   label: Justt Data Subjects API
   slug: justt-data-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-data-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/justt/openapi/justt-data-subjects-api-openapi.yml
 - filename: justt-evidence-api-openapi.yml
   format: yaml
   label: Justt Evidence API
   slug: justt-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/justt/openapi/justt-evidence-api-openapi.yml
 - filename: justt-files-api-openapi.yml
   format: yaml
   label: Justt Files API
   slug: justt-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-files-api-openapi.yml
+  url: https://artifacts.apis.io/justt/openapi/justt-files-api-openapi.yml
 - filename: justt-integrations-api-openapi.yml
   format: yaml
   label: Justt Integrations API
   slug: justt-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/justt/openapi/justt-integrations-api-openapi.yml
 - filename: justt-merchants-api-openapi.yml
   format: yaml
   label: Justt Merchants API
   slug: justt-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/justt/openapi/justt-merchants-api-openapi.yml
 - filename: justt-pre-chargeback-alerts-api-openapi.yml
   format: yaml
   label: Justt Pre-chargeback Alerts API
   slug: justt-pre-chargeback-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-pre-chargeback-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/justt/openapi/justt-pre-chargeback-alerts-api-openapi.yml
 - filename: justt-sandbox-api-openapi.yml
   format: yaml
   label: Justt Sandbox API
   slug: justt-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/justt/openapi/justt-sandbox-api-openapi.yml
 - filename: justt-transactions-api-openapi.yml
   format: yaml
   label: Justt Transactions API
   slug: justt-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/openapi/justt-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/justt/openapi/justt-transactions-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 13
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-08-23'\nmethod: generated\nsource: openapi/justt-
   \ required\n    audit: required\n- path: /merchants/{merchantUuid}\n  method: get\n  operationId: MerchantsController_getMerchant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations\n  method: get\n  operationId: IntegrationsController_getIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations\n  method: post\n  operationId: IntegrationsController_createIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /integrations/{id}\n  method: get\n  operationId: IntegrationsController_getIntegration\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/{id}\n  method: delete\n  operationId: IntegrationsController_deactivateIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /pre-chargeback-alerts/alerts/outcome\n  method: post\n  operationId: PreChargebackAlertsController_createOutcome\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\
   - path: /sandbox/raw-data\n  method: post\n  operationId: SandboxController_uploadRawData\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/agentic-access/justt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/justt/agentic-access/justt-agentic-access.yml
 summary_line: 23 operations · 13 acting · 13 human-in-the-loop
 tags:
 - Company

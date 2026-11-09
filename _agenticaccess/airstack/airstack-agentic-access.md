@@ -9,79 +9,79 @@ api_specs:
   label: Airstack Casts API
   slug: airstack-casts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-casts-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-casts-api-openapi.yml
 - filename: airstack-hubevents-api-openapi.yml
   format: yaml
   label: Airstack HubEvents API
   slug: airstack-hubevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-hubevents-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-hubevents-api-openapi.yml
 - filename: airstack-links-api-openapi.yml
   format: yaml
   label: Airstack Links API
   slug: airstack-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-links-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-links-api-openapi.yml
 - filename: airstack-onchainevents-api-openapi.yml
   format: yaml
   label: Airstack OnChainEvents API
   slug: airstack-onchainevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-onchainevents-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-onchainevents-api-openapi.yml
 - filename: airstack-reactions-api-openapi.yml
   format: yaml
   label: Airstack Reactions API
   slug: airstack-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-reactions-api-openapi.yml
 - filename: airstack-storage-api-openapi.yml
   format: yaml
   label: Airstack Storage API
   slug: airstack-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-storage-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-storage-api-openapi.yml
 - filename: airstack-submitmessage-api-openapi.yml
   format: yaml
   label: Airstack SubmitMessage API
   slug: airstack-submitmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-submitmessage-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-submitmessage-api-openapi.yml
 - filename: airstack-usernames-api-openapi.yml
   format: yaml
   label: Airstack Usernames API
   slug: airstack-usernames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-usernames-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-usernames-api-openapi.yml
 - filename: airstack-validatemessage-api-openapi.yml
   format: yaml
   label: Airstack ValidateMessage API
   slug: airstack-validatemessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-validatemessage-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-validatemessage-api-openapi.yml
 - filename: airstack-verifications-api-openapi.yml
   format: yaml
   label: Airstack Verifications API
   slug: airstack-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-verifications-api-openapi.yml
 - filename: airstack-webhooks-api-openapi.yml
   format: yaml
   label: Airstack Webhooks API
   slug: airstack-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-webhooks-api-openapi.yml
 - filename: airstack-fids-api-openapi.yml
   format: yaml
   label: Airstack FI Ds API
   slug: airstack-fids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-fids-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-fids-api-openapi.yml
 - filename: airstack-user-data-api-openapi.yml
   format: yaml
   label: Airstack User Data API
   slug: airstack-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/openapi/airstack-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/airstack/openapi/airstack-user-data-api-openapi.yml
 consequence_counts:
   read: 22
   write: 5
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/farcas
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/submitMessage\n  method: post\n  operationId: SubmitMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/validateMessage\n  method: post\n  operationId: ValidateMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/events\n  method: get\n  operationId: ListEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/eventById\n  method:\
   \ get\n  operationId: GetEventById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks\n  method: post\n  operationId: subscriptionsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/filters/test\n  method: post\n  operationId: subscriptionsTestFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{webhook_id}\n  method: delete\n  operationId: subscriptionsDelete\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/agentic-access/airstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airstack/agentic-access/airstack-agentic-access.yml
 summary_line: 27 operations · 5 acting
 tags:
 - Web3

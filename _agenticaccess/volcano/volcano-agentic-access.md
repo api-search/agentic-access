@@ -9,19 +9,19 @@ api_specs:
   label: Volcano Jobs API
   slug: volcano-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/volcano/openapi/volcano-jobs-api-openapi.yml
 - filename: volcano-podgroups-api-openapi.yml
   format: yaml
   label: Volcano PodGroups API
   slug: volcano-podgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-podgroups-api-openapi.yml
+  url: https://artifacts.apis.io/volcano/openapi/volcano-podgroups-api-openapi.yml
 - filename: volcano-queues-api-openapi.yml
   format: yaml
   label: Volcano Queues API
   slug: volcano-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/openapi/volcano-queues-api-openapi.yml
+  url: https://artifacts.apis.io/volcano/openapi/volcano-queues-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/volcan
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/scheduling.volcano.sh/v1beta1/podgroups\n  method: get\n  operationId: listPodGroupAllNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/scheduling.volcano.sh/v1beta1/queues\n  method: get\n  operationId: listQueues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/scheduling.volcano.sh/v1beta1/queues\n  method: post\n  operationId: createQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /apis/scheduling.volcano.sh/v1beta1/queues/{name}\n  method: get\n  operationId: readQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/scheduling.volcano.sh/v1beta1/queues/{name}\n  method: put\n  operationId: replaceQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/scheduling.volcano.sh/v1beta1/queues/{name}\n  method: patch\n  operationId: patchQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /apis/scheduling.volcano.sh/v1beta1/queues/{name}\n  method: delete\n  operationId: deleteQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/agentic-access/volcano-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/volcano/agentic-access/volcano-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
 - Batch Processing

@@ -9,37 +9,37 @@ api_specs:
   label: Finout Cost API
   slug: finout-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-cost-api-openapi.yml
+  url: https://artifacts.apis.io/finout/openapi/finout-cost-api-openapi.yml
 - filename: finout-costguard-api-openapi.yml
   format: yaml
   label: Finout CostGuard API
   slug: finout-costguard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-costguard-api-openapi.yml
+  url: https://artifacts.apis.io/finout/openapi/finout-costguard-api-openapi.yml
 - filename: finout-endpoints-api-openapi.yml
   format: yaml
   label: Finout Endpoints API
   slug: finout-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/finout/openapi/finout-endpoints-api-openapi.yml
 - filename: finout-query-language-api-openapi.yml
   format: yaml
   label: Finout Query Language API
   slug: finout-query-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-query-language-api-openapi.yml
+  url: https://artifacts.apis.io/finout/openapi/finout-query-language-api-openapi.yml
 - filename: finout-virtual-tag-metadata-api-openapi.yml
   format: yaml
   label: Finout Virtual Tag Metadata API
   slug: finout-virtual-tag-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-virtual-tag-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/finout/openapi/finout-virtual-tag-metadata-api-openapi.yml
 - filename: finout-virtual-tags-api-openapi.yml
   format: yaml
   label: Finout Virtual Tags API
   slug: finout-virtual-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/openapi/finout-virtual-tags-api-openapi.yml
+  url: https://artifacts.apis.io/finout/openapi/finout-virtual-tags-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/finout
   - path: /megabill/query-language/keys\n  method: get\n  operationId: getMegaBillKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /megabill/query-language/values/{costCenter}/{key}\n  method: get\n  operationId: getMegaBillKeyValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /megabill/query-language/virtual-tags\n  method: get\n  operationId: getMegaBillVirtualTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virtual-tags/{virtualTagId}/metadata\n  method: get\n  operationId: getVirtualTagMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virtual-tags/{virtualTagId}/metadata\n\
   \  method: put\n  operationId: updateVirtualTagMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual-tag\n  method: get\n  operationId: listVirtualTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virtual-tag\n  method: post\n  operationId: createVirtualTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual-tag\n  method: put\n  operationId: updateVirtualTag\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual-tag/{id}\n  method: get\n  operationId: getVirtualTagById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virtual-tag/{id}\n  method: delete\n  operationId: deleteVirtualTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/agentic-access/finout-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/finout/agentic-access/finout-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Budgets

@@ -9,67 +9,67 @@ api_specs:
   label: SEC EDGAR Company Concept API
   slug: sec-company-concept-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-company-concept-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-company-concept-api-openapi.yml
 - filename: sec-company-facts-api-openapi.yml
   format: yaml
   label: SEC EDGAR Company Facts API
   slug: sec-company-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-company-facts-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-company-facts-api-openapi.yml
 - filename: sec-edgar-operational-status-api-api-openapi.yml
   format: yaml
   label: SEC EDGAR Operational Status API
   slug: sec-edgar-operational-status-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-edgar-operational-status-api-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-edgar-operational-status-api-api-openapi.yml
 - filename: sec-filer-management-api-api-openapi.yml
   format: yaml
   label: SEC EDGAR Filer Management API
   slug: sec-filer-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-filer-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-filer-management-api-api-openapi.yml
 - filename: sec-frames-api-openapi.yml
   format: yaml
   label: SEC EDGAR Frames API
   slug: sec-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-frames-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-frames-api-openapi.yml
 - filename: sec-search-api-openapi.yml
   format: yaml
   label: SEC EDGAR Search API
   slug: sec-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-search-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-search-api-openapi.yml
 - filename: sec-submission-api-api-openapi.yml
   format: yaml
   label: SEC EDGAR Submission API
   slug: sec-submission-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-submission-api-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-submission-api-api-openapi.yml
 - filename: sec-submission-status-api-api-openapi.yml
   format: yaml
   label: SEC EDGAR Submission Status API
   slug: sec-submission-status-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-submission-status-api-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-submission-status-api-api-openapi.yml
 - filename: sec-submissions-api-openapi.yml
   format: yaml
   label: SEC EDGAR Submissions API
   slug: sec-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-submissions-api-openapi.yml
 - filename: sec-full-text-search-api-openapi.yml
   format: yaml
   label: SEC EDGAR Full-Text Search API
   slug: sec-full-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-full-text-search-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-full-text-search-api-openapi.yml
 - filename: sec-xbrl-api-openapi.yml
   format: yaml
   label: SEC EDGAR XBRL API
   slug: sec-xbrl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/openapi/sec-xbrl-api-openapi.yml
+  url: https://artifacts.apis.io/sec/openapi/sec-xbrl-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sec-ed
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: EDGAR System Status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submission/bulk/live\n  method: post\n  operationId: Bulk Live Submission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submission/bulk/test\n  method: post\n  operationId: Bulk Test Submission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /submission/single/live\n  method: post\n  operationId: Single Live Submission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submission/single/test\n  method: post\n  operationId: Single Test Submission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submission/status\n  method: post\n  operationId: Check Multiple Submission Statuses\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submission/{accessionNumber}/status\n  method: get\n  operationId: Check Single Submission Status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /LATEST/search-index/efts\n  method: get\n  operationId: searchFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/agentic-access/sec-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sec/agentic-access/sec-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Financial Data

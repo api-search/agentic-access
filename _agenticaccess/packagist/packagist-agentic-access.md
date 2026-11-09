@@ -9,31 +9,31 @@ api_specs:
   label: Packagist Metadata API
   slug: packagist-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-metadata-api-openapi.yml
 - filename: packagist-packages-api-openapi.yml
   format: yaml
   label: Packagist Packages API
   slug: packagist-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-packages-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-packages-api-openapi.yml
 - filename: packagist-search-api-openapi.yml
   format: yaml
   label: Packagist Search API
   slug: packagist-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-search-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-search-api-openapi.yml
 - filename: packagist-security-api-openapi.yml
   format: yaml
   label: Packagist Security API
   slug: packagist-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-security-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-security-api-openapi.yml
 - filename: packagist-statistics-api-openapi.yml
   format: yaml
   label: Packagist Statistics API
   slug: packagist-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/openapi/packagist-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/packagist/openapi/packagist-statistics-api-openapi.yml
 consequence_counts:
   read: 10
   write: 3
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/packag
   \ method: get\n  operationId: getPopularPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{vendor}/{package}.json\n  method: get\n  operationId: getPackage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /p2/{vendor}/{package}.json\n  method: get\n  operationId: getPackageMetadataV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /p2/{vendor}/{package}~dev.json\n  method: get\n  operationId: getPackageMetadataV2Dev\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{vendor}/{package}/stats.json\n  method: get\n  operationId: getPackageStats\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata/changes.json\n  method: get\n  operationId: getMetadataChanges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statistics.json\n  method: get\n  operationId: getStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/security-advisories/\n  method: get\n  operationId: getSecurityAdvisories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/create-package\n  method: post\n  operationId: createPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/packages/{package}\n  method: put\n  operationId: editPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/update-package\n  method: post\n  operationId: updatePackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/agentic-access/packagist-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/packagist/agentic-access/packagist-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - Composer

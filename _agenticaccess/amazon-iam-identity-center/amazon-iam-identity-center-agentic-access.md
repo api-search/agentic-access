@@ -9,13 +9,73 @@ api_specs:
   label: Amazon IAM Identity Center AWS Single Sign On Admin API
   slug: amazon-iam-identity-center-aws-single-sign-on-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-aws-single-sign-on-admin-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-aws-single-sign-on-admin-api-openapi.yml
 - filename: amazon-iam-identity-center-aws-sso-identity-store-api-openapi.yml
   format: yaml
   label: Amazon IAM Identity Center AWS SSO Identity Store API
   slug: amazon-iam-identity-center-aws-sso-identity-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-aws-sso-identity-store-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-aws-sso-identity-store-api-openapi.yml
+- filename: amazon-iam-identity-center-application-access-scope-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application Access Scope API
+  slug: amazon-iam-identity-center-application-access-scope-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-access-scope-api-openapi.yml
+- filename: amazon-iam-identity-center-application-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application API
+  slug: amazon-iam-identity-center-application-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-api-openapi.yml
+- filename: amazon-iam-identity-center-application-assignment-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application Assignment API
+  slug: amazon-iam-identity-center-application-assignment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-assignment-api-openapi.yml
+- filename: amazon-iam-identity-center-application-authentication-method-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application Authentication Method API
+  slug: amazon-iam-identity-center-application-authentication-method-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-authentication-method-api-openapi.yml
+- filename: amazon-iam-identity-center-application-grant-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Application Grant API
+  slug: amazon-iam-identity-center-application-grant-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-application-grant-api-openapi.yml
+- filename: amazon-iam-identity-center-identity-store-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Identity Store API
+  slug: amazon-iam-identity-center-identity-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-identity-store-api-openapi.yml
+- filename: amazon-iam-identity-center-instance-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Instance API
+  slug: amazon-iam-identity-center-instance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-instance-api-openapi.yml
+- filename: amazon-iam-identity-center-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Operations API
+  slug: amazon-iam-identity-center-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-operations-api-openapi.yml
+- filename: amazon-iam-identity-center-region-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Region API
+  slug: amazon-iam-identity-center-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-region-api-openapi.yml
+- filename: amazon-iam-identity-center-trusted-token-issuer-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Identity Center Iam Identity Center Trusted Token Issuer API
+  slug: amazon-iam-identity-center-trusted-token-issuer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-identity-center/openapi/amazon-iam-identity-center-trusted-token-issuer-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 12
@@ -130,11 +190,12 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=SWBExternalService.PutPermissionsBoundaryToPermissionSet\n  method: post\n  operationId: PutPermissionsBoundaryToPermissionSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=SWBExternalService.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=SWBExternalService.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=SWBExternalService.UpdateInstanceAccessControlAttributeConfiguration\n  method: post\n  operationId: UpdateInstanceAccessControlAttributeConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=SWBExternalService.UpdatePermissionSet\n  method: post\n  operationId: UpdatePermissionSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/agentic-access/amazon-iam-identity-center-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iam-identity-center/agentic-access/amazon-iam-identity-center-agentic-access.yml
 summary_line: 56 operations · 44 acting · 4 human-in-the-loop
 tags:
 - Access Control
 - Authentication
+- Amazon Web Services
 - Identity and Access Management
 - SSO
 ---

@@ -9,25 +9,25 @@ api_specs:
   label: United Airlines Booking API
   slug: united-airlines-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-booking-api-openapi.yml
+  url: https://artifacts.apis.io/united-airlines/openapi/united-airlines-booking-api-openapi.yml
 - filename: united-airlines-servicing-api-openapi.yml
   format: yaml
   label: United Airlines Servicing API
   slug: united-airlines-servicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-servicing-api-openapi.yml
+  url: https://artifacts.apis.io/united-airlines/openapi/united-airlines-servicing-api-openapi.yml
 - filename: united-airlines-shopping-api-openapi.yml
   format: yaml
   label: United Airlines Shopping API
   slug: united-airlines-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/united-airlines/openapi/united-airlines-shopping-api-openapi.yml
 - filename: united-airlines-status-api-openapi.yml
   format: yaml
   label: United Airlines Status API
   slug: united-airlines-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/openapi/united-airlines-status-api-openapi.yml
+  url: https://artifacts.apis.io/united-airlines/openapi/united-airlines-status-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/united
   \ operationId: exchangeBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - booking\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{bookingId}/refund\n  method: post\n  operationId: refundBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - booking\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{bookingId}/ancillaries\n  method: post\n  operationId: addAncillary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - booking\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shopping/offers\n  method: post\n  operationId: searchFlightOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - booking\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shopping/offers/{offerId}\n  method: get\n  operationId: getFlightOffer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - booking\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights/status\n  method: get\n  operationId: getFlightStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights/schedules\n  method: get\n  operationId: getFlightSchedules\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/agentic-access/united-airlines-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/united-airlines/agentic-access/united-airlines-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Airlines

@@ -9,19 +9,19 @@ api_specs:
   label: Google BeyondCorp AppConnectors API
   slug: google-beyondcorp-appconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-appconnectors-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-appconnectors-api-openapi.yml
 - filename: google-beyondcorp-securitygateways-api-openapi.yml
   format: yaml
   label: Google BeyondCorp SecurityGateways API
   slug: google-beyondcorp-securitygateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-securitygateways-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-securitygateways-api-openapi.yml
 - filename: google-beyondcorp-app-connections-api-openapi.yml
   format: yaml
   label: Google BeyondCorp App Connections API
   slug: google-beyondcorp-app-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-app-connections-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-app-connections-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/beyond
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/appConnections\n  method: get\n  operationId: listAppConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/appConnections\n  method: post\n  operationId: createAppConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/appConnections/{appConnectionId}\n\
   \  method: get\n  operationId: getAppConnection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/appConnections/{appConnectionId}\n  method: delete\n  operationId: deleteAppConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/securityGateways\n  method: get\n  operationId: listSecurityGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/securityGateways\n  method: post\n  operationId: createSecurityGateway\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/agentic-access/google-beyondcorp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-beyondcorp/agentic-access/google-beyondcorp-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Access Control

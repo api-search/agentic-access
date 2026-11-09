@@ -9,13 +9,13 @@ api_specs:
   label: Tessian Beta Endpoints API
   slug: tessian-beta-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-beta-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/tessian/openapi/tessian-beta-endpoints-api-openapi.yml
 - filename: tessian-endpoints-api-openapi.yml
   format: yaml
   label: Tessian Endpoints API
   slug: tessian-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/openapi/tessian-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/tessian/openapi/tessian-endpoints-api-openapi.yml
 consequence_counts:
   read: 17
   write: 10
@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/tessia
   \   audit: none\n- path: /api/v1/groups\n  method: post\n  operationId: insights.external_api.main.endpoint_group_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/groups/{id}\n  method: get\n  operationId: insights.external_api.main.endpoint_group_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/groups/{id}\n  method: put\n  operationId: insights.external_api.main.endpoint_group_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /api/v1/groups/{id}\n  method: delete\n  operationId: insights.external_api.main.endpoint_group_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/groups/{id}/add_members\n  method: post\n  operationId: insights.external_api.main.endpoint_group_update_add\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/groups/{id}/remove_members\n  method: post\n  operationId: insights.external_api.main.endpoint_group_update_remove\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/monitoring/users\n  method: get\n  operationId: insights.external_api.main.get_users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/risk/company\n  method: get\n  operationId: insights.external_api.main.get_company_risk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/triggers/v1\n  method: get\n  operationId: insights.external_api.main.get_triggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/agentic-access/tessian-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tessian/agentic-access/tessian-agentic-access.yml
 summary_line: 27 operations · 10 acting
 tags:
 - Company

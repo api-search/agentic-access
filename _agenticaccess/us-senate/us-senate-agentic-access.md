@@ -8,37 +8,37 @@ api_specs:
   label: US Senate Clients API
   slug: us-senate-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-clients-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-clients-api-openapi.yml
 - filename: us-senate-constants-api-openapi.yml
   format: yaml
   label: US Senate Constants API
   slug: us-senate-constants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-constants-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-constants-api-openapi.yml
 - filename: us-senate-contributions-api-openapi.yml
   format: yaml
   label: US Senate Contributions API
   slug: us-senate-contributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-contributions-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-contributions-api-openapi.yml
 - filename: us-senate-filings-api-openapi.yml
   format: yaml
   label: US Senate Filings API
   slug: us-senate-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-filings-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-filings-api-openapi.yml
 - filename: us-senate-lobbyists-api-openapi.yml
   format: yaml
   label: US Senate Lobbyists API
   slug: us-senate-lobbyists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-lobbyists-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-lobbyists-api-openapi.yml
 - filename: us-senate-registrants-api-openapi.yml
   format: yaml
   label: US Senate Registrants API
   slug: us-senate-registrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/openapi/us-senate-registrants-api-openapi.yml
+  url: https://artifacts.apis.io/us-senate/openapi/us-senate-registrants-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/us-sen
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registrants/{id}/\n  method: get\n  operationId: getRegistrant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/\n  method: get\n  operationId: listClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/{id}/\n  method: get\n  operationId: getClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lobbyists/\n  method: get\n  operationId: listLobbyists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /lobbyists/{id}/\n  method: get\n  operationId: getLobbyist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contributions/\n  method: get\n  operationId: listContributions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constants/filing/filingtypes/\n  method: get\n  operationId: getFilingTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constants/filing/lobbyingactivityissues/\n  method: get\n  operationId: getLobbyingIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constants/filing/governmententities/\n  method: get\n  operationId: getGovernmentEntities\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constants/general/countries/\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constants/general/states/\n  method: get\n  operationId: getStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/agentic-access/us-senate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-senate/agentic-access/us-senate-agentic-access.yml
 summary_line: 14 operations
 tags:
 - Federal Government

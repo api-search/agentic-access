@@ -9,25 +9,25 @@ api_specs:
   label: Splitit Authentication API
   slug: splitit-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/splitit/openapi/splitit-authentication-api-openapi.yml
 - filename: splitit-eligibility-api-openapi.yml
   format: yaml
   label: Splitit Eligibility API
   slug: splitit-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/splitit/openapi/splitit-eligibility-api-openapi.yml
 - filename: splitit-installment-plans-api-openapi.yml
   format: yaml
   label: Splitit Installment Plans API
   slug: splitit-installment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-installment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/splitit/openapi/splitit-installment-plans-api-openapi.yml
 - filename: splitit-merchant-management-api-openapi.yml
   format: yaml
   label: Splitit Merchant Management API
   slug: splitit-merchant-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/openapi/splitit-merchant-management-api-openapi.yml
+  url: https://artifacts.apis.io/splitit/openapi/splitit-merchant-management-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spliti
   \     - abnormal\n      - high-value\n    audit: required\n- path: /api/ams/structure\n  method: get\n  operationId: getMerchantPartnerStructure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ams/merchants\n  method: post\n  operationId: addMerchantPartner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/ams/merchants/{merchantId}/documents\n  method: post\n  operationId: uploadDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/ams/merchants/{merchantId}/invite\n  method: post\n  operationId: sendInviteEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/ams/merchants/{merchantId}/status\n  method: get\n  operationId: getOnboardingStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ams/merchants/pending\n  method: get\n  operationId: getPendingAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ams/merchants/{merchantId}/login-link\n  method: post\n  operationId:\
   \ generateDirectLoginLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/agentic-access/splitit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/splitit/agentic-access/splitit-agentic-access.yml
 summary_line: 17 operations · 11 acting
 tags:
 - Payments

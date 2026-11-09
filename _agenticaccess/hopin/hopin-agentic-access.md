@@ -9,85 +9,85 @@ api_specs:
   label: RingCentral Events Bank Questions API
   slug: hopin-bank-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-bank-questions-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-bank-questions-api-openapi.yml
 - filename: hopin-booths-api-openapi.yml
   format: yaml
   label: RingCentral Events Booths API
   slug: hopin-booths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-booths-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-booths-api-openapi.yml
 - filename: hopin-data-subscriptions-api-openapi.yml
   format: yaml
   label: RingCentral Events Data Subscriptions API
   slug: hopin-data-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-data-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-data-subscriptions-api-openapi.yml
 - filename: hopin-events-api-openapi.yml
   format: yaml
   label: RingCentral Events API
   slug: hopin-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-events-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-events-api-openapi.yml
 - filename: hopin-health-api-openapi.yml
   format: yaml
   label: RingCentral Events Health API
   slug: hopin-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-health-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-health-api-openapi.yml
 - filename: hopin-magic-links-api-openapi.yml
   format: yaml
   label: RingCentral Events Magic Links API
   slug: hopin-magic-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-magic-links-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-magic-links-api-openapi.yml
 - filename: hopin-organizations-api-openapi.yml
   format: yaml
   label: RingCentral Events Organizations API
   slug: hopin-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-organizations-api-openapi.yml
 - filename: hopin-registrations-api-openapi.yml
   format: yaml
   label: RingCentral Events Registrations API
   slug: hopin-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-registrations-api-openapi.yml
 - filename: hopin-reports-api-openapi.yml
   format: yaml
   label: RingCentral Events Reports API
   slug: hopin-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-reports-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-reports-api-openapi.yml
 - filename: hopin-schedule-items-api-openapi.yml
   format: yaml
   label: RingCentral Events Schedule Items API
   slug: hopin-schedule-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-schedule-items-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-schedule-items-api-openapi.yml
 - filename: hopin-sessions-api-openapi.yml
   format: yaml
   label: RingCentral Events Sessions API
   slug: hopin-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-sessions-api-openapi.yml
 - filename: hopin-stages-api-openapi.yml
   format: yaml
   label: RingCentral Events Stages API
   slug: hopin-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-stages-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-stages-api-openapi.yml
 - filename: hopin-templates-api-openapi.yml
   format: yaml
   label: RingCentral Events Templates API
   slug: hopin-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-templates-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-templates-api-openapi.yml
 - filename: hopin-tickets-api-openapi.yml
   format: yaml
   label: RingCentral Events Tickets API
   slug: hopin-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/hopin-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/hopin/openapi/hopin-tickets-api-openapi.yml
 consequence_counts:
   read: 22
   write: 9
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \      - high-value\n    audit: required\n- path: /v1/tickets/{ticketId}/magicLinks\n  method: get\n  operationId: Retrieve_Magic_Links_for_a_Ticket_type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/magicLinks/{magicLinkId}\n  method: delete\n  operationId: Deletes_Magic_Link\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/magicLinks/{magicLinkId}\n  method: get\n  operationId: Retrieve_Magic_Link_Details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events/{eventId}/tickets\n\
   \  method: get\n  operationId: Retrieve_Ticket_Types_for_an_Event\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tickets/{ticketId}\n  method: get\n  operationId: Retrieve_Ticket_Type_Details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/templates/{templateID}/event\n  method: post\n  operationId: Creates_an_event_from_template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{organizationId}/templates\n  method: get\n  operationId: Returns_the_list_of_the_organization_s_templates\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/agentic-access/hopin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hopin/agentic-access/hopin-agentic-access.yml
 summary_line: 31 operations · 9 acting
 tags:
 - Event

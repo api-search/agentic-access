@@ -9,43 +9,43 @@ api_specs:
   label: Olo Webhooks
   slug: olo-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/asyncapi/olo-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/olo/asyncapi/olo-webhooks-asyncapi.yml
 - filename: olo-accounts-api-openapi.yml
   format: yaml
   label: Olo Accounts API
   slug: olo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-accounts-api-openapi.yml
 - filename: olo-accruals-api-openapi.yml
   format: yaml
   label: Olo Accruals API
   slug: olo-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-accruals-api-openapi.yml
 - filename: olo-brand-api-openapi.yml
   format: yaml
   label: Olo Brand API
   slug: olo-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-brand-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-brand-api-openapi.yml
 - filename: olo-promotions-api-openapi.yml
   format: yaml
   label: Olo Promotions API
   slug: olo-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-promotions-api-openapi.yml
 - filename: olo-rails-api-openapi.yml
   format: yaml
   label: Olo Rails API
   slug: olo-rails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-rails-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-rails-api-openapi.yml
 - filename: olo-users-api-openapi.yml
   format: yaml
   label: Olo Users API
   slug: olo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/openapi/olo-users-api-openapi.yml
+  url: https://artifacts.apis.io/olo/openapi/olo-users-api-openapi.yml
 consequence_counts:
   read: 4
   write: 8
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/olo-or
   \      - abnormal\n      - high-value\n    audit: required\n- path: /promotions/accounts\n  method: get\n  operationId: findAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /promotions/accounts/{accountId}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /promotions/validate\n  method: post\n  operationId: validatePromotions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /promotions/redemptions\n  method: post\n  operationId: redeemPromotions\n  x-agentic-access:\n    action-class: acting\n  \
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /promotions/redemptions/{redemptionId}\n  method: delete\n  operationId: voidRedemption\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /promotions/accruals\n  method: post\n  operationId: accruePoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /promotions/accruals/{accrualId}\n  method:\
   \ delete\n  operationId: voidAccrual\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/agentic-access/olo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/olo/agentic-access/olo-agentic-access.yml
 summary_line: 12 operations · 8 acting
 tags:
 - Food Service

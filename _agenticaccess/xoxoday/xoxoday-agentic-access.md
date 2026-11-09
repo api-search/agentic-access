@@ -9,19 +9,19 @@ api_specs:
   label: Xoxoday Authentication API
   slug: xoxoday-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-authentication-api-openapi.yml
 - filename: xoxoday-gift-cards-api-openapi.yml
   format: yaml
   label: Xoxoday Gift Cards API
   slug: xoxoday-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-gift-cards-api-openapi.yml
 - filename: xoxoday-reward-links-api-openapi.yml
   format: yaml
   label: Xoxoday Reward Links API
   slug: xoxoday-reward-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-reward-links-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-reward-links-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 1
@@ -58,7 +58,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 3\n    connected: 1\n  by_consequence:\n    write: 2\n    read: 1\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /v1/oauth/token\n  method: post\n  operationId: getAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/oauth/token\n  method: get\n  operationId: validateToken\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/oauth/api\n  method: post\n  operationId: plumApiDispatch\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/oauth/api/generateLink\n  method: post\n  operationId: generateRewardLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/agentic-access/xoxoday-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xoxoday/agentic-access/xoxoday-agentic-access.yml
 summary_line: 4 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Rewards

@@ -9,43 +9,43 @@ api_specs:
   label: Upbit Exchange - Account API
   slug: upbit-exchange-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-account-api-openapi.yml
+  url: https://artifacts.apis.io/upbit/openapi/upbit-exchange-account-api-openapi.yml
 - filename: upbit-exchange-deposits-api-openapi.yml
   format: yaml
   label: Upbit Exchange - Deposits API
   slug: upbit-exchange-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/upbit/openapi/upbit-exchange-deposits-api-openapi.yml
 - filename: upbit-exchange-orders-api-openapi.yml
   format: yaml
   label: Upbit Exchange - Orders API
   slug: upbit-exchange-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-orders-api-openapi.yml
+  url: https://artifacts.apis.io/upbit/openapi/upbit-exchange-orders-api-openapi.yml
 - filename: upbit-exchange-service-api-openapi.yml
   format: yaml
   label: Upbit Exchange - Service API
   slug: upbit-exchange-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-service-api-openapi.yml
+  url: https://artifacts.apis.io/upbit/openapi/upbit-exchange-service-api-openapi.yml
 - filename: upbit-exchange-travel-rule-api-openapi.yml
   format: yaml
   label: Upbit Exchange - Travel Rule API
   slug: upbit-exchange-travel-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-travel-rule-api-openapi.yml
+  url: https://artifacts.apis.io/upbit/openapi/upbit-exchange-travel-rule-api-openapi.yml
 - filename: upbit-exchange-withdrawals-api-openapi.yml
   format: yaml
   label: Upbit Exchange - Withdrawals API
   slug: upbit-exchange-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-exchange-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/upbit/openapi/upbit-exchange-withdrawals-api-openapi.yml
 - filename: upbit-quotation-api-openapi.yml
   format: yaml
   label: Upbit Quotation API
   slug: upbit-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/openapi/upbit-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/upbit/openapi/upbit-quotation-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 31
@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deposits/coin_addresses\n  method: get\n  operationId: listDepositAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deposit\n  method: get\n  operationId: getDeposit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deposits\n  method: get\n  operationId: listDeposits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deposits/krw\n  method: post\n  operationId: depositKrw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /travel_rule/vasps\n  method: get\n  operationId: listTravelRuleVasps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /travel_rule/deposit/uuid\n  method: post\n  operationId: verifyTravelRuleByUuid\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /travel_rule/deposit/txid\n  method: post\n  operationId: verifyTravelRuleByTxid\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n\
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /status/wallet\n  method: get\n  operationId: getServiceStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api_keys\n  method: get\n  operationId: listApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/agentic-access/upbit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/upbit/agentic-access/upbit-agentic-access.yml
 summary_line: 44 operations · 13 acting
 tags:
 - Cryptocurrency

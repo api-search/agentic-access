@@ -9,79 +9,79 @@ api_specs:
   label: AccelByte Achievement API
   slug: accelbyte-achievement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-achievement-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-achievement-api-openapi.yml
 - filename: accelbyte-basic-api-openapi.yml
   format: yaml
   label: AccelByte Basic API
   slug: accelbyte-basic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-basic-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-basic-api-openapi.yml
 - filename: accelbyte-cloud-save-api-openapi.yml
   format: yaml
   label: AccelByte Cloud Save API
   slug: accelbyte-cloud-save-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-cloud-save-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-cloud-save-api-openapi.yml
 - filename: accelbyte-dsmc-api-openapi.yml
   format: yaml
   label: AccelByte DSMC API
   slug: accelbyte-dsmc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-dsmc-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-dsmc-api-openapi.yml
 - filename: accelbyte-game-telemetry-api-openapi.yml
   format: yaml
   label: AccelByte Game Telemetry API
   slug: accelbyte-game-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-game-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-game-telemetry-api-openapi.yml
 - filename: accelbyte-iam-api-openapi.yml
   format: yaml
   label: AccelByte IAM API
   slug: accelbyte-iam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-iam-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-iam-api-openapi.yml
 - filename: accelbyte-leaderboard-api-openapi.yml
   format: yaml
   label: AccelByte Leaderboard API
   slug: accelbyte-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-leaderboard-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-leaderboard-api-openapi.yml
 - filename: accelbyte-matchmaking-api-openapi.yml
   format: yaml
   label: AccelByte Matchmaking API
   slug: accelbyte-matchmaking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-matchmaking-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-matchmaking-api-openapi.yml
 - filename: accelbyte-platform-api-openapi.yml
   format: yaml
   label: AccelByte Platform API
   slug: accelbyte-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-platform-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-platform-api-openapi.yml
 - filename: accelbyte-season-pass-api-openapi.yml
   format: yaml
   label: AccelByte Season Pass API
   slug: accelbyte-season-pass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-season-pass-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-season-pass-api-openapi.yml
 - filename: accelbyte-session-api-openapi.yml
   format: yaml
   label: AccelByte Session API
   slug: accelbyte-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-session-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-session-api-openapi.yml
 - filename: accelbyte-statistics-api-openapi.yml
   format: yaml
   label: AccelByte Statistics API
   slug: accelbyte-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-statistics-api-openapi.yml
 - filename: accelbyte-ugc-api-openapi.yml
   format: yaml
   label: AccelByte UGC API
   slug: accelbyte-ugc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/openapi/accelbyte-ugc-api-openapi.yml
+  url: https://artifacts.apis.io/accelbyte/openapi/accelbyte-ugc-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/accelb
   \ none\n- path: /platform/public/namespaces/{namespace}/users/{userId}/orders\n  method: post\n  operationId: platformCreateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/public/namespaces/{namespace}/users/{userId}/wallets/{currencyCode}\n  method: get\n  operationId: platformGetUserWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /seasonpass/v1/public/namespaces/{namespace}/seasons/current/progression\n  method: get\n  operationId: seasonPassGetCurrentProgression\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /achievement/v1/public/namespaces/{namespace}/users/{userId}/achievements\n  method: get\n  operationId: achievementListUserAchievements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dsmcontroller/namespaces/{namespace}/servers/claim\n  method: post\n  operationId: dsmcClaimServer\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /game-telemetry/v1/protected/events\n  method: post\n  operationId: telemetrySaveEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ugc/v1/public/namespaces/{namespace}/channels/{channelId}/contents/s3\n  method: post\n  operationId: ugcCreateContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/agentic-access/accelbyte-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/accelbyte/agentic-access/accelbyte-agentic-access.yml
 summary_line: 23 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Gaming

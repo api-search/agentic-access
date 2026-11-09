@@ -9,37 +9,37 @@ api_specs:
   label: Imentiv AI AI Insights API
   slug: imentiv-ai-ai-insights-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-ai-insights-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-ai-insights-api-api-openapi.yml
 - filename: imentiv-ai-audio-emotion-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Audio Emotion API
   slug: imentiv-ai-audio-emotion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-audio-emotion-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-audio-emotion-api-api-openapi.yml
 - filename: imentiv-ai-image-emotion-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Image Emotion API
   slug: imentiv-ai-image-emotion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-image-emotion-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-image-emotion-api-api-openapi.yml
 - filename: imentiv-ai-report-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Report API
   slug: imentiv-ai-report-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-report-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-report-api-api-openapi.yml
 - filename: imentiv-ai-text-emotion-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Text Emotion API
   slug: imentiv-ai-text-emotion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-text-emotion-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-text-emotion-api-api-openapi.yml
 - filename: imentiv-ai-video-emotion-api-api-openapi.yml
   format: yaml
   label: Imentiv AI Video Emotion API
   slug: imentiv-ai-video-emotion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/openapi/imentiv-ai-video-emotion-api-api-openapi.yml
+  url: https://artifacts.apis.io/imentiv-ai/openapi/imentiv-ai-video-emotion-api-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 27
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/imenti
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{media_type}/{media_id}/ai-insights\n  method: post\n  operationId: chat_ai_insights_v2__media_type___media_id__ai_insights_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{media_type}/{media_id}/ai-insights\n  method: get\n  operationId: get_ai_insights_history_v2__media_type___media_id__ai_insights_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/videos/{video_id}/speaker-face-match\n\
   \  method: put\n  operationId: update_speaker_face_match_v2_videos__video_id__speaker_face_match_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/videos/{video_id}/speaker-face-match\n  method: post\n  operationId: trigger_speaker_face_match_v2_videos__video_id__speaker_face_match_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/videos/{video_id}/personality/analyze\n  method: post\n  operationId: trigger_personality_analysis_v2_videos__video_id__personality_analyze_post\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/videos/{video_id}/faces/{face_id}/personality-analysis\n  method: get\n  operationId: get_personality_analysis_v2_videos__video_id__faces__face_id__personality_analysis_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/agentic-access/imentiv-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/imentiv-ai/agentic-access/imentiv-ai-agentic-access.yml
 summary_line: 61 operations · 34 acting
 tags:
 - Artificial Intelligence

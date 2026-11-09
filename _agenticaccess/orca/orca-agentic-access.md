@@ -8,19 +8,19 @@ api_specs:
   label: Orca Protocol API
   slug: orca-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/orca/openapi/orca-protocol-api-openapi.yml
 - filename: orca-tokens-api-openapi.yml
   format: yaml
   label: Orca Tokens API
   slug: orca-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/orca/openapi/orca-tokens-api-openapi.yml
 - filename: orca-whirlpools-api-openapi.yml
   format: yaml
   label: Orca Whirlpools API
   slug: orca-whirlpools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/openapi/orca-whirlpools-api-openapi.yml
+  url: https://artifacts.apis.io/orca/openapi/orca-whirlpools-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/orca-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /lock/{address}\n  method: get\n  operationId: get_lock_percentage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools\n  method: get\n  operationId: get_whirlpools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools/search\n  method: get\n  operationId: search_whirlpools\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools/{address}\n  method: get\n  operationId: get_whirlpool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /protocol\n  method: get\n  operationId: get_protocol_info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /protocol/token\n  method: get\n  operationId: get_token_info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /protocol/token/circulating_supply\n  method: get\n  operationId: get_circulating_supply\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /protocol/token/total_supply\n  method: get\n  operationId: get_total_supply\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: get\n  operationId: get_tokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/search\n  method: get\n  operationId: search_tokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/{mint_address}\n  method: get\n  operationId: get_token\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/agentic-access/orca-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orca/agentic-access/orca-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Company

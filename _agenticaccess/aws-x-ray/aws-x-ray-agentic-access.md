@@ -9,55 +9,61 @@ api_specs:
   label: AWS X-Ray Encryption API
   slug: aws-x-ray-encryption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-encryption-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-encryption-api-openapi.yml
 - filename: aws-x-ray-groups-api-openapi.yml
   format: yaml
   label: AWS X-Ray Groups API
   slug: aws-x-ray-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-groups-api-openapi.yml
 - filename: aws-x-ray-insights-api-openapi.yml
   format: yaml
   label: AWS X-Ray Insights API
   slug: aws-x-ray-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-insights-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-insights-api-openapi.yml
 - filename: aws-x-ray-sampling-api-openapi.yml
   format: yaml
   label: AWS X-Ray Sampling API
   slug: aws-x-ray-sampling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-sampling-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-sampling-api-openapi.yml
 - filename: aws-x-ray-service-graph-api-openapi.yml
   format: yaml
   label: AWS X-Ray Service Graph API
   slug: aws-x-ray-service-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-service-graph-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-service-graph-api-openapi.yml
 - filename: aws-x-ray-tags-api-openapi.yml
   format: yaml
   label: AWS X-Ray Tags API
   slug: aws-x-ray-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-tags-api-openapi.yml
 - filename: aws-x-ray-traces-api-openapi.yml
   format: yaml
   label: AWS X-Ray Traces API
   slug: aws-x-ray-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-traces-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-traces-api-openapi.yml
+- filename: aws-x-ray-operations-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray X Ray Operations API
+  slug: aws-x-ray-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-operations-api-openapi.yml
 - filename: aws-x-ray-tag-resource-api-openapi.yml
   format: yaml
   label: AWS X-Ray Tag Resource API
   slug: aws-x-ray-tag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-tag-resource-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-tag-resource-api-openapi.yml
 - filename: aws-x-ray-untag-resource-api-openapi.yml
   format: yaml
   label: AWS X-Ray Untag Resource API
   slug: aws-x-ray-untag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-untag-resource-api-openapi.yml
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-untag-resource-api-openapi.yml
 consequence_counts:
   read: 11
   write: 11
@@ -91,9 +97,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aws-x-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /TimeSeriesServiceStatistics\n  method: post\n  operationId: GetTimeSeriesServiceStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Tags\n  method: post\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Traces\n  method: post\n  operationId: PutTraceSegments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /TraceGraph\n  method: post\n  operationId: BatchGetTraces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /TraceSummaries\n  method: post\n  operationId: GetTraceSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/agentic-access/aws-x-ray-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-x-ray/agentic-access/aws-x-ray-agentic-access.yml
 summary_line: 22 operations · 11 acting
 tags:
+- Amazon Web Services
 - Debugging
 - Developer Tools
 - Distributed Tracing

@@ -9,19 +9,19 @@ api_specs:
   label: Unblocked Answers API
   slug: unblocked-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-answers-api-openapi.yml
+  url: https://artifacts.apis.io/unblocked/openapi/unblocked-answers-api-openapi.yml
 - filename: unblocked-collections-api-openapi.yml
   format: yaml
   label: Unblocked Collections API
   slug: unblocked-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-collections-api-openapi.yml
+  url: https://artifacts.apis.io/unblocked/openapi/unblocked-collections-api-openapi.yml
 - filename: unblocked-documents-api-openapi.yml
   format: yaml
   label: Unblocked Documents API
   slug: unblocked-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-documents-api-openapi.yml
+  url: https://artifacts.apis.io/unblocked/openapi/unblocked-documents-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/unbloc
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}\n  method: delete\n  operationId: deleteCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}\n  method: get\n  operationId: getCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}\n  method: patch\n  operationId: saveCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents\n  method: put\n  operationId: putDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/agentic-access/unblocked-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unblocked/agentic-access/unblocked-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Company

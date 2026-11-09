@@ -8,31 +8,31 @@ api_specs:
   label: Auto.dev Dealers API
   slug: auto-dev-dealers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-dealers-api-openapi.yml
+  url: https://artifacts.apis.io/auto-dev/openapi/auto-dev-dealers-api-openapi.yml
 - filename: auto-dev-listings-api-openapi.yml
   format: yaml
   label: Auto.dev Listings API
   slug: auto-dev-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-listings-api-openapi.yml
+  url: https://artifacts.apis.io/auto-dev/openapi/auto-dev-listings-api-openapi.yml
 - filename: auto-dev-market-value-api-openapi.yml
   format: yaml
   label: Auto.dev Market Value API
   slug: auto-dev-market-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-market-value-api-openapi.yml
+  url: https://artifacts.apis.io/auto-dev/openapi/auto-dev-market-value-api-openapi.yml
 - filename: auto-dev-recalls-api-openapi.yml
   format: yaml
   label: Auto.dev Recalls API
   slug: auto-dev-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/auto-dev/openapi/auto-dev-recalls-api-openapi.yml
 - filename: auto-dev-vin-decoding-api-openapi.yml
   format: yaml
   label: Auto.dev VIN Decoding API
   slug: auto-dev-vin-decoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/openapi/auto-dev-vin-decoding-api-openapi.yml
+  url: https://artifacts.apis.io/auto-dev/openapi/auto-dev-vin-decoding-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/auto-dev-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /vin/{vin}\n  method: get\n  operationId: decodeVin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /specs/{vin}\n  method: get\n  operationId: getSpecifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings\n  method: get\n  operationId: searchListings\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/{vin}\n  method: get\n  operationId: getListingByVin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openrecalls/{vin}\n  method: get\n  operationId: getOpenRecalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/agentic-access/auto-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/auto-dev/agentic-access/auto-dev-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Automotive

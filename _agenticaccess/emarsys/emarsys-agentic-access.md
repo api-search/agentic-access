@@ -9,181 +9,181 @@ api_specs:
   label: SAP Emarsys Ac API
   slug: emarsys-ac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-ac-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-ac-api-openapi.yml
 - filename: emarsys-administrator-api-openapi.yml
   format: yaml
   label: SAP Emarsys Administrator API
   slug: emarsys-administrator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-administrator-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-administrator-api-openapi.yml
 - filename: emarsys-blocklist-api-openapi.yml
   format: yaml
   label: SAP Emarsys Blocklist API
   slug: emarsys-blocklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-blocklist-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-blocklist-api-openapi.yml
 - filename: emarsys-campaigns-api-openapi.yml
   format: yaml
   label: SAP Emarsys Campaigns API
   slug: emarsys-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-campaigns-api-openapi.yml
 - filename: emarsys-client-configuration-api-openapi.yml
   format: yaml
   label: SAP Emarsys Client Configuration API
   slug: emarsys-client-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-client-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-client-configuration-api-openapi.yml
 - filename: emarsys-client-configuration-test-api-openapi.yml
   format: yaml
   label: SAP Emarsys Client Configuration Test API
   slug: emarsys-client-configuration-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-client-configuration-test-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-client-configuration-test-api-openapi.yml
 - filename: emarsys-condition-api-openapi.yml
   format: yaml
   label: SAP Emarsys Condition API
   slug: emarsys-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-condition-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-condition-api-openapi.yml
 - filename: emarsys-contact-api-openapi.yml
   format: yaml
   label: SAP Emarsys Contact API
   slug: emarsys-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-contact-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-contact-api-openapi.yml
 - filename: emarsys-delivery-reports-api-openapi.yml
   format: yaml
   label: SAP Emarsys Delivery Reports API
   slug: emarsys-delivery-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-delivery-reports-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-delivery-reports-api-openapi.yml
 - filename: emarsys-email-api-openapi.yml
   format: yaml
   label: SAP Emarsys Email API
   slug: emarsys-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-email-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-email-api-openapi.yml
 - filename: emarsys-emailcategory-api-openapi.yml
   format: yaml
   label: SAP Emarsys Emailcategory API
   slug: emarsys-emailcategory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-emailcategory-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-emailcategory-api-openapi.yml
 - filename: emarsys-event-api-openapi.yml
   format: yaml
   label: SAP Emarsys Event API
   slug: emarsys-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-event-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-event-api-openapi.yml
 - filename: emarsys-export-api-openapi.yml
   format: yaml
   label: SAP Emarsys Export API
   slug: emarsys-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-export-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-export-api-openapi.yml
 - filename: emarsys-field-api-openapi.yml
   format: yaml
   label: SAP Emarsys Field API
   slug: emarsys-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-field-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-field-api-openapi.yml
 - filename: emarsys-file-api-openapi.yml
   format: yaml
   label: SAP Emarsys File API
   slug: emarsys-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-file-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-file-api-openapi.yml
 - filename: emarsys-filter-api-openapi.yml
   format: yaml
   label: SAP Emarsys Filter API
   slug: emarsys-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-filter-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-filter-api-openapi.yml
 - filename: emarsys-folder-api-openapi.yml
   format: yaml
   label: SAP Emarsys Folder API
   slug: emarsys-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-folder-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-folder-api-openapi.yml
 - filename: emarsys-form-api-openapi.yml
   format: yaml
   label: SAP Emarsys Form API
   slug: emarsys-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-form-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-form-api-openapi.yml
 - filename: emarsys-https-api-openapi.yml
   format: yaml
   label: 'SAP Emarsys Https: API'
   slug: emarsys-https-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-https-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-https-api-openapi.yml
 - filename: emarsys-inbound-messages-api-openapi.yml
   format: yaml
   label: SAP Emarsys Inbound Messages API
   slug: emarsys-inbound-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-inbound-messages-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-inbound-messages-api-openapi.yml
 - filename: emarsys-keyring-api-openapi.yml
   format: yaml
   label: SAP Emarsys Keyring API
   slug: emarsys-keyring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-keyring-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-keyring-api-openapi.yml
 - filename: emarsys-language-api-openapi.yml
   format: yaml
   label: SAP Emarsys Language API
   slug: emarsys-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-language-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-language-api-openapi.yml
 - filename: emarsys-outbound-message-sending-api-openapi.yml
   format: yaml
   label: SAP Emarsys Outbound Message Sending API
   slug: emarsys-outbound-message-sending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-outbound-message-sending-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-outbound-message-sending-api-openapi.yml
 - filename: emarsys-programresource-api-openapi.yml
   format: yaml
   label: SAP Emarsys Programresource API
   slug: emarsys-programresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-programresource-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-programresource-api-openapi.yml
 - filename: emarsys-rds-api-openapi.yml
   format: yaml
   label: SAP Emarsys Rds API
   slug: emarsys-rds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-rds-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-rds-api-openapi.yml
 - filename: emarsys-settings-api-openapi.yml
   format: yaml
   label: SAP Emarsys Settings API
   slug: emarsys-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-settings-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-settings-api-openapi.yml
 - filename: emarsys-source-api-openapi.yml
   format: yaml
   label: SAP Emarsys Source API
   slug: emarsys-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-source-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-source-api-openapi.yml
 - filename: emarsys-trendreporting-api-openapi.yml
   format: yaml
   label: SAP Emarsys Trendreporting API
   slug: emarsys-trendreporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-trendreporting-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-trendreporting-api-openapi.yml
 - filename: emarsys-wishlist-api-openapi.yml
   format: yaml
   label: SAP Emarsys Wishlist API
   slug: emarsys-wishlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-wishlist-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-wishlist-api-openapi.yml
 - filename: emarsys-contact-list-api-openapi.yml
   format: yaml
   label: SAP Emarsys Contact List API
   slug: emarsys-contact-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-contact-list-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-contact-list-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 63
@@ -272,8 +272,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/emarsy
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/file/{fileId}\n  method: get\n  operationId: getMediaDatabaseFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/file/\n  method: get\n  operationId: listMediaDatabaseFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/file\n  method: post\n  operationId: uploadFileIntoMediaDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /v2/file/{fileId}/delete\n  method: post\n  operationId: deleteMediaDatabaseFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/filter\n  method: put\n  operationId: createSegment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/filter/{segmentId}\n  method: get\n  operationId: listSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/filter/{segmentId}/contact_criteria\n\
   \  method: put\n  operationId: updateContactCriteriaInSegment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/filter/{segmentId}/contact_criteria\n  method: get\n  operationId: getSegmentContactCriteria\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/filter/{segmentId}/delete\n  method: get\n  operationId: deleteSegment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/filter/{segmentId}/contacts/count\n  method: get\n  operationId: countContactsInSegment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
-  \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/filter/{segmentId}/contacts/{contactId}\n  method: get\n  operationId: lookUpContactInSegment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/filter/{segmentId}/single_runs\n  method: post\n  operationId: runContactSegmentSingle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/agentic-access/emarsys-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/agentic-access/emarsys-agentic-access.yml
+  \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/filter/{segmentId}/contacts/{contactId}\n  method: get\n  operationId: lookUpContactInSegment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/filter/{segmentId}/single_runs\n  method: post\n  operationId: runContactSegmentSingle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/emarsys/agentic-access/emarsys-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/emarsys/agentic-access/emarsys-agentic-access.yml
 summary_line: 136 operations · 73 acting · 1 human-in-the-loop
 tags:
 - Marketing Automation

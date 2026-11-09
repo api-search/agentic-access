@@ -9,49 +9,49 @@ api_specs:
   label: UPS Address Validation API
   slug: ups-address-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-address-validation-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-address-validation-api-openapi.yml
 - filename: ups-paperless-documents-api-openapi.yml
   format: yaml
   label: UPS Paperless Documents API
   slug: ups-paperless-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-paperless-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-paperless-documents-api-openapi.yml
 - filename: ups-pickup-api-openapi.yml
   format: yaml
   label: UPS Pickup API
   slug: ups-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-pickup-api-openapi.yml
 - filename: ups-rating-api-openapi.yml
   format: yaml
   label: UPS Rating API
   slug: ups-rating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-rating-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-rating-api-openapi.yml
 - filename: ups-shipping-api-openapi.yml
   format: yaml
   label: UPS Shipping API
   slug: ups-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-shipping-api-openapi.yml
 - filename: ups-time-in-transit-api-openapi.yml
   format: yaml
   label: UPS Time In Transit API
   slug: ups-time-in-transit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-time-in-transit-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-time-in-transit-api-openapi.yml
 - filename: ups-tracking-api-openapi.yml
   format: yaml
   label: UPS Tracking API
   slug: ups-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-tracking-api-openapi.yml
 - filename: ups-oauth-api-openapi.yml
   format: yaml
   label: UPS O Auth API
   slug: ups-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ups/openapi/ups-oauth-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 3
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ups-ad
   \ required\n- path: /pickup/v1/pickups\n  method: post\n  operationId: schedulePickup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pickup/v1/pickups/{prn}\n  method: delete\n  operationId: cancelPickup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rating/v1/Shop\n  method: post\n  operationId: shopRates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /rating/v1/Rate\n  method: post\n  operationId: getRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/v1/ship\n  method: post\n  operationId: createShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/v1/void/cancel/{shipmentIdentificationNumber}\n  method: delete\n  operationId: voidShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timeintransit/v1/transittimes\n  method: post\n  operationId: getTimeInTransit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track/v1/details/{inquiryNumber}\n  method: get\n  operationId: trackShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/agentic-access/ups-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ups/agentic-access/ups-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - Logistics

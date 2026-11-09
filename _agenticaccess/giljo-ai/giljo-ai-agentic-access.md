@@ -162,8 +162,8 @@ source_yaml_url: https://artifacts.apis.io/giljo-ai/agentic-access/giljo-ai-agen
 summary_line: 76 operations · 42 acting · 4 human-in-the-loop
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Collaboration
 - Platform
 ---

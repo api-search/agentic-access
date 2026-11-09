@@ -9,49 +9,49 @@ api_specs:
   label: Gcore CDN API
   slug: gcore-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-cdn-api-openapi.yml
 - filename: gcore-cloud-api-openapi.yml
   format: yaml
   label: Gcore Cloud API
   slug: gcore-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-cloud-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-cloud-api-openapi.yml
 - filename: gcore-dns-api-openapi.yml
   format: yaml
   label: Gcore DNS API
   slug: gcore-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-dns-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-dns-api-openapi.yml
 - filename: gcore-fastedge-api-openapi.yml
   format: yaml
   label: Gcore FastEdge API
   slug: gcore-fastedge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-fastedge-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-fastedge-api-openapi.yml
 - filename: gcore-inference-api-openapi.yml
   format: yaml
   label: Gcore Inference API
   slug: gcore-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-inference-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-inference-api-openapi.yml
 - filename: gcore-storage-api-openapi.yml
   format: yaml
   label: Gcore Storage API
   slug: gcore-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-storage-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-storage-api-openapi.yml
 - filename: gcore-streaming-api-openapi.yml
   format: yaml
   label: Gcore Streaming API
   slug: gcore-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-streaming-api-openapi.yml
 - filename: gcore-waap-api-openapi.yml
   format: yaml
   label: Gcore WAAP API
   slug: gcore-waap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/openapi/gcore-waap-api-openapi.yml
+  url: https://artifacts.apis.io/gcore/openapi/gcore-waap-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gcore-
   \ createZone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dns/v2/zones/{zoneName}/{rrsetName}/{rrsetType}\n  method: post\n  operationId: createRRset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streaming/videos\n  method: get\n  operationId: listVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streaming/videos\n  method: post\n  operationId: createVideo\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streaming/videos/{video_id}\n  method: get\n  operationId: getVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streaming/streams\n  method: get\n  operationId: listStreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streaming/streams\n  method: post\n  operationId: createStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /waap/v1/domains\n  method: get\n  operationId: listWaapDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fastedge/v1/apps\n  method: get\n  operationId: listFastEdgeApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fastedge/v1/apps\n  method: post\n  operationId: createFastEdgeApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/agentic-access/gcore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gcore/agentic-access/gcore-agentic-access.yml
 summary_line: 31 operations · 15 acting
 tags:
 - Edge Cloud

@@ -8,67 +8,67 @@ api_specs:
   label: Aetna Endpoint API
   slug: aetna-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-endpoint-api-openapi.yml
 - filename: aetna-location-api-openapi.yml
   format: yaml
   label: Aetna Location API
   slug: aetna-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-location-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-location-api-openapi.yml
 - filename: aetna-organization-api-openapi.yml
   format: yaml
   label: Aetna Organization API
   slug: aetna-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-organization-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-organization-api-openapi.yml
 - filename: aetna-organizationaffiliation-api-openapi.yml
   format: yaml
   label: Aetna Organization Affiliation API
   slug: aetna-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-organizationaffiliation-api-openapi.yml
 - filename: aetna-practitioner-api-openapi.yml
   format: yaml
   label: Aetna Practitioner API
   slug: aetna-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-practitioner-api-openapi.yml
 - filename: aetna-providerdirectorydata-api-openapi.yml
   format: yaml
   label: Aetna Providerdirectorydata API
   slug: aetna-providerdirectorydata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-providerdirectorydata-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-providerdirectorydata-api-openapi.yml
 - filename: aetna-patient-access-api-openapi.yml
   format: yaml
   label: Aetna Patient Access API
   slug: aetna-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-patient-access-api-openapi.yml
 - filename: aetna-provider-directory-api-openapi.yml
   format: yaml
   label: Aetna Provider Directory API
   slug: aetna-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-provider-directory-api-openapi.yml
 - filename: aetna-healthcare-service-api-openapi.yml
   format: yaml
   label: Aetna Healthcare Service API
   slug: aetna-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-healthcare-service-api-openapi.yml
 - filename: aetna-insurance-plan-api-openapi.yml
   format: yaml
   label: Aetna Insurance Plan API
   slug: aetna-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-insurance-plan-api-openapi.yml
 - filename: aetna-practitioner-role-api-openapi.yml
   format: yaml
   label: Aetna Practitioner Role API
   slug: aetna-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-practitioner-role-api-openapi.yml
 consequence_counts:
   read: 99
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: generated\nsource: openapi/aetna-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/HealthcareService/{id}\n  method: get\n  operationId: get_v1_providerdirectorydata_HealthcareService_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/InsurancePlan\n  method: get\n  operationId: get_v1_providerdirectorydata_InsurancePlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/Location/{id}\n  method: get\n  operationId: get_v1_providerdirectorydata_Location_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/Location\n\
   \  method: get\n  operationId: get_v1_providerdirectorydata_Location\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/Organization\n  method: get\n  operationId: get_v1_providerdirectorydata_Organization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/Organization/{id}\n  method: get\n  operationId: get_v1_providerdirectorydata_Organization_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/OrganizationAffiliation\n  method: get\n  operationId: get_v1_providerdirectorydata_OrganizationAffiliation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/Practitioner\n  method: get\n  operationId: get_v1_providerdirectorydata_Practitioner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/Practitioner/{id}\n  method: get\n  operationId: get_v1_providerdirectorydata_Practitioner_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providerdirectorydata/PractitionerRole\n  method: get\n  operationId: get_v1_providerdirectorydata_PractitionerRole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/agentic-access/aetna-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aetna/agentic-access/aetna-agentic-access.yml
 summary_line: 99 operations
 tags:
 - Health Insurance

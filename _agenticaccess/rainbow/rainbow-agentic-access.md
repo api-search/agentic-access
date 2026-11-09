@@ -9,43 +9,43 @@ api_specs:
   label: Rainbow Applications API
   slug: rainbow-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-applications-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow/openapi/rainbow-applications-api-openapi.yml
 - filename: rainbow-authentication-api-openapi.yml
   format: yaml
   label: Rainbow Authentication API
   slug: rainbow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow/openapi/rainbow-authentication-api-openapi.yml
 - filename: rainbow-bubbles-api-openapi.yml
   format: yaml
   label: Rainbow Bubbles API
   slug: rainbow-bubbles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-bubbles-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow/openapi/rainbow-bubbles-api-openapi.yml
 - filename: rainbow-contacts-api-openapi.yml
   format: yaml
   label: Rainbow Contacts API
   slug: rainbow-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow/openapi/rainbow-contacts-api-openapi.yml
 - filename: rainbow-conversations-api-openapi.yml
   format: yaml
   label: Rainbow Conversations API
   slug: rainbow-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow/openapi/rainbow-conversations-api-openapi.yml
 - filename: rainbow-messages-api-openapi.yml
   format: yaml
   label: Rainbow Messages API
   slug: rainbow-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-messages-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow/openapi/rainbow-messages-api-openapi.yml
 - filename: rainbow-users-api-openapi.yml
   format: yaml
   label: Rainbow Users API
   slug: rainbow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/openapi/rainbow-users-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow/openapi/rainbow-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rainbo
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /enduser/v1.0/users/me/presence\n  method: put\n  operationId: updatePresence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /enduser/v1.0/messages\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /enduser/v1.0/conversations\n  method: get\n  operationId: listConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enduser/v1.0/conversations/{conversationId}/messages\n  method: get\n  operationId: getConversationMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enduser/v1.0/bubbles\n  method: get\n  operationId: listBubbles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enduser/v1.0/bubbles\n  method: post\n  operationId: createBubble\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /enduser/v1.0/bubbles/{bubbleId}\n  method: get\n  operationId: getBubble\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/agentic-access/rainbow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rainbow/agentic-access/rainbow-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - Communications

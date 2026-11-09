@@ -9,199 +9,199 @@ api_specs:
   label: Nordlet Account API
   slug: nordlet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-account-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-account-api-openapi.yml
 - filename: nordlet-agreements-api-openapi.yml
   format: yaml
   label: Nordlet Agreements API
   slug: nordlet-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-agreements-api-openapi.yml
 - filename: nordlet-assets-api-openapi.yml
   format: yaml
   label: Nordlet Assets API
   slug: nordlet-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-assets-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-assets-api-openapi.yml
 - filename: nordlet-audit-api-openapi.yml
   format: yaml
   label: Nordlet Audit API
   slug: nordlet-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-audit-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-audit-api-openapi.yml
 - filename: nordlet-bank-api-openapi.yml
   format: yaml
   label: Nordlet Bank API
   slug: nordlet-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-bank-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-bank-api-openapi.yml
 - filename: nordlet-billing-api-openapi.yml
   format: yaml
   label: Nordlet Billing API
   slug: nordlet-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-billing-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-billing-api-openapi.yml
 - filename: nordlet-calendar-api-openapi.yml
   format: yaml
   label: Nordlet Calendar API
   slug: nordlet-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-calendar-api-openapi.yml
 - filename: nordlet-capture-api-openapi.yml
   format: yaml
   label: Nordlet Capture API
   slug: nordlet-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-capture-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-capture-api-openapi.yml
 - filename: nordlet-cash-api-openapi.yml
   format: yaml
   label: Nordlet Cash API
   slug: nordlet-cash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-cash-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-cash-api-openapi.yml
 - filename: nordlet-catalog-api-openapi.yml
   format: yaml
   label: Nordlet Catalog API
   slug: nordlet-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-catalog-api-openapi.yml
 - filename: nordlet-consolidation-api-openapi.yml
   format: yaml
   label: Nordlet Consolidation API
   slug: nordlet-consolidation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-consolidation-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-consolidation-api-openapi.yml
 - filename: nordlet-declarations-api-openapi.yml
   format: yaml
   label: Nordlet Declarations API
   slug: nordlet-declarations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-declarations-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-declarations-api-openapi.yml
 - filename: nordlet-ecommerce-api-openapi.yml
   format: yaml
   label: Nordlet Ecommerce API
   slug: nordlet-ecommerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-ecommerce-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-ecommerce-api-openapi.yml
 - filename: nordlet-files-api-openapi.yml
   format: yaml
   label: Nordlet Files API
   slug: nordlet-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-files-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-files-api-openapi.yml
 - filename: nordlet-fleet-api-openapi.yml
   format: yaml
   label: Nordlet Fleet API
   slug: nordlet-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-fleet-api-openapi.yml
 - filename: nordlet-hr-api-openapi.yml
   format: yaml
   label: Nordlet Hr API
   slug: nordlet-hr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-hr-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-hr-api-openapi.yml
 - filename: nordlet-inventory-api-openapi.yml
   format: yaml
   label: Nordlet Inventory API
   slug: nordlet-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-inventory-api-openapi.yml
 - filename: nordlet-ledger-api-openapi.yml
   format: yaml
   label: Nordlet Ledger API
   slug: nordlet-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-ledger-api-openapi.yml
 - filename: nordlet-migration-api-openapi.yml
   format: yaml
   label: Nordlet Migration API
   slug: nordlet-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-migration-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-migration-api-openapi.yml
 - filename: nordlet-nordlet-accounting-api-api-openapi.yml
   format: yaml
   label: Nordlet Nordlet Accounting API
   slug: nordlet-nordlet-accounting-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-nordlet-accounting-api-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-nordlet-accounting-api-api-openapi.yml
 - filename: nordlet-partners-api-openapi.yml
   format: yaml
   label: Nordlet Partners API
   slug: nordlet-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-partners-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-partners-api-openapi.yml
 - filename: nordlet-payroll-api-openapi.yml
   format: yaml
   label: Nordlet Payroll API
   slug: nordlet-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-payroll-api-openapi.yml
 - filename: nordlet-peppol-api-openapi.yml
   format: yaml
   label: Nordlet Peppol API
   slug: nordlet-peppol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-peppol-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-peppol-api-openapi.yml
 - filename: nordlet-pos-api-openapi.yml
   format: yaml
   label: Nordlet Pos API
   slug: nordlet-pos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-pos-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-pos-api-openapi.yml
 - filename: nordlet-production-api-openapi.yml
   format: yaml
   label: Nordlet Production API
   slug: nordlet-production-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-production-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-production-api-openapi.yml
 - filename: nordlet-projects-api-openapi.yml
   format: yaml
   label: Nordlet Projects API
   slug: nordlet-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-projects-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-projects-api-openapi.yml
 - filename: nordlet-public-api-openapi.yml
   format: yaml
   label: Nordlet Public API
   slug: nordlet-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-public-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-public-api-openapi.yml
 - filename: nordlet-purchases-api-openapi.yml
   format: yaml
   label: Nordlet Purchases API
   slug: nordlet-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-purchases-api-openapi.yml
 - filename: nordlet-reference-api-openapi.yml
   format: yaml
   label: Nordlet Reference API
   slug: nordlet-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-reference-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-reference-api-openapi.yml
 - filename: nordlet-reports-api-openapi.yml
   format: yaml
   label: Nordlet Reports API
   slug: nordlet-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-reports-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-reports-api-openapi.yml
 - filename: nordlet-sales-api-openapi.yml
   format: yaml
   label: Nordlet Sales API
   slug: nordlet-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-sales-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-sales-api-openapi.yml
 - filename: nordlet-transport-api-openapi.yml
   format: yaml
   label: Nordlet Transport API
   slug: nordlet-transport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-transport-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-transport-api-openapi.yml
 - filename: nordlet-webhooks-api-openapi.yml
   format: yaml
   label: Nordlet Webhooks API
   slug: nordlet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/openapi/nordlet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nordlet/openapi/nordlet-webhooks-api-openapi.yml
 consequence_counts:
   physical: 110
   read: 4
@@ -391,13 +391,12 @@ source_yaml: "generated: '2026-10-26'\nmethod: generated\nsource: openapi/nordle
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/leads/types/delete\n  method: post\n  operationId: leadsTypesDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/leads/types/list\n  method: post\n  operationId: leadsTypesList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/leads/types/options\n  method: post\n  operationId: leadsTypesOptions\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/leads/convert\n  method: post\n  operationId: leadsConvert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/catalog/items/create\n  method: post\n  operationId: catalogItemsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/catalog/items/get\n\
   \  method: post\n  operationId: catalogItemsGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/catalog/items/update\n  method: post\n  operationId: catalogItemsUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/catalog/items/delete\n  method: post\n  operationId: catalogItemsDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (243 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/agentic-access/nordlet-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nordlet/refs/heads/main/agentic-access/nordlet-agentic-access.yml
+  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (243 KB total) ---\n# Full source: https://artifacts.apis.io/nordlet/agentic-access/nordlet-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/nordlet/agentic-access/nordlet-agentic-access.yml
 summary_line: 684 operations · 680 acting · 12 human-in-the-loop
 tags:
 - Company
 - Accounting
-- API
 - Cloud
 - EU
 ---

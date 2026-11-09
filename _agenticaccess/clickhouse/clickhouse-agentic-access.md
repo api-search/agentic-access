@@ -9,97 +9,121 @@ api_specs:
   label: ClickHouse HTTP Interface API
   slug: clickhouse-clickhouse-http-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickhouse-http-interface-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-clickhouse-http-interface-api-openapi.yml
 - filename: clickhouse-ping-api-openapi.yml
   format: yaml
   label: ClickHouse Ping API
   slug: clickhouse-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-ping-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-ping-api-openapi.yml
 - filename: clickhouse-play-api-openapi.yml
   format: yaml
   label: ClickHouse Play API
   slug: clickhouse-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-play-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-play-api-openapi.yml
 - filename: clickhouse-replicas-status-api-openapi.yml
   format: yaml
   label: ClickHouse Replicas Status API
   slug: clickhouse-replicas-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-replicas-status-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-replicas-status-api-openapi.yml
 - filename: clickhouse-api-keys-api-openapi.yml
   format: yaml
   label: ClickHouse API keys API
   slug: clickhouse-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-api-keys-api-openapi.yml
 - filename: clickhouse-backup-api-openapi.yml
   format: yaml
   label: ClickHouse Backup API
   slug: clickhouse-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-backup-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-backup-api-openapi.yml
 - filename: clickhouse-billing-api-openapi.yml
   format: yaml
   label: ClickHouse Billing API
   slug: clickhouse-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-billing-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-billing-api-openapi.yml
 - filename: clickhouse-clickpipes-api-openapi.yml
   format: yaml
   label: ClickHouse Click Pipes API
   slug: clickhouse-clickpipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickpipes-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-clickpipes-api-openapi.yml
 - filename: clickhouse-clickstack-api-openapi.yml
   format: yaml
   label: ClickHouse Click Stack API
   slug: clickhouse-clickstack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-clickstack-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-clickstack-api-openapi.yml
 - filename: clickhouse-organization-api-openapi.yml
   format: yaml
   label: ClickHouse Organization API
   slug: clickhouse-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-organization-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-organization-api-openapi.yml
 - filename: clickhouse-postgres-api-openapi.yml
   format: yaml
   label: ClickHouse Postgres API
   slug: clickhouse-postgres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-postgres-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-postgres-api-openapi.yml
 - filename: clickhouse-prometheus-api-openapi.yml
   format: yaml
   label: ClickHouse Prometheus API
   slug: clickhouse-prometheus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-prometheus-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-prometheus-api-openapi.yml
 - filename: clickhouse-role-management-api-openapi.yml
   format: yaml
   label: ClickHouse Role Management API
   slug: clickhouse-role-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-role-management-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-role-management-api-openapi.yml
 - filename: clickhouse-service-api-openapi.yml
   format: yaml
   label: ClickHouse Service API
   slug: clickhouse-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-service-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-service-api-openapi.yml
 - filename: clickhouse-udf-api-openapi.yml
   format: yaml
   label: ClickHouse UDF API
   slug: clickhouse-udf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-udf-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-udf-api-openapi.yml
 - filename: clickhouse-user-management-api-openapi.yml
   format: yaml
   label: ClickHouse User management API
   slug: clickhouse-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-user-management-api-openapi.yml
+- filename: clickhouse-notifications-api-openapi.yml
+  format: yaml
+  label: ClickHouse Notifications API
+  slug: clickhouse-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-notifications-api-openapi.yml
+- filename: clickhouse-query-api-endpoints-api-openapi.yml
+  format: yaml
+  label: ClickHouse Query API endpoints API
+  slug: clickhouse-query-api-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-query-api-endpoints-api-openapi.yml
+- filename: clickhouse-saved-queries-api-openapi.yml
+  format: yaml
+  label: ClickHouse Saved queries API
+  slug: clickhouse-saved-queries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-saved-queries-api-openapi.yml
+- filename: clickhouse-snapshot-api-openapi.yml
+  format: yaml
+  label: ClickHouse Snapshot API
+  slug: clickhouse-snapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-snapshot-api-openapi.yml
 consequence_counts:
   read: 72
   safety-critical: 1
@@ -167,8 +191,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/clickh
   \      - high-value\n    audit: required\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}\n  method: patch\n  operationId: postgresServicePatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}/caCertificates\n  method: get\n  operationId: postgresServiceCertsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}/restoredService\n  method: post\n  operationId: postgresInstanceRestore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}/password\n  method: patch\n  operationId: postgresServiceSetPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}/state\n  method: patch\n  operationId: postgresServicePatchState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}/readReplica\n\
   \  method: post\n  operationId: postgresInstanceCreateReadReplica\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}/config\n  method: get\n  operationId: postgresInstanceConfigGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}/config\n  method: post\n  operationId: postgresInstanceConfigPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}/config\n  method: patch\n  operationId: postgresInstanceConfigPatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/agentic-access/clickhouse-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/agentic-access/clickhouse-agentic-access.yml
+  \    audit: required\n- path: /v1/organizations/{organizationId}/postgres/{postgresId}/config\n  method: patch\n  operationId: postgresInstanceConfigPatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://artifacts.apis.io/clickhouse/agentic-access/clickhouse-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/clickhouse/agentic-access/clickhouse-agentic-access.yml
 summary_line: 153 operations · 81 acting · 1 human-in-the-loop
 tags:
 - ClickHouse

@@ -9,19 +9,19 @@ api_specs:
   label: POLICYANDPLAY LTD Agents API
   slug: fetch-price-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fetch-price-com/refs/heads/main/openapi/fetch-price-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/fetch-price-com/openapi/fetch-price-com-agents-api-openapi.yml
 - filename: fetch-price-com-products-api-openapi.yml
   format: yaml
   label: POLICYANDPLAY LTD Products API
   slug: fetch-price-com-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fetch-price-com/refs/heads/main/openapi/fetch-price-com-products-api-openapi.yml
+  url: https://artifacts.apis.io/fetch-price-com/openapi/fetch-price-com-products-api-openapi.yml
 - filename: fetch-price-com-service-api-openapi.yml
   format: yaml
   label: POLICYANDPLAY LTD Service API
   slug: fetch-price-com-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fetch-price-com/refs/heads/main/openapi/fetch-price-com-service-api-openapi.yml
+  url: https://artifacts.apis.io/fetch-price-com/openapi/fetch-price-com-service-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/fetch-price-com-openapi.yml, curated against https://fetch-price.com/docs/, the provider SKILL.md\n  and mcp/fetch_price_mcp.py\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance\n  starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 1\n    connected: 3\n  by_consequence:\n    write: 1\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/query\n  method: post\n  operationId: queryProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    audience: null\n    token:\n      max-ttl: 3600\n    escalation:\n      human-in-the-loop: none\n      triggers: []\n    audit: recommended\n    note: Spends one lookup of the plan quota per call; the only\
   \ side effect. Results may contain affiliate-tracked\n      URLs the provider asks the agent to disclose to the human.\n- path: /api/agents/register\n  method: post\n  operationId: registerAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stats\n  method: get\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\ncuration_note: 'Heuristic output reclassified queryProducts: it is a POST but semantically a read - a marketplace\n \
   \ search that persists nothing for the caller, places no order and moves no money (the buy URL is handed to a human).\n  The provider describes both agent-facing skills as search and a \"read-only health check\". registerAgent stays\n  acting/write (creates an account and a key). audience left null to bind per deployment.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fetch-price-com/refs/heads/main/agentic-access/fetch-price-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fetch-price-com/agentic-access/fetch-price-com-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
 - Company

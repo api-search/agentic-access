@@ -8,13 +8,13 @@ api_specs:
   label: BlockVision Monad API
   slug: blockvision-monad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/openapi/blockvision-monad-api-openapi.yml
+  url: https://artifacts.apis.io/blockvision/openapi/blockvision-monad-api-openapi.yml
 - filename: blockvision-sui-api-openapi.yml
   format: yaml
   label: BlockVision Sui API
   slug: blockvision-sui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/openapi/blockvision-sui-api-openapi.yml
+  url: https://artifacts.apis.io/blockvision/openapi/blockvision-sui-api-openapi.yml
 consequence_counts:
   read: 36
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/blockv
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/account/nfts\n  method: get\n  operationId: retrieve-account-nfts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/coin/detail\n  method: get\n  operationId: retrieve-coin-detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/coin/dex/pools\n  method: get\n  operationId: get_coindexpools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/coin/holders\n  method: get\n  operationId: retrieve-coin-holders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/coin/market/pro\n  method: get\n  operationId: get_suicoinmarketdata2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/coin/ohlcv\n  method: get\n  operationId: get_new-endpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/coin/price/list\n  method: get\n  operationId: get_coinpricelist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/coin/trades\n  method: get\n  operationId: get_cointrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/nft/activities\n  method: get\n  operationId: sui-retrieve-nft-activity\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/nft/collection/holder\n  method: get\n  operationId: retrieve-collection-holders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/nft/collectionDetail\n  method: get\n  operationId: retrieve-collection-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/nft/list\n  method: get\n  operationId: retrieve-collection-nft-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/agentic-access/blockvision-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blockvision/agentic-access/blockvision-agentic-access.yml
 summary_line: 36 operations
 tags:
 - Company

@@ -8,43 +8,43 @@ api_specs:
   label: Sound Transit Agencies API
   slug: sound-transit-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-agencies-api-openapi.yml
 - filename: sound-transit-arrivals-and-departures-api-openapi.yml
   format: yaml
   label: Sound Transit Arrivals And Departures API
   slug: sound-transit-arrivals-and-departures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-arrivals-and-departures-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-arrivals-and-departures-api-openapi.yml
 - filename: sound-transit-routes-api-openapi.yml
   format: yaml
   label: Sound Transit Routes API
   slug: sound-transit-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-routes-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-routes-api-openapi.yml
 - filename: sound-transit-stops-api-openapi.yml
   format: yaml
   label: Sound Transit Stops API
   slug: sound-transit-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-stops-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-stops-api-openapi.yml
 - filename: sound-transit-system-api-openapi.yml
   format: yaml
   label: Sound Transit System API
   slug: sound-transit-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-system-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-system-api-openapi.yml
 - filename: sound-transit-trips-api-openapi.yml
   format: yaml
   label: Sound Transit Trips API
   slug: sound-transit-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-trips-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-trips-api-openapi.yml
 - filename: sound-transit-vehicles-api-openapi.yml
   format: yaml
   label: Sound Transit Vehicles API
   slug: sound-transit-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/openapi/sound-transit-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/sound-transit/openapi/sound-transit-vehicles-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sound-
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trip/{id}.json\n  method: get\n  operationId: getTrip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trip-details/{id}.json\n  method: get\n  operationId: getTripDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trips-for-route/{id}.json\n  method: get\n  operationId: listTripsForRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trips-for-location.json\n  method: get\n  operationId: listTripsForLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trip-for-vehicle/{id}.json\n  method:\
   \ get\n  operationId: getTripForVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles-for-agency/{id}.json\n  method: get\n  operationId: listVehiclesForAgency\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current-time.json\n  method: get\n  operationId: getCurrentTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config.json\n  method: get\n  operationId: getConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shape/{id}.json\n  method: get\n  operationId: getShape\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/agentic-access/sound-transit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sound-transit/agentic-access/sound-transit-agentic-access.yml
 summary_line: 20 operations
 tags:
 - Transit

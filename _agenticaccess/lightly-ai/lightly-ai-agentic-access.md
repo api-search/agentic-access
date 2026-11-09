@@ -9,43 +9,43 @@ api_specs:
   label: Lightly Datasets API
   slug: lightly-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-datasets-api-openapi.yml
 - filename: lightly-ai-embeddings-api-openapi.yml
   format: yaml
   label: Lightly Embeddings API
   slug: lightly-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-embeddings-api-openapi.yml
 - filename: lightly-ai-jobs-api-openapi.yml
   format: yaml
   label: Lightly Jobs API
   slug: lightly-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-jobs-api-openapi.yml
 - filename: lightly-ai-samples-api-openapi.yml
   format: yaml
   label: Lightly Samples API
   slug: lightly-ai-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-samples-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-samples-api-openapi.yml
 - filename: lightly-ai-selection-api-openapi.yml
   format: yaml
   label: Lightly Selection API
   slug: lightly-ai-selection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-selection-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-selection-api-openapi.yml
 - filename: lightly-ai-tags-api-openapi.yml
   format: yaml
   label: Lightly Tags API
   slug: lightly-ai-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-tags-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-tags-api-openapi.yml
 - filename: lightly-ai-data-sources-api-openapi.yml
   format: yaml
   label: Lightly Data Sources API
   slug: lightly-ai-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/lightly-ai/openapi/lightly-ai-data-sources-api-openapi.yml
 consequence_counts:
   read: 20
   write: 11
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lightl
   \      max-ttl: 3600\n    audit: none\n- path: /v1/docker/worker/default\n  method: get\n  operationId: getDockerWorkerRegistryEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/datasets/{datasetId}/docker/worker/schedule\n  method: post\n  operationId: createDockerWorkerScheduleByDatasetId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/docker/runs\n  method: get\n  operationId: getDockerRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/docker/runs/{runId}/artifacts/{artifactId}\n  method: get\n  operationId: getDockerRunArtifactReadUrl\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs\n  method: get\n  operationId: getJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs/{jobId}\n  method: get\n  operationId: getJobStatusById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/datasets/{datasetId}/tags\n  method: post\n  operationId: createTagByDatasetId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/datasets/{datasetId}/tags/{tagId}\n  method: delete\n\
   \  operationId: deleteTagByTagId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/datasets/{datasetId}/tags/{tagId}/export/LabelStudio/tasks\n  method: get\n  operationId: exportTagToLabelStudioTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/agentic-access/lightly-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lightly-ai/agentic-access/lightly-ai-agentic-access.yml
 summary_line: 31 operations · 11 acting
 tags:
 - Artificial Intelligence

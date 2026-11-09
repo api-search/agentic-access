@@ -9,13 +9,13 @@ api_specs:
   label: Suno Lyrics API
   slug: suno-lyrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/openapi/suno-lyrics-api-openapi.yml
+  url: https://artifacts.apis.io/suno/openapi/suno-lyrics-api-openapi.yml
 - filename: suno-music-api-openapi.yml
   format: yaml
   label: Suno Music API
   slug: suno-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/openapi/suno-music-api-openapi.yml
+  url: https://artifacts.apis.io/suno/openapi/suno-music-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/suno-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 2\n    connected: 1\n  by_consequence:\n    write: 2\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/generate\n  method: post\n  operationId: generateMusic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/generate/record-info\n  method: get\n  operationId: getMusicGenerationDetails\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/lyrics\n  method: post\n  operationId: generateLyrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/agentic-access/suno-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/suno/agentic-access/suno-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
 - Artificial Intelligence

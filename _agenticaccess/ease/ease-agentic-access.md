@@ -8,19 +8,19 @@ api_specs:
   label: Ease Incidents API
   slug: ease-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/ease/openapi/ease-incidents-api-openapi.yml
 - filename: ease-maintenance-api-openapi.yml
   format: yaml
   label: Ease Maintenance API
   slug: ease-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/ease/openapi/ease-maintenance-api-openapi.yml
 - filename: ease-status-api-openapi.yml
   format: yaml
   label: Ease Status API
   slug: ease-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/openapi/ease-status-api-openapi.yml
+  url: https://artifacts.apis.io/ease/openapi/ease-status-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/ease-incidents-api-openapi.yml, openapi/ease-maintenance-api-openapi.yml, openapi/ease-status-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /incidents/unresolved.json\n  method: get\n  operationId: listUnresolvedIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incidents.json\n  method: get\n  operationId: listIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /scheduled-maintenances/upcoming.json\n  method: get\n  operationId: listUpcomingScheduledMaintenances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduled-maintenances/active.json\n  method: get\n  operationId: listActiveScheduledMaintenances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduled-maintenances.json\n  method: get\n  operationId: listScheduledMaintenances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary.json\n  method: get\n  operationId: getStatusSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /status.json\n  method: get\n  operationId: getStatusRollup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /components.json\n  method: get\n  operationId: listStatusComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/agentic-access/ease-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ease/agentic-access/ease-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Insurance

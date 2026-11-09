@@ -9,25 +9,25 @@ api_specs:
   label: Nuitée (LiteAPI) Booking API
   slug: nuitee-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-booking-api-openapi.yml
+  url: https://artifacts.apis.io/nuitee/openapi/nuitee-booking-api-openapi.yml
 - filename: nuitee-hotel-data-api-openapi.yml
   format: yaml
   label: Nuitée (LiteAPI) Hotel Data API
   slug: nuitee-hotel-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-hotel-data-api-openapi.yml
+  url: https://artifacts.apis.io/nuitee/openapi/nuitee-hotel-data-api-openapi.yml
 - filename: nuitee-loyalty-api-openapi.yml
   format: yaml
   label: Nuitée (LiteAPI) Loyalty API
   slug: nuitee-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/nuitee/openapi/nuitee-loyalty-api-openapi.yml
 - filename: nuitee-rates-api-openapi.yml
   format: yaml
   label: Nuitée (LiteAPI) Rates API
   slug: nuitee-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/openapi/nuitee-rates-api-openapi.yml
+  url: https://artifacts.apis.io/nuitee/openapi/nuitee-rates-api-openapi.yml
 consequence_counts:
   read: 14
   write: 6
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nuitee
   \ get\n  operationId: getCities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/currencies\n  method: get\n  operationId: getCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/iatacodes\n  method: get\n  operationId: getIataCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loyalties\n  method: get\n  operationId: getLoyalty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loyalties\n  method: put\n  operationId: updateLoyalty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guests/{guestId}/bookings\n  method: get\n  operationId: getGuestBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vouchers\n  method: get\n  operationId: listVouchers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vouchers\n  method: post\n  operationId: createVoucher\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vouchers/{voucherId}\n  method: get\n  operationId:\
   \ getVoucher\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vouchers/{voucherId}\n  method: delete\n  operationId: deleteVoucher\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hotels/rates\n  method: post\n  operationId: searchRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/agentic-access/nuitee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nuitee/agentic-access/nuitee-agentic-access.yml
 summary_line: 20 operations · 6 acting
 tags:
 - Travel

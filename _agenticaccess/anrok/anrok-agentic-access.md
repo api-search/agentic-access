@@ -9,49 +9,49 @@ api_specs:
   label: Anrok Customer certificates API
   slug: anrok-customer-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-customer-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-customer-certificates-api-openapi.yml
 - filename: anrok-filings-api-openapi.yml
   format: yaml
   label: Anrok Filings API
   slug: anrok-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-filings-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-filings-api-openapi.yml
 - filename: anrok-product-mappings-api-openapi.yml
   format: yaml
   label: Anrok Product mappings API
   slug: anrok-product-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-product-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-product-mappings-api-openapi.yml
 - filename: anrok-products-api-openapi.yml
   format: yaml
   label: Anrok Products API
   slug: anrok-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-products-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-products-api-openapi.yml
 - filename: anrok-tax-id-validation-api-openapi.yml
   format: yaml
   label: Anrok Tax ID validation API
   slug: anrok-tax-id-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-tax-id-validation-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-tax-id-validation-api-openapi.yml
 - filename: anrok-transactions-api-openapi.yml
   format: yaml
   label: Anrok Transactions API
   slug: anrok-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-transactions-api-openapi.yml
 - filename: anrok-address-resolution-api-openapi.yml
   format: yaml
   label: Anrok Address resolution API
   slug: anrok-address-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-address-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-address-resolution-api-openapi.yml
 - filename: anrok-customers-api-openapi.yml
   format: yaml
   label: Anrok Customers API
   slug: anrok-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-customers-api-openapi.yml
+  url: https://artifacts.apis.io/anrok/openapi/anrok-customers-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/anrok-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/seller/taxId/validate\n  method: post\n  operationId: taxIdsValidate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/seller/transactions/createOrUpdate\n  method: post\n  operationId: transactionsCreateOrUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/seller/transactions/createEphemeral\n  method: post\n  operationId: transactionsCreateEphemeral\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/seller/transactions/createNegation\n  method: post\n  operationId: transactionsCreateNegation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/seller/transactions/id:{transactionId}/void\n  method: post\n  operationId: transactionsVoid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/seller/transactions/list\n  method: post\n  operationId: transactionsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/agentic-access/anrok-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/anrok/agentic-access/anrok-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Sales Tax

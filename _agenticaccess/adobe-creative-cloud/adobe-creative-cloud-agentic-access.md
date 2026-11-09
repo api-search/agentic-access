@@ -9,73 +9,73 @@ api_specs:
   label: Adobe I/O Events
   slug: io-events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/asyncapi/adobe-io-events-asyncapi-original.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/asyncapi/adobe-io-events-asyncapi-original.yml
 - filename: adobe-creative-cloud-assets-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Assets API
   slug: adobe-creative-cloud-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-assets-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-assets-api-openapi.yml
 - filename: adobe-creative-cloud-elements-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Elements API
   slug: adobe-creative-cloud-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-elements-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-elements-api-openapi.yml
 - filename: adobe-creative-cloud-extraction-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Extraction API
   slug: adobe-creative-cloud-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-extraction-api-openapi.yml
 - filename: adobe-creative-cloud-image-editing-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Image Editing API
   slug: adobe-creative-cloud-image-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-image-editing-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-image-editing-api-openapi.yml
 - filename: adobe-creative-cloud-image-generation-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Image Generation API
   slug: adobe-creative-cloud-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-image-generation-api-openapi.yml
 - filename: adobe-creative-cloud-libraries-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Libraries API
   slug: adobe-creative-cloud-libraries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-libraries-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-libraries-api-openapi.yml
 - filename: adobe-creative-cloud-licensing-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Licensing API
   slug: adobe-creative-cloud-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-licensing-api-openapi.yml
 - filename: adobe-creative-cloud-member-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Member API
   slug: adobe-creative-cloud-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-member-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-member-api-openapi.yml
 - filename: adobe-creative-cloud-pdf-operations-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud PDF Operations API
   slug: adobe-creative-cloud-pdf-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-pdf-operations-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-pdf-operations-api-openapi.yml
 - filename: adobe-creative-cloud-search-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Search API
   slug: adobe-creative-cloud-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-search-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-search-api-openapi.yml
 - filename: adobe-creative-cloud-utilities-api-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Utilities API
   slug: adobe-creative-cloud-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-creative-cloud-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-cloud/openapi/adobe-creative-cloud-utilities-api-openapi.yml
 consequence_counts:
   read: 9
   write: 20
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/adobe-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operation/ocr\n  method: post\n  operationId: ocrPdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operation/protectpdf\n  method: post\n  operationId: protectPdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operation/extractpdf\n  method: post\n  operationId: extractPdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operation/htmltopdf\n  method: post\n  operationId: htmlToPdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Rest/Media/1/Search/Files\n  method: get\n  operationId: searchFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Rest/Libraries/1/Content/License\n  method: get\n  operationId: getContentLicense\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Rest/Libraries/1/Content/License\n\
   \  method: post\n  operationId: licenseContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Rest/Libraries/1/Member/Profile\n  method: get\n  operationId: getMemberProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Rest/Libraries/1/Member/LicenseHistory\n  method: get\n  operationId: getLicenseHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/agentic-access/adobe-creative-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adobe-creative-cloud/agentic-access/adobe-creative-cloud-agentic-access.yml
 summary_line: 29 operations · 20 acting
 tags:
 - Artificial Intelligence

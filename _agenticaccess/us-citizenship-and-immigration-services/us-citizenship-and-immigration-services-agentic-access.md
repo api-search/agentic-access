@@ -9,13 +9,13 @@ api_specs:
   label: US Citizenship and Immigration Services Case Status API
   slug: us-citizenship-and-immigration-services-case-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/openapi/us-citizenship-and-immigration-services-case-status-api-openapi.yml
+  url: https://artifacts.apis.io/us-citizenship-and-immigration-services/openapi/us-citizenship-and-immigration-services-case-status-api-openapi.yml
 - filename: us-citizenship-and-immigration-services-foia-requests-api-openapi.yml
   format: yaml
   label: US Citizenship and Immigration Services FOIA Requests API
   slug: us-citizenship-and-immigration-services-foia-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/openapi/us-citizenship-and-immigration-services-foia-requests-api-openapi.yml
+  url: https://artifacts.apis.io/us-citizenship-and-immigration-services/openapi/us-citizenship-and-immigration-services-foia-requests-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uscis-case-status-api-openapi.yml, openapi/uscis-foia-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 2\n    acting: 1\n  by_consequence:\n    read: 2\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /{receiptNumber}\n  method: get\n  operationId: getCaseStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:case-status\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /requests\n  method: post\n  operationId: submitFoiaRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n\
   \    - write:foia-requests\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{requestNumber}\n  method: get\n  operationId: getFoiaRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:foia-requests\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/agentic-access/us-citizenship-and-immigration-services-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-citizenship-and-immigration-services/agentic-access/us-citizenship-and-immigration-services-agentic-access.yml
 summary_line: 3 operations · 1 acting
 tags:
 - Federal Government

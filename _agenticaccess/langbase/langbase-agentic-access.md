@@ -9,91 +9,91 @@ api_specs:
   label: Langbase Agent API
   slug: langbase-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-agent-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-agent-api-openapi.yml
 - filename: langbase-chunker-api-openapi.yml
   format: yaml
   label: Langbase Chunker API
   slug: langbase-chunker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-chunker-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-chunker-api-openapi.yml
 - filename: langbase-embed-api-openapi.yml
   format: yaml
   label: Langbase Embed API
   slug: langbase-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-embed-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-embed-api-openapi.yml
 - filename: langbase-memory-api-openapi.yml
   format: yaml
   label: Langbase Memory API
   slug: langbase-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-memory-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-memory-api-openapi.yml
 - filename: langbase-parser-api-openapi.yml
   format: yaml
   label: Langbase Parser API
   slug: langbase-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-parser-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-parser-api-openapi.yml
 - filename: langbase-pipes-api-openapi.yml
   format: yaml
   label: Langbase Pipes API
   slug: langbase-pipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-pipes-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-pipes-api-openapi.yml
 - filename: langbase-threads-api-openapi.yml
   format: yaml
   label: Langbase Threads API
   slug: langbase-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-threads-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-threads-api-openapi.yml
 - filename: langbase-tools-api-openapi.yml
   format: yaml
   label: Langbase Tools API
   slug: langbase-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-tools-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-tools-api-openapi.yml
 - filename: langbase-beta-api-openapi.yml
   format: yaml
   label: Langbase Beta API
   slug: langbase-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-beta-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-beta-api-openapi.yml
 - filename: langbase-health-api-openapi.yml
   format: yaml
   label: Langbase Health API
   slug: langbase-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-health-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-health-api-openapi.yml
 - filename: langbase-images-api-openapi.yml
   format: yaml
   label: Langbase Images API
   slug: langbase-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-images-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-images-api-openapi.yml
 - filename: langbase-langbase-api-api-openapi.yml
   format: yaml
   label: Langbase Langbase API
   slug: langbase-langbase-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-langbase-api-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-langbase-api-api-openapi.yml
 - filename: langbase-models-api-openapi.yml
   format: yaml
   label: Langbase Models API
   slug: langbase-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-models-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-models-api-openapi.yml
 - filename: langbase-routes-api-openapi.yml
   format: yaml
   label: Langbase Routes API
   slug: langbase-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-routes-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-routes-api-openapi.yml
 - filename: langbase-traces-api-openapi.yml
   format: yaml
   label: Langbase Traces API
   slug: langbase-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-traces-api-openapi.yml
+  url: https://artifacts.apis.io/langbase/openapi/langbase-traces-api-openapi.yml
 consequence_counts:
   read: 6
   write: 17
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/langba
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/threads/{threadId}\n  method: patch\n  operationId: updateThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/threads/{threadId}\n  method: delete\n  operationId: deleteThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/threads/{threadId}/messages\n  method: get\n  operationId: listMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/threads/{threadId}/messages\n\
   \  method: post\n  operationId: appendMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tools/web-search\n  method: post\n  operationId: webSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tools/crawl\n  method: post\n  operationId: crawl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/agentic-access/langbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/langbase/agentic-access/langbase-agentic-access.yml
 summary_line: 23 operations · 17 acting
 tags:
 - Artificial Intelligence

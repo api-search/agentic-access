@@ -9,19 +9,19 @@ api_specs:
   label: ByteArk Live API
   slug: bytark-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-live-api-openapi.yml
+  url: https://artifacts.apis.io/bytark/openapi/bytark-live-api-openapi.yml
 - filename: bytark-uploads-api-openapi.yml
   format: yaml
   label: ByteArk Uploads API
   slug: bytark-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/bytark/openapi/bytark-uploads-api-openapi.yml
 - filename: bytark-videos-api-openapi.yml
   format: yaml
   label: ByteArk Videos API
   slug: bytark-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/openapi/bytark-videos-api-openapi.yml
+  url: https://artifacts.apis.io/bytark/openapi/bytark-videos-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bytark-live-api-openapi.yml, openapi/bytark-uploads-api-openapi.yml, openapi/bytark-videos-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 4\n    connected: 3\n  by_consequence:\n    write: 4\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /{serviceId}/{apiKey}/createchannel\n  method: post\n  operationId: createLiveChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{serviceId}/{apiKey}/listchannels\n\
   \  method: post\n  operationId: listLiveChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{serviceId}/{apiKey}/deletechannel\n  method: post\n  operationId: deleteLiveChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload/v1/form-data/videos/{videoKey}\n  method: post\n  operationId: uploadVideoFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos\n  method: get\n  operationId: listVideos\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos\n  method: post\n  operationId: createVideos\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{videoKey}\n  method: get\n  operationId: getVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bytark/refs/heads/main/agentic-access/bytark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bytark/agentic-access/bytark-agentic-access.yml
 summary_line: 7 operations · 4 acting
 tags:
 - Video

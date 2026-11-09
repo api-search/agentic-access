@@ -9,25 +9,25 @@ api_specs:
   label: Golem ApiDefinition API
   slug: golem-cloud-apidefinition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-apidefinition-api-openapi.yml
+  url: https://artifacts.apis.io/golem-cloud/openapi/golem-cloud-apidefinition-api-openapi.yml
 - filename: golem-cloud-component-api-openapi.yml
   format: yaml
   label: Golem Component API
   slug: golem-cloud-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-component-api-openapi.yml
+  url: https://artifacts.apis.io/golem-cloud/openapi/golem-cloud-component-api-openapi.yml
 - filename: golem-cloud-plugin-api-openapi.yml
   format: yaml
   label: Golem Plugin API
   slug: golem-cloud-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-plugin-api-openapi.yml
+  url: https://artifacts.apis.io/golem-cloud/openapi/golem-cloud-plugin-api-openapi.yml
 - filename: golem-cloud-worker-api-openapi.yml
   format: yaml
   label: Golem Worker API
   slug: golem-cloud-worker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/openapi/golem-cloud-worker-api-openapi.yml
+  url: https://artifacts.apis.io/golem-cloud/openapi/golem-cloud-worker-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 14
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/golem-
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{account_id}/plugins\n  method: get\n  operationId: listPlugins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}/plugins\n  method: post\n  operationId: createPlugin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/plugins/{plugin_id}\n  method: get\n  operationId: getPlugin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/plugins/{plugin_id}\n\
   \  method: delete\n  operationId: deletePlugin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/components/{component_id}/workers/{agent_name}/activate-plugin\n  method: post\n  operationId: activatePlugin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/components/{component_id}/workers/{agent_name}/deactivate-plugin\n  method: post\n  operationId: deactivatePlugin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/agentic-access/golem-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/golem-cloud/agentic-access/golem-cloud-agentic-access.yml
 summary_line: 33 operations · 19 acting
 tags:
 - Durable Computing

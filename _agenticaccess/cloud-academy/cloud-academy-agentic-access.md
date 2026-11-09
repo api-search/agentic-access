@@ -9,19 +9,19 @@ api_specs:
   label: Cloud Academy Learning Management System API
   slug: cloud-academy-learning-management-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-learning-management-system-api-openapi.yml
+  url: https://artifacts.apis.io/cloud-academy/openapi/cloud-academy-learning-management-system-api-openapi.yml
 - filename: cloud-academy-organizations-api-openapi.yml
   format: yaml
   label: Cloud Academy Organizations API
   slug: cloud-academy-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cloud-academy/openapi/cloud-academy-organizations-api-openapi.yml
 - filename: cloud-academy-reports-api-openapi.yml
   format: yaml
   label: Cloud Academy Reports API
   slug: cloud-academy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cloud-academy/openapi/cloud-academy-reports-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/cloud-
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reports/programs-content/\n  method: post\n  operationId: v2_reports_programs-content_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reports/training-plan-content/\n  method: post\n  operationId: v2_reports_training-plan-content_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reports/user-activity/\n  method: post\n  operationId: v2_reports_user-activity_create\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/user/progress/\n  method: get\n  operationId: v2_user_progress_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user/{user_id}/progress/\n  method: get\n  operationId: v2_user_progress_detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/reports/course-content/\n  method: post\n  operationId: v3_reports_course-content_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/user/progress/\n  method: get\n  operationId: v3_user_progress_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/user/{user_id}/progress/\n  method: get\n  operationId: v3_user_progress_detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/agentic-access/cloud-academy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloud-academy/agentic-access/cloud-academy-agentic-access.yml
 summary_line: 52 operations · 36 acting · 4 human-in-the-loop
 tags:
 - Company

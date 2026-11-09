@@ -9,37 +9,37 @@ api_specs:
   label: Rely.io Automations API
   slug: rely-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-automations-api-openapi.yml
+  url: https://artifacts.apis.io/rely/openapi/rely-automations-api-openapi.yml
 - filename: rely-blueprints-api-openapi.yml
   format: yaml
   label: Rely.io Blueprints API
   slug: rely-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/rely/openapi/rely-blueprints-api-openapi.yml
 - filename: rely-entities-api-openapi.yml
   format: yaml
   label: Rely.io Entities API
   slug: rely-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-entities-api-openapi.yml
+  url: https://artifacts.apis.io/rely/openapi/rely-entities-api-openapi.yml
 - filename: rely-scorecards-api-openapi.yml
   format: yaml
   label: Rely.io Scorecards API
   slug: rely-scorecards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-scorecards-api-openapi.yml
+  url: https://artifacts.apis.io/rely/openapi/rely-scorecards-api-openapi.yml
 - filename: rely-self-service-actions-api-openapi.yml
   format: yaml
   label: Rely.io Self-Service Actions API
   slug: rely-self-service-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-self-service-actions-api-openapi.yml
+  url: https://artifacts.apis.io/rely/openapi/rely-self-service-actions-api-openapi.yml
 - filename: rely-users-api-openapi.yml
   format: yaml
   label: Rely.io Users API
   slug: rely-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/openapi/rely-users-api-openapi.yml
+  url: https://artifacts.apis.io/rely/openapi/rely-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 14
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rely-o
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/actions\n  method: get\n  operationId: listActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/actions\n  method: post\n  operationId: createAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/actions/{actionId}\n  method: get\n  operationId: getAction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/v1/actions/{actionId}\n  method: put\n  operationId: updateAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/actions/{actionId}\n  method: delete\n  operationId: deleteAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations\n  method: get\n  operationId: listAutomations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/automations\n  method: post\n  operationId: createAutomation\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/legacy/users/invite\n  method: post\n  operationId: inviteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/agentic-access/rely-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rely/agentic-access/rely-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - Developer Experience

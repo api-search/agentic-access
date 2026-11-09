@@ -8,7 +8,7 @@ api_specs:
   label: Estated Property API
   slug: estated-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/openapi/estated-property-api-openapi.yml
+  url: https://artifacts.apis.io/estated/openapi/estated-property-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -34,7 +34,7 @@ source_filename: estated-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/estated-property-data-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1\n  by_action_class:\n    connected: 1\n  by_consequence:\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v4/property\n  method: get\n  operationId: getProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/agentic-access/estated-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/estated/agentic-access/estated-agentic-access.yml
 summary_line: 1 operation
 tags:
 - Property Data

@@ -9,55 +9,55 @@ api_specs:
   label: Adobe Illustrator Application API
   slug: adobe-illustrator-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-application-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-illustrator/openapi/adobe-illustrator-application-api-openapi.yml
 - filename: adobe-illustrator-artboards-api-openapi.yml
   format: yaml
   label: Adobe Illustrator Artboards API
   slug: adobe-illustrator-artboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-artboards-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-illustrator/openapi/adobe-illustrator-artboards-api-openapi.yml
 - filename: adobe-illustrator-documents-api-openapi.yml
   format: yaml
   label: Adobe Illustrator Documents API
   slug: adobe-illustrator-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-documents-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-illustrator/openapi/adobe-illustrator-documents-api-openapi.yml
 - filename: adobe-illustrator-graphic-styles-api-openapi.yml
   format: yaml
   label: Adobe Illustrator Graphic Styles API
   slug: adobe-illustrator-graphic-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-graphic-styles-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-illustrator/openapi/adobe-illustrator-graphic-styles-api-openapi.yml
 - filename: adobe-illustrator-layers-api-openapi.yml
   format: yaml
   label: Adobe Illustrator Layers API
   slug: adobe-illustrator-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-layers-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-illustrator/openapi/adobe-illustrator-layers-api-openapi.yml
 - filename: adobe-illustrator-path-items-api-openapi.yml
   format: yaml
   label: Adobe Illustrator Path Items API
   slug: adobe-illustrator-path-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-path-items-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-illustrator/openapi/adobe-illustrator-path-items-api-openapi.yml
 - filename: adobe-illustrator-swatches-api-openapi.yml
   format: yaml
   label: Adobe Illustrator Swatches API
   slug: adobe-illustrator-swatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-swatches-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-illustrator/openapi/adobe-illustrator-swatches-api-openapi.yml
 - filename: adobe-illustrator-symbols-api-openapi.yml
   format: yaml
   label: Adobe Illustrator Symbols API
   slug: adobe-illustrator-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-illustrator/openapi/adobe-illustrator-symbols-api-openapi.yml
 - filename: adobe-illustrator-text-frames-api-openapi.yml
   format: yaml
   label: Adobe Illustrator Text Frames API
   slug: adobe-illustrator-text-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-text-frames-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-illustrator/openapi/adobe-illustrator-text-frames-api-openapi.yml
 consequence_counts:
   read: 18
   write: 22
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/adobe-
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}/symbols/{symbolId}\n  method: get\n  operationId: getSymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{documentId}/symbols/{symbolId}\n  method: delete\n  operationId: deleteSymbol\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}/swatches\n  method: get\n  operationId: listSwatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /documents/{documentId}/swatches\n  method: post\n  operationId: createSwatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}/swatches/{swatchName}\n  method: get\n  operationId: getSwatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{documentId}/swatches/{swatchName}\n  method: delete\n  operationId: deleteSwatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /documents/{documentId}/graphicStyles\n  method: get\n  operationId: listGraphicStyles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{documentId}/graphicStyles/{graphicStyleName}\n  method: get\n  operationId: getGraphicStyle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{documentId}/graphicStyles/{graphicStyleName}\n  method: delete\n  operationId: deleteGraphicStyle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/agentic-access/adobe-illustrator-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adobe-illustrator/agentic-access/adobe-illustrator-agentic-access.yml
 summary_line: 40 operations · 22 acting
 tags:
 - Creative Cloud

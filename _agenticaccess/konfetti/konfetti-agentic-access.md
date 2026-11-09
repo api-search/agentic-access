@@ -9,31 +9,31 @@ api_specs:
   label: konfetti Account API
   slug: konfetti-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-account-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-account-api-openapi.yml
 - filename: konfetti-auth-api-openapi.yml
   format: yaml
   label: konfetti Auth API
   slug: konfetti-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-auth-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-auth-api-openapi.yml
 - filename: konfetti-catalog-api-openapi.yml
   format: yaml
   label: konfetti Catalog API
   slug: konfetti-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-catalog-api-openapi.yml
 - filename: konfetti-checkout-api-openapi.yml
   format: yaml
   label: konfetti Checkout API
   slug: konfetti-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-checkout-api-openapi.yml
 - filename: konfetti-requests-api-openapi.yml
   format: yaml
   label: konfetti Requests API
   slug: konfetti-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-requests-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-requests-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/konfet
   \      max-ttl: 3600\n    audit: none\n- path: /v1/store/coupon/{code}/validate\n  method: post\n  operationId: validateCoupon\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/checkout/cart/validate\n  method: post\n  operationId: validateCart\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/checkout/orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/store/events/{id}/subscribe\n  method: post\n  operationId: subscribeToEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/store/date-requests\n  method: post\n  operationId: createDateRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/store/date-requests/{id}/similar-events\n  method: get\n  operationId: listDateRequestSimilarEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/store/private-event-requests\n  method: post\n  operationId: createPrivateEventRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/store/customers/subscribe-newsletter\n  method: post\n  operationId: subscribeNewsletter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/agentic-access/konfetti-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/konfetti/agentic-access/konfetti-agentic-access.yml
 summary_line: 21 operations · 9 acting
 tags:
 - Company

@@ -9,61 +9,61 @@ api_specs:
   label: Spot by NetApp Audit Service API
   slug: spot-by-netapp-audit-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-audit-service-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-audit-service-api-openapi.yml
 - filename: spot-by-netapp-create-an-api-token-api-openapi.yml
   format: yaml
   label: Spot by NetApp Create an API Token API
   slug: spot-by-netapp-create-an-api-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-create-an-api-token-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-create-an-api-token-api-openapi.yml
 - filename: spot-by-netapp-elastigroup-aws-api-openapi.yml
   format: yaml
   label: Spot by NetApp Elastigroup AWS API
   slug: spot-by-netapp-elastigroup-aws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-elastigroup-aws-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-elastigroup-aws-api-openapi.yml
 - filename: spot-by-netapp-elastigroup-azure-spot-vms-api-openapi.yml
   format: yaml
   label: Spot by NetApp Elastigroup Azure Spot VMs API
   slug: spot-by-netapp-elastigroup-azure-spot-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-elastigroup-azure-spot-vms-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-elastigroup-azure-spot-vms-api-openapi.yml
 - filename: spot-by-netapp-elastigroup-gcp-api-openapi.yml
   format: yaml
   label: Spot by NetApp Elastigroup GCP API
   slug: spot-by-netapp-elastigroup-gcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-elastigroup-gcp-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-elastigroup-gcp-api-openapi.yml
 - filename: spot-by-netapp-health-check-service-api-openapi.yml
   format: yaml
   label: Spot by NetApp Health Check Service API
   slug: spot-by-netapp-health-check-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-health-check-service-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-health-check-service-api-openapi.yml
 - filename: spot-by-netapp-insights-service-api-openapi.yml
   format: yaml
   label: Spot by NetApp Insights Service API
   slug: spot-by-netapp-insights-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-insights-service-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-insights-service-api-openapi.yml
 - filename: spot-by-netapp-notification-subscription-service-api-openapi.yml
   format: yaml
   label: Spot by NetApp Notification Subscription Service API
   slug: spot-by-netapp-notification-subscription-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-notification-subscription-service-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-notification-subscription-service-api-openapi.yml
 - filename: spot-by-netapp-ocean-automatic-rightsizing-api-openapi.yml
   format: yaml
   label: Spot by NetApp Ocean Automatic Rightsizing API
   slug: spot-by-netapp-ocean-automatic-rightsizing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-ocean-automatic-rightsizing-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-ocean-automatic-rightsizing-api-openapi.yml
 - filename: spot-by-netapp-ocean-aws-api-openapi.yml
   format: yaml
   label: Spot by NetApp Ocean AWS API
   slug: spot-by-netapp-ocean-aws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-ocean-aws-api-openapi.yml
+  url: https://artifacts.apis.io/spot-by-netapp/openapi/spot-by-netapp-ocean-aws-api-openapi.yml
 consequence_counts:
   read: 18
   write: 18
@@ -101,12 +101,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spot-b
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /setup/account/{accountId}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /setup/account/{accountId}\n  method: put\n  operationId: updateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /setup/account/{accountId}\n  method: delete\n  operationId: deleteAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /setup/user/token\n  method: post\n  operationId: createApiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audit/log\n  method: get\n  operationId: getAuditLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/summary\n  method: get\n  operationId: getCostSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /healthCheck\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/agentic-access/spot-by-netapp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spot-by-netapp/agentic-access/spot-by-netapp-agentic-access.yml
 summary_line: 36 operations · 18 acting
 tags:
 - Cloud Optimization
 - FinOps
 - Kubernetes
+- Amazon Web Services
 - Microsoft Azure
 - GCP
 - Cost Optimization

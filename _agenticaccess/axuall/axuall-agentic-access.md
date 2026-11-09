@@ -9,91 +9,91 @@ api_specs:
   label: Axuall Actor API
   slug: axuall-actor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-actor-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-actor-api-openapi.yml
 - filename: axuall-address-deduplications-api-openapi.yml
   format: yaml
   label: Axuall Address Deduplications API
   slug: axuall-address-deduplications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-address-deduplications-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-address-deduplications-api-openapi.yml
 - filename: axuall-agent-api-openapi.yml
   format: yaml
   label: Axuall Agent API
   slug: axuall-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-agent-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-agent-api-openapi.yml
 - filename: axuall-authentication-api-openapi.yml
   format: yaml
   label: Axuall Authentication API
   slug: axuall-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-authentication-api-openapi.yml
 - filename: axuall-case-log-artifact-api-openapi.yml
   format: yaml
   label: Axuall Case Log Artifact API
   slug: axuall-case-log-artifact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-case-log-artifact-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-case-log-artifact-api-openapi.yml
 - filename: axuall-documents-api-openapi.yml
   format: yaml
   label: Axuall Documents API
   slug: axuall-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-documents-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-documents-api-openapi.yml
 - filename: axuall-email-api-openapi.yml
   format: yaml
   label: Axuall Email API
   slug: axuall-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-email-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-email-api-openapi.yml
 - filename: axuall-facilities-api-openapi.yml
   format: yaml
   label: Axuall Facilities API
   slug: axuall-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-facilities-api-openapi.yml
 - filename: axuall-fsmb-artifact-api-openapi.yml
   format: yaml
   label: Axuall FSMB Artifact API
   slug: axuall-fsmb-artifact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-fsmb-artifact-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-fsmb-artifact-api-openapi.yml
 - filename: axuall-invite-api-openapi.yml
   format: yaml
   label: Axuall Invite API
   slug: axuall-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-invite-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-invite-api-openapi.yml
 - filename: axuall-monitoring-reports-api-openapi.yml
   format: yaml
   label: Axuall Monitoring reports API
   slug: axuall-monitoring-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-monitoring-reports-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-monitoring-reports-api-openapi.yml
 - filename: axuall-provider-preview-api-openapi.yml
   format: yaml
   label: Axuall Provider Preview API
   slug: axuall-provider-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-provider-preview-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-provider-preview-api-openapi.yml
 - filename: axuall-providers-api-openapi.yml
   format: yaml
   label: Axuall Providers API
   slug: axuall-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-providers-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-providers-api-openapi.yml
 - filename: axuall-recipes-api-openapi.yml
   format: yaml
   label: Axuall Recipes API
   slug: axuall-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-recipes-api-openapi.yml
 - filename: axuall-tasks-api-openapi.yml
   format: yaml
   label: Axuall Tasks API
   slug: axuall-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/openapi/axuall-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/axuall/openapi/axuall-tasks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 29
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-09-27'\nmethod: generated\nsource: openapi/axuall
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/task_sets\n  method: get\n  operationId: list_task_sets_v2_task_sets_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasks\n  method: get\n  operationId: List_Tasks_v2_tasks_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assigned_tasks\n  method: get\n  operationId: list_assigned_tasks_v2_assigned_tasks_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/monitoring/dimensions\n  method: get\n  operationId: list_dimensions_v2_monitoring_dimensions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/monitoring/dimensions/credential\n  method: get\n  operationId: get_credential_dimension_v2_monitoring_dimensions_credential_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/monitoring/dimensions/{dimension_name}\n  method: get\n  operationId: get_dimension_v2_monitoring_dimensions__dimension_name__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/monitoring/findings\n  method: get\n  operationId: list_findings_v2_monitoring_findings_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/monitoring/expirables\n  method: get\n  operationId: list_expirables_v2_monitoring_expirables_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/address_deduplications\n  method: post\n  operationId: create_address_deduplication_v2_address_deduplications_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/address_deduplications/{task_id}\n  method: get\n  operationId: get_address_deduplication_v2_address_deduplications__task_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axuall/refs/heads/main/agentic-access/axuall-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/axuall/agentic-access/axuall-agentic-access.yml
 summary_line: 43 operations · 14 acting
 tags:
 - Company

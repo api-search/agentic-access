@@ -9,67 +9,67 @@ api_specs:
   label: Squarespace Orders API
   slug: squarespace-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-orders-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-orders-api-openapi.yml
 - filename: squarespace-products-api-openapi.yml
   format: yaml
   label: Squarespace Products API
   slug: squarespace-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-products-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-products-api-openapi.yml
 - filename: squarespace-inventory-api-openapi.yml
   format: yaml
   label: Squarespace Inventory API
   slug: squarespace-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-inventory-api-openapi.yml
 - filename: squarespace-profiles-api-openapi.yml
   format: yaml
   label: Squarespace Profiles API
   slug: squarespace-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-profiles-api-openapi.yml
 - filename: squarespace-transactions-api-openapi.yml
   format: yaml
   label: Squarespace Transactions API
   slug: squarespace-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-transactions-api-openapi.yml
 - filename: squarespace-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Squarespace Webhook Subscriptions API
   slug: squarespace-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-webhook-subscriptions-api-openapi.yml
 - filename: squarespace-site-api-openapi.yml
   format: yaml
   label: Squarespace Site API
   slug: squarespace-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-site-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-site-api-openapi.yml
 - filename: squarespace-analytics-api-openapi.yml
   format: yaml
   label: Squarespace Analytics API
   slug: squarespace-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-analytics-api-openapi.yml
 - filename: squarespace-contacts-api-openapi.yml
   format: yaml
   label: Squarespace Contacts API
   slug: squarespace-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-contacts-api-openapi.yml
 - filename: squarespace-discounts-api-openapi.yml
   format: yaml
   label: Squarespace Discounts API
   slug: squarespace-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-discounts-api-openapi.yml
 - filename: squarespace-websites-api-openapi.yml
   format: yaml
   label: Squarespace Websites API
   slug: squarespace-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-websites-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-websites-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 38
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/square
   \      - high-value\n    audit: required\n- path: /1.0/webhook_subscriptions/{subscriptionId}\n  method: get\n  operationId: getWebhookSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/webhook_subscriptions/{subscriptionId}\n  method: post\n  operationId: updateWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.0/webhook_subscriptions/{subscriptionId}/actions/rotateSecret\n  method: post\n  operationId: rotateSubscriptionSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.0/webhook_subscriptions/{subscriptionId}/actions/sendTestNotification\n  method: post\n  operationId: sendTestNotificationForWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.0/authorization/member\n  method: get\n  operationId: getMemberProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/authorization/website\n  method: get\n  operationId: getWebsiteProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /1.0/commerce/store_pages\n  method: get\n  operationId: getStorePages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/agentic-access/squarespace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/squarespace/agentic-access/squarespace-agentic-access.yml
 summary_line: 83 operations · 45 acting
 tags:
 - Commerce

@@ -9,55 +9,55 @@ api_specs:
   label: TensorDock Instances API
   slug: tensordock-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-instances-api-openapi.yml
+  url: https://artifacts.apis.io/tensordock/openapi/tensordock-instances-api-openapi.yml
 - filename: tensordock-secrets-api-openapi.yml
   format: yaml
   label: TensorDock Secrets API
   slug: tensordock-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/tensordock/openapi/tensordock-secrets-api-openapi.yml
 - filename: tensordock-authorization-api-openapi.yml
   format: yaml
   label: TensorDock Authorization API
   slug: tensordock-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/tensordock/openapi/tensordock-authorization-api-openapi.yml
 - filename: tensordock-billing-api-openapi.yml
   format: yaml
   label: TensorDock Billing API
   slug: tensordock-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-billing-api-openapi.yml
+  url: https://artifacts.apis.io/tensordock/openapi/tensordock-billing-api-openapi.yml
 - filename: tensordock-containers-api-openapi.yml
   format: yaml
   label: TensorDock Containers API
   slug: tensordock-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-containers-api-openapi.yml
+  url: https://artifacts.apis.io/tensordock/openapi/tensordock-containers-api-openapi.yml
 - filename: tensordock-hostnodes-api-openapi.yml
   format: yaml
   label: TensorDock Hostnodes API
   slug: tensordock-hostnodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-hostnodes-api-openapi.yml
+  url: https://artifacts.apis.io/tensordock/openapi/tensordock-hostnodes-api-openapi.yml
 - filename: tensordock-instant-vms-api-openapi.yml
   format: yaml
   label: TensorDock Instant VMs API
   slug: tensordock-instant-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-instant-vms-api-openapi.yml
+  url: https://artifacts.apis.io/tensordock/openapi/tensordock-instant-vms-api-openapi.yml
 - filename: tensordock-spot-api-openapi.yml
   format: yaml
   label: TensorDock Spot API
   slug: tensordock-spot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-spot-api-openapi.yml
+  url: https://artifacts.apis.io/tensordock/openapi/tensordock-spot-api-openapi.yml
 - filename: tensordock-virtual-machines-api-openapi.yml
   format: yaml
   label: TensorDock Virtual Machines API
   slug: tensordock-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/openapi/tensordock-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/tensordock/openapi/tensordock-virtual-machines-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 14
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tensor
   \  operationId: deployVirtualMachine\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/client/list\n  method: post\n  operationId: listVirtualMachines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/client/get/single\n  method: post\n  operationId: getVirtualMachine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/client/start/single\n  method: post\n  operationId: startVirtualMachine\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/client/stop/single\n  method: post\n  operationId: stopVirtualMachine\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v0/client/modify/single\n  method: post\n  operationId: modifyVirtualMachine\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/client/delete/single\n\
   \  method: post\n  operationId: deleteVirtualMachine\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/agentic-access/tensordock-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tensordock/agentic-access/tensordock-agentic-access.yml
 summary_line: 33 operations · 19 acting · 3 human-in-the-loop
 tags:
 - GPU

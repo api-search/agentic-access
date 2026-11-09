@@ -9,25 +9,25 @@ api_specs:
   label: Percy Builds API
   slug: percy-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-builds-api-openapi.yml
+  url: https://artifacts.apis.io/percy/openapi/percy-builds-api-openapi.yml
 - filename: percy-projects-api-openapi.yml
   format: yaml
   label: Percy Projects API
   slug: percy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/percy/openapi/percy-projects-api-openapi.yml
 - filename: percy-snapshots-api-openapi.yml
   format: yaml
   label: Percy Snapshots API
   slug: percy-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/percy/openapi/percy-snapshots-api-openapi.yml
 - filename: percy-visual-git-api-openapi.yml
   format: yaml
   label: Percy Visual Git API
   slug: percy-visual-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/openapi/percy-visual-git-api-openapi.yml
+  url: https://artifacts.apis.io/percy/openapi/percy-visual-git-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/percy-
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /builds/{build_id}/delete\n  method: post\n  operationId: deleteBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reviews\n  method: post\n  operationId: createReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /snapshots\n  method: get\n  operationId: listSnapshots\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /snapshots/{snapshot_id}\n  method: get\n  operationId: getSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /branchline/sync\n  method: post\n  operationId: syncBranchline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /branchline/sync/{sync_id}\n  method: get\n  operationId: getBranchlineSync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /branchline/merge\n  method: post\n  operationId: mergeBranchline\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/agentic-access/percy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/percy/agentic-access/percy-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Visual Testing

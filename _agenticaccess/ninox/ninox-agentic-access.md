@@ -9,31 +9,31 @@ api_specs:
   label: Ninox Fields API
   slug: ninox-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-fields-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-fields-api-openapi.yml
 - filename: ninox-modules-api-openapi.yml
   format: yaml
   label: Ninox Modules API
   slug: ninox-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-modules-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-modules-api-openapi.yml
 - filename: ninox-records-api-openapi.yml
   format: yaml
   label: Ninox Records API
   slug: ninox-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-records-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-records-api-openapi.yml
 - filename: ninox-tables-api-openapi.yml
   format: yaml
   label: Ninox Tables API
   slug: ninox-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-tables-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-tables-api-openapi.yml
 - filename: ninox-workspace-api-openapi.yml
   format: yaml
   label: Ninox Workspace API
   slug: ninox-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/openapi/ninox-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/ninox/openapi/ninox-workspace-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 15
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/ninox-
   \ required\n    audit: required\n- path: /api/v1/workspace/{workspaceId}/modules/{moduleName}/tables/{tableName}/records/import/csv\n  method: post\n  operationId: RowsV1Controller_importCSV\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/workspace/{workspaceId}/modules/{moduleName}/tables\n  method: post\n  operationId: TablesV1Controller_createTable\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/workspace/{workspaceId}/modules/{moduleName}/tables\n\
   \  method: get\n  operationId: TablesV1Controller_getTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspace/{workspaceId}/modules/{moduleName}/tables/{tableName}\n  method: delete\n  operationId: TablesV1Controller_deleteTable\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/workspace/{workspaceId}/modules/{moduleName}/tables/{tableName}\n  method: get\n  operationId: TablesV1Controller_getTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspace/{workspaceId}/modules/{moduleName}/tables/{tableName}\n\
   \  method: patch\n  operationId: TablesV1Controller_updateTable\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/workspace/{workspaceId}\n  method: get\n  operationId: WorkspacesV1Controller_getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/agentic-access/ninox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ninox/agentic-access/ninox-agentic-access.yml
 summary_line: 23 operations · 15 acting · 15 human-in-the-loop
 tags:
 - Company

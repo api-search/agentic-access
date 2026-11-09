@@ -8,19 +8,19 @@ api_specs:
   label: Bureau of Justice Statistics Property Crime API
   slug: bureau-of-justice-statistics-property-crime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-property-crime-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-justice-statistics/openapi/bureau-of-justice-statistics-property-crime-api-openapi.yml
 - filename: bureau-of-justice-statistics-victimization-api-openapi.yml
   format: yaml
   label: Bureau of Justice Statistics Victimization API
   slug: bureau-of-justice-statistics-victimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-victimization-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-justice-statistics/openapi/bureau-of-justice-statistics-victimization-api-openapi.yml
 - filename: bureau-of-justice-statistics-violent-crime-api-openapi.yml
   format: yaml
   label: Bureau of Justice Statistics Violent Crime API
   slug: bureau-of-justice-statistics-violent-crime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-violent-crime-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-justice-statistics/openapi/bureau-of-justice-statistics-violent-crime-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bureau-of-justice-statistics-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /resource/r32q-bdaw.json\n  method: get\n  operationId: getViolentIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource/iv7i-eah6.json\n  method: get\n  operationId: getPropertyIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource/x3sz-eb6y.json\n\
   \  method: get\n  operationId: getViolentOffenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource/kj7p-vx4s.json\n  method: get\n  operationId: getPropertyOffenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource/ms42-n765.json\n  method: get\n  operationId: getVictimizationCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource/uy37-xgmh.json\n  method: get\n  operationId: getVictimizationRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/agentic-access/bureau-of-justice-statistics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-justice-statistics/agentic-access/bureau-of-justice-statistics-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Crime

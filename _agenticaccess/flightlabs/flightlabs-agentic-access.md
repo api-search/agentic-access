@@ -8,43 +8,43 @@ api_specs:
   label: FlightLabs Aircraft API
   slug: flightlabs-aircraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-aircraft-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-aircraft-api-openapi.yml
 - filename: flightlabs-airlines-api-openapi.yml
   format: yaml
   label: FlightLabs Airlines API
   slug: flightlabs-airlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-airlines-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-airlines-api-openapi.yml
 - filename: flightlabs-airports-api-openapi.yml
   format: yaml
   label: FlightLabs Airports API
   slug: flightlabs-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-airports-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-airports-api-openapi.yml
 - filename: flightlabs-flights-api-openapi.yml
   format: yaml
   label: FlightLabs Flights API
   slug: flightlabs-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-flights-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-flights-api-openapi.yml
 - filename: flightlabs-geography-api-openapi.yml
   format: yaml
   label: FlightLabs Geography API
   slug: flightlabs-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-geography-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-geography-api-openapi.yml
 - filename: flightlabs-pricing-api-openapi.yml
   format: yaml
   label: FlightLabs Pricing API
   slug: flightlabs-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-pricing-api-openapi.yml
 - filename: flightlabs-routes-api-openapi.yml
   format: yaml
   label: FlightLabs Routes API
   slug: flightlabs-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-routes-api-openapi.yml
+  url: https://artifacts.apis.io/flightlabs/openapi/flightlabs-routes-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ 3600\n    audit: none\n- path: /flight-data-by-date\n  method: get\n  operationId: getFlightDataByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flight-info\n  method: get\n  operationId: getFlightInfoByNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flight-prices\n  method: get\n  operationId: getFlightPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airports\n  method: get\n  operationId: getAirports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airlines\n  method: get\n  operationId: getAirlines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routes\n  method: get\n  operationId: getAirlineRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cities\n  method: get\n  operationId: getCities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aircraft_types\n  method: get\n  operationId: getAircraftTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airplanes\n  method: get\n  operationId:\
   \ getAirplanes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxes\n  method: get\n  operationId: getTaxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /autocomplete-cities\n  method: get\n  operationId: autocompleteCities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/agentic-access/flightlabs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flightlabs/agentic-access/flightlabs-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Aviation

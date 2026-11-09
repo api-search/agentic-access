@@ -9,91 +9,91 @@ api_specs:
   label: OpsMill Artifact API
   slug: opsmill-artifact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-artifact-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-artifact-api-openapi.yml
 - filename: opsmill-auth-api-openapi.yml
   format: yaml
   label: OpsMill Auth API
   slug: opsmill-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-auth-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-auth-api-openapi.yml
 - filename: opsmill-config-api-openapi.yml
   format: yaml
   label: OpsMill Config API
   slug: opsmill-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-config-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-config-api-openapi.yml
 - filename: opsmill-diff-api-openapi.yml
   format: yaml
   label: OpsMill Diff API
   slug: opsmill-diff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-diff-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-diff-api-openapi.yml
 - filename: opsmill-file-api-openapi.yml
   format: yaml
   label: OpsMill File API
   slug: opsmill-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-file-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-file-api-openapi.yml
 - filename: opsmill-info-api-openapi.yml
   format: yaml
   label: OpsMill Info API
   slug: opsmill-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-info-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-info-api-openapi.yml
 - filename: opsmill-menu-api-openapi.yml
   format: yaml
   label: OpsMill Menu API
   slug: opsmill-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-menu-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-menu-api-openapi.yml
 - filename: opsmill-oidc-api-openapi.yml
   format: yaml
   label: OpsMill Oidc API
   slug: opsmill-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-oidc-api-openapi.yml
 - filename: opsmill-query-api-openapi.yml
   format: yaml
   label: OpsMill Query API
   slug: opsmill-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-query-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-query-api-openapi.yml
 - filename: opsmill-schema-api-openapi.yml
   format: yaml
   label: OpsMill Schema API
   slug: opsmill-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-schema-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-schema-api-openapi.yml
 - filename: opsmill-schema-graphql-api-openapi.yml
   format: yaml
   label: OpsMill Schema.graphql API
   slug: opsmill-schema-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-schema-graphql-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-schema-graphql-api-openapi.yml
 - filename: opsmill-storage-api-openapi.yml
   format: yaml
   label: OpsMill Storage API
   slug: opsmill-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-storage-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-storage-api-openapi.yml
 - filename: opsmill-telemetry-api-openapi.yml
   format: yaml
   label: OpsMill Telemetry API
   slug: opsmill-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-telemetry-api-openapi.yml
 - filename: opsmill-transform-api-openapi.yml
   format: yaml
   label: OpsMill Transform API
   slug: opsmill-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-transform-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-transform-api-openapi.yml
 - filename: opsmill-oauth2-api-openapi.yml
   format: yaml
   label: OpsMill Oauth2 API
   slug: opsmill-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/openapi/opsmill-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/opsmill/openapi/opsmill-oauth2-api-openapi.yml
 consequence_counts:
   read: 24
   write: 10
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/opsmil
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/storage/files/{node_id}\n  method: get\n  operationId: download_file_object_api_storage_files__node_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/storage/object/{identifier}\n  method: get\n  operationId: get_file_api_storage_object__identifier__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/storage/upload/content\n  method: post\n  operationId: upload_content_api_storage_upload_content_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n   \
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/storage/upload/file\n  method: post\n  operationId: upload_file_api_storage_upload_file_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/telemetry/snapshots\n  method: get\n  operationId: get_telemetry_snapshots_api_telemetry_snapshots_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/transform/python/{transform_id}\n  method: get\n  operationId: transform_python_api_transform_python__transform_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/transform/jinja2/{transform_id}\n  method: get\n  operationId: transform_jinja2_api_transform_jinja2__transform_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema.graphql\n  method: get\n  operationId: get_graphql_schema_schema_graphql_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/agentic-access/opsmill-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opsmill/agentic-access/opsmill-agentic-access.yml
 summary_line: 34 operations · 10 acting
 tags:
 - Company

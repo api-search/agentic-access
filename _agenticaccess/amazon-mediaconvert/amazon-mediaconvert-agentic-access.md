@@ -9,49 +9,55 @@ api_specs:
   label: Amazon MediaConvert Certificates API
   slug: amazon-mediaconvert-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-certificates-api-openapi.yml
 - filename: amazon-mediaconvert-endpoints-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Endpoints API
   slug: amazon-mediaconvert-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-endpoints-api-openapi.yml
 - filename: amazon-mediaconvert-jobs-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Jobs API
   slug: amazon-mediaconvert-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-jobs-api-openapi.yml
 - filename: amazon-mediaconvert-policy-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Policy API
   slug: amazon-mediaconvert-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-policy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-policy-api-openapi.yml
 - filename: amazon-mediaconvert-presets-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Presets API
   slug: amazon-mediaconvert-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-presets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-presets-api-openapi.yml
 - filename: amazon-mediaconvert-queues-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Queues API
   slug: amazon-mediaconvert-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-queues-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-queues-api-openapi.yml
 - filename: amazon-mediaconvert-tags-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Tags API
   slug: amazon-mediaconvert-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-tags-api-openapi.yml
 - filename: amazon-mediaconvert-job-templates-api-openapi.yml
   format: yaml
   label: Amazon MediaConvert Job Templates API
   slug: amazon-mediaconvert-job-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-job-templates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-job-templates-api-openapi.yml
+- filename: amazon-mediaconvert-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConvert Mediaconvert Operations API
+  slug: amazon-mediaconvert-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconvert/openapi/amazon-mediaconvert-operations-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 3
@@ -106,9 +112,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \    - abnormal\n      - high-value\n    audit: required\n- path: /2017-08-29/queues/{name}\n  method: get\n  operationId: GetQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2017-08-29/queues/{name}\n  method: put\n  operationId: UpdateQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2017-08-29/endpoints\n  method: post\n  operationId: DescribeEndpoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /2017-08-29/certificates/{arn}\n  method: delete\n  operationId: DisassociateCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2017-08-29/tags/{arn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2017-08-29/tags/{arn}\n  method: put\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2017-08-29/tags\n  method: post\n  operationId:\
   \ TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/agentic-access/amazon-mediaconvert-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mediaconvert/agentic-access/amazon-mediaconvert-agentic-access.yml
 summary_line: 28 operations · 18 acting · 3 human-in-the-loop
 tags:
+- Amazon Web Services
 - Broadcasting
 - Media Processing
 - Media

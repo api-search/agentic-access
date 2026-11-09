@@ -9,55 +9,55 @@ api_specs:
   label: Gogs Administration API
   slug: gogs-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-administration-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-administration-api-openapi.yml
 - filename: gogs-collaborators-and-deploy-keys-api-openapi.yml
   format: yaml
   label: Gogs Collaborators and Deploy Keys API
   slug: gogs-collaborators-and-deploy-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-collaborators-and-deploy-keys-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-collaborators-and-deploy-keys-api-openapi.yml
 - filename: gogs-issues-api-openapi.yml
   format: yaml
   label: Gogs Issues API
   slug: gogs-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-issues-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-issues-api-openapi.yml
 - filename: gogs-miscellaneous-api-openapi.yml
   format: yaml
   label: Gogs Miscellaneous API
   slug: gogs-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-miscellaneous-api-openapi.yml
 - filename: gogs-organizations-api-openapi.yml
   format: yaml
   label: Gogs Organizations API
   slug: gogs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-organizations-api-openapi.yml
 - filename: gogs-releases-api-openapi.yml
   format: yaml
   label: Gogs Releases API
   slug: gogs-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-releases-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-releases-api-openapi.yml
 - filename: gogs-repositories-api-openapi.yml
   format: yaml
   label: Gogs Repositories API
   slug: gogs-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-repositories-api-openapi.yml
 - filename: gogs-users-api-openapi.yml
   format: yaml
   label: Gogs Users API
   slug: gogs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-users-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-users-api-openapi.yml
 - filename: gogs-webhooks-api-openapi.yml
   format: yaml
   label: Gogs Webhooks API
   slug: gogs-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 52
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-09-21'\nmethod: generated\nsource: openapi/gogs-o
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /markdown/raw\n  method: post\n  operationId: renderMarkdownRaw\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repos/{owner}/{repo}/git/trees/{sha}\n  method: get\n  operationId: getTree\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}/forks\n  method: get\n  operationId: listForks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}/tags\n  method:\
   \ get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}/commits\n  method: get\n  operationId: getAllCommits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}/wiki\n  method: patch\n  operationId: editWiki\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repos/{owner}/{repo}/editorconfig/{filename}\n  method: get\n  operationId: getEditorconfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /repos/{owner}/{repo}/git/blobs/{sha}\n  method: get\n  operationId: getGitBlob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/issues\n  method: get\n  operationId: listUserIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/agentic-access/gogs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gogs/agentic-access/gogs-agentic-access.yml
 summary_line: 104 operations · 52 acting
 tags:
 - Company

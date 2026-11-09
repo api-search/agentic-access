@@ -9,103 +9,103 @@ api_specs:
   label: Elementum Access Token API
   slug: elementum-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-access-token-api-openapi.yml
 - filename: elementum-agents-api-openapi.yml
   format: yaml
   label: Elementum Agents API
   slug: elementum-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-agents-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-agents-api-openapi.yml
 - filename: elementum-apps-api-openapi.yml
   format: yaml
   label: Elementum Apps API
   slug: elementum-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-apps-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-apps-api-openapi.yml
 - filename: elementum-attachments-api-openapi.yml
   format: yaml
   label: Elementum Attachments API
   slug: elementum-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-attachments-api-openapi.yml
 - filename: elementum-automations-api-openapi.yml
   format: yaml
   label: Elementum Automations API
   slug: elementum-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-automations-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-automations-api-openapi.yml
 - filename: elementum-comments-api-openapi.yml
   format: yaml
   label: Elementum Comments API
   slug: elementum-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-comments-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-comments-api-openapi.yml
 - filename: elementum-domains-api-openapi.yml
   format: yaml
   label: Elementum Domains API
   slug: elementum-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-domains-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-domains-api-openapi.yml
 - filename: elementum-flows-api-openapi.yml
   format: yaml
   label: Elementum Flows API
   slug: elementum-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-flows-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-flows-api-openapi.yml
 - filename: elementum-groups-api-openapi.yml
   format: yaml
   label: Elementum Groups API
   slug: elementum-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-groups-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-groups-api-openapi.yml
 - filename: elementum-records-api-openapi.yml
   format: yaml
   label: Elementum Records API
   slug: elementum-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-records-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-records-api-openapi.yml
 - filename: elementum-related-items-api-openapi.yml
   format: yaml
   label: Elementum Related-items API
   slug: elementum-related-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-related-items-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-related-items-api-openapi.yml
 - filename: elementum-search-tables-api-openapi.yml
   format: yaml
   label: Elementum Search Tables API
   slug: elementum-search-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-search-tables-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-search-tables-api-openapi.yml
 - filename: elementum-skills-api-openapi.yml
   format: yaml
   label: Elementum Skills API
   slug: elementum-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-skills-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-skills-api-openapi.yml
 - filename: elementum-tables-api-openapi.yml
   format: yaml
   label: Elementum Tables API
   slug: elementum-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-tables-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-tables-api-openapi.yml
 - filename: elementum-users-api-openapi.yml
   format: yaml
   label: Elementum Users API
   slug: elementum-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-users-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-users-api-openapi.yml
 - filename: elementum-views-api-openapi.yml
   format: yaml
   label: Elementum Views API
   slug: elementum-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-views-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-views-api-openapi.yml
 - filename: elementum-watchers-api-openapi.yml
   format: yaml
   label: Elementum Watchers API
   slug: elementum-watchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-watchers-api-openapi.yml
+  url: https://artifacts.apis.io/elementum/openapi/elementum-watchers-api-openapi.yml
 consequence_counts:
   read: 23
   safety-critical: 2
@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/elemen
   \ deleteTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{id}/joins\n  method: post\n  operationId: createTableJoin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{id}/joins/{joinId}\n  method: put\n  operationId: updateTableJoin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /tables/{id}/joins/{joinId}\n  method: delete\n  operationId: deleteTableJoin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{id}/join-fields/{joinFieldsId}/mappings\n  method: put\n  operationId: updateTableJoinMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{id}/join-fields/{joinFieldsId}/mappings\n  method: post\n  operationId: createTableJoinMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{id}/join-fields/{joinFieldsId}/mappings\n  method: delete\n  operationId: deleteTableJoinMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/agentic-access/elementum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/elementum/agentic-access/elementum-agentic-access.yml
 summary_line: 72 operations · 49 acting · 2 human-in-the-loop
 tags:
 - Company

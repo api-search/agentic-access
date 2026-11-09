@@ -9,7 +9,7 @@ api_specs:
   label: Cloudflare D1 D1 API
   slug: cloudflare-d1-d1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-d1/refs/heads/main/openapi/cloudflare-d1-d1-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-d1/openapi/cloudflare-d1-d1-api-openapi.yml
 consequence_counts:
   read: 4
   write: 8
@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cloudf
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/d1/database/{database_id}\n  method: put\n  operationId: d1-update-database\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/d1/database/{database_id}/export\n  method: post\n  operationId: d1-export-database\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/d1/database/{database_id}/import\n\
   \  method: post\n  operationId: d1-import-database\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/d1/database/{database_id}/query\n  method: post\n  operationId: d1-query-database\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/d1/database/{database_id}/raw\n  method: post\n  operationId: d1-raw-database-query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/d1/database/{database_id}/time_travel/bookmark\n\
   \  method: get\n  operationId: d1-time-travel-get-bookmark\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/d1/database/{database_id}/time_travel/restore\n  method: post\n  operationId: d1-time-travel-restore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-d1/refs/heads/main/agentic-access/cloudflare-d1-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-d1/agentic-access/cloudflare-d1-agentic-access.yml
 summary_line: 12 operations · 8 acting
 tags:
 - Database

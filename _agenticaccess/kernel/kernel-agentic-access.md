@@ -9,169 +9,169 @@ api_specs:
   label: Kernel API Keys API
   slug: kernel-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-api-keys-api-openapi.yml
 - filename: kernel-apps-api-openapi.yml
   format: yaml
   label: Kernel Apps API
   slug: kernel-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-apps-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-apps-api-openapi.yml
 - filename: kernel-audit-logs-api-openapi.yml
   format: yaml
   label: Kernel Audit Logs API
   slug: kernel-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-audit-logs-api-openapi.yml
 - filename: kernel-browser-computer-controls-api-openapi.yml
   format: yaml
   label: Kernel Browser Computer Controls API
   slug: kernel-browser-computer-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-computer-controls-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-computer-controls-api-openapi.yml
 - filename: kernel-browser-filesystem-api-openapi.yml
   format: yaml
   label: Kernel Browser Filesystem API
   slug: kernel-browser-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-filesystem-api-openapi.yml
 - filename: kernel-browser-logs-api-openapi.yml
   format: yaml
   label: Kernel Browser Logs API
   slug: kernel-browser-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-logs-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-logs-api-openapi.yml
 - filename: kernel-browser-playwright-api-openapi.yml
   format: yaml
   label: Kernel Browser Playwright API
   slug: kernel-browser-playwright-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-playwright-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-playwright-api-openapi.yml
 - filename: kernel-browser-pools-api-openapi.yml
   format: yaml
   label: Kernel Browser Pools API
   slug: kernel-browser-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-pools-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-pools-api-openapi.yml
 - filename: kernel-browser-processes-api-openapi.yml
   format: yaml
   label: Kernel Browser Processes API
   slug: kernel-browser-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-processes-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-processes-api-openapi.yml
 - filename: kernel-browser-replays-api-openapi.yml
   format: yaml
   label: Kernel Browser Replays API
   slug: kernel-browser-replays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-replays-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-replays-api-openapi.yml
 - filename: kernel-browser-telemetry-api-openapi.yml
   format: yaml
   label: Kernel Browser Telemetry API
   slug: kernel-browser-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-telemetry-api-openapi.yml
 - filename: kernel-browsers-api-openapi.yml
   format: yaml
   label: Kernel Browsers API
   slug: kernel-browsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browsers-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browsers-api-openapi.yml
 - filename: kernel-credential-providers-api-openapi.yml
   format: yaml
   label: Kernel Credential Providers API
   slug: kernel-credential-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-credential-providers-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-credential-providers-api-openapi.yml
 - filename: kernel-credentials-api-openapi.yml
   format: yaml
   label: Kernel Credentials API
   slug: kernel-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-credentials-api-openapi.yml
 - filename: kernel-deployments-api-openapi.yml
   format: yaml
   label: Kernel Deployments API
   slug: kernel-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-deployments-api-openapi.yml
 - filename: kernel-extensions-api-openapi.yml
   format: yaml
   label: Kernel Extensions API
   slug: kernel-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-extensions-api-openapi.yml
 - filename: kernel-invocations-api-openapi.yml
   format: yaml
   label: Kernel Invocations API
   slug: kernel-invocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-invocations-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-invocations-api-openapi.yml
 - filename: kernel-managed-auth-api-openapi.yml
   format: yaml
   label: Kernel Managed Auth API
   slug: kernel-managed-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-managed-auth-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-managed-auth-api-openapi.yml
 - filename: kernel-organization-api-openapi.yml
   format: yaml
   label: Kernel Organization API
   slug: kernel-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-organization-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-organization-api-openapi.yml
 - filename: kernel-profiles-api-openapi.yml
   format: yaml
   label: Kernel Profiles API
   slug: kernel-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-profiles-api-openapi.yml
 - filename: kernel-projects-api-openapi.yml
   format: yaml
   label: Kernel Projects API
   slug: kernel-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-projects-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-projects-api-openapi.yml
 - filename: kernel-proxies-api-openapi.yml
   format: yaml
   label: Kernel Proxies API
   slug: kernel-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-proxies-api-openapi.yml
 - filename: kernel-authentication-api-openapi.yml
   format: yaml
   label: Kernel Authentication API
   slug: kernel-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-authentication-api-openapi.yml
 - filename: kernel-browser-repl-api-openapi.yml
   format: yaml
   label: Kernel Browser REPL API
   slug: kernel-browser-repl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-repl-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-repl-api-openapi.yml
 - filename: kernel-browser-webmcp-api-openapi.yml
   format: yaml
   label: Kernel Browser WebMCP API
   slug: kernel-browser-webmcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-webmcp-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-browser-webmcp-api-openapi.yml
 - filename: kernel-config-registry-api-openapi.yml
   format: yaml
   label: Kernel Config Registry API
   slug: kernel-config-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-config-registry-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-config-registry-api-openapi.yml
 - filename: kernel-search-api-openapi.yml
   format: yaml
   label: Kernel Search API
   slug: kernel-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-search-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-search-api-openapi.yml
 - filename: kernel-vaults-api-openapi.yml
   format: yaml
   label: Kernel Vaults API
   slug: kernel-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/kernel/openapi/kernel-vaults-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 55
@@ -320,8 +320,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kernel
   \      max-ttl: 3600\n    audit: none\n- path: /extensions/from_chrome_store\n  method: get\n  operationId: getExtensionsFromChromeStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invocations\n  method: post\n  operationId: postInvocations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invocations\n  method: get\n  operationId: getInvocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invocations/{id}\n  method: get\n  operationId: getInvocationsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invocations/{id}\n  method: patch\n  operationId: patchInvocationsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invocations/{id}/browsers\n  method: get\n  operationId: getInvocationsBrowsersById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invocations/{id}/browsers\n  method: delete\n  operationId: deleteInvocationsBrowsersById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /invocations/{id}/events\n  method: get\n  operationId: getInvocationsEventsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/connections\n  method: post\n  operationId: postAuthConnections\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/connections\n  method: get\n  operationId: getAuthConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/connections/{id}\n  method: get\n  operationId: getAuthConnectionsById\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/connections/{id}\n  method: patch\n  operationId: patchAuthConnectionsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/connections/{id}\n  method: delete\n  operationId: deleteAuthConnectionsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/agentic-access/kernel-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/agentic-access/kernel-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/connections/{id}\n  method: patch\n  operationId: patchAuthConnectionsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/connections/{id}\n  method: delete\n  operationId: deleteAuthConnectionsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/kernel/agentic-access/kernel-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/kernel/agentic-access/kernel-agentic-access.yml
 summary_line: 135 operations · 80 acting · 14 human-in-the-loop
 tags:
 - Company

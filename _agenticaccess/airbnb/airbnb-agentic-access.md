@@ -9,67 +9,67 @@ api_specs:
   label: Airbnb Webhooks API
   slug: webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/asyncapi/airbnb-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/airbnb/asyncapi/airbnb-webhooks-asyncapi.yml
 - filename: airbnb-bookings-api-openapi.yml
   format: yaml
   label: airbnb Bookings API
   slug: airbnb-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-bookings-api-openapi.yml
 - filename: airbnb-calendar-api-openapi.yml
   format: yaml
   label: airbnb Calendar API
   slug: airbnb-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-calendar-api-openapi.yml
 - filename: airbnb-experience-messages-api-openapi.yml
   format: yaml
   label: airbnb Experience Messages API
   slug: airbnb-experience-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-experience-messages-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-experience-messages-api-openapi.yml
 - filename: airbnb-experiences-api-openapi.yml
   format: yaml
   label: airbnb Experiences API
   slug: airbnb-experiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-experiences-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-experiences-api-openapi.yml
 - filename: airbnb-listings-api-openapi.yml
   format: yaml
   label: airbnb Listings API
   slug: airbnb-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-listings-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-listings-api-openapi.yml
 - filename: airbnb-messages-api-openapi.yml
   format: yaml
   label: airbnb Messages API
   slug: airbnb-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-messages-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-messages-api-openapi.yml
 - filename: airbnb-photos-api-openapi.yml
   format: yaml
   label: airbnb Photos API
   slug: airbnb-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-photos-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-photos-api-openapi.yml
 - filename: airbnb-reservations-api-openapi.yml
   format: yaml
   label: airbnb Reservations API
   slug: airbnb-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-reservations-api-openapi.yml
 - filename: airbnb-reviews-api-openapi.yml
   format: yaml
   label: airbnb Reviews API
   slug: airbnb-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-reviews-api-openapi.yml
 - filename: airbnb-schedules-api-openapi.yml
   format: yaml
   label: airbnb Schedules API
   slug: airbnb-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/airbnb/openapi/airbnb-schedules-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 15
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/airbnb
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reservations/{reservation_id}/deny\n  method: post\n  operationId: denyReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reservations/{reservation_id}/cancel\n  method: post\n  operationId: cancelReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reservations/{reservation_id}/messages\n\
   \  method: get\n  operationId: listReservationMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservations/{reservation_id}/messages\n  method: post\n  operationId: sendReservationMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reservations/{reservation_id}/reviews\n  method: get\n  operationId: listReservationReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/{listing_id}/reviews\n  method: get\n  operationId: listListingReviews\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/agentic-access/airbnb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airbnb/agentic-access/airbnb-agentic-access.yml
 summary_line: 34 operations · 19 acting
 tags:
 - Reservations

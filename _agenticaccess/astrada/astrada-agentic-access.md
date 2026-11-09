@@ -9,91 +9,91 @@ api_specs:
   label: Astrada Bank Accounts API
   slug: astrada-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-accounts-api-openapi.yml
 - filename: astrada-bank-links-api-openapi.yml
   format: yaml
   label: Astrada Bank Links API
   slug: astrada-bank-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-links-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-links-api-openapi.yml
 - filename: astrada-bank-subscriptions-api-openapi.yml
   format: yaml
   label: Astrada Bank Subscriptions API
   slug: astrada-bank-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-subscriptions-api-openapi.yml
 - filename: astrada-bank-transactions-api-openapi.yml
   format: yaml
   label: Astrada Bank Transactions API
   slug: astrada-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-transactions-api-openapi.yml
 - filename: astrada-bin-lookup-api-openapi.yml
   format: yaml
   label: Astrada Bin Lookup API
   slug: astrada-bin-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bin-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bin-lookup-api-openapi.yml
 - filename: astrada-card-api-openapi.yml
   format: yaml
   label: Astrada Card API
   slug: astrada-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-card-api-openapi.yml
 - filename: astrada-card-subscription-api-openapi.yml
   format: yaml
   label: Astrada Card Subscription API
   slug: astrada-card-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-card-subscription-api-openapi.yml
 - filename: astrada-card-verification-api-openapi.yml
   format: yaml
   label: Astrada Card Verification API
   slug: astrada-card-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-verification-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-card-verification-api-openapi.yml
 - filename: astrada-enrollment-methods-api-openapi.yml
   format: yaml
   label: Astrada Enrollment Methods API
   slug: astrada-enrollment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-enrollment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-enrollment-methods-api-openapi.yml
 - filename: astrada-network-bulk-feeds-api-openapi.yml
   format: yaml
   label: Astrada Network Bulk Feeds API
   slug: astrada-network-bulk-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-network-bulk-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-network-bulk-feeds-api-openapi.yml
 - filename: astrada-subaccounts-api-openapi.yml
   format: yaml
   label: Astrada Subaccounts API
   slug: astrada-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-subaccounts-api-openapi.yml
 - filename: astrada-transaction-matches-api-openapi.yml
   format: yaml
   label: Astrada Transaction Matches API
   slug: astrada-transaction-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transaction-matches-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-transaction-matches-api-openapi.yml
 - filename: astrada-transaction-messages-api-openapi.yml
   format: yaml
   label: Astrada Transaction Messages API
   slug: astrada-transaction-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transaction-messages-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-transaction-messages-api-openapi.yml
 - filename: astrada-transactions-api-openapi.yml
   format: yaml
   label: Astrada Transactions API
   slug: astrada-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-transactions-api-openapi.yml
 - filename: astrada-webhooks-api-openapi.yml
   format: yaml
   label: Astrada Webhooks API
   slug: astrada-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-webhooks-api-openapi.yml
 consequence_counts:
   read: 30
   write: 20
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/astrad
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transactionId}\n  method: get\n  operationId: GetTransactionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - transactions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: GetTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - transactions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhooks:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId:\
   \ listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhooks:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhooks:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhooks:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    scope:\n    - webhooks:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/agentic-access/astrada-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/astrada/agentic-access/astrada-agentic-access.yml
 summary_line: 50 operations · 20 acting
 tags:
 - Company

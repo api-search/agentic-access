@@ -9,19 +9,19 @@ api_specs:
   label: Depot BuildKitService API
   slug: depot-dev-buildkitservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-buildkitservice-api-openapi.yml
+  url: https://artifacts.apis.io/depot-dev/openapi/depot-dev-buildkitservice-api-openapi.yml
 - filename: depot-dev-buildservice-api-openapi.yml
   format: yaml
   label: Depot BuildService API
   slug: depot-dev-buildservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-buildservice-api-openapi.yml
+  url: https://artifacts.apis.io/depot-dev/openapi/depot-dev-buildservice-api-openapi.yml
 - filename: depot-dev-projectservice-api-openapi.yml
   format: yaml
   label: Depot ProjectService API
   slug: depot-dev-projectservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/openapi/depot-dev-projectservice-api-openapi.yml
+  url: https://artifacts.apis.io/depot-dev/openapi/depot-dev-projectservice-api-openapi.yml
 consequence_counts:
   read: 5
   safety-critical: 1
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/depot-
   \  method: post\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /depot.core.v1.ProjectService/DeleteProject\n  method: post\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /depot.core.v1.ProjectService/ResetProjectCache\n  method: post\n  operationId: resetProjectCache\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /depot.core.v1.ProjectService/ListProjectTokens\n  method: post\n  operationId: listProjectTokens\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /depot.core.v1.ProjectService/CreateProjectToken\n  method: post\n  operationId: createProjectToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /depot.core.v1.ProjectService/DeleteProjectToken\n  method: post\n  operationId: deleteProjectToken\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/agentic-access/depot-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/depot-dev/agentic-access/depot-dev-agentic-access.yml
 summary_line: 14 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Container Builds

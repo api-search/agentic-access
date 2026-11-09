@@ -8,13 +8,13 @@ api_specs:
   label: National Institutes of Health Projects API
   slug: national-institutes-of-health-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/openapi/national-institutes-of-health-projects-api-openapi.yml
+  url: https://artifacts.apis.io/national-institutes-of-health/openapi/national-institutes-of-health-projects-api-openapi.yml
 - filename: national-institutes-of-health-publications-api-openapi.yml
   format: yaml
   label: National Institutes of Health Publications API
   slug: national-institutes-of-health-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/openapi/national-institutes-of-health-publications-api-openapi.yml
+  url: https://artifacts.apis.io/national-institutes-of-health/openapi/national-institutes-of-health-publications-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/national-institutes-of-health-projects-api-openapi.yml, openapi/national-institutes-of-health-publications-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    connected: 2\n  by_consequence:\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/projects/search\n  method: post\n  operationId: searchProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/publications/search\n  method: post\n  operationId: searchPublications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/agentic-access/national-institutes-of-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/national-institutes-of-health/agentic-access/national-institutes-of-health-agentic-access.yml
 summary_line: 2 operations
 tags:
 - Federal Government

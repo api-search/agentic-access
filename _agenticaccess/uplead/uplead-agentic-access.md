@@ -9,49 +9,49 @@ api_specs:
   label: UpLead Account API
   slug: uplead-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-account-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-account-api-openapi.yml
 - filename: uplead-combined-api-openapi.yml
   format: yaml
   label: UpLead Combined API
   slug: uplead-combined-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-combined-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-combined-api-openapi.yml
 - filename: uplead-company-api-openapi.yml
   format: yaml
   label: UpLead Company API
   slug: uplead-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-company-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-company-api-openapi.yml
 - filename: uplead-lists-api-openapi.yml
   format: yaml
   label: UpLead Lists API
   slug: uplead-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-lists-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-lists-api-openapi.yml
 - filename: uplead-person-api-openapi.yml
   format: yaml
   label: UpLead Person API
   slug: uplead-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-person-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-person-api-openapi.yml
 - filename: uplead-prospector-api-openapi.yml
   format: yaml
   label: UpLead Prospector API
   slug: uplead-prospector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-prospector-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-prospector-api-openapi.yml
 - filename: uplead-reference-api-openapi.yml
   format: yaml
   label: UpLead Reference API
   slug: uplead-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-reference-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-reference-api-openapi.yml
 - filename: uplead-search-api-openapi.yml
   format: yaml
   label: UpLead Search API
   slug: uplead-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/openapi/uplead-search-api-openapi.yml
+  url: https://artifacts.apis.io/uplead/openapi/uplead-search-api-openapi.yml
 consequence_counts:
   read: 13
   write: 8
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/uplead
   \ get\n  operationId: getListContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/{list_id}/contacts/add\n  method: post\n  operationId: addContactsToList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{list_id}/contacts/delete\n  method: delete\n  operationId: deleteContactsFromList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /person-search\n  method: get\n  operationId: personSearchGet\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person-search\n  method: post\n  operationId: personSearchPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prospector-search\n  method: post\n  operationId: prospectorSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prospector-pro-search\n  method: post\n  operationId: prospectorProSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /industries\n  method: get\n  operationId:\
   \ searchIndustriesGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quick-search\n  method: post\n  operationId: quickSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/agentic-access/uplead-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uplead/agentic-access/uplead-agentic-access.yml
 summary_line: 21 operations · 8 acting
 tags:
 - B2B

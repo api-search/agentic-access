@@ -15,25 +15,25 @@ api_specs:
   label: Recraft Images API
   slug: recraft-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-images-api-openapi.yml
+  url: https://artifacts.apis.io/recraft/openapi/recraft-images-api-openapi.yml
 - filename: recraft-prompts-api-openapi.yml
   format: yaml
   label: Recraft Prompts API
   slug: recraft-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/recraft/openapi/recraft-prompts-api-openapi.yml
 - filename: recraft-styles-api-openapi.yml
   format: yaml
   label: Recraft Styles API
   slug: recraft-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-styles-api-openapi.yml
+  url: https://artifacts.apis.io/recraft/openapi/recraft-styles-api-openapi.yml
 - filename: recraft-users-api-openapi.yml
   format: yaml
   label: Recraft Users API
   slug: recraft-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-users-api-openapi.yml
+  url: https://artifacts.apis.io/recraft/openapi/recraft-users-api-openapi.yml
 consequence_counts:
   read: 1
   write: 18
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/recraf
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/crispUpscale\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/creativeUpscale\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/eraseRegion\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n    \
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/variateImage\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/explore\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/explore/similar\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/prompts/enhance\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/agentic-access/recraft-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/recraft/agentic-access/recraft-agentic-access.yml
 summary_line: 19 operations · 18 acting
 tags:
 - Artificial Intelligence

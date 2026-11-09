@@ -9,109 +9,109 @@ api_specs:
   label: Green Check Verified Authentication API
   slug: green-check-verified-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-authentication-api-openapi.yml
 - filename: green-check-verified-crb-api-openapi.yml
   format: yaml
   label: Green Check Verified CRB API
   slug: green-check-verified-crb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-crb-api-openapi.yml
 - filename: green-check-verified-crb-customers-api-openapi.yml
   format: yaml
   label: Green Check Verified CRB Customers API
   slug: green-check-verified-crb-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-customers-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-crb-customers-api-openapi.yml
 - filename: green-check-verified-crb-documents-api-openapi.yml
   format: yaml
   label: Green Check Verified CRB Documents API
   slug: green-check-verified-crb-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-documents-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-crb-documents-api-openapi.yml
 - filename: green-check-verified-crb-info-api-openapi.yml
   format: yaml
   label: Green Check Verified CRB Info API
   slug: green-check-verified-crb-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-info-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-crb-info-api-openapi.yml
 - filename: green-check-verified-crb-inventory-api-openapi.yml
   format: yaml
   label: Green Check Verified CRB Inventory API
   slug: green-check-verified-crb-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-crb-inventory-api-openapi.yml
 - filename: green-check-verified-crb-inventory-locations-api-openapi.yml
   format: yaml
   label: Green Check Verified CRB Inventory Locations API
   slug: green-check-verified-crb-inventory-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-inventory-locations-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-crb-inventory-locations-api-openapi.yml
 - filename: green-check-verified-crb-products-api-openapi.yml
   format: yaml
   label: Green Check Verified CRB Products API
   slug: green-check-verified-crb-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-products-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-crb-products-api-openapi.yml
 - filename: green-check-verified-crb-sales-api-openapi.yml
   format: yaml
   label: Green Check Verified CRB Sales API
   slug: green-check-verified-crb-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-sales-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-crb-sales-api-openapi.yml
 - filename: green-check-verified-crb-templates-api-openapi.yml
   format: yaml
   label: Green Check Verified CRB Templates API
   slug: green-check-verified-crb-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-crb-templates-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-crb-templates-api-openapi.yml
 - filename: green-check-verified-customers-api-openapi.yml
   format: yaml
   label: Green Check Verified Customers API
   slug: green-check-verified-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-customers-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-customers-api-openapi.yml
 - filename: green-check-verified-documents-api-openapi.yml
   format: yaml
   label: Green Check Verified Documents API
   slug: green-check-verified-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-documents-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-documents-api-openapi.yml
 - filename: green-check-verified-inventory-api-openapi.yml
   format: yaml
   label: Green Check Verified Inventory API
   slug: green-check-verified-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-inventory-api-openapi.yml
 - filename: green-check-verified-inventory-locations-api-openapi.yml
   format: yaml
   label: Green Check Verified Inventory Locations API
   slug: green-check-verified-inventory-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-inventory-locations-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-inventory-locations-api-openapi.yml
 - filename: green-check-verified-products-api-openapi.yml
   format: yaml
   label: Green Check Verified Products API
   slug: green-check-verified-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-products-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-products-api-openapi.yml
 - filename: green-check-verified-sales-api-openapi.yml
   format: yaml
   label: Green Check Verified Sales API
   slug: green-check-verified-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-sales-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-sales-api-openapi.yml
 - filename: green-check-verified-service-provider-api-openapi.yml
   format: yaml
   label: Green Check Verified Service Provider API
   slug: green-check-verified-service-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-service-provider-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-service-provider-api-openapi.yml
 - filename: green-check-verified-trace-api-openapi.yml
   format: yaml
   label: Green Check Verified Trace API
   slug: green-check-verified-trace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/openapi/green-check-verified-trace-api-openapi.yml
+  url: https://artifacts.apis.io/green-check-verified/openapi/green-check-verified-trace-api-openapi.yml
 consequence_counts:
   read: 37
   write: 12
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/green-
   \    - admin\n    - service-provider:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/{sp_id}/ein-search\n  method: get\n  operationId: get-crbs-by-ein\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - ein:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/{sp_id}/connect-crb\n  method: post\n  operationId: connect-crb-by-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - admin\n    - connect-crb-to-sp:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trace/*\n  method: options\n  operationId: ProxyOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - trace\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /trace/*\n  method: get\n  operationId: ProxyGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    - trace\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trace/*\n  method: patch\n  operationId: ProxyPatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - admin\n    - trace\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trace/*\n  method: post\n  operationId: ProxyPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - admin\n    - trace\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /trace/*\n  method: put\n  operationId: ProxyPut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - admin\n    - trace\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trace/*\n  method: delete\n  operationId: ProxyDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - admin\n    - trace\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/agentic-access/green-check-verified-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/green-check-verified/agentic-access/green-check-verified-agentic-access.yml
 summary_line: 49 operations · 12 acting
 tags:
 - Company

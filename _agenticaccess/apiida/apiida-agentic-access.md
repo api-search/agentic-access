@@ -9,37 +9,37 @@ api_specs:
   label: APIIDA Alarms API
   slug: apiida-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-alarms-api-openapi.yml
 - filename: apiida-deployments-api-openapi.yml
   format: yaml
   label: APIIDA Deployments API
   slug: apiida-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-deployments-api-openapi.yml
 - filename: apiida-gateways-api-openapi.yml
   format: yaml
   label: APIIDA Gateways API
   slug: apiida-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-gateways-api-openapi.yml
 - filename: apiida-monitoring-api-openapi.yml
   format: yaml
   label: APIIDA Monitoring API
   slug: apiida-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-monitoring-api-openapi.yml
 - filename: apiida-versions-api-openapi.yml
   format: yaml
   label: APIIDA Versions API
   slug: apiida-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-versions-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-versions-api-openapi.yml
 - filename: apiida-apis-api-openapi.yml
   format: yaml
   label: APIIDA APIS API
   slug: apiida-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apiida/openapi/apiida-apis-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apiida
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/{gatewayId}\n  method: delete\n  operationId: removeGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/{gatewayId}/apis\n  method: get\n  operationId: listGatewayApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments\n  method: get\n  operationId: listDeployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments\n  method: post\n  operationId: createDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/{deploymentId}\n  method: get\n  operationId: getDeployment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gatewayId}/metrics\n  method: get\n  operationId: getGatewayMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alarms\n  method: get\n  operationId: listAlarms\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alarms\n  method: post\n  operationId: createAlarm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/agentic-access/apiida-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apiida/agentic-access/apiida-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - API Gateway

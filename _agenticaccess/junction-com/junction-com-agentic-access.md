@@ -9,127 +9,127 @@ api_specs:
   label: Junction Aggregate API
   slug: junction-com-aggregate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-aggregate-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-aggregate-api-openapi.yml
 - filename: junction-com-compendium-api-openapi.yml
   format: yaml
   label: Junction Compendium API
   slug: junction-com-compendium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-compendium-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-compendium-api-openapi.yml
 - filename: junction-com-insurance-api-openapi.yml
   format: yaml
   label: Junction Insurance API
   slug: junction-com-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-insurance-api-openapi.yml
 - filename: junction-com-introspect-api-openapi.yml
   format: yaml
   label: Junction Introspect API
   slug: junction-com-introspect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-introspect-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-introspect-api-openapi.yml
 - filename: junction-com-lab-account-api-openapi.yml
   format: yaml
   label: Junction Lab Account API
   slug: junction-com-lab-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-lab-account-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-lab-account-api-openapi.yml
 - filename: junction-com-lab-report-api-openapi.yml
   format: yaml
   label: Junction Lab Report API
   slug: junction-com-lab-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-lab-report-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-lab-report-api-openapi.yml
 - filename: junction-com-lab-tests-api-openapi.yml
   format: yaml
   label: Junction Lab Tests API
   slug: junction-com-lab-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-lab-tests-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-lab-tests-api-openapi.yml
 - filename: junction-com-link-api-openapi.yml
   format: yaml
   label: Junction Link API
   slug: junction-com-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-link-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-link-api-openapi.yml
 - filename: junction-com-order-api-openapi.yml
   format: yaml
   label: Junction Order API
   slug: junction-com-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-order-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-order-api-openapi.yml
 - filename: junction-com-order-transaction-api-openapi.yml
   format: yaml
   label: Junction Order Transaction API
   slug: junction-com-order-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-order-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-order-transaction-api-openapi.yml
 - filename: junction-com-orders-api-openapi.yml
   format: yaml
   label: Junction Orders API
   slug: junction-com-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-orders-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-orders-api-openapi.yml
 - filename: junction-com-payor-api-openapi.yml
   format: yaml
   label: Junction Payor API
   slug: junction-com-payor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-payor-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-payor-api-openapi.yml
 - filename: junction-com-providers-api-openapi.yml
   format: yaml
   label: Junction Providers API
   slug: junction-com-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-providers-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-providers-api-openapi.yml
 - filename: junction-com-summary-api-openapi.yml
   format: yaml
   label: Junction Summary API
   slug: junction-com-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-summary-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-summary-api-openapi.yml
 - filename: junction-com-team-api-openapi.yml
   format: yaml
   label: Junction Team API
   slug: junction-com-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-team-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-team-api-openapi.yml
 - filename: junction-com-user-api-openapi.yml
   format: yaml
   label: Junction User API
   slug: junction-com-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-user-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-user-api-openapi.yml
 - filename: junction-com-aggregation-api-openapi.yml
   format: yaml
   label: Junction Aggregation API
   slug: junction-com-aggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-aggregation-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-aggregation-api-openapi.yml
 - filename: junction-com-lab-testing-api-openapi.yml
   format: yaml
   label: Junction Lab Testing API
   slug: junction-com-lab-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-lab-testing-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-lab-testing-api-openapi.yml
 - filename: junction-com-checkout-api-openapi.yml
   format: yaml
   label: Junction Checkout API
   slug: junction-com-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-checkout-api-openapi.yml
 - filename: junction-com-unmatched-api-openapi.yml
   format: yaml
   label: Junction Unmatched API
   slug: junction-com-unmatched-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-unmatched-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-unmatched-api-openapi.yml
 - filename: junction-com-time-series-api-openapi.yml
   format: yaml
   label: Junction Time Series API
   slug: junction-com-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/openapi/junction-com-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/junction-com/openapi/junction-com-time-series-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 152
@@ -274,8 +274,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/juncti
   \  operationId: get_user_workouts_raw_v2_summary_workouts__user_id__raw_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/summary/sleep/{user_id}\n  method: get\n  operationId: get_user_sleep_v2_summary_sleep__user_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/summary/sleep/{user_id}/raw\n  method: get\n  operationId: get_user_sleep_raw_v2_summary_sleep__user_id__raw_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/summary/body/{user_id}\n  method: get\n  operationId: get_user_body_v2_summary_body__user_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v2/summary/body/{user_id}/raw\n  method: get\n  operationId: get_user_body_raw_v2_summary_body__user_id__raw_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/summary/meal/{user_id}\n  method: get\n  operationId: get_meals_v2_summary_meal__user_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/summary/menstrual_cycle/{user_id}\n  method: get\n  operationId: get_user_menstrual_cycles_v2_summary_menstrual_cycle__user_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/team/{team_id}\n  method: get\n  operationId: get_team_v2_team__team_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/team/users/search\n  method: get\n  operationId: search_team_users_by_uuid_or_client_user_id_v2_team_users_search_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/team/svix/url\n  method: get\n  operationId: get_svix_webhook_url_v2_team_svix_url_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/team/source/priorities\n  method: get\n  operationId: get_source_priorities_v2_team_source_priorities_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/team/source/priorities\n  method: patch\n  operationId: update_source_priorities_v2_team_source_priorities_patch\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/team/{team_id}/physicians\n  method: get\n  operationId: get_team_physicians_v2_team__team_id__physicians_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (56 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/agentic-access/junction-com-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/junction-com/refs/heads/main/agentic-access/junction-com-agentic-access.yml
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/team/{team_id}/physicians\n  method: get\n  operationId: get_team_physicians_v2_team__team_id__physicians_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (56 KB total) ---\n# Full source: https://artifacts.apis.io/junction-com/agentic-access/junction-com-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/junction-com/agentic-access/junction-com-agentic-access.yml
 summary_line: 197 operations · 45 acting
 tags:
 - Health Data

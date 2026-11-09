@@ -9,49 +9,49 @@ api_specs:
   label: Verdaccio Dist Tags API
   slug: verdaccio-dist-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-dist-tags-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-dist-tags-api-openapi.yml
 - filename: verdaccio-packages-api-openapi.yml
   format: yaml
   label: Verdaccio Packages API
   slug: verdaccio-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-packages-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-packages-api-openapi.yml
 - filename: verdaccio-profile-api-openapi.yml
   format: yaml
   label: Verdaccio Profile API
   slug: verdaccio-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-profile-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-profile-api-openapi.yml
 - filename: verdaccio-publish-api-openapi.yml
   format: yaml
   label: Verdaccio Publish API
   slug: verdaccio-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-publish-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-publish-api-openapi.yml
 - filename: verdaccio-search-api-openapi.yml
   format: yaml
   label: Verdaccio Search API
   slug: verdaccio-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-search-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-search-api-openapi.yml
 - filename: verdaccio-tokens-api-openapi.yml
   format: yaml
   label: Verdaccio Tokens API
   slug: verdaccio-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-tokens-api-openapi.yml
 - filename: verdaccio-user-api-openapi.yml
   format: yaml
   label: Verdaccio User API
   slug: verdaccio-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-user-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-user-api-openapi.yml
 - filename: verdaccio-utility-api-openapi.yml
   format: yaml
   label: Verdaccio Utility API
   slug: verdaccio-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/openapi/verdaccio-utility-api-openapi.yml
+  url: https://artifacts.apis.io/verdaccio/openapi/verdaccio-utility-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/verdac
   \    audit: none\n- path: /-/package/{package}/dist-tags\n  method: get\n  operationId: getDistTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/package/{package}/dist-tags/{tag}\n  method: put\n  operationId: setDistTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /-/package/{package}/dist-tags/{tag}\n  method: delete\n  operationId: deleteDistTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{package}/{tag}\n\
   \  method: put\n  operationId: setDistTagShort\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /-/v1/login\n  method: post\n  operationId: initiateLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /-/v1/login_cli/{sessionId}\n  method: get\n  operationId: pollLoginSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/v1/done\n  method: get\n  operationId: completeLogin\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/v1/done/{sessionId}\n  method: get\n  operationId: completeLoginSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/agentic-access/verdaccio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/verdaccio/agentic-access/verdaccio-agentic-access.yml
 summary_line: 24 operations · 11 acting · 1 human-in-the-loop
 tags:
 - npm

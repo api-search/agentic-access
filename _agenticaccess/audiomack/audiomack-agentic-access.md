@@ -9,49 +9,49 @@ api_specs:
   label: Audiomack Artist API
   slug: audiomack-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-artist-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-artist-api-openapi.yml
 - filename: audiomack-chart-api-openapi.yml
   format: yaml
   label: Audiomack Chart API
   slug: audiomack-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-chart-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-chart-api-openapi.yml
 - filename: audiomack-music-api-openapi.yml
   format: yaml
   label: Audiomack Music API
   slug: audiomack-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-music-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-music-api-openapi.yml
 - filename: audiomack-playlist-api-openapi.yml
   format: yaml
   label: Audiomack Playlist API
   slug: audiomack-playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-playlist-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-playlist-api-openapi.yml
 - filename: audiomack-search-api-openapi.yml
   format: yaml
   label: Audiomack Search API
   slug: audiomack-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-search-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-search-api-openapi.yml
 - filename: audiomack-stats-api-openapi.yml
   format: yaml
   label: Audiomack Stats API
   slug: audiomack-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-stats-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-stats-api-openapi.yml
 - filename: audiomack-user-api-openapi.yml
   format: yaml
   label: Audiomack User API
   slug: audiomack-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-user-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-user-api-openapi.yml
 - filename: audiomack-oauth-api-openapi.yml
   format: yaml
   label: Audiomack O Auth API
   slug: audiomack-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/openapi/audiomack-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/audiomack/openapi/audiomack-oauth-api-openapi.yml
 consequence_counts:
   read: 34
   write: 24
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/audiom
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /music/stats/{music_id}\n  method: post\n  operationId: postStatsEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/register\n  method: post\n  operationId: registerUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /user/forgot-password\n  method: post\n  operationId: forgotPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/playlists\n  method: get\n  operationId: getUserPlaylists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/favorites\n  method: get\n  operationId: getUserFavorites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/feed\n  method: get\n  operationId: getUserFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /user/uploads\n  method: get\n  operationId: getUserUploads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/native-notifications\n  method: get\n  operationId: getUserNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/native-notifications/seen\n  method: post\n  operationId: markNotificationsSeen\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/agentic-access/audiomack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/audiomack/agentic-access/audiomack-agentic-access.yml
 summary_line: 58 operations · 24 acting
 tags:
 - Music

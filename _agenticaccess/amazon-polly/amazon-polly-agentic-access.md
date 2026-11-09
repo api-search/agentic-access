@@ -9,25 +9,31 @@ api_specs:
   label: Amazon Polly Lexicons API
   slug: amazon-polly-lexicons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-lexicons-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-lexicons-api-openapi.yml
 - filename: amazon-polly-speech-api-openapi.yml
   format: yaml
   label: Amazon Polly Speech API
   slug: amazon-polly-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-speech-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-speech-api-openapi.yml
 - filename: amazon-polly-voices-api-openapi.yml
   format: yaml
   label: Amazon Polly Voices API
   slug: amazon-polly-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-voices-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-voices-api-openapi.yml
 - filename: amazon-polly-synthesis-tasks-api-openapi.yml
   format: yaml
   label: Amazon Polly Synthesis Tasks API
   slug: amazon-polly-synthesis-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-synthesis-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-synthesis-tasks-api-openapi.yml
+- filename: amazon-polly-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Polly Polly Operations API
+  slug: amazon-polly-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-operations-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -58,10 +64,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  operationId: ListLexicons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/synthesisTasks\n  method: get\n  operationId: ListSpeechSynthesisTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/synthesisTasks\n  method: post\n  operationId: StartSpeechSynthesisTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/speech\n  method: post\n  operationId: SynthesizeSpeech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/speech\n  method: post\n  operationId: SynthesizeSpeech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/voices\n  method: get\n  operationId: DescribeVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lexicons/{LexiconName}\n  method: put\n  operationId: PutLexicon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/lexicons/{LexiconName}\n  method: get\n  operationId: GetLexicon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lexicons/{LexiconName}\n  method: delete\n  operationId: DeleteLexicon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lexicons\n  method: get\n  operationId: ListLexicons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/agentic-access/amazon-polly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-polly/agentic-access/amazon-polly-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Artificial Intelligence
+- Amazon Web Services
 - Machine Learning
 - Speech Synthesis
 - Text-to-Speech

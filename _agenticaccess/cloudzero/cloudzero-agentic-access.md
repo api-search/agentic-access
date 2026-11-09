@@ -9,37 +9,37 @@ api_specs:
   label: CloudZero Allocation Telemetry API
   slug: cloudzero-allocation-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-allocation-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-allocation-telemetry-api-openapi.yml
 - filename: cloudzero-anycost-api-openapi.yml
   format: yaml
   label: CloudZero AnyCost API
   slug: cloudzero-anycost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-anycost-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-anycost-api-openapi.yml
 - filename: cloudzero-billing-api-openapi.yml
   format: yaml
   label: CloudZero Billing API
   slug: cloudzero-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-billing-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-billing-api-openapi.yml
 - filename: cloudzero-budgets-api-openapi.yml
   format: yaml
   label: CloudZero Budgets API
   slug: cloudzero-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-budgets-api-openapi.yml
 - filename: cloudzero-insights-api-openapi.yml
   format: yaml
   label: CloudZero Insights API
   slug: cloudzero-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-insights-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-insights-api-openapi.yml
 - filename: cloudzero-unit-metric-telemetry-api-openapi.yml
   format: yaml
   label: CloudZero Unit Metric Telemetry API
   slug: cloudzero-unit-metric-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-unit-metric-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-unit-metric-telemetry-api-openapi.yml
 consequence_counts:
   read: 6
   write: 13
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cloudz
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/insights\n  method: get\n  operationId: getInsights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/insights\n  method: post\n  operationId: createInsight\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/insights/{insight_id}\n  method: get\n  operationId: getOneInsight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/insights/{insight_id}\n  method: put\n  operationId: updateOneInsight\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/insights/{insight_id}\n  method: delete\n  operationId: deleteOneInsight\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/telemetry/{stream_name}/records\n  method: post\n  operationId: postMetricTelemetry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/telemetry/{stream_name}/records\n  method: delete\n  operationId: deleteMetricTelemetry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/telemetry/{stream_name}\n  method: delete\n  operationId: deleteMetricTelemetryStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/agentic-access/cloudzero-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudzero/agentic-access/cloudzero-agentic-access.yml
 summary_line: 19 operations · 13 acting
 tags:
 - Budgets

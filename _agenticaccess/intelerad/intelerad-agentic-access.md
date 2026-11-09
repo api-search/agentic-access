@@ -9,55 +9,55 @@ api_specs:
   label: Intelerad HL7 API
   slug: intelerad-hl7-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-hl7-api-openapi.yml
+  url: https://artifacts.apis.io/intelerad/openapi/intelerad-hl7-api-openapi.yml
 - filename: intelerad-namespace-api-openapi.yml
   format: yaml
   label: Intelerad Namespace API
   slug: intelerad-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/intelerad/openapi/intelerad-namespace-api-openapi.yml
 - filename: intelerad-order-api-openapi.yml
   format: yaml
   label: Intelerad Order API
   slug: intelerad-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-order-api-openapi.yml
+  url: https://artifacts.apis.io/intelerad/openapi/intelerad-order-api-openapi.yml
 - filename: intelerad-patient-api-openapi.yml
   format: yaml
   label: Intelerad Patient API
   slug: intelerad-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-patient-api-openapi.yml
+  url: https://artifacts.apis.io/intelerad/openapi/intelerad-patient-api-openapi.yml
 - filename: intelerad-report-api-openapi.yml
   format: yaml
   label: Intelerad Report API
   slug: intelerad-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-report-api-openapi.yml
+  url: https://artifacts.apis.io/intelerad/openapi/intelerad-report-api-openapi.yml
 - filename: intelerad-session-api-openapi.yml
   format: yaml
   label: Intelerad Session API
   slug: intelerad-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-session-api-openapi.yml
+  url: https://artifacts.apis.io/intelerad/openapi/intelerad-session-api-openapi.yml
 - filename: intelerad-storage-api-openapi.yml
   format: yaml
   label: Intelerad Storage API
   slug: intelerad-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-storage-api-openapi.yml
+  url: https://artifacts.apis.io/intelerad/openapi/intelerad-storage-api-openapi.yml
 - filename: intelerad-study-api-openapi.yml
   format: yaml
   label: Intelerad Study API
   slug: intelerad-study-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-study-api-openapi.yml
+  url: https://artifacts.apis.io/intelerad/openapi/intelerad-study-api-openapi.yml
 - filename: intelerad-webhook-api-openapi.yml
   format: yaml
   label: Intelerad Webhook API
   slug: intelerad-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/openapi/intelerad-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/intelerad/openapi/intelerad-webhook-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/intele
   \ /session/login\n  method: post\n  operationId: postSessionLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/logout\n  method: post\n  operationId: postSessionLogout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/study/{namespace}/{studyUid}\n  method: get\n  operationId: getStorageStudyByNamespaceByStudyUid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /study/list\n  method: post\n  operationId:\
   \ postStudyList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /study/get\n  method: post\n  operationId: postStudyGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /study/share\n  method: post\n  operationId: postStudyShare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /study/delete\n  method: post\n  operationId: postStudyDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/add\n  method: post\n  operationId: postWebhookAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/agentic-access/intelerad-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/intelerad/agentic-access/intelerad-agentic-access.yml
 summary_line: 15 operations · 10 acting
 tags:
 - Medical Imaging

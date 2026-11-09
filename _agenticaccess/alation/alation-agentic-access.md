@@ -9,73 +9,73 @@ api_specs:
   label: Alation Aggregated Context API
   slug: alation-aggregated-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-aggregated-context-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-aggregated-context-api-openapi.yml
 - filename: alation-columns-api-openapi.yml
   format: yaml
   label: Alation Columns API
   slug: alation-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-columns-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-columns-api-openapi.yml
 - filename: alation-custom-fields-api-openapi.yml
   format: yaml
   label: Alation Custom Fields API
   slug: alation-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-custom-fields-api-openapi.yml
 - filename: alation-data-quality-api-openapi.yml
   format: yaml
   label: Alation Data Quality API
   slug: alation-data-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-data-quality-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-data-quality-api-openapi.yml
 - filename: alation-data-sources-api-openapi.yml
   format: yaml
   label: Alation Data Sources API
   slug: alation-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-data-sources-api-openapi.yml
 - filename: alation-dataflows-api-openapi.yml
   format: yaml
   label: Alation Dataflows API
   slug: alation-dataflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-dataflows-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-dataflows-api-openapi.yml
 - filename: alation-glossary-terms-api-openapi.yml
   format: yaml
   label: Alation Glossary Terms API
   slug: alation-glossary-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-glossary-terms-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-glossary-terms-api-openapi.yml
 - filename: alation-lineage-api-openapi.yml
   format: yaml
   label: Alation Lineage API
   slug: alation-lineage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-lineage-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-lineage-api-openapi.yml
 - filename: alation-policies-api-openapi.yml
   format: yaml
   label: Alation Policies API
   slug: alation-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-policies-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-policies-api-openapi.yml
 - filename: alation-schemas-api-openapi.yml
   format: yaml
   label: Alation Schemas API
   slug: alation-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-schemas-api-openapi.yml
 - filename: alation-search-api-openapi.yml
   format: yaml
   label: Alation Search API
   slug: alation-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-search-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-search-api-openapi.yml
 - filename: alation-tables-api-openapi.yml
   format: yaml
   label: Alation Tables API
   slug: alation-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-tables-api-openapi.yml
+  url: https://artifacts.apis.io/alation/openapi/alation-tables-api-openapi.yml
 consequence_counts:
   read: 21
   write: 9
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/alatio
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lineage/\n  method: get\n  operationId: getLineage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy/\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy/\n  method: post\n  operationId: createPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /policy/{id}/\n  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema/\n  method: get\n  operationId: listSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema/{id}/\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/\n  method: get\n  operationId: searchCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /article/\n  method: get\n  operationId: listArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /article/{id}/\n  method: get\n  operationId: getArticle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /table/\n  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /table/{id}/\n  method: get\n  operationId: getTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/agentic-access/alation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alation/agentic-access/alation-agentic-access.yml
 summary_line: 30 operations · 9 acting
 tags:
 - Data Catalog

@@ -9,49 +9,49 @@ api_specs:
   label: Plausible CustomProps API
   slug: plausible-customprops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-customprops-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-customprops-api-openapi.yml
 - filename: plausible-events-api-openapi.yml
   format: yaml
   label: Plausible Events API
   slug: plausible-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-events-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-events-api-openapi.yml
 - filename: plausible-goals-api-openapi.yml
   format: yaml
   label: Plausible Goals API
   slug: plausible-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-goals-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-goals-api-openapi.yml
 - filename: plausible-guests-api-openapi.yml
   format: yaml
   label: Plausible Guests API
   slug: plausible-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-guests-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-guests-api-openapi.yml
 - filename: plausible-query-api-openapi.yml
   format: yaml
   label: Plausible Query API
   slug: plausible-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-query-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-query-api-openapi.yml
 - filename: plausible-sites-api-openapi.yml
   format: yaml
   label: Plausible Sites API
   slug: plausible-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-sites-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-sites-api-openapi.yml
 - filename: plausible-teams-api-openapi.yml
   format: yaml
   label: Plausible Teams API
   slug: plausible-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-teams-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-teams-api-openapi.yml
 - filename: plausible-shared-links-api-openapi.yml
   format: yaml
   label: Plausible Shared Links API
   slug: plausible-shared-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-shared-links-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-shared-links-api-openapi.yml
 consequence_counts:
   read: 6
   write: 12
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/plausi
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sites/custom-props/{property}\n  method: delete\n  operationId: deleteCustomProp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sites/shared-links\n  method: put\n  operationId: upsertSharedLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sites/guests\n  method: get\n  operationId: listGuests\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sites/guests\n  method: put\n  operationId: upsertGuest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sites/guests/{email}\n  method: delete\n  operationId: deleteGuest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/query\n  method: post\n  operationId: runQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/agentic-access/plausible-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/plausible/agentic-access/plausible-agentic-access.yml
 summary_line: 18 operations · 12 acting
 tags:
 - Analytics

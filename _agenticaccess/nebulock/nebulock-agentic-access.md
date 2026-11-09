@@ -9,25 +9,25 @@ api_specs:
   label: Nebulock Entities API
   slug: nebulock-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-entities-api-openapi.yml
+  url: https://artifacts.apis.io/nebulock/openapi/nebulock-entities-api-openapi.yml
 - filename: nebulock-findings-api-openapi.yml
   format: yaml
   label: Nebulock Findings API
   slug: nebulock-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-findings-api-openapi.yml
+  url: https://artifacts.apis.io/nebulock/openapi/nebulock-findings-api-openapi.yml
 - filename: nebulock-hunts-api-openapi.yml
   format: yaml
   label: Nebulock Hunts API
   slug: nebulock-hunts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-hunts-api-openapi.yml
+  url: https://artifacts.apis.io/nebulock/openapi/nebulock-hunts-api-openapi.yml
 - filename: nebulock-rules-api-openapi.yml
   format: yaml
   label: Nebulock Rules API
   slug: nebulock-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-rules-api-openapi.yml
+  url: https://artifacts.apis.io/nebulock/openapi/nebulock-rules-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 1
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nebulo
   \  method: get\n  operationId: get_rule_public_api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/rules/{rule_id}\n  method: delete\n  operationId: delete_rule_public_api\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/rules/{rule_id}\n  method: patch\n  operationId: update_rule_public_api\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/rules/{rule_id}/test_sql_rule\n  method: post\n\
   \  operationId: test_sql_rule_public_api\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/rules/{rule_id}/runs\n  method: post\n  operationId: run_rule_scheduled_sase_public_api\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/rules/{rule_id}/runs\n  method: get\n  operationId: get_rule_runs_scheduled_sase_public_api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/rules/{rule_id}/runs/{rule_run_id}\n\
   \  method: get\n  operationId: get_rule_run_results_scheduled_sase_public_api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/agentic-access/nebulock-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nebulock/agentic-access/nebulock-agentic-access.yml
 summary_line: 55 operations · 33 acting · 1 human-in-the-loop
 tags:
 - Company

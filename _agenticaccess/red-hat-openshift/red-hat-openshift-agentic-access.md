@@ -9,67 +9,67 @@ api_specs:
   label: Red Hat OpenShift Add-ons API
   slug: red-hat-openshift-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-add-ons-api-openapi.yml
 - filename: red-hat-openshift-builds-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Builds API
   slug: red-hat-openshift-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-builds-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-builds-api-openapi.yml
 - filename: red-hat-openshift-clusters-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Clusters API
   slug: red-hat-openshift-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-clusters-api-openapi.yml
 - filename: red-hat-openshift-deployment-configs-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Deployment Configs API
   slug: red-hat-openshift-deployment-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-deployment-configs-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-deployment-configs-api-openapi.yml
 - filename: red-hat-openshift-identity-providers-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Identity Providers API
   slug: red-hat-openshift-identity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-identity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-identity-providers-api-openapi.yml
 - filename: red-hat-openshift-image-streams-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Image Streams API
   slug: red-hat-openshift-image-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-image-streams-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-image-streams-api-openapi.yml
 - filename: red-hat-openshift-machine-pools-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Machine Pools API
   slug: red-hat-openshift-machine-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-machine-pools-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-machine-pools-api-openapi.yml
 - filename: red-hat-openshift-projects-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Projects API
   slug: red-hat-openshift-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-projects-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-projects-api-openapi.yml
 - filename: red-hat-openshift-routes-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Routes API
   slug: red-hat-openshift-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-routes-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-routes-api-openapi.yml
 - filename: red-hat-openshift-security-context-constraints-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Security Context Constraints API
   slug: red-hat-openshift-security-context-constraints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-security-context-constraints-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-security-context-constraints-api-openapi.yml
 - filename: red-hat-openshift-versions-api-openapi.yml
   format: yaml
   label: Red Hat OpenShift Versions API
   slug: red-hat-openshift-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/red-hat-openshift-versions-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-openshift/openapi/red-hat-openshift-versions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 15
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/red-ha
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/clusters_mgmt/v1/clusters/{cluster_id}/addons\n  method: get\n  operationId: listClusterAddons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/clusters_mgmt/v1/clusters/{cluster_id}/addons\n  method: post\n  operationId: installClusterAddon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/clusters_mgmt/v1/clusters/{cluster_id}/identity_providers\n  method: get\n  operationId: listIdentityProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/clusters_mgmt/v1/clusters/{cluster_id}/identity_providers\n  method: post\n  operationId: createIdentityProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/clusters_mgmt/v1/clusters/{cluster_id}/machine_pools\n  method: get\n  operationId: listMachinePools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/clusters_mgmt/v1/clusters/{cluster_id}/machine_pools\n  method: post\n  operationId: createMachinePool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /api/clusters_mgmt/v1/versions\n  method: get\n  operationId: listVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/agentic-access/red-hat-openshift-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/red-hat-openshift/agentic-access/red-hat-openshift-agentic-access.yml
 summary_line: 30 operations · 15 acting
 tags:
 - Containers

@@ -9,31 +9,31 @@ api_specs:
   label: JarvisLabs Account API
   slug: jarvislabs-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-account-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-account-api-openapi.yml
 - filename: jarvislabs-filesystems-api-openapi.yml
   format: yaml
   label: JarvisLabs Filesystems API
   slug: jarvislabs-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-filesystems-api-openapi.yml
 - filename: jarvislabs-gpu-types-api-openapi.yml
   format: yaml
   label: JarvisLabs GPU Types API
   slug: jarvislabs-gpu-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-gpu-types-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-gpu-types-api-openapi.yml
 - filename: jarvislabs-instances-api-openapi.yml
   format: yaml
   label: JarvisLabs Instances API
   slug: jarvislabs-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-instances-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-instances-api-openapi.yml
 - filename: jarvislabs-templates-api-openapi.yml
   format: yaml
   label: JarvisLabs Templates API
   slug: jarvislabs-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-templates-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-templates-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jarvis
   \ audit: required\n- path: /instances/{machine_id}/pause\n  method: post\n  operationId: pauseInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{machine_id}/resume\n  method: post\n  operationId: resumeInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gpus\n  method: get\n  operationId: listGpuTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: get\n  operationId:\
   \ listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /filesystems\n  method: get\n  operationId: listFilesystems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /filesystems\n  method: post\n  operationId: createFilesystem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /filesystems/{fs_id}\n  method: delete\n  operationId: deleteFilesystem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/agentic-access/jarvislabs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jarvislabs/agentic-access/jarvislabs-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Artificial Intelligence

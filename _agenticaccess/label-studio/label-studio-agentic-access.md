@@ -9,445 +9,445 @@ api_specs:
   label: Label Studio Subpackage Actions API
   slug: label-studio-subpackage-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-actions-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-actions-api-openapi.yml
 - filename: label-studio-subpackage-activitylogs-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Activity Logs API
   slug: label-studio-subpackage-activitylogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-activitylogs-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-activitylogs-api-openapi.yml
 - filename: label-studio-subpackage-annotationhistory-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Annotation History API
   slug: label-studio-subpackage-annotationhistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-annotationhistory-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-annotationhistory-api-openapi.yml
 - filename: label-studio-subpackage-annotationreviews-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Annotation Reviews API
   slug: label-studio-subpackage-annotationreviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-annotationreviews-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-annotationreviews-api-openapi.yml
 - filename: label-studio-subpackage-annotations-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Annotations API
   slug: label-studio-subpackage-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-annotations-api-openapi.yml
 - filename: label-studio-subpackage-billing-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Billing API
   slug: label-studio-subpackage-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-billing-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-billing-api-openapi.yml
 - filename: label-studio-subpackage-comments-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Comments API
   slug: label-studio-subpackage-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-comments-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-comments-api-openapi.yml
 - filename: label-studio-subpackage-dimensions-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Dimensions API
   slug: label-studio-subpackage-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-dimensions-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage API
   slug: label-studio-subpackage-exportstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-azure-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/azure API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-azure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-azure-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-azure-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-azurespi-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/azure Spi API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-azurespi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-azurespi-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-azurespi-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-databricks-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/databricks API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-databricks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-databricks-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-databricks-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-gcs-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/gcs API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-gcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-gcs-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-gcs-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-gcssa-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/gcs Sa API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-gcssa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-gcssa-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-gcssa-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-gcswif-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/gcswif API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-gcswif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-gcswif-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-gcswif-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-local-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/local API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-local-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-local-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-local-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-redis-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/redis API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-redis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-redis-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-redis-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-s3-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/s3 API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-s3-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-s3-api-openapi.yml
 - filename: label-studio-subpackage-exportstorage-subpackage-exportstorage-s3s-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Export Storage.subpackage Export Storage/s3 S API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-s3s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-s3s-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-exportstorage-subpackage-exportstorage-s3s-api-openapi.yml
 - filename: label-studio-subpackage-files-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Files API
   slug: label-studio-subpackage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-files-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-files-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage API
   slug: label-studio-subpackage-importstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-azure-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/azure API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-azure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-azure-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-azure-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-azurespi-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/azure Spi API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-azurespi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-azurespi-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-azurespi-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-databricks-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/databricks API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-databricks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-databricks-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-databricks-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-gcs-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/gcs API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-gcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-gcs-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-gcs-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-gcssa-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/gcs Sa API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-gcssa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-gcssa-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-gcssa-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-gcswif-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/gcswif API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-gcswif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-gcswif-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-gcswif-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-local-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/local API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-local-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-local-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-local-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-redis-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/redis API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-redis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-redis-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-redis-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-s3-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/s3 API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-s3-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-s3-api-openapi.yml
 - filename: label-studio-subpackage-importstorage-subpackage-importstorage-s3s-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Import Storage.subpackage Import Storage/s3 S API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-s3s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-s3s-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-importstorage-subpackage-importstorage-s3s-api-openapi.yml
 - filename: label-studio-subpackage-jwtsettings-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage JWT Settings API
   slug: label-studio-subpackage-jwtsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-jwtsettings-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-jwtsettings-api-openapi.yml
 - filename: label-studio-subpackage-ml-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Ml API
   slug: label-studio-subpackage-ml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-ml-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-ml-api-openapi.yml
 - filename: label-studio-subpackage-modelproviders-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Model Providers API
   slug: label-studio-subpackage-modelproviders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-modelproviders-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-modelproviders-api-openapi.yml
 - filename: label-studio-subpackage-organizations-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Organizations API
   slug: label-studio-subpackage-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-organizations-api-openapi.yml
 - filename: label-studio-subpackage-organizations-subpackage-organizations-invites-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Organizations.subpackage Organizations/invites API
   slug: label-studio-subpackage-organizations-subpackage-organizations-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-organizations-subpackage-organizations-invites-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-organizations-subpackage-organizations-invites-api-openapi.yml
 - filename: label-studio-subpackage-organizations-subpackage-organizations-members-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Organizations.subpackage Organizations/members API
   slug: label-studio-subpackage-organizations-subpackage-organizations-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-organizations-subpackage-organizations-members-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-organizations-subpackage-organizations-members-api-openapi.yml
 - filename: label-studio-subpackage-organizations-subpackage-organizations-membertags-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Organizations.subpackage Organizations/member Tags API
   slug: label-studio-subpackage-organizations-subpackage-organizations-membertags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-organizations-subpackage-organizations-membertags-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-organizations-subpackage-organizations-membertags-api-openapi.yml
 - filename: label-studio-subpackage-organizations-subpackage-organizations-membertags-subpackage-organizations-membertags-bulk-api-openapi.yml
   format: yaml
   label: Label Studio subpackage_organizations.subpackage_organizations/memberTags.subpackage_organizations/memberTags/bulk API
   slug: label-studio-subpackage-organizations-subpackage-organizations-membertags-subpackage-organizations-membertags-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-organizations-subpackage-organizations-membertags-subpackage-organizations-membertags-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-organizations-subpackage-organizations-membertags-subpackage-organizations-membertags-bulk-api-openapi.yml
 - filename: label-studio-subpackage-organizations-subpackage-organizations-permissions-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Organizations.subpackage Organizations/permissions API
   slug: label-studio-subpackage-organizations-subpackage-organizations-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-organizations-subpackage-organizations-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-organizations-subpackage-organizations-permissions-api-openapi.yml
 - filename: label-studio-subpackage-predictions-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Predictions API
   slug: label-studio-subpackage-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-predictions-api-openapi.yml
 - filename: label-studio-subpackage-projects-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Projects API
   slug: label-studio-subpackage-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-assignments-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Projects.subpackage Projects/assignments API
   slug: label-studio-subpackage-projects-subpackage-projects-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-assignments-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-exports-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Projects.subpackage Projects/exports API
   slug: label-studio-subpackage-projects-subpackage-projects-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-exports-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-exports-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-members-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Projects.subpackage Projects/members API
   slug: label-studio-subpackage-projects-subpackage-projects-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-members-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-members-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-bulk-api-openapi.yml
   format: yaml
   label: Label Studio subpackage_projects.subpackage_projects/members.subpackage_projects/members/bulk API
   slug: label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-bulk-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-paginated-api-openapi.yml
   format: yaml
   label: Label Studio subpackage_projects.subpackage_projects/members.subpackage_projects/members/paginated API
   slug: label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-paginated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-paginated-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-members-subpackage-projects-members-paginated-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-metrics-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Projects.subpackage Projects/metrics API
   slug: label-studio-subpackage-projects-subpackage-projects-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-metrics-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-metrics-subpackage-projects-metrics-custom-api-openapi.yml
   format: yaml
   label: Label Studio subpackage_projects.subpackage_projects/metrics.subpackage_projects/metrics/custom API
   slug: label-studio-subpackage-projects-subpackage-projects-metrics-subpackage-projects-metrics-custom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-metrics-subpackage-projects-metrics-custom-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-metrics-subpackage-projects-metrics-custom-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-pauses-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Projects.subpackage Projects/pauses API
   slug: label-studio-subpackage-projects-subpackage-projects-pauses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-pauses-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-pauses-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-reviewroutingrules-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Projects.subpackage Projects/review Routing Rules API
   slug: label-studio-subpackage-projects-subpackage-projects-reviewroutingrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-reviewroutingrules-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-reviewroutingrules-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-roles-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Projects.subpackage Projects/roles API
   slug: label-studio-subpackage-projects-subpackage-projects-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-roles-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-roles-api-openapi.yml
 - filename: label-studio-subpackage-projects-subpackage-projects-stats-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Projects.subpackage Projects/stats API
   slug: label-studio-subpackage-projects-subpackage-projects-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projects-subpackage-projects-stats-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projects-subpackage-projects-stats-api-openapi.yml
 - filename: label-studio-subpackage-projecttemplates-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Project Templates API
   slug: label-studio-subpackage-projecttemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-projecttemplates-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-projecttemplates-api-openapi.yml
 - filename: label-studio-subpackage-prompts-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Prompts API
   slug: label-studio-subpackage-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-prompts-api-openapi.yml
 - filename: label-studio-subpackage-prompts-subpackage-prompts-indicators-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Prompts.subpackage Prompts/indicators API
   slug: label-studio-subpackage-prompts-subpackage-prompts-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-prompts-subpackage-prompts-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-prompts-subpackage-prompts-indicators-api-openapi.yml
 - filename: label-studio-subpackage-prompts-subpackage-prompts-runs-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Prompts.subpackage Prompts/runs API
   slug: label-studio-subpackage-prompts-subpackage-prompts-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-prompts-subpackage-prompts-runs-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-prompts-subpackage-prompts-runs-api-openapi.yml
 - filename: label-studio-subpackage-prompts-subpackage-prompts-versions-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Prompts.subpackage Prompts/versions API
   slug: label-studio-subpackage-prompts-subpackage-prompts-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-prompts-subpackage-prompts-versions-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-prompts-subpackage-prompts-versions-api-openapi.yml
 - filename: label-studio-subpackage-sessionpolicy-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Session Policy API
   slug: label-studio-subpackage-sessionpolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-sessionpolicy-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-sessionpolicy-api-openapi.yml
 - filename: label-studio-subpackage-sso-subpackage-sso-saml-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Sso.subpackage Sso/saml API
   slug: label-studio-subpackage-sso-subpackage-sso-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-sso-subpackage-sso-saml-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-sso-subpackage-sso-saml-api-openapi.yml
 - filename: label-studio-subpackage-sso-subpackage-sso-scim-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Sso.subpackage Sso/scim API
   slug: label-studio-subpackage-sso-subpackage-sso-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-sso-subpackage-sso-scim-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-sso-subpackage-sso-scim-api-openapi.yml
 - filename: label-studio-subpackage-states-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage States API
   slug: label-studio-subpackage-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-states-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-states-api-openapi.yml
 - filename: label-studio-subpackage-tasks-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Tasks API
   slug: label-studio-subpackage-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-tasks-api-openapi.yml
 - filename: label-studio-subpackage-tasks-subpackage-tasks-agreementmatrix-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Tasks.subpackage Tasks/agreement Matrix API
   slug: label-studio-subpackage-tasks-subpackage-tasks-agreementmatrix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-tasks-subpackage-tasks-agreementmatrix-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-tasks-subpackage-tasks-agreementmatrix-api-openapi.yml
 - filename: label-studio-subpackage-tokens-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Tokens API
   slug: label-studio-subpackage-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-tokens-api-openapi.yml
 - filename: label-studio-subpackage-users-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Users API
   slug: label-studio-subpackage-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-users-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-users-api-openapi.yml
 - filename: label-studio-subpackage-versions-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Versions API
   slug: label-studio-subpackage-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-versions-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-versions-api-openapi.yml
 - filename: label-studio-subpackage-views-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Views API
   slug: label-studio-subpackage-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-views-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-views-api-openapi.yml
 - filename: label-studio-subpackage-webhooks-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Webhooks API
   slug: label-studio-subpackage-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-webhooks-api-openapi.yml
 - filename: label-studio-subpackage-workspaces-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Workspaces API
   slug: label-studio-subpackage-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-workspaces-api-openapi.yml
 - filename: label-studio-subpackage-workspaces-subpackage-workspaces-members-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Workspaces.subpackage Workspaces/members API
   slug: label-studio-subpackage-workspaces-subpackage-workspaces-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-workspaces-subpackage-workspaces-members-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-workspaces-subpackage-workspaces-members-api-openapi.yml
 - filename: label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-bulk-api-openapi.yml
   format: yaml
   label: Label Studio subpackage_workspaces.subpackage_workspaces/members.subpackage_workspaces/members/bulk API
   slug: label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-bulk-api-openapi.yml
 - filename: label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-paginated-api-openapi.yml
   format: yaml
   label: Label Studio subpackage_workspaces.subpackage_workspaces/members.subpackage_workspaces/members/paginated API
   slug: label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-paginated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-paginated-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-paginated-api-openapi.yml
 - filename: label-studio-subpackage-workspaces-subpackage-workspaces-projects-api-openapi.yml
   format: yaml
   label: Label Studio Subpackage Workspaces.subpackage Workspaces/projects API
   slug: label-studio-subpackage-workspaces-subpackage-workspaces-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/openapi/label-studio-subpackage-workspaces-subpackage-workspaces-projects-api-openapi.yml
+  url: https://artifacts.apis.io/label-studio/openapi/label-studio-subpackage-workspaces-subpackage-workspaces-projects-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 167
@@ -602,8 +602,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/label-
   \ /api/organizations/{id}/member-tags/bulk\n  method: post\n  operationId: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/organizations/{id}/member-tags/bulk\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/organizations/{id}/memberships\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/organizations/{id}/memberships\n \
   \ method: patch\n  operationId: update\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/organizations/{id}/memberships/{user_pk}/\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/organizations/{id}/memberships/{user_pk}/\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /api/organizations/{id}/permissions\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/organizations/{id}/permissions\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/organizations/{id}/permissions/options\n  method: get\n  operationId: get-options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/organizations/{id}/permissions/{permission}\n  method: get\n  operationId: get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (114 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/agentic-access/label-studio-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/agentic-access/label-studio-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (114 KB total) ---\n# Full source: https://artifacts.apis.io/label-studio/agentic-access/label-studio-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/label-studio/agentic-access/label-studio-agentic-access.yml
 summary_line: 400 operations · 233 acting · 9 human-in-the-loop
 tags:
 - Artificial Intelligence

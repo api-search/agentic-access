@@ -9,31 +9,31 @@ api_specs:
   label: BetterCloud Events API
   slug: bettercloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-events-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-events-api-openapi.yml
 - filename: bettercloud-groups-api-openapi.yml
   format: yaml
   label: BetterCloud Groups API
   slug: bettercloud-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-groups-api-openapi.yml
 - filename: bettercloud-integrations-api-openapi.yml
   format: yaml
   label: BetterCloud Integrations API
   slug: bettercloud-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-integrations-api-openapi.yml
 - filename: bettercloud-users-api-openapi.yml
   format: yaml
   label: BetterCloud Users API
   slug: bettercloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-users-api-openapi.yml
 - filename: bettercloud-workflows-api-openapi.yml
   format: yaml
   label: BetterCloud Workflows API
   slug: bettercloud-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/bettercloud/openapi/bettercloud-workflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/better
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{id}/members\n  method: get\n  operationId: listGroupMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{id}/members\n  method: post\n  operationId: addGroupMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows\n  method: get\n  operationId: listWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows\n  method: post\n  operationId: createWorkflow\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{id}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{id}\n  method: delete\n  operationId: deleteWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{id}/run\n  method: post\n  operationId: runWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/agentic-access/bettercloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bettercloud/agentic-access/bettercloud-agentic-access.yml
 summary_line: 18 operations · 9 acting
 tags:
 - Automation

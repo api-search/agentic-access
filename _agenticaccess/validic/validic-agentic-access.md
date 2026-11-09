@@ -9,55 +9,55 @@ api_specs:
   label: Validic Devices API
   slug: validic-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-devices-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-devices-api-openapi.yml
 - filename: validic-marketplace-connections-api-openapi.yml
   format: yaml
   label: Validic Marketplace & Connections API
   slug: validic-marketplace-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-marketplace-connections-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-marketplace-connections-api-openapi.yml
 - filename: validic-observations-data-api-openapi.yml
   format: yaml
   label: Validic Observations & Data API
   slug: validic-observations-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-observations-data-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-observations-data-api-openapi.yml
 - filename: validic-push-service-api-openapi.yml
   format: yaml
   label: Validic Push Service API
   slug: validic-push-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-push-service-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-push-service-api-openapi.yml
 - filename: validic-streaming-api-openapi.yml
   format: yaml
   label: Validic Streaming API
   slug: validic-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-streaming-api-openapi.yml
 - filename: validic-users-api-openapi.yml
   format: yaml
   label: Validic Users API
   slug: validic-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-users-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-users-api-openapi.yml
 - filename: validic-measurements-api-openapi.yml
   format: yaml
   label: Validic Measurements API
   slug: validic-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-measurements-api-openapi.yml
 - filename: validic-organizations-api-openapi.yml
   format: yaml
   label: Validic Organizations API
   slug: validic-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-organizations-api-openapi.yml
 - filename: validic-streams-api-openapi.yml
   format: yaml
   label: Validic Streams API
   slug: validic-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streams-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-streams-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 27
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/validi
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{id}?token={token}\n  method: delete\n  operationId: delete-a-stream-1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams?token={token}\n  method: post\n  operationId: create-a-stream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams?token={token}\n  method: get\n  operationId: get-a-stream\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org_id}/users\n  method: get\n  operationId: getAllUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org_id}/users\n  method: post\n  operationId: provisionUser\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{org_id}/users/{uid}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /organizations/{org_id}/users/{uid}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/agentic-access/validic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/validic/agentic-access/validic-agentic-access.yml
 summary_line: 45 operations · 18 acting
 tags:
 - Health Data

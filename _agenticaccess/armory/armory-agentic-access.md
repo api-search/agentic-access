@@ -9,133 +9,133 @@ api_specs:
   label: Armory Agent Accounts Controller API
   slug: armory-agent-accounts-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-agent-accounts-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-agent-accounts-controller-api-openapi.yml
 - filename: armory-applications-controller-api-openapi.yml
   format: yaml
   label: Armory Applications Controller API
   slug: armory-applications-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-applications-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-applications-controller-api-openapi.yml
 - filename: armory-artifact-controller-api-openapi.yml
   format: yaml
   label: Armory Artifact Controller API
   slug: armory-artifact-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-artifact-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-artifact-controller-api-openapi.yml
 - filename: armory-cache-controller-api-openapi.yml
   format: yaml
   label: Armory Cache Controller API
   slug: armory-cache-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-cache-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-cache-controller-api-openapi.yml
 - filename: armory-cluster-controller-api-openapi.yml
   format: yaml
   label: Armory Cluster Controller API
   slug: armory-cluster-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-cluster-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-cluster-controller-api-openapi.yml
 - filename: armory-credentials-controller-api-openapi.yml
   format: yaml
   label: Armory Credentials Controller API
   slug: armory-credentials-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-credentials-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-credentials-controller-api-openapi.yml
 - filename: armory-elastic-ip-controller-api-openapi.yml
   format: yaml
   label: Armory Elastic Ip Controller API
   slug: armory-elastic-ip-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-elastic-ip-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-elastic-ip-controller-api-openapi.yml
 - filename: armory-function-controller-api-openapi.yml
   format: yaml
   label: Armory Function Controller API
   slug: armory-function-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-function-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-function-controller-api-openapi.yml
 - filename: armory-instance-controller-api-openapi.yml
   format: yaml
   label: Armory Instance Controller API
   slug: armory-instance-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-instance-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-instance-controller-api-openapi.yml
 - filename: armory-instance-type-controller-api-openapi.yml
   format: yaml
   label: Armory Instance Type Controller API
   slug: armory-instance-type-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-instance-type-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-instance-type-controller-api-openapi.yml
 - filename: armory-job-controller-api-openapi.yml
   format: yaml
   label: Armory Job Controller API
   slug: armory-job-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-job-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-job-controller-api-openapi.yml
 - filename: armory-load-balancer-controller-api-openapi.yml
   format: yaml
   label: Armory Load Balancer Controller API
   slug: armory-load-balancer-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-load-balancer-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-load-balancer-controller-api-openapi.yml
 - filename: armory-network-controller-api-openapi.yml
   format: yaml
   label: Armory Network Controller API
   slug: armory-network-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-network-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-network-controller-api-openapi.yml
 - filename: armory-operations-controller-api-openapi.yml
   format: yaml
   label: Armory Operations Controller API
   slug: armory-operations-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-operations-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-operations-controller-api-openapi.yml
 - filename: armory-raw-resource-controller-api-openapi.yml
   format: yaml
   label: Armory Raw Resource Controller API
   slug: armory-raw-resource-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-raw-resource-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-raw-resource-controller-api-openapi.yml
 - filename: armory-reservation-report-controller-api-openapi.yml
   format: yaml
   label: Armory Reservation Report Controller API
   slug: armory-reservation-report-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-reservation-report-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-reservation-report-controller-api-openapi.yml
 - filename: armory-search-controller-api-openapi.yml
   format: yaml
   label: Armory Search Controller API
   slug: armory-search-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-search-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-search-controller-api-openapi.yml
 - filename: armory-security-group-controller-api-openapi.yml
   format: yaml
   label: Armory Security Group Controller API
   slug: armory-security-group-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-security-group-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-security-group-controller-api-openapi.yml
 - filename: armory-server-group-controller-api-openapi.yml
   format: yaml
   label: Armory Server Group Controller API
   slug: armory-server-group-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-server-group-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-server-group-controller-api-openapi.yml
 - filename: armory-server-group-manager-controller-api-openapi.yml
   format: yaml
   label: Armory Server Group Manager Controller API
   slug: armory-server-group-manager-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-server-group-manager-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-server-group-manager-controller-api-openapi.yml
 - filename: armory-subnet-controller-api-openapi.yml
   format: yaml
   label: Armory Subnet Controller API
   slug: armory-subnet-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-subnet-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-subnet-controller-api-openapi.yml
 - filename: armory-vpc-controller-api-openapi.yml
   format: yaml
   label: Armory Vpc Controller API
   slug: armory-vpc-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/openapi/armory-vpc-controller-api-openapi.yml
+  url: https://artifacts.apis.io/armory/openapi/armory-vpc-controller-api-openapi.yml
 consequence_counts:
   read: 46
   safety-critical: 10
@@ -231,7 +231,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/armory
   \ escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /ops/{name}\n  method: post\n  operationId: operationUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /task\n  method: get\n  operationId: listUsingGET_6\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/{id}\n  method: get\n  operationId: getUsingGET_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/{id}:resume\n  method: post\n  operationId: resumeTaskUsingPOST\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /{cloudProvider}/ops\n  method: post\n  operationId: cloudProviderOperationsUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /{cloudProvider}/ops/{name}\n  method: post\n  operationId: cloudProviderOperationUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/agentic-access/armory-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/armory/agentic-access/armory-agentic-access.yml
 summary_line: 56 operations · 10 acting · 10 human-in-the-loop
 tags:
 - Continuous Delivery

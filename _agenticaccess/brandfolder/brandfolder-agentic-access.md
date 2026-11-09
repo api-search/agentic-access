@@ -9,79 +9,79 @@ api_specs:
   label: Brandfolder Assets API
   slug: brandfolder-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-assets-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-assets-api-openapi.yml
 - filename: brandfolder-attachments-api-openapi.yml
   format: yaml
   label: Brandfolder Attachments API
   slug: brandfolder-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-attachments-api-openapi.yml
 - filename: brandfolder-binary-upload-api-openapi.yml
   format: yaml
   label: Brandfolder Binary Upload API
   slug: brandfolder-binary-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-binary-upload-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-binary-upload-api-openapi.yml
 - filename: brandfolder-brandfolders-api-openapi.yml
   format: yaml
   label: Brandfolder Brandfolders API
   slug: brandfolder-brandfolders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-brandfolders-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-brandfolders-api-openapi.yml
 - filename: brandfolder-collections-api-openapi.yml
   format: yaml
   label: Brandfolder Collections API
   slug: brandfolder-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-collections-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-collections-api-openapi.yml
 - filename: brandfolder-custom-fields-api-openapi.yml
   format: yaml
   label: Brandfolder Custom Fields API
   slug: brandfolder-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-custom-fields-api-openapi.yml
 - filename: brandfolder-invitations-api-openapi.yml
   format: yaml
   label: Brandfolder Invitations API
   slug: brandfolder-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-invitations-api-openapi.yml
 - filename: brandfolder-labels-api-openapi.yml
   format: yaml
   label: Brandfolder Labels API
   slug: brandfolder-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-labels-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-labels-api-openapi.yml
 - filename: brandfolder-organizations-api-openapi.yml
   format: yaml
   label: Brandfolder Organizations API
   slug: brandfolder-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-organizations-api-openapi.yml
 - filename: brandfolder-sections-api-openapi.yml
   format: yaml
   label: Brandfolder Sections API
   slug: brandfolder-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-sections-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-sections-api-openapi.yml
 - filename: brandfolder-tags-api-openapi.yml
   format: yaml
   label: Brandfolder Tags API
   slug: brandfolder-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-tags-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-tags-api-openapi.yml
 - filename: brandfolder-user-permissions-api-openapi.yml
   format: yaml
   label: Brandfolder User Permissions API
   slug: brandfolder-user-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-user-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-user-permissions-api-openapi.yml
 - filename: brandfolder-webhooks-api-openapi.yml
   format: yaml
   label: Brandfolder Webhooks API
   slug: brandfolder-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/openapi/brandfolder-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/brandfolder/openapi/brandfolder-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 35
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/brandf
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: opIdApiV4WebhooksByIdGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: opIdApiV4WebhooksByIdDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload_requests\n  method: get\n  operationId: opIdStorageserviceUploadRequestsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /upload_url\n  method: put\n  operationId: opIdStorageserviceBfUploadRequestBucketPut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resumable_upload_url\n  method: post\n  operationId: opIdStorageserviceBfUploadRequestPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resumable_upload_url\n  method: put\n  operationId: opIdStorageserviceBfUploadRequestPut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/agentic-access/brandfolder-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brandfolder/agentic-access/brandfolder-agentic-access.yml
 summary_line: 73 operations · 38 acting
 tags:
 - Digital Asset Management

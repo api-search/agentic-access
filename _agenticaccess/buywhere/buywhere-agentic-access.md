@@ -9,31 +9,31 @@ api_specs:
   label: BuyWhere Categories API
   slug: buywhere-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-categories-api-openapi.yml
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-categories-api-openapi.yml
 - filename: buywhere-products-api-openapi.yml
   format: yaml
   label: BuyWhere Products API
   slug: buywhere-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-products-api-openapi.yml
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-products-api-openapi.yml
 - filename: buywhere-auth-api-openapi.yml
   format: yaml
   label: BuyWhere Auth API
   slug: buywhere-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-auth-api-openapi.yml
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-auth-api-openapi.yml
 - filename: buywhere-featured-api-openapi.yml
   format: yaml
   label: BuyWhere Featured API
   slug: buywhere-featured-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-featured-api-openapi.yml
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-featured-api-openapi.yml
 - filename: buywhere-usage-api-openapi.yml
   format: yaml
   label: BuyWhere Usage API
   slug: buywhere-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-usage-api-openapi.yml
+  url: https://artifacts.apis.io/buywhere/openapi/buywhere-usage-api-openapi.yml
 consequence_counts:
   read: 7
   write: 1
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/buywhere-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 1\n    connected: 7\n  by_consequence:\n    write: 1\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /auth/register\n  method: post\n  operationId: registerAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/search\n  method: get\n  operationId: searchProducts\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/deals\n  method: get\n  operationId: getDeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/compare\n  method: get\n  operationId: compareProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{id}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{id}/prices\n  method: get\n  operationId: getProductPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories\n  method: get\n  operationId:\
   \ listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories/{slug}\n  method: get\n  operationId: getCategoryProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/agentic-access/buywhere-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/buywhere/agentic-access/buywhere-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
 - E-Commerce

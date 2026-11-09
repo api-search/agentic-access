@@ -9,127 +9,127 @@ api_specs:
   label: lemlist Campaigns API
   slug: lemlist-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-campaigns-api-openapi.yml
 - filename: lemlist-sequences-api-openapi.yml
   format: yaml
   label: lemlist Sequences API
   slug: lemlist-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-sequences-api-openapi.yml
 - filename: lemlist-leads-api-openapi.yml
   format: yaml
   label: lemlist Leads API
   slug: lemlist-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-leads-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-leads-api-openapi.yml
 - filename: lemlist-people-database-api-openapi.yml
   format: yaml
   label: lemlist People Database API
   slug: lemlist-people-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-people-database-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-people-database-api-openapi.yml
 - filename: lemlist-enrich-api-openapi.yml
   format: yaml
   label: lemlist Enrich API
   slug: lemlist-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-enrich-api-openapi.yml
 - filename: lemlist-inbox-api-openapi.yml
   format: yaml
   label: lemlist Inbox API
   slug: lemlist-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-inbox-api-openapi.yml
 - filename: lemlist-contacts-api-openapi.yml
   format: yaml
   label: lemlist Contacts API
   slug: lemlist-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-contacts-api-openapi.yml
 - filename: lemlist-companies-api-openapi.yml
   format: yaml
   label: lemlist Companies API
   slug: lemlist-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-companies-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-companies-api-openapi.yml
 - filename: lemlist-signal-agents-api-openapi.yml
   format: yaml
   label: lemlist Signal Agents API
   slug: lemlist-signal-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-signal-agents-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-signal-agents-api-openapi.yml
 - filename: lemlist-webhooks-api-openapi.yml
   format: yaml
   label: lemlist Webhooks API
   slug: lemlist-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-webhooks-api-openapi.yml
 - filename: lemlist-unsubscribes-api-openapi.yml
   format: yaml
   label: lemlist Unsubscribes API
   slug: lemlist-unsubscribes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-unsubscribes-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-unsubscribes-api-openapi.yml
 - filename: lemlist-schedules-api-openapi.yml
   format: yaml
   label: lemlist Schedules API
   slug: lemlist-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-schedules-api-openapi.yml
 - filename: lemlist-tasks-api-openapi.yml
   format: yaml
   label: lemlist Tasks API
   slug: lemlist-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-tasks-api-openapi.yml
 - filename: lemlist-activities-api-openapi.yml
   format: yaml
   label: lemlist Activities API
   slug: lemlist-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-activities-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-activities-api-openapi.yml
 - filename: lemlist-team-api-openapi.yml
   format: yaml
   label: lemlist Team API
   slug: lemlist-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-team-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-team-api-openapi.yml
 - filename: lemlist-users-api-openapi.yml
   format: yaml
   label: lemlist Users API
   slug: lemlist-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-users-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-users-api-openapi.yml
 - filename: lemlist-email-accounts-api-openapi.yml
   format: yaml
   label: lemlist Email Accounts API
   slug: lemlist-email-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-email-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-email-accounts-api-openapi.yml
 - filename: lemlist-lemwarm-api-openapi.yml
   format: yaml
   label: lemlist Lemwarm API
   slug: lemlist-lemwarm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-lemwarm-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-lemwarm-api-openapi.yml
 - filename: lemlist-deliverability-alerts-api-openapi.yml
   format: yaml
   label: lemlist Deliverability Alerts API
   slug: lemlist-deliverability-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-deliverability-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-deliverability-alerts-api-openapi.yml
 - filename: lemlist-fields-api-openapi.yml
   format: yaml
   label: lemlist Fields API
   slug: lemlist-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-fields-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-fields-api-openapi.yml
 - filename: lemlist-stats-api-openapi.yml
   format: yaml
   label: lemlist Stats API
   slug: lemlist-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-stats-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-stats-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 67
@@ -209,8 +209,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lemlis
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schema/companies\n  method: get\n  operationId: getSchemaCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /database/personas\n  method: get\n  operationId: listPersonas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /database/personas\n  method: post\n  operationId: createPersona\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /database/personas/{personaId}\n  method: delete\n  operationId: deletePersona\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedules\n  method: get\n  operationId: getSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules\n  method: post\n  operationId: postSchedules\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedules/{scheduleId}\n  method: get\n  operationId: getSchedulesByScheduleId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /schedules/{scheduleId}\n  method: patch\n  operationId: patchSchedulesByScheduleId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedules/{scheduleId}\n  method: delete\n  operationId: deleteSchedulesByScheduleId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns/{campaignId}/schedules/\n  method: get\n  operationId: getCampaignsByCampaignIdSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
-  \   audit: none\n- path: /campaigns/{campaignId}/schedules/{scheduleId}\n  method: post\n  operationId: postCampaignsByCampaignIdSchedulesByScheduleId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns/{campaignId}/sequences\n  method: get\n  operationId: getCampaignsByCampaignIdSequences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/agentic-access/lemlist-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/agentic-access/lemlist-agentic-access.yml
+  \   audit: none\n- path: /campaigns/{campaignId}/schedules/{scheduleId}\n  method: post\n  operationId: postCampaignsByCampaignIdSchedulesByScheduleId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns/{campaignId}/sequences\n  method: get\n  operationId: getCampaignsByCampaignIdSequences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://artifacts.apis.io/lemlist/agentic-access/lemlist-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/lemlist/agentic-access/lemlist-agentic-access.yml
 summary_line: 153 operations · 86 acting
 tags:
 - Email Outreach

@@ -9,37 +9,37 @@ api_specs:
   label: Trustwell Compliance API
   slug: trustwell-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-compliance-api-openapi.yml
 - filename: trustwell-products-api-openapi.yml
   format: yaml
   label: Trustwell Products API
   slug: trustwell-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-products-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-products-api-openapi.yml
 - filename: trustwell-quality-api-openapi.yml
   format: yaml
   label: Trustwell Quality API
   slug: trustwell-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-quality-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-quality-api-openapi.yml
 - filename: trustwell-recalls-api-openapi.yml
   format: yaml
   label: Trustwell Recalls API
   slug: trustwell-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-recalls-api-openapi.yml
 - filename: trustwell-suppliers-api-openapi.yml
   format: yaml
   label: Trustwell Suppliers API
   slug: trustwell-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-suppliers-api-openapi.yml
 - filename: trustwell-traceability-api-openapi.yml
   format: yaml
   label: Trustwell Traceability API
   slug: trustwell-traceability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/openapi/trustwell-traceability-api-openapi.yml
+  url: https://artifacts.apis.io/trustwell/openapi/trustwell-traceability-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trustw
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quality/incidents\n  method: post\n  operationId: createQualityIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quality/incidents/{incidentId}\n  method: get\n  operationId: getQualityIncident\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: post\n  operationId: createProduct\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /traceability/lots\n  method: get\n  operationId: listLots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traceability/lots/{lotId}\n  method: get\n  operationId: getLot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recalls\n  method: get\n  operationId: listRecalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recalls\n  method: post\n  operationId: createRecall\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recalls/{recallId}\n  method: get\n  operationId: getRecall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/agentic-access/trustwell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trustwell/agentic-access/trustwell-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Food Industry

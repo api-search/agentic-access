@@ -9,37 +9,37 @@ api_specs:
   label: Ordergroove Customers API
   slug: ordergroove-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-customers-api-openapi.yml
 - filename: ordergroove-items-api-openapi.yml
   format: yaml
   label: Ordergroove Items API
   slug: ordergroove-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-items-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-items-api-openapi.yml
 - filename: ordergroove-offers-api-openapi.yml
   format: yaml
   label: Ordergroove Offers API
   slug: ordergroove-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-offers-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-offers-api-openapi.yml
 - filename: ordergroove-orders-api-openapi.yml
   format: yaml
   label: Ordergroove Orders API
   slug: ordergroove-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-orders-api-openapi.yml
 - filename: ordergroove-products-api-openapi.yml
   format: yaml
   label: Ordergroove Products API
   slug: ordergroove-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-products-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-products-api-openapi.yml
 - filename: ordergroove-subscriptions-api-openapi.yml
   format: yaml
   label: Ordergroove Subscriptions API
   slug: ordergroove-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/openapi/ordergroove-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ordergroove/openapi/ordergroove-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/orderg
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items/\n  method: post\n  operationId: createItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /items/{public_id}/\n  method: get\n  operationId: retrieveItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items/{public_id}/\n  method: delete\n  operationId: deleteItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /products/\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{id}/\n  method: get\n  operationId: retrieveProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{id}/\n  method: put\n  operationId: updateProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /offer_profiles/\n  method: get\n  operationId: listOfferProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /otd/\n  method: get\n  operationId: listOneTimeDiscounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /otd/\n  method: post\n  operationId: createOneTimeDiscount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entitlements/\n  method: get\n  operationId: listEntitlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/agentic-access/ordergroove-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ordergroove/agentic-access/ordergroove-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
 - Subscription

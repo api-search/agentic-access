@@ -9,49 +9,49 @@ api_specs:
   label: Microsoft Azure AI Foundry Chat Completions API
   slug: azure-ai-foundry-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-chat-completions-api-openapi.yml
 - filename: azure-ai-foundry-completions-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Completions API
   slug: azure-ai-foundry-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-completions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-completions-api-openapi.yml
 - filename: azure-ai-foundry-embeddings-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Embeddings API
   slug: azure-ai-foundry-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-embeddings-api-openapi.yml
 - filename: azure-ai-foundry-images-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Images API
   slug: azure-ai-foundry-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-images-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-images-api-openapi.yml
 - filename: azure-ai-foundry-models-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Models API
   slug: azure-ai-foundry-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-models-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-models-api-openapi.yml
 - filename: azure-ai-foundry-operations-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Operations API
   slug: microsoft-azure-ai-foundry-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-operations-api-openapi.yml
 - filename: azure-ai-foundry-workspaces-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Workspaces API
   slug: microsoft-azure-ai-foundry-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-workspaces-api-openapi.yml
 - filename: azure-ai-foundry-decisions-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Decisions API
   slug: azure-ai-foundry-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-decisions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 5
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-10-17'\nmethod: generated\nsource: openapi/azure-
   \  method: get\n  operationId: listOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.MachineLearningServices/workspaces\n  method: get\n  operationId: listWorkspacesBySubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces\n  method: get\n  operationId: listWorkspacesByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{name}\n\
   \  method: get\n  operationId: getWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{name}\n  method: put\n  operationId: createOrUpdateWorkspaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{name}\n  method: patch\n  operationId: updateWorkspaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n \
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{name}\n  method: delete\n  operationId: deleteWorkspaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/agentic-access/azure-ai-foundry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-ai-foundry/agentic-access/azure-ai-foundry-agentic-access.yml
 summary_line: 15 operations · 10 acting
 tags:
 - Artificial Intelligence

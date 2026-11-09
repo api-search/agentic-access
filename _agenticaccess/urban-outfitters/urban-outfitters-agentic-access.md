@@ -9,43 +9,43 @@ api_specs:
   label: Urban Outfitters Creatives API
   slug: urban-outfitters-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-creatives-api-openapi.yml
 - filename: urban-outfitters-inventory-api-openapi.yml
   format: yaml
   label: Urban Outfitters Inventory API
   slug: urban-outfitters-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-inventory-api-openapi.yml
 - filename: urban-outfitters-links-api-openapi.yml
   format: yaml
   label: Urban Outfitters Links API
   slug: urban-outfitters-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-links-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-links-api-openapi.yml
 - filename: urban-outfitters-orders-api-openapi.yml
   format: yaml
   label: Urban Outfitters Orders API
   slug: urban-outfitters-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-orders-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-orders-api-openapi.yml
 - filename: urban-outfitters-products-api-openapi.yml
   format: yaml
   label: Urban Outfitters Products API
   slug: urban-outfitters-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-products-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-products-api-openapi.yml
 - filename: urban-outfitters-reports-api-openapi.yml
   format: yaml
   label: Urban Outfitters Reports API
   slug: urban-outfitters-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-reports-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-reports-api-openapi.yml
 - filename: urban-outfitters-shipments-api-openapi.yml
   format: yaml
   label: Urban Outfitters Shipments API
   slug: urban-outfitters-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/openapi/urban-outfitters-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/urban-outfitters/openapi/urban-outfitters-shipments-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/urban-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/links\n  method: post\n  operationId: createAffiliateLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/commissions\n  method: get\n  operationId: getCommissionReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/creatives\n  method: get\n  operationId: listCreatives\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/products\n  method: get\n  operationId: listSellerProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/products\n  method: post\n  operationId: createSellerProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/inventory\n  method: put\n  operationId: updateInventory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders/{order_id}/shipments\n\
   \  method: post\n  operationId: createShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/agentic-access/urban-outfitters-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/urban-outfitters/agentic-access/urban-outfitters-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Retail

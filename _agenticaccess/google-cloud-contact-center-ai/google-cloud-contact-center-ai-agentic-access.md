@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Contact Center AI Analyses API
   slug: google-cloud-contact-center-ai-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/google-cloud-contact-center-ai-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-contact-center-ai/openapi/google-cloud-contact-center-ai-analyses-api-openapi.yml
 - filename: google-cloud-contact-center-ai-conversations-api-openapi.yml
   format: yaml
   label: Google Cloud Contact Center AI Conversations API
   slug: google-cloud-contact-center-ai-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/google-cloud-contact-center-ai-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-contact-center-ai/openapi/google-cloud-contact-center-ai-conversations-api-openapi.yml
 - filename: google-cloud-contact-center-ai-insights-api-openapi.yml
   format: yaml
   label: Google Cloud Contact Center AI Insights API
   slug: google-cloud-contact-center-ai-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/google-cloud-contact-center-ai-insights-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-contact-center-ai/openapi/google-cloud-contact-center-ai-insights-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/conversations/{conversationId}\n  method: get\n  operationId: getConversation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/conversations/{conversationId}\n  method: patch\n  operationId: updateConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/conversations/{conversationId}\n  method: delete\n  operationId: deleteConversation\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/conversations/{conversationId}/analyses\n  method: get\n  operationId: listAnalyses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/conversations/{conversationId}/analyses\n  method: post\n  operationId: createAnalysis\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/insightsdata:export\n\
   \  method: post\n  operationId: exportInsightsData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/agentic-access/google-cloud-contact-center-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-contact-center-ai/agentic-access/google-cloud-contact-center-ai-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Artificial Intelligence

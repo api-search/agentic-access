@@ -9,31 +9,31 @@ api_specs:
   label: Castr Analytics API
   slug: castr-live-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-analytics-api-openapi.yml
 - filename: castr-live-live-streams-api-openapi.yml
   format: yaml
   label: Castr Live Streams API
   slug: castr-live-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-live-streams-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-live-streams-api-openapi.yml
 - filename: castr-live-sub-second-streams-api-openapi.yml
   format: yaml
   label: Castr Sub-Second Streams API
   slug: castr-live-sub-second-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-sub-second-streams-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-sub-second-streams-api-openapi.yml
 - filename: castr-live-video-hosting-api-openapi.yml
   format: yaml
   label: Castr Video Hosting API
   slug: castr-live-video-hosting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-video-hosting-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-video-hosting-api-openapi.yml
 - filename: castr-live-webhooks-api-openapi.yml
   format: yaml
   label: Castr Webhooks API
   slug: castr-live-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/openapi/castr-live-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/castr-live/openapi/castr-live-webhooks-api-openapi.yml
 consequence_counts:
   read: 13
   write: 18
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/castr-
   \  method: post\n  operationId: createDirectUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activity_logs/stream/{stream_id}\n  method: get\n  operationId: getStreamLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activity_events/stream/{stream_id}\n  method: get\n  operationId: getStreamEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook_endpoints\n  method: get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /webhook_endpoints\n  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_endpoints/{webhook_id}\n  method: patch\n  operationId: updateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_endpoints/{webhook_id}\n  method: delete\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/agentic-access/castr-live-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/castr-live/agentic-access/castr-live-agentic-access.yml
 summary_line: 31 operations · 18 acting
 tags:
 - Live Streaming

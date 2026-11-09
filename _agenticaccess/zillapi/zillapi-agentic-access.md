@@ -9,43 +9,43 @@ api_specs:
   label: Zillapi Account API
   slug: zillapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-account-api-openapi.yml
 - filename: zillapi-buildings-api-openapi.yml
   format: yaml
   label: Zillapi Buildings API
   slug: zillapi-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-buildings-api-openapi.yml
 - filename: zillapi-jobs-api-openapi.yml
   format: yaml
   label: Zillapi Jobs API
   slug: zillapi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-jobs-api-openapi.yml
 - filename: zillapi-listings-api-openapi.yml
   format: yaml
   label: Zillapi Listings API
   slug: zillapi-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-listings-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-listings-api-openapi.yml
 - filename: zillapi-properties-api-openapi.yml
   format: yaml
   label: Zillapi Properties API
   slug: zillapi-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-properties-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-properties-api-openapi.yml
 - filename: zillapi-search-api-openapi.yml
   format: yaml
   label: Zillapi Search API
   slug: zillapi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-search-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-search-api-openapi.yml
 - filename: zillapi-webhooks-api-openapi.yml
   format: yaml
   label: Zillapi Webhooks API
   slug: zillapi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/openapi/zillapi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zillapi/openapi/zillapi-webhooks-api-openapi.yml
 consequence_counts:
   read: 26
   safety-critical: 1
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zillap
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/{zpid}/zestimate\n  method: get\n  operationId: getPropertyZestimate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/{zpid}/open-houses\n  method: get\n  operationId: getPropertyOpenHouses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/{zpid}/facts\n  method: get\n  operationId: getPropertyFacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/batch\n  method: post\n  operationId: createBatchPropertyJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/search/with-details\n  method: post\n  operationId: searchWithDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{id}\n  method: delete\n  operationId: revokeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/webhooks/{id}/deliveries\n  method: get\n  operationId: listWebhookDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/agentic-access/zillapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zillapi/agentic-access/zillapi-agentic-access.yml
 summary_line: 29 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Real Estate

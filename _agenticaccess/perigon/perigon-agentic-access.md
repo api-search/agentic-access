@@ -9,55 +9,55 @@ api_specs:
   label: Perigon AI & Advanced Search API
   slug: perigon-ai-advanced-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-ai-advanced-search-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-ai-advanced-search-api-openapi.yml
 - filename: perigon-contact-points-api-openapi.yml
   format: yaml
   label: Perigon Contact Points API
   slug: perigon-contact-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-contact-points-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-contact-points-api-openapi.yml
 - filename: perigon-monitors-api-openapi.yml
   format: yaml
   label: Perigon Monitors API
   slug: perigon-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-monitors-api-openapi.yml
 - filename: perigon-news-stories-api-openapi.yml
   format: yaml
   label: Perigon News & Stories API
   slug: perigon-news-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-news-stories-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-news-stories-api-openapi.yml
 - filename: perigon-source-groups-api-openapi.yml
   format: yaml
   label: Perigon Source Groups API
   slug: perigon-source-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-source-groups-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-source-groups-api-openapi.yml
 - filename: perigon-supplemental-endpoints-api-openapi.yml
   format: yaml
   label: Perigon Supplemental Endpoints API
   slug: perigon-supplemental-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-supplemental-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-supplemental-endpoints-api-openapi.yml
 - filename: perigon-utilities-api-openapi.yml
   format: yaml
   label: Perigon Utilities API
   slug: perigon-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-utilities-api-openapi.yml
 - filename: perigon-watchlists-api-openapi.yml
   format: yaml
   label: Perigon Watchlists API
   slug: perigon-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-watchlists-api-openapi.yml
 - filename: perigon-wikipedia-api-openapi.yml
   format: yaml
   label: Perigon Wikipedia API
   slug: perigon-wikipedia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/openapi/perigon-wikipedia-api-openapi.yml
+  url: https://artifacts.apis.io/perigon/openapi/perigon-wikipedia-api-openapi.yml
 consequence_counts:
   read: 27
   write: 18
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/perigo
   - path: /v1/limits\n  method: get\n  operationId: get-limits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/api/watchlists\n  method: get\n  operationId: list-watchlists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/api/watchlists\n  method: post\n  operationId: create-watchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api/watchlists/resolve\n  method: get\n  operationId: resolve-watchlists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /v1/api/watchlists/{id}\n  method: get\n  operationId: get-watchlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/api/watchlists/{id}\n  method: delete\n  operationId: delete-watchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api/watchlists/{id}\n  method: patch\n  operationId: update-watchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vector/wikipedia/all\n  method:\
   \ post\n  operationId: vector-search-wikipedia\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wikipedia/all\n  method: get\n  operationId: search-wikipedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/agentic-access/perigon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/perigon/agentic-access/perigon-agentic-access.yml
 summary_line: 45 operations · 18 acting
 tags:
 - Company

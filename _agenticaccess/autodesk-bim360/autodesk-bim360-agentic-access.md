@@ -9,85 +9,85 @@ api_specs:
   label: Autodesk BIM 360 Account Users API
   slug: autodesk-bim360-account-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-account-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-account-users-api-openapi.yml
 - filename: autodesk-bim360-business-units-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Business Units API
   slug: autodesk-bim360-business-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-business-units-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-business-units-api-openapi.yml
 - filename: autodesk-bim360-companies-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Companies API
   slug: autodesk-bim360-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-companies-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-companies-api-openapi.yml
 - filename: autodesk-bim360-issue-attachments-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Attachments API
   slug: autodesk-bim360-issue-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-attachments-api-openapi.yml
 - filename: autodesk-bim360-issue-attribute-definitions-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Attribute Definitions API
   slug: autodesk-bim360-issue-attribute-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-attribute-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-attribute-definitions-api-openapi.yml
 - filename: autodesk-bim360-issue-attribute-mappings-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Attribute Mappings API
   slug: autodesk-bim360-issue-attribute-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-attribute-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-attribute-mappings-api-openapi.yml
 - filename: autodesk-bim360-issue-comments-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Comments API
   slug: autodesk-bim360-issue-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-comments-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-comments-api-openapi.yml
 - filename: autodesk-bim360-issue-root-cause-categories-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Root Cause Categories API
   slug: autodesk-bim360-issue-root-cause-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-root-cause-categories-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-root-cause-categories-api-openapi.yml
 - filename: autodesk-bim360-issue-types-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Types API
   slug: autodesk-bim360-issue-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-types-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-types-api-openapi.yml
 - filename: autodesk-bim360-issues-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issues API
   slug: autodesk-bim360-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issues-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issues-api-openapi.yml
 - filename: autodesk-bim360-issues-profile-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issues Profile API
   slug: autodesk-bim360-issues-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issues-profile-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issues-profile-api-openapi.yml
 - filename: autodesk-bim360-project-users-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Project Users API
   slug: autodesk-bim360-project-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-project-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-project-users-api-openapi.yml
 - filename: autodesk-bim360-projects-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Projects API
   slug: autodesk-bim360-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-projects-api-openapi.yml
 - filename: autodesk-bim360-user-projects-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 User Projects API
   slug: autodesk-bim360-user-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-user-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-user-projects-api-openapi.yml
 consequence_counts:
   read: 25
   write: 19
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/autode
   \ get\n  operationId: getIssueDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /construction/issues/v1/projects/{projectId}/issues/{issueId}\n  method: patch\n  operationId: patchIssueDetails\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /construction/issues/v1/projects/{projectId}/issues/{issueId}/comments\n  method: get\n  operationId: getComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /construction/issues/v1/projects/{projectId}/issues/{issueId}/comments\n  method: post\n  operationId: CreateComments\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /construction/issues/v1/projects/{projectId}/attachments\n  method: post\n  operationId: add-attachments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /construction/issues/v1/projects/{projectId}/attachments/{issueId}/items/{attachmentId}\n  method: delete\n  operationId: delete-attachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /construction/issues/v1/projects/{projectId}/attachments/{issueId}/items\n  method: get\n  operationId: get-attachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/agentic-access/autodesk-bim360-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/autodesk-bim360/agentic-access/autodesk-bim360-agentic-access.yml
 summary_line: 44 operations · 19 acting
 tags:
 - Construction

@@ -9,61 +9,61 @@ api_specs:
   label: Dinari Accounts API
   slug: dinari-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-accounts-api-openapi.yml
 - filename: dinari-corporate-actions-api-openapi.yml
   format: yaml
   label: Dinari Corporate Actions API
   slug: dinari-corporate-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-corporate-actions-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-corporate-actions-api-openapi.yml
 - filename: dinari-entities-api-openapi.yml
   format: yaml
   label: Dinari Entities API
   slug: dinari-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-entities-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-entities-api-openapi.yml
 - filename: dinari-kyc-api-openapi.yml
   format: yaml
   label: Dinari KYC API
   slug: dinari-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-kyc-api-openapi.yml
 - filename: dinari-managed-orders-api-openapi.yml
   format: yaml
   label: Dinari Managed Orders API
   slug: dinari-managed-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-managed-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-managed-orders-api-openapi.yml
 - filename: dinari-market-data-api-openapi.yml
   format: yaml
   label: Dinari Market Data API
   slug: dinari-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-market-data-api-openapi.yml
 - filename: dinari-order-requests-api-openapi.yml
   format: yaml
   label: Dinari Order Requests API
   slug: dinari-order-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-order-requests-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-order-requests-api-openapi.yml
 - filename: dinari-orders-api-openapi.yml
   format: yaml
   label: Dinari Orders API
   slug: dinari-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-orders-api-openapi.yml
 - filename: dinari-wallets-api-openapi.yml
   format: yaml
   label: Dinari Wallets API
   slug: dinari-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-wallets-api-openapi.yml
 - filename: dinari-withdrawals-api-openapi.yml
   format: yaml
   label: Dinari Withdrawals API
   slug: dinari-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/openapi/dinari-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/dinari/openapi/dinari-withdrawals-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 40
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/dinari
   \ getTokenTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/{account_id}/token_transfers\n  method: post\n  operationId: createTokenTransfers\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/accounts/{account_id}/token_transfers/{transfer_id}\n  method: get\n  operationId: getTokenTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/{account_id}/withdrawal_requests\n  method: get\n  operationId: getAccountWithdrawalRequests\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/{account_id}/withdrawal_requests\n  method: post\n  operationId: createAccountWithdrawalRequests\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/accounts/{account_id}/withdrawal_requests/{withdrawal_request_id}\n  method: get\n  operationId: getAccountWithdrawalRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/{account_id}/withdrawals\n  method: get\n  operationId: getAccountWithdrawals\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/{account_id}/withdrawals/{withdrawal_id}\n  method: get\n  operationId: getAccountWithdrawal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/agentic-access/dinari-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dinari/agentic-access/dinari-agentic-access.yml
 summary_line: 61 operations · 21 acting
 tags:
 - Company

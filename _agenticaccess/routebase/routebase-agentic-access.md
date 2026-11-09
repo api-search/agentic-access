@@ -9,31 +9,31 @@ api_specs:
   label: Routebase API Specs API
   slug: routebase-api-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-api-specs-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-api-specs-api-openapi.yml
 - filename: routebase-ci-test-runs-api-openapi.yml
   format: yaml
   label: Routebase CI & Test Runs API
   slug: routebase-ci-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-ci-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-ci-test-runs-api-openapi.yml
 - filename: routebase-docs-as-code-api-openapi.yml
   format: yaml
   label: Routebase Docs as Code API
   slug: routebase-docs-as-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-docs-as-code-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-docs-as-code-api-openapi.yml
 - filename: routebase-scim-api-openapi.yml
   format: yaml
   label: Routebase SCIM API
   slug: routebase-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-scim-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-scim-api-openapi.yml
 - filename: routebase-security-api-openapi.yml
   format: yaml
   label: Routebase Security API
   slug: routebase-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-security-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-security-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 22
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: generated\nsource: openapi/routeb
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/{orgSlug}/ResourceTypes\n  method: get\n  operationId: scimResourceTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/{orgSlug}/Schemas\n  method: get\n  operationId: scimSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/{orgSlug}/ServiceProviderConfig\n  method: get\n  operationId: scimServiceProviderConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/{orgSlug}/Users\n  method: get\n  operationId: scimListUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/{orgSlug}/Users\n  method: post\n  operationId: scimCreateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/{orgSlug}/Users/{id}\n  method: get\n  operationId: scimGetUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/{orgSlug}/Users/{id}\n  method: put\n  operationId: scimReplaceUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/{orgSlug}/Users/{id}\n  method: patch\n  operationId: scimPatchUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/{orgSlug}/Users/{id}\n  method: delete\n  operationId: scimDeleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/agentic-access/routebase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/routebase/agentic-access/routebase-agentic-access.yml
 summary_line: 37 operations · 15 acting
 tags:
 - API lifecycle management

@@ -9,37 +9,37 @@ api_specs:
   label: Semantic Scholar Author Data API
   slug: semantic-scholar-author-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-author-data-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-author-data-api-openapi.yml
 - filename: semantic-scholar-incremental-updates-api-openapi.yml
   format: yaml
   label: Semantic Scholar Incremental Updates API
   slug: semantic-scholar-incremental-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-incremental-updates-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-incremental-updates-api-openapi.yml
 - filename: semantic-scholar-paper-data-api-openapi.yml
   format: yaml
   label: Semantic Scholar Paper Data API
   slug: semantic-scholar-paper-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-paper-data-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-paper-data-api-openapi.yml
 - filename: semantic-scholar-paper-recommendations-api-openapi.yml
   format: yaml
   label: Semantic Scholar Paper Recommendations API
   slug: semantic-scholar-paper-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-paper-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-paper-recommendations-api-openapi.yml
 - filename: semantic-scholar-release-data-api-openapi.yml
   format: yaml
   label: Semantic Scholar Release Data API
   slug: semantic-scholar-release-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-release-data-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-release-data-api-openapi.yml
 - filename: semantic-scholar-snippet-text-api-openapi.yml
   format: yaml
   label: Semantic Scholar Snippet Text API
   slug: semantic-scholar-snippet-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/openapi/semantic-scholar-snippet-text-api-openapi.yml
+  url: https://artifacts.apis.io/semantic-scholar/openapi/semantic-scholar-snippet-text-api-openapi.yml
 consequence_counts:
   read: 19
   write: 1
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/semant
   \ get_graph_paper_title_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paper/{paper_id}\n  method: get\n  operationId: get_graph_get_paper\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paper/{paper_id}/authors\n  method: get\n  operationId: get_graph_get_paper_authors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paper/{paper_id}/citations\n  method: get\n  operationId: get_graph_get_paper_citations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paper/{paper_id}/references\n  method: get\n  operationId: get_graph_get_paper_references\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /papers/\n  method: post\n  operationId: post_papers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /papers/forpaper/{paper_id}\n  method: get\n  operationId: get_papers_for_paper\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /release/\n  method: get\n  operationId: get_releases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /release/{release_id}\n  method: get\n  operationId: get_release\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /release/{release_id}/dataset/{dataset_name}\n  method: get\n  operationId: get_dataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /snippet/search\n  method: get\n  operationId: get_snippet_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/agentic-access/semantic-scholar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/semantic-scholar/agentic-access/semantic-scholar-agentic-access.yml
 summary_line: 20 operations · 1 acting
 tags:
 - Academic

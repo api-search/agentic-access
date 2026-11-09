@@ -9,55 +9,55 @@ api_specs:
   label: Workday Finance Accounts API
   slug: workday-finance-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-accounts-api-openapi.yml
 - filename: workday-finance-cost-centers-api-openapi.yml
   format: yaml
   label: Workday Finance Cost Centers API
   slug: workday-finance-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-cost-centers-api-openapi.yml
 - filename: workday-finance-financial-periods-api-openapi.yml
   format: yaml
   label: Workday Finance Financial Periods API
   slug: workday-finance-financial-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-financial-periods-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-financial-periods-api-openapi.yml
 - filename: workday-finance-journal-entries-api-openapi.yml
   format: yaml
   label: Workday Finance Journal Entries API
   slug: workday-finance-journal-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-journal-entries-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-journal-entries-api-openapi.yml
 - filename: workday-finance-purchase-orders-api-openapi.yml
   format: yaml
   label: Workday Finance Purchase Orders API
   slug: workday-finance-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-purchase-orders-api-openapi.yml
 - filename: workday-finance-requisitions-api-openapi.yml
   format: yaml
   label: Workday Finance Requisitions API
   slug: workday-finance-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-requisitions-api-openapi.yml
 - filename: workday-finance-supplier-invoices-api-openapi.yml
   format: yaml
   label: Workday Finance Supplier Invoices API
   slug: workday-finance-supplier-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-supplier-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-supplier-invoices-api-openapi.yml
 - filename: workday-finance-suppliers-api-openapi.yml
   format: yaml
   label: Workday Finance Suppliers API
   slug: workday-finance-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-suppliers-api-openapi.yml
 - filename: workday-finance-worktags-api-openapi.yml
   format: yaml
   label: Workday Finance Worktags API
   slug: workday-finance-worktags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-worktags-api-openapi.yml
+  url: https://artifacts.apis.io/workday-finance/openapi/workday-finance-worktags-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workda
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /worktags\n  method: get\n  operationId: listWorktags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /financialPeriods\n  method: get\n  operationId: listFinancialPeriods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suppliers\n  method: get\n  operationId: listSuppliers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suppliers/{supplierId}\n  method: get\n  operationId: getSupplier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /purchaseOrders\n  method: get\n  operationId: listPurchaseOrders\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /purchaseOrders\n  method: post\n  operationId: createPurchaseOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /purchaseOrders/{purchaseOrderId}\n  method: get\n  operationId: getPurchaseOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /supplierInvoices\n  method: get\n  operationId: listSupplierInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /supplierInvoices\n  method: post\n  operationId: createSupplierInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requisitions\n  method: get\n  operationId: listRequisitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/agentic-access/workday-finance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workday-finance/agentic-access/workday-finance-agentic-access.yml
 summary_line: 16 operations · 3 acting
 tags:
 - Accounting

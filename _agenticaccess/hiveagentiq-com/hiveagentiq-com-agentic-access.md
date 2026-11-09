@@ -9,43 +9,43 @@ api_specs:
   label: Hive Agent IQ Bank API
   slug: hiveagentiq-com-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-bank-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-bank-api-openapi.yml
 - filename: hiveagentiq-com-comply-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Comply API
   slug: hiveagentiq-com-comply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-comply-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-comply-api-openapi.yml
 - filename: hiveagentiq-com-credential-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Credential API
   slug: hiveagentiq-com-credential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-credential-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-credential-api-openapi.yml
 - filename: hiveagentiq-com-gate-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Gate API
   slug: hiveagentiq-com-gate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-gate-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-gate-api-openapi.yml
 - filename: hiveagentiq-com-identity-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Identity API
   slug: hiveagentiq-com-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-identity-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-identity-api-openapi.yml
 - filename: hiveagentiq-com-law-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Law API
   slug: hiveagentiq-com-law-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-law-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-law-api-openapi.yml
 - filename: hiveagentiq-com-trust-api-openapi.yml
   format: yaml
   label: Hive Agent IQ Trust API
   slug: hiveagentiq-com-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/openapi/hiveagentiq-com-trust-api-openapi.yml
+  url: https://artifacts.apis.io/hiveagentiq-com/openapi/hiveagentiq-com-trust-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 1
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/hiveag
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/comply/start/pro\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/comply/start/enterprise\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/trust/score/{did}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trust/did/generate\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/trust/vc/issue\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/identity/{did}/passport\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trust/reputation/proof\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/credential/issue\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/credential/verify\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/credential/scope\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hiveagentiq-com/refs/heads/main/agentic-access/hiveagentiq-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hiveagentiq-com/agentic-access/hiveagentiq-com-agentic-access.yml
 summary_line: 24 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Agents

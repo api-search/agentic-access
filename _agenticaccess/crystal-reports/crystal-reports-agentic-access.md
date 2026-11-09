@@ -9,43 +9,43 @@ api_specs:
   label: Crystal Reports Authentication API
   slug: crystal-reports-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-authentication-api-openapi.yml
 - filename: crystal-reports-export-api-openapi.yml
   format: yaml
   label: Crystal Reports Export API
   slug: crystal-reports-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-export-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-export-api-openapi.yml
 - filename: crystal-reports-instances-api-openapi.yml
   format: yaml
   label: Crystal Reports Instances API
   slug: crystal-reports-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-instances-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-instances-api-openapi.yml
 - filename: crystal-reports-metadata-api-openapi.yml
   format: yaml
   label: Crystal Reports Metadata API
   slug: crystal-reports-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-metadata-api-openapi.yml
 - filename: crystal-reports-reports-api-openapi.yml
   format: yaml
   label: Crystal Reports API
   slug: crystal-reports-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-reports-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-reports-api-openapi.yml
 - filename: crystal-reports-repository-api-openapi.yml
   format: yaml
   label: Crystal Reports Repository API
   slug: crystal-reports-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-repository-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-repository-api-openapi.yml
 - filename: crystal-reports-odata-api-openapi.yml
   format: yaml
   label: Crystal Reports O Data API
   slug: crystal-reports-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/openapi/crystal-reports-odata-api-openapi.yml
+  url: https://artifacts.apis.io/crystal-reports/openapi/crystal-reports-odata-api-openapi.yml
 consequence_counts:
   read: 17
   write: 3
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/crysta
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infostore/{reportId}/rpt/data.svc\n  method: get\n  operationId: getODataServiceDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infostore/{reportId}/rpt/data.svc/$metadata\n  method: get\n  operationId: getODataMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infostore/{reportId}/rpt/data.svc/Rows\n  method: get\n  operationId: getReportDataRows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infostore/{reportId}/rpt/data.svc/Rows\n  method: post\n  operationId: pushDataRow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /infostore/{reportId}/rpt/data.svc/Rows({index})\n  method: get\n  operationId: getReportDataRowByIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infostore/{reportId}/rpt/data.svc/Rows({index})/{fieldName}\n  method: get\n  operationId: getRowFieldValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infostore/{reportId}/rpt/data.svc/Rows({index})/{fieldName}/$value\n  method: get\n  operationId: getRowFieldRawValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infostore/{reportId}/rpt/data.svc/GrandTotals\n\
   \  method: get\n  operationId: getGrandTotals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infostore/{reportId}/rpt/data.svc/{GroupName}\n  method: get\n  operationId: getGroupData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /infostore/{reportId}/rpt/data.svc/{GroupName}('{groupPath}')\n  method: get\n  operationId: getGroupByPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/agentic-access/crystal-reports-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crystal-reports/agentic-access/crystal-reports-agentic-access.yml
 summary_line: 20 operations · 3 acting
 tags:
 - Business Intelligence

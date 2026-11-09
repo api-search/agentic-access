@@ -9,7 +9,7 @@ api_specs:
   label: LocalClarity Endpoints API
   slug: localclarity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/openapi/localclarity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/localclarity/openapi/localclarity-endpoints-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -43,7 +43,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/localclarity-endpoints-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 1\n    connected: 5\n  by_consequence:\n    physical: 1\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /api/sendReply\n  method: post\n  operationId: sendReply\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/getInsights\n  method: post\n  operationId:\
   \ getInsights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getLocations\n  method: post\n  operationId: getLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getOrganizations\n  method: post\n  operationId: getOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getProfiles\n  method: get\n  operationId: getProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getReviews\n  method: post\n  operationId: getReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/agentic-access/localclarity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/localclarity/agentic-access/localclarity-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
 - Local SEO

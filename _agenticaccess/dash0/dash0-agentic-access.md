@@ -9,121 +9,121 @@ api_specs:
   label: Dash0 Edge Collectors API
   slug: dash0-edge-collectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-edge-collectors-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-edge-collectors-api-openapi.yml
 - filename: dash0-manage-agent0-automations-api-openapi.yml
   format: yaml
   label: Dash0 Manage Agent0 Automations API
   slug: dash0-manage-agent0-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-agent0-automations-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-agent0-automations-api-openapi.yml
 - filename: dash0-manage-alerting-api-openapi.yml
   format: yaml
   label: Dash0 Manage Alerting API
   slug: dash0-manage-alerting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-alerting-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-alerting-api-openapi.yml
 - filename: dash0-manage-dashboards-api-openapi.yml
   format: yaml
   label: Dash0 Manage Dashboards API
   slug: dash0-manage-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-dashboards-api-openapi.yml
 - filename: dash0-manage-notification-channels-api-openapi.yml
   format: yaml
   label: Dash0 Manage Notification Channels API
   slug: dash0-manage-notification-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-notification-channels-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-notification-channels-api-openapi.yml
 - filename: dash0-manage-recording-rules-api-openapi.yml
   format: yaml
   label: Dash0 Manage Recording Rules API
   slug: dash0-manage-recording-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-recording-rules-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-recording-rules-api-openapi.yml
 - filename: dash0-manage-sampling-rules-api-openapi.yml
   format: yaml
   label: Dash0 Manage Sampling Rules API
   slug: dash0-manage-sampling-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-sampling-rules-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-sampling-rules-api-openapi.yml
 - filename: dash0-manage-spam-filters-api-openapi.yml
   format: yaml
   label: Dash0 Manage Spam Filters API
   slug: dash0-manage-spam-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-spam-filters-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-spam-filters-api-openapi.yml
 - filename: dash0-manage-synthetic-checks-api-openapi.yml
   format: yaml
   label: Dash0 Manage Synthetic Checks API
   slug: dash0-manage-synthetic-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-synthetic-checks-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-synthetic-checks-api-openapi.yml
 - filename: dash0-manage-teams-and-members-api-openapi.yml
   format: yaml
   label: Dash0 Manage Teams and Members API
   slug: dash0-manage-teams-and-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-teams-and-members-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-teams-and-members-api-openapi.yml
 - filename: dash0-manage-views-api-openapi.yml
   format: yaml
   label: Dash0 Manage Views API
   slug: dash0-manage-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-views-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-views-api-openapi.yml
 - filename: dash0-oauth-2-0-api-openapi.yml
   format: yaml
   label: Dash0 OAuth 2.0 API
   slug: dash0-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-oauth-2-0-api-openapi.yml
 - filename: dash0-prometheus-api-api-openapi.yml
   format: yaml
   label: Dash0 Prometheus API
   slug: dash0-prometheus-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-prometheus-api-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-prometheus-api-api-openapi.yml
 - filename: dash0-query-sql-api-openapi.yml
   format: yaml
   label: Dash0 Query SQL API
   slug: dash0-query-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-query-sql-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-query-sql-api-openapi.yml
 - filename: dash0-query-telemetry-api-openapi.yml
   format: yaml
   label: Dash0 Query Telemetry API
   slug: dash0-query-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-query-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-query-telemetry-api-openapi.yml
 - filename: dash0-manage-auth-tokens-api-openapi.yml
   format: yaml
   label: Dash0 Manage Auth Tokens API
   slug: dash0-manage-auth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-auth-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-auth-tokens-api-openapi.yml
 - filename: dash0-manage-datasets-api-openapi.yml
   format: yaml
   label: Dash0 Manage Datasets API
   slug: dash0-manage-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-datasets-api-openapi.yml
 - filename: dash0-manage-signal-to-metrics-api-openapi.yml
   format: yaml
   label: Dash0 Manage Signal To Metrics API
   slug: dash0-manage-signal-to-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-signal-to-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-signal-to-metrics-api-openapi.yml
 - filename: dash0-manage-slos-api-openapi.yml
   format: yaml
   label: Dash0 Manage SLOs API
   slug: dash0-manage-slos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-slos-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-slos-api-openapi.yml
 - filename: dash0-manage-time-series-aggregations-api-openapi.yml
   format: yaml
   label: Dash0 Manage Time Series Aggregations API
   slug: dash0-manage-time-series-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/openapi/dash0-manage-time-series-aggregations-api-openapi.yml
+  url: https://artifacts.apis.io/dash0/openapi/dash0-manage-time-series-aggregations-api-openapi.yml
 consequence_counts:
   read: 41
   safety-critical: 1
@@ -191,8 +191,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/dash0-
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/import/synthetic-check\n  method: post\n  operationId: post_api-import-synthetic-check\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/import/view\n  method: post\n  operationId: post_api-import-view\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/logs\n  method: post\n  operationId: post_api-logs\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/signal-to-metrics/test\n  method: post\n  operationId: post_api-signal-to-metrics-test\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/spans\n  method: post\n  operationId: post_api-spans\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/sql\n  method: post\n  operationId: post_api-sql\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/synthetic-checks/test\n  method: post\n  operationId: post_api-synthetic-checks-test\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/teams/{originOrId}/members\n  method: post\n  operationId: post_api-teams-originorid-members\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/trace/details\n  method: post\n  operationId: post_api-trace-details\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/trace/ids\n  method: post\n  operationId: post_api-trace-ids\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/agentic-access/dash0-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/agentic-access/dash0-agentic-access.yml
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/trace/details\n  method: post\n  operationId: post_api-trace-details\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/trace/ids\n  method: post\n  operationId: post_api-trace-ids\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/dash0/agentic-access/dash0-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/dash0/agentic-access/dash0-agentic-access.yml
 summary_line: 108 operations · 67 acting · 1 human-in-the-loop
 tags:
 - Observability

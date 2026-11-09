@@ -9,13 +9,13 @@ api_specs:
   label: Doctly Documents API
   slug: doctly-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/openapi/doctly-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/doctly-ai/openapi/doctly-ai-documents-api-openapi.yml
 - filename: doctly-ai-extractors-api-openapi.yml
   format: yaml
   label: Doctly Extractors API
   slug: doctly-ai-extractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/openapi/doctly-ai-extractors-api-openapi.yml
+  url: https://artifacts.apis.io/doctly-ai/openapi/doctly-ai-extractors-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/doctly
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{id}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{id}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /e\n  method: get\n  operationId: listExtractors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /e/{slug}\n  method: post\n  operationId: runExtractor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /e/{extractor_id}\n  method: get\n  operationId: getExtractor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /e/{extractor_id}\n  method: put\n  operationId: updateExtractor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /e/{extractor_id}\n  method: delete\n  operationId: deleteExtractor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/agentic-access/doctly-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/doctly-ai/agentic-access/doctly-ai-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Artificial Intelligence

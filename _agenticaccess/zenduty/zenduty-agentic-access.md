@@ -9,193 +9,193 @@ api_specs:
   label: Zenduty Account Custom Role API
   slug: zenduty-account-custom-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-account-custom-role-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-account-custom-role-api-openapi.yml
 - filename: zenduty-account-member-api-openapi.yml
   format: yaml
   label: Zenduty Account Member API
   slug: zenduty-account-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-account-member-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-account-member-api-openapi.yml
 - filename: zenduty-alert-rules-api-openapi.yml
   format: yaml
   label: Zenduty Alert Rules API
   slug: zenduty-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-alert-rules-api-openapi.yml
 - filename: zenduty-analytics-api-openapi.yml
   format: yaml
   label: Zenduty Analytics API
   slug: zenduty-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-analytics-api-openapi.yml
 - filename: zenduty-contact-methods-api-openapi.yml
   format: yaml
   label: Zenduty Contact Methods API
   slug: zenduty-contact-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-contact-methods-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-contact-methods-api-openapi.yml
 - filename: zenduty-escalation-policies-api-openapi.yml
   format: yaml
   label: Zenduty Escalation Policies API
   slug: zenduty-escalation-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-escalation-policies-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-escalation-policies-api-openapi.yml
 - filename: zenduty-events-api-openapi.yml
   format: yaml
   label: Zenduty Events API
   slug: zenduty-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-events-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-events-api-openapi.yml
 - filename: zenduty-forwarding-rules-api-openapi.yml
   format: yaml
   label: Zenduty Forwarding Rules API
   slug: zenduty-forwarding-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-forwarding-rules-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-forwarding-rules-api-openapi.yml
 - filename: zenduty-global-router-api-openapi.yml
   format: yaml
   label: Zenduty Global Router API
   slug: zenduty-global-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-global-router-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-global-router-api-openapi.yml
 - filename: zenduty-global-router-rules-api-openapi.yml
   format: yaml
   label: Zenduty Global Router Rules API
   slug: zenduty-global-router-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-global-router-rules-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-global-router-rules-api-openapi.yml
 - filename: zenduty-incident-alerts-api-openapi.yml
   format: yaml
   label: Zenduty Incident Alerts API
   slug: zenduty-incident-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-incident-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-incident-alerts-api-openapi.yml
 - filename: zenduty-incident-notes-api-openapi.yml
   format: yaml
   label: Zenduty Incident Notes API
   slug: zenduty-incident-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-incident-notes-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-incident-notes-api-openapi.yml
 - filename: zenduty-incident-responders-api-openapi.yml
   format: yaml
   label: Zenduty Incident Responders API
   slug: zenduty-incident-responders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-incident-responders-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-incident-responders-api-openapi.yml
 - filename: zenduty-incident-roles-api-openapi.yml
   format: yaml
   label: Zenduty Incident Roles API
   slug: zenduty-incident-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-incident-roles-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-incident-roles-api-openapi.yml
 - filename: zenduty-incident-tags-api-openapi.yml
   format: yaml
   label: Zenduty Incident Tags API
   slug: zenduty-incident-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-incident-tags-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-incident-tags-api-openapi.yml
 - filename: zenduty-incidents-api-openapi.yml
   format: yaml
   label: Zenduty Incidents API
   slug: zenduty-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-incidents-api-openapi.yml
 - filename: zenduty-integrations-api-openapi.yml
   format: yaml
   label: Zenduty Integrations API
   slug: zenduty-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-integrations-api-openapi.yml
 - filename: zenduty-notification-rules-api-openapi.yml
   format: yaml
   label: Zenduty Notification Rules API
   slug: zenduty-notification-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-notification-rules-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-notification-rules-api-openapi.yml
 - filename: zenduty-postmortem-api-openapi.yml
   format: yaml
   label: Zenduty Postmortem API
   slug: zenduty-postmortem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-postmortem-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-postmortem-api-openapi.yml
 - filename: zenduty-priorities-api-openapi.yml
   format: yaml
   label: Zenduty Priorities API
   slug: zenduty-priorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-priorities-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-priorities-api-openapi.yml
 - filename: zenduty-schedule-overrides-api-openapi.yml
   format: yaml
   label: Zenduty Schedule Overrides API
   slug: zenduty-schedule-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-schedule-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-schedule-overrides-api-openapi.yml
 - filename: zenduty-schedules-api-openapi.yml
   format: yaml
   label: Zenduty Schedules API
   slug: zenduty-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-schedules-api-openapi.yml
 - filename: zenduty-services-api-openapi.yml
   format: yaml
   label: Zenduty Services API
   slug: zenduty-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-services-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-services-api-openapi.yml
 - filename: zenduty-sla-api-openapi.yml
   format: yaml
   label: Zenduty SLA API
   slug: zenduty-sla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-sla-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-sla-api-openapi.yml
 - filename: zenduty-tags-api-openapi.yml
   format: yaml
   label: Zenduty Tags API
   slug: zenduty-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-tags-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-tags-api-openapi.yml
 - filename: zenduty-task-templates-api-openapi.yml
   format: yaml
   label: Zenduty Task Templates API
   slug: zenduty-task-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-task-templates-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-task-templates-api-openapi.yml
 - filename: zenduty-team-maintenance-mode-api-openapi.yml
   format: yaml
   label: Zenduty Team Maintenance Mode API
   slug: zenduty-team-maintenance-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-team-maintenance-mode-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-team-maintenance-mode-api-openapi.yml
 - filename: zenduty-team-members-api-openapi.yml
   format: yaml
   label: Zenduty Team Members API
   slug: zenduty-team-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-team-members-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-team-members-api-openapi.yml
 - filename: zenduty-team-permissions-api-openapi.yml
   format: yaml
   label: Zenduty Team Permissions API
   slug: zenduty-team-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-team-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-team-permissions-api-openapi.yml
 - filename: zenduty-teams-api-openapi.yml
   format: yaml
   label: Zenduty Teams API
   slug: zenduty-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-teams-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-teams-api-openapi.yml
 - filename: zenduty-user-custom-role-api-openapi.yml
   format: yaml
   label: Zenduty User Custom Role API
   slug: zenduty-user-custom-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-user-custom-role-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-user-custom-role-api-openapi.yml
 - filename: zenduty-on-call-api-openapi.yml
   format: yaml
   label: Zenduty On Call API
   slug: zenduty-on-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/openapi/zenduty-on-call-api-openapi.yml
+  url: https://artifacts.apis.io/zenduty/openapi/zenduty-on-call-api-openapi.yml
 consequence_counts:
   read: 64
   safety-critical: 1
@@ -263,8 +263,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zendut
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/account/teams/{team_id}/oncall/\n  method: get\n  operationId: getApiAccountTeamsByTeamIdOncall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/account/teams/{team_id}/oncall/\n  method: get\n  operationId: getApiV2AccountTeamsByTeamIdOncall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/account/teams/{team_id}/escalation_policies/{ep_id}/oncall/\n  method: get\n  operationId: getApiV2AccountTeamsByTeamIdEscalationPoliciesByEpIdOncall\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/account/teams/{team_id}/services/{service_id}/oncall/\n  method: get\n  operationId: getApiV2AccountTeamsByTeamIdServicesByServiceIdOncall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/account/teams/{}/postmortem/\n  method: post\n  operationId: postApiAccountTeamsByPostmortem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/account/teams/{}/postmortem/\n  method: get\n  operationId: getApiAccountTeamsByPostmortem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/account/teams/{team_id}/postmortem/{postmortem_id}/\n  method: get\n  operationId: getApiAccountTeamsByTeamIdPostmortemByPostmortemId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/account/teams/{team_id}/postmortem/{postmortem_id}/\n  method: put\n  operationId: putApiAccountTeamsByTeamIdPostmortemByPostmortemId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/account/teams/{team_id}/postmortem/{postmortem_id}/\n  method: delete\n  operationId: deleteApiAccountTeamsByTeamIdPostmortemByPostmortemId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/account/teams/{}/priority/\n  method: post\n  operationId: postApiAccountTeamsByPriority\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/agentic-access/zenduty-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/agentic-access/zenduty-agentic-access.yml
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/account/teams/{}/priority/\n  method: post\n  operationId: postApiAccountTeamsByPriority\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/zenduty/agentic-access/zenduty-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/zenduty/agentic-access/zenduty-agentic-access.yml
 summary_line: 140 operations · 76 acting · 1 human-in-the-loop
 tags:
 - Incident Management

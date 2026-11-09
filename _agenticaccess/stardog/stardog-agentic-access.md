@@ -9,145 +9,145 @@ api_specs:
   label: Stardog Checkpoints API
   slug: stardog-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-checkpoints-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-checkpoints-api-openapi.yml
 - filename: stardog-cluster-admin-api-openapi.yml
   format: yaml
   label: Stardog Cluster Admin API
   slug: stardog-cluster-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-cluster-admin-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-cluster-admin-api-openapi.yml
 - filename: stardog-data-caching-api-openapi.yml
   format: yaml
   label: Stardog Data Caching API
   slug: stardog-data-caching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-data-caching-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-data-caching-api-openapi.yml
 - filename: stardog-data-sources-api-openapi.yml
   format: yaml
   label: Stardog Data Sources API
   slug: stardog-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-data-sources-api-openapi.yml
 - filename: stardog-db-admin-api-openapi.yml
   format: yaml
   label: Stardog DB Admin API
   slug: stardog-db-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-db-admin-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-db-admin-api-openapi.yml
 - filename: stardog-graph-store-protocol-api-openapi.yml
   format: yaml
   label: Stardog Graph Store Protocol API
   slug: stardog-graph-store-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-graph-store-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-graph-store-protocol-api-openapi.yml
 - filename: stardog-integrity-constraints-shacl-api-openapi.yml
   format: yaml
   label: Stardog Integrity Constraints / SHACL API
   slug: stardog-integrity-constraints-shacl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-integrity-constraints-shacl-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-integrity-constraints-shacl-api-openapi.yml
 - filename: stardog-knowledge-catalog-api-openapi.yml
   format: yaml
   label: Stardog Knowledge Catalog API
   slug: stardog-knowledge-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-knowledge-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-knowledge-catalog-api-openapi.yml
 - filename: stardog-matcher-aligning-schemas-from-various-data-sources-api-openapi.yml
   format: yaml
   label: Stardog Matcher, aligning schemas from various data sources API
   slug: stardog-matcher-aligning-schemas-from-various-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-matcher-aligning-schemas-from-various-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-matcher-aligning-schemas-from-various-data-sources-api-openapi.yml
 - filename: stardog-monitoring-api-openapi.yml
   format: yaml
   label: Stardog Monitoring API
   slug: stardog-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-monitoring-api-openapi.yml
 - filename: stardog-permissions-api-openapi.yml
   format: yaml
   label: Stardog Permissions API
   slug: stardog-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-permissions-api-openapi.yml
 - filename: stardog-queries-api-openapi.yml
   format: yaml
   label: Stardog Queries API
   slug: stardog-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-queries-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-queries-api-openapi.yml
 - filename: stardog-reasoning-api-openapi.yml
   format: yaml
   label: Stardog Reasoning API
   slug: stardog-reasoning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-reasoning-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-reasoning-api-openapi.yml
 - filename: stardog-roles-api-openapi.yml
   format: yaml
   label: Stardog Roles API
   slug: stardog-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-roles-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-roles-api-openapi.yml
 - filename: stardog-server-admin-api-openapi.yml
   format: yaml
   label: Stardog Server Admin API
   slug: stardog-server-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-server-admin-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-server-admin-api-openapi.yml
 - filename: stardog-server-status-metrics-api-openapi.yml
   format: yaml
   label: Stardog Server Status/Metrics API
   slug: stardog-server-status-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-server-status-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-server-status-metrics-api-openapi.yml
 - filename: stardog-sparql-api-openapi.yml
   format: yaml
   label: Stardog SPARQL API
   slug: stardog-sparql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-sparql-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-sparql-api-openapi.yml
 - filename: stardog-stored-functions-api-openapi.yml
   format: yaml
   label: Stardog Stored Functions API
   slug: stardog-stored-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-stored-functions-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-stored-functions-api-openapi.yml
 - filename: stardog-transactions-api-openapi.yml
   format: yaml
   label: Stardog Transactions API
   slug: stardog-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-transactions-api-openapi.yml
 - filename: stardog-users-api-openapi.yml
   format: yaml
   label: Stardog Users API
   slug: stardog-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-users-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-users-api-openapi.yml
 - filename: stardog-virtual-graphs-api-openapi.yml
   format: yaml
   label: Stardog Virtual Graphs API
   slug: stardog-virtual-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-virtual-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-virtual-graphs-api-openapi.yml
 - filename: stardog-virtual-graphs-external-compute-api-openapi.yml
   format: yaml
   label: Stardog Virtual Graphs External Compute API
   slug: stardog-virtual-graphs-external-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-virtual-graphs-external-compute-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-virtual-graphs-external-compute-api-openapi.yml
 - filename: stardog-entity-resolution-api-openapi.yml
   format: yaml
   label: Stardog Entity Resolution API
   slug: stardog-entity-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-entity-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-entity-resolution-api-openapi.yml
 - filename: stardog-graph-ql-api-openapi.yml
   format: yaml
   label: Stardog Graph QL API
   slug: stardog-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/openapi/stardog-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/stardog/openapi/stardog-graph-ql-api-openapi.yml
 consequence_counts:
   read: 91
   safety-critical: 7
@@ -246,8 +246,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/stardo
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/catalog/reloadModel\n  method: post\n  operationId: reloadModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/catalog/jobs/run\n  method: post\n  operationId: runJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/catalog/credentials\n  method: get\n  operationId: getCredentials\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/catalog/credentials\n  method: post\n  operationId: createAccessKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/catalog/jobs/cron/summary\n  method: post\n  operationId: getScheduleSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/catalog/jobs/cron/next_date\n  method: post\n  operationId: getNextScheduleDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/catalog/status\n  method: get\n  operationId:\
   \ getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matcher/suggestions\n  method: post\n  operationId: createTypeAlignments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/processes\n  method: get\n  operationId: listProcesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/processes/{name}\n  method: get\n  operationId: getProcess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (58 KB total)\
-  \ ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/agentic-access/stardog-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/agentic-access/stardog-agentic-access.yml
+  \ ---\n# Full source: https://artifacts.apis.io/stardog/agentic-access/stardog-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/stardog/agentic-access/stardog-agentic-access.yml
 summary_line: 201 operations · 110 acting · 7 human-in-the-loop
 tags:
 - Knowledge Graph

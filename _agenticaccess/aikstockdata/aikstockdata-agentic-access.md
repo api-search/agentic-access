@@ -8,7 +8,7 @@ api_specs:
   label: 한국주식데이터 (aikstockdata) Data API
   slug: aikstockdata-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikstockdata/refs/heads/main/openapi/aikstockdata-data-api-openapi.yml
+  url: https://artifacts.apis.io/aikstockdata/openapi/aikstockdata-data-api-openapi.yml
 consequence_counts:
   read: 37
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-10-02'\nmethod: generated\nsource: openapi/aiksto
   \  method: get\n  operationId: getDataPublicDisclosuresTop100Json\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/disclosures.json\n  method: get\n  operationId: getDataPublicDisclosuresJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/rankings.json\n  method: get\n  operationId: getDataPublicRankingsJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/earnings.json\n  method: get\n  operationId: getDataPublicEarningsJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/earnings_recent60.json\n  method: get\n  operationId:\
   \ getDataPublicEarningsRecent60Json\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/disclosure_impact.json\n  method: get\n  operationId: getDataPublicDisclosureImpactJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/disclosure_impact_summary.json\n  method: get\n  operationId: getDataPublicDisclosureImpactSummaryJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/search_index_min.json\n  method: get\n  operationId: getDataPublicSearchIndexMinJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/daily/today_{date}.json\n\
   \  method: get\n  operationId: getDataPublicDailyToday{date}Json\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/notices.json\n  method: get\n  operationId: getDataPublicNoticesJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/public/excluded.json\n  method: get\n  operationId: getDataPublicExcludedJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aikstockdata/refs/heads/main/agentic-access/aikstockdata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aikstockdata/agentic-access/aikstockdata-agentic-access.yml
 summary_line: 37 operations
 tags:
 - South Korea
@@ -57,6 +57,6 @@ tags:
 - Filings
 - Stocks
 - MCP
-- llms-txt
+- Llms.txt
 - OpenAPI
 ---

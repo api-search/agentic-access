@@ -9,13 +9,13 @@ api_specs:
   label: Templated Renders API
   slug: templated-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-renders-api-openapi.yml
+  url: https://artifacts.apis.io/templated/openapi/templated-renders-api-openapi.yml
 - filename: templated-templates-api-openapi.yml
   format: yaml
   label: Templated Templates API
   slug: templated-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/openapi/templated-templates-api-openapi.yml
+  url: https://artifacts.apis.io/templated/openapi/templated-templates-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/templated-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 2\n    connected: 4\n  by_consequence:\n    write: 2\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /render\n  method: post\n  operationId: createRender\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /render/{id}\n  method: get\n  operationId: getRender\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /render/{id}\n  method: delete\n  operationId: deleteRender\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /renders\n  method: get\n  operationId: listRenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template/{id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/templated/refs/heads/main/agentic-access/templated-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/templated/agentic-access/templated-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Image Generation

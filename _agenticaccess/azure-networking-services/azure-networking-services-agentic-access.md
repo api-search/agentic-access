@@ -9,43 +9,43 @@ api_specs:
   label: Azure Networking Services Subnets API
   slug: azure-networking-services-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subnets-api-openapi.yml
 - filename: azure-networking-services-subscriptions-api-openapi.yml
   format: yaml
   label: Azure Networking Services Subscriptions API
   slug: azure-networking-services-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subscriptions-api-openapi.yml
 - filename: azure-networking-services-virtualnetworkpeerings-api-openapi.yml
   format: yaml
   label: Azure Networking Services VirtualNetworkPeerings API
   slug: azure-networking-services-virtualnetworkpeerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtualnetworkpeerings-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworkpeerings-api-openapi.yml
 - filename: azure-networking-services-operations-api-openapi.yml
   format: yaml
   label: Azure Networking Operations API
   slug: microsoft-azure-networking-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-operations-api-openapi.yml
 - filename: azure-networking-services-subnets-api-openapi.yml
   format: yaml
   label: Azure Networking Subnets API
   slug: microsoft-azure-networking-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subnets-api-openapi.yml
 - filename: azure-networking-services-virtual-networks-api-openapi.yml
   format: yaml
   label: Azure Networking Virtual Networks API
   slug: microsoft-azure-networking-virtual-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtual-networks-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtual-networks-api-openapi.yml
 - filename: azure-networking-services-load-balancers-api-openapi.yml
   format: yaml
   label: Azure Networking Services Load Balancers API
   slug: azure-networking-services-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-load-balancers-api-openapi.yml
 consequence_counts:
   read: 27
   write: 14
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/usages\n  method: get\n  operationId: VirtualNetworks_ListUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/virtualNetworkPeerings\n  method: get\n  operationId: VirtualNetworkPeerings_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/virtualNetworkPeerings/{virtualNetworkPeeringName}\n\
   \  method: delete\n  operationId: VirtualNetworkPeerings_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/virtualNetworkPeerings/{virtualNetworkPeeringName}\n  method: get\n  operationId: VirtualNetworkPeerings_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/virtualNetworkPeerings/{virtualNetworkPeeringName}\n\
   \  method: put\n  operationId: VirtualNetworkPeerings_CreateOrUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/agentic-access/azure-networking-services-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-networking-services/agentic-access/azure-networking-services-agentic-access.yml
 summary_line: 41 operations · 14 acting
 tags:
 - Microsoft Azure

@@ -9,199 +9,199 @@ api_specs:
   label: Unstoppable Domains Account API
   slug: unstoppable-domains-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-account-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-account-api-openapi.yml
 - filename: unstoppable-domains-ai-lander-api-openapi.yml
   format: yaml
   label: Unstoppable Domains AI Lander API
   slug: unstoppable-domains-ai-lander-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-ai-lander-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-ai-lander-api-openapi.yml
 - filename: unstoppable-domains-backorders-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Backorders API
   slug: unstoppable-domains-backorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-backorders-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-backorders-api-openapi.yml
 - filename: unstoppable-domains-cart-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Cart API
   slug: unstoppable-domains-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-cart-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-cart-api-openapi.yml
 - filename: unstoppable-domains-contacts-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Contacts API
   slug: unstoppable-domains-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-contacts-api-openapi.yml
 - filename: unstoppable-domains-dns-management-api-openapi.yml
   format: yaml
   label: Unstoppable Domains DNS Management API
   slug: unstoppable-domains-dns-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-dns-management-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-dns-management-api-openapi.yml
 - filename: unstoppable-domains-dns-records-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Dns Records API
   slug: unstoppable-domains-dns-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-dns-records-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-dns-records-api-openapi.yml
 - filename: unstoppable-domains-domain-contacts-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Domain Contacts API
   slug: unstoppable-domains-domain-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-domain-contacts-api-openapi.yml
 - filename: unstoppable-domains-domain-flags-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Domain Flags API
   slug: unstoppable-domains-domain-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-flags-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-domain-flags-api-openapi.yml
 - filename: unstoppable-domains-domain-management-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Domain Management API
   slug: unstoppable-domains-domain-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-management-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-domain-management-api-openapi.yml
 - filename: unstoppable-domains-domain-registration-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Domain Registration API
   slug: unstoppable-domains-domain-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-registration-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-domain-registration-api-openapi.yml
 - filename: unstoppable-domains-domain-search-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Domain Search API
   slug: unstoppable-domains-domain-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-search-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-domain-search-api-openapi.yml
 - filename: unstoppable-domains-domain-transfers-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Domain Transfers API
   slug: unstoppable-domains-domain-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domain-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-domain-transfers-api-openapi.yml
 - filename: unstoppable-domains-domains-api-openapi.yml
   format: yaml
   label: Unstoppable Domains API
   slug: unstoppable-domains-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-domains-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-domains-api-openapi.yml
 - filename: unstoppable-domains-external-domains-api-openapi.yml
   format: yaml
   label: Unstoppable Domains External Domains API
   slug: unstoppable-domains-external-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-external-domains-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-external-domains-api-openapi.yml
 - filename: unstoppable-domains-external-wallets-api-openapi.yml
   format: yaml
   label: Unstoppable Domains External Wallets API
   slug: unstoppable-domains-external-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-external-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-external-wallets-api-openapi.yml
 - filename: unstoppable-domains-hosting-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Hosting API
   slug: unstoppable-domains-hosting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-hosting-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-hosting-api-openapi.yml
 - filename: unstoppable-domains-leads-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Leads API
   slug: unstoppable-domains-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-leads-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-leads-api-openapi.yml
 - filename: unstoppable-domains-marketplace-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Marketplace API
   slug: unstoppable-domains-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-marketplace-api-openapi.yml
 - filename: unstoppable-domains-operations-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Operations API
   slug: unstoppable-domains-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-operations-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-operations-api-openapi.yml
 - filename: unstoppable-domains-owner-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Owner API
   slug: unstoppable-domains-owner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-owner-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-owner-api-openapi.yml
 - filename: unstoppable-domains-owners-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Owners API
   slug: unstoppable-domains-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-owners-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-owners-api-openapi.yml
 - filename: unstoppable-domains-portfolio-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Portfolio API
   slug: unstoppable-domains-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-portfolio-api-openapi.yml
 - filename: unstoppable-domains-pricing-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Pricing API
   slug: unstoppable-domains-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-pricing-api-openapi.yml
 - filename: unstoppable-domains-reverse-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Reverse API
   slug: unstoppable-domains-reverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-reverse-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-reverse-api-openapi.yml
 - filename: unstoppable-domains-rpc-proxy-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Rpc Proxy API
   slug: unstoppable-domains-rpc-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-rpc-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-rpc-proxy-api-openapi.yml
 - filename: unstoppable-domains-search-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Search API
   slug: unstoppable-domains-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-search-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-search-api-openapi.yml
 - filename: unstoppable-domains-session-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Session API
   slug: unstoppable-domains-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-session-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-session-api-openapi.yml
 - filename: unstoppable-domains-status-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Status API
   slug: unstoppable-domains-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-status-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-status-api-openapi.yml
 - filename: unstoppable-domains-suggestions-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Suggestions API
   slug: unstoppable-domains-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-suggestions-api-openapi.yml
 - filename: unstoppable-domains-tlds-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Tlds API
   slug: unstoppable-domains-tlds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-tlds-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-tlds-api-openapi.yml
 - filename: unstoppable-domains-wallets-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Wallets API
   slug: unstoppable-domains-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-wallets-api-openapi.yml
 - filename: unstoppable-domains-webhooks-api-openapi.yml
   format: yaml
   label: Unstoppable Domains Webhooks API
   slug: unstoppable-domains-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/openapi/unstoppable-domains-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-domains/openapi/unstoppable-domains-webhooks-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 63
@@ -335,8 +335,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/unstop
   \ abnormal\n      - high-value\n    audit: required\n- path: /external/domains/{name}\n  method: patch\n  operationId: patchExternalDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/wallets/{address}/verification\n  method: get\n  operationId: getExternalWalletVerification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/wallets/{address}/verification\n  method: post\n  operationId: postExternalWalletVerification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /external/wallets\n  method: get\n  operationId: getExternalWallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/wallets/{address}\n  method: get\n  operationId: getExternalWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/wallets/{address}\n  method: patch\n  operationId: updateExternalWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domains/{name}/dns/hosting\n  method: get\n  operationId: getDomainDnsHosting\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domains/{name}/dns/hosting\n  method: put\n  operationId: putDomainDnsHosting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domains/{name}/dns/hosting\n  method: delete\n  operationId: deleteDomainDnsHosting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mcp/v1/actions/ud_leads_list\n  method: post\n  operationId: leadsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp/v1/actions/ud_lead_get\n  method: post\n  operationId: leadGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mcp/v1/actions/ud_lead_messages_list\n  method: post\n  operationId: leadMessagesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/agentic-access/unstoppable-domains-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/agentic-access/unstoppable-domains-agentic-access.yml
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp/v1/actions/ud_lead_get\n  method: post\n  operationId: leadGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mcp/v1/actions/ud_lead_messages_list\n  method: post\n  operationId: leadMessagesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/unstoppable-domains/agentic-access/unstoppable-domains-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/unstoppable-domains/agentic-access/unstoppable-domains-agentic-access.yml
 summary_line: 136 operations · 73 acting · 5 human-in-the-loop
 tags:
 - Web3

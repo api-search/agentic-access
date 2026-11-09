@@ -9,97 +9,97 @@ api_specs:
   label: Zulip REST API
   slug: rest-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/asyncapi/zulip-events-asyncapi.yml
+  url: https://artifacts.apis.io/zulip/asyncapi/zulip-events-asyncapi.yml
 - filename: zulip-events-asyncapi.yml
   format: yaml
   label: Zulip Events API
   slug: events-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/asyncapi/zulip-events-asyncapi.yml
+  url: https://artifacts.apis.io/zulip/asyncapi/zulip-events-asyncapi.yml
 - filename: zulip-authentication-api-openapi.yml
   format: yaml
   label: Zulip Authentication API
   slug: zulip-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-authentication-api-openapi.yml
 - filename: zulip-bots-api-openapi.yml
   format: yaml
   label: Zulip Bots API
   slug: zulip-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-bots-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-bots-api-openapi.yml
 - filename: zulip-channels-api-openapi.yml
   format: yaml
   label: Zulip Channels API
   slug: zulip-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-channels-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-channels-api-openapi.yml
 - filename: zulip-drafts-api-openapi.yml
   format: yaml
   label: Zulip Drafts API
   slug: zulip-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-drafts-api-openapi.yml
 - filename: zulip-invites-api-openapi.yml
   format: yaml
   label: Zulip Invites API
   slug: zulip-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-invites-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-invites-api-openapi.yml
 - filename: zulip-messages-api-openapi.yml
   format: yaml
   label: Zulip Messages API
   slug: zulip-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-messages-api-openapi.yml
 - filename: zulip-mobile-api-openapi.yml
   format: yaml
   label: Zulip Mobile API
   slug: zulip-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-mobile-api-openapi.yml
 - filename: zulip-navigation-views-api-openapi.yml
   format: yaml
   label: Zulip Navigation Views API
   slug: zulip-navigation-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-navigation-views-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-navigation-views-api-openapi.yml
 - filename: zulip-real-time-events-api-openapi.yml
   format: yaml
   label: Zulip Real Time Events API
   slug: zulip-real-time-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-real-time-events-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-real-time-events-api-openapi.yml
 - filename: zulip-reminders-api-openapi.yml
   format: yaml
   label: Zulip Reminders API
   slug: zulip-reminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-reminders-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-reminders-api-openapi.yml
 - filename: zulip-scheduled-messages-api-openapi.yml
   format: yaml
   label: Zulip Scheduled Messages API
   slug: zulip-scheduled-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-scheduled-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-scheduled-messages-api-openapi.yml
 - filename: zulip-server-and-organizations-api-openapi.yml
   format: yaml
   label: Zulip Server And Organizations API
   slug: zulip-server-and-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-server-and-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-server-and-organizations-api-openapi.yml
 - filename: zulip-users-api-openapi.yml
   format: yaml
   label: Zulip Users API
   slug: zulip-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-users-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-users-api-openapi.yml
 - filename: zulip-webhooks-api-openapi.yml
   format: yaml
   label: Zulip Webhooks API
   slug: zulip-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/openapi/zulip-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zulip/openapi/zulip-webhooks-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 51
@@ -214,8 +214,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zulip-
   - path: /realm/emoji/{emoji_name}\n  method: post\n  operationId: upload-custom-emoji\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /realm/emoji/{emoji_name}\n  method: delete\n  operationId: deactivate-custom-emoji\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /realm/emoji\n  method: get\n  operationId: get-custom-emoji\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /realm/presence\n  method: get\n  operationId:\
   \ get-presence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /realm/domains\n  method: get\n  operationId: get-realm-domains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /realm/domains\n  method: post\n  operationId: add-realm-domain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /realm/domains/{domain}\n  method: patch\n  operationId: patch-realm-domain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /realm/domains/{domain}\n  method: delete\n  operationId: delete-realm-domain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /realm/profile_fields\n  method: get\n  operationId: get-custom-profile-fields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /realm/profile_fields\n  method: patch\n  operationId: reorder-custom-profile-fields\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/agentic-access/zulip-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/agentic-access/zulip-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/zulip/agentic-access/zulip-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/zulip/agentic-access/zulip-agentic-access.yml
 summary_line: 161 operations · 110 acting · 2 human-in-the-loop
 tags:
 - Collaboration

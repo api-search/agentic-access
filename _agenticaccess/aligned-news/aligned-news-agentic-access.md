@@ -8,43 +8,43 @@ api_specs:
   label: Aligned News Bundles API
   slug: aligned-news-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-bundles-api-openapi.yml
 - filename: aligned-news-news-feed-api-openapi.yml
   format: yaml
   label: Aligned News Feed API
   slug: aligned-news-news-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-news-feed-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-news-feed-api-openapi.yml
 - filename: aligned-news-reports-api-openapi.yml
   format: yaml
   label: Aligned News Reports API
   slug: aligned-news-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-reports-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-reports-api-openapi.yml
 - filename: aligned-news-search-api-openapi.yml
   format: yaml
   label: Aligned News Search API
   slug: aligned-news-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-search-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-search-api-openapi.yml
 - filename: aligned-news-sections-api-openapi.yml
   format: yaml
   label: Aligned News Sections API
   slug: aligned-news-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-sections-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-sections-api-openapi.yml
 - filename: aligned-news-signals-api-openapi.yml
   format: yaml
   label: Aligned News Signals API
   slug: aligned-news-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-signals-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-signals-api-openapi.yml
 - filename: aligned-news-stories-api-openapi.yml
   format: yaml
   label: Aligned News Stories API
   slug: aligned-news-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-stories-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-stories-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aligned-news-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /stories\n  method: get\n  operationId: listStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stories/{id}\n  method: get\n  operationId: getStory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signals\n  method: get\n  operationId: listSignals\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signals/{id}\n  method: get\n  operationId: getSignal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{id}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bundles\n  method: get\n  operationId: listBundles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bundles/{id}\n  method: get\n \
   \ operationId: getBundle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sections\n  method: get\n  operationId: listSections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news-feed\n  method: get\n  operationId: getNewsFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/agentic-access/aligned-news-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aligned-news/agentic-access/aligned-news-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Artificial Intelligence

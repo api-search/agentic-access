@@ -9,37 +9,37 @@ api_specs:
   label: Google Vault Exports API
   slug: google-vault-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-exports-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-exports-api-openapi.yml
 - filename: google-vault-heldaccounts-api-openapi.yml
   format: yaml
   label: Google Vault HeldAccounts API
   slug: google-vault-heldaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-heldaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-heldaccounts-api-openapi.yml
 - filename: google-vault-holds-api-openapi.yml
   format: yaml
   label: Google Vault Holds API
   slug: google-vault-holds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-holds-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-holds-api-openapi.yml
 - filename: google-vault-matters-api-openapi.yml
   format: yaml
   label: Google Vault Matters API
   slug: google-vault-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-matters-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-matters-api-openapi.yml
 - filename: google-vault-operations-api-openapi.yml
   format: yaml
   label: Google Vault Operations API
   slug: google-vault-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-operations-api-openapi.yml
 - filename: google-vault-saved-queries-api-openapi.yml
   format: yaml
   label: Google Vault Saved Queries API
   slug: google-vault-saved-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-saved-queries-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-saved-queries-api-openapi.yml
 consequence_counts:
   read: 12
   write: 21
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \      - high-value\n    audit: required\n- path: /v1/operations\n  method: get\n  operationId: operations.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/{operationsId}\n  method: get\n  operationId: operations.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/{operationsId}\n  method: delete\n  operationId: operations.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/operations/{operationsId}:cancel\n  method: post\n  operationId: operations.cancel\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/matters/{matterId}/savedQueries\n  method: get\n  operationId: matters.savedQueries.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/{matterId}/savedQueries\n  method: post\n  operationId: matters.savedQueries.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/matters/{matterId}/savedQueries/{savedQueryId}\n  method: get\n  operationId: matters.savedQueries.get\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/{matterId}/savedQueries/{savedQueryId}\n  method: delete\n  operationId: matters.savedQueries.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/agentic-access/google-vault-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-vault/agentic-access/google-vault-agentic-access.yml
 summary_line: 33 operations · 21 acting
 tags:
 - eDiscovery

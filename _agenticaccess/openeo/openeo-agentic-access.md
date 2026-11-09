@@ -9,67 +9,67 @@ api_specs:
   label: openEO Account Management API
   slug: openeo-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-account-management-api-openapi.yml
 - filename: openeo-batch-jobs-api-openapi.yml
   format: yaml
   label: openEO Batch Jobs API
   slug: openeo-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-batch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-batch-jobs-api-openapi.yml
 - filename: openeo-capabilities-api-openapi.yml
   format: yaml
   label: openEO Capabilities API
   slug: openeo-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-capabilities-api-openapi.yml
 - filename: openeo-data-processing-api-openapi.yml
   format: yaml
   label: openEO Data Processing API
   slug: openeo-data-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-data-processing-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-data-processing-api-openapi.yml
 - filename: openeo-eo-data-discovery-api-openapi.yml
   format: yaml
   label: openEO EO Data Discovery API
   slug: openeo-eo-data-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-eo-data-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-eo-data-discovery-api-openapi.yml
 - filename: openeo-file-storage-api-openapi.yml
   format: yaml
   label: openEO File Storage API
   slug: openeo-file-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-file-storage-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-file-storage-api-openapi.yml
 - filename: openeo-orders-api-openapi.yml
   format: yaml
   label: openEO Orders API
   slug: openeo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-orders-api-openapi.yml
 - filename: openeo-process-discovery-api-openapi.yml
   format: yaml
   label: openEO Process Discovery API
   slug: openeo-process-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-process-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-process-discovery-api-openapi.yml
 - filename: openeo-secondary-services-api-openapi.yml
   format: yaml
   label: openEO Secondary Services API
   slug: openeo-secondary-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-secondary-services-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-secondary-services-api-openapi.yml
 - filename: openeo-user-defined-processes-api-openapi.yml
   format: yaml
   label: openEO User-Defined Processes API
   slug: openeo-user-defined-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-user-defined-processes-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-user-defined-processes-api-openapi.yml
 - filename: openeo-workspaces-api-openapi.yml
   format: yaml
   label: openEO Workspaces API
   slug: openeo-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/openapi/openeo-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/openeo/openapi/openeo-workspaces-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 31
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/openeo
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{path}\n  method: delete\n  operationId: delete-file\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me\n  method: get\n  operationId: describe-account\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processing_parameters\n  method: get\n  operationId: list-processing-parameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace_providers\n  method: get\n  operationId:\
   \ list-workspace-providers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: get\n  operationId: list-workspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: post\n  operationId: create-workspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_id}\n  method: get\n  operationId: describe-workspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_id}\n\
   \  method: delete\n  operationId: delete-workspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_id}\n  method: patch\n  operationId: update-workspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openeo/refs/heads/main/agentic-access/openeo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openeo/agentic-access/openeo-agentic-access.yml
 summary_line: 51 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Company

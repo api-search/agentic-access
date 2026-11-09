@@ -9,19 +9,19 @@ api_specs:
   label: AssemblyAI LeMUR API
   slug: assemblyai-lemur-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-lemur-api-openapi.yml
+  url: https://artifacts.apis.io/assemblyai/openapi/assemblyai-lemur-api-openapi.yml
 - filename: assemblyai-streaming-api-openapi.yml
   format: yaml
   label: AssemblyAI Streaming API
   slug: assemblyai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/assemblyai/openapi/assemblyai-streaming-api-openapi.yml
 - filename: assemblyai-transcript-api-openapi.yml
   format: yaml
   label: AssemblyAI Transcript API
   slug: assemblyai-transcript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-transcript-api-openapi.yml
+  url: https://artifacts.apis.io/assemblyai/openapi/assemblyai-transcript-api-openapi.yml
 consequence_counts:
   read: 7
   write: 9
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/assemb
   \ max-ttl: 3600\n    audit: none\n- path: /v2/transcript/{transcript_id}/redacted-audio\n  method: get\n  operationId: getRedactedAudio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/realtime/token\n  method: post\n  operationId: createTemporaryToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lemur/v3/generate/task\n  method: post\n  operationId: lemurTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /lemur/v3/generate/summary\n  method: post\n  operationId: lemurSummary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lemur/v3/generate/question-answer\n  method: post\n  operationId: lemurQuestionAnswer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lemur/v3/generate/action-items\n  method: post\n  operationId: lemurActionItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lemur/v3/{request_id}\n  method: delete\n  operationId: purgeLemurRequestData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/agentic-access/assemblyai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/assemblyai/agentic-access/assemblyai-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - Artificial Intelligence

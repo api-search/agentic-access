@@ -23,7 +23,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://chill.com/llms.txt + https://chill.com/.well-known/ucp\naudience: null\nsummary: >-\n  Chill.com publishes real agent-access guidance: an llms.txt agent guide plus a\n  Universal Commerce Protocol (UCP) merchant profile and MCP endpoint. This captures\n  the provider's own stated execution contract for AI agents, not a derived one.\naccess_classes:\n- class: connected\n  consequence: read\n  operations: [browse products, product JSON, collection JSON, catalog search/lookup]\n  auth_required: false\n  note: Read-only browsing needs no authentication.\n- class: acting\n  consequence: physical\n  operations: [create_cart, create_checkout, update_checkout, complete_checkout]\n  auth_required: true\n  auth: Shopify Customer Account OAuth (customer-account-mcp-api:full)\n  human_in_the_loop: required\n  note: >-\n    Checkout / payment completion requires explicit, contemporaneous buyer approval\n    (buyer-approval invariant).\
   \ Agents unable to obtain approval at payment time must\n    route through the Shop skill (https://shop.app/SKILL.md) / Shop Pay.\ncontrols:\n  buyer_approval_invariant: true\n  rate_limited: true\n  rate_limit_signal: HTTP 429\n  recommended_skill: https://shop.app/SKILL.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chill/refs/heads/main/agentic-access/chill-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chill/agentic-access/chill-agentic-access.yml
 summary_line: 0 operations
 tags:
 - Company

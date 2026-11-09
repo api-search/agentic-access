@@ -9,277 +9,277 @@ api_specs:
   label: Eightfold AI Approval Workflow API
   slug: eightfold-ai-approval-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-approval-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-approval-workflow-api-openapi.yml
 - filename: eightfold-ai-async-api-status-api-openapi.yml
   format: yaml
   label: Eightfold AI Async API Status API
   slug: eightfold-ai-async-api-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-async-api-status-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-async-api-status-api-openapi.yml
 - filename: eightfold-ai-ats-candidate-api-openapi.yml
   format: yaml
   label: Eightfold AI ATS Candidate API
   slug: eightfold-ai-ats-candidate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-ats-candidate-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-ats-candidate-api-openapi.yml
 - filename: eightfold-ai-ats-position-api-openapi.yml
   format: yaml
   label: Eightfold AI ATS Position API
   slug: eightfold-ai-ats-position-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-ats-position-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-ats-position-api-openapi.yml
 - filename: eightfold-ai-booking-api-openapi.yml
   format: yaml
   label: Eightfold AI Booking API
   slug: eightfold-ai-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-booking-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-booking-api-openapi.yml
 - filename: eightfold-ai-career-navigator-api-openapi.yml
   format: yaml
   label: Eightfold AI Career Navigator API
   slug: eightfold-ai-career-navigator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-career-navigator-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-career-navigator-api-openapi.yml
 - filename: eightfold-ai-careerhub-api-openapi.yml
   format: yaml
   label: Eightfold AI Careerhub API
   slug: eightfold-ai-careerhub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-careerhub-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-careerhub-api-openapi.yml
 - filename: eightfold-ai-comment-api-openapi.yml
   format: yaml
   label: Eightfold AI Comment API
   slug: eightfold-ai-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-comment-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-comment-api-openapi.yml
 - filename: eightfold-ai-course-api-openapi.yml
   format: yaml
   label: Eightfold AI Course API
   slug: eightfold-ai-course-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-course-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-course-api-openapi.yml
 - filename: eightfold-ai-demand-api-openapi.yml
   format: yaml
   label: Eightfold AI Demand API
   slug: eightfold-ai-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-demand-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-demand-api-openapi.yml
 - filename: eightfold-ai-email-delivery-feedback-api-openapi.yml
   format: yaml
   label: Eightfold AI Email Delivery Feedback API
   slug: eightfold-ai-email-delivery-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-email-delivery-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-email-delivery-feedback-api-openapi.yml
 - filename: eightfold-ai-employee-api-openapi.yml
   format: yaml
   label: Eightfold AI Employee API
   slug: eightfold-ai-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-employee-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-employee-api-openapi.yml
 - filename: eightfold-ai-employee-role-api-openapi.yml
   format: yaml
   label: Eightfold AI Employee Role API
   slug: eightfold-ai-employee-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-employee-role-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-employee-role-api-openapi.yml
 - filename: eightfold-ai-entity-changelog-api-openapi.yml
   format: yaml
   label: Eightfold AI Entity Changelog API
   slug: eightfold-ai-entity-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-entity-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-entity-changelog-api-openapi.yml
 - filename: eightfold-ai-entity-profile-application-api-openapi.yml
   format: yaml
   label: Eightfold AI Entity Profile Application API
   slug: eightfold-ai-entity-profile-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-entity-profile-application-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-entity-profile-application-api-openapi.yml
 - filename: eightfold-ai-event-candidate-activity-api-openapi.yml
   format: yaml
   label: Eightfold AI Event Candidate Activity API
   slug: eightfold-ai-event-candidate-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-event-candidate-activity-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-event-candidate-activity-api-openapi.yml
 - filename: eightfold-ai-events-api-openapi.yml
   format: yaml
   label: Eightfold AI Events API
   slug: eightfold-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-events-api-openapi.yml
 - filename: eightfold-ai-ext-ai-interview-api-openapi.yml
   format: yaml
   label: Eightfold AI Ext AI Interview API
   slug: eightfold-ai-ext-ai-interview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-ext-ai-interview-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-ext-ai-interview-api-openapi.yml
 - filename: eightfold-ai-ext-booking-api-openapi.yml
   format: yaml
   label: Eightfold AI Ext Booking API
   slug: eightfold-ai-ext-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-ext-booking-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-ext-booking-api-openapi.yml
 - filename: eightfold-ai-ext-demand-api-openapi.yml
   format: yaml
   label: Eightfold AI Ext Demand API
   slug: eightfold-ai-ext-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-ext-demand-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-ext-demand-api-openapi.yml
 - filename: eightfold-ai-ext-demand-org-unit-api-openapi.yml
   format: yaml
   label: Eightfold AI Ext Demand Org Unit API
   slug: eightfold-ai-ext-demand-org-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-ext-demand-org-unit-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-ext-demand-org-unit-api-openapi.yml
 - filename: eightfold-ai-foundational-data-api-openapi.yml
   format: yaml
   label: Eightfold AI Foundational Data API
   slug: eightfold-ai-foundational-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-foundational-data-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-foundational-data-api-openapi.yml
 - filename: eightfold-ai-hiring-company-api-openapi.yml
   format: yaml
   label: Eightfold AI Hiring Company API
   slug: eightfold-ai-hiring-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-hiring-company-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-hiring-company-api-openapi.yml
 - filename: eightfold-ai-holiday-api-openapi.yml
   format: yaml
   label: Eightfold AI Holiday API
   slug: eightfold-ai-holiday-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-holiday-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-holiday-api-openapi.yml
 - filename: eightfold-ai-hris-employee-api-openapi.yml
   format: yaml
   label: Eightfold AI HRIS Employee API
   slug: eightfold-ai-hris-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-hris-employee-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-hris-employee-api-openapi.yml
 - filename: eightfold-ai-insights-api-openapi.yml
   format: yaml
   label: Eightfold AI Insights API
   slug: eightfold-ai-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-insights-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-insights-api-openapi.yml
 - filename: eightfold-ai-jie-api-openapi.yml
   format: yaml
   label: Eightfold AI JIE API
   slug: eightfold-ai-jie-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-jie-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-jie-api-openapi.yml
 - filename: eightfold-ai-join-talent-pool-api-openapi.yml
   format: yaml
   label: Eightfold AI Join Talent Pool API
   slug: eightfold-ai-join-talent-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-join-talent-pool-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-join-talent-pool-api-openapi.yml
 - filename: eightfold-ai-offer-api-openapi.yml
   format: yaml
   label: Eightfold AI Offer API
   slug: eightfold-ai-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-offer-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-offer-api-openapi.yml
 - filename: eightfold-ai-org-unit-api-openapi.yml
   format: yaml
   label: Eightfold AI Org Unit API
   slug: eightfold-ai-org-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-org-unit-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-org-unit-api-openapi.yml
 - filename: eightfold-ai-performance-feedback-api-openapi.yml
   format: yaml
   label: Eightfold AI Performance Feedback API
   slug: eightfold-ai-performance-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-performance-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-performance-feedback-api-openapi.yml
 - filename: eightfold-ai-position-api-openapi.yml
   format: yaml
   label: Eightfold AI Position API
   slug: eightfold-ai-position-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-position-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-position-api-openapi.yml
 - filename: eightfold-ai-profile-api-openapi.yml
   format: yaml
   label: Eightfold AI Profile API
   slug: eightfold-ai-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-profile-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-profile-api-openapi.yml
 - filename: eightfold-ai-profile-application-api-openapi.yml
   format: yaml
   label: Eightfold AI Profile Application API
   slug: eightfold-ai-profile-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-profile-application-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-profile-application-api-openapi.yml
 - filename: eightfold-ai-profile-feedback-api-openapi.yml
   format: yaml
   label: Eightfold AI Profile Feedback API
   slug: eightfold-ai-profile-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-profile-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-profile-feedback-api-openapi.yml
 - filename: eightfold-ai-profile-note-api-openapi.yml
   format: yaml
   label: Eightfold AI Profile Note API
   slug: eightfold-ai-profile-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-profile-note-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-profile-note-api-openapi.yml
 - filename: eightfold-ai-profile-tag-api-openapi.yml
   format: yaml
   label: Eightfold AI Profile Tag API
   slug: eightfold-ai-profile-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-profile-tag-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-profile-tag-api-openapi.yml
 - filename: eightfold-ai-question-api-openapi.yml
   format: yaml
   label: Eightfold AI Question API
   slug: eightfold-ai-question-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-question-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-question-api-openapi.yml
 - filename: eightfold-ai-succession-plan-api-openapi.yml
   format: yaml
   label: Eightfold AI Succession Plan API
   slug: eightfold-ai-succession-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-succession-plan-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-succession-plan-api-openapi.yml
 - filename: eightfold-ai-upskill-plan-assignment-api-openapi.yml
   format: yaml
   label: Eightfold AI Upskill Plan Assignment API
   slug: eightfold-ai-upskill-plan-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-upskill-plan-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-upskill-plan-assignment-api-openapi.yml
 - filename: eightfold-ai-upskill-plan-template-api-openapi.yml
   format: yaml
   label: Eightfold AI Upskill Plan Template API
   slug: eightfold-ai-upskill-plan-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-upskill-plan-template-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-upskill-plan-template-api-openapi.yml
 - filename: eightfold-ai-user-calendar-event-api-openapi.yml
   format: yaml
   label: Eightfold AI User Calendar Event API
   slug: eightfold-ai-user-calendar-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-user-calendar-event-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-user-calendar-event-api-openapi.yml
 - filename: eightfold-ai-user-campaign-api-openapi.yml
   format: yaml
   label: Eightfold AI User Campaign API
   slug: eightfold-ai-user-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-user-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-user-campaign-api-openapi.yml
 - filename: eightfold-ai-user-groups-api-openapi.yml
   format: yaml
   label: Eightfold AI User Groups API
   slug: eightfold-ai-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-user-groups-api-openapi.yml
 - filename: eightfold-ai-user-message-api-openapi.yml
   format: yaml
   label: Eightfold AI User Message API
   slug: eightfold-ai-user-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-user-message-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-user-message-api-openapi.yml
 - filename: eightfold-ai-users-api-openapi.yml
   format: yaml
   label: Eightfold AI Users API
   slug: eightfold-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/openapi/eightfold-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/eightfold-ai/openapi/eightfold-ai-users-api-openapi.yml
 consequence_counts:
   read: 101
   safety-critical: 10
@@ -392,8 +392,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/eightf
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/core/employees/{profileId}\n  method: get\n  operationId: get_employee_by_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/core/employees/{profileId}\n  method: patch\n  operationId: patch_employee\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/core/employees/{profileId}\n  method: put\n  operationId: update_employee\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v2/core/employees/{profileId}/matched-demands\n  method: get\n  operationId: list_employee_matched_demands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/core/employees/{profileId}/recommended-mentors\n  method: get\n  operationId: list_employee_recommended_mentors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/core/entity-comments-batch-fetch\n  method: post\n  operationId: comments_entity__batch_fetch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/core/entity-comments/{entityType}/{entityId}\n\
   \  method: get\n  operationId: list_comments_entity_comments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/core/entity-comments/{entityType}/{entityId}\n  method: delete\n  operationId: delete_comments_entity_comments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/core/entity-comments/{entityType}/{entityId}\n  method: post\n  operationId: create_comments_entity_comments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /api/v2/core/entity-profile-applications/{entityType}\n  method: get\n  operationId: list_entity_profile_application\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/core/entity-profile-applications/{entityType}/batch-fetch\n  method: post\n  operationId: entity_profile_application_batch_fetch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/agentic-access/eightfold-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/agentic-access/eightfold-ai-agentic-access.yml
+  \ required\n- path: /api/v2/core/entity-profile-applications/{entityType}\n  method: get\n  operationId: list_entity_profile_application\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/core/entity-profile-applications/{entityType}/batch-fetch\n  method: post\n  operationId: entity_profile_application_batch_fetch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://artifacts.apis.io/eightfold-ai/agentic-access/eightfold-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/eightfold-ai/agentic-access/eightfold-ai-agentic-access.yml
 summary_line: 218 operations · 117 acting · 10 human-in-the-loop
 tags:
 - Talent Intelligence

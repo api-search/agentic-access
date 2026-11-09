@@ -8,67 +8,67 @@ api_specs:
   label: PaulieB14 Agent API
   slug: graphadvocate-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-agent-api-openapi.yml
 - filename: graphadvocate-com-ask-api-openapi.yml
   format: yaml
   label: PaulieB14 Ask API
   slug: graphadvocate-com-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-ask-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-ask-api-openapi.yml
 - filename: graphadvocate-com-hyperliquid-api-openapi.yml
   format: yaml
   label: PaulieB14 Hyperliquid API
   slug: graphadvocate-com-hyperliquid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-hyperliquid-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-hyperliquid-api-openapi.yml
 - filename: graphadvocate-com-kalshi-api-openapi.yml
   format: yaml
   label: PaulieB14 Kalshi API
   slug: graphadvocate-com-kalshi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-kalshi-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-kalshi-api-openapi.yml
 - filename: graphadvocate-com-kalshi-polymarket-api-openapi.yml
   format: yaml
   label: PaulieB14 Kalshi Polymarket API
   slug: graphadvocate-com-kalshi-polymarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-kalshi-polymarket-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-kalshi-polymarket-api-openapi.yml
 - filename: graphadvocate-com-narrative-api-openapi.yml
   format: yaml
   label: PaulieB14 Narrative API
   slug: graphadvocate-com-narrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-narrative-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-narrative-api-openapi.yml
 - filename: graphadvocate-com-onchain-x402-api-openapi.yml
   format: yaml
   label: PaulieB14 Onchain X402 API
   slug: graphadvocate-com-onchain-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-onchain-x402-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-onchain-x402-api-openapi.yml
 - filename: graphadvocate-com-polymarket-api-openapi.yml
   format: yaml
   label: PaulieB14 Polymarket API
   slug: graphadvocate-com-polymarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-polymarket-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-polymarket-api-openapi.yml
 - filename: graphadvocate-com-predmarket-api-openapi.yml
   format: yaml
   label: PaulieB14 Predmarket API
   slug: graphadvocate-com-predmarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-predmarket-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-predmarket-api-openapi.yml
 - filename: graphadvocate-com-route-api-openapi.yml
   format: yaml
   label: PaulieB14 Route API
   slug: graphadvocate-com-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-route-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-route-api-openapi.yml
 - filename: graphadvocate-com-uniswap-api-openapi.yml
   format: yaml
   label: PaulieB14 Uniswap API
   slug: graphadvocate-com-uniswap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/openapi/graphadvocate-com-uniswap-api-openapi.yml
+  url: https://artifacts.apis.io/graphadvocate-com/openapi/graphadvocate-com-uniswap-api-openapi.yml
 consequence_counts:
   physical: 6
   safety-critical: 4
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/grapha
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /predmarket/spread\n  method: post\n  operationId: predmarketSpread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /narrative/divergence\n  method: post\n  operationId: narrativeDivergence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uniswap/basis\n  method: post\n  operationId:\
   \ uniswapBasis\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uniswap/pretrade\n  method: post\n  operationId: uniswapPretrade\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uniswap/traders\n  method: post\n  operationId: uniswapTraders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/graphadvocate-com/refs/heads/main/agentic-access/graphadvocate-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/graphadvocate-com/agentic-access/graphadvocate-com-agentic-access.yml
 summary_line: 23 operations · 23 acting · 4 human-in-the-loop
 tags:
 - Blockchain

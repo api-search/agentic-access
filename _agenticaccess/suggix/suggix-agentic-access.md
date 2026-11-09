@@ -8,37 +8,37 @@ api_specs:
   label: Suggix Indicators API
   slug: suggix-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-indicators-api-openapi.yml
 - filename: suggix-industries-api-openapi.yml
   format: yaml
   label: Suggix Industries API
   slug: suggix-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-industries-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-industries-api-openapi.yml
 - filename: suggix-regions-api-openapi.yml
   format: yaml
   label: Suggix Regions API
   slug: suggix-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-regions-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-regions-api-openapi.yml
 - filename: suggix-search-api-openapi.yml
   format: yaml
   label: Suggix Search API
   slug: suggix-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-search-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-search-api-openapi.yml
 - filename: suggix-sources-api-openapi.yml
   format: yaml
   label: Suggix Sources API
   slug: suggix-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-sources-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-sources-api-openapi.yml
 - filename: suggix-statistics-api-openapi.yml
   format: yaml
   label: Suggix Statistics API
   slug: suggix-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/openapi/suggix-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/suggix/openapi/suggix-statistics-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/suggix
   \ 3600\n    audit: none\n- path: /indicators/{slug}\n  method: get\n  operationId: getIndicator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indicators/{slug}/series\n  method: get\n  operationId: getIndicatorSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indicators/{slug}/export.xlsx\n  method: get\n  operationId: exportIndicatorXlsx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indicators/{slug}/export.csv\n  method: get\n  operationId: exportIndicatorCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources\n  method: get\n  operationId: listSources\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources/{slug}\n  method: get\n  operationId: getSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions/{slug}/export.xlsx\n  method: get\n  operationId: exportRegionXlsx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions/{slug}/export.csv\n  method: get\n  operationId: exportRegionCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/agentic-access/suggix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/suggix/agentic-access/suggix-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Software-as-a-Service

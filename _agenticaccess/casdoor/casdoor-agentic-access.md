@@ -15,43 +15,43 @@ api_specs:
   label: Casdoor Applications API
   slug: casdoor-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-applications-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-applications-api-openapi.yml
 - filename: casdoor-authentication-api-openapi.yml
   format: yaml
   label: Casdoor Authentication API
   slug: casdoor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-authentication-api-openapi.yml
 - filename: casdoor-oidc-api-openapi.yml
   format: yaml
   label: Casdoor OIDC API
   slug: casdoor-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-oidc-api-openapi.yml
 - filename: casdoor-organizations-api-openapi.yml
   format: yaml
   label: Casdoor Organizations API
   slug: casdoor-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-organizations-api-openapi.yml
 - filename: casdoor-permissions-api-openapi.yml
   format: yaml
   label: Casdoor Permissions API
   slug: casdoor-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-permissions-api-openapi.yml
 - filename: casdoor-roles-api-openapi.yml
   format: yaml
   label: Casdoor Roles API
   slug: casdoor-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-roles-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-roles-api-openapi.yml
 - filename: casdoor-users-api-openapi.yml
   format: yaml
   label: Casdoor Users API
   slug: casdoor-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-users-api-openapi.yml
+  url: https://artifacts.apis.io/casdoor/openapi/casdoor-users-api-openapi.yml
 consequence_counts:
   read: 11
   write: 13
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/casdoo
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/get-applications\n  method: get\n  operationId: getApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/get-application\n  method: get\n  operationId: getApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/add-application\n  method: post\n  operationId: addApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/get-roles\n  method: get\n  operationId:\
   \ getRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/add-role\n  method: post\n  operationId: addRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/enforce\n  method: post\n  operationId: enforce\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/batch-enforce\n  method: post\n  operationId: batchEnforce\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/get-permissions\n  method: get\n  operationId: getPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/agentic-access/casdoor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/casdoor/agentic-access/casdoor-agentic-access.yml
 summary_line: 24 operations · 13 acting
 tags:
 - Authentication
@@ -95,6 +95,7 @@ tags:
 - LDAP
 - MCP
 - MFA
+- OAuth
 - OpenID Connect
 - Open Source
 - Passkeys

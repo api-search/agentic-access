@@ -8,121 +8,121 @@ api_specs:
   label: Congress.gov API Amendments API
   slug: congress-gov-amendments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-amendments-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-amendments-api-openapi.yml
 - filename: congress-gov-bill-api-openapi.yml
   format: yaml
   label: Congress.gov API Bill API
   slug: congress-gov-bill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-bill-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-bill-api-openapi.yml
 - filename: congress-gov-bound-congressional-record-api-openapi.yml
   format: yaml
   label: Congress.gov API Bound Congressional Record API
   slug: congress-gov-bound-congressional-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-bound-congressional-record-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-bound-congressional-record-api-openapi.yml
 - filename: congress-gov-committee-api-openapi.yml
   format: yaml
   label: Congress.gov API Committee API
   slug: congress-gov-committee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-committee-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-committee-api-openapi.yml
 - filename: congress-gov-committee-meeting-api-openapi.yml
   format: yaml
   label: Congress.gov API Committee Meeting API
   slug: congress-gov-committee-meeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-committee-meeting-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-committee-meeting-api-openapi.yml
 - filename: congress-gov-committee-print-api-openapi.yml
   format: yaml
   label: Congress.gov API Committee Print API
   slug: congress-gov-committee-print-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-committee-print-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-committee-print-api-openapi.yml
 - filename: congress-gov-committee-report-api-openapi.yml
   format: yaml
   label: Congress.gov API Committee Report API
   slug: congress-gov-committee-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-committee-report-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-committee-report-api-openapi.yml
 - filename: congress-gov-congress-api-openapi.yml
   format: yaml
   label: Congress.gov API Congress API
   slug: congress-gov-congress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-congress-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-congress-api-openapi.yml
 - filename: congress-gov-congressional-record-api-openapi.yml
   format: yaml
   label: Congress.gov API Congressional Record API
   slug: congress-gov-congressional-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-congressional-record-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-congressional-record-api-openapi.yml
 - filename: congress-gov-crsreport-api-openapi.yml
   format: yaml
   label: Congress.gov API Crsreport API
   slug: congress-gov-crsreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-crsreport-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-crsreport-api-openapi.yml
 - filename: congress-gov-daily-congressional-record-api-openapi.yml
   format: yaml
   label: Congress.gov API Daily Congressional Record API
   slug: congress-gov-daily-congressional-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-daily-congressional-record-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-daily-congressional-record-api-openapi.yml
 - filename: congress-gov-hearing-api-openapi.yml
   format: yaml
   label: Congress.gov API Hearing API
   slug: congress-gov-hearing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-hearing-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-hearing-api-openapi.yml
 - filename: congress-gov-house-communication-api-openapi.yml
   format: yaml
   label: Congress.gov API House Communication API
   slug: congress-gov-house-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-house-communication-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-house-communication-api-openapi.yml
 - filename: congress-gov-house-requirement-api-openapi.yml
   format: yaml
   label: Congress.gov API House Requirement API
   slug: congress-gov-house-requirement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-house-requirement-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-house-requirement-api-openapi.yml
 - filename: congress-gov-house-vote-api-openapi.yml
   format: yaml
   label: Congress.gov API House Vote API
   slug: congress-gov-house-vote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-house-vote-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-house-vote-api-openapi.yml
 - filename: congress-gov-member-api-openapi.yml
   format: yaml
   label: Congress.gov API Member API
   slug: congress-gov-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-member-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-member-api-openapi.yml
 - filename: congress-gov-nomination-api-openapi.yml
   format: yaml
   label: Congress.gov API Nomination API
   slug: congress-gov-nomination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-nomination-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-nomination-api-openapi.yml
 - filename: congress-gov-senate-communication-api-openapi.yml
   format: yaml
   label: Congress.gov API Senate Communication API
   slug: congress-gov-senate-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-senate-communication-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-senate-communication-api-openapi.yml
 - filename: congress-gov-summaries-api-openapi.yml
   format: yaml
   label: Congress.gov API Summaries API
   slug: congress-gov-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-summaries-api-openapi.yml
 - filename: congress-gov-treaty-api-openapi.yml
   format: yaml
   label: Congress.gov API Treaty API
   slug: congress-gov-treaty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/openapi/congress-gov-treaty-api-openapi.yml
+  url: https://artifacts.apis.io/congress-gov/openapi/congress-gov-treaty-api-openapi.yml
 consequence_counts:
   read: 108
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -170,7 +170,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/congre
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nomination/{congress}/{nominationNumber}/{ordinal}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nomination/{congress}/{nominationNumber}/actions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nomination/{congress}/{nominationNumber}/committees\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nomination/{congress}/{nominationNumber}/hearings\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crsreport\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crsreport/{reportNumber}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /treaty\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /treaty/{congress}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /treaty/{congress}/{treatyNumber}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /treaty/{congress}/{treatyNumber}/{treatySuffix}\n  method: get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /treaty/{congress}/{treatyNumber}/actions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /treaty/{congress}/{treatyNumber}/{treatySuffix}/actions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /treaty/{congress}/{treatyNumber}/committees\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/agentic-access/congress-gov-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/congress-gov/agentic-access/congress-gov-agentic-access.yml
 summary_line: 108 operations
 tags:
 - Government

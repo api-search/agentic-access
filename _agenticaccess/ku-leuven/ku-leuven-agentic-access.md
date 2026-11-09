@@ -9,265 +9,265 @@ api_specs:
   label: KU Leuven Access API
   slug: ku-leuven-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-access-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-access-api-openapi.yml
 - filename: ku-leuven-addfilestodataset-api-openapi.yml
   format: yaml
   label: KU Leuven Add Files To Dataset API
   slug: ku-leuven-addfilestodataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-addfilestodataset-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-addfilestodataset-api-openapi.yml
 - filename: ku-leuven-addfiletodataset-api-openapi.yml
   format: yaml
   label: KU Leuven Add File To Dataset API
   slug: ku-leuven-addfiletodataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-addfiletodataset-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-addfiletodataset-api-openapi.yml
 - filename: ku-leuven-addglobusfilestodataset-api-openapi.yml
   format: yaml
   label: KU Leuven Add Globus Files To Dataset API
   slug: ku-leuven-addglobusfilestodataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-addglobusfilestodataset-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-addglobusfilestodataset-api-openapi.yml
 - filename: ku-leuven-admin-api-openapi.yml
   format: yaml
   label: KU Leuven Admin API
   slug: ku-leuven-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-admin-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-admin-api-openapi.yml
 - filename: ku-leuven-batch-api-openapi.yml
   format: yaml
   label: KU Leuven Batch API
   slug: ku-leuven-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-batch-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-batch-api-openapi.yml
 - filename: ku-leuven-builtin-users-api-openapi.yml
   format: yaml
   label: KU Leuven Builtin Users API
   slug: ku-leuven-builtin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-builtin-users-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-builtin-users-api-openapi.yml
 - filename: ku-leuven-datasetfields-api-openapi.yml
   format: yaml
   label: KU Leuven Datasetfields API
   slug: ku-leuven-datasetfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-datasetfields-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-datasetfields-api-openapi.yml
 - filename: ku-leuven-datasets-api-openapi.yml
   format: yaml
   label: KU Leuven Datasets API
   slug: ku-leuven-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-datasets-api-openapi.yml
 - filename: ku-leuven-datatags-api-openapi.yml
   format: yaml
   label: KU Leuven Datatags API
   slug: ku-leuven-datatags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-datatags-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-datatags-api-openapi.yml
 - filename: ku-leuven-dataversefeatureditems-api-openapi.yml
   format: yaml
   label: KU Leuven DataverseFeaturedItems API
   slug: ku-leuven-dataversefeatureditems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-dataversefeatureditems-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-dataversefeatureditems-api-openapi.yml
 - filename: ku-leuven-dataverses-api-openapi.yml
   format: yaml
   label: KU Leuven Dataverses API
   slug: ku-leuven-dataverses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-dataverses-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-dataverses-api-openapi.yml
 - filename: ku-leuven-edit-api-openapi.yml
   format: yaml
   label: KU Leuven Edit API
   slug: ku-leuven-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-edit-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-edit-api-openapi.yml
 - filename: ku-leuven-files-api-openapi.yml
   format: yaml
   label: KU Leuven Files API
   slug: ku-leuven-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-files-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-files-api-openapi.yml
 - filename: ku-leuven-harvest-api-openapi.yml
   format: yaml
   label: KU Leuven Harvest API
   slug: ku-leuven-harvest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-harvest-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-harvest-api-openapi.yml
 - filename: ku-leuven-inbox-api-openapi.yml
   format: yaml
   label: KU Leuven Inbox API
   slug: ku-leuven-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-inbox-api-openapi.yml
 - filename: ku-leuven-info-api-openapi.yml
   format: yaml
   label: KU Leuven Info API
   slug: ku-leuven-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-info-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-info-api-openapi.yml
 - filename: ku-leuven-ingest-api-openapi.yml
   format: yaml
   label: KU Leuven Ingest API
   slug: ku-leuven-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-ingest-api-openapi.yml
 - filename: ku-leuven-licenses-api-openapi.yml
   format: yaml
   label: KU Leuven Licenses API
   slug: ku-leuven-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-licenses-api-openapi.yml
 - filename: ku-leuven-localcontexts-api-openapi.yml
   format: yaml
   label: KU Leuven Localcontexts API
   slug: ku-leuven-localcontexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-localcontexts-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-localcontexts-api-openapi.yml
 - filename: ku-leuven-logout-api-openapi.yml
   format: yaml
   label: KU Leuven Logout API
   slug: ku-leuven-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-logout-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-logout-api-openapi.yml
 - filename: ku-leuven-mail-api-openapi.yml
   format: yaml
   label: KU Leuven Mail API
   slug: ku-leuven-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-mail-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-mail-api-openapi.yml
 - filename: ku-leuven-meta-api-openapi.yml
   format: yaml
   label: KU Leuven Meta API
   slug: ku-leuven-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-meta-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-meta-api-openapi.yml
 - filename: ku-leuven-metadatablocks-api-openapi.yml
   format: yaml
   label: KU Leuven Metadatablocks API
   slug: ku-leuven-metadatablocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-metadatablocks-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-metadatablocks-api-openapi.yml
 - filename: ku-leuven-mydata-api-openapi.yml
   format: yaml
   label: KU Leuven Mydata API
   slug: ku-leuven-mydata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-mydata-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-mydata-api-openapi.yml
 - filename: ku-leuven-notifications-api-openapi.yml
   format: yaml
   label: KU Leuven Notifications API
   slug: ku-leuven-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-notifications-api-openapi.yml
 - filename: ku-leuven-pids-api-openapi.yml
   format: yaml
   label: KU Leuven Pids API
   slug: ku-leuven-pids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-pids-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-pids-api-openapi.yml
 - filename: ku-leuven-replacefilesindataset-api-openapi.yml
   format: yaml
   label: KU Leuven Replace Files In Dataset API
   slug: ku-leuven-replacefilesindataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-replacefilesindataset-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-replacefilesindataset-api-openapi.yml
 - filename: ku-leuven-roles-api-openapi.yml
   format: yaml
   label: KU Leuven Roles API
   slug: ku-leuven-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-roles-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-roles-api-openapi.yml
 - filename: ku-leuven-saveauxiliaryfilewithversion-api-openapi.yml
   format: yaml
   label: KU Leuven Save Auxiliary File With Version API
   slug: ku-leuven-saveauxiliaryfilewithversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-saveauxiliaryfilewithversion-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-saveauxiliaryfilewithversion-api-openapi.yml
 - filename: ku-leuven-search-api-openapi.yml
   format: yaml
   label: KU Leuven Search API
   slug: ku-leuven-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-search-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-search-api-openapi.yml
 - filename: ku-leuven-uploaddatasetlogo-api-openapi.yml
   format: yaml
   label: KU Leuven Upload Dataset Logo API
   slug: ku-leuven-uploaddatasetlogo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-uploaddatasetlogo-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-uploaddatasetlogo-api-openapi.yml
 - filename: ku-leuven-users-api-openapi.yml
   format: yaml
   label: KU Leuven Users API
   slug: ku-leuven-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-users-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-users-api-openapi.yml
 - filename: ku-leuven-workflows-api-openapi.yml
   format: yaml
   label: KU Leuven Workflows API
   slug: ku-leuven-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-workflows-api-openapi.yml
 - filename: ku-leuven-curriculum-api-openapi.yml
   format: yaml
   label: KU Leuven Curriculum API
   slug: ku-leuven-curriculum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-curriculum-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-curriculum-api-openapi.yml
 - filename: ku-leuven-organigram-api-openapi.yml
   format: yaml
   label: KU Leuven Organigram API
   slug: ku-leuven-organigram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-organigram-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-organigram-api-openapi.yml
 - filename: ku-leuven-person-api-openapi.yml
   format: yaml
   label: KU Leuven Person API
   slug: ku-leuven-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-person-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-person-api-openapi.yml
 - filename: ku-leuven-programs-api-openapi.yml
   format: yaml
   label: KU Leuven Programs API
   slug: ku-leuven-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-programs-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-programs-api-openapi.yml
 - filename: ku-leuven-researchinfrastructure-api-openapi.yml
   format: yaml
   label: KU Leuven Research Infrastructure API
   slug: ku-leuven-researchinfrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-researchinfrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-researchinfrastructure-api-openapi.yml
 - filename: ku-leuven-researchprojects-api-openapi.yml
   format: yaml
   label: KU Leuven Research Projects API
   slug: ku-leuven-researchprojects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-researchprojects-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-researchprojects-api-openapi.yml
 - filename: ku-leuven-researchteams-api-openapi.yml
   format: yaml
   label: KU Leuven Research Teams API
   slug: ku-leuven-researchteams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-researchteams-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-researchteams-api-openapi.yml
 - filename: ku-leuven-vacancies-api-openapi.yml
   format: yaml
   label: KU Leuven Vacancies API
   slug: ku-leuven-vacancies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-vacancies-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-vacancies-api-openapi.yml
 - filename: ku-leuven-external-tools-api-openapi.yml
   format: yaml
   label: KU Leuven External Tools API
   slug: ku-leuven-external-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-external-tools-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-external-tools-api-openapi.yml
 - filename: ku-leuven-send-feedback-api-openapi.yml
   format: yaml
   label: KU Leuven Send Feedback API
   slug: ku-leuven-send-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-send-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/ku-leuven/openapi/ku-leuven-send-feedback-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 305
@@ -386,8 +386,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ku-leu
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/externalTools\n  method: post\n  operationId: ExternalTools_addExternalTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/externalTools/{id}\n  method: get\n  operationId: ExternalTools_getExternalTool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/externalTools/{id}\n  method: delete\n  operationId: ExternalTools_deleteExternalTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/featureFlags\n  method: get\n  operationId: Admin_getFeatureFlags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/featureFlags/{flag}\n  method: get\n  operationId: Admin_getFeatureFlag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/feedback\n  method: post\n  operationId: FeedbackApi_submitFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/groups/domain\n  method: get\n  operationId: Groups_listMailDomainGroups\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/groups/domain\n  method: post\n  operationId: Groups_createMailDomainGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/groups/domain/{groupAlias}\n  method: get\n  operationId: Groups_getMailDomainGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/groups/domain/{groupAlias}\n  method: put\n  operationId: Groups_updateMailDomainGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
-  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/groups/domain/{groupAlias}\n  method: delete\n  operationId: Groups_deleteMailDomainGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/groups/ip\n  method: get\n  operationId: Groups_listIpGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (163 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/agentic-access/ku-leuven-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/agentic-access/ku-leuven-agentic-access.yml
+  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/groups/domain/{groupAlias}\n  method: delete\n  operationId: Groups_deleteMailDomainGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/groups/ip\n  method: get\n  operationId: Groups_listIpGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (163 KB total) ---\n# Full source: https://artifacts.apis.io/ku-leuven/agentic-access/ku-leuven-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ku-leuven/agentic-access/ku-leuven-agentic-access.yml
 summary_line: 560 operations · 255 acting · 7 human-in-the-loop
 tags:
 - University

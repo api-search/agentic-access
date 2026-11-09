@@ -9,37 +9,37 @@ api_specs:
   label: Adobe Workfront Fields API
   slug: workfront-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-fields-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-fields-api-openapi.yml
 - filename: workfront-permissions-api-openapi.yml
   format: yaml
   label: Adobe Workfront Permissions API
   slug: workfront-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-permissions-api-openapi.yml
 - filename: workfront-record-types-api-openapi.yml
   format: yaml
   label: Adobe Workfront Record Types API
   slug: workfront-record-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-record-types-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-record-types-api-openapi.yml
 - filename: workfront-records-api-openapi.yml
   format: yaml
   label: Adobe Workfront Records API
   slug: workfront-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-records-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-records-api-openapi.yml
 - filename: workfront-views-api-openapi.yml
   format: yaml
   label: Adobe Workfront Views API
   slug: workfront-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-views-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-views-api-openapi.yml
 - filename: workfront-workspaces-api-openapi.yml
   format: yaml
   label: Adobe Workfront Workspaces API
   slug: workfront-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-workspaces-api-openapi.yml
 consequence_counts:
   read: 25
   safety-critical: 1
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/workfr
   \ high-value\n    audit: required\n- path: /v2/record-types/{recordTypeId}/views\n  method: get\n  operationId: getViewsByRecordType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/record-types/{recordTypeId}/views\n  method: post\n  operationId: createView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces\n  method: get\n  operationId: getWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workspaces/{id}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/workspaces/{id}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/workspaces/{id}\n  method: put\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/workspaces/{id}\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v2/workspaces/{id}\n  method: patch\n  operationId: patchWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/workspaces\n  method: get\n  operationId: getWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/agentic-access/workfront-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workfront/agentic-access/workfront-agentic-access.yml
 summary_line: 59 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Company

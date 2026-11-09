@@ -9,31 +9,31 @@ api_specs:
   label: Stacks Ai Analytics API
   slug: stacks-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-analytics-api-openapi.yml
 - filename: stacks-ai-knowledge-base-resources-api-openapi.yml
   format: yaml
   label: Stacks Ai Knowledge Base Resources API
   slug: stacks-ai-knowledge-base-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-base-resources-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-knowledge-base-resources-api-openapi.yml
 - filename: stacks-ai-knowledge-base-sync-api-openapi.yml
   format: yaml
   label: Stacks Ai Knowledge Base Sync API
   slug: stacks-ai-knowledge-base-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-base-sync-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-knowledge-base-sync-api-openapi.yml
 - filename: stacks-ai-knowledge-bases-api-openapi.yml
   format: yaml
   label: Stacks Ai Knowledge Bases API
   slug: stacks-ai-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-knowledge-bases-api-openapi.yml
 - filename: stacks-ai-run-flow-api-openapi.yml
   format: yaml
   label: Stacks Ai Run Flow API
   slug: stacks-ai-run-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-run-flow-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-run-flow-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/stacks
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/knowledge-bases/{knowledge_base_id}/sync\n  method: post\n  operationId: syncKnowledgeBase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/knowledge-bases\n  method: get\n  operationId: listKnowledgeBases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/knowledge-bases\n  method: post\n  operationId: createKnowledgeBase\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/knowledge-bases/{knowledge_base_id}\n  method: get\n  operationId: getKnowledgeBase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/knowledge-bases/{knowledge_base_id}\n  method: delete\n  operationId: deleteKnowledgeBase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/knowledge-bases/{knowledge_base_id}\n  method: patch\n  operationId: updateKnowledgeBase\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/org/{org_id}/flows/{flow_id}\n  method: get\n  operationId: getAnalyticsDataApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/analytics/projects-run-summary\n  method: get\n  operationId: get_org_analytics_data_api_organizations_analytics_projects_run_summary_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/agentic-access/stacks-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stacks-ai/agentic-access/stacks-ai-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Company

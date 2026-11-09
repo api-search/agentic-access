@@ -9,265 +9,265 @@ api_specs:
   label: Rocket Matter Authentication API
   slug: rocket-matter-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-authentication-api-openapi.yml
 - filename: rocket-matter-badges-api-openapi.yml
   format: yaml
   label: Rocket Matter Badges API
   slug: rocket-matter-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-badges-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-badges-api-openapi.yml
 - filename: rocket-matter-billableactivity-api-openapi.yml
   format: yaml
   label: Rocket Matter Billable Activity API
   slug: rocket-matter-billableactivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-billableactivity-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-billableactivity-api-openapi.yml
 - filename: rocket-matter-billingtiers-api-openapi.yml
   format: yaml
   label: Rocket Matter Billing Tiers API
   slug: rocket-matter-billingtiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-billingtiers-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-billingtiers-api-openapi.yml
 - filename: rocket-matter-calendarentries-api-openapi.yml
   format: yaml
   label: Rocket Matter Calendar Entries API
   slug: rocket-matter-calendarentries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-calendarentries-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-calendarentries-api-openapi.yml
 - filename: rocket-matter-clients-api-openapi.yml
   format: yaml
   label: Rocket Matter Clients API
   slug: rocket-matter-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-clients-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-clients-api-openapi.yml
 - filename: rocket-matter-communicator-api-openapi.yml
   format: yaml
   label: Rocket Matter Communicator API
   slug: rocket-matter-communicator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-communicator-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-communicator-api-openapi.yml
 - filename: rocket-matter-contacts-api-openapi.yml
   format: yaml
   label: Rocket Matter Contacts API
   slug: rocket-matter-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-contacts-api-openapi.yml
 - filename: rocket-matter-courtrules-api-openapi.yml
   format: yaml
   label: Rocket Matter Court Rules API
   slug: rocket-matter-courtrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-courtrules-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-courtrules-api-openapi.yml
 - filename: rocket-matter-discounts-api-openapi.yml
   format: yaml
   label: Rocket Matter Discounts API
   slug: rocket-matter-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-discounts-api-openapi.yml
 - filename: rocket-matter-documents-api-openapi.yml
   format: yaml
   label: Rocket Matter Documents API
   slug: rocket-matter-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-documents-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-documents-api-openapi.yml
 - filename: rocket-matter-documenttemplates-api-openapi.yml
   format: yaml
   label: Rocket Matter Document Templates API
   slug: rocket-matter-documenttemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-documenttemplates-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-documenttemplates-api-openapi.yml
 - filename: rocket-matter-dropbox-api-openapi.yml
   format: yaml
   label: Rocket Matter Drop Box API
   slug: rocket-matter-dropbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-dropbox-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-dropbox-api-openapi.yml
 - filename: rocket-matter-features-api-openapi.yml
   format: yaml
   label: Rocket Matter Features API
   slug: rocket-matter-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-features-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-features-api-openapi.yml
 - filename: rocket-matter-firmroles-api-openapi.yml
   format: yaml
   label: Rocket Matter Firm Roles API
   slug: rocket-matter-firmroles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-firmroles-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-firmroles-api-openapi.yml
 - filename: rocket-matter-google-api-openapi.yml
   format: yaml
   label: Rocket Matter Google API
   slug: rocket-matter-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-google-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-google-api-openapi.yml
 - filename: rocket-matter-interests-api-openapi.yml
   format: yaml
   label: Rocket Matter Interests API
   slug: rocket-matter-interests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-interests-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-interests-api-openapi.yml
 - filename: rocket-matter-invoices-api-openapi.yml
   format: yaml
   label: Rocket Matter Invoices API
   slug: rocket-matter-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-invoices-api-openapi.yml
 - filename: rocket-matter-matters-api-openapi.yml
   format: yaml
   label: Rocket Matter Matters API
   slug: rocket-matter-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-matters-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-matters-api-openapi.yml
 - filename: rocket-matter-mattertemplatedateoptions-api-openapi.yml
   format: yaml
   label: Rocket Matter Matter Template Date Options API
   slug: rocket-matter-mattertemplatedateoptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-mattertemplatedateoptions-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-mattertemplatedateoptions-api-openapi.yml
 - filename: rocket-matter-mattertemplatemilestoneactions-api-openapi.yml
   format: yaml
   label: Rocket Matter Matter Template Milestone Actions API
   slug: rocket-matter-mattertemplatemilestoneactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-mattertemplatemilestoneactions-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-mattertemplatemilestoneactions-api-openapi.yml
 - filename: rocket-matter-mattertemplates-api-openapi.yml
   format: yaml
   label: Rocket Matter Matter Templates API
   slug: rocket-matter-mattertemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-mattertemplates-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-mattertemplates-api-openapi.yml
 - filename: rocket-matter-mattertypes-api-openapi.yml
   format: yaml
   label: Rocket Matter Matter Types API
   slug: rocket-matter-mattertypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-mattertypes-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-mattertypes-api-openapi.yml
 - filename: rocket-matter-messages-api-openapi.yml
   format: yaml
   label: Rocket Matter Messages API
   slug: rocket-matter-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-messages-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-messages-api-openapi.yml
 - filename: rocket-matter-mobile-api-openapi.yml
   format: yaml
   label: Rocket Matter Mobile API
   slug: rocket-matter-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-mobile-api-openapi.yml
 - filename: rocket-matter-office-api-openapi.yml
   format: yaml
   label: Rocket Matter Office API
   slug: rocket-matter-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-office-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-office-api-openapi.yml
 - filename: rocket-matter-originsystem-api-openapi.yml
   format: yaml
   label: Rocket Matter Origin System API
   slug: rocket-matter-originsystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-originsystem-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-originsystem-api-openapi.yml
 - filename: rocket-matter-quickbooks-api-openapi.yml
   format: yaml
   label: Rocket Matter Quickbooks API
   slug: rocket-matter-quickbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-quickbooks-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-quickbooks-api-openapi.yml
 - filename: rocket-matter-rates-api-openapi.yml
   format: yaml
   label: Rocket Matter Rates API
   slug: rocket-matter-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-rates-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-rates-api-openapi.yml
 - filename: rocket-matter-recurringbilling-api-openapi.yml
   format: yaml
   label: Rocket Matter Recurring Billing API
   slug: rocket-matter-recurringbilling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-recurringbilling-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-recurringbilling-api-openapi.yml
 - filename: rocket-matter-reports-api-openapi.yml
   format: yaml
   label: Rocket Matter Reports API
   slug: rocket-matter-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-reports-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-reports-api-openapi.yml
 - filename: rocket-matter-search-api-openapi.yml
   format: yaml
   label: Rocket Matter Search API
   slug: rocket-matter-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-search-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-search-api-openapi.yml
 - filename: rocket-matter-signup-api-openapi.yml
   format: yaml
   label: Rocket Matter Signup API
   slug: rocket-matter-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-signup-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-signup-api-openapi.yml
 - filename: rocket-matter-surchargerates-api-openapi.yml
   format: yaml
   label: Rocket Matter Surcharge Rates API
   slug: rocket-matter-surchargerates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-surchargerates-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-surchargerates-api-openapi.yml
 - filename: rocket-matter-tags-api-openapi.yml
   format: yaml
   label: Rocket Matter Tags API
   slug: rocket-matter-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-tags-api-openapi.yml
 - filename: rocket-matter-tasks-api-openapi.yml
   format: yaml
   label: Rocket Matter Tasks API
   slug: rocket-matter-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-tasks-api-openapi.yml
 - filename: rocket-matter-taxrates-api-openapi.yml
   format: yaml
   label: Rocket Matter Tax Rates API
   slug: rocket-matter-taxrates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-taxrates-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-taxrates-api-openapi.yml
 - filename: rocket-matter-timeoptions-api-openapi.yml
   format: yaml
   label: Rocket Matter Time Options API
   slug: rocket-matter-timeoptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-timeoptions-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-timeoptions-api-openapi.yml
 - filename: rocket-matter-timer-api-openapi.yml
   format: yaml
   label: Rocket Matter Timer API
   slug: rocket-matter-timer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-timer-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-timer-api-openapi.yml
 - filename: rocket-matter-trust-api-openapi.yml
   format: yaml
   label: Rocket Matter Trust API
   slug: rocket-matter-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-trust-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-trust-api-openapi.yml
 - filename: rocket-matter-twofactorauthentication-api-openapi.yml
   format: yaml
   label: Rocket Matter Two Factor Authentication API
   slug: rocket-matter-twofactorauthentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-twofactorauthentication-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-twofactorauthentication-api-openapi.yml
 - filename: rocket-matter-users-api-openapi.yml
   format: yaml
   label: Rocket Matter Users API
   slug: rocket-matter-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-users-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-users-api-openapi.yml
 - filename: rocket-matter-validations-api-openapi.yml
   format: yaml
   label: Rocket Matter Validations API
   slug: rocket-matter-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-validations-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-validations-api-openapi.yml
 - filename: rocket-matter-workflow-api-openapi.yml
   format: yaml
   label: Rocket Matter Work Flow API
   slug: rocket-matter-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/openapi/rocket-matter-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/rocket-matter/openapi/rocket-matter-workflow-api-openapi.yml
 consequence_counts:
   physical: 34
   read: 168
@@ -457,8 +457,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rocket
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Documents.svc/json/GetInvoicedDocuments\n  method: post\n  operationId: GetInvoicedDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Documents.svc/json/DeleteDocument\n  method: post\n  operationId: DeleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Documents.svc/json/DeleteNote\n  method: post\n  operationId: DeleteNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Documents.svc/json/GetPortalDocumentContacts\n  method: post\n  operationId: GetPortalDocumentContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Documents.svc/json/SavePortalDocumentContacts\n  method: post\n  operationId: SavePortalDocumentContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Documents.svc/json/GetDocumentUploadUrl\n  method: post\n  operationId: GetDocumentUploadUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Documents.svc/json/GetInvoiceTempateUploadUrl\n  method: post\n  operationId: GetInvoiceTempateUploadUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Documents.svc/json/SaveDocumentsForMatter\n  method: post\n  operationId: SaveDocumentsForMatter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n\n\n# --- truncated at 32 KB (102 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/agentic-access/rocket-matter-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/agentic-access/rocket-matter-agentic-access.yml
+  \ required\n\n\n# --- truncated at 32 KB (102 KB total) ---\n# Full source: https://artifacts.apis.io/rocket-matter/agentic-access/rocket-matter-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/rocket-matter/agentic-access/rocket-matter-agentic-access.yml
 summary_line: 341 operations · 173 acting · 3 human-in-the-loop
 tags:
 - Company

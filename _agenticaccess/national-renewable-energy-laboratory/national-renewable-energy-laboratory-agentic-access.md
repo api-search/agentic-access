@@ -8,25 +8,25 @@ api_specs:
   label: National Renewable Energy Laboratory Alt Fuel Stations API
   slug: national-renewable-energy-laboratory-alt-fuel-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/openapi/national-renewable-energy-laboratory-alt-fuel-stations-api-openapi.yml
+  url: https://artifacts.apis.io/national-renewable-energy-laboratory/openapi/national-renewable-energy-laboratory-alt-fuel-stations-api-openapi.yml
 - filename: national-renewable-energy-laboratory-pvwatts-api-openapi.yml
   format: yaml
   label: National Renewable Energy Laboratory Pvwatts API
   slug: national-renewable-energy-laboratory-pvwatts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/openapi/national-renewable-energy-laboratory-pvwatts-api-openapi.yml
+  url: https://artifacts.apis.io/national-renewable-energy-laboratory/openapi/national-renewable-energy-laboratory-pvwatts-api-openapi.yml
 - filename: national-renewable-energy-laboratory-solar-api-openapi.yml
   format: yaml
   label: National Renewable Energy Laboratory Solar API
   slug: national-renewable-energy-laboratory-solar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/openapi/national-renewable-energy-laboratory-solar-api-openapi.yml
+  url: https://artifacts.apis.io/national-renewable-energy-laboratory/openapi/national-renewable-energy-laboratory-solar-api-openapi.yml
 - filename: national-renewable-energy-laboratory-utility-rates-api-openapi.yml
   format: yaml
   label: National Renewable Energy Laboratory Utility Rates API
   slug: national-renewable-energy-laboratory-utility-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/openapi/national-renewable-energy-laboratory-utility-rates-api-openapi.yml
+  url: https://artifacts.apis.io/national-renewable-energy-laboratory/openapi/national-renewable-energy-laboratory-utility-rates-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/national-renewable-energy-laboratory-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /alt-fuel-stations/v1.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alt-fuel-stations/v1/nearest.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pvwatts/v8.json\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utility_rates/v3.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solar/solar_resource/v1.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/agentic-access/national-renewable-energy-laboratory-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/national-renewable-energy-laboratory/agentic-access/national-renewable-energy-laboratory-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Energy

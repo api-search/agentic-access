@@ -9,127 +9,127 @@ api_specs:
   label: emnify Application Tokens API
   slug: emnify-applicationtokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-applicationtokens-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-applicationtokens-api-openapi.yml
 - filename: emnify-authentication-api-openapi.yml
   format: yaml
   label: emnify Authentication API
   slug: emnify-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-authentication-api-openapi.yml
 - filename: emnify-cloudconnect-api-openapi.yml
   format: yaml
   label: emnify Cloud Connect API
   slug: emnify-cloudconnect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-cloudconnect-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-cloudconnect-api-openapi.yml
 - filename: emnify-endpoint-api-openapi.yml
   format: yaml
   label: emnify Endpoint API
   slug: emnify-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-endpoint-api-openapi.yml
 - filename: emnify-events-api-openapi.yml
   format: yaml
   label: emnify Events API
   slug: emnify-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-events-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-events-api-openapi.yml
 - filename: emnify-flowlogs-api-openapi.yml
   format: yaml
   label: emnify Flow Logs API
   slug: emnify-flowlogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-flowlogs-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-flowlogs-api-openapi.yml
 - filename: emnify-integrations-api-openapi.yml
   format: yaml
   label: emnify Integrations API
   slug: emnify-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-integrations-api-openapi.yml
 - filename: emnify-ipaddressspaces-api-openapi.yml
   format: yaml
   label: emnify Ip Address Spaces API
   slug: emnify-ipaddressspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-ipaddressspaces-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-ipaddressspaces-api-openapi.yml
 - filename: emnify-lookups-api-openapi.yml
   format: yaml
   label: emnify Lookups API
   slug: emnify-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-lookups-api-openapi.yml
 - filename: emnify-operator-api-openapi.yml
   format: yaml
   label: emnify Operator API
   slug: emnify-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-operator-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-operator-api-openapi.yml
 - filename: emnify-organization-api-openapi.yml
   format: yaml
   label: emnify Organization API
   slug: emnify-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-organization-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-organization-api-openapi.yml
 - filename: emnify-passwordmanagementandactivation-api-openapi.yml
   format: yaml
   label: emnify Password Management And Activation API
   slug: emnify-passwordmanagementandactivation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-passwordmanagementandactivation-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-passwordmanagementandactivation-api-openapi.yml
 - filename: emnify-permissionandrolemanagement-api-openapi.yml
   format: yaml
   label: emnify Permission And Role Management API
   slug: emnify-permissionandrolemanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-permissionandrolemanagement-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-permissionandrolemanagement-api-openapi.yml
 - filename: emnify-servicelookupsandconfiguration-api-openapi.yml
   format: yaml
   label: emnify Service Lookups And Configuration API
   slug: emnify-servicelookupsandconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-servicelookupsandconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-servicelookupsandconfiguration-api-openapi.yml
 - filename: emnify-serviceprofiles-api-openapi.yml
   format: yaml
   label: emnify Service Profiles API
   slug: emnify-serviceprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-serviceprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-serviceprofiles-api-openapi.yml
 - filename: emnify-sim-api-openapi.yml
   format: yaml
   label: emnify Sim API
   slug: emnify-sim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-sim-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-sim-api-openapi.yml
 - filename: emnify-tagmanagement-api-openapi.yml
   format: yaml
   label: emnify Tag Management API
   slug: emnify-tagmanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-tagmanagement-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-tagmanagement-api-openapi.yml
 - filename: emnify-tariffplans-api-openapi.yml
   format: yaml
   label: emnify Tariff Plans API
   slug: emnify-tariffplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-tariffplans-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-tariffplans-api-openapi.yml
 - filename: emnify-tariffprofiles-api-openapi.yml
   format: yaml
   label: emnify Tariff Profiles API
   slug: emnify-tariffprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-tariffprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-tariffprofiles-api-openapi.yml
 - filename: emnify-workspaces-api-openapi.yml
   format: yaml
   label: emnify Workspaces API
   slug: emnify-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-workspaces-api-openapi.yml
 - filename: emnify-user-management-api-openapi.yml
   format: yaml
   label: emnify User Management API
   slug: emnify-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-user-management-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 109
@@ -213,8 +213,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/emnify
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/organisation/{org_id_or_my}/stats\n  method: get\n  operationId: get-organisation-monthly-stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organisation/{org_id_or_my}/stats/daily\n  method: get\n  operationId: get-organisation-daily-stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organisation/{org_id_or_my}/stats/hourly\n  method: get\n  operationId: get-organisation-hourly-stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organisation/{org_id_or_my}/tariff_plan/active\n  method: get\n  operationId: get-organisation-active-tariff-plan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organisation/{org_id}/tariff\n  method: patch\n  operationId: update-organisation-tariff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/organisation/{org_id}/tariff_plan\n  method: get\n  operationId: organisation-tariff-plan-by-org-id-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/rat_type\n\
   \  method: get\n  operationId: rat-type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/service\n  method: get\n  operationId: service-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/service/{service_id}/traffic_limit\n  method: get\n  operationId: service-traffic-limit-by-id-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/service_level\n  method: get\n  operationId: list-service-levels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/service_profile\n  method: get\n  operationId: service-profile-get\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/service_profile\n  method: post\n  operationId: service-profile-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/service_profile/{profile_id}\n  method: get\n  operationId: service-profile-by-profile-id-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (63 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/agentic-access/emnify-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/agentic-access/emnify-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/service_profile\n  method: post\n  operationId: service-profile-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/service_profile/{profile_id}\n  method: get\n  operationId: service-profile-by-profile-id-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (63 KB total) ---\n# Full source: https://artifacts.apis.io/emnify/agentic-access/emnify-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/emnify/agentic-access/emnify-agentic-access.yml
 summary_line: 214 operations · 105 acting · 1 human-in-the-loop
 tags:
 - IoT

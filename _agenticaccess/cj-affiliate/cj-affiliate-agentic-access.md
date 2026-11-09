@@ -7,49 +7,49 @@ api_specs:
   label: CJ Commission Detail API
   slug: cj-affiliate-commission-detail-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/collections/cj-affiliate.postman_collection.json
+  url: https://artifacts.apis.io/cj-affiliate/collections/cj-affiliate.postman_collection.json
 - filename: cj-affiliate-ads-asyncapi.yml
   format: yaml
   label: CJ Product Search API
   slug: cj-affiliate-product-search-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/asyncapi/cj-affiliate-ads-asyncapi.yml
+  url: https://artifacts.apis.io/cj-affiliate/asyncapi/cj-affiliate-ads-asyncapi.yml
 - filename: cj-affiliate-advertiser-lookup-api-openapi.yml
   format: yaml
   label: CJ Affiliate Advertiser Lookup API
   slug: cj-affiliate-advertiser-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-advertiser-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/cj-affiliate/openapi/cj-affiliate-advertiser-lookup-api-openapi.yml
 - filename: cj-affiliate-link-search-api-openapi.yml
   format: yaml
   label: CJ Affiliate Link Search API
   slug: cj-affiliate-link-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-link-search-api-openapi.yml
+  url: https://artifacts.apis.io/cj-affiliate/openapi/cj-affiliate-link-search-api-openapi.yml
 - filename: cj-affiliate-publisher-lookup-api-openapi.yml
   format: yaml
   label: CJ Affiliate Publisher Lookup API
   slug: cj-affiliate-publisher-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-publisher-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/cj-affiliate/openapi/cj-affiliate-publisher-lookup-api-openapi.yml
 - filename: cj-affiliate-click-events-api-openapi.yml
   format: yaml
   label: CJ Affiliate Click Events API
   slug: cj-affiliate-click-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-click-events-api-openapi.yml
+  url: https://artifacts.apis.io/cj-affiliate/openapi/cj-affiliate-click-events-api-openapi.yml
 - filename: cj-affiliate-publisher-tracking-api-openapi.yml
   format: yaml
   label: CJ Affiliate Publisher Tracking API
   slug: cj-affiliate-publisher-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-publisher-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/cj-affiliate/openapi/cj-affiliate-publisher-tracking-api-openapi.yml
 - filename: cj-affiliate-commission-detail-legacy-api-openapi.yml
   format: yaml
   label: CJ Affiliate Commission Detail API (Legacy)
   slug: cj-affiliate-commission-detail-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/openapi/cj-affiliate-commission-detail-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/cj-affiliate/openapi/cj-affiliate-commission-detail-legacy-api-openapi.yml
 consequence_counts:
   destructive: 1
   financial-write: 3
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/_origina
   \ productFeeds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    human-in-the-loop: false\n    token:\n      max-ttl: 3600\n    audit: none\n- endpoint: ads.api.cj.com/query\n  field: createShoppingProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: write\n    subject: required\n    human-in-the-loop: true\n    token:\n      max-ttl: 3600\n    audit: required\n- endpoint: ads.api.cj.com/query\n  field: updateShoppingProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: write\n    subject: required\n    human-in-the-loop: true\n    token:\n      max-ttl: 3600\n    audit: required\n- endpoint: ads.api.cj.com/query\n  field: deleteProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: destructive\n    subject: required\n    human-in-the-loop: true\n    token:\n      max-ttl: 3600\n    audit: required\n- endpoint: ads.api.cj.com/query\n  field: createCreditCardProducts\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: write\n    subject: required\n    human-in-the-loop: true\n    token:\n      max-ttl: 3600\n    audit: required\n- endpoint: ads.api.cj.com/query\n  field: updateCreditCardProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: write\n    subject: required\n    human-in-the-loop: true\n    token:\n      max-ttl: 3600\n    audit: required\n- endpoint: tracking.api.cj.com/graphql\n  field: createOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: financial-write\n    subject: required\n    human-in-the-loop: true\n    token:\n      max-ttl: 3600\n    audit: required\n- endpoint: tracking.api.cj.com/graphql\n  field: restateOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: financial-write\n    subject: required\n    human-in-the-loop: true\n    token:\n      max-ttl: 3600\n    audit: required\n- endpoint: tracking.api.cj.com/graphql\n  field: cancelOrders\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: financial-write\n    subject: required\n    human-in-the-loop: true\n    token:\n      max-ttl: 3600\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/agentic-access/cj-affiliate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cj-affiliate/agentic-access/cj-affiliate-agentic-access.yml
 summary_line: 24 operations · 10 human-in-the-loop
 tags:
 - Affiliate Marketing

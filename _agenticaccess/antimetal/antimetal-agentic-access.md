@@ -9,19 +9,19 @@ api_specs:
   label: Antimetal Artifacts API
   slug: antimetal-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/openapi/antimetal-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/antimetal/openapi/antimetal-artifacts-api-openapi.yml
 - filename: antimetal-issues-api-openapi.yml
   format: yaml
   label: Antimetal Issues API
   slug: antimetal-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/openapi/antimetal-issues-api-openapi.yml
+  url: https://artifacts.apis.io/antimetal/openapi/antimetal-issues-api-openapi.yml
 - filename: antimetal-query-api-openapi.yml
   format: yaml
   label: Antimetal Query API
   slug: antimetal-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/openapi/antimetal-query-api-openapi.yml
+  url: https://artifacts.apis.io/antimetal/openapi/antimetal-query-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/antimetal-artifacts-api-openapi.yml, openapi/antimetal-issues-api-openapi.yml,\n  openapi/antimetal-query-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 6\n    acting: 3\n  by_consequence:\n    read: 6\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /artifacts\n  method: get\n  operationId: batchGetArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues\n  method: post\n  operationId: createIssue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues\n  method: get\n  operationId: listIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues/by_number/{number}\n  method: get\n  operationId: getIssueByNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues/{id}\n  method: get\n  operationId: getIssue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues/{id}\n  method: patch\n  operationId: updateIssueStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues/{id}\n  method: delete\n  operationId: deleteIssue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues/{id}/results\n  method: get\n  operationId: getIssueResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query\n  method: post\n  operationId: query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/agentic-access/antimetal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/antimetal/agentic-access/antimetal-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Company

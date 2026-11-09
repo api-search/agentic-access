@@ -9,91 +9,91 @@ api_specs:
   label: 7shifts Availability API
   slug: 7shifts-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-availability-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-availability-api-openapi.yml
 - filename: 7shifts-companies-api-openapi.yml
   format: yaml
   label: 7shifts Companies API
   slug: 7shifts-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-companies-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-companies-api-openapi.yml
 - filename: 7shifts-departments-api-openapi.yml
   format: yaml
   label: 7shifts Departments API
   slug: 7shifts-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-departments-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-departments-api-openapi.yml
 - filename: 7shifts-identity-api-openapi.yml
   format: yaml
   label: 7shifts Identity API
   slug: 7shifts-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-identity-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-identity-api-openapi.yml
 - filename: 7shifts-locations-api-openapi.yml
   format: yaml
   label: 7shifts Locations API
   slug: 7shifts-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-locations-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-locations-api-openapi.yml
 - filename: 7shifts-reporting-api-openapi.yml
   format: yaml
   label: 7shifts Reporting API
   slug: 7shifts-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-reporting-api-openapi.yml
 - filename: 7shifts-roles-api-openapi.yml
   format: yaml
   label: 7shifts Roles API
   slug: 7shifts-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-roles-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-roles-api-openapi.yml
 - filename: 7shifts-sales-api-openapi.yml
   format: yaml
   label: 7shifts Sales API
   slug: 7shifts-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-sales-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-sales-api-openapi.yml
 - filename: 7shifts-shifts-api-openapi.yml
   format: yaml
   label: 7shifts Shifts API
   slug: 7shifts-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-shifts-api-openapi.yml
 - filename: 7shifts-time-off-api-openapi.yml
   format: yaml
   label: 7shifts Time Off API
   slug: 7shifts-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-time-off-api-openapi.yml
 - filename: 7shifts-time-punches-api-openapi.yml
   format: yaml
   label: 7shifts Time Punches API
   slug: 7shifts-time-punches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-time-punches-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-time-punches-api-openapi.yml
 - filename: 7shifts-users-api-openapi.yml
   format: yaml
   label: 7shifts Users API
   slug: 7shifts-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-users-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-users-api-openapi.yml
 - filename: 7shifts-wages-api-openapi.yml
   format: yaml
   label: 7shifts Wages API
   slug: 7shifts-wages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-wages-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-wages-api-openapi.yml
 - filename: 7shifts-webhooks-api-openapi.yml
   format: yaml
   label: 7shifts Webhooks API
   slug: 7shifts-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-webhooks-api-openapi.yml
 - filename: 7shifts-oauth-api-openapi.yml
   format: yaml
   label: 7shifts O Auth API
   slug: 7shifts-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-oauth-api-openapi.yml
 consequence_counts:
   read: 19
   write: 14
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/7shift
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/company/{company_id}/time_off/{time_off_id}/approve\n  method: post\n  operationId: approveTimeOff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/company/{company_id}/availability\n  method: get\n  operationId: listAvailabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company/{company_id}/receipts\n  method: get\n  operationId: listReceipts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company/{company_id}/receipts\n  method: post\n  operationId:\
   \ createReceipt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/company/{company_id}/reports/daily_sales_and_labor\n  method: get\n  operationId: retrieveDailySalesAndLabor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company/{company_id}/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company/{company_id}/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/agentic-access/7shifts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/7shifts/agentic-access/7shifts-agentic-access.yml
 summary_line: 33 operations · 14 acting
 tags:
 - Restaurant

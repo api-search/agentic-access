@@ -9,61 +9,61 @@ api_specs:
   label: Thanos Alerts API
   slug: thanos-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-alerts-api-openapi.yml
 - filename: thanos-blocks-api-openapi.yml
   format: yaml
   label: Thanos Blocks API
   slug: thanos-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-blocks-api-openapi.yml
 - filename: thanos-health-api-openapi.yml
   format: yaml
   label: Thanos Health API
   slug: thanos-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-health-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-health-api-openapi.yml
 - filename: thanos-metadata-api-openapi.yml
   format: yaml
   label: Thanos Metadata API
   slug: thanos-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-metadata-api-openapi.yml
 - filename: thanos-metrics-api-openapi.yml
   format: yaml
   label: Thanos Metrics API
   slug: thanos-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-metrics-api-openapi.yml
 - filename: thanos-query-api-openapi.yml
   format: yaml
   label: Thanos Query API
   slug: thanos-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-query-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-query-api-openapi.yml
 - filename: thanos-remote-write-api-openapi.yml
   format: yaml
   label: Thanos Remote Write API
   slug: thanos-remote-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-remote-write-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-remote-write-api-openapi.yml
 - filename: thanos-rules-api-openapi.yml
   format: yaml
   label: Thanos Rules API
   slug: thanos-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-rules-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-rules-api-openapi.yml
 - filename: thanos-stores-api-openapi.yml
   format: yaml
   label: Thanos Stores API
   slug: thanos-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-stores-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-stores-api-openapi.yml
 - filename: thanos-targets-api-openapi.yml
   format: yaml
   label: Thanos Targets API
   slug: thanos-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/openapi/thanos-targets-api-openapi.yml
+  url: https://artifacts.apis.io/thanos/openapi/thanos-targets-api-openapi.yml
 consequence_counts:
   read: 28
   write: 3
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/thanos
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /-/healthy\n  method: get\n  operationId: getRulerHealthy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/ready\n  method: get\n  operationId: getRulerReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  operationId: getRulerMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/rules\n  method: get\n  operationId: getRulerRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/v1/alerts\n  method: get\n  operationId: getRulerAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/healthy\n  method: get\n  operationId: getSidecarHealthy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/ready\n  method: get\n  operationId: getSidecarReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  operationId: getSidecarMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/healthy\n  method: get\n  operationId: getStoreHealthy\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/ready\n  method: get\n  operationId: getStoreReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  operationId: getStoreMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/blocks\n  method: get\n  operationId: listStoreBlocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/agentic-access/thanos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thanos/agentic-access/thanos-agentic-access.yml
 summary_line: 31 operations · 3 acting
 tags:
 - Metrics

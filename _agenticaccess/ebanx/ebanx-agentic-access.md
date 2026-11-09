@@ -9,37 +9,37 @@ api_specs:
   label: EBANX Tokenization API
   slug: ebanx-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/ebanx/openapi/ebanx-tokenization-api-openapi.yml
 - filename: ebanx-fx-api-openapi.yml
   format: yaml
   label: EBANX FX API
   slug: ebanx-fx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-fx-api-openapi.yml
+  url: https://artifacts.apis.io/ebanx/openapi/ebanx-fx-api-openapi.yml
 - filename: ebanx-notifications-asyncapi.yml
   format: yaml
   label: EBANX Payment Notifications
   slug: ebanx-notifications
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/asyncapi/ebanx-notifications-asyncapi.yml
+  url: https://artifacts.apis.io/ebanx/asyncapi/ebanx-notifications-asyncapi.yml
 - filename: ebanx-paymentpage-api-openapi.yml
   format: yaml
   label: EBANX PaymentPage API
   slug: ebanx-paymentpage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-paymentpage-api-openapi.yml
+  url: https://artifacts.apis.io/ebanx/openapi/ebanx-paymentpage-api-openapi.yml
 - filename: ebanx-payments-api-openapi.yml
   format: yaml
   label: EBANX Payments API
   slug: ebanx-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ebanx/openapi/ebanx-payments-api-openapi.yml
 - filename: ebanx-payouts-api-openapi.yml
   format: yaml
   label: EBANX Payouts API
   slug: ebanx-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/ebanx/openapi/ebanx-payouts-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 11
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ebanx-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/balance\n  method: post\n  operationId: getPayoutBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/payout/banks\n  method: post\n  operationId: listPayoutBanks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/payout/bankDetails\n  method: post\n  operationId: getPayoutBankDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/payout/verify_account\n  method: post\n  operationId: verifyPayeeBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n\
   \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payee/create\n  method: post\n  operationId: createPayee\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/token\n  method: post\n  operationId: createCardToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/token/setCVV\n  method: post\n  operationId: setTokenCVV\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/agentic-access/ebanx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ebanx/agentic-access/ebanx-agentic-access.yml
 summary_line: 29 operations · 18 acting
 tags:
 - Payments

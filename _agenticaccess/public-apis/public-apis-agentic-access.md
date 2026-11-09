@@ -8,19 +8,19 @@ api_specs:
   label: Public APIs Categories API
   slug: public-apis-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/openapi/public-apis-categories-api-openapi.yml
+  url: https://artifacts.apis.io/public-apis/openapi/public-apis-categories-api-openapi.yml
 - filename: public-apis-entries-api-openapi.yml
   format: yaml
   label: Public APIs Entries API
   slug: public-apis-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/openapi/public-apis-entries-api-openapi.yml
+  url: https://artifacts.apis.io/public-apis/openapi/public-apis-entries-api-openapi.yml
 - filename: public-apis-health-api-openapi.yml
   format: yaml
   label: Public APIs Health API
   slug: public-apis-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/openapi/public-apis-health-api-openapi.yml
+  url: https://artifacts.apis.io/public-apis/openapi/public-apis-health-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/public-apis-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /entries\n  method: get\n  operationId: listEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /random\n  method: get\n  operationId: getRandomEntry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/agentic-access/public-apis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/public-apis/agentic-access/public-apis-agentic-access.yml
 summary_line: 4 operations
 tags:
 - API Aggregation

@@ -8,31 +8,31 @@ api_specs:
   label: Mashvisor Investment Analysis API
   slug: mashvisor-investment-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-investment-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-investment-analysis-api-openapi.yml
 - filename: mashvisor-property-info-api-openapi.yml
   format: yaml
   label: Mashvisor Property Info API
   slug: mashvisor-property-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-property-info-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-property-info-api-openapi.yml
 - filename: mashvisor-rental-rates-api-openapi.yml
   format: yaml
   label: Mashvisor Rental Rates API
   slug: mashvisor-rental-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-rental-rates-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-rental-rates-api-openapi.yml
 - filename: mashvisor-search-api-openapi.yml
   format: yaml
   label: Mashvisor Search API
   slug: mashvisor-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-search-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-search-api-openapi.yml
 - filename: mashvisor-trends-api-openapi.yml
   format: yaml
   label: Mashvisor Trends API
   slug: mashvisor-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/openapi/mashvisor-trends-api-openapi.yml
+  url: https://artifacts.apis.io/mashvisor/openapi/mashvisor-trends-api-openapi.yml
 consequence_counts:
   read: 28
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/mashvi
   \  method: get\n  operationId: getPropertyInvestmentBreakdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/property/marker\n  method: get\n  operationId: getPropertyMarker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/neighborhood/{id}/airbnb/details\n  method: get\n  operationId: listNeighborhoodAirbnbDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/neighborhood/{id}/traditional/listing\n  method: get\n  operationId: listNeighborhoodTraditionalListings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/rental-rates\n  method:\
   \ get\n  operationId: getRentalRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/trends/cities\n  method: get\n  operationId: listCityTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/trends/summary/{state}/{city}\n  method: get\n  operationId: getTrendsSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/trends/listing-price\n  method: get\n  operationId: getListingPriceTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/search/heatmap\n  method: get\n  operationId: getSearchHeatmap\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/agentic-access/mashvisor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mashvisor/agentic-access/mashvisor-agentic-access.yml
 summary_line: 28 operations
 tags:
 - Company

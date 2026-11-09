@@ -8,55 +8,55 @@ api_specs:
   label: Landgate Datasets API
   slug: landgate-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-datasets-api-openapi.yml
 - filename: landgate-discovery-api-openapi.yml
   format: yaml
   label: Landgate Discovery API
   slug: landgate-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-discovery-api-openapi.yml
 - filename: landgate-organizations-api-openapi.yml
   format: yaml
   label: Landgate Organizations API
   slug: landgate-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-organizations-api-openapi.yml
 - filename: landgate-query-api-openapi.yml
   format: yaml
   label: Landgate Query API
   slug: landgate-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-query-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-query-api-openapi.yml
 - filename: landgate-server-api-openapi.yml
   format: yaml
   label: Landgate Server API
   slug: landgate-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-server-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-server-api-openapi.yml
 - filename: landgate-services-api-openapi.yml
   format: yaml
   label: Landgate Services API
   slug: landgate-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-services-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-services-api-openapi.yml
 - filename: landgate-site-api-openapi.yml
   format: yaml
   label: Landgate Site API
   slug: landgate-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-site-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-site-api-openapi.yml
 - filename: landgate-wfs-api-openapi.yml
   format: yaml
   label: Landgate WFS API
   slug: landgate-wfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-wfs-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-wfs-api-openapi.yml
 - filename: landgate-wms-api-openapi.yml
   format: yaml
   label: Landgate WMS API
   slug: landgate-wms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/openapi/landgate-wms-api-openapi.yml
+  url: https://artifacts.apis.io/landgate/openapi/landgate-wms-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/landga
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog.jsonld\n  method: get\n  operationId: getDataWaDcatCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info\n  method: get\n  operationId: getSlipServerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: get\n  operationId: listSlipRootServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{folder}\n  method: get\n  operationId: listSlipFolderServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /services/{folder}/{service}/MapServer\n  method: get\n  operationId: getSlipMapService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{folder}/{service}/MapServer/legend\n  method: get\n  operationId: getSlipMapServiceLegend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{folder}/{service}/MapServer/{layerId}\n  method: get\n  operationId: getSlipLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{folder}/{service}/MapServer/{layerId}/query\n  method: get\n  operationId: querySlipLayerFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /services/{folder}/{service}/MapServer/identify\n  method: get\n  operationId: identifySlipFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{folder}/{service}/MapServer/export\n  method: get\n  operationId: exportSlipMapImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{folder}/{service}/MapServer/WMSServer\n  method: get\n  operationId: slipWmsRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{folder}/{service}/MapServer/WFSServer\n  method: get\n  operationId: slipWfsRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/agentic-access/landgate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/landgate/agentic-access/landgate-agentic-access.yml
 summary_line: 27 operations
 tags:
 - Real Estate

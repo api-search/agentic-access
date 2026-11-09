@@ -8,7 +8,7 @@ api_specs:
   label: Shipsy Website AI API
   slug: shipsy-website-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/openapi/shipsy-website-ai-api-openapi.yml
+  url: https://artifacts.apis.io/shipsy/openapi/shipsy-website-ai-api-openapi.yml
 consequence_counts:
   physical: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -39,7 +39,7 @@ source_filename: shipsy-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/shipsy-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1\n  by_action_class:\n    acting: 1\n  by_consequence:\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/iris\n  method: post\n  operationId: irisChat\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/heads/main/agentic-access/shipsy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shipsy/agentic-access/shipsy-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
 - Logistics

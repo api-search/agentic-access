@@ -9,19 +9,19 @@ api_specs:
   label: Crisp Realtime (Webhooks + RTM) v1
   slug: crisp-realtime-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/asyncapi/crisp-asyncapi.yml
+  url: https://artifacts.apis.io/crisp/asyncapi/crisp-asyncapi.yml
 - filename: crisp-conversations-api-openapi.yml
   format: yaml
   label: Crisp Conversations API
   slug: crisp-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/openapi/crisp-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/crisp/openapi/crisp-conversations-api-openapi.yml
 - filename: crisp-website-api-openapi.yml
   format: yaml
   label: Crisp Website API
   slug: crisp-website-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/openapi/crisp-website-api-openapi.yml
+  url: https://artifacts.apis.io/crisp/openapi/crisp-website-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/crisp-
   \ listConversationMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /website/{website_id}/conversation/{session_id}/message\n  method: post\n  operationId: sendConversationMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /website/{website_id}/conversation/{session_id}/state\n  method: patch\n  operationId: updateConversationState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /website/{website_id}/conversation/{session_id}/routing\n  method: patch\n  operationId: updateConversationRouting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /website/{website_id}/conversation/{session_id}/meta\n  method: get\n  operationId: getConversationMeta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /website/{website_id}/conversation/{session_id}/participants\n  method: put\n  operationId: saveConversationParticipants\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/agentic-access/crisp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crisp/agentic-access/crisp-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - Customer Service

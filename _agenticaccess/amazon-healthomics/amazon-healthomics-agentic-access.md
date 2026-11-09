@@ -9,79 +9,121 @@ api_specs:
   label: Amazon HealthOmics Import API
   slug: amazon-healthomics-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-import-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-import-api-openapi.yml
 - filename: amazon-healthomics-referencestore-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Referencestore API
   slug: amazon-healthomics-referencestore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-referencestore-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-referencestore-api-openapi.yml
 - filename: amazon-healthomics-referencestores-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Referencestores API
   slug: amazon-healthomics-referencestores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-referencestores-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-referencestores-api-openapi.yml
 - filename: amazon-healthomics-run-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Run API
   slug: amazon-healthomics-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-run-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-run-api-openapi.yml
 - filename: amazon-healthomics-sequencestore-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Sequencestore API
   slug: amazon-healthomics-sequencestore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-sequencestore-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-sequencestore-api-openapi.yml
 - filename: amazon-healthomics-sequencestores-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Sequencestores API
   slug: amazon-healthomics-sequencestores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-sequencestores-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-sequencestores-api-openapi.yml
 - filename: amazon-healthomics-tags-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Tags API
   slug: amazon-healthomics-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-tags-api-openapi.yml
 - filename: amazon-healthomics-workflow-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Workflow API
   slug: amazon-healthomics-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-workflow-api-openapi.yml
+- filename: amazon-healthomics-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Healthomics Configuration API
+  slug: amazon-healthomics-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-configuration-api-openapi.yml
+- filename: amazon-healthomics-operations-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Healthomics Operations API
+  slug: amazon-healthomics-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-operations-api-openapi.yml
+- filename: amazon-healthomics-runbatch-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Healthomics Runbatch API
+  slug: amazon-healthomics-runbatch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-runbatch-api-openapi.yml
+- filename: amazon-healthomics-runcache-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Healthomics Runcache API
+  slug: amazon-healthomics-runcache-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-runcache-api-openapi.yml
+- filename: amazon-healthomics-s3accesspolicy-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Healthomics S3Accesspolicy API
+  slug: amazon-healthomics-s3accesspolicy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-s3accesspolicy-api-openapi.yml
+- filename: amazon-healthomics-share-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Healthomics Share API
+  slug: amazon-healthomics-share-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-share-api-openapi.yml
+- filename: amazon-healthomics-version-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Healthomics Version API
+  slug: amazon-healthomics-version-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-version-api-openapi.yml
 - filename: amazon-healthomics-annotation-store-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Annotation Store API
   slug: amazon-healthomics-annotation-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-annotation-store-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-annotation-store-api-openapi.yml
 - filename: amazon-healthomics-annotation-stores-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Annotation Stores API
   slug: amazon-healthomics-annotation-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-annotation-stores-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-annotation-stores-api-openapi.yml
 - filename: amazon-healthomics-run-group-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Run Group API
   slug: amazon-healthomics-run-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-run-group-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-run-group-api-openapi.yml
 - filename: amazon-healthomics-variant-store-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Variant Store API
   slug: amazon-healthomics-variant-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-variant-store-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-variant-store-api-openapi.yml
 - filename: amazon-healthomics-variant-stores-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Variant Stores API
   slug: amazon-healthomics-variant-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-variant-stores-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-variant-stores-api-openapi.yml
 consequence_counts:
   read: 29
   write: 43
@@ -131,9 +173,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /variantStore/{name}\n  method: delete\n  operationId: DeleteVariantStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /variantStore/{name}\n  method: get\n  operationId: GetVariantStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variantStore/{name}\n  method: post\n  operationId: UpdateVariantStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /variantStores\n  method: post\n  operationId: ListVariantStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow\n  method: post\n  operationId: CreateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow\n  method: get\n  operationId: ListWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/{id}\n  method: delete\n  operationId: DeleteWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow/{id}\n  method: get\n  operationId: GetWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/{id}\n  method: post\n  operationId: UpdateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/agentic-access/amazon-healthomics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-healthomics/agentic-access/amazon-healthomics-agentic-access.yml
 summary_line: 72 operations · 43 acting
 tags:
+- Amazon Web Services
 - Bioinformatics
 - Genomics
 - Healthcare

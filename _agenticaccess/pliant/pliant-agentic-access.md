@@ -9,115 +9,115 @@ api_specs:
   label: Pliant Account Entries API
   slug: pliant-account-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-account-entries-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-account-entries-api-openapi.yml
 - filename: pliant-accounting-projects-api-openapi.yml
   format: yaml
   label: Pliant Accounting Projects API
   slug: pliant-accounting-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-accounting-projects-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-accounting-projects-api-openapi.yml
 - filename: pliant-accounting-teams-api-openapi.yml
   format: yaml
   label: Pliant Accounting Teams API
   slug: pliant-accounting-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-accounting-teams-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-accounting-teams-api-openapi.yml
 - filename: pliant-accounting-transactions-api-openapi.yml
   format: yaml
   label: Pliant Accounting Transactions API
   slug: pliant-accounting-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-accounting-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-accounting-transactions-api-openapi.yml
 - filename: pliant-callbacks-api-openapi.yml
   format: yaml
   label: Pliant Callbacks API
   slug: pliant-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-callbacks-api-openapi.yml
 - filename: pliant-card-accounts-api-openapi.yml
   format: yaml
   label: Pliant Card Accounts API
   slug: pliant-card-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-card-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-card-accounts-api-openapi.yml
 - filename: pliant-card-controls-api-openapi.yml
   format: yaml
   label: Pliant Card Controls API
   slug: pliant-card-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-card-controls-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-card-controls-api-openapi.yml
 - filename: pliant-card-copilots-api-openapi.yml
   format: yaml
   label: Pliant Card Copilots API
   slug: pliant-card-copilots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-card-copilots-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-card-copilots-api-openapi.yml
 - filename: pliant-card-sensitive-data-api-openapi.yml
   format: yaml
   label: Pliant Card Sensitive Data API
   slug: pliant-card-sensitive-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-card-sensitive-data-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-card-sensitive-data-api-openapi.yml
 - filename: pliant-cardholders-api-openapi.yml
   format: yaml
   label: Pliant Cardholders API
   slug: pliant-cardholders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-cardholders-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-cardholders-api-openapi.yml
 - filename: pliant-cards-api-openapi.yml
   format: yaml
   label: Pliant Cards API
   slug: pliant-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-cards-api-openapi.yml
 - filename: pliant-custom-fields-api-openapi.yml
   format: yaml
   label: Pliant Custom Fields API
   slug: pliant-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-custom-fields-api-openapi.yml
 - filename: pliant-organizations-api-openapi.yml
   format: yaml
   label: Pliant Organizations API
   slug: pliant-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-organizations-api-openapi.yml
 - filename: pliant-payments-api-openapi.yml
   format: yaml
   label: Pliant Payments API
   slug: pliant-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-payments-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-payments-api-openapi.yml
 - filename: pliant-receipt-automatching-api-openapi.yml
   format: yaml
   label: Pliant Receipt Automatching API
   slug: pliant-receipt-automatching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-receipt-automatching-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-receipt-automatching-api-openapi.yml
 - filename: pliant-receipts-api-openapi.yml
   format: yaml
   label: Pliant Receipts API
   slug: pliant-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-receipts-api-openapi.yml
 - filename: pliant-statements-api-openapi.yml
   format: yaml
   label: Pliant Statements API
   slug: pliant-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-statements-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-statements-api-openapi.yml
 - filename: pliant-test-data-generator-sandbox-only-api-openapi.yml
   format: yaml
   label: Pliant Test Data Generator (Sandbox-only) API
   slug: pliant-test-data-generator-sandbox-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-test-data-generator-sandbox-only-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-test-data-generator-sandbox-only-api-openapi.yml
 - filename: pliant-transactions-api-openapi.yml
   format: yaml
   label: Pliant Transactions API
   slug: pliant-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/openapi/pliant-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pliant/openapi/pliant-transactions-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 43
@@ -216,8 +216,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/pliant
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /receipts/automatching/{automatchingTaskId}\n  method: get\n  operationId: get-receipt-automatcher-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /receipts/subscription\n  method: post\n  operationId: create-receipt-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /receipts/subscription\n  method: delete\n  operationId: remove-receipt-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /receipts/{receiptId}\n  method: get\n  operationId: get-receipt-detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /receipts/{receiptId}\n  method: delete\n  operationId: delete-receipt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /receipts/{receiptId}/original\n  method: get\n  operationId: receipt-original\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /receipts/{receiptId}/pdf\n\
   \  method: get\n  operationId: receipt-as-pdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /receipts/{receiptId}/thumbnail\n  method: get\n  operationId: receipt-thumbnail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statements\n  method: get\n  operationId: get-statements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statements/csv\n  method: get\n  operationId: get-statement-csv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statements/subscription\n  method: post\n  operationId: create-statement-subscription\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statements/subscription\n  method: delete\n  operationId: remove-statement-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statements/{statementId}\n  method: get\n  operationId: get-statement-detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/agentic-access/pliant-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/agentic-access/pliant-agentic-access.yml
+  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statements/subscription\n  method: delete\n  operationId: remove-statement-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statements/{statementId}\n  method: get\n  operationId: get-statement-detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/pliant/agentic-access/pliant-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/pliant/agentic-access/pliant-agentic-access.yml
 summary_line: 131 operations · 88 acting · 2 human-in-the-loop
 tags:
 - Company

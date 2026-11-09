@@ -9,25 +9,25 @@ api_specs:
   label: Zoho Writer Combine API
   slug: zoho-writer-combine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-combine-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-combine-api-openapi.yml
 - filename: zoho-writer-documents-api-openapi.yml
   format: yaml
   label: Zoho Writer Documents API
   slug: zoho-writer-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-documents-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-documents-api-openapi.yml
 - filename: zoho-writer-merge-api-openapi.yml
   format: yaml
   label: Zoho Writer Merge API
   slug: zoho-writer-merge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-merge-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-merge-api-openapi.yml
 - filename: zoho-writer-signatures-api-openapi.yml
   format: yaml
   label: Zoho Writer Signatures API
   slug: zoho-writer-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-signatures-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zoho-w
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - WorkDrive.files.ALL\n    - ZohoPC.files.ALL\n    - ZohoWriter.documentEditor.ALL\n    - ZohoWriter.merge.ALL\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{document_id}/merge/execute\n  method: post\n  operationId: mergeAndInvoke\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoWriter.documentEditor.ALL\n    - ZohoWriter.merge.ALL\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/v2/{document_id}/merge/store\n  method: post\n  operationId: mergeAndStoreV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    scope:\n    - WorkDrive.files.ALL\n    - WorkDrive.organization.ALL\n    - ZohoWriter.documentEditor.ALL\n    - ZohoWriter.merge.ALL\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/pdf/combine\n  method: post\n  operationId: combinePdfs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - WorkDrive.organization.ALL\n    - ZohoWriter.documentEditor.ALL\n    - ZohoWriter.merge.ALL\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/pdf/combine/job/{job_id}\n  method: get\n  operationId: getCombineJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n    scope:\n    - WorkDrive.files.ALL\n    - ZohoPC.files.ALL\n    - ZohoWriter.documentEditor.ALL\n- path: /templates/{template_id}/bulkmerge/sign\n  method: post\n  operationId: bulkMergeAndSign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoWriter.documentEditor.ALL\n    - ZohoWriter.merge.ALL\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/agentic-access/zoho-writer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zoho-writer/agentic-access/zoho-writer-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Documents

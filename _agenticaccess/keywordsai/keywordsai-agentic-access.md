@@ -9,55 +9,55 @@ api_specs:
   label: Keywords AI Datasets API
   slug: keywordsai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-datasets-api-openapi.yml
 - filename: keywordsai-evaluators-api-openapi.yml
   format: yaml
   label: Keywords AI Evaluators API
   slug: keywordsai-evaluators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-evaluators-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-evaluators-api-openapi.yml
 - filename: keywordsai-experiments-api-openapi.yml
   format: yaml
   label: Keywords AI Experiments API
   slug: keywordsai-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-experiments-api-openapi.yml
 - filename: keywordsai-gateway-api-openapi.yml
   format: yaml
   label: Keywords AI Gateway API
   slug: keywordsai-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-gateway-api-openapi.yml
 - filename: keywordsai-logging-api-openapi.yml
   format: yaml
   label: Keywords AI Logging API
   slug: keywordsai-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-logging-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-logging-api-openapi.yml
 - filename: keywordsai-prompts-api-openapi.yml
   format: yaml
   label: Keywords AI Prompts API
   slug: keywordsai-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-prompts-api-openapi.yml
 - filename: keywordsai-threads-api-openapi.yml
   format: yaml
   label: Keywords AI Threads API
   slug: keywordsai-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-threads-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-threads-api-openapi.yml
 - filename: keywordsai-traces-api-openapi.yml
   format: yaml
   label: Keywords AI Traces API
   slug: keywordsai-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-traces-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-traces-api-openapi.yml
 - filename: keywordsai-users-api-openapi.yml
   format: yaml
   label: Keywords AI Users API
   slug: keywordsai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/openapi/keywordsai-users-api-openapi.yml
+  url: https://artifacts.apis.io/keywordsai/openapi/keywordsai-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 11
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/keywor
   \  method: get\n  operationId: retrievePrompt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prompts/{prompt_id}/\n  method: patch\n  operationId: updatePrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prompts/{prompt_id}/\n  method: delete\n  operationId: deletePrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prompts/{prompt_id}/versions/\n  method: post\n  operationId: createPromptVersion\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prompts/{prompt_id}/versions/\n  method: get\n  operationId: listPromptVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /log_threads/\n  method: post\n  operationId: listThreads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces/list/\n  method: post\n  operationId: listTraces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces/{trace_id}/\n  method: get\n  operationId: retrieveTrace\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces/{trace_id}/\n  method: delete\n  operationId: deleteTrace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/list/\n  method: post\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/agentic-access/keywordsai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/keywordsai/agentic-access/keywordsai-agentic-access.yml
 summary_line: 20 operations · 11 acting
 tags:
 - Artificial Intelligence

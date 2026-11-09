@@ -9,85 +9,85 @@ api_specs:
   label: lexoffice Contacts API
   slug: lexoffice-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-contacts-api-openapi.yml
 - filename: lexoffice-credit-notes-api-openapi.yml
   format: yaml
   label: lexoffice Credit Notes API
   slug: lexoffice-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-credit-notes-api-openapi.yml
 - filename: lexoffice-delivery-notes-api-openapi.yml
   format: yaml
   label: lexoffice Delivery Notes API
   slug: lexoffice-delivery-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-delivery-notes-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-delivery-notes-api-openapi.yml
 - filename: lexoffice-down-payment-invoices-api-openapi.yml
   format: yaml
   label: lexoffice Down Payment Invoices API
   slug: lexoffice-down-payment-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-down-payment-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-down-payment-invoices-api-openapi.yml
 - filename: lexoffice-dunnings-api-openapi.yml
   format: yaml
   label: lexoffice Dunnings API
   slug: lexoffice-dunnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-dunnings-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-dunnings-api-openapi.yml
 - filename: lexoffice-event-subscriptions-api-openapi.yml
   format: yaml
   label: lexoffice Event Subscriptions API
   slug: lexoffice-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-event-subscriptions-api-openapi.yml
 - filename: lexoffice-files-api-openapi.yml
   format: yaml
   label: lexoffice Files API
   slug: lexoffice-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-files-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-files-api-openapi.yml
 - filename: lexoffice-invoices-api-openapi.yml
   format: yaml
   label: lexoffice Invoices API
   slug: lexoffice-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-invoices-api-openapi.yml
 - filename: lexoffice-order-confirmations-api-openapi.yml
   format: yaml
   label: lexoffice Order Confirmations API
   slug: lexoffice-order-confirmations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-order-confirmations-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-order-confirmations-api-openapi.yml
 - filename: lexoffice-payments-api-openapi.yml
   format: yaml
   label: lexoffice Payments API
   slug: lexoffice-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-payments-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-payments-api-openapi.yml
 - filename: lexoffice-profile-api-openapi.yml
   format: yaml
   label: lexoffice Profile API
   slug: lexoffice-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-profile-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-profile-api-openapi.yml
 - filename: lexoffice-quotations-api-openapi.yml
   format: yaml
   label: lexoffice Quotations API
   slug: lexoffice-quotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-quotations-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-quotations-api-openapi.yml
 - filename: lexoffice-recurring-templates-api-openapi.yml
   format: yaml
   label: lexoffice Recurring Templates API
   slug: lexoffice-recurring-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-recurring-templates-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-recurring-templates-api-openapi.yml
 - filename: lexoffice-vouchers-api-openapi.yml
   format: yaml
   label: lexoffice Vouchers API
   slug: lexoffice-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/openapi/lexoffice-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/lexoffice/openapi/lexoffice-vouchers-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 22
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lexoff
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event-subscriptions/{id}\n  method: delete\n  operationId: deleteEventSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/{voucherId}\n  method: get\n  operationId: getPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment-conditions\n  method: get\n  operationId: listPaymentConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /posting-categories\n  method: get\n  operationId: listPostingCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recurring-templates\n  method: get\n  operationId: listRecurringTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recurring-templates/{id}\n  method: get\n  operationId: getRecurringTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/agentic-access/lexoffice-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lexoffice/agentic-access/lexoffice-agentic-access.yml
 summary_line: 35 operations · 13 acting
 tags:
 - Accounting

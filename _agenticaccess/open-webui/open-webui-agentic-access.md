@@ -9,19 +9,19 @@ api_specs:
   label: Open WebUI Anthropic API
   slug: open-webui-anthropic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-anthropic-api-openapi.yml
+  url: https://artifacts.apis.io/open-webui/openapi/open-webui-anthropic-api-openapi.yml
 - filename: open-webui-ollama-api-openapi.yml
   format: yaml
   label: Open WebUI Ollama API
   slug: open-webui-ollama-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-ollama-api-openapi.yml
+  url: https://artifacts.apis.io/open-webui/openapi/open-webui-ollama-api-openapi.yml
 - filename: open-webui-chat-completions-api-openapi.yml
   format: yaml
   label: Open WebUI Chat Completions API
   slug: open-webui-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/open-webui/openapi/open-webui-chat-completions-api-openapi.yml
 consequence_counts:
   read: 1
   write: 4
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/open-webui-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 4\n    connected: 1\n  by_consequence:\n    write: 4\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/chat/completions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/messages\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ollama/api/tags\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ollama/api/generate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ollama/api/chat\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/agentic-access/open-webui-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-webui/agentic-access/open-webui-agentic-access.yml
 summary_line: 5 operations · 4 acting
 tags:
 - LLM

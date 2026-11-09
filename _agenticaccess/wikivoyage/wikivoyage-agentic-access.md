@@ -9,55 +9,55 @@ api_specs:
   label: Wikivoyage Edit API
   slug: wikivoyage-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-edit-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-edit-api-openapi.yml
 - filename: wikivoyage-files-api-openapi.yml
   format: yaml
   label: Wikivoyage Files API
   slug: wikivoyage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-files-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-files-api-openapi.yml
 - filename: wikivoyage-history-api-openapi.yml
   format: yaml
   label: Wikivoyage History API
   slug: wikivoyage-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-history-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-history-api-openapi.yml
 - filename: wikivoyage-links-api-openapi.yml
   format: yaml
   label: Wikivoyage Links API
   slug: wikivoyage-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-links-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-links-api-openapi.yml
 - filename: wikivoyage-pages-api-openapi.yml
   format: yaml
   label: Wikivoyage Pages API
   slug: wikivoyage-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-pages-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-pages-api-openapi.yml
 - filename: wikivoyage-query-api-openapi.yml
   format: yaml
   label: Wikivoyage Query API
   slug: wikivoyage-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-query-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-query-api-openapi.yml
 - filename: wikivoyage-revisions-api-openapi.yml
   format: yaml
   label: Wikivoyage Revisions API
   slug: wikivoyage-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-revisions-api-openapi.yml
 - filename: wikivoyage-search-api-openapi.yml
   format: yaml
   label: Wikivoyage Search API
   slug: wikivoyage-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-search-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-search-api-openapi.yml
 - filename: wikivoyage-transforms-api-openapi.yml
   format: yaml
   label: Wikivoyage Transforms API
   slug: wikivoyage-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-transforms-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wikivo
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /revision/{id}/bare\n  method: get\n  operationId: getRevisionBare\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /revision/{id}/source\n  method: get\n  operationId: getRevisionSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /revision/{id}/html\n  method: get\n  operationId: getRevisionHtml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /revision/{id}/with_html\n  method: get\n  operationId: getRevisionWithHtml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /revision/{from}/compare/{to}\n\
   \  method: post\n  operationId: compareRevisions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transform/wikitext/to/html/{title}\n  method: post\n  operationId: transformWikitextToHtml\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transform/html/to/wikitext/{title}\n  method: post\n  operationId: transformHtmlToWikitext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transform/wikitext/to/lint/{title}\n  method: post\n  operationId: transformWikitextToLint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /page/{title}/links/language\n  method: get\n  operationId: getPageLanguageLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /page/{title}/links/media\n  method: get\n  operationId: getPageMediaLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/agentic-access/wikivoyage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wikivoyage/agentic-access/wikivoyage-agentic-access.yml
 summary_line: 24 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Travel

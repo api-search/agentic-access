@@ -9,31 +9,31 @@ api_specs:
   label: Truework Subpackage Orders API
   slug: truework-subpackage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-orders-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-subpackage-orders-api-openapi.yml
 - filename: truework-subpackage-qualificationchecks-api-openapi.yml
   format: yaml
   label: Truework Subpackage Qualification Checks API
   slug: truework-subpackage-qualificationchecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-qualificationchecks-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-subpackage-qualificationchecks-api-openapi.yml
 - filename: truework-subpackage-reports-api-openapi.yml
   format: yaml
   label: Truework Subpackage Reports API
   slug: truework-subpackage-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-reports-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-subpackage-reports-api-openapi.yml
 - filename: truework-subpackage-tenantproperties-api-openapi.yml
   format: yaml
   label: Truework Subpackage Tenant Properties API
   slug: truework-subpackage-tenantproperties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-tenantproperties-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-subpackage-tenantproperties-api-openapi.yml
 - filename: truework-truework-webhooks-api-openapi.yml
   format: yaml
   label: Truework Webhooks API
   slug: truework-truework-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-truework-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/truework/openapi/truework-truework-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 8
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/truewo
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/employer-search\n  method: post\n  operationId: create-new-order-employer-search-verification\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/truework-direct\n  method: post\n  operationId: create-new-truework-direct-order\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{order_id}\n\
   \  method: get\n  operationId: get-one-order\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: get-all-orders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_id}/cancel\n  method: put\n  operationId: cancel-an-order\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/{verification_report_id}\n  method: get\n  operationId: get-report-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_id}/events\n  method: get\n  operationId: get-order-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/reverification\n  method: post\n  operationId: reverify-a-verification\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/agentic-access/truework-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/truework/agentic-access/truework-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Verification

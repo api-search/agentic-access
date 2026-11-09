@@ -9,109 +9,109 @@ api_specs:
   label: SMTP2GO Activity API
   slug: smtp2go-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-activity-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-activity-api-openapi.yml
 - filename: smtp2go-api-keys-api-openapi.yml
   format: yaml
   label: SMTP2GO API Keys API
   slug: smtp2go-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-api-keys-api-openapi.yml
 - filename: smtp2go-sms-api-openapi.yml
   format: yaml
   label: SMTP2GO SMS API
   slug: smtp2go-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-sms-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-sms-api-openapi.yml
 - filename: smtp2go-smtp-users-api-openapi.yml
   format: yaml
   label: SMTP2GO SMTP Users API
   slug: smtp2go-smtp-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-smtp-users-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-smtp-users-api-openapi.yml
 - filename: smtp2go-subaccounts-api-openapi.yml
   format: yaml
   label: SMTP2GO Subaccounts API
   slug: smtp2go-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-subaccounts-api-openapi.yml
 - filename: smtp2go-suppressions-api-openapi.yml
   format: yaml
   label: SMTP2GO Suppressions API
   slug: smtp2go-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-suppressions-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-suppressions-api-openapi.yml
 - filename: smtp2go-templates-api-openapi.yml
   format: yaml
   label: SMTP2GO Templates API
   slug: smtp2go-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-templates-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-templates-api-openapi.yml
 - filename: smtp2go-webhooks-api-openapi.yml
   format: yaml
   label: SMTP2GO Webhooks API
   slug: smtp2go-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-webhooks-api-openapi.yml
 - filename: smtp2go-allowed-recipients-api-openapi.yml
   format: yaml
   label: SMTP2GO ALLOWED RECIPIENTS API
   slug: smtp2go-allowed-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-allowed-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-allowed-recipients-api-openapi.yml
 - filename: smtp2go-allowed-senders-api-openapi.yml
   format: yaml
   label: SMTP2GO ALLOWED SENDERS API
   slug: smtp2go-allowed-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-allowed-senders-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-allowed-senders-api-openapi.yml
 - filename: smtp2go-dedicated-ips-api-openapi.yml
   format: yaml
   label: SMTP2GO DEDICATED IPS API
   slug: smtp2go-dedicated-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-dedicated-ips-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-dedicated-ips-api-openapi.yml
 - filename: smtp2go-email-archive-api-openapi.yml
   format: yaml
   label: SMTP2GO EMAIL ARCHIVE API
   slug: smtp2go-email-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-email-archive-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-email-archive-api-openapi.yml
 - filename: smtp2go-emails-api-openapi.yml
   format: yaml
   label: SMTP2GO EMAILS API
   slug: smtp2go-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-emails-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-emails-api-openapi.yml
 - filename: smtp2go-ip-auth-api-openapi.yml
   format: yaml
   label: SMTP2GO IP AUTH API
   slug: smtp2go-ip-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-ip-auth-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-ip-auth-api-openapi.yml
 - filename: smtp2go-sender-domains-api-openapi.yml
   format: yaml
   label: SMTP2GO SENDER DOMAINS API
   slug: smtp2go-sender-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-sender-domains-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-sender-domains-api-openapi.yml
 - filename: smtp2go-single-sender-emails-api-openapi.yml
   format: yaml
   label: SMTP2GO SINGLE SENDER EMAILS API
   slug: smtp2go-single-sender-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-single-sender-emails-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-single-sender-emails-api-openapi.yml
 - filename: smtp2go-statistics-api-openapi.yml
   format: yaml
   label: SMTP2GO STATISTICS API
   slug: smtp2go-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-statistics-api-openapi.yml
 - filename: smtp2go-ip-allowlist-api-openapi.yml
   format: yaml
   label: SMTP2GO IP Allowlist API
   slug: smtp2go-ip-allowlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/openapi/smtp2go-ip-allowlist-api-openapi.yml
+  url: https://artifacts.apis.io/smtp2go/openapi/smtp2go-ip-allowlist-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 5
@@ -256,7 +256,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/smtp2g
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template/edit\n  method: post\n  operationId: update-an-email-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template/search\n  method: post\n  operationId: search-email-templates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template/view\n  method: post\n  operationId: view-template-details\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/add\n  method: post\n  operationId: add-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/edit\n  method: post\n  operationId: edit-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/remove\n  method: post\n  operationId: remove-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/view\n  method: post\n  operationId: view-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/agentic-access/smtp2go-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smtp2go/agentic-access/smtp2go-agentic-access.yml
 summary_line: 73 operations · 68 acting
 tags:
 - Email

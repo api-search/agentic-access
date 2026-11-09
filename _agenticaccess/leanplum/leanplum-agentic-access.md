@@ -9,49 +9,49 @@ api_specs:
   label: Leanplum A/B Tests API
   slug: leanplum-a-b-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-a-b-tests-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-a-b-tests-api-openapi.yml
 - filename: leanplum-campaigns-api-openapi.yml
   format: yaml
   label: Leanplum Campaigns API
   slug: leanplum-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-campaigns-api-openapi.yml
 - filename: leanplum-export-data-api-openapi.yml
   format: yaml
   label: Leanplum Export Data API
   slug: leanplum-export-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-export-data-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-export-data-api-openapi.yml
 - filename: leanplum-files-and-variables-api-openapi.yml
   format: yaml
   label: Leanplum Files and Variables API
   slug: leanplum-files-and-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-files-and-variables-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-files-and-variables-api-openapi.yml
 - filename: leanplum-import-data-api-openapi.yml
   format: yaml
   label: Leanplum Import Data API
   slug: leanplum-import-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-import-data-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-import-data-api-openapi.yml
 - filename: leanplum-messages-api-openapi.yml
   format: yaml
   label: Leanplum Messages API
   slug: leanplum-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-messages-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-messages-api-openapi.yml
 - filename: leanplum-user-behavior-api-openapi.yml
   format: yaml
   label: Leanplum User Behavior API
   slug: leanplum-user-behavior-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-user-behavior-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-user-behavior-api-openapi.yml
 - filename: leanplum-user-information-api-openapi.yml
   format: yaml
   label: Leanplum User Information API
   slug: leanplum-user-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-user-information-api-openapi.yml
+  url: https://artifacts.apis.io/leanplum/openapi/leanplum-user-information-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/leanpl
   \  method: get\n  operationId: getVars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api?action=setVars\n  method: post\n  operationId: setVars\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api?action=downloadFile\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api?action=exportData\n  method: get\n  operationId: exportData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api?action=exportUsers\n\
   \  method: get\n  operationId: exportUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api?action=exportUser\n  method: get\n  operationId: exportUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api?action=exportReport\n  method: get\n  operationId: exportReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api?action=getMultiResults\n  method: get\n  operationId: getMultiResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api?action=addPostback\n  method: post\n  operationId: addPostback\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api?action=multi\n  method: post\n  operationId: multi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/agentic-access/leanplum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/leanplum/agentic-access/leanplum-agentic-access.yml
 summary_line: 27 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Mobile Marketing

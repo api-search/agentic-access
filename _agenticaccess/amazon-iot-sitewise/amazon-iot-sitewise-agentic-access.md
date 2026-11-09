@@ -9,79 +9,181 @@ api_specs:
   label: Amazon IoT SiteWise Access Policies API
   slug: amazon-iot-sitewise-access-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-access-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-access-policies-api-openapi.yml
 - filename: amazon-iot-sitewise-asset-models-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Asset Models API
   slug: amazon-iot-sitewise-asset-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-asset-models-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-asset-models-api-openapi.yml
 - filename: amazon-iot-sitewise-assets-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Assets API
   slug: amazon-iot-sitewise-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-assets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-assets-api-openapi.yml
 - filename: amazon-iot-sitewise-configuration-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Configuration API
   slug: amazon-iot-sitewise-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-configuration-api-openapi.yml
 - filename: amazon-iot-sitewise-dashboards-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Dashboards API
   slug: amazon-iot-sitewise-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-dashboards-api-openapi.yml
 - filename: amazon-iot-sitewise-gateways-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Gateways API
   slug: amazon-iot-sitewise-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-gateways-api-openapi.yml
 - filename: amazon-iot-sitewise-jobs-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Jobs API
   slug: amazon-iot-sitewise-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-jobs-api-openapi.yml
 - filename: amazon-iot-sitewise-logging-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Logging API
   slug: amazon-iot-sitewise-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-logging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-logging-api-openapi.yml
 - filename: amazon-iot-sitewise-portals-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Portals API
   slug: amazon-iot-sitewise-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-portals-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-portals-api-openapi.yml
 - filename: amazon-iot-sitewise-projects-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Projects API
   slug: amazon-iot-sitewise-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-projects-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-projects-api-openapi.yml
 - filename: amazon-iot-sitewise-properties-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Properties API
   slug: amazon-iot-sitewise-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-properties-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-properties-api-openapi.yml
 - filename: amazon-iot-sitewise-tags-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Tags API
   slug: amazon-iot-sitewise-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-tags-api-openapi.yml
 - filename: amazon-iot-sitewise-time-series-api-openapi.yml
   format: yaml
   label: Amazon IoT SiteWise Time Series API
   slug: amazon-iot-sitewise-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-time-series-api-openapi.yml
+- filename: amazon-iot-sitewise-actions-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Actions API
+  slug: amazon-iot-sitewise-actions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-actions-api-openapi.yml
+- filename: amazon-iot-sitewise-applications-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Applications API
+  slug: amazon-iot-sitewise-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-applications-api-openapi.yml
+- filename: amazon-iot-sitewise-asset-model-interface-relationship-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Asset Model Interface Relationship API
+  slug: amazon-iot-sitewise-asset-model-interface-relationship-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-asset-model-interface-relationship-api-openapi.yml
+- filename: amazon-iot-sitewise-cancel-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Cancel API
+  slug: amazon-iot-sitewise-cancel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-cancel-api-openapi.yml
+- filename: amazon-iot-sitewise-composite-models-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Composite Models API
+  slug: amazon-iot-sitewise-composite-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-composite-models-api-openapi.yml
+- filename: amazon-iot-sitewise-computation-models-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Computation Models API
+  slug: amazon-iot-sitewise-computation-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-computation-models-api-openapi.yml
+- filename: amazon-iot-sitewise-data-segments-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Data Segments API
+  slug: amazon-iot-sitewise-data-segments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-data-segments-api-openapi.yml
+- filename: amazon-iot-sitewise-dataset-export-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Dataset Export Jobs API
+  slug: amazon-iot-sitewise-dataset-export-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-dataset-export-jobs-api-openapi.yml
+- filename: amazon-iot-sitewise-datasets-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Datasets API
+  slug: amazon-iot-sitewise-datasets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-datasets-api-openapi.yml
+- filename: amazon-iot-sitewise-enrichment-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Enrichment Jobs API
+  slug: amazon-iot-sitewise-enrichment-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-enrichment-jobs-api-openapi.yml
+- filename: amazon-iot-sitewise-executions-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Executions API
+  slug: amazon-iot-sitewise-executions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-executions-api-openapi.yml
+- filename: amazon-iot-sitewise-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Operations API
+  slug: amazon-iot-sitewise-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-operations-api-openapi.yml
+- filename: amazon-iot-sitewise-pipelines-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Pipelines API
+  slug: amazon-iot-sitewise-pipelines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-pipelines-api-openapi.yml
+- filename: amazon-iot-sitewise-queries-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Queries API
+  slug: amazon-iot-sitewise-queries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-queries-api-openapi.yml
+- filename: amazon-iot-sitewise-searches-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Searches API
+  slug: amazon-iot-sitewise-searches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-searches-api-openapi.yml
+- filename: amazon-iot-sitewise-tasks-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Tasks API
+  slug: amazon-iot-sitewise-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-tasks-api-openapi.yml
+- filename: amazon-iot-sitewise-workspaces-api-openapi.yml
+  format: yaml
+  label: Amazon IoT SiteWise Iot Sitewise Workspaces API
+  slug: amazon-iot-sitewise-workspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-sitewise/openapi/amazon-iot-sitewise-workspaces-api-openapi.yml
 consequence_counts:
   read: 33
   write: 40
@@ -130,9 +232,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ 3600\n    audit: none\n- path: /assets/{assetId}/assetRelationships#traversalType\n  method: get\n  operationId: ListAssetRelationships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/{assetId}/hierarchies\n  method: get\n  operationId: ListAssociatedAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dashboards#projectId\n  method: get\n  operationId: ListDashboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/assets\n  method: get\n  operationId: ListProjectAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects#portalId\n\
   \  method: get\n  operationId: ListProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags#resourceArn\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags#resourceArn\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timeseries/\n  method: get\n  operationId: ListTimeSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags#resourceArn&tagKeys\n\
   \  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /20200301/gateways/{gatewayId}/capability\n  method: post\n  operationId: UpdateGatewayCapabilityConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/agentic-access/amazon-iot-sitewise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iot-sitewise/agentic-access/amazon-iot-sitewise-agentic-access.yml
 summary_line: 73 operations · 40 acting
 tags:
+- Amazon Web Services
 - Asset Management
 - Industrial IoT
 - IoT

@@ -9,49 +9,49 @@ api_specs:
   label: arcade-dev Admin API
   slug: arcade-dev-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-admin-api-openapi.yml
+  url: https://artifacts.apis.io/arcade-dev/openapi/arcade-dev-admin-api-openapi.yml
 - filename: arcade-dev-authorization-api-openapi.yml
   format: yaml
   label: arcade-dev Authorization API
   slug: arcade-dev-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/arcade-dev/openapi/arcade-dev-authorization-api-openapi.yml
 - filename: arcade-dev-gateways-api-openapi.yml
   format: yaml
   label: arcade-dev Gateways API
   slug: arcade-dev-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/arcade-dev/openapi/arcade-dev-gateways-api-openapi.yml
 - filename: arcade-dev-hooks-api-openapi.yml
   format: yaml
   label: arcade-dev Hooks API
   slug: arcade-dev-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/arcade-dev/openapi/arcade-dev-hooks-api-openapi.yml
 - filename: arcade-dev-llm-api-openapi.yml
   format: yaml
   label: arcade-dev LLM API
   slug: arcade-dev-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-llm-api-openapi.yml
+  url: https://artifacts.apis.io/arcade-dev/openapi/arcade-dev-llm-api-openapi.yml
 - filename: arcade-dev-operations-api-openapi.yml
   format: yaml
   label: arcade-dev Operations API
   slug: arcade-dev-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-operations-api-openapi.yml
+  url: https://artifacts.apis.io/arcade-dev/openapi/arcade-dev-operations-api-openapi.yml
 - filename: arcade-dev-plugins-api-openapi.yml
   format: yaml
   label: arcade-dev Plugins API
   slug: arcade-dev-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/arcade-dev/openapi/arcade-dev-plugins-api-openapi.yml
 - filename: arcade-dev-tools-api-openapi.yml
   format: yaml
   label: arcade-dev Tools API
   slug: arcade-dev-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/openapi/arcade-dev-tools-api-openapi.yml
+  url: https://artifacts.apis.io/arcade-dev/openapi/arcade-dev-tools-api-openapi.yml
 consequence_counts:
   read: 26
   write: 30
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/arcade
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workers\n  method: get\n  operationId: workers-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workers\n  method: post\n  operationId: workers-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workers/test\n  method: post\n  operationId: workers-test\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workers/{id}\n\
   \  method: get\n  operationId: workers-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workers/{id}\n  method: delete\n  operationId: workers-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workers/{id}\n  method: patch\n  operationId: workers-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workers/{id}/authorize\n  method: get\n  operationId: workers-authorize\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workers/{id}/health\n  method: get\n  operationId: workers-health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workers/{id}/tools\n  method: get\n  operationId: tools-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/agentic-access/arcade-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/arcade-dev/agentic-access/arcade-dev-agentic-access.yml
 summary_line: 56 operations · 30 acting
 tags:
 - Authorization

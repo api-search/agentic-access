@@ -8,13 +8,13 @@ api_specs:
   label: Stoplight Elements Configuration API
   slug: elements-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/openapi/elements-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/elements/openapi/elements-configuration-api-openapi.yml
 - filename: elements-integration-api-openapi.yml
   format: yaml
   label: Stoplight Elements Integration API
   slug: elements-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/openapi/elements-integration-api-openapi.yml
+  url: https://artifacts.apis.io/elements/openapi/elements-integration-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -42,7 +42,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/elements-elements-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /open-source/elements\n  method: get\n  operationId: getElementsOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/elements\n  method: get\n  operationId: getElementsDocumentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/elements/b074dc07b3bae-getting-started-with-elements-in-react\n\
   \  method: get\n  operationId: getReactGettingStarted\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/elements/19a7f9f0cbf23-getting-started-with-web-component\n  method: get\n  operationId: getWebComponentGettingStarted\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/elements/507fb7fab9b7d-getting-started-with-elements-in-angular\n  method: get\n  operationId: getAngularGettingStarted\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/elements/ZG9jOjMyNjU5MTM-elements-configuration-options\n  method: get\n  operationId: getConfigurationOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/agentic-access/elements-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/elements/agentic-access/elements-agentic-access.yml
 summary_line: 6 operations
 tags:
 - API Documentation

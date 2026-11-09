@@ -9,31 +9,31 @@ api_specs:
   label: Shipwell Carriers API
   slug: shipwell-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-carriers-api-openapi.yml
 - filename: shipwell-orders-api-openapi.yml
   format: yaml
   label: Shipwell Orders API
   slug: shipwell-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-orders-api-openapi.yml
 - filename: shipwell-quoting-api-openapi.yml
   format: yaml
   label: Shipwell Quoting API
   slug: shipwell-quoting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-quoting-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-quoting-api-openapi.yml
 - filename: shipwell-shipments-api-openapi.yml
   format: yaml
   label: Shipwell Shipments API
   slug: shipwell-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-shipments-api-openapi.yml
 - filename: shipwell-events-webhooks-api-openapi.yml
   format: yaml
   label: Shipwell Events & Webhooks API
   slug: shipwell-events-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/openapi/shipwell-events-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shipwell/openapi/shipwell-events-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 11
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shipwe
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers/{carrierId}/\n  method: get\n  operationId: getCarrier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/event-names-by-version/\n  method: get\n  operationId: listEventNames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipwell/refs/heads/main/agentic-access/shipwell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shipwell/agentic-access/shipwell-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Transportation Management

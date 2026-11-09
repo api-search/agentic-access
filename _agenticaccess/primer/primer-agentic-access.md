@@ -9,31 +9,31 @@ api_specs:
   label: Primer Client Session API
   slug: primer-client-session-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-client-session-api-api-openapi.yml
+  url: https://artifacts.apis.io/primer/openapi/primer-client-session-api-api-openapi.yml
 - filename: primer-dispute-chargebacks-webhooks-api-openapi.yml
   format: yaml
   label: Primer Dispute & Chargebacks Webhooks API
   slug: primer-dispute-chargebacks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-dispute-chargebacks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/primer/openapi/primer-dispute-chargebacks-webhooks-api-openapi.yml
 - filename: primer-payment-methods-api-api-openapi.yml
   format: yaml
   label: Primer Payment Methods API
   slug: primer-payment-methods-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payment-methods-api-api-openapi.yml
+  url: https://artifacts.apis.io/primer/openapi/primer-payment-methods-api-api-openapi.yml
 - filename: primer-payment-webhooks-api-openapi.yml
   format: yaml
   label: Primer Payment Webhooks API
   slug: primer-payment-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payment-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/primer/openapi/primer-payment-webhooks-api-openapi.yml
 - filename: primer-payments-api-api-openapi.yml
   format: yaml
   label: Primer Payments API
   slug: primer-payments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/openapi/primer-payments-api-api-openapi.yml
+  url: https://artifacts.apis.io/primer/openapi/primer-payments-api-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 4
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/primer
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-instruments/{paymentMethodToken}/default\n  method: post\n  operationId: set_payment_method_default_payment_methods__token__default_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-status\n  method: post\n  operationId: payment_status_webhook_event\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-refund\n  method: post\n  operationId: payment_refund_webhook_event\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dispute-opened\n  method: post\n  operationId: dispute_open_webhook_event\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
   \  - high-value\n    audit: required\n- path: /dispute-status\n  method: post\n  operationId: dispute_status_webhook_event\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/agentic-access/primer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/primer/agentic-access/primer-agentic-access.yml
 summary_line: 20 operations · 16 acting
 tags:
 - Payments

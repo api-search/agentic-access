@@ -9,31 +9,31 @@ api_specs:
   label: LinearB Deployments API
   slug: linearb-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-deployments-api-openapi.yml
 - filename: linearb-incidents-api-openapi.yml
   format: yaml
   label: LinearB Incidents API
   slug: linearb-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-incidents-api-openapi.yml
 - filename: linearb-measurements-api-openapi.yml
   format: yaml
   label: LinearB Measurements API
   slug: linearb-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-measurements-api-openapi.yml
 - filename: linearb-services-api-openapi.yml
   format: yaml
   label: LinearB Services API
   slug: linearb-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-services-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-services-api-openapi.yml
 - filename: linearb-teams-api-openapi.yml
   format: yaml
   label: LinearB Teams API
   slug: linearb-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-teams-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-teams-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/linear
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/teams\n  method: get\n  operationId: searchTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/teams\n  method: post\n  operationId: createTeams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/teams/{team_id}\n  method: patch\n  operationId: updateTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/teams/{team_id}\n  method: delete\n  operationId: deleteTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/teams/{team_id}/members\n  method: get\n  operationId: getTeamMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/teams/{team_id}/members\n  method: post\n  operationId: setTeamMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/v2/teams/{team_id}/members\n  method: patch\n  operationId: addTeamMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/teams/{team_id}/members/{user_id_or_email}\n  method: delete\n  operationId: removeTeamMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/agentic-access/linearb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/linearb/agentic-access/linearb-agentic-access.yml
 summary_line: 19 operations · 13 acting
 tags:
 - Engineering Analytics

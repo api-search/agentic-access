@@ -9,37 +9,37 @@ api_specs:
   label: Amazon Elastic Transcoder Jobs API
   slug: amazon-elastic-transcoder-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-jobs-api-openapi.yml
 - filename: amazon-elastic-transcoder-jobsbypipeline-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder JobsByPipeline API
   slug: amazon-elastic-transcoder-jobsbypipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-jobsbypipeline-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-jobsbypipeline-api-openapi.yml
 - filename: amazon-elastic-transcoder-jobsbystatus-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder JobsByStatus API
   slug: amazon-elastic-transcoder-jobsbystatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-jobsbystatus-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-jobsbystatus-api-openapi.yml
 - filename: amazon-elastic-transcoder-pipelines-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder Pipelines API
   slug: amazon-elastic-transcoder-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-pipelines-api-openapi.yml
 - filename: amazon-elastic-transcoder-presets-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder Presets API
   slug: amazon-elastic-transcoder-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-presets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-presets-api-openapi.yml
 - filename: amazon-elastic-transcoder-roletests-api-openapi.yml
   format: yaml
   label: Amazon Elastic Transcoder RoleTests API
   slug: amazon-elastic-transcoder-roletests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-roletests-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-elastic-transcoder/openapi/amazon-elastic-transcoder-roletests-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 2
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  audit: required\n- path: /2012-09-25/pipelines/{Id}\n  method: get\n  operationId: ReadPipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2012-09-25/pipelines/{Id}\n  method: put\n  operationId: UpdatePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2012-09-25/presets/{Id}\n  method: delete\n  operationId: DeletePreset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\
   - path: /2012-09-25/presets/{Id}\n  method: get\n  operationId: ReadPreset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2012-09-25/jobsByPipeline/{PipelineId}\n  method: get\n  operationId: ListJobsByPipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2012-09-25/jobsByStatus/{Status}\n  method: get\n  operationId: ListJobsByStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2012-09-25/roleTests\n  method: post\n  operationId: TestRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /2012-09-25/pipelines/{Id}/notifications\n  method: post\n  operationId: UpdatePipelineNotifications\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2012-09-25/pipelines/{Id}/status\n  method: post\n  operationId: UpdatePipelineStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/agentic-access/amazon-elastic-transcoder-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-elastic-transcoder/agentic-access/amazon-elastic-transcoder-agentic-access.yml
 summary_line: 17 operations · 10 acting · 2 human-in-the-loop
 tags:
 - Amazon Web Services

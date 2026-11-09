@@ -9,55 +9,55 @@ api_specs:
   label: TaxJar Categories API
   slug: taxjar-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-categories-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-categories-api-openapi.yml
 - filename: taxjar-customers-api-openapi.yml
   format: yaml
   label: TaxJar Customers API
   slug: taxjar-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-customers-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-customers-api-openapi.yml
 - filename: taxjar-nexus-api-openapi.yml
   format: yaml
   label: TaxJar Nexus API
   slug: taxjar-nexus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-nexus-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-nexus-api-openapi.yml
 - filename: taxjar-rates-api-openapi.yml
   format: yaml
   label: TaxJar Rates API
   slug: taxjar-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-rates-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-rates-api-openapi.yml
 - filename: taxjar-summary-rates-api-openapi.yml
   format: yaml
   label: TaxJar Summary Rates API
   slug: taxjar-summary-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-summary-rates-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-summary-rates-api-openapi.yml
 - filename: taxjar-taxes-api-openapi.yml
   format: yaml
   label: TaxJar Taxes API
   slug: taxjar-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-taxes-api-openapi.yml
 - filename: taxjar-transactions-orders-api-openapi.yml
   format: yaml
   label: TaxJar Transactions - Orders API
   slug: taxjar-transactions-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-transactions-orders-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-transactions-orders-api-openapi.yml
 - filename: taxjar-transactions-refunds-api-openapi.yml
   format: yaml
   label: TaxJar Transactions - Refunds API
   slug: taxjar-transactions-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-transactions-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-transactions-refunds-api-openapi.yml
 - filename: taxjar-validations-api-openapi.yml
   format: yaml
   label: TaxJar Validations API
   slug: taxjar-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/openapi/taxjar-validations-api-openapi.yml
+  url: https://artifacts.apis.io/taxjar/openapi/taxjar-validations-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 11
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/taxjar
   \   audit: none\n- path: /customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}\n  method: get\n  operationId: showCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customer_id}\n  method: put\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}\n  method: delete\n  operationId:\
   \ deleteCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nexus/regions\n  method: get\n  operationId: listNexusRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /addresses/validate\n  method: post\n  operationId: validateAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validation\n  method: get\n  operationId: validateVAT\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary_rates\n  method: get\n  operationId: listSummaryRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/agentic-access/taxjar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/taxjar/agentic-access/taxjar-agentic-access.yml
 summary_line: 22 operations · 11 acting
 tags:
 - Sales Tax

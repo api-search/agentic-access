@@ -9,61 +9,61 @@ api_specs:
   label: BigID Authentication API
   slug: bigid-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-authentication-api-openapi.yml
 - filename: bigid-data-sources-api-openapi.yml
   format: yaml
   label: BigID Data Sources API
   slug: bigid-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-data-sources-api-openapi.yml
 - filename: bigid-scans-api-openapi.yml
   format: yaml
   label: BigID Scans API
   slug: bigid-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-scans-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-scans-api-openapi.yml
 - filename: bigid-dsar-api-openapi.yml
   format: yaml
   label: BigID DSAR API
   slug: bigid-dsar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-dsar-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-dsar-api-openapi.yml
 - filename: bigid-actionable-insights-api-openapi.yml
   format: yaml
   label: BigID Actionable Insights API
   slug: bigid-actionable-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-actionable-insights-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-actionable-insights-api-openapi.yml
 - filename: bigid-catalog-api-openapi.yml
   format: yaml
   label: BigID Catalog API
   slug: bigid-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-catalog-api-openapi.yml
 - filename: bigid-clusters-api-openapi.yml
   format: yaml
   label: BigID Clusters API
   slug: bigid-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-clusters-api-openapi.yml
 - filename: bigid-connector-templates-api-openapi.yml
   format: yaml
   label: BigID Connector Templates API
   slug: bigid-connector-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-connector-templates-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-connector-templates-api-openapi.yml
 - filename: bigid-metadata-export-api-openapi.yml
   format: yaml
   label: BigID Metadata Export API
   slug: bigid-metadata-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-metadata-export-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-metadata-export-api-openapi.yml
 - filename: bigid-scan-profiles-api-openapi.yml
   format: yaml
   label: BigID Scan Profiles API
   slug: bigid-scan-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/openapi/bigid-scan-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/bigid/openapi/bigid-scan-profiles-api-openapi.yml
 consequence_counts:
   read: 18
   write: 9
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bigid-
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sar/reports/{requestId}/status\n  method: get\n  operationId: getDsarReportStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sar/reports/{requestId}/short-report\n  method: get\n  operationId: getDsarShortReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scanProfiles\n  method: post\n  operationId: createScanProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scanProfiles/{id}\n  method: get\n  operationId:\
   \ getScanProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scans\n  method: get\n  operationId: listScans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scans\n  method: post\n  operationId: startScan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scans/parent-scans\n  method: get\n  operationId: listParentScans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scans/{scan_id}/status\n  method: get\n  operationId: getScanStatus\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/agentic-access/bigid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bigid/agentic-access/bigid-agentic-access.yml
 summary_line: 27 operations · 9 acting
 tags:
 - Data Security

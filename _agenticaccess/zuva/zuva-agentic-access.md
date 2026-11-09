@@ -9,31 +9,31 @@ api_specs:
   label: Zuva Classification API
   slug: zuva-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-classification-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-classification-api-openapi.yml
 - filename: zuva-field-extraction-api-openapi.yml
   format: yaml
   label: Zuva Field Extraction API
   slug: zuva-field-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-field-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-field-extraction-api-openapi.yml
 - filename: zuva-fields-api-openapi.yml
   format: yaml
   label: Zuva Fields API
   slug: zuva-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-fields-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-fields-api-openapi.yml
 - filename: zuva-files-api-openapi.yml
   format: yaml
   label: Zuva Files API
   slug: zuva-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-files-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-files-api-openapi.yml
 - filename: zuva-ocr-api-openapi.yml
   format: yaml
   label: Zuva OCR API
   slug: zuva-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/openapi/zuva-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/zuva/openapi/zuva-ocr-api-openapi.yml
 consequence_counts:
   read: 13
   write: 9
@@ -66,13 +66,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zuva-o
   \      - high-value\n    audit: required\n- path: /ocrs\n  method: get\n  operationId: getOcrs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocr/{request_id}\n  method: get\n  operationId: getOcr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocr/{request_id}/text\n  method: get\n  operationId: getOcrText\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocr/{request_id}/images\n  method: get\n  operationId: getOcrImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocr/{request_id}/images/{page_number}\n  method: get\n  operationId: getOcrImagePage\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocr/{request_id}/layouts\n  method: get\n  operationId: getOcrLayouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields\n  method: get\n  operationId: getFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields\n  method: post\n  operationId: createField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fields/{field_id}/metadata\n  method: get\n  operationId: getFieldMetadata\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields/{field_id}/metadata\n  method: put\n  operationId: updateFieldMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/agentic-access/zuva-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zuva/agentic-access/zuva-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
 - Artificial Intelligence
 - Document AI
 - Contract Analysis
-- Field Extraction
+- Field-Extraction
 - Classification
 - OCR
 ---

@@ -9,91 +9,91 @@ api_specs:
   label: ClimateAI Platform API
   slug: platform
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/_original/climateai-platform-swagger.json
+  url: https://artifacts.apis.io/climateai/openapi/_original/climateai-platform-swagger.json
 - filename: climateai-account-api-openapi.yml
   format: yaml
   label: ClimateAI Account API
   slug: climateai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-account-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-account-api-openapi.yml
 - filename: climateai-account-config-api-openapi.yml
   format: yaml
   label: ClimateAI Account Config API
   slug: climateai-account-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-account-config-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-account-config-api-openapi.yml
 - filename: climateai-auth-api-openapi.yml
   format: yaml
   label: ClimateAI Auth API
   slug: climateai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-auth-api-openapi.yml
 - filename: climateai-current-v2-api-openapi.yml
   format: yaml
   label: ClimateAI Current (v2) API
   slug: climateai-current-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-current-v2-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-current-v2-api-openapi.yml
 - filename: climateai-device-api-openapi.yml
   format: yaml
   label: ClimateAI Device API
   slug: climateai-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-device-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-device-api-openapi.yml
 - filename: climateai-email-api-openapi.yml
   format: yaml
   label: ClimateAI Email API
   slug: climateai-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-email-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-email-api-openapi.yml
 - filename: climateai-legacy-v1-api-openapi.yml
   format: yaml
   label: ClimateAI Legacy (v1) API
   slug: climateai-legacy-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-legacy-v1-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-legacy-v1-api-openapi.yml
 - filename: climateai-permission-api-openapi.yml
   format: yaml
   label: ClimateAI Permission API
   slug: climateai-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-permission-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-permission-api-openapi.yml
 - filename: climateai-platform-api-openapi.yml
   format: yaml
   label: ClimateAI Platform API
   slug: climateai-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-platform-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-platform-api-openapi.yml
 - filename: climateai-product-api-openapi.yml
   format: yaml
   label: ClimateAI Product API
   slug: climateai-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-product-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-product-api-openapi.yml
 - filename: climateai-report-api-openapi.yml
   format: yaml
   label: ClimateAI Report API
   slug: climateai-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-report-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-report-api-openapi.yml
 - filename: climateai-role-api-openapi.yml
   format: yaml
   label: ClimateAI Role API
   slug: climateai-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-role-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-role-api-openapi.yml
 - filename: climateai-routing-api-openapi.yml
   format: yaml
   label: ClimateAI Routing API
   slug: climateai-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-routing-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-routing-api-openapi.yml
 - filename: climateai-user-api-openapi.yml
   format: yaml
   label: ClimateAI User API
   slug: climateai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-user-api-openapi.yml
+  url: https://artifacts.apis.io/climateai/openapi/climateai-user-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 43
@@ -193,7 +193,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/climat
   \    audit: required\n- path: /user/reset_password\n  method: post\n  operationId: returns reset password token\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /user/reset_password\n  method: put\n  operationId: performs password reset operation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /user/search\n  method: post\n  operationId: Search users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{user_id}/\n  method: put\n  operationId: update a user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/{user_id}/\n  method: delete\n  operationId: delete a user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/{user_id}/\n  method: get\n  operationId: fetch a user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{user_id}/account/relation\n\
   \  method: get\n  operationId: Gets account relations associated with the user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/agentic-access/climateai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/climateai/agentic-access/climateai-agentic-access.yml
 summary_line: 89 operations · 46 acting · 4 human-in-the-loop
 tags:
 - Company

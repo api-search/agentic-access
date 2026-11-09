@@ -9,61 +9,61 @@ api_specs:
   label: TicketSpice Coupons API
   slug: ticketspice-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-coupons-api-openapi.yml
 - filename: ticketspice-customers-api-openapi.yml
   format: yaml
   label: TicketSpice Customers API
   slug: ticketspice-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-customers-api-openapi.yml
 - filename: ticketspice-forms-api-openapi.yml
   format: yaml
   label: TicketSpice Forms API
   slug: ticketspice-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-forms-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-forms-api-openapi.yml
 - filename: ticketspice-health-api-openapi.yml
   format: yaml
   label: TicketSpice Health API
   slug: ticketspice-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-health-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-health-api-openapi.yml
 - filename: ticketspice-orders-api-openapi.yml
   format: yaml
   label: TicketSpice Orders API
   slug: ticketspice-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-orders-api-openapi.yml
 - filename: ticketspice-registrants-api-openapi.yml
   format: yaml
   label: TicketSpice Registrants API
   slug: ticketspice-registrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-registrants-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-registrants-api-openapi.yml
 - filename: ticketspice-subscriptions-api-openapi.yml
   format: yaml
   label: TicketSpice Subscriptions API
   slug: ticketspice-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-subscriptions-api-openapi.yml
 - filename: ticketspice-tickets-api-openapi.yml
   format: yaml
   label: TicketSpice Tickets API
   slug: ticketspice-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-tickets-api-openapi.yml
 - filename: ticketspice-transactions-api-openapi.yml
   format: yaml
   label: TicketSpice Transactions API
   slug: ticketspice-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-transactions-api-openapi.yml
 - filename: ticketspice-webhooks-api-openapi.yml
   format: yaml
   label: TicketSpice Webhooks API
   slug: ticketspice-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/openapi/ticketspice-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ticketspice/openapi/ticketspice-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 23
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ticket
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coupons/{couponID}\n  method: delete\n  operationId: deleteCoupon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/logs\n  method:\
   \ get\n  operationId: listWebhookLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookID}/logs/{id}\n  method: get\n  operationId: getWebhookLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookID}/resend/{logID}\n  method: post\n  operationId: resendWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/agentic-access/ticketspice-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ticketspice/agentic-access/ticketspice-agentic-access.yml
 summary_line: 32 operations · 9 acting
 tags:
 - Event Ticketing

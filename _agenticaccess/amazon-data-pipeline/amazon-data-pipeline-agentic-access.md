@@ -9,25 +9,31 @@ api_specs:
   label: Amazon Data Pipeline Objects API
   slug: amazon-data-pipeline-pipeline-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml
 - filename: amazon-data-pipeline-pipeline-runs-api-openapi.yml
   format: yaml
   label: Amazon Data Pipeline Runs API
   slug: amazon-data-pipeline-pipeline-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml
 - filename: amazon-data-pipeline-pipelines-api-openapi.yml
   format: yaml
   label: Amazon Data Pipeline Pipelines API
   slug: amazon-data-pipeline-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-pipelines-api-openapi.yml
 - filename: amazon-data-pipeline-tags-api-openapi.yml
   format: yaml
   label: Amazon Data Pipeline Tags API
   slug: amazon-data-pipeline-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-tags-api-openapi.yml
+- filename: amazon-data-pipeline-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Data Pipeline Data Pipeline Operations API
+  slug: amazon-data-pipeline-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-data-pipeline/openapi/amazon-data-pipeline-operations-api-openapi.yml
 consequence_counts:
   read: 3
   write: 10
@@ -58,9 +64,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=DeactivatePipeline\n  method: post\n  operationId: deactivatePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=QueryObjects\n  method: post\n  operationId: queryObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeObjects\n  method: post\n  operationId: describeObjects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /?Action=CreatePipeline\n  method: post\n  operationId: createPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=DeletePipeline\n  method: post\n  operationId: deletePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=DescribePipelines\n  method: post\n  operationId: describePipelines\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=ListPipelines\n  method: post\n  operationId: listPipelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=AddTags\n  method: post\n  operationId: addTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=RemoveTags\n  method: post\n  operationId: removeTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/agentic-access/amazon-data-pipeline-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-data-pipeline/agentic-access/amazon-data-pipeline-agentic-access.yml
 summary_line: 13 operations · 10 acting
 tags:
+- Amazon Web Services
 - Data Processing
 - ETL
 - Workflows

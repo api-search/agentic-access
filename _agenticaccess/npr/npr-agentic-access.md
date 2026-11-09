@@ -15,19 +15,19 @@ api_specs:
   label: NPR Authorization API
   slug: npr-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/npr/openapi/npr-authorization-api-openapi.yml
 - filename: npr-identity-api-openapi.yml
   format: yaml
   label: NPR Identity API
   slug: npr-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-identity-api-openapi.yml
+  url: https://artifacts.apis.io/npr/openapi/npr-identity-api-openapi.yml
 - filename: npr-stationfinder-api-openapi.yml
   format: yaml
   label: NPR Stationfinder API
   slug: npr-stationfinder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-stationfinder-api-openapi.yml
+  url: https://artifacts.apis.io/npr/openapi/npr-stationfinder-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 2
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/npr-au
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/token/revoke\n  method: post\n  operationId: revokeToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - identity.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    scope:\n    - identity.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/stations\n  method: put\n  operationId: updateStations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - identity.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/following\n  method: post\n  operationId: postFollowing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - identity.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/stations\n\
   \  method: get\n  operationId: searchStations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/stations/{stationId}\n  method: get\n  operationId: getStationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/agentic-access/npr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/npr/agentic-access/npr-agentic-access.yml
 summary_line: 18 operations · 12 acting · 2 human-in-the-loop
 tags:
 - Media

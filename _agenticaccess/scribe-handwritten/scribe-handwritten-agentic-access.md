@@ -9,19 +9,19 @@ api_specs:
   label: Scribe Handwritten v0 Endpoints API
   slug: scribe-handwritten-v0-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe-handwritten/refs/heads/main/openapi/scribe-handwritten-v0-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/scribe-handwritten/openapi/scribe-handwritten-v0-endpoints-api-openapi.yml
 - filename: scribe-handwritten-v1-endpoints-api-openapi.yml
   format: yaml
   label: Scribe Handwritten v1 Endpoints API
   slug: scribe-handwritten-v1-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe-handwritten/refs/heads/main/openapi/scribe-handwritten-v1-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/scribe-handwritten/openapi/scribe-handwritten-v1-endpoints-api-openapi.yml
 - filename: scribe-handwritten-wallet-api-openapi.yml
   format: yaml
   label: Scribe Handwritten Wallet API
   slug: scribe-handwritten-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe-handwritten/refs/heads/main/openapi/scribe-handwritten-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/scribe-handwritten/openapi/scribe-handwritten-wallet-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9
@@ -72,12 +72,12 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/scribe
   \   action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/campaign-status\n  method: get\n  operationId: aeeb0a513d8fbec0762a9f505179c8f0\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/wallet-balance\n  method: get\n  operationId: getWalletBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ongoing-batch-orders\n  method: get\n  operationId: 0a8486e49c9684ac22f833fe3faeeafd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v1/campaigns\n  method: get\n  operationId: 66daa0a1f3b7f631094d4eb5e3a10fe0\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/campaign-recipients\n  method: get\n  operationId: 157d642656c530a2831d3bb941a60ef3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/preview\n  method: post\n  operationId: dde1fadb097ca69d08a4586cd2529a5f\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/transactions/{transaction_id}\n  method: get\n  operationId: getTransactionById\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scribe-handwritten/refs/heads/main/agentic-access/scribe-handwritten-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scribe-handwritten/agentic-access/scribe-handwritten-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - Company
-- Handwritten
-- DirectMail
-- MarketingAutomation
-- CampaignManagement
+- Handwriting
+- Digital
+- Collaboration
+- Productivity
 ---

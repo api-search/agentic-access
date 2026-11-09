@@ -9,37 +9,37 @@ api_specs:
   label: Trading 212 Accounts API
   slug: trading212-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-accounts-api-openapi.yml
 - filename: trading212-historical-events-api-openapi.yml
   format: yaml
   label: Trading 212 Historical events API
   slug: trading212-historical-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-historical-events-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-historical-events-api-openapi.yml
 - filename: trading212-instruments-api-openapi.yml
   format: yaml
   label: Trading 212 Instruments API
   slug: trading212-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-instruments-api-openapi.yml
 - filename: trading212-orders-api-openapi.yml
   format: yaml
   label: Trading 212 Orders API
   slug: trading212-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-orders-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-orders-api-openapi.yml
 - filename: trading212-pies-deprecated-api-openapi.yml
   format: yaml
   label: Trading 212 Pies (Deprecated) API
   slug: trading212-pies-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-pies-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-pies-deprecated-api-openapi.yml
 - filename: trading212-positions-api-openapi.yml
   format: yaml
   label: Trading 212 Positions API
   slug: trading212-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/openapi/trading212-positions-api-openapi.yml
+  url: https://artifacts.apis.io/trading212/openapi/trading212-positions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 12
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   - path: /api/v0/equity/pies\n  method: get\n  operationId: getAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/equity/pies\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/equity/pies/{id}\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/equity/pies/{id}\n  method: get\n  operationId: getDetailed\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/equity/pies/{id}\n  method: post\n  operationId: update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/equity/pies/{id}/duplicate\n  method: post\n  operationId: duplicatePie\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/equity/positions\n  method: get\n  operationId: getPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/agentic-access/trading212-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trading212/agentic-access/trading212-agentic-access.yml
 summary_line: 22 operations · 10 acting · 2 human-in-the-loop
 tags:
 - Investing

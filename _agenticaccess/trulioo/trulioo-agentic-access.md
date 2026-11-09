@@ -9,115 +9,115 @@ api_specs:
   label: Trulioo Verifications API
   slug: trulioo-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-verifications-api-openapi.yml
 - filename: trulioo-configuration-api-openapi.yml
   format: yaml
   label: Trulioo Configuration API
   slug: trulioo-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-configuration-api-openapi.yml
 - filename: trulioo-connection-api-openapi.yml
   format: yaml
   label: Trulioo Connection API
   slug: trulioo-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-connection-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-connection-api-openapi.yml
 - filename: trulioo-business-verification-api-openapi.yml
   format: yaml
   label: Trulioo Business Verification API
   slug: trulioo-business-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-verification-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-verification-api-openapi.yml
 - filename: trulioo-person-fraud-api-openapi.yml
   format: yaml
   label: Trulioo Person Fraud API
   slug: trulioo-person-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-person-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-person-fraud-api-openapi.yml
 - filename: trulioo-document-verification-api-openapi.yml
   format: yaml
   label: Trulioo Identity Document Verification API
   slug: trulioo-document-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-document-verification-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-document-verification-api-openapi.yml
 - filename: trulioo-authentication-api-openapi.yml
   format: yaml
   label: Trulioo Authentication API
   slug: trulioo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-authentication-api-openapi.yml
 - filename: trulioo-business-configuration-api-openapi.yml
   format: yaml
   label: Trulioo Business Configuration API
   slug: trulioo-business-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-configuration-api-openapi.yml
 - filename: trulioo-business-reports-api-openapi.yml
   format: yaml
   label: Trulioo Business Reports API
   slug: trulioo-business-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-reports-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-reports-api-openapi.yml
 - filename: trulioo-business-search-api-openapi.yml
   format: yaml
   label: Trulioo Business Search API
   slug: trulioo-business-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-search-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-search-api-openapi.yml
 - filename: trulioo-document-configuration-api-openapi.yml
   format: yaml
   label: Trulioo Document Configuration API
   slug: trulioo-document-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-document-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-document-configuration-api-openapi.yml
 - filename: trulioo-documents-api-openapi.yml
   format: yaml
   label: Trulioo Documents API
   slug: trulioo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-documents-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-documents-api-openapi.yml
 - filename: trulioo-end-clients-api-openapi.yml
   format: yaml
   label: Trulioo End Clients API
   slug: trulioo-end-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-end-clients-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-end-clients-api-openapi.yml
 - filename: trulioo-events-api-openapi.yml
   format: yaml
   label: Trulioo Events API
   slug: trulioo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-events-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-events-api-openapi.yml
 - filename: trulioo-flows-api-openapi.yml
   format: yaml
   label: Trulioo Flows API
   slug: trulioo-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-flows-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-flows-api-openapi.yml
 - filename: trulioo-known-faces-api-openapi.yml
   format: yaml
   label: Trulioo Known Faces API
   slug: trulioo-known-faces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-known-faces-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-known-faces-api-openapi.yml
 - filename: trulioo-sessions-api-openapi.yml
   format: yaml
   label: Trulioo Sessions API
   slug: trulioo-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-sessions-api-openapi.yml
 - filename: trulioo-transactions-api-openapi.yml
   format: yaml
   label: Trulioo Transactions API
   slug: trulioo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-transactions-api-openapi.yml
 - filename: trulioo-workflows-api-openapi.yml
   format: yaml
   label: Trulioo Workflows API
   slug: trulioo-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-workflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 34
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trulio
   \  method: post\n  operationId: updateEndClientsStatusBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer/v2/signedurl\n  method: post\n  operationId: generateSignedUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer/v2/events\n  method: post\n  operationId: sendEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/verifications/verify\n  method: post\n  operationId: verifyPerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/verifications/transactionrecord/{transactionRecordId}\n  method: get\n  operationId: getTransactionRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/verifications/transactionrecord/{transactionRecordId}/withaddress\n  method: get\n  operationId: getTransactionRecordWithAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v3/verifications/transaction/{transactionId}/status\n  method: get\n  operationId: getTransactionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/verifications/transaction/{transactionRecordId}/partialresult\n  method: get\n  operationId: getPartialTransactionResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/verifications/documentdownload/{transactionRecordId}/{fieldName}\n  method: get\n  operationId: downloadDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/agentic-access/trulioo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trulioo/agentic-access/trulioo-agentic-access.yml
 summary_line: 54 operations · 20 acting
 tags:
 - Identity Verification

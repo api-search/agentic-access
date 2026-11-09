@@ -9,31 +9,31 @@ api_specs:
   label: Aptean Consumers API
   slug: aptean-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-consumers-api-openapi.yml
 - filename: aptean-events-api-openapi.yml
   format: yaml
   label: Aptean Events API
   slug: aptean-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-events-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-events-api-openapi.yml
 - filename: aptean-producers-api-openapi.yml
   format: yaml
   label: Aptean Producers API
   slug: aptean-producers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-producers-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-producers-api-openapi.yml
 - filename: aptean-event-definitions-api-openapi.yml
   format: yaml
   label: Aptean Event Definitions API
   slug: aptean-event-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-event-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-event-definitions-api-openapi.yml
 - filename: aptean-public-keys-api-openapi.yml
   format: yaml
   label: Aptean Public Keys API
   slug: aptean-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-public-keys-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/aptean
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/event-definitions/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/events\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/events/consumer-events/{consumerId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events/{eventId}\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/producers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/producers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/producers/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/public-keys\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/agentic-access/aptean-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aptean/agentic-access/aptean-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Company

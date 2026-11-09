@@ -9,19 +9,19 @@ api_specs:
   label: Amazon Monitron ProjectAdmins API
   slug: amazon-monitron-projectadmins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/openapi/amazon-monitron-projectadmins-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-monitron/openapi/amazon-monitron-projectadmins-api-openapi.yml
 - filename: amazon-monitron-projects-api-openapi.yml
   format: yaml
   label: Amazon Monitron Projects API
   slug: amazon-monitron-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/openapi/amazon-monitron-projects-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-monitron/openapi/amazon-monitron-projects-api-openapi.yml
 - filename: amazon-monitron-tags-api-openapi.yml
   format: yaml
   label: Amazon Monitron Tags API
   slug: amazon-monitron-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/openapi/amazon-monitron-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-monitron/openapi/amazon-monitron-tags-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -52,9 +52,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \    audit: required\n- path: /projects/{projectName}/admins\n  method: get\n  operationId: ListProjectAdminUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectName}/admins\n  method: post\n  operationId: AssociateProjectAdminUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectName}/admins/{userArn}\n  method: delete\n  operationId: DisassociateProjectAdminUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /projects/{projectName}/admins/{userArn}\n  method: get\n  operationId: GetProjectAdminUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/agentic-access/amazon-monitron-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-monitron/agentic-access/amazon-monitron-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
+- Amazon Web Services
 - Industrial IoT
 - Predictive Maintenance
 - Monitoring

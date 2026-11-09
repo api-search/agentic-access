@@ -9,31 +9,31 @@ api_specs:
   label: Adapty Access Levels API
   slug: adapty-access-levels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adapty/refs/heads/main/openapi/adapty-access-levels-api-openapi.yml
+  url: https://artifacts.apis.io/adapty/openapi/adapty-access-levels-api-openapi.yml
 - filename: adapty-integrations-api-openapi.yml
   format: yaml
   label: Adapty Integrations API
   slug: adapty-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adapty/refs/heads/main/openapi/adapty-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/adapty/openapi/adapty-integrations-api-openapi.yml
 - filename: adapty-paywalls-api-openapi.yml
   format: yaml
   label: Adapty Paywalls API
   slug: adapty-paywalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adapty/refs/heads/main/openapi/adapty-paywalls-api-openapi.yml
+  url: https://artifacts.apis.io/adapty/openapi/adapty-paywalls-api-openapi.yml
 - filename: adapty-profiles-api-openapi.yml
   format: yaml
   label: Adapty Profiles API
   slug: adapty-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adapty/refs/heads/main/openapi/adapty-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/adapty/openapi/adapty-profiles-api-openapi.yml
 - filename: adapty-purchases-api-openapi.yml
   format: yaml
   label: Adapty Purchases API
   slug: adapty-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adapty/refs/heads/main/openapi/adapty-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/adapty/openapi/adapty-purchases-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 3
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/adapty
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /purchase/stripe/\n  method: post\n  operationId: validateStripePurchase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /purchase/profile/grant-access-level/\n  method: post\n  operationId: grantAccessLevel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /purchase/profile/revoke-access-level/\n  method: post\n  operationId: revokeAccessLevel\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /profile/integration-identifiers/\n  method: post\n  operationId: setIntegrationIdentifiers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /paywalls/{developer_id}/\n  method: get\n  operationId: getPaywall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paywalls/{developer_id}/\n  method: patch\n  operationId: updatePaywall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /paywalls/\n  method: get\n  operationId: listPaywalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adapty/refs/heads/main/agentic-access/adapty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adapty/agentic-access/adapty-agentic-access.yml
 summary_line: 12 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Mobile

@@ -9,85 +9,85 @@ api_specs:
   label: TableCheck Availability API
   slug: tablecheck-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-availability-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-availability-api-openapi.yml
 - filename: tablecheck-blockages-api-openapi.yml
   format: yaml
   label: TableCheck Blockages API
   slug: tablecheck-blockages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-blockages-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-blockages-api-openapi.yml
 - filename: tablecheck-calendar-api-openapi.yml
   format: yaml
   label: TableCheck Calendar API
   slug: tablecheck-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-calendar-api-openapi.yml
 - filename: tablecheck-customers-api-openapi.yml
   format: yaml
   label: TableCheck Customers API
   slug: tablecheck-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-customers-api-openapi.yml
 - filename: tablecheck-franchises-api-openapi.yml
   format: yaml
   label: TableCheck Franchises API
   slug: tablecheck-franchises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-franchises-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-franchises-api-openapi.yml
 - filename: tablecheck-membership-programs-api-openapi.yml
   format: yaml
   label: TableCheck Membership Programs API
   slug: tablecheck-membership-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-membership-programs-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-membership-programs-api-openapi.yml
 - filename: tablecheck-memberships-api-openapi.yml
   format: yaml
   label: TableCheck Memberships API
   slug: tablecheck-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-memberships-api-openapi.yml
 - filename: tablecheck-pos-journals-api-openapi.yml
   format: yaml
   label: TableCheck Pos Journals API
   slug: tablecheck-pos-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-pos-journals-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-pos-journals-api-openapi.yml
 - filename: tablecheck-reservation-flags-api-openapi.yml
   format: yaml
   label: TableCheck Reservation Flags API
   slug: tablecheck-reservation-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-reservation-flags-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-reservation-flags-api-openapi.yml
 - filename: tablecheck-reservations-api-openapi.yml
   format: yaml
   label: TableCheck Reservations API
   slug: tablecheck-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-reservations-api-openapi.yml
 - filename: tablecheck-shops-api-openapi.yml
   format: yaml
   label: TableCheck Shops API
   slug: tablecheck-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-shops-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-shops-api-openapi.yml
 - filename: tablecheck-table-status-api-openapi.yml
   format: yaml
   label: TableCheck Table Status API
   slug: tablecheck-table-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-table-status-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-table-status-api-openapi.yml
 - filename: tablecheck-tables-api-openapi.yml
   format: yaml
   label: TableCheck Tables API
   slug: tablecheck-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-tables-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-tables-api-openapi.yml
 - filename: tablecheck-timetable-api-openapi.yml
   format: yaml
   label: TableCheck Timetable API
   slug: tablecheck-timetable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-timetable-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-timetable-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 26
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tablec
   \      - high-value\n    audit: required\n- path: /shops/{shop_id}/reservations\n  method: get\n  operationId: listReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shops/{shop_id}/reservations/{reservation_id}\n  method: get\n  operationId: showReservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shops/{shop_id}/reservations/{reservation_id}\n  method: put\n  operationId: updateReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shops\n  method: get\n  operationId: listShops\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shops/{shop_id}\n  method: get\n  operationId: showShopById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shops/{id}\n  method: get\n  operationId: showShop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shops/{shop_id}/table_status/show\n  method: post\n  operationId: showTableStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shops/{shop_id}/table_status/update\n  method: put\n  operationId: updateTableStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shops/{shop_id}/tables\n  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timetable/{shop_id}\n  method: get\n  operationId: showTimetableByShopId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/agentic-access/tablecheck-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tablecheck/agentic-access/tablecheck-agentic-access.yml
 summary_line: 46 operations · 20 acting
 tags:
 - Restaurant

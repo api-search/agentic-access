@@ -9,31 +9,31 @@ api_specs:
   label: Sapien Datapoints API
   slug: sapien-datapoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-datapoints-api-openapi.yml
+  url: https://artifacts.apis.io/sapien/openapi/sapien-datapoints-api-openapi.yml
 - filename: sapien-projects-api-openapi.yml
   format: yaml
   label: Sapien Projects API
   slug: sapien-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sapien/openapi/sapien-projects-api-openapi.yml
 - filename: sapien-system-api-openapi.yml
   format: yaml
   label: Sapien System API
   slug: sapien-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-system-api-openapi.yml
+  url: https://artifacts.apis.io/sapien/openapi/sapien-system-api-openapi.yml
 - filename: sapien-upload-sessions-api-openapi.yml
   format: yaml
   label: Sapien Upload Sessions API
   slug: sapien-upload-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-upload-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/sapien/openapi/sapien-upload-sessions-api-openapi.yml
 - filename: sapien-validators-api-openapi.yml
   format: yaml
   label: Sapien Validators API
   slug: sapien-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/openapi/sapien-validators-api-openapi.yml
+  url: https://artifacts.apis.io/sapien/openapi/sapien-validators-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sapien
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/upload-sessions/{uploadId}/status\n  method: get\n  operationId: getUploadSessionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/validators/{validatorId}/classes\n  method: post\n  operationId: grantValidatorClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/validators/{validatorId}/classes/{classId}\n  method: delete\n  operationId: revokeValidatorClass\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /validators\n  method: get\n  operationId: listValidators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /validators/{validatorId}/assign\n  method: post\n  operationId: assignValidator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validators/{validatorId}/projects\n  method: get\n  operationId: listValidatorProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n- path: /validators/{validatorId}/unassign\n  method: post\n  operationId: unassignValidator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/agentic-access/sapien-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sapien/agentic-access/sapien-agentic-access.yml
 summary_line: 22 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Company

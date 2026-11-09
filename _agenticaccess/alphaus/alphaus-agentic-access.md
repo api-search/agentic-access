@@ -9,91 +9,91 @@ api_specs:
   label: Alphaus Admin API
   slug: alphaus-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-admin-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-admin-api-openapi.yml
 - filename: alphaus-billing-api-openapi.yml
   format: yaml
   label: Alphaus Billing API
   slug: alphaus-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-billing-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-billing-api-openapi.yml
 - filename: alphaus-cost-api-openapi.yml
   format: yaml
   label: Alphaus Cost API
   slug: alphaus-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-cost-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-cost-api-openapi.yml
 - filename: alphaus-cover-api-openapi.yml
   format: yaml
   label: Alphaus Cover API
   slug: alphaus-cover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-cover-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-cover-api-openapi.yml
 - filename: alphaus-flags-api-openapi.yml
   format: yaml
   label: Alphaus Flags API
   slug: alphaus-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-flags-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-flags-api-openapi.yml
 - filename: alphaus-flow-api-openapi.yml
   format: yaml
   label: Alphaus Flow API
   slug: alphaus-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-flow-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-flow-api-openapi.yml
 - filename: alphaus-guaranteedcommitments-api-openapi.yml
   format: yaml
   label: Alphaus GuaranteedCommitments API
   slug: alphaus-guaranteedcommitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-guaranteedcommitments-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-guaranteedcommitments-api-openapi.yml
 - filename: alphaus-iam-api-openapi.yml
   format: yaml
   label: Alphaus Iam API
   slug: alphaus-iam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-iam-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-iam-api-openapi.yml
 - filename: alphaus-luster-api-openapi.yml
   format: yaml
   label: Alphaus Luster API
   slug: alphaus-luster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-luster-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-luster-api-openapi.yml
 - filename: alphaus-operations-api-openapi.yml
   format: yaml
   label: Alphaus Operations API
   slug: alphaus-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-operations-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-operations-api-openapi.yml
 - filename: alphaus-organization-api-openapi.yml
   format: yaml
   label: Alphaus Organization API
   slug: alphaus-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-organization-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-organization-api-openapi.yml
 - filename: alphaus-preferences-api-openapi.yml
   format: yaml
   label: Alphaus Preferences API
   slug: alphaus-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-preferences-api-openapi.yml
 - filename: alphaus-pricing-api-openapi.yml
   format: yaml
   label: Alphaus Pricing API
   slug: alphaus-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-pricing-api-openapi.yml
 - filename: alphaus-prism-api-openapi.yml
   format: yaml
   label: Alphaus Prism API
   slug: alphaus-prism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-prism-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-prism-api-openapi.yml
 - filename: alphaus-vortex-api-openapi.yml
   format: yaml
   label: Alphaus Vortex API
   slug: alphaus-vortex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/openapi/alphaus-vortex-api-openapi.yml
+  url: https://artifacts.apis.io/alphaus/openapi/alphaus-vortex-api-openapi.yml
 consequence_counts:
   physical: 62
   read: 185
@@ -282,8 +282,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/alphau
   \  method: post\n  operationId: Billing_BulkTagBillingGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/billinggroups:paginated\n  method: get\n  operationId: Billing_ListBillingGroupsPaginated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/credits\n  method: get\n  operationId: Billing_GetCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/csvsettings\n  method: get\n  operationId: Billing_GetCsvSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/customfield\n  method: post\n  operationId: Billing_CreateCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customfield/{id}\n  method: delete\n  operationId: Billing_DeleteCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customfield/{id}\n  method: put\n  operationId: Billing_UpdateCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customfield:read\n  method: post\n  operationId: Billing_ListCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customizedbillingservices\n  method: post\n  operationId: Billing_CreateCustomizedBillingService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customizedbillingservices/billinggroup/{groupId}/{vendor}\n  method: get\n  operationId: Billing_GetCustomizedBillingServiceBillingGroup\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customizedbillingservices/billinggroup/{groupId}/{vendor}\n  method: delete\n  operationId: Billing_DeleteCustomizedBillingServiceBillingGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (186 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/agentic-access/alphaus-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/agentic-access/alphaus-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customizedbillingservices/billinggroup/{groupId}/{vendor}\n  method: delete\n  operationId: Billing_DeleteCustomizedBillingServiceBillingGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (186 KB total) ---\n# Full source: https://artifacts.apis.io/alphaus/agentic-access/alphaus-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/alphaus/agentic-access/alphaus-agentic-access.yml
 summary_line: 586 operations · 401 acting · 8 human-in-the-loop
 tags:
 - Company
@@ -292,6 +292,7 @@ tags:
 - Cloud
 - Billing
 - Multi-Cloud
+- Amazon Web Services
 - Microsoft Azure
 - GCP
 - gRPC

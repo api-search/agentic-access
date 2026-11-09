@@ -9,7 +9,7 @@ api_specs:
   label: Amazon Device Farm AWS Device Farm API
   slug: amazon-device-farm-aws-device-farm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-aws-device-farm-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-device-farm/openapi/amazon-device-farm-aws-device-farm-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 34
@@ -94,10 +94,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=DeviceFarm_20150623.UpdateNetworkProfile\n  method: post\n  operationId: UpdateNetworkProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=DeviceFarm_20150623.UpdateProject\n  method: post\n  operationId: UpdateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=DeviceFarm_20150623.UpdateTestGridProject\n  method: post\n  operationId: UpdateTestGridProject\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=DeviceFarm_20150623.UpdateUpload\n  method: post\n  operationId: UpdateUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=DeviceFarm_20150623.UpdateVPCEConfiguration\n  method: post\n  operationId: UpdateVPCEConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/agentic-access/amazon-device-farm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-device-farm/agentic-access/amazon-device-farm-agentic-access.yml
 summary_line: 77 operations · 43 acting · 3 human-in-the-loop
 tags:
 - Application Testing
+- Amazon Web Services
 - Device Testing
 - Mobile Testing
 - Quality Assurance

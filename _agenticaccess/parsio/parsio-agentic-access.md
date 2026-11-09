@@ -9,25 +9,25 @@ api_specs:
   label: Parsio Documents API
   slug: parsio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-documents-api-openapi.yml
 - filename: parsio-mailboxes-api-openapi.yml
   format: yaml
   label: Parsio Mailboxes API
   slug: parsio-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-mailboxes-api-openapi.yml
 - filename: parsio-templates-api-openapi.yml
   format: yaml
   label: Parsio Templates API
   slug: parsio-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-templates-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-templates-api-openapi.yml
 - filename: parsio-webhooks-api-openapi.yml
   format: yaml
   label: Parsio Webhooks API
   slug: parsio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parsio/openapi/parsio-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/parsio
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/disable_many\n  method: post\n  operationId: disableTemplates\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /templates/clone_many\n  method: post\n  operationId: cloneTemplates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates\n  method: delete\n  operationId: deleteTemplates\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/mb/{mailbox_id}\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{mailbox_id}\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: post\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: delete\n  operationId: deleteWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/agentic-access/parsio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parsio/agentic-access/parsio-agentic-access.yml
 summary_line: 27 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

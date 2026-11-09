@@ -9,79 +9,79 @@ api_specs:
   label: Scrunch AI Agent Traffic API
   slug: scrunch-ai-agent-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-agent-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-agent-traffic-api-openapi.yml
 - filename: scrunch-ai-ai-referrals-api-openapi.yml
   format: yaml
   label: Scrunch AI AI Referrals API
   slug: scrunch-ai-ai-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-ai-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-ai-referrals-api-openapi.yml
 - filename: scrunch-ai-axp-render-api-openapi.yml
   format: yaml
   label: Scrunch AI Axp Render API
   slug: scrunch-ai-axp-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-axp-render-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-axp-render-api-openapi.yml
 - filename: scrunch-ai-brands-api-openapi.yml
   format: yaml
   label: Scrunch AI Brands API
   slug: scrunch-ai-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-brands-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-brands-api-openapi.yml
 - filename: scrunch-ai-orchestration-api-openapi.yml
   format: yaml
   label: Scrunch AI Orchestration API
   slug: scrunch-ai-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-orchestration-api-openapi.yml
 - filename: scrunch-ai-page-audits-api-openapi.yml
   format: yaml
   label: Scrunch AI Page Audits API
   slug: scrunch-ai-page-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-page-audits-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-page-audits-api-openapi.yml
 - filename: scrunch-ai-prompts-api-openapi.yml
   format: yaml
   label: Scrunch AI Prompts API
   slug: scrunch-ai-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-prompts-api-openapi.yml
 - filename: scrunch-ai-query-api-openapi.yml
   format: yaml
   label: Scrunch AI Query API
   slug: scrunch-ai-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-query-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-query-api-openapi.yml
 - filename: scrunch-ai-responses-api-openapi.yml
   format: yaml
   label: Scrunch AI Responses API
   slug: scrunch-ai-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-responses-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-responses-api-openapi.yml
 - filename: scrunch-ai-sitemap-api-openapi.yml
   format: yaml
   label: Scrunch AI Sitemap API
   slug: scrunch-ai-sitemap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-sitemap-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-sitemap-api-openapi.yml
 - filename: scrunch-ai-signals-api-openapi.yml
   format: yaml
   label: Scrunch AI Signals API
   slug: scrunch-ai-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-signals-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-signals-api-openapi.yml
 - filename: scrunch-ai-collections-api-openapi.yml
   format: yaml
   label: Scrunch AI Collections API
   slug: scrunch-ai-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-collections-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-collections-api-openapi.yml
 - filename: scrunch-ai-scrunch-data-api-api-openapi.yml
   format: yaml
   label: Scrunch AI Scrunch Data API
   slug: scrunch-ai-scrunch-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-scrunch-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-scrunch-data-api-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/scrunc
   \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - query\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{brand_id}/signals/anchors\n  method: get\n  operationId: listSignalAnchors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - query\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{brand_id}/signals/reactions\n  method: get\n  operationId: listSignalReactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - query\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{brand_id}/signals/{signal_id}\n  method: get\n  operationId: getSignal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - query\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{brand_id}/signals/{signal_id}/reaction\n  method: put\n  operationId: setSignalReaction\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - query\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{brand_id}/signals/{signal_id}/reaction\n  method: delete\n  operationId: clearSignalReaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - query\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{brand_id}/sitemap/export\n  method: get\n  operationId: exportSitemapPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - query\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{brand_id}/sitemap/pages/{page_id}/metrics\n\
   \  method: get\n  operationId: getSitemapPageMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - query\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{brand_id}/sitemap/pages/{page_id}\n  method: get\n  operationId: getSitemapPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - query\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{brand_id}/sitemap/pages\n  method: get\n  operationId: listSitemapPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - query\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/agentic-access/scrunch-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scrunch-ai/agentic-access/scrunch-ai-agentic-access.yml
 summary_line: 39 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Company

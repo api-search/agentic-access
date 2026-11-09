@@ -9,139 +9,139 @@ api_specs:
   label: ClawSpan A2A API
   slug: clawspan-cloud-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-a2a-api-openapi.yml
 - filename: clawspan-cloud-affiliate-api-openapi.yml
   format: yaml
   label: ClawSpan Affiliate API
   slug: clawspan-cloud-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-affiliate-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-affiliate-api-openapi.yml
 - filename: clawspan-cloud-agent-api-openapi.yml
   format: yaml
   label: ClawSpan Agent API
   slug: clawspan-cloud-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-agent-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-agent-api-openapi.yml
 - filename: clawspan-cloud-agents-api-openapi.yml
   format: yaml
   label: ClawSpan Agents API
   slug: clawspan-cloud-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-agents-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-agents-api-openapi.yml
 - filename: clawspan-cloud-auth-api-openapi.yml
   format: yaml
   label: ClawSpan Auth API
   slug: clawspan-cloud-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-auth-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-auth-api-openapi.yml
 - filename: clawspan-cloud-billing-api-openapi.yml
   format: yaml
   label: ClawSpan Billing API
   slug: clawspan-cloud-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-billing-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-billing-api-openapi.yml
 - filename: clawspan-cloud-bridge-api-openapi.yml
   format: yaml
   label: ClawSpan Bridge API
   slug: clawspan-cloud-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-bridge-api-openapi.yml
 - filename: clawspan-cloud-delegation-api-openapi.yml
   format: yaml
   label: ClawSpan Delegation API
   slug: clawspan-cloud-delegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-delegation-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-delegation-api-openapi.yml
 - filename: clawspan-cloud-discovery-api-openapi.yml
   format: yaml
   label: ClawSpan Discovery API
   slug: clawspan-cloud-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-discovery-api-openapi.yml
 - filename: clawspan-cloud-disputes-api-openapi.yml
   format: yaml
   label: ClawSpan Disputes API
   slug: clawspan-cloud-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-disputes-api-openapi.yml
 - filename: clawspan-cloud-health-api-openapi.yml
   format: yaml
   label: ClawSpan Health API
   slug: clawspan-cloud-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-health-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-health-api-openapi.yml
 - filename: clawspan-cloud-leases-api-openapi.yml
   format: yaml
   label: ClawSpan Leases API
   slug: clawspan-cloud-leases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-leases-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-leases-api-openapi.yml
 - filename: clawspan-cloud-pricing-api-openapi.yml
   format: yaml
   label: ClawSpan Pricing API
   slug: clawspan-cloud-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-pricing-api-openapi.yml
 - filename: clawspan-cloud-providers-api-openapi.yml
   format: yaml
   label: ClawSpan Providers API
   slug: clawspan-cloud-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-providers-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-providers-api-openapi.yml
 - filename: clawspan-cloud-public-api-openapi.yml
   format: yaml
   label: ClawSpan Public API
   slug: clawspan-cloud-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-public-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-public-api-openapi.yml
 - filename: clawspan-cloud-reactions-api-openapi.yml
   format: yaml
   label: ClawSpan Reactions API
   slug: clawspan-cloud-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-reactions-api-openapi.yml
 - filename: clawspan-cloud-realtime-api-openapi.yml
   format: yaml
   label: ClawSpan Realtime API
   slug: clawspan-cloud-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-realtime-api-openapi.yml
 - filename: clawspan-cloud-seller-api-openapi.yml
   format: yaml
   label: ClawSpan Seller API
   slug: clawspan-cloud-seller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-seller-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-seller-api-openapi.yml
 - filename: clawspan-cloud-streams-api-openapi.yml
   format: yaml
   label: ClawSpan Streams API
   slug: clawspan-cloud-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-streams-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-streams-api-openapi.yml
 - filename: clawspan-cloud-system-api-openapi.yml
   format: yaml
   label: ClawSpan System API
   slug: clawspan-cloud-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-system-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-system-api-openapi.yml
 - filename: clawspan-cloud-tasks-api-openapi.yml
   format: yaml
   label: ClawSpan Tasks API
   slug: clawspan-cloud-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-tasks-api-openapi.yml
 - filename: clawspan-cloud-viral-api-openapi.yml
   format: yaml
   label: ClawSpan Viral API
   slug: clawspan-cloud-viral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-viral-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-viral-api-openapi.yml
 - filename: clawspan-cloud-workspaces-api-openapi.yml
   format: yaml
   label: ClawSpan Workspaces API
   slug: clawspan-cloud-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/openapi/clawspan-cloud-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/clawspan-cloud/openapi/clawspan-cloud-workspaces-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 112
@@ -275,8 +275,8 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/clawsp
   \      human-in-the-loop: required\n    audit: required\n- path: /api/v1/affiliate/events/assist\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/affiliate/leaderboard\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/affiliate/recommendations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contracts\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sellers/register\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sellers/{sellerId}/balance\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sellers/{sellerId}/withdraw\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/v1/contracts/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contracts/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/contracts/{id}/revoke\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/contracts/{id}/publish\n  method: post\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/contracts/{id}/sample\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contracts/{id}/review\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/agentic-access/clawspan-cloud-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clawspan-cloud/refs/heads/main/agentic-access/clawspan-cloud-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/contracts/{id}/sample\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/contracts/{id}/review\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/clawspan-cloud/agentic-access/clawspan-cloud-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/clawspan-cloud/agentic-access/clawspan-cloud-agentic-access.yml
 summary_line: 191 operations · 79 acting · 10 human-in-the-loop
 tags:
 - AI Agents

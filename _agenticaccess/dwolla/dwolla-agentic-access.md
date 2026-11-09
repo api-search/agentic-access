@@ -9,109 +9,109 @@ api_specs:
   label: Dwolla Accounts API
   slug: dwolla-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-accounts-api-openapi.yml
 - filename: dwolla-beneficial-owners-api-openapi.yml
   format: yaml
   label: Dwolla beneficial owners API
   slug: dwolla-beneficial-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-beneficial-owners-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-beneficial-owners-api-openapi.yml
 - filename: dwolla-client-tokens-api-openapi.yml
   format: yaml
   label: Dwolla client tokens API
   slug: dwolla-client-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-client-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-client-tokens-api-openapi.yml
 - filename: dwolla-customers-api-openapi.yml
   format: yaml
   label: Dwolla Customers API
   slug: dwolla-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-customers-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-customers-api-openapi.yml
 - filename: dwolla-documents-api-openapi.yml
   format: yaml
   label: Dwolla Documents API
   slug: dwolla-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-documents-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-documents-api-openapi.yml
 - filename: dwolla-events-api-openapi.yml
   format: yaml
   label: Dwolla Events API
   slug: dwolla-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-events-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-events-api-openapi.yml
 - filename: dwolla-exchange-sessions-api-openapi.yml
   format: yaml
   label: Dwolla exchange sessions API
   slug: dwolla-exchange-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-exchange-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-exchange-sessions-api-openapi.yml
 - filename: dwolla-exchanges-api-openapi.yml
   format: yaml
   label: Dwolla Exchanges API
   slug: dwolla-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-exchanges-api-openapi.yml
 - filename: dwolla-funding-sources-api-openapi.yml
   format: yaml
   label: Dwolla funding sources API
   slug: dwolla-funding-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-funding-sources-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-funding-sources-api-openapi.yml
 - filename: dwolla-kba-api-openapi.yml
   format: yaml
   label: Dwolla Kba API
   slug: dwolla-kba-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-kba-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-kba-api-openapi.yml
 - filename: dwolla-labels-api-openapi.yml
   format: yaml
   label: Dwolla Labels API
   slug: dwolla-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-labels-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-labels-api-openapi.yml
 - filename: dwolla-mass-payments-api-openapi.yml
   format: yaml
   label: Dwolla mass payments API
   slug: dwolla-mass-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-mass-payments-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-mass-payments-api-openapi.yml
 - filename: dwolla-root-api-openapi.yml
   format: yaml
   label: Dwolla Root API
   slug: dwolla-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-root-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-root-api-openapi.yml
 - filename: dwolla-sandbox-simulations-api-openapi.yml
   format: yaml
   label: Dwolla sandbox simulations API
   slug: dwolla-sandbox-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-sandbox-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-sandbox-simulations-api-openapi.yml
 - filename: dwolla-tokens-api-openapi.yml
   format: yaml
   label: Dwolla Tokens API
   slug: dwolla-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-tokens-api-openapi.yml
 - filename: dwolla-transfers-api-openapi.yml
   format: yaml
   label: Dwolla Transfers API
   slug: dwolla-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-transfers-api-openapi.yml
 - filename: dwolla-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Dwolla webhook subscriptions API
   slug: dwolla-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-webhook-subscriptions-api-openapi.yml
 - filename: dwolla-webhooks-api-openapi.yml
   format: yaml
   label: Dwolla Webhooks API
   slug: dwolla-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/dwolla-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dwolla/openapi/dwolla-webhooks-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 96
@@ -251,8 +251,8 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/dwolla
   \ none\n- path: /funding-sources/{id}/ach-routing\n  method: get\n  operationId: getVanRouting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /on-demand-authorizations\n  method: post\n  operationId: createOnDemandTransferAuthorization\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers\n  method: post\n  operationId: initiateTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers/{id}\n  method: get\n  operationId: getTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/{id}\n  method: post\n  operationId: cancelTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}/transfers\n  method: get\n  operationId: listCustomerTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/{id}/fees\n  method: get\n  operationId: listTransferFees\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/{id}/failure\n  method: get\n  operationId: getTransferFailureReason\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mass-payments\n  method: post\n  operationId: initiateMassPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mass-payments/{id}\n  method: get\n  operationId: getMassPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
-  \ none\n- path: /mass-payments/{id}\n  method: post\n  operationId: updateMassPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mass-payments/{id}/items\n  method: get\n  operationId: listMassPaymentItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mass-payment-items/{itemId}\n  method: get\n  operationId: getMassPaymentItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/agentic-access/dwolla-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/agentic-access/dwolla-agentic-access.yml
+  \ none\n- path: /mass-payments/{id}\n  method: post\n  operationId: updateMassPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mass-payments/{id}/items\n  method: get\n  operationId: listMassPaymentItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mass-payment-items/{itemId}\n  method: get\n  operationId: getMassPaymentItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/dwolla/agentic-access/dwolla-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/dwolla/agentic-access/dwolla-agentic-access.yml
 summary_line: 164 operations · 68 acting
 tags:
 - Payments

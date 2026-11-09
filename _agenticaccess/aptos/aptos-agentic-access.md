@@ -9,43 +9,43 @@ api_specs:
   label: Aptos Accounts API
   slug: aptos-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-accounts-api-openapi.yml
 - filename: aptos-blocks-api-openapi.yml
   format: yaml
   label: Aptos Blocks API
   slug: aptos-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-blocks-api-openapi.yml
 - filename: aptos-events-api-openapi.yml
   format: yaml
   label: Aptos Events API
   slug: aptos-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-events-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-events-api-openapi.yml
 - filename: aptos-general-api-openapi.yml
   format: yaml
   label: Aptos General API
   slug: aptos-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-general-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-general-api-openapi.yml
 - filename: aptos-tables-api-openapi.yml
   format: yaml
   label: Aptos Tables API
   slug: aptos-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-tables-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-tables-api-openapi.yml
 - filename: aptos-transactions-api-openapi.yml
   format: yaml
   label: Aptos Transactions API
   slug: aptos-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-transactions-api-openapi.yml
 - filename: aptos-view-api-openapi.yml
   format: yaml
   label: Aptos View API
   slug: aptos-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/openapi/aptos-view-api-openapi.yml
+  url: https://artifacts.apis.io/aptos/openapi/aptos-view-api-openapi.yml
 consequence_counts:
   read: 24
   write: 5
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aptos-
   \ 3600\n    audit: none\n- path: /accounts/{address}/transactions\n  method: get\n  operationId: get_account_transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{address}/transaction_summaries\n  method: get\n  operationId: get_account_transaction_summaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/batch\n  method: post\n  operationId: submit_batch_transactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/simulate\n  method: post\n  operationId: simulate_transaction\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/encode_submission\n  method: post\n  operationId: encode_submission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /estimate_gas_price\n  method: get\n  operationId: estimate_gas_price\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /view\n  method: post\n  operationId: view\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/agentic-access/aptos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aptos/agentic-access/aptos-agentic-access.yml
 summary_line: 29 operations · 5 acting
 tags:
 - Blockchain

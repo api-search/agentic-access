@@ -9,25 +9,25 @@ api_specs:
   label: Zluri Data Upload API
   slug: zluri-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-data-upload-api-openapi.yml
 - filename: zluri-instances-api-openapi.yml
   format: yaml
   label: Zluri Instances API
   slug: zluri-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-instances-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-instances-api-openapi.yml
 - filename: zluri-syncs-api-openapi.yml
   format: yaml
   label: Zluri Syncs API
   slug: zluri-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-syncs-api-openapi.yml
 - filename: zluri-webhooks-api-openapi.yml
   format: yaml
   label: Zluri Webhooks API
   slug: zluri-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zluri-
   \ none\n- path: /integrations-sync/instances/{instance_id}/syncs/{sync_id}/finish\n  method: post\n  operationId: finishSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations-sync/instances/{instance_id}/syncs/{sync_id}/data/snapshots\n  method: post\n  operationId: uploadSnapshotData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations-sync/instances/{instance_id}/syncs/{sync_id}/data/facts\n  method: post\n  operationId: uploadFactData\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n\
   \  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/agentic-access/zluri-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zluri/agentic-access/zluri-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Identity and Access Management

@@ -9,139 +9,139 @@ api_specs:
   label: Artashippinginc Address Verifications API
   slug: artashippinginc-address-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-address-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-address-verifications-api-openapi.yml
 - filename: artashippinginc-api-keys-api-openapi.yml
   format: yaml
   label: Artashippinginc API Keys API
   slug: artashippinginc-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-api-keys-api-openapi.yml
 - filename: artashippinginc-attachments-api-openapi.yml
   format: yaml
   label: Artashippinginc Attachments API
   slug: artashippinginc-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-attachments-api-openapi.yml
 - filename: artashippinginc-collection-tag-rules-api-openapi.yml
   format: yaml
   label: Artashippinginc Collection Tag Rules API
   slug: artashippinginc-collection-tag-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-collection-tag-rules-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-collection-tag-rules-api-openapi.yml
 - filename: artashippinginc-email-rules-api-openapi.yml
   format: yaml
   label: Artashippinginc Email Rules API
   slug: artashippinginc-email-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-email-rules-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-email-rules-api-openapi.yml
 - filename: artashippinginc-email-subscriptions-api-openapi.yml
   format: yaml
   label: Artashippinginc Email Subscriptions API
   slug: artashippinginc-email-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-email-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-email-subscriptions-api-openapi.yml
 - filename: artashippinginc-hosted-sessions-api-openapi.yml
   format: yaml
   label: Artashippinginc Hosted Sessions API
   slug: artashippinginc-hosted-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-hosted-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-hosted-sessions-api-openapi.yml
 - filename: artashippinginc-import-cost-estimates-api-openapi.yml
   format: yaml
   label: Artashippinginc Import Cost Estimates API
   slug: artashippinginc-import-cost-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-import-cost-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-import-cost-estimates-api-openapi.yml
 - filename: artashippinginc-invoice-payments-api-openapi.yml
   format: yaml
   label: Artashippinginc Invoice Payments API
   slug: artashippinginc-invoice-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-invoice-payments-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-invoice-payments-api-openapi.yml
 - filename: artashippinginc-invoices-api-openapi.yml
   format: yaml
   label: Artashippinginc Invoices API
   slug: artashippinginc-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-invoices-api-openapi.yml
 - filename: artashippinginc-logs-api-openapi.yml
   format: yaml
   label: Artashippinginc Logs API
   slug: artashippinginc-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-logs-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-logs-api-openapi.yml
 - filename: artashippinginc-metadata-api-openapi.yml
   format: yaml
   label: Artashippinginc Metadata API
   slug: artashippinginc-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-metadata-api-openapi.yml
 - filename: artashippinginc-organization-api-openapi.yml
   format: yaml
   label: Artashippinginc Organization API
   slug: artashippinginc-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-organization-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-organization-api-openapi.yml
 - filename: artashippinginc-payments-api-openapi.yml
   format: yaml
   label: Artashippinginc Payments API
   slug: artashippinginc-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-payments-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-payments-api-openapi.yml
 - filename: artashippinginc-requests-api-openapi.yml
   format: yaml
   label: Artashippinginc Requests API
   slug: artashippinginc-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-requests-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-requests-api-openapi.yml
 - filename: artashippinginc-self-ship-collections-api-openapi.yml
   format: yaml
   label: Artashippinginc Self Ship Collections API
   slug: artashippinginc-self-ship-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-self-ship-collections-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-self-ship-collections-api-openapi.yml
 - filename: artashippinginc-shipment-exceptions-api-openapi.yml
   format: yaml
   label: Artashippinginc Shipment Exceptions API
   slug: artashippinginc-shipment-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-shipment-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-shipment-exceptions-api-openapi.yml
 - filename: artashippinginc-shipments-api-openapi.yml
   format: yaml
   label: Artashippinginc Shipments API
   slug: artashippinginc-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-shipments-api-openapi.yml
 - filename: artashippinginc-tags-api-openapi.yml
   format: yaml
   label: Artashippinginc Tags API
   slug: artashippinginc-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-tags-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-tags-api-openapi.yml
 - filename: artashippinginc-trackings-api-openapi.yml
   format: yaml
   label: Artashippinginc Trackings API
   slug: artashippinginc-trackings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-trackings-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-trackings-api-openapi.yml
 - filename: artashippinginc-uploads-api-openapi.yml
   format: yaml
   label: Artashippinginc Uploads API
   slug: artashippinginc-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-uploads-api-openapi.yml
 - filename: artashippinginc-webhook-deliveries-api-openapi.yml
   format: yaml
   label: Artashippinginc Webhook Deliveries API
   slug: artashippinginc-webhook-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-webhook-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-webhook-deliveries-api-openapi.yml
 - filename: artashippinginc-webhooks-api-openapi.yml
   format: yaml
   label: Artashippinginc Webhooks API
   slug: artashippinginc-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/openapi/artashippinginc-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/artashippinginc/openapi/artashippinginc-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 67
@@ -237,7 +237,7 @@ source_yaml: "generated: '2026-09-26'\nmethod: generated\nsource: openapi/arta-o
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: webhooks/list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: webhooks/create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: webhooks-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: patch\n  operationId: webhooks/patch\n  x-agentic-access:\n    action-class: acting\n  \
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: webhooks/delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}/ping\n  method: post\n  operationId: webhooks-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}/secret_token\n  method:\
   \ get\n  operationId: webhooks-secret-token-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}/secret_token/reset\n  method: patch\n  operationId: webhooks-secret-token-reset-patch\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/agentic-access/artashippinginc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/artashippinginc/agentic-access/artashippinginc-agentic-access.yml
 summary_line: 103 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Company

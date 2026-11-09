@@ -9,115 +9,115 @@ api_specs:
   label: Constant Contact Account Services API
   slug: constant-contact-account-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-account-services-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-account-services-api-openapi.yml
 - filename: constant-contact-bulk-activities-api-openapi.yml
   format: yaml
   label: Constant Contact Bulk Activities API
   slug: constant-contact-bulk-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-bulk-activities-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-bulk-activities-api-openapi.yml
 - filename: constant-contact-contact-lists-api-openapi.yml
   format: yaml
   label: Constant Contact Lists API
   slug: constant-contact-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contact-lists-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-contact-lists-api-openapi.yml
 - filename: constant-contact-contact-tags-api-openapi.yml
   format: yaml
   label: Constant Contact Tags API
   slug: constant-contact-contact-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contact-tags-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-contact-tags-api-openapi.yml
 - filename: constant-contact-contacts-api-openapi.yml
   format: yaml
   label: Constant Contact Contacts API
   slug: constant-contact-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-contacts-api-openapi.yml
 - filename: constant-contact-contacts-custom-fields-api-openapi.yml
   format: yaml
   label: Constant Contact Contacts Custom Fields API
   slug: constant-contact-contacts-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contacts-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-contacts-custom-fields-api-openapi.yml
 - filename: constant-contact-contacts-reporting-api-openapi.yml
   format: yaml
   label: Constant Contact Contacts Reporting API
   slug: constant-contact-contacts-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-contacts-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-contacts-reporting-api-openapi.yml
 - filename: constant-contact-email-campaigns-ab-tests-api-openapi.yml
   format: yaml
   label: Constant Contact Email Campaigns AB Tests API
   slug: constant-contact-email-campaigns-ab-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-email-campaigns-ab-tests-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-email-campaigns-ab-tests-api-openapi.yml
 - filename: constant-contact-email-campaigns-api-openapi.yml
   format: yaml
   label: Constant Contact Email Campaigns API
   slug: constant-contact-email-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-email-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-email-campaigns-api-openapi.yml
 - filename: constant-contact-email-reporting-api-openapi.yml
   format: yaml
   label: Constant Contact Email Reporting API
   slug: constant-contact-email-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-email-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-email-reporting-api-openapi.yml
 - filename: constant-contact-email-scheduling-api-openapi.yml
   format: yaml
   label: Constant Contact Email Scheduling API
   slug: constant-contact-email-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-email-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-email-scheduling-api-openapi.yml
 - filename: constant-contact-events-api-openapi.yml
   format: yaml
   label: Constant Contact Events API
   slug: constant-contact-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-events-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-events-api-openapi.yml
 - filename: constant-contact-landing-pages-reporting-api-openapi.yml
   format: yaml
   label: Constant Contact Landing Pages Reporting API
   slug: constant-contact-landing-pages-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-landing-pages-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-landing-pages-reporting-api-openapi.yml
 - filename: constant-contact-segments-api-openapi.yml
   format: yaml
   label: Constant Contact Segments API
   slug: constant-contact-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-segments-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-segments-api-openapi.yml
 - filename: constant-contact-sms-reporting-api-openapi.yml
   format: yaml
   label: Constant Contact SMS Reporting API
   slug: constant-contact-sms-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-sms-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-sms-reporting-api-openapi.yml
 - filename: constant-contact-technology-partners-api-openapi.yml
   format: yaml
   label: Constant Contact Technology Partners API
   slug: constant-contact-technology-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-technology-partners-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-technology-partners-api-openapi.yml
 - filename: constant-contact-technology-partners-webhooks-api-openapi.yml
   format: yaml
   label: Constant Contact Technology Partners Webhooks API
   slug: constant-contact-technology-partners-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-technology-partners-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-technology-partners-webhooks-api-openapi.yml
 - filename: constant-contact-automations-api-openapi.yml
   format: yaml
   label: Constant Contact Automations API
   slug: constant-contact-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-automations-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-automations-api-openapi.yml
 - filename: constant-contact-social-api-openapi.yml
   format: yaml
   label: Constant Contact Social API
   slug: constant-contact-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-social-api-openapi.yml
+  url: https://artifacts.apis.io/constant-contact/openapi/constant-contact-social-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 60
@@ -232,8 +232,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/consta
   \ max-ttl: 3600\n    audit: none\n- path: /reports/contact_reports/{contact_id}/activity_summary\n  method: get\n  operationId: getContactTrackingCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - contact_data\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/email_reports/{campaign_activity_id}/links\n  method: get\n  operationId: getCampaignActivityLinkStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - campaign_data\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/email_reports/{campaign_activity_id}/tracking/sends\n  method: get\n  operationId: getSends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - campaign_data\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/email_reports/{campaign_activity_id}/tracking/opens\n  method:\
   \ get\n  operationId: getOpens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - campaign_data\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/email_reports/{campaign_activity_id}/tracking/unique_opens\n  method: get\n  operationId: getUniqueOpens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - campaign_data\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/email_reports/{campaign_activity_id}/tracking/didnotopens\n  method: get\n  operationId: getDidNotOpens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - campaign_data\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/email_reports/{campaign_activity_id}/tracking/clicks\n  method: get\n  operationId: getClicks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    scope:\n    - campaign_data\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/email_reports/{campaign_activity_id}/tracking/forwards\n  method: get\n  operationId: getForwards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - campaign_data\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/email_reports/{campaign_activity_id}/tracking/optouts\n  method: get\n  operationId: getOptouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - campaign_data\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/email_reports/{campaign_activity_id}/tracking/bounces\n  method: get\n  operationId: getBounces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - campaign_data\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated\
-  \ at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/agentic-access/constant-contact-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/agentic-access/constant-contact-agentic-access.yml
+  \ at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/constant-contact/agentic-access/constant-contact-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/constant-contact/agentic-access/constant-contact-agentic-access.yml
 summary_line: 120 operations · 60 acting · 2 human-in-the-loop
 tags:
 - Campaigns

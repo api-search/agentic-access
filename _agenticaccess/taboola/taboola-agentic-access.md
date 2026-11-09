@@ -9,97 +9,97 @@ api_specs:
   label: Taboola Accounts API
   slug: taboola-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-accounts-api-openapi.yml
 - filename: taboola-audience-targeting-api-openapi.yml
   format: yaml
   label: Taboola Audience Targeting API
   slug: taboola-audience-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-audience-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-audience-targeting-api-openapi.yml
 - filename: taboola-bulk-items-api-openapi.yml
   format: yaml
   label: Taboola Bulk Items API
   slug: taboola-bulk-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-bulk-items-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-bulk-items-api-openapi.yml
 - filename: taboola-bulk-operations-api-openapi.yml
   format: yaml
   label: Taboola Bulk Operations API
   slug: taboola-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-bulk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-bulk-operations-api-openapi.yml
 - filename: taboola-campaign-items-api-openapi.yml
   format: yaml
   label: Taboola Campaign Items API
   slug: taboola-campaign-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-campaign-items-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-campaign-items-api-openapi.yml
 - filename: taboola-campaigns-api-openapi.yml
   format: yaml
   label: Taboola Campaigns API
   slug: taboola-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-campaigns-api-openapi.yml
 - filename: taboola-combined-audiences-api-openapi.yml
   format: yaml
   label: Taboola Combined Audiences API
   slug: taboola-combined-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-combined-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-combined-audiences-api-openapi.yml
 - filename: taboola-conversion-rules-api-openapi.yml
   format: yaml
   label: Taboola Conversion Rules API
   slug: taboola-conversion-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-conversion-rules-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-conversion-rules-api-openapi.yml
 - filename: taboola-custom-audiences-api-openapi.yml
   format: yaml
   label: Taboola Custom Audiences API
   slug: taboola-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-custom-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-custom-audiences-api-openapi.yml
 - filename: taboola-dictionary-api-openapi.yml
   format: yaml
   label: Taboola Dictionary API
   slug: taboola-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-dictionary-api-openapi.yml
 - filename: taboola-first-party-audiences-api-openapi.yml
   format: yaml
   label: Taboola First Party Audiences API
   slug: taboola-first-party-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-first-party-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-first-party-audiences-api-openapi.yml
 - filename: taboola-lookalike-audiences-api-openapi.yml
   format: yaml
   label: Taboola Lookalike Audiences API
   slug: taboola-lookalike-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-lookalike-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-lookalike-audiences-api-openapi.yml
 - filename: taboola-marketplace-audiences-api-openapi.yml
   format: yaml
   label: Taboola Marketplace Audiences API
   slug: taboola-marketplace-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-marketplace-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-marketplace-audiences-api-openapi.yml
 - filename: taboola-reach-estimator-api-openapi.yml
   format: yaml
   label: Taboola Reach Estimator API
   slug: taboola-reach-estimator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-reach-estimator-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-reach-estimator-api-openapi.yml
 - filename: taboola-reports-api-openapi.yml
   format: yaml
   label: Taboola Reports API
   slug: taboola-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-reports-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-reports-api-openapi.yml
 - filename: taboola-video-items-api-openapi.yml
   format: yaml
   label: Taboola Video Items API
   slug: taboola-video-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/openapi/taboola-video-items-api-openapi.yml
+  url: https://artifacts.apis.io/taboola/openapi/taboola-video-items-api-openapi.yml
 consequence_counts:
   read: 38
   write: 22
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tabool
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account_id}/items/bulk\n  method: put\n  operationId: bulkUpdateItemsAcrossCampaigns\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account_id}/items/bulk\n  method: delete\n  operationId: bulkDeleteItemsAcrossCampaigns\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /{account_id}/campaigns/{campaign_id}/video/items/\n  method: get\n  operationId: getAllVideoItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account_id}/campaigns/{campaign_id}/video/items/\n  method: post\n  operationId: createVideoItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account_id}/reports/campaign-summary/dimensions/{dimension}\n  method: get\n  operationId: getCampaignSummaryReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account_id}/reports/top-campaign-content/dimensions/item_breakdown\n  method:\
   \ get\n  operationId: getTopCampaignContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account_id}/reports/realtime-ads\n  method: get\n  operationId: getRealTimeAdsReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/agentic-access/taboola-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/taboola/agentic-access/taboola-agentic-access.yml
 summary_line: 60 operations · 22 acting
 tags:
 - Advertising

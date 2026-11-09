@@ -9,55 +9,55 @@ api_specs:
   label: Leaseweb Abuse API
   slug: leaseweb-abuse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-abuse-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-abuse-api-openapi.yml
 - filename: leaseweb-aggregationpack-api-openapi.yml
   format: yaml
   label: Leaseweb Aggregationpack API
   slug: leaseweb-aggregationpack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-aggregationpack-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-aggregationpack-api-openapi.yml
 - filename: leaseweb-dedicatedserver-api-openapi.yml
   format: yaml
   label: Leaseweb Dedicatedserver API
   slug: leaseweb-dedicatedserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-dedicatedserver-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-dedicatedserver-api-openapi.yml
 - filename: leaseweb-dns-api-openapi.yml
   format: yaml
   label: Leaseweb Dns API
   slug: leaseweb-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-dns-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-dns-api-openapi.yml
 - filename: leaseweb-invoice-api-openapi.yml
   format: yaml
   label: Leaseweb Invoice API
   slug: leaseweb-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-invoice-api-openapi.yml
 - filename: leaseweb-ipmgmt-api-openapi.yml
   format: yaml
   label: Leaseweb Ipmgmt API
   slug: leaseweb-ipmgmt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-ipmgmt-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-ipmgmt-api-openapi.yml
 - filename: leaseweb-networkequipment-api-openapi.yml
   format: yaml
   label: Leaseweb Networkequipment API
   slug: leaseweb-networkequipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-networkequipment-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-networkequipment-api-openapi.yml
 - filename: leaseweb-objectstorage-api-openapi.yml
   format: yaml
   label: Leaseweb Objectstorage API
   slug: leaseweb-objectstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-objectstorage-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-objectstorage-api-openapi.yml
 - filename: leaseweb-ordering-api-openapi.yml
   format: yaml
   label: Leaseweb Ordering API
   slug: leaseweb-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/openapi/leaseweb-ordering-api-openapi.yml
+  url: https://artifacts.apis.io/leaseweb/openapi/leaseweb-ordering-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 123
@@ -176,8 +176,8 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/leasew
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ips/{ip}/nullRouted\n  method: get\n  operationId: getNullRoutedList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nullRoutes\n  method: get\n  operationId: getNullRouteHistoryList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nullRoutes/{id}\n  method: get\n  operationId: inspectNullRouteHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nullRoutes/{id}\n  method: put\n  operationId: updateNullRoute\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networkEquipments\n  method: get\n  operationId: getNetworkEquipmentList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networkEquipments/{networkEquipmentId}\n  method: get\n  operationId: getNetworkEquipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networkEquipments/{networkEquipmentId}\n  method: put\n  operationId: updateReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networkEquipments/{networkEquipmentId}/ips\n  method: get\n  operationId: getIpList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networkEquipments/{networkEquipmentId}/ips/{ip}\n  method: get\n  operationId: getIp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networkEquipments/{networkEquipmentId}/ips/{ip}\n  method: put\n  operationId: updateIp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networkEquipments/{networkEquipmentId}/ips/{ip}/null\n\
-  \  method: post\n  operationId: nullIpRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networkEquipments/{networkEquipmentId}/ips/{ip}/unnull\n  method: post\n  operationId: unNullIpRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (75 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/agentic-access/leaseweb-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leaseweb/refs/heads/main/agentic-access/leaseweb-agentic-access.yml
+  \  method: post\n  operationId: nullIpRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networkEquipments/{networkEquipmentId}/ips/{ip}/unnull\n  method: post\n  operationId: unNullIpRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (75 KB total) ---\n# Full source: https://artifacts.apis.io/leaseweb/agentic-access/leaseweb-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/leaseweb/agentic-access/leaseweb-agentic-access.yml
 summary_line: 254 operations · 131 acting · 9 human-in-the-loop
 tags:
 - Company

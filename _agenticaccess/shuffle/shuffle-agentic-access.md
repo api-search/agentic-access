@@ -9,55 +9,55 @@ api_specs:
   label: Shuffle Administration API
   slug: shuffle-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/openapi/shuffle-administration-api-openapi.yml
+  url: https://artifacts.apis.io/shuffle/openapi/shuffle-administration-api-openapi.yml
 - filename: shuffle-apps-api-openapi.yml
   format: yaml
   label: Shuffle Apps API
   slug: shuffle-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/openapi/shuffle-apps-api-openapi.yml
+  url: https://artifacts.apis.io/shuffle/openapi/shuffle-apps-api-openapi.yml
 - filename: shuffle-datastore-api-openapi.yml
   format: yaml
   label: Shuffle Datastore API
   slug: shuffle-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/openapi/shuffle-datastore-api-openapi.yml
+  url: https://artifacts.apis.io/shuffle/openapi/shuffle-datastore-api-openapi.yml
 - filename: shuffle-files-api-openapi.yml
   format: yaml
   label: Shuffle Files API
   slug: shuffle-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/openapi/shuffle-files-api-openapi.yml
+  url: https://artifacts.apis.io/shuffle/openapi/shuffle-files-api-openapi.yml
 - filename: shuffle-notifications-api-openapi.yml
   format: yaml
   label: Shuffle Notifications API
   slug: shuffle-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/openapi/shuffle-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/shuffle/openapi/shuffle-notifications-api-openapi.yml
 - filename: shuffle-organizations-api-openapi.yml
   format: yaml
   label: Shuffle Organizations API
   slug: shuffle-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/openapi/shuffle-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/shuffle/openapi/shuffle-organizations-api-openapi.yml
 - filename: shuffle-triggers-api-openapi.yml
   format: yaml
   label: Shuffle Triggers API
   slug: shuffle-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/openapi/shuffle-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/shuffle/openapi/shuffle-triggers-api-openapi.yml
 - filename: shuffle-users-api-openapi.yml
   format: yaml
   label: Shuffle Users API
   slug: shuffle-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/openapi/shuffle-users-api-openapi.yml
+  url: https://artifacts.apis.io/shuffle/openapi/shuffle-users-api-openapi.yml
 - filename: shuffle-workflows-api-openapi.yml
   format: yaml
   label: Shuffle Workflows API
   slug: shuffle-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/openapi/shuffle-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/shuffle/openapi/shuffle-workflows-api-openapi.yml
 consequence_counts:
   read: 24
   write: 23
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shuffl
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{id}/execute\n  method: post\n  operationId: executeWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{id}/executions\n  method: get\n  operationId: getWorkflowExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{id}/executions/{exec_id}/abort\n  method: get\n  operationId: abortWorkflowExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{id}/schedule\n  method: post\n  operationId: scheduleWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{id}/schedule/{sched_id}\n  method: delete\n  operationId: deleteWorkflowSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/schedules\n  method: get\n  operationId: listWorkflowSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /streams/results\n  method: post\n  operationId: getExecutionResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/agentic-access/shuffle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shuffle/agentic-access/shuffle-agentic-access.yml
 summary_line: 47 operations · 23 acting
 tags:
 - Security

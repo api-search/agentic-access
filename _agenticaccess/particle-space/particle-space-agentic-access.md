@@ -8,31 +8,31 @@ api_specs:
   label: Particle Space Address Search API
   slug: particle-space-address-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-address-search-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-address-search-api-openapi.yml
 - filename: particle-space-comparables-api-openapi.yml
   format: yaml
   label: Particle Space Comparables API
   slug: particle-space-comparables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-comparables-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-comparables-api-openapi.yml
 - filename: particle-space-listings-api-openapi.yml
   format: yaml
   label: Particle Space Listings API
   slug: particle-space-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-listings-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-listings-api-openapi.yml
 - filename: particle-space-property-records-api-openapi.yml
   format: yaml
   label: Particle Space Property Records API
   slug: particle-space-property-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-property-records-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-property-records-api-openapi.yml
 - filename: particle-space-valuations-api-openapi.yml
   format: yaml
   label: Particle Space Valuations API
   slug: particle-space-valuations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-valuations-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-valuations-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/particle-space-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /properties\n  method: get\n  operationId: listProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/{id}\n  method: get\n  operationId: getProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/search\n  method: get\n  operationId: searchProperties\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /valuations\n  method: get\n  operationId: getValuation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comparables\n  method: get\n  operationId: getComparables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings\n  method: get\n  operationId: listListings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/{id}\n  method: get\n  operationId: getListing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/agentic-access/particle-space-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/particle-space/agentic-access/particle-space-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Real Estate

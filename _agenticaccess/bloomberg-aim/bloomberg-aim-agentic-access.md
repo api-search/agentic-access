@@ -9,103 +9,103 @@ api_specs:
   label: Bloomberg AIM Broker Strategies API
   slug: bloomberg-aim-broker-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-broker-strategies-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-broker-strategies-api-openapi.yml
 - filename: bloomberg-aim-catalogs-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Catalogs API
   slug: bloomberg-aim-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-catalogs-api-openapi.yml
 - filename: bloomberg-aim-distributions-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Distributions API
   slug: bloomberg-aim-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-distributions-api-openapi.yml
 - filename: bloomberg-aim-field-lists-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Field Lists API
   slug: bloomberg-aim-field-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-field-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-field-lists-api-openapi.yml
 - filename: bloomberg-aim-field-search-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Field Search API
   slug: bloomberg-aim-field-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-field-search-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-field-search-api-openapi.yml
 - filename: bloomberg-aim-fills-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Fills API
   slug: bloomberg-aim-fills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-fills-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-fills-api-openapi.yml
 - filename: bloomberg-aim-historical-data-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Historical Data API
   slug: bloomberg-aim-historical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-historical-data-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-historical-data-api-openapi.yml
 - filename: bloomberg-aim-instruments-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Instruments API
   slug: bloomberg-aim-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-instruments-api-openapi.yml
 - filename: bloomberg-aim-intraday-data-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Intraday Data API
   slug: bloomberg-aim-intraday-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-intraday-data-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-intraday-data-api-openapi.yml
 - filename: bloomberg-aim-orders-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Orders API
   slug: bloomberg-aim-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-orders-api-openapi.yml
 - filename: bloomberg-aim-reference-data-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Reference Data API
   slug: bloomberg-aim-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-reference-data-api-openapi.yml
 - filename: bloomberg-aim-replies-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Replies API
   slug: bloomberg-aim-replies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-replies-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-replies-api-openapi.yml
 - filename: bloomberg-aim-requests-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Requests API
   slug: bloomberg-aim-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-requests-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-requests-api-openapi.yml
 - filename: bloomberg-aim-routes-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Routes API
   slug: bloomberg-aim-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-routes-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-routes-api-openapi.yml
 - filename: bloomberg-aim-teams-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Teams API
   slug: bloomberg-aim-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-teams-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-teams-api-openapi.yml
 - filename: bloomberg-aim-triggers-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Triggers API
   slug: bloomberg-aim-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-triggers-api-openapi.yml
 - filename: bloomberg-aim-universes-api-openapi.yml
   format: yaml
   label: Bloomberg AIM Universes API
   slug: bloomberg-aim-universes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-aim-universes-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-aim/openapi/bloomberg-aim-universes-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 26
@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bloomb
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /request/blp/emapisvc/AssignTrader\n  method: post\n  operationId: assignTrader\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catalogs/{catalogId}/triggers\n  method: get\n  operationId: listTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogs/{catalogId}/triggers\n  method: post\n  operationId: createTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catalogs/{catalogId}/triggers/{triggerId}\n  method: get\n  operationId: getTrigger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogs/{catalogId}/universes\n  method: get\n  operationId: listUniverses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogs/{catalogId}/universes\n  method: post\n  operationId: createUniverse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catalogs/{catalogId}/universes/{universeId}\n\
   \  method: get\n  operationId: getUniverse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/agentic-access/bloomberg-aim-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bloomberg-aim/agentic-access/bloomberg-aim-agentic-access.yml
 summary_line: 48 operations · 22 acting
 tags:
 - Financial Data

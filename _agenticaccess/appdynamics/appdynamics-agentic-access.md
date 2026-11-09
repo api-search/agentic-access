@@ -9,151 +9,151 @@ api_specs:
   label: AppDynamics Actions API
   slug: appdynamics-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-actions-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-actions-api-openapi.yml
 - filename: appdynamics-actions-export-import-api-openapi.yml
   format: yaml
   label: AppDynamics Actions Export/Import API
   slug: appdynamics-actions-export-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-actions-export-import-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-actions-export-import-api-openapi.yml
 - filename: appdynamics-applications-api-openapi.yml
   format: yaml
   label: AppDynamics Applications API
   slug: appdynamics-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-applications-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-applications-api-openapi.yml
 - filename: appdynamics-backends-api-openapi.yml
   format: yaml
   label: AppDynamics Backends API
   slug: appdynamics-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-backends-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-backends-api-openapi.yml
 - filename: appdynamics-business-transactions-api-openapi.yml
   format: yaml
   label: AppDynamics Business Transactions API
   slug: appdynamics-business-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-business-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-business-transactions-api-openapi.yml
 - filename: appdynamics-configurations-api-openapi.yml
   format: yaml
   label: AppDynamics Configurations API
   slug: appdynamics-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-configurations-api-openapi.yml
 - filename: appdynamics-connections-api-openapi.yml
   format: yaml
   label: AppDynamics Connections API
   slug: appdynamics-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-connections-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-connections-api-openapi.yml
 - filename: appdynamics-custom-dashboards-export-import-api-openapi.yml
   format: yaml
   label: AppDynamics Custom Dashboards Export/Import API
   slug: appdynamics-custom-dashboards-export-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-custom-dashboards-export-import-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-custom-dashboards-export-import-api-openapi.yml
 - filename: appdynamics-custom-metrics-api-openapi.yml
   format: yaml
   label: AppDynamics Custom Metrics API
   slug: appdynamics-custom-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-custom-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-custom-metrics-api-openapi.yml
 - filename: appdynamics-database-collectors-api-openapi.yml
   format: yaml
   label: AppDynamics Database Collectors API
   slug: appdynamics-database-collectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-database-collectors-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-database-collectors-api-openapi.yml
 - filename: appdynamics-events-api-openapi.yml
   format: yaml
   label: AppDynamics Events API
   slug: appdynamics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-events-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-events-api-openapi.yml
 - filename: appdynamics-health-rules-api-openapi.yml
   format: yaml
   label: AppDynamics Health Rules API
   slug: appdynamics-health-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-health-rules-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-health-rules-api-openapi.yml
 - filename: appdynamics-health-rules-export-import-api-openapi.yml
   format: yaml
   label: AppDynamics Health Rules Export/Import API
   slug: appdynamics-health-rules-export-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-health-rules-export-import-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-health-rules-export-import-api-openapi.yml
 - filename: appdynamics-metrics-api-openapi.yml
   format: yaml
   label: AppDynamics Metrics API
   slug: appdynamics-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-metrics-api-openapi.yml
 - filename: appdynamics-nodes-api-openapi.yml
   format: yaml
   label: AppDynamics Nodes API
   slug: appdynamics-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-nodes-api-openapi.yml
 - filename: appdynamics-oauth-tokens-api-openapi.yml
   format: yaml
   label: AppDynamics OAuth Tokens API
   slug: appdynamics-oauth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-oauth-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-oauth-tokens-api-openapi.yml
 - filename: appdynamics-policies-api-openapi.yml
   format: yaml
   label: AppDynamics Policies API
   slug: appdynamics-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-policies-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-policies-api-openapi.yml
 - filename: appdynamics-queries-api-openapi.yml
   format: yaml
   label: AppDynamics Queries API
   slug: appdynamics-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-queries-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-queries-api-openapi.yml
 - filename: appdynamics-query-service-api-openapi.yml
   format: yaml
   label: AppDynamics Query Service API
   slug: appdynamics-query-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-query-service-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-query-service-api-openapi.yml
 - filename: appdynamics-reference-data-api-openapi.yml
   format: yaml
   label: AppDynamics Reference Data API
   slug: appdynamics-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-reference-data-api-openapi.yml
 - filename: appdynamics-schemas-api-openapi.yml
   format: yaml
   label: AppDynamics Schemas API
   slug: appdynamics-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-schemas-api-openapi.yml
 - filename: appdynamics-server-status-api-openapi.yml
   format: yaml
   label: AppDynamics Server Status API
   slug: appdynamics-server-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-server-status-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-server-status-api-openapi.yml
 - filename: appdynamics-snapshots-api-openapi.yml
   format: yaml
   label: AppDynamics Snapshots API
   slug: appdynamics-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-snapshots-api-openapi.yml
 - filename: appdynamics-tiers-api-openapi.yml
   format: yaml
   label: AppDynamics Tiers API
   slug: appdynamics-tiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-tiers-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-tiers-api-openapi.yml
 - filename: appdynamics-transaction-detection-export-import-api-openapi.yml
   format: yaml
   label: AppDynamics Transaction Detection Export/Import API
   slug: appdynamics-transaction-detection-export-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-transaction-detection-export-import-api-openapi.yml
+  url: https://artifacts.apis.io/appdynamics/openapi/appdynamics-transaction-detection-export-import-api-openapi.yml
 consequence_counts:
   read: 33
   write: 32
@@ -201,7 +201,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/appdyn
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/schema/{schemaName}\n  method: get\n  operationId: getEventSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/schema/{schemaName}\n  method: patch\n  operationId: updateEventSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/schema/{schemaName}\n  method: delete\n  operationId: deleteEventSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/serverstatus\n  method: get\n  operationId: getServerStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/applications/{applicationId}/request-snapshots\n  method: get\n  operationId: listRequestSnapshots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/applications/{applicationId}/tiers\n  method: get\n  operationId: listTiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/applications/{applicationId}/tiers/{tierId}\n  method: get\n  operationId: getTier\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactiondetection/{applicationId}/{entryPointType}\n  method: get\n  operationId: exportTransactionDetectionRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactiondetection/{applicationId}/{entryPointType}\n  method: post\n  operationId: importTransactionDetectionRules\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/agentic-access/appdynamics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appdynamics/agentic-access/appdynamics-agentic-access.yml
 summary_line: 65 operations · 32 acting
 tags:
 - APM

@@ -9,55 +9,55 @@ api_specs:
   label: Pulse Software Authentication API
   slug: pulse-software-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-software/openapi/pulse-software-authentication-api-openapi.yml
 - filename: pulse-software-corporate-planning-api-api-openapi.yml
   format: yaml
   label: Pulse Software Corporate Planning API
   slug: pulse-software-corporate-planning-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-corporate-planning-api-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-software/openapi/pulse-software-corporate-planning-api-api-openapi.yml
 - filename: pulse-software-forms-api-api-openapi.yml
   format: yaml
   label: Pulse Software Forms API
   slug: pulse-software-forms-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-forms-api-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-software/openapi/pulse-software-forms-api-api-openapi.yml
 - filename: pulse-software-learning-api-api-openapi.yml
   format: yaml
   label: Pulse Software Learning API
   slug: pulse-software-learning-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-learning-api-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-software/openapi/pulse-software-learning-api-api-openapi.yml
 - filename: pulse-software-project-api-api-openapi.yml
   format: yaml
   label: Pulse Software Project API
   slug: pulse-software-project-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-project-api-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-software/openapi/pulse-software-project-api-api-openapi.yml
 - filename: pulse-software-recruitment-api-api-openapi.yml
   format: yaml
   label: Pulse Software Recruitment API
   slug: pulse-software-recruitment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-recruitment-api-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-software/openapi/pulse-software-recruitment-api-api-openapi.yml
 - filename: pulse-software-sync-api-api-openapi.yml
   format: yaml
   label: Pulse Software Sync API
   slug: pulse-software-sync-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-sync-api-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-software/openapi/pulse-software-sync-api-api-openapi.yml
 - filename: pulse-software-user-details-api-api-openapi.yml
   format: yaml
   label: Pulse Software User Details API
   slug: pulse-software-user-details-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-user-details-api-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-software/openapi/pulse-software-user-details-api-api-openapi.yml
 - filename: pulse-software-user-details-api-v2-api-openapi.yml
   format: yaml
   label: Pulse Software User Details API v2 API
   slug: pulse-software-user-details-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/openapi/pulse-software-user-details-api-v2-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-software/openapi/pulse-software-user-details-api-v2-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 15
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pulse-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forms/record/recordsByTag\n  method: post\n  operationId: recordsByTagPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rcm/jobs/jobsV2\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /security/UserDetails\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /security/UserDetails\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /security/UserDetails\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /security/UserDetails\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /security/PatchUserSync\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /security/IntegrationSyncData\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /security/IntegrationSyncToPayrollLog\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/agentic-access/pulse-software-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pulse-software/agentic-access/pulse-software-agentic-access.yml
 summary_line: 29 operations · 14 acting
 tags:
 - Pulse

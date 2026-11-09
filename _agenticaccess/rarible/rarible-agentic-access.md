@@ -9,109 +9,109 @@ api_specs:
   label: Rarible Charts API
   slug: rarible-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-charts-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-charts-api-openapi.yml
 - filename: rarible-collection-leader-board-api-openapi.yml
   format: yaml
   label: Rarible Collection Leader Board API
   slug: rarible-collection-leader-board-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-collection-leader-board-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-collection-leader-board-api-openapi.yml
 - filename: rarible-collection-statistics-api-openapi.yml
   format: yaml
   label: Rarible Collection Statistics API
   slug: rarible-collection-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-collection-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-collection-statistics-api-openapi.yml
 - filename: rarible-currencies-and-rates-api-openapi.yml
   format: yaml
   label: Rarible Currencies and rates API
   slug: rarible-currencies-and-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-currencies-and-rates-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-currencies-and-rates-api-openapi.yml
 - filename: rarible-domain-lookup-api-openapi.yml
   format: yaml
   label: Rarible Domain lookup API
   slug: rarible-domain-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-domain-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-domain-lookup-api-openapi.yml
 - filename: rarible-encode-operations-api-openapi.yml
   format: yaml
   label: Rarible Encode operations API
   slug: rarible-encode-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-encode-operations-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-encode-operations-api-openapi.yml
 - filename: rarible-indexer-blocks-api-openapi.yml
   format: yaml
   label: Rarible Indexer blocks API
   slug: rarible-indexer-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-indexer-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-indexer-blocks-api-openapi.yml
 - filename: rarible-nft-activities-api-openapi.yml
   format: yaml
   label: Rarible NFT Activities API
   slug: rarible-nft-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-nft-activities-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-nft-activities-api-openapi.yml
 - filename: rarible-nft-collections-api-openapi.yml
   format: yaml
   label: Rarible NFT Collections API
   slug: rarible-nft-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-nft-collections-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-nft-collections-api-openapi.yml
 - filename: rarible-nft-data-and-historical-statistics-api-openapi.yml
   format: yaml
   label: Rarible NFT Data and Historical Statistics API
   slug: rarible-nft-data-and-historical-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-nft-data-and-historical-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-nft-data-and-historical-statistics-api-openapi.yml
 - filename: rarible-nft-items-api-openapi.yml
   format: yaml
   label: Rarible NFT Items API
   slug: rarible-nft-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-nft-items-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-nft-items-api-openapi.yml
 - filename: rarible-nft-ownerships-api-openapi.yml
   format: yaml
   label: Rarible NFT Ownerships API
   slug: rarible-nft-ownerships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-nft-ownerships-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-nft-ownerships-api-openapi.yml
 - filename: rarible-nft-sales-api-openapi.yml
   format: yaml
   label: Rarible NFT Sales API
   slug: rarible-nft-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-nft-sales-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-nft-sales-api-openapi.yml
 - filename: rarible-points-api-openapi.yml
   format: yaml
   label: Rarible Points API
   slug: rarible-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-points-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-points-api-openapi.yml
 - filename: rarible-reconciliation-api-openapi.yml
   format: yaml
   label: Rarible Reconciliation API
   slug: rarible-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-reconciliation-api-openapi.yml
 - filename: rarible-search-api-api-openapi.yml
   format: yaml
   label: Rarible Search API
   slug: rarible-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-search-api-api-openapi.yml
 - filename: rarible-signature-operations-api-openapi.yml
   format: yaml
   label: Rarible Signature operations API
   slug: rarible-signature-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-signature-operations-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-signature-operations-api-openapi.yml
 - filename: rarible-user-balances-api-openapi.yml
   format: yaml
   label: Rarible User balances API
   slug: rarible-user-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/openapi/rarible-user-balances-api-openapi.yml
+  url: https://artifacts.apis.io/rarible/openapi/rarible-user-balances-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 80
@@ -213,7 +213,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/raribl
   \     max-ttl: 3600\n    audit: none\n- path: /v0.1/items/search/duplicates\n  method: post\n  operationId: searchDuplicatedItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.1/ownerships/search\n  method: post\n  operationId: searchOwnerships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.1/activities/search\n  method: post\n  operationId: searchActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.1/activities/search/count\n  method: post\n  operationId: searchActivitiesCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.1/collections/search\n\
   \  method: post\n  operationId: searchCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.1/signature/validate\n  method: post\n  operationId: validate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0.1/signature/input\n  method: post\n  operationId: getInput\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.1/balances/{currencyId}/{owner}\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/agentic-access/rarible-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rarible/agentic-access/rarible-agentic-access.yml
 summary_line: 92 operations · 12 acting · 3 human-in-the-loop
 tags:
 - NFT

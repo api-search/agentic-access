@@ -9,49 +9,49 @@ api_specs:
   label: drupal Comments API
   slug: drupal-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-comments-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-comments-api-openapi.yml
 - filename: drupal-files-api-openapi.yml
   format: yaml
   label: drupal Files API
   slug: drupal-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-files-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-files-api-openapi.yml
 - filename: drupal-node-articles-api-openapi.yml
   format: yaml
   label: drupal Node Articles API
   slug: drupal-node-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-node-articles-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-node-articles-api-openapi.yml
 - filename: drupal-node-pages-api-openapi.yml
   format: yaml
   label: drupal Node Pages API
   slug: drupal-node-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-node-pages-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-node-pages-api-openapi.yml
 - filename: drupal-nodes-api-openapi.yml
   format: yaml
   label: drupal Nodes API
   slug: drupal-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-nodes-api-openapi.yml
 - filename: drupal-taxonomy-terms-api-openapi.yml
   format: yaml
   label: drupal Taxonomy Terms API
   slug: drupal-taxonomy-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-taxonomy-terms-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-taxonomy-terms-api-openapi.yml
 - filename: drupal-taxonomy-vocabularies-api-openapi.yml
   format: yaml
   label: drupal Taxonomy Vocabularies API
   slug: drupal-taxonomy-vocabularies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-taxonomy-vocabularies-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-taxonomy-vocabularies-api-openapi.yml
 - filename: drupal-users-api-openapi.yml
   format: yaml
   label: drupal Users API
   slug: drupal-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-users-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-users-api-openapi.yml
 consequence_counts:
   read: 16
   write: 17
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/drupal
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /taxonomy/vocabulary/{id}\n  method: get\n  operationId: getTaxonomyVocabulary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /file/{id}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /file/{id}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /comment/{id}\n  method: get\n  operationId: getComment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comment/{id}\n  method: patch\n  operationId: updateComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /comment/{id}\n  method: delete\n  operationId: deleteComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /comment\n  method: post\n\
   \  operationId: createComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/agentic-access/drupal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/drupal/agentic-access/drupal-agentic-access.yml
 summary_line: 33 operations · 17 acting
 tags:
 - Content Management

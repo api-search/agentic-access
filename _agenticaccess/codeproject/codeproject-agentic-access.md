@@ -9,79 +9,79 @@ api_specs:
   label: CodeProject Articles API
   slug: codeproject-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-articles-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-articles-api-openapi.yml
 - filename: codeproject-audio-api-openapi.yml
   format: yaml
   label: CodeProject Audio API
   slug: codeproject-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-audio-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-audio-api-openapi.yml
 - filename: codeproject-forummessages-api-openapi.yml
   format: yaml
   label: CodeProject ForumMessages API
   slug: codeproject-forummessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-forummessages-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-forummessages-api-openapi.yml
 - filename: codeproject-image-processing-api-openapi.yml
   format: yaml
   label: CodeProject Image-Processing API
   slug: codeproject-image-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-image-processing-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-image-processing-api-openapi.yml
 - filename: codeproject-my-api-openapi.yml
   format: yaml
   label: CodeProject My API
   slug: codeproject-my-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-my-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-my-api-openapi.yml
 - filename: codeproject-questions-api-openapi.yml
   format: yaml
   label: CodeProject Questions API
   slug: codeproject-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-questions-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-questions-api-openapi.yml
 - filename: codeproject-status-api-openapi.yml
   format: yaml
   label: CodeProject Status API
   slug: codeproject-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-status-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-status-api-openapi.yml
 - filename: codeproject-text-api-openapi.yml
   format: yaml
   label: CodeProject Text API
   slug: codeproject-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-text-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-text-api-openapi.yml
 - filename: codeproject-training-api-openapi.yml
   format: yaml
   label: CodeProject Training API
   slug: codeproject-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-training-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-training-api-openapi.yml
 - filename: codeproject-vision-alpr-api-openapi.yml
   format: yaml
   label: CodeProject Vision-ALPR API
   slug: codeproject-vision-alpr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-vision-alpr-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-vision-alpr-api-openapi.yml
 - filename: codeproject-vision-detection-api-openapi.yml
   format: yaml
   label: CodeProject Vision-Detection API
   slug: codeproject-vision-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-vision-detection-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-vision-detection-api-openapi.yml
 - filename: codeproject-vision-face-api-openapi.yml
   format: yaml
   label: CodeProject Vision-Face API
   slug: codeproject-vision-face-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-vision-face-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-vision-face-api-openapi.yml
 - filename: codeproject-vision-scene-api-openapi.yml
   format: yaml
   label: CodeProject Vision-Scene API
   slug: codeproject-vision-scene-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-vision-scene-api-openapi.yml
+  url: https://artifacts.apis.io/codeproject/openapi/codeproject-vision-scene-api-openapi.yml
 consequence_counts:
   read: 20
   safety-critical: 1
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/codepr
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vision/custom/list\n  method: post\n  operationId: listCustomModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vision/face\n  method: post\n  operationId: detectFaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vision/face/match\n  method: post\n  operationId: matchFaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/vision/face/list\n  method: post\n  operationId: listRegisteredFaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vision/face/register\n  method: post\n  operationId: registerFace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vision/face/delete\n  method: post\n  operationId: deleteFace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vision/face/recognize\n  method: post\n  operationId:\
   \ recognizeFaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vision/scene\n  method: post\n  operationId: classifyScene\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/agentic-access/codeproject-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/codeproject/agentic-access/codeproject-agentic-access.yml
 summary_line: 42 operations · 22 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

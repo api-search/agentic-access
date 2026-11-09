@@ -8,25 +8,25 @@ api_specs:
   label: ingest0r Comps API
   slug: ingest0r-com-comps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-comps-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-comps-api-openapi.yml
 - filename: ingest0r-com-dossier-api-openapi.yml
   format: yaml
   label: ingest0r Dossier API
   slug: ingest0r-com-dossier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-dossier-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-dossier-api-openapi.yml
 - filename: ingest0r-com-parcel-api-openapi.yml
   format: yaml
   label: ingest0r Parcel API
   slug: ingest0r-com-parcel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-parcel-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-parcel-api-openapi.yml
 - filename: ingest0r-com-search-api-openapi.yml
   format: yaml
   label: ingest0r Search API
   slug: ingest0r-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/ingest0r-com/openapi/ingest0r-com-search-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/ingest0r-com-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/search/{q}\n  method: get\n  operationId: v1_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/parcel/{pin}\n  method: get\n  operationId: v1_parcel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/dossier/{pin}\n  method: get\n  operationId: v1_dossier\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/comps/{pin}\n  method: get\n  operationId: v1_comps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/agentic-access/ingest0r-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ingest0r-com/agentic-access/ingest0r-com-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Company

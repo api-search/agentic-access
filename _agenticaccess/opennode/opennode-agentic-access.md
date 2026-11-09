@@ -9,67 +9,67 @@ api_specs:
   label: OpenNode Charges API
   slug: opennode-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-charges-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-charges-api-openapi.yml
 - filename: opennode-withdrawals-api-openapi.yml
   format: yaml
   label: OpenNode Withdrawals API
   slug: opennode-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-withdrawals-api-openapi.yml
 - filename: opennode-refunds-api-openapi.yml
   format: yaml
   label: OpenNode Refunds API
   slug: opennode-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-refunds-api-openapi.yml
 - filename: opennode-account-api-openapi.yml
   format: yaml
   label: OpenNode Account API
   slug: opennode-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-account-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-account-api-openapi.yml
 - filename: opennode-static-addresses-api-openapi.yml
   format: yaml
   label: OpenNode Static Addresses API
   slug: opennode-static-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-static-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-static-addresses-api-openapi.yml
 - filename: opennode-account-api-openapi.yml
   format: yaml
   label: OpenNode Account API
   slug: opennode-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-account-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-account-api-openapi.yml
 - filename: opennode-charges-api-openapi.yml
   format: yaml
   label: OpenNode Charges API
   slug: opennode-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-charges-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-charges-api-openapi.yml
 - filename: opennode-rates-api-openapi.yml
   format: yaml
   label: OpenNode Rates API
   slug: opennode-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-rates-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-rates-api-openapi.yml
 - filename: opennode-refunds-api-openapi.yml
   format: yaml
   label: OpenNode Refunds API
   slug: opennode-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-refunds-api-openapi.yml
 - filename: opennode-static-addresses-api-openapi.yml
   format: yaml
   label: OpenNode Static Addresses API
   slug: opennode-static-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-static-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-static-addresses-api-openapi.yml
 - filename: opennode-withdrawals-api-openapi.yml
   format: yaml
   label: OpenNode Withdrawals API
   slug: opennode-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/openapi/opennode-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/opennode/openapi/opennode-withdrawals-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openno
   \  method: get\n  operationId: getWithdrawal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/refunds\n  method: post\n  operationId: createRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/refunds\n  method: get\n  operationId: listRefunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/refund/{id}\n  method: get\n  operationId: getRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/account/balance\n  method: get\n  operationId: getAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/rates\n  method: get\n  operationId: getExchangeRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/currencies\n  method: get\n  operationId: getSupportedCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/static-addresses\n  method: post\n  operationId: createStaticAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/static-addresses\n  method: get\n  operationId: listStaticAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/agentic-access/opennode-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opennode/agentic-access/opennode-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - Bitcoin

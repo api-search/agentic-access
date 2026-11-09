@@ -9,31 +9,31 @@ api_specs:
   label: Sila Accounts API
   slug: sila-money-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-accounts-api-openapi.yml
 - filename: sila-money-identity-api-openapi.yml
   format: yaml
   label: Sila Identity API
   slug: sila-money-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-identity-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-identity-api-openapi.yml
 - filename: sila-money-payment-methods-api-openapi.yml
   format: yaml
   label: Sila Payment Methods API
   slug: sila-money-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-payment-methods-api-openapi.yml
 - filename: sila-money-payments-api-openapi.yml
   format: yaml
   label: Sila Payments API
   slug: sila-money-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-payments-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-payments-api-openapi.yml
 - filename: sila-money-wallets-api-openapi.yml
   format: yaml
   label: Sila Wallets API
   slug: sila-money-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-wallets-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 6
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sila-m
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issue_sila\n  method: post\n  operationId: issueSila\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfer_sila\n  method: post\n  operationId: transferSila\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /redeem_sila\n  method: post\n  operationId: redeemSila\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /get_transactions\n  method: post\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cancel_transaction\n  method: post\n  operationId: cancelTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /register_wallet\n  method: post\n  operationId: registerWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /get_wallet\n  method: post\n  operationId: getWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_wallets\n  method: post\n  operationId: getWallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/agentic-access/sila-money-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sila-money/agentic-access/sila-money-agentic-access.yml
 summary_line: 19 operations · 13 acting
 tags:
 - Embedded Finance

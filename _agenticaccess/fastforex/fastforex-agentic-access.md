@@ -8,25 +8,25 @@ api_specs:
   label: FastForex Admin API
   slug: fastforex-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-admin-api-openapi.yml
+  url: https://artifacts.apis.io/fastforex/openapi/fastforex-admin-api-openapi.yml
 - filename: fastforex-crypto-api-openapi.yml
   format: yaml
   label: FastForex Crypto API
   slug: fastforex-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/fastforex/openapi/fastforex-crypto-api-openapi.yml
 - filename: fastforex-currency-api-openapi.yml
   format: yaml
   label: FastForex Currency API
   slug: fastforex-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-currency-api-openapi.yml
+  url: https://artifacts.apis.io/fastforex/openapi/fastforex-currency-api-openapi.yml
 - filename: fastforex-fx-api-openapi.yml
   format: yaml
   label: FastForex Fx API
   slug: fastforex-fx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-fx-api-openapi.yml
+  url: https://artifacts.apis.io/fastforex/openapi/fastforex-fx-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crypto/currencies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crypto/pairs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crypto/fetch-prices\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fx/pairs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fx/pairs/historical-limits\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fx/pairs/quote-sizes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fx/currencies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fx/quote\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fx/quote/time-series\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fx/ohlc/time-series\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /usage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/agentic-access/fastforex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fastforex/agentic-access/fastforex-agentic-access.yml
 summary_line: 20 operations
 tags:
 - Foreign Exchange

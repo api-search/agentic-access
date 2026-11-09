@@ -9,31 +9,31 @@ api_specs:
   label: AGENTUM Business Intelligence API
   slug: agentum-lat-business-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-business-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-business-intelligence-api-openapi.yml
 - filename: agentum-lat-company-intelligence-api-openapi.yml
   format: yaml
   label: AGENTUM Company Intelligence API
   slug: agentum-lat-company-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-company-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-company-intelligence-api-openapi.yml
 - filename: agentum-lat-counterparty-verification-api-openapi.yml
   format: yaml
   label: AGENTUM Counterparty Verification API
   slug: agentum-lat-counterparty-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-counterparty-verification-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-counterparty-verification-api-openapi.yml
 - filename: agentum-lat-finance-api-openapi.yml
   format: yaml
   label: AGENTUM Finance API
   slug: agentum-lat-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-finance-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-finance-api-openapi.yml
 - filename: agentum-lat-verification-api-openapi.yml
   format: yaml
   label: AGENTUM Verification API
   slug: agentum-lat-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/openapi/agentum-lat-verification-api-openapi.yml
+  url: https://artifacts.apis.io/agentum-lat/openapi/agentum-lat-verification-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/agentum-lat-apis-brasil-openapi.json, openapi/agentum-lat-business-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 1\n    connected: 6\n  by_consequence:\n    write: 1\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /business-intelligence\n  method: post\n  operationId: businessIntelligence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verificar-cnpj\n  method: get\n  operationId:\
   \ verificarCnpj\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verificar-cep\n  method: get\n  operationId: verificarCep\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxas-brasil\n  method: get\n  operationId: taxasBrasil\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preflight\n  method: get\n  operationId: preflight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company-intelligence\n  method: get\n  operationId: companyIntelligence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /company\n  method: get\n  operationId: company\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentum-lat/refs/heads/main/agentic-access/agentum-lat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agentum-lat/agentic-access/agentum-lat-agentic-access.yml
 summary_line: 7 operations · 1 acting
 tags:
 - Company

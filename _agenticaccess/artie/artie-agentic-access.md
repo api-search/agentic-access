@@ -9,73 +9,73 @@ api_specs:
   label: Artie Column Hashing Salts API
   slug: artie-column-hashing-salts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-column-hashing-salts-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-column-hashing-salts-api-openapi.yml
 - filename: artie-connectors-api-openapi.yml
   format: yaml
   label: Artie Connectors API
   slug: artie-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-connectors-api-openapi.yml
 - filename: artie-data-catalog-api-openapi.yml
   format: yaml
   label: Artie Data Catalog API
   slug: artie-data-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-data-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-data-catalog-api-openapi.yml
 - filename: artie-encryption-keys-api-openapi.yml
   format: yaml
   label: Artie Encryption Keys API
   slug: artie-encryption-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-encryption-keys-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-encryption-keys-api-openapi.yml
 - filename: artie-ingestion-api-keys-api-openapi.yml
   format: yaml
   label: Artie Ingestion API Keys API
   slug: artie-ingestion-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-ingestion-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-ingestion-api-keys-api-openapi.yml
 - filename: artie-pipelines-api-openapi.yml
   format: yaml
   label: Artie Pipelines API
   slug: artie-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-pipelines-api-openapi.yml
 - filename: artie-privatelink-connections-api-openapi.yml
   format: yaml
   label: Artie PrivateLink Connections API
   slug: artie-privatelink-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-privatelink-connections-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-privatelink-connections-api-openapi.yml
 - filename: artie-source-readers-api-openapi.yml
   format: yaml
   label: Artie Source Readers API
   slug: artie-source-readers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-source-readers-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-source-readers-api-openapi.yml
 - filename: artie-ssh-tunnels-api-openapi.yml
   format: yaml
   label: Artie SSH Tunnels API
   slug: artie-ssh-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-ssh-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-ssh-tunnels-api-openapi.yml
 - filename: artie-artie-api-api-openapi.yml
   format: yaml
   label: Artie API
   slug: artie-artie-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-artie-api-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-artie-api-api-openapi.yml
 - filename: artie-company-api-openapi.yml
   format: yaml
   label: Artie Company API
   slug: artie-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-company-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-company-api-openapi.yml
 - filename: artie-kafka-clusters-api-openapi.yml
   format: yaml
   label: Artie Kafka Clusters API
   slug: artie-kafka-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-kafka-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/artie/openapi/artie-kafka-clusters-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/artie-
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /source-readers/{uuid}\n  method: post\n  operationId: postSourceReadersByUuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /source-readers/{uuid}/deploy\n  method: post\n  operationId: postSourceReadersByUuidDeploy\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /source-readers/{uuid}/status\n  method: post\n  operationId: postSourceReadersByUuidStatus\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /source-readers/validate-unsaved\n  method: post\n  operationId: postSourceReadersValidateUnsaved\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ssh-tunnels\n  method: post\n  operationId: postSshTunnels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ssh-tunnels/{uuid}\n\
   \  method: delete\n  operationId: deleteSshTunnelsByUuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ssh-tunnels/{uuid}\n  method: get\n  operationId: getSshTunnelsByUuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ssh-tunnels/{uuid}\n  method: post\n  operationId: postSshTunnelsByUuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/agentic-access/artie-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/artie/agentic-access/artie-agentic-access.yml
 summary_line: 60 operations · 43 acting
 tags:
 - Company

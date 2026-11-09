@@ -9,37 +9,37 @@ api_specs:
   label: Zoho Creator Bulk Insert APIs API
   slug: zoho-creator-bulk-insert-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-bulk-insert-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-bulk-insert-apis-api-openapi.yml
 - filename: zoho-creator-bulk-read-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Bulk Read APIs API
   slug: zoho-creator-bulk-read-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-bulk-read-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-bulk-read-apis-api-openapi.yml
 - filename: zoho-creator-data-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Data APIs API
   slug: zoho-creator-data-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-data-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-data-apis-api-openapi.yml
 - filename: zoho-creator-file-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator File APIs API
   slug: zoho-creator-file-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-file-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-file-apis-api-openapi.yml
 - filename: zoho-creator-meta-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Meta APIs API
   slug: zoho-creator-meta-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-meta-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-meta-apis-api-openapi.yml
 - filename: zoho-creator-publish-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Publish APIs API
   slug: zoho-creator-publish-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-publish-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-publish-apis-api-openapi.yml
 consequence_counts:
   read: 17
   write: 10
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    - ZohoCreator.bulk.CREATE\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /creator/v2/bulk/{account_owner_name}/{app_link_name}/form/{form_link_name}/insert/{job_ID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoCreator.bulk.READ\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /creator/v2/bulk/{account_owner_name}/{app_link_name}/form/{form_link_name}/insert/{job_ID}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoCreator.bulk.CREATE\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /creator/v2/bulk/{account_owner_name}/{app_link_name}/report/{report_link_name}/read/{job_ID}/result\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoCreator.bulk.READ\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /creator/v2/publish/{account_owner_name}/{app_link_name}/report/{report_link_name}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /creator/v2/bulk/{account_owner_name}/{app_link_name}/report/{report_link_name}/read/{job_ID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoCreator.bulk.READ\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /creator/v2/meta/{account_owner_name}/applications\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoCreator.dashboard.READ\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /creator/v2/meta/{account_owner_name}/{app_link_name}/forms\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoCreator.meta.application.READ\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /creator/v2/publish/{account_owner_name}/{app_link_name}/form/{form_link_name}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/agentic-access/zoho-creator-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zoho-creator/agentic-access/zoho-creator-agentic-access.yml
 summary_line: 27 operations · 10 acting
 tags:
 - Low-Code

@@ -8,55 +8,55 @@ api_specs:
   label: Energy Charts API Import Export API
   slug: energy-charts-api-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-import-export-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-import-export-api-openapi.yml
 - filename: energy-charts-api-power-api-openapi.yml
   format: yaml
   label: Energy Charts API Power API
   slug: energy-charts-api-power-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-power-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-power-api-openapi.yml
 - filename: energy-charts-api-prices-api-openapi.yml
   format: yaml
   label: Energy Charts API Prices API
   slug: energy-charts-api-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-prices-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-prices-api-openapi.yml
 - filename: energy-charts-api-ren-share-api-openapi.yml
   format: yaml
   label: Energy Charts API Ren Share API
   slug: energy-charts-api-ren-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-ren-share-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-ren-share-api-openapi.yml
 - filename: energy-charts-api-energy-charts-api-api-openapi.yml
   format: yaml
   label: Energy Charts API Energy Charts API
   slug: energy-charts-api-energy-charts-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-energy-charts-api-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-energy-charts-api-api-openapi.yml
 - filename: energy-charts-api-import-export-v2-api-openapi.yml
   format: yaml
   label: Energy Charts API import_export v2 API
   slug: energy-charts-api-import-export-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-import-export-v2-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-import-export-v2-api-openapi.yml
 - filename: energy-charts-api-power-v2-api-openapi.yml
   format: yaml
   label: Energy Charts API power v2 API
   slug: energy-charts-api-power-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-power-v2-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-power-v2-api-openapi.yml
 - filename: energy-charts-api-prices-v2-api-openapi.yml
   format: yaml
   label: Energy Charts API prices v2 API
   slug: energy-charts-api-prices-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-prices-v2-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-prices-v2-api-openapi.yml
 - filename: energy-charts-api-ren-share-v2-api-openapi.yml
   format: yaml
   label: Energy Charts API ren_share v2 API
   slug: energy-charts-api-ren-share-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-ren-share-v2-api-openapi.yml
+  url: https://artifacts.apis.io/energy-charts-api/openapi/energy-charts-api-ren-share-v2-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/energy
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signal\n  method: get\n  operationId: traffic_signal_signal_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ren_share_forecast\n  method: get\n  operationId: renewable_share_forecast_ren_share_forecast_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ren_share_daily_avg\n  method: get\n  operationId: ren_share_daily_avg_ren_share_daily_avg_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solar_share\n  method: get\n  operationId: solar_share_solar_share_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solar_share_daily_avg\n  method: get\n  operationId: solar_share_daily_avg_solar_share_daily_avg_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wind_onshore_share\n  method: get\n  operationId: wind_onshore_share_wind_onshore_share_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wind_onshore_share_daily_avg\n  method: get\n  operationId: wind_onshore_share_daily_avg_wind_onshore_share_daily_avg_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wind_offshore_share\n  method: get\n  operationId: wind_offshore_share_wind_offshore_share_get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wind_offshore_share_daily_avg\n  method: get\n  operationId: wind_offshore_share_daily_avg_wind_offshore_share_daily_avg_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /frequency\n  method: get\n  operationId: frequency_frequency_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/agentic-access/energy-charts-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/energy-charts-api/agentic-access/energy-charts-api-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Energy

@@ -8,7 +8,7 @@ api_specs:
   label: Zoho Sheet Workbook API
   slug: zoho-sheet-workbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/openapi/zoho-sheet-workbook-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-sheet/openapi/zoho-sheet-workbook-api-openapi.yml
 consequence_counts:
   safety-critical: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -42,7 +42,7 @@ source_filename: zoho-sheet-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1\n  by_action_class:\n    acting: 1\n  by_consequence:\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /{resource_id}\n  method: post\n  operationId: dispatchSheetOperation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - ZohoSheet.dataAPI.READ\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/agentic-access/zoho-sheet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zoho-sheet/agentic-access/zoho-sheet-agentic-access.yml
 summary_line: 1 operation · 1 acting · 1 human-in-the-loop
 tags:
 - Spreadsheets

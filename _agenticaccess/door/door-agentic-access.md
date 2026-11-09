@@ -9,37 +9,37 @@ api_specs:
   label: Door Access Management API
   slug: door-access-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-access-management-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-access-management-api-openapi.yml
 - filename: door-buildings-api-openapi.yml
   format: yaml
   label: Door Buildings API
   slug: door-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-buildings-api-openapi.yml
 - filename: door-doors-and-keys-api-openapi.yml
   format: yaml
   label: Door Doors and Keys API
   slug: door-doors-and-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-doors-and-keys-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-doors-and-keys-api-openapi.yml
 - filename: door-partner-authentication-api-openapi.yml
   format: yaml
   label: Door Partner Authentication API
   slug: door-partner-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-partner-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-partner-authentication-api-openapi.yml
 - filename: door-user-authentication-api-openapi.yml
   format: yaml
   label: Door User Authentication API
   slug: door-user-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-user-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-user-authentication-api-openapi.yml
 - filename: door-users-api-openapi.yml
   format: yaml
   label: Door Users API
   slug: door-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/openapi/door-users-api-openapi.yml
+  url: https://artifacts.apis.io/door/openapi/door-users-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/door-a
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/buildings/{buildingUuid}/residents\n  method: get\n  operationId: listBuildingResidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/buildings\n  method: get\n  operationId: listBuildings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/doors\n  method: get\n  operationId: listDoors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/keys/{keyUuid}/accesses\n  method: get\n  operationId: listKeyAccesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/keys\n  method: get\n  operationId: listKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userUuid}/doors/{doorUuid}\n  method: delete\n  operationId: revokeUserAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/users/{userUuid}/doors/{doorUuid}\n  method: patch\n  operationId: updateUserAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/agentic-access/door-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/door/agentic-access/door-agentic-access.yml
 summary_line: 15 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Company

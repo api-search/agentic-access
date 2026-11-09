@@ -9,43 +9,43 @@ api_specs:
   label: Wib&Wob (symbients) Bankr API
   slug: wibandwob-com-bankr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-bankr-api-openapi.yml
+  url: https://artifacts.apis.io/wibandwob-com/openapi/wibandwob-com-bankr-api-openapi.yml
 - filename: wibandwob-com-cat-api-openapi.yml
   format: yaml
   label: Wib&Wob (symbients) Cat API
   slug: wibandwob-com-cat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-cat-api-openapi.yml
+  url: https://artifacts.apis.io/wibandwob-com/openapi/wibandwob-com-cat-api-openapi.yml
 - filename: wibandwob-com-feeding-api-openapi.yml
   format: yaml
   label: Wib&Wob (symbients) Feeding API
   slug: wibandwob-com-feeding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-feeding-api-openapi.yml
+  url: https://artifacts.apis.io/wibandwob-com/openapi/wibandwob-com-feeding-api-openapi.yml
 - filename: wibandwob-com-guestbook-api-openapi.yml
   format: yaml
   label: Wib&Wob (symbients) Guestbook API
   slug: wibandwob-com-guestbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-guestbook-api-openapi.yml
+  url: https://artifacts.apis.io/wibandwob-com/openapi/wibandwob-com-guestbook-api-openapi.yml
 - filename: wibandwob-com-index-api-openapi.yml
   format: yaml
   label: Wib&Wob (symbients) Index API
   slug: wibandwob-com-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-index-api-openapi.yml
+  url: https://artifacts.apis.io/wibandwob-com/openapi/wibandwob-com-index-api-openapi.yml
 - filename: wibandwob-com-kibble-api-openapi.yml
   format: yaml
   label: Wib&Wob (symbients) Kibble API
   slug: wibandwob-com-kibble-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-kibble-api-openapi.yml
+  url: https://artifacts.apis.io/wibandwob-com/openapi/wibandwob-com-kibble-api-openapi.yml
 - filename: wibandwob-com-terms-api-openapi.yml
   format: yaml
   label: Wib&Wob (symbients) Terms API
   slug: wibandwob-com-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/openapi/wibandwob-com-terms-api-openapi.yml
+  url: https://artifacts.apis.io/wibandwob-com/openapi/wibandwob-com-terms-api-openapi.yml
 consequence_counts:
   financial: 2
   read: 7
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource:\n- https://wiba
   \  by_action_class:\n    connected: 7\n    acting: 4\n  by_consequence:\n    read: 7\n    write: 2\n    financial: 2\n  human_in_the_loop_required: 1\n  human_in_the_loop_recommended: 2\noperations:\n- operation: getApiIndex\n  action_class: connected\n  consequence: read\n  audit: optional\n  human_in_the_loop: not-required\n- operation: petCat\n  action_class: connected\n  consequence: read\n  audit: optional\n  human_in_the_loop: not-required\n  note: Free and side-effect-free per the provider.\n- operation: getGuestbook\n  action_class: connected\n  consequence: read\n  audit: optional\n  human_in_the_loop: not-required\n- operation: getKibble\n  action_class: connected\n  consequence: read\n  audit: optional\n  human_in_the_loop: not-required\n- operation: getKibbleTestnet\n  action_class: connected\n  consequence: read\n  audit: optional\n  human_in_the_loop: not-required\n- operation: getPaymentTerms\n  action_class: connected\n  consequence: read\n  audit: optional\n  human_in_the_loop:\
   \ not-required\n- operation: getBankrContract\n  action_class: connected\n  consequence: read\n  audit: optional\n  human_in_the_loop: not-required\n- operation: signGuestbook\n  action_class: acting\n  consequence: write\n  audit: required\n  human_in_the_loop: recommended\n  reversible: false\n  note: Free but PERMANENT and PUBLIC, credited to the declared name on the provider's record; no delete. Not idempotent - a retry is a second entry.\n- operation: feedCatTestnet\n  action_class: acting\n  consequence: write\n  audit: required\n  human_in_the_loop: not-required\n  reversible: false\n  note: Real x402 flow on Base Sepolia with faucet USDC; no monetary value. The provider's intended rehearsal before feedCat.\n- operation: feedCat\n  action_class: acting\n  consequence: financial\n  audit: required\n  human_in_the_loop: required\n  spend: $0.10 USDC per call, non-refundable; overpayment accepted\n  reversible: false\n  idempotency: EIP-3009 nonce (single-use on chain)\n  token_ttl_ceiling_s:\
   \ 300\n  note: Moves real money. The provider itself frames a human principal (\"your human will eventually ask what the charge was\") and the payer-side cap as the controls.\n- operation: claimBankrTip\n  action_class: acting\n  consequence: financial\n  audit: required\n  human_in_the_loop: recommended\n  reversible: false\n  idempotency: txHash (one receipt per hash; replay returns the identical receipt)\n  note: The claim itself moves no money - the preceding transfer did (>= $0.10, 3 confirmations). Never resend the transfer to fix a claim error.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wibandwob-com/refs/heads/main/agentic-access/wibandwob-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wibandwob-com/agentic-access/wibandwob-com-agentic-access.yml
 summary_line: 11 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Company
@@ -97,5 +97,5 @@ tags:
 - Generative Art
 - Symbients
 - AI Agents
-- llms-txt
+- Llms.txt
 ---

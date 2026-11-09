@@ -9,37 +9,49 @@ api_specs:
   label: Amazon Fault Injection Simulator Actions API
   slug: amazon-fault-injection-simulator-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-actions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-actions-api-openapi.yml
 - filename: amazon-fault-injection-simulator-experiment-templates-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Experiment Templates API
   slug: amazon-fault-injection-simulator-experiment-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-experiment-templates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-experiment-templates-api-openapi.yml
 - filename: amazon-fault-injection-simulator-experiments-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Experiments API
   slug: amazon-fault-injection-simulator-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-experiments-api-openapi.yml
 - filename: amazon-fault-injection-simulator-safety-levers-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Safety Levers API
   slug: amazon-fault-injection-simulator-safety-levers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-safety-levers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-safety-levers-api-openapi.yml
 - filename: amazon-fault-injection-simulator-tagging-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Tagging API
   slug: amazon-fault-injection-simulator-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-tagging-api-openapi.yml
 - filename: amazon-fault-injection-simulator-target-resource-types-api-openapi.yml
   format: yaml
   label: Amazon Fault Injection Simulator Target Resource Types API
   slug: amazon-fault-injection-simulator-target-resource-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fault-injection-simulator-target-resource-types-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-target-resource-types-api-openapi.yml
+- filename: amazon-fault-injection-simulator-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Fault Injection Simulator Fault Injection Simulator Operations API
+  slug: amazon-fault-injection-simulator-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-operations-api-openapi.yml
+- filename: amazon-fault-injection-simulator-targetaccountconfigurations-api-openapi.yml
+  format: yaml
+  label: Amazon Fault Injection Simulator Fault Injection Simulator Targetaccountconfigurations API
+  slug: amazon-fault-injection-simulator-targetaccountconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-fault-injection-simulator/openapi/amazon-fault-injection-simulator-targetaccountconfigurations-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 2
@@ -85,9 +97,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /actions\n  method: get\n  operationId: listActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /actions/{id}\n  method: get\n  operationId: getAction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /targetResourceTypes\n  method: get\n  operationId: listTargetResourceTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /targetResourceTypes/{resourceType}\n  method: get\n  operationId:\
   \ getTargetResourceType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /safetyLevers/{id}\n  method: get\n  operationId: getSafetyLever\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /safetyLevers/{id}\n  method: patch\n  operationId: updateSafetyLeverState\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: delete\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/agentic-access/amazon-fault-injection-simulator-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-fault-injection-simulator/agentic-access/amazon-fault-injection-simulator-agentic-access.yml
 summary_line: 18 operations · 8 acting · 2 human-in-the-loop
 tags:
+- Amazon Web Services
 - Chaos Engineering
 - DevOps
 - Resilience Testing

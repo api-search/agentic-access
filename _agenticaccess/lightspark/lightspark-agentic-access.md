@@ -9,145 +9,145 @@ api_specs:
   label: Lightspark Agent Management API
   slug: lightspark-agent-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-agent-management-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-agent-management-api-openapi.yml
 - filename: lightspark-agent-operations-api-openapi.yml
   format: yaml
   label: Lightspark Agent Operations API
   slug: lightspark-agent-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-agent-operations-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-agent-operations-api-openapi.yml
 - filename: lightspark-api-tokens-api-openapi.yml
   format: yaml
   label: Lightspark API Tokens API
   slug: lightspark-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-api-tokens-api-openapi.yml
 - filename: lightspark-cards-api-openapi.yml
   format: yaml
   label: Lightspark Cards API
   slug: lightspark-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-cards-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-cards-api-openapi.yml
 - filename: lightspark-contact-verification-api-openapi.yml
   format: yaml
   label: Lightspark Contact Verification API
   slug: lightspark-contact-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-contact-verification-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-contact-verification-api-openapi.yml
 - filename: lightspark-cross-currency-transfers-api-openapi.yml
   format: yaml
   label: Lightspark Cross-Currency Transfers API
   slug: lightspark-cross-currency-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-cross-currency-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-cross-currency-transfers-api-openapi.yml
 - filename: lightspark-customers-api-openapi.yml
   format: yaml
   label: Lightspark Customers API
   slug: lightspark-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-customers-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-customers-api-openapi.yml
 - filename: lightspark-discoveries-api-openapi.yml
   format: yaml
   label: Lightspark Discoveries API
   slug: lightspark-discoveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-discoveries-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-discoveries-api-openapi.yml
 - filename: lightspark-documents-api-openapi.yml
   format: yaml
   label: Lightspark Documents API
   slug: lightspark-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-documents-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-documents-api-openapi.yml
 - filename: lightspark-embedded-wallet-auth-api-openapi.yml
   format: yaml
   label: Lightspark Embedded Wallet Auth API
   slug: lightspark-embedded-wallet-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-embedded-wallet-auth-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-embedded-wallet-auth-api-openapi.yml
 - filename: lightspark-exchange-rates-api-openapi.yml
   format: yaml
   label: Lightspark Exchange Rates API
   slug: lightspark-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-exchange-rates-api-openapi.yml
 - filename: lightspark-external-accounts-api-openapi.yml
   format: yaml
   label: Lightspark External Accounts API
   slug: lightspark-external-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-external-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-external-accounts-api-openapi.yml
 - filename: lightspark-internal-accounts-api-openapi.yml
   format: yaml
   label: Lightspark Internal Accounts API
   slug: lightspark-internal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-internal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-internal-accounts-api-openapi.yml
 - filename: lightspark-invitations-api-openapi.yml
   format: yaml
   label: Lightspark Invitations API
   slug: lightspark-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-invitations-api-openapi.yml
 - filename: lightspark-kyc-kyb-verifications-api-openapi.yml
   format: yaml
   label: Lightspark KYC/KYB Verifications API
   slug: lightspark-kyc-kyb-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-kyc-kyb-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-kyc-kyb-verifications-api-openapi.yml
 - filename: lightspark-platform-configuration-api-openapi.yml
   format: yaml
   label: Lightspark Platform Configuration API
   slug: lightspark-platform-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-platform-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-platform-configuration-api-openapi.yml
 - filename: lightspark-same-currency-transfers-api-openapi.yml
   format: yaml
   label: Lightspark Same-Currency Transfers API
   slug: lightspark-same-currency-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-same-currency-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-same-currency-transfers-api-openapi.yml
 - filename: lightspark-sandbox-api-openapi.yml
   format: yaml
   label: Lightspark Sandbox API
   slug: lightspark-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-sandbox-api-openapi.yml
 - filename: lightspark-stablecoins-api-openapi.yml
   format: yaml
   label: Lightspark Stablecoins API
   slug: lightspark-stablecoins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-stablecoins-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-stablecoins-api-openapi.yml
 - filename: lightspark-strong-customer-authentication-api-openapi.yml
   format: yaml
   label: Lightspark Strong Customer Authentication API
   slug: lightspark-strong-customer-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-strong-customer-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-strong-customer-authentication-api-openapi.yml
 - filename: lightspark-transactions-api-openapi.yml
   format: yaml
   label: Lightspark Transactions API
   slug: lightspark-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-transactions-api-openapi.yml
 - filename: lightspark-webhooks-api-openapi.yml
   format: yaml
   label: Lightspark Webhooks API
   slug: lightspark-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-webhooks-api-openapi.yml
 - filename: lightspark-embedded-care-api-openapi.yml
   format: yaml
   label: Lightspark Embedded Care API
   slug: lightspark-embedded-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-embedded-care-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-embedded-care-api-openapi.yml
 - filename: lightspark-periodic-statements-api-openapi.yml
   format: yaml
   label: Lightspark Periodic Statements API
   slug: lightspark-periodic-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-periodic-statements-api-openapi.yml
+  url: https://artifacts.apis.io/lightspark/openapi/lightspark-periodic-statements-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 50
@@ -317,8 +317,8 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lights
   \  method: delete\n  operationId: revokeDelegatedKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /agents\n  method: post\n  operationId: createAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents\n  method: get\n  operationId: listAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/approvals\n  method: get\n  operationId: listAgentApprovals\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/me\n  method: get\n  operationId: getAgentMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/{agentId}\n  method: get\n  operationId: getAgentById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/{agentId}\n  method: patch\n  operationId: updateAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{agentId}\n  method: delete\n  operationId: deleteAgent\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{agentId}/policy\n  method: patch\n  operationId: updateAgentPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{agentId}/device-codes\n  method: post\n  operationId: regenerateAgentDeviceCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at\
-  \ 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/agentic-access/lightspark-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/agentic-access/lightspark-agentic-access.yml
+  \ 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/lightspark/agentic-access/lightspark-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/lightspark/agentic-access/lightspark-agentic-access.yml
 summary_line: 132 operations · 82 acting · 5 human-in-the-loop
 tags:
 - Company

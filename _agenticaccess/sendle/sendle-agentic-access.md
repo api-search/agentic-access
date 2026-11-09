@@ -9,31 +9,31 @@ api_specs:
   label: Sendle Orders API
   slug: sendle-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-orders-api-openapi.yml
 - filename: sendle-products-api-openapi.yml
   format: yaml
   label: Sendle Products & Quoting API
   slug: sendle-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-products-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-products-api-openapi.yml
 - filename: sendle-tracking-api-openapi.yml
   format: yaml
   label: Sendle Tracking API
   slug: sendle-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-tracking-api-openapi.yml
 - filename: sendle-manifests-api-openapi.yml
   format: yaml
   label: Sendle Shipping Manifests API
   slug: sendle-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-manifests-api-openapi.yml
 - filename: sendle-utility-api-openapi.yml
   format: yaml
   label: Sendle Utility API
   slug: sendle-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/openapi/sendle-utility-api-openapi.yml
+  url: https://artifacts.apis.io/sendle/openapi/sendle-utility-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 10
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sendle
   \      - high-value\n    audit: required\n- path: /orders/{id}/return\n  method: post\n  operationId: returnOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{id}/return\n  method: get\n  operationId: viewReturnOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: getProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: post\n  operationId: postProducts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quote\n  method: get\n  operationId: getQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parcels/{ref}/tracking\n  method: get\n  operationId: trackParcel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parcels/{ref}/tracking/subscribe\n  method: post\n  operationId: subscribeToTrackingEvents\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parcels/{ref}/tracking/subscribe\n  method: delete\n  operationId: unsubscribeFromTrackingEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/agentic-access/sendle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sendle/agentic-access/sendle-agentic-access.yml
 summary_line: 17 operations · 7 acting
 tags:
 - Shipping

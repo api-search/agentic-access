@@ -9,25 +9,25 @@ api_specs:
   label: Segmind Inference API
   slug: segmind-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-inference-api-openapi.yml
+  url: https://artifacts.apis.io/segmind/openapi/segmind-inference-api-openapi.yml
 - filename: segmind-account-api-openapi.yml
   format: yaml
   label: Segmind Account API
   slug: segmind-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-account-api-openapi.yml
+  url: https://artifacts.apis.io/segmind/openapi/segmind-account-api-openapi.yml
 - filename: segmind-storage-api-openapi.yml
   format: yaml
   label: Segmind Storage API
   slug: segmind-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-storage-api-openapi.yml
+  url: https://artifacts.apis.io/segmind/openapi/segmind-storage-api-openapi.yml
 - filename: segmind-fine-tuning-api-openapi.yml
   format: yaml
   label: Segmind Fine-tuning API
   slug: segmind-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/segmind/openapi/segmind-fine-tuning-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/segmin
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/requests/{request_id}/status\n  method: get\n  operationId: getRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/requests/{request_id}\n  method: get\n  operationId: getRequestResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/get-user-credits\n  method: get\n  operationId: getUserCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finetune/request/submit\n  method: post\n  operationId: submitFinetune\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finetune/request/details\n  method: get\n  operationId: getFinetuneDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finetune/request/list\n  method: get\n  operationId: listFinetuneRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finetune/request/access-update\n  method: put\n  operationId: updateFinetuneAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finetune/request/upload/pre-signed-url\n  method: get\n  operationId: getFinetuneUploadUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finetune/request/file/download\n  method: get\n  operationId: downloadFinetuneFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upload-asset\n  method: post\n  operationId: uploadAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/agentic-access/segmind-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/segmind/agentic-access/segmind-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Artificial Intelligence

@@ -9,49 +9,49 @@ api_specs:
   label: Agent API
   slug: agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-agent-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-agent-api-v1-api-openapi.yml
 - filename: gtm-copilot-api-v1-api-openapi.yml
   format: yaml
   label: Copilot API
   slug: copilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-copilot-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-copilot-api-v1-api-openapi.yml
 - filename: gtm-data-api-v1-api-openapi.yml
   format: yaml
   label: Data API
   slug: data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-data-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-data-api-v1-api-openapi.yml
 - filename: gtm-data-quality-api-v1-api-openapi.yml
   format: yaml
   label: Data Quality API
   slug: data-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-data-quality-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-data-quality-api-v1-api-openapi.yml
 - filename: gtm-studio-api-v1-api-openapi.yml
   format: yaml
   label: Studio API
   slug: studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-studio-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-studio-api-v1-api-openapi.yml
 - filename: gtm-marketing-api-v1-api-openapi.yml
   format: yaml
   label: Marketing API
   slug: marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-marketing-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-marketing-api-v1-api-openapi.yml
 - filename: gtm-platform-api-v1-api-openapi.yml
   format: yaml
   label: Platform API
   slug: platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-platform-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-platform-api-v1-api-openapi.yml
 - filename: gtm-vertical-datasets-api-v1-api-openapi.yml
   format: yaml
   label: Vertical Datasets API
   slug: vertical-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-vertical-datasets-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-vertical-datasets-api-v1-api-openapi.yml
 consequence_counts:
   read: 57
   safety-critical: 6
@@ -144,8 +144,8 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/gtm-ag
   \    scope:\n    - api:data-quality:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /marketing/v1/audiences\n  method: post\n  operationId: AudienceInterface_createAudience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - api:audience:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /marketing/v1/audiences\n  method: get\n  operationId: AudienceInterface_getAudiences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api:audience:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /marketing/v1/audiences/{audienceId}\n  method: get\n  operationId: AudienceInterface_getAudience\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api:audience:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /marketing/v1/audiences/{audienceId}\n  method: put\n  operationId: AudienceInterface_updateAudience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - api:audience:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /marketing/v1/audiences/{audienceId}\n  method: delete\n  operationId: AudienceInterface_deleteAudience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - api:audience:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /marketing/v1/audiences/{audienceId}/uploads\n  method: post\n  operationId: AudienceInterface_uploadAudience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - api:audience-member:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /marketing/v1/audiences/{audienceId}/uploads/{uploadId}\n  method: get\n  operationId: AudienceInterface_getAudienceUpload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api:audience-member:manage\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/v1/engagements/content-interactions\n  method: post\n  operationId: EngagementsController_upsertContentInteractions\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ safety-critical\n    subject: required\n    scope:\n    - api:gtm-data-model:manage\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /platform/v1/engagements/content-interactions/{id}\n  method: get\n  operationId: EngagementsController_getContentInteractionEngagement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api:gtm-data-model:read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/agentic-access/gtm-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/agentic-access/gtm-agentic-access.yml
+  \ safety-critical\n    subject: required\n    scope:\n    - api:gtm-data-model:manage\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /platform/v1/engagements/content-interactions/{id}\n  method: get\n  operationId: EngagementsController_getContentInteractionEngagement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - api:gtm-data-model:read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://artifacts.apis.io/gtm/agentic-access/gtm-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/gtm/agentic-access/gtm-agentic-access.yml
 summary_line: 120 operations · 63 acting · 6 human-in-the-loop
 tags:
 - Company

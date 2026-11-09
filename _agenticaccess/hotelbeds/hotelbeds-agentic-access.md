@@ -9,31 +9,31 @@ api_specs:
   label: Hotelbeds Activities API
   slug: hotelbeds-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-activities-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-activities-api-openapi.yml
 - filename: hotelbeds-booking-api-openapi.yml
   format: yaml
   label: Hotelbeds Booking API
   slug: hotelbeds-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-booking-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-booking-api-openapi.yml
 - filename: hotelbeds-cache-api-openapi.yml
   format: yaml
   label: Hotelbeds Cache API
   slug: hotelbeds-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-cache-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-cache-api-openapi.yml
 - filename: hotelbeds-content-api-openapi.yml
   format: yaml
   label: Hotelbeds Content API
   slug: hotelbeds-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-content-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-content-api-openapi.yml
 - filename: hotelbeds-transfers-api-openapi.yml
   format: yaml
   label: Hotelbeds Transfers API
   slug: hotelbeds-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-transfers-api-openapi.yml
 consequence_counts:
   read: 10
   write: 3
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hotelb
   \  method: post\n  operationId: confirmBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hotel-api/1.0/bookings/{bookingId}\n  method: get\n  operationId: getBookingDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotel-api/1.0/bookings/{bookingId}\n  method: delete\n  operationId: cancelBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hotel-cache-api/1.0/availabilities\n  method: get\n  operationId:\
   \ getCacheFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotel-content-api/1.0/hotels\n  method: get\n  operationId: getHotelContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotel-content-api/1.0/locations/countries\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotel-content-api/1.0/locations/destinations\n  method: get\n  operationId: getDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfer-api/1.0/availability/{language}/from/{fromType}/{fromCode}/to/{toType}/{toCode}\n  method: get\n\
   \  operationId: getTransferAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/agentic-access/hotelbeds-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hotelbeds/agentic-access/hotelbeds-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - Travel

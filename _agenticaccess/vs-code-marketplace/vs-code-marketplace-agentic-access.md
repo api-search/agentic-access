@@ -8,19 +8,19 @@ api_specs:
   label: VS Code Marketplace Assets API
   slug: vs-code-marketplace-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/openapi/vs-code-marketplace-assets-api-openapi.yml
+  url: https://artifacts.apis.io/vs-code-marketplace/openapi/vs-code-marketplace-assets-api-openapi.yml
 - filename: vs-code-marketplace-extensions-api-openapi.yml
   format: yaml
   label: VS Code Marketplace Extensions API
   slug: vs-code-marketplace-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/openapi/vs-code-marketplace-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/vs-code-marketplace/openapi/vs-code-marketplace-extensions-api-openapi.yml
 - filename: vs-code-marketplace-publishers-api-openapi.yml
   format: yaml
   label: VS Code Marketplace Publishers API
   slug: vs-code-marketplace-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/openapi/vs-code-marketplace-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/vs-code-marketplace/openapi/vs-code-marketplace-publishers-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/vs-code-marketplace-assets-api-openapi.yml, openapi/vs-code-marketplace-extensions-api-openapi.yml,\n  openapi/vs-code-marketplace-publishers-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /publishers/{publisherName}/vsextensions/{extensionName}/{version}/vspackage\n  method: get\n  operationId: downloadExtension\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extensionquery\n  method: post\n  operationId: queryExtensions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers/{publisherName}\n  method: get\n  operationId: getPublisher\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/agentic-access/vs-code-marketplace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vs-code-marketplace/agentic-access/vs-code-marketplace-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Developer Tools

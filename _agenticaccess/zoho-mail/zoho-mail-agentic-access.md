@@ -9,25 +9,25 @@ api_specs:
   label: Zoho Mail Accounts API
   slug: zoho-mail-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-accounts-api-openapi.yml
 - filename: zoho-mail-folders-api-openapi.yml
   format: yaml
   label: Zoho Mail Folders API
   slug: zoho-mail-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-folders-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-folders-api-openapi.yml
 - filename: zoho-mail-messages-api-openapi.yml
   format: yaml
   label: Zoho Mail Messages API
   slug: zoho-mail-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-messages-api-openapi.yml
 - filename: zoho-mail-organization-api-openapi.yml
   format: yaml
   label: Zoho Mail Organization API
   slug: zoho-mail-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-organization-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-organization-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/accounts/{accountId}/folders/{folderId}/messages/{messageId}/header\n  method: get\n  operationId: getMessageHeader\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoMail.messages\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{accountId}/folders/{folderId}/messages/{messageId}/content\n  method: get\n  operationId: getMessageContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoMail.messages\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{accountId}/folders/{folderId}/messages/{messageId}/details\n  method: get\n  operationId: getMessageDetails\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    scope:\n    - ZohoMail.messages\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{accountId}/folders/{folderId}/messages/{messageId}/attachmentinfo\n  method: get\n  operationId: getAttachmentInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoMail.messages\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{accountId}/folders/{folderId}/messages/{messageId}/attachments/{attachmentId}\n  method: get\n  operationId: getAttachmentContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoMail.messages\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/accounts/{accountId}/messages/{messageId}/originalmessage\n  method: get\n  operationId: getOriginalMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n\
   \    - ZohoMail.messages\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/organization/{zoid}/accounts/{accountId}\n  method: put\n  operationId: adminUpdateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoMail.organization.accounts\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/agentic-access/zoho-mail-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zoho-mail/agentic-access/zoho-mail-agentic-access.yml
 summary_line: 23 operations · 10 acting
 tags:
 - Email

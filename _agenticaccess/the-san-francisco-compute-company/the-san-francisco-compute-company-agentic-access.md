@@ -9,85 +9,85 @@ api_specs:
   label: The San Francisco Compute Company Account API
   slug: the-san-francisco-compute-company-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-account-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-account-api-openapi.yml
 - filename: the-san-francisco-compute-company-deployments-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Deployments API
   slug: the-san-francisco-compute-company-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-deployments-api-openapi.yml
 - filename: the-san-francisco-compute-company-feature-flags-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Feature Flags API
   slug: the-san-francisco-compute-company-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-feature-flags-api-openapi.yml
 - filename: the-san-francisco-compute-company-images-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Images API
   slug: the-san-francisco-compute-company-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-images-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-images-api-openapi.yml
 - filename: the-san-francisco-compute-company-instance-sku-catalog-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Instance SKU Catalog API
   slug: the-san-francisco-compute-company-instance-sku-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-instance-sku-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-instance-sku-catalog-api-openapi.yml
 - filename: the-san-francisco-compute-company-instance-skus-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Instance SKUs API
   slug: the-san-francisco-compute-company-instance-skus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-instance-skus-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-instance-skus-api-openapi.yml
 - filename: the-san-francisco-compute-company-instance-templates-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Instance Templates API
   slug: the-san-francisco-compute-company-instance-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-instance-templates-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-instance-templates-api-openapi.yml
 - filename: the-san-francisco-compute-company-instances-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Instances API
   slug: the-san-francisco-compute-company-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-instances-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-instances-api-openapi.yml
 - filename: the-san-francisco-compute-company-orderbook-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Orderbook API
   slug: the-san-francisco-compute-company-orderbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-orderbook-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-orderbook-api-openapi.yml
 - filename: the-san-francisco-compute-company-orders-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Orders API
   slug: the-san-francisco-compute-company-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-orders-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-orders-api-openapi.yml
 - filename: the-san-francisco-compute-company-pools-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Pools API
   slug: the-san-francisco-compute-company-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-pools-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-pools-api-openapi.yml
 - filename: the-san-francisco-compute-company-procurements-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Procurements API
   slug: the-san-francisco-compute-company-procurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-procurements-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-procurements-api-openapi.yml
 - filename: the-san-francisco-compute-company-users-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Users API
   slug: the-san-francisco-compute-company-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-users-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-users-api-openapi.yml
 - filename: the-san-francisco-compute-company-workspaces-api-openapi.yml
   format: yaml
   label: The San Francisco Compute Company Workspaces API
   slug: the-san-francisco-compute-company-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/openapi/the-san-francisco-compute-company-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/the-san-francisco-compute-company/openapi/the-san-francisco-compute-company-workspaces-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 35
@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/the-sa
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /preview/v2/procurements/{id}\n  method: get\n  operationId: get_procurement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preview/v2/procurements/{id}\n  method: patch\n  operationId: patch_procurement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /preview/v2/users\n  method: get\n  operationId: list_users_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preview/v2/users/{id}\n  method: get\n  operationId: get_user_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preview/v2/workspaces\n  method: post\n  operationId: create_workspace_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /preview/v2/workspaces\n  method: get\n  operationId: list_workspaces_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preview/v2/workspaces/{workspace}\n  method: delete\n  operationId: delete_workspace_handler\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /preview/v2/workspaces/{workspace}\n  method: get\n  operationId: get_workspace_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preview/v2/workspaces/{workspace}\n  method: patch\n  operationId: patch_workspace_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/agentic-access/the-san-francisco-compute-company-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/the-san-francisco-compute-company/agentic-access/the-san-francisco-compute-company-agentic-access.yml
 summary_line: 65 operations · 30 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -9,25 +9,25 @@ api_specs:
   label: Dead Drop Documentation API
   slug: dead-drop-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/dead-drop/openapi/dead-drop-documentation-api-openapi.yml
 - filename: dead-drop-drops-api-openapi.yml
   format: yaml
   label: Dead Drop Drops API
   slug: dead-drop-drops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-drops-api-openapi.yml
+  url: https://artifacts.apis.io/dead-drop/openapi/dead-drop-drops-api-openapi.yml
 - filename: dead-drop-health-api-openapi.yml
   format: yaml
   label: Dead Drop Health API
   slug: dead-drop-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-health-api-openapi.yml
+  url: https://artifacts.apis.io/dead-drop/openapi/dead-drop-health-api-openapi.yml
 - filename: dead-drop-history-api-openapi.yml
   format: yaml
   label: Dead Drop History API
   slug: dead-drop-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-history-api-openapi.yml
+  url: https://artifacts.apis.io/dead-drop/openapi/dead-drop-history-api-openapi.yml
 consequence_counts:
   read: 8
   write: 3
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dead-drop-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 8\n    acting: 3\n  by_consequence:\n    read: 8\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /health\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /drops/generate-name\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /drops/check/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /drops/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /drops/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drops/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drops\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drops/{id}/history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /drops/{id}/history/{version}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/openapi.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/agentic-access/dead-drop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dead-drop/agentic-access/dead-drop-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
 - Messaging

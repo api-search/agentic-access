@@ -8,19 +8,19 @@ api_specs:
   label: Amazon Transit Gateway Route Tables API
   slug: amazon-transit-gateway-route-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-route-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-transit-gateway/openapi/amazon-transit-gateway-route-tables-api-openapi.yml
 - filename: amazon-transit-gateway-transit-gateways-api-openapi.yml
   format: yaml
   label: Amazon Transit Gateway Transit Gateways API
   slug: amazon-transit-gateway-transit-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-transit-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-transit-gateway/openapi/amazon-transit-gateway-transit-gateways-api-openapi.yml
 - filename: amazon-transit-gateway-vpc-attachments-api-openapi.yml
   format: yaml
   label: Amazon Transit Gateway VPC Attachments API
   slug: amazon-transit-gateway-vpc-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-vpc-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-transit-gateway/openapi/amazon-transit-gateway-vpc-attachments-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,9 +47,10 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-transit-gateway-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /?Action=CreateTransitGateway\n  method: get\n  operationId: CreateTransitGateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeTransitGateways\n  method: get\n  operationId: DescribeTransitGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DeleteTransitGateway\n\
   \  method: get\n  operationId: DeleteTransitGateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateTransitGatewayVpcAttachment\n  method: get\n  operationId: CreateTransitGatewayVpcAttachment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateTransitGatewayRouteTable\n  method: get\n  operationId: CreateTransitGatewayRouteTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/agentic-access/amazon-transit-gateway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-transit-gateway/agentic-access/amazon-transit-gateway-agentic-access.yml
 summary_line: 5 operations
 tags:
+- Amazon Web Services
 - Cloud Networking
 - Network Hub
 - Networking

@@ -9,31 +9,31 @@ api_specs:
   label: Porter Bundles API
   slug: porter-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-bundles-api-openapi.yml
 - filename: porter-credentialsets-api-openapi.yml
   format: yaml
   label: Porter CredentialSets API
   slug: porter-credentialsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-credentialsets-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-credentialsets-api-openapi.yml
 - filename: porter-installations-api-openapi.yml
   format: yaml
   label: Porter Installations API
   slug: porter-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-installations-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-installations-api-openapi.yml
 - filename: porter-parametersets-api-openapi.yml
   format: yaml
   label: Porter ParameterSets API
   slug: porter-parametersets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-parametersets-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-parametersets-api-openapi.yml
 - filename: porter-runs-api-openapi.yml
   format: yaml
   label: Porter Runs API
   slug: porter-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-runs-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-runs-api-openapi.yml
 consequence_counts:
   read: 11
   write: 8
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/porter
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/credentialsets/{namespace}/{name}\n  method: put\n  operationId: updateCredentialSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/credentialsets/{namespace}/{name}\n  method: delete\n  operationId: deleteCredentialSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/parametersets\n  method: get\n  operationId: listParameterSets\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/parametersets\n  method: post\n  operationId: createParameterSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/parametersets/{namespace}/{name}\n  method: get\n  operationId: getParameterSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/parametersets/{namespace}/{name}\n  method: delete\n  operationId: deleteParameterSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/agentic-access/porter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/porter/agentic-access/porter-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Cloud-Native

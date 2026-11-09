@@ -9,19 +9,19 @@ api_specs:
   label: FACTORY I/O Tag Values API
   slug: factory-i-o-tag-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/openapi/factory-i-o-tag-values-api-openapi.yml
+  url: https://artifacts.apis.io/factory-i-o/openapi/factory-i-o-tag-values-api-openapi.yml
 - filename: factory-i-o-tag-values-by-name-api-openapi.yml
   format: yaml
   label: FACTORY I/O Tag Values by Name API
   slug: factory-i-o-tag-values-by-name-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/openapi/factory-i-o-tag-values-by-name-api-openapi.yml
+  url: https://artifacts.apis.io/factory-i-o/openapi/factory-i-o-tag-values-by-name-api-openapi.yml
 - filename: factory-i-o-tags-api-openapi.yml
   format: yaml
   label: FACTORY I/O Tags API
   slug: factory-i-o-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/openapi/factory-i-o-tags-api-openapi.yml
+  url: https://artifacts.apis.io/factory-i-o/openapi/factory-i-o-tags-api-openapi.yml
 consequence_counts:
   read: 5
   write: 10
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/factor
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tag/values/by-name\n  method: get\n  operationId: getTagValuesByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tag/values/by-name\n  method: put\n  operationId: setTagValuesByName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tag/values-force/by-name\n  method: put\n  operationId: setTagValuesForceByName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tag/values-release/by-name\n  method: put\n  operationId: setTagValuesReleaseByName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tag/values-alwaysoff/by-name\n  method: put\n  operationId: setTagValuesAlwaysOffByName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tag/values-alwayson/by-name\n  method: put\n  operationId: setTagValuesAlwaysOnByName\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/agentic-access/factory-i-o-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/factory-i-o/agentic-access/factory-i-o-agentic-access.yml
 summary_line: 15 operations · 10 acting
 tags:
 - Industrial Automation

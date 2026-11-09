@@ -9,103 +9,103 @@ api_specs:
   label: Celonis Agents - Conversation API
   slug: celonis-agents-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-agents-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-agents-conversation-api-openapi.yml
 - filename: celonis-beta-odata-protocol-api-openapi.yml
   format: yaml
   label: 'Celonis Beta: OData Protocol API'
   slug: celonis-beta-odata-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-beta-odata-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-beta-odata-protocol-api-openapi.yml
 - filename: celonis-beta-semantics-for-3p-ai-agents-api-openapi.yml
   format: yaml
   label: 'Celonis Beta: Semantics for 3P AI Agents API'
   slug: celonis-beta-semantics-for-3p-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-beta-semantics-for-3p-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-beta-semantics-for-3p-ai-agents-api-openapi.yml
 - filename: celonis-data-api-openapi.yml
   format: yaml
   label: Celonis Data API
   slug: celonis-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-data-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-data-api-openapi.yml
 - filename: celonis-job-execution-api-openapi.yml
   format: yaml
   label: Celonis Job Execution API
   slug: celonis-job-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-job-execution-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-job-execution-api-openapi.yml
 - filename: celonis-job-execution-group-api-openapi.yml
   format: yaml
   label: Celonis Job Execution Group API
   slug: celonis-job-execution-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-job-execution-group-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-job-execution-group-api-openapi.yml
 - filename: celonis-login-history-api-api-openapi.yml
   format: yaml
   label: Celonis Login History API
   slug: celonis-login-history-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-login-history-api-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-login-history-api-api-openapi.yml
 - filename: celonis-members-api-api-openapi.yml
   format: yaml
   label: Celonis Members API
   slug: celonis-members-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-members-api-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-members-api-api-openapi.yml
 - filename: celonis-notebook-api-openapi.yml
   format: yaml
   label: Celonis Notebook API
   slug: celonis-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-notebook-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-notebook-api-openapi.yml
 - filename: celonis-notebook-execution-api-openapi.yml
   format: yaml
   label: Celonis Notebook Execution API
   slug: celonis-notebook-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-notebook-execution-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-notebook-execution-api-openapi.yml
 - filename: celonis-notebook-resources-api-openapi.yml
   format: yaml
   label: Celonis Notebook Resources API
   slug: celonis-notebook-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-notebook-resources-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-notebook-resources-api-openapi.yml
 - filename: celonis-openapi-tool-calling-api-openapi.yml
   format: yaml
   label: Celonis OpenAPI Tool Calling API
   slug: celonis-openapi-tool-calling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-openapi-tool-calling-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-openapi-tool-calling-api-openapi.yml
 - filename: celonis-permissions-export-api-api-openapi.yml
   format: yaml
   label: Celonis Permissions Export API
   slug: celonis-permissions-export-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-permissions-export-api-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-permissions-export-api-api-openapi.yml
 - filename: celonis-schedule-api-openapi.yml
   format: yaml
   label: Celonis Schedule API
   slug: celonis-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-schedule-api-openapi.yml
 - filename: celonis-schema-api-openapi.yml
   format: yaml
   label: Celonis Schema API
   slug: celonis-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-schema-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-schema-api-openapi.yml
 - filename: celonis-subscriptions-api-openapi.yml
   format: yaml
   label: Celonis Subscriptions API
   slug: celonis-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-subscriptions-api-openapi.yml
 - filename: celonis-triggers-api-openapi.yml
   format: yaml
   label: Celonis Triggers API
   slug: celonis-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/openapi/celonis-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/celonis/openapi/celonis-triggers-api-openapi.yml
 consequence_counts:
   read: 47
   safety-critical: 5
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/celoni
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /intelligence/api/subscriptions/{subscription_id}/pause\n  method: patch\n  operationId: pauseSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /intelligence/api/subscriptions/{subscription_id}/resume\n  method: patch\n  operationId: resumeSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /intelligence/api/subscriptions/{subscription_id}/resume-from-latest\n\
   \  method: patch\n  operationId: resumeSubscriptionNoHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /intelligence/api/subscriptions/{subscription_id}/replay\n  method: patch\n  operationId: replaySubscriptionFromAnOffset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /intelligence/api/knowledge-models/{km_id}/triggers\n  method: get\n  operationId: getTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /intelligence/api/knowledge-models/{km_id}/triggers/{trigger_id}\n  method: get\n  operationId: getTriggerDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/agentic-access/celonis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/celonis/agentic-access/celonis-agentic-access.yml
 summary_line: 78 operations · 31 acting · 5 human-in-the-loop
 tags:
 - Company

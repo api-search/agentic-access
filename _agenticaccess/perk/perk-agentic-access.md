@@ -9,79 +9,79 @@ api_specs:
   label: Perk Cost centers API
   slug: perk-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-cost-centers-api-openapi.yml
 - filename: perk-custom-fields-api-openapi.yml
   format: yaml
   label: Perk Custom fields API
   slug: perk-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-custom-fields-api-openapi.yml
 - filename: perk-bookings-api-openapi.yml
   format: yaml
   label: Perk Bookings API
   slug: perk-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-bookings-api-openapi.yml
 - filename: perk-companies-api-openapi.yml
   format: yaml
   label: Perk Companies API
   slug: perk-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-companies-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-companies-api-openapi.yml
 - filename: perk-invoices-api-openapi.yml
   format: yaml
   label: Perk Invoices API
   slug: perk-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-invoices-api-openapi.yml
 - filename: perk-profiles-api-openapi.yml
   format: yaml
   label: Perk Profiles API
   slug: perk-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-profiles-api-openapi.yml
 - filename: perk-schemas-api-openapi.yml
   format: yaml
   label: Perk Schemas API
   slug: perk-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-schemas-api-openapi.yml
 - filename: perk-suppliers-api-openapi.yml
   format: yaml
   label: Perk Suppliers API
   slug: perk-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-suppliers-api-openapi.yml
 - filename: perk-trips-api-openapi.yml
   format: yaml
   label: Perk Trips API
   slug: perk-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-trips-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-trips-api-openapi.yml
 - filename: perk-users-api-openapi.yml
   format: yaml
   label: Perk Users API
   slug: perk-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-users-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-users-api-openapi.yml
 - filename: perk-webhooks-api-openapi.yml
   format: yaml
   label: Perk Webhooks API
   slug: perk-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-webhooks-api-openapi.yml
 - filename: perk-resource-types-api-openapi.yml
   format: yaml
   label: Perk Resource Types API
   slug: perk-resource-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-resource-types-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-resource-types-api-openapi.yml
 - filename: perk-service-provider-config-api-openapi.yml
   format: yaml
   label: Perk Service Provider Config API
   slug: perk-service-provider-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/openapi/perk-service-provider-config-api-openapi.yml
+  url: https://artifacts.apis.io/perk/openapi/perk-service-provider-config-api-openapi.yml
 consequence_counts:
   read: 27
   write: 15
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/perk-c
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: list-all-users-1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: subscribe-to-event\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: list-webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/events\n  method: get\n  operationId: list-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: patch\n  operationId: update-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: get-subscription-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: delete-webhook-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /webhooks/{id}/test\n  method: post\n  operationId: test-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/agentic-access/perk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/perk/agentic-access/perk-agentic-access.yml
 summary_line: 42 operations · 15 acting
 tags:
 - Company
@@ -131,4 +131,8 @@ tags:
 - Invoices
 - Fintech
 - Software-as-a-Service
+- Business Travel
+- Travel Management
+- Expenses
+- Booking
 ---

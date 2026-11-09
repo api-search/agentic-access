@@ -9,25 +9,25 @@ api_specs:
   label: Google Calendar Calendars API
   slug: google-calendar-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/openapi/google-calendar-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/google-calendar/openapi/google-calendar-calendars-api-openapi.yml
 - filename: google-calendar-colors-api-openapi.yml
   format: yaml
   label: Google Calendar Colors API
   slug: google-calendar-colors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/openapi/google-calendar-colors-api-openapi.yml
+  url: https://artifacts.apis.io/google-calendar/openapi/google-calendar-colors-api-openapi.yml
 - filename: google-calendar-users-api-openapi.yml
   format: yaml
   label: Google Calendar Users API
   slug: google-calendar-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/openapi/google-calendar-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-calendar/openapi/google-calendar-users-api-openapi.yml
 - filename: google-calendar-free-busy-api-openapi.yml
   format: yaml
   label: Google Calendar Free Busy API
   slug: google-calendar-free-busy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/openapi/google-calendar-free-busy-api-openapi.yml
+  url: https://artifacts.apis.io/google-calendar/openapi/google-calendar-free-busy-api-openapi.yml
 consequence_counts:
   read: 8
   write: 10
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calendars/{calendarId}/acl\n  method: get\n  operationId: listAcl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calendars/{calendarId}/acl\n  method: post\n  operationId: insertAcl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /colors\n  method: get\n  operationId: getColors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /freeBusy\n  method: post\n  operationId: queryFreeBusy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me/calendarList\n  method: get\n  operationId: listCalendarList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me/calendarList\n  method: post\n  operationId: insertCalendarList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me/settings\n  method: get\n  operationId: listSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/agentic-access/google-calendar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-calendar/agentic-access/google-calendar-agentic-access.yml
 summary_line: 18 operations · 10 acting
 tags:
 - Availability

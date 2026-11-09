@@ -8,13 +8,13 @@ api_specs:
   label: OneBusAway Default API
   slug: onebusaway-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-default-api-openapi.yml
+  url: https://artifacts.apis.io/onebusaway/openapi/onebusaway-default-api-openapi.yml
 - filename: onebusaway-where-api-openapi.yml
   format: yaml
   label: OneBusAway Where API
   slug: onebusaway-where-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-where-api-openapi.yml
+  url: https://artifacts.apis.io/onebusaway/openapi/onebusaway-where-api-openapi.yml
 consequence_counts:
   read: 30
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/trip-details/{tripID}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/trip-for-vehicle/{vehicleID}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/stops-for-route/{routeID}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/stops-for-agency/{agencyID}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/stop/{stopID}.json\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/schedule-for-stop/{stopID}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/stop-ids-for-agency/{agencyID}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/report-problem-with-stop/{stopID}.json\n  method: get\n  operationId: reportProblemWithStop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/report-problem-with-trip/{tripID}.json\n  method: get\n  operationId: reportProblemWithTrip\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/search/stop.json\n  method: get\n  operationId: searchStop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/search/route.json\n  method: get\n  operationId: searchRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/block/{blockID}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/where/shape/{shapeID}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/agentic-access/onebusaway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/onebusaway/agentic-access/onebusaway-agentic-access.yml
 summary_line: 30 operations
 tags:
 - Transit

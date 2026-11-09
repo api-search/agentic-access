@@ -9,49 +9,49 @@ api_specs:
   label: Xiaomi Access Control API
   slug: xiaomi-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-access-control-api-openapi.yml
 - filename: xiaomi-authentication-api-openapi.yml
   format: yaml
   label: Xiaomi Authentication API
   slug: xiaomi-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-authentication-api-openapi.yml
 - filename: xiaomi-cdn-api-openapi.yml
   format: yaml
   label: Xiaomi CDN API
   slug: xiaomi-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-cdn-api-openapi.yml
 - filename: xiaomi-models-api-openapi.yml
   format: yaml
   label: Xiaomi Models API
   slug: xiaomi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-models-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-models-api-openapi.yml
 - filename: xiaomi-multipart-upload-api-openapi.yml
   format: yaml
   label: Xiaomi Multipart Upload API
   slug: xiaomi-multipart-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-multipart-upload-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-multipart-upload-api-openapi.yml
 - filename: xiaomi-objects-api-openapi.yml
   format: yaml
   label: Xiaomi Objects API
   slug: xiaomi-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-objects-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-objects-api-openapi.yml
 - filename: xiaomi-user-api-openapi.yml
   format: yaml
   label: Xiaomi User API
   slug: xiaomi-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-user-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-user-api-openapi.yml
 - filename: xiaomi-chat-completions-api-openapi.yml
   format: yaml
   label: Xiaomi Chat Completions API
   slug: xiaomi-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-chat-completions-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 2
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xiaomi
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucketName}/{objectName}?rename\n  method: post\n  operationId: renameObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucketName}/{objectName}?prefetch\n  method: post\n  operationId: prefetchObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucketName}/{objectName}?refresh\n  method: post\n  operationId: refreshObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/profile\n  method: get\n  operationId: getUserProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/openidV2\n  method: get\n  operationId:\
   \ getUserOpenId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/phoneAndEmail\n  method: get\n  operationId: getUserPhoneAndEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/relation\n  method: get\n  operationId: getUserFriendList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkPassword\n  method: get\n  operationId: checkUserPassword\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/agentic-access/xiaomi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xiaomi/agentic-access/xiaomi-agentic-access.yml
 summary_line: 23 operations · 14 acting · 2 human-in-the-loop
 tags:
 - Consumer Electronics

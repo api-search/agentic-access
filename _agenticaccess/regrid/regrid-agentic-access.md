@@ -9,31 +9,31 @@ api_specs:
   label: Regrid Metadata API
   slug: regrid-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-metadata-api-openapi.yml
 - filename: regrid-parcel-query-api-openapi.yml
   format: yaml
   label: Regrid Parcel Query API
   slug: regrid-parcel-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-parcel-query-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-parcel-query-api-openapi.yml
 - filename: regrid-parcel-search-api-openapi.yml
   format: yaml
   label: Regrid Parcel Search API
   slug: regrid-parcel-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-parcel-search-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-parcel-search-api-openapi.yml
 - filename: regrid-schemas-api-openapi.yml
   format: yaml
   label: Regrid Schemas API
   slug: regrid-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-schemas-api-openapi.yml
 - filename: regrid-typeahead-api-openapi.yml
   format: yaml
   label: Regrid Typeahead API
   slug: regrid-typeahead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-typeahead-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-typeahead-api-openapi.yml
 consequence_counts:
   read: 19
   write: 3
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/regrid
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/parcels/owner\n  method: get\n  operationId: getParcelsByOwner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/parcels/area\n  method: get\n  operationId: getParcelsByArea\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/parcels/area\n  method: post\n  operationId: postParcelsByArea\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parcels/path\n  method: get\n  operationId:\
   \ getParcelByPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parcels/{ll_uuid}\n  method: get\n  operationId: getParcelByUUID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/parcel\n  method: get\n  operationId: getParcelSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/building\n  method: get\n  operationId: getBuildingSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/address\n  method: get\n  operationId: getAddressSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/enhanced_ownership\n  method: get\n  operationId: getEnhancedOwnershipSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/zoning\n  method: get\n  operationId: getZoningSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/ca\n  method: get\n  operationId: getCanadaSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parcels/typeahead\n  method: get\n  operationId: getTypeahead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/agentic-access/regrid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/regrid/agentic-access/regrid-agentic-access.yml
 summary_line: 22 operations · 3 acting
 tags:
 - Land Data

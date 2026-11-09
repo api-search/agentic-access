@@ -9,79 +9,79 @@ api_specs:
   label: NetBox Authentication Check API
   slug: netbox-authentication-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-authentication-check-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-authentication-check-api-openapi.yml
 - filename: netbox-circuits-api-openapi.yml
   format: yaml
   label: NetBox Circuits API
   slug: netbox-circuits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-circuits-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-circuits-api-openapi.yml
 - filename: netbox-core-api-openapi.yml
   format: yaml
   label: NetBox Core API
   slug: netbox-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-core-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-core-api-openapi.yml
 - filename: netbox-dcim-api-openapi.yml
   format: yaml
   label: NetBox Dcim API
   slug: netbox-dcim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-dcim-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-dcim-api-openapi.yml
 - filename: netbox-extras-api-openapi.yml
   format: yaml
   label: NetBox Extras API
   slug: netbox-extras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-extras-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-extras-api-openapi.yml
 - filename: netbox-ipam-api-openapi.yml
   format: yaml
   label: NetBox Ipam API
   slug: netbox-ipam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-ipam-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-ipam-api-openapi.yml
 - filename: netbox-schema-api-openapi.yml
   format: yaml
   label: NetBox Schema API
   slug: netbox-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-schema-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-schema-api-openapi.yml
 - filename: netbox-status-api-openapi.yml
   format: yaml
   label: NetBox Status API
   slug: netbox-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-status-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-status-api-openapi.yml
 - filename: netbox-tenancy-api-openapi.yml
   format: yaml
   label: NetBox Tenancy API
   slug: netbox-tenancy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-tenancy-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-tenancy-api-openapi.yml
 - filename: netbox-users-api-openapi.yml
   format: yaml
   label: NetBox Users API
   slug: netbox-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-users-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-users-api-openapi.yml
 - filename: netbox-virtualization-api-openapi.yml
   format: yaml
   label: NetBox Virtualization API
   slug: netbox-virtualization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-virtualization-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-virtualization-api-openapi.yml
 - filename: netbox-vpn-api-openapi.yml
   format: yaml
   label: NetBox Vpn API
   slug: netbox-vpn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-vpn-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-vpn-api-openapi.yml
 - filename: netbox-wireless-api-openapi.yml
   format: yaml
   label: NetBox Wireless API
   slug: netbox-wireless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/openapi/netbox-wireless-api-openapi.yml
+  url: https://artifacts.apis.io/netbox/openapi/netbox-wireless-api-openapi.yml
 consequence_counts:
   physical: 22
   read: 287
@@ -260,8 +260,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/netbox
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/circuits/virtual-circuit-terminations/{id}/paths/\n  method: get\n  operationId: circuits_virtual_circuit_terminations_paths_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/circuits/virtual-circuit-types/\n  method: get\n  operationId: circuits_virtual_circuit_types_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/circuits/virtual-circuit-types/\n  method: post\n  operationId: circuits_virtual_circuit_types_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/circuits/virtual-circuit-types/\n  method: put\n  operationId: circuits_virtual_circuit_types_bulk_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/circuits/virtual-circuit-types/\n  method: patch\n  operationId: circuits_virtual_circuit_types_bulk_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/circuits/virtual-circuit-types/\n  method: delete\n\
   \  operationId: circuits_virtual_circuit_types_bulk_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/circuits/virtual-circuit-types/{id}/\n  method: get\n  operationId: circuits_virtual_circuit_types_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/circuits/virtual-circuit-types/{id}/\n  method: put\n  operationId: circuits_virtual_circuit_types_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /api/circuits/virtual-circuit-types/{id}/\n  method: patch\n  operationId: circuits_virtual_circuit_types_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/circuits/virtual-circuit-types/{id}/\n  method: delete\n  operationId: circuits_virtual_circuit_types_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (380 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/agentic-access/netbox-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/agentic-access/netbox-agentic-access.yml
+  - path: /api/circuits/virtual-circuit-types/{id}/\n  method: patch\n  operationId: circuits_virtual_circuit_types_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/circuits/virtual-circuit-types/{id}/\n  method: delete\n  operationId: circuits_virtual_circuit_types_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (380 KB total) ---\n# Full source: https://artifacts.apis.io/netbox/agentic-access/netbox-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/netbox/agentic-access/netbox-agentic-access.yml
 summary_line: 1167 operations · 880 acting · 1 human-in-the-loop
 tags:
 - Data Center

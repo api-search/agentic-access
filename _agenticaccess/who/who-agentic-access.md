@@ -9,19 +9,19 @@ api_specs:
   label: World Health Organization (WHO) Foundation API
   slug: who-foundation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-foundation-api-openapi.yml
+  url: https://artifacts.apis.io/who/openapi/who-foundation-api-openapi.yml
 - filename: who-icd10-api-openapi.yml
   format: yaml
   label: World Health Organization (WHO) ICD10 API
   slug: who-icd10-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-icd10-api-openapi.yml
+  url: https://artifacts.apis.io/who/openapi/who-icd10-api-openapi.yml
 - filename: who-linearization-classification-endpoints-api-openapi.yml
   format: yaml
   label: World Health Organization (WHO) Linearization (classification endpoints) API
   slug: who-linearization-classification-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-linearization-classification-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/who/openapi/who-linearization-classification-endpoints-api-openapi.yml
 consequence_counts:
   read: 23
   write: 2
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/who-fo
   \    scope:\n    - icdapi_access\n- path: /icd/release/11/{releaseId}/{linearizationname}/codeinfo/{code}\n  method: get\n  operationId: GetCodeInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - icdapi_access\n- path: /icd/release/11/{releaseId}/{linearizationname}/describe\n  method: get\n  operationId: Describe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - icdapi_access\n- path: /icd/release/11/{releaseId}/{linearizationname}/lookup\n  method: get\n  operationId: Lookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - icdapi_access\n- path: /icd/release/11/{releaseId}/{linearizationname}/search\n  method: get\n  operationId: SearchLinearization\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - icdapi_access\n- path: /icd/release/11/{releaseId}/{linearizationname}/search\n  method: post\n  operationId: SearchLinearization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - icdapi_access\n- path: /icd/release/11/{releaseId}/codedit\n  method: get\n  operationId: CertificateCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - icdapi_access\n- path: /icd/release/11/{releaseId}/codedit\n  method: post\n  operationId: CertificateCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - icdapi_access\n- path: /icd/release/11/{releaseId}/doris\n  method: get\n  operationId: UnderlyingCauseOfDeathDetection1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - icdapi_access\n- path: /icd/release/11/{releaseId}/doris\n  method: post\n  operationId: UnderlyingCauseOfDeathDetection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - icdapi_access\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/agentic-access/who-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/who/agentic-access/who-agentic-access.yml
 summary_line: 25 operations · 2 acting
 tags:
 - Health

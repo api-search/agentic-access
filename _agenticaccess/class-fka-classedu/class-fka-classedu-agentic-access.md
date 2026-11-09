@@ -9,43 +9,43 @@ api_specs:
   label: Class (fka ClassEDU) Classes API
   slug: class-fka-classedu-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-classes-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-classes-api-openapi.yml
 - filename: class-fka-classedu-enrollments-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Enrollments API
   slug: class-fka-classedu-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-enrollments-api-openapi.yml
 - filename: class-fka-classedu-launch-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Launch API
   slug: class-fka-classedu-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-launch-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-launch-api-openapi.yml
 - filename: class-fka-classedu-reporting-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Reporting API
   slug: class-fka-classedu-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-reporting-api-openapi.yml
 - filename: class-fka-classedu-schedules-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Schedules API
   slug: class-fka-classedu-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-schedules-api-openapi.yml
 - filename: class-fka-classedu-templates-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Templates API
   slug: class-fka-classedu-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-templates-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-templates-api-openapi.yml
 - filename: class-fka-classedu-users-api-openapi.yml
   format: yaml
   label: Class (fka ClassEDU) Users API
   slug: class-fka-classedu-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/openapi/class-fka-classedu-users-api-openapi.yml
+  url: https://artifacts.apis.io/class-fka-classedu/openapi/class-fka-classedu-users-api-openapi.yml
 consequence_counts:
   read: 8
   write: 13
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/class-
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - template:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/templates\n  method: get\n  operationId: getTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - template:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/templates\n  method: patch\n  operationId: updateTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - template:write\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/templates\n  method: delete\n  operationId: deleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - template:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users\n  method: put\n  operationId: upsertUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - user:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - user:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/agentic-access/class-fka-classedu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/class-fka-classedu/agentic-access/class-fka-classedu-agentic-access.yml
 summary_line: 21 operations · 13 acting
 tags:
 - Company

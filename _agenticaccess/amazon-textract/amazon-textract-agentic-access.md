@@ -9,31 +9,49 @@ api_specs:
   label: Amazon Textract Async Operations API
   slug: amazon-textract-async-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-async-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-async-operations-api-openapi.yml
 - filename: amazon-textract-document-analysis-api-openapi.yml
   format: yaml
   label: Amazon Textract Document Analysis API
   slug: amazon-textract-document-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-document-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-document-analysis-api-openapi.yml
 - filename: amazon-textract-expense-analysis-api-openapi.yml
   format: yaml
   label: Amazon Textract Expense Analysis API
   slug: amazon-textract-expense-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-expense-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-expense-analysis-api-openapi.yml
 - filename: amazon-textract-id-analysis-api-openapi.yml
   format: yaml
   label: Amazon Textract ID Analysis API
   slug: amazon-textract-id-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-id-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-id-analysis-api-openapi.yml
 - filename: amazon-textract-text-detection-api-openapi.yml
   format: yaml
   label: Amazon Textract Text Detection API
   slug: amazon-textract-text-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-text-detection-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-text-detection-api-openapi.yml
+- filename: amazon-textract-adapter-api-openapi.yml
+  format: yaml
+  label: Amazon Textract Textract Adapter API
+  slug: amazon-textract-adapter-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-adapter-api-openapi.yml
+- filename: amazon-textract-adapter-version-api-openapi.yml
+  format: yaml
+  label: Amazon Textract Textract Adapter Version API
+  slug: amazon-textract-adapter-version-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-adapter-version-api-openapi.yml
+- filename: amazon-textract-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Textract Textract Operations API
+  slug: amazon-textract-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-textract/openapi/amazon-textract-operations-api-openapi.yml
 consequence_counts:
   read: 1
   write: 5
@@ -62,9 +80,10 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon-textract-async-operations-api-openapi.yml, openapi/amazon-textract-document-analysis-api-openapi.yml,\n  openapi/amazon-textract-expense-analysis-api-openapi.yml, openapi/amazon-textract-id-analysis-api-openapi.yml,\n  openapi/amazon-textract-text-detection-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 5\n    connected: 1\n  by_consequence:\n    write: 5\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /#StartDocumentTextDetection\n  method: post\n  operationId: StartDocumentTextDetection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#GetDocumentTextDetection\n  method: post\n  operationId: GetDocumentTextDetection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#AnalyzeDocument\n  method: post\n  operationId: AnalyzeDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#AnalyzeExpense\n  method: post\n  operationId: AnalyzeExpense\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#AnalyzeID\n  method: post\n  operationId: AnalyzeID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: DetectDocumentText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/agentic-access/amazon-textract-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-textract/agentic-access/amazon-textract-agentic-access.yml
 summary_line: 6 operations · 5 acting
 tags:
+- Amazon Web Services
 - Document Processing
 - Machine Learning
 - OCR

@@ -9,193 +9,193 @@ api_specs:
   label: Bud Financial Aggregation Buckets API
   slug: bud-co-aggregation-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-aggregation-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-aggregation-buckets-api-openapi.yml
 - filename: bud-co-correct-financial-data-api-openapi.yml
   format: yaml
   label: Bud Financial Correct Financial Data API
   slug: bud-co-correct-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-correct-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-correct-financial-data-api-openapi.yml
 - filename: bud-co-create-a-connection-api-openapi.yml
   format: yaml
   label: Bud Financial Create a Connection API
   slug: bud-co-create-a-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-create-a-connection-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-create-a-connection-api-openapi.yml
 - filename: bud-co-custom-insights-api-openapi.yml
   format: yaml
   label: Bud Financial Custom Insights API
   slug: bud-co-custom-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-custom-insights-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-custom-insights-api-openapi.yml
 - filename: bud-co-customer-application-links-api-openapi.yml
   format: yaml
   label: Bud Financial Customer Application Links API
   slug: bud-co-customer-application-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-customer-application-links-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-customer-application-links-api-openapi.yml
 - filename: bud-co-customer-applications-api-openapi.yml
   format: yaml
   label: Bud Financial Customer Applications API
   slug: bud-co-customer-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-customer-applications-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-customer-applications-api-openapi.yml
 - filename: bud-co-debt-collection-finder-api-openapi.yml
   format: yaml
   label: Bud Financial Debt Collection Finder API
   slug: bud-co-debt-collection-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-debt-collection-finder-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-debt-collection-finder-api-openapi.yml
 - filename: bud-co-enrichment-resources-api-openapi.yml
   format: yaml
   label: Bud Financial Enrichment Resources API
   slug: bud-co-enrichment-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-enrichment-resources-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-enrichment-resources-api-openapi.yml
 - filename: bud-co-enrichment-totals-api-openapi.yml
   format: yaml
   label: Bud Financial Enrichment Totals API
   slug: bud-co-enrichment-totals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-enrichment-totals-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-enrichment-totals-api-openapi.yml
 - filename: bud-co-frontend-widgets-api-openapi.yml
   format: yaml
   label: Bud Financial Frontend Widgets API
   slug: bud-co-frontend-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-frontend-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-frontend-widgets-api-openapi.yml
 - filename: bud-co-income-finder-api-openapi.yml
   format: yaml
   label: Bud Financial Income Finder API
   slug: bud-co-income-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-income-finder-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-income-finder-api-openapi.yml
 - filename: bud-co-ingest-first-party-data-api-openapi.yml
   format: yaml
   label: Bud Financial Ingest First Party Data API
   slug: bud-co-ingest-first-party-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-ingest-first-party-data-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-ingest-first-party-data-api-openapi.yml
 - filename: bud-co-initiate-payment-bud-license-api-openapi.yml
   format: yaml
   label: Bud Financial Initiate Payment - Bud license API
   slug: bud-co-initiate-payment-bud-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-initiate-payment-bud-license-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-initiate-payment-bud-license-api-openapi.yml
 - filename: bud-co-initiate-payment-client-license-api-openapi.yml
   format: yaml
   label: Bud Financial Initiate Payment - Client license API
   slug: bud-co-initiate-payment-client-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-initiate-payment-client-license-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-initiate-payment-client-license-api-openapi.yml
 - filename: bud-co-loan-finder-api-openapi.yml
   format: yaml
   label: Bud Financial Loan Finder API
   slug: bud-co-loan-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-loan-finder-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-loan-finder-api-openapi.yml
 - filename: bud-co-manage-a-connection-api-openapi.yml
   format: yaml
   label: Bud Financial Manage a Connection API
   slug: bud-co-manage-a-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-manage-a-connection-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-manage-a-connection-api-openapi.yml
 - filename: bud-co-manage-customers-api-openapi.yml
   format: yaml
   label: Bud Financial Manage Customers API
   slug: bud-co-manage-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-manage-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-manage-customers-api-openapi.yml
 - filename: bud-co-manage-financial-data-api-openapi.yml
   format: yaml
   label: Bud Financial Manage Financial Data API
   slug: bud-co-manage-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-manage-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-manage-financial-data-api-openapi.yml
 - filename: bud-co-manage-payments-api-openapi.yml
   format: yaml
   label: Bud Financial Manage Payments API
   slug: bud-co-manage-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-manage-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-manage-payments-api-openapi.yml
 - filename: bud-co-product-finder-api-openapi.yml
   format: yaml
   label: Bud Financial Product Finder API
   slug: bud-co-product-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-product-finder-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-product-finder-api-openapi.yml
 - filename: bud-co-regular-payments-finder-api-openapi.yml
   format: yaml
   label: Bud Financial Regular Payments Finder API
   slug: bud-co-regular-payments-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-regular-payments-finder-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-regular-payments-finder-api-openapi.yml
 - filename: bud-co-retrieve-actionable-insights-api-openapi.yml
   format: yaml
   label: Bud Financial Retrieve Actionable Insights API
   slug: bud-co-retrieve-actionable-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-retrieve-actionable-insights-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-retrieve-actionable-insights-api-openapi.yml
 - filename: bud-co-retrieve-affordability-report-api-openapi.yml
   format: yaml
   label: Bud Financial Retrieve Affordability Report API
   slug: bud-co-retrieve-affordability-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-retrieve-affordability-report-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-retrieve-affordability-report-api-openapi.yml
 - filename: bud-co-retrieve-affordability-report-v2-api-openapi.yml
   format: yaml
   label: Bud Financial Retrieve Affordability Report V2 API
   slug: bud-co-retrieve-affordability-report-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-retrieve-affordability-report-v2-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-retrieve-affordability-report-v2-api-openapi.yml
 - filename: bud-co-retrieve-affordability-risk-insights-api-openapi.yml
   format: yaml
   label: Bud Financial Retrieve Affordability Risk Insights API
   slug: bud-co-retrieve-affordability-risk-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-retrieve-affordability-risk-insights-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-retrieve-affordability-risk-insights-api-openapi.yml
 - filename: bud-co-retrieve-customer-characteristics-api-openapi.yml
   format: yaml
   label: Bud Financial Retrieve Customer Characteristics API
   slug: bud-co-retrieve-customer-characteristics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-retrieve-customer-characteristics-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-retrieve-customer-characteristics-api-openapi.yml
 - filename: bud-co-retrieve-financial-data-api-openapi.yml
   format: yaml
   label: Bud Financial Retrieve Financial Data API
   slug: bud-co-retrieve-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-retrieve-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-retrieve-financial-data-api-openapi.yml
 - filename: bud-co-savings-goals-v2-api-openapi.yml
   format: yaml
   label: Bud Financial Savings Goals V2 API
   slug: bud-co-savings-goals-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-savings-goals-v2-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-savings-goals-v2-api-openapi.yml
 - filename: bud-co-spending-budgets-api-openapi.yml
   format: yaml
   label: Bud Financial Spending Budgets API
   slug: bud-co-spending-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-spending-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-spending-budgets-api-openapi.yml
 - filename: bud-co-subscription-finder-api-openapi.yml
   format: yaml
   label: Bud Financial Subscription Finder API
   slug: bud-co-subscription-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-subscription-finder-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-subscription-finder-api-openapi.yml
 - filename: bud-co-transaction-search-api-openapi.yml
   format: yaml
   label: Bud Financial Transaction Search API
   slug: bud-co-transaction-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-transaction-search-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-transaction-search-api-openapi.yml
 - filename: bud-co-oauth2-api-openapi.yml
   format: yaml
   label: Bud Financial O Auth2 API
   slug: bud-co-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-co-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/bud-co/openapi/bud-co-oauth2-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 93
@@ -299,8 +299,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bud-co
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/v3/customers/idempotent-identifier/{customer_idempotent_identifier}\n  method: delete\n  operationId: platform_v3_customers_idempotent_identifier_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/v3/customers/{customer_id}/{task_id}\n  method: get\n  operationId: platform_v3_customers_delete_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customers\n  method: post\n  operationId: customers_create_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/customers\n  method: post\n  operationId: customers_create_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customers/{customer_id}\n  method: delete\n  operationId: customers_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customers/{customer_id}/context\n  method: get\n  operationId: v1_customer_context_get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customers/{customer_id}/context\n  method: put\n  operationId: v1_customer_context_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /financial/v2/accounts/{account_id}\n  method: delete\n  operationId: v2_account_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/provider/{provider}\n  method: delete\n  operationId: v1_provider_delete\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/single\n  method: get\n  operationId: v1_payment_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/single/{payment_id}\n  method: get\n  operationId: v1_payments_single_payment_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/agentic-access/bud-co-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/agentic-access/bud-co-agentic-access.yml
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/single\n  method: get\n  operationId: v1_payment_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/single/{payment_id}\n  method: get\n  operationId: v1_payments_single_payment_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://artifacts.apis.io/bud-co/agentic-access/bud-co-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bud-co/agentic-access/bud-co-agentic-access.yml
 summary_line: 154 operations · 61 acting · 1 human-in-the-loop
 tags:
 - Open Banking

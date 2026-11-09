@@ -9,37 +9,37 @@ api_specs:
   label: Narrative Sports Health API
   slug: usenarrative-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-health-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-health-api-openapi.yml
 - filename: usenarrative-highlight-packages-api-openapi.yml
   format: yaml
   label: Narrative Sports Highlight Packages API
   slug: usenarrative-highlight-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-highlight-packages-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-highlight-packages-api-openapi.yml
 - filename: usenarrative-highlights-api-openapi.yml
   format: yaml
   label: Narrative Sports Highlights API
   slug: usenarrative-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-highlights-api-openapi.yml
 - filename: usenarrative-projects-api-openapi.yml
   format: yaml
   label: Narrative Sports Projects API
   slug: usenarrative-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-projects-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-projects-api-openapi.yml
 - filename: usenarrative-recaps-api-openapi.yml
   format: yaml
   label: Narrative Sports Recaps API
   slug: usenarrative-recaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-recaps-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-recaps-api-openapi.yml
 - filename: usenarrative-tasks-api-openapi.yml
   format: yaml
   label: Narrative Sports Tasks API
   slug: usenarrative-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/openapi/usenarrative-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/usenarrative/openapi/usenarrative-tasks-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/usenar
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/highlight-packages\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/highlight-packages/batch\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/highlight-packages/{package_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/highlight-packages/{package_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/recaps\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/recaps\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/recaps/batch\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/recaps/{recap_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/recaps/{recap_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/highlight-options\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/agentic-access/usenarrative-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/usenarrative/agentic-access/usenarrative-agentic-access.yml
 summary_line: 24 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Sports

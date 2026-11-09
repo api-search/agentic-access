@@ -9,61 +9,61 @@ api_specs:
   label: Secure Code Warrior Assessments API
   slug: secure-code-warrior-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-assessments-api-openapi.yml
 - filename: secure-code-warrior-audit-api-openapi.yml
   format: yaml
   label: Secure Code Warrior Audit API
   slug: secure-code-warrior-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-audit-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-audit-api-openapi.yml
 - filename: secure-code-warrior-courses-api-openapi.yml
   format: yaml
   label: Secure Code Warrior Courses API
   slug: secure-code-warrior-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-courses-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-courses-api-openapi.yml
 - filename: secure-code-warrior-learning-api-openapi.yml
   format: yaml
   label: Secure Code Warrior Learning API
   slug: secure-code-warrior-learning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-learning-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-learning-api-openapi.yml
 - filename: secure-code-warrior-metrics-api-openapi.yml
   format: yaml
   label: Secure Code Warrior Metrics API
   slug: secure-code-warrior-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-metrics-api-openapi.yml
 - filename: secure-code-warrior-programs-api-openapi.yml
   format: yaml
   label: Secure Code Warrior Programs API
   slug: secure-code-warrior-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-programs-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-programs-api-openapi.yml
 - filename: secure-code-warrior-teams-api-openapi.yml
   format: yaml
   label: Secure Code Warrior Teams API
   slug: secure-code-warrior-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-teams-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-teams-api-openapi.yml
 - filename: secure-code-warrior-tournaments-api-openapi.yml
   format: yaml
   label: Secure Code Warrior Tournaments API
   slug: secure-code-warrior-tournaments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-tournaments-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-tournaments-api-openapi.yml
 - filename: secure-code-warrior-training-api-openapi.yml
   format: yaml
   label: Secure Code Warrior Training API
   slug: secure-code-warrior-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-training-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-training-api-openapi.yml
 - filename: secure-code-warrior-users-api-openapi.yml
   format: yaml
   label: Secure Code Warrior Users API
   slug: secure-code-warrior-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/openapi/secure-code-warrior-users-api-openapi.yml
+  url: https://artifacts.apis.io/secure-code-warrior/openapi/secure-code-warrior-users-api-openapi.yml
 consequence_counts:
   read: 23
   write: 8
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/secure
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/developer-leaderboard/search\n  method: post\n  operationId: searchDeveloperLeaderboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/developers-progress\n  method: get\n  operationId: getDevelopersProgress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/developers-activity\n  method: get\n  operationId: getDevelopersActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/team-leaderboard\n  method: get\n  operationId: getTeamLeaderboard\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/search\n  method: post\n  operationId: searchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/roles\n  method: get\n  operationId: listUserRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/agentic-access/secure-code-warrior-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/secure-code-warrior/agentic-access/secure-code-warrior-agentic-access.yml
 summary_line: 31 operations · 8 acting
 tags:
 - Application Security

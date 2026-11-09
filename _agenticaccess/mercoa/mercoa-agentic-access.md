@@ -9,55 +9,55 @@ api_specs:
   label: Mercoa Entities API
   slug: mercoa-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/openapi/mercoa-entities-api-openapi.yml
+  url: https://artifacts.apis.io/mercoa/openapi/mercoa-entities-api-openapi.yml
 - filename: mercoa-entity-groups-api-openapi.yml
   format: yaml
   label: Mercoa Entity Groups API
   slug: mercoa-entity-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/openapi/mercoa-entity-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mercoa/openapi/mercoa-entity-groups-api-openapi.yml
 - filename: mercoa-invoice-templates-api-openapi.yml
   format: yaml
   label: Mercoa Invoice Templates API
   slug: mercoa-invoice-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/openapi/mercoa-invoice-templates-api-openapi.yml
+  url: https://artifacts.apis.io/mercoa/openapi/mercoa-invoice-templates-api-openapi.yml
 - filename: mercoa-invoices-api-openapi.yml
   format: yaml
   label: Mercoa Invoices API
   slug: mercoa-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/openapi/mercoa-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/mercoa/openapi/mercoa-invoices-api-openapi.yml
 - filename: mercoa-ocr-api-openapi.yml
   format: yaml
   label: Mercoa OCR API
   slug: mercoa-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/openapi/mercoa-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/mercoa/openapi/mercoa-ocr-api-openapi.yml
 - filename: mercoa-organization-api-openapi.yml
   format: yaml
   label: Mercoa Organization API
   slug: mercoa-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/openapi/mercoa-organization-api-openapi.yml
+  url: https://artifacts.apis.io/mercoa/openapi/mercoa-organization-api-openapi.yml
 - filename: mercoa-payment-gateway-api-openapi.yml
   format: yaml
   label: Mercoa Payment Gateway API
   slug: mercoa-payment-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/openapi/mercoa-payment-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/mercoa/openapi/mercoa-payment-gateway-api-openapi.yml
 - filename: mercoa-payment-methods-api-openapi.yml
   format: yaml
   label: Mercoa Payment Methods API
   slug: mercoa-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/openapi/mercoa-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/mercoa/openapi/mercoa-payment-methods-api-openapi.yml
 - filename: mercoa-transactions-api-openapi.yml
   format: yaml
   label: Mercoa Transactions API
   slug: mercoa-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/openapi/mercoa-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/mercoa/openapi/mercoa-transactions-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 17
@@ -189,7 +189,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mercoa
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoice-template/{invoiceTemplateId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction/{transactionId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /organization\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr-async\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /ocr-async/{jobId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment-gateway/process\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-gateway/validate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/agentic-access/mercoa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mercoa/agentic-access/mercoa-agentic-access.yml
 summary_line: 48 operations · 31 acting
 tags:
 - Mercoa

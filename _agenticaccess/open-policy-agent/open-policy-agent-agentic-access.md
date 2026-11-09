@@ -9,49 +9,49 @@ api_specs:
   label: Open Policy Agent Compile API
   slug: open-policy-agent-compile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-compile-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-compile-api-openapi.yml
 - filename: open-policy-agent-config-api-openapi.yml
   format: yaml
   label: Open Policy Agent Config API
   slug: open-policy-agent-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-config-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-config-api-openapi.yml
 - filename: open-policy-agent-data-api-openapi.yml
   format: yaml
   label: Open Policy Agent Data API
   slug: open-policy-agent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-data-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-data-api-openapi.yml
 - filename: open-policy-agent-health-api-openapi.yml
   format: yaml
   label: Open Policy Agent Health API
   slug: open-policy-agent-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-health-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-health-api-openapi.yml
 - filename: open-policy-agent-policies-api-openapi.yml
   format: yaml
   label: Open Policy Agent Policies API
   slug: open-policy-agent-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-policies-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-policies-api-openapi.yml
 - filename: open-policy-agent-query-api-api-openapi.yml
   format: yaml
   label: Open Policy Agent Query API
   slug: open-policy-agent-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-query-api-api-openapi.yml
 - filename: open-policy-agent-query-api-openapi.yml
   format: yaml
   label: Open Policy Agent Query API
   slug: open-policy-agent-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-query-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-query-api-openapi.yml
 - filename: open-policy-agent-status-api-openapi.yml
   format: yaml
   label: Open Policy Agent Status API
   slug: open-policy-agent-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/openapi/open-policy-agent-status-api-openapi.yml
+  url: https://artifacts.apis.io/open-policy-agent/openapi/open-policy-agent-status-api-openapi.yml
 consequence_counts:
   read: 10
   write: 8
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/open-p
   \  operationId: postV0DataByPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health/{rule-name}\n  method: get\n  operationId: getHealthByRuleName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/policies\n  method: get\n  operationId: getV1Policies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/policies/{id}\n  method: get\n  operationId: getV1PoliciesById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/policies/{id}\n  method: put\n  operationId: putV1PoliciesById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/policies/{id}\n  method: delete\n  operationId: deleteV1PoliciesById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: postRoot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/query\n  method: get\n  operationId: getV1Query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/query\n  method: post\n  operationId: postV1Query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/status\n  method: get\n  operationId: getV1Status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/agentic-access/open-policy-agent-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-policy-agent/agentic-access/open-policy-agent-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - Policies

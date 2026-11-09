@@ -9,31 +9,31 @@ api_specs:
   label: SmartRecruiters Applications API
   slug: smartrecruiters-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-applications-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-applications-api-openapi.yml
 - filename: smartrecruiters-candidates-api-openapi.yml
   format: yaml
   label: SmartRecruiters Candidates API
   slug: smartrecruiters-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-candidates-api-openapi.yml
 - filename: smartrecruiters-jobs-api-openapi.yml
   format: yaml
   label: SmartRecruiters Jobs API
   slug: smartrecruiters-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-jobs-api-openapi.yml
 - filename: smartrecruiters-postings-api-openapi.yml
   format: yaml
   label: SmartRecruiters Postings API
   slug: smartrecruiters-postings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-postings-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-postings-api-openapi.yml
 - filename: smartrecruiters-teams-api-openapi.yml
   format: yaml
   label: SmartRecruiters Teams API
   slug: smartrecruiters-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-teams-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-teams-api-openapi.yml
 consequence_counts:
   read: 12
   write: 7
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smartr
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: post\n  operationId: createJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{jobId}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}\n  method: patch\n  operationId: updateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{jobId}/status\n\
   \  method: put\n  operationId: updateJobStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{jobId}/hiring-team\n  method: get\n  operationId: getJobHiringTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}/candidates\n  method: get\n  operationId: listJobCandidates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companies/{companyIdentifier}/postings\n  method: get\n  operationId: listPostings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/companies/{companyIdentifier}/postings/{postingId}\n  method: get\n  operationId: getPosting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companies/{companyIdentifier}/postings/{postingId}/candidates\n  method: post\n  operationId: submitApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companies/{companyIdentifier}/postings/{postingId}/candidates/{candidateId}/status\n  method: get\n  operationId: getApplicationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/agentic-access/smartrecruiters-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartrecruiters/agentic-access/smartrecruiters-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
 - Human Resources

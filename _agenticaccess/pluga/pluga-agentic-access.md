@@ -9,25 +9,25 @@ api_specs:
   label: Pluga Actions API
   slug: pluga-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluga/refs/heads/main/openapi/pluga-actions-api-openapi.yml
+  url: https://artifacts.apis.io/pluga/openapi/pluga-actions-api-openapi.yml
 - filename: pluga-basicinfo-api-openapi.yml
   format: yaml
   label: Pluga Basic Info API
   slug: pluga-basicinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluga/refs/heads/main/openapi/pluga-basicinfo-api-openapi.yml
+  url: https://artifacts.apis.io/pluga/openapi/pluga-basicinfo-api-openapi.yml
 - filename: pluga-helpers-api-openapi.yml
   format: yaml
   label: Pluga Helpers API
   slug: pluga-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluga/refs/heads/main/openapi/pluga-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/pluga/openapi/pluga-helpers-api-openapi.yml
 - filename: pluga-triggers-api-openapi.yml
   format: yaml
   label: Pluga Triggers API
   slug: pluga-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluga/refs/heads/main/openapi/pluga-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/pluga/openapi/pluga-triggers-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-10-21'\nmethod: generated\nsource: openapi/pluga-
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /actions/{action_id}/manifest.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /actions/{action_id}/fields\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /actions/{action_id}/attributes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /actions/{action_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /triggers/{trigger_id}/manifest.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /triggers/{trigger_id}/attributes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /triggers/{trigger_id}/sample\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /triggers/{trigger_id}/subscribe\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /triggers/{trigger_id}/unsubscribe/{webhook_id}\n\
   \  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pluga/refs/heads/main/agentic-access/pluga-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pluga/agentic-access/pluga-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
 - Company

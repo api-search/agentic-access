@@ -9,55 +9,55 @@ api_specs:
   label: Microsoft Teams Bot Framework API
   slug: microsoft-teams-bot-framework-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/asyncapi/microsoft-teams-asyncapi.yaml
+  url: https://artifacts.apis.io/microsoft-teams/asyncapi/microsoft-teams-asyncapi.yaml
 - filename: microsoft-teams-apps-api-openapi.yml
   format: yaml
   label: Microsoft Teams Apps API
   slug: microsoft-teams-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-apps-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-teams/openapi/microsoft-teams-apps-api-openapi.yml
 - filename: microsoft-teams-calls-api-openapi.yml
   format: yaml
   label: Microsoft Teams Calls API
   slug: microsoft-teams-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-calls-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-teams/openapi/microsoft-teams-calls-api-openapi.yml
 - filename: microsoft-teams-channels-api-openapi.yml
   format: yaml
   label: Microsoft Teams Channels API
   slug: microsoft-teams-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-channels-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-teams/openapi/microsoft-teams-channels-api-openapi.yml
 - filename: microsoft-teams-members-api-openapi.yml
   format: yaml
   label: Microsoft Teams Members API
   slug: microsoft-teams-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-members-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-teams/openapi/microsoft-teams-members-api-openapi.yml
 - filename: microsoft-teams-messages-api-openapi.yml
   format: yaml
   label: Microsoft Teams Messages API
   slug: microsoft-teams-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-messages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-teams/openapi/microsoft-teams-messages-api-openapi.yml
 - filename: microsoft-teams-online-meetings-api-openapi.yml
   format: yaml
   label: Microsoft Teams Online Meetings API
   slug: microsoft-teams-online-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-online-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-teams/openapi/microsoft-teams-online-meetings-api-openapi.yml
 - filename: microsoft-teams-tabs-api-openapi.yml
   format: yaml
   label: Microsoft Teams Tabs API
   slug: microsoft-teams-tabs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-tabs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-teams/openapi/microsoft-teams-tabs-api-openapi.yml
 - filename: microsoft-teams-teams-api-openapi.yml
   format: yaml
   label: Microsoft Teams API
   slug: microsoft-teams-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-teams-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-teams/openapi/microsoft-teams-teams-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 9
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Channel.ReadBasic.All\n    - ChatMessage.Read\n    - Team.ReadBasic.All\n- path: /communications/calls/{call-id}\n  method: get\n  operationId: getCall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Channel.ReadBasic.All\n    - ChatMessage.Read\n    - Team.ReadBasic.All\n- path: /communications/calls/{call-id}\n  method: delete\n  operationId: hangUpCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Channel.ReadBasic.All\n    - ChatMessage.Read\n    - Team.ReadBasic.All\n\
   - path: /communications/calls/{call-id}/answer\n  method: post\n  operationId: answerCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Channel.ReadBasic.All\n    - ChatMessage.Read\n    - Team.ReadBasic.All\n- path: /communications/calls/{call-id}/reject\n  method: post\n  operationId: rejectCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Channel.ReadBasic.All\n    - ChatMessage.Read\n    - Team.ReadBasic.All\n- path: /communications/calls/{call-id}/transfer\n  method: post\n  operationId: transferCall\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Channel.ReadBasic.All\n    - ChatMessage.Read\n    - Team.ReadBasic.All\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/agentic-access/microsoft-teams-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-teams/agentic-access/microsoft-teams-agentic-access.yml
 summary_line: 24 operations · 15 acting
 tags:
 - Microsoft Teams

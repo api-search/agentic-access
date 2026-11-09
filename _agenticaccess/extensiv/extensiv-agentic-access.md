@@ -9,43 +9,43 @@ api_specs:
   label: Extensiv Authentication API
   slug: extensiv-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-authentication-api-openapi.yml
 - filename: extensiv-customers-api-openapi.yml
   format: yaml
   label: Extensiv Customers API
   slug: extensiv-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-customers-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-customers-api-openapi.yml
 - filename: extensiv-inventory-api-openapi.yml
   format: yaml
   label: Extensiv Inventory API
   slug: extensiv-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-inventory-api-openapi.yml
 - filename: extensiv-items-api-openapi.yml
   format: yaml
   label: Extensiv Items API
   slug: extensiv-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-items-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-items-api-openapi.yml
 - filename: extensiv-orders-api-openapi.yml
   format: yaml
   label: Extensiv Orders API
   slug: extensiv-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-orders-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-orders-api-openapi.yml
 - filename: extensiv-receivers-api-openapi.yml
   format: yaml
   label: Extensiv Receivers API
   slug: extensiv-receivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-receivers-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-receivers-api-openapi.yml
 - filename: extensiv-warehouses-api-openapi.yml
   format: yaml
   label: Extensiv Warehouses API
   slug: extensiv-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-warehouses-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/extens
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory/stockSummaries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}/items\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory/receivers\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory/receivers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory/receivers/{receiverId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/agentic-access/extensiv-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/extensiv/agentic-access/extensiv-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - 3PL

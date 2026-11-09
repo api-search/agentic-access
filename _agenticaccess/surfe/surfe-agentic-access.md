@@ -9,25 +9,25 @@ api_specs:
   label: Surfe Account API
   slug: surfe-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-account-api-openapi.yml
+  url: https://artifacts.apis.io/surfe/openapi/surfe-account-api-openapi.yml
 - filename: surfe-companies-api-openapi.yml
   format: yaml
   label: Surfe Companies API
   slug: surfe-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-companies-api-openapi.yml
+  url: https://artifacts.apis.io/surfe/openapi/surfe-companies-api-openapi.yml
 - filename: surfe-people-api-openapi.yml
   format: yaml
   label: Surfe People API
   slug: surfe-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-people-api-openapi.yml
+  url: https://artifacts.apis.io/surfe/openapi/surfe-people-api-openapi.yml
 - filename: surfe-recommendations-api-openapi.yml
   format: yaml
   label: Surfe Recommendations API
   slug: surfe-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/openapi/surfe-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/surfe/openapi/surfe-recommendations-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/surfe-
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/enrich\n  method: post\n  operationId: startCompanyEnrichment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies/enrich/{id}\n  method: get\n  operationId: getCompanyEnrichment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/search\n  method: post\n  operationId: searchPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/enrich\n  method: post\n  operationId: startPeopleEnrichment\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/enrich/{id}\n  method: get\n  operationId: getPeopleEnrichment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/find-by-email\n  method: post\n  operationId: findPeopleByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recommendations/icp\n  method: post\n  operationId: upsertICP\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /recommendations/fetch\n  method: post\n  operationId: fetchRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/agentic-access/surfe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/surfe/agentic-access/surfe-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - B2B Data

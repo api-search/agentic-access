@@ -9,43 +9,43 @@ api_specs:
   label: Terminal 3 DID V1 API
   slug: terminal-3-did-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-did-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-did-v1-api-openapi.yml
 - filename: terminal-3-openid-connect-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 OpenID Connect V1 API
   slug: terminal-3-openid-connect-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-openid-connect-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-openid-connect-v1-api-openapi.yml
 - filename: terminal-3-openid-connect-v2-api-openapi.yml
   format: yaml
   label: Terminal 3 OpenID Connect V2 API
   slug: terminal-3-openid-connect-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-openid-connect-v2-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-openid-connect-v2-api-openapi.yml
 - filename: terminal-3-sub-client-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 Sub Client V1 API
   slug: terminal-3-sub-client-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-sub-client-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-sub-client-v1-api-openapi.yml
 - filename: terminal-3-transactional-email-template-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 Transactional Email Template V1 API
   slug: terminal-3-transactional-email-template-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-transactional-email-template-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-transactional-email-template-v1-api-openapi.yml
 - filename: terminal-3-user-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 User V1 API
   slug: terminal-3-user-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-user-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-user-v1-api-openapi.yml
 - filename: terminal-3-vc-v1-api-openapi.yml
   format: yaml
   label: Terminal 3 VC V1 API
   slug: terminal-3-vc-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/openapi/terminal-3-vc-v1-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-3/openapi/terminal-3-vc-v1-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/termin
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transactional_email_template/send\n  method: post\n  operationId: sendTransactionalEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transactional_email_template/{transactional_email_template_id}\n  method: put\n  operationId: updateTransactionalEmailTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/create\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/{user_id}/social_data\n  method: get\n  operationId: getUserSocialData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/{user_id}/wallet_addresses\n  method: get\n  operationId: getUserWalletAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vc/issuer/credentials\n  method: get\n  operationId: getIssuerCredentials\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vc/issuer/credentials/proof\n  method: post\n  operationId: createIssuerCredentialsProof\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vc/issuer/store\n  method: post\n  operationId: storeIssuerCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/agentic-access/terminal-3-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/terminal-3/agentic-access/terminal-3-agentic-access.yml
 summary_line: 24 operations · 13 acting
 tags:
 - Company

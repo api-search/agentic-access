@@ -9,217 +9,217 @@ api_specs:
   label: Ripple Labs Addresses API
   slug: ripple-labs-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-addresses-api-openapi.yml
 - filename: ripple-labs-api-credentials-api-openapi.yml
   format: yaml
   label: Ripple Labs API Credentials API
   slug: ripple-labs-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-api-credentials-api-openapi.yml
 - filename: ripple-labs-auditing-api-openapi.yml
   format: yaml
   label: Ripple Labs Auditing API
   slug: ripple-labs-auditing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-auditing-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-auditing-api-openapi.yml
 - filename: ripple-labs-authentication-api-openapi.yml
   format: yaml
   label: Ripple Labs Authentication API
   slug: ripple-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-authentication-api-openapi.yml
 - filename: ripple-labs-balances-and-statements-api-openapi.yml
   format: yaml
   label: Ripple Labs Balances and statements API
   slug: ripple-labs-balances-and-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-balances-and-statements-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-balances-and-statements-api-openapi.yml
 - filename: ripple-labs-balances-api-openapi.yml
   format: yaml
   label: Ripple Labs Balances API
   slug: ripple-labs-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-balances-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-balances-api-openapi.yml
 - filename: ripple-labs-beneficiary-confirmation-api-openapi.yml
   format: yaml
   label: Ripple Labs Beneficiary confirmation API
   slug: ripple-labs-beneficiary-confirmation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-beneficiary-confirmation-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-beneficiary-confirmation-api-openapi.yml
 - filename: ripple-labs-counterparties-api-openapi.yml
   format: yaml
   label: Ripple Labs Counterparties API
   slug: ripple-labs-counterparties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-counterparties-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-counterparties-api-openapi.yml
 - filename: ripple-labs-diagnostics-api-openapi.yml
   format: yaml
   label: Ripple Labs Diagnostics API
   slug: ripple-labs-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-diagnostics-api-openapi.yml
 - filename: ripple-labs-exchange-transfers-api-openapi.yml
   format: yaml
   label: Ripple Labs Exchange transfers API
   slug: ripple-labs-exchange-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-exchange-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-exchange-transfers-api-openapi.yml
 - filename: ripple-labs-fees-api-openapi.yml
   format: yaml
   label: Ripple Labs Fees API
   slug: ripple-labs-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-fees-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-fees-api-openapi.yml
 - filename: ripple-labs-liquidations-api-openapi.yml
   format: yaml
   label: Ripple Labs Liquidations API
   slug: ripple-labs-liquidations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-liquidations-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-liquidations-api-openapi.yml
 - filename: ripple-labs-market-cap-api-openapi.yml
   format: yaml
   label: Ripple Labs Market Cap API
   slug: ripple-labs-market-cap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-market-cap-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-market-cap-api-openapi.yml
 - filename: ripple-labs-non-orchestration-payments-api-openapi.yml
   format: yaml
   label: Ripple Labs Non-orchestration payments API
   slug: ripple-labs-non-orchestration-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-non-orchestration-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-non-orchestration-payments-api-openapi.yml
 - filename: ripple-labs-orchestration-payments-api-openapi.yml
   format: yaml
   label: Ripple Labs Orchestration payments API
   slug: ripple-labs-orchestration-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-orchestration-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-orchestration-payments-api-openapi.yml
 - filename: ripple-labs-payment-expiration-api-openapi.yml
   format: yaml
   label: Ripple Labs Payment expiration API
   slug: ripple-labs-payment-expiration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-payment-expiration-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-payment-expiration-api-openapi.yml
 - filename: ripple-labs-payout-method-api-openapi.yml
   format: yaml
   label: Ripple Labs Payout method API
   slug: ripple-labs-payout-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-payout-method-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-payout-method-api-openapi.yml
 - filename: ripple-labs-platform-accounts-api-openapi.yml
   format: yaml
   label: Ripple Labs Platform accounts API
   slug: ripple-labs-platform-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-platform-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-platform-accounts-api-openapi.yml
 - filename: ripple-labs-policies-api-openapi.yml
   format: yaml
   label: Ripple Labs Policies API
   slug: ripple-labs-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-policies-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-policies-api-openapi.yml
 - filename: ripple-labs-pool-accounts-api-openapi.yml
   format: yaml
   label: Ripple Labs Pool accounts API
   slug: ripple-labs-pool-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-pool-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-pool-accounts-api-openapi.yml
 - filename: ripple-labs-quote-expiration-api-openapi.yml
   format: yaml
   label: Ripple Labs Quote expiration API
   slug: ripple-labs-quote-expiration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-quote-expiration-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-quote-expiration-api-openapi.yml
 - filename: ripple-labs-quotes-api-openapi.yml
   format: yaml
   label: Ripple Labs Quotes API
   slug: ripple-labs-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-quotes-api-openapi.yml
 - filename: ripple-labs-rates-api-openapi.yml
   format: yaml
   label: Ripple Labs Rates API
   slug: ripple-labs-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-rates-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-rates-api-openapi.yml
 - filename: ripple-labs-reports-api-openapi.yml
   format: yaml
   label: Ripple Labs Reports API
   slug: ripple-labs-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-reports-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-reports-api-openapi.yml
 - filename: ripple-labs-request-for-payment-api-openapi.yml
   format: yaml
   label: Ripple Labs Request for payment API
   slug: ripple-labs-request-for-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-request-for-payment-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-request-for-payment-api-openapi.yml
 - filename: ripple-labs-sweep-configurations-api-openapi.yml
   format: yaml
   label: Ripple Labs Sweep Configurations API
   slug: ripple-labs-sweep-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-sweep-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-sweep-configurations-api-openapi.yml
 - filename: ripple-labs-tags-api-openapi.yml
   format: yaml
   label: Ripple Labs Tags API
   slug: ripple-labs-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-tags-api-openapi.yml
 - filename: ripple-labs-transactions-api-openapi.yml
   format: yaml
   label: Ripple Labs Transactions API
   slug: ripple-labs-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-transactions-api-openapi.yml
 - filename: ripple-labs-transactions-sweep-api-openapi.yml
   format: yaml
   label: Ripple Labs Transactions - Sweep API
   slug: ripple-labs-transactions-sweep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-transactions-sweep-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-transactions-sweep-api-openapi.yml
 - filename: ripple-labs-transactions-xrp-api-openapi.yml
   format: yaml
   label: Ripple Labs Transactions - XRP API
   slug: ripple-labs-transactions-xrp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-transactions-xrp-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-transactions-xrp-api-openapi.yml
 - filename: ripple-labs-transfers-api-openapi.yml
   format: yaml
   label: Ripple Labs Transfers API
   slug: ripple-labs-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-transfers-api-openapi.yml
 - filename: ripple-labs-vault-tags-api-openapi.yml
   format: yaml
   label: Ripple Labs Vault Tags API
   slug: ripple-labs-vault-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-vault-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-vault-tags-api-openapi.yml
 - filename: ripple-labs-vaults-api-openapi.yml
   format: yaml
   label: Ripple Labs Vaults API
   slug: ripple-labs-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-vaults-api-openapi.yml
 - filename: ripple-labs-wallet-tags-api-openapi.yml
   format: yaml
   label: Ripple Labs Wallet Tags API
   slug: ripple-labs-wallet-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-wallet-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-wallet-tags-api-openapi.yml
 - filename: ripple-labs-wallets-api-openapi.yml
   format: yaml
   label: Ripple Labs Wallets API
   slug: ripple-labs-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-wallets-api-openapi.yml
 - filename: ripple-labs-webhooks-api-openapi.yml
   format: yaml
   label: Ripple Labs Webhooks API
   slug: ripple-labs-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/openapi/ripple-labs-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ripple-labs/openapi/ripple-labs-webhooks-api-openapi.yml
 consequence_counts:
   physical: 42
   read: 105
@@ -404,8 +404,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ripple
   \  method: delete\n  operationId: deletePayoutMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/payout_methods/categories\n  method: get\n  operationId: getAllCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/platforms\n  method: post\n  operationId: createPlatform\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/platforms\n\
   \  method: get\n  operationId: getAllPlatforms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/platforms/{platform_id}\n  method: get\n  operationId: getPlatformByPlatformId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/platforms/{platform_id}\n  method: put\n  operationId: updatePlatform\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/platforms/{platform_id}\n  method: delete\n  operationId: deletePlatformByPlatformId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/platforms/accounts\n  method: post\n  operationId: createPlatformAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/platforms/accounts\n  method: get\n  operationId: getPlatformAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/platforms/accounts/{platform_account_id}\n  method: get\n  operationId: getPlatformAccountByPlatformAccountId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/platforms/accounts/{platform_account_id}\n  method: put\n  operationId: updatePlatformAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/platforms/accounts/{platform_account_id}\n  method: delete\n  operationId: deletePlatformAccountByPlatformAccountId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (62 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/agentic-access/ripple-labs-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/agentic-access/ripple-labs-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/platforms/accounts/{platform_account_id}\n  method: put\n  operationId: updatePlatformAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/platforms/accounts/{platform_account_id}\n  method: delete\n  operationId: deletePlatformAccountByPlatformAccountId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (62 KB total) ---\n# Full source: https://artifacts.apis.io/ripple-labs/agentic-access/ripple-labs-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ripple-labs/agentic-access/ripple-labs-agentic-access.yml
 summary_line: 201 operations · 96 acting
 tags:
 - Company

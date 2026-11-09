@@ -9,43 +9,43 @@ api_specs:
   label: Easyship Addresses API
   slug: easyship-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-addresses-api-openapi.yml
 - filename: easyship-labels-api-openapi.yml
   format: yaml
   label: Easyship Labels API
   slug: easyship-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-labels-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-labels-api-openapi.yml
 - filename: easyship-pickups-api-openapi.yml
   format: yaml
   label: Easyship Pickups API
   slug: easyship-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-pickups-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-pickups-api-openapi.yml
 - filename: easyship-rates-api-openapi.yml
   format: yaml
   label: Easyship Rates API
   slug: easyship-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-rates-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-rates-api-openapi.yml
 - filename: easyship-shipments-api-openapi.yml
   format: yaml
   label: Easyship Shipments API
   slug: easyship-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-shipments-api-openapi.yml
 - filename: easyship-trackings-api-openapi.yml
   format: yaml
   label: Easyship Trackings API
   slug: easyship-trackings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-trackings-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-trackings-api-openapi.yml
 - filename: easyship-webhooks-api-openapi.yml
   format: yaml
   label: Easyship Webhooks API
   slug: easyship-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/openapi/easyship-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/easyship/openapi/easyship-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 9
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/easysh
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/{id}\n  method: delete\n  operationId: deleteShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/{id}/cancel\n  method: post\n  operationId: cancelShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trackings\n  method: post\n  operationId: createTracking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trackings\n  method: get\n  operationId: listTrackings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trackings/{id}\n  method: get\n  operationId: getTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/agentic-access/easyship-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/easyship/agentic-access/easyship-agentic-access.yml
 summary_line: 19 operations · 10 acting
 tags:
 - Shipping

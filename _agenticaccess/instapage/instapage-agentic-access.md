@@ -9,67 +9,67 @@ api_specs:
   label: Instapage Workspaces API
   slug: instapage-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-workspaces-api-openapi.yml
 - filename: instapage-analytics-api-openapi.yml
   format: yaml
   label: Instapage Analytics API
   slug: instapage-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-analytics-api-openapi.yml
 - filename: instapage-assets-api-openapi.yml
   format: yaml
   label: Instapage Assets API
   slug: instapage-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-assets-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-assets-api-openapi.yml
 - filename: instapage-collections-api-openapi.yml
   format: yaml
   label: Instapage Collections API
   slug: instapage-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-collections-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-collections-api-openapi.yml
 - filename: instapage-domains-api-openapi.yml
   format: yaml
   label: Instapage Domains API
   slug: instapage-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-domains-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-domains-api-openapi.yml
 - filename: instapage-experiments-api-openapi.yml
   format: yaml
   label: Instapage Experiments API
   slug: instapage-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-experiments-api-openapi.yml
 - filename: instapage-form-submissions-api-openapi.yml
   format: yaml
   label: Instapage Form Submissions API
   slug: instapage-form-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-form-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-form-submissions-api-openapi.yml
 - filename: instapage-groups-api-openapi.yml
   format: yaml
   label: Instapage Groups API
   slug: instapage-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-groups-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-groups-api-openapi.yml
 - filename: instapage-pages-api-openapi.yml
   format: yaml
   label: Instapage Pages API
   slug: instapage-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-pages-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-pages-api-openapi.yml
 - filename: instapage-personalizations-api-openapi.yml
   format: yaml
   label: Instapage Personalizations API
   slug: instapage-personalizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-personalizations-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-personalizations-api-openapi.yml
 - filename: instapage-team-members-api-openapi.yml
   format: yaml
   label: Instapage Team Members API
   slug: instapage-team-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-team-members-api-openapi.yml
+  url: https://artifacts.apis.io/instapage/openapi/instapage-team-members-api-openapi.yml
 consequence_counts:
   read: 18
   write: 21
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/instap
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/team-members\n  method: put\n  operationId: updateTeamMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/team-members\n  method: delete\n  operationId: removeTeamMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}\n  method: patch\n  operationId: renameWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /workspaces/{workspaceId}\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/agentic-access/instapage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instapage/agentic-access/instapage-agentic-access.yml
 summary_line: 39 operations · 21 acting
 tags:
 - Landing Pages

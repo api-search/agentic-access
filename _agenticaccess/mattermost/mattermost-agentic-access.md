@@ -15,25 +15,25 @@ api_specs:
   label: Mattermost Channels API
   slug: mattermost-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-channels-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-channels-api-openapi.yml
 - filename: mattermost-posts-api-openapi.yml
   format: yaml
   label: Mattermost Posts API
   slug: mattermost-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-posts-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-posts-api-openapi.yml
 - filename: mattermost-teams-api-openapi.yml
   format: yaml
   label: Mattermost Teams API
   slug: mattermost-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-teams-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-teams-api-openapi.yml
 - filename: mattermost-users-api-openapi.yml
   format: yaml
   label: Mattermost Users API
   slug: mattermost-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/openapi/mattermost-users-api-openapi.yml
+  url: https://artifacts.apis.io/mattermost/openapi/mattermost-users-api-openapi.yml
 consequence_counts:
   read: 17
   write: 26
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/matter
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: postUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}\n  method: get\n  operationId: getUsersByUserId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: put\n  operationId: putUsersByUserId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}\n  method: delete\n  operationId: deleteUsersByUserId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/patch\n  method: put\n  operationId: putUsersByUserIdPatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/search\n  method: post\n  operationId: postUsersSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/autocomplete\n  method: get\n  operationId: getUsersAutocomplete\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}/sessions\n  method: get\n  operationId: getUsersByUserIdSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/agentic-access/mattermost-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mattermost/agentic-access/mattermost-agentic-access.yml
 summary_line: 43 operations · 26 acting
 tags:
 - Messaging

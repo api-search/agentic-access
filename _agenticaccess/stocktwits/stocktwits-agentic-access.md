@@ -9,55 +9,55 @@ api_specs:
   label: StockTwits Account API
   slug: stocktwits-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-account-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-account-api-openapi.yml
 - filename: stocktwits-deletions-api-openapi.yml
   format: yaml
   label: StockTwits Deletions API
   slug: stocktwits-deletions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-deletions-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-deletions-api-openapi.yml
 - filename: stocktwits-friendships-api-openapi.yml
   format: yaml
   label: StockTwits Friendships API
   slug: stocktwits-friendships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-friendships-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-friendships-api-openapi.yml
 - filename: stocktwits-graph-social-api-openapi.yml
   format: yaml
   label: StockTwits Graph (Social) API
   slug: stocktwits-graph-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-graph-social-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-graph-social-api-openapi.yml
 - filename: stocktwits-messages-api-openapi.yml
   format: yaml
   label: StockTwits Messages API
   slug: stocktwits-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-messages-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-messages-api-openapi.yml
 - filename: stocktwits-search-api-openapi.yml
   format: yaml
   label: StockTwits Search API
   slug: stocktwits-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-search-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-search-api-openapi.yml
 - filename: stocktwits-streams-api-openapi.yml
   format: yaml
   label: StockTwits Streams API
   slug: stocktwits-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-streams-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-streams-api-openapi.yml
 - filename: stocktwits-trending-api-openapi.yml
   format: yaml
   label: StockTwits Trending API
   slug: stocktwits-trending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-trending-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-trending-api-openapi.yml
 - filename: stocktwits-watchlists-api-openapi.yml
   format: yaml
   label: StockTwits Watchlists API
   slug: stocktwits-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-watchlists-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 20
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/stockt
   \      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/destroy/{watchlist_id}.json\n  method: post\n  operationId: deleteWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - watchlists\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/{watchlist_id}/symbols/create.json\n  method: post\n  operationId: addSymbolToWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - watchlists\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/{watchlist_id}/symbols/destroy.json\n  method: post\n  operationId: removeSymbolFromWatchlist\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - watchlists\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/show/{watchlist_id}.json\n  method: get\n  operationId: getWatchlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - watchlists\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/verify.json\n  method: get\n  operationId: verifyAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/update.json\n  method: post\n  operationId: updateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - publish_messages\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deletions/messages.json\n  method: get\n  operationId: getDeletedMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deletions/users.json\n  method: get\n  operationId: getDeletedUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/agentic-access/stocktwits-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stocktwits/agentic-access/stocktwits-agentic-access.yml
 summary_line: 31 operations · 11 acting
 tags:
 - Company

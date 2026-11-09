@@ -9,37 +9,37 @@ api_specs:
   label: Donately Accounts API
   slug: donately-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-accounts-api-openapi.yml
 - filename: donately-campaigns-api-openapi.yml
   format: yaml
   label: Donately Campaigns API
   slug: donately-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-campaigns-api-openapi.yml
 - filename: donately-donations-api-openapi.yml
   format: yaml
   label: Donately Donations API
   slug: donately-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-donations-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-donations-api-openapi.yml
 - filename: donately-fundraisers-api-openapi.yml
   format: yaml
   label: Donately Fundraisers API
   slug: donately-fundraisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-fundraisers-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-fundraisers-api-openapi.yml
 - filename: donately-people-api-openapi.yml
   format: yaml
   label: Donately People API
   slug: donately-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-people-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-people-api-openapi.yml
 - filename: donately-subscriptions-api-openapi.yml
   format: yaml
   label: Donately Subscriptions API
   slug: donately-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/donate
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{id}\n  method: delete\n  operationId: cancelSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people\n  method: get\n  operationId: listPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people\n  method: post\n  operationId: createPerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/{id}\n  method: get\n  operationId:\
   \ getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{id}\n  method: patch\n  operationId: updatePerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fundraisers\n  method: get\n  operationId: listFundraisers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fundraisers\n  method: post\n  operationId: createFundraiser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /fundraisers/{id}\n  method: get\n  operationId: getFundraiser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fundraisers/{id}\n  method: patch\n  operationId: updateFundraiser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/agentic-access/donately-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/donately/agentic-access/donately-agentic-access.yml
 summary_line: 22 operations · 10 acting
 tags:
 - Fundraising

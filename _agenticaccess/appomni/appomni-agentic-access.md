@@ -9,109 +9,109 @@ api_specs:
   label: AppOmni Policies API
   slug: appomni-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-policies-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-policies-api-openapi.yml
 - filename: appomni-monitored-services-api-openapi.yml
   format: yaml
   label: AppOmni Monitored Services API
   slug: appomni-monitored-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-monitored-services-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-monitored-services-api-openapi.yml
 - filename: appomni-identity-api-openapi.yml
   format: yaml
   label: AppOmni Identity and Access API
   slug: appomni-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-identity-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-identity-api-openapi.yml
 - filename: appomni-agentguard-api-openapi.yml
   format: yaml
   label: AppOmni Agent Guard API
   slug: appomni-agentguard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-agentguard-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-agentguard-api-openapi.yml
 - filename: appomni-ao-developer-platform-api-openapi.yml
   format: yaml
   label: AppOmni AO Developer Platform API
   slug: appomni-ao-developer-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-ao-developer-platform-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-ao-developer-platform-api-openapi.yml
 - filename: appomni-audit-logs-api-openapi.yml
   format: yaml
   label: AppOmni Audit Logs API
   slug: appomni-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-audit-logs-api-openapi.yml
 - filename: appomni-authorization-tokens-api-openapi.yml
   format: yaml
   label: AppOmni Authorization Tokens API
   slug: appomni-authorization-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-authorization-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-authorization-tokens-api-openapi.yml
 - filename: appomni-beta-policy-assessment-stats-api-openapi.yml
   format: yaml
   label: AppOmni [Beta] Policy Assessment Stats API
   slug: appomni-beta-policy-assessment-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-beta-policy-assessment-stats-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-beta-policy-assessment-stats-api-openapi.yml
 - filename: appomni-custom-field-values-for-a-monitored-service-api-openapi.yml
   format: yaml
   label: AppOmni Custom Field Values for a Monitored Service API
   slug: appomni-custom-field-values-for-a-monitored-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-custom-field-values-for-a-monitored-service-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-custom-field-values-for-a-monitored-service-api-openapi.yml
 - filename: appomni-custom-fields-api-openapi.yml
   format: yaml
   label: AppOmni Custom Fields API
   slug: appomni-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-custom-fields-api-openapi.yml
 - filename: appomni-discovery-api-openapi.yml
   format: yaml
   label: AppOmni Discovery API
   slug: appomni-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-discovery-api-openapi.yml
 - filename: appomni-insights-api-openapi.yml
   format: yaml
   label: AppOmni Insights API
   slug: appomni-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-insights-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-insights-api-openapi.yml
 - filename: appomni-marlin-ai-api-openapi.yml
   format: yaml
   label: AppOmni Marlin AI API
   slug: appomni-marlin-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-marlin-ai-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-marlin-ai-api-openapi.yml
 - filename: appomni-posture-findings-api-openapi.yml
   format: yaml
   label: AppOmni Posture Findings API
   slug: appomni-posture-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-posture-findings-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-posture-findings-api-openapi.yml
 - filename: appomni-reports-api-openapi.yml
   format: yaml
   label: AppOmni Reports API
   slug: appomni-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-reports-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-reports-api-openapi.yml
 - filename: appomni-scim-user-management-api-openapi.yml
   format: yaml
   label: AppOmni SCIM User Management API
   slug: appomni-scim-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-scim-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-scim-user-management-api-openapi.yml
 - filename: appomni-users-and-roles-api-openapi.yml
   format: yaml
   label: AppOmni Users and Roles API
   slug: appomni-users-and-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-users-and-roles-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-users-and-roles-api-openapi.yml
 - filename: appomni-valuelist-api-openapi.yml
   format: yaml
   label: AppOmni Value List API
   slug: appomni-valuelist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-valuelist-api-openapi.yml
+  url: https://artifacts.apis.io/appomni/openapi/appomni-valuelist-api-openapi.yml
 consequence_counts:
   read: 70
   safety-critical: 4
@@ -194,8 +194,8 @@ source_yaml: "generated: '2026-09-04'\nmethod: generated\nsource: openapi/appomn
   \  operationId: listValueListElements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/core/valuelistelement/\n  method: post\n  operationId: createValueListElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/core/policy/\n  method: get\n  operationId: retrievePosturePolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/core/policy/{id}/\n  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /api/v1/core/policy/{id}/\n  method: patch\n  operationId: assignTargetTagsToPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/core/policy/{id}/scan/\n  method: post\n  operationId: startPolicyScan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/core/policyassessment/check_status/\n  method: get\n  operationId: checkPolicyScanStatusAndResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v1/core/ruleevent/\n  method: get\n  operationId: listOpenPolicyIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/compliance/evaluated_controls/\n  method: get\n  operationId: listComplianceControlsForPolicyRule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/{service_type}/rule/\n  method: get\n  operationId: retrieveSelectedPosturePolicyRuleOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/{policy_type}/rule/\n  method: get\n  operationId: retrieveRulesForPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /api/v1/{service_type}/rule/{rule_id}/\n  method: patch\n  operationId: updatePolicyRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/core/tag/\n  method: get\n  operationId: retrieveImpactTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/{service_type}/ruleevent/{id}/list_instances/\n  method: get\n  operationId: listOpenPolicyViolations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/agentic-access/appomni-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/agentic-access/appomni-agentic-access.yml
+  \ 3600\n    audit: none\n- path: /api/v1/{service_type}/rule/{rule_id}/\n  method: patch\n  operationId: updatePolicyRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/core/tag/\n  method: get\n  operationId: retrieveImpactTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/{service_type}/ruleevent/{id}/list_instances/\n  method: get\n  operationId: listOpenPolicyViolations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/appomni/agentic-access/appomni-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/appomni/agentic-access/appomni-agentic-access.yml
 summary_line: 132 operations · 62 acting · 4 human-in-the-loop
 tags:
 - SaaS Security

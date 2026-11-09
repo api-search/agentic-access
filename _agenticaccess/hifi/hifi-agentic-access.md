@@ -9,91 +9,115 @@ api_specs:
   label: Hifi Account API
   slug: hifi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-account-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-account-api-openapi.yml
 - filename: hifi-common-api-openapi.yml
   format: yaml
   label: Hifi Common API
   slug: hifi-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-common-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-common-api-openapi.yml
 - filename: hifi-cross-chain-bridge-api-openapi.yml
   format: yaml
   label: Hifi Cross-Chain Bridge API
   slug: hifi-cross-chain-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-cross-chain-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-cross-chain-bridge-api-openapi.yml
 - filename: hifi-crypto-transfer-api-openapi.yml
   format: yaml
   label: Hifi Crypto Transfer API
   slug: hifi-crypto-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-crypto-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-crypto-transfer-api-openapi.yml
 - filename: hifi-file-api-openapi.yml
   format: yaml
   label: Hifi File API
   slug: hifi-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-file-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-file-api-openapi.yml
 - filename: hifi-kyc-api-openapi.yml
   format: yaml
   label: Hifi Kyc API
   slug: hifi-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-kyc-api-openapi.yml
 - filename: hifi-offramp-api-openapi.yml
   format: yaml
   label: Hifi Offramp API
   slug: hifi-offramp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-offramp-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-offramp-api-openapi.yml
 - filename: hifi-onramp-api-openapi.yml
   format: yaml
   label: Hifi Onramp API
   slug: hifi-onramp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-onramp-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-onramp-api-openapi.yml
 - filename: hifi-reporting-api-openapi.yml
   format: yaml
   label: Hifi Reporting API
   slug: hifi-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-reporting-api-openapi.yml
 - filename: hifi-settlement-rules-api-openapi.yml
   format: yaml
   label: Hifi Settlement Rules API
   slug: hifi-settlement-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-settlement-rules-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-settlement-rules-api-openapi.yml
 - filename: hifi-token-swap-api-openapi.yml
   format: yaml
   label: Hifi Token Swap API
   slug: hifi-token-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-token-swap-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-token-swap-api-openapi.yml
 - filename: hifi-transfer-approvals-api-openapi.yml
   format: yaml
   label: Hifi Transfer Approvals API
   slug: hifi-transfer-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-transfer-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-transfer-approvals-api-openapi.yml
 - filename: hifi-user-api-openapi.yml
   format: yaml
   label: Hifi User API
   slug: hifi-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-user-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-user-api-openapi.yml
 - filename: hifi-virtual-account-api-openapi.yml
   format: yaml
   label: Hifi Virtual Account API
   slug: hifi-virtual-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-virtual-account-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-virtual-account-api-openapi.yml
 - filename: hifi-wallet-api-openapi.yml
   format: yaml
   label: Hifi Wallet API
   slug: hifi-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/openapi/hifi-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/hifi/openapi/hifi-wallet-api-openapi.yml
+- filename: hifi-canton-offers-api-openapi.yml
+  format: yaml
+  label: Hifi Canton Offers API
+  slug: hifi-canton-offers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hifi/openapi/hifi-canton-offers-api-openapi.yml
+- filename: hifi-external-account-api-openapi.yml
+  format: yaml
+  label: Hifi External Account API
+  slug: hifi-external-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hifi/openapi/hifi-external-account-api-openapi.yml
+- filename: hifi-orchestration-address-api-openapi.yml
+  format: yaml
+  label: Hifi Orchestration Address API
+  slug: hifi-orchestration-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hifi/openapi/hifi-orchestration-address-api-openapi.yml
+- filename: hifi-rfi-api-openapi.yml
+  format: yaml
+  label: Hifi RFI API
+  slug: hifi-rfi-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hifi/openapi/hifi-rfi-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 45
@@ -190,7 +214,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/hifi-o
   \    audit: none\n- path: /v2/users/{userId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/{userId}/wallets/balance\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{userId}/wallets/add\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/{userId}/wallets/external\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{userId}/wallets/external\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/{userId}/wallets/external/{externalWalletId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{userId}/wallets/deposits\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{userId}/wallets/deposits/{depositId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/agentic-access/hifi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hifi/agentic-access/hifi-agentic-access.yml
 summary_line: 87 operations · 42 acting
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Cronofy Availability API
   slug: cronofy-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-availability-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-availability-api-openapi.yml
 - filename: cronofy-calendars-api-openapi.yml
   format: yaml
   label: Cronofy Calendars API
   slug: cronofy-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-calendars-api-openapi.yml
 - filename: cronofy-events-api-openapi.yml
   format: yaml
   label: Cronofy Events API
   slug: cronofy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-events-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-events-api-openapi.yml
 - filename: cronofy-push-notifications-api-openapi.yml
   format: yaml
   label: Cronofy Push Notifications API
   slug: cronofy-push-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-push-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-push-notifications-api-openapi.yml
 - filename: cronofy-smart-invites-api-openapi.yml
   format: yaml
   label: Cronofy Smart Invites API
   slug: cronofy-smart-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/openapi/cronofy-smart-invites-api-openapi.yml
+  url: https://artifacts.apis.io/cronofy/openapi/cronofy-smart-invites-api-openapi.yml
 consequence_counts:
   read: 6
   write: 10
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cronof
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /real_time_scheduling\n  method: post\n  operationId: realTimeScheduling\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /real_time_sequencing\n  method: post\n  operationId: realTimeSequencing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smart_invites\n  method: post\n  operationId: upsertSmartInvite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smart_invites\n  method: get\n  operationId: getSmartInvite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels\n  method: post\n  operationId: createChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels\n  method: get\n  operationId: listChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{channel_id}\n  method:\
   \ delete\n  operationId: closeChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/agentic-access/cronofy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cronofy/agentic-access/cronofy-agentic-access.yml
 summary_line: 16 operations · 10 acting
 tags:
 - Scheduling

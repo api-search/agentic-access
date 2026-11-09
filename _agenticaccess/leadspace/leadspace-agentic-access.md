@@ -9,31 +9,31 @@ api_specs:
   label: Leadspace Authorization API
   slug: leadspace-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-authorization-api-openapi.yml
 - filename: leadspace-discovery-api-openapi.yml
   format: yaml
   label: Leadspace Discovery API
   slug: leadspace-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-discovery-api-openapi.yml
 - filename: leadspace-enrichment-api-openapi.yml
   format: yaml
   label: Leadspace Enrichment API
   slug: leadspace-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-enrichment-api-openapi.yml
 - filename: leadspace-intent-api-openapi.yml
   format: yaml
   label: Leadspace Intent API
   slug: leadspace-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-intent-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-intent-api-openapi.yml
 - filename: leadspace-results-api-openapi.yml
   format: yaml
   label: Leadspace Results API
   slug: leadspace-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-results-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-results-api-openapi.yml
 consequence_counts:
   read: 3
   write: 6
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/leadsp
   \  method: get\n  operationId: getDiscoveryResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/authorize\n  method: post\n  operationId: createAuthorizationToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/authorize\n  method: put\n  operationId: refreshAuthorizationToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /enrichment/enrich/single\n  method: post\n  operationId: enrichSingleRecord\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /enrichment/enrich/bulk\n  method: post\n  operationId: enrichBulkRecords\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/enrichment/results/{bulkId}\n  method: get\n  operationId: getBulkEnrichmentResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/intent/score/\n  method: post\n  operationId: scoreCompanyIntent\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/intent/results/{jobId}\n  method: get\n  operationId: getIntentResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/agentic-access/leadspace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/leadspace/agentic-access/leadspace-agentic-access.yml
 summary_line: 9 operations · 6 acting
 tags:
 - MCP

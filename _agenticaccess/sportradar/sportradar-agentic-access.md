@@ -8,61 +8,61 @@ api_specs:
   label: Sportradar Competitors API
   slug: sportradar-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-competitors-api-openapi.yml
 - filename: sportradar-nba-push-api-openapi.yml
   format: yaml
   label: Sportradar NBA Push API
   slug: sportradar-nba-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-nba-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-nba-push-api-openapi.yml
 - filename: sportradar-nfl-push-api-openapi.yml
   format: yaml
   label: Sportradar NFL Push API
   slug: sportradar-nfl-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-nfl-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-nfl-push-api-openapi.yml
 - filename: sportradar-nhl-push-api-openapi.yml
   format: yaml
   label: Sportradar NHL Push API
   slug: sportradar-nhl-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-nhl-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-nhl-push-api-openapi.yml
 - filename: sportradar-schedules-api-openapi.yml
   format: yaml
   label: Sportradar Schedules API
   slug: sportradar-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-schedules-api-openapi.yml
 - filename: sportradar-scores-api-openapi.yml
   format: yaml
   label: Sportradar Scores API
   slug: sportradar-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-scores-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-scores-api-openapi.yml
 - filename: sportradar-soccer-push-api-openapi.yml
   format: yaml
   label: Sportradar Soccer Push API
   slug: sportradar-soccer-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-soccer-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-soccer-push-api-openapi.yml
 - filename: sportradar-standings-api-openapi.yml
   format: yaml
   label: Sportradar Standings API
   slug: sportradar-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-standings-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-standings-api-openapi.yml
 - filename: sportradar-statistics-api-openapi.yml
   format: yaml
   label: Sportradar Statistics API
   slug: sportradar-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-statistics-api-openapi.yml
 - filename: sportradar-wnba-push-api-openapi.yml
   format: yaml
   label: Sportradar WNBA Push API
   slug: sportradar-wnba-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/openapi/sportradar-wnba-push-api-openapi.yml
+  url: https://artifacts.apis.io/sportradar/openapi/sportradar-wnba-push-api-openapi.yml
 consequence_counts:
   read: 25
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sportr
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /soccer/{access_level}/{version}/stream/statistics/subscribe\n  method: get\n  operationId: subscribeSoccerPushStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nba/trial/v8/en/games/{game_id}/summary.json\n  method: get\n  operationId: getNbaGameSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nba/trial/v8/en/games/{date}/schedule.json\n  method: get\n  operationId: getNbaDailySchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nba/trial/v8/en/seasons/{season_year}/REG/standings.json\n  method:\
   \ get\n  operationId: getNbaStandings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /soccer-t3/trial/v4/en/competitions/{competition_id}/info.json\n  method: get\n  operationId: getSoccerCompetitionInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /soccer-t3/trial/v4/en/sport_events/{sport_event_id}/summary.json\n  method: get\n  operationId: getSoccerMatchSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nfl/trial/v7/en/games/{game_id}/summary.json\n  method: get\n  operationId: getNflGameSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nba/trial/v8/en/players/{player_id}/profile.json\n\
   \  method: get\n  operationId: getNbaPlayerProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/agentic-access/sportradar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sportradar/agentic-access/sportradar-agentic-access.yml
 summary_line: 25 operations
 tags:
 - Data

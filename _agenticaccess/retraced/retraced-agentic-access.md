@@ -9,103 +9,103 @@ api_specs:
   label: Retraced Certificates API
   slug: retraced-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-certificates-api-openapi.yml
 - filename: retraced-companies-api-openapi.yml
   format: yaml
   label: Retraced Companies API
   slug: retraced-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-companies-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-companies-api-openapi.yml
 - filename: retraced-files-api-openapi.yml
   format: yaml
   label: Retraced Files API
   slug: retraced-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-files-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-files-api-openapi.yml
 - filename: retraced-guides-api-openapi.yml
   format: yaml
   label: Retraced Guides API
   slug: retraced-guides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-guides-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-guides-api-openapi.yml
 - filename: retraced-order-hub-attachment-templates-api-openapi.yml
   format: yaml
   label: Retraced Order Hub / Attachment Templates API
   slug: retraced-order-hub-attachment-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-order-hub-attachment-templates-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-order-hub-attachment-templates-api-openapi.yml
 - filename: retraced-order-hub-order-lines-api-openapi.yml
   format: yaml
   label: Retraced Order Hub / Order Lines API
   slug: retraced-order-hub-order-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-order-hub-order-lines-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-order-hub-order-lines-api-openapi.yml
 - filename: retraced-order-hub-orders-api-openapi.yml
   format: yaml
   label: Retraced Order Hub / Orders API
   slug: retraced-order-hub-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-order-hub-orders-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-order-hub-orders-api-openapi.yml
 - filename: retraced-product-bom-headers-api-openapi.yml
   format: yaml
   label: Retraced Product / BOM Headers API
   slug: retraced-product-bom-headers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-product-bom-headers-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-product-bom-headers-api-openapi.yml
 - filename: retraced-product-bom-lines-api-openapi.yml
   format: yaml
   label: Retraced Product / BOM Lines API
   slug: retraced-product-bom-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-product-bom-lines-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-product-bom-lines-api-openapi.yml
 - filename: retraced-product-bom-placements-api-openapi.yml
   format: yaml
   label: Retraced Product / BOM Placements API
   slug: retraced-product-bom-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-product-bom-placements-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-product-bom-placements-api-openapi.yml
 - filename: retraced-product-material-headers-api-openapi.yml
   format: yaml
   label: Retraced Product / Material Headers API
   slug: retraced-product-material-headers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-product-material-headers-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-product-material-headers-api-openapi.yml
 - filename: retraced-product-material-lines-api-openapi.yml
   format: yaml
   label: Retraced Product / Material Lines API
   slug: retraced-product-material-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-product-material-lines-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-product-material-lines-api-openapi.yml
 - filename: retraced-product-style-properties-api-openapi.yml
   format: yaml
   label: Retraced Product / Style Properties API
   slug: retraced-product-style-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-product-style-properties-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-product-style-properties-api-openapi.yml
 - filename: retraced-product-style-types-api-openapi.yml
   format: yaml
   label: Retraced Product / Style Types API
   slug: retraced-product-style-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-product-style-types-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-product-style-types-api-openapi.yml
 - filename: retraced-product-styles-api-openapi.yml
   format: yaml
   label: Retraced Product / Styles API
   slug: retraced-product-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-product-styles-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-product-styles-api-openapi.yml
 - filename: retraced-product-supply-chains-api-openapi.yml
   format: yaml
   label: Retraced Product / Supply Chains API
   slug: retraced-product-supply-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-product-supply-chains-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-product-supply-chains-api-openapi.yml
 - filename: retraced-release-notes-api-openapi.yml
   format: yaml
   label: Retraced Release Notes API
   slug: retraced-release-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/retraced-release-notes-api-openapi.yml
+  url: https://artifacts.apis.io/retraced/openapi/retraced-release-notes-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 32
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/retrac
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/order-lines/{lineId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/guides\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/release-notes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/guides/products\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/guides/lca-provider\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/guides/dpp-label-provider\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/guides/bom\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/guides/materials\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/guides/file-upload\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/guides/order-hub\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/agentic-access/retraced-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/retraced/agentic-access/retraced-agentic-access.yml
 summary_line: 54 operations · 22 acting
 tags:
 - Company

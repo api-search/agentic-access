@@ -9,31 +9,31 @@ api_specs:
   label: Disqus Categories API
   slug: disqus-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-categories-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-categories-api-openapi.yml
 - filename: disqus-forums-api-openapi.yml
   format: yaml
   label: Disqus Forums API
   slug: disqus-forums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-forums-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-forums-api-openapi.yml
 - filename: disqus-posts-api-openapi.yml
   format: yaml
   label: Disqus Posts API
   slug: disqus-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-posts-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-posts-api-openapi.yml
 - filename: disqus-threads-api-openapi.yml
   format: yaml
   label: Disqus Threads API
   slug: disqus-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-threads-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-threads-api-openapi.yml
 - filename: disqus-users-api-openapi.yml
   format: yaml
   label: Disqus Users API
   slug: disqus-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-users-api-openapi.yml
+  url: https://artifacts.apis.io/disqus/openapi/disqus-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 13
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/disqus
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /posts/list.json\n  method: get\n  operationId: postsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /posts/approve.json\n  method: post\n  operationId: postsApprove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /posts/remove.json\n  method: post\n  operationId: postsRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /posts/vote.json\n  method: post\n  operationId: postsVote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/details.json\n  method: get\n  operationId: usersDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/follow.json\n  method: post\n  operationId: usersFollow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/unfollow.json\n\
   \  method: post\n  operationId: usersUnfollow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /categories/list.json\n  method: get\n  operationId: categoriesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories/details.json\n  method: get\n  operationId: categoriesDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/agentic-access/disqus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/disqus/agentic-access/disqus-agentic-access.yml
 summary_line: 25 operations · 13 acting
 tags:
 - Comments

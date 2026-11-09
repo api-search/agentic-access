@@ -9,25 +9,25 @@ api_specs:
   label: Statable Stats API Bootstrap API
   slug: statable-stats-api-bootstrap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-bootstrap-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-bootstrap-api-openapi.yml
 - filename: statable-stats-api-keys-api-openapi.yml
   format: yaml
   label: Statable Stats API Keys API
   slug: statable-stats-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-keys-api-openapi.yml
 - filename: statable-stats-api-sites-api-openapi.yml
   format: yaml
   label: Statable Stats API Sites API
   slug: statable-stats-api-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-sites-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-sites-api-openapi.yml
 - filename: statable-stats-api-stats-api-openapi.yml
   format: yaml
   label: Statable Stats API Stats API
   slug: statable-stats-api-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/openapi/statable-stats-api-stats-api-openapi.yml
+  url: https://artifacts.apis.io/statable-stats-api/openapi/statable-stats-api-stats-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 15
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/statab
   \ getPublicDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{id}/settings/public-dashboard\n  method: put\n  operationId: setPublicDashboard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys\n  method: get\n  operationId: listApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keys\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{id}\n  method: delete\n  operationId: revokeApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /keys/{id}/rotate\n  method: post\n  operationId: rotateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{id}/events\n  method: get\n  operationId: listApiKeyEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statable-stats-api/refs/heads/main/agentic-access/statable-stats-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/statable-stats-api/agentic-access/statable-stats-api-agentic-access.yml
 summary_line: 35 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Analytics
@@ -90,6 +90,6 @@ tags:
 - GDPR
 - OpenAPI
 - MCP
-- llms-txt
+- Llms.txt
 - EU-hosted
 ---

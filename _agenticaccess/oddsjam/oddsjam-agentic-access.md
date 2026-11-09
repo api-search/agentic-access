@@ -9,73 +9,73 @@ api_specs:
   label: OddsJam Fixtures API
   slug: oddsjam-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-fixtures-api-openapi.yml
 - filename: oddsjam-futures-api-openapi.yml
   format: yaml
   label: OddsJam Futures API
   slug: oddsjam-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-futures-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-futures-api-openapi.yml
 - filename: oddsjam-grader-api-openapi.yml
   format: yaml
   label: OddsJam Grader API
   slug: oddsjam-grader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-grader-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-grader-api-openapi.yml
 - filename: oddsjam-injuries-api-openapi.yml
   format: yaml
   label: OddsJam Injuries API
   slug: oddsjam-injuries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-injuries-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-injuries-api-openapi.yml
 - filename: oddsjam-leagues-api-openapi.yml
   format: yaml
   label: OddsJam Leagues API
   slug: oddsjam-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-leagues-api-openapi.yml
 - filename: oddsjam-markets-api-openapi.yml
   format: yaml
   label: OddsJam Markets API
   slug: oddsjam-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-markets-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-markets-api-openapi.yml
 - filename: oddsjam-players-api-openapi.yml
   format: yaml
   label: OddsJam Players API
   slug: oddsjam-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-players-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-players-api-openapi.yml
 - filename: oddsjam-sports-api-openapi.yml
   format: yaml
   label: OddsJam Sports API
   slug: oddsjam-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-sports-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-sports-api-openapi.yml
 - filename: oddsjam-sportsbooks-api-openapi.yml
   format: yaml
   label: OddsJam Sportsbooks API
   slug: oddsjam-sportsbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-sportsbooks-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-sportsbooks-api-openapi.yml
 - filename: oddsjam-streaming-api-openapi.yml
   format: yaml
   label: OddsJam Streaming API
   slug: oddsjam-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-streaming-api-openapi.yml
 - filename: oddsjam-teams-api-openapi.yml
   format: yaml
   label: OddsJam Teams API
   slug: oddsjam-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-teams-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-teams-api-openapi.yml
 - filename: oddsjam-tournaments-api-openapi.yml
   format: yaml
   label: OddsJam Tournaments API
   slug: oddsjam-tournaments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/openapi/oddsjam-tournaments-api-openapi.yml
+  url: https://artifacts.apis.io/oddsjam/openapi/oddsjam-tournaments-api-openapi.yml
 consequence_counts:
   read: 35
   safety-critical: 1
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oddsja
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /futures\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /futures/odds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grader/futures\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grader/odds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parlay/odds\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /injuries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /injuries/predictions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stream/odds/{sport}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stream/results/{sport}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stream/copilot/{sport}/odds\n  method: get\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/agentic-access/oddsjam-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oddsjam/agentic-access/oddsjam-agentic-access.yml
 summary_line: 38 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Odds

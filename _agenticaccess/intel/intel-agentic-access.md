@@ -9,25 +9,25 @@ api_specs:
   label: intel Attestation API
   slug: intel-attestation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-attestation-api-openapi.yml
+  url: https://artifacts.apis.io/intel/openapi/intel-attestation-api-openapi.yml
 - filename: intel-policies-api-openapi.yml
   format: yaml
   label: intel Policies API
   slug: intel-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-policies-api-openapi.yml
+  url: https://artifacts.apis.io/intel/openapi/intel-policies-api-openapi.yml
 - filename: intel-tokens-api-openapi.yml
   format: yaml
   label: intel Tokens API
   slug: intel-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/intel/openapi/intel-tokens-api-openapi.yml
 - filename: intel-tools-api-openapi.yml
   format: yaml
   label: intel Tools API
   slug: intel-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/openapi/intel-tools-api-openapi.yml
+  url: https://artifacts.apis.io/intel/openapi/intel-tools-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/intel-oneapi-openapi.yml, openapi/intel-trust-authority-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /tools\n  method: get\n  operationId: getTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /toolkits\n  method: get\n  operationId: getToolkits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /attest\n\
   \  method: post\n  operationId: createAttestation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/{tokenId}\n  method: get\n  operationId: getAttestationToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies\n  method: get\n  operationId: getPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/agentic-access/intel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/intel/agentic-access/intel-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Fortune 100

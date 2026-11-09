@@ -8,13 +8,13 @@ api_specs:
   label: Google Search Ads 360 Reporting Customers API
   slug: google-search-ads-360-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/openapi/google-search-ads-360-customers-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-customers-api-openapi.yml
 - filename: google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml
   format: yaml
   label: Google Search Ads 360 Reporting Google Search Ads 360 Reporting API
   slug: google-search-ads-360-google-search-ads-360-reporting-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/openapi/google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google-search-ads-360-customers-api-openapi.yml, openapi/google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /v0/customers/{customerId}/searchAds360:search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/doubleclicksearch\n- path: /v0/customers/{customerId}/searchAds360:searchStream\n  method: post\n  operationId:\
   \ searchStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/doubleclicksearch\n- path: /v0/customers/{customerId}/customColumns\n  method: get\n  operationId: listCustomColumns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/doubleclicksearch\n- path: /v0/{resourceName}\n  method: get\n  operationId: getResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/doubleclicksearch\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/agentic-access/google-search-ads-360-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-search-ads-360/agentic-access/google-search-ads-360-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Campaign Management

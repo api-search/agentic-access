@@ -9,61 +9,61 @@ api_specs:
   label: Adobe Photoshop Actions API
   slug: adobe-photoshop-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-actions-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-actions-api-openapi.yml
 - filename: adobe-photoshop-background-removal-api-openapi.yml
   format: yaml
   label: Adobe Photoshop Background Removal API
   slug: adobe-photoshop-background-removal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-background-removal-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-background-removal-api-openapi.yml
 - filename: adobe-photoshop-crop-and-effects-api-openapi.yml
   format: yaml
   label: Adobe Photoshop Crop and Effects API
   slug: adobe-photoshop-crop-and-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-crop-and-effects-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-crop-and-effects-api-openapi.yml
 - filename: adobe-photoshop-document-operations-api-openapi.yml
   format: yaml
   label: Adobe Photoshop Document Operations API
   slug: adobe-photoshop-document-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-document-operations-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-document-operations-api-openapi.yml
 - filename: adobe-photoshop-generative-api-openapi.yml
   format: yaml
   label: Adobe Photoshop Generative API
   slug: adobe-photoshop-generative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-generative-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-generative-api-openapi.yml
 - filename: adobe-photoshop-health-api-openapi.yml
   format: yaml
   label: Adobe Photoshop Health API
   slug: adobe-photoshop-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-health-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-health-api-openapi.yml
 - filename: adobe-photoshop-renditions-api-openapi.yml
   format: yaml
   label: Adobe Photoshop Renditions API
   slug: adobe-photoshop-renditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-renditions-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-renditions-api-openapi.yml
 - filename: adobe-photoshop-smart-objects-api-openapi.yml
   format: yaml
   label: Adobe Photoshop Smart Objects API
   slug: adobe-photoshop-smart-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-smart-objects-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-smart-objects-api-openapi.yml
 - filename: adobe-photoshop-status-api-openapi.yml
   format: yaml
   label: Adobe Photoshop Status API
   slug: adobe-photoshop-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-status-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-status-api-openapi.yml
 - filename: adobe-photoshop-text-api-openapi.yml
   format: yaml
   label: Adobe Photoshop Text API
   slug: adobe-photoshop-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-text-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-photoshop/openapi/adobe-photoshop-text-api-openapi.yml
 consequence_counts:
   read: 4
   write: 13
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/adobe-
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pie/psdService/artboardCreate\n  method: post\n  operationId: createArtboard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fill-masked-areas\n  method: post\n  operationId: fillMaskedAreas\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pie/psdService/hello\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pie/psdService/renditionCreate\n  method: post\n  operationId: createRendition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pie/psdService/smartObject\n  method: post\n  operationId: replaceSmartObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pie/psdService/status/{jobId}\n  method: get\n  operationId: getPsdJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /sensei/status/{jobId}\n  method: get\n  operationId: getSenseiJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pie/psdService/text\n  method: post\n  operationId: editTextLayer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/agentic-access/adobe-photoshop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adobe-photoshop/agentic-access/adobe-photoshop-agentic-access.yml
 summary_line: 17 operations · 13 acting
 tags:
 - Artificial Intelligence

@@ -8,37 +8,37 @@ api_specs:
   label: ValueSERP Images API
   slug: valueserp-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-images-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-images-api-openapi.yml
 - filename: valueserp-news-api-openapi.yml
   format: yaml
   label: ValueSERP News API
   slug: valueserp-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-news-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-news-api-openapi.yml
 - filename: valueserp-places-api-openapi.yml
   format: yaml
   label: ValueSERP Places API
   slug: valueserp-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-places-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-places-api-openapi.yml
 - filename: valueserp-product-api-openapi.yml
   format: yaml
   label: ValueSERP Product API
   slug: valueserp-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-product-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-product-api-openapi.yml
 - filename: valueserp-search-api-openapi.yml
   format: yaml
   label: ValueSERP Search API
   slug: valueserp-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-search-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-search-api-openapi.yml
 - filename: valueserp-shopping-api-openapi.yml
   format: yaml
   label: ValueSERP Shopping API
   slug: valueserp-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-shopping-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/valueserp-search-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: googleSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search#places\n  method: get\n  operationId: googlePlaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search#shopping\n  method: get\n  operationId: googleShopping\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search#news\n  method: get\n  operationId: googleNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search#images\n  method: get\n  operationId: googleImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search#product\n  method: get\n  operationId: googleProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/agentic-access/valueserp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/valueserp/agentic-access/valueserp-agentic-access.yml
 summary_line: 6 operations
 tags:
 - SERP

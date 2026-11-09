@@ -9,7 +9,7 @@ api_specs:
   label: VNC Cloud Addresses API
   slug: vnc-cloud-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/openapi/vnc-cloud-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/vnc/openapi/vnc-cloud-addresses-api-openapi.yml
 consequence_counts:
   read: 3
   safety-critical: 1
@@ -47,7 +47,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vnc-cloud-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 4\n    connected: 3\n  by_consequence:\n    write: 3\n    read: 3\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /static-address\n  method: post\n  operationId: createCloudAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /static-address\n  method: get\n  operationId: listCloudAddresses\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static-address/{cloudAddress}\n  method: get\n  operationId: getCloudAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static-address/{cloudAddress}\n  method: put\n  operationId: updateCloudAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /static-address/{cloudAddress}\n  method: post\n  operationId: resetCloudAddressPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n\
   \      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /static-address/{cloudAddress}\n  method: delete\n  operationId: deleteCloudAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /static-address/{cloudAddress}/ready\n  method: get\n  operationId: checkCloudAddressReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/agentic-access/vnc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vnc/agentic-access/vnc-agentic-access.yml
 summary_line: 7 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Remote Desktop

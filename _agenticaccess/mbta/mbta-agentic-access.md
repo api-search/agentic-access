@@ -8,73 +8,73 @@ api_specs:
   label: MBTA Alerts API
   slug: mbta-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-alerts-api-openapi.yml
 - filename: mbta-facilities-api-openapi.yml
   format: yaml
   label: MBTA Facilities API
   slug: mbta-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-facilities-api-openapi.yml
 - filename: mbta-lines-api-openapi.yml
   format: yaml
   label: MBTA Lines API
   slug: mbta-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-lines-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-lines-api-openapi.yml
 - filename: mbta-predictions-api-openapi.yml
   format: yaml
   label: MBTA Predictions API
   slug: mbta-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-predictions-api-openapi.yml
 - filename: mbta-routepatterns-api-openapi.yml
   format: yaml
   label: MBTA RoutePatterns API
   slug: mbta-routepatterns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-routepatterns-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-routepatterns-api-openapi.yml
 - filename: mbta-routes-api-openapi.yml
   format: yaml
   label: MBTA Routes API
   slug: mbta-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-routes-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-routes-api-openapi.yml
 - filename: mbta-schedules-api-openapi.yml
   format: yaml
   label: MBTA Schedules API
   slug: mbta-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-schedules-api-openapi.yml
 - filename: mbta-services-api-openapi.yml
   format: yaml
   label: MBTA Services API
   slug: mbta-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-services-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-services-api-openapi.yml
 - filename: mbta-shapes-api-openapi.yml
   format: yaml
   label: MBTA Shapes API
   slug: mbta-shapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-shapes-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-shapes-api-openapi.yml
 - filename: mbta-stops-api-openapi.yml
   format: yaml
   label: MBTA Stops API
   slug: mbta-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-stops-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-stops-api-openapi.yml
 - filename: mbta-trips-api-openapi.yml
   format: yaml
   label: MBTA Trips API
   slug: mbta-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-trips-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-trips-api-openapi.yml
 - filename: mbta-vehicles-api-openapi.yml
   format: yaml
   label: MBTA Vehicles API
   slug: mbta-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/openapi/mbta-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/mbta/openapi/mbta-vehicles-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mbta-m
   \    audit: none\n- path: /services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{id}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shapes\n  method: get\n  operationId: listShapes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shapes/{id}\n  method: get\n  operationId: getShape\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stops\n  method: get\n  operationId: listStops\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /stops/{id}\n  method: get\n  operationId: getStop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trips\n  method: get\n  operationId: listTrips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trips/{id}\n  method: get\n  operationId: getTrip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles\n  method: get\n  operationId: listVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{id}\n  method: get\n  operationId: getVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/agentic-access/mbta-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mbta/agentic-access/mbta-agentic-access.yml
 summary_line: 22 operations
 tags:
 - Boston

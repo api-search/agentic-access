@@ -9,37 +9,37 @@ api_specs:
   label: Quartzy Inventory Items API
   slug: quartzy-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-inventory-items-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-inventory-items-api-openapi.yml
 - filename: quartzy-labs-api-openapi.yml
   format: yaml
   label: Quartzy Labs API
   slug: quartzy-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-labs-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-labs-api-openapi.yml
 - filename: quartzy-order-requests-api-openapi.yml
   format: yaml
   label: Quartzy Order Requests API
   slug: quartzy-order-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-order-requests-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-order-requests-api-openapi.yml
 - filename: quartzy-types-api-openapi.yml
   format: yaml
   label: Quartzy Types API
   slug: quartzy-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-types-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-types-api-openapi.yml
 - filename: quartzy-user-api-openapi.yml
   format: yaml
   label: Quartzy User API
   slug: quartzy-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-user-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-user-api-openapi.yml
 - filename: quartzy-webhooks-api-openapi.yml
   format: yaml
   label: Quartzy Webhooks API
   slug: quartzy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quartzy/openapi/quartzy-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quartz
   \  method: post\n  operationId: createOrderRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order-requests/{id}\n  method: get\n  operationId: getOrderRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order-requests/{id}\n  method: put\n  operationId: updateOrderRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/agentic-access/quartzy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quartzy/agentic-access/quartzy-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - Lab Management

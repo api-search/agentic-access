@@ -9,31 +9,31 @@ api_specs:
   label: Zencoder Accounts API
   slug: zencoder-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-accounts-api-openapi.yml
 - filename: zencoder-inputs-api-openapi.yml
   format: yaml
   label: Zencoder Inputs API
   slug: zencoder-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-inputs-api-openapi.yml
 - filename: zencoder-jobs-api-openapi.yml
   format: yaml
   label: Zencoder Jobs API
   slug: zencoder-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-jobs-api-openapi.yml
 - filename: zencoder-outputs-api-openapi.yml
   format: yaml
   label: Zencoder Outputs API
   slug: zencoder-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-outputs-api-openapi.yml
 - filename: zencoder-reports-api-openapi.yml
   format: yaml
   label: Zencoder Reports API
   slug: zencoder-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/openapi/zencoder-reports-api-openapi.yml
+  url: https://artifacts.apis.io/zencoder/openapi/zencoder-reports-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/zencod
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inputs/{input_id}\n  method: get\n  operationId: getInputDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inputs/{input_id}/progress\n  method: get\n  operationId: getInputProgress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outputs/{output_id}\n  method: get\n  operationId: getOutputDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outputs/{output_id}/progress\n  method: get\n  operationId: getOutputProgress\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account\n  method: post\n  operationId: createAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account\n  method: get\n  operationId: getAccountDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/integration\n  method: put\n  operationId: turnOnIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /account/live\n  method: put\n  operationId: turnOffIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/vod\n  method: get\n  operationId: getUsageReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/minutes\n  method: get\n  operationId: getMinutesUsed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/agentic-access/zencoder-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zencoder/agentic-access/zencoder-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - Company

@@ -9,151 +9,151 @@ api_specs:
   label: Moralis Balance API
   slug: moralis-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-balance-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-balance-api-openapi.yml
 - filename: moralis-block-api-openapi.yml
   format: yaml
   label: Moralis Block API
   slug: moralis-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-block-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-block-api-openapi.yml
 - filename: moralis-categories-api-openapi.yml
   format: yaml
   label: Moralis Categories API
   slug: moralis-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-categories-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-categories-api-openapi.yml
 - filename: moralis-defi-api-openapi.yml
   format: yaml
   label: Moralis DeFi API
   slug: moralis-defi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-defi-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-defi-api-openapi.yml
 - filename: moralis-discovery-api-openapi.yml
   format: yaml
   label: Moralis Discovery API
   slug: moralis-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-discovery-api-openapi.yml
 - filename: moralis-entities-api-openapi.yml
   format: yaml
   label: Moralis Entities API
   slug: moralis-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-entities-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-entities-api-openapi.yml
 - filename: moralis-get-balance-api-openapi.yml
   format: yaml
   label: Moralis Get Balance API
   slug: moralis-get-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-balance-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-balance-api-openapi.yml
 - filename: moralis-get-collections-api-openapi.yml
   format: yaml
   label: Moralis Get Collections API
   slug: moralis-get-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-collections-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-collections-api-openapi.yml
 - filename: moralis-get-floor-price-api-openapi.yml
   format: yaml
   label: Moralis Get Floor Price API
   slug: moralis-get-floor-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-floor-price-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-floor-price-api-openapi.yml
 - filename: moralis-get-market-data-api-openapi.yml
   format: yaml
   label: Moralis Get Market Data API
   slug: moralis-get-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-market-data-api-openapi.yml
 - filename: moralis-get-metadata-api-openapi.yml
   format: yaml
   label: Moralis Get Metadata API
   slug: moralis-get-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-metadata-api-openapi.yml
 - filename: moralis-get-mutiple-nfts-api-openapi.yml
   format: yaml
   label: Moralis Get Mutiple NFTs API
   slug: moralis-get-mutiple-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-mutiple-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-mutiple-nfts-api-openapi.yml
 - filename: moralis-get-nfts-api-openapi.yml
   format: yaml
   label: Moralis Get NFTs API
   slug: moralis-get-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-nfts-api-openapi.yml
 - filename: moralis-get-owners-api-openapi.yml
   format: yaml
   label: Moralis Get Owners API
   slug: moralis-get-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-owners-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-owners-api-openapi.yml
 - filename: moralis-get-ownership-api-openapi.yml
   format: yaml
   label: Moralis Get Ownership API
   slug: moralis-get-ownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-ownership-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-ownership-api-openapi.yml
 - filename: moralis-get-transactions-api-openapi.yml
   format: yaml
   label: Moralis Get Transactions API
   slug: moralis-get-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-transactions-api-openapi.yml
 - filename: moralis-get-transfers-api-openapi.yml
   format: yaml
   label: Moralis Get Transfers API
   slug: moralis-get-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-transfers-api-openapi.yml
 - filename: moralis-get-unique-owners-api-openapi.yml
   format: yaml
   label: Moralis Get Unique Owners API
   slug: moralis-get-unique-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-get-unique-owners-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-get-unique-owners-api-openapi.yml
 - filename: moralis-market-data-api-openapi.yml
   format: yaml
   label: Moralis Market Data API
   slug: moralis-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-market-data-api-openapi.yml
 - filename: moralis-nft-api-openapi.yml
   format: yaml
   label: Moralis NFT API
   slug: moralis-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-nft-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-nft-api-openapi.yml
 - filename: moralis-resolve-web3-domain-api-openapi.yml
   format: yaml
   label: Moralis Resolve Web3 Domain API
   slug: moralis-resolve-web3-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-resolve-web3-domain-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-resolve-web3-domain-api-openapi.yml
 - filename: moralis-token-api-openapi.yml
   format: yaml
   label: Moralis Token API
   slug: moralis-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-token-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-token-api-openapi.yml
 - filename: moralis-transaction-api-openapi.yml
   format: yaml
   label: Moralis Transaction API
   slug: moralis-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-transaction-api-openapi.yml
 - filename: moralis-utils-api-openapi.yml
   format: yaml
   label: Moralis Utils API
   slug: moralis-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-utils-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-utils-api-openapi.yml
 - filename: moralis-wallets-api-openapi.yml
   format: yaml
   label: Moralis Wallets API
   slug: moralis-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/openapi/moralis-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/moralis/openapi/moralis-wallets-api-openapi.yml
 consequence_counts:
   read: 145
   write: 9
@@ -213,8 +213,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/morali
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volume/categories\n  method: get\n  operationId: getVolumeStatsByCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volume/timeseries\n  method: get\n  operationId: getTimeSeriesVolume\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volume/timeseries/{categoryId}\n  method: get\n  operationId: getTimeSeriesVolumeByCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/analytics/timeseries\n  method: post\n  operationId: getTimeSeriesTokenAnalytics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n \
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/trending\n  method: get\n  operationId: getTrendingTokensV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/{tokenAddress}/analytics\n  method: get\n  operationId: getTokenAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/{tokenAddress}/score\n  method: get\n  operationId: getTokenScore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/{tokenAddress}/score/historical\n  method: get\n  operationId: getHistoricalTokenScore\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/analytics\n  method: post\n  operationId: getMultipleTokenAnalytics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{address}\n  method: get\n  operationId: getWalletTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{address}/verbose\n  method: get\n  operationId: getWalletTransactionsVerbose\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (36 KB total)\
-  \ ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/agentic-access/moralis-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/agentic-access/moralis-agentic-access.yml
+  \ ---\n# Full source: https://artifacts.apis.io/moralis/agentic-access/moralis-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/moralis/agentic-access/moralis-agentic-access.yml
 summary_line: 154 operations · 9 acting
 tags:
 - Web3

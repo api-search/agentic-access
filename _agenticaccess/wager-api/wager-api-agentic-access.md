@@ -8,31 +8,31 @@ api_specs:
   label: Wager API Futures API
   slug: wager-api-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-futures-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-futures-api-openapi.yml
 - filename: wager-api-games-api-openapi.yml
   format: yaml
   label: Wager API Games API
   slug: wager-api-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-games-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-games-api-openapi.yml
 - filename: wager-api-odds-api-openapi.yml
   format: yaml
   label: Wager API Odds API
   slug: wager-api-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-odds-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-odds-api-openapi.yml
 - filename: wager-api-players-api-openapi.yml
   format: yaml
   label: Wager API Players API
   slug: wager-api-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-players-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-players-api-openapi.yml
 - filename: wager-api-props-api-openapi.yml
   format: yaml
   label: Wager API Props API
   slug: wager-api-props-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-props-api-openapi.yml
+  url: https://artifacts.apis.io/wager-api/openapi/wager-api-props-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wager-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/odds\n  method: get\n  operationId: getGameOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/props\n  method: get\n  operationId: getPlayerProps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/futures\n  method: get\n  operationId: getFuturesOdds\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/players\n  method: get\n  operationId: getPlayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/players/{playerId}/stats\n  method: get\n  operationId: getPlayerStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/players/{playerId}/projections\n  method: get\n  operationId: getPlayerProjections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/injuries\n  method: get\n  operationId: getInjuryReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/games\n  method: get\n  operationId: getGames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/depth-charts\n  method: get\n  operationId: getDepthCharts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/agentic-access/wager-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wager-api/agentic-access/wager-api-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Sports Betting

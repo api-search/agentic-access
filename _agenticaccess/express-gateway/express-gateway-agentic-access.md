@@ -9,25 +9,25 @@ api_specs:
   label: Express Gateway Apps API
   slug: express-gateway-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-apps-api-openapi.yml
+  url: https://artifacts.apis.io/express-gateway/openapi/express-gateway-apps-api-openapi.yml
 - filename: express-gateway-credentials-api-openapi.yml
   format: yaml
   label: Express Gateway Credentials API
   slug: express-gateway-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/express-gateway/openapi/express-gateway-credentials-api-openapi.yml
 - filename: express-gateway-scopes-api-openapi.yml
   format: yaml
   label: Express Gateway Scopes API
   slug: express-gateway-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/express-gateway/openapi/express-gateway-scopes-api-openapi.yml
 - filename: express-gateway-users-api-openapi.yml
   format: yaml
   label: Express Gateway Users API
   slug: express-gateway-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-users-api-openapi.yml
+  url: https://artifacts.apis.io/express-gateway/openapi/express-gateway-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 16
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/expres
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credentials/{type}/{id}/scopes/{scope}\n  method: delete\n  operationId: removeCredentialScope\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scopes\n  method: get\n  operationId: listScopes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scopes\n  method: post\n  operationId: createScopes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scopes/{scope}\n  method: get\n  operationId: getScope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scopes/{scope}\n  method: put\n  operationId: createScope\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scopes/{scope}\n  method: delete\n  operationId: deleteScope\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
   \  - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/agentic-access/express-gateway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/express-gateway/agentic-access/express-gateway-agentic-access.yml
 summary_line: 25 operations · 16 acting
 tags:
 - API Composition

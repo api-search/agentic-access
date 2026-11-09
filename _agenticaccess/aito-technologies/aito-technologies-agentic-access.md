@@ -9,49 +9,49 @@ api_specs:
   label: Aito Technologies Data API
   slug: aito-technologies-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-data-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-data-api-openapi.yml
 - filename: aito-technologies-query-api-openapi.yml
   format: yaml
   label: Aito Technologies Query API
   slug: aito-technologies-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-query-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-query-api-openapi.yml
 - filename: aito-technologies-schema-api-openapi.yml
   format: yaml
   label: Aito Technologies Schema API
   slug: aito-technologies-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-schema-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-schema-api-openapi.yml
 - filename: aito-technologies-envs-api-openapi.yml
   format: yaml
   label: Aito Technologies Envs API
   slug: aito-technologies-envs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-envs-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-envs-api-openapi.yml
 - filename: aito-technologies-introspection-api-openapi.yml
   format: yaml
   label: Aito Technologies Introspection API
   slug: aito-technologies-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-introspection-api-openapi.yml
 - filename: aito-technologies-jobs-api-openapi.yml
   format: yaml
   label: Aito Technologies Jobs API
   slug: aito-technologies-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-jobs-api-openapi.yml
 - filename: aito-technologies-refs-api-openapi.yml
   format: yaml
   label: Aito Technologies Refs API
   slug: aito-technologies-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-refs-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-refs-api-openapi.yml
 - filename: aito-technologies-releases-api-openapi.yml
   format: yaml
   label: Aito Technologies Releases API
   slug: aito-technologies-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-releases-api-openapi.yml
+  url: https://artifacts.apis.io/aito-technologies/openapi/aito-technologies-releases-api-openapi.yml
 consequence_counts:
   read: 9
   write: 25
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aito-t
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/schema/{table}\n  method: put\n  operationId: schema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/schema/{table}\n  method: delete\n  operationId: schema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/schema/{table}/{column}\n  method: get\n  operationId: schema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/schema/{table}/{column}\n  method: put\n  operationId: schema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/schema/{table}/{column}\n  method: delete\n  operationId: schema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/schema/_rename\n  method: post\n  operationId: rename_table\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/schema/_copy\n  method: post\n  operationId: copy_table\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/agentic-access/aito-technologies-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aito-technologies/agentic-access/aito-technologies-agentic-access.yml
 summary_line: 34 operations · 25 acting
 tags:
 - Company

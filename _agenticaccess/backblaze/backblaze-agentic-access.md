@@ -9,37 +9,37 @@ api_specs:
   label: Backblaze Application Keys API
   slug: backblaze-application-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-application-keys-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-application-keys-api-openapi.yml
 - filename: backblaze-authorization-api-openapi.yml
   format: yaml
   label: Backblaze Authorization API
   slug: backblaze-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-authorization-api-openapi.yml
 - filename: backblaze-buckets-api-openapi.yml
   format: yaml
   label: Backblaze Buckets API
   slug: backblaze-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-buckets-api-openapi.yml
 - filename: backblaze-files-api-openapi.yml
   format: yaml
   label: Backblaze Files API
   slug: backblaze-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-files-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-files-api-openapi.yml
 - filename: backblaze-large-files-api-openapi.yml
   format: yaml
   label: Backblaze Large Files API
   slug: backblaze-large-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-large-files-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-large-files-api-openapi.yml
 - filename: backblaze-notifications-api-openapi.yml
   format: yaml
   label: Backblaze Notifications API
   slug: backblaze-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-notifications-api-openapi.yml
 consequence_counts:
   read: 12
   write: 15
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/backbl
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /b2api/v4/b2_finish_large_file\n  method: post\n  operationId: finishLargeFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /b2api/v4/b2_cancel_large_file\n  method: post\n  operationId: cancelLargeFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /b2api/v4/b2_list_parts\n  method: post\n  operationId: listParts\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /b2api/v4/b2_list_unfinished_large_files\n  method: post\n  operationId: listUnfinishedLargeFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /b2api/v4/b2_get_bucket_notification_rules\n  method: post\n  operationId: getBucketNotificationRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /b2api/v4/b2_set_bucket_notification_rules\n  method: post\n  operationId: setBucketNotificationRules\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/agentic-access/backblaze-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/backblaze/agentic-access/backblaze-agentic-access.yml
 summary_line: 27 operations · 15 acting
 tags:
 - Cloud Storage

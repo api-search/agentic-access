@@ -9,109 +9,109 @@ api_specs:
   label: microsoft-azure-cdn Operations API
   slug: microsoft-azure-cdn-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-operations-api-openapi.yml
 - filename: microsoft-azure-cdn-profiles-api-openapi.yml
   format: yaml
   label: microsoft-azure-cdn Profiles API
   slug: microsoft-azure-cdn-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-profiles-api-openapi.yml
 - filename: microsoft-azure-cdn-afddomains-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn AFD Domains API
   slug: microsoft-azure-cdn-afddomains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-afddomains-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-afddomains-api-openapi.yml
 - filename: microsoft-azure-cdn-afdendpoints-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn AFD Endpoints API
   slug: microsoft-azure-cdn-afdendpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-afdendpoints-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-afdendpoints-api-openapi.yml
 - filename: microsoft-azure-cdn-afdorigingroups-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn AFD Origin Groups API
   slug: microsoft-azure-cdn-afdorigingroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-afdorigingroups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-afdorigingroups-api-openapi.yml
 - filename: microsoft-azure-cdn-afdorigins-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn AFD Origins API
   slug: microsoft-azure-cdn-afdorigins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-afdorigins-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-afdorigins-api-openapi.yml
 - filename: microsoft-azure-cdn-cdnwebapplicationfirewallpolicies-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Cdn Web Application Firewall Policies API
   slug: microsoft-azure-cdn-cdnwebapplicationfirewallpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-cdnwebapplicationfirewallpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-cdnwebapplicationfirewallpolicies-api-openapi.yml
 - filename: microsoft-azure-cdn-endpoints-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Endpoints API
   slug: microsoft-azure-cdn-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-endpoints-api-openapi.yml
 - filename: microsoft-azure-cdn-origingroups-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Origin Groups API
   slug: microsoft-azure-cdn-origingroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-origingroups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-origingroups-api-openapi.yml
 - filename: microsoft-azure-cdn-origins-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Origins API
   slug: microsoft-azure-cdn-origins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-origins-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-origins-api-openapi.yml
 - filename: microsoft-azure-cdn-providers-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Providers API
   slug: microsoft-azure-cdn-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-providers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-providers-api-openapi.yml
 - filename: microsoft-azure-cdn-routes-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Routes API
   slug: microsoft-azure-cdn-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-routes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-routes-api-openapi.yml
 - filename: microsoft-azure-cdn-rules-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Rules API
   slug: microsoft-azure-cdn-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-rules-api-openapi.yml
 - filename: microsoft-azure-cdn-rulesets-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Rule Sets API
   slug: microsoft-azure-cdn-rulesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-rulesets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-rulesets-api-openapi.yml
 - filename: microsoft-azure-cdn-secrets-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Secrets API
   slug: microsoft-azure-cdn-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-secrets-api-openapi.yml
 - filename: microsoft-azure-cdn-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Subscriptions API
   slug: microsoft-azure-cdn-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-subscriptions-api-openapi.yml
 - filename: microsoft-azure-cdn-custom-domains-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Custom Domains API
   slug: microsoft-azure-cdn-custom-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-custom-domains-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-custom-domains-api-openapi.yml
 - filename: microsoft-azure-cdn-security-policies-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Security Policies API
   slug: microsoft-azure-cdn-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-security-policies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-security-policies-api-openapi.yml
 consequence_counts:
   read: 44
   safety-critical: 2
@@ -184,8 +184,8 @@ source_yaml: "generated: '2026-09-17'\nmethod: generated\nsource: openapi/micros
   \  method: get\n  operationId: Origins_ListByEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/endpoints/{endpointName}/origins/{originName}\n  method: get\n  operationId: Origins_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/endpoints/{endpointName}/origins/{originName}\n  method: put\n  operationId: Origins_Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/endpoints/{endpointName}/origins/{originName}\n  method: patch\n  operationId: Origins_Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/endpoints/{endpointName}/origins/{originName}\n  method: delete\n  operationId: Origins_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/endpoints/{endpointName}/purge\n  method: post\n  operationId: Endpoints_PurgeContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/endpoints/{endpointName}/start\n  method: post\n  operationId: Endpoints_Start\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/agentic-access/microsoft-azure-cdn-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/agentic-access/microsoft-azure-cdn-agentic-access.yml
+  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/microsoft-azure-cdn/agentic-access/microsoft-azure-cdn-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-cdn/agentic-access/microsoft-azure-cdn-agentic-access.yml
 summary_line: 122 operations · 78 acting · 2 human-in-the-loop
 tags:
 - CDN

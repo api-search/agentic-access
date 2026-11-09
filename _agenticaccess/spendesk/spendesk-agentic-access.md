@@ -9,109 +9,109 @@ api_specs:
   label: Spendesk Accounting exports API
   slug: spendesk-accounting-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-accounting-exports-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-accounting-exports-api-openapi.yml
 - filename: spendesk-analytical-fields-and-cost-centers-api-openapi.yml
   format: yaml
   label: Spendesk Analytical fields and cost centers API
   slug: spendesk-analytical-fields-and-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-analytical-fields-and-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-analytical-fields-and-cost-centers-api-openapi.yml
 - filename: spendesk-authentication-api-openapi.yml
   format: yaml
   label: Spendesk Authentication API
   slug: spendesk-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-authentication-api-openapi.yml
 - filename: spendesk-cards-api-openapi.yml
   format: yaml
   label: Spendesk Cards API
   slug: spendesk-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-cards-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-cards-api-openapi.yml
 - filename: spendesk-chart-of-accounts-api-openapi.yml
   format: yaml
   label: Spendesk Chart of accounts API
   slug: spendesk-chart-of-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-chart-of-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-chart-of-accounts-api-openapi.yml
 - filename: spendesk-companies-api-openapi.yml
   format: yaml
   label: Spendesk Companies API
   slug: spendesk-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-companies-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-companies-api-openapi.yml
 - filename: spendesk-expense-categories-api-openapi.yml
   format: yaml
   label: Spendesk Expense categories API
   slug: spendesk-expense-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-expense-categories-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-expense-categories-api-openapi.yml
 - filename: spendesk-external-references-api-openapi.yml
   format: yaml
   label: Spendesk External references API
   slug: spendesk-external-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-external-references-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-external-references-api-openapi.yml
 - filename: spendesk-invoices-and-intakes-api-openapi.yml
   format: yaml
   label: Spendesk Invoices and intakes API
   slug: spendesk-invoices-and-intakes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-invoices-and-intakes-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-invoices-and-intakes-api-openapi.yml
 - filename: spendesk-mcp-api-openapi.yml
   format: yaml
   label: Spendesk MCP API
   slug: spendesk-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-mcp-api-openapi.yml
 - filename: spendesk-payables-api-openapi.yml
   format: yaml
   label: Spendesk Payables API
   slug: spendesk-payables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-payables-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-payables-api-openapi.yml
 - filename: spendesk-purchase-orders-api-openapi.yml
   format: yaml
   label: Spendesk Purchase orders API
   slug: spendesk-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-purchase-orders-api-openapi.yml
 - filename: spendesk-requests-and-transactions-api-openapi.yml
   format: yaml
   label: Spendesk Requests and transactions API
   slug: spendesk-requests-and-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-requests-and-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-requests-and-transactions-api-openapi.yml
 - filename: spendesk-settlements-and-wallet-api-openapi.yml
   format: yaml
   label: Spendesk Settlements and wallet API
   slug: spendesk-settlements-and-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-settlements-and-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-settlements-and-wallet-api-openapi.yml
 - filename: spendesk-spendesk-public-api-api-openapi.yml
   format: yaml
   label: Spendesk Spendesk Public API
   slug: spendesk-spendesk-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-spendesk-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-spendesk-public-api-api-openapi.yml
 - filename: spendesk-suppliers-api-openapi.yml
   format: yaml
   label: Spendesk Suppliers API
   slug: spendesk-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-suppliers-api-openapi.yml
 - filename: spendesk-users-api-openapi.yml
   format: yaml
   label: Spendesk Users API
   slug: spendesk-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-users-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-users-api-openapi.yml
 - filename: spendesk-webhooks-api-openapi.yml
   format: yaml
   label: Spendesk Webhooks API
   slug: spendesk-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/openapi/spendesk-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/spendesk/openapi/spendesk-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 56
@@ -201,8 +201,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/spende
   \    subject: required\n    scope:\n    - experimental:analytical-field-v2:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/analytical-fields/{fieldId}\n  method: get\n  operationId: v2-get-analytical-field\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - experimental:analytical-field-v2:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/analytical-fields/{fieldId}\n  method: patch\n  operationId: v2-update-analytical-field\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - experimental:analytical-field-v2:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v2/analytical-fields/{fieldId}\n  method: delete\n  operationId: v2-delete-analytical-field\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - experimental:analytical-field-v2:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/analytical-fields/{fieldId}/values\n  method: get\n  operationId: v2-list-analytical-field-values\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - experimental:analytical-field-v2:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/analytical-fields/{fieldId}/values\n  method: post\n  operationId: v2-create-analytical-field-value\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - experimental:analytical-field-v2:write\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/analytical-fields/{fieldId}/values/{valueId}\n  method: get\n  operationId: v2-get-analytical-field-value\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - experimental:analytical-field-v2:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/analytical-fields/{fieldId}/values/{valueId}\n  method: patch\n  operationId: v2-update-analytical-field-value\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - experimental:analytical-field-v2:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/analytical-fields/{fieldId}/values/{valueId}\n\
-  \  method: delete\n  operationId: v2-delete-analytical-field-value\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - experimental:analytical-field-v2:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/companies\n  method: get\n  operationId: v2-get-companies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - experimental:company:read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/agentic-access/spendesk-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spendesk/refs/heads/main/agentic-access/spendesk-agentic-access.yml
+  \  method: delete\n  operationId: v2-delete-analytical-field-value\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - experimental:analytical-field-v2:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/companies\n  method: get\n  operationId: v2-get-companies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - experimental:company:read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://artifacts.apis.io/spendesk/agentic-access/spendesk-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/spendesk/agentic-access/spendesk-agentic-access.yml
 summary_line: 106 operations · 50 acting
 tags:
 - Spend Management

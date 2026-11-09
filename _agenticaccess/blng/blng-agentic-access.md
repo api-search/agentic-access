@@ -9,97 +9,97 @@ api_specs:
   label: BLNG User API
   slug: blng-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-user-api-openapi.yml
 - filename: blng-billing-api-openapi.yml
   format: yaml
   label: BLNG Billing API
   slug: blng-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-billing-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-billing-api-openapi.yml
 - filename: blng-chat-prompts-api-openapi.yml
   format: yaml
   label: Blng Chat Prompts API
   slug: blng-chat-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-chat-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-chat-prompts-api-openapi.yml
 - filename: blng-composite-api-openapi.yml
   format: yaml
   label: Blng Composite API
   slug: blng-composite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-composite-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-composite-api-openapi.yml
 - filename: blng-design-journey-api-openapi.yml
   format: yaml
   label: Blng Design Journey API
   slug: blng-design-journey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-design-journey-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-design-journey-api-openapi.yml
 - filename: blng-invitation-api-openapi.yml
   format: yaml
   label: Blng Invitation API
   slug: blng-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-invitation-api-openapi.yml
 - filename: blng-journeys-api-openapi.yml
   format: yaml
   label: Blng Journeys API
   slug: blng-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-journeys-api-openapi.yml
 - filename: blng-organization-api-openapi.yml
   format: yaml
   label: Blng Organization API
   slug: blng-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-organization-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-organization-api-openapi.yml
 - filename: blng-prompts-api-openapi.yml
   format: yaml
   label: Blng Prompts API
   slug: blng-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-prompts-api-openapi.yml
 - filename: blng-subscription-api-openapi.yml
   format: yaml
   label: Blng Subscription API
   slug: blng-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-subscription-api-openapi.yml
 - filename: blng-user-subscription-api-openapi.yml
   format: yaml
   label: Blng User Subscription API
   slug: blng-user-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-user-subscription-api-openapi.yml
 - filename: blng-user-tooltip-api-openapi.yml
   format: yaml
   label: Blng User Tooltip API
   slug: blng-user-tooltip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-tooltip-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-user-tooltip-api-openapi.yml
 - filename: blng-webhook-api-openapi.yml
   format: yaml
   label: Blng Webhook API
   slug: blng-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-webhook-api-openapi.yml
 - filename: blng-workspace-api-openapi.yml
   format: yaml
   label: Blng Workspace API
   slug: blng-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-workspace-api-openapi.yml
 - filename: blng-user-library-api-openapi.yml
   format: yaml
   label: Blng User Library API
   slug: blng-user-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-library-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-user-library-api-openapi.yml
 - filename: blng-user-settings-api-openapi.yml
   format: yaml
   label: Blng User Settings API
   slug: blng-user-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-settings-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-user-settings-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 39
@@ -198,7 +198,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/blng-b
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invitations/{invitationId}/accept\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invitations/subscriptions/{subscriptionId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /composite/createOrgAndSubscriptionWithUser\n  method: post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /composite/createUserAndSubscription\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/agentic-access/blng-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blng/agentic-access/blng-agentic-access.yml
 summary_line: 88 operations · 49 acting · 3 human-in-the-loop
 tags:
 - Company

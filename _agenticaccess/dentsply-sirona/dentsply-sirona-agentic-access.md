@@ -9,31 +9,31 @@ api_specs:
   label: Dentsply Sirona Devices API
   slug: dentsply-sirona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-devices-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-devices-api-openapi.yml
 - filename: dentsply-sirona-exposures-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Exposures API
   slug: dentsply-sirona-exposures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-exposures-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-exposures-api-openapi.yml
 - filename: dentsply-sirona-filters-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Filters API
   slug: dentsply-sirona-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-filters-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-filters-api-openapi.yml
 - filename: dentsply-sirona-generators-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Generators API
   slug: dentsply-sirona-generators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-generators-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-generators-api-openapi.yml
 - filename: dentsply-sirona-images-api-openapi.yml
   format: yaml
   label: Dentsply Sirona Images API
   slug: dentsply-sirona-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/openapi/dentsply-sirona-images-api-openapi.yml
+  url: https://artifacts.apis.io/dentsply-sirona/openapi/dentsply-sirona-images-api-openapi.yml
 consequence_counts:
   read: 19
   write: 11
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: generated\nsource: openapi/dentsp
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acquisition/{sessionId}\n  method: put\n  operationId: updateAcquisitionSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /acquisition/{sessionId}\n  method: delete\n  operationId: deleteAcquisitionSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /acquisition/{sessionId}/status\n  method: get\n  operationId: getAcquisitionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acquisition/{sessionId}/status/subscribe\n  method: get\n  operationId: subscribeAcquisitionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acquisition/{sessionId}/info\n  method: get\n  operationId: getAcquisitionInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acquisition/{sessionId}/info\n  method: put\n  operationId: setAcquisitionInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /acquisition/{sessionId}/images\n  method: get\n  operationId:\
   \ getImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acquisition/{sessionId}/images/{imageId}\n  method: get\n  operationId: getImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acquisition/{sessionId}/images/{imageId}/media\n  method: get\n  operationId: getImageMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acquisition/{sessionId}/images/{imageId}/preview\n  method: get\n  operationId: getImagePreview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/agentic-access/dentsply-sirona-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dentsply-sirona/agentic-access/dentsply-sirona-agentic-access.yml
 summary_line: 30 operations · 11 acting
 tags:
 - CAD/CAM

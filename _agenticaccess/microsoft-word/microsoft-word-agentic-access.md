@@ -9,109 +9,109 @@ api_specs:
   label: Microsoft Word Body API
   slug: microsoft-word-body-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-body-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-body-api-openapi.yml
 - filename: microsoft-word-checkout-api-openapi.yml
   format: yaml
   label: Microsoft Word Checkout API
   slug: microsoft-word-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-checkout-api-openapi.yml
 - filename: microsoft-word-comments-api-openapi.yml
   format: yaml
   label: Microsoft Word Comments API
   slug: microsoft-word-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-comments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-comments-api-openapi.yml
 - filename: microsoft-word-content-api-openapi.yml
   format: yaml
   label: Microsoft Word Content API
   slug: microsoft-word-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-content-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-content-api-openapi.yml
 - filename: microsoft-word-content-controls-api-openapi.yml
   format: yaml
   label: Microsoft Word Content Controls API
   slug: microsoft-word-content-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-content-controls-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-content-controls-api-openapi.yml
 - filename: microsoft-word-documents-api-openapi.yml
   format: yaml
   label: Microsoft Word Documents API
   slug: microsoft-word-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-documents-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-documents-api-openapi.yml
 - filename: microsoft-word-drive-items-api-openapi.yml
   format: yaml
   label: Microsoft Word Drive Items API
   slug: microsoft-word-drive-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-drive-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-drive-items-api-openapi.yml
 - filename: microsoft-word-headers-and-footers-api-openapi.yml
   format: yaml
   label: Microsoft Word Headers And Footers API
   slug: microsoft-word-headers-and-footers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-headers-and-footers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-headers-and-footers-api-openapi.yml
 - filename: microsoft-word-images-api-openapi.yml
   format: yaml
   label: Microsoft Word Images API
   slug: microsoft-word-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-images-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-images-api-openapi.yml
 - filename: microsoft-word-paragraphs-api-openapi.yml
   format: yaml
   label: Microsoft Word Paragraphs API
   slug: microsoft-word-paragraphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-paragraphs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-paragraphs-api-openapi.yml
 - filename: microsoft-word-permissions-api-openapi.yml
   format: yaml
   label: Microsoft Word Permissions API
   slug: microsoft-word-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-permissions-api-openapi.yml
 - filename: microsoft-word-properties-api-openapi.yml
   format: yaml
   label: Microsoft Word Properties API
   slug: microsoft-word-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-properties-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-properties-api-openapi.yml
 - filename: microsoft-word-search-api-openapi.yml
   format: yaml
   label: Microsoft Word Search API
   slug: microsoft-word-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-search-api-openapi.yml
 - filename: microsoft-word-sections-api-openapi.yml
   format: yaml
   label: Microsoft Word Sections API
   slug: microsoft-word-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-sections-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-sections-api-openapi.yml
 - filename: microsoft-word-styles-api-openapi.yml
   format: yaml
   label: Microsoft Word Styles API
   slug: microsoft-word-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-styles-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-styles-api-openapi.yml
 - filename: microsoft-word-tables-api-openapi.yml
   format: yaml
   label: Microsoft Word Tables API
   slug: microsoft-word-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-tables-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-tables-api-openapi.yml
 - filename: microsoft-word-thumbnails-api-openapi.yml
   format: yaml
   label: Microsoft Word Thumbnails API
   slug: microsoft-word-thumbnails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-thumbnails-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-thumbnails-api-openapi.yml
 - filename: microsoft-word-versions-api-openapi.yml
   format: yaml
   label: Microsoft Word Versions API
   slug: microsoft-word-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-versions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-versions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 23
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/micros
   - path: /documents/{document-id}/properties\n  method: get\n  operationId: getDocumentProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{document-id}/properties\n  method: patch\n  operationId: updateDocumentProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/drive/root/search(q='{search-text}')\n  method: get\n  operationId: searchDriveItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{document-id}/sections\n  method: get\n  operationId: listSections\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{document-id}/styles\n  method: get\n  operationId: listStyles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{document-id}/tables\n  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{document-id}/tables\n  method: post\n  operationId: insertTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/drive/items/{item-id}/thumbnails\n  method: get\n  operationId: listThumbnails\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/drive/items/{item-id}/versions\n  method: get\n  operationId: listVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/agentic-access/microsoft-word-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-word/agentic-access/microsoft-word-agentic-access.yml
 summary_line: 46 operations · 23 acting
 tags:
 - Documents

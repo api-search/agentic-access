@@ -8,31 +8,31 @@ api_specs:
   label: Awin Accounts API
   slug: awin-affiliate-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/awin-affiliate/openapi/awin-affiliate-accounts-api-openapi.yml
 - filename: awin-affiliate-commission-groups-api-openapi.yml
   format: yaml
   label: Awin Commission Groups API
   slug: awin-affiliate-commission-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-commission-groups-api-openapi.yml
+  url: https://artifacts.apis.io/awin-affiliate/openapi/awin-affiliate-commission-groups-api-openapi.yml
 - filename: awin-affiliate-programmes-api-openapi.yml
   format: yaml
   label: Awin Programmes API
   slug: awin-affiliate-programmes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-programmes-api-openapi.yml
+  url: https://artifacts.apis.io/awin-affiliate/openapi/awin-affiliate-programmes-api-openapi.yml
 - filename: awin-affiliate-reports-api-openapi.yml
   format: yaml
   label: Awin Reports API
   slug: awin-affiliate-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-reports-api-openapi.yml
+  url: https://artifacts.apis.io/awin-affiliate/openapi/awin-affiliate-reports-api-openapi.yml
 - filename: awin-affiliate-transactions-api-openapi.yml
   format: yaml
   label: Awin Transactions API
   slug: awin-affiliate-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/awin-affiliate/openapi/awin-affiliate-transactions-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/awin-a
   \  method: get\n  operationId: getAdvertiserTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers/{publisherId}/reports/advertiser\n  method: get\n  operationId: getPublisherAdvertiserReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers/{publisherId}/reports/creative\n  method: get\n  operationId: getPublisherCreativeReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers/{publisherId}/reports/campaign\n  method: get\n  operationId: getPublisherCampaignReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{advertiserId}/reports/publisher\n\
   \  method: get\n  operationId: getAdvertiserPublisherReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{advertiserId}/reports/creative\n  method: get\n  operationId: getAdvertiserCreativeReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{advertiserId}/reports/campaign\n  method: get\n  operationId: getAdvertiserCampaignReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers/{publisherId}/commissiongroups\n  method: get\n  operationId: getCommissionGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers/{publisherId}/programmes\n\
   \  method: get\n  operationId: getProgrammes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publishers/{publisherId}/programmedetails\n  method: get\n  operationId: getProgrammeDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/agentic-access/awin-affiliate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/awin-affiliate/agentic-access/awin-affiliate-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Affiliate Marketing

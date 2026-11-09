@@ -8,25 +8,25 @@ api_specs:
   label: live-nation-entertainment Attractions API
   slug: live-nation-entertainment-attractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/openapi/live-nation-entertainment-attractions-api-openapi.yml
+  url: https://artifacts.apis.io/live-nation-entertainment/openapi/live-nation-entertainment-attractions-api-openapi.yml
 - filename: live-nation-entertainment-classifications-api-openapi.yml
   format: yaml
   label: live-nation-entertainment Classifications API
   slug: live-nation-entertainment-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/openapi/live-nation-entertainment-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/live-nation-entertainment/openapi/live-nation-entertainment-classifications-api-openapi.yml
 - filename: live-nation-entertainment-events-api-openapi.yml
   format: yaml
   label: live-nation-entertainment Events API
   slug: live-nation-entertainment-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/openapi/live-nation-entertainment-events-api-openapi.yml
+  url: https://artifacts.apis.io/live-nation-entertainment/openapi/live-nation-entertainment-events-api-openapi.yml
 - filename: live-nation-entertainment-venues-api-openapi.yml
   format: yaml
   label: live-nation-entertainment Venues API
   slug: live-nation-entertainment-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/openapi/live-nation-entertainment-venues-api-openapi.yml
+  url: https://artifacts.apis.io/live-nation-entertainment/openapi/live-nation-entertainment-venues-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/live-nation-entertainment-ticketmaster-discovery-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /events.json\n  method: get\n  operationId: searchEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}.json\n  method: get\n  operationId: getEventDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /attractions.json\n\
   \  method: get\n  operationId: searchAttractions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /attractions/{id}.json\n  method: get\n  operationId: getAttractionDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /venues.json\n  method: get\n  operationId: searchVenues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /venues/{id}.json\n  method: get\n  operationId: getVenueDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /classifications.json\n  method: get\n  operationId: searchClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/agentic-access/live-nation-entertainment-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/live-nation-entertainment/agentic-access/live-nation-entertainment-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Fortune 500

@@ -8,31 +8,31 @@ api_specs:
   label: Carbon Intensity API Factors API
   slug: carbon-intensity-factors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-factors-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-factors-api-openapi.yml
 - filename: carbon-intensity-generation-mix-api-openapi.yml
   format: yaml
   label: Carbon Intensity API Generation Mix API
   slug: carbon-intensity-generation-mix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-generation-mix-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-generation-mix-api-openapi.yml
 - filename: carbon-intensity-national-intensity-api-openapi.yml
   format: yaml
   label: Carbon Intensity API National Intensity API
   slug: carbon-intensity-national-intensity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-national-intensity-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-national-intensity-api-openapi.yml
 - filename: carbon-intensity-regional-api-openapi.yml
   format: yaml
   label: Carbon Intensity API Regional API
   slug: carbon-intensity-regional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-regional-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-regional-api-openapi.yml
 - filename: carbon-intensity-statistics-api-openapi.yml
   format: yaml
   label: Carbon Intensity API Statistics API
   slug: carbon-intensity-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/openapi/carbon-intensity-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/carbon-intensity/openapi/carbon-intensity-statistics-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/carbon
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/scotland\n  method: get\n  operationId: getScotlandIntensity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/wales\n  method: get\n  operationId: getWalesIntensity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/postcode/{postcode}\n  method: get\n  operationId: getIntensityByPostcode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/regionid/{regionid}\n  method: get\n  operationId: getIntensityByRegionId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/{from}/{to}\n  method: get\n  operationId: getRegionalIntensityRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/intensity/{from}/fw24h/postcode/{postcode}\n  method: get\n  operationId: getRegionalForward24hByPostcode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/intensity/{from}/fw24h/regionid/{regionid}\n  method: get\n  operationId: getRegionalForward24hByRegionId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/intensity/{from}/fw48h/postcode/{postcode}\n  method: get\n  operationId: getRegionalForward48hByPostcode\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/intensity/{from}/fw48h/regionid/{regionid}\n  method: get\n  operationId: getRegionalForward48hByRegionId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/intensity/{from}/pt24h/postcode/{postcode}\n  method: get\n  operationId: getRegionalPast24hByPostcode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional/intensity/{from}/pt24h/regionid/{regionid}\n  method: get\n  operationId: getRegionalPast24hByRegionId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/agentic-access/carbon-intensity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/carbon-intensity/agentic-access/carbon-intensity-agentic-access.yml
 summary_line: 27 operations
 tags:
 - Carbon Intensity

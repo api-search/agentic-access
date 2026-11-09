@@ -9,43 +9,43 @@ api_specs:
   label: SleekFlow Companies API
   slug: sleekflow-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-companies-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-companies-api-openapi.yml
 - filename: sleekflow-contacts-api-openapi.yml
   format: yaml
   label: SleekFlow Contacts API
   slug: sleekflow-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-contacts-api-openapi.yml
 - filename: sleekflow-conversations-api-openapi.yml
   format: yaml
   label: SleekFlow Conversations API
   slug: sleekflow-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-conversations-api-openapi.yml
 - filename: sleekflow-lists-api-openapi.yml
   format: yaml
   label: SleekFlow Lists API
   slug: sleekflow-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-lists-api-openapi.yml
 - filename: sleekflow-messaging-api-openapi.yml
   format: yaml
   label: SleekFlow Messaging API
   slug: sleekflow-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-messaging-api-openapi.yml
 - filename: sleekflow-staff-and-teams-api-openapi.yml
   format: yaml
   label: SleekFlow Staff and Teams API
   slug: sleekflow-staff-and-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-staff-and-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-staff-and-teams-api-openapi.yml
 - filename: sleekflow-webhooks-api-openapi.yml
   format: yaml
   label: SleekFlow Webhooks API
   slug: sleekflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/openapi/sleekflow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sleekflow/openapi/sleekflow-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 14
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sleekf
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/messages/file\n  method: post\n  operationId: sendFileMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/messages/note\n  method: post\n  operationId: sendInternalNote\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/messages/conversation-window\n  method: get\n  operationId: checkConversationWindow\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/staff\n  method: get\n  operationId: getAllStaff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/staff/{staffId}\n  method: get\n  operationId: getStaff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams\n  method: get\n  operationId: getAllTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams\n  method: post\n  operationId: createTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/agentic-access/sleekflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sleekflow/agentic-access/sleekflow-agentic-access.yml
 summary_line: 27 operations · 13 acting
 tags:
 - Messaging

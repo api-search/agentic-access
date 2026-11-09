@@ -9,49 +9,49 @@ api_specs:
   label: Vyond Content Generation API
   slug: vyond-content-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-content-generation-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-content-generation-api-openapi.yml
 - filename: vyond-parameter-api-openapi.yml
   format: yaml
   label: Vyond Parameter API
   slug: vyond-parameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-parameter-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-parameter-api-openapi.yml
 - filename: vyond-scim-api-openapi.yml
   format: yaml
   label: Vyond SCIM API
   slug: vyond-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-scim-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-scim-api-openapi.yml
 - filename: vyond-turbo-api-openapi.yml
   format: yaml
   label: Vyond Turbo API
   slug: vyond-turbo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-turbo-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-turbo-api-openapi.yml
 - filename: vyond-user-api-openapi.yml
   format: yaml
   label: Vyond User API
   slug: vyond-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-user-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-user-api-openapi.yml
 - filename: vyond-video-api-openapi.yml
   format: yaml
   label: Vyond Video API
   slug: vyond-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-video-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-video-api-openapi.yml
 - filename: vyond-video-export-api-openapi.yml
   format: yaml
   label: Vyond Video Export API
   slug: vyond-video-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-video-export-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-video-export-api-openapi.yml
 - filename: vyond-webhook-api-openapi.yml
   format: yaml
   label: Vyond Webhook API
   slug: vyond-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-webhook-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 10
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: derived\nsource: openapi/vyond-op
   \    consequence: physical\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    subject: required\n- path: /rest/v1/videos/{videoId}/exports/{conversionId}\n  method: get\n  operationId: VideoController.getVideoExportDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/webhooks/\n  method: get\n  operationId: WebhookController.getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/webhooks/\n  method: post\n  operationId: WebhookController.createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    subject: required\n- path: /rest/v1/webhooks/{webhookId}\n  method: patch\n  operationId: WebhookController.updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    audience: null\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    subject: required\n- path: /rest/v1/webhooks/{webhookId}\n  method: delete\n  operationId: WebhookController.deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    audience: null\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    subject: required\nx-correction: 'derive-agentic-access.py classified all 10 write operations as\
   \ safety-critical. That was\n  a false positive from its substring keyword match: every Vyond operationId is of the form ''<Name>Controller.<method>'',\n  and ''Controller'' contains the SAFETY_WORDS token ''control''. Reclassified here against the actual\n  semantics — the four credit-consuming operations (content generation v1/v2, Turbo, video export) are\n  ''physical'' because they spend real account credits irreversibly and exportVideo returns 402 Payment\n  Required when exhausted; the remaining six writes (SCIM user create/update/patch, webhook create/update/delete)\n  are ''write''. Nothing in this API is safety-critical. The upstream heuristic needs a word-boundary\n  match; every Controller-named spec in the network is affected.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/agentic-access/vyond-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vyond/agentic-access/vyond-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Video

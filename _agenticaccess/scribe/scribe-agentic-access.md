@@ -8,19 +8,19 @@ api_specs:
   label: Scribe Documents API
   slug: scribe-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-documents-api-openapi.yml
+  url: https://artifacts.apis.io/scribe/openapi/scribe-documents-api-openapi.yml
 - filename: scribe-search-api-openapi.yml
   format: yaml
   label: Scribe Search API
   slug: scribe-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-search-api-openapi.yml
+  url: https://artifacts.apis.io/scribe/openapi/scribe-search-api-openapi.yml
 - filename: scribe-teams-api-openapi.yml
   format: yaml
   label: Scribe Teams API
   slug: scribe-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-teams-api-openapi.yml
+  url: https://artifacts.apis.io/scribe/openapi/scribe-teams-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/scribe-documents-api-openapi.yml, openapi/scribe-search-api-openapi.yml, openapi/scribe-teams-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/documents/\n  method: get\n  operationId: v1_get_documents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/documents/{id}/\n  method: get\n  operationId: v1_retrieve_document\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/search/\n  method: post\n  operationId: v1_search_documents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams/\n  method: get\n  operationId: v1_teams_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/agentic-access/scribe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scribe/agentic-access/scribe-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Company

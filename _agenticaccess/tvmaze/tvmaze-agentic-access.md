@@ -9,103 +9,103 @@ api_specs:
   label: TVmaze Auth API
   slug: tvmaze-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-auth-api-openapi.yml
 - filename: tvmaze-episodes-api-openapi.yml
   format: yaml
   label: TVmaze Episodes API
   slug: tvmaze-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-episodes-api-openapi.yml
 - filename: tvmaze-followed-networks-api-openapi.yml
   format: yaml
   label: TVmaze followed networks API
   slug: tvmaze-followed-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-followed-networks-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-followed-networks-api-openapi.yml
 - filename: tvmaze-followed-people-api-openapi.yml
   format: yaml
   label: TVmaze followed people API
   slug: tvmaze-followed-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-followed-people-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-followed-people-api-openapi.yml
 - filename: tvmaze-followed-shows-api-openapi.yml
   format: yaml
   label: TVmaze followed shows API
   slug: tvmaze-followed-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-followed-shows-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-followed-shows-api-openapi.yml
 - filename: tvmaze-followed-webchannels-api-openapi.yml
   format: yaml
   label: TVmaze followed webchannels API
   slug: tvmaze-followed-webchannels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-followed-webchannels-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-followed-webchannels-api-openapi.yml
 - filename: tvmaze-marked-episodes-api-openapi.yml
   format: yaml
   label: TVmaze marked episodes API
   slug: tvmaze-marked-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-marked-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-marked-episodes-api-openapi.yml
 - filename: tvmaze-people-api-openapi.yml
   format: yaml
   label: TVmaze People API
   slug: tvmaze-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-people-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-people-api-openapi.yml
 - filename: tvmaze-schedule-api-openapi.yml
   format: yaml
   label: TVmaze Schedule API
   slug: tvmaze-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-schedule-api-openapi.yml
 - filename: tvmaze-scrobbling-api-openapi.yml
   format: yaml
   label: TVmaze Scrobbling API
   slug: tvmaze-scrobbling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-scrobbling-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-scrobbling-api-openapi.yml
 - filename: tvmaze-search-api-openapi.yml
   format: yaml
   label: TVmaze Search API
   slug: tvmaze-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-search-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-search-api-openapi.yml
 - filename: tvmaze-seasons-api-openapi.yml
   format: yaml
   label: TVmaze Seasons API
   slug: tvmaze-seasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-seasons-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-seasons-api-openapi.yml
 - filename: tvmaze-shows-api-openapi.yml
   format: yaml
   label: TVmaze Shows API
   slug: tvmaze-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-shows-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-shows-api-openapi.yml
 - filename: tvmaze-tagged-shows-api-openapi.yml
   format: yaml
   label: TVmaze tagged shows API
   slug: tvmaze-tagged-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-tagged-shows-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-tagged-shows-api-openapi.yml
 - filename: tvmaze-updates-api-openapi.yml
   format: yaml
   label: TVmaze Updates API
   slug: tvmaze-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-updates-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-updates-api-openapi.yml
 - filename: tvmaze-voted-episodes-api-openapi.yml
   format: yaml
   label: TVmaze voted episodes API
   slug: tvmaze-voted-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-voted-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-voted-episodes-api-openapi.yml
 - filename: tvmaze-voted-shows-api-openapi.yml
   format: yaml
   label: TVmaze voted shows API
   slug: tvmaze-voted-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-voted-shows-api-openapi.yml
+  url: https://artifacts.apis.io/tvmaze/openapi/tvmaze-voted-shows-api-openapi.yml
 consequence_counts:
   read: 48
   write: 24
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tvmaze
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /seasons/{id}/episodes\n  method: get\n  operationId: getSeasonEpisodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /episodes/{id}\n  method: get\n  operationId: getEpisode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /episodes/{id}/guestcast\n  method: get\n  operationId: getEpisodeGuestCast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /episodes/{id}/guestcrew\n  method: get\n  operationId: getEpisodeGuestCrew\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /people\n  method: get\n  operationId: listPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{id}\n  method: get\n  operationId: getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{id}/castcredits\n  method: get\n  operationId: getPersonCastCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{id}/crewcredits\n  method: get\n  operationId: getPersonCrewCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{id}/guestcastcredits\n  method: get\n  operationId: getPersonGuestCastCredits\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /updates/shows\n  method: get\n  operationId: getShowUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /updates/people\n  method: get\n  operationId: getPersonUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/agentic-access/tvmaze-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tvmaze/agentic-access/tvmaze-agentic-access.yml
 summary_line: 72 operations · 24 acting
 tags:
 - Video

@@ -9,37 +9,37 @@ api_specs:
   label: TourRadar Bookings API
   slug: tourradar-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-bookings-api-openapi.yml
 - filename: tourradar-bulk-api-openapi.yml
   format: yaml
   label: TourRadar Bulk API
   slug: tourradar-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-bulk-api-openapi.yml
 - filename: tourradar-operators-api-openapi.yml
   format: yaml
   label: TourRadar Operators API
   slug: tourradar-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-operators-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-operators-api-openapi.yml
 - filename: tourradar-pricing-availability-api-openapi.yml
   format: yaml
   label: TourRadar Pricing & Availability API
   slug: tourradar-pricing-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-pricing-availability-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-pricing-availability-api-openapi.yml
 - filename: tourradar-taxonomy-api-openapi.yml
   format: yaml
   label: TourRadar Taxonomy API
   slug: tourradar-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-taxonomy-api-openapi.yml
 - filename: tourradar-tours-api-openapi.yml
   format: yaml
   label: TourRadar Tours API
   slug: tourradar-tours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-tours-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-tours-api-openapi.yml
 consequence_counts:
   read: 19
   write: 2
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/tourra
   \ optional\n    scope:\n    - com.tourradar.operators/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operators/{operator}/bulk/tours\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - com.tourradar.operators/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/taxonomy/currencies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/taxonomy/destinations/{type}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/taxonomy/languages\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/taxonomy/tours/types\n  method: get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tours/search\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - com.tourradar.tours/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tours/{tourId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - com.tourradar.tours/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tours/{tourId}/departures\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - com.tourradar.tours/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tours/{tourId}/departures/{departureId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    scope:\n    - com.tourradar.tours/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tours/{tourId}/departures/{departureId}/price\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - com.tourradar.tours/read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tours/{tourId}/prices\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - com.tourradar.tours/read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/agentic-access/tourradar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tourradar/agentic-access/tourradar-agentic-access.yml
 summary_line: 21 operations · 2 acting
 tags:
 - Travel

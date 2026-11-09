@@ -9,109 +9,109 @@ api_specs:
   label: Govly Awards API
   slug: govly-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-awards-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-awards-api-openapi.yml
 - filename: govly-documents-api-openapi.yml
   format: yaml
   label: Govly Documents API
   slug: govly-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-documents-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-documents-api-openapi.yml
 - filename: govly-follows-api-openapi.yml
   format: yaml
   label: Govly Follows API
   slug: govly-follows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-follows-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-follows-api-openapi.yml
 - filename: govly-inbox-api-openapi.yml
   format: yaml
   label: Govly Inbox API
   slug: govly-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-inbox-api-openapi.yml
 - filename: govly-opportunities-api-openapi.yml
   format: yaml
   label: Govly Opportunities API
   slug: govly-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-opportunities-api-openapi.yml
 - filename: govly-quote-submissions-api-openapi.yml
   format: yaml
   label: Govly Quote Submissions API
   slug: govly-quote-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-quote-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-quote-submissions-api-openapi.yml
 - filename: govly-saved-searches-api-openapi.yml
   format: yaml
   label: Govly Saved Searches API
   slug: govly-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-saved-searches-api-openapi.yml
 - filename: govly-workspace-attachments-api-openapi.yml
   format: yaml
   label: Govly Workspace Attachments API
   slug: govly-workspace-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspace-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-workspace-attachments-api-openapi.yml
 - filename: govly-workspace-comments-api-openapi.yml
   format: yaml
   label: Govly Workspace Comments API
   slug: govly-workspace-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspace-comments-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-workspace-comments-api-openapi.yml
 - filename: govly-workspace-members-api-openapi.yml
   format: yaml
   label: Govly Workspace Members API
   slug: govly-workspace-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspace-members-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-workspace-members-api-openapi.yml
 - filename: govly-workspaces-api-openapi.yml
   format: yaml
   label: Govly Workspaces API
   slug: govly-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-workspaces-api-openapi.yml
 - filename: govly-contacts-api-openapi.yml
   format: yaml
   label: Govly Contacts API
   slug: govly-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-contacts-api-openapi.yml
 - filename: govly-organization-labels-api-openapi.yml
   format: yaml
   label: Govly Organization Labels API
   slug: govly-organization-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-organization-labels-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-organization-labels-api-openapi.yml
 - filename: govly-organization-users-api-openapi.yml
   format: yaml
   label: Govly Organization Users API
   slug: govly-organization-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-organization-users-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-organization-users-api-openapi.yml
 - filename: govly-places-api-openapi.yml
   format: yaml
   label: Govly Places API
   slug: govly-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-places-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-places-api-openapi.yml
 - filename: govly-product-catalogs-api-openapi.yml
   format: yaml
   label: Govly Product Catalogs API
   slug: govly-product-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-product-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-product-catalogs-api-openapi.yml
 - filename: govly-shares-api-openapi.yml
   format: yaml
   label: Govly Shares API
   slug: govly-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-shares-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-shares-api-openapi.yml
 - filename: govly-signals-api-openapi.yml
   format: yaml
   label: Govly Signals API
   slug: govly-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-signals-api-openapi.yml
+  url: https://artifacts.apis.io/govly/openapi/govly-signals-api-openapi.yml
 consequence_counts:
   read: 19
   write: 13
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/govly-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tools/v1/workspaces/{workspaceId}/attachments\n  method: post\n  operationId: upload_workspace_attachments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tools/v1/workspaces/{workspaceId}/comments\n  method: post\n  operationId: create_workspace_comment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tools/v1/workspaces/{workspaceId}/members\n  method:\
   \ post\n  operationId: add_workspace_member\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tools/v1/workspaces\n  method: get\n  operationId: list_workspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tools/v1/workspaces\n  method: post\n  operationId: create_workspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tools/v1/workspaces/{id}\n  method: get\n  operationId: show_workspace\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tools/v1/workspaces/{id}\n  method: patch\n  operationId: update_workspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/agentic-access/govly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/govly/agentic-access/govly-agentic-access.yml
 summary_line: 32 operations · 13 acting
 tags:
 - Company

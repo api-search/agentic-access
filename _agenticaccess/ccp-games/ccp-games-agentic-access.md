@@ -9,187 +9,187 @@ api_specs:
   label: CCP Games Alliance API
   slug: ccp-games-alliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-alliance-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-alliance-api-openapi.yml
 - filename: ccp-games-assets-api-openapi.yml
   format: yaml
   label: CCP Games Assets API
   slug: ccp-games-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-assets-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-assets-api-openapi.yml
 - filename: ccp-games-calendar-api-openapi.yml
   format: yaml
   label: CCP Games Calendar API
   slug: ccp-games-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-calendar-api-openapi.yml
 - filename: ccp-games-character-api-openapi.yml
   format: yaml
   label: CCP Games Character API
   slug: ccp-games-character-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-character-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-character-api-openapi.yml
 - filename: ccp-games-clones-api-openapi.yml
   format: yaml
   label: CCP Games Clones API
   slug: ccp-games-clones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-clones-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-clones-api-openapi.yml
 - filename: ccp-games-contacts-api-openapi.yml
   format: yaml
   label: CCP Games Contacts API
   slug: ccp-games-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-contacts-api-openapi.yml
 - filename: ccp-games-contracts-api-openapi.yml
   format: yaml
   label: CCP Games Contracts API
   slug: ccp-games-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-contracts-api-openapi.yml
 - filename: ccp-games-corporation-api-openapi.yml
   format: yaml
   label: CCP Games Corporation API
   slug: ccp-games-corporation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-corporation-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-corporation-api-openapi.yml
 - filename: ccp-games-dogma-api-openapi.yml
   format: yaml
   label: CCP Games Dogma API
   slug: ccp-games-dogma-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-dogma-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-dogma-api-openapi.yml
 - filename: ccp-games-faction-warfare-api-openapi.yml
   format: yaml
   label: CCP Games Faction Warfare API
   slug: ccp-games-faction-warfare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-faction-warfare-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-faction-warfare-api-openapi.yml
 - filename: ccp-games-fittings-api-openapi.yml
   format: yaml
   label: CCP Games Fittings API
   slug: ccp-games-fittings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-fittings-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-fittings-api-openapi.yml
 - filename: ccp-games-fleets-api-openapi.yml
   format: yaml
   label: CCP Games Fleets API
   slug: ccp-games-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-fleets-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-fleets-api-openapi.yml
 - filename: ccp-games-incursions-api-openapi.yml
   format: yaml
   label: CCP Games Incursions API
   slug: ccp-games-incursions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-incursions-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-incursions-api-openapi.yml
 - filename: ccp-games-industry-api-openapi.yml
   format: yaml
   label: CCP Games Industry API
   slug: ccp-games-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-industry-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-industry-api-openapi.yml
 - filename: ccp-games-insurance-api-openapi.yml
   format: yaml
   label: CCP Games Insurance API
   slug: ccp-games-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-insurance-api-openapi.yml
 - filename: ccp-games-killmails-api-openapi.yml
   format: yaml
   label: CCP Games Killmails API
   slug: ccp-games-killmails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-killmails-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-killmails-api-openapi.yml
 - filename: ccp-games-location-api-openapi.yml
   format: yaml
   label: CCP Games Location API
   slug: ccp-games-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-location-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-location-api-openapi.yml
 - filename: ccp-games-loyalty-api-openapi.yml
   format: yaml
   label: CCP Games Loyalty API
   slug: ccp-games-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-loyalty-api-openapi.yml
 - filename: ccp-games-mail-api-openapi.yml
   format: yaml
   label: CCP Games Mail API
   slug: ccp-games-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-mail-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-mail-api-openapi.yml
 - filename: ccp-games-market-api-openapi.yml
   format: yaml
   label: CCP Games Market API
   slug: ccp-games-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-market-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-market-api-openapi.yml
 - filename: ccp-games-meta-api-openapi.yml
   format: yaml
   label: CCP Games Meta API
   slug: ccp-games-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-meta-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-meta-api-openapi.yml
 - filename: ccp-games-planetary-interaction-api-openapi.yml
   format: yaml
   label: CCP Games Planetary Interaction API
   slug: ccp-games-planetary-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-planetary-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-planetary-interaction-api-openapi.yml
 - filename: ccp-games-routes-api-openapi.yml
   format: yaml
   label: CCP Games Routes API
   slug: ccp-games-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-routes-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-routes-api-openapi.yml
 - filename: ccp-games-search-api-openapi.yml
   format: yaml
   label: CCP Games Search API
   slug: ccp-games-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-search-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-search-api-openapi.yml
 - filename: ccp-games-skills-api-openapi.yml
   format: yaml
   label: CCP Games Skills API
   slug: ccp-games-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-skills-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-skills-api-openapi.yml
 - filename: ccp-games-sovereignty-api-openapi.yml
   format: yaml
   label: CCP Games Sovereignty API
   slug: ccp-games-sovereignty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-sovereignty-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-sovereignty-api-openapi.yml
 - filename: ccp-games-status-api-openapi.yml
   format: yaml
   label: CCP Games Status API
   slug: ccp-games-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-status-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-status-api-openapi.yml
 - filename: ccp-games-universe-api-openapi.yml
   format: yaml
   label: CCP Games Universe API
   slug: ccp-games-universe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-universe-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-universe-api-openapi.yml
 - filename: ccp-games-user-interface-api-openapi.yml
   format: yaml
   label: CCP Games User Interface API
   slug: ccp-games-user-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-user-interface-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-user-interface-api-openapi.yml
 - filename: ccp-games-wallet-api-openapi.yml
   format: yaml
   label: CCP Games Wallet API
   slug: ccp-games-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-wallet-api-openapi.yml
 - filename: ccp-games-wars-api-openapi.yml
   format: yaml
   label: CCP Games Wars API
   slug: ccp-games-wars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/openapi/ccp-games-wars-api-openapi.yml
+  url: https://artifacts.apis.io/ccp-games/openapi/ccp-games-wars-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 167
@@ -259,8 +259,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ccp-ga
   \  operationId: DeleteFleetsFleetIdMembersMemberId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - esi-fleets.write_fleet.v1\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleets/{fleet_id}/members/{member_id}\n  method: put\n  operationId: PutFleetsFleetIdMembersMemberId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - esi-fleets.write_fleet.v1\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleets/{fleet_id}/squads/{squad_id}\n  method: delete\n  operationId: DeleteFleetsFleetIdSquadsSquadId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    scope:\n    - esi-fleets.write_fleet.v1\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleets/{fleet_id}/squads/{squad_id}\n  method: put\n  operationId: PutFleetsFleetIdSquadsSquadId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - esi-fleets.write_fleet.v1\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleets/{fleet_id}/wings\n  method: get\n  operationId: GetFleetsFleetIdWings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - esi-fleets.read_fleet.v1\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fleets/{fleet_id}/wings\n  method: post\n  operationId:\
   \ PostFleetsFleetIdWings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - esi-fleets.write_fleet.v1\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleets/{fleet_id}/wings/{wing_id}\n  method: delete\n  operationId: DeleteFleetsFleetIdWingsWingId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - esi-fleets.write_fleet.v1\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleets/{fleet_id}/wings/{wing_id}\n  method: put\n  operationId: PutFleetsFleetIdWingsWingId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - esi-fleets.write_fleet.v1\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleets/{fleet_id}/wings/{wing_id}/squads\n  method: post\n  operationId: PostFleetsFleetIdWingsWingIdSquads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - esi-fleets.write_fleet.v1\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/agentic-access/ccp-games-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/agentic-access/ccp-games-agentic-access.yml
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleets/{fleet_id}/wings/{wing_id}/squads\n  method: post\n  operationId: PostFleetsFleetIdWingsWingIdSquads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - esi-fleets.write_fleet.v1\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://artifacts.apis.io/ccp-games/agentic-access/ccp-games-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ccp-games/agentic-access/ccp-games-agentic-access.yml
 summary_line: 197 operations · 30 acting
 tags:
 - Company

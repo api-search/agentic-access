@@ -9,37 +9,37 @@ api_specs:
   label: Urjanet Authentication API
   slug: urjanet-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/urjanet/openapi/urjanet-authentication-api-openapi.yml
 - filename: urjanet-credentials-connections-api-openapi.yml
   format: yaml
   label: Urjanet Credentials & Connections API
   slug: urjanet-credentials-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-credentials-connections-api-openapi.yml
+  url: https://artifacts.apis.io/urjanet/openapi/urjanet-credentials-connections-api-openapi.yml
 - filename: urjanet-meters-api-openapi.yml
   format: yaml
   label: Urjanet Meters API
   slug: urjanet-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-meters-api-openapi.yml
+  url: https://artifacts.apis.io/urjanet/openapi/urjanet-meters-api-openapi.yml
 - filename: urjanet-statements-bills-api-openapi.yml
   format: yaml
   label: Urjanet Statements & Bills API
   slug: urjanet-statements-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-statements-bills-api-openapi.yml
+  url: https://artifacts.apis.io/urjanet/openapi/urjanet-statements-bills-api-openapi.yml
 - filename: urjanet-users-api-openapi.yml
   format: yaml
   label: Urjanet Users API
   slug: urjanet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-users-api-openapi.yml
+  url: https://artifacts.apis.io/urjanet/openapi/urjanet-users-api-openapi.yml
 - filename: urjanet-webhooks-api-openapi.yml
   format: yaml
   label: Urjanet Webhooks API
   slug: urjanet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/openapi/urjanet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/urjanet/openapi/urjanet-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/urjane
   \  method: post\n  operationId: createSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statements\n  method: get\n  operationId: listStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utility/files\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /utility/meters\n  method: get\n  operationId: listMeters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utility/meters/{meterId}\n  method: patch\n  operationId: updateMeter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Organization/{organizationId}\n  method: patch\n  operationId: updateOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/agentic-access/urjanet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/urjanet/agentic-access/urjanet-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Utility Data

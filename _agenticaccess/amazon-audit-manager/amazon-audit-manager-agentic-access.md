@@ -9,37 +9,73 @@ api_specs:
   label: Amazon Audit Manager Assessments API
   slug: amazon-audit-manager-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-assessments-api-openapi.yml
 - filename: amazon-audit-manager-controls-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Controls API
   slug: amazon-audit-manager-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-controls-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-controls-api-openapi.yml
 - filename: amazon-audit-manager-evidence-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Evidence API
   slug: amazon-audit-manager-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-evidence-api-openapi.yml
 - filename: amazon-audit-manager-frameworks-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Frameworks API
   slug: amazon-audit-manager-frameworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-frameworks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-frameworks-api-openapi.yml
 - filename: amazon-audit-manager-reports-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Reports API
   slug: amazon-audit-manager-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-reports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-reports-api-openapi.yml
 - filename: amazon-audit-manager-settings-api-openapi.yml
   format: yaml
   label: Amazon Audit Manager Settings API
   slug: amazon-audit-manager-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-settings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-settings-api-openapi.yml
+- filename: amazon-audit-manager-account-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Account API
+  slug: amazon-audit-manager-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-account-api-openapi.yml
+- filename: amazon-audit-manager-assessmentframeworksharerequests-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Assessmentframeworksharerequests API
+  slug: amazon-audit-manager-assessmentframeworksharerequests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-assessmentframeworksharerequests-api-openapi.yml
+- filename: amazon-audit-manager-delegations-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Delegations API
+  slug: amazon-audit-manager-delegations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-delegations-api-openapi.yml
+- filename: amazon-audit-manager-insights-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Insights API
+  slug: amazon-audit-manager-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-insights-api-openapi.yml
+- filename: amazon-audit-manager-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Operations API
+  slug: amazon-audit-manager-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-operations-api-openapi.yml
+- filename: amazon-audit-manager-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager Audit Manager Tags API
+  slug: amazon-audit-manager-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-audit-manager/openapi/amazon-audit-manager-tags-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 3
@@ -92,11 +128,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /controls/{controlId}\n  method: get\n  operationId: getControl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /controls/{controlId}\n  method: put\n  operationId: updateControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /controls/{controlId}\n  method: delete\n  operationId: deleteControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /assessments/{assessmentId}/controlSets/{controlSetId}/evidence\n  method: get\n  operationId: listEvidence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assessments/{assessmentId}/controlSets/{controlSetId}/evidenceFolders\n  method: get\n  operationId: getEvidenceFoldersByAssessmentControl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings\n  method: get\n  operationId: getSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings\n  method: put\n  operationId:\
   \ updateSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/agentic-access/amazon-audit-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-audit-manager/agentic-access/amazon-audit-manager-agentic-access.yml
 summary_line: 22 operations · 12 acting · 3 human-in-the-loop
 tags:
 - Amazon Audit Manager
 - Compliance
 - Audit
 - Risk Management
+- Amazon Web Services
 ---

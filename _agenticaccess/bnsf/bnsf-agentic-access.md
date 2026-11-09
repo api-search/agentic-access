@@ -9,31 +9,31 @@ api_specs:
   label: BNSF AUTOMOTIVE API
   slug: bnsf-automotive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-automotive-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-automotive-api-openapi.yml
 - filename: bnsf-carload-api-openapi.yml
   format: yaml
   label: BNSF CARLOAD API
   slug: bnsf-carload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-carload-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-carload-api-openapi.yml
 - filename: bnsf-intermodal-api-openapi.yml
   format: yaml
   label: BNSF INTERMODAL API
   slug: bnsf-intermodal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-intermodal-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-intermodal-api-openapi.yml
 - filename: bnsf-requests-api-openapi.yml
   format: yaml
   label: BNSF Requests API
   slug: bnsf-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-requests-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-requests-api-openapi.yml
 - filename: bnsf-trains-api-openapi.yml
   format: yaml
   label: BNSF TRAINS API
   slug: bnsf-trains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-trains-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-trains-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 24
@@ -103,11 +103,12 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bnsf-a
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stcc/hazardous\n  method: get\n  operationId: getV1StccHazardous\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/umler\n  method: post\n  operationId: postV1Umler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/intermodal-schedules\n  method: get\n  operationId: getV1IntermodalSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/bol\n  method: post\n  operationId: postV1Bol\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/waybill\n  method: get\n  operationId: getV1Waybill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/trains\n  method: get\n  operationId: getV1Trains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ag-trains\n  method: post\n  operationId: postV1AgTrains\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1/coal-trains\n  method: post\n  operationId: postV1CoalTrains\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ip-trains\n  method: post\n  operationId: postV1IpTrains\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/agentic-access/bnsf-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bnsf/agentic-access/bnsf-agentic-access.yml
 summary_line: 59 operations · 35 acting · 3 human-in-the-loop
 tags:
 - Freight
 - Railroad
+- Rail
 - Shipping
 - Trains
 - Intermodal

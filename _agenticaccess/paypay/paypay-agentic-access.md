@@ -9,13 +9,13 @@ api_specs:
   label: PayPay Payment API
   slug: paypay-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/openapi/paypay-payment-api-openapi.yml
+  url: https://artifacts.apis.io/paypay/openapi/paypay-payment-api-openapi.yml
 - filename: paypay-payments-api-openapi.yml
   format: yaml
   label: PayPay Payments API
   slug: paypay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/openapi/paypay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paypay/openapi/paypay-payments-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 3
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/paypay
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/payments/reauthorize\n  method: post\n  operationId: reauthorizePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/payments/capture\n  method: post\n  operationId: capturePaymentAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /v2/payments/preauthorize/revert\n  method: post\n  operationId: revertAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/refunds\n  method: post\n  operationId: refundPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/refunds/{merchantRefundId}?paymentId={paymentId}\n  method: get\n  operationId: getRefundDetails\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/agentic-access/paypay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paypay/agentic-access/paypay-agentic-access.yml
 summary_line: 10 operations · 7 acting
 tags:
 - Company

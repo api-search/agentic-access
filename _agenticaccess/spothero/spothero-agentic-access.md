@@ -9,31 +9,31 @@ api_specs:
   label: SpotHero Availability API
   slug: spothero-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-availability-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-availability-api-openapi.yml
 - filename: spothero-facilities-api-openapi.yml
   format: yaml
   label: SpotHero Facilities API
   slug: spothero-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-facilities-api-openapi.yml
 - filename: spothero-rates-api-openapi.yml
   format: yaml
   label: SpotHero Rates API
   slug: spothero-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-rates-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-rates-api-openapi.yml
 - filename: spothero-reservations-api-openapi.yml
   format: yaml
   label: SpotHero Reservations API
   slug: spothero-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-reservations-api-openapi.yml
 - filename: spothero-search-api-openapi.yml
   format: yaml
   label: SpotHero Search API
   slug: spothero-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-search-api-openapi.yml
+  url: https://artifacts.apis.io/spothero/openapi/spothero-search-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spothero-parking-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 6\n    acting: 2\n  by_consequence:\n    read: 6\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: search-parking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities/{facility_id}\n  method: get\n  operationId: get-facility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities/{facility_id}/availability\n\
   \  method: get\n  operationId: get-facility-availability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities/{facility_id}/rates\n  method: get\n  operationId: get-facility-rates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservations\n  method: get\n  operationId: list-reservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservations\n  method: post\n  operationId: create-reservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /reservations/{reservation_id}\n  method: get\n  operationId: get-reservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservations/{reservation_id}\n  method: delete\n  operationId: cancel-reservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/agentic-access/spothero-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spothero/agentic-access/spothero-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
 - Parking

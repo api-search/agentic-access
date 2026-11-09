@@ -9,43 +9,49 @@ api_specs:
   label: Amazon IoT TwinMaker Pricingplan API
   slug: amazon-iot-twinmaker-pricingplan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-pricingplan-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-pricingplan-api-openapi.yml
 - filename: amazon-iot-twinmaker-queries-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Queries API
   slug: amazon-iot-twinmaker-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-queries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-queries-api-openapi.yml
 - filename: amazon-iot-twinmaker-sync-jobs-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Sync Jobs API
   slug: amazon-iot-twinmaker-sync-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-sync-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-sync-jobs-api-openapi.yml
 - filename: amazon-iot-twinmaker-tags-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Tags API
   slug: amazon-iot-twinmaker-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-tags-api-openapi.yml
 - filename: amazon-iot-twinmaker-tags-list-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Tags List API
   slug: amazon-iot-twinmaker-tags-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-tags-list-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-tags-list-api-openapi.yml
 - filename: amazon-iot-twinmaker-workspaces-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Workspaces API
   slug: amazon-iot-twinmaker-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-workspaces-api-openapi.yml
 - filename: amazon-iot-twinmaker-workspaces-list-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Workspaces List API
   slug: amazon-iot-twinmaker-workspaces-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-workspaces-list-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-workspaces-list-api-openapi.yml
+- filename: amazon-iot-twinmaker-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT TwinMaker Iot Twinmaker Operations API
+  slug: amazon-iot-twinmaker-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-operations-api-openapi.yml
 consequence_counts:
   read: 15
   write: 19
@@ -83,9 +89,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ /workspaces/{workspaceId}/scenes/{sceneId}\n  method: get\n  operationId: GetScene\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/scenes/{sceneId}\n  method: put\n  operationId: UpdateScene\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/entity-properties/value\n  method: post\n  operationId: GetPropertyValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/entity-properties/history\n  method: post\n  operationId: GetPropertyValueHistory\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/component-types-list\n  method: post\n  operationId: ListComponentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/entities-list\n  method: post\n  operationId: ListEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/scenes-list\n  method: post\n  operationId: ListScenes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/sync-jobs-list\n  method: post\n  operationId: ListSyncJobs\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/sync-jobs/{syncSource}/resources-list\n  method: post\n  operationId: ListSyncResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces-list\n  method: post\n  operationId: ListWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/agentic-access/amazon-iot-twinmaker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iot-twinmaker/agentic-access/amazon-iot-twinmaker-agentic-access.yml
 summary_line: 34 operations · 19 acting
 tags:
+- Amazon Web Services
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

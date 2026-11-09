@@ -9,43 +9,43 @@ api_specs:
   label: Space-Track Ancillary API
   slug: spacetrack-ancillary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-ancillary-api-openapi.yml
+  url: https://artifacts.apis.io/spacetrack/openapi/spacetrack-ancillary-api-openapi.yml
 - filename: spacetrack-authentication-api-openapi.yml
   format: yaml
   label: Space-Track Authentication API
   slug: spacetrack-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/spacetrack/openapi/spacetrack-authentication-api-openapi.yml
 - filename: spacetrack-conjunction-data-api-openapi.yml
   format: yaml
   label: Space-Track Conjunction Data API
   slug: spacetrack-conjunction-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-conjunction-data-api-openapi.yml
+  url: https://artifacts.apis.io/spacetrack/openapi/spacetrack-conjunction-data-api-openapi.yml
 - filename: spacetrack-decay-predictions-api-openapi.yml
   format: yaml
   label: Space-Track Decay Predictions API
   slug: spacetrack-decay-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-decay-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/spacetrack/openapi/spacetrack-decay-predictions-api-openapi.yml
 - filename: spacetrack-general-perturbations-api-openapi.yml
   format: yaml
   label: Space-Track General Perturbations API
   slug: spacetrack-general-perturbations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-general-perturbations-api-openapi.yml
+  url: https://artifacts.apis.io/spacetrack/openapi/spacetrack-general-perturbations-api-openapi.yml
 - filename: spacetrack-satellite-catalog-api-openapi.yml
   format: yaml
   label: Space-Track Satellite Catalog API
   slug: spacetrack-satellite-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-satellite-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/spacetrack/openapi/spacetrack-satellite-catalog-api-openapi.yml
 - filename: spacetrack-tracking-and-impact-prediction-api-openapi.yml
   format: yaml
   label: Space-Track Tracking and Impact Prediction API
   slug: spacetrack-tracking-and-impact-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/openapi/spacetrack-tracking-and-impact-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/spacetrack/openapi/spacetrack-tracking-and-impact-prediction-api-openapi.yml
 consequence_counts:
   read: 21
   write: 1
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basicspacedata/query/class/tle_latest/{queryParams}\n  method: get\n  operationId: queryTLELatest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basicspacedata/query/class/tle_publish/{queryParams}\n  method: get\n  operationId: queryTLEPublish\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expandedspacedata/query/class/cdm/{queryParams}\n  method: get\n  operationId: queryCDM\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expandedspacedata/query/class/maneuver/{queryParams}\n  method: get\n  operationId: queryManeuver\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expandedspacedata/query/class/maneuver_history/{queryParams}\n  method: get\n  operationId: queryManeuverHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expandedspacedata/query/class/organization/{queryParams}\n  method: get\n  operationId: queryOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expandedspacedata/query/class/satellite/{queryParams}\n  method: get\n  operationId: querySatellite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expandedspacedata/query/class/car/{queryParams}\n  method: get\n  operationId: queryCAR\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/agentic-access/spacetrack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spacetrack/agentic-access/spacetrack-agentic-access.yml
 summary_line: 22 operations · 1 acting
 tags:
 - Space

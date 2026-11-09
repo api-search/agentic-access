@@ -8,31 +8,31 @@ api_specs:
   label: SoundStat Genres API
   slug: soundstat-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-genres-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-genres-api-openapi.yml
 - filename: soundstat-recommendations-api-openapi.yml
   format: yaml
   label: SoundStat Recommendations API
   slug: soundstat-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-recommendations-api-openapi.yml
 - filename: soundstat-stats-api-openapi.yml
   format: yaml
   label: SoundStat Stats API
   slug: soundstat-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-stats-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-stats-api-openapi.yml
 - filename: soundstat-track-api-openapi.yml
   format: yaml
   label: SoundStat Track API
   slug: soundstat-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-track-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-track-api-openapi.yml
 - filename: soundstat-tracks-api-openapi.yml
   format: yaml
   label: SoundStat Tracks API
   slug: soundstat-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/soundstat/openapi/soundstat-tracks-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sounds
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/recommendations/mood\n  method: post\n  operationId: get_mood_recommendations_api_v1_recommendations_mood_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/recommendations/activity\n  method: post\n  operationId: get_activity_recommendations_api_v1_recommendations_activity_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/recommendations/instrumental\n  method: post\n  operationId: get_instrumental_recommendations_api_v1_recommendations_instrumental_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/recommendations/acoustic\n  method:\
   \ post\n  operationId: get_acoustic_recommendations_api_v1_recommendations_acoustic_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/stats\n  method: get\n  operationId: get_analysis_stats_api_v1_stats_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/track/{track_id}\n  method: get\n  operationId: get_track_analysis_api_v1_track__track_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/track/{track_id}/status\n  method: get\n  operationId: track_status_updates_api_v1_track__track_id__status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/v1/tracks/search\n  method: post\n  operationId: search_tracks_api_v1_tracks_search_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/agentic-access/soundstat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/soundstat/agentic-access/soundstat-agentic-access.yml
 summary_line: 20 operations
 tags:
 - Music

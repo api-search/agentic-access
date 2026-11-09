@@ -107,9 +107,9 @@ source_yaml_url: https://artifacts.apis.io/ioconnex-dev/agentic-access/ioconnex-
 summary_line: 30 operations · 14 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - MCP
 - Search
-- Document-Conversion
+- Document Conversion
 - Price-Tracking
 ---

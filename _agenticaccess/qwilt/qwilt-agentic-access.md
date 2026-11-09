@@ -9,37 +9,37 @@ api_specs:
   label: Qwilt Certificate Templates API
   slug: qwilt-certificate-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-certificate-templates-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-certificate-templates-api-openapi.yml
 - filename: qwilt-certificates-api-openapi.yml
   format: yaml
   label: Qwilt Certificates API
   slug: qwilt-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-certificates-api-openapi.yml
 - filename: qwilt-origin-allow-list-api-openapi.yml
   format: yaml
   label: Qwilt Origin Allow List API
   slug: qwilt-origin-allow-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-origin-allow-list-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-origin-allow-list-api-openapi.yml
 - filename: qwilt-publishing-operations-api-openapi.yml
   format: yaml
   label: Qwilt Publishing Operations API
   slug: qwilt-publishing-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-publishing-operations-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-publishing-operations-api-openapi.yml
 - filename: qwilt-site-configurations-api-openapi.yml
   format: yaml
   label: Qwilt Site Configurations API
   slug: qwilt-site-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-site-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-site-configurations-api-openapi.yml
 - filename: qwilt-sites-api-openapi.yml
   format: yaml
   label: Qwilt Sites API
   slug: qwilt-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/openapi/qwilt-sites-api-openapi.yml
+  url: https://artifacts.apis.io/qwilt/openapi/qwilt-sites-api-openapi.yml
 consequence_counts:
   read: 10
   write: 12
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/qwilt-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/sites/{siteId}/publishing-operations\n  method: get\n  operationId: listPublishingOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/sites/{siteId}/publishing-operations\n  method: post\n  operationId: createPublishingOperation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/sites/{siteId}/publishing-operations/{publishId}\n  method: get\n  operationId: getPublishingOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v2/sites/{siteId}/publishing-operations/actions/un-publish\n  method: post\n  operationId: unpublishSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/sites/{siteId}/publishing-operations/actions/republish\n  method: post\n  operationId: republishSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/sites/{siteId}/publishing-operations/{publishId}/actions/cancel\n  method: post\n  operationId: cancelPublishingOperation\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1.0/network/device-ip\n  method: get\n  operationId: getOriginAllowList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/agentic-access/qwilt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qwilt/agentic-access/qwilt-agentic-access.yml
 summary_line: 22 operations · 12 acting
 tags:
 - Company

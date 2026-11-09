@@ -8,31 +8,31 @@ api_specs:
   label: Aviation Edge Reference API
   slug: aviation-edge-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-reference-api-openapi.yml
+  url: https://artifacts.apis.io/aviation-edge/openapi/aviation-edge-reference-api-openapi.yml
 - filename: aviation-edge-satellites-api-openapi.yml
   format: yaml
   label: Aviation Edge Satellites API
   slug: aviation-edge-satellites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-satellites-api-openapi.yml
+  url: https://artifacts.apis.io/aviation-edge/openapi/aviation-edge-satellites-api-openapi.yml
 - filename: aviation-edge-schedules-api-openapi.yml
   format: yaml
   label: Aviation Edge Schedules API
   slug: aviation-edge-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/aviation-edge/openapi/aviation-edge-schedules-api-openapi.yml
 - filename: aviation-edge-notams-api-openapi.yml
   format: yaml
   label: Aviation Edge NOTA Ms API
   slug: aviation-edge-notams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-notams-api-openapi.yml
+  url: https://artifacts.apis.io/aviation-edge/openapi/aviation-edge-notams-api-openapi.yml
 - filename: aviation-edge-realtime-api-openapi.yml
   format: yaml
   label: Aviation Edge Realtime API
   slug: aviation-edge-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/openapi/aviation-edge-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/aviation-edge/openapi/aviation-edge-realtime-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: generated\nsource: openapi/aviati
   \  method: get\n  operationId: getAircraft\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /planeTypeDatabase\n  method: get\n  operationId: getAircraftTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cityDatabase\n  method: get\n  operationId: getCities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countryDatabase\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxDatabase\n  method: get\n  operationId: getTaxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /timezoneDatabase\n  method: get\n  operationId: getTimezones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /autocomplete\n  method: get\n  operationId: autocomplete\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nearby\n  method: get\n  operationId: getNearby\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /satelliteDetails\n  method: get\n  operationId: getSatelliteDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timetable\n  method: get\n  operationId: getTimetable\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flightsFuture\n  method: get\n  operationId: getFutureFlights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/agentic-access/aviation-edge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aviation-edge/agentic-access/aviation-edge-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Airlines

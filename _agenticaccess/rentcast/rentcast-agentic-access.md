@@ -8,25 +8,25 @@ api_specs:
   label: RentCast Avm API
   slug: rentcast-avm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-avm-api-openapi.yml
+  url: https://artifacts.apis.io/rentcast/openapi/rentcast-avm-api-openapi.yml
 - filename: rentcast-listings-api-openapi.yml
   format: yaml
   label: RentCast Listings API
   slug: rentcast-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-listings-api-openapi.yml
+  url: https://artifacts.apis.io/rentcast/openapi/rentcast-listings-api-openapi.yml
 - filename: rentcast-markets-api-openapi.yml
   format: yaml
   label: RentCast Markets API
   slug: rentcast-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-markets-api-openapi.yml
+  url: https://artifacts.apis.io/rentcast/openapi/rentcast-markets-api-openapi.yml
 - filename: rentcast-properties-api-openapi.yml
   format: yaml
   label: RentCast Properties API
   slug: rentcast-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/openapi/rentcast-properties-api-openapi.yml
+  url: https://artifacts.apis.io/rentcast/openapi/rentcast-properties-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rentcast-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /properties\n  method: get\n  operationId: property-records\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/random\n  method: get\n  operationId: property-records-random\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/{id}\n  method: get\n  operationId:\
   \ property-record-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /avm/value\n  method: get\n  operationId: value-estimate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /avm/rent/long-term\n  method: get\n  operationId: rent-estimate-long-term\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/sale\n  method: get\n  operationId: sale-listings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/sale/{id}\n  method: get\n  operationId: sale-listing-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/rental/long-term\n  method: get\n  operationId: rental-listings-long-term\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/rental/long-term/{id}\n  method: get\n  operationId: rental-listing-long-term-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets\n  method: get\n  operationId: market-statistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/agentic-access/rentcast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rentcast/agentic-access/rentcast-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Real Estate

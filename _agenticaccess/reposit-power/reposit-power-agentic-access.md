@@ -9,67 +9,67 @@ api_specs:
   label: Reposit Power Auth API
   slug: reposit-power-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-auth-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-auth-api-openapi.yml
 - filename: reposit-power-battery-api-openapi.yml
   format: yaml
   label: Reposit Power Battery API
   slug: reposit-power-battery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-battery-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-battery-api-openapi.yml
 - filename: reposit-power-curtailment-api-openapi.yml
   format: yaml
   label: Reposit Power Curtailment API
   slug: reposit-power-curtailment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-curtailment-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-curtailment-api-openapi.yml
 - filename: reposit-power-deployment-api-openapi.yml
   format: yaml
   label: Reposit Power Deployment API
   slug: reposit-power-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-deployment-api-openapi.yml
 - filename: reposit-power-dispatch-api-openapi.yml
   format: yaml
   label: Reposit Power Dispatch API
   slug: reposit-power-dispatch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-dispatch-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-dispatch-api-openapi.yml
 - filename: reposit-power-inverter-api-openapi.yml
   format: yaml
   label: Reposit Power Inverter API
   slug: reposit-power-inverter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-inverter-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-inverter-api-openapi.yml
 - filename: reposit-power-network-api-openapi.yml
   format: yaml
   label: Reposit Power Network API
   slug: reposit-power-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-network-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-network-api-openapi.yml
 - filename: reposit-power-node-api-openapi.yml
   format: yaml
   label: Reposit Power Node API
   slug: reposit-power-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-node-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-node-api-openapi.yml
 - filename: reposit-power-power-station-api-openapi.yml
   format: yaml
   label: Reposit Power Station API
   slug: reposit-power-power-station-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-power-station-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-power-station-api-openapi.yml
 - filename: reposit-power-solar-api-openapi.yml
   format: yaml
   label: Reposit Power Solar API
   slug: reposit-power-solar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-solar-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-solar-api-openapi.yml
 - filename: reposit-power-users-api-openapi.yml
   format: yaml
   label: Reposit Power Users API
   slug: reposit-power-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/openapi/reposit-power-users-api-openapi.yml
+  url: https://artifacts.apis.io/reposit-power/openapi/reposit-power-users-api-openapi.yml
 consequence_counts:
   read: 28
   safety-critical: 1
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/reposi
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/curtailments/{curtailmentId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/curtailments/{curtailmentId}/cancel\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/curtailments/setpoint\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/curtailments/setpoint\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/curtailments/heartbeat\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/dispatches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/dispatches\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/dispatches/{dispatchId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/capabilities\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/agentic-access/reposit-power-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reposit-power/agentic-access/reposit-power-agentic-access.yml
 summary_line: 39 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Energy

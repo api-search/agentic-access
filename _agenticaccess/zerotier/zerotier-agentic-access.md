@@ -9,49 +9,49 @@ api_specs:
   label: ZeroTier Controller API
   slug: zerotier-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-controller-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-controller-api-openapi.yml
 - filename: zerotier-network-api-openapi.yml
   format: yaml
   label: ZeroTier Network API
   slug: zerotier-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-network-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-network-api-openapi.yml
 - filename: zerotier-network-member-api-openapi.yml
   format: yaml
   label: ZeroTier Network Member API
   slug: zerotier-network-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-network-member-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-network-member-api-openapi.yml
 - filename: zerotier-organizations-api-openapi.yml
   format: yaml
   label: ZeroTier Organizations API
   slug: zerotier-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-organizations-api-openapi.yml
 - filename: zerotier-peer-api-openapi.yml
   format: yaml
   label: ZeroTier Peer API
   slug: zerotier-peer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-peer-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-peer-api-openapi.yml
 - filename: zerotier-status-api-openapi.yml
   format: yaml
   label: ZeroTier Status API
   slug: zerotier-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-status-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-status-api-openapi.yml
 - filename: zerotier-user-api-openapi.yml
   format: yaml
   label: ZeroTier User API
   slug: zerotier-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-user-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-user-api-openapi.yml
 - filename: zerotier-util-api-openapi.yml
   format: yaml
   label: ZeroTier Util API
   slug: zerotier-util-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/openapi/zerotier-util-api-openapi.yml
+  url: https://artifacts.apis.io/zerotier/openapi/zerotier-util-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 2
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/zeroti
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /controller/network/{networkID}/member\n  method: get\n  operationId: getControllerNetworkMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /controller/network/{networkID}/member/{nodeID}\n  method: get\n  operationId: getControllerNetworkMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network\n  method: get\n  operationId: getNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /network/{networkID}\n  method: get\n  operationId: getNetwork\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/{networkID}\n  method: post\n  operationId: updateNetwork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network/{networkID}\n  method: delete\n  operationId: deleteNetwork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /peer\n  method: get\n  operationId: getPeers\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /peer/{address}\n  method: get\n  operationId: getPeer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/agentic-access/zerotier-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zerotier/agentic-access/zerotier-agentic-access.yml
 summary_line: 38 operations · 16 acting · 2 human-in-the-loop
 tags:
 - Company

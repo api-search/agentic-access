@@ -9,91 +9,91 @@ api_specs:
   label: Nutanix Alerts API
   slug: nutanix-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-alerts-api-openapi.yml
 - filename: nutanix-categories-api-openapi.yml
   format: yaml
   label: Nutanix Categories API
   slug: nutanix-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-categories-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-categories-api-openapi.yml
 - filename: nutanix-clusters-api-openapi.yml
   format: yaml
   label: Nutanix Clusters API
   slug: nutanix-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-clusters-api-openapi.yml
 - filename: nutanix-hosts-api-openapi.yml
   format: yaml
   label: Nutanix Hosts API
   slug: nutanix-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-hosts-api-openapi.yml
 - filename: nutanix-images-api-openapi.yml
   format: yaml
   label: Nutanix Images API
   slug: nutanix-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-images-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-images-api-openapi.yml
 - filename: nutanix-network-security-rules-api-openapi.yml
   format: yaml
   label: Nutanix Network Security Rules API
   slug: nutanix-network-security-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-network-security-rules-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-network-security-rules-api-openapi.yml
 - filename: nutanix-projects-api-openapi.yml
   format: yaml
   label: Nutanix Projects API
   slug: nutanix-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-projects-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-projects-api-openapi.yml
 - filename: nutanix-protection-domains-api-openapi.yml
   format: yaml
   label: Nutanix Protection Domains API
   slug: nutanix-protection-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-protection-domains-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-protection-domains-api-openapi.yml
 - filename: nutanix-snapshots-api-openapi.yml
   format: yaml
   label: Nutanix Snapshots API
   slug: nutanix-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-snapshots-api-openapi.yml
 - filename: nutanix-storage-containers-api-openapi.yml
   format: yaml
   label: Nutanix Storage Containers API
   slug: nutanix-storage-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-storage-containers-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-storage-containers-api-openapi.yml
 - filename: nutanix-storage-pools-api-openapi.yml
   format: yaml
   label: Nutanix Storage Pools API
   slug: nutanix-storage-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-storage-pools-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-storage-pools-api-openapi.yml
 - filename: nutanix-subnets-api-openapi.yml
   format: yaml
   label: Nutanix Subnets API
   slug: nutanix-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-subnets-api-openapi.yml
 - filename: nutanix-virtual-disks-api-openapi.yml
   format: yaml
   label: Nutanix Virtual Disks API
   slug: nutanix-virtual-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-virtual-disks-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-virtual-disks-api-openapi.yml
 - filename: nutanix-webhooks-api-openapi.yml
   format: yaml
   label: Nutanix Webhooks API
   slug: nutanix-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-webhooks-api-openapi.yml
 - filename: nutanix-vms-api-openapi.yml
   format: yaml
   label: Nutanix V Ms API
   slug: nutanix-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/openapi/nutanix-vms-api-openapi.yml
+  url: https://artifacts.apis.io/nutanix/openapi/nutanix-vms-api-openapi.yml
 consequence_counts:
   read: 31
   write: 23
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nutani
   \ 3600\n    audit: none\n- path: /vms/{uuid}\n  method: get\n  operationId: getVm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vms/{uuid}\n  method: put\n  operationId: updateVm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vms/{uuid}\n  method: delete\n  operationId: deleteVm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vms/{id}\n  method: get\n  operationId: getVm\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vms/{id}/set_power_state\n  method: post\n  operationId: setVmPowerState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/list\n  method: post\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /webhooks/{uuid}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{uuid}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{uuid}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/agentic-access/nutanix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nutanix/agentic-access/nutanix-agentic-access.yml
 summary_line: 54 operations · 23 acting
 tags:
 - Cloud Management

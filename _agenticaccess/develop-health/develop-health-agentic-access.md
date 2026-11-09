@@ -9,13 +9,13 @@ api_specs:
   label: Develop Health Eligibility Check API
   slug: develop-health-eligibility-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/openapi/develop-health-eligibility-check-api-openapi.yml
+  url: https://artifacts.apis.io/develop-health/openapi/develop-health-eligibility-check-api-openapi.yml
 - filename: develop-health-support-program-api-openapi.yml
   format: yaml
   label: Develop Health Support Program API
   slug: develop-health-support-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/openapi/develop-health-support-program-api-openapi.yml
+  url: https://artifacts.apis.io/develop-health/openapi/develop-health-support-program-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/develo
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prior-authorization/{id}/ndp-submission\n  method: patch\n  operationId: update_ndp_submission_by_id_prior_authorization__id__ndp_submission_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prior-authorization/{id}/prescription-transfer/cancel\n  method: post\n  operationId: cancel_prescription_transfer_by_id_prior_authorization__id__prescription_transfer_cancel_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prior-authorization\n  method: post\n  operationId: create_prior_auth_route_prior_authorization_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prior-authorization/{id}\n  method: get\n  operationId: get_prior_auth_submission_by_id_prior_authorization__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: get_status_route_status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /provider/authorize\n  method: post\n  operationId: authorize_provider_provider_authorize_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorized-providers\n  method: get\n  operationId: get_authorized_providers_authorized_providers_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /provider/lookup\n  method: post\n  operationId: lookup_provider_provider_lookup_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/agentic-access/develop-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/develop-health/agentic-access/develop-health-agentic-access.yml
 summary_line: 15 operations · 9 acting
 tags:
 - Company

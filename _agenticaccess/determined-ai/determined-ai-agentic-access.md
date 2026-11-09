@@ -9,49 +9,49 @@ api_specs:
   label: Determined AI Authentication API
   slug: determined-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/openapi/determined-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/determined-ai/openapi/determined-ai-authentication-api-openapi.yml
 - filename: determined-ai-checkpoints-api-openapi.yml
   format: yaml
   label: Determined AI Checkpoints API
   slug: determined-ai-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/openapi/determined-ai-checkpoints-api-openapi.yml
+  url: https://artifacts.apis.io/determined-ai/openapi/determined-ai-checkpoints-api-openapi.yml
 - filename: determined-ai-cluster-api-openapi.yml
   format: yaml
   label: Determined AI Cluster API
   slug: determined-ai-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/openapi/determined-ai-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/determined-ai/openapi/determined-ai-cluster-api-openapi.yml
 - filename: determined-ai-experiments-api-openapi.yml
   format: yaml
   label: Determined AI Experiments API
   slug: determined-ai-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/openapi/determined-ai-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/determined-ai/openapi/determined-ai-experiments-api-openapi.yml
 - filename: determined-ai-models-api-openapi.yml
   format: yaml
   label: Determined AI Models API
   slug: determined-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/openapi/determined-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/determined-ai/openapi/determined-ai-models-api-openapi.yml
 - filename: determined-ai-templates-api-openapi.yml
   format: yaml
   label: Determined AI Templates API
   slug: determined-ai-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/openapi/determined-ai-templates-api-openapi.yml
+  url: https://artifacts.apis.io/determined-ai/openapi/determined-ai-templates-api-openapi.yml
 - filename: determined-ai-tokens-api-openapi.yml
   format: yaml
   label: Determined AI Tokens API
   slug: determined-ai-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/openapi/determined-ai-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/determined-ai/openapi/determined-ai-tokens-api-openapi.yml
 - filename: determined-ai-users-api-openapi.yml
   format: yaml
   label: Determined AI Users API
   slug: determined-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/openapi/determined-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/determined-ai/openapi/determined-ai-users-api-openapi.yml
 consequence_counts:
   read: 8
   write: 2
@@ -80,7 +80,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/determined-ai-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    acting: 2\n    connected: 8\n  by_consequence:\n    write: 2\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/auth/login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/auth/logout\n  method: post\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/cluster\n  method: get\n  operationId: getClusterInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/experiments\n  method: get\n  operationId: getExperiments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/experiments/{experimentId}\n  method: get\n  operationId: getExperiment\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/models\n  method: get\n  operationId: getModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/checkpoints/{checkpointUuid}\n  method: get\n  operationId: getCheckpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/templates\n  method: get\n  operationId: getTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tokens\n  method: get\n  operationId: getAccessTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/agentic-access/determined-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/determined-ai/agentic-access/determined-ai-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Artificial Intelligence

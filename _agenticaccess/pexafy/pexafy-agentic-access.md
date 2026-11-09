@@ -9,31 +9,31 @@ api_specs:
   label: Pexafy Collections API
   slug: pexafy-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-collections-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-collections-api-openapi.yml
 - filename: pexafy-facets-api-openapi.yml
   format: yaml
   label: Pexafy Facets API
   slug: pexafy-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-facets-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-facets-api-openapi.yml
 - filename: pexafy-photos-api-openapi.yml
   format: yaml
   label: Pexafy Photos API
   slug: pexafy-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-photos-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-photos-api-openapi.yml
 - filename: pexafy-search-api-openapi.yml
   format: yaml
   label: Pexafy Search API
   slug: pexafy-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-search-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-search-api-openapi.yml
 - filename: pexafy-usage-api-openapi.yml
   format: yaml
   label: Pexafy Usage API
   slug: pexafy-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/openapi/pexafy-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pexafy/openapi/pexafy-usage-api-openapi.yml
 consequence_counts:
   read: 29
   write: 8
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pexafy
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/photos/{photo_id}\n  method: get\n  operationId: get_photo_api_v1_photos__photo_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/photos/{photo_id}/similar\n  method: get\n  operationId: photo_similar_api_v1_photos__photo_id__similar_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/photos\n  method: get\n  operationId: searchPhotos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/photos/by-image\n  method: post\n  operationId: searchPhotosByImage\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/search/photos\n  method: get\n  operationId: search_photos_api_v1_search_photos_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/search/photos\n  method: post\n  operationId: search_photos_by_image_api_v1_search_photos_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/usage\n  method: get\n  operationId: get_usage_api_v1_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v1/usage/daily\n  method: get\n  operationId: get_daily_usage_api_v1_usage_daily_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/usage/monthly\n  method: get\n  operationId: get_monthly_usage_api_v1_usage_monthly_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/usage/by-key\n  method: get\n  operationId: get_usage_by_key_api_v1_usage_by_key_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/agentic-access/pexafy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pexafy/agentic-access/pexafy-agentic-access.yml
 summary_line: 37 operations · 8 acting
 tags:
 - Image

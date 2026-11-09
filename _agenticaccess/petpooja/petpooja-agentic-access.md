@@ -9,25 +9,25 @@ api_specs:
   label: Petpooja Menu API
   slug: petpooja-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/openapi/petpooja-menu-api-openapi.yml
+  url: https://artifacts.apis.io/petpooja/openapi/petpooja-menu-api-openapi.yml
 - filename: petpooja-orders-api-openapi.yml
   format: yaml
   label: Petpooja Orders API
   slug: petpooja-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/openapi/petpooja-orders-api-openapi.yml
+  url: https://artifacts.apis.io/petpooja/openapi/petpooja-orders-api-openapi.yml
 - filename: petpooja-stock-api-openapi.yml
   format: yaml
   label: Petpooja Stock API
   slug: petpooja-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/openapi/petpooja-stock-api-openapi.yml
+  url: https://artifacts.apis.io/petpooja/openapi/petpooja-stock-api-openapi.yml
 - filename: petpooja-stores-api-openapi.yml
   format: yaml
   label: Petpooja Stores API
   slug: petpooja-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/openapi/petpooja-stores-api-openapi.yml
+  url: https://artifacts.apis.io/petpooja/openapi/petpooja-stores-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 1
@@ -67,7 +67,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/petpooja-menu-api-openapi.yml, openapi/petpooja-orders-api-openapi.yml, openapi/petpooja-stock-api-openapi.yml,\n  openapi/petpooja-stores-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 1\n    acting: 3\n  by_consequence:\n    read: 1\n    physical: 2\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /mapped_restaurant_menus\n  method: post\n  operationId: fetchMappedRestaurantMenu\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /save_order\n  method: post\n  operationId: saveOrder\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /update_item_stock\n  method: post\n  operationId: updateItemStock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /update_store_status\n  method: post\n  operationId: updateStoreStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/heads/main/agentic-access/petpooja-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/petpooja/agentic-access/petpooja-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
 - Restaurant

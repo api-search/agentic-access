@@ -9,115 +9,115 @@ api_specs:
   label: Karbon Billing API
   slug: karbonhq-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-billing-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-billing-api-openapi.yml
 - filename: karbonhq-business-cards-api-openapi.yml
   format: yaml
   label: Karbon Business Cards API
   slug: karbonhq-business-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-business-cards-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-business-cards-api-openapi.yml
 - filename: karbonhq-client-groups-api-openapi.yml
   format: yaml
   label: Karbon Client Groups API
   slug: karbonhq-client-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-client-groups-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-client-groups-api-openapi.yml
 - filename: karbonhq-comments-api-openapi.yml
   format: yaml
   label: Karbon Comments API
   slug: karbonhq-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-comments-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-comments-api-openapi.yml
 - filename: karbonhq-contacts-api-openapi.yml
   format: yaml
   label: Karbon Contacts API
   slug: karbonhq-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-contacts-api-openapi.yml
 - filename: karbonhq-custom-fields-api-openapi.yml
   format: yaml
   label: Karbon Custom Fields API
   slug: karbonhq-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-custom-fields-api-openapi.yml
 - filename: karbonhq-estimate-summaries-api-openapi.yml
   format: yaml
   label: Karbon Estimate Summaries API
   slug: karbonhq-estimate-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-estimate-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-estimate-summaries-api-openapi.yml
 - filename: karbonhq-files-api-openapi.yml
   format: yaml
   label: Karbon Files API
   slug: karbonhq-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-files-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-files-api-openapi.yml
 - filename: karbonhq-integrated-workflows-api-openapi.yml
   format: yaml
   label: Karbon Integrated Workflows API
   slug: karbonhq-integrated-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-integrated-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-integrated-workflows-api-openapi.yml
 - filename: karbonhq-notes-api-openapi.yml
   format: yaml
   label: Karbon Notes API
   slug: karbonhq-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-notes-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-notes-api-openapi.yml
 - filename: karbonhq-organizations-api-openapi.yml
   format: yaml
   label: Karbon Organizations API
   slug: karbonhq-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-organizations-api-openapi.yml
 - filename: karbonhq-tenant-settings-api-openapi.yml
   format: yaml
   label: Karbon Tenant Settings API
   slug: karbonhq-tenant-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-tenant-settings-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-tenant-settings-api-openapi.yml
 - filename: karbonhq-timesheets-and-time-entries-api-openapi.yml
   format: yaml
   label: Karbon Timesheets and Time Entries API
   slug: karbonhq-timesheets-and-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-timesheets-and-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-timesheets-and-time-entries-api-openapi.yml
 - filename: karbonhq-users-api-openapi.yml
   format: yaml
   label: Karbon Users API
   slug: karbonhq-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-users-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-users-api-openapi.yml
 - filename: karbonhq-webhook-payloads-api-openapi.yml
   format: yaml
   label: Karbon Webhook Payloads API
   slug: karbonhq-webhook-payloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-webhook-payloads-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-webhook-payloads-api-openapi.yml
 - filename: karbonhq-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Karbon Webhook Subscriptions API
   slug: karbonhq-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-webhook-subscriptions-api-openapi.yml
 - filename: karbonhq-work-items-api-openapi.yml
   format: yaml
   label: Karbon Work Items API
   slug: karbonhq-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-work-items-api-openapi.yml
 - filename: karbonhq-work-schedules-api-openapi.yml
   format: yaml
   label: Karbon Work Schedules API
   slug: karbonhq-work-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-work-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-work-schedules-api-openapi.yml
 - filename: karbonhq-work-templates-api-openapi.yml
   format: yaml
   label: Karbon Work Templates API
   slug: karbonhq-work-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/openapi/karbonhq-work-templates-api-openapi.yml
+  url: https://artifacts.apis.io/karbonhq/openapi/karbonhq-work-templates-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 43
@@ -183,7 +183,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/karbon
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/WorkSchedules\n  method: post\n  operationId: createWorkSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/WorkSchedules/{WorkSchedulekey}\n  method: get\n  operationId: getWorkScheduleByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/WorkSchedules/{WorkSchedulekey}\n  method: put\n  operationId: putWorkScheduleByID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/WorkSchedules/{WorkSchedulekey}\n  method: patch\n  operationId: patchWorkScheduleByID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/WorkTemplates\n  method: get\n  operationId: getAllWorkTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/WorkTemplates/{WorkTemplatekey}\n  method: get\n  operationId: getWorkTemplateByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karbonhq/refs/heads/main/agentic-access/karbonhq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/karbonhq/agentic-access/karbonhq-agentic-access.yml
 summary_line: 77 operations · 34 acting
 tags:
 - Company

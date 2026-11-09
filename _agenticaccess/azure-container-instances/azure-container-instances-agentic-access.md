@@ -9,25 +9,25 @@ api_specs:
   label: Azure Container Instances Operations API
   slug: azure-container-instances-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-operations-api-openapi.yml
 - filename: azure-container-instances-subscriptions-api-openapi.yml
   format: yaml
   label: Azure Container Instances Subscriptions API
   slug: azure-container-instances-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-subscriptions-api-openapi.yml
 - filename: azure-container-instances-container-groups-api-openapi.yml
   format: yaml
   label: Azure Container Instances Container Groups API
   slug: microsoft-azure-container-instances-container-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-container-groups-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-container-groups-api-openapi.yml
 - filename: azure-container-instances-operations-api-openapi.yml
   format: yaml
   label: Azure Container Instances Operations API
   slug: microsoft-azure-container-instances-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-operations-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerInstance/containerGroups/{containerGroupName}/containers/{containerName}/logs\n  method: get\n  operationId: Container_ListLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerInstance/containerGroups/{containerGroupName}/restart\n  method: post\n  operationId: ContainerGroups_Restart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerInstance/containerGroups/{containerGroupName}/start\n  method: post\n  operationId: ContainerGroups_Start\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerInstance/containerGroups/{containerGroupName}/stop\n  method: post\n  operationId: ContainerGroups_Stop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n\
   \      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/subnets/{subnetName}/providers/Microsoft.ContainerInstance/serviceAssociationLinks/default\n  method: delete\n  operationId: ServiceAssociationLink_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/agentic-access/azure-container-instances-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-container-instances/agentic-access/azure-container-instances-agentic-access.yml
 summary_line: 16 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Microsoft Azure

@@ -9,25 +9,25 @@ api_specs:
   label: Apache POI Conversion API
   slug: apache-poi-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/openapi/apache-poi-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/apache-poi/openapi/apache-poi-conversion-api-openapi.yml
 - filename: apache-poi-excel-api-openapi.yml
   format: yaml
   label: Apache POI Excel API
   slug: apache-poi-excel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/openapi/apache-poi-excel-api-openapi.yml
+  url: https://artifacts.apis.io/apache-poi/openapi/apache-poi-excel-api-openapi.yml
 - filename: apache-poi-powerpoint-api-openapi.yml
   format: yaml
   label: Apache POI PowerPoint API
   slug: apache-poi-powerpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/openapi/apache-poi-powerpoint-api-openapi.yml
+  url: https://artifacts.apis.io/apache-poi/openapi/apache-poi-powerpoint-api-openapi.yml
 - filename: apache-poi-word-api-openapi.yml
   format: yaml
   label: Apache POI Word API
   slug: apache-poi-word-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/openapi/apache-poi-word-api-openapi.yml
+  url: https://artifacts.apis.io/apache-poi/openapi/apache-poi-word-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workbooks/{workbookId}\n  method: get\n  operationId: getWorkbook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workbooks/{workbookId}\n  method: delete\n  operationId: deleteWorkbook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workbooks/{workbookId}/sheets\n  method: get\n  operationId: listSheets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workbooks/{workbookId}/sheets/{sheetName}/cells\n  method: get\n  operationId: getCells\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents\n  method: post\n  operationId: createDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /presentations\n  method: post\n  operationId: createPresentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /presentations/{presentationId}\n  method: get\n  operationId: getPresentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /convert\n  method: post\n  operationId: convertDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/agentic-access/apache-poi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-poi/agentic-access/apache-poi-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Document Processing

@@ -9,97 +9,97 @@ api_specs:
   label: AAA AI Agents API
   slug: aaaai-me-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-agents-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-agents-api-openapi.yml
 - filename: aaaai-me-approvals-api-openapi.yml
   format: yaml
   label: AAA AI Approvals API
   slug: aaaai-me-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-approvals-api-openapi.yml
 - filename: aaaai-me-auth-api-openapi.yml
   format: yaml
   label: AAA AI Auth API
   slug: aaaai-me-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-auth-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-auth-api-openapi.yml
 - filename: aaaai-me-chat-api-openapi.yml
   format: yaml
   label: AAA AI Chat API
   slug: aaaai-me-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-chat-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-chat-api-openapi.yml
 - filename: aaaai-me-code-api-openapi.yml
   format: yaml
   label: AAA AI Code API
   slug: aaaai-me-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-code-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-code-api-openapi.yml
 - filename: aaaai-me-cognitive-scaling-api-openapi.yml
   format: yaml
   label: AAA AI Cognitive Scaling API
   slug: aaaai-me-cognitive-scaling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-cognitive-scaling-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-cognitive-scaling-api-openapi.yml
 - filename: aaaai-me-cron-api-openapi.yml
   format: yaml
   label: AAA AI Cron API
   slug: aaaai-me-cron-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-cron-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-cron-api-openapi.yml
 - filename: aaaai-me-debug-api-openapi.yml
   format: yaml
   label: AAA AI Debug API
   slug: aaaai-me-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-debug-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-debug-api-openapi.yml
 - filename: aaaai-me-deep-agent-api-openapi.yml
   format: yaml
   label: AAA AI Deep Agent API
   slug: aaaai-me-deep-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-deep-agent-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-deep-agent-api-openapi.yml
 - filename: aaaai-me-dynamic-experts-api-openapi.yml
   format: yaml
   label: AAA AI Dynamic Experts API
   slug: aaaai-me-dynamic-experts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-dynamic-experts-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-dynamic-experts-api-openapi.yml
 - filename: aaaai-me-experts-api-openapi.yml
   format: yaml
   label: AAA AI Experts API
   slug: aaaai-me-experts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-experts-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-experts-api-openapi.yml
 - filename: aaaai-me-health-api-openapi.yml
   format: yaml
   label: AAA AI Health API
   slug: aaaai-me-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-health-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-health-api-openapi.yml
 - filename: aaaai-me-nodes-api-openapi.yml
   format: yaml
   label: AAA AI Nodes API
   slug: aaaai-me-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-nodes-api-openapi.yml
 - filename: aaaai-me-settings-api-openapi.yml
   format: yaml
   label: AAA AI Settings API
   slug: aaaai-me-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-settings-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-settings-api-openapi.yml
 - filename: aaaai-me-user-api-openapi.yml
   format: yaml
   label: AAA AI User API
   slug: aaaai-me-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-user-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-user-api-openapi.yml
 - filename: aaaai-me-video-api-openapi.yml
   format: yaml
   label: AAA AI Video API
   slug: aaaai-me-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-video-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-video-api-openapi.yml
 consequence_counts:
   read: 39
   safety-critical: 3
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/aaaai-
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/user/avatar/raw\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user/current\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user/ui-preferences\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user/ui-preferences\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/video-sessions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/video-sessions/{session_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/video-sessions/{session_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/web-search/sources\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/chat/completions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/agentic-access/aaaai-me-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aaaai-me/agentic-access/aaaai-me-agentic-access.yml
 summary_line: 102 operations · 63 acting · 3 human-in-the-loop
 tags:
 - Artificial Intelligence

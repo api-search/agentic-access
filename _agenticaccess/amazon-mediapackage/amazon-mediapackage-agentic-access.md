@@ -9,25 +9,25 @@ api_specs:
   label: Amazon MediaPackage Channels API
   slug: amazon-mediapackage-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-channels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-channels-api-openapi.yml
 - filename: amazon-mediapackage-harvest-jobs-api-openapi.yml
   format: yaml
   label: Amazon MediaPackage Harvest Jobs API
   slug: amazon-mediapackage-harvest-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-harvest-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-harvest-jobs-api-openapi.yml
 - filename: amazon-mediapackage-origin-endpoints-api-openapi.yml
   format: yaml
   label: Amazon MediaPackage Origin Endpoints API
   slug: amazon-mediapackage-origin-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-origin-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-origin-endpoints-api-openapi.yml
 - filename: amazon-mediapackage-tags-api-openapi.yml
   format: yaml
   label: Amazon MediaPackage Tags API
   slug: amazon-mediapackage-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-tags-api-openapi.yml
 consequence_counts:
   read: 7
   write: 12
@@ -60,9 +60,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /origin_endpoints/{id}\n  method: put\n  operationId: UpdateOriginEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /harvest_jobs/{id}\n  method: get\n  operationId: DescribeHarvestJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resource-arn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resource-arn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels/{id}/credentials\n  method: put\n  operationId: RotateChannelCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels/{id}/ingest_endpoints/{ingest_endpoint_id}/credentials\n  method: put\n  operationId: RotateIngestEndpointCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /tags/{resource-arn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/agentic-access/amazon-mediapackage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mediapackage/agentic-access/amazon-mediapackage-agentic-access.yml
 summary_line: 19 operations · 12 acting
 tags:
+- Amazon Web Services
 - Broadcasting
 - Media Processing
 - Media

@@ -9,25 +9,25 @@ api_specs:
   label: Shapeways Cart API
   slug: shapeways-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-cart-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-cart-api-openapi.yml
 - filename: shapeways-materials-api-openapi.yml
   format: yaml
   label: Shapeways Materials API
   slug: shapeways-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-materials-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-materials-api-openapi.yml
 - filename: shapeways-models-api-openapi.yml
   format: yaml
   label: Shapeways Models API
   slug: shapeways-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-models-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-models-api-openapi.yml
 - filename: shapeways-orders-api-openapi.yml
   format: yaml
   label: Shapeways Orders API
   slug: shapeways-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-orders-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/shapew
   \  method: post\n  operationId: uploadModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/v1\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{modelId}/v1\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{modelId}/v1\n  method: delete\n  operationId: deleteModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/v1\n  method: post\n  operationId: placeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/v1\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/v1\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cart/shipping-options/v1\n  method: get\n  operationId: getShippingOptions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/agentic-access/shapeways-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shapeways/agentic-access/shapeways-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Tensorlake Datasets API
   slug: tensorlake-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-datasets-api-openapi.yml
 - filename: tensorlake-files-api-openapi.yml
   format: yaml
   label: Tensorlake Files API
   slug: tensorlake-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-files-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-files-api-openapi.yml
 - filename: tensorlake-parse-api-openapi.yml
   format: yaml
   label: Tensorlake Parse API
   slug: tensorlake-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-parse-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-parse-api-openapi.yml
 - filename: tensorlake-sandboxes-api-openapi.yml
   format: yaml
   label: Tensorlake Sandboxes API
   slug: tensorlake-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-sandboxes-api-openapi.yml
 - filename: tensorlake-structured-extraction-api-openapi.yml
   format: yaml
   label: Tensorlake Structured Extraction API
   slug: tensorlake-structured-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/openapi/tensorlake-structured-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/tensorlake/openapi/tensorlake-structured-extraction-api-openapi.yml
 consequence_counts:
   read: 9
   write: 18
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tensor
   \ none\n- path: /sandboxes/{sandbox_id}\n  method: get\n  operationId: get_sandbox\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sandboxes/{sandbox_id}\n  method: patch\n  operationId: update_sandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandboxes/{sandbox_id}\n  method: delete\n  operationId: delete_sandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandboxes/{sandbox_id}/snapshot\n  method: post\n\
   \  operationId: snapshot_sandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandboxes/{sandbox_id}/suspend\n  method: post\n  operationId: suspend_sandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandboxes/{sandbox_id}/resume\n  method: post\n  operationId: resume_sandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/agentic-access/tensorlake-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tensorlake/agentic-access/tensorlake-agentic-access.yml
 summary_line: 27 operations · 18 acting
 tags:
 - Document Extraction

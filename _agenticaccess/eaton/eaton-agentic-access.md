@@ -9,49 +9,49 @@ api_specs:
   label: Eaton Authorization API
   slug: eaton-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-authorization-api-openapi.yml
 - filename: eaton-device-commands-api-openapi.yml
   format: yaml
   label: Eaton Device Commands API
   slug: eaton-device-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-device-commands-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-device-commands-api-openapi.yml
 - filename: eaton-devices-api-openapi.yml
   format: yaml
   label: Eaton Devices API
   slug: eaton-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-devices-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-devices-api-openapi.yml
 - filename: eaton-energy-data-api-openapi.yml
   format: yaml
   label: Eaton Energy Data API
   slug: eaton-energy-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-energy-data-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-energy-data-api-openapi.yml
 - filename: eaton-ev-only-api-openapi.yml
   format: yaml
   label: Eaton EV Only API
   slug: eaton-ev-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-ev-only-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-ev-only-api-openapi.yml
 - filename: eaton-events-api-openapi.yml
   format: yaml
   label: Eaton Events API
   slug: eaton-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-events-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-events-api-openapi.yml
 - filename: eaton-locations-api-openapi.yml
   format: yaml
   label: Eaton Locations API
   slug: eaton-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-locations-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-locations-api-openapi.yml
 - filename: eaton-organizations-api-openapi.yml
   format: yaml
   label: Eaton Organizations API
   slug: eaton-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/eaton/openapi/eaton-organizations-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smart-
   \ max-ttl: 3600\n    audit: none\n- path: /api/v1/devices/{deviceId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/devices/{deviceId}/state\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/devices/{deviceId}/commands\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/deviceBatchCommands\n \
   \ method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/devices/{deviceId}/energy\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/devices/{deviceId}/events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ev/{deviceId}/sessions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ev/{deviceId}/sessions/{sessionId}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/agentic-access/eaton-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eaton/agentic-access/eaton-agentic-access.yml
 summary_line: 15 operations · 4 acting
 tags:
 - Power Management

@@ -9,61 +9,67 @@ api_specs:
   label: Amazon MediaTailor Channel API
   slug: amazon-mediatailor-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-channel-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-channel-api-openapi.yml
 - filename: amazon-mediatailor-channels-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Channels API
   slug: amazon-mediatailor-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-channels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-channels-api-openapi.yml
 - filename: amazon-mediatailor-tags-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Tags API
   slug: amazon-mediatailor-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-tags-api-openapi.yml
 - filename: amazon-mediatailor-alerts-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Alerts API
   slug: amazon-mediatailor-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-alerts-api-openapi.yml
+- filename: amazon-mediatailor-function-api-openapi.yml
+  format: yaml
+  label: Amazon MediaTailor Mediatailor Function API
+  slug: amazon-mediatailor-function-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-function-api-openapi.yml
 - filename: amazon-mediatailor-configure-logs-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Configure Logs API
   slug: amazon-mediatailor-configure-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-configure-logs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-configure-logs-api-openapi.yml
 - filename: amazon-mediatailor-playback-configuration-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Playback Configuration API
   slug: amazon-mediatailor-playback-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-playback-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-playback-configuration-api-openapi.yml
 - filename: amazon-mediatailor-playback-configurations-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Playback Configurations API
   slug: amazon-mediatailor-playback-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-playback-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-playback-configurations-api-openapi.yml
 - filename: amazon-mediatailor-prefetch-schedule-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Prefetch Schedule API
   slug: amazon-mediatailor-prefetch-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-prefetch-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-prefetch-schedule-api-openapi.yml
 - filename: amazon-mediatailor-source-location-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Source Location API
   slug: amazon-mediatailor-source-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-source-location-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-source-location-api-openapi.yml
 - filename: amazon-mediatailor-source-locations-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Source Locations API
   slug: amazon-mediatailor-source-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-source-locations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-source-locations-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -114,9 +120,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ - abnormal\n      - high-value\n    audit: required\n- path: /sourceLocation/{SourceLocationName}/vodSource/{VodSourceName}\n  method: get\n  operationId: DescribeVodSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sourceLocation/{SourceLocationName}/vodSource/{VodSourceName}\n  method: put\n  operationId: UpdateVodSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sourceLocation/{SourceLocationName}/liveSources\n  method: get\n  operationId: ListLiveSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sourceLocation/{SourceLocationName}/vodSources\n\
   \  method: get\n  operationId: ListVodSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sourceLocations\n  method: get\n  operationId: ListSourceLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{ResourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{ResourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /tags/{ResourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/agentic-access/amazon-mediatailor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mediatailor/agentic-access/amazon-mediatailor-agentic-access.yml
 summary_line: 44 operations · 27 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Broadcasting
 - Media Processing
 - Media

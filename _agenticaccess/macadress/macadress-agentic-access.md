@@ -8,25 +8,25 @@ api_specs:
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Healthz API'
   slug: macadress-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-healthz-api-openapi.yml
 - filename: macadress-mac-api-openapi.yml
   format: yaml
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Mac API'
   slug: macadress-mac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-mac-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-mac-api-openapi.yml
 - filename: macadress-vendors-api-openapi.yml
   format: yaml
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Vendors API'
   slug: macadress-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-vendors-api-openapi.yml
 - filename: macadress-vendor-api-openapi.yml
   format: yaml
   label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Vendor API'
   slug: macadress-vendor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-vendor-api-openapi.yml
+  url: https://artifacts.apis.io/macadress/openapi/macadress-vendor-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/macadress-healthz-api-openapi.yml, openapi/macadress-mac-api-openapi.yml, openapi/macadress-vendors-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/healthz\n  method: get\n  operationId: healthz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mac/{mac}\n  method: get\n  operationId: lookupMAC\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/mac/batch\n  method: post\n  operationId: lookupMACBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vendors\n  method: get\n  operationId: searchVendors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/agentic-access/macadress-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/macadress/agentic-access/macadress-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Networking

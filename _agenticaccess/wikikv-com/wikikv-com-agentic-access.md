@@ -9,37 +9,37 @@ api_specs:
   label: WikiKV Agents API
   slug: wikikv-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/wikikv-com/openapi/wikikv-com-agents-api-openapi.yml
 - filename: wikikv-com-experiences-api-openapi.yml
   format: yaml
   label: WikiKV Experiences API
   slug: wikikv-com-experiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-experiences-api-openapi.yml
+  url: https://artifacts.apis.io/wikikv-com/openapi/wikikv-com-experiences-api-openapi.yml
 - filename: wikikv-com-knowledge-api-openapi.yml
   format: yaml
   label: WikiKV Knowledge API
   slug: wikikv-com-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/wikikv-com/openapi/wikikv-com-knowledge-api-openapi.yml
 - filename: wikikv-com-personal-rag-api-openapi.yml
   format: yaml
   label: WikiKV Personal Rag API
   slug: wikikv-com-personal-rag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-personal-rag-api-openapi.yml
+  url: https://artifacts.apis.io/wikikv-com/openapi/wikikv-com-personal-rag-api-openapi.yml
 - filename: wikikv-com-system-api-openapi.yml
   format: yaml
   label: WikiKV System API
   slug: wikikv-com-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-system-api-openapi.yml
+  url: https://artifacts.apis.io/wikikv-com/openapi/wikikv-com-system-api-openapi.yml
 - filename: wikikv-com-workspace-api-openapi.yml
   format: yaml
   label: WikiKV Workspace API
   slug: wikikv-com-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/openapi/wikikv-com-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/wikikv-com/openapi/wikikv-com-workspace-api-openapi.yml
 consequence_counts:
   read: 20
   write: 17
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/wikikv
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/agents/me\n  method: get\n  operationId: agent_identity_api_v1_agents_me_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/review-queue\n  method: get\n  operationId: review_queue_api_v1_review_queue_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/search\n  method: get\n  operationId: search_api_api_v1_search_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/rag/query\n  method: post\n  operationId:\
   \ rag_query_api_v1_rag_query_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/rag/query\n  method: get\n  operationId: rag_query_get_api_v1_rag_query_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/knowledge/{slug}\n  method: get\n  operationId: knowledge_api_api_v1_knowledge__slug__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/experiences\n  method: post\n  operationId: submit_experience_api_v1_experiences_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/experiences/{experience_id}\n  method: get\n  operationId: verified_experience_api_v1_experiences__experience_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/experiences/{experience_id}/verifications\n  method: post\n  operationId: verify_experience_api_v1_experiences__experience_id__verifications_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikikv-com/refs/heads/main/agentic-access/wikikv-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wikikv-com/agentic-access/wikikv-com-agentic-access.yml
 summary_line: 37 operations · 17 acting
 tags:
 - Knowledge Management

@@ -9,55 +9,55 @@ api_specs:
   label: Apache Flink Cluster API
   slug: apache-flink-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/apache-flink/openapi/apache-flink-cluster-api-openapi.yml
 - filename: apache-flink-config-api-openapi.yml
   format: yaml
   label: Apache Flink Config API
   slug: apache-flink-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-config-api-openapi.yml
+  url: https://artifacts.apis.io/apache-flink/openapi/apache-flink-config-api-openapi.yml
 - filename: apache-flink-datasets-api-openapi.yml
   format: yaml
   label: Apache Flink Datasets API
   slug: apache-flink-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/apache-flink/openapi/apache-flink-datasets-api-openapi.yml
 - filename: apache-flink-jobs-api-openapi.yml
   format: yaml
   label: Apache Flink Jobs API
   slug: apache-flink-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/apache-flink/openapi/apache-flink-jobs-api-openapi.yml
 - filename: apache-flink-overview-api-openapi.yml
   format: yaml
   label: Apache Flink Overview API
   slug: apache-flink-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-overview-api-openapi.yml
+  url: https://artifacts.apis.io/apache-flink/openapi/apache-flink-overview-api-openapi.yml
 - filename: apache-flink-savepoint-disposal-api-openapi.yml
   format: yaml
   label: Apache Flink Savepoint Disposal API
   slug: apache-flink-savepoint-disposal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-savepoint-disposal-api-openapi.yml
+  url: https://artifacts.apis.io/apache-flink/openapi/apache-flink-savepoint-disposal-api-openapi.yml
 - filename: apache-flink-jars-api-openapi.yml
   format: yaml
   label: Apache Flink Jars API
   slug: apache-flink-jars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-jars-api-openapi.yml
+  url: https://artifacts.apis.io/apache-flink/openapi/apache-flink-jars-api-openapi.yml
 - filename: apache-flink-job-manager-api-openapi.yml
   format: yaml
   label: Apache Flink Job Manager API
   slug: apache-flink-job-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-job-manager-api-openapi.yml
+  url: https://artifacts.apis.io/apache-flink/openapi/apache-flink-job-manager-api-openapi.yml
 - filename: apache-flink-task-managers-api-openapi.yml
   format: yaml
   label: Apache Flink Task Managers API
   slug: apache-flink-task-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-task-managers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-flink/openapi/apache-flink-task-managers-api-openapi.yml
 consequence_counts:
   read: 55
   safety-critical: 2
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \  method: get\n  operationId: getSubtasksTimes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobid}/vertices/{vertexid}/taskmanagers\n  method: get\n  operationId: getJobVertexTaskManagers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobid}/vertices/{vertexid}/watermarks\n  method: get\n  operationId: getJobVertexWatermarks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview\n  method: get\n  operationId: getClusterOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /savepoint-disposal\n  method: post\n  operationId: triggerSavepointDisposal\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /savepoint-disposal/{triggerid}\n  method: get\n  operationId: getSavepointDisposalStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taskmanagers\n  method: get\n  operationId: getTaskManagers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taskmanagers/metrics\n  method: get\n  operationId: getAggregatedTaskManagerMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taskmanagers/{taskmanagerid}\n\
   \  method: get\n  operationId: getTaskManagerDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taskmanagers/{taskmanagerid}/logs\n  method: get\n  operationId: getTaskManagerLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taskmanagers/{taskmanagerid}/metrics\n  method: get\n  operationId: getTaskManagerMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taskmanagers/{taskmanagerid}/thread-dump\n  method: get\n  operationId: getTaskManagerThreadDump\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/agentic-access/apache-flink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-flink/agentic-access/apache-flink-agentic-access.yml
 summary_line: 69 operations · 14 acting · 2 human-in-the-loop
 tags:
 - Apache Flink

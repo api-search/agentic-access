@@ -9,31 +9,31 @@ api_specs:
   label: Buildxact Webhooks
   slug: buildxact-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/asyncapi/buildxact-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/buildxact/asyncapi/buildxact-webhooks-asyncapi.yml
 - filename: buildxact-authentication-api-openapi.yml
   format: yaml
   label: Buildxact Authentication API
   slug: buildxact-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/openapi/buildxact-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/buildxact/openapi/buildxact-authentication-api-openapi.yml
 - filename: buildxact-estimate-items-api-openapi.yml
   format: yaml
   label: Buildxact Estimate Items API
   slug: buildxact-estimate-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/openapi/buildxact-estimate-items-api-openapi.yml
+  url: https://artifacts.apis.io/buildxact/openapi/buildxact-estimate-items-api-openapi.yml
 - filename: buildxact-estimates-api-openapi.yml
   format: yaml
   label: Buildxact Estimates API
   slug: buildxact-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/openapi/buildxact-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/buildxact/openapi/buildxact-estimates-api-openapi.yml
 - filename: buildxact-tax-context-api-openapi.yml
   format: yaml
   label: Buildxact Tax Context API
   slug: buildxact-tax-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/openapi/buildxact-tax-context-api-openapi.yml
+  url: https://artifacts.apis.io/buildxact/openapi/buildxact-tax-context-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/buildx
   \    audit: none\n- path: /estimates/{estimateId}\n  method: patch\n  operationId: updateEstimate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /estimates/{estimateId}\n  method: delete\n  operationId: deleteEstimate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /estimates/{estimateId}/items\n  method: get\n  operationId: listEstimateItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /estimates/{estimateId}/items\n\
   \  method: post\n  operationId: addEstimateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /estimates/{estimateId}/items/{itemId}\n  method: get\n  operationId: getEstimateItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /estimates/{estimateId}/items/{itemId}\n  method: patch\n  operationId: updateEstimateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /estimates/{estimateId}/items/{itemId}\n  method:\
   \ delete\n  operationId: deleteEstimateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tax-rates\n  method: get\n  operationId: listTaxRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/agentic-access/buildxact-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/buildxact/agentic-access/buildxact-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Construction

@@ -9,73 +9,73 @@ api_specs:
   label: Ironclad Authorization API
   slug: ironclad-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-authorization-api-openapi.yml
 - filename: ironclad-entities-api-openapi.yml
   format: yaml
   label: Ironclad Entities API
   slug: ironclad-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-entities-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-entities-api-openapi.yml
 - filename: ironclad-exports-api-openapi.yml
   format: yaml
   label: Ironclad Exports API
   slug: ironclad-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-exports-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-exports-api-openapi.yml
 - filename: ironclad-groups-api-openapi.yml
   format: yaml
   label: Ironclad Groups API
   slug: ironclad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-groups-api-openapi.yml
 - filename: ironclad-obligations-api-openapi.yml
   format: yaml
   label: Ironclad Obligations API
   slug: ironclad-obligations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-obligations-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-obligations-api-openapi.yml
 - filename: ironclad-records-api-openapi.yml
   format: yaml
   label: Ironclad Records API
   slug: ironclad-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-records-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-records-api-openapi.yml
 - filename: ironclad-resources-api-openapi.yml
   format: yaml
   label: Ironclad Resources API
   slug: ironclad-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-resources-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-resources-api-openapi.yml
 - filename: ironclad-schemas-api-openapi.yml
   format: yaml
   label: Ironclad Schemas API
   slug: ironclad-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-schemas-api-openapi.yml
 - filename: ironclad-search-api-openapi.yml
   format: yaml
   label: Ironclad Search API
   slug: ironclad-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-search-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-search-api-openapi.yml
 - filename: ironclad-users-api-openapi.yml
   format: yaml
   label: Ironclad Users API
   slug: ironclad-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-users-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-users-api-openapi.yml
 - filename: ironclad-webhooks-api-openapi.yml
   format: yaml
   label: Ironclad Webhooks API
   slug: ironclad-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-webhooks-api-openapi.yml
 - filename: ironclad-workflows-api-openapi.yml
   format: yaml
   label: Ironclad Workflows API
   slug: ironclad-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-workflows-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 45
@@ -160,8 +160,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ironcl
   \    - public.obligations.updateObligations\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/conversational\n  method: post\n  operationId: run-conversational-search\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - public.records.readRecords\n    - public.search.conversational\n    - public.workflows.readWorkflows\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Users\n  method: get\n  operationId: retrieve-all-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Users\n  method: post\n  operationId: create-a-user\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Users/{userId}\n  method: get\n  operationId: retrieve-a-user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Users/{userId}\n  method: patch\n  operationId: update-user-data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Users/{userId}\n  method: put\n  operationId: replace-a-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Users/{userId}\n  method: delete\n  operationId: delete-a-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Groups\n  method: get\n  operationId: retrieve-all-groups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Groups\n  method: post\n  operationId: create-a-group\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Groups/{groupId}\n  method: get\n  operationId: retrieve-a-group\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Groups/{groupId}\n  method: patch\n  operationId: update-group-membership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/agentic-access/ironclad-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/agentic-access/ironclad-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Groups/{groupId}\n  method: get\n  operationId: retrieve-a-group\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Groups/{groupId}\n  method: patch\n  operationId: update-group-membership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/ironclad/agentic-access/ironclad-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ironclad/agentic-access/ironclad-agentic-access.yml
 summary_line: 98 operations · 53 acting
 tags:
 - Contract Lifecycle Management
@@ -173,8 +173,9 @@ tags:
 - E-Signature
 - Clickwrap
 - Artificial Intelligence
-- Authentication
+- OAuth
 - SCIM
 - Webhook
 - Contract Management
+- Authentication
 ---

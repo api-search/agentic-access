@@ -9,43 +9,43 @@ api_specs:
   label: Alice api keys API
   slug: alice-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-api-keys-api-openapi.yml
 - filename: alice-collection-api-openapi.yml
   format: yaml
   label: Alice Collection API
   slug: alice-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-collection-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-collection-api-openapi.yml
 - filename: alice-content-api-openapi.yml
   format: yaml
   label: Alice Content API
   slug: alice-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-content-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-content-api-openapi.yml
 - filename: alice-flags-api-openapi.yml
   format: yaml
   label: Alice Flags API
   slug: alice-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-flags-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-flags-api-openapi.yml
 - filename: alice-users-api-openapi.yml
   format: yaml
   label: Alice Users API
   slug: alice-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-users-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-users-api-openapi.yml
 - filename: alice-wonderbuild-api-openapi.yml
   format: yaml
   label: Alice WonderBuild API
   slug: alice-wonderbuild-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-wonderbuild-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-wonderbuild-api-openapi.yml
 - filename: alice-wonderfence-api-openapi.yml
   format: yaml
   label: Alice WonderFence API
   slug: alice-wonderfence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-wonderfence-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-wonderfence-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 1
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/alice-
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/apikeys\n  method: post\n  operationId: post-generate-api-key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/apikeys\n  method: get\n  operationId: get-api-keys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/apikeys/{id}\n  method: delete\n  operationId: delete-api-key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /v1/evaluate/message\n  method: post\n  operationId: post-genai-evaluate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /redteam/assessments/\n  method: get\n  operationId: get-assessments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /redteam/assessments/run/{id}\n  method: post\n  operationId: run-assessment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /redteam/assessments/cloneAndRun/{id}\n  method: post\n  operationId: clone-and-run-assessment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /redteam/assessments/runFromPreset\n  method: post\n  operationId: run-assessment-preset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/agentic-access/alice-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alice/agentic-access/alice-agentic-access.yml
 summary_line: 18 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Company

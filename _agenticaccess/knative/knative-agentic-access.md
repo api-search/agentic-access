@@ -9,67 +9,67 @@ api_specs:
   label: Knative Brokers API
   slug: knative-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-brokers-api-openapi.yml
 - filename: knative-channels-api-openapi.yml
   format: yaml
   label: Knative Channels API
   slug: knative-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-channels-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-channels-api-openapi.yml
 - filename: knative-configurations-api-openapi.yml
   format: yaml
   label: Knative Configurations API
   slug: knative-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-configurations-api-openapi.yml
 - filename: knative-domainmappings-api-openapi.yml
   format: yaml
   label: Knative DomainMappings API
   slug: knative-domainmappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-domainmappings-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-domainmappings-api-openapi.yml
 - filename: knative-revisions-api-openapi.yml
   format: yaml
   label: Knative Revisions API
   slug: knative-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-revisions-api-openapi.yml
 - filename: knative-routes-api-openapi.yml
   format: yaml
   label: Knative Routes API
   slug: knative-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-routes-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-routes-api-openapi.yml
 - filename: knative-subscriptions-api-openapi.yml
   format: yaml
   label: Knative Subscriptions API
   slug: knative-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-subscriptions-api-openapi.yml
 - filename: knative-triggers-api-openapi.yml
   format: yaml
   label: Knative Triggers API
   slug: knative-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-triggers-api-openapi.yml
 - filename: knative-apis-api-openapi.yml
   format: yaml
   label: Knative APIS API
   slug: knative-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-apis-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-apis-api-openapi.yml
 - filename: knative-event-sources-api-openapi.yml
   format: yaml
   label: Knative Event Sources API
   slug: knative-event-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-event-sources-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-event-sources-api-openapi.yml
 - filename: knative-event-types-api-openapi.yml
   format: yaml
   label: Knative Event Types API
   slug: knative-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/openapi/knative-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/knative/openapi/knative-event-types-api-openapi.yml
 consequence_counts:
   read: 22
   write: 20
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/knativ
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/serving.knative.dev/v1/namespaces/{namespace}/revisions\n  method: get\n  operationId: listRevisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/serving.knative.dev/v1/namespaces/{namespace}/revisions/{name}\n  method: get\n  operationId: getRevision\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/serving.knative.dev/v1/namespaces/{namespace}/revisions/{name}\n  method: delete\n  operationId: deleteRevision\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /apis/serving.knative.dev/v1alpha1/namespaces/{namespace}/domainmappings\n  method: get\n  operationId: listDomainMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/serving.knative.dev/v1alpha1/namespaces/{namespace}/domainmappings\n  method: post\n  operationId: createDomainMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/serving.knative.dev/v1alpha1/namespaces/{namespace}/domainmappings/{name}\n  method: get\n  operationId: getDomainMapping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /apis/serving.knative.dev/v1alpha1/namespaces/{namespace}/domainmappings/{name}\n  method: delete\n  operationId: deleteDomainMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/agentic-access/knative-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/knative/agentic-access/knative-agentic-access.yml
 summary_line: 42 operations · 20 acting
 tags:
 - Auto-Scaling

@@ -9,43 +9,43 @@ api_specs:
   label: Upwork Authentication API
   slug: upwork-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-authentication-api-openapi.yml
 - filename: upwork-contracts-api-openapi.yml
   format: yaml
   label: Upwork Contracts API
   slug: upwork-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-contracts-api-openapi.yml
 - filename: upwork-jobs-api-openapi.yml
   format: yaml
   label: Upwork Jobs API
   slug: upwork-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-jobs-api-openapi.yml
 - filename: upwork-messages-api-openapi.yml
   format: yaml
   label: Upwork Messages API
   slug: upwork-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-messages-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-messages-api-openapi.yml
 - filename: upwork-organizations-api-openapi.yml
   format: yaml
   label: Upwork Organizations API
   slug: upwork-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-organizations-api-openapi.yml
 - filename: upwork-profiles-api-openapi.yml
   format: yaml
   label: Upwork Profiles API
   slug: upwork-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-profiles-api-openapi.yml
 - filename: upwork-reports-api-openapi.yml
   format: yaml
   label: Upwork Reports API
   slug: upwork-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-reports-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-reports-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/upwork
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/messages/v3/rooms/{room_id}/messages\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/profiles/v2/search/providers\n  method: get\n  operationId: searchFreelancers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/profiles/v2/users/{user_id}\n  method: get\n  operationId: getFreelancerProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/auth/v1/oauth/token\n\
   \  method: post\n  operationId: getOAuthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/reports/companies/{company_id}/hours/hours_worked\n  method: get\n  operationId: getCompanyHoursWorked\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/hr/v2/teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/hr/v2/engagements\n  method: get\n  operationId: listEngagements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/agentic-access/upwork-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/upwork/agentic-access/upwork-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - Freelancing

@@ -8,25 +8,25 @@ api_specs:
   label: Johns Hopkins University SIS Classes API
   slug: johns-hopkins-university-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-classes-api-openapi.yml
+  url: https://artifacts.apis.io/johns-hopkins-university/openapi/johns-hopkins-university-classes-api-openapi.yml
 - filename: johns-hopkins-university-codes-api-openapi.yml
   format: yaml
   label: Johns Hopkins University SIS Codes API
   slug: johns-hopkins-university-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-codes-api-openapi.yml
+  url: https://artifacts.apis.io/johns-hopkins-university/openapi/johns-hopkins-university-codes-api-openapi.yml
 - filename: johns-hopkins-university-content-api-openapi.yml
   format: yaml
   label: Johns Hopkins University Content API
   slug: johns-hopkins-university-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-content-api-openapi.yml
+  url: https://artifacts.apis.io/johns-hopkins-university/openapi/johns-hopkins-university-content-api-openapi.yml
 - filename: johns-hopkins-university-taxonomy-api-openapi.yml
   format: yaml
   label: Johns Hopkins University Taxonomy API
   slug: johns-hopkins-university-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/openapi/johns-hopkins-university-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/johns-hopkins-university/openapi/johns-hopkins-university-taxonomy-api-openapi.yml
 consequence_counts:
   read: 52
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/johns-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /faculty_expert_topics/{id}\n  method: get\n  operationId: getFacultyExpertTopic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /faculty_expert_topics/{id}/{subcollection}\n  method: get\n  operationId: getFacultyExpertTopicSubcollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{id}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{id}/{subcollection}\n\
   \  method: get\n  operationId: getLocationSubcollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{id}\n  method: get\n  operationId: getTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{id}/{subcollection}\n  method: get\n  operationId: getTagSubcollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics\n  method: get\n  operationId: listTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /topics/{id}\n  method: get\n  operationId: getTopic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics/{id}/{subcollection}\n  method: get\n  operationId: getTopicSubcollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/agentic-access/johns-hopkins-university-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/johns-hopkins-university/agentic-access/johns-hopkins-university-agentic-access.yml
 summary_line: 52 operations
 tags:
 - University

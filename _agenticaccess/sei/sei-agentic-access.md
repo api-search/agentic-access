@@ -9,55 +9,55 @@ api_specs:
   label: Sei ABCI API
   slug: sei-abci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-abci-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-abci-api-openapi.yml
 - filename: sei-events-api-openapi.yml
   format: yaml
   label: Sei Events API
   slug: sei-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-events-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-events-api-openapi.yml
 - filename: sei-evidence-api-openapi.yml
   format: yaml
   label: Sei Evidence API
   slug: sei-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-evidence-api-openapi.yml
 - filename: sei-info-api-openapi.yml
   format: yaml
   label: Sei Info API
   slug: sei-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-info-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-info-api-openapi.yml
 - filename: sei-query-api-openapi.yml
   format: yaml
   label: Sei Query API
   slug: sei-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-query-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-query-api-openapi.yml
 - filename: sei-service-api-openapi.yml
   format: yaml
   label: Sei Service API
   slug: sei-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-service-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-service-api-openapi.yml
 - filename: sei-tx-api-openapi.yml
   format: yaml
   label: Sei Tx API
   slug: sei-tx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-tx-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-tx-api-openapi.yml
 - filename: sei-unsafe-api-openapi.yml
   format: yaml
   label: Sei Unsafe API
   slug: sei-unsafe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-unsafe-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-unsafe-api-openapi.yml
 - filename: sei-websocket-api-openapi.yml
   format: yaml
   label: Sei Websocket API
   slug: sei-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/openapi/sei-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/sei/openapi/sei-websocket-api-openapi.yml
 consequence_counts:
   read: 175
   write: 2
@@ -116,8 +116,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sei-co
   \  method: get\n  operationId: IbcCoreClientV1ConsensusState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ibc/core/client/v1/upgraded_client_states\n  method: get\n  operationId: IbcCoreClientV1UpgradedClientState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ibc/core/client/v1/upgraded_consensus_states\n  method: get\n  operationId: IbcCoreClientV1UpgradedConsensusState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ibc/core/connection/v1/client_connections/{client_id}\n  method: get\n  operationId: IbcCoreConnectionV1ClientConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /ibc/core/connection/v1/connections\n  method: get\n  operationId: IbcCoreConnectionV1Connections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ibc/core/connection/v1/connections/{connection_id}\n  method: get\n  operationId: IbcCoreConnectionV1Connection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ibc/core/connection/v1/connections/{connection_id}/client_state\n  method: get\n  operationId: IbcCoreConnectionV1ConnectionClientState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ibc/core/connection/v1/connections/{connection_id}/consensus_state/revision/{revision_number}/height/{revision_height}\n  method: get\n  operationId: IbcCoreConnectionV1ConnectionConsensusState\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sei-protocol/seichain/epoch/epoch\n  method: get\n  operationId: SeiprotocolSeichainEpochEpoch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sei-protocol/seichain/epoch/params\n  method: get\n  operationId: SeiprotocolSeichainEpochParams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sei-protocol/seichain/evm/evm_address\n  method: get\n  operationId: SeiprotocolSeichainEvmEVMAddressBySeiAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sei-protocol/seichain/evm/pointer\n  method: get\n  operationId: SeiprotocolSeichainEvmPointer\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sei-protocol/seichain/evm/pointer_version\n  method: get\n  operationId: SeiprotocolSeichainEvmPointerVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/agentic-access/sei-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/agentic-access/sei-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sei-protocol/seichain/evm/pointer_version\n  method: get\n  operationId: SeiprotocolSeichainEvmPointerVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/sei/agentic-access/sei-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/sei/agentic-access/sei-agentic-access.yml
 summary_line: 177 operations · 2 acting
 tags:
 - Blockchain

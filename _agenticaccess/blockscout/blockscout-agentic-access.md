@@ -9,85 +9,85 @@ api_specs:
   label: Blockscout Addresses API
   slug: blockscout-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-addresses-api-openapi.yml
 - filename: blockscout-blocks-api-openapi.yml
   format: yaml
   label: Blockscout Blocks API
   slug: blockscout-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-blocks-api-openapi.yml
 - filename: blockscout-celestiaservice-api-openapi.yml
   format: yaml
   label: Blockscout CelestiaService API
   slug: blockscout-celestiaservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-celestiaservice-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-celestiaservice-api-openapi.yml
 - filename: blockscout-config-api-openapi.yml
   format: yaml
   label: Blockscout Config API
   slug: blockscout-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-config-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-config-api-openapi.yml
 - filename: blockscout-internal-transactions-api-openapi.yml
   format: yaml
   label: Blockscout Internal Transactions API
   slug: blockscout-internal-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-internal-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-internal-transactions-api-openapi.yml
 - filename: blockscout-main-page-api-openapi.yml
   format: yaml
   label: Blockscout Main Page API
   slug: blockscout-main-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-main-page-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-main-page-api-openapi.yml
 - filename: blockscout-proxy-api-openapi.yml
   format: yaml
   label: Blockscout Proxy API
   slug: blockscout-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-proxy-api-openapi.yml
 - filename: blockscout-search-api-openapi.yml
   format: yaml
   label: Blockscout Search API
   slug: blockscout-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-search-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-search-api-openapi.yml
 - filename: blockscout-smart-contracts-api-openapi.yml
   format: yaml
   label: Blockscout Smart Contracts API
   slug: blockscout-smart-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-smart-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-smart-contracts-api-openapi.yml
 - filename: blockscout-stats-api-openapi.yml
   format: yaml
   label: Blockscout Stats API
   slug: blockscout-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-stats-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-stats-api-openapi.yml
 - filename: blockscout-token-transfers-api-openapi.yml
   format: yaml
   label: Blockscout Token Transfers API
   slug: blockscout-token-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-token-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-token-transfers-api-openapi.yml
 - filename: blockscout-tokens-api-openapi.yml
   format: yaml
   label: Blockscout Tokens API
   slug: blockscout-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-tokens-api-openapi.yml
 - filename: blockscout-transactions-api-openapi.yml
   format: yaml
   label: Blockscout Transactions API
   slug: blockscout-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-transactions-api-openapi.yml
 - filename: blockscout-withdrawals-api-openapi.yml
   format: yaml
   label: Blockscout Withdrawals API
   slug: blockscout-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/openapi/blockscout-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/blockscout/openapi/blockscout-withdrawals-api-openapi.yml
 consequence_counts:
   read: 56
   write: 1
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blocks
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smart-contracts\n  method: get\n  operationId: get_smart_contracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smart-contracts/counters\n  method: get\n  operationId: get_smart_contracts_counters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smart-contracts/{address_hash}\n  method: get\n  operationId: get_smart_contract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/json-rpc-url\n  method: get\n  operationId: get_json_rpc_url\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /withdrawals\n  method: get\n  operationId: get_withdrawals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/account-abstraction/status\n  method: get\n  operationId: get_account_abstraction_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/celestia/blob\n  method: get\n  operationId: CelestiaService_GetBlob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/celestia/l2BatchMetadata\n  method: get\n  operationId: CelestiaService_GetL2BatchMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /health\n  method: get\n  operationId: Health_Check\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/agentic-access/blockscout-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blockscout/agentic-access/blockscout-agentic-access.yml
 summary_line: 57 operations · 1 acting
 tags:
 - Blockscout

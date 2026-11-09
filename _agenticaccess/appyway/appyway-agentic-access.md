@@ -9,181 +9,181 @@ api_specs:
   label: AppyWay Authorities API
   slug: appyway-authorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-authorities-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-authorities-api-openapi.yml
 - filename: appyway-authoritytypes-api-openapi.yml
   format: yaml
   label: AppyWay AuthorityTypes API
   slug: appyway-authoritytypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-authoritytypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-authoritytypes-api-openapi.yml
 - filename: appyway-availability-api-openapi.yml
   format: yaml
   label: AppyWay Availability API
   slug: appyway-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-availability-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-availability-api-openapi.yml
 - filename: appyway-basemaps-api-openapi.yml
   format: yaml
   label: AppyWay BaseMaps API
   slug: appyway-basemaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-basemaps-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-basemaps-api-openapi.yml
 - filename: appyway-bulk-api-openapi.yml
   format: yaml
   label: AppyWay Bulk API
   slug: appyway-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-bulk-api-openapi.yml
 - filename: appyway-countries-api-openapi.yml
   format: yaml
   label: AppyWay Countries API
   slug: appyway-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-countries-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-countries-api-openapi.yml
 - filename: appyway-entitlementtypes-api-openapi.yml
   format: yaml
   label: AppyWay EntitlementTypes API
   slug: appyway-entitlementtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-entitlementtypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-entitlementtypes-api-openapi.yml
 - filename: appyway-exceptiontypes-api-openapi.yml
   format: yaml
   label: AppyWay ExceptionTypes API
   slug: appyway-exceptiontypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-exceptiontypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-exceptiontypes-api-openapi.yml
 - filename: appyway-exemptiontimetypes-api-openapi.yml
   format: yaml
   label: AppyWay ExemptionTimeTypes API
   slug: appyway-exemptiontimetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-exemptiontimetypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-exemptiontimetypes-api-openapi.yml
 - filename: appyway-exemptiontypes-api-openapi.yml
   format: yaml
   label: AppyWay ExemptionTypes API
   slug: appyway-exemptiontypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-exemptiontypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-exemptiontypes-api-openapi.yml
 - filename: appyway-facilitytypes-api-openapi.yml
   format: yaml
   label: AppyWay FacilityTypes API
   slug: appyway-facilitytypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-facilitytypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-facilitytypes-api-openapi.yml
 - filename: appyway-fueltypes-api-openapi.yml
   format: yaml
   label: AppyWay FuelTypes API
   slug: appyway-fueltypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-fueltypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-fueltypes-api-openapi.yml
 - filename: appyway-gis-api-openapi.yml
   format: yaml
   label: AppyWay GIS API
   slug: appyway-gis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-gis-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-gis-api-openapi.yml
 - filename: appyway-movingexceptiontypes-api-openapi.yml
   format: yaml
   label: AppyWay MovingExceptionTypes API
   slug: appyway-movingexceptiontypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-movingexceptiontypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-movingexceptiontypes-api-openapi.yml
 - filename: appyway-movingrestrictiontypes-api-openapi.yml
   format: yaml
   label: AppyWay MovingRestrictionTypes API
   slug: appyway-movingrestrictiontypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-movingrestrictiontypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-movingrestrictiontypes-api-openapi.yml
 - filename: appyway-notevisibilitytypes-api-openapi.yml
   format: yaml
   label: AppyWay NoteVisibilityTypes API
   slug: appyway-notevisibilitytypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-notevisibilitytypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-notevisibilitytypes-api-openapi.yml
 - filename: appyway-offstreetrestrictiontypes-api-openapi.yml
   format: yaml
   label: AppyWay OffStreetRestrictionTypes API
   slug: appyway-offstreetrestrictiontypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-offstreetrestrictiontypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-offstreetrestrictiontypes-api-openapi.yml
 - filename: appyway-onstreetparkingtypes-api-openapi.yml
   format: yaml
   label: AppyWay OnStreetParkingTypes API
   slug: appyway-onstreetparkingtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-onstreetparkingtypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-onstreetparkingtypes-api-openapi.yml
 - filename: appyway-parking-api-openapi.yml
   format: yaml
   label: AppyWay Parking API
   slug: appyway-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-parking-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-parking-api-openapi.yml
 - filename: appyway-permittedvehicles-api-openapi.yml
   format: yaml
   label: AppyWay PermittedVehicles API
   slug: appyway-permittedvehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-permittedvehicles-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-permittedvehicles-api-openapi.yml
 - filename: appyway-permittypes-api-openapi.yml
   format: yaml
   label: AppyWay PermitTypes API
   slug: appyway-permittypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-permittypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-permittypes-api-openapi.yml
 - filename: appyway-regions-api-openapi.yml
   format: yaml
   label: AppyWay Regions API
   slug: appyway-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-regions-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-regions-api-openapi.yml
 - filename: appyway-restrictiontypes-api-openapi.yml
   format: yaml
   label: AppyWay RestrictionTypes API
   slug: appyway-restrictiontypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-restrictiontypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-restrictiontypes-api-openapi.yml
 - filename: appyway-status-api-openapi.yml
   format: yaml
   label: AppyWay Status API
   slug: appyway-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-status-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-status-api-openapi.yml
 - filename: appyway-zones-api-openapi.yml
   format: yaml
   label: AppyWay Zones API
   slug: appyway-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-zones-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-zones-api-openapi.yml
 - filename: appyway-zonetypes-api-openapi.yml
   format: yaml
   label: AppyWay ZoneTypes API
   slug: appyway-zonetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-zonetypes-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-zonetypes-api-openapi.yml
 - filename: appyway-activity-types-api-openapi.yml
   format: yaml
   label: AppyWay Activity Types API
   slug: appyway-activity-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-activity-types-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-activity-types-api-openapi.yml
 - filename: appyway-payment-methods-api-openapi.yml
   format: yaml
   label: AppyWay Payment Methods API
   slug: appyway-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-payment-methods-api-openapi.yml
 - filename: appyway-payment-providers-api-openapi.yml
   format: yaml
   label: AppyWay Payment Providers API
   slug: appyway-payment-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-payment-providers-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-payment-providers-api-openapi.yml
 - filename: appyway-vehicle-types-api-openapi.yml
   format: yaml
   label: AppyWay Vehicle Types API
   slug: appyway-vehicle-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-vehicle-types-api-openapi.yml
+  url: https://artifacts.apis.io/appyway/openapi/appyway-vehicle-types-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 19
@@ -262,7 +262,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/appywa
   \  method: get\n  operationId: get-exportauthoritymovingrestrictionsbyid-authorityid-geojson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exportAuthorityRestrictionsById/{authorityId}.geojson\n  method: get\n  operationId: get-exportauthorityrestrictionsbyid-authorityid-geojson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exportAuthorityRestrictionsBySlug/{slug}.geojson\n  method: get\n  operationId: get-exportauthorityrestrictionsbyslug-slug-geojson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fetchAllAuthorities\n  method: post\n  operationId: post-fetchallauthorities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fetchFullAuthorityBySlug\n  method: post\n  operationId: post-fetchfullauthoritybyslug\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fetchFullAuthorityInfoBySlug\n  method: post\n  operationId: post-fetchfullauthorityinfobyslug\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ping\n  method: get\n  operationId: get-ping\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wfs\n  method: get\n  operationId: get-wfs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/agentic-access/appyway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appyway/agentic-access/appyway-agentic-access.yml
 summary_line: 88 operations · 69 acting
 tags:
 - Parking

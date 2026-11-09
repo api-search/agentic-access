@@ -9,85 +9,85 @@ api_specs:
   label: PHAIDRA directory API (University of Vienna)
   slug: university-of-vienna-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-directory-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-directory-api-openapi.yml
 - filename: university-of-vienna-imageserver-api-openapi.yml
   format: yaml
   label: PHAIDRA imageserver API (University of Vienna)
   slug: university-of-vienna-imageserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-imageserver-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-imageserver-api-openapi.yml
 - filename: university-of-vienna-lists-api-openapi.yml
   format: yaml
   label: PHAIDRA lists API (University of Vienna)
   slug: university-of-vienna-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-lists-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-lists-api-openapi.yml
 - filename: university-of-vienna-misc-api-openapi.yml
   format: yaml
   label: PHAIDRA misc API (University of Vienna)
   slug: university-of-vienna-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-misc-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-misc-api-openapi.yml
 - filename: university-of-vienna-oai-pmh-api-openapi.yml
   format: yaml
   label: PHAIDRA oai-pmh API (University of Vienna)
   slug: university-of-vienna-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-oai-pmh-api-openapi.yml
 - filename: university-of-vienna-object-advanced-api-openapi.yml
   format: yaml
   label: PHAIDRA object-advanced API (University of Vienna)
   slug: university-of-vienna-object-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-object-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-object-advanced-api-openapi.yml
 - filename: university-of-vienna-object-basics-api-openapi.yml
   format: yaml
   label: PHAIDRA object-basics API (University of Vienna)
   slug: university-of-vienna-object-basics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-object-basics-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-object-basics-api-openapi.yml
 - filename: university-of-vienna-relationships-api-openapi.yml
   format: yaml
   label: PHAIDRA relationships API (University of Vienna)
   slug: university-of-vienna-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-relationships-api-openapi.yml
 - filename: university-of-vienna-search-api-openapi.yml
   format: yaml
   label: PHAIDRA search API (University of Vienna)
   slug: university-of-vienna-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-search-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-search-api-openapi.yml
 - filename: university-of-vienna-session-api-openapi.yml
   format: yaml
   label: PHAIDRA session API (University of Vienna)
   slug: university-of-vienna-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-session-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-session-api-openapi.yml
 - filename: university-of-vienna-stats-api-openapi.yml
   format: yaml
   label: PHAIDRA stats API (University of Vienna)
   slug: university-of-vienna-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-stats-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-stats-api-openapi.yml
 - filename: university-of-vienna-templates-api-openapi.yml
   format: yaml
   label: PHAIDRA templates API (University of Vienna)
   slug: university-of-vienna-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-templates-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-templates-api-openapi.yml
 - filename: university-of-vienna-vocabularies-api-openapi.yml
   format: yaml
   label: PHAIDRA vocabularies API (University of Vienna)
   slug: university-of-vienna-vocabularies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-vocabularies-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-vocabularies-api-openapi.yml
 - filename: university-of-vienna-data-stream-api-openapi.yml
   format: yaml
   label: University of Vienna Data Stream API
   slug: university-of-vienna-data-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/openapi/university-of-vienna-data-stream-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-vienna/openapi/university-of-vienna-data-stream-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 70
@@ -198,8 +198,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/univer
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /picture/create\n  method: post\n  operationId: postPictureCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audio/create\n  method: post\n  operationId: postAudioCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/create\n  method: post\n  operationId: postVideoCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /document/create\n  method: post\n  operationId: postDocumentCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unknown/create\n  method: post\n  operationId: postUnknownCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collection/create\n  method: post\n  operationId: postCollectionCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /container/create\n  method: post\n  operationId: postContainerCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /object/{pid}/info\n  method: get\n  operationId: getObjectByPidInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /object/{pid}/thumbnail\n  method: get\n  operationId: getObjectByPidThumbnail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n\
-  # --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/agentic-access/university-of-vienna-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/agentic-access/university-of-vienna-agentic-access.yml
+  # --- truncated at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/university-of-vienna/agentic-access/university-of-vienna-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/university-of-vienna/agentic-access/university-of-vienna-agentic-access.yml
 summary_line: 145 operations · 75 acting
 tags:
 - Education

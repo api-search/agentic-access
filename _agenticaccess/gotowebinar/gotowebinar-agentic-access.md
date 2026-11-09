@@ -9,79 +9,79 @@ api_specs:
   label: GoToWebinar Attendees API
   slug: gotowebinar-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-attendees-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-attendees-api-openapi.yml
 - filename: gotowebinar-co-organizers-api-openapi.yml
   format: yaml
   label: GoToWebinar Co-Organizers API
   slug: gotowebinar-co-organizers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-co-organizers-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-co-organizers-api-openapi.yml
 - filename: gotowebinar-panelists-api-openapi.yml
   format: yaml
   label: GoToWebinar Panelists API
   slug: gotowebinar-panelists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-panelists-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-panelists-api-openapi.yml
 - filename: gotowebinar-polls-api-openapi.yml
   format: yaml
   label: GoToWebinar Polls API
   slug: gotowebinar-polls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-polls-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-polls-api-openapi.yml
 - filename: gotowebinar-questions-api-openapi.yml
   format: yaml
   label: GoToWebinar Questions API
   slug: gotowebinar-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-questions-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-questions-api-openapi.yml
 - filename: gotowebinar-recordings-api-openapi.yml
   format: yaml
   label: GoToWebinar Recordings API
   slug: gotowebinar-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-recordings-api-openapi.yml
 - filename: gotowebinar-registrants-api-openapi.yml
   format: yaml
   label: GoToWebinar Registrants API
   slug: gotowebinar-registrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-registrants-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-registrants-api-openapi.yml
 - filename: gotowebinar-sessions-api-openapi.yml
   format: yaml
   label: GoToWebinar Sessions API
   slug: gotowebinar-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-sessions-api-openapi.yml
 - filename: gotowebinar-surveys-api-openapi.yml
   format: yaml
   label: GoToWebinar Surveys API
   slug: gotowebinar-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-surveys-api-openapi.yml
 - filename: gotowebinar-user-subscriptions-api-openapi.yml
   format: yaml
   label: GoToWebinar User Subscriptions API
   slug: gotowebinar-user-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-user-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-user-subscriptions-api-openapi.yml
 - filename: gotowebinar-webhooks-api-openapi.yml
   format: yaml
   label: GoToWebinar Webhooks API
   slug: gotowebinar-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-webhooks-api-openapi.yml
 - filename: gotowebinar-webinars-api-openapi.yml
   format: yaml
   label: GoToWebinar Webinars API
   slug: gotowebinar-webinars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-webinars-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-webinars-api-openapi.yml
 - filename: gotowebinar-recording-assets-api-openapi.yml
   format: yaml
   label: GoToWebinar Recording Assets API
   slug: gotowebinar-recording-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-recording-assets-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-recording-assets-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 40
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gotowe
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizers/{organizerKey}/webinars/{webinarKey}/attendees\n  method: get\n  operationId: getAttendeesForAllWebinarSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizers/{organizerKey}/webinars/{webinarKey}/meetingtimes\n  method: get\n  operationId: getWebinarMeetingTimes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizers/{organizerKey}/webinars/{webinarKey}/audio\n  method: get\n  operationId: getAudioInformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizers/{organizerKey}/webinars/{webinarKey}/audio\n\
   \  method: post\n  operationId: updateAudioInformation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizers/{organizerKey}/webinars/{webinarKey}/performance\n  method: get\n  operationId: getPerformanceForAllWebinarSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webinars/{webinarKey}/startUrl\n  method: get\n  operationId: getStartUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webinars/{webinarKey}/copy\n  method: put\n  operationId: copyWebinar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webinars/{webinarKey}/recordingAssets\n  method: get\n  operationId: getRecordingAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/agentic-access/gotowebinar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gotowebinar/agentic-access/gotowebinar-agentic-access.yml
 summary_line: 63 operations · 23 acting
 tags:
 - Attendees

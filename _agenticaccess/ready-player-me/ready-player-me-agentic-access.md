@@ -9,19 +9,19 @@ api_specs:
   label: Ready Player Me Avatars API
   slug: ready-player-me-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/openapi/ready-player-me-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/ready-player-me/openapi/ready-player-me-avatars-api-openapi.yml
 - filename: ready-player-me-assets-api-openapi.yml
   format: yaml
   label: Ready Player Me Assets API
   slug: ready-player-me-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/openapi/ready-player-me-assets-api-openapi.yml
+  url: https://artifacts.apis.io/ready-player-me/openapi/ready-player-me-assets-api-openapi.yml
 - filename: ready-player-me-auth-api-openapi.yml
   format: yaml
   label: Ready Player Me Auth API
   slug: ready-player-me-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/openapi/ready-player-me-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ready-player-me/openapi/ready-player-me-auth-api-openapi.yml
 consequence_counts:
   read: 11
   write: 12
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ready-
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/avatars/{avatarId}\n  method: delete\n  operationId: deleteAvatar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/avatars/{avatarId}/draft\n  method: delete\n  operationId: deleteAvatarDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/avatars/{avatarId}/precompile\n  method: post\n  operationId: precompileAvatar\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/avatars/{avatarId}/colors\n  method: get\n  operationId: getAvatarColors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/avatars\n  method: get\n  operationId: listUserAvatars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/avatars/{avatarId}.glb\n  method: get\n  operationId: getAvatarGlb\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/avatars/{avatarId}.png\n  method: get\n  operationId: getAvatarPng\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/avatars/{avatarId}.glb\n  method: get\n  operationId: getAvatarGlbV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/agentic-access/ready-player-me-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ready-player-me/agentic-access/ready-player-me-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Avatars

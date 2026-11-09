@@ -9,13 +9,13 @@ api_specs:
   label: The Co-operators Event Insurance API
   slug: cooperators-event-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/openapi/cooperators-event-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/cooperators/openapi/cooperators-event-insurance-api-openapi.yml
 - filename: cooperators-tenant-insurance-api-openapi.yml
   format: yaml
   label: The Co-operators Tenant Insurance API
   slug: cooperators-tenant-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/openapi/cooperators-tenant-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/cooperators/openapi/cooperators-tenant-insurance-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 1
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/cooper
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/event/policy/{policyId}/email\n  method: put\n  operationId: emailEventPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tenant/eligibility\n  method: post\n  operationId: checkTenantEligibility\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
   \  audit: required\n- path: /api/v1/tenant/quote/{quoteSubmissionId}\n  method: put\n  operationId: updateTenantQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tenant/quote/{quoteSubmissionId}/addinsured\n  method: put\n  operationId: addTenantQuoteInsured\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tenant/quote/{quoteSubmissionId}/payment\n  method: put\n  operationId: createTenantQuotePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/agentic-access/cooperators-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cooperators/agentic-access/cooperators-agentic-access.yml
 summary_line: 10 operations · 9 acting
 tags:
 - Insurance

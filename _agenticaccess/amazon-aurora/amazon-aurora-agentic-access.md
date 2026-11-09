@@ -8,37 +8,37 @@ api_specs:
   label: Amazon Aurora DB Cluster Endpoints API
   slug: amazon-aurora-db-cluster-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/openapi/amazon-aurora-db-cluster-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-aurora/openapi/amazon-aurora-db-cluster-endpoints-api-openapi.yml
 - filename: amazon-aurora-db-cluster-parameter-groups-api-openapi.yml
   format: yaml
   label: Amazon Aurora DB Cluster Parameter Groups API
   slug: amazon-aurora-db-cluster-parameter-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/openapi/amazon-aurora-db-cluster-parameter-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-aurora/openapi/amazon-aurora-db-cluster-parameter-groups-api-openapi.yml
 - filename: amazon-aurora-db-cluster-snapshots-api-openapi.yml
   format: yaml
   label: Amazon Aurora DB Cluster Snapshots API
   slug: amazon-aurora-db-cluster-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/openapi/amazon-aurora-db-cluster-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-aurora/openapi/amazon-aurora-db-cluster-snapshots-api-openapi.yml
 - filename: amazon-aurora-db-clusters-api-openapi.yml
   format: yaml
   label: Amazon Aurora DB Clusters API
   slug: amazon-aurora-db-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/openapi/amazon-aurora-db-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-aurora/openapi/amazon-aurora-db-clusters-api-openapi.yml
 - filename: amazon-aurora-db-instances-api-openapi.yml
   format: yaml
   label: Amazon Aurora DB Instances API
   slug: amazon-aurora-db-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/openapi/amazon-aurora-db-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-aurora/openapi/amazon-aurora-db-instances-api-openapi.yml
 - filename: amazon-aurora-global-clusters-api-openapi.yml
   format: yaml
   label: Amazon Aurora Global Clusters API
   slug: amazon-aurora-global-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/openapi/amazon-aurora-global-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-aurora/openapi/amazon-aurora-global-clusters-api-openapi.yml
 consequence_counts:
   safety-critical: 2
   write: 19
@@ -86,12 +86,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=DescribeDBClusterParameterGroups\n  method: post\n  operationId: describeDBClusterParameterGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=CreateDBClusterEndpoint\n  method: post\n  operationId: createDBClusterEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=DescribeDBClusterEndpoints\n  method: post\n  operationId: describeDBClusterEndpoints\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=CreateGlobalCluster\n  method: post\n  operationId: createGlobalCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=DeleteGlobalCluster\n  method: post\n  operationId: deleteGlobalCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=DescribeGlobalClusters\n\
   \  method: post\n  operationId: describeGlobalClusters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/agentic-access/amazon-aurora-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-aurora/agentic-access/amazon-aurora-agentic-access.yml
 summary_line: 21 operations · 21 acting · 2 human-in-the-loop
 tags:
 - Amazon Aurora
 - MySQL
 - PostgreSQL
 - Relational Database
+- Amazon Web Services
 - Database
 ---

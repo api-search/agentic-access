@@ -9,55 +9,55 @@ api_specs:
   label: Bump.sh Branches API
   slug: bump-sh-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-branches-api-openapi.yml
+  url: https://artifacts.apis.io/bump-sh/openapi/bump-sh-branches-api-openapi.yml
 - filename: bump-sh-diffs-api-openapi.yml
   format: yaml
   label: Bump.sh Diffs API
   slug: bump-sh-diffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-diffs-api-openapi.yml
+  url: https://artifacts.apis.io/bump-sh/openapi/bump-sh-diffs-api-openapi.yml
 - filename: bump-sh-hubs-api-openapi.yml
   format: yaml
   label: Bump.sh Hubs API
   slug: bump-sh-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/bump-sh/openapi/bump-sh-hubs-api-openapi.yml
 - filename: bump-sh-mcp-servers-api-openapi.yml
   format: yaml
   label: Bump.sh MCP servers API
   slug: bump-sh-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-mcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/bump-sh/openapi/bump-sh-mcp-servers-api-openapi.yml
 - filename: bump-sh-ping-api-openapi.yml
   format: yaml
   label: Bump.sh Ping API
   slug: bump-sh-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-ping-api-openapi.yml
+  url: https://artifacts.apis.io/bump-sh/openapi/bump-sh-ping-api-openapi.yml
 - filename: bump-sh-previews-api-openapi.yml
   format: yaml
   label: Bump.sh Previews API
   slug: bump-sh-previews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-previews-api-openapi.yml
+  url: https://artifacts.apis.io/bump-sh/openapi/bump-sh-previews-api-openapi.yml
 - filename: bump-sh-validations-api-openapi.yml
   format: yaml
   label: Bump.sh Validations API
   slug: bump-sh-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-validations-api-openapi.yml
+  url: https://artifacts.apis.io/bump-sh/openapi/bump-sh-validations-api-openapi.yml
 - filename: bump-sh-versions-api-openapi.yml
   format: yaml
   label: Bump.sh Versions API
   slug: bump-sh-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-versions-api-openapi.yml
+  url: https://artifacts.apis.io/bump-sh/openapi/bump-sh-versions-api-openapi.yml
 - filename: bump-sh-documentation-change-api-openapi.yml
   format: yaml
   label: Bump.sh Documentation change API
   slug: bump-sh-documentation-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/openapi/bump-sh-documentation-change-api-openapi.yml
+  url: https://artifacts.apis.io/bump-sh/openapi/bump-sh-documentation-change-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bump-s
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /docs/{doc_id_or_slug}/branches/{slug}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /docs/{doc_id_or_slug}/branches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/{doc_id_or_slug}/branches\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validations\n  method:\
   \ post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /previews\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /previews/{preview_id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /versions/{version_id}\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp_servers/{mcp_server_id_or_slug}/deploy\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/agentic-access/bump-sh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bump-sh/agentic-access/bump-sh-agentic-access.yml
 summary_line: 15 operations · 9 acting
 tags:
 - API Changelog

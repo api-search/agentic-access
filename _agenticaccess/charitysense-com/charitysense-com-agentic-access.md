@@ -9,31 +9,31 @@ api_specs:
   label: CharitySense Assistant API
   slug: charitysense-com-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-assistant-api-openapi.yml
 - filename: charitysense-com-dataset-api-openapi.yml
   format: yaml
   label: CharitySense Dataset API
   slug: charitysense-com-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-dataset-api-openapi.yml
 - filename: charitysense-com-discovery-api-openapi.yml
   format: yaml
   label: CharitySense Discovery API
   slug: charitysense-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-discovery-api-openapi.yml
 - filename: charitysense-com-profiles-api-openapi.yml
   format: yaml
   label: CharitySense Profiles API
   slug: charitysense-com-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-profiles-api-openapi.yml
 - filename: charitysense-com-usage-api-openapi.yml
   format: yaml
   label: CharitySense Usage API
   slug: charitysense-com-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/openapi/charitysense-com-usage-api-openapi.yml
+  url: https://artifacts.apis.io/charitysense-com/openapi/charitysense-com-usage-api-openapi.yml
 consequence_counts:
   read: 18
   write: 3
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/charit
   \ max-ttl: 3600\n    audit: none\n- path: /api/v2/charity/{ein}/subawards\n  method: get\n  operationId: getCharitySubawards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/charity/{ein}/grantees\n  method: get\n  operationId: getCharityGrantees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/charity/{ein}/funders\n  method: get\n  operationId: getCharityFunders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/funders/for-cohort\n  method: get\n  operationId: getFundersForCohort\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/charity/{ein}/discovery\n\
   \  method: get\n  operationId: discoverRelatedOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/charity/diligence-summary\n  method: get\n  operationId: getDiligenceSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/charity-question\n  method: post\n  operationId: submitCharityQuestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/agent-feedback\n  method: post\n  operationId: submitAgentFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/assistant/capabilities\n  method: get\n  operationId: getAssistantCapabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/assistant/chat/stream\n  method: post\n  operationId: streamAssistantChat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charitysense-com/refs/heads/main/agentic-access/charitysense-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/charitysense-com/agentic-access/charitysense-com-agentic-access.yml
 summary_line: 21 operations · 3 acting
 tags:
 - Non-Profit

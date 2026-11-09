@@ -9,25 +9,25 @@ api_specs:
   label: Voltus Dispatches API
   slug: voltus-dispatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-dispatches-api-openapi.yml
+  url: https://artifacts.apis.io/voltus/openapi/voltus-dispatches-api-openapi.yml
 - filename: voltus-sites-api-openapi.yml
   format: yaml
   label: Voltus Sites API
   slug: voltus-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-sites-api-openapi.yml
+  url: https://artifacts.apis.io/voltus/openapi/voltus-sites-api-openapi.yml
 - filename: voltus-telemetry-api-openapi.yml
   format: yaml
   label: Voltus Telemetry API
   slug: voltus-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/voltus/openapi/voltus-telemetry-api-openapi.yml
 - filename: voltus-webhooks-api-openapi.yml
   format: yaml
   label: Voltus Webhooks API
   slug: voltus-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/voltus-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/voltus/openapi/voltus-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   safety-critical: 2
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/voltus
   \ voltus#get-dispatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2022-04-15/dispatches/{id}\n  method: get\n  operationId: voltus#get-dispatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2022-04-15/sites\n  method: get\n  operationId: voltus#get-sites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2022-04-15/telemetry\n  method: post\n  operationId: voltus#post-telemetry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2022-04-15/telemetry/controllable-load\n\
   \  method: post\n  operationId: voltus#post-controllable-load\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /2022-04-15/telemetry/kw\n  method: get\n  operationId: voltus#get-telemetry-kw\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2022-04-15/webhooks\n  method: get\n  operationId: voltus#get-webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2022-04-15/webhooks\n  method: post\n  operationId: voltus#post-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2022-04-15/webhooks/{id}\n  method: delete\n  operationId: voltus#delete-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/agentic-access/voltus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/voltus/agentic-access/voltus-agentic-access.yml
 summary_line: 10 operations · 5 acting · 2 human-in-the-loop
 tags:
 - Energy

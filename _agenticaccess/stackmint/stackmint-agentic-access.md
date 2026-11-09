@@ -9,13 +9,13 @@ api_specs:
   label: Stackmint Admin API
   slug: stackmint-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/openapi/stackmint-admin-api-openapi.yml
+  url: https://artifacts.apis.io/stackmint/openapi/stackmint-admin-api-openapi.yml
 - filename: stackmint-clients-api-openapi.yml
   format: yaml
   label: Stackmint Clients API
   slug: stackmint-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/openapi/stackmint-clients-api-openapi.yml
+  url: https://artifacts.apis.io/stackmint/openapi/stackmint-clients-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stackm
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/{clientId}/branches/{branchId}/run\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clients/{clientId}/runs/{runId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/{clientId}/buds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/{clientId}/buds/{budId}/run\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clients/{clientId}/mcp/tools\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/{clientId}/mcp/tools/{toolId}/invoke\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/clients/{clientId}/branches/{branchId}/assign\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/clients/{clientId}/providers/{providerId}/credentials\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/agentic-access/stackmint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stackmint/agentic-access/stackmint-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - AI Governance

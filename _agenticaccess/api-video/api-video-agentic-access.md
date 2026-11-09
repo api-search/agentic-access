@@ -9,73 +9,73 @@ api_specs:
   label: API.Video Videos API
   slug: api-video-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-videos-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-videos-api-openapi.yml
 - filename: api-video-advanced-authentication-api-openapi.yml
   format: yaml
   label: API.Video Advanced authentication API
   slug: api-video-advanced-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-advanced-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-advanced-authentication-api-openapi.yml
 - filename: api-video-analytics-api-openapi.yml
   format: yaml
   label: API.Video Analytics API
   slug: api-video-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-analytics-api-openapi.yml
 - filename: api-video-captions-api-openapi.yml
   format: yaml
   label: API.Video Captions API
   slug: api-video-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-captions-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-captions-api-openapi.yml
 - filename: api-video-chapters-api-openapi.yml
   format: yaml
   label: API.Video Chapters API
   slug: api-video-chapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-chapters-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-chapters-api-openapi.yml
 - filename: api-video-live-streams-api-openapi.yml
   format: yaml
   label: API.Video Live Streams API
   slug: api-video-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-live-streams-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-live-streams-api-openapi.yml
 - filename: api-video-player-themes-api-openapi.yml
   format: yaml
   label: API.Video Player Themes API
   slug: api-video-player-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-player-themes-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-player-themes-api-openapi.yml
 - filename: api-video-summaries-api-openapi.yml
   format: yaml
   label: API.Video Summaries API
   slug: api-video-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-summaries-api-openapi.yml
 - filename: api-video-tags-api-openapi.yml
   format: yaml
   label: API.Video Tags API
   slug: api-video-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-tags-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-tags-api-openapi.yml
 - filename: api-video-upload-tokens-api-openapi.yml
   format: yaml
   label: API.Video Upload Tokens API
   slug: api-video-upload-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-upload-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-upload-tokens-api-openapi.yml
 - filename: api-video-watermarks-api-openapi.yml
   format: yaml
   label: API.Video Watermarks API
   slug: api-video-watermarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-watermarks-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-watermarks-api-openapi.yml
 - filename: api-video-webhooks-api-openapi.yml
   format: yaml
   label: API.Video Webhooks API
   slug: api-video-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/api-vi
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{id}\n  method: get\n  operationId: getVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/{id}\n  method: delete\n  operationId: deleteVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{id}\n  method: patch\n  operationId: updateVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /videos/discarded\n  method: get\n  operationId: listDiscardedVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/discarded/{id}\n  method: get\n  operationId: getDiscardedVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/discarded/{id}\n  method: patch\n  operationId: updateDiscardedVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{id}/status\n  method: get\n  operationId: getVideoStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/upload-token\n  method: post\n  operationId: createUploadToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/agentic-access/api-video-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/api-video/agentic-access/api-video-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Artificial Intelligence

@@ -9,37 +9,37 @@ api_specs:
   label: AdPlug Health API
   slug: adplug-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-health-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-health-api-openapi.yml
 - filename: adplug-mcp-api-openapi.yml
   format: yaml
   label: AdPlug MCP API
   slug: adplug-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-mcp-api-openapi.yml
 - filename: adplug-oauth-api-openapi.yml
   format: yaml
   label: AdPlug OAuth API
   slug: adplug-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-oauth-api-openapi.yml
 - filename: adplug-oauth-legacy-compat-api-openapi.yml
   format: yaml
   label: AdPlug OAUTH Legacy Compat API
   slug: adplug-oauth-legacy-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-oauth-legacy-compat-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-oauth-legacy-compat-api-openapi.yml
 - filename: adplug-users-api-openapi.yml
   format: yaml
   label: AdPlug Users API
   slug: adplug-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-users-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-users-api-openapi.yml
 - filename: adplug-webhooks-api-openapi.yml
   format: yaml
   label: AdPlug Webhooks API
   slug: adplug-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/openapi/adplug-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/adplug/openapi/adplug-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/adplug
   \    audit: required\n- path: /api/users/{user_id}\n  method: delete\n  operationId: delete_user_account_api_users__user_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users/{user_id}/rotate-mcp-token\n  method: post\n  operationId: rotate_mcp_token_api_users__user_id__rotate_mcp_token_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users/{user_id}/paddle-sync-subscription\n  method: post\n  operationId: sync_paddle_subscription_api_users__user_id__paddle_sync_subscription_post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users/{user_id}/paddle-subscription\n  method: get\n  operationId: get_paddle_subscription_api_users__user_id__paddle_subscription_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users/{user_id}/paddle-portal-session\n  method: post\n  operationId: create_paddle_portal_session_api_users__user_id__paddle_portal_session_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users/{user_id}/paddle-change-plan\n\
   \  method: post\n  operationId: paddle_change_plan_api_users__user_id__paddle_change_plan_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users/{user_id}/paddle-cancel-current-sub\n  method: post\n  operationId: paddle_cancel_current_sub_api_users__user_id__paddle_cancel_current_sub_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/agentic-access/adplug-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adplug/agentic-access/adplug-agentic-access.yml
 summary_line: 35 operations · 15 acting
 tags:
 - PPC

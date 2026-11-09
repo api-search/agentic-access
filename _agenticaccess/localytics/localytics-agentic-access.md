@@ -9,31 +9,31 @@ api_specs:
   label: Localytics Audiences API
   slug: localytics-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/localytics/openapi/localytics-audiences-api-openapi.yml
 - filename: localytics-campaigns-api-openapi.yml
   format: yaml
   label: Localytics Campaigns API
   slug: localytics-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/localytics/openapi/localytics-campaigns-api-openapi.yml
 - filename: localytics-push-campaigns-api-openapi.yml
   format: yaml
   label: Localytics Push Campaigns API
   slug: localytics-push-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-push-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/localytics/openapi/localytics-push-campaigns-api-openapi.yml
 - filename: localytics-meta-api-openapi.yml
   format: yaml
   label: Localytics Meta API
   slug: localytics-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-meta-api-openapi.yml
+  url: https://artifacts.apis.io/localytics/openapi/localytics-meta-api-openapi.yml
 - filename: localytics-push-api-openapi.yml
   format: yaml
   label: Localytics Push API
   slug: localytics-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/localytics-push-api-openapi.yml
+  url: https://artifacts.apis.io/localytics/openapi/localytics-push-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/localy
   \ get\n  operationId: SearchCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org_id}/apps/{app_id}/push/campaigns\n  method: post\n  operationId: CreatePushCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org_id}/apps/{app_id}/push/campaigns/{campaign_id}\n  method: get\n  operationId: GetPushCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org_id}/apps/{app_id}/push/campaigns/{campaign_id}\n  method: delete\n  operationId: DeletePushCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org_id}/apps/{app_id}/push/campaigns/{campaign_id}\n  method: put\n  operationId: editPushCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org_id}/apps/{app_id}/push/campaigns/{campaign_id}/archive\n  method: put\n  operationId: ArchivePushCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/agentic-access/localytics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/localytics/agentic-access/localytics-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Company

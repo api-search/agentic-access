@@ -9,55 +9,55 @@ api_specs:
   label: ezyVet Animals API
   slug: ezyvet-animals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/openapi/ezyvet-animals-api-openapi.yml
+  url: https://artifacts.apis.io/ezyvet/openapi/ezyvet-animals-api-openapi.yml
 - filename: ezyvet-appointments-api-openapi.yml
   format: yaml
   label: ezyVet Appointments API
   slug: ezyvet-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/openapi/ezyvet-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/ezyvet/openapi/ezyvet-appointments-api-openapi.yml
 - filename: ezyvet-authentication-api-openapi.yml
   format: yaml
   label: ezyVet Authentication API
   slug: ezyvet-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/openapi/ezyvet-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ezyvet/openapi/ezyvet-authentication-api-openapi.yml
 - filename: ezyvet-consultations-api-openapi.yml
   format: yaml
   label: ezyVet Consultations API
   slug: ezyvet-consultations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/openapi/ezyvet-consultations-api-openapi.yml
+  url: https://artifacts.apis.io/ezyvet/openapi/ezyvet-consultations-api-openapi.yml
 - filename: ezyvet-contacts-api-openapi.yml
   format: yaml
   label: ezyVet Contacts API
   slug: ezyvet-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/openapi/ezyvet-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/ezyvet/openapi/ezyvet-contacts-api-openapi.yml
 - filename: ezyvet-diagnostics-api-openapi.yml
   format: yaml
   label: ezyVet Diagnostics API
   slug: ezyvet-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/openapi/ezyvet-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/ezyvet/openapi/ezyvet-diagnostics-api-openapi.yml
 - filename: ezyvet-invoices-api-openapi.yml
   format: yaml
   label: ezyVet Invoices API
   slug: ezyvet-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/openapi/ezyvet-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/ezyvet/openapi/ezyvet-invoices-api-openapi.yml
 - filename: ezyvet-prescriptions-api-openapi.yml
   format: yaml
   label: ezyVet Prescriptions API
   slug: ezyvet-prescriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/openapi/ezyvet-prescriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ezyvet/openapi/ezyvet-prescriptions-api-openapi.yml
 - filename: ezyvet-products-api-openapi.yml
   format: yaml
   label: ezyVet Products API
   slug: ezyvet-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/openapi/ezyvet-products-api-openapi.yml
+  url: https://artifacts.apis.io/ezyvet/openapi/ezyvet-products-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 27
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ezyvet
   \  audit: none\n- path: /v1/diagnosticrequest\n  method: get\n  operationId: listDiagnosticRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/diagnosticrequest\n  method: post\n  operationId: createDiagnosticRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/diagnosticresult\n  method: get\n  operationId: listDiagnosticResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/diagnosticresult\n  method: post\n  operationId: createDiagnosticResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n   \
   \ subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/prescription\n  method: get\n  operationId: listPrescriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prescription\n  method: post\n  operationId: createPrescription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/prescription\n  method: get\n  operationId: listPrescriptionsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/vaccination\n  method: get\n  operationId: listVaccinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vaccination\n  method: post\n  operationId: createVaccination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/agentic-access/ezyvet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ezyvet/agentic-access/ezyvet-agentic-access.yml
 summary_line: 47 operations · 20 acting
 tags:
 - Veterinary

@@ -9,85 +9,85 @@ api_specs:
   label: Algolia Search API
   slug: algolia-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-search-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-search-api-openapi.yml
 - filename: algolia-insights-api-openapi.yml
   format: yaml
   label: Algolia Insights API
   slug: algolia-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-insights-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-insights-api-openapi.yml
 - filename: algolia-recommend-api-openapi.yml
   format: yaml
   label: Algolia Recommend API
   slug: algolia-recommend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-recommend-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-recommend-api-openapi.yml
 - filename: algolia-analytics-api-openapi.yml
   format: yaml
   label: Algolia Analytics API
   slug: algolia-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-analytics-api-openapi.yml
 - filename: algolia-abtesting-v3-api-openapi.yml
   format: yaml
   label: Algolia A/B Testing API
   slug: algolia-a-b-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-abtesting-v3-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-abtesting-v3-api-openapi.yml
 - filename: algolia-personalization-api-openapi.yml
   format: yaml
   label: Algolia Personalization API
   slug: algolia-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-personalization-api-openapi.yml
 - filename: algolia-advanced-personalization-api-openapi.yml
   format: yaml
   label: Algolia Advanced Personalization API
   slug: algolia-advanced-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-advanced-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-advanced-personalization-api-openapi.yml
 - filename: algolia-crawler-api-openapi.yml
   format: yaml
   label: Algolia Crawler API
   slug: algolia-crawler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-crawler-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-crawler-api-openapi.yml
 - filename: algolia-ingestion-api-openapi.yml
   format: yaml
   label: Algolia Ingestion API
   slug: algolia-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-ingestion-api-openapi.yml
 - filename: algolia-query-suggestions-api-openapi.yml
   format: yaml
   label: Algolia Query Suggestions API
   slug: algolia-query-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-query-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-query-suggestions-api-openapi.yml
 - filename: algolia-composition-api-openapi.yml
   format: yaml
   label: Algolia Composition API
   slug: algolia-composition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-composition-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-composition-api-openapi.yml
 - filename: algolia-agent-studio-api-openapi.yml
   format: yaml
   label: Algolia Agent Studio API
   slug: algolia-agent-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-agent-studio-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-agent-studio-api-openapi.yml
 - filename: algolia-monitoring-api-openapi.yml
   format: yaml
   label: Algolia Monitoring API
   slug: algolia-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-monitoring-api-openapi.yml
 - filename: algolia-ab-testing-api-openapi.yml
   format: yaml
   label: Algolia Ab Testing API
   slug: algolia-ab-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-ab-testing-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-ab-testing-api-openapi.yml
 consequence_counts:
   physical: 41
   read: 174
@@ -276,8 +276,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/algoli
   \ getClickPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2/clicks/clickThroughRate\n  method: get\n  operationId: getClickThroughRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2/conversions/conversionRate\n  method: get\n  operationId: getConversionRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2/conversions/addToCartRate\n  method: get\n  operationId: getAddToCartRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2/conversions/purchaseRate\n  method: get\n  operationId: getPurchaseRate\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2/conversions/revenue\n  method: get\n  operationId: getRevenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2/status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/patterns/fields\n  method: get\n  operationId: getPatternsFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/patterns/timeseries\n  method: post\n  operationId: queryPatternsTimeseries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/patterns/scalar\n\
   \  method: post\n  operationId: queryPatternsScalar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/patterns/table\n  method: post\n  operationId: queryPatternsTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3/patterns/distribution\n  method: post\n  operationId: queryPatternsDistribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /setClientApiKey\n  method: get\n  operationId: setClientApiKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{path}\n  method: get\n  operationId: customGet\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{path}\n  method: post\n  operationId: customPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{path}\n  method: put\n  operationId: customPut\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (95 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/agentic-access/algolia-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/agentic-access/algolia-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{path}\n  method: post\n  operationId: customPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{path}\n  method: put\n  operationId: customPut\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (95 KB total) ---\n# Full source: https://artifacts.apis.io/algolia/agentic-access/algolia-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/algolia/agentic-access/algolia-agentic-access.yml
 summary_line: 342 operations · 168 acting · 4 human-in-the-loop
 tags:
 - Search

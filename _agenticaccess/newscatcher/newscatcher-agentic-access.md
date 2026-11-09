@@ -9,97 +9,97 @@ api_specs:
   label: Newscatcher AggregationCount API
   slug: newscatcher-aggregationcount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-aggregationcount-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-aggregationcount-api-openapi.yml
 - filename: newscatcher-authors-api-openapi.yml
   format: yaml
   label: Newscatcher Authors API
   slug: newscatcher-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-authors-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-authors-api-openapi.yml
 - filename: newscatcher-breakingnews-api-openapi.yml
   format: yaml
   label: Newscatcher BreakingNews API
   slug: newscatcher-breakingnews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-breakingnews-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-breakingnews-api-openapi.yml
 - filename: newscatcher-datasets-api-openapi.yml
   format: yaml
   label: Newscatcher Datasets API
   slug: newscatcher-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-datasets-api-openapi.yml
 - filename: newscatcher-entities-api-openapi.yml
   format: yaml
   label: Newscatcher Entities API
   slug: newscatcher-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-entities-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-entities-api-openapi.yml
 - filename: newscatcher-jobs-api-openapi.yml
   format: yaml
   label: Newscatcher Jobs API
   slug: newscatcher-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-jobs-api-openapi.yml
 - filename: newscatcher-latestheadlines-api-openapi.yml
   format: yaml
   label: Newscatcher LatestHeadlines API
   slug: newscatcher-latestheadlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-latestheadlines-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-latestheadlines-api-openapi.yml
 - filename: newscatcher-meta-api-openapi.yml
   format: yaml
   label: Newscatcher Meta API
   slug: newscatcher-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-meta-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-meta-api-openapi.yml
 - filename: newscatcher-monitors-api-openapi.yml
   format: yaml
   label: Newscatcher Monitors API
   slug: newscatcher-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-monitors-api-openapi.yml
 - filename: newscatcher-projects-api-openapi.yml
   format: yaml
   label: Newscatcher Projects API
   slug: newscatcher-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-projects-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-projects-api-openapi.yml
 - filename: newscatcher-search-api-openapi.yml
   format: yaml
   label: Newscatcher Search API
   slug: newscatcher-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-search-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-search-api-openapi.yml
 - filename: newscatcher-searchby-api-openapi.yml
   format: yaml
   label: Newscatcher SearchBy API
   slug: newscatcher-searchby-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-searchby-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-searchby-api-openapi.yml
 - filename: newscatcher-searchbylink-api-openapi.yml
   format: yaml
   label: Newscatcher SearchByLink API
   slug: newscatcher-searchbylink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-searchbylink-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-searchbylink-api-openapi.yml
 - filename: newscatcher-sources-api-openapi.yml
   format: yaml
   label: Newscatcher Sources API
   slug: newscatcher-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-sources-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-sources-api-openapi.yml
 - filename: newscatcher-subscription-api-openapi.yml
   format: yaml
   label: Newscatcher Subscription API
   slug: newscatcher-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-subscription-api-openapi.yml
 - filename: newscatcher-webhooks-api-openapi.yml
   format: yaml
   label: Newscatcher Webhooks API
   slug: newscatcher-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/openapi/newscatcher-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/newscatcher/openapi/newscatcher-webhooks-api-openapi.yml
 consequence_counts:
   read: 44
   safety-critical: 1
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/newsca
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catchAll/webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catchAll/webhooks/{webhook_id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catchAll/webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /catchAll/webhooks/{webhook_id}/test\n  method: post\n  operationId: testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catchAll/webhooks/{webhook_id}/resources\n  method: post\n  operationId: assignWebhookResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catchAll/webhooks/{webhook_id}/resources\n  method: get\n  operationId: listWebhookResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /catchAll/webhooks/{webhook_id}/resources/{resource_type}/{resource_id}\n  method: delete\n  operationId: removeWebhookResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catchAll/resources/{resource_type}/{resource_id}/webhooks\n  method: get\n  operationId: listWebhooksForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catchAll/webhook-history\n  method: get\n  operationId: getWebhookDeliveryHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/agentic-access/newscatcher-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/newscatcher/agentic-access/newscatcher-agentic-access.yml
 summary_line: 76 operations · 32 acting · 1 human-in-the-loop
 tags:
 - News

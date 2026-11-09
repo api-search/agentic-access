@@ -8,19 +8,19 @@ api_specs:
   label: An API of Ice and Fire Books API
   slug: game-of-thrones-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-books-api-openapi.yml
+  url: https://artifacts.apis.io/game-of-thrones/openapi/game-of-thrones-books-api-openapi.yml
 - filename: game-of-thrones-characters-api-openapi.yml
   format: yaml
   label: An API of Ice and Fire Characters API
   slug: game-of-thrones-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-characters-api-openapi.yml
+  url: https://artifacts.apis.io/game-of-thrones/openapi/game-of-thrones-characters-api-openapi.yml
 - filename: game-of-thrones-houses-api-openapi.yml
   format: yaml
   label: An API of Ice and Fire Houses API
   slug: game-of-thrones-houses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-houses-api-openapi.yml
+  url: https://artifacts.apis.io/game-of-thrones/openapi/game-of-thrones-houses-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /books\n  method: get\n  operationId: listBooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /books/{id}\n  method: get\n  operationId: getBook\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /characters\n  method: get\n  operationId: listCharacters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /characters/{id}\n  method: get\n  operationId: getCharacter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /houses\n  method: get\n  operationId: listHouses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /houses/{id}\n  method: get\n  operationId: getHouse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/agentic-access/game-of-thrones-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/game-of-thrones/agentic-access/game-of-thrones-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Game of Thrones

@@ -9,61 +9,61 @@ api_specs:
   label: liars.town Act API
   slug: liars-town-act-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-act-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-act-api-openapi.yml
 - filename: liars-town-bots-api-openapi.yml
   format: yaml
   label: liars.town Bots API
   slug: liars-town-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-bots-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-bots-api-openapi.yml
 - filename: liars-town-export-api-openapi.yml
   format: yaml
   label: liars.town Export API
   slug: liars-town-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-export-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-export-api-openapi.yml
 - filename: liars-town-games-api-openapi.yml
   format: yaml
   label: liars.town Games API
   slug: liars-town-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-games-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-games-api-openapi.yml
 - filename: liars-town-join-api-openapi.yml
   format: yaml
   label: liars.town Join API
   slug: liars-town-join-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-join-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-join-api-openapi.yml
 - filename: liars-town-leaderboard-api-openapi.yml
   format: yaml
   label: liars.town Leaderboard API
   slug: liars-town-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-leaderboard-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-leaderboard-api-openapi.yml
 - filename: liars-town-me-api-openapi.yml
   format: yaml
   label: liars.town Me API
   slug: liars-town-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-me-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-me-api-openapi.yml
 - filename: liars-town-observe-api-openapi.yml
   format: yaml
   label: liars.town Observe API
   slug: liars-town-observe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-observe-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-observe-api-openapi.yml
 - filename: liars-town-play-api-openapi.yml
   format: yaml
   label: liars.town Play API
   slug: liars-town-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-play-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-play-api-openapi.yml
 - filename: liars-town-queue-api-openapi.yml
   format: yaml
   label: liars.town Queue API
   slug: liars-town-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/openapi/liars-town-queue-api-openapi.yml
+  url: https://artifacts.apis.io/liars-town/openapi/liars-town-queue-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/liars-
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/queue\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/queue\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/observe\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /api/act\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/leaderboard\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/games/recent\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/games/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/export/games.jsonl\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liars-town/refs/heads/main/agentic-access/liars-town-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liars-town/agentic-access/liars-town-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Company

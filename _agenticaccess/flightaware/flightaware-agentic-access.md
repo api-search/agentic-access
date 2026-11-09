@@ -9,49 +9,49 @@ api_specs:
   label: FlightAware Airports API
   slug: flightaware-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-airports-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-airports-api-openapi.yml
 - filename: flightaware-alerts-api-openapi.yml
   format: yaml
   label: FlightAware Alerts API
   slug: flightaware-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-alerts-api-openapi.yml
 - filename: flightaware-flights-api-openapi.yml
   format: yaml
   label: FlightAware Flights API
   slug: flightaware-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-flights-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-flights-api-openapi.yml
 - filename: flightaware-foresight-api-openapi.yml
   format: yaml
   label: FlightAware Foresight API
   slug: flightaware-foresight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-foresight-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-foresight-api-openapi.yml
 - filename: flightaware-history-api-openapi.yml
   format: yaml
   label: FlightAware History API
   slug: flightaware-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-history-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-history-api-openapi.yml
 - filename: flightaware-miscellaneous-api-openapi.yml
   format: yaml
   label: FlightAware Miscellaneous API
   slug: flightaware-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-miscellaneous-api-openapi.yml
 - filename: flightaware-operators-api-openapi.yml
   format: yaml
   label: FlightAware Operators API
   slug: flightaware-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-operators-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-operators-api-openapi.yml
 - filename: flightaware-account-api-openapi.yml
   format: yaml
   label: FlightAware Account API
   slug: flightaware-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/openapi/flightaware-account-api-openapi.yml
+  url: https://artifacts.apis.io/flightaware/openapi/flightaware-account-api-openapi.yml
 consequence_counts:
   read: 63
   safety-critical: 1
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: generated\nsource: openapi/flight
   \    audit: none\n- path: /operators\n  method: get\n  operationId: get_all_operators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operators/{id}\n  method: get\n  operationId: get_operator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operators/{id}/canonical\n  method: get\n  operationId: get_operators_canonical\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operators/{id}/flights\n  method: get\n  operationId: get_operator_flights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operators/{id}/flights/scheduled\n  method: get\n  operationId: get_operator_flights_scheduled\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operators/{id}/flights/arrivals\n  method: get\n  operationId: get_operator_flights_arrived\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operators/{id}/flights/enroute\n  method: get\n  operationId: get_operator_flights_enroute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operators/{id}/flights/cancellations\n  method: get\n  operationId: get_operator_flights_cancellations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operators/{id}/flights/counts\n  method: get\n  operationId: get_operator_flights_count\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightaware/refs/heads/main/agentic-access/flightaware-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flightaware/agentic-access/flightaware-agentic-access.yml
 summary_line: 69 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Aviation

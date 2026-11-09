@@ -9,49 +9,49 @@ api_specs:
   label: Axle Energy 1. Authentication API
   slug: axle-energy-1-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-1-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/axle-energy/openapi/axle-energy-1-authentication-api-openapi.yml
 - filename: axle-energy-2-meters-api-openapi.yml
   format: yaml
   label: Axle Energy 2. Meters API
   slug: axle-energy-2-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-2-meters-api-openapi.yml
+  url: https://artifacts.apis.io/axle-energy/openapi/axle-energy-2-meters-api-openapi.yml
 - filename: axle-energy-3-sites-api-openapi.yml
   format: yaml
   label: Axle Energy 3. Sites API
   slug: axle-energy-3-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-3-sites-api-openapi.yml
+  url: https://artifacts.apis.io/axle-energy/openapi/axle-energy-3-sites-api-openapi.yml
 - filename: axle-energy-4-assets-api-openapi.yml
   format: yaml
   label: Axle Energy 4. Assets API
   slug: axle-energy-4-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-4-assets-api-openapi.yml
+  url: https://artifacts.apis.io/axle-energy/openapi/axle-energy-4-assets-api-openapi.yml
 - filename: axle-energy-5-data-api-openapi.yml
   format: yaml
   label: Axle Energy 5. Data API
   slug: axle-energy-5-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-5-data-api-openapi.yml
+  url: https://artifacts.apis.io/axle-energy/openapi/axle-energy-5-data-api-openapi.yml
 - filename: axle-energy-6-rewards-api-openapi.yml
   format: yaml
   label: Axle Energy 6. Rewards API
   slug: axle-energy-6-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-6-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/axle-energy/openapi/axle-energy-6-rewards-api-openapi.yml
 - filename: axle-energy-7-validation-api-openapi.yml
   format: yaml
   label: Axle Energy 7. Validation API
   slug: axle-energy-7-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-7-validation-api-openapi.yml
+  url: https://artifacts.apis.io/axle-energy/openapi/axle-energy-7-validation-api-openapi.yml
 - filename: axle-energy-8-examples-api-openapi.yml
   format: yaml
   label: Axle Energy 8. Examples API
   slug: axle-energy-8-examples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/openapi/axle-energy-8-examples-api-openapi.yml
+  url: https://artifacts.apis.io/axle-energy/openapi/axle-energy-8-examples-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 25
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/axle-e
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entities/asset/{asset_id}/event/plug-in-schedule\n  method: post\n  operationId: asset_plug_in_schedule_event_entities_asset__asset_id__event_plug_in_schedule_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entities/asset/{asset_id}/price-curve\n  method: get\n  operationId: get_price_curve_entities_asset__asset_id__price_curve_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/readings\n  method: post\n  operationId: post_readings_data_readings_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rewards/{site_id}/info\n  method: get\n  operationId: get_balance_info_rewards__site_id__info_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rewards/{site_id}/url/balance\n  method: get\n  operationId: get_rewards_balance_withdrawal_url_rewards__site_id__url_balance_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rewards/{site_id}/transactions\n  method: get\n  operationId: get_transaction_history_rewards__site_id__transactions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /validation/mpan\n  method: post\n  operationId: validate_mpan_validation_mpan_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /examples/dispatch-event\n  method: get\n  operationId: get_example_dispatch_event_examples_dispatch_event_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /examples/ocpp-charging-profile\n  method: get\n  operationId: get_example_ocpp_charging_profile_examples_ocpp_charging_profile_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/agentic-access/axle-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/axle-energy/agentic-access/axle-energy-agentic-access.yml
 summary_line: 55 operations · 30 acting · 2 human-in-the-loop
 tags:
 - Company

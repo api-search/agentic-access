@@ -9,55 +9,55 @@ api_specs:
   label: Octobat Coupons API
   slug: octobat-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-coupons-api-openapi.yml
 - filename: octobat-credit-notes-api-openapi.yml
   format: yaml
   label: Octobat Credit Notes API
   slug: octobat-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-credit-notes-api-openapi.yml
 - filename: octobat-customers-api-openapi.yml
   format: yaml
   label: Octobat Customers API
   slug: octobat-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-customers-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-customers-api-openapi.yml
 - filename: octobat-invoices-api-openapi.yml
   format: yaml
   label: Octobat Invoices API
   slug: octobat-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-invoices-api-openapi.yml
 - filename: octobat-payouts-api-openapi.yml
   format: yaml
   label: Octobat Payouts API
   slug: octobat-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-payouts-api-openapi.yml
 - filename: octobat-products-api-openapi.yml
   format: yaml
   label: Octobat Products API
   slug: octobat-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-products-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-products-api-openapi.yml
 - filename: octobat-subscriptions-api-openapi.yml
   format: yaml
   label: Octobat Subscriptions API
   slug: octobat-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-subscriptions-api-openapi.yml
 - filename: octobat-tax-evidence-api-openapi.yml
   format: yaml
   label: Octobat Tax Evidence API
   slug: octobat-tax-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-tax-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-tax-evidence-api-openapi.yml
 - filename: octobat-transactions-api-openapi.yml
   format: yaml
   label: Octobat Transactions API
   slug: octobat-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/openapi/octobat-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/octobat/openapi/octobat-transactions-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 16
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/octoba
   \      - high-value\n    audit: required\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{id}\n  method: get\n  operationId: retrieveSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage_items\n  method: post\n  operationId: createUsageItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payouts\n  method: get\n  operationId: listPayouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payouts/{id}\n  method: get\n  operationId: retrievePayout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payouts/csv_export\n  method: post\n  operationId: exportPayoutsCsv\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/agentic-access/octobat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/octobat/agentic-access/octobat-agentic-access.yml
 summary_line: 48 operations · 32 acting
 tags:
 - Billing

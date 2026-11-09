@@ -9,169 +9,169 @@ api_specs:
   label: Dataiku Artifact Sign-Offs API
   slug: dataiku-artifact-sign-offs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-artifact-sign-offs-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-artifact-sign-offs-api-openapi.yml
 - filename: dataiku-artifacts-api-openapi.yml
   format: yaml
   label: Dataiku Artifacts API
   slug: dataiku-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-artifacts-api-openapi.yml
 - filename: dataiku-authentication-api-openapi.yml
   format: yaml
   label: Dataiku Authentication API
   slug: dataiku-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-authentication-api-openapi.yml
 - filename: dataiku-blueprint-versions-api-openapi.yml
   format: yaml
   label: Dataiku Blueprint Versions API
   slug: dataiku-blueprint-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-blueprint-versions-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-blueprint-versions-api-openapi.yml
 - filename: dataiku-blueprints-api-openapi.yml
   format: yaml
   label: Dataiku Blueprints API
   slug: dataiku-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-blueprints-api-openapi.yml
 - filename: dataiku-bundles-api-openapi.yml
   format: yaml
   label: Dataiku Bundles API
   slug: dataiku-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-bundles-api-openapi.yml
 - filename: dataiku-code-envs-api-openapi.yml
   format: yaml
   label: Dataiku Code Envs API
   slug: dataiku-code-envs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-code-envs-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-code-envs-api-openapi.yml
 - filename: dataiku-connections-api-openapi.yml
   format: yaml
   label: Dataiku Connections API
   slug: dataiku-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-connections-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-connections-api-openapi.yml
 - filename: dataiku-custom-fields-api-openapi.yml
   format: yaml
   label: Dataiku Custom Fields API
   slug: dataiku-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-custom-fields-api-openapi.yml
 - filename: dataiku-datasets-api-openapi.yml
   format: yaml
   label: Dataiku Datasets API
   slug: dataiku-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-datasets-api-openapi.yml
 - filename: dataiku-general-settings-api-openapi.yml
   format: yaml
   label: Dataiku General Settings API
   slug: dataiku-general-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-general-settings-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-general-settings-api-openapi.yml
 - filename: dataiku-generations-api-openapi.yml
   format: yaml
   label: Dataiku Generations API
   slug: dataiku-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-generations-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-generations-api-openapi.yml
 - filename: dataiku-global-api-keys-api-openapi.yml
   format: yaml
   label: Dataiku Global API Keys API
   slug: dataiku-global-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-global-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-global-api-keys-api-openapi.yml
 - filename: dataiku-groups-api-openapi.yml
   format: yaml
   label: Dataiku Groups API
   slug: dataiku-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-groups-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-groups-api-openapi.yml
 - filename: dataiku-jobs-api-openapi.yml
   format: yaml
   label: Dataiku Jobs API
   slug: dataiku-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-jobs-api-openapi.yml
 - filename: dataiku-managed-folders-api-openapi.yml
   format: yaml
   label: Dataiku Managed Folders API
   slug: dataiku-managed-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-managed-folders-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-managed-folders-api-openapi.yml
 - filename: dataiku-meanings-api-openapi.yml
   format: yaml
   label: Dataiku Meanings API
   slug: dataiku-meanings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-meanings-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-meanings-api-openapi.yml
 - filename: dataiku-metrics-api-openapi.yml
   format: yaml
   label: Dataiku Metrics API
   slug: dataiku-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-metrics-api-openapi.yml
 - filename: dataiku-model-evaluation-stores-api-openapi.yml
   format: yaml
   label: Dataiku Model Evaluation Stores API
   slug: dataiku-model-evaluation-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-model-evaluation-stores-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-model-evaluation-stores-api-openapi.yml
 - filename: dataiku-plugins-api-openapi.yml
   format: yaml
   label: Dataiku Plugins API
   slug: dataiku-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-plugins-api-openapi.yml
 - filename: dataiku-projects-api-openapi.yml
   format: yaml
   label: Dataiku Projects API
   slug: dataiku-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-projects-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-projects-api-openapi.yml
 - filename: dataiku-recipes-api-openapi.yml
   format: yaml
   label: Dataiku Recipes API
   slug: dataiku-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-recipes-api-openapi.yml
 - filename: dataiku-roles-api-openapi.yml
   format: yaml
   label: Dataiku Roles API
   slug: dataiku-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-roles-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-roles-api-openapi.yml
 - filename: dataiku-saved-models-api-openapi.yml
   format: yaml
   label: Dataiku Saved Models API
   slug: dataiku-saved-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-saved-models-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-saved-models-api-openapi.yml
 - filename: dataiku-scenarios-api-openapi.yml
   format: yaml
   label: Dataiku Scenarios API
   slug: dataiku-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-scenarios-api-openapi.yml
 - filename: dataiku-services-api-openapi.yml
   format: yaml
   label: Dataiku Services API
   slug: dataiku-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-services-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-services-api-openapi.yml
 - filename: dataiku-sql-queries-api-openapi.yml
   format: yaml
   label: Dataiku SQL Queries API
   slug: dataiku-sql-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-sql-queries-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-sql-queries-api-openapi.yml
 - filename: dataiku-users-api-openapi.yml
   format: yaml
   label: Dataiku Users API
   slug: dataiku-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-users-api-openapi.yml
+  url: https://artifacts.apis.io/dataiku/openapi/dataiku-users-api-openapi.yml
 consequence_counts:
   read: 52
   safety-critical: 1
@@ -232,7 +232,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dataik
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/users/{login}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/users/{login}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /admin/groups/{groupName}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/globalAPIKeys\n  method: get\n  operationId: listGlobalAPIKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/general-settings\n  method: get\n  operationId: getGeneralSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/general-settings\n  method: put\n  operationId: setGeneralSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /meanings\n  method: get\n  operationId: listMeanings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plugins\n  method: get\n  operationId: listPlugins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plugins/{pluginId}\n  method: get\n  operationId: getPlugin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/agentic-access/dataiku-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dataiku/agentic-access/dataiku-agentic-access.yml
 summary_line: 88 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Analytics

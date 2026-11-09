@@ -8,25 +8,25 @@ api_specs:
   label: LEEO Insurance Services Aggregates API
   slug: leeo-insurance-services-aggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/openapi/leeo-insurance-services-aggregates-api-openapi.yml
+  url: https://artifacts.apis.io/leeo-insurance-services/openapi/leeo-insurance-services-aggregates-api-openapi.yml
 - filename: leeo-insurance-services-drivers-api-openapi.yml
   format: yaml
   label: LEEO Insurance Services Drivers API
   slug: leeo-insurance-services-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/openapi/leeo-insurance-services-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/leeo-insurance-services/openapi/leeo-insurance-services-drivers-api-openapi.yml
 - filename: leeo-insurance-services-reports-api-openapi.yml
   format: yaml
   label: LEEO Insurance Services Reports API
   slug: leeo-insurance-services-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/openapi/leeo-insurance-services-reports-api-openapi.yml
+  url: https://artifacts.apis.io/leeo-insurance-services/openapi/leeo-insurance-services-reports-api-openapi.yml
 - filename: leeo-insurance-services-trips-api-openapi.yml
   format: yaml
   label: LEEO Insurance Services Trips API
   slug: leeo-insurance-services-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/openapi/leeo-insurance-services-trips-api-openapi.yml
+  url: https://artifacts.apis.io/leeo-insurance-services/openapi/leeo-insurance-services-trips-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/leeo-insurance-services-fleet-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /drivers\n  method: get\n  operationId: listDrivers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver/{driver_id}/trips\n  method: get\n  operationId: listDriverTrips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trip/trip_id/{trip_id}\n  method: get\n\
   \  operationId: getTripByTripId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trip/tracking_id/{tracking_id}\n  method: get\n  operationId: getTripByTrackingId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver-aggregate/daily\n  method: get\n  operationId: getDailyDriverAggregate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver-aggregate/weekly\n  method: get\n  operationId: getWeeklyDriverAggregate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report\n  method: get\n  operationId: getReportLink\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/agentic-access/leeo-insurance-services-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/leeo-insurance-services/agentic-access/leeo-insurance-services-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Company

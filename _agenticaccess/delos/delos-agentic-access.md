@@ -9,67 +9,67 @@ api_specs:
   label: Delos Actions API
   slug: delos-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-actions-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-actions-api-openapi.yml
 - filename: delos-admin-installations-api-openapi.yml
   format: yaml
   label: Delos Admin/installations API
   slug: delos-admin-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-installations-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-admin-installations-api-openapi.yml
 - filename: delos-admin-products-api-openapi.yml
   format: yaml
   label: Delos Admin/products API
   slug: delos-admin-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-products-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-admin-products-api-openapi.yml
 - filename: delos-admin-products-bundles-api-openapi.yml
   format: yaml
   label: Delos Admin/products Bundles API
   slug: delos-admin-products-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-products-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-admin-products-bundles-api-openapi.yml
 - filename: delos-admin-users-api-openapi.yml
   format: yaml
   label: Delos Admin/users API
   slug: delos-admin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-users-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-admin-users-api-openapi.yml
 - filename: delos-global-api-openapi.yml
   format: yaml
   label: Delos Global API
   slug: delos-global-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-global-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-global-api-openapi.yml
 - filename: delos-installations-api-openapi.yml
   format: yaml
   label: Delos Installations API
   slug: delos-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-installations-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-installations-api-openapi.yml
 - filename: delos-local-accounts-api-openapi.yml
   format: yaml
   label: Delos Local Accounts API
   slug: delos-local-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-local-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-local-accounts-api-openapi.yml
 - filename: delos-products-api-openapi.yml
   format: yaml
   label: Delos Products API
   slug: delos-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-products-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-products-api-openapi.yml
 - filename: delos-sessions-api-openapi.yml
   format: yaml
   label: Delos Sessions API
   slug: delos-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-sessions-api-openapi.yml
 - filename: delos-users-api-openapi.yml
   format: yaml
   label: Delos Users API
   slug: delos-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-users-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: generated\nsource: openapi/delos-
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /local-accounts/share\n  method: post\n  operationId: localAccountShare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /local-accounts/transfer\n  method: post\n  operationId: localAccountTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /local-accounts/{localAccountId}\n\
   \  method: put\n  operationId: localAccountUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /local-accounts/{localAccountId}/set-global\n  method: post\n  operationId: localAccountSetGlobal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/local-accounts/migrate-to-federated\n  method: post\n  operationId: localAccountMigrateToFederated\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global/execute-nva\n  method: post\n  operationId: globalExecuteNVA\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global/jobs/{jobId}\n  method: get\n  operationId: globalJobsShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /global/jobs/{jobId}/results\n  method: get\n  operationId: globalJobsGetResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/agentic-access/delos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/delos/agentic-access/delos-agentic-access.yml
 summary_line: 39 operations · 23 acting · 1 human-in-the-loop
 tags:
 - wellness-real-estate

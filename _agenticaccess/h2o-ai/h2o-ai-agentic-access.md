@@ -9,151 +9,151 @@ api_specs:
   label: H2O.ai Admin Sessions API
   slug: h2o-ai-admin-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-admin-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-admin-sessions-api-openapi.yml
 - filename: h2o-ai-agents-api-openapi.yml
   format: yaml
   label: H2O.ai Agents API
   slug: h2o-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-agents-api-openapi.yml
 - filename: h2o-ai-ai-assistants-api-openapi.yml
   format: yaml
   label: H2O.ai AI Assistants API
   slug: h2o-ai-ai-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-ai-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-ai-assistants-api-openapi.yml
 - filename: h2o-ai-api-keys-api-openapi.yml
   format: yaml
   label: H2O.ai API Keys API
   slug: h2o-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-api-keys-api-openapi.yml
 - filename: h2o-ai-chat-api-openapi.yml
   format: yaml
   label: H2O.ai Chat API
   slug: h2o-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-chat-api-openapi.yml
 - filename: h2o-ai-collections-api-openapi.yml
   format: yaml
   label: H2O.ai Collections API
   slug: h2o-ai-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-collections-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-collections-api-openapi.yml
 - filename: h2o-ai-configurations-api-openapi.yml
   format: yaml
   label: H2O.ai Configurations API
   slug: h2o-ai-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-configurations-api-openapi.yml
 - filename: h2o-ai-document-ingestion-api-openapi.yml
   format: yaml
   label: H2O.ai Document Ingestion API
   slug: h2o-ai-document-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-document-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-document-ingestion-api-openapi.yml
 - filename: h2o-ai-documents-api-openapi.yml
   format: yaml
   label: H2O.ai Documents API
   slug: h2o-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-documents-api-openapi.yml
 - filename: h2o-ai-extractors-api-openapi.yml
   format: yaml
   label: H2O.ai Extractors API
   slug: h2o-ai-extractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-extractors-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-extractors-api-openapi.yml
 - filename: h2o-ai-forums-api-openapi.yml
   format: yaml
   label: H2O.ai Forums API
   slug: h2o-ai-forums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-forums-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-forums-api-openapi.yml
 - filename: h2o-ai-graphrag-api-openapi.yml
   format: yaml
   label: H2O.ai Graph RAG API
   slug: h2o-ai-graphrag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-graphrag-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-graphrag-api-openapi.yml
 - filename: h2o-ai-guardrails-api-openapi.yml
   format: yaml
   label: H2O.ai Guardrails API
   slug: h2o-ai-guardrails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-guardrails-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-guardrails-api-openapi.yml
 - filename: h2o-ai-jobs-api-openapi.yml
   format: yaml
   label: H2O.ai Jobs API
   slug: h2o-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-jobs-api-openapi.yml
 - filename: h2o-ai-memory-blocks-api-openapi.yml
   format: yaml
   label: H2O.ai Memory Blocks API
   slug: h2o-ai-memory-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-memory-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-memory-blocks-api-openapi.yml
 - filename: h2o-ai-model-api-openapi.yml
   format: yaml
   label: H2O.ai Model API
   slug: h2o-ai-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-model-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-model-api-openapi.yml
 - filename: h2o-ai-models-api-openapi.yml
   format: yaml
   label: H2O.ai Models API
   slug: h2o-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-models-api-openapi.yml
 - filename: h2o-ai-permissions-api-openapi.yml
   format: yaml
   label: H2O.ai Permissions API
   slug: h2o-ai-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-permissions-api-openapi.yml
 - filename: h2o-ai-prompt-templates-api-openapi.yml
   format: yaml
   label: H2O.ai Prompt Templates API
   slug: h2o-ai-prompt-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-prompt-templates-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-prompt-templates-api-openapi.yml
 - filename: h2o-ai-scheduled-tasks-api-openapi.yml
   format: yaml
   label: H2O.ai Scheduled Tasks API
   slug: h2o-ai-scheduled-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-scheduled-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-scheduled-tasks-api-openapi.yml
 - filename: h2o-ai-secrets-api-openapi.yml
   format: yaml
   label: H2O.ai Secrets API
   slug: h2o-ai-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-secrets-api-openapi.yml
 - filename: h2o-ai-shared-chats-api-openapi.yml
   format: yaml
   label: H2O.ai Shared Chats API
   slug: h2o-ai-shared-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-shared-chats-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-shared-chats-api-openapi.yml
 - filename: h2o-ai-showcase-api-openapi.yml
   format: yaml
   label: H2O.ai Showcase API
   slug: h2o-ai-showcase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-showcase-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-showcase-api-openapi.yml
 - filename: h2o-ai-system-api-openapi.yml
   format: yaml
   label: H2O.ai System API
   slug: h2o-ai-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-system-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-system-api-openapi.yml
 - filename: h2o-ai-tags-api-openapi.yml
   format: yaml
   label: H2O.ai Tags API
   slug: h2o-ai-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/openapi/h2o-ai-tags-api-openapi.yml
+  url: https://artifacts.apis.io/h2o-ai/openapi/h2o-ai-tags-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 174
@@ -317,8 +317,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/h2o-ai
   \    audit: required\n- path: /admin/api_keys\n  method: get\n  operationId: list_all_api_keys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/api_keys/deactivate/{key_id}\n  method: post\n  operationId: deactivate_api_key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/api_keys/expire/{key_id}\n  method: patch\n  operationId: update_api_key_expiry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/api_keys/inactivity_interval/{key_id}\n\
   \  method: patch\n  operationId: update_api_key_inactivity_interval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/api_keys/{key_id}\n  method: delete\n  operationId: delete_api_key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chats\n  method: post\n  operationId: create_chat_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /chats\n  method: get\n  operationId: list_chat_sessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chats/count\n  method: get\n  operationId: get_chat_session_count\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chats/delete_job\n  method: post\n  operationId: create_delete_chat_session_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chats/{session_id}\n  method: get\n  operationId: get_chat_session\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chats/{session_id}\n  method: delete\n  operationId: delete_chat_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chats/{session_id}\n  method: patch\n  operationId: update_chat_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (131 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/agentic-access/h2o-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/agentic-access/h2o-ai-agentic-access.yml
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chats/{session_id}\n  method: delete\n  operationId: delete_chat_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chats/{session_id}\n  method: patch\n  operationId: update_chat_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (131 KB total) ---\n# Full source: https://artifacts.apis.io/h2o-ai/agentic-access/h2o-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/h2o-ai/agentic-access/h2o-ai-agentic-access.yml
 summary_line: 429 operations · 255 acting · 15 human-in-the-loop
 tags:
 - Company

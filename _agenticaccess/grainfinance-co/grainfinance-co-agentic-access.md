@@ -9,55 +9,55 @@ api_specs:
   label: Grain Conversions API
   slug: grainfinance-co-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/openapi/grainfinance-co-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/grainfinance-co/openapi/grainfinance-co-conversions-api-openapi.yml
 - filename: grainfinance-co-customers-api-openapi.yml
   format: yaml
   label: Grain Customers API
   slug: grainfinance-co-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/openapi/grainfinance-co-customers-api-openapi.yml
+  url: https://artifacts.apis.io/grainfinance-co/openapi/grainfinance-co-customers-api-openapi.yml
 - filename: grainfinance-co-dual-hedges-api-openapi.yml
   format: yaml
   label: Grain Dual Hedges API
   slug: grainfinance-co-dual-hedges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/openapi/grainfinance-co-dual-hedges-api-openapi.yml
+  url: https://artifacts.apis.io/grainfinance-co/openapi/grainfinance-co-dual-hedges-api-openapi.yml
 - filename: grainfinance-co-grain-api-api-openapi.yml
   format: yaml
   label: Grain Grain API
   slug: grainfinance-co-grain-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/openapi/grainfinance-co-grain-api-api-openapi.yml
+  url: https://artifacts.apis.io/grainfinance-co/openapi/grainfinance-co-grain-api-api-openapi.yml
 - filename: grainfinance-co-hedges-api-openapi.yml
   format: yaml
   label: Grain Hedges API
   slug: grainfinance-co-hedges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/openapi/grainfinance-co-hedges-api-openapi.yml
+  url: https://artifacts.apis.io/grainfinance-co/openapi/grainfinance-co-hedges-api-openapi.yml
 - filename: grainfinance-co-payouts-api-openapi.yml
   format: yaml
   label: Grain Payouts API
   slug: grainfinance-co-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/openapi/grainfinance-co-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/grainfinance-co/openapi/grainfinance-co-payouts-api-openapi.yml
 - filename: grainfinance-co-pricing-api-openapi.yml
   format: yaml
   label: Grain Pricing API
   slug: grainfinance-co-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/openapi/grainfinance-co-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/grainfinance-co/openapi/grainfinance-co-pricing-api-openapi.yml
 - filename: grainfinance-co-vendors-api-openapi.yml
   format: yaml
   label: Grain Vendors API
   slug: grainfinance-co-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/openapi/grainfinance-co-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/grainfinance-co/openapi/grainfinance-co-vendors-api-openapi.yml
 - filename: grainfinance-co-wallets-api-openapi.yml
   format: yaml
   label: Grain Wallets API
   slug: grainfinance-co-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/openapi/grainfinance-co-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/grainfinance-co/openapi/grainfinance-co-wallets-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 19
@@ -111,12 +111,11 @@ source_yaml: "generated: '2026-10-25'\nmethod: generated\nsource: openapi/grainf
   \      - high-value\n    audit: required\n- path: /payouts/{payoutId}\n  method: get\n  operationId: Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rates/currency-pairs-exchange-rate\n  method: get\n  operationId: Rate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendors/{vendorId}\n  method: get\n  operationId: Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendors\n  method: post\n  operationId: Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /vendors\n  method: get\n  operationId: List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets\n  method: get\n  operationId: List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets/{walletId}\n  method: get\n  operationId: Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets/{walletId}/withdraw\n  method: post\n  operationId: Withdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grainfinance-co/refs/heads/main/agentic-access/grainfinance-co-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/grainfinance-co/agentic-access/grainfinance-co-agentic-access.yml
 summary_line: 36 operations · 17 acting
 tags:
 - Fintech
 - Payments
 - Currency
-- API
 - Embedded
 ---

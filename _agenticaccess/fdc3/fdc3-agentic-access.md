@@ -15,7 +15,7 @@ api_specs:
   label: FDC3 Application API
   slug: fdc3-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/openapi/fdc3-application-api-openapi.yml
+  url: https://artifacts.apis.io/fdc3/openapi/fdc3-application-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/fdc3-application-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/apps/{appId}\n  method: get\n  operationId: getV2AppsByAppId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/apps\n  method: get\n  operationId: getV2Apps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{appId}\n  method: get\n\
   \  operationId: getV1AppsByAppId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps\n  method: post\n  operationId: postV1Apps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/apps/search\n  method: get\n  operationId: getV1AppsSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/agentic-access/fdc3-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fdc3/agentic-access/fdc3-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Financial Services

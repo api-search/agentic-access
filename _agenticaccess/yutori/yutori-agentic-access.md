@@ -9,31 +9,31 @@ api_specs:
   label: Yutori Browsing API
   slug: yutori-browsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-browsing-api-openapi.yml
+  url: https://artifacts.apis.io/yutori/openapi/yutori-browsing-api-openapi.yml
 - filename: yutori-chat-completions-api-openapi.yml
   format: yaml
   label: Yutori Chat Completions API
   slug: yutori-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/yutori/openapi/yutori-chat-completions-api-openapi.yml
 - filename: yutori-health-api-openapi.yml
   format: yaml
   label: Yutori Health API
   slug: yutori-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-health-api-openapi.yml
+  url: https://artifacts.apis.io/yutori/openapi/yutori-health-api-openapi.yml
 - filename: yutori-research-api-openapi.yml
   format: yaml
   label: Yutori Research API
   slug: yutori-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-research-api-openapi.yml
+  url: https://artifacts.apis.io/yutori/openapi/yutori-research-api-openapi.yml
 - filename: yutori-scouting-api-openapi.yml
   format: yaml
   label: Yutori Scouting API
   slug: yutori-scouting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/openapi/yutori-scouting-api-openapi.yml
+  url: https://artifacts.apis.io/yutori/openapi/yutori-scouting-api-openapi.yml
 consequence_counts:
   read: 12
   write: 17
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/yutori
   - path: /v1/browsing/tasks\n  method: post\n  operationId: agent_run_endpoint_v1_browsing_tasks_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/browsing/tasks\n  method: get\n  operationId: list_browsing_tasks_v1_browsing_tasks_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/browsing/tasks/{id}\n  method: get\n  operationId: get_agent_run_status_v1_browsing_tasks__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/browsing/tasks/{id}/trajectory\n  method: get\n  operationId: get_task_trajectory_v1_browsing_tasks__id__trajectory_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/research/tasks\n  method: post\n  operationId: create_research_task_v1_research_tasks_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/research/tasks\n  method: get\n  operationId: list_research_tasks_v1_research_tasks_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/research/tasks/{task_id}\n  method: get\n  operationId: get_research_task_status_v1_research_tasks__task_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/chat/completions\n  method: post\n  operationId: create_chat_completion_v1_chat_completions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/agentic-access/yutori-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yutori/agentic-access/yutori-agentic-access.yml
 summary_line: 29 operations · 17 acting
 tags:
 - Company

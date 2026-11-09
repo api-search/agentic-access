@@ -9,25 +9,25 @@ api_specs:
   label: Radio Browser Categories API
   slug: radio-browser-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-categories-api-openapi.yml
+  url: https://artifacts.apis.io/radio-browser/openapi/radio-browser-categories-api-openapi.yml
 - filename: radio-browser-interactions-api-openapi.yml
   format: yaml
   label: Radio Browser Interactions API
   slug: radio-browser-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/radio-browser/openapi/radio-browser-interactions-api-openapi.yml
 - filename: radio-browser-service-api-openapi.yml
   format: yaml
   label: Radio Browser Service API
   slug: radio-browser-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-service-api-openapi.yml
+  url: https://artifacts.apis.io/radio-browser/openapi/radio-browser-service-api-openapi.yml
 - filename: radio-browser-stations-api-openapi.yml
   format: yaml
   label: Radio Browser Stations API
   slug: radio-browser-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/openapi/radio-browser-stations-api-openapi.yml
+  url: https://artifacts.apis.io/radio-browser/openapi/radio-browser-stations-api-openapi.yml
 consequence_counts:
   read: 28
   write: 1
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/radio-
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/codecs\n  method: get\n  operationId: listCodecs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/url/{stationuuid}\n  method: get\n  operationId: clickStation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/vote/{stationuuid}\n  method: get\n  operationId: voteStation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/add\n  method: post\n  operationId: addStation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /json/stats\n  method: get\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/servers\n  method: get\n  operationId: listServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/config\n  method: get\n  operationId: getConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/checks\n  method: get\n  operationId: listChecks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/clicks\n  method: get\n  operationId: listClicks\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/agentic-access/radio-browser-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/radio-browser/agentic-access/radio-browser-agentic-access.yml
 summary_line: 29 operations · 1 acting
 tags:
 - Music

@@ -9,103 +9,103 @@ api_specs:
   label: Fabric Origin Entertainment API
   slug: entertainment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-entertainment-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-entertainment-api-openapi.yml
 - filename: fabric-origin-celebrity-api-openapi.yml
   format: yaml
   label: Fabric Origin Celebrity API
   slug: celebrity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-celebrity-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-celebrity-api-openapi.yml
 - filename: fabric-origin-videos-api-openapi.yml
   format: yaml
   label: Fabric Origin Video API
   slug: video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-videos-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-videos-api-openapi.yml
 - filename: fabric-origin-images-api-openapi.yml
   format: yaml
   label: Fabric Origin Image API
   slug: image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-images-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-images-api-openapi.yml
 - filename: fabric-origin-entertainment-api-openapi.yml
   format: yaml
   label: Fabric Origin Entertainment API
   slug: fabric-origin-entertainment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-entertainment-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-entertainment-api-openapi.yml
 - filename: fabric-origin-images-api-openapi.yml
   format: yaml
   label: Fabric Origin Images API
   slug: fabric-origin-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-images-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-images-api-openapi.yml
 - filename: fabric-origin-videos-api-openapi.yml
   format: yaml
   label: Fabric Origin Videos API
   slug: fabric-origin-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-videos-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-videos-api-openapi.yml
 - filename: fabric-origin-fandango-api-openapi.yml
   format: yaml
   label: Fabric Origin Fandango API
   slug: fandango-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-fandango-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-fandango-api-openapi.yml
 - filename: fabric-origin-metacritic-api-openapi.yml
   format: yaml
   label: Fabric Origin Metacritic API
   slug: metacritic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-metacritic-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-metacritic-api-openapi.yml
 - filename: fabric-origin-analytics-api-openapi.yml
   format: yaml
   label: Fabric Origin Analytics API
   slug: fabric-origin-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-analytics-api-openapi.yml
 - filename: fabric-origin-common-api-openapi.yml
   format: yaml
   label: Fabric Origin Common API
   slug: fabric-origin-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-common-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-common-api-openapi.yml
 - filename: fabric-origin-commonsense-api-openapi.yml
   format: yaml
   label: Fabric Origin Commonsense API
   slug: fabric-origin-commonsense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-commonsense-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-commonsense-api-openapi.yml
 - filename: fabric-origin-katchmedia-api-openapi.yml
   format: yaml
   label: Fabric Origin Katchmedia API
   slug: fabric-origin-katchmedia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-katchmedia-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-katchmedia-api-openapi.yml
 - filename: fabric-origin-rabbitrecommendations-api-openapi.yml
   format: yaml
   label: Fabric Origin Rabbitrecommendations API
   slug: fabric-origin-rabbitrecommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rabbitrecommendations-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-rabbitrecommendations-api-openapi.yml
 - filename: fabric-origin-rev-api-openapi.yml
   format: yaml
   label: Fabric Origin Rev API
   slug: fabric-origin-rev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rev-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-rev-api-openapi.yml
 - filename: fabric-origin-rottentomatoes-api-openapi.yml
   format: yaml
   label: Fabric Origin Rottentomatoes API
   slug: fabric-origin-rottentomatoes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-rottentomatoes-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-rottentomatoes-api-openapi.yml
 - filename: fabric-origin-tvgrid-api-openapi.yml
   format: yaml
   label: Fabric Origin Tvgrid API
   slug: fabric-origin-tvgrid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-tvgrid-api-openapi.yml
+  url: https://artifacts.apis.io/fabric-origin/openapi/fabric-origin-tvgrid-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 117
@@ -170,7 +170,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fabric
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /TvGrid/lineups/browse/{CountryID}/{RegionID}\n  method: get\n  operationId: GetTvMediaServiceAreaslineupsbrowseCountryIDRegionID_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TvGrid/lineups/browse/{CountryID}/{RegionID}/{AreaID}\n  method: get\n  operationId: GetTvMediaLineupsByAreaIDlineupsbrowseCountryIDRegionIDAreaID_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TvGrid/lineups/geo\n  method: get\n  operationId: GetTvMediaLineupsByLatitudeLongitudelineupsgeo_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TvGrid/reference/lineups\n  method: get\n  operationId: GetTvMediaGenericLineupsreferencelineups_Get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TvGrid/stations/{StationID}\n  method: get\n  operationId: GetTvMediaStationstationsStationID_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TvGrid/stations/{StationID}/listings\n  method: get\n  operationId: GetTvMediaListingsByStationstationsStationIDlistings_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TvGrid/teams/{TeamID}\n  method: get\n  operationId: GetTvMediaTeamByIdteamsTeamID_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TvGrid/teams/{TeamID}/listings\n  method: get\n  operationId: GetTvMediaTeamListingsteamsTeamIDlistings_Get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Videos/ClosedCaptions/{VideoId}\n  method: get\n  operationId: GetClosedCaptionClosedCaptionsVideoId_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Videos/GetVideo/{Id}\n  method: get\n  operationId: GetVideoGetVideoId_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/agentic-access/fabric-origin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fabric-origin/agentic-access/fabric-origin-agentic-access.yml
 summary_line: 121 operations · 4 acting
 tags:
 - Entertainment

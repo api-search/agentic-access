@@ -9,91 +9,91 @@ api_specs:
   label: Memo Bank Account assessments API
   slug: memo-bank-account-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-account-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-account-assessments-api-openapi.yml
 - filename: memo-bank-accounts-api-openapi.yml
   format: yaml
   label: Memo Bank Accounts API
   slug: memo-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-accounts-api-openapi.yml
 - filename: memo-bank-ais-api-openapi.yml
   format: yaml
   label: Memo Bank AIS API
   slug: memo-bank-ais-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-ais-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-ais-api-openapi.yml
 - filename: memo-bank-attachments-api-openapi.yml
   format: yaml
   label: Memo Bank Attachments API
   slug: memo-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-attachments-api-openapi.yml
 - filename: memo-bank-collections-api-openapi.yml
   format: yaml
   label: Memo Bank Collections API
   slug: memo-bank-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-collections-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-collections-api-openapi.yml
 - filename: memo-bank-mandate-signature-requests-api-openapi.yml
   format: yaml
   label: Memo Bank Mandate signature requests API
   slug: memo-bank-mandate-signature-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-mandate-signature-requests-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-mandate-signature-requests-api-openapi.yml
 - filename: memo-bank-pis-api-openapi.yml
   format: yaml
   label: Memo Bank PIS API
   slug: memo-bank-pis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-pis-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-pis-api-openapi.yml
 - filename: memo-bank-sandbox-api-openapi.yml
   format: yaml
   label: Memo Bank Sandbox API
   slug: memo-bank-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-sandbox-api-openapi.yml
 - filename: memo-bank-transactions-api-openapi.yml
   format: yaml
   label: Memo Bank Transactions API
   slug: memo-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-transactions-api-openapi.yml
 - filename: memo-bank-transfers-api-openapi.yml
   format: yaml
   label: Memo Bank Transfers API
   slug: memo-bank-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-transfers-api-openapi.yml
 - filename: memo-bank-webhook-api-openapi.yml
   format: yaml
   label: Memo Bank Webhook API
   slug: memo-bank-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-webhook-api-openapi.yml
 - filename: memo-bank-webhooks-api-openapi.yml
   format: yaml
   label: Memo Bank Webhooks API
   slug: memo-bank-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-webhooks-api-openapi.yml
 - filename: memo-bank-wire-transfers-api-openapi.yml
   format: yaml
   label: Memo Bank Wire Transfers API
   slug: memo-bank-wire-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-wire-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-wire-transfers-api-openapi.yml
 - filename: memo-bank-ibans-api-openapi.yml
   format: yaml
   label: Memo Bank IBA Ns API
   slug: memo-bank-ibans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-ibans-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-ibans-api-openapi.yml
 - filename: memo-bank-oauth2-api-openapi.yml
   format: yaml
   label: Memo Bank O Auth2 API
   slug: memo-bank-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-oauth2-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 33
@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/memo-b
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/wire_transfers\n  method: post\n  operationId: createWireTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n \
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/wire_transfers/{id}/attachments\n  method: post\n  operationId: createWireTransferAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/wire_transfers/{id}/proof\n  method: get\n  operationId: getProofOfWireTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wire_transfers/{id}\n  method: get\n  operationId: getWireTransfer\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/agentic-access/memo-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/memo-bank/agentic-access/memo-bank-agentic-access.yml
 summary_line: 57 operations · 24 acting
 tags:
 - Company

@@ -9,73 +9,73 @@ api_specs:
   label: Uniswap Approval API
   slug: uniswap-approval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-approval-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-approval-api-openapi.yml
 - filename: uniswap-limitorderquote-api-openapi.yml
   format: yaml
   label: Uniswap LimitOrderQuote API
   slug: uniswap-limitorderquote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-limitorderquote-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-limitorderquote-api-openapi.yml
 - filename: uniswap-liquidity-api-openapi.yml
   format: yaml
   label: Uniswap Liquidity API
   slug: uniswap-liquidity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-liquidity-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-liquidity-api-openapi.yml
 - filename: uniswap-order-api-openapi.yml
   format: yaml
   label: Uniswap Order API
   slug: uniswap-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-order-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-order-api-openapi.yml
 - filename: uniswap-plan-api-openapi.yml
   format: yaml
   label: Uniswap Plan API
   slug: uniswap-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-plan-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-plan-api-openapi.yml
 - filename: uniswap-quote-api-openapi.yml
   format: yaml
   label: Uniswap Quote API
   slug: uniswap-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-quote-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-quote-api-openapi.yml
 - filename: uniswap-send-api-openapi.yml
   format: yaml
   label: Uniswap Send API
   slug: uniswap-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-send-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-send-api-openapi.yml
 - filename: uniswap-swap-api-openapi.yml
   format: yaml
   label: Uniswap Swap API
   slug: uniswap-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-swap-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-swap-api-openapi.yml
 - filename: uniswap-swappabletokens-api-openapi.yml
   format: yaml
   label: Uniswap SwappableTokens API
   slug: uniswap-swappabletokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-swappabletokens-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-swappabletokens-api-openapi.yml
 - filename: uniswap-wallet-api-openapi.yml
   format: yaml
   label: Uniswap Wallet API
   slug: uniswap-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-wallet-api-openapi.yml
 - filename: uniswap-walletcheckdelegation-api-openapi.yml
   format: yaml
   label: Uniswap WalletCheckDelegation API
   slug: uniswap-walletcheckdelegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-walletcheckdelegation-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-walletcheckdelegation-api-openapi.yml
 - filename: uniswap-walletencode7702-api-openapi.yml
   format: yaml
   label: Uniswap WalletEncode7702 API
   slug: uniswap-walletencode7702-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/openapi/uniswap-walletencode7702-api-openapi.yml
+  url: https://artifacts.apis.io/uniswap/openapi/uniswap-walletencode7702-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/uniswa
   \ required\n- path: /swap\n  method: post\n  operationId: create_swap_transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /swaps\n  method: get\n  operationId: get_swaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swap_5792\n  method: post\n  operationId: create_swap_5792_transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /swap_7702\n  method: post\n  operationId: create_swap_7702_transaction\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /swappable_tokens\n  method: get\n  operationId: get_swappable_tokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/encode_4337\n  method: post\n  operationId: encode_4337\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/check_delegation\n  method: post\n  operationId: wallet_check_delegation\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/encode_7702\n  method: post\n  operationId: wallet_encode_7702\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/agentic-access/uniswap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uniswap/agentic-access/uniswap-agentic-access.yml
 summary_line: 24 operations · 16 acting
 tags:
 - Blockchain

@@ -9,43 +9,43 @@ api_specs:
   label: Open Loyalty Authorization API
   slug: open-loyalty-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/open-loyalty/openapi/open-loyalty-authorization-api-openapi.yml
 - filename: open-loyalty-earning-rules-api-openapi.yml
   format: yaml
   label: Open Loyalty Earning Rules API
   slug: open-loyalty-earning-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-earning-rules-api-openapi.yml
+  url: https://artifacts.apis.io/open-loyalty/openapi/open-loyalty-earning-rules-api-openapi.yml
 - filename: open-loyalty-members-api-openapi.yml
   format: yaml
   label: Open Loyalty Members API
   slug: open-loyalty-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-members-api-openapi.yml
+  url: https://artifacts.apis.io/open-loyalty/openapi/open-loyalty-members-api-openapi.yml
 - filename: open-loyalty-points-api-openapi.yml
   format: yaml
   label: Open Loyalty Points API
   slug: open-loyalty-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-points-api-openapi.yml
+  url: https://artifacts.apis.io/open-loyalty/openapi/open-loyalty-points-api-openapi.yml
 - filename: open-loyalty-rewards-api-openapi.yml
   format: yaml
   label: Open Loyalty Rewards API
   slug: open-loyalty-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/open-loyalty/openapi/open-loyalty-rewards-api-openapi.yml
 - filename: open-loyalty-tiers-api-openapi.yml
   format: yaml
   label: Open Loyalty Tiers API
   slug: open-loyalty-tiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-tiers-api-openapi.yml
+  url: https://artifacts.apis.io/open-loyalty/openapi/open-loyalty-tiers-api-openapi.yml
 - filename: open-loyalty-transactions-api-openapi.yml
   format: yaml
   label: Open Loyalty Transactions API
   slug: open-loyalty-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/openapi/open-loyalty-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/open-loyalty/openapi/open-loyalty-transactions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 15
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/open-l
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{storeCode}/level/{level}\n  method: get\n  operationId: getLevel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{storeCode}/level/{level}\n  method: put\n  operationId: updateLevel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{storeCode}/level/{level}\n  method: delete\n  operationId: deleteLevel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{storeCode}/level/{level}/customers\n  method: get\n  operationId: listLevelCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{storeCode}/earningRule\n  method: get\n  operationId: listEarningRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{storeCode}/earningRule\n  method: post\n  operationId: createEarningRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{storeCode}/earningRule/{earningRule}\n\
   \  method: get\n  operationId: getEarningRule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{storeCode}/earningRule/{earningRule}\n  method: put\n  operationId: updateEarningRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{storeCode}/earningRule/{earningRule}/activate\n  method: post\n  operationId: activateEarningRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/agentic-access/open-loyalty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-loyalty/agentic-access/open-loyalty-agentic-access.yml
 summary_line: 36 operations · 21 acting
 tags:
 - Loyalty

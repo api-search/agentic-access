@@ -9,151 +9,151 @@ api_specs:
   label: WhiteBIT WebSocket API
   slug: websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/asyncapi/whitebit-private-adl-quantile-asyncapi.yml
+  url: https://artifacts.apis.io/whitebit/asyncapi/whitebit-private-adl-quantile-asyncapi.yml
 - filename: whitebit-account-endpoints-api-openapi.yml
   format: yaml
   label: WhiteBIT Account Endpoints API
   slug: whitebit-account-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-account-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-account-endpoints-api-openapi.yml
 - filename: whitebit-address-checker-api-openapi.yml
   format: yaml
   label: WhiteBIT Address Checker API
   slug: whitebit-address-checker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-address-checker-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-address-checker-api-openapi.yml
 - filename: whitebit-authentication-api-openapi.yml
   format: yaml
   label: WhiteBIT Authentication API
   slug: whitebit-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-authentication-api-openapi.yml
 - filename: whitebit-codes-api-openapi.yml
   format: yaml
   label: WhiteBIT Codes API
   slug: whitebit-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-codes-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-codes-api-openapi.yml
 - filename: whitebit-collateral-trading-api-openapi.yml
   format: yaml
   label: WhiteBIT Collateral Trading API
   slug: whitebit-collateral-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-collateral-trading-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-collateral-trading-api-openapi.yml
 - filename: whitebit-convert-api-openapi.yml
   format: yaml
   label: WhiteBIT Convert API
   slug: whitebit-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-convert-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-convert-api-openapi.yml
 - filename: whitebit-credit-line-api-openapi.yml
   format: yaml
   label: WhiteBIT Credit Line API
   slug: whitebit-credit-line-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-credit-line-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-credit-line-api-openapi.yml
 - filename: whitebit-crypto-lending-fixed-api-openapi.yml
   format: yaml
   label: WhiteBIT Crypto Lending - Fixed API
   slug: whitebit-crypto-lending-fixed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-crypto-lending-fixed-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-crypto-lending-fixed-api-openapi.yml
 - filename: whitebit-crypto-lending-flex-api-openapi.yml
   format: yaml
   label: WhiteBIT Crypto Lending - Flex API
   slug: whitebit-crypto-lending-flex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-crypto-lending-flex-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-crypto-lending-flex-api-openapi.yml
 - filename: whitebit-deposit-api-openapi.yml
   format: yaml
   label: WhiteBIT Deposit API
   slug: whitebit-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-deposit-api-openapi.yml
 - filename: whitebit-fees-api-openapi.yml
   format: yaml
   label: WhiteBIT Fees API
   slug: whitebit-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-fees-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-fees-api-openapi.yml
 - filename: whitebit-jwt-api-openapi.yml
   format: yaml
   label: WhiteBIT JWT API
   slug: whitebit-jwt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-jwt-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-jwt-api-openapi.yml
 - filename: whitebit-main-account-api-openapi.yml
   format: yaml
   label: WhiteBIT Main Account API
   slug: whitebit-main-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-main-account-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-main-account-api-openapi.yml
 - filename: whitebit-market-fee-api-openapi.yml
   format: yaml
   label: WhiteBIT Market Fee API
   slug: whitebit-market-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-market-fee-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-market-fee-api-openapi.yml
 - filename: whitebit-mining-pool-api-openapi.yml
   format: yaml
   label: WhiteBIT Mining Pool API
   slug: whitebit-mining-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-mining-pool-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-mining-pool-api-openapi.yml
 - filename: whitebit-oauth-api-keys-api-openapi.yml
   format: yaml
   label: WhiteBIT OAuth API Keys API
   slug: whitebit-oauth-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-oauth-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-oauth-api-keys-api-openapi.yml
 - filename: whitebit-public-api-v1-api-openapi.yml
   format: yaml
   label: WhiteBIT Public API V1 API
   slug: whitebit-public-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-public-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-public-api-v1-api-openapi.yml
 - filename: whitebit-public-api-v4-api-openapi.yml
   format: yaml
   label: WhiteBIT Public API V4 API
   slug: whitebit-public-api-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-public-api-v4-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-public-api-v4-api-openapi.yml
 - filename: whitebit-spot-trading-api-openapi.yml
   format: yaml
   label: WhiteBIT Spot Trading API
   slug: whitebit-spot-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-spot-trading-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-spot-trading-api-openapi.yml
 - filename: whitebit-sub-account-api-keys-api-openapi.yml
   format: yaml
   label: WhiteBIT Sub-Account API Keys API
   slug: whitebit-sub-account-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-sub-account-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-sub-account-api-keys-api-openapi.yml
 - filename: whitebit-sub-account-api-openapi.yml
   format: yaml
   label: WhiteBIT Sub Account API
   slug: whitebit-sub-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-sub-account-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-sub-account-api-openapi.yml
 - filename: whitebit-transfer-api-openapi.yml
   format: yaml
   label: WhiteBIT Transfer API
   slug: whitebit-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-transfer-api-openapi.yml
 - filename: whitebit-travel-rule-api-openapi.yml
   format: yaml
   label: WhiteBIT Travel Rule API
   slug: whitebit-travel-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-travel-rule-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-travel-rule-api-openapi.yml
 - filename: whitebit-withdraw-api-openapi.yml
   format: yaml
   label: WhiteBIT Withdraw API
   slug: whitebit-withdraw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/openapi/whitebit-withdraw-api-openapi.yml
+  url: https://artifacts.apis.io/whitebit/openapi/whitebit-withdraw-api-openapi.yml
 consequence_counts:
   physical: 35
   read: 77
@@ -342,8 +342,8 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/whiteb
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/main-account/smart/plans\n  method: post\n  operationId: getFixedPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/main-account/smart/investment\n  method: post\n  operationId: createFixedInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/main-account/smart/investment/close\n  method: post\n  operationId: closeFixedInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/main-account/smart/investments\n  method: post\n  operationId: getFixedInvestmentsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/main-account/smart/interest-payment-history\n  method: post\n  operationId: getInterestPaymentHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/main-account/smart-flex/plans\n  method: post\n  operationId: getFlexPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/main-account/smart-flex/investments\n  method: post\n  operationId: getUserFlexInvestments\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/main-account/smart-flex/investments/history\n  method: post\n  operationId: getFlexInvestmentHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/main-account/smart-flex/investments/payment-history\n  method: post\n  operationId: getFlexPaymentHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/main-account/smart-flex/investments/invest\n  method: post\n  operationId: createFlexInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
-  \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/main-account/smart-flex/investments/withdraw\n  method: post\n  operationId: withdrawFromFlexInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/main-account/smart-flex/investments/close\n  method: post\n  operationId: closeFlexInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/agentic-access/whitebit-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whitebit/refs/heads/main/agentic-access/whitebit-agentic-access.yml
+  \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/main-account/smart-flex/investments/withdraw\n  method: post\n  operationId: withdrawFromFlexInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/main-account/smart-flex/investments/close\n  method: post\n  operationId: closeFlexInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/whitebit/agentic-access/whitebit-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/whitebit/agentic-access/whitebit-agentic-access.yml
 summary_line: 153 operations · 76 acting · 6 human-in-the-loop
 tags:
 - Company

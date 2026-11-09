@@ -9,61 +9,61 @@ api_specs:
   label: Nile Auth API
   slug: thenile-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-auth-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-auth-api-openapi.yml
 - filename: thenile-authentication-api-openapi.yml
   format: yaml
   label: Nile Authentication API
   slug: thenile-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-authentication-api-openapi.yml
 - filename: thenile-compute-api-openapi.yml
   format: yaml
   label: Nile Compute API
   slug: thenile-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-compute-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-compute-api-openapi.yml
 - filename: thenile-credentials-api-openapi.yml
   format: yaml
   label: Nile Credentials API
   slug: thenile-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-credentials-api-openapi.yml
 - filename: thenile-databases-api-openapi.yml
   format: yaml
   label: Nile Databases API
   slug: thenile-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-databases-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-databases-api-openapi.yml
 - filename: thenile-developers-api-openapi.yml
   format: yaml
   label: Nile Developers API
   slug: thenile-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-developers-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-developers-api-openapi.yml
 - filename: thenile-internal-api-openapi.yml
   format: yaml
   label: Nile Internal API
   slug: thenile-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-internal-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-internal-api-openapi.yml
 - filename: thenile-tenants-api-openapi.yml
   format: yaml
   label: Nile Tenants API
   slug: thenile-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-tenants-api-openapi.yml
 - filename: thenile-users-api-openapi.yml
   format: yaml
   label: Nile Users API
   slug: thenile-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-users-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-users-api-openapi.yml
 - filename: thenile-workspaces-api-openapi.yml
   format: yaml
   label: Nile Workspaces API
   slug: thenile-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/openapi/thenile-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/thenile/openapi/thenile-workspaces-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 72
@@ -162,8 +162,8 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/thenil
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /databases/{databaseId}/users/oidc/callback\n  method: get\n  operationId: handleOIDCCallbackDP\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /databases/{databaseId}/users/me\n  method: get\n  operationId: identifyUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /databases/{databaseId}/users/login\n  method: post\n  operationId: loginUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /databases/{databaseId}/users/oidc/{providerName}/login\n\
   \  method: get\n  operationId: loginOIDCUserDP\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceSlug}/databases/{databaseName}/compute\n  method: get\n  operationId: listComputeForDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceSlug}/databases/{databaseName}/compute\n  method: post\n  operationId: createComputeInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceSlug}/databases/{databaseName}/compute/{instanceId}\n  method: get\n  operationId: describeComputeInstance\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceSlug}/databases/{databaseName}/compute/{instanceId}\n  method: put\n  operationId: updateComputeInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceSlug}/databases/{databaseName}/compute/{instanceId}\n  method: delete\n  operationId: deleteComputeInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceSlug}/databases/{databaseName}/credentials\n\
-  \  method: get\n  operationId: listCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceSlug}/databases/{databaseName}/credentials\n  method: post\n  operationId: createCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/agentic-access/thenile-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thenile/refs/heads/main/agentic-access/thenile-agentic-access.yml
+  \  method: get\n  operationId: listCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceSlug}/databases/{databaseName}/credentials\n  method: post\n  operationId: createCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/thenile/agentic-access/thenile-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/thenile/agentic-access/thenile-agentic-access.yml
 summary_line: 137 operations · 65 acting · 3 human-in-the-loop
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Wagestream Absences API
   slug: wagestream-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-absences-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-absences-api-openapi.yml
 - filename: wagestream-employees-api-openapi.yml
   format: yaml
   label: Wagestream Employees API
   slug: wagestream-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-employees-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-employees-api-openapi.yml
 - filename: wagestream-enrollment-api-openapi.yml
   format: yaml
   label: Wagestream Enrollment API
   slug: wagestream-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-enrollment-api-openapi.yml
 - filename: wagestream-off-cycle-payment-api-openapi.yml
   format: yaml
   label: Wagestream Off Cycle Payment API
   slug: wagestream-off-cycle-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-off-cycle-payment-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-off-cycle-payment-api-openapi.yml
 - filename: wagestream-shifts-api-openapi.yml
   format: yaml
   label: Wagestream Shifts API
   slug: wagestream-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-shifts-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/wagest
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enrollments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enrollments\n  method: post\n  operationId: post_enrollments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shifts\n  method: get\n  operationId: get_shifts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shifts\n  method: post\n  operationId: post_shifts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /testenrollments\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employees\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /off-cycle-payments\n  method: post\n  operationId: post_offcycle_payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /off-cycle-payments\n  method: get\n  operationId: get_expenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/agentic-access/wagestream-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wagestream/agentic-access/wagestream-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Financial Wellbeing

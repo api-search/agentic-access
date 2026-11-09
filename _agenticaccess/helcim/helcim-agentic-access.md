@@ -9,55 +9,55 @@ api_specs:
   label: Helcim ACH Payment API
   slug: helcim-ach-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-ach-payment-api-openapi.yml
+  url: https://artifacts.apis.io/helcim/openapi/helcim-ach-payment-api-openapi.yml
 - filename: helcim-card-batch-api-openapi.yml
   format: yaml
   label: Helcim Card Batch API
   slug: helcim-card-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-card-batch-api-openapi.yml
+  url: https://artifacts.apis.io/helcim/openapi/helcim-card-batch-api-openapi.yml
 - filename: helcim-card-terminal-api-openapi.yml
   format: yaml
   label: Helcim Card Terminal API
   slug: helcim-card-terminal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-card-terminal-api-openapi.yml
+  url: https://artifacts.apis.io/helcim/openapi/helcim-card-terminal-api-openapi.yml
 - filename: helcim-card-transaction-api-openapi.yml
   format: yaml
   label: Helcim Card Transaction API
   slug: helcim-card-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-card-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/helcim/openapi/helcim-card-transaction-api-openapi.yml
 - filename: helcim-customer-api-openapi.yml
   format: yaml
   label: Helcim Customer API
   slug: helcim-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-customer-api-openapi.yml
+  url: https://artifacts.apis.io/helcim/openapi/helcim-customer-api-openapi.yml
 - filename: helcim-device-api-openapi.yml
   format: yaml
   label: Helcim Device API
   slug: helcim-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-device-api-openapi.yml
+  url: https://artifacts.apis.io/helcim/openapi/helcim-device-api-openapi.yml
 - filename: helcim-general-api-openapi.yml
   format: yaml
   label: Helcim General API
   slug: helcim-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-general-api-openapi.yml
+  url: https://artifacts.apis.io/helcim/openapi/helcim-general-api-openapi.yml
 - filename: helcim-invoice-api-openapi.yml
   format: yaml
   label: Helcim Invoice API
   slug: helcim-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/helcim/openapi/helcim-invoice-api-openapi.yml
 - filename: helcim-payment-api-openapi.yml
   format: yaml
   label: Helcim Payment API
   slug: helcim-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/openapi/helcim-payment-api-openapi.yml
+  url: https://artifacts.apis.io/helcim/openapi/helcim-payment-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 23
@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: generated\nsource: openapi/helcim
   \  method: patch\n  operationId: ach-cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ach/batches\n  method: get\n  operationId: get-many-ach-batches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ach/batches/{batchId}/settle\n  method: put\n  operationId: ach-batch-settle\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /card-terminals\n  method: get\n  operationId: card-terminals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: get\n  operationId: get-devices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{code}\n  method: get\n  operationId: get-device\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{code}/payment/purchase\n  method: post\n  operationId: start-purchase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices/{code}/payment/refund\n  method: post\n  operationId: start-refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices/{code}/ping\n  method: get\n  operationId: ping-device\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/agentic-access/helcim-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/helcim/agentic-access/helcim-agentic-access.yml
 summary_line: 48 operations · 25 acting
 tags:
 - Payments

@@ -9,31 +9,31 @@ api_specs:
   label: Papercups Realtime Chat API (WebSocket / Phoenix Channels)
   slug: realtime-chat
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/asyncapi/papercups-asyncapi.yml
+  url: https://artifacts.apis.io/papercups/asyncapi/papercups-asyncapi.yml
 - filename: papercups-conversations-api-openapi.yml
   format: yaml
   label: Papercups Conversations API
   slug: papercups-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/papercups/openapi/papercups-conversations-api-openapi.yml
 - filename: papercups-customers-api-openapi.yml
   format: yaml
   label: Papercups Customers API
   slug: papercups-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-customers-api-openapi.yml
+  url: https://artifacts.apis.io/papercups/openapi/papercups-customers-api-openapi.yml
 - filename: papercups-messages-api-openapi.yml
   format: yaml
   label: Papercups Messages API
   slug: papercups-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-messages-api-openapi.yml
+  url: https://artifacts.apis.io/papercups/openapi/papercups-messages-api-openapi.yml
 - filename: papercups-users-api-openapi.yml
   format: yaml
   label: Papercups Users API
   slug: papercups-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/openapi/papercups-users-api-openapi.yml
+  url: https://artifacts.apis.io/papercups/openapi/papercups-users-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/paperc
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages\n  method: get\n  operationId: listMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messages\n  method: post\n  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/{id}\n  method: get\n  operationId: getMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /messages/{id}\n  method: delete\n  operationId: deleteMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{id}\n  method: put\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}\n  method: delete\n  operationId: deleteCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/agentic-access/papercups-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/papercups/agentic-access/papercups-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Customer Messaging

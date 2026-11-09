@@ -8,55 +8,55 @@ api_specs:
   label: Simply Energy Data Holder Customers API
   slug: simply-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-data-holder-customers-api-openapi.yml
 - filename: simply-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Simply Energy Data Holder Operations API
   slug: simply-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-data-holder-operations-api-openapi.yml
 - filename: simply-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Simply Energy Distributed Energy Resources API
   slug: simply-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-distributed-energy-resources-api-openapi.yml
 - filename: simply-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Simply Energy Electricity Service Points API
   slug: simply-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-electricity-service-points-api-openapi.yml
 - filename: simply-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Simply Energy Electricity Usage API
   slug: simply-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-electricity-usage-api-openapi.yml
 - filename: simply-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Simply Energy Account Balances API
   slug: simply-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-account-balances-api-openapi.yml
 - filename: simply-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Simply Energy Account Billing API
   slug: simply-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-account-billing-api-openapi.yml
 - filename: simply-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Simply Energy Accounts API
   slug: simply-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-accounts-api-openapi.yml
 - filename: simply-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Simply Energy Plans API
   slug: simply-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-plans-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/simply
   \ operationId: listEnergyAccountInvoicesBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/invoices\n  method: post\n  operationId: listEnergyInvoicesForSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/billing\n  method: get\n  operationId: getBillingForEnergyAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/billing\n  method: get\n  operationId: listEnergyAccountBillingBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/billing\n  method: post\n  operationId: listEnergyAccountBillingForSpecificAccounts\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts\n  method: get\n  operationId: listEnergyAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}\n  method: get\n  operationId: getEnergyAccountDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/payment-schedule\n  method: get\n  operationId: getEnergyAccountPaymentSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/concessions\n  method: get\n  operationId: getEnergyAccountConcessions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans\n  method: get\n  operationId: listEnergyPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans/{planId}\n  method: get\n  operationId: getEnergyPlanDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/agentic-access/simply-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simply-energy/agentic-access/simply-energy-agentic-access.yml
 summary_line: 27 operations
 tags:
 - Energy

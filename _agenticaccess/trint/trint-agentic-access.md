@@ -9,37 +9,37 @@ api_specs:
   label: Trint Export API
   slug: trint-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-export-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-export-api-openapi.yml
 - filename: trint-realtime-api-openapi.yml
   format: yaml
   label: Trint Realtime API
   slug: trint-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-realtime-api-openapi.yml
 - filename: trint-transcripts-and-files-api-openapi.yml
   format: yaml
   label: Trint Transcripts and Files API
   slug: trint-transcripts-and-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-transcripts-and-files-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-transcripts-and-files-api-openapi.yml
 - filename: trint-translations-api-openapi.yml
   format: yaml
   label: Trint Translations API
   slug: trint-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-translations-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-translations-api-openapi.yml
 - filename: trint-upload-and-transcribe-api-openapi.yml
   format: yaml
   label: Trint Upload and Transcribe API
   slug: trint-upload-and-transcribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-upload-and-transcribe-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-upload-and-transcribe-api-openapi.yml
 - filename: trint-webhooks-api-openapi.yml
   format: yaml
   label: Trint Webhooks API
   slug: trint-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/openapi/trint-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trint/openapi/trint-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trint-
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /realtime/{id}/start\n  method: post\n  operationId: startRealtime\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /realtime/{id}/stop\n  method: post\n  operationId: stopRealtime\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /realtime/{id}/status\n\
   \  method: get\n  operationId: getRealtimeStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/register\n  method: post\n  operationId: registerWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-events\n  method: get\n  operationId: listWebhookEvents\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/agentic-access/trint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trint/agentic-access/trint-agentic-access.yml
 summary_line: 20 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Audio Transcription

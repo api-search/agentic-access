@@ -9,25 +9,25 @@ api_specs:
   label: Evidently AI Dashboards API
   slug: evidently-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/evidently/openapi/evidently-dashboards-api-openapi.yml
 - filename: evidently-projects-api-openapi.yml
   format: yaml
   label: Evidently AI Projects API
   slug: evidently-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-projects-api-openapi.yml
+  url: https://artifacts.apis.io/evidently/openapi/evidently-projects-api-openapi.yml
 - filename: evidently-service-api-openapi.yml
   format: yaml
   label: Evidently AI Service API
   slug: evidently-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-service-api-openapi.yml
+  url: https://artifacts.apis.io/evidently/openapi/evidently-service-api-openapi.yml
 - filename: evidently-snapshots-api-openapi.yml
   format: yaml
   label: Evidently AI Snapshots API
   slug: evidently-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/openapi/evidently-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/evidently/openapi/evidently-snapshots-api-openapi.yml
 consequence_counts:
   read: 17
   write: 9
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/eviden
   \  method: get\n  operationId: listSnapshots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/{snapshot_id}/metadata\n  method: get\n  operationId: getSnapshotMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/{snapshot_id}/data\n  method: get\n  operationId: getSnapshotData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/{snapshot_id}/download\n  method: get\n  operationId: downloadSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/{snapshot_id}/graphs_data/{graph_id}\n\
   \  method: get\n  operationId: getSnapshotGraphData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/snapshots/{project_id}\n  method: post\n  operationId: addSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/snapshots/{project_id}/{snapshot_id}\n  method: delete\n  operationId: deleteSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/snapshots/{project_id}/metrics\n  method: get\n  operationId:\
   \ getSnapshotsMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/snapshots/{project_id}/labels\n  method: get\n  operationId: getSnapshotsMetricLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/snapshots/{project_id}/label_values\n  method: get\n  operationId: getSnapshotsMetricLabelValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/snapshots/{project_id}/data_series_batch\n  method: post\n  operationId: getSnapshotsMetricsDataBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/agentic-access/evidently-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/evidently/agentic-access/evidently-agentic-access.yml
 summary_line: 26 operations · 9 acting
 tags:
 - ML Monitoring

@@ -9,37 +9,49 @@ api_specs:
   label: Amazon Supply Chain Bill of Materials API
   slug: amazon-supply-chain-bill-of-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-bill-of-materials-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-supply-chain/openapi/amazon-supply-chain-bill-of-materials-api-openapi.yml
 - filename: amazon-supply-chain-data-integration-events-api-openapi.yml
   format: yaml
   label: Amazon Supply Chain Data Integration Events API
   slug: amazon-supply-chain-data-integration-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-data-integration-events-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-supply-chain/openapi/amazon-supply-chain-data-integration-events-api-openapi.yml
 - filename: amazon-supply-chain-data-integration-flows-api-openapi.yml
   format: yaml
   label: Amazon Supply Chain Data Integration Flows API
   slug: amazon-supply-chain-data-integration-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-data-integration-flows-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-supply-chain/openapi/amazon-supply-chain-data-integration-flows-api-openapi.yml
 - filename: amazon-supply-chain-instances-api-openapi.yml
   format: yaml
   label: Amazon Supply Chain Instances API
   slug: amazon-supply-chain-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-supply-chain/openapi/amazon-supply-chain-instances-api-openapi.yml
 - filename: amazon-supply-chain-tags-api-openapi.yml
   format: yaml
   label: Amazon Supply Chain Tags API
   slug: amazon-supply-chain-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-supply-chain/openapi/amazon-supply-chain-tags-api-openapi.yml
 - filename: amazon-supply-chain-datalake-api-openapi.yml
   format: yaml
   label: Amazon Supply Chain Datalake API
   slug: amazon-supply-chain-datalake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain-datalake-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-supply-chain/openapi/amazon-supply-chain-datalake-api-openapi.yml
+- filename: amazon-supply-chain-namespaces-api-openapi.yml
+  format: yaml
+  label: Amazon Supply Chain Supply Chain Namespaces API
+  slug: amazon-supply-chain-namespaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-supply-chain/openapi/amazon-supply-chain-namespaces-api-openapi.yml
+- filename: amazon-supply-chain-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Supply Chain Supply Chain Operations API
+  slug: amazon-supply-chain-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-supply-chain/openapi/amazon-supply-chain-operations-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -80,9 +92,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/instances/{instanceId}/bill-of-materials-import-jobs\n  method: post\n  operationId: CreateBillOfMaterialsImportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/instances/{instanceId}/bill-of-materials-import-jobs/{jobId}\n  method: get\n  operationId: GetBillOfMaterialsImportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/instances/{instanceId}/data-integration-events\n  method: get\n  operationId: ListDataIntegrationEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/instances/{instanceId}/data-integration-events\n  method: post\n  operationId: SendDataIntegrationEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/instances/{instanceId}/tags\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/instances/{instanceId}/tags\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/instances/{instanceId}/tags\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/agentic-access/amazon-supply-chain-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-supply-chain/agentic-access/amazon-supply-chain-agentic-access.yml
 summary_line: 24 operations · 14 acting
 tags:
+- Amazon Web Services
 - ERP Integration
 - Logistics
 - Machine Learning

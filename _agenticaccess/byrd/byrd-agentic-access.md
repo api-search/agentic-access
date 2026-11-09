@@ -9,31 +9,31 @@ api_specs:
   label: Byrd Account API
   slug: byrd-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-account-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-account-api-openapi.yml
 - filename: byrd-authentication-api-openapi.yml
   format: yaml
   label: Byrd Authentication API
   slug: byrd-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-authentication-api-openapi.yml
 - filename: byrd-catalog-api-openapi.yml
   format: yaml
   label: Byrd Catalog API
   slug: byrd-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-catalog-api-openapi.yml
 - filename: byrd-inbound-api-openapi.yml
   format: yaml
   label: Byrd Inbound API
   slug: byrd-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-inbound-api-openapi.yml
 - filename: byrd-shipments-api-openapi.yml
   format: yaml
   label: Byrd Shipments API
   slug: byrd-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/openapi/byrd-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/byrd/openapi/byrd-shipments-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 39
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/byrd-a
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/shipments/{shipment_id}/picks\n  method: get\n  operationId: shipmentpicklistapiv3_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/shipments/{shipment_id}/recall\n  method: post\n  operationId: shipmentrecallapiv3_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/shipments/{shipment_id}/reservations\n  method: get\n  operationId: shipmentreservationlistapiv3_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/shipments/{shipment_id}/schedule-pickup\n  method: post\n  operationId: schedulepickupapiv3_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/shipments/{shipment_id}/units/{unit_id}\n  method: get\n  operationId: shipmentunitapiv3_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/shipments/{shipment_id}/validate-address\n  method: post\n  operationId: shipmentaddressvalidationapiv3_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/units\n  method: get\n  operationId: unitlistapiv3_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/units/count\n  method: get\n  operationId: unitlistcountapiv3_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/agentic-access/byrd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/byrd/agentic-access/byrd-agentic-access.yml
 summary_line: 69 operations · 30 acting
 tags:
 - Company

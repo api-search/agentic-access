@@ -9,91 +9,91 @@ api_specs:
   label: BigML Anomaly Detection API
   slug: bigml-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-anomaly-detection-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-anomaly-detection-api-openapi.yml
 - filename: bigml-batch-operations-api-openapi.yml
   format: yaml
   label: BigML Batch Operations API
   slug: bigml-batch-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-batch-operations-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-batch-operations-api-openapi.yml
 - filename: bigml-clustering-api-openapi.yml
   format: yaml
   label: BigML Clustering API
   slug: bigml-clustering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-clustering-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-clustering-api-openapi.yml
 - filename: bigml-data-connectors-api-openapi.yml
   format: yaml
   label: BigML Data Connectors API
   slug: bigml-data-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-data-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-data-connectors-api-openapi.yml
 - filename: bigml-datasets-api-openapi.yml
   format: yaml
   label: BigML Datasets API
   slug: bigml-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-datasets-api-openapi.yml
 - filename: bigml-ensembles-api-openapi.yml
   format: yaml
   label: BigML Ensembles API
   slug: bigml-ensembles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-ensembles-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-ensembles-api-openapi.yml
 - filename: bigml-evaluations-api-openapi.yml
   format: yaml
   label: BigML Evaluations API
   slug: bigml-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-evaluations-api-openapi.yml
 - filename: bigml-models-api-openapi.yml
   format: yaml
   label: BigML Models API
   slug: bigml-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-models-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-models-api-openapi.yml
 - filename: bigml-predictions-api-openapi.yml
   format: yaml
   label: BigML Predictions API
   slug: bigml-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-predictions-api-openapi.yml
 - filename: bigml-projects-api-openapi.yml
   format: yaml
   label: BigML Projects API
   slug: bigml-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-projects-api-openapi.yml
 - filename: bigml-sources-api-openapi.yml
   format: yaml
   label: BigML Sources API
   slug: bigml-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-sources-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-sources-api-openapi.yml
 - filename: bigml-supervised-learning-api-openapi.yml
   format: yaml
   label: BigML Supervised Learning API
   slug: bigml-supervised-learning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-supervised-learning-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-supervised-learning-api-openapi.yml
 - filename: bigml-time-series-api-openapi.yml
   format: yaml
   label: BigML Time Series API
   slug: bigml-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-time-series-api-openapi.yml
 - filename: bigml-unsupervised-learning-api-openapi.yml
   format: yaml
   label: BigML Unsupervised Learning API
   slug: bigml-unsupervised-learning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-unsupervised-learning-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-unsupervised-learning-api-openapi.yml
 - filename: bigml-whizzml-scripting-api-openapi.yml
   format: yaml
   label: BigML WhizzML Scripting API
   slug: bigml-whizzml-scripting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/openapi/bigml-whizzml-scripting-api-openapi.yml
+  url: https://artifacts.apis.io/bigml/openapi/bigml-whizzml-scripting-api-openapi.yml
 consequence_counts:
   read: 45
   write: 63
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /execution\n  method: post\n  operationId: createExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execution/{resource_id}\n  method: get\n  operationId: getExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /execution/{resource_id}\n  method: delete\n  operationId: deleteExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /externalconnector\n  method: get\n  operationId: listExternalConnectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /externalconnector\n  method: post\n  operationId: createExternalConnector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /externalconnector/{resource_id}\n  method: get\n  operationId: getExternalConnector\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /externalconnector/{resource_id}\n  method: put\n  operationId: updateExternalConnector\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /externalconnector/{resource_id}\n  method: delete\n  operationId: deleteExternalConnector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/agentic-access/bigml-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bigml/agentic-access/bigml-agentic-access.yml
 summary_line: 108 operations · 63 acting
 tags:
 - Machine Learning

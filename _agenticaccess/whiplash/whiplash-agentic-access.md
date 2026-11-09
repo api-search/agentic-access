@@ -9,61 +9,61 @@ api_specs:
   label: Whiplash Bundle Items API
   slug: whiplash-bundle-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-bundle-items-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-bundle-items-api-openapi.yml
 - filename: whiplash-consumer-returns-api-openapi.yml
   format: yaml
   label: Whiplash Consumer Returns API
   slug: whiplash-consumer-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-consumer-returns-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-consumer-returns-api-openapi.yml
 - filename: whiplash-customers-api-openapi.yml
   format: yaml
   label: Whiplash Customers API
   slug: whiplash-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-customers-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-customers-api-openapi.yml
 - filename: whiplash-documents-api-openapi.yml
   format: yaml
   label: Whiplash Documents API
   slug: whiplash-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-documents-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-documents-api-openapi.yml
 - filename: whiplash-items-api-openapi.yml
   format: yaml
   label: Whiplash Items API
   slug: whiplash-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-items-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-items-api-openapi.yml
 - filename: whiplash-notification-events-api-openapi.yml
   format: yaml
   label: Whiplash Notification Events API
   slug: whiplash-notification-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-notification-events-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-notification-events-api-openapi.yml
 - filename: whiplash-notification-subscriptions-api-openapi.yml
   format: yaml
   label: Whiplash Notification Subscriptions API
   slug: whiplash-notification-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-notification-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-notification-subscriptions-api-openapi.yml
 - filename: whiplash-orders-api-openapi.yml
   format: yaml
   label: Whiplash Orders API
   slug: whiplash-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-orders-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-orders-api-openapi.yml
 - filename: whiplash-shipnotices-api-openapi.yml
   format: yaml
   label: Whiplash Shipnotices API
   slug: whiplash-shipnotices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-shipnotices-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-shipnotices-api-openapi.yml
 - filename: whiplash-simulate-api-openapi.yml
   format: yaml
   label: Whiplash Simulate API
   slug: whiplash-simulate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/openapi/whiplash-simulate-api-openapi.yml
+  url: https://artifacts.apis.io/whiplash/openapi/whiplash-simulate-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 56
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/whipla
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/simulate/orders/{order_id}/process\n  method: post\n  operationId: simulateProcessOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/simulate/consumer_returns/create\n  method: post\n  operationId: simulateCreateConsumerReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/simulate/consumer_returns/{consumer_return_id}/process\n\
   \  method: post\n  operationId: simulateProcessConsumerReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/simulate/shipnotices/create\n  method: post\n  operationId: simulateCreateShipnotice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/simulate/shipnotices/{shipnotice_id}/process\n  method: post\n  operationId: simulateProcessShipnotice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/load_scacs\n  method: get\n  operationId: listLoadScacs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/load_scacs/count\n  method: get\n  operationId: countLoadScacs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/templates/{id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/agentic-access/whiplash-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/whiplash/agentic-access/whiplash-agentic-access.yml
 summary_line: 86 operations · 30 acting
 tags:
 - Fulfillment

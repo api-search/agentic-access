@@ -39,25 +39,25 @@ api_specs:
   label: RubyGems Dependencies API
   slug: rubygems-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-dependencies-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-dependencies-api-openapi.yml
 - filename: rubygems-owners-api-openapi.yml
   format: yaml
   label: RubyGems Owners API
   slug: rubygems-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-owners-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-owners-api-openapi.yml
 - filename: rubygems-profiles-api-openapi.yml
   format: yaml
   label: RubyGems Profiles API
   slug: rubygems-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-profiles-api-openapi.yml
 - filename: rubygems-versions-api-openapi.yml
   format: yaml
   label: RubyGems Versions API
   slug: rubygems-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-versions-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-versions-api-openapi.yml
 consequence_counts:
   read: 19
   write: 9
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rubyge
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api_key.json\n  method: get\n  operationId: getApiKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oidc/trusted_publisher/exchange_token\n  method: post\n  operationId: exchangeOidcToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search.json\n  method: get\n  operationId: searchGems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web_hooks.json\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web_hooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web_hooks/remove\n  method: delete\n  operationId: removeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web_hooks/fire\n  method: post\n  operationId: fireWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/agentic-access/rubygems-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rubygems/agentic-access/rubygems-agentic-access.yml
 summary_line: 28 operations · 9 acting
 tags:
 - Ruby

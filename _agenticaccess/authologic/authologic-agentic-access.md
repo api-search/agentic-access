@@ -9,49 +9,49 @@ api_specs:
   label: Authologic Advanced API
   slug: authologic-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-advanced-api-openapi.yml
 - filename: authologic-affordability-assessment-api-openapi.yml
   format: yaml
   label: Authologic Affordability assessment API
   slug: authologic-affordability-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-affordability-assessment-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-affordability-assessment-api-openapi.yml
 - filename: authologic-aml-api-openapi.yml
   format: yaml
   label: Authologic AML API
   slug: authologic-aml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-aml-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-aml-api-openapi.yml
 - filename: authologic-bank-api-openapi.yml
   format: yaml
   label: Authologic Bank API
   slug: authologic-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-bank-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-bank-api-openapi.yml
 - filename: authologic-conversation-api-openapi.yml
   format: yaml
   label: Authologic Conversation API
   slug: authologic-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-conversation-api-openapi.yml
 - filename: authologic-database-verification-api-openapi.yml
   format: yaml
   label: Authologic Database Verification API
   slug: authologic-database-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-database-verification-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-database-verification-api-openapi.yml
 - filename: authologic-enterprise-integration-api-openapi.yml
   format: yaml
   label: Authologic Enterprise Integration API
   slug: authologic-enterprise-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-enterprise-integration-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-enterprise-integration-api-openapi.yml
 - filename: authologic-metadata-api-openapi.yml
   format: yaml
   label: Authologic Metadata API
   slug: authologic-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/authologic/openapi/authologic-metadata-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-14'\nmethod: generated\nsource: openapi/authol
   \  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/conversations/{conversationId}/identity/metadata/media/{id}\n  method: get\n  operationId: getMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/conversations/{conversationId}/headless\n  method: get\n  operationId: currentStep\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/conversations/{conversationId}/databaseVerification/info\n  method: get\n  operationId: getDbV\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/conversations/{conversationId}/bankTransactions\n\
   \  method: get\n  operationId: getBankTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/conversations/{conversationId}/bankTransactions/stats\n  method: get\n  operationId: getBankTransactionsStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/conversations/{conversationId}/bankTransactions/accounts\n  method: get\n  operationId: getBankTransactionsAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/conversations/{conversationId}/aml/{list}\n  method: get\n  operationId: getAMLList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/conversations/{conversationId}/affordability/info\n\
   \  method: get\n  operationId: getAffordability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/subscriptions/{conversationId}/aml\n  method: delete\n  operationId: cancelAMLSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/agentic-access/authologic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/authologic/agentic-access/authologic-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - AML

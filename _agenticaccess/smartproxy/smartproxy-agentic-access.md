@@ -9,37 +9,37 @@ api_specs:
   label: Smartproxy Authentication API
   slug: smartproxy-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-authentication-api-openapi.yml
 - filename: smartproxy-endpoints-api-openapi.yml
   format: yaml
   label: Smartproxy Endpoints API
   slug: smartproxy-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-endpoints-api-openapi.yml
 - filename: smartproxy-subscriptions-api-openapi.yml
   format: yaml
   label: Smartproxy Subscriptions API
   slug: smartproxy-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-subscriptions-api-openapi.yml
 - filename: smartproxy-traffic-api-openapi.yml
   format: yaml
   label: Smartproxy Traffic API
   slug: smartproxy-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-traffic-api-openapi.yml
 - filename: smartproxy-whitelisted-ips-api-openapi.yml
   format: yaml
   label: Smartproxy Whitelisted IPs API
   slug: smartproxy-whitelisted-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-whitelisted-ips-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-whitelisted-ips-api-openapi.yml
 - filename: smartproxy-subusers-api-openapi.yml
   format: yaml
   label: Smartproxy Subusers API
   slug: smartproxy-subusers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/openapi/smartproxy-subusers-api-openapi.yml
+  url: https://artifacts.apis.io/smartproxy/openapi/smartproxy-subusers-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smartp
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/sub-users/{username}/traffic\n  method: get\n  operationId: getSubUserTraffic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/allocated-traffic\n  method: get\n  operationId: getAllocatedTraffic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/whitelisted-ips\n  method: get\n  operationId: getWhitelistedIps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/whitelisted-ips\n  method: post\n  operationId: addWhitelistedIps\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/whitelisted-ips/{id}\n  method: delete\n  operationId: deleteWhitelistedIp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/subscriptions\n  method: get\n  operationId: getSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /endpoints\n  method: get\n  operationId: getEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /endpoints/{type}\n  method: get\n  operationId: getEndpointsByType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/agentic-access/smartproxy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartproxy/agentic-access/smartproxy-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Proxies

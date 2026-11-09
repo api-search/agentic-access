@@ -8,25 +8,25 @@ api_specs:
   label: Revolutio Combined Hazard API
   slug: revolutio-combined-hazard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-combined-hazard-api-openapi.yml
+  url: https://artifacts.apis.io/revolutio/openapi/revolutio-combined-hazard-api-openapi.yml
 - filename: revolutio-seismic-api-openapi.yml
   format: yaml
   label: Revolutio Seismic API
   slug: revolutio-seismic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-seismic-api-openapi.yml
+  url: https://artifacts.apis.io/revolutio/openapi/revolutio-seismic-api-openapi.yml
 - filename: revolutio-snow-and-ice-api-openapi.yml
   format: yaml
   label: Revolutio Snow And Ice API
   slug: revolutio-snow-and-ice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-snow-and-ice-api-openapi.yml
+  url: https://artifacts.apis.io/revolutio/openapi/revolutio-snow-and-ice-api-openapi.yml
 - filename: revolutio-wind-api-openapi.yml
   format: yaml
   label: Revolutio Wind API
   slug: revolutio-wind-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/openapi/revolutio-wind-api-openapi.yml
+  url: https://artifacts.apis.io/revolutio/openapi/revolutio-wind-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/revolutio-combined-hazard-api-openapi.yml, openapi/revolutio-seismic-api-openapi.yml,\n  openapi/revolutio-snow-and-ice-api-openapi.yml, openapi/revolutio-wind-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /asnzs1170/combined\n  method: get\n  operationId: getCombinedHazardGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /asnzs1170/combined\n  method: post\n  operationId: getCombinedHazardPost\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /asnzs1170/seismic\n  method: get\n  operationId: getSeismicHazardGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /asnzs1170/seismic\n  method: post\n  operationId: getSeismicHazardPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /asnzs1170/snow\n  method: get\n  operationId: getSnowHazardGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /asnzs1170/snow\n  method: post\n  operationId: getSnowHazardPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /asnzs1170/wind\n  method: get\n  operationId: getWindHazardGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /asnzs1170/wind\n  method: post\n  operationId: getWindHazardPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/agentic-access/revolutio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/revolutio/agentic-access/revolutio-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Engineering

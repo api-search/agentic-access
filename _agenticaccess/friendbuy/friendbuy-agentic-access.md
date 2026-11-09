@@ -9,43 +9,43 @@ api_specs:
   label: Friendbuy Analytics API
   slug: friendbuy-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/friendbuy/openapi/friendbuy-analytics-api-openapi.yml
 - filename: friendbuy-authorization-api-openapi.yml
   format: yaml
   label: Friendbuy Authorization API
   slug: friendbuy-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/friendbuy/openapi/friendbuy-authorization-api-openapi.yml
 - filename: friendbuy-customers-api-openapi.yml
   format: yaml
   label: Friendbuy Customers API
   slug: friendbuy-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-customers-api-openapi.yml
+  url: https://artifacts.apis.io/friendbuy/openapi/friendbuy-customers-api-openapi.yml
 - filename: friendbuy-events-api-openapi.yml
   format: yaml
   label: Friendbuy Events API
   slug: friendbuy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-events-api-openapi.yml
+  url: https://artifacts.apis.io/friendbuy/openapi/friendbuy-events-api-openapi.yml
 - filename: friendbuy-management-api-openapi.yml
   format: yaml
   label: Friendbuy Management API
   slug: friendbuy-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-management-api-openapi.yml
+  url: https://artifacts.apis.io/friendbuy/openapi/friendbuy-management-api-openapi.yml
 - filename: friendbuy-referrals-api-openapi.yml
   format: yaml
   label: Friendbuy Referrals API
   slug: friendbuy-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/friendbuy/openapi/friendbuy-referrals-api-openapi.yml
 - filename: friendbuy-rewards-loyalty-api-openapi.yml
   format: yaml
   label: Friendbuy Rewards & Loyalty API
   slug: friendbuy-rewards-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/openapi/friendbuy-rewards-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/friendbuy/openapi/friendbuy-rewards-loyalty-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/friend
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ledger-balance-custom\n  method: get\n  operationId: getLedgerBalanceCustom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /postLedgerAdjustment\n  method: post\n  operationId: postLedgerAdjustment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /postLedgerAdjustmentCustom\n  method: post\n  operationId: postLedgerAdjustmentCustom\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /reward/redemption-options\n  method: get\n  operationId: getRedemptionOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reward/redeem\n  method: post\n  operationId: redeemReward\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reward/coupons\n  method: get\n  operationId: getCoupons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /postBlockUsers\n  method: post\n  operationId: postBlockUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/agentic-access/friendbuy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/friendbuy/agentic-access/friendbuy-agentic-access.yml
 summary_line: 31 operations · 12 acting
 tags:
 - Referral Marketing

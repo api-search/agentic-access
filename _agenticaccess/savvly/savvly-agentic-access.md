@@ -8,19 +8,19 @@ api_specs:
   label: Savvly Comparisons API
   slug: savvly-comparisons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-comparisons-api-openapi.yml
+  url: https://artifacts.apis.io/savvly/openapi/savvly-comparisons-api-openapi.yml
 - filename: savvly-product-api-openapi.yml
   format: yaml
   label: Savvly Product API
   slug: savvly-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-product-api-openapi.yml
+  url: https://artifacts.apis.io/savvly/openapi/savvly-product-api-openapi.yml
 - filename: savvly-projections-api-openapi.yml
   format: yaml
   label: Savvly Projections API
   slug: savvly-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-projections-api-openapi.yml
+  url: https://artifacts.apis.io/savvly/openapi/savvly-projections-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/savvly
   \ getSavvlyProductSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/comparisons\n  method: get\n  operationId: getSavvlyComparisons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/comparisons/{type}\n  method: get\n  operationId: compareSavvlyVsProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projections/lumpsum\n  method: get\n  operationId: projectLumpsumReturns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projections/monthly\n  method: get\n  operationId: projectMonthlyReturns\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projections/retirement\n  method: get\n  operationId: projectRetirementWithSavvly\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projections/growth-chart\n  method: get\n  operationId: projectGrowthChart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/eligibility\n  method: get\n  operationId: getSavvlyEligibility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/faq\n  method: get\n  operationId: getSavvlyFAQ\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/channels\n\
   \  method: get\n  operationId: getSavvlyChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/agentic-access/savvly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/savvly/agentic-access/savvly-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Company

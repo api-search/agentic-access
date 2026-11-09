@@ -9,55 +9,55 @@ api_specs:
   label: TrueFoundry Audio API
   slug: truefoundry-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-audio-api-openapi.yml
+  url: https://artifacts.apis.io/truefoundry/openapi/truefoundry-audio-api-openapi.yml
 - filename: truefoundry-batches-api-openapi.yml
   format: yaml
   label: TrueFoundry Batches API
   slug: truefoundry-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-batches-api-openapi.yml
+  url: https://artifacts.apis.io/truefoundry/openapi/truefoundry-batches-api-openapi.yml
 - filename: truefoundry-embeddings-api-openapi.yml
   format: yaml
   label: TrueFoundry Embeddings API
   slug: truefoundry-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/truefoundry/openapi/truefoundry-embeddings-api-openapi.yml
 - filename: truefoundry-files-api-openapi.yml
   format: yaml
   label: TrueFoundry Files API
   slug: truefoundry-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-files-api-openapi.yml
+  url: https://artifacts.apis.io/truefoundry/openapi/truefoundry-files-api-openapi.yml
 - filename: truefoundry-images-api-openapi.yml
   format: yaml
   label: TrueFoundry Images API
   slug: truefoundry-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-images-api-openapi.yml
+  url: https://artifacts.apis.io/truefoundry/openapi/truefoundry-images-api-openapi.yml
 - filename: truefoundry-models-api-openapi.yml
   format: yaml
   label: TrueFoundry Models API
   slug: truefoundry-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-models-api-openapi.yml
+  url: https://artifacts.apis.io/truefoundry/openapi/truefoundry-models-api-openapi.yml
 - filename: truefoundry-moderations-api-openapi.yml
   format: yaml
   label: TrueFoundry Moderations API
   slug: truefoundry-moderations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-moderations-api-openapi.yml
+  url: https://artifacts.apis.io/truefoundry/openapi/truefoundry-moderations-api-openapi.yml
 - filename: truefoundry-rerank-api-openapi.yml
   format: yaml
   label: TrueFoundry Rerank API
   slug: truefoundry-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/truefoundry/openapi/truefoundry-rerank-api-openapi.yml
 - filename: truefoundry-chat-completions-api-openapi.yml
   format: yaml
   label: TrueFoundry Chat Completions API
   slug: truefoundry-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/openapi/truefoundry-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/truefoundry/openapi/truefoundry-chat-completions-api-openapi.yml
 consequence_counts:
   read: 4
   write: 10
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/truefo
   \ createTranscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files\n  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{file_id}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{file_id}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batches\n  method: post\n  operationId: createBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batches/{batch_id}\n  method: get\n  operationId: getBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /moderations\n  method: post\n  operationId:\
   \ createModeration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rerank\n  method: post\n  operationId: rerankDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/agentic-access/truefoundry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/truefoundry/agentic-access/truefoundry-agentic-access.yml
 summary_line: 14 operations · 10 acting
 tags:
 - AI Platform

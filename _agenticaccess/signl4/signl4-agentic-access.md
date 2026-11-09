@@ -8,13 +8,13 @@ api_specs:
   label: SIGNL4 Events API
   slug: signl4-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-events-api-openapi.yml
+  url: https://artifacts.apis.io/signl4/openapi/signl4-events-api-openapi.yml
 - filename: signl4-webhook-api-openapi.yml
   format: yaml
   label: SIGNL4 Webhook API
   slug: signl4-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/signl4/openapi/signl4-webhook-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/signl4-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    acting: 2\n  by_consequence:\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /webhook/{teamSecret}\n  method: post\n  operationId: triggerWebhookAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/events/{webhookIdOrTeamId}\n  method: post\n  operationId: createEvent\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/agentic-access/signl4-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/signl4/agentic-access/signl4-agentic-access.yml
 summary_line: 2 operations · 2 acting
 tags:
 - Alerting

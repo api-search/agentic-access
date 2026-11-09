@@ -8,19 +8,19 @@ api_specs:
   label: Kontent AI Assets API
   slug: kontent-ai-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-assets-api-openapi.yml
+  url: https://artifacts.apis.io/kontent-ai/openapi/kontent-ai-assets-api-openapi.yml
 - filename: kontent-ai-items-api-openapi.yml
   format: yaml
   label: Kontent AI Items API
   slug: kontent-ai-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-items-api-openapi.yml
+  url: https://artifacts.apis.io/kontent-ai/openapi/kontent-ai-items-api-openapi.yml
 - filename: kontent-ai-items-feed-api-openapi.yml
   format: yaml
   label: Kontent AI Items Feed API
   slug: kontent-ai-items-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-items-feed-api-openapi.yml
+  url: https://artifacts.apis.io/kontent-ai/openapi/kontent-ai-items-feed-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kontent-ai-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /{environment_id}/items\n  method: get\n  operationId: listContentItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{environment_id}/items/{item_codename}\n  method: get\n  operationId: getContentItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{environment_id}/items-feed\n\
   \  method: get\n  operationId: getItemsFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{environment_id}/assets/{asset_codename}/used-in\n  method: get\n  operationId: assetUsedIn\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{environment_id}/items/{item_codename}/used-in\n  method: get\n  operationId: itemUsedIn\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/agentic-access/kontent-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kontent-ai/agentic-access/kontent-ai-agentic-access.yml
 summary_line: 5 operations
 tags:
 - CMS

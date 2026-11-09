@@ -8,43 +8,43 @@ api_specs:
   label: Basetrip Cities API
   slug: basetrip-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-cities-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-cities-api-openapi.yml
 - filename: basetrip-cost-api-openapi.yml
   format: yaml
   label: Basetrip Cost API
   slug: basetrip-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-cost-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-cost-api-openapi.yml
 - filename: basetrip-countries-api-openapi.yml
   format: yaml
   label: Basetrip Countries API
   slug: basetrip-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-countries-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-countries-api-openapi.yml
 - filename: basetrip-health-api-openapi.yml
   format: yaml
   label: Basetrip Health API
   slug: basetrip-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-health-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-health-api-openapi.yml
 - filename: basetrip-phrases-api-openapi.yml
   format: yaml
   label: Basetrip Phrases API
   slug: basetrip-phrases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-phrases-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-phrases-api-openapi.yml
 - filename: basetrip-safety-api-openapi.yml
   format: yaml
   label: Basetrip Safety API
   slug: basetrip-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-safety-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-safety-api-openapi.yml
 - filename: basetrip-visa-api-openapi.yml
   format: yaml
   label: Basetrip Visa API
   slug: basetrip-visa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-visa-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-visa-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/basetrip-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{id}\n  method: get\n  operationId: getCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{id}/cities\n  method: get\n  operationId: listCitiesByCountry\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cities/{id}\n  method: get\n  operationId: getCity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{id}/phrases\n  method: get\n  operationId: listPhrasesByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{id}/safety\n  method: get\n  operationId: getCountrySafety\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{id}/cost\n  method: get\n  operationId: getCountryCost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /countries/{id}/visa\n  method: get\n  operationId: getVisaRequirements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries/{id}/health\n  method: get\n  operationId: getCountryHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/agentic-access/basetrip-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/basetrip/agentic-access/basetrip-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Cities

@@ -9,7 +9,7 @@ api_specs:
   label: Finnhub Default API
   slug: finnhub-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-default-api-openapi.yml
+  url: https://artifacts.apis.io/finnhub/openapi/finnhub-default-api-openapi.yml
 consequence_counts:
   read: 115
   write: 2
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/finnhu
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calendar/economic\n  method: get\n  operationId: economic-calendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /economic/code\n  method: get\n  operationId: economic-code\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /economic\n  method: get\n  operationId: economic-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/international-filings\n  method: get\n  operationId: international-filings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/revenue-breakdown2\n\
   \  method: get\n  operationId: revenue-breakdown2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/newsroom\n  method: get\n  operationId: newsroom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai-chat\n  method: post\n  operationId: ai-chat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global-filings/search\n  method: post\n  operationId: global-filings-search\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global-filings/search-in-filing\n  method: post\n  operationId: search-in-filing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /global-filings/filter\n  method: get\n  operationId: global-filings-search-filter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /global-filings/download\n  method: get\n  operationId: global-filings-download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/agentic-access/finnhub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/finnhub/agentic-access/finnhub-agentic-access.yml
 summary_line: 117 operations · 2 acting
 tags:
 - Finance

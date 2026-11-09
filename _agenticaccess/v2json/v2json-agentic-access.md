@@ -9,7 +9,7 @@ api_specs:
   label: V2JSON (SkyV2X) Decode API
   slug: v2json-decode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v2json/refs/heads/main/openapi/v2json-decode-api-openapi.yml
+  url: https://artifacts.apis.io/v2json/openapi/v2json-decode-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3
@@ -38,7 +38,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-11'\nmethod: generated\nsource: openapi/v2json-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 3\n    connected: 3\n  by_consequence:\n    write: 3\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/decode\n  method: post\n  operationId: decode_api_v1_decode_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/encode\n  method: post\n  operationId: encode_api_v1_encode_post\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/verify\n  method: post\n  operationId: verify_api_v1_verify_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/types\n  method: get\n  operationId: types_api_v1_types_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/samples/{type_id}\n  method: get\n  operationId: sample_api_v1_samples__type_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/health\n  method: get\n  operationId: health_api_v1_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v2json/refs/heads/main/agentic-access/v2json-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/v2json/agentic-access/v2json-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
 - V2X

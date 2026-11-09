@@ -9,67 +9,67 @@ api_specs:
   label: Env0 Agents API
   slug: env0-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-agents-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-agents-api-openapi.yml
 - filename: env0-configuration-api-openapi.yml
   format: yaml
   label: Env0 Configuration API
   slug: env0-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-configuration-api-openapi.yml
 - filename: env0-deployments-api-openapi.yml
   format: yaml
   label: Env0 Deployments API
   slug: env0-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-deployments-api-openapi.yml
 - filename: env0-environments-api-openapi.yml
   format: yaml
   label: Env0 Environments API
   slug: env0-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-environments-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-environments-api-openapi.yml
 - filename: env0-modules-api-openapi.yml
   format: yaml
   label: Env0 Modules API
   slug: env0-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-modules-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-modules-api-openapi.yml
 - filename: env0-organizations-api-openapi.yml
   format: yaml
   label: Env0 Organizations API
   slug: env0-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-organizations-api-openapi.yml
 - filename: env0-projects-api-openapi.yml
   format: yaml
   label: Env0 Projects API
   slug: env0-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-projects-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-projects-api-openapi.yml
 - filename: env0-templates-api-openapi.yml
   format: yaml
   label: Env0 Templates API
   slug: env0-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-templates-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-templates-api-openapi.yml
 - filename: env0-users-api-openapi.yml
   format: yaml
   label: Env0 Users API
   slug: env0-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-users-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-users-api-openapi.yml
 - filename: env0-webhooks-api-openapi.yml
   format: yaml
   label: Env0 Webhooks API
   slug: env0-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-webhooks-api-openapi.yml
 - filename: env0-approval-policies-api-openapi.yml
   format: yaml
   label: Env0 Approval Policies API
   slug: env0-approval-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/openapi/env0-approval-policies-api-openapi.yml
+  url: https://artifacts.apis.io/env0/openapi/env0-approval-policies-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/env0-o
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments/{environmentId}/deployments/{deploymentId}\n  method: get\n  operationId: getDeployment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /modules\n  method: get\n  operationId: listModules\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents\n  method: get\n  operationId: listAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /configuration\n  method: get\n  operationId: listConfigurationVariables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /configuration\n  method: post\n  operationId: upsertConfigurationVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /approval-policies\n  method: get\n  operationId: listApprovalPolicies\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/agentic-access/env0-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/env0/agentic-access/env0-agentic-access.yml
 summary_line: 21 operations · 8 acting
 tags:
 - FinOps

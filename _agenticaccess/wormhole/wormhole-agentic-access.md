@@ -9,19 +9,19 @@ api_specs:
   label: Wormhole Guardian API
   slug: wormhole-guardian-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-guardian-api-openapi.yml
+  url: https://artifacts.apis.io/wormhole/openapi/wormhole-guardian-api-openapi.yml
 - filename: wormhole-wormhole-api-openapi.yml
   format: yaml
   label: Wormhole API
   slug: wormhole-wormhole-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-wormhole-api-openapi.yml
+  url: https://artifacts.apis.io/wormhole/openapi/wormhole-wormhole-api-openapi.yml
 - filename: wormhole-wormholescan-api-openapi.yml
   format: yaml
   label: Wormhole Wormholescan API
   slug: wormhole-wormholescan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-wormholescan-api-openapi.yml
+  url: https://artifacts.apis.io/wormhole/openapi/wormhole-wormholescan-api-openapi.yml
 consequence_counts:
   read: 73
   write: 1
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wormho
   \  operationId: get-transaction-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vaas/\n  method: get\n  operationId: find-all-vaas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vaas/:chain_id\n  method: get\n  operationId: find-vaas-by-chain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vaas/:chain_id/:emitter\n  method: get\n  operationId: find-vaas-by-emitter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vaas/:chain_id/:emitter/:seq\n  method: get\n  operationId: find-vaa-by-id\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vaas/:chain_id/:emitter/:seq/duplicated\n  method: get\n  operationId: find-duplicated-vaa-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vaas/parse\n  method: post\n  operationId: parse-vaa\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/vaas/vaa-counts\n  method: get\n  operationId: get-vaa-counts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/version\n  method: get\n  operationId: get-version\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/x-chain-activity\n  method: get\n  operationId: x-chain-activity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/x-chain-activity/tops\n  method: get\n  operationId: x-chain-activity-tops\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swagger.json\n  method: get\n  operationId: swagger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/agentic-access/wormhole-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wormhole/agentic-access/wormhole-agentic-access.yml
 summary_line: 74 operations · 1 acting
 tags:
 - Cross-Chain

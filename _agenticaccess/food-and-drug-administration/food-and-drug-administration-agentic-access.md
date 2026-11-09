@@ -8,37 +8,37 @@ api_specs:
   label: Food and Drug Administration Animal & Veterinary API
   slug: food-and-drug-administration-animal-veterinary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-animal-veterinary-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-animal-veterinary-api-openapi.yml
 - filename: food-and-drug-administration-device-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Device API
   slug: food-and-drug-administration-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-device-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-device-api-openapi.yml
 - filename: food-and-drug-administration-drug-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Drug API
   slug: food-and-drug-administration-drug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-drug-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-drug-api-openapi.yml
 - filename: food-and-drug-administration-food-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Food API
   slug: food-and-drug-administration-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-food-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-food-api-openapi.yml
 - filename: food-and-drug-administration-other-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Other API
   slug: food-and-drug-administration-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-other-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-other-api-openapi.yml
 - filename: food-and-drug-administration-tobacco-api-openapi.yml
   format: yaml
   label: Food and Drug Administration Tobacco API
   slug: food-and-drug-administration-tobacco-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/openapi/food-and-drug-administration-tobacco-api-openapi.yml
+  url: https://artifacts.apis.io/food-and-drug-administration/openapi/food-and-drug-administration-tobacco-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openfd
   \  method: get\n  operationId: searchDevicePMA\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device/registrationlisting.json\n  method: get\n  operationId: searchDeviceRegistrationListing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device/udi.json\n  method: get\n  operationId: searchDeviceUDI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device/covid19serology.json\n  method: get\n  operationId: searchCovid19Serology\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/enforcement.json\n  method: get\n  operationId: searchFoodEnforcement\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/event.json\n  method: get\n  operationId: searchFoodEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /animalandveterinary/event.json\n  method: get\n  operationId: searchAnimalVetEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tobacco/problem.json\n  method: get\n  operationId: searchTobaccoProblems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /other/nsde.json\n  method: get\n  operationId: searchNSDE\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /other/substance.json\n  method: get\n  operationId: searchSubstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /other/historicaldocument.json\n  method: get\n  operationId: searchHistoricalDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/agentic-access/food-and-drug-administration-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/food-and-drug-administration/agentic-access/food-and-drug-administration-agentic-access.yml
 summary_line: 22 operations
 tags:
 - Drugs

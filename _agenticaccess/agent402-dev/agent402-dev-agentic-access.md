@@ -9,19 +9,19 @@ api_specs:
   label: agent402.dev Developer tools API
   slug: agent402-dev-developer-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-developer-tools-api-openapi.yml
+  url: https://artifacts.apis.io/agent402-dev/openapi/agent402-dev-developer-tools-api-openapi.yml
 - filename: agent402-dev-downloads-api-openapi.yml
   format: yaml
   label: agent402.dev Downloads API
   slug: agent402-dev-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/agent402-dev/openapi/agent402-dev-downloads-api-openapi.yml
 - filename: agent402-dev-productivity-api-openapi.yml
   format: yaml
   label: agent402.dev Productivity API
   slug: agent402-dev-productivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/openapi/agent402-dev-productivity-api-openapi.yml
+  url: https://artifacts.apis.io/agent402-dev/openapi/agent402-dev-productivity-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/agent4
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site-release-audit/sample.json\n  method: get\n  operationId: siteReleaseAuditSample\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site-release-audit/methodology.json\n  method: get\n  operationId: siteReleaseAuditMethodology\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site-release-audit/proof/v1/case-study.json\n  method: get\n  operationId: siteReleaseAuditCaseStudy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit-x402\n  method: post\n  operationId: auditX402\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /x402-health\n  method: post\n  operationId: x402Health\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /download\n  method: get\n  operationId: downloadWayfarersDeck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qr-campaign-pack\n  method: get\n  operationId: downloadQrCampaignPack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agent402-dev/refs/heads/main/agentic-access/agent402-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agent402-dev/agentic-access/agent402-dev-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Company

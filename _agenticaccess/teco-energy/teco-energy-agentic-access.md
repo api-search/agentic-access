@@ -9,31 +9,31 @@ api_specs:
   label: TECO Energy Accounts API
   slug: teco-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-accounts-api-openapi.yml
 - filename: teco-energy-billing-api-openapi.yml
   format: yaml
   label: TECO Energy Billing API
   slug: teco-energy-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-billing-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-billing-api-openapi.yml
 - filename: teco-energy-energy-usage-api-openapi.yml
   format: yaml
   label: TECO Energy Usage API
   slug: teco-energy-energy-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-energy-usage-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-energy-usage-api-openapi.yml
 - filename: teco-energy-outages-api-openapi.yml
   format: yaml
   label: TECO Energy Outages API
   slug: teco-energy-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-outages-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-outages-api-openapi.yml
 - filename: teco-energy-service-requests-api-openapi.yml
   format: yaml
   label: TECO Energy Service Requests API
   slug: teco-energy-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/openapi/teco-energy-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/teco-energy/openapi/teco-energy-service-requests-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/teco-e
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}/bills\n  method: get\n  operationId: listBills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}/bills/{billId}\n  method: get\n  operationId: getBill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}/payments\n  method: post\n  operationId: makePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountNumber}/service-requests\n  method: get\n\
   \  operationId: listServiceRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}/service-requests\n  method: post\n  operationId: createServiceRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outages\n  method: get\n  operationId: listOutages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outages/{outageId}\n  method: get\n  operationId: getOutage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outages/report\n\
   \  method: post\n  operationId: reportOutage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outages/map\n  method: get\n  operationId: getOutageMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/agentic-access/teco-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teco-energy/agentic-access/teco-energy-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
 - Energy

@@ -9,49 +9,49 @@ api_specs:
   label: Revelator Account API
   slug: revelator-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/openapi/revelator-account-api-openapi.yml
+  url: https://artifacts.apis.io/revelator/openapi/revelator-account-api-openapi.yml
 - filename: revelator-accounting-api-openapi.yml
   format: yaml
   label: Revelator Accounting API
   slug: revelator-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/openapi/revelator-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/revelator/openapi/revelator-accounting-api-openapi.yml
 - filename: revelator-analytics-api-openapi.yml
   format: yaml
   label: Revelator Analytics API
   slug: revelator-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/openapi/revelator-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/revelator/openapi/revelator-analytics-api-openapi.yml
 - filename: revelator-distribution-api-openapi.yml
   format: yaml
   label: Revelator Distribution API
   slug: revelator-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/openapi/revelator-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/revelator/openapi/revelator-distribution-api-openapi.yml
 - filename: revelator-integrations-api-openapi.yml
   format: yaml
   label: Revelator Integrations API
   slug: revelator-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/openapi/revelator-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/revelator/openapi/revelator-integrations-api-openapi.yml
 - filename: revelator-lookup-api-openapi.yml
   format: yaml
   label: Revelator Lookup API
   slug: revelator-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/openapi/revelator-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/revelator/openapi/revelator-lookup-api-openapi.yml
 - filename: revelator-revenue-api-openapi.yml
   format: yaml
   label: Revelator Revenue API
   slug: revelator-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/openapi/revelator-revenue-api-openapi.yml
+  url: https://artifacts.apis.io/revelator/openapi/revelator-revenue-api-openapi.yml
 - filename: revelator-royalty-tokens-api-openapi.yml
   format: yaml
   label: Revelator Royalty Tokens API
   slug: revelator-royalty-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/openapi/revelator-royalty-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/revelator/openapi/revelator-royalty-tokens-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/revela
   \ - abnormal\n      - high-value\n    audit: required\n- path: /integrations/tipalti/generateIframeHashkey\n  method: post\n  operationId: generateTipaltiIframeHashkey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finance/salereport/all\n  method: get\n  operationId: getSaleReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finance/salereport/{statementId}\n  method: get\n  operationId: getSaleReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finance/salereport/download/summary\n  method: get\n  operationId: downloadStatementSummary\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finance/salereport/download/details\n  method: get\n  operationId: downloadStatementDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finance/salereport/post-download\n  method: post\n  operationId: postDownloadSaleReports\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /royaltyTokens\n  method: get\n  operationId: getRoyaltyTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /royaltyTokens\n\
   \  method: post\n  operationId: mintRoyaltyToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /royaltyTokens/{tokenId}\n  method: get\n  operationId: getRoyaltyToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /common/lookup/{type}\n  method: get\n  operationId: getLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/agentic-access/revelator-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/revelator/agentic-access/revelator-agentic-access.yml
 summary_line: 32 operations · 13 acting
 tags:
 - Music

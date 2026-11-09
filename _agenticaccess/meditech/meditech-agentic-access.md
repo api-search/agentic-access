@@ -8,49 +8,49 @@ api_specs:
   label: meditech Allergy API
   slug: meditech-allergy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-allergy-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-allergy-api-openapi.yml
 - filename: meditech-capability-api-openapi.yml
   format: yaml
   label: meditech Capability API
   slug: meditech-capability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-capability-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-capability-api-openapi.yml
 - filename: meditech-condition-api-openapi.yml
   format: yaml
   label: meditech Condition API
   slug: meditech-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-condition-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-condition-api-openapi.yml
 - filename: meditech-diagnostic-api-openapi.yml
   format: yaml
   label: meditech Diagnostic API
   slug: meditech-diagnostic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-diagnostic-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-diagnostic-api-openapi.yml
 - filename: meditech-encounter-api-openapi.yml
   format: yaml
   label: meditech Encounter API
   slug: meditech-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-encounter-api-openapi.yml
 - filename: meditech-medication-api-openapi.yml
   format: yaml
   label: meditech Medication API
   slug: meditech-medication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-medication-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-medication-api-openapi.yml
 - filename: meditech-observation-api-openapi.yml
   format: yaml
   label: meditech Observation API
   slug: meditech-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-observation-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-observation-api-openapi.yml
 - filename: meditech-patient-api-openapi.yml
   format: yaml
   label: meditech Patient API
   slug: meditech-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-patient-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-patient-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/_origi
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch\n    - patient/*.read\n    - user/*.read\n- path: /Patient/{id}/Condition\n  method: get\n  operationId: getPatientConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch\n    - patient/*.read\n    - user/*.read\n- path: /Patient/{id}/MedicationRequest\n  method: get\n  operationId: getPatientMedications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch\n    - patient/*.read\n    - user/*.read\n- path: /Patient/{id}/AllergyIntolerance\n  method: get\n  operationId: getPatientAllergies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n    scope:\n    - launch\n    - patient/*.read\n    - user/*.read\n- path: /Patient/{id}/Encounter\n  method: get\n  operationId: getPatientEncounters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch\n    - patient/*.read\n    - user/*.read\n- path: /Patient/{id}/DiagnosticReport\n  method: get\n  operationId: getPatientDiagnosticReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch\n    - patient/*.read\n    - user/*.read\n- path: /Patient/{id}/$everything\n  method: get\n  operationId: getPatientEverything\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch\n    - patient/*.read\n  \
   \  - user/*.read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/agentic-access/meditech-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meditech/agentic-access/meditech-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Company

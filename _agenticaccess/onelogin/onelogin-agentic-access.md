@@ -9,37 +9,37 @@ api_specs:
   label: OneLogin Apps API
   slug: onelogin-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-apps-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-apps-api-openapi.yml
 - filename: onelogin-mfa-api-openapi.yml
   format: yaml
   label: OneLogin MFA API
   slug: onelogin-mfa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-mfa-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-mfa-api-openapi.yml
 - filename: onelogin-roles-api-openapi.yml
   format: yaml
   label: OneLogin Roles API
   slug: onelogin-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-roles-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-roles-api-openapi.yml
 - filename: onelogin-saml-api-openapi.yml
   format: yaml
   label: OneLogin SAML API
   slug: onelogin-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-saml-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-saml-api-openapi.yml
 - filename: onelogin-users-api-openapi.yml
   format: yaml
   label: OneLogin Users API
   slug: onelogin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-users-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-users-api-openapi.yml
 - filename: onelogin-oauth-api-openapi.yml
   format: yaml
   label: OneLogin O Auth API
   slug: onelogin-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/openapi/onelogin-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/onelogin/openapi/onelogin-oauth-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/onelog
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/2/apps/{id}\n  method: put\n  operationId: updateApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/2/apps/{id}\n  method: delete\n  operationId: deleteApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/saml_assertion\n  method: post\n  operationId: generateSamlAssertion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/saml_assertion/verify_factor\n  method: post\n  operationId: verifySamlFactor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/users/{id}/otp_devices\n  method: get\n  operationId: getOtpDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/1/users/{id}/otp_devices\n  method: post\n  operationId: enrollFactor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/agentic-access/onelogin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/onelogin/agentic-access/onelogin-agentic-access.yml
 summary_line: 31 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Identity
@@ -93,6 +93,7 @@ tags:
 - SSO
 - Multi-Factor Authentication
 - SAML
-- Authentication
+- OAuth
 - Identity Federation
+- Authentication
 ---

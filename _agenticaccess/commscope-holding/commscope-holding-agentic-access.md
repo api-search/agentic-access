@@ -9,49 +9,49 @@ api_specs:
   label: CommScope Holding Activities API
   slug: commscope-holding-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-activities-api-openapi.yml
+  url: https://artifacts.apis.io/commscope-holding/openapi/commscope-holding-activities-api-openapi.yml
 - filename: commscope-holding-authentication-api-openapi.yml
   format: yaml
   label: CommScope Holding Authentication API
   slug: commscope-holding-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/commscope-holding/openapi/commscope-holding-authentication-api-openapi.yml
 - filename: commscope-holding-clients-api-openapi.yml
   format: yaml
   label: CommScope Holding Clients API
   slug: commscope-holding-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-clients-api-openapi.yml
+  url: https://artifacts.apis.io/commscope-holding/openapi/commscope-holding-clients-api-openapi.yml
 - filename: commscope-holding-msp-api-openapi.yml
   format: yaml
   label: CommScope Holding MSP API
   slug: commscope-holding-msp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-msp-api-openapi.yml
+  url: https://artifacts.apis.io/commscope-holding/openapi/commscope-holding-msp-api-openapi.yml
 - filename: commscope-holding-networks-api-openapi.yml
   format: yaml
   label: CommScope Holding Networks API
   slug: commscope-holding-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-networks-api-openapi.yml
+  url: https://artifacts.apis.io/commscope-holding/openapi/commscope-holding-networks-api-openapi.yml
 - filename: commscope-holding-switches-api-openapi.yml
   format: yaml
   label: CommScope Holding Switches API
   slug: commscope-holding-switches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-switches-api-openapi.yml
+  url: https://artifacts.apis.io/commscope-holding/openapi/commscope-holding-switches-api-openapi.yml
 - filename: commscope-holding-venues-api-openapi.yml
   format: yaml
   label: CommScope Holding Venues API
   slug: commscope-holding-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-venues-api-openapi.yml
+  url: https://artifacts.apis.io/commscope-holding/openapi/commscope-holding-venues-api-openapi.yml
 - filename: commscope-holding-access-points-api-openapi.yml
   format: yaml
   label: CommScope Holding Access Points API
   slug: commscope-holding-access-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/commscope-holding-access-points-api-openapi.yml
+  url: https://artifacts.apis.io/commscope-holding/openapi/commscope-holding-access-points-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ruckus
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tenant/{tenantId}/venues\n  method: get\n  operationId: listVenues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tenant/{tenantId}/venues\n  method: post\n  operationId: createVenue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tenant/{tenantId}/networks\n  method: get\n  operationId: listNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tenant/{tenantId}/networks\n  method: post\n\
   \  operationId: createNetwork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tenant/{tenantId}/aps\n  method: get\n  operationId: listAccessPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tenant/{tenantId}/switches\n  method: get\n  operationId: listSwitches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tenant/{tenantId}/clients\n  method: get\n  operationId: listClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /api/msp/{mspId}/customers\n  method: get\n  operationId: listMSPCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/agentic-access/commscope-holding-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/commscope-holding/agentic-access/commscope-holding-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Access Points

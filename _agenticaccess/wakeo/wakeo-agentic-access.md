@@ -9,19 +9,19 @@ api_specs:
   label: Wakeo Shipments API
   slug: wakeo-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/wakeo/openapi/wakeo-shipments-api-openapi.yml
 - filename: wakeo-tracking-api-openapi.yml
   format: yaml
   label: Wakeo Tracking API
   slug: wakeo-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/wakeo/openapi/wakeo-tracking-api-openapi.yml
 - filename: wakeo-webhooks-api-openapi.yml
   format: yaml
   label: Wakeo Webhooks API
   slug: wakeo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/wakeo/openapi/wakeo-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wakeo-
   \     exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/shipments/{shipmentId}\n  method: get\n  operationId: getShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipments/{shipmentId}\n  method: delete\n  operationId: deleteShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/shipments/{shipmentId}/eta\n  method: get\n  operationId: getShipmentEta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/shipments/{shipmentId}/positions\n  method: get\n  operationId: listShipmentPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipments/{shipmentId}/events\n  method: get\n  operationId: listShipmentEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/agentic-access/wakeo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wakeo/agentic-access/wakeo-agentic-access.yml
 summary_line: 10 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Supply Chain

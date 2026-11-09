@@ -9,49 +9,49 @@ api_specs:
   label: NHS API CodeSystem API
   slug: nhs-api-codesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-codesystem-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-api/openapi/nhs-api-codesystem-api-openapi.yml
 - filename: nhs-api-list-id-api-openapi.yml
   format: yaml
   label: NHS API List{id} API
   slug: nhs-api-list-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-list-id-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-api/openapi/nhs-api-list-id-api-openapi.yml
 - filename: nhs-api-metadata-api-openapi.yml
   format: yaml
   label: NHS API Metadata API
   slug: nhs-api-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-api/openapi/nhs-api-metadata-api-openapi.yml
 - filename: nhs-api-organization-api-openapi.yml
   format: yaml
   label: NHS API Organization API
   slug: nhs-api-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-organization-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-api/openapi/nhs-api-organization-api-openapi.yml
 - filename: nhs-api-organizationaffiliation-api-openapi.yml
   format: yaml
   label: NHS API OrganizationAffiliation API
   slug: nhs-api-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-api/openapi/nhs-api-organizationaffiliation-api-openapi.yml
 - filename: nhs-api-r4-api-openapi.yml
   format: yaml
   label: NHS API R4 API
   slug: nhs-api-r4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-r4-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-api/openapi/nhs-api-r4-api-openapi.yml
 - filename: nhs-api-stu3-api-openapi.yml
   format: yaml
   label: NHS API STU3 API
   slug: nhs-api-stu3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-stu3-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-api/openapi/nhs-api-stu3-api-openapi.yml
 - filename: nhs-api-valueset-api-openapi.yml
   format: yaml
   label: NHS API ValueSet API
   slug: nhs-api-valueset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/openapi/nhs-api-valueset-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-api/openapi/nhs-api-valueset-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 28
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nhs-ap
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /STU3/Appointment/{id}\n  method: put\n  operationId: putSTU3AppointmentById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /STU3/Appointment/{id}\n  method: get\n  operationId: getSTU3AppointmentById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /STU3/Appointment/{id}/_history/{version}\n  method: get\n  operationId: getSTU3AppointmentByIdHistoryByVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /STU3/ReferralRequest/{ubrn}/$ers.cancelReferral\n  method: post\n  operationId: postSTU3ReferralRequestByUbrn$ersCancelReferral\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /STU3/CommunicationRequest/{ubrn}/$ers.generateCRI\n  method: post\n  operationId: postSTU3CommunicationRequestByUbrn$ersGenerateCRI\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /STU3/CommunicationRequest/$ers.createAdviceAndGuidance\n  method: post\n  operationId: postSTU3CommunicationRequest$ersCreateAdviceAndGuidance\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ValueSet/\n  method: post\n  operationId: search-ods-organization-code\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ValueSet/{id}\n  method: get\n  operationId: get-valueset-specified-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/agentic-access/nhs-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nhs-api/agentic-access/nhs-api-agentic-access.yml
 summary_line: 50 operations · 22 acting
 tags:
 - Healthcare

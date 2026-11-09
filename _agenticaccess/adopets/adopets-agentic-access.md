@@ -9,19 +9,19 @@ api_specs:
   label: Adopets Payment Request API
   slug: adopets-payment-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-payment-request-api-openapi.yml
+  url: https://artifacts.apis.io/adopets/openapi/adopets-payment-request-api-openapi.yml
 - filename: adopets-payment-transaction-api-openapi.yml
   format: yaml
   label: Adopets Payment Transaction API
   slug: adopets-payment-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-payment-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/adopets/openapi/adopets-payment-transaction-api-openapi.yml
 - filename: adopets-system-auth-api-openapi.yml
   format: yaml
   label: Adopets System Auth API
   slug: adopets-system-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/adopets-system-auth-api-openapi.yml
+  url: https://artifacts.apis.io/adopets/openapi/adopets-system-auth-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 2
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/adopet
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/external/payment-request/get\n  method: post\n  operationId: getPaymentRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/external/payment-request/cancel\n  method: post\n  operationId: cancelPaymentRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/external/payment-request/change\n  method: post\n  operationId: changePaymentRequestItems\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/external/payment-transaction/get\n  method: post\n  operationId: getPaymentTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/external/payment-transaction/refund\n  method: post\n  operationId: refundPaymentTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/external/system-auth/connect\n  method: post\n  operationId:\
   \ connectExternalSystemUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization/external/system-auth/disconnect\n  method: post\n  operationId: disconnectExternalSystemUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/agentic-access/adopets-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adopets/agentic-access/adopets-agentic-access.yml
 summary_line: 8 operations · 6 acting
 tags:
 - Pet Adoption

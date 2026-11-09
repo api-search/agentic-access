@@ -9,37 +9,37 @@ api_specs:
   label: Alteryx Collections API
   slug: alteryx-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-collections-api-openapi.yml
+  url: https://artifacts.apis.io/alteryx/openapi/alteryx-collections-api-openapi.yml
 - filename: alteryx-credentials-api-openapi.yml
   format: yaml
   label: Alteryx Credentials API
   slug: alteryx-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/alteryx/openapi/alteryx-credentials-api-openapi.yml
 - filename: alteryx-jobs-api-openapi.yml
   format: yaml
   label: Alteryx Jobs API
   slug: alteryx-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/alteryx/openapi/alteryx-jobs-api-openapi.yml
 - filename: alteryx-schedules-api-openapi.yml
   format: yaml
   label: Alteryx Schedules API
   slug: alteryx-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/alteryx/openapi/alteryx-schedules-api-openapi.yml
 - filename: alteryx-users-api-openapi.yml
   format: yaml
   label: Alteryx Users API
   slug: alteryx-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-users-api-openapi.yml
+  url: https://artifacts.apis.io/alteryx/openapi/alteryx-users-api-openapi.yml
 - filename: alteryx-workflows-api-openapi.yml
   format: yaml
   label: Alteryx Workflows API
   slug: alteryx-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/alteryx/openapi/alteryx-workflows-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 14
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/altery
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/collections/{collectionId}/userGroups/{userGroupId}\n  method: delete\n  operationId: removeUserGroupFromCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/collections/{collectionId}/workflows\n  method: post\n  operationId: addWorkflowToCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v3/collections/{collectionId}/workflows/{appId}\n  method: delete\n  operationId: removeWorkflowFromCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/collections/{collectionId}/schedules\n  method: post\n  operationId: addScheduleToCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/collections/{collectionId}/schedules/{scheduleId}\n  method: delete\n  operationId: removeScheduleFromCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/agentic-access/alteryx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alteryx/agentic-access/alteryx-agentic-access.yml
 summary_line: 50 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Analytics

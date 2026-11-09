@@ -9,37 +9,37 @@ api_specs:
   label: Noms Brands API
   slug: noms-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/openapi/noms-brands-api-openapi.yml
+  url: https://artifacts.apis.io/noms/openapi/noms-brands-api-openapi.yml
 - filename: noms-foodgroups-api-openapi.yml
   format: yaml
   label: Noms Food Groups API
   slug: noms-foodgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/openapi/noms-foodgroups-api-openapi.yml
+  url: https://artifacts.apis.io/noms/openapi/noms-foodgroups-api-openapi.yml
 - filename: noms-foods-api-openapi.yml
   format: yaml
   label: Noms Foods API
   slug: noms-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/openapi/noms-foods-api-openapi.yml
+  url: https://artifacts.apis.io/noms/openapi/noms-foods-api-openapi.yml
 - filename: noms-market-api-openapi.yml
   format: yaml
   label: Noms Market API
   slug: noms-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/openapi/noms-market-api-openapi.yml
+  url: https://artifacts.apis.io/noms/openapi/noms-market-api-openapi.yml
 - filename: noms-nutrients-api-openapi.yml
   format: yaml
   label: Noms Nutrients API
   slug: noms-nutrients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/openapi/noms-nutrients-api-openapi.yml
+  url: https://artifacts.apis.io/noms/openapi/noms-nutrients-api-openapi.yml
 - filename: noms-usage-api-openapi.yml
   format: yaml
   label: Noms Usage API
   slug: noms-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/openapi/noms-usage-api-openapi.yml
+  url: https://artifacts.apis.io/noms/openapi/noms-usage-api-openapi.yml
 consequence_counts:
   read: 10
   write: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-28'\nmethod: generated\nsource: openapi/noms-o
   \ nutrientsListNutrients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/nutrients/{id}\n  method: get\n  operationId: nutrientsGetNutrient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/food-groups\n  method: get\n  operationId: foodGroupsListFoodGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/food-groups/{id}\n  method: get\n  operationId: foodGroupsGetFoodGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/brands\n  method: get\n  operationId: brandsListBrands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/brands/{id}\n  method: get\n  operationId: brandsGetBrand\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/usage\n  method: get\n  operationId: usageUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/market\n  method: get\n  operationId: marketGetMarket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/market\n  method: put\n  operationId: marketSetMarket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/agentic-access/noms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/noms/agentic-access/noms-agentic-access.yml
 summary_line: 11 operations · 1 acting
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: Veriff Attempts API
   slug: veriff-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-attempts-api-openapi.yml
 - filename: veriff-decisions-api-openapi.yml
   format: yaml
   label: Veriff Decisions API
   slug: veriff-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-decisions-api-openapi.yml
 - filename: veriff-media-api-openapi.yml
   format: yaml
   label: Veriff Media API
   slug: veriff-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-media-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-media-api-openapi.yml
 - filename: veriff-persons-api-openapi.yml
   format: yaml
   label: Veriff Persons API
   slug: veriff-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-persons-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-persons-api-openapi.yml
 - filename: veriff-sessions-api-openapi.yml
   format: yaml
   label: Veriff Sessions API
   slug: veriff-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-sessions-api-openapi.yml
 - filename: veriff-watchlist-api-openapi.yml
   format: yaml
   label: Veriff Watchlist API
   slug: veriff-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/openapi/veriff-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/veriff/openapi/veriff-watchlist-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/veriff
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/collected-data\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/media\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/media\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/validate-registry\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/decision\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/person\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/watchlist-screening\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/attempts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /attempts/{attemptId}/media\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /media/{mediaId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/agentic-access/veriff-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/veriff/agentic-access/veriff-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - KYC

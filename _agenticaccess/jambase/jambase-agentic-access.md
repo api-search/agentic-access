@@ -8,55 +8,55 @@ api_specs:
   label: JamBase Artists API
   slug: jambase-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-artists-api-openapi.yml
+  url: https://artifacts.apis.io/jambase/openapi/jambase-artists-api-openapi.yml
 - filename: jambase-events-api-openapi.yml
   format: yaml
   label: JamBase Events API
   slug: jambase-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-events-api-openapi.yml
+  url: https://artifacts.apis.io/jambase/openapi/jambase-events-api-openapi.yml
 - filename: jambase-genres-api-openapi.yml
   format: yaml
   label: JamBase Genres API
   slug: jambase-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-genres-api-openapi.yml
+  url: https://artifacts.apis.io/jambase/openapi/jambase-genres-api-openapi.yml
 - filename: jambase-geographies-api-openapi.yml
   format: yaml
   label: JamBase Geographies API
   slug: jambase-geographies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-geographies-api-openapi.yml
+  url: https://artifacts.apis.io/jambase/openapi/jambase-geographies-api-openapi.yml
 - filename: jambase-lookups-api-openapi.yml
   format: yaml
   label: JamBase Lookups API
   slug: jambase-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/jambase/openapi/jambase-lookups-api-openapi.yml
 - filename: jambase-streams-api-openapi.yml
   format: yaml
   label: JamBase Streams API
   slug: jambase-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-streams-api-openapi.yml
+  url: https://artifacts.apis.io/jambase/openapi/jambase-streams-api-openapi.yml
 - filename: jambase-venues-api-openapi.yml
   format: yaml
   label: JamBase Venues API
   slug: jambase-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-venues-api-openapi.yml
+  url: https://artifacts.apis.io/jambase/openapi/jambase-venues-api-openapi.yml
 - filename: jambase-festivalseries-api-openapi.yml
   format: yaml
   label: JamBase Festival Series API
   slug: jambase-festivalseries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-festivalseries-api-openapi.yml
+  url: https://artifacts.apis.io/jambase/openapi/jambase-festivalseries-api-openapi.yml
 - filename: jambase-usage-api-openapi.yml
   format: yaml
   label: JamBase Usage API
   slug: jambase-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-usage-api-openapi.yml
+  url: https://artifacts.apis.io/jambase/openapi/jambase-usage-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \      max-ttl: 3600\n    audit: none\n- path: /venues/id/{venueDataSource}:{venueId}\n  method: get\n  operationId: getSingleVenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geographies/cities\n  method: get\n  operationId: searchCities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geographies/metros\n  method: get\n  operationId: getMetros\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geographies/states\n  method: get\n  operationId: getStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geographies/countries\n  method: get\n  operationId: getCountries\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/event-data-sources\n  method: get\n  operationId: getEventDataSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/stream-data-sources\n  method: get\n  operationId: getstreamDataSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/artist-data-sources\n  method: get\n  operationId: getArtistDataSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/venue-data-sources\n  method: get\n  operationId: getVenueDataSources\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /genres\n  method: get\n  operationId: getGenres\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/agentic-access/jambase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jambase/agentic-access/jambase-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Artists

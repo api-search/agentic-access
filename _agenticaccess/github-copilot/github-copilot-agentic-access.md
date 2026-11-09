@@ -9,37 +9,37 @@ api_specs:
   label: GitHub Copilot Billing API
   slug: github-copilot-copilot-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-billing-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-billing-api-openapi.yml
 - filename: github-copilot-copilot-content-exclusion-api-openapi.yml
   format: yaml
   label: GitHub Copilot Content Exclusion API
   slug: github-copilot-copilot-content-exclusion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-content-exclusion-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-content-exclusion-api-openapi.yml
 - filename: github-copilot-copilot-metrics-api-openapi.yml
   format: yaml
   label: GitHub Copilot Metrics API
   slug: github-copilot-copilot-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-metrics-api-openapi.yml
 - filename: github-copilot-copilot-seats-api-openapi.yml
   format: yaml
   label: GitHub Copilot Seats API
   slug: github-copilot-copilot-seats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-seats-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-seats-api-openapi.yml
 - filename: github-copilot-copilot-usage-reports-api-openapi.yml
   format: yaml
   label: GitHub Copilot Usage Reports API
   slug: github-copilot-copilot-usage-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-usage-reports-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-usage-reports-api-openapi.yml
 - filename: github-copilot-copilot-user-management-api-openapi.yml
   format: yaml
   label: GitHub Copilot User Management API
   slug: github-copilot-copilot-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-copilot-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-user-management-api-openapi.yml
 consequence_counts:
   read: 14
   write: 5
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/github
   \  operationId: getEnterpriseUsersCopilotUsageDaily\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enterprises/{enterprise}/copilot/metrics/reports/users-28-day/latest\n  method: get\n  operationId: getEnterpriseUsersCopilotUsage28Day\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/copilot/metrics/reports/organization-1-day\n  method: get\n  operationId: getOrganizationCopilotUsageDaily\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/copilot/metrics/reports/organization-28-day/latest\n  method: get\n  operationId: getOrganizationCopilotUsage28Day\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/copilot/metrics/reports/users-1-day\n  method: get\n  operationId: getOrganizationUsersCopilotUsageDaily\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/copilot/metrics/reports/users-28-day/latest\n  method: get\n  operationId: getOrganizationUsersCopilotUsage28Day\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/copilot/content_exclusion\n  method: get\n  operationId: getCopilotContentExclusionRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/copilot/content_exclusion\n  method: put\n  operationId: setCopilotContentExclusionRules\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/agentic-access/github-copilot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/github-copilot/agentic-access/github-copilot-agentic-access.yml
 summary_line: 19 operations · 5 acting
 tags:
 - Agents

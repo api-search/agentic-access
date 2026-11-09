@@ -9,91 +9,91 @@ api_specs:
   label: Boom Ai CDP Custom Objects API
   slug: boom-ai-cdp-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-custom-objects-api-openapi.yml
 - filename: boom-ai-cdp-events-api-openapi.yml
   format: yaml
   label: Boom Ai CDP Events API
   slug: boom-ai-cdp-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-events-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-events-api-openapi.yml
 - filename: boom-ai-cdp-people-api-openapi.yml
   format: yaml
   label: Boom Ai CDP People API
   slug: boom-ai-cdp-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-people-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-people-api-openapi.yml
 - filename: boom-ai-cdp-relationships-api-openapi.yml
   format: yaml
   label: Boom Ai CDP Relationships API
   slug: boom-ai-cdp-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-relationships-api-openapi.yml
 - filename: boom-ai-cdp-sources-api-openapi.yml
   format: yaml
   label: Boom Ai CDP Sources API
   slug: boom-ai-cdp-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-sources-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-sources-api-openapi.yml
 - filename: boom-ai-http-credentials-api-openapi.yml
   format: yaml
   label: Boom Ai HTTP credentials API
   slug: boom-ai-http-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-http-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-http-credentials-api-openapi.yml
 - filename: boom-ai-initiatives-api-openapi.yml
   format: yaml
   label: Boom Ai Initiatives API
   slug: boom-ai-initiatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-initiatives-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-initiatives-api-openapi.yml
 - filename: boom-ai-journeys-api-openapi.yml
   format: yaml
   label: Boom Ai Journeys API
   slug: boom-ai-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-journeys-api-openapi.yml
 - filename: boom-ai-segments-api-openapi.yml
   format: yaml
   label: Boom Ai Segments API
   slug: boom-ai-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-segments-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-segments-api-openapi.yml
 - filename: boom-ai-whatsapp-templates-api-openapi.yml
   format: yaml
   label: Boom Ai WhatsApp templates API
   slug: boom-ai-whatsapp-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-whatsapp-templates-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-whatsapp-templates-api-openapi.yml
 - filename: boom-ai-environments-api-openapi.yml
   format: yaml
   label: Boom Ai Environments API
   slug: boom-ai-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-environments-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-environments-api-openapi.yml
 - filename: boom-ai-cdp-sensitive-fields-api-openapi.yml
   format: yaml
   label: Boom Ai CDP Sensitive fields API
   slug: boom-ai-cdp-sensitive-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-sensitive-fields-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-cdp-sensitive-fields-api-openapi.yml
 - filename: boom-ai-email-templates-api-openapi.yml
   format: yaml
   label: Boom Ai Email templates API
   slug: boom-ai-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-email-templates-api-openapi.yml
 - filename: boom-ai-lead-capture-api-openapi.yml
   format: yaml
   label: Boom Ai Lead Capture API
   slug: boom-ai-lead-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-lead-capture-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-lead-capture-api-openapi.yml
 - filename: boom-ai-message-logs-api-openapi.yml
   format: yaml
   label: Boom Ai Message logs API
   slug: boom-ai-message-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-message-logs-api-openapi.yml
+  url: https://artifacts.apis.io/boom-ai/openapi/boom-ai-message-logs-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 39
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/boom-a
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/segments/{slug}/members\n  method: get\n  operationId: segments_members_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/segments/catalog\n  method: get\n  operationId: segments_catalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/segments/preview\n  method: post\n  operationId: segments_preview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/segments/validate\n  method: post\n  operationId: segments_validate\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/templates\n  method: get\n  operationId: templates_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/templates\n  method: post\n  operationId: templates_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/templates/{id}\n  method: get\n  operationId: templates_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/whatsapp-numbers\n  method: get\n  operationId: whatsapp_numbers_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/agentic-access/boom-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/boom-ai/agentic-access/boom-ai-agentic-access.yml
 summary_line: 80 operations · 41 acting · 1 human-in-the-loop
 tags:
 - Company

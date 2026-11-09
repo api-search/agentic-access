@@ -9,115 +9,115 @@ api_specs:
   label: HashiCorp Nomad ACL API
   slug: nomad-acl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-acl-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-acl-api-openapi.yml
 - filename: nomad-agent-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Agent API
   slug: nomad-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-agent-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-agent-api-openapi.yml
 - filename: nomad-allocations-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Allocations API
   slug: nomad-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-allocations-api-openapi.yml
 - filename: nomad-deployments-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Deployments API
   slug: nomad-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-deployments-api-openapi.yml
 - filename: nomad-evaluations-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Evaluations API
   slug: nomad-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-evaluations-api-openapi.yml
 - filename: nomad-jobs-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Jobs API
   slug: nomad-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-jobs-api-openapi.yml
 - filename: nomad-namespaces-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Namespaces API
   slug: nomad-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-namespaces-api-openapi.yml
 - filename: nomad-node-pools-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Node Pools API
   slug: nomad-node-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-node-pools-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-node-pools-api-openapi.yml
 - filename: nomad-nodes-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Nodes API
   slug: nomad-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-nodes-api-openapi.yml
 - filename: nomad-operator-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Operator API
   slug: nomad-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-operator-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-operator-api-openapi.yml
 - filename: nomad-regions-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Regions API
   slug: nomad-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-regions-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-regions-api-openapi.yml
 - filename: nomad-scaling-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Scaling API
   slug: nomad-scaling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-scaling-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-scaling-api-openapi.yml
 - filename: nomad-search-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Search API
   slug: nomad-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-search-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-search-api-openapi.yml
 - filename: nomad-service-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Service API
   slug: nomad-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-service-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-service-api-openapi.yml
 - filename: nomad-services-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Services API
   slug: nomad-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-services-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-services-api-openapi.yml
 - filename: nomad-status-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Status API
   slug: nomad-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-status-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-status-api-openapi.yml
 - filename: nomad-system-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad System API
   slug: nomad-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-system-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-system-api-openapi.yml
 - filename: nomad-variables-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Variables API
   slug: nomad-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-variables-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-variables-api-openapi.yml
 - filename: nomad-volumes-api-openapi.yml
   format: yaml
   label: HashiCorp Nomad Volumes API
   slug: nomad-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/openapi/nomad-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/nomad/openapi/nomad-volumes-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 46
@@ -191,7 +191,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nomad-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /system/reconcile/summaries\n  method: put\n  operationId: reconcileSummaries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operator/raft/configuration\n  method: get\n  operationId: readRaftConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operator/raft/peer\n  method: delete\n  operationId: removeRaftPeer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /operator/autopilot/configuration\n  method: get\n  operationId: readAutopilotConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operator/autopilot/configuration\n  method: put\n  operationId: updateAutopilotConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operator/autopilot/health\n  method: get\n  operationId: readAutopilotHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/leader\n  method: get\n  operationId: readLeader\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/peers\n  method: get\n  operationId: listPeers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/agentic-access/nomad-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nomad/agentic-access/nomad-agentic-access.yml
 summary_line: 79 operations · 33 acting · 1 human-in-the-loop
 tags:
 - Workload Orchestration

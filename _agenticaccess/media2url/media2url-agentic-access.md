@@ -27,7 +27,7 @@ source_filename: media2url-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-10-06'\nmethod: generated\nsource: openapi/media2url-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1\n  by_action_class:\n    connected: 1\n  by_consequence:\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - usage:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/media2url/refs/heads/main/agentic-access/media2url-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/media2url/agentic-access/media2url-agentic-access.yml
 summary_line: 1 operation
 tags:
 - Media

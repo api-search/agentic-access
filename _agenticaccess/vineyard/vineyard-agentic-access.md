@@ -9,37 +9,37 @@ api_specs:
   label: Vineyard Blobs API
   slug: vineyard-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-blobs-api-openapi.yml
 - filename: vineyard-connection-api-openapi.yml
   format: yaml
   label: Vineyard Connection API
   slug: vineyard-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-connection-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-connection-api-openapi.yml
 - filename: vineyard-metadata-api-openapi.yml
   format: yaml
   label: Vineyard Metadata API
   slug: vineyard-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-metadata-api-openapi.yml
 - filename: vineyard-names-api-openapi.yml
   format: yaml
   label: Vineyard Names API
   slug: vineyard-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-names-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-names-api-openapi.yml
 - filename: vineyard-objects-api-openapi.yml
   format: yaml
   label: Vineyard Objects API
   slug: vineyard-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-objects-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-objects-api-openapi.yml
 - filename: vineyard-persistence-api-openapi.yml
   format: yaml
   label: Vineyard Persistence API
   slug: vineyard-persistence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/openapi/vineyard-persistence-api-openapi.yml
+  url: https://artifacts.apis.io/vineyard/openapi/vineyard-persistence-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vineya
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /objects/{objectId}\n  method: get\n  operationId: getObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /objects/{objectId}\n  method: delete\n  operationId: deleteObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /objects/{objectId}/metadata\n  method: get\n  operationId: getObjectMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /objects/{objectId}/persist\n  method: post\n  operationId: persistObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /names\n  method: post\n  operationId: putName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /names/{name}\n  method: get\n  operationId: getByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blobs\n  method: post\n  operationId: createBlob\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /blobs/{objectId}\n  method: get\n  operationId: getBlob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/agentic-access/vineyard-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vineyard/agentic-access/vineyard-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Big Data

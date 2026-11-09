@@ -8,25 +8,25 @@ api_specs:
   label: NOAA ERDDAP Data Access API
   slug: noaa-erddap-data-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/openapi/noaa-erddap-data-access-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-erddap/openapi/noaa-erddap-data-access-api-openapi.yml
 - filename: noaa-erddap-discovery-api-openapi.yml
   format: yaml
   label: NOAA ERDDAP Discovery API
   slug: noaa-erddap-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/openapi/noaa-erddap-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-erddap/openapi/noaa-erddap-discovery-api-openapi.yml
 - filename: noaa-erddap-files-api-openapi.yml
   format: yaml
   label: NOAA ERDDAP Files API
   slug: noaa-erddap-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/openapi/noaa-erddap-files-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-erddap/openapi/noaa-erddap-files-api-openapi.yml
 - filename: noaa-erddap-metadata-api-openapi.yml
   format: yaml
   label: NOAA ERDDAP Metadata API
   slug: noaa-erddap-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/openapi/noaa-erddap-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-erddap/openapi/noaa-erddap-metadata-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /search/index.{fileType}\n  method: get\n  operationId: searchDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/advanced.{fileType}\n  method: get\n  operationId: searchDatasetsAdvanced\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/index.{fileType}\n  method: get\n\
   \  operationId: listAllDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categorize/{attribute}/index.{fileType}\n  method: get\n  operationId: listAttributeValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categorize/{attribute}/{value}/index.{fileType}\n  method: get\n  operationId: listDatasetsByAttribute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/{datasetID}/index.{fileType}\n  method: get\n  operationId: getDatasetInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tabledap/{datasetID}.{fileType}\n  method: get\n  operationId: getTabledapData\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /griddap/{datasetID}.{fileType}\n  method: get\n  operationId: getGriddapData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{datasetID}\n  method: get\n  operationId: listDatasetFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/agentic-access/noaa-erddap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/noaa-erddap/agentic-access/noaa-erddap-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Oceanography

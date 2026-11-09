@@ -9,43 +9,43 @@ api_specs:
   label: Yodeck Layouts API
   slug: yodeck-signage-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-layouts-api-openapi.yml
 - filename: yodeck-signage-media-api-openapi.yml
   format: yaml
   label: Yodeck Media API
   slug: yodeck-signage-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-media-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-media-api-openapi.yml
 - filename: yodeck-signage-playlists-api-openapi.yml
   format: yaml
   label: Yodeck Playlists API
   slug: yodeck-signage-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-playlists-api-openapi.yml
 - filename: yodeck-signage-schedules-api-openapi.yml
   format: yaml
   label: Yodeck Schedules API
   slug: yodeck-signage-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-schedules-api-openapi.yml
 - filename: yodeck-signage-screens-api-openapi.yml
   format: yaml
   label: Yodeck Screens API
   slug: yodeck-signage-screens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-screens-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-screens-api-openapi.yml
 - filename: yodeck-signage-shows-api-openapi.yml
   format: yaml
   label: Yodeck Shows API
   slug: yodeck-signage-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-shows-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-shows-api-openapi.yml
 - filename: yodeck-signage-workspaces-api-openapi.yml
   format: yaml
   label: Yodeck Workspaces API
   slug: yodeck-signage-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/openapi/yodeck-signage-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/yodeck-signage/openapi/yodeck-signage-workspaces-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/yodeck
   \  method: patch\n  operationId: updateShow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shows/{id}/\n  method: delete\n  operationId: deleteShow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n  \
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{id}/\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{id}/\n  method: patch\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{id}/\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/agentic-access/yodeck-signage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yodeck-signage/agentic-access/yodeck-signage-agentic-access.yml
 summary_line: 36 operations · 22 acting · 1 human-in-the-loop
 tags:
 - Digital Signage

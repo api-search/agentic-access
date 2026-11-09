@@ -9,31 +9,31 @@ api_specs:
   label: Horizon Blockchain Games Analytics API
   slug: horizon-blockchain-games-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-analytics-api-openapi.yml
 - filename: horizon-blockchain-games-marketplace-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Marketplace API
   slug: horizon-blockchain-games-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-marketplace-api-openapi.yml
 - filename: horizon-blockchain-games-public-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Public API
   slug: horizon-blockchain-games-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-public-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-public-api-openapi.yml
 - filename: horizon-blockchain-games-rpc-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Rpc API
   slug: horizon-blockchain-games-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-rpc-api-openapi.yml
 - filename: horizon-blockchain-games-secret-api-openapi.yml
   format: yaml
   label: Horizon Blockchain Games Secret API
   slug: horizon-blockchain-games-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/openapi/horizon-blockchain-games-secret-api-openapi.yml
+  url: https://artifacts.apis.io/horizon-blockchain-games/openapi/horizon-blockchain-games-secret-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 30
@@ -177,8 +177,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/horizo
   \ - high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemTopProjectsByNewDevelopers\n  method: post\n  operationId: Analytics-EcosystemTopProjectsByNewDevelopers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemTotalMarketplaces\n  method: post\n  operationId: Analytics-EcosystemTotalMarketplaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemMonthlyMarketplaces\n  method: post\n  operationId: Analytics-EcosystemMonthlyMarketplaces\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemActiveMarketplaces\n  method: post\n  operationId: Analytics-EcosystemActiveMarketplaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemWalletsByCountry\n  method: post\n  operationId: Analytics-EcosystemWalletsByCountry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemWalletsByDevice\n  method: post\n  operationId: Analytics-EcosystemWalletsByDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemWalletsByOS\n  method: post\n  operationId: Analytics-EcosystemWalletsByOS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemWalletsByBrowser\n  method: post\n  operationId: Analytics-EcosystemWalletsByBrowser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
-  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemWalletsByType\n  method: post\n  operationId: Analytics-EcosystemWalletsByType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (120 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/agentic-access/horizon-blockchain-games-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/agentic-access/horizon-blockchain-games-agentic-access.yml
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rpc/Analytics/EcosystemWalletsByType\n  method: post\n  operationId: Analytics-EcosystemWalletsByType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (120 KB total) ---\n# Full source: https://artifacts.apis.io/horizon-blockchain-games/agentic-access/horizon-blockchain-games-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/horizon-blockchain-games/agentic-access/horizon-blockchain-games-agentic-access.yml
 summary_line: 302 operations · 272 acting · 1 human-in-the-loop
 tags:
 - Company

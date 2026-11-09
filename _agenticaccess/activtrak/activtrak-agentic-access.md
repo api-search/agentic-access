@@ -9,25 +9,25 @@ api_specs:
   label: ActivTrak Administration API
   slug: activtrak-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-administration-api-openapi.yml
+  url: https://artifacts.apis.io/activtrak/openapi/activtrak-administration-api-openapi.yml
 - filename: activtrak-administration-scim-api-openapi.yml
   format: yaml
   label: ActivTrak Administration - SCIM API
   slug: activtrak-administration-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-administration-scim-api-openapi.yml
+  url: https://artifacts.apis.io/activtrak/openapi/activtrak-administration-scim-api-openapi.yml
 - filename: activtrak-bulk-import-api-openapi.yml
   format: yaml
   label: ActivTrak Bulk Import API
   slug: activtrak-bulk-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-bulk-import-api-openapi.yml
+  url: https://artifacts.apis.io/activtrak/openapi/activtrak-bulk-import-api-openapi.yml
 - filename: activtrak-reports-api-openapi.yml
   format: yaml
   label: ActivTrak Reports API
   slug: activtrak-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/openapi/activtrak-reports-api-openapi.yml
+  url: https://artifacts.apis.io/activtrak/openapi/activtrak-reports-api-openapi.yml
 consequence_counts:
   read: 13
   write: 10
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/activt
   \  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/schemas\n  method: get\n  operationId: getSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v1/users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/users/{userId}\n  method: delete\n\
   \  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v1/users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v1/users/{userId}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hrdc/v2/bulk\n  method: post\n  operationId: importUserData\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/v2/activitylog\n  method: get\n  operationId: getActivityLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/v2/workinghours/computers\n  method: get\n  operationId: getWorkingHoursForComputers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/v2/workinghours/users\n  method: get\n  operationId: getWorkingHoursForUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/agentic-access/activtrak-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/activtrak/agentic-access/activtrak-agentic-access.yml
 summary_line: 23 operations · 10 acting
 tags:
 - Company

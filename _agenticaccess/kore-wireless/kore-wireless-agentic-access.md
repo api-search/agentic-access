@@ -9,211 +9,211 @@ api_specs:
   label: KORE Wireless Account API
   slug: kore-wireless-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-account-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-account-api-openapi.yml
 - filename: kore-wireless-accounts-api-openapi.yml
   format: yaml
   label: KORE Wireless Accounts API
   slug: kore-wireless-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-accounts-api-openapi.yml
 - filename: kore-wireless-activation-profiles-api-openapi.yml
   format: yaml
   label: KORE Wireless Activation Profiles API
   slug: kore-wireless-activation-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-activation-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-activation-profiles-api-openapi.yml
 - filename: kore-wireless-alerting-api-openapi.yml
   format: yaml
   label: KORE Wireless Alerting API
   slug: kore-wireless-alerting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-alerting-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-alerting-api-openapi.yml
 - filename: kore-wireless-auth-api-openapi.yml
   format: yaml
   label: KORE Wireless Auth API
   slug: kore-wireless-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-auth-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-auth-api-openapi.yml
 - filename: kore-wireless-clients-api-openapi.yml
   format: yaml
   label: KORE Wireless Clients API
   slug: kore-wireless-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-clients-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-clients-api-openapi.yml
 - filename: kore-wireless-commands-resource-api-openapi.yml
   format: yaml
   label: KORE Wireless Commands Resource API
   slug: kore-wireless-commands-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-commands-resource-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-commands-resource-api-openapi.yml
 - filename: kore-wireless-datasessions-resource-api-openapi.yml
   format: yaml
   label: KORE Wireless DataSessions Resource API
   slug: kore-wireless-datasessions-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-datasessions-resource-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-datasessions-resource-api-openapi.yml
 - filename: kore-wireless-diagnostics-api-openapi.yml
   format: yaml
   label: KORE Wireless Diagnostics API
   slug: kore-wireless-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-diagnostics-api-openapi.yml
 - filename: kore-wireless-eligibility-api-openapi.yml
   format: yaml
   label: KORE Wireless Eligibility API
   slug: kore-wireless-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-eligibility-api-openapi.yml
 - filename: kore-wireless-esim-profile-management-api-openapi.yml
   format: yaml
   label: KORE Wireless eSIM Profile Management API
   slug: kore-wireless-esim-profile-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-esim-profile-management-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-esim-profile-management-api-openapi.yml
 - filename: kore-wireless-health-api-openapi.yml
   format: yaml
   label: KORE Wireless Health API
   slug: kore-wireless-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-health-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-health-api-openapi.yml
 - filename: kore-wireless-messages-api-openapi.yml
   format: yaml
   label: KORE Wireless Messages API
   slug: kore-wireless-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-messages-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-messages-api-openapi.yml
 - filename: kore-wireless-provisioning-api-openapi.yml
   format: yaml
   label: KORE Wireless Provisioning API
   slug: kore-wireless-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-provisioning-api-openapi.yml
 - filename: kore-wireless-rateplans-resource-api-openapi.yml
   format: yaml
   label: KORE Wireless RatePlans Resource API
   slug: kore-wireless-rateplans-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-rateplans-resource-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-rateplans-resource-api-openapi.yml
 - filename: kore-wireless-reports-api-openapi.yml
   format: yaml
   label: KORE Wireless Reports API
   slug: kore-wireless-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-reports-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-reports-api-openapi.yml
 - filename: kore-wireless-secrets-api-openapi.yml
   format: yaml
   label: KORE Wireless Secrets API
   slug: kore-wireless-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-secrets-api-openapi.yml
 - filename: kore-wireless-session-api-openapi.yml
   format: yaml
   label: KORE Wireless Session API
   slug: kore-wireless-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-session-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-session-api-openapi.yml
 - filename: kore-wireless-sims-resource-api-openapi.yml
   format: yaml
   label: KORE Wireless Sims Resource API
   slug: kore-wireless-sims-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-sims-resource-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-sims-resource-api-openapi.yml
 - filename: kore-wireless-subscription-api-openapi.yml
   format: yaml
   label: KORE Wireless Subscription API
   slug: kore-wireless-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-subscription-api-openapi.yml
 - filename: kore-wireless-supersimv1billingperiod-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Billing Period API
   slug: kore-wireless-supersimv1billingperiod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1billingperiod-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1billingperiod-api-openapi.yml
 - filename: kore-wireless-supersimv1esimprofile-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Esim Profile API
   slug: kore-wireless-supersimv1esimprofile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1esimprofile-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1esimprofile-api-openapi.yml
 - filename: kore-wireless-supersimv1fleet-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Fleet API
   slug: kore-wireless-supersimv1fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1fleet-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1fleet-api-openapi.yml
 - filename: kore-wireless-supersimv1ipcommand-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Ip Command API
   slug: kore-wireless-supersimv1ipcommand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1ipcommand-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1ipcommand-api-openapi.yml
 - filename: kore-wireless-supersimv1network-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Network API
   slug: kore-wireless-supersimv1network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1network-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1network-api-openapi.yml
 - filename: kore-wireless-supersimv1networkaccessprofile-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Network Access Profile API
   slug: kore-wireless-supersimv1networkaccessprofile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1networkaccessprofile-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1networkaccessprofile-api-openapi.yml
 - filename: kore-wireless-supersimv1networkaccessprofilenetwork-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Network Access Profile Network API
   slug: kore-wireless-supersimv1networkaccessprofilenetwork-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1networkaccessprofilenetwork-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1networkaccessprofilenetwork-api-openapi.yml
 - filename: kore-wireless-supersimv1settingsupdate-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Settings Update API
   slug: kore-wireless-supersimv1settingsupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1settingsupdate-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1settingsupdate-api-openapi.yml
 - filename: kore-wireless-supersimv1sim-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Sim API
   slug: kore-wireless-supersimv1sim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1sim-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1sim-api-openapi.yml
 - filename: kore-wireless-supersimv1simipaddress-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Sim Ip Address API
   slug: kore-wireless-supersimv1simipaddress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1simipaddress-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1simipaddress-api-openapi.yml
 - filename: kore-wireless-supersimv1smscommand-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Sms Command API
   slug: kore-wireless-supersimv1smscommand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1smscommand-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1smscommand-api-openapi.yml
 - filename: kore-wireless-supersimv1usagerecord-api-openapi.yml
   format: yaml
   label: KORE Wireless Supersim V1 Usage Record API
   slug: kore-wireless-supersimv1usagerecord-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-supersimv1usagerecord-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-supersimv1usagerecord-api-openapi.yml
 - filename: kore-wireless-testing-api-openapi.yml
   format: yaml
   label: KORE Wireless Testing API
   slug: kore-wireless-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-testing-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-testing-api-openapi.yml
 - filename: kore-wireless-usage-api-openapi.yml
   format: yaml
   label: KORE Wireless Usage API
   slug: kore-wireless-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-usage-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-usage-api-openapi.yml
 - filename: kore-wireless-usagerecords-resource-api-openapi.yml
   format: yaml
   label: KORE Wireless UsageRecords Resource API
   slug: kore-wireless-usagerecords-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/openapi/kore-wireless-usagerecords-resource-api-openapi.yml
+  url: https://artifacts.apis.io/kore-wireless/openapi/kore-wireless-usagerecords-resource-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 71
@@ -328,8 +328,8 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/kore-w
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/Sims\n  method: get\n  operationId: ListSim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Sims/{Sid}\n  method: get\n  operationId: FetchSim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Sims/{Sid}\n  method: post\n  operationId: UpdateSim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/Sims/{SimSid}/IpAddresses\n  method: get\n  operationId: ListSimIpAddress\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/SmsCommands\n  method: post\n  operationId: CreateSmsCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/SmsCommands\n  method: get\n  operationId: ListSmsCommand\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/SmsCommands/{Sid}\n  method: get\n  operationId: FetchSmsCommand\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/UsageRecords\n  method: get\n  operationId: ListUsageRecord\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/auth/token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/auth/token\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/secrets\n  method: post\n  operationId: createSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total)\
-  \ ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/agentic-access/kore-wireless-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/agentic-access/kore-wireless-agentic-access.yml
+  \ ---\n# Full source: https://artifacts.apis.io/kore-wireless/agentic-access/kore-wireless-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/kore-wireless/agentic-access/kore-wireless-agentic-access.yml
 summary_line: 117 operations · 46 acting · 1 human-in-the-loop
 tags:
 - Telecommunications

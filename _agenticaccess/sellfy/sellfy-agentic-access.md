@@ -1,64 +1,53 @@
 ---
-acting_count: 3
+acting_count: 0
 action_class_counts:
-  acting: 3
-  connected: 11
+  connected: 10
 api_specs:
 - filename: sellfy-content-api-openapi.yml
   format: yaml
   label: Sellfy Content API
   slug: sellfy-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-content-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-content-api-openapi.yml
 - filename: sellfy-discovery-api-openapi.yml
   format: yaml
   label: Sellfy Discovery API
   slug: sellfy-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-discovery-api-openapi.yml
 - filename: sellfy-feeds-api-openapi.yml
   format: yaml
   label: Sellfy Feeds API
   slug: sellfy-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-feeds-api-openapi.yml
 - filename: sellfy-licenses-api-openapi.yml
   format: yaml
   label: Sellfy Licenses API
   slug: sellfy-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-licenses-api-openapi.yml
 - filename: sellfy-ping-api-openapi.yml
   format: yaml
   label: Sellfy Ping API
   slug: sellfy-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-ping-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-ping-api-openapi.yml
 consequence_counts:
-  read: 11
-  safety-critical: 1
-  write: 2
+  read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 1
+human_in_the_loop: 0
 kind: agentic-access
 layout: agentic-access
 method: generated
 name: Sellfy Agentic Access
 name_suffix: Agentic Access
-notable_actions:
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /v1/licenses/revoke/
-operation_count: 14
-overview: 'Sellfy exposes 14 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+notable_actions: []
+operation_count: 10
+overview: 'Sellfy exposes 10 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 11 read, 2 write, and 1 safety-critical.
-
-
-  1 operation are classed safety-critical and should require human-in-the-loop approval at runtime.
+  By consequence: 10 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -68,18 +57,15 @@ slug: sellfy-agentic-access
 source_filename: sellfy-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/api-sellfy-openapi.json, openapi/sellfy-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 14\n  by_action_class:\n    connected: 11\n    acting: 3\n  by_consequence:\n    read: 11\n    write: 2\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /ping/\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/licenses/validate/\n  method: get\n  operationId: validate-license\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
-  \ none\n- path: /v1/licenses/activations/\n  method: post\n  operationId: activate-license\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/licenses/activations/{activation_id}/\n  method: delete\n  operationId: deactivate-license\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/licenses/revoke/\n  method: post\n  operationId: revoke-license\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n\
-  \      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /llms.txt\n  method: get\n  operationId: getLlmsTxt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi.json\n  method: get\n  operationId: getOpenApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /index.md\n  method: get\n  operationId: getHomepageMarkdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing.md\n  method: get\n  operationId: getPricingMarkdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /changelog.md\n\
-  \  method: get\n  operationId: getChangelogMarkdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp.md\n  method: get\n  operationId: getMcpMarkdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sitemap.xml\n  method: get\n  operationId: getSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blog/rss.xml\n  method: get\n  operationId: getBlogRss\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /changelog/rss.xml\n  method: get\n  operationId: getChangelogRss\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/agentic-access/sellfy-agentic-access.yml
-summary_line: 14 operations · 3 acting · 1 human-in-the-loop
+source_yaml: "generated: '2026-10-28'\nmethod: generated\nsource: openapi/sellfy-api-openapi.json, openapi/sellfy-website-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llms.txt\n  method: get\n  operationId: getLlmsTxt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi.json\n  method: get\n  operationId: getOpenApi\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /index.md\n  method: get\n  operationId: getHomepageMarkdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing.md\n  method: get\n  operationId: getPricingMarkdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /changelog.md\n  method: get\n  operationId: getChangelogMarkdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp.md\n  method: get\n  operationId: getMcpMarkdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
+  \ none\n- path: /sitemap.xml\n  method: get\n  operationId: getSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blog/rss.xml\n  method: get\n  operationId: getBlogRss\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /changelog/rss.xml\n  method: get\n  operationId: getChangelogRss\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml_url: https://artifacts.apis.io/sellfy/agentic-access/sellfy-agentic-access.yml
+summary_line: 10 operations
 tags:
-- Company
-- e-commerce
-- online-store
-- digital-products
-- creator-tools
-- payments
+- E-Commerce
+- Digital Products
+- Software-as-a-Service
+- Payments
+- Creators
 ---

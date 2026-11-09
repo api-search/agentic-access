@@ -9,91 +9,91 @@ api_specs:
   label: Loopay Affiliate API
   slug: loopay-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-affiliate-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-affiliate-api-openapi.yml
 - filename: loopay-bank-api-openapi.yml
   format: yaml
   label: Loopay Bank API
   slug: loopay-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-bank-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-bank-api-openapi.yml
 - filename: loopay-company-api-openapi.yml
   format: yaml
   label: Loopay Company API
   slug: loopay-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-company-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-company-api-openapi.yml
 - filename: loopay-companyproduct-api-openapi.yml
   format: yaml
   label: Loopay CompanyProduct API
   slug: loopay-companyproduct-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-companyproduct-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-companyproduct-api-openapi.yml
 - filename: loopay-country-api-openapi.yml
   format: yaml
   label: Loopay Country API
   slug: loopay-country-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-country-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-country-api-openapi.yml
 - filename: loopay-currency-api-openapi.yml
   format: yaml
   label: Loopay Currency API
   slug: loopay-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-currency-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-currency-api-openapi.yml
 - filename: loopay-movements-api-openapi.yml
   format: yaml
   label: Loopay Movements API
   slug: loopay-movements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-movements-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-movements-api-openapi.yml
 - filename: loopay-paidmethods-api-openapi.yml
   format: yaml
   label: Loopay PaidMethods API
   slug: loopay-paidmethods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-paidmethods-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-paidmethods-api-openapi.yml
 - filename: loopay-payin-api-openapi.yml
   format: yaml
   label: Loopay PayIn API
   slug: loopay-payin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-payin-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-payin-api-openapi.yml
 - filename: loopay-payout-api-openapi.yml
   format: yaml
   label: Loopay Payout API
   slug: loopay-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-payout-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-payout-api-openapi.yml
 - filename: loopay-physicalpoint-api-openapi.yml
   format: yaml
   label: Loopay PhysicalPoint API
   slug: loopay-physicalpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-physicalpoint-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-physicalpoint-api-openapi.yml
 - filename: loopay-sourcesofpayment-api-openapi.yml
   format: yaml
   label: Loopay SourcesOfPayment API
   slug: loopay-sourcesofpayment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-sourcesofpayment-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-sourcesofpayment-api-openapi.yml
 - filename: loopay-sourcesofpaymentadmin-api-openapi.yml
   format: yaml
   label: Loopay SourcesOfPaymentAdmin API
   slug: loopay-sourcesofpaymentadmin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-sourcesofpaymentadmin-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-sourcesofpaymentadmin-api-openapi.yml
 - filename: loopay-user-api-openapi.yml
   format: yaml
   label: Loopay User API
   slug: loopay-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-user-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-user-api-openapi.yml
 - filename: loopay-document-type-api-openapi.yml
   format: yaml
   label: Loopay Document type API
   slug: loopay-document-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/openapi/loopay-document-type-api-openapi.yml
+  url: https://artifacts.apis.io/loopay/openapi/loopay-document-type-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 22
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/loopay
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /physical-point/{country}\n  method: get\n  operationId: PhysicalPoint.getPhysicalPointsByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /source-of-payment/create\n  method: post\n  operationId: SourcesOfPayment.createSourceOfPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /source-of-payment/create-direct-payment\n  method: post\n  operationId: SourcesOfPayment.createDirectPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /source-of-payment/filtered\n  method: get\n  operationId: SourcesOfPayment.bankBases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /source-of-payment/update\n  method: post\n  operationId: SourcesOfPayment.updateSourceOfPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /source-of-payment/{sourceOfPaymentId}\n  method: get\n  operationId: SourcesOfPayment.sourceOfPaymentDetail\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: User.users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/agentic-access/loopay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loopay/agentic-access/loopay-agentic-access.yml
 summary_line: 31 operations · 9 acting
 tags:
 - Company

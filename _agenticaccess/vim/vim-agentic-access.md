@@ -9,55 +9,55 @@ api_specs:
   label: Vim Access Token Retrieval API
   slug: vim-access-token-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-access-token-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-access-token-retrieval-api-openapi.yml
 - filename: vim-applications-api-openapi.yml
   format: yaml
   label: Vim Applications API
   slug: vim-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-applications-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-applications-api-openapi.yml
 - filename: vim-appointments-api-openapi.yml
   format: yaml
   label: Vim Appointments API
   slug: vim-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-appointments-api-openapi.yml
 - filename: vim-authentication-api-openapi.yml
   format: yaml
   label: Vim Authentication API
   slug: vim-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-authentication-api-openapi.yml
 - filename: vim-chart-retrieval-api-openapi.yml
   format: yaml
   label: Vim Chart Retrieval API
   slug: vim-chart-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-chart-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-chart-retrieval-api-openapi.yml
 - filename: vim-get-patient-care-insights-api-openapi.yml
   format: yaml
   label: Vim Get Patient Care Insights API
   slug: vim-get-patient-care-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-get-patient-care-insights-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-get-patient-care-insights-api-openapi.yml
 - filename: vim-invitations-api-openapi.yml
   format: yaml
   label: Vim Invitations API
   slug: vim-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-invitations-api-openapi.yml
 - filename: vim-patient-care-insights-feedback-api-openapi.yml
   format: yaml
   label: Vim Patient Care Insights Feedback API
   slug: vim-patient-care-insights-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-patient-care-insights-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-patient-care-insights-feedback-api-openapi.yml
 - filename: vim-patient-identification-api-openapi.yml
   format: yaml
   label: Vim Patient Identification API
   slug: vim-patient-identification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-patient-identification-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-patient-identification-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/vim-ac
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/token\n  method: post\n  operationId: postOauthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chart-retrieval/download-url/{requestId}\n  method: get\n  operationId: getChartRetrievalDownloadURL\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/fetch\n  method: post\n  operationId: post-insights-fetch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /invitations\n  method: post\n  operationId: postInvitations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /insights/feedback\n  method: post\n  operationId: post-insights-feedback\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /patient/identify\n  method: post\n  operationId: post-patient-identify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/agentic-access/vim-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vim/agentic-access/vim-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Healthcare
@@ -105,5 +105,6 @@ tags:
 - Interoperability
 - Value-Based Care
 - Care Gaps
+- OAuth
 - Authentication
 ---

@@ -9,25 +9,25 @@ api_specs:
   label: e2open Bookings API
   slug: e2open-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/e2open/openapi/e2open-bookings-api-openapi.yml
 - filename: e2open-schedules-api-openapi.yml
   format: yaml
   label: e2open Schedules API
   slug: e2open-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/e2open/openapi/e2open-schedules-api-openapi.yml
 - filename: e2open-shipping-instructions-api-openapi.yml
   format: yaml
   label: e2open Shipping Instructions API
   slug: e2open-shipping-instructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-shipping-instructions-api-openapi.yml
+  url: https://artifacts.apis.io/e2open/openapi/e2open-shipping-instructions-api-openapi.yml
 - filename: e2open-tracking-api-openapi.yml
   format: yaml
   label: e2open Tracking API
   slug: e2open-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/e2open-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/e2open/openapi/e2open-tracking-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/inttra
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{bookingId}\n  method: get\n  operationId: getBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/{bookingId}\n  method: put\n  operationId: amendBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{bookingId}/cancel\n  method: post\n  operationId: cancelBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /schedules\n  method: get\n  operationId: searchSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/{containerNumber}\n  method: get\n  operationId: trackContainer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/booking/{bookingId}\n  method: get\n  operationId: trackBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipping-instructions\n  method: post\n  operationId: submitShippingInstructions\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/agentic-access/e2open-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/e2open/agentic-access/e2open-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Logistics

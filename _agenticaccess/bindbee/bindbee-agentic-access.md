@@ -9,331 +9,331 @@ api_specs:
   label: Bindbee Candidates API
   slug: bindbee-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-candidates-api-openapi.yml
 - filename: bindbee-departments-api-openapi.yml
   format: yaml
   label: Bindbee Departments API
   slug: bindbee-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-departments-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-departments-api-openapi.yml
 - filename: bindbee-employees-api-openapi.yml
   format: yaml
   label: Bindbee Employees API
   slug: bindbee-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-employees-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-employees-api-openapi.yml
 - filename: bindbee-jobs-api-openapi.yml
   format: yaml
   label: Bindbee Jobs API
   slug: bindbee-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-jobs-api-openapi.yml
 - filename: bindbee-time-off-api-openapi.yml
   format: yaml
   label: Bindbee Time Off API
   slug: bindbee-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-time-off-api-openapi.yml
 - filename: bindbee-activity-api-openapi.yml
   format: yaml
   label: Bindbee Activity API
   slug: bindbee-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-activity-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-activity-api-openapi.yml
 - filename: bindbee-application-api-openapi.yml
   format: yaml
   label: Bindbee Application API
   slug: bindbee-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-application-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-application-api-openapi.yml
 - filename: bindbee-attachment-api-openapi.yml
   format: yaml
   label: Bindbee Attachment API
   slug: bindbee-attachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-attachment-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-attachment-api-openapi.yml
 - filename: bindbee-bank-info-api-openapi.yml
   format: yaml
   label: Bindbee Bank Info API
   slug: bindbee-bank-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-bank-info-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-bank-info-api-openapi.yml
 - filename: bindbee-benefit-coverages-api-openapi.yml
   format: yaml
   label: Bindbee Benefit Coverages API
   slug: bindbee-benefit-coverages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-benefit-coverages-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-benefit-coverages-api-openapi.yml
 - filename: bindbee-benefits-api-openapi.yml
   format: yaml
   label: Bindbee Benefits API
   slug: bindbee-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-benefits-api-openapi.yml
 - filename: bindbee-candidate-api-openapi.yml
   format: yaml
   label: Bindbee Candidate API
   slug: bindbee-candidate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-candidate-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-candidate-api-openapi.yml
 - filename: bindbee-categories-api-openapi.yml
   format: yaml
   label: Bindbee Categories API
   slug: bindbee-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-categories-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-categories-api-openapi.yml
 - filename: bindbee-company-api-openapi.yml
   format: yaml
   label: Bindbee Company API
   slug: bindbee-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-company-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-company-api-openapi.yml
 - filename: bindbee-compensation-api-openapi.yml
   format: yaml
   label: Bindbee Compensation API
   slug: bindbee-compensation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-compensation-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-compensation-api-openapi.yml
 - filename: bindbee-completions-api-openapi.yml
   format: yaml
   label: Bindbee Completions API
   slug: bindbee-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-completions-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-completions-api-openapi.yml
 - filename: bindbee-connector-api-openapi.yml
   format: yaml
   label: Bindbee Connector API
   slug: bindbee-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-connector-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-connector-api-openapi.yml
 - filename: bindbee-contents-api-openapi.yml
   format: yaml
   label: Bindbee Contents API
   slug: bindbee-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-contents-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-contents-api-openapi.yml
 - filename: bindbee-courses-api-openapi.yml
   format: yaml
   label: Bindbee Courses API
   slug: bindbee-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-courses-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-courses-api-openapi.yml
 - filename: bindbee-custom-fields-api-openapi.yml
   format: yaml
   label: Bindbee Custom Fields API
   slug: bindbee-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-custom-fields-api-openapi.yml
 - filename: bindbee-department-api-openapi.yml
   format: yaml
   label: Bindbee Department API
   slug: bindbee-department-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-department-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-department-api-openapi.yml
 - filename: bindbee-dependent-benefits-api-openapi.yml
   format: yaml
   label: Bindbee Dependent Benefits API
   slug: bindbee-dependent-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-dependent-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-dependent-benefits-api-openapi.yml
 - filename: bindbee-dependents-api-openapi.yml
   format: yaml
   label: Bindbee Dependents API
   slug: bindbee-dependents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-dependents-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-dependents-api-openapi.yml
 - filename: bindbee-eeoc-api-openapi.yml
   format: yaml
   label: Bindbee EEOC API
   slug: bindbee-eeoc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-eeoc-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-eeoc-api-openapi.yml
 - filename: bindbee-employee-api-openapi.yml
   format: yaml
   label: Bindbee Employee API
   slug: bindbee-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-employee-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-employee-api-openapi.yml
 - filename: bindbee-employee-payroll-runs-api-openapi.yml
   format: yaml
   label: Bindbee Employee Payroll Runs API
   slug: bindbee-employee-payroll-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-employee-payroll-runs-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-employee-payroll-runs-api-openapi.yml
 - filename: bindbee-employer-benefits-api-openapi.yml
   format: yaml
   label: Bindbee Employer Benefits API
   slug: bindbee-employer-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-employer-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-employer-benefits-api-openapi.yml
 - filename: bindbee-employments-api-openapi.yml
   format: yaml
   label: Bindbee Employments API
   slug: bindbee-employments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-employments-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-employments-api-openapi.yml
 - filename: bindbee-enrollments-api-openapi.yml
   format: yaml
   label: Bindbee Enrollments API
   slug: bindbee-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-enrollments-api-openapi.yml
 - filename: bindbee-group-api-openapi.yml
   format: yaml
   label: Bindbee Group API
   slug: bindbee-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-group-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-group-api-openapi.yml
 - filename: bindbee-health-check-api-openapi.yml
   format: yaml
   label: Bindbee Health Check API
   slug: bindbee-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-health-check-api-openapi.yml
 - filename: bindbee-integration-api-openapi.yml
   format: yaml
   label: Bindbee Integration API
   slug: bindbee-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-integration-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-integration-api-openapi.yml
 - filename: bindbee-job-api-openapi.yml
   format: yaml
   label: Bindbee Job API
   slug: bindbee-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-job-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-job-api-openapi.yml
 - filename: bindbee-job-interview-stage-api-openapi.yml
   format: yaml
   label: Bindbee Job Interview Stage API
   slug: bindbee-job-interview-stage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-job-interview-stage-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-job-interview-stage-api-openapi.yml
 - filename: bindbee-link-api-openapi.yml
   format: yaml
   label: Bindbee Link API
   slug: bindbee-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-link-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-link-api-openapi.yml
 - filename: bindbee-location-api-openapi.yml
   format: yaml
   label: Bindbee Location API
   slug: bindbee-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-location-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-location-api-openapi.yml
 - filename: bindbee-lookup-api-openapi.yml
   format: yaml
   label: Bindbee Lookup API
   slug: bindbee-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-lookup-api-openapi.yml
 - filename: bindbee-offer-api-openapi.yml
   format: yaml
   label: Bindbee Offer API
   slug: bindbee-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-offer-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-offer-api-openapi.yml
 - filename: bindbee-office-api-openapi.yml
   format: yaml
   label: Bindbee Office API
   slug: bindbee-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-office-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-office-api-openapi.yml
 - filename: bindbee-passthrough-api-openapi.yml
   format: yaml
   label: Bindbee Passthrough API
   slug: bindbee-passthrough-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-passthrough-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-passthrough-api-openapi.yml
 - filename: bindbee-pay-groups-api-openapi.yml
   format: yaml
   label: Bindbee Pay Groups API
   slug: bindbee-pay-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-pay-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-pay-groups-api-openapi.yml
 - filename: bindbee-payroll-codes-api-openapi.yml
   format: yaml
   label: Bindbee Payroll Codes API
   slug: bindbee-payroll-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-payroll-codes-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-payroll-codes-api-openapi.yml
 - filename: bindbee-payroll-run-calendars-api-openapi.yml
   format: yaml
   label: Bindbee Payroll Run Calendars API
   slug: bindbee-payroll-run-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-payroll-run-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-payroll-run-calendars-api-openapi.yml
 - filename: bindbee-payroll-runs-api-openapi.yml
   format: yaml
   label: Bindbee Payroll Runs API
   slug: bindbee-payroll-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-payroll-runs-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-payroll-runs-api-openapi.yml
 - filename: bindbee-reject-reason-api-openapi.yml
   format: yaml
   label: Bindbee Reject Reason API
   slug: bindbee-reject-reason-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-reject-reason-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-reject-reason-api-openapi.yml
 - filename: bindbee-remote-user-api-openapi.yml
   format: yaml
   label: Bindbee Remote User API
   slug: bindbee-remote-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-remote-user-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-remote-user-api-openapi.yml
 - filename: bindbee-scheduled-interview-api-openapi.yml
   format: yaml
   label: Bindbee Scheduled Interview API
   slug: bindbee-scheduled-interview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-scheduled-interview-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-scheduled-interview-api-openapi.yml
 - filename: bindbee-scorecard-api-openapi.yml
   format: yaml
   label: Bindbee Scorecard API
   slug: bindbee-scorecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-scorecard-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-scorecard-api-openapi.yml
 - filename: bindbee-screening-question-api-openapi.yml
   format: yaml
   label: Bindbee Screening Question API
   slug: bindbee-screening-question-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-screening-question-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-screening-question-api-openapi.yml
 - filename: bindbee-skills-api-openapi.yml
   format: yaml
   label: Bindbee Skills API
   slug: bindbee-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-skills-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-skills-api-openapi.yml
 - filename: bindbee-tag-api-openapi.yml
   format: yaml
   label: Bindbee Tag API
   slug: bindbee-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-tag-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-tag-api-openapi.yml
 - filename: bindbee-time-off-balance-api-openapi.yml
   format: yaml
   label: Bindbee Time Off Balance API
   slug: bindbee-time-off-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-time-off-balance-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-time-off-balance-api-openapi.yml
 - filename: bindbee-timesheet-entry-api-openapi.yml
   format: yaml
   label: Bindbee Timesheet Entry API
   slug: bindbee-timesheet-entry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-timesheet-entry-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-timesheet-entry-api-openapi.yml
 - filename: bindbee-users-api-openapi.yml
   format: yaml
   label: Bindbee Users API
   slug: bindbee-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-users-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-users-api-openapi.yml
 - filename: bindbee-webhooks-api-openapi.yml
   format: yaml
   label: Bindbee Webhooks API
   slug: bindbee-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bindbee/openapi/bindbee-webhooks-api-openapi.yml
 consequence_counts:
   read: 116
   write: 35
@@ -392,8 +392,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/bindbe
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ats/v1/job-interview-stages\n  method: post\n  operationId: create_job_interview_stage_api_ats_v1_job_interview_stages_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/ats/v1/job-interview-stages/{id}\n  method: get\n  operationId: get_job_interview_stage_by_id_api_ats_v1_job_interview_stages__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/embedded/v1/link/create-link-token\n  method: post\n  operationId: create_link_token_api_embedded_v1_link_create_link_token_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/hris/v1/locations\n  method: get\n  operationId: get_locations_api_hris_v1_locations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/hris/v1/locations/{id}\n  method: get\n  operationId: get_location_by_id_api_hris_v1_locations__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/lookup/integrations\n  method: get\n  operationId: list_integrations_api_v1_lookup_integrations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/lookup/models\n  method: get\n  operationId: list_models_api_v1_lookup_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ats/v1/offers\n  method: get\n  operationId: get_offers_api_ats_v1_offers_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ats/v1/offers\n  method: post\n  operationId: create_offer_api_ats_v1_offers_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/ats/v1/offers/{id}\n  method: get\n  operationId: get_offer_by_id_api_ats_v1_offers__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ats/v1/offices\n  method: get\n  operationId: get_offices_api_ats_v1_offices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/agentic-access/bindbee-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/agentic-access/bindbee-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/ats/v1/offers/{id}\n  method: get\n  operationId: get_offer_by_id_api_ats_v1_offers__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ats/v1/offices\n  method: get\n  operationId: get_offices_api_ats_v1_offices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/bindbee/agentic-access/bindbee-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bindbee/agentic-access/bindbee-agentic-access.yml
 summary_line: 151 operations · 35 acting
 tags:
 - Applicant Tracking

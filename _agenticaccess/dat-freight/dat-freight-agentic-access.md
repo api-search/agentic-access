@@ -9,37 +9,37 @@ api_specs:
   label: DAT Freight & Analytics BookNow API
   slug: dat-freight-booknow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-booknow-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-booknow-api-openapi.yml
 - filename: dat-freight-freight-posting-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics Freight Posting API
   slug: dat-freight-freight-posting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-freight-posting-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-freight-posting-api-openapi.yml
 - filename: dat-freight-identity-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics Identity API
   slug: dat-freight-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-identity-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-identity-api-openapi.yml
 - filename: dat-freight-load-board-search-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics Load Board Search API
   slug: dat-freight-load-board-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-load-board-search-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-load-board-search-api-openapi.yml
 - filename: dat-freight-rateview-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics RateView API
   slug: dat-freight-rateview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-rateview-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-rateview-api-openapi.yml
 - filename: dat-freight-tracking-api-openapi.yml
   format: yaml
   label: DAT Freight & Analytics Tracking API
   slug: dat-freight-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/openapi/dat-freight-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/dat-freight/openapi/dat-freight-tracking-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 3
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dat-fr
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access/v1/token/organization\n  method: post\n  operationId: createOrganizationToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access/v1/token/user\n  method: post\n  operationId: createUserToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loadboard/v3/searches\n  method: post\n  operationId: createLoadSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /linehaulrates/v1/lookups\n  method: post\n  operationId: lookupRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/v1/shipments\n  method: post\n  operationId: registerShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tracking/v1/shipments/{shipmentId}\n  method: get\n  operationId: getShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/agentic-access/dat-freight-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dat-freight/agentic-access/dat-freight-agentic-access.yml
 summary_line: 10 operations · 7 acting
 tags:
 - Freight

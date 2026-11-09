@@ -9,31 +9,31 @@ api_specs:
   label: Self.ID Commits API
   slug: self-id-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-commits-api-openapi.yml
+  url: https://artifacts.apis.io/self-id/openapi/self-id-commits-api-openapi.yml
 - filename: self-id-multiqueries-api-openapi.yml
   format: yaml
   label: Self.ID Multiqueries API
   slug: self-id-multiqueries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-multiqueries-api-openapi.yml
+  url: https://artifacts.apis.io/self-id/openapi/self-id-multiqueries-api-openapi.yml
 - filename: self-id-node-api-openapi.yml
   format: yaml
   label: Self.ID Node API
   slug: self-id-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-node-api-openapi.yml
+  url: https://artifacts.apis.io/self-id/openapi/self-id-node-api-openapi.yml
 - filename: self-id-pins-api-openapi.yml
   format: yaml
   label: Self.ID Pins API
   slug: self-id-pins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-pins-api-openapi.yml
+  url: https://artifacts.apis.io/self-id/openapi/self-id-pins-api-openapi.yml
 - filename: self-id-streams-api-openapi.yml
   format: yaml
   label: Self.ID Streams API
   slug: self-id-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/openapi/self-id-streams-api-openapi.yml
+  url: https://artifacts.apis.io/self-id/openapi/self-id-streams-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cerami
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/commits\n  method: post\n  operationId: applyCommit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/commits/{streamId}\n  method: get\n  operationId: listStreamCommits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/multiqueries\n  method: post\n  operationId: multiQueryStreams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v0/pins/{streamId}\n  method: get\n  operationId: getPinStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/pins/{streamId}\n  method: post\n  operationId: pinStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/pins/{streamId}\n  method: delete\n  operationId: unpinStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/node/healthcheck\n  method: get\n\
   \  operationId: nodeHealthcheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/node/chains\n  method: get\n  operationId: getSupportedChains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/agentic-access/self-id-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/self-id/agentic-access/self-id-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Decentralized Identity

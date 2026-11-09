@@ -9,31 +9,31 @@ api_specs:
   label: Royal Mail Labels API
   slug: royal-mail-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-labels-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-labels-api-openapi.yml
 - filename: royal-mail-manifests-api-openapi.yml
   format: yaml
   label: Royal Mail Manifests API
   slug: royal-mail-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-manifests-api-openapi.yml
 - filename: royal-mail-orders-api-openapi.yml
   format: yaml
   label: Royal Mail Orders API
   slug: royal-mail-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-orders-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-orders-api-openapi.yml
 - filename: royal-mail-returns-api-openapi.yml
   format: yaml
   label: Royal Mail Returns API
   slug: royal-mail-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-returns-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-returns-api-openapi.yml
 - filename: royal-mail-version-api-openapi.yml
   format: yaml
   label: Royal Mail Version API
   slug: royal-mail-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/openapi/royal-mail-version-api-openapi.yml
+  url: https://artifacts.apis.io/royal-mail/openapi/royal-mail-version-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 8
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/click-
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: GetOrdersAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: CreateOrdersAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/full\n  method: get\n  operationId: GetOrdersWithDetailsAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderIdentifiers}/label\n  method: get\n  operationId: GetOrdersLabelAsync\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manifests\n  method: post\n  operationId: ManifestEligibleAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /manifests/retry/{manifestIdentifier}\n  method: post\n  operationId: RetryManifestAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /manifests/{manifestIdentifier}\n  method: get\n  operationId: GetManifestAsync\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /returns/services\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /returns\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/agentic-access/royal-mail-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/royal-mail/agentic-access/royal-mail-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Shipping

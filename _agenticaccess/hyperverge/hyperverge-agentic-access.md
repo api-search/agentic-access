@@ -9,31 +9,31 @@ api_specs:
   label: HyperVerge Database Verification API
   slug: hyperverge-database-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-database-verification-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-database-verification-api-openapi.yml
 - filename: hyperverge-face-match-api-openapi.yml
   format: yaml
   label: HyperVerge Face Match API
   slug: hyperverge-face-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-face-match-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-face-match-api-openapi.yml
 - filename: hyperverge-input-validation-api-openapi.yml
   format: yaml
   label: HyperVerge Input Validation API
   slug: hyperverge-input-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-input-validation-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-input-validation-api-openapi.yml
 - filename: hyperverge-kyc-ocr-api-openapi.yml
   format: yaml
   label: HyperVerge KYC OCR API
   slug: hyperverge-kyc-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-kyc-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-kyc-ocr-api-openapi.yml
 - filename: hyperverge-matching-api-openapi.yml
   format: yaml
   label: HyperVerge Matching API
   slug: hyperverge-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/openapi/hyperverge-matching-api-openapi.yml
+  url: https://artifacts.apis.io/hyperverge/openapi/hyperverge-matching-api-openapi.yml
 consequence_counts:
   read: 3
   write: 15
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hyperv
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/validateVoterIdInput\n  method: post\n  operationId: validateVoterIdInput\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /readKYC\n  method: post\n  operationId: readKYC\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /readPAN\n  method: post\n  operationId: readPAN\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /readAadhaar\n  method: post\n  operationId: readAadhaar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /readPassport\n  method: post\n  operationId: readPassport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /readVoterID\n  method: post\n\
   \  operationId: readVoterID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/matchFields\n  method: post\n  operationId: matchFields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/agentic-access/hyperverge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hyperverge/agentic-access/hyperverge-agentic-access.yml
 summary_line: 18 operations · 15 acting
 tags:
 - Identity Verification

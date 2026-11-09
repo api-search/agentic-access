@@ -9,61 +9,61 @@ api_specs:
   label: CarsXE Specifications API
   slug: carsxe-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-specifications-api-openapi.yml
 - filename: carsxe-market-value-api-openapi.yml
   format: yaml
   label: CarsXE Market Value API
   slug: carsxe-market-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-market-value-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-market-value-api-openapi.yml
 - filename: carsxe-recalls-api-openapi.yml
   format: yaml
   label: CarsXE Recalls API
   slug: carsxe-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-recalls-api-openapi.yml
 - filename: carsxe-history-api-openapi.yml
   format: yaml
   label: CarsXE History API
   slug: carsxe-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-history-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-history-api-openapi.yml
 - filename: carsxe-images-api-openapi.yml
   format: yaml
   label: CarsXE Images API
   slug: carsxe-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-images-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-images-api-openapi.yml
 - filename: carsxe-recognition-api-openapi.yml
   format: yaml
   label: CarsXE Recognition API
   slug: carsxe-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-recognition-api-openapi.yml
 - filename: carsxe-year-make-model-api-openapi.yml
   format: yaml
   label: CarsXE Year Make Model API
   slug: carsxe-year-make-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-year-make-model-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-year-make-model-api-openapi.yml
 - filename: carsxe-lien-theft-api-openapi.yml
   format: yaml
   label: CarsXE Lien & Theft API
   slug: carsxe-lien-theft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-lien-theft-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-lien-theft-api-openapi.yml
 - filename: carsxe-auth-api-openapi.yml
   format: yaml
   label: CarsXE Auth API
   slug: carsxe-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-auth-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-auth-api-openapi.yml
 - filename: carsxe-plate-decoder-api-openapi.yml
   format: yaml
   label: CarsXE Plate Decoder API
   slug: carsxe-plate-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/openapi/carsxe-plate-decoder-api-openapi.yml
+  url: https://artifacts.apis.io/carsxe/openapi/carsxe-plate-decoder-api-openapi.yml
 consequence_counts:
   read: 18
   write: 4
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: generated\nsource: openapi/carsxe
   \ 3600\n    audit: none\n- path: /v1/recalls-batch/results\n  method: get\n  operationId: getRecallsBatchResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/recalls-batch/download\n  method: get\n  operationId: downloadRecallsBatchResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platerecognition\n  method: post\n  operationId: recognizePlate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vinocr\n  method: post\n  operationId: vinOcr\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /specs\n  method: get\n  operationId: getVehicleSpecs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/international-vin-decoder\n  method: get\n  operationId: getInternationalVinDecoder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ymm\n  method: get\n  operationId: getYearMakeModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ymm-options\n  method: get\n  operationId: getYearMakeModelOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /obdcodesdecoder\n  method: get\n  operationId: decodeObdCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/agentic-access/carsxe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/carsxe/agentic-access/carsxe-agentic-access.yml
 summary_line: 22 operations · 4 acting
 tags:
 - Automotive

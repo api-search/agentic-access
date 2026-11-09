@@ -9,79 +9,79 @@ api_specs:
   label: Lunary Analytics API
   slug: lunary-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-analytics-api-openapi.yml
 - filename: lunary-checklists-api-openapi.yml
   format: yaml
   label: Lunary Checklists API
   slug: lunary-checklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-checklists-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-checklists-api-openapi.yml
 - filename: lunary-datasets-api-openapi.yml
   format: yaml
   label: Lunary Datasets API
   slug: lunary-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-datasets-api-openapi.yml
 - filename: lunary-evals-api-openapi.yml
   format: yaml
   label: Lunary Evals API
   slug: lunary-evals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-evals-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-evals-api-openapi.yml
 - filename: lunary-models-api-openapi.yml
   format: yaml
   label: Lunary Models API
   slug: lunary-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-models-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-models-api-openapi.yml
 - filename: lunary-playground-api-openapi.yml
   format: yaml
   label: Lunary Playground API
   slug: lunary-playground-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-playground-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-playground-api-openapi.yml
 - filename: lunary-runs-api-openapi.yml
   format: yaml
   label: Lunary Runs API
   slug: lunary-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-runs-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-runs-api-openapi.yml
 - filename: lunary-templates-api-openapi.yml
   format: yaml
   label: Lunary Templates API
   slug: lunary-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-templates-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-templates-api-openapi.yml
 - filename: lunary-testendpoint-api-openapi.yml
   format: yaml
   label: Lunary TestEndpoint API
   slug: lunary-testendpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-testendpoint-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-testendpoint-api-openapi.yml
 - filename: lunary-views-api-openapi.yml
   format: yaml
   label: Lunary Views API
   slug: lunary-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-views-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-views-api-openapi.yml
 - filename: lunary-audit-logs-api-openapi.yml
   format: yaml
   label: Lunary Audit Logs API
   slug: lunary-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-audit-logs-api-openapi.yml
 - filename: lunary-datasets-v2-api-openapi.yml
   format: yaml
   label: Lunary Datasets V2 API
   slug: lunary-datasets-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-datasets-v2-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-datasets-v2-api-openapi.yml
 - filename: lunary-external-users-api-openapi.yml
   format: yaml
   label: Lunary External Users API
   slug: lunary-external-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/openapi/lunary-external-users-api-openapi.yml
+  url: https://artifacts.apis.io/lunary/openapi/lunary-external-users-api-openapi.yml
 consequence_counts:
   read: 32
   write: 50
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lunary
   \    - abnormal\n      - high-value\n    audit: required\n- path: /v1/templates/{id}/versions\n  method: post\n  operationId: createTemplateVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/test-endpoint\n  method: post\n  operationId: testEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/test-endpoint/auth\n  method: post\n  operationId: testEndpointAuth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/views\n  method: get\n  operationId: listViews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/views\n  method: post\n  operationId: createView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/views/{id}\n  method: get\n  operationId: getView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/views/{id}\n  method: patch\n  operationId: updateView\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/views/{id}\n  method: delete\n  operationId: deleteView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/agentic-access/lunary-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lunary/agentic-access/lunary-agentic-access.yml
 summary_line: 82 operations · 50 acting
 tags:
 - AI Evaluation

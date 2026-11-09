@@ -8,31 +8,31 @@ api_specs:
   label: Gitcoin Bounties API
   slug: gitcoin-bounties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-bounties-api-openapi.yml
+  url: https://artifacts.apis.io/gitcoin/openapi/gitcoin-bounties-api-openapi.yml
 - filename: gitcoin-contributors-api-openapi.yml
   format: yaml
   label: Gitcoin Contributors API
   slug: gitcoin-contributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-contributors-api-openapi.yml
+  url: https://artifacts.apis.io/gitcoin/openapi/gitcoin-contributors-api-openapi.yml
 - filename: gitcoin-grants-api-openapi.yml
   format: yaml
   label: Gitcoin Grants API
   slug: gitcoin-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-grants-api-openapi.yml
+  url: https://artifacts.apis.io/gitcoin/openapi/gitcoin-grants-api-openapi.yml
 - filename: gitcoin-model-analysis-api-openapi.yml
   format: yaml
   label: Gitcoin Model Analysis API
   slug: gitcoin-model-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-model-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/gitcoin/openapi/gitcoin-model-analysis-api-openapi.yml
 - filename: gitcoin-stamp-api-api-openapi.yml
   format: yaml
   label: Gitcoin Stamp API
   slug: gitcoin-stamp-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/openapi/gitcoin-stamp-api-api-openapi.yml
+  url: https://artifacts.apis.io/gitcoin/openapi/gitcoin-stamp-api-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gitcoi
   \    audit: none\n- path: /grants/grants.json\n  method: get\n  operationId: getAllGrants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grants/v1/api/export_addresses/all.json\n  method: get\n  operationId: getAllContributorAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grants/v1/api/export_addresses/{roundId}.json\n  method: get\n  operationId: getContributorsByRound\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grants/v1/api/export_addresses/{grantId}.json\n  method: get\n  operationId: getContributorsByGrant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /grants/v1/api/export_addresses/{grantRoundId}.json\n  method: get\n  operationId: getContributorsByGrantAndRound\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grants/v1/api/export_info/{grantRoundId}.json\n  method: get\n  operationId: getContributorInfoByGrantAndRound\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/score/{address}\n  method: get\n  operationId: v2_api_api_models_get_analysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stamps/{scorer_id}/score/{address}\n  method: get\n  operationId: v2_api_api_stamps_a_submit_passport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v2/stamps/{scorer_id}/score/{address}/history\n  method: get\n  operationId: v2_api_api_stamps_get_score_history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stamps/metadata\n  method: get\n  operationId: v2_api_api_stamps_stamp_display\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stamps/{address}\n  method: get\n  operationId: v2_api_api_stamps_get_passport_stamps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/agentic-access/gitcoin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gitcoin/agentic-access/gitcoin-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Public Goods

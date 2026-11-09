@@ -9,205 +9,205 @@ api_specs:
   label: clickup Authorization API
   slug: clickup-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-authorization-api-openapi.yml
 - filename: clickup-comments-api-openapi.yml
   format: yaml
   label: clickup Comments API
   slug: clickup-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-comments-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-comments-api-openapi.yml
 - filename: clickup-custom-fields-api-openapi.yml
   format: yaml
   label: clickup Custom Fields API
   slug: clickup-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-custom-fields-api-openapi.yml
 - filename: clickup-folders-api-openapi.yml
   format: yaml
   label: clickup Folders API
   slug: clickup-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-folders-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-folders-api-openapi.yml
 - filename: clickup-goals-api-openapi.yml
   format: yaml
   label: clickup Goals API
   slug: clickup-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-goals-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-goals-api-openapi.yml
 - filename: clickup-lists-api-openapi.yml
   format: yaml
   label: clickup Lists API
   slug: clickup-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-lists-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-lists-api-openapi.yml
 - filename: clickup-spaces-api-openapi.yml
   format: yaml
   label: clickup Spaces API
   slug: clickup-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-spaces-api-openapi.yml
 - filename: clickup-tasks-api-openapi.yml
   format: yaml
   label: clickup Tasks API
   slug: clickup-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-tasks-api-openapi.yml
 - filename: clickup-teams-api-openapi.yml
   format: yaml
   label: clickup Teams API
   slug: clickup-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-teams-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-teams-api-openapi.yml
 - filename: clickup-time-tracking-api-openapi.yml
   format: yaml
   label: clickup Time Tracking API
   slug: clickup-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-time-tracking-api-openapi.yml
 - filename: clickup-views-api-openapi.yml
   format: yaml
   label: clickup Views API
   slug: clickup-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-views-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-views-api-openapi.yml
 - filename: clickup-webhooks-api-openapi.yml
   format: yaml
   label: clickup Webhooks API
   slug: clickup-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-webhooks-api-openapi.yml
 - filename: clickup-oauth-api-openapi.yml
   format: yaml
   label: Clickup O Auth API
   slug: clickup-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-oauth-api-openapi.yml
 - filename: clickup-acls-api-openapi.yml
   format: yaml
   label: Clickup Acls API
   slug: clickup-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-acls-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-acls-api-openapi.yml
 - filename: clickup-attachments-api-openapi.yml
   format: yaml
   label: Clickup Attachments API
   slug: clickup-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-attachments-api-openapi.yml
 - filename: clickup-audit-logs-api-openapi.yml
   format: yaml
   label: Clickup Audit Logs API
   slug: clickup-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-audit-logs-api-openapi.yml
 - filename: clickup-auditlogs-api-openapi.yml
   format: yaml
   label: Clickup Auditlogs API
   slug: clickup-auditlogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-auditlogs-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-auditlogs-api-openapi.yml
 - filename: clickup-chat-api-openapi.yml
   format: yaml
   label: Clickup Chat API
   slug: clickup-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-chat-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-chat-api-openapi.yml
 - filename: clickup-chat-experimental-api-openapi.yml
   format: yaml
   label: Clickup Chat (Experimental) API
   slug: clickup-chat-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-chat-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-chat-experimental-api-openapi.yml
 - filename: clickup-custom-task-types-api-openapi.yml
   format: yaml
   label: Clickup Custom Task Types API
   slug: clickup-custom-task-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-custom-task-types-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-custom-task-types-api-openapi.yml
 - filename: clickup-docs-api-openapi.yml
   format: yaml
   label: Clickup Docs API
   slug: clickup-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-docs-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-docs-api-openapi.yml
 - filename: clickup-guests-api-openapi.yml
   format: yaml
   label: Clickup Guests API
   slug: clickup-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-guests-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-guests-api-openapi.yml
 - filename: clickup-members-api-openapi.yml
   format: yaml
   label: Clickup Members API
   slug: clickup-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-members-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-members-api-openapi.yml
 - filename: clickup-privacy-and-access-api-openapi.yml
   format: yaml
   label: Clickup Privacy and access API
   slug: clickup-privacy-and-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-privacy-and-access-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-privacy-and-access-api-openapi.yml
 - filename: clickup-roles-api-openapi.yml
   format: yaml
   label: Clickup Roles API
   slug: clickup-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-roles-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-roles-api-openapi.yml
 - filename: clickup-shared-hierarchy-api-openapi.yml
   format: yaml
   label: Clickup Shared Hierarchy API
   slug: clickup-shared-hierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-shared-hierarchy-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-shared-hierarchy-api-openapi.yml
 - filename: clickup-tags-api-openapi.yml
   format: yaml
   label: Clickup Tags API
   slug: clickup-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-tags-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-tags-api-openapi.yml
 - filename: clickup-task-checklists-api-openapi.yml
   format: yaml
   label: Clickup Task Checklists API
   slug: clickup-task-checklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-task-checklists-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-task-checklists-api-openapi.yml
 - filename: clickup-task-relationships-api-openapi.yml
   format: yaml
   label: Clickup Task Relationships API
   slug: clickup-task-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-task-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-task-relationships-api-openapi.yml
 - filename: clickup-templates-api-openapi.yml
   format: yaml
   label: Clickup Templates API
   slug: clickup-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-templates-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-templates-api-openapi.yml
 - filename: clickup-time-tracking-legacy-api-openapi.yml
   format: yaml
   label: Clickup Time Tracking (Legacy) API
   slug: clickup-time-tracking-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-time-tracking-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-time-tracking-legacy-api-openapi.yml
 - filename: clickup-user-groups-api-openapi.yml
   format: yaml
   label: Clickup User Groups API
   slug: clickup-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-user-groups-api-openapi.yml
 - filename: clickup-users-api-openapi.yml
   format: yaml
   label: Clickup Users API
   slug: clickup-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-users-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-users-api-openapi.yml
 - filename: clickup-workspaces-api-openapi.yml
   format: yaml
   label: Clickup Workspaces API
   slug: clickup-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/clickup/openapi/clickup-workspaces-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 102
@@ -307,8 +307,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/clicku
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/team/{team_id}/seats\n  method: get\n  operationId: GetWorkspaceseats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/team/{team_id}/plan\n  method: get\n  operationId: GetWorkspaceplan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/team/{team_id}/group\n  method: post\n  operationId: CreateUserGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v2/team/{team_id}/custom_item\n  method: get\n  operationId: GetCustomItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/group/{group_id}\n  method: put\n  operationId: UpdateTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/group/{group_id}\n  method: delete\n  operationId: DeleteTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/group\n  method: get\n  operationId: GetTeams1\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/task/{task_id}/time\n  method: get\n  operationId: Gettrackedtime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/task/{task_id}/time\n  method: post\n  operationId: Tracktime\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/task/{task_id}/time/{interval_id}\n  method: put\n  operationId: Edittimetracked\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
-  \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (73 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/agentic-access/clickup-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/agentic-access/clickup-agentic-access.yml
+  \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (73 KB total) ---\n# Full source: https://artifacts.apis.io/clickup/agentic-access/clickup-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/clickup/agentic-access/clickup-agentic-access.yml
 summary_line: 248 operations · 146 acting · 2 human-in-the-loop
 tags:
 - Project Management

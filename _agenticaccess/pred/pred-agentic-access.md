@@ -9,43 +9,43 @@ api_specs:
   label: Pred Authentication API
   slug: pred-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-authentication-api-openapi.yml
 - filename: pred-market-discovery-api-openapi.yml
   format: yaml
   label: Pred Market Discovery API
   slug: pred-market-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-market-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-market-discovery-api-openapi.yml
 - filename: pred-orders-api-openapi.yml
   format: yaml
   label: Pred Orders API
   slug: pred-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-orders-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-orders-api-openapi.yml
 - filename: pred-overview-api-openapi.yml
   format: yaml
   label: Pred Overview API
   slug: pred-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-overview-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-overview-api-openapi.yml
 - filename: pred-portfolio-api-openapi.yml
   format: yaml
   label: Pred Portfolio API
   slug: pred-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-portfolio-api-openapi.yml
 - filename: pred-user-api-openapi.yml
   format: yaml
   label: Pred User API
   slug: pred-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-user-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-user-api-openapi.yml
 - filename: pred-websocket-api-openapi.yml
   format: yaml
   label: Pred WebSocket API
   slug: pred-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/pred/openapi/pred-websocket-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 9
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/pred-o
   \ get\n  operationId: overview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/portfolio/balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/portfolio/positions\n  method: get\n  operationId: getPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/portfolio/earnings\n  method: get\n  operationId: getEarnings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/portfolio/open-orders\n  method: get\n  operationId: getOpenOrders\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/safe-approval/prepare\n  method: post\n  operationId: prepareSafeApproval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/user/safe-approval/execute\n  method: post\n  operationId: executeSafeApproval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/auth/ably\n  method: post\n  operationId: getAblyToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/agentic-access/pred-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pred/agentic-access/pred-agentic-access.yml
 summary_line: 18 operations · 9 acting
 tags:
 - Company

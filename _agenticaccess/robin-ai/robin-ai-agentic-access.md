@@ -9,31 +9,31 @@ api_specs:
   label: Robin AI Documents API
   slug: robin-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-documents-api-openapi.yml
 - filename: robin-ai-groups-api-openapi.yml
   format: yaml
   label: Robin AI Groups API
   slug: robin-ai-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-groups-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-groups-api-openapi.yml
 - filename: robin-ai-properties-api-openapi.yml
   format: yaml
   label: Robin AI Properties API
   slug: robin-ai-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-properties-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-properties-api-openapi.yml
 - filename: robin-ai-tables-api-openapi.yml
   format: yaml
   label: Robin AI Tables API
   slug: robin-ai-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-tables-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-tables-api-openapi.yml
 - filename: robin-ai-templates-api-openapi.yml
   format: yaml
   label: Robin AI Templates API
   slug: robin-ai-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/openapi/robin-ai-templates-api-openapi.yml
+  url: https://artifacts.apis.io/robin-ai/openapi/robin-ai-templates-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/robin-
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tables/{table_id}/cancel\n  method: put\n  operationId: cancelTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/documents\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/documents\n  method: post\n  operationId: createDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/documents/{document_id}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/documents/{document_id}/properties\n  method: post\n  operationId: addDocumentProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/properties\n\
   \  method: get\n  operationId: listProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/agentic-access/robin-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/robin-ai/agentic-access/robin-ai-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Legal

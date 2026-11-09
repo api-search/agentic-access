@@ -9,31 +9,31 @@ api_specs:
   label: Toys R Us Acknowledgements API
   slug: toys-r-us-acknowledgements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-acknowledgements-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-acknowledgements-api-openapi.yml
 - filename: toys-r-us-invoices-api-openapi.yml
   format: yaml
   label: Toys R Us Invoices API
   slug: toys-r-us-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-invoices-api-openapi.yml
 - filename: toys-r-us-orders-api-openapi.yml
   format: yaml
   label: Toys R Us Orders API
   slug: toys-r-us-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-orders-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-orders-api-openapi.yml
 - filename: toys-r-us-products-api-openapi.yml
   format: yaml
   label: Toys R Us Products API
   slug: toys-r-us-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-products-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-products-api-openapi.yml
 - filename: toys-r-us-shipments-api-openapi.yml
   format: yaml
   label: Toys R Us Shipments API
   slug: toys-r-us-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/openapi/toys-r-us-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/toys-r-us/openapi/toys-r-us-shipments-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toys-r
   \  method: get\n  operationId: getAcknowledgements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/acknowledgements/import\n  method: post\n  operationId: createAcknowledgement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/shipments\n  method: get\n  operationId: getShipments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/shipments/import\n  method: post\n  operationId: createShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/invoices\n  method: get\n  operationId: getInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/invoices/import\n  method: post\n  operationId: createInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/products\n  method: get\n  operationId: getProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v2/products/import\n  method: post\n  operationId: createProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/agentic-access/toys-r-us-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/toys-r-us/agentic-access/toys-r-us-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Commerce

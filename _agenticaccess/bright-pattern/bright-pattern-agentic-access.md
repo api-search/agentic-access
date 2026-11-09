@@ -9,85 +9,85 @@ api_specs:
   label: Bright Pattern Authentication API
   slug: bright-pattern-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-authentication-api-openapi.yml
 - filename: bright-pattern-calling-list-api-openapi.yml
   format: yaml
   label: Bright Pattern Calling List API
   slug: bright-pattern-calling-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-calling-list-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-calling-list-api-openapi.yml
 - filename: bright-pattern-campaigns-api-openapi.yml
   format: yaml
   label: Bright Pattern Campaigns API
   slug: bright-pattern-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-campaigns-api-openapi.yml
 - filename: bright-pattern-dnc-lists-api-openapi.yml
   format: yaml
   label: Bright Pattern DNC Lists API
   slug: bright-pattern-dnc-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-dnc-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-dnc-lists-api-openapi.yml
 - filename: bright-pattern-do-not-call-list-api-openapi.yml
   format: yaml
   label: Bright Pattern Do Not Call List API
   slug: bright-pattern-do-not-call-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-do-not-call-list-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-do-not-call-list-api-openapi.yml
 - filename: bright-pattern-link-groups-api-openapi.yml
   format: yaml
   label: Bright Pattern Link Groups API
   slug: bright-pattern-link-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-link-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-link-groups-api-openapi.yml
 - filename: bright-pattern-lists-api-openapi.yml
   format: yaml
   label: Bright Pattern Lists API
   slug: bright-pattern-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-lists-api-openapi.yml
 - filename: bright-pattern-methods-api-openapi.yml
   format: yaml
   label: Bright Pattern Methods API
   slug: bright-pattern-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-methods-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-methods-api-openapi.yml
 - filename: bright-pattern-multichannel-call-recordings-api-openapi.yml
   format: yaml
   label: Bright Pattern Multichannel Call Recordings API
   slug: bright-pattern-multichannel-call-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-multichannel-call-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-multichannel-call-recordings-api-openapi.yml
 - filename: bright-pattern-phones-api-openapi.yml
   format: yaml
   label: Bright Pattern Phones API
   slug: bright-pattern-phones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-phones-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-phones-api-openapi.yml
 - filename: bright-pattern-regular-call-recordings-api-openapi.yml
   format: yaml
   label: Bright Pattern Regular Call Recordings API
   slug: bright-pattern-regular-call-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-regular-call-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-regular-call-recordings-api-openapi.yml
 - filename: bright-pattern-sms-mms-messaging-api-openapi.yml
   format: yaml
   label: Bright Pattern SMS/MMS Messaging API
   slug: bright-pattern-sms-mms-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-sms-mms-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-sms-mms-messaging-api-openapi.yml
 - filename: bright-pattern-task-routing-api-openapi.yml
   format: yaml
   label: Bright Pattern Task Routing API
   slug: bright-pattern-task-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-task-routing-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-task-routing-api-openapi.yml
 - filename: bright-pattern-users-api-openapi.yml
   format: yaml
   label: Bright Pattern Users API
   slug: bright-pattern-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/bright-pattern-users-api-openapi.yml
+  url: https://artifacts.apis.io/bright-pattern/openapi/bright-pattern-users-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 59
@@ -171,8 +171,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bright
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v1/files\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clientweb/api/v1/chats/{chatId}/files/{fileId}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v1/chats/{chatId}/profilephotos/{partyId}\n  method: get\n  operationId: getAgentProfilePhoto\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v1/iceservers\n\
   \  method: get\n  operationId: getIceServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v1/configuration\n  method: get\n  operationId: getChatWidgetConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v2/availability\n  method: get\n  operationId: checkAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v2/parameters\n  method: get\n  operationId: expectedParameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v2/chats\n  method: post\n  operationId: requestChat\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clientweb/api/v2/chats/{chatId}/notifications\n  method: post\n  operationId: mobileNotificationSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clientweb/api/v2/chats/active\n  method: get\n  operationId: getActiveChat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v2/chats/{chatId}/events\n  method: post\n  operationId: sendEvents\n  x-agentic-access:\n  \
-  \  action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clientweb/api/v2/chats/{chatId}/events\n  method: get\n  operationId: getNewChatEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v2/chats/{chatId}/history\n  method: get\n  operationId: getChatHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/agentic-access/bright-pattern-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/agentic-access/bright-pattern-agentic-access.yml
+  \  action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clientweb/api/v2/chats/{chatId}/events\n  method: get\n  operationId: getNewChatEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clientweb/api/v2/chats/{chatId}/history\n  method: get\n  operationId: getChatHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://artifacts.apis.io/bright-pattern/agentic-access/bright-pattern-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bright-pattern/agentic-access/bright-pattern-agentic-access.yml
 summary_line: 139 operations · 80 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,55 +9,55 @@ api_specs:
   label: PlanSource ACA API
   slug: plansource-aca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-aca-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-aca-api-openapi.yml
 - filename: plansource-administrators-api-openapi.yml
   format: yaml
   label: PlanSource Administrators API
   slug: plansource-administrators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-administrators-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-administrators-api-openapi.yml
 - filename: plansource-collections-api-openapi.yml
   format: yaml
   label: PlanSource Collections API
   slug: plansource-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-collections-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-collections-api-openapi.yml
 - filename: plansource-coverage-api-openapi.yml
   format: yaml
   label: PlanSource Coverage API
   slug: plansource-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-coverage-api-openapi.yml
 - filename: plansource-demographic-api-openapi.yml
   format: yaml
   label: PlanSource Demographic API
   slug: plansource-demographic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-demographic-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-demographic-api-openapi.yml
 - filename: plansource-eoi-api-openapi.yml
   format: yaml
   label: PlanSource EOI API
   slug: plansource-eoi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-eoi-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-eoi-api-openapi.yml
 - filename: plansource-page-content-api-openapi.yml
   format: yaml
   label: PlanSource Page Content API
   slug: plansource-page-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-page-content-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-page-content-api-openapi.yml
 - filename: plansource-payroll-api-openapi.yml
   format: yaml
   label: PlanSource Payroll API
   slug: plansource-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-payroll-api-openapi.yml
 - filename: plansource-security-api-openapi.yml
   format: yaml
   label: PlanSource Security API
   slug: plansource-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-security-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-security-api-openapi.yml
 consequence_counts:
   read: 36
   safety-critical: 10
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/planso
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin_api_v2\n- path: /administrator\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - admin_api_v2\n- path: /administrator/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin_api_v2\n- path: /administrator/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n \
   \   scope:\n    - admin_api_v2\n- path: /administrator/{id}/disable\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n    scope:\n    - admin_api_v2\n- path: /administrators\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin_api_v2\n- path: /aca/offers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin_api_v2\n- path: /aca/offers/subscriber/{subscriber_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin_api_v2\n- path: /aca/enrollees\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin_api_v2\n- path: /aca/enrollees/subscriber/{subscriber_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin_api_v2\n- path: /user_sessions\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - admin_api_v2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/agentic-access/plansource-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/plansource/agentic-access/plansource-agentic-access.yml
 summary_line: 80 operations · 44 acting · 10 human-in-the-loop
 tags:
 - Employee Benefits

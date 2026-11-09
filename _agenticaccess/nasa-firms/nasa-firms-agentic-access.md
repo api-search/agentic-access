@@ -8,25 +8,25 @@ api_specs:
   label: NASA FIRMS Area Fire Detections API
   slug: nasa-firms-area-fire-detections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-area-fire-detections-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-firms/openapi/nasa-firms-area-fire-detections-api-openapi.yml
 - filename: nasa-firms-data-availability-api-openapi.yml
   format: yaml
   label: NASA FIRMS Data Availability API
   slug: nasa-firms-data-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-data-availability-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-firms/openapi/nasa-firms-data-availability-api-openapi.yml
 - filename: nasa-firms-kml-fire-footprints-api-openapi.yml
   format: yaml
   label: NASA FIRMS KML Fire Footprints API
   slug: nasa-firms-kml-fire-footprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-kml-fire-footprints-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-firms/openapi/nasa-firms-kml-fire-footprints-api-openapi.yml
 - filename: nasa-firms-missing-data-api-openapi.yml
   format: yaml
   label: NASA FIRMS Missing Data API
   slug: nasa-firms-missing-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/openapi/nasa-firms-missing-data-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-firms/openapi/nasa-firms-missing-data-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nasa-firms-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /api/area/csv/{map_key}/{source}/{area_coordinates}/{day_range}\n  method: get\n  operationId: getAreaFireDetections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/area/csv/{map_key}/{source}/{area_coordinates}/{day_range}/{date}\n  method: get\n  operationId: getAreaFireDetectionsByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/kml_fire_footprints/{region}/{date_span}/{sensor}/{filename}\n  method: get\n  operationId: getKmlFireFootprints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/kml_fire_footprints/\n  method: get\n  operationId: getKmlFireFootprintsQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data_availability/csv/{map_key}/{sensor}\n  method: get\n  operationId: getDataAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/missing_data/{map_key}\n  method: get\n  operationId: getMissingData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/agentic-access/nasa-firms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nasa-firms/agentic-access/nasa-firms-agentic-access.yml
 summary_line: 6 operations
 tags:
 - NASA

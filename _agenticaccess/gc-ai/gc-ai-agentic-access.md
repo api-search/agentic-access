@@ -9,55 +9,55 @@ api_specs:
   label: GC AI Chat API
   slug: gc-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-chat-api-openapi.yml
 - filename: gc-ai-files-api-openapi.yml
   format: yaml
   label: GC AI Files API
   slug: gc-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-files-api-openapi.yml
 - filename: gc-ai-folders-api-openapi.yml
   format: yaml
   label: GC AI Folders API
   slug: gc-ai-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-folders-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-folders-api-openapi.yml
 - filename: gc-ai-playbooks-api-openapi.yml
   format: yaml
   label: GC AI Playbooks API
   slug: gc-ai-playbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-playbooks-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-playbooks-api-openapi.yml
 - filename: gc-ai-profiles-api-openapi.yml
   format: yaml
   label: GC AI Profiles API
   slug: gc-ai-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-profiles-api-openapi.yml
 - filename: gc-ai-projects-api-openapi.yml
   format: yaml
   label: GC AI Projects API
   slug: gc-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-projects-api-openapi.yml
 - filename: gc-ai-skills-api-openapi.yml
   format: yaml
   label: GC AI Skills API
   slug: gc-ai-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-skills-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-skills-api-openapi.yml
 - filename: gc-ai-usage-api-openapi.yml
   format: yaml
   label: GC AI Usage API
   slug: gc-ai-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-usage-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-usage-api-openapi.yml
 - filename: gc-ai-utility-api-openapi.yml
   format: yaml
   label: GC AI Utility API
   slug: gc-ai-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/openapi/gc-ai-utility-api-openapi.yml
+  url: https://artifacts.apis.io/gc-ai/openapi/gc-ai-utility-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 24
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/gc-ai-
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /playbooks/{id}/checks\n  method: get\n  operationId: listPlaybookChecks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playbooks/{id}/checks\n  method: post\n  operationId: createPlaybookCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /playbooks/{id}/checks/{checkId}\n  method: get\n  operationId: getPlaybookCheck\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playbooks/{id}/checks/{checkId}\n  method: patch\n  operationId: updatePlaybookCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /playbooks/{id}/checks/{checkId}\n  method: delete\n  operationId: deletePlaybookCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /playbooks/{id}/checks/reorder\n  method: post\n  operationId: reorderPlaybookChecks\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credit-usage\n  method: get\n  operationId: getCreditUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/agentic-access/gc-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gc-ai/agentic-access/gc-ai-agentic-access.yml
 summary_line: 58 operations · 34 acting · 3 human-in-the-loop
 tags:
 - Company

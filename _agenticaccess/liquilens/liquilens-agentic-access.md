@@ -9,79 +9,79 @@ api_specs:
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Agent Query API
   slug: liquilens-agent-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-agent-query-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-agent-query-api-openapi.yml
 - filename: liquilens-agent-review-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Agent Review API
   slug: liquilens-agent-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-agent-review-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-agent-review-api-openapi.yml
 - filename: liquilens-applications-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Applications API
   slug: liquilens-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-applications-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-applications-api-openapi.yml
 - filename: liquilens-datasets-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Datasets API
   slug: liquilens-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-datasets-api-openapi.yml
 - filename: liquilens-financial-evidence-for-openbb-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Financial Evidence For OpenBB API
   slug: liquilens-financial-evidence-for-openbb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-financial-evidence-for-openbb-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-financial-evidence-for-openbb-api-openapi.yml
 - filename: liquilens-funding-review-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Funding Review API
   slug: liquilens-funding-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-funding-review-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-funding-review-api-openapi.yml
 - filename: liquilens-funding-review-csv-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Funding Review.csv API
   slug: liquilens-funding-review-csv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-funding-review-csv-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-funding-review-csv-api-openapi.yml
 - filename: liquilens-guide-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Guide API
   slug: liquilens-guide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-guide-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-guide-api-openapi.yml
 - filename: liquilens-healthz-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Healthz API
   slug: liquilens-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-healthz-api-openapi.yml
 - filename: liquilens-packet-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Packet API
   slug: liquilens-packet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-packet-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-packet-api-openapi.yml
 - filename: liquilens-query-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Query API
   slug: liquilens-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-query-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-query-api-openapi.yml
 - filename: liquilens-release-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Release API
   slug: liquilens-release-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-release-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-release-api-openapi.yml
 - filename: liquilens-sources-api-openapi.yml
   format: yaml
   label: LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs Sources API
   slug: liquilens-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/openapi/liquilens-sources-api-openapi.yml
+  url: https://artifacts.apis.io/liquilens/openapi/liquilens-sources-api-openapi.yml
 consequence_counts:
   read: 12
   write: 2
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-10-08'\nmethod: generated\nsource: openapi/liquil
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/funding-review.csv\n  method: get\n  operationId: funding_review_csv_api_v1_funding_review_csv_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guide\n  method: get\n  operationId: guide_guide_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets\n  method: get\n  operationId: datasets_api_v1_datasets_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/query\n  method: get\n  operationId: query_api_v1_query_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sources\n  method: get\n  operationId: sources_api_v1_sources_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/packet\n  method: get\n  operationId: packet_api_v1_packet_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agent-query\n  method: get\n  operationId: agent_query_api_v1_agent_query_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agent-review\n  method: get\n  operationId: agent_review_api_v1_agent_review_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/agentic-access/liquilens-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liquilens/agentic-access/liquilens-agentic-access.yml
 summary_line: 14 operations · 2 acting
 tags:
 - Company

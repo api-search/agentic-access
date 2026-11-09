@@ -8,55 +8,55 @@ api_specs:
   label: Soundcharts Album API
   slug: soundcharts-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-album-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-album-api-openapi.yml
 - filename: soundcharts-artist-api-openapi.yml
   format: yaml
   label: Soundcharts Artist API
   slug: soundcharts-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-artist-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-artist-api-openapi.yml
 - filename: soundcharts-chart-api-openapi.yml
   format: yaml
   label: Soundcharts Chart API
   slug: soundcharts-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-chart-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-chart-api-openapi.yml
 - filename: soundcharts-metrics-api-openapi.yml
   format: yaml
   label: Soundcharts Metrics API
   slug: soundcharts-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-metrics-api-openapi.yml
 - filename: soundcharts-playlist-api-openapi.yml
   format: yaml
   label: Soundcharts Playlist API
   slug: soundcharts-playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-playlist-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-playlist-api-openapi.yml
 - filename: soundcharts-radio-api-openapi.yml
   format: yaml
   label: Soundcharts Radio API
   slug: soundcharts-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-radio-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-radio-api-openapi.yml
 - filename: soundcharts-referential-api-openapi.yml
   format: yaml
   label: Soundcharts Referential API
   slug: soundcharts-referential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-referential-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-referential-api-openapi.yml
 - filename: soundcharts-search-api-openapi.yml
   format: yaml
   label: Soundcharts Search API
   slug: soundcharts-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-search-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-search-api-openapi.yml
 - filename: soundcharts-song-api-openapi.yml
   format: yaml
   label: Soundcharts Song API
   slug: soundcharts-song-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/openapi/soundcharts-song-api-openapi.yml
+  url: https://artifacts.apis.io/soundcharts/openapi/soundcharts-song-api-openapi.yml
 consequence_counts:
   read: 32
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/soundc
   \ /api/v2/playlist/by-platform/{platform}/{identifier}\n  method: get\n  operationId: getPlaylistByPlatformId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/playlist/{uuid}/tracks\n  method: get\n  operationId: getPlaylistTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/radio/{uuid}\n  method: get\n  operationId: getRadio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/radio/by-slug/{slug}\n  method: get\n  operationId: getRadioBySlug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/artist/{uuid}/broadcasts\n  method: get\n  operationId:\
   \ getArtistRadioSpins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/referential/platforms\n  method: get\n  operationId: getPlatforms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/song/{uuid}\n  method: get\n  operationId: getSongMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/song/by-isrc/{isrc}\n  method: get\n  operationId: getSongByIsrc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/song/by-platform/{platform}/{identifier}\n  method: get\n  operationId: getSongByPlatformId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/song/{uuid}/audio-features\n  method: get\n  operationId: getSongAudioFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/agentic-access/soundcharts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/soundcharts/agentic-access/soundcharts-agentic-access.yml
 summary_line: 32 operations
 tags:
 - Music

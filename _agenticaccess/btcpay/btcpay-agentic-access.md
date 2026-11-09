@@ -9,193 +9,193 @@ api_specs:
   label: BTCPay Server API Keys API
   slug: btcpay-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-api-keys-api-openapi.yml
 - filename: btcpay-apps-api-openapi.yml
   format: yaml
   label: BTCPay Server Apps API
   slug: btcpay-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-apps-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-apps-api-openapi.yml
 - filename: btcpay-authorization-api-openapi.yml
   format: yaml
   label: BTCPay Server Authorization API
   slug: btcpay-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-authorization-api-openapi.yml
 - filename: btcpay-crowdfund-api-openapi.yml
   format: yaml
   label: BTCPay Server Crowdfund API
   slug: btcpay-crowdfund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-crowdfund-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-crowdfund-api-openapi.yml
 - filename: btcpay-files-api-openapi.yml
   format: yaml
   label: BTCPay Server Files API
   slug: btcpay-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-files-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-files-api-openapi.yml
 - filename: btcpay-health-api-openapi.yml
   format: yaml
   label: BTCPay Server Health API
   slug: btcpay-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-health-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-health-api-openapi.yml
 - filename: btcpay-invoices-api-openapi.yml
   format: yaml
   label: BTCPay Server Invoices API
   slug: btcpay-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-invoices-api-openapi.yml
 - filename: btcpay-lightning-address-api-openapi.yml
   format: yaml
   label: BTCPay Server Lightning address API
   slug: btcpay-lightning-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-lightning-address-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-lightning-address-api-openapi.yml
 - filename: btcpay-lightning-internal-node-api-openapi.yml
   format: yaml
   label: BTCPay Server Lightning (Internal Node) API
   slug: btcpay-lightning-internal-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-lightning-internal-node-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-lightning-internal-node-api-openapi.yml
 - filename: btcpay-lightning-store-api-openapi.yml
   format: yaml
   label: BTCPay Server Lightning (Store) API
   slug: btcpay-lightning-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-lightning-store-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-lightning-store-api-openapi.yml
 - filename: btcpay-miscelleneous-api-openapi.yml
   format: yaml
   label: BTCPay Server Miscelleneous API
   slug: btcpay-miscelleneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-miscelleneous-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-miscelleneous-api-openapi.yml
 - filename: btcpay-notifications-current-user-api-openapi.yml
   format: yaml
   label: BTCPay Server Notifications (Current User) API
   slug: btcpay-notifications-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-notifications-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-notifications-current-user-api-openapi.yml
 - filename: btcpay-payment-requests-api-openapi.yml
   format: yaml
   label: BTCPay Server Payment Requests API
   slug: btcpay-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-payment-requests-api-openapi.yml
 - filename: btcpay-payout-processors-api-openapi.yml
   format: yaml
   label: BTCPay Server Payout Processors API
   slug: btcpay-payout-processors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-payout-processors-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-payout-processors-api-openapi.yml
 - filename: btcpay-point-of-sale-api-openapi.yml
   format: yaml
   label: BTCPay Server Point of Sale API
   slug: btcpay-point-of-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-point-of-sale-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-point-of-sale-api-openapi.yml
 - filename: btcpay-pull-payments-management-api-openapi.yml
   format: yaml
   label: BTCPay Server Pull payments (Management) API
   slug: btcpay-pull-payments-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-pull-payments-management-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-pull-payments-management-api-openapi.yml
 - filename: btcpay-pull-payments-payout-public-api-openapi.yml
   format: yaml
   label: BTCPay Server Pull payments payout (Public) API
   slug: btcpay-pull-payments-payout-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-pull-payments-payout-public-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-pull-payments-payout-public-api-openapi.yml
 - filename: btcpay-pull-payments-public-api-openapi.yml
   format: yaml
   label: BTCPay Server Pull payments (Public) API
   slug: btcpay-pull-payments-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-pull-payments-public-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-pull-payments-public-api-openapi.yml
 - filename: btcpay-serveremail-api-openapi.yml
   format: yaml
   label: BTCPay Server ServerEmail API
   slug: btcpay-serveremail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-serveremail-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-serveremail-api-openapi.yml
 - filename: btcpay-store-payment-methods-api-openapi.yml
   format: yaml
   label: BTCPay Server Store (Payment Methods) API
   slug: btcpay-store-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-store-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-store-payment-methods-api-openapi.yml
 - filename: btcpay-store-wallet-on-chain-api-openapi.yml
   format: yaml
   label: BTCPay Server Store Wallet (On Chain) API
   slug: btcpay-store-wallet-on-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-store-wallet-on-chain-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-store-wallet-on-chain-api-openapi.yml
 - filename: btcpay-stores-api-openapi.yml
   format: yaml
   label: BTCPay Server Stores API
   slug: btcpay-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-stores-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-stores-api-openapi.yml
 - filename: btcpay-stores-email-api-openapi.yml
   format: yaml
   label: BTCPay Server Stores (Email) API
   slug: btcpay-stores-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-stores-email-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-stores-email-api-openapi.yml
 - filename: btcpay-stores-payout-processors-api-openapi.yml
   format: yaml
   label: BTCPay Server Stores (Payout Processors) API
   slug: btcpay-stores-payout-processors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-stores-payout-processors-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-stores-payout-processors-api-openapi.yml
 - filename: btcpay-stores-payouts-api-openapi.yml
   format: yaml
   label: BTCPay Server Stores (Payouts) API
   slug: btcpay-stores-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-stores-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-stores-payouts-api-openapi.yml
 - filename: btcpay-stores-rates-api-openapi.yml
   format: yaml
   label: BTCPay Server Stores (Rates) API
   slug: btcpay-stores-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-stores-rates-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-stores-rates-api-openapi.yml
 - filename: btcpay-stores-users-api-openapi.yml
   format: yaml
   label: BTCPay Server Stores (Users) API
   slug: btcpay-stores-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-stores-users-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-stores-users-api-openapi.yml
 - filename: btcpay-subscriptions-api-openapi.yml
   format: yaml
   label: BTCPay Server Subscriptions API
   slug: btcpay-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-subscriptions-api-openapi.yml
 - filename: btcpay-users-api-openapi.yml
   format: yaml
   label: BTCPay Server Users API
   slug: btcpay-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-users-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-users-api-openapi.yml
 - filename: btcpay-webhooks-api-openapi.yml
   format: yaml
   label: BTCPay Server Webhooks API
   slug: btcpay-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-webhooks-api-openapi.yml
 - filename: btcpay-reports-api-openapi.yml
   format: yaml
   label: BTCPay Server Reports API
   slug: btcpay-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-reports-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-reports-api-openapi.yml
 - filename: btcpay-server-info-api-openapi.yml
   format: yaml
   label: BTCPay Server Server Info API
   slug: btcpay-server-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-server-info-api-openapi.yml
+  url: https://artifacts.apis.io/btcpay/openapi/btcpay-server-info-api-openapi.yml
 consequence_counts:
   physical: 42
   read: 93
@@ -384,8 +384,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    scope:\n    - btcpay.store.canviewpaymentrequests\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/stores/{storeId}/payout-processors\n  method: get\n  operationId: StorePayoutProcessors_GetStorePayoutProcessors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - btcpay.store.canviewstoresettings\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/stores/{storeId}/payout-processors/{processor}/{paymentMethodId}\n  method: delete\n  operationId: StorePayoutProcessors_RemoveStorePayoutProcessor\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - btcpay.store.canmodifystoresettings\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/payout-processors\n  method: get\n  operationId: PayoutProcessors_GetPayoutProcessors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/stores/{storeId}/payout-processors/OnChainAutomatedPayoutSenderFactory/{paymentMethodId}\n  method: get\n  operationId: GreenfieldStoreAutomatedOnChainPayoutProcessorsController_GetStoreOnChainAutomatedPayoutProcessorsForPaymentMethod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - btcpay.store.canviewstoresettings\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/stores/{storeId}/payout-processors/OnChainAutomatedPayoutSenderFactory/{paymentMethodId}\n  method: put\n  operationId:\
   \ GreenfieldStoreAutomatedOnChainPayoutProcessorsController_UpdateStoreOnChainAutomatedPayoutProcessorForPaymentMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - btcpay.store.canviewstoresettings\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/stores/{storeId}/payout-processors/LightningAutomatedPayoutSenderFactory/{payoutMethodId}\n  method: get\n  operationId: GreenfieldStoreAutomatedLightningPayoutProcessorsController_GetStoreLightningAutomatedPayoutProcessorsForPaymentMethod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - btcpay.store.canviewstoresettings\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/stores/{storeId}/payout-processors/LightningAutomatedPayoutSenderFactory/{payoutMethodId}\n\
-  \  method: put\n  operationId: GreenfieldStoreAutomatedLightningPayoutProcessorsController_UpdateStoreLightningAutomatedPayoutProcessor\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - btcpay.store.canviewstoresettings\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (73 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/agentic-access/btcpay-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/agentic-access/btcpay-agentic-access.yml
+  \  method: put\n  operationId: GreenfieldStoreAutomatedLightningPayoutProcessorsController_UpdateStoreLightningAutomatedPayoutProcessor\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - btcpay.store.canviewstoresettings\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (73 KB total) ---\n# Full source: https://artifacts.apis.io/btcpay/agentic-access/btcpay-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/btcpay/agentic-access/btcpay-agentic-access.yml
 summary_line: 195 operations · 102 acting · 6 human-in-the-loop
 tags:
 - Bitcoin

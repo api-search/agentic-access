@@ -9,103 +9,103 @@ api_specs:
   label: BB&T Corp (Truist) Account Information API
   slug: bbandt-corp-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-account-information-api-openapi.yml
 - filename: bbandt-corp-account-transactions-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Account Transactions API
   slug: bbandt-corp-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-account-transactions-api-openapi.yml
 - filename: bbandt-corp-commercial-account-balance-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Commercial Account Balance API
   slug: bbandt-corp-commercial-account-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-commercial-account-balance-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-commercial-account-balance-api-openapi.yml
 - filename: bbandt-corp-commercial-account-transactions-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Commercial Account Transactions API
   slug: bbandt-corp-commercial-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-commercial-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-commercial-account-transactions-api-openapi.yml
 - filename: bbandt-corp-commercial-accounts-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Commercial Accounts API
   slug: bbandt-corp-commercial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-commercial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-commercial-accounts-api-openapi.yml
 - filename: bbandt-corp-credit-transfers-account-list-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Credit Transfers Account List API
   slug: bbandt-corp-credit-transfers-account-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-credit-transfers-account-list-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-credit-transfers-account-list-api-openapi.yml
 - filename: bbandt-corp-credit-transfers-acknowledge-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Credit Transfers Acknowledge API
   slug: bbandt-corp-credit-transfers-acknowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-credit-transfers-acknowledge-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-credit-transfers-acknowledge-api-openapi.yml
 - filename: bbandt-corp-credit-transfers-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Credit Transfers API
   slug: bbandt-corp-credit-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-credit-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-credit-transfers-api-openapi.yml
 - filename: bbandt-corp-credit-transfers-approval-reject-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Credit Transfers Approval/Reject API
   slug: bbandt-corp-credit-transfers-approval-reject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-credit-transfers-approval-reject-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-credit-transfers-approval-reject-api-openapi.yml
 - filename: bbandt-corp-event-notification-subscriptions-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Event Notification Subscriptions API
   slug: bbandt-corp-event-notification-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-event-notification-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-event-notification-subscriptions-api-openapi.yml
 - filename: bbandt-corp-event-notifications-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Event Notifications API
   slug: bbandt-corp-event-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-event-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-event-notifications-api-openapi.yml
 - filename: bbandt-corp-location-information-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Location Information API
   slug: bbandt-corp-location-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-location-information-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-location-information-api-openapi.yml
 - filename: bbandt-corp-money-movement-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Money Movement API
   slug: bbandt-corp-money-movement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-money-movement-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-money-movement-api-openapi.yml
 - filename: bbandt-corp-oauth-2-0-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) OAuth 2.0 API
   slug: bbandt-corp-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-oauth-2-0-api-openapi.yml
 - filename: bbandt-corp-personal-information-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Personal Information API
   slug: bbandt-corp-personal-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-personal-information-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-personal-information-api-openapi.yml
 - filename: bbandt-corp-recipients-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Recipients API
   slug: bbandt-corp-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-recipients-api-openapi.yml
 - filename: bbandt-corp-user-consent-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) User Consent API
   slug: bbandt-corp-user-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-user-consent-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-user-consent-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 19
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/bbandt
   \ read\n    subject: optional\n    scope:\n    - CUSTOMER_CONTACT\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customers/current\n  method: get\n  operationId: getCustomerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - CUSTOMER_CONTACT\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/register\n  method: post\n  operationId: createRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/register/{clientId}\n  method: get\n  operationId: getRecipient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/register/{clientId}\n  method: put\n  operationId:\
   \ updateRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/register/{clientId}\n  method: delete\n  operationId: deleteRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/consents/{consentId}\n  method: get\n  operationId: getConsentGrant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/consents/{consentId}/revocation\n  method: put\n  operationId: revokeConsentGrant\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/agentic-access/bbandt-corp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bbandt-corp/agentic-access/bbandt-corp-agentic-access.yml
 summary_line: 31 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Banking

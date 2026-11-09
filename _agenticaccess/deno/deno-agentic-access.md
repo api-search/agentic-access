@@ -9,49 +9,49 @@ api_specs:
   label: Deno Apps API
   slug: deno-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/openapi/deno-apps-api-openapi.yml
+  url: https://artifacts.apis.io/deno/openapi/deno-apps-api-openapi.yml
 - filename: deno-deployments-api-openapi.yml
   format: yaml
   label: Deno Deployments API
   slug: deno-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/openapi/deno-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/deno/openapi/deno-deployments-api-openapi.yml
 - filename: deno-domains-api-openapi.yml
   format: yaml
   label: Deno Domains API
   slug: deno-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/openapi/deno-domains-api-openapi.yml
+  url: https://artifacts.apis.io/deno/openapi/deno-domains-api-openapi.yml
 - filename: deno-kv-databases-api-openapi.yml
   format: yaml
   label: Deno KV Databases API
   slug: deno-kv-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/openapi/deno-kv-databases-api-openapi.yml
+  url: https://artifacts.apis.io/deno/openapi/deno-kv-databases-api-openapi.yml
 - filename: deno-logs-api-openapi.yml
   format: yaml
   label: Deno Logs API
   slug: deno-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/openapi/deno-logs-api-openapi.yml
+  url: https://artifacts.apis.io/deno/openapi/deno-logs-api-openapi.yml
 - filename: deno-organizations-api-openapi.yml
   format: yaml
   label: Deno Organizations API
   slug: deno-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/openapi/deno-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/deno/openapi/deno-organizations-api-openapi.yml
 - filename: deno-projects-api-openapi.yml
   format: yaml
   label: Deno Projects API
   slug: deno-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/openapi/deno-projects-api-openapi.yml
+  url: https://artifacts.apis.io/deno/openapi/deno-projects-api-openapi.yml
 - filename: deno-revisions-api-openapi.yml
   format: yaml
   label: Deno Revisions API
   slug: deno-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/openapi/deno-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/deno/openapi/deno-revisions-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 31
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/deno-d
   \ get\n  operationId: getDeployment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/{deploymentId}\n  method: delete\n  operationId: deleteDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/{deploymentId}/build_logs\n  method: get\n  operationId: getBuildLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/{deploymentId}/app_logs\n  method: get\n  operationId: getAppLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/domains\n  method: get\n  operationId: listDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/domains\n  method: post\n  operationId: createDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/databases\n  method: get\n  operationId: listKvDatabases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/databases\n  method: post\n  operationId:\
   \ createKvDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/agentic-access/deno-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/deno/agentic-access/deno-agentic-access.yml
 summary_line: 61 operations · 30 acting · 1 human-in-the-loop
 tags:
 - Deployment

@@ -9,91 +9,91 @@ api_specs:
   label: Typeface Audiences API
   slug: typeface-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-audiences-api-openapi.yml
 - filename: typeface-authentication-api-openapi.yml
   format: yaml
   label: Typeface Authentication API
   slug: typeface-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-authentication-api-openapi.yml
 - filename: typeface-basic-services-api-openapi.yml
   format: yaml
   label: Typeface Basic Services API
   slug: typeface-basic-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-basic-services-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-basic-services-api-openapi.yml
 - filename: typeface-brand-kits-api-openapi.yml
   format: yaml
   label: Typeface Brand Kits API
   slug: typeface-brand-kits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-brand-kits-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-brand-kits-api-openapi.yml
 - filename: typeface-content-generation-api-openapi.yml
   format: yaml
   label: Typeface Content Generation API
   slug: typeface-content-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-content-generation-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-content-generation-api-openapi.yml
 - filename: typeface-content-service-api-openapi.yml
   format: yaml
   label: Typeface Content Service API
   slug: typeface-content-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-content-service-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-content-service-api-openapi.yml
 - filename: typeface-digital-assets-api-openapi.yml
   format: yaml
   label: Typeface Digital Assets API
   slug: typeface-digital-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-digital-assets-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-digital-assets-api-openapi.yml
 - filename: typeface-discovery-api-openapi.yml
   format: yaml
   label: Typeface Discovery API
   slug: typeface-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-discovery-api-openapi.yml
 - filename: typeface-feeds-api-openapi.yml
   format: yaml
   label: Typeface Feeds API
   slug: typeface-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-feeds-api-openapi.yml
 - filename: typeface-profile-service-api-openapi.yml
   format: yaml
   label: Typeface Profile Service API
   slug: typeface-profile-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-profile-service-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-profile-service-api-openapi.yml
 - filename: typeface-projects-api-openapi.yml
   format: yaml
   label: Typeface Projects API
   slug: typeface-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-projects-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-projects-api-openapi.yml
 - filename: typeface-provisioning-api-openapi.yml
   format: yaml
   label: Typeface Provisioning API
   slug: typeface-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-provisioning-api-openapi.yml
 - filename: typeface-provisioning-service-api-openapi.yml
   format: yaml
   label: Typeface Provisioning Service API
   slug: typeface-provisioning-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-provisioning-service-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-provisioning-service-api-openapi.yml
 - filename: typeface-search-service-api-openapi.yml
   format: yaml
   label: Typeface Search Service API
   slug: typeface-search-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-search-service-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-search-service-api-openapi.yml
 - filename: typeface-tag-library-api-openapi.yml
   format: yaml
   label: Typeface Tag Library API
   slug: typeface-tag-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/openapi/typeface-tag-library-api-openapi.yml
+  url: https://artifacts.apis.io/typeface/openapi/typeface-tag-library-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 29
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/typefa
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /provisioning-service/account/{accountId}\n  method: delete\n  operationId: deleteAccountById\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /provisioning-service/accounts/{accountId}/users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search-service/accounts/{accountId}/projects/{projectId}/all-assets\n  method: post\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /profile-service/accounts/{accountId}/tags\n  method: post\n  operationId: createTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search-service/accounts/{accountId}/tags\n  method: post\n  operationId: searchTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile-service/accounts/{accountId}/tags/{tagId}\n  method: get\n  operationId: getTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile-service/accounts/{accountId}/tags/{tagId}\n  method: patch\n  operationId: patchTag\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile-service/accounts/{accountId}/tags/{tagId}\n  method: delete\n  operationId: deleteTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/agentic-access/typeface-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/typeface/agentic-access/typeface-agentic-access.yml
 summary_line: 64 operations · 35 acting
 tags:
 - Company

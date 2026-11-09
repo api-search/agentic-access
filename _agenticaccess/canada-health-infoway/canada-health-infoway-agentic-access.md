@@ -9,67 +9,67 @@ api_specs:
   label: Canada Health Infoway Code System API
   slug: canada-health-infoway-codesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-codesystem-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-codesystem-api-openapi.yml
 - filename: canada-health-infoway-conceptmap-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Concept Map API
   slug: canada-health-infoway-conceptmap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-conceptmap-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-conceptmap-api-openapi.yml
 - filename: canada-health-infoway-maps-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Maps API
   slug: canada-health-infoway-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-maps-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-maps-api-openapi.yml
 - filename: canada-health-infoway-notification-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Notification API
   slug: canada-health-infoway-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-notification-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-notification-api-openapi.yml
 - filename: canada-health-infoway-packages-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Packages API
   slug: canada-health-infoway-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-packages-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-packages-api-openapi.yml
 - filename: canada-health-infoway-session-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Session API
   slug: canada-health-infoway-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-session-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-session-api-openapi.yml
 - filename: canada-health-infoway-subsets-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Subsets API
   slug: canada-health-infoway-subsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-subsets-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-subsets-api-openapi.yml
 - filename: canada-health-infoway-valueset-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Value Set API
   slug: canada-health-infoway-valueset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-valueset-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-valueset-api-openapi.yml
 - filename: canada-health-infoway-capability-statement-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Capability Statement API
   slug: canada-health-infoway-capability-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-capability-statement-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-capability-statement-api-openapi.yml
 - filename: canada-health-infoway-code-systems-api-openapi.yml
   format: yaml
   label: Canada Health Infoway code systems API
   slug: canada-health-infoway-code-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-code-systems-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-code-systems-api-openapi.yml
 - filename: canada-health-infoway-resource-locations-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Resource Locations API
   slug: canada-health-infoway-resource-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-resource-locations-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-resource-locations-api-openapi.yml
 consequence_counts:
   read: 55
   write: 5
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/canada
   \  method: get\n  operationId: getConcepts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subset/{subsetid}/concepts/{conceptid}\n  method: get\n  operationId: getConcept\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ValueSet\n  method: get\n  operationId: findValueSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ValueSet/{id}\n  method: get\n  operationId: getValueSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ValueSet/{id}/_history\n  method: get\n  operationId: getValueSetHistory\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ValueSet/{id}/_history/{vid}\n  method: get\n  operationId: getValueSetVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ValueSet/{id}/$expand\n  method: get\n  operationId: getValueSetExpansion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ValueSet/{id}/_history/{vid}/$expand\n  method: get\n  operationId: getValueSetVersionExpansion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ValueSet/{id}/$validate-code\n  method: get\n  operationId: getValueSetCodeValidation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /ValueSet/{id}/_history/{vid}/$validate-code\n  method: get\n  operationId: getValueSetVersionCodeValidation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/agentic-access/canada-health-infoway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/canada-health-infoway/agentic-access/canada-health-infoway-agentic-access.yml
 summary_line: 60 operations · 5 acting
 tags:
 - Healthcare

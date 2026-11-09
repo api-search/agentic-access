@@ -15,199 +15,199 @@ api_specs:
   label: Route Mobile Account API
   slug: route-mobile-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-account-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-account-api-openapi.yml
 - filename: route-mobile-account-management-api-openapi.yml
   format: yaml
   label: Route Mobile Account Management API
   slug: route-mobile-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-account-management-api-openapi.yml
 - filename: route-mobile-accounts-api-openapi.yml
   format: yaml
   label: Route Mobile Accounts API
   slug: route-mobile-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-accounts-api-openapi.yml
 - filename: route-mobile-authentication-api-openapi.yml
   format: yaml
   label: Route Mobile Authentication API
   slug: route-mobile-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-authentication-api-openapi.yml
 - filename: route-mobile-bulk-campaigns-api-openapi.yml
   format: yaml
   label: Route Mobile Bulk Campaigns API
   slug: route-mobile-bulk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-bulk-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-bulk-campaigns-api-openapi.yml
 - filename: route-mobile-bulk-upload-campaign-api-api-openapi.yml
   format: yaml
   label: Route Mobile Bulk Upload Campaign API
   slug: route-mobile-bulk-upload-campaign-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-bulk-upload-campaign-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-bulk-upload-campaign-api-api-openapi.yml
 - filename: route-mobile-callback-api-api-openapi.yml
   format: yaml
   label: Route Mobile Callback API
   slug: route-mobile-callback-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-callback-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-callback-api-api-openapi.yml
 - filename: route-mobile-capability-check-api-api-openapi.yml
   format: yaml
   label: Route Mobile Capability Check API
   slug: route-mobile-capability-check-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-capability-check-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-capability-check-api-api-openapi.yml
 - filename: route-mobile-catalog-management-api-openapi.yml
   format: yaml
   label: Route Mobile Catalog Management API
   slug: route-mobile-catalog-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-catalog-management-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-catalog-management-api-openapi.yml
 - filename: route-mobile-file-server-api-api-openapi.yml
   format: yaml
   label: Route Mobile File Server API
   slug: route-mobile-file-server-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-file-server-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-file-server-api-api-openapi.yml
 - filename: route-mobile-integrations-api-openapi.yml
   format: yaml
   label: Route Mobile Integrations API
   slug: route-mobile-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-integrations-api-openapi.yml
 - filename: route-mobile-login-api-openapi.yml
   format: yaml
   label: Route Mobile Login API
   slug: route-mobile-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-login-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-login-api-openapi.yml
 - filename: route-mobile-management-api-api-openapi.yml
   format: yaml
   label: Route Mobile Management API
   slug: route-mobile-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-management-api-api-openapi.yml
 - filename: route-mobile-message-sending-api-openapi.yml
   format: yaml
   label: Route Mobile Message Sending API
   slug: route-mobile-message-sending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-message-sending-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-message-sending-api-openapi.yml
 - filename: route-mobile-messages-api-openapi.yml
   format: yaml
   label: Route Mobile Messages API
   slug: route-mobile-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-messages-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-messages-api-openapi.yml
 - filename: route-mobile-messaging-api-openapi.yml
   format: yaml
   label: Route Mobile Messaging API
   slug: route-mobile-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-messaging-api-openapi.yml
 - filename: route-mobile-opt-in-management-api-openapi.yml
   format: yaml
   label: Route Mobile Opt-in Management API
   slug: route-mobile-opt-in-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-opt-in-management-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-opt-in-management-api-openapi.yml
 - filename: route-mobile-otp-api-openapi.yml
   format: yaml
   label: Route Mobile OTP API
   slug: route-mobile-otp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-otp-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-otp-api-openapi.yml
 - filename: route-mobile-payment-api-api-openapi.yml
   format: yaml
   label: Route Mobile Payment API
   slug: route-mobile-payment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-payment-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-payment-api-api-openapi.yml
 - filename: route-mobile-rcs-messages-api-api-openapi.yml
   format: yaml
   label: Route Mobile RCS Messages API
   slug: route-mobile-rcs-messages-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-rcs-messages-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-rcs-messages-api-api-openapi.yml
 - filename: route-mobile-rcs-messages-request-api-api-openapi.yml
   format: yaml
   label: Route Mobile RCS Messages Request API
   slug: route-mobile-rcs-messages-request-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-rcs-messages-request-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-rcs-messages-request-api-api-openapi.yml
 - filename: route-mobile-rcs-optin-api-api-openapi.yml
   format: yaml
   label: Route Mobile RCS Optin API
   slug: route-mobile-rcs-optin-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-rcs-optin-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-rcs-optin-api-api-openapi.yml
 - filename: route-mobile-rcs-template-api-api-openapi.yml
   format: yaml
   label: Route Mobile RCS Template API
   slug: route-mobile-rcs-template-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-rcs-template-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-rcs-template-api-api-openapi.yml
 - filename: route-mobile-reports-api-openapi.yml
   format: yaml
   label: Route Mobile Reports API
   slug: route-mobile-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-reports-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-reports-api-openapi.yml
 - filename: route-mobile-sending-domains-api-openapi.yml
   format: yaml
   label: Route Mobile Sending Domains API
   slug: route-mobile-sending-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-sending-domains-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-sending-domains-api-openapi.yml
 - filename: route-mobile-smtp-users-api-openapi.yml
   format: yaml
   label: Route Mobile SMTP Users API
   slug: route-mobile-smtp-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-smtp-users-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-smtp-users-api-openapi.yml
 - filename: route-mobile-tracking-domains-api-openapi.yml
   format: yaml
   label: Route Mobile Tracking Domains API
   slug: route-mobile-tracking-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-tracking-domains-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-tracking-domains-api-openapi.yml
 - filename: route-mobile-viber-bulk-messaging-api-api-openapi.yml
   format: yaml
   label: Route Mobile Viber Bulk Messaging API
   slug: route-mobile-viber-bulk-messaging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-viber-bulk-messaging-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-viber-bulk-messaging-api-api-openapi.yml
 - filename: route-mobile-viber-business-messaging-api-api-openapi.yml
   format: yaml
   label: Route Mobile Viber Business Messaging API
   slug: route-mobile-viber-business-messaging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-viber-business-messaging-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-viber-business-messaging-api-api-openapi.yml
 - filename: route-mobile-viber-client-callback-api-api-openapi.yml
   format: yaml
   label: Route Mobile Viber Client Callback API
   slug: route-mobile-viber-client-callback-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-viber-client-callback-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-viber-client-callback-api-api-openapi.yml
 - filename: route-mobile-viber-login-api-openapi.yml
   format: yaml
   label: Route Mobile Viber Login API
   slug: route-mobile-viber-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-viber-login-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-viber-login-api-openapi.yml
 - filename: route-mobile-viber-reports-api-api-openapi.yml
   format: yaml
   label: Route Mobile Viber Reports API
   slug: route-mobile-viber-reports-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-viber-reports-api-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-viber-reports-api-api-openapi.yml
 - filename: route-mobile-webhooks-api-openapi.yml
   format: yaml
   label: Route Mobile Webhooks API
   slug: route-mobile-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/openapi/route-mobile-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/route-mobile/openapi/route-mobile-webhooks-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 47
@@ -356,8 +356,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/route-
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vbs/api/v2/upload\n  method: post\n  operationId: campaignFileUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /callback\n  method: post\n  operationId: viberClientCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/v1/login/\n  method: post\n  operationId: loginApi2\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /viber-reports/api/v2/summary-cards\n  method: get\n  operationId: getSummaryCards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /viber-reports/api/v2/graph\n  method: get\n  operationId: getGraphReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /viber-reports/api/v2/media-cards\n  method: get\n  operationId: getMediaCards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /viber-reports/api/v2/camps\n  method:\
   \ get\n  operationId: getCampaignReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /viber-reports/api/v2/tabular\n  method: get\n  operationId: getDailyTabularReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /viber-reports/api/v2/viber_templates\n  method: get\n  operationId: listViberTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /viber-reports/api/v2/viber_templates\n  method: post\n  operationId: addViberTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /viber-report-creator/v1/fetch_reports\n  method: get\n  operationId: fetchReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /viber-report-creator/v1/create_report\n  method: post\n  operationId: createReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /viber-report-creator/v1/download/{file_name}\n  method: get\n  operationId: downloadReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/agentic-access/route-mobile-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/agentic-access/route-mobile-agentic-access.yml
+  \      - high-value\n    audit: required\n- path: /viber-report-creator/v1/fetch_reports\n  method: get\n  operationId: fetchReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /viber-report-creator/v1/create_report\n  method: post\n  operationId: createReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /viber-report-creator/v1/download/{file_name}\n  method: get\n  operationId: downloadReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/route-mobile/agentic-access/route-mobile-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/route-mobile/agentic-access/route-mobile-agentic-access.yml
 summary_line: 108 operations · 61 acting · 3 human-in-the-loop
 tags:
 - Telecommunications

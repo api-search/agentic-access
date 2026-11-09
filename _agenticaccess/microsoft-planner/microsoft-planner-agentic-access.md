@@ -9,31 +9,31 @@ api_specs:
   label: Microsoft Planner Buckets API
   slug: microsoft-planner-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-buckets-api-openapi.yml
 - filename: microsoft-planner-plan-details-api-openapi.yml
   format: yaml
   label: Microsoft Planner Plan Details API
   slug: microsoft-planner-plan-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-plan-details-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-plan-details-api-openapi.yml
 - filename: microsoft-planner-plans-api-openapi.yml
   format: yaml
   label: Microsoft Planner Plans API
   slug: microsoft-planner-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-plans-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-plans-api-openapi.yml
 - filename: microsoft-planner-task-details-api-openapi.yml
   format: yaml
   label: Microsoft Planner Task Details API
   slug: microsoft-planner-task-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-task-details-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-task-details-api-openapi.yml
 - filename: microsoft-planner-tasks-api-openapi.yml
   format: yaml
   label: Microsoft Planner Tasks API
   slug: microsoft-planner-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-planner/openapi/microsoft-planner-tasks-api-openapi.yml
 consequence_counts:
   read: 11
   write: 11
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Group.Read.All\n    - Group.ReadWrite.All\n    - Tasks.Read\n    - Tasks.ReadWrite\n- path: /planner/buckets/{bucket-id}\n  method: delete\n  operationId: deleteBucket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - Group.Read.All\n    - Group.ReadWrite.All\n    - Tasks.Read\n    - Tasks.ReadWrite\n- path: /planner/buckets/{bucket-id}/tasks\n  method: get\n  operationId: listBucketTasks\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Group.Read.All\n    - Group.ReadWrite.All\n    - Tasks.Read\n    - Tasks.ReadWrite\n- path: /groups/{group-id}/planner/plans\n  method: get\n  operationId: listGroupPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Group.Read.All\n    - Group.ReadWrite.All\n    - Tasks.Read\n    - Tasks.ReadWrite\n- path: /me/planner/tasks\n  method: get\n  operationId: listMyTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Group.Read.All\n    - Group.ReadWrite.All\n    - Tasks.Read\n    - Tasks.ReadWrite\n- path: /users/{user-id}/planner/tasks\n  method: get\n  operationId: listUserTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - Group.Read.All\n    - Group.ReadWrite.All\n    - Tasks.Read\n    - Tasks.ReadWrite\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/agentic-access/microsoft-planner-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-planner/agentic-access/microsoft-planner-agentic-access.yml
 summary_line: 22 operations · 11 acting
 tags:
 - Collaboration

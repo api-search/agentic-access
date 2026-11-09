@@ -9,55 +9,55 @@ api_specs:
   label: Groq Audio API
   slug: groq-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-audio-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-audio-api-openapi.yml
 - filename: groq-batch-api-openapi.yml
   format: yaml
   label: Groq Batch API
   slug: groq-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-batch-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-batch-api-openapi.yml
 - filename: groq-embeddings-api-openapi.yml
   format: yaml
   label: Groq Embeddings API
   slug: groq-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-embeddings-api-openapi.yml
 - filename: groq-files-api-openapi.yml
   format: yaml
   label: Groq Files API
   slug: groq-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-files-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-files-api-openapi.yml
 - filename: groq-fine-tuning-api-openapi.yml
   format: yaml
   label: Groq Fine Tuning API
   slug: groq-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-fine-tuning-api-openapi.yml
 - filename: groq-models-api-openapi.yml
   format: yaml
   label: Groq Models API
   slug: groq-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-models-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-models-api-openapi.yml
 - filename: groq-reranking-api-openapi.yml
   format: yaml
   label: Groq Reranking API
   slug: groq-reranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-reranking-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-reranking-api-openapi.yml
 - filename: groq-responses-api-openapi.yml
   format: yaml
   label: Groq Responses API
   slug: groq-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-responses-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-responses-api-openapi.yml
 - filename: groq-chat-completions-api-openapi.yml
   format: yaml
   label: Groq Chat Completions API
   slug: groq-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-chat-completions-api-openapi.yml
 consequence_counts:
   read: 9
   write: 14
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/groq-o
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fine_tunings\n  method: post\n  operationId: createFineTuning\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fine_tunings/{id}\n  method: delete\n  operationId: deleteFineTuning\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fine_tunings/{id}\n  method: get\n  operationId: getFineTuning\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /openai/v1/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openai/v1/models/{model}\n  method: get\n  operationId: retrieveModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openai/v1/models/{model}\n  method: delete\n  operationId: deleteModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openai/v1/reranking\n  method: post\n  operationId: createReranking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openai/v1/responses\n  method: post\n  operationId: createResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/agentic-access/groq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/groq/agentic-access/groq-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - Artificial Intelligence

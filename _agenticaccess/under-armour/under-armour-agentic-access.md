@@ -9,37 +9,37 @@ api_specs:
   label: Under Armour Devices API
   slug: under-armour-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-devices-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-devices-api-openapi.yml
 - filename: under-armour-heart-rate-zones-api-openapi.yml
   format: yaml
   label: Under Armour Heart Rate Zones API
   slug: under-armour-heart-rate-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-heart-rate-zones-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-heart-rate-zones-api-openapi.yml
 - filename: under-armour-routes-api-openapi.yml
   format: yaml
   label: Under Armour Routes API
   slug: under-armour-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-routes-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-routes-api-openapi.yml
 - filename: under-armour-users-api-openapi.yml
   format: yaml
   label: Under Armour Users API
   slug: under-armour-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-users-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-users-api-openapi.yml
 - filename: under-armour-webhooks-api-openapi.yml
   format: yaml
   label: Under Armour Webhooks API
   slug: under-armour-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-webhooks-api-openapi.yml
 - filename: under-armour-workouts-api-openapi.yml
   format: yaml
   label: Under Armour Workouts API
   slug: under-armour-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-workouts-api-openapi.yml
 consequence_counts:
   read: 10
   write: 9
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mapmyf
   \  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.1/user/{id}/\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v7.1/user/\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.1/heart_rate_zone/\n  method: get\n  operationId: listHeartRateZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.1/device/\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.1/webhook/\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.1/webhook/\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v7.1/webhook/{id}/\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/agentic-access/under-armour-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/under-armour/agentic-access/under-armour-agentic-access.yml
 summary_line: 19 operations · 9 acting
 tags:
 - Fitness

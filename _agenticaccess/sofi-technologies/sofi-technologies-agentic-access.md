@@ -9,217 +9,217 @@ api_specs:
   label: SoFi Technologies Account Events Webhook API
   slug: sofi-technologies-account-events-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-account-events-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-account-events-webhook-api-openapi.yml
 - filename: sofi-technologies-account-level-controls-api-openapi.yml
   format: yaml
   label: SoFi Technologies Account-Level Controls API
   slug: sofi-technologies-account-level-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-account-level-controls-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-account-level-controls-api-openapi.yml
 - filename: sofi-technologies-accounts-and-cards-api-openapi.yml
   format: yaml
   label: SoFi Technologies Accounts and Cards API
   slug: sofi-technologies-accounts-and-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-accounts-and-cards-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-accounts-and-cards-api-openapi.yml
 - filename: sofi-technologies-ach-debit-webhook-api-openapi.yml
   format: yaml
   label: SoFi Technologies ACH Debit Webhook API
   slug: sofi-technologies-ach-debit-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-ach-debit-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-ach-debit-webhook-api-openapi.yml
 - filename: sofi-technologies-alerts-api-openapi.yml
   format: yaml
   label: SoFi Technologies Alerts API
   slug: sofi-technologies-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-alerts-api-openapi.yml
 - filename: sofi-technologies-attachments-api-openapi.yml
   format: yaml
   label: SoFi Technologies Attachments API
   slug: sofi-technologies-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-attachments-api-openapi.yml
 - filename: sofi-technologies-auth-api-webhook-api-openapi.yml
   format: yaml
   label: SoFi Technologies Auth API Webhook API
   slug: sofi-technologies-auth-api-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-auth-api-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-auth-api-webhook-api-openapi.yml
 - filename: sofi-technologies-authorization-events-webhook-api-openapi.yml
   format: yaml
   label: SoFi Technologies Authorization Events Webhook API
   slug: sofi-technologies-authorization-events-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-authorization-events-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-authorization-events-webhook-api-openapi.yml
 - filename: sofi-technologies-billpay-webhook-api-openapi.yml
   format: yaml
   label: SoFi Technologies Billpay Webhook API
   slug: sofi-technologies-billpay-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-billpay-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-billpay-webhook-api-openapi.yml
 - filename: sofi-technologies-claim-api-openapi.yml
   format: yaml
   label: SoFi Technologies Claim API
   slug: sofi-technologies-claim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-claim-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-claim-api-openapi.yml
 - filename: sofi-technologies-configuration-api-openapi.yml
   format: yaml
   label: SoFi Technologies Configuration API
   slug: sofi-technologies-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-configuration-api-openapi.yml
 - filename: sofi-technologies-corporate-credit-and-rtf-api-openapi.yml
   format: yaml
   label: SoFi Technologies Corporate Credit and RTF API
   slug: sofi-technologies-corporate-credit-and-rtf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-corporate-credit-and-rtf-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-corporate-credit-and-rtf-api-openapi.yml
 - filename: sofi-technologies-corporate-hierarchy-api-openapi.yml
   format: yaml
   label: SoFi Technologies Corporate Hierarchy API
   slug: sofi-technologies-corporate-hierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-corporate-hierarchy-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-corporate-hierarchy-api-openapi.yml
 - filename: sofi-technologies-credit-api-openapi.yml
   format: yaml
   label: SoFi Technologies Credit API
   slug: sofi-technologies-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-credit-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-credit-api-openapi.yml
 - filename: sofi-technologies-dispute-management-api-openapi.yml
   format: yaml
   label: SoFi Technologies Dispute Management API
   slug: sofi-technologies-dispute-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-dispute-management-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-dispute-management-api-openapi.yml
 - filename: sofi-technologies-disputed-transactions-api-openapi.yml
   format: yaml
   label: SoFi Technologies Disputed Transactions API
   slug: sofi-technologies-disputed-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-disputed-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-disputed-transactions-api-openapi.yml
 - filename: sofi-technologies-documents-api-openapi.yml
   format: yaml
   label: SoFi Technologies Documents API
   slug: sofi-technologies-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-documents-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-documents-api-openapi.yml
 - filename: sofi-technologies-external-account-links-api-openapi.yml
   format: yaml
   label: SoFi Technologies External Account Links API
   slug: sofi-technologies-external-account-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-external-account-links-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-external-account-links-api-openapi.yml
 - filename: sofi-technologies-federal-benefit-enrollment-api-openapi.yml
   format: yaml
   label: SoFi Technologies Federal Benefit Enrollment API
   slug: sofi-technologies-federal-benefit-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-federal-benefit-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-federal-benefit-enrollment-api-openapi.yml
 - filename: sofi-technologies-instant-issue-api-openapi.yml
   format: yaml
   label: SoFi Technologies Instant Issue API
   slug: sofi-technologies-instant-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-instant-issue-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-instant-issue-api-openapi.yml
 - filename: sofi-technologies-intake-api-openapi.yml
   format: yaml
   label: SoFi Technologies Intake API
   slug: sofi-technologies-intake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-intake-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-intake-api-openapi.yml
 - filename: sofi-technologies-intake-flow-api-openapi.yml
   format: yaml
   label: SoFi Technologies Intake Flow API
   slug: sofi-technologies-intake-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-intake-flow-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-intake-flow-api-openapi.yml
 - filename: sofi-technologies-ivr-api-openapi.yml
   format: yaml
   label: SoFi Technologies IVR API
   slug: sofi-technologies-ivr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-ivr-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-ivr-api-openapi.yml
 - filename: sofi-technologies-ivs-api-openapi.yml
   format: yaml
   label: SoFi Technologies IVS API
   slug: sofi-technologies-ivs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-ivs-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-ivs-api-openapi.yml
 - filename: sofi-technologies-loan-api-openapi.yml
   format: yaml
   label: SoFi Technologies Loan API
   slug: sofi-technologies-loan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-loan-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-loan-api-openapi.yml
 - filename: sofi-technologies-location-management-api-openapi.yml
   format: yaml
   label: SoFi Technologies Location Management API
   slug: sofi-technologies-location-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-location-management-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-location-management-api-openapi.yml
 - filename: sofi-technologies-miscellaneous-api-openapi.yml
   format: yaml
   label: SoFi Technologies Miscellaneous API
   slug: sofi-technologies-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-miscellaneous-api-openapi.yml
 - filename: sofi-technologies-overdraft-api-openapi.yml
   format: yaml
   label: SoFi Technologies Overdraft API
   slug: sofi-technologies-overdraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-overdraft-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-overdraft-api-openapi.yml
 - filename: sofi-technologies-risk-api-openapi.yml
   format: yaml
   label: SoFi Technologies Risk API
   slug: sofi-technologies-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-risk-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-risk-api-openapi.yml
 - filename: sofi-technologies-settlement-events-webhook-api-openapi.yml
   format: yaml
   label: SoFi Technologies Settlement Events Webhook API
   slug: sofi-technologies-settlement-events-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-settlement-events-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-settlement-events-webhook-api-openapi.yml
 - filename: sofi-technologies-status-api-openapi.yml
   format: yaml
   label: SoFi Technologies Status API
   slug: sofi-technologies-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-status-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-status-api-openapi.yml
 - filename: sofi-technologies-tasks-api-openapi.yml
   format: yaml
   label: SoFi Technologies Tasks API
   slug: sofi-technologies-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-tasks-api-openapi.yml
 - filename: sofi-technologies-transaction-events-webhook-api-openapi.yml
   format: yaml
   label: SoFi Technologies Transaction Events Webhook API
   slug: sofi-technologies-transaction-events-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-transaction-events-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-transaction-events-webhook-api-openapi.yml
 - filename: sofi-technologies-transaction-simulation-api-openapi.yml
   format: yaml
   label: SoFi Technologies Transaction Simulation API
   slug: sofi-technologies-transaction-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-transaction-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-transaction-simulation-api-openapi.yml
 - filename: sofi-technologies-transactions-api-openapi.yml
   format: yaml
   label: SoFi Technologies Transactions API
   slug: sofi-technologies-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-transactions-api-openapi.yml
 - filename: sofi-technologies-transfers-api-openapi.yml
   format: yaml
   label: SoFi Technologies Transfers API
   slug: sofi-technologies-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/openapi/sofi-technologies-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/sofi-technologies/openapi/sofi-technologies-transfers-api-openapi.yml
 consequence_counts:
   physical: 24
   read: 89
@@ -408,8 +408,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sofi-t
   - path: /createGroup\n  method: post\n  operationId: post_creategroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updateGroup\n  method: post\n  operationId: post_updategroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getRootGroups\n  method: post\n  operationId: post_getrootgroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getGroupsInfo\n  method: post\n  operationId: post_getgroupsinfo\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /setAccountGroupRelationships\n  method: post\n  operationId: post_setaccountgrouprelationships\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /removeAccountGroupRelationship\n  method: post\n  operationId: post_removeaccountgrouprelationship\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /getGroupHierarchy\n  method: post\n  operationId: post_getgrouphierarchy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getAccountGroupRelationships\n  method: post\n  operationId: post_getaccountgrouprelationships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deleteGroups\n  method: post\n  operationId: post_deletegroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getCreditLimitChangeHistory\n  method: post\n  operationId: post_getcreditlimitchangehistory\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /setCreditLimit\n  method: post\n  operationId: post_setcreditlimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getCreditSummary\n  method: post\n  operationId: post_getcreditsummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (81 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/agentic-access/sofi-technologies-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sofi-technologies/refs/heads/main/agentic-access/sofi-technologies-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /setCreditLimit\n  method: post\n  operationId: post_setcreditlimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getCreditSummary\n  method: post\n  operationId: post_getcreditsummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (81 KB total) ---\n# Full source: https://artifacts.apis.io/sofi-technologies/agentic-access/sofi-technologies-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/sofi-technologies/agentic-access/sofi-technologies-agentic-access.yml
 summary_line: 258 operations · 169 acting · 8 human-in-the-loop
 tags:
 - Fintech

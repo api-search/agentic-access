@@ -9,31 +9,31 @@ api_specs:
   label: Verizon Accounts API
   slug: verizon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-accounts-api-openapi.yml
 - filename: verizon-callbacks-api-openapi.yml
   format: yaml
   label: Verizon Callbacks API
   slug: verizon-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-callbacks-api-openapi.yml
 - filename: verizon-devices-api-openapi.yml
   format: yaml
   label: Verizon Devices API
   slug: verizon-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-devices-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-devices-api-openapi.yml
 - filename: verizon-session-api-openapi.yml
   format: yaml
   label: Verizon Session API
   slug: verizon-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-session-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-session-api-openapi.yml
 - filename: verizon-sms-api-openapi.yml
   format: yaml
   label: Verizon SMS API
   slug: verizon-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-sms-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-sms-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/verizo
   \  operationId: listRegisteredCallbacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /callbacks/{accountName}\n  method: post\n  operationId: registerCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountName}/devices/actions/list\n  method: post\n  operationId: listDevicesInAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountName}/devices/actions/activate\n  method: post\n  operationId: activateDevices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountName}/devices/actions/deactivate\n  method: post\n  operationId: deactivateDevices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/login\n  method: post\n  operationId: loginSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/{accountName}/actions/send\n  method: post\n  operationId: sendSmsToDevices\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/agentic-access/verizon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/verizon/agentic-access/verizon-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Wireless

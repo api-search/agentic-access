@@ -9,55 +9,55 @@ api_specs:
   label: Thermo Fisher Scientific Authentication API
   slug: thermo-fisher-scientific-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-authentication-api-openapi.yml
 - filename: thermo-fisher-scientific-entities-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Entities API
   slug: thermo-fisher-scientific-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-entities-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-entities-api-openapi.yml
 - filename: thermo-fisher-scientific-export-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Export API
   slug: thermo-fisher-scientific-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-export-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-export-api-openapi.yml
 - filename: thermo-fisher-scientific-instrument-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Instrument API
   slug: thermo-fisher-scientific-instrument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-instrument-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-instrument-api-openapi.yml
 - filename: thermo-fisher-scientific-measurements-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Measurements API
   slug: thermo-fisher-scientific-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-measurements-api-openapi.yml
 - filename: thermo-fisher-scientific-methods-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Methods API
   slug: thermo-fisher-scientific-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-methods-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-methods-api-openapi.yml
 - filename: thermo-fisher-scientific-results-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Results API
   slug: thermo-fisher-scientific-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-results-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-results-api-openapi.yml
 - filename: thermo-fisher-scientific-samples-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Samples API
   slug: thermo-fisher-scientific-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-samples-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-samples-api-openapi.yml
 - filename: thermo-fisher-scientific-workflows-api-openapi.yml
   format: yaml
   label: Thermo Fisher Scientific Workflows API
   slug: thermo-fisher-scientific-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/openapi/thermo-fisher-scientific-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/thermo-fisher-scientific/openapi/thermo-fisher-scientific-workflows-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/thermo
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mobile/login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mobile/logout\n  method: post\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mobile/browses/{entity}\n  method: get\n  operationId: browseEntity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mobile/browses/{entity}/{id}\n  method: get\n  operationId: getEntityById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mobile/samples\n  method: get\n  operationId: getSamples\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mobile/samples/{sampleId}\n  method: get\n  operationId: getSampleById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mobile/samples/{sampleId}/results\n  method: get\n  operationId: getSampleResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mobile/results\n\
   \  method: post\n  operationId: submitResults\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mobile/workflows/{workflowName}/trigger\n  method: post\n  operationId: triggerWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/agentic-access/thermo-fisher-scientific-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thermo-fisher-scientific/agentic-access/thermo-fisher-scientific-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Life Sciences

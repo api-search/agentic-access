@@ -9,67 +9,67 @@ api_specs:
   label: BRL Accounts API
   slug: brl-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-accounts-api-openapi.yml
 - filename: brl-assets-api-openapi.yml
   format: yaml
   label: BRL Assets API
   slug: brl-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-assets-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-assets-api-openapi.yml
 - filename: brl-claims-api-openapi.yml
   format: yaml
   label: BRL Claims API
   slug: brl-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-claims-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-claims-api-openapi.yml
 - filename: brl-nft-transfers-api-openapi.yml
   format: yaml
   label: BRL Nft Transfers API
   slug: brl-nft-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-nft-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-nft-transfers-api-openapi.yml
 - filename: brl-orders-api-openapi.yml
   format: yaml
   label: BRL Orders API
   slug: brl-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-orders-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-orders-api-openapi.yml
 - filename: brl-quotes-api-openapi.yml
   format: yaml
   label: BRL Quotes API
   slug: brl-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-quotes-api-openapi.yml
 - filename: brl-tax-exemption-api-openapi.yml
   format: yaml
   label: BRL Tax Exemption API
   slug: brl-tax-exemption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-tax-exemption-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-tax-exemption-api-openapi.yml
 - filename: brl-transfers-api-openapi.yml
   format: yaml
   label: BRL Transfers API
   slug: brl-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-transfers-api-openapi.yml
 - filename: brl-wallets-api-openapi.yml
   format: yaml
   label: BRL Wallets API
   slug: brl-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-wallets-api-openapi.yml
 - filename: brl-withdrawals-api-openapi.yml
   format: yaml
   label: BRL Withdrawals API
   slug: brl-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-withdrawals-api-openapi.yml
 - filename: brl-crown-api-webhooks-api-openapi.yml
   format: yaml
   label: BRL Crown API & Webhooks API
   slug: brl-crown-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-crown-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-crown-api-webhooks-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 38
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/brl-op
   \    audit: required\n- path: /api/v0/assets/{asset}/balance\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts/{account-id}/auto-claims\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts/{account-id}/auto-claims\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/{account-id}/nft-transfers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/accounts/{account-id}/nft-transfers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/wallets/{wallet-address}/claims/certificates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts/{account-id}/wallets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts/{account-id}/wallets\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/agentic-access/brl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brl/agentic-access/brl-agentic-access.yml
 summary_line: 65 operations · 27 acting
 tags:
 - Company

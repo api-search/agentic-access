@@ -8,79 +8,79 @@ api_specs:
   label: Transit Alerts API
   slug: transit-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-alerts-api-openapi.yml
 - filename: transit-departures-api-openapi.yml
   format: yaml
   label: Transit Departures API
   slug: transit-departures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-departures-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-departures-api-openapi.yml
 - filename: transit-mobility-api-openapi.yml
   format: yaml
   label: Transit Mobility API
   slug: transit-mobility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-mobility-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-mobility-api-openapi.yml
 - filename: transit-networks-api-openapi.yml
   format: yaml
   label: Transit Networks API
   slug: transit-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-networks-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-networks-api-openapi.yml
 - filename: transit-routes-api-openapi.yml
   format: yaml
   label: Transit Routes API
   slug: transit-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-routes-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-routes-api-openapi.yml
 - filename: transit-stops-api-openapi.yml
   format: yaml
   label: Transit Stops API
   slug: transit-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-stops-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-stops-api-openapi.yml
 - filename: transit-trips-api-openapi.yml
   format: yaml
   label: Transit Trips API
   slug: transit-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-trips-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-trips-api-openapi.yml
 - filename: transit-locations-api-openapi.yml
   format: yaml
   label: Transit Locations API
   slug: transit-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-locations-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-locations-api-openapi.yml
 - filename: transit-nearby-routes-api-openapi.yml
   format: yaml
   label: Transit Nearby Routes API
   slug: transit-nearby-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-nearby-routes-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-nearby-routes-api-openapi.yml
 - filename: transit-nearby-stops-api-openapi.yml
   format: yaml
   label: Transit Nearby Stops API
   slug: transit-nearby-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-nearby-stops-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-nearby-stops-api-openapi.yml
 - filename: transit-route-details-api-openapi.yml
   format: yaml
   label: Transit Route Details API
   slug: transit-route-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-route-details-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-route-details-api-openapi.yml
 - filename: transit-service-alerts-api-openapi.yml
   format: yaml
   label: Transit Service Alerts API
   slug: transit-service-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-service-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-service-alerts-api-openapi.yml
 - filename: transit-trip-planning-api-openapi.yml
   format: yaml
   label: Transit Trip Planning API
   slug: transit-trip-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/openapi/transit-trip-planning-api-openapi.yml
+  url: https://artifacts.apis.io/transit/openapi/transit-trip-planning-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -108,7 +108,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/transit-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /public/stop_departures\n  method: get\n  operationId: getStopDepartures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/networks\n  method: get\n  operationId: listNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/routes\n  method: get\n  operationId: listRoutes\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/stops\n  method: get\n  operationId: listStops\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/trip\n  method: get\n  operationId: planTrip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/alerts\n  method: get\n  operationId: getServiceAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/nearby_vehicles\n  method: get\n  operationId: getNearbyVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/agentic-access/transit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/transit/agentic-access/transit-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Transit

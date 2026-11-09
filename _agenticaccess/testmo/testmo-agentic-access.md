@@ -9,43 +9,43 @@ api_specs:
   label: Testmo Automation Runs API
   slug: testmo-automation-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-automation-runs-api-openapi.yml
+  url: https://artifacts.apis.io/testmo/openapi/testmo-automation-runs-api-openapi.yml
 - filename: testmo-automation-sources-api-openapi.yml
   format: yaml
   label: Testmo Automation Sources API
   slug: testmo-automation-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-automation-sources-api-openapi.yml
+  url: https://artifacts.apis.io/testmo/openapi/testmo-automation-sources-api-openapi.yml
 - filename: testmo-milestones-api-openapi.yml
   format: yaml
   label: Testmo Milestones API
   slug: testmo-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/testmo/openapi/testmo-milestones-api-openapi.yml
 - filename: testmo-projects-api-openapi.yml
   format: yaml
   label: Testmo Projects API
   slug: testmo-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-projects-api-openapi.yml
+  url: https://artifacts.apis.io/testmo/openapi/testmo-projects-api-openapi.yml
 - filename: testmo-sessions-api-openapi.yml
   format: yaml
   label: Testmo Sessions API
   slug: testmo-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/testmo/openapi/testmo-sessions-api-openapi.yml
 - filename: testmo-test-case-management-api-openapi.yml
   format: yaml
   label: Testmo Test Case Management API
   slug: testmo-test-case-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-test-case-management-api-openapi.yml
+  url: https://artifacts.apis.io/testmo/openapi/testmo-test-case-management-api-openapi.yml
 - filename: testmo-test-runs-api-openapi.yml
   format: yaml
   label: Testmo Test Runs API
   slug: testmo-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/testmo/openapi/testmo-test-runs-api-openapi.yml
 consequence_counts:
   read: 16
   write: 7
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/testmo
   \      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/cases\n  method: patch\n  operationId: updateCases\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/cases\n  method: delete\n  operationId: deleteCases\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folders\n  method: get\n  operationId: listFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folders\n\
   \  method: post\n  operationId: createFolders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folders\n  method: patch\n  operationId: updateFolders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folders\n  method: delete\n  operationId: deleteFolders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /cases/{case_id}/attachments\n  method: get\n  operationId: listCaseAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cases/{case_id}/attachments\n  method: post\n  operationId: uploadCaseAttachments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/agentic-access/testmo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/testmo/agentic-access/testmo-agentic-access.yml
 summary_line: 23 operations · 7 acting
 tags:
 - Test Runs

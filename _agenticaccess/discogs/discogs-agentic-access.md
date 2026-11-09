@@ -9,49 +9,49 @@ api_specs:
   label: Discogs Database API
   slug: discogs-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-database-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-database-api-openapi.yml
 - filename: discogs-image-api-openapi.yml
   format: yaml
   label: Discogs Image API
   slug: discogs-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-image-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-image-api-openapi.yml
 - filename: discogs-inventory-management-api-openapi.yml
   format: yaml
   label: Discogs Inventory Management API
   slug: discogs-inventory-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-inventory-management-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-inventory-management-api-openapi.yml
 - filename: discogs-marketplace-api-openapi.yml
   format: yaml
   label: Discogs Marketplace API
   slug: discogs-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-marketplace-api-openapi.yml
 - filename: discogs-user-collection-api-openapi.yml
   format: yaml
   label: Discogs User Collection API
   slug: discogs-user-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-collection-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-collection-api-openapi.yml
 - filename: discogs-user-identity-api-openapi.yml
   format: yaml
   label: Discogs User Identity API
   slug: discogs-user-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-identity-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-identity-api-openapi.yml
 - filename: discogs-user-lists-api-openapi.yml
   format: yaml
   label: Discogs User Lists API
   slug: discogs-user-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-lists-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-lists-api-openapi.yml
 - filename: discogs-user-wantlist-api-openapi.yml
   format: yaml
   label: Discogs User Wantlist API
   slug: discogs-user-wantlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-wantlist-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-wantlist-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 34
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/discog
   \  method: post\n  operationId: createCollectionFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{username}/collection/folders/{folder_id}/releases\n  method: get\n  operationId: getCollectionItemsByFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/collection/folders/{folder_id}/releases/{release_id}\n  method: post\n  operationId: addReleaseToCollectionFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /users/{username}/contributions\n  method: get\n  operationId: getUserContributions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/inventory\n  method: get\n  operationId: getUserInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/lists\n  method: get\n  operationId: getUserLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/submissions\n  method: get\n  operationId: getUserSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/wants\n  method: get\n \
   \ operationId: getUserWantlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/wants/{release_id}\n  method: put\n  operationId: addReleaseToWantlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{username}/wants/{release_id}\n  method: delete\n  operationId: deleteReleaseFromWantlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/agentic-access/discogs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/discogs/agentic-access/discogs-agentic-access.yml
 summary_line: 50 operations · 16 acting
 tags:
 - Music

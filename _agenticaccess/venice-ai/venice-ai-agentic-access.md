@@ -9,109 +9,109 @@ api_specs:
   label: Venice.ai API Keys API
   slug: venice-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-api-keys-api-openapi.yml
 - filename: venice-ai-audio-api-openapi.yml
   format: yaml
   label: Venice.ai Audio API
   slug: venice-ai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-audio-api-openapi.yml
 - filename: venice-ai-augment-api-openapi.yml
   format: yaml
   label: Venice.ai Augment API
   slug: venice-ai-augment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-augment-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-augment-api-openapi.yml
 - filename: venice-ai-billing-api-openapi.yml
   format: yaml
   label: Venice.ai Billing API
   slug: venice-ai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-billing-api-openapi.yml
 - filename: venice-ai-characters-api-openapi.yml
   format: yaml
   label: Venice.ai Characters API
   slug: venice-ai-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-characters-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-characters-api-openapi.yml
 - filename: venice-ai-crypto-rpc-api-openapi.yml
   format: yaml
   label: Venice.ai Crypto RPC API
   slug: venice-ai-crypto-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-crypto-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-crypto-rpc-api-openapi.yml
 - filename: venice-ai-decisions-api-openapi.yml
   format: yaml
   label: Venice.ai Decisions API
   slug: venice-ai-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-decisions-api-openapi.yml
 - filename: venice-ai-embeddings-api-openapi.yml
   format: yaml
   label: Venice.ai Embeddings API
   slug: venice-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-embeddings-api-openapi.yml
 - filename: venice-ai-image-api-openapi.yml
   format: yaml
   label: Venice.ai Image API
   slug: venice-ai-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-image-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-image-api-openapi.yml
 - filename: venice-ai-models-api-openapi.yml
   format: yaml
   label: Venice.ai Models API
   slug: venice-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-models-api-openapi.yml
 - filename: venice-ai-preview-api-openapi.yml
   format: yaml
   label: Venice.ai Preview API
   slug: venice-ai-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-preview-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-preview-api-openapi.yml
 - filename: venice-ai-responses-api-openapi.yml
   format: yaml
   label: Venice.ai Responses API
   slug: venice-ai-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-responses-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-responses-api-openapi.yml
 - filename: venice-ai-speech-api-openapi.yml
   format: yaml
   label: Venice.ai Speech API
   slug: venice-ai-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-speech-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-speech-api-openapi.yml
 - filename: venice-ai-transcriptions-api-openapi.yml
   format: yaml
   label: Venice.ai Transcriptions API
   slug: venice-ai-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-transcriptions-api-openapi.yml
 - filename: venice-ai-video-api-openapi.yml
   format: yaml
   label: Venice.ai Video API
   slug: venice-ai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-video-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-video-api-openapi.yml
 - filename: venice-ai-voices-api-openapi.yml
   format: yaml
   label: Venice.ai Voices API
   slug: venice-ai-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-voices-api-openapi.yml
 - filename: venice-ai-x402-api-openapi.yml
   format: yaml
   label: Venice.ai X402 API
   slug: venice-ai-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-x402-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-x402-api-openapi.yml
 - filename: venice-ai-chat-completions-api-openapi.yml
   format: yaml
   label: Venice.ai Chat Completions API
   slug: venice-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/openapi/venice-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/venice-ai/openapi/venice-ai-chat-completions-api-openapi.yml
 consequence_counts:
   read: 22
   write: 33
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/venice
   \    audit: required\n- path: /billing/balance\n  method: get\n  operationId: getBillingBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/usage\n  method: get\n  operationId: getBillingUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/usage-analytics\n  method: get\n  operationId: getBillingUsageAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/usage-history\n  method: get\n  operationId: getBillingUsageHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crypto/rpc/networks\n  method: get\n  operationId: listCryptoRpcNetworks\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crypto/rpc/{network}\n  method: post\n  operationId: cryptoRpcProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /x402/balance/{walletAddress}\n  method: get\n  operationId: getX402Balance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /x402/top-up\n  method: post\n  operationId: topUpX402Balance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /x402/transactions/{walletAddress}\n  method: get\n  operationId: getX402Transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /augment/scrape\n  method: post\n  operationId: webScrape\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /augment/search\n  method: post\n  operationId: webSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/venice-ai/refs/heads/main/agentic-access/venice-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/venice-ai/agentic-access/venice-ai-agentic-access.yml
 summary_line: 55 operations · 33 acting
 tags:
 - Company

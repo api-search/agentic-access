@@ -8,25 +8,25 @@ api_specs:
   label: Helidon Health API
   slug: helidon-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-health-api-openapi.yml
+  url: https://artifacts.apis.io/helidon/openapi/helidon-health-api-openapi.yml
 - filename: helidon-info-api-openapi.yml
   format: yaml
   label: Helidon Info API
   slug: helidon-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-info-api-openapi.yml
+  url: https://artifacts.apis.io/helidon/openapi/helidon-info-api-openapi.yml
 - filename: helidon-metrics-api-openapi.yml
   format: yaml
   label: Helidon Metrics API
   slug: helidon-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/helidon/openapi/helidon-metrics-api-openapi.yml
 - filename: helidon-open-api-api-openapi.yml
   format: yaml
   label: Helidon Open API
   slug: helidon-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/helidon/openapi/helidon-open-api-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/helidon-observe-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /observe/health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observe/health/live\n  method: get\n  operationId: getLiveness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observe/health/ready\n  method: get\n  operationId: getReadiness\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observe/health/started\n  method: get\n  operationId: getStartup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observe/metrics\n  method: get\n  operationId: getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observe/metrics/application\n  method: get\n  operationId: getApplicationMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observe/metrics/vendor\n  method: get\n  operationId: getVendorMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /observe/metrics/base\n  method: get\n  operationId: getBaseMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observe/info\n  method: get\n  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi\n  method: get\n  operationId: getOpenAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/agentic-access/helidon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/helidon/agentic-access/helidon-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Cloud-Native

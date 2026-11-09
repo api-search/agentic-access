@@ -9,25 +9,25 @@ api_specs:
   label: Academy Software Foundation Hosts API
   slug: academy-software-foundation-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/academy-software-foundation/openapi/academy-software-foundation-hosts-api-openapi.yml
 - filename: academy-software-foundation-jobs-api-openapi.yml
   format: yaml
   label: Academy Software Foundation Jobs API
   slug: academy-software-foundation-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/academy-software-foundation/openapi/academy-software-foundation-jobs-api-openapi.yml
 - filename: academy-software-foundation-layers-api-openapi.yml
   format: yaml
   label: Academy Software Foundation Layers API
   slug: academy-software-foundation-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-layers-api-openapi.yml
+  url: https://artifacts.apis.io/academy-software-foundation/openapi/academy-software-foundation-layers-api-openapi.yml
 - filename: academy-software-foundation-shows-api-openapi.yml
   format: yaml
   label: Academy Software Foundation Shows API
   slug: academy-software-foundation-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-shows-api-openapi.yml
+  url: https://artifacts.apis.io/academy-software-foundation/openapi/academy-software-foundation-shows-api-openapi.yml
 consequence_counts:
   read: 5
   safety-critical: 1
@@ -63,7 +63,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/academy-software-foundation-opencue.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 5\n    acting: 1\n  by_consequence:\n    read: 5\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /api/show\n  method: get\n  operationId: listShows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/show/{show_id}/job\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/job/{job_id}\n\
   \  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/job/{job_id}\n  method: delete\n  operationId: killJob\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/job/{job_id}/layer\n  method: get\n  operationId: listLayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/host\n  method: get\n  operationId: listHosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/agentic-access/academy-software-foundation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/academy-software-foundation/agentic-access/academy-software-foundation-agentic-access.yml
 summary_line: 6 operations · 1 acting · 1 human-in-the-loop
 tags:
 - Animation

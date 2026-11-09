@@ -9,19 +9,19 @@ api_specs:
   label: WATI Contacts API
   slug: wati-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-contacts-api-openapi.yml
 - filename: wati-messages-api-openapi.yml
   format: yaml
   label: WATI Messages API
   slug: wati-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-messages-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-messages-api-openapi.yml
 - filename: wati-templates-api-openapi.yml
   format: yaml
   label: WATI Templates API
   slug: wati-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-templates-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-templates-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 2
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wati-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 2\n    acting: 2\n  by_consequence:\n    read: 2\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /getContacts\n  method: get\n  operationId: getContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getMessages/{whatsappNumber}\n  method: get\n  operationId: getMessagesByNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sendTemplateMessage\n\
   \  method: post\n  operationId: sendTemplateMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sendSessionMessage/{whatsappNumber}\n  method: post\n  operationId: sendSessionMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/agentic-access/wati-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wati/agentic-access/wati-agentic-access.yml
 summary_line: 4 operations · 2 acting
 tags:
 - WhatsApp

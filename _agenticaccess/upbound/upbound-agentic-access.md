@@ -9,31 +9,31 @@ api_specs:
   label: Upbound Control Planes API
   slug: upbound-control-planes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-control-planes-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-control-planes-api-openapi.yml
 - filename: upbound-organizations-api-openapi.yml
   format: yaml
   label: Upbound Organizations API
   slug: upbound-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-organizations-api-openapi.yml
 - filename: upbound-repositories-api-openapi.yml
   format: yaml
   label: Upbound Repositories API
   slug: upbound-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-repositories-api-openapi.yml
 - filename: upbound-robots-api-openapi.yml
   format: yaml
   label: Upbound Robots API
   slug: upbound-robots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-robots-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-robots-api-openapi.yml
 - filename: upbound-teams-api-openapi.yml
   format: yaml
   label: Upbound Teams API
   slug: upbound-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-teams-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-teams-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 3
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/upboun
   \ required\n- path: /organizations/{orgName}/repositories\n  method: get\n  operationId: listRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{orgName}/repositories\n  method: post\n  operationId: createRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{orgName}/repositories/{repoName}\n  method: get\n  operationId: getRepository\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{orgName}/repositories/{repoName}\n  method: delete\n  operationId: deleteRepository\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{orgName}/robots\n  method: get\n  operationId: listRobots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{orgName}/robots\n  method: post\n  operationId: createRobot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{orgName}/robots/{robotName}\n  method: get\n  operationId: getRobot\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{orgName}/robots/{robotName}\n  method: delete\n  operationId: deleteRobot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{orgName}/robots/{robotName}/tokens\n  method: post\n  operationId: createRobotToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/agentic-access/upbound-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/upbound/agentic-access/upbound-agentic-access.yml
 summary_line: 23 operations · 13 acting · 3 human-in-the-loop
 tags:
 - Cloud Infrastructure

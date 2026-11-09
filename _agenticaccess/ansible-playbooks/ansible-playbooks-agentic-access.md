@@ -9,73 +9,73 @@ api_specs:
   label: Ansible Playbooks Auth API
   slug: ansible-playbooks-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-auth-api-openapi.yml
 - filename: ansible-playbooks-credentials-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Credentials API
   slug: ansible-playbooks-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-credentials-api-openapi.yml
 - filename: ansible-playbooks-hosts-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Hosts API
   slug: ansible-playbooks-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-hosts-api-openapi.yml
 - filename: ansible-playbooks-inventories-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Inventories API
   slug: ansible-playbooks-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-inventories-api-openapi.yml
 - filename: ansible-playbooks-job-templates-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Job Templates API
   slug: ansible-playbooks-job-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-job-templates-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-job-templates-api-openapi.yml
 - filename: ansible-playbooks-jobs-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Jobs API
   slug: ansible-playbooks-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-jobs-api-openapi.yml
 - filename: ansible-playbooks-organizations-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Organizations API
   slug: ansible-playbooks-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-organizations-api-openapi.yml
 - filename: ansible-playbooks-projects-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Projects API
   slug: ansible-playbooks-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-projects-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-projects-api-openapi.yml
 - filename: ansible-playbooks-schedules-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Schedules API
   slug: ansible-playbooks-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-schedules-api-openapi.yml
 - filename: ansible-playbooks-users-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Users API
   slug: ansible-playbooks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-users-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-users-api-openapi.yml
 - filename: ansible-playbooks-workflow-job-templates-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Workflow Job Templates API
   slug: ansible-playbooks-workflow-job-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-workflow-job-templates-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-workflow-job-templates-api-openapi.yml
 - filename: ansible-playbooks-workflow-jobs-api-openapi.yml
   format: yaml
   label: Ansible Playbooks Workflow Jobs API
   slug: ansible-playbooks-workflow-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/openapi/ansible-playbooks-workflow-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-playbooks/openapi/ansible-playbooks-workflow-jobs-api-openapi.yml
 consequence_counts:
   read: 18
   write: 15
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ansibl
   \      - abnormal\n      - high-value\n    audit: required\n- path: /job_templates/{id}/\n  method: get\n  operationId: getJobTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job_templates/{id}/launch/\n  method: post\n  operationId: launchJobTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{id}/\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{id}/cancel/\n  method: post\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{id}/stdout/\n  method: get\n  operationId: getJobStdout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow_job_templates/\n  method: get\n  operationId: listWorkflowJobTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow_job_templates/{id}/launch/\n  method: post\n  operationId: launchWorkflowJobTemplate\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow_jobs/\n  method: get\n  operationId: listWorkflowJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules/\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/agentic-access/ansible-playbooks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ansible-playbooks/agentic-access/ansible-playbooks-agentic-access.yml
 summary_line: 33 operations · 15 acting
 tags:
 - Ansible

@@ -9,37 +9,37 @@ api_specs:
   label: SamCart Charges API
   slug: samcart-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-charges-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-charges-api-openapi.yml
 - filename: samcart-customers-api-openapi.yml
   format: yaml
   label: SamCart Customers API
   slug: samcart-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-customers-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-customers-api-openapi.yml
 - filename: samcart-orders-api-openapi.yml
   format: yaml
   label: SamCart Orders API
   slug: samcart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-orders-api-openapi.yml
 - filename: samcart-products-api-openapi.yml
   format: yaml
   label: SamCart Products API
   slug: samcart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-products-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-products-api-openapi.yml
 - filename: samcart-refunds-api-openapi.yml
   format: yaml
   label: SamCart Refunds API
   slug: samcart-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-refunds-api-openapi.yml
 - filename: samcart-subscriptions-api-openapi.yml
   format: yaml
   label: SamCart Subscriptions API
   slug: samcart-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/openapi/samcart-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/samcart/openapi/samcart-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/samcar
   \    audit: none\n- path: /customers/{customer_id}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscription_id}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscription_id}/cancel\n  method: post\n  operationId: cancelSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n   \
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscription_id}/schedule-cancellation\n  method: post\n  operationId: scheduleSubscriptionCancellation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /charges\n  method: get\n  operationId: listCharges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /charges/{charge_id}\n  method: get\n  operationId: getCharge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /charges/{charge_id}/refund\n  method: post\n  operationId: refundCharge\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refunds\n  method: get\n  operationId: listRefunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refunds/{refund_id}\n  method: get\n  operationId: getRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/agentic-access/samcart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/samcart/agentic-access/samcart-agentic-access.yml
 summary_line: 16 operations · 4 acting
 tags:
 - E-Commerce

@@ -9,121 +9,121 @@ api_specs:
   label: WooCommerce Webhook Events
   slug: webhook-events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/asyncapi/woocommerce-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/woocommerce/asyncapi/woocommerce-webhooks-asyncapi.yml
 - filename: woocommerce-cart-api-openapi.yml
   format: yaml
   label: WooCommerce Cart API
   slug: woocommerce-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-cart-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-cart-api-openapi.yml
 - filename: woocommerce-checkout-api-openapi.yml
   format: yaml
   label: WooCommerce Checkout API
   slug: woocommerce-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-checkout-api-openapi.yml
 - filename: woocommerce-coupons-api-openapi.yml
   format: yaml
   label: WooCommerce Coupons API
   slug: woocommerce-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-coupons-api-openapi.yml
 - filename: woocommerce-customers-api-openapi.yml
   format: yaml
   label: WooCommerce Customers API
   slug: woocommerce-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-customers-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-customers-api-openapi.yml
 - filename: woocommerce-order-notes-api-openapi.yml
   format: yaml
   label: WooCommerce Order Notes API
   slug: woocommerce-order-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-order-notes-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-order-notes-api-openapi.yml
 - filename: woocommerce-order-refunds-api-openapi.yml
   format: yaml
   label: WooCommerce Order Refunds API
   slug: woocommerce-order-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-order-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-order-refunds-api-openapi.yml
 - filename: woocommerce-orders-api-openapi.yml
   format: yaml
   label: WooCommerce Orders API
   slug: woocommerce-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-orders-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-orders-api-openapi.yml
 - filename: woocommerce-payment-gateways-api-openapi.yml
   format: yaml
   label: WooCommerce Payment Gateways API
   slug: woocommerce-payment-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-payment-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-payment-gateways-api-openapi.yml
 - filename: woocommerce-product-attributes-api-openapi.yml
   format: yaml
   label: WooCommerce Product Attributes API
   slug: woocommerce-product-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-attributes-api-openapi.yml
 - filename: woocommerce-product-categories-api-openapi.yml
   format: yaml
   label: WooCommerce Product Categories API
   slug: woocommerce-product-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-categories-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-categories-api-openapi.yml
 - filename: woocommerce-product-reviews-api-openapi.yml
   format: yaml
   label: WooCommerce Product Reviews API
   slug: woocommerce-product-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-reviews-api-openapi.yml
 - filename: woocommerce-product-tags-api-openapi.yml
   format: yaml
   label: WooCommerce Product Tags API
   slug: woocommerce-product-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-tags-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-tags-api-openapi.yml
 - filename: woocommerce-product-variations-api-openapi.yml
   format: yaml
   label: WooCommerce Product Variations API
   slug: woocommerce-product-variations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-product-variations-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-product-variations-api-openapi.yml
 - filename: woocommerce-products-api-openapi.yml
   format: yaml
   label: WooCommerce Products API
   slug: woocommerce-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-products-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-products-api-openapi.yml
 - filename: woocommerce-reports-api-openapi.yml
   format: yaml
   label: WooCommerce Reports API
   slug: woocommerce-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-reports-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-reports-api-openapi.yml
 - filename: woocommerce-shipping-zones-api-openapi.yml
   format: yaml
   label: WooCommerce Shipping Zones API
   slug: woocommerce-shipping-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-shipping-zones-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-shipping-zones-api-openapi.yml
 - filename: woocommerce-system-status-api-openapi.yml
   format: yaml
   label: WooCommerce System Status API
   slug: woocommerce-system-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-system-status-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-system-status-api-openapi.yml
 - filename: woocommerce-tax-rates-api-openapi.yml
   format: yaml
   label: WooCommerce Tax Rates API
   slug: woocommerce-tax-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-tax-rates-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-tax-rates-api-openapi.yml
 - filename: woocommerce-webhooks-api-openapi.yml
   format: yaml
   label: WooCommerce Webhooks API
   slug: woocommerce-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/openapi/woocommerce-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/woocommerce/openapi/woocommerce-webhooks-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 42
@@ -230,7 +230,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/woocom
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cart/items/{key}\n  method: put\n  operationId: updateCartItemByKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cart/items/{key}\n  method: delete\n  operationId: deleteCartItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /checkout\n  method: get\n  operationId: getCheckout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkout\n  method: post\n  operationId: processCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /checkout/{id}\n  method: get\n  operationId: getCheckoutOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkout/{id}\n  method: put\n  operationId: updateCheckoutOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{id}\n  method: get\n  operationId: getStoreOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/agentic-access/woocommerce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/woocommerce/agentic-access/woocommerce-agentic-access.yml
 summary_line: 81 operations · 39 acting
 tags:
 - WooCommerce

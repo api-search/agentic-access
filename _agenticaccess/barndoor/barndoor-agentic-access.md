@@ -9,37 +9,37 @@ api_specs:
   label: Barndoor Agents API
   slug: barndoor-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-agents-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-agents-api-openapi.yml
 - filename: barndoor-connections-api-openapi.yml
   format: yaml
   label: Barndoor Connections API
   slug: barndoor-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-connections-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-connections-api-openapi.yml
 - filename: barndoor-mcp-proxy-api-openapi.yml
   format: yaml
   label: Barndoor MCP Proxy API
   slug: barndoor-mcp-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-mcp-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-mcp-proxy-api-openapi.yml
 - filename: barndoor-policies-api-openapi.yml
   format: yaml
   label: Barndoor Policies API
   slug: barndoor-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-policies-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-policies-api-openapi.yml
 - filename: barndoor-policy-api-openapi.yml
   format: yaml
   label: Barndoor Policy API
   slug: barndoor-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-policy-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-policy-api-openapi.yml
 - filename: barndoor-servers-api-openapi.yml
   format: yaml
   label: Barndoor Servers API
   slug: barndoor-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/openapi/barndoor-servers-api-openapi.yml
+  url: https://artifacts.apis.io/barndoor/openapi/barndoor-servers-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -83,16 +83,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/barndo
   \ get\n  operationId: list_policies_admin_v2_policies_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/{policy_id}/revisions\n  method: get\n  operationId: list_policy_revisions_admin_v2_policies__policy_id__revisions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/validate\n  method: post\n  operationId: validate_policy_admin_v2_policies_validate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/servers\n  method: post\n  operationId: createServer\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/servers\n  method: get\n  operationId: listServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/servers/{server_id}\n  method: delete\n  operationId: deleteServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/servers/{server_id}\n  method: get\n  operationId: getServer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/servers/{server_id}\n  method: put\n  operationId: updateServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sse/{mcp_server_name}\n  method: get\n  operationId: proxySSERequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/agentic-access/barndoor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/barndoor/agentic-access/barndoor-agentic-access.yml
 summary_line: 26 operations · 13 acting · 1 human-in-the-loop
 tags:
 - AI Agents
 - AI Governance
 - MCP
 - Policy Enforcement
-- Authentication
+- OAuth
 - Identity
 - Security
 - Audit
 - Control Plane
+- Authentication
 ---

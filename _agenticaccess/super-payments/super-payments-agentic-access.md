@@ -9,55 +9,55 @@ api_specs:
   label: Super Payments Checkout Sessions API
   slug: super-payments-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/super-payments/openapi/super-payments-checkout-sessions-api-openapi.yml
 - filename: super-payments-customer-api-openapi.yml
   format: yaml
   label: Super Payments Customer API
   slug: super-payments-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-customer-api-openapi.yml
+  url: https://artifacts.apis.io/super-payments/openapi/super-payments-customer-api-openapi.yml
 - filename: super-payments-payment-links-api-openapi.yml
   format: yaml
   label: Super Payments Payment Links API
   slug: super-payments-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/super-payments/openapi/super-payments-payment-links-api-openapi.yml
 - filename: super-payments-payment-methods-api-openapi.yml
   format: yaml
   label: Super Payments Payment Methods API
   slug: super-payments-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/super-payments/openapi/super-payments-payment-methods-api-openapi.yml
 - filename: super-payments-payments-api-openapi.yml
   format: yaml
   label: Super Payments API
   slug: super-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/super-payments/openapi/super-payments-payments-api-openapi.yml
 - filename: super-payments-refunds-api-openapi.yml
   format: yaml
   label: Super Payments Refunds API
   slug: super-payments-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/super-payments/openapi/super-payments-refunds-api-openapi.yml
 - filename: super-payments-rewards-api-openapi.yml
   format: yaml
   label: Super Payments Rewards API
   slug: super-payments-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/super-payments/openapi/super-payments-rewards-api-openapi.yml
 - filename: super-payments-settlements-api-openapi.yml
   format: yaml
   label: Super Payments Settlements API
   slug: super-payments-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/super-payments/openapi/super-payments-settlements-api-openapi.yml
 - filename: super-payments-webhooks-api-openapi.yml
   format: yaml
   label: Super Payments Webhooks API
   slug: super-payments-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/openapi/super-payments-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/super-payments/openapi/super-payments-webhooks-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 16
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/super-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refunds\n  method: post\n  operationId: create-refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refunds/{transactionId}\n  method: get\n  operationId: get-refund-transaction-2025-11-01\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refunds/search\n  method: get\n  operationId: search-refund-transactions-2025-11-01\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reward-calculations\n\
   \  method: post\n  operationId: generate-reward-calculation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /brands/{brandId}/reward-configuration\n  method: get\n  operationId: get-reward-configuration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /brands/{brandId}/reward-configuration\n  method: put\n  operationId: upsert-brand-reward-configuration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settlements/{settlementId}\n\
   \  method: get\n  operationId: get-settlement-detail-2025-11-01\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlements/{settlementId}/reconciliation\n  method: get\n  operationId: get-settlement-reconciliation-2025-11-01\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlements\n  method: get\n  operationId: list-settlements-2025-11-01\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/agentic-access/super-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/super-payments/agentic-access/super-payments-agentic-access.yml
 summary_line: 31 operations · 15 acting
 tags:
 - Company

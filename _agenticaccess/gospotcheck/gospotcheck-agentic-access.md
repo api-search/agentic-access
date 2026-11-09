@@ -9,79 +9,79 @@ api_specs:
   label: GoSpotCheck AsyncJobs API
   slug: gospotcheck-asyncjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-asyncjobs-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-asyncjobs-api-openapi.yml
 - filename: gospotcheck-catalogs-api-openapi.yml
   format: yaml
   label: GoSpotCheck Catalogs API
   slug: gospotcheck-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-catalogs-api-openapi.yml
 - filename: gospotcheck-customviews-api-openapi.yml
   format: yaml
   label: GoSpotCheck CustomViews API
   slug: gospotcheck-customviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-customviews-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-customviews-api-openapi.yml
 - filename: gospotcheck-missionresponses-api-openapi.yml
   format: yaml
   label: GoSpotCheck MissionResponses API
   slug: gospotcheck-missionresponses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-missionresponses-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-missionresponses-api-openapi.yml
 - filename: gospotcheck-missions-api-openapi.yml
   format: yaml
   label: GoSpotCheck Missions API
   slug: gospotcheck-missions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-missions-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-missions-api-openapi.yml
 - filename: gospotcheck-placegroups-api-openapi.yml
   format: yaml
   label: GoSpotCheck PlaceGroups API
   slug: gospotcheck-placegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-placegroups-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-placegroups-api-openapi.yml
 - filename: gospotcheck-places-api-openapi.yml
   format: yaml
   label: GoSpotCheck Places API
   slug: gospotcheck-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-places-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-places-api-openapi.yml
 - filename: gospotcheck-taskresponses-api-openapi.yml
   format: yaml
   label: GoSpotCheck TaskResponses API
   slug: gospotcheck-taskresponses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-taskresponses-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-taskresponses-api-openapi.yml
 - filename: gospotcheck-tasks-api-openapi.yml
   format: yaml
   label: GoSpotCheck Tasks API
   slug: gospotcheck-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-tasks-api-openapi.yml
 - filename: gospotcheck-teams-api-openapi.yml
   format: yaml
   label: GoSpotCheck Teams API
   slug: gospotcheck-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-teams-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-teams-api-openapi.yml
 - filename: gospotcheck-userplaceassignments-api-openapi.yml
   format: yaml
   label: GoSpotCheck UserPlaceAssignments API
   slug: gospotcheck-userplaceassignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-userplaceassignments-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-userplaceassignments-api-openapi.yml
 - filename: gospotcheck-users-api-openapi.yml
   format: yaml
   label: GoSpotCheck Users API
   slug: gospotcheck-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-users-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-users-api-openapi.yml
 - filename: gospotcheck-catalog-items-api-openapi.yml
   format: yaml
   label: GoSpotCheck Catalog Items API
   slug: gospotcheck-catalog-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/openapi/gospotcheck-catalog-items-api-openapi.yml
+  url: https://artifacts.apis.io/gospotcheck/openapi/gospotcheck-catalog-items-api-openapi.yml
 consequence_counts:
   read: 26
   safety-critical: 2
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/gospot
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/v1/catalogs/{id}\n  method: get\n  operationId: getCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/v1/catalogs/{id}\n  method: put\n  operationId: updateCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/v1/catalogs/{catalog_id}/items\n  method: get\n  operationId: listCatalogItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/v1/catalogs/{catalog_id}/items\n  method: post\n  operationId: createCatalogItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/v1/catalogs/{catalog_id}/items/{id}\n  method: put\n  operationId: updateCatalogItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/v1/catalogs/{catalog_id}/items/{id}\n  method: delete\n  operationId: deleteCatalogItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/v1/async_jobs/csv_exports/{job_guid}/status\n  method: get\n  operationId: getAsyncCsvExportStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/agentic-access/gospotcheck-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gospotcheck/agentic-access/gospotcheck-agentic-access.yml
 summary_line: 53 operations · 27 acting · 2 human-in-the-loop
 tags:
 - Company

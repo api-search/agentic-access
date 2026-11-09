@@ -8,31 +8,31 @@ api_specs:
   label: Bank of Melbourne CDR Product Reference Data API
   slug: bank-of-melbourne-cdr-product-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
+  url: https://artifacts.apis.io/bank-of-melbourne/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
 - filename: bank-of-melbourne-cds-banking-products-openapi.yml
   format: yaml
   label: Bank of Melbourne CDR Accounts & Balances API
   slug: bank-of-melbourne-cdr-accounts-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
+  url: https://artifacts.apis.io/bank-of-melbourne/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
 - filename: bank-of-melbourne-cds-banking-products-openapi.yml
   format: yaml
   label: Bank of Melbourne CDR Transactions API
   slug: bank-of-melbourne-cdr-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
+  url: https://artifacts.apis.io/bank-of-melbourne/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
 - filename: bank-of-melbourne-cds-banking-products-openapi.yml
   format: yaml
   label: Bank of Melbourne CDR Direct Debits & Scheduled Payments API
   slug: bank-of-melbourne-cdr-direct-debits-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
+  url: https://artifacts.apis.io/bank-of-melbourne/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
 - filename: bank-of-melbourne-cds-banking-products-openapi.yml
   format: yaml
   label: Bank of Melbourne CDR Payees API
   slug: bank-of-melbourne-cdr-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
+  url: https://artifacts.apis.io/bank-of-melbourne/openapi/bank-of-melbourne-cds-banking-products-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bank-o
   \  method: get\n  operationId: listScheduledPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payments/scheduled\n  method: get\n  operationId: listScheduledPaymentsBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payments/scheduled\n  method: post\n  operationId: listScheduledPaymentsSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}/payments/plans\n  method: get\n  operationId: listInstalmentPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/payments/plans\n  method: get\n\
   \  operationId: listInstalmentPlansBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payees\n  method: get\n  operationId: listBankingPayees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payees/{payeeId}\n  method: get\n  operationId: getBankingPayeeDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/products\n  method: get\n  operationId: listBankingProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/products/{productId}\n  method: get\n  operationId: getBankingProductDetail\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/agentic-access/bank-of-melbourne-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-melbourne/agentic-access/bank-of-melbourne-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Finance

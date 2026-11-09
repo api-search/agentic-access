@@ -9,67 +9,67 @@ api_specs:
   label: Ribbon Health Cost Estimates API
   slug: ribbon-health-cost-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-cost-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-cost-estimates-api-openapi.yml
 - filename: ribbon-health-filters-api-openapi.yml
   format: yaml
   label: Ribbon Health Filters API
   slug: ribbon-health-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-filters-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-filters-api-openapi.yml
 - filename: ribbon-health-focus-area-endpoints-api-openapi.yml
   format: yaml
   label: Ribbon Health Focus Area Endpoints API
   slug: ribbon-health-focus-area-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-focus-area-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-focus-area-endpoints-api-openapi.yml
 - filename: ribbon-health-locations-api-openapi.yml
   format: yaml
   label: Ribbon Health Locations API
   slug: ribbon-health-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-locations-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-locations-api-openapi.yml
 - filename: ribbon-health-networks-api-openapi.yml
   format: yaml
   label: Ribbon Health Networks API
   slug: ribbon-health-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-networks-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-networks-api-openapi.yml
 - filename: ribbon-health-organizations-api-openapi.yml
   format: yaml
   label: Ribbon Health Organizations API
   slug: ribbon-health-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-organizations-api-openapi.yml
 - filename: ribbon-health-price-transparency-api-openapi.yml
   format: yaml
   label: Ribbon Health Price Transparency API
   slug: ribbon-health-price-transparency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-price-transparency-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-price-transparency-api-openapi.yml
 - filename: ribbon-health-providers-api-openapi.yml
   format: yaml
   label: Ribbon Health Providers API
   slug: ribbon-health-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-providers-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-providers-api-openapi.yml
 - filename: ribbon-health-reference-endpoints-api-openapi.yml
   format: yaml
   label: Ribbon Health Reference Endpoints API
   slug: ribbon-health-reference-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-reference-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-reference-endpoints-api-openapi.yml
 - filename: ribbon-health-tins-api-openapi.yml
   format: yaml
   label: Ribbon Health TINs API
   slug: ribbon-health-tins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-tins-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-tins-api-openapi.yml
 - filename: ribbon-health-price-transparency-v2-api-openapi.yml
   format: yaml
   label: Ribbon Health Price Transparency v2 API
   slug: ribbon-health-price-transparency-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-price-transparency-v2-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-health/openapi/ribbon-health-price-transparency-v2-api-openapi.yml
 consequence_counts:
   read: 47
   write: 33
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ribbon
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom/location_types\n  method: post\n  operationId: postCustomLocationType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom/location_types/{location_type_uuid}\n  method: get\n  operationId: getCustomLocationType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom/location_types/{location_type_uuid}\n  method: put\n  operationId: putCustomLocationType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom/location_types/{location_type_uuid}\n  method: delete\n  operationId: deleteCustomLocationType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /procedures\n  method: get\n  operationId: getProcedures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /procedures/{procedure_uuid}\n  method: get\n  operationId: getProcedure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /languages\n  method:\
   \ get\n  operationId: getLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom/tin\n  method: get\n  operationId: getTins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom/tin/{tin_id}\n  method: get\n  operationId: getCustomTin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/agentic-access/ribbon-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ribbon-health/agentic-access/ribbon-health-agentic-access.yml
 summary_line: 80 operations · 33 acting
 tags:
 - Healthcare

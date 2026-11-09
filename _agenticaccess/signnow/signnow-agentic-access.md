@@ -9,43 +9,43 @@ api_specs:
   label: SignNow Authentication API
   slug: signnow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-authentication-api-openapi.yml
 - filename: signnow-documents-api-openapi.yml
   format: yaml
   label: SignNow Documents API
   slug: signnow-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-documents-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-documents-api-openapi.yml
 - filename: signnow-envelopes-api-openapi.yml
   format: yaml
   label: SignNow Envelopes API
   slug: signnow-envelopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-envelopes-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-envelopes-api-openapi.yml
 - filename: signnow-signing-api-openapi.yml
   format: yaml
   label: SignNow Signing API
   slug: signnow-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-signing-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-signing-api-openapi.yml
 - filename: signnow-templates-api-openapi.yml
   format: yaml
   label: SignNow Templates API
   slug: signnow-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-templates-api-openapi.yml
 - filename: signnow-users-api-openapi.yml
   format: yaml
   label: SignNow Users API
   slug: signnow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-users-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-users-api-openapi.yml
 - filename: signnow-webhooks-api-openapi.yml
   format: yaml
   label: SignNow Webhooks API
   slug: signnow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/signnow/openapi/signnow-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/signno
   \ getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{user_id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/events\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/events\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/events/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documentgroup\n  method: get\n  operationId: listEnvelopes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documentgroup\n  method: post\n  operationId: createEnvelope\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documentgroup/{group_id}\n  method: get\n  operationId: getEnvelope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/agentic-access/signnow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/signnow/agentic-access/signnow-agentic-access.yml
 summary_line: 22 operations · 12 acting
 tags:
 - E-Signature

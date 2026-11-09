@@ -9,109 +9,109 @@ api_specs:
   label: Malga 3DS2 Malga API
   slug: plug-3ds2-malga-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-3ds2-malga-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-3ds2-malga-api-openapi.yml
 - filename: plug-cards-api-openapi.yml
   format: yaml
   label: Malga Cards API
   slug: plug-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-cards-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-cards-api-openapi.yml
 - filename: plug-charges-api-openapi.yml
   format: yaml
   label: Malga Charges API
   slug: plug-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-charges-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-charges-api-openapi.yml
 - filename: plug-client-token-api-openapi.yml
   format: yaml
   label: Malga Client-token API
   slug: plug-client-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-client-token-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-client-token-api-openapi.yml
 - filename: plug-customers-api-openapi.yml
   format: yaml
   label: Malga Customers API
   slug: plug-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-customers-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-customers-api-openapi.yml
 - filename: plug-flows-api-openapi.yml
   format: yaml
   label: Malga Flows API
   slug: plug-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-flows-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-flows-api-openapi.yml
 - filename: plug-merchants-api-openapi.yml
   format: yaml
   label: Malga Merchants API
   slug: plug-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-merchants-api-openapi.yml
 - filename: plug-payouts-api-openapi.yml
   format: yaml
   label: Malga Payouts API
   slug: plug-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-payouts-api-openapi.yml
 - filename: plug-prepayment-api-openapi.yml
   format: yaml
   label: Malga Prepayment API
   slug: plug-prepayment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-prepayment-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-prepayment-api-openapi.yml
 - filename: plug-providers-api-openapi.yml
   format: yaml
   label: Malga Providers API
   slug: plug-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-providers-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-providers-api-openapi.yml
 - filename: plug-seller-documents-api-openapi.yml
   format: yaml
   label: Malga Seller Documents API
   slug: plug-seller-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-seller-documents-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-seller-documents-api-openapi.yml
 - filename: plug-sellers-api-openapi.yml
   format: yaml
   label: Malga Sellers API
   slug: plug-sellers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-sellers-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-sellers-api-openapi.yml
 - filename: plug-sessions-api-openapi.yml
   format: yaml
   label: Malga Sessions API
   slug: plug-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-sessions-api-openapi.yml
 - filename: plug-settings-api-openapi.yml
   format: yaml
   label: Malga Settings API
   slug: plug-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-settings-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-settings-api-openapi.yml
 - filename: plug-subscriptions-api-openapi.yml
   format: yaml
   label: Malga Subscriptions API
   slug: plug-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-subscriptions-api-openapi.yml
 - filename: plug-tokens-api-openapi.yml
   format: yaml
   label: Malga Tokens API
   slug: plug-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-tokens-api-openapi.yml
 - filename: plug-vendors-api-openapi.yml
   format: yaml
   label: Malga Vendors API
   slug: plug-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-vendors-api-openapi.yml
 - filename: plug-webhooks-api-openapi.yml
   format: yaml
   label: Malga Webhooks API
   slug: plug-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/openapi/plug-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/plug/openapi/plug-webhooks-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 38
@@ -214,7 +214,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/plug-o
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payouts/balance\n  method: get\n  operationId: getPayoutBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payouts/payment-batches\n  method: get\n  operationId: listPayoutPaymentBatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payouts/payment-batches/{id}\n  method: get\n  operationId: getPayoutPaymentBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payouts/payment-batches/{id}/orders\n\
   \  method: get\n  operationId: listPayoutPaymentBatchOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payouts/orders\n  method: get\n  operationId: listPayoutOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payouts/orders/{id}\n  method: get\n  operationId: getPayoutOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subacquirer/prepayment/receivables\n  method: get\n  operationId: listPrepaymentReceivables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subacquirer/prepayment\n  method: post\n  operationId: simulatePrepayment\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/subacquirer/prepayment/{id}\n  method: get\n  operationId: getPrepayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subacquirer/prepayment/{id}/commit\n  method: post\n  operationId: commitPrepayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/agentic-access/plug-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/plug/agentic-access/plug-agentic-access.yml
 summary_line: 84 operations · 46 acting
 tags:
 - Company

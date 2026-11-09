@@ -9,43 +9,43 @@ api_specs:
   label: DatoCMS Environments API
   slug: datocms-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-environments-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-environments-api-openapi.yml
 - filename: datocms-fields-api-openapi.yml
   format: yaml
   label: DatoCMS Fields API
   slug: datocms-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-fields-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-fields-api-openapi.yml
 - filename: datocms-item-types-api-openapi.yml
   format: yaml
   label: DatoCMS Item Types API
   slug: datocms-item-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-item-types-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-item-types-api-openapi.yml
 - filename: datocms-items-api-openapi.yml
   format: yaml
   label: DatoCMS Items API
   slug: datocms-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-items-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-items-api-openapi.yml
 - filename: datocms-site-api-openapi.yml
   format: yaml
   label: DatoCMS Site API
   slug: datocms-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-site-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-site-api-openapi.yml
 - filename: datocms-uploads-api-openapi.yml
   format: yaml
   label: DatoCMS Uploads API
   slug: datocms-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-uploads-api-openapi.yml
 - filename: datocms-webhooks-api-openapi.yml
   format: yaml
   label: DatoCMS Webhooks API
   slug: datocms-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/openapi/datocms-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/datocms/openapi/datocms-webhooks-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/datocm
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /items/{itemId}/publish\n  method: put\n  operationId: publishItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /item-types\n  method: get\n  operationId: listItemTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /item-types\n  method: post\n  operationId: createItemType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fields\n  method: get\n  operationId: listFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uploads\n  method: get\n  operationId: listUploads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uploads\n  method: post\n  operationId: createUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments\n  method: get\n  operationId: listEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/agentic-access/datocms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datocms/agentic-access/datocms-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - CMS

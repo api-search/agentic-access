@@ -9,79 +9,79 @@ api_specs:
   label: Workday Benefits Benefit Enrollments API
   slug: workday-benefits-benefit-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-benefit-enrollments-api-openapi.yml
 - filename: workday-benefits-benefit-events-api-openapi.yml
   format: yaml
   label: Workday Benefits Benefit Events API
   slug: workday-benefits-benefit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-events-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-benefit-events-api-openapi.yml
 - filename: workday-benefits-benefit-plans-api-openapi.yml
   format: yaml
   label: Workday Benefits Benefit Plans API
   slug: workday-benefits-benefit-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-benefit-plans-api-openapi.yml
 - filename: workday-benefits-dependents-api-openapi.yml
   format: yaml
   label: Workday Benefits Dependents API
   slug: workday-benefits-dependents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-dependents-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-dependents-api-openapi.yml
 - filename: workday-benefits-employee-benefits-api-openapi.yml
   format: yaml
   label: Workday Benefits Employee Benefits API
   slug: workday-benefits-employee-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-employee-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-employee-benefits-api-openapi.yml
 - filename: workday-benefits-time-off-plans-api-openapi.yml
   format: yaml
   label: Workday Benefits Time Off Plans API
   slug: workday-benefits-time-off-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-time-off-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-time-off-plans-api-openapi.yml
 - filename: workday-benefits-06-15-2024-api-openapi.yml
   format: yaml
   label: Workday Benefits 06/15/2024 API
   slug: workday-benefits-06-15-2024-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-15-2024-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-06-15-2024-api-openapi.yml
 - filename: workday-benefits-06-15-2026-api-openapi.yml
   format: yaml
   label: Workday Benefits 06/15/2026 API
   slug: workday-benefits-06-15-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-15-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-06-15-2026-api-openapi.yml
 - filename: workday-benefits-06-30-2026-api-openapi.yml
   format: yaml
   label: Workday Benefits 06/30/2026 API
   slug: workday-benefits-06-30-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-30-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-06-30-2026-api-openapi.yml
 - filename: workday-benefits-08-17-2026-api-openapi.yml
   format: yaml
   label: Workday Benefits 08/17/2026 API
   slug: workday-benefits-08-17-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-08-17-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-08-17-2026-api-openapi.yml
 - filename: workday-benefits-09-09-2023-api-openapi.yml
   format: yaml
   label: Workday Benefits 09/09/2023 API
   slug: workday-benefits-09-09-2023-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-09-09-2023-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-09-09-2023-api-openapi.yml
 - filename: workday-benefits-employeeenrollmentevent-api-openapi.yml
   format: yaml
   label: Workday Benefits Employee Enrollment Event API
   slug: workday-benefits-employeeenrollmentevent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-employeeenrollmentevent-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-employeeenrollmentevent-api-openapi.yml
 - filename: workday-benefits-programs-api-openapi.yml
   format: yaml
   label: Workday Benefits Programs API
   slug: workday-benefits-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-programs-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-programs-api-openapi.yml
 consequence_counts:
   read: 15
   write: 7
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/workda
   \ /benefitPlans\n  method: get\n  operationId: listBenefitPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /benefitPlans/{planId}\n  method: get\n  operationId: getBenefitPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dependents\n  method: get\n  operationId: listDependents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dependents\n  method: post\n  operationId: createDependent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /employees/{employeeId}/benefits\n  method: get\n  operationId: getEmployeeBenefits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employeeEnrollmentEvent\n  method: get\n  operationId: getEmployeeEnrollmentEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employeeEnrollmentEvent/{ID}\n  method: get\n  operationId: getEmployeeEnrollmentEventByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs\n  method: post\n  operationId: postPrograms\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /timeOffPlans\n  method: get\n  operationId: listTimeOffPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/agentic-access/workday-benefits-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workday-benefits/agentic-access/workday-benefits-agentic-access.yml
 summary_line: 22 operations · 7 acting
 tags:
 - Benefits

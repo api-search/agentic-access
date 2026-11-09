@@ -9,49 +9,49 @@ api_specs:
   label: NHS Digital Booking API
   slug: nhs-digital-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-booking-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-digital/openapi/nhs-digital-booking-api-openapi.yml
 - filename: nhs-digital-communication-api-openapi.yml
   format: yaml
   label: NHS Digital Communication API
   slug: nhs-digital-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-communication-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-digital/openapi/nhs-digital-communication-api-openapi.yml
 - filename: nhs-digital-message-api-openapi.yml
   format: yaml
   label: NHS Digital Message API
   slug: nhs-digital-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-message-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-digital/openapi/nhs-digital-message-api-openapi.yml
 - filename: nhs-digital-metadata-api-openapi.yml
   format: yaml
   label: NHS Digital Metadata API
   slug: nhs-digital-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-digital/openapi/nhs-digital-metadata-api-openapi.yml
 - filename: nhs-digital-r4-api-openapi.yml
   format: yaml
   label: NHS Digital R4 API
   slug: nhs-digital-r4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-r4-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-digital/openapi/nhs-digital-r4-api-openapi.yml
 - filename: nhs-digital-referral-api-openapi.yml
   format: yaml
   label: NHS Digital Referral API
   slug: nhs-digital-referral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-referral-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-digital/openapi/nhs-digital-referral-api-openapi.yml
 - filename: nhs-digital-slots-api-openapi.yml
   format: yaml
   label: NHS Digital Slots API
   slug: nhs-digital-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-slots-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-digital/openapi/nhs-digital-slots-api-openapi.yml
 - filename: nhs-digital-stu3-api-openapi.yml
   format: yaml
   label: NHS Digital STU3 API
   slug: nhs-digital-stu3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/openapi/nhs-digital-stu3-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-digital/openapi/nhs-digital-stu3-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 27
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bookin
   \ /STU3/CommunicationRequest/{ubrn}/$ers.generateCRI\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /STU3/CommunicationRequest/$ers.createAdviceAndGuidance\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /R4/ServiceRequest\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communication/in-app/FHIR/R4/CommunicationRequest\n  method: post\n  operationId: create-in-app\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /communication/notification/FHIR/R4/CommunicationRequest\n  method: post\n  operationId: create-notification\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /communication/report/receipts/FHIR/R4/Task\n  method: get\n  operationId: get-receipt-report\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /communication/report/patients\n  method: get\n  operationId: get-patient-report\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/agentic-access/nhs-digital-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nhs-digital/agentic-access/nhs-digital-agentic-access.yml
 summary_line: 52 operations · 25 acting
 tags:
 - NHS

@@ -9,55 +9,55 @@ api_specs:
   label: Microsoft Bing Autosuggest API
   slug: microsoft-bing-autosuggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-autosuggest-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-autosuggest-api-openapi.yml
 - filename: microsoft-bing-custom-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Custom Search API
   slug: microsoft-bing-custom-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-custom-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-custom-search-api-openapi.yml
 - filename: microsoft-bing-entity-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Entity Search API
   slug: microsoft-bing-entity-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-entity-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-entity-search-api-openapi.yml
 - filename: microsoft-bing-image-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Image Search API
   slug: microsoft-bing-image-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-image-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-image-search-api-openapi.yml
 - filename: microsoft-bing-news-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing News Search API
   slug: microsoft-bing-news-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-news-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-news-search-api-openapi.yml
 - filename: microsoft-bing-spell-check-api-openapi.yml
   format: yaml
   label: Microsoft Bing Spell Check API
   slug: microsoft-bing-spell-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-spell-check-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-spell-check-api-openapi.yml
 - filename: microsoft-bing-video-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Video Search API
   slug: microsoft-bing-video-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-video-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-video-search-api-openapi.yml
 - filename: microsoft-bing-visual-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Visual search API
   slug: microsoft-bing-visual-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-visual-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-visual-search-api-openapi.yml
 - filename: microsoft-bing-web-search-api-openapi.yml
   format: yaml
   label: Microsoft Bing Web Search API
   slug: microsoft-bing-web-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/openapi/microsoft-bing-web-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bing/openapi/microsoft-bing-web-search-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1
@@ -86,7 +86,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/microsoft-bing-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 9\n    acting: 1\n  by_consequence:\n    read: 9\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v7.0/search\n  method: get\n  operationId: webSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.0/images/search\n  method: get\n  operationId: imageSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.0/news/search\n  method: get\n\
   \  operationId: newsSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.0/news\n  method: get\n  operationId: newsTrending\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.0/videos/search\n  method: get\n  operationId: videoSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.0/entities\n  method: get\n  operationId: entitySearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.0/images/visualsearch\n  method: post\n  operationId: visualSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v7.0/custom/search\n  method: get\n  operationId: customSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.0/spellcheck\n  method: get\n  operationId: spellCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v7.0/suggestions\n  method: get\n  operationId: autosuggest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/agentic-access/microsoft-bing-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-bing/agentic-access/microsoft-bing-agentic-access.yml
 summary_line: 10 operations · 1 acting
 tags:
 - Search

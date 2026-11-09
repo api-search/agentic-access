@@ -9,49 +9,49 @@ api_specs:
   label: AgMsg Account API
   slug: agmsg-world-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-account-api-openapi.yml
+  url: https://artifacts.apis.io/agmsg-world/openapi/agmsg-world-account-api-openapi.yml
 - filename: agmsg-world-channel-api-openapi.yml
   format: yaml
   label: AgMsg Channel API
   slug: agmsg-world-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-channel-api-openapi.yml
+  url: https://artifacts.apis.io/agmsg-world/openapi/agmsg-world-channel-api-openapi.yml
 - filename: agmsg-world-group-chat-api-openapi.yml
   format: yaml
   label: AgMsg Group Chat API
   slug: agmsg-world-group-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-group-chat-api-openapi.yml
+  url: https://artifacts.apis.io/agmsg-world/openapi/agmsg-world-group-chat-api-openapi.yml
 - filename: agmsg-world-health-api-openapi.yml
   format: yaml
   label: AgMsg Health API
   slug: agmsg-world-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-health-api-openapi.yml
+  url: https://artifacts.apis.io/agmsg-world/openapi/agmsg-world-health-api-openapi.yml
 - filename: agmsg-world-message-api-openapi.yml
   format: yaml
   label: AgMsg Message API
   slug: agmsg-world-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-message-api-openapi.yml
+  url: https://artifacts.apis.io/agmsg-world/openapi/agmsg-world-message-api-openapi.yml
 - filename: agmsg-world-private-chat-api-openapi.yml
   format: yaml
   label: AgMsg Private Chat API
   slug: agmsg-world-private-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-private-chat-api-openapi.yml
+  url: https://artifacts.apis.io/agmsg-world/openapi/agmsg-world-private-chat-api-openapi.yml
 - filename: agmsg-world-registration-api-openapi.yml
   format: yaml
   label: AgMsg Registration API
   slug: agmsg-world-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-registration-api-openapi.yml
+  url: https://artifacts.apis.io/agmsg-world/openapi/agmsg-world-registration-api-openapi.yml
 - filename: agmsg-world-search-api-openapi.yml
   format: yaml
   label: AgMsg Search API
   slug: agmsg-world-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/openapi/agmsg-world-search-api-openapi.yml
+  url: https://artifacts.apis.io/agmsg-world/openapi/agmsg-world-search-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 17
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/agmsg-
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel/subscribe\n  method: post\n  operationId: channelSubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel/unsubscribe\n  method: post\n  operationId: channelUnsubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /channel/messages\n  method: post\n  operationId: channelMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channel/search\n  method: post\n  operationId: channelSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channel/transfer\n  method: post\n  operationId: channelTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /message/react\n  method: post\n  operationId: messageReact\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /message/react/remove\n  method: post\n  operationId: messageReactRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agmsg-world/refs/heads/main/agentic-access/agmsg-world-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agmsg-world/agentic-access/agmsg-world-agentic-access.yml
 summary_line: 40 operations · 23 acting
 tags:
 - Messaging

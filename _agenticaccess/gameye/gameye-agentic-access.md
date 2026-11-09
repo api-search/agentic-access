@@ -9,49 +9,49 @@ api_specs:
   label: Gameye Artifacts API
   slug: gameye-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-artifacts-api-openapi.yml
 - filename: gameye-available-location-api-openapi.yml
   format: yaml
   label: Gameye Available Location API
   slug: gameye-available-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-available-location-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-available-location-api-openapi.yml
 - filename: gameye-logs-api-openapi.yml
   format: yaml
   label: Gameye Logs API
   slug: gameye-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-logs-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-logs-api-openapi.yml
 - filename: gameye-session-api-openapi.yml
   format: yaml
   label: Gameye Session API
   slug: gameye-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-session-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-session-api-openapi.yml
 - filename: gameye-tag-api-openapi.yml
   format: yaml
   label: Gameye Tag API
   slug: gameye-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-tag-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-tag-api-openapi.yml
 - filename: gameye-application-api-openapi.yml
   format: yaml
   label: Gameye Application API
   slug: gameye-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-application-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-application-api-openapi.yml
 - filename: gameye-region-api-openapi.yml
   format: yaml
   label: Gameye Region API
   slug: gameye-region-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-region-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-region-api-openapi.yml
 - filename: gameye-token-api-openapi.yml
   format: yaml
   label: Gameye Token API
   slug: gameye-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-token-api-openapi.yml
+  url: https://artifacts.apis.io/gameye/openapi/gameye-token-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/gameye
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - session:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/{id}\n  method: get\n  operationId: describe-session\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - session:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/{id}\n  method: delete\n  operationId: session-stop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - session:stop\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /session/player/join\n  method: put\n  operationId: join-session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/player/leave\n  method: delete\n  operationId: leave-session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /artifacts\n  method: get\n  operationId: artifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - artifact:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /available-location/{image}\n  method: get\n  operationId: get-available-locations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - regions:read\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /tag/{region}/{image}/{version}\n  method: get\n  operationId: tag-exists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - regions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs\n  method: get\n  operationId: stream-logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - logs:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/agentic-access/gameye-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gameye/agentic-access/gameye-agentic-access.yml
 summary_line: 10 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Company

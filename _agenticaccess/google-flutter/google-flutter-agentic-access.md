@@ -8,13 +8,13 @@ api_specs:
   label: Google Flutter Documentation API
   slug: google-flutter-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/openapi/google-flutter-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/google-flutter/openapi/google-flutter-documentation-api-openapi.yml
 - filename: google-flutter-packages-api-openapi.yml
   format: yaml
   label: Google Flutter Packages API
   slug: google-flutter-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/openapi/google-flutter-packages-api-openapi.yml
+  url: https://artifacts.apis.io/google-flutter/openapi/google-flutter-packages-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flutter-pub-dev-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: searchPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{package}\n  method: get\n  operationId: getPackage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{package}/versions/{version}\n  method: get\n  operationId:\
   \ getPackageVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{package}/score\n  method: get\n  operationId: getPackageScore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documentation/{package}/latest/\n  method: get\n  operationId: getPackageDocs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/agentic-access/google-flutter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-flutter/agentic-access/google-flutter-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Cross-Platform

@@ -9,49 +9,49 @@ api_specs:
   label: Spacemesh AccountService API
   slug: spacemesh-accountservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/openapi/spacemesh-accountservice-api-openapi.yml
+  url: https://artifacts.apis.io/spacemesh/openapi/spacemesh-accountservice-api-openapi.yml
 - filename: spacemesh-activationservice-api-openapi.yml
   format: yaml
   label: Spacemesh ActivationService API
   slug: spacemesh-activationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/openapi/spacemesh-activationservice-api-openapi.yml
+  url: https://artifacts.apis.io/spacemesh/openapi/spacemesh-activationservice-api-openapi.yml
 - filename: spacemesh-layerservice-api-openapi.yml
   format: yaml
   label: Spacemesh LayerService API
   slug: spacemesh-layerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/openapi/spacemesh-layerservice-api-openapi.yml
+  url: https://artifacts.apis.io/spacemesh/openapi/spacemesh-layerservice-api-openapi.yml
 - filename: spacemesh-malfeasanceservice-api-openapi.yml
   format: yaml
   label: Spacemesh MalfeasanceService API
   slug: spacemesh-malfeasanceservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/openapi/spacemesh-malfeasanceservice-api-openapi.yml
+  url: https://artifacts.apis.io/spacemesh/openapi/spacemesh-malfeasanceservice-api-openapi.yml
 - filename: spacemesh-networkservice-api-openapi.yml
   format: yaml
   label: Spacemesh NetworkService API
   slug: spacemesh-networkservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/openapi/spacemesh-networkservice-api-openapi.yml
+  url: https://artifacts.apis.io/spacemesh/openapi/spacemesh-networkservice-api-openapi.yml
 - filename: spacemesh-nodeservice-api-openapi.yml
   format: yaml
   label: Spacemesh NodeService API
   slug: spacemesh-nodeservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/openapi/spacemesh-nodeservice-api-openapi.yml
+  url: https://artifacts.apis.io/spacemesh/openapi/spacemesh-nodeservice-api-openapi.yml
 - filename: spacemesh-rewardservice-api-openapi.yml
   format: yaml
   label: Spacemesh RewardService API
   slug: spacemesh-rewardservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/openapi/spacemesh-rewardservice-api-openapi.yml
+  url: https://artifacts.apis.io/spacemesh/openapi/spacemesh-rewardservice-api-openapi.yml
 - filename: spacemesh-transactionservice-api-openapi.yml
   format: yaml
   label: Spacemesh TransactionService API
   slug: spacemesh-transactionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/openapi/spacemesh-transactionservice-api-openapi.yml
+  url: https://artifacts.apis.io/spacemesh/openapi/spacemesh-transactionservice-api-openapi.yml
 consequence_counts:
   read: 17
   write: 9
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spacem
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spacemesh.v2alpha1.TransactionService/List\n  method: post\n  operationId: TransactionService_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spacemesh.v2alpha1.TransactionService/ParseTransaction\n  method: post\n  operationId: TransactionService_ParseTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spacemesh.v2alpha1.TransactionService/SubmitTransaction\n  method: post\n  operationId: TransactionService_SubmitTransaction\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spacemesh.v2beta1.TransactionService/EstimateGas\n  method: post\n  operationId: TransactionService_EstimateGas\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spacemesh.v2beta1.TransactionService/List\n  method: get\n  operationId: TransactionService_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spacemesh.v2beta1.TransactionService/ParseTransaction\n  method:\
   \ post\n  operationId: TransactionService_ParseTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spacemesh.v2beta1.TransactionService/SubmitTransaction\n  method: post\n  operationId: TransactionService_SubmitTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/agentic-access/spacemesh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spacemesh/agentic-access/spacemesh-agentic-access.yml
 summary_line: 26 operations · 9 acting
 tags:
 - Company

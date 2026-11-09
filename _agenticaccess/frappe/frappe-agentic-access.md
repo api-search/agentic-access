@@ -9,13 +9,13 @@ api_specs:
   label: Frappe Method API
   slug: frappe-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frappe/refs/heads/main/openapi/frappe-method-api-openapi.yml
+  url: https://artifacts.apis.io/frappe/openapi/frappe-method-api-openapi.yml
 - filename: frappe-resource-api-openapi.yml
   format: yaml
   label: Frappe Resource API
   slug: frappe-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frappe/refs/heads/main/openapi/frappe-resource-api-openapi.yml
+  url: https://artifacts.apis.io/frappe/openapi/frappe-resource-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/frappe
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/method/upload_file\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/resource/{doctype}\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/resource/{doctype}\n  method: post\n  operationId: createDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/resource/{doctype}/{name}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/resource/{doctype}/{name}\n  method: put\n  operationId: updateDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/resource/{doctype}/{name}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/method/{dotted_path}\n  method: get\n  operationId: callMethodGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/method/{dotted_path}\n  method: post\n  operationId: callMethodPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frappe/refs/heads/main/agentic-access/frappe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/frappe/agentic-access/frappe-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Open Source

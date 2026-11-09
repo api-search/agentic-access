@@ -9,55 +9,55 @@ api_specs:
   label: Affirm Transactions API
   slug: affirm-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-transactions-api-openapi.yml
 - filename: affirm-authorization-api-openapi.yml
   format: yaml
   label: Affirm Authorization API
   slug: affirm-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-authorization-api-openapi.yml
 - filename: affirm-cards-api-openapi.yml
   format: yaml
   label: Affirm Cards API
   slug: affirm-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-cards-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-cards-api-openapi.yml
 - filename: affirm-checkouts-api-openapi.yml
   format: yaml
   label: Affirm Checkouts API
   slug: affirm-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-checkouts-api-openapi.yml
 - filename: affirm-disputes-api-openapi.yml
   format: yaml
   label: Affirm Disputes API
   slug: affirm-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-disputes-api-openapi.yml
 - filename: affirm-promos-api-openapi.yml
   format: yaml
   label: Affirm Promos API
   slug: affirm-promos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-promos-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-promos-api-openapi.yml
 - filename: affirm-settlement-events-api-openapi.yml
   format: yaml
   label: Affirm Settlement Events API
   slug: affirm-settlement-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-settlement-events-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-settlement-events-api-openapi.yml
 - filename: affirm-transaction-events-api-openapi.yml
   format: yaml
   label: Affirm Transaction Events API
   slug: affirm-transaction-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transaction-events-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-transaction-events-api-openapi.yml
 - filename: affirm-transactions-api-openapi.yml
   format: yaml
   label: Affirm Transactions API
   slug: affirm-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-transactions-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 11
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/affirm
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: post\n  operationId: authorizeTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{id}\n  method: get\n  operationId: readTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{id}\n  method: post\n  operationId: updateTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /transactions/{id}/capture\n  method: post\n  operationId: captureTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{id}/refund\n  method: post\n  operationId: refundTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{id}/void\n  method: post\n  operationId: voidTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction_events\n  method: get\n  operationId: listTransactionEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlement_events\n  method: get\n  operationId: listSettlementEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlement_event_summaries\n  method: get\n  operationId: listSettlementEventSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/agentic-access/affirm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/affirm/agentic-access/affirm-agentic-access.yml
 summary_line: 29 operations · 18 acting
 tags:
 - Fintech

@@ -9,37 +9,37 @@ api_specs:
   label: Respond.io Comments API
   slug: respond-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-comments-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-comments-api-openapi.yml
 - filename: respond-contacts-api-openapi.yml
   format: yaml
   label: Respond.io Contacts API
   slug: respond-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-contacts-api-openapi.yml
 - filename: respond-conversations-api-openapi.yml
   format: yaml
   label: Respond.io Conversations API
   slug: respond-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-conversations-api-openapi.yml
 - filename: respond-custom-fields-api-openapi.yml
   format: yaml
   label: Respond.io Custom Fields API
   slug: respond-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-custom-fields-api-openapi.yml
 - filename: respond-messages-api-openapi.yml
   format: yaml
   label: Respond.io Messages API
   slug: respond-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-messages-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-messages-api-openapi.yml
 - filename: respond-tags-api-openapi.yml
   format: yaml
   label: Respond.io Tags API
   slug: respond-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-tags-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-tags-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/respon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contact/{identifier}/comment\n  method: post\n  operationId: createComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag/{tagId}\n  method: put\n  operationId: updateTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag/{tagId}\n  method: delete\n  operationId: deleteTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom_field\n  method: get\n  operationId: listCustomFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom_field\n  method: post\n  operationId: createCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/agentic-access/respond-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/respond/agentic-access/respond-agentic-access.yml
 summary_line: 20 operations · 15 acting
 tags:
 - Messaging

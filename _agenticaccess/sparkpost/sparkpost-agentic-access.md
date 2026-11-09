@@ -9,73 +9,73 @@ api_specs:
   label: SparkPost DKIM Keys API
   slug: sparkpost-dkim-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-dkim-keys-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-dkim-keys-api-openapi.yml
 - filename: sparkpost-events-api-openapi.yml
   format: yaml
   label: SparkPost Events API
   slug: sparkpost-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-events-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-events-api-openapi.yml
 - filename: sparkpost-inbound-domains-api-openapi.yml
   format: yaml
   label: SparkPost Inbound Domains API
   slug: sparkpost-inbound-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-inbound-domains-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-inbound-domains-api-openapi.yml
 - filename: sparkpost-metrics-api-openapi.yml
   format: yaml
   label: SparkPost Metrics API
   slug: sparkpost-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-metrics-api-openapi.yml
 - filename: sparkpost-recipient-lists-api-openapi.yml
   format: yaml
   label: SparkPost Recipient Lists API
   slug: sparkpost-recipient-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-recipient-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-recipient-lists-api-openapi.yml
 - filename: sparkpost-relay-webhooks-api-openapi.yml
   format: yaml
   label: SparkPost Relay Webhooks API
   slug: sparkpost-relay-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-relay-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-relay-webhooks-api-openapi.yml
 - filename: sparkpost-sending-domains-api-openapi.yml
   format: yaml
   label: SparkPost Sending Domains API
   slug: sparkpost-sending-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-sending-domains-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-sending-domains-api-openapi.yml
 - filename: sparkpost-subaccounts-api-openapi.yml
   format: yaml
   label: SparkPost Subaccounts API
   slug: sparkpost-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-subaccounts-api-openapi.yml
 - filename: sparkpost-suppression-list-api-openapi.yml
   format: yaml
   label: SparkPost Suppression List API
   slug: sparkpost-suppression-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-suppression-list-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-suppression-list-api-openapi.yml
 - filename: sparkpost-templates-api-openapi.yml
   format: yaml
   label: SparkPost Templates API
   slug: sparkpost-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-templates-api-openapi.yml
 - filename: sparkpost-transmissions-api-openapi.yml
   format: yaml
   label: SparkPost Transmissions API
   slug: sparkpost-transmissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-transmissions-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-transmissions-api-openapi.yml
 - filename: sparkpost-webhooks-api-openapi.yml
   format: yaml
   label: SparkPost Webhooks API
   slug: sparkpost-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/openapi/sparkpost-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sparkpost/openapi/sparkpost-webhooks-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 45
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sparkp
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/validate\n  method:\
   \ post\n  operationId: validateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/batch-status\n  method: get\n  operationId: getWebhookBatchStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/events/documentation\n  method: get\n  operationId: getWebhookEventsDocumentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/events/samples\n  method: get\n  operationId: getWebhookEventSamples\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/agentic-access/sparkpost-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sparkpost/agentic-access/sparkpost-agentic-access.yml
 summary_line: 79 operations · 34 acting
 tags:
 - Email

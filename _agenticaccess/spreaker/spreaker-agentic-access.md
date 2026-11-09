@@ -9,37 +9,37 @@ api_specs:
   label: Spreaker Advertising API
   slug: spreaker-advertising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-advertising-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-advertising-api-openapi.yml
 - filename: spreaker-episodes-api-openapi.yml
   format: yaml
   label: Spreaker Episodes API
   slug: spreaker-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-episodes-api-openapi.yml
 - filename: spreaker-search-and-discovery-api-openapi.yml
   format: yaml
   label: Spreaker Search and Discovery API
   slug: spreaker-search-and-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-search-and-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-search-and-discovery-api-openapi.yml
 - filename: spreaker-shows-api-openapi.yml
   format: yaml
   label: Spreaker Shows API
   slug: spreaker-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-shows-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-shows-api-openapi.yml
 - filename: spreaker-statistics-api-openapi.yml
   format: yaml
   label: Spreaker Statistics API
   slug: spreaker-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-statistics-api-openapi.yml
 - filename: spreaker-users-api-openapi.yml
   format: yaml
   label: Spreaker Users API
   slug: spreaker-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-users-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-users-api-openapi.yml
 consequence_counts:
   read: 33
   write: 28
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spreak
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns/{campaign_id}\n  method: delete\n  operationId: deleteCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lineitems\n  method: get\n  operationId: listLineItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lineitems\n  method: post\n  operationId: createLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lineitems/{lineitem_id}\n  method: get\n  operationId: getLineItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lineitems/{lineitem_id}\n  method: post\n  operationId: updateLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lineitems/{lineitem_id}\n  method: delete\n  operationId: deleteLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/agentic-access/spreaker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spreaker/agentic-access/spreaker-agentic-access.yml
 summary_line: 61 operations · 28 acting
 tags:
 - Podcasts

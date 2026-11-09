@@ -9,43 +9,43 @@ api_specs:
   label: Chroma System API
   slug: chroma-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-system-api-openapi.yml
+  url: https://artifacts.apis.io/chroma/openapi/chroma-system-api-openapi.yml
 - filename: chroma-authentication-api-openapi.yml
   format: yaml
   label: Chroma Authentication API
   slug: chroma-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/chroma/openapi/chroma-authentication-api-openapi.yml
 - filename: chroma-collection-api-openapi.yml
   format: yaml
   label: Chroma Collection API
   slug: chroma-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-collection-api-openapi.yml
+  url: https://artifacts.apis.io/chroma/openapi/chroma-collection-api-openapi.yml
 - filename: chroma-database-api-openapi.yml
   format: yaml
   label: Chroma Database API
   slug: chroma-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-database-api-openapi.yml
+  url: https://artifacts.apis.io/chroma/openapi/chroma-database-api-openapi.yml
 - filename: chroma-function-api-openapi.yml
   format: yaml
   label: Chroma Function API
   slug: chroma-function-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-function-api-openapi.yml
+  url: https://artifacts.apis.io/chroma/openapi/chroma-function-api-openapi.yml
 - filename: chroma-record-api-openapi.yml
   format: yaml
   label: Chroma Record API
   slug: chroma-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-record-api-openapi.yml
+  url: https://artifacts.apis.io/chroma/openapi/chroma-record-api-openapi.yml
 - filename: chroma-tenant-api-openapi.yml
   format: yaml
   label: Chroma Tenant API
   slug: chroma-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/chroma/openapi/chroma-tenant-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -89,11 +89,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/chroma
   \  method: post\n  operationId: deleteRecords\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/tenants/{tenantName}/databases/{databaseName}/collections/{collectionId}/query\n  method: post\n  operationId: queryRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/tenants/{tenantName}/databases/{databaseName}/collections/{collectionId}/search\n  method: post\n  operationId: searchRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/heartbeat\n  method: get\n  operationId: heartbeat\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/pre-flight-checks\n  method: get\n  operationId: preFlightChecks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/healthcheck\n  method: get\n  operationId: healthcheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reset\n  method: post\n  operationId: reset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange:\
   \ true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/tenants\n  method: post\n  operationId: createTenant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/tenants/{tenantName}\n  method: get\n  operationId: getTenant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/agentic-access/chroma-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chroma/agentic-access/chroma-agentic-access.yml
 summary_line: 25 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence
-- AI-Native
+- AI-native
 - Apache 2.0
 - Cloud
 - Embeddings

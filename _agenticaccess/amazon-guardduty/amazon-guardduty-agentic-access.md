@@ -9,25 +9,121 @@ api_specs:
   label: Amazon GuardDuty Admin API
   slug: amazon-guardduty-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/openapi/amazon-guardduty-admin-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-admin-api-openapi.yml
 - filename: amazon-guardduty-detector-api-openapi.yml
   format: yaml
   label: Amazon GuardDuty Detector API
   slug: amazon-guardduty-detector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/openapi/amazon-guardduty-detector-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-detector-api-openapi.yml
 - filename: amazon-guardduty-invitation-api-openapi.yml
   format: yaml
   label: Amazon GuardDuty Invitation API
   slug: amazon-guardduty-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/openapi/amazon-guardduty-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-invitation-api-openapi.yml
 - filename: amazon-guardduty-tags-api-openapi.yml
   format: yaml
   label: Amazon GuardDuty Tags API
   slug: amazon-guardduty-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/openapi/amazon-guardduty-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-tags-api-openapi.yml
+- filename: amazon-guardduty-administrator-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Administrator API
+  slug: amazon-guardduty-administrator-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-administrator-api-openapi.yml
+- filename: amazon-guardduty-association-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Association API
+  slug: amazon-guardduty-association-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-association-api-openapi.yml
+- filename: amazon-guardduty-custom-detection-rule-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Custom Detection Rule API
+  slug: amazon-guardduty-custom-detection-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-custom-detection-rule-api-openapi.yml
+- filename: amazon-guardduty-filter-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Filter API
+  slug: amazon-guardduty-filter-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-filter-api-openapi.yml
+- filename: amazon-guardduty-findings-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Findings API
+  slug: amazon-guardduty-findings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-findings-api-openapi.yml
+- filename: amazon-guardduty-investigation-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Investigation API
+  slug: amazon-guardduty-investigation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-investigation-api-openapi.yml
+- filename: amazon-guardduty-ipset-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Ipset API
+  slug: amazon-guardduty-ipset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-ipset-api-openapi.yml
+- filename: amazon-guardduty-malware-protection-plan-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Malware Protection Plan API
+  slug: amazon-guardduty-malware-protection-plan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-malware-protection-plan-api-openapi.yml
+- filename: amazon-guardduty-malware-scan-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Malware Scan API
+  slug: amazon-guardduty-malware-scan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-malware-scan-api-openapi.yml
+- filename: amazon-guardduty-master-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Master API
+  slug: amazon-guardduty-master-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-master-api-openapi.yml
+- filename: amazon-guardduty-member-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Member API
+  slug: amazon-guardduty-member-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-member-api-openapi.yml
+- filename: amazon-guardduty-operations-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Operations API
+  slug: amazon-guardduty-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-operations-api-openapi.yml
+- filename: amazon-guardduty-publishingdestination-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Publishingdestination API
+  slug: amazon-guardduty-publishingdestination-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-publishingdestination-api-openapi.yml
+- filename: amazon-guardduty-threatentityset-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Threatentityset API
+  slug: amazon-guardduty-threatentityset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-threatentityset-api-openapi.yml
+- filename: amazon-guardduty-threatintelset-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Threatintelset API
+  slug: amazon-guardduty-threatintelset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-threatintelset-api-openapi.yml
+- filename: amazon-guardduty-trustedentityset-api-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty Guardduty Trustedentityset API
+  slug: amazon-guardduty-trustedentityset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-guardduty/openapi/amazon-guardduty-trustedentityset-api-openapi.yml
 consequence_counts:
   read: 28
   safety-critical: 2
@@ -90,10 +186,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ DeclineInvitations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invitation/delete\n  method: post\n  operationId: DeleteInvitations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invitation/count\n  method: get\n  operationId: GetInvitationsCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invitation\n  method: get\n  operationId: ListInvitations\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/agentic-access/amazon-guardduty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-guardduty/agentic-access/amazon-guardduty-agentic-access.yml
 summary_line: 67 operations · 39 acting · 2 human-in-the-loop
 tags:
 - Anomaly Detection
+- Amazon Web Services
 - Compliance
 - Machine Learning
 - Monitoring

@@ -9,49 +9,49 @@ api_specs:
   label: WRONG BEAUTY 000 / THE SWARM Agents API
   slug: wrongbeauty-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-agents-api-openapi.yml
 - filename: wrongbeauty-com-contestation-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Contestation API
   slug: wrongbeauty-com-contestation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-contestation-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-contestation-api-openapi.yml
 - filename: wrongbeauty-com-entry-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Entry API
   slug: wrongbeauty-com-entry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-entry-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-entry-api-openapi.yml
 - filename: wrongbeauty-com-ledger-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Ledger API
   slug: wrongbeauty-com-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-ledger-api-openapi.yml
 - filename: wrongbeauty-com-production-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Production API
   slug: wrongbeauty-com-production-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-production-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-production-api-openapi.yml
 - filename: wrongbeauty-com-service-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Service API
   slug: wrongbeauty-com-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-service-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-service-api-openapi.yml
 - filename: wrongbeauty-com-submission-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Submission API
   slug: wrongbeauty-com-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-submission-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-submission-api-openapi.yml
 - filename: wrongbeauty-com-works-api-openapi.yml
   format: yaml
   label: WRONG BEAUTY 000 / THE SWARM Works API
   slug: wrongbeauty-com-works-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/openapi/wrongbeauty-com-works-api-openapi.yml
+  url: https://artifacts.apis.io/wrongbeauty-com/openapi/wrongbeauty-com-works-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/wrongb
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/challenge\n  method: post\n  operationId: contestDecision\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/critique\n  method: post\n  operationId: submitCritique\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agents/token/rotate\n  method: post\n  operationId: rotateAgentToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agents/token/revoke\n  method: post\n  operationId: revokeAgentToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/production/propose\n  method: post\n  operationId: proposeProduction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/production/clear-rights\n  method: post\n  operationId: clearProductionRights\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/production/specify\n  method: post\n  operationId: specifyProduction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wrongbeauty-com/refs/heads/main/agentic-access/wrongbeauty-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wrongbeauty-com/agentic-access/wrongbeauty-com-agentic-access.yml
 summary_line: 29 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Art

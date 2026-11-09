@@ -9,67 +9,67 @@ api_specs:
   label: Aquant Agent Data API
   slug: aquant-agent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-agent-data-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-agent-data-api-openapi.yml
 - filename: aquant-asset-location-api-openapi.yml
   format: yaml
   label: Aquant Asset Location API
   slug: aquant-asset-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-asset-location-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-asset-location-api-openapi.yml
 - filename: aquant-health-api-openapi.yml
   format: yaml
   label: Aquant Health API
   slug: aquant-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-health-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-health-api-openapi.yml
 - filename: aquant-next-symptom-api-openapi.yml
   format: yaml
   label: Aquant Next Symptom API
   slug: aquant-next-symptom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-next-symptom-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-next-symptom-api-openapi.yml
 - filename: aquant-observation-existence-api-openapi.yml
   format: yaml
   label: Aquant Observation Existence API
   slug: aquant-observation-existence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-observation-existence-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-observation-existence-api-openapi.yml
 - filename: aquant-part-catalog-lookup-api-openapi.yml
   format: yaml
   label: Aquant Part Catalog Lookup API
   slug: aquant-part-catalog-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-catalog-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-part-catalog-lookup-api-openapi.yml
 - filename: aquant-part-info-api-openapi.yml
   format: yaml
   label: Aquant Part Info API
   slug: aquant-part-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-info-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-part-info-api-openapi.yml
 - filename: aquant-part-sources-api-openapi.yml
   format: yaml
   label: Aquant Part Sources API
   slug: aquant-part-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-sources-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-part-sources-api-openapi.yml
 - filename: aquant-preventive-maintenance-check-list-api-openapi.yml
   format: yaml
   label: Aquant Preventive Maintenance Check List API
   slug: aquant-preventive-maintenance-check-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-preventive-maintenance-check-list-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-preventive-maintenance-check-list-api-openapi.yml
 - filename: aquant-summary-report-api-openapi.yml
   format: yaml
   label: Aquant Summary Report API
   slug: aquant-summary-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-summary-report-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-summary-report-api-openapi.yml
 - filename: aquant-technician-proximity-api-openapi.yml
   format: yaml
   label: Aquant Technician Proximity API
   slug: aquant-technician-proximity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-technician-proximity-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-technician-proximity-api-openapi.yml
 consequence_counts:
   read: 3
   write: 10
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-31'\nmethod: generated\nsource: openapi/aquant
   \ post\n  operationId: technician_proximity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /observation-existence\n  method: post\n  operationId: observation_existence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /asset-location\n  method: post\n  operationId: asset_location\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /preventive-maintenance-check-list\n  method: post\n  operationId: preventive_maintenance_check_list\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /summary-report\n  method: post\n  operationId: summary_report\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /next-symptom\n  method: post\n  operationId: next_symptom\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: health_check\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health/live\n  method: get\n  operationId: liveness_health_live_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health/ready\n  method: get\n  operationId: readiness_health_ready_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/agentic-access/aquant-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aquant/agentic-access/aquant-agentic-access.yml
 summary_line: 13 operations · 10 acting
 tags:
 - Company

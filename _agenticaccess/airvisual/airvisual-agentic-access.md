@@ -8,31 +8,31 @@ api_specs:
   label: IQAir AirVisual Cities API
   slug: airvisual-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-cities-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-cities-api-openapi.yml
 - filename: airvisual-countries-api-openapi.yml
   format: yaml
   label: IQAir AirVisual Countries API
   slug: airvisual-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-countries-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-countries-api-openapi.yml
 - filename: airvisual-rankings-api-openapi.yml
   format: yaml
   label: IQAir AirVisual Rankings API
   slug: airvisual-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-rankings-api-openapi.yml
 - filename: airvisual-states-api-openapi.yml
   format: yaml
   label: IQAir AirVisual States API
   slug: airvisual-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-states-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-states-api-openapi.yml
 - filename: airvisual-stations-api-openapi.yml
   format: yaml
   label: IQAir AirVisual Stations API
   slug: airvisual-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-stations-api-openapi.yml
+  url: https://artifacts.apis.io/airvisual/openapi/airvisual-stations-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /states\n  method: get\n  operationId: listStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cities\n  method: get\n  operationId: listCities\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /city\n  method: get\n  operationId: getCity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nearest_city\n  method: get\n  operationId: getNearestCity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stations\n  method: get\n  operationId: listStations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /station\n  method: get\n  operationId: getStation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nearest_station\n  method: get\n  operationId: getNearestStation\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /city_ranking\n  method: get\n  operationId: getCityRanking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/agentic-access/airvisual-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airvisual/agentic-access/airvisual-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Air Quality

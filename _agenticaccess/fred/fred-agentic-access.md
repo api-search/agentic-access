@@ -8,61 +8,61 @@ api_specs:
   label: FRED Categories API
   slug: fred-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-categories-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-categories-api-openapi.yml
 - filename: fred-observations-api-openapi.yml
   format: yaml
   label: FRED Observations API
   slug: fred-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-observations-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-observations-api-openapi.yml
 - filename: fred-regional-data-api-openapi.yml
   format: yaml
   label: FRED Regional Data API
   slug: fred-regional-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-regional-data-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-regional-data-api-openapi.yml
 - filename: fred-releases-api-openapi.yml
   format: yaml
   label: FRED Releases API
   slug: fred-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-releases-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-releases-api-openapi.yml
 - filename: fred-series-api-openapi.yml
   format: yaml
   label: FRED Series API
   slug: fred-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-series-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-series-api-openapi.yml
 - filename: fred-series-data-api-openapi.yml
   format: yaml
   label: FRED Series Data API
   slug: fred-series-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-series-data-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-series-data-api-openapi.yml
 - filename: fred-series-group-api-openapi.yml
   format: yaml
   label: FRED Series Group API
   slug: fred-series-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-series-group-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-series-group-api-openapi.yml
 - filename: fred-shapes-api-openapi.yml
   format: yaml
   label: FRED Shapes API
   slug: fred-shapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-shapes-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-shapes-api-openapi.yml
 - filename: fred-sources-api-openapi.yml
   format: yaml
   label: FRED Sources API
   slug: fred-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-sources-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-sources-api-openapi.yml
 - filename: fred-tags-api-openapi.yml
   format: yaml
   label: FRED Tags API
   slug: fred-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/openapi/fred-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fred/openapi/fred-tags-api-openapi.yml
 consequence_counts:
   read: 35
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fred-g
   \ get\n  operationId: searchSeriesRelatedTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series/tags\n  method: get\n  operationId: getSeriesTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series/updates\n  method: get\n  operationId: getSeriesUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series/vintagedates\n  method: get\n  operationId: getSeriesVintageDates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources\n  method: get\n  operationId: getSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /source\n  method: get\n  operationId: getSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /source/releases\n  method: get\n  operationId: getSourceReleases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /related_tags\n  method: get\n  operationId: getRelatedTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/series\n  method: get\n  operationId: getTagsSeries\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/agentic-access/fred-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fred/agentic-access/fred-agentic-access.yml
 summary_line: 35 operations
 tags:
 - Finance

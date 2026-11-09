@@ -9,43 +9,43 @@ api_specs:
   label: California Attorney General Content API
   slug: california-attorney-general-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-content-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-content-api-openapi.yml
 - filename: california-attorney-general-discovery-api-openapi.yml
   format: yaml
   label: California Attorney General Discovery API
   slug: california-attorney-general-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-discovery-api-openapi.yml
 - filename: california-attorney-general-feedback-api-openapi.yml
   format: yaml
   label: California Attorney General Feedback API
   slug: california-attorney-general-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-feedback-api-openapi.yml
 - filename: california-attorney-general-files-api-openapi.yml
   format: yaml
   label: California Attorney General Files API
   slug: california-attorney-general-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-files-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-files-api-openapi.yml
 - filename: california-attorney-general-paragraphs-api-openapi.yml
   format: yaml
   label: California Attorney General Paragraphs API
   slug: california-attorney-general-paragraphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-paragraphs-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-paragraphs-api-openapi.yml
 - filename: california-attorney-general-site-configuration-api-openapi.yml
   format: yaml
   label: California Attorney General Site Configuration API
   slug: california-attorney-general-site-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-site-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-site-configuration-api-openapi.yml
 - filename: california-attorney-general-taxonomies-api-openapi.yml
   format: yaml
   label: California Attorney General Taxonomies API
   slug: california-attorney-general-taxonomies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-taxonomies-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-taxonomies-api-openapi.yml
 consequence_counts:
   read: 65
   write: 3
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: generated\nsource: openapi/califo
   \  operationId: getMenuLinkContentMenuLinkContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contact_form/contact_form\n  method: get\n  operationId: listContactFormContactForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contact_form/contact_form/{id}\n  method: get\n  operationId: getContactFormContactForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /date_format/date_format\n  method: get\n  operationId: listDateFormatDateFormat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /date_format/date_format/{id}\n  method: get\n  operationId: getDateFormatDateFormat\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /block/block\n  method: get\n  operationId: listBlockBlock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /block/block/{id}\n  method: get\n  operationId: getBlockBlock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /node/signup\n  method: post\n  operationId: createNodeSignup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /node/suggestion\n  method: post\n  operationId: createNodeSuggestion\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /node/bug\n  method: post\n  operationId: createNodeBug\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/agentic-access/california-attorney-general-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/california-attorney-general/agentic-access/california-attorney-general-agentic-access.yml
 summary_line: 68 operations · 3 acting
 tags:
 - State Government

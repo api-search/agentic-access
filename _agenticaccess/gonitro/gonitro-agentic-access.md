@@ -9,19 +9,25 @@ api_specs:
   label: GoNitro Authentication API
   slug: gonitro-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/gonitro/openapi/gonitro-authentication-api-openapi.yml
 - filename: gonitro-platform-api-openapi.yml
   format: yaml
   label: GoNitro Platform API
   slug: gonitro-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-platform-api-openapi.yml
+  url: https://artifacts.apis.io/gonitro/openapi/gonitro-platform-api-openapi.yml
 - filename: gonitro-sign-api-openapi.yml
   format: yaml
   label: GoNitro Sign API
   slug: gonitro-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/openapi/gonitro-sign-api-openapi.yml
+  url: https://artifacts.apis.io/gonitro/openapi/gonitro-sign-api-openapi.yml
+- filename: gonitro-webhooks-api-openapi.yml
+  format: yaml
+  label: GoNitro Webhooks API
+  slug: gonitro-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gonitro/openapi/gonitro-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 17
@@ -79,7 +85,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/gonitr
   \  method: get\n  operationId: downloadSealedEnvelope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/envelopes/{envelopeID}:download-original\n  method: get\n  operationId: downloadOriginalEnvelope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/envelopes/{envelopeID}:download-audit-trail\n  method: get\n  operationId: downloadAuditTrailOfEnvelope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/envelopes/{envelopeID}/participants/signing-urls\n  method: get\n  operationId: listSignerSigningUrls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/envelopes/{envelopeID}/documents/{documentID}:download-sealed\n\
   \  method: get\n  operationId: downloadSealedDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/conversions/{jobID}:download-converted\n  method: get\n  operationId: downloadConvertedFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/conversions/{jobID}/status\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobID}\n  method: get\n  operationId: getJobResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobID}/status\n  method: get\n  operationId: getJobStatus_1\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/agentic-access/gonitro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gonitro/agentic-access/gonitro-agentic-access.yml
 summary_line: 45 operations · 28 acting
 tags:
 - Company

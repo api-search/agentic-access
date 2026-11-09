@@ -9,49 +9,49 @@ api_specs:
   label: MemberClicks Attributes API
   slug: memberclicks-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-attributes-api-openapi.yml
 - filename: memberclicks-authorization-api-openapi.yml
   format: yaml
   label: MemberClicks Authorization API
   slug: memberclicks-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-authorization-api-openapi.yml
 - filename: memberclicks-continuing-education-api-openapi.yml
   format: yaml
   label: MemberClicks Continuing Education API
   slug: memberclicks-continuing-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-continuing-education-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-continuing-education-api-openapi.yml
 - filename: memberclicks-events-api-openapi.yml
   format: yaml
   label: MemberClicks Events API
   slug: memberclicks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-events-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-events-api-openapi.yml
 - filename: memberclicks-groups-api-openapi.yml
   format: yaml
   label: MemberClicks Groups API
   slug: memberclicks-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-groups-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-groups-api-openapi.yml
 - filename: memberclicks-profile-search-api-openapi.yml
   format: yaml
   label: MemberClicks Profile Search API
   slug: memberclicks-profile-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-profile-search-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-profile-search-api-openapi.yml
 - filename: memberclicks-profiles-api-openapi.yml
   format: yaml
   label: MemberClicks Profiles API
   slug: memberclicks-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-profiles-api-openapi.yml
 - filename: memberclicks-reference-data-api-openapi.yml
   format: yaml
   label: MemberClicks Reference Data API
   slug: memberclicks-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/memberclicks/openapi/memberclicks-reference-data-api-openapi.yml
 consequence_counts:
   read: 13
   write: 4
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/member
   \    audit: required\n- path: /api/v1/profile/search\n  method: post\n  operationId: createProfileSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attribute\n  method: get\n  operationId: listAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/attribute/{attributeId}/selection\n  method: get\n  operationId: listAttributeSelectionOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/member-type\n  method: get\n  operationId: listMemberTypes\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/member-status\n  method: get\n  operationId: listMemberStatuses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/continuing-education/credit\n  method: get\n  operationId: listContinuingEducationCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/continuing-education/credit/{creditId}\n  method: get\n  operationId: getContinuingEducationCredit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/country\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v1/group\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/group/{groupId}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/event\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/event/{eventId}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/agentic-access/memberclicks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/memberclicks/agentic-access/memberclicks-agentic-access.yml
 summary_line: 17 operations · 4 acting
 tags:
 - Membership Management

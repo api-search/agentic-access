@@ -9,31 +9,31 @@ api_specs:
   label: Rett fra Bonden A2a API
   slug: rettfrabonden-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-a2a-api-openapi.yml
 - filename: rettfrabonden-com-marketplace-api-openapi.yml
   format: yaml
   label: Rett fra Bonden Marketplace API
   slug: rettfrabonden-com-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-marketplace-api-openapi.yml
 - filename: rettfrabonden-com-mcp-api-openapi.yml
   format: yaml
   label: Rett fra Bonden MCP API
   slug: rettfrabonden-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-mcp-api-openapi.yml
 - filename: rettfrabonden-com-stats-api-openapi.yml
   format: yaml
   label: Rett fra Bonden Stats API
   slug: rettfrabonden-com-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-stats-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-stats-api-openapi.yml
 - filename: rettfrabonden-com-well-known-api-openapi.yml
   format: yaml
   label: Rett fra Bonden .well Known API
   slug: rettfrabonden-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/openapi/rettfrabonden-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/rettfrabonden-com/openapi/rettfrabonden-com-well-known-api-openapi.yml
 consequence_counts:
   read: 9
   write: 5
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/rettfr
   \  method: post\n  operationId: a2aJsonRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mcp\n  method: post\n  operationId: mcpEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /.well-known/agent-card.json\n  method: get\n  operationId: getAgentCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/marketplace/search\n  method: get\n  operationId: searchFood\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/marketplace/discover\n  method: post\n  operationId: discoverProducers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/marketplace/agents/{agentId}/info\n  method: get\n  operationId: getProducerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/marketplace/geocode\n  method: get\n  operationId: geocodePlace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/marketplace/catalog/acp-feed.csv\n  method: get\n  operationId:\
   \ getAcpProductFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stats\n  method: get\n  operationId: getPlatformStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rettfrabonden-com/refs/heads/main/agentic-access/rettfrabonden-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rettfrabonden-com/agentic-access/rettfrabonden-com-agentic-access.yml
 summary_line: 14 operations · 5 acting
 tags:
 - Local Food

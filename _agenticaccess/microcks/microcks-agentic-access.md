@@ -9,37 +9,37 @@ api_specs:
   label: Microcks Config API
   slug: microcks-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-config-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-config-api-openapi.yml
 - filename: microcks-job-api-openapi.yml
   format: yaml
   label: Microcks Job API
   slug: microcks-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-job-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-job-api-openapi.yml
 - filename: microcks-metrics-api-openapi.yml
   format: yaml
   label: Microcks Metrics API
   slug: microcks-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-metrics-api-openapi.yml
 - filename: microcks-mock-api-openapi.yml
   format: yaml
   label: Microcks Mock API
   slug: microcks-mock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-mock-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-mock-api-openapi.yml
 - filename: microcks-resources-api-openapi.yml
   format: yaml
   label: Microcks Resources API
   slug: microcks-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-resources-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-resources-api-openapi.yml
 - filename: microcks-test-api-openapi.yml
   format: yaml
   label: Microcks Test API
   slug: microcks-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-test-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-test-api-openapi.yml
 consequence_counts:
   read: 29
   safety-critical: 2
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/microc
   \  method: put\n  operationId: StopImportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - admin\n    - manager\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /jobs/{id}/activate\n  method: put\n  operationId: ActivateImportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - admin\n    - manager\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/labels\n  method: get\n  operationId: GetServicesLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /artifact/download\n  method: post\n  operationId: downloadArtifact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manager\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secrets/search\n  method: get\n  operationId: SearchSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artifact/upload\n  method: post\n  operationId: uploadArtifact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manager\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/agentic-access/microcks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microcks/agentic-access/microcks-agentic-access.yml
 summary_line: 46 operations · 17 acting · 2 human-in-the-loop
 tags:
 - API Testing

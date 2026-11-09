@@ -9,43 +9,43 @@ api_specs:
   label: Insightly Contacts API
   slug: insightly-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-contacts-api-openapi.yml
 - filename: insightly-leads-api-openapi.yml
   format: yaml
   label: Insightly Leads API
   slug: insightly-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-leads-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-leads-api-openapi.yml
 - filename: insightly-opportunities-api-openapi.yml
   format: yaml
   label: Insightly Opportunities API
   slug: insightly-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-opportunities-api-openapi.yml
 - filename: insightly-organisations-api-openapi.yml
   format: yaml
   label: Insightly Organisations API
   slug: insightly-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-organisations-api-openapi.yml
 - filename: insightly-products-api-openapi.yml
   format: yaml
   label: Insightly Products API
   slug: insightly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-products-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-products-api-openapi.yml
 - filename: insightly-projects-api-openapi.yml
   format: yaml
   label: Insightly Projects API
   slug: insightly-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-projects-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-projects-api-openapi.yml
 - filename: insightly-quotations-api-openapi.yml
   format: yaml
   label: Insightly Quotations API
   slug: insightly-quotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/openapi/insightly-quotations-api-openapi.yml
+  url: https://artifacts.apis.io/insightly/openapi/insightly-quotations-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/insigh
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Contacts/{id}\n  method: get\n  operationId: getContact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Contacts/{id}\n  method: put\n  operationId: updateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Contacts/{id}\n  method: delete\n  operationId: deleteContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Contacts/Search\n\
   \  method: get\n  operationId: searchContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Organisations\n  method: get\n  operationId: listOrganisations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Opportunities\n  method: get\n  operationId: listOpportunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Leads\n  method: get\n  operationId: listLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Projects/{id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /Products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Quotations\n  method: get\n  operationId: listQuotations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/agentic-access/insightly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/insightly/agentic-access/insightly-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
 - CRM

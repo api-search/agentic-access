@@ -9,25 +9,55 @@ api_specs:
   label: Jina AI Batch API
   slug: jina-ai-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-batch-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-batch-api-openapi.yml
 - filename: jina-ai-embeddings-api-openapi.yml
   format: yaml
   label: Jina AI Embeddings API
   slug: jina-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-embeddings-api-openapi.yml
 - filename: jina-ai-reader-api-openapi.yml
   format: yaml
   label: Jina AI Reader API
   slug: jina-ai-reader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reader-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reader-api-openapi.yml
 - filename: jina-ai-reranker-api-openapi.yml
   format: yaml
   label: Jina AI Reranker API
   slug: jina-ai-reranker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reranker-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reranker-api-openapi.yml
+- filename: jina-ai-batch-embeddings-api-openapi.yml
+  format: yaml
+  label: Jina AI Batch Embeddings API
+  slug: jina-ai-batch-embeddings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-batch-embeddings-api-openapi.yml
+- filename: jina-ai-generative-models-api-openapi.yml
+  format: yaml
+  label: Jina AI Generative Models API
+  slug: jina-ai-generative-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-generative-models-api-openapi.yml
+- filename: jina-ai-model-list-api-openapi.yml
+  format: yaml
+  label: Jina AI Model List API
+  slug: jina-ai-model-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-model-list-api-openapi.yml
+- filename: jina-ai-search-api-openapi.yml
+  format: yaml
+  label: Jina AI Search API
+  slug: jina-ai-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-search-api-openapi.yml
+- filename: jina-ai-search-foundation-models-api-openapi.yml
+  format: yaml
+  label: Jina AI Search Foundation Models API
+  slug: jina-ai-search-foundation-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-search-foundation-models-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -57,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jina-a
   \  operationId: submitBatchEmbeddings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batch/{batch_id}\n  method: get\n  operationId: getBatchJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batch/{batch_id}\n  method: delete\n  operationId: cancelBatchJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batch/{batch_id}/output\n  method: get\n  operationId: getBatchOutput\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batch/{batch_id}/errors\n  method: get\n  operationId: getBatchErrors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: readUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{url}\n  method: get\n  operationId: readUrlByPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rerank\n  method: post\n  operationId: rerank\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/agentic-access/jina-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jina-ai/agentic-access/jina-ai-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Artificial Intelligence

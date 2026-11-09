@@ -9,79 +9,79 @@ api_specs:
   label: Lunar Energy Devices API
   slug: lunar-energy-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-devices-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-devices-api-openapi.yml
 - filename: lunar-energy-diff-requests-api-openapi.yml
   format: yaml
   label: Lunar Energy Diff Requests API
   slug: lunar-energy-diff-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-diff-requests-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-diff-requests-api-openapi.yml
 - filename: lunar-energy-dynamic-tariffs-api-openapi.yml
   format: yaml
   label: Lunar Energy Dynamic Tariffs API
   slug: lunar-energy-dynamic-tariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-dynamic-tariffs-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-dynamic-tariffs-api-openapi.yml
 - filename: lunar-energy-flex-dispatches-api-openapi.yml
   format: yaml
   label: Lunar Energy Flex Dispatches API
   slug: lunar-energy-flex-dispatches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-flex-dispatches-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-flex-dispatches-api-openapi.yml
 - filename: lunar-energy-flex-events-api-openapi.yml
   format: yaml
   label: Lunar Energy Flex Events API
   slug: lunar-energy-flex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-flex-events-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-flex-events-api-openapi.yml
 - filename: lunar-energy-flex-groups-api-openapi.yml
   format: yaml
   label: Lunar Energy Flex Groups API
   slug: lunar-energy-flex-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-flex-groups-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-flex-groups-api-openapi.yml
 - filename: lunar-energy-operation-mode-api-openapi.yml
   format: yaml
   label: Lunar Energy Operation Mode API
   slug: lunar-energy-operation-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-operation-mode-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-operation-mode-api-openapi.yml
 - filename: lunar-energy-periodical-tariffs-api-openapi.yml
   format: yaml
   label: Lunar Energy Periodical Tariffs API
   slug: lunar-energy-periodical-tariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-periodical-tariffs-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-periodical-tariffs-api-openapi.yml
 - filename: lunar-energy-plans-api-openapi.yml
   format: yaml
   label: Lunar Energy Plans API
   slug: lunar-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-plans-api-openapi.yml
 - filename: lunar-energy-prognoses-api-openapi.yml
   format: yaml
   label: Lunar Energy Prognoses API
   slug: lunar-energy-prognoses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-prognoses-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-prognoses-api-openapi.yml
 - filename: lunar-energy-sites-api-openapi.yml
   format: yaml
   label: Lunar Energy Sites API
   slug: lunar-energy-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-sites-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-sites-api-openapi.yml
 - filename: lunar-energy-telemetry-api-openapi.yml
   format: yaml
   label: Lunar Energy Telemetry API
   slug: lunar-energy-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-telemetry-api-openapi.yml
 - filename: lunar-energy-visits-api-openapi.yml
   format: yaml
   label: Lunar Energy Visits API
   slug: lunar-energy-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/lunar-energy-visits-api-openapi.yml
+  url: https://artifacts.apis.io/lunar-energy/openapi/lunar-energy-visits-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 31
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gridsh
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/prognoses/{prognosisId}/prognosisdiffrequests\n  method: post\n  operationId: createPrognosisDiffRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/prognosisdiffrequests/{prognosisDiffRequestId}\n  method: get\n  operationId: getPrognosisDiffRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/prognosisdiffrequests/{prognosisDiffRequestId}/prognosisdifforders\n  method: post\n  operationId: createPrognosisDiffOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/prognosisdifforders/{prognosisDiffOrderId}\n  method: get\n  operationId: getPrognosisDiffOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/counterfactuals/{counterfactualName}/devices/{deviceId}/telemetry\n  method: get\n  operationId: getCounterfactualTelemetry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/visits\n  method: get\n  operationId: listVisits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/v1/visits\n  method: post\n  operationId: createVisit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/visits/{visitId}\n  method: get\n  operationId: getVisit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/agentic-access/lunar-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lunar-energy/agentic-access/lunar-energy-agentic-access.yml
 summary_line: 54 operations · 23 acting · 1 human-in-the-loop
 tags:
 - Energy

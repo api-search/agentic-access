@@ -9,73 +9,73 @@ api_specs:
   label: Hive Actions API
   slug: hive-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-actions-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-actions-api-openapi.yml
 - filename: hive-agile-sprints-api-openapi.yml
   format: yaml
   label: Hive Agile Sprints API
   slug: hive-agile-sprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-agile-sprints-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-agile-sprints-api-openapi.yml
 - filename: hive-dashboard-widgets-api-openapi.yml
   format: yaml
   label: Hive Dashboard Widgets API
   slug: hive-dashboard-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-dashboard-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-dashboard-widgets-api-openapi.yml
 - filename: hive-form-submissions-api-openapi.yml
   format: yaml
   label: Hive Form Submissions API
   slug: hive-form-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-form-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-form-submissions-api-openapi.yml
 - filename: hive-messages-api-openapi.yml
   format: yaml
   label: Hive Messages API
   slug: hive-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-messages-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-messages-api-openapi.yml
 - filename: hive-projects-api-openapi.yml
   format: yaml
   label: Hive Projects API
   slug: hive-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-projects-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-projects-api-openapi.yml
 - filename: hive-resource-assignments-api-openapi.yml
   format: yaml
   label: Hive Resource Assignments API
   slug: hive-resource-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-resource-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-resource-assignments-api-openapi.yml
 - filename: hive-teams-api-openapi.yml
   format: yaml
   label: Hive Teams API
   slug: hive-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-teams-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-teams-api-openapi.yml
 - filename: hive-users-api-openapi.yml
   format: yaml
   label: Hive Users API
   slug: hive-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-users-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-users-api-openapi.yml
 - filename: hive-webhooks-api-openapi.yml
   format: yaml
   label: Hive Webhooks API
   slug: hive-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-webhooks-api-openapi.yml
 - filename: hive-workflows-api-openapi.yml
   format: yaml
   label: Hive Workflows API
   slug: hive-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-workflows-api-openapi.yml
 - filename: hive-workspaces-api-openapi.yml
   format: yaml
   label: Hive Workspaces API
   slug: hive-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/openapi/hive-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/hive/openapi/hive-workspaces-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 32
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hive-o
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resource_assignments\n  method: get\n  operationId: listResourceAssignments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource_assignments\n  method: post\n  operationId: createResourceAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resource_assignments/{resourceAssignmentId}\n  method: get\n  operationId: getResourceAssignment\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource_assignments/{resourceAssignmentId}\n  method: put\n  operationId: updateResourceAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resource_assignments/{resourceAssignmentId}\n  method: delete\n  operationId: deleteResourceAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /form-submissions\n  method: get\n  operationId: listFormSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dashboard_widgets/{widgetId}/data\n  method: get\n  operationId: getWidgetData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dashboard_widgets/{widgetId}/export\n  method: get\n  operationId: exportWidgetData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/agentic-access/hive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hive/agentic-access/hive-agentic-access.yml
 summary_line: 72 operations · 40 acting
 tags:
 - Project Management

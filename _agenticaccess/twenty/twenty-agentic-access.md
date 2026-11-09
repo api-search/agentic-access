@@ -9,55 +9,55 @@ api_specs:
   label: Twenty Companies API
   slug: twenty-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-companies-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-companies-api-openapi.yml
 - filename: twenty-fields-api-openapi.yml
   format: yaml
   label: Twenty Fields API
   slug: twenty-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-fields-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-fields-api-openapi.yml
 - filename: twenty-notes-api-openapi.yml
   format: yaml
   label: Twenty Notes API
   slug: twenty-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-notes-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-notes-api-openapi.yml
 - filename: twenty-objects-api-openapi.yml
   format: yaml
   label: Twenty Objects API
   slug: twenty-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-objects-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-objects-api-openapi.yml
 - filename: twenty-opportunities-api-openapi.yml
   format: yaml
   label: Twenty Opportunities API
   slug: twenty-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-opportunities-api-openapi.yml
 - filename: twenty-people-api-openapi.yml
   format: yaml
   label: Twenty People API
   slug: twenty-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-people-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-people-api-openapi.yml
 - filename: twenty-relations-api-openapi.yml
   format: yaml
   label: Twenty Relations API
   slug: twenty-relations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-relations-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-relations-api-openapi.yml
 - filename: twenty-tasks-api-openapi.yml
   format: yaml
   label: Twenty Tasks API
   slug: twenty-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-tasks-api-openapi.yml
 - filename: twenty-open-api-api-openapi.yml
   format: yaml
   label: Twenty Open API
   slug: twenty-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/openapi/twenty-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/twenty/openapi/twenty-open-api-api-openapi.yml
 consequence_counts:
   read: 17
   write: 25
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/twenty
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /objects/{id}\n  method: delete\n  operationId: deleteOneObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fields\n  method: get\n  operationId: findManyFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields\n  method: post\n  operationId: createOneField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fields/{id}\n  method: get\n  operationId: findOneField\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields/{id}\n  method: patch\n  operationId: updateOneField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fields/{id}\n  method: delete\n  operationId: deleteOneField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /relations\n  method: get\n  operationId: findManyRelations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /relations\n  method: post\n  operationId: createOneRelation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /relations/{id}\n  method: delete\n  operationId: deleteOneRelation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/agentic-access/twenty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/twenty/agentic-access/twenty-agentic-access.yml
 summary_line: 42 operations · 25 acting
 tags:
 - CRM

@@ -9,37 +9,37 @@ api_specs:
   label: SendHub Authentication API
   slug: sendhub-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-authentication-api-openapi.yml
 - filename: sendhub-contact-api-openapi.yml
   format: yaml
   label: SendHub Contact API
   slug: sendhub-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-contact-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-contact-api-openapi.yml
 - filename: sendhub-group-api-openapi.yml
   format: yaml
   label: SendHub Group API
   slug: sendhub-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-group-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-group-api-openapi.yml
 - filename: sendhub-message-api-openapi.yml
   format: yaml
   label: SendHub Message API
   slug: sendhub-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-message-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-message-api-openapi.yml
 - filename: sendhub-profile-api-openapi.yml
   format: yaml
   label: SendHub Profile API
   slug: sendhub-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-profile-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-profile-api-openapi.yml
 - filename: sendhub-thread-api-openapi.yml
   format: yaml
   label: SendHub Thread API
   slug: sendhub-thread-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/openapi/sendhub-thread-api-openapi.yml
+  url: https://artifacts.apis.io/sendhub/openapi/sendhub-thread-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sendhu
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/messages/{message_id}\n  method: delete\n  operationId: deleteMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/messages/scheduled\n  method: get\n  operationId: listScheduledMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/settings\n  method: get\n  operationId: getSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /v1/settings\n  method: put\n  operationId: updateSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/profile\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/enterprises/{enterprise_id}\n  method: get\n  operationId: getEnterprise\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/enterprises/{enterprise_id}/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/enterprises/{enterprise_id}/users/{user_id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/auth\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/agentic-access/sendhub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sendhub/agentic-access/sendhub-agentic-access.yml
 summary_line: 28 operations · 14 acting
 tags:
 - Company

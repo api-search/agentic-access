@@ -8,67 +8,67 @@ api_specs:
   label: Varian Medical Systems Condition API
   slug: varian-medical-systems-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-condition-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-condition-api-openapi.yml
 - filename: varian-medical-systems-diagnosticreport-api-openapi.yml
   format: yaml
   label: Varian Medical Systems DiagnosticReport API
   slug: varian-medical-systems-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-diagnosticreport-api-openapi.yml
 - filename: varian-medical-systems-goal-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Goal API
   slug: varian-medical-systems-goal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-goal-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-goal-api-openapi.yml
 - filename: varian-medical-systems-metadata-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Metadata API
   slug: varian-medical-systems-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-metadata-api-openapi.yml
 - filename: varian-medical-systems-observation-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Observation API
   slug: varian-medical-systems-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-observation-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-observation-api-openapi.yml
 - filename: varian-medical-systems-patient-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Patient API
   slug: varian-medical-systems-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-patient-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-patient-api-openapi.yml
 - filename: varian-medical-systems-procedure-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Procedure API
   slug: varian-medical-systems-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-procedure-api-openapi.yml
 - filename: varian-medical-systems-allergy-intolerance-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Allergy Intolerance API
   slug: varian-medical-systems-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-allergy-intolerance-api-openapi.yml
 - filename: varian-medical-systems-care-plan-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Care plan API
   slug: varian-medical-systems-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-care-plan-api-openapi.yml
 - filename: varian-medical-systems-document-reference-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Document Reference API
   slug: varian-medical-systems-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-document-reference-api-openapi.yml
 - filename: varian-medical-systems-medication-request-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Medication Request API
   slug: varian-medical-systems-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-medication-request-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/varian
   \ max-ttl: 3600\n    audit: none\n    scope:\n    - launch/patient\n    - patient/Condition.read\n    - patient/Observation.read\n    - patient/Patient.read\n    - patient/Procedure.read\n- path: /DiagnosticReport/{id}\n  method: get\n  operationId: getDiagnosticReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch/patient\n    - patient/Condition.read\n    - patient/Observation.read\n    - patient/Patient.read\n    - patient/Procedure.read\n- path: /CarePlan\n  method: get\n  operationId: searchCarePlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch/patient\n    - patient/Condition.read\n    - patient/Observation.read\n    - patient/Patient.read\n    - patient/Procedure.read\n- path: /MedicationRequest\n  method: get\n  operationId: searchMedicationRequests\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch/patient\n    - patient/Condition.read\n    - patient/Observation.read\n    - patient/Patient.read\n    - patient/Procedure.read\n- path: /AllergyIntolerance\n  method: get\n  operationId: searchAllergyIntolerances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch/patient\n    - patient/Condition.read\n    - patient/Observation.read\n    - patient/Patient.read\n    - patient/Procedure.read\n- path: /DocumentReference\n  method: get\n  operationId: searchDocumentReferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch/patient\n    - patient/Condition.read\n    - patient/Observation.read\n\
   \    - patient/Patient.read\n    - patient/Procedure.read\n- path: /Goal\n  method: get\n  operationId: searchGoals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - launch/patient\n    - patient/Condition.read\n    - patient/Observation.read\n    - patient/Patient.read\n    - patient/Procedure.read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/agentic-access/varian-medical-systems-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/varian-medical-systems/agentic-access/varian-medical-systems-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Healthcare

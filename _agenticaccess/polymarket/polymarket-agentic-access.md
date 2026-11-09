@@ -15,25 +15,25 @@ api_specs:
   label: Polymarket CLOB Market Data API
   slug: polymarket-clob-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-clob-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/polymarket/openapi/polymarket-clob-market-data-api-openapi.yml
 - filename: polymarket-clob-trade-api-openapi.yml
   format: yaml
   label: Polymarket CLOB Trade API
   slug: polymarket-clob-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-clob-trade-api-openapi.yml
+  url: https://artifacts.apis.io/polymarket/openapi/polymarket-clob-trade-api-openapi.yml
 - filename: polymarket-gamma-events-api-openapi.yml
   format: yaml
   label: Polymarket Gamma Events API
   slug: polymarket-gamma-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-gamma-events-api-openapi.yml
+  url: https://artifacts.apis.io/polymarket/openapi/polymarket-gamma-events-api-openapi.yml
 - filename: polymarket-gamma-markets-api-openapi.yml
   format: yaml
   label: Polymarket Gamma Markets API
   slug: polymarket-gamma-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/openapi/polymarket-gamma-markets-api-openapi.yml
+  url: https://artifacts.apis.io/polymarket/openapi/polymarket-gamma-markets-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -66,7 +66,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/polymarket-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 1\n    connected: 4\n  by_consequence:\n    physical: 1\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /order\n  method: post\n  operationId: postNewOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /midpoint\n  method: get\n  operationId: getMidpointPrice\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /time\n  method: get\n  operationId: getServerTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{id}\n  method: get\n  operationId: getMarketById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/agentic-access/polymarket-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/polymarket/agentic-access/polymarket-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Prediction Markets

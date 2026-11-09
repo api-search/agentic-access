@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Binary Authorization Attestations API
   slug: google-cloud-binary-authorization-attestations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/openapi/google-cloud-binary-authorization-attestations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-binary-authorization/openapi/google-cloud-binary-authorization-attestations-api-openapi.yml
 - filename: google-cloud-binary-authorization-attestors-api-openapi.yml
   format: yaml
   label: Google Cloud Binary Authorization Attestors API
   slug: google-cloud-binary-authorization-attestors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/openapi/google-cloud-binary-authorization-attestors-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-binary-authorization/openapi/google-cloud-binary-authorization-attestors-api-openapi.yml
 - filename: google-cloud-binary-authorization-policy-api-openapi.yml
   format: yaml
   label: Google Cloud Binary Authorization Policy API
   slug: google-cloud-binary-authorization-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/openapi/google-cloud-binary-authorization-policy-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-binary-authorization/openapi/google-cloud-binary-authorization-policy-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/binary
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/attestors\n  method: get\n  operationId: listAttestors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/attestors\n  method: post\n  operationId: createAttestor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/attestors/{attestorId}\n  method: get\n  operationId: getAttestor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/attestors/{attestorId}\n\
   \  method: put\n  operationId: updateAttestor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/attestors/{attestorId}\n  method: delete\n  operationId: deleteAttestor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/attestors/{attestorId}:validateAttestationOccurrence\n  method: post\n  operationId: validateAttestationOccurrence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/agentic-access/google-cloud-binary-authorization-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-binary-authorization/agentic-access/google-cloud-binary-authorization-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Attestation

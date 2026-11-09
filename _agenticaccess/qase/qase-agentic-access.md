@@ -9,43 +9,43 @@ api_specs:
   label: Qase Cases API
   slug: qase-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-cases-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-cases-api-openapi.yml
 - filename: qase-defects-api-openapi.yml
   format: yaml
   label: Qase Defects API
   slug: qase-defects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-defects-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-defects-api-openapi.yml
 - filename: qase-plans-api-openapi.yml
   format: yaml
   label: Qase Plans API
   slug: qase-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-plans-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-plans-api-openapi.yml
 - filename: qase-projects-api-openapi.yml
   format: yaml
   label: Qase Projects API
   slug: qase-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-projects-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-projects-api-openapi.yml
 - filename: qase-results-api-openapi.yml
   format: yaml
   label: Qase Results API
   slug: qase-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-results-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-results-api-openapi.yml
 - filename: qase-runs-api-openapi.yml
   format: yaml
   label: Qase Runs API
   slug: qase-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-runs-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-runs-api-openapi.yml
 - filename: qase-suites-api-openapi.yml
   format: yaml
   label: Qase Suites API
   slug: qase-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-suites-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-suites-api-openapi.yml
 consequence_counts:
   read: 14
   write: 23
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/qase-o
   \ 3600\n    audit: none\n- path: /defect/{code}/{id}\n  method: delete\n  operationId: delete-defect\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /defect/{code}/resolve/{id}\n  method: patch\n  operationId: resolve-defect\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /defect/{code}/status/{id}\n  method: patch\n  operationId: update-defect-status\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plan/{code}\n  method: get\n  operationId: get-plans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plan/{code}\n  method: post\n  operationId: create-plan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plan/{code}/{id}\n  method: get\n  operationId: get-plan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plan/{code}/{id}\n  method: patch\n  operationId: update-plan\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plan/{code}/{id}\n  method: delete\n  operationId: delete-plan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/agentic-access/qase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qase/agentic-access/qase-agentic-access.yml
 summary_line: 37 operations · 23 acting
 tags:
 - Test Runs

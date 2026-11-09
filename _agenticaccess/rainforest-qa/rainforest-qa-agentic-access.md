@@ -9,109 +9,109 @@ api_specs:
   label: Rainforest QA Callback API
   slug: rainforest-qa-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-callback-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-callback-api-openapi.yml
 - filename: rainforest-qa-clients-api-openapi.yml
   format: yaml
   label: Rainforest QA Clients API
   slug: rainforest-qa-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-clients-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-clients-api-openapi.yml
 - filename: rainforest-qa-connections-api-openapi.yml
   format: yaml
   label: Rainforest QA Connections API
   slug: rainforest-qa-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-connections-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-connections-api-openapi.yml
 - filename: rainforest-qa-credit-cards-api-openapi.yml
   format: yaml
   label: Rainforest QA Credit Cards API
   slug: rainforest-qa-credit-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-credit-cards-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-credit-cards-api-openapi.yml
 - filename: rainforest-qa-environments-api-openapi.yml
   format: yaml
   label: Rainforest QA Environments API
   slug: rainforest-qa-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-environments-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-environments-api-openapi.yml
 - filename: rainforest-qa-features-api-openapi.yml
   format: yaml
   label: Rainforest QA Features API
   slug: rainforest-qa-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-features-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-features-api-openapi.yml
 - filename: rainforest-qa-folders-api-openapi.yml
   format: yaml
   label: Rainforest QA Folders API
   slug: rainforest-qa-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-folders-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-folders-api-openapi.yml
 - filename: rainforest-qa-generators-api-openapi.yml
   format: yaml
   label: Rainforest QA Generators API
   slug: rainforest-qa-generators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-generators-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-generators-api-openapi.yml
 - filename: rainforest-qa-on-premise-crowd-api-openapi.yml
   format: yaml
   label: Rainforest QA On Premise Crowd API
   slug: rainforest-qa-on-premise-crowd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-on-premise-crowd-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-on-premise-crowd-api-openapi.yml
 - filename: rainforest-qa-run-groups-api-openapi.yml
   format: yaml
   label: Rainforest QA Run Groups API
   slug: rainforest-qa-run-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-run-groups-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-run-groups-api-openapi.yml
 - filename: rainforest-qa-runs-api-openapi.yml
   format: yaml
   label: Rainforest QA Runs API
   slug: rainforest-qa-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-runs-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-runs-api-openapi.yml
 - filename: rainforest-qa-site-environments-api-openapi.yml
   format: yaml
   label: Rainforest QA Site Environments API
   slug: rainforest-qa-site-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-site-environments-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-site-environments-api-openapi.yml
 - filename: rainforest-qa-sites-api-openapi.yml
   format: yaml
   label: Rainforest QA Sites API
   slug: rainforest-qa-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-sites-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-sites-api-openapi.yml
 - filename: rainforest-qa-tags-api-openapi.yml
   format: yaml
   label: Rainforest QA Tags API
   slug: rainforest-qa-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-tags-api-openapi.yml
 - filename: rainforest-qa-test-results-api-openapi.yml
   format: yaml
   label: Rainforest QA Test Results API
   slug: rainforest-qa-test-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-test-results-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-test-results-api-openapi.yml
 - filename: rainforest-qa-tests-api-openapi.yml
   format: yaml
   label: Rainforest QA Tests API
   slug: rainforest-qa-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-tests-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-tests-api-openapi.yml
 - filename: rainforest-qa-users-api-openapi.yml
   format: yaml
   label: Rainforest QA Users API
   slug: rainforest-qa-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-users-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-users-api-openapi.yml
 - filename: rainforest-qa-vm-stack-api-openapi.yml
   format: yaml
   label: Rainforest QA Vm Stack API
   slug: rainforest-qa-vm-stack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/openapi/rainforest-qa-vm-stack-api-openapi.yml
+  url: https://artifacts.apis.io/rainforest-qa/openapi/rainforest-qa-vm-stack-api-openapi.yml
 consequence_counts:
   read: 49
   safety-critical: 1
@@ -179,8 +179,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/rainfo
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/tests/{test_id}/history\n  method: get\n  operationId: get-test-history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/tests/{test_id}/automation_history\n  method: get\n  operationId: get-test-run-and-generation-history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/tests/{test_id}/run_group_elements\n  method: get\n  operationId: get-test-run_group_elements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/test_results\n  method: get\n  operationId: get-test_results\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /1/users\n  method: get\n  operationId: get-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/users\n  method: post\n  operationId: post-users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/users/all\n  method: get\n  operationId: get-users-all\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/users/permissions\n  method: put\n  operationId: put-users-permissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/users/reset_password\n  method: post\n  operationId: post-users-reset_password\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /1/users/{user_id}\n  method: get\n  operationId: get-user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/users/{user_id}\n  method: put\n  operationId: put-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/users/{user_id}\n  method: delete\n  operationId: delete-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/users/{user_id}/regenerate_api_token\n  method: put\n  operationId: put-user-regenerate_api_token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/agentic-access/rainforest-qa-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/agentic-access/rainforest-qa-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/users/{user_id}\n  method: delete\n  operationId: delete-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/users/{user_id}/regenerate_api_token\n  method: put\n  operationId: put-user-regenerate_api_token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/rainforest-qa/agentic-access/rainforest-qa-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/rainforest-qa/agentic-access/rainforest-qa-agentic-access.yml
 summary_line: 113 operations · 64 acting · 1 human-in-the-loop
 tags:
 - Testing

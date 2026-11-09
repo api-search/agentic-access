@@ -9,151 +9,151 @@ api_specs:
   label: OutRival Ai Chat Sessions API
   slug: outrival-ai-chat-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-ai-chat-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-ai-chat-sessions-api-openapi.yml
 - filename: outrival-assistants-api-openapi.yml
   format: yaml
   label: OutRival Assistants API
   slug: outrival-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-assistants-api-openapi.yml
 - filename: outrival-assistants-chat-configuration-api-openapi.yml
   format: yaml
   label: OutRival Assistants Chat Configuration API
   slug: outrival-assistants-chat-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-assistants-chat-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-assistants-chat-configuration-api-openapi.yml
 - filename: outrival-assistants-logs-api-openapi.yml
   format: yaml
   label: OutRival Assistants Logs API
   slug: outrival-assistants-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-assistants-logs-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-assistants-logs-api-openapi.yml
 - filename: outrival-assistants-sms-configuration-api-openapi.yml
   format: yaml
   label: OutRival Assistants Sms Configuration API
   slug: outrival-assistants-sms-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-assistants-sms-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-assistants-sms-configuration-api-openapi.yml
 - filename: outrival-assistants-theme-configuration-api-openapi.yml
   format: yaml
   label: OutRival Assistants Theme Configuration API
   slug: outrival-assistants-theme-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-assistants-theme-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-assistants-theme-configuration-api-openapi.yml
 - filename: outrival-assistants-voice-configuration-api-openapi.yml
   format: yaml
   label: OutRival Assistants Voice Configuration API
   slug: outrival-assistants-voice-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-assistants-voice-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-assistants-voice-configuration-api-openapi.yml
 - filename: outrival-call-api-openapi.yml
   format: yaml
   label: OutRival Call API
   slug: outrival-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-call-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-call-api-openapi.yml
 - filename: outrival-chat-with-ai-assistant-api-openapi.yml
   format: yaml
   label: OutRival Chat with Ai Assistant API
   slug: outrival-chat-with-ai-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-chat-with-ai-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-chat-with-ai-assistant-api-openapi.yml
 - filename: outrival-edges-api-openapi.yml
   format: yaml
   label: OutRival Edges API
   slug: outrival-edges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-edges-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-edges-api-openapi.yml
 - filename: outrival-files-api-openapi.yml
   format: yaml
   label: OutRival Files API
   slug: outrival-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-files-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-files-api-openapi.yml
 - filename: outrival-nodes-api-openapi.yml
   format: yaml
   label: OutRival Nodes API
   slug: outrival-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-nodes-api-openapi.yml
 - filename: outrival-nodes-chat-configuration-api-openapi.yml
   format: yaml
   label: OutRival Nodes Chat Configuration API
   slug: outrival-nodes-chat-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-nodes-chat-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-nodes-chat-configuration-api-openapi.yml
 - filename: outrival-nodes-sms-configuration-api-openapi.yml
   format: yaml
   label: OutRival Nodes Sms Configuration API
   slug: outrival-nodes-sms-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-nodes-sms-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-nodes-sms-configuration-api-openapi.yml
 - filename: outrival-nodes-voice-configuration-api-openapi.yml
   format: yaml
   label: OutRival Nodes Voice Configuration API
   slug: outrival-nodes-voice-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-nodes-voice-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-nodes-voice-configuration-api-openapi.yml
 - filename: outrival-organization-api-openapi.yml
   format: yaml
   label: OutRival Organization API
   slug: outrival-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-organization-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-organization-api-openapi.yml
 - filename: outrival-organization-keys-api-openapi.yml
   format: yaml
   label: OutRival Organization Keys API
   slug: outrival-organization-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-organization-keys-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-organization-keys-api-openapi.yml
 - filename: outrival-project-variables-api-openapi.yml
   format: yaml
   label: OutRival Project variables API
   slug: outrival-project-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-project-variables-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-project-variables-api-openapi.yml
 - filename: outrival-projects-api-openapi.yml
   format: yaml
   label: OutRival Projects API
   slug: outrival-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-projects-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-projects-api-openapi.yml
 - filename: outrival-projects-theme-configuration-api-openapi.yml
   format: yaml
   label: OutRival Projects Theme Configuration API
   slug: outrival-projects-theme-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-projects-theme-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-projects-theme-configuration-api-openapi.yml
 - filename: outrival-rest-api-openapi.yml
   format: yaml
   label: OutRival Rest API
   slug: outrival-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-rest-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-rest-api-openapi.yml
 - filename: outrival-settings-api-openapi.yml
   format: yaml
   label: OutRival Settings API
   slug: outrival-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-settings-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-settings-api-openapi.yml
 - filename: outrival-webhooks-vapi-api-openapi.yml
   format: yaml
   label: OutRival Webhooks Vapi API
   slug: outrival-webhooks-vapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-webhooks-vapi-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-webhooks-vapi-api-openapi.yml
 - filename: outrival-workflow-deployment-api-openapi.yml
   format: yaml
   label: OutRival Workflow Deployment API
   slug: outrival-workflow-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-workflow-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-workflow-deployment-api-openapi.yml
 - filename: outrival-workflows-api-openapi.yml
   format: yaml
   label: OutRival Workflows API
   slug: outrival-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/openapi/outrival-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/outrival/openapi/outrival-workflows-api-openapi.yml
 consequence_counts:
   read: 48
   safety-critical: 52
@@ -340,8 +340,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/outriv
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /rest/v1/organization/keys/{keyId}\n  method: delete\n  operationId: OrganizationKeysController_remove\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /rest/v2/ai-chats/messages\n  method: post\n  operationId: MessagesController_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n\
   \      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /rest/v2/ai-chats/{aiChatId}/sessions\n  method: get\n  operationId: SessionsController_getByChatId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v2/ai-chats/project/{projectId}/sessions\n  method: get\n  operationId: SessionsController_getByProjectId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v2/ai-chats/sessions/{sessionId}/logs\n  method: get\n  operationId: SessionsController_getBySession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v2/ai-chats/{AiChatId}/logs\n  method: get\n  operationId: SessionsController_getByAiChat\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v2/ai-chats/user/{userId}/logs\n  method: get\n  operationId: SessionsController_getByUserId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v2/ai-chats/workflow/{workflowId}/logs\n  method: get\n  operationId: SessionsController_getByWorkflowId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v2/call/phone\n  method: post\n  operationId: VapiController_phoneCallInitiate\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n \
-  \     human-in-the-loop: required\n    audit: required\n- path: /rest/v2/call/phone-numbers\n  method: get\n  operationId: VapiController_getActivePhoneNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v2/webhooks/vapi/server-messages\n  method: post\n  operationId: VapiWebhooksController_onServerMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/agentic-access/outrival-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/agentic-access/outrival-agentic-access.yml
+  \     human-in-the-loop: required\n    audit: required\n- path: /rest/v2/call/phone-numbers\n  method: get\n  operationId: VapiController_getActivePhoneNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v2/webhooks/vapi/server-messages\n  method: post\n  operationId: VapiWebhooksController_onServerMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/outrival/agentic-access/outrival-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/outrival/agentic-access/outrival-agentic-access.yml
 summary_line: 100 operations · 52 acting · 52 human-in-the-loop
 tags:
 - Company

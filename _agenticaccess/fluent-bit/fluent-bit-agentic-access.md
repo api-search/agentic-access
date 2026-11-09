@@ -9,37 +9,37 @@ api_specs:
   label: Fluent Bit Build API
   slug: fluent-bit-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-build-api-openapi.yml
+  url: https://artifacts.apis.io/fluent-bit/openapi/fluent-bit-build-api-openapi.yml
 - filename: fluent-bit-health-api-openapi.yml
   format: yaml
   label: Fluent Bit Health API
   slug: fluent-bit-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-health-api-openapi.yml
+  url: https://artifacts.apis.io/fluent-bit/openapi/fluent-bit-health-api-openapi.yml
 - filename: fluent-bit-metrics-api-openapi.yml
   format: yaml
   label: Fluent Bit Metrics API
   slug: fluent-bit-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/fluent-bit/openapi/fluent-bit-metrics-api-openapi.yml
 - filename: fluent-bit-reload-api-openapi.yml
   format: yaml
   label: Fluent Bit Reload API
   slug: fluent-bit-reload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-reload-api-openapi.yml
+  url: https://artifacts.apis.io/fluent-bit/openapi/fluent-bit-reload-api-openapi.yml
 - filename: fluent-bit-storage-api-openapi.yml
   format: yaml
   label: Fluent Bit Storage API
   slug: fluent-bit-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-storage-api-openapi.yml
+  url: https://artifacts.apis.io/fluent-bit/openapi/fluent-bit-storage-api-openapi.yml
 - filename: fluent-bit-uptime-api-openapi.yml
   format: yaml
   label: Fluent Bit Uptime API
   slug: fluent-bit-uptime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/openapi/fluent-bit-uptime-api-openapi.yml
+  url: https://artifacts.apis.io/fluent-bit/openapi/fluent-bit-uptime-api-openapi.yml
 consequence_counts:
   read: 10
   write: 2
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fluent
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/metrics/prometheus\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/storage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/health\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/metrics\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/metrics/prometheus\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /api/v2/health\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reload\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reload\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/reload\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/agentic-access/fluent-bit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fluent-bit/agentic-access/fluent-bit-agentic-access.yml
 summary_line: 12 operations · 2 acting
 tags:
 - Logging

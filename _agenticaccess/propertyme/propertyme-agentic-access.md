@@ -9,37 +9,37 @@ api_specs:
   label: PropertyMe Connection API
   slug: propertyme-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-connection-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-connection-api-openapi.yml
 - filename: propertyme-scope-activities-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Activities API'
   slug: propertyme-scope-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-activities-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-activities-api-openapi.yml
 - filename: propertyme-scope-bills-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Bills API'
   slug: propertyme-scope-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-bills-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-bills-api-openapi.yml
 - filename: propertyme-scope-contacts-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Contacts API'
   slug: propertyme-scope-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-contacts-api-openapi.yml
 - filename: propertyme-scope-messages-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Messages API'
   slug: propertyme-scope-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-messages-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-messages-api-openapi.yml
 - filename: propertyme-scope-properties-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Properties API'
   slug: propertyme-scope-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-properties-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-properties-api-openapi.yml
 consequence_counts:
   read: 48
   write: 38
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/proper
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/jobtasks/{Id}\n  method: get\n  operationId: JobTaskV2RequestjobtasksId_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/jobtasks/{Id}\n  method: post\n  operationId: UpdateJobV2RequestjobtasksId_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/jobtasks/search\n  method: get\n  operationId: SearchJobTaskV2Requestjobtaskssearch_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/jobtasks\n\
   \  method: get\n  operationId: ChangedJobTaskV2Requestjobtasks_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/jobtasks\n  method: post\n  operationId: AddJobV2Requestjobtasks_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobtasks/{Id}/quotation/{QuoteId}/documents\n  method: post\n  operationId: AddJobTasksQuotationDocumentRequestjobtasksIdquotationQuoteIddocuments_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/agentic-access/propertyme-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/propertyme/agentic-access/propertyme-agentic-access.yml
 summary_line: 86 operations · 38 acting
 tags:
 - Real Estate

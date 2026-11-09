@@ -9,19 +9,19 @@ api_specs:
   label: EcoFlow Devices API
   slug: ecoflow-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-devices-api-openapi.yml
+  url: https://artifacts.apis.io/ecoflow/openapi/ecoflow-devices-api-openapi.yml
 - filename: ecoflow-mqtt-api-openapi.yml
   format: yaml
   label: EcoFlow MQTT API
   slug: ecoflow-mqtt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-mqtt-api-openapi.yml
+  url: https://artifacts.apis.io/ecoflow/openapi/ecoflow-mqtt-api-openapi.yml
 - filename: ecoflow-quota-api-openapi.yml
   format: yaml
   label: EcoFlow Quota API
   slug: ecoflow-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-quota-api-openapi.yml
+  url: https://artifacts.apis.io/ecoflow/openapi/ecoflow-quota-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ecoflow-devices-api-openapi.yml, openapi/ecoflow-mqtt-api-openapi.yml, openapi/ecoflow-quota-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /iot-open/sign/device/list\n  method: get\n  operationId: getDeviceList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iot-open/sign/certification\n  method: get\n  operationId: getMqttCertification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iot-open/sign/device/quota/all\n  method: get\n  operationId: getAllQuota\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iot-open/sign/device/quota\n  method: post\n  operationId: getQuota\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iot-open/sign/device/quota\n  method: put\n  operationId: setQuota\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/agentic-access/ecoflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ecoflow/agentic-access/ecoflow-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Company

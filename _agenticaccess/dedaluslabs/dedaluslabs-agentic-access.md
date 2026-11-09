@@ -9,79 +9,79 @@ api_specs:
   label: Dedalus Labs Dedalus API
   slug: dedaluslabs-dedalus-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-dedalus-api-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-dedalus-api-api-openapi.yml
 - filename: dedaluslabs-health-api-openapi.yml
   format: yaml
   label: Dedalus Labs Health API
   slug: dedaluslabs-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-health-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-health-api-openapi.yml
 - filename: dedaluslabs-machine-lifecycle-api-openapi.yml
   format: yaml
   label: Dedalus Labs Machine Lifecycle API
   slug: dedaluslabs-machine-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-machine-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-machine-lifecycle-api-openapi.yml
 - filename: dedaluslabs-marketplace-api-openapi.yml
   format: yaml
   label: Dedalus Labs Marketplace API
   slug: dedaluslabs-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-marketplace-api-openapi.yml
 - filename: dedaluslabs-private-api-openapi.yml
   format: yaml
   label: Dedalus Labs Private API
   slug: dedaluslabs-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-private-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-private-api-openapi.yml
 - filename: dedaluslabs-webhooks-api-openapi.yml
   format: yaml
   label: Dedalus Labs Webhooks API
   slug: dedaluslabs-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-webhooks-api-openapi.yml
 - filename: dedaluslabs-audio-api-openapi.yml
   format: yaml
   label: Dedalus Labs Audio API
   slug: dedaluslabs-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-audio-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-audio-api-openapi.yml
 - filename: dedaluslabs-embeddings-api-openapi.yml
   format: yaml
   label: Dedalus Labs Embeddings API
   slug: dedaluslabs-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-embeddings-api-openapi.yml
 - filename: dedaluslabs-images-api-openapi.yml
   format: yaml
   label: Dedalus Labs Images API
   slug: dedaluslabs-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-images-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-images-api-openapi.yml
 - filename: dedaluslabs-models-api-openapi.yml
   format: yaml
   label: Dedalus Labs Models API
   slug: dedaluslabs-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-models-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-models-api-openapi.yml
 - filename: dedaluslabs-ocr-api-openapi.yml
   format: yaml
   label: Dedalus Labs OCR API
   slug: dedaluslabs-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-ocr-api-openapi.yml
 - filename: dedaluslabs-responses-api-openapi.yml
   format: yaml
   label: Dedalus Labs Responses API
   slug: dedaluslabs-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-responses-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-responses-api-openapi.yml
 - filename: dedaluslabs-chat-completions-api-openapi.yml
   format: yaml
   label: Dedalus Labs Chat Completions API
   slug: dedaluslabs-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/openapi/dedaluslabs-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/dedaluslabs/openapi/dedaluslabs-chat-completions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 25
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dedalu
   \ create_translation_v1_audio_translations_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/generations\n  method: post\n  operationId: create_image_v1_images_generations_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/edits\n  method: post\n  operationId: edit_image_v1_images_edits_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/variations\n  method: post\n  operationId: create_variation_v1_images_variations_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ocr\n  method: post\n  operationId: process_ocr_v1_ocr_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/stripe/connect\n  method: post\n  operationId: handle_stripe_connect_webhook_v1_webhooks_stripe_connect_post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/agentic-access/dedaluslabs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dedaluslabs/agentic-access/dedaluslabs-agentic-access.yml
 summary_line: 52 operations · 27 acting
 tags:
 - Company

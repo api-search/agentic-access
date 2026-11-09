@@ -8,19 +8,19 @@ api_specs:
   label: Azure OpenAI Service Completions API
   slug: microsoft-azure-openai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-completions-api-openapi.yml
 - filename: microsoft-azure-openai-embeddings-api-openapi.yml
   format: yaml
   label: Azure OpenAI Service Embeddings API
   slug: microsoft-azure-openai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-embeddings-api-openapi.yml
 - filename: microsoft-azure-openai-images-api-openapi.yml
   format: yaml
   label: Azure OpenAI Service Images API
   slug: microsoft-azure-openai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-images-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-images-api-openapi.yml
 - filename: azure-openai-asyncapi.yml
   format: yaml
   label: Azure OpenAI Inference REST API
@@ -32,13 +32,13 @@ api_specs:
   label: Azure OpenAI Service Audio API
   slug: microsoft-azure-openai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-audio-api-openapi.yml
 - filename: microsoft-azure-openai-chat-completions-api-openapi.yml
   format: yaml
   label: Azure OpenAI Service Chat Completions API
   slug: microsoft-azure-openai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-chat-completions-api-openapi.yml
 consequence_counts:
   physical: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -86,7 +86,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/microsoft-azure-openai-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 4\n  by_consequence:\n    physical: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /openai/deployments/{deployment-id}/completions\n  method: post\n  operationId: createCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /openai/deployments/{deployment-id}/chat/completions\n\
   \  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /openai/deployments/{deployment-id}/embeddings\n  method: post\n  operationId: createEmbedding\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /openai/deployments/{deployment-id}/images/generations\n  method: post\n  operationId: createImage\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/agentic-access/microsoft-azure-openai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-openai/agentic-access/microsoft-azure-openai-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
 - Artificial Intelligence

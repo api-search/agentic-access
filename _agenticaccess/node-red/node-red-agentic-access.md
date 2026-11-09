@@ -9,37 +9,37 @@ api_specs:
   label: Node-RED Auth API
   slug: node-red-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-auth-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-auth-api-openapi.yml
 - filename: node-red-diagnostics-api-openapi.yml
   format: yaml
   label: Node-RED Diagnostics API
   slug: node-red-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-diagnostics-api-openapi.yml
 - filename: node-red-flow-api-openapi.yml
   format: yaml
   label: Node-RED Flow API
   slug: node-red-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-flow-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-flow-api-openapi.yml
 - filename: node-red-flows-api-openapi.yml
   format: yaml
   label: Node-RED Flows API
   slug: node-red-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-flows-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-flows-api-openapi.yml
 - filename: node-red-nodes-api-openapi.yml
   format: yaml
   label: Node-RED Nodes API
   slug: node-red-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-nodes-api-openapi.yml
 - filename: node-red-settings-api-openapi.yml
   format: yaml
   label: Node-RED Settings API
   slug: node-red-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-settings-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-settings-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 3
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/node-r
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nodes\n  method: get\n  operationId: getNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nodes\n  method: post\n  operationId: postNodes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nodes/{module}\n  method: get\n  operationId: getNodeModule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /nodes/{module}\n  method: put\n  operationId: putNodeModule\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /nodes/{module}\n  method: delete\n  operationId: deleteNodeModule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nodes/{module}/{set}\n  method: get\n  operationId: getNodeModuleSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nodes/{module}/{set}\n  method: put\n\
   \  operationId: putNodeModuleSet\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/agentic-access/node-red-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/node-red/agentic-access/node-red-agentic-access.yml
 summary_line: 20 operations · 11 acting · 3 human-in-the-loop
 tags:
 - Self-Hosted

@@ -8,163 +8,163 @@ api_specs:
   label: Blockworks Acquisitions API
   slug: blockworks-acquisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-acquisitions-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-acquisitions-api-openapi.yml
 - filename: blockworks-assets-api-openapi.yml
   format: yaml
   label: Blockworks Assets API
   slug: blockworks-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-assets-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-assets-api-openapi.yml
 - filename: blockworks-blockchains-api-openapi.yml
   format: yaml
   label: Blockworks Blockchains API
   slug: blockworks-blockchains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-blockchains-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-blockchains-api-openapi.yml
 - filename: blockworks-derivatives-api-openapi.yml
   format: yaml
   label: Blockworks Derivatives API
   slug: blockworks-derivatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-derivatives-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-derivatives-api-openapi.yml
 - filename: blockworks-digital-asset-treasuries-api-openapi.yml
   format: yaml
   label: Blockworks Digital Asset Treasuries API
   slug: blockworks-digital-asset-treasuries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-digital-asset-treasuries-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-digital-asset-treasuries-api-openapi.yml
 - filename: blockworks-etfs-api-openapi.yml
   format: yaml
   label: Blockworks ETFs API
   slug: blockworks-etfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-etfs-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-etfs-api-openapi.yml
 - filename: blockworks-exchanges-api-openapi.yml
   format: yaml
   label: Blockworks Exchanges API
   slug: blockworks-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-exchanges-api-openapi.yml
 - filename: blockworks-funding-rounds-api-openapi.yml
   format: yaml
   label: Blockworks Funding Rounds API
   slug: blockworks-funding-rounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-funding-rounds-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-funding-rounds-api-openapi.yml
 - filename: blockworks-funds-investors-api-openapi.yml
   format: yaml
   label: Blockworks Funds & Investors API
   slug: blockworks-funds-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-funds-investors-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-funds-investors-api-openapi.yml
 - filename: blockworks-launchpads-api-openapi.yml
   format: yaml
   label: Blockworks Launchpads API
   slug: blockworks-launchpads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-launchpads-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-launchpads-api-openapi.yml
 - filename: blockworks-lending-protocols-api-openapi.yml
   format: yaml
   label: Blockworks Lending Protocols API
   slug: blockworks-lending-protocols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-lending-protocols-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-lending-protocols-api-openapi.yml
 - filename: blockworks-market-overview-api-openapi.yml
   format: yaml
   label: Blockworks Market Overview API
   slug: blockworks-market-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-market-overview-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-market-overview-api-openapi.yml
 - filename: blockworks-markets-api-openapi.yml
   format: yaml
   label: Blockworks Markets API
   slug: blockworks-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-markets-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-markets-api-openapi.yml
 - filename: blockworks-news-research-api-openapi.yml
   format: yaml
   label: Blockworks News & Research API
   slug: blockworks-news-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-news-research-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-news-research-api-openapi.yml
 - filename: blockworks-perp-dexes-api-openapi.yml
   format: yaml
   label: Blockworks Perp DEXes API
   slug: blockworks-perp-dexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-perp-dexes-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-perp-dexes-api-openapi.yml
 - filename: blockworks-projects-entities-api-openapi.yml
   format: yaml
   label: Blockworks Projects & Entities API
   slug: blockworks-projects-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-projects-entities-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-projects-entities-api-openapi.yml
 - filename: blockworks-protocol-revenue-api-openapi.yml
   format: yaml
   label: Blockworks Protocol Revenue API
   slug: blockworks-protocol-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-protocol-revenue-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-protocol-revenue-api-openapi.yml
 - filename: blockworks-social-mindshare-api-openapi.yml
   format: yaml
   label: Blockworks Social & Mindshare API
   slug: blockworks-social-mindshare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-social-mindshare-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-social-mindshare-api-openapi.yml
 - filename: blockworks-spot-dexes-api-openapi.yml
   format: yaml
   label: Blockworks Spot DEXes API
   slug: blockworks-spot-dexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-spot-dexes-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-spot-dexes-api-openapi.yml
 - filename: blockworks-stablecoins-api-openapi.yml
   format: yaml
   label: Blockworks Stablecoins API
   slug: blockworks-stablecoins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-stablecoins-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-stablecoins-api-openapi.yml
 - filename: blockworks-tabular-api-openapi.yml
   format: yaml
   label: Blockworks Tabular API
   slug: blockworks-tabular-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-tabular-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-tabular-api-openapi.yml
 - filename: blockworks-tcg-platforms-api-openapi.yml
   format: yaml
   label: Blockworks TCG Platforms API
   slug: blockworks-tcg-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-tcg-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-tcg-platforms-api-openapi.yml
 - filename: blockworks-token-transparency-framework-api-openapi.yml
   format: yaml
   label: Blockworks Token Transparency Framework API
   slug: blockworks-token-transparency-framework-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-token-transparency-framework-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-token-transparency-framework-api-openapi.yml
 - filename: blockworks-tokenized-commodities-api-openapi.yml
   format: yaml
   label: Blockworks Tokenized Commodities API
   slug: blockworks-tokenized-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-tokenized-commodities-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-tokenized-commodities-api-openapi.yml
 - filename: blockworks-tokenized-equities-api-openapi.yml
   format: yaml
   label: Blockworks Tokenized Equities API
   slug: blockworks-tokenized-equities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-tokenized-equities-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-tokenized-equities-api-openapi.yml
 - filename: blockworks-vaults-api-openapi.yml
   format: yaml
   label: Blockworks Vaults API
   slug: blockworks-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-vaults-api-openapi.yml
 - filename: blockworks-time-series-api-openapi.yml
   format: yaml
   label: Blockworks Time Series API
   slug: blockworks-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/openapi/blockworks-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/blockworks/openapi/blockworks-time-series-api-openapi.yml
 consequence_counts:
   read: 178
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -222,8 +222,8 @@ source_yaml: "generated: '2026-09-29'\nmethod: generated\nsource: openapi/data-a
   \  operationId: getTimeseriesSeries_project_mindshare\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/projects/{granularity}\n  method: get\n  operationId: getTimeseries_projects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/projects/{granularity}/{id}\n  method: get\n  operationId: getTimeseriesSeries_projects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/protocol-revenue-by-product/{granularity}\n  method: get\n  operationId: getTimeseries_protocol_revenue_by_product\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /query/timeseries/protocol-revenue-by-product/{granularity}/{id}\n  method: get\n  operationId: getTimeseriesSeries_protocol_revenue_by_product\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/protocol-revenue/{granularity}\n  method: get\n  operationId: getTimeseries_protocol_revenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/protocol-revenue/{granularity}/{id}\n  method: get\n  operationId: getTimeseriesSeries_protocol_revenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/sector-asset-mindshare/{granularity}\n  method: get\n  operationId: getTimeseries_sector_asset_mindshare\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/sector-asset-mindshare/{granularity}/{sector}\n  method: get\n  operationId: getTimeseriesSeries_sector_asset_mindshare\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/sector-asset-sentiment/{granularity}\n  method: get\n  operationId: getTimeseries_sector_asset_sentiment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/sector-asset-sentiment/{granularity}/{sector}\n  method: get\n  operationId: getTimeseriesSeries_sector_asset_sentiment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/sector-fundraising/{granularity}\n\
-  \  method: get\n  operationId: getTimeseries_sector_fundraising\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/sector-fundraising/{granularity}/{sector}\n  method: get\n  operationId: getTimeseriesSeries_sector_fundraising\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/agentic-access/blockworks-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/agentic-access/blockworks-agentic-access.yml
+  \  method: get\n  operationId: getTimeseries_sector_fundraising\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/timeseries/sector-fundraising/{granularity}/{sector}\n  method: get\n  operationId: getTimeseriesSeries_sector_fundraising\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/blockworks/agentic-access/blockworks-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/blockworks/agentic-access/blockworks-agentic-access.yml
 summary_line: 178 operations
 tags:
 - Company

@@ -9,145 +9,145 @@ api_specs:
   label: Flagsmith Flags API
   slug: flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-flags-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-flags-api-openapi.yml
 - filename: flagsmith-environments-api-openapi.yml
   format: yaml
   label: flagsmith Environments API
   slug: flagsmith-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-environments-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-environments-api-openapi.yml
 - filename: flagsmith-features-api-openapi.yml
   format: yaml
   label: flagsmith Features API
   slug: flagsmith-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-features-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-features-api-openapi.yml
 - filename: flagsmith-identities-api-openapi.yml
   format: yaml
   label: flagsmith Identities API
   slug: flagsmith-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-identities-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-identities-api-openapi.yml
 - filename: flagsmith-organisations-api-openapi.yml
   format: yaml
   label: flagsmith Organisations API
   slug: flagsmith-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-organisations-api-openapi.yml
 - filename: flagsmith-projects-api-openapi.yml
   format: yaml
   label: flagsmith Projects API
   slug: flagsmith-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-projects-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-projects-api-openapi.yml
 - filename: flagsmith-segments-api-openapi.yml
   format: yaml
   label: flagsmith Segments API
   slug: flagsmith-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-segments-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-segments-api-openapi.yml
 - filename: flagsmith-users-api-openapi.yml
   format: yaml
   label: flagsmith Users API
   slug: flagsmith-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-users-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-users-api-openapi.yml
 - filename: flagsmith-webhooks-api-openapi.yml
   format: yaml
   label: flagsmith Webhooks API
   slug: flagsmith-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-webhooks-api-openapi.yml
 - filename: flagsmith-admin-dashboard-api-openapi.yml
   format: yaml
   label: Flagsmith Admin dashboard API
   slug: flagsmith-admin-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-admin-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-admin-dashboard-api-openapi.yml
 - filename: flagsmith-analytics-api-openapi.yml
   format: yaml
   label: Flagsmith Analytics API
   slug: flagsmith-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-analytics-api-openapi.yml
 - filename: flagsmith-audit-api-openapi.yml
   format: yaml
   label: Flagsmith Audit API
   slug: flagsmith-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-audit-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-audit-api-openapi.yml
 - filename: flagsmith-authentication-api-openapi.yml
   format: yaml
   label: Flagsmith Authentication API
   slug: flagsmith-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-authentication-api-openapi.yml
 - filename: flagsmith-experimental-api-openapi.yml
   format: yaml
   label: Flagsmith Experimental API
   slug: flagsmith-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-experimental-api-openapi.yml
 - filename: flagsmith-feature-states-api-openapi.yml
   format: yaml
   label: Flagsmith Feature states API
   slug: flagsmith-feature-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-feature-states-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-feature-states-api-openapi.yml
 - filename: flagsmith-integrations-api-openapi.yml
   format: yaml
   label: Flagsmith Integrations API
   slug: flagsmith-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-integrations-api-openapi.yml
 - filename: flagsmith-mcp-api-openapi.yml
   format: yaml
   label: Flagsmith MCP API
   slug: flagsmith-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-mcp-api-openapi.yml
 - filename: flagsmith-metadata-api-openapi.yml
   format: yaml
   label: Flagsmith Metadata API
   slug: flagsmith-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-metadata-api-openapi.yml
 - filename: flagsmith-o-api-openapi.yml
   format: yaml
   label: Flagsmith O API
   slug: flagsmith-o-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-o-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-o-api-openapi.yml
 - filename: flagsmith-onboarding-api-openapi.yml
   format: yaml
   label: Flagsmith Onboarding API
   slug: flagsmith-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-onboarding-api-openapi.yml
 - filename: flagsmith-other-api-openapi.yml
   format: yaml
   label: Flagsmith Other API
   slug: flagsmith-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-other-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-other-api-openapi.yml
 - filename: flagsmith-permissions-api-openapi.yml
   format: yaml
   label: Flagsmith Permissions API
   slug: flagsmith-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-permissions-api-openapi.yml
 - filename: flagsmith-processor-api-openapi.yml
   format: yaml
   label: Flagsmith Processor API
   slug: flagsmith-processor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-processor-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-processor-api-openapi.yml
 - filename: flagsmith-sdk-api-openapi.yml
   format: yaml
   label: Flagsmith SDK API
   slug: flagsmith-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-sdk-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 249
@@ -281,8 +281,8 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/flagsm
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/environments/{api_key}/delete-traits/\n  method: post\n  operationId: api_v1_environments_delete_traits_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/environments/{api_key}/disable-v2-versioning/\n  method: post\n  operationId: api_v1_environments_disable_v2_versioning_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n\
   \    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/environments/{api_key}/document/\n  method: get\n  operationId: api_v1_environments_document_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/environments/{api_key}/enable-v2-versioning/\n  method: post\n  operationId: api_v1_environments_enable_v2_versioning_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/environments/{api_key}/my-permissions/\n  method: get\n  operationId: api_v1_environments_my_permissions_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /api/v1/environments/{api_key}/trait-keys/\n  method: get\n  operationId: api_v1_environments_trait_keys_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/environments/{api_key}/user-detailed-permissions/{user_id}/\n  method: get\n  operationId: api_v1_environments_user_detailed_permissions_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/environments/{environment_api_key}/api-keys/\n  method: get\n  operationId: api_v1_environments_api_keys_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/environments/{environment_api_key}/api-keys/\n  method: post\n  operationId: api_v1_environments_api_keys_create\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/environments/{environment_api_key}/api-keys/{id}/\n  method: put\n  operationId: api_v1_environments_api_keys_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (226 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/agentic-access/flagsmith-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/agentic-access/flagsmith-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/environments/{environment_api_key}/api-keys/{id}/\n  method: put\n  operationId: api_v1_environments_api_keys_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (226 KB total) ---\n# Full source: https://artifacts.apis.io/flagsmith/agentic-access/flagsmith-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/flagsmith/agentic-access/flagsmith-agentic-access.yml
 summary_line: 650 operations · 401 acting · 8 human-in-the-loop
 tags:
 - Feature Flags

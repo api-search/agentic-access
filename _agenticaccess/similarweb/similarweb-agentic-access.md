@@ -9,79 +9,79 @@ api_specs:
   label: SimilarWeb Account API
   slug: similarweb-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-account-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-account-api-openapi.yml
 - filename: similarweb-app-intelligence-api-openapi.yml
   format: yaml
   label: SimilarWeb App Intelligence API
   slug: similarweb-app-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-app-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-app-intelligence-api-openapi.yml
 - filename: similarweb-credits-api-openapi.yml
   format: yaml
   label: SimilarWeb Credits API
   slug: similarweb-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-credits-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-credits-api-openapi.yml
 - filename: similarweb-geography-api-openapi.yml
   format: yaml
   label: SimilarWeb Geography API
   slug: similarweb-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-geography-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-geography-api-openapi.yml
 - filename: similarweb-integrations-api-openapi.yml
   format: yaml
   label: SimilarWeb Integrations API
   slug: similarweb-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-integrations-api-openapi.yml
 - filename: similarweb-keywords-api-openapi.yml
   format: yaml
   label: SimilarWeb Keywords API
   slug: similarweb-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-keywords-api-openapi.yml
 - filename: similarweb-lead-enrichment-api-openapi.yml
   format: yaml
   label: SimilarWeb Lead Enrichment API
   slug: similarweb-lead-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-lead-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-lead-enrichment-api-openapi.yml
 - filename: similarweb-rankings-api-openapi.yml
   format: yaml
   label: SimilarWeb Rankings API
   slug: similarweb-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-rankings-api-openapi.yml
 - filename: similarweb-reports-api-openapi.yml
   format: yaml
   label: SimilarWeb Reports API
   slug: similarweb-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-reports-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-reports-api-openapi.yml
 - filename: similarweb-similar-sites-api-openapi.yml
   format: yaml
   label: SimilarWeb Similar Sites API
   slug: similarweb-similar-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-similar-sites-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-similar-sites-api-openapi.yml
 - filename: similarweb-traffic-and-engagement-api-openapi.yml
   format: yaml
   label: SimilarWeb Traffic and Engagement API
   slug: similarweb-traffic-and-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-traffic-and-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-traffic-and-engagement-api-openapi.yml
 - filename: similarweb-traffic-sources-api-openapi.yml
   format: yaml
   label: SimilarWeb Traffic Sources API
   slug: similarweb-traffic-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-traffic-sources-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-traffic-sources-api-openapi.yml
 - filename: similarweb-webhooks-api-openapi.yml
   format: yaml
   label: SimilarWeb Webhooks API
   slug: similarweb-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/openapi/similarweb-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/similarweb/openapi/similarweb-webhooks-api-openapi.yml
 consequence_counts:
   read: 19
   write: 8
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/simila
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/website/{domain_name}/geo/traffic-by-country\n  method: get\n  operationId: getGeographyDesktop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/website/{domain_name}/global-rank/global-rank\n  method: get\n  operationId: getGlobalRank\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/website-analysis/keywords\n  method: get\n  operationId: getWebsiteKeywords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/website/{domain_name}/lead-enrichment/all\n  method: get\n  operationId: getLeadEnrichment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v5/apps/google/downloads\n  method: get\n  operationId: getAppDownloadsAndroid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v5/apps/apple/downloads\n  method: get\n  operationId: getAppDownloadsIos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/website/{domain_name}/similar-sites\n  method: get\n  operationId: getSimilarSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/rank-tracker/{campaign_id}/reports/overview-report/performanceOverTime\n  method: get\n  operationId: getRankTrackingCampaignOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/agentic-access/similarweb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/similarweb/agentic-access/similarweb-agentic-access.yml
 summary_line: 27 operations · 8 acting
 tags:
 - Digital Intelligence

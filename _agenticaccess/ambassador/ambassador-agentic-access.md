@@ -9,37 +9,37 @@ api_specs:
   label: Ambassador Diagnostics API
   slug: ambassador-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-diagnostics-api-openapi.yml
 - filename: ambassador-hosts-api-openapi.yml
   format: yaml
   label: Ambassador Hosts API
   slug: ambassador-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-hosts-api-openapi.yml
 - filename: ambassador-mappings-api-openapi.yml
   format: yaml
   label: Ambassador Mappings API
   slug: ambassador-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-mappings-api-openapi.yml
 - filename: ambassador-modules-api-openapi.yml
   format: yaml
   label: Ambassador Modules API
   slug: ambassador-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-modules-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-modules-api-openapi.yml
 - filename: ambassador-tlscontexts-api-openapi.yml
   format: yaml
   label: Ambassador TLSContexts API
   slug: ambassador-tlscontexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-tlscontexts-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-tlscontexts-api-openapi.yml
 - filename: ambassador-rate-limits-api-openapi.yml
   format: yaml
   label: Ambassador Rate Limits API
   slug: ambassador-rate-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-rate-limits-api-openapi.yml
+  url: https://artifacts.apis.io/ambassador/openapi/ambassador-rate-limits-api-openapi.yml
 consequence_counts:
   read: 13
   write: 13
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ambass
   \  method: delete\n  operationId: deleteTLSContext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/ratelimits\n  method: get\n  operationId: listRateLimits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/ratelimits\n  method: post\n  operationId: createRateLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /apis/getambassador.io/v3alpha1/namespaces/{namespace}/ratelimits/{name}\n  method: get\n  operationId: getRateLimit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/ratelimits/{name}\n  method: put\n  operationId: updateRateLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/ratelimits/{name}\n  method: delete\n  operationId: deleteRateLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/modules\n  method: get\n  operationId: listModules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/modules/{name}\n  method: get\n  operationId: getModule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/modules/{name}\n  method: put\n  operationId: updateModule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/agentic-access/ambassador-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ambassador/agentic-access/ambassador-agentic-access.yml
 summary_line: 26 operations · 13 acting
 tags:
 - API Development

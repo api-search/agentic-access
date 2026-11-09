@@ -9,37 +9,37 @@ api_specs:
   label: V7 Annotations API
   slug: v7-labs-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-annotations-api-openapi.yml
 - filename: v7-labs-classes-api-openapi.yml
   format: yaml
   label: V7 Classes API
   slug: v7-labs-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-classes-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-classes-api-openapi.yml
 - filename: v7-labs-datasets-api-openapi.yml
   format: yaml
   label: V7 Datasets API
   slug: v7-labs-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-datasets-api-openapi.yml
 - filename: v7-labs-exports-api-openapi.yml
   format: yaml
   label: V7 Exports API
   slug: v7-labs-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-exports-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-exports-api-openapi.yml
 - filename: v7-labs-items-api-openapi.yml
   format: yaml
   label: V7 Items API
   slug: v7-labs-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-items-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-items-api-openapi.yml
 - filename: v7-labs-workflows-api-openapi.yml
   format: yaml
   label: V7 Workflows API
   slug: v7-labs-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/openapi/v7-labs-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/v7-labs/openapi/v7-labs-workflows-api-openapi.yml
 consequence_counts:
   read: 11
   write: 14
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/v7-lab
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/teams/{team_slug}/workflows\n  method: post\n  operationId: createWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/teams/{team_slug}/workflows/{id}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/teams/{team_slug}/items/stage\n  method: post\n  operationId: setStage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/teams/{team_slug}/datasets/{dataset_slug}/exports\n  method: get\n  operationId: listExports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/teams/{team_slug}/datasets/{dataset_slug}/exports\n  method: post\n  operationId: createExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/teams/{team_slug}/datasets/{dataset_slug}/exports/{name}\n  method: get\n  operationId: showExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/teams/{team_slug}/datasets/{dataset_slug}/exports/{name}\n\
   \  method: delete\n  operationId: deleteExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/agentic-access/v7-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/v7-labs/agentic-access/v7-labs-agentic-access.yml
 summary_line: 25 operations · 14 acting
 tags:
 - Artificial Intelligence

@@ -9,133 +9,133 @@ api_specs:
   label: Yext Account Settings API
   slug: yext-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-account-settings-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-account-settings-api-openapi.yml
 - filename: yext-accounts-api-openapi.yml
   format: yaml
   label: Yext Accounts API
   slug: yext-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-accounts-api-openapi.yml
 - filename: yext-administrative-api-api-openapi.yml
   format: yaml
   label: Yext Administrative API
   slug: yext-administrative-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-administrative-api-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-administrative-api-api-openapi.yml
 - filename: yext-analytics-api-openapi.yml
   format: yaml
   label: Yext Analytics API
   slug: yext-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-analytics-api-openapi.yml
 - filename: yext-computations-api-openapi.yml
   format: yaml
   label: Yext Computations API
   slug: yext-computations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-computations-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-computations-api-openapi.yml
 - filename: yext-configuration-api-openapi.yml
   format: yaml
   label: Yext Configuration API
   slug: yext-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-configuration-api-openapi.yml
 - filename: yext-connectors-api-openapi.yml
   format: yaml
   label: Yext Connectors API
   slug: yext-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-connectors-api-openapi.yml
 - filename: yext-content-api-api-openapi.yml
   format: yaml
   label: Yext Content API
   slug: yext-content-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-content-api-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-content-api-api-openapi.yml
 - filename: yext-domains-api-openapi.yml
   format: yaml
   label: Yext Domains API
   slug: yext-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-domains-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-domains-api-openapi.yml
 - filename: yext-health-check-api-openapi.yml
   format: yaml
   label: Yext Health Check API
   slug: yext-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-health-check-api-openapi.yml
 - filename: yext-knowledge-manager-api-openapi.yml
   format: yaml
   label: Yext Knowledge Manager API
   slug: yext-knowledge-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-knowledge-manager-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-knowledge-manager-api-openapi.yml
 - filename: yext-licenses-api-openapi.yml
   format: yaml
   label: Yext Licenses API
   slug: yext-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-licenses-api-openapi.yml
 - filename: yext-listings-api-openapi.yml
   format: yaml
   label: Yext Listings API
   slug: yext-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-listings-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-listings-api-openapi.yml
 - filename: yext-lists-api-openapi.yml
   format: yaml
   label: Yext Lists API
   slug: yext-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-lists-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-lists-api-openapi.yml
 - filename: yext-live-api-api-openapi.yml
   format: yaml
   label: Yext Live API
   slug: yext-live-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-live-api-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-live-api-api-openapi.yml
 - filename: yext-logsapi-api-openapi.yml
   format: yaml
   label: Yext LogsAPI API
   slug: yext-logsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-logsapi-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-logsapi-api-openapi.yml
 - filename: yext-optimization-tasks-api-openapi.yml
   format: yaml
   label: Yext Optimization Tasks API
   slug: yext-optimization-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-optimization-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-optimization-tasks-api-openapi.yml
 - filename: yext-plpixel-api-openapi.yml
   format: yaml
   label: Yext Plpixel API
   slug: yext-plpixel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-plpixel-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-plpixel-api-openapi.yml
 - filename: yext-publisher-disruptions-api-openapi.yml
   format: yaml
   label: Yext Publisher Disruptions API
   slug: yext-publisher-disruptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-publisher-disruptions-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-publisher-disruptions-api-openapi.yml
 - filename: yext-reviews-api-openapi.yml
   format: yaml
   label: Yext Reviews API
   slug: yext-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-reviews-api-openapi.yml
 - filename: yext-social-api-openapi.yml
   format: yaml
   label: Yext Social API
   slug: yext-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-social-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-social-api-openapi.yml
 - filename: yext-suggestions-api-openapi.yml
   format: yaml
   label: Yext Suggestions API
   slug: yext-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/openapi/yext-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/yext/openapi/yext-suggestions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 128
@@ -205,8 +205,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/yext-a
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/locationsearch\n  method: get\n  operationId: searchLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/locations/{locationId}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/locations/{locationId}\n  method: put\n  operationId: updateLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/folders\n  method: get\n\
   \  operationId: getLocationFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/menus\n  method: get\n  operationId: getMenus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/menus\n  method: post\n  operationId: createMenu\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/menus/{listId}\n  method: get\n  operationId: getMenu\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /accounts/{accountId}/menus/{listId}\n  method: put\n  operationId: updateMenu\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/menus/{listId}\n  method: delete\n  operationId: deleteMenuList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/bios\n  method: get\n  operationId: getBios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/bios\n  method: post\n\
-  \  operationId: createBio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/bios/{listId}\n  method: get\n  operationId: getBio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/bios/{listId}\n  method: put\n  operationId: updateBio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (73 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/agentic-access/yext-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/agentic-access/yext-agentic-access.yml
+  \  operationId: createBio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/bios/{listId}\n  method: get\n  operationId: getBio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/bios/{listId}\n  method: put\n  operationId: updateBio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (73 KB total) ---\n# Full source: https://artifacts.apis.io/yext/agentic-access/yext-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/yext/agentic-access/yext-agentic-access.yml
 summary_line: 248 operations · 120 acting
 tags:
 - Digital Presence

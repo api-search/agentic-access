@@ -9,37 +9,37 @@ api_specs:
   label: Apicbase Ingredients API
   slug: apicbase-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-ingredients-api-openapi.yml
 - filename: apicbase-outlets-api-openapi.yml
   format: yaml
   label: Apicbase Outlets API
   slug: apicbase-outlets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-outlets-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-outlets-api-openapi.yml
 - filename: apicbase-procurement-api-openapi.yml
   format: yaml
   label: Apicbase Procurement API
   slug: apicbase-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-procurement-api-openapi.yml
 - filename: apicbase-recipes-api-openapi.yml
   format: yaml
   label: Apicbase Recipes API
   slug: apicbase-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-recipes-api-openapi.yml
 - filename: apicbase-stock-api-openapi.yml
   format: yaml
   label: Apicbase Stock API
   slug: apicbase-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-stock-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-stock-api-openapi.yml
 - filename: apicbase-suppliers-api-openapi.yml
   format: yaml
   label: Apicbase Suppliers API
   slug: apicbase-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/apicbase/openapi/apicbase-suppliers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apicba
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/products/ingredients/{id}/\n  method: get\n  operationId: getIngredient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/products/recipes/\n  method: get\n  operationId: listRecipes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/products/recipes/\n  method: post\n  operationId: createRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/products/stock_items/\n  method:\
   \ get\n  operationId: listStockItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/procurement/purchase_orders/\n  method: get\n  operationId: listPurchaseOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/procurement/purchase_orders/\n  method: post\n  operationId: createPurchaseOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/suppliers/\n  method: get\n  operationId: listSuppliers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/outlets/\n  method: get\n  operationId: listOutlets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/agentic-access/apicbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apicbase/agentic-access/apicbase-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Food and Beverage

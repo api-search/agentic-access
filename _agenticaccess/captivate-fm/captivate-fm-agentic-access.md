@@ -9,37 +9,37 @@ api_specs:
   label: Captivate Analytics API
   slug: captivate-fm-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-analytics-api-openapi.yml
 - filename: captivate-fm-authentication-api-openapi.yml
   format: yaml
   label: Captivate Authentication API
   slug: captivate-fm-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-authentication-api-openapi.yml
 - filename: captivate-fm-episodes-api-openapi.yml
   format: yaml
   label: Captivate Episodes API
   slug: captivate-fm-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-episodes-api-openapi.yml
 - filename: captivate-fm-media-api-openapi.yml
   format: yaml
   label: Captivate Media API
   slug: captivate-fm-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-media-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-media-api-openapi.yml
 - filename: captivate-fm-shows-api-openapi.yml
   format: yaml
   label: Captivate Shows API
   slug: captivate-fm-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-shows-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-shows-api-openapi.yml
 - filename: captivate-fm-users-api-openapi.yml
   format: yaml
   label: Captivate Users API
   slug: captivate-fm-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/openapi/captivate-fm-users-api-openapi.yml
+  url: https://artifacts.apis.io/captivate-fm/openapi/captivate-fm-users-api-openapi.yml
 consequence_counts:
   read: 22
   write: 6
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/captiv
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /media/{id}\n  method: get\n  operationId: getMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shows/{id}/media\n  method: post\n  operationId: uploadMedia\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shows/{id}/media\n  method: get\n  operationId: getShowMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shows/{id}/media/search\n  method: get\n  operationId:\
   \ searchShowMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shows/{id}/\n  method: get\n  operationId: getShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shows/{id}\n  method: put\n  operationId: updateShow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shows/{id}/artwork\n  method: post\n  operationId: createShowArtwork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /shows/{id}/feed\n  method: get\n  operationId: getShowFeedUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/shows\n  method: get\n  operationId: getUserShows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/shows/manager\n  method: get\n  operationId: getUserManagedShows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/agentic-access/captivate-fm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/captivate-fm/agentic-access/captivate-fm-agentic-access.yml
 summary_line: 28 operations · 6 acting
 tags:
 - Podcasts

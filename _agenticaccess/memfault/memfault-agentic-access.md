@@ -9,67 +9,67 @@ api_specs:
   label: Memfault Auth API
   slug: memfault-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-auth-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-auth-api-openapi.yml
 - filename: memfault-chunks-api-openapi.yml
   format: yaml
   label: Memfault Chunks Ingestion API
   slug: memfault-chunks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-chunks-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-chunks-api-openapi.yml
 - filename: memfault-cohorts-api-openapi.yml
   format: yaml
   label: Memfault Cohorts API
   slug: memfault-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-cohorts-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-cohorts-api-openapi.yml
 - filename: memfault-deployments-api-openapi.yml
   format: yaml
   label: Memfault Deployments API
   slug: memfault-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-deployments-api-openapi.yml
 - filename: memfault-devices-api-openapi.yml
   format: yaml
   label: Memfault Devices API
   slug: memfault-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-devices-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-devices-api-openapi.yml
 - filename: memfault-files-api-openapi.yml
   format: yaml
   label: Memfault Files API
   slug: memfault-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-files-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-files-api-openapi.yml
 - filename: memfault-issues-api-openapi.yml
   format: yaml
   label: Memfault Issues API
   slug: memfault-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-issues-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-issues-api-openapi.yml
 - filename: memfault-organizations-api-openapi.yml
   format: yaml
   label: Memfault Organizations API
   slug: memfault-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-organizations-api-openapi.yml
 - filename: memfault-projects-api-openapi.yml
   format: yaml
   label: Memfault Projects API
   slug: memfault-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-projects-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-projects-api-openapi.yml
 - filename: memfault-releases-api-openapi.yml
   format: yaml
   label: Memfault Releases API
   slug: memfault-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-releases-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-releases-api-openapi.yml
 - filename: memfault-software-api-openapi.yml
   format: yaml
   label: Memfault Software API
   slug: memfault-software-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/openapi/memfault-software-api-openapi.yml
+  url: https://artifacts.apis.io/memfault/openapi/memfault-software-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 21
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/memfau
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/organizations/{organization_slug}/projects/{project_slug}/issues\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/organizations/{organization_slug}/projects/{project_slug}/issues/{issue_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/organizations/{organization_slug}/projects/{project_slug}/issues/{issue_id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/chunks/{device_serial}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/upload\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/upload/coredump\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/upload/bugreport\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/agentic-access/memfault-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/memfault/agentic-access/memfault-agentic-access.yml
 summary_line: 42 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Alerts

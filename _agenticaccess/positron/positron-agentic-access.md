@@ -9,31 +9,31 @@ api_specs:
   label: Positron Access Tokens API
   slug: positron-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-access-tokens-api-openapi.yml
 - filename: positron-completion-api-openapi.yml
   format: yaml
   label: Positron Completion API
   slug: positron-completion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-completion-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-completion-api-openapi.yml
 - filename: positron-models-api-openapi.yml
   format: yaml
   label: Positron Models API
   slug: positron-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-models-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-models-api-openapi.yml
 - filename: positron-service-nodes-api-openapi.yml
   format: yaml
   label: Positron Service Nodes API
   slug: positron-service-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-service-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-service-nodes-api-openapi.yml
 - filename: positron-users-api-openapi.yml
   format: yaml
   label: Positron Users API
   slug: positron-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/positron-users-api-openapi.yml
+  url: https://artifacts.apis.io/positron/openapi/positron-users-api-openapi.yml
 consequence_counts:
   read: 10
   write: 13
@@ -67,12 +67,12 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/positr
   \   - API key\n- path: /users/new\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - API key\n- path: /accessTokens\n  method: get\n  operationId: listAccessTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - API key\n- path: /accessTokens/{token}\n  method: get\n  operationId: getAccessToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - API key\n- path: /accessTokens/{token}\n  method: delete\n  operationId: deleteAccessToken\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - API key\n- path: /accessTokens/new\n  method: post\n  operationId: createAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - API key\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{model}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /completions\n  method: post\n  operationId: createCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/agentic-access/positron-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/positron/agentic-access/positron-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - Artificial Intelligence
 - Inference
-- inference-hardware
+- Inference Hardware
 - AI Accelerators
 - LLM
 - Transformers

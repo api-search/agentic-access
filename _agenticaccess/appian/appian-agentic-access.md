@@ -9,31 +9,31 @@ api_specs:
   label: Appian Export API
   slug: appian-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-export-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-export-api-openapi.yml
 - filename: appian-import-api-openapi.yml
   format: yaml
   label: Appian Import API
   slug: appian-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-import-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-import-api-openapi.yml
 - filename: appian-inspection-api-openapi.yml
   format: yaml
   label: Appian Inspection API
   slug: appian-inspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-inspection-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-inspection-api-openapi.yml
 - filename: appian-packages-api-openapi.yml
   format: yaml
   label: Appian Packages API
   slug: appian-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-packages-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-packages-api-openapi.yml
 - filename: appian-results-api-openapi.yml
   format: yaml
   label: Appian Results API
   slug: appian-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-results-api-openapi.yml
+  url: https://artifacts.apis.io/appian/openapi/appian-results-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 4
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/appian-application-package-details-openapi.yml, openapi/appian-deployment-rest-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 4\n    acting: 2\n  by_consequence:\n    read: 4\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /applications/{applicationUuid}/packages\n  method: get\n  operationId: getApplicationPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments\n  method: post\n  operationId: createDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/{deploymentUuid}\n  method: get\n  operationId: getDeploymentResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/{deploymentUuid}/log\n  method: get\n  operationId: getDeploymentLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inspections\n  method: post\n  operationId: createInspection\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inspections/{inspectionUuid}\n  method: get\n  operationId: getInspectionResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/agentic-access/appian-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appian/agentic-access/appian-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Automation

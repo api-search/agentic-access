@@ -9,97 +9,97 @@ api_specs:
   label: Goody Brands API
   slug: goody-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-brands-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-brands-api-openapi.yml
 - filename: goody-cards-api-openapi.yml
   format: yaml
   label: Goody Cards API
   slug: goody-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-cards-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-cards-api-openapi.yml
 - filename: goody-collections-api-openapi.yml
   format: yaml
   label: Goody Collections API
   slug: goody-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-collections-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-collections-api-openapi.yml
 - filename: goody-commerce-user-payment-methods-api-openapi.yml
   format: yaml
   label: Goody Commerce User Payment Methods API
   slug: goody-commerce-user-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-commerce-user-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-commerce-user-payment-methods-api-openapi.yml
 - filename: goody-me-api-openapi.yml
   format: yaml
   label: Goody Me API
   slug: goody-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-me-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-me-api-openapi.yml
 - filename: goody-order-activities-api-openapi.yml
   format: yaml
   label: Goody Order Activities API
   slug: goody-order-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-order-activities-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-order-activities-api-openapi.yml
 - filename: goody-order-batches-api-openapi.yml
   format: yaml
   label: Goody Order Batches API
   slug: goody-order-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-order-batches-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-order-batches-api-openapi.yml
 - filename: goody-orders-api-openapi.yml
   format: yaml
   label: Goody Orders API
   slug: goody-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-orders-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-orders-api-openapi.yml
 - filename: goody-payment-methods-api-openapi.yml
   format: yaml
   label: Goody Payment Methods API
   slug: goody-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-payment-methods-api-openapi.yml
 - filename: goody-products-api-openapi.yml
   format: yaml
   label: Goody Products API
   slug: goody-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-products-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-products-api-openapi.yml
 - filename: goody-webhooks-api-openapi.yml
   format: yaml
   label: Goody Webhooks API
   slug: goody-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-webhooks-api-openapi.yml
 - filename: goody-workspaces-api-openapi.yml
   format: yaml
   label: Goody Workspaces API
   slug: goody-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-workspaces-api-openapi.yml
 - filename: goody-categories-api-openapi.yml
   format: yaml
   label: Goody Categories API
   slug: goody-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-categories-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-categories-api-openapi.yml
 - filename: goody-gift-templates-api-openapi.yml
   format: yaml
   label: Goody Gift Templates API
   slug: goody-gift-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-gift-templates-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-gift-templates-api-openapi.yml
 - filename: goody-gifts-of-choice-api-openapi.yml
   format: yaml
   label: Goody Gifts of Choice API
   slug: goody-gifts-of-choice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-gifts-of-choice-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-gifts-of-choice-api-openapi.yml
 - filename: goody-shipping-countries-api-openapi.yml
   format: yaml
   label: Goody Shipping Countries API
   slug: goody-shipping-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-shipping-countries-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-shipping-countries-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 16
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/goody-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders/{id}/update_expiration\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payment_methods\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/products\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/products/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workspaces\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/agentic-access/goody-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/goody/agentic-access/goody-agentic-access.yml
 summary_line: 23 operations · 7 acting
 tags:
 - Company

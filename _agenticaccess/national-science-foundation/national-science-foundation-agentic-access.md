@@ -8,13 +8,13 @@ api_specs:
   label: National Science Foundation Awards API
   slug: national-science-foundation-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-awards-api-openapi.yml
+  url: https://artifacts.apis.io/national-science-foundation/openapi/national-science-foundation-awards-api-openapi.yml
 - filename: national-science-foundation-awards-format-api-openapi.yml
   format: yaml
   label: National Science Foundation Awards.{format} API
   slug: national-science-foundation-awards-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-awards-format-api-openapi.yml
+  url: https://artifacts.apis.io/national-science-foundation/openapi/national-science-foundation-awards-format-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/national-science-foundation-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /awards.{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/{id}.{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/{id}/projectoutcomes.{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/agentic-access/national-science-foundation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/national-science-foundation/agentic-access/national-science-foundation-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Federal Government

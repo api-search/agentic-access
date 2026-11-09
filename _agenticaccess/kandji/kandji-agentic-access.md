@@ -9,85 +9,85 @@ api_specs:
   label: Iru Audit API
   slug: kandji-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-audit-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-audit-api-openapi.yml
 - filename: kandji-behavioral-detections-api-openapi.yml
   format: yaml
   label: Iru Behavioral Detections API
   slug: kandji-behavioral-detections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-behavioral-detections-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-behavioral-detections-api-openapi.yml
 - filename: kandji-blueprints-api-openapi.yml
   format: yaml
   label: Iru Blueprints API
   slug: kandji-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-blueprints-api-openapi.yml
 - filename: kandji-devices-api-openapi.yml
   format: yaml
   label: Iru Devices API
   slug: kandji-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-devices-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-devices-api-openapi.yml
 - filename: kandji-integrations-api-openapi.yml
   format: yaml
   label: Iru Integrations API
   slug: kandji-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-integrations-api-openapi.yml
 - filename: kandji-library-api-openapi.yml
   format: yaml
   label: Iru Library API
   slug: kandji-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-library-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-library-api-openapi.yml
 - filename: kandji-prism-api-openapi.yml
   format: yaml
   label: Iru Prism API
   slug: kandji-prism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-prism-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-prism-api-openapi.yml
 - filename: kandji-self-service-api-openapi.yml
   format: yaml
   label: Iru Self Service API
   slug: kandji-self-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-self-service-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-self-service-api-openapi.yml
 - filename: kandji-settings-api-openapi.yml
   format: yaml
   label: Iru Settings API
   slug: kandji-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-settings-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-settings-api-openapi.yml
 - filename: kandji-tags-api-openapi.yml
   format: yaml
   label: Iru Tags API
   slug: kandji-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-tags-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-tags-api-openapi.yml
 - filename: kandji-threat-details-api-openapi.yml
   format: yaml
   label: Iru Threat Details API
   slug: kandji-threat-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-threat-details-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-threat-details-api-openapi.yml
 - filename: kandji-upload-to-s3-api-openapi.yml
   format: yaml
   label: Iru Upload To S3 API
   slug: kandji-upload-to-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-upload-to-s3-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-upload-to-s3-api-openapi.yml
 - filename: kandji-users-api-openapi.yml
   format: yaml
   label: Iru Users API
   slug: kandji-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-users-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-users-api-openapi.yml
 - filename: kandji-vulnerability-management-api-openapi.yml
   format: yaml
   label: Iru Vulnerability Management API
   slug: kandji-vulnerability-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-vulnerability-management-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-vulnerability-management-api-openapi.yml
 - filename: how-to-set-up-the-iru-endpoint-api-in-postman.md
   format: yaml
   label: Iru Endpoint Management API
@@ -206,8 +206,8 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: openapi/kandji-
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/prism/export/{export_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/prism/count\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/settings/licensing\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tags\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tags\n  method: post\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tags/{tag_id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tags/{tag_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/threat-details\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/behavioral-detections\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vulnerability-management/detections\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vulnerability-management/vulnerabilities\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/blueprints/{blueprint_id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
-  \ abnormal\n      - high-value\n    audit: required\n- path: /api/v1/blueprints/{blueprint_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/blueprints/{blueprint_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/agentic-access/kandji-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/agentic-access/kandji-agentic-access.yml
+  \ abnormal\n      - high-value\n    audit: required\n- path: /api/v1/blueprints/{blueprint_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/blueprints/{blueprint_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/kandji/agentic-access/kandji-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/kandji/agentic-access/kandji-agentic-access.yml
 summary_line: 122 operations · 53 acting · 10 human-in-the-loop
 tags:
 - Company

@@ -9,109 +9,109 @@ api_specs:
   label: Nuon Accounts API
   slug: nuon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-accounts-api-openapi.yml
 - filename: nuon-actions-api-openapi.yml
   format: yaml
   label: Nuon Actions API
   slug: nuon-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-actions-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-actions-api-openapi.yml
 - filename: nuon-actions-runner-api-openapi.yml
   format: yaml
   label: Nuon Actions/runner API
   slug: nuon-actions-runner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-actions-runner-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-actions-runner-api-openapi.yml
 - filename: nuon-apps-api-openapi.yml
   format: yaml
   label: Nuon Apps API
   slug: nuon-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-apps-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-apps-api-openapi.yml
 - filename: nuon-auth-api-openapi.yml
   format: yaml
   label: Nuon Auth API
   slug: nuon-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-auth-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-auth-api-openapi.yml
 - filename: nuon-components-api-openapi.yml
   format: yaml
   label: Nuon Components API
   slug: nuon-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-components-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-components-api-openapi.yml
 - filename: nuon-general-api-openapi.yml
   format: yaml
   label: Nuon General API
   slug: nuon-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-general-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-general-api-openapi.yml
 - filename: nuon-installs-api-openapi.yml
   format: yaml
   label: Nuon Installs API
   slug: nuon-installs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-installs-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-installs-api-openapi.yml
 - filename: nuon-notebooks-api-openapi.yml
   format: yaml
   label: Nuon Notebooks API
   slug: nuon-notebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-notebooks-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-notebooks-api-openapi.yml
 - filename: nuon-onboarding-api-openapi.yml
   format: yaml
   label: Nuon Onboarding API
   slug: nuon-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-onboarding-api-openapi.yml
 - filename: nuon-orgs-api-openapi.yml
   format: yaml
   label: Nuon Orgs API
   slug: nuon-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-orgs-api-openapi.yml
 - filename: nuon-policy-reports-api-openapi.yml
   format: yaml
   label: Nuon Policy Reports API
   slug: nuon-policy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-policy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-policy-reports-api-openapi.yml
 - filename: nuon-queues-api-openapi.yml
   format: yaml
   label: Nuon Queues API
   slug: nuon-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-queues-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-queues-api-openapi.yml
 - filename: nuon-runbooks-api-openapi.yml
   format: yaml
   label: Nuon Runbooks API
   slug: nuon-runbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-runbooks-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-runbooks-api-openapi.yml
 - filename: nuon-runners-api-openapi.yml
   format: yaml
   label: Nuon Runners API
   slug: nuon-runners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-runners-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-runners-api-openapi.yml
 - filename: nuon-runners-runner-api-openapi.yml
   format: yaml
   label: Nuon Runners/runner API
   slug: nuon-runners-runner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-runners-runner-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-runners-runner-api-openapi.yml
 - filename: nuon-slack-api-openapi.yml
   format: yaml
   label: Nuon Slack API
   slug: nuon-slack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-slack-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-slack-api-openapi.yml
 - filename: nuon-vcs-api-openapi.yml
   format: yaml
   label: Nuon VCS API
   slug: nuon-vcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/openapi/nuon-vcs-api-openapi.yml
+  url: https://artifacts.apis.io/nuon/openapi/nuon-vcs-api-openapi.yml
 consequence_counts:
   physical: 20
   read: 476
@@ -301,8 +301,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nuon-o
   \  operationId: CreateAppInputConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/apps/{app_id}/input-configs\n  method: get\n  operationId: GetAppInputConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{app_id}/input-configs/{input_config_id}\n  method: get\n  operationId: GetAppInputConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{app_id}/input-latest-config\n  method: get\n  operationId: GetAppInputLatestConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{app_id}/installs\n  method: get\n  operationId: GetAppInstalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{app_id}/installs\n  method: post\n  operationId: CreateInstall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/apps/{app_id}/kubernetes-contexts-configs\n  method: post\n  operationId: CreateAppKubernetesContextsConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
   \  - high-value\n    audit: required\n- path: /v1/apps/{app_id}/labels\n  method: get\n  operationId: GetAppLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{app_id}/latest-break-glass-config\n  method: get\n  operationId: GetLatestAppBreakGlassConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{app_id}/latest-config\n  method: get\n  operationId: GetAppLatestConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{app_id}/latest-permissions-config\n  method: get\n  operationId: GetLatestAppPermissionsConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
-  \    audit: none\n\n\n# --- truncated at 32 KB (237 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/agentic-access/nuon-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/agentic-access/nuon-agentic-access.yml
+  \    audit: none\n\n\n# --- truncated at 32 KB (237 KB total) ---\n# Full source: https://artifacts.apis.io/nuon/agentic-access/nuon-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/nuon/agentic-access/nuon-agentic-access.yml
 summary_line: 826 operations · 350 acting · 16 human-in-the-loop
 tags:
 - Company

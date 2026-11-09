@@ -9,49 +9,49 @@ api_specs:
   label: Inscribe Bank Accounts API
   slug: inscribe-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-bank-accounts-api-openapi.yml
 - filename: inscribe-collect-sessions-api-openapi.yml
   format: yaml
   label: Inscribe Collect Sessions API
   slug: inscribe-collect-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-collect-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-collect-sessions-api-openapi.yml
 - filename: inscribe-credit-insights-api-openapi.yml
   format: yaml
   label: Inscribe Credit Insights API
   slug: inscribe-credit-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-credit-insights-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-credit-insights-api-openapi.yml
 - filename: inscribe-customers-api-openapi.yml
   format: yaml
   label: Inscribe Customers API
   slug: inscribe-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-customers-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-customers-api-openapi.yml
 - filename: inscribe-documents-api-openapi.yml
   format: yaml
   label: Inscribe Documents API
   slug: inscribe-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-documents-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-documents-api-openapi.yml
 - filename: inscribe-open-banking-api-openapi.yml
   format: yaml
   label: Inscribe Open Banking API
   slug: inscribe-open-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-open-banking-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-open-banking-api-openapi.yml
 - filename: inscribe-reachability-check-api-openapi.yml
   format: yaml
   label: Inscribe Reachability Check API
   slug: inscribe-reachability-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-reachability-check-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-reachability-check-api-openapi.yml
 - filename: inscribe-transactions-api-openapi.yml
   format: yaml
   label: Inscribe Transactions API
   slug: inscribe-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-transactions-api-openapi.yml
 consequence_counts:
   read: 26
   write: 17
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/inscri
   \  method: post\n  operationId: uploadPlaidAssetReportOpenBankingData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}/open_banking_data/{open_banking_data_id}\n  method: delete\n  operationId: deleteOpenBankingData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}/plaid_assets\n  method: post\n  operationId: uploadPlaidAssetReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}/plaid_assets\n  method: get\n  operationId: getPlaidAssetReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customer_id}/plaid_assets/{plaid_asset_report_id}\n  method: delete\n  operationId: deletePlaidAssetReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}/transactions\n  method: get\n  operationId: getCustomerTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /customers/{customer_id}/transactions/categories/{category}\n  method: patch\n  operationId: recategorizeTransactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: reachability-check\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/categories\n  method: get\n  operationId: getTransactionCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/agentic-access/inscribe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/inscribe/agentic-access/inscribe-agentic-access.yml
 summary_line: 43 operations · 17 acting
 tags:
 - Fraud Prevention

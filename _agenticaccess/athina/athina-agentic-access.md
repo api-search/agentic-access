@@ -9,31 +9,31 @@ api_specs:
   label: Athina AI Datasets API
   slug: athina-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/athina/openapi/athina-datasets-api-openapi.yml
 - filename: athina-evaluations-api-openapi.yml
   format: yaml
   label: Athina AI Evaluations API
   slug: athina-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/athina/openapi/athina-evaluations-api-openapi.yml
 - filename: athina-logging-api-openapi.yml
   format: yaml
   label: Athina AI Logging API
   slug: athina-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-logging-api-openapi.yml
+  url: https://artifacts.apis.io/athina/openapi/athina-logging-api-openapi.yml
 - filename: athina-prompts-api-openapi.yml
   format: yaml
   label: Athina AI Prompts API
   slug: athina-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/athina/openapi/athina-prompts-api-openapi.yml
 - filename: athina-tracing-api-openapi.yml
   format: yaml
   label: Athina AI Tracing API
   slug: athina-tracing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/openapi/athina-tracing-api-openapi.yml
+  url: https://artifacts.apis.io/athina/openapi/athina-tracing-api-openapi.yml
 consequence_counts:
   read: 4
   write: 14
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/athina
   - path: /dataset_v2/{dataset_id}\n  method: delete\n  operationId: deleteDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dataset_v2/{dataset_id}/add-rows\n  method: post\n  operationId: addDatasetRows\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dataset_v2/{dataset_id}/cell\n  method: post\n  operationId: updateDatasetCell\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eval/run\n  method: post\n  operationId: runEval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prompt/{prompt_slug}\n  method: put\n  operationId: createPromptTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prompt/{prompt_slug}/default\n  method: get\n  operationId: getDefaultPrompt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /prompt/{prompt_slug}/run\n  method: post\n  operationId: runPrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/agentic-access/athina-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/athina/agentic-access/athina-agentic-access.yml
 summary_line: 18 operations · 14 acting
 tags:
 - Artificial Intelligence

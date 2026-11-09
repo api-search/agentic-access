@@ -9,175 +9,223 @@ api_specs:
   label: AgentMail Agent API
   slug: agentmail-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-agent-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-agent-api-openapi.yml
 - filename: agentmail-api-keys-api-openapi.yml
   format: yaml
   label: AgentMail API Keys API
   slug: agentmail-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-api-keys-api-openapi.yml
 - filename: agentmail-auth-api-openapi.yml
   format: yaml
   label: AgentMail Auth API
   slug: agentmail-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-auth-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-auth-api-openapi.yml
 - filename: agentmail-domains-api-openapi.yml
   format: yaml
   label: AgentMail Domains API
   slug: agentmail-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-domains-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-domains-api-openapi.yml
 - filename: agentmail-drafts-api-openapi.yml
   format: yaml
   label: AgentMail Drafts API
   slug: agentmail-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-drafts-api-openapi.yml
 - filename: agentmail-inboxes-api-keys-api-openapi.yml
   format: yaml
   label: AgentMail inboxes > api-keys API
   slug: agentmail-inboxes-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-api-keys-api-openapi.yml
 - filename: agentmail-inboxes-api-openapi.yml
   format: yaml
   label: AgentMail Inboxes API
   slug: agentmail-inboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-api-openapi.yml
 - filename: agentmail-inboxes-drafts-api-openapi.yml
   format: yaml
   label: AgentMail inboxes > drafts API
   slug: agentmail-inboxes-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-drafts-api-openapi.yml
 - filename: agentmail-inboxes-events-api-openapi.yml
   format: yaml
   label: AgentMail inboxes > events API
   slug: agentmail-inboxes-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-events-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-events-api-openapi.yml
 - filename: agentmail-inboxes-lists-api-openapi.yml
   format: yaml
   label: AgentMail inboxes > lists API
   slug: agentmail-inboxes-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-lists-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-lists-api-openapi.yml
 - filename: agentmail-inboxes-messages-api-openapi.yml
   format: yaml
   label: AgentMail inboxes > messages API
   slug: agentmail-inboxes-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-messages-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-messages-api-openapi.yml
 - filename: agentmail-inboxes-metrics-api-openapi.yml
   format: yaml
   label: AgentMail inboxes > metrics API
   slug: agentmail-inboxes-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-metrics-api-openapi.yml
 - filename: agentmail-inboxes-threads-api-openapi.yml
   format: yaml
   label: AgentMail inboxes > threads API
   slug: agentmail-inboxes-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-threads-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-threads-api-openapi.yml
 - filename: agentmail-inboxes-webhooks-api-openapi.yml
   format: yaml
   label: AgentMail inboxes > webhooks API
   slug: agentmail-inboxes-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-inboxes-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-webhooks-api-openapi.yml
 - filename: agentmail-lists-api-openapi.yml
   format: yaml
   label: AgentMail Lists API
   slug: agentmail-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-lists-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-lists-api-openapi.yml
 - filename: agentmail-metrics-api-openapi.yml
   format: yaml
   label: AgentMail Metrics API
   slug: agentmail-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-metrics-api-openapi.yml
 - filename: agentmail-organizations-api-openapi.yml
   format: yaml
   label: AgentMail Organizations API
   slug: agentmail-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-organizations-api-openapi.yml
 - filename: agentmail-pods-api-keys-api-openapi.yml
   format: yaml
   label: AgentMail pods > api-keys API
   slug: agentmail-pods-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-api-keys-api-openapi.yml
 - filename: agentmail-pods-api-openapi.yml
   format: yaml
   label: AgentMail Pods API
   slug: agentmail-pods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-api-openapi.yml
 - filename: agentmail-pods-domains-api-openapi.yml
   format: yaml
   label: AgentMail pods > domains API
   slug: agentmail-pods-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-domains-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-domains-api-openapi.yml
 - filename: agentmail-pods-drafts-api-openapi.yml
   format: yaml
   label: AgentMail pods > drafts API
   slug: agentmail-pods-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-drafts-api-openapi.yml
 - filename: agentmail-pods-inboxes-api-openapi.yml
   format: yaml
   label: AgentMail pods > inboxes API
   slug: agentmail-pods-inboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-inboxes-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-inboxes-api-openapi.yml
 - filename: agentmail-pods-lists-api-openapi.yml
   format: yaml
   label: AgentMail pods > lists API
   slug: agentmail-pods-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-lists-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-lists-api-openapi.yml
 - filename: agentmail-pods-metrics-api-openapi.yml
   format: yaml
   label: AgentMail pods > metrics API
   slug: agentmail-pods-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-metrics-api-openapi.yml
 - filename: agentmail-pods-threads-api-openapi.yml
   format: yaml
   label: AgentMail pods > threads API
   slug: agentmail-pods-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-threads-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-threads-api-openapi.yml
 - filename: agentmail-pods-webhooks-api-openapi.yml
   format: yaml
   label: AgentMail pods > webhooks API
   slug: agentmail-pods-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-pods-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-webhooks-api-openapi.yml
 - filename: agentmail-threads-api-openapi.yml
   format: yaml
   label: AgentMail Threads API
   slug: agentmail-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-threads-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-threads-api-openapi.yml
 - filename: agentmail-webhooks-api-openapi.yml
   format: yaml
   label: AgentMail Webhooks API
   slug: agentmail-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-webhooks-api-openapi.yml
-- filename: agentmail-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-webhooks-api-openapi.yml
+- filename: agentmail-accounts-api-openapi.yml
   format: yaml
-  label: AgentMail API Reference API
-  slug: agentmail-api-reference-api
+  label: AgentMail Accounts API
+  slug: agentmail-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/agentmail-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-accounts-api-openapi.yml
+- filename: agentmail-apps-api-openapi.yml
+  format: yaml
+  label: AgentMail Apps API
+  slug: agentmail-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-apps-api-openapi.yml
+- filename: agentmail-inboxes-accounts-api-openapi.yml
+  format: yaml
+  label: AgentMail inboxes > accounts API
+  slug: agentmail-inboxes-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-accounts-api-openapi.yml
+- filename: agentmail-inboxes-calendar-api-openapi.yml
+  format: yaml
+  label: AgentMail inboxes > calendar API
+  slug: agentmail-inboxes-calendar-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-calendar-api-openapi.yml
+- filename: agentmail-inboxes-files-api-openapi.yml
+  format: yaml
+  label: AgentMail inboxes > files API
+  slug: agentmail-inboxes-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-files-api-openapi.yml
+- filename: agentmail-inboxes-webhooks-polling-api-openapi.yml
+  format: yaml
+  label: AgentMail inboxes > webhooks > polling API
+  slug: agentmail-inboxes-webhooks-polling-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-webhooks-polling-api-openapi.yml
+- filename: agentmail-pods-accounts-api-openapi.yml
+  format: yaml
+  label: AgentMail pods > accounts API
+  slug: agentmail-pods-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-accounts-api-openapi.yml
+- filename: agentmail-pods-webhooks-polling-api-openapi.yml
+  format: yaml
+  label: AgentMail pods > webhooks > polling API
+  slug: agentmail-pods-webhooks-polling-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-webhooks-polling-api-openapi.yml
+- filename: agentmail-webhooks-polling-api-openapi.yml
+  format: yaml
+  label: AgentMail webhooks > polling API
+  slug: agentmail-webhooks-polling-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-webhooks-polling-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 62
@@ -248,8 +296,8 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/agentm
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/pods/{pod_id}/domains/{domain_id}\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/pods/{pod_id}/domains/{domain_id}/zone-file\n  method: get\n  operationId: get-zone-file\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/pods/{pod_id}/domains/{domain_id}/verify\n  method: post\n  operationId: verify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/pods/{pod_id}/lists/{direction}/{type}\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/pods/{pod_id}/lists/{direction}/{type}\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/pods/{pod_id}/lists/{direction}/{type}/{entry}\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v0/pods/{pod_id}/lists/{direction}/{type}/{entry}\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/pods/{pod_id}/metrics/events\n  method: get\n  operationId: query-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/pods/{pod_id}/metrics/usage\n  method: get\n  operationId: query-usage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/pods/{pod_id}/api-keys\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/agentic-access/agentmail-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/agentic-access/agentmail-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/agentmail/agentic-access/agentmail-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/agentmail/agentic-access/agentmail-agentic-access.yml
 summary_line: 119 operations · 57 acting
 tags:
 - Company

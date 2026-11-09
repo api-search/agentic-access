@@ -9,67 +9,67 @@ api_specs:
   label: Fatcat Auth API
   slug: fatcat-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-auth-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-auth-api-openapi.yml
 - filename: fatcat-changelog-api-openapi.yml
   format: yaml
   label: Fatcat Changelog API
   slug: fatcat-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-changelog-api-openapi.yml
 - filename: fatcat-containers-api-openapi.yml
   format: yaml
   label: Fatcat Containers API
   slug: fatcat-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-containers-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-containers-api-openapi.yml
 - filename: fatcat-creators-api-openapi.yml
   format: yaml
   label: Fatcat Creators API
   slug: fatcat-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-creators-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-creators-api-openapi.yml
 - filename: fatcat-editgroups-api-openapi.yml
   format: yaml
   label: Fatcat Editgroups API
   slug: fatcat-editgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-editgroups-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-editgroups-api-openapi.yml
 - filename: fatcat-editors-api-openapi.yml
   format: yaml
   label: Fatcat Editors API
   slug: fatcat-editors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-editors-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-editors-api-openapi.yml
 - filename: fatcat-files-api-openapi.yml
   format: yaml
   label: Fatcat Files API
   slug: fatcat-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-files-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-files-api-openapi.yml
 - filename: fatcat-filesets-api-openapi.yml
   format: yaml
   label: Fatcat Filesets API
   slug: fatcat-filesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-filesets-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-filesets-api-openapi.yml
 - filename: fatcat-releases-api-openapi.yml
   format: yaml
   label: Fatcat Releases API
   slug: fatcat-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-releases-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-releases-api-openapi.yml
 - filename: fatcat-webcaptures-api-openapi.yml
   format: yaml
   label: Fatcat Webcaptures API
   slug: fatcat-webcaptures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-webcaptures-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-webcaptures-api-openapi.yml
 - filename: fatcat-works-api-openapi.yml
   format: yaml
   label: Fatcat Works API
   slug: fatcat-works-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/openapi/fatcat-works-api-openapi.yml
+  url: https://artifacts.apis.io/fatcat/openapi/fatcat-works-api-openapi.yml
 consequence_counts:
   read: 54
   write: 42
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /editgroup/{editgroup_id}/annotations\n  method: get\n  operationId: get_editgroup_annotations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editgroup/{editgroup_id}/annotation\n  method: post\n  operationId: create_editgroup_annotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /editgroup/reviewable\n  method: get\n  operationId: get_editgroups_reviewable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /changelog\n\
   \  method: get\n  operationId: get_changelog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /changelog/{index}\n  method: get\n  operationId: get_changelog_entry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/oidc\n  method: post\n  operationId: auth_oidc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/check\n  method: get\n  operationId: auth_check\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/token/{editor_id}\n \
   \ method: post\n  operationId: create_auth_token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fatcat/refs/heads/main/agentic-access/fatcat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fatcat/agentic-access/fatcat-agentic-access.yml
 summary_line: 96 operations · 42 acting
 tags:
 - Scholarly

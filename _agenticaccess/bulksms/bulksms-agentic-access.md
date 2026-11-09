@@ -9,37 +9,37 @@ api_specs:
   label: BulkSMS Attachments API
   slug: bulksms-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-attachments-api-openapi.yml
 - filename: bulksms-blocked-numbers-api-openapi.yml
   format: yaml
   label: BulkSMS Blocked Numbers API
   slug: bulksms-blocked-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-blocked-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-blocked-numbers-api-openapi.yml
 - filename: bulksms-credits-api-openapi.yml
   format: yaml
   label: BulkSMS Credits API
   slug: bulksms-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-credits-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-credits-api-openapi.yml
 - filename: bulksms-message-api-openapi.yml
   format: yaml
   label: BulkSMS Message API
   slug: bulksms-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-message-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-message-api-openapi.yml
 - filename: bulksms-profile-api-openapi.yml
   format: yaml
   label: BulkSMS Profile API
   slug: bulksms-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-profile-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-profile-api-openapi.yml
 - filename: bulksms-webhooks-api-openapi.yml
   format: yaml
   label: BulkSMS Webhooks API
   slug: bulksms-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/openapi/bulksms-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bulksms/openapi/bulksms-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/bulksm
   \     max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: webhook.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: webhook.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: webhook.show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: post\n  operationId: webhook.update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: webhook.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /blocked-numbers\n  method: get\n  operationId: blocked.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blocked-numbers\n  method: post\n  operationId: blocked.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /credit/transfer\n  method: post\n  operationId: credit.transfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rmm/pre-sign-attachment\n  method: post\n  operationId: attachment.presign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bulksms/refs/heads/main/agentic-access/bulksms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bulksms/agentic-access/bulksms-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - SMS

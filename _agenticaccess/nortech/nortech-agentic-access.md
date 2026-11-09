@@ -9,73 +9,73 @@ api_specs:
   label: Nortech Asset API
   slug: nortech-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-asset-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-asset-api-openapi.yml
 - filename: nortech-deriver-api-openapi.yml
   format: yaml
   label: Nortech Deriver API
   slug: nortech-deriver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-deriver-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-deriver-api-openapi.yml
 - filename: nortech-division-api-openapi.yml
   format: yaml
   label: Nortech Division API
   slug: nortech-division-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-division-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-division-api-openapi.yml
 - filename: nortech-health-api-openapi.yml
   format: yaml
   label: Nortech Health API
   slug: nortech-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-health-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-health-api-openapi.yml
 - filename: nortech-historical-data-api-openapi.yml
   format: yaml
   label: Nortech Historical Data API
   slug: nortech-historical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-historical-data-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-historical-data-api-openapi.yml
 - filename: nortech-import-data-api-openapi.yml
   format: yaml
   label: Nortech Import Data API
   slug: nortech-import-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-import-data-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-import-data-api-openapi.yml
 - filename: nortech-live-data-api-openapi.yml
   format: yaml
   label: Nortech Live Data API
   slug: nortech-live-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-live-data-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-live-data-api-openapi.yml
 - filename: nortech-me-api-openapi.yml
   format: yaml
   label: Nortech Me API
   slug: nortech-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-me-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-me-api-openapi.yml
 - filename: nortech-mqtt-live-data-api-openapi.yml
   format: yaml
   label: Nortech MQTT Live Data API
   slug: nortech-mqtt-live-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-mqtt-live-data-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-mqtt-live-data-api-openapi.yml
 - filename: nortech-signal-api-openapi.yml
   format: yaml
   label: Nortech Signal API
   slug: nortech-signal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-signal-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-signal-api-openapi.yml
 - filename: nortech-unit-api-openapi.yml
   format: yaml
   label: Nortech Unit API
   slug: nortech-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-unit-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-unit-api-openapi.yml
 - filename: nortech-workspace-api-openapi.yml
   format: yaml
   label: Nortech Workspace API
   slug: nortech-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/nortech/openapi/nortech-workspace-api-openapi.yml
 consequence_counts:
   read: 33
   write: 17
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nortec
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/{workspace}/assets/{asset}/divisions/{division}/units\n  method: get\n  operationId: v1.metadata.unit.listWorkspaceAssetDivisionUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/{workspace}/assets/{asset}/divisions/{division}/units/{unit}\n  method: get\n  operationId: v1.metadata.unit.getWorkspaceAssetDivisionUnit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/{workspace}/units\n  method: get\n  operationId: v1.metadata.unit.listWorkspaceUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/assets/{asset}/units\n\
   \  method: get\n  operationId: v1.metadata.unit.listAssetUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/divisions/{division}/units\n  method: get\n  operationId: v1.metadata.unit.listDivisionUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/units/{unit}\n  method: get\n  operationId: v1.metadata.unit.getUnit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/units/{unit}\n  method: put\n  operationId: v1.metadata.unit.updateUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/units\n  method: post\n  operationId: v1.metadata.unit.createUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces\n  method: get\n  operationId: v1.metadata.workspace.listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/{workspace}\n  method: get\n  operationId: v1.metadata.workspace.getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/agentic-access/nortech-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nortech/agentic-access/nortech-agentic-access.yml
 summary_line: 50 operations · 17 acting
 tags:
 - Company

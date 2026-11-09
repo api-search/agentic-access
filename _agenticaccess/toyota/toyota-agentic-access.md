@@ -9,79 +9,79 @@ api_specs:
   label: Toyota Climate API
   slug: toyota-climate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-climate-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-climate-api-openapi.yml
 - filename: toyota-electric-api-openapi.yml
   format: yaml
   label: Toyota Electric API
   slug: toyota-electric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-electric-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-electric-api-openapi.yml
 - filename: toyota-fleet-api-openapi.yml
   format: yaml
   label: Toyota Fleet API
   slug: toyota-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-fleet-api-openapi.yml
 - filename: toyota-health-api-openapi.yml
   format: yaml
   label: Toyota Health API
   slug: toyota-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-health-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-health-api-openapi.yml
 - filename: toyota-history-api-openapi.yml
   format: yaml
   label: Toyota History API
   slug: toyota-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-history-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-history-api-openapi.yml
 - filename: toyota-location-api-openapi.yml
   format: yaml
   label: Toyota Location API
   slug: toyota-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-location-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-location-api-openapi.yml
 - filename: toyota-notifications-api-openapi.yml
   format: yaml
   label: Toyota Notifications API
   slug: toyota-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-notifications-api-openapi.yml
 - filename: toyota-remote-api-openapi.yml
   format: yaml
   label: Toyota Remote API
   slug: toyota-remote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-remote-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-remote-api-openapi.yml
 - filename: toyota-status-api-openapi.yml
   format: yaml
   label: Toyota Status API
   slug: toyota-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-status-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-status-api-openapi.yml
 - filename: toyota-subscriptions-api-openapi.yml
   format: yaml
   label: Toyota Subscriptions API
   slug: toyota-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-subscriptions-api-openapi.yml
 - filename: toyota-telemetry-api-openapi.yml
   format: yaml
   label: Toyota Telemetry API
   slug: toyota-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-telemetry-api-openapi.yml
 - filename: toyota-trips-api-openapi.yml
   format: yaml
   label: Toyota Trips API
   slug: toyota-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-trips-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-trips-api-openapi.yml
 - filename: toyota-vehicles-api-openapi.yml
   format: yaml
   label: Toyota Vehicles API
   slug: toyota-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/openapi/toyota-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/toyota/openapi/toyota-vehicles-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 18
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toyota
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles\n  method: get\n  operationId: listVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{vin}\n  method: get\n  operationId: getVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{vin}/subscriptions\n  method: get\n  operationId: getVehicleSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{vin}/health\n  method: get\n  operationId: getVehicleHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /vehicles/{vin}/telemetry\n  method: get\n  operationId: getVehicleTelemetry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{vin}/location\n  method: get\n  operationId: getVehicleLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{vin}/trips\n  method: get\n  operationId: getVehicleTrips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fleet/{fleetId}/vehicles\n  method: get\n  operationId: listFleetVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fleet/{fleetId}/vehicles/enroll\n  method:\
   \ post\n  operationId: enrollVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toyota/refs/heads/main/agentic-access/toyota-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/toyota/agentic-access/toyota-agentic-access.yml
 summary_line: 25 operations · 7 acting
 tags:
 - Automobiles

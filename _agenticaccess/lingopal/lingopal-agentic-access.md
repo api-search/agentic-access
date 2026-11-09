@@ -9,43 +9,43 @@ api_specs:
   label: Lingopal Jobs API
   slug: lingopal-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-jobs-api-openapi.yml
 - filename: lingopal-languages-api-openapi.yml
   format: yaml
   label: Lingopal Languages API
   slug: lingopal-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-languages-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-languages-api-openapi.yml
 - filename: lingopal-job-outputs-api-openapi.yml
   format: yaml
   label: Lingopal Job Outputs API
   slug: lingopal-job-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-job-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-job-outputs-api-openapi.yml
 - filename: lingopal-job-registration-api-openapi.yml
   format: yaml
   label: Lingopal Job Registration API
   slug: lingopal-job-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-job-registration-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-job-registration-api-openapi.yml
 - filename: lingopal-job-workflows-api-openapi.yml
   format: yaml
   label: Lingopal Job Workflows API
   slug: lingopal-job-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-job-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-job-workflows-api-openapi.yml
 - filename: lingopal-storage-api-openapi.yml
   format: yaml
   label: Lingopal Storage API
   slug: lingopal-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-storage-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-storage-api-openapi.yml
 - filename: lingopal-text-translation-api-openapi.yml
   format: yaml
   label: Lingopal Text Translation API
   slug: lingopal-text-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-text-translation-api-openapi.yml
+  url: https://artifacts.apis.io/lingopal/openapi/lingopal-text-translation-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lingop
   \      max-ttl: 3600\n    audit: none\n- path: /v2/jobs/{job_id}/status\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/jobs/{job_id}/translations\n  method: post\n  operationId: translateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/jobs/{job_id}/subtitles\n  method: post\n  operationId: generateJobSubtitles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v2/jobs/{job_id}/outputs/transcript\n  method: get\n  operationId: downloadJobTranscript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/jobs/{job_id}/outputs/transcript\n  method: post\n  operationId: exportJobTranscript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/jobs/{job_id}/outputs/subtitle\n  method: get\n  operationId: downloadJobSubtitle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/storage/uploads\n  method: post\n  operationId: createStorageUpload\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/storage/uploads/complete\n  method: post\n  operationId: completeStorageUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/agentic-access/lingopal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lingopal/agentic-access/lingopal-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Company

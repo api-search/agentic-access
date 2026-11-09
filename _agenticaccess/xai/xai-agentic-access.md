@@ -9,103 +9,103 @@ api_specs:
   label: xAI Api Key API
   slug: xai-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-api-key-api-openapi.yml
 - filename: xai-chat-api-openapi.yml
   format: yaml
   label: xAI Chat API
   slug: xai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-chat-api-openapi.yml
 - filename: xai-complete-api-openapi.yml
   format: yaml
   label: xAI Complete API
   slug: xai-complete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-complete-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-complete-api-openapi.yml
 - filename: xai-completions-api-openapi.yml
   format: yaml
   label: xAI Completions API
   slug: xai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-completions-api-openapi.yml
 - filename: xai-documents-api-openapi.yml
   format: yaml
   label: xAI Documents API
   slug: xai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-documents-api-openapi.yml
 - filename: xai-embedding-models-api-openapi.yml
   format: yaml
   label: xAI Embedding Models API
   slug: xai-embedding-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-embedding-models-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-embedding-models-api-openapi.yml
 - filename: xai-embeddings-api-openapi.yml
   format: yaml
   label: xAI Embeddings API
   slug: xai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-embeddings-api-openapi.yml
 - filename: xai-files-api-openapi.yml
   format: yaml
   label: xAI Files API
   slug: xai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-files-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-files-api-openapi.yml
 - filename: xai-image-generation-models-api-openapi.yml
   format: yaml
   label: xAI Image Generation Models API
   slug: xai-image-generation-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-image-generation-models-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-image-generation-models-api-openapi.yml
 - filename: xai-images-api-openapi.yml
   format: yaml
   label: xAI Images API
   slug: xai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-images-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-images-api-openapi.yml
 - filename: xai-language-models-api-openapi.yml
   format: yaml
   label: xAI Language Models API
   slug: xai-language-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-language-models-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-language-models-api-openapi.yml
 - filename: xai-messages-api-openapi.yml
   format: yaml
   label: xAI Messages API
   slug: xai-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-messages-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-messages-api-openapi.yml
 - filename: xai-models-api-openapi.yml
   format: yaml
   label: xAI Models API
   slug: xai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-models-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-models-api-openapi.yml
 - filename: xai-responses-api-openapi.yml
   format: yaml
   label: xAI Responses API
   slug: xai-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-responses-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-responses-api-openapi.yml
 - filename: xai-tokenize-text-api-openapi.yml
   format: yaml
   label: xAI Tokenize Text API
   slug: xai-tokenize-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-tokenize-text-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-tokenize-text-api-openapi.yml
 - filename: xai-video-generation-models-api-openapi.yml
   format: yaml
   label: xAI Video Generation Models API
   slug: xai-video-generation-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-video-generation-models-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-video-generation-models-api-openapi.yml
 - filename: xai-videos-api-openapi.yml
   format: yaml
   label: xAI Videos API
   slug: xai-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/openapi/xai-videos-api-openapi.yml
+  url: https://artifacts.apis.io/xai/openapi/xai-videos-api-openapi.yml
 consequence_counts:
   read: 18
   write: 15
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/xai-v1
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tokenize-text\n  method: post\n  operationId: handle_tokenize_text_request\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/video-generation-models\n  method: get\n  operationId: handle_video_generation_models_list_request\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/video-generation-models/{model_id}\n  method: get\n  operationId: handle_video_generation_model_get_request\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/videos/edits\n  method: post\n  operationId: handle_edit_video_request\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos/extensions\n  method: post\n  operationId: handle_extend_video_request\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos/generations\n  method: post\n  operationId: handle_generate_video_request\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos/{request_id}\n  method: get\n  operationId: handle_get_deferred_video_request\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/agentic-access/xai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xai/agentic-access/xai-agentic-access.yml
 summary_line: 33 operations · 15 acting
 tags:
 - Artificial Intelligence

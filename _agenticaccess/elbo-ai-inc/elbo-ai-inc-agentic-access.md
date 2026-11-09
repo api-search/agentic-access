@@ -9,31 +9,31 @@ api_specs:
   label: ELBO AI, INC Audio Uploads API
   slug: elbo-ai-inc-audio-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-audio-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-audio-uploads-api-openapi.yml
 - filename: elbo-ai-inc-text-to-speech-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Text to Speech API
   slug: elbo-ai-inc-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-text-to-speech-api-openapi.yml
 - filename: elbo-ai-inc-usage-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Usage API
   slug: elbo-ai-inc-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-usage-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-usage-api-openapi.yml
 - filename: elbo-ai-inc-videos-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Videos API
   slug: elbo-ai-inc-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-videos-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-videos-api-openapi.yml
 - filename: elbo-ai-inc-voices-api-openapi.yml
   format: yaml
   label: ELBO AI, INC Voices API
   slug: elbo-ai-inc-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/openapi/elbo-ai-inc-voices-api-openapi.yml
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-voices-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/elbo-ai-inc-puppetry-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 3\n    acting: 4\n  by_consequence:\n    read: 3\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/voices/puppetry\n  method: get\n  operationId: listPuppetryVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tts/puppetry\n  method: post\n  operationId: createPuppetrySpeech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/uploads/audio-url\n  method: post\n  operationId: createHostedAudioUploadUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/usage\n  method: get\n  operationId: getDeveloperApiUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/videos/text\n  method: post\n  operationId: createVideoFromText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/videos/audio\n  method: post\n  operationId: createVideoFromAudio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/videos/{jobId}\n  method: get\n  operationId: getVideoJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/agentic-access/elbo-ai-inc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/elbo-ai-inc/agentic-access/elbo-ai-inc-agentic-access.yml
 summary_line: 7 operations · 4 acting
 tags:
 - Company

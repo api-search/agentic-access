@@ -9,37 +9,37 @@ api_specs:
   label: SmartMoving Customers API
   slug: smartmoving-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-customers-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-customers-api-openapi.yml
 - filename: smartmoving-jobs-api-openapi.yml
   format: yaml
   label: SmartMoving Jobs API
   slug: smartmoving-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-jobs-api-openapi.yml
 - filename: smartmoving-lead-provider-api-openapi.yml
   format: yaml
   label: SmartMoving Lead Provider API
   slug: smartmoving-lead-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-lead-provider-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-lead-provider-api-openapi.yml
 - filename: smartmoving-leads-api-openapi.yml
   format: yaml
   label: SmartMoving Leads API
   slug: smartmoving-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-leads-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-leads-api-openapi.yml
 - filename: smartmoving-opportunities-api-openapi.yml
   format: yaml
   label: SmartMoving Opportunities API
   slug: smartmoving-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-opportunities-api-openapi.yml
 - filename: smartmoving-reference-data-api-openapi.yml
   format: yaml
   label: SmartMoving Reference Data API
   slug: smartmoving-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/openapi/smartmoving-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/smartmoving/openapi/smartmoving-reference-data-api-openapi.yml
 consequence_counts:
   read: 18
   write: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smartm
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{id}\n  method: delete\n  operationId: deleteJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /leads\n  method: get\n  operationId: listLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads/{id}\n  method: get\n  operationId: getLead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads/statuses\n\
   \  method: get\n  operationId: listLeadStatuses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads/salesperson/{id}\n  method: get\n  operationId: listLeadsBySalesperson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads/from-provider/v2\n  method: post\n  operationId: createLeadFromProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /branches\n  method: get\n  operationId: listBranches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-types\n  method: get\n  operationId: listServiceTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /referral-sources\n  method: get\n  operationId: listReferralSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/agentic-access/smartmoving-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartmoving/agentic-access/smartmoving-agentic-access.yml
 summary_line: 24 operations · 6 acting
 tags:
 - Moving Software

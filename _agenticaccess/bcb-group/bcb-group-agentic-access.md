@@ -9,49 +9,49 @@ api_specs:
   label: BCB Group Accounts API
   slug: bcb-group-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-accounts-api-openapi.yml
 - filename: bcb-group-authentication-api-openapi.yml
   format: yaml
   label: BCB Group Authentication API
   slug: bcb-group-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-authentication-api-openapi.yml
 - filename: bcb-group-beneficiaries-api-openapi.yml
   format: yaml
   label: BCB Group Beneficiaries API
   slug: bcb-group-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-beneficiaries-api-openapi.yml
 - filename: bcb-group-blinc-api-openapi.yml
   format: yaml
   label: BCB Group BLINC API
   slug: bcb-group-blinc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-blinc-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-blinc-api-openapi.yml
 - filename: bcb-group-notifications-api-openapi.yml
   format: yaml
   label: BCB Group Notifications API
   slug: bcb-group-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-notifications-api-openapi.yml
 - filename: bcb-group-payments-api-openapi.yml
   format: yaml
   label: BCB Group Payments API
   slug: bcb-group-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-payments-api-openapi.yml
 - filename: bcb-group-tools-api-openapi.yml
   format: yaml
   label: BCB Group Tools API
   slug: bcb-group-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-tools-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-tools-api-openapi.yml
 - filename: bcb-group-virtual-accounts-api-openapi.yml
   format: yaml
   label: BCB Group Virtual Accounts API
   slug: bcb-group-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/openapi/bcb-group-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bcb-group/openapi/bcb-group-virtual-accounts-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 12
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/bcb-gr
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{accountId}/virtual/all-account-data\n  method: get\n  operationId: VirtualAccounts_ListAccountsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{accountId}/virtual/{iban}/payment\n  method: post\n  operationId: VirtualAccounts_AuthorisePaymentV1\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{accountId}/virtual/{iban}/close\n\
   \  method: post\n  operationId: VirtualAccounts_CloseVirtualAccountV1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{accountId}/virtual\n  method: post\n  operationId: VirtualAccounts_CreateVirtualAccountV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{accountId}/virtual/{iban}/owner-address\n  method: put\n  operationId: VirtualAccounts_UpdateOwnerAddressV1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{accountId}/virtual/{iban}/owner-bank-details\n  method: put\n  operationId: VirtualAccounts_UpdateOwnerBankDetailsV1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/agentic-access/bcb-group-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bcb-group/agentic-access/bcb-group-agentic-access.yml
 summary_line: 24 operations · 12 acting
 tags:
 - Company

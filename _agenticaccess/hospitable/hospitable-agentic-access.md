@@ -9,43 +9,43 @@ api_specs:
   label: Hospitable Calendar API
   slug: hospitable-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-calendar-api-openapi.yml
 - filename: hospitable-listings-api-openapi.yml
   format: yaml
   label: Hospitable Listings API
   slug: hospitable-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-listings-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-listings-api-openapi.yml
 - filename: hospitable-messages-api-openapi.yml
   format: yaml
   label: Hospitable Messages API
   slug: hospitable-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-messages-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-messages-api-openapi.yml
 - filename: hospitable-properties-api-openapi.yml
   format: yaml
   label: Hospitable Properties API
   slug: hospitable-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-properties-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-properties-api-openapi.yml
 - filename: hospitable-reservations-api-openapi.yml
   format: yaml
   label: Hospitable Reservations API
   slug: hospitable-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-reservations-api-openapi.yml
 - filename: hospitable-reviews-api-openapi.yml
   format: yaml
   label: Hospitable Reviews API
   slug: hospitable-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-reviews-api-openapi.yml
 - filename: hospitable-user-api-openapi.yml
   format: yaml
   label: Hospitable User API
   slug: hospitable-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/openapi/hospitable-user-api-openapi.yml
+  url: https://artifacts.apis.io/hospitable/openapi/hospitable-user-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hospit
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /properties\n  method: get\n  operationId: listProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/{uuid}\n  method: get\n  operationId: getProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/search\n  method: post\n  operationId: searchProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservations\n  method: get\n\
   \  operationId: listReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservations/{uuid}\n  method: get\n  operationId: getReservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/{uuid}/reviews\n  method: get\n  operationId: listPropertyReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reviews/{uuid}/response\n  method: post\n  operationId: respondToReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/agentic-access/hospitable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hospitable/agentic-access/hospitable-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - Vacation Rentals

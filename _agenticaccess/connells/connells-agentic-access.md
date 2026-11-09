@@ -8,25 +8,25 @@ api_specs:
   label: Connells Group Branches API
   slug: connells-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-branches-api-openapi.yml
+  url: https://artifacts.apis.io/connells/openapi/connells-branches-api-openapi.yml
 - filename: connells-locations-api-openapi.yml
   format: yaml
   label: Connells Group Locations API
   slug: connells-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-locations-api-openapi.yml
+  url: https://artifacts.apis.io/connells/openapi/connells-locations-api-openapi.yml
 - filename: connells-people-api-openapi.yml
   format: yaml
   label: Connells Group People API
   slug: connells-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-people-api-openapi.yml
+  url: https://artifacts.apis.io/connells/openapi/connells-people-api-openapi.yml
 - filename: connells-testimonials-api-openapi.yml
   format: yaml
   label: Connells Group Testimonials API
   slug: connells-testimonials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-testimonials-api-openapi.yml
+  url: https://artifacts.apis.io/connells/openapi/connells-testimonials-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/connells-website-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /branches\n  method: get\n  operationId: listBranches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /branches/{branchId}\n  method: get\n  operationId: getBranch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /staff\n  method: get\n  operationId: listStaff\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /testimonials\n  method: get\n  operationId: listTestimonials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places\n  method: get\n  operationId: searchPlaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties\n  method: get\n  operationId: listProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/agentic-access/connells-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/connells/agentic-access/connells-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Real Estate

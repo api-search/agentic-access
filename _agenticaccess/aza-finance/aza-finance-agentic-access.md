@@ -9,97 +9,97 @@ api_specs:
   label: AZA Finance Account Debits API
   slug: aza-finance-account-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-account-debits-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-account-debits-api-openapi.yml
 - filename: aza-finance-account-validation-api-openapi.yml
   format: yaml
   label: AZA Finance Account Validation API
   slug: aza-finance-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-account-validation-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-account-validation-api-openapi.yml
 - filename: aza-finance-accounts-api-openapi.yml
   format: yaml
   label: AZA Finance Accounts API
   slug: aza-finance-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-accounts-api-openapi.yml
 - filename: aza-finance-api-logs-api-openapi.yml
   format: yaml
   label: AZA Finance API Logs API
   slug: aza-finance-api-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-api-logs-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-api-logs-api-openapi.yml
 - filename: aza-finance-currency-info-api-openapi.yml
   format: yaml
   label: AZA Finance Currency Info API
   slug: aza-finance-currency-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-currency-info-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-currency-info-api-openapi.yml
 - filename: aza-finance-dlocal-balance-api-openapi.yml
   format: yaml
   label: AZA Finance dlocal balance API
   slug: aza-finance-dlocal-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-dlocal-balance-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-dlocal-balance-api-openapi.yml
 - filename: aza-finance-documents-api-openapi.yml
   format: yaml
   label: AZA Finance Documents API
   slug: aza-finance-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-documents-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-documents-api-openapi.yml
 - filename: aza-finance-logs-api-openapi.yml
   format: yaml
   label: AZA Finance Logs API
   slug: aza-finance-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-logs-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-logs-api-openapi.yml
 - filename: aza-finance-mandates-api-openapi.yml
   format: yaml
   label: AZA Finance Mandates API
   slug: aza-finance-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-mandates-api-openapi.yml
 - filename: aza-finance-payin-methods-api-openapi.yml
   format: yaml
   label: AZA Finance Payin Methods API
   slug: aza-finance-payin-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-payin-methods-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-payin-methods-api-openapi.yml
 - filename: aza-finance-payment-methods-api-openapi.yml
   format: yaml
   label: AZA Finance Payment Methods API
   slug: aza-finance-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-payment-methods-api-openapi.yml
 - filename: aza-finance-payout-methods-api-openapi.yml
   format: yaml
   label: AZA Finance Payout Methods API
   slug: aza-finance-payout-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-payout-methods-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-payout-methods-api-openapi.yml
 - filename: aza-finance-recipients-api-openapi.yml
   format: yaml
   label: AZA Finance Recipients API
   slug: aza-finance-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-recipients-api-openapi.yml
 - filename: aza-finance-senders-api-openapi.yml
   format: yaml
   label: AZA Finance Senders API
   slug: aza-finance-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-senders-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-senders-api-openapi.yml
 - filename: aza-finance-transactions-api-openapi.yml
   format: yaml
   label: AZA Finance Transactions API
   slug: aza-finance-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-transactions-api-openapi.yml
 - filename: aza-finance-webhooks-api-openapi.yml
   format: yaml
   label: AZA Finance Webhooks API
   slug: aza-finance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/openapi/aza-finance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/aza-finance/openapi/aza-finance-webhooks-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 27
@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/aza-fi
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/create_and_fund\n  method: post\n  operationId: create-and-fund-transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{Transaction ID}\n  method: get\n  operationId: get-transaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{Transaction ID}/payin\n  method: post\n  operationId: payin-transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{Transaction ID}/payout\n  method: post\n  operationId: payout-transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: get-webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: post-webhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /webhooks/{Webhook ID}\n  method: get\n  operationId: get-webhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{Webhook ID}\n  method: delete\n  operationId: delete-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/events\n  method: get\n  operationId: get-webhook-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/agentic-access/aza-finance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aza-finance/agentic-access/aza-finance-agentic-access.yml
 summary_line: 49 operations · 22 acting
 tags:
 - Company

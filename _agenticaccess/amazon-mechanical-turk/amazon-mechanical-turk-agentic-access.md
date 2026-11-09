@@ -9,7 +9,7 @@ api_specs:
   label: Amazon Mechanical Turk Amazon Mechanical Turk API
   slug: amazon-mechanical-turk-amazon-mechanical-turk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/openapi/amazon-mechanical-turk-amazon-mechanical-turk-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mechanical-turk/openapi/amazon-mechanical-turk-amazon-mechanical-turk-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 15
@@ -65,12 +65,14 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=MTurkRequesterServiceV20170117.SendTestEventNotification\n  method: post\n  operationId: SendTestEventNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=MTurkRequesterServiceV20170117.UpdateExpirationForHIT\n  method: post\n  operationId: UpdateExpirationForHIT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=MTurkRequesterServiceV20170117.UpdateHITReviewStatus\n  method: post\n  operationId: UpdateHITReviewStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=MTurkRequesterServiceV20170117.UpdateHITTypeOfHIT\n  method: post\n  operationId: UpdateHITTypeOfHIT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=MTurkRequesterServiceV20170117.UpdateNotificationSettings\n\
   \  method: post\n  operationId: UpdateNotificationSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=MTurkRequesterServiceV20170117.UpdateQualificationType\n  method: post\n  operationId: UpdateQualificationType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/agentic-access/amazon-mechanical-turk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mechanical-turk/agentic-access/amazon-mechanical-turk-agentic-access.yml
 summary_line: 39 operations · 24 acting
 tags:
+- Amazon Web Services
 - Crowdsourcing
 - Human Intelligence
 - Labor
 - Machine Learning
 - Task
+- Defunct
 ---

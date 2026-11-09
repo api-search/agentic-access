@@ -8,25 +8,25 @@ api_specs:
   label: Rainbow.AI Nowcast API
   slug: rainbow-ai-nowcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-nowcast-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-nowcast-api-openapi.yml
 - filename: rainbow-ai-radar-api-openapi.yml
   format: yaml
   label: Rainbow.AI Radar API
   slug: rainbow-ai-radar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-radar-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-radar-api-openapi.yml
 - filename: rainbow-ai-snapshots-api-openapi.yml
   format: yaml
   label: Rainbow.AI Snapshots API
   slug: rainbow-ai-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-snapshots-api-openapi.yml
 - filename: rainbow-ai-tiles-api-openapi.yml
   format: yaml
   label: Rainbow.AI Tiles API
   slug: rainbow-ai-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/rainbow-ai/openapi/rainbow-ai-tiles-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rainbow-ai-nowcast-openapi.yml, openapi/rainbow-ai-tiles-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /weather/nowcast\n  method: get\n  operationId: getNowcast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weather/radar\n  method: get\n  operationId: getRadarData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /map/tile/{z}/{x}/{y}\n\
   \  method: get\n  operationId: getMapTile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /map/snapshot\n  method: get\n  operationId: getMapSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /map/timestamps\n  method: get\n  operationId: getAvailableTimestamps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/agentic-access/rainbow-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rainbow-ai/agentic-access/rainbow-ai-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Weather

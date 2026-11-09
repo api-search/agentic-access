@@ -9,193 +9,193 @@ api_specs:
   label: UiPath Alerts API
   slug: uipath-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-alerts-api-openapi.yml
 - filename: uipath-appinventory-api-openapi.yml
   format: yaml
   label: UiPath AppInventory API
   slug: uipath-appinventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-appinventory-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-appinventory-api-openapi.yml
 - filename: uipath-assets-api-openapi.yml
   format: yaml
   label: UiPath Assets API
   slug: uipath-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-assets-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-assets-api-openapi.yml
 - filename: uipath-automations-api-openapi.yml
   format: yaml
   label: UiPath Automations API
   slug: uipath-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-automations-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-automations-api-openapi.yml
 - filename: uipath-classification-api-openapi.yml
   format: yaml
   label: UiPath Classification API
   slug: uipath-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-classification-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-classification-api-openapi.yml
 - filename: uipath-digitization-api-openapi.yml
   format: yaml
   label: UiPath Digitization API
   slug: uipath-digitization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-digitization-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-digitization-api-openapi.yml
 - filename: uipath-discovery-api-openapi.yml
   format: yaml
   label: UiPath Discovery API
   slug: uipath-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-discovery-api-openapi.yml
 - filename: uipath-entities-api-openapi.yml
   format: yaml
   label: UiPath Entities API
   slug: uipath-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-entities-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-entities-api-openapi.yml
 - filename: uipath-extraction-api-openapi.yml
   format: yaml
   label: UiPath Extraction API
   slug: uipath-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-extraction-api-openapi.yml
 - filename: uipath-folders-api-openapi.yml
   format: yaml
   label: UiPath Folders API
   slug: uipath-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-folders-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-folders-api-openapi.yml
 - filename: uipath-groups-api-openapi.yml
   format: yaml
   label: UiPath Groups API
   slug: uipath-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-groups-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-groups-api-openapi.yml
 - filename: uipath-jobs-api-openapi.yml
   format: yaml
   label: UiPath Jobs API
   slug: uipath-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-jobs-api-openapi.yml
 - filename: uipath-licenses-api-openapi.yml
   format: yaml
   label: UiPath Licenses API
   slug: uipath-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-licenses-api-openapi.yml
 - filename: uipath-machines-api-openapi.yml
   format: yaml
   label: UiPath Machines API
   slug: uipath-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-machines-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-machines-api-openapi.yml
 - filename: uipath-packages-api-openapi.yml
   format: yaml
   label: UiPath Packages API
   slug: uipath-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-packages-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-packages-api-openapi.yml
 - filename: uipath-pipeline-api-openapi.yml
   format: yaml
   label: UiPath Pipeline API
   slug: uipath-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-pipeline-api-openapi.yml
 - filename: uipath-processes-api-openapi.yml
   format: yaml
   label: UiPath Processes API
   slug: uipath-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-processes-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-processes-api-openapi.yml
 - filename: uipath-projects-api-openapi.yml
   format: yaml
   label: UiPath Projects API
   slug: uipath-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-projects-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-projects-api-openapi.yml
 - filename: uipath-queueitems-api-openapi.yml
   format: yaml
   label: UiPath QueueItems API
   slug: uipath-queueitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-queueitems-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-queueitems-api-openapi.yml
 - filename: uipath-queues-api-openapi.yml
   format: yaml
   label: UiPath Queues API
   slug: uipath-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-queues-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-queues-api-openapi.yml
 - filename: uipath-requirements-api-openapi.yml
   format: yaml
   label: UiPath Requirements API
   slug: uipath-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-requirements-api-openapi.yml
 - filename: uipath-robots-api-openapi.yml
   format: yaml
   label: UiPath Robots API
   slug: uipath-robots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-robots-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-robots-api-openapi.yml
 - filename: uipath-roles-api-openapi.yml
   format: yaml
   label: UiPath Roles API
   slug: uipath-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-roles-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-roles-api-openapi.yml
 - filename: uipath-schedules-api-openapi.yml
   format: yaml
   label: UiPath Schedules API
   slug: uipath-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-schedules-api-openapi.yml
 - filename: uipath-storagebuckets-api-openapi.yml
   format: yaml
   label: UiPath StorageBuckets API
   slug: uipath-storagebuckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-storagebuckets-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-storagebuckets-api-openapi.yml
 - filename: uipath-users-api-openapi.yml
   format: yaml
   label: UiPath Users API
   slug: uipath-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-users-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-users-api-openapi.yml
 - filename: uipath-validation-api-openapi.yml
   format: yaml
   label: UiPath Validation API
   slug: uipath-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-validation-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-validation-api-openapi.yml
 - filename: uipath-webhooks-api-openapi.yml
   format: yaml
   label: UiPath Webhooks API
   slug: uipath-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-webhooks-api-openapi.yml
 - filename: uipath-audit-logs-api-openapi.yml
   format: yaml
   label: UiPath Audit Logs API
   slug: uipath-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-audit-logs-api-openapi.yml
 - filename: uipath-test-cases-api-openapi.yml
   format: yaml
   label: UiPath Test Cases API
   slug: uipath-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-test-cases-api-openapi.yml
 - filename: uipath-test-executions-api-openapi.yml
   format: yaml
   label: UiPath Test Executions API
   slug: uipath-test-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-test-executions-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-test-executions-api-openapi.yml
 - filename: uipath-test-sets-api-openapi.yml
   format: yaml
   label: UiPath Test Sets API
   slug: uipath-test-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/openapi/uipath-test-sets-api-openapi.yml
+  url: https://artifacts.apis.io/uipath/openapi/uipath-test-sets-api-openapi.yml
 consequence_counts:
   read: 47
   safety-critical: 1
@@ -255,7 +255,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/uipath
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{organizationName}/identity_/api/User/{userId}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{organizationName}/identity_/api/User\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/validation/start\n  method: post\n  operationId: validateDocumentAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /odata/Webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /odata/Webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /odata/Webhooks({key})\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /odata/Webhooks/UiPath.Server.Configuration.OData.GetEventTypes()\n  method: get\n  operationId: getWebhookEventTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/agentic-access/uipath-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uipath/agentic-access/uipath-agentic-access.yml
 summary_line: 79 operations · 32 acting · 1 human-in-the-loop
 tags:
 - Automation

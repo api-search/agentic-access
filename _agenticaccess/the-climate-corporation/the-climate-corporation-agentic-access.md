@@ -9,49 +9,49 @@ api_specs:
   label: The Climate Corporation Boundaries API
   slug: the-climate-corporation-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-boundaries-api-openapi.yml
 - filename: the-climate-corporation-exports-api-openapi.yml
   format: yaml
   label: The Climate Corporation Exports API
   slug: the-climate-corporation-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-exports-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-exports-api-openapi.yml
 - filename: the-climate-corporation-farmorganizations-api-openapi.yml
   format: yaml
   label: The Climate Corporation FarmOrganizations API
   slug: the-climate-corporation-farmorganizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-farmorganizations-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-farmorganizations-api-openapi.yml
 - filename: the-climate-corporation-fields-api-openapi.yml
   format: yaml
   label: The Climate Corporation Fields API
   slug: the-climate-corporation-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-fields-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-fields-api-openapi.yml
 - filename: the-climate-corporation-layers-api-openapi.yml
   format: yaml
   label: The Climate Corporation Layers API
   slug: the-climate-corporation-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-layers-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-layers-api-openapi.yml
 - filename: the-climate-corporation-operations-api-openapi.yml
   format: yaml
   label: The Climate Corporation Operations API
   slug: the-climate-corporation-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-operations-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-operations-api-openapi.yml
 - filename: the-climate-corporation-resourceowners-api-openapi.yml
   format: yaml
   label: The Climate Corporation ResourceOwners API
   slug: the-climate-corporation-resourceowners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-resourceowners-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-resourceowners-api-openapi.yml
 - filename: the-climate-corporation-uploads-api-openapi.yml
   format: yaml
   label: The Climate Corporation Uploads API
   slug: the-climate-corporation-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-uploads-api-openapi.yml
 consequence_counts:
   read: 23
   write: 5
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/the-cl
   \ getResourceOwner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - platform\n    - resourceOwners:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/uploads\n  method: post\n  operationId: postUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - asApplied:write\n    - asHarvested:write\n    - asPlanted:write\n    - fields:write\n    - imagery:write\n    - platform\n    - rx:write\n    - standCount:write\n    - weedCount:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/uploads/{uploadId}\n  method: put\n  operationId: chunkedUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - asApplied:write\n    - asHarvested:write\n   \
   \ - asPlanted:write\n    - fields:write\n    - imagery:write\n    - platform\n    - rx:write\n    - soil:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/uploads/{uploadId}/status\n  method: get\n  operationId: fetchUploadStatusById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - asApplied:write\n    - asHarvested:write\n    - asPlanted:write\n    - fields:write\n    - imagery:write\n    - platform\n    - rx:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/uploads/status/query\n  method: post\n  operationId: fetchUploadStatuses\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - asApplied:write\n    - asHarvested:write\n    - asPlanted:write\n    - fields:write\n    - imagery:write\n    - platform\n\
   \    - rx:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/agentic-access/the-climate-corporation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/the-climate-corporation/agentic-access/the-climate-corporation-agentic-access.yml
 summary_line: 28 operations · 5 acting
 tags:
 - Company

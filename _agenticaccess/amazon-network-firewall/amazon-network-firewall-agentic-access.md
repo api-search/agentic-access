@@ -9,7 +9,55 @@ api_specs:
   label: Amazon Network Firewall AWS Network Firewall API
   slug: amazon-network-firewall-aws-network-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/openapi/amazon-network-firewall-aws-network-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-network-firewall/openapi/amazon-network-firewall-aws-network-firewall-api-openapi.yml
+- filename: amazon-network-firewall-network-firewall-transit-gateway-attachment-api-openapi.yml
+  format: yaml
+  label: Amazon Network Firewall Network Firewall Network Firewall Transit Gateway Attachment API
+  slug: amazon-network-firewall-network-firewall-transit-gateway-attachment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-network-firewall/openapi/amazon-network-firewall-network-firewall-transit-gateway-attachment-api-openapi.yml
+- filename: amazon-network-firewall-container-association-api-openapi.yml
+  format: yaml
+  label: Amazon Network Firewall Network Firewall Container Association API
+  slug: amazon-network-firewall-container-association-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-network-firewall/openapi/amazon-network-firewall-container-association-api-openapi.yml
+- filename: amazon-network-firewall-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Network Firewall Network Firewall Operations API
+  slug: amazon-network-firewall-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-network-firewall/openapi/amazon-network-firewall-operations-api-openapi.yml
+- filename: amazon-network-firewall-proxy-api-openapi.yml
+  format: yaml
+  label: Amazon Network Firewall Network Firewall Proxy API
+  slug: amazon-network-firewall-proxy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-network-firewall/openapi/amazon-network-firewall-proxy-api-openapi.yml
+- filename: amazon-network-firewall-proxy-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon Network Firewall Network Firewall Proxy Configuration API
+  slug: amazon-network-firewall-proxy-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-network-firewall/openapi/amazon-network-firewall-proxy-configuration-api-openapi.yml
+- filename: amazon-network-firewall-proxy-rule-api-openapi.yml
+  format: yaml
+  label: Amazon Network Firewall Network Firewall Proxy Rule API
+  slug: amazon-network-firewall-proxy-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-network-firewall/openapi/amazon-network-firewall-proxy-rule-api-openapi.yml
+- filename: amazon-network-firewall-proxy-rule-group-api-openapi.yml
+  format: yaml
+  label: Amazon Network Firewall Network Firewall Proxy Rule Group API
+  slug: amazon-network-firewall-proxy-rule-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-network-firewall/openapi/amazon-network-firewall-proxy-rule-group-api-openapi.yml
+- filename: amazon-network-firewall-vpc-endpoint-association-api-openapi.yml
+  format: yaml
+  label: Amazon Network Firewall Network Firewall Vpc Endpoint Association API
+  slug: amazon-network-firewall-vpc-endpoint-association-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-network-firewall/openapi/amazon-network-firewall-vpc-endpoint-association-api-openapi.yml
 consequence_counts:
   read: 5
   write: 31
@@ -53,9 +101,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=NetworkFirewall_20201112.UpdateFirewallEncryptionConfiguration\n  method: post\n  operationId: UpdateFirewallEncryptionConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=NetworkFirewall_20201112.UpdateFirewallPolicy\n  method: post\n  operationId: UpdateFirewallPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=NetworkFirewall_20201112.UpdateFirewallPolicyChangeProtection\n\
   \  method: post\n  operationId: UpdateFirewallPolicyChangeProtection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=NetworkFirewall_20201112.UpdateLoggingConfiguration\n  method: post\n  operationId: UpdateLoggingConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=NetworkFirewall_20201112.UpdateRuleGroup\n  method: post\n  operationId: UpdateRuleGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=NetworkFirewall_20201112.UpdateSubnetChangeProtection\n  method: post\n  operationId: UpdateSubnetChangeProtection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=NetworkFirewall_20201112.UpdateTLSInspectionConfiguration\n  method: post\n  operationId: UpdateTLSInspectionConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/agentic-access/amazon-network-firewall-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-network-firewall/agentic-access/amazon-network-firewall-agentic-access.yml
 summary_line: 36 operations · 31 acting
 tags:
+- Amazon Web Services
 - Firewall
 - Intrusion Detection
 - Network Security

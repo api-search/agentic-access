@@ -9,415 +9,415 @@ api_specs:
   label: Fresnel Software Aggregation API
   slug: vitruvi-aggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-aggregation-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-aggregation-api-openapi.yml
 - filename: vitruvi-ai-agent-api-openapi.yml
   format: yaml
   label: Fresnel Software Ai agent API
   slug: vitruvi-ai-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-ai-agent-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-ai-agent-api-openapi.yml
 - filename: vitruvi-async-events-api-openapi.yml
   format: yaml
   label: Fresnel Software Async events API
   slug: vitruvi-async-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-async-events-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-async-events-api-openapi.yml
 - filename: vitruvi-auth-api-openapi.yml
   format: yaml
   label: Fresnel Software Auth API
   slug: vitruvi-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-auth-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-auth-api-openapi.yml
 - filename: vitruvi-conditional-custom-field-overrides-api-openapi.yml
   format: yaml
   label: Fresnel Software Conditional custom field overrides API
   slug: vitruvi-conditional-custom-field-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-conditional-custom-field-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-conditional-custom-field-overrides-api-openapi.yml
 - filename: vitruvi-configuration-library-api-openapi.yml
   format: yaml
   label: Fresnel Software Configuration library API
   slug: vitruvi-configuration-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-configuration-library-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-configuration-library-api-openapi.yml
 - filename: vitruvi-content-types-api-openapi.yml
   format: yaml
   label: Fresnel Software Content types API
   slug: vitruvi-content-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-content-types-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-content-types-api-openapi.yml
 - filename: vitruvi-crew-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Crew categories API
   slug: vitruvi-crew-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-crew-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-crew-categories-api-openapi.yml
 - filename: vitruvi-crews-api-openapi.yml
   format: yaml
   label: Fresnel Software Crews API
   slug: vitruvi-crews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-crews-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-crews-api-openapi.yml
 - filename: vitruvi-crews-with-resources-api-openapi.yml
   format: yaml
   label: Fresnel Software Crews with resources API
   slug: vitruvi-crews-with-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-crews-with-resources-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-crews-with-resources-api-openapi.yml
 - filename: vitruvi-custom-field-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Custom field categories API
   slug: vitruvi-custom-field-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-custom-field-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-custom-field-categories-api-openapi.yml
 - filename: vitruvi-custom-field-settings-api-openapi.yml
   format: yaml
   label: Fresnel Software Custom field settings API
   slug: vitruvi-custom-field-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-custom-field-settings-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-custom-field-settings-api-openapi.yml
 - filename: vitruvi-custom-field-settings-by-entity-api-openapi.yml
   format: yaml
   label: Fresnel Software Custom field settings by entity API
   slug: vitruvi-custom-field-settings-by-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-custom-field-settings-by-entity-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-custom-field-settings-by-entity-api-openapi.yml
 - filename: vitruvi-custom-fields-api-openapi.yml
   format: yaml
   label: Fresnel Software Custom fields API
   slug: vitruvi-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-custom-fields-api-openapi.yml
 - filename: vitruvi-data-resource-api-openapi.yml
   format: yaml
   label: Fresnel Software Data resource API
   slug: vitruvi-data-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-data-resource-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-data-resource-api-openapi.yml
 - filename: vitruvi-design-element-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Design element categories API
   slug: vitruvi-design-element-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-design-element-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-design-element-categories-api-openapi.yml
 - filename: vitruvi-engineering-api-openapi.yml
   format: yaml
   label: Fresnel Software Engineering API
   slug: vitruvi-engineering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-engineering-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-engineering-api-openapi.yml
 - filename: vitruvi-entity-file-folders-api-openapi.yml
   format: yaml
   label: Fresnel Software Entity file folders API
   slug: vitruvi-entity-file-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-entity-file-folders-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-entity-file-folders-api-openapi.yml
 - filename: vitruvi-entity-files-api-openapi.yml
   format: yaml
   label: Fresnel Software Entity files API
   slug: vitruvi-entity-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-entity-files-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-entity-files-api-openapi.yml
 - filename: vitruvi-equipment-api-openapi.yml
   format: yaml
   label: Fresnel Software Equipment API
   slug: vitruvi-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-equipment-api-openapi.yml
 - filename: vitruvi-equipment-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Equipment categories API
   slug: vitruvi-equipment-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-equipment-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-equipment-categories-api-openapi.yml
 - filename: vitruvi-exports-api-openapi.yml
   format: yaml
   label: Fresnel Software Exports API
   slug: vitruvi-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-exports-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-exports-api-openapi.yml
 - filename: vitruvi-global-configuration-api-openapi.yml
   format: yaml
   label: Fresnel Software Global Configuration API
   slug: vitruvi-global-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-global-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-global-configuration-api-openapi.yml
 - filename: vitruvi-global-settings-api-openapi.yml
   format: yaml
   label: Fresnel Software Global settings API
   slug: vitruvi-global-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-global-settings-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-global-settings-api-openapi.yml
 - filename: vitruvi-grid-views-api-openapi.yml
   format: yaml
   label: Fresnel Software Grid views API
   slug: vitruvi-grid-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-grid-views-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-grid-views-api-openapi.yml
 - filename: vitruvi-inbox-api-openapi.yml
   format: yaml
   label: Fresnel Software Inbox API
   slug: vitruvi-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-inbox-api-openapi.yml
 - filename: vitruvi-infrastructure-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Infrastructure categories API
   slug: vitruvi-infrastructure-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-infrastructure-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-infrastructure-categories-api-openapi.yml
 - filename: vitruvi-integrations-api-openapi.yml
   format: yaml
   label: Fresnel Software Integrations API
   slug: vitruvi-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-integrations-api-openapi.yml
 - filename: vitruvi-invoicing-api-openapi.yml
   format: yaml
   label: Fresnel Software Invoicing API
   slug: vitruvi-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-invoicing-api-openapi.yml
 - filename: vitruvi-jobs-api-openapi.yml
   format: yaml
   label: Fresnel Software Jobs API
   slug: vitruvi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-jobs-api-openapi.yml
 - filename: vitruvi-labor-items-api-openapi.yml
   format: yaml
   label: Fresnel Software Labor items API
   slug: vitruvi-labor-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-labor-items-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-labor-items-api-openapi.yml
 - filename: vitruvi-material-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Material categories API
   slug: vitruvi-material-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-material-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-material-categories-api-openapi.yml
 - filename: vitruvi-material-quantity-descriptions-api-openapi.yml
   format: yaml
   label: Fresnel Software Material quantity descriptions API
   slug: vitruvi-material-quantity-descriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-material-quantity-descriptions-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-material-quantity-descriptions-api-openapi.yml
 - filename: vitruvi-mobile-api-openapi.yml
   format: yaml
   label: Fresnel Software Mobile API
   slug: vitruvi-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-mobile-api-openapi.yml
 - filename: vitruvi-monitoring-api-openapi.yml
   format: yaml
   label: Fresnel Software Monitoring API
   slug: vitruvi-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-monitoring-api-openapi.yml
 - filename: vitruvi-network-calculus-api-openapi.yml
   format: yaml
   label: Fresnel Software Network calculus API
   slug: vitruvi-network-calculus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-network-calculus-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-network-calculus-api-openapi.yml
 - filename: vitruvi-network-operator-api-openapi.yml
   format: yaml
   label: Fresnel Software Network operator API
   slug: vitruvi-network-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-network-operator-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-network-operator-api-openapi.yml
 - filename: vitruvi-network-operators-api-openapi.yml
   format: yaml
   label: Fresnel Software Network operators API
   slug: vitruvi-network-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-network-operators-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-network-operators-api-openapi.yml
 - filename: vitruvi-payable-item-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Payable item categories API
   slug: vitruvi-payable-item-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-payable-item-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-payable-item-categories-api-openapi.yml
 - filename: vitruvi-permissions-tree-view-api-openapi.yml
   format: yaml
   label: Fresnel Software Permissions tree view API
   slug: vitruvi-permissions-tree-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-permissions-tree-view-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-permissions-tree-view-api-openapi.yml
 - filename: vitruvi-permissions-tree-view-compacted-api-openapi.yml
   format: yaml
   label: Fresnel Software Permissions tree view compacted API
   slug: vitruvi-permissions-tree-view-compacted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-permissions-tree-view-compacted-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-permissions-tree-view-compacted-api-openapi.yml
 - filename: vitruvi-premise-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Premise categories API
   slug: vitruvi-premise-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-premise-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-premise-categories-api-openapi.yml
 - filename: vitruvi-presigned-urls-api-openapi.yml
   format: yaml
   label: Fresnel Software Presigned urls API
   slug: vitruvi-presigned-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-presigned-urls-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-presigned-urls-api-openapi.yml
 - filename: vitruvi-production-api-openapi.yml
   format: yaml
   label: Fresnel Software Production API
   slug: vitruvi-production-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-production-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-production-api-openapi.yml
 - filename: vitruvi-push-notifications-api-openapi.yml
   format: yaml
   label: Fresnel Software Push notifications API
   slug: vitruvi-push-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-push-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-push-notifications-api-openapi.yml
 - filename: vitruvi-qualifications-api-openapi.yml
   format: yaml
   label: Fresnel Software Qualifications API
   slug: vitruvi-qualifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-qualifications-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-qualifications-api-openapi.yml
 - filename: vitruvi-quantity-descriptions-api-openapi.yml
   format: yaml
   label: Fresnel Software Quantity descriptions API
   slug: vitruvi-quantity-descriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-quantity-descriptions-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-quantity-descriptions-api-openapi.yml
 - filename: vitruvi-reporting-api-openapi.yml
   format: yaml
   label: Fresnel Software Reporting API
   slug: vitruvi-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-reporting-api-openapi.yml
 - filename: vitruvi-revision-changesets-api-openapi.yml
   format: yaml
   label: Fresnel Software Revision changesets API
   slug: vitruvi-revision-changesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-revision-changesets-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-revision-changesets-api-openapi.yml
 - filename: vitruvi-roles-api-openapi.yml
   format: yaml
   label: Fresnel Software Roles API
   slug: vitruvi-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-roles-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-roles-api-openapi.yml
 - filename: vitruvi-safety-api-openapi.yml
   format: yaml
   label: Fresnel Software Safety API
   slug: vitruvi-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-safety-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-safety-api-openapi.yml
 - filename: vitruvi-scheduling-api-openapi.yml
   format: yaml
   label: Fresnel Software Scheduling API
   slug: vitruvi-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-scheduling-api-openapi.yml
 - filename: vitruvi-settings-api-openapi.yml
   format: yaml
   label: Fresnel Software Settings API
   slug: vitruvi-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-settings-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-settings-api-openapi.yml
 - filename: vitruvi-subscribe-api-openapi.yml
   format: yaml
   label: Fresnel Software Subscribe API
   slug: vitruvi-subscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-subscribe-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-subscribe-api-openapi.yml
 - filename: vitruvi-support-utils-api-openapi.yml
   format: yaml
   label: Fresnel Software Support utils API
   slug: vitruvi-support-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-support-utils-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-support-utils-api-openapi.yml
 - filename: vitruvi-ticketing-api-openapi.yml
   format: yaml
   label: Fresnel Software Ticketing API
   slug: vitruvi-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-ticketing-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-ticketing-api-openapi.yml
 - filename: vitruvi-time-keeping-api-openapi.yml
   format: yaml
   label: Fresnel Software Time keeping API
   slug: vitruvi-time-keeping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-time-keeping-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-time-keeping-api-openapi.yml
 - filename: vitruvi-unique-field-check-api-openapi.yml
   format: yaml
   label: Fresnel Software Unique field check API
   slug: vitruvi-unique-field-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-unique-field-check-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-unique-field-check-api-openapi.yml
 - filename: vitruvi-unit-dimensions-api-openapi.yml
   format: yaml
   label: Fresnel Software Unit dimensions API
   slug: vitruvi-unit-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-unit-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-unit-dimensions-api-openapi.yml
 - filename: vitruvi-units-api-openapi.yml
   format: yaml
   label: Fresnel Software Units API
   slug: vitruvi-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-units-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-units-api-openapi.yml
 - filename: vitruvi-unsubscribe-api-openapi.yml
   format: yaml
   label: Fresnel Software Unsubscribe API
   slug: vitruvi-unsubscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-unsubscribe-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-unsubscribe-api-openapi.yml
 - filename: vitruvi-user-groups-api-openapi.yml
   format: yaml
   label: Fresnel Software User groups API
   slug: vitruvi-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-user-groups-api-openapi.yml
 - filename: vitruvi-user-permissions-api-openapi.yml
   format: yaml
   label: Fresnel Software User permissions API
   slug: vitruvi-user-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-user-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-user-permissions-api-openapi.yml
 - filename: vitruvi-user-tiers-api-openapi.yml
   format: yaml
   label: Fresnel Software User tiers API
   slug: vitruvi-user-tiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-user-tiers-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-user-tiers-api-openapi.yml
 - filename: vitruvi-users-api-openapi.yml
   format: yaml
   label: Fresnel Software Users API
   slug: vitruvi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-users-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-users-api-openapi.yml
 - filename: vitruvi-variables-api-openapi.yml
   format: yaml
   label: Fresnel Software Variables API
   slug: vitruvi-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-variables-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-variables-api-openapi.yml
 - filename: vitruvi-wbs-api-openapi.yml
   format: yaml
   label: Fresnel Software Wbs API
   slug: vitruvi-wbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-wbs-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-wbs-api-openapi.yml
 - filename: vitruvi-work-item-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Work item categories API
   slug: vitruvi-work-item-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-work-item-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-work-item-categories-api-openapi.yml
 - filename: vitruvi-work-order-categories-api-openapi.yml
   format: yaml
   label: Fresnel Software Work order categories API
   slug: vitruvi-work-order-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/openapi/vitruvi-work-order-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vitruvi/openapi/vitruvi-work-order-categories-api-openapi.yml
 consequence_counts:
   physical: 64
   read: 402
@@ -606,8 +606,8 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/vitruv
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/custom_field_settings/{id}/\n  method: delete\n  operationId: delete_custom_field_settings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/custom_field_settings_by_entity\n  method: get\n  operationId: api_v1_custom_field_settings_by_entity_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/custom_fields/\n  method: get\n  operationId: list_custom_fields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/custom_fields/\n  method:\
   \ post\n  operationId: create_custom_fields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/custom_fields/{id}/\n  method: get\n  operationId: get_custom_fields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/custom_fields/{id}/\n  method: put\n  operationId: update_custom_fields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/custom_fields/{id}/\n  method: patch\n  operationId: patch_custom_fields\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/custom_fields/{id}/\n  method: delete\n  operationId: delete_custom_fields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/data_resource/\n  method: get\n  operationId: list_data_resource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/data_resource/\n  method: post\n  operationId: create_data_resource\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/data_resource/{id}/\n  method: get\n  operationId: get_data_resource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/data_resource/{id}/\n  method: put\n  operationId: update_data_resource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (342 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/agentic-access/vitruvi-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vitruvi/refs/heads/main/agentic-access/vitruvi-agentic-access.yml
+  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/data_resource/{id}/\n  method: get\n  operationId: get_data_resource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/data_resource/{id}/\n  method: put\n  operationId: update_data_resource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (342 KB total) ---\n# Full source: https://artifacts.apis.io/vitruvi/agentic-access/vitruvi-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/vitruvi/agentic-access/vitruvi-agentic-access.yml
 summary_line: 1059 operations · 657 acting · 42 human-in-the-loop
 tags:
 - Construction

@@ -9,37 +9,37 @@ api_specs:
   label: SearchStax Authentication API
   slug: searchstax-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-authentication-api-openapi.yml
 - filename: searchstax-backup-api-openapi.yml
   format: yaml
   label: SearchStax Backup API
   slug: searchstax-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-backup-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-backup-api-openapi.yml
 - filename: searchstax-deployments-api-openapi.yml
   format: yaml
   label: SearchStax Deployments API
   slug: searchstax-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-deployments-api-openapi.yml
 - filename: searchstax-nodes-api-openapi.yml
   format: yaml
   label: SearchStax Nodes API
   slug: searchstax-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-nodes-api-openapi.yml
 - filename: searchstax-plans-api-openapi.yml
   format: yaml
   label: SearchStax Plans API
   slug: searchstax-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-plans-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-plans-api-openapi.yml
 - filename: searchstax-usage-api-openapi.yml
   format: yaml
   label: SearchStax Usage API
   slug: searchstax-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/openapi/searchstax-usage-api-openapi.yml
+  url: https://artifacts.apis.io/searchstax/openapi/searchstax-usage-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 9
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/search
   \ listNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{account_name}/deployment/{uid}/server/{node}/start-solr/\n  method: post\n  operationId: startSolrNode\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{account_name}/deployment/{uid}/server/{node}/stop-solr/\n  method: post\n  operationId: stopSolrNode\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop:\
   \ required\n    audit: required\n- path: /account/{account_name}/deployment/{uid}/server/{node}/host-status/\n  method: get\n  operationId: getNodeStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{account_name}/plan/\n  method: get\n  operationId: listPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{account_name}/usage/{year}/{month}/\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{account_name}/apikey/\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/agentic-access/searchstax-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/searchstax/agentic-access/searchstax-agentic-access.yml
 summary_line: 17 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Search

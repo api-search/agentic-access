@@ -9,31 +9,31 @@ api_specs:
   label: Jetic API Specifications API
   slug: jetic-api-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-api-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/jetic/openapi/jetic-api-specifications-api-openapi.yml
 - filename: jetic-clusters-api-openapi.yml
   format: yaml
   label: Jetic Clusters API
   slug: jetic-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/jetic/openapi/jetic-clusters-api-openapi.yml
 - filename: jetic-deployments-api-openapi.yml
   format: yaml
   label: Jetic Deployments API
   slug: jetic-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/jetic/openapi/jetic-deployments-api-openapi.yml
 - filename: jetic-integrations-api-openapi.yml
   format: yaml
   label: Jetic Integrations API
   slug: jetic-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/jetic/openapi/jetic-integrations-api-openapi.yml
 - filename: jetic-monitoring-api-openapi.yml
   format: yaml
   label: Jetic Monitoring API
   slug: jetic-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/openapi/jetic-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/jetic/openapi/jetic-monitoring-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jetic-
   \  method: get\n  operationId: listApiSpecifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-specifications\n  method: post\n  operationId: createApiSpecification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-specifications/{specificationId}\n  method: get\n  operationId: getApiSpecification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-specifications/{specificationId}\n  method: put\n  operationId: updateApiSpecification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-specifications/{specificationId}\n  method: delete\n  operationId: deleteApiSpecification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/{deploymentId}/logs\n  method: get\n  operationId: getDeploymentLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/{deploymentId}/metrics\n  method: get\n  operationId: getDeploymentMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/agentic-access/jetic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jetic/agentic-access/jetic-agentic-access.yml
 summary_line: 22 operations · 10 acting
 tags:
 - Apache Camel

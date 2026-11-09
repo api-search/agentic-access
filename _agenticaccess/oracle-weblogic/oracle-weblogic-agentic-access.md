@@ -9,187 +9,187 @@ api_specs:
   label: Oracle WebLogic Server Application Deployment API
   slug: oracle-weblogic-application-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-application-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-application-deployment-api-openapi.yml
 - filename: oracle-weblogic-application-deployments-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Application Deployments API
   slug: oracle-weblogic-application-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-application-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-application-deployments-api-openapi.yml
 - filename: oracle-weblogic-application-runtime-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Application Runtime API
   slug: oracle-weblogic-application-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-application-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-application-runtime-api-openapi.yml
 - filename: oracle-weblogic-clusters-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Clusters API
   slug: oracle-weblogic-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-clusters-api-openapi.yml
 - filename: oracle-weblogic-data-sources-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Data Sources API
   slug: oracle-weblogic-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-data-sources-api-openapi.yml
 - filename: oracle-weblogic-deployment-configuration-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Deployment Configuration API
   slug: oracle-weblogic-deployment-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-deployment-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-deployment-configuration-api-openapi.yml
 - filename: oracle-weblogic-deployment-lifecycle-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Deployment Lifecycle API
   slug: oracle-weblogic-deployment-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-deployment-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-deployment-lifecycle-api-openapi.yml
 - filename: oracle-weblogic-domain-configuration-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Domain Configuration API
   slug: oracle-weblogic-domain-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-domain-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-domain-configuration-api-openapi.yml
 - filename: oracle-weblogic-domain-runtime-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Domain Runtime API
   slug: oracle-weblogic-domain-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-domain-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-domain-runtime-api-openapi.yml
 - filename: oracle-weblogic-edit-session-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Edit Session API
   slug: oracle-weblogic-edit-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-edit-session-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-edit-session-api-openapi.yml
 - filename: oracle-weblogic-jdbc-runtime-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server JDBC Runtime API
   slug: oracle-weblogic-jdbc-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-jdbc-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-jdbc-runtime-api-openapi.yml
 - filename: oracle-weblogic-jms-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server JMS API
   slug: oracle-weblogic-jms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-jms-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-jms-api-openapi.yml
 - filename: oracle-weblogic-jms-runtime-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server JMS Runtime API
   slug: oracle-weblogic-jms-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-jms-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-jms-runtime-api-openapi.yml
 - filename: oracle-weblogic-library-deployments-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Library Deployments API
   slug: oracle-weblogic-library-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-library-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-library-deployments-api-openapi.yml
 - filename: oracle-weblogic-machines-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Machines API
   slug: oracle-weblogic-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-machines-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-machines-api-openapi.yml
 - filename: oracle-weblogic-runtime-search-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Runtime Search API
   slug: oracle-weblogic-runtime-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-runtime-search-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-runtime-search-api-openapi.yml
 - filename: oracle-weblogic-search-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Search API
   slug: oracle-weblogic-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-search-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-search-api-openapi.yml
 - filename: oracle-weblogic-security-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Security API
   slug: oracle-weblogic-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-security-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-security-api-openapi.yml
 - filename: oracle-weblogic-server-lifecycle-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Lifecycle API
   slug: oracle-weblogic-server-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-server-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-server-lifecycle-api-openapi.yml
 - filename: oracle-weblogic-server-runtime-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Runtime API
   slug: oracle-weblogic-server-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-server-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-server-runtime-api-openapi.yml
 - filename: oracle-weblogic-server-templates-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Templates API
   slug: oracle-weblogic-server-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-server-templates-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-server-templates-api-openapi.yml
 - filename: oracle-weblogic-servers-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Servers API
   slug: oracle-weblogic-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-servers-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-servers-api-openapi.yml
 - filename: oracle-weblogic-tasks-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Tasks API
   slug: oracle-weblogic-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-tasks-api-openapi.yml
 - filename: oracle-weblogic-thread-pool-runtime-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Thread Pool Runtime API
   slug: oracle-weblogic-thread-pool-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-thread-pool-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-thread-pool-runtime-api-openapi.yml
 - filename: oracle-weblogic-applications-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Applications API
   slug: oracle-weblogic-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-applications-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-applications-api-openapi.yml
 - filename: oracle-weblogic-deployment-operations-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Deployment Operations API
   slug: oracle-weblogic-deployment-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-deployment-operations-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-deployment-operations-api-openapi.yml
 - filename: oracle-weblogic-diagnostics-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Diagnostics API
   slug: oracle-weblogic-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-diagnostics-api-openapi.yml
 - filename: oracle-weblogic-edit-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Edit API
   slug: oracle-weblogic-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-edit-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-edit-api-openapi.yml
 - filename: oracle-weblogic-health-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Health API
   slug: oracle-weblogic-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-health-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-health-api-openapi.yml
 - filename: oracle-weblogic-lifecycle-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Lifecycle API
   slug: oracle-weblogic-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-lifecycle-api-openapi.yml
 - filename: oracle-weblogic-upload-api-openapi.yml
   format: yaml
   label: Oracle WebLogic Server Upload API
   slug: oracle-weblogic-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/openapi/oracle-weblogic-upload-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-weblogic/openapi/oracle-weblogic-upload-api-openapi.yml
 consequence_counts:
   physical: 26
   read: 124
@@ -378,8 +378,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/oracle
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit\n  method: get\n  operationId: getEditRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/changeManager/startEdit\n  method: post\n  operationId: startEdit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/changeManager/activate\n  method: post\n  operationId: activate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /edit/changeManager/cancelEdit\n  method: post\n  operationId: cancelEdit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/changeManager/undoUnactivatedChanges\n  method: post\n  operationId: undoUnactivatedChanges\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/servers\n  method: get\n  operationId: getEditServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /edit/servers\n  method: post\n  operationId: createEditServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/servers/{serverName}\n  method: get\n  operationId: getEditServer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/servers/{serverName}\n  method: post\n  operationId: updateEditServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/servers/{serverName}\n  method:\
-  \ delete\n  operationId: deleteEditServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/clusters\n  method: get\n  operationId: getEditClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/clusters\n  method: post\n  operationId: createEditCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/agentic-access/oracle-weblogic-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/agentic-access/oracle-weblogic-agentic-access.yml
+  \ delete\n  operationId: deleteEditServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/clusters\n  method: get\n  operationId: getEditClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/clusters\n  method: post\n  operationId: createEditCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://artifacts.apis.io/oracle-weblogic/agentic-access/oracle-weblogic-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/oracle-weblogic/agentic-access/oracle-weblogic-agentic-access.yml
 summary_line: 225 operations · 101 acting · 9 human-in-the-loop
 tags:
 - Application Server

@@ -9,61 +9,61 @@ api_specs:
   label: Gloria API Keys API
   slug: itsgloria-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-api-keys-api-openapi.yml
 - filename: itsgloria-ai-articles-api-openapi.yml
   format: yaml
   label: Gloria Articles API
   slug: itsgloria-ai-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-articles-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-articles-api-openapi.yml
 - filename: itsgloria-ai-authentication-api-openapi.yml
   format: yaml
   label: Gloria Authentication API
   slug: itsgloria-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-authentication-api-openapi.yml
 - filename: itsgloria-ai-bots-api-openapi.yml
   format: yaml
   label: Gloria Bots API
   slug: itsgloria-ai-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-bots-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-bots-api-openapi.yml
 - filename: itsgloria-ai-categories-api-openapi.yml
   format: yaml
   label: Gloria Categories API
   slug: itsgloria-ai-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-categories-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-categories-api-openapi.yml
 - filename: itsgloria-ai-health-api-openapi.yml
   format: yaml
   label: Gloria Health API
   slug: itsgloria-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-health-api-openapi.yml
 - filename: itsgloria-ai-narratives-api-openapi.yml
   format: yaml
   label: Gloria Narratives API
   slug: itsgloria-ai-narratives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-narratives-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-narratives-api-openapi.yml
 - filename: itsgloria-ai-news-api-openapi.yml
   format: yaml
   label: Gloria News API
   slug: itsgloria-ai-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-news-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-news-api-openapi.yml
 - filename: itsgloria-ai-recaps-api-openapi.yml
   format: yaml
   label: Gloria Recaps API
   slug: itsgloria-ai-recaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-recaps-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-recaps-api-openapi.yml
 - filename: itsgloria-ai-websocket-api-openapi.yml
   format: yaml
   label: Gloria WebSocket API
   slug: itsgloria-ai-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/openapi/itsgloria-ai-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/itsgloria-ai/openapi/itsgloria-ai-websocket-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 1
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/itsglo
   \    max-ttl: 3600\n    audit: none\n- path: /available-feed-categories\n  method: get\n  operationId: getAvailableFeedCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/api-tokens\n  method: post\n  operationId: createApiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/api-tokens\n  method: get\n  operationId: listApiTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/api-tokens\n  method: delete\n  operationId: revokeApiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /ws/feed\n  method: get\n  operationId: websocketFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/social-platform-bots\n  method: put\n  operationId: registerBot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/social-platform-bots\n  method: get\n  operationId: listBots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /user/social-platform-bots\n  method: delete\n  operationId: deleteBot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itsgloria-ai/refs/heads/main/agentic-access/itsgloria-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/itsgloria-ai/agentic-access/itsgloria-ai-agentic-access.yml
 summary_line: 20 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Company

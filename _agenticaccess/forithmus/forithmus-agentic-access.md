@@ -9,151 +9,151 @@ api_specs:
   label: Forithmus Admin API
   slug: forithmus-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-admin-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-admin-api-openapi.yml
 - filename: forithmus-auth-api-openapi.yml
   format: yaml
   label: Forithmus Auth API
   slug: forithmus-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-auth-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-auth-api-openapi.yml
 - filename: forithmus-challenges-api-openapi.yml
   format: yaml
   label: Forithmus Challenges API
   slug: forithmus-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-challenges-api-openapi.yml
 - filename: forithmus-collections-api-openapi.yml
   format: yaml
   label: Forithmus Collections API
   slug: forithmus-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-collections-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-collections-api-openapi.yml
 - filename: forithmus-credits-api-openapi.yml
   format: yaml
   label: Forithmus Credits API
   slug: forithmus-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-credits-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-credits-api-openapi.yml
 - filename: forithmus-data-upload-api-openapi.yml
   format: yaml
   label: Forithmus Data Upload API
   slug: forithmus-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-data-upload-api-openapi.yml
 - filename: forithmus-forum-api-openapi.yml
   format: yaml
   label: Forithmus Forum API
   slug: forithmus-forum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-forum-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-forum-api-openapi.yml
 - filename: forithmus-groups-api-openapi.yml
   format: yaml
   label: Forithmus Groups API
   slug: forithmus-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-groups-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-groups-api-openapi.yml
 - filename: forithmus-health-api-openapi.yml
   format: yaml
   label: Forithmus Health API
   slug: forithmus-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-health-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-health-api-openapi.yml
 - filename: forithmus-images-api-openapi.yml
   format: yaml
   label: Forithmus Images API
   slug: forithmus-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-images-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-images-api-openapi.yml
 - filename: forithmus-leaderboard-api-openapi.yml
   format: yaml
   label: Forithmus Leaderboard API
   slug: forithmus-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-leaderboard-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-leaderboard-api-openapi.yml
 - filename: forithmus-members-api-openapi.yml
   format: yaml
   label: Forithmus Members API
   slug: forithmus-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-members-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-members-api-openapi.yml
 - filename: forithmus-messages-api-openapi.yml
   format: yaml
   label: Forithmus Messages API
   slug: forithmus-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-messages-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-messages-api-openapi.yml
 - filename: forithmus-notifications-api-openapi.yml
   format: yaml
   label: Forithmus Notifications API
   slug: forithmus-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-notifications-api-openapi.yml
 - filename: forithmus-pages-api-openapi.yml
   format: yaml
   label: Forithmus Pages API
   slug: forithmus-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-pages-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-pages-api-openapi.yml
 - filename: forithmus-payments-api-openapi.yml
   format: yaml
   label: Forithmus Payments API
   slug: forithmus-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-payments-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-payments-api-openapi.yml
 - filename: forithmus-phases-api-openapi.yml
   format: yaml
   label: Forithmus Phases API
   slug: forithmus-phases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-phases-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-phases-api-openapi.yml
 - filename: forithmus-resources-api-openapi.yml
   format: yaml
   label: Forithmus Resources API
   slug: forithmus-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-resources-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-resources-api-openapi.yml
 - filename: forithmus-roles-api-openapi.yml
   format: yaml
   label: Forithmus Roles API
   slug: forithmus-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-roles-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-roles-api-openapi.yml
 - filename: forithmus-search-api-openapi.yml
   format: yaml
   label: Forithmus Search API
   slug: forithmus-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-search-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-search-api-openapi.yml
 - filename: forithmus-submissions-api-openapi.yml
   format: yaml
   label: Forithmus Submissions API
   slug: forithmus-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-submissions-api-openapi.yml
 - filename: forithmus-timeline-api-openapi.yml
   format: yaml
   label: Forithmus Timeline API
   slug: forithmus-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-timeline-api-openapi.yml
 - filename: forithmus-uploads-api-openapi.yml
   format: yaml
   label: Forithmus Uploads API
   slug: forithmus-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-uploads-api-openapi.yml
 - filename: forithmus-users-api-openapi.yml
   format: yaml
   label: Forithmus Users API
   slug: forithmus-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-users-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-users-api-openapi.yml
 - filename: forithmus-2-fa-api-openapi.yml
   format: yaml
   label: Forithmus 2 FA API
   slug: forithmus-2-fa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/openapi/forithmus-2-fa-api-openapi.yml
+  url: https://artifacts.apis.io/forithmus/openapi/forithmus-2-fa-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 84
@@ -287,8 +287,8 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/forith
   - path: /challenges/{slug}/groups/{group_id}/accept\n  method: post\n  operationId: accept_invitation_challenges__slug__groups__group_id__accept_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /challenges/{slug}/groups/{group_id}/leave\n  method: post\n  operationId: leave_group_challenges__slug__groups__group_id__leave_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /challenges/{slug}/groups/{group_id}/members/{user_id}\n  method: delete\n  operationId: remove_member_challenges__slug__groups__group_id__members__user_id__delete\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /challenges/{slug}/groups/{group_id}/request\n  method: post\n  operationId: request_join_challenges__slug__groups__group_id__request_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /challenges/{slug}/groups/{group_id}/approve/{user_id}\n  method: post\n  operationId: approve_request_challenges__slug__groups__group_id__approve__user_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /challenges/{slug}/groups/{group_id}/reject/{user_id}\n  method: post\n  operationId: reject_request_challenges__slug__groups__group_id__reject__user_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /challenges/{slug}/leaderboard\n  method: get\n  operationId: get_leaderboard_challenges__slug__leaderboard_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /challenges/{slug}/leaderboard/groups\n  method: get\n  operationId: get_group_leaderboard_challenges__slug__leaderboard_groups_get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /challenges/{slug}/pages\n  method: get\n  operationId: list_pages_challenges__slug__pages_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /challenges/{slug}/pages\n  method: post\n  operationId: create_page_challenges__slug__pages_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (70 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/agentic-access/forithmus-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/agentic-access/forithmus-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /challenges/{slug}/pages\n  method: get\n  operationId: list_pages_challenges__slug__pages_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /challenges/{slug}/pages\n  method: post\n  operationId: create_page_challenges__slug__pages_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (70 KB total) ---\n# Full source: https://artifacts.apis.io/forithmus/agentic-access/forithmus-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/forithmus/agentic-access/forithmus-agentic-access.yml
 summary_line: 213 operations · 129 acting · 3 human-in-the-loop
 tags:
 - Medical Imaging

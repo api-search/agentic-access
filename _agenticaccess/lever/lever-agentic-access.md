@@ -4,120 +4,186 @@ action_class_counts:
   acting: 18
   connected: 37
 api_specs:
+- filename: lever-candidates-api-openapi.yml
+  format: yaml
+  label: Lever Candidates API
+  slug: lever-candidates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-candidates-api-openapi.yml
+- filename: lever-feedback-templates-api-openapi.yml
+  format: yaml
+  label: Lever Feedback Templates API
+  slug: lever-feedback-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-feedback-templates-api-openapi.yml
+- filename: lever-webhooks-api-openapi.yml
+  format: yaml
+  label: Lever Webhooks API
+  slug: lever-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-webhooks-api-openapi.yml
 - filename: lever-applications-api-openapi.yml
   format: yaml
   label: Lever Applications API
   slug: lever-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-applications-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-applications-api-openapi.yml
 - filename: lever-contacts-api-openapi.yml
   format: yaml
   label: Lever Contacts API
   slug: lever-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-contacts-api-openapi.yml
 - filename: lever-eeo-api-openapi.yml
   format: yaml
   label: Lever EEO API
   slug: lever-eeo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-eeo-api-openapi.yml
-- filename: lever-feedback-api-openapi.yml
-  format: yaml
-  label: Lever Feedback API
-  slug: lever-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-eeo-api-openapi.yml
 - filename: lever-files-api-openapi.yml
   format: yaml
   label: Lever Files API
   slug: lever-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-files-api-openapi.yml
-- filename: lever-forms-api-openapi.yml
-  format: yaml
-  label: Lever Forms API
-  slug: lever-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-forms-api-openapi.yml
-- filename: lever-interviews-api-openapi.yml
-  format: yaml
-  label: Lever Interviews API
-  slug: lever-interviews-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-interviews-api-openapi.yml
-- filename: lever-notes-api-openapi.yml
-  format: yaml
-  label: Lever Notes API
-  slug: lever-notes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-notes-api-openapi.yml
-- filename: lever-offers-api-openapi.yml
-  format: yaml
-  label: Lever Offers API
-  slug: lever-offers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-offers-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-files-api-openapi.yml
 - filename: lever-opportunities-api-openapi.yml
   format: yaml
   label: Lever Opportunities API
   slug: lever-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-opportunities-api-openapi.yml
 - filename: lever-postings-api-openapi.yml
   format: yaml
   label: Lever Postings API
   slug: lever-postings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-postings-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-postings-api-openapi.yml
 - filename: lever-requisitions-api-openapi.yml
   format: yaml
   label: Lever Requisitions API
   slug: lever-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-requisitions-api-openapi.yml
-- filename: lever-resumes-api-openapi.yml
-  format: yaml
-  label: Lever Resumes API
-  slug: lever-resumes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-resumes-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-requisitions-api-openapi.yml
 - filename: lever-sources-api-openapi.yml
   format: yaml
   label: Lever Sources API
   slug: lever-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-sources-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-sources-api-openapi.yml
 - filename: lever-stages-api-openapi.yml
   format: yaml
   label: Lever Stages API
   slug: lever-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-stages-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-stages-api-openapi.yml
 - filename: lever-tags-api-openapi.yml
   format: yaml
   label: Lever Tags API
   slug: lever-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-tags-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-tags-api-openapi.yml
 - filename: lever-users-api-openapi.yml
   format: yaml
   label: Lever Users API
   slug: lever-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-users-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-users-api-openapi.yml
 - filename: lever-archive-reasons-api-openapi.yml
   format: yaml
   label: Lever Archive Reasons API
   slug: lever-archive-reasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-archive-reasons-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-archive-reasons-api-openapi.yml
 - filename: lever-audit-events-api-openapi.yml
   format: yaml
   label: Lever Audit Events API
   slug: lever-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/openapi/lever-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/lever/openapi/lever-audit-events-api-openapi.yml
+- filename: lever-candidates-api-openapi.yml
+  format: yaml
+  label: Lever Candidates API
+  slug: lever-candidates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-candidates-api-openapi.yml
+- filename: lever-disposition-stages-api-openapi.yml
+  format: yaml
+  label: Lever Disposition Stages API
+  slug: lever-disposition-stages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-disposition-stages-api-openapi.yml
+- filename: lever-feedback-templates-api-openapi.yml
+  format: yaml
+  label: Lever Feedback Templates API
+  slug: lever-feedback-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-feedback-templates-api-openapi.yml
+- filename: lever-form-templates-api-openapi.yml
+  format: yaml
+  label: Lever Form Templates API
+  slug: lever-form-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-form-templates-api-openapi.yml
+- filename: lever-profile-forms-api-openapi.yml
+  format: yaml
+  label: Lever Profile Forms API
+  slug: lever-profile-forms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-profile-forms-api-openapi.yml
+- filename: lever-requisition-fields-api-openapi.yml
+  format: yaml
+  label: Lever Requisition Fields API
+  slug: lever-requisition-fields-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-requisition-fields-api-openapi.yml
+- filename: lever-surveys-api-openapi.yml
+  format: yaml
+  label: Lever Surveys API
+  slug: lever-surveys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-surveys-api-openapi.yml
+- filename: lever-webhooks-api-openapi.yml
+  format: yaml
+  label: Lever Webhooks API
+  slug: lever-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-webhooks-api-openapi.yml
+- filename: lever-feedback-api-openapi.yml
+  format: yaml
+  label: Lever Feedback API
+  slug: lever-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-feedback-api-openapi.yml
+- filename: lever-forms-api-openapi.yml
+  format: yaml
+  label: Lever Forms API
+  slug: lever-forms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-forms-api-openapi.yml
+- filename: lever-interviews-api-openapi.yml
+  format: yaml
+  label: Lever Interviews API
+  slug: lever-interviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-interviews-api-openapi.yml
+- filename: lever-notes-api-openapi.yml
+  format: yaml
+  label: Lever Notes API
+  slug: lever-notes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-notes-api-openapi.yml
+- filename: lever-offers-api-openapi.yml
+  format: yaml
+  label: Lever Offers API
+  slug: lever-offers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-offers-api-openapi.yml
+- filename: lever-resumes-api-openapi.yml
+  format: yaml
+  label: Lever Resumes API
+  slug: lever-resumes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-resumes-api-openapi.yml
 consequence_counts:
   read: 37
   write: 18
@@ -157,7 +223,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lever-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stages/{stage}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disposition_stages\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /archive_reasons\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /archive_reasons/{archive_reason}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile_forms\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user}\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit_events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eeo/responses\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eeo/responses/pii\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/agentic-access/lever-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lever/agentic-access/lever-agentic-access.yml
 summary_line: 55 operations · 18 acting
 tags:
 - Human Resources

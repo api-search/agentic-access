@@ -9,37 +9,37 @@ api_specs:
   label: QuestDB Chk API
   slug: questdb-chk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-chk-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-chk-api-openapi.yml
 - filename: questdb-exec-api-openapi.yml
   format: yaml
   label: QuestDB Exec API
   slug: questdb-exec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-exec-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-exec-api-openapi.yml
 - filename: questdb-exp-api-openapi.yml
   format: yaml
   label: QuestDB Exp API
   slug: questdb-exp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-exp-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-exp-api-openapi.yml
 - filename: questdb-imp-api-openapi.yml
   format: yaml
   label: QuestDB Imp API
   slug: questdb-imp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-imp-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-imp-api-openapi.yml
 - filename: questdb-settings-api-openapi.yml
   format: yaml
   label: QuestDB Settings API
   slug: questdb-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-settings-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-settings-api-openapi.yml
 - filename: questdb-write-api-openapi.yml
   format: yaml
   label: QuestDB Write API
   slug: questdb-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-write-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-write-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -67,7 +67,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/questdb-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 4\n    acting: 2\n  by_consequence:\n    read: 4\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /exec\n  method: get\n  operationId: execQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /imp\n  method: post\n  operationId: importCsv\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /exp\n  method: get\n  operationId: exportCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chk\n  method: get\n  operationId: checkTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /write\n  method: post\n  operationId: ilpWrite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings\n  method: get\n  operationId: getSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/agentic-access/questdb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/questdb/agentic-access/questdb-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Database

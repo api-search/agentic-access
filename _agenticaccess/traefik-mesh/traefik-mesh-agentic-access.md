@@ -8,19 +8,19 @@ api_specs:
   label: Traefik Mesh Configuration API
   slug: traefik-mesh-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/traefik-mesh/openapi/traefik-mesh-configuration-api-openapi.yml
 - filename: traefik-mesh-status-api-openapi.yml
   format: yaml
   label: Traefik Mesh Status API
   slug: traefik-mesh-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-status-api-openapi.yml
+  url: https://artifacts.apis.io/traefik-mesh/openapi/traefik-mesh-status-api-openapi.yml
 - filename: traefik-mesh-topology-api-openapi.yml
   format: yaml
   label: Traefik Mesh Topology API
   slug: traefik-mesh-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-topology-api-openapi.yml
+  url: https://artifacts.apis.io/traefik-mesh/openapi/traefik-mesh-topology-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/traefik-mesh-controller-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /api/configuration/current\n  method: get\n  operationId: getCurrentConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/topology/current\n  method: get\n  operationId: getCurrentTopology\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/status/nodes\n\
   \  method: get\n  operationId: getMeshNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/status/node/{node}/configuration\n  method: get\n  operationId: getMeshNodeConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/status/readiness\n  method: get\n  operationId: getReadiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/agentic-access/traefik-mesh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/traefik-mesh/agentic-access/traefik-mesh-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Kubernetes

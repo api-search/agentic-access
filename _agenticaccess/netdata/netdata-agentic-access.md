@@ -9,13 +9,13 @@ api_specs:
   label: Netdata Alerts API
   slug: netdata-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/netdata/openapi/netdata-alerts-api-openapi.yml
 - filename: netdata-charts-api-openapi.yml
   format: yaml
   label: Netdata Charts API
   slug: netdata-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/openapi/netdata-charts-api-openapi.yml
+  url: https://artifacts.apis.io/netdata/openapi/netdata-charts-api-openapi.yml
 consequence_counts:
   read: 2
   write: 5
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/netdat
   \  method: post\n  operationId: create-silencing-rule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/spaces/{spaceID}/notifications/silencing/rule/ruleID\n  method: put\n  operationId: update-silencing-rule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/spaces/{spaceID}/notifications/silencing/rules\n  method: get\n  operationId: get-silencing-rules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v2/spaces/{spaceID}/notifications/silencing/rules/delete\n  method: post\n  operationId: delete-silencing-rules\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/spaces/{spaceID}/rooms/{roomID}/alerts:misconfigured\n  method: post\n  operationId: get-room-alerts-misconfigured\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/spaces/{spaceID}/rooms/{roomID}/data\n  method: post\n  operationId: post-scope-data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/agentic-access/netdata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/netdata/agentic-access/netdata-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
 - Monitoring

@@ -9,25 +9,25 @@ api_specs:
   label: Doctave Deployments API
   slug: doctave-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/doctave/openapi/doctave-deployments-api-openapi.yml
 - filename: doctave-pages-api-openapi.yml
   format: yaml
   label: Doctave Pages API
   slug: doctave-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-pages-api-openapi.yml
+  url: https://artifacts.apis.io/doctave/openapi/doctave-pages-api-openapi.yml
 - filename: doctave-search-api-openapi.yml
   format: yaml
   label: Doctave Search API
   slug: doctave-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-search-api-openapi.yml
+  url: https://artifacts.apis.io/doctave/openapi/doctave-search-api-openapi.yml
 - filename: doctave-sites-api-openapi.yml
   format: yaml
   label: Doctave Sites API
   slug: doctave-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/openapi/doctave-sites-api-openapi.yml
+  url: https://artifacts.apis.io/doctave/openapi/doctave-sites-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/doctav
   \ /sites/{siteId}/deployments\n  method: get\n  operationId: listDeployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteId}/deployments\n  method: post\n  operationId: createDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{siteId}/deployments/{deploymentId}\n  method: get\n  operationId: getDeployment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteId}/pages\n  method: get\n  operationId: listPages\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteId}/pages\n  method: post\n  operationId: createPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{siteId}/pages/{pageId}\n  method: get\n  operationId: getPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteId}/pages/{pageId}\n  method: put\n  operationId: updatePage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /sites/{siteId}/pages/{pageId}\n  method: delete\n  operationId: deletePage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{siteId}/search\n  method: get\n  operationId: searchSite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/agentic-access/doctave-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/doctave/agentic-access/doctave-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Documentation

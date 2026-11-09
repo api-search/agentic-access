@@ -9,85 +9,85 @@ api_specs:
   label: Veem Attachment Controller API
   slug: veem-attachment-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-attachment-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-attachment-controller-api-openapi.yml
 - filename: veem-bank-account-controller-api-openapi.yml
   format: yaml
   label: Veem Bank Account Controller API
   slug: veem-bank-account-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-bank-account-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-bank-account-controller-api-openapi.yml
 - filename: veem-beneficial-owner-information-controller-api-openapi.yml
   format: yaml
   label: Veem Beneficial Owner Information Controller API
   slug: veem-beneficial-owner-information-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-beneficial-owner-information-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-beneficial-owner-information-controller-api-openapi.yml
 - filename: veem-claimless-payment-controller-api-openapi.yml
   format: yaml
   label: Veem Claimless Payment Controller API
   slug: veem-claimless-payment-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-claimless-payment-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-claimless-payment-controller-api-openapi.yml
 - filename: veem-contact-controller-api-openapi.yml
   format: yaml
   label: Veem Contact Controller API
   slug: veem-contact-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-contact-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-contact-controller-api-openapi.yml
 - filename: veem-crypto-wallet-controller-api-openapi.yml
   format: yaml
   label: Veem Crypto Wallet Controller API
   slug: veem-crypto-wallet-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-crypto-wallet-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-crypto-wallet-controller-api-openapi.yml
 - filename: veem-customer-controller-api-openapi.yml
   format: yaml
   label: Veem Customer Controller API
   slug: veem-customer-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-customer-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-customer-controller-api-openapi.yml
 - filename: veem-exchange-rate-controller-api-openapi.yml
   format: yaml
   label: Veem Exchange Rate Controller API
   slug: veem-exchange-rate-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-exchange-rate-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-exchange-rate-controller-api-openapi.yml
 - filename: veem-invoice-controller-api-openapi.yml
   format: yaml
   label: Veem Invoice Controller API
   slug: veem-invoice-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-invoice-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-invoice-controller-api-openapi.yml
 - filename: veem-meta-controller-api-openapi.yml
   format: yaml
   label: Veem Meta Controller API
   slug: veem-meta-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-meta-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-meta-controller-api-openapi.yml
 - filename: veem-open-account-controller-api-openapi.yml
   format: yaml
   label: Veem Open Account Controller API
   slug: veem-open-account-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-open-account-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-open-account-controller-api-openapi.yml
 - filename: veem-payment-controller-api-openapi.yml
   format: yaml
   label: Veem Payment Controller API
   slug: veem-payment-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-payment-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-payment-controller-api-openapi.yml
 - filename: veem-wallet-controller-api-openapi.yml
   format: yaml
   label: Veem Wallet Controller API
   slug: veem-wallet-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-wallet-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-wallet-controller-api-openapi.yml
 - filename: veem-webhook-controller-api-openapi.yml
   format: yaml
   label: Veem Webhook Controller API
   slug: veem-webhook-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/openapi/veem-webhook-controller-api-openapi.yml
+  url: https://artifacts.apis.io/veem/openapi/veem-webhook-controller-api-openapi.yml
 consequence_counts:
   read: 25
   safety-critical: 25
@@ -259,7 +259,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/veem-a
   \    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /veem/v1.0/payments/wallet/withdraw\n  method: post\n  operationId: walletWithdrawUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /veem/v1.2/wallets\n  method: get\n  operationId: getFundingMethodsUsingGET_3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /veem/v1.2/wallets/{walletId}\n  method: get\n  operationId: getFundingMethodsUsingGET_6\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /veem/v1.2/webhooks\n  method: post\n  operationId: createWebhookUsingPOST_2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /veem/v1.2/webhooks\n  method: get\n  operationId: getWebhooksUsingGET_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /veem/v1.2/webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhookUsingDELETE_2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n\
   \      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /veem/v1.2/webhooks/{webhookId}\n  method: get\n  operationId: getWebhookUsingGET_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /veem/v1.2/webhooks/{webhookId}\n  method: patch\n  operationId: updateWebhookUsingPATCH_2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/agentic-access/veem-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/veem/agentic-access/veem-agentic-access.yml
 summary_line: 50 operations · 25 acting · 25 human-in-the-loop
 tags:
 - Payments

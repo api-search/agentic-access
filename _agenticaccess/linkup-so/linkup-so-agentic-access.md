@@ -9,25 +9,49 @@ api_specs:
   label: Linkup Credits API
   slug: linkup-so-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-credits-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-credits-api-openapi.yml
 - filename: linkup-so-fetch-api-openapi.yml
   format: yaml
   label: Linkup Fetch API
   slug: linkup-so-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-fetch-api-openapi.yml
 - filename: linkup-so-research-api-openapi.yml
   format: yaml
   label: Linkup Research API
   slug: linkup-so-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-research-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-research-api-openapi.yml
 - filename: linkup-so-search-api-openapi.yml
   format: yaml
   label: Linkup Search API
   slug: linkup-so-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/openapi/linkup-so-search-api-openapi.yml
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-search-api-openapi.yml
+- filename: linkup-so-extract-api-openapi.yml
+  format: yaml
+  label: Linkup Extract API
+  slug: linkup-so-extract-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-extract-api-openapi.yml
+- filename: linkup-so-responses-api-openapi.yml
+  format: yaml
+  label: Linkup Responses API
+  slug: linkup-so-responses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-responses-api-openapi.yml
+- filename: linkup-so-rewind-api-openapi.yml
+  format: yaml
+  label: Linkup Rewind API
+  slug: linkup-so-rewind-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-rewind-api-openapi.yml
+- filename: linkup-so-tasks-api-openapi.yml
+  format: yaml
+  label: Linkup Tasks API
+  slug: linkup-so-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-tasks-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -55,7 +79,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/linkup-so-credits-api-openapi.yml, openapi/linkup-so-fetch-api-openapi.yml,\n  openapi/linkup-so-research-api-openapi.yml, openapi/linkup-so-search-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /credits/balance\n  method: get\n  operationId: getCreditsBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fetch\n  method: post\n  operationId: fetch\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /research\n  method: post\n  operationId: createResearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /research/{id}\n  method: get\n  operationId: getResearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/agentic-access/linkup-so-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/linkup-so/agentic-access/linkup-so-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Artificial Intelligence

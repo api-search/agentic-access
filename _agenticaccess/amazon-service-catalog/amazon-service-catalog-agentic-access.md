@@ -9,19 +9,73 @@ api_specs:
   label: Amazon Service Catalog Portfolios API
   slug: amazon-service-catalog-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/openapi/amazon-service-catalog-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-portfolios-api-openapi.yml
 - filename: amazon-service-catalog-products-api-openapi.yml
   format: yaml
   label: Amazon Service Catalog Products API
   slug: amazon-service-catalog-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/openapi/amazon-service-catalog-products-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-products-api-openapi.yml
 - filename: amazon-service-catalog-provisioned-products-api-openapi.yml
   format: yaml
   label: Amazon Service Catalog Provisioned Products API
   slug: amazon-service-catalog-provisioned-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/openapi/amazon-service-catalog-provisioned-products-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-provisioned-products-api-openapi.yml
+- filename: amazon-service-catalog-budget-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Service Catalog Budget API
+  slug: amazon-service-catalog-budget-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-budget-api-openapi.yml
+- filename: amazon-service-catalog-constraint-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Service Catalog Constraint API
+  slug: amazon-service-catalog-constraint-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-constraint-api-openapi.yml
+- filename: amazon-service-catalog-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Service Catalog Operations API
+  slug: amazon-service-catalog-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-operations-api-openapi.yml
+- filename: amazon-service-catalog-portfolio-share-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Service Catalog Portfolio Share API
+  slug: amazon-service-catalog-portfolio-share-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-portfolio-share-api-openapi.yml
+- filename: amazon-service-catalog-principal-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Service Catalog Principal API
+  slug: amazon-service-catalog-principal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-principal-api-openapi.yml
+- filename: amazon-service-catalog-provisioned-product-plan-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Service Catalog Provisioned Product Plan API
+  slug: amazon-service-catalog-provisioned-product-plan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-provisioned-product-plan-api-openapi.yml
+- filename: amazon-service-catalog-provisioning-artifact-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Service Catalog Provisioning Artifact API
+  slug: amazon-service-catalog-provisioning-artifact-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-provisioning-artifact-api-openapi.yml
+- filename: amazon-service-catalog-service-action-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Service Catalog Service Action API
+  slug: amazon-service-catalog-service-action-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-service-action-api-openapi.yml
+- filename: amazon-service-catalog-tag-option-api-openapi.yml
+  format: yaml
+  label: Amazon Service Catalog Service Catalog Tag Option API
+  slug: amazon-service-catalog-tag-option-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-service-catalog/openapi/amazon-service-catalog-tag-option-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -66,9 +120,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{PortfolioId}\n  method: get\n  operationId: DescribePortfolio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/{PortfolioId}\n  method: delete\n  operationId: DeletePortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products\n  method: get\n  operationId: SearchProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: post\n  operationId: CreateProduct\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /provisioned-products\n  method: post\n  operationId: ProvisionProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /provisioned-products/{ProvisionedProductId}\n  method: get\n  operationId: DescribeProvisionedProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /provisioned-products/{ProvisionedProductId}\n\
   \  method: delete\n  operationId: TerminateProvisionedProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/agentic-access/amazon-service-catalog-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-service-catalog/agentic-access/amazon-service-catalog-agentic-access.yml
 summary_line: 9 operations · 5 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Cloud Governance
 - Compliance
 - IT Governance

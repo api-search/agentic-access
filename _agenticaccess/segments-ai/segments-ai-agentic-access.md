@@ -9,31 +9,31 @@ api_specs:
   label: Segments.ai Datasets API
   slug: segments-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-datasets-api-openapi.yml
 - filename: segments-ai-labels-api-openapi.yml
   format: yaml
   label: Segments.ai Labels API
   slug: segments-ai-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-labels-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-labels-api-openapi.yml
 - filename: segments-ai-releases-api-openapi.yml
   format: yaml
   label: Segments.ai Releases API
   slug: segments-ai-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-releases-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-releases-api-openapi.yml
 - filename: segments-ai-samples-api-openapi.yml
   format: yaml
   label: Segments.ai Samples API
   slug: segments-ai-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-samples-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-samples-api-openapi.yml
 - filename: segments-ai-label-sets-api-openapi.yml
   format: yaml
   label: Segments.ai Label Sets API
   slug: segments-ai-label-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/openapi/segments-ai-label-sets-api-openapi.yml
+  url: https://artifacts.apis.io/segments-ai/openapi/segments-ai-label-sets-api-openapi.yml
 consequence_counts:
   read: 10
   write: 13
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/segmen
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{owner}/{dataset}/labelsets\n  method: get\n  operationId: listLabelsets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{owner}/{dataset}/labelsets\n  method: post\n  operationId: createLabelset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{owner}/{dataset}/labelsets/{name}\n  method: get\n  operationId: getLabelset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{owner}/{dataset}/labelsets/{name}\n\
   \  method: delete\n  operationId: deleteLabelset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{owner}/{dataset}/releases\n  method: get\n  operationId: listReleases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{owner}/{dataset}/releases\n  method: post\n  operationId: createRelease\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{owner}/{dataset}/releases/{release_name}\n  method:\
   \ get\n  operationId: getRelease\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{owner}/{dataset}/releases/{release_name}\n  method: delete\n  operationId: deleteRelease\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/agentic-access/segments-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/segments-ai/agentic-access/segments-ai-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - Data Labeling

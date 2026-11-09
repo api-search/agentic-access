@@ -9,55 +9,55 @@ api_specs:
   label: D-ID Agents API
   slug: d-id-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-agents-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-agents-api-openapi.yml
 - filename: d-id-chat-api-openapi.yml
   format: yaml
   label: D-ID Chat API
   slug: d-id-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-chat-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-chat-api-openapi.yml
 - filename: d-id-credits-api-openapi.yml
   format: yaml
   label: D-ID Credits API
   slug: d-id-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-credits-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-credits-api-openapi.yml
 - filename: d-id-knowledge-api-openapi.yml
   format: yaml
   label: D-ID Knowledge API
   slug: d-id-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-knowledge-api-openapi.yml
 - filename: d-id-sessions-api-openapi.yml
   format: yaml
   label: D-ID Sessions API
   slug: d-id-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-sessions-api-openapi.yml
 - filename: d-id-talks-api-openapi.yml
   format: yaml
   label: D-ID Talks API
   slug: d-id-talks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-talks-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-talks-api-openapi.yml
 - filename: d-id-translations-api-openapi.yml
   format: yaml
   label: D-ID Translations API
   slug: d-id-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-translations-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-translations-api-openapi.yml
 - filename: d-id-videos-v4-api-openapi.yml
   format: yaml
   label: D-ID Videos V4 API
   slug: d-id-videos-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-videos-v4-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-videos-v4-api-openapi.yml
 - filename: d-id-voices-api-openapi.yml
   format: yaml
   label: D-ID Voices API
   slug: d-id-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/openapi/d-id-voices-api-openapi.yml
+  url: https://artifacts.apis.io/d-id/openapi/d-id-voices-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/d-id-a
   \      - high-value\n    audit: required\n- path: /videos\n  method: get\n  operationId: listv4videos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos\n  method: post\n  operationId: createv4video\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{id}\n  method: get\n  operationId: getv4video\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/{id}\n  method: delete\n  operationId: deletev4video\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /translations\n  method: get\n  operationId: getvideotranslates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translations\n  method: post\n  operationId: createvideotranslate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /translations/{id}\n  method: get\n  operationId: getvideotranslate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translations/{id}\n  method: delete\n  operationId:\
   \ deletevideotranslate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tts/voices\n  method: get\n  operationId: voices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credits\n  method: get\n  operationId: getcredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/agentic-access/d-id-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/d-id/agentic-access/d-id-agentic-access.yml
 summary_line: 32 operations · 16 acting
 tags:
 - Avatars

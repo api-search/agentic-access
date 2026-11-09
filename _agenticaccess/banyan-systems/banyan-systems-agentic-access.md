@@ -9,61 +9,61 @@ api_specs:
   label: Banyan Systems Authentication API
   slug: banyan-systems-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-authentication-api-openapi.yml
 - filename: banyan-systems-card-linked-offer-api-openapi.yml
   format: yaml
   label: Banyan Systems Card Linked Offer API
   slug: banyan-systems-card-linked-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-card-linked-offer-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-card-linked-offer-api-openapi.yml
 - filename: banyan-systems-consent-api-openapi.yml
   format: yaml
   label: Banyan Systems Consent API
   slug: banyan-systems-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-consent-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-consent-api-openapi.yml
 - filename: banyan-systems-enriched-data-api-openapi.yml
   format: yaml
   label: Banyan Systems Enriched Data API
   slug: banyan-systems-enriched-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-enriched-data-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-enriched-data-api-openapi.yml
 - filename: banyan-systems-enriched-data-merchant-service-provider-api-openapi.yml
   format: yaml
   label: Banyan Systems Enriched Data - Merchant Service Provider API
   slug: banyan-systems-enriched-data-merchant-service-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-enriched-data-merchant-service-provider-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-enriched-data-merchant-service-provider-api-openapi.yml
 - filename: banyan-systems-history-api-openapi.yml
   format: yaml
   label: Banyan Systems History API
   slug: banyan-systems-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-history-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-history-api-openapi.yml
 - filename: banyan-systems-receipt-api-openapi.yml
   format: yaml
   label: Banyan Systems Receipt API
   slug: banyan-systems-receipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-receipt-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-receipt-api-openapi.yml
 - filename: banyan-systems-tag-counter-api-openapi.yml
   format: yaml
   label: Banyan Systems Tag Counter API
   slug: banyan-systems-tag-counter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-tag-counter-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-tag-counter-api-openapi.yml
 - filename: banyan-systems-transaction-api-openapi.yml
   format: yaml
   label: Banyan Systems Transaction API
   slug: banyan-systems-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-transaction-api-openapi.yml
 - filename: banyan-systems-webhook-api-openapi.yml
   format: yaml
   label: Banyan Systems Webhook API
   slug: banyan-systems-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-webhook-api-openapi.yml
 consequence_counts:
   read: 23
   write: 17
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/banyan
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook/endpoint/{endpoint_id}\n  method: put\n  operationId: update-webhook-endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook/events\n  method: get\n  operationId: get-webhook-event-types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook/{application_id}\n  method: delete\n  operationId: delete-webhook-application\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook/{application_id}\n  method: get\n  operationId: retrieve-webhook-application\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/consent/\n  method: post\n  operationId: create-consent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/consent/search\n  method: post\n  operationId: search-consent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/consent/{byn_consent_id}\n  method: get\n  operationId: get-consent\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/agentic-access/banyan-systems-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/banyan-systems/agentic-access/banyan-systems-agentic-access.yml
 summary_line: 40 operations · 17 acting
 tags:
 - Company

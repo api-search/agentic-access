@@ -9,139 +9,139 @@ api_specs:
   label: 7digital Artists API
   slug: 7digital-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-artists-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-artists-api-openapi.yml
 - filename: 7digital-basket-api-openapi.yml
   format: yaml
   label: 7digital Basket API
   slug: 7digital-basket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-basket-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-basket-api-openapi.yml
 - filename: 7digital-catalogue-api-openapi.yml
   format: yaml
   label: 7digital Catalogue API
   slug: 7digital-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-catalogue-api-openapi.yml
 - filename: 7digital-content-delivery-api-openapi.yml
   format: yaml
   label: 7digital Content Delivery API
   slug: 7digital-content-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-content-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-content-delivery-api-openapi.yml
 - filename: 7digital-download-purchases-api-openapi.yml
   format: yaml
   label: 7digital Download Purchases API
   slug: 7digital-download-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-download-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-download-purchases-api-openapi.yml
 - filename: 7digital-editorial-api-openapi.yml
   format: yaml
   label: 7digital Editorial API
   slug: 7digital-editorial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-editorial-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-editorial-api-openapi.yml
 - filename: 7digital-interactive-radio-api-openapi.yml
   format: yaml
   label: 7digital Interactive Radio API
   slug: 7digital-interactive-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-interactive-radio-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-interactive-radio-api-openapi.yml
 - filename: 7digital-logging-api-openapi.yml
   format: yaml
   label: 7digital Logging API
   slug: 7digital-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-logging-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-logging-api-openapi.yml
 - filename: 7digital-offline-devices-api-openapi.yml
   format: yaml
   label: 7digital Offline Devices API
   slug: 7digital-offline-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-offline-devices-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-offline-devices-api-openapi.yml
 - filename: 7digital-payment-api-openapi.yml
   format: yaml
   label: 7digital Payment API
   slug: 7digital-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-payment-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-payment-api-openapi.yml
 - filename: 7digital-playlists-api-openapi.yml
   format: yaml
   label: 7digital Playlists API
   slug: 7digital-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-playlists-api-openapi.yml
 - filename: 7digital-releases-api-openapi.yml
   format: yaml
   label: 7digital Releases API
   slug: 7digital-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-releases-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-releases-api-openapi.yml
 - filename: 7digital-sales-api-openapi.yml
   format: yaml
   label: 7digital Sales API
   slug: 7digital-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-sales-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-sales-api-openapi.yml
 - filename: 7digital-streaming-api-openapi.yml
   format: yaml
   label: 7digital Streaming API
   slug: 7digital-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-streaming-api-openapi.yml
 - filename: 7digital-subscriptions-api-openapi.yml
   format: yaml
   label: 7digital Subscriptions API
   slug: 7digital-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-subscriptions-api-openapi.yml
 - filename: 7digital-tags-api-openapi.yml
   format: yaml
   label: 7digital Tags API
   slug: 7digital-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-tags-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-tags-api-openapi.yml
 - filename: 7digital-territories-api-openapi.yml
   format: yaml
   label: 7digital Territories API
   slug: 7digital-territories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-territories-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-territories-api-openapi.yml
 - filename: 7digital-tracks-api-openapi.yml
   format: yaml
   label: 7digital Tracks API
   slug: 7digital-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-tracks-api-openapi.yml
 - filename: 7digital-translations-api-openapi.yml
   format: yaml
   label: 7digital Translations API
   slug: 7digital-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-translations-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-translations-api-openapi.yml
 - filename: 7digital-user-api-openapi.yml
   format: yaml
   label: 7digital User API
   slug: 7digital-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-user-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-user-api-openapi.yml
 - filename: 7digital-user-management-api-openapi.yml
   format: yaml
   label: 7digital User Management API
   slug: 7digital-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-user-management-api-openapi.yml
 - filename: 7digital-users-api-openapi.yml
   format: yaml
   label: 7digital Users API
   slug: 7digital-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-users-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-users-api-openapi.yml
 - filename: 7digital-ip-lookup-api-openapi.yml
   format: yaml
   label: 7digital IP Lookup API
   slug: 7digital-ip-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/openapi/7digital-ip-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/7digital/openapi/7digital-ip-lookup-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 83
@@ -237,7 +237,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/7digit
   \     - high-value\n    audit: required\n- path: /user/payment/cardregistration/{id}\n  method: get\n  operationId: getUserCardRegistration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/deliveritem\n  method: get\n  operationId: deliverUserItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/signup\n  method: post\n  operationId: signupUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/create\n  method: get\n  operationId: createUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/details\n  method: get\n  operationId: getUserDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/authenticate\n  method: post\n  operationId: authenticateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId:\
   \ findUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/update\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/agentic-access/7digital-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/7digital/agentic-access/7digital-agentic-access.yml
 summary_line: 107 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Music

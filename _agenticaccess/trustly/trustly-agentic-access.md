@@ -9,73 +9,73 @@ api_specs:
   label: Trustly Group Accounts API
   slug: trustly-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-accounts-api-openapi.yml
 - filename: trustly-api-api-openapi.yml
   format: yaml
   label: Trustly Group API
   slug: trustly-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-api-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-api-api-openapi.yml
 - filename: trustly-countries-api-openapi.yml
   format: yaml
   label: Trustly Group Countries API
   slug: trustly-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-countries-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-countries-api-openapi.yml
 - filename: trustly-customers-api-openapi.yml
   format: yaml
   label: Trustly Group Customers API
   slug: trustly-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-customers-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-customers-api-openapi.yml
 - filename: trustly-identity-api-openapi.yml
   format: yaml
   label: Trustly Group Identity API
   slug: trustly-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-identity-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-identity-api-openapi.yml
 - filename: trustly-networkcheckapi-api-openapi.yml
   format: yaml
   label: Trustly Group Network Check API
   slug: trustly-networkcheckapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-networkcheckapi-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-networkcheckapi-api-openapi.yml
 - filename: trustly-payments-api-openapi.yml
   format: yaml
   label: Trustly Group Payments API
   slug: trustly-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-payments-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-payments-api-openapi.yml
 - filename: trustly-transactions-api-openapi.yml
   format: yaml
   label: Trustly Group Transactions API
   slug: trustly-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-transactions-api-openapi.yml
 - filename: trustly-verifycustomer-api-openapi.yml
   format: yaml
   label: Trustly Group Verify Customer API
   slug: trustly-verifycustomer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-verifycustomer-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-verifycustomer-api-openapi.yml
 - filename: trustly-account-data-api-openapi.yml
   format: yaml
   label: Trustly Group Account Data API
   slug: trustly-account-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-account-data-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-account-data-api-openapi.yml
 - filename: trustly-dispute-management-api-openapi.yml
   format: yaml
   label: Trustly Group Dispute Management API
   slug: trustly-dispute-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-dispute-management-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-dispute-management-api-openapi.yml
 - filename: trustly-payment-providers-api-openapi.yml
   format: yaml
   label: Trustly Group Payment Providers API
   slug: trustly-payment-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/openapi/trustly-payment-providers-api-openapi.yml
+  url: https://artifacts.apis.io/trustly/openapi/trustly-payment-providers-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/trustl
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /establish\n  method: post\n  operationId: transactions_post-establish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  operationId: transactions_list-transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transactionId}/capture/preAuth\n  method: post\n  operationId: transactions_post-transactions-transactionId-capture-preauth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}/reclaim\n  method: post\n  operationId: transactions_post-transactions-transactionId-reclaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}/refresh\n  method: post\n  operationId: transactions_post-transactions-refresh\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}/refund\n\
   \  method: post\n  operationId: transactions_post-transactions-refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}\n  method: get\n  operationId: transactions_get-transaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transactionId}/payment/customer/verify\n  method: get\n  operationId: verifyCustomer_get-verify-customer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustly/refs/heads/main/agentic-access/trustly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trustly/agentic-access/trustly-agentic-access.yml
 summary_line: 31 operations · 15 acting
 tags:
 - Company

@@ -9,43 +9,43 @@ api_specs:
   label: Propeller Aero Organizations API
   slug: propeller-aero-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/propeller-aero/openapi/propeller-aero-organizations-api-openapi.yml
 - filename: propeller-aero-position-monitoring-api-openapi.yml
   format: yaml
   label: Propeller Aero Position Monitoring API
   slug: propeller-aero-position-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-position-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/propeller-aero/openapi/propeller-aero-position-monitoring-api-openapi.yml
 - filename: propeller-aero-shapes-api-openapi.yml
   format: yaml
   label: Propeller Aero Shapes API
   slug: propeller-aero-shapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-shapes-api-openapi.yml
+  url: https://artifacts.apis.io/propeller-aero/openapi/propeller-aero-shapes-api-openapi.yml
 - filename: propeller-aero-sites-api-openapi.yml
   format: yaml
   label: Propeller Aero Sites API
   slug: propeller-aero-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-sites-api-openapi.yml
+  url: https://artifacts.apis.io/propeller-aero/openapi/propeller-aero-sites-api-openapi.yml
 - filename: propeller-aero-surveys-api-openapi.yml
   format: yaml
   label: Propeller Aero Surveys API
   slug: propeller-aero-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/propeller-aero/openapi/propeller-aero-surveys-api-openapi.yml
 - filename: propeller-aero-widgets-api-openapi.yml
   format: yaml
   label: Propeller Aero Widgets API
   slug: propeller-aero-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/propeller-aero/openapi/propeller-aero-widgets-api-openapi.yml
 - filename: propeller-aero-workspaces-api-openapi.yml
   format: yaml
   label: Propeller Aero Workspaces API
   slug: propeller-aero-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/openapi/propeller-aero-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/propeller-aero/openapi/propeller-aero-workspaces-api-openapi.yml
 consequence_counts:
   read: 16
   write: 1
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/propel
   \  method: get\n  operationId: getSurvey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/sites/{site_id}/surveys/{survey_id}/files\n  method: get\n  operationId: listSurveyFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/sites/{site_id}/workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/sites/{site_id}/workspaces/{workspace_id}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /organizations/{organization_id}/sites/{site_id}/workspaces/{workspace_id}/shapes\n  method: get\n  operationId: listShapes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/sites/{site_id}/workspaces/{workspace_id}/shapes/{shape_id}\n  method: get\n  operationId: getShape\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/sites/{site_id}/workspaces/{workspace_id}/shapes/{shape_id}/widgets/{widget_id}/calculate\n  method: post\n  operationId: calculateWidget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /position_monitoring_configs\n  method: get\n  operationId: listPositionMonitoringConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /position_monitoring_configs/{id}\n  method: get\n  operationId: getPositionMonitoringConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /position_monitoring_epochs\n  method: get\n  operationId: listPositionMonitoringEpochs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /position_monitoring_epochs/{id}\n  method: get\n  operationId: getPositionMonitoringEpoch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/agentic-access/propeller-aero-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/propeller-aero/agentic-access/propeller-aero-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
 - Drone Survey

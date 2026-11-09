@@ -9,37 +9,37 @@ api_specs:
   label: Clusters Authentication API
   slug: clusters-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-authentication-api-openapi.yml
 - filename: clusters-clusters-api-openapi.yml
   format: yaml
   label: Clusters API
   slug: clusters-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-clusters-api-openapi.yml
 - filename: clusters-communities-api-openapi.yml
   format: yaml
   label: Clusters Communities API
   slug: clusters-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-communities-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-communities-api-openapi.yml
 - filename: clusters-events-api-openapi.yml
   format: yaml
   label: Clusters Events API
   slug: clusters-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-events-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-events-api-openapi.yml
 - filename: clusters-names-api-openapi.yml
   format: yaml
   label: Clusters Names API
   slug: clusters-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-names-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-names-api-openapi.yml
 - filename: clusters-registration-api-openapi.yml
   format: yaml
   label: Clusters Registration API
   slug: clusters-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-registration-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-registration-api-openapi.yml
 consequence_counts:
   read: 11
   write: 3
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cluste
   \  method: get\n  operationId: checkCommunityNameAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /names/community/{communityName}/register\n  method: post\n  operationId: registerCommunityName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: getEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /names/address/{address}\n  method: get\n  operationId: getNameByAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /names/owner/address/{address}\n  method: get\n  operationId: getNamesByOwner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /names\n  method: post\n  operationId: getAddressesByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /names/register/check\n  method: post\n  operationId: checkNameAvailability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /names/register/evm\n  method: post\n  operationId: getRegistrationDataEvm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /names/register/solana\n  method: post\n  operationId: getRegistrationDataSolana\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/agentic-access/clusters-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clusters/agentic-access/clusters-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - Company

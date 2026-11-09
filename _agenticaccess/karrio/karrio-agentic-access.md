@@ -9,97 +9,97 @@ api_specs:
   label: Karrio Addresses API
   slug: karrio-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-addresses-api-openapi.yml
 - filename: karrio-auth-api-openapi.yml
   format: yaml
   label: Karrio Auth API
   slug: karrio-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-auth-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-auth-api-openapi.yml
 - filename: karrio-batches-api-openapi.yml
   format: yaml
   label: Karrio Batches API
   slug: karrio-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-batches-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-batches-api-openapi.yml
 - filename: karrio-carriers-api-openapi.yml
   format: yaml
   label: Karrio Carriers API
   slug: karrio-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-carriers-api-openapi.yml
 - filename: karrio-connections-api-openapi.yml
   format: yaml
   label: Karrio Connections API
   slug: karrio-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-connections-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-connections-api-openapi.yml
 - filename: karrio-documents-api-openapi.yml
   format: yaml
   label: Karrio Documents API
   slug: karrio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-documents-api-openapi.yml
 - filename: karrio-manifests-api-openapi.yml
   format: yaml
   label: Karrio Manifests API
   slug: karrio-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-manifests-api-openapi.yml
 - filename: karrio-orders-api-openapi.yml
   format: yaml
   label: Karrio Orders API
   slug: karrio-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-orders-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-orders-api-openapi.yml
 - filename: karrio-parcels-api-openapi.yml
   format: yaml
   label: Karrio Parcels API
   slug: karrio-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-parcels-api-openapi.yml
 - filename: karrio-pickups-api-openapi.yml
   format: yaml
   label: Karrio Pickups API
   slug: karrio-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-pickups-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-pickups-api-openapi.yml
 - filename: karrio-proxy-api-openapi.yml
   format: yaml
   label: Karrio Proxy API
   slug: karrio-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-proxy-api-openapi.yml
 - filename: karrio-shipments-api-openapi.yml
   format: yaml
   label: Karrio Shipments API
   slug: karrio-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-shipments-api-openapi.yml
 - filename: karrio-trackers-api-openapi.yml
   format: yaml
   label: Karrio Trackers API
   slug: karrio-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-trackers-api-openapi.yml
 - filename: karrio-webhooks-api-openapi.yml
   format: yaml
   label: Karrio Webhooks API
   slug: karrio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-webhooks-api-openapi.yml
 - filename: karrio-karrio-api-api-openapi.yml
   format: yaml
   label: Karrio Karrio API
   slug: karrio-karrio-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-karrio-api-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-karrio-api-api-openapi.yml
 - filename: karrio-references-api-openapi.yml
   format: yaml
   label: Karrio References API
   slug: karrio-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-references-api-openapi.yml
+  url: https://artifacts.apis.io/karrio/openapi/karrio-references-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 40
@@ -222,7 +222,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/karrio
   \  method: post\n  operationId: $$$$$$inject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks\n  method: get\n  operationId: $$$$$$$list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: $$$$$$$create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{id}\n  method: get\n  operationId: $$$$$$$retrieve\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{id}\n  method: patch\n  operationId: $$$$$$$update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{id}\n  method: delete\n  operationId: $$$$$$$remove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{id}/test\n  method: post\n  operationId: $$$$$$$test\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/agentic-access/karrio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/karrio/agentic-access/karrio-agentic-access.yml
 summary_line: 95 operations · 55 acting
 tags:
 - Shipping

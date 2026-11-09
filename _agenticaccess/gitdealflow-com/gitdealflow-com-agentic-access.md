@@ -9,91 +9,91 @@ api_specs:
   label: GitDealFlow Agents API
   slug: gitdealflow-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-agents-api-openapi.yml
 - filename: gitdealflow-com-answer-api-openapi.yml
   format: yaml
   label: GitDealFlow Answer API
   slug: gitdealflow-com-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-answer-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-answer-api-openapi.yml
 - filename: gitdealflow-com-badges-api-openapi.yml
   format: yaml
   label: GitDealFlow Badges API
   slug: gitdealflow-com-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-badges-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-badges-api-openapi.yml
 - filename: gitdealflow-com-brand-api-openapi.yml
   format: yaml
   label: GitDealFlow Brand API
   slug: gitdealflow-com-brand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-brand-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-brand-api-openapi.yml
 - filename: gitdealflow-com-business-model-api-openapi.yml
   format: yaml
   label: GitDealFlow Business Model API
   slug: gitdealflow-com-business-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-business-model-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-business-model-api-openapi.yml
 - filename: gitdealflow-com-citation-api-openapi.yml
   format: yaml
   label: GitDealFlow Citation API
   slug: gitdealflow-com-citation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-citation-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-citation-api-openapi.yml
 - filename: gitdealflow-com-community-api-openapi.yml
   format: yaml
   label: GitDealFlow Community API
   slug: gitdealflow-com-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-community-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-community-api-openapi.yml
 - filename: gitdealflow-com-deep-signal-api-openapi.yml
   format: yaml
   label: GitDealFlow Deep Signal API
   slug: gitdealflow-com-deep-signal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-deep-signal-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-deep-signal-api-openapi.yml
 - filename: gitdealflow-com-glossary-api-openapi.yml
   format: yaml
   label: GitDealFlow Glossary API
   slug: gitdealflow-com-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-glossary-api-openapi.yml
 - filename: gitdealflow-com-markets-api-openapi.yml
   format: yaml
   label: GitDealFlow Markets API
   slug: gitdealflow-com-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-markets-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-markets-api-openapi.yml
 - filename: gitdealflow-com-meta-api-openapi.yml
   format: yaml
   label: GitDealFlow Meta API
   slug: gitdealflow-com-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-meta-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-meta-api-openapi.yml
 - filename: gitdealflow-com-methodology-api-openapi.yml
   format: yaml
   label: GitDealFlow Methodology API
   slug: gitdealflow-com-methodology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-methodology-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-methodology-api-openapi.yml
 - filename: gitdealflow-com-scout-api-openapi.yml
   format: yaml
   label: GitDealFlow Scout API
   slug: gitdealflow-com-scout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-scout-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-scout-api-openapi.yml
 - filename: gitdealflow-com-search-api-openapi.yml
   format: yaml
   label: GitDealFlow Search API
   slug: gitdealflow-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-search-api-openapi.yml
 - filename: gitdealflow-com-signals-api-openapi.yml
   format: yaml
   label: GitDealFlow Signals API
   slug: gitdealflow-com-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/openapi/gitdealflow-com-signals-api-openapi.yml
+  url: https://artifacts.apis.io/gitdealflow-com/openapi/gitdealflow-com-signals-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 36
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gitdea
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/scout/predict\n  method: get\n  operationId: getScoutPrediction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/signals.json\n  method: get\n  operationId: getSignalsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agents.json\n  method: get\n  operationId: getAgentsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/members.json\n  method: get\n  operationId: getMembersV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/affiliates.json\n  method:\
   \ get\n  operationId: getAffiliatesV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/social-mascot.json\n  method: get\n  operationId: getSocialMascotV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/answers.json\n  method: get\n  operationId: getAnswersV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/changelog.json\n  method: get\n  operationId: getChangelogV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dataset.jsonl\n  method: get\n  operationId: getDatasetJsonlV1\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/faq.json\n  method: get\n  operationId: getFaqV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/methodology.json\n  method: get\n  operationId: getMethodologyV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/glossary.json\n  method: get\n  operationId: getGlossaryV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/openapi.json\n  method: get\n  operationId: getOpenapiV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitdealflow-com/refs/heads/main/agentic-access/gitdealflow-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gitdealflow-com/agentic-access/gitdealflow-com-agentic-access.yml
 summary_line: 37 operations · 1 acting
 tags:
 - Venture Capital

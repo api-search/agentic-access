@@ -9,211 +9,211 @@ api_specs:
   label: Nuclei Agents API
   slug: nuclei-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-agents-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-agents-api-openapi.yml
 - filename: nuclei-asset-api-openapi.yml
   format: yaml
   label: Nuclei Asset API
   slug: nuclei-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-asset-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-asset-api-openapi.yml
 - filename: nuclei-assets-api-openapi.yml
   format: yaml
   label: Nuclei Assets API
   slug: nuclei-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-assets-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-assets-api-openapi.yml
 - filename: nuclei-automations-api-openapi.yml
   format: yaml
   label: Nuclei Automations API
   slug: nuclei-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-automations-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-automations-api-openapi.yml
 - filename: nuclei-billing-api-openapi.yml
   format: yaml
   label: Nuclei Billing API
   slug: nuclei-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-billing-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-billing-api-openapi.yml
 - filename: nuclei-chaos-api-openapi.yml
   format: yaml
   label: Nuclei Chaos API
   slug: nuclei-chaos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-chaos-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-chaos-api-openapi.yml
 - filename: nuclei-configurations-api-openapi.yml
   format: yaml
   label: Nuclei Configurations API
   slug: nuclei-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-configurations-api-openapi.yml
 - filename: nuclei-deprecated-api-openapi.yml
   format: yaml
   label: Nuclei Deprecated API
   slug: nuclei-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-deprecated-api-openapi.yml
 - filename: nuclei-domains-api-openapi.yml
   format: yaml
   label: Nuclei Domains API
   slug: nuclei-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-domains-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-domains-api-openapi.yml
 - filename: nuclei-elog-api-openapi.yml
   format: yaml
   label: Nuclei Elog API
   slug: nuclei-elog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-elog-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-elog-api-openapi.yml
 - filename: nuclei-enumeration-api-openapi.yml
   format: yaml
   label: Nuclei Enumeration API
   slug: nuclei-enumeration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-enumeration-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-enumeration-api-openapi.yml
 - filename: nuclei-enumerations-api-openapi.yml
   format: yaml
   label: Nuclei Enumerations API
   slug: nuclei-enumerations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-enumerations-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-enumerations-api-openapi.yml
 - filename: nuclei-export-api-openapi.yml
   format: yaml
   label: Nuclei Export API
   slug: nuclei-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-export-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-export-api-openapi.yml
 - filename: nuclei-history-api-openapi.yml
   format: yaml
   label: Nuclei History API
   slug: nuclei-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-history-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-history-api-openapi.yml
 - filename: nuclei-internal-api-openapi.yml
   format: yaml
   label: Nuclei Internal API
   slug: nuclei-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-internal-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-internal-api-openapi.yml
 - filename: nuclei-leaks-api-openapi.yml
   format: yaml
   label: Nuclei Leaks API
   slug: nuclei-leaks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-leaks-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-leaks-api-openapi.yml
 - filename: nuclei-payment-api-openapi.yml
   format: yaml
   label: Nuclei Payment API
   slug: nuclei-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-payment-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-payment-api-openapi.yml
 - filename: nuclei-results-api-openapi.yml
   format: yaml
   label: Nuclei Results API
   slug: nuclei-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-results-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-results-api-openapi.yml
 - filename: nuclei-retests-api-openapi.yml
   format: yaml
   label: Nuclei Retests API
   slug: nuclei-retests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-retests-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-retests-api-openapi.yml
 - filename: nuclei-scan-api-openapi.yml
   format: yaml
   label: Nuclei Scan API
   slug: nuclei-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-scan-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-scan-api-openapi.yml
 - filename: nuclei-scan-log-api-openapi.yml
   format: yaml
   label: Nuclei Scan Log API
   slug: nuclei-scan-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-scan-log-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-scan-log-api-openapi.yml
 - filename: nuclei-scans-api-openapi.yml
   format: yaml
   label: Nuclei Scans API
   slug: nuclei-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-scans-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-scans-api-openapi.yml
 - filename: nuclei-stats-api-openapi.yml
   format: yaml
   label: Nuclei Stats API
   slug: nuclei-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-stats-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-stats-api-openapi.yml
 - filename: nuclei-tasks-api-openapi.yml
   format: yaml
   label: Nuclei Tasks API
   slug: nuclei-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-tasks-api-openapi.yml
 - filename: nuclei-team-api-openapi.yml
   format: yaml
   label: Nuclei Team API
   slug: nuclei-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-team-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-team-api-openapi.yml
 - filename: nuclei-template-api-openapi.yml
   format: yaml
   label: Nuclei Template API
   slug: nuclei-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-template-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-template-api-openapi.yml
 - filename: nuclei-template-v2-api-openapi.yml
   format: yaml
   label: Nuclei Template/v2 API
   slug: nuclei-template-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-template-v2-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-template-v2-api-openapi.yml
 - filename: nuclei-templates-api-openapi.yml
   format: yaml
   label: Nuclei Templates API
   slug: nuclei-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-templates-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-templates-api-openapi.yml
 - filename: nuclei-usage-api-openapi.yml
   format: yaml
   label: Nuclei Usage API
   slug: nuclei-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-usage-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-usage-api-openapi.yml
 - filename: nuclei-user-api-openapi.yml
   format: yaml
   label: Nuclei User API
   slug: nuclei-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-user-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-user-api-openapi.yml
 - filename: nuclei-users-api-openapi.yml
   format: yaml
   label: Nuclei Users API
   slug: nuclei-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-users-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-users-api-openapi.yml
 - filename: nuclei-vuln-api-openapi.yml
   format: yaml
   label: Nuclei Vuln API
   slug: nuclei-vuln-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-vuln-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-vuln-api-openapi.yml
 - filename: nuclei-vulnerability-api-openapi.yml
   format: yaml
   label: Nuclei Vulnerability API
   slug: nuclei-vulnerability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-vulnerability-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-vulnerability-api-openapi.yml
 - filename: nuclei-vulns-api-openapi.yml
   format: yaml
   label: Nuclei Vulns API
   slug: nuclei-vulns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-vulns-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-vulns-api-openapi.yml
 - filename: nuclei-oauth-api-openapi.yml
   format: yaml
   label: Nuclei OAUTH API
   slug: nuclei-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/openapi/nuclei-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/nuclei/openapi/nuclei-oauth-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 156
@@ -302,8 +302,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nuclei
   \ /v1/asset/enumerate/export\n  method: get\n  operationId: get-enumerate-export\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/asset/domain/{domain_name}\n  method: get\n  operationId: get-v1-asset-domain-domain_name-contents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/asset/domain/{domain_name}/export\n  method: get\n  operationId: get-v1-asset-domain-domain_name-export\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/scans/results/export\n  method: post\n  operationId: post-v1-scans-results-export\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/export/list\n  method: get\n  operationId: get-v1-export-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/leaks/export\n  method: post\n  operationId: post-v1-leaks-export\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/report/export\n  method: post\n  operationId: post-v1-report-export\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/scans/vulns/history\n  method: get\n  operationId: get-vulns-history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/user/search\n  method: get\n  operationId: get-v1-admin-user-search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/user/billing_assets\n  method: get\n  operationId: get-v1-admin-user-billing-assets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/user/audit_logs\n  method: get\n  operationId: get-v1-admin-user-audit-logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
-  \ /v1/admin/team/change_owner\n  method: post\n  operationId: post-v1-admin-team-change_owner\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/admin/scan/token\n  method: post\n  operationId: post-v1-admin-scan-token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (79 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/agentic-access/nuclei-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/agentic-access/nuclei-agentic-access.yml
+  \ /v1/admin/team/change_owner\n  method: post\n  operationId: post-v1-admin-team-change_owner\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/admin/scan/token\n  method: post\n  operationId: post-v1-admin-scan-token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (79 KB total) ---\n# Full source: https://artifacts.apis.io/nuclei/agentic-access/nuclei-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/nuclei/agentic-access/nuclei-agentic-access.yml
 summary_line: 279 operations · 123 acting · 4 human-in-the-loop
 tags:
 - Security Testing

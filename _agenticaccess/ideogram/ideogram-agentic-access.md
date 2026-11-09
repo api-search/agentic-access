@@ -9,25 +9,25 @@ api_specs:
   label: Ideogram Subpackage Datasets API
   slug: ideogram-subpackage-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-datasets-api-openapi.yml
 - filename: ideogram-subpackage-generate-api-openapi.yml
   format: yaml
   label: Ideogram Subpackage Generate API
   slug: ideogram-subpackage-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-generate-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-generate-api-openapi.yml
 - filename: ideogram-subpackage-models-api-openapi.yml
   format: yaml
   label: Ideogram Subpackage Models API
   slug: ideogram-subpackage-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-models-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-models-api-openapi.yml
 - filename: ideogram-subpackage-vision-api-openapi.yml
   format: yaml
   label: Ideogram Subpackage Vision API
   slug: ideogram-subpackage-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-vision-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-vision-api-openapi.yml
 consequence_counts:
   read: 4
   write: 19
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ideogr
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets\n  method: get\n  operationId: list-datasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets\n  method: post\n  operationId: create-dataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{dataset_id}\n  method: get\n  operationId: get-dataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /datasets/{dataset_id}/upload_assets\n  method: post\n  operationId: upload-dataset-assets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ideogram-v3/train-model\n  method: post\n  operationId: train-model-v-3\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: list-custom-models\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{model_id}\n  method:\
   \ get\n  operationId: get-custom-model\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/agentic-access/ideogram-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ideogram/agentic-access/ideogram-agentic-access.yml
 summary_line: 23 operations · 19 acting
 tags:
 - Artificial Intelligence

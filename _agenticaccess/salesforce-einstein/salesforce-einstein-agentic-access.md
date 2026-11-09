@@ -9,103 +9,103 @@ api_specs:
   label: Salesforce Einstein AI Record Insights API
   slug: salesforce-einstein-ai-record-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-ai-record-insights-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-ai-record-insights-api-openapi.yml
 - filename: salesforce-einstein-api-usage-api-openapi.yml
   format: yaml
   label: Salesforce Einstein API Usage API
   slug: salesforce-einstein-api-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-api-usage-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-api-usage-api-openapi.yml
 - filename: salesforce-einstein-bot-definitions-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Bot Definitions API
   slug: salesforce-einstein-bot-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-bot-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-bot-definitions-api-openapi.yml
 - filename: salesforce-einstein-bot-versions-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Bot Versions API
   slug: salesforce-einstein-bot-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-bot-versions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-bot-versions-api-openapi.yml
 - filename: salesforce-einstein-dashboards-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Dashboards API
   slug: salesforce-einstein-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-dashboards-api-openapi.yml
 - filename: salesforce-einstein-datasets-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Datasets API
   slug: salesforce-einstein-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-datasets-api-openapi.yml
 - filename: salesforce-einstein-examples-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Examples API
   slug: salesforce-einstein-examples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-examples-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-examples-api-openapi.yml
 - filename: salesforce-einstein-feedback-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Feedback API
   slug: salesforce-einstein-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-feedback-api-openapi.yml
 - filename: salesforce-einstein-generations-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Generations API
   slug: salesforce-einstein-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-generations-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-generations-api-openapi.yml
 - filename: salesforce-einstein-lenses-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Lenses API
   slug: salesforce-einstein-lenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-lenses-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-lenses-api-openapi.yml
 - filename: salesforce-einstein-messages-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Messages API
   slug: salesforce-einstein-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-messages-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-messages-api-openapi.yml
 - filename: salesforce-einstein-models-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Models API
   slug: salesforce-einstein-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-models-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-models-api-openapi.yml
 - filename: salesforce-einstein-prediction-definitions-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Prediction Definitions API
   slug: salesforce-einstein-prediction-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-prediction-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-prediction-definitions-api-openapi.yml
 - filename: salesforce-einstein-predictions-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Predictions API
   slug: salesforce-einstein-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-predictions-api-openapi.yml
 - filename: salesforce-einstein-prompt-templates-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Prompt Templates API
   slug: salesforce-einstein-prompt-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-prompt-templates-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-prompt-templates-api-openapi.yml
 - filename: salesforce-einstein-sessions-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Sessions API
   slug: salesforce-einstein-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-sessions-api-openapi.yml
 - filename: salesforce-einstein-stories-api-openapi.yml
   format: yaml
   label: Salesforce Einstein Stories API
   slug: salesforce-einstein-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-stories-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-einstein/openapi/salesforce-einstein-stories-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 30
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/salesf
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /einstein/bots/{botId}/sessions/{sessionId}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /einstein/bots/{botId}/sessions/{sessionId}\n  method: delete\n  operationId: endSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wave/stories\n  method: get\n  operationId: listStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /wave/stories\n  method: post\n  operationId: createStory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wave/stories/{storyId}\n  method: get\n  operationId: getStory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wave/stories/{storyId}\n  method: patch\n  operationId: updateStory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wave/stories/{storyId}\n  method: delete\n  operationId: deleteStory\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wave/stories/{storyId}/stats\n  method: get\n  operationId: getStoryStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/agentic-access/salesforce-einstein-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-einstein/agentic-access/salesforce-einstein-agentic-access.yml
 summary_line: 58 operations · 28 acting
 tags:
 - Artificial Intelligence

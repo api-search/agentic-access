@@ -9,19 +9,19 @@ api_specs:
   label: Amazon EventBridge Scheduler Schedule Groups API
   slug: amazon-eventbridge-scheduler-schedule-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-schedule-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge-scheduler/openapi/amazon-eventbridge-scheduler-schedule-groups-api-openapi.yml
 - filename: amazon-eventbridge-scheduler-schedules-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Scheduler Schedules API
   slug: amazon-eventbridge-scheduler-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge-scheduler/openapi/amazon-eventbridge-scheduler-schedules-api-openapi.yml
 - filename: amazon-eventbridge-scheduler-tags-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Scheduler Tags API
   slug: amazon-eventbridge-scheduler-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge-scheduler/openapi/amazon-eventbridge-scheduler-tags-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedule-groups/{Name}\n  method: delete\n  operationId: DeleteScheduleGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedule-groups/{Name}\n  method: get\n  operationId: GetScheduleGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedule-groups\n  method: get\n  operationId: ListScheduleGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules\n  method:\
   \ get\n  operationId: ListSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{ResourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{ResourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{ResourceArn}#TagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/agentic-access/amazon-eventbridge-scheduler-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-eventbridge-scheduler/agentic-access/amazon-eventbridge-scheduler-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Amazon Web Services

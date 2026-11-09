@@ -9,37 +9,37 @@ api_specs:
   label: RelativityOne Communications API
   slug: relativityone-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-communications-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-communications-api-openapi.yml
 - filename: relativityone-custodians-api-openapi.yml
   format: yaml
   label: RelativityOne Custodians API
   slug: relativityone-custodians-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-custodians-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-custodians-api-openapi.yml
 - filename: relativityone-entities-api-openapi.yml
   format: yaml
   label: RelativityOne Entities API
   slug: relativityone-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-entities-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-entities-api-openapi.yml
 - filename: relativityone-legal-hold-projects-api-openapi.yml
   format: yaml
   label: RelativityOne Legal Hold Projects API
   slug: relativityone-legal-hold-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-legal-hold-projects-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-legal-hold-projects-api-openapi.yml
 - filename: relativityone-preservation-api-openapi.yml
   format: yaml
   label: RelativityOne Preservation API
   slug: relativityone-preservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-preservation-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-preservation-api-openapi.yml
 - filename: relativityone-tasks-api-openapi.yml
   format: yaml
   label: RelativityOne Tasks API
   slug: relativityone-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-tasks-api-openapi.yml
 consequence_counts:
   read: 4
   write: 9
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/relati
   \  method: put\n  operationId: updateEntityStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /relativity-environment/v1/workspaces/{workspaceId}/legal-hold/projects/{projectId}/preserve\n  method: post\n  operationId: preserveCustodianData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /relativity-environment/v1/workspaces/{workspaceId}/legal-hold/projects/{projectId}/release\n  method: post\n  operationId: releaseCustodianFromProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /relativity-environment/v1/workspaces/{workspaceId}/legal-hold/projects/{projectId}/communications\n  method: post\n  operationId: createLegalHoldCommunication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /relativity-environment/v1/workspaces/{workspaceId}/legal-hold/tasks\n  method: post\n  operationId: createLegalHoldTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /relativity-environment/v1/workspaces/{workspaceId}/legal-hold/tasks/{taskId}\n  method: put\n  operationId: updateLegalHoldTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/agentic-access/relativityone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/relativityone/agentic-access/relativityone-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
 - eDiscovery

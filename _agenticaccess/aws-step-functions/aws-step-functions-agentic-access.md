@@ -9,49 +9,55 @@ api_specs:
   label: AWS Step Functions State Machines API
   slug: aws-step-functions-state-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-state-machines-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-state-machines-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-api-openapi.yml
   format: yaml
   label: AWS Step Functions AWS Step Functions API
   slug: aws-step-functions-aws-step-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-createstat-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.CreateStat… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-createstat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-createstat-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-createstat-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-deletestat-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.DeleteStat… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-deletestat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-deletestat-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-deletestat-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-describest-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.DescribeSt… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-describest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-describest-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-describest-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-liststatem-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.ListStateM… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-liststatem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-liststatem-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-liststatem-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-publishsta-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.PublishSta… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-publishsta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-publishsta-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-publishsta-api-openapi.yml
 - filename: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-updatestat-api-openapi.yml
   format: yaml
   label: 'AWS Step Functions AWS Step Functions #X Amz Target=AWSStepFunctions.UpdateStat… API'
   slug: aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-updatestat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-updatestat-api-openapi.yml
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-updatestat-api-openapi.yml
+- filename: aws-step-functions-operations-api-openapi.yml
+  format: yaml
+  label: AWS Step Functions Step Functions Operations API
+  slug: aws-step-functions-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-step-functions/openapi/aws-step-functions-operations-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 7
@@ -115,9 +121,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aws-st
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSStepFunctions.StartSyncExecution\n  method: post\n  operationId: StartSyncExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSStepFunctions.StopExecution\n  method: post\n  operationId: StopExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n-\
   \ path: /#X-Amz-Target=AWSStepFunctions.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSStepFunctions.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSStepFunctions.UpdateMapRun\n  method: post\n  operationId: UpdateMapRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSStepFunctions.UpdateStateMachine\n  method: post\n  operationId: UpdateStateMachine\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/agentic-access/aws-step-functions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-step-functions/agentic-access/aws-step-functions-agentic-access.yml
 summary_line: 27 operations · 20 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - iPaaS
 - Orchestration
 - Serverless

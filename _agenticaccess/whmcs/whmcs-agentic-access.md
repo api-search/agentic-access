@@ -9,43 +9,43 @@ api_specs:
   label: WHMCS Authentication API
   slug: whmcs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-authentication-api-openapi.yml
 - filename: whmcs-billing-api-openapi.yml
   format: yaml
   label: WHMCS Billing API
   slug: whmcs-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-billing-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-billing-api-openapi.yml
 - filename: whmcs-clients-api-openapi.yml
   format: yaml
   label: WHMCS Clients API
   slug: whmcs-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-clients-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-clients-api-openapi.yml
 - filename: whmcs-domains-api-openapi.yml
   format: yaml
   label: WHMCS Domains API
   slug: whmcs-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-domains-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-domains-api-openapi.yml
 - filename: whmcs-orders-api-openapi.yml
   format: yaml
   label: WHMCS Orders API
   slug: whmcs-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-orders-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-orders-api-openapi.yml
 - filename: whmcs-support-api-openapi.yml
   format: yaml
   label: WHMCS Support API
   slug: whmcs-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-support-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-support-api-openapi.yml
 - filename: whmcs-system-api-openapi.yml
   format: yaml
   label: WHMCS System API
   slug: whmcs-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-system-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-system-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/whmcs-
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?action=DomainWhois\n  method: post\n  operationId: domainWhois\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?action=GetOrders\n  method: post\n  operationId: getOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?action=AddOrder\n  method: post\n  operationId: addOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?action=GetProducts\n  method: post\n  operationId: getProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?action=GetTickets\n  method: post\n  operationId: getTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?action=OpenTicket\n  method: post\n  operationId: openTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?action=WhmcsDetails\n  method: post\n\
   \  operationId: whmcsDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?action=GetStats\n  method: post\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/agentic-access/whmcs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/whmcs/agentic-access/whmcs-agentic-access.yml
 summary_line: 19 operations · 10 acting
 tags:
 - Web Hosting

@@ -9,43 +9,43 @@ api_specs:
   label: PayFit Absences API
   slug: payfit-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-absences-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-absences-api-openapi.yml
 - filename: payfit-collaborators-api-openapi.yml
   format: yaml
   label: PayFit Collaborators API
   slug: payfit-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-collaborators-api-openapi.yml
 - filename: payfit-company-api-openapi.yml
   format: yaml
   label: PayFit Company API
   slug: payfit-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-company-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-company-api-openapi.yml
 - filename: payfit-contracts-api-openapi.yml
   format: yaml
   label: PayFit Contracts API
   slug: payfit-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-contracts-api-openapi.yml
 - filename: payfit-documents-api-openapi.yml
   format: yaml
   label: PayFit Documents API
   slug: payfit-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-documents-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-documents-api-openapi.yml
 - filename: payfit-insurance-api-openapi.yml
   format: yaml
   label: PayFit Insurance API
   slug: payfit-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-insurance-api-openapi.yml
 - filename: payfit-payslips-api-openapi.yml
   format: yaml
   label: PayFit Payslips API
   slug: payfit-payslips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/openapi/payfit-payslips-api-openapi.yml
+  url: https://artifacts.apis.io/payfit/openapi/payfit-payslips-api-openapi.yml
 consequence_counts:
   read: 14
   write: 3
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/payfit
   \  audit: none\n- path: /contracts\n  method: post\n  operationId: createContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{id}\n  method: get\n  operationId: getContract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /absences\n  method: get\n  operationId: listAbsences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company\n  method: get\n  operationId: getCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/accounting\n\
   \  method: get\n  operationId: getCompanyAccounting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/payroll-status\n  method: get\n  operationId: getCompanyPayrollStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/payment-file\n  method: get\n  operationId: getCompanyPaymentFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health-insurance-contracts\n  method: get\n  operationId: listHealthInsuranceContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health-insurance/{contractId}\n  method: post\n  operationId: updateHealthInsuranceAffiliation\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /provident-fund-contracts\n  method: get\n  operationId: listProvidentFundContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{id}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/agentic-access/payfit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/payfit/agentic-access/payfit-agentic-access.yml
 summary_line: 17 operations · 3 acting
 tags:
 - Payroll

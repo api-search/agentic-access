@@ -9,25 +9,25 @@ api_specs:
   label: 3M Deliveries API
   slug: 3m-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-deliveries-api-openapi.yml
 - filename: 3m-invoices-api-openapi.yml
   format: yaml
   label: 3M Invoices API
   slug: 3m-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-invoices-api-openapi.yml
 - filename: 3m-orders-api-openapi.yml
   format: yaml
   label: 3M Orders API
   slug: 3m-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-orders-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-orders-api-openapi.yml
 - filename: 3m-products-api-openapi.yml
   format: yaml
   label: 3M Products API
   slug: 3m-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-products-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-products-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -60,7 +60,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/3m-partner-supplier-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 5\n    acting: 1\n  by_consequence:\n    read: 5\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}/price\n  method: get\n  operationId: getProductPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n\
   \  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deliveries\n  method: get\n  operationId: listDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/agentic-access/3m-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/3m/agentic-access/3m-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
 - Industrial

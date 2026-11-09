@@ -9,31 +9,31 @@ api_specs:
   label: Trabex AES Filing API
   slug: trabex-aes-filing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-aes-filing-api-openapi.yml
+  url: https://artifacts.apis.io/trabex/openapi/trabex-aes-filing-api-openapi.yml
 - filename: trabex-companies-api-openapi.yml
   format: yaml
   label: Trabex Companies API
   slug: trabex-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-companies-api-openapi.yml
+  url: https://artifacts.apis.io/trabex/openapi/trabex-companies-api-openapi.yml
 - filename: trabex-documents-api-openapi.yml
   format: yaml
   label: Trabex Documents API
   slug: trabex-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-documents-api-openapi.yml
+  url: https://artifacts.apis.io/trabex/openapi/trabex-documents-api-openapi.yml
 - filename: trabex-screening-api-openapi.yml
   format: yaml
   label: Trabex Screening API
   slug: trabex-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-screening-api-openapi.yml
+  url: https://artifacts.apis.io/trabex/openapi/trabex-screening-api-openapi.yml
 - filename: trabex-shipments-api-openapi.yml
   format: yaml
   label: Trabex Shipments API
   slug: trabex-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/openapi/trabex-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/trabex/openapi/trabex-shipments-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 5
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trabex
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/shipments/{shipmentId}\n  method: get\n  operationId: getShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipments/{shipmentId}\n  method: put\n  operationId: updateShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/screening/check\n  method: post\n  operationId: screenParty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/screening/batch\n  method: post\n  operationId: screenPartiesBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/documents/{shipmentId}\n  method: get\n  operationId: getShipmentDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/aes/filings\n  method: get\n  operationId: getAESFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/aes/filings/{shipmentId}\n  method:\
   \ post\n  operationId: submitAESFiling\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companies\n  method: get\n  operationId: getCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companies\n  method: post\n  operationId: createCompany\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/agentic-access/trabex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trabex/agentic-access/trabex-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Compliance

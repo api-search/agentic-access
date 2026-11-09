@@ -9,109 +9,109 @@ api_specs:
   label: Tale Agents API
   slug: tale-dev-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-agents-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-agents-api-openapi.yml
 - filename: tale-dev-automations-api-openapi.yml
   format: yaml
   label: Tale Automations API
   slug: tale-dev-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-automations-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-automations-api-openapi.yml
 - filename: tale-dev-browser-sessions-api-openapi.yml
   format: yaml
   label: Tale Browser sessions API
   slug: tale-dev-browser-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-browser-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-browser-sessions-api-openapi.yml
 - filename: tale-dev-contacts-api-openapi.yml
   format: yaml
   label: Tale Contacts API
   slug: tale-dev-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-contacts-api-openapi.yml
 - filename: tale-dev-conversations-api-openapi.yml
   format: yaml
   label: Tale Conversations API
   slug: tale-dev-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-conversations-api-openapi.yml
 - filename: tale-dev-documents-api-openapi.yml
   format: yaml
   label: Tale Documents API
   slug: tale-dev-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-documents-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-documents-api-openapi.yml
 - filename: tale-dev-knowledge-api-openapi.yml
   format: yaml
   label: Tale Knowledge API
   slug: tale-dev-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-knowledge-api-openapi.yml
 - filename: tale-dev-mcp-api-openapi.yml
   format: yaml
   label: Tale MCP API
   slug: tale-dev-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-mcp-api-openapi.yml
 - filename: tale-dev-model-endpoints-api-openapi.yml
   format: yaml
   label: Tale Model endpoints API
   slug: tale-dev-model-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-model-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-model-endpoints-api-openapi.yml
 - filename: tale-dev-notifications-api-openapi.yml
   format: yaml
   label: Tale Notifications API
   slug: tale-dev-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-notifications-api-openapi.yml
 - filename: tale-dev-organization-api-openapi.yml
   format: yaml
   label: Tale Organization API
   slug: tale-dev-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-organization-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-organization-api-openapi.yml
 - filename: tale-dev-products-api-openapi.yml
   format: yaml
   label: Tale Products API
   slug: tale-dev-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-products-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-products-api-openapi.yml
 - filename: tale-dev-projects-api-openapi.yml
   format: yaml
   label: Tale Projects API
   slug: tale-dev-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-projects-api-openapi.yml
 - filename: tale-dev-runs-api-openapi.yml
   format: yaml
   label: Tale Runs API
   slug: tale-dev-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-runs-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-runs-api-openapi.yml
 - filename: tale-dev-skills-api-openapi.yml
   format: yaml
   label: Tale Skills API
   slug: tale-dev-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-skills-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-skills-api-openapi.yml
 - filename: tale-dev-tasks-api-openapi.yml
   format: yaml
   label: Tale Tasks API
   slug: tale-dev-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-tasks-api-openapi.yml
 - filename: tale-dev-threads-api-openapi.yml
   format: yaml
   label: Tale Threads API
   slug: tale-dev-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-threads-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-threads-api-openapi.yml
 - filename: tale-dev-websites-api-openapi.yml
   format: yaml
   label: Tale Websites API
   slug: tale-dev-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/openapi/tale-dev-websites-api-openapi.yml
+  url: https://artifacts.apis.io/tale-dev/openapi/tale-dev-websites-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 65
@@ -226,8 +226,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/tale-d
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{id}/runs/{runId}/ask\n  method: get\n  operationId: getProjectRunAsk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{id}/runs/{runId}/asks/{askId}\n  method: post\n  operationId: answerProjectRunAsk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{id}/runs/{runId}/legacy-quarantine\n  method: post\n  operationId: requestProjectLegacyRunStop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/projects/{id}/runs/{runId}/cancel\n  method: post\n  operationId: cancelProjectRun\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/models\n  method: get\n  operationId: listChatModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/threads\n  method: get\n  operationId: listThreads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v1/threads\n  method: post\n  operationId: createThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/threads/{id}\n  method: get\n  operationId: getThread\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/threads/{id}\n  method: patch\n  operationId: updateThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n\
-  # Full source: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/agentic-access/tale-dev-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/heads/main/agentic-access/tale-dev-agentic-access.yml
+  # Full source: https://artifacts.apis.io/tale-dev/agentic-access/tale-dev-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/tale-dev/agentic-access/tale-dev-agentic-access.yml
 summary_line: 143 operations · 78 acting · 7 human-in-the-loop
 tags:
 - Company

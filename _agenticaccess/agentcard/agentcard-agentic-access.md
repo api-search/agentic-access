@@ -9,31 +9,31 @@ api_specs:
   label: Agentcard Authentication API
   slug: agentcard-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-authentication-api-openapi.yml
 - filename: agentcard-connect-api-openapi.yml
   format: yaml
   label: Agentcard Connect API
   slug: agentcard-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-connect-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-connect-api-openapi.yml
 - filename: agentcard-identity-verification-api-openapi.yml
   format: yaml
   label: Agentcard Identity verification API
   slug: agentcard-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-identity-verification-api-openapi.yml
 - filename: agentcard-member-cards-api-openapi.yml
   format: yaml
   label: Agentcard Member cards API
   slug: agentcard-member-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-member-cards-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-member-cards-api-openapi.yml
 - filename: agentcard-purchase-api-openapi.yml
   format: yaml
   label: Agentcard Purchase API
   slug: agentcard-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/agentcard/openapi/agentcard-purchase-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 6
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/agentc
   \     max-ttl: 3600\n    audit: none\n- path: /api/v2/wallet/phone/start\n  method: post\n  operationId: walletPhoneStart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/wallet/phone/verify\n  method: post\n  operationId: walletPhoneVerify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/wallet/withdrawal-recipients\n  method: post\n  operationId: walletWithdrawalRecipientCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/wallet/withdrawal-recipients\n  method: get\n  operationId: walletWithdrawalRecipientsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/wallet/withdrawal-recipients/{recipient_id}\n  method: delete\n  operationId: walletWithdrawalRecipientRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/wallet/withdrawals\n  method: post\n  operationId: walletWithdraw\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/wallet/withdrawals\n  method: get\n  operationId: walletWithdrawalsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/agentic-access/agentcard-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agentcard/agentic-access/agentcard-agentic-access.yml
 summary_line: 21 operations · 15 acting
 tags:
 - Company

@@ -8,49 +8,49 @@ api_specs:
   label: Crossref Agency API
   slug: crossref-agency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-agency-api-openapi.yml
+  url: https://artifacts.apis.io/crossref/openapi/crossref-agency-api-openapi.yml
 - filename: crossref-funders-api-openapi.yml
   format: yaml
   label: Crossref Funders API
   slug: crossref-funders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-funders-api-openapi.yml
+  url: https://artifacts.apis.io/crossref/openapi/crossref-funders-api-openapi.yml
 - filename: crossref-journals-api-openapi.yml
   format: yaml
   label: Crossref Journals API
   slug: crossref-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-journals-api-openapi.yml
+  url: https://artifacts.apis.io/crossref/openapi/crossref-journals-api-openapi.yml
 - filename: crossref-licenses-api-openapi.yml
   format: yaml
   label: Crossref Licenses API
   slug: crossref-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/crossref/openapi/crossref-licenses-api-openapi.yml
 - filename: crossref-members-api-openapi.yml
   format: yaml
   label: Crossref Members API
   slug: crossref-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-members-api-openapi.yml
+  url: https://artifacts.apis.io/crossref/openapi/crossref-members-api-openapi.yml
 - filename: crossref-prefixes-api-openapi.yml
   format: yaml
   label: Crossref Prefixes API
   slug: crossref-prefixes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-prefixes-api-openapi.yml
+  url: https://artifacts.apis.io/crossref/openapi/crossref-prefixes-api-openapi.yml
 - filename: crossref-types-api-openapi.yml
   format: yaml
   label: Crossref Types API
   slug: crossref-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-types-api-openapi.yml
+  url: https://artifacts.apis.io/crossref/openapi/crossref-types-api-openapi.yml
 - filename: crossref-works-api-openapi.yml
   format: yaml
   label: Crossref Works API
   slug: crossref-works-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-works-api-openapi.yml
+  url: https://artifacts.apis.io/crossref/openapi/crossref-works-api-openapi.yml
 consequence_counts:
   read: 18
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/crossr
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /prefixes/{prefix}/works\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /funders/{id}/works\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /journals/{issn}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /types/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /licenses\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /types\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /works/{doi}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /types/{id}/works\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /works\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /works/{doi}/agency\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /journals/{issn}/works\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /funders/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /funders\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prefixes/{prefix}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/agentic-access/crossref-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crossref/agentic-access/crossref-agentic-access.yml
 summary_line: 18 operations
 tags:
 - Citations

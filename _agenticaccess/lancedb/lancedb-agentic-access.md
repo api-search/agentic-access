@@ -9,25 +9,25 @@ api_specs:
   label: LanceDB MaterializedView API
   slug: lancedb-materializedview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-materializedview-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-materializedview-api-openapi.yml
 - filename: lancedb-namespace-api-openapi.yml
   format: yaml
   label: LanceDB Namespace API
   slug: lancedb-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-namespace-api-openapi.yml
 - filename: lancedb-table-api-openapi.yml
   format: yaml
   label: LanceDB Table API
   slug: lancedb-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-table-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-table-api-openapi.yml
 - filename: lancedb-transaction-api-openapi.yml
   format: yaml
   label: LanceDB Transaction API
   slug: lancedb-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-transaction-api-openapi.yml
 consequence_counts:
   read: 12
   write: 38
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lanced
   - path: /v1/table/{id}/declare\n  method: post\n  operationId: DeclareTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/table/{id}/tags/create\n  method: post\n  operationId: CreateTableTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/table/{id}/tags/delete\n  method: post\n  operationId: DeleteTableTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/table/{id}/tags/update\n  method: post\n  operationId: UpdateTableTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transaction/{id}/describe\n  method: post\n  operationId: DescribeTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transaction/{id}/alter\n  method: post\n  operationId: AlterTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/agentic-access/lancedb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lancedb/agentic-access/lancedb-agentic-access.yml
 summary_line: 50 operations · 38 acting
 tags:
 - Vector Search

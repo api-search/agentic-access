@@ -9,37 +9,37 @@ api_specs:
   label: Planet Labs Data - Item Types API
   slug: planet-labs-data-item-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-item-types-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-item-types-api-openapi.yml
 - filename: planet-labs-data-items-api-openapi.yml
   format: yaml
   label: Planet Labs Data - Items API
   slug: planet-labs-data-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-items-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-items-api-openapi.yml
 - filename: planet-labs-data-search-api-openapi.yml
   format: yaml
   label: Planet Labs Data - Search API
   slug: planet-labs-data-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-search-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-search-api-openapi.yml
 - filename: planet-labs-data-stats-api-openapi.yml
   format: yaml
   label: Planet Labs Data - Stats API
   slug: planet-labs-data-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-data-stats-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-data-stats-api-openapi.yml
 - filename: planet-labs-orders-api-openapi.yml
   format: yaml
   label: Planet Labs Orders API
   slug: planet-labs-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-orders-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-orders-api-openapi.yml
 - filename: planet-labs-subscriptions-api-openapi.yml
   format: yaml
   label: Planet Labs Subscriptions API
   slug: planet-labs-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/openapi/planet-labs-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/planet-labs/openapi/planet-labs-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 18
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/planet
   \  - high-value\n    audit: required\n- path: /subscriptions/v1/{subscriptionId}\n  method: put\n  operationId: putSubscriptionsV1BySubscriptionId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/{subscriptionId}/cancel\n  method: post\n  operationId: postSubscriptionsV1BySubscriptionIdCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/{subscriptionId}/suspend\n  method: post\n  operationId: postSubscriptionsV1BySubscriptionIdSuspend\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/{subscriptionId}/reactivate\n  method: post\n  operationId: postSubscriptionsV1BySubscriptionIdReactivate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/v1/{subscriptionId}/results\n  method: get\n  operationId: getSubscriptionsV1BySubscriptionIdResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/v1/{subscriptionId}/summary\n  method: get\n  operationId: getSubscriptionsV1BySubscriptionIdSummary\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/agentic-access/planet-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/planet-labs/agentic-access/planet-labs-agentic-access.yml
 summary_line: 33 operations · 15 acting
 tags:
 - Earth Observation

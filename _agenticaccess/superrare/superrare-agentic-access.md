@@ -9,37 +9,37 @@ api_specs:
   label: SuperRare Collections API
   slug: superrare-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-collections-api-openapi.yml
+  url: https://artifacts.apis.io/superrare/openapi/superrare-collections-api-openapi.yml
 - filename: superrare-media-api-openapi.yml
   format: yaml
   label: SuperRare Media API
   slug: superrare-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-media-api-openapi.yml
+  url: https://artifacts.apis.io/superrare/openapi/superrare-media-api-openapi.yml
 - filename: superrare-merkle-roots-api-openapi.yml
   format: yaml
   label: SuperRare Merkle Roots API
   slug: superrare-merkle-roots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-merkle-roots-api-openapi.yml
+  url: https://artifacts.apis.io/superrare/openapi/superrare-merkle-roots-api-openapi.yml
 - filename: superrare-tokens-api-openapi.yml
   format: yaml
   label: SuperRare Tokens API
   slug: superrare-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/superrare/openapi/superrare-tokens-api-openapi.yml
 - filename: superrare-users-api-openapi.yml
   format: yaml
   label: SuperRare Users API
   slug: superrare-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-users-api-openapi.yml
+  url: https://artifacts.apis.io/superrare/openapi/superrare-users-api-openapi.yml
 - filename: superrare-nfts-api-openapi.yml
   format: yaml
   label: SuperRare NF Ts API
   slug: superrare-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/openapi/superrare-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/superrare/openapi/superrare-nfts-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/collections/{id}/events\n  method: get\n  operationId: listCollectionEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/collections/import\n  method: post\n  operationId: importCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{address}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tokens/price/{symbol}\n  method: get\n  operationId: getTokenPrice\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/merkle-roots/nfts\n  method: post\n  operationId: generateNftMerkleRoot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/merkle-roots/addresses\n  method: post\n  operationId: generateAddressMerkleRoot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/merkle-roots/nfts/proof\n  method: post\n  operationId: generateNftMerkleProof\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/merkle-roots/addresses/proof\n  method: post\n  operationId: generateAddressMerkleProof\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/agentic-access/superrare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/superrare/agentic-access/superrare-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - NFT

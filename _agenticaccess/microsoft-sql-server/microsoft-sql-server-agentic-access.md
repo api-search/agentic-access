@@ -9,19 +9,37 @@ api_specs:
   label: Microsoft SQL Server Azure SQL Databases API
   slug: microsoft-sql-server-azure-sql-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/openapi/microsoft-sql-server-azure-sql-databases-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-azure-sql-databases-api-openapi.yml
 - filename: microsoft-sql-server-azure-sql-servers-api-openapi.yml
   format: yaml
   label: Microsoft SQL Server Azure SQL Servers API
   slug: microsoft-sql-server-azure-sql-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/openapi/microsoft-sql-server-azure-sql-servers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-azure-sql-servers-api-openapi.yml
 - filename: microsoft-sql-server-data-api-builder-api-openapi.yml
   format: yaml
   label: Microsoft SQL Server Data API Builder API
   slug: microsoft-sql-server-data-api-builder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/openapi/microsoft-sql-server-data-api-builder-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-data-api-builder-api-openapi.yml
+- filename: microsoft-sql-server-databases-api-openapi.yml
+  format: yaml
+  label: Microsoft SQL Server Databases API
+  slug: microsoft-sql-server-databases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-databases-api-openapi.yml
+- filename: microsoft-sql-server-managedinstances-api-openapi.yml
+  format: yaml
+  label: Microsoft SQL Server Managed Instances API
+  slug: microsoft-sql-server-managedinstances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-managedinstances-api-openapi.yml
+- filename: microsoft-sql-server-servers-api-openapi.yml
+  format: yaml
+  label: Microsoft SQL Server Servers API
+  slug: microsoft-sql-server-servers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-servers-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -52,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/failover\n  method: post\n  operationId: failoverDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers\n  method: get\n  operationId: listServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{entity}\n  method: get\n  operationId: dabListEntity\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{entity}\n  method: post\n  operationId: dabCreateEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{entity}/{pkColumn}/{pkValue}\n  method: get\n  operationId: dabGetEntity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{entity}/{pkColumn}/{pkValue}\n  method: patch\n  operationId: dabPatchEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{entity}/{pkColumn}/{pkValue}\n  method: put\n  operationId: dabPutEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{entity}/{pkColumn}/{pkValue}\n  method: delete\n  operationId: dabDeleteEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/agentic-access/microsoft-sql-server-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-sql-server/agentic-access/microsoft-sql-server-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Cloud

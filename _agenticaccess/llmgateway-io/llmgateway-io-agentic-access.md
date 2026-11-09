@@ -9,97 +9,97 @@ api_specs:
   label: LLM Gateway Audio API
   slug: llmgateway-io-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-audio-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-audio-api-openapi.yml
 - filename: llmgateway-io-decisions-api-openapi.yml
   format: yaml
   label: LLM Gateway Decisions API
   slug: llmgateway-io-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-decisions-api-openapi.yml
 - filename: llmgateway-io-embeddings-api-openapi.yml
   format: yaml
   label: LLM Gateway Embeddings API
   slug: llmgateway-io-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-embeddings-api-openapi.yml
 - filename: llmgateway-io-images-api-openapi.yml
   format: yaml
   label: LLM Gateway Images API
   slug: llmgateway-io-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-images-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-images-api-openapi.yml
 - filename: llmgateway-io-key-api-openapi.yml
   format: yaml
   label: LLM Gateway Key API
   slug: llmgateway-io-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-key-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-key-api-openapi.yml
 - filename: llmgateway-io-llm-gateway-api-api-openapi.yml
   format: yaml
   label: LLM Gateway LLM Gateway API
   slug: llmgateway-io-llm-gateway-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-llm-gateway-api-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-llm-gateway-api-api-openapi.yml
 - filename: llmgateway-io-messages-api-openapi.yml
   format: yaml
   label: LLM Gateway Messages API
   slug: llmgateway-io-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-messages-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-messages-api-openapi.yml
 - filename: llmgateway-io-models-api-openapi.yml
   format: yaml
   label: LLM Gateway Models API
   slug: llmgateway-io-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-models-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-models-api-openapi.yml
 - filename: llmgateway-io-moderations-api-openapi.yml
   format: yaml
   label: LLM Gateway Moderations API
   slug: llmgateway-io-moderations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-moderations-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-moderations-api-openapi.yml
 - filename: llmgateway-io-ocr-api-openapi.yml
   format: yaml
   label: LLM Gateway Ocr API
   slug: llmgateway-io-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-ocr-api-openapi.yml
 - filename: llmgateway-io-realtime-api-openapi.yml
   format: yaml
   label: LLM Gateway Realtime API
   slug: llmgateway-io-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-realtime-api-openapi.yml
 - filename: llmgateway-io-rerank-api-openapi.yml
   format: yaml
   label: LLM Gateway Rerank API
   slug: llmgateway-io-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-rerank-api-openapi.yml
 - filename: llmgateway-io-search-api-openapi.yml
   format: yaml
   label: LLM Gateway Search API
   slug: llmgateway-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-search-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-search-api-openapi.yml
 - filename: llmgateway-io-systemone-api-openapi.yml
   format: yaml
   label: LLM Gateway Systemone API
   slug: llmgateway-io-systemone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-systemone-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-systemone-api-openapi.yml
 - filename: llmgateway-io-videos-api-openapi.yml
   format: yaml
   label: LLM Gateway Videos API
   slug: llmgateway-io-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-videos-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-videos-api-openapi.yml
 - filename: llmgateway-io-chat-completions-api-openapi.yml
   format: yaml
   label: LLM Gateway Chat Completions API
   slug: llmgateway-io-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/openapi/llmgateway-io-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/llmgateway-io/openapi/llmgateway-io-chat-completions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 14
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/llmgat
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/systemone\n  method: post\n  operationId: v1_systemone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/messages\n  method: post\n  operationId: v1_messages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/audio/speech\n  method: post\n  operationId: v1_audio_speech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/audio/transcriptions\n  method: post\n  operationId: v1_audio_transcriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/realtime/client_secrets\n  method: post\n  operationId: v1_realtime_client_secrets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos\n  method: post\n  operationId: v1_videos_create\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos/{video_id}\n  method: get\n  operationId: v1_videos_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/videos/logs/{log_id}/content\n  method: get\n  operationId: v1_videos_log_content\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/videos/{video_id}/content\n  method: get\n  operationId: v1_videos_content\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llmgateway-io/refs/heads/main/agentic-access/llmgateway-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/llmgateway-io/agentic-access/llmgateway-io-agentic-access.yml
 summary_line: 21 operations · 14 acting
 tags:
 - Artificial Intelligence

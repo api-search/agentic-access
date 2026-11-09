@@ -9,7 +9,19 @@ api_specs:
   label: Amazon Direct Connect AWS Direct Connect API
   slug: amazon-direct-connect-aws-direct-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/openapi/amazon-direct-connect-aws-direct-connect-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-direct-connect/openapi/amazon-direct-connect-aws-direct-connect-api-openapi.yml
+- filename: amazon-direct-connect-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Direct Connect Direct Connect Operations API
+  slug: amazon-direct-connect-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-direct-connect/openapi/amazon-direct-connect-operations-api-openapi.yml
+- filename: amazon-direct-connect-resiliency-group-api-openapi.yml
+  format: yaml
+  label: Amazon Direct Connect Direct Connect Resiliency Group API
+  slug: amazon-direct-connect-resiliency-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-direct-connect/openapi/amazon-direct-connect-resiliency-group-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 1
@@ -76,9 +88,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \     purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=OvertureService.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=OvertureService.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=OvertureService.UpdateConnection\n  method: post\n  operationId: UpdateConnection\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=OvertureService.UpdateDirectConnectGateway\n  method: post\n  operationId: UpdateDirectConnectGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=OvertureService.UpdateDirectConnectGatewayAssociation\n  method: post\n  operationId: UpdateDirectConnectGatewayAssociation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=OvertureService.UpdateLag\n  method: post\n  operationId: UpdateLag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=OvertureService.UpdateVirtualInterfaceAttributes\n  method: post\n  operationId: UpdateVirtualInterfaceAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/agentic-access/amazon-direct-connect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-direct-connect/agentic-access/amazon-direct-connect-agentic-access.yml
 summary_line: 63 operations · 62 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

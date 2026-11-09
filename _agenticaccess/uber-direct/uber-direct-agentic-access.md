@@ -9,7 +9,7 @@ api_specs:
   label: Uber Direct Customers API
   slug: uber-direct-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/openapi/uber-direct-customers-api-openapi.yml
+  url: https://artifacts.apis.io/uber-direct/openapi/uber-direct-customers-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2
@@ -37,7 +37,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uber-direct-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 2\n    connected: 1\n  by_consequence:\n    write: 2\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/customers/{customer_id}/delivery_quotes\n  method: post\n  operationId: createDeliveryQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - eats.deliveries\n- path: /v1/customers/{customer_id}/deliveries\n  method:\
   \ post\n  operationId: createDelivery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - eats.deliveries\n- path: /v1/customers/{customer_id}/deliveries\n  method: get\n  operationId: listDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - eats.deliveries\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/agentic-access/uber-direct-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uber-direct/agentic-access/uber-direct-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
 - Logistics

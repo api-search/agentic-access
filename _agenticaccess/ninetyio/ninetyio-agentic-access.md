@@ -9,43 +9,43 @@ api_specs:
   label: Ninety.io Issues API
   slug: ninetyio-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-issues-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-issues-api-openapi.yml
 - filename: ninetyio-milestones-api-openapi.yml
   format: yaml
   label: Ninety.io Milestones API
   slug: ninetyio-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-milestones-api-openapi.yml
 - filename: ninetyio-rocks-api-openapi.yml
   format: yaml
   label: Ninety.io Rocks API
   slug: ninetyio-rocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-rocks-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-rocks-api-openapi.yml
 - filename: ninetyio-scorecard-api-openapi.yml
   format: yaml
   label: Ninety.io Scorecard API
   slug: ninetyio-scorecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-scorecard-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-scorecard-api-openapi.yml
 - filename: ninetyio-teams-api-openapi.yml
   format: yaml
   label: Ninety.io Teams API
   slug: ninetyio-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-teams-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-teams-api-openapi.yml
 - filename: ninetyio-to-dos-api-openapi.yml
   format: yaml
   label: Ninety.io To-Dos API
   slug: ninetyio-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-to-dos-api-openapi.yml
 - filename: ninetyio-users-api-openapi.yml
   format: yaml
   label: Ninety.io Users API
   slug: ninetyio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/openapi/ninetyio-users-api-openapi.yml
+  url: https://artifacts.apis.io/ninetyio/openapi/ninetyio-users-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 15
@@ -159,7 +159,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ninety
   \ token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/teams\n  method: get\n  operationId: PublicTeamController_findAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/todos\n  method: post\n  operationId: PublicTodoController_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/todos/query\n  method: post\n  operationId: PublicTodoController_queryTodos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/todos/{id}\n  method: get\n  operationId: PublicTodoController_findOne\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/todos/{id}\n  method: patch\n  operationId: PublicTodoController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/todos/{id}\n  method: delete\n  operationId: PublicTodoController_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n\
   \      human-in-the-loop: required\n    audit: required\n- path: /v1/users/{id}\n  method: get\n  operationId: PublicUserController_findOne\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/agentic-access/ninetyio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ninetyio/agentic-access/ninetyio-agentic-access.yml
 summary_line: 25 operations · 15 acting · 15 human-in-the-loop
 tags:
 - Company

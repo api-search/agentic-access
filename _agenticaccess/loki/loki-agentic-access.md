@@ -9,31 +9,31 @@ api_specs:
   label: Loki Config API
   slug: loki-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-config-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-config-api-openapi.yml
 - filename: loki-loki-api-openapi.yml
   format: yaml
   label: Loki API
   slug: loki-loki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-loki-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-loki-api-openapi.yml
 - filename: loki-metrics-api-openapi.yml
   format: yaml
   label: Loki Metrics API
   slug: loki-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-metrics-api-openapi.yml
 - filename: loki-otlp-api-openapi.yml
   format: yaml
   label: Loki Otlp API
   slug: loki-otlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-otlp-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-otlp-api-openapi.yml
 - filename: loki-ready-api-openapi.yml
   format: yaml
   label: Loki Ready API
   slug: loki-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-ready-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-ready-api-openapi.yml
 consequence_counts:
   read: 20
   write: 7
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/loki-c
   \ abnormal\n      - high-value\n    audit: required\n- path: /loki/api/v1/rules/{namespace}/{groupName}\n  method: get\n  operationId: getRuleGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loki/api/v1/rules/{namespace}/{groupName}\n  method: delete\n  operationId: deleteRuleGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loki/api/v1/delete\n  method: get\n  operationId: listDeleteRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loki/api/v1/delete\n  method: post\n  operationId: createDeleteRequest\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loki/api/v1/delete\n  method: delete\n  operationId: cancelDeleteRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loki/api/v1/format_query\n  method: get\n  operationId: formatQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics\n  method: get\n  operationId: metrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /otlp/v1/logs\n  method: post\n  operationId: pushOtlpLogs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ready\n  method: get\n  operationId: ready\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/agentic-access/loki-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loki/agentic-access/loki-agentic-access.yml
 summary_line: 27 operations · 7 acting
 tags:
 - Logging

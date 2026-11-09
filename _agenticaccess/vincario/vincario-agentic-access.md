@@ -8,43 +8,43 @@ api_specs:
   label: Vincario VIN Decoder API
   slug: vincario-vin-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-vin-decoder-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-vin-decoder-api-openapi.yml
 - filename: vincario-oem-vin-lookup-api-openapi.yml
   format: yaml
   label: Vincario OEM VIN Lookup API
   slug: vincario-oem-vin-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-oem-vin-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-oem-vin-lookup-api-openapi.yml
 - filename: vincario-oem-service-history-api-openapi.yml
   format: yaml
   label: Vincario OEM Service History API
   slug: vincario-oem-service-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-oem-service-history-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-oem-service-history-api-openapi.yml
 - filename: vincario-vehicle-market-value-api-openapi.yml
   format: yaml
   label: Vincario Vehicle Market Value API
   slug: vincario-vehicle-market-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-vehicle-market-value-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-vehicle-market-value-api-openapi.yml
 - filename: vincario-stolen-check-api-openapi.yml
   format: yaml
   label: Vincario Stolen Check API
   slug: vincario-stolen-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-stolen-check-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-stolen-check-api-openapi.yml
 - filename: vincario-get-balance-api-openapi.yml
   format: yaml
   label: Vincario Credit Balance API
   slug: vincario-get-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-get-balance-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-get-balance-api-openapi.yml
 - filename: vincario-enums-api-openapi.yml
   format: yaml
   label: Vincario Enums API
   slug: vincario-enums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/openapi/vincario-enums-api-openapi.yml
+  url: https://artifacts.apis.io/vincario/openapi/vincario-enums-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-10-17'\nmethod: generated\nsource: openapi/vincar
   \ Enum_Color\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/decode/value-list/enum/enum_drive.{format}\n  method: get\n  operationId: Enum_Drive\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/decode/value-list/enum/enum_fuel.{format}\n  method: get\n  operationId: Enum_Fuel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/decode/value-list/enum/enum_product_type.{format}\n  method: get\n  operationId: Enum_Product_Type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/decode/value-list/enum/enum_transmission.{format}\n\
   \  method: get\n  operationId: Enum_Transmission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/balance.{format}\n  method: get\n  operationId: Get_Balance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/oem/history/{VIN}.{format}\n  method: get\n  operationId: OEM_Service_History\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/oem/{VIN}.{format}\n  method: get\n  operationId: OEM_VIN_Lookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/stolen-check/{VIN}.{format}\n\
   \  method: get\n  operationId: Stolen_Check\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/vehicle-market-value/{VIN}.{format}\n  method: get\n  operationId: Vehicle_Market_Value\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/decode/info/{VIN}.{format}\n  method: get\n  operationId: VIN_Decode_Info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /3.2/{API_KEY}/{CONTROL_SUM}/decode/{VIN}.{format}\n  method: get\n  operationId: VIN_Decode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/agentic-access/vincario-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vincario/agentic-access/vincario-agentic-access.yml
 summary_line: 16 operations
 tags:
 - VIN

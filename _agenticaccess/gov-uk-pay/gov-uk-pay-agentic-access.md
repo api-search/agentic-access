@@ -9,31 +9,31 @@ api_specs:
   label: GOV.UK Pay Agreements API
   slug: gov-uk-pay-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-agreements-api-openapi.yml
 - filename: gov-uk-pay-authorise-card-payments-api-openapi.yml
   format: yaml
   label: GOV.UK Pay Authorise card payments API
   slug: gov-uk-pay-authorise-card-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-authorise-card-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-authorise-card-payments-api-openapi.yml
 - filename: gov-uk-pay-card-payments-api-openapi.yml
   format: yaml
   label: GOV.UK Pay Card payments API
   slug: gov-uk-pay-card-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-card-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-card-payments-api-openapi.yml
 - filename: gov-uk-pay-disputes-api-openapi.yml
   format: yaml
   label: GOV.UK Pay Disputes API
   slug: gov-uk-pay-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-disputes-api-openapi.yml
 - filename: gov-uk-pay-refunding-card-payments-api-openapi.yml
   format: yaml
   label: GOV.UK Pay Refunding card payments API
   slug: gov-uk-pay-refunding-card-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/openapi/gov-uk-pay-refunding-card-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-pay/openapi/gov-uk-pay-refunding-card-payments-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 9
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \   - high-value\n    audit: required\n- path: /v1/payments/{paymentId}\n  method: get\n  operationId: Get a payment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/{paymentId}/cancel\n  method: post\n  operationId: Cancel a payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/{paymentId}/capture\n  method: post\n  operationId: Capture a payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/{paymentId}/events\n  method: get\n  operationId: Get events for a payment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/{paymentId}/refunds\n  method: get\n  operationId: Get all refunds for a payment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/{paymentId}/refunds\n  method: post\n  operationId: Submit a refund for a payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/payments/{paymentId}/refunds/{refundId}\n  method: get\n  operationId: Get a payment refund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/refunds\n  method: get\n  operationId: Search refunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/agentic-access/gov-uk-pay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gov-uk-pay/agentic-access/gov-uk-pay-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - Payments

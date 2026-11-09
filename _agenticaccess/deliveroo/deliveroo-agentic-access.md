@@ -9,55 +9,55 @@ api_specs:
   label: Deliveroo Catalogue API
   slug: catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-catalogue-api-openapi.yml
 - filename: deliveroo-picking-api-openapi.yml
   format: yaml
   label: Deliveroo Picking API
   slug: picking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-picking-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-picking-api-openapi.yml
 - filename: deliveroo-deliveries-api-openapi.yml
   format: yaml
   label: Deliveroo Deliveries API
   slug: deliveroo-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-deliveries-api-openapi.yml
 - filename: deliveroo-menus-api-openapi.yml
   format: yaml
   label: Deliveroo Menus API
   slug: deliveroo-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-menus-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-menus-api-openapi.yml
 - filename: deliveroo-opening-hours-api-openapi.yml
   format: yaml
   label: Deliveroo Opening Hours API
   slug: deliveroo-opening-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-opening-hours-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-opening-hours-api-openapi.yml
 - filename: deliveroo-orders-api-openapi.yml
   format: yaml
   label: Deliveroo Orders API
   slug: deliveroo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-orders-api-openapi.yml
 - filename: deliveroo-pricing-api-openapi.yml
   format: yaml
   label: Deliveroo Pricing API
   slug: deliveroo-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-pricing-api-openapi.yml
 - filename: deliveroo-quotes-api-openapi.yml
   format: yaml
   label: Deliveroo Quotes API
   slug: deliveroo-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-quotes-api-openapi.yml
 - filename: deliveroo-sync-status-api-openapi.yml
   format: yaml
   label: Deliveroo Sync Status API
   slug: deliveroo-sync-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/openapi/deliveroo-sync-status-api-openapi.yml
+  url: https://artifacts.apis.io/deliveroo/openapi/deliveroo-sync-status-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 4
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/delive
   \  method: put\n  operationId: startPicking\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /picking/v2/orders/{order_id}\n  method: put\n  operationId: updateOrderItems\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /signature/v1/quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /signature/v1/orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /daas/v1/deliveries\n  method: post\n  operationId: scheduleDelivery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/v1/brands/{brand_id}/sites/{site_id}/opening_hours\n  method: get\n  operationId:\
   \ getSiteOpeningHours\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/agentic-access/deliveroo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/deliveroo/agentic-access/deliveroo-agentic-access.yml
 summary_line: 15 operations · 11 acting
 tags:
 - Food Delivery

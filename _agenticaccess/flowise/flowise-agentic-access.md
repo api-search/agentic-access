@@ -9,79 +9,79 @@ api_specs:
   label: Flowise Assistants API
   slug: flowise-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-assistants-api-openapi.yml
 - filename: flowise-attachments-api-openapi.yml
   format: yaml
   label: Flowise Attachments API
   slug: flowise-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-attachments-api-openapi.yml
 - filename: flowise-chatflows-api-openapi.yml
   format: yaml
   label: Flowise Chatflows API
   slug: flowise-chatflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-chatflows-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-chatflows-api-openapi.yml
 - filename: flowise-chatmessage-api-openapi.yml
   format: yaml
   label: Flowise Chatmessage API
   slug: flowise-chatmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-chatmessage-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-chatmessage-api-openapi.yml
 - filename: flowise-document-store-api-openapi.yml
   format: yaml
   label: Flowise Document Store API
   slug: flowise-document-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-document-store-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-document-store-api-openapi.yml
 - filename: flowise-feedback-api-openapi.yml
   format: yaml
   label: Flowise Feedback API
   slug: flowise-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-feedback-api-openapi.yml
 - filename: flowise-leads-api-openapi.yml
   format: yaml
   label: Flowise Leads API
   slug: flowise-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-leads-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-leads-api-openapi.yml
 - filename: flowise-ping-api-openapi.yml
   format: yaml
   label: Flowise Ping API
   slug: flowise-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-ping-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-ping-api-openapi.yml
 - filename: flowise-prediction-api-openapi.yml
   format: yaml
   label: Flowise Prediction API
   slug: flowise-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-prediction-api-openapi.yml
 - filename: flowise-tools-api-openapi.yml
   format: yaml
   label: Flowise Tools API
   slug: flowise-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-tools-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-tools-api-openapi.yml
 - filename: flowise-upsert-history-api-openapi.yml
   format: yaml
   label: Flowise Upsert History API
   slug: flowise-upsert-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-upsert-history-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-upsert-history-api-openapi.yml
 - filename: flowise-variables-api-openapi.yml
   format: yaml
   label: Flowise Variables API
   slug: flowise-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-variables-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-variables-api-openapi.yml
 - filename: flowise-vector-api-openapi.yml
   format: yaml
   label: Flowise Vector API
   slug: flowise-vector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/openapi/flowise-vector-api-openapi.yml
+  url: https://artifacts.apis.io/flowise/openapi/flowise-vector-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/flowis
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upsert-history/{id}\n  method: get\n  operationId: getAllUpsertHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upsert-history/{id}\n  method: patch\n  operationId: patchDeleteUpsertHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /variables\n  method: post\n  operationId: createVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /variables\n  method: get\n  operationId: getAllVariables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variables/{id}\n  method: put\n  operationId: updateVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /variables/{id}\n  method: delete\n  operationId: deleteVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vector/upsert/{id}\n  method:\
   \ post\n  operationId: vectorUpsert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/agentic-access/flowise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flowise/agentic-access/flowise-agentic-access.yml
 summary_line: 46 operations · 29 acting
 tags:
 - Agents

@@ -9,49 +9,49 @@ api_specs:
   label: Trustpilot Business Units API
   slug: trustpilot-business-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-business-units-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-business-units-api-openapi.yml
 - filename: trustpilot-conversations-api-openapi.yml
   format: yaml
   label: Trustpilot Conversations API
   slug: trustpilot-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-conversations-api-openapi.yml
 - filename: trustpilot-images-api-openapi.yml
   format: yaml
   label: Trustpilot Images API
   slug: trustpilot-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-images-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-images-api-openapi.yml
 - filename: trustpilot-invitations-api-openapi.yml
   format: yaml
   label: Trustpilot Invitations API
   slug: trustpilot-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-invitations-api-openapi.yml
 - filename: trustpilot-product-review-management-api-openapi.yml
   format: yaml
   label: Trustpilot Product Review Management API
   slug: trustpilot-product-review-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-product-review-management-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-product-review-management-api-openapi.yml
 - filename: trustpilot-product-reviews-api-openapi.yml
   format: yaml
   label: Trustpilot Product Reviews API
   slug: trustpilot-product-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-product-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-product-reviews-api-openapi.yml
 - filename: trustpilot-review-management-api-openapi.yml
   format: yaml
   label: Trustpilot Review Management API
   slug: trustpilot-review-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-review-management-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-review-management-api-openapi.yml
 - filename: trustpilot-reviews-api-openapi.yml
   format: yaml
   label: Trustpilot Reviews API
   slug: trustpilot-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/trustpilot/openapi/trustpilot-reviews-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 26
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/trustp
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/private/reviews/{reviewId}/find-reviewer\n  method: post\n  operationId: findReviewer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/business-units/{businessUnitId}/reviews\n  method: get\n  operationId: getBusinessUnitReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/business-units/{businessUnitId}/all-reviews\n  method: get\n  operationId: getAllBusinessUnitReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /v1/private/business-units/{businessUnitId}/reviews\n  method: get\n  operationId: getPrivateBusinessUnitReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reviews/latest\n  method: get\n  operationId: getLatestReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reviews/{reviewId}\n  method: get\n  operationId: getReview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reviews/{reviewId}/web-links\n  method: get\n  operationId: getReviewWebLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reviews/{reviewId}/likes\n\
   \  method: get\n  operationId: getReviewLikes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/agentic-access/trustpilot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trustpilot/agentic-access/trustpilot-agentic-access.yml
 summary_line: 38 operations · 12 acting
 tags:
 - Consumer Reviews

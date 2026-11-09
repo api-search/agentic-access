@@ -9,103 +9,103 @@ api_specs:
   label: Grist Attachments API
   slug: grist-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-attachments-api-openapi.yml
 - filename: grist-columns-api-openapi.yml
   format: yaml
   label: Grist Columns API
   slug: grist-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-columns-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-columns-api-openapi.yml
 - filename: grist-data-api-openapi.yml
   format: yaml
   label: Grist Data API
   slug: grist-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-data-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-data-api-openapi.yml
 - filename: grist-docs-api-openapi.yml
   format: yaml
   label: Grist Docs API
   slug: grist-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-docs-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-docs-api-openapi.yml
 - filename: grist-forms-api-openapi.yml
   format: yaml
   label: Grist Forms API
   slug: grist-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-forms-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-forms-api-openapi.yml
 - filename: grist-orgs-api-openapi.yml
   format: yaml
   label: Grist Orgs API
   slug: grist-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-orgs-api-openapi.yml
 - filename: grist-profile-api-openapi.yml
   format: yaml
   label: Grist Profile API
   slug: grist-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-profile-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-profile-api-openapi.yml
 - filename: grist-records-api-openapi.yml
   format: yaml
   label: Grist Records API
   slug: grist-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-records-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-records-api-openapi.yml
 - filename: grist-service-accounts-api-openapi.yml
   format: yaml
   label: Grist service accounts API
   slug: grist-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-service-accounts-api-openapi.yml
 - filename: grist-session-api-openapi.yml
   format: yaml
   label: Grist Session API
   slug: grist-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-session-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-session-api-openapi.yml
 - filename: grist-sql-api-openapi.yml
   format: yaml
   label: Grist Sql API
   slug: grist-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-sql-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-sql-api-openapi.yml
 - filename: grist-tables-api-openapi.yml
   format: yaml
   label: Grist Tables API
   slug: grist-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-tables-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-tables-api-openapi.yml
 - filename: grist-templates-api-openapi.yml
   format: yaml
   label: Grist Templates API
   slug: grist-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-templates-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-templates-api-openapi.yml
 - filename: grist-users-api-openapi.yml
   format: yaml
   label: Grist Users API
   slug: grist-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-users-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-users-api-openapi.yml
 - filename: grist-webhooks-api-openapi.yml
   format: yaml
   label: Grist Webhooks API
   slug: grist-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-webhooks-api-openapi.yml
 - filename: grist-widgets-api-openapi.yml
   format: yaml
   label: Grist Widgets API
   slug: grist-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-widgets-api-openapi.yml
 - filename: grist-workspaces-api-openapi.yml
   format: yaml
   label: Grist Workspaces API
   slug: grist-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/openapi/grist-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/grist/openapi/grist-workspaces-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 45
@@ -190,8 +190,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/grist-
   \  method: delete\n  operationId: clearWebhookQueueForWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /docs/{docId}/sql\n  method: get\n  operationId: runSqlGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs/{docId}/sql\n  method: post\n  operationId: runSql\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/user\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/user/name\n  method: post\n  operationId: updateUserName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/user/locale\n  method: post\n  operationId: updateUserLocale\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/apikey\n  method: get\n  operationId: getApiKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /profile/apikey\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/apikey\n  method: delete\n  operationId: deleteApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/access/active\n  method: get\n  operationId: getActiveSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full\
-  \ source: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/agentic-access/grist-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/agentic-access/grist-agentic-access.yml
+  \ source: https://artifacts.apis.io/grist/agentic-access/grist-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/grist/agentic-access/grist-agentic-access.yml
 summary_line: 120 operations · 75 acting · 3 human-in-the-loop
 tags:
 - Spreadsheets

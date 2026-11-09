@@ -3,25 +3,6 @@ acting_count: 3
 action_class_counts:
   acting: 3
   connected: 9
-api_specs:
-- filename: peppyrus-message-api-openapi.yml
-  format: yaml
-  label: Peppyrus Message API
-  slug: peppyrus-message-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peppyrus/refs/heads/main/openapi/peppyrus-message-api-openapi.yml
-- filename: peppyrus-organization-api-openapi.yml
-  format: yaml
-  label: Peppyrus Organization API
-  slug: peppyrus-organization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peppyrus/refs/heads/main/openapi/peppyrus-organization-api-openapi.yml
-- filename: peppyrus-peppol-api-openapi.yml
-  format: yaml
-  label: Peppyrus Peppol API
-  slug: peppyrus-peppol-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peppyrus/refs/heads/main/openapi/peppyrus-peppol-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3
@@ -51,13 +32,11 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/peppyr
   \ 3600\n    audit: none\n- path: /message/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /message/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /message/{id}/confirm\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /message/{id}/render\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /message/{id}/report\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/info\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/peppol\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /peppol/bestMatch\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /peppol/lookup\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /peppol/search\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peppyrus/refs/heads/main/agentic-access/peppyrus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/peppyrus/agentic-access/peppyrus-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
-- e-invoicing
-- Peppol
-- API
-- Belgium
-- SaaS
+- Company
+- PEPPOL
+- E-Invoicing
 - Free
 ---

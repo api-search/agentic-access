@@ -8,43 +8,43 @@ api_specs:
   label: National Hockey League Game Center API
   slug: national-hockey-league-game-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-game-center-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-game-center-api-openapi.yml
 - filename: national-hockey-league-players-api-openapi.yml
   format: yaml
   label: National Hockey League Players API
   slug: national-hockey-league-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-players-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-players-api-openapi.yml
 - filename: national-hockey-league-schedule-api-openapi.yml
   format: yaml
   label: National Hockey League Schedule API
   slug: national-hockey-league-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-schedule-api-openapi.yml
 - filename: national-hockey-league-scores-api-openapi.yml
   format: yaml
   label: National Hockey League Scores API
   slug: national-hockey-league-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-scores-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-scores-api-openapi.yml
 - filename: national-hockey-league-standings-api-openapi.yml
   format: yaml
   label: National Hockey League Standings API
   slug: national-hockey-league-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-standings-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-standings-api-openapi.yml
 - filename: national-hockey-league-stats-api-openapi.yml
   format: yaml
   label: National Hockey League Stats API
   slug: national-hockey-league-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-stats-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-stats-api-openapi.yml
 - filename: national-hockey-league-teams-api-openapi.yml
   format: yaml
   label: National Hockey League Teams API
   slug: national-hockey-league-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-teams-api-openapi.yml
+  url: https://artifacts.apis.io/national-hockey-league/openapi/national-hockey-league-teams-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nation
   \ getScoreByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/standings/now\n  method: get\n  operationId: getStandingsNow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/standings/{date}\n  method: get\n  operationId: getStandingsByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/roster/{team}/current\n  method: get\n  operationId: getRosterCurrent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/roster/{team}/{season}\n  method: get\n  operationId: getRosterBySeason\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/club-stats/{team}/now\n  method: get\n  operationId: getClubStatsNow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/club-schedule-season/{team}/now\n  method: get\n  operationId: getClubScheduleSeasonNow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/player/{player}/landing\n  method: get\n  operationId: getPlayerLanding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/player/{player}/game-log/{season}/{game-type}\n  method: get\n  operationId: getPlayerGameLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/skater-stats-leaders/current\n  method: get\n  operationId: getSkaterStatsLeadersCurrent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/goalie-stats-leaders/current\n  method: get\n  operationId: getGoalieStatsLeadersCurrent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gamecenter/{game-id}/boxscore\n  method: get\n  operationId: getBoxscore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gamecenter/{game-id}/play-by-play\n  method: get\n  operationId: getPlayByPlay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/agentic-access/national-hockey-league-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/national-hockey-league/agentic-access/national-hockey-league-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Sports

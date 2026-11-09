@@ -9,139 +9,139 @@ api_specs:
   label: Teachworks Availabilities API
   slug: teachworks-availabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-availabilities-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-availabilities-api-openapi.yml
 - filename: teachworks-cost-premiums-api-openapi.yml
   format: yaml
   label: Teachworks Cost Premiums API
   slug: teachworks-cost-premiums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-cost-premiums-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-cost-premiums-api-openapi.yml
 - filename: teachworks-credit-note-allocations-api-openapi.yml
   format: yaml
   label: Teachworks Credit Note Allocations API
   slug: teachworks-credit-note-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-credit-note-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-credit-note-allocations-api-openapi.yml
 - filename: teachworks-customers-api-openapi.yml
   format: yaml
   label: Teachworks Customers API
   slug: teachworks-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-customers-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-customers-api-openapi.yml
 - filename: teachworks-employees-api-openapi.yml
   format: yaml
   label: Teachworks Employees API
   slug: teachworks-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-employees-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-employees-api-openapi.yml
 - filename: teachworks-invoices-api-openapi.yml
   format: yaml
   label: Teachworks Invoices API
   slug: teachworks-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-invoices-api-openapi.yml
 - filename: teachworks-lesson-participants-api-openapi.yml
   format: yaml
   label: Teachworks Lesson Participants API
   slug: teachworks-lesson-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-lesson-participants-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-lesson-participants-api-openapi.yml
 - filename: teachworks-lessons-api-openapi.yml
   format: yaml
   label: Teachworks Lessons API
   slug: teachworks-lessons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-lessons-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-lessons-api-openapi.yml
 - filename: teachworks-locations-api-openapi.yml
   format: yaml
   label: Teachworks Locations API
   slug: teachworks-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-locations-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-locations-api-openapi.yml
 - filename: teachworks-other-compensation-api-openapi.yml
   format: yaml
   label: Teachworks Other Compensation API
   slug: teachworks-other-compensation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-other-compensation-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-other-compensation-api-openapi.yml
 - filename: teachworks-other-events-api-openapi.yml
   format: yaml
   label: Teachworks Other Events API
   slug: teachworks-other-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-other-events-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-other-events-api-openapi.yml
 - filename: teachworks-payment-allocations-api-openapi.yml
   format: yaml
   label: Teachworks Payment Allocations API
   slug: teachworks-payment-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-payment-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-payment-allocations-api-openapi.yml
 - filename: teachworks-payments-api-openapi.yml
   format: yaml
   label: Teachworks Payments API
   slug: teachworks-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-payments-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-payments-api-openapi.yml
 - filename: teachworks-repertoires-api-openapi.yml
   format: yaml
   label: Teachworks Repertoires API
   slug: teachworks-repertoires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-repertoires-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-repertoires-api-openapi.yml
 - filename: teachworks-result-groups-api-openapi.yml
   format: yaml
   label: Teachworks Result Groups API
   slug: teachworks-result-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-result-groups-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-result-groups-api-openapi.yml
 - filename: teachworks-results-api-openapi.yml
   format: yaml
   label: Teachworks Results API
   slug: teachworks-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-results-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-results-api-openapi.yml
 - filename: teachworks-services-api-openapi.yml
   format: yaml
   label: Teachworks Services API
   slug: teachworks-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-services-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-services-api-openapi.yml
 - filename: teachworks-student-groups-api-openapi.yml
   format: yaml
   label: Teachworks Student Groups API
   slug: teachworks-student-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-student-groups-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-student-groups-api-openapi.yml
 - filename: teachworks-students-api-openapi.yml
   format: yaml
   label: Teachworks Students API
   slug: teachworks-students-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-students-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-students-api-openapi.yml
 - filename: teachworks-subjects-api-openapi.yml
   format: yaml
   label: Teachworks Subjects API
   slug: teachworks-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-subjects-api-openapi.yml
 - filename: teachworks-unavailabilities-api-openapi.yml
   format: yaml
   label: Teachworks Unavailabilities API
   slug: teachworks-unavailabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-unavailabilities-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-unavailabilities-api-openapi.yml
 - filename: teachworks-wage-payments-api-openapi.yml
   format: yaml
   label: Teachworks Wage Payments API
   slug: teachworks-wage-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-wage-payments-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-wage-payments-api-openapi.yml
 - filename: teachworks-wage-tiers-api-openapi.yml
   format: yaml
   label: Teachworks Wage Tiers API
   slug: teachworks-wage-tiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/openapi/teachworks-wage-tiers-api-openapi.yml
+  url: https://artifacts.apis.io/teachworks/openapi/teachworks-wage-tiers-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 50
@@ -214,7 +214,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/teachw
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /result_groups\n  method: get\n  operationId: listResultGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /result_groups/{id}\n  method: get\n  operationId: getResultGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results\n  method: get\n  operationId: listResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results\n  method: post\n  operationId: createResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /results/{id}\n  method: get\n  operationId: getResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results/{id}\n  method: put\n  operationId: updateResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repertoires\n  method: get\n  operationId: listRepertoires\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repertoires\n \
   \ method: post\n  operationId: createRepertoire\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repertoires/{id}\n  method: get\n  operationId: getRepertoire\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/agentic-access/teachworks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teachworks/agentic-access/teachworks-agentic-access.yml
 summary_line: 75 operations · 25 acting
 tags:
 - Education

@@ -9,49 +9,49 @@ api_specs:
   label: DailyPay Accounts API
   slug: dailypay-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-accounts-api-openapi.yml
 - filename: dailypay-card-tokenization-api-openapi.yml
   format: yaml
   label: DailyPay Card Tokenization API
   slug: dailypay-card-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-card-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-card-tokenization-api-openapi.yml
 - filename: dailypay-health-api-openapi.yml
   format: yaml
   label: DailyPay Health API
   slug: dailypay-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-health-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-health-api-openapi.yml
 - filename: dailypay-jobs-api-openapi.yml
   format: yaml
   label: DailyPay Jobs API
   slug: dailypay-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-jobs-api-openapi.yml
 - filename: dailypay-organizations-api-openapi.yml
   format: yaml
   label: DailyPay Organizations API
   slug: dailypay-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-organizations-api-openapi.yml
 - filename: dailypay-paychecks-api-openapi.yml
   format: yaml
   label: DailyPay Paychecks API
   slug: dailypay-paychecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-paychecks-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-paychecks-api-openapi.yml
 - filename: dailypay-people-api-openapi.yml
   format: yaml
   label: DailyPay People API
   slug: dailypay-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-people-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-people-api-openapi.yml
 - filename: dailypay-transfers-api-openapi.yml
   format: yaml
   label: DailyPay Transfers API
   slug: dailypay-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-transfers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/dailyp
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/paychecks\n  method: get\n  operationId: listPaychecks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/organizations/{organization_id}\n  method: get\n  operationId: readOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - client:admin\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/organizations\n  method: get\n  operationId: listOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - client:admin\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/people/{person_id}\n  method: get\n  operationId: readPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  scope:\n    - client:admin\n    - user:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/people/{person_id}\n  method: patch\n  operationId: updatePerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - user:read_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cards/generic\n  method: post\n  operationId: createGenericCardToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - client:admin\n    - user:read\n- path: /rest/health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    scope:\n    - health:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/agentic-access/dailypay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dailypay/agentic-access/dailypay-agentic-access.yml
 summary_line: 18 operations · 6 acting
 tags:
 - Company

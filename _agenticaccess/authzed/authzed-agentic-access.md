@@ -9,31 +9,31 @@ api_specs:
   label: Authzed Experimental API
   slug: authzed-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-experimental-api-openapi.yml
 - filename: authzed-permissions-api-openapi.yml
   format: yaml
   label: Authzed Permissions API
   slug: authzed-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-permissions-api-openapi.yml
 - filename: authzed-relationships-api-openapi.yml
   format: yaml
   label: Authzed Relationships API
   slug: authzed-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-relationships-api-openapi.yml
 - filename: authzed-schema-api-openapi.yml
   format: yaml
   label: Authzed Schema API
   slug: authzed-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-schema-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-schema-api-openapi.yml
 - filename: authzed-watch-api-openapi.yml
   format: yaml
   label: Authzed Watch API
   slug: authzed-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-watch-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-watch-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 2
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/authze
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/schema/permissions/computable\n  method: post\n  operationId: SchemaService_ComputablePermissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/schema/permissions/dependent\n  method: post\n  operationId: SchemaService_DependentRelations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/schema/read\n  method: post\n  operationId: SchemaService_ReadSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/schema/reflectschema\n  method: post\n  operationId: SchemaService_ReflectSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/schema/write\n  method: post\n  operationId: SchemaService_WriteSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watch\n  method: post\n  operationId: WatchService_Watch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/agentic-access/authzed-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/authzed/agentic-access/authzed-agentic-access.yml
 summary_line: 27 operations · 25 acting
 tags:
 - Authorization

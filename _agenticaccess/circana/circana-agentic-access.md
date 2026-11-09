@@ -9,43 +9,43 @@ api_specs:
   label: Circana Brands API
   slug: circana-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-brands-api-openapi.yml
+  url: https://artifacts.apis.io/circana/openapi/circana-brands-api-openapi.yml
 - filename: circana-categories-api-openapi.yml
   format: yaml
   label: Circana Categories API
   slug: circana-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-categories-api-openapi.yml
+  url: https://artifacts.apis.io/circana/openapi/circana-categories-api-openapi.yml
 - filename: circana-consumer-panel-api-openapi.yml
   format: yaml
   label: Circana Consumer Panel API
   slug: circana-consumer-panel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-consumer-panel-api-openapi.yml
+  url: https://artifacts.apis.io/circana/openapi/circana-consumer-panel-api-openapi.yml
 - filename: circana-exports-api-openapi.yml
   format: yaml
   label: Circana Exports API
   slug: circana-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-exports-api-openapi.yml
+  url: https://artifacts.apis.io/circana/openapi/circana-exports-api-openapi.yml
 - filename: circana-market-data-api-openapi.yml
   format: yaml
   label: Circana Market Data API
   slug: circana-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/circana/openapi/circana-market-data-api-openapi.yml
 - filename: circana-reports-api-openapi.yml
   format: yaml
   label: Circana Reports API
   slug: circana-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-reports-api-openapi.yml
+  url: https://artifacts.apis.io/circana/openapi/circana-reports-api-openapi.yml
 - filename: circana-retailers-api-openapi.yml
   format: yaml
   label: Circana Retailers API
   slug: circana-retailers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-retailers-api-openapi.yml
+  url: https://artifacts.apis.io/circana/openapi/circana-retailers-api-openapi.yml
 consequence_counts:
   read: 12
   write: 2
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/circan
   \  method: get\n  operationId: getConsumerPurchases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consumer-panel/segments\n  method: get\n  operationId: getConsumerSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories/{category_id}\n  method: get\n  operationId: getCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /brands\n  method: get\n  operationId: listBrands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /brands/{brand_id}\n  method: get\n  operationId: getBrand\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /retailers\n  method: get\n  operationId: listRetailers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports\n  method: post\n  operationId: createReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /reports/{report_id}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exports\n  method: post\n  operationId: createExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /exports/{export_id}\n  method: get\n  operationId: getExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/agentic-access/circana-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/circana/agentic-access/circana-agentic-access.yml
 summary_line: 14 operations · 2 acting
 tags:
 - Analytics

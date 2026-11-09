@@ -9,31 +9,31 @@ api_specs:
   label: Azure Service Bus Namespaces API
   slug: azure-service-bus-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-namespaces-api-openapi.yml
 - filename: azure-service-bus-queues-api-openapi.yml
   format: yaml
   label: Azure Service Bus Queues API
   slug: azure-service-bus-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-queues-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-queues-api-openapi.yml
 - filename: azure-service-bus-subscriptions-api-openapi.yml
   format: yaml
   label: Azure Service Bus Subscriptions API
   slug: azure-service-bus-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-subscriptions-api-openapi.yml
 - filename: azure-service-bus-topics-api-openapi.yml
   format: yaml
   label: Azure Service Bus Topics API
   slug: azure-service-bus-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-topics-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-topics-api-openapi.yml
 - filename: azure-service-bus-messages-api-openapi.yml
   format: yaml
   label: Azure Service Bus Messages API
   slug: microsoft-azure-service-bus-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-messages-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-messages-api-openapi.yml
 consequence_counts:
   read: 9
   write: 8
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \   - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}\n  method: put\n  operationId: Topics_CreateOrUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}\n  method: delete\n  operationId: Topics_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/subscriptions\n  method: get\n  operationId: Subscriptions_ListByTopic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/subscriptions/{subscriptionName}\n  method: get\n  operationId: Subscriptions_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/subscriptions/{subscriptionName}\n\
   \  method: put\n  operationId: Subscriptions_CreateOrUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/subscriptions/{subscriptionName}\n  method: delete\n  operationId: Subscriptions_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/agentic-access/azure-service-bus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-service-bus/agentic-access/azure-service-bus-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
 - Microsoft Azure

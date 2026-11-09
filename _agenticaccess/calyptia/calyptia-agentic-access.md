@@ -9,193 +9,193 @@ api_specs:
   label: Calyptia Bucket API
   slug: calyptia-bucket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-bucket-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-bucket-api-openapi.yml
 - filename: calyptia-classicdashboard-api-openapi.yml
   format: yaml
   label: Calyptia Classic Dashboard API
   slug: calyptia-classicdashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-classicdashboard-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-classicdashboard-api-openapi.yml
 - filename: calyptia-collection-api-openapi.yml
   format: yaml
   label: Calyptia Collection API
   slug: calyptia-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-collection-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-collection-api-openapi.yml
 - filename: calyptia-dashboard-api-openapi.yml
   format: yaml
   label: Calyptia Dashboard API
   slug: calyptia-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-dashboard-api-openapi.yml
 - filename: calyptia-dataset-api-openapi.yml
   format: yaml
   label: Calyptia Dataset API
   slug: calyptia-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-dataset-api-openapi.yml
 - filename: calyptia-derivedlabel-api-openapi.yml
   format: yaml
   label: Calyptia Derived Label API
   slug: calyptia-derivedlabel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-derivedlabel-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-derivedlabel-api-openapi.yml
 - filename: calyptia-derivedmetric-api-openapi.yml
   format: yaml
   label: Calyptia Derived Metric API
   slug: calyptia-derivedmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-derivedmetric-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-derivedmetric-api-openapi.yml
 - filename: calyptia-droprule-api-openapi.yml
   format: yaml
   label: Calyptia Drop Rule API
   slug: calyptia-droprule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-droprule-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-droprule-api-openapi.yml
 - filename: calyptia-gcpmetricsintegration-api-openapi.yml
   format: yaml
   label: Calyptia Gcp Metrics Integration API
   slug: calyptia-gcpmetricsintegration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-gcpmetricsintegration-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-gcpmetricsintegration-api-openapi.yml
 - filename: calyptia-logallocationconfig-api-openapi.yml
   format: yaml
   label: Calyptia Log Allocation Config API
   slug: calyptia-logallocationconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-logallocationconfig-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-logallocationconfig-api-openapi.yml
 - filename: calyptia-logingestconfig-api-openapi.yml
   format: yaml
   label: Calyptia Log Ingest Config API
   slug: calyptia-logingestconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-logingestconfig-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-logingestconfig-api-openapi.yml
 - filename: calyptia-logscaleaction-api-openapi.yml
   format: yaml
   label: Calyptia Log Scale Action API
   slug: calyptia-logscaleaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-logscaleaction-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-logscaleaction-api-openapi.yml
 - filename: calyptia-logscalealert-api-openapi.yml
   format: yaml
   label: Calyptia Log Scale Alert API
   slug: calyptia-logscalealert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-logscalealert-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-logscalealert-api-openapi.yml
 - filename: calyptia-mappingrule-api-openapi.yml
   format: yaml
   label: Calyptia Mapping Rule API
   slug: calyptia-mappingrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-mappingrule-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-mappingrule-api-openapi.yml
 - filename: calyptia-monitor-api-openapi.yml
   format: yaml
   label: Calyptia Monitor API
   slug: calyptia-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-monitor-api-openapi.yml
 - filename: calyptia-mutingrule-api-openapi.yml
   format: yaml
   label: Calyptia Muting Rule API
   slug: calyptia-mutingrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-mutingrule-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-mutingrule-api-openapi.yml
 - filename: calyptia-notifier-api-openapi.yml
   format: yaml
   label: Calyptia Notifier API
   slug: calyptia-notifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-notifier-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-notifier-api-openapi.yml
 - filename: calyptia-otelmetricsingestion-api-openapi.yml
   format: yaml
   label: Calyptia Otel Metrics Ingestion API
   slug: calyptia-otelmetricsingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-otelmetricsingestion-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-otelmetricsingestion-api-openapi.yml
 - filename: calyptia-recordingrule-api-openapi.yml
   format: yaml
   label: Calyptia Recording Rule API
   slug: calyptia-recordingrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-recordingrule-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-recordingrule-api-openapi.yml
 - filename: calyptia-rolluprule-api-openapi.yml
   format: yaml
   label: Calyptia Rollup Rule API
   slug: calyptia-rolluprule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-rolluprule-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-rolluprule-api-openapi.yml
 - filename: calyptia-service-api-openapi.yml
   format: yaml
   label: Calyptia Service API
   slug: calyptia-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-service-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-service-api-openapi.yml
 - filename: calyptia-slo-api-openapi.yml
   format: yaml
   label: Calyptia SLO API
   slug: calyptia-slo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-slo-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-slo-api-openapi.yml
 - filename: calyptia-team-api-openapi.yml
   format: yaml
   label: Calyptia Team API
   slug: calyptia-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-team-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-team-api-openapi.yml
 - filename: calyptia-tracebehavior-api-openapi.yml
   format: yaml
   label: Calyptia Trace Behavior API
   slug: calyptia-tracebehavior-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-tracebehavior-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracebehavior-api-openapi.yml
 - filename: calyptia-tracebehaviorconfig-api-openapi.yml
   format: yaml
   label: Calyptia Trace Behavior Config API
   slug: calyptia-tracebehaviorconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-tracebehaviorconfig-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracebehaviorconfig-api-openapi.yml
 - filename: calyptia-tracejaegerremotesamplingstrategy-api-openapi.yml
   format: yaml
   label: Calyptia Trace Jaeger Remote Sampling Strategy API
   slug: calyptia-tracejaegerremotesamplingstrategy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-tracejaegerremotesamplingstrategy-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracejaegerremotesamplingstrategy-api-openapi.yml
 - filename: calyptia-tracemetricsrule-api-openapi.yml
   format: yaml
   label: Calyptia Trace Metrics Rule API
   slug: calyptia-tracemetricsrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-tracemetricsrule-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracemetricsrule-api-openapi.yml
 - filename: calyptia-tracetailsamplingrules-api-openapi.yml
   format: yaml
   label: Calyptia Trace Tail Sampling Rules API
   slug: calyptia-tracetailsamplingrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-tracetailsamplingrules-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracetailsamplingrules-api-openapi.yml
 - filename: calyptia-grafana-dashboard-api-openapi.yml
   format: yaml
   label: Calyptia Grafana Dashboard API
   slug: calyptia-grafana-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-grafana-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-grafana-dashboard-api-openapi.yml
 - filename: calyptia-notification-policy-api-openapi.yml
   format: yaml
   label: Calyptia Notification Policy API
   slug: calyptia-notification-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-notification-policy-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-notification-policy-api-openapi.yml
 - filename: calyptia-resource-pools-api-openapi.yml
   format: yaml
   label: Calyptia Resource Pools API
   slug: calyptia-resource-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-resource-pools-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-resource-pools-api-openapi.yml
 - filename: calyptia-service-account-api-openapi.yml
   format: yaml
   label: Calyptia Service Account API
   slug: calyptia-service-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-service-account-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-service-account-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 84
@@ -274,8 +274,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/calypt
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pipeline_ports/{portID}\n  method: delete\n  operationId: deletePipelinePort\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/config_validate/{agentType}\n  method: post\n  operationId: validateConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/config_validate_v2\n  method: post\n  operationId: validateConfigV2\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectID}/environments\n  method: get\n  operationId: projectEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectID}/environments\n  method: post\n  operationId: createEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/environments/{environmentID}\n  method: patch\n  operationId: updateEnvironments\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/environments/{environmentID}\n  method: delete\n  operationId: deleteEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectID}/metrics\n  method: get\n  operationId: projectMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agents/{agentID}/metrics\n  method: get\n  operationId: agentMetricsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pipeline_metrics/{pipelineID}\n  method: get\n  operationId: pipelineMetricsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/aggregator_metrics/{aggregatorID}\n  method: get\n  operationId: aggregatorMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/aggregators/{aggregatorID}/pipelines_metrics\n  method: get\n  operationId: aggregatorPipelinesMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/agentic-access/calyptia-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/agentic-access/calyptia-agentic-access.yml
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pipeline_metrics/{pipelineID}\n  method: get\n  operationId: pipelineMetricsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/aggregator_metrics/{aggregatorID}\n  method: get\n  operationId: aggregatorMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/aggregators/{aggregatorID}/pipelines_metrics\n  method: get\n  operationId: aggregatorPipelinesMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/calyptia/agentic-access/calyptia-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/calyptia/agentic-access/calyptia-agentic-access.yml
 summary_line: 183 operations · 99 acting · 1 human-in-the-loop
 tags:
 - Company

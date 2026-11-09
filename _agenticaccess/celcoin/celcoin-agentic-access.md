@@ -9,73 +9,73 @@ api_specs:
   label: Celcoin AnnotationCompetenceCalendar API
   slug: celcoin-annotationcompetencecalendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-annotationcompetencecalendar-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-annotationcompetencecalendar-api-openapi.yml
 - filename: celcoin-bankcorrespondentagent-api-openapi.yml
   format: yaml
   label: Celcoin BankCorrespondentAgent API
   slug: celcoin-bankcorrespondentagent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-bankcorrespondentagent-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-bankcorrespondentagent-api-openapi.yml
 - filename: celcoin-consignee-api-openapi.yml
   format: yaml
   label: Celcoin Consignee API
   slug: celcoin-consignee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-consignee-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-consignee-api-openapi.yml
 - filename: celcoin-files-api-openapi.yml
   format: yaml
   label: Celcoin Files API
   slug: celcoin-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-files-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-files-api-openapi.yml
 - filename: celcoin-guarantee-api-openapi.yml
   format: yaml
   label: Celcoin Guarantee API
   slug: celcoin-guarantee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-guarantee-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-guarantee-api-openapi.yml
 - filename: celcoin-legacyguarantee-api-openapi.yml
   format: yaml
   label: Celcoin LegacyGuarantee API
   slug: celcoin-legacyguarantee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-legacyguarantee-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-legacyguarantee-api-openapi.yml
 - filename: celcoin-legalperson-api-openapi.yml
   format: yaml
   label: Celcoin LegalPerson API
   slug: celcoin-legalperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-legalperson-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-legalperson-api-openapi.yml
 - filename: celcoin-naturalperson-api-openapi.yml
   format: yaml
   label: Celcoin NaturalPerson API
   slug: celcoin-naturalperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-naturalperson-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-naturalperson-api-openapi.yml
 - filename: celcoin-proposal-api-openapi.yml
   format: yaml
   label: Celcoin Proposal API
   slug: celcoin-proposal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-proposal-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-proposal-api-openapi.yml
 - filename: celcoin-settlement-api-openapi.yml
   format: yaml
   label: Celcoin Settlement API
   slug: celcoin-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-settlement-api-openapi.yml
 - filename: celcoin-taggingjourney-api-openapi.yml
   format: yaml
   label: Celcoin TaggingJourney API
   slug: celcoin-taggingjourney-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-taggingjourney-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-taggingjourney-api-openapi.yml
 - filename: celcoin-outstanding-balance-api-openapi.yml
   format: yaml
   label: Celcoin Outstanding Balance API
   slug: celcoin-outstanding-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/openapi/celcoin-outstanding-balance-api-openapi.yml
+  url: https://artifacts.apis.io/celcoin/openapi/celcoin-outstanding-balance-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 14
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/celcoi
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outstanding-balance/settled-purchase/{outstandingBalancetInformedId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outstanding-balance/report-payment/{outstandingBalancePaymentId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /proposal/linked-request\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /onboarding-proposal/files\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /onboarding-proposal/legal-person\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /onboarding-proposal/natural-person\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /onboarding-proposal/account/{account}/natural-person\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /onboarding-proposal\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /onboarding-proposal/tagging-journey\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/agentic-access/celcoin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/celcoin/agentic-access/celcoin-agentic-access.yml
 summary_line: 45 operations · 31 acting
 tags:
 - Banking as a Service

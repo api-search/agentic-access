@@ -9,19 +9,19 @@ api_specs:
   label: Kimetsu A2A API
   slug: kimetsu-dev-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/kimetsu-dev/openapi/kimetsu-dev-a2a-api-openapi.yml
 - filename: kimetsu-dev-discovery-api-openapi.yml
   format: yaml
   label: Kimetsu Discovery API
   slug: kimetsu-dev-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/kimetsu-dev/openapi/kimetsu-dev-discovery-api-openapi.yml
 - filename: kimetsu-dev-sidequest-api-openapi.yml
   format: yaml
   label: Kimetsu Sidequest API
   slug: kimetsu-dev-sidequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-sidequest-api-openapi.yml
+  url: https://artifacts.apis.io/kimetsu-dev/openapi/kimetsu-dev-sidequest-api-openapi.yml
 consequence_counts:
   read: 14
   write: 1
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/kimets
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/agent.json\n  method: get\n  operationId: get_legacy_a2a_agent_card\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: get_service_health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects\n  method: get\n  operationId: list_projects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sidequest\n  method: get\n  operationId: get_sidequest_gateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v1/sidequest/proposals\n  method: get\n  operationId: list_sidequest_proposals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sidequest/winners\n  method: get\n  operationId: list_sidequest_winners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sidequest/agents\n  method: get\n  operationId: list_sidequest_agents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a/sidequest\n  method: post\n  operationId: request_sidequest_guidance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/agentic-access/kimetsu-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kimetsu-dev/agentic-access/kimetsu-dev-agentic-access.yml
 summary_line: 15 operations · 1 acting
 tags:
 - Company

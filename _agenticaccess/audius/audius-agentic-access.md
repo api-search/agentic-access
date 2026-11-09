@@ -9,121 +9,121 @@ api_specs:
   label: Audius Challenges API
   slug: audius-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-challenges-api-openapi.yml
 - filename: audius-cid-data-api-openapi.yml
   format: yaml
   label: Audius Cid Data API
   slug: audius-cid-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-cid-data-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-cid-data-api-openapi.yml
 - filename: audius-coins-api-openapi.yml
   format: yaml
   label: Audius Coins API
   slug: audius-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-coins-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-coins-api-openapi.yml
 - filename: audius-comments-api-openapi.yml
   format: yaml
   label: Audius Comments API
   slug: audius-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-comments-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-comments-api-openapi.yml
 - filename: audius-dashboard-wallet-users-api-openapi.yml
   format: yaml
   label: Audius Dashboard Wallet Users API
   slug: audius-dashboard-wallet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-dashboard-wallet-users-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-dashboard-wallet-users-api-openapi.yml
 - filename: audius-developer-apps-api-openapi.yml
   format: yaml
   label: Audius Developer Apps API
   slug: audius-developer-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-developer-apps-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-developer-apps-api-openapi.yml
 - filename: audius-events-api-openapi.yml
   format: yaml
   label: Audius Events API
   slug: audius-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-events-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-events-api-openapi.yml
 - filename: audius-explore-api-openapi.yml
   format: yaml
   label: Audius Explore API
   slug: audius-explore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-explore-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-explore-api-openapi.yml
 - filename: audius-notifications-api-openapi.yml
   format: yaml
   label: Audius Notifications API
   slug: audius-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-notifications-api-openapi.yml
 - filename: audius-playlists-api-openapi.yml
   format: yaml
   label: Audius Playlists API
   slug: audius-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-playlists-api-openapi.yml
 - filename: audius-prizes-api-openapi.yml
   format: yaml
   label: Audius Prizes API
   slug: audius-prizes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-prizes-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-prizes-api-openapi.yml
 - filename: audius-reactions-api-openapi.yml
   format: yaml
   label: Audius Reactions API
   slug: audius-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-reactions-api-openapi.yml
 - filename: audius-resolve-api-openapi.yml
   format: yaml
   label: Audius Resolve API
   slug: audius-resolve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-resolve-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-resolve-api-openapi.yml
 - filename: audius-rewards-api-openapi.yml
   format: yaml
   label: Audius Rewards API
   slug: audius-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-rewards-api-openapi.yml
 - filename: audius-search-api-openapi.yml
   format: yaml
   label: Audius Search API
   slug: audius-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-search-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-search-api-openapi.yml
 - filename: audius-tips-api-openapi.yml
   format: yaml
   label: Audius Tips API
   slug: audius-tips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-tips-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-tips-api-openapi.yml
 - filename: audius-tracks-api-openapi.yml
   format: yaml
   label: Audius Tracks API
   slug: audius-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-tracks-api-openapi.yml
 - filename: audius-transactions-api-openapi.yml
   format: yaml
   label: Audius Transactions API
   slug: audius-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-transactions-api-openapi.yml
 - filename: audius-users-api-openapi.yml
   format: yaml
   label: Audius Users API
   slug: audius-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-users-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-users-api-openapi.yml
 - filename: audius-wallet-api-openapi.yml
   format: yaml
   label: Audius Wallet API
   slug: audius-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/audius/openapi/audius-wallet-api-openapi.yml
 consequence_counts:
   read: 155
   safety-critical: 1
@@ -191,8 +191,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/audius
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grantees/{address}/users\n  method: get\n  operationId: Get Grantee Users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/balance/history\n  method: get\n  operationId: Get User Balance History\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/challenges\n  method: get\n  operationId: Get User Challenges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/coins\n  method: get\n  operationId: Get User Coins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /users/{id}/coins/{mint}\n  method: get\n  operationId: Get User Coin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/{walletId}/coins\n  method: get\n  operationId: Get Wallet Coins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/collectibles\n  method: get\n  operationId: Get User Collectibles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/comments\n  method: get\n  operationId: Get User Comments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/connected_wallets\n  method:\
   \ get\n  operationId: Get connected wallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/favorites\n  method: get\n  operationId: Get User Favorites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/followers\n  method: get\n  operationId: Get Followers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/follow\n  method: post\n  operationId: Follow User\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
-  \    - high-value\n    audit: required\n- path: /users/{id}/follow\n  method: delete\n  operationId: Unfollow User\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/grants\n  method: post\n  operationId: Create Grant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/agentic-access/audius-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/agentic-access/audius-agentic-access.yml
+  \    - high-value\n    audit: required\n- path: /users/{id}/follow\n  method: delete\n  operationId: Unfollow User\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/grants\n  method: post\n  operationId: Create Grant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/audius/agentic-access/audius-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/audius/agentic-access/audius-agentic-access.yml
 summary_line: 207 operations · 52 acting · 1 human-in-the-loop
 tags:
 - Music

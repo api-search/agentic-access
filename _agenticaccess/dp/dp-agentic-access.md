@@ -9,91 +9,91 @@ api_specs:
   label: DP Technology (Bohrium) AI 科学小导师 (bohrium-mentor) API
   slug: dp-ai-bohrium-mentor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-ai-bohrium-mentor-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-ai-bohrium-mentor-api-openapi.yml
 - filename: dp-bohrium-dataset-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 数据集 (bohrium-dataset) API
   slug: dp-bohrium-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-dataset-api-openapi.yml
 - filename: dp-bohrium-file-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 文件盘 (bohrium-file) API
   slug: dp-bohrium-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-file-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-file-api-openapi.yml
 - filename: dp-bohrium-image-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 容器镜像 (bohrium-image) API
   slug: dp-bohrium-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-image-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-image-api-openapi.yml
 - filename: dp-bohrium-job-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 计算任务 (bohrium-job) API
   slug: dp-bohrium-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-job-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-job-api-openapi.yml
 - filename: dp-bohrium-knowledge-base-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 知识库 (bohrium-knowledge-base) API
   slug: dp-bohrium-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-knowledge-base-api-openapi.yml
 - filename: dp-bohrium-lkm-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 大知识模型 (bohrium-lkm) API
   slug: dp-bohrium-lkm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-lkm-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-lkm-api-openapi.yml
 - filename: dp-bohrium-node-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 开发节点 (bohrium-node) API
   slug: dp-bohrium-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-node-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-node-api-openapi.yml
 - filename: dp-bohrium-paper-search-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 论文与专利搜索 (bohrium-paper-search) API
   slug: dp-bohrium-paper-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-paper-search-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-paper-search-api-openapi.yml
 - filename: dp-bohrium-project-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 项目管理 (bohrium-project) API
   slug: dp-bohrium-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-project-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-project-api-openapi.yml
 - filename: dp-bohrium-scholar-search-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 学者搜索 (bohrium-scholar-search) API
   slug: dp-bohrium-scholar-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-scholar-search-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-scholar-search-api-openapi.yml
 - filename: dp-bohrium-sciencepedia-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 科学百科 (bohrium-sciencepedia) API
   slug: dp-bohrium-sciencepedia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-sciencepedia-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-sciencepedia-api-openapi.yml
 - filename: dp-bohrium-tools-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 科学工具库 (bohrium-tools) API
   slug: dp-bohrium-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-tools-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-tools-api-openapi.yml
 - filename: dp-bohrium-web-search-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) 网页搜索 (bohrium-web-search) API
   slug: dp-bohrium-web-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-bohrium-web-search-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-bohrium-web-search-api-openapi.yml
 - filename: dp-pdf-bohrium-pdf-parser-api-openapi.yml
   format: yaml
   label: DP Technology (Bohrium) PDF 解析 (bohrium-pdf-parser) API
   slug: dp-pdf-bohrium-pdf-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/openapi/dp-pdf-bohrium-pdf-parser-api-openapi.yml
+  url: https://artifacts.apis.io/dp/openapi/dp-pdf-bohrium-pdf-parser-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 67
@@ -158,8 +158,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/dp-boh
   \    audit: required\n- path: /openapi/v2/sigma-search/api/v4/ai_search/sessions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v2/sigma-search/api/v3/sse/ai_search/v1/{sessionId}/stream\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v2/sigma-search/api/v4/ai_search/sessions/{sessionId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v2/sigma-search/api/v4/{sessionId}/history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v2/node/add\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v2/node/resources\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v2/node/resources/price\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v2/node/{machine_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v2/node/restart/{machine_id}\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v2/node/modify/{machine_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v2/node/ds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/v2/node/ds/bind\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v2/paper/rag/pass/keyword\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v2/paper/rag/pass/patent\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/agentic-access/dp-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/agentic-access/dp-agentic-access.yml
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v2/paper/rag/pass/keyword\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/v2/paper/rag/pass/patent\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/dp/agentic-access/dp-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/dp/agentic-access/dp-agentic-access.yml
 summary_line: 166 operations · 99 acting
 tags:
 - Company

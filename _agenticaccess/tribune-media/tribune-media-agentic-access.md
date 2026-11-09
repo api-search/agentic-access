@@ -8,61 +8,61 @@ api_specs:
   label: Tribune Media Celebrities API
   slug: tribune-media-celebrities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-celebrities-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-celebrities-api-openapi.yml
 - filename: tribune-media-lineups-api-openapi.yml
   format: yaml
   label: Tribune Media Lineups API
   slug: tribune-media-lineups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-lineups-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-lineups-api-openapi.yml
 - filename: tribune-media-movies-api-openapi.yml
   format: yaml
   label: Tribune Media Movies API
   slug: tribune-media-movies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-movies-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-movies-api-openapi.yml
 - filename: tribune-media-online-video-api-openapi.yml
   format: yaml
   label: Tribune Media Online Video API
   slug: tribune-media-online-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-online-video-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-online-video-api-openapi.yml
 - filename: tribune-media-programs-api-openapi.yml
   format: yaml
   label: Tribune Media Programs API
   slug: tribune-media-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-programs-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-programs-api-openapi.yml
 - filename: tribune-media-series-api-openapi.yml
   format: yaml
   label: Tribune Media Series API
   slug: tribune-media-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-series-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-series-api-openapi.yml
 - filename: tribune-media-social-api-openapi.yml
   format: yaml
   label: Tribune Media Social API
   slug: tribune-media-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-social-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-social-api-openapi.yml
 - filename: tribune-media-sports-api-openapi.yml
   format: yaml
   label: Tribune Media Sports API
   slug: tribune-media-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-sports-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-sports-api-openapi.yml
 - filename: tribune-media-stations-api-openapi.yml
   format: yaml
   label: Tribune Media Stations API
   slug: tribune-media-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-stations-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-stations-api-openapi.yml
 - filename: tribune-media-theatres-api-openapi.yml
   format: yaml
   label: Tribune Media Theatres API
   slug: tribune-media-theatres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/openapi/tribune-media-theatres-api-openapi.yml
+  url: https://artifacts.apis.io/tribune-media/openapi/tribune-media-theatres-api-openapi.yml
 consequence_counts:
   read: 32
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tms-on
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.1/sports/{sportsId}\n  method: get\n  operationId: getSportById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.1/sports/{sportsId}/events/airings\n  method: get\n  operationId: getSportEventAirings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.1/sports/{sportsId}/non-events/airings\n  method: get\n  operationId: getSportNonEventAirings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.1/sports/organizations/{organizationId}/airings\n  method: get\n  operationId: getOrganizationAirings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1.1/sports/teams/{teamBrandId}/airings\n  method: get\n  operationId: getTeamAirings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.1/celebs/{personId}\n  method: get\n  operationId: getCelebrityById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.1/celebs/{personId}/airings\n  method: get\n  operationId: getCelebrityAirings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.1/celebs/talkShowAirings\n  method: get\n  operationId: getTalkShowCelebrityAirings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/series/{seriesId}\n\
   \  method: get\n  operationId: getOnlineVideoSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/episodes/{rootId_tmsId}\n  method: get\n  operationId: getOnlineVideoEpisode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/movies/{rootId_tmsId}\n  method: get\n  operationId: getOnlineVideoMovie\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /social/{rootId_seriesId}\n  method: get\n  operationId: getSocialData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/agentic-access/tribune-media-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tribune-media/agentic-access/tribune-media-agentic-access.yml
 summary_line: 32 operations
 tags:
 - Media

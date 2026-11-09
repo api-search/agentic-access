@@ -9,31 +9,31 @@ api_specs:
   label: Alliance Data Systems (Bread Financial Holdings) Buyers API
   slug: alliance-data-systems-buyers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-buyers-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-buyers-api-openapi.yml
 - filename: alliance-data-systems-carts-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Carts API
   slug: alliance-data-systems-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-carts-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-carts-api-openapi.yml
 - filename: alliance-data-systems-payment-options-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Payment Options API
   slug: alliance-data-systems-payment-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-payment-options-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-payment-options-api-openapi.yml
 - filename: alliance-data-systems-shipping-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Shipping API
   slug: alliance-data-systems-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-shipping-api-openapi.yml
 - filename: alliance-data-systems-transactions-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Transactions API
   slug: alliance-data-systems-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-transactions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bread-
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionID}/shipping\n  method: get\n  operationId: getTransactionShipping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buyer/{id}\n  method: get\n  operationId: getBuyer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction\n  method: post\n  operationId: createTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /transaction/{transactionID}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction/{transactionID}/authorize\n  method: post\n  operationId: authorizeTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/{transactionID}/cancel\n  method: post\n  operationId: cancelTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/{transactionID}/settle\n\
   \  method: post\n  operationId: settleTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/{transactionID}/refund\n  method: post\n  operationId: refundTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-options\n  method: get\n  operationId: listPaymentOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/agentic-access/alliance-data-systems-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alliance-data-systems/agentic-access/alliance-data-systems-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - Financial Services

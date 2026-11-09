@@ -9,19 +9,19 @@ api_specs:
   label: Pixlee Content API
   slug: pixlee-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-content-api-openapi.yml
+  url: https://artifacts.apis.io/pixlee/openapi/pixlee-content-api-openapi.yml
 - filename: pixlee-albums-api-openapi.yml
   format: yaml
   label: Pixlee Albums API
   slug: pixlee-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-albums-api-openapi.yml
+  url: https://artifacts.apis.io/pixlee/openapi/pixlee-albums-api-openapi.yml
 - filename: pixlee-media-api-openapi.yml
   format: yaml
   label: Pixlee Media API
   slug: pixlee-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-media-api-openapi.yml
+  url: https://artifacts.apis.io/pixlee/openapi/pixlee-media-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/pixlee-content-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 1\n    acting: 3\n  by_consequence:\n    read: 1\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /albums/{album_id}/photos\n  method: get\n  operationId: get-approved-content-from-album\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /albums\n  method: post\n  operationId: add-product\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /media\n  method: post\n  operationId: create-new-content-from-url\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /media/file\n  method: post\n  operationId: create-new-content-from-file\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/agentic-access/pixlee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pixlee/agentic-access/pixlee-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
 - Company

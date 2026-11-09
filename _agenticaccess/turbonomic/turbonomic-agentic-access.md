@@ -9,61 +9,61 @@ api_specs:
   label: IBM Turbonomic Actions API
   slug: turbonomic-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-actions-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-actions-api-openapi.yml
 - filename: turbonomic-authentication-api-openapi.yml
   format: yaml
   label: IBM Turbonomic Authentication API
   slug: turbonomic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-authentication-api-openapi.yml
 - filename: turbonomic-entities-api-openapi.yml
   format: yaml
   label: IBM Turbonomic Entities API
   slug: turbonomic-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-entities-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-entities-api-openapi.yml
 - filename: turbonomic-groups-api-openapi.yml
   format: yaml
   label: IBM Turbonomic Groups API
   slug: turbonomic-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-groups-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-groups-api-openapi.yml
 - filename: turbonomic-markets-api-openapi.yml
   format: yaml
   label: IBM Turbonomic Markets API
   slug: turbonomic-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-markets-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-markets-api-openapi.yml
 - filename: turbonomic-policies-api-openapi.yml
   format: yaml
   label: IBM Turbonomic Policies API
   slug: turbonomic-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-policies-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-policies-api-openapi.yml
 - filename: turbonomic-statistics-api-openapi.yml
   format: yaml
   label: IBM Turbonomic Statistics API
   slug: turbonomic-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-statistics-api-openapi.yml
 - filename: turbonomic-targets-api-openapi.yml
   format: yaml
   label: IBM Turbonomic Targets API
   slug: turbonomic-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-targets-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-targets-api-openapi.yml
 - filename: turbonomic-templates-api-openapi.yml
   format: yaml
   label: IBM Turbonomic Templates API
   slug: turbonomic-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-templates-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-templates-api-openapi.yml
 - filename: turbonomic-topology-api-openapi.yml
   format: yaml
   label: IBM Turbonomic Topology API
   slug: turbonomic-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/openapi/turbonomic-topology-api-openapi.yml
+  url: https://artifacts.apis.io/turbonomic/openapi/turbonomic-topology-api-openapi.yml
 consequence_counts:
   read: 22
   write: 10
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/turbon
   - path: /markets/{uuid}/actions/stats\n  method: post\n  operationId: getMarketActionStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats\n  method: post\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /targets\n  method: get\n  operationId: getTargets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /targets/{uuid}\n  method: get\n  operationId: getTargetByUuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: get\n  operationId: getTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{uuid}\n  method: get\n  operationId: getTemplateByUuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{uuid}\n  method: delete\n  operationId: deleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /topology\n  method: get\n  operationId: getTopologyDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/agentic-access/turbonomic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/turbonomic/agentic-access/turbonomic-agentic-access.yml
 summary_line: 32 operations · 10 acting
 tags:
 - Application Resource Management

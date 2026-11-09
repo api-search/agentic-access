@@ -9,19 +9,19 @@ api_specs:
   label: Tenyks Auth API
   slug: tenyks-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tenyks/openapi/tenyks-auth-api-openapi.yml
 - filename: tenyks-data-upload-api-openapi.yml
   format: yaml
   label: Tenyks Data Upload API
   slug: tenyks-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/tenyks/openapi/tenyks-data-upload-api-openapi.yml
 - filename: tenyks-datasets-api-openapi.yml
   format: yaml
   label: Tenyks Datasets API
   slug: tenyks-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/openapi/tenyks-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/tenyks/openapi/tenyks-datasets-api-openapi.yml
 consequence_counts:
   read: 1
   write: 7
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/tenyks
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workspaces/tenyks/datasets\n  method: post\n  operationId: createDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/tenyks/datasets/{dataset_key}/images/annotations\n  method: put\n  operationId: uploadDatasetAnnotations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/tenyks/datasets/{dataset_key}/ingest\n  method: put\n  operationId: ingestDatasetAnnotations\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/tenyks/datasets/{dataset_key}/model_inferences\n  method: post\n  operationId: createModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/tenyks/datasets/{dataset_key}/model_inferences/{model_key}/predictions\n  method: put\n  operationId: uploadModelPredictions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/tenyks/datasets/{dataset_key}/model_inferences/{model_key}/ingest\n  method: put\n  operationId: ingestModelPredictions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/agentic-access/tenyks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tenyks/agentic-access/tenyks-agentic-access.yml
 summary_line: 8 operations · 7 acting
 tags:
 - Company

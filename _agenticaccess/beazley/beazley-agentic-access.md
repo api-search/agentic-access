@@ -9,115 +9,115 @@ api_specs:
   label: Beazley Audit API
   slug: beazley-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-audit-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-audit-api-openapi.yml
 - filename: beazley-check-api-openapi.yml
   format: yaml
   label: Beazley Check API
   slug: beazley-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-check-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-check-api-openapi.yml
 - filename: beazley-contacts-api-openapi.yml
   format: yaml
   label: Beazley Contacts API
   slug: beazley-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-contacts-api-openapi.yml
 - filename: beazley-currencies-api-openapi.yml
   format: yaml
   label: Beazley Currencies API
   slug: beazley-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-currencies-api-openapi.yml
 - filename: beazley-cyber-api-openapi.yml
   format: yaml
   label: Beazley Cyber API
   slug: beazley-cyber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-cyber-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-cyber-api-openapi.yml
 - filename: beazley-definitions-api-openapi.yml
   format: yaml
   label: Beazley Definitions API
   slug: beazley-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-definitions-api-openapi.yml
 - filename: beazley-health-api-openapi.yml
   format: yaml
   label: Beazley Health API
   slug: beazley-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-health-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-health-api-openapi.yml
 - filename: beazley-lockstate-api-openapi.yml
   format: yaml
   label: Beazley Lockstate API
   slug: beazley-lockstate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-lockstate-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-lockstate-api-openapi.yml
 - filename: beazley-microsites-api-openapi.yml
   format: yaml
   label: Beazley Microsites API
   slug: beazley-microsites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-microsites-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-microsites-api-openapi.yml
 - filename: beazley-organisations-api-openapi.yml
   format: yaml
   label: Beazley Organisations API
   slug: beazley-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-organisations-api-openapi.yml
 - filename: beazley-people-api-openapi.yml
   format: yaml
   label: Beazley People API
   slug: beazley-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-people-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-people-api-openapi.yml
 - filename: beazley-ping-api-openapi.yml
   format: yaml
   label: Beazley Ping API
   slug: beazley-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-ping-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-ping-api-openapi.yml
 - filename: beazley-products-api-openapi.yml
   format: yaml
   label: Beazley Products API
   slug: beazley-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-products-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-products-api-openapi.yml
 - filename: beazley-providers-api-openapi.yml
   format: yaml
   label: Beazley Providers API
   slug: beazley-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-providers-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-providers-api-openapi.yml
 - filename: beazley-rates-api-openapi.yml
   format: yaml
   label: Beazley Rates API
   slug: beazley-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-rates-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-rates-api-openapi.yml
 - filename: beazley-report-api-openapi.yml
   format: yaml
   label: Beazley Report API
   slug: beazley-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-report-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-report-api-openapi.yml
 - filename: beazley-risks-api-openapi.yml
   format: yaml
   label: Beazley Risks API
   slug: beazley-risks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-risks-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-risks-api-openapi.yml
 - filename: beazley-search-api-openapi.yml
   format: yaml
   label: Beazley Search API
   slug: beazley-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-search-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-search-api-openapi.yml
 - filename: beazley-faqs-api-openapi.yml
   format: yaml
   label: Beazley Faqs API
   slug: beazley-faqs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/openapi/beazley-faqs-api-openapi.yml
+  url: https://artifacts.apis.io/beazley/openapi/beazley-faqs-api-openapi.yml
 consequence_counts:
   read: 26
   write: 13
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/beazle
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/profileimagebyemail/\n  method: get\n  operationId: 5720682580979201c899e68d\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping/\n  method: get\n  operationId: 561e208f8097920ed881e641\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{term}\n  method: get\n  operationId: 59675c4259efa7b3b8c0fa3b\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers\n  method: get\n  operationId: 56d088f797fe1e081ca252eb\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /rates\n  method: get\n  operationId: 56d088f797fe1e081ca252ea\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report\n  method: post\n  operationId: 5893134739845516588448ca\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /risks/{id}\n  method: get\n  operationId: 5538d88d97fe1e0ff06f4248\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risks/{id}\n  method: put\n  operationId: 5538d88d97fe1e0ff06f424a\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /risks/\n  method: post\n  operationId: 5538d88d97fe1e0ff06f4249\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search\n  method: post\n  operationId: 5893134739845516588448c9\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/agentic-access/beazley-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beazley/agentic-access/beazley-agentic-access.yml
 summary_line: 39 operations · 13 acting
 tags:
 - Insurance

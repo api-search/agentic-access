@@ -8,55 +8,55 @@ api_specs:
   label: Energy Queensland Data Holder Customers API
   slug: energy-queensland-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-data-holder-customers-api-openapi.yml
 - filename: energy-queensland-data-holder-operations-api-openapi.yml
   format: yaml
   label: Energy Queensland Data Holder Operations API
   slug: energy-queensland-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-data-holder-operations-api-openapi.yml
 - filename: energy-queensland-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Energy Queensland Distributed Energy Resources API
   slug: energy-queensland-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-distributed-energy-resources-api-openapi.yml
 - filename: energy-queensland-electricity-service-points-api-openapi.yml
   format: yaml
   label: Energy Queensland Electricity Service Points API
   slug: energy-queensland-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-electricity-service-points-api-openapi.yml
 - filename: energy-queensland-electricity-usage-api-openapi.yml
   format: yaml
   label: Energy Queensland Electricity Usage API
   slug: energy-queensland-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-electricity-usage-api-openapi.yml
 - filename: energy-queensland-energy-account-balances-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Account Balances API
   slug: energy-queensland-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-account-balances-api-openapi.yml
 - filename: energy-queensland-energy-account-billing-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Account Billing API
   slug: energy-queensland-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-account-billing-api-openapi.yml
 - filename: energy-queensland-energy-accounts-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Accounts API
   slug: energy-queensland-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-accounts-api-openapi.yml
 - filename: energy-queensland-energy-plans-api-openapi.yml
   format: yaml
   label: Energy Queensland Energy Plans API
   slug: energy-queensland-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/energy-queensland/openapi/energy-queensland-energy-plans-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/energy
   \  method: post\n  operationId: listEnergyAccountBillingForSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/invoices\n  method: get\n  operationId: listEnergyAccountInvoicesBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/invoices\n  method: post\n  operationId: listEnergyInvoicesForSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/billing\n  method: get\n  operationId: getBillingForEnergyAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/invoices\n\
   \  method: get\n  operationId: getEnergyAccountInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts\n  method: get\n  operationId: listEnergyAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}\n  method: get\n  operationId: getEnergyAccountDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/concessions\n  method: get\n  operationId: getEnergyAccountConcessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/payment-schedule\n  method: get\n  operationId:\
   \ getEnergyAccountPaymentSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans\n  method: get\n  operationId: listEnergyPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans/{planId}\n  method: get\n  operationId: getEnergyPlanDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/agentic-access/energy-queensland-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/energy-queensland/agentic-access/energy-queensland-agentic-access.yml
 summary_line: 27 operations
 tags:
 - Energy

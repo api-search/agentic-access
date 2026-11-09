@@ -9,49 +9,49 @@ api_specs:
   label: Union.ai Domains API
   slug: unionai-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-domains-api-openapi.yml
+  url: https://artifacts.apis.io/unionai/openapi/unionai-domains-api-openapi.yml
 - filename: unionai-executions-api-openapi.yml
   format: yaml
   label: Union.ai Executions API
   slug: unionai-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-executions-api-openapi.yml
+  url: https://artifacts.apis.io/unionai/openapi/unionai-executions-api-openapi.yml
 - filename: unionai-launch-plans-api-openapi.yml
   format: yaml
   label: Union.ai Launch Plans API
   slug: unionai-launch-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-launch-plans-api-openapi.yml
+  url: https://artifacts.apis.io/unionai/openapi/unionai-launch-plans-api-openapi.yml
 - filename: unionai-node-executions-api-openapi.yml
   format: yaml
   label: Union.ai Node Executions API
   slug: unionai-node-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-node-executions-api-openapi.yml
+  url: https://artifacts.apis.io/unionai/openapi/unionai-node-executions-api-openapi.yml
 - filename: unionai-projects-api-openapi.yml
   format: yaml
   label: Union.ai Projects API
   slug: unionai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/unionai/openapi/unionai-projects-api-openapi.yml
 - filename: unionai-tasks-api-openapi.yml
   format: yaml
   label: Union.ai Tasks API
   slug: unionai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/unionai/openapi/unionai-tasks-api-openapi.yml
 - filename: unionai-version-api-openapi.yml
   format: yaml
   label: Union.ai Version API
   slug: unionai-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-version-api-openapi.yml
+  url: https://artifacts.apis.io/unionai/openapi/unionai-version-api-openapi.yml
 - filename: unionai-workflows-api-openapi.yml
   format: yaml
   label: Union.ai Workflows API
   slug: unionai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/unionai/openapi/unionai-workflows-api-openapi.yml
 consequence_counts:
   read: 18
   safety-critical: 1
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uniona
   \ recoverExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - all\n- path: /api/v1/executions/{project}/{domain}\n  method: get\n  operationId: listExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - all\n- path: /api/v1/executions/{project}/{domain}/{name}\n  method: get\n  operationId: getExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - all\n- path: /api/v1/executions/{project}/{domain}/{name}\n  method: put\n  operationId: updateExecution\n  x-agentic-access:\n    action-class: acting\n  \
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - all\n- path: /api/v1/executions/{project}/{domain}/{name}\n  method: delete\n  operationId: terminateExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n    scope:\n    - all\n- path: /api/v1/data/executions/{project}/{domain}/{name}\n  method: get\n  operationId: getExecutionData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - all\n- path: /api/v1/node_executions/{project}/{domain}/{name}\n\
   \  method: get\n  operationId: listNodeExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - all\n- path: /api/v1/version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - all\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/agentic-access/unionai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unionai/agentic-access/unionai-agentic-access.yml
 summary_line: 29 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

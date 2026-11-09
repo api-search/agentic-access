@@ -14,19 +14,19 @@ api_specs:
   label: We > Ultrarich Comparison API
   slug: wegtultrarich-comparison-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/openapi/wegtultrarich-comparison-api-openapi.yml
+  url: https://artifacts.apis.io/wegtultrarich/openapi/wegtultrarich-comparison-api-openapi.yml
 - filename: wegtultrarich-discovery-api-openapi.yml
   format: yaml
   label: We > Ultrarich Discovery API
   slug: wegtultrarich-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/openapi/wegtultrarich-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/wegtultrarich/openapi/wegtultrarich-discovery-api-openapi.yml
 - filename: wegtultrarich-wealth-expression-api-openapi.yml
   format: yaml
   label: We > Ultrarich Wealth Expression API
   slug: wegtultrarich-wealth-expression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/openapi/wegtultrarich-wealth-expression-api-openapi.yml
+  url: https://artifacts.apis.io/wegtultrarich/openapi/wegtultrarich-wealth-expression-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/wegtultrarich-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /expressions\n  method: get\n  operationId: expressions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /durationOfDailySpend\n  method: get\n  operationId: durationOfDailySpend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /heightOfMoneyStack\n  method: get\n  operationId:\
   \ heightOfMoneyStack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /numberOfItems\n  method: get\n  operationId: numberOfItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /growthOfCompoundInterest\n  method: get\n  operationId: growthOfCompoundInterest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comparison\n  method: get\n  operationId: comparison\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/agentic-access/wegtultrarich-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wegtultrarich/agentic-access/wegtultrarich-agentic-access.yml
 summary_line: 6 operations
 tags:
 - wealth inequality

@@ -9,49 +9,49 @@ api_specs:
   label: Sorsa Community API
   slug: sorsa-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-community-api-openapi.yml
+  url: https://artifacts.apis.io/sorsa/openapi/sorsa-community-api-openapi.yml
 - filename: sorsa-lists-api-openapi.yml
   format: yaml
   label: Sorsa Lists API
   slug: sorsa-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sorsa/openapi/sorsa-lists-api-openapi.yml
 - filename: sorsa-search-api-openapi.yml
   format: yaml
   label: Sorsa Search API
   slug: sorsa-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-search-api-openapi.yml
+  url: https://artifacts.apis.io/sorsa/openapi/sorsa-search-api-openapi.yml
 - filename: sorsa-sorsa-info-crypto-related-api-openapi.yml
   format: yaml
   label: Sorsa Info Crypto Related API
   slug: sorsa-sorsa-info-crypto-related-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-sorsa-info-crypto-related-api-openapi.yml
+  url: https://artifacts.apis.io/sorsa/openapi/sorsa-sorsa-info-crypto-related-api-openapi.yml
 - filename: sorsa-technical-endpoints-api-openapi.yml
   format: yaml
   label: Sorsa Technical Endpoints API
   slug: sorsa-technical-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-technical-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/sorsa/openapi/sorsa-technical-endpoints-api-openapi.yml
 - filename: sorsa-tweets-api-openapi.yml
   format: yaml
   label: Sorsa Tweets API
   slug: sorsa-tweets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-tweets-api-openapi.yml
+  url: https://artifacts.apis.io/sorsa/openapi/sorsa-tweets-api-openapi.yml
 - filename: sorsa-users-data-api-openapi.yml
   format: yaml
   label: Sorsa Users Data API
   slug: sorsa-users-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-users-data-api-openapi.yml
+  url: https://artifacts.apis.io/sorsa/openapi/sorsa-users-data-api-openapi.yml
 - filename: sorsa-verification-api-openapi.yml
   format: yaml
   label: Sorsa Verification API
   slug: sorsa-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/openapi/sorsa-verification-api-openapi.yml
+  url: https://artifacts.apis.io/sorsa/openapi/sorsa-verification-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 27
@@ -95,10 +95,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sorsa-
   \ getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info-batch\n  method: get\n  operationId: getInfoBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verified-followers\n  method: get\n  operationId: getVerifiedFollowers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /check-comment\n  method: get\n  operationId: getCheckComment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /check-community-member\n  method: post\n  operationId: postCheckCommunityMember\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /check-follow\n  method: post\n  operationId: postCheckFollow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /check-quoted\n  method: post\n  operationId: postCheckQuoted\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /check-retweet\n  method: post\n  operationId: postCheckRetweet\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/agentic-access/sorsa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sorsa/agentic-access/sorsa-agentic-access.yml
 summary_line: 40 operations · 13 acting
 tags:
-- twitter
+- Twitter
 - X
 - Social Media
 - Data Extraction

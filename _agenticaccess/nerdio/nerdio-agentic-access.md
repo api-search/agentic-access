@@ -9,25 +9,25 @@ api_specs:
   label: Nerdio Health API
   slug: nerdio-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-health-api-openapi.yml
+  url: https://artifacts.apis.io/nerdio/openapi/nerdio-health-api-openapi.yml
 - filename: nerdio-install-api-openapi.yml
   format: yaml
   label: Nerdio Install API
   slug: nerdio-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-install-api-openapi.yml
+  url: https://artifacts.apis.io/nerdio/openapi/nerdio-install-api-openapi.yml
 - filename: nerdio-invoices-api-openapi.yml
   format: yaml
   label: Nerdio Invoices API
   slug: nerdio-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/nerdio/openapi/nerdio-invoices-api-openapi.yml
 - filename: nerdio-usage-api-openapi.yml
   format: yaml
   label: Nerdio Usage API
   slug: nerdio-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-usage-api-openapi.yml
+  url: https://artifacts.apis.io/nerdio/openapi/nerdio-usage-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 5
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/nerdio
   \ post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-v{version}/suspend\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api-v{version}/reactivate\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n\
   \      human-in-the-loop: required\n    audit: required\n- path: /api-v{version}/cancel\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-v{version}/invoices\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-v{version}/invoices/grouped\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-v{version}/usage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/agentic-access/nerdio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nerdio/agentic-access/nerdio-agentic-access.yml
 summary_line: 9 operations · 4 acting · 2 human-in-the-loop
 tags:
 - Company

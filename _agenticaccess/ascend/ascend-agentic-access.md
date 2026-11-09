@@ -9,139 +9,139 @@ api_specs:
   label: Ascend Accounts API
   slug: ascend-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-accounts-api-openapi.yml
 - filename: ascend-attachments-api-openapi.yml
   format: yaml
   label: Ascend Attachments API
   slug: ascend-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-attachments-api-openapi.yml
 - filename: ascend-billables-api-openapi.yml
   format: yaml
   label: Ascend Billables API
   slug: ascend-billables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-billables-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-billables-api-openapi.yml
 - filename: ascend-cancelationreturns-api-openapi.yml
   format: yaml
   label: Ascend CancelationReturns API
   slug: ascend-cancelationreturns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-cancelationreturns-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-cancelationreturns-api-openapi.yml
 - filename: ascend-carriers-api-openapi.yml
   format: yaml
   label: Ascend Carriers API
   slug: ascend-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-carriers-api-openapi.yml
 - filename: ascend-contacts-api-openapi.yml
   format: yaml
   label: Ascend Contacts API
   slug: ascend-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-contacts-api-openapi.yml
 - filename: ascend-coveragetypes-api-openapi.yml
   format: yaml
   label: Ascend CoverageTypes API
   slug: ascend-coveragetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-coveragetypes-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-coveragetypes-api-openapi.yml
 - filename: ascend-financeestimate-api-openapi.yml
   format: yaml
   label: Ascend FinanceEstimate API
   slug: ascend-financeestimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-financeestimate-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-financeestimate-api-openapi.yml
 - filename: ascend-installments-api-openapi.yml
   format: yaml
   label: Ascend Installments API
   slug: ascend-installments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-installments-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-installments-api-openapi.yml
 - filename: ascend-insureds-api-openapi.yml
   format: yaml
   label: Ascend Insureds API
   slug: ascend-insureds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-insureds-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-insureds-api-openapi.yml
 - filename: ascend-invoices-api-openapi.yml
   format: yaml
   label: Ascend Invoices API
   slug: ascend-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-invoices-api-openapi.yml
 - filename: ascend-loans-api-openapi.yml
   format: yaml
   label: Ascend Loans API
   slug: ascend-loans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-loans-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-loans-api-openapi.yml
 - filename: ascend-organization-account-users-api-openapi.yml
   format: yaml
   label: Ascend Organization Account Users API
   slug: ascend-organization-account-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-organization-account-users-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-organization-account-users-api-openapi.yml
 - filename: ascend-paymentproposals-api-openapi.yml
   format: yaml
   label: Ascend PaymentProposals API
   slug: ascend-paymentproposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-paymentproposals-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-paymentproposals-api-openapi.yml
 - filename: ascend-payouts-api-openapi.yml
   format: yaml
   label: Ascend Payouts API
   slug: ascend-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-payouts-api-openapi.yml
 - filename: ascend-premiumreducingendorsements-beta-api-openapi.yml
   format: yaml
   label: Ascend PremiumReducingEndorsements (Beta) API
   slug: ascend-premiumreducingendorsements-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-premiumreducingendorsements-beta-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-premiumreducingendorsements-beta-api-openapi.yml
 - filename: ascend-programs-api-openapi.yml
   format: yaml
   label: Ascend Programs API
   slug: ascend-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-programs-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-programs-api-openapi.yml
 - filename: ascend-refunds-api-openapi.yml
   format: yaml
   label: Ascend Refunds API
   slug: ascend-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-refunds-api-openapi.yml
 - filename: ascend-returns-api-openapi.yml
   format: yaml
   label: Ascend Returns API
   slug: ascend-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-returns-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-returns-api-openapi.yml
 - filename: ascend-users-api-openapi.yml
   format: yaml
   label: Ascend Users API
   slug: ascend-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-users-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-users-api-openapi.yml
 - filename: ascend-wholesalers-api-openapi.yml
   format: yaml
   label: Ascend Wholesalers API
   slug: ascend-wholesalers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-wholesalers-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-wholesalers-api-openapi.yml
 - filename: ascend-installment-plans-api-openapi.yml
   format: yaml
   label: Ascend Installment Plans API
   slug: ascend-installment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-installment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-installment-plans-api-openapi.yml
 - filename: ascend-one-time-payments-api-openapi.yml
   format: yaml
   label: Ascend One-Time Payments API
   slug: ascend-one-time-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-one-time-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ascend/openapi/ascend-one-time-payments-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 37
@@ -275,7 +275,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/ascend
   \ method: post\n  operationId: createLoanPayoffEstimate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/programs/{id}/send\n  method: post\n  operationId: notifyInsured\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/programs/{id}/unarchive\n  method: post\n  operationId: unarchiveProgram\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/refunds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/users/{id}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wholesalers\n  method: get\n  operationId: listWholesalers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/agentic-access/ascend-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ascend/agentic-access/ascend-agentic-access.yml
 summary_line: 86 operations · 49 acting
 tags:
 - Company

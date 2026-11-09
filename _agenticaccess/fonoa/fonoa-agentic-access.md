@@ -9,25 +9,25 @@ api_specs:
   label: Fonoa Lookup V2 API
   slug: fonoa-lookup-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-lookup-v2-api-openapi.yml
+  url: https://artifacts.apis.io/fonoa/openapi/fonoa-lookup-v2-api-openapi.yml
 - filename: fonoa-onboarding-api-openapi.yml
   format: yaml
   label: Fonoa Onboarding API
   slug: fonoa-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/fonoa/openapi/fonoa-onboarding-api-openapi.yml
 - filename: fonoa-tax-api-openapi.yml
   format: yaml
   label: Fonoa Tax API
   slug: fonoa-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-tax-api-openapi.yml
+  url: https://artifacts.apis.io/fonoa/openapi/fonoa-tax-api-openapi.yml
 - filename: fonoa-transactions-api-openapi.yml
   format: yaml
   label: Fonoa Transactions API
   slug: fonoa-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/openapi/fonoa-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fonoa/openapi/fonoa-transactions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 8
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fonoa-
   \  audit: required\n- path: /lookup/v2/batch-validations\n  method: post\n  operationId: RequestbatchvalidationV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lookup/v2/batch-validations/{batch_id}\n  method: get\n  operationId: GetresultofbatchvalidationV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/v2/batch-validations/{batch_id}\n  method: delete\n  operationId: CancelbatchvalidationV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /lookup/v2/single-validations/{validation_id}\n  method: get\n  operationId: GetresultofvalidationV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/v2/single-validations/{validation_id}\n  method: delete\n  operationId: DeleteresultofvalidationV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lookup/v2/tin-search\n  method: post\n  operationId: RequestTINsearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/agentic-access/fonoa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fonoa/agentic-access/fonoa-agentic-access.yml
 summary_line: 10 operations · 8 acting
 tags:
 - Tax

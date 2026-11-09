@@ -9,55 +9,55 @@ api_specs:
   label: Lumos Tasks API
   slug: lumos-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-tasks-api-openapi.yml
 - filename: lumos-access-reviews-api-openapi.yml
   format: yaml
   label: Lumos Access Reviews API
   slug: lumos-access-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-access-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-access-reviews-api-openapi.yml
 - filename: lumos-core-api-openapi.yml
   format: yaml
   label: Lumos Core API
   slug: lumos-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-core-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-core-api-openapi.yml
 - filename: lumos-integration-webhooks-api-openapi.yml
   format: yaml
   label: Lumos Integration Webhooks API
   slug: lumos-integration-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-integration-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-integration-webhooks-api-openapi.yml
 - filename: lumos-knowledge-api-openapi.yml
   format: yaml
   label: Lumos Knowledge API
   slug: lumos-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-knowledge-api-openapi.yml
 - filename: lumos-lifecycle-management-api-openapi.yml
   format: yaml
   label: Lumos Lifecycle Management API
   slug: lumos-lifecycle-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-lifecycle-management-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-lifecycle-management-api-openapi.yml
 - filename: lumos-meta-api-openapi.yml
   format: yaml
   label: Lumos Meta API
   slug: lumos-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-meta-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-meta-api-openapi.yml
 - filename: lumos-vendor-management-api-openapi.yml
   format: yaml
   label: Lumos Vendor Management API
   slug: lumos-vendor-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-vendor-management-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-vendor-management-api-openapi.yml
 - filename: lumos-app-store-api-openapi.yml
   format: yaml
   label: Lumos App Store API
   slug: lumos-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/lumos/openapi/lumos-app-store-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 34
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lumos-
   \     - high-value\n    audit: required\n- path: /tasks/{task_id}/dismiss\n  method: post\n  operationId: dismissTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vendor_agreements\n  method: get\n  operationId: listVendorAgreements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor_agreements/{vendor_agreement_id}/custom_attributes/{label}\n  method: put\n  operationId: updateVendorAgreementAttribute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /found_documents\n  method: post\n  operationId: uploadFoundDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inline_webhooks\n  method: get\n  operationId: listInlineWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /info\n  method: get\n  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/agentic-access/lumos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lumos/agentic-access/lumos-agentic-access.yml
 summary_line: 67 operations · 33 acting
 tags:
 - Identity and Access Management

@@ -9,67 +9,67 @@ api_specs:
   label: Replicate Accounts API
   slug: replicate-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-accounts-api-openapi.yml
 - filename: replicate-cancel-api-openapi.yml
   format: yaml
   label: Replicate Cancel API
   slug: replicate-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-cancel-api-openapi.yml
 - filename: replicate-collections-api-openapi.yml
   format: yaml
   label: Replicate Collections API
   slug: replicate-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-collections-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-collections-api-openapi.yml
 - filename: replicate-deployments-api-openapi.yml
   format: yaml
   label: Replicate Deployments API
   slug: replicate-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-deployments-api-openapi.yml
 - filename: replicate-hardware-api-openapi.yml
   format: yaml
   label: Replicate Hardware API
   slug: replicate-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-hardware-api-openapi.yml
 - filename: replicate-model-api-openapi.yml
   format: yaml
   label: Replicate Model API
   slug: replicate-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-model-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-model-api-openapi.yml
 - filename: replicate-models-api-openapi.yml
   format: yaml
   label: Replicate Models API
   slug: replicate-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-models-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-models-api-openapi.yml
 - filename: replicate-predictions-api-openapi.yml
   format: yaml
   label: Replicate Predictions API
   slug: replicate-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-predictions-api-openapi.yml
 - filename: replicate-secrets-api-openapi.yml
   format: yaml
   label: Replicate Secrets API
   slug: replicate-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-secrets-api-openapi.yml
 - filename: replicate-training-api-openapi.yml
   format: yaml
   label: Replicate Training API
   slug: replicate-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-training-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-training-api-openapi.yml
 - filename: replicate-trainings-api-openapi.yml
   format: yaml
   label: Replicate Trainings API
   slug: replicate-trainings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/openapi/replicate-trainings-api-openapi.yml
+  url: https://artifacts.apis.io/replicate/openapi/replicate-trainings-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 15
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/replic
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: models.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models\n  method: post\n  operationId: models.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /predictions\n  method: get\n  operationId: predictions.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /predictions\n  method: post\n  operationId: predictions.create\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /predictions/{prediction_id}\n  method: get\n  operationId: predictions.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/default/secret\n  method: get\n  operationId: webhooks.default.secret.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trainings/{training_id}\n  method: get\n  operationId: trainings.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trainings\n  method: get\n  operationId:\
   \ trainings.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/agentic-access/replicate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/replicate/agentic-access/replicate-agentic-access.yml
 summary_line: 27 operations · 12 acting
 tags:
 - Artificial Intelligence

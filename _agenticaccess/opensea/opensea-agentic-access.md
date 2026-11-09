@@ -9,97 +9,97 @@ api_specs:
   label: OpenSea Account Endpoints API
   slug: opensea-account-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-account-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-account-endpoints-api-openapi.yml
 - filename: opensea-analytics-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Analytics Endpoints API
   slug: opensea-analytics-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-analytics-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-analytics-endpoints-api-openapi.yml
 - filename: opensea-auth-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Auth Endpoints API
   slug: opensea-auth-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-auth-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-auth-endpoints-api-openapi.yml
 - filename: opensea-chain-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Chain Endpoints API
   slug: opensea-chain-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-chain-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-chain-endpoints-api-openapi.yml
 - filename: opensea-collection-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Collection Endpoints API
   slug: opensea-collection-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-collection-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-collection-endpoints-api-openapi.yml
 - filename: opensea-contract-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Contract Endpoints API
   slug: opensea-contract-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-contract-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-contract-endpoints-api-openapi.yml
 - filename: opensea-drops-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Drops Endpoints API
   slug: opensea-drops-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-drops-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-drops-endpoints-api-openapi.yml
 - filename: opensea-listing-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Listing Endpoints API
   slug: opensea-listing-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-listing-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-listing-endpoints-api-openapi.yml
 - filename: opensea-nft-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea NFT Endpoints API
   slug: opensea-nft-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-nft-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-nft-endpoints-api-openapi.yml
 - filename: opensea-offer-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Offer Endpoints API
   slug: opensea-offer-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-offer-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-offer-endpoints-api-openapi.yml
 - filename: opensea-order-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Order Endpoints API
   slug: opensea-order-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-order-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-order-endpoints-api-openapi.yml
 - filename: opensea-search-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Search Endpoints API
   slug: opensea-search-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-search-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-search-endpoints-api-openapi.yml
 - filename: opensea-swap-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Swap Endpoints API
   slug: opensea-swap-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-swap-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-swap-endpoints-api-openapi.yml
 - filename: opensea-token-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Token Endpoints API
   slug: opensea-token-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-token-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-token-endpoints-api-openapi.yml
 - filename: opensea-tool-endpoints-beta-api-openapi.yml
   format: yaml
   label: OpenSea Tool Endpoints [Beta] API
   slug: opensea-tool-endpoints-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-tool-endpoints-beta-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-tool-endpoints-beta-api-openapi.yml
 - filename: opensea-transaction-endpoints-api-openapi.yml
   format: yaml
   label: OpenSea Transaction Endpoints API
   slug: opensea-transaction-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/openapi/opensea-transaction-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/opensea/openapi/opensea-transaction-endpoints-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 65
@@ -191,7 +191,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/opense
   \  method: get\n  operationId: get_token_ohlcv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/chain/{chain}/token/{address}/liquidity-pools\n  method: get\n  operationId: get_token_liquidity_pools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/chain/{chain}/token/{address}/holders\n  method: get\n  operationId: get_token_holders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/chain/{chain}/token/{address}/activity\n  method: get\n  operationId: get_token_activity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/account/{address}/tokens\n\
   \  method: get\n  operationId: get_token_balances_by_account\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/tools/usage\n  method: post\n  operationId: report_tool_usage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/tools\n  method: get\n  operationId: list_tools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/tools/{registry_chain}/{registry_addr}/{tool_id}\n  method: get\n  operationId: get_tool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v2/tools/search\n  method: get\n  operationId: search_tools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/transactions/receipt\n  method: post\n  operationId: get_transaction_receipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/agentic-access/opensea-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opensea/agentic-access/opensea-agentic-access.yml
 summary_line: 84 operations · 19 acting
 tags:
 - NFT

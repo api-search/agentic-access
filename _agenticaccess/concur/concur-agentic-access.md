@@ -9,67 +9,67 @@ api_specs:
   label: SAP Concur Expense Reports API
   slug: concur-expense-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-expense-reports-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-expense-reports-api-openapi.yml
 - filename: concur-expenses-api-openapi.yml
   format: yaml
   label: SAP Concur Expenses API
   slug: concur-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-expenses-api-openapi.yml
 - filename: concur-allocations-api-openapi.yml
   format: yaml
   label: SAP Concur Allocations API
   slug: concur-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-allocations-api-openapi.yml
 - filename: concur-comments-api-openapi.yml
   format: yaml
   label: SAP Concur Comments API
   slug: concur-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-comments-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-comments-api-openapi.yml
 - filename: concur-expense-entries-api-openapi.yml
   format: yaml
   label: SAP Concur Expense Entries API
   slug: concur-expense-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-expense-entries-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-expense-entries-api-openapi.yml
 - filename: concur-group-configurations-api-openapi.yml
   format: yaml
   label: SAP Concur Group Configurations API
   slug: concur-group-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-group-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-group-configurations-api-openapi.yml
 - filename: concur-payment-batches-api-openapi.yml
   format: yaml
   label: SAP Concur Payment Batches API
   slug: concur-payment-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-payment-batches-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-payment-batches-api-openapi.yml
 - filename: concur-quick-expenses-api-openapi.yml
   format: yaml
   label: SAP Concur Quick Expenses API
   slug: concur-quick-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-quick-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-quick-expenses-api-openapi.yml
 - filename: concur-receipt-images-api-openapi.yml
   format: yaml
   label: SAP Concur Receipt Images API
   slug: concur-receipt-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-receipt-images-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-receipt-images-api-openapi.yml
 - filename: concur-reports-api-openapi.yml
   format: yaml
   label: SAP Concur Reports API
   slug: concur-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-reports-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-reports-api-openapi.yml
 - filename: concur-workflows-api-openapi.yml
   format: yaml
   label: SAP Concur Workflows API
   slug: concur-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/concur/openapi/concur-workflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 27
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-10-17'\nmethod: generated\nsource: openapi/concur
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expensereports/v4/users/{userId}/context/{contextType}/reportsToApprove\n  method: get\n  operationId: getReportsToApprove\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expensereports/v4/users/{userId}/reports/{reportId}/submit\n  method: patch\n  operationId: submitReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /expensereports/v4/users/{userID}/context/{contextType}/reports/{reportId}/approve\n  method: patch\n  operationId: approveReport\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /expensereports/v4/users/{userID}/context/{contextType}/reports/{reportId}/sendBack\n  method: patch\n  operationId: sendBackReport\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /expensereports/v4/users/{userID}/context/{contextType}/reports/{reportId}/recall\n  method: patch\n  operationId: recallReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /expensereports/v4/users/{userId}/reports/{reportId}/costObjectsForApprover\n  method: get\n  operationId: getCostObjectsForApprover\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/agentic-access/concur-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/concur/agentic-access/concur-agentic-access.yml
 summary_line: 55 operations · 28 acting
 tags:
 - Expense Management

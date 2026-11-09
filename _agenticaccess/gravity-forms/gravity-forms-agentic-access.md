@@ -9,31 +9,31 @@ api_specs:
   label: Gravity Forms Entries API
   slug: gravity-forms-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-entries-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-entries-api-openapi.yml
 - filename: gravity-forms-feeds-api-openapi.yml
   format: yaml
   label: Gravity Forms Feeds API
   slug: gravity-forms-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-feeds-api-openapi.yml
 - filename: gravity-forms-forms-api-openapi.yml
   format: yaml
   label: Gravity Forms API
   slug: gravity-forms-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-forms-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-forms-api-openapi.yml
 - filename: gravity-forms-notifications-api-openapi.yml
   format: yaml
   label: Gravity Forms Notifications API
   slug: gravity-forms-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-notifications-api-openapi.yml
 - filename: gravity-forms-results-api-openapi.yml
   format: yaml
   label: Gravity Forms Results API
   slug: gravity-forms-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/openapi/gravity-forms-results-api-openapi.yml
+  url: https://artifacts.apis.io/gravity-forms/openapi/gravity-forms-results-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gravit
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entries/{id}\n  method: get\n  operationId: getEntry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entries/{id}\n  method: put\n  operationId: updateEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entries/{id}\n  method: delete\n  operationId: deleteEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notifications/send\n  method: post\n  operationId: sendNotifications\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feeds\n  method: get\n  operationId: listFeeds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feeds\n  method: post\n  operationId: createFeed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /results\n  method: get\n  operationId: getResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/agentic-access/gravity-forms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gravity-forms/agentic-access/gravity-forms-agentic-access.yml
 summary_line: 16 operations · 10 acting
 tags:
 - WordPress

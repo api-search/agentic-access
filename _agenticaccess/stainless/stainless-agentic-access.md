@@ -9,43 +9,43 @@ api_specs:
   label: Stainless Build Target Outputs API
   slug: stainless-build-target-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-build-target-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-build-target-outputs-api-openapi.yml
 - filename: stainless-builds-api-openapi.yml
   format: yaml
   label: Stainless Builds API
   slug: stainless-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-builds-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-builds-api-openapi.yml
 - filename: stainless-orgs-api-openapi.yml
   format: yaml
   label: Stainless Orgs API
   slug: stainless-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-orgs-api-openapi.yml
 - filename: stainless-projects-api-openapi.yml
   format: yaml
   label: Stainless Projects API
   slug: stainless-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-projects-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-projects-api-openapi.yml
 - filename: stainless-user-api-openapi.yml
   format: yaml
   label: Stainless User API
   slug: stainless-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-user-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-user-api-openapi.yml
 - filename: stainless-spec-api-openapi.yml
   format: yaml
   label: Stainless Spec API
   slug: stainless-spec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-spec-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-spec-api-openapi.yml
 - filename: stainless-open-api-api-openapi.yml
   format: yaml
   label: Stainless Open API
   slug: stainless-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/stainless/openapi/stainless-open-api-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stainl
   \  action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v0/projects/{project}/configs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/projects/{project}/configs/guess\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/builds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n- path: /v0/builds\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/builds/{buildId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/builds/compare\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/builds/{buildId}/diagnostics\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v0/build_target_outputs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/agentic-access/stainless-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stainless/agentic-access/stainless-agentic-access.yml
 summary_line: 22 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Code Generation

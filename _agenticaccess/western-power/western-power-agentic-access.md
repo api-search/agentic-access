@@ -8,31 +8,31 @@ api_specs:
   label: Western Power Content API
   slug: western-power-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-content-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-content-api-openapi.yml
 - filename: western-power-metadata-api-openapi.yml
   format: yaml
   label: Western Power Metadata API
   slug: western-power-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-metadata-api-openapi.yml
 - filename: western-power-outages-api-openapi.yml
   format: yaml
   label: Western Power Outages API
   slug: western-power-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-outages-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-outages-api-openapi.yml
 - filename: western-power-query-api-openapi.yml
   format: yaml
   label: Western Power Query API
   slug: western-power-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-query-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-query-api-openapi.yml
 - filename: western-power-search-api-openapi.yml
   format: yaml
   label: Western Power Search API
   slug: western-power-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-search-api-openapi.yml
+  url: https://artifacts.apis.io/western-power/openapi/western-power-search-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/western-power-arcgis-outage-openapi.yml, openapi/western-power-corporate-web-openapi.yml,\n  openapi/western-power-outage-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getFeatureServerMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /0\n  method: get\n  operationId: getOutageAreasLayerMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /0/query\n  method: get\n  operationId: queryOutageAreas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchSite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /corp/newsarticles\n  method: get\n  operationId: listNewsArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /corp/vacancies\n  method: get\n  operationId: listVacancies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /all-outages\n  method: get\n  operationId: listAllOutages\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /details/{outageId}\n  method: get\n  operationId: getOutageDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/{suburb}\n  method: get\n  operationId: getSuburbOutageStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/agentic-access/western-power-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/western-power/agentic-access/western-power-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Energy

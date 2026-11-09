@@ -9,67 +9,67 @@ api_specs:
   label: Tradera Auth API
   slug: tradera-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-auth-api-openapi.yml
 - filename: tradera-buyer-api-openapi.yml
   format: yaml
   label: Tradera Buyer API
   slug: tradera-buyer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-buyer-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-buyer-api-openapi.yml
 - filename: tradera-categories-api-openapi.yml
   format: yaml
   label: Tradera Categories API
   slug: tradera-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-categories-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-categories-api-openapi.yml
 - filename: tradera-items-api-openapi.yml
   format: yaml
   label: Tradera Items API
   slug: tradera-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-items-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-items-api-openapi.yml
 - filename: tradera-listings-api-openapi.yml
   format: yaml
   label: Tradera Listings API
   slug: tradera-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-listings-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-listings-api-openapi.yml
 - filename: tradera-orders-api-openapi.yml
   format: yaml
   label: Tradera Orders API
   slug: tradera-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-orders-api-openapi.yml
 - filename: tradera-program-api-openapi.yml
   format: yaml
   label: Tradera Program API
   slug: tradera-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-program-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-program-api-openapi.yml
 - filename: tradera-reference-data-api-openapi.yml
   format: yaml
   label: Tradera Reference Data API
   slug: tradera-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-reference-data-api-openapi.yml
 - filename: tradera-search-api-openapi.yml
   format: yaml
   label: Tradera Search API
   slug: tradera-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-search-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-search-api-openapi.yml
 - filename: tradera-tradera-api-services-core-api-openapi.yml
   format: yaml
   label: Tradera Tradera.Api.Services.Core API
   slug: tradera-tradera-api-services-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-tradera-api-services-core-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-tradera-api-services-core-api-openapi.yml
 - filename: tradera-users-api-openapi.yml
   format: yaml
   label: Tradera Users API
   slug: tradera-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/openapi/tradera-users-api-openapi.yml
+  url: https://artifacts.apis.io/tradera/openapi/tradera-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 40
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/trader
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /healthz\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/api/docs/{serviceName}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/api/docs/{serviceName}/{operationName}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swagger\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users/by-alias/{alias}\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users/{userId}/feedback\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users/{userId}/feedback/summary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users/{userId}/seller-info\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users/me/payment-options\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/heads/main/agentic-access/tradera-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tradera/agentic-access/tradera-agentic-access.yml
 summary_line: 72 operations · 32 acting
 tags:
 - Marketplace

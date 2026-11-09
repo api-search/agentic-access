@@ -9,49 +9,49 @@ api_specs:
   label: Pigment BlocksApi API
   slug: pigment-blocksapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-blocksapi-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-blocksapi-api-openapi.yml
 - filename: pigment-export-api-openapi.yml
   format: yaml
   label: Pigment Export API
   slug: pigment-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-export-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-export-api-openapi.yml
 - filename: pigment-exportv1-api-openapi.yml
   format: yaml
   label: Pigment ExportV1 API
   slug: pigment-exportv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-exportv1-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-exportv1-api-openapi.yml
 - filename: pigment-importconfigurationapi-api-openapi.yml
   format: yaml
   label: Pigment ImportConfigurationApi API
   slug: pigment-importconfigurationapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-importconfigurationapi-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-importconfigurationapi-api-openapi.yml
 - filename: pigment-importv1-api-openapi.yml
   format: yaml
   label: Pigment ImportV1 API
   slug: pigment-importv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-importv1-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-importv1-api-openapi.yml
 - filename: pigment-viewapi-api-openapi.yml
   format: yaml
   label: Pigment ViewApi API
   slug: pigment-viewapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-viewapi-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-viewapi-api-openapi.yml
 - filename: pigment-application-api-api-openapi.yml
   format: yaml
   label: Pigment Application API
   slug: pigment-application-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-application-api-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-application-api-api-openapi.yml
 - filename: pigment-import-api-api-openapi.yml
   format: yaml
   label: Pigment Import API
   slug: pigment-import-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-import-api-api-openapi.yml
+  url: https://artifacts.apis.io/pigment/openapi/pigment-import-api-api-openapi.yml
 consequence_counts:
   read: 8
   write: 11
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/pigmen
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/export/view/{viewId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/export/list/{listId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/export/metric/{metricId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/export/table/{tableId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/export/view/{viewId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/export/list/{listId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/export/metric/{metricId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/export/table/{tableId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/views\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/agentic-access/pigment-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pigment/agentic-access/pigment-agentic-access.yml
 summary_line: 19 operations · 11 acting
 tags:
 - Company
@@ -96,4 +96,7 @@ tags:
 - Data Integration
 - MCP
 - SCIM
+- Data Platform
+- Visualization
+- Collaboration
 ---

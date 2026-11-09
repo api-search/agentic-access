@@ -9,61 +9,61 @@ api_specs:
   label: Appium Actions API
   slug: appium-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-actions-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-actions-api-openapi.yml
 - filename: appium-alerts-api-openapi.yml
   format: yaml
   label: Appium Alerts API
   slug: appium-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-alerts-api-openapi.yml
 - filename: appium-appium-device-api-openapi.yml
   format: yaml
   label: Appium Device API
   slug: appium-appium-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-appium-device-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-appium-device-api-openapi.yml
 - filename: appium-appium-session-api-openapi.yml
   format: yaml
   label: Appium Session API
   slug: appium-appium-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-appium-session-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-appium-session-api-openapi.yml
 - filename: appium-cookies-api-openapi.yml
   format: yaml
   label: Appium Cookies API
   slug: appium-cookies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-cookies-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-cookies-api-openapi.yml
 - filename: appium-elements-api-openapi.yml
   format: yaml
   label: Appium Elements API
   slug: appium-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-elements-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-elements-api-openapi.yml
 - filename: appium-navigation-api-openapi.yml
   format: yaml
   label: Appium Navigation API
   slug: appium-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-navigation-api-openapi.yml
 - filename: appium-screenshots-api-openapi.yml
   format: yaml
   label: Appium Screenshots API
   slug: appium-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-screenshots-api-openapi.yml
 - filename: appium-server-api-openapi.yml
   format: yaml
   label: Appium Server API
   slug: appium-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-server-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-server-api-openapi.yml
 - filename: appium-sessions-api-openapi.yml
   format: yaml
   label: Appium Sessions API
   slug: appium-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/appium/openapi/appium-sessions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/appium
   \  method: get\n  operationId: getText\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/{sessionId}/source\n  method: get\n  operationId: getPageSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/{sessionId}/url\n  method: get\n  operationId: getUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/{sessionId}/url\n  method: post\n  operationId: setUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/{sessionId}/screenshot\n\
   \  method: get\n  operationId: getScreenshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/{sessionId}/element/{elementId}/screenshot\n  method: get\n  operationId: getElementScreenshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appium/sessions\n  method: get\n  operationId: getAppiumSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/{sessionId}\n  method: delete\n  operationId: deleteSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/agentic-access/appium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appium/agentic-access/appium-agentic-access.yml
 summary_line: 32 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Appium

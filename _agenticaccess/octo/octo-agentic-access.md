@@ -9,25 +9,25 @@ api_specs:
   label: Open Connectivity for Tours, Activities, and Attractions Availability API
   slug: octo-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-availability-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-availability-api-openapi.yml
 - filename: octo-bookings-api-openapi.yml
   format: yaml
   label: Open Connectivity for Tours, Activities, and Attractions Bookings API
   slug: octo-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-bookings-api-openapi.yml
 - filename: octo-products-api-openapi.yml
   format: yaml
   label: Open Connectivity for Tours, Activities, and Attractions Products API
   slug: octo-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-products-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-products-api-openapi.yml
 - filename: octo-supplier-api-openapi.yml
   format: yaml
   label: Open Connectivity for Tours, Activities, and Attractions Supplier API
   slug: octo-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/openapi/octo-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/octo/openapi/octo-supplier-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/octo-o
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /availability/calendar\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /availability\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings\n  method: post\n  operationId: post-bookings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /bookings\n  method: get\n  operationId: get-bookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/{uuid}/confirm\n  method: post\n  operationId: post-bookings-uuid-confirm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{uuid}/cancel\n  method: post\n  operationId: delete-bookings-:uuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /bookings/{uuid}\n  method: get\n  operationId: get-bookings-:uuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/{uuid}\n  method: patch\n  operationId: patch-bookings-:uuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{uuid}/extend\n  method: post\n  operationId: post-bookings-uuid-extend\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/agentic-access/octo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/octo/agentic-access/octo-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Activities

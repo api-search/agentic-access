@@ -9,31 +9,31 @@ api_specs:
   label: vLex Anonymization API
   slug: vlex-anonymization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-anonymization-api-openapi.yml
+  url: https://artifacts.apis.io/vlex/openapi/vlex-anonymization-api-openapi.yml
 - filename: vlex-citations-api-openapi.yml
   format: yaml
   label: vLex Citations API
   slug: vlex-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-citations-api-openapi.yml
+  url: https://artifacts.apis.io/vlex/openapi/vlex-citations-api-openapi.yml
 - filename: vlex-classification-api-openapi.yml
   format: yaml
   label: vLex Classification API
   slug: vlex-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-classification-api-openapi.yml
+  url: https://artifacts.apis.io/vlex/openapi/vlex-classification-api-openapi.yml
 - filename: vlex-documents-api-openapi.yml
   format: yaml
   label: vLex Documents API
   slug: vlex-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vlex/openapi/vlex-documents-api-openapi.yml
 - filename: vlex-search-api-openapi.yml
   format: yaml
   label: vLex Search API
   slug: vlex-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/openapi/vlex-search-api-openapi.yml
+  url: https://artifacts.apis.io/vlex/openapi/vlex-search-api-openapi.yml
 consequence_counts:
   read: 2
   write: 5
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/vlex-anonymization-api-openapi.yml, openapi/vlex-citations-api-openapi.yml,\n  openapi/vlex-classification-api-openapi.yml, openapi/vlex-documents-api-openapi.yml, openapi/vlex-search-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 5\n    connected: 2\n  by_consequence:\n    write: 5\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/anonymize\n  method: post\n  operationId: anonymizeText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /v1/anonymize/entities\n  method: post\n  operationId: extractEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/citations\n  method: post\n  operationId: detectCitations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/classify\n  method: post\n  operationId: classifyDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/key-phrases\n  method: post\n  operationId: extractKeyPhrases\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/documents/{document_id}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/search\n  method: post\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/agentic-access/vlex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vlex/agentic-access/vlex-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
 - Artificial Intelligence

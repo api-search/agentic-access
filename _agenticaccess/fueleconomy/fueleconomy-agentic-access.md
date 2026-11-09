@@ -8,37 +8,37 @@ api_specs:
   label: FuelEconomy.gov Emissions API
   slug: fueleconomy-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/fueleconomy/openapi/fueleconomy-emissions-api-openapi.yml
 - filename: fueleconomy-fuel-prices-api-openapi.yml
   format: yaml
   label: FuelEconomy.gov Fuel Prices API
   slug: fueleconomy-fuel-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-fuel-prices-api-openapi.yml
+  url: https://artifacts.apis.io/fueleconomy/openapi/fueleconomy-fuel-prices-api-openapi.yml
 - filename: fueleconomy-menus-api-openapi.yml
   format: yaml
   label: FuelEconomy.gov Menus API
   slug: fueleconomy-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-menus-api-openapi.yml
+  url: https://artifacts.apis.io/fueleconomy/openapi/fueleconomy-menus-api-openapi.yml
 - filename: fueleconomy-user-mpg-api-openapi.yml
   format: yaml
   label: FuelEconomy.gov User MPG API
   slug: fueleconomy-user-mpg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-user-mpg-api-openapi.yml
+  url: https://artifacts.apis.io/fueleconomy/openapi/fueleconomy-user-mpg-api-openapi.yml
 - filename: fueleconomy-user-mpg-menus-api-openapi.yml
   format: yaml
   label: FuelEconomy.gov User MPG Menus API
   slug: fueleconomy-user-mpg-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-user-mpg-menus-api-openapi.yml
+  url: https://artifacts.apis.io/fueleconomy/openapi/fueleconomy-user-mpg-menus-api-openapi.yml
 - filename: fueleconomy-vehicles-api-openapi.yml
   format: yaml
   label: FuelEconomy.gov Vehicles API
   slug: fueleconomy-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/openapi/fueleconomy-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/fueleconomy/openapi/fueleconomy-vehicles-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fuelec
   \ method: get\n  operationId: getMenuYears\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/menu/make\n  method: get\n  operationId: getMenuMakes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/menu/model\n  method: get\n  operationId: getMenuModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/menu/options\n  method: get\n  operationId: getMenuOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fuelprices\n  method: get\n  operationId: getFuelPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ympg/shared/ympgVehicle/{id}\n  method: get\n  operationId: getUserMpgSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ympg/shared/ympgDriverVehicle/{id}\n  method: get\n  operationId: getUserMpgRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ympg/shared/menu/make\n  method: get\n  operationId: getUserMpgMenuMakes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ympg/shared/menu/model\n  method: get\n  operationId: getUserMpgMenuModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /ympg/shared/vehicles\n  method: get\n  operationId: getUserMpgVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/agentic-access/fueleconomy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fueleconomy/agentic-access/fueleconomy-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Fuel Economy

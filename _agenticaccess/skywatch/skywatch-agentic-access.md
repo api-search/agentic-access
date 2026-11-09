@@ -9,43 +9,43 @@ api_specs:
   label: SkyWatch Archive Search API
   slug: skywatch-archive-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-archive-search-api-openapi.yml
+  url: https://artifacts.apis.io/skywatch/openapi/skywatch-archive-search-api-openapi.yml
 - filename: skywatch-cost-estimation-api-openapi.yml
   format: yaml
   label: SkyWatch Cost Estimation API
   slug: skywatch-cost-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-cost-estimation-api-openapi.yml
+  url: https://artifacts.apis.io/skywatch/openapi/skywatch-cost-estimation-api-openapi.yml
 - filename: skywatch-interval-results-api-openapi.yml
   format: yaml
   label: SkyWatch Interval Results API
   slug: skywatch-interval-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-interval-results-api-openapi.yml
+  url: https://artifacts.apis.io/skywatch/openapi/skywatch-interval-results-api-openapi.yml
 - filename: skywatch-locations-api-openapi.yml
   format: yaml
   label: SkyWatch Locations API
   slug: skywatch-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-locations-api-openapi.yml
+  url: https://artifacts.apis.io/skywatch/openapi/skywatch-locations-api-openapi.yml
 - filename: skywatch-outputs-api-openapi.yml
   format: yaml
   label: SkyWatch Outputs API
   slug: skywatch-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/skywatch/openapi/skywatch-outputs-api-openapi.yml
 - filename: skywatch-pipelines-api-openapi.yml
   format: yaml
   label: SkyWatch Pipelines API
   slug: skywatch-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/skywatch/openapi/skywatch-pipelines-api-openapi.yml
 - filename: skywatch-subscriptions-api-openapi.yml
   format: yaml
   label: SkyWatch Subscriptions API
   slug: skywatch-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/openapi/skywatch-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/skywatch/openapi/skywatch-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/skywat
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{id}\n  method: post\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{id}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{id}/sample\n  method: post\n  operationId: sampleSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /callbacks\n  method: get\n  operationId: listCallbacks\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/agentic-access/skywatch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/skywatch/agentic-access/skywatch-agentic-access.yml
 summary_line: 26 operations · 14 acting
 tags:
 - Satellite Imagery

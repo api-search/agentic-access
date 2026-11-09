@@ -9,19 +9,19 @@ api_specs:
   label: Ajaib Market Info API
   slug: ajaib-market-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/openapi/ajaib-market-info-api-openapi.yml
+  url: https://artifacts.apis.io/ajaib/openapi/ajaib-market-info-api-openapi.yml
 - filename: ajaib-spot-trading-api-openapi.yml
   format: yaml
   label: Ajaib Spot Trading API
   slug: ajaib-spot-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/openapi/ajaib-spot-trading-api-openapi.yml
+  url: https://artifacts.apis.io/ajaib/openapi/ajaib-spot-trading-api-openapi.yml
 - filename: ajaib-wallet-api-openapi.yml
   format: yaml
   label: Ajaib Wallet API
   slug: ajaib-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/openapi/ajaib-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/ajaib/openapi/ajaib-wallet-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 8
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/ajaib-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coin/internal/v1/order\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coin/internal/v1/order\n  method: delete\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coin/internal/v1/order/open\n  method: get\n  operationId: getOpenOrders\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coin/internal/v1/order/open\n  method: delete\n  operationId: cancelAllOpenOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coin/internal/v1/order/self-trading\n  method: post\n  operationId: createSelfTradingOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /coin/internal/v1/order/batch\n  method: post\n  operationId: createBatchOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coin/internal/v1/order/batch\n  method: delete\n  operationId: cancelBatchOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/agentic-access/ajaib-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ajaib/agentic-access/ajaib-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Company

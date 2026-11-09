@@ -9,223 +9,223 @@ api_specs:
   label: Lytx Consent API
   slug: lytx-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-consent-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-consent-api-openapi.yml
 - filename: lytx-devices-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Devices (DriveCam) API
   slug: lytx-devices-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-devices-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-devices-drivecam-api-openapi.yml
 - filename: lytx-devices-go9-api-openapi.yml
   format: yaml
   label: Lytx Devices (GO9) API
   slug: lytx-devices-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-devices-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-devices-go9-api-openapi.yml
 - filename: lytx-devicestatusinfo-go9-api-openapi.yml
   format: yaml
   label: Lytx DeviceStatusInfo (GO9) API
   slug: lytx-devicestatusinfo-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-devicestatusinfo-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-devicestatusinfo-go9-api-openapi.yml
 - filename: lytx-diagnostics-go9-api-openapi.yml
   format: yaml
   label: Lytx Diagnostics (GO9) API
   slug: lytx-diagnostics-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-diagnostics-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-diagnostics-go9-api-openapi.yml
 - filename: lytx-distances-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Distances (DriveCam) API
   slug: lytx-distances-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-distances-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-distances-drivecam-api-openapi.yml
 - filename: lytx-driver-assignments-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Driver Assignments (DriveCam) API
   slug: lytx-driver-assignments-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-driver-assignments-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-driver-assignments-drivecam-api-openapi.yml
 - filename: lytx-driver-id-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Driver ID (DriveCam) API
   slug: lytx-driver-id-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-driver-id-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-driver-id-drivecam-api-openapi.yml
 - filename: lytx-drivers-go9-api-openapi.yml
   format: yaml
   label: Lytx Drivers (GO9) API
   slug: lytx-drivers-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-drivers-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-drivers-go9-api-openapi.yml
 - filename: lytx-dvir-drivecam-api-openapi.yml
   format: yaml
   label: Lytx DVIR (DriveCam) API
   slug: lytx-dvir-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-dvir-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-dvir-drivecam-api-openapi.yml
 - filename: lytx-dvir-go9-api-openapi.yml
   format: yaml
   label: Lytx DVIR (GO9) API
   slug: lytx-dvir-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-dvir-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-dvir-go9-api-openapi.yml
 - filename: lytx-ecm-api-openapi.yml
   format: yaml
   label: Lytx ECM API
   slug: lytx-ecm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-ecm-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-ecm-api-openapi.yml
 - filename: lytx-ecm-drivecam-api-openapi.yml
   format: yaml
   label: Lytx ECM (DriveCam) API
   slug: lytx-ecm-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-ecm-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-ecm-drivecam-api-openapi.yml
 - filename: lytx-exceptionevent-go9-api-openapi.yml
   format: yaml
   label: Lytx ExceptionEvent (GO9) API
   slug: lytx-exceptionevent-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-exceptionevent-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-exceptionevent-go9-api-openapi.yml
 - filename: lytx-faultdata-go9-api-openapi.yml
   format: yaml
   label: Lytx FaultData (GO9) API
   slug: lytx-faultdata-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-faultdata-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-faultdata-go9-api-openapi.yml
 - filename: lytx-fleetutilization-go9-api-openapi.yml
   format: yaml
   label: Lytx FleetUtilization (GO9) API
   slug: lytx-fleetutilization-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-fleetutilization-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-fleetutilization-go9-api-openapi.yml
 - filename: lytx-geofences-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Geofences (DriveCam) API
   slug: lytx-geofences-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-geofences-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-geofences-drivecam-api-openapi.yml
 - filename: lytx-gps-drivecam-api-openapi.yml
   format: yaml
   label: Lytx GPS (DriveCam) API
   slug: lytx-gps-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-gps-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-gps-drivecam-api-openapi.yml
 - filename: lytx-gps-go9-api-openapi.yml
   format: yaml
   label: Lytx GPS (GO9) API
   slug: lytx-gps-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-gps-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-gps-go9-api-openapi.yml
 - filename: lytx-groups-api-openapi.yml
   format: yaml
   label: Lytx Groups API
   slug: lytx-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-groups-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-groups-api-openapi.yml
 - filename: lytx-groups-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Groups (DriveCam) API
   slug: lytx-groups-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-groups-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-groups-drivecam-api-openapi.yml
 - filename: lytx-groups-go9-api-openapi.yml
   format: yaml
   label: Lytx Groups (GO9) API
   slug: lytx-groups-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-groups-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-groups-go9-api-openapi.yml
 - filename: lytx-hos-drivecam-api-openapi.yml
   format: yaml
   label: Lytx HOS (DriveCam) API
   slug: lytx-hos-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-hos-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-hos-drivecam-api-openapi.yml
 - filename: lytx-hos-go9-api-openapi.yml
   format: yaml
   label: Lytx HOS (GO9) API
   slug: lytx-hos-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-hos-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-hos-go9-api-openapi.yml
 - filename: lytx-iftareport-go9-api-openapi.yml
   format: yaml
   label: Lytx IFTAReport (GO9) API
   slug: lytx-iftareport-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-iftareport-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-iftareport-go9-api-openapi.yml
 - filename: lytx-maintenancerecords-go9-api-openapi.yml
   format: yaml
   label: Lytx MaintenanceRecords (GO9) API
   slug: lytx-maintenancerecords-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-maintenancerecords-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-maintenancerecords-go9-api-openapi.yml
 - filename: lytx-rule-go9-api-openapi.yml
   format: yaml
   label: Lytx Rule (GO9) API
   slug: lytx-rule-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-rule-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-rule-go9-api-openapi.yml
 - filename: lytx-safety-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Safety (DriveCam) API
   slug: lytx-safety-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-safety-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-safety-drivecam-api-openapi.yml
 - filename: lytx-safety-events-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Safety Events (DriveCam) API
   slug: lytx-safety-events-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-safety-events-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-safety-events-drivecam-api-openapi.yml
 - filename: lytx-statusdata-go9-api-openapi.yml
   format: yaml
   label: Lytx StatusData (GO9) API
   slug: lytx-statusdata-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-statusdata-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-statusdata-go9-api-openapi.yml
 - filename: lytx-trips-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Trips (DriveCam) API
   slug: lytx-trips-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-trips-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-trips-drivecam-api-openapi.yml
 - filename: lytx-trips-go9-api-openapi.yml
   format: yaml
   label: Lytx Trips (GO9) API
   slug: lytx-trips-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-trips-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-trips-go9-api-openapi.yml
 - filename: lytx-users-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Users (DriveCam) API
   slug: lytx-users-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-users-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-users-drivecam-api-openapi.yml
 - filename: lytx-users-go9-api-openapi.yml
   format: yaml
   label: Lytx Users (GO9) API
   slug: lytx-users-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-users-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-users-go9-api-openapi.yml
 - filename: lytx-vehicles-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Vehicles (DriveCam) API
   slug: lytx-vehicles-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-vehicles-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-vehicles-drivecam-api-openapi.yml
 - filename: lytx-video-drivecam-api-openapi.yml
   format: yaml
   label: Lytx Video (DriveCam) API
   slug: lytx-video-drivecam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-video-drivecam-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-video-drivecam-api-openapi.yml
 - filename: lytx-zones-go9-api-openapi.yml
   format: yaml
   label: Lytx Zones (GO9) API
   slug: lytx-zones-go9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/openapi/lytx-zones-go9-api-openapi.yml
+  url: https://artifacts.apis.io/lytx/openapi/lytx-zones-go9-api-openapi.yml
 consequence_counts:
   read: 84
   safety-critical: 1
@@ -289,7 +289,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lytx-c
   \ /vehicles/{vehicleId}/timeline\n  method: get\n  operationId: Vehicle_GetVehicleTimeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{vehicleIdentifier}\n  method: get\n  operationId: Vehicle_GetVehicleByIdentifier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: post\n  operationId: Event_CreateEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: Event_SearchEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /events/{eventId}/views/{deviceViewId}/medias/{mediaType}\n  method: get\n  operationId: Event_GetEventViewMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventId}\n  method: get\n  operationId: Event_GetEventById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deviceViews/{deviceViewId}/snapshot\n  method: get\n  operationId: DeviceView_GetDeviceViewSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plus/v1/zones\n  method: get\n  operationId: getPlusV1Zones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /plus/v1/zones\n  method: post\n  operationId: postPlusV1Zones\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plus/v1/zones\n  method: put\n  operationId: putPlusV1Zones\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/agentic-access/lytx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lytx/agentic-access/lytx-agentic-access.yml
 summary_line: 105 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Company

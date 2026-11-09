@@ -9,37 +9,37 @@ api_specs:
   label: Coalesce Environments API
   slug: coalesce-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-environments-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-environments-api-openapi.yml
 - filename: coalesce-git-accounts-api-openapi.yml
   format: yaml
   label: Coalesce Git Accounts API
   slug: coalesce-git-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-git-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-git-accounts-api-openapi.yml
 - filename: coalesce-nodes-api-openapi.yml
   format: yaml
   label: Coalesce Nodes API
   slug: coalesce-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-nodes-api-openapi.yml
 - filename: coalesce-projects-api-openapi.yml
   format: yaml
   label: Coalesce Projects API
   slug: coalesce-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-projects-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-projects-api-openapi.yml
 - filename: coalesce-runs-api-openapi.yml
   format: yaml
   label: Coalesce Runs API
   slug: coalesce-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-runs-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-runs-api-openapi.yml
 - filename: coalesce-users-api-openapi.yml
   format: yaml
   label: Coalesce Users API
   slug: coalesce-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-users-api-openapi.yml
+  url: https://artifacts.apis.io/coalesce/openapi/coalesce-users-api-openapi.yml
 consequence_counts:
   read: 15
   write: 21
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userID}/roles/environment/{environmentID}\n  method: put\n  operationId: setUserEnvironmentRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userID}/roles/environment/{environmentID}\n  method: delete\n  operationId: deleteUserEnvironmentRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gitAccounts\n\
   \  method: get\n  operationId: listGitAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gitAccounts\n  method: post\n  operationId: createGitAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gitAccounts/{gitAccountID}\n  method: get\n  operationId: getGitAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gitAccounts/{gitAccountID}\n  method: put\n  operationId: updateGitAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gitAccounts/{gitAccountID}\n  method: delete\n  operationId: deleteGitAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/agentic-access/coalesce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coalesce/agentic-access/coalesce-agentic-access.yml
 summary_line: 36 operations · 21 acting
 tags:
 - Data Transformation

@@ -9,37 +9,37 @@ api_specs:
   label: Sanity Assets API
   slug: sanity-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-assets-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-assets-api-openapi.yml
 - filename: sanity-listen-api-openapi.yml
   format: yaml
   label: Sanity Listen API
   slug: sanity-listen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-listen-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-listen-api-openapi.yml
 - filename: sanity-mutations-api-openapi.yml
   format: yaml
   label: Sanity Mutations API
   slug: sanity-mutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-mutations-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-mutations-api-openapi.yml
 - filename: sanity-projects-api-openapi.yml
   format: yaml
   label: Sanity Projects API
   slug: sanity-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-projects-api-openapi.yml
 - filename: sanity-query-api-openapi.yml
   format: yaml
   label: Sanity Query API
   slug: sanity-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-query-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-query-api-openapi.yml
 - filename: sanity-webhooks-api-openapi.yml
   format: yaml
   label: Sanity Webhooks API
   slug: sanity-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/openapi/sanity-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sanity/openapi/sanity-webhooks-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sanity
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}\n  method: patch\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /projects/{projectId}/datasets\n  method: put\n  operationId: createDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/tokens\n  method: get\n  operationId: listTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/query/{dataset}\n  method:\
   \ get\n  operationId: queryDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/query/{dataset}\n  method: post\n  operationId: queryDocumentsPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hooks/projects/{projectId}\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hooks/projects/{projectId}\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/agentic-access/sanity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sanity/agentic-access/sanity-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Headless CMS

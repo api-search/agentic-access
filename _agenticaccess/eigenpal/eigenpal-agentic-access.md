@@ -9,67 +9,67 @@ api_specs:
   label: Eigenpal Automations API
   slug: eigenpal-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-automations-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-automations-api-openapi.yml
 - filename: eigenpal-evaluation-api-openapi.yml
   format: yaml
   label: Eigenpal Evaluation API
   slug: eigenpal-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-evaluation-api-openapi.yml
 - filename: eigenpal-files-api-openapi.yml
   format: yaml
   label: Eigenpal Files API
   slug: eigenpal-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-files-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-files-api-openapi.yml
 - filename: eigenpal-metadata-api-openapi.yml
   format: yaml
   label: Eigenpal Metadata API
   slug: eigenpal-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-metadata-api-openapi.yml
 - filename: eigenpal-reviews-api-openapi.yml
   format: yaml
   label: Eigenpal Reviews API
   slug: eigenpal-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-reviews-api-openapi.yml
 - filename: eigenpal-runs-api-openapi.yml
   format: yaml
   label: Eigenpal Runs API
   slug: eigenpal-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-runs-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-runs-api-openapi.yml
 - filename: eigenpal-email-servers-api-openapi.yml
   format: yaml
   label: Eigenpal Email servers API
   slug: eigenpal-email-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-email-servers-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-email-servers-api-openapi.yml
 - filename: eigenpal-folders-api-openapi.yml
   format: yaml
   label: Eigenpal Folders API
   slug: eigenpal-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-folders-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-folders-api-openapi.yml
 - filename: eigenpal-human-reviews-api-openapi.yml
   format: yaml
   label: Eigenpal Human reviews API
   slug: eigenpal-human-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-human-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-human-reviews-api-openapi.yml
 - filename: eigenpal-models-api-openapi.yml
   format: yaml
   label: Eigenpal Models API
   slug: eigenpal-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-models-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-models-api-openapi.yml
 - filename: eigenpal-templates-api-openapi.yml
   format: yaml
   label: Eigenpal Templates API
   slug: eigenpal-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-templates-api-openapi.yml
+  url: https://artifacts.apis.io/eigenpal/openapi/eigenpal-templates-api-openapi.yml
 consequence_counts:
   read: 33
   write: 27
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/eigenp
   \ operationId: runs.reviews.clear\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/runs/{id}/reviews/expected\n  method: get\n  operationId: runs.reviews.expected.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/runs/{id}/reviews/expected\n  method: post\n  operationId: runs.reviews.expected.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/runs/{id}/reviews/expected/{filename}\n  method:\
   \ get\n  operationId: runs.reviews.expected.file.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/runs/{id}/reviews/expected/{filename}\n  method: patch\n  operationId: runs.reviews.expected.file.update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/runs/{id}/reviews/expected/{filename}\n  method: delete\n  operationId: runs.reviews.expected.file.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/v1/runs/{id}/scores\n  method: get\n  operationId: runs.scores.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/runs/{id}/steps\n  method: get\n  operationId: runs.steps.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/runs/{id}/trace\n  method: get\n  operationId: runs.trace.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/runs/{id}/usage\n  method: get\n  operationId: runs.usage.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/agentic-access/eigenpal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eigenpal/agentic-access/eigenpal-agentic-access.yml
 summary_line: 60 operations · 27 acting
 tags:
 - Company

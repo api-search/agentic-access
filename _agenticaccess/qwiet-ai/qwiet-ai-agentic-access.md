@@ -9,163 +9,163 @@ api_specs:
   label: Qwiet Ai Alerting API
   slug: qwiet-ai-alerting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-alerting-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-alerting-api-openapi.yml
 - filename: qwiet-ai-analyze-api-openapi.yml
   format: yaml
   label: Qwiet Ai Analyze API
   slug: qwiet-ai-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-analyze-api-openapi.yml
 - filename: qwiet-ai-app-groups-api-openapi.yml
   format: yaml
   label: Qwiet Ai App Groups API
   slug: qwiet-ai-app-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-app-groups-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-app-groups-api-openapi.yml
 - filename: qwiet-ai-app-labels-api-openapi.yml
   format: yaml
   label: Qwiet Ai App Labels API
   slug: qwiet-ai-app-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-app-labels-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-app-labels-api-openapi.yml
 - filename: qwiet-ai-apps-api-openapi.yml
   format: yaml
   label: Qwiet Ai Apps API
   slug: qwiet-ai-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-apps-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-apps-api-openapi.yml
 - filename: qwiet-ai-autofix-api-openapi.yml
   format: yaml
   label: Qwiet Ai Autofix API
   slug: qwiet-ai-autofix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-autofix-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-autofix-api-openapi.yml
 - filename: qwiet-ai-azureboard-api-openapi.yml
   format: yaml
   label: Qwiet Ai Azureboard API
   slug: qwiet-ai-azureboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-azureboard-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-azureboard-api-openapi.yml
 - filename: qwiet-ai-branches-api-openapi.yml
   format: yaml
   label: Qwiet Ai Branches API
   slug: qwiet-ai-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-branches-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-branches-api-openapi.yml
 - filename: qwiet-ai-comments-api-openapi.yml
   format: yaml
   label: Qwiet Ai Comments API
   slug: qwiet-ai-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-comments-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-comments-api-openapi.yml
 - filename: qwiet-ai-compounds-api-openapi.yml
   format: yaml
   label: Qwiet Ai Compounds API
   slug: qwiet-ai-compounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-compounds-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-compounds-api-openapi.yml
 - filename: qwiet-ai-findings-api-openapi.yml
   format: yaml
   label: Qwiet Ai Findings API
   slug: qwiet-ai-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-findings-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-findings-api-openapi.yml
 - filename: qwiet-ai-org-backup-api-openapi.yml
   format: yaml
   label: Qwiet Ai Org Backup API
   slug: qwiet-ai-org-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-org-backup-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-org-backup-api-openapi.yml
 - filename: qwiet-ai-orgs-api-openapi.yml
   format: yaml
   label: Qwiet Ai Orgs API
   slug: qwiet-ai-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-orgs-api-openapi.yml
 - filename: qwiet-ai-rbac-api-openapi.yml
   format: yaml
   label: Qwiet Ai Rbac API
   slug: qwiet-ai-rbac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-rbac-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-rbac-api-openapi.yml
 - filename: qwiet-ai-reports-api-openapi.yml
   format: yaml
   label: Qwiet Ai Reports API
   slug: qwiet-ai-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-reports-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-reports-api-openapi.yml
 - filename: qwiet-ai-saml-api-openapi.yml
   format: yaml
   label: Qwiet Ai SAML API
   slug: qwiet-ai-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-saml-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-saml-api-openapi.yml
 - filename: qwiet-ai-sarif-api-openapi.yml
   format: yaml
   label: Qwiet Ai Sarif API
   slug: qwiet-ai-sarif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-sarif-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-sarif-api-openapi.yml
 - filename: qwiet-ai-saved-searches-api-openapi.yml
   format: yaml
   label: Qwiet Ai Saved Searches API
   slug: qwiet-ai-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-saved-searches-api-openapi.yml
 - filename: qwiet-ai-sca-api-openapi.yml
   format: yaml
   label: Qwiet Ai Sca API
   slug: qwiet-ai-sca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-sca-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-sca-api-openapi.yml
 - filename: qwiet-ai-scans-api-openapi.yml
   format: yaml
   label: Qwiet Ai Scans API
   slug: qwiet-ai-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-scans-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-scans-api-openapi.yml
 - filename: qwiet-ai-scopes-api-openapi.yml
   format: yaml
   label: Qwiet Ai Scopes API
   slug: qwiet-ai-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-scopes-api-openapi.yml
 - filename: qwiet-ai-slack-api-openapi.yml
   format: yaml
   label: Qwiet Ai Slack API
   slug: qwiet-ai-slack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-slack-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-slack-api-openapi.yml
 - filename: qwiet-ai-team-config-api-openapi.yml
   format: yaml
   label: Qwiet Ai Team Config API
   slug: qwiet-ai-team-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-team-config-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-team-config-api-openapi.yml
 - filename: qwiet-ai-tokens-api-openapi.yml
   format: yaml
   label: Qwiet Ai Tokens API
   slug: qwiet-ai-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-tokens-api-openapi.yml
 - filename: qwiet-ai-users-api-openapi.yml
   format: yaml
   label: Qwiet Ai Users API
   slug: qwiet-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-users-api-openapi.yml
 - filename: qwiet-ai-versions-api-openapi.yml
   format: yaml
   label: Qwiet Ai Versions API
   slug: qwiet-ai-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-versions-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-versions-api-openapi.yml
 - filename: qwiet-ai-wiz-api-openapi.yml
   format: yaml
   label: Qwiet Ai Wiz API
   slug: qwiet-ai-wiz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-wiz-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-wiz-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 92
@@ -249,8 +249,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/qwiet-
   \  method: put\n  operationId: UpdateTeamMembership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - team_members:update\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgID}/rbac/teams/{rbacTeamID}/apps\n  method: put\n  operationId: UpdateTeamApps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - team_apps:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgID}/rbac/teams/{rbacTeamID}/metadata\n  method: put\n  operationId: UpdateTeamMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    scope:\n    - teams:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgID}/rbac/teams/{rbacTeamID}\n  method: get\n  operationId: ReadTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - teams:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgID}/rbac/teams/{rbacTeamID}\n  method: put\n  operationId: UpdateTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - teams:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgID}/rbac/teams/{rbacTeamID}\n  method: delete\n  operationId: DeleteTeam\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - teams:delete\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgID}/rbac/teams/{rbacTeamID}/groups\n  method: get\n  operationId: ListGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - teams:list\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgID}/rbac/teams/{rbacTeamID}/groups\n  method: put\n  operationId: UpsertGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - teams:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgID}/rbac/groups/{groupID}\n\
-  \  method: get\n  operationId: ReadGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - teams:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgID}/rbac/teams/{rbacTeamID}/groups/{groupID}\n  method: post\n  operationId: UpdateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - teams:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/agentic-access/qwiet-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/agentic-access/qwiet-ai-agentic-access.yml
+  \  method: get\n  operationId: ReadGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - teams:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgID}/rbac/teams/{rbacTeamID}/groups/{groupID}\n  method: post\n  operationId: UpdateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - teams:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/qwiet-ai/agentic-access/qwiet-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/qwiet-ai/agentic-access/qwiet-ai-agentic-access.yml
 summary_line: 150 operations · 58 acting · 2 human-in-the-loop
 tags:
 - Company
@@ -261,5 +261,5 @@ tags:
 - Code Security
 - Vulnerability Management
 - DevSecOps
-- AutoFix
+- autofix
 ---

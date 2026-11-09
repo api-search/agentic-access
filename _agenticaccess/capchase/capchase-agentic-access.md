@@ -9,7 +9,7 @@ api_specs:
   label: Capchase Pay API
   slug: capchase-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/openapi/capchase-pay-api-openapi.yml
+  url: https://artifacts.apis.io/capchase/openapi/capchase-pay-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 5
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/capcha
   \ PayExternalController_createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /pay/subscriptions\n  method: get\n  operationId: PayExternalController_listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pay/subscriptions/{key}\n  method: delete\n  operationId: PayExternalController_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit:\
   \ required\n- path: /pay/buyers/{id}\n  method: get\n  operationId: PayExternalController_getBuyer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pay/subscriptions/{key}/instalment/{instalmentKey}/receipt\n  method: get\n  operationId: PayExternalController_getInstalmentReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pay/subscriptions/{id}\n  method: get\n  operationId: PayExternalController_getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pay/buyers/{id}/update-external-id\n  method: patch\n  operationId: PayExternalController_updateBuyerExternalId\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /pay/buyers/{id}/renew-qualification\n  method: post\n  operationId: PayExternalController_updateBuyerQualification\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/agentic-access/capchase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/capchase/agentic-access/capchase-agentic-access.yml
 summary_line: 9 operations · 5 acting · 5 human-in-the-loop
 tags:
 - Company

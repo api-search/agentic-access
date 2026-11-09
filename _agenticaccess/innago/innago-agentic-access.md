@@ -9,55 +9,55 @@ api_specs:
   label: Innago Expenses API
   slug: innago-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/innago/openapi/innago-expenses-api-openapi.yml
 - filename: innago-external-references-api-openapi.yml
   format: yaml
   label: Innago External References API
   slug: innago-external-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-external-references-api-openapi.yml
+  url: https://artifacts.apis.io/innago/openapi/innago-external-references-api-openapi.yml
 - filename: innago-health-api-openapi.yml
   format: yaml
   label: Innago Health API
   slug: innago-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-health-api-openapi.yml
+  url: https://artifacts.apis.io/innago/openapi/innago-health-api-openapi.yml
 - filename: innago-invoices-api-openapi.yml
   format: yaml
   label: Innago Invoices API
   slug: innago-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/innago/openapi/innago-invoices-api-openapi.yml
 - filename: innago-leases-api-openapi.yml
   format: yaml
   label: Innago Leases API
   slug: innago-leases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-leases-api-openapi.yml
+  url: https://artifacts.apis.io/innago/openapi/innago-leases-api-openapi.yml
 - filename: innago-maintenance-api-openapi.yml
   format: yaml
   label: Innago Maintenance API
   slug: innago-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/innago/openapi/innago-maintenance-api-openapi.yml
 - filename: innago-payments-api-openapi.yml
   format: yaml
   label: Innago Payments API
   slug: innago-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-payments-api-openapi.yml
+  url: https://artifacts.apis.io/innago/openapi/innago-payments-api-openapi.yml
 - filename: innago-properties-api-openapi.yml
   format: yaml
   label: Innago Properties API
   slug: innago-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-properties-api-openapi.yml
+  url: https://artifacts.apis.io/innago/openapi/innago-properties-api-openapi.yml
 - filename: innago-tenants-api-openapi.yml
   format: yaml
   label: Innago Tenants API
   slug: innago-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/openapi/innago-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/innago/openapi/innago-tenants-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/innago
   \  method: patch\n  operationId: updateMaintenanceStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/invoices/{invoiceUid}/payments\n  method: post\n  operationId: recordPaymentByInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/{paymentUid}\n\
   \  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties\n  method: get\n  operationId: listProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/{propertyUid}\n  method: get\n  operationId: getProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/{propertyUid}/units\n  method: get\n  operationId: listPropertyUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/{propertyUid}/units/{unitUid}\n  method: get\n  operationId: getPropertyUnit\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants\n  method: get\n  operationId: listTenants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenantUid}\n  method: get\n  operationId: getTenant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/agentic-access/innago-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/innago/agentic-access/innago-agentic-access.yml
 summary_line: 21 operations · 6 acting
 tags:
 - Property Management

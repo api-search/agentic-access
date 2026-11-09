@@ -9,115 +9,115 @@ api_specs:
   label: Reservoir Accounts API
   slug: reservoir-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-accounts-api-openapi.yml
 - filename: reservoir-activity-api-openapi.yml
   format: yaml
   label: Reservoir Activity API
   slug: reservoir-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-activity-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-activity-api-openapi.yml
 - filename: reservoir-attributes-api-openapi.yml
   format: yaml
   label: Reservoir Attributes API
   slug: reservoir-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-attributes-api-openapi.yml
 - filename: reservoir-chain-api-openapi.yml
   format: yaml
   label: Reservoir Chain API
   slug: reservoir-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-chain-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-chain-api-openapi.yml
 - filename: reservoir-collections-api-openapi.yml
   format: yaml
   label: Reservoir Collections API
   slug: reservoir-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-collections-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-collections-api-openapi.yml
 - filename: reservoir-events-api-openapi.yml
   format: yaml
   label: Reservoir Events API
   slug: reservoir-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-events-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-events-api-openapi.yml
 - filename: reservoir-manage-orders-api-openapi.yml
   format: yaml
   label: Reservoir Manage Orders API
   slug: reservoir-manage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-manage-orders-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-manage-orders-api-openapi.yml
 - filename: reservoir-management-api-openapi.yml
   format: yaml
   label: Reservoir Management API
   slug: reservoir-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-management-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-management-api-openapi.yml
 - filename: reservoir-marketplace-api-openapi.yml
   format: yaml
   label: Reservoir Marketplace API
   slug: reservoir-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-marketplace-api-openapi.yml
 - filename: reservoir-misc-api-openapi.yml
   format: yaml
   label: Reservoir Misc API
   slug: reservoir-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-misc-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-misc-api-openapi.yml
 - filename: reservoir-orders-api-openapi.yml
   format: yaml
   label: Reservoir Orders API
   slug: reservoir-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-orders-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-orders-api-openapi.yml
 - filename: reservoir-owners-api-openapi.yml
   format: yaml
   label: Reservoir Owners API
   slug: reservoir-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-owners-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-owners-api-openapi.yml
 - filename: reservoir-redirects-api-openapi.yml
   format: yaml
   label: Reservoir Redirects API
   slug: reservoir-redirects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-redirects-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-redirects-api-openapi.yml
 - filename: reservoir-sales-api-openapi.yml
   format: yaml
   label: Reservoir Sales API
   slug: reservoir-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-sales-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-sales-api-openapi.yml
 - filename: reservoir-sources-api-openapi.yml
   format: yaml
   label: Reservoir Sources API
   slug: reservoir-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-sources-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-sources-api-openapi.yml
 - filename: reservoir-stats-api-openapi.yml
   format: yaml
   label: Reservoir Stats API
   slug: reservoir-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-stats-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-stats-api-openapi.yml
 - filename: reservoir-tokens-api-openapi.yml
   format: yaml
   label: Reservoir Tokens API
   slug: reservoir-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-tokens-api-openapi.yml
 - filename: reservoir-transfers-api-openapi.yml
   format: yaml
   label: Reservoir Transfers API
   slug: reservoir-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-transfers-api-openapi.yml
 - filename: reservoir-x-deprecated-api-openapi.yml
   format: yaml
   label: Reservoir X Deprecated API
   slug: reservoir-x-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/openapi/reservoir-x-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/reservoir/openapi/reservoir-x-deprecated-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 58
@@ -246,7 +246,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/reserv
   - path: /tokens/{token}/bids/v1\n  method: get\n  operationId: getTokensTokenBidsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/{token}/override/v1\n  method: post\n  operationId: postTokensTokenOverrideV1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /transactions/synced/v2\n  method: get\n  operationId: getTransactionsSyncedV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{txHash}/synced/v1\n  method: get\n  operationId: getTransactionsTxhashSyncedV1\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/bulk/v2\n  method: get\n  operationId: getTransfersBulkV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/v4\n  method: get\n  operationId: getTransfersV4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/activity/v6\n  method: get\n  operationId: getUsersActivityV6\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user}/asks/v1\n  method: get\n  operationId: getUsersUserAsksV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /users/{user}/bids/v1\n  method: get\n  operationId: getUsersUserBidsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user}/collections/v4\n  method: get\n  operationId: getUsersUserCollectionsV4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user}/tokens/v10\n  method: get\n  operationId: getUsersUserTokensV10\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/agentic-access/reservoir-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reservoir/agentic-access/reservoir-agentic-access.yml
 summary_line: 93 operations · 35 acting · 5 human-in-the-loop
 tags:
 - NFT

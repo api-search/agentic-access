@@ -9,31 +9,31 @@ api_specs:
   label: Pact Index API
   slug: pact-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-index-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-index-api-openapi.yml
 - filename: pact-pacticipants-api-openapi.yml
   format: yaml
   label: Pact Pacticipants API
   slug: pact-pacticipants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-pacticipants-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-pacticipants-api-openapi.yml
 - filename: pact-pacts-api-openapi.yml
   format: yaml
   label: Pact Pacts API
   slug: pact-pacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-pacts-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-pacts-api-openapi.yml
 - filename: pact-verifications-api-openapi.yml
   format: yaml
   label: Pact Verifications API
   slug: pact-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-verifications-api-openapi.yml
 - filename: pact-webhooks-api-openapi.yml
   format: yaml
   label: Pact Webhooks API
   slug: pact-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/openapi/pact-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pact/openapi/pact-webhooks-api-openapi.yml
 consequence_counts:
   read: 7
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pact-o
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pacts/provider/{provider}/consumer/{consumer}/latest\n  method: get\n  operationId: getLatestPact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pacticipants\n  method: get\n  operationId: listPacticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pacticipants/{name}\n  method: get\n  operationId: getPacticipant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pacticipants/{name}\n  method: post\n  operationId: createOrUpdatePacticipant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pacticipants/{name}/versions/{version}\n  method: get\n  operationId: getPacticipantVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification-results\n  method: get\n  operationId: listVerificationResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification-results\n  method: post\n  operationId: publishVerificationResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/agentic-access/pact-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pact/agentic-access/pact-agentic-access.yml
 summary_line: 11 operations · 4 acting
 tags:
 - Contract Testing

@@ -9,175 +9,175 @@ api_specs:
   label: APIVerve AI/Computer Vision API
   slug: apiverve-ai-computer-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-ai-computer-vision-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-ai-computer-vision-api-openapi.yml
 - filename: apiverve-astrology-api-openapi.yml
   format: yaml
   label: APIVerve Astrology API
   slug: apiverve-astrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-astrology-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-astrology-api-openapi.yml
 - filename: apiverve-calendar-api-openapi.yml
   format: yaml
   label: APIVerve Calendar API
   slug: apiverve-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-calendar-api-openapi.yml
 - filename: apiverve-data-conversion-api-openapi.yml
   format: yaml
   label: APIVerve Data Conversion API
   slug: apiverve-data-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-data-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-data-conversion-api-openapi.yml
 - filename: apiverve-data-generation-api-openapi.yml
   format: yaml
   label: APIVerve Data Generation API
   slug: apiverve-data-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-data-generation-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-data-generation-api-openapi.yml
 - filename: apiverve-data-lookup-api-openapi.yml
   format: yaml
   label: APIVerve Data Lookup API
   slug: apiverve-data-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-data-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-data-lookup-api-openapi.yml
 - filename: apiverve-data-processing-api-openapi.yml
   format: yaml
   label: APIVerve Data Processing API
   slug: apiverve-data-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-data-processing-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-data-processing-api-openapi.yml
 - filename: apiverve-data-scraping-api-openapi.yml
   format: yaml
   label: APIVerve Data Scraping API
   slug: apiverve-data-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-data-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-data-scraping-api-openapi.yml
 - filename: apiverve-data-validation-api-openapi.yml
   format: yaml
   label: APIVerve Data Validation API
   slug: apiverve-data-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-data-validation-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-data-validation-api-openapi.yml
 - filename: apiverve-documents-api-openapi.yml
   format: yaml
   label: APIVerve Documents API
   slug: apiverve-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-documents-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-documents-api-openapi.yml
 - filename: apiverve-domain-data-api-openapi.yml
   format: yaml
   label: APIVerve Domain Data API
   slug: apiverve-domain-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-domain-data-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-domain-data-api-openapi.yml
 - filename: apiverve-entertainment-api-openapi.yml
   format: yaml
   label: APIVerve Entertainment API
   slug: apiverve-entertainment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-entertainment-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-entertainment-api-openapi.yml
 - filename: apiverve-finance-api-openapi.yml
   format: yaml
   label: APIVerve Finance API
   slug: apiverve-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-finance-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-finance-api-openapi.yml
 - filename: apiverve-food-api-openapi.yml
   format: yaml
   label: APIVerve Food API
   slug: apiverve-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-food-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-food-api-openapi.yml
 - filename: apiverve-games-api-openapi.yml
   format: yaml
   label: APIVerve Games API
   slug: apiverve-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-games-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-games-api-openapi.yml
 - filename: apiverve-geography-api-openapi.yml
   format: yaml
   label: APIVerve Geography API
   slug: apiverve-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-geography-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-geography-api-openapi.yml
 - filename: apiverve-health-wellness-api-openapi.yml
   format: yaml
   label: APIVerve Health/Wellness API
   slug: apiverve-health-wellness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-health-wellness-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-health-wellness-api-openapi.yml
 - filename: apiverve-images-api-openapi.yml
   format: yaml
   label: APIVerve Images API
   slug: apiverve-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-images-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-images-api-openapi.yml
 - filename: apiverve-lifestyle-api-openapi.yml
   format: yaml
   label: APIVerve Lifestyle API
   slug: apiverve-lifestyle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-lifestyle-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-lifestyle-api-openapi.yml
 - filename: apiverve-math-calculations-api-openapi.yml
   format: yaml
   label: APIVerve Math/Calculations API
   slug: apiverve-math-calculations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-math-calculations-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-math-calculations-api-openapi.yml
 - filename: apiverve-networking-api-openapi.yml
   format: yaml
   label: APIVerve Networking API
   slug: apiverve-networking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-networking-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-networking-api-openapi.yml
 - filename: apiverve-news-api-openapi.yml
   format: yaml
   label: APIVerve News API
   slug: apiverve-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-news-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-news-api-openapi.yml
 - filename: apiverve-parsers-api-openapi.yml
   format: yaml
   label: APIVerve Parsers API
   slug: apiverve-parsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-parsers-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-parsers-api-openapi.yml
 - filename: apiverve-reference-data-api-openapi.yml
   format: yaml
   label: APIVerve Reference Data API
   slug: apiverve-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-reference-data-api-openapi.yml
 - filename: apiverve-science-api-openapi.yml
   format: yaml
   label: APIVerve Science API
   slug: apiverve-science-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-science-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-science-api-openapi.yml
 - filename: apiverve-security-api-openapi.yml
   format: yaml
   label: APIVerve Security API
   slug: apiverve-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-security-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-security-api-openapi.yml
 - filename: apiverve-text-processing-api-openapi.yml
   format: yaml
   label: APIVerve Text Processing API
   slug: apiverve-text-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-text-processing-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-text-processing-api-openapi.yml
 - filename: apiverve-transportation-api-openapi.yml
   format: yaml
   label: APIVerve Transportation API
   slug: apiverve-transportation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-transportation-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-transportation-api-openapi.yml
 - filename: apiverve-weather-api-openapi.yml
   format: yaml
   label: APIVerve Weather API
   slug: apiverve-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/openapi/apiverve-weather-api-openapi.yml
+  url: https://artifacts.apis.io/apiverve/openapi/apiverve-weather-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 266
@@ -248,8 +248,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apiver
   \ high-value\n    audit: required\n- path: /v1/historicalevents\n  method: get\n  operationId: historicalevents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hmac\n  method: post\n  operationId: hmac\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/horoscope\n  method: get\n  operationId: horoscope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/htmlentities\n  method: post\n  operationId: htmlentities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/htmltoimage\n  method: post\n  operationId: htmltoimage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/htmltopdf\n  method: post\n  operationId: htmltopdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/htmltotext\n  method: post\n  operationId: htmltotext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/httpstatuslookup\n  method: get\n  operationId: httpstatuslookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/humannameparser\n  method: get\n  operationId: humannameparser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ifsclookup\n  method: get\n  operationId: ifsclookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/imagecaption\n  method: post\n  operationId: imagecaption\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (87 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/agentic-access/apiverve-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiverve/refs/heads/main/agentic-access/apiverve-agentic-access.yml
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (87 KB total) ---\n# Full source: https://artifacts.apis.io/apiverve/agentic-access/apiverve-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/apiverve/agentic-access/apiverve-agentic-access.yml
 summary_line: 367 operations · 101 acting
 tags:
 - API Marketplace
@@ -259,7 +259,7 @@ tags:
 - OpenAPI
 - Postman
 - MCP
-- llms-txt
+- Llms.txt
 - Agent-Native
 - APIKeys
 - IP Geolocation

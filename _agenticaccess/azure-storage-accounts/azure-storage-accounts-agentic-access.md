@@ -9,103 +9,103 @@ api_specs:
   label: Azure Storage Accounts BlobContainers API
   slug: azure-storage-accounts-blobcontainers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-blobcontainers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-blobcontainers-api-openapi.yml
 - filename: azure-storage-accounts-blobservice-api-openapi.yml
   format: yaml
   label: Azure Storage Accounts BlobService API
   slug: azure-storage-accounts-blobservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-blobservice-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-blobservice-api-openapi.yml
 - filename: azure-storage-accounts-locationusage-api-openapi.yml
   format: yaml
   label: Azure Storage Accounts LocationUsage API
   slug: azure-storage-accounts-locationusage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-locationusage-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-locationusage-api-openapi.yml
 - filename: azure-storage-accounts-managementpolicies-api-openapi.yml
   format: yaml
   label: Azure Storage Accounts ManagementPolicies API
   slug: azure-storage-accounts-managementpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-managementpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-managementpolicies-api-openapi.yml
 - filename: azure-storage-accounts-operations-api-openapi.yml
   format: yaml
   label: Azure Storage Accounts Operations API
   slug: azure-storage-accounts-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-operations-api-openapi.yml
 - filename: azure-storage-accounts-privatelinkresources-api-openapi.yml
   format: yaml
   label: Azure Storage Accounts PrivateLinkResources API
   slug: azure-storage-accounts-privatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-privatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-privatelinkresources-api-openapi.yml
 - filename: azure-storage-accounts-skus-api-openapi.yml
   format: yaml
   label: Azure Storage Accounts Skus API
   slug: azure-storage-accounts-skus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-skus-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-skus-api-openapi.yml
 - filename: azure-storage-accounts-storageaccounts-api-openapi.yml
   format: yaml
   label: Azure Storage Accounts StorageAccounts API
   slug: azure-storage-accounts-storageaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-storageaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-storageaccounts-api-openapi.yml
 - filename: azure-storage-accounts-blobcontainers-api-openapi.yml
   format: yaml
   label: Azure Storage Account BlobContainers API
   slug: azure-storage-account-blobcontainers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-blobcontainers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-blobcontainers-api-openapi.yml
 - filename: azure-storage-accounts-blobservice-api-openapi.yml
   format: yaml
   label: Azure Storage Account BlobService API
   slug: azure-storage-account-blobservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-blobservice-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-blobservice-api-openapi.yml
 - filename: azure-storage-accounts-locationusage-api-openapi.yml
   format: yaml
   label: Azure Storage Account LocationUsage API
   slug: azure-storage-account-locationusage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-locationusage-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-locationusage-api-openapi.yml
 - filename: azure-storage-accounts-managementpolicies-api-openapi.yml
   format: yaml
   label: Azure Storage Account ManagementPolicies API
   slug: azure-storage-account-managementpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-managementpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-managementpolicies-api-openapi.yml
 - filename: azure-storage-accounts-operations-api-openapi.yml
   format: yaml
   label: Azure Storage Account Operations API
   slug: azure-storage-account-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-operations-api-openapi.yml
 - filename: azure-storage-accounts-privatelinkresources-api-openapi.yml
   format: yaml
   label: Azure Storage Account PrivateLinkResources API
   slug: azure-storage-account-privatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-privatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-privatelinkresources-api-openapi.yml
 - filename: azure-storage-accounts-skus-api-openapi.yml
   format: yaml
   label: Azure Storage Account Skus API
   slug: azure-storage-account-skus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-skus-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-skus-api-openapi.yml
 - filename: azure-storage-accounts-storageaccounts-api-openapi.yml
   format: yaml
   label: Azure Storage Account StorageAccounts API
   slug: azure-storage-account-storageaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-storageaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-storageaccounts-api-openapi.yml
 - filename: azure-storage-accounts-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Azure Storage Accounts Private Endpoint Connections API
   slug: azure-storage-accounts-private-endpoint-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/openapi/azure-storage-accounts-private-endpoint-connections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-storage-accounts/openapi/azure-storage-accounts-private-endpoint-connections-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \ method: put\n  operationId: PrivateEndpointConnections_Put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/privateLinkResources\n  method: get\n  operationId: PrivateLinkResources_ListByStorageAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/regenerateKey\n  method: post\n  operationId: StorageAccounts_RegenerateKey\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/restoreBlobRanges\n  method: post\n  operationId: StorageAccounts_RestoreBlobRanges\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/revokeUserDelegationKeys\n\
   \  method: post\n  operationId: StorageAccounts_RevokeUserDelegationKeys\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/agentic-access/azure-storage-accounts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-storage-accounts/agentic-access/azure-storage-accounts-agentic-access.yml
 summary_line: 40 operations · 26 acting · 1 human-in-the-loop
 tags:
 - Microsoft Azure

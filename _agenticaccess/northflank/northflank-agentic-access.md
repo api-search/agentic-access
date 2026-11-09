@@ -9,25 +9,25 @@ api_specs:
   label: Northflank Jobs API
   slug: northflank-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-jobs-api-openapi.yml
 - filename: northflank-projects-api-openapi.yml
   format: yaml
   label: Northflank Projects API
   slug: northflank-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-projects-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-projects-api-openapi.yml
 - filename: northflank-services-api-openapi.yml
   format: yaml
   label: Northflank Services API
   slug: northflank-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-services-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-services-api-openapi.yml
 - filename: northflank-add-ons-api-openapi.yml
   format: yaml
   label: Northflank Add Ons API
   slug: northflank-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-add-ons-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/northf
   \ deleteService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/jobs\n  method: post\n  operationId: createJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/jobs/{jobId}/run\n  method: post\n  operationId: runJob\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/addons\n  method: get\n  operationId: listAddons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/addons\n  method: post\n  operationId: createAddon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/addons/{addonId}\n  method: get\n  operationId: getAddon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/addons/{addonId}\n  method: delete\n  operationId: deleteAddon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/agentic-access/northflank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/northflank/agentic-access/northflank-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Cloud Deployment

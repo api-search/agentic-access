@@ -9,55 +9,55 @@ api_specs:
   label: Restaurant365 AP Invoices API
   slug: restaurant365-ap-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-ap-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant365/openapi/restaurant365-ap-invoices-api-openapi.yml
 - filename: restaurant365-audit-api-openapi.yml
   format: yaml
   label: Restaurant365 Audit API
   slug: restaurant365-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-audit-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant365/openapi/restaurant365-audit-api-openapi.yml
 - filename: restaurant365-authentication-api-openapi.yml
   format: yaml
   label: Restaurant365 Authentication API
   slug: restaurant365-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant365/openapi/restaurant365-authentication-api-openapi.yml
 - filename: restaurant365-general-ledger-api-openapi.yml
   format: yaml
   label: Restaurant365 General Ledger API
   slug: restaurant365-general-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-general-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant365/openapi/restaurant365-general-ledger-api-openapi.yml
 - filename: restaurant365-labor-api-openapi.yml
   format: yaml
   label: Restaurant365 Labor API
   slug: restaurant365-labor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-labor-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant365/openapi/restaurant365-labor-api-openapi.yml
 - filename: restaurant365-metadata-api-openapi.yml
   format: yaml
   label: Restaurant365 Metadata API
   slug: restaurant365-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant365/openapi/restaurant365-metadata-api-openapi.yml
 - filename: restaurant365-reference-data-api-openapi.yml
   format: yaml
   label: Restaurant365 Reference Data API
   slug: restaurant365-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant365/openapi/restaurant365-reference-data-api-openapi.yml
 - filename: restaurant365-sales-api-openapi.yml
   format: yaml
   label: Restaurant365 Sales API
   slug: restaurant365-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-sales-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant365/openapi/restaurant365-sales-api-openapi.yml
 - filename: restaurant365-transactions-api-openapi.yml
   format: yaml
   label: Restaurant365 Transactions API
   slug: restaurant365-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/openapi/restaurant365-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant365/openapi/restaurant365-transactions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/restau
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /SalesEmployee\n  method: get\n  operationId: listSalesEmployee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /SalesDetail\n  method: get\n  operationId: listSalesDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /SalesPayment\n  method: get\n  operationId: listSalesPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /EntityDeleted\n  method: get\n  operationId: listEntityDeleted\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /APIv1/Authenticate\n  method: post\n  operationId: authenticate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /APIv1/APInvoices\n  method: post\n  operationId: createApInvoices\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /APIv1/APInvoicesGL\n  method: post\n  operationId: createApInvoicesGl\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /APIv1/JournalEntries\n  method: post\n  operationId: createJournalEntries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/agentic-access/restaurant365-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/restaurant365/agentic-access/restaurant365-agentic-access.yml
 summary_line: 20 operations · 4 acting
 tags:
 - Restaurant

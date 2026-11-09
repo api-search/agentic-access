@@ -9,25 +9,25 @@ api_specs:
   label: Turso Auth API
   slug: turso-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-auth-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-auth-api-openapi.yml
 - filename: turso-locations-api-openapi.yml
   format: yaml
   label: Turso Locations API
   slug: turso-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-locations-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-locations-api-openapi.yml
 - filename: turso-organizations-api-openapi.yml
   format: yaml
   label: Turso Organizations API
   slug: turso-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-organizations-api-openapi.yml
 - filename: turso-user-api-openapi.yml
   format: yaml
   label: Turso User API
   slug: turso-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-user-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-user-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 25
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/turso-
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/organizations/{organizationSlug}/api-tokens\n  method: get\n  operationId: listOrganizationAPITokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{organizationSlug}/api-tokens/{tokenId}\n  method: delete\n  operationId: revokeOrganizationAPIToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path:\
   \ /v1/organizations/{organizationSlug}/audit-logs\n  method: get\n  operationId: listOrganizationAuditLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/organizations/{organizationSlug}/invites\n  method: get\n  operationId: listOrganizationInvitesV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/organizations/{organizationSlug}/invites\n  method: post\n  operationId: inviteOrganizationMemberV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/organizations/{organizationSlug}/invites/{email}\n  method: delete\n  operationId: deleteOrganizationInviteByEmailV2\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/agentic-access/turso-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/turso/agentic-access/turso-agentic-access.yml
 summary_line: 49 operations · 24 acting · 2 human-in-the-loop
 tags:
 - Database

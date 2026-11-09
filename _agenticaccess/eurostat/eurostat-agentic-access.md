@@ -8,49 +8,49 @@ api_specs:
   label: Eurostat Async API
   slug: eurostat-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-async-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-async-api-openapi.yml
 - filename: eurostat-catalogue-queries-api-openapi.yml
   format: yaml
   label: Eurostat Catalogue queries API
   slug: eurostat-catalogue-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-catalogue-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-catalogue-queries-api-openapi.yml
 - filename: eurostat-sdmx-2-1-data-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 2.1 Data queries API
   slug: eurostat-sdmx-2-1-data-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-2-1-data-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-2-1-data-queries-api-openapi.yml
 - filename: eurostat-sdmx-2-1-navigation-structure-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 2.1 Navigation Structure queries API
   slug: eurostat-sdmx-2-1-navigation-structure-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-2-1-navigation-structure-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-2-1-navigation-structure-queries-api-openapi.yml
 - filename: eurostat-sdmx-2-1-structure-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 2.1 Structure queries API
   slug: eurostat-sdmx-2-1-structure-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-2-1-structure-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-2-1-structure-queries-api-openapi.yml
 - filename: eurostat-sdmx-3-0-data-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 3.0 Data queries API
   slug: eurostat-sdmx-3-0-data-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-3-0-data-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-3-0-data-queries-api-openapi.yml
 - filename: eurostat-sdmx-3-0-structure-queries-api-openapi.yml
   format: yaml
   label: Eurostat SDMX 3.0 Structure queries API
   slug: eurostat-sdmx-3-0-structure-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-sdmx-3-0-structure-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-sdmx-3-0-structure-queries-api-openapi.yml
 - filename: eurostat-statistics-data-queries-api-openapi.yml
   format: yaml
   label: Eurostat Statistics data queries API
   slug: eurostat-statistics-data-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/openapi/eurostat-statistics-data-queries-api-openapi.yml
+  url: https://artifacts.apis.io/eurostat/openapi/eurostat-statistics-data-queries-api-openapi.yml
 consequence_counts:
   read: 30
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eurost
   \ none\n- path: /1.0/async/status/{uuid}\n  method: get\n  operationId: getAsyncStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/async/data/{uuid}\n  method: get\n  operationId: getAsyncData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogue/dcat/{agencyID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogue/dcat/{agencyID}/{extractionType}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogue/metabase.txt.gz\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogue/rss/{language}/statistics-update.rss\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogue/toc/TableOfContent.xsd\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogue/toc/txt\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogue/toc/xml\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statistics/1.0/data/{datasetCode}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/agentic-access/eurostat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eurostat/agentic-access/eurostat-agentic-access.yml
 summary_line: 30 operations
 tags:
 - Statistics

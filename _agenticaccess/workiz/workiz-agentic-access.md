@@ -9,31 +9,31 @@ api_specs:
   label: Workiz Jobs API
   slug: workiz-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-jobs-api-openapi.yml
 - filename: workiz-leads-api-openapi.yml
   format: yaml
   label: Workiz Leads API
   slug: workiz-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-leads-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-leads-api-openapi.yml
 - filename: workiz-payments-api-openapi.yml
   format: yaml
   label: Workiz Payments API
   slug: workiz-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-payments-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-payments-api-openapi.yml
 - filename: workiz-team-api-openapi.yml
   format: yaml
   label: Workiz Team API
   slug: workiz-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-team-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-team-api-openapi.yml
 - filename: workiz-time-off-api-openapi.yml
   format: yaml
   label: Workiz Time Off API
   slug: workiz-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/openapi/workiz-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/workiz/openapi/workiz-time-off-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workiz
   \ post\n  operationId: unassignJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /job/addPayment/{UUID}/\n  method: post\n  operationId: addJobPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lead/all/\n  method: get\n  operationId: listLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lead/get/{UUID}/\n  method: get\n  operationId: getLead\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lead/create/\n  method: post\n  operationId: createLead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lead/update/\n  method: post\n  operationId: updateLead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team/all/\n  method: get\n  operationId: listTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /team/get/{USER_ID}/\n  method: get\n  operationId: getTeamMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timeoff/get/\n  method: get\n  operationId: listTimeOff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timeoff/get/{USER_NAME}/\n  method: get\n  operationId: getUserTimeOff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/agentic-access/workiz-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workiz/agentic-access/workiz-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Field Service Management

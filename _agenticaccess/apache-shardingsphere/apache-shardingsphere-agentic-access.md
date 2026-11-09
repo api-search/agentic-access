@@ -9,31 +9,31 @@ api_specs:
   label: Apache ShardingSphere Cluster API
   slug: apache-shardingsphere-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/openapi/apache-shardingsphere-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shardingsphere/openapi/apache-shardingsphere-cluster-api-openapi.yml
 - filename: apache-shardingsphere-databases-api-openapi.yml
   format: yaml
   label: Apache ShardingSphere Databases API
   slug: apache-shardingsphere-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/openapi/apache-shardingsphere-databases-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shardingsphere/openapi/apache-shardingsphere-databases-api-openapi.yml
 - filename: apache-shardingsphere-readwritesplitting-api-openapi.yml
   format: yaml
   label: Apache ShardingSphere ReadwriteSplitting API
   slug: apache-shardingsphere-readwritesplitting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/openapi/apache-shardingsphere-readwritesplitting-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shardingsphere/openapi/apache-shardingsphere-readwritesplitting-api-openapi.yml
 - filename: apache-shardingsphere-shardingrules-api-openapi.yml
   format: yaml
   label: Apache ShardingSphere ShardingRules API
   slug: apache-shardingsphere-shardingrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/openapi/apache-shardingsphere-shardingrules-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shardingsphere/openapi/apache-shardingsphere-shardingrules-api-openapi.yml
 - filename: apache-shardingsphere-data-sources-api-openapi.yml
   format: yaml
   label: Apache ShardingSphere Data Sources API
   slug: apache-shardingsphere-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/openapi/apache-shardingsphere-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shardingsphere/openapi/apache-shardingsphere-data-sources-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /databases/{databaseName}\n  method: get\n  operationId: getDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /databases/{databaseName}\n  method: delete\n  operationId: deleteDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /databases/{databaseName}/data-sources\n  method: get\n  operationId: listDataSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /databases/{databaseName}/data-sources\n  method: post\n  operationId: addDataSource\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /databases/{databaseName}/rules/sharding\n  method: get\n  operationId: getShardingRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /databases/{databaseName}/rules/readwrite-splitting\n  method: get\n  operationId: getReadwriteSplittingRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cluster/status\n  method: get\n  operationId: getClusterStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/agentic-access/apache-shardingsphere-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-shardingsphere/agentic-access/apache-shardingsphere-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Database

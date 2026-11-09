@@ -8,13 +8,13 @@ api_specs:
   label: Mastodon Instances API
   slug: mastodon-instances-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/openapi/mastodon-instances-instances-api-openapi.yml
+  url: https://artifacts.apis.io/mastodon-instances/openapi/mastodon-instances-instances-api-openapi.yml
 - filename: mastodon-instances-versions-api-openapi.yml
   format: yaml
   label: Mastodon Instances Versions API
   slug: mastodon-instances-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/openapi/mastodon-instances-versions-api-openapi.yml
+  url: https://artifacts.apis.io/mastodon-instances/openapi/mastodon-instances-versions-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mastodon-instances-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /instances/sample\n  method: get\n  operationId: getInstancesSample\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/list\n  method: get\n  operationId: listInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/search\n  method: get\n  operationId:\
   \ searchInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/show\n  method: get\n  operationId: showInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /versions/list\n  method: get\n  operationId: listVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /versions/show\n  method: get\n  operationId: showVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/agentic-access/mastodon-instances-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mastodon-instances/agentic-access/mastodon-instances-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Fediverse

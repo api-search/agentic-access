@@ -9,13 +9,13 @@ api_specs:
   label: Google Cloud Armor SecurityPolicyRules API
   slug: google-cloud-armor-securitypolicyrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/google-cloud-armor-securitypolicyrules-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-armor/openapi/google-cloud-armor-securitypolicyrules-api-openapi.yml
 - filename: google-cloud-armor-security-policies-api-openapi.yml
   format: yaml
   label: Google Cloud Armor Security Policies API
   slug: google-cloud-armor-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/google-cloud-armor-security-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-armor/openapi/google-cloud-armor-security-policies-api-openapi.yml
 consequence_counts:
   read: 2
   write: 5
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/compute\n- path: /projects/{project}/global/securityPolicies/{securityPolicy}\n  method: get\n  operationId: getSecurityPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/compute\n- path: /projects/{project}/global/securityPolicies/{securityPolicy}\n  method: patch\n  operationId: patchSecurityPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n\
   \    - https://www.googleapis.com/auth/compute\n- path: /projects/{project}/global/securityPolicies/{securityPolicy}\n  method: delete\n  operationId: deleteSecurityPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/compute\n- path: /projects/{project}/global/securityPolicies/{securityPolicy}/addRule\n  method: post\n  operationId: addSecurityPolicyRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/compute\n- path: /projects/{project}/global/securityPolicies/{securityPolicy}/removeRule\n\
   \  method: post\n  operationId: removeSecurityPolicyRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/compute\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/agentic-access/google-cloud-armor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-armor/agentic-access/google-cloud-armor-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
 - DDoS Protection

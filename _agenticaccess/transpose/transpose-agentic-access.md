@@ -9,37 +9,37 @@ api_specs:
   label: Transpose Block API
   slug: transpose-block-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-block-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-block-api-api-openapi.yml
 - filename: transpose-ens-api-api-openapi.yml
   format: yaml
   label: Transpose ENS API
   slug: transpose-ens-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-ens-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-ens-api-api-openapi.yml
 - filename: transpose-nft-api-api-openapi.yml
   format: yaml
   label: Transpose NFT API
   slug: transpose-nft-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-nft-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-nft-api-api-openapi.yml
 - filename: transpose-sql-analytics-api-api-openapi.yml
   format: yaml
   label: Transpose SQL Analytics API
   slug: transpose-sql-analytics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-sql-analytics-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-sql-analytics-api-api-openapi.yml
 - filename: transpose-token-api-api-openapi.yml
   format: yaml
   label: Transpose Token API
   slug: transpose-token-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-token-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-token-api-api-openapi.yml
 - filename: transpose-token-prices-api-api-openapi.yml
   format: yaml
   label: Transpose Token Prices API
   slug: transpose-token-prices-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/openapi/transpose-token-prices-api-api-openapi.yml
+  url: https://artifacts.apis.io/transpose/openapi/transpose-token-prices-api-api-openapi.yml
 consequence_counts:
   read: 20
   write: 1
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nft/transfers\n  method: get\n  operationId: getNftTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nft/sales\n  method: get\n  operationId: getNftSales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nft/owners\n  method: get\n  operationId: getNftOwners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ens/records\n  method: get\n  operationId: getEnsRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ens/transfers\n  method: get\n  operationId:\
   \ getEnsTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices/token-price\n  method: get\n  operationId: getTokenPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices/token-price-history\n  method: get\n  operationId: getTokenPriceHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices/ohlc-price-history\n  method: get\n  operationId: getOhlcPriceHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sql\n  method: post\n  operationId: executeSqlQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/agentic-access/transpose-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/transpose/agentic-access/transpose-agentic-access.yml
 summary_line: 21 operations · 1 acting
 tags:
 - Blockchain

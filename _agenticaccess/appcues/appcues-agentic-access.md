@@ -9,79 +9,79 @@ api_specs:
   label: Appcues Banners API
   slug: appcues-banners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-banners-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-banners-api-openapi.yml
 - filename: appcues-events-api-openapi.yml
   format: yaml
   label: Appcues Events API
   slug: appcues-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-events-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-events-api-openapi.yml
 - filename: appcues-exports-api-openapi.yml
   format: yaml
   label: Appcues Exports API
   slug: appcues-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-exports-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-exports-api-openapi.yml
 - filename: appcues-flows-api-openapi.yml
   format: yaml
   label: Appcues Flows API
   slug: appcues-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-flows-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-flows-api-openapi.yml
 - filename: appcues-groups-api-openapi.yml
   format: yaml
   label: Appcues Groups API
   slug: appcues-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-groups-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-groups-api-openapi.yml
 - filename: appcues-imports-api-openapi.yml
   format: yaml
   label: Appcues Imports API
   slug: appcues-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-imports-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-imports-api-openapi.yml
 - filename: appcues-jobs-api-openapi.yml
   format: yaml
   label: Appcues Jobs API
   slug: appcues-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-jobs-api-openapi.yml
 - filename: appcues-launchpads-api-openapi.yml
   format: yaml
   label: Appcues Launchpads API
   slug: appcues-launchpads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-launchpads-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-launchpads-api-openapi.yml
 - filename: appcues-mobile-api-openapi.yml
   format: yaml
   label: Appcues Mobile API
   slug: appcues-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-mobile-api-openapi.yml
 - filename: appcues-pins-api-openapi.yml
   format: yaml
   label: Appcues Pins API
   slug: appcues-pins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-pins-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-pins-api-openapi.yml
 - filename: appcues-segments-api-openapi.yml
   format: yaml
   label: Appcues Segments API
   slug: appcues-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-segments-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-segments-api-openapi.yml
 - filename: appcues-tags-api-openapi.yml
   format: yaml
   label: Appcues Tags API
   slug: appcues-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-tags-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-tags-api-openapi.yml
 - filename: appcues-users-api-openapi.yml
   format: yaml
   label: Appcues Users API
   slug: appcues-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/openapi/appcues-users-api-openapi.yml
+  url: https://artifacts.apis.io/appcues/openapi/appcues-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/appcue
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{account_id}/launchpads\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{account_id}/launchpads/{launchpad_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{account_id}/launchpads/{launchpad_id}/publish\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{account_id}/launchpads/{launchpad_id}/unpublish\n  method: post\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{account_id}/banners\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{account_id}/banners/{banner_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{account_id}/banners/{banner_id}/publish\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v2/accounts/{account_id}/banners/{banner_id}/unpublish\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/agentic-access/appcues-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appcues/agentic-access/appcues-agentic-access.yml
 summary_line: 44 operations · 25 acting
 tags:
 - Product

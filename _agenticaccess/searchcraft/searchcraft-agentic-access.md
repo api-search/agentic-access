@@ -9,61 +9,61 @@ api_specs:
   label: Searchcraft Authentication API
   slug: searchcraft-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-authentication-api-openapi.yml
 - filename: searchcraft-documents-api-openapi.yml
   format: yaml
   label: Searchcraft Documents API
   slug: searchcraft-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-documents-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-documents-api-openapi.yml
 - filename: searchcraft-federation-api-openapi.yml
   format: yaml
   label: Searchcraft Federation API
   slug: searchcraft-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-federation-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-federation-api-openapi.yml
 - filename: searchcraft-indexes-api-openapi.yml
   format: yaml
   label: Searchcraft Indexes API
   slug: searchcraft-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-indexes-api-openapi.yml
 - filename: searchcraft-measure-api-openapi.yml
   format: yaml
   label: Searchcraft Measure API
   slug: searchcraft-measure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-measure-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-measure-api-openapi.yml
 - filename: searchcraft-search-api-openapi.yml
   format: yaml
   label: Searchcraft Search API
   slug: searchcraft-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-search-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-search-api-openapi.yml
 - filename: searchcraft-stopwords-api-openapi.yml
   format: yaml
   label: Searchcraft Stopwords API
   slug: searchcraft-stopwords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-stopwords-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-stopwords-api-openapi.yml
 - filename: searchcraft-synonyms-api-openapi.yml
   format: yaml
   label: Searchcraft Synonyms API
   slug: searchcraft-synonyms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-synonyms-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-synonyms-api-openapi.yml
 - filename: searchcraft-transactions-api-openapi.yml
   format: yaml
   label: Searchcraft Transactions API
   slug: searchcraft-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-transactions-api-openapi.yml
 - filename: searchcraft-health-check-api-openapi.yml
   format: yaml
   label: Searchcraft Health Check API
   slug: searchcraft-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/openapi/searchcraft-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/searchcraft/openapi/searchcraft-health-check-api-openapi.yml
 consequence_counts:
   read: 18
   safety-critical: 3
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/search
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /index/{index}/stopwords/all\n  method: delete\n  operationId: deleteAllStopwords\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /index/{index}/synonyms\n  method: get\n  operationId: getSynonyms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /index/{index}/synonyms\n  method: post\n  operationId: addSynonyms\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /index/{index}/synonyms\n  method: delete\n  operationId: deleteSynonyms\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /index/{index}/synonyms/all\n  method: delete\n  operationId: deleteAllSynonyms\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /index/{index}/commit\n  method: post\n  operationId:\
   \ commitTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /index/{index}/rollback\n  method: post\n  operationId: rollbackTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/agentic-access/searchcraft-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/searchcraft/agentic-access/searchcraft-agentic-access.yml
 summary_line: 45 operations · 27 acting · 3 human-in-the-loop
 tags:
 - Search

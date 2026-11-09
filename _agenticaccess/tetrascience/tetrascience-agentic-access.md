@@ -9,211 +9,211 @@ api_specs:
   label: TetraScience Access Groups API
   slug: tetrascience-access-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-access-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-access-groups-api-openapi.yml
 - filename: tetrascience-agents-api-openapi.yml
   format: yaml
   label: TetraScience Agents API
   slug: tetrascience-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-agents-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-agents-api-openapi.yml
 - filename: tetrascience-ai-workflows-api-openapi.yml
   format: yaml
   label: TetraScience AI Workflows API
   slug: tetrascience-ai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-ai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-ai-workflows-api-openapi.yml
 - filename: tetrascience-attributes-api-openapi.yml
   format: yaml
   label: TetraScience Attributes API
   slug: tetrascience-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-attributes-api-openapi.yml
 - filename: tetrascience-audit-trail-api-openapi.yml
   format: yaml
   label: TetraScience Audit Trail API
   slug: tetrascience-audit-trail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-audit-trail-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-audit-trail-api-openapi.yml
 - filename: tetrascience-clusters-api-openapi.yml
   format: yaml
   label: TetraScience Clusters API
   slug: tetrascience-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-clusters-api-openapi.yml
 - filename: tetrascience-commands-api-openapi.yml
   format: yaml
   label: TetraScience Commands API
   slug: tetrascience-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-commands-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-commands-api-openapi.yml
 - filename: tetrascience-connectors-api-openapi.yml
   format: yaml
   label: TetraScience Connectors API
   slug: tetrascience-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-connectors-api-openapi.yml
 - filename: tetrascience-data-acquisition-api-openapi.yml
   format: yaml
   label: TetraScience Data Acquisition API
   slug: tetrascience-data-acquisition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-data-acquisition-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-data-acquisition-api-openapi.yml
 - filename: tetrascience-data-app-providers-api-openapi.yml
   format: yaml
   label: TetraScience Data App Providers API
   slug: tetrascience-data-app-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-data-app-providers-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-data-app-providers-api-openapi.yml
 - filename: tetrascience-data-apps-api-openapi.yml
   format: yaml
   label: TetraScience Data Apps API
   slug: tetrascience-data-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-data-apps-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-data-apps-api-openapi.yml
 - filename: tetrascience-databricks-api-openapi.yml
   format: yaml
   label: TetraScience Databricks API
   slug: tetrascience-databricks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-databricks-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-databricks-api-openapi.yml
 - filename: tetrascience-edit-subscriptions-api-openapi.yml
   format: yaml
   label: TetraScience Edit Subscriptions API
   slug: tetrascience-edit-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-edit-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-edit-subscriptions-api-openapi.yml
 - filename: tetrascience-embedded-data-apps-api-openapi.yml
   format: yaml
   label: TetraScience Embedded Data Apps API
   slug: tetrascience-embedded-data-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-embedded-data-apps-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-embedded-data-apps-api-openapi.yml
 - filename: tetrascience-files-api-openapi.yml
   format: yaml
   label: TetraScience Files API
   slug: tetrascience-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-files-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-files-api-openapi.yml
 - filename: tetrascience-hubs-api-openapi.yml
   format: yaml
   label: TetraScience Hubs API
   slug: tetrascience-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-hubs-api-openapi.yml
 - filename: tetrascience-ids-api-openapi.yml
   format: yaml
   label: TetraScience IDS API
   slug: tetrascience-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-ids-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-ids-api-openapi.yml
 - filename: tetrascience-lakehouse-api-openapi.yml
   format: yaml
   label: TetraScience Lakehouse API
   slug: tetrascience-lakehouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-lakehouse-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-lakehouse-api-openapi.yml
 - filename: tetrascience-linked-data-apps-api-openapi.yml
   format: yaml
   label: TetraScience Linked Data Apps API
   slug: tetrascience-linked-data-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-linked-data-apps-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-linked-data-apps-api-openapi.yml
 - filename: tetrascience-login-api-openapi.yml
   format: yaml
   label: TetraScience Login API
   slug: tetrascience-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-login-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-login-api-openapi.yml
 - filename: tetrascience-logs-api-openapi.yml
   format: yaml
   label: TetraScience Logs API
   slug: tetrascience-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-logs-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-logs-api-openapi.yml
 - filename: tetrascience-organizations-api-openapi.yml
   format: yaml
   label: TetraScience Organizations API
   slug: tetrascience-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-organizations-api-openapi.yml
 - filename: tetrascience-pipelines-api-openapi.yml
   format: yaml
   label: TetraScience Pipelines API
   slug: tetrascience-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-pipelines-api-openapi.yml
 - filename: tetrascience-protocols-api-openapi.yml
   format: yaml
   label: TetraScience Protocols API
   slug: tetrascience-protocols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-protocols-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-protocols-api-openapi.yml
 - filename: tetrascience-requests-api-openapi.yml
   format: yaml
   label: TetraScience Requests API
   slug: tetrascience-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-requests-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-requests-api-openapi.yml
 - filename: tetrascience-roles-api-openapi.yml
   format: yaml
   label: TetraScience Roles API
   slug: tetrascience-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-roles-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-roles-api-openapi.yml
 - filename: tetrascience-schemas-api-openapi.yml
   format: yaml
   label: TetraScience Schemas API
   slug: tetrascience-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-schemas-api-openapi.yml
 - filename: tetrascience-search-api-openapi.yml
   format: yaml
   label: TetraScience Search API
   slug: tetrascience-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-search-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-search-api-openapi.yml
 - filename: tetrascience-task-scripts-api-openapi.yml
   format: yaml
   label: TetraScience Task Scripts API
   slug: tetrascience-task-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-task-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-task-scripts-api-openapi.yml
 - filename: tetrascience-tenants-api-openapi.yml
   format: yaml
   label: TetraScience Tenants API
   slug: tetrascience-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-tenants-api-openapi.yml
 - filename: tetrascience-tetraflows-api-openapi.yml
   format: yaml
   label: TetraScience Tetraflows API
   slug: tetrascience-tetraflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-tetraflows-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-tetraflows-api-openapi.yml
 - filename: tetrascience-tetraspheres-api-openapi.yml
   format: yaml
   label: TetraScience Tetraspheres API
   slug: tetrascience-tetraspheres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-tetraspheres-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-tetraspheres-api-openapi.yml
 - filename: tetrascience-users-api-openapi.yml
   format: yaml
   label: TetraScience Users API
   slug: tetrascience-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-users-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-users-api-openapi.yml
 - filename: tetrascience-view-subscriptions-api-openapi.yml
   format: yaml
   label: TetraScience View Subscriptions API
   slug: tetrascience-view-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-view-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-view-subscriptions-api-openapi.yml
 - filename: tetrascience-workflows-api-openapi.yml
   format: yaml
   label: TetraScience Workflows API
   slug: tetrascience-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/openapi/tetrascience-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/tetrascience/openapi/tetrascience-workflows-api-openapi.yml
 consequence_counts:
   read: 168
   safety-critical: 7
@@ -311,8 +311,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tetras
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/pipeline/clusterPolicies/databricks\n  method: get\n  operationId: DL-FI-listDatabricksClusterPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pipeline/clusters/databricks\n  method: get\n  operationId: DL-FI-listDatabricksClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/externalevents/requests/creation\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/externalevents/requests/deletion\n  method: post\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/externalevents/availableEventTypes\n  method: get\n  operationId: getAllAvailableEventTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/externalevents/requests/update\n  method: post\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/dataapps/apps/manage\n  method: post\n  operationId: create-or-delete-embedded-data-app\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/dataapps/apps/manage\n  method: get\n  operationId: fetch-all-available-data-apps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/datalake/delete\n  method: delete\n  operationId: DL-FI-dl-delete-a-file\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/datalake/retrieve\n  method: get\n  operationId: DL-FI-dl-retrieve-a-file\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/datalake/upload\n  method: post\n  operationId: DL-FI-dl-upload-a-file\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (69 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/agentic-access/tetrascience-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/agentic-access/tetrascience-agentic-access.yml
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/datalake/retrieve\n  method: get\n  operationId: DL-FI-dl-retrieve-a-file\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/datalake/upload\n  method: post\n  operationId: DL-FI-dl-upload-a-file\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (69 KB total) ---\n# Full source: https://artifacts.apis.io/tetrascience/agentic-access/tetrascience-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/tetrascience/agentic-access/tetrascience-agentic-access.yml
 summary_line: 246 operations · 78 acting · 7 human-in-the-loop
 tags:
 - Scientific Data

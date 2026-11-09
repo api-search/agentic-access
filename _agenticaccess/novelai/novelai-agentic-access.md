@@ -9,31 +9,31 @@ api_specs:
   label: NovelAI /ai/ API
   slug: novelai-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/openapi/novelai-ai-api-openapi.yml
+  url: https://artifacts.apis.io/novelai/openapi/novelai-ai-api-openapi.yml
 - filename: novelai-ai-module-api-openapi.yml
   format: yaml
   label: NovelAI /ai/module/ API
   slug: novelai-ai-module-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/openapi/novelai-ai-module-api-openapi.yml
+  url: https://artifacts.apis.io/novelai/openapi/novelai-ai-module-api-openapi.yml
 - filename: novelai-default-api-openapi.yml
   format: yaml
   label: NovelAI / API
   slug: novelai-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/openapi/novelai-default-api-openapi.yml
+  url: https://artifacts.apis.io/novelai/openapi/novelai-default-api-openapi.yml
 - filename: novelai-user-api-openapi.yml
   format: yaml
   label: NovelAI /user/ API
   slug: novelai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/openapi/novelai-user-api-openapi.yml
+  url: https://artifacts.apis.io/novelai/openapi/novelai-user-api-openapi.yml
 - filename: novelai-user-subscription-api-openapi.yml
   format: yaml
   label: NovelAI /user/subscription/ API
   slug: novelai-user-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/openapi/novelai-user-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/novelai/openapi/novelai-user-subscription-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 35
@@ -206,7 +206,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/novela
   \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /ai/classify\n  method: post\n  operationId: AIController_classify\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /ai/generate-image/suggest-tags\n  method: get\n  operationId: AIController_generateImageTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/generate-voice\n  method: get\n  operationId: AIController_generateVoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/generate-voice\n  method: post\n  operationId: AIController_generateVoicePost\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /ai/module/all\n  method: get\n  operationId: AIModuleController_allModules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/module/{id}\n  method: get\n  operationId: AIModuleController_getModule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/module/{id}\n  method: delete\n  operationId: AIModuleController_deleteModule\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /ai/module/buy-training-steps\n  method: post\n  operationId: AIModuleController_buyTrainingSteps\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/agentic-access/novelai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/novelai/agentic-access/novelai-agentic-access.yml
 summary_line: 52 operations · 35 acting · 35 human-in-the-loop
 tags:
 - Artificial Intelligence

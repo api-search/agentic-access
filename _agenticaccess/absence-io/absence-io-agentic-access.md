@@ -9,43 +9,43 @@ api_specs:
   label: Absence.io Absences API
   slug: absence-io-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-absences-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-absences-api-openapi.yml
 - filename: absence-io-allowances-api-openapi.yml
   format: yaml
   label: Absence.io Allowances API
   slug: absence-io-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-allowances-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-allowances-api-openapi.yml
 - filename: absence-io-departments-api-openapi.yml
   format: yaml
   label: Absence.io Departments API
   slug: absence-io-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-departments-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-departments-api-openapi.yml
 - filename: absence-io-locations-api-openapi.yml
   format: yaml
   label: Absence.io Locations API
   slug: absence-io-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-locations-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-locations-api-openapi.yml
 - filename: absence-io-reason-types-api-openapi.yml
   format: yaml
   label: Absence.io Reason Types API
   slug: absence-io-reason-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-reason-types-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-reason-types-api-openapi.yml
 - filename: absence-io-timespans-api-openapi.yml
   format: yaml
   label: Absence.io Timespans API
   slug: absence-io-timespans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-timespans-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-timespans-api-openapi.yml
 - filename: absence-io-users-api-openapi.yml
   format: yaml
   label: Absence.io Users API
   slug: absence-io-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-users-api-openapi.yml
+  url: https://artifacts.apis.io/absence-io/openapi/absence-io-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/absenc
   \      max-ttl: 3600\n    audit: none\n- path: /absences/{id}\n  method: get\n  operationId: getAbsence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /absences/{id}\n  method: put\n  operationId: updateAbsence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /absences/{id}\n  method: delete\n  operationId: deleteAbsence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /absences/create\n  method: post\n  operationId:\
   \ createAbsence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /allowances\n  method: post\n  operationId: listAllowances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /departments\n  method: post\n  operationId: listDepartments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: post\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reasontypes\n  method: post\n  operationId: listReasonTypes\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timespans\n  method: post\n  operationId: listTimespans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/agentic-access/absence-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/absence-io/agentic-access/absence-io-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
 - Absences

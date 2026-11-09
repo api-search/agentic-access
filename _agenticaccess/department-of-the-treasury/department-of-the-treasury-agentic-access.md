@@ -8,79 +8,79 @@ api_specs:
   label: Department of the Treasury Auctions API
   slug: department-of-the-treasury-auctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-auctions-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-auctions-api-openapi.yml
 - filename: department-of-the-treasury-debt-api-openapi.yml
   format: yaml
   label: Department of the Treasury Debt API
   slug: department-of-the-treasury-debt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-debt-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-debt-api-openapi.yml
 - filename: department-of-the-treasury-exchange-rates-api-openapi.yml
   format: yaml
   label: Department of the Treasury Exchange Rates API
   slug: department-of-the-treasury-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-exchange-rates-api-openapi.yml
 - filename: department-of-the-treasury-interest-rates-api-openapi.yml
   format: yaml
   label: Department of the Treasury Interest Rates API
   slug: department-of-the-treasury-interest-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-interest-rates-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-interest-rates-api-openapi.yml
 - filename: department-of-the-treasury-sanctions-lists-api-openapi.yml
   format: yaml
   label: Department of the Treasury Sanctions Lists API
   slug: department-of-the-treasury-sanctions-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-sanctions-lists-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-sanctions-lists-api-openapi.yml
 - filename: department-of-the-treasury-search-api-openapi.yml
   format: yaml
   label: Department of the Treasury Search API
   slug: department-of-the-treasury-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-search-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-search-api-openapi.yml
 - filename: department-of-the-treasury-spending-api-openapi.yml
   format: yaml
   label: Department of the Treasury Spending API
   slug: department-of-the-treasury-spending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-spending-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-spending-api-openapi.yml
 - filename: department-of-the-treasury-treasury-operations-api-openapi.yml
   format: yaml
   label: Department of the Treasury Operations API
   slug: department-of-the-treasury-treasury-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-treasury-operations-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-treasury-operations-api-openapi.yml
 - filename: department-of-the-treasury-entity-management-controller-api-openapi.yml
   format: yaml
   label: Department of the Treasury Entity Management Controller API
   slug: department-of-the-treasury-entity-management-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-controller-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-entity-management-controller-api-openapi.yml
 - filename: department-of-the-treasury-entity-management-controller-v-2-api-openapi.yml
   format: yaml
   label: Department of the Treasury Entity Management Controller V 2 API
   slug: department-of-the-treasury-entity-management-controller-v-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-controller-v-2-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-entity-management-controller-v-2-api-openapi.yml
 - filename: department-of-the-treasury-entity-management-controller-v-3-api-openapi.yml
   format: yaml
   label: Department of the Treasury Entity Management Controller V 3 API
   slug: department-of-the-treasury-entity-management-controller-v-3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-controller-v-3-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-entity-management-controller-v-3-api-openapi.yml
 - filename: department-of-the-treasury-entity-management-controller-v-4-api-openapi.yml
   format: yaml
   label: Department of the Treasury Entity Management Controller V 4 API
   slug: department-of-the-treasury-entity-management-controller-v-4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-controller-v-4-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-entity-management-controller-v-4-api-openapi.yml
 - filename: department-of-the-treasury-entity-management-extract-controller-api-openapi.yml
   format: yaml
   label: Department of the Treasury Entity Management Extract Controller API
   slug: department-of-the-treasury-entity-management-extract-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-extract-controller-api-openapi.yml
+  url: https://artifacts.apis.io/department-of-the-treasury/openapi/department-of-the-treasury-entity-management-extract-controller-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/depart
   \  method: get\n  operationId: getSecuritiesSales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounting/od/debt_to_penny\n  method: get\n  operationId: getDebtToPenny\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounting/od/rates_of_exchange\n  method: get\n  operationId: getRatesOfExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounting/od/avg_interest_rates\n  method: get\n  operationId: getAverageInterestRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/sdn\n  method: get\n  operationId: getSdnList\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/consolidated\n  method: get\n  operationId: getConsolidatedList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: post\n  operationId: searchSanctions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounting/od/utf\n  method: get\n  operationId: getMSPD\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounting/dts/operating_cash_balance\n  method: get\n  operationId: getOperatingCashBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/accounting/mts/mts_table_1\n  method: get\n  operationId: getMonthlyTreasuryStatementTable1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/agentic-access/department-of-the-treasury-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/department-of-the-treasury/agentic-access/department-of-the-treasury-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Federal Government

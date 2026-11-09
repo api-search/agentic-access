@@ -9,49 +9,49 @@ api_specs:
   label: ProductPlan Bars API
   slug: productplan-bars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/openapi/productplan-bars-api-openapi.yml
+  url: https://artifacts.apis.io/productplan/openapi/productplan-bars-api-openapi.yml
 - filename: productplan-discovery-api-openapi.yml
   format: yaml
   label: ProductPlan Discovery API
   slug: productplan-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/openapi/productplan-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/productplan/openapi/productplan-discovery-api-openapi.yml
 - filename: productplan-launches-api-openapi.yml
   format: yaml
   label: ProductPlan Launches API
   slug: productplan-launches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/openapi/productplan-launches-api-openapi.yml
+  url: https://artifacts.apis.io/productplan/openapi/productplan-launches-api-openapi.yml
 - filename: productplan-roadmaps-api-openapi.yml
   format: yaml
   label: ProductPlan Roadmaps API
   slug: productplan-roadmaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/openapi/productplan-roadmaps-api-openapi.yml
+  url: https://artifacts.apis.io/productplan/openapi/productplan-roadmaps-api-openapi.yml
 - filename: productplan-status-api-openapi.yml
   format: yaml
   label: ProductPlan Status API
   slug: productplan-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/openapi/productplan-status-api-openapi.yml
+  url: https://artifacts.apis.io/productplan/openapi/productplan-status-api-openapi.yml
 - filename: productplan-strategy-api-openapi.yml
   format: yaml
   label: ProductPlan Strategy API
   slug: productplan-strategy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/openapi/productplan-strategy-api-openapi.yml
+  url: https://artifacts.apis.io/productplan/openapi/productplan-strategy-api-openapi.yml
 - filename: productplan-teams-api-openapi.yml
   format: yaml
   label: ProductPlan Teams API
   slug: productplan-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/openapi/productplan-teams-api-openapi.yml
+  url: https://artifacts.apis.io/productplan/openapi/productplan-teams-api-openapi.yml
 - filename: productplan-users-api-openapi.yml
   format: yaml
   label: ProductPlan Users API
   slug: productplan-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/openapi/productplan-users-api-openapi.yml
+  url: https://artifacts.apis.io/productplan/openapi/productplan-users-api-openapi.yml
 consequence_counts:
   read: 32
   write: 32
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/produc
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /launches/{launch_id}/tasks\n  method: get\n  operationId: listLaunchTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /launches/{launch_id}/tasks\n  method: post\n  operationId: createLaunchTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /launches/{launch_id}/tasks/{id}\n  method: get\n  operationId: getLaunchTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /launches/{launch_id}/tasks/{id}\n\
   \  method: patch\n  operationId: updateLaunchTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /launches/{launch_id}/tasks/{id}\n  method: delete\n  operationId: deleteLaunchTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/agentic-access/productplan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/productplan/agentic-access/productplan-agentic-access.yml
 summary_line: 64 operations · 32 acting
 tags:
 - Roadmapping

@@ -9,157 +9,157 @@ api_specs:
   label: AT&T Balance Management API
   slug: att-balance-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-balance-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-balance-management-api-openapi.yml
 - filename: att-device-management-api-openapi.yml
   format: yaml
   label: AT&T Device Management API
   slug: att-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-device-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-device-management-api-openapi.yml
 - filename: att-geographic-sites-api-openapi.yml
   format: yaml
   label: AT&T Geographic Sites API
   slug: att-geographic-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-geographic-sites-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-geographic-sites-api-openapi.yml
 - filename: att-inbox-management-api-openapi.yml
   format: yaml
   label: AT&T Inbox Management API
   slug: att-inbox-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-inbox-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-inbox-management-api-openapi.yml
 - filename: att-messages-api-openapi.yml
   format: yaml
   label: AT&T Messages API
   slug: att-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-messages-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-messages-api-openapi.yml
 - filename: att-number-management-api-openapi.yml
   format: yaml
   label: AT&T Number Management API
   slug: att-number-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-number-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-number-management-api-openapi.yml
 - filename: att-porting-api-openapi.yml
   format: yaml
   label: AT&T Porting API
   slug: att-porting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-porting-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-porting-api-openapi.yml
 - filename: att-product-orders-api-openapi.yml
   format: yaml
   label: AT&T Product Orders API
   slug: att-product-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-product-orders-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-product-orders-api-openapi.yml
 - filename: att-service-management-api-openapi.yml
   format: yaml
   label: AT&T Service Management API
   slug: att-service-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-service-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-service-management-api-openapi.yml
 - filename: att-subscriber-management-api-openapi.yml
   format: yaml
   label: AT&T Subscriber Management API
   slug: att-subscriber-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-subscriber-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-subscriber-management-api-openapi.yml
 - filename: att-order-management-api-openapi.yml
   format: yaml
   label: AT&T Order Management API
   slug: att-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-order-management-api-openapi.yml
 - filename: att-product-ordering-api-openapi.yml
   format: yaml
   label: AT&T Product Ordering API
   slug: att-product-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-product-ordering-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-product-ordering-api-openapi.yml
 - filename: att-service-qualification-api-openapi.yml
   format: yaml
   label: AT&T Service Qualification API
   slug: att-service-qualification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-service-qualification-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-service-qualification-api-openapi.yml
 - filename: att-device-connectivity-api-openapi.yml
   format: yaml
   label: AT&T Device Connectivity API
   slug: att-device-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-device-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-device-connectivity-api-openapi.yml
 - filename: att-device-roaming-api-openapi.yml
   format: yaml
   label: AT&T Device Roaming API
   slug: att-device-roaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-device-roaming-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-device-roaming-api-openapi.yml
 - filename: att-network-metrics-api-openapi.yml
   format: yaml
   label: AT&T Network Metrics API
   slug: att-network-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-network-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-network-metrics-api-openapi.yml
 - filename: att-number-verification-api-openapi.yml
   format: yaml
   label: AT&T Number Verification API
   slug: att-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-number-verification-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-number-verification-api-openapi.yml
 - filename: att-qod-sessions-api-openapi.yml
   format: yaml
   label: AT&T Quality on Demand API
   slug: att-qod-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-qod-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-qod-sessions-api-openapi.yml
 - filename: att-sim-swap-api-openapi.yml
   format: yaml
   label: AT&T SIM Swap API
   slug: att-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-sim-swap-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-sim-swap-api-openapi.yml
 - filename: att-threat-detection-api-openapi.yml
   format: yaml
   label: AT&T Threat Detection API
   slug: att-threat-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-threat-detection-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-threat-detection-api-openapi.yml
 - filename: att-threat-subscriptions-api-openapi.yml
   format: yaml
   label: AT&T Threat Subscriptions API
   slug: att-threat-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-threat-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-threat-subscriptions-api-openapi.yml
 - filename: att-device-status-api-openapi.yml
   format: yaml
   label: AT&T Device Status API
   slug: att-device-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-device-status-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-device-status-api-openapi.yml
 - filename: att-network-insights-api-openapi.yml
   format: yaml
   label: AT&T Network Insights API
   slug: att-network-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-network-insights-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-network-insights-api-openapi.yml
 - filename: att-quality-on-demand-api-openapi.yml
   format: yaml
   label: AT&T Quality on Demand API
   slug: att-quality-on-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-quality-on-demand-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-quality-on-demand-api-openapi.yml
 - filename: att-sms-api-openapi.yml
   format: yaml
   label: AT&T SMS API
   slug: att-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-sms-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-sms-api-openapi.yml
 - filename: att-oauth-api-openapi.yml
   format: yaml
   label: AT&T OAuth 2.0 API
   slug: att-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-oauth-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 28
@@ -248,7 +248,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/att-ba
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /check\n  method: post\n  operationId: checkSimSwap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /retrieve-date\n  method: post\n  operationId: retrieveSimSwapDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v3/messaging/outbox\n  method: post\n  operationId: sendSms\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /sms/v3/messaging/outbox/{messageId}\n  method: get\n  operationId: getSmsDeliveryStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v3/messaging/inbox/{registrationId}\n  method: get\n  operationId: getInboundSms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product/{id}\n  method: get\n  operationId: getSubscriberProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/threat-detection/v1/threats\n  method: post\n  operationId: getThreatAssessment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /threats\n  method: post\n\
   \  operationId: getDeviceThreats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /threats/subscribe\n  method: post\n  operationId: subscribeToThreatAlerts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/agentic-access/att-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/att/agentic-access/att-agentic-access.yml
 summary_line: 53 operations · 25 acting · 1 human-in-the-loop
 tags:
 - 5G

@@ -9,175 +9,175 @@ api_specs:
   label: Chariot Accounts API
   slug: chariot-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-accounts-api-openapi.yml
 - filename: chariot-authorization-tokens-api-openapi.yml
   format: yaml
   label: Chariot Authorization Tokens API
   slug: chariot-authorization-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-authorization-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-authorization-tokens-api-openapi.yml
 - filename: chariot-connects-api-openapi.yml
   format: yaml
   label: Chariot Connects API
   slug: chariot-connects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-connects-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-connects-api-openapi.yml
 - filename: chariot-contact-api-openapi.yml
   format: yaml
   label: Chariot Contact API
   slug: chariot-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-contact-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-contact-api-openapi.yml
 - filename: chariot-customers-api-openapi.yml
   format: yaml
   label: Chariot Customers API
   slug: chariot-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-customers-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-customers-api-openapi.yml
 - filename: chariot-deposits-api-openapi.yml
   format: yaml
   label: Chariot Deposits API
   slug: chariot-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-deposits-api-openapi.yml
 - filename: chariot-disbursements-api-openapi.yml
   format: yaml
   label: Chariot Disbursements API
   slug: chariot-disbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-disbursements-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-disbursements-api-openapi.yml
 - filename: chariot-donations-api-openapi.yml
   format: yaml
   label: Chariot Donations API
   slug: chariot-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-donations-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-donations-api-openapi.yml
 - filename: chariot-donor-accounts-api-openapi.yml
   format: yaml
   label: Chariot Donor Accounts API
   slug: chariot-donor-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-donor-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-donor-accounts-api-openapi.yml
 - filename: chariot-donor-advised-funds-api-openapi.yml
   format: yaml
   label: Chariot Donor Advised Funds API
   slug: chariot-donor-advised-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-donor-advised-funds-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-donor-advised-funds-api-openapi.yml
 - filename: chariot-event-subscriptions-api-openapi.yml
   format: yaml
   label: Chariot Event Subscriptions API
   slug: chariot-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-event-subscriptions-api-openapi.yml
 - filename: chariot-events-api-openapi.yml
   format: yaml
   label: Chariot Events API
   slug: chariot-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-events-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-events-api-openapi.yml
 - filename: chariot-financial-accounts-api-openapi.yml
   format: yaml
   label: Chariot Financial Accounts API
   slug: chariot-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-financial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-financial-accounts-api-openapi.yml
 - filename: chariot-giving-pools-api-openapi.yml
   format: yaml
   label: Chariot Giving Pools API
   slug: chariot-giving-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-giving-pools-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-giving-pools-api-openapi.yml
 - filename: chariot-grant-requests-api-openapi.yml
   format: yaml
   label: Chariot Grant Requests API
   slug: chariot-grant-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-grant-requests-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-grant-requests-api-openapi.yml
 - filename: chariot-grants-api-openapi.yml
   format: yaml
   label: Chariot Grants API
   slug: chariot-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-grants-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-grants-api-openapi.yml
 - filename: chariot-inboundtransfers-api-openapi.yml
   format: yaml
   label: Chariot Inbound Transfers API
   slug: chariot-inboundtransfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-inboundtransfers-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-inboundtransfers-api-openapi.yml
 - filename: chariot-mailbox-api-openapi.yml
   format: yaml
   label: Chariot Mailbox API
   slug: chariot-mailbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-mailbox-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-mailbox-api-openapi.yml
 - filename: chariot-nonprofitaddresses-api-openapi.yml
   format: yaml
   label: Chariot Nonprofit Addresses API
   slug: chariot-nonprofitaddresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-nonprofitaddresses-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-nonprofitaddresses-api-openapi.yml
 - filename: chariot-nonprofitcontacts-api-openapi.yml
   format: yaml
   label: Chariot Nonprofit Contacts API
   slug: chariot-nonprofitcontacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-nonprofitcontacts-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-nonprofitcontacts-api-openapi.yml
 - filename: chariot-organizations-api-openapi.yml
   format: yaml
   label: Chariot Organizations API
   slug: chariot-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-organizations-api-openapi.yml
 - filename: chariot-programs-api-openapi.yml
   format: yaml
   label: Chariot Programs API
   slug: chariot-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-programs-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-programs-api-openapi.yml
 - filename: chariot-properties-api-openapi.yml
   format: yaml
   label: Chariot Properties API
   slug: chariot-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-properties-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-properties-api-openapi.yml
 - filename: chariot-recurring-grants-api-openapi.yml
   format: yaml
   label: Chariot Recurring Grants API
   slug: chariot-recurring-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-recurring-grants-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-recurring-grants-api-openapi.yml
 - filename: chariot-statements-api-openapi.yml
   format: yaml
   label: Chariot Statements API
   slug: chariot-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-statements-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-statements-api-openapi.yml
 - filename: chariot-transactions-api-openapi.yml
   format: yaml
   label: Chariot Transactions API
   slug: chariot-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-transactions-api-openapi.yml
 - filename: chariot-unintegrated-grants-api-openapi.yml
   format: yaml
   label: Chariot Unintegrated Grants API
   slug: chariot-unintegrated-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-unintegrated-grants-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-unintegrated-grants-api-openapi.yml
 - filename: chariot-payment-sources-api-openapi.yml
   format: yaml
   label: Chariot Payment Sources API
   slug: chariot-payment-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-payment-sources-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-payment-sources-api-openapi.yml
 - filename: chariot-verification-requests-api-openapi.yml
   format: yaml
   label: Chariot Verification Requests API
   slug: chariot-verification-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/openapi/chariot-verification-requests-api-openapi.yml
+  url: https://artifacts.apis.io/chariot/openapi/chariot-verification-requests-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 51
@@ -274,7 +274,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/chario
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/{id}\n  method: get\n  operationId: getProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/{id}/options\n  method: get\n  operationId: listPropertyOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/properties/{id}/assign\n  method: post\n  operationId: assignProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/mailbox/upload_url\n  method: post\n  operationId: getMailboxUploadUrl\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lockboxes/fulfill_request\n  method: post\n  operationId: provisionMailbox\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/nonprofit_addresses\n  method: post\n  operationId: createNonprofitAddressSuggestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1/nonprofit_contacts\n  method: post\n  operationId: createNonprofitContactSuggestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/agentic-access/chariot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chariot/agentic-access/chariot-agentic-access.yml
 summary_line: 86 operations · 35 acting · 3 human-in-the-loop
 tags:
 - Payments

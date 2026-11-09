@@ -9,7 +9,43 @@ api_specs:
   label: Amazon S3 Glacier Vaults API
   slug: amazon-s3-glacier-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/openapi/amazon-s3-glacier-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-s3-glacier/openapi/amazon-s3-glacier-vaults-api-openapi.yml
+- filename: amazon-s3-glacier-access-policy-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Glacier S3 Glacier Access Policy API
+  slug: amazon-s3-glacier-access-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-s3-glacier/openapi/amazon-s3-glacier-access-policy-api-openapi.yml
+- filename: amazon-s3-glacier-lock-policy-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Glacier S3 Glacier Lock Policy API
+  slug: amazon-s3-glacier-lock-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-s3-glacier/openapi/amazon-s3-glacier-lock-policy-api-openapi.yml
+- filename: amazon-s3-glacier-multipart-uploads-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Glacier S3 Glacier Multipart Uploads API
+  slug: amazon-s3-glacier-multipart-uploads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-s3-glacier/openapi/amazon-s3-glacier-multipart-uploads-api-openapi.yml
+- filename: amazon-s3-glacier-notification-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Glacier S3 Glacier Notification Configuration API
+  slug: amazon-s3-glacier-notification-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-s3-glacier/openapi/amazon-s3-glacier-notification-configuration-api-openapi.yml
+- filename: amazon-s3-glacier-operations-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Glacier S3 Glacier Operations API
+  slug: amazon-s3-glacier-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-s3-glacier/openapi/amazon-s3-glacier-operations-api-openapi.yml
+- filename: amazon-s3-glacier-tags-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Glacier S3 Glacier Tags API
+  slug: amazon-s3-glacier-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-s3-glacier/openapi/amazon-s3-glacier-tags-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4
@@ -38,10 +74,11 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-s3-glacier-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 3\n    acting: 4\n  by_consequence:\n    read: 3\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /{accountId}/vaults\n  method: get\n  operationId: listVaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/vaults/{vaultName}\n  method: put\n  operationId: createVault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{accountId}/vaults/{vaultName}\n  method: get\n  operationId: describeVault\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/vaults/{vaultName}\n  method: delete\n  operationId: deleteVault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{accountId}/vaults/{vaultName}/archives\n  method: post\n  operationId: uploadArchive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{accountId}/vaults/{vaultName}/jobs\n  method: post\n  operationId: initiateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{accountId}/vaults/{vaultName}/jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/agentic-access/amazon-s3-glacier-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-s3-glacier/agentic-access/amazon-s3-glacier-agentic-access.yml
 summary_line: 7 operations · 4 acting
 tags:
 - Archives
+- Amazon Web Services
 - Backup
 - Storage
 ---

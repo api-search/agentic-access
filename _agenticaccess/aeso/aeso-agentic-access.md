@@ -8,79 +8,79 @@ api_specs:
   label: AESO AIES Gen Capacity API
   slug: aeso-aiesgencapacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-aiesgencapacity-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-aiesgencapacity-api-openapi.yml
 - filename: aeso-csd-api-openapi.yml
   format: yaml
   label: AESO Csd API
   slug: aeso-csd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-csd-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-csd-api-openapi.yml
 - filename: aeso-interchange-api-openapi.yml
   format: yaml
   label: AESO Interchange API
   slug: aeso-interchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-interchange-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-interchange-api-openapi.yml
 - filename: aeso-load-api-openapi.yml
   format: yaml
   label: AESO Load API
   slug: aeso-load-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-load-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-load-api-openapi.yml
 - filename: aeso-loadoutagereport-api-openapi.yml
   format: yaml
   label: AESO Load Outage Report API
   slug: aeso-loadoutagereport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-loadoutagereport-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-loadoutagereport-api-openapi.yml
 - filename: aeso-meritorder-api-openapi.yml
   format: yaml
   label: AESO Merit Order API
   slug: aeso-meritorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-meritorder-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-meritorder-api-openapi.yml
 - filename: aeso-meteredvolume-api-openapi.yml
   format: yaml
   label: AESO Meteredvolume API
   slug: aeso-meteredvolume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-meteredvolume-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-meteredvolume-api-openapi.yml
 - filename: aeso-operatingreserveoffercontrol-api-openapi.yml
   format: yaml
   label: AESO Operating Reserve Offer Control API
   slug: aeso-operatingreserveoffercontrol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-operatingreserveoffercontrol-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-operatingreserveoffercontrol-api-openapi.yml
 - filename: aeso-outage-api-openapi.yml
   format: yaml
   label: AESO Outage API
   slug: aeso-outage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-outage-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-outage-api-openapi.yml
 - filename: aeso-poolparticipantlist-api-openapi.yml
   format: yaml
   label: AESO Poolparticipantlist API
   slug: aeso-poolparticipantlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-poolparticipantlist-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-poolparticipantlist-api-openapi.yml
 - filename: aeso-price-api-openapi.yml
   format: yaml
   label: AESO Price API
   slug: aeso-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-price-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-price-api-openapi.yml
 - filename: aeso-unitcommitment-api-openapi.yml
   format: yaml
   label: AESO Unit Commitment API
   slug: aeso-unitcommitment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-unitcommitment-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-unitcommitment-api-openapi.yml
 - filename: aeso-asset-list-api-openapi.yml
   format: yaml
   label: AESO Asset List API
   slug: aeso-asset-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/openapi/aeso-asset-list-api-openapi.yml
+  url: https://artifacts.apis.io/aeso/openapi/aeso-asset-list-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/aeso-a
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /csd/summary/current\n  method: get\n  operationId: getCSDSummaryDataReportv2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meritOrder/energy\n  method: get\n  operationId: getMeritOrderReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outage\n  method: get\n  operationId: getOutages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interchange\n  method: get\n  operationId: getReportByRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loadOutageReport\n\
   \  method: get\n  operationId: getLoadOutageRangeReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meteredvolume/details\n  method: get\n  operationId: getMeteredVolumeReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operatingReserveOfferControl\n  method: get\n  operationId: getOperatingReserveOfferControlReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /poolparticipantlist\n  method: get\n  operationId: getPoolParticipantListData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price/poolPrice\n  method: get\n  operationId: getPoolPriceDateRangeReport\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price/systemMarginalPrice\n  method: get\n  operationId: getSystemMarginalPriceReportForDateRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price/systemMarginalPrice/current\n  method: get\n  operationId: getCurrentSystemMarginalPriceReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /unitCommitment\n  method: get\n  operationId: getUnitCommitmentDataReportV11ForDateRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/agentic-access/aeso-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aeso/agentic-access/aeso-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Energy

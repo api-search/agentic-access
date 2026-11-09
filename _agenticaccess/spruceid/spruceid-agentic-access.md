@@ -9,31 +9,31 @@ api_specs:
   label: SpruceID Credentials API
   slug: spruceid-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-credentials-api-openapi.yml
 - filename: spruceid-health-api-openapi.yml
   format: yaml
   label: SpruceID Health API
   slug: spruceid-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-health-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-health-api-openapi.yml
 - filename: spruceid-identifiers-api-openapi.yml
   format: yaml
   label: SpruceID Identifiers API
   slug: spruceid-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-identifiers-api-openapi.yml
 - filename: spruceid-presentations-api-openapi.yml
   format: yaml
   label: SpruceID Presentations API
   slug: spruceid-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-presentations-api-openapi.yml
 - filename: spruceid-status-api-openapi.yml
   format: yaml
   label: SpruceID Status API
   slug: spruceid-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/openapi/spruceid-status-api-openapi.yml
+  url: https://artifacts.apis.io/spruceid/openapi/spruceid-status-api-openapi.yml
 consequence_counts:
   read: 3
   write: 8
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/didkit
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /presentations/issue\n  method: post\n  operationId: issuePresentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issue/presentations\n  method: post\n  operationId: issuePresentationLegacy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /presentations/verify\n  method: post\n  operationId: verifyPresentation\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify/presentations\n  method: post\n  operationId: verifyPresentationLegacy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identifiers/{id}\n  method: get\n  operationId: resolveDid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statuslist\n  method: get\n  operationId: getStatusList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/agentic-access/spruceid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spruceid/agentic-access/spruceid-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - Decentralized Identity

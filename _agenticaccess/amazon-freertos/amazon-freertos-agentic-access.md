@@ -9,19 +9,19 @@ api_specs:
   label: Amazon FreeRTOS OTA Updates API
   slug: amazon-freertos-ota-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-ota-updates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-freertos/openapi/amazon-freertos-ota-updates-api-openapi.yml
 - filename: amazon-freertos-software-configurations-api-openapi.yml
   format: yaml
   label: Amazon FreeRTOS Software Configurations API
   slug: amazon-freertos-software-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-software-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-freertos/openapi/amazon-freertos-software-configurations-api-openapi.yml
 - filename: amazon-freertos-tags-api-openapi.yml
   format: yaml
   label: Amazon FreeRTOS Tags API
   slug: amazon-freertos-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-freertos/openapi/amazon-freertos-tags-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -51,9 +51,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /software-configuration-records/{configId}\n  method: get\n  operationId: describeSoftwareConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /software-configuration-records/{configId}\n  method: put\n  operationId: updateSoftwareConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /software-configuration-records/{configId}\n  method: delete\n  operationId: deleteSoftwareConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /otaUpdates\n  method: post\n  operationId: createOtaUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /otaUpdates\n  method: get\n  operationId: listOtaUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /otaUpdates/{otaUpdateId}\n  method: get\n  operationId: getOtaUpdate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /otaUpdates/{otaUpdateId}\n\
   \  method: delete\n  operationId: deleteOtaUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/agentic-access/amazon-freertos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-freertos/agentic-access/amazon-freertos-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
+- Amazon Web Services
 - Embedded Systems
 - IoT
 - Microcontrollers

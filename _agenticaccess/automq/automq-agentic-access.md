@@ -8,31 +8,31 @@ api_specs:
   label: AutoMQ Ai Info API
   slug: automq-ai-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-ai-info-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-ai-info-api-openapi.yml
 - filename: automq-llms-full-txt-api-openapi.yml
   format: yaml
   label: AutoMQ Llms Full.txt API
   slug: automq-llms-full-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-llms-full-txt-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-llms-full-txt-api-openapi.yml
 - filename: automq-llms-txt-api-openapi.yml
   format: yaml
   label: AutoMQ Llms.txt API
   slug: automq-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-llms-txt-api-openapi.yml
 - filename: automq-robots-txt-api-openapi.yml
   format: yaml
   label: AutoMQ Robots.txt API
   slug: automq-robots-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-robots-txt-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-robots-txt-api-openapi.yml
 - filename: automq-well-known-api-openapi.yml
   format: yaml
   label: AutoMQ .well Known API
   slug: automq-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/openapi/automq-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/automq/openapi/automq-well-known-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/automq-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /.well-known/api-catalog\n  method: get\n  operationId: getApiCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/openapi.json\n  method: get\n  operationId: getPublicDiscoveryOpenApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/api-status\n  method:\
   \ get\n  operationId: getPublicDiscoveryStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/oauth-protected-resource\n  method: get\n  operationId: getOAuthProtectedResourceMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/mcp/server-card.json\n  method: get\n  operationId: getMcpServerCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/agent-skills/index.json\n  method: get\n  operationId: getAgentSkillsIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /robots.txt\n  method: get\n  operationId: getRobotsTxt\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llms.txt\n  method: get\n  operationId: getLlmsIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llms-full.txt\n  method: get\n  operationId: getLlmsFullContext\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai-info\n  method: get\n  operationId: getAiInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/agentic-access/automq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/automq/agentic-access/automq-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Company

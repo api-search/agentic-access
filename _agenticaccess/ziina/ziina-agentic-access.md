@@ -9,43 +9,43 @@ api_specs:
   label: Ziina Account API
   slug: ziina-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-account-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-account-api-openapi.yml
 - filename: ziina-log-api-openapi.yml
   format: yaml
   label: Ziina Log API
   slug: ziina-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-log-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-log-api-openapi.yml
 - filename: ziina-paymentintent-api-openapi.yml
   format: yaml
   label: Ziina PaymentIntent API
   slug: ziina-paymentintent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-paymentintent-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-paymentintent-api-openapi.yml
 - filename: ziina-refund-api-openapi.yml
   format: yaml
   label: Ziina Refund API
   slug: ziina-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-refund-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-refund-api-openapi.yml
 - filename: ziina-transfer-api-openapi.yml
   format: yaml
   label: Ziina Transfer API
   slug: ziina-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-transfer-api-openapi.yml
 - filename: ziina-webhook-api-openapi.yml
   format: yaml
   label: Ziina Webhook API
   slug: ziina-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-webhook-api-openapi.yml
 - filename: ziina-health-check-api-openapi.yml
   format: yaml
   label: Ziina Health Check API
   slug: ziina-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/openapi/ziina-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/ziina/openapi/ziina-health-check-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -77,7 +77,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/ziina-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents - review and bind\n  audience per deployment. Ziina moves real money, so write operations carry short token TTLs and\n  human-in-the-loop escalation. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 5\n    connected: 3\n  by_consequence:\n    write: 5\n    read: 3\n  human_in_the_loop_required: 1\noperations:\n- path: /payment_intent\n  method: post\n  operationId: PaymentIntentController_createPaymentIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /payment_intent/{id}\n  method: get\n  operationId: PaymentIntentController_getPaymentIntent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refund\n  method: post\n  operationId: RefundController_initiateRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refund/{id}\n  method: get\n  operationId: RefundController_getRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfer\n  method: post\n  operationId: TransferController_initiateTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - high-value\n    audit: required\n- path: /transfer/{id}\n  method: get\n  operationId: TransferController_getTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: post\n  operationId: WebhookController_createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    audit: required\n- path: /account\n  method: get\n  operationId: AccountController_getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/agentic-access/ziina-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ziina/agentic-access/ziina-agentic-access.yml
 summary_line: 8 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Payments

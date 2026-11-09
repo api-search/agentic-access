@@ -9,73 +9,73 @@ api_specs:
   label: CyCognito Assets API
   slug: cycognito-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-assets-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-assets-api-openapi.yml
 - filename: cycognito-audit-logs-api-openapi.yml
   format: yaml
   label: CyCognito Audit Logs API
   slug: cycognito-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-audit-logs-api-openapi.yml
 - filename: cycognito-cloud-connectors-api-openapi.yml
   format: yaml
   label: CyCognito Cloud Connectors API
   slug: cycognito-cloud-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-cloud-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-cloud-connectors-api-openapi.yml
 - filename: cycognito-export-data-api-openapi.yml
   format: yaml
   label: CyCognito Export Data API
   slug: cycognito-export-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-export-data-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-export-data-api-openapi.yml
 - filename: cycognito-issues-api-openapi.yml
   format: yaml
   label: CyCognito Issues API
   slug: cycognito-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-issues-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-issues-api-openapi.yml
 - filename: cycognito-organizations-api-openapi.yml
   format: yaml
   label: CyCognito Organizations API
   slug: cycognito-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-organizations-api-openapi.yml
 - filename: cycognito-realm-api-openapi.yml
   format: yaml
   label: CyCognito Realm API
   slug: cycognito-realm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-realm-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-realm-api-openapi.yml
 - filename: cycognito-reports-api-openapi.yml
   format: yaml
   label: CyCognito Reports API
   slug: cycognito-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-reports-api-openapi.yml
 - filename: cycognito-revalidation-api-openapi.yml
   format: yaml
   label: CyCognito Revalidation API
   slug: cycognito-revalidation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-revalidation-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-revalidation-api-openapi.yml
 - filename: cycognito-scope-management-api-openapi.yml
   format: yaml
   label: CyCognito Scope Management API
   slug: cycognito-scope-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-scope-management-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-scope-management-api-openapi.yml
 - filename: cycognito-users-api-openapi.yml
   format: yaml
   label: CyCognito Users API
   slug: cycognito-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-users-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-users-api-openapi.yml
 - filename: cycognito-verify-ips-api-openapi.yml
   format: yaml
   label: CyCognito Verify IPs API
   slug: cycognito-verify-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/cycognito-verify-ips-api-openapi.yml
+  url: https://artifacts.apis.io/cycognito/openapi/cycognito-verify-ips-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cycogn
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/include-assets\n  method: post\n  operationId: postV1IncludeAssets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users\n  method: get\n  operationId: getV1Users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users\n  method: post\n  operationId: postV1Users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{email}\n  method: get\n  operationId: getV1UsersByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{email}\n  method: put\n  operationId: putV1UsersByEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{email}\n  method: delete\n  operationId: deleteV1UsersByEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/is-scanner-ips\n  method: post\n  operationId: postV1IsScannerIps\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/agentic-access/cycognito-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cycognito/agentic-access/cycognito-agentic-access.yml
 summary_line: 43 operations · 23 acting · 1 human-in-the-loop
 tags:
 - Company

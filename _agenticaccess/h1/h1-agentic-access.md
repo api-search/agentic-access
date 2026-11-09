@@ -9,73 +9,73 @@ api_specs:
   label: H1 Cost Estimates API
   slug: h1-insights-cost-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-cost-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-cost-estimates-api-openapi.yml
 - filename: h1-filters-api-openapi.yml
   format: yaml
   label: H1 Filters API
   slug: h1-insights-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-filters-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-filters-api-openapi.yml
 - filename: h1-focus-area-endpoints-api-openapi.yml
   format: yaml
   label: H1 Focus Area Endpoints API
   slug: h1-insights-focus-area-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-focus-area-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-focus-area-endpoints-api-openapi.yml
 - filename: h1-locations-api-openapi.yml
   format: yaml
   label: H1 Locations API
   slug: h1-insights-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-locations-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-locations-api-openapi.yml
 - filename: h1-networks-api-openapi.yml
   format: yaml
   label: H1 Networks API
   slug: h1-insights-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-networks-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-networks-api-openapi.yml
 - filename: h1-organizations-api-openapi.yml
   format: yaml
   label: H1 Organizations API
   slug: h1-insights-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-organizations-api-openapi.yml
 - filename: h1-price-transparency-api-openapi.yml
   format: yaml
   label: H1 Price Transparency API
   slug: h1-insights-price-transparency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-price-transparency-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-price-transparency-api-openapi.yml
 - filename: h1-providers-api-openapi.yml
   format: yaml
   label: H1 Providers API
   slug: h1-insights-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-providers-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-providers-api-openapi.yml
 - filename: h1-reference-endpoints-api-openapi.yml
   format: yaml
   label: H1 Reference Endpoints API
   slug: h1-insights-reference-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-reference-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-reference-endpoints-api-openapi.yml
 - filename: h1-tins-api-openapi.yml
   format: yaml
   label: H1 TI Ns API
   slug: h1-insights-tins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-tins-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-tins-api-openapi.yml
 - filename: h1-virtual-care-platforms-api-openapi.yml
   format: yaml
   label: H1 Virtual Care Platforms API
   slug: h1-insights-virtual-care-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-virtual-care-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-virtual-care-platforms-api-openapi.yml
 - filename: h1-price-transparency-v2-api-openapi.yml
   format: yaml
   label: H1 Price Transparency v2 API
   slug: h1-price-transparency-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/openapi/h1-price-transparency-v2-api-openapi.yml
+  url: https://artifacts.apis.io/h1/openapi/h1-price-transparency-v2-api-openapi.yml
 consequence_counts:
   read: 49
   write: 33
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/h1-cos
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom/location_types/{location_type_uuid}\n  method: delete\n  operationId: deleteCustomLocationType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /procedures\n  method: get\n  operationId: getProcedures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /procedures/{procedure_uuid}\n  method: get\n  operationId: getProcedure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /languages\n  method: get\n  operationId: getLanguages\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom/tin\n  method: get\n  operationId: getTins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom/tin/{tin_id}\n  method: get\n  operationId: getCustomTin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom/virtual_care_platforms\n  method: get\n  operationId: getCustomVirtualCarePlatforms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom/virtual_care_platforms/{virtual_care_platform_uuid}\n  method: get\n  operationId: getVirtualCarePlatform\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/agentic-access/h1-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/h1/agentic-access/h1-agentic-access.yml
 summary_line: 82 operations · 33 acting
 tags:
 - Healthcare

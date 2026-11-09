@@ -9,43 +9,43 @@ api_specs:
   label: Revvo Api-keys API
   slug: revvo-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/revvo/openapi/revvo-api-keys-api-openapi.yml
 - filename: revvo-auth-api-openapi.yml
   format: yaml
   label: Revvo Auth API
   slug: revvo-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-auth-api-openapi.yml
+  url: https://artifacts.apis.io/revvo/openapi/revvo-auth-api-openapi.yml
 - filename: revvo-device-api-openapi.yml
   format: yaml
   label: Revvo Device API
   slug: revvo-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-device-api-openapi.yml
+  url: https://artifacts.apis.io/revvo/openapi/revvo-device-api-openapi.yml
 - filename: revvo-event-api-openapi.yml
   format: yaml
   label: Revvo Event API
   slug: revvo-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-event-api-openapi.yml
+  url: https://artifacts.apis.io/revvo/openapi/revvo-event-api-openapi.yml
 - filename: revvo-fleet-api-openapi.yml
   format: yaml
   label: Revvo Fleet API
   slug: revvo-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/revvo/openapi/revvo-fleet-api-openapi.yml
 - filename: revvo-tire-operation-api-openapi.yml
   format: yaml
   label: Revvo Tire Operation API
   slug: revvo-tire-operation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-tire-operation-api-openapi.yml
+  url: https://artifacts.apis.io/revvo/openapi/revvo-tire-operation-api-openapi.yml
 - filename: revvo-vehicle-api-openapi.yml
   format: yaml
   label: Revvo Vehicle API
   slug: revvo-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/openapi/revvo-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/revvo/openapi/revvo-vehicle-api-openapi.yml
 consequence_counts:
   read: 5
   write: 10
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/revvo-
   - path: /fleet/{fleetId}/sensor\n  method: get\n  operationId: getSensor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fleet/{fleetId}/sensor/register\n  method: post\n  operationId: registerSensor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleet/{fleetId}/vehicle\n  method: put\n  operationId: updateVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleet/{fleetId}/vehicle\n  method: post\n  operationId:\
   \ vehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleet/{fleetId}/vehicle/{assetId}/tire/measurement\n  method: post\n  operationId: recordTireMeasurement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fleet/{fleetId}/vehicle/{assetId}/tire/replace\n  method: post\n  operationId: replaceTire\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /fleet/{fleetId}/vehicle/{vin}\n  method: get\n  operationId: getVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/agentic-access/revvo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/revvo/agentic-access/revvo-agentic-access.yml
 summary_line: 15 operations · 10 acting
 tags:
 - Company

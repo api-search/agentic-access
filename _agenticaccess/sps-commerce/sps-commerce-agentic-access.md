@@ -9,19 +9,19 @@ api_specs:
   label: SPS Commerce Trading Partner Submission API
   slug: sps-commerce-trading-partner-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sps-commerce/refs/heads/main/openapi/sps-commerce-submission-api-openapi.yml
+  url: https://artifacts.apis.io/sps-commerce/openapi/sps-commerce-submission-api-openapi.yml
 - filename: sps-commerce-inventory-api-openapi.yml
   format: yaml
   label: SPS Commerce Inventory API
   slug: sps-commerce-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sps-commerce/refs/heads/main/openapi/sps-commerce-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/sps-commerce/openapi/sps-commerce-inventory-api-openapi.yml
 - filename: sps-commerce-import-api-openapi.yml
   format: yaml
   label: SPS Commerce Import API
   slug: sps-commerce-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sps-commerce/refs/heads/main/openapi/sps-commerce-import-api-openapi.yml
+  url: https://artifacts.apis.io/sps-commerce/openapi/sps-commerce-import-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/sps-commerce-inventory-api-openapi.yml, openapi/sps-commerce-submission-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 4\n    acting: 2\n  by_consequence:\n    read: 4\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /inventory/v1/items\n  method: get\n  operationId: v1-items-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory/v1/items/{spsItemId}\n  method: get\n  operationId: v1-items-get-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory/v1/imports\n  method: post\n  operationId: v1-imports-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/trading-partners\n  method: post\n  operationId: create_lead_v1_trading_partners_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/forms\n  method: get\n  operationId: get_forms_v1_forms_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/forms/{id}\n  method: get\n  operationId: get_form_v1_forms__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sps-commerce/refs/heads/main/agentic-access/sps-commerce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sps-commerce/agentic-access/sps-commerce-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Company

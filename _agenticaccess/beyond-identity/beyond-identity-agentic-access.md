@@ -9,97 +9,97 @@ api_specs:
   label: Beyond Identity Applications API
   slug: beyond-identity-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-applications-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-applications-api-openapi.yml
 - filename: beyond-identity-authenticator-configurations-api-openapi.yml
   format: yaml
   label: Beyond Identity Authenticator Configurations API
   slug: beyond-identity-authenticator-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-authenticator-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-authenticator-configurations-api-openapi.yml
 - filename: beyond-identity-credential-binding-jobs-api-openapi.yml
   format: yaml
   label: Beyond Identity Credential Binding Jobs API
   slug: beyond-identity-credential-binding-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-credential-binding-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-credential-binding-jobs-api-openapi.yml
 - filename: beyond-identity-credentials-api-openapi.yml
   format: yaml
   label: Beyond Identity Credentials API
   slug: beyond-identity-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-credentials-api-openapi.yml
 - filename: beyond-identity-groups-api-openapi.yml
   format: yaml
   label: Beyond Identity Groups API
   slug: beyond-identity-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-groups-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-groups-api-openapi.yml
 - filename: beyond-identity-identities-api-openapi.yml
   format: yaml
   label: Beyond Identity Identities API
   slug: beyond-identity-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-identities-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-identities-api-openapi.yml
 - filename: beyond-identity-identity-provider-api-openapi.yml
   format: yaml
   label: Beyond Identity Provider API
   slug: beyond-identity-identity-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-identity-provider-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-identity-provider-api-openapi.yml
 - filename: beyond-identity-launch-mechanisms-api-openapi.yml
   format: yaml
   label: Beyond Identity Launch Mechanisms API
   slug: beyond-identity-launch-mechanisms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-launch-mechanisms-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-launch-mechanisms-api-openapi.yml
 - filename: beyond-identity-realms-api-openapi.yml
   format: yaml
   label: Beyond Identity Realms API
   slug: beyond-identity-realms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-realms-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-realms-api-openapi.yml
 - filename: beyond-identity-resource-servers-api-openapi.yml
   format: yaml
   label: Beyond Identity Resource Servers API
   slug: beyond-identity-resource-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-resource-servers-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-resource-servers-api-openapi.yml
 - filename: beyond-identity-roles-api-openapi.yml
   format: yaml
   label: Beyond Identity Roles API
   slug: beyond-identity-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-roles-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-roles-api-openapi.yml
 - filename: beyond-identity-scim-api-openapi.yml
   format: yaml
   label: Beyond Identity SCIM API
   slug: beyond-identity-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-scim-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-scim-api-openapi.yml
 - filename: beyond-identity-sso-configs-api-openapi.yml
   format: yaml
   label: Beyond Identity SSO Configs API
   slug: beyond-identity-sso-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-sso-configs-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-sso-configs-api-openapi.yml
 - filename: beyond-identity-tenants-api-openapi.yml
   format: yaml
   label: Beyond Identity Tenants API
   slug: beyond-identity-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-tenants-api-openapi.yml
 - filename: beyond-identity-themes-api-openapi.yml
   format: yaml
   label: Beyond Identity Themes API
   slug: beyond-identity-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-themes-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-themes-api-openapi.yml
 - filename: beyond-identity-tokens-api-openapi.yml
   format: yaml
   label: Beyond Identity Tokens API
   slug: beyond-identity-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/openapi/beyond-identity-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-identity/openapi/beyond-identity-tokens-api-openapi.yml
 consequence_counts:
   read: 69
   safety-critical: 4
@@ -182,8 +182,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/beyond
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/scim/v2/Groups/{group_id}\n  method: delete\n  operationId: SCIMDeleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - scim:groups:delete\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/scim/v2/ResourceTypes\n  method: get\n  operationId: ListResourceTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/scim/v2/Schemas\n  method: get\n  operationId: ListSchemas\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/scim/v2/ServiceProviderConfig\n  method: get\n  operationId: GetServiceProviderConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/sso-configs\n  method: post\n  operationId: CreateSsoConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sso-configs:create\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/sso-configs\n  method: get\n  operationId: listSsoConfigs\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - sso-configs:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/sso-configs/{sso_config_id}\n  method: get\n  operationId: GetSsoConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sso-configs:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/sso-configs/{sso_config_id}\n  method: patch\n  operationId: UpdateSsoConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sso-configs:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/sso-configs/{sso_config_id}\n  method: delete\n  operationId:\
-  \ DeleteSsoConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sso-configs:delete\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/sso-configs/{sso_config_id}:addIdentities\n  method: post\n  operationId: AddIdentitiesToSsoConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sso-configs:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/agentic-access/beyond-identity-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/agentic-access/beyond-identity-agentic-access.yml
+  \ DeleteSsoConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sso-configs:delete\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant_id}/realms/{realm_id}/sso-configs/{sso_config_id}:addIdentities\n  method: post\n  operationId: AddIdentitiesToSsoConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sso-configs:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/beyond-identity/agentic-access/beyond-identity-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/beyond-identity/agentic-access/beyond-identity-agentic-access.yml
 summary_line: 150 operations · 81 acting · 4 human-in-the-loop
 tags:
 - Authentication
@@ -193,6 +193,7 @@ tags:
 - Passkeys
 - MFA
 - Device Security
+- OAuth
 - OpenID Connect
 - SCIM
 - Identity Federation

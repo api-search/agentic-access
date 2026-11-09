@@ -9,67 +9,67 @@ api_specs:
   label: Tufin Compliance API
   slug: tufin-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-compliance-api-openapi.yml
 - filename: tufin-devices-api-openapi.yml
   format: yaml
   label: Tufin Devices API
   slug: tufin-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-devices-api-openapi.yml
 - filename: tufin-objects-api-openapi.yml
   format: yaml
   label: Tufin Objects API
   slug: tufin-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-objects-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-objects-api-openapi.yml
 - filename: tufin-revisions-api-openapi.yml
   format: yaml
   label: Tufin Revisions API
   slug: tufin-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-revisions-api-openapi.yml
 - filename: tufin-rules-api-openapi.yml
   format: yaml
   label: Tufin Rules API
   slug: tufin-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-rules-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-rules-api-openapi.yml
 - filename: tufin-tasks-api-openapi.yml
   format: yaml
   label: Tufin Tasks API
   slug: tufin-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-tasks-api-openapi.yml
 - filename: tufin-tickets-api-openapi.yml
   format: yaml
   label: Tufin Tickets API
   slug: tufin-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-tickets-api-openapi.yml
 - filename: tufin-topology-api-openapi.yml
   format: yaml
   label: Tufin Topology API
   slug: tufin-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-topology-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-topology-api-openapi.yml
 - filename: tufin-users-api-openapi.yml
   format: yaml
   label: Tufin Users API
   slug: tufin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-users-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-users-api-openapi.yml
 - filename: tufin-workflow-definitions-api-openapi.yml
   format: yaml
   label: Tufin Workflow Definitions API
   slug: tufin-workflow-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-workflow-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-workflow-definitions-api-openapi.yml
 - filename: tufin-zones-api-openapi.yml
   format: yaml
   label: Tufin Zones API
   slug: tufin-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-zones-api-openapi.yml
+  url: https://artifacts.apis.io/tufin/openapi/tufin-zones-api-openapi.yml
 consequence_counts:
   read: 18
   write: 5
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tufin-
   \  operationId: getRulesByDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{deviceId}/rules/{ruleId}\n  method: get\n  operationId: getRuleByDeviceAndId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/offline\n  method: post\n  operationId: addOfflineDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topology/path\n  method: get\n  operationId: getTopologyPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topology/path/image\n\
   \  method: get\n  operationId: getTopologyPathImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topology/map\n  method: get\n  operationId: getTopologyMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network_objects\n  method: get\n  operationId: getNetworkObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: get\n  operationId: getServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones\n  method: get\n  operationId: getZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /risk\n  method: get\n  operationId: getRiskAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/agentic-access/tufin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tufin/agentic-access/tufin-agentic-access.yml
 summary_line: 23 operations · 5 acting
 tags:
 - Cloud Security

@@ -9,43 +9,43 @@ api_specs:
   label: Ansible Roles Ansible Galaxy Roles & Collections API
   slug: ansible-roles-ansible-galaxy-roles-collections-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-ansible-galaxy-roles-collections-api-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-ansible-galaxy-roles-collections-api-api-openapi.yml
 - filename: ansible-roles-collections-api-openapi.yml
   format: yaml
   label: Ansible Roles Collections API
   slug: ansible-roles-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-collections-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-collections-api-openapi.yml
 - filename: ansible-roles-imports-api-openapi.yml
   format: yaml
   label: Ansible Roles Imports API
   slug: ansible-roles-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-imports-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-imports-api-openapi.yml
 - filename: ansible-roles-namespaces-api-openapi.yml
   format: yaml
   label: Ansible Roles Namespaces API
   slug: ansible-roles-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-namespaces-api-openapi.yml
 - filename: ansible-roles-roles-api-openapi.yml
   format: yaml
   label: Ansible Roles API
   slug: ansible-roles-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-roles-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-roles-api-openapi.yml
 - filename: ansible-roles-sync-api-openapi.yml
   format: yaml
   label: Ansible Roles Sync API
   slug: ansible-roles-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-sync-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-sync-api-openapi.yml
 - filename: ansible-roles-users-api-openapi.yml
   format: yaml
   label: Ansible Roles Users API
   slug: ansible-roles-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-users-api-openapi.yml
+  url: https://artifacts.apis.io/ansible-roles/openapi/ansible-roles-users-api-openapi.yml
 consequence_counts:
   read: 15
   write: 3
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ansibl
   \ get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{id}/\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/\n  method: get\n  operationId: listNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/{id}/\n  method: get\n  operationId: getNamespace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/imports/\n  method: get\n  operationId: listImports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/imports/\n  method: post\n  operationId: createImport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/imports/{id}/\n  method: get\n  operationId: getImport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sync/\n  method: post\n  operationId: createSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/collections/\n  method:\
   \ get\n  operationId: listCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/collections/{namespace}/{name}/\n  method: get\n  operationId: getCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/collections/{namespace}/{name}/versions/\n  method: get\n  operationId: listCollectionVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/collections/{namespace}/{name}/versions/{version}/\n  method: get\n  operationId: getCollectionVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/agentic-access/ansible-roles-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ansible-roles/agentic-access/ansible-roles-agentic-access.yml
 summary_line: 18 operations · 3 acting
 tags:
 - Ansible

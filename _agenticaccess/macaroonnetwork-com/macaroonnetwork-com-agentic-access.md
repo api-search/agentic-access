@@ -9,175 +9,175 @@ api_specs:
   label: Macaroon Network A2a API
   slug: macaroonnetwork-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-a2a-api-openapi.yml
 - filename: macaroonnetwork-com-ai-for-science-api-openapi.yml
   format: yaml
   label: Macaroon Network AI FOR SCIENCE API
   slug: macaroonnetwork-com-ai-for-science-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-ai-for-science-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-ai-for-science-api-openapi.yml
 - filename: macaroonnetwork-com-ai-model-data-api-openapi.yml
   format: yaml
   label: Macaroon Network AI MODEL DATA API
   slug: macaroonnetwork-com-ai-model-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-ai-model-data-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-ai-model-data-api-openapi.yml
 - filename: macaroonnetwork-com-auth-md-api-openapi.yml
   format: yaml
   label: Macaroon Network Auth.md API
   slug: macaroonnetwork-com-auth-md-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-auth-md-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-auth-md-api-openapi.yml
 - filename: macaroonnetwork-com-compliance-risk-api-openapi.yml
   format: yaml
   label: Macaroon Network COMPLIANCE & RISK API
   slug: macaroonnetwork-com-compliance-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-compliance-risk-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-compliance-risk-api-openapi.yml
 - filename: macaroonnetwork-com-computational-research-api-openapi.yml
   format: yaml
   label: Macaroon Network COMPUTATIONAL RESEARCH API
   slug: macaroonnetwork-com-computational-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-computational-research-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-computational-research-api-openapi.yml
 - filename: macaroonnetwork-com-data-evidence-api-openapi.yml
   format: yaml
   label: Macaroon Network DATA & EVIDENCE API
   slug: macaroonnetwork-com-data-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-data-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-data-evidence-api-openapi.yml
 - filename: macaroonnetwork-com-data-infrastructure-api-openapi.yml
   format: yaml
   label: Macaroon Network DATA & INFRASTRUCTURE API
   slug: macaroonnetwork-com-data-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-data-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-data-infrastructure-api-openapi.yml
 - filename: macaroonnetwork-com-data-lookup-api-openapi.yml
   format: yaml
   label: Macaroon Network DATA LOOKUP API
   slug: macaroonnetwork-com-data-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-data-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-data-lookup-api-openapi.yml
 - filename: macaroonnetwork-com-developer-data-api-openapi.yml
   format: yaml
   label: Macaroon Network DEVELOPER DATA API
   slug: macaroonnetwork-com-developer-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-developer-data-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-developer-data-api-openapi.yml
 - filename: macaroonnetwork-com-execute-api-openapi.yml
   format: yaml
   label: Macaroon Network Execute API
   slug: macaroonnetwork-com-execute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-execute-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-execute-api-openapi.yml
 - filename: macaroonnetwork-com-faith-theology-api-openapi.yml
   format: yaml
   label: Macaroon Network FAITH & THEOLOGY API
   slug: macaroonnetwork-com-faith-theology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-faith-theology-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-faith-theology-api-openapi.yml
 - filename: macaroonnetwork-com-health-api-openapi.yml
   format: yaml
   label: Macaroon Network Health API
   slug: macaroonnetwork-com-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-health-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-health-api-openapi.yml
 - filename: macaroonnetwork-com-infrastructure-utility-api-openapi.yml
   format: yaml
   label: Macaroon Network INFRASTRUCTURE & UTILITY API
   slug: macaroonnetwork-com-infrastructure-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-infrastructure-utility-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-infrastructure-utility-api-openapi.yml
 - filename: macaroonnetwork-com-internal-api-openapi.yml
   format: yaml
   label: Macaroon Network Internal API
   slug: macaroonnetwork-com-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-internal-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-internal-api-openapi.yml
 - filename: macaroonnetwork-com-listings-api-openapi.yml
   format: yaml
   label: Macaroon Network Listings API
   slug: macaroonnetwork-com-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-listings-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-listings-api-openapi.yml
 - filename: macaroonnetwork-com-llms-txt-api-openapi.yml
   format: yaml
   label: Macaroon Network Llms.txt API
   slug: macaroonnetwork-com-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-llms-txt-api-openapi.yml
 - filename: macaroonnetwork-com-macaroon-network-agent-services-api-openapi.yml
   format: yaml
   label: Macaroon Network Macaroon Network Agent Services API
   slug: macaroonnetwork-com-macaroon-network-agent-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-macaroon-network-agent-services-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-macaroon-network-agent-services-api-openapi.yml
 - filename: macaroonnetwork-com-marketing-api-openapi.yml
   format: yaml
   label: Macaroon Network Marketing API
   slug: macaroonnetwork-com-marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-marketing-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-marketing-api-openapi.yml
 - filename: macaroonnetwork-com-product-development-api-openapi.yml
   format: yaml
   label: Macaroon Network PRODUCT DEVELOPMENT API
   slug: macaroonnetwork-com-product-development-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-product-development-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-product-development-api-openapi.yml
 - filename: macaroonnetwork-com-provider-api-openapi.yml
   format: yaml
   label: Macaroon Network Provider API
   slug: macaroonnetwork-com-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-provider-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-provider-api-openapi.yml
 - filename: macaroonnetwork-com-public-api-openapi.yml
   format: yaml
   label: Macaroon Network Public API
   slug: macaroonnetwork-com-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-public-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-public-api-openapi.yml
 - filename: macaroonnetwork-com-receipts-api-openapi.yml
   format: yaml
   label: Macaroon Network Receipts API
   slug: macaroonnetwork-com-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-receipts-api-openapi.yml
 - filename: macaroonnetwork-com-research-analysis-api-openapi.yml
   format: yaml
   label: Macaroon Network RESEARCH & ANALYSIS API
   slug: macaroonnetwork-com-research-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-research-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-research-analysis-api-openapi.yml
 - filename: macaroonnetwork-com-research-data-api-openapi.yml
   format: yaml
   label: Macaroon Network RESEARCH DATA API
   slug: macaroonnetwork-com-research-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-research-data-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-research-data-api-openapi.yml
 - filename: macaroonnetwork-com-robots-txt-api-openapi.yml
   format: yaml
   label: Macaroon Network Robots.txt API
   slug: macaroonnetwork-com-robots-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-robots-txt-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-robots-txt-api-openapi.yml
 - filename: macaroonnetwork-com-router-api-openapi.yml
   format: yaml
   label: Macaroon Network Router API
   slug: macaroonnetwork-com-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-router-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-router-api-openapi.yml
 - filename: macaroonnetwork-com-simulation-cfd-api-openapi.yml
   format: yaml
   label: Macaroon Network SIMULATION & CFD API
   slug: macaroonnetwork-com-simulation-cfd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-simulation-cfd-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-simulation-cfd-api-openapi.yml
 - filename: macaroonnetwork-com-well-known-api-openapi.yml
   format: yaml
   label: Macaroon Network .well Known API
   slug: macaroonnetwork-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/openapi/macaroonnetwork-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/macaroonnetwork-com/openapi/macaroonnetwork-com-well-known-api-openapi.yml
 consequence_counts:
   read: 33
   safety-critical: 1
@@ -245,8 +245,8 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/macaro
   \    audit: required\n- path: /execute/companies-house-live-discovery-v1\n  method: post\n  operationId: execute_companies_house_live_discovery_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/companies-house-live-profile-v1\n  method: post\n  operationId: execute_companies_house_live_profile_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/companies-house-live-search-v1\n  method: post\n  operationId: execute_companies_house_live_search_v1\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/product-requirements-document-v2\n  method: post\n  operationId: execute_product_requirements_document_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/chain-state-snapshot-v1\n  method: post\n  operationId: execute_chain_state_snapshot_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /execute/nvd-cve-search-v1\n  method: post\n  operationId: execute_nvd_cve_search_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/property-price-search-v1\n  method: post\n  operationId: execute_property_price_search_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/sec-filing-search-v1\n  method: post\n  operationId: execute_sec_filing_search_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
-  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/recalls-search-v1\n  method: post\n  operationId: execute_recalls_search_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/economic-indicator-search-v1\n  method: post\n  operationId: execute_economic_indicator_search_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/agentic-access/macaroonnetwork-com-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macaroonnetwork-com/refs/heads/main/agentic-access/macaroonnetwork-com-agentic-access.yml
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/recalls-search-v1\n  method: post\n  operationId: execute_recalls_search_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute/economic-indicator-search-v1\n  method: post\n  operationId: execute_economic_indicator_search_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/macaroonnetwork-com/agentic-access/macaroonnetwork-com-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/macaroonnetwork-com/agentic-access/macaroonnetwork-com-agentic-access.yml
 summary_line: 120 operations · 87 acting · 1 human-in-the-loop
 tags:
 - Agents

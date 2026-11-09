@@ -9,37 +9,37 @@ api_specs:
   label: Radiant Earth Accounts API
   slug: radiant-earth-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/openapi/radiant-earth-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/radiant-earth/openapi/radiant-earth-accounts-api-openapi.yml
 - filename: radiant-earth-api-keys-api-openapi.yml
   format: yaml
   label: Radiant Earth API Keys API
   slug: radiant-earth-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/openapi/radiant-earth-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/radiant-earth/openapi/radiant-earth-api-keys-api-openapi.yml
 - filename: radiant-earth-authentication-api-openapi.yml
   format: yaml
   label: Radiant Earth Authentication API
   slug: radiant-earth-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/openapi/radiant-earth-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/radiant-earth/openapi/radiant-earth-authentication-api-openapi.yml
 - filename: radiant-earth-data-connections-api-openapi.yml
   format: yaml
   label: Radiant Earth Data Connections API
   slug: radiant-earth-data-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/openapi/radiant-earth-data-connections-api-openapi.yml
+  url: https://artifacts.apis.io/radiant-earth/openapi/radiant-earth-data-connections-api-openapi.yml
 - filename: radiant-earth-memberships-api-openapi.yml
   format: yaml
   label: Radiant Earth Memberships API
   slug: radiant-earth-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/openapi/radiant-earth-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/radiant-earth/openapi/radiant-earth-memberships-api-openapi.yml
 - filename: radiant-earth-repositories-api-openapi.yml
   format: yaml
   label: Radiant Earth Repositories API
   slug: radiant-earth-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/openapi/radiant-earth-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/radiant-earth/openapi/radiant-earth-repositories-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 12
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/radian
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{account_id}/{repository_id}/api-keys\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{account_id}/{repository_id}/api-keys\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{account_id}/{repository_id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{account_id}/{repository_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /repositories/{account_id}/{repository_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{account_id}/{repository_id}/members\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{account_id}/{repository_id}/members\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{account_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /whoami\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/agentic-access/radiant-earth-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/radiant-earth/agentic-access/radiant-earth-agentic-access.yml
 summary_line: 31 operations · 19 acting · 5 human-in-the-loop
 tags:
 - Company

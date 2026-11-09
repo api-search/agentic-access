@@ -9,55 +9,55 @@ api_specs:
   label: Orderful Conversion API
   slug: orderful-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/orderful/openapi/orderful-conversion-api-openapi.yml
 - filename: orderful-delivery-api-openapi.yml
   format: yaml
   label: Orderful Delivery API
   slug: orderful-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/orderful/openapi/orderful-delivery-api-openapi.yml
 - filename: orderful-inbox-api-openapi.yml
   format: yaml
   label: Orderful Inbox API
   slug: orderful-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/orderful/openapi/orderful-inbox-api-openapi.yml
 - filename: orderful-label-api-openapi.yml
   format: yaml
   label: Orderful Label API
   slug: orderful-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-label-api-openapi.yml
+  url: https://artifacts.apis.io/orderful/openapi/orderful-label-api-openapi.yml
 - filename: orderful-organization-api-openapi.yml
   format: yaml
   label: Orderful Organization API
   slug: orderful-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-organization-api-openapi.yml
+  url: https://artifacts.apis.io/orderful/openapi/orderful-organization-api-openapi.yml
 - filename: orderful-poller-api-openapi.yml
   format: yaml
   label: Orderful Poller API
   slug: orderful-poller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-poller-api-openapi.yml
+  url: https://artifacts.apis.io/orderful/openapi/orderful-poller-api-openapi.yml
 - filename: orderful-relationship-api-openapi.yml
   format: yaml
   label: Orderful Relationship API
   slug: orderful-relationship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-relationship-api-openapi.yml
+  url: https://artifacts.apis.io/orderful/openapi/orderful-relationship-api-openapi.yml
 - filename: orderful-transaction-api-openapi.yml
   format: yaml
   label: Orderful Transaction API
   slug: orderful-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/orderful/openapi/orderful-transaction-api-openapi.yml
 - filename: orderful-transaction-v3-api-openapi.yml
   format: yaml
   label: Orderful Transaction (v3) API
   slug: orderful-transaction-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/openapi/orderful-transaction-v3-api-openapi.yml
+  url: https://artifacts.apis.io/orderful/openapi/orderful-transaction-v3-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 12
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/orderf
   \      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/transactions/{transactionId}/acknowledgment\n  method: post\n  operationId: TransactionControllerV3_acknowledgeTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/transactions/{transactionId}/acknowledgment\n  method: get\n  operationId: TransactionControllerV3_getAcknowledgment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/transactions/confirm-delivery\n  method: post\n  operationId: TransactionControllerV3_confirmDelivery\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/transactions\n  method: post\n  operationId: TransactionControllerV3_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/transactions\n  method: get\n  operationId: TransactionControllerV3_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/transactions/raw\n  method: post\n  operationId: TransactionControllerV3_createRaw\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/transactions/{transactionId}\n  method: get\n  operationId: TransactionControllerV3_getById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/transactions/{transactionId}/message\n  method: get\n  operationId: TransactionControllerV3_getMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/agentic-access/orderful-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orderful/agentic-access/orderful-agentic-access.yml
 summary_line: 21 operations · 12 acting · 12 human-in-the-loop
 tags:
 - Company

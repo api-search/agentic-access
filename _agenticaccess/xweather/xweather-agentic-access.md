@@ -8,55 +8,55 @@ api_specs:
   label: Xweather Air Quality API
   slug: xweather-air-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-air-quality-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-air-quality-api-openapi.yml
 - filename: xweather-alerts-api-openapi.yml
   format: yaml
   label: Xweather Alerts API
   slug: xweather-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-alerts-api-openapi.yml
 - filename: xweather-conditions-api-openapi.yml
   format: yaml
   label: Xweather Conditions API
   slug: xweather-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-conditions-api-openapi.yml
 - filename: xweather-fires-api-openapi.yml
   format: yaml
   label: Xweather Fires API
   slug: xweather-fires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-fires-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-fires-api-openapi.yml
 - filename: xweather-forecasts-api-openapi.yml
   format: yaml
   label: Xweather Forecasts API
   slug: xweather-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-forecasts-api-openapi.yml
 - filename: xweather-lightning-api-openapi.yml
   format: yaml
   label: Xweather Lightning API
   slug: xweather-lightning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-lightning-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-lightning-api-openapi.yml
 - filename: xweather-maritime-api-openapi.yml
   format: yaml
   label: Xweather Maritime API
   slug: xweather-maritime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-maritime-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-maritime-api-openapi.yml
 - filename: xweather-observations-api-openapi.yml
   format: yaml
   label: Xweather Observations API
   slug: xweather-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-observations-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-observations-api-openapi.yml
 - filename: xweather-tropical-api-openapi.yml
   format: yaml
   label: Xweather Tropical API
   slug: xweather-tropical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/openapi/xweather-tropical-api-openapi.yml
+  url: https://artifacts.apis.io/xweather/openapi/xweather-tropical-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -84,7 +84,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xweather-weather-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /conditions/{location}\n  method: get\n  operationId: getConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forecasts/{location}\n  method: get\n  operationId: getForecasts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts/{location}\n  method: get\n\
   \  operationId: getAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lightning/{location}\n  method: get\n  operationId: getLightning\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lightning/threats/{location}\n  method: get\n  operationId: getLightningThreats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airquality/{location}\n  method: get\n  operationId: getAirQuality\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /observations/{location}\n  method: get\n  operationId: getObservations\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fires/{location}\n  method: get\n  operationId: getWildfires\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tropical/cyclones\n  method: get\n  operationId: listTropicalCyclones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /maritime/{location}\n  method: get\n  operationId: getMaritimeConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/agentic-access/xweather-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xweather/agentic-access/xweather-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Air Quality

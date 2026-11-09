@@ -8,49 +8,49 @@ api_specs:
   label: 5DollarFootballAPI Bookmakers API
   slug: 5dollarfootballapi-bookmakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-bookmakers-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-bookmakers-api-openapi.yml
 - filename: 5dollarfootballapi-countries-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Countries API
   slug: 5dollarfootballapi-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-countries-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-countries-api-openapi.yml
 - filename: 5dollarfootballapi-fixtures-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Fixtures API
   slug: 5dollarfootballapi-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-fixtures-api-openapi.yml
 - filename: 5dollarfootballapi-leagues-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Leagues API
   slug: 5dollarfootballapi-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-leagues-api-openapi.yml
 - filename: 5dollarfootballapi-standings-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Standings API
   slug: 5dollarfootballapi-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-standings-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-standings-api-openapi.yml
 - filename: 5dollarfootballapi-status-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Status API
   slug: 5dollarfootballapi-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-status-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-status-api-openapi.yml
 - filename: 5dollarfootballapi-teams-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Teams API
   slug: 5dollarfootballapi-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-teams-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-teams-api-openapi.yml
 - filename: 5dollarfootballapi-bookmakers-api-openapi.yml
   format: yaml
   label: 5DollarFootballAPI Bookmakers API
   slug: 5dollarfootballapi-bookmakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/openapi/5dollarfootballapi-bookmakers-api-openapi.yml
+  url: https://artifacts.apis.io/5dollarfootballapi/openapi/5dollarfootballapi-bookmakers-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-10-11'\nmethod: generated\nsource: openapi/5dolla
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fixtures/{id}/events\n  method: get\n  operationId: events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fixtures/{id}/statistics\n  method: get\n  operationId: statistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leagues\n  method: get\n  operationId: leagues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leagues/{id}\n  method: get\n  operationId: league\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leagues/{id}/fixtures\n  method: get\n\
   \  operationId: leagueFixtures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /standings\n  method: get\n  operationId: standings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}\n  method: get\n  operationId: team\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}/fixtures\n  method: get\n  operationId: teamFixtures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/agentic-access/5dollarfootballapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/5dollarfootballapi/agentic-access/5dollarfootballapi-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Football

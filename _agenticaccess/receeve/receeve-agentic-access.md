@@ -9,85 +9,85 @@ api_specs:
   label: Receeve Account API
   slug: receeve-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-account-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-account-api-openapi.yml
 - filename: receeve-accountmandate-api-openapi.yml
   format: yaml
   label: Receeve AccountMandate API
   slug: receeve-accountmandate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-accountmandate-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-accountmandate-api-openapi.yml
 - filename: receeve-claim-api-openapi.yml
   format: yaml
   label: Receeve Claim API
   slug: receeve-claim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-claim-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-claim-api-openapi.yml
 - filename: receeve-customtriggers-api-openapi.yml
   format: yaml
   label: Receeve CustomTriggers API
   slug: receeve-customtriggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-customtriggers-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-customtriggers-api-openapi.yml
 - filename: receeve-debtor-api-openapi.yml
   format: yaml
   label: Receeve Debtor API
   slug: receeve-debtor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-debtor-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-debtor-api-openapi.yml
 - filename: receeve-event-api-openapi.yml
   format: yaml
   label: Receeve Event API
   slug: receeve-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-event-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-event-api-openapi.yml
 - filename: receeve-files-api-openapi.yml
   format: yaml
   label: Receeve Files API
   slug: receeve-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-files-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-files-api-openapi.yml
 - filename: receeve-finance-instalments-v2-api-openapi.yml
   format: yaml
   label: Receeve Finance Instalments V2 API
   slug: receeve-finance-instalments-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-finance-instalments-v2-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-finance-instalments-v2-api-openapi.yml
 - filename: receeve-finance-settlements-api-openapi.yml
   format: yaml
   label: Receeve Finance Settlements API
   slug: receeve-finance-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-finance-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-finance-settlements-api-openapi.yml
 - filename: receeve-journey-api-openapi.yml
   format: yaml
   label: Receeve Journey API
   slug: receeve-journey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-journey-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-journey-api-openapi.yml
 - filename: receeve-message-api-openapi.yml
   format: yaml
   label: Receeve Message API
   slug: receeve-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-message-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-message-api-openapi.yml
 - filename: receeve-promisetopay-api-openapi.yml
   format: yaml
   label: Receeve PromiseToPay API
   slug: receeve-promisetopay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-promisetopay-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-promisetopay-api-openapi.yml
 - filename: receeve-security-api-openapi.yml
   format: yaml
   label: Receeve Security API
   slug: receeve-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-security-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-security-api-openapi.yml
 - filename: receeve-landing-page-api-openapi.yml
   format: yaml
   label: Receeve Landing Page API
   slug: receeve-landing-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-landing-page-api-openapi.yml
+  url: https://artifacts.apis.io/receeve/openapi/receeve-landing-page-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 12
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/receev
   \  method: post\n  operationId: updateInstalmentPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finance/v1/{clientId}/instalment_plans\n  method: get\n  operationId: getInstalmentPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finance/v1/{clientId}/set_settlement_definition\n  method: post\n  operationId: setSettlementDefinition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finance/v1/{clientId}/apply_settlement\n\
   \  method: post\n  operationId: applySettlement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finance/v1/{clientId}/withdraw_settlement\n  method: post\n  operationId: withdrawSettlement\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finance/v1/{clientId}/settlement\n  method: get\n  operationId: getSettlement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /finance/v1/{clientId}/settlements\n  method: get\n  operationId: getSettlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/agentic-access/receeve-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/receeve/agentic-access/receeve-agentic-access.yml
 summary_line: 46 operations · 34 acting · 2 human-in-the-loop
 tags:
 - Company

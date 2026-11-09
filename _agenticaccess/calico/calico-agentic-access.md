@@ -9,43 +9,43 @@ api_specs:
   label: Calico BGPConfiguration API
   slug: calico-bgpconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-bgpconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-bgpconfiguration-api-openapi.yml
 - filename: calico-bgppeer-api-openapi.yml
   format: yaml
   label: Calico BGPPeer API
   slug: calico-bgppeer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-bgppeer-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-bgppeer-api-openapi.yml
 - filename: calico-globalnetworkpolicy-api-openapi.yml
   format: yaml
   label: Calico GlobalNetworkPolicy API
   slug: calico-globalnetworkpolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-globalnetworkpolicy-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-globalnetworkpolicy-api-openapi.yml
 - filename: calico-hostendpoint-api-openapi.yml
   format: yaml
   label: Calico HostEndpoint API
   slug: calico-hostendpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-hostendpoint-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-hostendpoint-api-openapi.yml
 - filename: calico-profile-api-openapi.yml
   format: yaml
   label: Calico Profile API
   slug: calico-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-profile-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-profile-api-openapi.yml
 - filename: calico-ip-pool-api-openapi.yml
   format: yaml
   label: Calico IP Pool API
   slug: calico-ip-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-ip-pool-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-ip-pool-api-openapi.yml
 - filename: calico-network-policy-api-openapi.yml
   format: yaml
   label: Calico Network Policy API
   slug: calico-network-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-network-policy-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-network-policy-api-openapi.yml
 consequence_counts:
   read: 14
   write: 14
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/calico
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ippools/{name}\n  method: get\n  operationId: readIPPool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ippools/{name}\n  method: put\n  operationId: replaceIPPool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ippools/{name}\n  method: delete\n  operationId: deleteIPPool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hostendpoints\n  method: get\n  operationId: listHostEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hostendpoints\n  method: post\n  operationId: createHostEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hostendpoints/{name}\n  method: get\n  operationId: readHostEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hostendpoints/{name}\n  method:\
   \ delete\n  operationId: deleteHostEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profiles\n  method: get\n  operationId: listProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profiles/{name}\n  method: get\n  operationId: readProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/agentic-access/calico-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/calico/agentic-access/calico-agentic-access.yml
 summary_line: 28 operations · 14 acting
 tags:
 - CNI

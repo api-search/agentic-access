@@ -9,79 +9,79 @@ api_specs:
   label: Microsoft Project Assignments API
   slug: microsoft-project-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-assignments-api-openapi.yml
 - filename: microsoft-project-calendars-api-openapi.yml
   format: yaml
   label: Microsoft Project Calendars API
   slug: microsoft-project-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-calendars-api-openapi.yml
 - filename: microsoft-project-custom-fields-api-openapi.yml
   format: yaml
   label: Microsoft Project Custom Fields API
   slug: microsoft-project-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-custom-fields-api-openapi.yml
 - filename: microsoft-project-enterprise-project-types-api-openapi.yml
   format: yaml
   label: Microsoft Project Enterprise Project Types API
   slug: microsoft-project-enterprise-project-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-enterprise-project-types-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-enterprise-project-types-api-openapi.yml
 - filename: microsoft-project-event-handlers-api-openapi.yml
   format: yaml
   label: Microsoft Project Event Handlers API
   slug: microsoft-project-event-handlers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-event-handlers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-event-handlers-api-openapi.yml
 - filename: microsoft-project-lookup-tables-api-openapi.yml
   format: yaml
   label: Microsoft Project Lookup Tables API
   slug: microsoft-project-lookup-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-lookup-tables-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-lookup-tables-api-openapi.yml
 - filename: microsoft-project-phases-api-openapi.yml
   format: yaml
   label: Microsoft Project Phases API
   slug: microsoft-project-phases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-phases-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-phases-api-openapi.yml
 - filename: microsoft-project-projects-api-openapi.yml
   format: yaml
   label: Microsoft Project Projects API
   slug: microsoft-project-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-projects-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-projects-api-openapi.yml
 - filename: microsoft-project-resources-api-openapi.yml
   format: yaml
   label: Microsoft Project Resources API
   slug: microsoft-project-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-resources-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-resources-api-openapi.yml
 - filename: microsoft-project-stages-api-openapi.yml
   format: yaml
   label: Microsoft Project Stages API
   slug: microsoft-project-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-stages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-stages-api-openapi.yml
 - filename: microsoft-project-tasks-api-openapi.yml
   format: yaml
   label: Microsoft Project Tasks API
   slug: microsoft-project-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-tasks-api-openapi.yml
 - filename: microsoft-project-timesheets-api-openapi.yml
   format: yaml
   label: Microsoft Project Timesheets API
   slug: microsoft-project-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-timesheets-api-openapi.yml
 - filename: microsoft-project-workflow-activities-api-openapi.yml
   format: yaml
   label: Microsoft Project Workflow Activities API
   slug: microsoft-project-workflow-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-workflow-activities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-project/openapi/microsoft-project-workflow-activities-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 32
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /EnterpriseProjectTypes('{projectTypeId}')\n  method: get\n  operationId: getEnterpriseProjectType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /EnterpriseProjectTypes('{projectTypeId}')\n  method: delete\n  operationId: deleteEnterpriseProjectType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /EventHandlers\n  method: get\n  operationId: listEventHandlers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /EventHandlers\n  method: post\n  operationId: createEventHandler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /EventHandlers('{handlerId}')\n  method: get\n  operationId: getEventHandler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /EventHandlers('{handlerId}')\n  method: delete\n  operationId: deleteEventHandler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /WorkflowActivities\n\
   \  method: get\n  operationId: listWorkflowActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Projects('{projectId}')/QueueJobs\n  method: get\n  operationId: listProjectQueueJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/agentic-access/microsoft-project-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-project/agentic-access/microsoft-project-agentic-access.yml
 summary_line: 63 operations · 31 acting
 tags:
 - Budgeting

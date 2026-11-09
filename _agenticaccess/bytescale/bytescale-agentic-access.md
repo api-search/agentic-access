@@ -9,19 +9,19 @@ api_specs:
   label: Bytescale Files API
   slug: bytescale-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-files-api-openapi.yml
+  url: https://artifacts.apis.io/bytescale/openapi/bytescale-files-api-openapi.yml
 - filename: bytescale-folders-api-openapi.yml
   format: yaml
   label: Bytescale Folders API
   slug: bytescale-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-folders-api-openapi.yml
+  url: https://artifacts.apis.io/bytescale/openapi/bytescale-folders-api-openapi.yml
 - filename: bytescale-upload-api-openapi.yml
   format: yaml
   label: Bytescale Upload API
   slug: bytescale-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/openapi/bytescale-upload-api-openapi.yml
+  url: https://artifacts.apis.io/bytescale/openapi/bytescale-upload-api-openapi.yml
 consequence_counts:
   read: 2
   write: 7
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bytesc
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{accountId}/uploads/url\n  method: post\n  operationId: uploadFromUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{accountId}/files/details\n  method: get\n  operationId: getFileDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{accountId}/files\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{accountId}/files/copy\n  method: post\n  operationId: copyFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{accountId}/folders/list\n  method: get\n  operationId: listFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{accountId}/folders\n  method: put\n  operationId: putFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{accountId}/folders\n  method: delete\n  operationId: deleteFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/agentic-access/bytescale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bytescale/agentic-access/bytescale-agentic-access.yml
 summary_line: 9 operations · 7 acting
 tags:
 - File Upload

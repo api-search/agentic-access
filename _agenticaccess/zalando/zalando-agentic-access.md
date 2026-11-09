@@ -9,121 +9,121 @@ api_specs:
   label: Zalando AnnouncedReturns API
   slug: zalando-announcedreturns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-announcedreturns-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-announcedreturns-api-openapi.yml
 - filename: zalando-attribute-types-api-openapi.yml
   format: yaml
   label: Zalando Attribute Types API
   slug: zalando-attribute-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-attribute-types-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-attribute-types-api-openapi.yml
 - filename: zalando-attribute-values-api-openapi.yml
   format: yaml
   label: Zalando Attribute Values API
   slug: zalando-attribute-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-attribute-values-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-attribute-values-api-openapi.yml
 - filename: zalando-attributes-api-openapi.yml
   format: yaml
   label: Zalando Attributes API
   slug: zalando-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-attributes-api-openapi.yml
 - filename: zalando-cross-border-movements-api-openapi.yml
   format: yaml
   label: Zalando Cross Border Movements API
   slug: zalando-cross-border-movements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-cross-border-movements-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-cross-border-movements-api-openapi.yml
 - filename: zalando-discovery-api-api-openapi.yml
   format: yaml
   label: Zalando Discovery API
   slug: zalando-discovery-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-discovery-api-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-discovery-api-api-openapi.yml
 - filename: zalando-history-of-price-update-attempts-api-openapi.yml
   format: yaml
   label: Zalando History of Price Update Attempts API
   slug: zalando-history-of-price-update-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-history-of-price-update-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-history-of-price-update-attempts-api-openapi.yml
 - filename: zalando-liquidated-items-api-openapi.yml
   format: yaml
   label: Zalando Liquidated Items API
   slug: zalando-liquidated-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-liquidated-items-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-liquidated-items-api-openapi.yml
 - filename: zalando-logistic-centers-api-openapi.yml
   format: yaml
   label: Zalando Logistic Centers API
   slug: zalando-logistic-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-logistic-centers-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-logistic-centers-api-openapi.yml
 - filename: zalando-offer-blockers-api-openapi.yml
   format: yaml
   label: Zalando Offer Blockers API
   slug: zalando-offer-blockers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-offer-blockers-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-offer-blockers-api-openapi.yml
 - filename: zalando-orders-api-openapi.yml
   format: yaml
   label: Zalando Orders API
   slug: zalando-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-orders-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-orders-api-openapi.yml
 - filename: zalando-outlines-api-openapi.yml
   format: yaml
   label: Zalando Outlines API
   slug: zalando-outlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-outlines-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-outlines-api-openapi.yml
 - filename: zalando-prices-api-openapi.yml
   format: yaml
   label: Zalando Prices API
   slug: zalando-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-prices-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-prices-api-openapi.yml
 - filename: zalando-product-association-api-openapi.yml
   format: yaml
   label: Zalando Product Association API
   slug: zalando-product-association-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-product-association-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-product-association-api-openapi.yml
 - filename: zalando-reports-api-openapi.yml
   format: yaml
   label: Zalando Reports API
   slug: zalando-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-reports-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-reports-api-openapi.yml
 - filename: zalando-returned-items-api-openapi.yml
   format: yaml
   label: Zalando Returned Items API
   slug: zalando-returned-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-returned-items-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-returned-items-api-openapi.yml
 - filename: zalando-shipments-api-openapi.yml
   format: yaml
   label: Zalando Shipments API
   slug: zalando-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-shipments-api-openapi.yml
 - filename: zalando-stocks-api-openapi.yml
   format: yaml
   label: Zalando Stocks API
   slug: zalando-stocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-stocks-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-stocks-api-openapi.yml
 - filename: zalando-types-api-openapi.yml
   format: yaml
   label: Zalando Types API
   slug: zalando-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-types-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-types-api-openapi.yml
 - filename: zalando-sales-channels-api-openapi.yml
   format: yaml
   label: Zalando Sales Channels API
   slug: zalando-sales-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/openapi/zalando-sales-channels-api-openapi.yml
+  url: https://artifacts.apis.io/zalando/openapi/zalando-sales-channels-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 33
@@ -195,7 +195,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/zaland
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/received-items/{merchant-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - partner-inbound-tracker.received.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /returned-items/{merchant-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - zfs/returned-item/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sales-channels\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - profile/sales-channels/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchants/{merchant-id}/orders/{order-id}/shipments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    scope:\n    - orders/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchants/{merchant-id}/orders/{order-id}/shipments\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - orders/write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchants/{merchant-id}/orders/{order-id}/shipments/{shipment-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - orders/read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchants/{merchant-id}/orders/{order-id}/shipments/{shipment-id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    scope:\n    - orders/write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchants/{merchant-id}/stocks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - products/stock/write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchants/{merchant_id}/attribute-types/{type_label}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - products/attributes/read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/agentic-access/zalando-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zalando/agentic-access/zalando-agentic-access.yml
 summary_line: 45 operations · 12 acting
 tags:
 - Company

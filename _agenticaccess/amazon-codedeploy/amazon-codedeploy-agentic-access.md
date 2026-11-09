@@ -9,19 +9,19 @@ api_specs:
   label: Amazon CodeDeploy Applications API
   slug: amazon-codedeploy-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/openapi/amazon-codedeploy-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codedeploy/openapi/amazon-codedeploy-applications-api-openapi.yml
 - filename: amazon-codedeploy-deployments-api-openapi.yml
   format: yaml
   label: Amazon CodeDeploy Deployments API
   slug: amazon-codedeploy-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/openapi/amazon-codedeploy-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codedeploy/openapi/amazon-codedeploy-deployments-api-openapi.yml
 - filename: amazon-codedeploy-aws-codedeploy-api-openapi.yml
   format: yaml
   label: Amazon CodeDeploy AWS CodeDeploy API
   slug: amazon-codedeploy-aws-codedeploy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/openapi/amazon-codedeploy-aws-codedeploy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codedeploy/openapi/amazon-codedeploy-aws-codedeploy-api-openapi.yml
 consequence_counts:
   physical: 32
   read: 21
@@ -202,10 +202,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  method: post\n  operationId: SkipWaitTimeForInstanceTermination\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeDeploy_20141006.StopDeployment\n  method: post\n  operationId: StopDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=CodeDeploy_20141006.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeDeploy_20141006.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeDeploy_20141006.UpdateApplication\n  method: post\n  operationId: UpdateApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeDeploy_20141006.UpdateDeploymentGroup\n  method: post\n  operationId: UpdateDeploymentGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/agentic-access/amazon-codedeploy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-codedeploy/agentic-access/amazon-codedeploy-agentic-access.yml
 summary_line: 54 operations · 33 acting · 1 human-in-the-loop
 tags:
 - Amazon
+- Amazon Web Services
 - Deployment
 - DevOps
 - CI/CD

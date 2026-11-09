@@ -9,37 +9,37 @@ api_specs:
   label: Markforged Builds API
   slug: markforged-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-builds-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-builds-api-openapi.yml
 - filename: markforged-devices-api-openapi.yml
   format: yaml
   label: Markforged Devices API
   slug: markforged-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-devices-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-devices-api-openapi.yml
 - filename: markforged-organizations-api-openapi.yml
   format: yaml
   label: Markforged Organizations API
   slug: markforged-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-organizations-api-openapi.yml
 - filename: markforged-parts-api-openapi.yml
   format: yaml
   label: Markforged Parts API
   slug: markforged-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-parts-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-parts-api-openapi.yml
 - filename: markforged-print-jobs-api-openapi.yml
   format: yaml
   label: Markforged Print Jobs API
   slug: markforged-print-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-print-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-print-jobs-api-openapi.yml
 - filename: markforged-printed-parts-api-openapi.yml
   format: yaml
   label: Markforged Printed Parts API
   slug: markforged-printed-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/openapi/markforged-printed-parts-api-openapi.yml
+  url: https://artifacts.apis.io/markforged/openapi/markforged-printed-parts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 21
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/markfo
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parts/upload_stl\n  method: post\n  operationId: uploadStl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parts/slice_status/{slice_job_id}\n  method: get\n  operationId: getSliceStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parts/settings_presets\n  method: get\n  operationId: listSettingsPresets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /part_versions/{part_version_id}\n  method: get\n  operationId: getPartVersion\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /part_versions/{part_version_id}/download\n  method: get\n  operationId: getPartVersionDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /printed_parts\n  method: get\n  operationId: listPrintedParts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /printed_parts/{printed_part_id}\n  method: get\n  operationId: getPrintedPart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /printed_parts/{printed_part_id}/scan_report\n  method: get\n  operationId: getPrintedPartScanReport\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dashboard/custom_analytics_csv\n  method: get\n  operationId: getCustomAnalyticsCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/agentic-access/markforged-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/markforged/agentic-access/markforged-agentic-access.yml
 summary_line: 30 operations · 9 acting · 1 human-in-the-loop
 tags:
 - 3D Printing

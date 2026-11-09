@@ -9,19 +9,19 @@ api_specs:
   label: ICEYE Catalog API
   slug: iceye-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/iceye/openapi/iceye-catalog-api-openapi.yml
 - filename: iceye-company-api-openapi.yml
   format: yaml
   label: ICEYE Company API
   slug: iceye-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-company-api-openapi.yml
+  url: https://artifacts.apis.io/iceye/openapi/iceye-company-api-openapi.yml
 - filename: iceye-tasking-api-openapi.yml
   format: yaml
   label: ICEYE Tasking API
   slug: iceye-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/iceye/openapi/iceye-tasking-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/iceye-
   \ listContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/contracts/{contractId}\n  method: get\n  operationId: getContract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/summary\n  method: get\n  operationId: getCompanySummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasking/tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasking/tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasking/tasks/{taskId}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasking/tasks/{taskId}/cancel\n  method: post\n  operationId: cancelTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasking/tasks/{taskId}/scene\n  method: get\n  operationId: getTaskScene\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasking/price\n\
   \  method: post\n  operationId: getTaskPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/agentic-access/iceye-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/iceye/agentic-access/iceye-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - SAR

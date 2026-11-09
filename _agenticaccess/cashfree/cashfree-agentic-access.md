@@ -9,127 +9,127 @@ api_specs:
   label: Cashfree Payments Authorize API
   slug: cashfree-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-authorize-api-openapi.yml
 - filename: cashfree-beneficiary-v2-api-openapi.yml
   format: yaml
   label: Cashfree Payments Beneficiary v2 API
   slug: cashfree-beneficiary-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-beneficiary-v2-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-beneficiary-v2-api-openapi.yml
 - filename: cashfree-createcashgram-api-openapi.yml
   format: yaml
   label: Cashfree Payments CreateCashgram API
   slug: cashfree-createcashgram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-createcashgram-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-createcashgram-api-openapi.yml
 - filename: cashfree-deactivate-static-kyc-link-api-openapi.yml
   format: yaml
   label: Cashfree Payments Deactivate Static KYC Link API
   slug: cashfree-deactivate-static-kyc-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-deactivate-static-kyc-link-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-deactivate-static-kyc-link-api-openapi.yml
 - filename: cashfree-deactivatecashgram-api-openapi.yml
   format: yaml
   label: Cashfree Payments DeactivateCashgram API
   slug: cashfree-deactivatecashgram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-deactivatecashgram-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-deactivatecashgram-api-openapi.yml
 - filename: cashfree-disputes-api-openapi.yml
   format: yaml
   label: Cashfree Payments Disputes API
   slug: cashfree-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-disputes-api-openapi.yml
 - filename: cashfree-easy-split-api-openapi.yml
   format: yaml
   label: Cashfree Payments Easy-Split API
   slug: cashfree-easy-split-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-easy-split-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-easy-split-api-openapi.yml
 - filename: cashfree-eligibility-api-openapi.yml
   format: yaml
   label: Cashfree Payments Eligibility API
   slug: cashfree-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-eligibility-api-openapi.yml
 - filename: cashfree-generate-kyc-link-api-openapi.yml
   format: yaml
   label: Cashfree Payments Generate KYC Link API
   slug: cashfree-generate-kyc-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-generate-kyc-link-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-generate-kyc-link-api-openapi.yml
 - filename: cashfree-generate-static-kyc-link-api-openapi.yml
   format: yaml
   label: Cashfree Payments Generate Static KYC Link API
   slug: cashfree-generate-static-kyc-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-generate-static-kyc-link-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-generate-static-kyc-link-api-openapi.yml
 - filename: cashfree-get-kyc-link-status-api-openapi.yml
   format: yaml
   label: Cashfree Payments Get KYC Link Status API
   slug: cashfree-get-kyc-link-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-get-kyc-link-status-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-get-kyc-link-status-api-openapi.yml
 - filename: cashfree-getcashgramstatus-api-openapi.yml
   format: yaml
   label: Cashfree Payments GetCashgramStatus API
   slug: cashfree-getcashgramstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-getcashgramstatus-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-getcashgramstatus-api-openapi.yml
 - filename: cashfree-name-match-api-openapi.yml
   format: yaml
   label: Cashfree Payments Name Match API
   slug: cashfree-name-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-name-match-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-name-match-api-openapi.yml
 - filename: cashfree-orders-api-openapi.yml
   format: yaml
   label: Cashfree Payments Orders API
   slug: cashfree-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-orders-api-openapi.yml
 - filename: cashfree-payment-links-api-openapi.yml
   format: yaml
   label: Cashfree Payments Payment Links API
   slug: cashfree-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-payment-links-api-openapi.yml
 - filename: cashfree-payments-api-openapi.yml
   format: yaml
   label: Cashfree Payments API
   slug: cashfree-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-payments-api-openapi.yml
 - filename: cashfree-refunds-api-openapi.yml
   format: yaml
   label: Cashfree Payments Refunds API
   slug: cashfree-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-refunds-api-openapi.yml
 - filename: cashfree-settlement-reconciliation-api-openapi.yml
   format: yaml
   label: Cashfree Payments Settlement Reconciliation API
   slug: cashfree-settlement-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-settlement-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-settlement-reconciliation-api-openapi.yml
 - filename: cashfree-settlements-api-openapi.yml
   format: yaml
   label: Cashfree Payments Settlements API
   slug: cashfree-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-settlements-api-openapi.yml
 - filename: cashfree-simulation-api-openapi.yml
   format: yaml
   label: Cashfree Payments Simulation API
   slug: cashfree-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-simulation-api-openapi.yml
 - filename: cashfree-transfers-v2-api-openapi.yml
   format: yaml
   label: Cashfree Payments Transfers v2 API
   slug: cashfree-transfers-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/openapi/cashfree-transfers-v2-api-openapi.yml
+  url: https://artifacts.apis.io/cashfree/openapi/cashfree-transfers-v2-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 20
@@ -229,7 +229,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cashfr
   \ required\n- path: /orders/{order_id}/refunds\n  method: get\n  operationId: PGOrderFetchRefunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_id}/refunds/{refund_id}\n  method: get\n  operationId: PGOrderFetchRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlements\n  method: post\n  operationId: PGFetchSettlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_id}/settlements\n  method: get\n  operationId: PGOrderFetchSettlement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /simulate\n  method: post\n  operationId: PGSimulatePayment\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /simulate/{simulation_id}\n  method: get\n  operationId: PGFetchSimulation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers\n  method: post\n  operationId: PayoutInitiateTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers\n  method:\
   \ get\n  operationId: PayoutFetchTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/batch\n  method: post\n  operationId: PayoutInitiateBatchTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers/batch\n  method: get\n  operationId: PayoutFetchBatchTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/agentic-access/cashfree-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cashfree/agentic-access/cashfree-agentic-access.yml
 summary_line: 40 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Payments
@@ -242,4 +242,6 @@ tags:
 - QR Codes
 - Net Banking
 - Identity Verification
+- Fintech
+- Gateways
 ---

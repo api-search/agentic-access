@@ -9,133 +9,133 @@ api_specs:
   label: ArangoDB Administration API
   slug: arangodb-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-administration-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-administration-api-openapi.yml
 - filename: arangodb-analyzers-api-openapi.yml
   format: yaml
   label: ArangoDB Analyzers API
   slug: arangodb-analyzers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-analyzers-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-analyzers-api-openapi.yml
 - filename: arangodb-authentication-api-openapi.yml
   format: yaml
   label: ArangoDB Authentication API
   slug: arangodb-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-authentication-api-openapi.yml
 - filename: arangodb-batch-requests-api-openapi.yml
   format: yaml
   label: ArangoDB Batch Requests API
   slug: arangodb-batch-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-batch-requests-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-batch-requests-api-openapi.yml
 - filename: arangodb-cluster-api-openapi.yml
   format: yaml
   label: ArangoDB Cluster API
   slug: arangodb-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-cluster-api-openapi.yml
 - filename: arangodb-collections-api-openapi.yml
   format: yaml
   label: ArangoDB Collections API
   slug: arangodb-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-collections-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-collections-api-openapi.yml
 - filename: arangodb-databases-api-openapi.yml
   format: yaml
   label: ArangoDB Databases API
   slug: arangodb-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-databases-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-databases-api-openapi.yml
 - filename: arangodb-documents-api-openapi.yml
   format: yaml
   label: ArangoDB Documents API
   slug: arangodb-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-documents-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-documents-api-openapi.yml
 - filename: arangodb-foxx-api-openapi.yml
   format: yaml
   label: ArangoDB Foxx API
   slug: arangodb-foxx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-foxx-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-foxx-api-openapi.yml
 - filename: arangodb-graphs-api-openapi.yml
   format: yaml
   label: ArangoDB Graphs API
   slug: arangodb-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-graphs-api-openapi.yml
 - filename: arangodb-hot-backups-api-openapi.yml
   format: yaml
   label: ArangoDB Hot Backups API
   slug: arangodb-hot-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-hot-backups-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-hot-backups-api-openapi.yml
 - filename: arangodb-import-api-openapi.yml
   format: yaml
   label: ArangoDB Import API
   slug: arangodb-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-import-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-import-api-openapi.yml
 - filename: arangodb-indexes-api-openapi.yml
   format: yaml
   label: ArangoDB Indexes API
   slug: arangodb-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-indexes-api-openapi.yml
 - filename: arangodb-jobs-api-openapi.yml
   format: yaml
   label: ArangoDB Jobs API
   slug: arangodb-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-jobs-api-openapi.yml
 - filename: arangodb-monitoring-api-openapi.yml
   format: yaml
   label: ArangoDB Monitoring API
   slug: arangodb-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-monitoring-api-openapi.yml
 - filename: arangodb-queries-api-openapi.yml
   format: yaml
   label: ArangoDB Queries API
   slug: arangodb-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-queries-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-queries-api-openapi.yml
 - filename: arangodb-replication-api-openapi.yml
   format: yaml
   label: ArangoDB Replication API
   slug: arangodb-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-replication-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-replication-api-openapi.yml
 - filename: arangodb-security-api-openapi.yml
   format: yaml
   label: ArangoDB Security API
   slug: arangodb-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-security-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-security-api-openapi.yml
 - filename: arangodb-tasks-api-openapi.yml
   format: yaml
   label: ArangoDB Tasks API
   slug: arangodb-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-tasks-api-openapi.yml
 - filename: arangodb-transactions-api-openapi.yml
   format: yaml
   label: ArangoDB Transactions API
   slug: arangodb-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-transactions-api-openapi.yml
 - filename: arangodb-users-api-openapi.yml
   format: yaml
   label: ArangoDB Users API
   slug: arangodb-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-users-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-users-api-openapi.yml
 - filename: arangodb-views-api-openapi.yml
   format: yaml
   label: ArangoDB Views API
   slug: arangodb-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/openapi/arangodb-views-api-openapi.yml
+  url: https://artifacts.apis.io/arangodb/openapi/arangodb-views-api-openapi.yml
 consequence_counts:
   read: 111
   safety-critical: 5
@@ -223,8 +223,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/arango
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_db/{database-name}/_api/foxx/dependencies\n  method: get\n  operationId: getFoxxDependencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_db/{database-name}/_api/foxx/dependencies\n  method: patch\n  operationId: updateFoxxDependencies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_db/{database-name}/_api/foxx/dependencies\n  method: put\n  operationId: replaceFoxxDependencies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_db/{database-name}/_api/foxx/development\n  method: delete\n  operationId: disableFoxxDevelopmentMode\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /_db/{database-name}/_api/foxx/development\n  method: post\n  operationId: enableFoxxDevelopmentMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /_db/{database-name}/_api/foxx/download\n  method: post\n  operationId: downloadFoxxService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_db/{database-name}/_api/foxx/readme\n  method: get\n  operationId: getFoxxReadme\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_db/{database-name}/_api/foxx/scripts\n  method: get\n  operationId: listFoxxScripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_db/{database-name}/_api/foxx/scripts/{name}\n  method: post\n  operationId: runFoxxScript\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_db/{database-name}/_api/foxx/service\n  method: delete\n  operationId: deleteFoxxService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_db/{database-name}/_api/foxx/service\n  method: get\n  operationId: getFoxxServiceDescription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (78 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/agentic-access/arangodb-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/agentic-access/arangodb-agentic-access.yml
+  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_db/{database-name}/_api/foxx/service\n  method: delete\n  operationId: deleteFoxxService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_db/{database-name}/_api/foxx/service\n  method: get\n  operationId: getFoxxServiceDescription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (78 KB total) ---\n# Full source: https://artifacts.apis.io/arangodb/agentic-access/arangodb-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/arangodb/agentic-access/arangodb-agentic-access.yml
 summary_line: 254 operations · 143 acting · 5 human-in-the-loop
 tags:
 - Company

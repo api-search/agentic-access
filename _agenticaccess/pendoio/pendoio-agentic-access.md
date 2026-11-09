@@ -9,97 +9,97 @@ api_specs:
   label: Pendo.io Account API
   slug: pendoio-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-account-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-account-api-openapi.yml
 - filename: pendoio-admin-api-openapi.yml
   format: yaml
   label: Pendo.io Admin API
   slug: pendoio-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-admin-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-admin-api-openapi.yml
 - filename: pendoio-aggregation-api-openapi.yml
   format: yaml
   label: Pendo.io Aggregation API
   slug: pendoio-aggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-aggregation-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-aggregation-api-openapi.yml
 - filename: pendoio-bulk-deletion-gdpr-ccpa-api-openapi.yml
   format: yaml
   label: Pendo.io Bulk Deletion (GDPR/CCPA) API
   slug: pendoio-bulk-deletion-gdpr-ccpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-bulk-deletion-gdpr-ccpa-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-bulk-deletion-gdpr-ccpa-api-openapi.yml
 - filename: pendoio-conversations-api-openapi.yml
   format: yaml
   label: Pendo.io Conversations API
   slug: pendoio-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-conversations-api-openapi.yml
 - filename: pendoio-data-sync-api-openapi.yml
   format: yaml
   label: Pendo.io Data Sync API
   slug: pendoio-data-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-data-sync-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-data-sync-api-openapi.yml
 - filename: pendoio-exclude-lists-servers-api-openapi.yml
   format: yaml
   label: Pendo.io Exclude Lists & Servers API
   slug: pendoio-exclude-lists-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-exclude-lists-servers-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-exclude-lists-servers-api-openapi.yml
 - filename: pendoio-feature-api-openapi.yml
   format: yaml
   label: Pendo.io Feature API
   slug: pendoio-feature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-feature-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-feature-api-openapi.yml
 - filename: pendoio-guide-api-openapi.yml
   format: yaml
   label: Pendo.io Guide API
   slug: pendoio-guide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-guide-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-guide-api-openapi.yml
 - filename: pendoio-listen-api-openapi.yml
   format: yaml
   label: Pendo.io Listen API
   slug: pendoio-listen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-listen-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-listen-api-openapi.yml
 - filename: pendoio-metadata-api-openapi.yml
   format: yaml
   label: Pendo.io Metadata API
   slug: pendoio-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-metadata-api-openapi.yml
 - filename: pendoio-page-api-openapi.yml
   format: yaml
   label: Pendo.io Page API
   slug: pendoio-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-page-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-page-api-openapi.yml
 - filename: pendoio-report-api-openapi.yml
   format: yaml
   label: Pendo.io Report API
   slug: pendoio-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-report-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-report-api-openapi.yml
 - filename: pendoio-segment-api-openapi.yml
   format: yaml
   label: Pendo.io Segment API
   slug: pendoio-segment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-segment-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-segment-api-openapi.yml
 - filename: pendoio-track-api-openapi.yml
   format: yaml
   label: Pendo.io Track API
   slug: pendoio-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-track-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-track-api-openapi.yml
 - filename: pendoio-visitor-api-openapi.yml
   format: yaml
   label: Pendo.io Visitor API
   slug: pendoio-visitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/openapi/pendoio-visitor-api-openapi.yml
+  url: https://artifacts.apis.io/pendoio/openapi/pendoio-visitor-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 33
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/pendoi
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasync/storageTypes/azure/destinations/Default/credentials\n  method: put\n  operationId: rotateCredentialsForAzureDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/feedback/options\n  method: get\n  operationId: getFeedbackOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/feedback\n  method: post\n  operationId: createNewFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/feedback\n  method: delete\n  operationId: deleteFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/feedback/{id}\n  method: patch\n  operationId: updateExistingFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/agentic\n  method: post\n  operationId: sendAConversationEvent\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/token/verify\n  method: get\n  operationId: verifyIntegrationKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/aggregation\n  method: post\n  operationId: visitors\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/agentic-access/pendoio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pendoio/agentic-access/pendoio-agentic-access.yml
 summary_line: 65 operations · 32 acting · 4 human-in-the-loop
 tags:
 - Company

@@ -3,91 +3,6 @@ acting_count: 69
 action_class_counts:
   acting: 69
   connected: 118
-api_specs:
-- filename: mintsoft-accounting-api-openapi.yml
-  format: yaml
-  label: Mintsoft Accounting API
-  slug: mintsoft-accounting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-accounting-api-openapi.yml
-- filename: mintsoft-asn-api-openapi.yml
-  format: yaml
-  label: Mintsoft ASN API
-  slug: mintsoft-asn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-asn-api-openapi.yml
-- filename: mintsoft-auth-api-openapi.yml
-  format: yaml
-  label: Mintsoft Auth API
-  slug: mintsoft-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-auth-api-openapi.yml
-- filename: mintsoft-batch-api-openapi.yml
-  format: yaml
-  label: Mintsoft Batch API
-  slug: mintsoft-batch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-batch-api-openapi.yml
-- filename: mintsoft-client-api-openapi.yml
-  format: yaml
-  label: Mintsoft Client API
-  slug: mintsoft-client-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-client-api-openapi.yml
-- filename: mintsoft-courier-api-openapi.yml
-  format: yaml
-  label: Mintsoft Courier API
-  slug: mintsoft-courier-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-courier-api-openapi.yml
-- filename: mintsoft-order-api-openapi.yml
-  format: yaml
-  label: Mintsoft Order API
-  slug: mintsoft-order-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-order-api-openapi.yml
-- filename: mintsoft-orderrules-api-openapi.yml
-  format: yaml
-  label: Mintsoft Order Rules API
-  slug: mintsoft-orderrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-orderrules-api-openapi.yml
-- filename: mintsoft-product-api-openapi.yml
-  format: yaml
-  label: Mintsoft Product API
-  slug: mintsoft-product-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-product-api-openapi.yml
-- filename: mintsoft-refdata-api-openapi.yml
-  format: yaml
-  label: Mintsoft Ref Data API
-  slug: mintsoft-refdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-refdata-api-openapi.yml
-- filename: mintsoft-replenpoint-api-openapi.yml
-  format: yaml
-  label: Mintsoft Replen Point API
-  slug: mintsoft-replenpoint-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-replenpoint-api-openapi.yml
-- filename: mintsoft-reports-api-openapi.yml
-  format: yaml
-  label: Mintsoft Reports API
-  slug: mintsoft-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-reports-api-openapi.yml
-- filename: mintsoft-return-api-openapi.yml
-  format: yaml
-  label: Mintsoft Return API
-  slug: mintsoft-return-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-return-api-openapi.yml
-- filename: mintsoft-warehouse-api-openapi.yml
-  format: yaml
-  label: Mintsoft Warehouse API
-  slug: mintsoft-warehouse-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/openapi/mintsoft-warehouse-api-openapi.yml
 consequence_counts:
   physical: 34
   read: 118
@@ -272,13 +187,14 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/mintso
   \ action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Order/{id}/BillingAddress\n  method: get\n  operationId: Order_BillingAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Order/{id}/MarkFraudRisk\n  method: post\n  operationId: Order_MarkFraudRisk\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Order/{id}/MarkFraudRiskAccepted\n\
   \  method: post\n  operationId: Order_MarkFraudRiskAccepted\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/OrderRules\n  method: get\n  operationId: OrderRules_GetOrderRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/OrderRules\n  method: put\n  operationId: OrderRules_UpdateOrderRule\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n- path: /api/OrderRules\n  method: post\n  operationId: OrderRules_AddOrderRule\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/OrderRules/{id}\n  method: delete\n  operationId: OrderRules_DeleteOrderRule\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/OrderRules/{id}/Activate\n  method: post\n  operationId: OrderRules_MarkOrderRuleActive\n  x-agentic-access:\n   \
-  \ action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/OrderRules/{id}/Deactivate\n  method: post\n  operationId: OrderRules_MarkOrderRuleInactive\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (52 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/agentic-access/mintsoft-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mintsoft/refs/heads/main/agentic-access/mintsoft-agentic-access.yml
+  \ action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/OrderRules/{id}/Deactivate\n  method: post\n  operationId: OrderRules_MarkOrderRuleInactive\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (52 KB total) ---\n# Full source: https://artifacts.apis.io/mintsoft/agentic-access/mintsoft-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/mintsoft/agentic-access/mintsoft-agentic-access.yml
 summary_line: 187 operations · 69 acting
 tags:
-- warehouse-management
-- logistics
-- ecommerce
-- fulfillment
-- software
+- Warehouse
+- Logistics
+- Software-as-a-Service
+- E-Commerce
+- Fulfilment
+- Company
 ---

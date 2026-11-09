@@ -9,67 +9,67 @@ api_specs:
   label: Lucca Employee Attributes API
   slug: lucca-employee-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employee-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employee-attributes-api-openapi.yml
 - filename: lucca-employee-job-qualifications-api-openapi.yml
   format: yaml
   label: Lucca Employee Job Qualifications API
   slug: lucca-employee-job-qualifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employee-job-qualifications-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employee-job-qualifications-api-openapi.yml
 - filename: lucca-employee-occupation-categories-api-openapi.yml
   format: yaml
   label: Lucca Employee Occupation Categories API
   slug: lucca-employee-occupation-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employee-occupation-categories-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employee-occupation-categories-api-openapi.yml
 - filename: lucca-employees-api-openapi.yml
   format: yaml
   label: Lucca Employees API
   slug: lucca-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employees-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employees-api-openapi.yml
 - filename: lucca-employments-api-openapi.yml
   format: yaml
   label: Lucca Employments API
   slug: lucca-employments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employments-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employments-api-openapi.yml
 - filename: lucca-events-api-openapi.yml
   format: yaml
   label: Lucca Events API
   slug: lucca-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-events-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-events-api-openapi.yml
 - filename: lucca-files-api-openapi.yml
   format: yaml
   label: Lucca Files API
   slug: lucca-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-files-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-files-api-openapi.yml
 - filename: lucca-organization-api-openapi.yml
   format: yaml
   label: Lucca Organization API
   slug: lucca-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-organization-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-organization-api-openapi.yml
 - filename: lucca-taxonomies-api-openapi.yml
   format: yaml
   label: Lucca Taxonomies API
   slug: lucca-taxonomies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-taxonomies-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-taxonomies-api-openapi.yml
 - filename: lucca-webhooks-api-openapi.yml
   format: yaml
   label: Lucca Webhooks API
   slug: lucca-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-webhooks-api-openapi.yml
 - filename: lucca-working-time-arrangements-api-openapi.yml
   format: yaml
   label: Lucca Working Time Arrangements API
   slug: lucca-working-time-arrangements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-working-time-arrangements-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-working-time-arrangements-api-openapi.yml
 consequence_counts:
   read: 44
   write: 33
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/lucca-
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhook-endpoints.readwrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lucca-api/webhook-endpoints/{id}\n  method: delete\n  operationId: delete-webhook-endpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhook-endpoints.readwrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lucca-api/webhook-deliveries\n  method: get\n  operationId: get-webhook-deliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhook-deliveries.readonly\n    - webhook-deliveries.readwrite\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /lucca-api/webhook-deliveries\n  method: post\n  operationId: post-webhook-deliveries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhook-deliveries.readwrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lucca-api/webhook-deliveries/{id}\n  method: get\n  operationId: get-webhook-delivery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhook-deliveries.readonly\n    - webhook-deliveries.readwrite\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lucca-api/webhook-delivery-attempts\n  method: get\n  operationId: get-webhook-delivery-attempts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    scope:\n    - webhook-deliveries.readonly\n    - webhook-deliveries.readwrite\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lucca-api/webhook-delivery-attempts/{id}\n  method: get\n  operationId: get-webhook-delivery-attempt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhook-deliveries.readonly\n    - webhook-deliveries.readwrite\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/agentic-access/lucca-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lucca/agentic-access/lucca-agentic-access.yml
 summary_line: 77 operations · 33 acting
 tags:
 - Company

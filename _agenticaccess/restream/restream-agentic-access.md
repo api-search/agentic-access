@@ -9,31 +9,31 @@ api_specs:
   label: Restream Channels API
   slug: restream-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-channels-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-channels-api-openapi.yml
 - filename: restream-events-api-openapi.yml
   format: yaml
   label: Restream Events API
   slug: restream-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-events-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-events-api-openapi.yml
 - filename: restream-platforms-api-openapi.yml
   format: yaml
   label: Restream Platforms API
   slug: restream-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-platforms-api-openapi.yml
 - filename: restream-stream-keys-api-openapi.yml
   format: yaml
   label: Restream Stream Keys API
   slug: restream-stream-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-stream-keys-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-stream-keys-api-openapi.yml
 - filename: restream-user-api-openapi.yml
   format: yaml
   label: Restream User API
   slug: restream-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-user-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-user-api-openapi.yml
 consequence_counts:
   read: 11
   write: 3
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/restre
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/channel/{id}/meta\n  method: get\n  operationId: getChannelMeta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - channels.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/channel/{id}/meta\n  method: patch\n  operationId: updateChannelMeta\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - channels.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/event/upcoming\n  method: get\n  operationId: listUpcomingEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - events.read\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /user/event/in-progress\n  method: get\n  operationId: listInProgressEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - events.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/event/history\n  method: get\n  operationId: listEventHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - events.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/event/{id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - events.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/event/{id}/streamKey\n  method: get\n  operationId: getEventStreamKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - events.read\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /oauth/token\n  method: post\n  operationId: refreshToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/agentic-access/restream-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/restream/agentic-access/restream-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - Broadcast

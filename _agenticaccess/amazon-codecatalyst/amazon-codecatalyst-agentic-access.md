@@ -9,25 +9,43 @@ api_specs:
   label: Amazon CodeCatalyst Session API
   slug: amazon-codecatalyst-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-session-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codecatalyst/openapi/amazon-codecatalyst-session-api-openapi.yml
 - filename: amazon-codecatalyst-spaces-api-openapi.yml
   format: yaml
   label: Amazon CodeCatalyst Spaces API
   slug: amazon-codecatalyst-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codecatalyst/openapi/amazon-codecatalyst-spaces-api-openapi.yml
+- filename: amazon-codecatalyst-devenvironments-api-openapi.yml
+  format: yaml
+  label: Amazon CodeCatalyst Codecatalyst Devenvironments API
+  slug: amazon-codecatalyst-devenvironments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-codecatalyst/openapi/amazon-codecatalyst-devenvironments-api-openapi.yml
+- filename: amazon-codecatalyst-operations-api-openapi.yml
+  format: yaml
+  label: Amazon CodeCatalyst Codecatalyst Operations API
+  slug: amazon-codecatalyst-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-codecatalyst/openapi/amazon-codecatalyst-operations-api-openapi.yml
+- filename: amazon-codecatalyst-workflowruns-api-openapi.yml
+  format: yaml
+  label: Amazon CodeCatalyst Codecatalyst Workflowruns API
+  slug: amazon-codecatalyst-workflowruns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-codecatalyst/openapi/amazon-codecatalyst-workflowruns-api-openapi.yml
 - filename: amazon-codecatalyst-access-tokens-api-openapi.yml
   format: yaml
   label: Amazon CodeCatalyst Access Tokens API
   slug: amazon-codecatalyst-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codecatalyst/openapi/amazon-codecatalyst-access-tokens-api-openapi.yml
 - filename: amazon-codecatalyst-user-details-api-openapi.yml
   format: yaml
   label: Amazon CodeCatalyst User Details API
   slug: amazon-codecatalyst-user-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-user-details-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codecatalyst/openapi/amazon-codecatalyst-user-details-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 2
@@ -79,10 +97,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   - path: /v1/spaces/{spaceName}/projects/{projectName}/sourceRepositories\n  method: post\n  operationId: ListSourceRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/spaces/{spaceName}/projects/{projectName}/sourceRepositories/{sourceRepositoryName}/branches\n  method: post\n  operationId: ListSourceRepositoryBranches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/spaces\n  method: post\n  operationId: ListSpaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/spaces/{spaceName}/projects/{projectName}/devEnvironments/{id}/start\n  method: put\n  operationId: StartDevEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/spaces/{spaceName}/projects/{projectName}/devEnvironments/{id}/session\n  method: put\n  operationId: StartDevEnvironmentSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/spaces/{spaceName}/projects/{projectName}/devEnvironments/{id}/stop\n  method: put\n  operationId: StopDevEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n \
   \   escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/spaces/{spaceName}/projects/{projectName}/devEnvironments/{id}/session/{sessionId}\n  method: delete\n  operationId: StopDevEnvironmentSession\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /userDetails\n  method: get\n  operationId: GetUserDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/agentic-access/amazon-codecatalyst-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-codecatalyst/agentic-access/amazon-codecatalyst-agentic-access.yml
 summary_line: 33 operations · 19 acting · 2 human-in-the-loop
 tags:
 - Amazon
+- Amazon Web Services
 - Developer Tools
 - CI/CD
 - Collaboration

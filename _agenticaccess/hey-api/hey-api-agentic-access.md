@@ -9,37 +9,37 @@ api_specs:
   label: Hey API Get API
   slug: hey-api-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-get-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-get-api-openapi.yml
 - filename: hey-api-hey-api-api-openapi.yml
   format: yaml
   label: Hey API Hey API
   slug: hey-api-hey-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-hey-api-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-hey-api-api-openapi.yml
 - filename: hey-api-internal-api-openapi.yml
   format: yaml
   label: Hey API Internal API
   slug: hey-api-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-internal-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-internal-api-openapi.yml
 - filename: hey-api-organizations-api-openapi.yml
   format: yaml
   label: Hey API Organizations API
   slug: hey-api-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-organizations-api-openapi.yml
 - filename: hey-api-specifications-api-openapi.yml
   format: yaml
   label: Hey API Specifications API
   slug: hey-api-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-specifications-api-openapi.yml
 - filename: hey-api-users-api-openapi.yml
   format: yaml
   label: Hey API Users API
   slug: hey-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/openapi/hey-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/hey-api/openapi/hey-api-users-api-openapi.yml
 consequence_counts:
   read: 15
   write: 23
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/hey-ap
   \ abnormal\n      - high-value\n    audit: required\n- path: /v1/users/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}/api-keys\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}/api-keys\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{user_id}/api-keys/{api_key_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{user_id}/api-keys/{api_key_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{user_id}/roles\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}/waitlists\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}/waitlists\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{user_id}/waitlists/{waitlist_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{user_id}/waitlists/{waitlist_id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/agentic-access/hey-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hey-api/agentic-access/hey-api-agentic-access.yml
 summary_line: 38 operations · 23 acting
 tags:
 - Code Generation

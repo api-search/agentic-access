@@ -8,31 +8,31 @@ api_specs:
   label: CMS Open Payments Datastore Query API
   slug: open-payments-datastore-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-datastore-query-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-datastore-query-api-openapi.yml
 - filename: open-payments-datastore-sql-api-openapi.yml
   format: yaml
   label: CMS Open Payments Datastore SQL API
   slug: open-payments-datastore-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-datastore-sql-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-datastore-sql-api-openapi.yml
 - filename: open-payments-download-api-openapi.yml
   format: yaml
   label: CMS Open Payments Download API
   slug: open-payments-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-download-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-download-api-openapi.yml
 - filename: open-payments-metastore-api-openapi.yml
   format: yaml
   label: CMS Open Payments Metastore API
   slug: open-payments-metastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-metastore-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-metastore-api-openapi.yml
 - filename: open-payments-search-api-openapi.yml
   format: yaml
   label: CMS Open Payments Search API
   slug: open-payments-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/openapi/open-payments-search-api-openapi.yml
+  url: https://artifacts.apis.io/open-payments/openapi/open-payments-search-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/open-payments-datastore-query-api-openapi.yml, openapi/open-payments-datastore-sql-api-openapi.yml,\n  openapi/open-payments-download-api-openapi.yml, openapi/open-payments-metastore-api-openapi.yml,\n  openapi/open-payments-search-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /datastore/query/{datasetId}/{index}\n  method: get\n  operationId: queryDatastoreByDatasetGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datastore/query/{datasetId}/{index}\n\
   \  method: post\n  operationId: queryDatastoreByDatasetPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datastore/query/{distributionId}\n  method: post\n  operationId: queryDatastoreByDistribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datastore/sql\n  method: get\n  operationId: queryDatastoreSql\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datastore/query/{datasetId}/{index}/download\n  method: get\n  operationId: downloadDatastore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metastore/schemas/dataset/items\n  method: get\n  operationId: listDatasets\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metastore/schemas/dataset/items/{datasetId}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/agentic-access/open-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-payments/agentic-access/open-payments-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Government Data

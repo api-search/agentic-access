@@ -8,43 +8,43 @@ api_specs:
   label: FDIC Demographics API
   slug: fdic-demographics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-demographics-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-demographics-api-openapi.yml
 - filename: fdic-failures-api-openapi.yml
   format: yaml
   label: FDIC Failures API
   slug: fdic-failures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-failures-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-failures-api-openapi.yml
 - filename: fdic-financials-api-openapi.yml
   format: yaml
   label: FDIC Financials API
   slug: fdic-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-financials-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-financials-api-openapi.yml
 - filename: fdic-historical-api-openapi.yml
   format: yaml
   label: FDIC Historical API
   slug: fdic-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-historical-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-historical-api-openapi.yml
 - filename: fdic-history-api-openapi.yml
   format: yaml
   label: FDIC History API
   slug: fdic-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-history-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-history-api-openapi.yml
 - filename: fdic-structure-api-openapi.yml
   format: yaml
   label: FDIC Structure API
   slug: fdic-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-structure-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-structure-api-openapi.yml
 - filename: fdic-summary-of-deposits-api-openapi.yml
   format: yaml
   label: FDIC Summary of Deposits API
   slug: fdic-summary-of-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/openapi/fdic-summary-of-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/fdic/openapi/fdic-summary-of-deposits-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fdic-bankfind-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /institutions\n  method: get\n  operationId: searchInstitutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: searchLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary\n  method: get\n  operationId: getHistorical\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /failures\n  method: get\n  operationId: getFailures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /history\n  method: get\n  operationId: getHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /financials\n  method: get\n  operationId: getFinancials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /demographics\n  method: get\n  operationId: getDemographics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sod\n  method: get\n  operationId:\
   \ getSod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/agentic-access/fdic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fdic/agentic-access/fdic-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Banking

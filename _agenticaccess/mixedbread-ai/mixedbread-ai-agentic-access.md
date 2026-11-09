@@ -9,85 +9,85 @@ api_specs:
   label: Mixedbread Admin API
   slug: mixedbread-ai-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-admin-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-admin-api-openapi.yml
 - filename: mixedbread-ai-api-keys-api-openapi.yml
   format: yaml
   label: Mixedbread API Keys API
   slug: mixedbread-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-api-keys-api-openapi.yml
 - filename: mixedbread-ai-billing-api-openapi.yml
   format: yaml
   label: Mixedbread Billing API
   slug: mixedbread-ai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-billing-api-openapi.yml
 - filename: mixedbread-ai-completions-api-openapi.yml
   format: yaml
   label: Mixedbread Completions API
   slug: mixedbread-ai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-completions-api-openapi.yml
 - filename: mixedbread-ai-data-sources-api-openapi.yml
   format: yaml
   label: Mixedbread Data Sources API
   slug: mixedbread-ai-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-data-sources-api-openapi.yml
 - filename: mixedbread-ai-deprecated-vector-stores-api-openapi.yml
   format: yaml
   label: Mixedbread Deprecated Vector Stores API
   slug: mixedbread-ai-deprecated-vector-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-deprecated-vector-stores-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-deprecated-vector-stores-api-openapi.yml
 - filename: mixedbread-ai-embeddings-api-openapi.yml
   format: yaml
   label: Mixedbread Embeddings API
   slug: mixedbread-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-embeddings-api-openapi.yml
 - filename: mixedbread-ai-extractions-api-openapi.yml
   format: yaml
   label: Mixedbread Extractions API
   slug: mixedbread-ai-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-extractions-api-openapi.yml
 - filename: mixedbread-ai-files-api-openapi.yml
   format: yaml
   label: Mixedbread Files API
   slug: mixedbread-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-files-api-openapi.yml
 - filename: mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml
   format: yaml
   label: Mixedbread Embeddings API
   slug: mixedbread-ai-mixedbread-embeddings-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-mixedbread-embeddings-api-api-openapi.yml
 - filename: mixedbread-ai-parsing-api-openapi.yml
   format: yaml
   label: Mixedbread Parsing API
   slug: mixedbread-ai-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-parsing-api-openapi.yml
 - filename: mixedbread-ai-reranking-api-openapi.yml
   format: yaml
   label: Mixedbread Reranking API
   slug: mixedbread-ai-reranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-reranking-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-reranking-api-openapi.yml
 - filename: mixedbread-ai-schemas-api-openapi.yml
   format: yaml
   label: Mixedbread Schemas API
   slug: mixedbread-ai-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-schemas-api-openapi.yml
 - filename: mixedbread-ai-stores-api-openapi.yml
   format: yaml
   label: Mixedbread Stores API
   slug: mixedbread-ai-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/openapi/mixedbread-ai-stores-api-openapi.yml
+  url: https://artifacts.apis.io/mixedbread-ai/openapi/mixedbread-ai-stores-api-openapi.yml
 consequence_counts:
   read: 40
   safety-critical: 1
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mixedb
   \  method: put\n  operationId: update_store\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/stores/{store_identifier}\n  method: delete\n  operationId: delete_store\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/stores/search\n  method: post\n  operationId: search_store_chunks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stores/grep\n  method: post\n  operationId: grep_store_chunks\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/stores/list-chunks\n  method: post\n  operationId: list_store_chunks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stores/question-answering\n  method: post\n  operationId: create_question_answering\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/stores/queries/enhance\n  method: post\n  operationId: enhance_query\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/stores/metadata-facets\n  method: post\n  operationId: get_metadata_facets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/agentic-access/mixedbread-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mixedbread-ai/agentic-access/mixedbread-ai-agentic-access.yml
 summary_line: 93 operations · 53 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

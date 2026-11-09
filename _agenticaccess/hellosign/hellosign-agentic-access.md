@@ -9,79 +9,79 @@ api_specs:
   label: Dropbox Sign (HelloSign) Account API
   slug: hellosign-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-account-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-account-api-openapi.yml
 - filename: hellosign-api-app-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Api App API
   slug: hellosign-api-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-api-app-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-api-app-api-openapi.yml
 - filename: hellosign-bulk-send-job-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Bulk Send Job API
   slug: hellosign-bulk-send-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-bulk-send-job-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-bulk-send-job-api-openapi.yml
 - filename: hellosign-embedded-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Embedded API
   slug: hellosign-embedded-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-embedded-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-embedded-api-openapi.yml
 - filename: hellosign-fax-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Fax API
   slug: hellosign-fax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-fax-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-fax-api-openapi.yml
 - filename: hellosign-fax-line-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Fax Line API
   slug: hellosign-fax-line-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-fax-line-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-fax-line-api-openapi.yml
 - filename: hellosign-report-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Report API
   slug: hellosign-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-report-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-report-api-openapi.yml
 - filename: hellosign-signature-request-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Signature Request API
   slug: hellosign-signature-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-signature-request-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-signature-request-api-openapi.yml
 - filename: hellosign-team-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Team API
   slug: hellosign-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-team-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-team-api-openapi.yml
 - filename: hellosign-template-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Template API
   slug: hellosign-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-template-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-template-api-openapi.yml
 - filename: hellosign-unclaimed-draft-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Unclaimed Draft API
   slug: hellosign-unclaimed-draft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-unclaimed-draft-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-unclaimed-draft-api-openapi.yml
 - filename: hellosign-callbacks-and-events-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) Callbacks and Events API
   slug: hellosign-callbacks-and-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-callbacks-and-events-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-callbacks-and-events-api-openapi.yml
 - filename: hellosign-oauth-api-openapi.yml
   format: yaml
   label: Dropbox Sign (HelloSign) O Auth API
   slug: hellosign-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/hellosign/openapi/hellosign-oauth-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 27
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/hellos
   \    scope:\n    - template_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template/list\n  method: get\n  operationId: templateList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - template_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template/remove_user/{template_id}\n  method: post\n  operationId: templateRemoveUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - template_access\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template/update_files/{template_id}\n  method: post\n  operationId: templateUpdateFiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - template_access\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unclaimed_draft/create\n  method: post\n  operationId: unclaimedDraftCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - signature_request_access\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unclaimed_draft/create_embedded\n  method: post\n  operationId: unclaimedDraftCreateEmbedded\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - request_signature\n    - signature_request_access\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /unclaimed_draft/create_embedded_with_template\n  method: post\n  operationId: unclaimedDraftCreateEmbeddedWithTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - signature_request_access\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unclaimed_draft/edit_and_resend/{signature_request_id}\n  method: post\n  operationId: unclaimedDraftEditAndResend\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - request_signature\n    - signature_request_access\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/agentic-access/hellosign-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hellosign/agentic-access/hellosign-agentic-access.yml
 summary_line: 73 operations · 46 acting
 tags:
 - Company

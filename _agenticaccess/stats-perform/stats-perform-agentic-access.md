@@ -8,43 +8,43 @@ api_specs:
   label: Stats Perform Editorial API
   slug: stats-perform-editorial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-editorial-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-editorial-api-openapi.yml
 - filename: stats-perform-events-api-openapi.yml
   format: yaml
   label: Stats Perform Events API
   slug: stats-perform-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-events-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-events-api-openapi.yml
 - filename: stats-perform-players-api-openapi.yml
   format: yaml
   label: Stats Perform Players API
   slug: stats-perform-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-players-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-players-api-openapi.yml
 - filename: stats-perform-reference-data-api-openapi.yml
   format: yaml
   label: Stats Perform Reference Data API
   slug: stats-perform-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-reference-data-api-openapi.yml
 - filename: stats-perform-standings-api-openapi.yml
   format: yaml
   label: Stats Perform Standings API
   slug: stats-perform-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-standings-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-standings-api-openapi.yml
 - filename: stats-perform-statistics-api-openapi.yml
   format: yaml
   label: Stats Perform Statistics API
   slug: stats-perform-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-statistics-api-openapi.yml
 - filename: stats-perform-teams-api-openapi.yml
   format: yaml
   label: Stats Perform Teams API
   slug: stats-perform-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-teams-api-openapi.yml
+  url: https://artifacts.apis.io/stats-perform/openapi/stats-perform-teams-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stats-
   - path: /stats/{sport}/{leaguePath}/playbyplay/{eventId}\n  method: get\n  operationId: getEventPlayByPlay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{sport}/{leaguePath}/teams/\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{sport}/{leaguePath}/teams/{teamId}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{sport}/{leaguePath}/teams/{teamId}/stats\n  method: get\n  operationId: getTeamStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{sport}/{leaguePath}/players/{playerId}\n\
   \  method: get\n  operationId: getPlayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{sport}/{leaguePath}/players/{playerId}/stats\n  method: get\n  operationId: getPlayerStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{sport}/{leaguePath}/standings/\n  method: get\n  operationId: getStandings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{sport}/{leaguePath}/scores/\n  method: get\n  operationId: listScores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editorial/{sport}/{leaguePath}/news/\n  method: get\n  operationId: listNews\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /decode/networkTypes/\n  method: get\n  operationId: decodeNetworkTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/agentic-access/stats-perform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stats-perform/agentic-access/stats-perform-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Sports

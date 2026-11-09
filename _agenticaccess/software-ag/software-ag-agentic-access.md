@@ -9,25 +9,25 @@ api_specs:
   label: Software AG Applications API
   slug: software-ag-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-applications-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-applications-api-openapi.yml
 - filename: software-ag-policies-api-openapi.yml
   format: yaml
   label: Software AG Policies API
   slug: software-ag-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-policies-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-policies-api-openapi.yml
 - filename: software-ag-publishing-api-openapi.yml
   format: yaml
   label: Software AG Publishing API
   slug: software-ag-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-publishing-api-openapi.yml
 - filename: software-ag-apis-api-openapi.yml
   format: yaml
   label: Software AG APIs API
   slug: software-ag-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-apis-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-apis-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 2
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/webmet
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/implementation\n  method: put\n  operationId: updateAPIImplementation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/mock/enable\n  method: put\n  operationId: enableAPIMock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/mock/disable\n  method: put\n  operationId:\
   \ disableAPIMock\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /apis/{apiId}/tracing/enable\n  method: put\n  operationId: enableAPITracing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/tracing/disable\n  method: put\n  operationId: disableAPITracing\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /apis/{apiId}/providerspecification\n  method: get\n  operationId: downloadProviderSpecification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/packages\n  method: get\n  operationId: getAPIPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/agentic-access/software-ag-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/software-ag/agentic-access/software-ag-agentic-access.yml
 summary_line: 19 operations · 13 acting · 2 human-in-the-loop
 tags:
 - API Management

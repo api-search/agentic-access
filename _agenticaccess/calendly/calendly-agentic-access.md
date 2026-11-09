@@ -9,103 +9,103 @@ api_specs:
   label: Calendly Webhook API
   slug: webhook-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/asyncapi/calendly-webhook-api-asyncapi.yml
+  url: https://artifacts.apis.io/calendly/asyncapi/calendly-webhook-api-asyncapi.yml
 - filename: calendly-availability-api-openapi.yml
   format: yaml
   label: Calendly Availability API
   slug: calendly-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-availability-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-availability-api-openapi.yml
 - filename: calendly-groups-api-openapi.yml
   format: yaml
   label: Calendly Groups API
   slug: calendly-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-groups-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-groups-api-openapi.yml
 - filename: calendly-organizations-api-openapi.yml
   format: yaml
   label: Calendly Organizations API
   slug: calendly-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-organizations-api-openapi.yml
 - filename: calendly-shares-api-openapi.yml
   format: yaml
   label: Calendly Shares API
   slug: calendly-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-shares-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-shares-api-openapi.yml
 - filename: calendly-users-api-openapi.yml
   format: yaml
   label: Calendly Users API
   slug: calendly-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-users-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-users-api-openapi.yml
 - filename: calendly-activitylog-api-openapi.yml
   format: yaml
   label: Calendly Activity Log API
   slug: calendly-activitylog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-activitylog-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-activitylog-api-openapi.yml
 - filename: calendly-contacts-api-openapi.yml
   format: yaml
   label: Calendly Contacts API
   slug: calendly-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-contacts-api-openapi.yml
 - filename: calendly-datacompliance-api-openapi.yml
   format: yaml
   label: Calendly Data Compliance API
   slug: calendly-datacompliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-datacompliance-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-datacompliance-api-openapi.yml
 - filename: calendly-eventtypes-api-openapi.yml
   format: yaml
   label: Calendly Event Types API
   slug: calendly-eventtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-eventtypes-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-eventtypes-api-openapi.yml
 - filename: calendly-locations-api-openapi.yml
   format: yaml
   label: Calendly Locations API
   slug: calendly-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-locations-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-locations-api-openapi.yml
 - filename: calendly-notetaker-api-openapi.yml
   format: yaml
   label: Calendly Notetaker API
   slug: calendly-notetaker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-notetaker-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-notetaker-api-openapi.yml
 - filename: calendly-outgoingcommunications-api-openapi.yml
   format: yaml
   label: Calendly Outgoing Communications API
   slug: calendly-outgoingcommunications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-outgoingcommunications-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-outgoingcommunications-api-openapi.yml
 - filename: calendly-routingforms-api-openapi.yml
   format: yaml
   label: Calendly Routing Forms API
   slug: calendly-routingforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-routingforms-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-routingforms-api-openapi.yml
 - filename: calendly-scheduledevents-api-openapi.yml
   format: yaml
   label: Calendly Scheduled Events API
   slug: calendly-scheduledevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-scheduledevents-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-scheduledevents-api-openapi.yml
 - filename: calendly-webhooks-api-openapi.yml
   format: yaml
   label: Calendly Webhooks API
   slug: calendly-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-webhooks-api-openapi.yml
 - filename: calendly-scheduling-links-api-openapi.yml
   format: yaml
   label: Calendly Scheduling Links API
   slug: calendly-scheduling-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-scheduling-links-api-openapi.yml
+  url: https://artifacts.apis.io/calendly/openapi/calendly-scheduling-links-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 25
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/calend
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routing_forms/{uuid}\n  method: get\n  operationId: getRoutingForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routing_form_submissions\n  method: get\n  operationId: listRoutingFormSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routing_form_submissions/{uuid}\n  method: get\n  operationId: getRoutingFormSubmission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data_compliance/deletion/invitees\n  method: post\n  operationId: deleteInviteeData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activity_log_entries\n  method: get\n  operationId: listActivityLogEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shares\n  method: post\n  operationId: createShare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /group_relationships\n  method: get\n\
   \  operationId: listGroupRelationships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/agentic-access/calendly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/calendly/agentic-access/calendly-agentic-access.yml
 summary_line: 35 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Appointments

@@ -9,13 +9,13 @@ api_specs:
   label: Dashlane Teams API
   slug: dashlane-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/openapi/dashlane-teams-api-openapi.yml
+  url: https://artifacts.apis.io/dashlane/openapi/dashlane-teams-api-openapi.yml
 - filename: dashlane-time-api-openapi.yml
   format: yaml
   label: Dashlane Time API
   slug: dashlane-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/openapi/dashlane-time-api-openapi.yml
+  url: https://artifacts.apis.io/dashlane/openapi/dashlane-time-api-openapi.yml
 consequence_counts:
   read: 1
   write: 5
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/dashlane-public-api-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 5\n    connected: 1\n  by_consequence:\n    write: 5\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /teams/Members\n  method: post\n  operationId: teams-Members\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/MembersDeviceInformation\n  method: post\n  operationId: teams-MembersDeviceInformation\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/PasswordHealth\n  method: post\n  operationId: teams-PasswordHealth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/Status\n  method: post\n  operationId: teams-Status\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time/GetRemoteTime\n\
   \  method: get\n  operationId: GET-time-GetRemoteTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /time/GetRemoteTime\n  method: post\n  operationId: time-GetRemoteTime\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/agentic-access/dashlane-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dashlane/agentic-access/dashlane-agentic-access.yml
 summary_line: 6 operations · 5 acting
 tags:
 - Company

@@ -134,8 +134,8 @@ source_yaml_url: https://artifacts.apis.io/alphagrowth-io/agentic-access/alphagr
 summary_line: 29 operations · 2 acting · 1 human-in-the-loop
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
-- DataAnalytics
+- Data Analytics
 - Finance
 ---

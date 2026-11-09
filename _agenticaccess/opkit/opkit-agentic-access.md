@@ -9,31 +9,31 @@ api_specs:
   label: Opkit Benefits API
   slug: opkit-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/opkit/openapi/opkit-benefits-api-openapi.yml
 - filename: opkit-eligibility-inquiries-api-openapi.yml
   format: yaml
   label: Opkit Eligibility Inquiries API
   slug: opkit-eligibility-inquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-eligibility-inquiries-api-openapi.yml
+  url: https://artifacts.apis.io/opkit/openapi/opkit-eligibility-inquiries-api-openapi.yml
 - filename: opkit-patients-api-openapi.yml
   format: yaml
   label: Opkit Patients API
   slug: opkit-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-patients-api-openapi.yml
+  url: https://artifacts.apis.io/opkit/openapi/opkit-patients-api-openapi.yml
 - filename: opkit-payers-api-openapi.yml
   format: yaml
   label: Opkit Payers API
   slug: opkit-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-payers-api-openapi.yml
+  url: https://artifacts.apis.io/opkit/openapi/opkit-payers-api-openapi.yml
 - filename: opkit-webhooks-api-openapi.yml
   format: yaml
   label: Opkit Webhooks API
   slug: opkit-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/openapi/opkit-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/opkit/openapi/opkit-webhooks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/opkit-
   \  method: get\n  operationId: getPayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients\n  method: get\n  operationId: listPatients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients\n  method: post\n  operationId: createPatient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /patients/{id}\n  method: get\n  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients/{id}\n  method: patch\n  operationId:\
   \ updatePatient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/agentic-access/opkit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opkit/agentic-access/opkit-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Healthcare

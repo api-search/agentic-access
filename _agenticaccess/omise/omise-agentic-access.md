@@ -9,79 +9,79 @@ api_specs:
   label: Omise Account API
   slug: omise-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-account-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-account-api-openapi.yml
 - filename: omise-cards-api-openapi.yml
   format: yaml
   label: Omise Cards API
   slug: omise-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-cards-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-cards-api-openapi.yml
 - filename: omise-charges-api-openapi.yml
   format: yaml
   label: Omise Charges API
   slug: omise-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-charges-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-charges-api-openapi.yml
 - filename: omise-customers-api-openapi.yml
   format: yaml
   label: Omise Customers API
   slug: omise-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-customers-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-customers-api-openapi.yml
 - filename: omise-disputes-api-openapi.yml
   format: yaml
   label: Omise Disputes API
   slug: omise-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-disputes-api-openapi.yml
 - filename: omise-events-api-openapi.yml
   format: yaml
   label: Omise Events API
   slug: omise-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-events-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-events-api-openapi.yml
 - filename: omise-links-api-openapi.yml
   format: yaml
   label: Omise Links API
   slug: omise-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-links-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-links-api-openapi.yml
 - filename: omise-recipients-api-openapi.yml
   format: yaml
   label: Omise Recipients API
   slug: omise-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-recipients-api-openapi.yml
 - filename: omise-refunds-api-openapi.yml
   format: yaml
   label: Omise Refunds API
   slug: omise-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-refunds-api-openapi.yml
 - filename: omise-schedules-api-openapi.yml
   format: yaml
   label: Omise Schedules API
   slug: omise-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-schedules-api-openapi.yml
 - filename: omise-sources-api-openapi.yml
   format: yaml
   label: Omise Sources API
   slug: omise-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-sources-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-sources-api-openapi.yml
 - filename: omise-tokens-api-openapi.yml
   format: yaml
   label: Omise Tokens API
   slug: omise-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-tokens-api-openapi.yml
 - filename: omise-transfers-api-openapi.yml
   format: yaml
   label: Omise Transfers API
   slug: omise-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/openapi/omise-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/omise/openapi/omise-transfers-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 27
@@ -174,7 +174,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/omise-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules/{id}\n  method: get\n  operationId: getSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules/{id}\n  method: delete\n  operationId: deleteSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedules/{id}/occurrences\n  method: get\n  operationId: listScheduleOccurrences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /links\n  method: post\n  operationId: createLink\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /links\n  method: get\n  operationId: listLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /links/{id}\n  method: get\n  operationId: getLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}\n  method: get\n  operationId: getEvent\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/agentic-access/omise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/omise/agentic-access/omise-agentic-access.yml
 summary_line: 52 operations · 25 acting
 tags:
 - Payments

@@ -9,151 +9,151 @@ api_specs:
   label: Scalr Acl Roles API
   slug: scalr-acl-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-acl-roles-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-acl-roles-api-openapi.yml
 - filename: scalr-ansible-tower-api-openapi.yml
   format: yaml
   label: Scalr Ansible Tower API
   slug: scalr-ansible-tower-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-ansible-tower-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-ansible-tower-api-openapi.yml
 - filename: scalr-cloud-credentials-api-openapi.yml
   format: yaml
   label: Scalr Cloud Credentials API
   slug: scalr-cloud-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-cloud-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-cloud-credentials-api-openapi.yml
 - filename: scalr-clouds-api-openapi.yml
   format: yaml
   label: Scalr Clouds API
   slug: scalr-clouds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-clouds-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-clouds-api-openapi.yml
 - filename: scalr-cost-centers-api-openapi.yml
   format: yaml
   label: Scalr Cost Centers API
   slug: scalr-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-cost-centers-api-openapi.yml
 - filename: scalr-environments-api-openapi.yml
   format: yaml
   label: Scalr Environments API
   slug: scalr-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-environments-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-environments-api-openapi.yml
 - filename: scalr-event-logs-api-openapi.yml
   format: yaml
   label: Scalr Event Logs API
   slug: scalr-event-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-event-logs-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-event-logs-api-openapi.yml
 - filename: scalr-events-api-openapi.yml
   format: yaml
   label: Scalr Events API
   slug: scalr-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-events-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-events-api-openapi.yml
 - filename: scalr-farm-roles-api-openapi.yml
   format: yaml
   label: Scalr Farm Roles API
   slug: scalr-farm-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-farm-roles-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-farm-roles-api-openapi.yml
 - filename: scalr-farms-api-openapi.yml
   format: yaml
   label: Scalr Farms API
   slug: scalr-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-farms-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-farms-api-openapi.yml
 - filename: scalr-global-variables-api-openapi.yml
   format: yaml
   label: Scalr Global Variables API
   slug: scalr-global-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-global-variables-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-global-variables-api-openapi.yml
 - filename: scalr-images-api-openapi.yml
   format: yaml
   label: Scalr Images API
   slug: scalr-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-images-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-images-api-openapi.yml
 - filename: scalr-orchestration-logs-api-openapi.yml
   format: yaml
   label: Scalr Orchestration Logs API
   slug: scalr-orchestration-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-orchestration-logs-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-orchestration-logs-api-openapi.yml
 - filename: scalr-orchestration-rules-api-openapi.yml
   format: yaml
   label: Scalr Orchestration Rules API
   slug: scalr-orchestration-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-orchestration-rules-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-orchestration-rules-api-openapi.yml
 - filename: scalr-os-api-openapi.yml
   format: yaml
   label: Scalr Os API
   slug: scalr-os-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-os-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-os-api-openapi.yml
 - filename: scalr-projects-api-openapi.yml
   format: yaml
   label: Scalr Projects API
   slug: scalr-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-projects-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-projects-api-openapi.yml
 - filename: scalr-role-categories-api-openapi.yml
   format: yaml
   label: Scalr Role Categories API
   slug: scalr-role-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-role-categories-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-role-categories-api-openapi.yml
 - filename: scalr-roles-api-openapi.yml
   format: yaml
   label: Scalr Roles API
   slug: scalr-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-roles-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-roles-api-openapi.yml
 - filename: scalr-scaling-metrics-api-openapi.yml
   format: yaml
   label: Scalr Scaling Metrics API
   slug: scalr-scaling-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-scaling-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-scaling-metrics-api-openapi.yml
 - filename: scalr-script-executions-api-openapi.yml
   format: yaml
   label: Scalr Script Executions API
   slug: scalr-script-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-script-executions-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-script-executions-api-openapi.yml
 - filename: scalr-scripts-api-openapi.yml
   format: yaml
   label: Scalr Scripts API
   slug: scalr-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-scripts-api-openapi.yml
 - filename: scalr-servers-api-openapi.yml
   format: yaml
   label: Scalr Servers API
   slug: scalr-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-servers-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-servers-api-openapi.yml
 - filename: scalr-teams-api-openapi.yml
   format: yaml
   label: Scalr Teams API
   slug: scalr-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-teams-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-teams-api-openapi.yml
 - filename: scalr-users-api-openapi.yml
   format: yaml
   label: Scalr Users API
   slug: scalr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-users-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-users-api-openapi.yml
 - filename: scalr-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Scalr Webhook Endpoints API
   slug: scalr-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/openapi/scalr-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/scalr/openapi/scalr-webhook-endpoints-api-openapi.yml
 consequence_counts:
   read: 128
   safety-critical: 3
@@ -231,8 +231,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scalr-
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{accountId}/users/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/webhook-endpoints/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ansible-tower/configurations/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ansible-tower/configurations/\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ansible-tower/configurations/{ansibleTowerConfigurationId}/\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ansible-tower/configurations/{ansibleTowerConfigurationId}/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ansible-tower/configurations/{ansibleTowerConfigurationId}/\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ansible-tower/servers/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloud-credentials/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloud-credentials/\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cloud-credentials/{cloudCredentialsId}/\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
-  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cloud-credentials/{cloudCredentialsId}/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloud-credentials/{cloudCredentialsId}/\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global-variables/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (84 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/agentic-access/scalr-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/agentic-access/scalr-agentic-access.yml
+  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cloud-credentials/{cloudCredentialsId}/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloud-credentials/{cloudCredentialsId}/\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global-variables/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (84 KB total) ---\n# Full source: https://artifacts.apis.io/scalr/agentic-access/scalr-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/scalr/agentic-access/scalr-agentic-access.yml
 summary_line: 310 operations · 182 acting · 3 human-in-the-loop
 tags:
 - FinOps

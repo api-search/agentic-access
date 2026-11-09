@@ -9,31 +9,31 @@ api_specs:
   label: Esri Auth API
   slug: esri-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-auth-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-auth-api-openapi.yml
 - filename: esri-geocoding-api-openapi.yml
   format: yaml
   label: Esri Geocoding API
   slug: esri-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-geocoding-api-openapi.yml
 - filename: esri-routing-api-openapi.yml
   format: yaml
   label: Esri Routing API
   slug: esri-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-routing-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-routing-api-openapi.yml
 - filename: esri-places-api-openapi.yml
   format: yaml
   label: Esri Places API
   slug: esri-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-places-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-places-api-openapi.yml
 - filename: esri-portal-api-openapi.yml
   format: yaml
   label: Esri Portal API
   slug: esri-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-portal-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-portal-api-openapi.yml
 consequence_counts:
   read: 13
   write: 2
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/esri-a
   \ /community/users/{username}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n- path: /content/users/{username}/items\n  method: get\n  operationId: getUserItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n- path: /content/items/{itemId}\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n- path: /search\n  method: get\n  operationId: searchPortal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n- path: /sharing/rest/oauth2/token\n\
   \  method: post\n  operationId: getOAuthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /World/GeocodeServer/findAddressCandidates\n  method: get\n  operationId: findAddressCandidates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /World/GeocodeServer/geocodeAddresses\n  method: post\n  operationId: geocodeAddresses\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /World/GeocodeServer/reverseGeocode\n  method:\
   \ get\n  operationId: reverseGeocode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /World/GeocodeServer/suggest\n  method: get\n  operationId: suggestAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /World/Route/NAServer/Route_World/solve\n  method: get\n  operationId: solveRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/agentic-access/esri-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/esri/agentic-access/esri-agentic-access.yml
 summary_line: 15 operations · 2 acting
 tags:
 - Geographic

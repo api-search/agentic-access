@@ -9,73 +9,73 @@ api_specs:
   label: Dialpad Calls API
   slug: dialpad-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-calls-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-calls-api-openapi.yml
 - filename: dialpad-users-api-openapi.yml
   format: yaml
   label: Dialpad Users API
   slug: dialpad-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-users-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-users-api-openapi.yml
 - filename: dialpad-asyncapi.yml
   format: yaml
   label: Dialpad Webhooks API
   slug: dialpad-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-asyncapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-asyncapi.yml
 - filename: dialpad-calls-api-openapi.yml
   format: yaml
   label: Dialpad Calls API
   slug: dialpad-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-calls-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-calls-api-openapi.yml
 - filename: dialpad-contacts-api-openapi.yml
   format: yaml
   label: Dialpad Contacts API
   slug: dialpad-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-contacts-api-openapi.yml
 - filename: dialpad-offices-api-openapi.yml
   format: yaml
   label: Dialpad Offices API
   slug: dialpad-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-offices-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-offices-api-openapi.yml
 - filename: dialpad-recordings-api-openapi.yml
   format: yaml
   label: Dialpad Recordings API
   slug: dialpad-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-recordings-api-openapi.yml
 - filename: dialpad-rooms-api-openapi.yml
   format: yaml
   label: Dialpad Rooms API
   slug: dialpad-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-rooms-api-openapi.yml
 - filename: dialpad-subscriptions-api-openapi.yml
   format: yaml
   label: Dialpad Subscriptions API
   slug: dialpad-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-subscriptions-api-openapi.yml
 - filename: dialpad-transcripts-api-openapi.yml
   format: yaml
   label: Dialpad Transcripts API
   slug: dialpad-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-transcripts-api-openapi.yml
 - filename: dialpad-users-api-openapi.yml
   format: yaml
   label: Dialpad Users API
   slug: dialpad-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-users-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-users-api-openapi.yml
 - filename: dialpad-webhooks-api-openapi.yml
   format: yaml
   label: Dialpad Webhooks API
   slug: dialpad-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/openapi/dialpad-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dialpad/openapi/dialpad-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 15
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dialpa
   \      - abnormal\n      - high-value\n    audit: required\n- path: /recording_share_link/{id}\n  method: get\n  operationId: getRecordingShareLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_call_event_subscription\n  method: post\n  operationId: subscribeCallEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_sms_event_subscription\n  method: post\n  operationId: subscribeSmsEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_contact_event_subscription\n  method: post\n  operationId: subscribeContactEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/agentic-access/dialpad-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dialpad/agentic-access/dialpad-agentic-access.yml
 summary_line: 38 operations · 23 acting · 1 human-in-the-loop
 tags:
 - Communications

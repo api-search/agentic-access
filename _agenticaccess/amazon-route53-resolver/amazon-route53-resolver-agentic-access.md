@@ -9,7 +9,25 @@ api_specs:
   label: Amazon Route 53 Resolver Amazon Route 53 Resolver API
   slug: amazon-route53-resolver-amazon-route-53-resolver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/openapi/amazon-route53-resolver-amazon-route-53-resolver-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-route53-resolver/openapi/amazon-route53-resolver-amazon-route-53-resolver-api-openapi.yml
+- filename: amazon-route53-resolver-firewall-rule-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Resolver Route53 Resolver Firewall Rule API
+  slug: amazon-route53-resolver-firewall-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route53-resolver/openapi/amazon-route53-resolver-firewall-rule-api-openapi.yml
+- filename: amazon-route53-resolver-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Resolver Route53 Resolver Operations API
+  slug: amazon-route53-resolver-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route53-resolver/openapi/amazon-route53-resolver-operations-api-openapi.yml
+- filename: amazon-route53-resolver-outpost-resolver-api-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Resolver Route53 Resolver Outpost Resolver API
+  slug: amazon-route53-resolver-outpost-resolver-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-route53-resolver/openapi/amazon-route53-resolver-outpost-resolver-api-openapi.yml
 consequence_counts:
   read: 29
   write: 34
@@ -64,9 +82,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Route53Resolver.UpdateFirewallRuleGroupAssociation\n  method: post\n  operationId: UpdateFirewallRuleGroupAssociation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Route53Resolver.UpdateResolverConfig\n  method: post\n  operationId: UpdateResolverConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Route53Resolver.UpdateResolverDnssecConfig\n  method: post\n  operationId: UpdateResolverDnssecConfig\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Route53Resolver.UpdateResolverEndpoint\n  method: post\n  operationId: UpdateResolverEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Route53Resolver.UpdateResolverRule\n  method: post\n  operationId: UpdateResolverRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/agentic-access/amazon-route53-resolver-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-route53-resolver/agentic-access/amazon-route53-resolver-agentic-access.yml
 summary_line: 63 operations · 34 acting
 tags:
+- Amazon Web Services
 - DNS
 - Hybrid Cloud
 - Networking

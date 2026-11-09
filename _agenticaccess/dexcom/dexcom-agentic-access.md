@@ -9,43 +9,43 @@ api_specs:
   label: Dexcom Alerts API
   slug: dexcom-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-alerts-api-openapi.yml
 - filename: dexcom-authentication-api-openapi.yml
   format: yaml
   label: Dexcom Authentication API
   slug: dexcom-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-authentication-api-openapi.yml
 - filename: dexcom-calibrations-api-openapi.yml
   format: yaml
   label: Dexcom Calibrations API
   slug: dexcom-calibrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-calibrations-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-calibrations-api-openapi.yml
 - filename: dexcom-data-range-api-openapi.yml
   format: yaml
   label: Dexcom Data Range API
   slug: dexcom-data-range-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-data-range-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-data-range-api-openapi.yml
 - filename: dexcom-devices-api-openapi.yml
   format: yaml
   label: Dexcom Devices API
   slug: dexcom-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-devices-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-devices-api-openapi.yml
 - filename: dexcom-estimated-glucose-values-api-openapi.yml
   format: yaml
   label: Dexcom Estimated Glucose Values API
   slug: dexcom-estimated-glucose-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-estimated-glucose-values-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-estimated-glucose-values-api-openapi.yml
 - filename: dexcom-events-api-openapi.yml
   format: yaml
   label: Dexcom Events API
   slug: dexcom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-events-api-openapi.yml
+  url: https://artifacts.apis.io/dexcom/openapi/dexcom-events-api-openapi.yml
 consequence_counts:
   read: 7
   write: 1
@@ -74,7 +74,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dexcom-dexcom-api.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 7\n    acting: 1\n  by_consequence:\n    read: 7\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/oauth2/login\n  method: get\n  operationId: userAuthorization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/oauth2/token\n  method: post\n  operationId: exchangeAuthorizationCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/users/self/dataRange\n  method: get\n  operationId: getDataRangeV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/users/self/egvs\n  method: get\n  operationId: getEgvsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/users/self/events\n  method: get\n  operationId: getEventsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/users/self/calibrations\n  method: get\n  operationId: getCalibrationsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v3/users/self/alerts\n  method: get\n  operationId: getAlertsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/users/self/devices\n  method: get\n  operationId: getDevicesV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/agentic-access/dexcom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dexcom/agentic-access/dexcom-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
 - Continuous Glucose Monitoring

@@ -9,85 +9,85 @@ api_specs:
   label: Virtru authorization.AuthorizationService API
   slug: virtru-authorization-authorizationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-authorization-authorizationservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-authorization-authorizationservice-api-openapi.yml
 - filename: virtru-authorization-v2-authorizationservice-api-openapi.yml
   format: yaml
   label: Virtru authorization.v2.AuthorizationService API
   slug: virtru-authorization-v2-authorizationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-authorization-v2-authorizationservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-authorization-v2-authorizationservice-api-openapi.yml
 - filename: virtru-entityresolution-v2-entityresolutionservice-api-openapi.yml
   format: yaml
   label: Virtru Entityresolution.v2.Entity Resolution Service API
   slug: virtru-entityresolution-v2-entityresolutionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-entityresolution-v2-entityresolutionservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-entityresolution-v2-entityresolutionservice-api-openapi.yml
 - filename: virtru-kas-accessservice-api-openapi.yml
   format: yaml
   label: Virtru Kas.Access Service API
   slug: virtru-kas-accessservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-kas-accessservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-kas-accessservice-api-openapi.yml
 - filename: virtru-policy-actions-actionservice-api-openapi.yml
   format: yaml
   label: Virtru Policy.actions.Action Service API
   slug: virtru-policy-actions-actionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-actions-actionservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-policy-actions-actionservice-api-openapi.yml
 - filename: virtru-policy-attributes-attributesservice-api-openapi.yml
   format: yaml
   label: Virtru Policy.attributes.Attributes Service API
   slug: virtru-policy-attributes-attributesservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-attributes-attributesservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-policy-attributes-attributesservice-api-openapi.yml
 - filename: virtru-policy-kasregistry-keyaccessserverregistryservice-api-openapi.yml
   format: yaml
   label: Virtru Policy.kasregistry.Key Access Server Registry Service API
   slug: virtru-policy-kasregistry-keyaccessserverregistryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-kasregistry-keyaccessserverregistryservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-policy-kasregistry-keyaccessserverregistryservice-api-openapi.yml
 - filename: virtru-policy-keymanagement-keymanagementservice-api-openapi.yml
   format: yaml
   label: Virtru Policy.keymanagement.Key Management Service API
   slug: virtru-policy-keymanagement-keymanagementservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-keymanagement-keymanagementservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-policy-keymanagement-keymanagementservice-api-openapi.yml
 - filename: virtru-policy-namespaces-namespaceservice-api-openapi.yml
   format: yaml
   label: Virtru Policy.namespaces.Namespace Service API
   slug: virtru-policy-namespaces-namespaceservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-namespaces-namespaceservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-policy-namespaces-namespaceservice-api-openapi.yml
 - filename: virtru-policy-obligations-service-api-openapi.yml
   format: yaml
   label: Virtru Policy.obligations.Service API
   slug: virtru-policy-obligations-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-obligations-service-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-policy-obligations-service-api-openapi.yml
 - filename: virtru-policy-registeredresources-registeredresourcesservice-api-openapi.yml
   format: yaml
   label: Virtru Policy.registeredresources.Registered Resources Service API
   slug: virtru-policy-registeredresources-registeredresourcesservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-registeredresources-registeredresourcesservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-policy-registeredresources-registeredresourcesservice-api-openapi.yml
 - filename: virtru-policy-resourcemapping-resourcemappingservice-api-openapi.yml
   format: yaml
   label: Virtru Policy.resourcemapping.Resource Mapping Service API
   slug: virtru-policy-resourcemapping-resourcemappingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-resourcemapping-resourcemappingservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-policy-resourcemapping-resourcemappingservice-api-openapi.yml
 - filename: virtru-policy-subjectmapping-subjectmappingservice-api-openapi.yml
   format: yaml
   label: Virtru Policy.subjectmapping.Subject Mapping Service API
   slug: virtru-policy-subjectmapping-subjectmappingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-policy-subjectmapping-subjectmappingservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-policy-subjectmapping-subjectmappingservice-api-openapi.yml
 - filename: virtru-wellknownconfiguration-wellknownservice-api-openapi.yml
   format: yaml
   label: Virtru Wellknownconfiguration.Well Known Service API
   slug: virtru-wellknownconfiguration-wellknownservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/openapi/virtru-wellknownconfiguration-wellknownservice-api-openapi.yml
+  url: https://artifacts.apis.io/virtru/openapi/virtru-wellknownconfiguration-wellknownservice-api-openapi.yml
 consequence_counts:
   read: 47
   write: 69
@@ -146,8 +146,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/virtru
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policy.obligations.Service/GetObligationTrigger\n  method: post\n  operationId: policy.obligations.Service.GetObligationTrigger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy.obligations.Service/AddObligationTrigger\n  method: post\n  operationId: policy.obligations.Service.AddObligationTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policy.obligations.Service/RemoveObligationTrigger\n\
   \  method: post\n  operationId: policy.obligations.Service.RemoveObligationTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policy.obligations.Service/ListObligationTriggers\n  method: post\n  operationId: policy.obligations.Service.ListObligationTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy.registeredresources.RegisteredResourcesService/CreateRegisteredResource\n  method: post\n  operationId: policy.registeredresources.RegisteredResourcesService.CreateRegisteredResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policy.registeredresources.RegisteredResourcesService/GetRegisteredResource\n  method: post\n  operationId: policy.registeredresources.RegisteredResourcesService.GetRegisteredResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy.registeredresources.RegisteredResourcesService/ListRegisteredResources\n  method: post\n  operationId: policy.registeredresources.RegisteredResourcesService.ListRegisteredResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy.registeredresources.RegisteredResourcesService/UpdateRegisteredResource\n  method: post\n  operationId: policy.registeredresources.RegisteredResourcesService.UpdateRegisteredResource\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/agentic-access/virtru-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/agentic-access/virtru-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://artifacts.apis.io/virtru/agentic-access/virtru-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/virtru/agentic-access/virtru-agentic-access.yml
 summary_line: 116 operations · 69 acting
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Taxi - Describe How Your APIs and Data Relate Conversion API
   slug: taxi-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/openapi/taxi-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/taxi/openapi/taxi-conversion-api-openapi.yml
 - filename: taxi-queries-api-openapi.yml
   format: yaml
   label: Taxi - Describe How Your APIs and Data Relate Queries API
   slug: taxi-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/openapi/taxi-queries-api-openapi.yml
+  url: https://artifacts.apis.io/taxi/openapi/taxi-queries-api-openapi.yml
 - filename: taxi-schemas-api-openapi.yml
   format: yaml
   label: Taxi - Describe How Your APIs and Data Relate Schemas API
   slug: taxi-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/openapi/taxi-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/taxi/openapi/taxi-schemas-api-openapi.yml
 - filename: taxi-services-api-openapi.yml
   format: yaml
   label: Taxi - Describe How Your APIs and Data Relate Services API
   slug: taxi-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/openapi/taxi-services-api-openapi.yml
+  url: https://artifacts.apis.io/taxi/openapi/taxi-services-api-openapi.yml
 - filename: taxi-types-api-openapi.yml
   format: yaml
   label: Taxi - Describe How Your APIs and Data Relate Types API
   slug: taxi-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/openapi/taxi-types-api-openapi.yml
+  url: https://artifacts.apis.io/taxi/openapi/taxi-types-api-openapi.yml
 consequence_counts:
   read: 7
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/taxi-l
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schemas/{schema_id}\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/compile\n  method: post\n  operationId: compileSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /queries\n  method: post\n  operationId: executeQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /queries/{query_id}\n\
   \  method: get\n  operationId: getQueryStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /types\n  method: get\n  operationId: listTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /types/{qualified_name}\n  method: get\n  operationId: getType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{service_name}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /convert/openapi\n  method: post\n  operationId: convertFromOpenApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/agentic-access/taxi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/taxi/agentic-access/taxi-agentic-access.yml
 summary_line: 11 operations · 4 acting
 tags:
 - API Description

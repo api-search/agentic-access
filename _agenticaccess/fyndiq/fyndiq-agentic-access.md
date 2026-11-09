@@ -9,67 +9,67 @@ api_specs:
   label: Fyndiq Articles API
   slug: fyndiq-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-articles-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-articles-api-openapi.yml
 - filename: fyndiq-orders-api-openapi.yml
   format: yaml
   label: Fyndiq Orders API
   slug: fyndiq-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-orders-api-openapi.yml
 - filename: fyndiq-carrier-codes-api-openapi.yml
   format: yaml
   label: Fyndiq Carrier Codes API
   slug: fyndiq-carrier-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-carrier-codes-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-carrier-codes-api-openapi.yml
 - filename: fyndiq-categories-api-openapi.yml
   format: yaml
   label: Fyndiq Categories API
   slug: fyndiq-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-categories-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-categories-api-openapi.yml
 - filename: fyndiq-financial-reports-api-openapi.yml
   format: yaml
   label: Fyndiq Financial Reports API
   slug: fyndiq-financial-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-financial-reports-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-financial-reports-api-openapi.yml
 - filename: fyndiq-health-api-openapi.yml
   format: yaml
   label: Fyndiq Health API
   slug: fyndiq-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-health-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-health-api-openapi.yml
 - filename: fyndiq-jobs-api-openapi.yml
   format: yaml
   label: Fyndiq Jobs API
   slug: fyndiq-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-jobs-api-openapi.yml
 - filename: fyndiq-merchant-api-openapi.yml
   format: yaml
   label: Fyndiq Merchant API
   slug: fyndiq-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-merchant-api-openapi.yml
 - filename: fyndiq-sales-funnels-api-openapi.yml
   format: yaml
   label: Fyndiq Sales Funnels API
   slug: fyndiq-sales-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-sales-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-sales-funnels-api-openapi.yml
 - filename: fyndiq-shipping-configurations-api-openapi.yml
   format: yaml
   label: Fyndiq Shipping Configurations API
   slug: fyndiq-shipping-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-shipping-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-shipping-configurations-api-openapi.yml
 - filename: fyndiq-statuses-api-openapi.yml
   format: yaml
   label: Fyndiq Statuses API
   slug: fyndiq-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/fyndiq/openapi/fyndiq-statuses-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/fyndiq
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /articles/{article_id}/quantity\n  method: put\n  operationId: updateArticleQuantity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /articles/sku/{sku}\n  method: get\n  operationId: retrieveArticleBySku\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories/{market}/{language}\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: listOrders\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createTestOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{order_id}\n  method: get\n  operationId: retrieveOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_id}/fulfill\n  method: put\n  operationId: fulfillOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{order_id}/cancel\n  method: put\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/agentic-access/fyndiq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fyndiq/agentic-access/fyndiq-agentic-access.yml
 summary_line: 16 operations · 10 acting
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Holistics Data Pipeline API
   slug: holistics-data-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-data-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-data-pipeline-api-openapi.yml
 - filename: holistics-datasets-api-openapi.yml
   format: yaml
   label: Holistics Datasets API
   slug: holistics-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-datasets-api-openapi.yml
 - filename: holistics-export-api-openapi.yml
   format: yaml
   label: Holistics Export API
   slug: holistics-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-export-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-export-api-openapi.yml
 - filename: holistics-jobs-api-openapi.yml
   format: yaml
   label: Holistics Jobs API
   slug: holistics-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-jobs-api-openapi.yml
 - filename: holistics-reports-api-openapi.yml
   format: yaml
   label: Holistics Reports API
   slug: holistics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/openapi/holistics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/holistics/openapi/holistics-reports-api-openapi.yml
 consequence_counts:
   read: 10
   write: 3
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/holist
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data_sets/{id}/generate_sql\n  method: post\n  operationId: generateDataSetSql\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /queries/{report_id}/submit_export.{format}\n  method: get\n  operationId: submitReportExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/get_export_results.json\n  method: get\n  operationId: getExportResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exports/download\n\
   \  method: get\n  operationId: downloadExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{job_id}/logs.json\n  method: get\n  operationId: getJobLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/last_run_jobs.json\n  method: get\n  operationId: getLastRunJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/{report_id}/submit_query.json\n  method: get\n  operationId: submitReportQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/get_query_results.json\n  method: get\n  operationId: getQueryResults\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/agentic-access/holistics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/holistics/agentic-access/holistics-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - Business Intelligence

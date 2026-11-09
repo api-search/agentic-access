@@ -9,19 +9,19 @@ api_specs:
   label: Airbyte Airbyte Marketing Site API
   slug: airbyte-airbyte-marketing-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/openapi/airbyte-airbyte-marketing-site-api-openapi.yml
+  url: https://artifacts.apis.io/airbyte/openapi/airbyte-airbyte-marketing-site-api-openapi.yml
 - filename: airbyte-well-known-api-openapi.yml
   format: yaml
   label: Airbyte .well Known API
   slug: airbyte-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/openapi/airbyte-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/airbyte/openapi/airbyte-well-known-api-openapi.yml
 - filename: airbyte-x402-api-openapi.yml
   format: yaml
   label: Airbyte X402 API
   slug: airbyte-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/openapi/airbyte-x402-api-openapi.yml
+  url: https://artifacts.apis.io/airbyte/openapi/airbyte-x402-api-openapi.yml
 consequence_counts:
   read: 39
   safety-critical: 4
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/airbyt
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{tagId}\n  method: patch\n  operationId: updateTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsersWithinAnOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}\n  method: patch\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}\n\
   \  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/oauthCredentials\n  method: put\n  operationId: createOrUpdateWorkspaceOAuthCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/agentic-access/airbyte-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airbyte/agentic-access/airbyte-agentic-access.yml
 summary_line: 91 operations · 52 acting · 4 human-in-the-loop
 tags:
 - Data Integration

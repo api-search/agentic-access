@@ -9,43 +9,43 @@ api_specs:
   label: ActiveFence api keys API
   slug: activefence-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/openapi/activefence-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/activefence/openapi/activefence-api-keys-api-openapi.yml
 - filename: activefence-collection-api-openapi.yml
   format: yaml
   label: ActiveFence Collection API
   slug: activefence-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/openapi/activefence-collection-api-openapi.yml
+  url: https://artifacts.apis.io/activefence/openapi/activefence-collection-api-openapi.yml
 - filename: activefence-content-api-openapi.yml
   format: yaml
   label: ActiveFence Content API
   slug: activefence-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/openapi/activefence-content-api-openapi.yml
+  url: https://artifacts.apis.io/activefence/openapi/activefence-content-api-openapi.yml
 - filename: activefence-flags-api-openapi.yml
   format: yaml
   label: ActiveFence Flags API
   slug: activefence-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/openapi/activefence-flags-api-openapi.yml
+  url: https://artifacts.apis.io/activefence/openapi/activefence-flags-api-openapi.yml
 - filename: activefence-users-api-openapi.yml
   format: yaml
   label: ActiveFence Users API
   slug: activefence-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/openapi/activefence-users-api-openapi.yml
+  url: https://artifacts.apis.io/activefence/openapi/activefence-users-api-openapi.yml
 - filename: activefence-wonderbuild-api-openapi.yml
   format: yaml
   label: ActiveFence Wonder Build API
   slug: activefence-wonderbuild-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/openapi/activefence-wonderbuild-api-openapi.yml
+  url: https://artifacts.apis.io/activefence/openapi/activefence-wonderbuild-api-openapi.yml
 - filename: activefence-wonderfence-api-openapi.yml
   format: yaml
   label: ActiveFence Wonder Fence API
   slug: activefence-wonderfence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/openapi/activefence-wonderfence-api-openapi.yml
+  url: https://artifacts.apis.io/activefence/openapi/activefence-wonderfence-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 1
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/active
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/apikeys\n  method: post\n  operationId: post-generate-api-key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/apikeys\n  method: get\n  operationId: get-api-keys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/apikeys/{id}\n  method: delete\n  operationId: delete-api-key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /v1/evaluate/message\n  method: post\n  operationId: post-genai-evaluate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /redteam/assessments/\n  method: get\n  operationId: get-assessments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /redteam/assessments/run/{id}\n  method: post\n  operationId: run-assessment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /redteam/assessments/cloneAndRun/{id}\n  method: post\n  operationId: clone-and-run-assessment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /redteam/assessments/runFromPreset\n  method: post\n  operationId: run-assessment-preset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/agentic-access/activefence-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/activefence/agentic-access/activefence-agentic-access.yml
 summary_line: 18 operations · 16 acting · 1 human-in-the-loop
 tags:
 - AI Safety

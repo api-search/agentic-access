@@ -9,13 +9,13 @@ api_specs:
   label: Resistant AI Submission API
   slug: resistant-ai-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-submission-api-openapi.yml
+  url: https://artifacts.apis.io/resistant-ai/openapi/resistant-ai-submission-api-openapi.yml
 - filename: resistant-ai-tenants-api-openapi.yml
   format: yaml
   label: Resistant AI Tenants API
   slug: resistant-ai-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/resistant-ai/openapi/resistant-ai-tenants-api-openapi.yml
 consequence_counts:
   read: 11
   write: 8
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/resist
   \ optional\n    scope:\n    - submissions.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tenants\n  method: post\n  operationId: createTenant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tenants.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tenants\n  method: get\n  operationId: getTenants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tenants.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tenants/{tenant_id}\n  method: get\n  operationId: getTenant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tenants.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tenants/{tenant_id}\n  method: delete\n\
   \  operationId: deleteTenant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tenants.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tenants/{tenant_id}/applications\n  method: get\n  operationId: getTenantApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tenants.applications.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tenants/{tenant_id}/applications\n  method: post\n  operationId: createTenantApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tenants.applications.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /tenants/{tenant_id}/applications/{application_id}\n  method: get\n  operationId: getTenantApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tenants.applications.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tenants/{tenant_id}/applications/{application_id}\n  method: delete\n  operationId: deleteTenantApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tenants.applications.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/agentic-access/resistant-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/resistant-ai/agentic-access/resistant-ai-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Company

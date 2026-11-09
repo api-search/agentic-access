@@ -9,49 +9,49 @@ api_specs:
   label: Pismo Accounts API
   slug: pismo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-accounts-api-openapi.yml
 - filename: pismo-authorizations-api-openapi.yml
   format: yaml
   label: Pismo Authorizations API
   slug: pismo-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-authorizations-api-openapi.yml
 - filename: pismo-cards-api-openapi.yml
   format: yaml
   label: Pismo Cards API
   slug: pismo-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-cards-api-openapi.yml
 - filename: pismo-customers-api-openapi.yml
   format: yaml
   label: Pismo Customers API
   slug: pismo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-customers-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-customers-api-openapi.yml
 - filename: pismo-events-api-openapi.yml
   format: yaml
   label: Pismo Events API
   slug: pismo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-events-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-events-api-openapi.yml
 - filename: pismo-programs-api-openapi.yml
   format: yaml
   label: Pismo Programs API
   slug: pismo-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-programs-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-programs-api-openapi.yml
 - filename: pismo-statements-api-openapi.yml
   format: yaml
   label: Pismo Statements API
   slug: pismo-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-statements-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-statements-api-openapi.yml
 - filename: pismo-transactions-api-openapi.yml
   format: yaml
   label: Pismo Transactions API
   slug: pismo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pismo-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statements/v1/accounts/{accountId}/next\n  method: get\n  operationId: getCurrentStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statements/v1/accounts/{accountId}/statements/{statementId}\n  method: get\n  operationId: getStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/v2/accounts/{accountId}/statements/{statementId}/transactions\n  method: get\n  operationId: getStatementTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs/v1/programs\n  method: post\n  operationId: createProgram\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /programs/v1/programs/{programId}\n  method: get\n  operationId: getProgram\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/agentic-access/pismo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pismo/agentic-access/pismo-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
 - Banking

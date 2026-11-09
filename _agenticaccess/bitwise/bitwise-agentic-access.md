@@ -8,19 +8,19 @@ api_specs:
   label: Bitwise Funds API
   slug: bitwise-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-funds-api-openapi.yml
+  url: https://artifacts.apis.io/bitwise/openapi/bitwise-funds-api-openapi.yml
 - filename: bitwise-indexes-api-openapi.yml
   format: yaml
   label: Bitwise Indexes API
   slug: bitwise-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/bitwise/openapi/bitwise-indexes-api-openapi.yml
 - filename: bitwise-etfs-api-openapi.yml
   format: yaml
   label: Bitwise ET Fs API
   slug: bitwise-etfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-etfs-api-openapi.yml
+  url: https://artifacts.apis.io/bitwise/openapi/bitwise-etfs-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/bitwise-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/indexes\n  method: get\n  operationId: listIndexes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/indexes/{indexName}/history\n  method: get\n  operationId: getIndexHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/indexes/{indexName}/constituents\n \
   \ method: get\n  operationId: getIndexConstituents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/fundData/{fundName}\n  method: get\n  operationId: getFundData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/etfs\n  method: get\n  operationId: listEtfs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/etf/{etfName}\n  method: get\n  operationId: getEtf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/agentic-access/bitwise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitwise/agentic-access/bitwise-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Company

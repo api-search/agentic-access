@@ -9,37 +9,37 @@ api_specs:
   label: Forto Bookings API
   slug: forto-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-bookings-api-openapi.yml
 - filename: forto-documents-api-openapi.yml
   format: yaml
   label: Forto Documents API
   slug: forto-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-documents-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-documents-api-openapi.yml
 - filename: forto-shipments-api-openapi.yml
   format: yaml
   label: Forto Shipments API
   slug: forto-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-shipments-api-openapi.yml
 - filename: forto-subscriptions-api-openapi.yml
   format: yaml
   label: Forto Subscriptions API
   slug: forto-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-subscriptions-api-openapi.yml
 - filename: forto-tokens-api-openapi.yml
   format: yaml
   label: Forto Tokens API
   slug: forto-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-tokens-api-openapi.yml
 - filename: forto-transportplans-api-openapi.yml
   format: yaml
   label: Forto TransportPlans API
   slug: forto-transportplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/openapi/forto-transportplans-api-openapi.yml
+  url: https://artifacts.apis.io/forto/openapi/forto-transportplans-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/forto-
   \  method: get\n  operationId: listShipmentTransportPlanEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /containers/{containerId}/transport-plan\n  method: get\n  operationId: getContainerTransportPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /containers/{containerId}/transport-plan/events\n  method: get\n  operationId: listContainerTransportPlanEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId:\
   \ createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inbox/events\n  method: get\n  operationId: listInboxEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: get\n  operationId: listTokens\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/{tokenId}\n  method: delete\n  operationId: deleteToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/agentic-access/forto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/forto/agentic-access/forto-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
 - Freight

@@ -9,19 +9,19 @@ api_specs:
   label: Huntington Bancshares Accounts API
   slug: huntington-bancshares-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-accounts-api-openapi.yml
 - filename: huntington-bancshares-payments-api-openapi.yml
   format: yaml
   label: Huntington Bancshares Payments API
   slug: huntington-bancshares-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-payments-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-payments-api-openapi.yml
 - filename: huntington-bancshares-transactions-api-openapi.yml
   format: yaml
   label: Huntington Bancshares Transactions API
   slug: huntington-bancshares-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 3
@@ -54,7 +54,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/huntington-bank-treasury-management-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 3\n    acting: 1\n  by_consequence:\n    read: 3\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /accounts\n  method: get\n  operationId: getAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/balances\n  method: get\n  operationId: getAccountBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /accounts/{accountId}/transactions\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: post\n  operationId: initiatePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/agentic-access/huntington-bancshares-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/huntington-bancshares/agentic-access/huntington-bancshares-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
 - Banking

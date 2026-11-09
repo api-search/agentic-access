@@ -9,43 +9,43 @@ api_specs:
   label: SimpleLocalize Customers API
   slug: simplelocalize-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-customers-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-customers-api-openapi.yml
 - filename: simplelocalize-export-api-openapi.yml
   format: yaml
   label: SimpleLocalize Export API
   slug: simplelocalize-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-export-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-export-api-openapi.yml
 - filename: simplelocalize-import-api-openapi.yml
   format: yaml
   label: SimpleLocalize Import API
   slug: simplelocalize-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-import-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-import-api-openapi.yml
 - filename: simplelocalize-languages-api-openapi.yml
   format: yaml
   label: SimpleLocalize Languages API
   slug: simplelocalize-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-languages-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-languages-api-openapi.yml
 - filename: simplelocalize-projects-api-openapi.yml
   format: yaml
   label: SimpleLocalize Projects API
   slug: simplelocalize-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-projects-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-projects-api-openapi.yml
 - filename: simplelocalize-publication-api-openapi.yml
   format: yaml
   label: SimpleLocalize Publication API
   slug: simplelocalize-publication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-publication-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-publication-api-openapi.yml
 - filename: simplelocalize-translations-api-openapi.yml
   format: yaml
   label: SimpleLocalize Translations API
   slug: simplelocalize-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-translations-api-openapi.yml
+  url: https://artifacts.apis.io/simplelocalize/openapi/simplelocalize-translations-api-openapi.yml
 consequence_counts:
   read: 6
   write: 10
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/simple
   \  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/customers/{customerKey}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/customers/{customerKey}\n  method: patch\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/customers/{customerKey}\n  method: delete\n  operationId: deleteCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/import\n  method: post\n  operationId: importTranslations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/export\n  method: get\n  operationId: exportTranslations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/publish\n  method: post\n  operationId: publishTranslations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/agentic-access/simplelocalize-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simplelocalize/agentic-access/simplelocalize-agentic-access.yml
 summary_line: 16 operations · 10 acting
 tags:
 - Localization

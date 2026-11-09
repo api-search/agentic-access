@@ -9,25 +9,25 @@ api_specs:
   label: Clay Me API
   slug: clay-com-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-me-api-openapi.yml
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-me-api-openapi.yml
 - filename: clay-com-routines-api-openapi.yml
   format: yaml
   label: Clay Routines API
   slug: clay-com-routines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-routines-api-openapi.yml
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-routines-api-openapi.yml
 - filename: clay-com-search-api-openapi.yml
   format: yaml
   label: Clay Search API
   slug: clay-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-search-api-openapi.yml
 - filename: clay-com-tables-api-openapi.yml
   format: yaml
   label: Clay Tables API
   slug: clay-com-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-tables-api-openapi.yml
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-tables-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/clay-c
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /routines/{routine_id}/run-batch/upload-url\n  method: post\n  operationId: runRoutineBatchUploadUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/filters-mode\n  method: post\n  operationId: createFilters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/filters-mode/fields\n  method: get\n  operationId: fields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/filters-mode/{search_id}/run\n  method: post\n  operationId: run\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/query-mode\n  method: post\n  operationId: createQueryMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/query-mode/reference\n  method: get\n  operationId: queryModeReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /search/query-mode/{search_id}/run\n  method: post\n  operationId: runQueryMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/query\n  method: post\n  operationId: query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/agentic-access/clay-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clay-com/agentic-access/clay-com-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Prospecting

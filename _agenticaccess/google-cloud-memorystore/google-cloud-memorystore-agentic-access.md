@@ -9,7 +9,7 @@ api_specs:
   label: Google Cloud Memorystore Instances API
   slug: google-cloud-memorystore-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-memorystore/refs/heads/main/openapi/google-cloud-memorystore-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-memorystore/openapi/google-cloud-memorystore-instances-api-openapi.yml
 consequence_counts:
   read: 2
   write: 5
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloud-
   \    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/locations/{location}/instances/{instance}\n  method: get\n  operationId: getInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project}/locations/{location}/instances/{instance}\n  method: patch\n  operationId: updateInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/locations/{location}/instances/{instance}\n  method: delete\n  operationId: deleteInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/locations/{location}/instances/{instance}:upgrade\n  method: post\n  operationId: upgradeInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /projects/{project}/locations/{location}/instances/{instance}:failover\n  method: post\n  operationId: failoverInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-memorystore/refs/heads/main/agentic-access/google-cloud-memorystore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-memorystore/agentic-access/google-cloud-memorystore-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
 - Cache

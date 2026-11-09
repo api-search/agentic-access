@@ -9,25 +9,25 @@ api_specs:
   label: Intuit Customers API
   slug: intuit-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/intuit-customers-api-openapi.yml
+  url: https://artifacts.apis.io/intuit/openapi/intuit-customers-api-openapi.yml
 - filename: intuit-invoices-api-openapi.yml
   format: yaml
   label: Intuit Invoices API
   slug: intuit-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/intuit-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/intuit/openapi/intuit-invoices-api-openapi.yml
 - filename: intuit-items-api-openapi.yml
   format: yaml
   label: Intuit Items API
   slug: intuit-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/intuit-items-api-openapi.yml
+  url: https://artifacts.apis.io/intuit/openapi/intuit-items-api-openapi.yml
 - filename: intuit-payments-api-openapi.yml
   format: yaml
   label: Intuit Payments API
   slug: intuit-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/intuit-payments-api-openapi.yml
+  url: https://artifacts.apis.io/intuit/openapi/intuit-payments-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 6
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quickb
   \      - abnormal\n      - high-value\n    audit: required\n- path: /item/{itemId}\n  method: get\n  operationId: readItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /item/{itemId}\n  method: post\n  operationId: updateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /payment/{paymentId}\n  method: get\n  operationId: readPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment/{paymentId}\n  method: post\n  operationId: updatePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment/{paymentId}/void\n  method: post\n  operationId: voidPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/agentic-access/intuit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/intuit/agentic-access/intuit-agentic-access.yml
 summary_line: 17 operations · 11 acting
 tags:
 - Accounting

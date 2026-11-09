@@ -9,37 +9,37 @@ api_specs:
   label: Infoblox DHCP API
   slug: infoblox-dhcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dhcp-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dhcp-api-openapi.yml
 - filename: infoblox-dns-records-api-openapi.yml
   format: yaml
   label: Infoblox DNS Records API
   slug: infoblox-dns-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-records-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dns-records-api-openapi.yml
 - filename: infoblox-dns-zones-api-openapi.yml
   format: yaml
   label: Infoblox DNS Zones API
   slug: infoblox-dns-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-zones-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dns-zones-api-openapi.yml
 - filename: infoblox-grid-api-openapi.yml
   format: yaml
   label: Infoblox Grid API
   slug: infoblox-grid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-grid-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-grid-api-openapi.yml
 - filename: infoblox-ip-address-management-api-openapi.yml
   format: yaml
   label: Infoblox IP Address Management API
   slug: infoblox-ip-address-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-ip-address-management-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-ip-address-management-api-openapi.yml
 - filename: infoblox-networks-api-openapi.yml
   format: yaml
   label: Infoblox Networks API
   slug: infoblox-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-networks-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-networks-api-openapi.yml
 consequence_counts:
   read: 18
   write: 13
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/infobl
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network\n  method: get\n  operationId: listNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network\n  method: post\n  operationId: createNetwork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networkview\n  method: get\n  operationId: listNetworkViews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ipv4address\n  method: get\n  operationId: listIPv4Addresses\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /range\n  method: get\n  operationId: listDHCPRanges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /range\n  method: post\n  operationId: createDHCPRange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fixedaddress\n  method: get\n  operationId: listFixedAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fixedaddress\n  method: post\n  operationId: createFixedAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lease\n  method: get\n  operationId: listDHCPLeases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grid\n  method: get\n  operationId: getGrid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/agentic-access/infoblox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/infoblox/agentic-access/infoblox-agentic-access.yml
 summary_line: 31 operations · 13 acting
 tags:
 - Cloud

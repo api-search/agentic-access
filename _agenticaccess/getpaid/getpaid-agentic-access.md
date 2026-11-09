@@ -9,49 +9,49 @@ api_specs:
   label: GetPaid Accounts API
   slug: getpaid-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-accounts-api-openapi.yml
 - filename: getpaid-applications-api-openapi.yml
   format: yaml
   label: GetPaid Applications API
   slug: getpaid-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-applications-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-applications-api-openapi.yml
 - filename: getpaid-authentication-api-openapi.yml
   format: yaml
   label: GetPaid Authentication API
   slug: getpaid-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-authentication-api-openapi.yml
 - filename: getpaid-checkouts-api-openapi.yml
   format: yaml
   label: GetPaid Checkouts API
   slug: getpaid-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-checkouts-api-openapi.yml
 - filename: getpaid-payments-api-openapi.yml
   format: yaml
   label: GetPaid Payments API
   slug: getpaid-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-payments-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-payments-api-openapi.yml
 - filename: getpaid-queries-api-openapi.yml
   format: yaml
   label: GetPaid Queries API
   slug: getpaid-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-queries-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-queries-api-openapi.yml
 - filename: getpaid-accept-payments-webhooks-api-openapi.yml
   format: yaml
   label: GetPaid Accept payments webhooks API
   slug: getpaid-accept-payments-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-accept-payments-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-accept-payments-webhooks-api-openapi.yml
 - filename: getpaid-onboard-sellers-webhooks-api-openapi.yml
   format: yaml
   label: GetPaid Onboard sellers webhooks API
   slug: getpaid-onboard-sellers-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-onboard-sellers-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-onboard-sellers-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/getpai
   \   subject: optional\n    scope:\n    - payments:read\n    - payments:read_write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/checkouts/query\n  method: post\n  operationId: query_checkouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/payments\n  method: post\n  operationId: create_payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments:read_write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/payments/{payment_id}\n  method: get\n  operationId: get_payment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    scope:\n    - payments:read\n    - payments:read_write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/payments/{payment_id}/refunds\n  method: post\n  operationId: refund_payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments:read_write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/payments/query\n  method: post\n  operationId: query_payments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{resource_type}/query\n  method: post\n  operationId: query_resources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    scope:\n    - payments:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/agentic-access/getpaid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/getpaid/agentic-access/getpaid-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - Company

@@ -9,43 +9,43 @@ api_specs:
   label: ScanSource Availability API
   slug: scansource-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-availability-api-openapi.yml
+  url: https://artifacts.apis.io/scansource/openapi/scansource-availability-api-openapi.yml
 - filename: scansource-invoices-api-openapi.yml
   format: yaml
   label: ScanSource Invoices API
   slug: scansource-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/scansource/openapi/scansource-invoices-api-openapi.yml
 - filename: scansource-orders-api-openapi.yml
   format: yaml
   label: ScanSource Orders API
   slug: scansource-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-orders-api-openapi.yml
+  url: https://artifacts.apis.io/scansource/openapi/scansource-orders-api-openapi.yml
 - filename: scansource-pricing-api-openapi.yml
   format: yaml
   label: ScanSource Pricing API
   slug: scansource-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/scansource/openapi/scansource-pricing-api-openapi.yml
 - filename: scansource-products-api-openapi.yml
   format: yaml
   label: ScanSource Products API
   slug: scansource-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-products-api-openapi.yml
+  url: https://artifacts.apis.io/scansource/openapi/scansource-products-api-openapi.yml
 - filename: scansource-shipping-api-openapi.yml
   format: yaml
   label: ScanSource Shipping API
   slug: scansource-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/scansource/openapi/scansource-shipping-api-openapi.yml
 - filename: scansource-tracking-api-openapi.yml
   format: yaml
   label: ScanSource Tracking API
   slug: scansource-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/scansource/openapi/scansource-tracking-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 14
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/scanso
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /salesorder/summary/{customerNumber}\n  method: get\n  operationId: getSalesOrderSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /salesorder/list/{customerNumber}\n  method: get\n  operationId: listSalesOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /salesorder/detail/{customerNumber}/{salesOrderNumber}\n  method: get\n  operationId: getSalesOrderDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /salesorder/cancel\n\
   \  method: delete\n  operationId: cancelSalesOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /product/pricing\n  method: post\n  operationId: getProductPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product/search\n  method: get\n  operationId: searchProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product/detail\n  method: get\n  operationId: getProductDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /salesorder/shipquote\n  method: post\n  operationId: getShippingQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /salesorder/tracking\n  method: get\n  operationId: getOrderTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /salesorder/serials\n  method: get\n  operationId: getSerialNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/agentic-access/scansource-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scansource/agentic-access/scansource-agentic-access.yml
 summary_line: 18 operations · 4 acting
 tags:
 - ScanSource

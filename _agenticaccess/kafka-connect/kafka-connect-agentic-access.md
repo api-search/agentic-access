@@ -9,19 +9,19 @@ api_specs:
   label: Kafka Connect Connector Plugins API
   slug: kafka-connect-connector-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/openapi/kafka-connect-connector-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/kafka-connect/openapi/kafka-connect-connector-plugins-api-openapi.yml
 - filename: kafka-connect-connectors-api-openapi.yml
   format: yaml
   label: Kafka Connect Connectors API
   slug: kafka-connect-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/openapi/kafka-connect-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/kafka-connect/openapi/kafka-connect-connectors-api-openapi.yml
 - filename: kafka-connect-kafka-connect-rest-api-api-openapi.yml
   format: yaml
   label: Kafka Connect Kafka Connect REST API
   slug: kafka-connect-kafka-connect-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/openapi/kafka-connect-kafka-connect-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/kafka-connect/openapi/kafka-connect-kafka-connect-rest-api-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 3
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kafka-
   - path: /connectors/{name}/topics\n  method: get\n  operationId: getConnectorTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectors/{name}/topics/reset\n  method: put\n  operationId: resetConnectorTopics\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /connectors/{connector}/offsets\n  method: get\n  operationId: getConnectorOffsets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectors/{connector}/offsets\n  method: patch\n  operationId: alterConnectorOffsets\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectors/{connector}/offsets\n  method: delete\n  operationId: deleteConnectorOffsets\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /connector-plugins\n  method: get\n  operationId: listConnectorPlugins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connector-plugins/{name}/config/validate\n  method: put\n  operationId: validateConnectorConfig\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/agentic-access/kafka-connect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kafka-connect/agentic-access/kafka-connect-agentic-access.yml
 summary_line: 22 operations · 12 acting · 3 human-in-the-loop
 tags:
 - Apache Kafka

@@ -9,73 +9,73 @@ api_specs:
   label: UptimeRobot Alert Contacts API
   slug: uptimerobot-alert-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-alert-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-alert-contacts-api-openapi.yml
 - filename: uptimerobot-incidents-api-openapi.yml
   format: yaml
   label: UptimeRobot Incidents API
   slug: uptimerobot-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-incidents-api-openapi.yml
 - filename: uptimerobot-integrations-api-openapi.yml
   format: yaml
   label: UptimeRobot Integrations API
   slug: uptimerobot-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-integrations-api-openapi.yml
 - filename: uptimerobot-maintenance-windows-api-openapi.yml
   format: yaml
   label: UptimeRobot Maintenance Windows API
   slug: uptimerobot-maintenance-windows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-maintenance-windows-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-maintenance-windows-api-openapi.yml
 - filename: uptimerobot-monitor-groups-api-openapi.yml
   format: yaml
   label: UptimeRobot Monitor Groups API
   slug: uptimerobot-monitor-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-monitor-groups-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-monitor-groups-api-openapi.yml
 - filename: uptimerobot-monitors-api-openapi.yml
   format: yaml
   label: UptimeRobot Monitors API
   slug: uptimerobot-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-monitors-api-openapi.yml
 - filename: uptimerobot-monitors-bulk-operations-api-openapi.yml
   format: yaml
   label: UptimeRobot Monitors - Bulk Operations API
   slug: uptimerobot-monitors-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-monitors-bulk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-monitors-bulk-operations-api-openapi.yml
 - filename: uptimerobot-psp-announcements-api-openapi.yml
   format: yaml
   label: UptimeRobot PSP Announcements API
   slug: uptimerobot-psp-announcements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-psp-announcements-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-psp-announcements-api-openapi.yml
 - filename: uptimerobot-public-status-pages-api-openapi.yml
   format: yaml
   label: UptimeRobot Public Status Pages API
   slug: uptimerobot-public-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-public-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-public-status-pages-api-openapi.yml
 - filename: uptimerobot-storm-protection-api-openapi.yml
   format: yaml
   label: UptimeRobot Storm Protection API
   slug: uptimerobot-storm-protection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-storm-protection-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-storm-protection-api-openapi.yml
 - filename: uptimerobot-tags-api-openapi.yml
   format: yaml
   label: UptimeRobot Tags API
   slug: uptimerobot-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-tags-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-tags-api-openapi.yml
 - filename: uptimerobot-user-api-openapi.yml
   format: yaml
   label: UptimeRobot User API
   slug: uptimerobot-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/openapi/uptimerobot-user-api-openapi.yml
+  url: https://artifacts.apis.io/uptimerobot/openapi/uptimerobot-user-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 34
@@ -251,7 +251,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/uptime
   \   audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /alert-contacts\n  method: get\n  operationId: AlertContactsController_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alert-contacts\n  method: post\n  operationId: AlertContactsController_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /alert-contacts/{id}\n  method: get\n  operationId: AlertContactsController_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alert-contacts/{id}\n  method: patch\n  operationId: AlertContactsController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /alert-contacts/{id}\n  method: delete\n  operationId: AlertContactsController_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tags\n  method: get\n  operationId: TagsController_getTags\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{id}\n  method: delete\n  operationId: TagsController_deleteTag\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptimerobot/refs/heads/main/agentic-access/uptimerobot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uptimerobot/agentic-access/uptimerobot-agentic-access.yml
 summary_line: 64 operations · 34 acting · 34 human-in-the-loop
 tags:
 - Uptime Monitoring

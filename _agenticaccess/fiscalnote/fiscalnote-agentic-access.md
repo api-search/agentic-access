@@ -8,79 +8,79 @@ api_specs:
   label: FiscalNote Bills API
   slug: fiscalnote-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-bills-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-bills-api-openapi.yml
 - filename: fiscalnote-committees-api-openapi.yml
   format: yaml
   label: FiscalNote Committees API
   slug: fiscalnote-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-committees-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-committees-api-openapi.yml
 - filename: fiscalnote-issues-api-openapi.yml
   format: yaml
   label: FiscalNote Issues API
   slug: fiscalnote-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-issues-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-issues-api-openapi.yml
 - filename: fiscalnote-labels-api-openapi.yml
   format: yaml
   label: FiscalNote Labels API
   slug: fiscalnote-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-labels-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-labels-api-openapi.yml
 - filename: fiscalnote-legislation-api-openapi.yml
   format: yaml
   label: FiscalNote Legislation API
   slug: fiscalnote-legislation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-legislation-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-legislation-api-openapi.yml
 - filename: fiscalnote-legislators-api-openapi.yml
   format: yaml
   label: FiscalNote Legislators API
   slug: fiscalnote-legislators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-legislators-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-legislators-api-openapi.yml
 - filename: fiscalnote-officials-api-openapi.yml
   format: yaml
   label: FiscalNote Officials API
   slug: fiscalnote-officials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-officials-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-officials-api-openapi.yml
 - filename: fiscalnote-organizations-api-openapi.yml
   format: yaml
   label: FiscalNote Organizations API
   slug: fiscalnote-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-organizations-api-openapi.yml
 - filename: fiscalnote-policy-intelligence-api-openapi.yml
   format: yaml
   label: FiscalNote Policy Intelligence API
   slug: fiscalnote-policy-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-policy-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-policy-intelligence-api-openapi.yml
 - filename: fiscalnote-presidential-transcripts-api-openapi.yml
   format: yaml
   label: FiscalNote Presidential Transcripts API
   slug: fiscalnote-presidential-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-presidential-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-presidential-transcripts-api-openapi.yml
 - filename: fiscalnote-regulations-api-openapi.yml
   format: yaml
   label: FiscalNote Regulations API
   slug: fiscalnote-regulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-regulations-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-regulations-api-openapi.yml
 - filename: fiscalnote-regulatory-documents-api-openapi.yml
   format: yaml
   label: FiscalNote Regulatory Documents API
   slug: fiscalnote-regulatory-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-regulatory-documents-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-regulatory-documents-api-openapi.yml
 - filename: fiscalnote-stakeholders-api-openapi.yml
   format: yaml
   label: FiscalNote Stakeholders API
   slug: fiscalnote-stakeholders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/openapi/fiscalnote-stakeholders-api-openapi.yml
+  url: https://artifacts.apis.io/fiscalnote/openapi/fiscalnote-stakeholders-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fiscal
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/v2/legislators\n  method: get\n  operationId: listLegislators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/v2/legislators/{legislatorId}\n  method: get\n  operationId: getLegislator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/v2/legislators/{legislatorId}/votes\n  method: get\n  operationId: listLegislatorVotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policynote/v1/legislation\n  method: get\n  operationId: listLegislation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /policynote/v1/legislation/{legislationId}\n  method: get\n  operationId: getLegislation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policynote/v1/regulations\n  method: get\n  operationId: listRegulations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policynote/v1/regulations/{regulationId}\n  method: get\n  operationId: getRegulation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policynote/v1/stakeholders\n  method: get\n  operationId: listStakeholders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policynote/v1/transcripts\n\
   \  method: get\n  operationId: listPresidentialTranscripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policynote/v1/transcripts/{transcriptId}\n  method: get\n  operationId: getPresidentialTranscript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policynote/v1/intelligence/impact\n  method: get\n  operationId: listPolicyImpactSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/agentic-access/fiscalnote-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fiscalnote/agentic-access/fiscalnote-agentic-access.yml
 summary_line: 26 operations
 tags:
 - Government

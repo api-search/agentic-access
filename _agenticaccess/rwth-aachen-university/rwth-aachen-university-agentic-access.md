@@ -9,283 +9,283 @@ api_specs:
   label: RWTH Aachen University Admin API
   slug: rwth-aachen-university-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-admin-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-admin-api-openapi.yml
 - filename: rwth-aachen-university-applicationprofile-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ApplicationProfile API
   slug: rwth-aachen-university-applicationprofile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-applicationprofile-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-applicationprofile-api-openapi.yml
 - filename: rwth-aachen-university-blob-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Blob API
   slug: rwth-aachen-university-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-blob-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-blob-api-openapi.yml
 - filename: rwth-aachen-university-datahamsterreport-api-openapi.yml
   format: yaml
   label: RWTH Aachen University DataHamsterReport API
   slug: rwth-aachen-university-datahamsterreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-datahamsterreport-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-datahamsterreport-api-openapi.yml
 - filename: rwth-aachen-university-discipline-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Discipline API
   slug: rwth-aachen-university-discipline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-discipline-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-discipline-api-openapi.yml
 - filename: rwth-aachen-university-graph-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Graph API
   slug: rwth-aachen-university-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-graph-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-graph-api-openapi.yml
 - filename: rwth-aachen-university-graphmetadata-api-openapi.yml
   format: yaml
   label: RWTH Aachen University GraphMetadata API
   slug: rwth-aachen-university-graphmetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-graphmetadata-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-graphmetadata-api-openapi.yml
 - filename: rwth-aachen-university-graphmetadatacontent-api-openapi.yml
   format: yaml
   label: RWTH Aachen University GraphMetadataContent API
   slug: rwth-aachen-university-graphmetadatacontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-graphmetadatacontent-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-graphmetadatacontent-api-openapi.yml
 - filename: rwth-aachen-university-handle-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Handle API
   slug: rwth-aachen-university-handle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-handle-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-handle-api-openapi.yml
 - filename: rwth-aachen-university-language-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Language API
   slug: rwth-aachen-university-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-language-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-language-api-openapi.yml
 - filename: rwth-aachen-university-license-api-openapi.yml
   format: yaml
   label: RWTH Aachen University License API
   slug: rwth-aachen-university-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-license-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-license-api-openapi.yml
 - filename: rwth-aachen-university-maintenance-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Maintenance API
   slug: rwth-aachen-university-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-maintenance-api-openapi.yml
 - filename: rwth-aachen-university-notification-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Notification API
   slug: rwth-aachen-university-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-notification-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-notification-api-openapi.yml
 - filename: rwth-aachen-university-organization-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Organization API
   slug: rwth-aachen-university-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-organization-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-organization-api-openapi.yml
 - filename: rwth-aachen-university-pid-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Pid API
   slug: rwth-aachen-university-pid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-pid-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-pid-api-openapi.yml
 - filename: rwth-aachen-university-project-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Project API
   slug: rwth-aachen-university-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-project-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-project-api-openapi.yml
 - filename: rwth-aachen-university-projectgraphcontent-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ProjectGraphContent API
   slug: rwth-aachen-university-projectgraphcontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-projectgraphcontent-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-projectgraphcontent-api-openapi.yml
 - filename: rwth-aachen-university-projectinvitation-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ProjectInvitation API
   slug: rwth-aachen-university-projectinvitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-projectinvitation-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-projectinvitation-api-openapi.yml
 - filename: rwth-aachen-university-projectmember-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ProjectMember API
   slug: rwth-aachen-university-projectmember-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-projectmember-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-projectmember-api-openapi.yml
 - filename: rwth-aachen-university-projectpublicationrequest-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ProjectPublicationRequest API
   slug: rwth-aachen-university-projectpublicationrequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-projectpublicationrequest-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-projectpublicationrequest-api-openapi.yml
 - filename: rwth-aachen-university-projectquota-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ProjectQuota API
   slug: rwth-aachen-university-projectquota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-projectquota-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-projectquota-api-openapi.yml
 - filename: rwth-aachen-university-projectresource-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ProjectResource API
   slug: rwth-aachen-university-projectresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-projectresource-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-projectresource-api-openapi.yml
 - filename: rwth-aachen-university-projectresourcequota-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ProjectResourceQuota API
   slug: rwth-aachen-university-projectresourcequota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-projectresourcequota-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-projectresourcequota-api-openapi.yml
 - filename: rwth-aachen-university-projectresourcetype-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ProjectResourceType API
   slug: rwth-aachen-university-projectresourcetype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-projectresourcetype-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-projectresourcetype-api-openapi.yml
 - filename: rwth-aachen-university-projectsubprojects-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ProjectSubProjects API
   slug: rwth-aachen-university-projectsubprojects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-projectsubprojects-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-projectsubprojects-api-openapi.yml
 - filename: rwth-aachen-university-provenance-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Provenance API
   slug: rwth-aachen-university-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-provenance-api-openapi.yml
 - filename: rwth-aachen-university-publicationadvisoryservice-api-openapi.yml
   format: yaml
   label: RWTH Aachen University PublicationAdvisoryService API
   slug: rwth-aachen-university-publicationadvisoryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-publicationadvisoryservice-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-publicationadvisoryservice-api-openapi.yml
 - filename: rwth-aachen-university-report-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Report API
   slug: rwth-aachen-university-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-report-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-report-api-openapi.yml
 - filename: rwth-aachen-university-resource-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Resource API
   slug: rwth-aachen-university-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-resource-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-resource-api-openapi.yml
 - filename: rwth-aachen-university-resourcegraphcontent-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ResourceGraphContent API
   slug: rwth-aachen-university-resourcegraphcontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-resourcegraphcontent-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-resourcegraphcontent-api-openapi.yml
 - filename: rwth-aachen-university-resourcetypegitlab-api-openapi.yml
   format: yaml
   label: RWTH Aachen University ResourceTypeGitLab API
   slug: rwth-aachen-university-resourcetypegitlab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-resourcetypegitlab-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-resourcetypegitlab-api-openapi.yml
 - filename: rwth-aachen-university-role-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Role API
   slug: rwth-aachen-university-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-role-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-role-api-openapi.yml
 - filename: rwth-aachen-university-search-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Search API
   slug: rwth-aachen-university-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-search-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-search-api-openapi.yml
 - filename: rwth-aachen-university-self-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Self API
   slug: rwth-aachen-university-self-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-self-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-self-api-openapi.yml
 - filename: rwth-aachen-university-selfsession-api-openapi.yml
   format: yaml
   label: RWTH Aachen University SelfSession API
   slug: rwth-aachen-university-selfsession-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-selfsession-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-selfsession-api-openapi.yml
 - filename: rwth-aachen-university-storage-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Storage API
   slug: rwth-aachen-university-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-storage-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-storage-api-openapi.yml
 - filename: rwth-aachen-university-storagecontent-api-openapi.yml
   format: yaml
   label: RWTH Aachen University StorageContent API
   slug: rwth-aachen-university-storagecontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-storagecontent-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-storagecontent-api-openapi.yml
 - filename: rwth-aachen-university-title-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Title API
   slug: rwth-aachen-university-title-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-title-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-title-api-openapi.yml
 - filename: rwth-aachen-university-tos-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Tos API
   slug: rwth-aachen-university-tos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-tos-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-tos-api-openapi.yml
 - filename: rwth-aachen-university-tree-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Tree API
   slug: rwth-aachen-university-tree-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-tree-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-tree-api-openapi.yml
 - filename: rwth-aachen-university-user-api-openapi.yml
   format: yaml
   label: RWTH Aachen University User API
   slug: rwth-aachen-university-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-user-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-user-api-openapi.yml
 - filename: rwth-aachen-university-usernotificationoptout-api-openapi.yml
   format: yaml
   label: RWTH Aachen University UserNotificationOptOut API
   slug: rwth-aachen-university-usernotificationoptout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-usernotificationoptout-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-usernotificationoptout-api-openapi.yml
 - filename: rwth-aachen-university-visibility-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Visibility API
   slug: rwth-aachen-university-visibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-visibility-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-visibility-api-openapi.yml
 - filename: rwth-aachen-university-vocabulary-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Vocabulary API
   slug: rwth-aachen-university-vocabulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-vocabulary-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-vocabulary-api-openapi.yml
 - filename: rwth-aachen-university-resource-type-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Resource Type API
   slug: rwth-aachen-university-resource-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-resource-type-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-resource-type-api-openapi.yml
 - filename: rwth-aachen-university-self-api-token-api-openapi.yml
   format: yaml
   label: RWTH Aachen University Self API Token API
   slug: rwth-aachen-university-self-api-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-self-api-token-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-self-api-token-api-openapi.yml
 - filename: rwth-aachen-university-system-status-api-openapi.yml
   format: yaml
   label: RWTH Aachen University System Status API
   slug: rwth-aachen-university-system-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/openapi/rwth-aachen-university-system-status-api-openapi.yml
+  url: https://artifacts.apis.io/rwth-aachen-university/openapi/rwth-aachen-university-system-status-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 147
@@ -379,8 +379,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rwth-a
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reports/project/quota\n  method: get\n  operationId: GetProjectQuotaReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reports/user\n  method: get\n  operationId: GetUserReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reports/application-profile\n  method: get\n  operationId: GetApplicationProfileReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reports/resource\n  method: get\n  operationId: GetResourceReport\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reports/resource/quota\n  method: get\n  operationId: GetResourceQuotaReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reports/maintenance\n  method: get\n  operationId: GetMaintenanceReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/reports\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resources/{resourceId}\n  method: get\n  operationId: GetResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resources\n\
   \  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/projects/{projectId}/resources/{resourceId}/graphs/metadata/content\n  method: get\n  operationId: GetResourceGraphContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/projects/{projectId}/resources/{resourceId}/graphs/metadata/content\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resource-types/types\n  method: get\n  operationId: GetAllResourceTypesInformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resource-types/types/{resourceTypeId}\n\
-  \  method: get\n  operationId: GetResourceTypeInformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resource-types\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resource-types/gitlab/projects\n  method: get\n  operationId: GetAllGitlabProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resource-types/gitlab/projects/{gitlabProjectId}\n  method: get\n  operationId: GetGitlabProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/agentic-access/rwth-aachen-university-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/agentic-access/rwth-aachen-university-agentic-access.yml
+  \  method: get\n  operationId: GetResourceTypeInformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resource-types\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resource-types/gitlab/projects\n  method: get\n  operationId: GetAllGitlabProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/resource-types/gitlab/projects/{gitlabProjectId}\n  method: get\n  operationId: GetGitlabProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/rwth-aachen-university/agentic-access/rwth-aachen-university-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/rwth-aachen-university/agentic-access/rwth-aachen-university-agentic-access.yml
 summary_line: 194 operations · 47 acting · 1 human-in-the-loop
 tags:
 - Education

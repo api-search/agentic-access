@@ -9,85 +9,85 @@ api_specs:
   label: PetExec Authentication API
   slug: petexec-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-authentication-api-openapi.yml
 - filename: petexec-boarding-api-openapi.yml
   format: yaml
   label: PetExec Boarding API
   slug: petexec-boarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-boarding-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-boarding-api-openapi.yml
 - filename: petexec-calendar-api-openapi.yml
   format: yaml
   label: PetExec Calendar API
   slug: petexec-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-calendar-api-openapi.yml
 - filename: petexec-company-api-openapi.yml
   format: yaml
   label: PetExec Company API
   slug: petexec-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-company-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-company-api-openapi.yml
 - filename: petexec-credit-cards-api-openapi.yml
   format: yaml
   label: PetExec Credit Cards API
   slug: petexec-credit-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-credit-cards-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-credit-cards-api-openapi.yml
 - filename: petexec-daycare-api-openapi.yml
   format: yaml
   label: PetExec Daycare API
   slug: petexec-daycare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-daycare-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-daycare-api-openapi.yml
 - filename: petexec-grooming-api-openapi.yml
   format: yaml
   label: PetExec Grooming API
   slug: petexec-grooming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-grooming-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-grooming-api-openapi.yml
 - filename: petexec-owners-api-openapi.yml
   format: yaml
   label: PetExec Owners API
   slug: petexec-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-owners-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-owners-api-openapi.yml
 - filename: petexec-pets-api-openapi.yml
   format: yaml
   label: PetExec Pets API
   slug: petexec-pets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-pets-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-pets-api-openapi.yml
 - filename: petexec-profile-api-openapi.yml
   format: yaml
   label: PetExec Profile API
   slug: petexec-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-profile-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-profile-api-openapi.yml
 - filename: petexec-purchase-history-api-openapi.yml
   format: yaml
   label: PetExec Purchase History API
   slug: petexec-purchase-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-purchase-history-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-purchase-history-api-openapi.yml
 - filename: petexec-reports-api-openapi.yml
   format: yaml
   label: PetExec Reports API
   slug: petexec-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-reports-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-reports-api-openapi.yml
 - filename: petexec-scheduled-services-api-openapi.yml
   format: yaml
   label: PetExec Scheduled Services API
   slug: petexec-scheduled-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-scheduled-services-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-scheduled-services-api-openapi.yml
 - filename: petexec-vaccinations-api-openapi.yml
   format: yaml
   label: PetExec Vaccinations API
   slug: petexec-vaccinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-vaccinations-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-vaccinations-api-openapi.yml
 consequence_counts:
   read: 43
   write: 8
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/petexe
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report/billing-report/{start_date}/{end_date}/{pay_type}/{owner_portal}\n  method: get\n  operationId: getBillingReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report/statistics-report/{start_date}/{end_date}/{taxable_only}\n  method: get\n  operationId: getStatisticsReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report/statistics-report/{start_date}/{end_date}/breakdown/{pay_type}\n  method: get\n  operationId: getStatisticsReportByPayType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report/statistics-report/{start_date}/{end_date}/breakdown/service/{service_id}\n  method:\
   \ get\n  operationId: getStatisticsReportByServiceType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/locations\n  method: get\n  operationId: getCompanyLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/employees/\n  method: get\n  operationId: getCompanyEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/how-found/\n  method: get\n  operationId: getAllHowFound\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preference\n  method: get\n  operationId: getAllCompanyPreferences\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preference/{preference_name}\n  method: get\n  operationId: getCompanyPreferenceValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/\n  method: get\n  operationId: getAuthenticatedUserProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /menu\n  method: get\n  operationId: getMenu\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/agentic-access/petexec-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/petexec/agentic-access/petexec-agentic-access.yml
 summary_line: 51 operations · 8 acting
 tags:
 - Pet Care

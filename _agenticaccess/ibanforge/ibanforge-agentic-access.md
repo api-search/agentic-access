@@ -9,55 +9,55 @@ api_specs:
   label: IBANforge API Keys API
   slug: ibanforge-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-api-keys-api-openapi.yml
 - filename: ibanforge-bic-api-openapi.yml
   format: yaml
   label: IBANforge BIC API
   slug: ibanforge-bic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-bic-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-bic-api-openapi.yml
 - filename: ibanforge-compliance-api-openapi.yml
   format: yaml
   label: IBANforge Compliance API
   slug: ibanforge-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-compliance-api-openapi.yml
 - filename: ibanforge-credits-api-openapi.yml
   format: yaml
   label: IBANforge Credits API
   slug: ibanforge-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-credits-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-credits-api-openapi.yml
 - filename: ibanforge-free-api-openapi.yml
   format: yaml
   label: IBANforge Free API
   slug: ibanforge-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-free-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-free-api-openapi.yml
 - filename: ibanforge-iban-api-openapi.yml
   format: yaml
   label: IBANforge IBAN API
   slug: ibanforge-iban-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-iban-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-iban-api-openapi.yml
 - filename: ibanforge-mcp-api-openapi.yml
   format: yaml
   label: IBANforge MCP API
   slug: ibanforge-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-mcp-api-openapi.yml
 - filename: ibanforge-swiss-clearing-api-openapi.yml
   format: yaml
   label: IBANforge Swiss Clearing API
   slug: ibanforge-swiss-clearing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-swiss-clearing-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-swiss-clearing-api-openapi.yml
 - filename: ibanforge-account-api-openapi.yml
   format: yaml
   label: IBANforge Account API
   slug: ibanforge-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/openapi/ibanforge-account-api-openapi.yml
+  url: https://artifacts.apis.io/ibanforge/openapi/ibanforge-account-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 19
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/ibanfo
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/feedback/{id}\n  method: get\n  operationId: getFeedbackStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/test-iban\n  method: get\n  operationId: getTestIban\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/demo\n  method: get\n  operationId: getDemo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/iban/validate\n  method: post\n  operationId: validateIBAN\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/iban/batch\n  method: post\n  operationId: batchValidateIBAN\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mcp\n  method: post\n  operationId: mcpStreamableHttp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/ch/clearing/{iid}\n  method: get\n  operationId: lookupChClearing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/agentic-access/ibanforge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ibanforge/agentic-access/ibanforge-agentic-access.yml
 summary_line: 39 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Finance

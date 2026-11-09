@@ -9,175 +9,175 @@ api_specs:
   label: Adobe Analytics Livestream API
   slug: adobe-analytics-livestream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/asyncapi/adobe-analytics-livestream-asyncapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/asyncapi/adobe-analytics-livestream-asyncapi.yml
 - filename: adobe-analytics-annotations-api-openapi.yml
   format: yaml
   label: Adobe Analytics Annotations API
   slug: adobe-analytics-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-annotations-api-openapi.yml
 - filename: adobe-analytics-calculated-metrics-api-openapi.yml
   format: yaml
   label: Adobe Analytics Calculated Metrics API
   slug: adobe-analytics-calculated-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-calculated-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-calculated-metrics-api-openapi.yml
 - filename: adobe-analytics-date-ranges-api-openapi.yml
   format: yaml
   label: Adobe Analytics Date Ranges API
   slug: adobe-analytics-date-ranges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-date-ranges-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-date-ranges-api-openapi.yml
 - filename: adobe-analytics-dimensions-api-openapi.yml
   format: yaml
   label: Adobe Analytics Dimensions API
   slug: adobe-analytics-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-dimensions-api-openapi.yml
 - filename: adobe-analytics-events-api-openapi.yml
   format: yaml
   label: Adobe Analytics Events API
   slug: adobe-analytics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-events-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-events-api-openapi.yml
 - filename: adobe-analytics-jobs-api-openapi.yml
   format: yaml
   label: Adobe Analytics Jobs API
   slug: adobe-analytics-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-jobs-api-openapi.yml
 - filename: adobe-analytics-metrics-api-openapi.yml
   format: yaml
   label: Adobe Analytics Metrics API
   slug: adobe-analytics-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-metrics-api-openapi.yml
 - filename: adobe-analytics-report-suites-api-openapi.yml
   format: yaml
   label: Adobe Analytics Report Suites API
   slug: adobe-analytics-report-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-report-suites-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-report-suites-api-openapi.yml
 - filename: adobe-analytics-reports-api-openapi.yml
   format: yaml
   label: Adobe Analytics Reports API
   slug: adobe-analytics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-reports-api-openapi.yml
 - filename: adobe-analytics-segments-api-openapi.yml
   format: yaml
   label: Adobe Analytics Segments API
   slug: adobe-analytics-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-segments-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-segments-api-openapi.yml
 - filename: adobe-analytics-server-call-estimate-api-openapi.yml
   format: yaml
   label: Adobe Analytics Server Call Estimate API
   slug: adobe-analytics-server-call-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-server-call-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-server-call-estimate-api-openapi.yml
 - filename: adobe-analytics-account-api-openapi.yml
   format: yaml
   label: Adobe Analytics Account API
   slug: adobe-analytics-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-account-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-account-api-openapi.yml
 - filename: adobe-analytics-analytics-cloud-locations-account-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Cloud Locations Account API
   slug: adobe-analytics-analytics-cloud-locations-account-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-analytics-cloud-locations-account-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-analytics-cloud-locations-account-api-api-openapi.yml
 - filename: adobe-analytics-analytics-cloud-locations-location-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Cloud Locations Location API
   slug: adobe-analytics-analytics-cloud-locations-location-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-analytics-cloud-locations-location-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-analytics-cloud-locations-location-api-api-openapi.yml
 - filename: adobe-analytics-classification-dataset-api-openapi.yml
   format: yaml
   label: Adobe Analytics Classification Dataset API
   slug: adobe-analytics-classification-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-classification-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-classification-dataset-api-openapi.yml
 - filename: adobe-analytics-classification-job-api-openapi.yml
   format: yaml
   label: Adobe Analytics Classification Job API
   slug: adobe-analytics-classification-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-classification-job-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-classification-job-api-openapi.yml
 - filename: adobe-analytics-collections-suites-api-openapi.yml
   format: yaml
   label: Adobe Analytics Collections Suites API
   slug: adobe-analytics-collections-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-collections-suites-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-collections-suites-api-openapi.yml
 - filename: adobe-analytics-column-preset-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Column Preset API
   slug: adobe-analytics-column-preset-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-column-preset-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-column-preset-api-api-openapi.yml
 - filename: adobe-analytics-component-migration-api-openapi.yml
   format: yaml
   label: Adobe Analytics Component migration API
   slug: adobe-analytics-component-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-component-migration-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-component-migration-api-openapi.yml
 - filename: adobe-analytics-data-warehouse-report-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Data Warehouse Report API
   slug: adobe-analytics-data-warehouse-report-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-data-warehouse-report-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-data-warehouse-report-api-api-openapi.yml
 - filename: adobe-analytics-data-warehouse-scheduled-requests-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Data Warehouse Scheduled Requests API
   slug: adobe-analytics-data-warehouse-scheduled-requests-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-data-warehouse-scheduled-requests-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-data-warehouse-scheduled-requests-api-api-openapi.yml
 - filename: adobe-analytics-datafeed-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Datafeed API
   slug: adobe-analytics-datafeed-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-datafeed-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-datafeed-api-api-openapi.yml
 - filename: adobe-analytics-dimensions-mappings-api-openapi.yml
   format: yaml
   label: Adobe Analytics Dimensions mappings API
   slug: adobe-analytics-dimensions-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-dimensions-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-dimensions-mappings-api-openapi.yml
 - filename: adobe-analytics-job-api-openapi.yml
   format: yaml
   label: Adobe Analytics Job API
   slug: adobe-analytics-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-job-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-job-api-openapi.yml
 - filename: adobe-analytics-manage-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Manage API
   slug: adobe-analytics-manage-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-manage-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-manage-api-api-openapi.yml
 - filename: adobe-analytics-marketing-channels-api-openapi.yml
   format: yaml
   label: Adobe Analytics Marketing Channels API
   slug: adobe-analytics-marketing-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-marketing-channels-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-marketing-channels-api-openapi.yml
 - filename: adobe-analytics-metrics-mappings-api-openapi.yml
   format: yaml
   label: Adobe Analytics Metrics mappings API
   slug: adobe-analytics-metrics-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-metrics-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-metrics-mappings-api-openapi.yml
 - filename: adobe-analytics-virtual-report-suites-api-openapi.yml
   format: yaml
   label: Adobe Analytics Virtual Report Suites API
   slug: adobe-analytics-virtual-report-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-virtual-report-suites-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-virtual-report-suites-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 54
@@ -251,8 +251,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/adobe-
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /segments\n  method: get\n  operationId: listSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /segments\n  method: post\n  operationId: createSegment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /segments/{segmentId}\n  method: get\n  operationId: getSegment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /segments/{segmentId}\n  method: put\n  operationId: updateSegment\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /segments/{segmentId}\n  method: delete\n  operationId: deleteSegment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{rsid}/serverCallEstimate\n  method: get\n  operationId: getServerCallEstimate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{globalCompanyId}/reportsuites/virtualreportsuites\n  method: get\n  operationId: userGetVirtualReportSuites\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{globalCompanyId}/reportsuites/virtualreportsuites\n  method: post\n  operationId: userCreateVirtualReportSuite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{globalCompanyId}/reportsuites/virtualreportsuites/{id}\n  method: get\n  operationId: userGetVirtualReportSuite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{globalCompanyId}/reportsuites/virtualreportsuites/{id}\n  method: put\n  operationId: userUpdateVirtualReportSuite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
-  \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{globalCompanyId}/reportsuites/virtualreportsuites/{id}\n  method: delete\n  operationId: userDeleteVirtualReportSuite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/agentic-access/adobe-analytics-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/agentic-access/adobe-analytics-agentic-access.yml
+  \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{globalCompanyId}/reportsuites/virtualreportsuites/{id}\n  method: delete\n  operationId: userDeleteVirtualReportSuite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/adobe-analytics/agentic-access/adobe-analytics-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/adobe-analytics/agentic-access/adobe-analytics-agentic-access.yml
 summary_line: 103 operations · 49 acting · 1 human-in-the-loop
 tags:
 - Adobe

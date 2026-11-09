@@ -9,43 +9,43 @@ api_specs:
   label: Perchwell Listings API
   slug: perchwell-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-listings-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-listings-api-openapi.yml
 - filename: perchwell-media-api-openapi.yml
   format: yaml
   label: Perchwell Media API
   slug: perchwell-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-media-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-media-api-openapi.yml
 - filename: perchwell-member-api-openapi.yml
   format: yaml
   label: Perchwell Member API
   slug: perchwell-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-member-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-member-api-openapi.yml
 - filename: perchwell-metadata-api-openapi.yml
   format: yaml
   label: Perchwell Metadata API
   slug: perchwell-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-metadata-api-openapi.yml
 - filename: perchwell-office-api-openapi.yml
   format: yaml
   label: Perchwell Office API
   slug: perchwell-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-office-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-office-api-openapi.yml
 - filename: perchwell-openhouse-api-openapi.yml
   format: yaml
   label: Perchwell OpenHouse API
   slug: perchwell-openhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-openhouse-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-openhouse-api-openapi.yml
 - filename: perchwell-property-api-openapi.yml
   format: yaml
   label: Perchwell Property API
   slug: perchwell-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/openapi/perchwell-property-api-openapi.yml
+  url: https://artifacts.apis.io/perchwell/openapi/perchwell-property-api-openapi.yml
 consequence_counts:
   read: 10
   write: 8
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/perchw
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Office\n  method: get\n  operationId: queryOffice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Office('{id}')\n  method: get\n  operationId: getOffice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OpenHouse\n  method: get\n  operationId: queryOpenHouse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OpenHouse\n  method: post\n  operationId: createOpenHouse\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /OpenHouse('{id}')\n  method: get\n  operationId: getOpenHouse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OpenHouse('{id}')\n  method: patch\n  operationId: updateOpenHouse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /OpenHouse('{id}')\n  method: delete\n  operationId: deleteOpenHouse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Media('{id}')\n  method: delete\n  operationId: deleteMedia\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/agentic-access/perchwell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/perchwell/agentic-access/perchwell-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - Company

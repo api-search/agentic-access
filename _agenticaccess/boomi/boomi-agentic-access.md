@@ -9,73 +9,73 @@ api_specs:
   label: Boomi Atoms API
   slug: boomi-atoms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-atoms-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-atoms-api-openapi.yml
 - filename: boomi-components-api-openapi.yml
   format: yaml
   label: Boomi Components API
   slug: boomi-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-components-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-components-api-openapi.yml
 - filename: boomi-deployments-api-openapi.yml
   format: yaml
   label: Boomi Deployments API
   slug: boomi-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-deployments-api-openapi.yml
 - filename: boomi-environments-api-openapi.yml
   format: yaml
   label: Boomi Environments API
   slug: boomi-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-environments-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-environments-api-openapi.yml
 - filename: boomi-execution-api-openapi.yml
   format: yaml
   label: Boomi Execution API
   slug: boomi-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-execution-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-execution-api-openapi.yml
 - filename: boomi-golden-records-api-openapi.yml
   format: yaml
   label: Boomi Golden Records API
   slug: boomi-golden-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-golden-records-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-golden-records-api-openapi.yml
 - filename: boomi-messages-api-openapi.yml
   format: yaml
   label: Boomi Messages API
   slug: boomi-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-messages-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-messages-api-openapi.yml
 - filename: boomi-models-api-openapi.yml
   format: yaml
   label: Boomi Models API
   slug: boomi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-models-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-models-api-openapi.yml
 - filename: boomi-processes-api-openapi.yml
   format: yaml
   label: Boomi Processes API
   slug: boomi-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-processes-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-processes-api-openapi.yml
 - filename: boomi-quarantine-api-openapi.yml
   format: yaml
   label: Boomi Quarantine API
   slug: boomi-quarantine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-quarantine-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-quarantine-api-openapi.yml
 - filename: boomi-repositories-api-openapi.yml
   format: yaml
   label: Boomi Repositories API
   slug: boomi-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-repositories-api-openapi.yml
 - filename: boomi-sources-api-openapi.yml
   format: yaml
   label: Boomi Sources API
   slug: boomi-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-sources-api-openapi.yml
+  url: https://artifacts.apis.io/boomi/openapi/boomi-sources-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 18
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/boomi-
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Process/query\n  method: post\n  operationId: queryProcesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ProcessSchedules/{id}\n  method: get\n  operationId: getProcessSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ProcessSchedules/{id}\n  method: post\n  operationId: updateProcessSchedules\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repositoryId}/universes/{universeId}/quarantine\n\
   \  method: get\n  operationId: listQuarantineEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories\n  method: get\n  operationId: listRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories\n  method: post\n  operationId: createRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repositoryId}\n  method: get\n  operationId: getRepository\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /repositories/{repositoryId}\n  method: delete\n  operationId: deleteRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repositoryId}/sources\n  method: get\n  operationId: listSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repositoryId}/sources\n  method: post\n  operationId: createSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/agentic-access/boomi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/boomi/agentic-access/boomi-agentic-access.yml
 summary_line: 37 operations · 19 acting
 tags:
 - AI Agents

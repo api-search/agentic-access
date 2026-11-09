@@ -9,61 +9,61 @@ api_specs:
   label: PDF.co Barcodes API
   slug: pdf-co-barcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-barcodes-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-barcodes-api-openapi.yml
 - filename: pdf-co-document-file-system-api-openapi.yml
   format: yaml
   label: PDF.co Document, File & System API
   slug: pdf-co-document-file-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-document-file-system-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-document-file-system-api-openapi.yml
 - filename: pdf-co-editing-api-openapi.yml
   format: yaml
   label: PDF.co Editing API
   slug: pdf-co-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-editing-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-editing-api-openapi.yml
 - filename: pdf-co-excel-conversion-api-openapi.yml
   format: yaml
   label: PDF.co Excel Conversion API
   slug: pdf-co-excel-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-excel-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-excel-conversion-api-openapi.yml
 - filename: pdf-co-extraction-api-openapi.yml
   format: yaml
   label: PDF.co Extraction API
   slug: pdf-co-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-extraction-api-openapi.yml
 - filename: pdf-co-find-search-api-openapi.yml
   format: yaml
   label: PDF.co Find & Search API
   slug: pdf-co-find-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-find-search-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-find-search-api-openapi.yml
 - filename: pdf-co-forms-api-openapi.yml
   format: yaml
   label: PDF.co Forms API
   slug: pdf-co-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-forms-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-forms-api-openapi.yml
 - filename: pdf-co-pages-api-openapi.yml
   format: yaml
   label: PDF.co Pages API
   slug: pdf-co-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pages-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-pages-api-openapi.yml
 - filename: pdf-co-pdf-conversion-api-openapi.yml
   format: yaml
   label: PDF.co PDF Conversion API
   slug: pdf-co-pdf-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pdf-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-pdf-conversion-api-openapi.yml
 - filename: pdf-co-pdf-merging-splitting-api-openapi.yml
   format: yaml
   label: PDF.co PDF Merging & Splitting API
   slug: pdf-co-pdf-merging-splitting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pdf-merging-splitting-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-pdf-merging-splitting-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pdf-co
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pdf/convert/from/html\n  method: post\n  operationId: post_v1_pdf_convert_from_html\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/templates/html\n  method: get\n  operationId: get_v1_templates_html\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/templates/html/{id}\n  method: get\n  operationId: get_v1_templates_html_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v1/pdf/convert/from/email\n  method: post\n  operationId: post_v1_pdf_convert_from_email\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pdf/merge\n  method: post\n  operationId: post_v1_pdf_merge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pdf/merge2\n  method: post\n  operationId: post_v1_pdf_merge2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pdf/split\n  method: post\n  operationId: post_v1_pdf_split\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pdf/split2\n  method: post\n  operationId: post_v1_pdf_split2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/agentic-access/pdf-co-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pdf-co/agentic-access/pdf-co-agentic-access.yml
 summary_line: 68 operations · 59 acting
 tags:
 - PDF

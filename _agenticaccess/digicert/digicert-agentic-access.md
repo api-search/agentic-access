@@ -9,31 +9,31 @@ api_specs:
   label: Digicert Account API
   slug: digicert-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-account-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-account-api-openapi.yml
 - filename: digicert-domain-api-openapi.yml
   format: yaml
   label: Digicert Domain API
   slug: digicert-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-domain-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-domain-api-openapi.yml
 - filename: digicert-order-api-openapi.yml
   format: yaml
   label: Digicert Order API
   slug: digicert-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-order-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-order-api-openapi.yml
 - filename: digicert-organization-api-openapi.yml
   format: yaml
   label: Digicert Organization API
   slug: digicert-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-organization-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-organization-api-openapi.yml
 - filename: digicert-user-api-openapi.yml
   format: yaml
   label: Digicert User API
   slug: digicert-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/openapi/digicert-user-api-openapi.yml
+  url: https://artifacts.apis.io/digicert/openapi/digicert-user-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/digice
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domain\n  method: get\n  operationId: listDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domain\n  method: post\n  operationId: createDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domain/{domainId}\n  method: get\n  operationId: getDomain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domain/{domainId}\n  method: delete\n  operationId:\
   \ deleteDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization\n  method: get\n  operationId: listOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization\n  method: post\n  operationId: createOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/agentic-access/digicert-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/digicert/agentic-access/digicert-agentic-access.yml
 summary_line: 19 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Certificates

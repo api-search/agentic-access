@@ -9,49 +9,49 @@ api_specs:
   label: Scrapybara Auth States API
   slug: scrapybara-auth-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-auth-states-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-auth-states-api-openapi.yml
 - filename: scrapybara-browser-api-openapi.yml
   format: yaml
   label: Scrapybara Browser API
   slug: scrapybara-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-browser-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-browser-api-openapi.yml
 - filename: scrapybara-code-execution-api-openapi.yml
   format: yaml
   label: Scrapybara Code Execution API
   slug: scrapybara-code-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-code-execution-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-code-execution-api-openapi.yml
 - filename: scrapybara-computer-actions-api-openapi.yml
   format: yaml
   label: Scrapybara Computer Actions API
   slug: scrapybara-computer-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-computer-actions-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-computer-actions-api-openapi.yml
 - filename: scrapybara-environment-api-openapi.yml
   format: yaml
   label: Scrapybara Environment API
   slug: scrapybara-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-environment-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-environment-api-openapi.yml
 - filename: scrapybara-filesystem-api-openapi.yml
   format: yaml
   label: Scrapybara Filesystem API
   slug: scrapybara-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-filesystem-api-openapi.yml
 - filename: scrapybara-instances-api-openapi.yml
   format: yaml
   label: Scrapybara Instances API
   slug: scrapybara-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-instances-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-instances-api-openapi.yml
 - filename: scrapybara-notebook-api-openapi.yml
   format: yaml
   label: Scrapybara Notebook API
   slug: scrapybara-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/openapi/scrapybara-notebook-api-openapi.yml
+  url: https://artifacts.apis.io/scrapybara/openapi/scrapybara-notebook-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 2
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scrapy
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{instance_id}/notebooks/{notebook_id}\n  method: get\n  operationId: getNotebook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{instance_id}/notebooks/{notebook_id}\n  method: delete\n  operationId: deleteNotebook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{instance_id}/notebooks/{notebook_id}/cells\n  method: post\n  operationId: addCell\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{instance_id}/notebooks/{notebook_id}/cells/{cell_id}/execute\n  method: post\n  operationId: executeCell\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{instance_id}/notebooks/{notebook_id}/execute\n  method: post\n  operationId: executeNotebook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /instances/{instance_id}/env\n  method: get\n  operationId: getEnv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{instance_id}/env\n  method: post\n  operationId: setEnv\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{instance_id}/env\n  method: delete\n  operationId: deleteEnv\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/agentic-access/scrapybara-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scrapybara/agentic-access/scrapybara-agentic-access.yml
 summary_line: 32 operations · 22 acting · 2 human-in-the-loop
 tags:
 - AI Agents

@@ -9,97 +9,97 @@ api_specs:
   label: Kadena Block API
   slug: kadena-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-block-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-block-api-openapi.yml
 - filename: kadena-blockhash-api-openapi.yml
   format: yaml
   label: Kadena Blockhash API
   slug: kadena-blockhash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-blockhash-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-blockhash-api-openapi.yml
 - filename: kadena-config-api-openapi.yml
   format: yaml
   label: Kadena Config API
   slug: kadena-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-config-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-config-api-openapi.yml
 - filename: kadena-cut-api-openapi.yml
   format: yaml
   label: Kadena Cut API
   slug: kadena-cut-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-cut-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-cut-api-openapi.yml
 - filename: kadena-endpoint-listen-api-openapi.yml
   format: yaml
   label: Kadena Endpoint Listen API
   slug: kadena-endpoint-listen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-listen-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-endpoint-listen-api-openapi.yml
 - filename: kadena-endpoint-local-api-openapi.yml
   format: yaml
   label: Kadena Endpoint Local API
   slug: kadena-endpoint-local-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-local-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-endpoint-local-api-openapi.yml
 - filename: kadena-endpoint-poll-api-openapi.yml
   format: yaml
   label: Kadena Endpoint Poll API
   slug: kadena-endpoint-poll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-poll-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-endpoint-poll-api-openapi.yml
 - filename: kadena-endpoint-private-api-openapi.yml
   format: yaml
   label: Kadena Endpoint Private API
   slug: kadena-endpoint-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-private-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-endpoint-private-api-openapi.yml
 - filename: kadena-endpoint-send-api-openapi.yml
   format: yaml
   label: Kadena Endpoint Send API
   slug: kadena-endpoint-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-send-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-endpoint-send-api-openapi.yml
 - filename: kadena-endpoint-spv-api-openapi.yml
   format: yaml
   label: Kadena Endpoint Spv API
   slug: kadena-endpoint-spv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-endpoint-spv-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-endpoint-spv-api-openapi.yml
 - filename: kadena-header-api-openapi.yml
   format: yaml
   label: Kadena Header API
   slug: kadena-header-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-header-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-header-api-openapi.yml
 - filename: kadena-mempool-api-openapi.yml
   format: yaml
   label: Kadena Mempool API
   slug: kadena-mempool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-mempool-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-mempool-api-openapi.yml
 - filename: kadena-mining-api-openapi.yml
   format: yaml
   label: Kadena Mining API
   slug: kadena-mining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-mining-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-mining-api-openapi.yml
 - filename: kadena-misc-api-openapi.yml
   format: yaml
   label: Kadena Misc API
   slug: kadena-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-misc-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-misc-api-openapi.yml
 - filename: kadena-payload-api-openapi.yml
   format: yaml
   label: Kadena Payload API
   slug: kadena-payload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-payload-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-payload-api-openapi.yml
 - filename: kadena-peer-api-openapi.yml
   format: yaml
   label: Kadena Peer API
   slug: kadena-peer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/openapi/kadena-peer-api-openapi.yml
+  url: https://artifacts.apis.io/kadena/openapi/kadena-peer-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 25
@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kadena
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /block/updates\n  method: get\n  operationId: getBlockUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chain/{chain}/payload/{payloadHash}\n  method: get\n  operationId: getChainByChainPayloadByPayloadHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chain/{chain}/payload/batch\n  method: post\n  operationId: postChainByChainPayloadBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chain/{chain}/payload/{payloadHash}/outputs\n  method: get\n  operationId: getChainByChainPayloadByPayloadHashOutputs\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chain/{chain}/payload/outputs/batch\n  method: post\n  operationId: postChainByChainPayloadOutputsBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cut/peer\n  method: get\n  operationId: getCutPeer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cut/peer\n  method: put\n  operationId: putCutPeer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chain/{chain}/mempool/peer\n  method: get\n  operationId: getChainByChainMempoolPeer\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chain/{chain}/mempool/peer\n  method: put\n  operationId: putChainByChainMempoolPeer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/agentic-access/kadena-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kadena/agentic-access/kadena-agentic-access.yml
 summary_line: 38 operations · 13 acting
 tags:
 - Company

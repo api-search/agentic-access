@@ -9,61 +9,61 @@ api_specs:
   label: Teachable Courses API
   slug: teachable-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-courses-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-courses-api-openapi.yml
 - filename: teachable-enrollments-api-openapi.yml
   format: yaml
   label: Teachable Enrollments API
   slug: teachable-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-enrollments-api-openapi.yml
 - filename: teachable-lectures-api-openapi.yml
   format: yaml
   label: Teachable Lectures API
   slug: teachable-lectures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-lectures-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-lectures-api-openapi.yml
 - filename: teachable-quizzes-api-openapi.yml
   format: yaml
   label: Teachable Quizzes API
   slug: teachable-quizzes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-quizzes-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-quizzes-api-openapi.yml
 - filename: teachable-transactions-api-openapi.yml
   format: yaml
   label: Teachable Transactions API
   slug: teachable-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-transactions-api-openapi.yml
 - filename: teachable-users-api-openapi.yml
   format: yaml
   label: Teachable Users API
   slug: teachable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-users-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-users-api-openapi.yml
 - filename: teachable-videos-api-openapi.yml
   format: yaml
   label: Teachable Videos API
   slug: teachable-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-videos-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-videos-api-openapi.yml
 - filename: teachable-webhooks-api-openapi.yml
   format: yaml
   label: Teachable Webhooks API
   slug: teachable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-webhooks-api-openapi.yml
 - filename: teachable-current-user-api-openapi.yml
   format: yaml
   label: Teachable Current User API
   slug: teachable-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-current-user-api-openapi.yml
 - filename: teachable-pricing-plans-api-openapi.yml
   format: yaml
   label: Teachable Pricing Plans API
   slug: teachable-pricing-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-pricing-plans-api-openapi.yml
+  url: https://artifacts.apis.io/teachable/openapi/teachable-pricing-plans-api-openapi.yml
 consequence_counts:
   read: 22
   write: 6
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/teacha
   - path: /current_user/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - email:read\n    - name:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current_user/courses\n  method: get\n  operationId: listCurrentUserCourses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - courses:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current_user/courses/{course_id}\n  method: get\n  operationId: getCurrentUserCourse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - courses:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current_user/courses/{course_id}/progress\n  method: get\n  operationId: getCurrentUserCourseProgress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    scope:\n    - courses:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current_user/courses/{course_id}/lectures/{lecture_id}\n  method: get\n  operationId: getCurrentUserLecture\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - courses:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current_user/courses/{course_id}/lectures/{lecture_id}/mark_complete\n  method: post\n  operationId: markCurrentUserLectureComplete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - courses:read\n    - courses:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /current_user/courses/{course_id}/lectures/{lecture_id}/videos/{video_id}\n  method: get\n  operationId: getCurrentUserVideo\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - courses:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/agentic-access/teachable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teachable/agentic-access/teachable-agentic-access.yml
 summary_line: 28 operations · 6 acting
 tags:
 - Online Courses

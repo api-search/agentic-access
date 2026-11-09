@@ -9,37 +9,37 @@ api_specs:
   label: ClearSlide Insights API
   slug: clearslide-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-insights-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-insights-api-openapi.yml
 - filename: clearslide-links-api-openapi.yml
   format: yaml
   label: ClearSlide Links API
   slug: clearslide-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-links-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-links-api-openapi.yml
 - filename: clearslide-meetings-api-openapi.yml
   format: yaml
   label: ClearSlide Meetings API
   slug: clearslide-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-meetings-api-openapi.yml
 - filename: clearslide-presentations-api-openapi.yml
   format: yaml
   label: ClearSlide Presentations API
   slug: clearslide-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-presentations-api-openapi.yml
 - filename: clearslide-upload-api-openapi.yml
   format: yaml
   label: ClearSlide Upload API
   slug: clearslide-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-upload-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-upload-api-openapi.yml
 - filename: clearslide-users-api-openapi.yml
   format: yaml
   label: ClearSlide Users API
   slug: clearslide-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/clearslide-users-api-openapi.yml
+  url: https://artifacts.apis.io/clearslide/openapi/clearslide-users-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/clears
   - path: /links\n  method: post\n  operationId: postLinks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meeting/scheduled\n  method: get\n  operationId: getScheduledMeetings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meeting/scheduled\n  method: post\n  operationId: postScheduledMeeting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /meeting/scheduled/{inviteMailVid}\n  method: put\n  operationId: putScheduledMeeting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /presentations\n  method: get\n  operationId: getPresentations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upload\n  method: post\n  operationId: postUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /upload/{uploadID}\n  method: get\n  operationId: getUploadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/agentic-access/clearslide-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clearslide/agentic-access/clearslide-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Company

@@ -9,67 +9,67 @@ api_specs:
   label: Orb Alerts API
   slug: orb-billing-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-alerts-api-openapi.yml
 - filename: orb-billing-coupons-api-openapi.yml
   format: yaml
   label: Orb Coupons API
   slug: orb-billing-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-coupons-api-openapi.yml
 - filename: orb-billing-credits-api-openapi.yml
   format: yaml
   label: Orb Credits API
   slug: orb-billing-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-credits-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-credits-api-openapi.yml
 - filename: orb-billing-customers-api-openapi.yml
   format: yaml
   label: Orb Customers API
   slug: orb-billing-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-customers-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-customers-api-openapi.yml
 - filename: orb-billing-events-api-openapi.yml
   format: yaml
   label: Orb Events API
   slug: orb-billing-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-events-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-events-api-openapi.yml
 - filename: orb-billing-invoices-api-openapi.yml
   format: yaml
   label: Orb Invoices API
   slug: orb-billing-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-invoices-api-openapi.yml
 - filename: orb-billing-items-api-openapi.yml
   format: yaml
   label: Orb Items API
   slug: orb-billing-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-items-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-items-api-openapi.yml
 - filename: orb-billing-metrics-api-openapi.yml
   format: yaml
   label: Orb Metrics API
   slug: orb-billing-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-metrics-api-openapi.yml
 - filename: orb-billing-plans-api-openapi.yml
   format: yaml
   label: Orb Plans API
   slug: orb-billing-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-plans-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-plans-api-openapi.yml
 - filename: orb-billing-prices-api-openapi.yml
   format: yaml
   label: Orb Prices API
   slug: orb-billing-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-prices-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-prices-api-openapi.yml
 - filename: orb-billing-subscriptions-api-openapi.yml
   format: yaml
   label: Orb Subscriptions API
   slug: orb-billing-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/openapi/orb-billing-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 25
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/orb-bi
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prices/{price_id}\n  method: get\n  operationId: fetchPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices/evaluate\n  method: post\n  operationId: evaluatePrices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscription_id}\n  method: get\n  operationId: fetchSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscription_id}\n  method: put\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscription_id}/cancel\n\
   \  method: post\n  operationId: cancelSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscription_id}/usage\n  method: get\n  operationId: fetchSubscriptionUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscription_id}/schedule_plan_change\n  method: post\n  operationId: schedulePlanChange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/agentic-access/orb-billing-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orb-billing/agentic-access/orb-billing-agentic-access.yml
 summary_line: 51 operations · 26 acting · 1 human-in-the-loop
 tags:
 - Billing

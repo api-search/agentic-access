@@ -8,37 +8,37 @@ api_specs:
   label: World Bank Classifications API
   slug: worldbank-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/worldbank/openapi/worldbank-classifications-api-openapi.yml
 - filename: worldbank-countries-api-openapi.yml
   format: yaml
   label: World Bank Countries API
   slug: worldbank-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-countries-api-openapi.yml
+  url: https://artifacts.apis.io/worldbank/openapi/worldbank-countries-api-openapi.yml
 - filename: worldbank-indicators-api-openapi.yml
   format: yaml
   label: World Bank Indicators API
   slug: worldbank-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/worldbank/openapi/worldbank-indicators-api-openapi.yml
 - filename: worldbank-regions-api-openapi.yml
   format: yaml
   label: World Bank Regions API
   slug: worldbank-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-regions-api-openapi.yml
+  url: https://artifacts.apis.io/worldbank/openapi/worldbank-regions-api-openapi.yml
 - filename: worldbank-sources-api-openapi.yml
   format: yaml
   label: World Bank Sources API
   slug: worldbank-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-sources-api-openapi.yml
+  url: https://artifacts.apis.io/worldbank/openapi/worldbank-sources-api-openapi.yml
 - filename: worldbank-topics-api-openapi.yml
   format: yaml
   label: World Bank Topics API
   slug: worldbank-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/openapi/worldbank-topics-api-openapi.yml
+  url: https://artifacts.apis.io/worldbank/openapi/worldbank-topics-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/worldb
   \  operationId: getIndicatorAllCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /country/{country_code}/indicator/{indicator_id}\n  method: get\n  operationId: getIndicatorByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indicator\n  method: get\n  operationId: listIndicators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indicator/{indicator_id}\n  method: get\n  operationId: getIndicator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /region\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incomelevel\n  method: get\n  operationId: listIncomeLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lendingtype\n  method: get\n  operationId: listLendingTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /source\n  method: get\n  operationId: listSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topic\n  method: get\n  operationId: listTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topic/{topic_id}/indicator\n  method: get\n  operationId: listIndicatorsByTopic\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/agentic-access/worldbank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/worldbank/agentic-access/worldbank-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Development Data

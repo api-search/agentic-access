@@ -9,7 +9,7 @@ api_specs:
   label: Minicor External API
   slug: minicor-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/openapi/minicor-external-api-openapi.yml
+  url: https://artifacts.apis.io/minicor/openapi/minicor-external-api-openapi.yml
 consequence_counts:
   read: 1
   write: 6
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/minico
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /configurations/{externalId}/external\n  method: delete\n  operationId: deleteConfigurationStoreExternal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /configurations/{externalId}/restore/external\n  method: put\n  operationId: restoreConfigurationStoreExternal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /configurations/{externalId}/keys/external\n  method: get\n  operationId: getConfigurationKeysExternal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /configurations/{externalId}/properties/external\n  method: put\n  operationId: bulkUpdatePropertiesExternal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /configurations/{externalId}/properties/{key}/external\n  method: delete\n  operationId: removePropertyExternal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/agentic-access/minicor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/minicor/agentic-access/minicor-agentic-access.yml
 summary_line: 7 operations · 6 acting
 tags:
 - Company

@@ -8,49 +8,49 @@ api_specs:
   label: Open Library Authors API
   slug: open-library-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-authors-api-openapi.yml
+  url: https://artifacts.apis.io/open-library/openapi/open-library-authors-api-openapi.yml
 - filename: open-library-editions-api-openapi.yml
   format: yaml
   label: Open Library Editions API
   slug: open-library-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-editions-api-openapi.yml
+  url: https://artifacts.apis.io/open-library/openapi/open-library-editions-api-openapi.yml
 - filename: open-library-lists-api-openapi.yml
   format: yaml
   label: Open Library Lists API
   slug: open-library-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-lists-api-openapi.yml
+  url: https://artifacts.apis.io/open-library/openapi/open-library-lists-api-openapi.yml
 - filename: open-library-recentchanges-json-api-openapi.yml
   format: yaml
   label: Open Library Recentchanges.json API
   slug: open-library-recentchanges-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-recentchanges-json-api-openapi.yml
+  url: https://artifacts.apis.io/open-library/openapi/open-library-recentchanges-json-api-openapi.yml
 - filename: open-library-search-api-openapi.yml
   format: yaml
   label: Open Library Search API
   slug: open-library-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-search-api-openapi.yml
+  url: https://artifacts.apis.io/open-library/openapi/open-library-search-api-openapi.yml
 - filename: open-library-search-json-api-openapi.yml
   format: yaml
   label: Open Library Search.json API
   slug: open-library-search-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-search-json-api-openapi.yml
+  url: https://artifacts.apis.io/open-library/openapi/open-library-search-json-api-openapi.yml
 - filename: open-library-subjects-api-openapi.yml
   format: yaml
   label: Open Library Subjects API
   slug: open-library-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/open-library/openapi/open-library-subjects-api-openapi.yml
 - filename: open-library-works-api-openapi.yml
   format: yaml
   label: Open Library Works API
   slug: open-library-works-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-works-api-openapi.yml
+  url: https://artifacts.apis.io/open-library/openapi/open-library-works-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -78,7 +78,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/open-library-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /search.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/authors.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/inside\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /works/{workId}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editions/{editionId}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authors/{authorId}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subjects/{subject}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/{listId}.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /recentchanges.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/agentic-access/open-library-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-library/agentic-access/open-library-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Authors

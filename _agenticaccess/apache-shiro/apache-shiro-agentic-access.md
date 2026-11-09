@@ -9,31 +9,31 @@ api_specs:
   label: Apache Shiro Authentication API
   slug: apache-shiro-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/openapi/apache-shiro-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shiro/openapi/apache-shiro-authentication-api-openapi.yml
 - filename: apache-shiro-authorization-api-openapi.yml
   format: yaml
   label: Apache Shiro Authorization API
   slug: apache-shiro-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/openapi/apache-shiro-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shiro/openapi/apache-shiro-authorization-api-openapi.yml
 - filename: apache-shiro-cryptography-api-openapi.yml
   format: yaml
   label: Apache Shiro Cryptography API
   slug: apache-shiro-cryptography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/openapi/apache-shiro-cryptography-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shiro/openapi/apache-shiro-cryptography-api-openapi.yml
 - filename: apache-shiro-sessions-api-openapi.yml
   format: yaml
   label: Apache Shiro Sessions API
   slug: apache-shiro-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/openapi/apache-shiro-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shiro/openapi/apache-shiro-sessions-api-openapi.yml
 - filename: apache-shiro-users-api-openapi.yml
   format: yaml
   label: Apache Shiro Users API
   slug: apache-shiro-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/openapi/apache-shiro-users-api-openapi.yml
+  url: https://artifacts.apis.io/apache-shiro/openapi/apache-shiro-users-api-openapi.yml
 consequence_counts:
   read: 3
   write: 7
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/token\n  method: post\n  operationId: generateToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}\n  method: delete\n  operationId: invalidateSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/check\n  method: post\n  operationId: checkPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/roles\n  method: get\n  operationId: getCurrentRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crypto/hash\n  method: post\n  operationId: hashPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/agentic-access/apache-shiro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-shiro/agentic-access/apache-shiro-agentic-access.yml
 summary_line: 10 operations · 7 acting
 tags:
 - Authentication

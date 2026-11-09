@@ -9,7 +9,7 @@ api_specs:
   label: PackageX Shipments API
   slug: packagex-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/openapi/packagex-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/packagex/openapi/packagex-shipments-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 2
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/packagex-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 2\n    acting: 2\n  by_consequence:\n    read: 2\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/shipments\n  method: get\n  operationId: shipments.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipments\n  method: post\n  operationId: shipments.create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n   \
   \   purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/shipments/{shipment}\n  method: get\n  operationId: shipments.retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipments/{shipment}\n  method: post\n  operationId: shipments.purchase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/agentic-access/packagex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/packagex/agentic-access/packagex-agentic-access.yml
 summary_line: 4 operations · 2 acting
 tags:
 - Company

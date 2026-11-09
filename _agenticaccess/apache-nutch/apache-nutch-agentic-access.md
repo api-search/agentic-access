@@ -9,43 +9,43 @@ api_specs:
   label: Apache Nutch Admin API
   slug: apache-nutch-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/openapi/apache-nutch-admin-api-openapi.yml
+  url: https://artifacts.apis.io/apache-nutch/openapi/apache-nutch-admin-api-openapi.yml
 - filename: apache-nutch-configuration-api-openapi.yml
   format: yaml
   label: Apache Nutch Configuration API
   slug: apache-nutch-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/openapi/apache-nutch-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/apache-nutch/openapi/apache-nutch-configuration-api-openapi.yml
 - filename: apache-nutch-database-api-openapi.yml
   format: yaml
   label: Apache Nutch Database API
   slug: apache-nutch-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/openapi/apache-nutch-database-api-openapi.yml
+  url: https://artifacts.apis.io/apache-nutch/openapi/apache-nutch-database-api-openapi.yml
 - filename: apache-nutch-job-api-openapi.yml
   format: yaml
   label: Apache Nutch Job API
   slug: apache-nutch-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/openapi/apache-nutch-job-api-openapi.yml
+  url: https://artifacts.apis.io/apache-nutch/openapi/apache-nutch-job-api-openapi.yml
 - filename: apache-nutch-reader-api-openapi.yml
   format: yaml
   label: Apache Nutch Reader API
   slug: apache-nutch-reader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/openapi/apache-nutch-reader-api-openapi.yml
+  url: https://artifacts.apis.io/apache-nutch/openapi/apache-nutch-reader-api-openapi.yml
 - filename: apache-nutch-seed-api-openapi.yml
   format: yaml
   label: Apache Nutch Seed API
   slug: apache-nutch-seed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/openapi/apache-nutch-seed-api-openapi.yml
+  url: https://artifacts.apis.io/apache-nutch/openapi/apache-nutch-seed-api-openapi.yml
 - filename: apache-nutch-services-api-openapi.yml
   format: yaml
   label: Apache Nutch Services API
   slug: apache-nutch-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/openapi/apache-nutch-services-api-openapi.yml
+  url: https://artifacts.apis.io/apache-nutch/openapi/apache-nutch-services-api-openapi.yml
 consequence_counts:
   read: 14
   write: 10
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /db/fetchdb\n  method: get\n  operationId: fetchDb\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /seed/\n  method: get\n  operationId: getSeedLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /seed/create\n  method: post\n  operationId: createSeedFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reader/sequence/read\n  method: post\n  operationId: seqRead\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reader/link\n  method: get\n  operationId: getLinkSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reader/link/read\n  method: post\n  operationId: linkRead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reader/node\n  method: get\n  operationId: getNodeSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /reader/node/read\n  method: post\n  operationId: nodeRead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/commoncrawldump/{crawlId}\n  method: get\n  operationId: listDumpPaths\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/commoncrawldump\n  method: post\n  operationId: commoncrawlDump\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/agentic-access/apache-nutch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-nutch/agentic-access/apache-nutch-agentic-access.yml
 summary_line: 24 operations · 10 acting
 tags:
 - Web Crawler

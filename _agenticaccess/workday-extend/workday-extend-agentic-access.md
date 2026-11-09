@@ -9,85 +9,85 @@ api_specs:
   label: Workday Extend App Configurations API
   slug: workday-extend-app-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-app-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-app-configurations-api-openapi.yml
 - filename: workday-extend-app-deployments-api-openapi.yml
   format: yaml
   label: Workday Extend App Deployments API
   slug: workday-extend-app-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-app-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-app-deployments-api-openapi.yml
 - filename: workday-extend-app-versions-api-openapi.yml
   format: yaml
   label: Workday Extend App Versions API
   slug: workday-extend-app-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-app-versions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-app-versions-api-openapi.yml
 - filename: workday-extend-apps-api-openapi.yml
   format: yaml
   label: Workday Extend Apps API
   slug: workday-extend-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-apps-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-apps-api-openapi.yml
 - filename: workday-extend-custom-object-definitions-api-openapi.yml
   format: yaml
   label: Workday Extend Custom Object Definitions API
   slug: workday-extend-custom-object-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-custom-object-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-custom-object-definitions-api-openapi.yml
 - filename: workday-extend-custom-object-fields-api-openapi.yml
   format: yaml
   label: Workday Extend Custom Object Fields API
   slug: workday-extend-custom-object-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-custom-object-fields-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-custom-object-fields-api-openapi.yml
 - filename: workday-extend-custom-object-instances-api-openapi.yml
   format: yaml
   label: Workday Extend Custom Object Instances API
   slug: workday-extend-custom-object-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-custom-object-instances-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-custom-object-instances-api-openapi.yml
 - filename: workday-extend-graph-query-api-openapi.yml
   format: yaml
   label: Workday Extend Graph Query API
   slug: workday-extend-graph-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-graph-query-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-graph-query-api-openapi.yml
 - filename: workday-extend-orchestration-executions-api-openapi.yml
   format: yaml
   label: Workday Extend Orchestration Executions API
   slug: workday-extend-orchestration-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-orchestration-executions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-orchestration-executions-api-openapi.yml
 - filename: workday-extend-orchestration-steps-api-openapi.yml
   format: yaml
   label: Workday Extend Orchestration Steps API
   slug: workday-extend-orchestration-steps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-orchestration-steps-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-orchestration-steps-api-openapi.yml
 - filename: workday-extend-orchestration-triggers-api-openapi.yml
   format: yaml
   label: Workday Extend Orchestration Triggers API
   slug: workday-extend-orchestration-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-orchestration-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-orchestration-triggers-api-openapi.yml
 - filename: workday-extend-orchestrations-api-openapi.yml
   format: yaml
   label: Workday Extend Orchestrations API
   slug: workday-extend-orchestrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-orchestrations-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-orchestrations-api-openapi.yml
 - filename: workday-extend-schema-introspection-api-openapi.yml
   format: yaml
   label: Workday Extend Schema Introspection API
   slug: workday-extend-schema-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-schema-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-schema-introspection-api-openapi.yml
 - filename: workday-extend-wql-query-api-openapi.yml
   format: yaml
   label: Workday Extend WQL Query API
   slug: workday-extend-wql-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-wql-query-api-openapi.yml
+  url: https://artifacts.apis.io/workday-extend/openapi/workday-extend-wql-query-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workda
   \     - high-value\n    audit: required\n    scope:\n    - extend:apps\n- path: /apps/{appId}\n  method: delete\n  operationId: deleteApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - extend:apps\n- path: /apps/{appId}/versions\n  method: get\n  operationId: listAppVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - extend:apps\n- path: /apps/{appId}/versions\n  method: post\n  operationId: createAppVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - extend:apps\n- path: /apps/{appId}/versions/{versionId}\n  method: get\n  operationId: getAppVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - extend:apps\n- path: /apps/{appId}/configurations\n  method: get\n  operationId: listAppConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - extend:apps\n- path: /apps/{appId}/configurations\n  method: put\n  operationId: updateAppConfigurations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n\
   \    - extend:apps\n- path: /apps/{appId}/deployments\n  method: get\n  operationId: listAppDeployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - extend:apps\n- path: /apps/{appId}/deployments\n  method: post\n  operationId: deployApp\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - extend:apps\n- path: /apps/{appId}/deployments/{deploymentId}\n  method: get\n  operationId: getAppDeployment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - extend:apps\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/agentic-access/workday-extend-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workday-extend/agentic-access/workday-extend-agentic-access.yml
 summary_line: 44 operations · 23 acting
 tags:
 - Automation

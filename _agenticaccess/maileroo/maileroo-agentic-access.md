@@ -9,13 +9,13 @@ api_specs:
   label: Maileroo Emails API
   slug: maileroo-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/openapi/maileroo-emails-api-openapi.yml
+  url: https://artifacts.apis.io/maileroo/openapi/maileroo-emails-api-openapi.yml
 - filename: maileroo-scheduled-api-openapi.yml
   format: yaml
   label: Maileroo Scheduled API
   slug: maileroo-scheduled-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/openapi/maileroo-scheduled-api-openapi.yml
+  url: https://artifacts.apis.io/maileroo/openapi/maileroo-scheduled-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 1
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/maileroo-email-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 4\n    connected: 1\n  by_consequence:\n    physical: 3\n    read: 1\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /emails\n  method: post\n  operationId: sendBasicEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /emails/template\n  method: post\n  operationId:\
   \ sendTemplatedEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /emails/bulk\n  method: post\n  operationId: sendBulkEmails\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /emails/scheduled\n  method: get\n  operationId: listScheduledEmails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /emails/scheduled/{reference_id}\n\
   \  method: delete\n  operationId: deleteScheduledEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/agentic-access/maileroo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/maileroo/agentic-access/maileroo-agentic-access.yml
 summary_line: 5 operations · 4 acting
 tags:
 - Email

@@ -8,67 +8,67 @@ api_specs:
   label: Electricity Maps Carbon Intensity API
   slug: electricitymaps-carbon-intensity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-carbon-intensity-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-carbon-intensity-api-openapi.yml
 - filename: electricitymaps-forecast-api-openapi.yml
   format: yaml
   label: Electricity Maps Forecast API
   slug: electricitymaps-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-forecast-api-openapi.yml
 - filename: electricitymaps-health-api-openapi.yml
   format: yaml
   label: Electricity Maps Health API
   slug: electricitymaps-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-health-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-health-api-openapi.yml
 - filename: electricitymaps-power-breakdown-api-openapi.yml
   format: yaml
   label: Electricity Maps Power Breakdown API
   slug: electricitymaps-power-breakdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-power-breakdown-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-power-breakdown-api-openapi.yml
 - filename: electricitymaps-power-consumption-api-openapi.yml
   format: yaml
   label: Electricity Maps Power Consumption API
   slug: electricitymaps-power-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-power-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-power-consumption-api-openapi.yml
 - filename: electricitymaps-power-production-api-openapi.yml
   format: yaml
   label: Electricity Maps Power Production API
   slug: electricitymaps-power-production-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-power-production-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-power-production-api-openapi.yml
 - filename: electricitymaps-zones-api-openapi.yml
   format: yaml
   label: Electricity Maps Zones API
   slug: electricitymaps-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-zones-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-zones-api-openapi.yml
 - filename: electricitymaps-electricitymix-api-openapi.yml
   format: yaml
   label: Electricity Maps Electricity Mix API
   slug: electricitymaps-electricitymix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-electricitymix-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-electricitymix-api-openapi.yml
 - filename: electricitymaps-gridmetrics-api-openapi.yml
   format: yaml
   label: Electricity Maps Grid Metrics API
   slug: electricitymaps-gridmetrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-gridmetrics-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-gridmetrics-api-openapi.yml
 - filename: electricitymaps-pricing-api-openapi.yml
   format: yaml
   label: Electricity Maps Pricing API
   slug: electricitymaps-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-pricing-api-openapi.yml
 - filename: electricitymaps-renewables-api-openapi.yml
   format: yaml
   label: Electricity Maps Renewables API
   slug: electricitymaps-renewables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/openapi/electricitymaps-renewables-api-openapi.yml
+  url: https://artifacts.apis.io/electricitymaps/openapi/electricitymaps-renewables-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/electr
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /power-breakdown/history\n  method: get\n  operationId: getPowerBreakdownHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /power-breakdown/forecast\n  method: get\n  operationId: getPowerBreakdownForecast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /power-consumption-breakdown/latest\n  method: get\n  operationId: getPowerConsumptionBreakdownLatest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /power-production-breakdown/latest\n  method: get\n  operationId: getPowerProductionBreakdownLatest\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/day-ahead-price/{temporality}\n  method: get\n  operationId: getDayAheadPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/renewable-percentage/{temporality}\n  method: get\n  operationId: getRenewablePercentage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/carbon-free-percentage/{temporality}\n  method: get\n  operationId: getCarbonFreePercentage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones\n  method: get\n  operationId: getZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/agentic-access/electricitymaps-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/electricitymaps/agentic-access/electricitymaps-agentic-access.yml
 summary_line: 21 operations
 tags:
 - Energy

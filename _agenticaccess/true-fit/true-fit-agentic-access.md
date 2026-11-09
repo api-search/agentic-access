@@ -9,127 +9,127 @@ api_specs:
   label: True Fit Analytics API
   slug: true-fit-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-analytics-api-openapi.yml
 - filename: true-fit-auth-api-openapi.yml
   format: yaml
   label: True Fit Auth API
   slug: true-fit-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-auth-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-auth-api-openapi.yml
 - filename: true-fit-bra-sizes-api-openapi.yml
   format: yaml
   label: True Fit Bra Sizes API
   slug: true-fit-bra-sizes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-bra-sizes-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-bra-sizes-api-openapi.yml
 - filename: true-fit-brands-api-openapi.yml
   format: yaml
   label: True Fit Brands API
   slug: true-fit-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-brands-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-brands-api-openapi.yml
 - filename: true-fit-checkout-api-openapi.yml
   format: yaml
   label: True Fit Checkout API
   slug: true-fit-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-checkout-api-openapi.yml
 - filename: true-fit-closet-api-openapi.yml
   format: yaml
   label: True Fit Closet API
   slug: true-fit-closet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-closet-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-closet-api-openapi.yml
 - filename: true-fit-discovery-recommendation-api-openapi.yml
   format: yaml
   label: True Fit Discovery Recommendation API
   slug: true-fit-discovery-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-discovery-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-discovery-recommendation-api-openapi.yml
 - filename: true-fit-fit-recommendation-api-openapi.yml
   format: yaml
   label: True Fit Recommendation API
   slug: true-fit-fit-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-fit-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-fit-recommendation-api-openapi.yml
 - filename: true-fit-identity-api-openapi.yml
   format: yaml
   label: True Fit Identity API
   slug: true-fit-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-identity-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-identity-api-openapi.yml
 - filename: true-fit-inseams-api-openapi.yml
   format: yaml
   label: True Fit Inseams API
   slug: true-fit-inseams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-inseams-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-inseams-api-openapi.yml
 - filename: true-fit-measurements-api-openapi.yml
   format: yaml
   label: True Fit Measurements API
   slug: true-fit-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-measurements-api-openapi.yml
 - filename: true-fit-normalized-sizes-api-openapi.yml
   format: yaml
   label: True Fit Normalized Sizes API
   slug: true-fit-normalized-sizes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-normalized-sizes-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-normalized-sizes-api-openapi.yml
 - filename: true-fit-product-ratings-api-openapi.yml
   format: yaml
   label: True Fit Product Ratings API
   slug: true-fit-product-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-product-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-product-ratings-api-openapi.yml
 - filename: true-fit-products-api-openapi.yml
   format: yaml
   label: True Fit Products API
   slug: true-fit-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-products-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-products-api-openapi.yml
 - filename: true-fit-profile-api-openapi.yml
   format: yaml
   label: True Fit Profile API
   slug: true-fit-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-profile-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-profile-api-openapi.yml
 - filename: true-fit-profiles-api-openapi.yml
   format: yaml
   label: True Fit Profiles API
   slug: true-fit-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-profiles-api-openapi.yml
 - filename: true-fit-recommendations-api-openapi.yml
   format: yaml
   label: True Fit Recommendations API
   slug: true-fit-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-recommendations-api-openapi.yml
 - filename: true-fit-sizes-api-openapi.yml
   format: yaml
   label: True Fit Sizes API
   slug: true-fit-sizes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-sizes-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-sizes-api-openapi.yml
 - filename: true-fit-sleeve-lengths-api-openapi.yml
   format: yaml
   label: True Fit Sleeve Lengths API
   slug: true-fit-sleeve-lengths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-sleeve-lengths-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-sleeve-lengths-api-openapi.yml
 - filename: true-fit-style-attributes-api-openapi.yml
   format: yaml
   label: True Fit Style Attributes API
   slug: true-fit-style-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-style-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-style-attributes-api-openapi.yml
 - filename: true-fit-token-api-openapi.yml
   format: yaml
   label: True Fit Token API
   slug: true-fit-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/openapi/true-fit-token-api-openapi.yml
+  url: https://artifacts.apis.io/true-fit/openapi/true-fit-token-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 34
@@ -199,7 +199,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/true-f
   \  method: get\n  operationId: listProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/{partnerId}/profile\n  method: post\n  operationId: createProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/{partnerId}/profile/{profileId}\n  method: put\n  operationId: updateProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/{partnerId}/profile/{profileId}\n  method: delete\n  operationId:\
   \ deleteProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/{partnerId}/profile/{profileId}/recommendation/bulk\n  method: post\n  operationId: getBulkRecommendation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/{partnerId}/general-guidance/bulk\n  method: post\n  operationId: getBulkGeneralGuidance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sizes\n  method: get\n  operationId: getSizes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /sizes/{sizeId}\n  method: get\n  operationId: getSizesBySizeId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sleeve-lengths\n  method: get\n  operationId: getSleeveLengths\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /style-attributes\n  method: get\n  operationId: getStyleAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token\n  method: get\n  operationId: getToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/agentic-access/true-fit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/true-fit/agentic-access/true-fit-agentic-access.yml
 summary_line: 59 operations · 25 acting · 2 human-in-the-loop
 tags:
 - Company

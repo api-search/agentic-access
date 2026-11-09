@@ -9,37 +9,37 @@ api_specs:
   label: Dassault Systèmes Accreditations API
   slug: dassault-accreditations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-accreditations-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-accreditations-api-openapi.yml
 - filename: dassault-leads-opportunities-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Leads Opportunities API
   slug: dassault-leads-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-leads-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-leads-opportunities-api-openapi.yml
 - filename: dassault-orders-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Orders API
   slug: dassault-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-orders-api-openapi.yml
 - filename: dassault-portfolio-items-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Portfolio Items API
   slug: dassault-portfolio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-portfolio-items-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-portfolio-items-api-openapi.yml
 - filename: dassault-price-lists-api-openapi.yml
   format: yaml
   label: Dassault Systèmes Price Lists API
   slug: dassault-price-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-price-lists-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-price-lists-api-openapi.yml
 - filename: dassault-api-keys-api-openapi.yml
   format: yaml
   label: Dassault Systèmes API Keys API
   slug: dassault-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/openapi/dassault-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/dassault/openapi/dassault-api-keys-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dassau
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/api4partners/v0/apikeys\n  method: post\n  operationId: generateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sales/api4partners/v0/leads-opportunities\n  method: post\n  operationId: createLeadsOpportunities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sales/api4partners/v0/leads-opportunities/{id}\n  method: patch\n  operationId: updateLeadOpportunitiesDetails\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sales/api4partners/v0/leads-opportunities/{id}\n  method: get\n  operationId: getLeadsOpportunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sales/api4partners/v0/leads-opportunities/search\n  method: post\n  operationId: searchLeadsOpportunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/api4partners/v0/orders/search\n  method: post\n  operationId: searchOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /order/api4partners/v0/orders/{id}\n  method: get\n  operationId: getOrderDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sales/api4partners/v0/portfolio-items/search\n  method: get\n  operationId: searchPortfolioItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/api4partners/v0/price-lists/search\n  method: get\n  operationId: searchPriceList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/agentic-access/dassault-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dassault/agentic-access/dassault-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - 3DEXPERIENCE

@@ -8,13 +8,13 @@ api_specs:
   label: Common Sense Media Reviews API
   slug: common-sense-media-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/openapi/common-sense-media-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/common-sense-media/openapi/common-sense-media-reviews-api-openapi.yml
 - filename: common-sense-media-system-api-openapi.yml
   format: yaml
   label: Common Sense Media System API
   slug: common-sense-media-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/openapi/common-sense-media-system-api-openapi.yml
+  url: https://artifacts.apis.io/common-sense-media/openapi/common-sense-media-system-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/common-sense-media-reviews-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /reviews\n  method: get\n  operationId: reviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reviews/{reviewId}\n  method: get\n  operationId: reviewById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reviews/terms/{fieldName}\n  method: get\n  operationId:\
   \ allowedValuesByField\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system/ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/agentic-access/common-sense-media-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/common-sense-media/agentic-access/common-sense-media-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Application

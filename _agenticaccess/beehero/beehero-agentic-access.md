@@ -9,25 +9,25 @@ api_specs:
   label: BeeHero Audio API
   slug: beehero-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/openapi/beehero-audio-api-openapi.yml
+  url: https://artifacts.apis.io/beehero/openapi/beehero-audio-api-openapi.yml
 - filename: beehero-auth-api-openapi.yml
   format: yaml
   label: BeeHero Auth API
   slug: beehero-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/openapi/beehero-auth-api-openapi.yml
+  url: https://artifacts.apis.io/beehero/openapi/beehero-auth-api-openapi.yml
 - filename: beehero-gateways-api-openapi.yml
   format: yaml
   label: BeeHero Gateways API
   slug: beehero-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/openapi/beehero-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/beehero/openapi/beehero-gateways-api-openapi.yml
 - filename: beehero-sensors-api-openapi.yml
   format: yaml
   label: BeeHero Sensors API
   slug: beehero-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/openapi/beehero-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/beehero/openapi/beehero-sensors-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/beeher
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/remove_skip_remote\n  method: put\n  operationId: remove_skip_remote_from_gateway_config\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/gateway_config_status\n  method: post\n  operationId: get_gateway_config_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/movement_interrupt\n  method: put\n  operationId: movement_interrupt_gateway_config\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/rssi_configuration\n  method: put\n  operationId: rssi_configuration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sensors/samples\n  method: post\n  operationId: get_sensors_sample_by_mac_address\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sensors/samples_connected\n  method: post\n  operationId: get_sensors_connected_by_gateway_mac\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sensors/update_sensor_name\n  method: put\n  operationId:\
   \ update_sensor_name\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/agentic-access/beehero-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beehero/agentic-access/beehero-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Company

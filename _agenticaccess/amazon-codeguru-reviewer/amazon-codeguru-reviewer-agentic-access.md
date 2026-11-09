@@ -9,25 +9,25 @@ api_specs:
   label: Amazon CodeGuru Reviewer Associations API
   slug: amazon-codeguru-reviewer-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/openapi/amazon-codeguru-reviewer-associations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-reviewer/openapi/amazon-codeguru-reviewer-associations-api-openapi.yml
 - filename: amazon-codeguru-reviewer-codereviews-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Reviewer Codereviews API
   slug: amazon-codeguru-reviewer-codereviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/openapi/amazon-codeguru-reviewer-codereviews-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-reviewer/openapi/amazon-codeguru-reviewer-codereviews-api-openapi.yml
 - filename: amazon-codeguru-reviewer-feedback-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Reviewer Feedback API
   slug: amazon-codeguru-reviewer-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/openapi/amazon-codeguru-reviewer-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-reviewer/openapi/amazon-codeguru-reviewer-feedback-api-openapi.yml
 - filename: amazon-codeguru-reviewer-tags-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Reviewer Tags API
   slug: amazon-codeguru-reviewer-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/openapi/amazon-codeguru-reviewer-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-reviewer/openapi/amazon-codeguru-reviewer-tags-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -58,10 +58,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  method: get\n  operationId: DescribeRepositoryAssociation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /associations/{AssociationArn}\n  method: delete\n  operationId: DisassociateRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /codereviews#Type\n  method: get\n  operationId: ListCodeReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feedback/{CodeReviewArn}/RecommendationFeedback\n  method: get\n  operationId: ListRecommendationFeedback\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /codereviews/{CodeReviewArn}/Recommendations\n  method: get\n  operationId: ListRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback\n  method: put\n  operationId: PutRecommendationFeedback\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/agentic-access/amazon-codeguru-reviewer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-codeguru-reviewer/agentic-access/amazon-codeguru-reviewer-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Amazon
+- Amazon Web Services
 - Code Review
 - Security
 - DevOps

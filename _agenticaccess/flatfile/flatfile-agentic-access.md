@@ -9,193 +9,193 @@ api_specs:
   label: Flatfile Subpackage Accounts API
   slug: flatfile-subpackage-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-accounts-api-openapi.yml
 - filename: flatfile-subpackage-actions-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Actions API
   slug: flatfile-subpackage-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-actions-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-actions-api-openapi.yml
 - filename: flatfile-subpackage-agent-exports-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Agent Exports API
   slug: flatfile-subpackage-agent-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-agent-exports-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-agent-exports-api-openapi.yml
 - filename: flatfile-subpackage-agents-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Agents API
   slug: flatfile-subpackage-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-agents-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-agents-api-openapi.yml
 - filename: flatfile-subpackage-apps-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Apps API
   slug: flatfile-subpackage-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-apps-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-apps-api-openapi.yml
 - filename: flatfile-subpackage-assistant-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Assistant API
   slug: flatfile-subpackage-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-assistant-api-openapi.yml
 - filename: flatfile-subpackage-auth-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Auth API
   slug: flatfile-subpackage-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-auth-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-auth-api-openapi.yml
 - filename: flatfile-subpackage-canvas-areas-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Canvas Areas API
   slug: flatfile-subpackage-canvas-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-canvas-areas-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-canvas-areas-api-openapi.yml
 - filename: flatfile-subpackage-commits-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Commits API
   slug: flatfile-subpackage-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-commits-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-commits-api-openapi.yml
 - filename: flatfile-subpackage-data-clips-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Data Clips API
   slug: flatfile-subpackage-data-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-data-clips-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-data-clips-api-openapi.yml
 - filename: flatfile-subpackage-data-retention-policies-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Data Retention Policies API
   slug: flatfile-subpackage-data-retention-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-data-retention-policies-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-data-retention-policies-api-openapi.yml
 - filename: flatfile-subpackage-documents-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Documents API
   slug: flatfile-subpackage-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-documents-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-documents-api-openapi.yml
 - filename: flatfile-subpackage-entitlements-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Entitlements API
   slug: flatfile-subpackage-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-entitlements-api-openapi.yml
 - filename: flatfile-subpackage-environments-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Environments API
   slug: flatfile-subpackage-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-environments-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-environments-api-openapi.yml
 - filename: flatfile-subpackage-events-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Events API
   slug: flatfile-subpackage-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-events-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-events-api-openapi.yml
 - filename: flatfile-subpackage-files-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Files API
   slug: flatfile-subpackage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-files-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-files-api-openapi.yml
 - filename: flatfile-subpackage-flags-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Flags API
   slug: flatfile-subpackage-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-flags-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-flags-api-openapi.yml
 - filename: flatfile-subpackage-guests-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Guests API
   slug: flatfile-subpackage-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-guests-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-guests-api-openapi.yml
 - filename: flatfile-subpackage-jobs-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Jobs API
   slug: flatfile-subpackage-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-jobs-api-openapi.yml
 - filename: flatfile-subpackage-mapping-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Mapping API
   slug: flatfile-subpackage-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-mapping-api-openapi.yml
 - filename: flatfile-subpackage-records-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Records API
   slug: flatfile-subpackage-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-records-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-records-api-openapi.yml
 - filename: flatfile-subpackage-roles-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Roles API
   slug: flatfile-subpackage-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-roles-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-roles-api-openapi.yml
 - filename: flatfile-subpackage-routines-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Routines API
   slug: flatfile-subpackage-routines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-routines-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-routines-api-openapi.yml
 - filename: flatfile-subpackage-runbooks-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Runbooks API
   slug: flatfile-subpackage-runbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-runbooks-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-runbooks-api-openapi.yml
 - filename: flatfile-subpackage-secrets-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Secrets API
   slug: flatfile-subpackage-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-secrets-api-openapi.yml
 - filename: flatfile-subpackage-sheets-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Sheets API
   slug: flatfile-subpackage-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-sheets-api-openapi.yml
 - filename: flatfile-subpackage-snapshots-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Snapshots API
   slug: flatfile-subpackage-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-snapshots-api-openapi.yml
 - filename: flatfile-subpackage-spaces-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Spaces API
   slug: flatfile-subpackage-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-spaces-api-openapi.yml
 - filename: flatfile-subpackage-users-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Users API
   slug: flatfile-subpackage-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-users-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-users-api-openapi.yml
 - filename: flatfile-subpackage-versions-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Versions API
   slug: flatfile-subpackage-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-versions-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-versions-api-openapi.yml
 - filename: flatfile-subpackage-views-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Views API
   slug: flatfile-subpackage-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-views-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-views-api-openapi.yml
 - filename: flatfile-subpackage-workbooks-api-openapi.yml
   format: yaml
   label: Flatfile Subpackage Workbooks API
   slug: flatfile-subpackage-workbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/openapi/flatfile-subpackage-workbooks-api-openapi.yml
+  url: https://artifacts.apis.io/flatfile/openapi/flatfile-subpackage-workbooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 94
@@ -261,8 +261,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flatfi
   \   - abnormal\n      - high-value\n    audit: required\n- path: /guests/{guestId}\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guests/{guestId}\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guests/{guestId}\n  method: patch\n  operationId: update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guests/{guestId}/token\n  method: get\n\
   \  operationId: get-guest-token\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guests/{guestId}/roles\n  method: get\n  operationId: list-guest-roles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guests/{guestId}/roles\n  method: post\n  operationId: assign-guest-role\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guests/{guestId}/roles/{actorRoleId}\n  method: delete\n  operationId: delete-guest-role\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invitations\n  method: post\n  operationId: invite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  \n\n# --- truncated at 32 KB (61 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/agentic-access/flatfile-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/agentic-access/flatfile-agentic-access.yml
+  \n\n# --- truncated at 32 KB (61 KB total) ---\n# Full source: https://artifacts.apis.io/flatfile/agentic-access/flatfile-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/flatfile/agentic-access/flatfile-agentic-access.yml
 summary_line: 222 operations · 128 acting
 tags:
 - Data Exchange

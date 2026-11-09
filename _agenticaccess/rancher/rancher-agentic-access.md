@@ -9,49 +9,49 @@ api_specs:
   label: Rancher Apps API
   slug: rancher-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-apps-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-apps-api-openapi.yml
 - filename: rancher-catalogs-api-openapi.yml
   format: yaml
   label: Rancher Catalogs API
   slug: rancher-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-catalogs-api-openapi.yml
 - filename: rancher-clusters-api-openapi.yml
   format: yaml
   label: Rancher Clusters API
   slug: rancher-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-clusters-api-openapi.yml
 - filename: rancher-nodes-api-openapi.yml
   format: yaml
   label: Rancher Nodes API
   slug: rancher-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-nodes-api-openapi.yml
 - filename: rancher-projects-api-openapi.yml
   format: yaml
   label: Rancher Projects API
   slug: rancher-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-projects-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-projects-api-openapi.yml
 - filename: rancher-roles-api-openapi.yml
   format: yaml
   label: Rancher Roles API
   slug: rancher-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-roles-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-roles-api-openapi.yml
 - filename: rancher-tokens-api-openapi.yml
   format: yaml
   label: Rancher Tokens API
   slug: rancher-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-tokens-api-openapi.yml
 - filename: rancher-users-api-openapi.yml
   format: yaml
   label: Rancher Users API
   slug: rancher-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/openapi/rancher-users-api-openapi.yml
+  url: https://artifacts.apis.io/rancher/openapi/rancher-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 4
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ranche
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{id}\n  method: get\n  operationId: getCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{id}\n  method: delete\n  operationId: deleteCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nodes\n  method: get\n  operationId: listNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: get\n  operationId: listTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catalogs\n  method: get\n  operationId: listCatalogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /roleTemplates\n  method: get\n  operationId: listRoleTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/agentic-access/rancher-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rancher/agentic-access/rancher-agentic-access.yml
 summary_line: 13 operations · 4 acting
 tags:
 - Cluster Management

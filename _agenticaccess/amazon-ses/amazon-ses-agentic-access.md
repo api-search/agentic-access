@@ -9,7 +9,7 @@ api_specs:
   label: Amazon SES Email API
   slug: amazon-ses-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-email-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ses/openapi/amazon-ses-email-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 32
@@ -91,9 +91,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ required\n- path: /v2/email/identities/{EmailIdentity}/mail-from\n  method: put\n  operationId: PutEmailIdentityMailFromAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/email/outbound-bulk-emails\n  method: post\n  operationId: SendBulkEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/email/outbound-custom-verification-emails\n  method: post\n  operationId: SendCustomVerificationEmail\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/email/outbound-emails\n  method: post\n  operationId: SendEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/email/tags\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v2/email/templates/{TemplateName}/render\n  method: post\n  operationId: TestRenderEmailTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/email/tags#ResourceArn&TagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/agentic-access/amazon-ses-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-ses/agentic-access/amazon-ses-agentic-access.yml
 summary_line: 86 operations · 54 acting
 tags:
+- Amazon Web Services
 - Email
 - Email Deliverability
 - Email Service

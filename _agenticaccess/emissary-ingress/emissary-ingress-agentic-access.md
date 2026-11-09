@@ -9,31 +9,31 @@ api_specs:
   label: Emissary-Ingress Host API
   slug: emissary-ingress-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-host-api-openapi.yml
+  url: https://artifacts.apis.io/emissary-ingress/openapi/emissary-ingress-host-api-openapi.yml
 - filename: emissary-ingress-mapping-api-openapi.yml
   format: yaml
   label: Emissary-Ingress Mapping API
   slug: emissary-ingress-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/emissary-ingress/openapi/emissary-ingress-mapping-api-openapi.yml
 - filename: emissary-ingress-ratelimitservice-api-openapi.yml
   format: yaml
   label: Emissary-Ingress RateLimitService API
   slug: emissary-ingress-ratelimitservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-ratelimitservice-api-openapi.yml
+  url: https://artifacts.apis.io/emissary-ingress/openapi/emissary-ingress-ratelimitservice-api-openapi.yml
 - filename: emissary-ingress-tlscontext-api-openapi.yml
   format: yaml
   label: Emissary-Ingress TLSContext API
   slug: emissary-ingress-tlscontext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-tlscontext-api-openapi.yml
+  url: https://artifacts.apis.io/emissary-ingress/openapi/emissary-ingress-tlscontext-api-openapi.yml
 - filename: emissary-ingress-auth-service-api-openapi.yml
   format: yaml
   label: Emissary-Ingress Auth Service API
   slug: emissary-ingress-auth-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-auth-service-api-openapi.yml
+  url: https://artifacts.apis.io/emissary-ingress/openapi/emissary-ingress-auth-service-api-openapi.yml
 consequence_counts:
   read: 9
   write: 11
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/emissa
   \  method: post\n  operationId: createNamespacedTLSContext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/tlscontexts/{name}\n  method: get\n  operationId: readNamespacedTLSContext\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/tlscontexts/{name}\n  method: delete\n  operationId: deleteNamespacedTLSContext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/ratelimitservices\n  method: get\n  operationId: listNamespacedRateLimitService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/ratelimitservices\n  method: post\n  operationId: createNamespacedRateLimitService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/authservices\n  method: get\n  operationId: listNamespacedAuthService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /apis/getambassador.io/v3alpha1/namespaces/{namespace}/authservices\n  method: post\n  operationId: createNamespacedAuthService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/agentic-access/emissary-ingress-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/emissary-ingress/agentic-access/emissary-ingress-agentic-access.yml
 summary_line: 20 operations · 11 acting
 tags:
 - API Gateway

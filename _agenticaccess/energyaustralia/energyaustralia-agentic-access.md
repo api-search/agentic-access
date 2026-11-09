@@ -8,55 +8,55 @@ api_specs:
   label: EnergyAustralia Data Holder Customers API
   slug: energyaustralia-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-data-holder-customers-api-openapi.yml
 - filename: energyaustralia-data-holder-operations-api-openapi.yml
   format: yaml
   label: EnergyAustralia Data Holder Operations API
   slug: energyaustralia-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-data-holder-operations-api-openapi.yml
 - filename: energyaustralia-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: EnergyAustralia Distributed Energy Resources API
   slug: energyaustralia-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-distributed-energy-resources-api-openapi.yml
 - filename: energyaustralia-electricity-service-points-api-openapi.yml
   format: yaml
   label: EnergyAustralia Electricity Service Points API
   slug: energyaustralia-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-electricity-service-points-api-openapi.yml
 - filename: energyaustralia-electricity-usage-api-openapi.yml
   format: yaml
   label: EnergyAustralia Electricity Usage API
   slug: energyaustralia-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-electricity-usage-api-openapi.yml
 - filename: energyaustralia-energy-account-balances-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Account Balances API
   slug: energyaustralia-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-account-balances-api-openapi.yml
 - filename: energyaustralia-energy-account-billing-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Account Billing API
   slug: energyaustralia-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-account-billing-api-openapi.yml
 - filename: energyaustralia-energy-accounts-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Accounts API
   slug: energyaustralia-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-accounts-api-openapi.yml
 - filename: energyaustralia-energy-plans-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Plans API
   slug: energyaustralia-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-plans-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/energy
   \ /energy/accounts/invoices\n  method: get\n  operationId: listEnergyAccountInvoicesBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/invoices\n  method: post\n  operationId: listEnergyInvoicesForSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/billing\n  method: get\n  operationId: getBillingForEnergyAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/billing\n  method: get\n  operationId: listEnergyAccountBillingBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/billing\n\
   \  method: post\n  operationId: listEnergyAccountBillingForSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts\n  method: get\n  operationId: listEnergyAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}\n  method: get\n  operationId: getEnergyAccountDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/payment-schedule\n  method: get\n  operationId: getEnergyAccountPaymentSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/concessions\n  method:\
   \ get\n  operationId: getEnergyAccountConcessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans\n  method: get\n  operationId: listEnergyPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans/{planId}\n  method: get\n  operationId: getEnergyPlanDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/agentic-access/energyaustralia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/energyaustralia/agentic-access/energyaustralia-agentic-access.yml
 summary_line: 27 operations
 tags:
 - Energy

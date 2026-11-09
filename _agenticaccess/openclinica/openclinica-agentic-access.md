@@ -9,37 +9,37 @@ api_specs:
   label: OpenClinica Authentication API
   slug: openclinica-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-authentication-api-openapi.yml
 - filename: openclinica-bulk-operations-api-openapi.yml
   format: yaml
   label: OpenClinica Bulk Operations API
   slug: openclinica-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-bulk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-bulk-operations-api-openapi.yml
 - filename: openclinica-clinical-data-api-openapi.yml
   format: yaml
   label: OpenClinica Clinical Data API
   slug: openclinica-clinical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-clinical-data-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-clinical-data-api-openapi.yml
 - filename: openclinica-metadata-api-openapi.yml
   format: yaml
   label: OpenClinica Metadata API
   slug: openclinica-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-metadata-api-openapi.yml
 - filename: openclinica-participants-api-openapi.yml
   format: yaml
   label: OpenClinica Participants API
   slug: openclinica-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-participants-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-participants-api-openapi.yml
 - filename: openclinica-study-events-api-openapi.yml
   format: yaml
   label: OpenClinica Study Events API
   slug: openclinica-study-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/openapi/openclinica-study-events-api-openapi.yml
+  url: https://artifacts.apis.io/openclinica/openapi/openclinica-study-events-api-openapi.yml
 consequence_counts:
   read: 5
   write: 9
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/opencl
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pages/auth/api/clinicaldata/studies/{studyOID}/events\n  method: post\n  operationId: createBulkStudyEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pages/auth/api/clinicaldata/studies/{studyOID}/sites/{siteOID}/events\n  method: post\n  operationId: createStudyEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pages/auth/api/clinicaldata/studies/{studyOID}/sites/{siteOID}/events\n  method: put\n  operationId: updateStudyEvent\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pages/auth/api/clinicaldata/{studyOID}/{participantOID}/{studyEventOID}/{formOID}\n  method: get\n  operationId: getClinicalData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages/auth/api/clinicaldata\n  method: post\n  operationId: importClinicalData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pages/auth/api/clinicaldata/metadata/{studyOID}\n  method: get\n\
   \  operationId: getStudyMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages/auth/api/bulkActionsLog\n  method: get\n  operationId: getBulkActionsLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/agentic-access/openclinica-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openclinica/agentic-access/openclinica-agentic-access.yml
 summary_line: 14 operations · 9 acting
 tags:
 - Clinical Trials

@@ -9,25 +9,25 @@ api_specs:
   label: Qlik Apps API
   slug: qlik-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/openapi/qlik-apps-api-openapi.yml
+  url: https://artifacts.apis.io/qlik/openapi/qlik-apps-api-openapi.yml
 - filename: qlik-evaluation-api-openapi.yml
   format: yaml
   label: Qlik Evaluation API
   slug: qlik-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/openapi/qlik-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/qlik/openapi/qlik-evaluation-api-openapi.yml
 - filename: qlik-filters-api-openapi.yml
   format: yaml
   label: Qlik Filters API
   slug: qlik-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/openapi/qlik-filters-api-openapi.yml
+  url: https://artifacts.apis.io/qlik/openapi/qlik-filters-api-openapi.yml
 - filename: qlik-insight-analyses-api-openapi.yml
   format: yaml
   label: Qlik Insight Analyses API
   slug: qlik-insight-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/openapi/qlik-insight-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/qlik/openapi/qlik-insight-analyses-api-openapi.yml
 consequence_counts:
   read: 24
   write: 24
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/apps.j
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/evaluations/{baseid}/actions/compare/{comparisonid}\n  method: get\n  operationId: evaluation#compareTwo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/evaluations/{baseid}/actions/compare/{comparisonid}/actions/download\n  method: get\n  operationId: evaluation#downloadCompareTwo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/evaluations/{id}\n  method: get\n  operationId: evaluation#getOneEvaluation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/evaluations/{id}/actions/download\n  method: get\n\
   \  operationId: evaluation#downloadOneEvaluation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/import\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/privileges\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/validatescript\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/agentic-access/qlik-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qlik/agentic-access/qlik-agentic-access.yml
 summary_line: 48 operations · 24 acting
 tags:
 - Security

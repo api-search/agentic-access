@@ -9,73 +9,73 @@ api_specs:
   label: Google Artifact Registry DockerImages API
   slug: google-artifact-registry-dockerimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-dockerimages-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-dockerimages-api-openapi.yml
 - filename: google-artifact-registry-files-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Files API
   slug: google-artifact-registry-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-files-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-files-api-openapi.yml
 - filename: google-artifact-registry-google-artifact-registry-api-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Google Artifact Registry API
   slug: google-artifact-registry-google-artifact-registry-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-google-artifact-registry-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-google-artifact-registry-api-api-openapi.yml
 - filename: google-artifact-registry-locations-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Locations API
   slug: google-artifact-registry-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-locations-api-openapi.yml
 - filename: google-artifact-registry-mavenartifacts-api-openapi.yml
   format: yaml
   label: Google Artifact Registry MavenArtifacts API
   slug: google-artifact-registry-mavenartifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-mavenartifacts-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-mavenartifacts-api-openapi.yml
 - filename: google-artifact-registry-npmpackages-api-openapi.yml
   format: yaml
   label: Google Artifact Registry NpmPackages API
   slug: google-artifact-registry-npmpackages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-npmpackages-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-npmpackages-api-openapi.yml
 - filename: google-artifact-registry-packages-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Packages API
   slug: google-artifact-registry-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-packages-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-packages-api-openapi.yml
 - filename: google-artifact-registry-pythonpackages-api-openapi.yml
   format: yaml
   label: Google Artifact Registry PythonPackages API
   slug: google-artifact-registry-pythonpackages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-pythonpackages-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-pythonpackages-api-openapi.yml
 - filename: google-artifact-registry-repositories-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Repositories API
   slug: google-artifact-registry-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-repositories-api-openapi.yml
 - filename: google-artifact-registry-tags-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Tags API
   slug: google-artifact-registry-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-tags-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-tags-api-openapi.yml
 - filename: google-artifact-registry-versions-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Versions API
   slug: google-artifact-registry-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-versions-api-openapi.yml
 - filename: google-artifact-registry-projects-api-openapi.yml
   format: yaml
   label: Google Artifact Registry Projects API
   slug: google-artifact-registry-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-artifact-registry/openapi/google-artifact-registry-projects-api-openapi.yml
 consequence_counts:
   read: 12
   write: 6
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/dockerImages\n  method: get\n  operationId: listDockerImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/mavenArtifacts\n  method: get\n  operationId: listMavenArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/npmPackages\n  method: get\n  operationId: listNpmPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n   \
   \ scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/pythonPackages\n  method: get\n  operationId: listPythonPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{resource}:setIamPolicy\n  method: post\n  operationId: setIamPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{resource}:getIamPolicy\n  method: get\n  operationId: getIamPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{resource}:testIamPermissions\n  method: post\n  operationId: testIamPermissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/agentic-access/google-artifact-registry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-artifact-registry/agentic-access/google-artifact-registry-agentic-access.yml
 summary_line: 18 operations · 6 acting
 tags:
 - Artifacts

@@ -9,7 +9,7 @@ api_specs:
   label: Liferay Roles API
   slug: liferay-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/openapi/liferay-roles-api-openapi.yml
+  url: https://artifacts.apis.io/liferay/openapi/liferay-roles-api-openapi.yml
 consequence_counts:
   read: 2
   write: 6
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lifera
   \ post\n  operationId: associateRoleToUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /roles/{roleId}/association/user-account/{userId}\n  method: delete\n  operationId: dissociateRoleFromUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /roles/{roleId}/association/user-account/{userId}/site/{siteId}\n  method: post\n  operationId: associateSiteRoleToUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /roles/{roleId}/association/user-account/{userId}/site/{siteId}\n  method: delete\n  operationId: dissociateSiteRoleFromUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /roles/{roleId}/association/user-account/{userId}/organization/{orgId}\n  method: post\n  operationId: associateOrgRoleToUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /roles/{roleId}/association/user-account/{userId}/organization/{orgId}\n\
   \  method: delete\n  operationId: dissociateOrgRoleFromUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/agentic-access/liferay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liferay/agentic-access/liferay-agentic-access.yml
 summary_line: 8 operations · 6 acting
 tags:
 - Open Source

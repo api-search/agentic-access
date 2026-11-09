@@ -9,43 +9,43 @@ api_specs:
   label: Recal Organization API
   slug: recal-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recal/refs/heads/main/openapi/recal-organization-api-openapi.yml
+  url: https://artifacts.apis.io/recal/openapi/recal-organization-api-openapi.yml
 - filename: recal-organization-scheduling-api-openapi.yml
   format: yaml
   label: Recal Organization Scheduling API
   slug: recal-organization-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recal/refs/heads/main/openapi/recal-organization-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/recal/openapi/recal-organization-scheduling-api-openapi.yml
 - filename: recal-organizations-calendar-api-openapi.yml
   format: yaml
   label: Recal Organizations Calendar API
   slug: recal-organizations-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recal/refs/heads/main/openapi/recal-organizations-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/recal/openapi/recal-organizations-calendar-api-openapi.yml
 - filename: recal-user-calendar-api-openapi.yml
   format: yaml
   label: Recal User Calendar API
   slug: recal-user-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recal/refs/heads/main/openapi/recal-user-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/recal/openapi/recal-user-calendar-api-openapi.yml
 - filename: recal-user-oauth-api-openapi.yml
   format: yaml
   label: Recal User OAuth API
   slug: recal-user-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recal/refs/heads/main/openapi/recal-user-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/recal/openapi/recal-user-oauth-api-openapi.yml
 - filename: recal-user-scheduling-api-openapi.yml
   format: yaml
   label: Recal User Scheduling API
   slug: recal-user-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recal/refs/heads/main/openapi/recal-user-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/recal/openapi/recal-user-scheduling-api-openapi.yml
 - filename: recal-users-api-openapi.yml
   format: yaml
   label: Recal Users API
   slug: recal-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recal/refs/heads/main/openapi/recal-users-api-openapi.yml
+  url: https://artifacts.apis.io/recal/openapi/recal-users-api-openapi.yml
 consequence_counts:
   read: 19
   write: 19
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/recal-
   \ 3600\n    audit: none\n- path: /v1/users/oauth/{provider}/verify\n  method: post\n  operationId: postV1UsersOauthByProviderVerify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{userId}/oauth/{provider}\n  method: get\n  operationId: getV1UsersByUserIdOauthByProvider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}/oauth/{provider}\n  method: post\n  operationId: postV1UsersByUserIdOauthByProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{userId}/oauth/{provider}\n  method: delete\n  operationId: deleteV1UsersByUserIdOauthByProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{userId}/oauth/{provider}/token\n  method: get\n  operationId: getV1UsersByUserIdOauthByProviderToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}/scheduling\n  method: get\n  operationId: getV1UsersByUserIdScheduling\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}/scheduling\n\
   \  method: post\n  operationId: postV1UsersByUserIdScheduling\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/scheduling\n  method: post\n  operationId: postV1UsersScheduling\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recal/refs/heads/main/agentic-access/recal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/recal/agentic-access/recal-agentic-access.yml
 summary_line: 38 operations · 19 acting
 tags:
 - Calendar API

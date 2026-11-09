@@ -9,25 +9,25 @@ api_specs:
   label: Mockaroo Datasets API
   slug: mockaroo-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/mockaroo/openapi/mockaroo-datasets-api-openapi.yml
 - filename: mockaroo-downloads-api-openapi.yml
   format: yaml
   label: Mockaroo Downloads API
   slug: mockaroo-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/mockaroo/openapi/mockaroo-downloads-api-openapi.yml
 - filename: mockaroo-generate-api-openapi.yml
   format: yaml
   label: Mockaroo Generate API
   slug: mockaroo-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-generate-api-openapi.yml
+  url: https://artifacts.apis.io/mockaroo/openapi/mockaroo-generate-api-openapi.yml
 - filename: mockaroo-types-api-openapi.yml
   format: yaml
   label: Mockaroo Types API
   slug: mockaroo-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/openapi/mockaroo-types-api-openapi.yml
+  url: https://artifacts.apis.io/mockaroo/openapi/mockaroo-types-api-openapi.yml
 consequence_counts:
   read: 2
   write: 9
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mockar
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/generate.sql\n  method: post\n  operationId: generateSql\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/generate.xml\n  method: post\n  operationId: generateXml\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/datasets/{name}\n  method: post\n  operationId: uploadDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/datasets/{name}\n  method: delete\n  operationId: deleteDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/downloads/{id}\n  method: get\n  operationId: getDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/downloads/{id}\n  method: delete\n  operationId: cancelDownload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/agentic-access/mockaroo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mockaroo/agentic-access/mockaroo-agentic-access.yml
 summary_line: 11 operations · 9 acting
 tags:
 - Test Data

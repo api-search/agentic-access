@@ -9,25 +9,25 @@ api_specs:
   label: Ozow Banks API
   slug: ozow-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-banks-api-openapi.yml
+  url: https://artifacts.apis.io/ozow/openapi/ozow-banks-api-openapi.yml
 - filename: ozow-payments-api-openapi.yml
   format: yaml
   label: Ozow Payments API
   slug: ozow-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ozow/openapi/ozow-payments-api-openapi.yml
 - filename: ozow-refunds-api-openapi.yml
   format: yaml
   label: Ozow Refunds API
   slug: ozow-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/ozow/openapi/ozow-refunds-api-openapi.yml
 - filename: ozow-transactions-api-openapi.yml
   format: yaml
   label: Ozow Transactions API
   slug: ozow-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/openapi/ozow-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ozow/openapi/ozow-transactions-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -59,7 +59,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/ozow-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the modeled OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. Payment initiation and refunds move money and should require\n  human-in-the-loop by default. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 2\n    connected: 3\n  by_consequence:\n    write: 2\n    read: 3\n  human_in_the_loop_required: 2\noperations:\n- path: /postpaymentrequest\n  method: post\n  operationId: postPaymentRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - high-value\n      - abnormal\n    audit: required\n\
   - path: /GetTransaction\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetTransactionByReference\n  method: get\n  operationId: getTransactionByReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetBanks\n  method: get\n  operationId: getBanks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PostRefundRequest\n  method: post\n  operationId: postRefundRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - refund\n     \
   \ - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/agentic-access/ozow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ozow/agentic-access/ozow-agentic-access.yml
 summary_line: 5 operations · 2 acting · 2 human-in-the-loop
 tags:
 - Payments

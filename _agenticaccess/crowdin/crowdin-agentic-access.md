@@ -9,43 +9,43 @@ api_specs:
   label: Crowdin Files API
   slug: crowdin-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-files-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-files-api-openapi.yml
 - filename: crowdin-glossaries-api-openapi.yml
   format: yaml
   label: Crowdin Glossaries API
   slug: crowdin-glossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-glossaries-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-glossaries-api-openapi.yml
 - filename: crowdin-projects-api-openapi.yml
   format: yaml
   label: Crowdin Projects API
   slug: crowdin-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-projects-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-projects-api-openapi.yml
 - filename: crowdin-screenshots-api-openapi.yml
   format: yaml
   label: Crowdin Screenshots API
   slug: crowdin-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-screenshots-api-openapi.yml
 - filename: crowdin-sourcestrings-api-openapi.yml
   format: yaml
   label: Crowdin SourceStrings API
   slug: crowdin-sourcestrings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-sourcestrings-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-sourcestrings-api-openapi.yml
 - filename: crowdin-stringtranslations-api-openapi.yml
   format: yaml
   label: Crowdin StringTranslations API
   slug: crowdin-stringtranslations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-stringtranslations-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-stringtranslations-api-openapi.yml
 - filename: crowdin-webhooks-api-openapi.yml
   format: yaml
   label: Crowdin Webhooks API
   slug: crowdin-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/openapi/crowdin-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/crowdin/openapi/crowdin-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   write: 12
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/crowdi
   - path: /projects/{projectId}/screenshots\n  method: get\n  operationId: listScreenshots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/screenshots\n  method: post\n  operationId: addScreenshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /glossaries\n  method: get\n  operationId: listGlossaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /glossaries\n  method: post\n  operationId: addGlossary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /glossaries/{glossaryId}\n  method: get\n  operationId: getGlossary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /glossaries/{glossaryId}\n  method: delete\n  operationId: deleteGlossary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/webhooks\n\
   \  method: post\n  operationId: addWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/agentic-access/crowdin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crowdin/agentic-access/crowdin-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Localization

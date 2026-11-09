@@ -7,31 +7,31 @@ api_specs:
   label: Eventwren Accounts API
   slug: eventwren-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-accounts-api-openapi.yml
 - filename: eventwren-discovery-api-openapi.yml
   format: yaml
   label: Eventwren Discovery API
   slug: eventwren-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-discovery-api-openapi.yml
 - filename: eventwren-posts-api-openapi.yml
   format: yaml
   label: Eventwren Posts API
   slug: eventwren-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-posts-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-posts-api-openapi.yml
 - filename: eventwren-webhooks-api-openapi.yml
   format: yaml
   label: Eventwren Webhooks API
   slug: eventwren-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-webhooks-api-openapi.yml
 - filename: eventwren-oauth-api-openapi.yml
   format: yaml
   label: Eventwren OAuth API
   slug: eventwren-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-oauth-api-openapi.yml
 consequence_counts: {}
 description: What calling each eventwren.com operation does, and whether a person should be involved. Read from the x-agentic-access extension in https://eventwren.com/openapi-site.yml.
 human_in_the_loop: 0
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-10-05'\nmethod: authored\nsource: https://eventwr
   \    reversible: false\n    notes: Emails a person; a sent email cannot be recalled. The consent page calls it for the human who is approving,\n      not an agent.\n- operationId: decideOAuthConsent\n  method: POST\n  path: /v1/oauth/approve\n  tools: []\n  x-agentic-access:\n    action-class: connected\n    consequence: write\n    human-in-the-loop: required\n    reversible: true\n    notes: Grants an app access to the account. Only the owner, signed in from their email, can approve; agent-grade\n      links are refused. Undo by revoking the tokens (revokeOAuthToken).\n- operationId: exchangeOAuthToken\n  method: POST\n  path: /v1/oauth/token\n  tools: []\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    human-in-the-loop: none\n    reversible: true\n    notes: Issues tokens for an authorization the account owner already approved; it cannot widen what they granted.\n      Revoke with revokeOAuthToken.\n- operationId: revokeOAuthToken\n  method: POST\n  path:\
   \ /v1/oauth/revoke\n  tools: []\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    human-in-the-loop: none\n    reversible: false\n    notes: The app loses access until the owner approves it again. A revoked token cannot be restored.\n- operationId: getStatus\n  method: GET\n  path: /v1/status\n  tools:\n  - get_status\n  x-agentic-access:\n    action-class: read\n    consequence: read\n    human-in-the-loop: none\n    reversible: true\n    notes: Free, no key. Check it to know how long a queued post will wait.\n- operationId: getPricing\n  method: GET\n  path: /v1/pricing\n  tools:\n  - get_pricing\n  x-agentic-access:\n    action-class: read\n    consequence: read\n    human-in-the-loop: none\n    reversible: true\n    notes: Free, no key. Amounts are micro-dollars.\n- operationId: getPolicy\n  method: GET\n  path: /v1/policy\n  tools:\n  - get_policy\n  x-agentic-access:\n    action-class: read\n    consequence: read\n    human-in-the-loop: none\n    reversible:\
   \ true\n    notes: Free, no key. Read it before posting; the moderation model applies exactly this document.\nwebhooks:\n- operationId: postOutcomeWebhook\n  method: POST\n  path: null\n  tools: []\n  x-agentic-access:\n    action-class: read\n    consequence: read\n    human-in-the-loop: none\n    reversible: true\n    notes: 'We call you. Receiving it changes nothing on the platform. Verify the signature before acting on it,\n      and dedupe on webhook-id: delivery is at-least-once.'\n  webhook: postOutcome\n  direction: outbound\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/agentic-access/eventwren-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eventwren/agentic-access/eventwren-agentic-access.yml
 summary_line: 24 operations
 tags:
 - Agents

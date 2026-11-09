@@ -9,43 +9,43 @@ api_specs:
   label: Apache Solr Collections API
   slug: solr-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-collections-api-openapi.yml
+  url: https://artifacts.apis.io/solr/openapi/solr-collections-api-openapi.yml
 - filename: solr-collectionsadminhandler-api-openapi.yml
   format: yaml
   label: Apache Solr CollectionsAdminHandler API
   slug: solr-collectionsadminhandler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-collectionsadminhandler-api-openapi.yml
+  url: https://artifacts.apis.io/solr/openapi/solr-collectionsadminhandler-api-openapi.yml
 - filename: solr-config-api-openapi.yml
   format: yaml
   label: Apache Solr Config API
   slug: solr-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-config-api-openapi.yml
+  url: https://artifacts.apis.io/solr/openapi/solr-config-api-openapi.yml
 - filename: solr-cores-api-openapi.yml
   format: yaml
   label: Apache Solr Cores API
   slug: solr-cores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-cores-api-openapi.yml
+  url: https://artifacts.apis.io/solr/openapi/solr-cores-api-openapi.yml
 - filename: solr-schema-api-openapi.yml
   format: yaml
   label: Apache Solr Schema API
   slug: solr-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-schema-api-openapi.yml
+  url: https://artifacts.apis.io/solr/openapi/solr-schema-api-openapi.yml
 - filename: solr-shards-api-openapi.yml
   format: yaml
   label: Apache Solr Shards API
   slug: solr-shards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-shards-api-openapi.yml
+  url: https://artifacts.apis.io/solr/openapi/solr-shards-api-openapi.yml
 - filename: solr-update-api-openapi.yml
   format: yaml
   label: Apache Solr Update API
   slug: solr-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/openapi/solr-update-api-openapi.yml
+  url: https://artifacts.apis.io/solr/openapi/solr-update-api-openapi.yml
 consequence_counts:
   read: 4
   write: 10
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/solr-o
   \ 3600\n    audit: none\n- path: /api/c/{collection}/config\n  method: post\n  operationId: updateConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/c/{collection}/schema\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/c/{collection}/schema\n  method: post\n  operationId: updateSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/c/{collection}/shards\n\
   \  method: post\n  operationId: createShard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/c/{collection}/shards/{shardName}\n  method: delete\n  operationId: deleteShard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/c/{collection}/shards/{shardName}/{replicaName}\n  method: delete\n  operationId: deleteReplica\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/cores\n  method: post\n  operationId: createCore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/cores/{coreName}\n  method: post\n  operationId: modifyCore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solr/admin/collections\n  method: get\n  operationId: collectionsAdmin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/agentic-access/solr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/solr/agentic-access/solr-agentic-access.yml
 summary_line: 14 operations · 10 acting
 tags:
 - Search

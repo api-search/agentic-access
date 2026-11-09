@@ -9,25 +9,25 @@ api_specs:
   label: Apache Helix Clusters API
   slug: apache-helix-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/apache-helix/openapi/apache-helix-clusters-api-openapi.yml
 - filename: apache-helix-instances-api-openapi.yml
   format: yaml
   label: Apache Helix Instances API
   slug: apache-helix-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-instances-api-openapi.yml
+  url: https://artifacts.apis.io/apache-helix/openapi/apache-helix-instances-api-openapi.yml
 - filename: apache-helix-resources-api-openapi.yml
   format: yaml
   label: Apache Helix Resources API
   slug: apache-helix-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-resources-api-openapi.yml
+  url: https://artifacts.apis.io/apache-helix/openapi/apache-helix-resources-api-openapi.yml
 - filename: apache-helix-state-api-openapi.yml
   format: yaml
   label: Apache Helix State API
   slug: apache-helix-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-state-api-openapi.yml
+  url: https://artifacts.apis.io/apache-helix/openapi/apache-helix-state-api-openapi.yml
 consequence_counts:
   read: 8
   write: 2
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{clusterId}\n  method: get\n  operationId: getCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}\n  method: delete\n  operationId: deleteCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{clusterId}/instances\n  method: get\n  operationId: listInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}/instances/{instanceName}\n  method: get\n  operationId: getInstance\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}/resources\n  method: get\n  operationId: listResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}/resources/{resourceName}\n  method: get\n  operationId: getResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}/resources/{resourceName}/externalView\n  method: get\n  operationId: getExternalView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}/resources/{resourceName}/idealState\n  method: get\n  operationId: getIdealState\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/agentic-access/apache-helix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-helix/agentic-access/apache-helix-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Apache

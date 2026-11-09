@@ -9,109 +9,109 @@ api_specs:
   label: GMI Cloud Baremetals API
   slug: gmi-cloud-baremetals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-baremetals-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-baremetals-api-openapi.yml
 - filename: gmi-cloud-containers-api-openapi.yml
   format: yaml
   label: GMI Cloud Containers API
   slug: gmi-cloud-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-containers-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-containers-api-openapi.yml
 - filename: gmi-cloud-elastic-ips-api-openapi.yml
   format: yaml
   label: GMI Cloud Elastic Ips API
   slug: gmi-cloud-elastic-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-elastic-ips-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-elastic-ips-api-openapi.yml
 - filename: gmi-cloud-firewalls-api-openapi.yml
   format: yaml
   label: GMI Cloud Firewalls API
   slug: gmi-cloud-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-firewalls-api-openapi.yml
 - filename: gmi-cloud-idcs-api-openapi.yml
   format: yaml
   label: GMI Cloud Idcs API
   slug: gmi-cloud-idcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-idcs-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-idcs-api-openapi.yml
 - filename: gmi-cloud-images-api-openapi.yml
   format: yaml
   label: GMI Cloud Images API
   slug: gmi-cloud-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-images-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-images-api-openapi.yml
 - filename: gmi-cloud-invitations-api-openapi.yml
   format: yaml
   label: GMI Cloud Invitations API
   slug: gmi-cloud-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-invitations-api-openapi.yml
 - filename: gmi-cloud-logs-api-openapi.yml
   format: yaml
   label: GMI Cloud Logs API
   slug: gmi-cloud-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-logs-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-logs-api-openapi.yml
 - filename: gmi-cloud-me-api-openapi.yml
   format: yaml
   label: GMI Cloud Me API
   slug: gmi-cloud-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-me-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-me-api-openapi.yml
 - filename: gmi-cloud-oauth-api-openapi.yml
   format: yaml
   label: GMI Cloud OAuth API
   slug: gmi-cloud-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-oauth-api-openapi.yml
 - filename: gmi-cloud-organizations-api-openapi.yml
   format: yaml
   label: GMI Cloud Organizations API
   slug: gmi-cloud-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-organizations-api-openapi.yml
 - filename: gmi-cloud-sandbox-api-openapi.yml
   format: yaml
   label: GMI Cloud Sandbox API
   slug: gmi-cloud-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-sandbox-api-openapi.yml
 - filename: gmi-cloud-sandbox-exec-api-openapi.yml
   format: yaml
   label: GMI Cloud Sandbox Exec API
   slug: gmi-cloud-sandbox-exec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-sandbox-exec-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-sandbox-exec-api-openapi.yml
 - filename: gmi-cloud-sandbox-files-api-openapi.yml
   format: yaml
   label: GMI Cloud Sandbox Files API
   slug: gmi-cloud-sandbox-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-sandbox-files-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-sandbox-files-api-openapi.yml
 - filename: gmi-cloud-sandboxtemplate-api-openapi.yml
   format: yaml
   label: GMI Cloud Sandbox Template API
   slug: gmi-cloud-sandboxtemplate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-sandboxtemplate-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-sandboxtemplate-api-openapi.yml
 - filename: gmi-cloud-templates-api-openapi.yml
   format: yaml
   label: GMI Cloud Templates API
   slug: gmi-cloud-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-templates-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-templates-api-openapi.yml
 - filename: gmi-cloud-users-api-openapi.yml
   format: yaml
   label: GMI Cloud Users API
   slug: gmi-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-users-api-openapi.yml
 - filename: gmi-cloud-vpcs-api-openapi.yml
   format: yaml
   label: GMI Cloud Vpcs API
   slug: gmi-cloud-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/openapi/gmi-cloud-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/gmi-cloud/openapi/gmi-cloud-vpcs-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 35
@@ -202,7 +202,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/gmi-cl
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{template_id}/builds\n  method: post\n  operationId: createTemplateBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}/builds\n  method: get\n  operationId: listTemplateBuilds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{id}\n  method: delete\n  operationId: deleteTemplate\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{id}\n  method: patch\n  operationId: updateTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}/builds/{id}\n  method: get\n  operationId: getTemplateBuild\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{template_id}/builds/{id}\n  method: post\n  operationId: startTemplateBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{template_id}/builds/{id}/logs\n  method: get\n  operationId: getTemplateBuildLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: listProductCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/agentic-access/gmi-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gmi-cloud/agentic-access/gmi-cloud-agentic-access.yml
 summary_line: 95 operations · 60 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -9,169 +9,169 @@ api_specs:
   label: Amadeus Air Traffic API
   slug: amadeus-air-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-air-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-air-traffic-api-openapi.yml
 - filename: amadeus-airlines-api-openapi.yml
   format: yaml
   label: Amadeus Airlines API
   slug: amadeus-airlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-airlines-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-airlines-api-openapi.yml
 - filename: amadeus-airport-ontime-prediction-api-openapi.yml
   format: yaml
   label: Amadeus Airport Ontime Prediction API
   slug: amadeus-airport-ontime-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-airport-ontime-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-airport-ontime-prediction-api-openapi.yml
 - filename: amadeus-availibility-api-openapi.yml
   format: yaml
   label: Amadeus Availibility API
   slug: amadeus-availibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-availibility-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-availibility-api-openapi.yml
 - filename: amadeus-booking-api-openapi.yml
   format: yaml
   label: Amadeus Booking API
   slug: amadeus-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-booking-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-booking-api-openapi.yml
 - filename: amadeus-category-rated-areas-api-openapi.yml
   format: yaml
   label: Amadeus Category Rated Areas API
   slug: amadeus-category-rated-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-category-rated-areas-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-category-rated-areas-api-openapi.yml
 - filename: amadeus-checkin-links-api-openapi.yml
   format: yaml
   label: Amadeus Checkin Links API
   slug: amadeus-checkin-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-checkin-links-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-checkin-links-api-openapi.yml
 - filename: amadeus-city-api-openapi.yml
   format: yaml
   label: Amadeus City API
   slug: amadeus-city-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-city-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-city-api-openapi.yml
 - filename: amadeus-destinations-api-openapi.yml
   format: yaml
   label: Amadeus Destinations API
   slug: amadeus-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-destinations-api-openapi.yml
 - filename: amadeus-direct-destinations-api-openapi.yml
   format: yaml
   label: Amadeus Direct Destinations API
   slug: amadeus-direct-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-direct-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-direct-destinations-api-openapi.yml
 - filename: amadeus-display-seatmaps-api-openapi.yml
   format: yaml
   label: Amadeus Display SeatMaps API
   slug: amadeus-display-seatmaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-display-seatmaps-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-display-seatmaps-api-openapi.yml
 - filename: amadeus-flight-choice-prediction-api-openapi.yml
   format: yaml
   label: Amadeus Flight Choice Prediction API
   slug: amadeus-flight-choice-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-flight-choice-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-flight-choice-prediction-api-openapi.yml
 - filename: amadeus-flight-dates-api-openapi.yml
   format: yaml
   label: Amadeus Flight Dates API
   slug: amadeus-flight-dates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-flight-dates-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-flight-dates-api-openapi.yml
 - filename: amadeus-flight-delay-prediction-api-openapi.yml
   format: yaml
   label: Amadeus Flight Delay Prediction API
   slug: amadeus-flight-delay-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-flight-delay-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-flight-delay-prediction-api-openapi.yml
 - filename: amadeus-flight-destinations-api-openapi.yml
   format: yaml
   label: Amadeus Flight Destinations API
   slug: amadeus-flight-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-flight-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-flight-destinations-api-openapi.yml
 - filename: amadeus-flights-api-openapi.yml
   format: yaml
   label: Amadeus Flights API
   slug: amadeus-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-flights-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-flights-api-openapi.yml
 - filename: amadeus-hotel-ratings-api-openapi.yml
   format: yaml
   label: Amadeus Hotel Ratings API
   slug: amadeus-hotel-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-hotel-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-hotel-ratings-api-openapi.yml
 - filename: amadeus-hotels-api-openapi.yml
   format: yaml
   label: Amadeus Hotels API
   slug: amadeus-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-hotels-api-openapi.yml
 - filename: amadeus-location-api-openapi.yml
   format: yaml
   label: Amadeus Location API
   slug: amadeus-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-location-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-location-api-openapi.yml
 - filename: amadeus-oauth2-access-token-api-openapi.yml
   format: yaml
   label: Amadeus OAuth2 Access Token API
   slug: amadeus-oauth2-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-oauth2-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-oauth2-access-token-api-openapi.yml
 - filename: amadeus-price-metrics-api-openapi.yml
   format: yaml
   label: Amadeus Price Metrics API
   slug: amadeus-price-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-price-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-price-metrics-api-openapi.yml
 - filename: amadeus-recommended-locations-api-openapi.yml
   format: yaml
   label: Amadeus Recommended Locations API
   slug: amadeus-recommended-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-recommended-locations-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-recommended-locations-api-openapi.yml
 - filename: amadeus-retrieve-api-openapi.yml
   format: yaml
   label: Amadeus Retrieve API
   slug: amadeus-retrieve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-retrieve-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-retrieve-api-openapi.yml
 - filename: amadeus-search-api-openapi.yml
   format: yaml
   label: Amadeus Search API
   slug: amadeus-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-search-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-search-api-openapi.yml
 - filename: amadeus-shopping-api-openapi.yml
   format: yaml
   label: Amadeus Shopping API
   slug: amadeus-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-shopping-api-openapi.yml
 - filename: amadeus-trip-purpose-prediction-api-openapi.yml
   format: yaml
   label: Amadeus Trip Purpose Prediction API
   slug: amadeus-trip-purpose-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-trip-purpose-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-trip-purpose-prediction-api-openapi.yml
 - filename: amadeus-hotel-content-api-openapi.yml
   format: yaml
   label: Amadeus Hotel Content API
   slug: amadeus-hotel-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-hotel-content-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-hotel-content-api-openapi.yml
 - filename: amadeus-hotel-media-api-openapi.yml
   format: yaml
   label: Amadeus Hotel Media API
   slug: amadeus-hotel-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/openapi/amadeus-hotel-media-api-openapi.yml
+  url: https://artifacts.apis.io/amadeus/openapi/amadeus-hotel-media-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 46
@@ -250,7 +250,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amadeu
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shopping/activities\n  method: get\n  operationId: ListActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shopping/activities/by-square\n  method: get\n  operationId: ListActivitiesBySquare\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shopping/flight-offers/upselling\n  method: post\n  operationId: upsellAirOffers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shopping/flight-offers/pricing\n\
   \  method: post\n  operationId: quoteAirOffers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shopping/flight-offers\n  method: post\n  operationId: searchFlightOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shopping/flight-offers\n  method: get\n  operationId: getFlightOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shopping/hotel-offers\n  method: get\n  operationId: getMultiHotelOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /shopping/hotel-offers/{offerId}\n  method: get\n  operationId: getOfferPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shopping/transfer-offers\n  method: post\n  operationId: getTransferOffers\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /travel/predictions/trip-purpose\n  method: get\n  operationId: getTripPurposePrediction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/agentic-access/amadeus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amadeus/agentic-access/amadeus-agentic-access.yml
 summary_line: 56 operations · 10 acting
 tags:
 - Travel

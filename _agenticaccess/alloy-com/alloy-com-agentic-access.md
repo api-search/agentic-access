@@ -9,115 +9,115 @@ api_specs:
   label: Alloy Bank Accounts API
   slug: alloy-com-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-bank-accounts-api-openapi.yml
 - filename: alloy-com-batches-api-openapi.yml
   format: yaml
   label: Alloy Batches API
   slug: alloy-com-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-batches-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-batches-api-openapi.yml
 - filename: alloy-com-cases-api-openapi.yml
   format: yaml
   label: Alloy Cases API
   slug: alloy-com-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-cases-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-cases-api-openapi.yml
 - filename: alloy-com-custom-lists-api-openapi.yml
   format: yaml
   label: Alloy Custom Lists API
   slug: alloy-com-custom-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-custom-lists-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-custom-lists-api-openapi.yml
 - filename: alloy-com-documents-api-openapi.yml
   format: yaml
   label: Alloy Documents API
   slug: alloy-com-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-documents-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-documents-api-openapi.yml
 - filename: alloy-com-entities-api-openapi.yml
   format: yaml
   label: Alloy Entities API
   slug: alloy-com-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-entities-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-entities-api-openapi.yml
 - filename: alloy-com-evaluations-api-openapi.yml
   format: yaml
   label: Alloy Evaluations API
   slug: alloy-com-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-evaluations-api-openapi.yml
 - filename: alloy-com-events-api-openapi.yml
   format: yaml
   label: Alloy Events API
   slug: alloy-com-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-events-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-events-api-openapi.yml
 - filename: alloy-com-groups-api-openapi.yml
   format: yaml
   label: Alloy Groups API
   slug: alloy-com-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-groups-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-groups-api-openapi.yml
 - filename: alloy-com-investigations-api-openapi.yml
   format: yaml
   label: Alloy Investigations API
   slug: alloy-com-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-investigations-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-investigations-api-openapi.yml
 - filename: alloy-com-journeys-api-openapi.yml
   format: yaml
   label: Alloy Journeys API
   slug: alloy-com-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-journeys-api-openapi.yml
 - filename: alloy-com-lists-api-openapi.yml
   format: yaml
   label: Alloy Lists API
   slug: alloy-com-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-lists-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-lists-api-openapi.yml
 - filename: alloy-com-parameters-api-openapi.yml
   format: yaml
   label: Alloy Parameters API
   slug: alloy-com-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-parameters-api-openapi.yml
 - filename: alloy-com-portfolio-evaluations-api-openapi.yml
   format: yaml
   label: Alloy Portfolio Evaluations API
   slug: alloy-com-portfolio-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-portfolio-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-portfolio-evaluations-api-openapi.yml
 - filename: alloy-com-published-attributes-api-openapi.yml
   format: yaml
   label: Alloy Published Attributes API
   slug: alloy-com-published-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-published-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-published-attributes-api-openapi.yml
 - filename: alloy-com-reviews-api-openapi.yml
   format: yaml
   label: Alloy Reviews API
   slug: alloy-com-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-reviews-api-openapi.yml
 - filename: alloy-com-entity-groups-api-openapi.yml
   format: yaml
   label: Alloy Entity Groups API
   slug: alloy-com-entity-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-entity-groups-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-entity-groups-api-openapi.yml
 - filename: alloy-com-transactions-api-openapi.yml
   format: yaml
   label: Alloy Transactions API
   slug: alloy-com-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-transactions-api-openapi.yml
 - filename: alloy-com-oauth-api-openapi.yml
   format: yaml
   label: Alloy O Auth API
   slug: alloy-com-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/alloy-com/openapi/alloy-com-oauth-api-openapi.yml
 consequence_counts:
   read: 46
   write: 69
@@ -176,8 +176,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/alloy-
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom-lists/{custom_list_token}/versions\n  method: post\n  operationId: postCustomListVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom-lists/{custom_list_token}/versions/{version}\n  method: get\n  operationId: getCustomListVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom-lists/{custom_list_token}/activate-major-version\n  method: post\n  operationId: postCustomListActivateMajorVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists\n  method: get\n  operationId: getLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists\n  method: post\n  operationId: postList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{list_token}\n  method: get\n  operationId: getList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/{list_token}\n  method: post\n  operationId: postListItem\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{list_token}\n  method: put\n  operationId: putList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{list_token}/meta\n  method: put\n  operationId: putListMeta\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/bearer\n\
-  \  method: post\n  operationId: postOAuthBearer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/validate\n  method: post\n  operationId: postOAuthValidate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/agentic-access/alloy-com-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/agentic-access/alloy-com-agentic-access.yml
+  \  method: post\n  operationId: postOAuthBearer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/validate\n  method: post\n  operationId: postOAuthValidate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/alloy-com/agentic-access/alloy-com-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/alloy-com/agentic-access/alloy-com-agentic-access.yml
 summary_line: 115 operations · 69 acting
 tags:
 - Identity Decisioning

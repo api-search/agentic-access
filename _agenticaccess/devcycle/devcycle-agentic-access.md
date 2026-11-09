@@ -9,151 +9,151 @@ api_specs:
   label: DevCycle Audiences API
   slug: devcycle-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-audiences-api-openapi.yml
 - filename: devcycle-audit-log-api-openapi.yml
   format: yaml
   label: DevCycle Audit Log API
   slug: devcycle-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-audit-log-api-openapi.yml
 - filename: devcycle-beta-semantic-patch-api-openapi.yml
   format: yaml
   label: DevCycle [Beta] Semantic Patch API
   slug: devcycle-beta-semantic-patch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-beta-semantic-patch-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-beta-semantic-patch-api-openapi.yml
 - filename: devcycle-bucketing-api-api-openapi.yml
   format: yaml
   label: DevCycle Bucketing API
   slug: devcycle-bucketing-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-bucketing-api-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-bucketing-api-api-openapi.yml
 - filename: devcycle-custom-properties-api-openapi.yml
   format: yaml
   label: DevCycle Custom Properties API
   slug: devcycle-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-custom-properties-api-openapi.yml
 - filename: devcycle-deprecated-features-v1-api-openapi.yml
   format: yaml
   label: DevCycle [Deprecated] Features v1 API
   slug: devcycle-deprecated-features-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-deprecated-features-v1-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-deprecated-features-v1-api-openapi.yml
 - filename: devcycle-edgedb-api-openapi.yml
   format: yaml
   label: DevCycle EdgeDB API
   slug: devcycle-edgedb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-edgedb-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-edgedb-api-openapi.yml
 - filename: devcycle-environments-api-openapi.yml
   format: yaml
   label: DevCycle Environments API
   slug: devcycle-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-environments-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-environments-api-openapi.yml
 - filename: devcycle-feature-change-requests-api-openapi.yml
   format: yaml
   label: DevCycle Feature Change Requests API
   slug: devcycle-feature-change-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-feature-change-requests-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-feature-change-requests-api-openapi.yml
 - filename: devcycle-feature-configurations-api-openapi.yml
   format: yaml
   label: DevCycle Feature Configurations API
   slug: devcycle-feature-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-feature-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-feature-configurations-api-openapi.yml
 - filename: devcycle-feature-opt-in-api-openapi.yml
   format: yaml
   label: DevCycle Feature Opt-in API
   slug: devcycle-feature-opt-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-feature-opt-in-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-feature-opt-in-api-openapi.yml
 - filename: devcycle-features-v2-api-openapi.yml
   format: yaml
   label: DevCycle Features v2 API
   slug: devcycle-features-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-features-v2-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-features-v2-api-openapi.yml
 - filename: devcycle-integrations-dynatrace-api-openapi.yml
   format: yaml
   label: 'DevCycle Integrations: Dynatrace API'
   slug: devcycle-integrations-dynatrace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-integrations-dynatrace-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-integrations-dynatrace-api-openapi.yml
 - filename: devcycle-integrations-jira-api-openapi.yml
   format: yaml
   label: 'DevCycle Integrations: Jira API'
   slug: devcycle-integrations-jira-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-integrations-jira-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-integrations-jira-api-openapi.yml
 - filename: devcycle-metric-associations-api-openapi.yml
   format: yaml
   label: DevCycle Metric Associations API
   slug: devcycle-metric-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-metric-associations-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-metric-associations-api-openapi.yml
 - filename: devcycle-metrics-api-openapi.yml
   format: yaml
   label: DevCycle Metrics API
   slug: devcycle-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-metrics-api-openapi.yml
 - filename: devcycle-openfeature-remote-evaluation-api-ofrep-api-openapi.yml
   format: yaml
   label: DevCycle OpenFeature Remote Evaluation API (OFREP) API
   slug: devcycle-openfeature-remote-evaluation-api-ofrep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-openfeature-remote-evaluation-api-ofrep-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-openfeature-remote-evaluation-api-ofrep-api-openapi.yml
 - filename: devcycle-overrides-api-openapi.yml
   format: yaml
   label: DevCycle Overrides API
   slug: devcycle-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-overrides-api-openapi.yml
 - filename: devcycle-project-change-requests-api-openapi.yml
   format: yaml
   label: DevCycle Project Change Requests API
   slug: devcycle-project-change-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-project-change-requests-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-project-change-requests-api-openapi.yml
 - filename: devcycle-projects-api-openapi.yml
   format: yaml
   label: DevCycle Projects API
   slug: devcycle-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-projects-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-projects-api-openapi.yml
 - filename: devcycle-results-api-openapi.yml
   format: yaml
   label: DevCycle Results API
   slug: devcycle-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-results-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-results-api-openapi.yml
 - filename: devcycle-user-profiles-api-openapi.yml
   format: yaml
   label: DevCycle User Profiles API
   slug: devcycle-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-user-profiles-api-openapi.yml
 - filename: devcycle-variables-api-openapi.yml
   format: yaml
   label: DevCycle Variables API
   slug: devcycle-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-variables-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-variables-api-openapi.yml
 - filename: devcycle-variations-api-openapi.yml
   format: yaml
   label: DevCycle Variations API
   slug: devcycle-variations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-variations-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-variations-api-openapi.yml
 - filename: devcycle-webhooks-api-openapi.yml
   format: yaml
   label: DevCycle Webhooks API
   slug: devcycle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/openapi/devcycle-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/devcycle/openapi/devcycle-webhooks-api-openapi.yml
 consequence_counts:
   read: 47
   safety-critical: 60
@@ -341,8 +341,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/devcyc
   \ required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/projects/{project}/features/{feature}/overrides/current\n  method: get\n  operationId: OverridesController_findOne\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/features/{feature}/overrides/current\n  method: delete\n  operationId: OverridesController_deleteOverridesForFeature\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/projects/{project}/features/{feature}/overrides\n\
   \  method: get\n  operationId: OverridesController_findOverridesForFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/overrides/current\n  method: get\n  operationId: OverridesController_findOverridesForProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/overrides/current\n  method: delete\n  operationId: OverridesController_deleteOverridesForProject\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/projects/{project}/change-requests\n  method: get\n\
   \  operationId: ProjectChangeRequestsController_getFeatureChangeRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects\n  method: post\n  operationId: ProjectsController_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/projects\n  method: get\n  operationId: ProjectsController_findAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{key}\n  method: get\n  operationId: ProjectsController_findOne\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{key}\n  method: patch\n  operationId: ProjectsController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/agentic-access/devcycle-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/agentic-access/devcycle-agentic-access.yml
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{key}\n  method: patch\n  operationId: ProjectsController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/devcycle/agentic-access/devcycle-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/devcycle/agentic-access/devcycle-agentic-access.yml
 summary_line: 112 operations · 65 acting · 60 human-in-the-loop
 tags:
 - Company

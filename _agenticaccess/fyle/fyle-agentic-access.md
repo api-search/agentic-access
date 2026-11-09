@@ -9,67 +9,67 @@ api_specs:
   label: Fyle Advances API
   slug: fyle-advances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-advances-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-advances-api-openapi.yml
 - filename: fyle-categories-api-openapi.yml
   format: yaml
   label: Fyle Categories API
   slug: fyle-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-categories-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-categories-api-openapi.yml
 - filename: fyle-corporate-cards-api-openapi.yml
   format: yaml
   label: Fyle Corporate Cards API
   slug: fyle-corporate-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-corporate-cards-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-corporate-cards-api-openapi.yml
 - filename: fyle-cost-centers-api-openapi.yml
   format: yaml
   label: Fyle Cost Centers API
   slug: fyle-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-cost-centers-api-openapi.yml
 - filename: fyle-employees-api-openapi.yml
   format: yaml
   label: Fyle Employees API
   slug: fyle-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-employees-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-employees-api-openapi.yml
 - filename: fyle-expenses-api-openapi.yml
   format: yaml
   label: Fyle Expenses API
   slug: fyle-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-expenses-api-openapi.yml
 - filename: fyle-files-api-openapi.yml
   format: yaml
   label: Fyle Files API
   slug: fyle-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-files-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-files-api-openapi.yml
 - filename: fyle-merchants-api-openapi.yml
   format: yaml
   label: Fyle Merchants API
   slug: fyle-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-merchants-api-openapi.yml
 - filename: fyle-projects-api-openapi.yml
   format: yaml
   label: Fyle Projects API
   slug: fyle-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-projects-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-projects-api-openapi.yml
 - filename: fyle-reports-api-openapi.yml
   format: yaml
   label: Fyle Reports API
   slug: fyle-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-reports-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-reports-api-openapi.yml
 - filename: fyle-webhooks-api-openapi.yml
   format: yaml
   label: Fyle Webhooks API
   slug: fyle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/openapi/fyle-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fyle/openapi/fyle-webhooks-api-openapi.yml
 consequence_counts:
   read: 15
   write: 25
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fyle-o
   \ listCorporateCards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/corporate_card_transactions\n  method: get\n  operationId: listCorporateCardTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/corporate_card_transactions\n  method: post\n  operationId: upsertCorporateCardTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /admin/subscriptions\n  method: post\n  operationId: upsertSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/scheduled_callbacks\n  method: get\n  operationId: listScheduledCallbacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/scheduled_callbacks\n  method: post\n  operationId: upsertScheduledCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/files\n\
   \  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/files\n  method: post\n  operationId: createFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/files/generate_urls/bulk\n  method: post\n  operationId: bulkGenerateFileUrls\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/agentic-access/fyle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fyle/agentic-access/fyle-agentic-access.yml
 summary_line: 40 operations · 25 acting
 tags:
 - Expense Management

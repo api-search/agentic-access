@@ -8,31 +8,31 @@ api_specs:
   label: Whimsical Comments.list API
   slug: whimsical-comments-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-comments-list-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-comments-list-api-openapi.yml
 - filename: whimsical-files-get-api-openapi.yml
   format: yaml
   label: Whimsical Files.get API
   slug: whimsical-files-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-files-get-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-files-get-api-openapi.yml
 - filename: whimsical-files-list-api-openapi.yml
   format: yaml
   label: Whimsical Files.list API
   slug: whimsical-files-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-files-list-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-files-list-api-openapi.yml
 - filename: whimsical-teams-list-api-openapi.yml
   format: yaml
   label: Whimsical Teams.list API
   slug: whimsical-teams-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-teams-list-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-teams-list-api-openapi.yml
 - filename: whimsical-users-get-api-openapi.yml
   format: yaml
   label: Whimsical Users.get API
   slug: whimsical-users-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-users-get-api-openapi.yml
+  url: https://artifacts.apis.io/whimsical/openapi/whimsical-users-get-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/whimsical-comments-list-api-openapi.yml, openapi/whimsical-files-get-api-openapi.yml,\n  openapi/whimsical-files-list-api-openapi.yml, openapi/whimsical-teams-list-api-openapi.yml,\n  openapi/whimsical-users-get-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /comments.list\n  method: post\n  operationId: commentsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files.get\n  method: post\n  operationId: filesGet\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files.list\n  method: post\n  operationId: filesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams.list\n  method: post\n  operationId: teamsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users.get\n  method: post\n  operationId: usersGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/agentic-access/whimsical-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/whimsical/agentic-access/whimsical-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Collaboration

@@ -9,67 +9,67 @@ api_specs:
   label: KolayIK Approval Process API
   slug: kolayik-approval-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-approval-process-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-approval-process-api-openapi.yml
 - filename: kolayik-calendar-api-openapi.yml
   format: yaml
   label: KolayIK Calendar API
   slug: kolayik-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-calendar-api-openapi.yml
 - filename: kolayik-expense-api-openapi.yml
   format: yaml
   label: KolayIK Expense API
   slug: kolayik-expense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-expense-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-expense-api-openapi.yml
 - filename: kolayik-leave-api-openapi.yml
   format: yaml
   label: KolayIK Leave API
   slug: kolayik-leave-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-leave-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-leave-api-openapi.yml
 - filename: kolayik-payroll-api-openapi.yml
   format: yaml
   label: KolayIK Payroll API
   slug: kolayik-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-payroll-api-openapi.yml
 - filename: kolayik-person-api-openapi.yml
   format: yaml
   label: KolayIK Person API
   slug: kolayik-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-person-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-person-api-openapi.yml
 - filename: kolayik-profile-api-openapi.yml
   format: yaml
   label: KolayIK Profile API
   slug: kolayik-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-profile-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-profile-api-openapi.yml
 - filename: kolayik-timelog-api-openapi.yml
   format: yaml
   label: KolayIK Timelog API
   slug: kolayik-timelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-timelog-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-timelog-api-openapi.yml
 - filename: kolayik-training-api-openapi.yml
   format: yaml
   label: KolayIK Training API
   slug: kolayik-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-training-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-training-api-openapi.yml
 - filename: kolayik-transaction-api-openapi.yml
   format: yaml
   label: KolayIK Transaction API
   slug: kolayik-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-transaction-api-openapi.yml
 - filename: kolayik-unit-api-openapi.yml
   format: yaml
   label: KolayIK Unit API
   slug: kolayik-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/openapi/kolayik-unit-api-openapi.yml
+  url: https://artifacts.apis.io/kolayik/openapi/kolayik-unit-api-openapi.yml
 consequence_counts:
   read: 23
   safety-critical: 1
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kolayi
   \ put\n  operationId: trainingUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/training/delete/{id}\n  method: delete\n  operationId: trainingDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/transaction/create\n  method: post\n  operationId: transactionCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /v2/transaction/view/{id}\n  method: get\n  operationId: transactionView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/transaction/list\n  method: post\n  operationId: transactionList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/transaction/delete/{id}\n  method: delete\n  operationId: transactionDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/unit/create-unit-item\n  method: post\n  operationId: unitCreateUnitItem\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/unit/show-unit-tree\n  method: get\n  operationId: unitShowUnitTree\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/agentic-access/kolayik-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kolayik/agentic-access/kolayik-agentic-access.yml
 summary_line: 46 operations · 23 acting · 1 human-in-the-loop
 tags:
 - Company

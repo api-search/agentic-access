@@ -8,49 +8,49 @@ api_specs:
   label: Bear Robotics Carti API
   slug: bear-robotics-carti-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/openapi/bear-robotics-carti-api-openapi.yml
+  url: https://artifacts.apis.io/bear-robotics/openapi/bear-robotics-carti-api-openapi.yml
 - filename: bear-robotics-fleet-management-api-openapi.yml
   format: yaml
   label: Bear Robotics Fleet Management API
   slug: bear-robotics-fleet-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/openapi/bear-robotics-fleet-management-api-openapi.yml
+  url: https://artifacts.apis.io/bear-robotics/openapi/bear-robotics-fleet-management-api-openapi.yml
 - filename: bear-robotics-localization-navigation-api-openapi.yml
   format: yaml
   label: Bear Robotics Localization & Navigation API
   slug: bear-robotics-localization-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/openapi/bear-robotics-localization-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/bear-robotics/openapi/bear-robotics-localization-navigation-api-openapi.yml
 - filename: bear-robotics-locations-maps-api-openapi.yml
   format: yaml
   label: Bear Robotics Locations & Maps API
   slug: bear-robotics-locations-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/openapi/bear-robotics-locations-maps-api-openapi.yml
+  url: https://artifacts.apis.io/bear-robotics/openapi/bear-robotics-locations-maps-api-openapi.yml
 - filename: bear-robotics-mission-api-openapi.yml
   format: yaml
   label: Bear Robotics Mission API
   slug: bear-robotics-mission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/openapi/bear-robotics-mission-api-openapi.yml
+  url: https://artifacts.apis.io/bear-robotics/openapi/bear-robotics-mission-api-openapi.yml
 - filename: bear-robotics-robot-status-api-openapi.yml
   format: yaml
   label: Bear Robotics Robot Status API
   slug: bear-robotics-robot-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/openapi/bear-robotics-robot-status-api-openapi.yml
+  url: https://artifacts.apis.io/bear-robotics/openapi/bear-robotics-robot-status-api-openapi.yml
 - filename: bear-robotics-robot-system-api-openapi.yml
   format: yaml
   label: Bear Robotics Robot System API
   slug: bear-robotics-robot-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/openapi/bear-robotics-robot-system-api-openapi.yml
+  url: https://artifacts.apis.io/bear-robotics/openapi/bear-robotics-robot-system-api-openapi.yml
 - filename: bear-robotics-servi-api-openapi.yml
   format: yaml
   label: Bear Robotics Servi API
   slug: bear-robotics-servi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/openapi/bear-robotics-servi-api-openapi.yml
+  url: https://artifacts.apis.io/bear-robotics/openapi/bear-robotics-servi-api-openapi.yml
 consequence_counts:
   physical: 1
   safety-critical: 1
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/bear-r
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/robot-state/get\n  method: post\n  operationId: APIService_GetRobotStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/robot/charge\n  method: post\n  operationId: APIService_ChargeRobot\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/robot/localize\n  method: post\n  operationId: APIService_LocalizeRobot\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/system-command/run\n  method: post\n  operationId: APIService_RunSystemCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/trays/calibrate\n  method: post\n  operationId: APIService_CalibrateTrays\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/agentic-access/bear-robotics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bear-robotics/agentic-access/bear-robotics-agentic-access.yml
 summary_line: 23 operations · 23 acting · 1 human-in-the-loop
 tags:
 - Robotics

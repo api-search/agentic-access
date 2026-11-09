@@ -9,37 +9,37 @@ api_specs:
   label: Reload Channels API
   slug: reload-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-channels-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-channels-api-openapi.yml
 - filename: reload-files-api-openapi.yml
   format: yaml
   label: Reload Files API
   slug: reload-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-files-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-files-api-openapi.yml
 - filename: reload-memory-api-openapi.yml
   format: yaml
   label: Reload Memory API
   slug: reload-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-memory-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-memory-api-openapi.yml
 - filename: reload-messages-api-openapi.yml
   format: yaml
   label: Reload Messages API
   slug: reload-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-messages-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-messages-api-openapi.yml
 - filename: reload-tasks-api-openapi.yml
   format: yaml
   label: Reload Tasks API
   slug: reload-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-tasks-api-openapi.yml
 - filename: reload-workspace-api-openapi.yml
   format: yaml
   label: Reload Workspace API
   slug: reload-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/reload-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/reload/openapi/reload-workspace-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/reload
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agent/release-task\n  method: post\n  operationId: release-task\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agent/list-tasks\n  method: get\n  operationId: list-tasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/list-my-tasks\n  method: get\n  operationId: list-my-tasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/agent/comment-on-task\n  method: post\n  operationId: comment-on-task\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agent/resolve-identity\n  method: get\n  operationId: resolve-identity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/verify-connection\n  method: get\n  operationId: verify-connection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/get-workspace-info\n  method: get\n  operationId: get-workspace-info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/agentic-access/reload-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reload/agentic-access/reload-agentic-access.yml
 summary_line: 34 operations · 20 acting
 tags:
 - Company

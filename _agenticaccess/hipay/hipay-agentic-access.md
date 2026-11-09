@@ -9,121 +9,121 @@ api_specs:
   label: HiPay Balance API
   slug: hipay-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-balance-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-balance-api-openapi.yml
 - filename: hipay-bank-info-api-openapi.yml
   format: yaml
   label: HiPay Bank Info API
   slug: hipay-bank-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-bank-info-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-bank-info-api-openapi.yml
 - filename: hipay-captcha-generation-api-openapi.yml
   format: yaml
   label: HiPay Captcha Generation API
   slug: hipay-captcha-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-captcha-generation-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-captcha-generation-api-openapi.yml
 - filename: hipay-connector-api-openapi.yml
   format: yaml
   label: HiPay Connector API
   slug: hipay-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-connector-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-connector-api-openapi.yml
 - filename: hipay-constants-api-openapi.yml
   format: yaml
   label: HiPay Constants API
   slug: hipay-constants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-constants-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-constants-api-openapi.yml
 - filename: hipay-identification-api-openapi.yml
   format: yaml
   label: HiPay Identification API
   slug: hipay-identification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-identification-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-identification-api-openapi.yml
 - filename: hipay-invoice-api-openapi.yml
   format: yaml
   label: HiPay Invoice API
   slug: hipay-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-invoice-api-openapi.yml
 - filename: hipay-maintenance-api-openapi.yml
   format: yaml
   label: HiPay Maintenance API
   slug: hipay-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-maintenance-api-openapi.yml
 - filename: hipay-merchant-group-api-openapi.yml
   format: yaml
   label: HiPay Merchant Group API
   slug: hipay-merchant-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-merchant-group-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-merchant-group-api-openapi.yml
 - filename: hipay-order-api-openapi.yml
   format: yaml
   label: HiPay Order API
   slug: hipay-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-order-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-order-api-openapi.yml
 - filename: hipay-payments-api-openapi.yml
   format: yaml
   label: HiPay Payments API
   slug: hipay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-payments-api-openapi.yml
 - filename: hipay-routing-api-openapi.yml
   format: yaml
   label: HiPay Routing API
   slug: hipay-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-routing-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-routing-api-openapi.yml
 - filename: hipay-sessions-api-openapi.yml
   format: yaml
   label: HiPay Sessions API
   slug: hipay-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-sessions-api-openapi.yml
 - filename: hipay-settlement-api-openapi.yml
   format: yaml
   label: HiPay Settlement API
   slug: hipay-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-settlement-api-openapi.yml
 - filename: hipay-tokenization-api-openapi.yml
   format: yaml
   label: HiPay Tokenization API
   slug: hipay-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-tokenization-api-openapi.yml
 - filename: hipay-transaction-api-openapi.yml
   format: yaml
   label: HiPay Transaction API
   slug: hipay-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-transaction-api-openapi.yml
 - filename: hipay-transfer-api-openapi.yml
   format: yaml
   label: HiPay Transfer API
   slug: hipay-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-transfer-api-openapi.yml
 - filename: hipay-ubo-api-openapi.yml
   format: yaml
   label: HiPay Ubo API
   slug: hipay-ubo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-ubo-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-ubo-api-openapi.yml
 - filename: hipay-user-account-api-openapi.yml
   format: yaml
   label: HiPay User Account API
   slug: hipay-user-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-user-account-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-user-account-api-openapi.yml
 - filename: hipay-withdrawal-api-openapi.yml
   format: yaml
   label: HiPay Withdrawal API
   slug: hipay-withdrawal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/openapi/hipay-withdrawal-api-openapi.yml
+  url: https://artifacts.apis.io/hipay/openapi/hipay-withdrawal-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 32
@@ -202,7 +202,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/api-ga
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connector/order\n  method: post\n  operationId: postOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/connector/healthcheck\n  method: get\n  operationId: healthcheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlement\n  method: get\n  operationId: getSettlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlement/{id}\n  method: get\n  operationId: getSettlementItem\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlement/{id}/raw{ext}\n  method: get\n  operationId: getSettlementRaw\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /create\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{token}\n  method: get\n  operationId: lookupToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: delete\n  operationId: deleteToken\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /update\n  method: post\n  operationId: updateToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/agentic-access/hipay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hipay/agentic-access/hipay-agentic-access.yml
 summary_line: 55 operations · 23 acting
 tags:
 - Payments

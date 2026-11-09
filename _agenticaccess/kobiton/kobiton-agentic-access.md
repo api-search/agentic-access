@@ -9,37 +9,37 @@ api_specs:
   label: Kobiton Apps API
   slug: kobiton-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-apps-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-apps-api-openapi.yml
 - filename: kobiton-devices-api-openapi.yml
   format: yaml
   label: Kobiton Devices API
   slug: kobiton-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-devices-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-devices-api-openapi.yml
 - filename: kobiton-organization-api-openapi.yml
   format: yaml
   label: Kobiton Organization API
   slug: kobiton-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-organization-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-organization-api-openapi.yml
 - filename: kobiton-scriptless-automation-api-openapi.yml
   format: yaml
   label: Kobiton Scriptless Automation API
   slug: kobiton-scriptless-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-scriptless-automation-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-scriptless-automation-api-openapi.yml
 - filename: kobiton-sessions-api-openapi.yml
   format: yaml
   label: Kobiton Sessions API
   slug: kobiton-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-sessions-api-openapi.yml
 - filename: kobiton-datasets-api-openapi.yml
   format: yaml
   label: Kobiton Datasets API
   slug: kobiton-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/kobiton/openapi/kobiton-datasets-api-openapi.yml
 consequence_counts:
   read: 7
   write: 19
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kobito
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-sets/by-element\n  method: post\n  operationId: createDataSetByElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-sets/{dataSetId}/actions/by-command\n  method: put\n  operationId: updateDataSetByCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /data-sets/{dataSetId}/actions/by-element\n  method: put\n  operationId: updateDataSetByElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/member\n  method: post\n  operationId: createOrganizationMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/activate/member\n  method: put\n  operationId: activateOrganizationMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/deactivate/member\n  method: put\n  operationId: deactivateOrganizationMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/members/role\n  method: put\n  operationId: assignOrganizationMemberRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/agentic-access/kobiton-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kobiton/agentic-access/kobiton-agentic-access.yml
 summary_line: 26 operations · 19 acting
 tags:
 - Mobile Testing

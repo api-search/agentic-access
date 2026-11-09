@@ -8,43 +8,43 @@ api_specs:
   label: Ticketmaster Availability API
   slug: ticketmaster-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-availability-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-availability-api-openapi.yml
 - filename: ticketmaster-offerings-api-openapi.yml
   format: yaml
   label: Ticketmaster Offerings API
   slug: ticketmaster-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-offerings-api-openapi.yml
 - filename: ticketmaster-attractions-api-openapi.yml
   format: yaml
   label: Ticketmaster Attractions API
   slug: ticketmaster-attractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-attractions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-attractions-api-openapi.yml
 - filename: ticketmaster-classifications-api-openapi.yml
   format: yaml
   label: Ticketmaster Classifications API
   slug: ticketmaster-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-classifications-api-openapi.yml
 - filename: ticketmaster-events-api-openapi.yml
   format: yaml
   label: Ticketmaster Events API
   slug: ticketmaster-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-events-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-events-api-openapi.yml
 - filename: ticketmaster-suggestions-api-openapi.yml
   format: yaml
   label: Ticketmaster Suggestions API
   slug: ticketmaster-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-suggestions-api-openapi.yml
 - filename: ticketmaster-venues-api-openapi.yml
   format: yaml
   label: Ticketmaster Venues API
   slug: ticketmaster-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/openapi/ticketmaster-venues-api-openapi.yml
+  url: https://artifacts.apis.io/ticketmaster/openapi/ticketmaster-venues-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/ticket
   \      max-ttl: 3600\n    audit: none\n- path: /attractions/{id}.json\n  method: get\n  operationId: getAttraction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventId}/availability.json\n  method: get\n  operationId: getEventAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /classifications.json\n  method: get\n  operationId: searchClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events.json\n  method: get\n  operationId: searchEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}.json\n  method: get\n  operationId:\
   \ getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}/images.json\n  method: get\n  operationId: getEventImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventId}/offers.json\n  method: get\n  operationId: getEventOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suggest.json\n  method: get\n  operationId: getSuggestions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /venues.json\n  method: get\n  operationId: searchVenues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /venues/{id}.json\n  method: get\n  operationId: getVenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/agentic-access/ticketmaster-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ticketmaster/agentic-access/ticketmaster-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Commerce

@@ -9,73 +9,73 @@ api_specs:
   label: BillDesk Authentication API
   slug: billdesk-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-authentication-api-openapi.yml
 - filename: billdesk-card-account-api-openapi.yml
   format: yaml
   label: BillDesk Card Account API
   slug: billdesk-card-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-card-account-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-card-account-api-openapi.yml
 - filename: billdesk-guest-checkout-altid-api-openapi.yml
   format: yaml
   label: BillDesk Guest Checkout (AltID) API
   slug: billdesk-guest-checkout-altid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-guest-checkout-altid-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-guest-checkout-altid-api-openapi.yml
 - filename: billdesk-invoice-api-openapi.yml
   format: yaml
   label: BillDesk Invoice API
   slug: billdesk-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-invoice-api-openapi.yml
 - filename: billdesk-mandate-api-openapi.yml
   format: yaml
   label: BillDesk Mandate API
   slug: billdesk-mandate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-mandate-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-mandate-api-openapi.yml
 - filename: billdesk-order-api-openapi.yml
   format: yaml
   label: BillDesk Order API
   slug: billdesk-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-order-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-order-api-openapi.yml
 - filename: billdesk-payment-links-api-openapi.yml
   format: yaml
   label: BillDesk Payment Links API
   slug: billdesk-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-payment-links-api-openapi.yml
 - filename: billdesk-penny-drop-api-openapi.yml
   format: yaml
   label: BillDesk Penny Drop API
   slug: billdesk-penny-drop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-penny-drop-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-penny-drop-api-openapi.yml
 - filename: billdesk-refund-api-openapi.yml
   format: yaml
   label: BillDesk Refund API
   slug: billdesk-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-refund-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-refund-api-openapi.yml
 - filename: billdesk-settlement-api-openapi.yml
   format: yaml
   label: BillDesk Settlement API
   slug: billdesk-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-settlement-api-openapi.yml
 - filename: billdesk-transaction-api-openapi.yml
   format: yaml
   label: BillDesk Transaction API
   slug: billdesk-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-transaction-api-openapi.yml
 - filename: billdesk-validate-vpa-api-openapi.yml
   format: yaml
   label: BillDesk Validate VPA API
   slug: billdesk-validate-vpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-validate-vpa-api-openapi.yml
+  url: https://artifacts.apis.io/billdesk/openapi/billdesk-validate-vpa-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 10
@@ -184,7 +184,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/billde
   \ operationId: modifyMandate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pgsi/ve1_2/mandates/update\n  method: post\n  operationId: updateMandate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/ve1_2/altid/get\n  method: post\n  operationId: retrievealtid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokenizer/ve1_2/token/create\n  method: post\n  operationId: createCardAccount\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokenizer/ve1_2/token/delete\n  method: post\n  operationId: deleteCardAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokenizer/ve1_2/token/list\n  method: post\n  operationId: listCardAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokenizer/ve1_2/token/retrieve\n  method: post\n  operationId: retrieveCardAccount\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/ve1_2/upi/validatevpa\n  method: post\n  operationId: validatVPA\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/agentic-access/billdesk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/billdesk/agentic-access/billdesk-agentic-access.yml
 summary_line: 31 operations · 21 acting
 tags:
 - Payments

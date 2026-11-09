@@ -9,109 +9,109 @@ api_specs:
   label: TikTok Marketing API Account Management API
   slug: tiktok-ads-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-account-management-api-openapi.yml
 - filename: tiktok-ads-ad-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ad API
   slug: tiktok-ads-ad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ad-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-ad-api-openapi.yml
 - filename: tiktok-ads-ads-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ads Management API
   slug: tiktok-ads-ads-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ads-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-ads-management-api-openapi.yml
 - filename: tiktok-ads-app-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API APP Management API
   slug: tiktok-ads-app-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-app-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-app-management-api-openapi.yml
 - filename: tiktok-ads-audience-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Audience API
   slug: tiktok-ads-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-audience-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-audience-api-openapi.yml
 - filename: tiktok-ads-automated-rules-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Automated Rules API
   slug: tiktok-ads-automated-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-automated-rules-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-automated-rules-api-openapi.yml
 - filename: tiktok-ads-bc-api-openapi.yml
   format: yaml
   label: TikTok Marketing API BC API
   slug: tiktok-ads-bc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-bc-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-bc-api-openapi.yml
 - filename: tiktok-ads-campaign-creation-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Campaign Creation API
   slug: tiktok-ads-campaign-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-campaign-creation-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-campaign-creation-api-openapi.yml
 - filename: tiktok-ads-catalog-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Catalog API
   slug: tiktok-ads-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-catalog-api-openapi.yml
 - filename: tiktok-ads-comments-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Comments API
   slug: tiktok-ads-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-comments-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-comments-api-openapi.yml
 - filename: tiktok-ads-creative-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Creative Management API
   slug: tiktok-ads-creative-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-creative-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-creative-management-api-openapi.yml
 - filename: tiktok-ads-identity-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Identity API
   slug: tiktok-ads-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-identity-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-identity-api-openapi.yml
 - filename: tiktok-ads-measurement-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Measurement API
   slug: tiktok-ads-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-measurement-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-measurement-api-openapi.yml
 - filename: tiktok-ads-reporting-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Reporting API
   slug: tiktok-ads-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-reporting-api-openapi.yml
 - filename: tiktok-ads-store-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Store API
   slug: tiktok-ads-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-store-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-store-api-openapi.yml
 - filename: tiktok-ads-tool-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Tool API
   slug: tiktok-ads-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-tool-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-tool-api-openapi.yml
 - filename: tiktok-ads-video-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Video API
   slug: tiktok-ads-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-video-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-video-api-openapi.yml
 - filename: tiktok-ads-ad-group-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ad Group API
   slug: tiktok-ads-ad-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ad-group-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-ad-group-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 102
@@ -195,8 +195,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tiktok
   \      max-ttl: 3600\n    audit: none\n- path: /campaign/gmv_max/session/update/\n  method: post\n  operationId: Campaign Gmv_max Session Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaign/gmv_max/update/\n  method: post\n  operationId: Campaign Gmv_max Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gmv_max/bid/recommend/\n  method: get\n  operationId: Gmv_max Bid Recommend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /gmv_max/custom_anchor_video_list/get/\n  method: get\n  operationId: Gmv_max Custom_anchor_video_list Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gmv_max/occupied_custom_shop_ads/list/\n  method: get\n  operationId: Gmv_max Occupied_custom_shop_ads List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smart_plus/campaign/create/\n  method: post\n  operationId: Smart_plus Campaign Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smart_plus/campaign/get/\n  method: get\n  operationId: Smart_plus\
   \ Campaign Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smart_plus/campaign/status/update/\n  method: post\n  operationId: Smart_plus Campaign Status Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smart_plus/campaign/update/\n  method: post\n  operationId: Smart_plus Campaign Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catalog/available_country/get/\n  method: get\n  operationId: Catalog\
-  \ Available_country Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/capitalize/\n  method: post\n  operationId: Catalog Capitalize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catalog/create/\n  method: post\n  operationId: Catalog Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/agentic-access/tiktok-ads-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/agentic-access/tiktok-ads-agentic-access.yml
+  \ Available_country Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/capitalize/\n  method: post\n  operationId: Catalog Capitalize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catalog/create/\n  method: post\n  operationId: Catalog Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://artifacts.apis.io/tiktok-ads/agentic-access/tiktok-ads-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/tiktok-ads/agentic-access/tiktok-ads-agentic-access.yml
 summary_line: 202 operations · 100 acting · 2 human-in-the-loop
 tags:
 - Advertising

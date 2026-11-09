@@ -9,139 +9,139 @@ api_specs:
   label: Oracle Integration Adapters API
   slug: oracle-integration-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-adapters-api-openapi.yml
 - filename: oracle-integration-analytics-api-openapi.yml
   format: yaml
   label: Oracle Integration Analytics API
   slug: oracle-integration-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-analytics-api-openapi.yml
 - filename: oracle-integration-b2b-documents-api-openapi.yml
   format: yaml
   label: Oracle Integration B2B Documents API
   slug: oracle-integration-b2b-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-b2b-documents-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-b2b-documents-api-openapi.yml
 - filename: oracle-integration-b2b-monitoring-api-openapi.yml
   format: yaml
   label: Oracle Integration B2B Monitoring API
   slug: oracle-integration-b2b-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-b2b-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-b2b-monitoring-api-openapi.yml
 - filename: oracle-integration-certificates-api-openapi.yml
   format: yaml
   label: Oracle Integration Certificates API
   slug: oracle-integration-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-certificates-api-openapi.yml
 - filename: oracle-integration-connections-api-openapi.yml
   format: yaml
   label: Oracle Integration Connections API
   slug: oracle-integration-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-connections-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-connections-api-openapi.yml
 - filename: oracle-integration-decision-models-api-openapi.yml
   format: yaml
   label: Oracle Integration Decision Models API
   slug: oracle-integration-decision-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-decision-models-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-decision-models-api-openapi.yml
 - filename: oracle-integration-deployed-projects-api-openapi.yml
   format: yaml
   label: Oracle Integration Deployed Projects API
   slug: oracle-integration-deployed-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-deployed-projects-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-deployed-projects-api-openapi.yml
 - filename: oracle-integration-dynamic-processes-api-openapi.yml
   format: yaml
   label: Oracle Integration Dynamic Processes API
   slug: oracle-integration-dynamic-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-dynamic-processes-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-dynamic-processes-api-openapi.yml
 - filename: oracle-integration-environment-api-openapi.yml
   format: yaml
   label: Oracle Integration Environment API
   slug: oracle-integration-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-environment-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-environment-api-openapi.yml
 - filename: oracle-integration-identities-api-openapi.yml
   format: yaml
   label: Oracle Integration Identities API
   slug: oracle-integration-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-identities-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-identities-api-openapi.yml
 - filename: oracle-integration-integrations-api-openapi.yml
   format: yaml
   label: Oracle Integration Integrations API
   slug: oracle-integration-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-integrations-api-openapi.yml
 - filename: oracle-integration-libraries-api-openapi.yml
   format: yaml
   label: Oracle Integration Libraries API
   slug: oracle-integration-libraries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-libraries-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-libraries-api-openapi.yml
 - filename: oracle-integration-lookups-api-openapi.yml
   format: yaml
   label: Oracle Integration Lookups API
   slug: oracle-integration-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-lookups-api-openapi.yml
 - filename: oracle-integration-monitoring-api-openapi.yml
   format: yaml
   label: Oracle Integration Monitoring API
   slug: oracle-integration-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-monitoring-api-openapi.yml
 - filename: oracle-integration-packages-api-openapi.yml
   format: yaml
   label: Oracle Integration Packages API
   slug: oracle-integration-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-packages-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-packages-api-openapi.yml
 - filename: oracle-integration-process-definitions-api-openapi.yml
   format: yaml
   label: Oracle Integration Process Definitions API
   slug: oracle-integration-process-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-process-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-process-definitions-api-openapi.yml
 - filename: oracle-integration-process-instances-api-openapi.yml
   format: yaml
   label: Oracle Integration Process Instances API
   slug: oracle-integration-process-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-process-instances-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-process-instances-api-openapi.yml
 - filename: oracle-integration-projects-api-openapi.yml
   format: yaml
   label: Oracle Integration Projects API
   slug: oracle-integration-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-projects-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-projects-api-openapi.yml
 - filename: oracle-integration-scheduled-integrations-api-openapi.yml
   format: yaml
   label: Oracle Integration Scheduled Integrations API
   slug: oracle-integration-scheduled-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-scheduled-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-scheduled-integrations-api-openapi.yml
 - filename: oracle-integration-spaces-api-openapi.yml
   format: yaml
   label: Oracle Integration Spaces API
   slug: oracle-integration-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-spaces-api-openapi.yml
 - filename: oracle-integration-tasks-api-openapi.yml
   format: yaml
   label: Oracle Integration Tasks API
   slug: oracle-integration-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-tasks-api-openapi.yml
 - filename: oracle-integration-trading-partners-api-openapi.yml
   format: yaml
   label: Oracle Integration Trading Partners API
   slug: oracle-integration-trading-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-trading-partners-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-integration/openapi/oracle-integration-trading-partners-api-openapi.yml
 consequence_counts:
   read: 59
   safety-critical: 1
@@ -208,7 +208,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oracle
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ic/api/process/v1/spaces/{spaceId}\n  method: get\n  operationId: getSpace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ic/api/process/v1/spaces/{spaceId}\n  method: delete\n  operationId: deleteSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ic/api/process/v1/identities\n  method: get\n  operationId: listIdentities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ic/api/process/v1/identities/loggedInUser\n\
   \  method: get\n  operationId: getLoggedInUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ic/api/process/v1/analyticsqueries\n  method: get\n  operationId: listAnalyticsQueries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ic/api/process/v1/analyticsqueries\n  method: post\n  operationId: createOrExecuteAnalyticsQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ic/api/process/v1/dp-definitions\n  method: get\n  operationId: listDynamicProcessDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ic/api/process/v1/dp-instances\n  method: get\n  operationId: listDynamicProcessInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ic/api/process/v1/dp-instances\n  method: post\n  operationId: createDynamicProcessInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ic/api/process/v1/quickStartApps\n  method: get\n  operationId: listQuickStartApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/agentic-access/oracle-integration-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oracle-integration/agentic-access/oracle-integration-agentic-access.yml
 summary_line: 104 operations · 45 acting · 1 human-in-the-loop
 tags:
 - API Management

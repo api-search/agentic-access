@@ -9,115 +9,115 @@ api_specs:
   label: PortOne Banks API
   slug: portone-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-banks-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-banks-api-openapi.yml
 - filename: portone-billing-keys-api-openapi.yml
   format: yaml
   label: PortOne Billing Keys API
   slug: portone-billing-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-billing-keys-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-billing-keys-api-openapi.yml
 - filename: portone-cash-receipts-api-openapi.yml
   format: yaml
   label: PortOne Cash Receipts API
   slug: portone-cash-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-cash-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-cash-receipts-api-openapi.yml
 - filename: portone-checkout-profiles-api-openapi.yml
   format: yaml
   label: PortOne Checkout Profiles API
   slug: portone-checkout-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-checkout-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-checkout-profiles-api-openapi.yml
 - filename: portone-identity-verifications-api-openapi.yml
   format: yaml
   label: PortOne Identity Verifications API
   slug: portone-identity-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-identity-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-identity-verifications-api-openapi.yml
 - filename: portone-kakaopay-api-openapi.yml
   format: yaml
   label: PortOne Kakaopay API
   slug: portone-kakaopay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-kakaopay-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-kakaopay-api-openapi.yml
 - filename: portone-login-api-openapi.yml
   format: yaml
   label: PortOne Login API
   slug: portone-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-login-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-login-api-openapi.yml
 - filename: portone-payment-events-by-cursor-api-openapi.yml
   format: yaml
   label: PortOne Payment Events By Cursor API
   slug: portone-payment-events-by-cursor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-payment-events-by-cursor-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-payment-events-by-cursor-api-openapi.yml
 - filename: portone-payment-gateways-api-openapi.yml
   format: yaml
   label: PortOne Payment Gateways API
   slug: portone-payment-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-payment-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-payment-gateways-api-openapi.yml
 - filename: portone-payment-reconciliations-api-openapi.yml
   format: yaml
   label: PortOne Payment Reconciliations API
   slug: portone-payment-reconciliations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-payment-reconciliations-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-payment-reconciliations-api-openapi.yml
 - filename: portone-payment-schedules-api-openapi.yml
   format: yaml
   label: PortOne Payment Schedules API
   slug: portone-payment-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-payment-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-payment-schedules-api-openapi.yml
 - filename: portone-payment-sessions-api-openapi.yml
   format: yaml
   label: PortOne Payment Sessions API
   slug: portone-payment-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-payment-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-payment-sessions-api-openapi.yml
 - filename: portone-payments-api-openapi.yml
   format: yaml
   label: PortOne Payments API
   slug: portone-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-payments-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-payments-api-openapi.yml
 - filename: portone-payments-by-cursor-api-openapi.yml
   format: yaml
   label: PortOne Payments By Cursor API
   slug: portone-payments-by-cursor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-payments-by-cursor-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-payments-by-cursor-api-openapi.yml
 - filename: portone-paymentwall-api-openapi.yml
   format: yaml
   label: PortOne Paymentwall API
   slug: portone-paymentwall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-paymentwall-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-paymentwall-api-openapi.yml
 - filename: portone-platform-api-openapi.yml
   format: yaml
   label: PortOne Platform API
   slug: portone-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-platform-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-platform-api-openapi.yml
 - filename: portone-promotions-api-openapi.yml
   format: yaml
   label: PortOne Promotions API
   slug: portone-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-promotions-api-openapi.yml
 - filename: portone-token-api-openapi.yml
   format: yaml
   label: PortOne Token API
   slug: portone-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-token-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-token-api-openapi.yml
 - filename: portone-b2-b-api-openapi.yml
   format: yaml
   label: PortOne B2B API
   slug: portone-b2-b-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/openapi/portone-b2-b-api-openapi.yml
+  url: https://artifacts.apis.io/portone/openapi/portone-b2-b-api-openapi.yml
 consequence_counts:
   physical: 37
   read: 59
@@ -306,8 +306,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/porton
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/additional-fee-policies/{id}/schedule\n  method: post\n  operationId: scheduleAdditionalFeePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/additional-fee-policies/{id}/schedule\n  method: delete\n  operationId: cancelPlatformAdditionalFeePolicySchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/additional-fee-policies/{id}\n  method: get\n  operationId: getPlatformAdditionalFeePolicy\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/additional-fee-policies/{id}\n  method: patch\n  operationId: updatePlatformAdditionalFeePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/additional-fee-policies\n  method: get\n  operationId: getPlatformAdditionalFeePolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/additional-fee-policies\n  method: post\n  operationId: createPlatformAdditionalFeePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/bank-accounts/{bank}/{accountNumber}/holder\n  method: get\n  operationId: getPlatformAccountHolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/bulk-account-transfers\n  method: get\n  operationId: getPlatformBulkAccountTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/bulk-payouts\n  method: get\n  operationId: getPlatformBulkPayouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/companies/{businessRegistrationNumber}/state\n  method: get\n \
-  \ operationId: getPlatformCompanyState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/contracts/{id}/archive\n  method: post\n  operationId: archivePlatformContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/contracts/{id}/recover\n  method: post\n  operationId: recoverPlatformContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/agentic-access/portone-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/agentic-access/portone-agentic-access.yml
+  \ operationId: getPlatformCompanyState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/contracts/{id}/archive\n  method: post\n  operationId: archivePlatformContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/contracts/{id}/recover\n  method: post\n  operationId: recoverPlatformContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/portone/agentic-access/portone-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/portone/agentic-access/portone-agentic-access.yml
 summary_line: 147 operations · 88 acting · 2 human-in-the-loop
 tags:
 - Payments

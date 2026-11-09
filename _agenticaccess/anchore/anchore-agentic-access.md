@@ -9,37 +9,37 @@ api_specs:
   label: Anchore Images API
   slug: anchore-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-images-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-images-api-openapi.yml
 - filename: anchore-policies-api-openapi.yml
   format: yaml
   label: Anchore Policies API
   slug: anchore-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-policies-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-policies-api-openapi.yml
 - filename: anchore-registries-api-openapi.yml
   format: yaml
   label: Anchore Registries API
   slug: anchore-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-registries-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-registries-api-openapi.yml
 - filename: anchore-sbom-api-openapi.yml
   format: yaml
   label: Anchore SBOM API
   slug: anchore-sbom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-sbom-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-sbom-api-openapi.yml
 - filename: anchore-subscriptions-api-openapi.yml
   format: yaml
   label: Anchore Subscriptions API
   slug: anchore-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-subscriptions-api-openapi.yml
 - filename: anchore-vulnerabilities-api-openapi.yml
   format: yaml
   label: Anchore Vulnerabilities API
   slug: anchore-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/anchore/openapi/anchore-vulnerabilities-api-openapi.yml
 consequence_counts:
   read: 8
   write: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/anchor
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/{imageDigest}\n  method: get\n  operationId: getImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images/{imageDigest}/vuln/{vtype}\n  method: get\n  operationId: getImageVulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images/{imageDigest}/check\n  method: get\n  operationId: checkImagePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images/{imageDigest}/sbom\n  method: get\n  operationId: getImageSbom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies\n  method: post\n  operationId: createPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /registries\n  method: get\n  operationId: listRegistries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/agentic-access/anchore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/anchore/agentic-access/anchore-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
 - Container Security

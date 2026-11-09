@@ -9,25 +9,25 @@ api_specs:
   label: Global Payments Disputes API
   slug: global-payments-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-disputes-api-openapi.yml
 - filename: global-payments-payment-methods-api-openapi.yml
   format: yaml
   label: Global Payments Payment Methods API
   slug: global-payments-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-payment-methods-api-openapi.yml
 - filename: global-payments-settlements-api-openapi.yml
   format: yaml
   label: Global Payments Settlements API
   slug: global-payments-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-settlements-api-openapi.yml
 - filename: global-payments-transactions-api-openapi.yml
   format: yaml
   label: Global Payments Transactions API
   slug: global-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/global-payments-unified-payments-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 4\n    acting: 2\n  by_consequence:\n    read: 4\n    write: 1\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: post\n  operationId: createTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-methods\n  method: get\n  operationId: listPaymentMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment-methods\n  method: post\n  operationId: createPaymentMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settlements\n  method: get\n  operationId: listSettlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disputes\n\
   \  method: get\n  operationId: listDisputes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/agentic-access/global-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/global-payments/agentic-access/global-payments-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - E-Commerce

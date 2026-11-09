@@ -9,43 +9,43 @@ api_specs:
   label: Unsplash Collections API
   slug: unsplash-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-collections-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-collections-api-openapi.yml
 - filename: unsplash-current-user-api-openapi.yml
   format: yaml
   label: Unsplash Current User API
   slug: unsplash-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-current-user-api-openapi.yml
 - filename: unsplash-photos-api-openapi.yml
   format: yaml
   label: Unsplash Photos API
   slug: unsplash-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-photos-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-photos-api-openapi.yml
 - filename: unsplash-search-api-openapi.yml
   format: yaml
   label: Unsplash Search API
   slug: unsplash-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-search-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-search-api-openapi.yml
 - filename: unsplash-stats-api-openapi.yml
   format: yaml
   label: Unsplash Stats API
   slug: unsplash-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-stats-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-stats-api-openapi.yml
 - filename: unsplash-topics-api-openapi.yml
   format: yaml
   label: Unsplash Topics API
   slug: unsplash-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-topics-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-topics-api-openapi.yml
 - filename: unsplash-users-api-openapi.yml
   format: yaml
   label: Unsplash Users API
   slug: unsplash-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-users-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-users-api-openapi.yml
 consequence_counts:
   read: 22
   write: 7
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unspla
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/statistics\n  method: get\n  operationId: getUserStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read_user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me\n  method: put\n  operationId: updateCurrentUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_user\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topics\n\
   \  method: get\n  operationId: listTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics/{id_or_slug}\n  method: get\n  operationId: getTopic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics/{id_or_slug}/photos\n  method: get\n  operationId: getTopicPhotos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/totals\n  method: get\n  operationId: getStatsTotals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/month\n  method: get\n  operationId: getStatsMonth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/agentic-access/unsplash-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unsplash/agentic-access/unsplash-agentic-access.yml
 summary_line: 29 operations · 7 acting
 tags:
 - Photos

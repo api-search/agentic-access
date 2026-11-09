@@ -9,127 +9,127 @@ api_specs:
   label: Roku Apps API
   slug: roku-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-apps-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-apps-api-openapi.yml
 - filename: roku-billing-api-openapi.yml
   format: yaml
   label: Roku Billing API
   slug: roku-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-billing-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-billing-api-openapi.yml
 - filename: roku-builds-api-openapi.yml
   format: yaml
   label: Roku Builds API
   slug: roku-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-builds-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-builds-api-openapi.yml
 - filename: roku-devices-api-openapi.yml
   format: yaml
   label: Roku Devices API
   slug: roku-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-devices-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-devices-api-openapi.yml
 - filename: roku-diagnostics-api-openapi.yml
   format: yaml
   label: Roku Diagnostics API
   slug: roku-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-diagnostics-api-openapi.yml
 - filename: roku-discovery-api-openapi.yml
   format: yaml
   label: Roku Discovery API
   slug: roku-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-discovery-api-openapi.yml
 - filename: roku-groups-api-openapi.yml
   format: yaml
   label: Roku Groups API
   slug: roku-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-groups-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-groups-api-openapi.yml
 - filename: roku-healthz-api-openapi.yml
   format: yaml
   label: Roku Healthz API
   slug: roku-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-healthz-api-openapi.yml
 - filename: roku-input-api-openapi.yml
   format: yaml
   label: Roku Input API
   slug: roku-input-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-input-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-input-api-openapi.yml
 - filename: roku-keypress-api-openapi.yml
   format: yaml
   label: Roku KeyPress API
   slug: roku-keypress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-keypress-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-keypress-api-openapi.yml
 - filename: roku-organisation-roles-api-openapi.yml
   format: yaml
   label: Roku Organisation Roles API
   slug: roku-organisation-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-organisation-roles-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-organisation-roles-api-openapi.yml
 - filename: roku-organisations-api-openapi.yml
   format: yaml
   label: Roku Organisations API
   slug: roku-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-organisations-api-openapi.yml
 - filename: roku-personal-access-tokens-api-openapi.yml
   format: yaml
   label: Roku Personal Access Tokens API
   slug: roku-personal-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-personal-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-personal-access-tokens-api-openapi.yml
 - filename: roku-projects-api-openapi.yml
   format: yaml
   label: Roku Projects API
   slug: roku-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-projects-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-projects-api-openapi.yml
 - filename: roku-query-api-openapi.yml
   format: yaml
   label: Roku Query API
   slug: roku-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-query-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-query-api-openapi.yml
 - filename: roku-snapshots-api-openapi.yml
   format: yaml
   label: Roku Snapshots API
   slug: roku-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-snapshots-api-openapi.yml
 - filename: roku-subscription-api-openapi.yml
   format: yaml
   label: Roku Subscription API
   slug: roku-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-subscription-api-openapi.yml
 - filename: roku-users-api-openapi.yml
   format: yaml
   label: Roku Users API
   slug: roku-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-users-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-users-api-openapi.yml
 - filename: roku-validation-api-openapi.yml
   format: yaml
   label: Roku Validation API
   slug: roku-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-validation-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-validation-api-openapi.yml
 - filename: roku-async-api-api-openapi.yml
   format: yaml
   label: Roku Async API
   slug: roku-async-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-async-api-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-async-api-api-openapi.yml
 - filename: roku-service-accounts-api-openapi.yml
   format: yaml
   label: Roku Service Accounts API
   slug: roku-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/openapi/roku-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/roku/openapi/roku-service-accounts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 62
@@ -218,7 +218,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/roku-a
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cancel-subscription\n  method: post\n  operationId: cancelSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refund-subscription\n  method: post\n  operationId: refundSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/me\n  method: get\n  operationId: users-get_me\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/me/organisations\n  method: get\n  operationId: users-get_my_organisation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/me/projects\n  method: get\n  operationId: users-get_my_projects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/me/groups\n  method: get\n  operationId: users-get_my_group\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /validate-transaction/{partnerAPIKey}/{transactionId}\n  method: get\n  operationId: validateTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /validate-refund/{partnerAPIKey}/{refundId}\n  method: get\n  operationId: validateRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/agentic-access/roku-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/roku/agentic-access/roku-agentic-access.yml
 summary_line: 101 operations · 39 acting · 2 human-in-the-loop
 tags:
 - Streaming

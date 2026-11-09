@@ -9,85 +9,85 @@ api_specs:
   label: Ludo.ai Audio API
   slug: ludo-ai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-audio-api-openapi.yml
 - filename: ludo-ai-images-api-openapi.yml
   format: yaml
   label: Ludo.ai Images API
   slug: ludo-ai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-images-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-images-api-openapi.yml
 - filename: ludo-ai-results-api-openapi.yml
   format: yaml
   label: Ludo.ai Results API
   slug: ludo-ai-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-results-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-results-api-openapi.yml
 - filename: ludo-ai-video-api-openapi.yml
   format: yaml
   label: Ludo.ai Video API
   slug: ludo-ai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-video-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-video-api-openapi.yml
 - filename: ludo-ai-3d-models-api-openapi.yml
   format: yaml
   label: Ludo.ai 3D Models API
   slug: ludo-ai-3d-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-3d-models-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-3d-models-api-openapi.yml
 - filename: ludo-ai-account-api-openapi.yml
   format: yaml
   label: Ludo.ai Account API
   slug: ludo-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-account-api-openapi.yml
 - filename: ludo-ai-animation-api-openapi.yml
   format: yaml
   label: Ludo.ai Animation API
   slug: ludo-ai-animation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-animation-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-animation-api-openapi.yml
 - filename: ludo-ai-authentication-api-openapi.yml
   format: yaml
   label: Ludo.ai Authentication API
   slug: ludo-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-authentication-api-openapi.yml
 - filename: ludo-ai-documentation-api-openapi.yml
   format: yaml
   label: Ludo.ai Documentation API
   slug: ludo-ai-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-documentation-api-openapi.yml
 - filename: ludo-ai-files-api-openapi.yml
   format: yaml
   label: Ludo.ai Files API
   slug: ludo-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-files-api-openapi.yml
 - filename: ludo-ai-generations-api-openapi.yml
   format: yaml
   label: Ludo.ai Generations API
   slug: ludo-ai-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-generations-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-generations-api-openapi.yml
 - filename: ludo-ai-jobs-api-openapi.yml
   format: yaml
   label: Ludo.ai Jobs API
   slug: ludo-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-jobs-api-openapi.yml
 - filename: ludo-ai-spritesheets-api-openapi.yml
   format: yaml
   label: Ludo.ai Spritesheets API
   slug: ludo-ai-spritesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-spritesheets-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-spritesheets-api-openapi.yml
 - filename: ludo-ai-videos-api-openapi.yml
   format: yaml
   label: Ludo.ai Videos API
   slug: ludo-ai-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-videos-api-openapi.yml
+  url: https://artifacts.apis.io/ludo-ai/openapi/ludo-ai-videos-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 19
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/ludo-a
   \      - high-value\n    audit: required\n- path: /videos/create\n  method: post\n  operationId: createVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/video\n  method: post\n  operationId: createVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/video/references\n  method: post\n  operationId: createVideoFromReferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/video/edit\n  method: post\n  operationId: editVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/video/upscale\n  method: post\n  operationId: upscaleVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/videos/results\n  method: get\n  operationId: getVideoResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/agentic-access/ludo-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ludo-ai/agentic-access/ludo-ai-agentic-access.yml
 summary_line: 60 operations · 41 acting · 3 human-in-the-loop
 tags:
 - Artificial Intelligence

@@ -8,19 +8,19 @@ api_specs:
   label: EPFL Actu News API
   slug: actu-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-actu.yaml
+  url: https://artifacts.apis.io/epfl/openapi/_original/epfl-actu.yaml
 - filename: epfl-memento.yaml
   format: yaml
   label: EPFL Memento Events API
   slug: memento-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-memento.yaml
+  url: https://artifacts.apis.io/epfl/openapi/_original/epfl-memento.yaml
 - filename: epfl-primers-api-openapi.yml
   format: yaml
   label: EPFL Primers API
   slug: epfl-primers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/epfl-primers-api-openapi.yml
+  url: https://artifacts.apis.io/epfl/openapi/epfl-primers-api-openapi.yml
 consequence_counts:
   read: 30
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/epfl-c
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{id}/\n  method: get\n  operationId: readProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publics/\n  method: get\n  operationId: listPublics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publics/{id}/\n  method: get\n  operationId: readPublic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registrations/\n  method: get\n  operationId: listRegistrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registrations/{id}/\n  method: get\n  operationId:\
   \ readRegistration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spoken_languages/\n  method: get\n  operationId: listSpokenLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spoken_languages/{id}/\n  method: get\n  operationId: readSpokenLanguage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /themes/\n  method: get\n  operationId: listThemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /themes/{id}/\n  method: get\n  operationId: readTheme\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /vulgarizations/\n  method: get\n  operationId: listVulgarizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulgarizations/{id}/\n  method: get\n  operationId: readVulgarization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/agentic-access/epfl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/epfl/agentic-access/epfl-agentic-access.yml
 summary_line: 30 operations
 tags:
 - University

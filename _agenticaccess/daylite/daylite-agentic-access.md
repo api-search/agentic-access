@@ -9,169 +9,169 @@ api_specs:
   label: Daylite Api Settings API
   slug: daylite-api-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-api-settings-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-api-settings-api-openapi.yml
 - filename: daylite-appointments-api-openapi.yml
   format: yaml
   label: Daylite Appointments API
   slug: daylite-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-appointments-api-openapi.yml
 - filename: daylite-categories-api-openapi.yml
   format: yaml
   label: Daylite Categories API
   slug: daylite-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-categories-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-categories-api-openapi.yml
 - filename: daylite-companies-api-openapi.yml
   format: yaml
   label: Daylite Companies API
   slug: daylite-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-companies-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-companies-api-openapi.yml
 - filename: daylite-contacts-api-openapi.yml
   format: yaml
   label: Daylite Contacts API
   slug: daylite-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-contacts-api-openapi.yml
 - filename: daylite-emails-api-openapi.yml
   format: yaml
   label: Daylite Emails API
   slug: daylite-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-emails-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-emails-api-openapi.yml
 - filename: daylite-files-api-openapi.yml
   format: yaml
   label: Daylite Files API
   slug: daylite-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-files-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-files-api-openapi.yml
 - filename: daylite-form-definitions-api-openapi.yml
   format: yaml
   label: Daylite Form Definitions API
   slug: daylite-form-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-form-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-form-definitions-api-openapi.yml
 - filename: daylite-forms-api-openapi.yml
   format: yaml
   label: Daylite Forms API
   slug: daylite-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-forms-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-forms-api-openapi.yml
 - filename: daylite-groups-api-openapi.yml
   format: yaml
   label: Daylite Groups API
   slug: daylite-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-groups-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-groups-api-openapi.yml
 - filename: daylite-info-api-openapi.yml
   format: yaml
   label: Daylite Info API
   slug: daylite-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-info-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-info-api-openapi.yml
 - filename: daylite-keywords-api-openapi.yml
   format: yaml
   label: Daylite Keywords API
   slug: daylite-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-keywords-api-openapi.yml
 - filename: daylite-labels-api-openapi.yml
   format: yaml
   label: Daylite Labels API
   slug: daylite-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-labels-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-labels-api-openapi.yml
 - filename: daylite-notes-api-openapi.yml
   format: yaml
   label: Daylite Notes API
   slug: daylite-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-notes-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-notes-api-openapi.yml
 - filename: daylite-opportunities-api-openapi.yml
   format: yaml
   label: Daylite Opportunities API
   slug: daylite-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-opportunities-api-openapi.yml
 - filename: daylite-personal-token-api-openapi.yml
   format: yaml
   label: Daylite Personal Token API
   slug: daylite-personal-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-personal-token-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-personal-token-api-openapi.yml
 - filename: daylite-pipeline-stages-api-openapi.yml
   format: yaml
   label: Daylite Pipeline Stages API
   slug: daylite-pipeline-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-pipeline-stages-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-pipeline-stages-api-openapi.yml
 - filename: daylite-pipelines-api-openapi.yml
   format: yaml
   label: Daylite Pipelines API
   slug: daylite-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-pipelines-api-openapi.yml
 - filename: daylite-projects-api-openapi.yml
   format: yaml
   label: Daylite Projects API
   slug: daylite-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-projects-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-projects-api-openapi.yml
 - filename: daylite-relationship-types-api-openapi.yml
   format: yaml
   label: Daylite Relationship Types API
   slug: daylite-relationship-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-relationship-types-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-relationship-types-api-openapi.yml
 - filename: daylite-relationships-api-openapi.yml
   format: yaml
   label: Daylite Relationships API
   slug: daylite-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-relationships-api-openapi.yml
 - filename: daylite-resources-api-openapi.yml
   format: yaml
   label: Daylite Resources API
   slug: daylite-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-resources-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-resources-api-openapi.yml
 - filename: daylite-role-types-api-openapi.yml
   format: yaml
   label: Daylite Role Types API
   slug: daylite-role-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-role-types-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-role-types-api-openapi.yml
 - filename: daylite-roles-api-openapi.yml
   format: yaml
   label: Daylite Roles API
   slug: daylite-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-roles-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-roles-api-openapi.yml
 - filename: daylite-subscriptions-api-openapi.yml
   format: yaml
   label: Daylite Subscriptions API
   slug: daylite-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-subscriptions-api-openapi.yml
 - filename: daylite-tasks-api-openapi.yml
   format: yaml
   label: Daylite Tasks API
   slug: daylite-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-tasks-api-openapi.yml
 - filename: daylite-teams-api-openapi.yml
   format: yaml
   label: Daylite Teams API
   slug: daylite-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-teams-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-teams-api-openapi.yml
 - filename: daylite-users-api-openapi.yml
   format: yaml
   label: Daylite Users API
   slug: daylite-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/openapi/daylite-users-api-openapi.yml
+  url: https://artifacts.apis.io/daylite/openapi/daylite-users-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 104
@@ -267,8 +267,8 @@ source_yaml: "generated: '2026-10-26'\nmethod: generated\nsource: openapi/daylit
   \    audit: none\n- path: /opportunities\n  method: post\n  operationId: opportunity-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opportunities/_search\n  method: post\n  operationId: opportunity-search\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opportunities/extra_fields\n  method: get\n  operationId: opportunity-extra-fields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /opportunities/extra_fields\n\
   \  method: patch\n  operationId: opportunity-extra-fields-edit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opportunities/trash\n  method: get\n  operationId: opportunity-trash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /opportunities/trash/{id}\n  method: get\n  operationId: opportunity-trash-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /opportunities/types\n  method: get\n  operationId: opportunity_types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /opportunities/types/{name}\n  method: get\n  operationId: opportunity_type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /opportunities/{id}\n  method: get\n  operationId: opportunity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /opportunities/{id}\n  method: patch\n  operationId: opportunity-edit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opportunities/{id}\n  method: delete\n  operationId: opportunity-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/agentic-access/daylite-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daylite/refs/heads/main/agentic-access/daylite-agentic-access.yml
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/daylite/agentic-access/daylite-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/daylite/agentic-access/daylite-agentic-access.yml
 summary_line: 187 operations · 83 acting
 tags:
 - Company

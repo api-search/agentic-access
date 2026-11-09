@@ -9,43 +9,43 @@ api_specs:
   label: western-union Balances API
   slug: western-union-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-balances-api-openapi.yml
+  url: https://artifacts.apis.io/western-union/openapi/western-union-balances-api-openapi.yml
 - filename: western-union-batches-api-openapi.yml
   format: yaml
   label: western-union Batches API
   slug: western-union-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-batches-api-openapi.yml
+  url: https://artifacts.apis.io/western-union/openapi/western-union-batches-api-openapi.yml
 - filename: western-union-customers-api-openapi.yml
   format: yaml
   label: western-union Customers API
   slug: western-union-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-customers-api-openapi.yml
+  url: https://artifacts.apis.io/western-union/openapi/western-union-customers-api-openapi.yml
 - filename: western-union-health-api-openapi.yml
   format: yaml
   label: western-union Health API
   slug: western-union-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-health-api-openapi.yml
+  url: https://artifacts.apis.io/western-union/openapi/western-union-health-api-openapi.yml
 - filename: western-union-orders-api-openapi.yml
   format: yaml
   label: western-union Orders API
   slug: western-union-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-orders-api-openapi.yml
+  url: https://artifacts.apis.io/western-union/openapi/western-union-orders-api-openapi.yml
 - filename: western-union-payments-api-openapi.yml
   format: yaml
   label: western-union Payments API
   slug: western-union-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-payments-api-openapi.yml
+  url: https://artifacts.apis.io/western-union/openapi/western-union-payments-api-openapi.yml
 - filename: western-union-quotes-api-openapi.yml
   format: yaml
   label: western-union Quotes API
   slug: western-union-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/openapi/western-union-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/western-union/openapi/western-union-quotes-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wester
   \  method: get\n  operationId: getHoldingBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{clientId}/batches/{batchId}\n  method: get\n  operationId: getBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{clientId}/batches/{batchId}\n  method: put\n  operationId: createBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{clientId}/batches/{batchId}\n  method: delete\n  operationId: deleteBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{clientId}/batches/{batchId}/payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{clientId}/batches/{batchId}/payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{clientId}/batches/{batchId}/payments/{paymentId}\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{clientId}/orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{clientId}/orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{clientId}/quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/agentic-access/western-union-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/western-union/agentic-access/western-union-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Fortune 500

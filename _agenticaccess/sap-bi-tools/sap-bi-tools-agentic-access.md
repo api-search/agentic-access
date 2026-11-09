@@ -9,97 +9,97 @@ api_specs:
   label: SAP BI Tools Administration API
   slug: sap-bi-tools-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-administration-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-administration-api-openapi.yml
 - filename: sap-bi-tools-authentication-api-openapi.yml
   format: yaml
   label: SAP BI Tools Authentication API
   slug: sap-bi-tools-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-authentication-api-openapi.yml
 - filename: sap-bi-tools-calendars-api-openapi.yml
   format: yaml
   label: SAP BI Tools Calendars API
   slug: sap-bi-tools-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-calendars-api-openapi.yml
 - filename: sap-bi-tools-cms-query-api-openapi.yml
   format: yaml
   label: SAP BI Tools CMS Query API
   slug: sap-bi-tools-cms-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-cms-query-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-cms-query-api-openapi.yml
 - filename: sap-bi-tools-content-items-api-openapi.yml
   format: yaml
   label: SAP BI Tools Content Items API
   slug: sap-bi-tools-content-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-content-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-content-items-api-openapi.yml
 - filename: sap-bi-tools-fact-data-api-openapi.yml
   format: yaml
   label: SAP BI Tools Fact Data API
   slug: sap-bi-tools-fact-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-fact-data-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-fact-data-api-openapi.yml
 - filename: sap-bi-tools-import-api-openapi.yml
   format: yaml
   label: SAP BI Tools Import API
   slug: sap-bi-tools-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-import-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-import-api-openapi.yml
 - filename: sap-bi-tools-inbox-api-openapi.yml
   format: yaml
   label: SAP BI Tools Inbox API
   slug: sap-bi-tools-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-inbox-api-openapi.yml
 - filename: sap-bi-tools-infostore-api-openapi.yml
   format: yaml
   label: SAP BI Tools InfoStore API
   slug: sap-bi-tools-infostore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-infostore-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-infostore-api-openapi.yml
 - filename: sap-bi-tools-master-data-api-openapi.yml
   format: yaml
   label: SAP BI Tools Master Data API
   slug: sap-bi-tools-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-master-data-api-openapi.yml
 - filename: sap-bi-tools-metadata-api-openapi.yml
   format: yaml
   label: SAP BI Tools Metadata API
   slug: sap-bi-tools-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-metadata-api-openapi.yml
 - filename: sap-bi-tools-resources-api-openapi.yml
   format: yaml
   label: SAP BI Tools Resources API
   slug: sap-bi-tools-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-resources-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-resources-api-openapi.yml
 - filename: sap-bi-tools-scheduling-api-openapi.yml
   format: yaml
   label: SAP BI Tools Scheduling API
   slug: sap-bi-tools-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-scheduling-api-openapi.yml
 - filename: sap-bi-tools-stories-api-openapi.yml
   format: yaml
   label: SAP BI Tools Stories API
   slug: sap-bi-tools-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-stories-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-stories-api-openapi.yml
 - filename: sap-bi-tools-teams-api-openapi.yml
   format: yaml
   label: SAP BI Tools Teams API
   slug: sap-bi-tools-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-teams-api-openapi.yml
 - filename: sap-bi-tools-users-api-openapi.yml
   format: yaml
   label: SAP BI Tools Users API
   slug: sap-bi-tools-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-bi-tools-users-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bi-tools/openapi/sap-bi-tools-users-api-openapi.yml
 consequence_counts:
   read: 21
   write: 11
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-an
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logoff\n  method: post\n  operationId: logoff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/infostore\n  method: get\n  operationId: getInfoStoreRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/infostore/{objectId}\n  method: get\n  operationId: getInfoStoreObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/infostore/{objectId}/children\n  method: get\n  operationId: getInfoStoreChildren\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cmsquery\n  method: get\n  operationId: executeCmsQueryGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cmsquery\n  method: post\n  operationId: executeCmsQueryPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/infostore/{documentId}/scheduleForms/now\n  method: post\n  operationId: scheduleDocumentNow\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/inbox\n  method: get\n  operationId: listInboxItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/agentic-access/sap-bi-tools-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-bi-tools/agentic-access/sap-bi-tools-agentic-access.yml
 summary_line: 32 operations · 11 acting
 tags:
 - Analytics

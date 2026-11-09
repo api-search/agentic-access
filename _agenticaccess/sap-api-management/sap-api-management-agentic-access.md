@@ -9,31 +9,31 @@ api_specs:
   label: SAP API Management API Products API
   slug: sap-api-management-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-api-products-api-openapi.yml
 - filename: sap-api-management-api-providers-api-openapi.yml
   format: yaml
   label: SAP API Management API Providers API
   slug: sap-api-management-api-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-api-providers-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-api-providers-api-openapi.yml
 - filename: sap-api-management-api-proxies-api-openapi.yml
   format: yaml
   label: SAP API Management API Proxies API
   slug: sap-api-management-api-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-api-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-api-proxies-api-openapi.yml
 - filename: sap-api-management-applications-api-openapi.yml
   format: yaml
   label: SAP API Management Applications API
   slug: sap-api-management-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-applications-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-applications-api-openapi.yml
 - filename: sap-api-management-key-value-maps-api-openapi.yml
   format: yaml
   label: SAP API Management Key Value Maps API
   slug: sap-api-management-key-value-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-key-value-maps-api-openapi.yml
+  url: https://artifacts.apis.io/sap-api-management/openapi/sap-api-management-key-value-maps-api-openapi.yml
 consequence_counts:
   read: 8
   write: 10
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-ap
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /APIProxies('{name}')\n  method: delete\n  operationId: deleteApiProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /APIProducts\n  method: get\n  operationId: listApiProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /APIProducts\n  method: post\n  operationId: createApiProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /APIProducts('{name}')\n  method: get\n  operationId: getApiProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /APIProducts('{name}')\n  method: delete\n  operationId: deleteApiProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Applications\n  method: get\n  operationId: listApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Applications\n  method: post\n  operationId: createApplication\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /KeyValueMaps\n  method: get\n  operationId: listKeyValueMaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /KeyValueMaps\n  method: post\n  operationId: createKeyValueMap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/agentic-access/sap-api-management-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-api-management/agentic-access/sap-api-management-agentic-access.yml
 summary_line: 18 operations · 10 acting
 tags:
 - API Management

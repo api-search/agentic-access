@@ -9,25 +9,25 @@ api_specs:
   label: Digio Documents API
   slug: digio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/digio/openapi/digio-documents-api-openapi.yml
 - filename: digio-emandate-api-openapi.yml
   format: yaml
   label: Digio eMandate API
   slug: digio-emandate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-emandate-api-openapi.yml
+  url: https://artifacts.apis.io/digio/openapi/digio-emandate-api-openapi.yml
 - filename: digio-kyc-api-openapi.yml
   format: yaml
   label: Digio KYC API
   slug: digio-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/digio/openapi/digio-kyc-api-openapi.yml
 - filename: digio-e-sign-api-openapi.yml
   format: yaml
   label: Digio e Sign API
   slug: digio-e-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-e-sign-api-openapi.yml
+  url: https://artifacts.apis.io/digio/openapi/digio-e-sign-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/digio-
   \ legally-binding\n      - high-value\n    audit: required\n- path: /v2/client/document/uploadpdf\n  method: post\n  operationId: uploadPdfForSign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - legally-binding\n      - high-value\n    audit: required\n- path: /v2/client/document/{document_id}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/client/document/download/{document_id}\n  method: get\n  operationId: downloadSignedDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n- path: /v2/client/template/multi_templates/create_sign_request\n  method: post\n  operationId:\
   \ createSignRequestFromTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - legally-binding\n      - high-value\n    audit: required\n- path: /v3/client/mandate/create\n  method: post\n  operationId: createMandate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - financial\n      - legally-binding\n    audit: required\n- path: /v3/client/mandate/{mandate_id}\n  method: get\n  operationId: getMandate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/client/mandate/{mandate_id}/cancel\n  method: post\n  operationId: cancelMandate\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - financial\n      - abnormal\n    audit: required\n- path: /client/kyc/v2/request/with_template\n  method: post\n  operationId: createKycRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - pii\n      - abnormal\n    audit: required\n- path: /client/kyc/v2/{request_id}/response\n  method: get\n  operationId: getKycResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/agentic-access/digio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/digio/agentic-access/digio-agentic-access.yml
 summary_line: 10 operations · 6 acting · 4 human-in-the-loop
 tags:
 - E-Signature

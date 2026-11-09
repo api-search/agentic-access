@@ -9,19 +9,19 @@ api_specs:
   label: Warp Agent API
   slug: warp-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-agent-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-agent-api-openapi.yml
 - filename: warp-harness-support-api-openapi.yml
   format: yaml
   label: Warp Harness Support API
   slug: warp-harness-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-harness-support-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-harness-support-api-openapi.yml
 - filename: warp-schedules-api-openapi.yml
   format: yaml
   label: Warp Schedules API
   slug: warp-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/warp/openapi/warp-schedules-api-openapi.yml
 consequence_counts:
   read: 16
   write: 12
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/warp-o
   \ abnormal\n      - high-value\n    audit: required\n- path: /agent/environments\n  method: get\n  operationId: listEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/artifacts/{artifactUid}\n  method: get\n  operationId: getArtifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /harness-support/transcript\n  method: get\n  operationId: getTranscriptDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/identities\n  method: post\n  operationId:\
   \ createAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/identities\n  method: get\n  operationId: listAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/identities/{uid}\n  method: get\n  operationId: getAgent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/identities/{uid}\n  method: put\n  operationId: updateAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/identities/{uid}\n  method: delete\n  operationId: deleteAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/agentic-access/warp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/warp/agentic-access/warp-agentic-access.yml
 summary_line: 28 operations · 12 acting
 tags:
 - Developer Tools

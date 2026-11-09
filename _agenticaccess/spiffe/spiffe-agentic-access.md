@@ -8,13 +8,13 @@ api_specs:
   label: SPIFFE Workload API
   slug: spiffe-workload-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/asyncapi/spiffe-workload-asyncapi.yml
+  url: https://artifacts.apis.io/spiffe/asyncapi/spiffe-workload-asyncapi.yml
 - filename: spiffe-bundle-api-openapi.yml
   format: yaml
   label: SPIFFE Bundle API
   slug: spiffe-bundle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/openapi/spiffe-bundle-api-openapi.yml
+  url: https://artifacts.apis.io/spiffe/openapi/spiffe-bundle-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -40,7 +40,7 @@ source_filename: spiffe-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spiffe-federation-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1\n  by_action_class:\n    connected: 1\n  by_consequence:\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /spiffe/v1/bundle\n  method: get\n  operationId: getTrustBundle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/agentic-access/spiffe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spiffe/agentic-access/spiffe-agentic-access.yml
 summary_line: 1 operation
 tags:
 - Authentication

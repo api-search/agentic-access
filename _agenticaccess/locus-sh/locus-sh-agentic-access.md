@@ -9,97 +9,97 @@ api_specs:
   label: Locus HomebaseMaster API
   slug: locus-sh-homebasemaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-homebasemaster-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-homebasemaster-api-openapi.yml
 - filename: locus-sh-order-api-openapi.yml
   format: yaml
   label: Locus Order API
   slug: locus-sh-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-order-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-order-api-openapi.yml
 - filename: locus-sh-orderserviceability-api-openapi.yml
   format: yaml
   label: Locus OrderServiceability API
   slug: locus-sh-orderserviceability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-orderserviceability-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-orderserviceability-api-openapi.yml
 - filename: locus-sh-personnelmaster-api-openapi.yml
   format: yaml
   label: Locus PersonnelMaster API
   slug: locus-sh-personnelmaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-personnelmaster-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-personnelmaster-api-openapi.yml
 - filename: locus-sh-rider-api-openapi.yml
   format: yaml
   label: Locus Rider API
   slug: locus-sh-rider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-rider-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-rider-api-openapi.yml
 - filename: locus-sh-riderpersona-api-openapi.yml
   format: yaml
   label: Locus RiderPersona API
   slug: locus-sh-riderpersona-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-riderpersona-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-riderpersona-api-openapi.yml
 - filename: locus-sh-roster-api-openapi.yml
   format: yaml
   label: Locus Roster API
   slug: locus-sh-roster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-roster-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-roster-api-openapi.yml
 - filename: locus-sh-servicetype-api-openapi.yml
   format: yaml
   label: Locus ServiceType API
   slug: locus-sh-servicetype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-servicetype-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-servicetype-api-openapi.yml
 - filename: locus-sh-servicetypeconfiguration-api-openapi.yml
   format: yaml
   label: Locus ServiceTypeConfiguration API
   slug: locus-sh-servicetypeconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-servicetypeconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-servicetypeconfiguration-api-openapi.yml
 - filename: locus-sh-shifttag-api-openapi.yml
   format: yaml
   label: Locus ShiftTag API
   slug: locus-sh-shifttag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-shifttag-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-shifttag-api-openapi.yml
 - filename: locus-sh-teammaster-api-openapi.yml
   format: yaml
   label: Locus TeamMaster API
   slug: locus-sh-teammaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-teammaster-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-teammaster-api-openapi.yml
 - filename: locus-sh-transporter-api-openapi.yml
   format: yaml
   label: Locus Transporter API
   slug: locus-sh-transporter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-transporter-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-transporter-api-openapi.yml
 - filename: locus-sh-vehicle-api-openapi.yml
   format: yaml
   label: Locus Vehicle API
   slug: locus-sh-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-vehicle-api-openapi.yml
 - filename: locus-sh-vehiclemodel-api-openapi.yml
   format: yaml
   label: Locus VehicleModel API
   slug: locus-sh-vehiclemodel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-vehiclemodel-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-vehiclemodel-api-openapi.yml
 - filename: locus-sh-location-master-api-openapi.yml
   format: yaml
   label: Locus Location Master API
   slug: locus-sh-location-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-location-master-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-location-master-api-openapi.yml
 - filename: locus-sh-sku-master-api-openapi.yml
   format: yaml
   label: Locus SKU Master API
   slug: locus-sh-sku-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/openapi/locus-sh-sku-master-api-openapi.yml
+  url: https://artifacts.apis.io/locus-sh/openapi/locus-sh-sku-master-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 15
@@ -234,7 +234,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/locus-
   \ /client/{clientId}/vehicle/{vehicleId}\n  method: get\n  operationId: getVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/{clientId}/vehicle/{vehicleId}\n  method: put\n  operationId: createVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /client/{clientId}/vehicle/{vehicleId}/disable\n  method: post\n  operationId: disableVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n   \
   \ audit: required\n- path: /client/{clientId}/vehicle-model/{vehicleModelId}\n  method: get\n  operationId: getVehicleModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/{clientId}/vehicle-model/{vehicleModelId}\n  method: put\n  operationId: createVehicleModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /client/{clientId}/vehicle-model/{vehicleModelId}/disable\n  method: post\n  operationId: disableVehicleModel\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/agentic-access/locus-sh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/locus-sh/agentic-access/locus-sh-agentic-access.yml
 summary_line: 48 operations · 33 acting · 10 human-in-the-loop
 tags:
 - Logistics

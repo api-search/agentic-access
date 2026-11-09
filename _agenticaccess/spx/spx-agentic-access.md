@@ -9,31 +9,31 @@ api_specs:
   label: SPX Graphics Data API
   slug: spx-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-data-api-openapi.yml
+  url: https://artifacts.apis.io/spx/openapi/spx-data-api-openapi.yml
 - filename: spx-extensions-api-openapi.yml
   format: yaml
   label: SPX Graphics Extensions API
   slug: spx-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/spx/openapi/spx-extensions-api-openapi.yml
 - filename: spx-files-api-openapi.yml
   format: yaml
   label: SPX Graphics Files API
   slug: spx-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-files-api-openapi.yml
+  url: https://artifacts.apis.io/spx/openapi/spx-files-api-openapi.yml
 - filename: spx-item-api-openapi.yml
   format: yaml
   label: SPX Graphics Item API
   slug: spx-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-item-api-openapi.yml
+  url: https://artifacts.apis.io/spx/openapi/spx-item-api-openapi.yml
 - filename: spx-rundown-api-openapi.yml
   format: yaml
   label: SPX Graphics Rundown API
   slug: spx-rundown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-rundown-api-openapi.yml
+  url: https://artifacts.apis.io/spx/openapi/spx-rundown-api-openapi.yml
 consequence_counts:
   read: 9
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spx-gr
   \  method: get\n  operationId: focusNextItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/rundown/focusPrevious\n  method: get\n  operationId: focusPreviousItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/item/play\n  method: get\n  operationId: playItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/item/stop\n  method: get\n  operationId: stopItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/item/continue\n  method: get\n  operationId: continueItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/item/update\n  method: post\n  operationId: updateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/directplayout\n  method: post\n  operationId: directPlayout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/getFileList\n  method: get\n  operationId: getFileList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/saveCustomJSON\n  method: post\n  operationId: saveCustomJSON\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/invokeExtensionFunction\n  method: post\n  operationId: invokeExtensionFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/feedproxy\n  method: get\n  operationId: feedProxy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/agentic-access/spx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spx/agentic-access/spx-agentic-access.yml
 summary_line: 13 operations · 4 acting
 tags:
 - Broadcast

@@ -8,19 +8,19 @@ api_specs:
   label: Debian Bugs API
   slug: debian-bugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-bugs-api-openapi.yml
+  url: https://artifacts.apis.io/debian/openapi/debian-bugs-api-openapi.yml
 - filename: debian-maintainers-api-openapi.yml
   format: yaml
   label: Debian Maintainers API
   slug: debian-maintainers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-maintainers-api-openapi.yml
+  url: https://artifacts.apis.io/debian/openapi/debian-maintainers-api-openapi.yml
 - filename: debian-reproducibility-api-openapi.yml
   format: yaml
   label: Debian Reproducibility API
   slug: debian-reproducibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/openapi/debian-reproducibility-api-openapi.yml
+  url: https://artifacts.apis.io/debian/openapi/debian-reproducibility-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/debian-bugs-api-openapi.yml, openapi/debian-maintainers-api-openapi.yml, openapi/debian-reproducibility-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /{bugId}\n  method: get\n  operationId: getBug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cgi-bin/bugreport.cgi\n  method: get\n  operationId: getBugReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /cgi-bin/pkgreport.cgi\n  method: get\n  operationId: getPackageBugs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bugs/\n  method: get\n  operationId: searchBugs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dmd/\n  method: get\n  operationId: getMaintainerDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reproducible/\n  method: get\n  operationId: getReproducibility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/agentic-access/debian-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/debian/agentic-access/debian-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Bug Tracker

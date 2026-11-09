@@ -9,25 +9,25 @@ api_specs:
   label: Documo Account API
   slug: documo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-account-api-openapi.yml
+  url: https://artifacts.apis.io/documo/openapi/documo-account-api-openapi.yml
 - filename: documo-fax-api-openapi.yml
   format: yaml
   label: Documo Fax API
   slug: documo-fax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-fax-api-openapi.yml
+  url: https://artifacts.apis.io/documo/openapi/documo-fax-api-openapi.yml
 - filename: documo-numbers-api-openapi.yml
   format: yaml
   label: Documo Numbers API
   slug: documo-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/documo/openapi/documo-numbers-api-openapi.yml
 - filename: documo-webhooks-api-openapi.yml
   format: yaml
   label: Documo Webhooks API
   slug: documo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/openapi/documo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/documo/openapi/documo-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 7
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/documo
   \ listNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /numbers\n  method: post\n  operationId: provisionNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /numbers/search\n  method: get\n  operationId: searchNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /numbers/{numberId}\n  method: delete\n  operationId: releaseNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /account\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/agentic-access/documo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/documo/agentic-access/documo-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Fax

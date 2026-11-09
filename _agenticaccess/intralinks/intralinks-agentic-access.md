@@ -9,49 +9,49 @@ api_specs:
   label: Intralinks Authentication API
   slug: intralinks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/intralinks/openapi/intralinks-authentication-api-openapi.yml
 - filename: intralinks-custom-fields-api-openapi.yml
   format: yaml
   label: Intralinks Custom Fields API
   slug: intralinks-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/intralinks/openapi/intralinks-custom-fields-api-openapi.yml
 - filename: intralinks-documents-api-openapi.yml
   format: yaml
   label: Intralinks Documents API
   slug: intralinks-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-documents-api-openapi.yml
+  url: https://artifacts.apis.io/intralinks/openapi/intralinks-documents-api-openapi.yml
 - filename: intralinks-folders-api-openapi.yml
   format: yaml
   label: Intralinks Folders API
   slug: intralinks-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-folders-api-openapi.yml
+  url: https://artifacts.apis.io/intralinks/openapi/intralinks-folders-api-openapi.yml
 - filename: intralinks-groups-api-openapi.yml
   format: yaml
   label: Intralinks Groups API
   slug: intralinks-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-groups-api-openapi.yml
+  url: https://artifacts.apis.io/intralinks/openapi/intralinks-groups-api-openapi.yml
 - filename: intralinks-permissions-api-openapi.yml
   format: yaml
   label: Intralinks Permissions API
   slug: intralinks-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/intralinks/openapi/intralinks-permissions-api-openapi.yml
 - filename: intralinks-splash-api-openapi.yml
   format: yaml
   label: Intralinks Splash API
   slug: intralinks-splash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-splash-api-openapi.yml
+  url: https://artifacts.apis.io/intralinks/openapi/intralinks-splash-api-openapi.yml
 - filename: intralinks-workspaces-api-openapi.yml
   format: yaml
   label: Intralinks Workspaces API
   slug: intralinks-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/openapi/intralinks-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/intralinks/openapi/intralinks-workspaces-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/intral
   \ 3600\n    audit: none\n- path: /workspaces/{workspaceId}/groups/{groupId}\n  method: put\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/groups/{groupId}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/groups/{groupId}/members\n  method: get\n  operationId: listGroupMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /workspaces/{workspaceId}/groups/{groupId}/members\n  method: post\n  operationId: addGroupMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/permissions\n  method: get\n  operationId: listPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/permissions\n  method: post\n  operationId: createPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /workspaces/{workspaceId}/splash\n  method: get\n  operationId: getSplash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/splash\n  method: put\n  operationId: updateSplash\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/customfields\n  method: get\n  operationId: listCustomFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/agentic-access/intralinks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/intralinks/agentic-access/intralinks-agentic-access.yml
 summary_line: 30 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Document Management

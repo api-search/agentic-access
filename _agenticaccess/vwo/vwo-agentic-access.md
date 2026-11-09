@@ -9,25 +9,25 @@ api_specs:
   label: VWO Campaigns API
   slug: vwo-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/openapi/vwo-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/vwo/openapi/vwo-campaigns-api-openapi.yml
 - filename: vwo-feature-flags-api-openapi.yml
   format: yaml
   label: VWO Feature Flags API
   slug: vwo-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/openapi/vwo-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/vwo/openapi/vwo-feature-flags-api-openapi.yml
 - filename: vwo-reports-api-openapi.yml
   format: yaml
   label: VWO Reports API
   slug: vwo-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/openapi/vwo-reports-api-openapi.yml
+  url: https://artifacts.apis.io/vwo/openapi/vwo-reports-api-openapi.yml
 - filename: vwo-websites-api-openapi.yml
   format: yaml
   label: VWO Websites API
   slug: vwo-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/openapi/vwo-websites-api-openapi.yml
+  url: https://artifacts.apis.io/vwo/openapi/vwo-websites-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vwo-op
   \  method: get\n  operationId: getWebsite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/insights/reports\n  method: get\n  operationId: getMetricReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/fme/feature-flags\n  method: get\n  operationId: listFeatureFlags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/fme/feature-flags\n  method: post\n  operationId: createFeatureFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/fme/feature-flags/{feature_flag_id}\n  method: get\n  operationId: getFeatureFlag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/fme/feature-flags/{feature_flag_id}\n  method: patch\n  operationId: updateFeatureFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/fme/feature-flags/{feature_flag_id}\n  method: delete\n  operationId: deleteFeatureFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/agentic-access/vwo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vwo/agentic-access/vwo-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Experimentation

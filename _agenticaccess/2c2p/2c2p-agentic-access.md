@@ -9,43 +9,43 @@ api_specs:
   label: 2C2P Do Payment API
   slug: 2c2p-do-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-do-payment-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-do-payment-api-openapi.yml
 - filename: 2c2p-exchange-rate-api-openapi.yml
   format: yaml
   label: 2C2P Exchange Rate API
   slug: 2c2p-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-exchange-rate-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-exchange-rate-api-openapi.yml
 - filename: 2c2p-inquiry-api-openapi.yml
   format: yaml
   label: 2C2P Inquiry API
   slug: 2c2p-inquiry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-inquiry-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-inquiry-api-openapi.yml
 - filename: 2c2p-maintenance-api-openapi.yml
   format: yaml
   label: 2C2P Maintenance API
   slug: 2c2p-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-maintenance-api-openapi.yml
 - filename: 2c2p-payment-option-api-openapi.yml
   format: yaml
   label: 2C2P Payment Option API
   slug: 2c2p-payment-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-payment-option-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-payment-option-api-openapi.yml
 - filename: 2c2p-payment-token-api-openapi.yml
   format: yaml
   label: 2C2P Payment Token API
   slug: 2c2p-payment-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-payment-token-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-payment-token-api-openapi.yml
 - filename: 2c2p-tokens-api-openapi.yml
   format: yaml
   label: 2C2P Tokens API
   slug: 2c2p-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/openapi/2c2p-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/2c2p/openapi/2c2p-tokens-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 2
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/2c2p-d
   \ transactionStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cancelTransaction\n  method: post\n  operationId: cancelTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /paymentOption\n  method: post\n  operationId: paymentOption\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paymentOptionDetails\n  method: post\n  operationId: paymentOptionDetails\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paymentToken\n  method: post\n  operationId: paymentToken\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cardTokenInfo\n  method: post\n  operationId: cardTokenInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cardInstallmentPlanInfo\n  method: post\n  operationId: cardInstallmentPlanInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/agentic-access/2c2p-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/2c2p/agentic-access/2c2p-agentic-access.yml
 summary_line: 10 operations · 8 acting
 tags:
 - Payments

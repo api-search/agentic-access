@@ -9,31 +9,31 @@ api_specs:
   label: ingram-micro Catalog API
   slug: ingram-micro-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-catalog-api-openapi.yml
 - filename: ingram-micro-inventory-api-openapi.yml
   format: yaml
   label: ingram-micro Inventory API
   slug: ingram-micro-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-inventory-api-openapi.yml
 - filename: ingram-micro-orders-api-openapi.yml
   format: yaml
   label: ingram-micro Orders API
   slug: ingram-micro-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-orders-api-openapi.yml
 - filename: ingram-micro-pricing-api-openapi.yml
   format: yaml
   label: ingram-micro Pricing API
   slug: ingram-micro-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-pricing-api-openapi.yml
 - filename: ingram-micro-shipments-api-openapi.yml
   format: yaml
   label: ingram-micro Shipments API
   slug: ingram-micro-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/ingram-micro/openapi/ingram-micro-shipments-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -67,7 +67,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ingram-micro-catalog-api-openapi.yml, openapi/ingram-micro-inventory-api-openapi.yml,\n  openapi/ingram-micro-orders-api-openapi.yml, openapi/ingram-micro-pricing-api-openapi.yml,\n  openapi/ingram-micro-shipments-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 7\n    acting: 1\n  by_consequence:\n    read: 7\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /catalog\n  method: get\n  operationId: getCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/{ingramPartNumber}\n  method: get\n  operationId:\
   \ getProductDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory\n  method: get\n  operationId: getInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders\n  method: get\n  operationId: getVendorOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n\
   \  method: get\n  operationId: getOrderStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing\n  method: post\n  operationId: getPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments\n  method: get\n  operationId: getShipments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/agentic-access/ingram-micro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ingram-micro/agentic-access/ingram-micro-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
 - Fortune 100

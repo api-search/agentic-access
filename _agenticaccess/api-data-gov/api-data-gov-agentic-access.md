@@ -9,79 +9,79 @@ api_specs:
   label: api.data.gov Dataset API
   slug: api-data-gov-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-dataset-api-openapi.yml
 - filename: api-data-gov-harvest-jobs-api-openapi.yml
   format: yaml
   label: api.data.gov Harvest Jobs API
   slug: api-data-gov-harvest-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-harvest-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-harvest-jobs-api-openapi.yml
 - filename: api-data-gov-harvest-records-api-openapi.yml
   format: yaml
   label: api.data.gov Harvest Records API
   slug: api-data-gov-harvest-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-harvest-records-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-harvest-records-api-openapi.yml
 - filename: api-data-gov-harvest-sources-api-openapi.yml
   format: yaml
   label: api.data.gov Harvest Sources API
   slug: api-data-gov-harvest-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-harvest-sources-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-harvest-sources-api-openapi.yml
 - filename: api-data-gov-keywords-api-openapi.yml
   format: yaml
   label: api.data.gov Keywords API
   slug: api-data-gov-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-keywords-api-openapi.yml
 - filename: api-data-gov-location-api-openapi.yml
   format: yaml
   label: api.data.gov Location API
   slug: api-data-gov-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-location-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-location-api-openapi.yml
 - filename: api-data-gov-locations-api-openapi.yml
   format: yaml
   label: api.data.gov Locations API
   slug: api-data-gov-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-locations-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-locations-api-openapi.yml
 - filename: api-data-gov-organizations-api-openapi.yml
   format: yaml
   label: api.data.gov Organizations API
   slug: api-data-gov-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-organizations-api-openapi.yml
 - filename: api-data-gov-publishers-api-openapi.yml
   format: yaml
   label: api.data.gov Publishers API
   slug: api-data-gov-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-publishers-api-openapi.yml
 - filename: api-data-gov-search-api-openapi.yml
   format: yaml
   label: api.data.gov Search API
   slug: api-data-gov-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-search-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-search-api-openapi.yml
 - filename: api-data-gov-stats-api-openapi.yml
   format: yaml
   label: api.data.gov Stats API
   slug: api-data-gov-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-stats-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-stats-api-openapi.yml
 - filename: api-data-gov-validate-api-openapi.yml
   format: yaml
   label: api.data.gov Validate API
   slug: api-data-gov-validate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-validate-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-validate-api-openapi.yml
 - filename: api-data-gov-open-search-api-openapi.yml
   format: yaml
   label: api.data.gov Open Search API
   slug: api-data-gov-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-open-search-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-open-search-api-openapi.yml
 consequence_counts:
   read: 24
   write: 1
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/catalo
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/harvest_jobs/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/harvest_record/{record_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/harvest_record/{record_id}/errors\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/harvest_record/{record_id}/raw\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/harvest_record/{record_id}/transformed\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/harvest_record_errors/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/harvest_records/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/harvest_sources/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organization/{org_identifier}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organization_list/\n  method: get\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organizations/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/validate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/agentic-access/api-data-gov-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/api-data-gov/agentic-access/api-data-gov-agentic-access.yml
 summary_line: 25 operations · 1 acting
 tags:
 - Company

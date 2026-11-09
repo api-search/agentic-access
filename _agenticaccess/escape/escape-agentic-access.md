@@ -9,121 +9,181 @@ api_specs:
   label: Escape Asm API
   slug: escape-asm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-asm-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-asm-api-openapi.yml
 - filename: escape-assets-api-openapi.yml
   format: yaml
   label: Escape Assets API
   slug: escape-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-assets-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-assets-api-openapi.yml
 - filename: escape-audit-api-openapi.yml
   format: yaml
   label: Escape Audit API
   slug: escape-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-audit-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-audit-api-openapi.yml
 - filename: escape-beta-api-openapi.yml
   format: yaml
   label: Escape Beta API
   slug: escape-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-beta-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-beta-api-openapi.yml
 - filename: escape-emails-api-openapi.yml
   format: yaml
   label: Escape Emails API
   slug: escape-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-emails-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-emails-api-openapi.yml
 - filename: escape-events-api-openapi.yml
   format: yaml
   label: Escape Events API
   slug: escape-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-events-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-events-api-openapi.yml
 - filename: escape-integrations-api-openapi.yml
   format: yaml
   label: Escape Integrations API
   slug: escape-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-integrations-api-openapi.yml
 - filename: escape-issues-api-openapi.yml
   format: yaml
   label: Escape Issues API
   slug: escape-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-issues-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-issues-api-openapi.yml
 - filename: escape-jobs-api-openapi.yml
   format: yaml
   label: Escape Jobs API
   slug: escape-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-jobs-api-openapi.yml
 - filename: escape-locations-api-openapi.yml
   format: yaml
   label: Escape Locations API
   slug: escape-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-locations-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-locations-api-openapi.yml
 - filename: escape-profiles-api-openapi.yml
   format: yaml
   label: Escape Profiles API
   slug: escape-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-profiles-api-openapi.yml
 - filename: escape-projects-api-openapi.yml
   format: yaml
   label: Escape Projects API
   slug: escape-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-projects-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-projects-api-openapi.yml
 - filename: escape-roles-api-openapi.yml
   format: yaml
   label: Escape Roles API
   slug: escape-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-roles-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-roles-api-openapi.yml
 - filename: escape-scans-api-openapi.yml
   format: yaml
   label: Escape Scans API
   slug: escape-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-scans-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-scans-api-openapi.yml
 - filename: escape-statistics-api-openapi.yml
   format: yaml
   label: Escape Statistics API
   slug: escape-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-statistics-api-openapi.yml
 - filename: escape-tags-api-openapi.yml
   format: yaml
   label: Escape Tags API
   slug: escape-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-tags-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-tags-api-openapi.yml
 - filename: escape-upload-api-openapi.yml
   format: yaml
   label: Escape Upload API
   slug: escape-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-upload-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-upload-api-openapi.yml
 - filename: escape-users-api-openapi.yml
   format: yaml
   label: Escape Users API
   slug: escape-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-users-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-users-api-openapi.yml
 - filename: escape-workflows-api-openapi.yml
   format: yaml
   label: Escape Workflows API
   slug: escape-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-workflows-api-openapi.yml
+- filename: escape-aichats-api-openapi.yml
+  format: yaml
+  label: Escape AI Chats API
+  slug: escape-aichats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-aichats-api-openapi.yml
+- filename: escape-compliance-api-openapi.yml
+  format: yaml
+  label: Escape Compliance API
+  slug: escape-compliance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-compliance-api-openapi.yml
+- filename: escape-knowledgefiles-api-openapi.yml
+  format: yaml
+  label: Escape Knowledge Files API
+  slug: escape-knowledgefiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-knowledgefiles-api-openapi.yml
+- filename: escape-organizationsettings-api-openapi.yml
+  format: yaml
+  label: Escape Organization Settings API
+  slug: escape-organizationsettings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-organizationsettings-api-openapi.yml
+- filename: escape-regressiontests-api-openapi.yml
+  format: yaml
+  label: Escape Regression Tests API
+  slug: escape-regressiontests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-regressiontests-api-openapi.yml
+- filename: escape-retests-api-openapi.yml
+  format: yaml
+  label: Escape Retests API
+  slug: escape-retests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-retests-api-openapi.yml
+- filename: escape-securitytests-api-openapi.yml
+  format: yaml
+  label: Escape Security Tests API
+  slug: escape-securitytests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-securitytests-api-openapi.yml
+- filename: escape-validations-api-openapi.yml
+  format: yaml
+  label: Escape Validations API
+  slug: escape-validations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-validations-api-openapi.yml
+- filename: escape-vaultvariables-api-openapi.yml
+  format: yaml
+  label: Escape Vault Variables API
+  slug: escape-vaultvariables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-vaultvariables-api-openapi.yml
+- filename: escape-views-api-openapi.yml
+  format: yaml
+  label: Escape Views API
+  slug: escape-views-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-views-api-openapi.yml
 - filename: escape-custom-rules-api-openapi.yml
   format: yaml
   label: Escape Custom Rules API
   slug: escape-custom-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-custom-rules-api-openapi.yml
+  url: https://artifacts.apis.io/escape/openapi/escape-custom-rules-api-openapi.yml
 consequence_counts:
   read: 64
   write: 104
@@ -182,8 +242,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/escape
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/akamai/{id}\n  method: get\n  operationId: getakamaiIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/akamai/{id}\n  method: put\n  operationId: updateakamaiIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/akamai/{id}\n  method: delete\n  operationId: deleteakamaiIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/aws\n  method: get\n  operationId: listawsIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/aws\n  method: post\n  operationId: createawsIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/aws/{id}\n  method: get\n  operationId: getawsIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/aws/{id}\n  method: put\n  operationId:\
   \ updateawsIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/aws/{id}\n  method: delete\n  operationId: deleteawsIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/azure\n  method: get\n  operationId: listazureIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/azure\n  method: post\n  operationId: createazureIntegration\n  x-agentic-access:\n \
-  \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/azure/{id}\n  method: get\n  operationId: getazureIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/azure/{id}\n  method: put\n  operationId: updateazureIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/agentic-access/escape-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/agentic-access/escape-agentic-access.yml
+  \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/azure/{id}\n  method: get\n  operationId: getazureIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/azure/{id}\n  method: put\n  operationId: updateazureIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/escape/agentic-access/escape-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/escape/agentic-access/escape-agentic-access.yml
 summary_line: 168 operations · 104 acting
 tags:
 - Platform

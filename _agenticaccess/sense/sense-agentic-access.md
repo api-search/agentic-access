@@ -9,31 +9,31 @@ api_specs:
   label: Sense Authentication API
   slug: sense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-authentication-api-openapi.yml
 - filename: sense-devices-api-openapi.yml
   format: yaml
   label: Sense Devices API
   slug: sense-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-devices-api-openapi.yml
 - filename: sense-history-api-openapi.yml
   format: yaml
   label: Sense History API
   slug: sense-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-history-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-history-api-openapi.yml
 - filename: sense-monitors-api-openapi.yml
   format: yaml
   label: Sense Monitors API
   slug: sense-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-monitors-api-openapi.yml
 - filename: sense-users-api-openapi.yml
   format: yaml
   label: Sense Users API
   slug: sense-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/openapi/sense-users-api-openapi.yml
+  url: https://artifacts.apis.io/sense/openapi/sense-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 3
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sense-
   \ none\n- path: /app/monitors/{monitor_id}/status\n  method: get\n  operationId: getMonitorStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/monitors/{monitor_id}/devices\n  method: get\n  operationId: getDiscoveredDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/monitors/{monitor_id}/devices/overview\n  method: get\n  operationId: getDevicesOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/monitors/{monitor_id}/devices/always_on\n  method: get\n  operationId: getAlwaysOnInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/monitors/{monitor_id}/devices/{device_id}\n\
   \  method: get\n  operationId: getDeviceInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitors/{monitor_id}/devices\n  method: get\n  operationId: getRawDeviceData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/monitors/{monitor_id}/history/usage\n  method: get\n  operationId: getUsageHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/monitors/{monitor_id}/history/usage/solar\n  method: get\n  operationId: getSolarHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/{monitor_id}/realtime_update\n  method: get\n  operationId: getRealtimeUpdate\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}/timeline\n  method: get\n  operationId: getUserTimeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/agentic-access/sense-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sense/agentic-access/sense-agentic-access.yml
 summary_line: 15 operations · 3 acting
 tags:
 - Energy

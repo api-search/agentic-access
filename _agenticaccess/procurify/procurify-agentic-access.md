@@ -9,103 +9,103 @@ api_specs:
   label: Procurify Account Codes API
   slug: procurify-account-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-account-codes-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-account-codes-api-openapi.yml
 - filename: procurify-accounts-api-openapi.yml
   format: yaml
   label: Procurify Accounts API
   slug: procurify-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-accounts-api-openapi.yml
 - filename: procurify-ap-api-openapi.yml
   format: yaml
   label: Procurify Ap API
   slug: procurify-ap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-ap-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-ap-api-openapi.yml
 - filename: procurify-catalog-api-openapi.yml
   format: yaml
   label: Procurify Catalog API
   slug: procurify-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-catalog-api-openapi.yml
 - filename: procurify-currencies-api-openapi.yml
   format: yaml
   label: Procurify Currencies API
   slug: procurify-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-currencies-api-openapi.yml
 - filename: procurify-custom-fields-api-openapi.yml
   format: yaml
   label: Procurify Custom Fields API
   slug: procurify-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-custom-fields-api-openapi.yml
 - filename: procurify-departments-api-openapi.yml
   format: yaml
   label: Procurify Departments API
   slug: procurify-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-departments-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-departments-api-openapi.yml
 - filename: procurify-locations-api-openapi.yml
   format: yaml
   label: Procurify Locations API
   slug: procurify-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-locations-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-locations-api-openapi.yml
 - filename: procurify-order-items-api-openapi.yml
   format: yaml
   label: Procurify Order Items API
   slug: procurify-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-order-items-api-openapi.yml
 - filename: procurify-permissions-api-openapi.yml
   format: yaml
   label: Procurify Permissions API
   slug: procurify-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-permissions-api-openapi.yml
 - filename: procurify-public-api-openapi.yml
   format: yaml
   label: Procurify Public API
   slug: procurify-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-public-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-public-api-openapi.yml
 - filename: procurify-purchase-orders-api-openapi.yml
   format: yaml
   label: Procurify Purchase Orders API
   slug: procurify-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-purchase-orders-api-openapi.yml
 - filename: procurify-receipt-api-openapi.yml
   format: yaml
   label: Procurify Receipt API
   slug: procurify-receipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-receipt-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-receipt-api-openapi.yml
 - filename: procurify-requisitions-api-openapi.yml
   format: yaml
   label: Procurify Requisitions API
   slug: procurify-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-requisitions-api-openapi.yml
 - filename: procurify-users-api-openapi.yml
   format: yaml
   label: Procurify Users API
   slug: procurify-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-users-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-users-api-openapi.yml
 - filename: procurify-vendors-api-openapi.yml
   format: yaml
   label: Procurify Vendors API
   slug: procurify-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-vendors-api-openapi.yml
 - filename: procurify-oauth-api-openapi.yml
   format: yaml
   label: Procurify OAUTH API
   slug: procurify-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/openapi/procurify-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/procurify/openapi/procurify-oauth-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 31
@@ -189,7 +189,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/procur
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/users/{id}/\n  method: put\n  operationId: users_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/users/{id}/\n  method: delete\n  operationId: users_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/users/me/\n  method: get\n  operationId: users_me_list\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/vendors/\n  method: get\n  operationId: vendors_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/vendors/\n  method: post\n  operationId: vendors_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/vendors/{id}/\n  method: get\n  operationId: vendors_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/vendors/{id}/\n  method: put\n  operationId: vendors_update\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/vendors/{id}/\n  method: patch\n  operationId: vendors_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/token\n  method: post\n  operationId: api_account_code_retrieve\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/agentic-access/procurify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/procurify/agentic-access/procurify-agentic-access.yml
 summary_line: 55 operations · 24 acting
 tags:
 - Spend Management

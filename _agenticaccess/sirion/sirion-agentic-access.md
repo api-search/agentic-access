@@ -9,37 +9,37 @@ api_specs:
   label: Sirion Contract Requests API
   slug: sirion-contract-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-contract-requests-api-openapi.yml
+  url: https://artifacts.apis.io/sirion/openapi/sirion-contract-requests-api-openapi.yml
 - filename: sirion-contracts-api-openapi.yml
   format: yaml
   label: Sirion Contracts API
   slug: sirion-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/sirion/openapi/sirion-contracts-api-openapi.yml
 - filename: sirion-metadata-clauses-api-openapi.yml
   format: yaml
   label: Sirion Metadata & Clauses API
   slug: sirion-metadata-clauses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-metadata-clauses-api-openapi.yml
+  url: https://artifacts.apis.io/sirion/openapi/sirion-metadata-clauses-api-openapi.yml
 - filename: sirion-obligations-api-openapi.yml
   format: yaml
   label: Sirion Obligations API
   slug: sirion-obligations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-obligations-api-openapi.yml
+  url: https://artifacts.apis.io/sirion/openapi/sirion-obligations-api-openapi.yml
 - filename: sirion-suppliers-api-openapi.yml
   format: yaml
   label: Sirion Suppliers API
   slug: sirion-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/sirion/openapi/sirion-suppliers-api-openapi.yml
 - filename: sirion-webhooks-api-openapi.yml
   format: yaml
   label: Sirion Webhooks API
   slug: sirion-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/openapi/sirion-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sirion/openapi/sirion-webhooks-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sirion
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contractId}/metadata\n  method: get\n  operationId: getContractMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{contractId}/metadata\n  method: patch\n  operationId: updateContractMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contractId}/clauses\n  method: get\n  operationId: listContractClauses\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /obligations\n  method: get\n  operationId: listObligations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /obligations/{obligationId}\n  method: patch\n  operationId: updateObligation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /suppliers\n  method: get\n  operationId: listSuppliers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suppliers\n  method: post\n  operationId: createSupplier\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/agentic-access/sirion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sirion/agentic-access/sirion-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Contract Management

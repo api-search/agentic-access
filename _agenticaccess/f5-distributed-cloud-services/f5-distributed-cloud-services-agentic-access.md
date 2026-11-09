@@ -9,13 +9,13 @@ api_specs:
   label: F5 Distributed Cloud Services Config API
   slug: f5-distributed-cloud-services-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-config-api-openapi.yml
+  url: https://artifacts.apis.io/f5-distributed-cloud-services/openapi/f5-distributed-cloud-services-config-api-openapi.yml
 - filename: f5-distributed-cloud-services-data-api-openapi.yml
   format: yaml
   label: F5 Distributed Cloud Services Data API
   slug: f5-distributed-cloud-services-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-data-api-openapi.yml
+  url: https://artifacts.apis.io/f5-distributed-cloud-services/openapi/f5-distributed-cloud-services-data-api-openapi.yml
 consequence_counts:
   read: 11
   write: 10
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/f5-dis
   - path: /api/config/namespaces/{namespace}/origin_pools/{name}\n  method: delete\n  operationId: deleteOriginPool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/namespaces/{namespace}/app_firewalls\n  method: get\n  operationId: listAppFirewalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/config/namespaces/{namespace}/app_firewalls\n  method: post\n  operationId: createAppFirewall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/config/namespaces/{namespace}/certificates\n  method: get\n  operationId: listCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/config/namespaces/{namespace}/certificates\n  method: post\n  operationId: createCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/namespaces/{namespace}/dns_domains\n  method: get\n  operationId: listDnsDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/data/namespaces/{namespace}/sites\n  method: get\n  operationId: listSites\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/agentic-access/f5-distributed-cloud-services-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/f5-distributed-cloud-services/agentic-access/f5-distributed-cloud-services-agentic-access.yml
 summary_line: 21 operations · 10 acting
 tags:
 - Application Security

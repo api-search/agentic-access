@@ -9,79 +9,79 @@ api_specs:
   label: PayFast Subscriptions API
   slug: payfast-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-subscriptions-api-openapi.yml
 - filename: payfast-tokenization-api-openapi.yml
   format: yaml
   label: PayFast Tokenization API
   slug: payfast-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-tokenization-api-openapi.yml
 - filename: payfast-transaction-history-api-openapi.yml
   format: yaml
   label: PayFast Transaction History API
   slug: payfast-transaction-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-transaction-history-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-transaction-history-api-openapi.yml
 - filename: payfast-credit-card-transactions-api-openapi.yml
   format: yaml
   label: PayFast Credit Card Transactions API
   slug: payfast-credit-card-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-credit-card-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-credit-card-transactions-api-openapi.yml
 - filename: payfast-refunds-api-openapi.yml
   format: yaml
   label: PayFast Refunds API
   slug: payfast-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-refunds-api-openapi.yml
 - filename: payfast-credit-card-transactions-api-openapi.yml
   format: yaml
   label: PayFast Credit Card Transactions API
   slug: payfast-credit-card-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-credit-card-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-credit-card-transactions-api-openapi.yml
 - filename: payfast-notifications-api-openapi.yml
   format: yaml
   label: PayFast Notifications API
   slug: payfast-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-notifications-api-openapi.yml
 - filename: payfast-onsite-checkout-api-openapi.yml
   format: yaml
   label: PayFast Onsite Checkout API
   slug: payfast-onsite-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-onsite-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-onsite-checkout-api-openapi.yml
 - filename: payfast-payment-form-api-openapi.yml
   format: yaml
   label: PayFast Payment Form API
   slug: payfast-payment-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-payment-form-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-payment-form-api-openapi.yml
 - filename: payfast-refunds-api-openapi.yml
   format: yaml
   label: PayFast Refunds API
   slug: payfast-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-refunds-api-openapi.yml
 - filename: payfast-subscriptions-api-openapi.yml
   format: yaml
   label: PayFast Subscriptions API
   slug: payfast-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-subscriptions-api-openapi.yml
 - filename: payfast-tokenization-api-openapi.yml
   format: yaml
   label: PayFast Tokenization API
   slug: payfast-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-tokenization-api-openapi.yml
 - filename: payfast-transaction-history-api-openapi.yml
   format: yaml
   label: PayFast Transaction History API
   slug: payfast-transaction-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/openapi/payfast-transaction-history-api-openapi.yml
+  url: https://artifacts.apis.io/payfast/openapi/payfast-transaction-history-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 7
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/history/weekly\n  method: get\n  operationId: getWeeklyTransactionHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/history/monthly\n  method: get\n  operationId: getMonthlyTransactionHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /process/query/{token}\n  method: get\n  operationId: fetchCreditCardTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refunds/{id}\n  method: get\n  operationId: fetchRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refunds/{id}\n  method: post\n  operationId: createRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /onsite/process\n  method: post\n  operationId: generatePaymentIdentifier\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eng/process\n  method: post\n  operationId: initiatePayment\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eng/query/validate\n  method: post\n  operationId: validateITN\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/agentic-access/payfast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/payfast/agentic-access/payfast-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - Payments

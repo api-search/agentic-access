@@ -9,61 +9,61 @@ api_specs:
   label: Drip Accounts API
   slug: drip-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-accounts-api-openapi.yml
 - filename: drip-broadcasts-api-openapi.yml
   format: yaml
   label: Drip Broadcasts API
   slug: drip-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-broadcasts-api-openapi.yml
 - filename: drip-campaigns-api-openapi.yml
   format: yaml
   label: Drip Campaigns API
   slug: drip-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-campaigns-api-openapi.yml
 - filename: drip-conversions-api-openapi.yml
   format: yaml
   label: Drip Conversions API
   slug: drip-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-conversions-api-openapi.yml
 - filename: drip-custom-fields-api-openapi.yml
   format: yaml
   label: Drip Custom Fields API
   slug: drip-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-custom-fields-api-openapi.yml
 - filename: drip-events-api-openapi.yml
   format: yaml
   label: Drip Events API
   slug: drip-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-events-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-events-api-openapi.yml
 - filename: drip-forms-api-openapi.yml
   format: yaml
   label: Drip Forms API
   slug: drip-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-forms-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-forms-api-openapi.yml
 - filename: drip-orders-api-openapi.yml
   format: yaml
   label: Drip Orders API
   slug: drip-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-orders-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-orders-api-openapi.yml
 - filename: drip-shopper-activity-api-openapi.yml
   format: yaml
   label: Drip Shopper Activity API
   slug: drip-shopper-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-shopper-activity-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-shopper-activity-api-openapi.yml
 - filename: drip-subscribers-api-openapi.yml
   format: yaml
   label: Drip Subscribers API
   slug: drip-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-subscribers-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/drip-o
   \ none\n- path: /v2/{account_id}/goals\n  method: get\n  operationId: listGoals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{account_id}/forms\n  method: get\n  operationId: listForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{account_id}/orders\n  method: post\n  operationId: createOrUpdateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{account_id}/custom_field_identifiers\n  method: get\n  operationId: listCustomFields\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/{account_id}/shopper_activity/cart/batch\n  method: post\n  operationId: batchShopperCarts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/{account_id}/shopper_activity/order/batch\n  method: post\n  operationId: batchShopperOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/{account_id}/shopper_activity/product/batch\n  method: post\n\
   \  operationId: batchShopperProducts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/agentic-access/drip-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/drip/agentic-access/drip-agentic-access.yml
 summary_line: 22 operations · 11 acting
 tags:
 - Email Marketing

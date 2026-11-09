@@ -15,7 +15,7 @@ api_specs:
   label: Formstack Partner API
   slug: formstack-partnerapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/openapi/formstack-partnerapi-api-openapi.yml
+  url: https://artifacts.apis.io/formstack/openapi/formstack-partnerapi-api-openapi.yml
 consequence_counts:
   read: 16
   write: 23
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/formst
   \ operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{webhookId}.json\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folder.json\n  method: get\n  operationId: listFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folder.json\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folder/{folderId}.json\n  method: get\n  operationId: getFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folder/{folderId}.json\n  method: put\n  operationId: updateFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folder/{folderId}.json\n  method: delete\n  operationId: deleteFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subaccount.json\n  method: get\n  operationId: listSubaccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/agentic-access/formstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/formstack/agentic-access/formstack-agentic-access.yml
 summary_line: 39 operations · 23 acting
 tags:
 - Forms
@@ -62,5 +62,6 @@ tags:
 - E-Signature
 - Workflow Automation
 - No-Code
+- OAuth
 - Authentication
 ---

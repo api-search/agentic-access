@@ -8,25 +8,25 @@ api_specs:
   label: Osmaura Prospect Editions API
   slug: osmaura-prospect-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-prospect-editions-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-prospect-editions-api-openapi.yml
 - filename: osmaura-prospects-api-openapi.yml
   format: yaml
   label: Osmaura Prospects API
   slug: osmaura-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-prospects-api-openapi.yml
 - filename: osmaura-signal-editions-api-openapi.yml
   format: yaml
   label: Osmaura Signal Editions API
   slug: osmaura-signal-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-signal-editions-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-signal-editions-api-openapi.yml
 - filename: osmaura-signals-api-openapi.yml
   format: yaml
   label: Osmaura Signals API
   slug: osmaura-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/openapi/osmaura-signals-api-openapi.yml
+  url: https://artifacts.apis.io/osmaura/openapi/osmaura-signals-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/osmaura-prospect-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/prospects\n  method: get\n  operationId: getProspects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/prospect-editions\n  method: get\n  operationId: listProspectEditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/signals\n  method: get\n  operationId: getLegacySignals\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/signal-editions\n  method: get\n  operationId: listLegacySignalEditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/agentic-access/osmaura-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/osmaura/agentic-access/osmaura-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Company

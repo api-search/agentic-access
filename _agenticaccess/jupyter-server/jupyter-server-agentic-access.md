@@ -9,49 +9,49 @@ api_specs:
   label: Jupyter Server Checkpoints API
   slug: jupyter-server-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-checkpoints-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-server/openapi/jupyter-server-checkpoints-api-openapi.yml
 - filename: jupyter-server-config-api-openapi.yml
   format: yaml
   label: Jupyter Server Config API
   slug: jupyter-server-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-config-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-server/openapi/jupyter-server-config-api-openapi.yml
 - filename: jupyter-server-contents-api-openapi.yml
   format: yaml
   label: Jupyter Server Contents API
   slug: jupyter-server-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-contents-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-server/openapi/jupyter-server-contents-api-openapi.yml
 - filename: jupyter-server-general-api-openapi.yml
   format: yaml
   label: Jupyter Server General API
   slug: jupyter-server-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-general-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-server/openapi/jupyter-server-general-api-openapi.yml
 - filename: jupyter-server-kernels-api-openapi.yml
   format: yaml
   label: Jupyter Server Kernels API
   slug: jupyter-server-kernels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-kernels-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-server/openapi/jupyter-server-kernels-api-openapi.yml
 - filename: jupyter-server-kernelspecs-api-openapi.yml
   format: yaml
   label: Jupyter Server Kernelspecs API
   slug: jupyter-server-kernelspecs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-kernelspecs-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-server/openapi/jupyter-server-kernelspecs-api-openapi.yml
 - filename: jupyter-server-sessions-api-openapi.yml
   format: yaml
   label: Jupyter Server Sessions API
   slug: jupyter-server-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-server/openapi/jupyter-server-sessions-api-openapi.yml
 - filename: jupyter-server-terminals-api-openapi.yml
   format: yaml
   label: Jupyter Server Terminals API
   slug: jupyter-server-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/openapi/jupyter-server-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-server/openapi/jupyter-server-terminals-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jupyte
   \ post\n  operationId: interruptKernel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kernels/{kernel_id}/restart\n  method: post\n  operationId: restartKernel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kernelspecs\n  method: get\n  operationId: listKernelspecs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/{section_name}\n  method: get\n  operationId: getConfig\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/{section_name}\n  method: patch\n  operationId: updateConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terminals\n  method: get\n  operationId: listTerminals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /terminals\n  method: post\n  operationId: createTerminal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /terminals/{terminal_id}\n  method: get\n  operationId: getTerminal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /terminals/{terminal_id}\n  method: delete\n  operationId: deleteTerminal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/agentic-access/jupyter-server-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jupyter-server/agentic-access/jupyter-server-agentic-access.yml
 summary_line: 31 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Compute

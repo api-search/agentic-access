@@ -9,211 +9,211 @@ api_specs:
   label: Bitrix24 BIconnector API
   slug: bitrix24-biconnector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-biconnector-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-biconnector-api-openapi.yml
 - filename: bitrix24-business-processes-api-openapi.yml
   format: yaml
   label: Bitrix24 Business Processes API
   slug: bitrix24-business-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-business-processes-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-business-processes-api-openapi.yml
 - filename: bitrix24-calendar-api-openapi.yml
   format: yaml
   label: Bitrix24 Calendar API
   slug: bitrix24-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-calendar-api-openapi.yml
 - filename: bitrix24-chatbots-api-openapi.yml
   format: yaml
   label: Bitrix24 Chatbots API
   slug: bitrix24-chatbots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-chatbots-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-chatbots-api-openapi.yml
 - filename: bitrix24-chats-api-openapi.yml
   format: yaml
   label: Bitrix24 Chats API
   slug: bitrix24-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-chats-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-chats-api-openapi.yml
 - filename: bitrix24-company-structure-api-openapi.yml
   format: yaml
   label: Bitrix24 Company Structure API
   slug: bitrix24-company-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-company-structure-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-company-structure-api-openapi.yml
 - filename: bitrix24-copilot-ai-api-openapi.yml
   format: yaml
   label: Bitrix24 CoPilot / AI API
   slug: bitrix24-copilot-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-copilot-ai-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-copilot-ai-api-openapi.yml
 - filename: bitrix24-crm-api-openapi.yml
   format: yaml
   label: Bitrix24 CRM API
   slug: bitrix24-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-crm-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-crm-api-openapi.yml
 - filename: bitrix24-data-storage-api-openapi.yml
   format: yaml
   label: Bitrix24 Data Storage API
   slug: bitrix24-data-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-data-storage-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-data-storage-api-openapi.yml
 - filename: bitrix24-deprecated-methods-api-openapi.yml
   format: yaml
   label: Bitrix24 Deprecated Methods API
   slug: bitrix24-deprecated-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-deprecated-methods-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-deprecated-methods-api-openapi.yml
 - filename: bitrix24-document-generator-api-openapi.yml
   format: yaml
   label: Bitrix24 Document Generator API
   slug: bitrix24-document-generator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-document-generator-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-document-generator-api-openapi.yml
 - filename: bitrix24-drive-api-openapi.yml
   format: yaml
   label: Bitrix24 Drive API
   slug: bitrix24-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-drive-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-drive-api-openapi.yml
 - filename: bitrix24-events-api-openapi.yml
   format: yaml
   label: Bitrix24 Events API
   slug: bitrix24-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-events-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-events-api-openapi.yml
 - filename: bitrix24-general-methods-api-openapi.yml
   format: yaml
   label: Bitrix24 General Methods API
   slug: bitrix24-general-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-general-methods-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-general-methods-api-openapi.yml
 - filename: bitrix24-mail-services-api-openapi.yml
   format: yaml
   label: Bitrix24 Mail Services API
   slug: bitrix24-mail-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-mail-services-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-mail-services-api-openapi.yml
 - filename: bitrix24-message-providers-api-openapi.yml
   format: yaml
   label: Bitrix24 Message Providers API
   slug: bitrix24-message-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-message-providers-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-message-providers-api-openapi.yml
 - filename: bitrix24-news-feed-api-openapi.yml
   format: yaml
   label: Bitrix24 News Feed API
   slug: bitrix24-news-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-news-feed-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-news-feed-api-openapi.yml
 - filename: bitrix24-online-booking-api-openapi.yml
   format: yaml
   label: Bitrix24 Online Booking API
   slug: bitrix24-online-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-online-booking-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-online-booking-api-openapi.yml
 - filename: bitrix24-open-lines-api-openapi.yml
   format: yaml
   label: Bitrix24 Open Lines API
   slug: bitrix24-open-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-open-lines-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-open-lines-api-openapi.yml
 - filename: bitrix24-payment-systems-api-openapi.yml
   format: yaml
   label: Bitrix24 Payment Systems API
   slug: bitrix24-payment-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-payment-systems-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-payment-systems-api-openapi.yml
 - filename: bitrix24-polls-api-openapi.yml
   format: yaml
   label: Bitrix24 Polls API
   slug: bitrix24-polls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-polls-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-polls-api-openapi.yml
 - filename: bitrix24-rest-v3-api-openapi.yml
   format: yaml
   label: Bitrix24 REST v3 API
   slug: bitrix24-rest-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-rest-v3-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-rest-v3-api-openapi.yml
 - filename: bitrix24-signature-api-openapi.yml
   format: yaml
   label: Bitrix24 Signature API
   slug: bitrix24-signature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-signature-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-signature-api-openapi.yml
 - filename: bitrix24-sites-api-openapi.yml
   format: yaml
   label: Bitrix24 Sites API
   slug: bitrix24-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-sites-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-sites-api-openapi.yml
 - filename: bitrix24-tasks-api-openapi.yml
   format: yaml
   label: Bitrix24 Tasks API
   slug: bitrix24-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-tasks-api-openapi.yml
 - filename: bitrix24-telephony-api-openapi.yml
   format: yaml
   label: Bitrix24 Telephony API
   slug: bitrix24-telephony-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-telephony-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-telephony-api-openapi.yml
 - filename: bitrix24-time-management-api-openapi.yml
   format: yaml
   label: Bitrix24 Time Management API
   slug: bitrix24-time-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-time-management-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-time-management-api-openapi.yml
 - filename: bitrix24-trade-catalog-api-openapi.yml
   format: yaml
   label: Bitrix24 Trade Catalog API
   slug: bitrix24-trade-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-trade-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-trade-catalog-api-openapi.yml
 - filename: bitrix24-universal-lists-api-openapi.yml
   format: yaml
   label: Bitrix24 Universal Lists API
   slug: bitrix24-universal-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-universal-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-universal-lists-api-openapi.yml
 - filename: bitrix24-user-consent-api-openapi.yml
   format: yaml
   label: Bitrix24 User Consent API
   slug: bitrix24-user-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-user-consent-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-user-consent-api-openapi.yml
 - filename: bitrix24-users-api-openapi.yml
   format: yaml
   label: Bitrix24 Users API
   slug: bitrix24-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-users-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-users-api-openapi.yml
 - filename: bitrix24-vibe-api-openapi.yml
   format: yaml
   label: Bitrix24 Vibe API
   slug: bitrix24-vibe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-vibe-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-vibe-api-openapi.yml
 - filename: bitrix24-widgets-api-openapi.yml
   format: yaml
   label: Bitrix24 Widgets API
   slug: bitrix24-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-widgets-api-openapi.yml
 - filename: bitrix24-ecommerce-api-openapi.yml
   format: yaml
   label: Bitrix24 Ecommerce API
   slug: bitrix24-ecommerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-ecommerce-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-ecommerce-api-openapi.yml
 - filename: bitrix24-work-groups-api-openapi.yml
   format: yaml
   label: Bitrix24 Work Groups API
   slug: bitrix24-work-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-work-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-work-groups-api-openapi.yml
 consequence_counts:
   physical: 205
   read: 590
@@ -403,8 +403,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bitrix
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /imbot.command.update\n  method: post\n  operationId: imbot_command_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - imbot\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /imbot.dialog.get\n  method: post\n  operationId: imbot_dialog_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - imbot\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /imbot.message.add\n  method: post\n  operationId: imbot_message_add\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - imbot\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n \
   \     purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /imbot.message.delete\n  method: post\n  operationId: imbot_message_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - imbot\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /imbot.message.like\n  method: post\n  operationId: imbot_message_like\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - imbot\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /imbot.message.update\n  method: post\n  operationId: imbot_message_update\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - imbot\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /imbot.register\n  method: post\n  operationId: imbot_register\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - imbot\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /imbot.unregister\n  method: post\n  operationId: imbot_unregister\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - imbot\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
-  \   - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (517 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/agentic-access/bitrix24-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/agentic-access/bitrix24-agentic-access.yml
+  \   - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (517 KB total) ---\n# Full source: https://artifacts.apis.io/bitrix24/agentic-access/bitrix24-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bitrix24/agentic-access/bitrix24-agentic-access.yml
 summary_line: 1570 operations · 980 acting · 26 human-in-the-loop
 tags:
 - CRM

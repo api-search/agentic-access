@@ -9,115 +9,115 @@ api_specs:
   label: iStock Countries API
   slug: istock-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-countries-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-countries-api-openapi.yml
 - filename: istock-downloads-api-openapi.yml
   format: yaml
   label: iStock Downloads API
   slug: istock-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-downloads-api-openapi.yml
 - filename: istock-images-api-openapi.yml
   format: yaml
   label: iStock Images API
   slug: istock-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-images-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-images-api-openapi.yml
 - filename: istock-search-api-openapi.yml
   format: yaml
   label: iStock Search API
   slug: istock-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-search-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-search-api-openapi.yml
 - filename: istock-videos-api-openapi.yml
   format: yaml
   label: iStock Videos API
   slug: istock-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-videos-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-videos-api-openapi.yml
 - filename: istock-affiliatesearch-api-openapi.yml
   format: yaml
   label: iStock Affiliate Search API
   slug: istock-affiliatesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-affiliatesearch-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-affiliatesearch-api-openapi.yml
 - filename: istock-aigenerator-api-openapi.yml
   format: yaml
   label: iStock AI Generator API
   slug: istock-aigenerator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-aigenerator-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-aigenerator-api-openapi.yml
 - filename: istock-artists-api-openapi.yml
   format: yaml
   label: iStock Artists API
   slug: istock-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-artists-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-artists-api-openapi.yml
 - filename: istock-assetchanges-api-openapi.yml
   format: yaml
   label: iStock Asset Changes API
   slug: istock-assetchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-assetchanges-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-assetchanges-api-openapi.yml
 - filename: istock-assetlicensing-api-openapi.yml
   format: yaml
   label: iStock Asset Licensing API
   slug: istock-assetlicensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-assetlicensing-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-assetlicensing-api-openapi.yml
 - filename: istock-boards-api-openapi.yml
   format: yaml
   label: iStock Boards API
   slug: istock-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-boards-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-boards-api-openapi.yml
 - filename: istock-collections-api-openapi.yml
   format: yaml
   label: iStock Collections API
   slug: istock-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-collections-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-collections-api-openapi.yml
 - filename: istock-customers-api-openapi.yml
   format: yaml
   label: iStock Customers API
   slug: istock-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-customers-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-customers-api-openapi.yml
 - filename: istock-events-api-openapi.yml
   format: yaml
   label: iStock Events API
   slug: istock-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-events-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-events-api-openapi.yml
 - filename: istock-imagematch-api-openapi.yml
   format: yaml
   label: iStock Image Match API
   slug: istock-imagematch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-imagematch-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-imagematch-api-openapi.yml
 - filename: istock-orders-api-openapi.yml
   format: yaml
   label: iStock Orders API
   slug: istock-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-orders-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-orders-api-openapi.yml
 - filename: istock-products-api-openapi.yml
   format: yaml
   label: iStock Products API
   slug: istock-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-products-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-products-api-openapi.yml
 - filename: istock-purchases-api-openapi.yml
   format: yaml
   label: iStock Purchases API
   slug: istock-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-purchases-api-openapi.yml
 - filename: istock-usage-api-openapi.yml
   format: yaml
   label: iStock Usage API
   slug: istock-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-usage-api-openapi.yml
+  url: https://artifacts.apis.io/istock/openapi/istock-usage-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/istock
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/images/editorial\n  method: get\n  operationId: searchEditorialImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/videos/creative\n  method: get\n  operationId: searchCreativeVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/videos/editorial\n  method: get\n  operationId: searchEditorialVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images\n  method: get\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /images/{id}\n  method: get\n  operationId: getImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos\n  method: get\n  operationId: listVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/{id}\n  method: get\n  operationId: getVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /downloads/images/{id}\n  method: post\n  operationId: downloadImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /downloads/videos/{id}\n\
   \  method: post\n  operationId: downloadVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/agentic-access/istock-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/istock/agentic-access/istock-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
 - Stock Media

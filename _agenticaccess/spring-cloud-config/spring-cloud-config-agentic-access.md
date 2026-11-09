@@ -9,25 +9,25 @@ api_specs:
   label: Spring Cloud Config Configuration API
   slug: spring-cloud-config-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-config/openapi/spring-cloud-config-configuration-api-openapi.yml
 - filename: spring-cloud-config-encryption-api-openapi.yml
   format: yaml
   label: Spring Cloud Config Encryption API
   slug: spring-cloud-config-encryption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-encryption-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-config/openapi/spring-cloud-config-encryption-api-openapi.yml
 - filename: spring-cloud-config-monitoring-api-openapi.yml
   format: yaml
   label: Spring Cloud Config Monitoring API
   slug: spring-cloud-config-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-config/openapi/spring-cloud-config-monitoring-api-openapi.yml
 - filename: spring-cloud-config-resources-api-openapi.yml
   format: yaml
   label: Spring Cloud Config Resources API
   slug: spring-cloud-config-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/openapi/spring-cloud-config-resources-api-openapi.yml
+  url: https://artifacts.apis.io/spring-cloud-config/openapi/spring-cloud-config-resources-api-openapi.yml
 consequence_counts:
   read: 10
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spring
   \ none\n- path: /{application}-{profile}.yml\n  method: get\n  operationId: getConfigYaml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{application}-{profile}.properties\n  method: get\n  operationId: getConfigProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{application}-{profile}.json\n  method: get\n  operationId: getConfigJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{label}/{application}-{profile}.yml\n  method: get\n  operationId: getConfigYamlWithLabel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{label}/{application}-{profile}.properties\n\
   \  method: get\n  operationId: getConfigPropertiesWithLabel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{label}/{application}-{profile}.json\n  method: get\n  operationId: getConfigJsonWithLabel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{application}/{profile}/{label}/{path}\n  method: get\n  operationId: getResourceFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /encrypt\n  method: post\n  operationId: encrypt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /decrypt\n  method: post\n  operationId: decrypt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /encrypt/status\n  method: get\n  operationId: encryptionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitor\n  method: post\n  operationId: triggerRefresh\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/agentic-access/spring-cloud-config-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spring-cloud-config/agentic-access/spring-cloud-config-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - Configuration Management

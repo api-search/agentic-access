@@ -9,85 +9,85 @@ api_specs:
   label: Cora Balance API
   slug: cora-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-balance-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-balance-api-openapi.yml
 - filename: cora-banks-api-openapi.yml
   format: yaml
   label: Cora Banks API
   slug: cora-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-banks-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-banks-api-openapi.yml
 - filename: cora-boletos-v2-api-openapi.yml
   format: yaml
   label: Cora Boletos V2 API
   slug: cora-boletos-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-boletos-v2-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-boletos-v2-api-openapi.yml
 - filename: cora-businesses-api-openapi.yml
   format: yaml
   label: Cora Businesses API
   slug: cora-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-businesses-api-openapi.yml
 - filename: cora-credentials-api-openapi.yml
   format: yaml
   label: Cora Credentials API
   slug: cora-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-credentials-api-openapi.yml
 - filename: cora-dados-de-conta-api-openapi.yml
   format: yaml
   label: Cora Dados De Conta API
   slug: cora-dados-de-conta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-dados-de-conta-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-dados-de-conta-api-openapi.yml
 - filename: cora-initiate-api-openapi.yml
   format: yaml
   label: Cora Initiate API
   slug: cora-initiate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-initiate-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-initiate-api-openapi.yml
 - filename: cora-issuer-api-openapi.yml
   format: yaml
   label: Cora Issuer API
   slug: cora-issuer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-issuer-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-issuer-api-openapi.yml
 - filename: cora-notifica-es-api-openapi.yml
   format: yaml
   label: Cora Notificações API
   slug: cora-notifica-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-notifica-es-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-notifica-es-api-openapi.yml
 - filename: cora-notifications-api-openapi.yml
   format: yaml
   label: Cora Notifications API
   slug: cora-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-notifications-api-openapi.yml
 - filename: cora-pagamento-de-impostos-api-openapi.yml
   format: yaml
   label: Cora Pagamento De Impostos API
   slug: cora-pagamento-de-impostos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-pagamento-de-impostos-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-pagamento-de-impostos-api-openapi.yml
 - filename: cora-pay-api-openapi.yml
   format: yaml
   label: Cora Pay API
   slug: cora-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-pay-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-pay-api-openapi.yml
 - filename: cora-service-receipt-api-openapi.yml
   format: yaml
   label: Cora Service Receipt API
   slug: cora-service-receipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-service-receipt-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-service-receipt-api-openapi.yml
 - filename: cora-statement-api-openapi.yml
   format: yaml
   label: Cora Statement API
   slug: cora-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-statement-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-statement-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 11
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/cora-b
   \  method: get\n  operationId: disponibilidade-da-nota-fiscal-por-cliente\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /businesses/cnaes\n  method: get\n  operationId: consulta-de-cnae\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /businesses/service-codes\n  method: get\n  operationId: consulta-de-codigo-de-servico\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentials\n  method: post\n  operationId: upload-certificado-a1-e-credenciais-nfse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /issuer\n  method: post\n  operationId: cadastro-do-emissor-de-nota-fiscal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /service-receipt/{service_receipt_id}\n  method: delete\n  operationId: cancelamento-de-nfse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: lista-de-endpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /\n  method: get\n  operationId: lista-de-pagamentos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /initiate/{payment_id}\n  method: delete\n  operationId: cancelamento-de-pagamento\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/agentic-access/cora-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cora/agentic-access/cora-agentic-access.yml
 summary_line: 20 operations · 9 acting
 tags:
 - Company

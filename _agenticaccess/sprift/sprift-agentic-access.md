@@ -9,43 +9,43 @@ api_specs:
   label: Sprift Home API
   slug: sprift-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-home-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-home-api-openapi.yml
 - filename: sprift-insider-api-openapi.yml
   format: yaml
   label: Sprift Insider API
   slug: sprift-insider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-insider-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-insider-api-openapi.yml
 - filename: sprift-property-api-openapi.yml
   format: yaml
   label: Sprift Property API
   slug: sprift-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-property-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-property-api-openapi.yml
 - filename: sprift-property-v2-api-openapi.yml
   format: yaml
   label: Sprift Property V2 API
   slug: sprift-property-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-property-v2-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-property-v2-api-openapi.yml
 - filename: sprift-search-api-openapi.yml
   format: yaml
   label: Sprift Search API
   slug: sprift-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-search-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-search-api-openapi.yml
 - filename: sprift-share-api-openapi.yml
   format: yaml
   label: Sprift Share API
   slug: sprift-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-share-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-share-api-openapi.yml
 - filename: sprift-user-api-openapi.yml
   format: yaml
   label: Sprift User API
   slug: sprift-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/openapi/sprift-user-api-openapi.yml
+  url: https://artifacts.apis.io/sprift/openapi/sprift-user-api-openapi.yml
 consequence_counts:
   read: 24
   write: 3
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/sprift
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /property/{propertyID}/counciltax\n  method: get\n  operationId: Property-Council-Tax\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /property/{propertyID}/epc\n  method: get\n  operationId: Property-EPC\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /property/{propertyID}/school\n  method: get\n  operationId: Property-Nearby-School\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /property/{propertyID}/transport\n  method: get\n  operationId: Property-Nearby-Transport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /property/{propertyID}/streetviewmap\n  method: get\n  operationId: PropertyDetails-StreetViewMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /share\n  method: post\n  operationId: ShareReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /insider/{outcode}\n  method: get\n  operationId: InsiderActivePropertiesResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insider/{outcode}/withdrawn\n  method: get\n  operationId: InsiderWithdrawnPropertiesResult\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/agentic-access/sprift-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sprift/agentic-access/sprift-agentic-access.yml
 summary_line: 27 operations · 3 acting
 tags:
 - Real Estate

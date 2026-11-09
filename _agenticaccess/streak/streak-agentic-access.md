@@ -9,43 +9,43 @@ api_specs:
   label: Streak Boxes API
   slug: streak-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-boxes-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-boxes-api-openapi.yml
 - filename: streak-fields-api-openapi.yml
   format: yaml
   label: Streak Fields API
   slug: streak-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-fields-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-fields-api-openapi.yml
 - filename: streak-pipelines-api-openapi.yml
   format: yaml
   label: Streak Pipelines API
   slug: streak-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-pipelines-api-openapi.yml
 - filename: streak-stages-api-openapi.yml
   format: yaml
   label: Streak Stages API
   slug: streak-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-stages-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-stages-api-openapi.yml
 - filename: streak-users-api-openapi.yml
   format: yaml
   label: Streak Users API
   slug: streak-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-users-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-users-api-openapi.yml
 - filename: streak-webhooks-api-openapi.yml
   format: yaml
   label: Streak Webhooks API
   slug: streak-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-webhooks-api-openapi.yml
 - filename: streak-news-feed-api-openapi.yml
   format: yaml
   label: Streak News Feed API
   slug: streak-news-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-news-feed-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-news-feed-api-openapi.yml
 consequence_counts:
   read: 9
   write: 9
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/streak
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{pipelineKey}/fields\n  method: get\n  operationId: listFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineKey}/fields\n  method: put\n  operationId: createField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{pipelineKey}/newsfeed\n  method: get\n  operationId: getPipelineNewsfeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineKey}/webhooks\n  method: get\n  operationId: listPipelineWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineKey}/webhooks\n  method: post\n  operationId: createPipelineWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /boxes/{boxKey}\n  method: get\n  operationId: getBox\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /boxes/{boxKey}\n  method: post\n  operationId: updateBox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /boxes/{boxKey}\n  method: delete\n  operationId: deleteBox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/agentic-access/streak-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/streak/agentic-access/streak-agentic-access.yml
 summary_line: 18 operations · 9 acting
 tags:
 - CRM

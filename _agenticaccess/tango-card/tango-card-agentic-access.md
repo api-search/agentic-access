@@ -9,79 +9,79 @@ api_specs:
   label: Tango Card Accounts API
   slug: tango-card-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-accounts-api-openapi.yml
 - filename: tango-card-brand-categories-api-openapi.yml
   format: yaml
   label: Tango Card Brand Categories API
   slug: tango-card-brand-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-brand-categories-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-brand-categories-api-openapi.yml
 - filename: tango-card-catalog-api-openapi.yml
   format: yaml
   label: Tango Card Catalog API
   slug: tango-card-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-catalog-api-openapi.yml
 - filename: tango-card-choice-products-api-openapi.yml
   format: yaml
   label: Tango Card Choice Products API
   slug: tango-card-choice-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-choice-products-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-choice-products-api-openapi.yml
 - filename: tango-card-countries-currencies-api-openapi.yml
   format: yaml
   label: Tango Card Countries & Currencies API
   slug: tango-card-countries-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-countries-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-countries-currencies-api-openapi.yml
 - filename: tango-card-credential-types-api-openapi.yml
   format: yaml
   label: Tango Card Credential Types API
   slug: tango-card-credential-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-credential-types-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-credential-types-api-openapi.yml
 - filename: tango-card-customers-api-openapi.yml
   format: yaml
   label: Tango Card Customers API
   slug: tango-card-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-customers-api-openapi.yml
 - filename: tango-card-digital-templates-api-openapi.yml
   format: yaml
   label: Tango Card Digital Templates API
   slug: tango-card-digital-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-digital-templates-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-digital-templates-api-openapi.yml
 - filename: tango-card-exchange-rates-api-openapi.yml
   format: yaml
   label: Tango Card Exchange Rates API
   slug: tango-card-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-exchange-rates-api-openapi.yml
 - filename: tango-card-fund-management-api-openapi.yml
   format: yaml
   label: Tango Card Fund Management API
   slug: tango-card-fund-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-fund-management-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-fund-management-api-openapi.yml
 - filename: tango-card-line-items-api-openapi.yml
   format: yaml
   label: Tango Card Line Items API
   slug: tango-card-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-line-items-api-openapi.yml
 - filename: tango-card-low-balance-alerts-api-openapi.yml
   format: yaml
   label: Tango Card Low Balance Alerts API
   slug: tango-card-low-balance-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-low-balance-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-low-balance-alerts-api-openapi.yml
 - filename: tango-card-orders-api-openapi.yml
   format: yaml
   label: Tango Card Orders API
   slug: tango-card-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/openapi/tango-card-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tango-card/openapi/tango-card-orders-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 26
@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tango-
   \  - abnormal\n      - high-value\n    audit: required\n- path: /lineitems/{referenceLineItemID}/cancel\n  method: post\n  operationId: cancelLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lineitems/{referenceLineItemid}/freeze\n  method: post\n  operationId: freezeLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lineitems/{referenceLineItemID}/unfreeze\n  method: post\n  operationId: unfreezeLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lineItems/{referenceLineItemID}/reissue\n  method: post\n  operationId: reissueLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lineItems/{referenceLineItemId}/resends\n  method: post\n  operationId: resendLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credentialtypes\n\
   \  method: get\n  operationId: listCredentialTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/agentic-access/tango-card-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tango-card/agentic-access/tango-card-agentic-access.yml
 summary_line: 46 operations · 20 acting
 tags:
 - Gift Cards

@@ -9,19 +9,19 @@ api_specs:
   label: Seamless.AI Public API
   slug: seamless-ai-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/_original/seamless-ai-public-api-openapi-original.json
+  url: https://artifacts.apis.io/seamless-ai/openapi/_original/seamless-ai-public-api-openapi-original.json
 - filename: seamless-ai-mcp-api-openapi.yml
   format: yaml
   label: Seamless.AI MCP API
   slug: seamless-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/seamless-ai/openapi/seamless-ai-mcp-api-openapi.yml
 - filename: seamless-ai-oauth-api-openapi.yml
   format: yaml
   label: Seamless.AI O Auth API
   slug: seamless-ai-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/seamless-ai/openapi/seamless-ai-oauth-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/seamle
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies/research/poll\n  method: get\n  operationId: pollCompanyResearchResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/companies\n  method: post\n  operationId: searchCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/research\n  method: post\n  operationId: researchContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/research/poll\n  method: get\n  operationId: pollContactsResearchResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/contacts\n  method: post\n  operationId: searchContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp\n  method: post\n  operationId: mcp_transport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - mcp.all\n- path: /oauth/accessToken\n  method: post\n  operationId: getAccessToken\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies\n  method: get\n  operationId: getCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts\n  method: get\n  operationId: getContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/agentic-access/seamless-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/seamless-ai/agentic-access/seamless-ai-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - B2B

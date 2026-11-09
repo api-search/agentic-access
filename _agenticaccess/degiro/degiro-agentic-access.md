@@ -9,55 +9,55 @@ api_specs:
   label: DEGIRO Product Search API
   slug: degiro-product-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-product-search-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-product-search-api-openapi.yml
 - filename: degiro-reporting-api-openapi.yml
   format: yaml
   label: DEGIRO Reporting API
   slug: degiro-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-reporting-api-openapi.yml
 - filename: degiro-config-api-openapi.yml
   format: yaml
   label: DEGIRO Config API
   slug: degiro-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-config-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-config-api-openapi.yml
 - filename: degiro-login-api-openapi.yml
   format: yaml
   label: DEGIRO Login API
   slug: degiro-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-login-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-login-api-openapi.yml
 - filename: degiro-pa-api-openapi.yml
   format: yaml
   label: DEGIRO Pa API
   slug: degiro-pa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-pa-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-pa-api-openapi.yml
 - filename: degiro-product-search-api-openapi.yml
   format: yaml
   label: DEGIRO Product Search API
   slug: degiro-product-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-product-search-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-product-search-api-openapi.yml
 - filename: degiro-reporting-api-openapi.yml
   format: yaml
   label: DEGIRO Reporting API
   slug: degiro-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-reporting-api-openapi.yml
 - filename: degiro-settings-api-openapi.yml
   format: yaml
   label: DEGIRO Settings API
   slug: degiro-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-settings-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-settings-api-openapi.yml
 - filename: degiro-trading-api-openapi.yml
   format: yaml
   label: DEGIRO Trading API
   slug: degiro-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/openapi/degiro-trading-api-openapi.yml
+  url: https://artifacts.apis.io/degiro/openapi/degiro-trading-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 13
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/degiro
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product_search/secure/v5/products/lookup\n  method: get\n  operationId: lookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trading/secure/v5/account/info/{intAccount};jsessionid={sessionId}\n  method: get\n  operationId: accountInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trading/secure/v5/update/{intAccount};jsessionid={sessionId}\n  method: get\n  operationId: update\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trading/secure/v5/checkOrder;jsessionid={sessionId}\n  method: post\n  operationId: checkOrder\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trading/secure/v5/order/{confirmationId};jsessionid={sessionId}\n  method: post\n  operationId: confirmOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trading/secure/v5/order/{confirmationId};jsessionid={sessionId}\n  method: delete\n  operationId: deleteOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/agentic-access/degiro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/degiro/agentic-access/degiro-agentic-access.yml
 summary_line: 17 operations · 4 acting
 tags:
 - Trading

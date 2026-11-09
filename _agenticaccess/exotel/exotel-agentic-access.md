@@ -9,37 +9,37 @@ api_specs:
   label: Exotel AgentStream Voice Streaming API
   slug: exotel-agentstream-voice-streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/asyncapi/exotel-asyncapi.yml
+  url: https://artifacts.apis.io/exotel/asyncapi/exotel-asyncapi.yml
 - filename: exotel-call-details-api-openapi.yml
   format: yaml
   label: Exotel Call Details API
   slug: exotel-call-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-call-details-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-call-details-api-openapi.yml
 - filename: exotel-campaigns-api-openapi.yml
   format: yaml
   label: Exotel Campaigns API
   slug: exotel-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-campaigns-api-openapi.yml
 - filename: exotel-numbers-api-openapi.yml
   format: yaml
   label: Exotel Numbers API
   slug: exotel-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-numbers-api-openapi.yml
 - filename: exotel-sms-api-openapi.yml
   format: yaml
   label: Exotel SMS API
   slug: exotel-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-sms-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-sms-api-openapi.yml
 - filename: exotel-voice-api-openapi.yml
   format: yaml
   label: Exotel Voice API
   slug: exotel-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/openapi/exotel-voice-api-openapi.yml
+  url: https://artifacts.apis.io/exotel/openapi/exotel-voice-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/exotel
   \  max-ttl: 3600\n    audit: none\n- path: /v1/Accounts/{sid}/Numbers/{Number}.json\n  method: get\n  operationId: getNumberMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{sid}/campaigns\n  method: get\n  operationId: listCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{sid}/campaigns\n  method: post\n  operationId: createCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{sid}/campaigns/{campaign_id}\n  method: get\n  operationId: getCampaign\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{sid}/campaigns/{campaign_id}\n  method: put\n  operationId: updateCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{sid}/campaigns/{campaign_id}\n  method: delete\n  operationId: deleteCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{sid}/campaigns/{campaign_id}/call-details\n  method: get\n  operationId: getCampaignCallDetails\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/agentic-access/exotel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/exotel/agentic-access/exotel-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Cloud Telephony

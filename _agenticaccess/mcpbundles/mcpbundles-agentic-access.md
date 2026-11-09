@@ -9,19 +9,19 @@ api_specs:
   label: MCPBundles Local Runtime API
   slug: mcpbundles-local-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcpbundles/refs/heads/main/openapi/mcpbundles-local-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/mcpbundles/openapi/mcpbundles-local-runtime-api-openapi.yml
 - filename: mcpbundles-tunnel-api-openapi.yml
   format: yaml
   label: MCPBundles Tunnel API
   slug: mcpbundles-tunnel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcpbundles/refs/heads/main/openapi/mcpbundles-tunnel-api-openapi.yml
+  url: https://artifacts.apis.io/mcpbundles/openapi/mcpbundles-tunnel-api-openapi.yml
 - filename: mcpbundles-graph-ql-api-openapi.yml
   format: yaml
   label: MCPBundles Graph QL API
   slug: mcpbundles-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcpbundles/refs/heads/main/openapi/mcpbundles-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/mcpbundles/openapi/mcpbundles-graph-ql-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 2
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/mcpbun
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tunnel/sessions/{connection_id}\n  method: delete\n  operationId: tunnel_sessions_revoke_api_tunnel_sessions__connection_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/local-runtime/heartbeat\n  method: post\n  operationId: local_runtime_heartbeat_api_local_runtime_heartbeat_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/local-runtime/install-options/{server_name}\n  method: get\n  operationId: local_runtime_install_options_api_local_runtime_install_options__server_name__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/local-runtime/install-recipes/{server_name}\n  method: get\n  operationId: local_runtime_install_recipes_api_local_runtime_install_recipes__server_name__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/local-runtime/connections/{connection_key}/tools/{tool_name}/execute\n  method: post\n  operationId: local_runtime_execute_api_local_runtime_connections__connection_key__tools__tool_name__execute_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcpbundles/refs/heads/main/agentic-access/mcpbundles-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mcpbundles/agentic-access/mcpbundles-agentic-access.yml
 summary_line: 10 operations · 6 acting · 2 human-in-the-loop
 tags:
 - Company

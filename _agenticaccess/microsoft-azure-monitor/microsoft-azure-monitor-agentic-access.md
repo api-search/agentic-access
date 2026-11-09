@@ -9,115 +9,115 @@ api_specs:
   label: Azure Monitor Action Groups API
   slug: microsoft-azure-monitor-action-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-action-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-action-groups-api-openapi.yml
 - filename: microsoft-azure-monitor-activity-logs-api-openapi.yml
   format: yaml
   label: Azure Monitor Activity Logs API
   slug: microsoft-azure-monitor-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-activity-logs-api-openapi.yml
 - filename: microsoft-azure-monitor-alert-rules-api-openapi.yml
   format: yaml
   label: Azure Monitor Alert Rules API
   slug: microsoft-azure-monitor-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-alert-rules-api-openapi.yml
 - filename: microsoft-azure-monitor-autoscale-settings-api-openapi.yml
   format: yaml
   label: Azure Monitor Autoscale Settings API
   slug: microsoft-azure-monitor-autoscale-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-autoscale-settings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-autoscale-settings-api-openapi.yml
 - filename: microsoft-azure-monitor-data-collection-endpoints-api-openapi.yml
   format: yaml
   label: Azure Monitor Data Collection Endpoints API
   slug: microsoft-azure-monitor-data-collection-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-data-collection-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-data-collection-endpoints-api-openapi.yml
 - filename: microsoft-azure-monitor-data-collection-rules-api-openapi.yml
   format: yaml
   label: Azure Monitor Data Collection Rules API
   slug: microsoft-azure-monitor-data-collection-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-data-collection-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-data-collection-rules-api-openapi.yml
 - filename: microsoft-azure-monitor-diagnostic-settings-api-openapi.yml
   format: yaml
   label: Azure Monitor Diagnostic Settings API
   slug: microsoft-azure-monitor-diagnostic-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-diagnostic-settings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-diagnostic-settings-api-openapi.yml
 - filename: microsoft-azure-monitor-events-api-openapi.yml
   format: yaml
   label: Azure Monitor Events API
   slug: microsoft-azure-monitor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-events-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-events-api-openapi.yml
 - filename: microsoft-azure-monitor-logs-ingestion-api-openapi.yml
   format: yaml
   label: Azure Monitor Logs Ingestion API
   slug: microsoft-azure-monitor-logs-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-logs-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-logs-ingestion-api-openapi.yml
 - filename: microsoft-azure-monitor-metadata-api-openapi.yml
   format: yaml
   label: Azure Monitor Metadata API
   slug: microsoft-azure-monitor-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-metadata-api-openapi.yml
 - filename: microsoft-azure-monitor-metric-definitions-api-openapi.yml
   format: yaml
   label: Azure Monitor Metric Definitions API
   slug: microsoft-azure-monitor-metric-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-metric-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-metric-definitions-api-openapi.yml
 - filename: microsoft-azure-monitor-metrics-api-openapi.yml
   format: yaml
   label: Azure Monitor Metrics API
   slug: microsoft-azure-monitor-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-metrics-api-openapi.yml
 - filename: microsoft-azure-monitor-metrics-batch-api-openapi.yml
   format: yaml
   label: Azure Monitor Metrics Batch API
   slug: microsoft-azure-monitor-metrics-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-metrics-batch-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-metrics-batch-api-openapi.yml
 - filename: microsoft-azure-monitor-predictive-metrics-api-openapi.yml
   format: yaml
   label: Azure Monitor Predictive Metrics API
   slug: microsoft-azure-monitor-predictive-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-predictive-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-predictive-metrics-api-openapi.yml
 - filename: microsoft-azure-monitor-private-link-scopes-api-openapi.yml
   format: yaml
   label: Azure Monitor Private Link Scopes API
   slug: microsoft-azure-monitor-private-link-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-private-link-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-private-link-scopes-api-openapi.yml
 - filename: microsoft-azure-monitor-query-api-openapi.yml
   format: yaml
   label: Azure Monitor Query API
   slug: microsoft-azure-monitor-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-query-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-query-api-openapi.yml
 - filename: microsoft-azure-monitor-scheduled-query-rules-api-openapi.yml
   format: yaml
   label: Azure Monitor Scheduled Query Rules API
   slug: microsoft-azure-monitor-scheduled-query-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-scheduled-query-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-scheduled-query-rules-api-openapi.yml
 - filename: microsoft-azure-monitor-scoped-resources-api-openapi.yml
   format: yaml
   label: Azure Monitor Scoped Resources API
   slug: microsoft-azure-monitor-scoped-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-scoped-resources-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-scoped-resources-api-openapi.yml
 - filename: microsoft-azure-monitor-test-notifications-api-openapi.yml
   format: yaml
   label: Azure Monitor Test Notifications API
   slug: microsoft-azure-monitor-test-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/openapi/microsoft-azure-monitor-test-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-test-notifications-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 39
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://management.azure.com/.default\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Insights/scheduledQueryRules\n  method: get\n  operationId: ScheduledQueryRules_ListBySubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://management.azure.com/.default\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules\n  method: get\n  operationId: ScheduledQueryRules_ListByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://management.azure.com/.default\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}\n\
   \  method: get\n  operationId: ScheduledQueryRules_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://management.azure.com/.default\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}\n  method: put\n  operationId: ScheduledQueryRules_CreateOrUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://management.azure.com/.default\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}\n  method: patch\n  operationId: ScheduledQueryRules_Update\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://management.azure.com/.default\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}\n  method: delete\n  operationId: ScheduledQueryRules_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://management.azure.com/.default\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/agentic-access/microsoft-azure-monitor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-monitor/agentic-access/microsoft-azure-monitor-agentic-access.yml
 summary_line: 72 operations · 33 acting
 tags:
 - Application Insights

@@ -9,25 +9,25 @@ api_specs:
   label: Amazon SQS Messages API
   slug: amazon-sqs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-messages-api-openapi.yml
 - filename: amazon-sqs-permissions-api-openapi.yml
   format: yaml
   label: Amazon SQS Permissions API
   slug: amazon-sqs-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-permissions-api-openapi.yml
 - filename: amazon-sqs-queues-api-openapi.yml
   format: yaml
   label: Amazon SQS Queues API
   slug: amazon-sqs-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-queues-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-queues-api-openapi.yml
 - filename: amazon-sqs-tags-api-openapi.yml
   format: yaml
   label: Amazon SQS Tags API
   slug: amazon-sqs-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/openapi/amazon-sqs-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sqs/openapi/amazon-sqs-tags-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7
@@ -73,9 +73,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ GetQueueUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/{queueName}/dead-letter-source-queues\n  method: get\n  operationId: ListDeadLetterSourceQueues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/{queueName}/start-message-move-task\n  method: post\n  operationId: StartMessageMoveTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{accountId}/{queueName}/list-message-move-tasks\n  method: get\n  operationId: ListMessageMoveTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/{queueName}/cancel-message-move-task\n  method: post\n  operationId: CancelMessageMoveTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{accountId}/{queueName}/permissions\n  method: post\n  operationId: AddPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{accountId}/{queueName}/permissions\n  method: delete\n  operationId: RemovePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n \
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/agentic-access/amazon-sqs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-sqs/agentic-access/amazon-sqs-agentic-access.yml
 summary_line: 23 operations · 16 acting
 tags:
+- Amazon Web Services
 - Cloud
 - Distributed Systems
 - Messaging

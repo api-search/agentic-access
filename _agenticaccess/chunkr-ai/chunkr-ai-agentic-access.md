@@ -9,37 +9,37 @@ api_specs:
   label: Chunkr Files API
   slug: chunkr-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-files-api-openapi.yml
 - filename: chunkr-ai-health-api-openapi.yml
   format: yaml
   label: Chunkr Health API
   slug: chunkr-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-health-api-openapi.yml
 - filename: chunkr-ai-tasks-api-openapi.yml
   format: yaml
   label: Chunkr Tasks API
   slug: chunkr-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-tasks-api-openapi.yml
 - filename: chunkr-ai-chunkr-api-api-openapi.yml
   format: yaml
   label: Chunkr Chunkr API
   slug: chunkr-ai-chunkr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-chunkr-api-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-chunkr-api-api-openapi.yml
 - filename: chunkr-ai-extras-api-openapi.yml
   format: yaml
   label: Chunkr Extras API
   slug: chunkr-ai-extras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-extras-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-extras-api-openapi.yml
 - filename: chunkr-ai-webhook-api-openapi.yml
   format: yaml
   label: Chunkr Webhook API
   slug: chunkr-ai-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/chunkr-ai/openapi/chunkr-ai-webhook-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chunkr
   \ /tasks/{task_id}/parse\n  method: get\n  operationId: getParseTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{task_id}/extract\n  method: get\n  operationId: getExtractTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{task_id}/cancel\n  method: post\n  operationId: cancelTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files\n  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{file_id}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{file_id}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{file_id}/download\n  method: get\n  operationId: downloadFileContent\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{file_id}/url\n  method: get\n  operationId: getFileUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extras/supported-file-types\n  method: get\n  operationId: getSupportedFileTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/agentic-access/chunkr-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chunkr-ai/agentic-access/chunkr-ai-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - Document Parsing

@@ -9,7 +9,25 @@ api_specs:
   label: Amazon WorkSpaces Amazon WorkSpaces API
   slug: amazon-workspaces-amazon-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-amazon-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-amazon-workspaces-api-openapi.yml
+- filename: amazon-workspaces-account-link-invitation-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Account Link Invitation API
+  slug: amazon-workspaces-account-link-invitation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-account-link-invitation-api-openapi.yml
+- filename: amazon-workspaces-operations-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Operations API
+  slug: amazon-workspaces-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-operations-api-openapi.yml
+- filename: amazon-workspaces-workspaces-pool-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Workspaces Pool API
+  slug: amazon-workspaces-workspaces-pool-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-workspaces-pool-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 4
@@ -92,9 +110,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  method: post\n  operationId: TerminateWorkspaces\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=WorkspacesService.UpdateConnectClientAddIn\n  method: post\n  operationId: UpdateConnectClientAddIn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=WorkspacesService.UpdateConnectionAliasPermission\n  method: post\n  operationId: UpdateConnectionAliasPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=WorkspacesService.UpdateRulesOfIpGroup\n  method: post\n  operationId: UpdateRulesOfIpGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=WorkspacesService.UpdateWorkspaceBundle\n  method: post\n  operationId: UpdateWorkspaceBundle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=WorkspacesService.UpdateWorkspaceImagePermission\n\
   \  method: post\n  operationId: UpdateWorkspaceImagePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/agentic-access/amazon-workspaces-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-workspaces/agentic-access/amazon-workspaces-agentic-access.yml
 summary_line: 65 operations · 64 acting · 4 human-in-the-loop
 tags:
+- Amazon Web Services
 - Desktop
 - End User Computing
 - Virtual Desktop

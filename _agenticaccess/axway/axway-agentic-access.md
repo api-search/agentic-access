@@ -9,121 +9,121 @@ api_specs:
   label: Axway Aca API
   slug: axway-aca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-aca-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-aca-api-openapi.yml
 - filename: axway-activity-api-openapi.yml
   format: yaml
   label: Axway Activity API
   slug: axway-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-activity-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-activity-api-openapi.yml
 - filename: axway-analytics-api-openapi.yml
   format: yaml
   label: Axway Analytics API
   slug: axway-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-analytics-api-openapi.yml
 - filename: axway-app-api-openapi.yml
   format: yaml
   label: Axway App API
   slug: axway-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-app-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-app-api-openapi.yml
 - filename: axway-auth-api-openapi.yml
   format: yaml
   label: Axway Auth API
   slug: axway-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-auth-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-auth-api-openapi.yml
 - filename: axway-client-api-openapi.yml
   format: yaml
   label: Axway Client API
   slug: axway-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-client-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-client-api-openapi.yml
 - filename: axway-domain-api-openapi.yml
   format: yaml
   label: Axway Domain API
   slug: axway-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-domain-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-domain-api-openapi.yml
 - filename: axway-entitlement-api-openapi.yml
   format: yaml
   label: Axway Entitlement API
   slug: axway-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-entitlement-api-openapi.yml
 - filename: axway-env-api-openapi.yml
   format: yaml
   label: Axway Env API
   slug: axway-env-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-env-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-env-api-openapi.yml
 - filename: axway-export-api-openapi.yml
   format: yaml
   label: Axway Export API
   slug: axway-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-export-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-export-api-openapi.yml
 - filename: axway-idp-api-openapi.yml
   format: yaml
   label: Axway Idp API
   slug: axway-idp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-idp-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-idp-api-openapi.yml
 - filename: axway-org-api-openapi.yml
   format: yaml
   label: Axway Org API
   slug: axway-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-org-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-org-api-openapi.yml
 - filename: axway-provider-api-openapi.yml
   format: yaml
   label: Axway Provider API
   slug: axway-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-provider-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-provider-api-openapi.yml
 - filename: axway-role-api-openapi.yml
   format: yaml
   label: Axway Role API
   slug: axway-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-role-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-role-api-openapi.yml
 - filename: axway-session-api-openapi.yml
   format: yaml
   label: Axway Session API
   slug: axway-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-session-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-session-api-openapi.yml
 - filename: axway-subscription-api-openapi.yml
   format: yaml
   label: Axway Subscription API
   slug: axway-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-subscription-api-openapi.yml
 - filename: axway-team-api-openapi.yml
   format: yaml
   label: Axway Team API
   slug: axway-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-team-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-team-api-openapi.yml
 - filename: axway-telemetry-api-openapi.yml
   format: yaml
   label: Axway Telemetry API
   slug: axway-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-telemetry-api-openapi.yml
 - filename: axway-usage-api-openapi.yml
   format: yaml
   label: Axway Usage API
   slug: axway-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-usage-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-usage-api-openapi.yml
 - filename: axway-user-api-openapi.yml
   format: yaml
   label: Axway User API
   slug: axway-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-user-api-openapi.yml
+  url: https://artifacts.apis.io/axway/openapi/axway-user-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 58
@@ -232,8 +232,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/axway-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{org_id}/idp/{idp_id}/reload-keys\n  method: get\n  operationId: org_idpReloadKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{org_id}/idp/{idp_id}/descriptor\n  method: get\n  operationId: org_idpDownloadDescriptor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{org_id}/idp/{idp_id}/certificate\n  method: get\n  operationId: org_idpDownloadCert\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{org_id}/idp/{idp_id}\n  method: post\n  operationId: org_idpAssociate\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{org_id}/idp/{idp_id}\n  method: get\n  operationId: org_idpFindOne\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{org_id}/idp/{idp_id}\n  method: delete\n  operationId: org_idpRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{org_id}/idp/{idp_id}\n  method: put\n  operationId: org_idpUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{org_id}/idp\n  method: get\n  operationId: org_idpFind\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{org_id}/domain/verify\n  method: post\n  operationId: org_domainAssociate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{org_id}/domain/subdomain\n  method: post\n  operationId: org_domainAssociateSubdomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{org_id}/domain/enable\n  method: post\n  operationId: org_domainEnable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{org_id}/domain/dissociate\n  method: post\n  operationId: org_domainDissociate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/agentic-access/axway-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/agentic-access/axway-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{org_id}/domain/enable\n  method: post\n  operationId: org_domainEnable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{org_id}/domain/dissociate\n  method: post\n  operationId: org_domainDissociate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/axway/agentic-access/axway-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/axway/agentic-access/axway-agentic-access.yml
 summary_line: 141 operations · 83 acting · 2 human-in-the-loop
 tags:
 - API Management

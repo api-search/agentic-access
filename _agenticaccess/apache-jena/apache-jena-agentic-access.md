@@ -9,25 +9,25 @@ api_specs:
   label: Apache Jena Dataset Management API
   slug: apache-jena-dataset-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/openapi/apache-jena-dataset-management-api-openapi.yml
+  url: https://artifacts.apis.io/apache-jena/openapi/apache-jena-dataset-management-api-openapi.yml
 - filename: apache-jena-graph-store-protocol-api-openapi.yml
   format: yaml
   label: Apache Jena Graph Store Protocol API
   slug: apache-jena-graph-store-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/openapi/apache-jena-graph-store-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/apache-jena/openapi/apache-jena-graph-store-protocol-api-openapi.yml
 - filename: apache-jena-sparql-query-api-openapi.yml
   format: yaml
   label: Apache Jena SPARQL Query API
   slug: apache-jena-sparql-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/openapi/apache-jena-sparql-query-api-openapi.yml
+  url: https://artifacts.apis.io/apache-jena/openapi/apache-jena-sparql-query-api-openapi.yml
 - filename: apache-jena-sparql-update-api-openapi.yml
   format: yaml
   label: Apache Jena SPARQL Update API
   slug: apache-jena-sparql-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/openapi/apache-jena-sparql-update-api-openapi.yml
+  url: https://artifacts.apis.io/apache-jena/openapi/apache-jena-sparql-update-api-openapi.yml
 consequence_counts:
   read: 4
   write: 7
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{dataset}/update\n  method: post\n  operationId: sparqlUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{dataset}/data\n  method: get\n  operationId: getGraph\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{dataset}/data\n  method: put\n  operationId: replaceGraph\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /{dataset}/data\n  method: post\n  operationId: addToGraph\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{dataset}/data\n  method: delete\n  operationId: deleteGraph\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /$/datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /$/datasets\n  method: post\n  operationId: createDataset\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /$/datasets/{dataset}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /$/datasets/{dataset}\n  method: delete\n  operationId: deleteDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/agentic-access/apache-jena-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-jena/agentic-access/apache-jena-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
 - Java

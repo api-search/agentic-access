@@ -8,19 +8,19 @@ api_specs:
   label: Cisco PSIRT openVuln API Current Endpoints API
   slug: cisco-psirt-current-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/openapi/cisco-psirt-current-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-psirt/openapi/cisco-psirt-current-endpoints-api-openapi.yml
 - filename: cisco-psirt-obsolete-endpoints-api-openapi.yml
   format: yaml
   label: Cisco PSIRT openVuln API Obsolete Endpoints API
   slug: cisco-psirt-obsolete-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/openapi/cisco-psirt-obsolete-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-psirt/openapi/cisco-psirt-obsolete-endpoints-api-openapi.yml
 - filename: cisco-psirt-sunset-endpoints-api-openapi.yml
   format: yaml
   label: Cisco PSIRT openVuln API Sunset Endpoints API
   slug: cisco-psirt-sunset-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/openapi/cisco-psirt-sunset-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-psirt/openapi/cisco-psirt-sunset-endpoints-api-openapi.yml
 consequence_counts:
   read: 30
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: generated\nsource: openapi/cisco-
   \      max-ttl: 3600\n    audit: none\n- path: /cvrf/product\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cvrf/severity/{severity}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cvrf/severity/{severity}/lastpublished\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cvrf/severity/{severity}/firstpublished\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cvrf/year/{year}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ios\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iosxe\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aci\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nxos\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /nos_version/nos_data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:advisories\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/agentic-access/cisco-psirt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cisco-psirt/agentic-access/cisco-psirt-agentic-access.yml
 summary_line: 30 operations
 tags:
 - Security

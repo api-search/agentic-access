@@ -9,13 +9,13 @@ api_specs:
   label: Rippling Webhooks API
   slug: rippling-webhooks-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/asyncapi/rippling-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/rippling/asyncapi/rippling-webhooks-asyncapi.yml
 - filename: rippling-platform-api-openapi.yml
   format: yaml
   label: Rippling Platform API
   slug: rippling-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/openapi/rippling-platform-api-openapi.yml
+  url: https://artifacts.apis.io/rippling/openapi/rippling-platform-api-openapi.yml
 consequence_counts:
   read: 19
   write: 10
@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rippli
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/api/leave_requests/cancel\n  method: post\n  operationId: cancelLeaveRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/api/leave_balances\n  method: get\n  operationId: getLeaveBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/api/leave_balances/{employee_id}\n  method: get\n  operationId: getLeaveBalance\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/api/company_leave_types\n  method: get\n  operationId: getCompanyLeaveTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/api/saml/idp_metadata\n  method: get\n  operationId: getSamlIdpMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/api/app/matching_users\n  method: get\n  operationId: getAppMatchingUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/api/mark_app_installed\n  method: post\n  operationId: markAppInstalled\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /platform/api/ats/candidates/push_candidate\n  method: post\n  operationId: pushAtsCandidate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/agentic-access/rippling-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rippling/agentic-access/rippling-agentic-access.yml
 summary_line: 29 operations · 10 acting
 tags:
 - Human Resources

@@ -9,43 +9,43 @@ api_specs:
   label: Formbricks Action Classes API
   slug: formbricks-action-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-action-classes-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-action-classes-api-openapi.yml
 - filename: formbricks-client-api-openapi.yml
   format: yaml
   label: Formbricks Client API
   slug: formbricks-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-client-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-client-api-openapi.yml
 - filename: formbricks-contacts-api-openapi.yml
   format: yaml
   label: Formbricks Contacts API
   slug: formbricks-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-contacts-api-openapi.yml
 - filename: formbricks-me-api-openapi.yml
   format: yaml
   label: Formbricks Me API
   slug: formbricks-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-me-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-me-api-openapi.yml
 - filename: formbricks-responses-api-openapi.yml
   format: yaml
   label: Formbricks Responses API
   slug: formbricks-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-responses-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-responses-api-openapi.yml
 - filename: formbricks-surveys-api-openapi.yml
   format: yaml
   label: Formbricks Surveys API
   slug: formbricks-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-surveys-api-openapi.yml
 - filename: formbricks-webhooks-api-openapi.yml
   format: yaml
   label: Formbricks Webhooks API
   slug: formbricks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/openapi/formbricks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/formbricks/openapi/formbricks-webhooks-api-openapi.yml
 consequence_counts:
   read: 12
   write: 14
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/formbr
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/management/action-classes/{id}\n  method: delete\n  operationId: deleteActionClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/client/{environmentId}/displays\n  method: post\n  operationId: createDisplay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/client/{environmentId}/responses\n  method: post\n  operationId:\
   \ createClientResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/agentic-access/formbricks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/formbricks/agentic-access/formbricks-agentic-access.yml
 summary_line: 26 operations · 14 acting
 tags:
 - Surveys

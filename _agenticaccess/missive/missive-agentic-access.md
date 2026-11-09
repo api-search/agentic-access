@@ -9,43 +9,43 @@ api_specs:
   label: Missive Analytics API
   slug: missive-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-analytics-api-openapi.yml
 - filename: missive-contact-books-api-openapi.yml
   format: yaml
   label: Missive Contact Books API
   slug: missive-contact-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-contact-books-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-contact-books-api-openapi.yml
 - filename: missive-contact-groups-api-openapi.yml
   format: yaml
   label: Missive Contact Groups API
   slug: missive-contact-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-contact-groups-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-contact-groups-api-openapi.yml
 - filename: missive-contacts-api-openapi.yml
   format: yaml
   label: Missive Contacts API
   slug: missive-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-contacts-api-openapi.yml
 - filename: missive-conversations-api-openapi.yml
   format: yaml
   label: Missive Conversations API
   slug: missive-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-conversations-api-openapi.yml
 - filename: missive-drafts-api-openapi.yml
   format: yaml
   label: Missive Drafts API
   slug: missive-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-drafts-api-openapi.yml
 - filename: missive-messages-api-openapi.yml
   format: yaml
   label: Missive Messages API
   slug: missive-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/openapi/missive-messages-api-openapi.yml
+  url: https://artifacts.apis.io/missive/openapi/missive-messages-api-openapi.yml
 consequence_counts:
   read: 11
   write: 8
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/missiv
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{id}\n  method: patch\n  operationId: updateConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{id}/messages\n  method: get\n  operationId: listConversationMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{id}/comments\n  method: get\n  operationId: listConversationComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{id}/drafts\n  method: get\n \
   \ operationId: listConversationDrafts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{id}/posts\n  method: get\n  operationId: listConversationPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{id}/merge\n  method: post\n  operationId: mergeConversations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drafts\n  method: post\n  operationId: createDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drafts/{id}\n  method: delete\n  operationId: deleteDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages\n  method: post\n  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/agentic-access/missive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/missive/agentic-access/missive-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Team Inbox

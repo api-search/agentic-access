@@ -9,67 +9,67 @@ api_specs:
   label: WorkBoard Activity (Action Items) API
   slug: workboard-activity-action-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-activity-action-items-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-activity-action-items-api-openapi.yml
 - filename: workboard-custom-attributes-api-openapi.yml
   format: yaml
   label: WorkBoard Custom Attributes API
   slug: workboard-custom-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-custom-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-custom-attributes-api-openapi.yml
 - filename: workboard-goal-objective-api-openapi.yml
   format: yaml
   label: WorkBoard Goal (Objective) API
   slug: workboard-goal-objective-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-goal-objective-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-goal-objective-api-openapi.yml
 - filename: workboard-metric-key-result-api-openapi.yml
   format: yaml
   label: WorkBoard Metric (Key Result) API
   slug: workboard-metric-key-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-metric-key-result-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-metric-key-result-api-openapi.yml
 - filename: workboard-tags-api-openapi.yml
   format: yaml
   label: WorkBoard Tags API
   slug: workboard-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-tags-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-tags-api-openapi.yml
 - filename: workboard-team-api-openapi.yml
   format: yaml
   label: WorkBoard Team API
   slug: workboard-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-team-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-team-api-openapi.yml
 - filename: workboard-user-api-openapi.yml
   format: yaml
   label: WorkBoard User API
   slug: workboard-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-user-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-user-api-openapi.yml
 - filename: workboard-user-goals-user-objectives-api-openapi.yml
   format: yaml
   label: WorkBoard User Goals (User Objectives) API
   slug: workboard-user-goals-user-objectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-user-goals-user-objectives-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-user-goals-user-objectives-api-openapi.yml
 - filename: workboard-webhook-api-openapi.yml
   format: yaml
   label: WorkBoard Webhook API
   slug: workboard-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-webhook-api-openapi.yml
 - filename: workboard-workstream-api-openapi.yml
   format: yaml
   label: WorkBoard Workstream API
   slug: workboard-workstream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-workstream-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-workstream-api-openapi.yml
 - filename: workboard-data-stream-api-openapi.yml
   format: yaml
   label: WorkBoard Data Stream API
   slug: workboard-data-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/openapi/workboard-data-stream-api-openapi.yml
+  url: https://artifacts.apis.io/workboard/openapi/workboard-data-stream-api-openapi.yml
 consequence_counts:
   read: 33
   safety-critical: 12
@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/workbo
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{user_id_path}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/{user_id_path}/goal\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{user_id_path}/goal/{goal_id_path}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hook/{webhook_hash}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workstream\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workstream\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workstream/{ws_id_path}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /workstream/{ws_id_path}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workstream/{ws_id_path}/activity\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/agentic-access/workboard-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workboard/agentic-access/workboard-agentic-access.yml
 summary_line: 68 operations · 35 acting · 12 human-in-the-loop
 tags:
 - OKRs

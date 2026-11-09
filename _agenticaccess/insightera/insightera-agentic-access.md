@@ -9,13 +9,13 @@ api_specs:
   label: InsightEra Classification API
   slug: insightera-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/openapi/insightera-classification-api-openapi.yml
+  url: https://artifacts.apis.io/insightera/openapi/insightera-classification-api-openapi.yml
 - filename: insightera-nlp-api-openapi.yml
   format: yaml
   label: InsightEra Nlp API
   slug: insightera-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/openapi/insightera-nlp-api-openapi.yml
+  url: https://artifacts.apis.io/insightera/openapi/insightera-nlp-api-openapi.yml
 consequence_counts:
   read: 1
   write: 22
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/insigh
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/ner\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/ocr\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/pos\n  method: post\n  x-agentic-access:\n    action-class: acting\n  \
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/qa\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/sentiment-new\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/similar\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/spell-correction\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nlp/tokenize\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/agentic-access/insightera-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/insightera/agentic-access/insightera-agentic-access.yml
 summary_line: 23 operations · 22 acting
 tags:
 - Company

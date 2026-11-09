@@ -9,61 +9,61 @@ api_specs:
   label: Usercentrics CCPA API
   slug: usercentrics-ccpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-ccpa-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-ccpa-api-openapi.yml
 - filename: usercentrics-consent-api-openapi.yml
   format: yaml
   label: Usercentrics Consent API
   slug: usercentrics-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-consent-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-consent-api-openapi.yml
 - filename: usercentrics-consent-mode-api-openapi.yml
   format: yaml
   label: Usercentrics Consent Mode API
   slug: usercentrics-consent-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-consent-mode-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-consent-mode-api-openapi.yml
 - filename: usercentrics-controller-api-openapi.yml
   format: yaml
   label: Usercentrics Controller API
   slug: usercentrics-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-controller-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-controller-api-openapi.yml
 - filename: usercentrics-dialog-api-openapi.yml
   format: yaml
   label: Usercentrics Dialog API
   slug: usercentrics-dialog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-dialog-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-dialog-api-openapi.yml
 - filename: usercentrics-gpp-api-openapi.yml
   format: yaml
   label: Usercentrics GPP API
   slug: usercentrics-gpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-gpp-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-gpp-api-openapi.yml
 - filename: usercentrics-lifecycle-api-openapi.yml
   format: yaml
   label: Usercentrics Lifecycle API
   slug: usercentrics-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-lifecycle-api-openapi.yml
 - filename: usercentrics-scanner-api-openapi.yml
   format: yaml
   label: Usercentrics Scanner API
   slug: usercentrics-scanner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-scanner-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-scanner-api-openapi.yml
 - filename: usercentrics-tcf-api-openapi.yml
   format: yaml
   label: Usercentrics TCF API
   slug: usercentrics-tcf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-tcf-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-tcf-api-openapi.yml
 - filename: usercentrics-ui-api-openapi.yml
   format: yaml
   label: Usercentrics UI API
   slug: usercentrics-ui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/openapi/usercentrics-ui-api-openapi.yml
+  url: https://artifacts.apis.io/usercentrics/openapi/usercentrics-ui-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/userce
   \      max-ttl: 3600\n    audit: none\n- path: /restore-user-session\n  method: post\n  operationId: restoreUserSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reset\n  method: post\n  operationId: resetUser\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /scanner/last-report\n  method: get\n  operationId: cookiebotLastReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /tcf-data\n  method: get\n  operationId: getTcfData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tcf/get-tc-data\n  method: post\n  operationId: tcfGetTCData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tcf/add-event-listener\n  method: post\n  operationId: tcfAddEventListener\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ui/show-first-layer\n  method: post\n  operationId: uiShowFirstLayer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ui/show-second-layer\n  method: post\n  operationId: uiShowSecondLayer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/agentic-access/usercentrics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/usercentrics/agentic-access/usercentrics-agentic-access.yml
 summary_line: 29 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Privacy

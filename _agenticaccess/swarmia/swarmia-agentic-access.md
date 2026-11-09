@@ -9,37 +9,37 @@ api_specs:
   label: Swarmia Additional AI integrations API
   slug: swarmia-additional-ai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-additional-ai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-additional-ai-integrations-api-openapi.yml
 - filename: swarmia-built-in-reports-api-openapi.yml
   format: yaml
   label: Swarmia Built-in reports API
   slug: swarmia-built-in-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-built-in-reports-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-built-in-reports-api-openapi.yml
 - filename: swarmia-custom-reports-api-openapi.yml
   format: yaml
   label: Swarmia Custom reports API
   slug: swarmia-custom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-custom-reports-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-custom-reports-api-openapi.yml
 - filename: swarmia-deployments-api-openapi.yml
   format: yaml
   label: Swarmia Deployments API
   slug: swarmia-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-deployments-api-openapi.yml
 - filename: swarmia-team-management-api-openapi.yml
   format: yaml
   label: Swarmia Team management API
   slug: swarmia-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-team-management-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-team-management-api-openapi.yml
 - filename: swarmia-time-off-api-openapi.yml
   format: yaml
   label: Swarmia Time off API
   slug: swarmia-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/openapi/swarmia-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/swarmia/openapi/swarmia-time-off-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/swarmi
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: put\n  operationId: updateTeams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time-offs\n  method: post\n  operationId: createTimeOff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time-offs/{id}\n  method: get\n  operationId: getTimeOff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /time-offs/{id}\n  method: put\n  operationId: updateTimeOff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time-offs/{id}\n  method: delete\n  operationId: deleteTimeOff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/agentic-access/swarmia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/swarmia/agentic-access/swarmia-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Engineering Effectiveness

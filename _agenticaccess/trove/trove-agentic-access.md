@@ -8,37 +8,37 @@ api_specs:
   label: Trove Contributor API
   slug: trove-contributor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-contributor-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-contributor-api-openapi.yml
 - filename: trove-list-api-openapi.yml
   format: yaml
   label: Trove List API
   slug: trove-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-list-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-list-api-openapi.yml
 - filename: trove-newspaper-api-openapi.yml
   format: yaml
   label: Trove Newspaper API
   slug: trove-newspaper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-newspaper-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-newspaper-api-openapi.yml
 - filename: trove-people-api-openapi.yml
   format: yaml
   label: Trove People API
   slug: trove-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-people-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-people-api-openapi.yml
 - filename: trove-search-api-openapi.yml
   format: yaml
   label: Trove Search API
   slug: trove-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-search-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-search-api-openapi.yml
 - filename: trove-work-api-openapi.yml
   format: yaml
   label: Trove Work API
   slug: trove-work-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/openapi/trove-work-api-openapi.yml
+  url: https://artifacts.apis.io/trove/openapi/trove-work-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,12 +67,12 @@ source_yaml: "generated: '2026-10-21'\nmethod: generated\nsource: openapi/trove-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/magazine/title/{id}\n  method: get\n  operationId: getMagazineTitle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/people/{id}\n  method: get\n  operationId: getPersonOrOrg\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/list/{id}\n  method: get\n  operationId: getList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/newspaper/{id}\n  method: get\n  operationId: getNewspaperArticle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v3/newspaper/titles\n  method: get\n  operationId: findNewspaperTitles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/newspaper/title/{id}\n  method: get\n  operationId: getNewspaperTitle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/gazette/{id}\n  method: get\n  operationId: getGazetteArticle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/gazette/titles\n  method: get\n  operationId: findGazetteTitles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/gazette/title/{id}\n  method: get\n  operationId: getGazetteTitle\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/contributor\n  method: get\n  operationId: findContributors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/contributor/{id}\n  method: get\n  operationId: getContributor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trove/refs/heads/main/agentic-access/trove-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trove/agentic-access/trove-agentic-access.yml
 summary_line: 14 operations
 tags:
 - News
 - Public APIs
-- Libraries
+- Library
 - Cultural Heritage
 - Digitised Newspapers
 - Archives

@@ -9,49 +9,49 @@ api_specs:
   label: Capital.com WebSocket API
   slug: capital-com-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/asyncapi/capital-com-public-api-asyncapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/asyncapi/capital-com-public-api-asyncapi.yml
 - filename: capital-com-public-api-accounts-api-openapi.yml
   format: yaml
   label: Capital.com Public API Accounts API
   slug: capital-com-public-api-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-accounts-api-openapi.yml
 - filename: capital-com-public-api-general-api-openapi.yml
   format: yaml
   label: Capital.com Public API General API
   slug: capital-com-public-api-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-general-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-general-api-openapi.yml
 - filename: capital-com-public-api-history-api-openapi.yml
   format: yaml
   label: Capital.com Public API History API
   slug: capital-com-public-api-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-history-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-history-api-openapi.yml
 - filename: capital-com-public-api-markets-api-openapi.yml
   format: yaml
   label: Capital.com Public API Markets API
   slug: capital-com-public-api-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-markets-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-markets-api-openapi.yml
 - filename: capital-com-public-api-positions-api-openapi.yml
   format: yaml
   label: Capital.com Public API Positions API
   slug: capital-com-public-api-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-positions-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-positions-api-openapi.yml
 - filename: capital-com-public-api-session-api-openapi.yml
   format: yaml
   label: Capital.com Public API Session API
   slug: capital-com-public-api-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-session-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-session-api-openapi.yml
 - filename: capital-com-public-api-working-orders-api-openapi.yml
   format: yaml
   label: Capital.com Public API Working Orders API
   slug: capital-com-public-api-working-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/openapi/capital-com-public-api-working-orders-api-openapi.yml
+  url: https://artifacts.apis.io/capital-com-public-api/openapi/capital-com-public-api-working-orders-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 16
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/capita
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workingorders\n  method: post\n  operationId: createWorkingOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workingorders/{dealId}\n  method: put\n  operationId: updateWorkingOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workingorders/{dealId}\n  method: delete\n\
   \  operationId: deleteWorkingOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/marketnavigation\n  method: get\n  operationId: listMarketNavigation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/marketnavigation/{nodeId}\n  method: get\n  operationId: listMarketNavigationByNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/markets\n  method: get\n  operationId: listMarkets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/markets/{epic}\n  method: get\n  operationId: getMarket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/agentic-access/capital-com-public-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/capital-com-public-api/agentic-access/capital-com-public-api-agentic-access.yml
 summary_line: 27 operations · 11 acting
 tags:
 - CFD

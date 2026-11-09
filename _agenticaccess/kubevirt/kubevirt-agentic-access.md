@@ -9,49 +9,49 @@ api_specs:
   label: KubeVirt StorageProfiles API
   slug: kubevirt-storageprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-storageprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/kubevirt/openapi/kubevirt-storageprofiles-api-openapi.yml
 - filename: kubevirt-virtualmachineinstancemigrations-api-openapi.yml
   format: yaml
   label: KubeVirt VirtualMachineInstanceMigrations API
   slug: kubevirt-virtualmachineinstancemigrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-virtualmachineinstancemigrations-api-openapi.yml
+  url: https://artifacts.apis.io/kubevirt/openapi/kubevirt-virtualmachineinstancemigrations-api-openapi.yml
 - filename: kubevirt-virtualmachineinstances-api-openapi.yml
   format: yaml
   label: KubeVirt VirtualMachineInstances API
   slug: kubevirt-virtualmachineinstances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-virtualmachineinstances-api-openapi.yml
+  url: https://artifacts.apis.io/kubevirt/openapi/kubevirt-virtualmachineinstances-api-openapi.yml
 - filename: kubevirt-vmconsole-api-openapi.yml
   format: yaml
   label: KubeVirt VMConsole API
   slug: kubevirt-vmconsole-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-vmconsole-api-openapi.yml
+  url: https://artifacts.apis.io/kubevirt/openapi/kubevirt-vmconsole-api-openapi.yml
 - filename: kubevirt-vmlifecycle-api-openapi.yml
   format: yaml
   label: KubeVirt VMLifecycle API
   slug: kubevirt-vmlifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-vmlifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/kubevirt/openapi/kubevirt-vmlifecycle-api-openapi.yml
 - filename: kubevirt-data-sources-api-openapi.yml
   format: yaml
   label: KubeVirt Data Sources API
   slug: kubevirt-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/kubevirt/openapi/kubevirt-data-sources-api-openapi.yml
 - filename: kubevirt-data-volumes-api-openapi.yml
   format: yaml
   label: KubeVirt Data Volumes API
   slug: kubevirt-data-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-data-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/kubevirt/openapi/kubevirt-data-volumes-api-openapi.yml
 - filename: kubevirt-virtual-machines-api-openapi.yml
   format: yaml
   label: KubeVirt Virtual Machines API
   slug: kubevirt-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/openapi/kubevirt-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/kubevirt/openapi/kubevirt-virtual-machines-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kubevi
   \ 3600\n    audit: none\n- path: /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/pause\n  method: put\n  operationId: pauseVirtualMachineInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/unpause\n  method: put\n  operationId: unpauseVirtualMachineInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/vnc\n  method: get\n  operationId: getVirtualMachineInstanceVNC\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}/console\n  method: get\n  operationId: getVirtualMachineInstanceConsole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancemigrations\n  method: get\n  operationId: listNamespacedVMIMigration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancemigrations\n  method: post\n  operationId: createNamespacedVMIMigration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancemigrations/{name}\n  method: get\n  operationId: readNamespacedVMIMigration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancemigrations/{name}\n  method: delete\n  operationId: deleteNamespacedVMIMigration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/agentic-access/kubevirt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kubevirt/agentic-access/kubevirt-agentic-access.yml
 summary_line: 32 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Cloud-Native

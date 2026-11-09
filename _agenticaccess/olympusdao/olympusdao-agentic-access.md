@@ -8,37 +8,37 @@ api_specs:
   label: OlympusDAO Health API
   slug: olympusdao-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-health-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-health-api-openapi.yml
 - filename: olympusdao-legacy-api-openapi.yml
   format: yaml
   label: OlympusDAO Legacy API
   slug: olympusdao-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-legacy-api-openapi.yml
 - filename: olympusdao-metadata-api-openapi.yml
   format: yaml
   label: OlympusDAO Metadata API
   slug: olympusdao-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-metadata-api-openapi.yml
 - filename: olympusdao-ohm-supply-api-openapi.yml
   format: yaml
   label: OlympusDAO OHM Supply API
   slug: olympusdao-ohm-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-ohm-supply-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-ohm-supply-api-openapi.yml
 - filename: olympusdao-protocol-metrics-api-openapi.yml
   format: yaml
   label: OlympusDAO Protocol Metrics API
   slug: olympusdao-protocol-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-protocol-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-protocol-metrics-api-openapi.yml
 - filename: olympusdao-treasury-api-openapi.yml
   format: yaml
   label: OlympusDAO Treasury API
   slug: olympusdao-treasury-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-treasury-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-treasury-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/olympu
   \ /operations/paginated/tokenRecords\n  method: get\n  operationId: getPaginatedTokenRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/latest/tokenSupplies\n  method: get\n  operationId: getLatestTokenSupplies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/earliest/tokenSupplies\n  method: get\n  operationId: getEarliestTokenSupplies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/paginated/tokenSupplies\n  method: get\n  operationId: getPaginatedTokenSupplies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/latest/protocolMetrics\n\
   \  method: get\n  operationId: getLatestProtocolMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/earliest/protocolMetrics\n  method: get\n  operationId: getEarliestProtocolMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/paginated/protocolMetrics\n  method: get\n  operationId: getPaginatedProtocolMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/atBlock/metrics\n  method: get\n  operationId: getAtBlockMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/atBlock/tokenRecords\n  method: get\n  operationId:\
   \ getAtBlockTokenRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/atBlock/tokenSupplies\n  method: get\n  operationId: getAtBlockTokenSupplies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/atBlock/internal/protocolMetrics\n  method: get\n  operationId: getAtBlockInternalProtocolMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/agentic-access/olympusdao-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/olympusdao/agentic-access/olympusdao-agentic-access.yml
 summary_line: 22 operations
 tags:
 - DeFi

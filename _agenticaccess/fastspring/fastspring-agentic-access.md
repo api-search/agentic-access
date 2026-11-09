@@ -9,73 +9,73 @@ api_specs:
   label: FastSpring Accounts API
   slug: fastspring-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-accounts-api-openapi.yml
 - filename: fastspring-coupons-api-openapi.yml
   format: yaml
   label: FastSpring Coupons API
   slug: fastspring-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-coupons-api-openapi.yml
 - filename: fastspring-data-api-openapi.yml
   format: yaml
   label: FastSpring Data API
   slug: fastspring-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-data-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-data-api-openapi.yml
 - filename: fastspring-events-api-openapi.yml
   format: yaml
   label: FastSpring Events API
   slug: fastspring-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-events-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-events-api-openapi.yml
 - filename: fastspring-invoices-api-openapi.yml
   format: yaml
   label: FastSpring Invoices API
   slug: fastspring-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-invoices-api-openapi.yml
 - filename: fastspring-orders-api-openapi.yml
   format: yaml
   label: FastSpring Orders API
   slug: fastspring-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-orders-api-openapi.yml
 - filename: fastspring-products-api-openapi.yml
   format: yaml
   label: FastSpring Products API
   slug: fastspring-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-products-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-products-api-openapi.yml
 - filename: fastspring-quotes-api-openapi.yml
   format: yaml
   label: FastSpring Quotes API
   slug: fastspring-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-quotes-api-openapi.yml
 - filename: fastspring-returns-api-openapi.yml
   format: yaml
   label: FastSpring Returns API
   slug: fastspring-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-returns-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-returns-api-openapi.yml
 - filename: fastspring-sessions-api-openapi.yml
   format: yaml
   label: FastSpring Sessions API
   slug: fastspring-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-sessions-api-openapi.yml
 - filename: fastspring-subscriptions-api-openapi.yml
   format: yaml
   label: FastSpring Subscriptions API
   slug: fastspring-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-subscriptions-api-openapi.yml
 - filename: fastspring-webhooks-api-openapi.yml
   format: yaml
   label: FastSpring Webhooks API
   slug: fastspring-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/openapi/fastspring-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fastspring/openapi/fastspring-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 23
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fastsp
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /returns/{return_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{event_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/jobs/revenue-report\n  method: post\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/jobs/subscription-report\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/jobs/{job_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/jobs/{job_id}/download\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}/key\n \
   \ method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/agentic-access/fastspring-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fastspring/agentic-access/fastspring-agentic-access.yml
 summary_line: 51 operations · 28 acting
 tags:
 - E-Commerce

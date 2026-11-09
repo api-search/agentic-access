@@ -9,37 +9,37 @@ api_specs:
   label: Google Quantum AI Calibrations API
   slug: google-quantum-ai-calibrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-calibrations-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-calibrations-api-openapi.yml
 - filename: google-quantum-ai-jobs-api-openapi.yml
   format: yaml
   label: Google Quantum AI Jobs API
   slug: google-quantum-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-jobs-api-openapi.yml
 - filename: google-quantum-ai-processors-api-openapi.yml
   format: yaml
   label: Google Quantum AI Processors API
   slug: google-quantum-ai-processors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-processors-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-processors-api-openapi.yml
 - filename: google-quantum-ai-programs-api-openapi.yml
   format: yaml
   label: Google Quantum AI Programs API
   slug: google-quantum-ai-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-programs-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-programs-api-openapi.yml
 - filename: google-quantum-ai-reservations-api-openapi.yml
   format: yaml
   label: Google Quantum AI Reservations API
   slug: google-quantum-ai-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-reservations-api-openapi.yml
 - filename: google-quantum-ai-results-api-openapi.yml
   format: yaml
   label: Google Quantum AI Results API
   slug: google-quantum-ai-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/google-quantum-ai-results-api-openapi.yml
+  url: https://artifacts.apis.io/google-quantum-ai/openapi/google-quantum-ai-results-api-openapi.yml
 consequence_counts:
   read: 15
   write: 12
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quantu
   \ delete\n  operationId: DeleteQuantumReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1alpha1/{name}/reservation:cancel\n  method: post\n  operationId: CancelQuantumReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1alpha1/{parent}/timeSlots\n  method: get\n  operationId: ListQuantumTimeSlots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1alpha1/{parent}/reservationBudgets\n  method: get\n  operationId: ListQuantumReservationBudgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1alpha1/{parent}/reservationGrant\n  method: get\n  operationId: ListQuantumReservationGrants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1alpha1/{name}:reallocate\n  method: post\n  operationId: ReallocateQuantumReservationGrant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/agentic-access/google-quantum-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-quantum-ai/agentic-access/google-quantum-ai-agentic-access.yml
 summary_line: 27 operations · 12 acting
 tags:
 - Quantum Computing

@@ -9,37 +9,37 @@ api_specs:
   label: Openlayer Commits API
   slug: openlayer-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-commits-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-commits-api-openapi.yml
 - filename: openlayer-data-stream-api-openapi.yml
   format: yaml
   label: Openlayer Data Stream API
   slug: openlayer-data-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-data-stream-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-data-stream-api-openapi.yml
 - filename: openlayer-inference-pipelines-api-openapi.yml
   format: yaml
   label: Openlayer Inference Pipelines API
   slug: openlayer-inference-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-inference-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-inference-pipelines-api-openapi.yml
 - filename: openlayer-projects-api-openapi.yml
   format: yaml
   label: Openlayer Projects API
   slug: openlayer-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-projects-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-projects-api-openapi.yml
 - filename: openlayer-storage-api-openapi.yml
   format: yaml
   label: Openlayer Storage API
   slug: openlayer-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-storage-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-storage-api-openapi.yml
 - filename: openlayer-tests-api-openapi.yml
   format: yaml
   label: Openlayer Tests API
   slug: openlayer-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/openapi/openlayer-tests-api-openapi.yml
+  url: https://artifacts.apis.io/openlayer/openapi/openlayer-tests-api-openapi.yml
 consequence_counts:
   read: 10
   write: 14
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openla
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inference-pipelines/{inferencePipelineId}/rows/{inferenceId}\n  method: get\n  operationId: retrieveRow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inference-pipelines/{inferencePipelineId}/rows/{inferenceId}\n  method: delete\n  operationId: deleteRow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inference-pipelines/{inferencePipelineId}/results\n  method: get\n  operationId: listInferencePipelineTestResults\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tests/{testId}/evaluate\n  method: post\n  operationId: evaluateTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tests/{testId}/results\n  method: get\n  operationId: listTestResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage/presigned-url\n  method: post\n  operationId: createPresignedUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/agentic-access/openlayer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openlayer/agentic-access/openlayer-agentic-access.yml
 summary_line: 24 operations · 14 acting
 tags:
 - Artificial Intelligence

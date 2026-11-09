@@ -9,7 +9,7 @@ api_specs:
   label: Google Admin SDK Admin API
   slug: google-admin-sdk-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admin-sdk/refs/heads/main/openapi/google-admin-sdk-admin-api-openapi.yml
+  url: https://artifacts.apis.io/google-admin-sdk/openapi/google-admin-sdk-admin-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10
@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/directory/v1/groups/{groupKey}/members\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/directory/v1/groups/{groupKey}/members\n  method: post\n  operationId: addMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/directory/v1/customer/{customerId}/orgunits\n\
   \  method: get\n  operationId: listOrgUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/directory/v1/customer/{customerId}/orgunits\n  method: post\n  operationId: createOrgUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/directory/v1/customer/{customerId}/devices/chromeos\n  method: get\n  operationId: listChromeOsDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/directory/v1/customer/{customerId}/devices/mobile\n  method: get\n  operationId: listMobileDevices\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/directory/v1/customer/{customerId}/roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/directory/v1/customer/{customer}/domains\n  method: get\n  operationId: listDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-admin-sdk/refs/heads/main/agentic-access/google-admin-sdk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-admin-sdk/agentic-access/google-admin-sdk-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Administration

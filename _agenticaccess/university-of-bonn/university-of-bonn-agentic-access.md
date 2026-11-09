@@ -8,25 +8,25 @@ api_specs:
   label: University of Bonn Datasets API
   slug: university-of-bonn-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-bonn/openapi/university-of-bonn-datasets-api-openapi.yml
 - filename: university-of-bonn-info-api-openapi.yml
   format: yaml
   label: University of Bonn Info API
   slug: university-of-bonn-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-info-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-bonn/openapi/university-of-bonn-info-api-openapi.yml
 - filename: university-of-bonn-metrics-api-openapi.yml
   format: yaml
   label: University of Bonn Metrics API
   slug: university-of-bonn-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-bonn/openapi/university-of-bonn-metrics-api-openapi.yml
 - filename: university-of-bonn-search-api-openapi.yml
   format: yaml
   label: University of Bonn Search API
   slug: university-of-bonn-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/openapi/university-of-bonn-search-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-bonn/openapi/university-of-bonn-search-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/university-of-bonn-bonndata-native-api.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: Search_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/services\n  method: get\n  operationId: Search_getSearchEngines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/version\n  method: get\n  operationId:\
   \ Info_getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/metrics/datasets\n  method: get\n  operationId: Metrics_getDatasetsAllTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{id}\n  method: get\n  operationId: Datasets_getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{id}/versions\n  method: get\n  operationId: Datasets_listVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/export\n  method: get\n  operationId: Datasets_exportDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/agentic-access/university-of-bonn-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/university-of-bonn/agentic-access/university-of-bonn-agentic-access.yml
 summary_line: 7 operations
 tags:
 - University

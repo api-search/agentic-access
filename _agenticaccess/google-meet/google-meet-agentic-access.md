@@ -9,19 +9,19 @@ api_specs:
   label: Google Meet Google Meet API
   slug: google-meet-google-meet-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/openapi/google-meet-google-meet-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-meet/openapi/google-meet-google-meet-api-api-openapi.yml
 - filename: google-meet-spaces-api-openapi.yml
   format: yaml
   label: Google Meet Spaces API
   slug: google-meet-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/openapi/google-meet-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/google-meet/openapi/google-meet-spaces-api-openapi.yml
 - filename: google-meet-conference-records-api-openapi.yml
   format: yaml
   label: Google Meet Conference Records API
   slug: google-meet-conference-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/openapi/google-meet-conference-records-api-openapi.yml
+  url: https://artifacts.apis.io/google-meet/openapi/google-meet-conference-records-api-openapi.yml
 consequence_counts:
   read: 8
   write: 3
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{name}\n  method: patch\n  operationId: updateSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{name}:endActiveConference\n  method: post\n  operationId: endActiveConference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/conferenceRecords\n  method: get\n  operationId: listConferenceRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v2/conferenceRecords/{conferenceRecordId}\n  method: get\n  operationId: getConferenceRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecordId}/participants\n  method: get\n  operationId: listParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecordId}/participants/{participantId}\n  method: get\n  operationId: getParticipant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecordId}/recordings\n  method: get\n  operationId: listRecordings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecordId}/transcripts\n  method: get\n  operationId: listTranscripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecordId}/transcripts/{transcriptId}/entries\n  method: get\n  operationId: listTranscriptEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/agentic-access/google-meet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-meet/agentic-access/google-meet-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
 - Google

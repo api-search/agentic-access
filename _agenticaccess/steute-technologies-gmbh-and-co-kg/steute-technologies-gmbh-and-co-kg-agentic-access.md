@@ -9,43 +9,43 @@ api_specs:
   label: steute Technologies GmbH & Co. KG Access Point API
   slug: steute-technologies-gmbh-and-co-kg-access-point-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-access-point-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-access-point-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-auth-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG Auth API
   slug: steute-technologies-gmbh-and-co-kg-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-auth-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-auth-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-history-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG History API
   slug: steute-technologies-gmbh-and-co-kg-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-history-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-history-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-notification-config-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG Notification Config API
   slug: steute-technologies-gmbh-and-co-kg-notification-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-notification-config-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-notification-config-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-switch-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG Switch API
   slug: steute-technologies-gmbh-and-co-kg-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-switch-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-switch-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-switch-group-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG Switch Group API
   slug: steute-technologies-gmbh-and-co-kg-switch-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-switch-group-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-switch-group-api-openapi.yml
 - filename: steute-technologies-gmbh-and-co-kg-system-status-api-openapi.yml
   format: yaml
   label: steute Technologies GmbH & Co. KG System Status API
   slug: steute-technologies-gmbh-and-co-kg-system-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/openapi/steute-technologies-gmbh-and-co-kg-system-status-api-openapi.yml
+  url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/openapi/steute-technologies-gmbh-and-co-kg-system-status-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 18
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/steute
   \  method: get\n  operationId: SwitchController_getSwitch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/switches/{deviceId}\n  method: delete\n  operationId: SwitchController_del\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/switches/{deviceId}\n  method: put\n  operationId: SwitchController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n   \
   \ audit: required\n- path: /api/v2/switches/deleteAll\n  method: delete\n  operationId: SwitchController_deleteAll\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/auth/login\n  method: post\n  operationId: AuthController_login\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/auth/refresh\n  method: get\n  operationId: AuthController_refresh\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/system-status\n  method: get\n  operationId: SystemStatusController_listSystemStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/agentic-access/steute-technologies-gmbh-and-co-kg-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/agentic-access/steute-technologies-gmbh-and-co-kg-agentic-access.yml
 summary_line: 27 operations · 18 acting · 18 human-in-the-loop
 tags:
 - Company

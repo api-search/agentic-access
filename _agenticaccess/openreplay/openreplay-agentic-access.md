@@ -9,37 +9,37 @@ api_specs:
   label: OpenReplay Assist API
   slug: openreplay-assist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-assist-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-assist-api-openapi.yml
 - filename: openreplay-events-api-openapi.yml
   format: yaml
   label: OpenReplay Events API
   slug: openreplay-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-events-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-events-api-openapi.yml
 - filename: openreplay-jobs-api-openapi.yml
   format: yaml
   label: OpenReplay Jobs API
   slug: openreplay-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-jobs-api-openapi.yml
 - filename: openreplay-projects-api-openapi.yml
   format: yaml
   label: OpenReplay Projects API
   slug: openreplay-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-projects-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-projects-api-openapi.yml
 - filename: openreplay-sessions-api-openapi.yml
   format: yaml
   label: OpenReplay Sessions API
   slug: openreplay-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-sessions-api-openapi.yml
 - filename: openreplay-users-api-openapi.yml
   format: yaml
   label: OpenReplay Users API
   slug: openreplay-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/openapi/openreplay-users-api-openapi.yml
+  url: https://artifacts.apis.io/openreplay/openapi/openreplay-users-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/openre
   \  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/{projectKey}/jobs/{jobId}\n  method: delete\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/projects/{projectKey}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/{projectKey}/users/{userId}/sessions\n  method: post\n  operationId: listUserSessions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/{projectKey}/users\n  method: post\n  operationId: searchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/{projectKey}/users/{userId}\n  method:\
   \ get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/{projectKey}/users/{userId}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/agentic-access/openreplay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openreplay/agentic-access/openreplay-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Debugging

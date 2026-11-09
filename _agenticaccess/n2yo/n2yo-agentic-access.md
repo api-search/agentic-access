@@ -8,31 +8,31 @@ api_specs:
   label: N2YO Above API
   slug: n2yo-above-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-above-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-above-api-openapi.yml
 - filename: n2yo-positions-api-openapi.yml
   format: yaml
   label: N2YO Positions API
   slug: n2yo-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-positions-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-positions-api-openapi.yml
 - filename: n2yo-radio-passes-api-openapi.yml
   format: yaml
   label: N2YO Radio Passes API
   slug: n2yo-radio-passes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-radio-passes-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-radio-passes-api-openapi.yml
 - filename: n2yo-tle-api-openapi.yml
   format: yaml
   label: N2YO TLE API
   slug: n2yo-tle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-tle-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-tle-api-openapi.yml
 - filename: n2yo-visual-passes-api-openapi.yml
   format: yaml
   label: N2YO Visual Passes API
   slug: n2yo-visual-passes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/openapi/n2yo-visual-passes-api-openapi.yml
+  url: https://artifacts.apis.io/n2yo/openapi/n2yo-visual-passes-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/n2yo-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /tle/{id}\n  method: get\n  operationId: getTLE\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /positions/{id}/{observer_lat}/{observer_lng}/{observer_alt}/{seconds}\n  method: get\n  operationId: getPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /visualpasses/{id}/{observer_lat}/{observer_lng}/{observer_alt}/{days}/{min_visibility}\n\
   \  method: get\n  operationId: getVisualPasses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /radiopasses/{id}/{observer_lat}/{observer_lng}/{observer_alt}/{days}/{min_elevation}\n  method: get\n  operationId: getRadioPasses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /above/{observer_lat}/{observer_lng}/{observer_alt}/{search_radius}/{category_id}\n  method: get\n  operationId: getAbove\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/agentic-access/n2yo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/n2yo/agentic-access/n2yo-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Satellite

@@ -8,19 +8,19 @@ api_specs:
   label: StockData Entities API
   slug: stockdata-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-entities-api-openapi.yml
+  url: https://artifacts.apis.io/stockdata/openapi/stockdata-entities-api-openapi.yml
 - filename: stockdata-news-api-openapi.yml
   format: yaml
   label: StockData News API
   slug: stockdata-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-news-api-openapi.yml
+  url: https://artifacts.apis.io/stockdata/openapi/stockdata-news-api-openapi.yml
 - filename: stockdata-stock-data-api-openapi.yml
   format: yaml
   label: StockData Stock Data API
   slug: stockdata-stock-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-stock-data-api-openapi.yml
+  url: https://artifacts.apis.io/stockdata/openapi/stockdata-stock-data-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stockd
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/eod\n  method: get\n  operationId: getEndOfDayData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/splits\n  method: get\n  operationId: getStockSplits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/dividends\n  method: get\n  operationId: getStockDividends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/all\n  method: get\n  operationId: getFinancialNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /news/similar/{uuid}\n  method: get\n  operationId: getSimilarNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/uuid/{uuid}\n  method: get\n  operationId: getNewsByUuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/stats/intraday\n  method: get\n  operationId: getNewsStatsIntraday\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/stats/aggregation\n  method: get\n  operationId: getNewsStatsAggregation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/stats/trending\n  method: get\n  operationId: getTrendingEntities\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/sources\n  method: get\n  operationId: getNewsSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entity/search\n  method: get\n  operationId: searchEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entity/type/list\n  method: get\n  operationId: listEntityTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entity/industry/list\n  method: get\n  operationId: listIndustries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/agentic-access/stockdata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stockdata/agentic-access/stockdata-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Finance

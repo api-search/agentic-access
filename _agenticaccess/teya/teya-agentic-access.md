@@ -9,91 +9,91 @@ api_specs:
   label: Teya Captures API
   slug: teya-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-captures-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-captures-api-openapi.yml
 - filename: teya-dcc-api-openapi.yml
   format: yaml
   label: Teya DCC API
   slug: teya-dcc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-dcc-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-dcc-api-openapi.yml
 - filename: teya-epos-registration-api-openapi.yml
   format: yaml
   label: Teya ePOS Registration API
   slug: teya-epos-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-epos-registration-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-epos-registration-api-openapi.yml
 - filename: teya-hosted-checkout-api-openapi.yml
   format: yaml
   label: Teya Hosted Checkout API
   slug: teya-hosted-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-hosted-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-hosted-checkout-api-openapi.yml
 - filename: teya-internal-api-openapi.yml
   format: yaml
   label: Teya '@internal' API
   slug: teya-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-internal-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-internal-api-openapi.yml
 - filename: teya-pay-at-table-api-openapi.yml
   format: yaml
   label: Teya Pay at Table API
   slug: teya-pay-at-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-pay-at-table-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-pay-at-table-api-openapi.yml
 - filename: teya-payment-requests-api-openapi.yml
   format: yaml
   label: Teya Payment Requests API
   slug: teya-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-payment-requests-api-openapi.yml
 - filename: teya-print-receipts-epos-api-openapi.yml
   format: yaml
   label: Teya Print Receipts (ePOS) API
   slug: teya-print-receipts-epos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-print-receipts-epos-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-print-receipts-epos-api-openapi.yml
 - filename: teya-public-api-openapi.yml
   format: yaml
   label: Teya '@public' API
   slug: teya-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-public-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-public-api-openapi.yml
 - filename: teya-refunds-api-openapi.yml
   format: yaml
   label: Teya Refunds API
   slug: teya-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-refunds-api-openapi.yml
 - filename: teya-stores-api-openapi.yml
   format: yaml
   label: Teya Stores API
   slug: teya-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-stores-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-stores-api-openapi.yml
 - filename: teya-terminals-api-openapi.yml
   format: yaml
   label: Teya Terminals API
   slug: teya-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-terminals-api-openapi.yml
 - filename: teya-tokens-api-openapi.yml
   format: yaml
   label: Teya Tokens API
   slug: teya-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-tokens-api-openapi.yml
 - filename: teya-transactions-api-openapi.yml
   format: yaml
   label: Teya Transactions API
   slug: teya-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-transactions-api-openapi.yml
 - filename: teya-pay-by-link-api-openapi.yml
   format: yaml
   label: Teya Pay by Link API
   slug: teya-pay-by-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/openapi/teya-pay-by-link-api-openapi.yml
+  url: https://artifacts.apis.io/teya/openapi/teya-pay-by-link-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 13
@@ -195,7 +195,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/teya-f
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /poslink/v3/payment-requests/{payment-request-id}\n  method: get\n  operationId: getPaymentByIdV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /poslink/v1/tabs/{tab_id}\n  method: get\n  operationId: getTab\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /poslink/v1/tabs/{tab_id}\n  method: delete\n  operationId: closeTab\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /poslink/v1/tabs/{tab_id}\n  method:\
   \ patch\n  operationId: updateTab\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /poslink/v1/tabs/events\n  method: get\n  operationId: streamTabEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /poslink/v1/stores\n  method: get\n  operationId: getStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /poslink/v1/stores/{store_id}/terminals\n  method: get\n  operationId: getTerminals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /poslink/v1/stores/{store_id}/terminals/{terminal_id}/configs\n  method: get\n  operationId: getTerminalConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /poslink/v1/receipt-requests\n  method: post\n  operationId: createPrintJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /poslink/v1/receipt-requests/{receipt_id}/status\n  method: get\n  operationId: streamEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/agentic-access/teya-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teya/agentic-access/teya-agentic-access.yml
 summary_line: 42 operations · 29 acting
 tags:
 - Company
@@ -208,4 +208,6 @@ tags:
 - Fintech
 - Merchant Services
 - Europe
+- Card Machines
+- Business Accounts
 ---

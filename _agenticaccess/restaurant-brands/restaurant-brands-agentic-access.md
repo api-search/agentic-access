@@ -9,25 +9,25 @@ api_specs:
   label: Restaurant Brands International Loyalty API
   slug: restaurant-brands-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant-brands/openapi/restaurant-brands-loyalty-api-openapi.yml
 - filename: restaurant-brands-menus-api-openapi.yml
   format: yaml
   label: Restaurant Brands International Menus API
   slug: restaurant-brands-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-menus-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant-brands/openapi/restaurant-brands-menus-api-openapi.yml
 - filename: restaurant-brands-orders-api-openapi.yml
   format: yaml
   label: Restaurant Brands International Orders API
   slug: restaurant-brands-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-orders-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant-brands/openapi/restaurant-brands-orders-api-openapi.yml
 - filename: restaurant-brands-stores-api-openapi.yml
   format: yaml
   label: Restaurant Brands International Stores API
   slug: restaurant-brands-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/openapi/restaurant-brands-stores-api-openapi.yml
+  url: https://artifacts.apis.io/restaurant-brands/openapi/restaurant-brands-stores-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 6
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/channe
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/fire\n  method: post\n  operationId: fireOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/place\n  method: post\n  operationId: placeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stores/{storeId}\n\
   \  method: get\n  operationId: getStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{storeId}/store-status-changed\n  method: post\n  operationId: storeStatusChanged\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stores\n  method: get\n  operationId: getStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{storeId}/menus\n  method: get\n  operationId: getStoreMenu\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/menus\n\
   \  method: get\n  operationId: getStoreMenu\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/agentic-access/restaurant-brands-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/restaurant-brands/agentic-access/restaurant-brands-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Fortune 500

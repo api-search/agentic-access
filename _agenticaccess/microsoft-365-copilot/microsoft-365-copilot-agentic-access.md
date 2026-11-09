@@ -9,25 +9,25 @@ api_specs:
   label: Microsoft 365 Copilot Connectors API
   slug: microsoft-365-copilot-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-connectors-api-openapi.yml
 - filename: microsoft-365-copilot-external-items-api-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot External Items API
   slug: microsoft-365-copilot-external-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-external-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-external-items-api-openapi.yml
 - filename: microsoft-365-copilot-search-api-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot Search API
   slug: microsoft-365-copilot-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-search-api-openapi.yml
 - filename: microsoft-365-copilot-user-content-api-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot User Content API
   slug: microsoft-365-copilot-user-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-user-content-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-user-content-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/drive/root/children\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/connections\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/connections\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/connections/{connection-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /external/connections/{connection-id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/connections/{connection-id}/schema\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/connections/{connection-id}/schema\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/connections/{connection-id}/items/{item-id}\n  method: put\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/connections/{connection-id}/items/{item-id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/query\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/agentic-access/microsoft-365-copilot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-365-copilot/agentic-access/microsoft-365-copilot-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Artificial Intelligence

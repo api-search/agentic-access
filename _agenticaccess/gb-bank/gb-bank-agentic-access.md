@@ -9,205 +9,205 @@ api_specs:
   label: GB Bank Account Access Consents API
   slug: gb-bank-account-access-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-account-access-consents-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-account-access-consents-api-openapi.yml
 - filename: gb-bank-accounts-api-openapi.yml
   format: yaml
   label: GB Bank Accounts API
   slug: gb-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-accounts-api-openapi.yml
 - filename: gb-bank-atm-api-openapi.yml
   format: yaml
   label: GB Bank ATM API
   slug: gb-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-atm-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-atm-api-openapi.yml
 - filename: gb-bank-balances-api-openapi.yml
   format: yaml
   label: GB Bank Balances API
   slug: gb-bank-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-balances-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-balances-api-openapi.yml
 - filename: gb-bank-bca-api-openapi.yml
   format: yaml
   label: GB Bank BCA API
   slug: gb-bank-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-bca-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-bca-api-openapi.yml
 - filename: gb-bank-beneficiaries-api-openapi.yml
   format: yaml
   label: GB Bank Beneficiaries API
   slug: gb-bank-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-beneficiaries-api-openapi.yml
 - filename: gb-bank-branch-api-openapi.yml
   format: yaml
   label: GB Bank Branch API
   slug: gb-bank-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-branch-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-branch-api-openapi.yml
 - filename: gb-bank-ccc-api-openapi.yml
   format: yaml
   label: GB Bank CCC API
   slug: gb-bank-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-ccc-api-openapi.yml
 - filename: gb-bank-direct-debits-api-openapi.yml
   format: yaml
   label: GB Bank Direct Debits API
   slug: gb-bank-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-direct-debits-api-openapi.yml
 - filename: gb-bank-domestic-payment-consents-api-openapi.yml
   format: yaml
   label: GB Bank Domestic Payment Consents API
   slug: gb-bank-domestic-payment-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-domestic-payment-consents-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-domestic-payment-consents-api-openapi.yml
 - filename: gb-bank-domestic-payments-api-openapi.yml
   format: yaml
   label: GB Bank Domestic Payments API
   slug: gb-bank-domestic-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-domestic-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-domestic-payments-api-openapi.yml
 - filename: gb-bank-domestic-scheduled-payment-consents-api-openapi.yml
   format: yaml
   label: GB Bank Domestic Scheduled Payment Consents API
   slug: gb-bank-domestic-scheduled-payment-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-domestic-scheduled-payment-consents-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-domestic-scheduled-payment-consents-api-openapi.yml
 - filename: gb-bank-domestic-scheduled-payments-api-openapi.yml
   format: yaml
   label: GB Bank Domestic Scheduled Payments API
   slug: gb-bank-domestic-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-domestic-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-domestic-scheduled-payments-api-openapi.yml
 - filename: gb-bank-domestic-standing-order-consents-api-openapi.yml
   format: yaml
   label: GB Bank Domestic Standing Order Consents API
   slug: gb-bank-domestic-standing-order-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-domestic-standing-order-consents-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-domestic-standing-order-consents-api-openapi.yml
 - filename: gb-bank-domestic-standing-orders-api-openapi.yml
   format: yaml
   label: GB Bank Domestic Standing Orders API
   slug: gb-bank-domestic-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-domestic-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-domestic-standing-orders-api-openapi.yml
 - filename: gb-bank-file-payment-consents-api-openapi.yml
   format: yaml
   label: GB Bank File Payment Consents API
   slug: gb-bank-file-payment-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-file-payment-consents-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-file-payment-consents-api-openapi.yml
 - filename: gb-bank-file-payments-api-openapi.yml
   format: yaml
   label: GB Bank File Payments API
   slug: gb-bank-file-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-file-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-file-payments-api-openapi.yml
 - filename: gb-bank-funds-confirmation-consents-api-openapi.yml
   format: yaml
   label: GB Bank Funds Confirmation Consents API
   slug: gb-bank-funds-confirmation-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-funds-confirmation-consents-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-funds-confirmation-consents-api-openapi.yml
 - filename: gb-bank-funds-confirmations-api-openapi.yml
   format: yaml
   label: GB Bank Funds Confirmations API
   slug: gb-bank-funds-confirmations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-funds-confirmations-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-funds-confirmations-api-openapi.yml
 - filename: gb-bank-international-payment-consents-api-openapi.yml
   format: yaml
   label: GB Bank International Payment Consents API
   slug: gb-bank-international-payment-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-international-payment-consents-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-international-payment-consents-api-openapi.yml
 - filename: gb-bank-international-payments-api-openapi.yml
   format: yaml
   label: GB Bank International Payments API
   slug: gb-bank-international-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-international-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-international-payments-api-openapi.yml
 - filename: gb-bank-international-scheduled-payments-api-openapi.yml
   format: yaml
   label: GB Bank International Scheduled Payments API
   slug: gb-bank-international-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-international-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-international-scheduled-payments-api-openapi.yml
 - filename: gb-bank-international-scheduled-payments-consents-api-openapi.yml
   format: yaml
   label: GB Bank International Scheduled Payments Consents API
   slug: gb-bank-international-scheduled-payments-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-international-scheduled-payments-consents-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-international-scheduled-payments-consents-api-openapi.yml
 - filename: gb-bank-international-standing-orders-api-openapi.yml
   format: yaml
   label: GB Bank International Standing Orders API
   slug: gb-bank-international-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-international-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-international-standing-orders-api-openapi.yml
 - filename: gb-bank-international-standing-orders-consents-api-openapi.yml
   format: yaml
   label: GB Bank International Standing Orders Consents API
   slug: gb-bank-international-standing-orders-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-international-standing-orders-consents-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-international-standing-orders-consents-api-openapi.yml
 - filename: gb-bank-offers-api-openapi.yml
   format: yaml
   label: GB Bank Offers API
   slug: gb-bank-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-offers-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-offers-api-openapi.yml
 - filename: gb-bank-parties-api-openapi.yml
   format: yaml
   label: GB Bank Parties API
   slug: gb-bank-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-parties-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-parties-api-openapi.yml
 - filename: gb-bank-pca-api-openapi.yml
   format: yaml
   label: GB Bank PCA API
   slug: gb-bank-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-pca-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-pca-api-openapi.yml
 - filename: gb-bank-products-api-openapi.yml
   format: yaml
   label: GB Bank Products API
   slug: gb-bank-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-products-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-products-api-openapi.yml
 - filename: gb-bank-scheduled-payments-api-openapi.yml
   format: yaml
   label: GB Bank Scheduled Payments API
   slug: gb-bank-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-scheduled-payments-api-openapi.yml
 - filename: gb-bank-sme-api-openapi.yml
   format: yaml
   label: GB Bank SME API
   slug: gb-bank-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-sme-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-sme-api-openapi.yml
 - filename: gb-bank-standing-orders-api-openapi.yml
   format: yaml
   label: GB Bank Standing Orders API
   slug: gb-bank-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-standing-orders-api-openapi.yml
 - filename: gb-bank-statements-api-openapi.yml
   format: yaml
   label: GB Bank Statements API
   slug: gb-bank-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-statements-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-statements-api-openapi.yml
 - filename: gb-bank-transactions-api-openapi.yml
   format: yaml
   label: GB Bank Transactions API
   slug: gb-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/gb-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gb-bank/openapi/gb-bank-transactions-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 66
@@ -337,7 +337,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/uk-ope
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /international-scheduled-payments/{InternationalScheduledPaymentId}\n  method: get\n  operationId: GetInternationalScheduledPaymentsInternationalScheduledPaymentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-scheduled-payments/{InternationalScheduledPaymentId}/payment-details\n  method: get\n  operationId: GetInternationalScheduledPaymentsInternationalScheduledPaymentIdPaymentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-standing-order-consents\n  method: post\n  operationId: CreateInternationalStandingOrderConsents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    scope:\n    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /international-standing-order-consents/{ConsentId}\n  method: get\n  operationId: GetInternationalStandingOrderConsentsConsentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-standing-orders\n  method: post\n  operationId: CreateInternationalStandingOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /international-standing-orders/{InternationalStandingOrderPaymentId}\n  method: get\n  operationId: GetInternationalStandingOrdersInternationalStandingOrderPaymentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-standing-orders/{InternationalStandingOrderPaymentId}/payment-details\n  method: get\n  operationId: GetInternationalStandingOrdersInternationalStandingOrderPaymentIdPaymentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/agentic-access/gb-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gb-bank/agentic-access/gb-bank-agentic-access.yml
 summary_line: 86 operations · 20 acting
 tags:
 - Financial Services

@@ -9,115 +9,115 @@ api_specs:
   label: Appmixer Accounts API
   slug: appmixer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-accounts-api-openapi.yml
 - filename: appmixer-apps-api-openapi.yml
   format: yaml
   label: Appmixer Apps API
   slug: appmixer-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-apps-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-apps-api-openapi.yml
 - filename: appmixer-authentication-api-openapi.yml
   format: yaml
   label: Appmixer Authentication API
   slug: appmixer-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-authentication-api-openapi.yml
 - filename: appmixer-files-api-openapi.yml
   format: yaml
   label: Appmixer Files API
   slug: appmixer-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-files-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-files-api-openapi.yml
 - filename: appmixer-flows-api-openapi.yml
   format: yaml
   label: Appmixer Flows API
   slug: appmixer-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-flows-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-flows-api-openapi.yml
 - filename: appmixer-insights-api-openapi.yml
   format: yaml
   label: Appmixer Insights API
   slug: appmixer-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-insights-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-insights-api-openapi.yml
 - filename: appmixer-acl-api-openapi.yml
   format: yaml
   label: Appmixer ACL API
   slug: appmixer-acl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-acl-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-acl-api-openapi.yml
 - filename: appmixer-audit-logs-api-openapi.yml
   format: yaml
   label: Appmixer Audit Logs API
   slug: appmixer-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-audit-logs-api-openapi.yml
 - filename: appmixer-automation-hub-api-openapi.yml
   format: yaml
   label: Appmixer Automation Hub API
   slug: appmixer-automation-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-automation-hub-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-automation-hub-api-openapi.yml
 - filename: appmixer-config-api-openapi.yml
   format: yaml
   label: Appmixer Config API
   slug: appmixer-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-config-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-config-api-openapi.yml
 - filename: appmixer-connector-configuration-api-openapi.yml
   format: yaml
   label: Appmixer Connector Configuration API
   slug: appmixer-connector-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-connector-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-connector-configuration-api-openapi.yml
 - filename: appmixer-integration-categories-api-openapi.yml
   format: yaml
   label: Appmixer Integration Categories API
   slug: appmixer-integration-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-integration-categories-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-integration-categories-api-openapi.yml
 - filename: appmixer-modifiers-api-openapi.yml
   format: yaml
   label: Appmixer Modifiers API
   slug: appmixer-modifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-modifiers-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-modifiers-api-openapi.yml
 - filename: appmixer-public-files-api-openapi.yml
   format: yaml
   label: Appmixer Public Files API
   slug: appmixer-public-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-public-files-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-public-files-api-openapi.yml
 - filename: appmixer-unprocessed-messages-api-openapi.yml
   format: yaml
   label: Appmixer Unprocessed Messages API
   slug: appmixer-unprocessed-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-unprocessed-messages-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-unprocessed-messages-api-openapi.yml
 - filename: appmixer-user-api-openapi.yml
   format: yaml
   label: Appmixer User API
   slug: appmixer-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-user-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-user-api-openapi.yml
 - filename: appmixer-user-groups-api-openapi.yml
   format: yaml
   label: Appmixer User Groups API
   slug: appmixer-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-user-groups-api-openapi.yml
 - filename: appmixer-variables-api-openapi.yml
   format: yaml
   label: Appmixer Variables API
   slug: appmixer-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-variables-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-variables-api-openapi.yml
 - filename: appmixer-datastores-api-openapi.yml
   format: yaml
   label: Appmixer Datastores API
   slug: appmixer-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/appmixer/openapi/appmixer-datastores-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/appmix
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{fileId}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-stores\n  method: get\n  operationId: listDataStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data-stores/{storeId}\n  method: get\n  operationId: getDataStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data-stores/{storeId}\n  method: delete\n  operationId: deleteDataStore\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /insights\n  method: get\n  operationId: listInsights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people-task/tasks\n  method: get\n  operationId: listPeopleTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs\n  method: get\n  operationId: getLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /unprocessed-messages\n  method: get\n  operationId: listUnprocessedMessages\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /unprocessed-messages/{messageId}\n  method: post\n  operationId: reprocessMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unprocessed-messages/{messageId}\n  method: delete\n  operationId: deleteUnprocessedMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/agentic-access/appmixer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appmixer/agentic-access/appmixer-agentic-access.yml
 summary_line: 33 operations · 17 acting · 1 human-in-the-loop
 tags:
 - AI Agents

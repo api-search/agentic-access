@@ -9,61 +9,61 @@ api_specs:
   label: BscScan Accounts API
   slug: bscscan-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-accounts-api-openapi.yml
 - filename: bscscan-api-pro-endpoints-api-openapi.yml
   format: yaml
   label: BscScan API PRO Endpoints API
   slug: bscscan-api-pro-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-api-pro-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-api-pro-endpoints-api-openapi.yml
 - filename: bscscan-blocks-api-openapi.yml
   format: yaml
   label: BscScan Blocks API
   slug: bscscan-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-blocks-api-openapi.yml
 - filename: bscscan-contracts-api-openapi.yml
   format: yaml
   label: BscScan Contracts API
   slug: bscscan-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-contracts-api-openapi.yml
 - filename: bscscan-gas-tracker-api-openapi.yml
   format: yaml
   label: BscScan Gas Tracker API
   slug: bscscan-gas-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-gas-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-gas-tracker-api-openapi.yml
 - filename: bscscan-geth-parity-proxy-api-openapi.yml
   format: yaml
   label: BscScan Geth/Parity Proxy API
   slug: bscscan-geth-parity-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-geth-parity-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-geth-parity-proxy-api-openapi.yml
 - filename: bscscan-logs-api-openapi.yml
   format: yaml
   label: BscScan Logs API
   slug: bscscan-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-logs-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-logs-api-openapi.yml
 - filename: bscscan-stats-api-openapi.yml
   format: yaml
   label: BscScan Stats API
   slug: bscscan-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-stats-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-stats-api-openapi.yml
 - filename: bscscan-tokens-api-openapi.yml
   format: yaml
   label: BscScan Tokens API
   slug: bscscan-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-tokens-api-openapi.yml
 - filename: bscscan-transactions-api-openapi.yml
   format: yaml
   label: BscScan Transactions API
   slug: bscscan-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/openapi/bscscan-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bscscan/openapi/bscscan-transactions-api-openapi.yml
 consequence_counts:
   read: 70
   write: 1
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ /?module=stats&action=nodecount\n  method: get\n  operationId: get-total-nodes-count\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?module=stats&action=dailytxnfee\n  method: get\n  operationId: get-daily-network-transaction-fee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?module=stats&action=dailynewaddress\n  method: get\n  operationId: get-daily-new-address-count\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?module=stats&action=dailynetutilization\n  method: get\n  operationId: get-daily-network-utilization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /?module=stats&action=dailyavghashrate\n  method: get\n  operationId: get-daily-average-network-hash-rate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?module=stats&action=dailytx\n  method: get\n  operationId: get-daily-transaction-count\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?module=stats&action=dailyavgnetdifficulty\n  method: get\n  operationId: get-daily-average-network-difficulty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?module=stats&action=ethdailymarketcap\n  method: get\n  operationId: get-ether-historical-daily-market-cap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /?module=stats&action=ethdailyprice\n  method: get\n  operationId: get-ether-historical-price\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/agentic-access/bscscan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bscscan/agentic-access/bscscan-agentic-access.yml
 summary_line: 71 operations · 1 acting
 tags:
 - Blockchain

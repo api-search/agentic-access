@@ -9,49 +9,49 @@ api_specs:
   label: Delphi Audience API
   slug: delphi-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-audience-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-audience-api-openapi.yml
 - filename: delphi-clone-api-openapi.yml
   format: yaml
   label: Delphi Clone API
   slug: delphi-clone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-clone-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-clone-api-openapi.yml
 - filename: delphi-conversations-api-openapi.yml
   format: yaml
   label: Delphi Conversations API
   slug: delphi-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-conversations-api-openapi.yml
 - filename: delphi-questions-api-openapi.yml
   format: yaml
   label: Delphi Questions API
   slug: delphi-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-questions-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-questions-api-openapi.yml
 - filename: delphi-search-api-openapi.yml
   format: yaml
   label: Delphi Search API
   slug: delphi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-search-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-search-api-openapi.yml
 - filename: delphi-tags-api-openapi.yml
   format: yaml
   label: Delphi Tags API
   slug: delphi-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-tags-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-tags-api-openapi.yml
 - filename: delphi-usage-api-openapi.yml
   format: yaml
   label: Delphi Usage API
   slug: delphi-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-usage-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-usage-api-openapi.yml
 - filename: delphi-voice-api-openapi.yml
   format: yaml
   label: Delphi Voice API
   slug: delphi-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-voice-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-voice-api-openapi.yml
 consequence_counts:
   read: 12
   write: 13
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/delphi
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v3/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/users/{user_id}/tags/{tag_name}\n  method: post\n  operationId: tagUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/users/{user_id}/tags/{tag_name}\n  method: delete\n  operationId: untagUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v3/users/{user_id}/usage\n  method: get\n  operationId: getUserUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/users/{user_id}/tier\n  method: get\n  operationId: getUserTier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/voice/stream\n  method: post\n  operationId: streamVoiceResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/voice/synthesize\n  method: post\n  operationId: synthesizeVoice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/agentic-access/delphi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/delphi/agentic-access/delphi-agentic-access.yml
 summary_line: 25 operations · 13 acting
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Skyfire Agents API
   slug: skyfire-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-agents-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-agents-api-openapi.yml
 - filename: skyfire-auth-api-openapi.yml
   format: yaml
   label: Skyfire Auth API
   slug: skyfire-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-auth-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-auth-api-openapi.yml
 - filename: skyfire-directory-api-openapi.yml
   format: yaml
   label: Skyfire Directory API
   slug: skyfire-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-directory-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-directory-api-openapi.yml
 - filename: skyfire-organizations-api-openapi.yml
   format: yaml
   label: Skyfire Organizations API
   slug: skyfire-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-organizations-api-openapi.yml
 - filename: skyfire-tokens-api-openapi.yml
   format: yaml
   label: Skyfire Tokens API
   slug: skyfire-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/skyfire/openapi/skyfire-tokens-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/skyfir
   \  method: post\n  operationId: create-enterprise-user-1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tokens\n  method: post\n  operationId: create-token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tokens/charge\n  method: post\n  operationId: charge-token\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tokens/introspect\n  method: post\n  operationId: introspect-token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tokens/{tokenId}/charges\n  method: get\n  operationId: get-token-charges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/directory/agents/{agentId}/services\n  method: get\n  operationId: get-services-by-agent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/directory/services\n  method: get\n  operationId:\
   \ get-all-services\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/directory/services/search\n  method: get\n  operationId: get-services-by-tags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/directory/services/{serviceId}\n  method: get\n  operationId: get-service\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/directory/tags\n  method: get\n  operationId: get-all-service-tags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/agentic-access/skyfire-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/skyfire/agentic-access/skyfire-agentic-access.yml
 summary_line: 31 operations · 17 acting
 tags:
 - Company

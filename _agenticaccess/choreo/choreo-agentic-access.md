@@ -9,97 +9,97 @@ api_specs:
   label: Choreo Alerts API
   slug: choreo-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-alerts-api-openapi.yml
 - filename: choreo-application-keys-api-openapi.yml
   format: yaml
   label: Choreo Application Keys API
   slug: choreo-application-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-application-keys-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-application-keys-api-openapi.yml
 - filename: choreo-applications-api-openapi.yml
   format: yaml
   label: Choreo Applications API
   slug: choreo-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-applications-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-applications-api-openapi.yml
 - filename: choreo-builds-api-openapi.yml
   format: yaml
   label: Choreo Builds API
   slug: choreo-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-builds-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-builds-api-openapi.yml
 - filename: choreo-business-plans-api-openapi.yml
   format: yaml
   label: Choreo Business Plans API
   slug: choreo-business-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-business-plans-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-business-plans-api-openapi.yml
 - filename: choreo-components-api-openapi.yml
   format: yaml
   label: Choreo Components API
   slug: choreo-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-components-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-components-api-openapi.yml
 - filename: choreo-deployments-api-openapi.yml
   format: yaml
   label: Choreo Deployments API
   slug: choreo-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-deployments-api-openapi.yml
 - filename: choreo-environments-api-openapi.yml
   format: yaml
   label: Choreo Environments API
   slug: choreo-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-environments-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-environments-api-openapi.yml
 - filename: choreo-errors-api-openapi.yml
   format: yaml
   label: Choreo Errors API
   slug: choreo-errors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-errors-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-errors-api-openapi.yml
 - filename: choreo-latency-api-openapi.yml
   format: yaml
   label: Choreo Latency API
   slug: choreo-latency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-latency-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-latency-api-openapi.yml
 - filename: choreo-logs-api-openapi.yml
   format: yaml
   label: Choreo Logs API
   slug: choreo-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-logs-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-logs-api-openapi.yml
 - filename: choreo-organizations-api-openapi.yml
   format: yaml
   label: Choreo Organizations API
   slug: choreo-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-organizations-api-openapi.yml
 - filename: choreo-projects-api-openapi.yml
   format: yaml
   label: Choreo Projects API
   slug: choreo-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-projects-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-projects-api-openapi.yml
 - filename: choreo-subscriptions-api-openapi.yml
   format: yaml
   label: Choreo Subscriptions API
   slug: choreo-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-subscriptions-api-openapi.yml
 - filename: choreo-usage-api-openapi.yml
   format: yaml
   label: Choreo Usage API
   slug: choreo-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-usage-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-usage-api-openapi.yml
 - filename: choreo-apis-api-openapi.yml
   format: yaml
   label: Choreo APIS API
   slug: choreo-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-apis-api-openapi.yml
+  url: https://artifacts.apis.io/choreo/openapi/choreo-apis-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 22
@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/choreo
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /business-plans\n\
   \  method: get\n  operationId: listBusinessPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /usage\n  method: get\n  operationId: getAPIUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /latency\n  method: get\n  operationId: getAPILatency\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /errors\n  method: get\n  operationId: getAPIErrors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs\n  method: get\n  operationId: queryLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/agentic-access/choreo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/choreo/agentic-access/choreo-agentic-access.yml
 summary_line: 34 operations · 12 acting
 tags:
 - Ai Apps

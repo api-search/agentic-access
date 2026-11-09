@@ -9,55 +9,55 @@ api_specs:
   label: Uploadcare Add-Ons API
   slug: uploadcare-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-add-ons-api-openapi.yml
 - filename: uploadcare-conversion-api-openapi.yml
   format: yaml
   label: Uploadcare Conversion API
   slug: uploadcare-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-conversion-api-openapi.yml
 - filename: uploadcare-file-api-openapi.yml
   format: yaml
   label: Uploadcare File API
   slug: uploadcare-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-api-openapi.yml
 - filename: uploadcare-file-information-api-openapi.yml
   format: yaml
   label: Uploadcare File information API
   slug: uploadcare-file-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-information-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-information-api-openapi.yml
 - filename: uploadcare-file-metadata-api-openapi.yml
   format: yaml
   label: Uploadcare File metadata API
   slug: uploadcare-file-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-metadata-api-openapi.yml
 - filename: uploadcare-file-names-api-openapi.yml
   format: yaml
   label: Uploadcare File names API
   slug: uploadcare-file-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-file-names-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-file-names-api-openapi.yml
 - filename: uploadcare-group-api-openapi.yml
   format: yaml
   label: Uploadcare Group API
   slug: uploadcare-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-group-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-group-api-openapi.yml
 - filename: uploadcare-project-api-openapi.yml
   format: yaml
   label: Uploadcare Project API
   slug: uploadcare-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-project-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-project-api-openapi.yml
 - filename: uploadcare-webhook-api-openapi.yml
   format: yaml
   label: Uploadcare Webhook API
   slug: uploadcare-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/openapi/uploadcare-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/uploadcare/openapi/uploadcare-webhook-api-openapi.yml
 consequence_counts:
   read: 20
   write: 24
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/upload
   \ none\n- path: /base/\n  method: post\n  operationId: baseUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /multipart/start/\n  method: post\n  operationId: multipartFileUploadStart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /<presigned-url-x>\n  method: put\n  operationId: multipartFileUploadPart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /multipart/complete/\n  method: post\n  operationId: multipartFileUploadComplete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /from_url/\n  method: post\n  operationId: fromURLUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /from_url/status/\n  method: get\n  operationId: fromURLUploadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /info/\n  method: get\n  operationId: fileUploadInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /group/\n  method: post\n  operationId: createFilesGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /group/info/\n  method: get\n  operationId: filesGroupInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/agentic-access/uploadcare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uploadcare/agentic-access/uploadcare-agentic-access.yml
 summary_line: 44 operations · 24 acting
 tags:
 - File Upload

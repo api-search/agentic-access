@@ -9,67 +9,67 @@ api_specs:
   label: Textmagic Bulk API
   slug: textmagic-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-bulk-api-openapi.yml
 - filename: textmagic-chats-api-openapi.yml
   format: yaml
   label: Textmagic Chats API
   slug: textmagic-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-chats-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-chats-api-openapi.yml
 - filename: textmagic-contacts-api-openapi.yml
   format: yaml
   label: Textmagic Contacts API
   slug: textmagic-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-contacts-api-openapi.yml
 - filename: textmagic-lists-api-openapi.yml
   format: yaml
   label: Textmagic Lists API
   slug: textmagic-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-lists-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-lists-api-openapi.yml
 - filename: textmagic-messages-api-openapi.yml
   format: yaml
   label: Textmagic Messages API
   slug: textmagic-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-messages-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-messages-api-openapi.yml
 - filename: textmagic-numbers-api-openapi.yml
   format: yaml
   label: Textmagic Numbers API
   slug: textmagic-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-numbers-api-openapi.yml
 - filename: textmagic-replies-api-openapi.yml
   format: yaml
   label: Textmagic Replies API
   slug: textmagic-replies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-replies-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-replies-api-openapi.yml
 - filename: textmagic-schedules-api-openapi.yml
   format: yaml
   label: Textmagic Schedules API
   slug: textmagic-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-schedules-api-openapi.yml
 - filename: textmagic-sender-ids-api-openapi.yml
   format: yaml
   label: Textmagic Sender IDs API
   slug: textmagic-sender-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-sender-ids-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-sender-ids-api-openapi.yml
 - filename: textmagic-stats-api-openapi.yml
   format: yaml
   label: Textmagic Stats API
   slug: textmagic-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-stats-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-stats-api-openapi.yml
 - filename: textmagic-templates-api-openapi.yml
   format: yaml
   label: Textmagic Templates API
   slug: textmagic-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/openapi/textmagic-templates-api-openapi.yml
+  url: https://artifacts.apis.io/textmagic/openapi/textmagic-templates-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 29
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/textma
   \ token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /senderids/{id}\n  method: get\n  operationId: getSenderId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /senderids/{id}\n  method: delete\n  operationId: deleteSenderId\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /numbers\n  method: get\n  operationId: getNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /numbers\n  method: post\n  operationId: buyNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /numbers/available\n  method: get\n  operationId: getAvailableNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /numbers/{id}\n  method: get\n  operationId: getNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /numbers/{id}\n  method: delete\n  operationId: cancelNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/spending\n  method: get\n  operationId: getSpendingStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/agentic-access/textmagic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/textmagic/agentic-access/textmagic-agentic-access.yml
 summary_line: 49 operations · 20 acting
 tags:
 - SMS

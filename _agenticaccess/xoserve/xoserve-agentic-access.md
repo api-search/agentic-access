@@ -9,13 +9,13 @@ api_specs:
   label: Xoserve Shipper API
   slug: xoserve-shipper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-shipper-api-openapi.yml
+  url: https://artifacts.apis.io/xoserve/openapi/xoserve-shipper-api-openapi.yml
 - filename: xoserve-supplier-api-openapi.yml
   format: yaml
   label: Xoserve Supplier API
   slug: xoserve-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/openapi/xoserve-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/xoserve/openapi/xoserve-supplier-api-openapi.yml
 consequence_counts:
   physical: 0
   read: 4
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: >-\n  The four
   \ — including current and previous\n        supplier, latest meter read and priority-consumer indicator.\n  - path: /\n    method: get\n    operationId: getMeterAsset_1\n    spec: openapi/xoserve-meter-asset-api-v1-openapi.yml\n    api: Xoserve Meter Asset API v1\n    x-agentic-access:\n      action-class: connected\n      consequence: read\n      subject: required\n      audience: null\n      token:\n        max-ttl: 3600\n      constraints:\n        purpose-required: true\n        data-class: identifiable-premise\n        eligibility: 'REC party, access granted by RECCo per the REC Data Access Matrix'\n      audit: required\n  - path: /\n    method: get\n    operationId: getMeterAsset_1\n    spec: openapi/xoserve-meter-asset-api-v2-openapi.yml\n    api: Xoserve Meter Asset API v2\n    x-agentic-access:\n      action-class: connected\n      consequence: read\n      subject: required\n      audience: null\n      token:\n        max-ttl: 3600\n      constraints:\n        purpose-required:\
   \ true\n        data-class: identifiable-premise\n        eligibility: 'REC party, access granted by RECCo per the REC Data Access Matrix'\n      audit: required\n      audit-reason: >-\n        v2 adds full supplier / MAP / MAM change history, making bulk enumeration a switching-market\n        intelligence risk as well as a privacy one.\ndeployment_notes:\n  - >-\n    Rate governance is contractual, not technical: the annual call-allowance band (60,000–18,000,000\n    calls/year) is the real ceiling and nothing in the response signals remaining budget. Give an agent\n    a hard local quota — see rate-limits/xoserve-rate-limits.yml.\n  - >-\n    Credentials are long-lived Azure APIM subscription keys with no scopes, no expiry signal and no\n    rotation endpoint. The 3600s max-ttl above applies to any token an agent platform mints in front of\n    the key, not to the key itself, which must never be handed to a model.\n  - >-\n    Enumeration is the dominant abuse mode: postcode-based\
   \ lookup on the Shipper and Supplier APIs\n    makes address-space sweeping trivial. Constrain agents to MPRNs already in scope for the stated purpose.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/agentic-access/xoserve-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xoserve/agentic-access/xoserve-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Energy

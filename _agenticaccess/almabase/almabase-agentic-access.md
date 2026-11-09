@@ -8,97 +8,97 @@ api_specs:
   label: Almabase Bought Ticket API
   slug: almabase-bought-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-bought-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-bought-ticket-api-openapi.yml
 - filename: almabase-event-agenda-api-openapi.yml
   format: yaml
   label: Almabase Event Agenda API
   slug: almabase-event-agenda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-agenda-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-agenda-api-openapi.yml
 - filename: almabase-event-announcement-api-openapi.yml
   format: yaml
   label: Almabase Event Announcement API
   slug: almabase-event-announcement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-announcement-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-announcement-api-openapi.yml
 - filename: almabase-event-api-openapi.yml
   format: yaml
   label: Almabase Event API
   slug: almabase-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-api-openapi.yml
 - filename: almabase-event-auction-bidder-api-openapi.yml
   format: yaml
   label: Almabase Event Auction Bidder API
   slug: almabase-event-auction-bidder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-auction-bidder-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-auction-bidder-api-openapi.yml
 - filename: almabase-event-auction-statistic-api-openapi.yml
   format: yaml
   label: Almabase Event Auction Statistic API
   slug: almabase-event-auction-statistic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-auction-statistic-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-auction-statistic-api-openapi.yml
 - filename: almabase-event-contact-person-api-openapi.yml
   format: yaml
   label: Almabase Event Contact Person API
   slug: almabase-event-contact-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-contact-person-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-contact-person-api-openapi.yml
 - filename: almabase-event-discount-api-openapi.yml
   format: yaml
   label: Almabase Event Discount API
   slug: almabase-event-discount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-discount-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-discount-api-openapi.yml
 - filename: almabase-event-guest-api-openapi.yml
   format: yaml
   label: Almabase Event Guest API
   slug: almabase-event-guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-guest-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-guest-api-openapi.yml
 - filename: almabase-event-image-api-openapi.yml
   format: yaml
   label: Almabase Event Image API
   slug: almabase-event-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-image-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-image-api-openapi.yml
 - filename: almabase-event-invitee-api-openapi.yml
   format: yaml
   label: Almabase Event Invitee API
   slug: almabase-event-invitee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-invitee-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-invitee-api-openapi.yml
 - filename: almabase-event-itinerary-api-openapi.yml
   format: yaml
   label: Almabase Event Itinerary API
   slug: almabase-event-itinerary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-itinerary-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-itinerary-api-openapi.yml
 - filename: almabase-event-registration-api-openapi.yml
   format: yaml
   label: Almabase Event Registration API
   slug: almabase-event-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-registration-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-registration-api-openapi.yml
 - filename: almabase-event-ticket-api-openapi.yml
   format: yaml
   label: Almabase Event Ticket API
   slug: almabase-event-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-event-ticket-api-openapi.yml
 - filename: almabase-gift-api-openapi.yml
   format: yaml
   label: Almabase Gift API
   slug: almabase-gift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-gift-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-gift-api-openapi.yml
 - filename: almabase-guest-re-gift-api-openapi.yml
   format: yaml
   label: Almabase Guest Re Gift API
   slug: almabase-guest-re-gift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-guest-re-gift-api-openapi.yml
+  url: https://artifacts.apis.io/almabase/openapi/almabase-guest-re-gift-api-openapi.yml
 consequence_counts:
   read: 32
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/almaba
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/eventsx/{parent_id}/discounts/\n  method: get\n  operationId: listEventDiscount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/eventsx/{parent_id}/images/{pk}\n  method: get\n  operationId: getEventImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/eventsx/{parent_id}/images/\n  method: get\n  operationId: listEventImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/eventsx/{parent_id}/contact_persons/{pk}\n  method: get\n  operationId: getEventContactPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/eventsx/{parent_id}/contact_persons/\n  method: get\n  operationId: listEventContactPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/eventsx/{parent_id}/announcements/{pk}\n  method: get\n  operationId: getEventAnnouncement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/eventsx/{parent_id}/announcements/\n  method: get\n  operationId: listEventAnnouncement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/eventsx/{parent_id}/invitees/{pk}\n  method: get\n  operationId: getEventInvitee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/eventsx/{parent_id}/invitees/\n  method: get\n  operationId: listEventInvitee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/agentic-access/almabase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/almabase/agentic-access/almabase-agentic-access.yml
 summary_line: 32 operations
 tags:
 - Company

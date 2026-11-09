@@ -9,79 +9,79 @@ api_specs:
   label: Adobe Commerce Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/asyncapi/magento-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/magento/asyncapi/magento-webhooks-asyncapi.yml
 - filename: magento-events-asyncapi.yml
   format: yaml
   label: Adobe Commerce Eventing
   slug: events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/asyncapi/magento-events-asyncapi.yml
+  url: https://artifacts.apis.io/magento/asyncapi/magento-events-asyncapi.yml
 - filename: magento-authentication-api-openapi.yml
   format: yaml
   label: magento Authentication API
   slug: magento-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-authentication-api-openapi.yml
 - filename: magento-carts-api-openapi.yml
   format: yaml
   label: magento Carts API
   slug: magento-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-carts-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-carts-api-openapi.yml
 - filename: magento-categories-api-openapi.yml
   format: yaml
   label: magento Categories API
   slug: magento-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-categories-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-categories-api-openapi.yml
 - filename: magento-customers-api-openapi.yml
   format: yaml
   label: magento Customers API
   slug: magento-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-customers-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-customers-api-openapi.yml
 - filename: magento-inventory-api-openapi.yml
   format: yaml
   label: magento Inventory API
   slug: magento-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-inventory-api-openapi.yml
 - filename: magento-invoices-api-openapi.yml
   format: yaml
   label: magento Invoices API
   slug: magento-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-invoices-api-openapi.yml
 - filename: magento-orders-api-openapi.yml
   format: yaml
   label: magento Orders API
   slug: magento-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-orders-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-orders-api-openapi.yml
 - filename: magento-products-api-openapi.yml
   format: yaml
   label: magento Products API
   slug: magento-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-products-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-products-api-openapi.yml
 - filename: magento-shipments-api-openapi.yml
   format: yaml
   label: magento Shipments API
   slug: magento-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-shipments-api-openapi.yml
 - filename: magento-stores-api-openapi.yml
   format: yaml
   label: magento Stores API
   slug: magento-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-stores-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-stores-api-openapi.yml
 - filename: magento-tax-api-openapi.yml
   format: yaml
   label: magento Tax API
   slug: magento-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/openapi/magento-tax-api-openapi.yml
+  url: https://artifacts.apis.io/magento/openapi/magento-tax-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 16
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/magent
   \ listInventorySources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/inventory/sources\n  method: post\n  operationId: createInventorySource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /V1/inventory/sources/{sourceCode}\n  method: get\n  operationId: getInventorySource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/inventory/sources/{sourceCode}\n  method: put\n  operationId: updateInventorySource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /V1/inventory/source-items\n  method: get\n  operationId: listSourceItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/inventory/source-items\n  method: post\n  operationId: updateSourceItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /V1/taxRates\n  method: get\n  operationId: listTaxRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /V1/store/storeConfigs\n  method: get\n\
   \  operationId: listStoreConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/agentic-access/magento-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/magento/agentic-access/magento-agentic-access.yml
 summary_line: 38 operations · 22 acting
 tags:
 - E-Commerce

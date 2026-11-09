@@ -3,66 +3,72 @@ acting_count: 0
 action_class_counts:
   connected: 15
 api_specs:
+- filename: theholisticcare-openapi.yml
+  format: yaml
+  label: THC Open Mindfulness Resources API
+  slug: thc-open-mindfulness-resources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-openapi.yml
 - filename: theholisticcare-health-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Health API
   slug: theholisticcare-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-health-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-health-api-openapi.yml
 - filename: theholisticcare-resources-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Resources API
   slug: theholisticcare-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-resources-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-resources-api-openapi.yml
 - filename: theholisticcare-search-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Search API
   slug: theholisticcare-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-search-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-search-api-openapi.yml
 - filename: theholisticcare-blog-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Blog API
   slug: theholisticcare-blog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-blog-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-blog-api-openapi.yml
 - filename: theholisticcare-categories-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Categories API
   slug: theholisticcare-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-categories-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-categories-api-openapi.yml
 - filename: theholisticcare-glossary-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Glossary API
   slug: theholisticcare-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-glossary-api-openapi.yml
 - filename: theholisticcare-mindfulness-games-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Mindfulness Games API
   slug: theholisticcare-mindfulness-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-mindfulness-games-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-mindfulness-games-api-openapi.yml
 - filename: theholisticcare-panchavikas-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Panchavikas API
   slug: theholisticcare-panchavikas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-panchavikas-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-panchavikas-api-openapi.yml
 - filename: theholisticcare-practices-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Practices API
   slug: theholisticcare-practices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-practices-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-practices-api-openapi.yml
 - filename: theholisticcare-whitepapers-api-openapi.yml
   format: yaml
   label: The Holistic Care — THC Open Mindfulness API Whitepapers API
   slug: theholisticcare-whitepapers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/openapi/theholisticcare-whitepapers-api-openapi.yml
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-whitepapers-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -92,7 +98,7 @@ source_yaml: "generated: '2026-10-05'\nmethod: generated\nsource: openapi/thehol
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mindfulness-games\n  method: get\n  operationId: getV1MindfulnessGames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mindfulness-games/{slug}\n  method: get\n  operationId: getV1MindfulnessGamesBySlug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/panchavikas/resources\n  method: get\n  operationId: getV1PanchavikasResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/practices\n\
   \  method: get\n  operationId: getV1Practices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/practices/{slug}\n  method: get\n  operationId: getV1PracticesBySlug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/resources\n  method: get\n  operationId: getV1Resources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/search\n  method: get\n  operationId: getV1Search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/whitepapers\n  method: get\n  operationId: getV1Whitepapers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/whitepapers/{slug}\n  method: get\n  operationId: getV1WhitepapersBySlug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/theholisticcare/refs/heads/main/agentic-access/theholisticcare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/theholisticcare/agentic-access/theholisticcare-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Mindfulness

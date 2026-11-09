@@ -9,43 +9,43 @@ api_specs:
   label: Veryfi Any Documents API
   slug: veryfi-any-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-any-documents-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-any-documents-api-openapi.yml
 - filename: veryfi-bank-statements-api-openapi.yml
   format: yaml
   label: Veryfi Bank Statements API
   slug: veryfi-bank-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-bank-statements-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-bank-statements-api-openapi.yml
 - filename: veryfi-checks-api-openapi.yml
   format: yaml
   label: Veryfi Checks API
   slug: veryfi-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-checks-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-checks-api-openapi.yml
 - filename: veryfi-classification-api-openapi.yml
   format: yaml
   label: Veryfi Classification API
   slug: veryfi-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-classification-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-classification-api-openapi.yml
 - filename: veryfi-documents-api-openapi.yml
   format: yaml
   label: Veryfi Documents API
   slug: veryfi-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-documents-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-documents-api-openapi.yml
 - filename: veryfi-w-2-forms-api-openapi.yml
   format: yaml
   label: Veryfi W-2 Forms API
   slug: veryfi-w-2-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-w-2-forms-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-w-2-forms-api-openapi.yml
 - filename: veryfi-w-9-forms-api-openapi.yml
   format: yaml
   label: Veryfi W-9 Forms API
   slug: veryfi-w-9-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/openapi/veryfi-w-9-forms-api-openapi.yml
+  url: https://artifacts.apis.io/veryfi/openapi/veryfi-w-9-forms-api-openapi.yml
 consequence_counts:
   read: 12
   write: 14
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/veryfi
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/w9s/{documentId}\n  method: get\n  operationId: getW9\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/w9s/{documentId}\n  method: delete\n  operationId: deleteW9\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/any-documents\n  method: post\n  operationId: processAnyDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /partner/any-documents\n  method: get\n  operationId: listAnyDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/any-documents/{documentId}\n  method: get\n  operationId: getAnyDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/any-documents/{documentId}\n  method: delete\n  operationId: deleteAnyDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/classify\n  method: post\n  operationId: classifyDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/agentic-access/veryfi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/veryfi/agentic-access/veryfi-agentic-access.yml
 summary_line: 26 operations · 14 acting
 tags:
 - Artificial Intelligence

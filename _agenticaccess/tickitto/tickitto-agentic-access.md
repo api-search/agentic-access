@@ -9,49 +9,49 @@ api_specs:
   label: Tickitto Authentication API
   slug: tickitto-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tickitto/openapi/tickitto-authentication-api-openapi.yml
 - filename: tickitto-availability-api-openapi.yml
   format: yaml
   label: Tickitto Availability API
   slug: tickitto-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-availability-api-openapi.yml
+  url: https://artifacts.apis.io/tickitto/openapi/tickitto-availability-api-openapi.yml
 - filename: tickitto-basket-api-openapi.yml
   format: yaml
   label: Tickitto Basket API
   slug: tickitto-basket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-basket-api-openapi.yml
+  url: https://artifacts.apis.io/tickitto/openapi/tickitto-basket-api-openapi.yml
 - filename: tickitto-events-api-openapi.yml
   format: yaml
   label: Tickitto Events API
   slug: tickitto-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-events-api-openapi.yml
+  url: https://artifacts.apis.io/tickitto/openapi/tickitto-events-api-openapi.yml
 - filename: tickitto-metadata-api-openapi.yml
   format: yaml
   label: Tickitto Metadata API
   slug: tickitto-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/tickitto/openapi/tickitto-metadata-api-openapi.yml
 - filename: tickitto-search-api-openapi.yml
   format: yaml
   label: Tickitto Search API
   slug: tickitto-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-search-api-openapi.yml
+  url: https://artifacts.apis.io/tickitto/openapi/tickitto-search-api-openapi.yml
 - filename: tickitto-system-status-api-openapi.yml
   format: yaml
   label: Tickitto System Status API
   slug: tickitto-system-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-system-status-api-openapi.yml
+  url: https://artifacts.apis.io/tickitto/openapi/tickitto-system-status-api-openapi.yml
 - filename: tickitto-webhooks-api-openapi.yml
   format: yaml
   label: Tickitto Webhooks API
   slug: tickitto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/openapi/tickitto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tickitto/openapi/tickitto-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/tickit
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/basket/stripe_object\n  method: post\n  operationId: create_stripe_object\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/basket/careem_pay_object\n  method: post\n  operationId: create_careem_pay_object\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /api/basket/intele_commission\n  method: get\n  operationId: intele_commission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks/vivid-file-push\n  method: post\n  operationId: process_file_endpoint_api_webhooks_vivid_file_push_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/prio-order-update\n  method: post\n  operationId: update_order_api_webhooks_prio_order_update_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/status\n  method: get\n  operationId: get_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/agentic-access/tickitto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tickitto/agentic-access/tickitto-agentic-access.yml
 summary_line: 22 operations · 12 acting
 tags:
 - Company

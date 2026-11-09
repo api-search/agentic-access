@@ -9,31 +9,31 @@ api_specs:
   label: Duck Creek Billing API
   slug: duck-creek-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-billing-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-billing-api-openapi.yml
 - filename: duck-creek-claims-api-openapi.yml
   format: yaml
   label: Duck Creek Claims API
   slug: duck-creek-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-claims-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-claims-api-openapi.yml
 - filename: duck-creek-policies-api-openapi.yml
   format: yaml
   label: duck-creek Policies API
   slug: duck-creek-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policies-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-policies-api-openapi.yml
 - filename: duck-creek-products-api-openapi.yml
   format: yaml
   label: duck-creek Products API
   slug: duck-creek-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-products-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-products-api-openapi.yml
 - filename: duck-creek-quotes-api-openapi.yml
   format: yaml
   label: duck-creek Quotes API
   slug: duck-creek-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-quotes-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/duck-c
   - path: /policies/{policyId}/renew\n  method: post\n  operationId: renewPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claims\n  method: get\n  operationId: listClaims\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /claims\n  method: post\n  operationId: createClaim\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claims/{claimId}\n  method: get\n  operationId: getClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/accounts\n  method: get\n  operationId: listBillingAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/accounts/{accountId}/invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/agentic-access/duck-creek-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/duck-creek/agentic-access/duck-creek-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Insurance

@@ -9,61 +9,61 @@ api_specs:
   label: Charles Schwab Accounts API
   slug: charles-schwab-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-accounts-api-openapi.yml
 - filename: charles-schwab-instruments-api-openapi.yml
   format: yaml
   label: Charles Schwab Instruments API
   slug: charles-schwab-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-instruments-api-openapi.yml
 - filename: charles-schwab-market-hours-api-openapi.yml
   format: yaml
   label: Charles Schwab Market Hours API
   slug: charles-schwab-market-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-market-hours-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-market-hours-api-openapi.yml
 - filename: charles-schwab-movers-api-openapi.yml
   format: yaml
   label: Charles Schwab Movers API
   slug: charles-schwab-movers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-movers-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-movers-api-openapi.yml
 - filename: charles-schwab-options-api-openapi.yml
   format: yaml
   label: Charles Schwab Options API
   slug: charles-schwab-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-options-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-options-api-openapi.yml
 - filename: charles-schwab-orders-api-openapi.yml
   format: yaml
   label: Charles Schwab Orders API
   slug: charles-schwab-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-orders-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-orders-api-openapi.yml
 - filename: charles-schwab-price-history-api-openapi.yml
   format: yaml
   label: Charles Schwab Price History API
   slug: charles-schwab-price-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-price-history-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-price-history-api-openapi.yml
 - filename: charles-schwab-quotes-api-openapi.yml
   format: yaml
   label: Charles Schwab Quotes API
   slug: charles-schwab-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-quotes-api-openapi.yml
 - filename: charles-schwab-transactions-api-openapi.yml
   format: yaml
   label: Charles Schwab Transactions API
   slug: charles-schwab-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-transactions-api-openapi.yml
 - filename: charles-schwab-user-preferences-api-openapi.yml
   format: yaml
   label: Charles Schwab User Preferences API
   slug: charles-schwab-user-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/openapi/charles-schwab-user-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/charles-schwab/openapi/charles-schwab-user-preferences-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/charle
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{market_id}\n  method: get\n  operationId: getMarketHoursForMarket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instruments\n  method: get\n  operationId: searchInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/accountNumbers\n  method: get\n  operationId: listAccountNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}\n\
   \  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}/orders\n  method: get\n  operationId: listOrdersByAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}/orders\n  method: post\n  operationId: placeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountNumber}/orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}/orders/{orderId}\n  method: delete\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountNumber}/transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userPreference\n  method: get\n  operationId: getUserPreference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/agentic-access/charles-schwab-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/charles-schwab/agentic-access/charles-schwab-agentic-access.yml
 summary_line: 18 operations · 2 acting
 tags:
 - Account
@@ -113,9 +113,10 @@ tags:
 - Financial Services
 - Investing
 - Market Data
-- Authentication
+- OAuth
 - Order
 - Trading
 - Fortune 500
 - Wealth Management
+- Authentication
 ---

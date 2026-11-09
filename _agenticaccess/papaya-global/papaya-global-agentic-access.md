@@ -9,31 +9,31 @@ api_specs:
   label: Papaya Global Authentication API
   slug: papaya-global-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/papaya-global/openapi/papaya-global-authentication-api-openapi.yml
 - filename: papaya-global-beneficiaries-api-openapi.yml
   format: yaml
   label: Papaya Global Beneficiaries API
   slug: papaya-global-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/papaya-global/openapi/papaya-global-beneficiaries-api-openapi.yml
 - filename: papaya-global-groups-api-openapi.yml
   format: yaml
   label: Papaya Global Groups API
   slug: papaya-global-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-groups-api-openapi.yml
+  url: https://artifacts.apis.io/papaya-global/openapi/papaya-global-groups-api-openapi.yml
 - filename: papaya-global-payments-api-openapi.yml
   format: yaml
   label: Papaya Global Payments API
   slug: papaya-global-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-payments-api-openapi.yml
+  url: https://artifacts.apis.io/papaya-global/openapi/papaya-global-payments-api-openapi.yml
 - filename: papaya-global-wallets-api-openapi.yml
   format: yaml
   label: Papaya Global Wallets API
   slug: papaya-global-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/papaya-global/openapi/papaya-global-wallets-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 12
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/papaya
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/payments/approve\n  method: patch\n  operationId: approvePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/payments/approve\n  method: delete\n  operationId: unapprovePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/payments/{id}/send\n  method: post\n  operationId: executePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/payments/cancel\n  method: post\n  operationId: cancelPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/payments/import\n  method: post\n  operationId: importPayments\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/payments/import/{job_id}\n  method: get\n  operationId: getPaymentImportStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/agentic-access/papaya-global-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/papaya-global/agentic-access/papaya-global-agentic-access.yml
 summary_line: 32 operations · 20 acting
 tags:
 - Payroll

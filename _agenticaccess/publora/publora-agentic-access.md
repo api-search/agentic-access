@@ -9,49 +9,49 @@ api_specs:
   label: Publora Connections API
   slug: publora-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-connections-api-openapi.yml
+  url: https://artifacts.apis.io/publora/openapi/publora-connections-api-openapi.yml
 - filename: publora-linkedin-analytics-api-openapi.yml
   format: yaml
   label: Publora LinkedIn Analytics API
   slug: publora-linkedin-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-linkedin-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/publora/openapi/publora-linkedin-analytics-api-openapi.yml
 - filename: publora-logs-api-openapi.yml
   format: yaml
   label: Publora Logs API
   slug: publora-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-logs-api-openapi.yml
+  url: https://artifacts.apis.io/publora/openapi/publora-logs-api-openapi.yml
 - filename: publora-media-api-openapi.yml
   format: yaml
   label: Publora Media API
   slug: publora-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-media-api-openapi.yml
+  url: https://artifacts.apis.io/publora/openapi/publora-media-api-openapi.yml
 - filename: publora-platform-analytics-api-openapi.yml
   format: yaml
   label: Publora Platform Analytics API
   slug: publora-platform-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-platform-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/publora/openapi/publora-platform-analytics-api-openapi.yml
 - filename: publora-posts-api-openapi.yml
   format: yaml
   label: Publora Posts API
   slug: publora-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-posts-api-openapi.yml
+  url: https://artifacts.apis.io/publora/openapi/publora-posts-api-openapi.yml
 - filename: publora-webhooks-api-openapi.yml
   format: yaml
   label: Publora Webhooks API
   slug: publora-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/publora/openapi/publora-webhooks-api-openapi.yml
 - filename: publora-workspace-api-openapi.yml
   format: yaml
   label: Publora Workspace API
   slug: publora-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/openapi/publora-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/publora/openapi/publora-workspace-api-openapi.yml
 consequence_counts:
   read: 14
   write: 22
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/publor
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/regenerate-secret\n  method: post\n  operationId: regenerateWebhookSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/users\n\
   \  method: get\n  operationId: getManagedUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace/users\n  method: post\n  operationId: createManagedUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/users/attach\n  method: post\n  operationId: attachManagedUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/users/{userId}\n  method: delete\n  operationId: detachManagedUser\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/users/{userId}/api-key\n  method: post\n  operationId: generateManagedUserApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/users/{userId}/connection-url\n  method: post\n  operationId: getConnectionUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/agentic-access/publora-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/publora/agentic-access/publora-agentic-access.yml
 summary_line: 36 operations · 22 acting
 tags:
 - Social Media

@@ -9,193 +9,193 @@ api_specs:
   label: VersusGame Achievements API
   slug: versusgame-achievements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-achievements-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-achievements-api-openapi.yml
 - filename: versusgame-app-api-openapi.yml
   format: yaml
   label: VersusGame App API
   slug: versusgame-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-app-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-app-api-openapi.yml
 - filename: versusgame-assets-api-openapi.yml
   format: yaml
   label: VersusGame Assets API
   slug: versusgame-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-assets-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-assets-api-openapi.yml
 - filename: versusgame-auth-api-openapi.yml
   format: yaml
   label: VersusGame Auth API
   slug: versusgame-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-auth-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-auth-api-openapi.yml
 - filename: versusgame-autogame-api-openapi.yml
   format: yaml
   label: VersusGame Autogame API
   slug: versusgame-autogame-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-autogame-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-autogame-api-openapi.yml
 - filename: versusgame-autogame-article-v2-api-openapi.yml
   format: yaml
   label: VersusGame Autogame/article/v2 API
   slug: versusgame-autogame-article-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-autogame-article-v2-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-autogame-article-v2-api-openapi.yml
 - filename: versusgame-buddy-list-api-openapi.yml
   format: yaml
   label: VersusGame Buddy List API
   slug: versusgame-buddy-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-buddy-list-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-buddy-list-api-openapi.yml
 - filename: versusgame-categories-api-openapi.yml
   format: yaml
   label: VersusGame Categories API
   slug: versusgame-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-categories-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-categories-api-openapi.yml
 - filename: versusgame-creators-api-openapi.yml
   format: yaml
   label: VersusGame Creators API
   slug: versusgame-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-creators-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-creators-api-openapi.yml
 - filename: versusgame-custom-urls-api-openapi.yml
   format: yaml
   label: VersusGame Custom URLS API
   slug: versusgame-custom-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-custom-urls-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-custom-urls-api-openapi.yml
 - filename: versusgame-cuts-api-openapi.yml
   format: yaml
   label: VersusGame Cuts API
   slug: versusgame-cuts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-cuts-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-cuts-api-openapi.yml
 - filename: versusgame-gameplays-api-openapi.yml
   format: yaml
   label: VersusGame Gameplays API
   slug: versusgame-gameplays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-gameplays-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-gameplays-api-openapi.yml
 - filename: versusgame-games-api-openapi.yml
   format: yaml
   label: VersusGame Games API
   slug: versusgame-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-games-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-games-api-openapi.yml
 - filename: versusgame-gameset-plays-api-openapi.yml
   format: yaml
   label: VersusGame Gameset Plays API
   slug: versusgame-gameset-plays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-gameset-plays-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-gameset-plays-api-openapi.yml
 - filename: versusgame-gamesets-api-openapi.yml
   format: yaml
   label: VersusGame Gamesets API
   slug: versusgame-gamesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-gamesets-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-gamesets-api-openapi.yml
 - filename: versusgame-health-api-openapi.yml
   format: yaml
   label: VersusGame Health API
   slug: versusgame-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-health-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-health-api-openapi.yml
 - filename: versusgame-internal-api-openapi.yml
   format: yaml
   label: VersusGame Internal API
   slug: versusgame-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-internal-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-internal-api-openapi.yml
 - filename: versusgame-invite-api-openapi.yml
   format: yaml
   label: VersusGame Invite API
   slug: versusgame-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-invite-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-invite-api-openapi.yml
 - filename: versusgame-keyframes-api-openapi.yml
   format: yaml
   label: VersusGame Keyframes API
   slug: versusgame-keyframes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-keyframes-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-keyframes-api-openapi.yml
 - filename: versusgame-leaderboards-api-openapi.yml
   format: yaml
   label: VersusGame Leaderboards API
   slug: versusgame-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-leaderboards-api-openapi.yml
 - filename: versusgame-ledger-api-openapi.yml
   format: yaml
   label: VersusGame Ledger API
   slug: versusgame-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-ledger-api-openapi.yml
 - filename: versusgame-legal-api-openapi.yml
   format: yaml
   label: VersusGame Legal API
   slug: versusgame-legal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-legal-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-legal-api-openapi.yml
 - filename: versusgame-meter-ads-api-openapi.yml
   format: yaml
   label: VersusGame Meter Ads API
   slug: versusgame-meter-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-meter-ads-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-meter-ads-api-openapi.yml
 - filename: versusgame-notifications-api-openapi.yml
   format: yaml
   label: VersusGame Notifications API
   slug: versusgame-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-notifications-api-openapi.yml
 - filename: versusgame-partner-domain-api-openapi.yml
   format: yaml
   label: VersusGame Partner Domain API
   slug: versusgame-partner-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-partner-domain-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-partner-domain-api-openapi.yml
 - filename: versusgame-payments-api-openapi.yml
   format: yaml
   label: VersusGame Payments API
   slug: versusgame-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-payments-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-payments-api-openapi.yml
 - filename: versusgame-personal-information-api-openapi.yml
   format: yaml
   label: VersusGame Personal Information API
   slug: versusgame-personal-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-personal-information-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-personal-information-api-openapi.yml
 - filename: versusgame-playlists-api-openapi.yml
   format: yaml
   label: VersusGame Playlists API
   slug: versusgame-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-playlists-api-openapi.yml
 - filename: versusgame-products-api-openapi.yml
   format: yaml
   label: VersusGame Products API
   slug: versusgame-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-products-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-products-api-openapi.yml
 - filename: versusgame-profiles-api-openapi.yml
   format: yaml
   label: VersusGame Profiles API
   slug: versusgame-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-profiles-api-openapi.yml
 - filename: versusgame-wallets-api-openapi.yml
   format: yaml
   label: VersusGame Wallets API
   slug: versusgame-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-wallets-api-openapi.yml
 - filename: versusgame-widgets-api-openapi.yml
   format: yaml
   label: VersusGame Widgets API
   slug: versusgame-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/openapi/versusgame-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/versusgame/openapi/versusgame-widgets-api-openapi.yml
 consequence_counts:
   read: 120
   safety-critical: 119
@@ -382,8 +382,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/versus
   - path: /v2/autogame/article/drafts\n  method: get\n  operationId: ArticleControllerV2_listGameDrafts_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/autogame/article/drafts/{draftId}/game\n  method: post\n  operationId: ArticleControllerV2_createGame_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/buddy-list/invitations\n  method: post\n  operationId: BuddyListController_createBuddyListInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/buddy-list/invitations/{shareCode}\n  method: get\n  operationId: BuddyListController_getBuddyListInvitationByShareCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/buddy-list/invitations/{shareCode}/redirect\n  method: get\n  operationId: BuddyListController_getBuddyListInvitationRedirectByShareCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/buddy-list/referrals\n  method: post\n  operationId: BuddyListController_createBuddyListReferral\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/categories\n  method: get\n  operationId: CategoriesController_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/categories\n  method: post\n  operationId: CategoriesAdminController_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/admin/categories\n  method: get\n  operationId: CategoriesAdminController_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/categories/{categoryId}\n\
-  \  method: patch\n  operationId: CategoriesAdminController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/admin/categories/{categoryId}\n  method: get\n  operationId: CategoriesAdminController_byId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (75 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/agentic-access/versusgame-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/agentic-access/versusgame-agentic-access.yml
+  \  method: patch\n  operationId: CategoriesAdminController_update\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/admin/categories/{categoryId}\n  method: get\n  operationId: CategoriesAdminController_byId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (75 KB total) ---\n# Full source: https://artifacts.apis.io/versusgame/agentic-access/versusgame-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/versusgame/agentic-access/versusgame-agentic-access.yml
 summary_line: 239 operations · 119 acting · 119 human-in-the-loop
 tags:
 - Company

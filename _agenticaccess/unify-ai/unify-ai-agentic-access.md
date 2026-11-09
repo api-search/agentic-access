@@ -9,49 +9,49 @@ api_specs:
   label: Unify Agent API
   slug: unify-ai-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/openapi/unify-ai-agent-api-openapi.yml
+  url: https://artifacts.apis.io/unify-ai/openapi/unify-ai-agent-api-openapi.yml
 - filename: unify-ai-assistants-api-openapi.yml
   format: yaml
   label: Unify Assistants API
   slug: unify-ai-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/openapi/unify-ai-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/unify-ai/openapi/unify-ai-assistants-api-openapi.yml
 - filename: unify-ai-contexts-api-openapi.yml
   format: yaml
   label: Unify Contexts API
   slug: unify-ai-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/openapi/unify-ai-contexts-api-openapi.yml
+  url: https://artifacts.apis.io/unify-ai/openapi/unify-ai-contexts-api-openapi.yml
 - filename: unify-ai-logs-api-openapi.yml
   format: yaml
   label: Unify Logs API
   slug: unify-ai-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/openapi/unify-ai-logs-api-openapi.yml
+  url: https://artifacts.apis.io/unify-ai/openapi/unify-ai-logs-api-openapi.yml
 - filename: unify-ai-organizations-api-openapi.yml
   format: yaml
   label: Unify Organizations API
   slug: unify-ai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/openapi/unify-ai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/unify-ai/openapi/unify-ai-organizations-api-openapi.yml
 - filename: unify-ai-platform-api-openapi.yml
   format: yaml
   label: Unify Platform API
   slug: unify-ai-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/openapi/unify-ai-platform-api-openapi.yml
+  url: https://artifacts.apis.io/unify-ai/openapi/unify-ai-platform-api-openapi.yml
 - filename: unify-ai-projects-api-openapi.yml
   format: yaml
   label: Unify Projects API
   slug: unify-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/openapi/unify-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/unify-ai/openapi/unify-ai-projects-api-openapi.yml
 - filename: unify-ai-spaces-api-openapi.yml
   format: yaml
   label: Unify Spaces API
   slug: unify-ai-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/openapi/unify-ai-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/unify-ai/openapi/unify-ai-spaces-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/unify-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project/{name}/commits\n  method: get\n  operationId: getProjectCommits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces\n  method: post\n  operationId: createSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces\n  method: get\n  operationId: listSpaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}\n  method: patch\n  operationId: updateSpace\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{space_id}\n  method: delete\n  operationId: deleteSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{space_id}/members\n  method: post\n  operationId: addSpaceMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{space_id}/members\n  method: get\n  operationId:\
   \ listSpaceMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/members/{assistant_id}\n  method: delete\n  operationId: removeSpaceMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assistants/{assistant_id}/spaces\n  method: get\n  operationId: listSpacesForAssistant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/agentic-access/unify-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unify-ai/agentic-access/unify-ai-agentic-access.yml
 summary_line: 48 operations · 32 acting
 tags:
 - LLM

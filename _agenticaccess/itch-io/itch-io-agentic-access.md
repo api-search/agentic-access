@@ -9,67 +9,67 @@ api_specs:
   label: Itch.io Auth API
   slug: itch-io-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-auth-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-auth-api-openapi.yml
 - filename: itch-io-builds-api-openapi.yml
   format: yaml
   label: Itch.io Builds API
   slug: itch-io-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-builds-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-builds-api-openapi.yml
 - filename: itch-io-bundles-api-openapi.yml
   format: yaml
   label: Itch.io Bundles API
   slug: itch-io-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-bundles-api-openapi.yml
 - filename: itch-io-collections-api-openapi.yml
   format: yaml
   label: Itch.io Collections API
   slug: itch-io-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-collections-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-collections-api-openapi.yml
 - filename: itch-io-downloads-api-openapi.yml
   format: yaml
   label: Itch.io Downloads API
   slug: itch-io-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-downloads-api-openapi.yml
 - filename: itch-io-games-api-openapi.yml
   format: yaml
   label: Itch.io Games API
   slug: itch-io-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-games-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-games-api-openapi.yml
 - filename: itch-io-profile-api-openapi.yml
   format: yaml
   label: Itch.io Profile API
   slug: itch-io-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-profile-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-profile-api-openapi.yml
 - filename: itch-io-search-api-openapi.yml
   format: yaml
   label: Itch.io Search API
   slug: itch-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-search-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-search-api-openapi.yml
 - filename: itch-io-uploads-api-openapi.yml
   format: yaml
   label: Itch.io Uploads API
   slug: itch-io-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-uploads-api-openapi.yml
 - filename: itch-io-users-api-openapi.yml
   format: yaml
   label: Itch.io Users API
   slug: itch-io-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-users-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-users-api-openapi.yml
 - filename: itch-io-wharf-api-openapi.yml
   format: yaml
   label: Itch.io Wharf API
   slug: itch-io-wharf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/openapi/itch-io-wharf-api-openapi.yml
+  url: https://artifacts.apis.io/itch-io/openapi/itch-io-wharf-api-openapi.yml
 consequence_counts:
   read: 26
   write: 10
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wharf/builds\n  method: post\n  operationId: createBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wharf/builds/{buildId}\n  method: get\n  operationId: getWharfBuild\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wharf/builds/{buildId}/files\n  method: get\n  operationId: listBuildFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wharf/builds/{buildId}/files\n  method: post\n  operationId: createBuildFile\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wharf/builds/{buildId}/files/{fileId}\n  method: post\n  operationId: finalizeBuildFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wharf/builds/{buildId}/events\n  method: get\n  operationId: listBuildEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wharf/builds/{buildId}/events\n  method: post\n  operationId: createBuildEvent\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wharf/builds/{buildId}/failures\n  method: post\n  operationId: createBuildFailure\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wharf/builds/{buildId}/failures/rediff\n  method: post\n  operationId: createRediffBuildFailure\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/agentic-access/itch-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/itch-io/agentic-access/itch-io-agentic-access.yml
 summary_line: 36 operations · 10 acting
 tags:
 - Games

@@ -9,31 +9,31 @@ api_specs:
   label: crob.at Account API
   slug: crob-at-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-account-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-account-api-openapi.yml
 - filename: crob-at-feedback-api-openapi.yml
   format: yaml
   label: crob.at Feedback API
   slug: crob-at-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-feedback-api-openapi.yml
 - filename: crob-at-generation-api-openapi.yml
   format: yaml
   label: crob.at Generation API
   slug: crob-at-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-generation-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-generation-api-openapi.yml
 - filename: crob-at-reference-api-openapi.yml
   format: yaml
   label: crob.at Reference API
   slug: crob-at-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-reference-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-reference-api-openapi.yml
 - filename: crob-at-teams-api-openapi.yml
   format: yaml
   label: crob.at Teams API
   slug: crob-at-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-teams-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-teams-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: generated\nsource: openapi/crob-a
   \  operations: 10\n  by_action_class:\n    connected: 8\n    acting: 2\n  by_consequence:\n    read: 6\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n  - path: /api/team/{slug}\n    method: get\n    operationId: getTeamBySlug\n    x-agentic-access: {action-class: connected, consequence: read, subject: none}\n  - path: /api/team/{slug}/{teamSlug}\n    method: get\n    operationId: getTeamInPasteBySlug\n    x-agentic-access: {action-class: connected, consequence: read, subject: none}\n  - path: /api/team\n    method: post\n    operationId: createTeam\n    x-agentic-access:\n      action-class: connected\n      consequence: write\n      subject: none\n      note: Creates a permanent public/unlisted page with no API reversal path; rate-limited 500/hour.\n  - path: /api/random-team/{format}\n    method: get\n    operationId: generateRandomTeam\n    x-agentic-access: {action-class: connected, consequence: read, subject: none}\n  - path: /api/random-team/{format}/save\n    method:\
   \ post\n    operationId: saveRandomTeam\n    x-agentic-access:\n      action-class: connected\n      consequence: write\n      subject: none\n      note: Idempotent via idempotencyKey; creates a permanent unlisted URL; rate-limited 30/hour.\n  - path: /api/samples/{tier}\n    method: get\n    operationId: listSampleTeams\n    x-agentic-access: {action-class: connected, consequence: read, subject: none}\n  - path: /api/type-chart-data\n    method: get\n    operationId: getTypeChartData\n    x-agentic-access: {action-class: connected, consequence: read, subject: none}\n  - path: /api/me\n    method: get\n    operationId: getCurrentUser\n    x-agentic-access: {action-class: acting, consequence: read, subject: session-user}\n  - path: /api/feedback\n    method: post\n    operationId: sendFeedback\n    x-agentic-access:\n      action-class: connected\n      consequence: write\n      subject: none\n      note: Cannot be recalled; rate-limited 5/hour — agents should not use it for automated traffic.\n\
   \  - path: /api/showdown/assertion\n    method: post\n    operationId: createShowdownAssertion\n    x-agentic-access:\n      action-class: acting\n      consequence: write\n      subject: session-user\n      note: Auth broker for Pokemon Showdown login; same-origin session only — not an agent surface.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/agentic-access/crob-at-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crob-at/agentic-access/crob-at-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Gaming

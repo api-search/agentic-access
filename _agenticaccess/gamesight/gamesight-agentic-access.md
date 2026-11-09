@@ -9,13 +9,13 @@ api_specs:
   label: Gamesight Measurement API
   slug: gamesight-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-measurement-api-openapi.yml
+  url: https://artifacts.apis.io/gamesight/openapi/gamesight-measurement-api-openapi.yml
 - filename: gamesight-reporting-api-openapi.yml
   format: yaml
   label: Gamesight Reporting API
   slug: gamesight-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/openapi/gamesight-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/gamesight/openapi/gamesight-reporting-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/gamesi
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reporting/goals\n  method: post\n  operationId: reportinggoals\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /games\n  method: get\n  operationId: games\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trackers\n  method: get\n  operationId: trackers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trackers\n  method: post\n  operationId:\
   \ trackers-1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /goal_types\n  method: get\n  operationId: goal_types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit_logs\n  method: get\n  operationId: audit_logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/users/events\n  method: get\n  operationId: reportingusersevents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/users/touchpoints\n  method: get\n  operationId:\
   \ reportinguserstouchpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/users/remove\n  method: delete\n  operationId: reportingusersremove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/agentic-access/gamesight-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gamesight/agentic-access/gamesight-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Company

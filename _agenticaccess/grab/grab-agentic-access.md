@@ -9,19 +9,19 @@ api_specs:
   label: Grab GrabExpress API
   slug: grab-grabexpress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabexpress-api-openapi.yml
+  url: https://artifacts.apis.io/grab/openapi/grab-grabexpress-api-openapi.yml
 - filename: grab-grabid-api-openapi.yml
   format: yaml
   label: Grab GrabID API
   slug: grab-grabid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabid-api-openapi.yml
+  url: https://artifacts.apis.io/grab/openapi/grab-grabid-api-openapi.yml
 - filename: grab-grabpay-api-openapi.yml
   format: yaml
   label: Grab GrabPay API
   slug: grab-grabpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabpay-api-openapi.yml
+  url: https://artifacts.apis.io/grab/openapi/grab-grabpay-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 5
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/grab-g
   \  operationId: getOpenidConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grabid/v1/oauth2/authorize\n  method: get\n  operationId: authorize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grabid/v1/oauth2/token\n  method: post\n  operationId: token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /grabid/v1/oauth2/token-info\n  method: post\n  operationId: tokenInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /grabpay/partner/v2/charge/init\n  method: post\n  operationId: chargeInit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /grabpay/partner/v2/charge/complete\n  method: post\n  operationId: chargeComplete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /grabpay/partner/v2/charge/{partnerTxID}\n\
   \  method: get\n  operationId: getChargeStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grabpay/partner/v2/refund\n  method: post\n  operationId: refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/agentic-access/grab-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/grab/agentic-access/grab-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Ride Hailing
@@ -85,6 +85,7 @@ tags:
 - Identity
 - Loyalty
 - QR Payments
-- Authentication
+- OAuth
 - Mobility
+- Authentication
 ---

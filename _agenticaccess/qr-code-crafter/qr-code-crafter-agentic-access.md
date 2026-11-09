@@ -9,31 +9,31 @@ api_specs:
   label: QR Code Crafter Dynamic Qr API
   slug: qr-code-crafter-dynamic-qr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-dynamic-qr-api-openapi.yml
+  url: https://artifacts.apis.io/qr-code-crafter/openapi/qr-code-crafter-dynamic-qr-api-openapi.yml
 - filename: qr-code-crafter-dynamic-qr-vaults-api-openapi.yml
   format: yaml
   label: QR Code Crafter Dynamic Qr Vaults API
   slug: qr-code-crafter-dynamic-qr-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-dynamic-qr-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/qr-code-crafter/openapi/qr-code-crafter-dynamic-qr-vaults-api-openapi.yml
 - filename: qr-code-crafter-netlify-api-openapi.yml
   format: yaml
   label: QR Code Crafter .netlify API
   slug: qr-code-crafter-netlify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-netlify-api-openapi.yml
+  url: https://artifacts.apis.io/qr-code-crafter/openapi/qr-code-crafter-netlify-api-openapi.yml
 - filename: qr-code-crafter-r-api-openapi.yml
   format: yaml
   label: QR Code Crafter R API
   slug: qr-code-crafter-r-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-r-api-openapi.yml
+  url: https://artifacts.apis.io/qr-code-crafter/openapi/qr-code-crafter-r-api-openapi.yml
 - filename: qr-code-crafter-send-feedback-api-openapi.yml
   format: yaml
   label: QR Code Crafter Send Feedback API
   slug: qr-code-crafter-send-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/openapi/qr-code-crafter-send-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/qr-code-crafter/openapi/qr-code-crafter-send-feedback-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: generated\nsource: openapi/qr-cod
   \ getDynamicQrVault\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/dynamic-qr-vaults/{vaultId}\n  method: patch\n  operationId: updateDynamicQrVault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/dynamic-qr-vaults/{vaultId}\n  method: delete\n  operationId: deleteDynamicQrVault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/dynamic-qr-vaults/{vaultId}/qr\n  method: post\n  operationId: createDynamicQrVaultChild\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/dynamic-qr-vaults/{vaultId}/qr/{slug}\n  method: patch\n  operationId: updateDynamicQrVaultChild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/dynamic-qr-vaults/{vaultId}/qr/{slug}/analytics\n  method: get\n  operationId: getDynamicQrVaultChildAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/dynamic-qr-vaults/{vaultId}/qr/{slug}/analytics\n\
   \  method: delete\n  operationId: deleteDynamicQrVaultChild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /r/{slug}\n  method: get\n  operationId: redirectDynamicQr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /r/{slug}\n  method: head\n  operationId: headDynamicQr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/agentic-access/qr-code-crafter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qr-code-crafter/agentic-access/qr-code-crafter-agentic-access.yml
 summary_line: 19 operations · 13 acting
 tags:
 - QR Codes
@@ -88,6 +88,6 @@ tags:
 - Browser Agents
 - payments (QR)
 - Agent Readiness
-- llms-txt
+- Llms.txt
 - capability tokens
 ---

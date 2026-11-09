@@ -8,37 +8,37 @@ api_specs:
   label: TheSports Competitions API
   slug: thesports-competitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-competitions-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-competitions-api-openapi.yml
 - filename: thesports-matches-api-openapi.yml
   format: yaml
   label: TheSports Matches API
   slug: thesports-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-matches-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-matches-api-openapi.yml
 - filename: thesports-players-api-openapi.yml
   format: yaml
   label: TheSports Players API
   slug: thesports-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-players-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-players-api-openapi.yml
 - filename: thesports-standings-api-openapi.yml
   format: yaml
   label: TheSports Standings API
   slug: thesports-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-standings-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-standings-api-openapi.yml
 - filename: thesports-statistics-api-openapi.yml
   format: yaml
   label: TheSports Statistics API
   slug: thesports-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-statistics-api-openapi.yml
 - filename: thesports-teams-api-openapi.yml
   format: yaml
   label: TheSports Teams API
   slug: thesports-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/openapi/thesports-teams-api-openapi.yml
+  url: https://artifacts.apis.io/thesports/openapi/thesports-teams-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/thespo
   \  method: get\n  operationId: getCompetitionDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/team/list\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/team/additional\n  method: get\n  operationId: getTeamDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/player/list\n  method: get\n  operationId: listPlayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/player/additional\n  method: get\n  operationId: getPlayerDetails\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/match/list\n  method: get\n  operationId: listMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/match/recent\n  method: get\n  operationId: listRecentMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/match/detail\n  method: get\n  operationId: getMatchDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/match/lineup\n  method: get\n  operationId: getMatchLineup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/match/statistics\n\
   \  method: get\n  operationId: getMatchStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/standings/list\n  method: get\n  operationId: getStandings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/agentic-access/thesports-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thesports/agentic-access/thesports-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Sports

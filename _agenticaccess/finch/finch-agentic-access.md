@@ -9,49 +9,49 @@ api_specs:
   label: Finch Connect API
   slug: finch-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-connect-api-openapi.yml
+  url: https://artifacts.apis.io/finch/openapi/finch-connect-api-openapi.yml
 - filename: finch-benefits-api-openapi.yml
   format: yaml
   label: Finch Benefits API
   slug: finch-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/finch/openapi/finch-benefits-api-openapi.yml
 - filename: finch-deductions-api-openapi.yml
   format: yaml
   label: Finch Deductions API
   slug: finch-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/finch/openapi/finch-deductions-api-openapi.yml
 - filename: finch-documents-api-openapi.yml
   format: yaml
   label: Finch Documents API
   slug: finch-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-documents-api-openapi.yml
+  url: https://artifacts.apis.io/finch/openapi/finch-documents-api-openapi.yml
 - filename: finch-management-api-openapi.yml
   format: yaml
   label: Finch Management API
   slug: finch-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-management-api-openapi.yml
+  url: https://artifacts.apis.io/finch/openapi/finch-management-api-openapi.yml
 - filename: finch-organization-api-openapi.yml
   format: yaml
   label: Finch Organization API
   slug: finch-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-organization-api-openapi.yml
+  url: https://artifacts.apis.io/finch/openapi/finch-organization-api-openapi.yml
 - filename: finch-payroll-api-openapi.yml
   format: yaml
   label: Finch Payroll API
   slug: finch-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/finch/openapi/finch-payroll-api-openapi.yml
 - filename: finch-sandbox-api-openapi.yml
   format: yaml
   label: Finch Sandbox API
   slug: finch-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/finch/openapi/finch-sandbox-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2
@@ -80,7 +80,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/finch-auth-api-openapi.yml, openapi/finch-connect-api-openapi.yml, openapi/finch-employer-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    acting: 2\n    connected: 7\n  by_consequence:\n    write: 2\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /auth/token\n  method: post\n  operationId: exchangeAuthCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connect/sessions\n  method: post\n\
   \  operationId: createConnectSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employer/company\n  method: get\n  operationId: getCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employer/directory\n  method: get\n  operationId: listDirectory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employer/individual\n  method: post\n  operationId: getIndividuals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employer/employment\n\
   \  method: post\n  operationId: getEmployment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employer/payment\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employer/pay-statement\n  method: post\n  operationId: getPayStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employer/benefits\n  method: get\n  operationId: listBenefits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/agentic-access/finch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/finch/agentic-access/finch-agentic-access.yml
 summary_line: 9 operations · 2 acting
 tags:
 - Employment

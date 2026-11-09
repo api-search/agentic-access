@@ -9,31 +9,31 @@ api_specs:
   label: Autodesk Construction Cloud Companies API
   slug: autodesk-construction-cloud-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-companies-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-companies-api-openapi.yml
 - filename: autodesk-construction-cloud-issues-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Issues API
   slug: autodesk-construction-cloud-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issues-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-issues-api-openapi.yml
 - filename: autodesk-construction-cloud-projects-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Projects API
   slug: autodesk-construction-cloud-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-projects-api-openapi.yml
 - filename: autodesk-construction-cloud-users-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Users API
   slug: autodesk-construction-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-users-api-openapi.yml
 - filename: autodesk-construction-cloud-issue-types-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Issue Types API
   slug: autodesk-construction-cloud-issue-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issue-types-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-issue-types-api-openapi.yml
 consequence_counts:
   read: 8
   write: 5
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/acc-ad
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /construction/admin/v1/accounts/{accountId}/projects/{projectId}/users\n  method: post\n  operationId: addProjectUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /construction/admin/v1/accounts/{accountId}/users\n  method: get\n  operationId: getAccountUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /construction/admin/v1/accounts/{accountId}/companies\n  method: get\n  operationId: getAccountCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /issues/v2/containers/{containerId}/issues\n  method: get\n  operationId: listIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues/v2/containers/{containerId}/issues\n  method: post\n  operationId: createIssue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues/v2/containers/{containerId}/issues/{issueId}\n  method: get\n  operationId: getIssue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues/v2/containers/{containerId}/issues/{issueId}\n  method: patch\n  operationId: updateIssue\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issues/v2/containers/{containerId}/issue-types\n  method: get\n  operationId: listIssueTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/agentic-access/autodesk-construction-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/autodesk-construction-cloud/agentic-access/autodesk-construction-cloud-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
 - Construction

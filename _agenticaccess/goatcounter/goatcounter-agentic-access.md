@@ -9,55 +9,55 @@ api_specs:
   label: GoatCounter Exports API
   slug: goatcounter-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-exports-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-exports-api-openapi.yml
 - filename: goatcounter-pageviews-api-openapi.yml
   format: yaml
   label: GoatCounter Pageviews API
   slug: goatcounter-pageviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-pageviews-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-pageviews-api-openapi.yml
 - filename: goatcounter-paths-api-openapi.yml
   format: yaml
   label: GoatCounter Paths API
   slug: goatcounter-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-paths-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-paths-api-openapi.yml
 - filename: goatcounter-sites-api-openapi.yml
   format: yaml
   label: GoatCounter Sites API
   slug: goatcounter-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-sites-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-sites-api-openapi.yml
 - filename: goatcounter-statistics-api-openapi.yml
   format: yaml
   label: GoatCounter Statistics API
   slug: goatcounter-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-statistics-api-openapi.yml
 - filename: goatcounter-users-api-openapi.yml
   format: yaml
   label: GoatCounter Users API
   slug: goatcounter-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-users-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-users-api-openapi.yml
 - filename: goatcounter-count-api-openapi.yml
   format: yaml
   label: GoatCounter Count API
   slug: goatcounter-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-count-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-count-api-openapi.yml
 - filename: goatcounter-export-api-openapi.yml
   format: yaml
   label: GoatCounter Export API
   slug: goatcounter-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-export-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-export-api-openapi.yml
 - filename: goatcounter-stats-api-openapi.yml
   format: yaml
   label: GoatCounter Stats API
   slug: goatcounter-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-stats-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-stats-api-openapi.yml
 consequence_counts:
   read: 24
   write: 8
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/goatco
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stats/total\n  method: get\n  operationId: statsTotal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/hits\n  method: get\n  operationId: statsHits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/hits/{path_id}\n  method: get\n  operationId: statsHitsRefs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{page}\n  method: get\n  operationId: statsByPage\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/{page}/{id}\n  method: get\n  operationId: statsByPageDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/stats/hits\n  method: get\n  operationId: GET_api_v0_stats_hits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/stats/hits/{path_id}\n  method: get\n  operationId: GET_api_v0_stats_hits_{path_id}\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/stats/total\n  method: get\n  operationId: GET_api_v0_stats_total\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/stats/{page}\n  method: get\n  operationId: GET_api_v0_stats_{page}\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/stats/{page}/{id}\n  method: get\n  operationId: GET_api_v0_stats_{page}_{id}\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/me\n  method: get\n  operationId: GET_api_v0_me\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/agentic-access/goatcounter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/goatcounter/agentic-access/goatcounter-agentic-access.yml
 summary_line: 32 operations · 8 acting
 tags:
 - Analytics

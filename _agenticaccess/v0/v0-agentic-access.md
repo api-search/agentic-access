@@ -9,139 +9,139 @@ api_specs:
   label: v0 Agent API
   slug: v0-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-agent-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-agent-api-openapi.yml
 - filename: v0-blankproject-api-openapi.yml
   format: yaml
   label: v0 Blank Project API
   slug: v0-blankproject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-blankproject-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-blankproject-api-openapi.yml
 - filename: v0-chats-api-openapi.yml
   format: yaml
   label: v0 Chats API
   slug: v0-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-chats-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-chats-api-openapi.yml
 - filename: v0-chatscreenshots-api-openapi.yml
   format: yaml
   label: v0 Chat Screenshots API
   slug: v0-chatscreenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-chatscreenshots-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-chatscreenshots-api-openapi.yml
 - filename: v0-deployments-api-openapi.yml
   format: yaml
   label: v0 Deployments API
   slug: v0-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-deployments-api-openapi.yml
 - filename: v0-feedback-api-openapi.yml
   format: yaml
   label: v0 Feedback API
   slug: v0-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-feedback-api-openapi.yml
 - filename: v0-git-api-openapi.yml
   format: yaml
   label: v0 Git API
   slug: v0-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-git-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-git-api-openapi.yml
 - filename: v0-hooks-api-openapi.yml
   format: yaml
   label: v0 Hooks API
   slug: v0-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-hooks-api-openapi.yml
 - filename: v0-iap-api-openapi.yml
   format: yaml
   label: v0 Iap API
   slug: v0-iap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-iap-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-iap-api-openapi.yml
 - filename: v0-integrations-api-openapi.yml
   format: yaml
   label: v0 Integrations API
   slug: v0-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-integrations-api-openapi.yml
 - filename: v0-nativeversion-api-openapi.yml
   format: yaml
   label: v0 Native Version API
   slug: v0-nativeversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-nativeversion-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-nativeversion-api-openapi.yml
 - filename: v0-notifications-api-openapi.yml
   format: yaml
   label: v0 Notifications API
   slug: v0-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-notifications-api-openapi.yml
 - filename: v0-plans-api-openapi.yml
   format: yaml
   label: v0 Plans API
   slug: v0-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-plans-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-plans-api-openapi.yml
 - filename: v0-products-api-openapi.yml
   format: yaml
   label: v0 Products API
   slug: v0-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-products-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-products-api-openapi.yml
 - filename: v0-projects-api-openapi.yml
   format: yaml
   label: v0 Projects API
   slug: v0-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-projects-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-projects-api-openapi.yml
 - filename: v0-reports-api-openapi.yml
   format: yaml
   label: v0 Reports API
   slug: v0-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-reports-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-reports-api-openapi.yml
 - filename: v0-search-api-openapi.yml
   format: yaml
   label: v0 Search API
   slug: v0-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-search-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-search-api-openapi.yml
 - filename: v0-terms-api-openapi.yml
   format: yaml
   label: v0 Terms API
   slug: v0-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-terms-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-terms-api-openapi.yml
 - filename: v0-user-api-openapi.yml
   format: yaml
   label: v0 User API
   slug: v0-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-user-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-user-api-openapi.yml
 - filename: v0-magic-link-api-openapi.yml
   format: yaml
   label: v0 Magic Link API
   slug: v0-magic-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-magic-link-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-magic-link-api-openapi.yml
 - filename: v0-mcp-servers-api-openapi.yml
   format: yaml
   label: v0 MCP Servers API
   slug: v0-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-mcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-mcp-servers-api-openapi.yml
 - filename: v0-prompt-templates-api-openapi.yml
   format: yaml
   label: v0 Prompt Templates API
   slug: v0-prompt-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-prompt-templates-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-prompt-templates-api-openapi.yml
 - filename: v0-rate-limits-api-openapi.yml
   format: yaml
   label: v0 Rate Limits API
   slug: v0-rate-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-rate-limits-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-rate-limits-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 61
@@ -241,8 +241,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/v0-pla
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prompt-templates\n  method: get\n  operationId: promptTemplates.find\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/{org}/repos\n  method: get\n  operationId: git.findRepos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/{org}/{repo}\n  method: get\n  operationId: git.{org}.{repo}.find\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/{org}/{repo}/branches\n  method: get\n  operationId: git.findBranches\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/{org}/{repo}/projects\n  method: get\n  operationId: git.findProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/projects\n  method: get\n  operationId: git.projects.find\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/namespaces\n  method: get\n  operationId: git.namespaces.find\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/start-chat\n  method: post\n  operationId: git.startChat.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /blank-project/start-chat\n  method: post\n  operationId: blankProject.startChat.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /git/connect\n  method: post\n  operationId: git.connect.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chats/{chatId}/deployments\n  method: get\n  operationId: chats.findDeployments\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/agentic-access/v0-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/agentic-access/v0-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/v0/agentic-access/v0-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/v0/agentic-access/v0-agentic-access.yml
 summary_line: 119 operations · 58 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

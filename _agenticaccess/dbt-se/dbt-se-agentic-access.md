@@ -9,85 +9,85 @@ api_specs:
   label: DBT Capital Agents API
   slug: dbt-se-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-agents-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-agents-api-openapi.yml
 - filename: dbt-se-banking-api-openapi.yml
   format: yaml
   label: DBT Capital Banking API
   slug: dbt-se-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-banking-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-banking-api-openapi.yml
 - filename: dbt-se-bookkeeping-api-openapi.yml
   format: yaml
   label: DBT Capital Bookkeeping API
   slug: dbt-se-bookkeeping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-bookkeeping-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-bookkeeping-api-openapi.yml
 - filename: dbt-se-documents-api-openapi.yml
   format: yaml
   label: DBT Capital Documents API
   slug: dbt-se-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-documents-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-documents-api-openapi.yml
 - filename: dbt-se-files-api-openapi.yml
   format: yaml
   label: DBT Capital Files API
   slug: dbt-se-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-files-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-files-api-openapi.yml
 - filename: dbt-se-identity-api-openapi.yml
   format: yaml
   label: DBT Capital Identity API
   slug: dbt-se-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-identity-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-identity-api-openapi.yml
 - filename: dbt-se-llm-api-openapi.yml
   format: yaml
   label: DBT Capital LLM API
   slug: dbt-se-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-llm-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-llm-api-openapi.yml
 - filename: dbt-se-notification-api-openapi.yml
   format: yaml
   label: DBT Capital Notification API
   slug: dbt-se-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-notification-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-notification-api-openapi.yml
 - filename: dbt-se-portfolio-api-openapi.yml
   format: yaml
   label: DBT Capital Portfolio API
   slug: dbt-se-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-portfolio-api-openapi.yml
 - filename: dbt-se-prospect-api-openapi.yml
   format: yaml
   label: DBT Capital Prospect API
   slug: dbt-se-prospect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-prospect-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-prospect-api-openapi.yml
 - filename: dbt-se-regulatory-records-api-openapi.yml
   format: yaml
   label: DBT Capital Regulatory Records API
   slug: dbt-se-regulatory-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-regulatory-records-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-regulatory-records-api-openapi.yml
 - filename: dbt-se-uc-api-openapi.yml
   format: yaml
   label: DBT Capital UC API
   slug: dbt-se-uc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-uc-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-uc-api-openapi.yml
 - filename: dbt-se-upload-api-openapi.yml
   format: yaml
   label: DBT Capital Upload API
   slug: dbt-se-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-upload-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-upload-api-openapi.yml
 - filename: dbt-se-workbooks-api-openapi.yml
   format: yaml
   label: DBT Capital Workbooks API
   slug: dbt-se-workbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/openapi/dbt-se-workbooks-api-openapi.yml
+  url: https://artifacts.apis.io/dbt-se/openapi/dbt-se-workbooks-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 191
@@ -201,8 +201,8 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/dbt-se
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/{orgId}/files/sie/{sieFileId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/{orgId}/files/sie/{sieFileId}/download\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/{orgId}/dates/important\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/{orgId}/kpis/net-debt\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/{orgId}/invoke/recalculate-bookkeeping-statistics\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookkeeping/organizations/{orgId}/invoke/fetch-sie-from-consent\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/{orgId}/invoke/fetch-sie-for-fiscal-year\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/accounting/coverages\n  method: post\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/accounting/health/resolved-status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/accounting/summations/table/batch/pl\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/accounting/summations/table/batch/bs\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/accounting/summations/table/group/pl\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/accounting/summations/table/group/pl/by-organization\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookkeeping/organizations/accounting/summations/table/group/bs\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (76 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/agentic-access/dbt-se-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dbt-se/refs/heads/main/agentic-access/dbt-se-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookkeeping/organizations/accounting/summations/table/group/pl/by-organization\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookkeeping/organizations/accounting/summations/table/group/bs\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (76 KB total) ---\n# Full source: https://artifacts.apis.io/dbt-se/agentic-access/dbt-se-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/dbt-se/agentic-access/dbt-se-agentic-access.yml
 summary_line: 306 operations · 115 acting · 2 human-in-the-loop
 tags:
 - Company

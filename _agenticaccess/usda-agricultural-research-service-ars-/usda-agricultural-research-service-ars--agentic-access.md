@@ -8,19 +8,19 @@ api_specs:
   label: USDA Agricultural Research Service (ARS) Datasets API
   slug: usda-agricultural-research-service-ars--datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--datasets-api-openapi.yml
+  url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/openapi/usda-agricultural-research-service-ars--datasets-api-openapi.yml
 - filename: usda-agricultural-research-service-ars--food-search-api-openapi.yml
   format: yaml
   label: USDA Agricultural Research Service (ARS) Food Search API
   slug: usda-agricultural-research-service-ars--food-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--food-search-api-openapi.yml
+  url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/openapi/usda-agricultural-research-service-ars--food-search-api-openapi.yml
 - filename: usda-agricultural-research-service-ars--foods-api-openapi.yml
   format: yaml
   label: USDA Agricultural Research Service (ARS) Foods API
   slug: usda-agricultural-research-service-ars--foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--foods-api-openapi.yml
+  url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/openapi/usda-agricultural-research-service-ars--foods-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/usda-a
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/action/tag_list\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/action/organization_list\n  method: get\n  operationId: listOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/action/datastore_search\n  method: get\n  operationId: searchDatastoreResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foods/search\n  method: get\n  operationId: searchFoodsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /foods/search\n  method: post\n  operationId: searchFoodsPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food/{fdcId}\n  method: get\n  operationId: getFood\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foods\n  method: get\n  operationId: getFoodsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foods\n  method: post\n  operationId: getFoodsPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foods/list\n  method: get\n  operationId: getFoodsListGet\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foods/list\n  method: post\n  operationId: getFoodsListPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/agentic-access/usda-agricultural-research-service-ars--agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/agentic-access/usda-agricultural-research-service-ars--agentic-access.yml
 summary_line: 12 operations
 tags:
 - Federal Government

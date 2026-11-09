@@ -9,7 +9,7 @@ api_specs:
   label: Picked by Agents Research API
   slug: pickedbyagents-research-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pickedbyagents/refs/heads/main/openapi/pickedbyagents-research-api-api-openapi.yml
+  url: https://artifacts.apis.io/pickedbyagents/openapi/pickedbyagents-research-api-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 2
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-10-08'\nmethod: generated\nsource: openapi/picked
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /research-api/studies/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /research-api/studies/{id}/claim\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /research-api/studies/{id}/answer\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /research-api/runs/{id}\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /research-api/runs/{id}/submit\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /research-api/runs/{id}/release\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /research-api/participation\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /research-api/participation/revoke\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pickedbyagents/refs/heads/main/agentic-access/pickedbyagents-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pickedbyagents/agentic-access/pickedbyagents-agentic-access.yml
 summary_line: 42 operations · 26 acting · 2 human-in-the-loop
 tags:
 - Company

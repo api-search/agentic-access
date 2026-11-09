@@ -9,19 +9,19 @@ api_specs:
   label: Helm ChartMuseum API
   slug: helm-chartmuseum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/openapi/helm-chartmuseum-api-openapi.yml
+  url: https://artifacts.apis.io/helm/openapi/helm-chartmuseum-api-openapi.yml
 - filename: helm-charts-api-openapi.yml
   format: yaml
   label: Helm Charts API
   slug: helm-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/openapi/helm-charts-api-openapi.yml
+  url: https://artifacts.apis.io/helm/openapi/helm-charts-api-openapi.yml
 - filename: helm-repository-api-openapi.yml
   format: yaml
   label: Helm Repository API
   slug: helm-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/openapi/helm-repository-api-openapi.yml
+  url: https://artifacts.apis.io/helm/openapi/helm-repository-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/helm-c
   \ path: /charts/{chartName}-{version}.tgz.prov\n  method: get\n  operationId: downloadChartProvenance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/charts\n  method: get\n  operationId: listAllCharts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/charts\n  method: post\n  operationId: uploadChart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/charts/{chartName}\n  method: get\n  operationId: getChartVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/charts/{chartName}/{version}\n  method: get\n  operationId: getChartVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/charts/{chartName}/{version}\n  method: delete\n  operationId: deleteChartVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/prov\n  method: post\n  operationId: uploadProvenance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method:\
   \ get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/agentic-access/helm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/helm/agentic-access/helm-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Helm

@@ -9,67 +9,67 @@ api_specs:
   label: Nayya Benefits API
   slug: nayya-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-benefits-api-openapi.yml
 - filename: nayya-carriers-api-openapi.yml
   format: yaml
   label: Nayya Carriers API
   slug: nayya-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-carriers-api-openapi.yml
 - filename: nayya-connections-api-openapi.yml
   format: yaml
   label: Nayya Connections API
   slug: nayya-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-connections-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-connections-api-openapi.yml
 - filename: nayya-dependents-api-openapi.yml
   format: yaml
   label: Nayya Dependents API
   slug: nayya-dependents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-dependents-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-dependents-api-openapi.yml
 - filename: nayya-employees-api-openapi.yml
   format: yaml
   label: Nayya Employees API
   slug: nayya-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-employees-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-employees-api-openapi.yml
 - filename: nayya-employers-api-openapi.yml
   format: yaml
   label: Nayya Employers API
   slug: nayya-employers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-employers-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-employers-api-openapi.yml
 - filename: nayya-enrollments-api-openapi.yml
   format: yaml
   label: Nayya Enrollments API
   slug: nayya-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-enrollments-api-openapi.yml
 - filename: nayya-recommendations-api-openapi.yml
   format: yaml
   label: Nayya Recommendations API
   slug: nayya-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-recommendations-api-openapi.yml
 - filename: nayya-rule-templates-api-openapi.yml
   format: yaml
   label: Nayya Rule Templates API
   slug: nayya-rule-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-rule-templates-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-rule-templates-api-openapi.yml
 - filename: nayya-snapshots-api-openapi.yml
   format: yaml
   label: Nayya Snapshots API
   slug: nayya-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-snapshots-api-openapi.yml
 - filename: nayya-token-api-openapi.yml
   format: yaml
   label: Nayya Token API
   slug: nayya-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/openapi/nayya-token-api-openapi.yml
+  url: https://artifacts.apis.io/nayya/openapi/nayya-token-api-openapi.yml
 consequence_counts:
   read: 14
   write: 21
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nayya-
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employers/{employerId}/benefits/{benefitId}/benefit-dependencies\n  method: delete\n  operationId: delete-benefit-dependencies-from-benefit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rule_templates\n  method: get\n  operationId: list-templates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers\n  method: get\n  operationId: list-carriers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employers/{employerId}/employees/{employeeId}/snapshot\n\
   \  method: post\n  operationId: create-snapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employers/{employerId}/enrollments\n  method: post\n  operationId: create-enrollments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employers/{employerId}/enrollments\n  method: get\n  operationId: get-paginated-enrollments-for-employee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employers/{employerId}/enrollment\n\
   \  method: put\n  operationId: update-enrollment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employers/{employerId}/enrollment\n  method: delete\n  operationId: delete-enrollment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employers/{employerId}/employees/{employeeId}/recommendations\n  method: get\n  operationId: list-benefit-recommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/agentic-access/nayya-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nayya/agentic-access/nayya-agentic-access.yml
 summary_line: 35 operations · 21 acting
 tags:
 - Company

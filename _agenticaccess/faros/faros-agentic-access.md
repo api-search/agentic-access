@@ -9,37 +9,37 @@ api_specs:
   label: Faros AI Account API
   slug: faros-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-account-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-account-api-openapi.yml
 - filename: faros-events-api-openapi.yml
   format: yaml
   label: Faros AI Events API
   slug: faros-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-events-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-events-api-openapi.yml
 - filename: faros-graphs-api-openapi.yml
   format: yaml
   label: Faros AI Graphs API
   slug: faros-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-graphs-api-openapi.yml
 - filename: faros-ingestion-api-openapi.yml
   format: yaml
   label: Faros AI Ingestion API
   slug: faros-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-ingestion-api-openapi.yml
 - filename: faros-webhooks-api-openapi.yml
   format: yaml
   label: Faros AI Webhooks API
   slug: faros-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-webhooks-api-openapi.yml
 - filename: faros-graph-ql-api-openapi.yml
   format: yaml
   label: Faros AI Graph QL API
   slug: faros-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/openapi/faros-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/faros/openapi/faros-graph-ql-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/faros-
   \ none\n- path: /graphs/{graph}\n  method: get\n  operationId: getGraph\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graphs/{graph}\n  method: put\n  operationId: createOrUpdateGraph\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphs/{graph}\n  method: delete\n  operationId: deleteGraph\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphs/{graph}/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graphs/{graph}/models\n  method: post\n  operationId: writeModelRecords\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphs/{graph}/revisions\n  method: post\n  operationId: createRevision\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}/events\n  method: post\n  operationId: deliverWebhookEvents\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/agentic-access/faros-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/faros/agentic-access/faros-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Engineering Operations

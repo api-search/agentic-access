@@ -8,109 +8,109 @@ api_specs:
   label: ATTOM All Events API
   slug: attomdata-all-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-all-events-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-all-events-api-openapi.yml
 - filename: attomdata-assessment-api-openapi.yml
   format: yaml
   label: ATTOM Assessment API
   slug: attomdata-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-assessment-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-assessment-api-openapi.yml
 - filename: attomdata-avm-api-openapi.yml
   format: yaml
   label: ATTOM AVM API
   slug: attomdata-avm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-avm-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-avm-api-openapi.yml
 - filename: attomdata-boundary-api-openapi.yml
   format: yaml
   label: ATTOM Boundary API
   slug: attomdata-boundary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-boundary-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-boundary-api-openapi.yml
 - filename: attomdata-building-permits-api-openapi.yml
   format: yaml
   label: ATTOM Building Permits API
   slug: attomdata-building-permits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-building-permits-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-building-permits-api-openapi.yml
 - filename: attomdata-community-api-openapi.yml
   format: yaml
   label: ATTOM Community API
   slug: attomdata-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-community-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-community-api-openapi.yml
 - filename: attomdata-hierarchy-api-openapi.yml
   format: yaml
   label: ATTOM Hierarchy API
   slug: attomdata-hierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-hierarchy-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-hierarchy-api-openapi.yml
 - filename: attomdata-home-equity-api-openapi.yml
   format: yaml
   label: ATTOM Home Equity API
   slug: attomdata-home-equity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-home-equity-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-home-equity-api-openapi.yml
 - filename: attomdata-location-api-openapi.yml
   format: yaml
   label: ATTOM Location API
   slug: attomdata-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-location-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-location-api-openapi.yml
 - filename: attomdata-lookup-api-openapi.yml
   format: yaml
   label: ATTOM Lookup API
   slug: attomdata-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-lookup-api-openapi.yml
 - filename: attomdata-parcel-tiles-api-openapi.yml
   format: yaml
   label: ATTOM Parcel Tiles API
   slug: attomdata-parcel-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-parcel-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-parcel-tiles-api-openapi.yml
 - filename: attomdata-poi-categories-api-openapi.yml
   format: yaml
   label: ATTOM POI Categories API
   slug: attomdata-poi-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-poi-categories-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-poi-categories-api-openapi.yml
 - filename: attomdata-poi-search-api-openapi.yml
   format: yaml
   label: ATTOM POI Search API
   slug: attomdata-poi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-poi-search-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-poi-search-api-openapi.yml
 - filename: attomdata-pre-foreclosure-api-openapi.yml
   format: yaml
   label: ATTOM Pre-Foreclosure API
   slug: attomdata-pre-foreclosure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-pre-foreclosure-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-pre-foreclosure-api-openapi.yml
 - filename: attomdata-property-api-openapi.yml
   format: yaml
   label: ATTOM Property API
   slug: attomdata-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-property-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-property-api-openapi.yml
 - filename: attomdata-sale-api-openapi.yml
   format: yaml
   label: ATTOM Sale API
   slug: attomdata-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-sale-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-sale-api-openapi.yml
 - filename: attomdata-sales-trends-api-openapi.yml
   format: yaml
   label: ATTOM Sales Trends API
   slug: attomdata-sales-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-sales-trends-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-sales-trends-api-openapi.yml
 - filename: attomdata-school-api-openapi.yml
   format: yaml
   label: ATTOM School API
   slug: attomdata-school-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/openapi/attomdata-school-api-openapi.yml
+  url: https://artifacts.apis.io/attomdata/openapi/attomdata-school-api-openapi.yml
 consequence_counts:
   read: 47
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/attom-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sale/snapshot\n  method: get\n  operationId: getSaleSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sale/detail\n  method: get\n  operationId: getSaleDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /saleshistory/snapshot\n  method: get\n  operationId: getSalesHistorySnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /saleshistory/detail\n  method: get\n  operationId: getSalesHistoryDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /salescomparables/address/{street}/{citystatezip}\n  method: get\n  operationId: getSalesComparables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction/salestrend\n  method: get\n  operationId: getSalesTrend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /allevents/snapshot\n  method: get\n  operationId: getAllEventsSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /allevents/detail\n  method: get\n  operationId: getAllEventsDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preforeclosure/details\n  method: get\n  operationId: getPreforeclosureDetails\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /school/snapshot\n  method: get\n  operationId: getSchoolSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/agentic-access/attomdata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/attomdata/agentic-access/attomdata-agentic-access.yml
 summary_line: 47 operations
 tags:
 - Real Estate

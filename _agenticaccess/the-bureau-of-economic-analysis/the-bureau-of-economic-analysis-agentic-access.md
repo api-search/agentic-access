@@ -8,31 +8,31 @@ api_specs:
   label: The Bureau of Economic Analysis Industry API
   slug: the-bureau-of-economic-analysis-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-industry-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-industry-api-openapi.yml
 - filename: the-bureau-of-economic-analysis-international-api-openapi.yml
   format: yaml
   label: The Bureau of Economic Analysis International API
   slug: the-bureau-of-economic-analysis-international-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-international-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-international-api-openapi.yml
 - filename: the-bureau-of-economic-analysis-metadata-api-openapi.yml
   format: yaml
   label: The Bureau of Economic Analysis Metadata API
   slug: the-bureau-of-economic-analysis-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-metadata-api-openapi.yml
 - filename: the-bureau-of-economic-analysis-national-accounts-api-openapi.yml
   format: yaml
   label: The Bureau of Economic Analysis National Accounts API
   slug: the-bureau-of-economic-analysis-national-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-national-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-national-accounts-api-openapi.yml
 - filename: the-bureau-of-economic-analysis-regional-api-openapi.yml
   format: yaml
   label: The Bureau of Economic Analysis Regional API
   slug: the-bureau-of-economic-analysis-regional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-regional-api-openapi.yml
+  url: https://artifacts.apis.io/the-bureau-of-economic-analysis/openapi/the-bureau-of-economic-analysis-regional-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/the-bureau-of-economic-analysis-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getDatasetList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parameters\n  method: get\n  operationId: getParameterList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parameter-values\n  method: get\n  operationId: getParameterValues\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nipa-data\n  method: get\n  operationId: getNIPAData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regional-data\n  method: get\n  operationId: getRegionalData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gdp-by-industry-data\n  method: get\n  operationId: getGDPByIndustryData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ita-data\n  method: get\n  operationId: getITAData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /fixed-assets-data\n  method: get\n  operationId: getFixedAssetsData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /input-output-data\n  method: get\n  operationId: getInputOutputData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mne-data\n  method: get\n  operationId: getMNEData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/agentic-access/the-bureau-of-economic-analysis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/the-bureau-of-economic-analysis/agentic-access/the-bureau-of-economic-analysis-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Economics

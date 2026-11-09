@@ -9,25 +9,25 @@ api_specs:
   label: Telr Agreements API
   slug: telr-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/telr/openapi/telr-agreements-api-openapi.yml
 - filename: telr-hosted-payment-page-api-openapi.yml
   format: yaml
   label: Telr Hosted Payment Page API
   slug: telr-hosted-payment-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-hosted-payment-page-api-openapi.yml
+  url: https://artifacts.apis.io/telr/openapi/telr-hosted-payment-page-api-openapi.yml
 - filename: telr-payments-api-api-openapi.yml
   format: yaml
   label: Telr Payments API
   slug: telr-payments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-payments-api-api-openapi.yml
+  url: https://artifacts.apis.io/telr/openapi/telr-payments-api-api-openapi.yml
 - filename: telr-remote-api-openapi.yml
   format: yaml
   label: Telr Remote API
   slug: telr-remote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/openapi/telr-remote-api-openapi.yml
+  url: https://artifacts.apis.io/telr/openapi/telr-remote-api-openapi.yml
 consequence_counts:
   read: 1
   write: 4
@@ -59,7 +59,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/telr-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents - review and bind\n  audience per deployment. Note - these operations move money (card/wallet charges, recurring\n  agreements); default to human-in-the-loop for financial writes. See research/curity/agentic-access/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 4\n    connected: 1\n  by_consequence:\n    write: 4\n    read: 1\n  human_in_the_loop_required: 3\noperations:\n- path: /gateway/order.json\n  method: post\n  operationId: createHostedOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - high-value\n      - abnormal\n    audit: required\n\
   - path: /gateway/remote.json\n  method: post\n  operationId: createRemoteTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - card-data\n      - high-value\n    audit: required\n- path: /gateway/manageagreement.json\n  method: post\n  operationId: manageAgreement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - recurring-billing\n      - money-movement\n    audit: required\n- path: /api/v1/orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ required\n      triggers:\n      - money-movement\n      - high-value\n    audit: required\n- path: /api/v1/orders/{ref}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/agentic-access/telr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/telr/agentic-access/telr-agentic-access.yml
 summary_line: 5 operations · 4 acting · 3 human-in-the-loop
 tags:
 - Payments

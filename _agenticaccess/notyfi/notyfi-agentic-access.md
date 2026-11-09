@@ -9,31 +9,31 @@ api_specs:
   label: Notyfi Account API
   slug: notyfi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-account-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-account-api-openapi.yml
 - filename: notyfi-billing-api-openapi.yml
   format: yaml
   label: Notyfi Billing API
   slug: notyfi-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-billing-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-billing-api-openapi.yml
 - filename: notyfi-keys-api-openapi.yml
   format: yaml
   label: Notyfi Keys API
   slug: notyfi-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-keys-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-keys-api-openapi.yml
 - filename: notyfi-trackers-api-openapi.yml
   format: yaml
   label: Notyfi Trackers API
   slug: notyfi-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-trackers-api-openapi.yml
 - filename: notyfi-webhooks-api-openapi.yml
   format: yaml
   label: Notyfi Webhooks API
   slug: notyfi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/openapi/notyfi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/notyfi/openapi/notyfi-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 8
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/notyfi
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/account/notification-emails/{recipient_id}\n  method: patch\n  operationId: update_notification_email_api_v1_account_notification_emails__recipient_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/account/notification-emails/{recipient_id}\n  method: delete\n  operationId: delete_notification_email_api_v1_account_notification_emails__recipient_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v1/billing\n  method: get\n  operationId: billing_status_api_v1_billing_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/billing/checkout\n  method: post\n  operationId: billing_checkout_api_v1_billing_checkout_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/billing/portal\n  method: post\n  operationId: billing_portal_api_v1_billing_portal_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/agentic-access/notyfi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/notyfi/agentic-access/notyfi-agentic-access.yml
 summary_line: 26 operations · 18 acting · 3 human-in-the-loop
 tags:
 - Company

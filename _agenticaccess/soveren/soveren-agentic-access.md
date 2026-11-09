@@ -8,37 +8,37 @@ api_specs:
   label: Soveren Assets API
   slug: soveren-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-assets-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-assets-api-openapi.yml
 - filename: soveren-data-types-api-openapi.yml
   format: yaml
   label: Soveren Data Types API
   slug: soveren-data-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-data-types-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-data-types-api-openapi.yml
 - filename: soveren-endpoints-api-openapi.yml
   format: yaml
   label: Soveren Endpoints API
   slug: soveren-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-endpoints-api-openapi.yml
 - filename: soveren-kafka-api-openapi.yml
   format: yaml
   label: Soveren Kafka API
   slug: soveren-kafka-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-kafka-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-kafka-api-openapi.yml
 - filename: soveren-s3-api-openapi.yml
   format: yaml
   label: Soveren S3 API
   slug: soveren-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-s3-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-s3-api-openapi.yml
 - filename: soveren-sql-db-api-openapi.yml
   format: yaml
   label: Soveren SQL DB API
   slug: soveren-sql-db-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-sql-db-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-sql-db-api-openapi.yml
 consequence_counts:
   read: 18
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sovere
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/s3/buckets\n  method: get\n  operationId: list-s3-buckets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/s3/buckets/{id}\n  method: get\n  operationId: get-s3-bucket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/kafka/instances\n  method: get\n  operationId: list-kafka-instances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/kafka/instances/{id}\n  method: get\n  operationId: get-kafka-instance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/kafka/topics\n\
   \  method: get\n  operationId: list-kafka-topics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/kafka/topics/{id}\n  method: get\n  operationId: get-kafka-topic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sql-db/instances\n  method: get\n  operationId: list-sqldb-instances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sql-db/instances/{id}\n  method: get\n  operationId: get-sqldb-instance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sql-db/databases\n  method: get\n  operationId: list-sqldb-databases\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sql-db/databases/{id}\n  method: get\n  operationId: get-sqldb-database\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sql-db/databases/{id}/tables\n  method: get\n  operationId: list-sqldb-tables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/agentic-access/soveren-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/soveren/agentic-access/soveren-agentic-access.yml
 summary_line: 18 operations
 tags:
 - Company

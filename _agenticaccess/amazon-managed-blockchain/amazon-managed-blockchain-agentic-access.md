@@ -9,25 +9,25 @@ api_specs:
   label: Amazon Managed Blockchain Accessors API
   slug: amazon-managed-blockchain-accessors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-accessors-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-blockchain/openapi/amazon-managed-blockchain-accessors-api-openapi.yml
 - filename: amazon-managed-blockchain-invitations-api-openapi.yml
   format: yaml
   label: Amazon Managed Blockchain Invitations API
   slug: amazon-managed-blockchain-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-blockchain/openapi/amazon-managed-blockchain-invitations-api-openapi.yml
 - filename: amazon-managed-blockchain-networks-api-openapi.yml
   format: yaml
   label: Amazon Managed Blockchain Networks API
   slug: amazon-managed-blockchain-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-networks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-blockchain/openapi/amazon-managed-blockchain-networks-api-openapi.yml
 - filename: amazon-managed-blockchain-tags-api-openapi.yml
   format: yaml
   label: Amazon Managed Blockchain Tags API
   slug: amazon-managed-blockchain-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-blockchain/openapi/amazon-managed-blockchain-tags-api-openapi.yml
 consequence_counts:
   read: 13
   write: 14
@@ -62,9 +62,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ get\n  operationId: GetNetwork\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/proposals/{proposalId}\n  method: get\n  operationId: GetProposal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invitations\n  method: get\n  operationId: ListInvitations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/proposals/{proposalId}/votes\n  method: get\n  operationId: ListProposalVotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/proposals/{proposalId}/votes\n  method: post\n  operationId: VoteOnProposal\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invitations/{invitationId}\n  method: delete\n  operationId: RejectInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/agentic-access/amazon-managed-blockchain-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-managed-blockchain/agentic-access/amazon-managed-blockchain-agentic-access.yml
 summary_line: 27 operations · 14 acting
 tags:
+- Amazon Web Services
 - Blockchain
 - Distributed Ledger
 - Hyperledger Fabric

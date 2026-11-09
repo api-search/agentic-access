@@ -9,151 +9,151 @@ api_specs:
   label: One Codex Account API
   slug: one-codex-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-account-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-account-api-openapi.yml
 - filename: one-codex-alignments-api-openapi.yml
   format: yaml
   label: One Codex Alignments API
   slug: one-codex-alignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-alignments-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-alignments-api-openapi.yml
 - filename: one-codex-analyses-api-openapi.yml
   format: yaml
   label: One Codex Analyses API
   slug: one-codex-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-analyses-api-openapi.yml
 - filename: one-codex-annotation-sets-api-openapi.yml
   format: yaml
   label: One Codex Annotation Sets API
   slug: one-codex-annotation-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-annotation-sets-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-annotation-sets-api-openapi.yml
 - filename: one-codex-assemblies-api-openapi.yml
   format: yaml
   label: One Codex Assemblies API
   slug: one-codex-assemblies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-assemblies-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-assemblies-api-openapi.yml
 - filename: one-codex-assets-api-openapi.yml
   format: yaml
   label: One Codex Assets API
   slug: one-codex-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-assets-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-assets-api-openapi.yml
 - filename: one-codex-classifications-api-openapi.yml
   format: yaml
   label: One Codex Classifications API
   slug: one-codex-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-classifications-api-openapi.yml
 - filename: one-codex-controls-api-openapi.yml
   format: yaml
   label: One Codex Controls API
   slug: one-codex-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-controls-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-controls-api-openapi.yml
 - filename: one-codex-documents-api-openapi.yml
   format: yaml
   label: One Codex Documents API
   slug: one-codex-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-documents-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-documents-api-openapi.yml
 - filename: one-codex-events-api-openapi.yml
   format: yaml
   label: One Codex Events API
   slug: one-codex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-events-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-events-api-openapi.yml
 - filename: one-codex-functional-profiles-api-openapi.yml
   format: yaml
   label: One Codex Functional Profiles API
   slug: one-codex-functional-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-functional-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-functional-profiles-api-openapi.yml
 - filename: one-codex-genomes-api-openapi.yml
   format: yaml
   label: One Codex Genomes API
   slug: one-codex-genomes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-genomes-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-genomes-api-openapi.yml
 - filename: one-codex-jobs-api-openapi.yml
   format: yaml
   label: One Codex Jobs API
   slug: one-codex-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-jobs-api-openapi.yml
 - filename: one-codex-metadata-api-openapi.yml
   format: yaml
   label: One Codex Metadata API
   slug: one-codex-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-metadata-api-openapi.yml
 - filename: one-codex-mlsts-api-openapi.yml
   format: yaml
   label: One Codex Mlsts API
   slug: one-codex-mlsts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-mlsts-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-mlsts-api-openapi.yml
 - filename: one-codex-panels-api-openapi.yml
   format: yaml
   label: One Codex Panels API
   slug: one-codex-panels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-panels-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-panels-api-openapi.yml
 - filename: one-codex-projects-api-openapi.yml
   format: yaml
   label: One Codex Projects API
   slug: one-codex-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-projects-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-projects-api-openapi.yml
 - filename: one-codex-reports-api-openapi.yml
   format: yaml
   label: One Codex Reports API
   slug: one-codex-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-reports-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-reports-api-openapi.yml
 - filename: one-codex-samples-api-openapi.yml
   format: yaml
   label: One Codex Samples API
   slug: one-codex-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-samples-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-samples-api-openapi.yml
 - filename: one-codex-sequencing-api-openapi.yml
   format: yaml
   label: One Codex Sequencing API
   slug: one-codex-sequencing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-sequencing-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-sequencing-api-openapi.yml
 - filename: one-codex-tags-api-openapi.yml
   format: yaml
   label: One Codex Tags API
   slug: one-codex-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-tags-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-tags-api-openapi.yml
 - filename: one-codex-taxa-api-openapi.yml
   format: yaml
   label: One Codex Taxa API
   slug: one-codex-taxa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-taxa-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-taxa-api-openapi.yml
 - filename: one-codex-users-api-openapi.yml
   format: yaml
   label: One Codex Users API
   slug: one-codex-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-users-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-users-api-openapi.yml
 - filename: one-codex-webhooks-api-openapi.yml
   format: yaml
   label: One Codex Webhooks API
   slug: one-codex-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-webhooks-api-openapi.yml
 - filename: one-codex-workflows-api-openapi.yml
   format: yaml
   label: One Codex Workflows API
   slug: one-codex-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/openapi/one-codex-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/one-codex/openapi/one-codex-workflows-api-openapi.yml
 consequence_counts:
   read: 106
   safety-critical: 3
@@ -231,8 +231,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/one-co
   \  method: get\n  operationId: get_panels_instances_public\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/panels/{id}\n  method: get\n  operationId: get_panels_self\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/panels/{id}/cancel\n  method: post\n  operationId: post_panels_cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/panels/{id}/file_details\n  method: get\n  operationId: get_panels_file_details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /api/v1/panels/{id}/files\n  method: delete\n  operationId: delete_panels_files\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/panels/{id}/files\n  method: get\n  operationId: get_panels_files\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/panels/{id}/logs\n  method: get\n  operationId: get_panels_logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/panels/{id}/rerun\n  method: post\n  operationId: post_panels_rerun\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/panels/{id}/results\n  method: get\n  operationId: get_panels_results\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects\n  method: get\n  operationId: get_projects_instances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects\n  method: post\n  operationId: post_projects_instances\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
-  \ high-value\n    audit: required\n- path: /api/v1/projects/public\n  method: get\n  operationId: get_projects_instances_public\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{id}\n  method: delete\n  operationId: delete_projects_self\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{id}\n  method: get\n  operationId: get_projects_self\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/agentic-access/one-codex-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/agentic-access/one-codex-agentic-access.yml
+  \ high-value\n    audit: required\n- path: /api/v1/projects/public\n  method: get\n  operationId: get_projects_instances_public\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{id}\n  method: delete\n  operationId: delete_projects_self\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{id}\n  method: get\n  operationId: get_projects_self\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://artifacts.apis.io/one-codex/agentic-access/one-codex-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/one-codex/agentic-access/one-codex-agentic-access.yml
 summary_line: 170 operations · 64 acting · 3 human-in-the-loop
 tags:
 - Company

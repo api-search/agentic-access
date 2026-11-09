@@ -9,103 +9,103 @@ api_specs:
   label: Bakkt Accounts API
   slug: bakkt-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-accounts-api-openapi.yml
 - filename: bakkt-authorization-api-openapi.yml
   format: yaml
   label: Bakkt Authorization API
   slug: bakkt-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-authorization-api-openapi.yml
 - filename: bakkt-block-trade-allocate-api-openapi.yml
   format: yaml
   label: Bakkt Block Trade & Allocate API
   slug: bakkt-block-trade-allocate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-block-trade-allocate-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-block-trade-allocate-api-openapi.yml
 - filename: bakkt-configuration-and-status-api-openapi.yml
   format: yaml
   label: Bakkt Configuration and Status API
   slug: bakkt-configuration-and-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-configuration-and-status-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-configuration-and-status-api-openapi.yml
 - filename: bakkt-currency-onboarding-api-openapi.yml
   format: yaml
   label: Bakkt Currency Onboarding API
   slug: bakkt-currency-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-currency-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-currency-onboarding-api-openapi.yml
 - filename: bakkt-documents-api-openapi.yml
   format: yaml
   label: Bakkt Documents API
   slug: bakkt-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-documents-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-documents-api-openapi.yml
 - filename: bakkt-fiat-onboarding-api-openapi.yml
   format: yaml
   label: Bakkt Fiat Onboarding API
   slug: bakkt-fiat-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-fiat-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-fiat-onboarding-api-openapi.yml
 - filename: bakkt-gift-api-openapi.yml
   format: yaml
   label: Bakkt Gift API
   slug: bakkt-gift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-gift-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-gift-api-openapi.yml
 - filename: bakkt-instruments-api-openapi.yml
   format: yaml
   label: Bakkt Instruments API
   slug: bakkt-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-instruments-api-openapi.yml
 - filename: bakkt-jurisdictions-api-openapi.yml
   format: yaml
   label: Bakkt Jurisdictions API
   slug: bakkt-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-jurisdictions-api-openapi.yml
 - filename: bakkt-orders-api-openapi.yml
   format: yaml
   label: Bakkt Orders API
   slug: bakkt-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-orders-api-openapi.yml
 - filename: bakkt-partner-connectivity-api-openapi.yml
   format: yaml
   label: Bakkt Partner Connectivity API
   slug: bakkt-partner-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-partner-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-partner-connectivity-api-openapi.yml
 - filename: bakkt-partner-party-funding-api-openapi.yml
   format: yaml
   label: Bakkt Partner Party Funding API
   slug: bakkt-partner-party-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-partner-party-funding-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-partner-party-funding-api-openapi.yml
 - filename: bakkt-partner-party-kyc-api-openapi.yml
   format: yaml
   label: Bakkt Partner Party Kyc API
   slug: bakkt-partner-party-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-partner-party-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-partner-party-kyc-api-openapi.yml
 - filename: bakkt-partner-party-linking-api-openapi.yml
   format: yaml
   label: Bakkt Partner Party Linking API
   slug: bakkt-partner-party-linking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-partner-party-linking-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-partner-party-linking-api-openapi.yml
 - filename: bakkt-positions-api-openapi.yml
   format: yaml
   label: Bakkt Positions API
   slug: bakkt-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-positions-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-positions-api-openapi.yml
 - filename: bakkt-transfers-api-openapi.yml
   format: yaml
   label: Bakkt Transfers API
   slug: bakkt-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/openapi/bakkt-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/bakkt/openapi/bakkt-transfers-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 26
@@ -197,7 +197,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bakkt-
   \ post\n  operationId: removeFiatAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apex-crypto/api/v2/positions/{account}\n  method: get\n  operationId: getPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apex-crypto/api/v2/transfers/withdraw/coin/{clientTransactionId}\n  method: get\n  operationId: getWithdraw\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apex-crypto/api/v2/transfers/vaspLookup/{receivingWallet}\n  method: get\n  operationId: lookupVasp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apex-crypto/api/v2/transfers/deposit/coin/receiveAddress\n  method: post\n  operationId: postReceiveAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apex-crypto/api/v2/transfers/withdraw/coin\n  method: post\n  operationId: postWithdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apex-crypto/api/v2/transfers/withdraw/coin/estimate\n  method: post\n  operationId: postWithdrawFee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /apex-crypto/api/v2/transfers/verifyWalletAddress\n  method: post\n  operationId: verifyWalletAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/agentic-access/bakkt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bakkt/agentic-access/bakkt-agentic-access.yml
 summary_line: 54 operations · 28 acting
 tags:
 - Company

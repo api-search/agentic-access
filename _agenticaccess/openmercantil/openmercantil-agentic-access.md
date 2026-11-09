@@ -9,151 +9,151 @@ api_specs:
   label: OpenMercantil API Credentials API
   slug: openmercantil-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-api-credentials-api-openapi.yml
 - filename: openmercantil-billing-api-openapi.yml
   format: yaml
   label: OpenMercantil Billing API
   slug: openmercantil-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-billing-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-billing-api-openapi.yml
 - filename: openmercantil-borme-api-openapi.yml
   format: yaml
   label: OpenMercantil BORME API
   slug: openmercantil-borme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-borme-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-borme-api-openapi.yml
 - filename: openmercantil-companies-api-openapi.yml
   format: yaml
   label: OpenMercantil Companies API
   slug: openmercantil-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-companies-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-companies-api-openapi.yml
 - filename: openmercantil-datasets-api-openapi.yml
   format: yaml
   label: OpenMercantil Datasets API
   slug: openmercantil-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-datasets-api-openapi.yml
 - filename: openmercantil-graph-api-openapi.yml
   format: yaml
   label: OpenMercantil Graph API
   slug: openmercantil-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-graph-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-graph-api-openapi.yml
 - filename: openmercantil-integrations-api-openapi.yml
   format: yaml
   label: OpenMercantil Integrations API
   slug: openmercantil-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-integrations-api-openapi.yml
 - filename: openmercantil-legal-api-openapi.yml
   format: yaml
   label: OpenMercantil Legal API
   slug: openmercantil-legal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-legal-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-legal-api-openapi.yml
 - filename: openmercantil-persons-api-openapi.yml
   format: yaml
   label: OpenMercantil Persons API
   slug: openmercantil-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-persons-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-persons-api-openapi.yml
 - filename: openmercantil-public-procurement-api-openapi.yml
   format: yaml
   label: OpenMercantil Public Procurement API
   slug: openmercantil-public-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-public-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-public-procurement-api-openapi.yml
 - filename: openmercantil-search-api-openapi.yml
   format: yaml
   label: OpenMercantil Search API
   slug: openmercantil-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-search-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-search-api-openapi.yml
 - filename: openmercantil-sectors-api-openapi.yml
   format: yaml
   label: OpenMercantil Sectors API
   slug: openmercantil-sectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-sectors-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-sectors-api-openapi.yml
 - filename: openmercantil-sources-api-openapi.yml
   format: yaml
   label: OpenMercantil Sources API
   slug: openmercantil-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-sources-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-sources-api-openapi.yml
 - filename: openmercantil-support-api-openapi.yml
   format: yaml
   label: OpenMercantil Support API
   slug: openmercantil-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-support-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-support-api-openapi.yml
 - filename: openmercantil-system-api-openapi.yml
   format: yaml
   label: OpenMercantil System API
   slug: openmercantil-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-system-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-system-api-openapi.yml
 - filename: openmercantil-user-api-openapi.yml
   format: yaml
   label: OpenMercantil User API
   slug: openmercantil-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-user-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-user-api-openapi.yml
 - filename: openmercantil-webhooks-api-openapi.yml
   format: yaml
   label: OpenMercantil Webhooks API
   slug: openmercantil-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-webhooks-api-openapi.yml
 - filename: openmercantil-contracts-api-openapi.yml
   format: yaml
   label: OpenMercantil Contracts API
   slug: openmercantil-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-contracts-api-openapi.yml
 - filename: openmercantil-daily-api-openapi.yml
   format: yaml
   label: OpenMercantil Daily API
   slug: openmercantil-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-daily-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-daily-api-openapi.yml
 - filename: openmercantil-export-api-openapi.yml
   format: yaml
   label: OpenMercantil Export API
   slug: openmercantil-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-export-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-export-api-openapi.yml
 - filename: openmercantil-geocode-api-openapi.yml
   format: yaml
   label: OpenMercantil Geocode API
   slug: openmercantil-geocode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-geocode-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-geocode-api-openapi.yml
 - filename: openmercantil-network-api-openapi.yml
   format: yaml
   label: OpenMercantil Network API
   slug: openmercantil-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-network-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-network-api-openapi.yml
 - filename: openmercantil-risk-signals-api-openapi.yml
   format: yaml
   label: OpenMercantil Risk Signals API
   slug: openmercantil-risk-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-risk-signals-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-risk-signals-api-openapi.yml
 - filename: openmercantil-score-api-openapi.yml
   format: yaml
   label: OpenMercantil Score API
   slug: openmercantil-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-score-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-score-api-openapi.yml
 - filename: openmercantil-stats-api-openapi.yml
   format: yaml
   label: OpenMercantil Stats API
   slug: openmercantil-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-stats-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-stats-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 149
@@ -262,8 +262,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/openme
   \   audit: none\n- path: /api/v1/company/{slug}/risk-signals\n  method: get\n  operationId: getCompanyBySlugRiskSignals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/company/{slug}/aeat-moroso\n  method: get\n  operationId: getCompanyBySlugAeatMoroso\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/company/{slug}/embargoes\n  method: get\n  operationId: getCompanyBySlugEmbargoes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/company/{slug}/score\n  method: get\n  operationId: getCompanyScore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/company/{slug}/activity\n\
   \  method: get\n  operationId: getCompanyActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/company/{slug}/trust-score\n  method: get\n  operationId: getCompanyTrustScore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/search\n  method: get\n  operationId: getSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/person/search\n  method: get\n  operationId: getPersonSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sector/{cnae}/companies\n  method: get\n  operationId: getSectorByCnaeCompanies\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sector/{cnae}/ratios\n  method: get\n  operationId: getSectorByCnaeRatios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/cnae/tree\n  method: get\n  operationId: getCnaeTree\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/cnae/{code}\n  method: get\n  operationId: getCnaeByCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sector/{code}/companies\n  method: get\n  operationId: getSectorCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
-  \    audit: none\n- path: /api/v1/sector/{code}/ratios\n  method: get\n  operationId: getSectorRatios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sectores/stats\n  method: get\n  operationId: getSectorStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sectores/stats.csv\n  method: get\n  operationId: getSectorStatsCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sources/freshness\n  method: get\n  operationId: getSourcesFreshness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/agentic-access/openmercantil-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/agentic-access/openmercantil-agentic-access.yml
+  \    audit: none\n- path: /api/v1/sector/{code}/ratios\n  method: get\n  operationId: getSectorRatios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sectores/stats\n  method: get\n  operationId: getSectorStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sectores/stats.csv\n  method: get\n  operationId: getSectorStatsCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sources/freshness\n  method: get\n  operationId: getSourcesFreshness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://artifacts.apis.io/openmercantil/agentic-access/openmercantil-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/openmercantil/agentic-access/openmercantil-agentic-access.yml
 summary_line: 210 operations · 61 acting · 2 human-in-the-loop
 tags:
 - BDNS

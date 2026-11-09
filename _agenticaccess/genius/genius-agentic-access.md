@@ -9,55 +9,55 @@ api_specs:
   label: Genius Account API
   slug: genius-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-account-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-account-api-openapi.yml
 - filename: genius-albums-api-openapi.yml
   format: yaml
   label: Genius Albums API
   slug: genius-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-albums-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-albums-api-openapi.yml
 - filename: genius-annotations-api-openapi.yml
   format: yaml
   label: Genius Annotations API
   slug: genius-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-annotations-api-openapi.yml
 - filename: genius-artists-api-openapi.yml
   format: yaml
   label: Genius Artists API
   slug: genius-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-artists-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-artists-api-openapi.yml
 - filename: genius-referents-api-openapi.yml
   format: yaml
   label: Genius Referents API
   slug: genius-referents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-referents-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-referents-api-openapi.yml
 - filename: genius-search-api-openapi.yml
   format: yaml
   label: Genius Search API
   slug: genius-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-search-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-search-api-openapi.yml
 - filename: genius-songs-api-openapi.yml
   format: yaml
   label: Genius Songs API
   slug: genius-songs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-songs-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-songs-api-openapi.yml
 - filename: genius-users-api-openapi.yml
   format: yaml
   label: Genius Users API
   slug: genius-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-users-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-users-api-openapi.yml
 - filename: genius-web-pages-api-openapi.yml
   format: yaml
   label: Genius Web Pages API
   slug: genius-web-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-web-pages-api-openapi.yml
+  url: https://artifacts.apis.io/genius/openapi/genius-web-pages-api-openapi.yml
 consequence_counts:
   read: 25
   write: 5
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/genius
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - create_annotation\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /annotations/{id}/edits\n  method: get\n  operationId: getAnnotationEdits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /annotations/{id}/comments\n  method: get\n  operationId: getAnnotationComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /annotations/{id}/vote\n  method: put\n  operationId: upvoteAnnotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - vote\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /annotations/{id}/vote\n  method: delete\n  operationId: removeAnnotationVote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - vote\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /annotations/{id}/downvote\n  method: put\n  operationId: downvoteAnnotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - vote\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /referents\n  method: get\n  operationId: listReferents\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /referents/{ids}\n  method: get\n  operationId: getReferents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web_pages/lookup\n  method: get\n  operationId: lookupWebPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/contributions\n  method: get\n  operationId: getUserContributions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/agentic-access/genius-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/genius/agentic-access/genius-agentic-access.yml
 summary_line: 30 operations · 5 acting
 tags:
 - Music

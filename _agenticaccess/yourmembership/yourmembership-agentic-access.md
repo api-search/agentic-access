@@ -9,37 +9,37 @@ api_specs:
   label: YourMembership Authentication API
   slug: yourmembership-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-authentication-api-openapi.yml
 - filename: yourmembership-certifications-api-openapi.yml
   format: yaml
   label: YourMembership Certifications API
   slug: yourmembership-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-certifications-api-openapi.yml
 - filename: yourmembership-commerce-and-sales-api-openapi.yml
   format: yaml
   label: YourMembership Commerce and Sales API
   slug: yourmembership-commerce-and-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-commerce-and-sales-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-commerce-and-sales-api-openapi.yml
 - filename: yourmembership-content-and-community-api-openapi.yml
   format: yaml
   label: YourMembership Content and Community API
   slug: yourmembership-content-and-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-content-and-community-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-content-and-community-api-openapi.yml
 - filename: yourmembership-events-api-openapi.yml
   format: yaml
   label: YourMembership Events API
   slug: yourmembership-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-events-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-events-api-openapi.yml
 - filename: yourmembership-members-api-openapi.yml
   format: yaml
   label: YourMembership Members API
   slug: yourmembership-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-members-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-members-api-openapi.yml
 consequence_counts:
   read: 10
   write: 2
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/yourme
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ams/MemberProfile\n  method: post\n  operationId: upsertMemberProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Ams/People\n  method: get\n  operationId: readContact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ams/Events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ams/Events/{eventId}/Registrations\n  method: get\n  operationId: listEventRegistrations\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ams/Certifications\n  method: get\n  operationId: listCertifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ams/Community/Messages\n  method: get\n  operationId: listMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ams/Community/Groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ams/Store/Orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ams/Store/Orders/{orderId}\n\
   \  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Ams/Exports/Transactions\n  method: get\n  operationId: exportTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/agentic-access/yourmembership-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yourmembership/agentic-access/yourmembership-agentic-access.yml
 summary_line: 12 operations · 2 acting
 tags:
 - Membership Management

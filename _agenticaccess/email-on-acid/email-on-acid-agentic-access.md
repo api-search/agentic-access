@@ -9,25 +9,25 @@ api_specs:
   label: Email on Acid Authentication API
   slug: email-on-acid-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-authentication-api-openapi.yml
 - filename: email-on-acid-email-clients-api-openapi.yml
   format: yaml
   label: Email on Acid Email Clients API
   slug: email-on-acid-email-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-email-clients-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-email-clients-api-openapi.yml
 - filename: email-on-acid-email-testing-api-openapi.yml
   format: yaml
   label: Email on Acid Email Testing API
   slug: email-on-acid-email-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-email-testing-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-email-testing-api-openapi.yml
 - filename: email-on-acid-spam-testing-api-openapi.yml
   format: yaml
   label: Email on Acid Spam Testing API
   slug: email-on-acid-spam-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/openapi/email-on-acid-spam-testing-api-openapi.yml
+  url: https://artifacts.apis.io/email-on-acid/openapi/email-on-acid-spam-testing-api-openapi.yml
 consequence_counts:
   read: 17
   write: 6
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/email-
   \      max-ttl: 3600\n    audit: none\n- path: /email/tests/{testId}/content/textonly\n  method: get\n  operationId: getEmailTestContentTextOnly\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/tests/{testId}/spam/results\n  method: get\n  operationId: getEmailTestSpamResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/tests/{testId}/spam/seedlist\n  method: get\n  operationId: getEmailTestSpamSeedList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spam/clients\n  method: get\n  operationId: getSpamClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /spam/tests\n  method: get\n  operationId: getSpamTests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spam/tests\n  method: post\n  operationId: createSpamTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spam/tests/{testId}\n  method: get\n  operationId: getSpamTestResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spam/tests/{testId}\n  method: delete\n  operationId: deleteSpamTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spam/tests/{testId}/seedlist\n  method: get\n  operationId: getSpamTestSeedList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spam/seedlist\n  method: get\n  operationId: reserveSeedList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/agentic-access/email-on-acid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/email-on-acid/agentic-access/email-on-acid-agentic-access.yml
 summary_line: 23 operations · 6 acting
 tags:
 - Email Testing

@@ -9,133 +9,133 @@ api_specs:
   label: 1NCE Administration Logs API
   slug: 1nce-administration-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-administration-logs-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-administration-logs-api-openapi.yml
 - filename: 1nce-agreements-api-openapi.yml
   format: yaml
   label: 1NCE Agreements API
   slug: 1nce-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-agreements-api-openapi.yml
 - filename: 1nce-bearer-authorization-api-openapi.yml
   format: yaml
   label: 1NCE Bearer Authorization API
   slug: 1nce-bearer-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-bearer-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-bearer-authorization-api-openapi.yml
 - filename: 1nce-connectivity-api-openapi.yml
   format: yaml
   label: 1NCE Connectivity API
   slug: 1nce-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-connectivity-api-openapi.yml
 - filename: 1nce-device-inspector-api-openapi.yml
   format: yaml
   label: 1NCE Device Inspector API
   slug: 1nce-device-inspector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-device-inspector-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-device-inspector-api-openapi.yml
 - filename: 1nce-device-locator-api-openapi.yml
   format: yaml
   label: 1NCE Device Locator API
   slug: 1nce-device-locator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-device-locator-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-device-locator-api-openapi.yml
 - filename: 1nce-devices-api-openapi.yml
   format: yaml
   label: 1NCE Devices API
   slug: 1nce-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-devices-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-devices-api-openapi.yml
 - filename: 1nce-general-sims-api-openapi.yml
   format: yaml
   label: 1NCE General SIMs API
   slug: 1nce-general-sims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-general-sims-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-general-sims-api-openapi.yml
 - filename: 1nce-iot-integrator-api-openapi.yml
   format: yaml
   label: 1NCE IoT Integrator API
   slug: 1nce-iot-integrator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-iot-integrator-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-iot-integrator-api-openapi.yml
 - filename: 1nce-optimizer-api-openapi.yml
   format: yaml
   label: 1NCE Optimizer API
   slug: 1nce-optimizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-optimizer-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-optimizer-api-openapi.yml
 - filename: 1nce-orders-api-openapi.yml
   format: yaml
   label: 1NCE Orders API
   slug: 1nce-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-orders-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-orders-api-openapi.yml
 - filename: 1nce-plugin-system-api-openapi.yml
   format: yaml
   label: 1NCE Plugin system API
   slug: 1nce-plugin-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-plugin-system-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-plugin-system-api-openapi.yml
 - filename: 1nce-products-api-openapi.yml
   format: yaml
   label: 1NCE Products API
   slug: 1nce-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-products-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-products-api-openapi.yml
 - filename: 1nce-service-requests-api-openapi.yml
   format: yaml
   label: 1NCE Service Requests API
   slug: 1nce-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-service-requests-api-openapi.yml
 - filename: 1nce-settings-api-openapi.yml
   format: yaml
   label: 1NCE Settings API
   slug: 1nce-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-settings-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-settings-api-openapi.yml
 - filename: 1nce-sim-events-api-openapi.yml
   format: yaml
   label: 1NCE SIM Events API
   slug: 1nce-sim-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sim-events-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-sim-events-api-openapi.yml
 - filename: 1nce-sim-extension-api-openapi.yml
   format: yaml
   label: 1NCE SIM Extension API
   slug: 1nce-sim-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sim-extension-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-sim-extension-api-openapi.yml
 - filename: 1nce-sim-usage-api-openapi.yml
   format: yaml
   label: 1NCE SIM Usage API
   slug: 1nce-sim-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sim-usage-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-sim-usage-api-openapi.yml
 - filename: 1nce-sms-api-openapi.yml
   format: yaml
   label: 1NCE SMS API
   slug: 1nce-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sms-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-sms-api-openapi.yml
 - filename: 1nce-sms-by-iccid-api-openapi.yml
   format: yaml
   label: 1NCE SMS by ICCID API
   slug: 1nce-sms-by-iccid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-sms-by-iccid-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-sms-by-iccid-api-openapi.yml
 - filename: 1nce-volume-limits-api-openapi.yml
   format: yaml
   label: 1NCE Volume Limits API
   slug: 1nce-volume-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-volume-limits-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-volume-limits-api-openapi.yml
 - filename: 1nce-volume-top-up-api-openapi.yml
   format: yaml
   label: 1NCE Volume Top Up API
   slug: 1nce-volume-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/openapi/1nce-volume-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/1nce/openapi/1nce-volume-top-up-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 58
@@ -230,7 +230,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/1nce-a
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sims/{iccid}/sms\n  method: post\n  operationId: sendSmsToSimUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/sims/{iccid}/sms\n  method: get\n  operationId: getSmsForSimUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sims/{iccid}/sms/{id}\n  method: get\n  operationId: getSmsOfSimUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sims/{iccid}/sms/{id}\n  method:\
   \ delete\n  operationId: cancelSmsOfSimUsingDELETE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/sims/{iccid}/events\n  method: get\n  operationId: getEventsForSimUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sims/{iccid}/topup\n  method: post\n  operationId: topUpUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/support\n  method: get\n  operationId: getServiceRequestsUsingGET\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/support\n  method: post\n  operationId: createServiceRequestUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/agentic-access/1nce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/1nce/agentic-access/1nce-agentic-access.yml
 summary_line: 116 operations · 58 acting · 2 human-in-the-loop
 tags:
 - IoT

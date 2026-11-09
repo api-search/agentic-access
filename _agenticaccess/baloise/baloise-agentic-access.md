@@ -9,55 +9,55 @@ api_specs:
   label: Baloise Contracts API
   slug: baloise-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/openapi/baloise-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/baloise/openapi/baloise-contracts-api-openapi.yml
 - filename: baloise-db-api-openapi.yml
   format: yaml
   label: Baloise DB API
   slug: baloise-db-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/openapi/baloise-db-api-openapi.yml
+  url: https://artifacts.apis.io/baloise/openapi/baloise-db-api-openapi.yml
 - filename: baloise-documents-api-openapi.yml
   format: yaml
   label: Baloise Documents API
   slug: baloise-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/openapi/baloise-documents-api-openapi.yml
+  url: https://artifacts.apis.io/baloise/openapi/baloise-documents-api-openapi.yml
 - filename: baloise-jboss-api-openapi.yml
   format: yaml
   label: Baloise J Boss API
   slug: baloise-jboss-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/openapi/baloise-jboss-api-openapi.yml
+  url: https://artifacts.apis.io/baloise/openapi/baloise-jboss-api-openapi.yml
 - filename: baloise-middlewares-api-openapi.yml
   format: yaml
   label: Baloise Middlewares API
   slug: baloise-middlewares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/openapi/baloise-middlewares-api-openapi.yml
+  url: https://artifacts.apis.io/baloise/openapi/baloise-middlewares-api-openapi.yml
 - filename: baloise-orders-api-openapi.yml
   format: yaml
   label: Baloise Orders API
   slug: baloise-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/openapi/baloise-orders-api-openapi.yml
+  url: https://artifacts.apis.io/baloise/openapi/baloise-orders-api-openapi.yml
 - filename: baloise-pgsql-api-openapi.yml
   format: yaml
   label: Baloise Pgsql API
   slug: baloise-pgsql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/openapi/baloise-pgsql-api-openapi.yml
+  url: https://artifacts.apis.io/baloise/openapi/baloise-pgsql-api-openapi.yml
 - filename: baloise-version-api-openapi.yml
   format: yaml
   label: Baloise Version API
   slug: baloise-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/openapi/baloise-version-api-openapi.yml
+  url: https://artifacts.apis.io/baloise/openapi/baloise-version-api-openapi.yml
 - filename: baloise-vms-api-openapi.yml
   format: yaml
   label: Baloise VMs API
   slug: baloise-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/openapi/baloise-vms-api-openapi.yml
+  url: https://artifacts.apis.io/baloise/openapi/baloise-vms-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/balois
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vm/{name}\n  method: delete\n  operationId: api.calls_phs.vm_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vm/{name}\n  method: patch\n  operationId: api.calls_phs.vm_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dbpg\n  method: get\n  operationId: api.calls_phs.pgsql_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /dbpg\n  method: post\n  operationId: api.calls_phs.pgsql_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dbpg/{dbid}\n  method: get\n  operationId: api.calls_phs.pgsql_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dbpg/{dbid}\n  method: patch\n  operationId: api.calls_phs.pgsql_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dbpg/{dbid}\n  method: delete\n  operationId:\
   \ api.calls_phs.pgsql_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jb\n  method: post\n  operationId: api.calls_phs.jb_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baloise/refs/heads/main/agentic-access/baloise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/baloise/agentic-access/baloise-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Company

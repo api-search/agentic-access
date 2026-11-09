@@ -9,37 +9,37 @@ api_specs:
   label: Atlassian Compass Events API
   slug: atlassian-compass-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-events-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-events-api-openapi.yml
 - filename: atlassian-compass-metrics-api-openapi.yml
   format: yaml
   label: Atlassian Compass Metrics API
   slug: atlassian-compass-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-metrics-api-openapi.yml
 - filename: atlassian-compass-attachment-rest-controller-api-openapi.yml
   format: yaml
   label: Atlassian Compass Attachment Rest Controller API
   slug: atlassian-compass-attachment-rest-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-attachment-rest-controller-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-attachment-rest-controller-api-openapi.yml
 - filename: atlassian-compass-entitlement-rest-controller-api-openapi.yml
   format: yaml
   label: Atlassian Compass Entitlement Rest Controller API
   slug: atlassian-compass-entitlement-rest-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-entitlement-rest-controller-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-entitlement-rest-controller-api-openapi.yml
 - filename: atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
   format: yaml
   label: Atlassian Compass Incoming Webhooks Rest Controller API
   slug: atlassian-compass-incoming-webhooks-rest-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
 - filename: atlassian-compass-package-dependencies-api-openapi.yml
   format: yaml
   label: Atlassian Compass Package Dependencies API
   slug: atlassian-compass-package-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-package-dependencies-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-package-dependencies-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 2
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/atlass
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compass/v1/events\n  method: post\n  operationId: createCompassEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compass/v1/webhooks/{webhookId}\n  method: post\n  operationId: handleWebhookInvocation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /compass/v1/metrics\n  method: post\n  operationId:\
   \ insertMetricValue\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compass/v1/package_dependencies/lock_file\n  method: put\n  operationId: uploadLockFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compass/v1/package_dependencies/lock_file/{componentId}/{sourceId}\n  method: delete\n  operationId: deleteLockFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/agentic-access/atlassian-compass-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/atlassian-compass/agentic-access/atlassian-compass-agentic-access.yml
 summary_line: 11 operations · 9 acting · 5 human-in-the-loop
 tags:
 - Atlassian

@@ -8,169 +8,169 @@ api_specs:
   label: Library of Congress Amendments API
   slug: loc-amendments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-amendments-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-amendments-api-openapi.yml
 - filename: loc-bill-api-openapi.yml
   format: yaml
   label: Library of Congress Bill API
   slug: loc-bill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-bill-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-bill-api-openapi.yml
 - filename: loc-bound-congressional-record-api-openapi.yml
   format: yaml
   label: Library of Congress Bound Congressional Record API
   slug: loc-bound-congressional-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-bound-congressional-record-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-bound-congressional-record-api-openapi.yml
 - filename: loc-collections-api-openapi.yml
   format: yaml
   label: Library of Congress Collections API
   slug: loc-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-collections-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-collections-api-openapi.yml
 - filename: loc-committee-api-openapi.yml
   format: yaml
   label: Library of Congress Committee API
   slug: loc-committee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-committee-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-committee-api-openapi.yml
 - filename: loc-committee-meeting-api-openapi.yml
   format: yaml
   label: Library of Congress Committee Meeting API
   slug: loc-committee-meeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-committee-meeting-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-committee-meeting-api-openapi.yml
 - filename: loc-committee-print-api-openapi.yml
   format: yaml
   label: Library of Congress Committee Print API
   slug: loc-committee-print-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-committee-print-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-committee-print-api-openapi.yml
 - filename: loc-committee-report-api-openapi.yml
   format: yaml
   label: Library of Congress Committee Report API
   slug: loc-committee-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-committee-report-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-committee-report-api-openapi.yml
 - filename: loc-congress-api-openapi.yml
   format: yaml
   label: Library of Congress API
   slug: loc-congress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-congress-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-congress-api-openapi.yml
 - filename: loc-congressional-record-api-openapi.yml
   format: yaml
   label: Library of Congress Congressional Record API
   slug: loc-congressional-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-congressional-record-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-congressional-record-api-openapi.yml
 - filename: loc-crsreport-api-openapi.yml
   format: yaml
   label: Library of Congress Crsreport API
   slug: loc-crsreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-crsreport-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-crsreport-api-openapi.yml
 - filename: loc-daily-congressional-record-api-openapi.yml
   format: yaml
   label: Library of Congress Daily Congressional Record API
   slug: loc-daily-congressional-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-daily-congressional-record-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-daily-congressional-record-api-openapi.yml
 - filename: loc-formats-api-openapi.yml
   format: yaml
   label: Library of Congress Formats API
   slug: loc-formats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-formats-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-formats-api-openapi.yml
 - filename: loc-hearing-api-openapi.yml
   format: yaml
   label: Library of Congress Hearing API
   slug: loc-hearing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-hearing-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-hearing-api-openapi.yml
 - filename: loc-house-communication-api-openapi.yml
   format: yaml
   label: Library of Congress House Communication API
   slug: loc-house-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-house-communication-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-house-communication-api-openapi.yml
 - filename: loc-house-requirement-api-openapi.yml
   format: yaml
   label: Library of Congress House Requirement API
   slug: loc-house-requirement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-house-requirement-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-house-requirement-api-openapi.yml
 - filename: loc-house-vote-api-openapi.yml
   format: yaml
   label: Library of Congress House Vote API
   slug: loc-house-vote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-house-vote-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-house-vote-api-openapi.yml
 - filename: loc-items-api-openapi.yml
   format: yaml
   label: Library of Congress Items API
   slug: loc-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-items-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-items-api-openapi.yml
 - filename: loc-member-api-openapi.yml
   format: yaml
   label: Library of Congress Member API
   slug: loc-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-member-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-member-api-openapi.yml
 - filename: loc-nomination-api-openapi.yml
   format: yaml
   label: Library of Congress Nomination API
   slug: loc-nomination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-nomination-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-nomination-api-openapi.yml
 - filename: loc-search-api-openapi.yml
   format: yaml
   label: Library of Congress Search API
   slug: loc-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-search-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-search-api-openapi.yml
 - filename: loc-senate-communication-api-openapi.yml
   format: yaml
   label: Library of Congress Senate Communication API
   slug: loc-senate-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-senate-communication-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-senate-communication-api-openapi.yml
 - filename: loc-summaries-api-openapi.yml
   format: yaml
   label: Library of Congress Summaries API
   slug: loc-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-summaries-api-openapi.yml
 - filename: loc-treaty-api-openapi.yml
   format: yaml
   label: Library of Congress Treaty API
   slug: loc-treaty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-treaty-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-treaty-api-openapi.yml
 - filename: loc-issues-api-openapi.yml
   format: yaml
   label: Library of Congress Issues API
   slug: loc-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-issues-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-issues-api-openapi.yml
 - filename: loc-pages-api-openapi.yml
   format: yaml
   label: Library of Congress Pages API
   slug: loc-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-pages-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-pages-api-openapi.yml
 - filename: loc-resources-api-openapi.yml
   format: yaml
   label: Library of Congress Resources API
   slug: loc-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-resources-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-resources-api-openapi.yml
 - filename: loc-titles-api-openapi.yml
   format: yaml
   label: Library of Congress Titles API
   slug: loc-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-titles-api-openapi.yml
+  url: https://artifacts.apis.io/loc/openapi/loc-titles-api-openapi.yml
 consequence_counts:
   read: 121
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -221,7 +221,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/loc-co
   \ none\n- path: /collections/\n  method: get\n  operationId: listCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionSlug}/\n  method: get\n  operationId: getCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audio/\n  method: get\n  operationId: listAudio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /books/\n  method: get\n  operationId: listBooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /film-and-videos/\n  method: get\n  operationId: listFilmAndVideos\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manuscripts/\n  method: get\n  operationId: listManuscripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /maps/\n  method: get\n  operationId: listMaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newspapers/\n  method: get\n  operationId: listNewspapers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /photos/\n  method: get\n  operationId: listPhotos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notated-music/\n  method: get\n  operationId: listNotatedMusic\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web-archives/\n  method: get\n  operationId: listWebArchives\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /item/{itemId}/\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/agentic-access/loc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loc/agentic-access/loc-agentic-access.yml
 summary_line: 121 operations
 tags:
 - Library

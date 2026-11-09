@@ -9,43 +9,43 @@ api_specs:
   label: Cariqa Billing Details API
   slug: cariqa-billing-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-billing-details-api-openapi.yml
+  url: https://artifacts.apis.io/cariqa/openapi/cariqa-billing-details-api-openapi.yml
 - filename: cariqa-charging-sessions-api-openapi.yml
   format: yaml
   label: Cariqa Charging Sessions API
   slug: cariqa-charging-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-charging-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/cariqa/openapi/cariqa-charging-sessions-api-openapi.yml
 - filename: cariqa-debts-api-openapi.yml
   format: yaml
   label: Cariqa Debts API
   slug: cariqa-debts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-debts-api-openapi.yml
+  url: https://artifacts.apis.io/cariqa/openapi/cariqa-debts-api-openapi.yml
 - filename: cariqa-invoices-api-openapi.yml
   format: yaml
   label: Cariqa Invoices API
   slug: cariqa-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/cariqa/openapi/cariqa-invoices-api-openapi.yml
 - filename: cariqa-payments-api-openapi.yml
   format: yaml
   label: Cariqa Payments API
   slug: cariqa-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-payments-api-openapi.yml
+  url: https://artifacts.apis.io/cariqa/openapi/cariqa-payments-api-openapi.yml
 - filename: cariqa-stations-api-openapi.yml
   format: yaml
   label: Cariqa Stations API
   slug: cariqa-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-stations-api-openapi.yml
+  url: https://artifacts.apis.io/cariqa/openapi/cariqa-stations-api-openapi.yml
 - filename: cariqa-users-api-openapi.yml
   format: yaml
   label: Cariqa Users API
   slug: cariqa-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/openapi/cariqa-users-api-openapi.yml
+  url: https://artifacts.apis.io/cariqa/openapi/cariqa-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/cariqa
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user_id}/charging/stop/{session_id}/\n  method: post\n  operationId: users_charging_stop_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/users/{user_id}/invoices/\n  method: get\n  operationId: users_invoices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{user_id}/payment-methods/\n  method: get\n  operationId:\
   \ users_payment_methods_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{user_id}/payment-methods/{pm}/\n  method: delete\n  operationId: users_payment_methods_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user_id}/payment-methods/{pm}/default/\n  method: post\n  operationId: users_payment_methods_default_create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user_id}/setup-intents/\n  method: get\n  operationId: users_setup_intents_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/agentic-access/cariqa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cariqa/agentic-access/cariqa-agentic-access.yml
 summary_line: 22 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Company

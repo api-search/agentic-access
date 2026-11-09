@@ -9,55 +9,55 @@ api_specs:
   label: Fountain Applicants API
   slug: fountain-com-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-applicants-api-openapi.yml
+  url: https://artifacts.apis.io/fountain-com/openapi/fountain-com-applicants-api-openapi.yml
 - filename: fountain-com-documents-api-openapi.yml
   format: yaml
   label: Fountain Documents API
   slug: fountain-com-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-documents-api-openapi.yml
+  url: https://artifacts.apis.io/fountain-com/openapi/fountain-com-documents-api-openapi.yml
 - filename: fountain-com-labels-api-openapi.yml
   format: yaml
   label: Fountain Labels API
   slug: fountain-com-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-labels-api-openapi.yml
+  url: https://artifacts.apis.io/fountain-com/openapi/fountain-com-labels-api-openapi.yml
 - filename: fountain-com-openings-api-openapi.yml
   format: yaml
   label: Fountain Openings API
   slug: fountain-com-openings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-openings-api-openapi.yml
+  url: https://artifacts.apis.io/fountain-com/openapi/fountain-com-openings-api-openapi.yml
 - filename: fountain-com-positions-api-openapi.yml
   format: yaml
   label: Fountain Positions API
   slug: fountain-com-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-positions-api-openapi.yml
+  url: https://artifacts.apis.io/fountain-com/openapi/fountain-com-positions-api-openapi.yml
 - filename: fountain-com-scheduling-api-openapi.yml
   format: yaml
   label: Fountain Scheduling API
   slug: fountain-com-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/fountain-com/openapi/fountain-com-scheduling-api-openapi.yml
 - filename: fountain-com-stages-api-openapi.yml
   format: yaml
   label: Fountain Stages API
   slug: fountain-com-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-stages-api-openapi.yml
+  url: https://artifacts.apis.io/fountain-com/openapi/fountain-com-stages-api-openapi.yml
 - filename: fountain-com-webhooks-api-openapi.yml
   format: yaml
   label: Fountain Webhooks API
   slug: fountain-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fountain-com/openapi/fountain-com-webhooks-api-openapi.yml
 - filename: fountain-com-workers-api-openapi.yml
   format: yaml
   label: Fountain Workers API
   slug: fountain-com-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/openapi/fountain-com-workers-api-openapi.yml
+  url: https://artifacts.apis.io/fountain-com/openapi/fountain-com-workers-api-openapi.yml
 consequence_counts:
   read: 18
   write: 26
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/founta
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-settings\n  method: get\n  operationId: listWebhookSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-settings\n  method: post\n  operationId: createWebhookSetting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-settings/{id}\n  method: get\n  operationId: getWebhookSetting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-settings/{id}\n\
   \  method: delete\n  operationId: deleteWebhookSetting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers\n  method: get\n  operationId: listWorkers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{id}\n  method: get\n  operationId: getWorker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{id}\n  method: patch\n  operationId: updateWorker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{id}/activate\n  method: post\n  operationId: activateWorker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{id}/deactivate\n  method: post\n  operationId: deactivateWorker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/agentic-access/fountain-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fountain-com/agentic-access/fountain-com-agentic-access.yml
 summary_line: 44 operations · 26 acting
 tags:
 - Hiring

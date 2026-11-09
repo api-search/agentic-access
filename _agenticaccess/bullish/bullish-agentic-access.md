@@ -9,181 +9,181 @@ api_specs:
   label: Bullish Deprecated Features and APIs
   slug: deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-deprecated-api-openapi.yml
 - filename: bullish-ws-orderbook-asyncapi.yml
   format: yaml
   label: Bullish WebSocket Multi-Order Book API
   slug: ws-orderbook
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/asyncapi/bullish-ws-orderbook-asyncapi.yml
+  url: https://artifacts.apis.io/bullish/asyncapi/bullish-ws-orderbook-asyncapi.yml
 - filename: bullish-ws-trades-asyncapi.yml
   format: yaml
   label: Bullish WebSocket Anonymous Trades API
   slug: ws-trades
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/asyncapi/bullish-ws-trades-asyncapi.yml
+  url: https://artifacts.apis.io/bullish/asyncapi/bullish-ws-trades-asyncapi.yml
 - filename: bullish-ws-ticks-asyncapi.yml
   format: yaml
   label: Bullish WebSocket Anonymous Ticks API
   slug: ws-ticks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/asyncapi/bullish-ws-ticks-asyncapi.yml
+  url: https://artifacts.apis.io/bullish/asyncapi/bullish-ws-ticks-asyncapi.yml
 - filename: bullish-ws-auction-asyncapi.yml
   format: yaml
   label: Bullish WebSocket Auction Feed API
   slug: ws-auction
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/asyncapi/bullish-ws-auction-asyncapi.yml
+  url: https://artifacts.apis.io/bullish/asyncapi/bullish-ws-auction-asyncapi.yml
 - filename: bullish-ws-index-data-asyncapi.yml
   format: yaml
   label: Bullish WebSocket Index Data API
   slug: ws-index-data
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/asyncapi/bullish-ws-index-data-asyncapi.yml
+  url: https://artifacts.apis.io/bullish/asyncapi/bullish-ws-index-data-asyncapi.yml
 - filename: bullish-ws-private-data-asyncapi.yml
   format: yaml
   label: Bullish WebSocket Private Data API
   slug: ws-private-data
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/asyncapi/bullish-ws-private-data-asyncapi.yml
+  url: https://artifacts.apis.io/bullish/asyncapi/bullish-ws-private-data-asyncapi.yml
 - filename: bullish-account-assets-api-openapi.yml
   format: yaml
   label: Bullish Account Assets API
   slug: bullish-account-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-account-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-account-assets-api-openapi.yml
 - filename: bullish-amm-instructions-api-openapi.yml
   format: yaml
   label: Bullish Amm Instructions API
   slug: bullish-amm-instructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-amm-instructions-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-amm-instructions-api-openapi.yml
 - filename: bullish-asset-data-api-openapi.yml
   format: yaml
   label: Bullish Asset Data API
   slug: bullish-asset-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-asset-data-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-asset-data-api-openapi.yml
 - filename: bullish-auction-public-api-openapi.yml
   format: yaml
   label: Bullish Auction Public API
   slug: bullish-auction-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-auction-public-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-auction-public-api-openapi.yml
 - filename: bullish-command-entry-api-openapi.yml
   format: yaml
   label: Bullish command entry API
   slug: bullish-command-entry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-command-entry-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-command-entry-api-openapi.yml
 - filename: bullish-custody-api-openapi.yml
   format: yaml
   label: Bullish Custody API
   slug: bullish-custody-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-custody-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-custody-api-openapi.yml
 - filename: bullish-deprecated-q3-2024-api-openapi.yml
   format: yaml
   label: Bullish deprecated - q3 2024 API
   slug: bullish-deprecated-q3-2024-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-deprecated-q3-2024-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-deprecated-q3-2024-api-openapi.yml
 - filename: bullish-derivatives-api-openapi.yml
   format: yaml
   label: Bullish Derivatives API
   slug: bullish-derivatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-derivatives-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-derivatives-api-openapi.yml
 - filename: bullish-derivatives-public-api-openapi.yml
   format: yaml
   label: Bullish Derivatives Public API
   slug: bullish-derivatives-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-derivatives-public-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-derivatives-public-api-openapi.yml
 - filename: bullish-general-api-openapi.yml
   format: yaml
   label: Bullish General API
   slug: bullish-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-general-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-general-api-openapi.yml
 - filename: bullish-history-api-openapi.yml
   format: yaml
   label: Bullish History API
   slug: bullish-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-history-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-history-api-openapi.yml
 - filename: bullish-idb-api-openapi.yml
   format: yaml
   label: Bullish Idb API
   slug: bullish-idb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-idb-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-idb-api-openapi.yml
 - filename: bullish-index-price-data-api-openapi.yml
   format: yaml
   label: Bullish Index Price Data API
   slug: bullish-index-price-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-index-price-data-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-index-price-data-api-openapi.yml
 - filename: bullish-market-data-api-openapi.yml
   format: yaml
   label: Bullish Market Data API
   slug: bullish-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-market-data-api-openapi.yml
 - filename: bullish-market-history-data-api-openapi.yml
   format: yaml
   label: Bullish Market History Data API
   slug: bullish-market-history-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-market-history-data-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-market-history-data-api-openapi.yml
 - filename: bullish-market-maker-protection-api-openapi.yml
   format: yaml
   label: Bullish Market Maker Protection API
   slug: bullish-market-maker-protection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-market-maker-protection-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-market-maker-protection-api-openapi.yml
 - filename: bullish-orders-api-openapi.yml
   format: yaml
   label: Bullish Orders API
   slug: bullish-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-orders-api-openapi.yml
 - filename: bullish-otc-api-openapi.yml
   format: yaml
   label: Bullish Otc API
   slug: bullish-otc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-otc-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-otc-api-openapi.yml
 - filename: bullish-portfolio-margin-simulator-api-openapi.yml
   format: yaml
   label: Bullish Portfolio Margin Simulator API
   slug: bullish-portfolio-margin-simulator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-portfolio-margin-simulator-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-portfolio-margin-simulator-api-openapi.yml
 - filename: bullish-session-management-api-openapi.yml
   format: yaml
   label: Bullish Session Management API
   slug: bullish-session-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-session-management-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-session-management-api-openapi.yml
 - filename: bullish-trades-api-openapi.yml
   format: yaml
   label: Bullish Trades API
   slug: bullish-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-trades-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-trades-api-openapi.yml
 - filename: bullish-trading-accounts-api-openapi.yml
   format: yaml
   label: Bullish Trading Accounts API
   slug: bullish-trading-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-trading-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-trading-accounts-api-openapi.yml
 - filename: bullish-transfer-api-openapi.yml
   format: yaml
   label: Bullish Transfer API
   slug: bullish-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/bullish-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/bullish/openapi/bullish-transfer-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 65
@@ -347,7 +347,7 @@ source_yaml: "generated: '2026-08-08'\nmethod: generated\nsource: openapi/bullis
   \    audit: none\n- path: /v2/idb/delegated-accounts\n  method: get\n  operationId: idb-otc-get-delegated-accounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/idb/otc-trades\n  method: post\n  operationId: idb-otc-create-trade\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/idb/otc-trades#list\n  method: get\n  operationId: idb-otc-get-trades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/idb/otc-command#cancel\n  method: post\n  operationId: idb-otc-command-cancel\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/idb/otc-command#update-remarks\n  method: post\n  operationId: idb-otc-command-update-remarks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/expiry-prices/{symbol}\n  method: get\n  operationId: get-expiry-prices--symbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/markets/{symbol}/auctions\n  method: get\n  operationId:\
   \ getAuctionBySymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/markets/{symbol}/auctions/noii\n  method: get\n  operationId: getAuctionNoii\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/history/markets/{symbol}/auctions\n  method: get\n  operationId: getHistoricalAuctionResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/agentic-access/bullish-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bullish/agentic-access/bullish-agentic-access.yml
 summary_line: 94 operations · 29 acting · 3 human-in-the-loop
 tags:
 - Digital Assets

@@ -9,127 +9,127 @@ api_specs:
   label: GONNA Arena API
   slug: gonna-bond-arena-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-arena-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-arena-api-openapi.yml
 - filename: gonna-bond-batch-check-api-openapi.yml
   format: yaml
   label: GONNA Batch Check API
   slug: gonna-bond-batch-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-batch-check-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-batch-check-api-openapi.yml
 - filename: gonna-bond-chain-logos-api-openapi.yml
   format: yaml
   label: GONNA Chain Logos API
   slug: gonna-bond-chain-logos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-chain-logos-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-chain-logos-api-openapi.yml
 - filename: gonna-bond-check-api-openapi.yml
   format: yaml
   label: GONNA Check API
   slug: gonna-bond-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-check-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-check-api-openapi.yml
 - filename: gonna-bond-compare-api-openapi.yml
   format: yaml
   label: GONNA Compare API
   slug: gonna-bond-compare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-compare-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-compare-api-openapi.yml
 - filename: gonna-bond-deep-check-api-openapi.yml
   format: yaml
   label: GONNA Deep Check API
   slug: gonna-bond-deep-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-deep-check-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-deep-check-api-openapi.yml
 - filename: gonna-bond-health-api-openapi.yml
   format: yaml
   label: GONNA Health API
   slug: gonna-bond-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-health-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-health-api-openapi.yml
 - filename: gonna-bond-history-api-openapi.yml
   format: yaml
   label: GONNA History API
   slug: gonna-bond-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-history-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-history-api-openapi.yml
 - filename: gonna-bond-leaderboard-api-openapi.yml
   format: yaml
   label: GONNA Leaderboard API
   slug: gonna-bond-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-leaderboard-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-leaderboard-api-openapi.yml
 - filename: gonna-bond-merchant-api-openapi.yml
   format: yaml
   label: GONNA Merchant API
   slug: gonna-bond-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-merchant-api-openapi.yml
 - filename: gonna-bond-networks-api-openapi.yml
   format: yaml
   label: GONNA Networks API
   slug: gonna-bond-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-networks-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-networks-api-openapi.yml
 - filename: gonna-bond-pulse-api-openapi.yml
   format: yaml
   label: GONNA Pulse API
   slug: gonna-bond-pulse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-pulse-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-pulse-api-openapi.yml
 - filename: gonna-bond-receipts-api-openapi.yml
   format: yaml
   label: GONNA Receipts API
   slug: gonna-bond-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-receipts-api-openapi.yml
 - filename: gonna-bond-referee-api-openapi.yml
   format: yaml
   label: GONNA Referee API
   slug: gonna-bond-referee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-referee-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-referee-api-openapi.yml
 - filename: gonna-bond-report-api-openapi.yml
   format: yaml
   label: GONNA Report API
   slug: gonna-bond-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-report-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-report-api-openapi.yml
 - filename: gonna-bond-route-api-openapi.yml
   format: yaml
   label: GONNA Route API
   slug: gonna-bond-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-route-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-route-api-openapi.yml
 - filename: gonna-bond-stats-api-openapi.yml
   format: yaml
   label: GONNA Stats API
   slug: gonna-bond-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-stats-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-stats-api-openapi.yml
 - filename: gonna-bond-trending-api-openapi.yml
   format: yaml
   label: GONNA Trending API
   slug: gonna-bond-trending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-trending-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-trending-api-openapi.yml
 - filename: gonna-bond-watch-api-openapi.yml
   format: yaml
   label: GONNA Watch API
   slug: gonna-bond-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-watch-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-watch-api-openapi.yml
 - filename: gonna-bond-watches-api-openapi.yml
   format: yaml
   label: GONNA Watches API
   slug: gonna-bond-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-watches-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-watches-api-openapi.yml
 - filename: gonna-bond-well-known-api-openapi.yml
   format: yaml
   label: GONNA .well Known API
   slug: gonna-bond-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/openapi/gonna-bond-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/gonna-bond/openapi/gonna-bond-well-known-api-openapi.yml
 consequence_counts:
   read: 21
   write: 3
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/gonna-
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/arena/preview\n  method: get\n  operationId: arena_preview_v1_arena_preview_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/legit\n  method: get\n  operationId: wellknown__well_known_legit_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/history\n  method: get\n  operationId: history_v1_history_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/watch\n  method: post\n  operationId: create_watch_v1_watch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/watches/{watch_id}\n  method: get\n  operationId: watch_status_v1_watches__watch_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/watches/{watch_id}/events\n  method: get\n  operationId: watch_events_v1_watches__watch_id__events_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/deep-check\n  method: post\n  operationId: deep_check_v1_deep_check_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/referee/reproduce.py\n\
   \  method: get\n  operationId: referee_reproduce_script_v1_referee_reproduce_py_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/referee\n  method: get\n  operationId: referee_report_v1_referee_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gonna-bond/refs/heads/main/agentic-access/gonna-bond-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gonna-bond/agentic-access/gonna-bond-agentic-access.yml
 summary_line: 24 operations · 3 acting
 tags:
 - Company

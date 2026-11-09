@@ -8,31 +8,31 @@ api_specs:
   label: OpenLaws Courts API
   slug: openlaws-courts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-courts-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-courts-api-openapi.yml
 - filename: openlaws-jurisdictions-api-openapi.yml
   format: yaml
   label: OpenLaws Jurisdictions API
   slug: openlaws-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-jurisdictions-api-openapi.yml
 - filename: openlaws-law-divisions-api-openapi.yml
   format: yaml
   label: OpenLaws Law Divisions API
   slug: openlaws-law-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-law-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-law-divisions-api-openapi.yml
 - filename: openlaws-laws-api-openapi.yml
   format: yaml
   label: OpenLaws Laws API
   slug: openlaws-laws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-laws-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-laws-api-openapi.yml
 - filename: openlaws-opinions-api-openapi.yml
   format: yaml
   label: OpenLaws Opinions API
   slug: openlaws-opinions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/openapi/openlaws-opinions-api-openapi.yml
+  url: https://artifacts.apis.io/openlaws/openapi/openlaws-opinions-api-openapi.yml
 consequence_counts:
   read: 28
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openla
   \  method: get\n  operationId: getDivisionsUpdatedAfter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jurisdictions/{jurisdiction_key}/laws/{law_key}/divisions/{starting_path}/updates\n  method: get\n  operationId: getDivisionsByPathUpdatedAfter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jurisdictions/{jurisdiction_key}/laws/search\n  method: get\n  operationId: keywordSearchDivisionWithinJurisdiction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jurisdictions/{jurisdiction_key}/laws/{law_key}/search\n  method: get\n  operationId: keywordSearchDivisionWithinLaw\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jurisdictions/{jurisdiction_key}/laws/citations\n  method: get\n  operationId: lookupByBluebookCitation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jurisdictions/{jurisdiction_key}/laws\n  method: get\n  operationId: getLawsByJurisdiction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jurisdictions/{jurisdiction_key}/courts\n  method: get\n  operationId: getCourtsByJurisdiction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jurisdictions/{jurisdiction_key}/courts/{court_key}\n  method: get\n  operationId: getCourt\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jurisdictions/{jurisdiction_key}/opinions/search\n  method: get\n  operationId: keywordSearchOpinions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jurisdictions/{jurisdiction_key}/opinions/citations\n  method: get\n  operationId: lookupOpinionByBluebookCitation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/laws\n  method: get\n  operationId: getLaws\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/agentic-access/openlaws-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openlaws/agentic-access/openlaws-agentic-access.yml
 summary_line: 28 operations
 tags:
 - Legal

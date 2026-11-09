@@ -21,37 +21,37 @@ api_specs:
   label: PlayHT Agents API
   slug: playht-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-agents-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-agents-api-openapi.yml
 - filename: playht-conversations-api-openapi.yml
   format: yaml
   label: PlayHT Conversations API
   slug: playht-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-conversations-api-openapi.yml
 - filename: playht-external-functions-api-openapi.yml
   format: yaml
   label: PlayHT External Functions API
   slug: playht-external-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-external-functions-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-external-functions-api-openapi.yml
 - filename: playht-playnote-api-openapi.yml
   format: yaml
   label: PlayHT PlayNote API
   slug: playht-playnote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-playnote-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-playnote-api-openapi.yml
 - filename: playht-tts-api-openapi.yml
   format: yaml
   label: PlayHT TTS API
   slug: playht-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-tts-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-tts-api-openapi.yml
 - filename: playht-voices-api-openapi.yml
   format: yaml
   label: PlayHT Voices API
   slug: playht-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-voices-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-voices-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/playht
   \      max-ttl: 3600\n    audit: none\n- path: /api/v1/tts/stream\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/voices\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agents\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/agents/{agentId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agents/{agentId}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/agents/{agentId}/conversations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agents/{agentId}/conversations/{conversationId}/transcript\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/external-functions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/v1/external-functions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/playnotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/playnotes/{playNoteId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/agentic-access/playht-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/playht/agentic-access/playht-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Voice

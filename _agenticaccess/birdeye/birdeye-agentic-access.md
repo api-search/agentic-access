@@ -9,163 +9,163 @@ api_specs:
   label: Birdeye Aggregation API
   slug: birdeye-aggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-aggregation-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-aggregation-api-openapi.yml
 - filename: birdeye-business-api-openapi.yml
   format: yaml
   label: Birdeye Business API
   slug: birdeye-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-business-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-business-api-openapi.yml
 - filename: birdeye-business-media-api-openapi.yml
   format: yaml
   label: Birdeye Business Media API
   slug: birdeye-business-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-business-media-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-business-media-api-openapi.yml
 - filename: birdeye-campaign-api-openapi.yml
   format: yaml
   label: Birdeye Campaign API
   slug: birdeye-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-campaign-api-openapi.yml
 - filename: birdeye-competitor-ai-api-openapi.yml
   format: yaml
   label: Birdeye Competitor AI API
   slug: birdeye-competitor-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-competitor-ai-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-competitor-ai-api-openapi.yml
 - filename: birdeye-competitor-api-openapi.yml
   format: yaml
   label: Birdeye Competitor API
   slug: birdeye-competitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-competitor-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-competitor-api-openapi.yml
 - filename: birdeye-contact-api-openapi.yml
   format: yaml
   label: Birdeye Contact API
   slug: birdeye-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-contact-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-contact-api-openapi.yml
 - filename: birdeye-contact-v2-api-openapi.yml
   format: yaml
   label: Birdeye Contact V2 API
   slug: birdeye-contact-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-contact-v2-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-contact-v2-api-openapi.yml
 - filename: birdeye-conversation-api-openapi.yml
   format: yaml
   label: Birdeye Conversation API
   slug: birdeye-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-conversation-api-openapi.yml
 - filename: birdeye-custom-fields-api-openapi.yml
   format: yaml
   label: Birdeye Custom Fields API
   slug: birdeye-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-custom-fields-api-openapi.yml
 - filename: birdeye-employee-api-openapi.yml
   format: yaml
   label: Birdeye Employee API
   slug: birdeye-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-employee-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-employee-api-openapi.yml
 - filename: birdeye-faq-api-openapi.yml
   format: yaml
   label: Birdeye FAQ API
   slug: birdeye-faq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-faq-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-faq-api-openapi.yml
 - filename: birdeye-gmb-products-api-openapi.yml
   format: yaml
   label: Birdeye GMB Products API
   slug: birdeye-gmb-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-gmb-products-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-gmb-products-api-openapi.yml
 - filename: birdeye-google-q-a-api-openapi.yml
   format: yaml
   label: Birdeye Google Q&A API
   slug: birdeye-google-q-a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-google-q-a-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-google-q-a-api-openapi.yml
 - filename: birdeye-google-services-api-openapi.yml
   format: yaml
   label: Birdeye Google Services API
   slug: birdeye-google-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-google-services-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-google-services-api-openapi.yml
 - filename: birdeye-insight-ai-api-openapi.yml
   format: yaml
   label: Birdeye Insight AI API
   slug: birdeye-insight-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-insight-ai-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-insight-ai-api-openapi.yml
 - filename: birdeye-integration-api-openapi.yml
   format: yaml
   label: Birdeye Integration API
   slug: birdeye-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-integration-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-integration-api-openapi.yml
 - filename: birdeye-listing-api-openapi.yml
   format: yaml
   label: Birdeye Listing API
   slug: birdeye-listing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-listing-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-listing-api-openapi.yml
 - filename: birdeye-report-api-openapi.yml
   format: yaml
   label: Birdeye Report API
   slug: birdeye-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-report-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-report-api-openapi.yml
 - filename: birdeye-reviews-api-openapi.yml
   format: yaml
   label: Birdeye Reviews API
   slug: birdeye-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-reviews-api-openapi.yml
 - filename: birdeye-search-ai-api-openapi.yml
   format: yaml
   label: Birdeye Search AI API
   slug: birdeye-search-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-search-ai-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-search-ai-api-openapi.yml
 - filename: birdeye-social-api-openapi.yml
   format: yaml
   label: Birdeye Social API
   slug: birdeye-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-social-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-social-api-openapi.yml
 - filename: birdeye-subscription-api-openapi.yml
   format: yaml
   label: Birdeye Subscription API
   slug: birdeye-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-subscription-api-openapi.yml
 - filename: birdeye-survey-api-openapi.yml
   format: yaml
   label: Birdeye Survey API
   slug: birdeye-survey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-survey-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-survey-api-openapi.yml
 - filename: birdeye-ticketing-api-openapi.yml
   format: yaml
   label: Birdeye Ticketing API
   slug: birdeye-ticketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-ticketing-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-ticketing-api-openapi.yml
 - filename: birdeye-user-api-openapi.yml
   format: yaml
   label: Birdeye User API
   slug: birdeye-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-user-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-user-api-openapi.yml
 - filename: birdeye-webhook-api-openapi.yml
   format: yaml
   label: Birdeye Webhook API
   slug: birdeye-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/openapi/birdeye-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/birdeye/openapi/birdeye-webhook-api-openapi.yml
 consequence_counts:
   read: 68
   write: 100
@@ -224,8 +224,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/birdey
   \ post\n  operationId: get-insight-experience-location-info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/insight/experience/over-time\n  method: post\n  operationId: getInsightExperienceOverTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/add/businessintegrationmapping\n  method: put\n  operationId: add-locations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/listing/fix\n  method: post\n  operationId: fix-listing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/listing/status/location\n  method: get\n  operationId: get-location-status-report\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/listing/insights\n  method: post\n  operationId: listings-insights\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/listing/report/{reportType}/datapoints\n  method: post\n  operationId: listings-insights-datapoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/listing/{businessNumber}/gmb-attributes-list\n  method: get\n  operationId: get-gmb-attributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/listing/{businessNumber}/apple-location-attributes-list\n  method: get\n  operationId: get-apple-attributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/listing/{businessNumber}/apple-action-links\n  method: get\n  operationId: get-apple-action-links\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/listing/{businessNumber}/category-list\n\
-  \  method: get\n  operationId: get-category-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/listing/{businessNumber}/create\n  method: post\n  operationId: create-listing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/listing/{businessNumber}/update\n  method: put\n  operationId: update-listing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (52 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/agentic-access/birdeye-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/agentic-access/birdeye-agentic-access.yml
+  \  method: get\n  operationId: get-category-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/listing/{businessNumber}/create\n  method: post\n  operationId: create-listing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/listing/{businessNumber}/update\n  method: put\n  operationId: update-listing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (52 KB total) ---\n# Full source: https://artifacts.apis.io/birdeye/agentic-access/birdeye-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/birdeye/agentic-access/birdeye-agentic-access.yml
 summary_line: 168 operations · 100 acting
 tags:
 - Reputation Management

@@ -30,7 +30,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/energynorth-uk-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 2\n    acting: 1\n  by_consequence:\n    read: 2\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/journal\n  method: get\n  operationId: searchGuides\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/journal/guide\n  method: get\n  operationId: getGuide\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/mcp\n  method: post\n  operationId:\
   \ mcp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energynorth-uk/refs/heads/main/agentic-access/energynorth-uk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/energynorth-uk/agentic-access/energynorth-uk-agentic-access.yml
 summary_line: 3 operations · 1 acting
 tags:
 - Energy

@@ -9,145 +9,145 @@ api_specs:
   label: Qwist Accesses API
   slug: qwist-accesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-accesses-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-accesses-api-openapi.yml
 - filename: qwist-account-verification-api-openapi.yml
   format: yaml
   label: Qwist Account Verification API
   slug: qwist-account-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-account-verification-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-account-verification-api-openapi.yml
 - filename: qwist-accounts-api-openapi.yml
   format: yaml
   label: Qwist Accounts API
   slug: qwist-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-accounts-api-openapi.yml
 - filename: qwist-aggregations-api-openapi.yml
   format: yaml
   label: Qwist Aggregations API
   slug: qwist-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-aggregations-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-aggregations-api-openapi.yml
 - filename: qwist-artifacts-api-openapi.yml
   format: yaml
   label: Qwist Artifacts API
   slug: qwist-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-artifacts-api-openapi.yml
 - filename: qwist-catalog-api-openapi.yml
   format: yaml
   label: Qwist Catalog API
   slug: qwist-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-catalog-api-openapi.yml
 - filename: qwist-categorization-api-openapi.yml
   format: yaml
   label: Qwist Categorization API
   slug: qwist-categorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-categorization-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-categorization-api-openapi.yml
 - filename: qwist-client-authorization-api-openapi.yml
   format: yaml
   label: Qwist Client Authorization API
   slug: qwist-client-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-client-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-client-authorization-api-openapi.yml
 - filename: qwist-contracts-api-openapi.yml
   format: yaml
   label: Qwist Contracts API
   slug: qwist-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-contracts-api-openapi.yml
 - filename: qwist-customizable-widget-api-openapi.yml
   format: yaml
   label: Qwist Customizable Widget API
   slug: qwist-customizable-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-customizable-widget-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-customizable-widget-api-openapi.yml
 - filename: qwist-financial-timeline-api-openapi.yml
   format: yaml
   label: Qwist Financial Timeline API
   slug: qwist-financial-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-financial-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-financial-timeline-api-openapi.yml
 - filename: qwist-income-report-api-openapi.yml
   format: yaml
   label: Qwist Income Report API
   slug: qwist-income-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-income-report-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-income-report-api-openapi.yml
 - filename: qwist-insurances-api-openapi.yml
   format: yaml
   label: Qwist Insurances API
   slug: qwist-insurances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-insurances-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-insurances-api-openapi.yml
 - filename: qwist-loans-api-openapi.yml
   format: yaml
   label: Qwist Loans API
   slug: qwist-loans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-loans-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-loans-api-openapi.yml
 - filename: qwist-notifications-api-openapi.yml
   format: yaml
   label: Qwist Notifications API
   slug: qwist-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-notifications-api-openapi.yml
 - filename: qwist-payments-api-openapi.yml
   format: yaml
   label: Qwist Payments API
   slug: qwist-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-payments-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-payments-api-openapi.yml
 - filename: qwist-risk-report-api-openapi.yml
   format: yaml
   label: Qwist Risk Report API
   slug: qwist-risk-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-risk-report-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-risk-report-api-openapi.yml
 - filename: qwist-securities-api-openapi.yml
   format: yaml
   label: Qwist Securities API
   slug: qwist-securities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-securities-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-securities-api-openapi.yml
 - filename: qwist-strong-customer-authentication-api-openapi.yml
   format: yaml
   label: Qwist Strong Customer Authentication API
   slug: qwist-strong-customer-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-strong-customer-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-strong-customer-authentication-api-openapi.yml
 - filename: qwist-synchronizations-api-openapi.yml
   format: yaml
   label: Qwist Synchronizations API
   slug: qwist-synchronizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-synchronizations-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-synchronizations-api-openapi.yml
 - filename: qwist-transaction-upload-api-openapi.yml
   format: yaml
   label: Qwist Transaction Upload API
   slug: qwist-transaction-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-transaction-upload-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-transaction-upload-api-openapi.yml
 - filename: qwist-transactions-api-openapi.yml
   format: yaml
   label: Qwist Transactions API
   slug: qwist-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-transactions-api-openapi.yml
 - filename: qwist-user-management-api-openapi.yml
   format: yaml
   label: Qwist User Management API
   slug: qwist-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-user-management-api-openapi.yml
 - filename: qwist-version-api-openapi.yml
   format: yaml
   label: Qwist Version API
   slug: qwist-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/openapi/qwist-version-api-openapi.yml
+  url: https://artifacts.apis.io/qwist/openapi/qwist-version-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 64
@@ -265,7 +265,7 @@ source_yaml: "generated: '2026-10-21'\nmethod: generated\nsource: openapi/qwist-
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/user\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rpc/categorize\n  method: post\n  operationId: categorizeTransactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uploads\n  method: post\n  operationId: createUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uploads/{upload-id}\n  method: get\n  operationId: getUploadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify-and-pay\n  method: post\n  operationId: createVerifyAndPay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwist/refs/heads/main/agentic-access/qwist-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qwist/agentic-access/qwist-agentic-access.yml
 summary_line: 105 operations · 41 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -9,25 +9,25 @@ api_specs:
   label: Move Home Organisation CIC Branches API
   slug: movehome-org-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-branches-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-branches-api-openapi.yml
 - filename: movehome-org-listings-api-openapi.yml
   format: yaml
   label: Move Home Organisation CIC Listings API
   slug: movehome-org-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-listings-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-listings-api-openapi.yml
 - filename: movehome-org-operational-api-openapi.yml
   format: yaml
   label: Move Home Organisation CIC Operational API
   slug: movehome-org-operational-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-operational-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-operational-api-openapi.yml
 - filename: movehome-org-products-api-openapi.yml
   format: yaml
   label: Move Home Organisation CIC Products API
   slug: movehome-org-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-products-api-openapi.yml
+  url: https://artifacts.apis.io/movehome-org/openapi/movehome-org-products-api-openapi.yml
 consequence_counts:
   read: 9
   write: 4
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/moveho
   \    subject: optional\n    scope:\n    - feed.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /branches/{branch_id}/performance\n  method: get\n  operationId: getBranchPerformance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - feed.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /branches/{branch_id}/enquiries\n  method: get\n  operationId: listBranchEnquiries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - feed.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/premium-listings\n  method: get\n  operationId: listPremiumListingActivations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - feed.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/premium-listings\n  method: post\n  operationId: requestPremiumListingActivation\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - products.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/premium-listings/{activation_id}\n  method: get\n  operationId: getPremiumListingActivation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - feed.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/featured-properties\n  method: get\n  operationId: listFeaturedPropertyActivations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - feed.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/featured-properties\n  method: post\n  operationId: requestFeaturedPropertyActivation\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - products.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/featured-properties/{activation_id}\n  method: get\n  operationId: getFeaturedPropertyActivation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - feed.read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/agentic-access/movehome-org-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/movehome-org/agentic-access/movehome-org-agentic-access.yml
 summary_line: 13 operations · 4 acting
 tags:
 - Real Estate

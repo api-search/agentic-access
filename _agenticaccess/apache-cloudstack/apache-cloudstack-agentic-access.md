@@ -8,25 +8,25 @@ api_specs:
   label: Apache CloudStack Networks API
   slug: apache-cloudstack-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-networks-api-openapi.yml
+  url: https://artifacts.apis.io/apache-cloudstack/openapi/apache-cloudstack-networks-api-openapi.yml
 - filename: apache-cloudstack-virtual-machines-api-openapi.yml
   format: yaml
   label: Apache CloudStack Virtual Machines API
   slug: apache-cloudstack-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/apache-cloudstack/openapi/apache-cloudstack-virtual-machines-api-openapi.yml
 - filename: apache-cloudstack-volumes-api-openapi.yml
   format: yaml
   label: Apache CloudStack Volumes API
   slug: apache-cloudstack-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/apache-cloudstack/openapi/apache-cloudstack-volumes-api-openapi.yml
 - filename: apache-cloudstack-zones-api-openapi.yml
   format: yaml
   label: Apache CloudStack Zones API
   slug: apache-cloudstack-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-zones-api-openapi.yml
+  url: https://artifacts.apis.io/apache-cloudstack/openapi/apache-cloudstack-zones-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apache-cloudstack-networks-api-openapi.yml, openapi/apache-cloudstack-virtual-machines-api-openapi.yml,\n  openapi/apache-cloudstack-volumes-api-openapi.yml, openapi/apache-cloudstack-zones-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /network/list\n  method: get\n  operationId: listNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: deployVirtualMachine\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: listVirtualMachines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vm/stop\n  method: get\n  operationId: stopVirtualMachine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vm/start\n  method: get\n  operationId: startVirtualMachine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /async/query\n  method: get\n  operationId: queryAsyncJobResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volume/list\n  method: get\n  operationId:\
   \ listVolumes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zone/list\n  method: get\n  operationId: listZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/agentic-access/apache-cloudstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-cloudstack/agentic-access/apache-cloudstack-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Apache

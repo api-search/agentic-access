@@ -9,55 +9,55 @@ api_specs:
   label: Apache CouchDB Authentication API
   slug: apache-couchdb-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/apache-couchdb/openapi/apache-couchdb-authentication-api-openapi.yml
 - filename: apache-couchdb-changes-api-openapi.yml
   format: yaml
   label: Apache CouchDB Changes API
   slug: apache-couchdb-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-changes-api-openapi.yml
+  url: https://artifacts.apis.io/apache-couchdb/openapi/apache-couchdb-changes-api-openapi.yml
 - filename: apache-couchdb-cluster-api-openapi.yml
   format: yaml
   label: Apache CouchDB Cluster API
   slug: apache-couchdb-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/apache-couchdb/openapi/apache-couchdb-cluster-api-openapi.yml
 - filename: apache-couchdb-database-api-openapi.yml
   format: yaml
   label: Apache CouchDB Database API
   slug: apache-couchdb-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-database-api-openapi.yml
+  url: https://artifacts.apis.io/apache-couchdb/openapi/apache-couchdb-database-api-openapi.yml
 - filename: apache-couchdb-design-documents-api-openapi.yml
   format: yaml
   label: Apache CouchDB Design Documents API
   slug: apache-couchdb-design-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-design-documents-api-openapi.yml
+  url: https://artifacts.apis.io/apache-couchdb/openapi/apache-couchdb-design-documents-api-openapi.yml
 - filename: apache-couchdb-documents-api-openapi.yml
   format: yaml
   label: Apache CouchDB Documents API
   slug: apache-couchdb-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-documents-api-openapi.yml
+  url: https://artifacts.apis.io/apache-couchdb/openapi/apache-couchdb-documents-api-openapi.yml
 - filename: apache-couchdb-mango-api-openapi.yml
   format: yaml
   label: Apache CouchDB Mango API
   slug: apache-couchdb-mango-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-mango-api-openapi.yml
+  url: https://artifacts.apis.io/apache-couchdb/openapi/apache-couchdb-mango-api-openapi.yml
 - filename: apache-couchdb-replication-api-openapi.yml
   format: yaml
   label: Apache CouchDB Replication API
   slug: apache-couchdb-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-replication-api-openapi.yml
+  url: https://artifacts.apis.io/apache-couchdb/openapi/apache-couchdb-replication-api-openapi.yml
 - filename: apache-couchdb-server-api-openapi.yml
   format: yaml
   label: Apache CouchDB Server API
   slug: apache-couchdb-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-server-api-openapi.yml
+  url: https://artifacts.apis.io/apache-couchdb/openapi/apache-couchdb-server-api-openapi.yml
 consequence_counts:
   read: 11
   write: 10
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apache
   \ get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{db}/{docid}\n  method: put\n  operationId: createOrUpdateDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{db}/{docid}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{db}/_bulk_docs\n  method: post\n  operationId: bulkDocs\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{db}/_find\n  method: post\n  operationId: findDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{db}/_index\n  method: get\n  operationId: getIndexes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{db}/_index\n  method: post\n  operationId: createIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /_replicate\n  method: post\n  operationId: replicate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: getServerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_all_dbs\n  method: get\n  operationId: getAllDbs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/agentic-access/apache-couchdb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-couchdb/agentic-access/apache-couchdb-agentic-access.yml
 summary_line: 21 operations · 10 acting
 tags:
 - Apache

@@ -9,7 +9,7 @@ api_specs:
   label: Cloudidr External API
   slug: cloudidr-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudidr/refs/heads/main/openapi/cloudidr-external-api-openapi.yml
+  url: https://artifacts.apis.io/cloudidr/openapi/cloudidr-external-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-10-16'\nmethod: generated\nsource: openapi/cloudi
   \  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/api/v1/flexcompute/cancel\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/api/v1/sign-in\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/api/v1/policies/cyber/{cid_ext}/customer\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/api/v1/policies/cyber/{cidr_id}/view\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/api/v1/policies/cyber/initiate/{cidr_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/api/v1/policies/cyber/terminate/{cidr_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudidr/refs/heads/main/agentic-access/cloudidr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudidr/agentic-access/cloudidr-agentic-access.yml
 summary_line: 12 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Company

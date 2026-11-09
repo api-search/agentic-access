@@ -9,31 +9,31 @@ api_specs:
   label: akta.pro Company API
   slug: akta-pro-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-company-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-company-api-openapi.yml
 - filename: akta-pro-list-generation-api-openapi.yml
   format: yaml
   label: akta.pro List Generation API
   slug: akta-pro-list-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-list-generation-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-list-generation-api-openapi.yml
 - filename: akta-pro-news-api-openapi.yml
   format: yaml
   label: akta.pro News API
   slug: akta-pro-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-news-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-news-api-openapi.yml
 - filename: akta-pro-reviews-api-openapi.yml
   format: yaml
   label: akta.pro Reviews API
   slug: akta-pro-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-reviews-api-openapi.yml
 - filename: akta-pro-supporting-apis-api-openapi.yml
   format: yaml
   label: akta.pro Supporting APIs API
   slug: akta-pro-supporting-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/openapi/akta-pro-supporting-apis-api-openapi.yml
+  url: https://artifacts.apis.io/akta-pro/openapi/akta-pro-supporting-apis-api-openapi.yml
 consequence_counts:
   read: 11
   write: 3
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/akta-p
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/company/jobs\n  method: get\n  operationId: getJobPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/company/posts\n  method: get\n  operationId: getSocialPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/company/website-traffic\n  method: get\n  operationId: getWebsiteTraffic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/company/addition-requests\n  method: post\n  operationId: createCompanyAdditionRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/status/{request_id}\n  method: get\n  operationId: getRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/list/generate/companies/\n  method: post\n  operationId: generateCompanyList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/list/filter-builder/\n  method: post\n  operationId: translateQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akta-pro/refs/heads/main/agentic-access/akta-pro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/akta-pro/agentic-access/akta-pro-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - Company

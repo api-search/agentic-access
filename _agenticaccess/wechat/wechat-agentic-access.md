@@ -8,37 +8,37 @@ api_specs:
   label: WeChat Pay APIv3 (Direct-Connect Merchant)
   slug: wechat-pay-apiv3-direct-merchant
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/asyncapi/wechat-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/wechat/asyncapi/wechat-webhooks-asyncapi.yml
 - filename: wechat-webhooks-asyncapi.yml
   format: yaml
   label: WeChat Official Accounts API
   slug: wechat-official-accounts-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/asyncapi/wechat-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/wechat/asyncapi/wechat-webhooks-asyncapi.yml
 - filename: wechat-webhooks-asyncapi.yml
   format: yaml
   label: WeChat Work (WeCom) API
   slug: wechat-work-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/asyncapi/wechat-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/wechat/asyncapi/wechat-webhooks-asyncapi.yml
 - filename: wechat-access-token-api-openapi.yml
   format: yaml
   label: WeChat Access Token API
   slug: wechat-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/openapi/wechat-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/wechat/openapi/wechat-access-token-api-openapi.yml
 - filename: wechat-login-api-openapi.yml
   format: yaml
   label: WeChat Login API
   slug: wechat-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/openapi/wechat-login-api-openapi.yml
+  url: https://artifacts.apis.io/wechat/openapi/wechat-login-api-openapi.yml
 - filename: wechat-user-information-api-openapi.yml
   format: yaml
   label: WeChat User Information API
   slug: wechat-user-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/openapi/wechat-user-information-api-openapi.yml
+  url: https://artifacts.apis.io/wechat/openapi/wechat-user-information-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wechat-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /cgi-bin/token\n  method: get\n  operationId: getAccessToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sns/jscode2session\n  method: get\n  operationId: code2Session\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wxa/getpaidunionid\n  method: get\n  operationId: getPaidUnionId\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/agentic-access/wechat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wechat/agentic-access/wechat-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Messaging

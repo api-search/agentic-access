@@ -9,133 +9,133 @@ api_specs:
   label: Embat AccountingAccounts API
   slug: embat-accountingaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-accountingaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-accountingaccounts-api-openapi.yml
 - filename: embat-attributes-api-openapi.yml
   format: yaml
   label: Embat Attributes API
   slug: embat-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-attributes-api-openapi.yml
 - filename: embat-authentication-api-openapi.yml
   format: yaml
   label: Embat Authentication API
   slug: embat-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-authentication-api-openapi.yml
 - filename: embat-balances-api-openapi.yml
   format: yaml
   label: Embat Balances API
   slug: embat-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-balances-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-balances-api-openapi.yml
 - filename: embat-banks-api-openapi.yml
   format: yaml
   label: Embat Banks API
   slug: embat-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-banks-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-banks-api-openapi.yml
 - filename: embat-categories-api-openapi.yml
   format: yaml
   label: Embat Categories API
   slug: embat-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-categories-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-categories-api-openapi.yml
 - filename: embat-companies-api-openapi.yml
   format: yaml
   label: Embat Companies API
   slug: embat-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-companies-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-companies-api-openapi.yml
 - filename: embat-contacts-api-openapi.yml
   format: yaml
   label: Embat Contacts API
   slug: embat-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-contacts-api-openapi.yml
 - filename: embat-debtscheduleconfigs-api-openapi.yml
   format: yaml
   label: Embat DebtScheduleConfigs API
   slug: embat-debtscheduleconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-debtscheduleconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-debtscheduleconfigs-api-openapi.yml
 - filename: embat-files-api-openapi.yml
   format: yaml
   label: Embat Files API
   slug: embat-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-files-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-files-api-openapi.yml
 - filename: embat-forecasts-api-openapi.yml
   format: yaml
   label: Embat Forecasts API
   slug: embat-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-forecasts-api-openapi.yml
 - filename: embat-foreignexchangerates-api-openapi.yml
   format: yaml
   label: Embat ForeignExchangeRates API
   slug: embat-foreignexchangerates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-foreignexchangerates-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-foreignexchangerates-api-openapi.yml
 - filename: embat-logs-api-openapi.yml
   format: yaml
   label: Embat Logs API
   slug: embat-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-logs-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-logs-api-openapi.yml
 - filename: embat-operations-api-openapi.yml
   format: yaml
   label: Embat Operations API
   slug: embat-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-operations-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-operations-api-openapi.yml
 - filename: embat-payments-api-openapi.yml
   format: yaml
   label: Embat Payments API
   slug: embat-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-payments-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-payments-api-openapi.yml
 - filename: embat-products-api-openapi.yml
   format: yaml
   label: Embat Products API
   slug: embat-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-products-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-products-api-openapi.yml
 - filename: embat-reconcilingitems-api-openapi.yml
   format: yaml
   label: Embat ReconcilingItems API
   slug: embat-reconcilingitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-reconcilingitems-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-reconcilingitems-api-openapi.yml
 - filename: embat-reconcilingsources-api-openapi.yml
   format: yaml
   label: Embat ReconcilingSources API
   slug: embat-reconcilingsources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-reconcilingsources-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-reconcilingsources-api-openapi.yml
 - filename: embat-scenarios-api-openapi.yml
   format: yaml
   label: Embat Scenarios API
   slug: embat-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-scenarios-api-openapi.yml
 - filename: embat-transactions-api-openapi.yml
   format: yaml
   label: Embat Transactions API
   slug: embat-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-transactions-api-openapi.yml
 - filename: embat-accounting-entries-api-openapi.yml
   format: yaml
   label: Embat Accounting Entries API
   slug: embat-accounting-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-accounting-entries-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-accounting-entries-api-openapi.yml
 - filename: embat-payment-orders-api-openapi.yml
   format: yaml
   label: Embat Payment Orders API
   slug: embat-payment-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/openapi/embat-payment-orders-api-openapi.yml
+  url: https://artifacts.apis.io/embat/openapi/embat-payment-orders-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 42
@@ -225,8 +225,8 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/embat-
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reconcilingitems/{companyId}\n  method: patch\n  operationId: update_reconciling_items_bulk_reconcilingitems__companyId__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reconcilingitems/{companyId}\n  method: delete\n  operationId: delete_reconciling_items_bulk_reconcilingitems__companyId__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reconcilingitems/{companyId}/{customId}\n  method: get\n  operationId: read_reconciling_item_reconcilingitems__companyId___customId__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reconcilingitems/{companyId}/{customId}\n  method: patch\n  operationId: update_reconciling_item_reconcilingitems__companyId___customId__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reconcilingitems/{companyId}/{customId}\n  method: delete\n  operationId: delete_reconciling_item_reconcilingitems__companyId___customId__delete\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reconcilingitems/{companyId}/bulk\n  method: post\n  operationId: create_reconciling_items_bulk_reconcilingitems__companyId__bulk_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reconcilingsources/{companyId}\n  method: get\n  operationId: list_reconciling_sources_reconcilingsources__companyId__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reconcilingsources/{companyId}\n \
-  \ method: post\n  operationId: create_reconciling_source_reconcilingsources__companyId__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reconcilingsources/{companyId}/{customId}\n  method: get\n  operationId: retrieve_reconciling_source_reconcilingsources__companyId___customId__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/agentic-access/embat-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/agentic-access/embat-agentic-access.yml
+  \ method: post\n  operationId: create_reconciling_source_reconcilingsources__companyId__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reconcilingsources/{companyId}/{customId}\n  method: get\n  operationId: retrieve_reconciling_source_reconcilingsources__companyId___customId__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/embat/agentic-access/embat-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/embat/agentic-access/embat-agentic-access.yml
 summary_line: 103 operations · 61 acting
 tags:
 - Company

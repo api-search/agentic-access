@@ -9,103 +9,103 @@ api_specs:
   label: Seismic Content Analytics API
   slug: seismic-content-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-content-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-content-analytics-api-openapi.yml
 - filename: seismic-content-api-openapi.yml
   format: yaml
   label: Seismic Content API
   slug: seismic-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-content-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-content-api-openapi.yml
 - filename: seismic-content-profiles-api-openapi.yml
   format: yaml
   label: Seismic Content Profiles API
   slug: seismic-content-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-content-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-content-profiles-api-openapi.yml
 - filename: seismic-content-properties-api-openapi.yml
   format: yaml
   label: Seismic Content Properties API
   slug: seismic-content-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-content-properties-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-content-properties-api-openapi.yml
 - filename: seismic-data-sources-api-openapi.yml
   format: yaml
   label: Seismic Data Sources API
   slug: seismic-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-data-sources-api-openapi.yml
 - filename: seismic-delivery-analytics-api-openapi.yml
   format: yaml
   label: Seismic Delivery Analytics API
   slug: seismic-delivery-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-delivery-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-delivery-analytics-api-openapi.yml
 - filename: seismic-delivery-api-openapi.yml
   format: yaml
   label: Seismic Delivery API
   slug: seismic-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-delivery-api-openapi.yml
 - filename: seismic-folders-api-openapi.yml
   format: yaml
   label: Seismic Folders API
   slug: seismic-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-folders-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-folders-api-openapi.yml
 - filename: seismic-generation-jobs-api-openapi.yml
   format: yaml
   label: Seismic Generation Jobs API
   slug: seismic-generation-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-generation-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-generation-jobs-api-openapi.yml
 - filename: seismic-groups-api-openapi.yml
   format: yaml
   label: Seismic Groups API
   slug: seismic-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-groups-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-groups-api-openapi.yml
 - filename: seismic-livedocs-api-openapi.yml
   format: yaml
   label: Seismic LiveDocs API
   slug: seismic-livedocs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-livedocs-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-livedocs-api-openapi.yml
 - filename: seismic-reports-api-openapi.yml
   format: yaml
   label: Seismic Reports API
   slug: seismic-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-reports-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-reports-api-openapi.yml
 - filename: seismic-roles-api-openapi.yml
   format: yaml
   label: Seismic Roles API
   slug: seismic-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-roles-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-roles-api-openapi.yml
 - filename: seismic-teams-api-openapi.yml
   format: yaml
   label: Seismic Teams API
   slug: seismic-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-teams-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-teams-api-openapi.yml
 - filename: seismic-templates-api-openapi.yml
   format: yaml
   label: Seismic Templates API
   slug: seismic-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-templates-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-templates-api-openapi.yml
 - filename: seismic-user-analytics-api-openapi.yml
   format: yaml
   label: Seismic User Analytics API
   slug: seismic-user-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-user-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-user-analytics-api-openapi.yml
 - filename: seismic-users-api-openapi.yml
   format: yaml
   label: Seismic Users API
   slug: seismic-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-users-api-openapi.yml
+  url: https://artifacts.apis.io/seismic/openapi/seismic-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 40
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/seismi
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/users/{userId}\n  method: get\n  operationId: getUserActivityAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /users/{userId}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/groups\n  method: get\n  operationId: getUserGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/groups\n  method: put\n\
   \  operationId: setUserGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/agentic-access/seismic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/seismic/agentic-access/seismic-agentic-access.yml
 summary_line: 60 operations · 20 acting
 tags:
 - Sales Enablement

@@ -9,37 +9,37 @@ api_specs:
   label: Ortto Accounts API
   slug: ortto-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-accounts-api-openapi.yml
 - filename: ortto-activities-api-openapi.yml
   format: yaml
   label: Ortto Activities API
   slug: ortto-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-activities-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-activities-api-openapi.yml
 - filename: ortto-campaigns-api-openapi.yml
   format: yaml
   label: Ortto Campaigns API
   slug: ortto-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-campaigns-api-openapi.yml
 - filename: ortto-people-api-openapi.yml
   format: yaml
   label: Ortto People API
   slug: ortto-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-people-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-people-api-openapi.yml
 - filename: ortto-tags-api-openapi.yml
   format: yaml
   label: Ortto Tags API
   slug: ortto-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-tags-api-openapi.yml
 - filename: ortto-transactional-api-openapi.yml
   format: yaml
   label: Ortto Transactional API
   slug: ortto-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/openapi/ortto-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/ortto/openapi/ortto-transactional-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 5
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ortto-
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /person/get\n  method: post\n  operationId: getPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/get-by-ids\n  method: post\n  operationId: getPeopleByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/delete\n  method: post\n  operationId: deletePeople\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /tags/get\n  method: post\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactional/send\n  method: post\n  operationId: sendTransactionalEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactional/send-sms\n  method: post\n  operationId: sendTransactionalSms\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/agentic-access/ortto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ortto/agentic-access/ortto-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Marketing Automation

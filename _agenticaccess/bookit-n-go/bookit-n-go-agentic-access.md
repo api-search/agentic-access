@@ -9,37 +9,37 @@ api_specs:
   label: Bookit N Go Agent API
   slug: bookit-n-go-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/openapi/bookit-n-go-agent-api-openapi.yml
+  url: https://artifacts.apis.io/bookit-n-go/openapi/bookit-n-go-agent-api-openapi.yml
 - filename: bookit-n-go-flights-api-openapi.yml
   format: yaml
   label: Bookit N Go Flights API
   slug: bookit-n-go-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/openapi/bookit-n-go-flights-api-openapi.yml
+  url: https://artifacts.apis.io/bookit-n-go/openapi/bookit-n-go-flights-api-openapi.yml
 - filename: bookit-n-go-hotels-api-openapi.yml
   format: yaml
   label: Bookit N Go Hotels API
   slug: bookit-n-go-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/openapi/bookit-n-go-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/bookit-n-go/openapi/bookit-n-go-hotels-api-openapi.yml
 - filename: bookit-n-go-travelers-api-openapi.yml
   format: yaml
   label: Bookit N Go Travelers API
   slug: bookit-n-go-travelers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/openapi/bookit-n-go-travelers-api-openapi.yml
+  url: https://artifacts.apis.io/bookit-n-go/openapi/bookit-n-go-travelers-api-openapi.yml
 - filename: bookit-n-go-trips-api-openapi.yml
   format: yaml
   label: Bookit N Go Trips API
   slug: bookit-n-go-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/openapi/bookit-n-go-trips-api-openapi.yml
+  url: https://artifacts.apis.io/bookit-n-go/openapi/bookit-n-go-trips-api-openapi.yml
 - filename: bookit-n-go-webhooks-api-openapi.yml
   format: yaml
   label: Bookit N Go Webhooks API
   slug: bookit-n-go-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/openapi/bookit-n-go-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bookit-n-go/openapi/bookit-n-go-webhooks-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-10-02'\nmethod: generated\nsource: openapi/bookit
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flights/{offerId}/fare-rules\n  method: get\n  operationId: publicGetFlightFareRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights/bookings\n  method: post\n  operationId: publicCreateFlightBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flights/bookings/{bookingId}\n  method: get\n  operationId: publicGetFlightBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /hotels/search\n  method: post\n  operationId: publicSearchHotels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotels/{offerId}/revalidate\n  method: post\n  operationId: publicRevalidateHotel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hotels/bookings\n  method: post\n  operationId: publicCreateHotelBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hotels/bookings/{bookingId}\n  method: get\n  operationId:\
   \ publicGetHotelBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/agentic-access/bookit-n-go-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bookit-n-go/agentic-access/bookit-n-go-agentic-access.yml
 summary_line: 37 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Travel

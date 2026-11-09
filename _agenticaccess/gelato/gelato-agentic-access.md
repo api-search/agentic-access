@@ -9,37 +9,37 @@ api_specs:
   label: Gelato Ecommerce API
   slug: gelato-ecommerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/openapi/gelato-ecommerce-api-openapi.yml
+  url: https://artifacts.apis.io/gelato/openapi/gelato-ecommerce-api-openapi.yml
 - filename: gelato-orders-api-openapi.yml
   format: yaml
   label: Gelato Orders API
   slug: gelato-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/openapi/gelato-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gelato/openapi/gelato-orders-api-openapi.yml
 - filename: gelato-prices-api-openapi.yml
   format: yaml
   label: Gelato Prices API
   slug: gelato-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/openapi/gelato-prices-api-openapi.yml
+  url: https://artifacts.apis.io/gelato/openapi/gelato-prices-api-openapi.yml
 - filename: gelato-product-catalog-api-openapi.yml
   format: yaml
   label: Gelato Product Catalog API
   slug: gelato-product-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/openapi/gelato-product-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/gelato/openapi/gelato-product-catalog-api-openapi.yml
 - filename: gelato-shipment-api-openapi.yml
   format: yaml
   label: Gelato Shipment API
   slug: gelato-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/openapi/gelato-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/gelato/openapi/gelato-shipment-api-openapi.yml
 - filename: gelato-stock-api-openapi.yml
   format: yaml
   label: Gelato Stock API
   slug: gelato-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/openapi/gelato-stock-api-openapi.yml
+  url: https://artifacts.apis.io/gelato/openapi/gelato-stock-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 13
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gelato
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/orders/{orderId}\n  method: patch\n  operationId: patchDraftOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/orders/{orderId}:cancel\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/products/{productUid}/prices\n  method: get\n  operationId: getProductPrices\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/catalogs\n  method: get\n  operationId: listCatalogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/catalogs/{catalogUid}\n  method: get\n  operationId: getCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/catalogs/{catalogUid}/products:search\n  method: post\n  operationId: searchProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/products/{productUid}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/products/{productUid}/cover-dimensions\n  method: get\n  operationId: getCoverDimensions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipment-methods\n  method: get\n  operationId: listShipmentMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/stock/region-availability\n  method: post\n  operationId: getStockRegionAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/agentic-access/gelato-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gelato/agentic-access/gelato-agentic-access.yml
 summary_line: 18 operations · 5 acting
 tags:
 - Print on Demand

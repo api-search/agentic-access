@@ -9,133 +9,133 @@ api_specs:
   label: Chalmers University of Technology ContractImport API
   slug: chalmers-university-of-technology-contractimport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-contractimport-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-contractimport-api-openapi.yml
 - filename: chalmers-university-of-technology-deltaimportcplpublication-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology DeltaImportCplPublication API
   slug: chalmers-university-of-technology-deltaimportcplpublication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-deltaimportcplpublication-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-deltaimportcplpublication-api-openapi.yml
 - filename: chalmers-university-of-technology-deltaimportprojectorganization-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology DeltaImportProjectOrganization API
   slug: chalmers-university-of-technology-deltaimportprojectorganization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-deltaimportprojectorganization-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-deltaimportprojectorganization-api-openapi.yml
 - filename: chalmers-university-of-technology-deltaimportprojectperson-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology DeltaImportProjectPerson API
   slug: chalmers-university-of-technology-deltaimportprojectperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-deltaimportprojectperson-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-deltaimportprojectperson-api-openapi.yml
 - filename: chalmers-university-of-technology-electronicpublicationagreementsignature-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ElectronicPublicationAgreementSignature API
   slug: chalmers-university-of-technology-electronicpublicationagreementsignature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-electronicpublicationagreementsignature-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-electronicpublicationagreementsignature-api-openapi.yml
 - filename: chalmers-university-of-technology-indexallprojects-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology IndexAllProjects API
   slug: chalmers-university-of-technology-indexallprojects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-indexallprojects-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-indexallprojects-api-openapi.yml
 - filename: chalmers-university-of-technology-indexoneproject-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology IndexOneProject API
   slug: chalmers-university-of-technology-indexoneproject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-indexoneproject-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-indexoneproject-api-openapi.yml
 - filename: chalmers-university-of-technology-localorganizations-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology LocalOrganizations API
   slug: chalmers-university-of-technology-localorganizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-localorganizations-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-localorganizations-api-openapi.yml
 - filename: chalmers-university-of-technology-organizations-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology Organizations API
   slug: chalmers-university-of-technology-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-organizations-api-openapi.yml
 - filename: chalmers-university-of-technology-projectembargos-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectEmbargos API
   slug: chalmers-university-of-technology-projectembargos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectembargos-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectembargos-api-openapi.yml
 - filename: chalmers-university-of-technology-projectorganizationupdated-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectOrganizationUpdated API
   slug: chalmers-university-of-technology-projectorganizationupdated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectorganizationupdated-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectorganizationupdated-api-openapi.yml
 - filename: chalmers-university-of-technology-projectparticipantsverification-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectParticipantsVerification API
   slug: chalmers-university-of-technology-projectparticipantsverification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectparticipantsverification-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectparticipantsverification-api-openapi.yml
 - filename: chalmers-university-of-technology-projectparticipantsverificationmail-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectParticipantsVerificationMail API
   slug: chalmers-university-of-technology-projectparticipantsverificationmail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectparticipantsverificationmail-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectparticipantsverificationmail-api-openapi.yml
 - filename: chalmers-university-of-technology-projectpersonupdated-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectPersonUpdated API
   slug: chalmers-university-of-technology-projectpersonupdated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectpersonupdated-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectpersonupdated-api-openapi.yml
 - filename: chalmers-university-of-technology-projectpublishstatus-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectPublishStatus API
   slug: chalmers-university-of-technology-projectpublishstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectpublishstatus-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectpublishstatus-api-openapi.yml
 - filename: chalmers-university-of-technology-projectqueries-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectQueries API
   slug: chalmers-university-of-technology-projectqueries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectqueries-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectqueries-api-openapi.yml
 - filename: chalmers-university-of-technology-projects-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology Projects API
   slug: chalmers-university-of-technology-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projects-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projects-api-openapi.yml
 - filename: chalmers-university-of-technology-projectsconnectedtoorganization-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectsConnectedToOrganization API
   slug: chalmers-university-of-technology-projectsconnectedtoorganization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectsconnectedtoorganization-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectsconnectedtoorganization-api-openapi.yml
 - filename: chalmers-university-of-technology-projectsconnectedtoperson-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectsConnectedToPerson API
   slug: chalmers-university-of-technology-projectsconnectedtoperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectsconnectedtoperson-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectsconnectedtoperson-api-openapi.yml
 - filename: chalmers-university-of-technology-projectsearch-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology ProjectSearch API
   slug: chalmers-university-of-technology-projectsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-projectsearch-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-projectsearch-api-openapi.yml
 - filename: chalmers-university-of-technology-simpleprojectmetadata-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology SimpleProjectMetadata API
   slug: chalmers-university-of-technology-simpleprojectmetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-simpleprojectmetadata-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-simpleprojectmetadata-api-openapi.yml
 - filename: chalmers-university-of-technology-solrimport-api-openapi.yml
   format: yaml
   label: Chalmers University of Technology SolrImport API
   slug: chalmers-university-of-technology-solrimport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/openapi/chalmers-university-of-technology-solrimport-api-openapi.yml
+  url: https://artifacts.apis.io/chalmers-university-of-technology/openapi/chalmers-university-of-technology-solrimport-api-openapi.yml
 consequence_counts:
   read: 17
   write: 31
@@ -178,7 +178,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chalme
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Projects/{id}\n  method: put\n  operationId: Projects_Put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Projects/{id}\n  method: delete\n  operationId: Projects_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/ProjectsConnectedToOrganization\n  method: get\n  operationId: ProjectsConnectedToOrganization_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /api/ProjectsConnectedToPerson\n  method: get\n  operationId: ProjectsConnectedToPerson_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ProjectSearch\n  method: get\n  operationId: ProjectSearch_GetByQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/SimpleProjectMetadata/{id}\n  method: get\n  operationId: SimpleProjectMetadata_GetById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/SolrImport\n  method: post\n  operationId: SolrImport_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/agentic-access/chalmers-university-of-technology-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chalmers-university-of-technology/agentic-access/chalmers-university-of-technology-agentic-access.yml
 summary_line: 48 operations · 31 acting
 tags:
 - Education

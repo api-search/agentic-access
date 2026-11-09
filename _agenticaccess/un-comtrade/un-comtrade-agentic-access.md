@@ -8,37 +8,37 @@ api_specs:
   label: UN Comtrade Bulk Download API
   slug: un-comtrade-bulk-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-bulk-download-api-openapi.yml
+  url: https://artifacts.apis.io/un-comtrade/openapi/un-comtrade-bulk-download-api-openapi.yml
 - filename: un-comtrade-data-availability-api-openapi.yml
   format: yaml
   label: UN Comtrade Data Availability API
   slug: un-comtrade-data-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-data-availability-api-openapi.yml
+  url: https://artifacts.apis.io/un-comtrade/openapi/un-comtrade-data-availability-api-openapi.yml
 - filename: un-comtrade-final-trade-data-api-openapi.yml
   format: yaml
   label: UN Comtrade Final Trade Data API
   slug: un-comtrade-final-trade-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-final-trade-data-api-openapi.yml
+  url: https://artifacts.apis.io/un-comtrade/openapi/un-comtrade-final-trade-data-api-openapi.yml
 - filename: un-comtrade-public-preview-api-openapi.yml
   format: yaml
   label: UN Comtrade Public Preview API
   slug: un-comtrade-public-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-public-preview-api-openapi.yml
+  url: https://artifacts.apis.io/un-comtrade/openapi/un-comtrade-public-preview-api-openapi.yml
 - filename: un-comtrade-reference-data-api-openapi.yml
   format: yaml
   label: UN Comtrade Reference Data API
   slug: un-comtrade-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/un-comtrade/openapi/un-comtrade-reference-data-api-openapi.yml
 - filename: un-comtrade-tariffline-data-api-openapi.yml
   format: yaml
   label: UN Comtrade Tariffline Data API
   slug: un-comtrade-tariffline-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/openapi/un-comtrade-tariffline-data-api-openapi.yml
+  url: https://artifacts.apis.io/un-comtrade/openapi/un-comtrade-tariffline-data-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  method: get\n  operationId: previewDataAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/v1/get/{typeCode}/{freqCode}/{clCode}\n  method: get\n  operationId: getFinalTradeData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/v1/getTariffline/{typeCode}/{freqCode}/{clCode}\n  method: get\n  operationId: getTarifflineData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/v1/getDa/{typeCode}/{freqCode}/{clCode}\n  method: get\n  operationId: getDataAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/v1/getDaTariffline/{typeCode}/{freqCode}/{clCode}\n\
   \  method: get\n  operationId: getDataAvailabilityTariffline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/v1/getLiveUpdate\n  method: get\n  operationId: getLiveUpdate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/v1/getMetadata\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk/v1/get/{typeCode}/{freqCode}/{clCode}\n  method: get\n  operationId: bulkGetTradeData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk/v1/getTariffline/{typeCode}/{freqCode}/{clCode}\n  method: get\n  operationId: bulkGetTarifflineData\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk/v1/getClassic/{typeCode}/{freqCode}/{clCode}\n  method: get\n  operationId: bulkGetClassicData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/v1/app/reference/country_groups.json\n  method: get\n  operationId: getReferenceCountryGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/agentic-access/un-comtrade-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/un-comtrade/agentic-access/un-comtrade-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Trade

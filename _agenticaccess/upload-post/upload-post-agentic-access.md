@@ -9,25 +9,25 @@ api_specs:
   label: Upload-Post Analytics API
   slug: upload-post-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/upload-post/openapi/upload-post-analytics-api-openapi.yml
 - filename: upload-post-upload-api-openapi.yml
   format: yaml
   label: Upload-Post Upload API
   slug: upload-post-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-upload-api-openapi.yml
+  url: https://artifacts.apis.io/upload-post/openapi/upload-post-upload-api-openapi.yml
 - filename: upload-post-upload-management-api-openapi.yml
   format: yaml
   label: Upload-Post Upload Management API
   slug: upload-post-upload-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-upload-management-api-openapi.yml
+  url: https://artifacts.apis.io/upload-post/openapi/upload-post-upload-management-api-openapi.yml
 - filename: upload-post-users-api-openapi.yml
   format: yaml
   label: Upload-Post Users API
   slug: upload-post-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/openapi/upload-post-users-api-openapi.yml
+  url: https://artifacts.apis.io/upload-post/openapi/upload-post-users-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -58,12 +58,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/upload
   - path: /uploadposts/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uploadposts/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uploadposts/users\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uploadposts/users/{username}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uploadposts/users/generate-jwt\n  method: post\n  operationId: generateJwt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uploadposts/users/validate-jwt\n  method: post\n  operationId: validateJwt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uploadposts/me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/{profile_username}\n  method: get\n  operationId: getAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uploadposts/total-impressions/{profile_username}\n  method: get\n  operationId: getTotalImpressions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uploadposts/post-analytics/{request_id}\n  method: get\n  operationId: getPostAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/agentic-access/upload-post-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/upload-post/agentic-access/upload-post-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Social Media
 - Publishing
 - Video
 - Content
-- Cross Posting
+- Cross-Posting
 ---

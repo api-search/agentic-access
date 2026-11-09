@@ -9,49 +9,49 @@ api_specs:
   label: Commusoft Authentication API
   slug: commusoft-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-authentication-api-openapi.yml
 - filename: commusoft-contacts-api-openapi.yml
   format: yaml
   label: Commusoft Contacts API
   slug: commusoft-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-contacts-api-openapi.yml
 - filename: commusoft-customers-api-openapi.yml
   format: yaml
   label: Commusoft Customers API
   slug: commusoft-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-customers-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-customers-api-openapi.yml
 - filename: commusoft-diary-events-api-openapi.yml
   format: yaml
   label: Commusoft Diary Events API
   slug: commusoft-diary-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-diary-events-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-diary-events-api-openapi.yml
 - filename: commusoft-locations-api-openapi.yml
   format: yaml
   label: Commusoft Locations API
   slug: commusoft-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-locations-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-locations-api-openapi.yml
 - filename: commusoft-suppliers-api-openapi.yml
   format: yaml
   label: Commusoft Suppliers API
   slug: commusoft-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-suppliers-api-openapi.yml
 - filename: commusoft-titles-api-openapi.yml
   format: yaml
   label: Commusoft Titles API
   slug: commusoft-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-titles-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-titles-api-openapi.yml
 - filename: commusoft-users-api-openapi.yml
   format: yaml
   label: Commusoft Users API
   slug: commusoft-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/openapi/commusoft-users-api-openapi.yml
+  url: https://artifacts.apis.io/commusoft/openapi/commusoft-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 15
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/commus
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /titles\n  method: post\n  operationId: createTitle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /titles/{uuid}\n  method: put\n  operationId: updateTitle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /titles/{uuid}\n  method: delete\n  operationId: deleteTitle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: post\n  operationId: createLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations/{uuid}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{uuid}\n  method: put\n  operationId: updateLocation\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/agentic-access/commusoft-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/commusoft/agentic-access/commusoft-agentic-access.yml
 summary_line: 27 operations · 15 acting
 tags:
 - Field Service Management

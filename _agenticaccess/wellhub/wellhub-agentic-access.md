@@ -9,25 +9,25 @@ api_specs:
   label: Wellhub Companies API
   slug: wellhub-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-companies-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-companies-api-openapi.yml
 - filename: wellhub-employees-api-openapi.yml
   format: yaml
   label: Wellhub Employees API
   slug: wellhub-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-employees-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-employees-api-openapi.yml
 - filename: wellhub-jobs-api-openapi.yml
   format: yaml
   label: Wellhub Jobs API
   slug: wellhub-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-jobs-api-openapi.yml
 - filename: wellhub-oauth-api-openapi.yml
   format: yaml
   label: Wellhub O Auth API
   slug: wellhub-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/openapi/wellhub-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/wellhub/openapi/wellhub-oauth-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/wellhu
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companies/{company-tax-id}/employees\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/employees\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/eligibility/jobs\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/eligibility/jobs/{job-id}/items\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/eligibility/jobs/{job-id}/items\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/eligibility/jobs/{job-id}/submit\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/eligibility/jobs/{job-id}/status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/eligibility/jobs/{job-id}/errors\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/agentic-access/wellhub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wellhub/agentic-access/wellhub-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Company

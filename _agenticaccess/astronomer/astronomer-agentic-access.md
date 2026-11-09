@@ -9,13 +9,13 @@ api_specs:
   label: Astronomer Mux Create Upload API
   slug: astronomer-mux-create-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomer/refs/heads/main/openapi/astronomer-mux-create-upload-api-openapi.yml
+  url: https://artifacts.apis.io/astronomer/openapi/astronomer-mux-create-upload-api-openapi.yml
 - filename: astronomer-mux-get-playback-id-api-openapi.yml
   format: yaml
   label: Astronomer Mux Get Playback Id API
   slug: astronomer-mux-get-playback-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomer/refs/heads/main/openapi/astronomer-mux-get-playback-id-api-openapi.yml
+  url: https://artifacts.apis.io/astronomer/openapi/astronomer-mux-get-playback-id-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 32
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/astron
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/users/{userId}/teams\n  method: get\n  operationId: ListUserTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/workspaces\n  method: get\n  operationId: ListWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/workspaces\n  method: post\n  operationId: CreateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/workspaces/{workspaceId}\n\
   \  method: delete\n  operationId: DeleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/workspaces/{workspaceId}\n  method: get\n  operationId: GetWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/workspaces/{workspaceId}\n  method: post\n  operationId: UpdateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/self\n  method:\
   \ get\n  operationId: GetSelfUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astronomer/refs/heads/main/agentic-access/astronomer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/astronomer/agentic-access/astronomer-agentic-access.yml
 summary_line: 75 operations · 43 acting · 2 human-in-the-loop
 tags:
 - Company

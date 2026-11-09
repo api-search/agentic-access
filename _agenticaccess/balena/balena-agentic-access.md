@@ -9,25 +9,25 @@ api_specs:
   label: Balena Applications API
   slug: balena-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-applications-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-applications-api-openapi.yml
 - filename: balena-device-tags-api-openapi.yml
   format: yaml
   label: Balena Device Tags API
   slug: balena-device-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-device-tags-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-device-tags-api-openapi.yml
 - filename: balena-devices-api-openapi.yml
   format: yaml
   label: Balena Devices API
   slug: balena-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-devices-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-devices-api-openapi.yml
 - filename: balena-releases-api-openapi.yml
   format: yaml
   label: Balena Releases API
   slug: balena-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/openapi/balena-releases-api-openapi.yml
+  url: https://artifacts.apis.io/balena/openapi/balena-releases-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/balena
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /device({id})\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device({id})\n  method: patch\n  operationId: updateDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /device({id})\n  method: delete\n  operationId: deleteDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /application\n  method:\
   \ get\n  operationId: listApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /application\n  method: post\n  operationId: createApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /application({id})\n  method: get\n  operationId: getApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /application({id})\n  method: delete\n  operationId: deleteApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /release\n  method: get\n  operationId: listReleases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device_tag\n  method: get\n  operationId: listDeviceTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device_tag\n  method: post\n  operationId: createDeviceTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/agentic-access/balena-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/balena/agentic-access/balena-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Containers

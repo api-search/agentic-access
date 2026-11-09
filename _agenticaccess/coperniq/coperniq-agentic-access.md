@@ -9,169 +9,169 @@ api_specs:
   label: Coperniq Accounts API
   slug: coperniq-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-accounts-api-openapi.yml
 - filename: coperniq-ahjs-api-openapi.yml
   format: yaml
   label: Coperniq ahJs API
   slug: coperniq-ahjs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-ahjs-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-ahjs-api-openapi.yml
 - filename: coperniq-appointments-api-openapi.yml
   format: yaml
   label: Coperniq Appointments API
   slug: coperniq-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-appointments-api-openapi.yml
 - filename: coperniq-assets-api-openapi.yml
   format: yaml
   label: Coperniq Assets API
   slug: coperniq-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-assets-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-assets-api-openapi.yml
 - filename: coperniq-authentication-api-openapi.yml
   format: yaml
   label: Coperniq Authentication API
   slug: coperniq-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-authentication-api-openapi.yml
 - filename: coperniq-bills-api-openapi.yml
   format: yaml
   label: Coperniq Bills API
   slug: coperniq-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-bills-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-bills-api-openapi.yml
 - filename: coperniq-calls-api-openapi.yml
   format: yaml
   label: Coperniq Calls API
   slug: coperniq-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-calls-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-calls-api-openapi.yml
 - filename: coperniq-contacts-api-openapi.yml
   format: yaml
   label: Coperniq Contacts API
   slug: coperniq-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-contacts-api-openapi.yml
 - filename: coperniq-files-api-openapi.yml
   format: yaml
   label: Coperniq Files API
   slug: coperniq-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-files-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-files-api-openapi.yml
 - filename: coperniq-forms-api-openapi.yml
   format: yaml
   label: Coperniq Forms API
   slug: coperniq-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-forms-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-forms-api-openapi.yml
 - filename: coperniq-invoices-api-openapi.yml
   format: yaml
   label: Coperniq Invoices API
   slug: coperniq-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-invoices-api-openapi.yml
 - filename: coperniq-labels-api-openapi.yml
   format: yaml
   label: Coperniq Labels API
   slug: coperniq-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-labels-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-labels-api-openapi.yml
 - filename: coperniq-notes-api-openapi.yml
   format: yaml
   label: Coperniq Notes API
   slug: coperniq-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-notes-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-notes-api-openapi.yml
 - filename: coperniq-opportunities-api-openapi.yml
   format: yaml
   label: Coperniq Opportunities API
   slug: coperniq-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-opportunities-api-openapi.yml
 - filename: coperniq-payments-api-openapi.yml
   format: yaml
   label: Coperniq Payments API
   slug: coperniq-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-payments-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-payments-api-openapi.yml
 - filename: coperniq-projects-api-openapi.yml
   format: yaml
   label: Coperniq Projects API
   slug: coperniq-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-projects-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-projects-api-openapi.yml
 - filename: coperniq-properties-api-openapi.yml
   format: yaml
   label: Coperniq Properties API
   slug: coperniq-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-properties-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-properties-api-openapi.yml
 - filename: coperniq-quotes-api-openapi.yml
   format: yaml
   label: Coperniq Quotes API
   slug: coperniq-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-quotes-api-openapi.yml
 - filename: coperniq-reminders-api-openapi.yml
   format: yaml
   label: Coperniq Reminders API
   slug: coperniq-reminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-reminders-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-reminders-api-openapi.yml
 - filename: coperniq-sites-api-openapi.yml
   format: yaml
   label: Coperniq Sites API
   slug: coperniq-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-sites-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-sites-api-openapi.yml
 - filename: coperniq-taxes-api-openapi.yml
   format: yaml
   label: Coperniq Taxes API
   slug: coperniq-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-taxes-api-openapi.yml
 - filename: coperniq-users-api-openapi.yml
   format: yaml
   label: Coperniq Users API
   slug: coperniq-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-users-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-users-api-openapi.yml
 - filename: coperniq-vendors-api-openapi.yml
   format: yaml
   label: Coperniq Vendors API
   slug: coperniq-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-vendors-api-openapi.yml
 - filename: coperniq-workflows-api-openapi.yml
   format: yaml
   label: Coperniq Workflows API
   slug: coperniq-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-workflows-api-openapi.yml
 - filename: coperniq-catalog-items-api-openapi.yml
   format: yaml
   label: Coperniq Catalog Items API
   slug: coperniq-catalog-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-catalog-items-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-catalog-items-api-openapi.yml
 - filename: coperniq-form-templates-api-openapi.yml
   format: yaml
   label: Coperniq Form Templates API
   slug: coperniq-form-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-form-templates-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-form-templates-api-openapi.yml
 - filename: coperniq-line-items-api-openapi.yml
   format: yaml
   label: Coperniq Line Items API
   slug: coperniq-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-line-items-api-openapi.yml
 - filename: coperniq-work-orders-api-openapi.yml
   format: yaml
   label: Coperniq Work Orders API
   slug: coperniq-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/openapi/coperniq-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-work-orders-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 76
@@ -317,8 +317,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/copern
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}\n  method: patch\n  operationId: update-project\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}\n  method: delete\n  operationId: delete-project\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /properties\n  method: get\n  operationId: list-properties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /quotes\n  method: get\n  operationId: list-quotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quotes\n  method: post\n  operationId: create-quote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /opportunities/{opportunityId}/quotes\n  method: get\n  operationId: get-opportunity-quotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quotes/{quoteId}\n  method: get\n  operationId: get-quote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /quotes/{quoteId}\n  method: patch\n  operationId: update-quote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes/{quoteId}\n  method: delete\n  operationId: delete-quote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes/{quoteId}/pdf\n  method: get\n  operationId: get-quote-pdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total)\
-  \ ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/agentic-access/coperniq-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/agentic-access/coperniq-agentic-access.yml
+  \ ---\n# Full source: https://artifacts.apis.io/coperniq/agentic-access/coperniq-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/coperniq/agentic-access/coperniq-agentic-access.yml
 summary_line: 155 operations · 79 acting
 tags:
 - Company

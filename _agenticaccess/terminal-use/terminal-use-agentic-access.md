@@ -9,169 +9,169 @@ api_specs:
   label: Terminal Use Agent APIKeys API
   slug: terminal-use-agent-apikeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-agent-apikeys-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-agent-apikeys-api-openapi.yml
 - filename: terminal-use-agent-task-tracker-api-openapi.yml
   format: yaml
   label: Terminal Use Agent Task Tracker API
   slug: terminal-use-agent-task-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-agent-task-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-agent-task-tracker-api-openapi.yml
 - filename: terminal-use-agents-api-openapi.yml
   format: yaml
   label: Terminal Use Agents API
   slug: terminal-use-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-agents-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-agents-api-openapi.yml
 - filename: terminal-use-api-keys-api-openapi.yml
   format: yaml
   label: Terminal Use API Keys API
   slug: terminal-use-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-api-keys-api-openapi.yml
 - filename: terminal-use-authentication-api-openapi.yml
   format: yaml
   label: Terminal Use Authentication API
   slug: terminal-use-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-authentication-api-openapi.yml
 - filename: terminal-use-branch-events-api-openapi.yml
   format: yaml
   label: Terminal Use Branch Events API
   slug: terminal-use-branch-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-branch-events-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-branch-events-api-openapi.yml
 - filename: terminal-use-branches-api-openapi.yml
   format: yaml
   label: Terminal Use Branches API
   slug: terminal-use-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-branches-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-branches-api-openapi.yml
 - filename: terminal-use-builds-api-openapi.yml
   format: yaml
   label: Terminal Use Builds API
   slug: terminal-use-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-builds-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-builds-api-openapi.yml
 - filename: terminal-use-cli-authentication-api-openapi.yml
   format: yaml
   label: Terminal Use CLI Authentication API
   slug: terminal-use-cli-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-cli-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-cli-authentication-api-openapi.yml
 - filename: terminal-use-environments-api-openapi.yml
   format: yaml
   label: Terminal Use Environments API
   slug: terminal-use-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-environments-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-environments-api-openapi.yml
 - filename: terminal-use-events-api-openapi.yml
   format: yaml
   label: Terminal Use Events API
   slug: terminal-use-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-events-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-events-api-openapi.yml
 - filename: terminal-use-filesystems-api-openapi.yml
   format: yaml
   label: Terminal Use Filesystems API
   slug: terminal-use-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-filesystems-api-openapi.yml
 - filename: terminal-use-groups-api-openapi.yml
   format: yaml
   label: Terminal Use Groups API
   slug: terminal-use-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-groups-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-groups-api-openapi.yml
 - filename: terminal-use-logs-api-openapi.yml
   format: yaml
   label: Terminal Use Logs API
   slug: terminal-use-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-logs-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-logs-api-openapi.yml
 - filename: terminal-use-messages-v2-api-openapi.yml
   format: yaml
   label: Terminal Use Messages v2 API
   slug: terminal-use-messages-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-messages-v2-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-messages-v2-api-openapi.yml
 - filename: terminal-use-namespaces-api-openapi.yml
   format: yaml
   label: Terminal Use Namespaces API
   slug: terminal-use-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-namespaces-api-openapi.yml
 - filename: terminal-use-organizations-api-openapi.yml
   format: yaml
   label: Terminal Use Organizations API
   slug: terminal-use-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-organizations-api-openapi.yml
 - filename: terminal-use-projects-api-openapi.yml
   format: yaml
   label: Terminal Use Projects API
   slug: terminal-use-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-projects-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-projects-api-openapi.yml
 - filename: terminal-use-raw-events-api-openapi.yml
   format: yaml
   label: Terminal Use Raw Events API
   slug: terminal-use-raw-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-raw-events-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-raw-events-api-openapi.yml
 - filename: terminal-use-registry-api-openapi.yml
   format: yaml
   label: Terminal Use Registry API
   slug: terminal-use-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-registry-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-registry-api-openapi.yml
 - filename: terminal-use-schedules-api-openapi.yml
   format: yaml
   label: Terminal Use Schedules API
   slug: terminal-use-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-schedules-api-openapi.yml
 - filename: terminal-use-search-api-openapi.yml
   format: yaml
   label: Terminal Use Search API
   slug: terminal-use-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-search-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-search-api-openapi.yml
 - filename: terminal-use-secrets-api-openapi.yml
   format: yaml
   label: Terminal Use Secrets API
   slug: terminal-use-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-secrets-api-openapi.yml
 - filename: terminal-use-states-api-openapi.yml
   format: yaml
   label: Terminal Use States API
   slug: terminal-use-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-states-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-states-api-openapi.yml
 - filename: terminal-use-tasks-api-openapi.yml
   format: yaml
   label: Terminal Use Tasks API
   slug: terminal-use-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-tasks-api-openapi.yml
 - filename: terminal-use-version-events-api-openapi.yml
   format: yaml
   label: Terminal Use Version Events API
   slug: terminal-use-version-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-version-events-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-version-events-api-openapi.yml
 - filename: terminal-use-versions-api-openapi.yml
   format: yaml
   label: Terminal Use Versions API
   slug: terminal-use-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-versions-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-versions-api-openapi.yml
 - filename: terminal-use-oauth-api-openapi.yml
   format: yaml
   label: Terminal Use O Auth API
   slug: terminal-use-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/terminal-use/openapi/terminal-use-oauth-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 76
@@ -285,8 +285,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/termin
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/invitations/{invitation_id}\n  method: delete\n  operationId: organizations_revoke_invitation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/organizations/invitations/{invitation_id}/resend\n  method: post\n  operationId: organizations_resend_invitation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/members\n  method: get\n  operationId: organizations_list_members\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/members/{membership_id}\n  method: delete\n  operationId: organizations_remove_member\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/members/{membership_id}\n  method: put\n  operationId: organizations_update_member\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: projects_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: projects_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}\n  method: delete\n  operationId: projects_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}\n  method: get\n  operationId: projects_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}\n  method: patch\n  operationId: projects_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/agentic-access/terminal-use-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/agentic-access/terminal-use-agentic-access.yml
+  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}\n  method: get\n  operationId: projects_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}\n  method: patch\n  operationId: projects_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/terminal-use/agentic-access/terminal-use-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/terminal-use/agentic-access/terminal-use-agentic-access.yml
 summary_line: 153 operations · 77 acting · 2 human-in-the-loop
 tags:
 - Company

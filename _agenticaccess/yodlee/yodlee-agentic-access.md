@@ -9,127 +9,127 @@ api_specs:
   label: Yodlee Account Token API
   slug: yodlee-account-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-account-token-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-account-token-api-openapi.yml
 - filename: yodlee-accounts-api-openapi.yml
   format: yaml
   label: Yodlee Accounts API
   slug: yodlee-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-accounts-api-openapi.yml
 - filename: yodlee-auth-api-openapi.yml
   format: yaml
   label: Yodlee Auth API
   slug: yodlee-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-auth-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-auth-api-openapi.yml
 - filename: yodlee-cobrand-api-openapi.yml
   format: yaml
   label: Yodlee Cobrand API
   slug: yodlee-cobrand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-cobrand-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-cobrand-api-openapi.yml
 - filename: yodlee-configs-api-openapi.yml
   format: yaml
   label: Yodlee Configs API
   slug: yodlee-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-configs-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-configs-api-openapi.yml
 - filename: yodlee-consents-api-openapi.yml
   format: yaml
   label: Yodlee Consents API
   slug: yodlee-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-consents-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-consents-api-openapi.yml
 - filename: yodlee-dataextracts-api-openapi.yml
   format: yaml
   label: Yodlee DataExtracts API
   slug: yodlee-dataextracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-dataextracts-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-dataextracts-api-openapi.yml
 - filename: yodlee-derived-api-openapi.yml
   format: yaml
   label: Yodlee Derived API
   slug: yodlee-derived-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-derived-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-derived-api-openapi.yml
 - filename: yodlee-documents-api-openapi.yml
   format: yaml
   label: Yodlee Documents API
   slug: yodlee-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-documents-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-documents-api-openapi.yml
 - filename: yodlee-holdings-api-openapi.yml
   format: yaml
   label: Yodlee Holdings API
   slug: yodlee-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-holdings-api-openapi.yml
 - filename: yodlee-institutions-api-openapi.yml
   format: yaml
   label: Yodlee Institutions API
   slug: yodlee-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-institutions-api-openapi.yml
 - filename: yodlee-payment-processor-api-openapi.yml
   format: yaml
   label: Yodlee Payment Processor API
   slug: yodlee-payment-processor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-payment-processor-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-payment-processor-api-openapi.yml
 - filename: yodlee-providers-api-openapi.yml
   format: yaml
   label: Yodlee Providers API
   slug: yodlee-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-providers-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-providers-api-openapi.yml
 - filename: yodlee-risk-analytics-api-openapi.yml
   format: yaml
   label: Yodlee Risk Analytics API
   slug: yodlee-risk-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-risk-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-risk-analytics-api-openapi.yml
 - filename: yodlee-statements-api-openapi.yml
   format: yaml
   label: Yodlee Statements API
   slug: yodlee-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-statements-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-statements-api-openapi.yml
 - filename: yodlee-transactions-api-openapi.yml
   format: yaml
   label: Yodlee Transactions API
   slug: yodlee-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-transactions-api-openapi.yml
 - filename: yodlee-user-api-openapi.yml
   format: yaml
   label: Yodlee User API
   slug: yodlee-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-user-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-user-api-openapi.yml
 - filename: yodlee-user-documents-api-openapi.yml
   format: yaml
   label: Yodlee User Documents API
   slug: yodlee-user-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-user-documents-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-user-documents-api-openapi.yml
 - filename: yodlee-verification-api-openapi.yml
   format: yaml
   label: Yodlee Verification API
   slug: yodlee-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-verification-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-verification-api-openapi.yml
 - filename: yodlee-verify-account-api-openapi.yml
   format: yaml
   label: Yodlee Verify Account API
   slug: yodlee-verify-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-verify-account-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-verify-account-api-openapi.yml
 - filename: yodlee-provider-accounts-api-openapi.yml
   format: yaml
   label: Yodlee Provider Accounts API
   slug: yodlee-provider-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-provider-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/yodlee/openapi/yodlee-provider-accounts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 51
@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/yodlee
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verification/verifiedAccounts\n  method: get\n  operationId: getVerifiedAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification/holderProfile\n  method: get\n  operationId: getHolderProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification/classification/summary\n  method: get\n  operationId: getClassificationSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification\n  method: post\n  operationId: initiateMatchingOrChallengeDepositeVerification\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verification\n  method: get\n  operationId: getVerificationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification\n  method: put\n  operationId: verifyChallengeDeposit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verifyAccount/{providerAccountId}\n\
   \  method: post\n  operationId: initiateAccountVerification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/agentic-access/yodlee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yodlee/agentic-access/yodlee-agentic-access.yml
 summary_line: 98 operations · 47 acting · 1 human-in-the-loop
 tags:
 - Financial Data

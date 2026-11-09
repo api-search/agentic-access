@@ -9,55 +9,55 @@ api_specs:
   label: Back Market Backbox API
   slug: back-market-backbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-backbox-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-backbox-api-openapi.yml
 - filename: back-market-backship-api-openapi.yml
   format: yaml
   label: Back Market Backship API
   slug: back-market-backship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-backship-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-backship-api-openapi.yml
 - filename: back-market-care-api-openapi.yml
   format: yaml
   label: Back Market Care API
   slug: back-market-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-care-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-care-api-openapi.yml
 - filename: back-market-categories-api-openapi.yml
   format: yaml
   label: Back Market Categories API
   slug: back-market-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-categories-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-categories-api-openapi.yml
 - filename: back-market-listings-api-openapi.yml
   format: yaml
   label: Back Market Listings API
   slug: back-market-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-listings-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-listings-api-openapi.yml
 - filename: back-market-orderline-api-openapi.yml
   format: yaml
   label: Back Market Orderline API
   slug: back-market-orderline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-orderline-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-orderline-api-openapi.yml
 - filename: back-market-orders-api-openapi.yml
   format: yaml
   label: Back Market Orders API
   slug: back-market-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-orders-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-orders-api-openapi.yml
 - filename: back-market-buy-back-api-openapi.yml
   format: yaml
   label: Back Market Buy Back API
   slug: back-market-buy-back-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-buy-back-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-buy-back-api-openapi.yml
 - filename: back-market-task-manager-api-openapi.yml
   format: yaml
   label: Back Market task manager API
   slug: back-market-task-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/openapi/back-market-task-manager-api-openapi.yml
+  url: https://artifacts.apis.io/back-market/openapi/back-market-task-manager-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 25
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/back-m
   \  method: get\n  operationId: GetDelivery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/shipping/v1/returns/{id}\n  method: get\n  operationId: GetReturn\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/sav\n  method: get\n  operationId: getCareFolderList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/sav/{careFolderId}\n  method: get\n  operationId: getCareFolderDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/sav/{careFolderId}/problem\n  method: post\n  operationId: postProblem\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/sav/refund\n  method: post\n  operationId: postRefundCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/sav/{careFolderId}/msg\n  method: post\n  operationId: postMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/sav/{careFolderId}/item-transfer\n\
   \  method: post\n  operationId: postItemTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/listings_bi\n  method: get\n  operationId: GetBackboxData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/backbox/v1/competitors/{listingId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/agentic-access/back-market-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/back-market/agentic-access/back-market-agentic-access.yml
 summary_line: 39 operations · 14 acting
 tags:
 - Company

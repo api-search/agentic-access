@@ -9,31 +9,31 @@ api_specs:
   label: Elasticsearch Cat API
   slug: elasticsearch-cat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-cat-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-cat-api-openapi.yml
 - filename: elasticsearch-cluster-api-openapi.yml
   format: yaml
   label: Elasticsearch Cluster API
   slug: elasticsearch-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-cluster-api-openapi.yml
 - filename: elasticsearch-document-api-openapi.yml
   format: yaml
   label: Elasticsearch Document API
   slug: elasticsearch-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-document-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-document-api-openapi.yml
 - filename: elasticsearch-index-api-openapi.yml
   format: yaml
   label: Elasticsearch Index API
   slug: elasticsearch-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-index-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-index-api-openapi.yml
 - filename: elasticsearch-search-api-openapi.yml
   format: yaml
   label: Elasticsearch Search API
   slug: elasticsearch-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-search-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-search-api-openapi.yml
 consequence_counts:
   read: 11
   write: 6
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/elasti
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_bulk\n  method: post\n  operationId: bulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{index}\n  method: put\n  operationId: createIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{index}\n  method: get\n  operationId: getIndex\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{index}\n  method: delete\n  operationId: deleteIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{index}\n  method: head\n  operationId: indexExists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{index}/_search\n  method: get\n  operationId: searchUri\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{index}/_search\n  method: post\n  operationId: searchDsl\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/agentic-access/elasticsearch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/elasticsearch/agentic-access/elasticsearch-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - Analytics

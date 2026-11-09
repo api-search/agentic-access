@@ -9,115 +9,115 @@ api_specs:
   label: US Census Bureau ACS API
   slug: us-census-bureau-acs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-acs-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-acs-api-openapi.yml
 - filename: us-census-bureau-acs-pums-api-openapi.yml
   format: yaml
   label: US Census Bureau ACS PUMS API
   slug: us-census-bureau-acs-pums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-acs-pums-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-acs-pums-api-openapi.yml
 - filename: us-census-bureau-batch-api-openapi.yml
   format: yaml
   label: US Census Bureau Batch API
   slug: us-census-bureau-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-batch-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-batch-api-openapi.yml
 - filename: us-census-bureau-catalog-api-openapi.yml
   format: yaml
   label: US Census Bureau Catalog API
   slug: us-census-bureau-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-catalog-api-openapi.yml
 - filename: us-census-bureau-cps-api-openapi.yml
   format: yaml
   label: US Census Bureau CPS API
   slug: us-census-bureau-cps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-cps-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-cps-api-openapi.yml
 - filename: us-census-bureau-current-api-openapi.yml
   format: yaml
   label: US Census Bureau Current API
   slug: us-census-bureau-current-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-current-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-current-api-openapi.yml
 - filename: us-census-bureau-decennial-api-openapi.yml
   format: yaml
   label: US Census Bureau Decennial API
   slug: us-census-bureau-decennial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-decennial-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-decennial-api-openapi.yml
 - filename: us-census-bureau-discovery-api-openapi.yml
   format: yaml
   label: US Census Bureau Discovery API
   slug: us-census-bureau-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-discovery-api-openapi.yml
 - filename: us-census-bureau-economic-api-openapi.yml
   format: yaml
   label: US Census Bureau Economic API
   slug: us-census-bureau-economic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-economic-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-economic-api-openapi.yml
 - filename: us-census-bureau-geographies-api-openapi.yml
   format: yaml
   label: US Census Bureau Geographies API
   slug: us-census-bureau-geographies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-geographies-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-geographies-api-openapi.yml
 - filename: us-census-bureau-locations-api-openapi.yml
   format: yaml
   label: US Census Bureau Locations API
   slug: us-census-bureau-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-locations-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-locations-api-openapi.yml
 - filename: us-census-bureau-metadata-api-openapi.yml
   format: yaml
   label: US Census Bureau Metadata API
   slug: us-census-bureau-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-metadata-api-openapi.yml
 - filename: us-census-bureau-pep-api-openapi.yml
   format: yaml
   label: US Census Bureau PEP API
   slug: us-census-bureau-pep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-pep-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-pep-api-openapi.yml
 - filename: us-census-bureau-popclock-api-openapi.yml
   format: yaml
   label: US Census Bureau Popclock API
   slug: us-census-bureau-popclock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-popclock-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-popclock-api-openapi.yml
 - filename: us-census-bureau-pulse-api-openapi.yml
   format: yaml
   label: US Census Bureau Pulse API
   slug: us-census-bureau-pulse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-pulse-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-pulse-api-openapi.yml
 - filename: us-census-bureau-sipp-api-openapi.yml
   format: yaml
   label: US Census Bureau SIPP API
   slug: us-census-bureau-sipp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-sipp-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-sipp-api-openapi.yml
 - filename: us-census-bureau-census2010-api-openapi.yml
   format: yaml
   label: US Census Bureau Census2010 API
   slug: us-census-bureau-census2010-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-census2010-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-census2010-api-openapi.yml
 - filename: us-census-bureau-census2020-api-openapi.yml
   format: yaml
   label: US Census Bureau Census2020 API
   slug: us-census-bureau-census2020-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-census2020-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-census2020-api-openapi.yml
 - filename: us-census-bureau-time-series-api-openapi.yml
   format: yaml
   label: US Census Bureau Time Series API
   slug: us-census-bureau-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/openapi/us-census-bureau-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/us-census-bureau/openapi/us-census-bureau-time-series-api-openapi.yml
 consequence_counts:
   read: 45
   write: 2
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/census
   \   max-ttl: 3600\n    audit: none\n- path: /{vintage}/acs/acs5/pums\n  method: get\n  operationId: tabulateAcs5PumsPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{vintage}/cps/basic/{month}\n  method: get\n  operationId: getCpsBasic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{vintage}/sipp/{panel}/wave{wave}\n  method: get\n  operationId: getSippWave\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /popclock/data/population/uspop.json\n  method: get\n  operationId: getUsPopClock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /popclock/data/population/world.json\n\
   \  method: get\n  operationId: getWorldPopClock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: getServiceCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TIGERweb/State_County/MapServer\n  method: get\n  operationId: getStateCountyService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TIGERweb/State_County/MapServer/{layerId}/query\n  method: get\n  operationId: queryStateCountyLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TIGERweb/Tracts_Blocks/MapServer/{layerId}/query\n  method: get\n  operationId: queryTractsBlocksLayer\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TIGERweb/PUMA_TAD_TAZ_UGA_ZCTA/MapServer/{layerId}/query\n  method: get\n  operationId: queryPumaZctaLayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Census2020/State_County/MapServer/{layerId}/query\n  method: get\n  operationId: query2020StateCounty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Census2010/State_County/MapServer/{layerId}/query\n  method: get\n  operationId: query2010StateCounty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/agentic-access/us-census-bureau-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-census-bureau/agentic-access/us-census-bureau-agentic-access.yml
 summary_line: 47 operations · 2 acting
 tags:
 - Government

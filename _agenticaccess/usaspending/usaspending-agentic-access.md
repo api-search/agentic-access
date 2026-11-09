@@ -9,55 +9,55 @@ api_specs:
   label: USAspending.gov Agency API
   slug: usaspending-agency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-agency-api-openapi.yml
+  url: https://artifacts.apis.io/usaspending/openapi/usaspending-agency-api-openapi.yml
 - filename: usaspending-awards-search-api-openapi.yml
   format: yaml
   label: USAspending.gov Awards Search API
   slug: usaspending-awards-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-awards-search-api-openapi.yml
+  url: https://artifacts.apis.io/usaspending/openapi/usaspending-awards-search-api-openapi.yml
 - filename: usaspending-budget-functions-api-openapi.yml
   format: yaml
   label: USAspending.gov Budget Functions API
   slug: usaspending-budget-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-budget-functions-api-openapi.yml
+  url: https://artifacts.apis.io/usaspending/openapi/usaspending-budget-functions-api-openapi.yml
 - filename: usaspending-bulk-download-api-openapi.yml
   format: yaml
   label: USAspending.gov Bulk Download API
   slug: usaspending-bulk-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-bulk-download-api-openapi.yml
+  url: https://artifacts.apis.io/usaspending/openapi/usaspending-bulk-download-api-openapi.yml
 - filename: usaspending-disaster-api-openapi.yml
   format: yaml
   label: USAspending.gov Disaster API
   slug: usaspending-disaster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-disaster-api-openapi.yml
+  url: https://artifacts.apis.io/usaspending/openapi/usaspending-disaster-api-openapi.yml
 - filename: usaspending-federal-accounts-api-openapi.yml
   format: yaml
   label: USAspending.gov Federal Accounts API
   slug: usaspending-federal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-federal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/usaspending/openapi/usaspending-federal-accounts-api-openapi.yml
 - filename: usaspending-recipient-api-openapi.yml
   format: yaml
   label: USAspending.gov Recipient API
   slug: usaspending-recipient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-recipient-api-openapi.yml
+  url: https://artifacts.apis.io/usaspending/openapi/usaspending-recipient-api-openapi.yml
 - filename: usaspending-references-api-openapi.yml
   format: yaml
   label: USAspending.gov References API
   slug: usaspending-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-references-api-openapi.yml
+  url: https://artifacts.apis.io/usaspending/openapi/usaspending-references-api-openapi.yml
 - filename: usaspending-subawards-api-openapi.yml
   format: yaml
   label: USAspending.gov Subawards API
   slug: usaspending-subawards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/openapi/usaspending-subawards-api-openapi.yml
+  url: https://artifacts.apis.io/usaspending/openapi/usaspending-subawards-api-openapi.yml
 consequence_counts:
   read: 11
   write: 3
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/usaspe
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bulk_download/status/\n  method: get\n  operationId: getBulkDownloadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulk_download/list_agencies/\n  method: get\n  operationId: listBulkDownloadAgencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disaster/overview/\n  method: get\n  operationId: getDisasterOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /federal_accounts/{account_number}/\n\
   \  method: get\n  operationId: getFederalAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipient/\n  method: post\n  operationId: listRecipients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /references/toptier_agencies/\n  method: get\n  operationId: listToptierAgencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /autocomplete/awarding_agency_office/\n  method: post\n  operationId: autocompleteAwardingAgencyOffice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n- path: /autocomplete/recipient/\n  method: post\n  operationId: autocompleteRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subawards/\n  method: post\n  operationId: listSubawards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/agentic-access/usaspending-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/usaspending/agentic-access/usaspending-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - Government

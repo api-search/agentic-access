@@ -9,85 +9,85 @@ api_specs:
   label: OpenStack Domains API
   slug: openstack-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-domains-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-domains-api-openapi.yml
 - filename: openstack-endpoints-api-openapi.yml
   format: yaml
   label: OpenStack Endpoints API
   slug: openstack-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-endpoints-api-openapi.yml
 - filename: openstack-flavors-api-openapi.yml
   format: yaml
   label: OpenStack Flavors API
   slug: openstack-flavors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-flavors-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-flavors-api-openapi.yml
 - filename: openstack-groups-api-openapi.yml
   format: yaml
   label: OpenStack Groups API
   slug: openstack-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-groups-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-groups-api-openapi.yml
 - filename: openstack-images-api-openapi.yml
   format: yaml
   label: OpenStack Images API
   slug: openstack-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-images-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-images-api-openapi.yml
 - filename: openstack-keypairs-api-openapi.yml
   format: yaml
   label: OpenStack Keypairs API
   slug: openstack-keypairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-keypairs-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-keypairs-api-openapi.yml
 - filename: openstack-projects-api-openapi.yml
   format: yaml
   label: OpenStack Projects API
   slug: openstack-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-projects-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-projects-api-openapi.yml
 - filename: openstack-roles-api-openapi.yml
   format: yaml
   label: OpenStack Roles API
   slug: openstack-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-roles-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-roles-api-openapi.yml
 - filename: openstack-server-actions-api-openapi.yml
   format: yaml
   label: OpenStack Server Actions API
   slug: openstack-server-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-server-actions-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-server-actions-api-openapi.yml
 - filename: openstack-servers-api-openapi.yml
   format: yaml
   label: OpenStack Servers API
   slug: openstack-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-servers-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-servers-api-openapi.yml
 - filename: openstack-services-api-openapi.yml
   format: yaml
   label: OpenStack Services API
   slug: openstack-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-services-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-services-api-openapi.yml
 - filename: openstack-tokens-api-openapi.yml
   format: yaml
   label: OpenStack Tokens API
   slug: openstack-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-tokens-api-openapi.yml
 - filename: openstack-users-api-openapi.yml
   format: yaml
   label: OpenStack Users API
   slug: openstack-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-users-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-users-api-openapi.yml
 - filename: openstack-versions-api-openapi.yml
   format: yaml
   label: OpenStack Versions API
   slug: openstack-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/openapi/openstack-versions-api-openapi.yml
+  url: https://artifacts.apis.io/openstack/openapi/openstack-versions-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 1
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openst
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servers/{server_id}\n  method: delete\n  operationId: deleteServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servers/{server_id}/action\n  method: post\n  operationId: serverAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flavors\n  method: get\n  operationId: listFlavors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flavors/detail\n  method: get\n  operationId: listFlavorsDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flavors/{flavor_id}\n  method: get\n  operationId: getFlavor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images\n  method: get\n  operationId: listImagesProxy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /os-keypairs\n  method: get\n  operationId: listKeypairs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /os-keypairs\n  method: post\n  operationId: createKeypair\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /os-keypairs/{name}\n  method: get\n  operationId: getKeypair\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /os-keypairs/{name}\n  method: delete\n  operationId: deleteKeypair\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/agentic-access/openstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openstack/agentic-access/openstack-agentic-access.yml
 summary_line: 41 operations · 19 acting · 1 human-in-the-loop
 tags:
 - OpenStack

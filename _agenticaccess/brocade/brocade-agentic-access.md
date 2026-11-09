@@ -9,37 +9,37 @@ api_specs:
   label: Brocade Chassis API
   slug: brocade-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-chassis-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-chassis-api-openapi.yml
 - filename: brocade-interfaces-api-openapi.yml
   format: yaml
   label: Brocade Interfaces API
   slug: brocade-interfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-interfaces-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-interfaces-api-openapi.yml
 - filename: brocade-operations-api-openapi.yml
   format: yaml
   label: Brocade Operations API
   slug: brocade-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-operations-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-operations-api-openapi.yml
 - filename: brocade-session-api-openapi.yml
   format: yaml
   label: Brocade Session API
   slug: brocade-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-session-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-session-api-openapi.yml
 - filename: brocade-switch-api-openapi.yml
   format: yaml
   label: Brocade Switch API
   slug: brocade-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-switch-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-switch-api-openapi.yml
 - filename: brocade-zoning-api-openapi.yml
   format: yaml
   label: Brocade Zoning API
   slug: brocade-zoning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/openapi/brocade-zoning-api-openapi.yml
+  url: https://artifacts.apis.io/brocade/openapi/brocade-zoning-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/brocad
   \ getDefinedZoning\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /running/brocade-zone/defined-configuration\n  method: patch\n  operationId: patchDefinedZoning\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /running/brocade-zone/effective-configuration\n  method: get\n  operationId: getEffectiveZoning\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/zone\n  method: post\n  operationId: zoneOperation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operations/show-status\n  method: get\n  operationId: showStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/configupload\n  method: post\n  operationId: configUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operations/configdownload\n  method: post\n  operationId: configDownload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/agentic-access/brocade-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brocade/agentic-access/brocade-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Data Center

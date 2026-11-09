@@ -9,25 +9,25 @@ api_specs:
   label: Lit Protocol Account Management API
   slug: lit-protocol-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/lit-protocol/openapi/lit-protocol-account-management-api-openapi.yml
 - filename: lit-protocol-actions-api-openapi.yml
   format: yaml
   label: Lit Protocol Actions API
   slug: lit-protocol-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-actions-api-openapi.yml
+  url: https://artifacts.apis.io/lit-protocol/openapi/lit-protocol-actions-api-openapi.yml
 - filename: lit-protocol-billing-api-openapi.yml
   format: yaml
   label: Lit Protocol Billing API
   slug: lit-protocol-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-billing-api-openapi.yml
+  url: https://artifacts.apis.io/lit-protocol/openapi/lit-protocol-billing-api-openapi.yml
 - filename: lit-protocol-configuration-api-openapi.yml
   format: yaml
   label: Lit Protocol Configuration API
   slug: lit-protocol-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/openapi/lit-protocol-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/lit-protocol/openapi/lit-protocol-configuration-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lit-pr
   \ get_node_chain_config\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_chain_config_keys\n  method: get\n  operationId: get_chain_config_keys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lit_action\n  method: post\n  operationId: lit_action\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/stripe_config\n  method: get\n  operationId: billing_stripe_config\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/balance\n\
   \  method: get\n  operationId: billing_balance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/create_payment_intent\n  method: post\n  operationId: billing_create_payment_intent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/confirm_payment\n  method: post\n  operationId: billing_confirm_payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /get_lit_action_client_config\n  method: get\n  operationId: get_lit_action_client_config\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_api_payers\n  method: get\n  operationId: get_api_payers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_admin_api_payer\n  method: get\n  operationId: get_admin_api_payer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: get_version\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/agentic-access/lit-protocol-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lit-protocol/agentic-access/lit-protocol-agentic-access.yml
 summary_line: 37 operations · 21 acting
 tags:
 - Web3

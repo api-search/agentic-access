@@ -9,283 +9,283 @@ api_specs:
   label: RunAPI Anthropic API
   slug: runapi-anthropic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-anthropic-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-anthropic-api-openapi.yml
 - filename: runapi-elevenlabs-api-openapi.yml
   format: yaml
   label: RunAPI Eleven Labs API
   slug: runapi-elevenlabs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-elevenlabs-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-elevenlabs-api-openapi.yml
 - filename: runapi-fish-audio-api-openapi.yml
   format: yaml
   label: RunAPI Fish Audio API
   slug: runapi-fish-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-fish-audio-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-fish-audio-api-openapi.yml
 - filename: runapi-flux-2-api-openapi.yml
   format: yaml
   label: RunAPI Flux 2 API
   slug: runapi-flux-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-flux-2-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-flux-2-api-openapi.yml
 - filename: runapi-flux-api-openapi.yml
   format: yaml
   label: RunAPI Flux API
   slug: runapi-flux-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-flux-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-flux-api-openapi.yml
 - filename: runapi-flux-kontext-api-openapi.yml
   format: yaml
   label: RunAPI Flux Kontext API
   slug: runapi-flux-kontext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-flux-kontext-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-flux-kontext-api-openapi.yml
 - filename: runapi-gemini-api-openapi.yml
   format: yaml
   label: RunAPI Gemini API
   slug: runapi-gemini-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-gemini-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-gemini-api-openapi.yml
 - filename: runapi-gemini-omni-api-openapi.yml
   format: yaml
   label: RunAPI Gemini Omni API
   slug: runapi-gemini-omni-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-gemini-omni-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-gemini-omni-api-openapi.yml
 - filename: runapi-gemini-tts-api-openapi.yml
   format: yaml
   label: RunAPI Gemini TTS API
   slug: runapi-gemini-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-gemini-tts-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-gemini-tts-api-openapi.yml
 - filename: runapi-gpt-4o-image-api-openapi.yml
   format: yaml
   label: RunAPI GPT-4o Image API
   slug: runapi-gpt-4o-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-gpt-4o-image-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-gpt-4o-image-api-openapi.yml
 - filename: runapi-gpt-image-2-5-api-openapi.yml
   format: yaml
   label: RunAPI GPT Image 2.5 API
   slug: runapi-gpt-image-2-5-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-gpt-image-2-5-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-gpt-image-2-5-api-openapi.yml
 - filename: runapi-gpt-image-2-api-openapi.yml
   format: yaml
   label: RunAPI GPT Image 2 API
   slug: runapi-gpt-image-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-gpt-image-2-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-gpt-image-2-api-openapi.yml
 - filename: runapi-gpt-image-api-openapi.yml
   format: yaml
   label: RunAPI GPT Image API
   slug: runapi-gpt-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-gpt-image-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-gpt-image-api-openapi.yml
 - filename: runapi-grok-imagine-api-openapi.yml
   format: yaml
   label: RunAPI Grok Imagine API
   slug: runapi-grok-imagine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-grok-imagine-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-grok-imagine-api-openapi.yml
 - filename: runapi-hailuo-api-openapi.yml
   format: yaml
   label: RunAPI Hailuo API
   slug: runapi-hailuo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-hailuo-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-hailuo-api-openapi.yml
 - filename: runapi-happyhorse-api-openapi.yml
   format: yaml
   label: RunAPI Happy Horse API
   slug: runapi-happyhorse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-happyhorse-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-happyhorse-api-openapi.yml
 - filename: runapi-heygen-video-api-openapi.yml
   format: yaml
   label: RunAPI HeyGen Video API
   slug: runapi-heygen-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-heygen-video-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-heygen-video-api-openapi.yml
 - filename: runapi-ideogram-v3-api-openapi.yml
   format: yaml
   label: RunAPI Ideogram V3 API
   slug: runapi-ideogram-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-ideogram-v3-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-ideogram-v3-api-openapi.yml
 - filename: runapi-imagen-4-api-openapi.yml
   format: yaml
   label: RunAPI Imagen 4 API
   slug: runapi-imagen-4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-imagen-4-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-imagen-4-api-openapi.yml
 - filename: runapi-infinitetalk-api-openapi.yml
   format: yaml
   label: RunAPI Infinite Talk API
   slug: runapi-infinitetalk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-infinitetalk-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-infinitetalk-api-openapi.yml
 - filename: runapi-kling-api-openapi.yml
   format: yaml
   label: RunAPI Kling API
   slug: runapi-kling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-kling-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-kling-api-openapi.yml
 - filename: runapi-luma-api-openapi.yml
   format: yaml
   label: RunAPI Luma API
   slug: runapi-luma-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-luma-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-luma-api-openapi.yml
 - filename: runapi-midjourney-api-openapi.yml
   format: yaml
   label: RunAPI Midjourney API
   slug: runapi-midjourney-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-midjourney-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-midjourney-api-openapi.yml
 - filename: runapi-minimax-h3-api-openapi.yml
   format: yaml
   label: RunAPI MiniMax H3 API
   slug: runapi-minimax-h3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-minimax-h3-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-minimax-h3-api-openapi.yml
 - filename: runapi-nano-banana-api-openapi.yml
   format: yaml
   label: RunAPI Nano Banana API
   slug: runapi-nano-banana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-nano-banana-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-nano-banana-api-openapi.yml
 - filename: runapi-omnihuman-api-openapi.yml
   format: yaml
   label: RunAPI Omni Human API
   slug: runapi-omnihuman-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-omnihuman-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-omnihuman-api-openapi.yml
 - filename: runapi-openai-api-openapi.yml
   format: yaml
   label: RunAPI Open AI API
   slug: runapi-openai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-openai-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-openai-api-openapi.yml
 - filename: runapi-openai-transcription-api-openapi.yml
   format: yaml
   label: RunAPI OpenAI Transcription API
   slug: runapi-openai-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-openai-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-openai-transcription-api-openapi.yml
 - filename: runapi-openai-tts-api-openapi.yml
   format: yaml
   label: RunAPI OpenAI TTS API
   slug: runapi-openai-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-openai-tts-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-openai-tts-api-openapi.yml
 - filename: runapi-pixverse-api-openapi.yml
   format: yaml
   label: RunAPI Pix Verse API
   slug: runapi-pixverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-pixverse-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-pixverse-api-openapi.yml
 - filename: runapi-producer-api-openapi.yml
   format: yaml
   label: RunAPI Producer API
   slug: runapi-producer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-producer-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-producer-api-openapi.yml
 - filename: runapi-qwen-2-1-api-openapi.yml
   format: yaml
   label: RunAPI Qwen 2.1 API
   slug: runapi-qwen-2-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-qwen-2-1-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-qwen-2-1-api-openapi.yml
 - filename: runapi-qwen-2-api-openapi.yml
   format: yaml
   label: RunAPI Qwen 2 API
   slug: runapi-qwen-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-qwen-2-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-qwen-2-api-openapi.yml
 - filename: runapi-qwen-3-api-openapi.yml
   format: yaml
   label: RunAPI Qwen 3 API
   slug: runapi-qwen-3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-qwen-3-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-qwen-3-api-openapi.yml
 - filename: runapi-qwen-image-api-openapi.yml
   format: yaml
   label: RunAPI Qwen Image API
   slug: runapi-qwen-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-qwen-image-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-qwen-image-api-openapi.yml
 - filename: runapi-recraft-api-openapi.yml
   format: yaml
   label: RunAPI Recraft API
   slug: runapi-recraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-recraft-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-recraft-api-openapi.yml
 - filename: runapi-runway-aleph-api-openapi.yml
   format: yaml
   label: RunAPI Runway Aleph API
   slug: runapi-runway-aleph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-runway-aleph-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-runway-aleph-api-openapi.yml
 - filename: runapi-runway-api-openapi.yml
   format: yaml
   label: RunAPI Runway API
   slug: runapi-runway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-runway-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-runway-api-openapi.yml
 - filename: runapi-seedance-api-openapi.yml
   format: yaml
   label: RunAPI Seedance API
   slug: runapi-seedance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-seedance-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-seedance-api-openapi.yml
 - filename: runapi-seedream-api-openapi.yml
   format: yaml
   label: RunAPI Seedream API
   slug: runapi-seedream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-seedream-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-seedream-api-openapi.yml
 - filename: runapi-suno-api-openapi.yml
   format: yaml
   label: RunAPI Suno API
   slug: runapi-suno-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-suno-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-suno-api-openapi.yml
 - filename: runapi-topaz-api-openapi.yml
   format: yaml
   label: RunAPI Topaz API
   slug: runapi-topaz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-topaz-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-topaz-api-openapi.yml
 - filename: runapi-veo-3-1-api-openapi.yml
   format: yaml
   label: RunAPI Veo 3.1 API
   slug: runapi-veo-3-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-veo-3-1-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-veo-3-1-api-openapi.yml
 - filename: runapi-vidu-api-openapi.yml
   format: yaml
   label: RunAPI Vidu API
   slug: runapi-vidu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-vidu-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-vidu-api-openapi.yml
 - filename: runapi-volcengine-lip-sync-api-openapi.yml
   format: yaml
   label: RunAPI Volcengine Lip Sync API
   slug: runapi-volcengine-lip-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-volcengine-lip-sync-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-volcengine-lip-sync-api-openapi.yml
 - filename: runapi-wan-api-openapi.yml
   format: yaml
   label: RunAPI Wan API
   slug: runapi-wan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-wan-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-wan-api-openapi.yml
 - filename: runapi-z-image-api-openapi.yml
   format: yaml
   label: RunAPI Z Image API
   slug: runapi-z-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/openapi/runapi-z-image-api-openapi.yml
+  url: https://artifacts.apis.io/runapi/openapi/runapi-z-image-api-openapi.yml
 consequence_counts:
   read: 120
   safety-critical: 1
@@ -353,8 +353,8 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/runapi
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/kling/image_to_video/{id}\n  method: get\n  operationId: task_endpoint_kling_image_to_video_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/kling/motion_control\n  method: post\n  operationId: task_endpoint_kling_motion_control\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/kling/motion_control/{id}\n  method: get\n  operationId: task_endpoint_kling_motion_control_retrieve\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/kling/text_to_video\n  method: post\n  operationId: task_endpoint_kling_text_to_video\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/kling/text_to_video/{id}\n  method: get\n  operationId: task_endpoint_kling_text_to_video_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/luma/modify_video/{id}\n  method: get\n  operationId: task_endpoint_luma_modify_video_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/midjourney/edit_image\n  method: post\n  operationId: task_endpoint_midjourney_edit_image\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/midjourney/edit_image/{id}\n  method: get\n  operationId: task_endpoint_midjourney_edit_image_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/midjourney/extend_video\n  method: post\n  operationId: task_endpoint_midjourney_extend_video\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /api/v1/midjourney/extend_video/{id}\n  method: get\n  operationId: task_endpoint_midjourney_extend_video_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/midjourney/get_seed\n  method: post\n  operationId: task_endpoint_midjourney_get_seed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (78 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/agentic-access/runapi-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runapi/refs/heads/main/agentic-access/runapi-agentic-access.yml
+  \    audit: required\n- path: /api/v1/midjourney/extend_video/{id}\n  method: get\n  operationId: task_endpoint_midjourney_extend_video_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/midjourney/get_seed\n  method: post\n  operationId: task_endpoint_midjourney_get_seed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (78 KB total) ---\n# Full source: https://artifacts.apis.io/runapi/agentic-access/runapi-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/runapi/agentic-access/runapi-agentic-access.yml
 summary_line: 253 operations · 133 acting · 1 human-in-the-loop
 tags:
 - Company

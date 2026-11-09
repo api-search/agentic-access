@@ -8,37 +8,37 @@ api_specs:
   label: Financial Data Exchange (FDX) Account Information API
   slug: fdx-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-account-information-api-openapi.yml
 - filename: fdx-account-statements-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Account Statements API
   slug: fdx-account-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-statements-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-account-statements-api-openapi.yml
 - filename: fdx-account-transactions-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Account Transactions API
   slug: fdx-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-account-transactions-api-openapi.yml
 - filename: fdx-asset-transfer-networks-information-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Asset Transfer Networks Information API
   slug: fdx-asset-transfer-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-asset-transfer-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-asset-transfer-networks-information-api-openapi.yml
 - filename: fdx-payment-networks-information-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Payment Networks Information API
   slug: fdx-payment-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-payment-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-payment-networks-information-api-openapi.yml
 - filename: fdx-personal-information-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Personal Information API
   slug: fdx-personal-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-personal-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-personal-information-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/fdx-ac
   \   max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Account\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/statements\n  method: get\n  operationId: searchForAccountStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/statements/{statementId}\n  method: get\n  operationId: getAccountStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/transactions\n  method: get\n  operationId: searchForAccountTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Transactions\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/asset-transfer-networks\n  method: get\n  operationId: getAccountAssetTransferNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/payment-networks\n  method: get\n  operationId: getAccountPaymentNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Account\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/contact\n  method: get\n  operationId: getAccountContact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Customer\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/current\n  method: get\n  operationId: getCustomerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/agentic-access/fdx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fdx/agentic-access/fdx-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Financial Data
@@ -82,7 +82,8 @@ tags:
 - Tax Data
 - Payroll
 - REST
-- Authentication
+- OAuth
 - FAPI
 - CFPB 1033
+- Authentication
 ---

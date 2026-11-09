@@ -9,43 +9,43 @@ api_specs:
   label: Travel Risk API Adb API
   slug: travel-risk-api-adb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-adb-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-adb-api-openapi.yml
 - filename: travel-risk-api-auth-api-openapi.yml
   format: yaml
   label: Travel Risk API Auth API
   slug: travel-risk-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-auth-api-openapi.yml
 - filename: travel-risk-api-billing-api-openapi.yml
   format: yaml
   label: Travel Risk API Billing API
   slug: travel-risk-api-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-billing-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-billing-api-openapi.yml
 - filename: travel-risk-api-ext-api-openapi.yml
   format: yaml
   label: Travel Risk API Ext API
   slug: travel-risk-api-ext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-ext-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-ext-api-openapi.yml
 - filename: travel-risk-api-public-data-api-openapi.yml
   format: yaml
   label: Travel Risk API Public Data API
   slug: travel-risk-api-public-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-public-data-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-public-data-api-openapi.yml
 - filename: travel-risk-api-system-api-openapi.yml
   format: yaml
   label: Travel Risk API System API
   slug: travel-risk-api-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-system-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-system-api-openapi.yml
 - filename: travel-risk-api-usage-api-openapi.yml
   format: yaml
   label: Travel Risk API Usage API
   slug: travel-risk-api-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-usage-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-usage-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 47
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/travel
   \ post\n  operationId: create_checkout_api_v1_billing_checkout_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/billing/credits\n  method: post\n  operationId: buy_credits_api_v1_billing_credits_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/billing/portal\n  method: post\n  operationId: billing_portal_api_v1_billing_portal_post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/usage\n  method: get\n  operationId: get_usage_api_v1_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/register\n  method: post\n  operationId: register_api_key_api_v1_register_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/recover-key\n  method: post\n  operationId: recover_key_api_v1_recover_key_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/agentic-access/travel-risk-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/travel-risk-api/agentic-access/travel-risk-api-agentic-access.yml
 summary_line: 61 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Travel

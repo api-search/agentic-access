@@ -9,61 +9,61 @@ api_specs:
   label: Pendle Assets API
   slug: pendle-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-assets-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-assets-api-openapi.yml
 - filename: pendle-chains-api-openapi.yml
   format: yaml
   label: Pendle Chains API
   slug: pendle-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-chains-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-chains-api-openapi.yml
 - filename: pendle-dashboard-api-openapi.yml
   format: yaml
   label: Pendle Dashboard API
   slug: pendle-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-dashboard-api-openapi.yml
 - filename: pendle-limit-orders-api-openapi.yml
   format: yaml
   label: Pendle Limit Orders API
   slug: pendle-limit-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-limit-orders-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-limit-orders-api-openapi.yml
 - filename: pendle-markets-api-openapi.yml
   format: yaml
   label: Pendle Markets API
   slug: pendle-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-markets-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-markets-api-openapi.yml
 - filename: pendle-pendle-emission-api-openapi.yml
   format: yaml
   label: Pendle Emission API
   slug: pendle-pendle-emission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-pendle-emission-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-pendle-emission-api-openapi.yml
 - filename: pendle-sdk-api-openapi.yml
   format: yaml
   label: Pendle SDK API
   slug: pendle-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-sdk-api-openapi.yml
 - filename: pendle-statistics-api-openapi.yml
   format: yaml
   label: Pendle Statistics API
   slug: pendle-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-statistics-api-openapi.yml
 - filename: pendle-transactions-api-openapi.yml
   format: yaml
   label: Pendle Transactions API
   slug: pendle-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-transactions-api-openapi.yml
 - filename: pendle-ve-pendle-api-openapi.yml
   format: yaml
   label: Pendle Ve Pendle API
   slug: pendle-ve-pendle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/openapi/pendle-ve-pendle-api-openapi.yml
+  url: https://artifacts.apis.io/pendle/openapi/pendle-ve-pendle-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 4
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ none\n- path: /v2/sdk/{chainId}/convert\n  method: get\n  operationId: SdkController_convert\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sdk/{chainId}/convert\n  method: post\n  operationId: SdkController_convertV3\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/sdk/{chainId}/swap-pt-cross-chain\n  method: get\n  operationId: SdkController_swapPtCrossChainV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sdk/{chainId}/cross-chain-pt-metadata/{pt}\n  method: get\n  operationId: SdkController_getPtCrossChainMetadata\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v5/{chainId}/transactions/{address}\n  method: get\n  operationId: TransactionsController_transactionsV5\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/statistics/get-distinct-user-from-token\n  method: get\n  operationId: StatisticsController_getDistinctUserFromToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/chains\n  method: get\n  operationId: ChainsController_getSupportedChainIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/dashboard/positions/database/{user}\n  method: get\n  operationId: DashboardController_getUserPositions\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/dashboard/merkle-claimed-rewards/{user}\n  method: get\n  operationId: DashboardController_getMerkleClaimedRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pnl/transactions\n  method: get\n  operationId: TransactionsController_getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pendle-emission\n  method: get\n  operationId: PendleEmissionController_pendleEmission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/agentic-access/pendle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pendle/agentic-access/pendle-agentic-access.yml
 summary_line: 34 operations · 4 acting · 4 human-in-the-loop
 tags:
 - Web3

@@ -9,55 +9,55 @@ api_specs:
   label: Terraform Modules API
   slug: terraform-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-modules-api-openapi.yml
+  url: https://artifacts.apis.io/terraform/openapi/terraform-modules-api-openapi.yml
 - filename: terraform-organizations-api-openapi.yml
   format: yaml
   label: Terraform Organizations API
   slug: terraform-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/terraform/openapi/terraform-organizations-api-openapi.yml
 - filename: terraform-policies-api-openapi.yml
   format: yaml
   label: Terraform Policies API
   slug: terraform-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-policies-api-openapi.yml
+  url: https://artifacts.apis.io/terraform/openapi/terraform-policies-api-openapi.yml
 - filename: terraform-projects-api-openapi.yml
   format: yaml
   label: Terraform Projects API
   slug: terraform-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-projects-api-openapi.yml
+  url: https://artifacts.apis.io/terraform/openapi/terraform-projects-api-openapi.yml
 - filename: terraform-runs-api-openapi.yml
   format: yaml
   label: Terraform Runs API
   slug: terraform-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-runs-api-openapi.yml
+  url: https://artifacts.apis.io/terraform/openapi/terraform-runs-api-openapi.yml
 - filename: terraform-state-versions-api-openapi.yml
   format: yaml
   label: Terraform State Versions API
   slug: terraform-state-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-state-versions-api-openapi.yml
+  url: https://artifacts.apis.io/terraform/openapi/terraform-state-versions-api-openapi.yml
 - filename: terraform-teams-api-openapi.yml
   format: yaml
   label: Terraform Teams API
   slug: terraform-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-teams-api-openapi.yml
+  url: https://artifacts.apis.io/terraform/openapi/terraform-teams-api-openapi.yml
 - filename: terraform-variables-api-openapi.yml
   format: yaml
   label: Terraform Variables API
   slug: terraform-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-variables-api-openapi.yml
+  url: https://artifacts.apis.io/terraform/openapi/terraform-variables-api-openapi.yml
 - filename: terraform-workspaces-api-openapi.yml
   format: yaml
   label: Terraform Workspaces API
   slug: terraform-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/openapi/terraform-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/terraform/openapi/terraform-workspaces-api-openapi.yml
 consequence_counts:
   read: 25
   write: 23
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hcp-te
   \    audit: required\n- path: /workspaces/{workspace_id}/vars/{variable_id}\n  method: delete\n  operationId: DeleteWorkspaceVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/modules\n  method: get\n  operationId: ListModules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/modules/{namespace}\n  method: get\n  operationId: ListModulesByNamespace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/modules/search\n  method: get\n  operationId: SearchModules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/modules/{namespace}/{name}\n  method: get\n  operationId: GetModuleLatestVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/modules/{namespace}/{name}/{provider}\n  method: get\n  operationId: GetModuleLatestVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/modules/{namespace}/{name}/{provider}/versions\n  method: get\n  operationId: ListModuleVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/modules/{namespace}/{name}/{provider}/{version}\n  method: get\n  operationId: GetModuleVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/modules/{namespace}/{name}/{provider}/download\n  method: get\n  operationId: DownloadModuleLatestVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/modules/{namespace}/{name}/{provider}/{version}/download\n  method: get\n  operationId: DownloadModuleVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/modules/{namespace}/{name}/{provider}/downloads/summary\n  method: get\n  operationId: GetModuleDownloadSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/agentic-access/terraform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/terraform/agentic-access/terraform-agentic-access.yml
 summary_line: 48 operations · 23 acting
 tags:
 - Infrastructure as Code

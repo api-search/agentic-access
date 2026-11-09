@@ -8,25 +8,25 @@ api_specs:
   label: National Geospatial-Intelligence Agency Clock API
   slug: national-geospatial-intelligence-agency-clock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-clock-api-openapi.yml
+  url: https://artifacts.apis.io/national-geospatial-intelligence-agency/openapi/national-geospatial-intelligence-agency-clock-api-openapi.yml
 - filename: national-geospatial-intelligence-agency-eopp-api-openapi.yml
   format: yaml
   label: National Geospatial-Intelligence Agency EOPP API
   slug: national-geospatial-intelligence-agency-eopp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-eopp-api-openapi.yml
+  url: https://artifacts.apis.io/national-geospatial-intelligence-agency/openapi/national-geospatial-intelligence-agency-eopp-api-openapi.yml
 - filename: national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
   format: yaml
   label: National Geospatial-Intelligence Agency Ephemeris API
   slug: national-geospatial-intelligence-agency-ephemeris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
+  url: https://artifacts.apis.io/national-geospatial-intelligence-agency/openapi/national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
 - filename: national-geospatial-intelligence-agency-orbit-api-openapi.yml
   format: yaml
   label: National Geospatial-Intelligence Agency Orbit API
   slug: national-geospatial-intelligence-agency-orbit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-orbit-api-openapi.yml
+  url: https://artifacts.apis.io/national-geospatial-intelligence-agency/openapi/national-geospatial-intelligence-agency-orbit-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/national-geospatial-intelligence-agency-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /api/ephemeris/center-of-mass\n  method: get\n  operationId: getEphemerisCenterOfMass\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ephemeris/antenna-phase-center\n  method: get\n  operationId: getEphemerisAntennaPhaseCenter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/eopp\n  method: get\n  operationId: getEopp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/clock-state\n  method: get\n  operationId: getClockState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/orbit/9-day\n  method: get\n  operationId: getOrbit9Day\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/orbit/30-day\n  method: get\n  operationId: getOrbit30Day\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/agentic-access/national-geospatial-intelligence-agency-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/national-geospatial-intelligence-agency/agentic-access/national-geospatial-intelligence-agency-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Federal Government

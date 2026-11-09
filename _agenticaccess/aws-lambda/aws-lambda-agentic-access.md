@@ -9,49 +9,91 @@ api_specs:
   label: AWS Lambda Aliases API
   slug: aws-lambda-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-aliases-api-openapi.yml
 - filename: aws-lambda-concurrency-api-openapi.yml
   format: yaml
   label: AWS Lambda Concurrency API
   slug: aws-lambda-concurrency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-concurrency-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-concurrency-api-openapi.yml
 - filename: aws-lambda-event-source-mappings-api-openapi.yml
   format: yaml
   label: AWS Lambda Event Source Mappings API
   slug: aws-lambda-event-source-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-event-source-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-event-source-mappings-api-openapi.yml
 - filename: aws-lambda-function-url-api-openapi.yml
   format: yaml
   label: AWS Lambda Function URL API
   slug: aws-lambda-function-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-function-url-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-function-url-api-openapi.yml
 - filename: aws-lambda-functions-api-openapi.yml
   format: yaml
   label: AWS Lambda Functions API
   slug: aws-lambda-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-functions-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-functions-api-openapi.yml
 - filename: aws-lambda-layers-api-openapi.yml
   format: yaml
   label: AWS Lambda Layers API
   slug: aws-lambda-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-layers-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-layers-api-openapi.yml
 - filename: aws-lambda-tags-api-openapi.yml
   format: yaml
   label: AWS Lambda Tags API
   slug: aws-lambda-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-tags-api-openapi.yml
 - filename: aws-lambda-versions-api-openapi.yml
   format: yaml
   label: AWS Lambda Versions API
   slug: aws-lambda-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-versions-api-openapi.yml
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-versions-api-openapi.yml
+- filename: aws-lambda-capacity-providers-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Capacity Providers API
+  slug: aws-lambda-capacity-providers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-capacity-providers-api-openapi.yml
+- filename: aws-lambda-code-signing-config-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Code Signing Config API
+  slug: aws-lambda-code-signing-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-code-signing-config-api-openapi.yml
+- filename: aws-lambda-event-invoke-config-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Event Invoke Config API
+  slug: aws-lambda-event-invoke-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-event-invoke-config-api-openapi.yml
+- filename: aws-lambda-operations-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Operations API
+  slug: aws-lambda-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-operations-api-openapi.yml
+- filename: aws-lambda-policy-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Policy API
+  slug: aws-lambda-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-policy-api-openapi.yml
+- filename: aws-lambda-provisioned-concurrency-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Provisioned Concurrency API
+  slug: aws-lambda-provisioned-concurrency-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-provisioned-concurrency-api-openapi.yml
+- filename: aws-lambda-resource-policy-api-openapi.yml
+  format: yaml
+  label: AWS Lambda Lambda Resource Policy API
+  slug: aws-lambda-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-resource-policy-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 15
@@ -102,7 +144,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aws-la
   \  method: get\n  operationId: getProvisionedConcurrencyConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2015-03-31/functions/{FunctionName}/provisioned-concurrency\n  method: put\n  operationId: putProvisionedConcurrencyConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2015-03-31/functions/{FunctionName}/provisioned-concurrency\n  method: delete\n  operationId: deleteProvisionedConcurrencyConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2015-03-31/tags/{ARN}\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2015-03-31/tags/{ARN}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2015-03-31/tags/{ARN}\n  method: delete\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/agentic-access/aws-lambda-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-lambda/agentic-access/aws-lambda-agentic-access.yml
 summary_line: 38 operations · 23 acting
 tags:
 - Serverless

@@ -9,13 +9,13 @@ api_specs:
   label: Azure Database for MySQL Operations API
   slug: microsoft-azure-mysql-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-mysql/refs/heads/main/openapi/microsoft-azure-mysql-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-mysql/openapi/microsoft-azure-mysql-operations-api-openapi.yml
 - filename: microsoft-azure-mysql-servers-api-openapi.yml
   format: yaml
   label: Azure Database for MySQL Servers API
   slug: microsoft-azure-mysql-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-mysql/refs/heads/main/openapi/microsoft-azure-mysql-servers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-mysql/openapi/microsoft-azure-mysql-servers-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers\n  method: get\n  operationId: listFlexibleserversByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{name}\n  method: get\n  operationId: getFlexibleservers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{name}\n\
   \  method: put\n  operationId: createOrUpdateFlexibleservers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{name}\n  method: patch\n  operationId: updateFlexibleservers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{name}\n\
   \  method: delete\n  operationId: deleteFlexibleservers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-mysql/refs/heads/main/agentic-access/microsoft-azure-mysql-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-mysql/agentic-access/microsoft-azure-mysql-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Database

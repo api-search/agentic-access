@@ -9,13 +9,13 @@ api_specs:
   label: Beamable Basic API
   slug: beamable-basic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-basic-api-openapi.yml
+  url: https://artifacts.apis.io/beamable/openapi/beamable-basic-api-openapi.yml
 - filename: beamable-object-api-openapi.yml
   format: yaml
   label: Beamable Object API
   slug: beamable-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/openapi/beamable-object-api-openapi.yml
+  url: https://artifacts.apis.io/beamable/openapi/beamable-object-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 29
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/beamab
   \    audit: none\n- path: /basic/beamo/manifest/deploy\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - developer\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /basic/beamo/microservice/federation\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tester\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /basic/beamo/storage/connection\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - admin\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /basic/beamo/manifest\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tester\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basic/beamo/manifest\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - developer\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /basic/auth/token/list\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - developer\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /basic/auth/token\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /basic/auth/token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /basic/auth/token/revoke\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - developer\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/agentic-access/beamable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beamable/agentic-access/beamable-agentic-access.yml
 summary_line: 65 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Game Backend

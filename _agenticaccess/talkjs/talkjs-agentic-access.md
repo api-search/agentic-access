@@ -9,31 +9,31 @@ api_specs:
   label: TalkJS Conversations API
   slug: talkjs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-conversations-api-openapi.yml
 - filename: talkjs-import-api-openapi.yml
   format: yaml
   label: TalkJS Import API
   slug: talkjs-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-import-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-import-api-openapi.yml
 - filename: talkjs-messages-api-openapi.yml
   format: yaml
   label: TalkJS Messages API
   slug: talkjs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-messages-api-openapi.yml
 - filename: talkjs-participants-api-openapi.yml
   format: yaml
   label: TalkJS Participants API
   slug: talkjs-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-participants-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-participants-api-openapi.yml
 - filename: talkjs-users-api-openapi.yml
   format: yaml
   label: TalkJS Users API
   slug: talkjs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/openapi/talkjs-users-api-openapi.yml
+  url: https://artifacts.apis.io/talkjs/openapi/talkjs-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/talkjs
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationId}/messages/{messageId}\n  method: delete\n  operationId: deleteMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationId}/messages/{messageId}/reactions/{emoji}/{userId}\n  method: put\n  operationId: addReaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationId}/messages/{messageId}/reactions/{emoji}/{userId}\n  method:\
   \ delete\n  operationId: removeReaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /import/conversations/{conversationId}/messages\n  method: post\n  operationId: importMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batch\n  method: post\n  operationId: batchRequests\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/agentic-access/talkjs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/talkjs/agentic-access/talkjs-agentic-access.yml
 summary_line: 23 operations · 15 acting
 tags:
 - Chat

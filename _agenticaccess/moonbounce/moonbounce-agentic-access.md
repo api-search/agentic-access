@@ -9,25 +9,25 @@ api_specs:
   label: Moonbounce Batch Processing API
   slug: moonbounce-batch-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-batch-processing-api-openapi.yml
+  url: https://artifacts.apis.io/moonbounce/openapi/moonbounce-batch-processing-api-openapi.yml
 - filename: moonbounce-create-jobs-api-openapi.yml
   format: yaml
   label: Moonbounce Create Jobs API
   slug: moonbounce-create-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-create-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/moonbounce/openapi/moonbounce-create-jobs-api-openapi.yml
 - filename: moonbounce-get-jobs-api-openapi.yml
   format: yaml
   label: Moonbounce Get Jobs API
   slug: moonbounce-get-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-get-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/moonbounce/openapi/moonbounce-get-jobs-api-openapi.yml
 - filename: moonbounce-labels-api-openapi.yml
   format: yaml
   label: Moonbounce Labels API
   slug: moonbounce-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/openapi/moonbounce-labels-api-openapi.yml
+  url: https://artifacts.apis.io/moonbounce/openapi/moonbounce-labels-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/moonbo
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/batch-jobs/{batchJobId}/cancel\n  method: post\n  operationId: GatewayService_CancelBatchJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs\n  method: get\n  operationId: GatewayService_ListJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs\n  method: post\n  operationId: GatewayService_CreateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/stream\n  method: post\n  operationId: GatewayService_Evaluate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/{jobUuid}\n  method: get\n  operationId: GatewayService_GetJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/labels/evaluate\n  method: post\n  operationId: LabelsService_EvaluateLabels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/agentic-access/moonbounce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moonbounce/agentic-access/moonbounce-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Company

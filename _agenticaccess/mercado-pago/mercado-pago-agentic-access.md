@@ -15,97 +15,97 @@ api_specs:
   label: Mercado Pago Authentication API
   slug: mercado-pago-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-authentication-api-openapi.yml
 - filename: mercado-pago-cards-api-openapi.yml
   format: yaml
   label: Mercado Pago Cards API
   slug: mercado-pago-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-cards-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-cards-api-openapi.yml
 - filename: mercado-pago-chargebacks-api-openapi.yml
   format: yaml
   label: Mercado Pago Chargebacks API
   slug: mercado-pago-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-chargebacks-api-openapi.yml
 - filename: mercado-pago-claims-api-openapi.yml
   format: yaml
   label: Mercado Pago Claims API
   slug: mercado-pago-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-claims-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-claims-api-openapi.yml
 - filename: mercado-pago-customers-api-openapi.yml
   format: yaml
   label: Mercado Pago Customers API
   slug: mercado-pago-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-customers-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-customers-api-openapi.yml
 - filename: mercado-pago-merchant-orders-api-openapi.yml
   format: yaml
   label: Mercado Pago Merchant Orders API
   slug: mercado-pago-merchant-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-merchant-orders-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-merchant-orders-api-openapi.yml
 - filename: mercado-pago-orders-api-openapi.yml
   format: yaml
   label: Mercado Pago Orders API
   slug: mercado-pago-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-orders-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-orders-api-openapi.yml
 - filename: mercado-pago-payment-methods-api-openapi.yml
   format: yaml
   label: Mercado Pago Payment Methods API
   slug: mercado-pago-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-payment-methods-api-openapi.yml
 - filename: mercado-pago-payments-api-openapi.yml
   format: yaml
   label: Mercado Pago Payments API
   slug: mercado-pago-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-payments-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-payments-api-openapi.yml
 - filename: mercado-pago-plans-api-openapi.yml
   format: yaml
   label: Mercado Pago Plans API
   slug: mercado-pago-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-plans-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-plans-api-openapi.yml
 - filename: mercado-pago-point-api-openapi.yml
   format: yaml
   label: Mercado Pago Point API
   slug: mercado-pago-point-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-point-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-point-api-openapi.yml
 - filename: mercado-pago-preferences-api-openapi.yml
   format: yaml
   label: Mercado Pago Preferences API
   slug: mercado-pago-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-preferences-api-openapi.yml
 - filename: mercado-pago-qr-api-openapi.yml
   format: yaml
   label: Mercado Pago QR API
   slug: mercado-pago-qr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-qr-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-qr-api-openapi.yml
 - filename: mercado-pago-refunds-api-openapi.yml
   format: yaml
   label: Mercado Pago Refunds API
   slug: mercado-pago-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-refunds-api-openapi.yml
 - filename: mercado-pago-reports-api-openapi.yml
   format: yaml
   label: Mercado Pago Reports API
   slug: mercado-pago-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-reports-api-openapi.yml
 - filename: mercado-pago-subscriptions-api-openapi.yml
   format: yaml
   label: Mercado Pago Subscriptions API
   slug: mercado-pago-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/mercado-pago/openapi/mercado-pago-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 29
@@ -226,7 +226,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mercad
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pos\n  method: post\n  operationId: createPos\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pos\n  method: get\n  operationId: searchPos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pos/{id}\n  method: get\n  operationId: getPos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /pos/{id}\n  method: put\n  operationId: updatePos\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pos/{id}\n  method: delete\n  operationId: deletePos\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /point/integration-api/devices\n  method: get\n  operationId: listTerminals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instore/qr/seller/collectors/{user_id}/pos/{external_pos_id}/orders\n\
   \  method: put\n  operationId: createQrOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instore/qr/seller/collectors/{user_id}/pos/{external_pos_id}/orders\n  method: delete\n  operationId: deleteQrOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/agentic-access/mercado-pago-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mercado-pago/agentic-access/mercado-pago-agentic-access.yml
 summary_line: 60 operations · 31 acting
 tags:
 - Payments

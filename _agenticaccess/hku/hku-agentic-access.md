@@ -9,13 +9,13 @@ api_specs:
   label: University of Hong Kong Discovery API
   slug: hku-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/hku/openapi/hku-discovery-api-openapi.yml
 - filename: hku-oauth-api-openapi.yml
   format: yaml
   label: University of Hong Kong O Auth API
   slug: hku-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/hku/openapi/hku-oauth-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/hku-discovery-api-openapi.yml, openapi/hku-oauth-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 6\n    acting: 2\n  by_consequence:\n    read: 6\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /adfs/.well-known/openid-configuration\n  method: get\n  operationId: getOpenIdConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adfs/discovery/keys\n  method: get\n  operationId: getJwks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /FederationMetadata/2007-06/FederationMetadata.xml\n  method: get\n  operationId: getFederationMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adfs/oauth2/authorize/\n  method: get\n  operationId: authorize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adfs/oauth2/token/\n  method: post\n  operationId: token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /adfs/oauth2/devicecode\n  method: post\n  operationId: deviceAuthorization\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /adfs/userinfo\n  method: get\n  operationId: userinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adfs/oauth2/logout\n  method: get\n  operationId: endSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/agentic-access/hku-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hku/agentic-access/hku-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
 - Education

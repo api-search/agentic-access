@@ -9,97 +9,97 @@ api_specs:
   label: Yapily Institutions API
   slug: yapily-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-institutions-api-openapi.yml
 - filename: yapily-consents-api-openapi.yml
   format: yaml
   label: Yapily Consents and Authorisations API
   slug: yapily-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-consents-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-consents-api-openapi.yml
 - filename: yapily-payments-api-openapi.yml
   format: yaml
   label: Yapily Payments API (PIS)
   slug: yapily-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-payments-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-payments-api-openapi.yml
 - filename: yapily-data-plus-api-openapi.yml
   format: yaml
   label: Yapily Data Plus API
   slug: yapily-data-plus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-data-plus-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-data-plus-api-openapi.yml
 - filename: yapily-application-beneficiaries-api-openapi.yml
   format: yaml
   label: Yapily Application Beneficiaries API
   slug: yapily-application-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-application-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-application-beneficiaries-api-openapi.yml
 - filename: yapily-application-management-api-openapi.yml
   format: yaml
   label: Yapily Application Management API
   slug: yapily-application-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-application-management-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-application-management-api-openapi.yml
 - filename: yapily-authorisations-api-openapi.yml
   format: yaml
   label: Yapily Authorisations API
   slug: yapily-authorisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-authorisations-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-authorisations-api-openapi.yml
 - filename: yapily-constraints-api-openapi.yml
   format: yaml
   label: Yapily Constraints API
   slug: yapily-constraints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-constraints-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-constraints-api-openapi.yml
 - filename: yapily-financial-data-api-openapi.yml
   format: yaml
   label: Yapily Financial Data API
   slug: yapily-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-financial-data-api-openapi.yml
 - filename: yapily-hosted-consent-pages-api-openapi.yml
   format: yaml
   label: Yapily Hosted Consent Pages API
   slug: yapily-hosted-consent-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-hosted-consent-pages-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-hosted-consent-pages-api-openapi.yml
 - filename: yapily-hosted-payment-pages-api-openapi.yml
   format: yaml
   label: Yapily Hosted Payment Pages API
   slug: yapily-hosted-payment-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-hosted-payment-pages-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-hosted-payment-pages-api-openapi.yml
 - filename: yapily-notifications-api-openapi.yml
   format: yaml
   label: Yapily Notifications API
   slug: yapily-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-notifications-api-openapi.yml
 - filename: yapily-user-beneficiaries-api-openapi.yml
   format: yaml
   label: Yapily User Beneficiaries API
   slug: yapily-user-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-user-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-user-beneficiaries-api-openapi.yml
 - filename: yapily-users-api-openapi.yml
   format: yaml
   label: Yapily Users API
   slug: yapily-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-users-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-users-api-openapi.yml
 - filename: yapily-variable-recurring-payments-api-openapi.yml
   format: yaml
   label: Yapily Variable Recurring Payments API
   slug: yapily-variable-recurring-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-variable-recurring-payments-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-variable-recurring-payments-api-openapi.yml
 - filename: yapily-webhooks-api-openapi.yml
   format: yaml
   label: Yapily Webhooks API
   slug: yapily-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/openapi/yapily-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/yapily/openapi/yapily-webhooks-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 46
@@ -263,7 +263,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/yapily
   \  method: post\n  operationId: createVrpFundsConfirmation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /variable-recurring-payments/payments\n  method: post\n  operationId: createVrpPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /variable-recurring-payments/payments/{paymentId}/details\n  method: get\n  operationId: getVrpPaymentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/events/categories\n  method: get\n  operationId: getWebhookEventsCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/events\n  method: post\n  operationId: registerWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/events\n  method: get\n  operationId: getRegisteredWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/events/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/secrets/{webhook_id}\n  method: post\n  operationId: webhookSecretReset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/agentic-access/yapily-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yapily/agentic-access/yapily-agentic-access.yml
 summary_line: 97 operations · 51 acting · 2 human-in-the-loop
 tags:
 - Open Banking

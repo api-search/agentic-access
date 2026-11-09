@@ -8,13 +8,13 @@ api_specs:
   label: Azure Maps Geocoding API
   slug: microsoft-azure-maps-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-maps/openapi/microsoft-azure-maps-geocoding-api-openapi.yml
 - filename: microsoft-azure-maps-search-api-openapi.yml
   format: yaml
   label: Azure Maps Search API
   slug: microsoft-azure-maps-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-maps/openapi/microsoft-azure-maps-search-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/microsoft-azure-maps-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /search/address/{format}\n  method: get\n  operationId: searchAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /search/address/reverse/{format}\n  method: get\n  operationId: reverseGeocode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n    scope:\n    - user_impersonation\n- path: /search/poi/{format}\n  method: get\n  operationId: searchPoi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /search/fuzzy/{format}\n  method: get\n  operationId: fuzzySearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/agentic-access/microsoft-azure-maps-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-maps/agentic-access/microsoft-azure-maps-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Geocoding

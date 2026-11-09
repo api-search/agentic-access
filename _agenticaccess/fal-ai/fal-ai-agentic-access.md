@@ -9,49 +9,49 @@ api_specs:
   label: fal Realtime API
   slug: fal-realtime-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/asyncapi/fal-ai-asyncapi.yml
+  url: https://artifacts.apis.io/fal-ai/asyncapi/fal-ai-asyncapi.yml
 - filename: fal-ai-asyncapi.yml
   format: yaml
   label: fal Streaming API
   slug: fal-streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/asyncapi/fal-ai-asyncapi.yml
+  url: https://artifacts.apis.io/fal-ai/asyncapi/fal-ai-asyncapi.yml
 - filename: fal-ai-apps-api-openapi.yml
   format: yaml
   label: fal Apps API
   slug: fal-ai-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-apps-api-openapi.yml
+  url: https://artifacts.apis.io/fal-ai/openapi/fal-ai-apps-api-openapi.yml
 - filename: fal-ai-files-api-openapi.yml
   format: yaml
   label: fal Files API
   slug: fal-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/fal-ai/openapi/fal-ai-files-api-openapi.yml
 - filename: fal-ai-queue-api-openapi.yml
   format: yaml
   label: fal Queue API
   slug: fal-ai-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-queue-api-openapi.yml
+  url: https://artifacts.apis.io/fal-ai/openapi/fal-ai-queue-api-openapi.yml
 - filename: fal-ai-secrets-api-openapi.yml
   format: yaml
   label: fal Secrets API
   slug: fal-ai-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/fal-ai/openapi/fal-ai-secrets-api-openapi.yml
 - filename: fal-ai-storage-api-openapi.yml
   format: yaml
   label: fal Storage API
   slug: fal-ai-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-storage-api-openapi.yml
+  url: https://artifacts.apis.io/fal-ai/openapi/fal-ai-storage-api-openapi.yml
 - filename: fal-ai-streaming-api-openapi.yml
   format: yaml
   label: fal Streaming API
   slug: fal-ai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/openapi/fal-ai-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/fal-ai/openapi/fal-ai-streaming-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fal-mo
   \  method: get\n  operationId: getRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{model_owner}/{model_name}/requests/{request_id}\n  method: get\n  operationId: getRequestResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{model_owner}/{model_name}/requests/{request_id}/cancel\n  method: put\n  operationId: cancelRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{model_owner}/{model_name}/stream\n  method: post\n  operationId: streamRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /serverless/apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /serverless/apps/{app_id}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /serverless/secrets\n  method: get\n  operationId: listSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /serverless/secrets\n  method: post\n  operationId: setSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n   \
   \ subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /serverless/files\n  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage/upload/initiate\n  method: post\n  operationId: initiateUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/agentic-access/fal-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fal-ai/agentic-access/fal-ai-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Artificial Intelligence

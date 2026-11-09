@@ -9,61 +9,61 @@ api_specs:
   label: Nanonets External Integrations API
   slug: nanonets-external-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-external-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-external-integrations-api-openapi.yml
 - filename: nanonets-file-assignment-api-openapi.yml
   format: yaml
   label: Nanonets File Assignment API
   slug: nanonets-file-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-file-assignment-api-openapi.yml
 - filename: nanonets-file-delete-api-openapi.yml
   format: yaml
   label: Nanonets File Delete API
   slug: nanonets-file-delete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-delete-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-file-delete-api-openapi.yml
 - filename: nanonets-file-export-api-openapi.yml
   format: yaml
   label: Nanonets File Export API
   slug: nanonets-file-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-export-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-file-export-api-openapi.yml
 - filename: nanonets-file-review-api-openapi.yml
   format: yaml
   label: Nanonets File Review API
   slug: nanonets-file-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-review-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-file-review-api-openapi.yml
 - filename: nanonets-file-update-api-openapi.yml
   format: yaml
   label: Nanonets File Update API
   slug: nanonets-file-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-file-update-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-file-update-api-openapi.yml
 - filename: nanonets-image-classification-predict-api-openapi.yml
   format: yaml
   label: Nanonets Image Classification Predict API
   slug: nanonets-image-classification-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-image-classification-predict-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-image-classification-predict-api-openapi.yml
 - filename: nanonets-ocr-predict-api-openapi.yml
   format: yaml
   label: Nanonets OCR Predict API
   slug: nanonets-ocr-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-ocr-predict-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-ocr-predict-api-openapi.yml
 - filename: nanonets-ocr-retrieve-api-openapi.yml
   format: yaml
   label: Nanonets OCR Retrieve API
   slug: nanonets-ocr-retrieve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-ocr-retrieve-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-ocr-retrieve-api-openapi.yml
 - filename: nanonets-ocr-train-api-openapi.yml
   format: yaml
   label: Nanonets OCR Train API
   slug: nanonets-ocr-train-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/openapi/nanonets-ocr-train-api-openapi.yml
+  url: https://artifacts.apis.io/nanonets/openapi/nanonets-ocr-train-api-openapi.yml
 consequence_counts:
   read: 4
   write: 16
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nanone
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /OCR/Model/{model_id}/LabelUrls/\n  method: post\n  operationId: ocrModelLabelUrlsByModelIdPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /OCR/Model/{model_id}/LabelUrls/Async/\n  method: post\n  operationId: ocrModelLabelUrlsAsyncByModelIdPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /Inferences/Model/{model_id}/InferenceRequest/{request_file_id}\n  method: get\n  operationId: ocrModelGetPredictionFileByFileId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Inferences/Model/{model_id}/InferenceRequest/{request_file_id}/page/{page_id}\n  method: get\n  operationId: ocrModelGetPredictionFileByPageId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Inferences/Model/{model_id}/InferenceRequest/\n  method: get\n  operationId: ocrModelListPredictionFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OCR/Model/{model_id}/UploadFile/\n  method: post\n  operationId: ocrModelUploadFileByModelIdPost\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /OCR/Model/{model_id}/UploadUrls/\n  method: post\n  operationId: ocrModelUploadUrlsByModelIdPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /OCR/Model/{model_id}/Train/\n  method: post\n  operationId: ocrModelTrainByModelIdPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/agentic-access/nanonets-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nanonets/agentic-access/nanonets-agentic-access.yml
 summary_line: 20 operations · 16 acting
 tags:
 - Artificial Intelligence

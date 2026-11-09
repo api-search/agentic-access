@@ -9,121 +9,121 @@ api_specs:
   label: Lightrun Actions API
   slug: lightrun-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-actions-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-actions-api-openapi.yml
 - filename: lightrun-agent-pools-api-openapi.yml
   format: yaml
   label: Lightrun Agent Pools API
   slug: lightrun-agent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-agent-pools-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-agent-pools-api-openapi.yml
 - filename: lightrun-agents-api-openapi.yml
   format: yaml
   label: Lightrun Agents API
   slug: lightrun-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-agents-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-agents-api-openapi.yml
 - filename: lightrun-custom-sources-api-openapi.yml
   format: yaml
   label: Lightrun Custom sources API
   slug: lightrun-custom-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-custom-sources-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-custom-sources-api-openapi.yml
 - filename: lightrun-debug-cases-api-openapi.yml
   format: yaml
   label: Lightrun Debug Cases API
   slug: lightrun-debug-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-debug-cases-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-debug-cases-api-openapi.yml
 - filename: lightrun-debug-runbook-methods-api-openapi.yml
   format: yaml
   label: Lightrun Debug Runbook methods API
   slug: lightrun-debug-runbook-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-debug-runbook-methods-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-debug-runbook-methods-api-openapi.yml
 - filename: lightrun-debug-runbooks-api-openapi.yml
   format: yaml
   label: Lightrun Debug Runbooks API
   slug: lightrun-debug-runbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-debug-runbooks-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-debug-runbooks-api-openapi.yml
 - filename: lightrun-debug-runbooks-configuration-api-openapi.yml
   format: yaml
   label: Lightrun Debug Runbooks Configuration API
   slug: lightrun-debug-runbooks-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-debug-runbooks-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-debug-runbooks-configuration-api-openapi.yml
 - filename: lightrun-dynamic-sbom-api-openapi.yml
   format: yaml
   label: Lightrun Dynamic SBOM API
   slug: lightrun-dynamic-sbom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-dynamic-sbom-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-dynamic-sbom-api-openapi.yml
 - filename: lightrun-identity-management-idm-configuration-api-openapi.yml
   format: yaml
   label: Lightrun Identity Management (IdM) configuration API
   slug: lightrun-identity-management-idm-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-identity-management-idm-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-identity-management-idm-configuration-api-openapi.yml
 - filename: lightrun-just-in-time-access-api-openapi.yml
   format: yaml
   label: Lightrun Just-In-Time Access API
   slug: lightrun-just-in-time-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-just-in-time-access-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-just-in-time-access-api-openapi.yml
 - filename: lightrun-license-api-openapi.yml
   format: yaml
   label: Lightrun License API
   slug: lightrun-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-license-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-license-api-openapi.yml
 - filename: lightrun-lightrun-feature-flags-status-api-openapi.yml
   format: yaml
   label: Lightrun feature flags status API
   slug: lightrun-lightrun-feature-flags-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-lightrun-feature-flags-status-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-lightrun-feature-flags-status-api-openapi.yml
 - filename: lightrun-loaded-packages-api-openapi.yml
   format: yaml
   label: Lightrun Loaded packages API
   slug: lightrun-loaded-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-loaded-packages-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-loaded-packages-api-openapi.yml
 - filename: lightrun-smtp-connectivity-configuration-api-openapi.yml
   format: yaml
   label: Lightrun SMTP connectivity configuration API
   slug: lightrun-smtp-connectivity-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-smtp-connectivity-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-smtp-connectivity-configuration-api-openapi.yml
 - filename: lightrun-system-access-api-key-api-openapi.yml
   format: yaml
   label: Lightrun System access API key API
   slug: lightrun-system-access-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-system-access-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-system-access-api-key-api-openapi.yml
 - filename: lightrun-tags-api-openapi.yml
   format: yaml
   label: Lightrun Tags API
   slug: lightrun-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-tags-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-tags-api-openapi.yml
 - filename: lightrun-user-groups-api-openapi.yml
   format: yaml
   label: Lightrun User Groups API
   slug: lightrun-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-user-groups-api-openapi.yml
 - filename: lightrun-users-api-openapi.yml
   format: yaml
   label: Lightrun Users API
   slug: lightrun-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-users-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-users-api-openapi.yml
 - filename: lightrun-watched-packages-api-openapi.yml
   format: yaml
   label: Lightrun Watched packages API
   slug: lightrun-watched-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/openapi/lightrun-watched-packages-api-openapi.yml
+  url: https://artifacts.apis.io/lightrun/openapi/lightrun-watched-packages-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 30
@@ -206,7 +206,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lightr
   \ required\n- path: /api/v1/users/{email}/disable\n  method: put\n  operationId: disable\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/users/{email}/enable\n  method: put\n  operationId: enable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/watched-packages\n  method: get\n  operationId: listWatchedPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/watched-packages\n\
   \  method: post\n  operationId: addWatchedPackages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/watched-packages\n  method: delete\n  operationId: removeWatchedPackages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/watched-packages/{id}\n  method: put\n  operationId: updateWatchedPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/agentic-access/lightrun-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lightrun/agentic-access/lightrun-agentic-access.yml
 summary_line: 67 operations · 37 acting · 5 human-in-the-loop
 tags:
 - Company

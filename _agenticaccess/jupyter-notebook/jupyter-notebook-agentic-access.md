@@ -9,85 +9,85 @@ api_specs:
   label: Jupyter Kernel Messaging Protocol
   slug: jupyter-kernel-messaging
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/asyncapi/jupyter-kernel-messaging-asyncapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/asyncapi/jupyter-kernel-messaging-asyncapi.yml
 - filename: jupyter-notebook-authorization-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Authorization API
   slug: jupyter-notebook-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-authorization-api-openapi.yml
 - filename: jupyter-notebook-config-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Config API
   slug: jupyter-notebook-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-config-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-config-api-openapi.yml
 - filename: jupyter-notebook-contents-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Contents API
   slug: jupyter-notebook-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-contents-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-contents-api-openapi.yml
 - filename: jupyter-notebook-general-api-openapi.yml
   format: yaml
   label: Jupyter Notebook General API
   slug: jupyter-notebook-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-general-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-general-api-openapi.yml
 - filename: jupyter-notebook-groups-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Groups API
   slug: jupyter-notebook-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-groups-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-groups-api-openapi.yml
 - filename: jupyter-notebook-hub-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Hub API
   slug: jupyter-notebook-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-hub-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-hub-api-openapi.yml
 - filename: jupyter-notebook-kernels-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Kernels API
   slug: jupyter-notebook-kernels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-kernels-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-kernels-api-openapi.yml
 - filename: jupyter-notebook-kernelspecs-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Kernelspecs API
   slug: jupyter-notebook-kernelspecs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-kernelspecs-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-kernelspecs-api-openapi.yml
 - filename: jupyter-notebook-proxy-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Proxy API
   slug: jupyter-notebook-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-proxy-api-openapi.yml
 - filename: jupyter-notebook-services-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Services API
   slug: jupyter-notebook-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-services-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-services-api-openapi.yml
 - filename: jupyter-notebook-sessions-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Sessions API
   slug: jupyter-notebook-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-sessions-api-openapi.yml
 - filename: jupyter-notebook-terminals-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Terminals API
   slug: jupyter-notebook-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-terminals-api-openapi.yml
 - filename: jupyter-notebook-users-api-openapi.yml
   format: yaml
   label: Jupyter Notebook Users API
   slug: jupyter-notebook-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/openapi/jupyter-notebook-users-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter-notebook/openapi/jupyter-notebook-users-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 6
@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jupyte
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{name}/properties\n  method: put\n  operationId: setGroupProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{name}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /proxy\n  method: get\n  operationId: getProxyTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy\n  method: post\n  operationId: syncProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /proxy\n  method: patch\n  operationId: addProxyRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorizations/token/{token}\n  method: get\n  operationId: checkToken\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shutdown\n  method: post\n  operationId: shutdownHub\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/agentic-access/jupyter-notebook-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jupyter-notebook/agentic-access/jupyter-notebook-agentic-access.yml
 summary_line: 70 operations · 40 acting · 6 human-in-the-loop
 tags:
 - Data Science

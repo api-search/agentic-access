@@ -9,67 +9,67 @@ api_specs:
   label: BitGo Addresses API
   slug: bitgo-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-addresses-api-openapi.yml
 - filename: bitgo-enterprise-api-openapi.yml
   format: yaml
   label: BitGo Enterprise API
   slug: bitgo-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-enterprise-api-openapi.yml
 - filename: bitgo-keychains-api-openapi.yml
   format: yaml
   label: BitGo Keychains API
   slug: bitgo-keychains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-keychains-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-keychains-api-openapi.yml
 - filename: bitgo-policies-api-openapi.yml
   format: yaml
   label: BitGo Policies API
   slug: bitgo-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-policies-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-policies-api-openapi.yml
 - filename: bitgo-staking-api-openapi.yml
   format: yaml
   label: BitGo Staking API
   slug: bitgo-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-staking-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-staking-api-openapi.yml
 - filename: bitgo-trading-api-openapi.yml
   format: yaml
   label: BitGo Trading API
   slug: bitgo-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-trading-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-trading-api-openapi.yml
 - filename: bitgo-transactions-api-openapi.yml
   format: yaml
   label: BitGo Transactions API
   slug: bitgo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-transactions-api-openapi.yml
 - filename: bitgo-transfers-api-openapi.yml
   format: yaml
   label: BitGo Transfers API
   slug: bitgo-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-transfers-api-openapi.yml
 - filename: bitgo-user-api-openapi.yml
   format: yaml
   label: BitGo User API
   slug: bitgo-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-user-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-user-api-openapi.yml
 - filename: bitgo-wallets-api-openapi.yml
   format: yaml
   label: BitGo Wallets API
   slug: bitgo-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-wallets-api-openapi.yml
 - filename: bitgo-webhooks-api-openapi.yml
   format: yaml
   label: BitGo Webhooks API
   slug: bitgo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/openapi/bitgo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bitgo/openapi/bitgo-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bitgo-
   \      max-ttl: 3600\n    audit: none\n- path: /{coin}/wallet/{walletId}/webhooks\n  method: post\n  operationId: addWalletWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{coin}/wallet/{walletId}/policy\n  method: put\n  operationId: updateWalletPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{coin}/wallet/{walletId}/staking/requests\n  method: post\n  operationId: createStakingRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{coin}/wallet/{walletId}/staking/requests\n  method: get\n  operationId: listStakingRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trading/settlements\n  method: get\n  operationId: listSettlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enterprise\n  method: get\n  operationId: listEnterprises\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/agentic-access/bitgo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitgo/agentic-access/bitgo-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Digital Assets

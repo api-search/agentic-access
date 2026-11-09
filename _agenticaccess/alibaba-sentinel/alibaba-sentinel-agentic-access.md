@@ -9,25 +9,25 @@ api_specs:
   label: Alibaba Sentinel Authority Rules API
   slug: alibaba-sentinel-authority-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-authority-rules-api-openapi.yml
+  url: https://artifacts.apis.io/alibaba-sentinel/openapi/alibaba-sentinel-authority-rules-api-openapi.yml
 - filename: alibaba-sentinel-degrade-rules-api-openapi.yml
   format: yaml
   label: Alibaba Sentinel Degrade Rules API
   slug: alibaba-sentinel-degrade-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-degrade-rules-api-openapi.yml
+  url: https://artifacts.apis.io/alibaba-sentinel/openapi/alibaba-sentinel-degrade-rules-api-openapi.yml
 - filename: alibaba-sentinel-flow-rules-api-openapi.yml
   format: yaml
   label: Alibaba Sentinel Flow Rules API
   slug: alibaba-sentinel-flow-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-flow-rules-api-openapi.yml
+  url: https://artifacts.apis.io/alibaba-sentinel/openapi/alibaba-sentinel-flow-rules-api-openapi.yml
 - filename: alibaba-sentinel-system-rules-api-openapi.yml
   format: yaml
   label: Alibaba Sentinel System Rules API
   slug: alibaba-sentinel-system-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-system-rules-api-openapi.yml
+  url: https://artifacts.apis.io/alibaba-sentinel/openapi/alibaba-sentinel-system-rules-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sentin
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/flow/rule\n  method: put\n  operationId: updateFlowRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/flow/rule\n  method: delete\n  operationId: deleteFlowRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/degrade/rules\n  method: get\n  operationId: getDegradeRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/degrade/rule\n  method: post\n  operationId: createDegradeRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/degrade/rule\n  method: delete\n  operationId: deleteDegradeRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/system/rules\n  method: get\n  operationId: getSystemRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/authority/rules\n  method: get\n  operationId: getAuthorityRules\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/agentic-access/alibaba-sentinel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alibaba-sentinel/agentic-access/alibaba-sentinel-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Alibaba

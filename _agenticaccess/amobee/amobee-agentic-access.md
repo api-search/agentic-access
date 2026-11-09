@@ -9,31 +9,31 @@ api_specs:
   label: Amobee Env Vars Test Controller API
   slug: amobee-env-vars-test-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-env-vars-test-controller-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-env-vars-test-controller-api-openapi.yml
 - filename: amobee-gateway-swagger-controller-api-openapi.yml
   format: yaml
   label: Amobee Gateway Swagger Controller API
   slug: amobee-gateway-swagger-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-gateway-swagger-controller-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-gateway-swagger-controller-api-openapi.yml
 - filename: amobee-health-check-api-openapi.yml
   format: yaml
   label: Amobee Health Check API
   slug: amobee-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-health-check-api-openapi.yml
 - filename: amobee-ip-controller-api-openapi.yml
   format: yaml
   label: Amobee Ip Controller API
   slug: amobee-ip-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-ip-controller-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-ip-controller-api-openapi.yml
 - filename: amobee-tcf-disclosure-controller-api-openapi.yml
   format: yaml
   label: Amobee Tcf Disclosure Controller API
   slug: amobee-tcf-disclosure-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/openapi/amobee-tcf-disclosure-controller-api-openapi.yml
+  url: https://artifacts.apis.io/amobee/openapi/amobee-tcf-disclosure-controller-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 8
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/amobee
   \ null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /swagger-config\n  method: delete\n  operationId: swaggerConfig_3\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /swagger-config\n  method: options\n  operationId: swaggerConfig_6\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swagger-config\n  method: head\n  operationId: swaggerConfig_5\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /swagger-config\n  method: patch\n  operationId: swaggerConfig_4\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /healthcheck/status\n  method: get\n  operationId: getAppname\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ip\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/TCFDisclosure.json\n  method: get\n  operationId: getTCFDisclosure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/TCFDisclosure\n  method: get\n  operationId: getTCFDisclosure_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/agentic-access/amobee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amobee/agentic-access/amobee-agentic-access.yml
 summary_line: 19 operations · 8 acting · 8 human-in-the-loop
 tags:
 - Digital Advertising

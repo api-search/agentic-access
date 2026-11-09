@@ -8,49 +8,49 @@ api_specs:
   label: Federal Reserve Category API
   slug: federal-reserve-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-category-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-category-api-openapi.yml
 - filename: federal-reserve-related-tags-api-openapi.yml
   format: yaml
   label: Federal Reserve Related Tags API
   slug: federal-reserve-related-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-related-tags-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-related-tags-api-openapi.yml
 - filename: federal-reserve-release-api-openapi.yml
   format: yaml
   label: Federal Reserve Release API
   slug: federal-reserve-release-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-release-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-release-api-openapi.yml
 - filename: federal-reserve-releases-api-openapi.yml
   format: yaml
   label: Federal Reserve Releases API
   slug: federal-reserve-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-releases-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-releases-api-openapi.yml
 - filename: federal-reserve-series-api-openapi.yml
   format: yaml
   label: Federal Reserve Series API
   slug: federal-reserve-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-series-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-series-api-openapi.yml
 - filename: federal-reserve-source-api-openapi.yml
   format: yaml
   label: Federal Reserve Source API
   slug: federal-reserve-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-source-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-source-api-openapi.yml
 - filename: federal-reserve-sources-api-openapi.yml
   format: yaml
   label: Federal Reserve Sources API
   slug: federal-reserve-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-sources-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-sources-api-openapi.yml
 - filename: federal-reserve-tags-api-openapi.yml
   format: yaml
   label: Federal Reserve Tags API
   slug: federal-reserve-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-tags-api-openapi.yml
+  url: https://artifacts.apis.io/federal-reserve/openapi/federal-reserve-tags-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/federa
   \ getCategorySeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /releases\n  method: get\n  operationId: getReleases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /release\n  method: get\n  operationId: getRelease\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /release/series\n  method: get\n  operationId: getReleaseSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series\n  method: get\n  operationId: getSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /series/observations\n  method: get\n  operationId: getSeriesObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series/search\n  method: get\n  operationId: searchSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources\n  method: get\n  operationId: getSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /source\n  method: get\n  operationId: getSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /related_tags\n  method: get\n  operationId: getRelatedTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/agentic-access/federal-reserve-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/federal-reserve/agentic-access/federal-reserve-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Economics

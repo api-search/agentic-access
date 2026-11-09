@@ -8,7 +8,7 @@ api_specs:
   label: Emerson Electric Device Summary API
   slug: emerson-electric-device-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/openapi/emerson-electric-device-summary-api-openapi.yml
+  url: https://artifacts.apis.io/emerson-electric/openapi/emerson-electric-device-summary-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -34,7 +34,7 @@ source_filename: emerson-electric-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/emerson-electric-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1\n  by_action_class:\n    connected: 1\n  by_consequence:\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /summary/serial_number/{serialNumber}\n  method: get\n  operationId: getDeviceSummaryforSerialNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/agentic-access/emerson-electric-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/emerson-electric/agentic-access/emerson-electric-agentic-access.yml
 summary_line: 1 operation
 tags:
 - Fortune 500
@@ -43,5 +43,4 @@ tags:
 - Process Control
 - Measurement Instrumentation
 - Devices
-- APIs
 ---

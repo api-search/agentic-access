@@ -9,61 +9,61 @@ api_specs:
   label: Jebbit Auth API
   slug: jebbit-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-auth-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-auth-api-openapi.yml
 - filename: jebbit-businesses-api-openapi.yml
   format: yaml
   label: Jebbit Businesses API
   slug: jebbit-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-businesses-api-openapi.yml
 - filename: jebbit-campaigns-api-openapi.yml
   format: yaml
   label: Jebbit Campaigns API
   slug: jebbit-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-campaigns-api-openapi.yml
 - filename: jebbit-feed-columns-api-openapi.yml
   format: yaml
   label: Jebbit Feed Columns API
   slug: jebbit-feed-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-feed-columns-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-feed-columns-api-openapi.yml
 - filename: jebbit-feed-rows-api-openapi.yml
   format: yaml
   label: Jebbit Feed Rows API
   slug: jebbit-feed-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-feed-rows-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-feed-rows-api-openapi.yml
 - filename: jebbit-feeds-api-openapi.yml
   format: yaml
   label: Jebbit Feeds API
   slug: jebbit-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-feeds-api-openapi.yml
 - filename: jebbit-integration-historic-backfills-api-openapi.yml
   format: yaml
   label: Jebbit Integration Historic Backfills API
   slug: jebbit-integration-historic-backfills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-integration-historic-backfills-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-integration-historic-backfills-api-openapi.yml
 - filename: jebbit-integration-mappings-api-openapi.yml
   format: yaml
   label: Jebbit Integration Mappings API
   slug: jebbit-integration-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-integration-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-integration-mappings-api-openapi.yml
 - filename: jebbit-integrations-api-openapi.yml
   format: yaml
   label: Jebbit Integrations API
   slug: jebbit-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-integrations-api-openapi.yml
 - filename: jebbit-launch-links-api-openapi.yml
   format: yaml
   label: Jebbit Launch Links API
   slug: jebbit-launch-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/openapi/jebbit-launch-links-api-openapi.yml
+  url: https://artifacts.apis.io/jebbit/openapi/jebbit-launch-links-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/jebbit
   \  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations/{integration_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/v1/integrations/{integration_id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations/{integration_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations/{integration_id}/test\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/campaigns/{campaign_id}/launch_links\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/self\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/agentic-access/jebbit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jebbit/agentic-access/jebbit-agentic-access.yml
 summary_line: 37 operations · 19 acting
 tags:
 - Company

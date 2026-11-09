@@ -8,55 +8,55 @@ api_specs:
   label: AGL Energy Data Holder Customers API
   slug: agl-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-data-holder-customers-api-openapi.yml
 - filename: agl-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: AGL Energy Data Holder Operations API
   slug: agl-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-data-holder-operations-api-openapi.yml
 - filename: agl-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: AGL Energy Distributed Energy Resources API
   slug: agl-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-distributed-energy-resources-api-openapi.yml
 - filename: agl-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: AGL Energy Electricity Service Points API
   slug: agl-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-electricity-service-points-api-openapi.yml
 - filename: agl-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: AGL Energy Electricity Usage API
   slug: agl-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-electricity-usage-api-openapi.yml
 - filename: agl-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: AGL Energy Account Balances API
   slug: agl-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-account-balances-api-openapi.yml
 - filename: agl-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: AGL Energy Account Billing API
   slug: agl-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-account-billing-api-openapi.yml
 - filename: agl-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: AGL Energy Accounts API
   slug: agl-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-accounts-api-openapi.yml
 - filename: agl-energy-energy-plans-api-openapi.yml
   format: yaml
   label: AGL Energy Plans API
   slug: agl-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-plans-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/agl-en
   \ operationId: listEnergyAccountInvoicesBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/invoices\n  method: post\n  operationId: listEnergyInvoicesForSpecificAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/billing\n  method: get\n  operationId: getBillingForEnergyAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/billing\n  method: get\n  operationId: listEnergyAccountBillingBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/billing\n  method: post\n  operationId: listEnergyAccountBillingForSpecificAccounts\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts\n  method: get\n  operationId: listEnergyAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}\n  method: get\n  operationId: getEnergyAccountDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/payment-schedule\n  method: get\n  operationId: getEnergyAccountPaymentSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/accounts/{accountId}/concessions\n  method: get\n  operationId: getEnergyAccountConcessions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans\n  method: get\n  operationId: listEnergyPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy/plans/{planId}\n  method: get\n  operationId: getEnergyPlanDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/agentic-access/agl-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agl-energy/agentic-access/agl-energy-agentic-access.yml
 summary_line: 27 operations
 tags:
 - Energy

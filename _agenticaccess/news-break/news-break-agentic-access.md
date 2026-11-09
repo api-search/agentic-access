@@ -9,55 +9,55 @@ api_specs:
   label: News Break Account Billing API
   slug: news-break-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-account-billing-api-openapi.yml
 - filename: news-break-ad-account-api-openapi.yml
   format: yaml
   label: News Break Ad Account API
   slug: news-break-ad-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-ad-account-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-ad-account-api-openapi.yml
 - filename: news-break-ad-api-openapi.yml
   format: yaml
   label: News Break Ad API
   slug: news-break-ad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-ad-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-ad-api-openapi.yml
 - filename: news-break-ad-set-api-openapi.yml
   format: yaml
   label: News Break Ad Set API
   slug: news-break-ad-set-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-ad-set-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-ad-set-api-openapi.yml
 - filename: news-break-campaign-api-openapi.yml
   format: yaml
   label: News Break Campaign API
   slug: news-break-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-campaign-api-openapi.yml
 - filename: news-break-event-management-api-openapi.yml
   format: yaml
   label: News Break Event Management API
   slug: news-break-event-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-event-management-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-event-management-api-openapi.yml
 - filename: news-break-organization-api-openapi.yml
   format: yaml
   label: News Break Organization API
   slug: news-break-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-organization-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-organization-api-openapi.yml
 - filename: news-break-report-api-openapi.yml
   format: yaml
   label: News Break Report API
   slug: news-break-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-report-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-report-api-openapi.yml
 - filename: news-break-reporting-api-openapi.yml
   format: yaml
   label: News Break Reporting API
   slug: news-break-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/openapi/news-break-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/news-break/openapi/news-break-reporting-api-openapi.yml
 consequence_counts:
   read: 9
   write: 19
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/news-b
   \  operationId: updateCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaign/updateStatus/{campaignId}\n  method: put\n  operationId: updateCampaignStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaign/delete/{campaignId}\n  method: delete\n  operationId: deleteCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /event/getList/{adAccountId}\n  method: get\n  operationId: getEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/admin-orgs\n  method: get\n  operationId: getAdminOrgs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/getIntegratedReport\n  method: post\n  operationId: runSynchronousReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/createReport\n  method: post\n  operationId: createCustomReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/getReportById\n  method: get\n  operationId: getCustomReportById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting\n  method: get\n  operationId: getMonetizationReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/agentic-access/news-break-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/news-break/agentic-access/news-break-agentic-access.yml
 summary_line: 28 operations · 19 acting
 tags:
 - Company

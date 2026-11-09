@@ -9,37 +9,37 @@ api_specs:
   label: taylor-morrison-home Communities API
   slug: taylor-morrison-home-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-communities-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-communities-api-openapi.yml
 - filename: taylor-morrison-home-design-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Design API
   slug: taylor-morrison-home-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-design-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-design-api-openapi.yml
 - filename: taylor-morrison-home-floor-plans-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Floor Plans API
   slug: taylor-morrison-home-floor-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-floor-plans-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-floor-plans-api-openapi.yml
 - filename: taylor-morrison-home-homes-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Homes API
   slug: taylor-morrison-home-homes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-homes-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-homes-api-openapi.yml
 - filename: taylor-morrison-home-lots-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Lots API
   slug: taylor-morrison-home-lots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-lots-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-lots-api-openapi.yml
 - filename: taylor-morrison-home-reservations-api-openapi.yml
   format: yaml
   label: taylor-morrison-home Reservations API
   slug: taylor-morrison-home-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/openapi/taylor-morrison-home-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/taylor-morrison-home/openapi/taylor-morrison-home-reservations-api-openapi.yml
 consequence_counts:
   read: 10
   write: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/taylor
   \  method: get\n  operationId: listHomes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /homes/{home_id}\n  method: get\n  operationId: getHome\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /floor-plans\n  method: get\n  operationId: listFloorPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /floor-plans/{plan_id}\n  method: get\n  operationId: getFloorPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lots\n  method: get\n  operationId: listLots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /reservations\n  method: post\n  operationId: createReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reservations\n  method: get\n  operationId: listReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservations/{reservation_id}\n  method: get\n  operationId: getReservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /design/options\n  method: get\n  operationId: listDesignOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/agentic-access/taylor-morrison-home-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/taylor-morrison-home/agentic-access/taylor-morrison-home-agentic-access.yml
 summary_line: 11 operations · 1 acting
 tags:
 - Homebuilding

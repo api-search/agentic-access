@@ -9,25 +9,25 @@ api_specs:
   label: Gentrace Datasets API
   slug: gentrace-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-datasets-api-openapi.yml
 - filename: gentrace-experiments-api-openapi.yml
   format: yaml
   label: Gentrace Experiments API
   slug: gentrace-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-experiments-api-openapi.yml
 - filename: gentrace-pipelines-api-openapi.yml
   format: yaml
   label: Gentrace Pipelines API
   slug: gentrace-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-pipelines-api-openapi.yml
 - filename: gentrace-test-cases-api-openapi.yml
   format: yaml
   label: Gentrace Test Cases API
   slug: gentrace-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-test-cases-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/gentra
   \ path: /v4/experiments\n  method: post\n  operationId: createExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/experiments/{id}\n  method: get\n  operationId: getExperiment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/experiments/{id}\n  method: post\n  operationId: updateExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/test-cases\n  method: get\n  operationId: listTestCases\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/test-cases\n  method: post\n  operationId: createTestCase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/test-cases/{id}\n  method: get\n  operationId: getTestCase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/test-cases/{id}\n  method: delete\n  operationId: deleteTestCase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/agentic-access/gentrace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gentrace/agentic-access/gentrace-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Company

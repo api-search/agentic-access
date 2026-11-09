@@ -9,31 +9,31 @@ api_specs:
   label: Turnkey Organizations API
   slug: turnkey-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-organizations-api-openapi.yml
 - filename: turnkey-private-keys-api-openapi.yml
   format: yaml
   label: Turnkey Private Keys API
   slug: turnkey-private-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-private-keys-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-private-keys-api-openapi.yml
 - filename: turnkey-signing-api-openapi.yml
   format: yaml
   label: Turnkey Signing API
   slug: turnkey-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-signing-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-signing-api-openapi.yml
 - filename: turnkey-users-policies-api-openapi.yml
   format: yaml
   label: Turnkey Users & Policies API
   slug: turnkey-users-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-users-policies-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-users-policies-api-openapi.yml
 - filename: turnkey-wallets-api-openapi.yml
   format: yaml
   label: Turnkey Wallets API
   slug: turnkey-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-wallets-api-openapi.yml
 consequence_counts:
   read: 8
   write: 13
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/turnke
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/submit/create_wallet\n  method: post\n  operationId: createWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/submit/create_wallet_accounts\n  method: post\n  operationId: createWalletAccounts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/submit/export_wallet\n  method: post\n  operationId: exportWallet\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/submit/import_wallet\n  method: post\n  operationId: importWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/query/list_wallets\n  method: post\n  operationId: listWallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/query/get_wallet\n  method: post\n  operationId: getWallet\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/query/list_wallet_accounts\n  method: post\n  operationId: listWalletAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/agentic-access/turnkey-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/turnkey/agentic-access/turnkey-agentic-access.yml
 summary_line: 21 operations · 13 acting
 tags:
 - Cryptocurrency

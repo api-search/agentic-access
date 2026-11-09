@@ -9,67 +9,67 @@ api_specs:
   label: FinditParts Addresses API
   slug: finditparts-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-addresses-api-openapi.yml
 - filename: finditparts-carts-api-openapi.yml
   format: yaml
   label: FinditParts Carts API
   slug: finditparts-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-carts-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-carts-api-openapi.yml
 - filename: finditparts-orders-api-openapi.yml
   format: yaml
   label: FinditParts Orders API
   slug: finditparts-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-orders-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-orders-api-openapi.yml
 - filename: finditparts-partners-api-openapi.yml
   format: yaml
   label: FinditParts Partners API
   slug: finditparts-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-partners-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-partners-api-openapi.yml
 - filename: finditparts-products-api-openapi.yml
   format: yaml
   label: FinditParts Products API
   slug: finditparts-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-products-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-products-api-openapi.yml
 - filename: finditparts-reseller-customer-sessions-api-openapi.yml
   format: yaml
   label: FinditParts Reseller Customer Sessions API
   slug: finditparts-reseller-customer-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-reseller-customer-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-reseller-customer-sessions-api-openapi.yml
 - filename: finditparts-reseller-customers-api-openapi.yml
   format: yaml
   label: FinditParts Reseller Customers API
   slug: finditparts-reseller-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-reseller-customers-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-reseller-customers-api-openapi.yml
 - filename: finditparts-sessions-api-openapi.yml
   format: yaml
   label: FinditParts Sessions API
   slug: finditparts-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-sessions-api-openapi.yml
 - filename: finditparts-shipping-api-openapi.yml
   format: yaml
   label: FinditParts Shipping API
   slug: finditparts-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-shipping-api-openapi.yml
 - filename: finditparts-users-api-openapi.yml
   format: yaml
   label: FinditParts Users API
   slug: finditparts-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-users-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-users-api-openapi.yml
 - filename: finditparts-variants-api-openapi.yml
   format: yaml
   label: FinditParts Variants API
   slug: finditparts-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/openapi/finditparts-variants-api-openapi.yml
+  url: https://artifacts.apis.io/finditparts/openapi/finditparts-variants-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 15
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: generated\nsource: openapi/findit
   \      - high-value\n    audit: required\n- path: /carts/{cart_id}/billing_address\n  method: put\n  operationId: setCartBillingAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carts/{cart_id}/coupon\n  method: put\n  operationId: setCartCoupon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carts/{cart_id}/po_number\n  method: put\n  operationId: setCartPoNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carts/{cart_id}/complete_with_credit_card\n  method: post\n  operationId: completeCartWithCreditCard\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carts/{cart_id}/complete_with_corporate_billing\n  method: post\n  operationId: completeCartWithCorporateBilling\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /carts/{cart_id}\n  method: get\n  operationId: getCart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carts\n  method: post\n  operationId: createCart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/agentic-access/finditparts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/finditparts/agentic-access/finditparts-agentic-access.yml
 summary_line: 38 operations · 23 acting
 tags:
 - Company

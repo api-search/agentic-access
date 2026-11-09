@@ -8,25 +8,25 @@ api_specs:
   label: CoinPaprika Coins API
   slug: coinpaprika-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-coins-api-openapi.yml
+  url: https://artifacts.apis.io/coinpaprika/openapi/coinpaprika-coins-api-openapi.yml
 - filename: coinpaprika-global-api-openapi.yml
   format: yaml
   label: CoinPaprika Global API
   slug: coinpaprika-global-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-global-api-openapi.yml
+  url: https://artifacts.apis.io/coinpaprika/openapi/coinpaprika-global-api-openapi.yml
 - filename: coinpaprika-search-api-openapi.yml
   format: yaml
   label: CoinPaprika Search API
   slug: coinpaprika-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-search-api-openapi.yml
+  url: https://artifacts.apis.io/coinpaprika/openapi/coinpaprika-search-api-openapi.yml
 - filename: coinpaprika-ticker-api-openapi.yml
   format: yaml
   label: CoinPaprika Ticker API
   slug: coinpaprika-ticker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-ticker-api-openapi.yml
+  url: https://artifacts.apis.io/coinpaprika/openapi/coinpaprika-ticker-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /global\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coins\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ticker\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /ticker/{coin_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/agentic-access/coinpaprika-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coinpaprika/agentic-access/coinpaprika-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Cryptocurrency

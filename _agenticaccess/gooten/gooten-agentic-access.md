@@ -9,25 +9,25 @@ api_specs:
   label: Gooten Orders API
   slug: gooten-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-orders-api-openapi.yml
 - filename: gooten-print-assets-api-openapi.yml
   format: yaml
   label: Gooten Print Assets API
   slug: gooten-print-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-print-assets-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-print-assets-api-openapi.yml
 - filename: gooten-products-api-openapi.yml
   format: yaml
   label: Gooten Products API
   slug: gooten-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-products-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-products-api-openapi.yml
 - filename: gooten-shipping-api-openapi.yml
   format: yaml
   label: Gooten Shipping API
   slug: gooten-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/openapi/gooten-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/gooten/openapi/gooten-shipping-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 11
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gooten
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/recipes/{recipeId}/printreadyproducts\n  method: put\n  operationId: updatePrintReadyProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/recipes/{recipeId}/printreadyproducts/{productId}\n  method: delete\n  operationId: deletePrintReadyProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/v2/recipes/{recipeId}/printreadyproducts/variants\n  method: get\n  operationId: listPrintReadyProductVariants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v/5/source/api/products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v/5/source/api/productvariants\n  method: get\n  operationId: listProductVariants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v/5/source/api/countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n- path: /api/v/5/source/api/currencies\n  method: get\n  operationId: listCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v/5/source/api/shippingprices\n  method: post\n  operationId: getShippingOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v/5/source/api/price\n  method: post\n  operationId: getPriceEstimate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/agentic-access/gooten-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gooten/agentic-access/gooten-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - Print on Demand

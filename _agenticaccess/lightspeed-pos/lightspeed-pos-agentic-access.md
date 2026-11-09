@@ -9,133 +9,133 @@ api_specs:
   label: Lightspeed Account API
   slug: lightspeed-pos-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-account-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-account-api-openapi.yml
 - filename: lightspeed-pos-brands-api-openapi.yml
   format: yaml
   label: Lightspeed Brands API
   slug: lightspeed-pos-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-brands-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-brands-api-openapi.yml
 - filename: lightspeed-pos-catalog-api-openapi.yml
   format: yaml
   label: Lightspeed Catalog API
   slug: lightspeed-pos-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-catalog-api-openapi.yml
 - filename: lightspeed-pos-customer-api-openapi.yml
   format: yaml
   label: Lightspeed Customer API
   slug: lightspeed-pos-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-customer-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-customer-api-openapi.yml
 - filename: lightspeed-pos-customers-api-openapi.yml
   format: yaml
   label: Lightspeed Customers API
   slug: lightspeed-pos-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-customers-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-customers-api-openapi.yml
 - filename: lightspeed-pos-financial-api-openapi.yml
   format: yaml
   label: Lightspeed Financial API
   slug: lightspeed-pos-financial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-financial-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-financial-api-openapi.yml
 - filename: lightspeed-pos-financialv2-api-openapi.yml
   format: yaml
   label: Lightspeed FinancialV2 API
   slug: lightspeed-pos-financialv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-financialv2-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-financialv2-api-openapi.yml
 - filename: lightspeed-pos-gift-cards-api-openapi.yml
   format: yaml
   label: Lightspeed Gift Cards API
   slug: lightspeed-pos-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-gift-cards-api-openapi.yml
 - filename: lightspeed-pos-id-cards-api-openapi.yml
   format: yaml
   label: Lightspeed ID Cards API
   slug: lightspeed-pos-id-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-id-cards-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-id-cards-api-openapi.yml
 - filename: lightspeed-pos-item-api-openapi.yml
   format: yaml
   label: Lightspeed Item API
   slug: lightspeed-pos-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-item-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-item-api-openapi.yml
 - filename: lightspeed-pos-items-api-openapi.yml
   format: yaml
   label: Lightspeed Items API
   slug: lightspeed-pos-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-items-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-items-api-openapi.yml
 - filename: lightspeed-pos-order-and-pay-api-openapi.yml
   format: yaml
   label: Lightspeed Order and Pay API
   slug: lightspeed-pos-order-and-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-order-and-pay-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-order-and-pay-api-openapi.yml
 - filename: lightspeed-pos-order-and-pay-webhook-api-openapi.yml
   format: yaml
   label: 'Lightspeed Order and Pay: Webhook API'
   slug: lightspeed-pos-order-and-pay-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-order-and-pay-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-order-and-pay-webhook-api-openapi.yml
 - filename: lightspeed-pos-pms-api-openapi.yml
   format: yaml
   label: Lightspeed PMS API
   slug: lightspeed-pos-pms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-pms-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-pms-api-openapi.yml
 - filename: lightspeed-pos-products-api-openapi.yml
   format: yaml
   label: Lightspeed Products API
   slug: lightspeed-pos-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-products-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-products-api-openapi.yml
 - filename: lightspeed-pos-reservations-for-platforms-api-openapi.yml
   format: yaml
   label: Lightspeed Reservations for Platforms API
   slug: lightspeed-pos-reservations-for-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-reservations-for-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-reservations-for-platforms-api-openapi.yml
 - filename: lightspeed-pos-rich-item-api-openapi.yml
   format: yaml
   label: Lightspeed Rich Item API
   slug: lightspeed-pos-rich-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-rich-item-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-rich-item-api-openapi.yml
 - filename: lightspeed-pos-sale-api-openapi.yml
   format: yaml
   label: Lightspeed Sale API
   slug: lightspeed-pos-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-sale-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-sale-api-openapi.yml
 - filename: lightspeed-pos-sales-api-openapi.yml
   format: yaml
   label: Lightspeed Sales API
   slug: lightspeed-pos-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-sales-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-sales-api-openapi.yml
 - filename: lightspeed-pos-staff-api-openapi.yml
   format: yaml
   label: Lightspeed Staff API
   slug: lightspeed-pos-staff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-staff-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-staff-api-openapi.yml
 - filename: lightspeed-pos-tax-breakdown-api-openapi.yml
   format: yaml
   label: Lightspeed Tax Breakdown API
   slug: lightspeed-pos-tax-breakdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-tax-breakdown-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-tax-breakdown-api-openapi.yml
 - filename: lightspeed-pos-pms-integration-api-openapi.yml
   format: yaml
   label: Lightspeed PMS Integration API
   slug: lightspeed-pos-pms-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-pms-integration-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-pms-integration-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 71
@@ -250,8 +250,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lights
   \    subject: required\n    scope:\n    - orders-api\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /i/richItem/{businessId}\n  method: get\n  operationId: teckelGetRichItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - orders-api\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /i/richItem/{businessId}/{sku}\n  method: get\n  operationId: teckelGetRichItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - orders-api\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /i/richItem/{businessId}/{sku}\n  method: patch\n  operationId: teckelUpdateRichItemPicture\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - orders-api\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /i/richItem/{businessId}/{sku}\n  method: put\n  operationId: teckelCreateOrUpdateRichItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - orders-api\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /i/richItem/{businessId}/{sku}\n  method: delete\n  operationId: teckelDeleteRichItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - orders-api\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /i/richItem/{businessId}/itemsBySkus\n\
   \  method: post\n  operationId: teckelGetRichItemBySKUs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - orders-api\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /i/richItem/{businessId}/pictureSpec\n  method: get\n  operationId: teckelGetRichItemPictureSpec\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - orders-api\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Account.json\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - employee:all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Account/{accountID}/Item.json\n  method: get\n  operationId: getItems\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - employee:inventory_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Account/{accountID}/Item.json\n  method: post\n  operationId: createItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - employee:inventory\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Account/{accountID}/Item/{itemID}.json\n  method: get\n  operationId: getItemById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - employee:inventory_read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/agentic-access/lightspeed-pos-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/agentic-access/lightspeed-pos-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - employee:inventory_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Account/{accountID}/Item.json\n  method: post\n  operationId: createItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - employee:inventory\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Account/{accountID}/Item/{itemID}.json\n  method: get\n  operationId: getItemById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - employee:inventory_read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/lightspeed-pos/agentic-access/lightspeed-pos-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/lightspeed-pos/agentic-access/lightspeed-pos-agentic-access.yml
 summary_line: 124 operations · 53 acting
 tags:
 - Lightspeed

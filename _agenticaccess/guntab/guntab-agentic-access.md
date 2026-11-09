@@ -9,25 +9,25 @@ api_specs:
   label: GunTab FFLs API
   slug: guntab-ffls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-ffls-api-openapi.yml
+  url: https://artifacts.apis.io/guntab/openapi/guntab-ffls-api-openapi.yml
 - filename: guntab-invoices-api-openapi.yml
   format: yaml
   label: GunTab Invoices API
   slug: guntab-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/guntab/openapi/guntab-invoices-api-openapi.yml
 - filename: guntab-users-api-openapi.yml
   format: yaml
   label: GunTab Users API
   slug: guntab-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-users-api-openapi.yml
+  url: https://artifacts.apis.io/guntab/openapi/guntab-users-api-openapi.yml
 - filename: guntab-webhooks-api-openapi.yml
   format: yaml
   label: GunTab Webhooks API
   slug: guntab-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/openapi/guntab-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/guntab/openapi/guntab-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 3
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/guntab
   \  method: post\n  operationId: sellerConfirmInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/{id}/fulfillments\n  method: post\n  operationId: fulfillInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{email}\n  method: get\n  operationId: readUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /ffls/{license_number}/claim_verification_code_calls\n  method: post\n  operationId: callFflVerification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: readWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId:\
   \ deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/agentic-access/guntab-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/guntab/agentic-access/guntab-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - E-Commerce

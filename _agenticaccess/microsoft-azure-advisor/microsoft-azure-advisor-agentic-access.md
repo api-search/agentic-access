@@ -9,13 +9,49 @@ api_specs:
   label: Microsoft Azure Advisor Operations API
   slug: microsoft-azure-advisor-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/openapi/microsoft-azure-advisor-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-operations-api-openapi.yml
 - filename: microsoft-azure-advisor-recommendations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Advisor Recommendations API
   slug: microsoft-azure-advisor-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
+- filename: microsoft-azure-advisor-advisorscoreentities-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Advisor Score Entities API
+  slug: microsoft-azure-advisor-advisorscoreentities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-advisorscoreentities-api-openapi.yml
+- filename: microsoft-azure-advisor-metadataentities-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Metadata Entities API
+  slug: microsoft-azure-advisor-metadataentities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-metadataentities-api-openapi.yml
+- filename: microsoft-azure-advisor-resiliencyreviews-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Resiliency Reviews API
+  slug: microsoft-azure-advisor-resiliencyreviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-resiliencyreviews-api-openapi.yml
+- filename: microsoft-azure-advisor-resourcerecommendationbases-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Resource Recommendation Bases API
+  slug: microsoft-azure-advisor-resourcerecommendationbases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-resourcerecommendationbases-api-openapi.yml
+- filename: microsoft-azure-advisor-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Subscriptions API
+  slug: microsoft-azure-advisor-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-subscriptions-api-openapi.yml
+- filename: microsoft-azure-advisor-suppressioncontracts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Suppression Contracts API
+  slug: microsoft-azure-advisor-suppressioncontracts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-suppressioncontracts-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Advisor/recommendations\n  method: get\n  operationId: listRecommendationsByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Advisor/recommendations/{name}\n  method: get\n  operationId: getRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Advisor/recommendations/{name}\n\
   \  method: put\n  operationId: createOrUpdateRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Advisor/recommendations/{name}\n  method: patch\n  operationId: updateRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Advisor/recommendations/{name}\n\
   \  method: delete\n  operationId: deleteRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/agentic-access/microsoft-azure-advisor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-advisor/agentic-access/microsoft-azure-advisor-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Advisor

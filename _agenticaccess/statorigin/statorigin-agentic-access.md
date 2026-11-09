@@ -8,37 +8,37 @@ api_specs:
   label: StatOrigin Indicators API
   slug: statorigin-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-indicators-api-openapi.yml
 - filename: statorigin-industries-api-openapi.yml
   format: yaml
   label: StatOrigin Industries API
   slug: statorigin-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-industries-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-industries-api-openapi.yml
 - filename: statorigin-regions-api-openapi.yml
   format: yaml
   label: StatOrigin Regions API
   slug: statorigin-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-regions-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-regions-api-openapi.yml
 - filename: statorigin-search-api-openapi.yml
   format: yaml
   label: StatOrigin Search API
   slug: statorigin-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-search-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-search-api-openapi.yml
 - filename: statorigin-sources-api-openapi.yml
   format: yaml
   label: StatOrigin Sources API
   slug: statorigin-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-sources-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-sources-api-openapi.yml
 - filename: statorigin-statistics-api-openapi.yml
   format: yaml
   label: StatOrigin Statistics API
   slug: statorigin-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/openapi/statorigin-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/statorigin/openapi/statorigin-statistics-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/stator
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /indicators/{slug}\n  method: get\n  operationId: getIndicator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indicators/{slug}/series\n  method: get\n  operationId: getIndicatorSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indicators/{slug}/export.xlsx\n  method: get\n  operationId: exportIndicatorXlsx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indicators/{slug}/export.csv\n  method: get\n  operationId: exportIndicatorCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources\n  method: get\n\
   \  operationId: listSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources/{slug}\n  method: get\n  operationId: getSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions/{slug}/export.xlsx\n  method: get\n  operationId: exportRegionXlsx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions/{slug}/export.csv\n  method: get\n  operationId: exportRegionCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/agentic-access/statorigin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/statorigin/agentic-access/statorigin-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Company

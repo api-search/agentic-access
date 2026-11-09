@@ -9,43 +9,49 @@ api_specs:
   label: FlexAI Audio API
   slug: flexai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-audio-api-openapi.yml
 - filename: flexai-completions-api-openapi.yml
   format: yaml
   label: FlexAI Completions API
   slug: flexai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-completions-api-openapi.yml
 - filename: flexai-embeddings-api-openapi.yml
   format: yaml
   label: FlexAI Embeddings API
   slug: flexai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-embeddings-api-openapi.yml
 - filename: flexai-images-api-openapi.yml
   format: yaml
   label: FlexAI Images API
   slug: flexai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-images-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-images-api-openapi.yml
 - filename: flexai-models-api-openapi.yml
   format: yaml
   label: FlexAI Models API
   slug: flexai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-models-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-models-api-openapi.yml
 - filename: flexai-video-api-openapi.yml
   format: yaml
   label: FlexAI Video API
   slug: flexai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-video-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-video-api-openapi.yml
+- filename: flexai-usage-api-openapi.yml
+  format: yaml
+  label: FlexAI Usage API
+  slug: flexai-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flexai/openapi/flexai-usage-api-openapi.yml
 - filename: flexai-chat-completions-api-openapi.yml
   format: yaml
   label: FlexAI Chat Completions API
   slug: flexai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-chat-completions-api-openapi.yml
 consequence_counts:
   read: 1
   write: 7
@@ -75,7 +81,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/flexai
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /embeddings\n  method: post\n  operationId: createEmbedding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audio/transcriptions\n  method: post\n  operationId: createTranscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audio/speech\n  method: post\n  operationId: createSpeech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/generations\n  method: post\n  operationId: createImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/generations\n  method: post\n  operationId: createVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/agentic-access/flexai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flexai/agentic-access/flexai-agentic-access.yml
 summary_line: 8 operations · 7 acting
 tags:
 - Company

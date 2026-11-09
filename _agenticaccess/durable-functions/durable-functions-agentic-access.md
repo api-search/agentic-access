@@ -9,13 +9,13 @@ api_specs:
   label: Azure Durable Functions Entities API
   slug: durable-functions-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/openapi/durable-functions-entities-api-openapi.yml
+  url: https://artifacts.apis.io/durable-functions/openapi/durable-functions-entities-api-openapi.yml
 - filename: durable-functions-orchestrations-api-openapi.yml
   format: yaml
   label: Azure Durable Functions Orchestrations API
   slug: durable-functions-orchestrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/openapi/durable-functions-orchestrations-api-openapi.yml
+  url: https://artifacts.apis.io/durable-functions/openapi/durable-functions-orchestrations-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 1
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/durabl
   \  method: post\n  operationId: terminateInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /runtime/webhooks/durabletask/instances/{instanceId}/suspend\n  method: post\n  operationId: suspendInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runtime/webhooks/durabletask/instances/{instanceId}/resume\n  method: post\n  operationId: resumeInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runtime/webhooks/durabletask/instances/{instanceId}/rewind\n  method: post\n  operationId: rewindInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runtime/webhooks/durabletask/entities/{entityName}/{entityKey}\n  method: get\n  operationId: getEntity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runtime/webhooks/durabletask/entities/{entityName}/{entityKey}\n  method: post\n  operationId: signalEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runtime/webhooks/durabletask/entities/{entityName}\n  method: get\n  operationId: listEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/durable-functions/refs/heads/main/agentic-access/durable-functions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/durable-functions/agentic-access/durable-functions-agentic-access.yml
 summary_line: 14 operations · 10 acting · 1 human-in-the-loop
 tags:
 - API Composition

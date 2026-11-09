@@ -9,49 +9,49 @@ api_specs:
   label: Weavix Channels & Messaging API
   slug: weavix-channels-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/openapi/weavix-channels-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/weavix/openapi/weavix-channels-messaging-api-openapi.yml
 - filename: weavix-crafts-api-openapi.yml
   format: yaml
   label: Weavix Crafts API
   slug: weavix-crafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/openapi/weavix-crafts-api-openapi.yml
+  url: https://artifacts.apis.io/weavix/openapi/weavix-crafts-api-openapi.yml
 - filename: weavix-forms-api-openapi.yml
   format: yaml
   label: Weavix Forms API
   slug: weavix-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/openapi/weavix-forms-api-openapi.yml
+  url: https://artifacts.apis.io/weavix/openapi/weavix-forms-api-openapi.yml
 - filename: weavix-geofences-api-openapi.yml
   format: yaml
   label: Weavix Geofences API
   slug: weavix-geofences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/openapi/weavix-geofences-api-openapi.yml
+  url: https://artifacts.apis.io/weavix/openapi/weavix-geofences-api-openapi.yml
 - filename: weavix-mass-alerts-api-openapi.yml
   format: yaml
   label: Weavix Mass Alerts API
   slug: weavix-mass-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/openapi/weavix-mass-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/weavix/openapi/weavix-mass-alerts-api-openapi.yml
 - filename: weavix-permission-groups-api-openapi.yml
   format: yaml
   label: Weavix Permission Groups API
   slug: weavix-permission-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/openapi/weavix-permission-groups-api-openapi.yml
+  url: https://artifacts.apis.io/weavix/openapi/weavix-permission-groups-api-openapi.yml
 - filename: weavix-sites-api-openapi.yml
   format: yaml
   label: Weavix Sites API
   slug: weavix-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/openapi/weavix-sites-api-openapi.yml
+  url: https://artifacts.apis.io/weavix/openapi/weavix-sites-api-openapi.yml
 - filename: weavix-user-management-api-openapi.yml
   format: yaml
   label: Weavix User Management API
   slug: weavix-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/openapi/weavix-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/weavix/openapi/weavix-user-management-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 12
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/weavix
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/groups/{facilityId}\n  method: get\n  operationId: listPermissionGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track/facilities\n  method: get\n  operationId: listSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/people/names\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/core/people\n  method: get\n  operationId: listPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/users/{id}\n  method: get\n  operationId: getUser\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/people/{id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/people/{id}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/people/new-user\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/agentic-access/weavix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weavix/agentic-access/weavix-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
 - Communications

@@ -9,193 +9,193 @@ api_specs:
   label: Slash Account API
   slug: joinslash-com-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-account-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-account-api-openapi.yml
 - filename: joinslash-com-agent-requests-api-openapi.yml
   format: yaml
   label: Slash Agent Requests API
   slug: joinslash-com-agent-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-agent-requests-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-agent-requests-api-openapi.yml
 - filename: joinslash-com-analytics-api-openapi.yml
   format: yaml
   label: Slash Analytics API
   slug: joinslash-com-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-analytics-api-openapi.yml
 - filename: joinslash-com-card-api-openapi.yml
   format: yaml
   label: Slash Card API
   slug: joinslash-com-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-card-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-card-api-openapi.yml
 - filename: joinslash-com-card-group-api-openapi.yml
   format: yaml
   label: Slash Card Group API
   slug: joinslash-com-card-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-card-group-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-card-group-api-openapi.yml
 - filename: joinslash-com-card-product-api-openapi.yml
   format: yaml
   label: Slash Card Product API
   slug: joinslash-com-card-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-card-product-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-card-product-api-openapi.yml
 - filename: joinslash-com-cardholder-api-openapi.yml
   format: yaml
   label: Slash Cardholder API
   slug: joinslash-com-cardholder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-cardholder-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-cardholder-api-openapi.yml
 - filename: joinslash-com-checkout-session-api-openapi.yml
   format: yaml
   label: Slash Checkout Session API
   slug: joinslash-com-checkout-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-checkout-session-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-checkout-session-api-openapi.yml
 - filename: joinslash-com-contact-api-openapi.yml
   format: yaml
   label: Slash Contact API
   slug: joinslash-com-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-contact-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-contact-api-openapi.yml
 - filename: joinslash-com-crypto-api-openapi.yml
   format: yaml
   label: Slash Crypto API
   slug: joinslash-com-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-crypto-api-openapi.yml
 - filename: joinslash-com-customer-api-openapi.yml
   format: yaml
   label: Slash Customer API
   slug: joinslash-com-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-customer-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-customer-api-openapi.yml
 - filename: joinslash-com-developer-account-api-openapi.yml
   format: yaml
   label: Slash Developer Account API
   slug: joinslash-com-developer-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-developer-account-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-developer-account-api-openapi.yml
 - filename: joinslash-com-developer-application-api-openapi.yml
   format: yaml
   label: Slash Developer Application API
   slug: joinslash-com-developer-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-developer-application-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-developer-application-api-openapi.yml
 - filename: joinslash-com-expense-report-api-openapi.yml
   format: yaml
   label: Slash Expense Report API
   slug: joinslash-com-expense-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-expense-report-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-expense-report-api-openapi.yml
 - filename: joinslash-com-fdx-api-openapi.yml
   format: yaml
   label: Slash Fdx API
   slug: joinslash-com-fdx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-fdx-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-fdx-api-openapi.yml
 - filename: joinslash-com-invoice-api-openapi.yml
   format: yaml
   label: Slash Invoice API
   slug: joinslash-com-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-invoice-api-openapi.yml
 - filename: joinslash-com-legal-entity-api-openapi.yml
   format: yaml
   label: Slash Legal Entity API
   slug: joinslash-com-legal-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-legal-entity-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-legal-entity-api-openapi.yml
 - filename: joinslash-com-merchant-api-openapi.yml
   format: yaml
   label: Slash Merchant API
   slug: joinslash-com-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-merchant-api-openapi.yml
 - filename: joinslash-com-merchant-category-api-openapi.yml
   format: yaml
   label: Slash Merchant Category API
   slug: joinslash-com-merchant-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-merchant-category-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-merchant-category-api-openapi.yml
 - filename: joinslash-com-oauth2-api-openapi.yml
   format: yaml
   label: Slash Oauth2 API
   slug: joinslash-com-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-oauth2-api-openapi.yml
 - filename: joinslash-com-payment-intent-api-openapi.yml
   format: yaml
   label: Slash Payment Intent API
   slug: joinslash-com-payment-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-payment-intent-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-payment-intent-api-openapi.yml
 - filename: joinslash-com-payments-api-openapi.yml
   format: yaml
   label: Slash Payments API
   slug: joinslash-com-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-payments-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-payments-api-openapi.yml
 - filename: joinslash-com-refund-api-openapi.yml
   format: yaml
   label: Slash Refund API
   slug: joinslash-com-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-refund-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-refund-api-openapi.yml
 - filename: joinslash-com-slash-public-api-api-openapi.yml
   format: yaml
   label: Slash Slash Public API
   slug: joinslash-com-slash-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-slash-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-slash-public-api-api-openapi.yml
 - filename: joinslash-com-task-api-openapi.yml
   format: yaml
   label: Slash Task API
   slug: joinslash-com-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-task-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-task-api-openapi.yml
 - filename: joinslash-com-tokens-api-openapi.yml
   format: yaml
   label: Slash Tokens API
   slug: joinslash-com-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-tokens-api-openapi.yml
 - filename: joinslash-com-transaction-api-openapi.yml
   format: yaml
   label: Slash Transaction API
   slug: joinslash-com-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-transaction-api-openapi.yml
 - filename: joinslash-com-transfer-api-openapi.yml
   format: yaml
   label: Slash Transfer API
   slug: joinslash-com-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-transfer-api-openapi.yml
 - filename: joinslash-com-transfers-api-openapi.yml
   format: yaml
   label: Slash Transfers API
   slug: joinslash-com-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-transfers-api-openapi.yml
 - filename: joinslash-com-virtual-account-api-openapi.yml
   format: yaml
   label: Slash Virtual Account API
   slug: joinslash-com-virtual-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-virtual-account-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-virtual-account-api-openapi.yml
 - filename: joinslash-com-webhook-api-openapi.yml
   format: yaml
   label: Slash Webhook API
   slug: joinslash-com-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-webhook-api-openapi.yml
 - filename: joinslash-com-well-known-api-openapi.yml
   format: yaml
   label: Slash .well Known API
   slug: joinslash-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/openapi/joinslash-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/joinslash-com/openapi/joinslash-com-well-known-api-openapi.yml
 consequence_counts:
   physical: 20
   read: 71
@@ -355,12 +355,11 @@ source_yaml: "generated: '2026-10-26'\nmethod: generated\nsource: openapi/joinsl
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-intent\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment-intent/{paymentIntentId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refund\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refund\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n   \
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refund/{refundId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crypto/offramp\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/prices\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/schema\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/{taskId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/{taskId}/act\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/joinslash-com/refs/heads/main/agentic-access/joinslash-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/joinslash-com/agentic-access/joinslash-com-agentic-access.yml
 summary_line: 124 operations · 53 acting
 tags:
-- FinTech
+- Fintech
 - Payments
 - Banking
-- API
 - Enterprise
 ---

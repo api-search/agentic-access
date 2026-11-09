@@ -9,37 +9,37 @@ api_specs:
   label: MailBridgeAPI Activity API
   slug: mailbridgeapi-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailbridgeapi/refs/heads/main/openapi/mailbridgeapi-activity-api-openapi.yml
+  url: https://artifacts.apis.io/mailbridgeapi/openapi/mailbridgeapi-activity-api-openapi.yml
 - filename: mailbridgeapi-compliance-api-openapi.yml
   format: yaml
   label: MailBridgeAPI Compliance API
   slug: mailbridgeapi-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailbridgeapi/refs/heads/main/openapi/mailbridgeapi-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/mailbridgeapi/openapi/mailbridgeapi-compliance-api-openapi.yml
 - filename: mailbridgeapi-mailbox-api-openapi.yml
   format: yaml
   label: MailBridgeAPI Mailbox API
   slug: mailbridgeapi-mailbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailbridgeapi/refs/heads/main/openapi/mailbridgeapi-mailbox-api-openapi.yml
+  url: https://artifacts.apis.io/mailbridgeapi/openapi/mailbridgeapi-mailbox-api-openapi.yml
 - filename: mailbridgeapi-receiving-api-openapi.yml
   format: yaml
   label: MailBridgeAPI Receiving API
   slug: mailbridgeapi-receiving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailbridgeapi/refs/heads/main/openapi/mailbridgeapi-receiving-api-openapi.yml
+  url: https://artifacts.apis.io/mailbridgeapi/openapi/mailbridgeapi-receiving-api-openapi.yml
 - filename: mailbridgeapi-sending-api-openapi.yml
   format: yaml
   label: MailBridgeAPI Sending API
   slug: mailbridgeapi-sending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailbridgeapi/refs/heads/main/openapi/mailbridgeapi-sending-api-openapi.yml
+  url: https://artifacts.apis.io/mailbridgeapi/openapi/mailbridgeapi-sending-api-openapi.yml
 - filename: mailbridgeapi-service-api-openapi.yml
   format: yaml
   label: MailBridgeAPI Service API
   slug: mailbridgeapi-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailbridgeapi/refs/heads/main/openapi/mailbridgeapi-service-api-openapi.yml
+  url: https://artifacts.apis.io/mailbridgeapi/openapi/mailbridgeapi-service-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-10-21'\nmethod: generated\nsource: openapi/mailbr
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getemail/\n  method: get\n  operationId: getLiveMailboxMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/unsubscribed/\n  method: get\n  operationId: listUnsubscribeRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mailbox/status/\n  method: get\n  operationId: getMailboxStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mailbox/insights/\n  method: get\n  operationId: getMailboxInsights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /email/sent/\n  method: get\n  operationId: listSentEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/received/\n  method: get\n  operationId: listReceivedEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/message/\n  method: get\n  operationId: getEmailMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/search/\n  method: get\n  operationId: searchEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/activity/\n  method: get\n  operationId: getEmailActivity\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/validate/\n  method: post\n  operationId: validateEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailbridgeapi/refs/heads/main/agentic-access/mailbridgeapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mailbridgeapi/agentic-access/mailbridgeapi-agentic-access.yml
 summary_line: 12 operations · 2 acting
 tags:
 - Email API

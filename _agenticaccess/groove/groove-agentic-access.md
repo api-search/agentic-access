@@ -15,55 +15,55 @@ api_specs:
   label: Groove Agents API
   slug: groove-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-agents-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-agents-api-openapi.yml
 - filename: groove-attachments-api-openapi.yml
   format: yaml
   label: Groove Attachments API
   slug: groove-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-attachments-api-openapi.yml
 - filename: groove-customers-api-openapi.yml
   format: yaml
   label: Groove Customers API
   slug: groove-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-customers-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-customers-api-openapi.yml
 - filename: groove-folders-api-openapi.yml
   format: yaml
   label: Groove Folders API
   slug: groove-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-folders-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-folders-api-openapi.yml
 - filename: groove-groups-api-openapi.yml
   format: yaml
   label: Groove Groups API
   slug: groove-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-groups-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-groups-api-openapi.yml
 - filename: groove-mailboxes-api-openapi.yml
   format: yaml
   label: Groove Mailboxes API
   slug: groove-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-mailboxes-api-openapi.yml
 - filename: groove-messages-api-openapi.yml
   format: yaml
   label: Groove Messages API
   slug: groove-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-messages-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-messages-api-openapi.yml
 - filename: groove-tickets-api-openapi.yml
   format: yaml
   label: Groove Tickets API
   slug: groove-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-tickets-api-openapi.yml
 - filename: groove-webhooks-api-openapi.yml
   format: yaml
   label: Groove Webhooks API
   slug: groove-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/openapi/groove-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/groove/openapi/groove-webhooks-api-openapi.yml
 consequence_counts:
   read: 13
   write: 11
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/groove
   \      - high-value\n    audit: required\n- path: /groups/{id}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mailboxes\n  method: get\n  operationId: listMailboxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folders\n  method: get\n  operationId: listFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /attachments\n  method: get\n  operationId: listAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /attachments\n  method: post\n  operationId: uploadAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/agentic-access/groove-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/groove/agentic-access/groove-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
 - Customer Service

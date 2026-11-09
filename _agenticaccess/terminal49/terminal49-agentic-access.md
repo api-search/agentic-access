@@ -9,43 +9,43 @@ api_specs:
   label: Terminal49 Containers API
   slug: terminal49-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-containers-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-containers-api-openapi.yml
 - filename: terminal49-shipments-api-openapi.yml
   format: yaml
   label: Terminal49 Shipments API
   slug: terminal49-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-shipments-api-openapi.yml
 - filename: terminal49-shipping-lines-api-openapi.yml
   format: yaml
   label: Terminal49 Shipping Lines API
   slug: terminal49-shipping-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-shipping-lines-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-shipping-lines-api-openapi.yml
 - filename: terminal49-terminals-api-openapi.yml
   format: yaml
   label: Terminal49 Terminals API
   slug: terminal49-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-terminals-api-openapi.yml
 - filename: terminal49-tracking-requests-api-openapi.yml
   format: yaml
   label: Terminal49 Tracking Requests API
   slug: terminal49-tracking-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-tracking-requests-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-tracking-requests-api-openapi.yml
 - filename: terminal49-transport-events-api-openapi.yml
   format: yaml
   label: Terminal49 Transport Events API
   slug: terminal49-transport-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-transport-events-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-transport-events-api-openapi.yml
 - filename: terminal49-webhooks-api-openapi.yml
   format: yaml
   label: Terminal49 Webhooks API
   slug: terminal49-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/openapi/terminal49-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/terminal49/openapi/terminal49-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 17
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/termin
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/test\n  method: post\n  operationId: testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_notifications\n  method: get\n  operationId: listWebhookNotifications\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook_notifications/{id}\n  method: get\n  operationId: getWebhookNotification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/agentic-access/terminal49-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/terminal49/agentic-access/terminal49-agentic-access.yml
 summary_line: 28 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Container Tracking

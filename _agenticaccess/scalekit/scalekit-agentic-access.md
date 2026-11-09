@@ -9,55 +9,55 @@ api_specs:
   label: Scalekit Admin Portal API
   slug: scalekit-admin-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-admin-portal-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-admin-portal-api-openapi.yml
 - filename: scalekit-authentication-api-openapi.yml
   format: yaml
   label: Scalekit Authentication API
   slug: scalekit-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-authentication-api-openapi.yml
 - filename: scalekit-connected-accounts-api-openapi.yml
   format: yaml
   label: Scalekit Connected Accounts API
   slug: scalekit-connected-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-connected-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-connected-accounts-api-openapi.yml
 - filename: scalekit-connections-api-openapi.yml
   format: yaml
   label: Scalekit Connections API
   slug: scalekit-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-connections-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-connections-api-openapi.yml
 - filename: scalekit-directories-api-openapi.yml
   format: yaml
   label: Scalekit Directories API
   slug: scalekit-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-directories-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-directories-api-openapi.yml
 - filename: scalekit-organization-settings-api-openapi.yml
   format: yaml
   label: Scalekit Organization Settings API
   slug: scalekit-organization-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-organization-settings-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-organization-settings-api-openapi.yml
 - filename: scalekit-organizations-api-openapi.yml
   format: yaml
   label: Scalekit Organizations API
   slug: scalekit-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-organizations-api-openapi.yml
 - filename: scalekit-roles-api-openapi.yml
   format: yaml
   label: Scalekit Roles API
   slug: scalekit-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-roles-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-roles-api-openapi.yml
 - filename: scalekit-users-memberships-api-openapi.yml
   format: yaml
   label: Scalekit Users & Memberships API
   slug: scalekit-users-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-users-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-users-memberships-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 11
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scalek
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organizations/{org_id}/roles\n  method: post\n  operationId: createRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/connected_accounts\n  method: get\n  operationId: listConnectedAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/connected_accounts\n  method: post\n  operationId: createConnectedAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v1/connected_accounts\n  method: put\n  operationId: updateConnectedAccountCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/connected_accounts/magic_link\n  method: post\n  operationId: createConnectedAccountMagicLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/execute_tool\n  method: post\n  operationId: executeTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/agentic-access/scalekit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scalekit/agentic-access/scalekit-agentic-access.yml
 summary_line: 26 operations · 15 acting
 tags:
 - Authentication

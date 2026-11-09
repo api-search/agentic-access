@@ -8,133 +8,133 @@ api_specs:
   label: setlist.fm /1.0/artist/{mbid} API
   slug: setlist-fm-1-0-artist-mbid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-artist-mbid-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-artist-mbid-api-openapi.yml
 - filename: setlist-fm-1-0-artist-mbid-setlists-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/artist/{mbid}/setlists API
   slug: setlist-fm-1-0-artist-mbid-setlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-artist-mbid-setlists-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-artist-mbid-setlists-api-openapi.yml
 - filename: setlist-fm-1-0-city-geoid-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/city/{geoId} API
   slug: setlist-fm-1-0-city-geoid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-city-geoid-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-city-geoid-api-openapi.yml
 - filename: setlist-fm-1-0-search-artists-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/search/artists API
   slug: setlist-fm-1-0-search-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-artists-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-search-artists-api-openapi.yml
 - filename: setlist-fm-1-0-search-cities-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/search/cities API
   slug: setlist-fm-1-0-search-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-cities-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-search-cities-api-openapi.yml
 - filename: setlist-fm-1-0-search-countries-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/search/countries API
   slug: setlist-fm-1-0-search-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-countries-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-search-countries-api-openapi.yml
 - filename: setlist-fm-1-0-search-setlists-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/search/setlists API
   slug: setlist-fm-1-0-search-setlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-setlists-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-search-setlists-api-openapi.yml
 - filename: setlist-fm-1-0-search-venues-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/search/venues API
   slug: setlist-fm-1-0-search-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-venues-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-search-venues-api-openapi.yml
 - filename: setlist-fm-1-0-setlist-setlistid-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/setlist/{setlistId} API
   slug: setlist-fm-1-0-setlist-setlistid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-setlist-setlistid-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-setlist-setlistid-api-openapi.yml
 - filename: setlist-fm-1-0-setlist-version-versionid-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/setlist/version/{versionId} API
   slug: setlist-fm-1-0-setlist-version-versionid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-setlist-version-versionid-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-setlist-version-versionid-api-openapi.yml
 - filename: setlist-fm-1-0-user-userid-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/user/{userId} API
   slug: setlist-fm-1-0-user-userid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-user-userid-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-user-userid-api-openapi.yml
 - filename: setlist-fm-1-0-user-userid-attended-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/user/{userId}/attended API
   slug: setlist-fm-1-0-user-userid-attended-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-user-userid-attended-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-user-userid-attended-api-openapi.yml
 - filename: setlist-fm-1-0-user-userid-edited-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/user/{userId}/edited API
   slug: setlist-fm-1-0-user-userid-edited-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-user-userid-edited-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-user-userid-edited-api-openapi.yml
 - filename: setlist-fm-1-0-venue-venueid-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/venue/{venueId} API
   slug: setlist-fm-1-0-venue-venueid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-venue-venueid-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-venue-venueid-api-openapi.yml
 - filename: setlist-fm-1-0-venue-venueid-setlists-api-openapi.yml
   format: yaml
   label: setlist.fm /1.0/venue/{venueId}/setlists API
   slug: setlist-fm-1-0-venue-venueid-setlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-venue-venueid-setlists-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-1-0-venue-venueid-setlists-api-openapi.yml
 - filename: setlist-fm-artists-api-openapi.yml
   format: yaml
   label: setlist.fm Artists API
   slug: setlist-fm-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-artists-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-artists-api-openapi.yml
 - filename: setlist-fm-cities-api-openapi.yml
   format: yaml
   label: setlist.fm Cities API
   slug: setlist-fm-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-cities-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-cities-api-openapi.yml
 - filename: setlist-fm-countries-api-openapi.yml
   format: yaml
   label: setlist.fm Countries API
   slug: setlist-fm-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-countries-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-countries-api-openapi.yml
 - filename: setlist-fm-search-api-openapi.yml
   format: yaml
   label: setlist.fm Search API
   slug: setlist-fm-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-search-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-search-api-openapi.yml
 - filename: setlist-fm-setlists-api-openapi.yml
   format: yaml
   label: setlist.fm Setlists API
   slug: setlist-fm-setlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-setlists-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-setlists-api-openapi.yml
 - filename: setlist-fm-user-api-openapi.yml
   format: yaml
   label: setlist.fm User API
   slug: setlist-fm-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-user-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-user-api-openapi.yml
 - filename: setlist-fm-venues-api-openapi.yml
   format: yaml
   label: setlist.fm Venues API
   slug: setlist-fm-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-venues-api-openapi.yml
+  url: https://artifacts.apis.io/setlist-fm/openapi/setlist-fm-venues-api-openapi.yml
 consequence_counts:
   read: 31
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -168,7 +168,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/setlis
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/countries\n  method: get\n  operationId: searchCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/artists\n  method: get\n  operationId: searchArtists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/venues\n  method: get\n  operationId: searchVenues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/cities\n  method: get\n  operationId: searchCities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/countries\n\
   \  method: get\n  operationId: searchCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/setlists\n  method: get\n  operationId: searchSetlists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /setlist/{setlistId}\n  method: get\n  operationId: getSetlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /setlist/version/{versionId}\n  method: get\n  operationId: getSetlistVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{userId}/attended\n  method: get\n  operationId: getUserAttended\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{userId}/edited\n  method: get\n  operationId: getUserEdited\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /venue/{venueId}\n  method: get\n  operationId: getVenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /venue/{venueId}/setlists\n  method: get\n  operationId: getVenueSetlists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/agentic-access/setlist-fm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/setlist-fm/agentic-access/setlist-fm-agentic-access.yml
 summary_line: 31 operations
 tags:
 - Music

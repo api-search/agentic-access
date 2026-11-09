@@ -8,61 +8,61 @@ api_specs:
   label: Puma Gc API
   slug: puma-gc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-gc-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-gc-api-openapi.yml
 - filename: puma-gc-stats-api-openapi.yml
   format: yaml
   label: Puma Gc Stats API
   slug: puma-gc-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-gc-stats-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-gc-stats-api-openapi.yml
 - filename: puma-halt-api-openapi.yml
   format: yaml
   label: Puma Halt API
   slug: puma-halt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-halt-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-halt-api-openapi.yml
 - filename: puma-phased-restart-api-openapi.yml
   format: yaml
   label: Puma Phased Restart API
   slug: puma-phased-restart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-phased-restart-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-phased-restart-api-openapi.yml
 - filename: puma-refork-api-openapi.yml
   format: yaml
   label: Puma Refork API
   slug: puma-refork-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-refork-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-refork-api-openapi.yml
 - filename: puma-reload-worker-directory-api-openapi.yml
   format: yaml
   label: Puma Reload Worker Directory API
   slug: puma-reload-worker-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-reload-worker-directory-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-reload-worker-directory-api-openapi.yml
 - filename: puma-restart-api-openapi.yml
   format: yaml
   label: Puma Restart API
   slug: puma-restart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-restart-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-restart-api-openapi.yml
 - filename: puma-stats-api-openapi.yml
   format: yaml
   label: Puma Stats API
   slug: puma-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-stats-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-stats-api-openapi.yml
 - filename: puma-stop-api-openapi.yml
   format: yaml
   label: Puma Stop API
   slug: puma-stop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-stop-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-stop-api-openapi.yml
 - filename: puma-thread-backtraces-api-openapi.yml
   format: yaml
   label: Puma Thread Backtraces API
   slug: puma-thread-backtraces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/openapi/puma-thread-backtraces-api-openapi.yml
+  url: https://artifacts.apis.io/puma/openapi/puma-thread-backtraces-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -90,7 +90,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/puma-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /stats\n  method: get\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gc-stats\n  method: get\n  operationId: getGcStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gc\n  method: get\n  operationId: runGc\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /thread-backtraces\n  method: get\n  operationId: getThreadBacktraces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restart\n  method: get\n  operationId: restart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /phased-restart\n  method: get\n  operationId: phasedRestart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stop\n  method: get\n  operationId: stop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /halt\n  method: get\n  operationId: halt\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refork\n  method: get\n  operationId: refork\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reload-worker-directory\n  method: get\n  operationId: reloadWorkerDirectory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/agentic-access/puma-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/puma/agentic-access/puma-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Web Server

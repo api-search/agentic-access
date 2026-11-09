@@ -9,79 +9,79 @@ api_specs:
   label: AWeber Accounts API
   slug: aweber-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-accounts-api-openapi.yml
 - filename: aweber-broadcasts-api-openapi.yml
   format: yaml
   label: AWeber Broadcasts API
   slug: aweber-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-broadcasts-api-openapi.yml
 - filename: aweber-campaigns-api-openapi.yml
   format: yaml
   label: AWeber Campaigns API
   slug: aweber-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-campaigns-api-openapi.yml
 - filename: aweber-custom-fields-api-openapi.yml
   format: yaml
   label: AWeber Custom Fields API
   slug: aweber-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-custom-fields-api-openapi.yml
 - filename: aweber-landing-pages-api-openapi.yml
   format: yaml
   label: AWeber Landing Pages API
   slug: aweber-landing-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-landing-pages-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-landing-pages-api-openapi.yml
 - filename: aweber-lists-api-openapi.yml
   format: yaml
   label: AWeber Lists API
   slug: aweber-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-lists-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-lists-api-openapi.yml
 - filename: aweber-segments-api-openapi.yml
   format: yaml
   label: AWeber Segments API
   slug: aweber-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-segments-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-segments-api-openapi.yml
 - filename: aweber-subscribers-api-openapi.yml
   format: yaml
   label: AWeber Subscribers API
   slug: aweber-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-subscribers-api-openapi.yml
 - filename: aweber-integrations-api-openapi.yml
   format: yaml
   label: AWeber Integrations API
   slug: aweber-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-integrations-api-openapi.yml
 - filename: aweber-beta-endpoints-api-openapi.yml
   format: yaml
   label: AWeber Beta Endpoints API
   slug: aweber-beta-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-beta-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-beta-endpoints-api-openapi.yml
 - filename: aweber-oauth-1-0a-reference-api-openapi.yml
   format: yaml
   label: AWeber OAuth 1.0a Reference API
   slug: aweber-oauth-1-0a-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-oauth-1-0a-reference-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-oauth-1-0a-reference-api-openapi.yml
 - filename: aweber-oauth-2-0-reference-api-openapi.yml
   format: yaml
   label: AWeber OAuth 2.0 Reference API
   slug: aweber-oauth-2-0-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-oauth-2-0-reference-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-oauth-2-0-reference-api-openapi.yml
 - filename: aweber-webforms-api-openapi.yml
   format: yaml
   label: AWeber Webforms API
   slug: aweber-webforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-webforms-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-webforms-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 38
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/aweber
   \ /accounts/{accountId}/lists/{listId}/purchases\n  method: post\n  operationId: createAPurchase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - subscriber.read\n    - subscriber.write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}?ws.op=getWebForms\n  method: get\n  operationId: getWebformsForAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - list.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}?ws.op=getWebFormSplitTests\n  method: get\n  operationId: getSplitTestsForAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - list.read\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/lists/{listId}/web_forms\n  method: get\n  operationId: getWebformsForList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - list.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/lists/{listId}/web_forms/{webformId}\n  method: get\n  operationId: getWebformForList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/lists/{listId}/web_form_split_tests\n  method: get\n  operationId: getSplitTestsForList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - list.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/lists/{listId}/web_form_split_tests/{splitTestId}\n  method: get\n  operationId:\
   \ getSplitTestForList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - list.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/lists/{listId}/web_form_split_tests/{splitTestId}/components\n  method: get\n  operationId: getSplitTestComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - list.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/lists/{listId}/web_form_split_tests/{splitTestId}/components/{splitTestComponentId}\n  method: get\n  operationId: getSplitTestComponent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - list.read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/agentic-access/aweber-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aweber/agentic-access/aweber-agentic-access.yml
 summary_line: 57 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Email Marketing
@@ -155,6 +155,7 @@ tags:
 - Web Forms
 - Segments
 - Webhook
-- Authentication
+- OAuth
 - Small Business
+- Authentication
 ---

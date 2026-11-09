@@ -9,7 +9,7 @@ api_specs:
   label: Imgflip Memes API
   slug: imgflip-memes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imgflip/refs/heads/main/openapi/imgflip-memes-api-openapi.yml
+  url: https://artifacts.apis.io/imgflip/openapi/imgflip-memes-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4
@@ -38,7 +38,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/imgflip-memes-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 3\n    acting: 4\n  by_consequence:\n    read: 3\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /get_memes\n  method: get\n  operationId: getMemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /caption_image\n  method: post\n  operationId: captionImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /caption_gif\n  method: post\n  operationId: captionGif\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search_memes\n  method: post\n  operationId: searchMemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_meme\n  method: post\n  operationId: getMeme\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /automeme\n  method: post\n  operationId: automeme\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ai_meme\n  method: post\n  operationId: aiMeme\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imgflip/refs/heads/main/agentic-access/imgflip-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/imgflip/agentic-access/imgflip-agentic-access.yml
 summary_line: 7 operations · 4 acting
 tags:
 - Memes

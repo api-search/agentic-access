@@ -9,73 +9,73 @@ api_specs:
   label: Edgegap Applications API
   slug: edgegap-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-applications-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-applications-api-openapi.yml
 - filename: edgegap-deployments-api-openapi.yml
   format: yaml
   label: Edgegap Deployments API
   slug: edgegap-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-deployments-api-openapi.yml
 - filename: edgegap-fleets-api-openapi.yml
   format: yaml
   label: Edgegap Fleets API
   slug: edgegap-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-fleets-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-fleets-api-openapi.yml
 - filename: edgegap-metrics-api-openapi.yml
   format: yaml
   label: Edgegap Metrics API
   slug: edgegap-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-metrics-api-openapi.yml
 - filename: edgegap-relays-api-openapi.yml
   format: yaml
   label: Edgegap Relays API
   slug: edgegap-relays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-relays-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-relays-api-openapi.yml
 - filename: edgegap-sessions-api-openapi.yml
   format: yaml
   label: Edgegap Sessions API
   slug: edgegap-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-sessions-api-openapi.yml
 - filename: edgegap-container-registry-api-openapi.yml
   format: yaml
   label: Edgegap Container Registry API
   slug: edgegap-container-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-container-registry-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-container-registry-api-openapi.yml
 - filename: edgegap-deployment-tags-api-openapi.yml
   format: yaml
   label: Edgegap Deployment Tags API
   slug: edgegap-deployment-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-deployment-tags-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-deployment-tags-api-openapi.yml
 - filename: edgegap-endpoint-storage-api-openapi.yml
   format: yaml
   label: Edgegap Endpoint Storage API
   slug: edgegap-endpoint-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-endpoint-storage-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-endpoint-storage-api-openapi.yml
 - filename: edgegap-ip-lookup-api-openapi.yml
   format: yaml
   label: Edgegap IP Lookup API
   slug: edgegap-ip-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-ip-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-ip-lookup-api-openapi.yml
 - filename: edgegap-locations-api-openapi.yml
   format: yaml
   label: Edgegap Locations API
   slug: edgegap-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-locations-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-locations-api-openapi.yml
 - filename: edgegap-report-deployment-api-openapi.yml
   format: yaml
   label: Edgegap Report Deployment API
   slug: edgegap-report-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-report-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/edgegap/openapi/edgegap-report-deployment-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/edgega
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/relays/sessions/{session_id}\n  method: delete\n  operationId: deleteRelaySession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/relays/sessions:authorize-user\n  method: post\n  operationId: authorizeRelayUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/relays/sessions:revoke-user\n  method: post\n  operationId: revokeRelayUser\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/metrics/deployment/{deployment_id}\n  method: get\n  operationId: getDeploymentMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/private-fleets/deployments\n  method: post\n  operationId: createPrivateFleetDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/private-fleets/{fleet_name}/hosts\n  method:\
   \ get\n  operationId: listPrivateFleetHosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/agentic-access/edgegap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/edgegap/agentic-access/edgegap-agentic-access.yml
 summary_line: 34 operations · 19 acting · 3 human-in-the-loop
 tags:
 - Game Servers

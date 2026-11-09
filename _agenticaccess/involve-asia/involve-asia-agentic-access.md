@@ -9,37 +9,37 @@ api_specs:
   label: Involve Asia Auth API
   slug: involve-asia-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-auth-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-auth-api-openapi.yml
 - filename: involve-asia-campaigns-api-openapi.yml
   format: yaml
   label: Involve Asia Campaigns API
   slug: involve-asia-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-campaigns-api-openapi.yml
 - filename: involve-asia-conversions-api-openapi.yml
   format: yaml
   label: Involve Asia Conversions API
   slug: involve-asia-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-conversions-api-openapi.yml
 - filename: involve-asia-deeplink-api-openapi.yml
   format: yaml
   label: Involve Asia Deeplink API
   slug: involve-asia-deeplink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-deeplink-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-deeplink-api-openapi.yml
 - filename: involve-asia-offers-api-openapi.yml
   format: yaml
   label: Involve Asia Offers API
   slug: involve-asia-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-offers-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-offers-api-openapi.yml
 - filename: involve-asia-shopee-api-openapi.yml
   format: yaml
   label: Involve Asia Shopee API
   slug: involve-asia-shopee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/involve-asia-shopee-api-openapi.yml
+  url: https://artifacts.apis.io/involve-asia/openapi/involve-asia-shopee-api-openapi.yml
 consequence_counts:
   read: 1
   write: 8
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/involv
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns/all\n  method: post\n  operationId: campaignsAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversions/all\n  method: post\n  operationId: conversionsAll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversions/range\n  method: post\n  operationId: conversionsRange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /conversions/data-range\n  method: post\n  operationId: conversionsDataRange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deeplink/generate\n  method: post\n  operationId: deeplink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /offers/all\n  method: post\n  operationId: offersAll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /offers/last-updated-range\n  method: post\n  operationId: offersLastUpdatedRange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shopeextra/all\n  method: post\n  operationId: shopeeXtra\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/agentic-access/involve-asia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/involve-asia/agentic-access/involve-asia-agentic-access.yml
 summary_line: 9 operations · 8 acting
 tags:
 - Affiliate Marketing

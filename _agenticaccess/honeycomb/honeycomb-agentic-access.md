@@ -9,133 +9,133 @@ api_specs:
   label: Honeycomb Events API
   slug: events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-events-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-events-api-openapi.yml
 - filename: honeycomb-queries-api-openapi.yml
   format: yaml
   label: Honeycomb Queries API
   slug: queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-queries-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-queries-api-openapi.yml
 - filename: honeycomb-datasets-api-openapi.yml
   format: yaml
   label: Honeycomb Datasets API
   slug: datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-datasets-api-openapi.yml
 - filename: honeycomb-boards-api-openapi.yml
   format: yaml
   label: Honeycomb Boards API
   slug: boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-boards-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-boards-api-openapi.yml
 - filename: honeycomb-markers-api-openapi.yml
   format: yaml
   label: Honeycomb Markers API
   slug: markers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-markers-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-markers-api-openapi.yml
 - filename: honeycomb-triggers-api-openapi.yml
   format: yaml
   label: Honeycomb Triggers API
   slug: triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-triggers-api-openapi.yml
 - filename: honeycomb-environments-api-openapi.yml
   format: yaml
   label: Honeycomb Environments API
   slug: environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-environments-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-environments-api-openapi.yml
 - filename: honeycomb-auth-api-openapi.yml
   format: yaml
   label: honeycomb Auth API
   slug: honeycomb-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-auth-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-auth-api-openapi.yml
 - filename: honeycomb-burn-alerts-api-openapi.yml
   format: yaml
   label: honeycomb Burn Alerts API
   slug: honeycomb-burn-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-burn-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-burn-alerts-api-openapi.yml
 - filename: honeycomb-calculated-fields-api-openapi.yml
   format: yaml
   label: honeycomb Calculated Fields API
   slug: honeycomb-calculated-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-calculated-fields-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-calculated-fields-api-openapi.yml
 - filename: honeycomb-columns-api-openapi.yml
   format: yaml
   label: honeycomb Columns API
   slug: honeycomb-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-columns-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-columns-api-openapi.yml
 - filename: honeycomb-dataset-definitions-api-openapi.yml
   format: yaml
   label: honeycomb Dataset Definitions API
   slug: honeycomb-dataset-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-dataset-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-dataset-definitions-api-openapi.yml
 - filename: honeycomb-key-management-api-openapi.yml
   format: yaml
   label: honeycomb Key Management API
   slug: honeycomb-key-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-key-management-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-key-management-api-openapi.yml
 - filename: honeycomb-kinesis-events-api-openapi.yml
   format: yaml
   label: honeycomb Kinesis Events API
   slug: honeycomb-kinesis-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-kinesis-events-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-kinesis-events-api-openapi.yml
 - filename: honeycomb-marker-settings-api-openapi.yml
   format: yaml
   label: honeycomb Marker Settings API
   slug: honeycomb-marker-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-marker-settings-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-marker-settings-api-openapi.yml
 - filename: honeycomb-query-annotations-api-openapi.yml
   format: yaml
   label: honeycomb Query Annotations API
   slug: honeycomb-query-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-query-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-query-annotations-api-openapi.yml
 - filename: honeycomb-query-data-api-openapi.yml
   format: yaml
   label: honeycomb Query Data API
   slug: honeycomb-query-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-query-data-api-openapi.yml
-- filename: honeycomb-query-results-api-openapi.yml
-  format: yaml
-  label: honeycomb Query Results API
-  slug: honeycomb-query-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-query-results-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-query-data-api-openapi.yml
 - filename: honeycomb-recipients-api-openapi.yml
   format: yaml
   label: honeycomb Recipients API
   slug: honeycomb-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-recipients-api-openapi.yml
 - filename: honeycomb-reporting-api-openapi.yml
   format: yaml
   label: honeycomb Reporting API
   slug: honeycomb-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-reporting-api-openapi.yml
 - filename: honeycomb-service-maps-api-openapi.yml
   format: yaml
   label: honeycomb Service Maps API
   slug: honeycomb-service-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-service-maps-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-service-maps-api-openapi.yml
 - filename: honeycomb-slos-api-openapi.yml
   format: yaml
   label: Honeycomb SL Os API
   slug: honeycomb-slos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-slos-api-openapi.yml
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-slos-api-openapi.yml
+- filename: honeycomb-anomaly-detection-api-openapi.yml
+  format: yaml
+  label: Honeycomb Anomaly Detection API
+  slug: honeycomb-anomaly-detection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-anomaly-detection-api-openapi.yml
 consequence_counts:
   read: 54
   write: 79
@@ -195,8 +195,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/honeyc
   \   - high-value\n    audit: required\n- path: /1/markers/{datasetSlug}\n  method: get\n  operationId: listMarkers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/markers/{datasetSlug}\n  method: post\n  operationId: createMarker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/markers/{datasetSlug}/{markerId}\n  method: put\n  operationId: updateMarker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/markers/{datasetSlug}/{markerId}\n\
   \  method: delete\n  operationId: deleteMarker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/marker_settings/{datasetSlug}\n  method: get\n  operationId: listMarkerSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/marker_settings/{datasetSlug}\n  method: post\n  operationId: createMarkerSetting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/marker_settings/{datasetSlug}/{markerSettingId}\n  method:\
   \ put\n  operationId: updateMarkerSetting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/marker_settings/{datasetSlug}/{markerSettingId}\n  method: delete\n  operationId: deleteMarkerSetting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/queries/{datasetSlug}\n  method: post\n  operationId: createQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/agentic-access/honeycomb-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/agentic-access/honeycomb-agentic-access.yml
+  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/honeycomb/agentic-access/honeycomb-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/honeycomb/agentic-access/honeycomb-agentic-access.yml
 summary_line: 133 operations · 79 acting
 tags:
 - Observability

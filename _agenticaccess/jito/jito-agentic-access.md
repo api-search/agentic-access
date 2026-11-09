@@ -9,25 +9,25 @@ api_specs:
   label: Jito Streaming Surfaces
   slug: jito-streaming
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/asyncapi/jito-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/jito/asyncapi/jito-streaming-asyncapi.yml
 - filename: jito-bundles-api-openapi.yml
   format: yaml
   label: Jito Labs Bundles API
   slug: jito-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/jito/openapi/jito-bundles-api-openapi.yml
 - filename: jito-tips-api-openapi.yml
   format: yaml
   label: Jito Labs Tips API
   slug: jito-tips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-tips-api-openapi.yml
+  url: https://artifacts.apis.io/jito/openapi/jito-tips-api-openapi.yml
 - filename: jito-transactions-api-openapi.yml
   format: yaml
   label: Jito Labs Transactions API
   slug: jito-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/openapi/jito-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/jito/openapi/jito-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 1
@@ -61,7 +61,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jito-block-engine-openapi.yml, openapi/jito-bundles-tip-floor-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 2\n    connected: 1\n  by_consequence:\n    write: 1\n    physical: 1\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/bundles\n  method: post\n  operationId: bundlesRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/transactions\n  method: post\n  operationId:\
   \ transactionsRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/bundles/tip_floor\n  method: get\n  operationId: getTipFloor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/agentic-access/jito-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jito/agentic-access/jito-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
 - Solana

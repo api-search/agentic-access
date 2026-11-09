@@ -9,49 +9,49 @@ api_specs:
   label: Guidewire Integration Gateway API
   slug: guidewire-integration-gateway-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/asyncapi/guidewire-integration-gateway-asyncapi.yml
+  url: https://artifacts.apis.io/guidewire/asyncapi/guidewire-integration-gateway-asyncapi.yml
 - filename: guidewire-accounts-api-openapi.yml
   format: yaml
   label: Guidewire Accounts API
   slug: guidewire-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-accounts-api-openapi.yml
 - filename: guidewire-claims-api-openapi.yml
   format: yaml
   label: Guidewire Claims API
   slug: guidewire-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-claims-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-claims-api-openapi.yml
 - filename: guidewire-exposures-api-openapi.yml
   format: yaml
   label: Guidewire Exposures API
   slug: guidewire-exposures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-exposures-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-exposures-api-openapi.yml
 - filename: guidewire-fnol-api-openapi.yml
   format: yaml
   label: Guidewire FNOL API
   slug: guidewire-fnol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-fnol-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-fnol-api-openapi.yml
 - filename: guidewire-payments-api-openapi.yml
   format: yaml
   label: Guidewire Payments API
   slug: guidewire-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-payments-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-payments-api-openapi.yml
 - filename: guidewire-policies-api-openapi.yml
   format: yaml
   label: Guidewire Policies API
   slug: guidewire-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-policies-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-policies-api-openapi.yml
 - filename: guidewire-quotes-api-openapi.yml
   format: yaml
   label: Guidewire Quotes API
   slug: guidewire-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/guidewire/openapi/guidewire-quotes-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/guidew
   \ audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/{policyId}\n  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/{policyId}/transactions\n  method: get\n  operationId: listPolicyTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submissions\n  method: post\n  operationId: createSubmission\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submissions/{submissionId}\n  method: get\n  operationId: getSubmission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submissions/{submissionId}/quote\n  method: post\n  operationId: quoteSubmission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submissions/{submissionId}/issue\n  method: post\n  operationId: issuePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/agentic-access/guidewire-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/guidewire/agentic-access/guidewire-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Insurance

@@ -15,61 +15,61 @@ api_specs:
   label: Storyblok Assets API
   slug: storyblok-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-assets-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-assets-api-openapi.yml
 - filename: storyblok-collaborators-api-openapi.yml
   format: yaml
   label: Storyblok Collaborators API
   slug: storyblok-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-collaborators-api-openapi.yml
 - filename: storyblok-components-api-openapi.yml
   format: yaml
   label: Storyblok Components API
   slug: storyblok-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-components-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-components-api-openapi.yml
 - filename: storyblok-image-transformation-api-openapi.yml
   format: yaml
   label: Storyblok Image Transformation API
   slug: storyblok-image-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-image-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-image-transformation-api-openapi.yml
 - filename: storyblok-links-api-openapi.yml
   format: yaml
   label: Storyblok Links API
   slug: storyblok-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-links-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-links-api-openapi.yml
 - filename: storyblok-spaces-api-openapi.yml
   format: yaml
   label: Storyblok Spaces API
   slug: storyblok-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-spaces-api-openapi.yml
 - filename: storyblok-stories-api-openapi.yml
   format: yaml
   label: Storyblok Stories API
   slug: storyblok-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-stories-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-stories-api-openapi.yml
 - filename: storyblok-tags-api-openapi.yml
   format: yaml
   label: Storyblok Tags API
   slug: storyblok-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-tags-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-tags-api-openapi.yml
 - filename: storyblok-webhooks-api-openapi.yml
   format: yaml
   label: Storyblok Webhooks API
   slug: storyblok-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-webhooks-api-openapi.yml
 - filename: storyblok-data-sources-api-openapi.yml
   format: yaml
   label: Storyblok Data Sources API
   slug: storyblok-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/storyblok/openapi/storyblok-data-sources-api-openapi.yml
 consequence_counts:
   read: 24
   write: 14
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/storyb
   \  method: post\n  operationId: addCollaborator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{space_id}/collaborators/{collaborator_id}\n  method: delete\n  operationId: deleteCollaborator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{space_id}/webhook_endpoints\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/webhook_endpoints\n \
   \ method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{space_id}/webhook_endpoints/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spaces/{space_id}/webhook_endpoints/{webhook_id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{space_id}/webhook_endpoints/{webhook_id}\n\
   \  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/agentic-access/storyblok-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/storyblok/agentic-access/storyblok-agentic-access.yml
 summary_line: 38 operations · 14 acting
 tags:
 - CMS

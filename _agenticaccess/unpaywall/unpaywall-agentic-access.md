@@ -8,13 +8,13 @@ api_specs:
   label: Unpaywall DOI Lookup API
   slug: unpaywall-doi-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/openapi/unpaywall-doi-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/unpaywall/openapi/unpaywall-doi-lookup-api-openapi.yml
 - filename: unpaywall-search-api-openapi.yml
   format: yaml
   label: Unpaywall Search API
   slug: unpaywall-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/openapi/unpaywall-search-api-openapi.yml
+  url: https://artifacts.apis.io/unpaywall/openapi/unpaywall-search-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -40,7 +40,7 @@ source_filename: unpaywall-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unpaywall-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    connected: 2\n  by_consequence:\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /{doi}\n  method: get\n  operationId: getByDoi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/\n  method: get\n  operationId: searchByTitle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/agentic-access/unpaywall-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unpaywall/agentic-access/unpaywall-agentic-access.yml
 summary_line: 2 operations
 tags:
 - Open Access

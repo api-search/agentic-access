@@ -9,19 +9,19 @@ api_specs:
   label: LMNT Ai API
   slug: lmnt-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-ai-api-openapi.yml
+  url: https://artifacts.apis.io/lmnt/openapi/lmnt-ai-api-openapi.yml
 - filename: lmnt-health-check-api-openapi.yml
   format: yaml
   label: LMNT Health Check API
   slug: lmnt-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/lmnt/openapi/lmnt-health-check-api-openapi.yml
 - filename: lmnt-speech-api-openapi.yml
   format: yaml
   label: LMNT Speech API
   slug: lmnt-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/openapi/lmnt-speech-api-openapi.yml
+  url: https://artifacts.apis.io/lmnt/openapi/lmnt-speech-api-openapi.yml
 consequence_counts:
   read: 6
   write: 8
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lmnt-s
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ai/voice/{id}\n  method: get\n  operationId: get_handler_v1_ai_voice__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ai/voice/{id}\n  method: put\n  operationId: update_handler_v1_ai_voice__id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ai/voice/{id}\n  method: delete\n  operationId: delete_handler_v1_ai_voice__id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ai/voice\n  method: post\n  operationId: create_handler_v1_ai_voice_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ai/voice/{id}/preview\n  method: get\n  operationId: preview_handler_v1_ai_voice__id__preview_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ai/voice/precheck\n  method: post\n  operationId: precheck_clone_handler_v1_ai_voice_precheck_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /speech/beta/synthesize\n  method: post\n  operationId: synthesize_beta_handler_speech_beta_synthesize_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /speech/beta/voices\n  method: get\n  operationId: list_beta_handler_speech_beta_voices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health_check\n  method: get\n  operationId: health_check_health_check_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/agentic-access/lmnt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lmnt/agentic-access/lmnt-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - Text-to-Speech

@@ -9,43 +9,43 @@ api_specs:
   label: SpyCloud Breach API
   slug: spycloud-breach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/openapi/spycloud-breach-api-openapi.yml
+  url: https://artifacts.apis.io/spycloud/openapi/spycloud-breach-api-openapi.yml
 - filename: spycloud-check-api-openapi.yml
   format: yaml
   label: SpyCloud Check API
   slug: spycloud-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/openapi/spycloud-check-api-openapi.yml
+  url: https://artifacts.apis.io/spycloud/openapi/spycloud-check-api-openapi.yml
 - filename: spycloud-compass-api-openapi.yml
   format: yaml
   label: SpyCloud Compass API
   slug: spycloud-compass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/openapi/spycloud-compass-api-openapi.yml
+  url: https://artifacts.apis.io/spycloud/openapi/spycloud-compass-api-openapi.yml
 - filename: spycloud-data-api-openapi.yml
   format: yaml
   label: SpyCloud Data API
   slug: spycloud-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/openapi/spycloud-data-api-openapi.yml
+  url: https://artifacts.apis.io/spycloud/openapi/spycloud-data-api-openapi.yml
 - filename: spycloud-query-api-openapi.yml
   format: yaml
   label: SpyCloud Query API
   slug: spycloud-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/openapi/spycloud-query-api-openapi.yml
+  url: https://artifacts.apis.io/spycloud/openapi/spycloud-query-api-openapi.yml
 - filename: spycloud-stats-api-openapi.yml
   format: yaml
   label: SpyCloud Stats API
   slug: spycloud-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/openapi/spycloud-stats-api-openapi.yml
+  url: https://artifacts.apis.io/spycloud/openapi/spycloud-stats-api-openapi.yml
 - filename: spycloud-watchlist-api-openapi.yml
   format: yaml
   label: SpyCloud Watchlist API
   slug: spycloud-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/openapi/spycloud-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/spycloud/openapi/spycloud-watchlist-api-openapi.yml
 consequence_counts:
   read: 67
   write: 2
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/spyclo
   \  audit: none\n- path: /breach/catalog\n  method: get\n  operationId: inv-list-all-breach-metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breach/catalog/{id}\n  method: get\n  operationId: inv-get-metadata-for-a-breach\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breach/data/bank-numbers/{bank_number}\n  method: get\n  operationId: inv-get-records-by-bank-number\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /check/hashes/{hash}\n  method: get\n  operationId: nist-check-password-hash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/domains/{domain}\n\
   \  method: get\n  operationId: get-stats-for-a-domain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/emails/{email}\n  method: get\n  operationId: prospecting-get-stats-for-an-email\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breach/data/cookie-domains/{cookie_domain}\n  method: get\n  operationId: sip-get-cookies-for-domain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breach/catalog\n  method: get\n  operationId: sip-list-all-breach-metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /breach/catalog/{id}\n  method: get\n  operationId: sip-get-metadata-for-a-breach\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/agentic-access/spycloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spycloud/agentic-access/spycloud-agentic-access.yml
 summary_line: 69 operations · 2 acting
 tags:
 - Cybersecurity

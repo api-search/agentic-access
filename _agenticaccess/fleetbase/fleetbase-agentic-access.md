@@ -9,61 +9,61 @@ api_specs:
   label: Fleetbase Contacts API
   slug: fleetbase-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-contacts-api-openapi.yml
 - filename: fleetbase-drivers-api-openapi.yml
   format: yaml
   label: Fleetbase Drivers API
   slug: fleetbase-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-drivers-api-openapi.yml
 - filename: fleetbase-fleets-api-openapi.yml
   format: yaml
   label: Fleetbase Fleets API
   slug: fleetbase-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-fleets-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-fleets-api-openapi.yml
 - filename: fleetbase-orders-api-openapi.yml
   format: yaml
   label: Fleetbase Orders API
   slug: fleetbase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-orders-api-openapi.yml
 - filename: fleetbase-places-api-openapi.yml
   format: yaml
   label: Fleetbase Places API
   slug: fleetbase-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-places-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-places-api-openapi.yml
 - filename: fleetbase-service-rates-api-openapi.yml
   format: yaml
   label: Fleetbase Service Rates API
   slug: fleetbase-service-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-service-rates-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-service-rates-api-openapi.yml
 - filename: fleetbase-tracking-api-openapi.yml
   format: yaml
   label: Fleetbase Tracking API
   slug: fleetbase-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-tracking-api-openapi.yml
 - filename: fleetbase-vehicles-api-openapi.yml
   format: yaml
   label: Fleetbase Vehicles API
   slug: fleetbase-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-vehicles-api-openapi.yml
 - filename: fleetbase-webhooks-api-openapi.yml
   format: yaml
   label: Fleetbase Webhooks API
   slug: fleetbase-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-webhooks-api-openapi.yml
 - filename: fleetbase-zones-api-openapi.yml
   format: yaml
   label: Fleetbase Zones API
   slug: fleetbase-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-zones-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-zones-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 19
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fleetb
   \  method: delete\n  operationId: deleteServiceRate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /service-quotes\n  method: post\n  operationId: createServiceQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tracking/{trackingNumber}\n  method: get\n  operationId: getTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-endpoints\n  method: get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-endpoints\n  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-endpoints/{id}\n  method: get\n  operationId: getWebhookEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-endpoints/{id}\n  method: delete\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/agentic-access/fleetbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fleetbase/agentic-access/fleetbase-agentic-access.yml
 summary_line: 46 operations · 27 acting · 1 human-in-the-loop
 tags:
 - Logistics

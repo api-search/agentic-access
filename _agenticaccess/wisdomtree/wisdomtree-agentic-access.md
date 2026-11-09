@@ -9,49 +9,49 @@ api_specs:
   label: WisdomTree Accruals API
   slug: wisdomtree-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-accruals-api-openapi.yml
 - filename: wisdomtree-dividend-payment-preferences-api-openapi.yml
   format: yaml
   label: WisdomTree Dividend Payment Preferences API
   slug: wisdomtree-dividend-payment-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-dividend-payment-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-dividend-payment-preferences-api-openapi.yml
 - filename: wisdomtree-fund-data-api-openapi.yml
   format: yaml
   label: WisdomTree Fund Data API
   slug: wisdomtree-fund-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-fund-data-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-fund-data-api-openapi.yml
 - filename: wisdomtree-orders-api-openapi.yml
   format: yaml
   label: WisdomTree Orders API
   slug: wisdomtree-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-orders-api-openapi.yml
 - filename: wisdomtree-organizations-api-openapi.yml
   format: yaml
   label: WisdomTree Organizations API
   slug: wisdomtree-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-organizations-api-openapi.yml
 - filename: wisdomtree-statements-api-openapi.yml
   format: yaml
   label: WisdomTree Statements API
   slug: wisdomtree-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-statements-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-statements-api-openapi.yml
 - filename: wisdomtree-users-api-openapi.yml
   format: yaml
   label: WisdomTree Users API
   slug: wisdomtree-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-users-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-users-api-openapi.yml
 - filename: wisdomtree-wallets-api-openapi.yml
   format: yaml
   label: WisdomTree Wallets API
   slug: wisdomtree-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-wallets-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 26
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/wisdom
   \ organization wallet edit details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/organizations/me/wallets/{wallet_guid}/details\n  method: patch\n  operationId: Updates current user's organization wallet nickname\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/organizations/me/wallets/chains\n  method: get\n  operationId: Retrieves current user's organization wallet chains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/statements/{statement_id}/download\n\
   \  method: get\n  operationId: Download Statement File\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/statements/list\n  method: get\n  operationId: Retrieve Statements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users/me/api-keys\n  method: get\n  operationId: List Current User API Keys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users/me/api-keys\n  method: post\n  operationId: Create Current User API Key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users/me/api-keys/{application_id}\n  method: delete\n  operationId: Delete Current User API Key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/agentic-access/wisdomtree-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wisdomtree/agentic-access/wisdomtree-agentic-access.yml
 summary_line: 35 operations · 9 acting
 tags:
 - Company

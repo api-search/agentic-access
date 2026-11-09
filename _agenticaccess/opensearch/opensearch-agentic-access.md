@@ -9,85 +9,85 @@ api_specs:
   label: OpenSearch Account API
   slug: opensearch-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-account-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-account-api-openapi.yml
 - filename: opensearch-action-groups-api-openapi.yml
   format: yaml
   label: OpenSearch Action Groups API
   slug: opensearch-action-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-action-groups-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-action-groups-api-openapi.yml
 - filename: opensearch-allowlist-api-openapi.yml
   format: yaml
   label: OpenSearch Allowlist API
   slug: opensearch-allowlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-allowlist-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-allowlist-api-openapi.yml
 - filename: opensearch-audit-api-openapi.yml
   format: yaml
   label: OpenSearch Audit API
   slug: opensearch-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-audit-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-audit-api-openapi.yml
 - filename: opensearch-cache-api-openapi.yml
   format: yaml
   label: OpenSearch Cache API
   slug: opensearch-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-cache-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-cache-api-openapi.yml
 - filename: opensearch-certificates-api-openapi.yml
   format: yaml
   label: OpenSearch Certificates API
   slug: opensearch-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-certificates-api-openapi.yml
 - filename: opensearch-health-api-openapi.yml
   format: yaml
   label: OpenSearch Health API
   slug: opensearch-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-health-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-health-api-openapi.yml
 - filename: opensearch-internal-users-api-openapi.yml
   format: yaml
   label: OpenSearch Internal Users API
   slug: opensearch-internal-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-internal-users-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-internal-users-api-openapi.yml
 - filename: opensearch-nodes-dn-api-openapi.yml
   format: yaml
   label: OpenSearch Nodes DN API
   slug: opensearch-nodes-dn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-nodes-dn-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-nodes-dn-api-openapi.yml
 - filename: opensearch-role-mappings-api-openapi.yml
   format: yaml
   label: OpenSearch Role Mappings API
   slug: opensearch-role-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-role-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-role-mappings-api-openapi.yml
 - filename: opensearch-roles-api-openapi.yml
   format: yaml
   label: OpenSearch Roles API
   slug: opensearch-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-roles-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-roles-api-openapi.yml
 - filename: opensearch-security-config-api-openapi.yml
   format: yaml
   label: OpenSearch Security Config API
   slug: opensearch-security-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-security-config-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-security-config-api-openapi.yml
 - filename: opensearch-ssl-info-api-openapi.yml
   format: yaml
   label: OpenSearch SSL Info API
   slug: opensearch-ssl-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-ssl-info-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-ssl-info-api-openapi.yml
 - filename: opensearch-tenants-api-openapi.yml
   format: yaml
   label: OpenSearch Tenants API
   slug: opensearch-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/openapi/opensearch-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/opensearch/openapi/opensearch-tenants-api-openapi.yml
 consequence_counts:
   read: 20
   write: 27
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/opense
   \  method: delete\n  operationId: deleteNodesDn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_plugins/_security/api/ssl/certs\n  method: get\n  operationId: getCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_plugins/_security/api/ssl/transport/reloadcerts\n  method: put\n  operationId: reloadTransportCerts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_plugins/_security/api/ssl/http/reloadcerts\n\
   \  method: put\n  operationId: reloadHttpCerts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_plugins/_security/api/cache\n  method: delete\n  operationId: flushSecurityCache\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /_plugins/_security/health\n  method: get\n  operationId: securityHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_plugins/_security/authinfo\n  method: get\n  operationId: authInfo\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /_plugins/_security/sslinfo\n  method: get\n  operationId: sslInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/agentic-access/opensearch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opensearch/agentic-access/opensearch-agentic-access.yml
 summary_line: 47 operations · 27 acting
 tags:
 - OpenSearch

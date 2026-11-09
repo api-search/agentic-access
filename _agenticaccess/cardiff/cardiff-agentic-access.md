@@ -8,97 +8,97 @@ api_specs:
   label: Cardiff University Courses API
   slug: cardiff-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-courses-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-courses-api-openapi.yml
 - filename: cardiff-clearing-adjustments-api-openapi.yml
   format: yaml
   label: Cardiff University Clearing Adjustments API
   slug: cardiff-clearing-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-clearing-adjustments-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-clearing-adjustments-api-openapi.yml
 - filename: cardiff-groups-api-openapi.yml
   format: yaml
   label: Cardiff University Groups API
   slug: cardiff-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-groups-api-openapi.yml
 - filename: cardiff-modules-api-openapi.yml
   format: yaml
   label: Cardiff University Modules API
   slug: cardiff-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-modules-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-modules-api-openapi.yml
 - filename: cardiff-assessments-api-openapi.yml
   format: yaml
   label: Cardiff University Assessments API
   slug: cardiff-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-assessments-api-openapi.yml
 - filename: cardiff-occurrences-api-openapi.yml
   format: yaml
   label: Cardiff University Occurrences API
   slug: cardiff-occurrences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-occurrences-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-occurrences-api-openapi.yml
 - filename: cardiff-rollover-api-openapi.yml
   format: yaml
   label: Cardiff University Rollover API
   slug: cardiff-rollover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-rollover-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-rollover-api-openapi.yml
 - filename: cardiff-schools-api-openapi.yml
   format: yaml
   label: Cardiff University Schools API
   slug: cardiff-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-schools-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-schools-api-openapi.yml
 - filename: cardiff-subjects-api-openapi.yml
   format: yaml
   label: Cardiff University Subjects API
   slug: cardiff-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-subjects-api-openapi.yml
 - filename: cardiff-levels-api-openapi.yml
   format: yaml
   label: Cardiff University Levels API
   slug: cardiff-levels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-levels-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-levels-api-openapi.yml
 - filename: cardiff-semesters-api-openapi.yml
   format: yaml
   label: Cardiff University Semesters API
   slug: cardiff-semesters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-semesters-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-semesters-api-openapi.yml
 - filename: cardiff-qualifications-api-openapi.yml
   format: yaml
   label: Cardiff University Qualifications API
   slug: cardiff-qualifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-qualifications-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-qualifications-api-openapi.yml
 - filename: cardiff-years-api-openapi.yml
   format: yaml
   label: Cardiff University Years API
   slug: cardiff-years-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-years-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-years-api-openapi.yml
 - filename: cardiff-publications-api-openapi.yml
   format: yaml
   label: Cardiff University Publications API
   slug: cardiff-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-publications-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-publications-api-openapi.yml
 - filename: cardiff-default-api-openapi.yml
   format: yaml
   label: Cardiff University Echo Default API
   slug: cardiff-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-default-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-default-api-openapi.yml
 - filename: cardiff-test-api-openapi.yml
   format: yaml
   label: Cardiff University Echo Test API
   slug: cardiff-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-test-api-openapi.yml
+  url: https://artifacts.apis.io/cardiff/openapi/cardiff-test-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cardif
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{code}/occurrences/{occurrence}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{code}/assessments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{code}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{code}/occurrences\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /map\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    scope:\n    - lc_rollover\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /occurrences\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /learn-occurrences\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rollover/{year}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - lc_rollover\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /module-catalogues\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{eprintid}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/agentic-access/cardiff-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cardiff/agentic-access/cardiff-agentic-access.yml
 summary_line: 26 operations
 tags:
 - Education

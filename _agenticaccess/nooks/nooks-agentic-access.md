@@ -9,91 +9,91 @@ api_specs:
   label: Nooks Accounts API
   slug: nooks-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-accounts-api-openapi.yml
 - filename: nooks-calls-api-openapi.yml
   format: yaml
   label: Nooks Calls API
   slug: nooks-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-calls-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-calls-api-openapi.yml
 - filename: nooks-emails-api-openapi.yml
   format: yaml
   label: Nooks Emails API
   slug: nooks-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-emails-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-emails-api-openapi.yml
 - filename: nooks-introspection-api-openapi.yml
   format: yaml
   label: Nooks Introspection API
   slug: nooks-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-introspection-api-openapi.yml
 - filename: nooks-mailboxes-api-openapi.yml
   format: yaml
   label: Nooks Mailboxes API
   slug: nooks-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-mailboxes-api-openapi.yml
 - filename: nooks-nooks-sequencing-api-api-openapi.yml
   format: yaml
   label: Nooks Sequencing API
   slug: nooks-nooks-sequencing-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-nooks-sequencing-api-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-nooks-sequencing-api-api-openapi.yml
 - filename: nooks-notes-api-openapi.yml
   format: yaml
   label: Nooks Notes API
   slug: nooks-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-notes-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-notes-api-openapi.yml
 - filename: nooks-prospects-api-openapi.yml
   format: yaml
   label: Nooks Prospects API
   slug: nooks-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-prospects-api-openapi.yml
 - filename: nooks-sequences-api-openapi.yml
   format: yaml
   label: Nooks Sequences API
   slug: nooks-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequences-api-openapi.yml
 - filename: nooks-sequencesteps-api-openapi.yml
   format: yaml
   label: Nooks Sequence Steps API
   slug: nooks-sequencesteps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequencesteps-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequencesteps-api-openapi.yml
 - filename: nooks-tasks-api-openapi.yml
   format: yaml
   label: Nooks Tasks API
   slug: nooks-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-tasks-api-openapi.yml
 - filename: nooks-users-api-openapi.yml
   format: yaml
   label: Nooks Users API
   slug: nooks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-users-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-users-api-openapi.yml
 - filename: nooks-call-dispositions-api-openapi.yml
   format: yaml
   label: Nooks Call Dispositions API
   slug: nooks-call-dispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-call-dispositions-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-call-dispositions-api-openapi.yml
 - filename: nooks-email-templates-api-openapi.yml
   format: yaml
   label: Nooks Email Templates API
   slug: nooks-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-email-templates-api-openapi.yml
 - filename: nooks-sequence-states-api-openapi.yml
   format: yaml
   label: Nooks Sequence States API
   slug: nooks-sequence-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequence-states-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequence-states-api-openapi.yml
 consequence_counts:
   read: 48
   write: 26
@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/nooks-
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{id}\n  method: patch\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n\
   \  method: delete\n  operationId: deleteTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}/complete\n  method: post\n  operationId: completeTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}/skip\n  method: post\n  operationId: skipTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/agentic-access/nooks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nooks/agentic-access/nooks-agentic-access.yml
 summary_line: 74 operations · 26 acting
 tags:
 - Company

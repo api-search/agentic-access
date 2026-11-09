@@ -9,157 +9,157 @@ api_specs:
   label: Render Audit Logs API
   slug: render-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-audit-logs-api-openapi.yml
 - filename: render-blueprints-api-openapi.yml
   format: yaml
   label: Render Blueprints API
   slug: render-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-blueprints-api-openapi.yml
 - filename: render-custom-domains-api-openapi.yml
   format: yaml
   label: Render Custom Domains API
   slug: render-custom-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-custom-domains-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-custom-domains-api-openapi.yml
 - filename: render-deploys-api-openapi.yml
   format: yaml
   label: Render Deploys API
   slug: render-deploys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-deploys-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-deploys-api-openapi.yml
 - filename: render-disks-api-openapi.yml
   format: yaml
   label: Render Disks API
   slug: render-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-disks-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-disks-api-openapi.yml
 - filename: render-environment-groups-api-openapi.yml
   format: yaml
   label: Render Environment Groups API
   slug: render-environment-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-environment-groups-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-environment-groups-api-openapi.yml
 - filename: render-events-api-openapi.yml
   format: yaml
   label: Render Events API
   slug: render-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-events-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-events-api-openapi.yml
 - filename: render-key-value-api-openapi.yml
   format: yaml
   label: Render Key Value API
   slug: render-key-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-key-value-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-key-value-api-openapi.yml
 - filename: render-logs-api-openapi.yml
   format: yaml
   label: Render Logs API
   slug: render-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-logs-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-logs-api-openapi.yml
 - filename: render-maintenance-api-openapi.yml
   format: yaml
   label: Render Maintenance API
   slug: render-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-maintenance-api-openapi.yml
 - filename: render-metrics-api-openapi.yml
   format: yaml
   label: Render Metrics API
   slug: render-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-metrics-api-openapi.yml
 - filename: render-notification-settings-api-openapi.yml
   format: yaml
   label: Render Notification Settings API
   slug: render-notification-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-notification-settings-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-notification-settings-api-openapi.yml
 - filename: render-one-off-jobs-api-openapi.yml
   format: yaml
   label: Render One-Off Jobs API
   slug: render-one-off-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-one-off-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-one-off-jobs-api-openapi.yml
 - filename: render-postgres-api-openapi.yml
   format: yaml
   label: Render Postgres API
   slug: render-postgres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-postgres-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-postgres-api-openapi.yml
 - filename: render-projects-environments-api-openapi.yml
   format: yaml
   label: Render Projects & Environments API
   slug: render-projects-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-projects-environments-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-projects-environments-api-openapi.yml
 - filename: render-redis-deprecated-api-openapi.yml
   format: yaml
   label: Render Redis (Deprecated) API
   slug: render-redis-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-redis-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-redis-deprecated-api-openapi.yml
 - filename: render-registry-credentials-api-openapi.yml
   format: yaml
   label: Render Registry Credentials API
   slug: render-registry-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-registry-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-registry-credentials-api-openapi.yml
 - filename: render-services-api-openapi.yml
   format: yaml
   label: Render Services API
   slug: render-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-services-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-services-api-openapi.yml
 - filename: render-services-cron-jobs-api-openapi.yml
   format: yaml
   label: Render Services - Cron Jobs API
   slug: render-services-cron-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-services-cron-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-services-cron-jobs-api-openapi.yml
 - filename: render-services-headers-api-openapi.yml
   format: yaml
   label: Render Services - Headers API
   slug: render-services-headers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-services-headers-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-services-headers-api-openapi.yml
 - filename: render-services-routes-api-openapi.yml
   format: yaml
   label: Render Services - Routes API
   slug: render-services-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-services-routes-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-services-routes-api-openapi.yml
 - filename: render-users-api-openapi.yml
   format: yaml
   label: Render Users API
   slug: render-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-users-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-users-api-openapi.yml
 - filename: render-webhooks-api-openapi.yml
   format: yaml
   label: Render Webhooks API
   slug: render-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-webhooks-api-openapi.yml
 - filename: render-workflow-tasks-beta-api-openapi.yml
   format: yaml
   label: Render Workflow Tasks (Beta) API
   slug: render-workflow-tasks-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-workflow-tasks-beta-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-workflow-tasks-beta-api-openapi.yml
 - filename: render-workflows-beta-api-openapi.yml
   format: yaml
   label: Render Workflows (Beta) API
   slug: render-workflows-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-workflows-beta-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-workflows-beta-api-openapi.yml
 - filename: render-workspaces-api-openapi.yml
   format: yaml
   label: Render Workspaces API
   slug: render-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/openapi/render-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/render/openapi/render-workspaces-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 95
@@ -258,8 +258,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/render
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/cpu\n  method: get\n  operationId: get-cpu\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/cpu-limit\n  method: get\n  operationId: get-cpu-limit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/cpu-target\n  method: get\n  operationId: get-cpu-target\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/memory\n  method: get\n  operationId: get-memory\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/memory-limit\n  method: get\n  operationId: get-memory-limit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/memory-target\n  method: get\n  operationId: get-memory-target\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/http-requests\n  method: get\n  operationId: get-http-requests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/http-latency\n  method: get\n  operationId: get-http-latency\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /metrics/bandwidth\n  method: get\n  operationId: get-bandwidth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/bandwidth-sources\n  method: get\n  operationId: get-bandwidth-sources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/disk-usage\n  method: get\n  operationId: get-disk-usage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/disk-capacity\n  method: get\n  operationId: get-disk-capacity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/instance-count\n  method: get\n  operationId: get-instance-count\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/active-connections\n  method: get\n  operationId: get-active-connections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/replication-lag\n  method: get\n  operationId: get-replication-lag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/filters/application\n  method: get\n  operationId: list-application-filter-values\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/agentic-access/render-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/agentic-access/render-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/active-connections\n  method: get\n  operationId: get-active-connections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/replication-lag\n  method: get\n  operationId: get-replication-lag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/filters/application\n  method: get\n  operationId: list-application-filter-values\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://artifacts.apis.io/render/agentic-access/render-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/render/agentic-access/render-agentic-access.yml
 summary_line: 196 operations · 101 acting · 3 human-in-the-loop
 tags:
 - Cloud

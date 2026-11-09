@@ -9,31 +9,31 @@ api_specs:
   label: Podio Applications API
   slug: podio-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-applications-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-applications-api-openapi.yml
 - filename: podio-hooks-api-openapi.yml
   format: yaml
   label: Podio Hooks API
   slug: podio-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-hooks-api-openapi.yml
 - filename: podio-items-api-openapi.yml
   format: yaml
   label: Podio Items API
   slug: podio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-items-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-items-api-openapi.yml
 - filename: podio-tasks-api-openapi.yml
   format: yaml
   label: Podio Tasks API
   slug: podio-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-tasks-api-openapi.yml
 - filename: podio-oauth-api-openapi.yml
   format: yaml
   label: Podio O Auth API
   slug: podio-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-oauth-api-openapi.yml
 consequence_counts:
   read: 2
   write: 4
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/podio-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 4\n    connected: 2\n  by_consequence:\n    write: 4\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /oauth/token/v2\n  method: post\n  operationId: getAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/{app_id}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /item/app/{app_id}/\n  method: post\n  operationId: addNewItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /item/{item_id}\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hook/{ref_type}/{ref_id}/\n\
   \  method: post\n  operationId: createHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/agentic-access/podio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/podio/agentic-access/podio-agentic-access.yml
 summary_line: 6 operations · 4 acting
 tags:
 - Work Management

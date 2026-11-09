@@ -9,25 +9,25 @@ api_specs:
   label: Geidea Checkout API
   slug: geidea-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/geidea/openapi/geidea-checkout-api-openapi.yml
 - filename: geidea-direct-api-api-openapi.yml
   format: yaml
   label: Geidea Direct API
   slug: geidea-direct-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-direct-api-api-openapi.yml
+  url: https://artifacts.apis.io/geidea/openapi/geidea-direct-api-api-openapi.yml
 - filename: geidea-tokenization-api-openapi.yml
   format: yaml
   label: Geidea Tokenization API
   slug: geidea-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/geidea/openapi/geidea-tokenization-api-openapi.yml
 - filename: geidea-transaction-management-api-openapi.yml
   format: yaml
   label: Geidea Transaction Management API
   slug: geidea-transaction-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/openapi/geidea-transaction-management-api-openapi.yml
+  url: https://artifacts.apis.io/geidea/openapi/geidea-transaction-management-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 2
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/geidea
   \ abnormal\n      - high-value\n    audit: required\n- path: /pgw/api/v1/direct/capture\n  method: post\n  operationId: captureTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pgw/api/v3/direct/void\n  method: post\n  operationId: voidPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pgw/api/v2/direct/refund\n  method: post\n  operationId: refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pgw/api/v1/direct/cancel\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pgw/api/v1/direct/order/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pgw/api/v1/direct/token/{tokenId}\n  method: get\n  operationId: retrieveToken\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/agentic-access/geidea-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/geidea/agentic-access/geidea-agentic-access.yml
 summary_line: 10 operations · 8 acting
 tags:
 - Payments

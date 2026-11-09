@@ -9,49 +9,49 @@ api_specs:
   label: Klu Actions API
   slug: klu-ai-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-actions-api-openapi.yml
+  url: https://artifacts.apis.io/klu-ai/openapi/klu-ai-actions-api-openapi.yml
 - filename: klu-ai-apps-api-openapi.yml
   format: yaml
   label: Klu Apps API
   slug: klu-ai-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-apps-api-openapi.yml
+  url: https://artifacts.apis.io/klu-ai/openapi/klu-ai-apps-api-openapi.yml
 - filename: klu-ai-context-api-openapi.yml
   format: yaml
   label: Klu Context API
   slug: klu-ai-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-context-api-openapi.yml
+  url: https://artifacts.apis.io/klu-ai/openapi/klu-ai-context-api-openapi.yml
 - filename: klu-ai-data-api-openapi.yml
   format: yaml
   label: Klu Data API
   slug: klu-ai-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-data-api-openapi.yml
+  url: https://artifacts.apis.io/klu-ai/openapi/klu-ai-data-api-openapi.yml
 - filename: klu-ai-feedback-api-openapi.yml
   format: yaml
   label: Klu Feedback API
   slug: klu-ai-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/klu-ai/openapi/klu-ai-feedback-api-openapi.yml
 - filename: klu-ai-models-api-openapi.yml
   format: yaml
   label: Klu Models API
   slug: klu-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/klu-ai/openapi/klu-ai-models-api-openapi.yml
 - filename: klu-ai-sessions-api-openapi.yml
   format: yaml
   label: Klu Sessions API
   slug: klu-ai-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/klu-ai/openapi/klu-ai-sessions-api-openapi.yml
 - filename: klu-ai-workspaces-api-openapi.yml
   format: yaml
   label: Klu Workspaces API
   slug: klu-ai-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/openapi/klu-ai-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/klu-ai/openapi/klu-ai-workspaces-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/klu-ai
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feedback\n  method: post\n  operationId: createFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{guid}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{guid}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps\n  method: post\n  operationId: createApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{guid}\n  method:\
   \ get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/agentic-access/klu-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/klu-ai/agentic-access/klu-ai-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Artificial Intelligence

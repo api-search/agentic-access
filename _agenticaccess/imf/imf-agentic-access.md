@@ -8,13 +8,13 @@ api_specs:
   label: IMF Data API
   slug: imf-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/openapi/imf-data-api-openapi.yml
+  url: https://artifacts.apis.io/imf/openapi/imf-data-api-openapi.yml
 - filename: imf-structure-api-openapi.yml
   format: yaml
   label: IMF Data Structure API
   slug: imf-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/openapi/imf-structure-api-openapi.yml
+  url: https://artifacts.apis.io/imf/openapi/imf-structure-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /structure/dataflow/all/*/+\n  method: get\n  operationId: listDataflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /structure/datastructure/{agency}/{dsd_id}/+\n  method: get\n  operationId: getDataStructure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /structure/codelist/{agency}/{codelist_id}/+\n\
   \  method: get\n  operationId: getCodelist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /structure/conceptscheme/{agency}/{scheme_id}/+\n  method: get\n  operationId: getConceptScheme\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/dataflow/{agency}/{dataflow_id}/+/{key}\n  method: get\n  operationId: getData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/agentic-access/imf-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/imf/agentic-access/imf-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Financial Data

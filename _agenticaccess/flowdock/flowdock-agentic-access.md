@@ -9,91 +9,91 @@ api_specs:
   label: Flowdock Streaming API
   slug: streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/asyncapi/flowdock-streaming-api-asyncapi.yml
+  url: https://artifacts.apis.io/flowdock/asyncapi/flowdock-streaming-api-asyncapi.yml
 - filename: flowdock-scim-api-openapi.yml
   format: yaml
   label: Flowdock SCIM Provisioning API
   slug: scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-scim-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-scim-api-openapi.yml
 - filename: flowdock-authentication-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Authentication API
   slug: flowdock-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-authentication-api-openapi.yml
 - filename: flowdock-chat-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Chat API
   slug: flowdock-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-chat-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-chat-api-openapi.yml
 - filename: flowdock-files-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Files API
   slug: flowdock-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-files-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-files-api-openapi.yml
 - filename: flowdock-flows-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Flows API
   slug: flowdock-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-flows-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-flows-api-openapi.yml
 - filename: flowdock-invitations-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Invitations API
   slug: flowdock-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-invitations-api-openapi.yml
 - filename: flowdock-messages-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Messages API
   slug: flowdock-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-messages-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-messages-api-openapi.yml
 - filename: flowdock-organizations-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Organizations API
   slug: flowdock-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-organizations-api-openapi.yml
 - filename: flowdock-private-conversations-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Private Conversations API
   slug: flowdock-private-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-private-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-private-conversations-api-openapi.yml
 - filename: flowdock-private-messages-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Private Messages API
   slug: flowdock-private-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-private-messages-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-private-messages-api-openapi.yml
 - filename: flowdock-sources-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Sources API
   slug: flowdock-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-sources-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-sources-api-openapi.yml
 - filename: flowdock-team-inbox-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Team Inbox API
   slug: flowdock-team-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-team-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-team-inbox-api-openapi.yml
 - filename: flowdock-threads-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Threads API
   slug: flowdock-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-threads-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-threads-api-openapi.yml
 - filename: flowdock-users-api-openapi.yml
   format: yaml
   label: Flowdock (Discontinued) Users API
   slug: flowdock-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-users-api-openapi.yml
+  url: https://artifacts.apis.io/flowdock/openapi/flowdock-users-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 27
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flowdo
   - path: /flows/{organization}/{flow}/invitations/{id}\n  method: delete\n  operationId: deleteInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{organization}/{flow}/invitations/import\n  method: post\n  operationId: importInvitations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{organization}/{hash}/{filename}\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /scim/{uid}\n  method: get\n  operationId: scimRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/{uid}/Users\n  method: get\n  operationId: scimListUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/{uid}/Users\n  method: post\n  operationId: scimCreateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/{uid}/Users/{id}\n  method: get\n  operationId: scimGetUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/{uid}/Users/{id}\n  method: put\n  operationId: scimUpdateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/{uid}/Users/{id}\n  method: delete\n  operationId: scimDeleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/agentic-access/flowdock-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flowdock/agentic-access/flowdock-agentic-access.yml
 summary_line: 54 operations · 27 acting
 tags:
 - Team Chat

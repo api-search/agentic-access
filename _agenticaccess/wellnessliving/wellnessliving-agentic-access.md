@@ -9,91 +9,91 @@ api_specs:
   label: WellnessLiving Appointments API
   slug: wellnessliving-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-appointments-api-openapi.yml
 - filename: wellnessliving-authentication-api-openapi.yml
   format: yaml
   label: WellnessLiving Authentication API
   slug: wellnessliving-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-authentication-api-openapi.yml
 - filename: wellnessliving-booking-api-openapi.yml
   format: yaml
   label: WellnessLiving Booking API
   slug: wellnessliving-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-booking-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-booking-api-openapi.yml
 - filename: wellnessliving-business-api-openapi.yml
   format: yaml
   label: WellnessLiving Business API
   slug: wellnessliving-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-business-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-business-api-openapi.yml
 - filename: wellnessliving-catalog-api-openapi.yml
   format: yaml
   label: WellnessLiving Catalog API
   slug: wellnessliving-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-catalog-api-openapi.yml
 - filename: wellnessliving-classes-api-openapi.yml
   format: yaml
   label: WellnessLiving Classes API
   slug: wellnessliving-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-classes-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-classes-api-openapi.yml
 - filename: wellnessliving-clients-api-openapi.yml
   format: yaml
   label: WellnessLiving Clients API
   slug: wellnessliving-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-clients-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-clients-api-openapi.yml
 - filename: wellnessliving-locations-api-openapi.yml
   format: yaml
   label: WellnessLiving Locations API
   slug: wellnessliving-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-locations-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-locations-api-openapi.yml
 - filename: wellnessliving-payments-api-openapi.yml
   format: yaml
   label: WellnessLiving Payments API
   slug: wellnessliving-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-payments-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-payments-api-openapi.yml
 - filename: wellnessliving-promotions-api-openapi.yml
   format: yaml
   label: WellnessLiving Promotions API
   slug: wellnessliving-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-promotions-api-openapi.yml
 - filename: wellnessliving-reports-api-openapi.yml
   format: yaml
   label: WellnessLiving Reports API
   slug: wellnessliving-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-reports-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-reports-api-openapi.yml
 - filename: wellnessliving-reviews-api-openapi.yml
   format: yaml
   label: WellnessLiving Reviews API
   slug: wellnessliving-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-reviews-api-openapi.yml
 - filename: wellnessliving-rewards-api-openapi.yml
   format: yaml
   label: WellnessLiving Rewards API
   slug: wellnessliving-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-rewards-api-openapi.yml
 - filename: wellnessliving-staff-api-openapi.yml
   format: yaml
   label: WellnessLiving Staff API
   slug: wellnessliving-staff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-staff-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-staff-api-openapi.yml
 - filename: wellnessliving-websocket-api-openapi.yml
   format: yaml
   label: WellnessLiving WebSocket API
   slug: wellnessliving-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/openapi/wellnessliving-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/wellnessliving/openapi/wellnessliving-websocket-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 39
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wellne
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Wl/Reward/Action/Action.json\n  method: get\n  operationId: get_Wl_Reward_Action_Action\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Wl/Reward/Board/List.json\n  method: get\n  operationId: get_Wl_Reward_Board_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Wl/Review/Review.json\n  method: post\n  operationId: post_Wl_Review_Review\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Wl/Review/ReviewList/ReviewList.json\n  method: get\n  operationId: get_Wl_Review_ReviewList_ReviewList\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Wl/Review/ReviewReply.json\n  method: post\n  operationId: post_Wl_Review_ReviewReply\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Wl/Report/Data.json\n  method: get\n  operationId: get_Wl_Report_Data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Wl/Report/PageData.json\n  method: get\n  operationId: get_Wl_Report_PageData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Wl/Report/Access.json\n\
   \  method: get\n  operationId: get_Wl_Report_Access\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Core/WebSocket/Subscribe.json\n  method: post\n  operationId: post_Core_WebSocket_Subscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/agentic-access/wellnessliving-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wellnessliving/agentic-access/wellnessliving-agentic-access.yml
 summary_line: 55 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Fitness

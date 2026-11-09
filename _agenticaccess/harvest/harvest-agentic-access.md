@@ -9,67 +9,67 @@ api_specs:
   label: Harvest Clients API
   slug: harvest-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-clients-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-clients-api-openapi.yml
 - filename: harvest-company-api-openapi.yml
   format: yaml
   label: Harvest Company API
   slug: harvest-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-company-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-company-api-openapi.yml
 - filename: harvest-estimates-api-openapi.yml
   format: yaml
   label: Harvest Estimates API
   slug: harvest-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-estimates-api-openapi.yml
 - filename: harvest-expenses-api-openapi.yml
   format: yaml
   label: Harvest Expenses API
   slug: harvest-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-expenses-api-openapi.yml
 - filename: harvest-invoices-api-openapi.yml
   format: yaml
   label: Harvest Invoices API
   slug: harvest-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-invoices-api-openapi.yml
 - filename: harvest-projects-api-openapi.yml
   format: yaml
   label: Harvest Projects API
   slug: harvest-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-projects-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-projects-api-openapi.yml
 - filename: harvest-reports-api-openapi.yml
   format: yaml
   label: Harvest Reports API
   slug: harvest-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-reports-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-reports-api-openapi.yml
 - filename: harvest-roles-api-openapi.yml
   format: yaml
   label: Harvest Roles API
   slug: harvest-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-roles-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-roles-api-openapi.yml
 - filename: harvest-tasks-api-openapi.yml
   format: yaml
   label: Harvest Tasks API
   slug: harvest-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-tasks-api-openapi.yml
 - filename: harvest-users-api-openapi.yml
   format: yaml
   label: Harvest Users API
   slug: harvest-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-users-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-users-api-openapi.yml
 - filename: harvest-time-entries-api-openapi.yml
   format: yaml
   label: Harvest Time Entries API
   slug: harvest-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/openapi/harvest-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/harvest/openapi/harvest-time-entries-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 24
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/harves
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /roles\n  method: post\n  operationId: createRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /roles/{role_id}\n  method: get\n  operationId: getRole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /roles/{role_id}\n  method: patch\n  operationId: updateRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /roles/{role_id}\n  method: delete\n  operationId: deleteRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /company\n  method: get\n  operationId: getCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company\n  method: patch\n  operationId: updateCompany\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/time/clients\n  method: get\n  operationId: getClientsTimeReport\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/time/projects\n  method: get\n  operationId: getProjectsTimeReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/time/tasks\n  method: get\n  operationId: getTasksTimeReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/time/team\n  method: get\n  operationId: getTeamTimeReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/agentic-access/harvest-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/harvest/agentic-access/harvest-agentic-access.yml
 summary_line: 55 operations · 31 acting · 2 human-in-the-loop
 tags:
 - Time Tracking

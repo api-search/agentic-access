@@ -9,49 +9,49 @@ api_specs:
   label: Pulsoid Features API
   slug: pulsoid-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-features-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-features-api-openapi.yml
 - filename: pulsoid-geometry-dash-api-openapi.yml
   format: yaml
   label: Pulsoid Geometry Dash API
   slug: pulsoid-geometry-dash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-geometry-dash-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-geometry-dash-api-openapi.yml
 - filename: pulsoid-heart-rate-api-openapi.yml
   format: yaml
   label: Pulsoid Heart Rate API
   slug: pulsoid-heart-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-heart-rate-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-heart-rate-api-openapi.yml
 - filename: pulsoid-profile-api-openapi.yml
   format: yaml
   label: Pulsoid Profile API
   slug: pulsoid-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-profile-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-profile-api-openapi.yml
 - filename: pulsoid-statistics-api-openapi.yml
   format: yaml
   label: Pulsoid Statistics API
   slug: pulsoid-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-statistics-api-openapi.yml
 - filename: pulsoid-token-api-openapi.yml
   format: yaml
   label: Pulsoid Token API
   slug: pulsoid-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-token-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-token-api-openapi.yml
 - filename: pulsoid-widgets-api-openapi.yml
   format: yaml
   label: Pulsoid Widgets API
   slug: pulsoid-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-widgets-api-openapi.yml
 - filename: pulsoid-oauth2-api-openapi.yml
   format: yaml
   label: Pulsoid O Auth2 API
   slug: pulsoid-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-oauth2-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pulsoi
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/widgets/{widgetId}\n  method: post\n  operationId: updateWidget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/profile\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/geometry-dash-mod/configuration\n  method: get\n  operationId: getGdConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/geometry-dash-mod/configuration\n  method:\
   \ post\n  operationId: updateGdConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/features/{featureId}\n  method: get\n  operationId: getFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/authorize\n  method: post\n  operationId: oauthAuthorize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/token\n  method: post\n  operationId: oauthToken\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/device_authorization\n  method: post\n  operationId: oauthDeviceAuthorization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/revoke\n  method: post\n  operationId: oauthRevoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/agentic-access/pulsoid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pulsoid/agentic-access/pulsoid-agentic-access.yml
 summary_line: 15 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Heart Rate
@@ -100,5 +100,6 @@ tags:
 - Real-Time
 - Streaming
 - WebSocket
+- OAuth
 - Authentication
 ---

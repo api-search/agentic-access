@@ -9,43 +9,43 @@ api_specs:
   label: weclapp Article API
   slug: weclapp-article-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-article-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-article-api-openapi.yml
 - filename: weclapp-customer-api-openapi.yml
   format: yaml
   label: weclapp Customer API
   slug: weclapp-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-customer-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-customer-api-openapi.yml
 - filename: weclapp-purchase-order-api-openapi.yml
   format: yaml
   label: weclapp Purchase Order API
   slug: weclapp-purchase-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-purchase-order-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-purchase-order-api-openapi.yml
 - filename: weclapp-quotation-api-openapi.yml
   format: yaml
   label: weclapp Quotation API
   slug: weclapp-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-quotation-api-openapi.yml
 - filename: weclapp-sales-invoice-api-openapi.yml
   format: yaml
   label: weclapp Sales Invoice API
   slug: weclapp-sales-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-sales-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-sales-invoice-api-openapi.yml
 - filename: weclapp-sales-order-api-openapi.yml
   format: yaml
   label: weclapp Sales Order API
   slug: weclapp-sales-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-sales-order-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-sales-order-api-openapi.yml
 - filename: weclapp-shipment-api-openapi.yml
   format: yaml
   label: weclapp Shipment API
   slug: weclapp-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/openapi/weclapp-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/weclapp/openapi/weclapp-shipment-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 21
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/weclap
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /purchaseOrder\n  method: get\n  operationId: getPurchaseOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /purchaseOrder\n  method: post\n  operationId: createPurchaseOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /purchaseOrder/count\n  method: get\n  operationId: countPurchaseOrders\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /purchaseOrder/id/{id}\n  method: get\n  operationId: getPurchaseOrderById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /purchaseOrder/id/{id}\n  method: put\n  operationId: updatePurchaseOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /purchaseOrder/id/{id}\n  method: delete\n  operationId: deletePurchaseOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/agentic-access/weclapp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weclapp/agentic-access/weclapp-agentic-access.yml
 summary_line: 42 operations · 21 acting
 tags:
 - ERP

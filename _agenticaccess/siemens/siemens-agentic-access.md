@@ -9,31 +9,31 @@ api_specs:
   label: Siemens Alarms API
   slug: siemens-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-alarms-api-openapi.yml
 - filename: siemens-equipment-api-openapi.yml
   format: yaml
   label: Siemens Equipment API
   slug: siemens-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-equipment-api-openapi.yml
 - filename: siemens-points-api-openapi.yml
   format: yaml
   label: Siemens Points API
   slug: siemens-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-points-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-points-api-openapi.yml
 - filename: siemens-schedules-api-openapi.yml
   format: yaml
   label: Siemens Schedules API
   slug: siemens-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-schedules-api-openapi.yml
 - filename: siemens-trends-api-openapi.yml
   format: yaml
   label: Siemens Trends API
   slug: siemens-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/openapi/siemens-trends-api-openapi.yml
+  url: https://artifacts.apis.io/siemens/openapi/siemens-trends-api-openapi.yml
 consequence_counts:
   read: 8
   write: 2
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/siemens-building-operations-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 8\n    acting: 2\n  by_consequence:\n    read: 8\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /points\n  method: get\n  operationId: listPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /points/{pointId}\n  method: get\n  operationId: getPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /points/{pointId}/value\n  method:\
   \ get\n  operationId: getPointValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /points/{pointId}/value\n  method: put\n  operationId: setPointValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /points/{pointId}/trends\n  method: get\n  operationId: getPointTrend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alarms\n  method: get\n  operationId: listAlarms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alarms/{alarmId}/acknowledge\n\
   \  method: post\n  operationId: acknowledgeAlarm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /equipment\n  method: get\n  operationId: listEquipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /equipment/{equipmentId}\n  method: get\n  operationId: getEquipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siemens/refs/heads/main/agentic-access/siemens-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/siemens/agentic-access/siemens-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Automation

@@ -9,49 +9,49 @@ api_specs:
   label: Indexed Companies API
   slug: indexed-vc-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-companies-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-companies-api-openapi.yml
 - filename: indexed-vc-enrich-api-openapi.yml
   format: yaml
   label: Indexed Enrich API
   slug: indexed-vc-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-enrich-api-openapi.yml
 - filename: indexed-vc-industries-api-openapi.yml
   format: yaml
   label: Indexed Industries API
   slug: indexed-vc-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-industries-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-industries-api-openapi.yml
 - filename: indexed-vc-investors-api-openapi.yml
   format: yaml
   label: Indexed Investors API
   slug: indexed-vc-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-investors-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-investors-api-openapi.yml
 - filename: indexed-vc-reveal-api-openapi.yml
   format: yaml
   label: Indexed Reveal API
   slug: indexed-vc-reveal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-reveal-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-reveal-api-openapi.yml
 - filename: indexed-vc-scheduled-exports-api-openapi.yml
   format: yaml
   label: Indexed Scheduled Exports API
   slug: indexed-vc-scheduled-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-scheduled-exports-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-scheduled-exports-api-openapi.yml
 - filename: indexed-vc-usage-api-openapi.yml
   format: yaml
   label: Indexed Usage API
   slug: indexed-vc-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-usage-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-usage-api-openapi.yml
 - filename: indexed-vc-webhooks-api-openapi.yml
   format: yaml
   label: Indexed Webhooks API
   slug: indexed-vc-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-10-02'\nmethod: generated\nsource: openapi/indexe
   \      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/test\n  method: post\n  operationId: testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduled-exports\n  method: get\n  operationId: listScheduledExports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /scheduled-exports\n  method: post\n  operationId: createScheduledExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduled-exports/{id}\n  method: delete\n  operationId: deleteScheduledExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/deliveries\n  method: get\n  operationId: listWebhookDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /reveal\n  method: post\n  operationId: revealEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /industries\n  method: get\n  operationId: listIndustries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/agentic-access/indexed-vc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/indexed-vc/agentic-access/indexed-vc-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Company

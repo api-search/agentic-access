@@ -9,25 +9,25 @@ api_specs:
   label: IDnow Authentication API
   slug: idnow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/idnow/openapi/idnow-authentication-api-openapi.yml
 - filename: idnow-identifications-api-openapi.yml
   format: yaml
   label: IDnow Identifications API
   slug: idnow-identifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-identifications-api-openapi.yml
+  url: https://artifacts.apis.io/idnow/openapi/idnow-identifications-api-openapi.yml
 - filename: idnow-results-api-openapi.yml
   format: yaml
   label: IDnow Results API
   slug: idnow-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-results-api-openapi.yml
+  url: https://artifacts.apis.io/idnow/openapi/idnow-results-api-openapi.yml
 - filename: idnow-videoident-api-openapi.yml
   format: yaml
   label: IDnow VideoIdent API
   slug: idnow-videoident-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/openapi/idnow-videoident-api-openapi.yml
+  url: https://artifacts.apis.io/idnow/openapi/idnow-videoident-api-openapi.yml
 consequence_counts:
   read: 1
   write: 4
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/idnow-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 4\n    connected: 1\n  by_consequence:\n    write: 4\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /{company}/login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company}/identifications/{transactionId}/create\n  method: post\n  operationId: createIdentification\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company}/identifications/{transactionId}/start\n  method: post\n  operationId: startIdentification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company}/identifications/{transactionId}/requestVideoChat\n  method: post\n  operationId: requestVideoChat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /{company}/identifications/{transactionId}\n  method: get\n  operationId: getIdentification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/agentic-access/idnow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/idnow/agentic-access/idnow-agentic-access.yml
 summary_line: 5 operations · 4 acting
 tags:
 - Identity Verification

@@ -9,37 +9,37 @@ api_specs:
   label: Xylem Doc View API
   slug: xylem-docview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-docview-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-docview-api-openapi.yml
 - filename: xylem-infor-api-openapi.yml
   format: yaml
   label: Xylem Infor API
   slug: xylem-infor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-infor-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-infor-api-openapi.yml
 - filename: xylem-mes-api-openapi.yml
   format: yaml
   label: Xylem MES API
   slug: xylem-mes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-mes-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-mes-api-openapi.yml
 - filename: xylem-mes-v2-api-openapi.yml
   format: yaml
   label: Xylem MES V2 API
   slug: xylem-mes-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-mes-v2-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-mes-v2-api-openapi.yml
 - filename: xylem-nameplate-api-openapi.yml
   format: yaml
   label: Xylem Name Plate API
   slug: xylem-nameplate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-nameplate-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-nameplate-api-openapi.yml
 - filename: xylem-serialcard-api-openapi.yml
   format: yaml
   label: Xylem Serial Card API
   slug: xylem-serialcard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-serialcard-api-openapi.yml
+  url: https://artifacts.apis.io/xylem/openapi/xylem-serialcard-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 37
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/xylem-
   \      - high-value\n    audit: required\n- path: /api/NamePlate/Get/Queue\n  method: post\n  operationId: NamePlate_GetQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/NamePlate/Create/Queue\n  method: post\n  operationId: NamePlate_CreateQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/NamePlate/Delete/Queue\n  method: post\n  operationId: NamePlate_DeleteQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/NamePlate/ReEngrave/Queue\n  method: post\n  operationId: NamePlate_ReEngraveQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/NamePlate/Get/Authorized/SecurityContent\n  method: get\n  operationId: NamePlate_GetAuthorizedBySecurityContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/SerialCard/Get/Details\n  method: get\n  operationId: SerialCard_GetDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/SerialCard/Get/LnOrderInfo\n  method: get\n  operationId: SerialCard_GetLnOrderInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/SerialCard/Get/LnItemInfo\n  method: get\n  operationId: SerialCard_GetLnItemInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/agentic-access/xylem-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xylem/agentic-access/xylem-agentic-access.yml
 summary_line: 57 operations · 20 acting
 tags:
 - Fortune 1000

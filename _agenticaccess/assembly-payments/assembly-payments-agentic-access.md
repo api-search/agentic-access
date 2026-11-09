@@ -9,187 +9,187 @@ api_specs:
   label: Webhooks API
   slug: webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-webhooks-api-openapi.yml
 - filename: assembly-payments-addresses-api-openapi.yml
   format: yaml
   label: Assembly Payments Addresses API
   slug: assembly-payments-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-addresses-api-openapi.yml
 - filename: assembly-payments-authentication-api-openapi.yml
   format: yaml
   label: Assembly Payments Authentication API
   slug: assembly-payments-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-authentication-api-openapi.yml
 - filename: assembly-payments-bank-accounts-api-openapi.yml
   format: yaml
   label: Assembly Payments Bank Accounts API
   slug: assembly-payments-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-bank-accounts-api-openapi.yml
 - filename: assembly-payments-batch-transactions-api-openapi.yml
   format: yaml
   label: Assembly Payments Batch Transactions API
   slug: assembly-payments-batch-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-batch-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-batch-transactions-api-openapi.yml
 - filename: assembly-payments-bpay-accounts-api-openapi.yml
   format: yaml
   label: Assembly Payments BPay Accounts API
   slug: assembly-payments-bpay-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-bpay-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-bpay-accounts-api-openapi.yml
 - filename: assembly-payments-callbacks-api-openapi.yml
   format: yaml
   label: Assembly Payments Callbacks API
   slug: assembly-payments-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-callbacks-api-openapi.yml
 - filename: assembly-payments-card-accounts-api-openapi.yml
   format: yaml
   label: Assembly Payments Card Accounts API
   slug: assembly-payments-card-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-card-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-card-accounts-api-openapi.yml
 - filename: assembly-payments-charges-api-openapi.yml
   format: yaml
   label: Assembly Payments Charges API
   slug: assembly-payments-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-charges-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-charges-api-openapi.yml
 - filename: assembly-payments-companies-api-openapi.yml
   format: yaml
   label: Assembly Payments Companies API
   slug: assembly-payments-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-companies-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-companies-api-openapi.yml
 - filename: assembly-payments-direct-debit-authorities-api-openapi.yml
   format: yaml
   label: Assembly Payments Direct Debit Authorities API
   slug: assembly-payments-direct-debit-authorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-direct-debit-authorities-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-direct-debit-authorities-api-openapi.yml
 - filename: assembly-payments-disbursements-api-openapi.yml
   format: yaml
   label: Assembly Payments Disbursements API
   slug: assembly-payments-disbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-disbursements-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-disbursements-api-openapi.yml
 - filename: assembly-payments-failed-npp-payment-details-api-openapi.yml
   format: yaml
   label: Assembly Payments Failed NPP Payment Details API
   slug: assembly-payments-failed-npp-payment-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-failed-npp-payment-details-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-failed-npp-payment-details-api-openapi.yml
 - filename: assembly-payments-fees-api-openapi.yml
   format: yaml
   label: Assembly Payments Fees API
   slug: assembly-payments-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-fees-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-fees-api-openapi.yml
 - filename: assembly-payments-item-actions-api-openapi.yml
   format: yaml
   label: Assembly Payments Item Actions API
   slug: assembly-payments-item-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-item-actions-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-item-actions-api-openapi.yml
 - filename: assembly-payments-items-api-openapi.yml
   format: yaml
   label: Assembly Payments Items API
   slug: assembly-payments-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-items-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-items-api-openapi.yml
 - filename: assembly-payments-jobs-api-openapi.yml
   format: yaml
   label: Assembly Payments Jobs API
   slug: assembly-payments-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-jobs-api-openapi.yml
 - filename: assembly-payments-marketplaces-api-openapi.yml
   format: yaml
   label: Assembly Payments Marketplaces API
   slug: assembly-payments-marketplaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-marketplaces-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-marketplaces-api-openapi.yml
 - filename: assembly-payments-payids-api-openapi.yml
   format: yaml
   label: Assembly Payments Pay IDs API
   slug: assembly-payments-payids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-payids-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-payids-api-openapi.yml
 - filename: assembly-payments-payto-agreements-api-openapi.yml
   format: yaml
   label: Assembly Payments PayTo Agreements API
   slug: assembly-payments-payto-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-payto-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-payto-agreements-api-openapi.yml
 - filename: assembly-payments-payto-payments-api-openapi.yml
   format: yaml
   label: Assembly Payments PayTo Payments API
   slug: assembly-payments-payto-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-payto-payments-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-payto-payments-api-openapi.yml
 - filename: assembly-payments-requests-api-openapi.yml
   format: yaml
   label: Assembly Payments Requests API
   slug: assembly-payments-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-requests-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-requests-api-openapi.yml
 - filename: assembly-payments-status-api-openapi.yml
   format: yaml
   label: Assembly Payments Status API
   slug: assembly-payments-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-status-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-status-api-openapi.yml
 - filename: assembly-payments-sub-wallets-api-openapi.yml
   format: yaml
   label: Assembly Payments Sub Wallets API
   slug: assembly-payments-sub-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-sub-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-sub-wallets-api-openapi.yml
 - filename: assembly-payments-token-auth-api-openapi.yml
   format: yaml
   label: Assembly Payments Token Auth API
   slug: assembly-payments-token-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-token-auth-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-token-auth-api-openapi.yml
 - filename: assembly-payments-tools-api-openapi.yml
   format: yaml
   label: Assembly Payments Tools API
   slug: assembly-payments-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-tools-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-tools-api-openapi.yml
 - filename: assembly-payments-transaction-supplementary-data-api-openapi.yml
   format: yaml
   label: Assembly Payments Transaction supplementary data API
   slug: assembly-payments-transaction-supplementary-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-transaction-supplementary-data-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-transaction-supplementary-data-api-openapi.yml
 - filename: assembly-payments-transactions-api-openapi.yml
   format: yaml
   label: Assembly Payments Transactions API
   slug: assembly-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-transactions-api-openapi.yml
 - filename: assembly-payments-users-api-openapi.yml
   format: yaml
   label: Assembly Payments Users API
   slug: assembly-payments-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-users-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-users-api-openapi.yml
 - filename: assembly-payments-virtual-accounts-api-openapi.yml
   format: yaml
   label: Assembly Payments Virtual Accounts API
   slug: assembly-payments-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-virtual-accounts-api-openapi.yml
 - filename: assembly-payments-wallet-accounts-api-openapi.yml
   format: yaml
   label: Assembly Payments Wallet Accounts API
   slug: assembly-payments-wallet-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/openapi/assembly-payments-wallet-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/assembly-payments/openapi/assembly-payments-wallet-accounts-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 81
@@ -339,15 +339,15 @@ source_yaml: "generated: '2026-10-22'\nmethod: generated\nsource: openapi/assemb
   \  method: get\n  operationId: showWalletAccountNPPDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet_accounts/{id}/npp_last_domestic_leg\n  method: post\n  operationId: nppLastDomesticLeg\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet_accounts/{id}/users\n  method: get\n  operationId: showWalletAccountUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet_accounts/{id}/withdraw\n  method: post\n  operationId: withdrawFunds\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /items/{id}/make_payment\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /request/{request_id}/callbacks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /request/{request_id}/status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements\n  method: get\n  operationId: getAgreementsByUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/validate\n  method: post\n  operationId: validateAgreement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement_uuid}\n  method: get\n  operationId: getAgreementDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement_uuid}/amend\n  method: patch\n  operationId: amendAgreementDetails\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement_uuid}/create\n  method: post\n  operationId: createAgreement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement_uuid}/payment_requests\n  method: get\n  operationId: getInitiatePaymentStatusList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/agentic-access/assembly-payments-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assembly-payments/refs/heads/main/agentic-access/assembly-payments-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement_uuid}/create\n  method: post\n  operationId: createAgreement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement_uuid}/payment_requests\n  method: get\n  operationId: getInitiatePaymentStatusList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/assembly-payments/agentic-access/assembly-payments-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/assembly-payments/agentic-access/assembly-payments-agentic-access.yml
 summary_line: 141 operations · 60 acting
 tags:
 - Company
 - Payments
 - Fintech
-- Marketplaces
-- Digital Wallets
+- Marketplace
+- Digital Wallet
 - Payouts
 - Australia
 - PayTo

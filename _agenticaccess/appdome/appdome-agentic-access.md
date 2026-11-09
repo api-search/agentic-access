@@ -9,43 +9,43 @@ api_specs:
   label: Appdome API Account Maintenance API
   slug: appdome-api-account-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-account-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-api-account-maintenance-api-openapi.yml
 - filename: appdome-api-team-management-api-openapi.yml
   format: yaml
   label: Appdome API Team Management API
   slug: appdome-api-team-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-team-management-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-api-team-management-api-openapi.yml
 - filename: appdome-api-user-management-api-openapi.yml
   format: yaml
   label: Appdome API User Management API
   slug: appdome-api-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-api-user-management-api-openapi.yml
 - filename: appdome-app-validation-api-openapi.yml
   format: yaml
   label: Appdome App Validation API
   slug: appdome-app-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-app-validation-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-app-validation-api-openapi.yml
 - filename: appdome-device-match-api-openapi.yml
   format: yaml
   label: Appdome Device Match API
   slug: appdome-device-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-device-match-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-device-match-api-openapi.yml
 - filename: appdome-secure-certificate-api-openapi.yml
   format: yaml
   label: Appdome Secure Certificate API
   slug: appdome-secure-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-secure-certificate-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-secure-certificate-api-openapi.yml
 - filename: appdome-tasks-api-openapi.yml
   format: yaml
   label: Appdome Tasks API
   slug: appdome-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/appdome/openapi/appdome-tasks-api-openapi.yml
 consequence_counts:
   read: 21
   safety-critical: 1
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/appdom
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upload-using-link\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload/{app_id}/status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /validation/upload\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validation/{appId}/status\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify-certificate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/devicematch/compare\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/devicematch/discover\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n   \
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/agentic-access/appdome-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appdome/agentic-access/appdome-agentic-access.yml
 summary_line: 53 operations · 32 acting · 1 human-in-the-loop
 tags:
 - Company

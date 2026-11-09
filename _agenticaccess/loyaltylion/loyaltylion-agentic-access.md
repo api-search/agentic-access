@@ -9,37 +9,37 @@ api_specs:
   label: LoyaltyLion Activities API
   slug: loyaltylion-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-activities-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-activities-api-openapi.yml
 - filename: loyaltylion-customers-api-openapi.yml
   format: yaml
   label: LoyaltyLion Customers API
   slug: loyaltylion-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-customers-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-customers-api-openapi.yml
 - filename: loyaltylion-points-api-openapi.yml
   format: yaml
   label: LoyaltyLion Points API
   slug: loyaltylion-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-points-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-points-api-openapi.yml
 - filename: loyaltylion-redemptions-api-openapi.yml
   format: yaml
   label: LoyaltyLion Redemptions API
   slug: loyaltylion-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-redemptions-api-openapi.yml
 - filename: loyaltylion-rewards-api-openapi.yml
   format: yaml
   label: LoyaltyLion Rewards API
   slug: loyaltylion-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-rewards-api-openapi.yml
 - filename: loyaltylion-utility-api-openapi.yml
   format: yaml
   label: LoyaltyLion Utility API
   slug: loyaltylion-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/openapi/loyaltylion-utility-api-openapi.yml
+  url: https://artifacts.apis.io/loyaltylion/openapi/loyaltylion-utility-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/loyalt
   \ post\n  operationId: refundReward\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities\n  method: get\n  operationId: listActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities\n  method: post\n  operationId: createActivity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/{merchant_id}\n  method: put\n  operationId: updateActivity\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rewards/{reward_id}/enable\n  method: post\n  operationId: enableReward\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rewards/{reward_id}/disable\n  method: post\n  operationId: disableReward\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/agentic-access/loyaltylion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loyaltylion/agentic-access/loyaltylion-agentic-access.yml
 summary_line: 15 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Loyalty

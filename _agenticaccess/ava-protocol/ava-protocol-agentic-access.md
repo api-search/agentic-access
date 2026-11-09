@@ -9,61 +9,61 @@ api_specs:
   label: Ava Protocol Auth API
   slug: ava-protocol-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-auth-api-openapi.yml
 - filename: ava-protocol-executions-api-openapi.yml
   format: yaml
   label: Ava Protocol Executions API
   slug: ava-protocol-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-executions-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-executions-api-openapi.yml
 - filename: ava-protocol-health-api-openapi.yml
   format: yaml
   label: Ava Protocol Health API
   slug: ava-protocol-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-health-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-health-api-openapi.yml
 - filename: ava-protocol-nodes-api-openapi.yml
   format: yaml
   label: Ava Protocol Nodes API
   slug: ava-protocol-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-nodes-api-openapi.yml
 - filename: ava-protocol-operators-api-openapi.yml
   format: yaml
   label: Ava Protocol Operators API
   slug: ava-protocol-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-operators-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-operators-api-openapi.yml
 - filename: ava-protocol-secrets-api-openapi.yml
   format: yaml
   label: Ava Protocol Secrets API
   slug: ava-protocol-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-secrets-api-openapi.yml
 - filename: ava-protocol-tokens-api-openapi.yml
   format: yaml
   label: Ava Protocol Tokens API
   slug: ava-protocol-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-tokens-api-openapi.yml
 - filename: ava-protocol-triggers-api-openapi.yml
   format: yaml
   label: Ava Protocol Triggers API
   slug: ava-protocol-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-triggers-api-openapi.yml
 - filename: ava-protocol-wallets-api-openapi.yml
   format: yaml
   label: Ava Protocol Wallets API
   slug: ava-protocol-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-wallets-api-openapi.yml
 - filename: ava-protocol-workflows-api-openapi.yml
   format: yaml
   label: Ava Protocol Workflows API
   slug: ava-protocol-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/openapi/ava-protocol-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/ava-protocol/openapi/ava-protocol-workflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/ava-pr
   \    audit: required\n- path: /wallets/{address}:withdraw\n  method: post\n  operationId: withdrawWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallets/{address}:getNonce\n  method: get\n  operationId: getWalletNonce\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets\n  method: get\n  operationId: listSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets/{name}\n  method: put\n  operationId: putSecret\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secrets/{name}\n  method: delete\n  operationId: deleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/{address}\n  method: get\n  operationId: getToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nodes:run\n  method: post\n  operationId: runNode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /triggers:run\n  method: post\n  operationId: runTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operators\n  method: get\n  operationId: listOperators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/agentic-access/ava-protocol-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ava-protocol/agentic-access/ava-protocol-agentic-access.yml
 summary_line: 32 operations · 16 acting
 tags:
 - Company

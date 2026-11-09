@@ -8,79 +8,79 @@ api_specs:
   label: CRM Bonus Auth API
   slug: crm-bonus-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-auth-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-auth-api-openapi.yml
 - filename: crm-bonus-blocked-api-openapi.yml
   format: yaml
   label: CRM Bonus Blocked API
   slug: crm-bonus-blocked-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-blocked-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-blocked-api-openapi.yml
 - filename: crm-bonus-cashback-api-openapi.yml
   format: yaml
   label: CRM Bonus Cashback API
   slug: crm-bonus-cashback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-cashback-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-cashback-api-openapi.yml
 - filename: crm-bonus-customers-api-openapi.yml
   format: yaml
   label: CRM Bonus Customers API
   slug: crm-bonus-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-customers-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-customers-api-openapi.yml
 - filename: crm-bonus-nps-api-openapi.yml
   format: yaml
   label: CRM Bonus Nps API
   slug: crm-bonus-nps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-nps-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-nps-api-openapi.yml
 - filename: crm-bonus-order-items-api-openapi.yml
   format: yaml
   label: CRM Bonus Order Items API
   slug: crm-bonus-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-order-items-api-openapi.yml
 - filename: crm-bonus-orders-api-openapi.yml
   format: yaml
   label: CRM Bonus Orders API
   slug: crm-bonus-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-orders-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-orders-api-openapi.yml
 - filename: crm-bonus-products-api-openapi.yml
   format: yaml
   label: CRM Bonus Products API
   slug: crm-bonus-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-products-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-products-api-openapi.yml
 - filename: crm-bonus-sellers-api-openapi.yml
   format: yaml
   label: CRM Bonus Sellers API
   slug: crm-bonus-sellers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-sellers-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-sellers-api-openapi.yml
 - filename: crm-bonus-stores-api-openapi.yml
   format: yaml
   label: CRM Bonus Stores API
   slug: crm-bonus-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-stores-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-stores-api-openapi.yml
 - filename: crm-bonus-tag-hits-api-openapi.yml
   format: yaml
   label: CRM Bonus Tag Hits API
   slug: crm-bonus-tag-hits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-tag-hits-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-tag-hits-api-openapi.yml
 - filename: crm-bonus-tag-ids-api-openapi.yml
   format: yaml
   label: CRM Bonus Tag Ids API
   slug: crm-bonus-tag-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-tag-ids-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-tag-ids-api-openapi.yml
 - filename: crm-bonus-tag-interactions-api-openapi.yml
   format: yaml
   label: CRM Bonus Tag Interactions API
   slug: crm-bonus-tag-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/openapi/crm-bonus-tag-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/crm-bonus/openapi/crm-bonus-tag-interactions-api-openapi.yml
 consequence_counts:
   physical: 2
   write: 11
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: generated\nsource: openapi/crm-bo
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sellers\n  method: post\n  operationId: post_sellers_v1_sellers_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/stores\n  method: post\n  operationId: post_stores_v1_stores_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tag_hits\n  method: post\n  operationId: post_tag_hit_v1_tag_hits_post\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tag_interactions\n  method: post\n  operationId: post_tag_interaction_v1_tag_interactions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tag_ids\n  method: post\n  operationId: post_tags_ids_v1_tag_ids_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/login\n  method:\
   \ post\n  operationId: login_auth_login_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/agentic-access/crm-bonus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crm-bonus/agentic-access/crm-bonus-agentic-access.yml
 summary_line: 13 operations · 13 acting
 tags:
 - Company

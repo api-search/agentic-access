@@ -9,85 +9,85 @@ api_specs:
   label: Teamleader Contacts API
   slug: teamleader-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-contacts-api-openapi.yml
 - filename: teamleader-daysoff-api-openapi.yml
   format: yaml
   label: Teamleader Daysoff API
   slug: teamleader-daysoff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-daysoff-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-daysoff-api-openapi.yml
 - filename: teamleader-deals-api-openapi.yml
   format: yaml
   label: Teamleader Deals API
   slug: teamleader-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-deals-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-deals-api-openapi.yml
 - filename: teamleader-expenses-api-openapi.yml
   format: yaml
   label: Teamleader Expenses API
   slug: teamleader-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-expenses-api-openapi.yml
 - filename: teamleader-files-api-openapi.yml
   format: yaml
   label: Teamleader Files API
   slug: teamleader-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-files-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-files-api-openapi.yml
 - filename: teamleader-invoices-api-openapi.yml
   format: yaml
   label: Teamleader Invoices API
   slug: teamleader-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-invoices-api-openapi.yml
 - filename: teamleader-leveltwoareas-api-openapi.yml
   format: yaml
   label: Teamleader Leveltwoareas API
   slug: teamleader-leveltwoareas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-leveltwoareas-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-leveltwoareas-api-openapi.yml
 - filename: teamleader-lostreasons-api-openapi.yml
   format: yaml
   label: Teamleader Lostreasons API
   slug: teamleader-lostreasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-lostreasons-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-lostreasons-api-openapi.yml
 - filename: teamleader-tasks-api-openapi.yml
   format: yaml
   label: Teamleader Tasks API
   slug: teamleader-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-tasks-api-openapi.yml
 - filename: teamleader-tickets-api-openapi.yml
   format: yaml
   label: Teamleader Tickets API
   slug: teamleader-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-tickets-api-openapi.yml
 - filename: teamleader-ticketstatus-api-openapi.yml
   format: yaml
   label: Teamleader Ticketstatus API
   slug: teamleader-ticketstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-ticketstatus-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-ticketstatus-api-openapi.yml
 - filename: teamleader-timers-api-openapi.yml
   format: yaml
   label: Teamleader Timers API
   slug: teamleader-timers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-timers-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-timers-api-openapi.yml
 - filename: teamleader-useravailability-api-openapi.yml
   format: yaml
   label: Teamleader Useravailability API
   slug: teamleader-useravailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-useravailability-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-useravailability-api-openapi.yml
 - filename: teamleader-payment-methods-api-openapi.yml
   format: yaml
   label: Teamleader Payment Methods API
   slug: teamleader-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/openapi/teamleader-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/teamleader/openapi/teamleader-payment-methods-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 15
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/teamle
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tickets.info\n  method: post\n  operationId: post_tickets_info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tickets.list\n  method: post\n  operationId: post_tickets_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tickets.listMessages\n  method: post\n  operationId: post_tickets_listMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tickets.update\n  method: post\n  operationId: post_tickets_update\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ticketStatus.list\n  method: post\n  operationId: post_ticketStatus_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timers.update\n  method: post\n  operationId: post_timers_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /userAvailability.daily\n  method: post\n  operationId: post_userAvailability_daily\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/agentic-access/teamleader-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teamleader/agentic-access/teamleader-agentic-access.yml
 summary_line: 58 operations · 43 acting
 tags:
 - CRM

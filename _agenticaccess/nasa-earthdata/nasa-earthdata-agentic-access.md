@@ -8,19 +8,19 @@ api_specs:
   label: NASA Earthdata Capabilities API
   slug: nasa-earthdata-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/nasa-earthdata-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-earthdata/openapi/nasa-earthdata-capabilities-api-openapi.yml
 - filename: nasa-earthdata-coverage-api-openapi.yml
   format: yaml
   label: NASA Earthdata Coverage API
   slug: nasa-earthdata-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/nasa-earthdata-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-earthdata/openapi/nasa-earthdata-coverage-api-openapi.yml
 - filename: nasa-earthdata-open-api-api-openapi.yml
   format: yaml
   label: NASA Earthdata Open API
   slug: nasa-earthdata-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/openapi/nasa-earthdata-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/nasa-earthdata/openapi/nasa-earthdata-open-api-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nasa-e
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: get\n  operationId: describeCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}\n  method: get\n  operationId: describeCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/coverage\n  method: get\n  operationId: getCoverageOffering\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/coverage/description\n  method: get\n  operationId: getCoverageDescription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /collections/{collectionId}/coverage/domainset\n  method: get\n  operationId: getCoverageDomainSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/coverage/rangetype\n  method: get\n  operationId: getCoverageRangeType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/coverage/metadata\n  method: get\n  operationId: getCoverageMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/coverage/rangeset\n  method: get\n  operationId: getCoverageRangeset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /collections/{collectionId}/coverage/rangeset\n  method: post\n  operationId: postCoverageRangeset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/coverage/all\n  method: get\n  operationId: getCoverageAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api\n  method: get\n  operationId: getSpecification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/agentic-access/nasa-earthdata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nasa-earthdata/agentic-access/nasa-earthdata-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Earth Observation

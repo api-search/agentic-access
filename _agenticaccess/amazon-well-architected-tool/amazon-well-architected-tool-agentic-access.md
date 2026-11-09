@@ -9,79 +9,133 @@ api_specs:
   label: Amazon Well-Architected Tool Global Settings API
   slug: amazon-well-architected-tool-global-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-global-settings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-global-settings-api-openapi.yml
 - filename: amazon-well-architected-tool-lenses-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Lenses API
   slug: amazon-well-architected-tool-lenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-lenses-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-lenses-api-openapi.yml
 - filename: amazon-well-architected-tool-notifications-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Notifications API
   slug: amazon-well-architected-tool-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-notifications-api-openapi.yml
 - filename: amazon-well-architected-tool-profiles-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Profiles API
   slug: amazon-well-architected-tool-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-profiles-api-openapi.yml
 - filename: amazon-well-architected-tool-tags-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Tags API
   slug: amazon-well-architected-tool-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-tags-api-openapi.yml
 - filename: amazon-well-architected-tool-workloads-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Workloads API
   slug: amazon-well-architected-tool-workloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-workloads-api-openapi.yml
 - filename: amazon-well-architected-tool-consolidatedreport-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Consolidated Report API
   slug: amazon-well-architected-tool-consolidatedreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-consolidatedreport-api-openapi.yml
-- filename: amazon-well-architected-tool-import-lens-api-openapi.yml
-  format: yaml
-  label: Amazon Well-Architected Tool Import Lens API
-  slug: amazon-well-architected-tool-import-lens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-import-lens-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-consolidatedreport-api-openapi.yml
 - filename: amazon-well-architected-tool-profile-notifications-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Profile Notifications API
   slug: amazon-well-architected-tool-profile-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-profile-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-profile-notifications-api-openapi.yml
+- filename: amazon-well-architected-tool-answers-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Well Architected Tool Answers API
+  slug: amazon-well-architected-tool-answers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-answers-api-openapi.yml
+- filename: amazon-well-architected-tool-contexts-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Well Architected Tool Contexts API
+  slug: amazon-well-architected-tool-contexts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-contexts-api-openapi.yml
+- filename: amazon-well-architected-tool-generations-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Well Architected Tool Generations API
+  slug: amazon-well-architected-tool-generations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-generations-api-openapi.yml
+- filename: amazon-well-architected-tool-goals-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Well Architected Tool Goals API
+  slug: amazon-well-architected-tool-goals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-goals-api-openapi.yml
+- filename: amazon-well-architected-tool-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Well Architected Tool Operations API
+  slug: amazon-well-architected-tool-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-operations-api-openapi.yml
+- filename: amazon-well-architected-tool-reviewtemplates-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Well Architected Tool Reviewtemplates API
+  slug: amazon-well-architected-tool-reviewtemplates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-reviewtemplates-api-openapi.yml
+- filename: amazon-well-architected-tool-templates-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Well Architected Tool Templates API
+  slug: amazon-well-architected-tool-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-templates-api-openapi.yml
+- filename: amazon-well-architected-tool-agent-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Agent Profiles API
+  slug: amazon-well-architected-tool-agent-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-agent-profiles-api-openapi.yml
+- filename: amazon-well-architected-tool-agent-recommendations-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Agent Recommendations API
+  slug: amazon-well-architected-tool-agent-recommendations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-agent-recommendations-api-openapi.yml
+- filename: amazon-well-architected-tool-import-lens-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Import Lens API
+  slug: amazon-well-architected-tool-import-lens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-import-lens-api-openapi.yml
 - filename: amazon-well-architected-tool-profile-summaries-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Profile Summaries API
   slug: amazon-well-architected-tool-profile-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-profile-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-profile-summaries-api-openapi.yml
 - filename: amazon-well-architected-tool-profile-template-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Profile Template API
   slug: amazon-well-architected-tool-profile-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-profile-template-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-profile-template-api-openapi.yml
 - filename: amazon-well-architected-tool-share-invitations-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Share Invitations API
   slug: amazon-well-architected-tool-share-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-share-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-share-invitations-api-openapi.yml
 - filename: amazon-well-architected-tool-workloads-summaries-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Workloads Summaries API
   slug: amazon-well-architected-tool-workloads-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-workloads-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-workloads-summaries-api-openapi.yml
 consequence_counts:
   read: 27
   write: 29
@@ -126,10 +180,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workloads/{WorkloadId}/checkSummaries\n  method: post\n  operationId: ListCheckSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workloads/{WorkloadId}/lensReviews/{LensAlias}/improvements\n  method: get\n  operationId: ListLensReviewImprovements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workloads/{WorkloadId}/lensReviews\n  method: get\n  operationId: ListLensReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workloads/{WorkloadId}/milestonesSummaries\n  method: post\n  operationId: ListMilestones\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workloads/{WorkloadId}/shares/{ShareId}\n  method: patch\n  operationId: UpdateWorkloadShare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workloads/{WorkloadId}/lensReviews/{LensAlias}/upgrade\n  method: put\n  operationId: UpgradeLensReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workloads/{WorkloadId}/profiles/{ProfileArn}/upgrade\n  method: put\n  operationId:\
   \ UpgradeProfileVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workloadsSummaries\n  method: post\n  operationId: ListWorkloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/agentic-access/amazon-well-architected-tool-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-well-architected-tool/agentic-access/amazon-well-architected-tool-agentic-access.yml
 summary_line: 56 operations · 29 acting
 tags:
 - Architecture
+- Amazon Web Services
 - Best Practices
 - Cloud Governance
 - Well-Architected

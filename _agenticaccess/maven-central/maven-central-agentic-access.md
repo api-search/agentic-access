@@ -9,19 +9,19 @@ api_specs:
   label: Maven Central Deployment API
   slug: maven-central-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/maven-central/openapi/maven-central-deployment-api-openapi.yml
 - filename: maven-central-download-api-openapi.yml
   format: yaml
   label: Maven Central Download API
   slug: maven-central-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-download-api-openapi.yml
+  url: https://artifacts.apis.io/maven-central/openapi/maven-central-download-api-openapi.yml
 - filename: maven-central-search-api-openapi.yml
   format: yaml
   label: Maven Central Search API
   slug: maven-central-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/openapi/maven-central-search-api-openapi.yml
+  url: https://artifacts.apis.io/maven-central/openapi/maven-central-search-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 5
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/maven-
   \      - high-value\n    audit: required\n- path: /status\n  method: post\n  operationId: getDeploymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployment/{deploymentId}\n  method: post\n  operationId: publishDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployment/{deploymentId}\n  method: delete\n  operationId: dropDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployment/{deploymentId}/download/{relativePath}\n  method: get\n  operationId: downloadDeploymentFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/download/{relativePath}\n  method: get\n  operationId: downloadValidatedFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /remotecontent\n  method: get\n  operationId: downloadArtifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /select\n  method: get\n  operationId: searchArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/agentic-access/maven-central-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/maven-central/agentic-access/maven-central-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Artifacts

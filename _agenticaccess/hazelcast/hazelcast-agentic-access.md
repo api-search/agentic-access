@@ -9,31 +9,31 @@ api_specs:
   label: Hazelcast Cluster API
   slug: hazelcast-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-cluster-api-openapi.yml
 - filename: hazelcast-configuration-api-openapi.yml
   format: yaml
   label: Hazelcast Configuration API
   slug: hazelcast-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-configuration-api-openapi.yml
 - filename: hazelcast-health-api-openapi.yml
   format: yaml
   label: Hazelcast Health API
   slug: hazelcast-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-health-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-health-api-openapi.yml
 - filename: hazelcast-maps-api-openapi.yml
   format: yaml
   label: Hazelcast Maps API
   slug: hazelcast-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-maps-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-maps-api-openapi.yml
 - filename: hazelcast-queues-api-openapi.yml
   format: yaml
   label: Hazelcast Queues API
   slug: hazelcast-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/openapi/hazelcast-queues-api-openapi.yml
+  url: https://artifacts.apis.io/hazelcast/openapi/hazelcast-queues-api-openapi.yml
 consequence_counts:
   read: 11
   write: 8
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hazelc
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hazelcast/health/ready\n  method: get\n  operationId: healthReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hazelcast/health/node-state\n  method: get\n  operationId: healthNodeState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hazelcast/health/cluster-state\n  method: get\n  operationId: healthClusterState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hazelcast/health/cluster-safe\n  method: get\n  operationId: healthClusterSafe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hazelcast/rest/config/reload\n  method: post\n  operationId: reloadConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hazelcast/rest/config/tcp-ip/member-list\n  method: get\n  operationId: getTcpIpMemberList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hazelcast/rest/config/tcp-ip/member-list\n  method: post\n  operationId: updateTcpIpMemberList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/agentic-access/hazelcast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hazelcast/agentic-access/hazelcast-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Data Caching

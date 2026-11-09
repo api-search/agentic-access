@@ -9,31 +9,31 @@ api_specs:
   label: Staples Account API
   slug: staples-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-account-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-account-api-openapi.yml
 - filename: staples-catalog-api-openapi.yml
   format: yaml
   label: Staples Catalog API
   slug: staples-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-catalog-api-openapi.yml
 - filename: staples-delivery-api-openapi.yml
   format: yaml
   label: Staples Delivery API
   slug: staples-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-delivery-api-openapi.yml
 - filename: staples-invoices-api-openapi.yml
   format: yaml
   label: Staples Invoices API
   slug: staples-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-invoices-api-openapi.yml
 - filename: staples-orders-api-openapi.yml
   format: yaml
   label: Staples Orders API
   slug: staples-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-orders-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-orders-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/staple
   - path: /v1/catalog/products/{sku}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/account\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/cost-centers\n  method: get\n  operationId: listCostCenters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/delivery/tracking/{trackingNumber}\n  method: get\n  operationId: trackDelivery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/invoices/{invoiceId}\n  method: get\n  operationId: getInvoice\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/agentic-access/staples-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/staples/agentic-access/staples-agentic-access.yml
 summary_line: 11 operations · 1 acting
 tags:
 - Office Supplies

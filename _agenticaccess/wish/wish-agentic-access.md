@@ -9,127 +9,127 @@ api_specs:
   label: Wish Brands API
   slug: wish-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-brands-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-brands-api-openapi.yml
 - filename: wish-bulk-products-api-openapi.yml
   format: yaml
   label: Wish Bulk Products API
   slug: wish-bulk-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-bulk-products-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-bulk-products-api-openapi.yml
 - filename: wish-currencies-api-openapi.yml
   format: yaml
   label: Wish Currencies API
   slug: wish-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-currencies-api-openapi.yml
 - filename: wish-eu-product-compliance-api-openapi.yml
   format: yaml
   label: Wish EU Product Compliance API
   slug: wish-eu-product-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-eu-product-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-eu-product-compliance-api-openapi.yml
 - filename: wish-france-epr-compliance-api-openapi.yml
   format: yaml
   label: Wish France EPR Compliance API
   slug: wish-france-epr-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-france-epr-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-france-epr-compliance-api-openapi.yml
 - filename: wish-germany-epr-compliance-api-openapi.yml
   format: yaml
   label: Wish Germany EPR Compliance API
   slug: wish-germany-epr-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-germany-epr-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-germany-epr-compliance-api-openapi.yml
 - filename: wish-merchant-api-openapi.yml
   format: yaml
   label: Wish Merchant API
   slug: wish-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-merchant-api-openapi.yml
 - filename: wish-orders-api-openapi.yml
   format: yaml
   label: Wish Orders API
   slug: wish-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-orders-api-openapi.yml
 - filename: wish-payments-api-openapi.yml
   format: yaml
   label: Wish Payments API
   slug: wish-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-payments-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-payments-api-openapi.yml
 - filename: wish-penalties-api-openapi.yml
   format: yaml
   label: Wish Penalties API
   slug: wish-penalties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-penalties-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-penalties-api-openapi.yml
 - filename: wish-productboost-api-openapi.yml
   format: yaml
   label: Wish ProductBoost API
   slug: wish-productboost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-productboost-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-productboost-api-openapi.yml
 - filename: wish-products-api-openapi.yml
   format: yaml
   label: Wish Products API
   slug: wish-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-products-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-products-api-openapi.yml
 - filename: wish-promotions-platform-api-openapi.yml
   format: yaml
   label: Wish Promotions Platform API
   slug: wish-promotions-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-promotions-platform-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-promotions-platform-api-openapi.yml
 - filename: wish-ratings-api-openapi.yml
   format: yaml
   label: Wish Ratings API
   slug: wish-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-ratings-api-openapi.yml
 - filename: wish-taxonomy-api-openapi.yml
   format: yaml
   label: Wish Taxonomy API
   slug: wish-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-taxonomy-api-openapi.yml
 - filename: wish-tickets-api-openapi.yml
   format: yaml
   label: Wish Tickets API
   slug: wish-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-tickets-api-openapi.yml
 - filename: wish-unification-initiative-api-openapi.yml
   format: yaml
   label: Wish Unification Initiative API
   slug: wish-unification-initiative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-unification-initiative-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-unification-initiative-api-openapi.yml
 - filename: wish-variations-api-openapi.yml
   format: yaml
   label: Wish Variations API
   slug: wish-variations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-variations-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-variations-api-openapi.yml
 - filename: wish-videos-api-openapi.yml
   format: yaml
   label: Wish Videos API
   slug: wish-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-videos-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-videos-api-openapi.yml
 - filename: wish-webhook-api-openapi.yml
   format: yaml
   label: Wish Webhook API
   slug: wish-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-webhook-api-openapi.yml
 - filename: wish-oauth-api-openapi.yml
   format: yaml
   label: Wish O Auth API
   slug: wish-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/openapi/wish-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/wish/openapi/wish-oauth-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 61
@@ -233,8 +233,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wish-b
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/products/attributes\n  method: get\n  operationId: getCategoryAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - products:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/products/categories\n  method: get\n  operationId: getCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - products:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tickets/{id}\n  method: put\n  operationId: updateTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tickets:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/tickets/{id}\n  method:\
   \ get\n  operationId: getTicket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tickets:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/tickets/{id}/replies\n  method: post\n  operationId: replyTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tickets:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/tickets\n  method: get\n  operationId: listTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tickets:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/unification_initiative/countries\n  method: get\n  operationId: getUnificationInitiativeCountries\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/products/{id}/variations\n  method: post\n  operationId: createVariation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - products:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/products/variations/colors\n  method: get\n  operationId: getColors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/videos/product\n  method: post\n  operationId: upsertProductVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - videos:write\n    audience: null\n    token:\n      max-ttl: 900\n\
-  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook/subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhook:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook/subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhook:read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/agentic-access/wish-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/agentic-access/wish-agentic-access.yml
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook/subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhook:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook/subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhook:read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/wish/agentic-access/wish-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/wish/agentic-access/wish-agentic-access.yml
 summary_line: 102 operations · 41 acting · 1 human-in-the-loop
 tags:
 - Company
@@ -246,5 +246,6 @@ tags:
 - Product
 - Fulfillment
 - Shopping
+- OAuth
 - Authentication
 ---

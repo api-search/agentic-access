@@ -9,61 +9,61 @@ api_specs:
   label: BitPowr Technologies, Inc. Account API
   slug: bitpowr-technologies-inc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-account-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-account-api-openapi.yml
 - filename: bitpowr-technologies-inc-address-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Address API
   slug: bitpowr-technologies-inc-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-address-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-address-api-openapi.yml
 - filename: bitpowr-technologies-inc-assets-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Assets API
   slug: bitpowr-technologies-inc-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-assets-api-openapi.yml
 - filename: bitpowr-technologies-inc-customer-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Customer API
   slug: bitpowr-technologies-inc-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-customer-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-customer-api-openapi.yml
 - filename: bitpowr-technologies-inc-market-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Market API
   slug: bitpowr-technologies-inc-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-market-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-market-api-openapi.yml
 - filename: bitpowr-technologies-inc-others-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Others API
   slug: bitpowr-technologies-inc-others-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-others-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-others-api-openapi.yml
 - filename: bitpowr-technologies-inc-staking-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Staking API
   slug: bitpowr-technologies-inc-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-staking-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-staking-api-openapi.yml
 - filename: bitpowr-technologies-inc-swap-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Swap API
   slug: bitpowr-technologies-inc-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-swap-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-swap-api-openapi.yml
 - filename: bitpowr-technologies-inc-transaction-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Transaction API
   slug: bitpowr-technologies-inc-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-transaction-api-openapi.yml
 - filename: bitpowr-technologies-inc-utils-api-openapi.yml
   format: yaml
   label: BitPowr Technologies, Inc. Utils API
   slug: bitpowr-technologies-inc-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/openapi/bitpowr-technologies-inc-utils-api-openapi.yml
+  url: https://artifacts.apis.io/bitpowr-technologies-inc/openapi/bitpowr-technologies-inc-utils-api-openapi.yml
 consequence_counts:
   read: 36
   write: 19
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bitpow
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  operationId: Listtransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/utxos\n  method: post\n  operationId: fetchutxos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transaction_id}\n  method: get\n  operationId: Gettransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utils/generateToken\n  method: post\n  operationId: generateToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /utils/raw-internal-tx\n  method: get\n  operationId: getRawInternalTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utils/validate-address\n  method: post\n  operationId: validateAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /utils/validate-transaction\n  method: post\n  operationId: validateTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/agentic-access/bitpowr-technologies-inc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitpowr-technologies-inc/agentic-access/bitpowr-technologies-inc-agentic-access.yml
 summary_line: 55 operations · 19 acting
 tags:
 - Company

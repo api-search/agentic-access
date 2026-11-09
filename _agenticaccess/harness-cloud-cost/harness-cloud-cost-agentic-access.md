@@ -9,37 +9,37 @@ api_specs:
   label: Harness Cloud Cost Management Anomalies API
   slug: harness-cloud-cost-anomalies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-anomalies-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-anomalies-api-openapi.yml
 - filename: harness-cloud-cost-budgets-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Budgets API
   slug: harness-cloud-cost-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-budgets-api-openapi.yml
 - filename: harness-cloud-cost-connectors-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Connectors API
   slug: harness-cloud-cost-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-connectors-api-openapi.yml
 - filename: harness-cloud-cost-cost-categories-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Cost Categories API
   slug: harness-cloud-cost-cost-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-cost-categories-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-cost-categories-api-openapi.yml
 - filename: harness-cloud-cost-perspectives-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Perspectives API
   slug: harness-cloud-cost-perspectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-perspectives-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-perspectives-api-openapi.yml
 - filename: harness-cloud-cost-recommendations-api-openapi.yml
   format: yaml
   label: Harness Cloud Cost Management Recommendations API
   slug: harness-cloud-cost-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/harness-cloud-cost/openapi/harness-cloud-cost-recommendations-api-openapi.yml
 consequence_counts:
   read: 10
   write: 7
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/harnes
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ccm/api/budgets/{budgetId}\n  method: delete\n  operationId: deleteBudget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ccm/api/recommendation/overview/list\n  method: get\n  operationId: listRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ccm/api/recommendation/{recommendationId}\n  method: get\n  operationId: getRecommendation\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ccm/api/anomaly\n  method: get\n  operationId: listAnomalies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ccm/api/anomaly/{anomalyId}\n  method: get\n  operationId: getAnomaly\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ccm/api/business-mapping\n  method: get\n  operationId: listCostCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ccm/api/business-mapping\n  method: post\n  operationId: createCostCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ng/api/connectors\n  method: get\n  operationId: listConnectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/agentic-access/harness-cloud-cost-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/harness-cloud-cost/agentic-access/harness-cloud-cost-agentic-access.yml
 summary_line: 17 operations · 7 acting
 tags:
 - Anomaly Detection

@@ -9,79 +9,79 @@ api_specs:
   label: Zesty Instances API
   slug: instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-instances-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-instances-api-openapi.yml
 - filename: zesty-apps-api-openapi.yml
   format: yaml
   label: Zesty Apps API
   slug: zesty-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-apps-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-apps-api-openapi.yml
 - filename: zesty-authentication-api-openapi.yml
   format: yaml
   label: Zesty Authentication API
   slug: zesty-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-authentication-api-openapi.yml
 - filename: zesty-bins-api-openapi.yml
   format: yaml
   label: Zesty Bins API
   slug: zesty-bins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-bins-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-bins-api-openapi.yml
 - filename: zesty-files-api-openapi.yml
   format: yaml
   label: Zesty Files API
   slug: zesty-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-files-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-files-api-openapi.yml
 - filename: zesty-groups-api-openapi.yml
   format: yaml
   label: Zesty Groups API
   slug: zesty-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-groups-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-groups-api-openapi.yml
 - filename: zesty-password-api-openapi.yml
   format: yaml
   label: Zesty Password API
   slug: zesty-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-password-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-password-api-openapi.yml
 - filename: zesty-resolver-api-openapi.yml
   format: yaml
   label: Zesty Resolver API
   slug: zesty-resolver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-resolver-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-resolver-api-openapi.yml
 - filename: zesty-roles-api-openapi.yml
   format: yaml
   label: Zesty Roles API
   slug: zesty-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-roles-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-roles-api-openapi.yml
 - filename: zesty-teams-api-openapi.yml
   format: yaml
   label: Zesty Teams API
   slug: zesty-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-teams-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-teams-api-openapi.yml
 - filename: zesty-tokens-api-openapi.yml
   format: yaml
   label: Zesty Tokens API
   slug: zesty-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-tokens-api-openapi.yml
 - filename: zesty-users-api-openapi.yml
   format: yaml
   label: Zesty Users API
   slug: zesty-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-users-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-users-api-openapi.yml
 - filename: zesty-webhooks-api-openapi.yml
   format: yaml
   label: Zesty Webhooks API
   slug: zesty-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/openapi/zesty-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zesty/openapi/zesty-webhooks-api-openapi.yml
 consequence_counts:
   read: 39
   safety-critical: 2
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zesty-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupZUID}\n  method: put\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupZUID}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files\n  method: get\n  operationId: getFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{fileZUID}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{fileZUID}\n  method: put\n  operationId: updateFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{fileZUID}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload/{binZUID}/{groupZUID}\n  method:\
   \ post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resolve/{fileZUID}\n  method: get\n  operationId: resolveFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/agentic-access/zesty-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zesty/agentic-access/zesty-agentic-access.yml
 summary_line: 86 operations · 47 acting · 2 human-in-the-loop
 tags:
 - CMS

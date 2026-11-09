@@ -8,199 +8,199 @@ api_specs:
   label: SportsDataIO MLB v3 Headshots API
   slug: sportsdataio-mlb-v3-headshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-mlb-v3-headshots-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-mlb-v3-headshots-api-openapi.yml
 - filename: sportsdataio-mlb-v3-odds-api-openapi.yml
   format: yaml
   label: SportsDataIO MLB v3 Odds API
   slug: sportsdataio-mlb-v3-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-mlb-v3-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-mlb-v3-odds-api-openapi.yml
 - filename: sportsdataio-mlb-v3-play-by-play-api-openapi.yml
   format: yaml
   label: SportsDataIO MLB v3 Play-by-Play API
   slug: sportsdataio-mlb-v3-play-by-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-mlb-v3-play-by-play-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-mlb-v3-play-by-play-api-openapi.yml
 - filename: sportsdataio-mlb-v3-projections-api-openapi.yml
   format: yaml
   label: SportsDataIO MLB v3 Projections API
   slug: sportsdataio-mlb-v3-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-mlb-v3-projections-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-mlb-v3-projections-api-openapi.yml
 - filename: sportsdataio-mlb-v3-rotoballer-premium-news-api-openapi.yml
   format: yaml
   label: SportsDataIO MLB v3 RotoBaller Premium News API
   slug: sportsdataio-mlb-v3-rotoballer-premium-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-mlb-v3-rotoballer-premium-news-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-mlb-v3-rotoballer-premium-news-api-openapi.yml
 - filename: sportsdataio-mlb-v3-scores-api-openapi.yml
   format: yaml
   label: SportsDataIO MLB v3 Scores API
   slug: sportsdataio-mlb-v3-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-mlb-v3-scores-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-mlb-v3-scores-api-openapi.yml
 - filename: sportsdataio-mlb-v3-stats-api-openapi.yml
   format: yaml
   label: SportsDataIO MLB v3 Stats API
   slug: sportsdataio-mlb-v3-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-mlb-v3-stats-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-mlb-v3-stats-api-openapi.yml
 - filename: sportsdataio-nba-v3-headshots-api-openapi.yml
   format: yaml
   label: SportsDataIO NBA v3 Headshots API
   slug: sportsdataio-nba-v3-headshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nba-v3-headshots-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nba-v3-headshots-api-openapi.yml
 - filename: sportsdataio-nba-v3-odds-api-openapi.yml
   format: yaml
   label: SportsDataIO NBA v3 Odds API
   slug: sportsdataio-nba-v3-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nba-v3-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nba-v3-odds-api-openapi.yml
 - filename: sportsdataio-nba-v3-play-by-play-api-openapi.yml
   format: yaml
   label: SportsDataIO NBA v3 Play-by-Play API
   slug: sportsdataio-nba-v3-play-by-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nba-v3-play-by-play-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nba-v3-play-by-play-api-openapi.yml
 - filename: sportsdataio-nba-v3-projections-api-openapi.yml
   format: yaml
   label: SportsDataIO NBA v3 Projections API
   slug: sportsdataio-nba-v3-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nba-v3-projections-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nba-v3-projections-api-openapi.yml
 - filename: sportsdataio-nba-v3-rotoballer-premium-news-api-openapi.yml
   format: yaml
   label: SportsDataIO NBA v3 RotoBaller Premium News API
   slug: sportsdataio-nba-v3-rotoballer-premium-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nba-v3-rotoballer-premium-news-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nba-v3-rotoballer-premium-news-api-openapi.yml
 - filename: sportsdataio-nba-v3-scores-api-openapi.yml
   format: yaml
   label: SportsDataIO NBA v3 Scores API
   slug: sportsdataio-nba-v3-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nba-v3-scores-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nba-v3-scores-api-openapi.yml
 - filename: sportsdataio-nba-v3-stats-api-openapi.yml
   format: yaml
   label: SportsDataIO NBA v3 Stats API
   slug: sportsdataio-nba-v3-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nba-v3-stats-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nba-v3-stats-api-openapi.yml
 - filename: sportsdataio-nfl-v3-headshots-api-openapi.yml
   format: yaml
   label: SportsDataIO NFL v3 Headshots API
   slug: sportsdataio-nfl-v3-headshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nfl-v3-headshots-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nfl-v3-headshots-api-openapi.yml
 - filename: sportsdataio-nfl-v3-odds-api-openapi.yml
   format: yaml
   label: SportsDataIO NFL v3 Odds API
   slug: sportsdataio-nfl-v3-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nfl-v3-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nfl-v3-odds-api-openapi.yml
 - filename: sportsdataio-nfl-v3-play-by-play-api-openapi.yml
   format: yaml
   label: SportsDataIO NFL v3 Play-by-Play API
   slug: sportsdataio-nfl-v3-play-by-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nfl-v3-play-by-play-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nfl-v3-play-by-play-api-openapi.yml
 - filename: sportsdataio-nfl-v3-projections-api-openapi.yml
   format: yaml
   label: SportsDataIO NFL v3 Projections API
   slug: sportsdataio-nfl-v3-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nfl-v3-projections-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nfl-v3-projections-api-openapi.yml
 - filename: sportsdataio-nfl-v3-rotoballer-premium-news-api-openapi.yml
   format: yaml
   label: SportsDataIO NFL v3 RotoBaller Premium News API
   slug: sportsdataio-nfl-v3-rotoballer-premium-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nfl-v3-rotoballer-premium-news-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nfl-v3-rotoballer-premium-news-api-openapi.yml
 - filename: sportsdataio-nfl-v3-scores-api-openapi.yml
   format: yaml
   label: SportsDataIO NFL v3 Scores API
   slug: sportsdataio-nfl-v3-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nfl-v3-scores-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nfl-v3-scores-api-openapi.yml
 - filename: sportsdataio-nfl-v3-stats-api-openapi.yml
   format: yaml
   label: SportsDataIO NFL v3 Stats API
   slug: sportsdataio-nfl-v3-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nfl-v3-stats-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nfl-v3-stats-api-openapi.yml
 - filename: sportsdataio-nhl-v3-headshots-api-openapi.yml
   format: yaml
   label: SportsDataIO NHL v3 Headshots API
   slug: sportsdataio-nhl-v3-headshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nhl-v3-headshots-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nhl-v3-headshots-api-openapi.yml
 - filename: sportsdataio-nhl-v3-odds-api-openapi.yml
   format: yaml
   label: SportsDataIO NHL v3 Odds API
   slug: sportsdataio-nhl-v3-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nhl-v3-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nhl-v3-odds-api-openapi.yml
 - filename: sportsdataio-nhl-v3-play-by-play-api-openapi.yml
   format: yaml
   label: SportsDataIO NHL v3 Play-by-Play API
   slug: sportsdataio-nhl-v3-play-by-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nhl-v3-play-by-play-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nhl-v3-play-by-play-api-openapi.yml
 - filename: sportsdataio-nhl-v3-projections-api-openapi.yml
   format: yaml
   label: SportsDataIO NHL v3 Projections API
   slug: sportsdataio-nhl-v3-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nhl-v3-projections-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nhl-v3-projections-api-openapi.yml
 - filename: sportsdataio-nhl-v3-rotoballer-premium-news-api-openapi.yml
   format: yaml
   label: SportsDataIO NHL v3 RotoBaller Premium News API
   slug: sportsdataio-nhl-v3-rotoballer-premium-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nhl-v3-rotoballer-premium-news-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nhl-v3-rotoballer-premium-news-api-openapi.yml
 - filename: sportsdataio-nhl-v3-scores-api-openapi.yml
   format: yaml
   label: SportsDataIO NHL v3 Scores API
   slug: sportsdataio-nhl-v3-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nhl-v3-scores-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nhl-v3-scores-api-openapi.yml
 - filename: sportsdataio-nhl-v3-stats-api-openapi.yml
   format: yaml
   label: SportsDataIO NHL v3 Stats API
   slug: sportsdataio-nhl-v3-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-nhl-v3-stats-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-nhl-v3-stats-api-openapi.yml
 - filename: sportsdataio-soccer-v4-headshots-api-openapi.yml
   format: yaml
   label: SportsDataIO Soccer v4 Headshots API
   slug: sportsdataio-soccer-v4-headshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-soccer-v4-headshots-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-soccer-v4-headshots-api-openapi.yml
 - filename: sportsdataio-soccer-v4-odds-api-openapi.yml
   format: yaml
   label: SportsDataIO Soccer v4 Odds API
   slug: sportsdataio-soccer-v4-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-soccer-v4-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-soccer-v4-odds-api-openapi.yml
 - filename: sportsdataio-soccer-v4-projections-api-openapi.yml
   format: yaml
   label: SportsDataIO Soccer v4 Projections API
   slug: sportsdataio-soccer-v4-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-soccer-v4-projections-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-soccer-v4-projections-api-openapi.yml
 - filename: sportsdataio-soccer-v4-scores-api-openapi.yml
   format: yaml
   label: SportsDataIO Soccer v4 Scores API
   slug: sportsdataio-soccer-v4-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-soccer-v4-scores-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-soccer-v4-scores-api-openapi.yml
 - filename: sportsdataio-soccer-v4-stats-api-openapi.yml
   format: yaml
   label: SportsDataIO Soccer v4 Stats API
   slug: sportsdataio-soccer-v4-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/openapi/sportsdataio-soccer-v4-stats-api-openapi.yml
+  url: https://artifacts.apis.io/sportsdataio/openapi/sportsdataio-soccer-v4-stats-api-openapi.yml
 consequence_counts:
   read: 467
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -258,8 +258,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sports
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/Referees\n  method: get\n  operationId: nba_v3_scores_referees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/Players/{team}\n  method: get\n  operationId: nba_v3_scores_player_details___by_team\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/TeamGameStatsBySeason/{season}/{teamid}/{numberofgames}\n  method: get\n  operationId: nba_v3_scores_team_game_logs___by_season\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/DepthCharts\n  method: get\n\
   \  operationId: nba_v3_scores_depth_charts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/SchedulesBasic/{season}\n  method: get\n  operationId: nba_v3_scores_schedules__basic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/ScoresBasic/{date}\n  method: get\n  operationId: nba_v3_scores_games__basic____by_date__live___final\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/PlayersBasic/{team}\n  method: get\n  operationId: nba_v3_scores_players_profiles___by_team\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v3/nba/scores/{format}/PlayersActiveBasic\n  method: get\n  operationId: nba_v3_scores_player_profiles___by_active\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/PlayersByFreeAgents\n  method: get\n  operationId: nba_v3_scores_player_profiles___by_free_agent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/TransactionsByDate/{date}\n  method: get\n  operationId: nba_v3_scores_transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/teams/{season}\n  method: get\n  operationId: nba_v3_scores_team_profiles___by_season\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/GamesByDateFinal/{date}\n  method: get\n  operationId: nba_v3_scores_games___by_date__final\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (126 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/agentic-access/sportsdataio-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/agentic-access/sportsdataio-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/nba/scores/{format}/GamesByDateFinal/{date}\n  method: get\n  operationId: nba_v3_scores_games___by_date__final\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (126 KB total) ---\n# Full source: https://artifacts.apis.io/sportsdataio/agentic-access/sportsdataio-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/sportsdataio/agentic-access/sportsdataio-agentic-access.yml
 summary_line: 467 operations
 tags:
 - Sports Data

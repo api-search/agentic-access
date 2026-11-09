@@ -9,25 +9,25 @@ api_specs:
   label: Lakera Policies API
   slug: lakera-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-policies-api-openapi.yml
+  url: https://artifacts.apis.io/lakera/openapi/lakera-policies-api-openapi.yml
 - filename: lakera-analytics-api-openapi.yml
   format: yaml
   label: Lakera Analytics API
   slug: lakera-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/lakera/openapi/lakera-analytics-api-openapi.yml
 - filename: lakera-logs-api-openapi.yml
   format: yaml
   label: Lakera Logs API
   slug: lakera-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-logs-api-openapi.yml
+  url: https://artifacts.apis.io/lakera/openapi/lakera-logs-api-openapi.yml
 - filename: lakera-projects-api-openapi.yml
   format: yaml
   label: Lakera Projects API
   slug: lakera-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-projects-api-openapi.yml
+  url: https://artifacts.apis.io/lakera/openapi/lakera-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lakera-guard-api-openapi.yml, openapi/lakera-health-api-openapi.yml, openapi/lakera-policies-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 2\n    connected: 5\n  by_consequence:\n    write: 2\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /guard\n  method: post\n  operationId: guardScreen\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guard/results\n  method: post\n  operationId:\
   \ guardResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /startupz\n  method: get\n  operationId: startupProbe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /readyz\n  method: get\n  operationId: readinessProbe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /livez\n  method: get\n  operationId: livenessProbe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/health\n  method: get\n  operationId: policiesHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /policies/lint\n  method: post\n  operationId: policiesLint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/agentic-access/lakera-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lakera/agentic-access/lakera-agentic-access.yml
 summary_line: 7 operations · 2 acting
 tags:
 - AI Security

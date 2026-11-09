@@ -8,31 +8,31 @@ api_specs:
   label: Studio Ghibli Films API
   slug: studio-ghibli-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-films-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-films-api-openapi.yml
 - filename: studio-ghibli-locations-api-openapi.yml
   format: yaml
   label: Studio Ghibli Locations API
   slug: studio-ghibli-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-locations-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-locations-api-openapi.yml
 - filename: studio-ghibli-people-api-openapi.yml
   format: yaml
   label: Studio Ghibli People API
   slug: studio-ghibli-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-people-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-people-api-openapi.yml
 - filename: studio-ghibli-species-api-openapi.yml
   format: yaml
   label: Studio Ghibli Species API
   slug: studio-ghibli-species-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-species-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-species-api-openapi.yml
 - filename: studio-ghibli-vehicles-api-openapi.yml
   format: yaml
   label: Studio Ghibli Vehicles API
   slug: studio-ghibli-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/openapi/studio-ghibli-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/studio-ghibli/openapi/studio-ghibli-vehicles-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/studio-ghibli-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /films\n  method: get\n  operationId: listFilms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /films/{id}\n  method: get\n  operationId: getFilm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people\n  method: get\n  operationId: listPeople\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{id}\n  method: get\n  operationId: getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{id}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /species\n  method: get\n  operationId: listSpecies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /species/{id}\n  method: get\n  operationId:\
   \ getSpecies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles\n  method: get\n  operationId: listVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{id}\n  method: get\n  operationId: getVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/agentic-access/studio-ghibli-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/studio-ghibli/agentic-access/studio-ghibli-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Anime

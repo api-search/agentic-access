@@ -9,43 +9,43 @@ api_specs:
   label: western-digital Authentication API
   slug: western-digital-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-authentication-api-openapi.yml
 - filename: western-digital-configuration-api-openapi.yml
   format: yaml
   label: western-digital Configuration API
   slug: western-digital-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-configuration-api-openapi.yml
 - filename: western-digital-device-api-openapi.yml
   format: yaml
   label: western-digital Device API
   slug: western-digital-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-device-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-device-api-openapi.yml
 - filename: western-digital-files-api-openapi.yml
   format: yaml
   label: western-digital Files API
   slug: western-digital-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-files-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-files-api-openapi.yml
 - filename: western-digital-search-api-openapi.yml
   format: yaml
   label: western-digital Search API
   slug: western-digital-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-search-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-search-api-openapi.yml
 - filename: western-digital-sharing-api-openapi.yml
   format: yaml
   label: western-digital Sharing API
   slug: western-digital-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-sharing-api-openapi.yml
 - filename: western-digital-user-api-openapi.yml
   format: yaml
   label: western-digital User API
   slug: western-digital-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/openapi/western-digital-user-api-openapi.yml
+  url: https://artifacts.apis.io/western-digital/openapi/western-digital-user-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wester
   \  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sdk/v2/files\n  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sdk/v2/files\n  method: post\n  operationId: createFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sdk/v2/files/{fileId}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sdk/v2/files/{fileId}\n  method:\
   \ patch\n  operationId: updateFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sdk/v2/files/{fileId}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sdk/v2/files/{fileId}/content\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sdk/v2/files/{fileId}/content\n  method: put\n  operationId: uploadFileContent\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sdk/v2/filesSearch/parents\n  method: get\n  operationId: searchFilesByParent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shares\n  method: post\n  operationId: createShare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/agentic-access/western-digital-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/western-digital/agentic-access/western-digital-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - Fortune 500

@@ -9,55 +9,55 @@ api_specs:
   label: Epidemic Sound Assets API
   slug: epidemic-sound-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-assets-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-assets-api-openapi.yml
 - filename: epidemic-sound-authentication-api-openapi.yml
   format: yaml
   label: Epidemic Sound Authentication API
   slug: epidemic-sound-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-authentication-api-openapi.yml
 - filename: epidemic-sound-beta-api-openapi.yml
   format: yaml
   label: Epidemic Sound Beta API
   slug: epidemic-sound-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-beta-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-beta-api-openapi.yml
 - filename: epidemic-sound-browse-search-api-openapi.yml
   format: yaml
   label: Epidemic Sound Browse & search API
   slug: epidemic-sound-browse-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-browse-search-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-browse-search-api-openapi.yml
 - filename: epidemic-sound-reporting-api-openapi.yml
   format: yaml
   label: Epidemic Sound Reporting API
   slug: epidemic-sound-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-reporting-api-openapi.yml
 - filename: epidemic-sound-safelisting-api-openapi.yml
   format: yaml
   label: Epidemic Sound Safelisting API
   slug: epidemic-sound-safelisting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-safelisting-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-safelisting-api-openapi.yml
 - filename: epidemic-sound-sound-effects-api-openapi.yml
   format: yaml
   label: Epidemic Sound Effects API
   slug: epidemic-sound-sound-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-sound-effects-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-sound-effects-api-openapi.yml
 - filename: epidemic-sound-tracks-api-openapi.yml
   format: yaml
   label: Epidemic Sound Tracks API
   slug: epidemic-sound-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-tracks-api-openapi.yml
 - filename: epidemic-sound-users-api-openapi.yml
   format: yaml
   label: Epidemic Sound Users API
   slug: epidemic-sound-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-users-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-users-api-openapi.yml
 consequence_counts:
   read: 33
   write: 14
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/epidem
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tracks/versions/{jobId}\n  method: get\n  operationId: GET_Track_Versions_Job\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/safelisting/licenses\n  method: get\n  operationId: GET_Safelisting_Licenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/safelisting/licenses\n  method: post\n  operationId: POST_Safelisting_License\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v0/safelisting/licenses\n  method: delete\n  operationId: DELETE_Safelisting_Licenses\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/safelisting/licenses/{licenseId}\n  method: get\n  operationId: GET_Safelisting_License\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/safelisting/licenses/{licenseId}\n  method: delete\n  operationId: DELETE_Safelisting_License\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /v0/safelisting/licenses/{licenseId}\n  method: patch\n  operationId: PATCH_Safelisting_License\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/agentic-access/epidemic-sound-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/epidemic-sound/agentic-access/epidemic-sound-agentic-access.yml
 summary_line: 47 operations · 14 acting
 tags:
 - Music

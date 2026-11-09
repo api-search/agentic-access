@@ -9,43 +9,43 @@ api_specs:
   label: Toss Payments Billing API
   slug: toss-payments-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-billing-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-billing-api-openapi.yml
 - filename: toss-payments-cash-receipts-api-openapi.yml
   format: yaml
   label: Toss Payments Cash Receipts API
   slug: toss-payments-cash-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-cash-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-cash-receipts-api-openapi.yml
 - filename: toss-payments-payments-api-openapi.yml
   format: yaml
   label: Toss Payments API
   slug: toss-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-payments-api-openapi.yml
 - filename: toss-payments-payouts-api-openapi.yml
   format: yaml
   label: Toss Payments Payouts API
   slug: toss-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-payouts-api-openapi.yml
 - filename: toss-payments-settlements-api-openapi.yml
   format: yaml
   label: Toss Payments Settlements API
   slug: toss-payments-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-settlements-api-openapi.yml
 - filename: toss-payments-transactions-api-openapi.yml
   format: yaml
   label: Toss Payments Transactions API
   slug: toss-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-transactions-api-openapi.yml
 - filename: toss-payments-virtual-accounts-api-openapi.yml
   format: yaml
   label: Toss Payments Virtual Accounts API
   slug: toss-payments-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/toss-payments/openapi/toss-payments-virtual-accounts-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 6
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toss-p
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cash-receipts\n  method: get\n  operationId: listCashReceipts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cash-receipts/{receiptKey}/cancel\n  method: post\n  operationId: cancelCashReceipt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/settlements\n  method: get\n  operationId: listSettlements\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/settlements\n  method: post\n  operationId: requestSettlement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/balances\n  method: get\n  operationId: getPayoutBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/payouts\n  method: post\n  operationId: requestPayouts\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/agentic-access/toss-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/toss-payments/agentic-access/toss-payments-agentic-access.yml
 summary_line: 17 operations · 11 acting
 tags:
 - Payments

@@ -9,43 +9,43 @@ api_specs:
   label: ShipMonk Webhooks
   slug: shipmonk-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/asyncapi/shipmonk-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/shipmonk/asyncapi/shipmonk-webhooks-asyncapi.yml
 - filename: shipmonk-orders-api-openapi.yml
   format: yaml
   label: ShipMonk Orders API
   slug: shipmonk-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-orders-api-openapi.yml
 - filename: shipmonk-products-api-openapi.yml
   format: yaml
   label: ShipMonk Products API
   slug: shipmonk-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-products-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-products-api-openapi.yml
 - filename: shipmonk-receivings-api-openapi.yml
   format: yaml
   label: ShipMonk Receivings API
   slug: shipmonk-receivings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-receivings-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-receivings-api-openapi.yml
 - filename: shipmonk-returns-api-openapi.yml
   format: yaml
   label: ShipMonk Returns API
   slug: shipmonk-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-returns-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-returns-api-openapi.yml
 - filename: shipmonk-warehouses-api-openapi.yml
   format: yaml
   label: ShipMonk Warehouses API
   slug: shipmonk-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-warehouses-api-openapi.yml
 - filename: shipmonk-webhooks-api-openapi.yml
   format: yaml
   label: ShipMonk Webhooks API
   slug: shipmonk-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/shipmo
   \  method: post\n  operationId: post-v1-integrations-receiving\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/receipts-list\n  method: get\n  operationId: get-v1-integrations-receipts-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/receivings-list\n  method: get\n  operationId: get-v1-integrations-receivings-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/sandbox/complete-receiving\n  method: post\n  operationId: post-v1-integrations-sandbox-complete-receiving\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/returns\n  method: get\n  operationId: get-v1-integrations-returns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/returns\n  method: post\n  operationId: post-v1-integrations-returns\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/returns-list\n  method: get\n  operationId: get-v1-integrations-returns-list\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/sandbox/complete-return\n  method: post\n  operationId: post-v1-integrations-sandbox-complete-return\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/warehouses\n  method: get\n  operationId: get-v1-integrations-warehouses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/agentic-access/shipmonk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shipmonk/agentic-access/shipmonk-agentic-access.yml
 summary_line: 19 operations · 9 acting
 tags:
 - Logistics

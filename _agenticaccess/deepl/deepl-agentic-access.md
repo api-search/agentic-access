@@ -9,91 +9,91 @@ api_specs:
   label: DeepL Voice API
   slug: deepl-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-voice-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-voice-api-openapi.yml
 - filename: deepl-adminapi-api-openapi.yml
   format: yaml
   label: DeepL Admin API
   slug: deepl-adminapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-adminapi-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-adminapi-api-openapi.yml
 - filename: deepl-correcttext-api-openapi.yml
   format: yaml
   label: DeepL Correct Text API
   slug: deepl-correcttext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-correcttext-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-correcttext-api-openapi.yml
 - filename: deepl-manageglossaries-api-openapi.yml
   format: yaml
   label: DeepL Manage Glossaries API
   slug: deepl-manageglossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-manageglossaries-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-manageglossaries-api-openapi.yml
 - filename: deepl-managemultilingualglossaries-api-openapi.yml
   format: yaml
   label: DeepL Manage Multilingual Glossaries API
   slug: deepl-managemultilingualglossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-managemultilingualglossaries-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-managemultilingualglossaries-api-openapi.yml
 - filename: deepl-managespokenterms-api-openapi.yml
   format: yaml
   label: DeepL Manage Spoken Terms API
   slug: deepl-managespokenterms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-managespokenterms-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-managespokenterms-api-openapi.yml
 - filename: deepl-metainformation-api-openapi.yml
   format: yaml
   label: DeepL Meta Information API
   slug: deepl-metainformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-metainformation-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-metainformation-api-openapi.yml
 - filename: deepl-qualityevaluation-api-openapi.yml
   format: yaml
   label: DeepL Quality Evaluation API
   slug: deepl-qualityevaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-qualityevaluation-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-qualityevaluation-api-openapi.yml
 - filename: deepl-rephrasetext-api-openapi.yml
   format: yaml
   label: DeepL Rephrase Text API
   slug: deepl-rephrasetext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-rephrasetext-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-rephrasetext-api-openapi.yml
 - filename: deepl-style-rules-api-openapi.yml
   format: yaml
   label: DeepL Style Rules API
   slug: deepl-style-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-style-rules-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-style-rules-api-openapi.yml
 - filename: deepl-translatedocuments-api-openapi.yml
   format: yaml
   label: DeepL Translate Documents API
   slug: deepl-translatedocuments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translatedocuments-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-translatedocuments-api-openapi.yml
 - filename: deepl-translatetext-api-openapi.yml
   format: yaml
   label: DeepL Translate Text API
   slug: deepl-translatetext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translatetext-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-translatetext-api-openapi.yml
 - filename: deepl-translationmemories-api-openapi.yml
   format: yaml
   label: DeepL Translation Memories API
   slug: deepl-translationmemories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translationmemories-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-translationmemories-api-openapi.yml
 - filename: deepl-voiceapi-api-openapi.yml
   format: yaml
   label: DeepL Voice API
   slug: deepl-voiceapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-voiceapi-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-voiceapi-api-openapi.yml
 - filename: deepl-voicetranslatejob-api-openapi.yml
   format: yaml
   label: DeepL Voice Translate Job API
   slug: deepl-voicetranslatejob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-voicetranslatejob-api-openapi.yml
+  url: https://artifacts.apis.io/deepl/openapi/deepl-voicetranslatejob-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/deepl-
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /glossaries/{glossaryId}\n  method: get\n  operationId: getGlossary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /glossaries/{glossaryId}\n  method: delete\n  operationId: deleteGlossary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /glossaries/{glossaryId}/entries\n  method: get\n  operationId: getGlossaryEntries\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /glossary-language-pairs\n  method: get\n  operationId: listGlossaryLanguagePairs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /languages\n  method: get\n  operationId: listLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /write/rephrase\n  method: post\n  operationId: rephraseText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voice/realtime\n  method: post\n  operationId: requestVoiceSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voice/realtime\n  method: get\n  operationId: reconnectVoiceSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/agentic-access/deepl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/deepl/agentic-access/deepl-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Artificial Intelligence

@@ -9,49 +9,49 @@ api_specs:
   label: GitClear API Tokens API
   slug: gitclear-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gitclear/openapi/gitclear-api-tokens-api-openapi.yml
 - filename: gitclear-code-introspection-api-openapi.yml
   format: yaml
   label: GitClear Code Introspection API
   slug: gitclear-code-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-code-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/gitclear/openapi/gitclear-code-introspection-api-openapi.yml
 - filename: gitclear-data-audit-api-openapi.yml
   format: yaml
   label: GitClear Data Audit API
   slug: gitclear-data-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-data-audit-api-openapi.yml
+  url: https://artifacts.apis.io/gitclear/openapi/gitclear-data-audit-api-openapi.yml
 - filename: gitclear-developers-api-openapi.yml
   format: yaml
   label: GitClear Developers API
   slug: gitclear-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-developers-api-openapi.yml
+  url: https://artifacts.apis.io/gitclear/openapi/gitclear-developers-api-openapi.yml
 - filename: gitclear-imports-api-openapi.yml
   format: yaml
   label: GitClear Imports API
   slug: gitclear-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-imports-api-openapi.yml
+  url: https://artifacts.apis.io/gitclear/openapi/gitclear-imports-api-openapi.yml
 - filename: gitclear-releases-api-openapi.yml
   format: yaml
   label: GitClear Releases API
   slug: gitclear-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-releases-api-openapi.yml
+  url: https://artifacts.apis.io/gitclear/openapi/gitclear-releases-api-openapi.yml
 - filename: gitclear-reports-api-openapi.yml
   format: yaml
   label: GitClear Reports API
   slug: gitclear-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-reports-api-openapi.yml
+  url: https://artifacts.apis.io/gitclear/openapi/gitclear-reports-api-openapi.yml
 - filename: gitclear-teams-api-openapi.yml
   format: yaml
   label: GitClear Teams API
   slug: gitclear-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/openapi/gitclear-teams-api-openapi.yml
+  url: https://artifacts.apis.io/gitclear/openapi/gitclear-teams-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gitcle
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /developers/remove_time_off\n  method: post\n  operationId: removeTimeOff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /developers/set_processing\n  method: post\n  operationId: setDeveloperProcessing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: post\n  operationId: createTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams\n  method: put\n  operationId: updateTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams\n  method: delete\n  operationId: deleteTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/associated_repos\n  method: get\n  operationId: listTeamAssociatedRepos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api_tokens\n  method: get\n  operationId: validateApiToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitclear/refs/heads/main/agentic-access/gitclear-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gitclear/agentic-access/gitclear-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - Code Analytics

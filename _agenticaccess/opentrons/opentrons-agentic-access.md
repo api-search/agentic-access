@@ -9,55 +9,55 @@ api_specs:
   label: Opentrons Attached Instruments API
   slug: opentrons-attached-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/openapi/opentrons-attached-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/opentrons/openapi/opentrons-attached-instruments-api-openapi.yml
 - filename: opentrons-attached-modules-api-openapi.yml
   format: yaml
   label: Opentrons Attached Modules API
   slug: opentrons-attached-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/openapi/opentrons-attached-modules-api-openapi.yml
+  url: https://artifacts.apis.io/opentrons/openapi/opentrons-attached-modules-api-openapi.yml
 - filename: opentrons-flex-deck-configuration-api-openapi.yml
   format: yaml
   label: Opentrons Flex Deck Configuration API
   slug: opentrons-flex-deck-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/openapi/opentrons-flex-deck-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/opentrons/openapi/opentrons-flex-deck-configuration-api-openapi.yml
 - filename: opentrons-health-api-openapi.yml
   format: yaml
   label: Opentrons Health API
   slug: opentrons-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/openapi/opentrons-health-api-openapi.yml
+  url: https://artifacts.apis.io/opentrons/openapi/opentrons-health-api-openapi.yml
 - filename: opentrons-protocol-management-api-openapi.yml
   format: yaml
   label: Opentrons Protocol Management API
   slug: opentrons-protocol-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/openapi/opentrons-protocol-management-api-openapi.yml
+  url: https://artifacts.apis.io/opentrons/openapi/opentrons-protocol-management-api-openapi.yml
 - filename: opentrons-robot-api-openapi.yml
   format: yaml
   label: Opentrons Robot API
   slug: opentrons-robot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/openapi/opentrons-robot-api-openapi.yml
+  url: https://artifacts.apis.io/opentrons/openapi/opentrons-robot-api-openapi.yml
 - filename: opentrons-run-management-api-openapi.yml
   format: yaml
   label: Opentrons Run Management API
   slug: opentrons-run-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/openapi/opentrons-run-management-api-openapi.yml
+  url: https://artifacts.apis.io/opentrons/openapi/opentrons-run-management-api-openapi.yml
 - filename: opentrons-simple-commands-api-openapi.yml
   format: yaml
   label: Opentrons Simple Commands API
   slug: opentrons-simple-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/openapi/opentrons-simple-commands-api-openapi.yml
+  url: https://artifacts.apis.io/opentrons/openapi/opentrons-simple-commands-api-openapi.yml
 - filename: opentrons-system-control-api-openapi.yml
   format: yaml
   label: Opentrons System Control API
   slug: opentrons-system-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/openapi/opentrons-system-control-api-openapi.yml
+  url: https://artifacts.apis.io/opentrons/openapi/opentrons-system-control-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 3
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/opentr
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /modules\n  method: get\n  operationId: getModules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instruments\n  method: get\n  operationId: getInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deck_configuration\n  method: get\n  operationId: getDeckConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deck_configuration\n  method: put\n  operationId: setDeckConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /system/time\n  method: get\n  operationId: getSystemTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system/time\n  method: put\n  operationId: setSystemTime\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /robot/control/estopStatus\n  method: get\n  operationId: getEstopStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /robot/control/acknowledgeEstopDisengage\n\
   \  method: put\n  operationId: acknowledgeEstopDisengage\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /robot/door/status\n  method: get\n  operationId: getDoorStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/agentic-access/opentrons-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opentrons/agentic-access/opentrons-agentic-access.yml
 summary_line: 29 operations · 12 acting · 3 human-in-the-loop
 tags:
 - Lab Automation

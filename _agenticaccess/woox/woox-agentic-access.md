@@ -9,43 +9,43 @@ api_specs:
   label: WOO X Account API
   slug: woox-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woox/refs/heads/main/openapi/woox-account-api-openapi.yml
+  url: https://artifacts.apis.io/woox/openapi/woox-account-api-openapi.yml
 - filename: woox-asset-api-openapi.yml
   format: yaml
   label: WOO X Asset API
   slug: woox-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woox/refs/heads/main/openapi/woox-asset-api-openapi.yml
+  url: https://artifacts.apis.io/woox/openapi/woox-asset-api-openapi.yml
 - filename: woox-futures-api-openapi.yml
   format: yaml
   label: WOO X Futures API
   slug: woox-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woox/refs/heads/main/openapi/woox-futures-api-openapi.yml
+  url: https://artifacts.apis.io/woox/openapi/woox-futures-api-openapi.yml
 - filename: woox-isolatedmargin-api-openapi.yml
   format: yaml
   label: WOO X Isolated Margin API
   slug: woox-isolatedmargin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woox/refs/heads/main/openapi/woox-isolatedmargin-api-openapi.yml
+  url: https://artifacts.apis.io/woox/openapi/woox-isolatedmargin-api-openapi.yml
 - filename: woox-public-api-openapi.yml
   format: yaml
   label: WOO X Public API
   slug: woox-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woox/refs/heads/main/openapi/woox-public-api-openapi.yml
+  url: https://artifacts.apis.io/woox/openapi/woox-public-api-openapi.yml
 - filename: woox-spotmargin-api-openapi.yml
   format: yaml
   label: WOO X Spot Margin API
   slug: woox-spotmargin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woox/refs/heads/main/openapi/woox-spotmargin-api-openapi.yml
+  url: https://artifacts.apis.io/woox/openapi/woox-spotmargin-api-openapi.yml
 - filename: woox-trade-api-openapi.yml
   format: yaml
   label: WOO X Trade API
   slug: woox-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/woox/refs/heads/main/openapi/woox-trade-api-openapi.yml
+  url: https://artifacts.apis.io/woox/openapi/woox-trade-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 41
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/woox-o
   \  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/futures/defaultMarginMode/reset\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/futures/leverage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/futures/leverage\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/isolatedMargin/margin\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/futures/fundingFee/history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/futures/positions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/futures/positionMode\n  method: put\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/woox/refs/heads/main/agentic-access/woox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/woox/agentic-access/woox-agentic-access.yml
 summary_line: 68 operations · 27 acting · 1 human-in-the-loop
 tags:
 - Company

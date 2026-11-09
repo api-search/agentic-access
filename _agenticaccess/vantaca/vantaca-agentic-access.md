@@ -9,19 +9,19 @@ api_specs:
   label: Vantaca /AP/ API
   slug: vantaca-ap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-ap-api-openapi.yml
+  url: https://artifacts.apis.io/vantaca/openapi/vantaca-ap-api-openapi.yml
 - filename: vantaca-read-api-openapi.yml
   format: yaml
   label: Vantaca /read/ API
   slug: vantaca-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-read-api-openapi.yml
+  url: https://artifacts.apis.io/vantaca/openapi/vantaca-read-api-openapi.yml
 - filename: vantaca-write-api-openapi.yml
   format: yaml
   label: Vantaca /write/ API
   slug: vantaca-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/openapi/vantaca-write-api-openapi.yml
+  url: https://artifacts.apis.io/vantaca/openapi/vantaca-write-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 44
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vantac
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /AP/listBoardInvoices\n  method: get\n  operationId: listBoardInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AP/getBoardInvoice\n  method: get\n  operationId: getBoardInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AP/listInvoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AP/getInvoice\n  method: get\n  operationId:\
   \ getInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AP/updateInvoiceAttachment\n  method: post\n  operationId: updateInvoiceAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /AP/listPayments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AP/getPayment\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /AP/annualBankAccountBalance\n  method: get\n  operationId: getAnnualBankAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AP/listAssocInvoices\n  method: get\n  operationId: listAssocInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AP/glTransactionHistory\n  method: get\n  operationId: getTransactionHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vantaca/refs/heads/main/agentic-access/vantaca-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vantaca/agentic-access/vantaca-agentic-access.yml
 summary_line: 75 operations · 31 acting
 tags:
 - HOA

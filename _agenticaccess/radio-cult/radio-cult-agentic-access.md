@@ -9,43 +9,43 @@ api_specs:
   label: Radio Cult Artists API
   slug: radio-cult-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-artists-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-artists-api-openapi.yml
 - filename: radio-cult-media-api-openapi.yml
   format: yaml
   label: Radio Cult Media API
   slug: radio-cult-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-media-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-media-api-openapi.yml
 - filename: radio-cult-playlists-api-openapi.yml
   format: yaml
   label: Radio Cult Playlists API
   slug: radio-cult-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-playlists-api-openapi.yml
 - filename: radio-cult-recordings-api-openapi.yml
   format: yaml
   label: Radio Cult Recordings API
   slug: radio-cult-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-recordings-api-openapi.yml
 - filename: radio-cult-schedule-api-openapi.yml
   format: yaml
   label: Radio Cult Schedule API
   slug: radio-cult-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-schedule-api-openapi.yml
 - filename: radio-cult-streaming-api-openapi.yml
   format: yaml
   label: Radio Cult Streaming API
   slug: radio-cult-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-streaming-api-openapi.yml
 - filename: radio-cult-tags-api-openapi.yml
   format: yaml
   label: Radio Cult Tags API
   slug: radio-cult-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/openapi/radio-cult-tags-api-openapi.yml
+  url: https://artifacts.apis.io/radio-cult/openapi/radio-cult-tags-api-openapi.yml
 consequence_counts:
   read: 12
   write: 6
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/radio-
   \    - high-value\n    audit: required\n- path: /api/station/{stationId}/media/track/{trackId}/upload/soundcloud\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/station/{stationId}/media/playlist\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/station/{stationId}/media/playlist/{playlistId}/entry\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/station/{stationId}/media/playlist/{playlistId}/entries\n\
   \  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/station/{stationId}/media/tag\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/station/{stationId}/media/recording\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/station/{stationId}/media/recording/{recordingId}/download-url\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/station/{stationId}/streaming/history/latest-results\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/agentic-access/radio-cult-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/radio-cult/agentic-access/radio-cult-agentic-access.yml
 summary_line: 18 operations · 6 acting
 tags:
 - Radio

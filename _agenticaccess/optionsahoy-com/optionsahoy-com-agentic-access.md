@@ -9,55 +9,55 @@ api_specs:
   label: OptionsAhoy Concentration API
   slug: optionsahoy-com-concentration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-concentration-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-concentration-api-openapi.yml
 - filename: optionsahoy-com-discovery-api-openapi.yml
   format: yaml
   label: OptionsAhoy Discovery API
   slug: optionsahoy-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-discovery-api-openapi.yml
 - filename: optionsahoy-com-equityfunding-api-openapi.yml
   format: yaml
   label: OptionsAhoy Equity Funding API
   slug: optionsahoy-com-equityfunding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-equityfunding-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-equityfunding-api-openapi.yml
 - filename: optionsahoy-com-hedging-api-openapi.yml
   format: yaml
   label: OptionsAhoy Hedging API
   slug: optionsahoy-com-hedging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-hedging-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-hedging-api-openapi.yml
 - filename: optionsahoy-com-iso-api-openapi.yml
   format: yaml
   label: OptionsAhoy ISO API
   slug: optionsahoy-com-iso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-iso-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-iso-api-openapi.yml
 - filename: optionsahoy-com-nso-api-openapi.yml
   format: yaml
   label: OptionsAhoy NSO API
   slug: optionsahoy-com-nso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-nso-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-nso-api-openapi.yml
 - filename: optionsahoy-com-qsbs-api-openapi.yml
   format: yaml
   label: OptionsAhoy QSBS API
   slug: optionsahoy-com-qsbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-qsbs-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-qsbs-api-openapi.yml
 - filename: optionsahoy-com-rsu-api-openapi.yml
   format: yaml
   label: OptionsAhoy RSU API
   slug: optionsahoy-com-rsu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-rsu-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-rsu-api-openapi.yml
 - filename: optionsahoy-com-rsulotoptimize-api-openapi.yml
   format: yaml
   label: OptionsAhoy Rsu Lot Optimize API
   slug: optionsahoy-com-rsulotoptimize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-rsulotoptimize-api-openapi.yml
+  url: https://artifacts.apis.io/optionsahoy-com/openapi/optionsahoy-com-rsulotoptimize-api-openapi.yml
 consequence_counts:
   physical: 0
   read: 11
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/options
   \ ... Inputs are not retained.' Nothing is created,\n        sent, spent or deleted.\n- path: /api/v1/equity-funding\n  method: post\n  operationId: planEquityFunding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    audience: null\n    token:\n      max-ttl: 3600\n    audit: none\n    x-curated:\n      was:\n        action-class: acting\n        consequence: write\n      basis: POST is a stateless pure computation; the provider's live MCP tools/list annotates the identical operation\n        (equity_funding_plan) readOnlyHint true, idempotentHint true, destructiveHint false, openWorldHint false,\n        and SECURITY.md states 'No accounts, no authentication, no stored user data ... Inputs are not retained.'\n        Nothing is created, sent, spent or deleted.\n- path: /api/v1/rsu-lot-order\n  method: post\n  operationId: optimizeRsuLotOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    audience: null\n    token:\n      max-ttl: 3600\n    audit: none\n    x-curated:\n      was:\n        action-class: acting\n        consequence: physical\n      basis: POST is a stateless pure computation; the provider's live MCP tools/list annotates the identical operation\n        (rsu_lot_optimize) readOnlyHint true, idempotentHint true, destructiveHint false, openWorldHint false, and\n        SECURITY.md states 'No accounts, no authentication, no stored user data ... Inputs are not retained.' Nothing\n        is created, sent, spent or deleted.\n- path: /api/v1/stats\n  method: get\n  operationId: stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/badge\n  method: get\n  operationId: badge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\nx-curated:\n  date: '2026-09-19'\n\
   \  by: API Evangelist enrichment pass\n  note: 'The heuristic classifier read the eight POST calculators as acting/write (planEquityFunding as physical,\n    on the ''fund''/''sell'' vocabulary). That is the wrong contract for this API: every operation is read-only\n    by the provider''s own machine-readable declaration (mcp/optionsahoy-com-mcp-tools.json annotations) and by\n    its security policy. Reclassified to connected/read with the generated values preserved under x-curated.was\n    so the change is auditable. The three GET operations were already connected/read.'\n  evidence:\n  - mcp/optionsahoy-com-mcp-tools.json — annotations.readOnlyHint true on 8 of 8 tools\n  - https://github.com/AlvisoOculus/optionsahoy-mcp/blob/main/SECURITY.md\n  - conventions/optionsahoy-com-conventions.yml — reversibility grade na, no write surface\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/agentic-access/optionsahoy-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/optionsahoy-com/agentic-access/optionsahoy-com-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Equity Compensation
@@ -105,6 +105,5 @@ tags:
 - MCP
 - A2A
 - Agent-Native
-- Deterministic
 - United States
 ---

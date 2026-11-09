@@ -9,49 +9,49 @@ api_specs:
   label: Dremio | Intelligent Lakehouse Platform Authentication API
   slug: dremio-intelligent-lakehouse-platform-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-authentication-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-catalog-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Catalog API
   slug: dremio-intelligent-lakehouse-platform-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-catalog-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-jobs-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Jobs API
   slug: dremio-intelligent-lakehouse-platform-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-jobs-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-pat-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform PAT API
   slug: dremio-intelligent-lakehouse-platform-pat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-pat-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-pat-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-reflections-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Reflections API
   slug: dremio-intelligent-lakehouse-platform-reflections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-reflections-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-reflections-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-roles-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Roles API
   slug: dremio-intelligent-lakehouse-platform-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-roles-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-roles-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-scripts-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Scripts API
   slug: dremio-intelligent-lakehouse-platform-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-scripts-api-openapi.yml
 - filename: dremio-intelligent-lakehouse-platform-sources-api-openapi.yml
   format: yaml
   label: Dremio | Intelligent Lakehouse Platform Sources API
   slug: dremio-intelligent-lakehouse-platform-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/openapi/dremio-intelligent-lakehouse-platform-sources-api-openapi.yml
+  url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/openapi/dremio-intelligent-lakehouse-platform-sources-api-openapi.yml
 consequence_counts:
   read: 11
   write: 9
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dremio
   \ /reflection\n  method: get\n  operationId: listReflections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reflection\n  method: post\n  operationId: createReflection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reflection/{id}\n  method: get\n  operationId: getReflection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reflection/{id}\n  method: put\n  operationId: updateReflection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reflection/{id}\n  method: delete\n  operationId: deleteReflection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /source\n  method: get\n  operationId: listSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scripts\n  method: get\n  operationId: listScripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scripts\n  method: post\n  operationId: createScript\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/tokens\n  method: get\n  operationId: listUserTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/tokens\n  method: post\n  operationId: createUserToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/agentic-access/dremio-intelligent-lakehouse-platform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/agentic-access/dremio-intelligent-lakehouse-platform-agentic-access.yml
 summary_line: 20 operations · 9 acting
 tags:
 - Data

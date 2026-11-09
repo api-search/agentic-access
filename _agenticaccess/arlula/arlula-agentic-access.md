@@ -9,25 +9,25 @@ api_specs:
   label: Arlula Archive API
   slug: arlula-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-archive-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-archive-api-openapi.yml
 - filename: arlula-connection-api-openapi.yml
   format: yaml
   label: Arlula Connection API
   slug: arlula-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-connection-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-connection-api-openapi.yml
 - filename: arlula-orders-api-openapi.yml
   format: yaml
   label: Arlula Orders API
   slug: arlula-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-orders-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-orders-api-openapi.yml
 - filename: arlula-tasking-api-openapi.yml
   format: yaml
   label: Arlula Tasking API
   slug: arlula-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/arlula/openapi/arlula-tasking-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 11
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/arlula
   \   audit: none\n- path: /api/dataset/{dataset}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/resource/{resource}/data\n  method: get\n  operationId: downloadResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tasking/search\n  method: post\n  operationId: searchTasking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tasking/get\n  method: post\n  operationId: getTaskingOpportunity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tasking/order\n  method: post\n  operationId: orderTaskingCapture\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tasking/order/batch\n  method: post\n  operationId: batchOrderTaskingCaptures\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tasking/cancel\n  method: delete\n  operationId: cancelTaskingCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/agentic-access/arlula-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/arlula/agentic-access/arlula-agentic-access.yml
 summary_line: 16 operations · 5 acting
 tags:
 - Earth Observation

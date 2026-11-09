@@ -9,43 +9,43 @@ api_specs:
   label: Groupe BPCE AISP API
   slug: groupe-bpce-aisp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-aisp-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-aisp-api-openapi.yml
 - filename: groupe-bpce-cbpii-api-openapi.yml
   format: yaml
   label: Groupe BPCE CBPII API
   slug: groupe-bpce-cbpii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-cbpii-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-cbpii-api-openapi.yml
 - filename: groupe-bpce-external-accounts-api-openapi.yml
   format: yaml
   label: Groupe BPCE External Accounts API
   slug: groupe-bpce-external-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-external-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-external-accounts-api-openapi.yml
 - filename: groupe-bpce-internal-accounts-api-openapi.yml
   format: yaml
   label: Groupe BPCE Internal Accounts API
   slug: groupe-bpce-internal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-internal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-internal-accounts-api-openapi.yml
 - filename: groupe-bpce-pisp-api-openapi.yml
   format: yaml
   label: Groupe BPCE PISP API
   slug: groupe-bpce-pisp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-pisp-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-pisp-api-openapi.yml
 - filename: groupe-bpce-registration-api-openapi.yml
   format: yaml
   label: Groupe BPCE Registration API
   slug: groupe-bpce-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-registration-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-registration-api-openapi.yml
 - filename: groupe-bpce-transfers-api-openapi.yml
   format: yaml
   label: Groupe BPCE Transfers API
   slug: groupe-bpce-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-transfers-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 33
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/groupe
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-requests/{paymentRequestResourceId}\n  method: get\n  operationId: paymentRequestsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - pisp\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment-requests/{paymentRequestResourceId}\n  method: put\n  operationId: paymentRequestPut\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - pisp\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-requests/{paymentRequestResourceId}/confirmation\n  method: post\n  operationId: paymentRequestConfirmationPost\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: physical\n    subject: required\n    scope:\n    - pisp\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-requests/{paymentRequestResourceId}/transactions\n  method: get\n  operationId: paymentRequestTransactionsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - pisp\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /register\n  method: post\n  operationId: registrationPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /register/{clientId}\n  method: get\n \
   \ operationId: registrationGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /register/{clientId}\n  method: put\n  operationId: registrationPut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /register/{clientId}\n  method: delete\n  operationId: registrationDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/agentic-access/groupe-bpce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/groupe-bpce/agentic-access/groupe-bpce-agentic-access.yml
 summary_line: 49 operations · 16 acting
 tags:
 - Company

@@ -9,67 +9,67 @@ api_specs:
   label: Arcadiapower2 Auth API
   slug: arcadiapower2-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-auth-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-auth-api-openapi.yml
 - filename: arcadiapower2-bundle-beta-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Bundle (Beta) API
   slug: arcadiapower2-bundle-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-bundle-beta-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-bundle-beta-api-openapi.yml
 - filename: arcadiapower2-bundle-webhook-events-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Bundle Webhook Events API
   slug: arcadiapower2-bundle-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-bundle-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-bundle-webhook-events-api-openapi.yml
 - filename: arcadiapower2-plug-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Plug API
   slug: arcadiapower2-plug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-plug-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-plug-api-openapi.yml
 - filename: arcadiapower2-spark-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Spark API
   slug: arcadiapower2-spark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-spark-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-spark-api-openapi.yml
 - filename: arcadiapower2-users-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Users API
   slug: arcadiapower2-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-users-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-users-api-openapi.yml
 - filename: arcadiapower2-utility-accounts-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Utility Accounts API
   slug: arcadiapower2-utility-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-utility-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-utility-accounts-api-openapi.yml
 - filename: arcadiapower2-utility-credentials-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Utility Credentials API
   slug: arcadiapower2-utility-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-utility-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-utility-credentials-api-openapi.yml
 - filename: arcadiapower2-utility-meters-beta-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Utility Meters (Beta) API
   slug: arcadiapower2-utility-meters-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-utility-meters-beta-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-utility-meters-beta-api-openapi.yml
 - filename: arcadiapower2-webhook-events-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Webhook Events API
   slug: arcadiapower2-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-webhook-events-api-openapi.yml
 - filename: arcadiapower2-webhooks-api-openapi.yml
   format: yaml
   label: Arcadiapower2 Webhooks API
   slug: arcadiapower2-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/openapi/arcadiapower2-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/arcadiapower2/openapi/arcadiapower2-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 21
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/arcadi
   \  method: get\n  operationId: getWebhookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/endpoints/{webhook_endpoint_id}/events/{webhook_event_id}\n  method: get\n  operationId: getWebhookEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sandbox/bundle/utility_remittance/utility_credentials/{utility_credential_id}/accept\n  method: post\n  operationId: sandboxUtilityRemittanceAccept\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandbox/bundle/utility_remittance/utility_credentials/{utility_credential_id}/reject\n  method:\
   \ post\n  operationId: sandboxUtilityRemittanceReject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandbox/bundle/utility_remittance/utility_credentials/{utility_credential_id}/remove\n  method: post\n  operationId: sandboxUtilityRemittanceRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandbox/connect/submit_test_credentials\n  method: post\n  operationId: submitTestCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandbox/webhook/trigger/new_utility_statement_available\n  method: post\n  operationId: triggerNewUtilityStatementAvailable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandbox/webhook/trigger/utility_credential_revoked\n  method: post\n  operationId: triggerUtilityCredentialRevoked\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/agentic-access/arcadiapower2-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/arcadiapower2/agentic-access/arcadiapower2-agentic-access.yml
 summary_line: 42 operations · 21 acting · 2 human-in-the-loop
 tags:
 - Energy

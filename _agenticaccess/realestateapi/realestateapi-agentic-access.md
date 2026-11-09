@@ -9,49 +9,49 @@ api_specs:
   label: RealEstateAPI AVM API
   slug: realestateapi-avm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-avm-api-openapi.yml
+  url: https://artifacts.apis.io/realestateapi/openapi/realestateapi-avm-api-openapi.yml
 - filename: realestateapi-comparables-api-openapi.yml
   format: yaml
   label: RealEstateAPI Comparables API
   slug: realestateapi-comparables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-comparables-api-openapi.yml
+  url: https://artifacts.apis.io/realestateapi/openapi/realestateapi-comparables-api-openapi.yml
 - filename: realestateapi-liens-api-openapi.yml
   format: yaml
   label: RealEstateAPI Liens API
   slug: realestateapi-liens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-liens-api-openapi.yml
+  url: https://artifacts.apis.io/realestateapi/openapi/realestateapi-liens-api-openapi.yml
 - filename: realestateapi-mls-api-openapi.yml
   format: yaml
   label: RealEstateAPI MLS API
   slug: realestateapi-mls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-mls-api-openapi.yml
+  url: https://artifacts.apis.io/realestateapi/openapi/realestateapi-mls-api-openapi.yml
 - filename: realestateapi-parcel-api-openapi.yml
   format: yaml
   label: RealEstateAPI Parcel API
   slug: realestateapi-parcel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-parcel-api-openapi.yml
+  url: https://artifacts.apis.io/realestateapi/openapi/realestateapi-parcel-api-openapi.yml
 - filename: realestateapi-property-detail-api-openapi.yml
   format: yaml
   label: RealEstateAPI Property Detail API
   slug: realestateapi-property-detail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-property-detail-api-openapi.yml
+  url: https://artifacts.apis.io/realestateapi/openapi/realestateapi-property-detail-api-openapi.yml
 - filename: realestateapi-property-search-api-openapi.yml
   format: yaml
   label: RealEstateAPI Property Search API
   slug: realestateapi-property-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-property-search-api-openapi.yml
+  url: https://artifacts.apis.io/realestateapi/openapi/realestateapi-property-search-api-openapi.yml
 - filename: realestateapi-skip-trace-api-openapi.yml
   format: yaml
   label: RealEstateAPI Skip Trace API
   slug: realestateapi-skip-trace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/openapi/realestateapi-skip-trace-api-openapi.yml
+  url: https://artifacts.apis.io/realestateapi/openapi/realestateapi-skip-trace-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/reales
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/PropertyComps\n  method: post\n  operationId: postV2PropertyComps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/InvoluntaryLiens\n  method: post\n  operationId: postV2InvoluntaryLiens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/MLSSearch\n  method: post\n  operationId: postV2MLSSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n- path: /v2/MLSDetail\n  method: post\n  operationId: postV2MLSDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/PropertyBoundary\n  method: post\n  operationId: postV2PropertyBoundary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/PropertyDetail\n  method: post\n  operationId: postV2PropertyDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/PropertySearch\n  method: post\n  operationId: postV2PropertySearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/SkipTrace\n  method: post\n  operationId: postV2SkipTrace\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/agentic-access/realestateapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/realestateapi/agentic-access/realestateapi-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Real Estate

@@ -9,31 +9,31 @@ api_specs:
   label: Personio Absence Periods API
   slug: personio-absence-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-absence-periods-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-absence-periods-api-openapi.yml
 - filename: personio-auth-api-openapi.yml
   format: yaml
   label: Personio Auth API
   slug: personio-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-auth-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-auth-api-openapi.yml
 - filename: personio-persons-api-openapi.yml
   format: yaml
   label: Personio Persons API
   slug: personio-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-persons-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-persons-api-openapi.yml
 - filename: personio-projects-api-openapi.yml
   format: yaml
   label: Personio Projects API
   slug: personio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-projects-api-openapi.yml
 - filename: personio-webhooks-api-openapi.yml
   format: yaml
   label: Personio Webhooks API
   slug: personio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/openapi/personio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/personio/openapi/personio-webhooks-api-openapi.yml
 consequence_counts:
   read: 3
   write: 6
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/person
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /persons\n  method: post\n  operationId: createPerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /persons/{person_id}\n  method: patch\n  operationId: patchPerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /absence-periods\n  method: get\n  operationId: listAbsencePeriods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /absence-periods\n  method: post\n  operationId: createAbsencePeriod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/agentic-access/personio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/personio/agentic-access/personio-agentic-access.yml
 summary_line: 9 operations · 6 acting
 tags:
 - Human Resources

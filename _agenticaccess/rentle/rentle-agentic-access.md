@@ -9,79 +9,79 @@ api_specs:
   label: Rentle API Keys API
   slug: rentle-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-api-keys-api-openapi.yml
 - filename: rentle-categories-api-openapi.yml
   format: yaml
   label: Rentle Categories API
   slug: rentle-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-categories-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-categories-api-openapi.yml
 - filename: rentle-customers-api-openapi.yml
   format: yaml
   label: Rentle Customers API
   slug: rentle-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-customers-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-customers-api-openapi.yml
 - filename: rentle-discount-codes-api-openapi.yml
   format: yaml
   label: Rentle Discount Codes API
   slug: rentle-discount-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-discount-codes-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-discount-codes-api-openapi.yml
 - filename: rentle-inventory-articles-api-openapi.yml
   format: yaml
   label: Rentle Inventory Articles API
   slug: rentle-inventory-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-inventory-articles-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-inventory-articles-api-openapi.yml
 - filename: rentle-inventory-skus-api-openapi.yml
   format: yaml
   label: Rentle Inventory SKUs API
   slug: rentle-inventory-skus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-inventory-skus-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-inventory-skus-api-openapi.yml
 - filename: rentle-merchant-api-openapi.yml
   format: yaml
   label: Rentle Merchant API
   slug: rentle-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-merchant-api-openapi.yml
 - filename: rentle-orders-api-openapi.yml
   format: yaml
   label: Rentle Orders API
   slug: rentle-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-orders-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-orders-api-openapi.yml
 - filename: rentle-products-api-openapi.yml
   format: yaml
   label: Rentle Products API
   slug: rentle-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-products-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-products-api-openapi.yml
 - filename: rentle-stores-api-openapi.yml
   format: yaml
   label: Rentle Stores API
   slug: rentle-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-stores-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-stores-api-openapi.yml
 - filename: rentle-webhooks-api-openapi.yml
   format: yaml
   label: Rentle Webhooks API
   slug: rentle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-webhooks-api-openapi.yml
 - filename: rentle-order-api-openapi.yml
   format: yaml
   label: Rentle Order API
   slug: rentle-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-order-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-order-api-openapi.yml
 - filename: rentle-product-api-openapi.yml
   format: yaml
   label: Rentle Product API
   slug: rentle-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/openapi/rentle-product-api-openapi.yml
+  url: https://artifacts.apis.io/rentle/openapi/rentle-product-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 21
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/rentle
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/{id}\n  method: get\n  operationId: products_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{id}\n  method: delete\n  operationId: products_remove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products\n  method: get\n  operationId: products_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{id}\n  method: get\n  operationId: store_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores\n  method: get\n  operationId: store_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: get\n  operationId: webhooks_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: webhooks_remove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: webhooks_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: webhooks_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/agentic-access/rentle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rentle/agentic-access/rentle-agentic-access.yml
 summary_line: 28 operations · 7 acting
 tags:
 - Company

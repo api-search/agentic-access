@@ -9,37 +9,37 @@ api_specs:
   label: Sauce Labs Devices API
   slug: sauce-labs-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-devices-api-openapi.yml
 - filename: sauce-labs-job-assets-api-openapi.yml
   format: yaml
   label: Sauce Labs Job Assets API
   slug: sauce-labs-job-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-job-assets-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-job-assets-api-openapi.yml
 - filename: sauce-labs-jobs-api-openapi.yml
   format: yaml
   label: Sauce Labs Jobs API
   slug: sauce-labs-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-jobs-api-openapi.yml
 - filename: sauce-labs-platform-api-openapi.yml
   format: yaml
   label: Sauce Labs Platform API
   slug: sauce-labs-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-platform-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-platform-api-openapi.yml
 - filename: sauce-labs-sessions-api-openapi.yml
   format: yaml
   label: Sauce Labs Sessions API
   slug: sauce-labs-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-sessions-api-openapi.yml
 - filename: sauce-labs-users-api-openapi.yml
   format: yaml
   label: Sauce Labs Users API
   slug: sauce-labs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/openapi/sauce-labs-users-api-openapi.yml
+  url: https://artifacts.apis.io/sauce-labs/openapi/sauce-labs-users-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sauce-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/status\n  method: get\n  operationId: getDevicesStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions\n  method: get\n  operationId: listSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /sessions/{sessionId}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}\n  method: delete\n  operationId: closeSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/device/executeShellCommand\n  method: post\n  operationId: executeShellCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/device/installApp\n\
   \  method: post\n  operationId: installApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/device/uninstallApp\n  method: delete\n  operationId: uninstallApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/agentic-access/sauce-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sauce-labs/agentic-access/sauce-labs-agentic-access.yml
 summary_line: 18 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Testing

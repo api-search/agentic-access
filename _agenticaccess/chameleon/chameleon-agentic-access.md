@@ -8,103 +8,103 @@ api_specs:
   label: Chameleon Alert Groups API
   slug: chameleon-alert-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-alert-groups-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-alert-groups-api-openapi.yml
 - filename: chameleon-companies-api-openapi.yml
   format: yaml
   label: Chameleon Companies API
   slug: chameleon-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-companies-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-companies-api-openapi.yml
 - filename: chameleon-deliveries-api-openapi.yml
   format: yaml
   label: Chameleon Deliveries API
   slug: chameleon-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-deliveries-api-openapi.yml
 - filename: chameleon-domains-api-openapi.yml
   format: yaml
   label: Chameleon Domains API
   slug: chameleon-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-domains-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-domains-api-openapi.yml
 - filename: chameleon-imports-api-openapi.yml
   format: yaml
   label: Chameleon Imports API
   slug: chameleon-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-imports-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-imports-api-openapi.yml
 - filename: chameleon-interactions-api-openapi.yml
   format: yaml
   label: Chameleon Interactions API
   slug: chameleon-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-interactions-api-openapi.yml
 - filename: chameleon-launchers-api-openapi.yml
   format: yaml
   label: Chameleon Launchers API
   slug: chameleon-launchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-launchers-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-launchers-api-openapi.yml
 - filename: chameleon-limit-groups-api-openapi.yml
   format: yaml
   label: Chameleon Limit Groups API
   slug: chameleon-limit-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-limit-groups-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-limit-groups-api-openapi.yml
 - filename: chameleon-microsurveys-api-openapi.yml
   format: yaml
   label: Chameleon Microsurveys API
   slug: chameleon-microsurveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-microsurveys-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-microsurveys-api-openapi.yml
 - filename: chameleon-profiles-api-openapi.yml
   format: yaml
   label: Chameleon Profiles API
   slug: chameleon-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-profiles-api-openapi.yml
 - filename: chameleon-properties-api-openapi.yml
   format: yaml
   label: Chameleon Properties API
   slug: chameleon-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-properties-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-properties-api-openapi.yml
 - filename: chameleon-responses-api-openapi.yml
   format: yaml
   label: Chameleon Responses API
   slug: chameleon-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-responses-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-responses-api-openapi.yml
 - filename: chameleon-segments-api-openapi.yml
   format: yaml
   label: Chameleon Segments API
   slug: chameleon-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-segments-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-segments-api-openapi.yml
 - filename: chameleon-tags-api-openapi.yml
   format: yaml
   label: Chameleon Tags API
   slug: chameleon-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-tags-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-tags-api-openapi.yml
 - filename: chameleon-tooltips-api-openapi.yml
   format: yaml
   label: Chameleon Tooltips API
   slug: chameleon-tooltips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-tooltips-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-tooltips-api-openapi.yml
 - filename: chameleon-tours-api-openapi.yml
   format: yaml
   label: Chameleon Tours API
   slug: chameleon-tours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-tours-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-tours-api-openapi.yml
 - filename: chameleon-webhooks-api-openapi.yml
   format: yaml
   label: Chameleon Webhooks API
   slug: chameleon-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/openapi/chameleon-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/chameleon/openapi/chameleon-webhooks-api-openapi.yml
 consequence_counts:
   read: 33
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chamel
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/tooltips\n  method: get\n  operationId: listTooltips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/tooltips/{id}\n  method: get\n  operationId: getTooltip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/urls\n  method: get\n  operationId: listDomains\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/urls/{id}\n  method: get\n  operationId: getDomain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/tags/{id}\n  method: get\n  operationId: getTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/properties\n  method: get\n  operationId: listProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /edit/properties/{id}\n  method: get\n  operationId: getProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/imports\n  method: get\n  operationId: listImports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/imports/{id}\n  method: get\n  operationId: getImport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/agentic-access/chameleon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chameleon/agentic-access/chameleon-agentic-access.yml
 summary_line: 33 operations
 tags:
 - Product

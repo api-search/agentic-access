@@ -9,37 +9,43 @@ api_specs:
   label: AWS Batch Compute Environments API
   slug: aws-batch-compute-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-compute-environments-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-compute-environments-api-openapi.yml
 - filename: aws-batch-job-definitions-api-openapi.yml
   format: yaml
   label: AWS Batch Job Definitions API
   slug: aws-batch-job-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-job-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-job-definitions-api-openapi.yml
 - filename: aws-batch-job-queues-api-openapi.yml
   format: yaml
   label: AWS Batch Job Queues API
   slug: aws-batch-job-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-job-queues-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-job-queues-api-openapi.yml
 - filename: aws-batch-jobs-api-openapi.yml
   format: yaml
   label: AWS Batch Jobs API
   slug: aws-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-jobs-api-openapi.yml
 - filename: aws-batch-scheduling-policies-api-openapi.yml
   format: yaml
   label: AWS Batch Scheduling Policies API
   slug: aws-batch-scheduling-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-scheduling-policies-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-scheduling-policies-api-openapi.yml
 - filename: aws-batch-tags-api-openapi.yml
   format: yaml
   label: AWS Batch Tags API
   slug: aws-batch-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/openapi/aws-batch-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-tags-api-openapi.yml
+- filename: aws-batch-operations-api-openapi.yml
+  format: yaml
+  label: AWS Batch Batch Operations API
+  slug: aws-batch-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-batch/openapi/aws-batch-operations-api-openapi.yml
 consequence_counts:
   read: 3
   safety-critical: 1
@@ -84,7 +90,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aws-ba
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/listschedulingpolicies\n  method: post\n  operationId: ListSchedulingPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/updateschedulingpolicy\n  method: post\n  operationId: UpdateSchedulingPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/deleteschedulingpolicy\n  method: post\n  operationId: DeleteSchedulingPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags/{resourceArn}\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/agentic-access/aws-batch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-batch/agentic-access/aws-batch-agentic-access.yml
 summary_line: 24 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Batch Computing
@@ -92,6 +98,7 @@ tags:
 - HPC
 - Job Scheduling
 - Containers
+- Amazon Web Services
 - Managed Service
 - Scheduling
 ---

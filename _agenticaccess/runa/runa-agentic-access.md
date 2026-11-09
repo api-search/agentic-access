@@ -9,25 +9,25 @@ api_specs:
   label: Runa Balance API
   slug: runa-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-balance-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-balance-api-openapi.yml
 - filename: runa-orders-api-openapi.yml
   format: yaml
   label: Runa Orders API
   slug: runa-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-orders-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-orders-api-openapi.yml
 - filename: runa-products-api-openapi.yml
   format: yaml
   label: Runa Products API
   slug: runa-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-products-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-products-api-openapi.yml
 - filename: runa-utilities-api-openapi.yml
   format: yaml
   label: Runa Utilities API
   slug: runa-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/openapi/runa-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/runa/openapi/runa-utilities-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/runa-payouts-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    acting: 2\n    connected: 8\n  by_consequence:\n    physical: 2\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /order\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/estimate\n  method: post\n  operationId: estimateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}\n  method: get\n  operationId:\
   \ getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/agentic-access/runa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/runa/agentic-access/runa-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Gift Cards

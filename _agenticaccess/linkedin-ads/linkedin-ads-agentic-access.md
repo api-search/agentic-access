@@ -9,31 +9,31 @@ api_specs:
   label: LinkedIn Marketing API AdBudgetPricing API
   slug: linkedin-ads-adbudgetpricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
 - filename: linkedin-ads-adtargetingfacets-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API AdTargetingFacets API
   slug: linkedin-ads-adtargetingfacets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
 - filename: linkedin-ads-ad-accounts-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Ad Accounts API
   slug: linkedin-ads-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-ad-accounts-api-openapi.yml
 - filename: linkedin-ads-ad-targeting-entities-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Ad Targeting Entities API
   slug: linkedin-ads-ad-targeting-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-targeting-entities-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-ad-targeting-entities-api-openapi.yml
 - filename: linkedin-ads-audience-counts-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Audience Counts API
   slug: linkedin-ads-audience-counts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-audience-counts-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-audience-counts-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/linked
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - r_ads\n    - rw_ads\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adAccounts/{adAccountId}/adCampaignGroups\n  method: post\n  operationId: createAdCampaignGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - rw_ads\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /adAccounts/{adAccountId}/adCampaigns\n  method: post\n  operationId: createAdCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - rw_ads\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /adAccounts/{adAccountId}/creatives\n\
   \  method: post\n  operationId: createCreative\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - rw_ads\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /adTargetingFacets\n  method: get\n  operationId: listAdTargetingFacets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - r_ads\n    - rw_ads\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adTargetingEntities\n  method: get\n  operationId: getAdTargetingEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - r_ads\n    - rw_ads\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audienceCounts\n  method: get\n  operationId: getAudienceCounts\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    scope:\n    - r_ads\n    - rw_ads\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adBudgetPricing\n  method: get\n  operationId: getAdBudgetPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - r_ads\n    - rw_ads\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/agentic-access/linkedin-ads-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/linkedin-ads/agentic-access/linkedin-ads-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Advertising

@@ -9,49 +9,49 @@ api_specs:
   label: Simplifi/Simplifipay Auth API
   slug: simplifi-simplifipay-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-auth-api-openapi.yml
+  url: https://artifacts.apis.io/simplifi-simplifipay/openapi/simplifi-simplifipay-auth-api-openapi.yml
 - filename: simplifi-simplifipay-card-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay Card API
   slug: simplifi-simplifipay-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-card-api-openapi.yml
+  url: https://artifacts.apis.io/simplifi-simplifipay/openapi/simplifi-simplifipay-card-api-openapi.yml
 - filename: simplifi-simplifipay-card-program-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay Card Program API
   slug: simplifi-simplifipay-card-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-card-program-api-openapi.yml
+  url: https://artifacts.apis.io/simplifi-simplifipay/openapi/simplifi-simplifipay-card-program-api-openapi.yml
 - filename: simplifi-simplifipay-fee-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay Fee API
   slug: simplifi-simplifipay-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-fee-api-openapi.yml
+  url: https://artifacts.apis.io/simplifi-simplifipay/openapi/simplifi-simplifipay-fee-api-openapi.yml
 - filename: simplifi-simplifipay-funding-source-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay Funding Source API
   slug: simplifi-simplifipay-funding-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-funding-source-api-openapi.yml
+  url: https://artifacts.apis.io/simplifi-simplifipay/openapi/simplifi-simplifipay-funding-source-api-openapi.yml
 - filename: simplifi-simplifipay-transaction-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay Transaction API
   slug: simplifi-simplifipay-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/simplifi-simplifipay/openapi/simplifi-simplifipay-transaction-api-openapi.yml
 - filename: simplifi-simplifipay-user-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay User API
   slug: simplifi-simplifipay-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-user-api-openapi.yml
+  url: https://artifacts.apis.io/simplifi-simplifipay/openapi/simplifi-simplifipay-user-api-openapi.yml
 - filename: simplifi-simplifipay-webhook-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay Webhook API
   slug: simplifi-simplifipay-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/simplifi-simplifipay/openapi/simplifi-simplifipay-webhook-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/simpli
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/{uuid}/address/{type}\n  method: post\n  operationId: addUpdateAddressOfUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook/events\n  method: get\n  operationId: getAllEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook\n  method: post\n  operationId: createAWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{uuid}\n  method: put\n  operationId: updateAWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{uuid}\n  method: delete\n  operationId: deleteAWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{uuid}/status\n  method: put\n  operationId: updatesTheStatusOfWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/agentic-access/simplifi-simplifipay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simplifi-simplifipay/agentic-access/simplifi-simplifipay-agentic-access.yml
 summary_line: 52 operations · 38 acting
 tags:
 - Company

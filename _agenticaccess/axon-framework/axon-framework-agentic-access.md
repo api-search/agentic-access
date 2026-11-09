@@ -9,55 +9,55 @@ api_specs:
   label: Axon Framework Applications API
   slug: axon-framework-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-applications-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-applications-api-openapi.yml
 - filename: axon-framework-cluster-api-openapi.yml
   format: yaml
   label: Axon Framework Cluster API
   slug: axon-framework-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-cluster-api-openapi.yml
 - filename: axon-framework-commands-api-openapi.yml
   format: yaml
   label: Axon Framework Commands API
   slug: axon-framework-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-commands-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-commands-api-openapi.yml
 - filename: axon-framework-contexts-api-openapi.yml
   format: yaml
   label: Axon Framework Contexts API
   slug: axon-framework-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-contexts-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-contexts-api-openapi.yml
 - filename: axon-framework-event-processors-api-openapi.yml
   format: yaml
   label: Axon Framework Event Processors API
   slug: axon-framework-event-processors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-event-processors-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-event-processors-api-openapi.yml
 - filename: axon-framework-events-api-openapi.yml
   format: yaml
   label: Axon Framework Events API
   slug: axon-framework-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-events-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-events-api-openapi.yml
 - filename: axon-framework-queries-api-openapi.yml
   format: yaml
   label: Axon Framework Queries API
   slug: axon-framework-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-queries-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-queries-api-openapi.yml
 - filename: axon-framework-snapshots-api-openapi.yml
   format: yaml
   label: Axon Framework Snapshots API
   slug: axon-framework-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-snapshots-api-openapi.yml
 - filename: axon-framework-users-api-openapi.yml
   format: yaml
   label: Axon Framework Users API
   slug: axon-framework-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-users-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-users-api-openapi.yml
 consequence_counts:
   read: 11
   write: 9
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/axon-s
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{username}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cluster\n  method: get\n  operationId: getClusterInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cluster/{nodeName}\n  method: delete\n  operationId: removeNode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processors\n  method: get\n  operationId: listEventProcessors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processors/{processorName}/pause\n  method: patch\n  operationId: pauseEventProcessor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processors/{processorName}/start\n  method: patch\n  operationId: startEventProcessor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/agentic-access/axon-framework-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/axon-framework/agentic-access/axon-framework-agentic-access.yml
 summary_line: 20 operations · 9 acting
 tags:
 - CQRS

@@ -9,49 +9,49 @@ api_specs:
   label: Steadily Account API
   slug: steadily-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-account-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-account-api-openapi.yml
 - filename: steadily-draft-quote-api-openapi.yml
   format: yaml
   label: Steadily Draft Quote API
   slug: steadily-draft-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-draft-quote-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-draft-quote-api-openapi.yml
 - filename: steadily-lead-referrals-api-openapi.yml
   format: yaml
   label: Steadily Lead Referrals API
   slug: steadily-lead-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-lead-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-lead-referrals-api-openapi.yml
 - filename: steadily-lender-api-openapi.yml
   format: yaml
   label: Steadily Lender API
   slug: steadily-lender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-lender-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-lender-api-openapi.yml
 - filename: steadily-policy-api-openapi.yml
   format: yaml
   label: Steadily Policy API
   slug: steadily-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-policy-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-policy-api-openapi.yml
 - filename: steadily-quote-estimates-api-openapi.yml
   format: yaml
   label: Steadily Quote Estimates API
   slug: steadily-quote-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-quote-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-quote-estimates-api-openapi.yml
 - filename: steadily-quote-offer-api-openapi.yml
   format: yaml
   label: Steadily Quote Offer API
   slug: steadily-quote-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-quote-offer-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-quote-offer-api-openapi.yml
 - filename: steadily-reporting-api-openapi.yml
   format: yaml
   label: Steadily Reporting API
   slug: steadily-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/openapi/steadily-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/steadily/openapi/steadily-reporting-api-openapi.yml
 consequence_counts:
   read: 25
   write: 14
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/steadi
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agency/draft_quote\n  method: get\n  operationId: quote_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agency/draft_quote/{quote_id}\n  method: get\n  operationId: quote_info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agency/draft_quote/{quote_id}\n  method: put\n  operationId: quote_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agency/draft_quote/{quote_id}/price\n\
   \  method: get\n  operationId: price_quote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agency/draft_quote/{quote_id}/underwrite\n  method: get\n  operationId: underwriting_info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agency/quote_offer\n  method: post\n  operationId: offer_quote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agency/quote_offer/{offer_id}\n  method: get\n  operationId: get_offer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v1/agency/policy/{policy_id}\n  method: get\n  operationId: get_policy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/agentic-access/steadily-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/steadily/agentic-access/steadily-agentic-access.yml
 summary_line: 39 operations · 14 acting
 tags:
 - Company

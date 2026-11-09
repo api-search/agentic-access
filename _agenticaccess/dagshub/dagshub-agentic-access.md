@@ -9,49 +9,49 @@ api_specs:
   label: DagsHub Branches API
   slug: dagshub-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-branches-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-branches-api-openapi.yml
 - filename: dagshub-issues-api-openapi.yml
   format: yaml
   label: DagsHub Issues API
   slug: dagshub-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-issues-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-issues-api-openapi.yml
 - filename: dagshub-orgs-api-openapi.yml
   format: yaml
   label: DagsHub Orgs API
   slug: dagshub-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-orgs-api-openapi.yml
 - filename: dagshub-repos-api-openapi.yml
   format: yaml
   label: DagsHub Repos API
   slug: dagshub-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-repos-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-repos-api-openapi.yml
 - filename: dagshub-storage-api-openapi.yml
   format: yaml
   label: DagsHub Storage API
   slug: dagshub-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-storage-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-storage-api-openapi.yml
 - filename: dagshub-user-api-openapi.yml
   format: yaml
   label: DagsHub User API
   slug: dagshub-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-user-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-user-api-openapi.yml
 - filename: dagshub-users-api-openapi.yml
   format: yaml
   label: DagsHub Users API
   slug: dagshub-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-users-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-users-api-openapi.yml
 - filename: dagshub-pull-requests-api-openapi.yml
   format: yaml
   label: DagsHub Pull Requests API
   slug: dagshub-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-pull-requests-api-openapi.yml
 consequence_counts:
   read: 18
   write: 8
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dagshu
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}/issues/{index}/comments\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repos/{owner}/{repo}/pulls\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}/pulls\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /repos/{owner}/{repo}/pulls/{index}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}/pulls/{index}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repos/{owner}/{repo}/storage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{owner}/{repo}/storage/{provider}/{name}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /orgs/{org}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/repos\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/repos\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/agentic-access/dagshub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dagshub/agentic-access/dagshub-agentic-access.yml
 summary_line: 26 operations · 8 acting
 tags:
 - Machine Learning

@@ -8,13 +8,13 @@ api_specs:
   label: Envato Market API
   slug: envato-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-market-api-openapi.yml
+  url: https://artifacts.apis.io/envato/openapi/envato-market-api-openapi.yml
 - filename: envato-search-api-openapi.yml
   format: yaml
   label: Envato Search API
   slug: envato-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-search-api-openapi.yml
+  url: https://artifacts.apis.io/envato/openapi/envato-search-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/envato
   - path: /v3/market/catalog/item\n  method: get\n  operationId: getItemById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - default\n- path: /v1/discovery/search/search/item\n  method: get\n  operationId: searchItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - default\n- path: /v3/market/buyer/download\n  method: get\n  operationId: getBuyerDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - default\n- path: /v3/market/buyer/list-purchases\n  method: get\n  operationId: listPurchases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n\
   \    - default\n- path: /v1/market/private/user/account.json\n  method: get\n  operationId: getUserAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - default\n- path: /v1/market/user:username.json\n  method: get\n  operationId: getUserProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - default\n- path: /v1/market/user/items-by-site:json\n  method: get\n  operationId: getUserItemsBySite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - default\n- path: /v1/market/private/user/earnings-and-sales-by-month.json\n  method: get\n  operationId: getEarningsAndSalesByMonth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - default\n- path: /v1/market/private/user/total-deposits.json\n  method: get\n  operationId: getTotalDeposits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - default\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/agentic-access/envato-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/envato/agentic-access/envato-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Stock Media

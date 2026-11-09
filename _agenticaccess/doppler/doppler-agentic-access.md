@@ -9,7 +9,7 @@ api_specs:
   label: Doppler Workplace API
   slug: doppler-workplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-workplace-api-openapi.yml
+  url: https://artifacts.apis.io/doppler/openapi/doppler-workplace-api-openapi.yml
 consequence_counts:
   read: 12
   write: 7
@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dopple
   \  method: delete\n  operationId: deleteConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/configs/config/secrets\n  method: get\n  operationId: listSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/configs/config/secrets\n  method: post\n  operationId: updateSecrets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/configs/config/secret\n  method: get\n  operationId: getSecret\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/configs/config/secrets/download\n  method: get\n  operationId: downloadSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/configs/config/tokens\n  method: get\n  operationId: listServiceTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/configs/config/tokens\n  method: post\n  operationId: createServiceToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/configs/config/webhooks\n  method:\
   \ get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/logs\n  method: get\n  operationId: listActivityLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/agentic-access/doppler-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/doppler/agentic-access/doppler-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
 - Secrets Management

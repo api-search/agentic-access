@@ -9,37 +9,37 @@ api_specs:
   label: DOKU Access Token API
   slug: doku-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-access-token-api-openapi.yml
 - filename: doku-checkout-api-openapi.yml
   format: yaml
   label: DOKU Checkout API
   slug: doku-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-checkout-api-openapi.yml
 - filename: doku-direct-debit-e-wallet-api-openapi.yml
   format: yaml
   label: DOKU Direct Debit & e-Wallet API
   slug: doku-direct-debit-e-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-direct-debit-e-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-direct-debit-e-wallet-api-openapi.yml
 - filename: doku-payout-api-openapi.yml
   format: yaml
   label: DOKU Payout API
   slug: doku-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-payout-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-payout-api-openapi.yml
 - filename: doku-qris-api-openapi.yml
   format: yaml
   label: DOKU QRIS API
   slug: doku-qris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-qris-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-qris-api-openapi.yml
 - filename: doku-virtual-account-api-openapi.yml
   format: yaml
   label: DOKU Virtual Account API
   slug: doku-virtual-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-virtual-account-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-virtual-account-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 1
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/doku-a
   \    audit: required\n- path: /snap-adapter/b2b/v1.0/qr/qr-mpm-query\n  method: post\n  operationId: queryQrisMpm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /snap-adapter/b2b/v1.0/qr/qr-mpm-refund\n  method: post\n  operationId: refundQrisMpm\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual-accounts/bi-snap-va/v1.1/transfer-va/create-va\n  method: post\n  operationId: createVirtualAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual-accounts/bi-snap-va/v1.1/transfer-va/update-va\n  method: put\n  operationId: updateVirtualAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual-accounts/bi-snap-va/v1.1/transfer-va/delete-va\n  method: delete\n  operationId: deleteVirtualAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /virtual-accounts/bi-snap-va/v1.1/transfer-va/inquiry\n  method: post\n  operationId: inquiryVirtualAccountStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/agentic-access/doku-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/doku/agentic-access/doku-agentic-access.yml
 summary_line: 19 operations · 18 acting
 tags:
 - Payments

@@ -9,61 +9,61 @@ api_specs:
   label: Gojiberry AI AppExternal API
   slug: gojiberry-ai-appexternal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-appexternal-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-appexternal-api-openapi.yml
 - filename: gojiberry-ai-campaigns-api-openapi.yml
   format: yaml
   label: Gojiberry AI Campaigns API
   slug: gojiberry-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-campaigns-api-openapi.yml
 - filename: gojiberry-ai-contacts-api-openapi.yml
   format: yaml
   label: Gojiberry AI Contacts API
   slug: gojiberry-ai-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-contacts-api-openapi.yml
 - filename: gojiberry-ai-lead-source-agents-api-openapi.yml
   format: yaml
   label: Gojiberry AI Lead source agents API
   slug: gojiberry-ai-lead-source-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-lead-source-agents-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-lead-source-agents-api-openapi.yml
 - filename: gojiberry-ai-lists-api-openapi.yml
   format: yaml
   label: Gojiberry AI Lists API
   slug: gojiberry-ai-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-lists-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-lists-api-openapi.yml
 - filename: gojiberry-ai-organization-api-openapi.yml
   format: yaml
   label: Gojiberry AI Organization API
   slug: gojiberry-ai-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-organization-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-organization-api-openapi.yml
 - filename: gojiberry-ai-unibox-api-openapi.yml
   format: yaml
   label: Gojiberry AI Unibox API
   slug: gojiberry-ai-unibox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-unibox-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-unibox-api-openapi.yml
 - filename: gojiberry-ai-user-api-openapi.yml
   format: yaml
   label: Gojiberry AI User API
   slug: gojiberry-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-user-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-user-api-openapi.yml
 - filename: gojiberry-ai-directory-api-openapi.yml
   format: yaml
   label: Gojiberry AI Directory API
   slug: gojiberry-ai-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-directory-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-directory-api-openapi.yml
 - filename: gojiberry-ai-email-seat-api-openapi.yml
   format: yaml
   label: Gojiberry AI Email Seat API
   slug: gojiberry-ai-email-seat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-email-seat-api-openapi.yml
+  url: https://artifacts.apis.io/gojiberry-ai/openapi/gojiberry-ai-email-seat-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 9
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/gojibe
   \  method: get\n  operationId: OrganizationExternalController_getOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organization/members\n  method: get\n  operationId: OrganizationExternalController_getOrganizationMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/unibox/contact/{contactId}\n  method: get\n  operationId: UniboxExternalController_getMessagesByContactId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/unibox/threads\n  method: get\n  operationId: UniboxExternalController_getThreads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v1/unibox/threads/{threadId}/messages\n  method: get\n  operationId: UniboxExternalController_getThreadMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/unibox/messages/send-message\n  method: post\n  operationId: UniboxExternalController_sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/user/me\n  method: get\n  operationId: UserExternalController_getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/me/permissions\n  method: get\n  operationId: UserExternalController_getMyPermissions\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/agentic-access/gojiberry-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gojiberry-ai/agentic-access/gojiberry-ai-agentic-access.yml
 summary_line: 28 operations · 9 acting · 9 human-in-the-loop
 tags:
 - Company

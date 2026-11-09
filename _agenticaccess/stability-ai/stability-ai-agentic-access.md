@@ -9,109 +9,109 @@ api_specs:
   label: Stability AI 3D Generation API
   slug: stability-ai-3d-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-3d-generation-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-3d-generation-api-openapi.yml
 - filename: stability-ai-conservative-upscale-api-openapi.yml
   format: yaml
   label: Stability AI Conservative Upscale API
   slug: stability-ai-conservative-upscale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-conservative-upscale-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-conservative-upscale-api-openapi.yml
 - filename: stability-ai-creative-upscale-api-openapi.yml
   format: yaml
   label: Stability AI Creative Upscale API
   slug: stability-ai-creative-upscale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-creative-upscale-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-creative-upscale-api-openapi.yml
 - filename: stability-ai-erase-api-openapi.yml
   format: yaml
   label: Stability AI Erase API
   slug: stability-ai-erase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-erase-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-erase-api-openapi.yml
 - filename: stability-ai-fast-upscale-api-openapi.yml
   format: yaml
   label: Stability AI Fast Upscale API
   slug: stability-ai-fast-upscale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-fast-upscale-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-fast-upscale-api-openapi.yml
 - filename: stability-ai-generate-core-api-openapi.yml
   format: yaml
   label: Stability AI Generate Core API
   slug: stability-ai-generate-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-generate-core-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-generate-core-api-openapi.yml
 - filename: stability-ai-generate-sd3-api-openapi.yml
   format: yaml
   label: Stability AI Generate SD3 API
   slug: stability-ai-generate-sd3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-generate-sd3-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-generate-sd3-api-openapi.yml
 - filename: stability-ai-generate-ultra-api-openapi.yml
   format: yaml
   label: Stability AI Generate Ultra API
   slug: stability-ai-generate-ultra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-generate-ultra-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-generate-ultra-api-openapi.yml
 - filename: stability-ai-image-to-video-api-openapi.yml
   format: yaml
   label: Stability AI Image to Video API
   slug: stability-ai-image-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-image-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-image-to-video-api-openapi.yml
 - filename: stability-ai-inpaint-api-openapi.yml
   format: yaml
   label: Stability AI Inpaint API
   slug: stability-ai-inpaint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-inpaint-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-inpaint-api-openapi.yml
 - filename: stability-ai-outpaint-api-openapi.yml
   format: yaml
   label: Stability AI Outpaint API
   slug: stability-ai-outpaint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-outpaint-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-outpaint-api-openapi.yml
 - filename: stability-ai-remove-background-api-openapi.yml
   format: yaml
   label: Stability AI Remove Background API
   slug: stability-ai-remove-background-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-remove-background-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-remove-background-api-openapi.yml
 - filename: stability-ai-replace-background-and-relight-api-openapi.yml
   format: yaml
   label: Stability AI Replace Background and Relight API
   slug: stability-ai-replace-background-and-relight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-replace-background-and-relight-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-replace-background-and-relight-api-openapi.yml
 - filename: stability-ai-search-and-recolor-api-openapi.yml
   format: yaml
   label: Stability AI Search and Recolor API
   slug: stability-ai-search-and-recolor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-search-and-recolor-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-search-and-recolor-api-openapi.yml
 - filename: stability-ai-search-and-replace-api-openapi.yml
   format: yaml
   label: Stability AI Search and Replace API
   slug: stability-ai-search-and-replace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-search-and-replace-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-search-and-replace-api-openapi.yml
 - filename: stability-ai-sketch-api-openapi.yml
   format: yaml
   label: Stability AI Sketch API
   slug: stability-ai-sketch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-sketch-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-sketch-api-openapi.yml
 - filename: stability-ai-structure-api-openapi.yml
   format: yaml
   label: Stability AI Structure API
   slug: stability-ai-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-structure-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-structure-api-openapi.yml
 - filename: stability-ai-style-api-openapi.yml
   format: yaml
   label: Stability AI Style API
   slug: stability-ai-style-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/openapi/stability-ai-style-api-openapi.yml
+  url: https://artifacts.apis.io/stability-ai/openapi/stability-ai-style-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 3
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stabil
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2beta/stable-image/upscale/fast\n  method: post\n  operationId: upscaleImageFast\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2beta/stable-image/upscale/conservative\n  method: post\n  operationId: upscaleImageConservative\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v2beta/stable-image/upscale/creative\n  method: post\n  operationId: upscaleImageCreative\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2beta/stable-image/upscale/creative/result/{id}\n  method: get\n  operationId: getUpscaleCreativeResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2beta/image-to-video\n  method: post\n  operationId: startImageToVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2beta/image-to-video/result/{id}\n\
   \  method: get\n  operationId: getImageToVideoResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/agentic-access/stability-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stability-ai/agentic-access/stability-ai-agentic-access.yml
 summary_line: 20 operations · 18 acting · 3 human-in-the-loop
 tags:
 - 3D Generation

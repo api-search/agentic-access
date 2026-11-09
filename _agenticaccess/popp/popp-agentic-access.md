@@ -9,109 +9,109 @@ api_specs:
   label: Popp Agents API
   slug: popp-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-agents-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-agents-api-openapi.yml
 - filename: popp-analysis-api-openapi.yml
   format: yaml
   label: Popp Analysis API
   slug: popp-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-analysis-api-openapi.yml
 - filename: popp-ats-api-openapi.yml
   format: yaml
   label: Popp ATS API
   slug: popp-ats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-ats-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-ats-api-openapi.yml
 - filename: popp-campaigns-api-openapi.yml
   format: yaml
   label: Popp Campaigns API
   slug: popp-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-campaigns-api-openapi.yml
 - filename: popp-candidate-lists-api-openapi.yml
   format: yaml
   label: Popp Candidate Lists API
   slug: popp-candidate-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-candidate-lists-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-candidate-lists-api-openapi.yml
 - filename: popp-candidates-api-openapi.yml
   format: yaml
   label: Popp Candidates API
   slug: popp-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-candidates-api-openapi.yml
 - filename: popp-conversations-api-openapi.yml
   format: yaml
   label: Popp Conversations API
   slug: popp-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-conversations-api-openapi.yml
 - filename: popp-custom-fields-beta-api-openapi.yml
   format: yaml
   label: Popp Custom Fields (Beta) API
   slug: popp-custom-fields-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-custom-fields-beta-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-custom-fields-beta-api-openapi.yml
 - filename: popp-document-credentials-api-openapi.yml
   format: yaml
   label: Popp Document Credentials API
   slug: popp-document-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-document-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-document-credentials-api-openapi.yml
 - filename: popp-documents-api-openapi.yml
   format: yaml
   label: Popp Documents API
   slug: popp-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-documents-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-documents-api-openapi.yml
 - filename: popp-organization-configuration-api-openapi.yml
   format: yaml
   label: Popp Organization Configuration API
   slug: popp-organization-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-organization-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-organization-configuration-api-openapi.yml
 - filename: popp-organizations-api-openapi.yml
   format: yaml
   label: Popp Organizations API
   slug: popp-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-organizations-api-openapi.yml
 - filename: popp-scheduling-api-openapi.yml
   format: yaml
   label: Popp Scheduling API
   slug: popp-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-scheduling-api-openapi.yml
 - filename: popp-tags-api-openapi.yml
   format: yaml
   label: Popp Tags API
   slug: popp-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-tags-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-tags-api-openapi.yml
 - filename: popp-templates-api-openapi.yml
   format: yaml
   label: Popp Templates API
   slug: popp-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-templates-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-templates-api-openapi.yml
 - filename: popp-users-api-openapi.yml
   format: yaml
   label: Popp Users API
   slug: popp-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-users-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-users-api-openapi.yml
 - filename: popp-webhooks-api-openapi.yml
   format: yaml
   label: Popp Webhooks API
   slug: popp-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-webhooks-api-openapi.yml
 - filename: popp-workflows-api-openapi.yml
   format: yaml
   label: Popp Workflows API
   slug: popp-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/popp/openapi/popp-workflows-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 55
@@ -190,8 +190,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/popp-a
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/generate-questions\n  method: post\n  operationId: generate-questions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/invite-calendar-contact\n  method: post\n  operationId: invite-calendar-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/meeting-templates\n  method: get\n  operationId: list-meeting-templates\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/meeting-templates\n  method: post\n  operationId: create-meeting-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/meeting-templates/{templateId}\n  method: get\n  operationId: get-meeting-template\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/meeting-templates/{templateId}\n  method: put\n  operationId: update-meeting-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/meeting-templates/{templateId}\n  method: delete\n  operationId: delete-meeting-template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations\n  method: get\n  operationId: list-organizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{id}\n  method: patch\n  operationId: update-organization-details\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{id}\n  method: get\n  operationId: get-organization-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{id}/users\n  method: get\n  operationId: list-organization-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/scheduling/conversations\n  method: post\n  operationId: create-scheduling-conversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/agentic-access/popp-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/agentic-access/popp-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{id}\n  method: get\n  operationId: get-organization-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{id}/users\n  method: get\n  operationId: list-organization-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/scheduling/conversations\n  method: post\n  operationId: create-scheduling-conversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/popp/agentic-access/popp-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/popp/agentic-access/popp-agentic-access.yml
 summary_line: 149 operations · 94 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,61 +9,61 @@ api_specs:
   label: Thumbtack Authentication API
   slug: thumbtack-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-authentication-api-openapi.yml
 - filename: thumbtack-autocomplete-api-openapi.yml
   format: yaml
   label: Thumbtack Autocomplete API
   slug: thumbtack-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-autocomplete-api-openapi.yml
 - filename: thumbtack-categories-api-openapi.yml
   format: yaml
   label: Thumbtack Categories API
   slug: thumbtack-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-categories-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-categories-api-openapi.yml
 - filename: thumbtack-leads-api-openapi.yml
   format: yaml
   label: Thumbtack Leads API
   slug: thumbtack-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-leads-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-leads-api-openapi.yml
 - filename: thumbtack-messages-api-openapi.yml
   format: yaml
   label: Thumbtack Messages API
   slug: thumbtack-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-messages-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-messages-api-openapi.yml
 - filename: thumbtack-orders-api-openapi.yml
   format: yaml
   label: Thumbtack Orders API
   slug: thumbtack-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-orders-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-orders-api-openapi.yml
 - filename: thumbtack-pro-profiles-api-openapi.yml
   format: yaml
   label: Thumbtack Pro Profiles API
   slug: thumbtack-pro-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-pro-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-pro-profiles-api-openapi.yml
 - filename: thumbtack-pros-api-openapi.yml
   format: yaml
   label: Thumbtack Pros API
   slug: thumbtack-pros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-pros-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-pros-api-openapi.yml
 - filename: thumbtack-reviews-api-openapi.yml
   format: yaml
   label: Thumbtack Reviews API
   slug: thumbtack-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-reviews-api-openapi.yml
 - filename: thumbtack-testing-api-openapi.yml
   format: yaml
   label: Thumbtack Testing API
   slug: thumbtack-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-testing-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-testing-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 8
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/thumbt
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/get-thumbtack-info\n  method: get\n  operationId: getThumbtackInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/disconnect-partner\n  method: post\n  operationId: disconnectPartner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/accounts/{accountID}/services/{serviceID}/preferences/targeting\n  method: patch\n  operationId: updateServiceTargetingPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/accounts/{accountID}/services/{serviceID}/categories/{categoryID}/preferences/targeting\n  method: patch\n  operationId: updateCategoryTargetingPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/pros\n  method: get\n  operationId: getPros\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/filtered-pros\n  method: post\n  operationId: getFilteredPros\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/review\n  method: post\n  operationId:\
   \ receiveReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/test/create-lead\n  method: post\n  operationId: createTestLead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/agentic-access/thumbtack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thumbtack/agentic-access/thumbtack-agentic-access.yml
 summary_line: 21 operations · 13 acting
 tags:
 - Local Services

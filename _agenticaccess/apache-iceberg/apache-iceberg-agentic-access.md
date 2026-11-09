@@ -9,19 +9,19 @@ api_specs:
   label: Apache Iceberg Catalog API
   slug: apache-iceberg-catalog-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-catalog-api-api-openapi.yml
+  url: https://artifacts.apis.io/apache-iceberg/openapi/apache-iceberg-catalog-api-api-openapi.yml
 - filename: apache-iceberg-configuration-api-api-openapi.yml
   format: yaml
   label: Apache Iceberg Configuration API
   slug: apache-iceberg-configuration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-configuration-api-api-openapi.yml
+  url: https://artifacts.apis.io/apache-iceberg/openapi/apache-iceberg-configuration-api-api-openapi.yml
 - filename: apache-iceberg-oauth2-api-api-openapi.yml
   format: yaml
   label: Apache Iceberg OAuth2 API
   slug: apache-iceberg-oauth2-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-oauth2-api-api-openapi.yml
+  url: https://artifacts.apis.io/apache-iceberg/openapi/apache-iceberg-oauth2-api-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apache
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/{prefix}/namespaces/{namespace}/views/{view}\n  method: get\n  operationId: loadView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - catalog\n- path: /v1/{prefix}/namespaces/{namespace}/views/{view}\n  method: post\n  operationId: replaceView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/{prefix}/namespaces/{namespace}/views/{view}\n  method: delete\n  operationId: dropView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/{prefix}/namespaces/{namespace}/views/{view}\n  method: head\n  operationId: viewExists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - catalog\n- path: /v1/{prefix}/views/rename\n  method: post\n  operationId: renameView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/{prefix}/namespaces/{namespace}/register-view\n  method: post\n  operationId: registerView\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/config\n  method: get\n  operationId: getConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - catalog\n- path: /v1/oauth/tokens\n  method: post\n  operationId: getToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/agentic-access/apache-iceberg-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-iceberg/agentic-access/apache-iceberg-agentic-access.yml
 summary_line: 32 operations · 19 acting
 tags:
 - ACID

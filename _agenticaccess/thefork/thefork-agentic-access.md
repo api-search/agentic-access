@@ -9,61 +9,61 @@ api_specs:
   label: TheFork Customers API
   slug: thefork-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-customers-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-customers-api-openapi.yml
 - filename: thefork-orders-api-openapi.yml
   format: yaml
   label: TheFork Orders API
   slug: thefork-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-orders-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-orders-api-openapi.yml
 - filename: thefork-reservations-api-openapi.yml
   format: yaml
   label: TheFork Reservations API
   slug: thefork-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-reservations-api-openapi.yml
 - filename: thefork-reviews-api-openapi.yml
   format: yaml
   label: TheFork Reviews API
   slug: thefork-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-reviews-api-openapi.yml
 - filename: thefork-booking-flow-api-openapi.yml
   format: yaml
   label: TheFork Booking flow API
   slug: thefork-booking-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-booking-flow-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-booking-flow-api-openapi.yml
 - filename: thefork-create-api-openapi.yml
   format: yaml
   label: TheFork Create API
   slug: thefork-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-create-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-create-api-openapi.yml
 - filename: thefork-data-api-openapi.yml
   format: yaml
   label: TheFork Data API
   slug: thefork-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-data-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-data-api-openapi.yml
 - filename: thefork-logo-api-openapi.yml
   format: yaml
   label: TheFork Logo API
   slug: thefork-logo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-logo-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-logo-api-openapi.yml
 - filename: thefork-phone-api-openapi.yml
   format: yaml
   label: TheFork Phone API
   slug: thefork-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-phone-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-phone-api-openapi.yml
 - filename: thefork-review-flow-api-openapi.yml
   format: yaml
   label: TheFork Review flow API
   slug: thefork-review-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-review-flow-api-openapi.yml
+  url: https://artifacts.apis.io/thefork/openapi/thefork-review-flow-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/lafour
   \ putV1PosuuidLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restaurants/{id}/customers/phone/{phoneNumber}\n  method: get\n  operationId: findCustomerByPhone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: openOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/close\n  method: post\n  operationId: closeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restaurants/{id}/reservations\n  method: post\n  operationId: createReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reservations/{id}\n  method: get\n  operationId: getReservation\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reservations/{id}\n  method: patch\n  operationId: updateReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reviews/{id}\n  method: get\n  operationId: getReview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/agentic-access/thefork-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thefork/agentic-access/thefork-agentic-access.yml
 summary_line: 29 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Restaurant

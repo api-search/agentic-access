@@ -9,19 +9,19 @@ api_specs:
   label: Pruna AI Content Delivery API
   slug: pruna-ai-content-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-content-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/pruna-ai/openapi/pruna-ai-content-delivery-api-openapi.yml
 - filename: pruna-ai-file-management-api-openapi.yml
   format: yaml
   label: Pruna AI File Management API
   slug: pruna-ai-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/pruna-ai/openapi/pruna-ai-file-management-api-openapi.yml
 - filename: pruna-ai-predictions-api-openapi.yml
   format: yaml
   label: Pruna AI Predictions API
   slug: pruna-ai-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/openapi/pruna-ai-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/pruna-ai/openapi/pruna-ai-predictions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/pruna-ai-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 2\n    connected: 2\n  by_consequence:\n    write: 2\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/predictions\n  method: post\n  operationId: createPrediction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/predictions/status/{id}\n  method: get\n  operationId: getPredictionStatus\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/predictions/delivery/{path}\n  method: get\n  operationId: downloadContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/files\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/agentic-access/pruna-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pruna-ai/agentic-access/pruna-ai-agentic-access.yml
 summary_line: 4 operations · 2 acting
 tags:
 - Company

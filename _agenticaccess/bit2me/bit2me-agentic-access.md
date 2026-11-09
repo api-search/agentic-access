@@ -1,7 +1,7 @@
 ---
-acting_count: 46
+acting_count: 48
 action_class_counts:
-  acting: 46
+  acting: 48
   connected: 66
 api_specs:
 - filename: bit2me-account-api-openapi.yml
@@ -9,99 +9,99 @@ api_specs:
   label: Bit2Me Account API
   slug: bit2me-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-account-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-account-api-openapi.yml
 - filename: bit2me-account-deprecated-methods-api-openapi.yml
   format: yaml
   label: Bit2Me Account Deprecated Methods API
   slug: bit2me-account-deprecated-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-account-deprecated-methods-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-account-deprecated-methods-api-openapi.yml
 - filename: bit2me-auth-api-openapi.yml
   format: yaml
   label: Bit2Me Auth API
   slug: bit2me-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-auth-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-auth-api-openapi.yml
 - filename: bit2me-blockchain-manager-api-openapi.yml
   format: yaml
   label: Bit2Me Blockchain Manager API
   slug: bit2me-blockchain-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-blockchain-manager-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-blockchain-manager-api-openapi.yml
 - filename: bit2me-brokerage-api-openapi.yml
   format: yaml
   label: Bit2Me Brokerage API
   slug: bit2me-brokerage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-brokerage-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-brokerage-api-openapi.yml
 - filename: bit2me-compliance-api-openapi.yml
   format: yaml
   label: Bit2Me Compliance API
   slug: bit2me-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-compliance-api-openapi.yml
 - filename: bit2me-currency-api-openapi.yml
   format: yaml
   label: Bit2Me Currency API
   slug: bit2me-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-currency-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-currency-api-openapi.yml
 - filename: bit2me-earn-api-openapi.yml
   format: yaml
   label: Bit2Me Earn API
   slug: bit2me-earn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-earn-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-earn-api-openapi.yml
 - filename: bit2me-loan-api-openapi.yml
   format: yaml
   label: Bit2Me Loan API
   slug: bit2me-loan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-loan-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-loan-api-openapi.yml
 - filename: bit2me-misc-api-openapi.yml
   format: yaml
   label: Bit2Me Misc API
   slug: bit2me-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-misc-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-misc-api-openapi.yml
 - filename: bit2me-pay-api-openapi.yml
   format: yaml
   label: Bit2Me Pay API
   slug: bit2me-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-pay-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-pay-api-openapi.yml
 - filename: bit2me-teller-api-openapi.yml
   format: yaml
   label: Bit2Me Teller API
   slug: bit2me-teller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-teller-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-teller-api-openapi.yml
 - filename: bit2me-trading-api-openapi.yml
   format: yaml
   label: Bit2Me Trading API
   slug: bit2me-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-trading-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-trading-api-openapi.yml
 - filename: bit2me-verifier-api-openapi.yml
   format: yaml
   label: Bit2Me Verifier API
   slug: bit2me-verifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-verifier-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-verifier-api-openapi.yml
 - filename: bit2me-verifier-deprecated-methods-api-openapi.yml
   format: yaml
   label: Bit2Me Verifier Deprecated Methods API
   slug: bit2me-verifier-deprecated-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-verifier-deprecated-methods-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-verifier-deprecated-methods-api-openapi.yml
 - filename: bit2me-wallet-api-openapi.yml
   format: yaml
   label: Bit2Me Wallet API
   slug: bit2me-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/openapi/bit2me-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/bit2me/openapi/bit2me-wallet-api-openapi.yml
 consequence_counts:
-  physical: 20
+  physical: 22
   read: 66
   write: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -211,12 +211,22 @@ notable_actions:
   consequence: physical
   human_in_the_loop: conditional
   method: POST
+  path: /v2/social-pay/order
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /v2/social-pay/order/claim
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
   path: /v3/social-pay/order
-operation_count: 112
-overview: 'Bit2Me exposes 112 API operations that an AI agent could call, of which 46 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+operation_count: 114
+overview: 'Bit2Me exposes 114 API operations that an AI agent could call, of which 48 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 66 read, 26 write, and 20 physical.
+  By consequence: 66 read, 26 write, and 22 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -226,7 +236,7 @@ slug: bit2me-agentic-access
 source_filename: bit2me-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/bit2me-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 112\n  by_action_class:\n    acting: 46\n    connected: 66\n  by_consequence:\n    write: 26\n    read: 66\n    physical: 20\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/account\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/address\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+source_yaml: "generated: '2026-10-28'\nmethod: generated\nsource: openapi/bit2me-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 114\n  by_action_class:\n    acting: 48\n    connected: 66\n  by_consequence:\n    write: 26\n    read: 66\n    physical: 22\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/account\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/address\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/address\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/deposit-estimation\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/employment-status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/funds-origin\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/professions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/purposes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/settings/sfa\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/settings/sfa\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/subaccount\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/subaccount\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/subaccount/sfa\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/subaccount/sfa\n\
@@ -253,16 +263,16 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/bit2me
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallet/transaction/proforma\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallet/transaction/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/wallet/transaction/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/address\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/account/address\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/blockchain-manager/travel-rule-order/{orderId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/currency/assets\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/currency/assets/{symbol}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/earn/apy\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/earn/assets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/earn/wallets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/loan/currency/configuration\n  method: get\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/trading/market-config\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/trading/order-book\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/trading/tickers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wallet/pocket/{pocketId}/{network}/address\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wallet/transaction\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/account\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/account/verify/identity/init\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/currency/chart\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/currency/ticker/{symbol}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /v3/signin/sfa\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/social-pay/order\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/wallet/transaction\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bit2me/refs/heads/main/agentic-access/bit2me-agentic-access.yml
-summary_line: 112 operations · 46 acting
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/social-pay/order\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/social-pay/order/claim\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/trading/market-config\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/trading/order-book\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/trading/tickers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wallet/pocket/{pocketId}/{network}/address\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wallet/transaction\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/account\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
+  \      max-ttl: 3600\n    audit: none\n- path: /v3/account/verify/identity/init\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/currency/chart\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/currency/ticker/{symbol}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/signin/sfa\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/social-pay/order\n  method: post\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/wallet/transaction\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml_url: https://artifacts.apis.io/bit2me/agentic-access/bit2me-agentic-access.yml
+summary_line: 114 operations · 48 acting
 tags:
 - Company
 - Cryptocurrency
-- FinTech
-- Payments
+- Fintech
 - Exchange
-- Blockchain
+- Payments
 ---

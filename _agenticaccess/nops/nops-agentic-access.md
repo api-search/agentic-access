@@ -9,13 +9,13 @@ api_specs:
   label: nOps Essentials Scheduler API
   slug: nops-essentials-scheduler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/openapi/nops-essentials-scheduler-api-openapi.yml
+  url: https://artifacts.apis.io/nops/openapi/nops-essentials-scheduler-api-openapi.yml
 - filename: nops-map-migration-api-openapi.yml
   format: yaml
   label: nOps MAP Migration API
   slug: nops-map-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/openapi/nops-map-migration-api-openapi.yml
+  url: https://artifacts.apis.io/nops/openapi/nops-map-migration-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nops-n
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /svc/k8s_cost/recommendations/essentials/scheduler/utilization/\n  method: get\n  operationId: getSchedulerUtilizationRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /svc/k8s_cost/recommendations/essentials/scheduler/utilization/summary/\n  method: get\n  operationId: getSchedulerUtilizationSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /svc/notifications/scheduler/nops_scheduler\n  method: post\n  operationId: createScheduler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /svc/notifications/scheduler/{id}/trigger\n  method: post\n  operationId: triggerScheduler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /svc/notifications/scheduler/{id}/enable\n  method: post\n  operationId: enableScheduler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /svc/notifications/scheduler/{id}/disable\n  method: post\n  operationId: disableScheduler\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/agentic-access/nops-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nops/agentic-access/nops-agentic-access.yml
 summary_line: 12 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Costs

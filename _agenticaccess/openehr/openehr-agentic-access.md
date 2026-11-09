@@ -9,97 +9,97 @@ api_specs:
   label: openEHR ADL1.4 API
   slug: openehr-adl1-4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-adl1-4-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-adl1-4-api-openapi.yml
 - filename: openehr-adl2-api-openapi.yml
   format: yaml
   label: openEHR ADL2 API
   slug: openehr-adl2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-adl2-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-adl2-api-openapi.yml
 - filename: openehr-agent-api-openapi.yml
   format: yaml
   label: openEHR AGENT API
   slug: openehr-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-agent-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-agent-api-openapi.yml
 - filename: openehr-composition-api-openapi.yml
   format: yaml
   label: openEHR COMPOSITION API
   slug: openehr-composition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-composition-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-composition-api-openapi.yml
 - filename: openehr-contribution-api-openapi.yml
   format: yaml
   label: openEHR CONTRIBUTION API
   slug: openehr-contribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-contribution-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-contribution-api-openapi.yml
 - filename: openehr-directory-api-openapi.yml
   format: yaml
   label: openEHR DIRECTORY API
   slug: openehr-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-directory-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-directory-api-openapi.yml
 - filename: openehr-ehr-api-openapi.yml
   format: yaml
   label: openEHR EHR API
   slug: openehr-ehr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-ehr-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-ehr-api-openapi.yml
 - filename: openehr-ehr-status-api-openapi.yml
   format: yaml
   label: openEHR EHR STATUS API
   slug: openehr-ehr-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-ehr-status-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-ehr-status-api-openapi.yml
 - filename: openehr-group-api-openapi.yml
   format: yaml
   label: openEHR GROUP API
   slug: openehr-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-group-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-group-api-openapi.yml
 - filename: openehr-item-tag-api-openapi.yml
   format: yaml
   label: openEHR ITEM TAG API
   slug: openehr-item-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-item-tag-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-item-tag-api-openapi.yml
 - filename: openehr-options-api-openapi.yml
   format: yaml
   label: openEHR Options API
   slug: openehr-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-options-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-options-api-openapi.yml
 - filename: openehr-organisation-api-openapi.yml
   format: yaml
   label: openEHR ORGANISATION API
   slug: openehr-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-organisation-api-openapi.yml
 - filename: openehr-person-api-openapi.yml
   format: yaml
   label: openEHR PERSON API
   slug: openehr-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-person-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-person-api-openapi.yml
 - filename: openehr-query-api-openapi.yml
   format: yaml
   label: openEHR Query API
   slug: openehr-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-query-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-query-api-openapi.yml
 - filename: openehr-role-api-openapi.yml
   format: yaml
   label: openEHR ROLE API
   slug: openehr-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-role-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-role-api-openapi.yml
 - filename: openehr-versioned-party-api-openapi.yml
   format: yaml
   label: openEHR VERSIONED PARTY API
   slug: openehr-versioned-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-versioned-party-api-openapi.yml
+  url: https://artifacts.apis.io/openehr/openapi/openehr-versioned-party-api-openapi.yml
 consequence_counts:
   read: 48
   write: 49
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: generated\nsource: openapi/openeh
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ehr/{ehr_id}/ehr_status/{uid_based_id}/tags\n  method: put\n  operationId: ehr_status_tags_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ehr/{ehr_id}/ehr_status/{uid_based_id}/tags/{key}\n  method: delete\n  operationId: ehr_status_tags_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /query/aql\n  method: get\n  operationId: query_execute_adhoc_query\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/aql\n  method: post\n  operationId: query_execute_adhoc_query_body\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /query/{qualified_query_name}\n  method: get\n  operationId: query_execute_stored_query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/{qualified_query_name}\n  method: post\n  operationId: query_execute_stored_query_body\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /query/{qualified_query_name}/{version}\n  method: get\n  operationId: query_execute_stored_query_version\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/{qualified_query_name}/{version}\n  method: post\n  operationId: query_execute_stored_query_version_body\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: options\n  operationId: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/agentic-access/openehr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openehr/agentic-access/openehr-agentic-access.yml
 summary_line: 97 operations · 49 acting
 tags:
 - openEHR
@@ -172,5 +172,5 @@ tags:
 - ADL
 - Clinical Modelling
 - Reference Model
-- Not-for-Profit
+- Not-for-profit
 ---

@@ -9,43 +9,43 @@ api_specs:
   label: Tripleseat Accounts API
   slug: tripleseat-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-accounts-api-openapi.yml
 - filename: tripleseat-contacts-api-openapi.yml
   format: yaml
   label: Tripleseat Contacts API
   slug: tripleseat-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-contacts-api-openapi.yml
 - filename: tripleseat-events-api-openapi.yml
   format: yaml
   label: Tripleseat Events API
   slug: tripleseat-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-events-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-events-api-openapi.yml
 - filename: tripleseat-leads-api-openapi.yml
   format: yaml
   label: Tripleseat Leads API
   slug: tripleseat-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-leads-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-leads-api-openapi.yml
 - filename: tripleseat-locations-api-openapi.yml
   format: yaml
   label: Tripleseat Locations API
   slug: tripleseat-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-locations-api-openapi.yml
 - filename: tripleseat-sites-api-openapi.yml
   format: yaml
   label: Tripleseat Sites API
   slug: tripleseat-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-sites-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-sites-api-openapi.yml
 - filename: tripleseat-users-api-openapi.yml
   format: yaml
   label: Tripleseat Users API
   slug: tripleseat-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-users-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 3
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/triple
   \  method: get\n  operationId: searchEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts.json\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}.json\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}.json\n  method: put\n  operationId: updateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /v1/contacts.json\n  method: post\n  operationId: createContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/locations.json\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sites.json\n  method: get\n  operationId: listSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users.json\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}.json\n\
   \  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/agentic-access/tripleseat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tripleseat/agentic-access/tripleseat-agentic-access.yml
 summary_line: 15 operations · 3 acting
 tags:
 - Restaurant

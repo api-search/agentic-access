@@ -8,7 +8,55 @@ api_specs:
   label: Amazon Organizations API
   slug: amazon-organizations-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/openapi/amazon-organizations-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-organizations/openapi/amazon-organizations-organizations-api-openapi.yml
+- filename: amazon-organizations-account-api-openapi.yml
+  format: yaml
+  label: Amazon Organizations Organizations Account API
+  slug: amazon-organizations-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-organizations/openapi/amazon-organizations-account-api-openapi.yml
+- filename: amazon-organizations-aws-service-access-api-openapi.yml
+  format: yaml
+  label: Amazon Organizations Organizations Aws Service Access API
+  slug: amazon-organizations-aws-service-access-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-organizations/openapi/amazon-organizations-aws-service-access-api-openapi.yml
+- filename: amazon-organizations-delegated-administrator-api-openapi.yml
+  format: yaml
+  label: Amazon Organizations Organizations Delegated Administrator API
+  slug: amazon-organizations-delegated-administrator-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-organizations/openapi/amazon-organizations-delegated-administrator-api-openapi.yml
+- filename: amazon-organizations-handshake-api-openapi.yml
+  format: yaml
+  label: Amazon Organizations Organizations Handshake API
+  slug: amazon-organizations-handshake-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-organizations/openapi/amazon-organizations-handshake-api-openapi.yml
+- filename: amazon-organizations-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Organizations Organizations Operations API
+  slug: amazon-organizations-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-organizations/openapi/amazon-organizations-operations-api-openapi.yml
+- filename: amazon-organizations-organizational-unit-api-openapi.yml
+  format: yaml
+  label: Amazon Organizations Organizations Organizational Unit API
+  slug: amazon-organizations-organizational-unit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-organizations/openapi/amazon-organizations-organizational-unit-api-openapi.yml
+- filename: amazon-organizations-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Organizations Organizations Policy API
+  slug: amazon-organizations-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-organizations/openapi/amazon-organizations-policy-api-openapi.yml
+- filename: amazon-organizations-resource-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Organizations Organizations Resource Policy API
+  slug: amazon-organizations-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-organizations/openapi/amazon-organizations-resource-policy-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -34,10 +82,11 @@ source_filename: amazon-organizations-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-organizations-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1\n  by_action_class:\n    acting: 1\n  by_consequence:\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: post\n  operationId: CreateOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/agentic-access/amazon-organizations-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-organizations/agentic-access/amazon-organizations-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
 - Account Management
+- Amazon Web Services
 - Consolidated Billing
 - Governance
 - Multi-Account

@@ -9,37 +9,37 @@ api_specs:
   label: GrowthZone Certifications API
   slug: growthzone-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-certifications-api-openapi.yml
 - filename: growthzone-contacts-api-openapi.yml
   format: yaml
   label: GrowthZone Contacts API
   slug: growthzone-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-contacts-api-openapi.yml
 - filename: growthzone-events-api-openapi.yml
   format: yaml
   label: GrowthZone Events API
   slug: growthzone-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-events-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-events-api-openapi.yml
 - filename: growthzone-groups-directory-api-openapi.yml
   format: yaml
   label: GrowthZone Groups & Directory API
   slug: growthzone-groups-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-groups-directory-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-groups-directory-api-openapi.yml
 - filename: growthzone-memberships-api-openapi.yml
   format: yaml
   label: GrowthZone Memberships API
   slug: growthzone-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-memberships-api-openapi.yml
 - filename: growthzone-scheduled-billing-api-openapi.yml
   format: yaml
   label: GrowthZone Scheduled Billing API
   slug: growthzone-scheduled-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/openapi/growthzone-scheduled-billing-api-openapi.yml
+  url: https://artifacts.apis.io/growthzone/openapi/growthzone-scheduled-billing-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 19
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/growth
   \   audit: none\n- path: /memberships/types\n  method: get\n  operationId: listMembershipTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /memberships/all\n  method: post\n  operationId: listAllMemberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduledbilling/membershiptype/items\n  method: post\n  operationId: previewScheduledBillingItems\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduledbilling/membershiptype/items/export\n  method: post\n  operationId: exportScheduledBillingItems\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduledbilling/membershiptype/items/run/setup\n  method: post\n  operationId: setupScheduledBillingRun\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduledbilling/membershiptype/items/run\n  method: post\n  operationId: runScheduledBilling\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduledbilling/membershiptype/run/history\n  method: get\n  operationId: listScheduledBillingRunHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduledbilling/membershiptype/run/history/download/{systemjobid}\n  method: post\n  operationId: downloadScheduledBillingRun\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/agentic-access/growthzone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/growthzone/agentic-access/growthzone-agentic-access.yml
 summary_line: 25 operations · 6 acting
 tags:
 - Association Management

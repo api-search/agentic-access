@@ -9,31 +9,31 @@ api_specs:
   label: Clawvisor Auth API
   slug: clawvisor-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-auth-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-auth-api-openapi.yml
 - filename: clawvisor-catalog-api-openapi.yml
   format: yaml
   label: Clawvisor Catalog API
   slug: clawvisor-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-catalog-api-openapi.yml
 - filename: clawvisor-gateway-api-openapi.yml
   format: yaml
   label: Clawvisor Gateway API
   slug: clawvisor-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-gateway-api-openapi.yml
 - filename: clawvisor-tasks-api-openapi.yml
   format: yaml
   label: Clawvisor Tasks API
   slug: clawvisor-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-tasks-api-openapi.yml
 - filename: clawvisor-tokens-api-openapi.yml
   format: yaml
   label: Clawvisor Tokens API
   slug: clawvisor-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/openapi/clawvisor-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/clawvisor/openapi/clawvisor-tokens-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 1
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/clawvi
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/gateway/request\n  method: post\n  operationId: gatewayRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/gateway/request/{request_id}/execute\n  method: post\n  operationId: executeGatewayRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tokens\n  method:\
   \ post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tokens\n  method: get\n  operationId: listTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tokens/{id}\n  method: delete\n  operationId: revokeToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/auth/magic\n  method: post\n  operationId: authMagic\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/agentic-access/clawvisor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clawvisor/agentic-access/clawvisor-agentic-access.yml
 summary_line: 12 operations · 8 acting · 1 human-in-the-loop
 tags:
 - AI Agents

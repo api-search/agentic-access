@@ -21,283 +21,283 @@ api_specs:
   label: Moody's RMS Account V1 API
   slug: moodys-rms-accountv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-accountv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-accountv1-api-openapi.yml
 - filename: moodys-rms-aggregate-portfoliov1-api-openapi.yml
   format: yaml
   label: Moody's RMS Aggregate PortfolioV1 API
   slug: moodys-rms-aggregate-portfoliov1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-aggregate-portfoliov1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-aggregate-portfoliov1-api-openapi.yml
 - filename: moodys-rms-aggregate-portfoliov2-api-openapi.yml
   format: yaml
   label: Moody's RMS Aggregate PortfolioV2 API
   slug: moodys-rms-aggregate-portfoliov2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-aggregate-portfoliov2-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-aggregate-portfoliov2-api-openapi.yml
 - filename: moodys-rms-analysis-groupsv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Analysis GroupsV1 API
   slug: moodys-rms-analysis-groupsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-analysis-groupsv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-analysis-groupsv1-api-openapi.yml
 - filename: moodys-rms-analysis-groupsv2-api-openapi.yml
   format: yaml
   label: Moody's RMS Analysis GroupsV2 API
   slug: moodys-rms-analysis-groupsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-analysis-groupsv2-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-analysis-groupsv2-api-openapi.yml
 - filename: moodys-rms-branchv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Branch V1 API
   slug: moodys-rms-branchv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-branchv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-branchv1-api-openapi.yml
 - filename: moodys-rms-cedantv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Cedant V1 API
   slug: moodys-rms-cedantv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-cedantv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-cedantv1-api-openapi.yml
 - filename: moodys-rms-client-ip-api-openapi.yml
   format: yaml
   label: Moody's RMS Client IP API
   slug: moodys-rms-client-ip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-client-ip-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-client-ip-api-openapi.yml
 - filename: moodys-rms-cluster-api-openapi.yml
   format: yaml
   label: Moody's RMS Cluster API
   slug: moodys-rms-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-cluster-api-openapi.yml
 - filename: moodys-rms-composite-api-openapi.yml
   format: yaml
   label: Moody's RMS Composite API
   slug: moodys-rms-composite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-composite-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-composite-api-openapi.yml
 - filename: moodys-rms-databases-api-openapi.yml
   format: yaml
   label: Moody's RMS Databases API
   slug: moodys-rms-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-databases-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-databases-api-openapi.yml
 - filename: moodys-rms-datasourcesv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Datasources V1 API
   slug: moodys-rms-datasourcesv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-datasourcesv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-datasourcesv1-api-openapi.yml
 - filename: moodys-rms-datasourcesv2-api-openapi.yml
   format: yaml
   label: Moody's RMS Datasources V2 API
   slug: moodys-rms-datasourcesv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-datasourcesv2-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-datasourcesv2-api-openapi.yml
 - filename: moodys-rms-datastorev1-api-openapi.yml
   format: yaml
   label: Moody's RMS Datastore V1 API
   slug: moodys-rms-datastorev1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-datastorev1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-datastorev1-api-openapi.yml
 - filename: moodys-rms-datastorev2-api-openapi.yml
   format: yaml
   label: Moody's RMS Datastore V2 API
   slug: moodys-rms-datastorev2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-datastorev2-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-datastorev2-api-openapi.yml
 - filename: moodys-rms-domainsv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Domains V1 API
   slug: moodys-rms-domainsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-domainsv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-domainsv1-api-openapi.yml
 - filename: moodys-rms-earthquake-hazard-lookup-api-openapi.yml
   format: yaml
   label: Moody's RMS Earthquake Hazard Lookup API
   slug: moodys-rms-earthquake-hazard-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-earthquake-hazard-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-earthquake-hazard-lookup-api-openapi.yml
 - filename: moodys-rms-exportsv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Exports V1 API
   slug: moodys-rms-exportsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-exportsv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-exportsv1-api-openapi.yml
 - filename: moodys-rms-exportsv2-api-openapi.yml
   format: yaml
   label: Moody's RMS Exports V2 API
   slug: moodys-rms-exportsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-exportsv2-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-exportsv2-api-openapi.yml
 - filename: moodys-rms-exposure-batchv3-api-openapi.yml
   format: yaml
   label: Moody's RMS Exposure BatchV3 API
   slug: moodys-rms-exposure-batchv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-exposure-batchv3-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-exposure-batchv3-api-openapi.yml
 - filename: moodys-rms-exposure-setsv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Exposure SetsV1 API
   slug: moodys-rms-exposure-setsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-exposure-setsv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-exposure-setsv1-api-openapi.yml
 - filename: moodys-rms-file-storagev1-api-openapi.yml
   format: yaml
   label: Moody's RMS File StorageV1 API
   slug: moodys-rms-file-storagev1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-file-storagev1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-file-storagev1-api-openapi.yml
 - filename: moodys-rms-geocoding-api-openapi.yml
   format: yaml
   label: Moody's RMS Geocoding API
   slug: moodys-rms-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-geocoding-api-openapi.yml
 - filename: moodys-rms-import-upload-api-openapi.yml
   format: yaml
   label: Moody's RMS Import Upload API
   slug: moodys-rms-import-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-import-upload-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-import-upload-api-openapi.yml
 - filename: moodys-rms-importsv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Imports V1 API
   slug: moodys-rms-importsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-importsv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-importsv1-api-openapi.yml
 - filename: moodys-rms-jobs-api-openapi.yml
   format: yaml
   label: Moody's RMS Jobs API
   slug: moodys-rms-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-jobs-api-openapi.yml
 - filename: moodys-rms-line-of-businessv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Line of BusinessV1 API
   slug: moodys-rms-line-of-businessv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-line-of-businessv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-line-of-businessv1-api-openapi.yml
 - filename: moodys-rms-locationv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Location V1 API
   slug: moodys-rms-locationv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-locationv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-locationv1-api-openapi.yml
 - filename: moodys-rms-logins-api-openapi.yml
   format: yaml
   label: Moody's RMS Logins API
   slug: moodys-rms-logins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-logins-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-logins-api-openapi.yml
 - filename: moodys-rms-metricsv2-api-openapi.yml
   format: yaml
   label: Moody's RMS Metrics V2 API
   slug: moodys-rms-metricsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-metricsv2-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-metricsv2-api-openapi.yml
 - filename: moodys-rms-patev1-api-openapi.yml
   format: yaml
   label: Moody's RMS Pate V1 API
   slug: moodys-rms-patev1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-patev1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-patev1-api-openapi.yml
 - filename: moodys-rms-policy-conditionv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Policy ConditionV1 API
   slug: moodys-rms-policy-conditionv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-policy-conditionv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-policy-conditionv1-api-openapi.yml
 - filename: moodys-rms-policyv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Policy V1 API
   slug: moodys-rms-policyv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-policyv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-policyv1-api-openapi.yml
 - filename: moodys-rms-portfoliov1-api-openapi.yml
   format: yaml
   label: Moody's RMS Portfolio V1 API
   slug: moodys-rms-portfoliov1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-portfoliov1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-portfoliov1-api-openapi.yml
 - filename: moodys-rms-portfoliov2-api-openapi.yml
   format: yaml
   label: Moody's RMS Portfolio V2 API
   slug: moodys-rms-portfoliov2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-portfoliov2-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-portfoliov2-api-openapi.yml
 - filename: moodys-rms-producerv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Producer V1 API
   slug: moodys-rms-producerv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-producerv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-producerv1-api-openapi.yml
 - filename: moodys-rms-reportsv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Reports V1 API
   slug: moodys-rms-reportsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-reportsv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-reportsv1-api-openapi.yml
 - filename: moodys-rms-risk-lookups-api-openapi.yml
   format: yaml
   label: Moody's RMS Risk Lookups API
   slug: moodys-rms-risk-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-risk-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-risk-lookups-api-openapi.yml
 - filename: moodys-rms-server-instances-api-openapi.yml
   format: yaml
   label: Moody's RMS Server Instances API
   slug: moodys-rms-server-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-server-instances-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-server-instances-api-openapi.yml
 - filename: moodys-rms-step-policyv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Step PolicyV1 API
   slug: moodys-rms-step-policyv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-step-policyv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-step-policyv1-api-openapi.yml
 - filename: moodys-rms-treatyv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Treaty V1 API
   slug: moodys-rms-treatyv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-treatyv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-treatyv1-api-openapi.yml
 - filename: moodys-rms-underwriterv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Underwriter V1 API
   slug: moodys-rms-underwriterv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-underwriterv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-underwriterv1-api-openapi.yml
 - filename: moodys-rms-utilityv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Utility V1 API
   slug: moodys-rms-utilityv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-utilityv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-utilityv1-api-openapi.yml
 - filename: moodys-rms-windstorm-hazard-lookup-api-openapi.yml
   format: yaml
   label: Moody's RMS Windstorm Hazard Lookup API
   slug: moodys-rms-windstorm-hazard-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-windstorm-hazard-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-windstorm-hazard-lookup-api-openapi.yml
 - filename: moodys-rms-workflowsv1-api-openapi.yml
   format: yaml
   label: Moody's RMS Workflows V1 API
   slug: moodys-rms-workflowsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-workflowsv1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-workflowsv1-api-openapi.yml
 - filename: moodys-rms-account-v2-api-openapi.yml
   format: yaml
   label: Moody's RMS Account V2 API
   slug: moodys-rms-account-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-account-v2-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-account-v2-api-openapi.yml
 - filename: moodys-rms-metrics-v1-api-openapi.yml
   format: yaml
   label: Moody's RMS Metrics V1 API
   slug: moodys-rms-metrics-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/openapi/moodys-rms-metrics-v1-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-rms/openapi/moodys-rms-metrics-v1-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 322
@@ -371,8 +371,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/moodys
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/branches/{id}\n  method: put\n  operationId: updateBranch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/branches/{id}\n  method: delete\n  operationId: deleteBranch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cedants\n  method: get\n  operationId: getCedants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cedants\n  method: post\n  operationId:\
   \ createCedant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cedants/{id}\n  method: get\n  operationId: getCedantById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cedants/{id}\n  method: put\n  operationId: updateCedant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cedants/{id}\n  method: delete\n  operationId: deleteCedant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/MyIp\n  method: get\n  operationId: getclientip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Cluster\n  method: get\n  operationId: getAcl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Cluster/allowed-ips\n  method: get\n  operationId: getipaddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Cluster/allowed-ips\n  method: put\n  operationId: updateacl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/Cluster/allowed-ips\n  method: patch\n  operationId: overwriteacl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/Cluster/allowed-ips/{ipAddress}\n  method: delete\n  operationId: deleteipaddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (231 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/agentic-access/moodys-rms-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/agentic-access/moodys-rms-agentic-access.yml
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/Cluster/allowed-ips\n  method: patch\n  operationId: overwriteacl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/Cluster/allowed-ips/{ipAddress}\n  method: delete\n  operationId: deleteipaddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (231 KB total) ---\n# Full source: https://artifacts.apis.io/moodys-rms/agentic-access/moodys-rms-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/moodys-rms/agentic-access/moodys-rms-agentic-access.yml
 summary_line: 780 operations · 458 acting · 1 human-in-the-loop
 tags:
 - Insurance

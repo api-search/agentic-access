@@ -9,91 +9,91 @@ api_specs:
   label: Context.dev Brand Intelligence API
   slug: contextdev-brand-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-brand-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-brand-intelligence-api-openapi.yml
 - filename: contextdev-monitors-api-openapi.yml
   format: yaml
   label: Context.dev Monitors API
   slug: contextdev-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-monitors-api-openapi.yml
 - filename: contextdev-parsing-api-openapi.yml
   format: yaml
   label: Context.dev Parsing API
   slug: contextdev-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-parsing-api-openapi.yml
 - filename: contextdev-people-api-openapi.yml
   format: yaml
   label: Context.dev People API
   slug: contextdev-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-people-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-people-api-openapi.yml
 - filename: contextdev-utility-api-openapi.yml
   format: yaml
   label: Context.dev Utility API
   slug: contextdev-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-utility-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-utility-api-openapi.yml
 - filename: contextdev-web-extraction-api-openapi.yml
   format: yaml
   label: Context.dev Web Extraction API
   slug: contextdev-web-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-web-extraction-api-openapi.yml
 - filename: contextdev-web-scraping-api-openapi.yml
   format: yaml
   label: Context.dev Web Scraping API
   slug: contextdev-web-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-web-scraping-api-openapi.yml
 - filename: contextdev-agent-feedback-api-openapi.yml
   format: yaml
   label: Context.dev Agent Feedback API
   slug: contextdev-agent-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-agent-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-agent-feedback-api-openapi.yml
 - filename: contextdev-answers-api-openapi.yml
   format: yaml
   label: Context.dev Answers API
   slug: contextdev-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-answers-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-answers-api-openapi.yml
 - filename: contextdev-batches-api-openapi.yml
   format: yaml
   label: Context.dev Batches API
   slug: contextdev-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-batches-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-batches-api-openapi.yml
 - filename: contextdev-browser-profiles-api-openapi.yml
   format: yaml
   label: Context.dev Browser Profiles API
   slug: contextdev-browser-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-browser-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-browser-profiles-api-openapi.yml
 - filename: contextdev-logs-api-openapi.yml
   format: yaml
   label: Context.dev Logs API
   slug: contextdev-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-logs-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-logs-api-openapi.yml
 - filename: contextdev-news-api-openapi.yml
   format: yaml
   label: Context.dev News API
   slug: contextdev-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-news-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-news-api-openapi.yml
 - filename: contextdev-usage-api-openapi.yml
   format: yaml
   label: Context.dev Usage API
   slug: contextdev-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-usage-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-usage-api-openapi.yml
 - filename: contextdev-webhooks-api-openapi.yml
   format: yaml
   label: Context.dev Webhooks API
   slug: contextdev-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-webhooks-api-openapi.yml
 consequence_counts:
   read: 29
   write: 13
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/contex
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /brand/ai/query\n  method: post\n  operationId: postBrandAiQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /brand/ai/product\n  method: post\n  operationId: postBrandAiProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /brand/ai/products\n  method: post\n  operationId: postBrandAiProducts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /web/scrape/html\n  method: get\n  operationId: getWebScrapeHtml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/scrape/markdown\n  method: get\n  operationId: getWebScrapeMarkdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/scrape/images\n  method: get\n  operationId: getWebScrapeImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/scrape/sitemap\n  method: get\n  operationId: getWebScrapeSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/crawl\n  method: post\n  operationId:\
   \ postWebCrawl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web/search\n  method: post\n  operationId: postWebSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web/screenshot\n  method: get\n  operationId: getWebScreenshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/agentic-access/contextdev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/contextdev/agentic-access/contextdev-agentic-access.yml
 summary_line: 42 operations · 13 acting
 tags:
 - Web Scraping

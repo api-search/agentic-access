@@ -9,13 +9,13 @@ api_specs:
   label: Cover Genius Bookings API
   slug: cover-genius-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/cover-genius/openapi/cover-genius-bookings-api-openapi.yml
 - filename: cover-genius-offers-api-openapi.yml
   format: yaml
   label: Cover Genius Offers API
   slug: cover-genius-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-offers-api-openapi.yml
+  url: https://artifacts.apis.io/cover-genius/openapi/cover-genius-offers-api-openapi.yml
 consequence_counts:
   read: 1
   write: 7
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cover-
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/{partner_code}/offers/{offer_id}/confirm/\n  method: post\n  operationId: confirmOffer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/{partner_code}/bookings/{booking_id}/\n  method: get\n  operationId: getBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partners/{partner_code}/bookings/{booking_id}/\n  method: patch\n  operationId: modifyBooking\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/{partner_code}/bookings/{booking_id}/quote_for_update\n  method: patch\n  operationId: quoteForUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/{partner_code}/bookings/{booking_id}/confirm_update/{update_id}/\n  method: post\n  operationId: confirmBookingUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/{partner_code}/bookings/{booking_id}/cancel\n  method: post\n  operationId: cancelBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/agentic-access/cover-genius-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cover-genius/agentic-access/cover-genius-agentic-access.yml
 summary_line: 8 operations · 7 acting
 tags:
 - Insurance

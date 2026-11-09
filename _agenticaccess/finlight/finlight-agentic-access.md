@@ -8,13 +8,13 @@ api_specs:
   label: Finlight Articles API
   slug: finlight-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/openapi/finlight-articles-api-openapi.yml
+  url: https://artifacts.apis.io/finlight/openapi/finlight-articles-api-openapi.yml
 - filename: finlight-sources-api-openapi.yml
   format: yaml
   label: Finlight Sources API
   slug: finlight-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/openapi/finlight-sources-api-openapi.yml
+  url: https://artifacts.apis.io/finlight/openapi/finlight-sources-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/finlight-articles-api-openapi.yml, openapi/finlight-sources-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/articles\n  method: post\n  operationId: searchArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/articles/by-link\n  method: get\n  operationId: getArticleByLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sources\n\
   \  method: get\n  operationId: getSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/agentic-access/finlight-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/finlight/agentic-access/finlight-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Financial News

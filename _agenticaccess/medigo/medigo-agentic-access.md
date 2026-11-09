@@ -9,37 +9,37 @@ api_specs:
   label: Medigo Attachments API
   slug: medigo-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-attachments-api-openapi.yml
 - filename: medigo-inquiries-api-openapi.yml
   format: yaml
   label: Medigo Inquiries API
   slug: medigo-inquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-inquiries-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-inquiries-api-openapi.yml
 - filename: medigo-search-api-openapi.yml
   format: yaml
   label: Medigo Search API
   slug: medigo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-search-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-search-api-openapi.yml
 - filename: medigo-second-opinions-api-openapi.yml
   format: yaml
   label: Medigo Second Opinions API
   slug: medigo-second-opinions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-second-opinions-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-second-opinions-api-openapi.yml
 - filename: medigo-tpa-api-openapi.yml
   format: yaml
   label: Medigo Tpa API
   slug: medigo-tpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-tpa-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-tpa-api-openapi.yml
 - filename: medigo-webhooks-api-openapi.yml
   format: yaml
   label: Medigo Webhooks API
   slug: medigo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/openapi/medigo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/medigo/openapi/medigo-webhooks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 15
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/medigo
   - path: /terms/{external_id}\n  method: get\n  operationId: getTerm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /terms/{external_id}\n  method: patch\n  operationId: updateTerm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terms/{external_id}/insured-members\n  method: post\n  operationId: createInsuredMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terms/{external_id}/insured-members/{partner_member_id}\n\
   \  method: delete\n  operationId: removeInsuredMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tpa/claims\n  method: post\n  operationId: submitClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tpa/claims/{id}\n  method: get\n  operationId: getClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}/trigger/{event}\n  method: post\n  operationId: triggerWebhookCall\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/agentic-access/medigo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/medigo/agentic-access/medigo-agentic-access.yml
 summary_line: 25 operations · 15 acting
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: Matter Account API
   slug: matter-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-account-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-account-api-openapi.yml
 - filename: matter-annotations-api-openapi.yml
   format: yaml
   label: Matter Annotations API
   slug: matter-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-annotations-api-openapi.yml
 - filename: matter-items-api-openapi.yml
   format: yaml
   label: Matter Items API
   slug: matter-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-items-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-items-api-openapi.yml
 - filename: matter-reading-sessions-api-openapi.yml
   format: yaml
   label: Matter Reading Sessions API
   slug: matter-reading-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-reading-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-reading-sessions-api-openapi.yml
 - filename: matter-search-api-openapi.yml
   format: yaml
   label: Matter Search API
   slug: matter-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-search-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-search-api-openapi.yml
 - filename: matter-tags-api-openapi.yml
   format: yaml
   label: Matter Tags API
   slug: matter-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/openapi/matter-tags-api-openapi.yml
+  url: https://artifacts.apis.io/matter/openapi/matter-tags-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/matter
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/annotations/{id}\n  method: patch\n  operationId: updateAnnotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/annotations/{id}\n  method: delete\n  operationId: deleteAnnotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/{id}\n  method:\
   \ patch\n  operationId: updateTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags/{id}\n  method: delete\n  operationId: deleteTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/items/{item_id}/tags\n  method: post\n  operationId: addTagToItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1/items/{item_id}/tags/{tag_id}\n  method: delete\n  operationId: removeTagFromItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/agentic-access/matter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/matter/agentic-access/matter-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Company

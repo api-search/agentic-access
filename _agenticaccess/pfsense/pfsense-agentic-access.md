@@ -9,25 +9,25 @@ api_specs:
   label: pfSense Authentication API
   slug: pfsense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-authentication-api-openapi.yml
 - filename: pfsense-firewall-aliases-api-openapi.yml
   format: yaml
   label: pfSense Firewall Aliases API
   slug: pfsense-firewall-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-firewall-aliases-api-openapi.yml
 - filename: pfsense-firewall-apply-api-openapi.yml
   format: yaml
   label: pfSense Firewall Apply API
   slug: pfsense-firewall-apply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-apply-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-firewall-apply-api-openapi.yml
 - filename: pfsense-firewall-rules-api-openapi.yml
   format: yaml
   label: pfSense Firewall Rules API
   slug: pfsense-firewall-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/openapi/pfsense-firewall-rules-api-openapi.yml
+  url: https://artifacts.apis.io/pfsense/openapi/pfsense-firewall-rules-api-openapi.yml
 consequence_counts:
   read: 4
   write: 8
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pfsens
   \    audit: required\n- path: /firewall/alias\n  method: delete\n  operationId: deleteFirewallAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /firewall/rules\n  method: get\n  operationId: listFirewallRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /firewall/rule\n  method: get\n  operationId: getFirewallRule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /firewall/rule\n  method: post\n  operationId: createFirewallRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /firewall/rule\n  method: patch\n  operationId: patchFirewallRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /firewall/rule\n  method: delete\n  operationId: deleteFirewallRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /firewall/apply\n  method: post\n  operationId: applyFirewall\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/agentic-access/pfsense-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pfsense/agentic-access/pfsense-agentic-access.yml
 summary_line: 12 operations · 8 acting
 tags:
 - Firewall

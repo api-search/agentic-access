@@ -9,55 +9,55 @@ api_specs:
   label: Tensor WebSocket API
   slug: tensor-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/asyncapi/tensor-websocket-api-asyncapi.yml
+  url: https://artifacts.apis.io/tensor/asyncapi/tensor-websocket-api-asyncapi.yml
 - filename: tensor-bids-api-openapi.yml
   format: yaml
   label: Tensor Bids API
   slug: tensor-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-bids-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-bids-api-openapi.yml
 - filename: tensor-collections-api-openapi.yml
   format: yaml
   label: Tensor Collections API
   slug: tensor-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-collections-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-collections-api-openapi.yml
 - filename: tensor-escrow-api-openapi.yml
   format: yaml
   label: Tensor Escrow API
   slug: tensor-escrow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-escrow-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-escrow-api-openapi.yml
 - filename: tensor-listings-api-openapi.yml
   format: yaml
   label: Tensor Listings API
   slug: tensor-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-listings-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-listings-api-openapi.yml
 - filename: tensor-pools-api-openapi.yml
   format: yaml
   label: Tensor Pools API
   slug: tensor-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-pools-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-pools-api-openapi.yml
 - filename: tensor-user-api-openapi.yml
   format: yaml
   label: Tensor User API
   slug: tensor-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-user-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-user-api-openapi.yml
 - filename: tensor-utility-api-openapi.yml
   format: yaml
   label: Tensor Utility API
   slug: tensor-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-utility-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-utility-api-openapi.yml
 - filename: tensor-nfts-api-openapi.yml
   format: yaml
   label: Tensor NF Ts API
   slug: tensor-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/openapi/tensor-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/tensor/openapi/tensor-nfts-api-openapi.yml
 consequence_counts:
   read: 45
   write: 2
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tensor
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/place-single-nft-bid\n  method: get\n  operationId: buildPlaceSingleNftBidTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/place-trait-bid\n  method: get\n  operationId: buildPlaceTraitBidTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/accept-bid\n  method: get\n  operationId: buildAcceptBidTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/cancel-bid\n  method: get\n  operationId: buildCancelBidTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/pool/create\n\
   \  method: get\n  operationId: buildCreatePoolTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/pool/edit\n  method: get\n  operationId: buildEditPoolTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/pool/close\n  method: get\n  operationId: buildClosePoolTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/pool/deposit\n  method: get\n  operationId: buildPoolDepositTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/pool/withdraw\n  method: get\n  operationId: buildPoolWithdrawTx\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/escrow/deposit\n  method: get\n  operationId: buildEscrowDepositTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tx/escrow/withdraw\n  method: get\n  operationId: buildEscrowWithdrawTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/agentic-access/tensor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tensor/agentic-access/tensor-agentic-access.yml
 summary_line: 47 operations · 2 acting
 tags:
 - NFT

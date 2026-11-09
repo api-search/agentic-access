@@ -8,13 +8,13 @@ api_specs:
   label: Hydro-Québec Catalog API
   slug: hydro-quebec-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-quebec/openapi/hydro-quebec-catalog-api-openapi.yml
 - filename: hydro-quebec-dataset-api-openapi.yml
   format: yaml
   label: Hydro-Québec Dataset API
   slug: hydro-quebec-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-quebec/openapi/hydro-quebec-dataset-api-openapi.yml
 consequence_counts:
   read: 32
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/hydro-
   \  method: get\n  operationId: listDatasetExportFormats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/datasets/{dataset_id}/exports/{format}\n  method: get\n  operationId: exportRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/datasets/{dataset_id}/exports/csv\n  method: get\n  operationId: exportRecordsCSV\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/datasets/{dataset_id}/exports/parquet\n  method: get\n  operationId: exportRecordsParquet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/datasets/{dataset_id}/exports/gpx\n\
   \  method: get\n  operationId: exportRecordsGPX\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/datasets/{dataset_id}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/datasets/{dataset_id}/facets\n  method: get\n  operationId: getRecordsFacets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/datasets/{dataset_id}/attachments\n  method: get\n  operationId: getDatasetAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/datasets/{dataset_id}/records/{record_id}\n  method: get\n  operationId:\
   \ getRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/agentic-access/hydro-quebec-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hydro-quebec/agentic-access/hydro-quebec-agentic-access.yml
 summary_line: 32 operations
 tags:
 - Energy

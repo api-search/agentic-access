@@ -15,19 +15,19 @@ api_specs:
   label: FreeAgent Contacts API
   slug: freeagent-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/freeagent/openapi/freeagent-contacts-api-openapi.yml
 - filename: freeagent-invoices-api-openapi.yml
   format: yaml
   label: FreeAgent Invoices API
   slug: freeagent-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/freeagent/openapi/freeagent-invoices-api-openapi.yml
 - filename: freeagent-bank-accounts-api-openapi.yml
   format: yaml
   label: FreeAgent Bank Accounts API
   slug: freeagent-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/freeagent/openapi/freeagent-bank-accounts-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 8
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freeag
   \ /invoices/{id}/send_email\n  method: post\n  operationId: emailInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/timeline\n  method: get\n  operationId: invoicesTimeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bank_accounts\n  method: get\n  operationId: listBankAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bank_accounts\n  method: post\n  operationId: createBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bank_accounts/{id}\n  method: get\n  operationId: getBankAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bank_accounts/{id}\n  method: put\n  operationId: updateBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bank_accounts/{id}\n  method: delete\n  operationId: deleteBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/agentic-access/freeagent-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/freeagent/agentic-access/freeagent-agentic-access.yml
 summary_line: 23 operations · 15 acting
 tags:
 - Accounting

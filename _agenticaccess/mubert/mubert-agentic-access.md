@@ -9,37 +9,37 @@ api_specs:
   label: Mubert Price API
   slug: mubert-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-price-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-price-api-openapi.yml
 - filename: mubert-public-api-openapi.yml
   format: yaml
   label: Mubert Public API
   slug: mubert-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-public-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-public-api-openapi.yml
 - filename: mubert-public-service-api-openapi.yml
   format: yaml
   label: Mubert Public Service API
   slug: mubert-public-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-public-service-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-public-service-api-openapi.yml
 - filename: mubert-service-api-openapi.yml
   format: yaml
   label: Mubert Service API
   slug: mubert-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-service-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-service-api-openapi.yml
 - filename: mubert-stripe-api-openapi.yml
   format: yaml
   label: Mubert Stripe API
   slug: mubert-stripe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-stripe-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-stripe-api-openapi.yml
 - filename: mubert-subscription-api-openapi.yml
   format: yaml
   label: Mubert Subscription API
   slug: mubert-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/openapi/mubert-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/mubert/openapi/mubert-subscription-api-openapi.yml
 consequence_counts:
   read: 27
   write: 23
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mubert
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/public/subscriptions/buy\n  method: post\n  operationId: c98b366f8fdb147f8a26cf9b0dea88f7\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/public/subscriptions/cancel\n  method: get\n  operationId: 6c8f8d392bf3d549c7cc57408d704cea\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/public/subscriptions/cancel\n  method: post\n  operationId: 884c9366deab18ae2438fefff9769789\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/service/stripe/subscriptions/buy\n  method: get\n  operationId: ec7c95fd87be525e821e284e3b6fb210\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/service/stripe/subscriptions/buy\n  method: post\n  operationId: ded044b39864d2a5eb777e0059cdc2d9\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/service/stripe/subscriptions/cancel\n  method: get\n  operationId: 96da408e7b15c1de24f4be37b32ff0ff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /api/v3/service/stripe/subscriptions/cancel\n  method: post\n  operationId: 89498d560c6bf07831b781350677e89d\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/agentic-access/mubert-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mubert/agentic-access/mubert-agentic-access.yml
 summary_line: 50 operations · 23 acting
 tags:
 - AI Music

@@ -9,133 +9,133 @@ api_specs:
   label: Okareo Admin API
   slug: okareo-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-admin-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-admin-api-openapi.yml
 - filename: okareo-analytics-api-openapi.yml
   format: yaml
   label: Okareo Analytics API
   slug: okareo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-analytics-api-openapi.yml
 - filename: okareo-auth-api-keys-api-openapi.yml
   format: yaml
   label: Okareo Auth & API Keys API
   slug: okareo-auth-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-auth-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-auth-api-keys-api-openapi.yml
 - filename: okareo-chat-api-openapi.yml
   format: yaml
   label: Okareo Chat API
   slug: okareo-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-chat-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-chat-api-openapi.yml
 - filename: okareo-checks-api-openapi.yml
   format: yaml
   label: Okareo Checks API
   slug: okareo-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-checks-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-checks-api-openapi.yml
 - filename: okareo-dashboards-api-openapi.yml
   format: yaml
   label: Okareo Dashboards API
   slug: okareo-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-dashboards-api-openapi.yml
 - filename: okareo-datapoints-api-openapi.yml
   format: yaml
   label: Okareo Datapoints API
   slug: okareo-datapoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-datapoints-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-datapoints-api-openapi.yml
 - filename: okareo-drivers-api-openapi.yml
   format: yaml
   label: Okareo Drivers API
   slug: okareo-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-drivers-api-openapi.yml
 - filename: okareo-inbox-api-openapi.yml
   format: yaml
   label: Okareo Inbox API
   slug: okareo-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-inbox-api-openapi.yml
 - filename: okareo-models-api-openapi.yml
   format: yaml
   label: Okareo Models API
   slug: okareo-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-models-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-models-api-openapi.yml
 - filename: okareo-monitoring-api-openapi.yml
   format: yaml
   label: Okareo Monitoring API
   slug: okareo-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-monitoring-api-openapi.yml
 - filename: okareo-notes-api-openapi.yml
   format: yaml
   label: Okareo Notes API
   slug: okareo-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-notes-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-notes-api-openapi.yml
 - filename: okareo-notifications-api-openapi.yml
   format: yaml
   label: Okareo Notifications API
   slug: okareo-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-notifications-api-openapi.yml
 - filename: okareo-organization-api-openapi.yml
   format: yaml
   label: Okareo Organization API
   slug: okareo-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-organization-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-organization-api-openapi.yml
 - filename: okareo-projects-api-openapi.yml
   format: yaml
   label: Okareo Projects API
   slug: okareo-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-projects-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-projects-api-openapi.yml
 - filename: okareo-scenarios-datasets-api-openapi.yml
   format: yaml
   label: Okareo Scenarios & Datasets API
   slug: okareo-scenarios-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-scenarios-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-scenarios-datasets-api-openapi.yml
 - filename: okareo-templates-api-openapi.yml
   format: yaml
   label: Okareo Templates API
   slug: okareo-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-templates-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-templates-api-openapi.yml
 - filename: okareo-test-runs-evaluations-api-openapi.yml
   format: yaml
   label: Okareo Test Runs & Evaluations API
   slug: okareo-test-runs-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-test-runs-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-test-runs-evaluations-api-openapi.yml
 - filename: okareo-traces-api-openapi.yml
   format: yaml
   label: Okareo Traces API
   slug: okareo-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-traces-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-traces-api-openapi.yml
 - filename: okareo-usage-api-openapi.yml
   format: yaml
   label: Okareo Usage API
   slug: okareo-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-usage-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-usage-api-openapi.yml
 - filename: okareo-voice-api-openapi.yml
   format: yaml
   label: Okareo Voice API
   slug: okareo-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-voice-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-voice-api-openapi.yml
 - filename: okareo-voice-integrations-api-openapi.yml
   format: yaml
   label: Okareo Voice Integrations API
   slug: okareo-voice-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/openapi/okareo-voice-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/okareo/openapi/okareo-voice-integrations-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 61
@@ -214,8 +214,8 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/okareo
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/voice/integration\n  method: post\n  operationId: create_provider_integration_v0_voice_integration_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/voice/integrations\n  method: get\n  operationId: list_provider_integrations_v0_voice_integrations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/voice/integration/{integration_id}\n  method: get\n  operationId: get_provider_integration_v0_voice_integration__integration_id__get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/voice/integration/{integration_id}\n  method: patch\n  operationId: update_provider_integration_v0_voice_integration__integration_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/voice/integration/{integration_id}\n  method: delete\n  operationId: delete_provider_integration_v0_voice_integration__integration_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/voice/integration/test\n  method:\
   \ post\n  operationId: check_unsaved_integration_connection_v0_voice_integration_test_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/voice/integration/{integration_id}/test\n  method: post\n  operationId: check_integration_connection_v0_voice_integration__integration_id__test_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/voice/integration/{integration_id}/rotate\n  method: post\n  operationId: rotate_provider_integration_secrets_v0_voice_integration__integration_id__rotate_post\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/voice/integration/{integration_id}/status\n  method: post\n  operationId: update_provider_integration_status_v0_voice_integration__integration_id__status_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (51 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/agentic-access/okareo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/okareo/refs/heads/main/agentic-access/okareo-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/voice/integration/{integration_id}/status\n  method: post\n  operationId: update_provider_integration_status_v0_voice_integration__integration_id__status_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (51 KB total) ---\n# Full source: https://artifacts.apis.io/okareo/agentic-access/okareo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/okareo/agentic-access/okareo-agentic-access.yml
 summary_line: 157 operations · 96 acting · 1 human-in-the-loop
 tags:
 - Company

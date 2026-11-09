@@ -9,97 +9,97 @@ api_specs:
   label: Umami Authentication API
   slug: umami-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-authentication-api-openapi.yml
 - filename: umami-teams-api-openapi.yml
   format: yaml
   label: Umami Teams API
   slug: umami-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-teams-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-teams-api-openapi.yml
 - filename: umami-users-api-openapi.yml
   format: yaml
   label: Umami Users API
   slug: umami-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-users-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-users-api-openapi.yml
 - filename: umami-websites-api-openapi.yml
   format: yaml
   label: Umami Websites API
   slug: umami-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-websites-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-websites-api-openapi.yml
 - filename: umami-account-api-openapi.yml
   format: yaml
   label: Umami Account API
   slug: umami-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-account-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-account-api-openapi.yml
 - filename: umami-administration-api-openapi.yml
   format: yaml
   label: Umami Administration API
   slug: umami-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-administration-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-administration-api-openapi.yml
 - filename: umami-boards-api-openapi.yml
   format: yaml
   label: Umami Boards API
   slug: umami-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-boards-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-boards-api-openapi.yml
 - filename: umami-collection-api-openapi.yml
   format: yaml
   label: Umami Collection API
   slug: umami-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-collection-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-collection-api-openapi.yml
 - filename: umami-dashboard-api-openapi.yml
   format: yaml
   label: Umami Dashboard API
   slug: umami-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-dashboard-api-openapi.yml
 - filename: umami-links-api-openapi.yml
   format: yaml
   label: Umami Links API
   slug: umami-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-links-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-links-api-openapi.yml
 - filename: umami-pixels-api-openapi.yml
   format: yaml
   label: Umami Pixels API
   slug: umami-pixels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-pixels-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-pixels-api-openapi.yml
 - filename: umami-realtime-api-openapi.yml
   format: yaml
   label: Umami Realtime API
   slug: umami-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-realtime-api-openapi.yml
 - filename: umami-scripts-api-openapi.yml
   format: yaml
   label: Umami Scripts API
   slug: umami-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-scripts-api-openapi.yml
 - filename: umami-shares-api-openapi.yml
   format: yaml
   label: Umami Shares API
   slug: umami-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-shares-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-shares-api-openapi.yml
 - filename: umami-system-api-openapi.yml
   format: yaml
   label: Umami System API
   slug: umami-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-system-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-system-api-openapi.yml
 - filename: umami-two-factor-authentication-api-openapi.yml
   format: yaml
   label: Umami Two-factor authentication API
   slug: umami-two-factor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-two-factor-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/umami/openapi/umami-two-factor-authentication-api-openapi.yml
 consequence_counts:
   read: 13
   write: 10
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/umami-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/websites/{websiteId}/events/series\n  method: get\n  operationId: getEventSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users/{userId}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/teams\n  method: post\n  operationId: createTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/teams/join\n  method: post\n  operationId: joinTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/teams/{teamId}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/teams/{teamId}\n  method: delete\n  operationId: deleteTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/teams/{teamId}/websites\n  method: get\n  operationId: listTeamWebsites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/agentic-access/umami-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/umami/agentic-access/umami-agentic-access.yml
 summary_line: 23 operations · 10 acting
 tags:
 - Cookieless Tracking

@@ -9,31 +9,31 @@ api_specs:
   label: Looker Auth API
   slug: looker-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-auth-api-openapi.yml
+  url: https://artifacts.apis.io/looker/openapi/looker-auth-api-openapi.yml
 - filename: looker-dashboard-api-openapi.yml
   format: yaml
   label: Looker Dashboard API
   slug: looker-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/looker/openapi/looker-dashboard-api-openapi.yml
 - filename: looker-look-api-openapi.yml
   format: yaml
   label: Looker Look API
   slug: looker-look-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-look-api-openapi.yml
+  url: https://artifacts.apis.io/looker/openapi/looker-look-api-openapi.yml
 - filename: looker-query-api-openapi.yml
   format: yaml
   label: Looker Query API
   slug: looker-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-query-api-openapi.yml
+  url: https://artifacts.apis.io/looker/openapi/looker-query-api-openapi.yml
 - filename: looker-user-api-openapi.yml
   format: yaml
   label: Looker User API
   slug: looker-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/openapi/looker-user-api-openapi.yml
+  url: https://artifacts.apis.io/looker/openapi/looker-user-api-openapi.yml
 consequence_counts:
   read: 16
   write: 13
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/looker
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: allUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/search\n  method: get\n  operationId: searchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: get\n  operationId: user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me\n  method: get\n  operationId: me\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}/roles\n\
   \  method: get\n  operationId: userRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}/roles\n  method: put\n  operationId: setUserRoles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/agentic-access/looker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/looker/agentic-access/looker-agentic-access.yml
 summary_line: 29 operations · 13 acting
 tags:
 - Analytics

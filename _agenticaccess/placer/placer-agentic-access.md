@@ -9,49 +9,49 @@ api_specs:
   label: Placer Account Info API
   slug: placer-account-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-account-info-api-openapi.yml
+  url: https://artifacts.apis.io/placer/openapi/placer-account-info-api-openapi.yml
 - filename: placer-loyalty-reports-api-openapi.yml
   format: yaml
   label: Placer Loyalty Reports API
   slug: placer-loyalty-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-loyalty-reports-api-openapi.yml
+  url: https://artifacts.apis.io/placer/openapi/placer-loyalty-reports-api-openapi.yml
 - filename: placer-manage-pois-api-openapi.yml
   format: yaml
   label: Placer Manage POIs API
   slug: placer-manage-pois-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-manage-pois-api-openapi.yml
+  url: https://artifacts.apis.io/placer/openapi/placer-manage-pois-api-openapi.yml
 - filename: placer-ranking-reports-api-openapi.yml
   format: yaml
   label: Placer Ranking Reports API
   slug: placer-ranking-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-ranking-reports-api-openapi.yml
+  url: https://artifacts.apis.io/placer/openapi/placer-ranking-reports-api-openapi.yml
 - filename: placer-retail-sales-reports-api-openapi.yml
   format: yaml
   label: Placer Retail Sales Reports API
   slug: placer-retail-sales-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-retail-sales-reports-api-openapi.yml
+  url: https://artifacts.apis.io/placer/openapi/placer-retail-sales-reports-api-openapi.yml
 - filename: placer-trade-area-reports-api-openapi.yml
   format: yaml
   label: Placer Trade Area Reports API
   slug: placer-trade-area-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-trade-area-reports-api-openapi.yml
+  url: https://artifacts.apis.io/placer/openapi/placer-trade-area-reports-api-openapi.yml
 - filename: placer-visitor-journey-reports-api-openapi.yml
   format: yaml
   label: Placer Visitor Journey Reports API
   slug: placer-visitor-journey-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-visitor-journey-reports-api-openapi.yml
+  url: https://artifacts.apis.io/placer/openapi/placer-visitor-journey-reports-api-openapi.yml
 - filename: placer-visits-reports-api-openapi.yml
   format: yaml
   label: Placer Visits Reports API
   slug: placer-visits-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/placer-visits-reports-api-openapi.yml
+  url: https://artifacts.apis.io/placer/openapi/placer-visits-reports-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 5
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/placer
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/true-trade-area\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/visit-metrics\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/visit-metrics/cbgs\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/visit-metrics/days\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/visit-metrics/dwell-time\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/visit-metrics/hours\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/visit-trends\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/visit-trends/single\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/agentic-access/placer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/placer/agentic-access/placer-agentic-access.yml
 summary_line: 33 operations · 28 acting
 tags:
 - Company

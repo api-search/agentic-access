@@ -9,181 +9,181 @@ api_specs:
   label: AdvancedMD Authentication API
   slug: advancedmd-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-authentication-api-openapi.yml
 - filename: advancedmd-cancel-bulk-data-export-api-openapi.yml
   format: yaml
   label: AdvancedMD Cancel Bulk Data Export API
   slug: advancedmd-cancel-bulk-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-cancel-bulk-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-cancel-bulk-data-export-api-openapi.yml
 - filename: advancedmd-careteam-api-openapi.yml
   format: yaml
   label: AdvancedMD Care Team API
   slug: advancedmd-careteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-careteam-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-careteam-api-openapi.yml
 - filename: advancedmd-check-data-export-status-api-openapi.yml
   format: yaml
   label: AdvancedMD Check Data Export Status API
   slug: advancedmd-check-data-export-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-check-data-export-status-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-check-data-export-status-api-openapi.yml
 - filename: advancedmd-clinical-api-openapi.yml
   format: yaml
   label: AdvancedMD Clinical API
   slug: advancedmd-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-clinical-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-clinical-api-openapi.yml
 - filename: advancedmd-condition-api-openapi.yml
   format: yaml
   label: AdvancedMD Condition API
   slug: advancedmd-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-condition-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-condition-api-openapi.yml
 - filename: advancedmd-coverage-api-openapi.yml
   format: yaml
   label: AdvancedMD Coverage API
   slug: advancedmd-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-coverage-api-openapi.yml
 - filename: advancedmd-device-api-openapi.yml
   format: yaml
   label: AdvancedMD Device API
   slug: advancedmd-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-device-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-device-api-openapi.yml
 - filename: advancedmd-diagnosticreport-api-openapi.yml
   format: yaml
   label: AdvancedMD Diagnostic Report API
   slug: advancedmd-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-diagnosticreport-api-openapi.yml
 - filename: advancedmd-encounter-api-openapi.yml
   format: yaml
   label: AdvancedMD Encounter API
   slug: advancedmd-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-encounter-api-openapi.yml
 - filename: advancedmd-get-fhir-entity-api-openapi.yml
   format: yaml
   label: AdvancedMD Get FHIR Entity API
   slug: advancedmd-get-fhir-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-get-fhir-entity-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-get-fhir-entity-api-openapi.yml
 - filename: advancedmd-goal-api-openapi.yml
   format: yaml
   label: AdvancedMD Goal API
   slug: advancedmd-goal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-goal-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-goal-api-openapi.yml
 - filename: advancedmd-immunization-api-openapi.yml
   format: yaml
   label: AdvancedMD Immunization API
   slug: advancedmd-immunization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-immunization-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-immunization-api-openapi.yml
 - filename: advancedmd-location-api-openapi.yml
   format: yaml
   label: AdvancedMD Location API
   slug: advancedmd-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-location-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-location-api-openapi.yml
 - filename: advancedmd-medicationdispense-api-openapi.yml
   format: yaml
   label: AdvancedMD Medication Dispense API
   slug: advancedmd-medicationdispense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-medicationdispense-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-medicationdispense-api-openapi.yml
 - filename: advancedmd-observation-api-openapi.yml
   format: yaml
   label: AdvancedMD Observation API
   slug: advancedmd-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-observation-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-observation-api-openapi.yml
 - filename: advancedmd-obtain-access-token-api-openapi.yml
   format: yaml
   label: AdvancedMD Obtain Access Token API
   slug: advancedmd-obtain-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-obtain-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-obtain-access-token-api-openapi.yml
 - filename: advancedmd-organization-api-openapi.yml
   format: yaml
   label: AdvancedMD Organization API
   slug: advancedmd-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-organization-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-organization-api-openapi.yml
 - filename: advancedmd-patient-api-openapi.yml
   format: yaml
   label: AdvancedMD Patient API
   slug: advancedmd-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-patient-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-patient-api-openapi.yml
 - filename: advancedmd-patient-demographics-api-openapi.yml
   format: yaml
   label: AdvancedMD Patient Demographics API
   slug: advancedmd-patient-demographics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-patient-demographics-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-patient-demographics-api-openapi.yml
 - filename: advancedmd-practitioner-api-openapi.yml
   format: yaml
   label: AdvancedMD Practitioner API
   slug: advancedmd-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-practitioner-api-openapi.yml
 - filename: advancedmd-procedure-api-openapi.yml
   format: yaml
   label: AdvancedMD Procedure API
   slug: advancedmd-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-procedure-api-openapi.yml
 - filename: advancedmd-provenance-api-openapi.yml
   format: yaml
   label: AdvancedMD Provenance API
   slug: advancedmd-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-provenance-api-openapi.yml
 - filename: advancedmd-relatedperson-api-openapi.yml
   format: yaml
   label: AdvancedMD Related Person API
   slug: advancedmd-relatedperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-relatedperson-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-relatedperson-api-openapi.yml
 - filename: advancedmd-start-bulk-data-export-api-openapi.yml
   format: yaml
   label: AdvancedMD Start Bulk Data Export API
   slug: advancedmd-start-bulk-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-start-bulk-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-start-bulk-data-export-api-openapi.yml
 - filename: advancedmd-allergy-intolerance-api-openapi.yml
   format: yaml
   label: AdvancedMD Allergy Intolerance API
   slug: advancedmd-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-allergy-intolerance-api-openapi.yml
 - filename: advancedmd-care-plan-api-openapi.yml
   format: yaml
   label: AdvancedMD Care plan API
   slug: advancedmd-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-care-plan-api-openapi.yml
 - filename: advancedmd-ccda-api-openapi.yml
   format: yaml
   label: AdvancedMD CCDA API
   slug: advancedmd-ccda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-ccda-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-ccda-api-openapi.yml
 - filename: advancedmd-document-reference-api-openapi.yml
   format: yaml
   label: AdvancedMD Document Reference API
   slug: advancedmd-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-document-reference-api-openapi.yml
 - filename: advancedmd-medication-request-api-openapi.yml
   format: yaml
   label: AdvancedMD Medication Request API
   slug: advancedmd-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/openapi/advancedmd-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/advancedmd/openapi/advancedmd-medication-request-api-openapi.yml
 consequence_counts:
   read: 62
   write: 19
@@ -229,7 +229,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/advanc
   \ /MedicationDispense\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationDispense/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationDispense/_search\n  method: post\n  operationId: MedicationDispense Search using POST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /RelatedPerson\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /RelatedPerson/{id}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /RelatedPerson/_search\n  method: post\n  operationId: RelatedPerson Search using POST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Coverage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Coverage/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Coverage/_search\n  method: post\n  operationId: Coverage Search using POST\n  x-agentic-access:\n    action-class: acting\n  \
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/agentic-access/advancedmd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/advancedmd/agentic-access/advancedmd-agentic-access.yml
 summary_line: 81 operations · 19 acting
 tags:
 - Healthcare

@@ -9,25 +9,25 @@ api_specs:
   label: Cogny Reports API
   slug: cogny-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-reports-api-openapi.yml
 - filename: cogny-tickets-api-openapi.yml
   format: yaml
   label: Cogny Tickets API
   slug: cogny-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-tickets-api-openapi.yml
 - filename: cogny-warehouses-api-openapi.yml
   format: yaml
   label: Cogny Warehouses API
   slug: cogny-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-warehouses-api-openapi.yml
 - filename: cogny-webhooks-api-openapi.yml
   format: yaml
   label: Cogny Webhooks API
   slug: cogny-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-webhooks-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/cogny-
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tickets/bulk-update\n  method: post\n  operationId: bulkUpdateTickets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tickets:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tickets/{ticket_id}/dismiss\n  method: post\n  operationId: dismissTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tickets:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tickets/stats\n  method: get\n  operationId:\
   \ getTicketStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tickets:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tickets/export\n  method: post\n  operationId: exportTickets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - tickets:read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /warehouses\n  method: get\n  operationId: listWarehouses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - warehouses:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    -\
   \ write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/agentic-access/cogny-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cogny/agentic-access/cogny-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Company

@@ -9,49 +9,49 @@ api_specs:
   label: Parallel Chat API (Beta) API
   slug: parallel-ai-chat-api-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-chat-api-beta-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-chat-api-beta-api-openapi.yml
 - filename: parallel-ai-extract-api-openapi.yml
   format: yaml
   label: Parallel Extract API
   slug: parallel-ai-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-extract-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-extract-api-openapi.yml
 - filename: parallel-ai-findall-api-openapi.yml
   format: yaml
   label: Parallel Find All API
   slug: parallel-ai-findall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-findall-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-findall-api-openapi.yml
 - filename: parallel-ai-memory-api-openapi.yml
   format: yaml
   label: Parallel Memory API
   slug: parallel-ai-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-memory-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-memory-api-openapi.yml
 - filename: parallel-ai-monitor-api-openapi.yml
   format: yaml
   label: Parallel Monitor API
   slug: parallel-ai-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-monitor-api-openapi.yml
 - filename: parallel-ai-responses-api-api-openapi.yml
   format: yaml
   label: Parallel Responses API
   slug: parallel-ai-responses-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-responses-api-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-responses-api-api-openapi.yml
 - filename: parallel-ai-search-api-openapi.yml
   format: yaml
   label: Parallel Search API
   slug: parallel-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-search-api-openapi.yml
 - filename: parallel-ai-tasks-api-openapi.yml
   format: yaml
   label: Parallel Tasks API
   slug: parallel-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-tasks-api-openapi.yml
 consequence_counts:
   read: 18
   write: 18
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/parall
   \    audit: none\n- path: /v1/tasks/groups/{taskgroup_id}/runs\n  method: post\n  operationId: tasks_taskgroups_runs_post_v1_tasks_groups__taskgroup_id__runs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tasks/groups/{taskgroup_id}/runs\n  method: get\n  operationId: tasks_taskgroups_runs_get_v1_tasks_groups__taskgroup_id__runs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/groups/{taskgroup_id}/runs/{run_id}\n  method: get\n  operationId: tasks_taskgroups_runs_id_get_v1_tasks_groups__taskgroup_id__runs__run_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/runs\n  method: post\n  operationId: tasks_runs_post_v1_tasks_runs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tasks/runs/{run_id}\n  method: get\n  operationId: tasks_runs_get_v1_tasks_runs__run_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/runs/{run_id}/events\n  method: get\n  operationId: tasks_runs_events_get_v1_tasks_runs__run_id__events_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/runs/{run_id}/input\n  method: get\n  operationId:\
   \ tasks_runs_input_get_v1_tasks_runs__run_id__input_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/runs/{run_id}/result\n  method: get\n  operationId: tasks_runs_result_get_v1_tasks_runs__run_id__result_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/tasks/runs/{run_id}/events\n  method: get\n  operationId: tasks_runs_events_get_v1beta_tasks_runs__run_id__events_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/agentic-access/parallel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parallel-ai/agentic-access/parallel-agentic-access.yml
 summary_line: 36 operations · 18 acting
 tags:
 - Company

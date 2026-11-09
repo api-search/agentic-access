@@ -9,37 +9,37 @@ api_specs:
   label: Orkas Audio API
   slug: orkas-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-audio-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-audio-api-openapi.yml
 - filename: orkas-images-api-openapi.yml
   format: yaml
   label: Orkas Images API
   slug: orkas-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-images-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-images-api-openapi.yml
 - filename: orkas-openapi-json-api-openapi.yml
   format: yaml
   label: Orkas Openapi.json API
   slug: orkas-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-openapi-json-api-openapi.yml
 - filename: orkas-search-api-openapi.yml
   format: yaml
   label: Orkas Search API
   slug: orkas-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-search-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-search-api-openapi.yml
 - filename: orkas-videos-api-openapi.yml
   format: yaml
   label: Orkas Videos API
   slug: orkas-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-videos-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-videos-api-openapi.yml
 - filename: orkas-chat-completions-api-openapi.yml
   format: yaml
   label: Orkas Chat Completions API
   slug: orkas-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/openapi/orkas-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/orkas/openapi/orkas-chat-completions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-10-11'\nmethod: generated\nsource: openapi/orkas-
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/search\n  method: post\n  operationId: search_v1_search_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/audio/voices\n  method: get\n  operationId: audio_voices_v1_audio_voices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/audio/speech\n  method: post\n  operationId: audio_speech_v1_audio_speech_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/generations\n  method:\
   \ post\n  operationId: image_generations_v1_images_generations_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/generations/{task_id}\n  method: get\n  operationId: image_generation_v1_images_generations__task_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/videos\n  method: post\n  operationId: videos_v1_videos_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos/{task_id}\n\
   \  method: get\n  operationId: video_v1_videos__task_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/heads/main/agentic-access/orkas-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orkas/agentic-access/orkas-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Company

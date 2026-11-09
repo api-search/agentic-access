@@ -9,31 +9,31 @@ api_specs:
   label: Sigstore CA API
   slug: sigstore-ca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-ca-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-ca-api-openapi.yml
 - filename: sigstore-entries-api-openapi.yml
   format: yaml
   label: Sigstore Entries API
   slug: sigstore-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-entries-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-entries-api-openapi.yml
 - filename: sigstore-index-api-openapi.yml
   format: yaml
   label: Sigstore Index API
   slug: sigstore-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-index-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-index-api-openapi.yml
 - filename: sigstore-pubkey-api-openapi.yml
   format: yaml
   label: Sigstore Pubkey API
   slug: sigstore-pubkey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-pubkey-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-pubkey-api-openapi.yml
 - filename: sigstore-tlog-api-openapi.yml
   format: yaml
   label: Sigstore Tlog API
   slug: sigstore-tlog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/openapi/sigstore-tlog-api-openapi.yml
+  url: https://artifacts.apis.io/sigstore/openapi/sigstore-tlog-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sigsto
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/trustBundle\n  method: get\n  operationId: CA_GetTrustBundle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/log/entries\n  method: post\n  operationId: createLogEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/log/entries\n  method: get\n  operationId: getLogEntryByIndex\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/log/entries/{entryUUID}\n  method: get\n  operationId: getLogEntryByUUID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/log/entries/retrieve\n  method: post\n  operationId: searchLogQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/index/retrieve\n  method: post\n  operationId: searchIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/log/publicKey\n  method: get\n  operationId: getPublicKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/log\n\
   \  method: get\n  operationId: getLogInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/log/proof\n  method: get\n  operationId: getLogProof\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/agentic-access/sigstore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sigstore/agentic-access/sigstore-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Certificate Authority

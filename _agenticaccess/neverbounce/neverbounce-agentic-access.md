@@ -9,25 +9,25 @@ api_specs:
   label: NeverBounce Account API
   slug: neverbounce-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-account-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-account-api-openapi.yml
 - filename: neverbounce-jobs-api-openapi.yml
   format: yaml
   label: NeverBounce Jobs API
   slug: neverbounce-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-jobs-api-openapi.yml
 - filename: neverbounce-single-api-openapi.yml
   format: yaml
   label: NeverBounce Single API
   slug: neverbounce-single-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-single-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-single-api-openapi.yml
 - filename: neverbounce-poe-api-openapi.yml
   format: yaml
   label: NeverBounce POE API
   slug: neverbounce-poe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/openapi/neverbounce-poe-api-openapi.yml
+  url: https://artifacts.apis.io/neverbounce/openapi/neverbounce-poe-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/neverb
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/create\n  method: post\n  operationId: jobs-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/parse\n  method: post\n  operationId: jobs-parse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/start\n  method: post\n  operationId: jobs-start\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/status\n  method: get\n  operationId: jobs-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/results\n  method: get\n  operationId: jobs-results\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/delete\n  method: post\n  operationId: jobs-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /poe/confirm\n  method: post\n  operationId: widget-poe-confirm\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /single/check\n  method: get\n  operationId: single-check\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/agentic-access/neverbounce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/neverbounce/agentic-access/neverbounce-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Email Verification

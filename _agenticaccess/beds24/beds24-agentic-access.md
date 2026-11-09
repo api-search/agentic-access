@@ -9,49 +9,49 @@ api_specs:
   label: Beds24 Accounts API
   slug: beds24-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-accounts-api-openapi.yml
 - filename: beds24-authentication-api-openapi.yml
   format: yaml
   label: Beds24 Authentication API
   slug: beds24-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-authentication-api-openapi.yml
 - filename: beds24-bookings-api-openapi.yml
   format: yaml
   label: Beds24 Bookings API
   slug: beds24-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-bookings-api-openapi.yml
 - filename: beds24-channels-api-openapi.yml
   format: yaml
   label: Beds24 Channels API
   slug: beds24-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-channels-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-channels-api-openapi.yml
 - filename: beds24-inventory-api-openapi.yml
   format: yaml
   label: Beds24 Inventory API
   slug: beds24-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-inventory-api-openapi.yml
 - filename: beds24-invoices-api-openapi.yml
   format: yaml
   label: Beds24 Invoices API
   slug: beds24-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-invoices-api-openapi.yml
 - filename: beds24-messages-api-openapi.yml
   format: yaml
   label: Beds24 Messages API
   slug: beds24-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-messages-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-messages-api-openapi.yml
 - filename: beds24-properties-api-openapi.yml
   format: yaml
   label: Beds24 Properties API
   slug: beds24-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/openapi/beds24-properties-api-openapi.yml
+  url: https://artifacts.apis.io/beds24/openapi/beds24-properties-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/beds24
   \  method: post\n  operationId: postRoomAvailability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory/fixedPrices\n  method: get\n  operationId: getFixedPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory/fixedPrices\n  method: post\n  operationId: postFixedPrices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory/fixedPrices\n  method: delete\n  operationId: deleteFixedPrices\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels\n  method: get\n  operationId: getChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels\n  method: post\n  operationId: postChannels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts\n  method: get\n  operationId: getAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/agentic-access/beds24-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beds24/agentic-access/beds24-agentic-access.yml
 summary_line: 23 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Vacation Rentals

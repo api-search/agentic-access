@@ -9,37 +9,37 @@ api_specs:
   label: Selenium Cookies API
   slug: selenium-cookies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-cookies-api-openapi.yml
+  url: https://artifacts.apis.io/selenium/openapi/selenium-cookies-api-openapi.yml
 - filename: selenium-elements-api-openapi.yml
   format: yaml
   label: Selenium Elements API
   slug: selenium-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-elements-api-openapi.yml
+  url: https://artifacts.apis.io/selenium/openapi/selenium-elements-api-openapi.yml
 - filename: selenium-navigation-api-openapi.yml
   format: yaml
   label: Selenium Navigation API
   slug: selenium-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/selenium/openapi/selenium-navigation-api-openapi.yml
 - filename: selenium-script-api-openapi.yml
   format: yaml
   label: Selenium Script API
   slug: selenium-script-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-script-api-openapi.yml
+  url: https://artifacts.apis.io/selenium/openapi/selenium-script-api-openapi.yml
 - filename: selenium-session-api-openapi.yml
   format: yaml
   label: Selenium Session API
   slug: selenium-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-session-api-openapi.yml
+  url: https://artifacts.apis.io/selenium/openapi/selenium-session-api-openapi.yml
 - filename: selenium-status-api-openapi.yml
   format: yaml
   label: Selenium Status API
   slug: selenium-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/openapi/selenium-status-api-openapi.yml
+  url: https://artifacts.apis.io/selenium/openapi/selenium-status-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/seleni
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/{sessionId}/url\n  method: get\n  operationId: getCurrentUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/{sessionId}/title\n  method: get\n  operationId: getTitle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session/{sessionId}/back\n  method: post\n  operationId: navigateBack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /session/{sessionId}/forward\n  method: post\n  operationId: navigateForward\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/{sessionId}/execute/sync\n  method: post\n  operationId: executeScriptSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session/{sessionId}\n  method: delete\n  operationId: deleteSession\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/agentic-access/selenium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/selenium/agentic-access/selenium-agentic-access.yml
 summary_line: 13 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Automation

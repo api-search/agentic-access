@@ -9,49 +9,49 @@ api_specs:
   label: PowerReviews B2B Answer API
   slug: powerreviews-b2b-answer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-b2b-answer-api-openapi.yml
+  url: https://artifacts.apis.io/powerreviews/openapi/powerreviews-b2b-answer-api-openapi.yml
 - filename: powerreviews-b2b-merchantresponse-api-openapi.yml
   format: yaml
   label: PowerReviews B2B MerchantResponse API
   slug: powerreviews-b2b-merchantresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-b2b-merchantresponse-api-openapi.yml
+  url: https://artifacts.apis.io/powerreviews/openapi/powerreviews-b2b-merchantresponse-api-openapi.yml
 - filename: powerreviews-b2b-question-api-openapi.yml
   format: yaml
   label: PowerReviews B2B Question API
   slug: powerreviews-b2b-question-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-b2b-question-api-openapi.yml
+  url: https://artifacts.apis.io/powerreviews/openapi/powerreviews-b2b-question-api-openapi.yml
 - filename: powerreviews-b2b-write-a-review-api-openapi.yml
   format: yaml
   label: PowerReviews B2B Write a Review API
   slug: powerreviews-b2b-write-a-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-b2b-write-a-review-api-openapi.yml
+  url: https://artifacts.apis.io/powerreviews/openapi/powerreviews-b2b-write-a-review-api-openapi.yml
 - filename: powerreviews-configuration-api-openapi.yml
   format: yaml
   label: PowerReviews Configuration API
   slug: powerreviews-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/powerreviews/openapi/powerreviews-configuration-api-openapi.yml
 - filename: powerreviews-q-a-api-openapi.yml
   format: yaml
   label: PowerReviews Q&A API
   slug: powerreviews-q-a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-q-a-api-openapi.yml
+  url: https://artifacts.apis.io/powerreviews/openapi/powerreviews-q-a-api-openapi.yml
 - filename: powerreviews-reviews-api-openapi.yml
   format: yaml
   label: PowerReviews Reviews API
   slug: powerreviews-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/powerreviews/openapi/powerreviews-reviews-api-openapi.yml
 - filename: powerreviews-snippets-api-openapi.yml
   format: yaml
   label: PowerReviews Snippets API
   slug: powerreviews-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/openapi/powerreviews-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/powerreviews/openapi/powerreviews-snippets-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/powerr
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /m/{merchant_id}/l/{locale}/configuration\n  method: get\n  operationId: getConfigurationByMerchantUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/b2b/answer\n  method: post\n  operationId: submitAnswerUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/b2b/merchant-response\n  method: post\n  operationId: submitMerchantResponseUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/b2b/question\n  method: post\n  operationId: submitQuestionUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/b2b/writereview/review_template\n  method: get\n  operationId: startReviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/b2b/writereview/submit_review\n  method: post\n  operationId: submitReviewUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/agentic-access/powerreviews-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/powerreviews/agentic-access/powerreviews-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - E-Commerce

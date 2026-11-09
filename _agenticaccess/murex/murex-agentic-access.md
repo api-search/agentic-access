@@ -9,139 +9,139 @@ api_specs:
   label: Murex Accounting API
   slug: murex-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-accounting-api-openapi.yml
 - filename: murex-cash-flows-api-openapi.yml
   format: yaml
   label: Murex Cash Flows API
   slug: murex-cash-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-cash-flows-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-cash-flows-api-openapi.yml
 - filename: murex-collateral-api-openapi.yml
   format: yaml
   label: Murex Collateral API
   slug: murex-collateral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-collateral-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-collateral-api-openapi.yml
 - filename: murex-confirmations-api-openapi.yml
   format: yaml
   label: Murex Confirmations API
   slug: murex-confirmations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-confirmations-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-confirmations-api-openapi.yml
 - filename: murex-curves-api-openapi.yml
   format: yaml
   label: Murex Curves API
   slug: murex-curves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-curves-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-curves-api-openapi.yml
 - filename: murex-fx-rates-api-openapi.yml
   format: yaml
   label: Murex FX Rates API
   slug: murex-fx-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-fx-rates-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-fx-rates-api-openapi.yml
 - filename: murex-instruments-api-openapi.yml
   format: yaml
   label: Murex Instruments API
   slug: murex-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-instruments-api-openapi.yml
 - filename: murex-limits-api-openapi.yml
   format: yaml
   label: Murex Limits API
   slug: murex-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-limits-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-limits-api-openapi.yml
 - filename: murex-orders-api-openapi.yml
   format: yaml
   label: Murex Orders API
   slug: murex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-orders-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-orders-api-openapi.yml
 - filename: murex-p-l-api-openapi.yml
   format: yaml
   label: Murex P&L API
   slug: murex-p-l-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-p-l-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-p-l-api-openapi.yml
 - filename: murex-portfolios-api-openapi.yml
   format: yaml
   label: Murex Portfolios API
   slug: murex-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-portfolios-api-openapi.yml
 - filename: murex-positions-api-openapi.yml
   format: yaml
   label: Murex Positions API
   slug: murex-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-positions-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-positions-api-openapi.yml
 - filename: murex-quotes-api-openapi.yml
   format: yaml
   label: Murex Quotes API
   slug: murex-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-quotes-api-openapi.yml
 - filename: murex-reconciliations-api-openapi.yml
   format: yaml
   label: Murex Reconciliations API
   slug: murex-reconciliations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-reconciliations-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-reconciliations-api-openapi.yml
 - filename: murex-reference-data-api-openapi.yml
   format: yaml
   label: Murex Reference Data API
   slug: murex-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-reference-data-api-openapi.yml
 - filename: murex-regulatory-api-openapi.yml
   format: yaml
   label: Murex Regulatory API
   slug: murex-regulatory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-regulatory-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-regulatory-api-openapi.yml
 - filename: murex-regulatory-reporting-api-openapi.yml
   format: yaml
   label: Murex Regulatory Reporting API
   slug: murex-regulatory-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-regulatory-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-regulatory-reporting-api-openapi.yml
 - filename: murex-sensitivities-api-openapi.yml
   format: yaml
   label: Murex Sensitivities API
   slug: murex-sensitivities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-sensitivities-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-sensitivities-api-openapi.yml
 - filename: murex-settlements-api-openapi.yml
   format: yaml
   label: Murex Settlements API
   slug: murex-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-settlements-api-openapi.yml
 - filename: murex-stress-testing-api-openapi.yml
   format: yaml
   label: Murex Stress Testing API
   slug: murex-stress-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-stress-testing-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-stress-testing-api-openapi.yml
 - filename: murex-trades-api-openapi.yml
   format: yaml
   label: Murex Trades API
   slug: murex-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-trades-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-trades-api-openapi.yml
 - filename: murex-var-api-openapi.yml
   format: yaml
   label: Murex VaR API
   slug: murex-var-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-var-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-var-api-openapi.yml
 - filename: murex-volatility-api-openapi.yml
   format: yaml
   label: Murex Volatility API
   slug: murex-volatility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/openapi/murex-volatility-api-openapi.yml
+  url: https://artifacts.apis.io/murex/openapi/murex-volatility-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 43
@@ -196,7 +196,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/murex-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: put\n  operationId: updateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/cancel\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trades\n  method: get\n  operationId: listTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trades/{tradeId}\n  method: get\n  operationId: getTrade\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instruments\n  method: get\n  operationId: listInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instruments/{instrumentId}\n  method: get\n  operationId: getInstrument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios\n  method: get\n  operationId: listPortfolios\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/{portfolioId}\n  method: get\n  operationId: getPortfolio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/agentic-access/murex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/murex/agentic-access/murex-agentic-access.yml
 summary_line: 49 operations · 6 acting
 tags:
 - Capital Markets

@@ -9,49 +9,49 @@ api_specs:
   label: AGL AGL To Supplier API
   slug: agl-agltosupplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-agltosupplier-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-agltosupplier-api-openapi.yml
 - filename: agl-codes-api-openapi.yml
   format: yaml
   label: AGL Codes API
   slug: agl-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-codes-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-codes-api-openapi.yml
 - filename: agl-golf-clubs-api-openapi.yml
   format: yaml
   label: AGL Golf Clubs API
   slug: agl-golf-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-golf-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-golf-clubs-api-openapi.yml
 - filename: agl-reservation-api-openapi.yml
   format: yaml
   label: AGL Reservation API
   slug: agl-reservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-reservation-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-reservation-api-openapi.yml
 - filename: agl-reservations-api-openapi.yml
   format: yaml
   label: AGL Reservations API
   slug: agl-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-reservations-api-openapi.yml
 - filename: agl-static-packages-api-openapi.yml
   format: yaml
   label: AGL Static Packages API
   slug: agl-static-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-static-packages-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-static-packages-api-openapi.yml
 - filename: agl-suppliertoagl-api-openapi.yml
   format: yaml
   label: AGL Supplier To AGL API
   slug: agl-suppliertoagl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-suppliertoagl-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-suppliertoagl-api-openapi.yml
 - filename: agl-tee-times-api-openapi.yml
   format: yaml
   label: AGL Tee Times API
   slug: agl-tee-times-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/openapi/agl-tee-times-api-openapi.yml
+  url: https://artifacts.apis.io/agl/openapi/agl-tee-times-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: generated\nsource: openapi/agl-op
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reservation/requests\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reservation/confirm\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reservation/partialcancel\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reservation\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/reservation\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/reservation/sendVoucher\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agl/refs/heads/main/agentic-access/agl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agl/agentic-access/agl-agentic-access.yml
 summary_line: 31 operations · 13 acting
 tags:
 - Company

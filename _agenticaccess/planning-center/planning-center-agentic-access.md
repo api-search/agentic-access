@@ -9,55 +9,55 @@ api_specs:
   label: Planning Center Calendar API
   slug: planning-center-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-calendar-api-openapi.yml
 - filename: planning-center-check-ins-api-openapi.yml
   format: yaml
   label: Planning Center Check-Ins API
   slug: planning-center-check-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-check-ins-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-check-ins-api-openapi.yml
 - filename: planning-center-giving-api-openapi.yml
   format: yaml
   label: Planning Center Giving API
   slug: planning-center-giving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-giving-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-giving-api-openapi.yml
 - filename: planning-center-groups-api-openapi.yml
   format: yaml
   label: Planning Center Groups API
   slug: planning-center-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-groups-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-groups-api-openapi.yml
 - filename: planning-center-people-api-openapi.yml
   format: yaml
   label: Planning Center People API
   slug: planning-center-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-people-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-people-api-openapi.yml
 - filename: planning-center-publishing-api-openapi.yml
   format: yaml
   label: Planning Center Publishing API
   slug: planning-center-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-publishing-api-openapi.yml
 - filename: planning-center-registrations-api-openapi.yml
   format: yaml
   label: Planning Center Registrations API
   slug: planning-center-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-registrations-api-openapi.yml
 - filename: planning-center-services-api-openapi.yml
   format: yaml
   label: Planning Center Services API
   slug: planning-center-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-services-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-services-api-openapi.yml
 - filename: planning-center-webhooks-api-openapi.yml
   format: yaml
   label: Planning Center Webhooks API
   slug: planning-center-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 51
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/planni
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - calendar\n    - check_ins\n    - giving\n    - groups\n    - people\n    - publishing\n    - registrations\n    - services\n- path: /webhooks/v2/subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - calendar\n    - check_ins\n    - giving\n    - groups\n    - people\n    - publishing\n    - registrations\n    - services\n- path: /webhooks/v2/subscriptions/{id}\n  method: get\n  operationId: getWebhookSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n    scope:\n    - calendar\n    - check_ins\n    - giving\n    - groups\n    - people\n    - publishing\n    - registrations\n    - services\n- path: /webhooks/v2/subscriptions/{id}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - calendar\n    - check_ins\n    - giving\n    - groups\n    - people\n    - publishing\n    - registrations\n    - services\n- path: /webhooks/v2/available_events\n  method: get\n  operationId: listAvailableEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - calendar\n    - check_ins\n    - giving\n    - groups\n    - people\n\
   \    - publishing\n    - registrations\n    - services\n- path: /webhooks/v2/subscriptions/{subscription_id}/events\n  method: get\n  operationId: listWebhookDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - calendar\n    - check_ins\n    - giving\n    - groups\n    - people\n    - publishing\n    - registrations\n    - services\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/agentic-access/planning-center-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/planning-center/agentic-access/planning-center-agentic-access.yml
 summary_line: 61 operations · 10 acting
 tags:
 - Church Management

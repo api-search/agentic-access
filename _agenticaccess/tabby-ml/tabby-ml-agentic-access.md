@@ -9,37 +9,37 @@ api_specs:
   label: Tabby Completions API
   slug: tabby-ml-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-completions-api-openapi.yml
+  url: https://artifacts.apis.io/tabby-ml/openapi/tabby-ml-completions-api-openapi.yml
 - filename: tabby-ml-events-api-openapi.yml
   format: yaml
   label: Tabby Events API
   slug: tabby-ml-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-events-api-openapi.yml
+  url: https://artifacts.apis.io/tabby-ml/openapi/tabby-ml-events-api-openapi.yml
 - filename: tabby-ml-health-api-openapi.yml
   format: yaml
   label: Tabby Health API
   slug: tabby-ml-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-health-api-openapi.yml
+  url: https://artifacts.apis.io/tabby-ml/openapi/tabby-ml-health-api-openapi.yml
 - filename: tabby-ml-ingestion-api-openapi.yml
   format: yaml
   label: Tabby Ingestion API
   slug: tabby-ml-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/tabby-ml/openapi/tabby-ml-ingestion-api-openapi.yml
 - filename: tabby-ml-models-api-openapi.yml
   format: yaml
   label: Tabby Models API
   slug: tabby-ml-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-models-api-openapi.yml
+  url: https://artifacts.apis.io/tabby-ml/openapi/tabby-ml-models-api-openapi.yml
 - filename: tabby-ml-chat-completions-api-openapi.yml
   format: yaml
   label: Tabby Chat Completions API
   slug: tabby-ml-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/tabby-ml/openapi/tabby-ml-chat-completions-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tabby-ml-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 5\n    connected: 3\n  by_consequence:\n    write: 5\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/completions\n  method: post\n  operationId: completion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chat/completions\n  method: post\n  operationId: chatCompletions\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta/chat/completions\n  method: post\n  operationId: chatCompletionsBeta\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta/ingestion\n  method: post\n  operationId: ingestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta/models\n  method: get\n  operationId: models\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/health\n  method: get\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/server_setting\n  method: get\n  operationId: serverSetting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events\n  method: post\n  operationId: event\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/agentic-access/tabby-ml-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tabby-ml/agentic-access/tabby-ml-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - AI Coding Assistant

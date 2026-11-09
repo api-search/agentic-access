@@ -9,7 +9,7 @@ api_specs:
   label: Amazon Augmented AI Human Loops API
   slug: amazon-augmented-ai-human-loops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/openapi/amazon-augmented-ai-human-loops-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-augmented-ai/openapi/amazon-augmented-ai-human-loops-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 1
@@ -47,11 +47,12 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-augmented-ai-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 2\n    acting: 3\n  by_consequence:\n    read: 2\n    write: 2\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /human-loops\n  method: get\n  operationId: listHumanLoops\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /human-loops\n  method: post\n  operationId: startHumanLoop\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /human-loops/{HumanLoopName}\n  method: get\n  operationId: describeHumanLoop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /human-loops/{HumanLoopName}\n  method: delete\n  operationId: deleteHumanLoop\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /human-loops/stop\n  method: post\n  operationId: stopHumanLoop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n     \
   \ proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/agentic-access/amazon-augmented-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-augmented-ai/agentic-access/amazon-augmented-ai-agentic-access.yml
 summary_line: 5 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Amazon Augmented AI
 - Human-in-the-Loop
 - Machine Learning
 - AI Review
+- Amazon Web Services
 ---

@@ -9,49 +9,49 @@ api_specs:
   label: Preset Authentication API
   slug: preset-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-authentication-api-openapi.yml
 - filename: preset-charts-api-openapi.yml
   format: yaml
   label: Preset Charts API
   slug: preset-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-charts-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-charts-api-openapi.yml
 - filename: preset-dashboards-api-openapi.yml
   format: yaml
   label: Preset Dashboards API
   slug: preset-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-dashboards-api-openapi.yml
 - filename: preset-databases-api-openapi.yml
   format: yaml
   label: Preset Databases API
   slug: preset-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-databases-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-databases-api-openapi.yml
 - filename: preset-datasets-api-openapi.yml
   format: yaml
   label: Preset Datasets API
   slug: preset-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-datasets-api-openapi.yml
 - filename: preset-sql-lab-api-openapi.yml
   format: yaml
   label: Preset SQL Lab API
   slug: preset-sql-lab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-sql-lab-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-sql-lab-api-openapi.yml
 - filename: preset-teams-api-openapi.yml
   format: yaml
   label: Preset Teams API
   slug: preset-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-teams-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-teams-api-openapi.yml
 - filename: preset-workspaces-api-openapi.yml
   format: yaml
   label: Preset Workspaces API
   slug: preset-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/openapi/preset-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/preset/openapi/preset-workspaces-api-openapi.yml
 consequence_counts:
   read: 11
   write: 10
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/preset
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/database/{pk}\n  method: get\n  operationId: getDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dataset/\n  method: get\n  operationId: getDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dataset/\n  method: post\n  operationId: createDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/v1/dataset/{pk}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sqllab/execute/\n  method: post\n  operationId: executeSql\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/teams/\n  method: get\n  operationId: getTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams/{teamName}/workspaces/\n  method: get\n  operationId: getWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v1/teams/{teamName}/workspaces/\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/teams/{teamName}/workspaces/{workspaceName}/guest-token/\n  method: post\n  operationId: createGuestToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/agentic-access/preset-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/preset/agentic-access/preset-agentic-access.yml
 summary_line: 21 operations · 10 acting
 tags:
 - Business Intelligence

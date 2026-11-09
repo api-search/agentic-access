@@ -9,271 +9,271 @@ api_specs:
   label: LianLian Global Account API
   slug: lianlian-global-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-account-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-account-api-openapi.yml
 - filename: lianlian-global-accounts-api-openapi.yml
   format: yaml
   label: LianLian Global Accounts API
   slug: lianlian-global-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-accounts-api-openapi.yml
 - filename: lianlian-global-agreement-api-openapi.yml
   format: yaml
   label: LianLian Global Agreement API
   slug: lianlian-global-agreement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-agreement-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-agreement-api-openapi.yml
 - filename: lianlian-global-balance-api-openapi.yml
   format: yaml
   label: LianLian Global Balance API
   slug: lianlian-global-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-balance-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-balance-api-openapi.yml
 - filename: lianlian-global-beneficiaries-api-openapi.yml
   format: yaml
   label: LianLian Global Beneficiaries API
   slug: lianlian-global-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-beneficiaries-api-openapi.yml
 - filename: lianlian-global-captchas-api-openapi.yml
   format: yaml
   label: LianLian Global Captchas API
   slug: lianlian-global-captchas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-captchas-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-captchas-api-openapi.yml
 - filename: lianlian-global-card-payouts-api-openapi.yml
   format: yaml
   label: LianLian Global Card Payouts API
   slug: lianlian-global-card-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-card-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-card-payouts-api-openapi.yml
 - filename: lianlian-global-checkout-api-openapi.yml
   format: yaml
   label: LianLian Global Checkout API
   slug: lianlian-global-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-checkout-api-openapi.yml
 - filename: lianlian-global-compliances-api-openapi.yml
   format: yaml
   label: LianLian Global Compliances API
   slug: lianlian-global-compliances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-compliances-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-compliances-api-openapi.yml
 - filename: lianlian-global-conversion-api-openapi.yml
   format: yaml
   label: LianLian Global Conversion API
   slug: lianlian-global-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-conversion-api-openapi.yml
 - filename: lianlian-global-conversions-api-openapi.yml
   format: yaml
   label: LianLian Global Conversions API
   slug: lianlian-global-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-conversions-api-openapi.yml
 - filename: lianlian-global-default-api-openapi.yml
   format: yaml
   label: LianLian Global 接口 API
   slug: lianlian-global-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-default-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-default-api-openapi.yml
 - filename: lianlian-global-deposits-api-openapi.yml
   format: yaml
   label: LianLian Global Deposits API
   slug: lianlian-global-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-deposits-api-openapi.yml
 - filename: lianlian-global-ew-oauth2-api-openapi.yml
   format: yaml
   label: LianLian Global Ew Oauth2 API
   slug: lianlian-global-ew-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-ew-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-ew-oauth2-api-openapi.yml
 - filename: lianlian-global-ew-receipts-api-openapi.yml
   format: yaml
   label: LianLian Global Ew Receipts API
   slug: lianlian-global-ew-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-ew-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-ew-receipts-api-openapi.yml
 - filename: lianlian-global-ew-receiving-api-openapi.yml
   format: yaml
   label: LianLian Global Ew Receiving API
   slug: lianlian-global-ew-receiving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-ew-receiving-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-ew-receiving-api-openapi.yml
 - filename: lianlian-global-ew-receivings-api-openapi.yml
   format: yaml
   label: LianLian Global Ew Receivings API
   slug: lianlian-global-ew-receivings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-ew-receivings-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-ew-receivings-api-openapi.yml
 - filename: lianlian-global-ew-recharges-api-openapi.yml
   format: yaml
   label: LianLian Global Ew Recharges API
   slug: lianlian-global-ew-recharges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-ew-recharges-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-ew-recharges-api-openapi.yml
 - filename: lianlian-global-ew-transactions-api-openapi.yml
   format: yaml
   label: LianLian Global Ew Transactions API
   slug: lianlian-global-ew-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-ew-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-ew-transactions-api-openapi.yml
 - filename: lianlian-global-ew-withdrawals-api-openapi.yml
   format: yaml
   label: LianLian Global Ew Withdrawals API
   slug: lianlian-global-ew-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-ew-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-ew-withdrawals-api-openapi.yml
 - filename: lianlian-global-files-api-openapi.yml
   format: yaml
   label: LianLian Global Files API
   slug: lianlian-global-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-files-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-files-api-openapi.yml
 - filename: lianlian-global-gateway-api-openapi.yml
   format: yaml
   label: LianLian Global Gateway API
   slug: lianlian-global-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-gateway-api-openapi.yml
 - filename: lianlian-global-kyc-api-openapi.yml
   format: yaml
   label: LianLian Global Kyc API
   slug: lianlian-global-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-kyc-api-openapi.yml
 - filename: lianlian-global-member-api-openapi.yml
   format: yaml
   label: LianLian Global Member API
   slug: lianlian-global-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-member-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-member-api-openapi.yml
 - filename: lianlian-global-operations-api-openapi.yml
   format: yaml
   label: LianLian Global Operations API
   slug: lianlian-global-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-operations-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-operations-api-openapi.yml
 - filename: lianlian-global-payers-api-openapi.yml
   format: yaml
   label: LianLian Global Payers API
   slug: lianlian-global-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-payers-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-payers-api-openapi.yml
 - filename: lianlian-global-payment-api-openapi.yml
   format: yaml
   label: LianLian Global Payment API
   slug: lianlian-global-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-payment-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-payment-api-openapi.yml
 - filename: lianlian-global-payout-api-openapi.yml
   format: yaml
   label: LianLian Global Payout API
   slug: lianlian-global-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-payout-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-payout-api-openapi.yml
 - filename: lianlian-global-payouts-api-openapi.yml
   format: yaml
   label: LianLian Global Payouts API
   slug: lianlian-global-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-payouts-api-openapi.yml
 - filename: lianlian-global-query-api-openapi.yml
   format: yaml
   label: LianLian Global Query API
   slug: lianlian-global-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-query-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-query-api-openapi.yml
 - filename: lianlian-global-quote-api-openapi.yml
   format: yaml
   label: LianLian Global Quote API
   slug: lianlian-global-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-quote-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-quote-api-openapi.yml
 - filename: lianlian-global-quotes-api-openapi.yml
   format: yaml
   label: LianLian Global Quotes API
   slug: lianlian-global-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-quotes-api-openapi.yml
 - filename: lianlian-global-receipts-api-openapi.yml
   format: yaml
   label: LianLian Global Receipts API
   slug: lianlian-global-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-receipts-api-openapi.yml
 - filename: lianlian-global-receiving-accounts-api-openapi.yml
   format: yaml
   label: LianLian Global Receiving Accounts API
   slug: lianlian-global-receiving-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-receiving-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-receiving-accounts-api-openapi.yml
 - filename: lianlian-global-refund-api-openapi.yml
   format: yaml
   label: LianLian Global Refund API
   slug: lianlian-global-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-refund-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-refund-api-openapi.yml
 - filename: lianlian-global-reports-api-openapi.yml
   format: yaml
   label: LianLian Global Reports API
   slug: lianlian-global-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-reports-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-reports-api-openapi.yml
 - filename: lianlian-global-statement-api-openapi.yml
   format: yaml
   label: LianLian Global Statement API
   slug: lianlian-global-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-statement-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-statement-api-openapi.yml
 - filename: lianlian-global-transaction-api-openapi.yml
   format: yaml
   label: LianLian Global Transaction API
   slug: lianlian-global-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-transaction-api-openapi.yml
 - filename: lianlian-global-transaction-documents-api-openapi.yml
   format: yaml
   label: LianLian Global Transaction Documents API
   slug: lianlian-global-transaction-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-transaction-documents-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-transaction-documents-api-openapi.yml
 - filename: lianlian-global-transfer-api-openapi.yml
   format: yaml
   label: LianLian Global Transfer API
   slug: lianlian-global-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-transfer-api-openapi.yml
 - filename: lianlian-global-user-api-openapi.yml
   format: yaml
   label: LianLian Global User API
   slug: lianlian-global-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-user-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-user-api-openapi.yml
 - filename: lianlian-global-users-api-openapi.yml
   format: yaml
   label: LianLian Global Users API
   slug: lianlian-global-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-users-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-users-api-openapi.yml
 - filename: lianlian-global-verifications-api-openapi.yml
   format: yaml
   label: LianLian Global Verifications API
   slug: lianlian-global-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-verifications-api-openapi.yml
 - filename: lianlian-global-oauth2-api-openapi.yml
   format: yaml
   label: LianLian Global Oauth2 API
   slug: lianlian-global-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-oauth2-api-openapi.yml
 - filename: lianlian-global-top-up-api-openapi.yml
   format: yaml
   label: LianLian Global Top Up API
   slug: lianlian-global-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/lianlian-global/openapi/lianlian-global-top-up-api-openapi.yml
 consequence_counts:
   physical: 46
   read: 162
@@ -459,8 +459,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lianli
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deposits/{deposit_id}\n  method: post\n  operationId: deposit_id\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deposits\n  method: get\n  operationId: getDeposits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ew-oauth2/token\n  method: get\n  operationId: get-access-token\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ew-receipts/{id}\n  method: get\n  operationId: get-receipt-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ew-receiving/accounts\n  method: get\n  operationId: get-receivings-accounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ew-receiving/accounts/{id}\n  method: get\n  operationId: get-receivings-accounts-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ew-receivings/{id}\n  method: get\n  operationId: get-receivings-ID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /ew-recharges/{id}\n  method: get\n  operationId: get-AddFunds-Id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ew-transactions\n  method: get\n  operationId: get-transactions-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ew-withdrawals/{id}\n  method: get\n  operationId: get-withdrawals-ID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/upload\n  method: post\n  operationId: upload-files\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
-  \ - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (91 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/agentic-access/lianlian-global-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/agentic-access/lianlian-global-agentic-access.yml
+  \ - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (91 KB total) ---\n# Full source: https://artifacts.apis.io/lianlian-global/agentic-access/lianlian-global-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/lianlian-global/agentic-access/lianlian-global-agentic-access.yml
 summary_line: 316 operations · 154 acting
 tags:
 - Payments

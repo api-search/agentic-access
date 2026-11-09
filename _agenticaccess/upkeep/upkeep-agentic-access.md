@@ -9,61 +9,61 @@ api_specs:
   label: UpKeep Assets API
   slug: upkeep-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-assets-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-assets-api-openapi.yml
 - filename: upkeep-authentication-api-openapi.yml
   format: yaml
   label: UpKeep Authentication API
   slug: upkeep-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-authentication-api-openapi.yml
 - filename: upkeep-locations-api-openapi.yml
   format: yaml
   label: UpKeep Locations API
   slug: upkeep-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-locations-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-locations-api-openapi.yml
 - filename: upkeep-meters-api-openapi.yml
   format: yaml
   label: UpKeep Meters API
   slug: upkeep-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-meters-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-meters-api-openapi.yml
 - filename: upkeep-parts-api-openapi.yml
   format: yaml
   label: UpKeep Parts API
   slug: upkeep-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-parts-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-parts-api-openapi.yml
 - filename: upkeep-preventive-maintenance-api-openapi.yml
   format: yaml
   label: UpKeep Preventive Maintenance API
   slug: upkeep-preventive-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-preventive-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-preventive-maintenance-api-openapi.yml
 - filename: upkeep-purchase-orders-api-openapi.yml
   format: yaml
   label: UpKeep Purchase Orders API
   slug: upkeep-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-purchase-orders-api-openapi.yml
 - filename: upkeep-requests-api-openapi.yml
   format: yaml
   label: UpKeep Requests API
   slug: upkeep-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-requests-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-requests-api-openapi.yml
 - filename: upkeep-webhooks-api-openapi.yml
   format: yaml
   label: UpKeep Webhooks API
   slug: upkeep-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-webhooks-api-openapi.yml
 - filename: upkeep-work-orders-api-openapi.yml
   format: yaml
   label: UpKeep Work Orders API
   slug: upkeep-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/openapi/upkeep-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/upkeep/openapi/upkeep-work-orders-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 17
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/upkeep
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /meters\n  method: post\n  operationId: createMeter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meters/{id}/readings\n  method: post\n  operationId: submitMeterReading\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests\n  method: get\n  operationId: listRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /requests\n  method: post\n  operationId:\
   \ createRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{id}\n  method: get\n  operationId: getRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/agentic-access/upkeep-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/upkeep/agentic-access/upkeep-agentic-access.yml
 summary_line: 44 operations · 27 acting
 tags:
 - CMMS

@@ -9,85 +9,85 @@ api_specs:
   label: Abound 1099-INT API
   slug: abound-1099-int-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-1099-int-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-1099-int-api-openapi.yml
 - filename: abound-1099-k-api-openapi.yml
   format: yaml
   label: Abound 1099-K API
   slug: abound-1099-k-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-1099-k-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-1099-k-api-openapi.yml
 - filename: abound-1099-misc-api-openapi.yml
   format: yaml
   label: Abound 1099-MISC API
   slug: abound-1099-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-1099-misc-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-1099-misc-api-openapi.yml
 - filename: abound-1099-nec-api-openapi.yml
   format: yaml
   label: Abound 1099-NEC API
   slug: abound-1099-nec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-1099-nec-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-1099-nec-api-openapi.yml
 - filename: abound-access-tokens-api-openapi.yml
   format: yaml
   label: Abound Access Tokens API
   slug: abound-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-access-tokens-api-openapi.yml
 - filename: abound-electronic-delivery-consents-api-openapi.yml
   format: yaml
   label: Abound Electronic Delivery Consents API
   slug: abound-electronic-delivery-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-electronic-delivery-consents-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-electronic-delivery-consents-api-openapi.yml
 - filename: abound-mailings-api-openapi.yml
   format: yaml
   label: Abound Mailings API
   slug: abound-mailings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-mailings-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-mailings-api-openapi.yml
 - filename: abound-tax-treaties-api-openapi.yml
   format: yaml
   label: Abound Tax Treaties API
   slug: abound-tax-treaties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-tax-treaties-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-tax-treaties-api-openapi.yml
 - filename: abound-tin-verifications-api-openapi.yml
   format: yaml
   label: Abound TIN Verifications API
   slug: abound-tin-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-tin-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-tin-verifications-api-openapi.yml
 - filename: abound-users-api-openapi.yml
   format: yaml
   label: Abound Users API
   slug: abound-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-users-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-users-api-openapi.yml
 - filename: abound-w-8ben-api-openapi.yml
   format: yaml
   label: Abound W-8BEN API
   slug: abound-w-8ben-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-w-8ben-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-w-8ben-api-openapi.yml
 - filename: abound-w-8ben-e-api-openapi.yml
   format: yaml
   label: Abound W-8BEN-E API
   slug: abound-w-8ben-e-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-w-8ben-e-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-w-8ben-e-api-openapi.yml
 - filename: abound-w-9-api-openapi.yml
   format: yaml
   label: Abound W-9 API
   slug: abound-w-9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-w-9-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-w-9-api-openapi.yml
 - filename: abound-abound-api-v4-api-openapi.yml
   format: yaml
   label: Abound API V4 API
   slug: abound-abound-api-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/openapi/abound-abound-api-v4-api-openapi.yml
+  url: https://artifacts.apis.io/abound/openapi/abound-abound-api-v4-api-openapi.yml
 consequence_counts:
   read: 22
   write: 33
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/abound
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/mailings/{mailingId}\n  method: delete\n  operationId: mailingsDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/tax-treaties\n  method: get\n  operationId: taxTreatiesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/tin-verifications\n  method: get\n  operationId: tinVerificationsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/tin-verifications\n  method: post\n  operationId:\
   \ tinVerificationsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/tin-verifications/{tinVerificationId}\n  method: get\n  operationId: tinVerificationsRetrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users\n  method: get\n  operationId: usersList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users\n  method: post\n  operationId: usersCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/users/{userId}\n  method: get\n  operationId: usersRetrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/users/{userId}\n  method: put\n  operationId: usersUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/agentic-access/abound-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/abound/agentic-access/abound-agentic-access.yml
 summary_line: 55 operations · 33 acting
 tags:
 - Company

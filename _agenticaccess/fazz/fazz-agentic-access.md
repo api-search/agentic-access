@@ -9,19 +9,19 @@ api_specs:
   label: Fazz Disbursements API
   slug: fazz-disbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-disbursements-api-openapi.yml
+  url: https://artifacts.apis.io/fazz/openapi/fazz-disbursements-api-openapi.yml
 - filename: fazz-payment-methods-api-openapi.yml
   format: yaml
   label: Fazz Payment Methods API
   slug: fazz-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/fazz/openapi/fazz-payment-methods-api-openapi.yml
 - filename: fazz-payments-api-openapi.yml
   format: yaml
   label: Fazz Payments API
   slug: fazz-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/openapi/fazz-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fazz/openapi/fazz-payments-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -53,7 +53,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/fazz-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/. Note - this API moves real\n  money (payments and disbursements); write operations are high-consequence and should default\n  to human-in-the-loop.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 3\n    connected: 5\n  by_consequence:\n    write: 3\n    read: 5\n  human_in_the_loop_required: 3\noperations:\n- path: /payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - high-value\n     \
   \ - abnormal\n    audit: required\n- path: /payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{paymentId}\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_methods/{type}\n  method: post\n  operationId: createPaymentMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment_methods/{paymentMethodId}/payments\n  method: get\n  operationId: listPaymentsForPaymentMethod\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disbursements\n  method: post\n  operationId: createDisbursement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - high-value\n      - abnormal\n    audit: required\n- path: /disbursements\n  method: get\n  operationId: listDisbursements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disbursements/{disbursementId}\n  method: get\n  operationId: getDisbursement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/agentic-access/fazz-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fazz/agentic-access/fazz-agentic-access.yml
 summary_line: 8 operations · 3 acting · 3 human-in-the-loop
 tags:
 - Fintech

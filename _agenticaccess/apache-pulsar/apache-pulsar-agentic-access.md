@@ -9,49 +9,49 @@ api_specs:
   label: Apache Pulsar Messaging API
   slug: apache-pulsar-messaging-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/asyncapi/pulsar-messaging.yml
+  url: https://artifacts.apis.io/apache-pulsar/asyncapi/pulsar-messaging.yml
 - filename: apache-pulsar-brokers-api-openapi.yml
   format: yaml
   label: Apache Pulsar Brokers API
   slug: apache-pulsar-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-brokers-api-openapi.yml
 - filename: apache-pulsar-clusters-api-openapi.yml
   format: yaml
   label: Apache Pulsar Clusters API
   slug: apache-pulsar-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-clusters-api-openapi.yml
 - filename: apache-pulsar-functions-api-openapi.yml
   format: yaml
   label: Apache Pulsar Functions API
   slug: apache-pulsar-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-functions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-functions-api-openapi.yml
 - filename: apache-pulsar-namespaces-api-openapi.yml
   format: yaml
   label: Apache Pulsar Namespaces API
   slug: apache-pulsar-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-namespaces-api-openapi.yml
 - filename: apache-pulsar-subscriptions-api-openapi.yml
   format: yaml
   label: Apache Pulsar Subscriptions API
   slug: apache-pulsar-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-subscriptions-api-openapi.yml
 - filename: apache-pulsar-tenants-api-openapi.yml
   format: yaml
   label: Apache Pulsar Tenants API
   slug: apache-pulsar-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-tenants-api-openapi.yml
 - filename: apache-pulsar-topics-api-openapi.yml
   format: yaml
   label: Apache Pulsar Topics API
   slug: apache-pulsar-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/openapi/apache-pulsar-topics-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pulsar/openapi/apache-pulsar-topics-api-openapi.yml
 consequence_counts:
   read: 16
   write: 13
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pulsar
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /persistent/{tenant}/{namespace}/{topic}/partitions\n  method: put\n  operationId: createPartitionedTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions/{tenant}/{namespace}\n  method: get\n  operationId: listFunctions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /functions/{tenant}/{namespace}/{functionName}\n  method: get\n  operationId: getFunctionInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /functions/{tenant}/{namespace}/{functionName}\n  method: delete\n  operationId: deleteFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /functions/{tenant}/{namespace}/{functionName}/status\n  method: get\n  operationId: getFunctionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /brokers\n  method: get\n  operationId: getActiveBrokers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /brokers/health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/agentic-access/apache-pulsar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-pulsar/agentic-access/apache-pulsar-agentic-access.yml
 summary_line: 29 operations · 13 acting
 tags:
 - Cloud-Native

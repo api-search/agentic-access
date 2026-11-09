@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Run Jobs API
   slug: google-cloud-run-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-jobs-api-openapi.yml
 - filename: google-cloud-run-projects-api-openapi.yml
   format: yaml
   label: Google Cloud Run Projects API
   slug: google-cloud-run-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-projects-api-openapi.yml
 - filename: google-cloud-run-revisions-api-openapi.yml
   format: yaml
   label: Google Cloud Run Revisions API
   slug: google-cloud-run-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-revisions-api-openapi.yml
 consequence_counts:
   read: 6
   write: 8
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/jobs\n  method: post\n  operationId: createJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/jobs/{jobId}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/jobs/{jobId}\n  method: patch\n  operationId: updateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/jobs/{jobId}\n  method: delete\n  operationId: deleteJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/jobs/{jobId}:run\n  method: post\n  operationId: runJob\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/agentic-access/google-cloud-run-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-run/agentic-access/google-cloud-run-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - Cloud Run

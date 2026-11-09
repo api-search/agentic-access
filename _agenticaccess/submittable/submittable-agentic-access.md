@@ -9,61 +9,61 @@ api_specs:
   label: Submittable Assignments API
   slug: submittable-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-assignments-api-openapi.yml
 - filename: submittable-entries-api-openapi.yml
   format: yaml
   label: Submittable Entries API
   slug: submittable-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-entries-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-entries-api-openapi.yml
 - filename: submittable-funds-api-openapi.yml
   format: yaml
   label: Submittable Funds API
   slug: submittable-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-funds-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-funds-api-openapi.yml
 - filename: submittable-labels-api-openapi.yml
   format: yaml
   label: Submittable Labels API
   slug: submittable-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-labels-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-labels-api-openapi.yml
 - filename: submittable-messaging-api-openapi.yml
   format: yaml
   label: Submittable Messaging API
   slug: submittable-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-messaging-api-openapi.yml
 - filename: submittable-payments-api-openapi.yml
   format: yaml
   label: Submittable Payments API
   slug: submittable-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-payments-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-payments-api-openapi.yml
 - filename: submittable-projects-api-openapi.yml
   format: yaml
   label: Submittable Projects API
   slug: submittable-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-projects-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-projects-api-openapi.yml
 - filename: submittable-submissions-api-openapi.yml
   format: yaml
   label: Submittable Submissions API
   slug: submittable-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-submissions-api-openapi.yml
 - filename: submittable-teams-api-openapi.yml
   format: yaml
   label: Submittable Teams API
   slug: submittable-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-teams-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-teams-api-openapi.yml
 - filename: submittable-users-api-openapi.yml
   format: yaml
   label: Submittable Users API
   slug: submittable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/openapi/submittable-users-api-openapi.yml
+  url: https://artifacts.apis.io/submittable/openapi/submittable-users-api-openapi.yml
 consequence_counts:
   read: 14
   write: 5
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/submit
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/team\n  method: get\n  operationId: listTeamMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submissions/team/assignment\n  method: post\n  operationId: assignSubmission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /labels\n  method: get\n  operationId: listLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /labels\n  method: post\n  operationId: createLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /funds\n  method: get\n  operationId: listFunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messaging/{messageId}/files\n  method: get\n  operationId: getMessageFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/agentic-access/submittable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/submittable/agentic-access/submittable-agentic-access.yml
 summary_line: 19 operations · 5 acting
 tags:
 - Submission Management

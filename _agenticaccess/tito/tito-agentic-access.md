@@ -9,67 +9,67 @@ api_specs:
   label: Tito Account API
   slug: tito-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-account-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-account-api-openapi.yml
 - filename: tito-activities-api-openapi.yml
   format: yaml
   label: Tito Activities API
   slug: tito-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-activities-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-activities-api-openapi.yml
 - filename: tito-check-in-lists-api-openapi.yml
   format: yaml
   label: Tito Check-in Lists API
   slug: tito-check-in-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-check-in-lists-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-check-in-lists-api-openapi.yml
 - filename: tito-discount-codes-api-openapi.yml
   format: yaml
   label: Tito Discount Codes API
   slug: tito-discount-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-discount-codes-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-discount-codes-api-openapi.yml
 - filename: tito-events-api-openapi.yml
   format: yaml
   label: Tito Events API
   slug: tito-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-events-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-events-api-openapi.yml
 - filename: tito-refunds-api-openapi.yml
   format: yaml
   label: Tito Refunds API
   slug: tito-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-refunds-api-openapi.yml
 - filename: tito-registrations-api-openapi.yml
   format: yaml
   label: Tito Registrations API
   slug: tito-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-registrations-api-openapi.yml
 - filename: tito-releases-api-openapi.yml
   format: yaml
   label: Tito Releases API
   slug: tito-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-releases-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-releases-api-openapi.yml
 - filename: tito-tickets-api-openapi.yml
   format: yaml
   label: Tito Tickets API
   slug: tito-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-tickets-api-openapi.yml
 - filename: tito-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Tito Webhook Endpoints API
   slug: tito-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-webhook-endpoints-api-openapi.yml
 - filename: tito-tito-admin-api-api-openapi.yml
   format: yaml
   label: Tito Admin API
   slug: tito-tito-admin-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-tito-admin-api-api-openapi.yml
+  url: https://artifacts.apis.io/tito/openapi/tito-tito-admin-api-api-openapi.yml
 consequence_counts:
   read: 22
   write: 35
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tito-o
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account_slug}/{event_slug}/refunds\n  method: get\n  operationId: listRefunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account_slug}/{event_slug}/refunds/{refund_id}\n  method: get\n  operationId: getRefund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account_slug}/{event_slug}/webhook_endpoints\n  method: get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account_slug}/{event_slug}/webhook_endpoints\n\
   \  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account_slug}/{event_slug}/webhook_endpoints/{id}\n  method: get\n  operationId: getWebhookEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account_slug}/{event_slug}/webhook_endpoints/{id}\n  method: patch\n  operationId: updateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account_slug}/{event_slug}/webhook_endpoints/{id}\n\
   \  method: delete\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/agentic-access/tito-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tito/agentic-access/tito-agentic-access.yml
 summary_line: 57 operations · 35 acting
 tags:
 - Event Ticketing

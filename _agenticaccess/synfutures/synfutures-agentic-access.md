@@ -9,37 +9,37 @@ api_specs:
   label: SynFutures Cash API
   slug: synfutures-cash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-cash-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-cash-api-openapi.yml
 - filename: synfutures-market-data-api-openapi.yml
   format: yaml
   label: SynFutures Market Data API
   slug: synfutures-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-market-data-api-openapi.yml
 - filename: synfutures-one-click-api-openapi.yml
   format: yaml
   label: SynFutures One Click API
   slug: synfutures-one-click-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-one-click-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-one-click-api-openapi.yml
 - filename: synfutures-orders-api-openapi.yml
   format: yaml
   label: SynFutures Orders API
   slug: synfutures-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-orders-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-orders-api-openapi.yml
 - filename: synfutures-portfolio-api-openapi.yml
   format: yaml
   label: SynFutures Portfolio API
   slug: synfutures-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-portfolio-api-openapi.yml
 - filename: synfutures-stock-api-openapi.yml
   format: yaml
   label: SynFutures Stock API
   slug: synfutures-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/openapi/synfutures-stock-api-openapi.yml
+  url: https://artifacts.apis.io/synfutures/openapi/synfutures-stock-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 21
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/synfut
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/stock/withdrawals/tx\n  method: post\n  operationId: recordStockWithdrawalTx\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/stock/withdrawals\n  method: get\n  operationId: listStockWithdrawals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/stock/withdrawals/{operationId}\n\
   \  method: get\n  operationId: getStockWithdrawal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/1ct/status\n  method: get\n  operationId: getDelegationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/1ct/prepare\n  method: post\n  operationId: prepareDelegation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/1ct/enable\n  method: post\n  operationId: enableDelegation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/1ct/disable\n  method: post\n  operationId: disableDelegation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/agentic-access/synfutures-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/synfutures/agentic-access/synfutures-agentic-access.yml
 summary_line: 43 operations · 22 acting · 1 human-in-the-loop
 tags:
 - Company

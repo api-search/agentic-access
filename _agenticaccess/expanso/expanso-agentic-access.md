@@ -9,13 +9,13 @@ api_specs:
   label: Expanso Ops API
   slug: expanso-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/openapi/expanso-ops-api-openapi.yml
+  url: https://artifacts.apis.io/expanso/openapi/expanso-ops-api-openapi.yml
 - filename: expanso-orchestrator-api-openapi.yml
   format: yaml
   label: Expanso Orchestrator API
   slug: expanso-orchestrator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/openapi/expanso-orchestrator-api-openapi.yml
+  url: https://artifacts.apis.io/expanso/openapi/expanso-orchestrator-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 1
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/bacalh
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orchestrator/jobs/{id}\n  method: delete\n  operationId: orchestrator/stopJob\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/orchestrator/jobs/{id}/executions\n  method: get\n  operationId: orchestrator/jobExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orchestrator/jobs/{id}/history\n  method: get\n  operationId: orchestrator/listHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orchestrator/jobs/{id}/logs\n\
   \  method: get\n  operationId: orchestrator/logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orchestrator/jobs/{id}/rerun\n  method: put\n  operationId: orchestrator/rerunJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/orchestrator/jobs/{id}/results\n  method: get\n  operationId: orchestrator/jobResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orchestrator/jobs/{id}/versions\n  method: get\n  operationId: orchestrator/jobVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orchestrator/nodes\n  method: get\n  operationId: orchestrator/listNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orchestrator/nodes/{id}\n  method: get\n  operationId: orchestrator/getNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/orchestrator/nodes/{id}\n  method: put\n  operationId: orchestrator/updateNode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/agentic-access/expanso-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/expanso/agentic-access/expanso-agentic-access.yml
 summary_line: 20 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Company

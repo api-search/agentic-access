@@ -9,49 +9,49 @@ api_specs:
   label: BTC Markets Account APIs API
   slug: btcmarkets-account-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-account-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-account-apis-api-openapi.yml
 - filename: btcmarkets-batch-order-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Batch Order APIs API
   slug: btcmarkets-batch-order-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-batch-order-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-batch-order-apis-api-openapi.yml
 - filename: btcmarkets-fund-management-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Fund Management APIs API
   slug: btcmarkets-fund-management-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-fund-management-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-fund-management-apis-api-openapi.yml
 - filename: btcmarkets-market-data-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Market Data APIs API
   slug: btcmarkets-market-data-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-market-data-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-market-data-apis-api-openapi.yml
 - filename: btcmarkets-misc-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Misc APIs API
   slug: btcmarkets-misc-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-misc-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-misc-apis-api-openapi.yml
 - filename: btcmarkets-order-placement-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Order Placement APIs API
   slug: btcmarkets-order-placement-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-order-placement-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-order-placement-apis-api-openapi.yml
 - filename: btcmarkets-report-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Report APIs API
   slug: btcmarkets-report-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-report-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-report-apis-api-openapi.yml
 - filename: btcmarkets-trade-apis-api-openapi.yml
   format: yaml
   label: BTC Markets Trade APIs API
   slug: btcmarkets-trade-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/openapi/btcmarkets-trade-apis-api-openapi.yml
+  url: https://artifacts.apis.io/btcmarkets/openapi/btcmarkets-trade-apis-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 27
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/btcmar
   \      max-ttl: 3600\n    audit: none\n- path: /v3/deposits\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/deposits/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/transfers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/transfers/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/addresses\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/withdrawal-fees\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/assets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/reports\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/reports/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/me/trading-fees\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n- path: /v3/accounts/me/withdrawal-limits\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/me/balances\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/me/transactions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/time\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/agentic-access/btcmarkets-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/btcmarkets/agentic-access/btcmarkets-agentic-access.yml
 summary_line: 35 operations · 8 acting
 tags:
 - Company

@@ -9,25 +9,25 @@ api_specs:
   label: Lorikeet Conversations API
   slug: lorikeet-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/lorikeet/openapi/lorikeet-conversations-api-openapi.yml
 - filename: lorikeet-knowledge-api-openapi.yml
   format: yaml
   label: Lorikeet Knowledge API
   slug: lorikeet-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/lorikeet/openapi/lorikeet-knowledge-api-openapi.yml
 - filename: lorikeet-messages-api-openapi.yml
   format: yaml
   label: Lorikeet Messages API
   slug: lorikeet-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-messages-api-openapi.yml
+  url: https://artifacts.apis.io/lorikeet/openapi/lorikeet-messages-api-openapi.yml
 - filename: lorikeet-webhooks-api-openapi.yml
   format: yaml
   label: Lorikeet Webhooks API
   slug: lorikeet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/openapi/lorikeet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lorikeet/openapi/lorikeet-webhooks-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lorike
   \ post\n  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /knowledge/sources\n  method: get\n  operationId: listKnowledgeSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /knowledge/sources\n  method: post\n  operationId: ingestKnowledgeSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /knowledge/sources/{source_id}\n  method: get\n  operationId: getKnowledgeSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /knowledge/sources/{source_id}\n  method: delete\n  operationId: deleteKnowledgeSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/agentic-access/lorikeet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lorikeet/agentic-access/lorikeet-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Artificial Intelligence

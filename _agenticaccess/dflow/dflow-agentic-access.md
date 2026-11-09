@@ -9,43 +9,43 @@ api_specs:
   label: DFlow Admin API
   slug: dflow-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-admin-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-admin-api-openapi.yml
 - filename: dflow-intent-api-openapi.yml
   format: yaml
   label: DFlow Intent API
   slug: dflow-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-intent-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-intent-api-openapi.yml
 - filename: dflow-order-api-openapi.yml
   format: yaml
   label: DFlow Order API
   slug: dflow-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-order-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-order-api-openapi.yml
 - filename: dflow-prediction-market-api-openapi.yml
   format: yaml
   label: DFlow Prediction Market API
   slug: dflow-prediction-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-prediction-market-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-prediction-market-api-openapi.yml
 - filename: dflow-swap-api-openapi.yml
   format: yaml
   label: DFlow Swap API
   slug: dflow-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-swap-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-swap-api-openapi.yml
 - filename: dflow-tokens-api-openapi.yml
   format: yaml
   label: DFlow Tokens API
   slug: dflow-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-tokens-api-openapi.yml
 - filename: dflow-venues-api-openapi.yml
   format: yaml
   label: DFlow Venues API
   slug: dflow-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-venues-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-venues-api-openapi.yml
 consequence_counts:
   read: 11
   write: 3
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/dflow-
   \ order_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order-status\n  method: get\n  operationId: order_status_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prediction-market-init\n  method: get\n  operationId: prediction_market_init_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /priority-fees\n  method: get\n  operationId: priority_fees_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /priority-fees/stream\n  method: get\n  operationId: priority_fee_stream_handler\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quote\n  method: get\n  operationId: quote_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submit-intent\n  method: post\n  operationId: submit_intent_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /swap\n  method: post\n  operationId: swap_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /swap-instructions\n\
   \  method: post\n  operationId: swap_instructions_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens\n  method: get\n  operationId: tokens_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens-with-decimals\n  method: get\n  operationId: tokens_with_decimals_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /venues\n  method: get\n  operationId: venues_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/agentic-access/dflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dflow/agentic-access/dflow-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - Company

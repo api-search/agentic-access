@@ -9,49 +9,49 @@ api_specs:
   label: Mailjet Campaigns API
   slug: mailjet-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/mailjet/openapi/mailjet-campaigns-api-openapi.yml
 - filename: mailjet-contact-lists-api-openapi.yml
   format: yaml
   label: Mailjet Contact Lists API
   slug: mailjet-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-contact-lists-api-openapi.yml
+  url: https://artifacts.apis.io/mailjet/openapi/mailjet-contact-lists-api-openapi.yml
 - filename: mailjet-contacts-api-openapi.yml
   format: yaml
   label: Mailjet Contacts API
   slug: mailjet-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/mailjet/openapi/mailjet-contacts-api-openapi.yml
 - filename: mailjet-event-api-openapi.yml
   format: yaml
   label: Mailjet Event API
   slug: mailjet-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-event-api-openapi.yml
+  url: https://artifacts.apis.io/mailjet/openapi/mailjet-event-api-openapi.yml
 - filename: mailjet-send-api-openapi.yml
   format: yaml
   label: Mailjet Send API
   slug: mailjet-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-send-api-openapi.yml
+  url: https://artifacts.apis.io/mailjet/openapi/mailjet-send-api-openapi.yml
 - filename: mailjet-senders-api-openapi.yml
   format: yaml
   label: Mailjet Senders API
   slug: mailjet-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-senders-api-openapi.yml
+  url: https://artifacts.apis.io/mailjet/openapi/mailjet-senders-api-openapi.yml
 - filename: mailjet-statistics-api-openapi.yml
   format: yaml
   label: Mailjet Statistics API
   slug: mailjet-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/mailjet/openapi/mailjet-statistics-api-openapi.yml
 - filename: mailjet-templates-api-openapi.yml
   format: yaml
   label: Mailjet Templates API
   slug: mailjet-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/openapi/mailjet-templates-api-openapi.yml
+  url: https://artifacts.apis.io/mailjet/openapi/mailjet-templates-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mailje
   \  method: post\n  operationId: createCampaignDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigndraft/{id}/send\n  method: post\n  operationId: sendCampaignDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template\n  method: post\n  operationId:\
   \ createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sender\n  method: get\n  operationId: listSenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sender\n  method: post\n  operationId: createSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statcounters\n  method: get\n  operationId: getStatCounters\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messagehistory/{id}\n  method: get\n  operationId: getMessageHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/agentic-access/mailjet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mailjet/agentic-access/mailjet-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Email

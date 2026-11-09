@@ -9,97 +9,97 @@ api_specs:
   label: Epignosis (TalentLMS, eFront, TalentCards) Account API
   slug: epignosis-talentlms-efront-talentcards-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-account-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-account-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-autologin-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Autologin API
   slug: epignosis-talentlms-efront-talentcards-autologin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-autologin-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-autologin-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-branch-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Branch API
   slug: epignosis-talentlms-efront-talentcards-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-branch-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-branch-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-catalog-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Catalog API
   slug: epignosis-talentlms-efront-talentcards-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-catalog-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-category-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Category API
   slug: epignosis-talentlms-efront-talentcards-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-category-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-category-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-content-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Content API
   slug: epignosis-talentlms-efront-talentcards-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-content-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-content-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-course-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Course API
   slug: epignosis-talentlms-efront-talentcards-course-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-course-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-course-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-curriculum-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Curriculum API
   slug: epignosis-talentlms-efront-talentcards-curriculum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-curriculum-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-curriculum-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-extended-field-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Extended Field API
   slug: epignosis-talentlms-efront-talentcards-extended-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-extended-field-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-extended-field-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-group-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Group API
   slug: epignosis-talentlms-efront-talentcards-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-group-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-group-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-job-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Job API
   slug: epignosis-talentlms-efront-talentcards-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-job-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-job-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-plugin-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Plugin API
   slug: epignosis-talentlms-efront-talentcards-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-plugin-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-plugin-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-system-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) System API
   slug: epignosis-talentlms-efront-talentcards-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-system-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-system-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-training-session-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) Training Session API
   slug: epignosis-talentlms-efront-talentcards-training-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-training-session-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-training-session-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-user-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) User API
   slug: epignosis-talentlms-efront-talentcards-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-user-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-user-api-openapi.yml
 - filename: epignosis-talentlms-efront-talentcards-user-type-api-openapi.yml
   format: yaml
   label: Epignosis (TalentLMS, eFront, TalentCards) User Type API
   slug: epignosis-talentlms-efront-talentcards-user-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/openapi/epignosis-talentlms-efront-talentcards-user-type-api-openapi.yml
+  url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/openapi/epignosis-talentlms-efront-talentcards-user-type-api-openapi.yml
 consequence_counts:
   read: 33
   write: 25
@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/epigno
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Curriculum/{Id}/AddUser\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Curriculum/{Id}/RemoveUser\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Group/{Id}/AddUser\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Group/{Id}/RemoveUser\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Job/{Id}/AddUser\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Job/{Id}/RemoveUser\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /User/{Id}/Activate\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /User/{Id}/Deactivate\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/agentic-access/epignosis-talentlms-efront-talentcards-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/agentic-access/epignosis-talentlms-efront-talentcards-agentic-access.yml
 summary_line: 58 operations · 25 acting
 tags:
 - Company

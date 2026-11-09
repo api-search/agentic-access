@@ -9,127 +9,127 @@ api_specs:
   label: Ordway Billing Runs API
   slug: ordway-billing-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-billing-runs-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-billing-runs-api-openapi.yml
 - filename: ordway-billing-schedules-api-openapi.yml
   format: yaml
   label: Ordway Billing Schedules API
   slug: ordway-billing-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-billing-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-billing-schedules-api-openapi.yml
 - filename: ordway-chart-of-accounts-api-openapi.yml
   format: yaml
   label: Ordway Chart of Accounts API
   slug: ordway-chart-of-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-chart-of-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-chart-of-accounts-api-openapi.yml
 - filename: ordway-coupons-api-openapi.yml
   format: yaml
   label: Ordway Coupons API
   slug: ordway-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-coupons-api-openapi.yml
 - filename: ordway-credits-api-openapi.yml
   format: yaml
   label: Ordway Credits API
   slug: ordway-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-credits-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-credits-api-openapi.yml
 - filename: ordway-customers-api-openapi.yml
   format: yaml
   label: Ordway Customers API
   slug: ordway-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-customers-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-customers-api-openapi.yml
 - filename: ordway-debit-memos-api-openapi.yml
   format: yaml
   label: Ordway Debit Memos API
   slug: ordway-debit-memos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-debit-memos-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-debit-memos-api-openapi.yml
 - filename: ordway-invoices-api-openapi.yml
   format: yaml
   label: Ordway Invoices API
   slug: ordway-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-invoices-api-openapi.yml
 - filename: ordway-journal-entries-api-openapi.yml
   format: yaml
   label: Ordway Journal Entries API
   slug: ordway-journal-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-journal-entries-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-journal-entries-api-openapi.yml
 - filename: ordway-orders-api-openapi.yml
   format: yaml
   label: Ordway Orders API
   slug: ordway-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-orders-api-openapi.yml
 - filename: ordway-payment-runs-api-openapi.yml
   format: yaml
   label: Ordway Payment Runs API
   slug: ordway-payment-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-payment-runs-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-payment-runs-api-openapi.yml
 - filename: ordway-payments-api-openapi.yml
   format: yaml
   label: Ordway Payments API
   slug: ordway-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-payments-api-openapi.yml
 - filename: ordway-plans-api-openapi.yml
   format: yaml
   label: Ordway Plans API
   slug: ordway-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-plans-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-plans-api-openapi.yml
 - filename: ordway-products-api-openapi.yml
   format: yaml
   label: Ordway Products API
   slug: ordway-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-products-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-products-api-openapi.yml
 - filename: ordway-refunds-api-openapi.yml
   format: yaml
   label: Ordway Refunds API
   slug: ordway-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-refunds-api-openapi.yml
 - filename: ordway-revenue-rules-api-openapi.yml
   format: yaml
   label: Ordway Revenue Rules API
   slug: ordway-revenue-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-revenue-rules-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-revenue-rules-api-openapi.yml
 - filename: ordway-revenue-schedules-api-openapi.yml
   format: yaml
   label: Ordway Revenue Schedules API
   slug: ordway-revenue-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-revenue-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-revenue-schedules-api-openapi.yml
 - filename: ordway-statements-api-openapi.yml
   format: yaml
   label: Ordway Statements API
   slug: ordway-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-statements-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-statements-api-openapi.yml
 - filename: ordway-subscriptions-api-openapi.yml
   format: yaml
   label: Ordway Subscriptions API
   slug: ordway-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-subscriptions-api-openapi.yml
 - filename: ordway-usages-api-openapi.yml
   format: yaml
   label: Ordway Usages API
   slug: ordway-usages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-usages-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-usages-api-openapi.yml
 - filename: ordway-webhooks-api-openapi.yml
   format: yaml
   label: Ordway Webhooks API
   slug: ordway-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/openapi/ordway-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ordway/openapi/ordway-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 45
@@ -204,7 +204,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ordway
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chart_of_accounts\n  method: get\n  operationId: listChartOfAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chart_of_accounts/{id}\n  method: get\n  operationId: getChartOfAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /journal_entries\n  method: get\n  operationId: listJournalEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /journal_entries/{id}\n  method: get\n  operationId: getJournalEntry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/agentic-access/ordway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ordway/agentic-access/ordway-agentic-access.yml
 summary_line: 65 operations · 20 acting
 tags:
 - Billing

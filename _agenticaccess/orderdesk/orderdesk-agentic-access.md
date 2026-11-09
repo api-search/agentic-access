@@ -9,31 +9,31 @@ api_specs:
   label: Order Desk Inventory Items API
   slug: orderdesk-inventory-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-inventory-items-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-inventory-items-api-openapi.yml
 - filename: orderdesk-order-items-api-openapi.yml
   format: yaml
   label: Order Desk Order Items API
   slug: orderdesk-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-order-items-api-openapi.yml
 - filename: orderdesk-orders-api-openapi.yml
   format: yaml
   label: Order Desk Orders API
   slug: orderdesk-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-orders-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-orders-api-openapi.yml
 - filename: orderdesk-shipments-api-openapi.yml
   format: yaml
   label: Order Desk Shipments API
   slug: orderdesk-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-shipments-api-openapi.yml
 - filename: orderdesk-store-api-openapi.yml
   format: yaml
   label: Order Desk Store API
   slug: orderdesk-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/openapi/orderdesk-store-api-openapi.yml
+  url: https://artifacts.apis.io/orderdesk/openapi/orderdesk-store-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 10
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/orderd
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory-items\n  method: get\n  operationId: listInventoryItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory-items\n  method: post\n  operationId: createInventoryItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory-items/{id}\n  method: get\n  operationId: getInventoryItem\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory-items/{id}\n  method: put\n  operationId: updateInventoryItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory-items/{id}\n  method: delete\n  operationId: deleteInventoryItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batch-inventory-items\n  method: put\n  operationId: batchInventoryItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/agentic-access/orderdesk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orderdesk/agentic-access/orderdesk-agentic-access.yml
 summary_line: 26 operations · 16 acting
 tags:
 - E-Commerce

@@ -9,43 +9,43 @@ api_specs:
   label: Plaid API
   slug: plaid-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-plaid-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-plaid-api-openapi.yml
 - filename: plaid-account-information-api-openapi.yml
   format: yaml
   label: Plaid Account Information API
   slug: plaid-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-account-information-api-openapi.yml
 - filename: plaid-account-statements-api-openapi.yml
   format: yaml
   label: Plaid Account Statements API
   slug: plaid-account-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-statements-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-account-statements-api-openapi.yml
 - filename: plaid-account-transactions-api-openapi.yml
   format: yaml
   label: Plaid Account Transactions API
   slug: plaid-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-account-transactions-api-openapi.yml
 - filename: plaid-asset-transfer-networks-information-api-openapi.yml
   format: yaml
   label: Plaid Asset Transfer Networks Information API
   slug: plaid-asset-transfer-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-asset-transfer-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-asset-transfer-networks-information-api-openapi.yml
 - filename: plaid-payment-networks-information-api-openapi.yml
   format: yaml
   label: Plaid Payment Networks Information API
   slug: plaid-payment-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-payment-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-payment-networks-information-api-openapi.yml
 - filename: plaid-personal-information-api-openapi.yml
   format: yaml
   label: Plaid Personal Information API
   slug: plaid-personal-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-personal-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-personal-information-api-openapi.yml
 consequence_counts:
   physical: 79
   read: 2
@@ -235,8 +235,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/plaid-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beacon/report_syndication/get\n  method: post\n  operationId: beaconReportSyndicationGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beacon/user/update\n  method: post\n  operationId: beaconUserUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beacon/duplicate/get\n  method: post\n  operationId: beaconDuplicateGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity_verification/autofill/create\n  method: post\n  operationId: identityVerificationAutofillCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beacon/user/history/list\n  method: post\n  operationId: beaconUserHistoryList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processor/auth/get\n  method:\
   \ post\n  operationId: processorAuthGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processor/account/get\n  method: post\n  operationId: processorAccountGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processor/transactions/get\n  method: post\n  operationId: processorTransactionsGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (95 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/agentic-access/plaid-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/agentic-access/plaid-agentic-access.yml
+  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (95 KB total) ---\n# Full source: https://artifacts.apis.io/plaid/agentic-access/plaid-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/plaid/agentic-access/plaid-agentic-access.yml
 summary_line: 265 operations · 263 acting · 5 human-in-the-loop
 tags:
 - Finance

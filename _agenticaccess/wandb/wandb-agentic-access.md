@@ -9,55 +9,55 @@ api_specs:
   label: Weights and Biases Calls API
   slug: wandb-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-calls-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-calls-api-openapi.yml
 - filename: wandb-costs-api-openapi.yml
   format: yaml
   label: Weights and Biases Costs API
   slug: wandb-costs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-costs-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-costs-api-openapi.yml
 - filename: wandb-feedback-api-openapi.yml
   format: yaml
   label: Weights and Biases Feedback API
   slug: wandb-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-feedback-api-openapi.yml
 - filename: wandb-files-api-openapi.yml
   format: yaml
   label: Weights and Biases Files API
   slug: wandb-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-files-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-files-api-openapi.yml
 - filename: wandb-objects-api-openapi.yml
   format: yaml
   label: Weights and Biases Objects API
   slug: wandb-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-objects-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-objects-api-openapi.yml
 - filename: wandb-refs-api-openapi.yml
   format: yaml
   label: Weights and Biases Refs API
   slug: wandb-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-refs-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-refs-api-openapi.yml
 - filename: wandb-service-api-openapi.yml
   format: yaml
   label: Weights and Biases Service API
   slug: wandb-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-service-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-service-api-openapi.yml
 - filename: wandb-table-api-openapi.yml
   format: yaml
   label: Weights and Biases Table API
   slug: wandb-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-table-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-table-api-openapi.yml
 - filename: wandb-tables-api-openapi.yml
   format: yaml
   label: Weights and Biases Tables API
   slug: wandb-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/openapi/wandb-tables-api-openapi.yml
+  url: https://artifacts.apis.io/wandb/openapi/wandb-tables-api-openapi.yml
 consequence_counts:
   read: 2
   write: 27
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wandb-
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cost/create\n  method: post\n  operationId: cost_create_cost_create_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cost/query\n  method: post\n  operationId: cost_query_cost_query_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cost/purge\n  method: post\n  operationId:\
   \ cost_purge_cost_purge_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback/create\n  method: post\n  operationId: feedback_create_feedback_create_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback/query\n  method: post\n  operationId: feedback_query_feedback_query_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /feedback/purge\n  method: post\n  operationId: feedback_purge_feedback_purge_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback/replace\n  method: post\n  operationId: feedback_replace_feedback_replace_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/agentic-access/wandb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wandb/agentic-access/wandb-agentic-access.yml
 summary_line: 29 operations · 27 acting
 tags:
 - MLOps

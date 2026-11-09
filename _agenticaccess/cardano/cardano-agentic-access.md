@@ -9,121 +9,121 @@ api_specs:
   label: Cardano » Accounts API
   slug: cardano-cardano-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-accounts-api-openapi.yml
 - filename: cardano-cardano-addresses-api-openapi.yml
   format: yaml
   label: Cardano » Addresses API
   slug: cardano-cardano-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-addresses-api-openapi.yml
 - filename: cardano-cardano-assets-api-openapi.yml
   format: yaml
   label: Cardano » Assets API
   slug: cardano-cardano-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-assets-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-assets-api-openapi.yml
 - filename: cardano-cardano-blocks-api-openapi.yml
   format: yaml
   label: Cardano » Blocks API
   slug: cardano-cardano-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-blocks-api-openapi.yml
 - filename: cardano-cardano-epochs-api-openapi.yml
   format: yaml
   label: Cardano » Epochs API
   slug: cardano-cardano-epochs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-epochs-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-epochs-api-openapi.yml
 - filename: cardano-cardano-governance-api-openapi.yml
   format: yaml
   label: Cardano » Governance API
   slug: cardano-cardano-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-governance-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-governance-api-openapi.yml
 - filename: cardano-cardano-ledger-api-openapi.yml
   format: yaml
   label: Cardano » Ledger API
   slug: cardano-cardano-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-ledger-api-openapi.yml
 - filename: cardano-cardano-mempool-api-openapi.yml
   format: yaml
   label: Cardano » Mempool API
   slug: cardano-cardano-mempool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-mempool-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-mempool-api-openapi.yml
 - filename: cardano-cardano-metadata-api-openapi.yml
   format: yaml
   label: Cardano » Metadata API
   slug: cardano-cardano-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-metadata-api-openapi.yml
 - filename: cardano-cardano-network-api-openapi.yml
   format: yaml
   label: Cardano » Network API
   slug: cardano-cardano-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-network-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-network-api-openapi.yml
 - filename: cardano-cardano-pools-api-openapi.yml
   format: yaml
   label: Cardano » Pools API
   slug: cardano-cardano-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-pools-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-pools-api-openapi.yml
 - filename: cardano-cardano-scripts-api-openapi.yml
   format: yaml
   label: Cardano » Scripts API
   slug: cardano-cardano-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-scripts-api-openapi.yml
 - filename: cardano-cardano-transactions-api-openapi.yml
   format: yaml
   label: Cardano » Transactions API
   slug: cardano-cardano-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-transactions-api-openapi.yml
 - filename: cardano-cardano-utilities-api-openapi.yml
   format: yaml
   label: Cardano » Utilities API
   slug: cardano-cardano-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-cardano-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-cardano-utilities-api-openapi.yml
 - filename: cardano-health-api-openapi.yml
   format: yaml
   label: Cardano Health API
   slug: cardano-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-health-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-health-api-openapi.yml
 - filename: cardano-ipfs-add-api-openapi.yml
   format: yaml
   label: Cardano IPFS » Add API
   slug: cardano-ipfs-add-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-ipfs-add-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-ipfs-add-api-openapi.yml
 - filename: cardano-ipfs-gateway-api-openapi.yml
   format: yaml
   label: Cardano IPFS » Gateway API
   slug: cardano-ipfs-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-ipfs-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-ipfs-gateway-api-openapi.yml
 - filename: cardano-ipfs-pins-api-openapi.yml
   format: yaml
   label: Cardano IPFS » Pins API
   slug: cardano-ipfs-pins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-ipfs-pins-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-ipfs-pins-api-openapi.yml
 - filename: cardano-metrics-api-openapi.yml
   format: yaml
   label: Cardano Metrics API
   slug: cardano-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-metrics-api-openapi.yml
 - filename: cardano-nut-link-api-openapi.yml
   format: yaml
   label: Cardano Nut.link API
   slug: cardano-nut-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/openapi/cardano-nut-link-api-openapi.yml
+  url: https://artifacts.apis.io/cardano/openapi/cardano-nut-link-api-openapi.yml
 consequence_counts:
   read: 121
   write: 6
@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blockf
   \    audit: required\n- path: /ipfs/pin/list\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ipfs/pin/list/{IPFS_path}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ipfs/pin/remove/{IPFS_path}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/endpoints\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/eras\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nutlink/{address}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nutlink/{address}/tickers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nutlink/{address}/tickers/{ticker}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /nutlink/tickers/{ticker}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/agentic-access/cardano-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cardano/agentic-access/cardano-agentic-access.yml
 summary_line: 127 operations · 6 acting
 tags:
 - Cardano

@@ -9,115 +9,115 @@ api_specs:
   label: Pennylane Account API
   slug: pennylane-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-account-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-account-api-openapi.yml
 - filename: pennylane-accounting-exports-api-openapi.yml
   format: yaml
   label: Pennylane Accounting Exports API
   slug: pennylane-accounting-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-accounting-exports-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-accounting-exports-api-openapi.yml
 - filename: pennylane-bank-accounts-api-openapi.yml
   format: yaml
   label: Pennylane Bank Accounts API
   slug: pennylane-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-bank-accounts-api-openapi.yml
 - filename: pennylane-billing-subscriptions-api-openapi.yml
   format: yaml
   label: Pennylane Billing Subscriptions API
   slug: pennylane-billing-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-billing-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-billing-subscriptions-api-openapi.yml
 - filename: pennylane-categories-api-openapi.yml
   format: yaml
   label: Pennylane Categories API
   slug: pennylane-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-categories-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-categories-api-openapi.yml
 - filename: pennylane-change-events-api-openapi.yml
   format: yaml
   label: Pennylane Change Events API
   slug: pennylane-change-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-change-events-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-change-events-api-openapi.yml
 - filename: pennylane-customer-invoices-api-openapi.yml
   format: yaml
   label: Pennylane Customer Invoices API
   slug: pennylane-customer-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-customer-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-customer-invoices-api-openapi.yml
 - filename: pennylane-customers-api-openapi.yml
   format: yaml
   label: Pennylane Customers API
   slug: pennylane-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-customers-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-customers-api-openapi.yml
 - filename: pennylane-e-invoicing-api-openapi.yml
   format: yaml
   label: Pennylane E-Invoicing API
   slug: pennylane-e-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-e-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-e-invoicing-api-openapi.yml
 - filename: pennylane-file-attachments-api-openapi.yml
   format: yaml
   label: Pennylane File Attachments API
   slug: pennylane-file-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-file-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-file-attachments-api-openapi.yml
 - filename: pennylane-journals-api-openapi.yml
   format: yaml
   label: Pennylane Journals API
   slug: pennylane-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-journals-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-journals-api-openapi.yml
 - filename: pennylane-ledger-accounts-api-openapi.yml
   format: yaml
   label: Pennylane Ledger Accounts API
   slug: pennylane-ledger-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-ledger-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-ledger-accounts-api-openapi.yml
 - filename: pennylane-ledger-entries-api-openapi.yml
   format: yaml
   label: Pennylane Ledger Entries API
   slug: pennylane-ledger-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-ledger-entries-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-ledger-entries-api-openapi.yml
 - filename: pennylane-mandates-api-openapi.yml
   format: yaml
   label: Pennylane Mandates API
   slug: pennylane-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-mandates-api-openapi.yml
 - filename: pennylane-products-api-openapi.yml
   format: yaml
   label: Pennylane Products API
   slug: pennylane-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-products-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-products-api-openapi.yml
 - filename: pennylane-quotes-api-openapi.yml
   format: yaml
   label: Pennylane Quotes API
   slug: pennylane-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-quotes-api-openapi.yml
 - filename: pennylane-supplier-invoices-api-openapi.yml
   format: yaml
   label: Pennylane Supplier Invoices API
   slug: pennylane-supplier-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-supplier-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-supplier-invoices-api-openapi.yml
 - filename: pennylane-suppliers-api-openapi.yml
   format: yaml
   label: Pennylane Suppliers API
   slug: pennylane-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-suppliers-api-openapi.yml
 - filename: pennylane-transactions-api-openapi.yml
   format: yaml
   label: Pennylane Transactions API
   slug: pennylane-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/openapi/pennylane-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pennylane/openapi/pennylane-transactions-api-openapi.yml
 consequence_counts:
   read: 19
   write: 27
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/pennyl
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: post\n  operationId: createTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{id}\n  method: put\n  operationId: updateTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sepa_mandates\n  method:\
   \ get\n  operationId: getSepaMandates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sepa_mandates\n  method: post\n  operationId: postSepaMandates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - irreversible\n      - high-value\n    audit: required\n- path: /file_attachments\n  method: post\n  operationId: postFileAttachments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer_invoices/changes\n  method: get\n  operationId: getCustomerInvoicesChanges\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pa_registrations\n  method: get\n  operationId: getPaRegistrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/agentic-access/pennylane-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pennylane/agentic-access/pennylane-agentic-access.yml
 summary_line: 46 operations · 27 acting
 tags:
 - Accounting

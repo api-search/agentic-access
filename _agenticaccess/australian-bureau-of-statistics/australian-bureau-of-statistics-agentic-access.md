@@ -8,13 +8,13 @@ api_specs:
   label: Australian Bureau of Statistics Get Data API
   slug: australian-bureau-of-statistics-get-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-bureau-of-statistics/refs/heads/main/openapi/australian-bureau-of-statistics-get-data-api-openapi.yml
+  url: https://artifacts.apis.io/australian-bureau-of-statistics/openapi/australian-bureau-of-statistics-get-data-api-openapi.yml
 - filename: australian-bureau-of-statistics-get-metadata-api-openapi.yml
   format: yaml
   label: Australian Bureau of Statistics Get Metadata API
   slug: australian-bureau-of-statistics-get-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-bureau-of-statistics/refs/heads/main/openapi/australian-bureau-of-statistics-get-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/australian-bureau-of-statistics/openapi/australian-bureau-of-statistics-get-metadata-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -42,7 +42,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: generated\nsource: openapi/australian-bureau-of-statistics-data-api-openapi.yml, openapi/australian-bureau-of-statistics-indicator-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /rest/data/{dataflowIdentifier}/{dataKey}\n  method: get\n  operationId: GetData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/{structureType}/{agencyId}\n  method: get\n  operationId: GetStructuresByAgencyId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/{structureType}/{agencyId}/{structureId}\n  method: get\n  operationId: GetLatestStructure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/{structureType}/{agencyId}/{structureId}/{structureVersion}\n  method: get\n  operationId: GetStructures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/data/{dataflowIdentifier}/{format}\n  method: get\n  operationId: getUserByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metadata/{dataflowIdentifier}/{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-bureau-of-statistics/refs/heads/main/agentic-access/australian-bureau-of-statistics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/australian-bureau-of-statistics/agentic-access/australian-bureau-of-statistics-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Company

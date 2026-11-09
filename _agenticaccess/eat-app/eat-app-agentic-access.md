@@ -9,43 +9,43 @@ api_specs:
   label: Eat App Concierge - Availability API
   slug: eat-app-concierge-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-availability-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-availability-api-openapi.yml
 - filename: eat-app-concierge-guests-api-openapi.yml
   format: yaml
   label: Eat App Concierge - Guests API
   slug: eat-app-concierge-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-guests-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-guests-api-openapi.yml
 - filename: eat-app-concierge-reference-api-openapi.yml
   format: yaml
   label: Eat App Concierge - Reference API
   slug: eat-app-concierge-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-reference-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-reference-api-openapi.yml
 - filename: eat-app-concierge-reservations-api-openapi.yml
   format: yaml
   label: Eat App Concierge - Reservations API
   slug: eat-app-concierge-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-reservations-api-openapi.yml
 - filename: eat-app-partner-availability-api-openapi.yml
   format: yaml
   label: Eat App Partner - Availability API
   slug: eat-app-partner-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-partner-availability-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-partner-availability-api-openapi.yml
 - filename: eat-app-partner-reservations-api-openapi.yml
   format: yaml
   label: Eat App Partner - Reservations API
   slug: eat-app-partner-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-partner-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-partner-reservations-api-openapi.yml
 - filename: eat-app-tables-and-floor-plans-modeled-api-openapi.yml
   format: yaml
   label: Eat App Tables and Floor Plans (Modeled) API
   slug: eat-app-tables-and-floor-plans-modeled-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-tables-and-floor-plans-modeled-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-tables-and-floor-plans-modeled-api-openapi.yml
 consequence_counts:
   read: 12
   write: 3
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/eat-ap
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /concierge/v2/restaurants\n  method: get\n  operationId: listConciergeRestaurants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /concierge/v2/reservations\n  method: get\n  operationId: listConciergeReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /concierge/v2/reservations\n  method: post\n  operationId: createConciergeReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /concierge/v2/reservations/{id_or_key}\n  method: get\n  operationId: getConciergeReservation\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /concierge/v2/reservations/{id_or_key}\n  method: patch\n  operationId: updateConciergeReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/v2/availability\n  method: get\n  operationId: getPartnerAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partners/v2/reservations\n  method: post\n  operationId: createPartnerReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /concierge/v2/tables\n  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /concierge/v2/tables/{table_id}\n  method: get\n  operationId: getTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /concierge/v2/floor_plans\n  method: get\n  operationId: listFloorPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/agentic-access/eat-app-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eat-app/agentic-access/eat-app-agentic-access.yml
 summary_line: 15 operations · 3 acting
 tags:
 - Restaurant
@@ -86,4 +86,6 @@ tags:
 - Booking
 - Guest CRM
 - Availability
+- Reservation
+- Software-as-a-Service
 ---

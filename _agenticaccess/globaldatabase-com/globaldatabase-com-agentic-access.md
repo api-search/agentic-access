@@ -9,85 +9,85 @@ api_specs:
   label: Global Database Autocomplete API
   slug: globaldatabase-com-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-autocomplete-api-openapi.yml
 - filename: globaldatabase-com-company-by-linkedin-api-openapi.yml
   format: yaml
   label: Global Database Company By Linkedin API
   slug: globaldatabase-com-company-by-linkedin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-by-linkedin-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-by-linkedin-api-openapi.yml
 - filename: globaldatabase-com-company-by-url-api-openapi.yml
   format: yaml
   label: Global Database Company By Url API
   slug: globaldatabase-com-company-by-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-by-url-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-by-url-api-openapi.yml
 - filename: globaldatabase-com-company-details-api-openapi.yml
   format: yaml
   label: Global Database Company Details API
   slug: globaldatabase-com-company-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-details-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-details-api-openapi.yml
 - filename: globaldatabase-com-company-financials-api-openapi.yml
   format: yaml
   label: Global Database Company Financials API
   slug: globaldatabase-com-company-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-financials-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-financials-api-openapi.yml
 - filename: globaldatabase-com-company-ownership-api-openapi.yml
   format: yaml
   label: Global Database Company Ownership API
   slug: globaldatabase-com-company-ownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-company-ownership-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-company-ownership-api-openapi.yml
 - filename: globaldatabase-com-fastapi-api-openapi.yml
   format: yaml
   label: Global Database Fast API
   slug: globaldatabase-com-fastapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-fastapi-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-fastapi-api-openapi.yml
 - filename: globaldatabase-com-health-api-openapi.yml
   format: yaml
   label: Global Database Health API
   slug: globaldatabase-com-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-health-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-health-api-openapi.yml
 - filename: globaldatabase-com-nomenclature-api-openapi.yml
   format: yaml
   label: Global Database Nomenclature API
   slug: globaldatabase-com-nomenclature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-nomenclature-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-nomenclature-api-openapi.yml
 - filename: globaldatabase-com-oauth-api-openapi.yml
   format: yaml
   label: Global Database OAuth API
   slug: globaldatabase-com-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-oauth-api-openapi.yml
 - filename: globaldatabase-com-playground-api-openapi.yml
   format: yaml
   label: Global Database Playground API
   slug: globaldatabase-com-playground-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-playground-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-playground-api-openapi.yml
 - filename: globaldatabase-com-prospecting-api-openapi.yml
   format: yaml
   label: Global Database Prospecting API
   slug: globaldatabase-com-prospecting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-prospecting-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-prospecting-api-openapi.yml
 - filename: globaldatabase-com-verify-token-api-openapi.yml
   format: yaml
   label: Global Database Verify Token API
   slug: globaldatabase-com-verify-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-verify-token-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-verify-token-api-openapi.yml
 - filename: globaldatabase-com-well-known-api-openapi.yml
   format: yaml
   label: Global Database .well Known API
   slug: globaldatabase-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/openapi/globaldatabase-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-well-known-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/global
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/sso/callback\n  method: get\n  operationId: sso_callback_oauth_sso_callback_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/trial\n  method: get\n  operationId: trial_form_oauth_trial_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/trial\n  method: post\n  operationId: trial_submit_oauth_trial_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/trial/verify\n  method: post\n  operationId: trial_verify_oauth_trial_verify_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/consent\n  method: get\n  operationId: consent_form_oauth_consent_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/consent\n  method: post\n  operationId: consent_submit_oauth_consent_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/deny\n  method: post\n  operationId: consent_deny_oauth_deny_post\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: landing__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health_check_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/openai-apps-challenge\n  method: get\n  operationId: openai_apps_challenge__well_known_openai_apps_challenge_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/globaldatabase-com/refs/heads/main/agentic-access/globaldatabase-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/globaldatabase-com/agentic-access/globaldatabase-com-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - Company

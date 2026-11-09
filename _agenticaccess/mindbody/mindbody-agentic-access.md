@@ -9,79 +9,79 @@ api_specs:
   label: Mindbody Appointment API
   slug: mindbody-appointment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-appointment-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-appointment-api-openapi.yml
 - filename: mindbody-class-api-openapi.yml
   format: yaml
   label: Mindbody Class API
   slug: mindbody-class-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-class-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-class-api-openapi.yml
 - filename: mindbody-client-api-openapi.yml
   format: yaml
   label: Mindbody Client API
   slug: mindbody-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-client-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-client-api-openapi.yml
 - filename: mindbody-cross-site-api-openapi.yml
   format: yaml
   label: Mindbody Cross Site API
   slug: mindbody-cross-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-cross-site-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-cross-site-api-openapi.yml
 - filename: mindbody-enrollment-api-openapi.yml
   format: yaml
   label: Mindbody Enrollment API
   slug: mindbody-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-enrollment-api-openapi.yml
 - filename: mindbody-metrics-api-openapi.yml
   format: yaml
   label: Mindbody Metrics API
   slug: mindbody-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-metrics-api-openapi.yml
 - filename: mindbody-payroll-api-openapi.yml
   format: yaml
   label: Mindbody Payroll API
   slug: mindbody-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-payroll-api-openapi.yml
 - filename: mindbody-pick-a-spot-api-openapi.yml
   format: yaml
   label: Mindbody Pick A Spot API
   slug: mindbody-pick-a-spot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-pick-a-spot-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-pick-a-spot-api-openapi.yml
 - filename: mindbody-sale-api-openapi.yml
   format: yaml
   label: Mindbody Sale API
   slug: mindbody-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-sale-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-sale-api-openapi.yml
 - filename: mindbody-site-api-openapi.yml
   format: yaml
   label: Mindbody Site API
   slug: mindbody-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-site-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-site-api-openapi.yml
 - filename: mindbody-staff-api-openapi.yml
   format: yaml
   label: Mindbody Staff API
   slug: mindbody-staff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-staff-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-staff-api-openapi.yml
 - filename: mindbody-subscriptions-api-openapi.yml
   format: yaml
   label: Mindbody Subscriptions API
   slug: mindbody-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-subscriptions-api-openapi.yml
 - filename: mindbody-user-token-api-openapi.yml
   format: yaml
   label: Mindbody User Token API
   slug: mindbody-user-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-user-token-api-openapi.yml
+  url: https://artifacts.apis.io/mindbody/openapi/mindbody-user-token-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 81
@@ -205,8 +205,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mindbo
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v6/sale/products\n  method: get\n  operationId: getProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v6/sale/products\n  method: put\n  operationId: updateProducts\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v6/sale/productsinventory\n  method: get\n  operationId: getProductsInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /public/v6/sale/purchasecontractstatus\n  method: get\n  operationId: getPurchaseContractStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v6/sale/sales\n  method: get\n  operationId: getSales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v6/sale/services\n  method: get\n  operationId: getServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v6/sale/services\n  method: put\n  operationId: updateServices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v6/sale/transactions\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v6/sale/checkoutshoppingcart\n  method: post\n  operationId: checkoutShoppingCart\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v6/sale/completecheckoutshoppingcart\n  method: post\n  operationId: completeCheckoutShoppingCartUsingAlternativePayments\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v6/sale/initiatecheckoutshoppingcart\n  method: post\n  operationId: initiateCheckoutShoppingCartUsingAlternativePayments\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/agentic-access/mindbody-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/agentic-access/mindbody-agentic-access.yml
+  \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v6/sale/initiatecheckoutshoppingcart\n  method: post\n  operationId: initiateCheckoutShoppingCartUsingAlternativePayments\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/mindbody/agentic-access/mindbody-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/mindbody/agentic-access/mindbody-agentic-access.yml
 summary_line: 154 operations · 73 acting · 3 human-in-the-loop
 tags:
 - Fitness

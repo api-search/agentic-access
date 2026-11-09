@@ -9,25 +9,25 @@ api_specs:
   label: LBank Account API
   slug: lbank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-account-api-openapi.yml
+  url: https://artifacts.apis.io/lbank/openapi/lbank-account-api-openapi.yml
 - filename: lbank-market-data-api-openapi.yml
   format: yaml
   label: LBank Market Data API
   slug: lbank-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/lbank/openapi/lbank-market-data-api-openapi.yml
 - filename: lbank-orders-api-openapi.yml
   format: yaml
   label: LBank Orders API
   slug: lbank-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-orders-api-openapi.yml
+  url: https://artifacts.apis.io/lbank/openapi/lbank-orders-api-openapi.yml
 - filename: lbank-wallet-api-openapi.yml
   format: yaml
   label: LBank Wallet API
   slug: lbank-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/openapi/lbank-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/lbank/openapi/lbank-wallet-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 15
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lbank-
   \ - high-value\n    audit: required\n- path: /v1/cancel_order.do\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders_info.do\n  method: post\n  operationId: getOrderInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders_info_history.do\n  method: post\n  operationId: getOrderHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders_info_no_deal.do\n  method: post\n  operationId: getOpenOrders\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/order_transaction_detail.do\n  method: post\n  operationId: getOrderTransactionDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/withdrawConfigs.do\n  method: get\n  operationId: getWithdrawConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/withdraw.do\n  method: post\n  operationId: withdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/withdrawCancel.do\n\
   \  method: post\n  operationId: cancelWithdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/withdraws.do\n  method: post\n  operationId: getWithdrawalHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/agentic-access/lbank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lbank/agentic-access/lbank-agentic-access.yml
 summary_line: 19 operations · 4 acting
 tags:
 - Cryptocurrency

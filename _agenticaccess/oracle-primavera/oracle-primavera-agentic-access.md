@@ -9,37 +9,37 @@ api_specs:
   label: Oracle Primavera Activities API
   slug: oracle-primavera-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-activities-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-activities-api-openapi.yml
 - filename: oracle-primavera-baselines-api-openapi.yml
   format: yaml
   label: Oracle Primavera Baselines API
   slug: oracle-primavera-baselines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-baselines-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-baselines-api-openapi.yml
 - filename: oracle-primavera-projects-api-openapi.yml
   format: yaml
   label: Oracle Primavera Projects API
   slug: oracle-primavera-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-projects-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-projects-api-openapi.yml
 - filename: oracle-primavera-resources-api-openapi.yml
   format: yaml
   label: Oracle Primavera Resources API
   slug: oracle-primavera-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-resources-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-resources-api-openapi.yml
 - filename: oracle-primavera-wbs-api-openapi.yml
   format: yaml
   label: Oracle Primavera WBS API
   slug: oracle-primavera-wbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-wbs-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-wbs-api-openapi.yml
 - filename: oracle-primavera-resource-assignments-api-openapi.yml
   format: yaml
   label: Oracle Primavera Resource Assignments API
   slug: oracle-primavera-resource-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-resource-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-primavera/openapi/oracle-primavera-resource-assignments-api-openapi.yml
 consequence_counts:
   read: 8
   write: 5
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oracle
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{objectId}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{objectId}\n  method: put\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{objectId}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /activities\n  method: get\n  operationId: listActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities\n  method: post\n  operationId: createActivity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/{objectId}\n  method: get\n  operationId: getActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/{objectId}\n  method: put\n  operationId: updateActivity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wbss\n  method: get\n  operationId: listWBS\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resources\n  method: get\n  operationId: listResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resourceassignments\n  method: get\n  operationId: listResourceAssignments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /baselines\n  method: get\n  operationId: listBaselines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/agentic-access/oracle-primavera-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oracle-primavera/agentic-access/oracle-primavera-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
 - Construction

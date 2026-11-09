@@ -9,55 +9,55 @@ api_specs:
   label: NocoDB Attachments API
   slug: nocodb-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-attachments-api-openapi.yml
 - filename: nocodb-auth-api-openapi.yml
   format: yaml
   label: NocoDB Auth API
   slug: nocodb-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-auth-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-auth-api-openapi.yml
 - filename: nocodb-bases-api-openapi.yml
   format: yaml
   label: NocoDB Bases API
   slug: nocodb-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-bases-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-bases-api-openapi.yml
 - filename: nocodb-fields-api-openapi.yml
   format: yaml
   label: NocoDB Fields API
   slug: nocodb-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-fields-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-fields-api-openapi.yml
 - filename: nocodb-hooks-api-openapi.yml
   format: yaml
   label: NocoDB Hooks API
   slug: nocodb-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-hooks-api-openapi.yml
 - filename: nocodb-links-api-openapi.yml
   format: yaml
   label: NocoDB Links API
   slug: nocodb-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-links-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-links-api-openapi.yml
 - filename: nocodb-records-api-openapi.yml
   format: yaml
   label: NocoDB Records API
   slug: nocodb-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-records-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-records-api-openapi.yml
 - filename: nocodb-tables-api-openapi.yml
   format: yaml
   label: NocoDB Tables API
   slug: nocodb-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-tables-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-tables-api-openapi.yml
 - filename: nocodb-views-api-openapi.yml
   format: yaml
   label: NocoDB Views API
   slug: nocodb-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-views-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-views-api-openapi.yml
 consequence_counts:
   read: 11
   write: 21
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nocodb
   \  method: patch\n  operationId: table-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/meta/tables/{tableId}\n  method: delete\n  operationId: table-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/meta/tables/{tableId}/fields\n  method: get\n  operationId: field-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/meta/tables/{tableId}/fields\n  method: post\n  operationId: field-create\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/meta/fields/{fieldId}\n  method: patch\n  operationId: field-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/meta/fields/{fieldId}\n  method: delete\n  operationId: field-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/v1/meta/tables/{tableId}/views\n  method: get\n  operationId: view-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/meta/tables/{tableId}/hooks\n  method: get\n  operationId: hook-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/meta/tables/{tableId}/hooks\n  method: post\n  operationId: hook-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/agentic-access/nocodb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nocodb/agentic-access/nocodb-agentic-access.yml
 summary_line: 32 operations · 21 acting
 tags:
 - Database

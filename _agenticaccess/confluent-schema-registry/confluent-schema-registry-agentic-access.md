@@ -9,31 +9,31 @@ api_specs:
   label: Confluent Schema Registry Compatibility API
   slug: confluent-schema-registry-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-compatibility-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-compatibility-api-openapi.yml
 - filename: confluent-schema-registry-mode-api-openapi.yml
   format: yaml
   label: Confluent Schema Registry Mode API
   slug: confluent-schema-registry-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-mode-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-mode-api-openapi.yml
 - filename: confluent-schema-registry-schemas-api-openapi.yml
   format: yaml
   label: Confluent Schema Registry Schemas API
   slug: confluent-schema-registry-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-schemas-api-openapi.yml
 - filename: confluent-schema-registry-server-api-openapi.yml
   format: yaml
   label: Confluent Schema Registry Server API
   slug: confluent-schema-registry-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-server-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-server-api-openapi.yml
 - filename: confluent-schema-registry-subjects-api-openapi.yml
   format: yaml
   label: Confluent Schema Registry Subjects API
   slug: confluent-schema-registry-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/confluent-schema-registry-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/confluent-schema-registry/openapi/confluent-schema-registry-subjects-api-openapi.yml
 consequence_counts:
   read: 12
   write: 9
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/schema
   \    max-ttl: 3600\n    audit: none\n- path: /config\n  method: put\n  operationId: updateTopLevelConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/{subject}\n  method: get\n  operationId: getSubjectLevelConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/{subject}\n  method: put\n  operationId: updateSubjectLevelConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/{subject}\n  method:\
   \ delete\n  operationId: deleteSubjectConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compatibility/subjects/{subject}/versions/{version}\n  method: post\n  operationId: testCompatibility\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mode\n  method: get\n  operationId: getTopLevelMode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mode\n  method: put\n  operationId: updateTopLevelMode\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: getRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/agentic-access/confluent-schema-registry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/confluent-schema-registry/agentic-access/confluent-schema-registry-agentic-access.yml
 summary_line: 21 operations · 9 acting
 tags:
 - Apache Kafka

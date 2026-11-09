@@ -9,43 +9,43 @@ api_specs:
   label: CyberArk Authentication API
   slug: cyberark-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-authentication-api-openapi.yml
 - filename: cyberark-health-api-openapi.yml
   format: yaml
   label: CyberArk Health API
   slug: cyberark-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-health-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-health-api-openapi.yml
 - filename: cyberark-policies-api-openapi.yml
   format: yaml
   label: CyberArk Policies API
   slug: cyberark-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-policies-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-policies-api-openapi.yml
 - filename: cyberark-resources-api-openapi.yml
   format: yaml
   label: CyberArk Resources API
   slug: cyberark-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-resources-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-resources-api-openapi.yml
 - filename: cyberark-roles-api-openapi.yml
   format: yaml
   label: CyberArk Roles API
   slug: cyberark-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-roles-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-roles-api-openapi.yml
 - filename: cyberark-secrets-api-openapi.yml
   format: yaml
   label: CyberArk Secrets API
   slug: cyberark-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-secrets-api-openapi.yml
 - filename: cyberark-public-keys-api-openapi.yml
   format: yaml
   label: CyberArk Public Keys API
   slug: cyberark-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cyberark/openapi/cyberark-public-keys-api-openapi.yml
 consequence_counts:
   read: 8
   write: 5
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cybera
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secrets/{account}/{kind}/{identifier}\n  method: get\n  operationId: retrieveSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets/{account}/{kind}/{identifier}\n  method: post\n  operationId: addSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resources/{account}\n  method: get\n  operationId: listResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /resources/{account}/{kind}/{identifier}\n  method: get\n  operationId: showResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /roles/{account}/{kind}/{identifier}\n  method: get\n  operationId: showRole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public_keys/{account}/{kind}/{identifier}\n  method: get\n  operationId: showPublicKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info\n  method: get\n  operationId: serverInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n\
   \  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/agentic-access/cyberark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cyberark/agentic-access/cyberark-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
 - Authentication

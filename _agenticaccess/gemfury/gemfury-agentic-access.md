@@ -9,31 +9,31 @@ api_specs:
   label: Gemfury Accounts API
   slug: gemfury-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-accounts-api-openapi.yml
 - filename: gemfury-members-api-openapi.yml
   format: yaml
   label: Gemfury Members API
   slug: gemfury-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-members-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-members-api-openapi.yml
 - filename: gemfury-packages-api-openapi.yml
   format: yaml
   label: Gemfury Packages API
   slug: gemfury-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-packages-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-packages-api-openapi.yml
 - filename: gemfury-tokens-api-openapi.yml
   format: yaml
   label: Gemfury Tokens API
   slug: gemfury-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-tokens-api-openapi.yml
 - filename: gemfury-versions-api-openapi.yml
   format: yaml
   label: Gemfury Versions API
   slug: gemfury-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-versions-api-openapi.yml
+  url: https://artifacts.apis.io/gemfury/openapi/gemfury-versions-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gemfur
   \  operationId: deleteVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{identifier}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collaborations\n  method: get\n  operationId: listCollaborations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members/{id}\n  method: put\n  operationId:\
   \ upsertMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members/{id}\n  method: delete\n  operationId: deleteMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens\n  method: get\n  operationId: listTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/{id}\n  method: delete\n  operationId: deleteToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/agentic-access/gemfury-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gemfury/agentic-access/gemfury-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Package Repository

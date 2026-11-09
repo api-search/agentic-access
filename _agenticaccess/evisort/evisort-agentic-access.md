@@ -9,25 +9,25 @@ api_specs:
   label: Evisort Authentication API
   slug: evisort-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-authentication-api-openapi.yml
 - filename: evisort-documents-api-openapi.yml
   format: yaml
   label: Evisort Documents API
   slug: evisort-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-documents-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-documents-api-openapi.yml
 - filename: evisort-fields-api-openapi.yml
   format: yaml
   label: Evisort Fields API
   slug: evisort-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-fields-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-fields-api-openapi.yml
 - filename: evisort-search-api-openapi.yml
   format: yaml
   label: Evisort Search API
   slug: evisort-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/openapi/evisort-search-api-openapi.yml
+  url: https://artifacts.apis.io/evisort/openapi/evisort-search-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/evisort-authentication-api-openapi.yml, openapi/evisort-documents-api-openapi.yml,\n  openapi/evisort-fields-api-openapi.yml, openapi/evisort-search-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 2\n    connected: 3\n  by_consequence:\n    write: 2\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /auth/token\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /documents/{evisortId}/content\n  method: get\n  operationId: getDocumentContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents\n  method: post\n  operationId: uploadDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{evisortId}/fields\n  method: get\n  operationId: getDocumentFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: post\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/agentic-access/evisort-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/evisort/agentic-access/evisort-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - Contract Lifecycle Management

@@ -9,259 +9,259 @@ api_specs:
   label: Iugu Account API
   slug: iugu-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-account-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-account-api-openapi.yml
 - filename: iugu-accounts-api-openapi.yml
   format: yaml
   label: Iugu Accounts API
   slug: iugu-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-accounts-api-openapi.yml
 - filename: iugu-advancement-request-api-openapi.yml
   format: yaml
   label: Iugu Advancement Request API
   slug: iugu-advancement-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-advancement-request-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-advancement-request-api-openapi.yml
 - filename: iugu-api-tokens-api-openapi.yml
   format: yaml
   label: Iugu Api Tokens API
   slug: iugu-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-api-tokens-api-openapi.yml
 - filename: iugu-automatic-pix-api-openapi.yml
   format: yaml
   label: Iugu Automatic Pix API
   slug: iugu-automatic-pix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-automatic-pix-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-automatic-pix-api-openapi.yml
 - filename: iugu-baas-api-openapi.yml
   format: yaml
   label: Iugu Baas API
   slug: iugu-baas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-baas-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-baas-api-openapi.yml
 - filename: iugu-bank-account-pix-keys-api-openapi.yml
   format: yaml
   label: Iugu Bank Account Pix Keys API
   slug: iugu-bank-account-pix-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-bank-account-pix-keys-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-bank-account-pix-keys-api-openapi.yml
 - filename: iugu-bank-verification-api-openapi.yml
   format: yaml
   label: Iugu Bank Verification API
   slug: iugu-bank-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-bank-verification-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-bank-verification-api-openapi.yml
 - filename: iugu-banks-api-openapi.yml
   format: yaml
   label: Iugu Banks API
   slug: iugu-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-banks-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-banks-api-openapi.yml
 - filename: iugu-charge-api-openapi.yml
   format: yaml
   label: Iugu Charge API
   slug: iugu-charge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-charge-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-charge-api-openapi.yml
 - filename: iugu-charge-two-credit-cards-api-openapi.yml
   format: yaml
   label: Iugu Charge Two Credit Cards API
   slug: iugu-charge-two-credit-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-charge-two-credit-cards-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-charge-two-credit-cards-api-openapi.yml
 - filename: iugu-chargebacks-api-openapi.yml
   format: yaml
   label: Iugu Chargebacks API
   slug: iugu-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-chargebacks-api-openapi.yml
 - filename: iugu-customers-api-openapi.yml
   format: yaml
   label: Iugu Customers API
   slug: iugu-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-customers-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-customers-api-openapi.yml
 - filename: iugu-emails-api-openapi.yml
   format: yaml
   label: Iugu Emails API
   slug: iugu-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-emails-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-emails-api-openapi.yml
 - filename: iugu-financial-transaction-requests-api-openapi.yml
   format: yaml
   label: Iugu Financial Transaction Requests API
   slug: iugu-financial-transaction-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-financial-transaction-requests-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-financial-transaction-requests-api-openapi.yml
 - filename: iugu-invoices-api-openapi.yml
   format: yaml
   label: Iugu Invoices API
   slug: iugu-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-invoices-api-openapi.yml
 - filename: iugu-listar-pagamentos-api-openapi.yml
   format: yaml
   label: Iugu Listar Pagamentos API
   slug: iugu-listar-pagamentos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-listar-pagamentos-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-listar-pagamentos-api-openapi.yml
 - filename: iugu-marketplace-api-openapi.yml
   format: yaml
   label: Iugu Marketplace API
   slug: iugu-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-marketplace-api-openapi.yml
 - filename: iugu-marketplace-resource-search-api-openapi.yml
   format: yaml
   label: Iugu Marketplace Resource Search API
   slug: iugu-marketplace-resource-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-marketplace-resource-search-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-marketplace-resource-search-api-openapi.yml
 - filename: iugu-payment-booklets-api-openapi.yml
   format: yaml
   label: Iugu Payment Booklets API
   slug: iugu-payment-booklets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-payment-booklets-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-payment-booklets-api-openapi.yml
 - filename: iugu-payment-requests-api-openapi.yml
   format: yaml
   label: Iugu Payment Requests API
   slug: iugu-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-payment-requests-api-openapi.yml
 - filename: iugu-payment-token-api-openapi.yml
   format: yaml
   label: Iugu Payment Token API
   slug: iugu-payment-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-payment-token-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-payment-token-api-openapi.yml
 - filename: iugu-payments-api-openapi.yml
   format: yaml
   label: Iugu Payments API
   slug: iugu-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-payments-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-payments-api-openapi.yml
 - filename: iugu-pix-api-openapi.yml
   format: yaml
   label: Iugu Pix API
   slug: iugu-pix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-pix-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-pix-api-openapi.yml
 - filename: iugu-plans-api-openapi.yml
   format: yaml
   label: Iugu Plans API
   slug: iugu-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-plans-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-plans-api-openapi.yml
 - filename: iugu-profile-api-openapi.yml
   format: yaml
   label: Iugu Profile API
   slug: iugu-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-profile-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-profile-api-openapi.yml
 - filename: iugu-receivable-units-api-openapi.yml
   format: yaml
   label: Iugu Receivable Units API
   slug: iugu-receivable-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-receivable-units-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-receivable-units-api-openapi.yml
 - filename: iugu-reschedule-automatic-pix-payment-api-openapi.yml
   format: yaml
   label: Iugu Reschedule Automatic Pix Payment API
   slug: iugu-reschedule-automatic-pix-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-reschedule-automatic-pix-payment-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-reschedule-automatic-pix-payment-api-openapi.yml
 - filename: iugu-resource-search-api-openapi.yml
   format: yaml
   label: Iugu Resource Search API
   slug: iugu-resource-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-resource-search-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-resource-search-api-openapi.yml
 - filename: iugu-signature-api-openapi.yml
   format: yaml
   label: Iugu Signature API
   slug: iugu-signature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-signature-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-signature-api-openapi.yml
 - filename: iugu-splits-api-openapi.yml
   format: yaml
   label: Iugu Splits API
   slug: iugu-splits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-splits-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-splits-api-openapi.yml
 - filename: iugu-static-qr-codes-api-openapi.yml
   format: yaml
   label: Iugu Static Qr Codes API
   slug: iugu-static-qr-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-static-qr-codes-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-static-qr-codes-api-openapi.yml
 - filename: iugu-subscriptions-api-openapi.yml
   format: yaml
   label: Iugu Subscriptions API
   slug: iugu-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-subscriptions-api-openapi.yml
 - filename: iugu-transfer-requests-api-openapi.yml
   format: yaml
   label: Iugu Transfer Requests API
   slug: iugu-transfer-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-transfer-requests-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-transfer-requests-api-openapi.yml
 - filename: iugu-transferors-api-openapi.yml
   format: yaml
   label: Iugu Transferors API
   slug: iugu-transferors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-transferors-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-transferors-api-openapi.yml
 - filename: iugu-transferors-id-api-openapi.yml
   format: yaml
   label: Iugu Transferors{id} API
   slug: iugu-transferors-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-transferors-id-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-transferors-id-api-openapi.yml
 - filename: iugu-transfers-api-openapi.yml
   format: yaml
   label: Iugu Transfers API
   slug: iugu-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-transfers-api-openapi.yml
 - filename: iugu-validate-api-openapi.yml
   format: yaml
   label: Iugu Validate API
   slug: iugu-validate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-validate-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-validate-api-openapi.yml
 - filename: iugu-web-hook-logs-api-openapi.yml
   format: yaml
   label: Iugu Web Hook Logs API
   slug: iugu-web-hook-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-web-hook-logs-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-web-hook-logs-api-openapi.yml
 - filename: iugu-withdraw-conciliations-api-openapi.yml
   format: yaml
   label: Iugu Withdraw Conciliations API
   slug: iugu-withdraw-conciliations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-withdraw-conciliations-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-withdraw-conciliations-api-openapi.yml
 - filename: iugu-withdraw-requests-api-openapi.yml
   format: yaml
   label: Iugu Withdraw Requests API
   slug: iugu-withdraw-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-withdraw-requests-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-withdraw-requests-api-openapi.yml
 - filename: iugu-zero-auth-api-openapi.yml
   format: yaml
   label: Iugu Zero Auth API
   slug: iugu-zero-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-zero-auth-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-zero-auth-api-openapi.yml
 - filename: iugu-webhooks-api-openapi.yml
   format: yaml
   label: Iugu Webhooks API
   slug: iugu-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/openapi/iugu-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/iugu/openapi/iugu-webhooks-api-openapi.yml
 consequence_counts:
   physical: 34
   read: 65
@@ -446,8 +446,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/iugu-a
   \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/{id}/refund\n  method: post\n  operationId: reembolsar-fatura\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/{id}/send_email\n  method: post\n  operationId: enviar-por-email\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /marketplace_resource_search\n  method: get\n  operationId: buscar-fatura-por-id-externos-de-subcontas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource_search\n  method: get\n  operationId: buscar-fatura-por-ids-externos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signature/validate\n  method: post\n  operationId: validate-signature\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{id}/reschedule_automatic_pix_payment\n  method: post\n  operationId: post_id-reschedule-automatic-pix-payment\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}/payment_methods\n  method: post\n  operationId: criar-forma-de-pagamento\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}/payment_methods\n  method: get\n  operationId: listar-forma-de-pagamento\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /customers/{customer_id}/payment_methods/{id}\n  method: put\n  operationId: alterar-forma-de-pagamento\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}/payment_methods/{id}\n  method: get\n  operationId: buscar-forma-de-pagamento\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/agentic-access/iugu-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/agentic-access/iugu-agentic-access.yml
+  - path: /customers/{customer_id}/payment_methods/{id}\n  method: put\n  operationId: alterar-forma-de-pagamento\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}/payment_methods/{id}\n  method: get\n  operationId: buscar-forma-de-pagamento\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/iugu/agentic-access/iugu-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/iugu/agentic-access/iugu-agentic-access.yml
 summary_line: 144 operations · 79 acting
 tags:
 - Payments

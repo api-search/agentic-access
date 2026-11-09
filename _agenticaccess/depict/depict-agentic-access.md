@@ -9,193 +9,193 @@ api_specs:
   label: Depict Ab Test API
   slug: depict-ab-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-ab-test-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-ab-test-api-openapi.yml
 - filename: depict-analytics-api-openapi.yml
   format: yaml
   label: Depict Analytics API
   slug: depict-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-analytics-api-openapi.yml
 - filename: depict-boost-bury-api-openapi.yml
   format: yaml
   label: Depict Boost Bury API
   slug: depict-boost-bury-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-boost-bury-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-boost-bury-api-openapi.yml
 - filename: depict-brand-features-api-openapi.yml
   format: yaml
   label: Depict Brand Features API
   slug: depict-brand-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-brand-features-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-brand-features-api-openapi.yml
 - filename: depict-collections-api-openapi.yml
   format: yaml
   label: Depict Collections API
   slug: depict-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-collections-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-collections-api-openapi.yml
 - filename: depict-dashboard-api-openapi.yml
   format: yaml
   label: Depict Dashboard API
   slug: depict-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-dashboard-api-openapi.yml
 - filename: depict-instagram-api-openapi.yml
   format: yaml
   label: Depict Instagram API
   slug: depict-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-instagram-api-openapi.yml
 - filename: depict-listing-v3-api-openapi.yml
   format: yaml
   label: Depict Listing (v3) API
   slug: depict-listing-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-listing-v3-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-listing-v3-api-openapi.yml
 - filename: depict-media-api-openapi.yml
   format: yaml
   label: Depict Media API
   slug: depict-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-media-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-media-api-openapi.yml
 - filename: depict-merchant-api-openapi.yml
   format: yaml
   label: Depict Merchant API
   slug: depict-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-merchant-api-openapi.yml
 - filename: depict-merchant-create-api-openapi.yml
   format: yaml
   label: Depict Merchant Create API
   slug: depict-merchant-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-merchant-create-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-merchant-create-api-openapi.yml
 - filename: depict-merchants-api-openapi.yml
   format: yaml
   label: Depict Merchants API
   slug: depict-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-merchants-api-openapi.yml
 - filename: depict-multi-store-api-openapi.yml
   format: yaml
   label: Depict Multi Store API
   slug: depict-multi-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-multi-store-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-multi-store-api-openapi.yml
 - filename: depict-onboarding-api-openapi.yml
   format: yaml
   label: Depict Onboarding API
   slug: depict-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-onboarding-api-openapi.yml
 - filename: depict-product-funnel-metrics-api-openapi.yml
   format: yaml
   label: Depict Product Funnel Metrics API
   slug: depict-product-funnel-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-product-funnel-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-product-funnel-metrics-api-openapi.yml
 - filename: depict-product-images-api-openapi.yml
   format: yaml
   label: Depict Product Images API
   slug: depict-product-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-product-images-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-product-images-api-openapi.yml
 - filename: depict-product-metrics-api-openapi.yml
   format: yaml
   label: Depict Product Metrics API
   slug: depict-product-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-product-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-product-metrics-api-openapi.yml
 - filename: depict-products-api-openapi.yml
   format: yaml
   label: Depict Products API
   slug: depict-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-products-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-products-api-openapi.yml
 - filename: depict-published-collections-api-openapi.yml
   format: yaml
   label: Depict Published Collections API
   slug: depict-published-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-published-collections-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-published-collections-api-openapi.yml
 - filename: depict-search-metrics-api-openapi.yml
   format: yaml
   label: Depict Search Metrics API
   slug: depict-search-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-search-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-search-metrics-api-openapi.yml
 - filename: depict-settings-api-openapi.yml
   format: yaml
   label: Depict Settings API
   slug: depict-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-settings-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-settings-api-openapi.yml
 - filename: depict-shopify-api-openapi.yml
   format: yaml
   label: Depict Shopify API
   slug: depict-shopify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-shopify-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-shopify-api-openapi.yml
 - filename: depict-shopify-collection-template-api-openapi.yml
   format: yaml
   label: Depict Shopify Collection Template API
   slug: depict-shopify-collection-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-shopify-collection-template-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-shopify-collection-template-api-openapi.yml
 - filename: depict-tracking-api-openapi.yml
   format: yaml
   label: Depict Tracking API
   slug: depict-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-tracking-api-openapi.yml
 - filename: depict-translations-api-openapi.yml
   format: yaml
   label: Depict Translations API
   slug: depict-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-translations-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-translations-api-openapi.yml
 - filename: depict-users-api-openapi.yml
   format: yaml
   label: Depict Users API
   slug: depict-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-users-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-users-api-openapi.yml
 - filename: depict-vitals-api-openapi.yml
   format: yaml
   label: Depict Vitals API
   slug: depict-vitals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-vitals-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-vitals-api-openapi.yml
 - filename: depict-events-api-openapi.yml
   format: yaml
   label: Depict Events API
   slug: depict-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-events-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-events-api-openapi.yml
 - filename: depict-markets-api-openapi.yml
   format: yaml
   label: Depict Markets API
   slug: depict-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-markets-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-markets-api-openapi.yml
 - filename: depict-product-listing-api-openapi.yml
   format: yaml
   label: Depict Product Listing API
   slug: depict-product-listing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-product-listing-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-product-listing-api-openapi.yml
 - filename: depict-recommendations-api-openapi.yml
   format: yaml
   label: Depict Recommendations API
   slug: depict-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-recommendations-api-openapi.yml
 - filename: depict-search-api-openapi.yml
   format: yaml
   label: Depict Search API
   slug: depict-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-search-api-openapi.yml
+  url: https://artifacts.apis.io/depict/openapi/depict-search-api-openapi.yml
 consequence_counts:
   read: 85
   write: 61
@@ -254,8 +254,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/depict
   \ required\n- path: /multi-store/create-collection-mappings/{merchant_id}\n  method: post\n  operationId: create_collection_mappings_multi_store_create_collection_mappings__merchant_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /onboarding/themes\n  method: get\n  operationId: get_themes_onboarding_themes_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /onboarding/{merchant_id}/themes/main\n  method: get\n  operationId: get_main_theme_onboarding__merchant_id__themes_main_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /onboarding/{merchant_id}/onboardings\n\
   \  method: get\n  operationId: get_onboarding_bundles_onboarding__merchant_id__onboardings_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/get-displays\n  method: post\n  operationId: get_displays_v3_get_displays_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/markets\n  method: get\n  operationId: get_markets_v3_markets_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/locales\n  method: get\n  operationId: get_locales_v3_locales_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product-funnel-metrics/metrics\n  method: get\n  operationId:\
   \ get_product_funnel_metrics_product_funnel_metrics_metrics_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/merchants/{merchant_id}/products/{main_product_id}/images\n  method: put\n  operationId: update_product_media_urls_endpoint_api_v1_merchants__merchant_id__products__main_product_id__images_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/merchants/{merchant_id}/collections/{collection_id}/products/{main_product_id}/images\n  method: put\n  operationId: update_collection_product_images_endpoint_api_v1_merchants__merchant_id__collections__collection_id__products__main_product_id__images_put\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/merchants/{merchant_id}/products/{main_product_id}/metrics/basic\n  method: get\n  operationId: get_product_basic_metrics_endpoint_api_v1_merchants__merchant_id__products__main_product_id__metrics_basic_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/agentic-access/depict-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/agentic-access/depict-agentic-access.yml
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/merchants/{merchant_id}/products/{main_product_id}/metrics/basic\n  method: get\n  operationId: get_product_basic_metrics_endpoint_api_v1_merchants__merchant_id__products__main_product_id__metrics_basic_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/depict/agentic-access/depict-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/depict/agentic-access/depict-agentic-access.yml
 summary_line: 146 operations · 61 acting
 tags:
 - Company

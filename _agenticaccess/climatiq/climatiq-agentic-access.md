@@ -9,67 +9,67 @@ api_specs:
   label: Climatiq Autopilot API
   slug: climatiq-autopilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-autopilot-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-autopilot-api-openapi.yml
 - filename: climatiq-cbam-api-openapi.yml
   format: yaml
   label: Climatiq CBAM API
   slug: climatiq-cbam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-cbam-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-cbam-api-openapi.yml
 - filename: climatiq-classifications-api-openapi.yml
   format: yaml
   label: Climatiq Classifications API
   slug: climatiq-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-classifications-api-openapi.yml
 - filename: climatiq-computing-api-openapi.yml
   format: yaml
   label: Climatiq Computing API
   slug: climatiq-computing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-computing-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-computing-api-openapi.yml
 - filename: climatiq-energy-api-openapi.yml
   format: yaml
   label: Climatiq Energy API
   slug: climatiq-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-energy-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-energy-api-openapi.yml
 - filename: climatiq-estimate-api-openapi.yml
   format: yaml
   label: Climatiq Estimate API
   slug: climatiq-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-estimate-api-openapi.yml
 - filename: climatiq-freight-api-openapi.yml
   format: yaml
   label: Climatiq Freight API
   slug: climatiq-freight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-freight-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-freight-api-openapi.yml
 - filename: climatiq-procurement-api-openapi.yml
   format: yaml
   label: Climatiq Procurement API
   slug: climatiq-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-procurement-api-openapi.yml
 - filename: climatiq-reference-api-openapi.yml
   format: yaml
   label: Climatiq Reference API
   slug: climatiq-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-reference-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-reference-api-openapi.yml
 - filename: climatiq-search-api-openapi.yml
   format: yaml
   label: Climatiq Search API
   slug: climatiq-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-search-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-search-api-openapi.yml
 - filename: climatiq-travel-api-openapi.yml
   format: yaml
   label: Climatiq Travel API
   slug: climatiq-travel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-travel-api-openapi.yml
+  url: https://artifacts.apis.io/climatiq/openapi/climatiq-travel-api-openapi.yml
 consequence_counts:
   read: 4
   write: 14
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/climat
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compute/v1/storage\n  method: post\n  operationId: estimateCloudStorage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /procurement/v1/spend\n  method: post\n  operationId: estimateProcurementSpend\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /autopilot/v1\n  method: post\n  operationId: autopilotEstimate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /classifications/v2\n  method: get\n  operationId: listClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cbam/v1\n  method: post\n  operationId: estimateCbam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/v1/regions\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/v1/unit-types\n  method: get\n  operationId: listUnitTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/agentic-access/climatiq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/climatiq/agentic-access/climatiq-agentic-access.yml
 summary_line: 18 operations · 14 acting
 tags:
 - Carbon Accounting

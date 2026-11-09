@@ -9,61 +9,61 @@ api_specs:
   label: OpsRamp Alerts API
   slug: opsramp-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-alerts-api-openapi.yml
 - filename: opsramp-alerts-search-api-openapi.yml
   format: yaml
   label: OpsRamp Alerts Search API
   slug: opsramp-alerts-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-alerts-search-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-alerts-search-api-openapi.yml
 - filename: opsramp-jobs-api-openapi.yml
   format: yaml
   label: OpsRamp Jobs API
   slug: opsramp-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-jobs-api-openapi.yml
 - filename: opsramp-monitoring-api-openapi.yml
   format: yaml
   label: OpsRamp Monitoring API
   slug: opsramp-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-monitoring-api-openapi.yml
 - filename: opsramp-resourcemonitors-api-openapi.yml
   format: yaml
   label: OpsRamp Resourcemonitors API
   slug: opsramp-resourcemonitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-resourcemonitors-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-resourcemonitors-api-openapi.yml
 - filename: opsramp-resources-api-openapi.yml
   format: yaml
   label: OpsRamp Resources API
   slug: opsramp-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-resources-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-resources-api-openapi.yml
 - filename: opsramp-resources-search-api-openapi.yml
   format: yaml
   label: OpsRamp Resources Search API
   slug: opsramp-resources-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-resources-search-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-resources-search-api-openapi.yml
 - filename: opsramp-tenancy-api-openapi.yml
   format: yaml
   label: OpsRamp Tenancy API
   slug: opsramp-tenancy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-tenancy-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-tenancy-api-openapi.yml
 - filename: opsramp-ticketentity-api-openapi.yml
   format: yaml
   label: OpsRamp Ticketentity API
   slug: opsramp-ticketentity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-ticketentity-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-ticketentity-api-openapi.yml
 - filename: opsramp-ticketentity-search-api-openapi.yml
   format: yaml
   label: OpsRamp Ticketentity Search API
   slug: opsramp-ticketentity-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-ticketentity-search-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-ticketentity-search-api-openapi.yml
 consequence_counts:
   read: 7
   write: 9
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/opsram
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tenantId}/resourcemonitors\n  method: post\n  operationId: createResourceMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{clientId}/resources/{resourceId}/templates\n  method: get\n  operationId: listResourceTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/ticketentity\n  method: post\n  operationId: createTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tenantId}/ticketentity-search\n  method: get\n  operationId: searchTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/ticketentity/{ticketId}/actions\n  method: post\n  operationId: updateTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tenantId}/jobs\n  method: post\n  operationId: createJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /{tenantId}/jobs/{jobId}/run\n  method: post\n  operationId: runJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/agentic-access/opsramp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opsramp/agentic-access/opsramp-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - AIOps

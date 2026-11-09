@@ -9,67 +9,67 @@ api_specs:
   label: Flow Accounts API
   slug: flow-blockchain-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-accounts-api-openapi.yml
 - filename: flow-blockchain-blocks-api-openapi.yml
   format: yaml
   label: Flow Blocks API
   slug: flow-blockchain-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-blocks-api-openapi.yml
 - filename: flow-blockchain-collections-api-openapi.yml
   format: yaml
   label: Flow Collections API
   slug: flow-blockchain-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-collections-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-collections-api-openapi.yml
 - filename: flow-blockchain-events-api-openapi.yml
   format: yaml
   label: Flow Events API
   slug: flow-blockchain-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-events-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-events-api-openapi.yml
 - filename: flow-blockchain-execution-receipts-api-openapi.yml
   format: yaml
   label: Flow Execution Receipts API
   slug: flow-blockchain-execution-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-execution-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-execution-receipts-api-openapi.yml
 - filename: flow-blockchain-execution-results-api-openapi.yml
   format: yaml
   label: Flow Execution Results API
   slug: flow-blockchain-execution-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-execution-results-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-execution-results-api-openapi.yml
 - filename: flow-blockchain-network-api-openapi.yml
   format: yaml
   label: Flow Network API
   slug: flow-blockchain-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-network-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-network-api-openapi.yml
 - filename: flow-blockchain-nodeversioninfo-api-openapi.yml
   format: yaml
   label: Flow NodeVersionInfo API
   slug: flow-blockchain-nodeversioninfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-nodeversioninfo-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-nodeversioninfo-api-openapi.yml
 - filename: flow-blockchain-scripts-api-openapi.yml
   format: yaml
   label: Flow Scripts API
   slug: flow-blockchain-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-scripts-api-openapi.yml
 - filename: flow-blockchain-subscribe-events-api-openapi.yml
   format: yaml
   label: Flow Subscribe events API
   slug: flow-blockchain-subscribe-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-subscribe-events-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-subscribe-events-api-openapi.yml
 - filename: flow-blockchain-transactions-api-openapi.yml
   format: yaml
   label: Flow Transactions API
   slug: flow-blockchain-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/openapi/flow-blockchain-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/flow-blockchain/openapi/flow-blockchain-transactions-api-openapi.yml
 consequence_counts:
   read: 20
   write: 2
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/access
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /execution_results\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /execution_results/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /execution_receipts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /execution_receipts/results/{id}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{address}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{address}/keys/{index}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{address}/keys\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{address}/balance\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scripts\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/parameters\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /node_version_info\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscribe_events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/agentic-access/flow-blockchain-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flow-blockchain/agentic-access/flow-blockchain-agentic-access.yml
 summary_line: 22 operations · 2 acting
 tags:
 - Blockchain

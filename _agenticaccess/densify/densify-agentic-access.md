@@ -9,103 +9,103 @@ api_specs:
   label: Densify Analysis Webhook API
   slug: densify-analysis-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-analysis-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-analysis-webhook-api-openapi.yml
 - filename: densify-authentication-api-openapi.yml
   format: yaml
   label: Densify Authentication API
   slug: densify-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-authentication-api-openapi.yml
 - filename: densify-aws-analysis-api-openapi.yml
   format: yaml
   label: Densify AWS Analysis API
   slug: densify-aws-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-aws-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-aws-analysis-api-openapi.yml
 - filename: densify-aws-analyze-api-openapi.yml
   format: yaml
   label: Densify AWS Analyze API
   slug: densify-aws-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-aws-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-aws-analyze-api-openapi.yml
 - filename: densify-azure-analysis-api-openapi.yml
   format: yaml
   label: Densify Azure Analysis API
   slug: densify-azure-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-azure-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-azure-analysis-api-openapi.yml
 - filename: densify-cloud-analysis-api-openapi.yml
   format: yaml
   label: Densify Cloud Analysis API
   slug: densify-cloud-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-cloud-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-cloud-analysis-api-openapi.yml
 - filename: densify-gcp-analysis-api-openapi.yml
   format: yaml
   label: Densify GCP Analysis API
   slug: densify-gcp-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-gcp-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-gcp-analysis-api-openapi.yml
 - filename: densify-kubernetes-api-openapi.yml
   format: yaml
   label: Densify Kubernetes API
   slug: densify-kubernetes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-kubernetes-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-kubernetes-api-openapi.yml
 - filename: densify-kubernetes-cluster-results-api-openapi.yml
   format: yaml
   label: Densify Kubernetes Cluster Results API
   slug: densify-kubernetes-cluster-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-kubernetes-cluster-results-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-kubernetes-cluster-results-api-openapi.yml
 - filename: densify-kubernetes-clusters-api-openapi.yml
   format: yaml
   label: Densify Kubernetes Clusters API
   slug: densify-kubernetes-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-kubernetes-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-kubernetes-clusters-api-openapi.yml
 - filename: densify-recommendations-api-openapi.yml
   format: yaml
   label: Densify Recommendations API
   slug: densify-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-recommendations-api-openapi.yml
 - filename: densify-subscriptions-api-openapi.yml
   format: yaml
   label: Densify Subscriptions API
   slug: densify-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-subscriptions-api-openapi.yml
 - filename: densify-subscriptions-properties-api-openapi.yml
   format: yaml
   label: Densify Subscriptions Properties API
   slug: densify-subscriptions-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-subscriptions-properties-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-subscriptions-properties-api-openapi.yml
 - filename: densify-subscriptions-suppressions-api-openapi.yml
   format: yaml
   label: Densify Subscriptions Suppressions API
   slug: densify-subscriptions-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-subscriptions-suppressions-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-subscriptions-suppressions-api-openapi.yml
 - filename: densify-subscriptions-tags-api-openapi.yml
   format: yaml
   label: Densify Subscriptions Tags API
   slug: densify-subscriptions-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-subscriptions-tags-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-subscriptions-tags-api-openapi.yml
 - filename: densify-system-api-openapi.yml
   format: yaml
   label: Densify System API
   slug: densify-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-system-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-system-api-openapi.yml
 - filename: densify-systems-api-openapi.yml
   format: yaml
   label: Densify Systems API
   slug: densify-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/openapi/densify-systems-api-openapi.yml
+  url: https://artifacts.apis.io/densify/openapi/densify-systems-api-openapi.yml
 consequence_counts:
   read: 38
   write: 35
@@ -155,11 +155,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/densif
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{platformType}/tags/{tagRef}\n  method: delete\n  operationId: deleteSubscriptionTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/tags\n  method: get\n  operationId: listSubscriptionTagsDefaultPlatform\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /systems\n  method: get\n  operationId: listSystems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{id}\n  method: get\n  operationId: getSystem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{id}/analysis-details\n  method: post\n  operationId: getSystemAnalysisDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{id}/analysis-report\n  method: get\n  operationId: downloadAnalysisReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{id}/attributes\n  method: put\n  operationId: modifySystemAttributes\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /systems/{id}/attributes\n  method: delete\n  operationId: deleteSystemAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/agentic-access/densify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/densify/agentic-access/densify-agentic-access.yml
 summary_line: 73 operations · 35 acting
 tags:
 - Cloud Cost
-- Container Optimization
+- Container-Optimization
 - FinOps
 - Kubernetes
 - Machine Learning

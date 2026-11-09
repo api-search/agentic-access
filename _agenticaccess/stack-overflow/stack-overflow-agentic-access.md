@@ -9,61 +9,61 @@ api_specs:
   label: Stack Overflow Answers API
   slug: stack-overflow-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-answers-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-answers-api-openapi.yml
 - filename: stack-overflow-articles-api-openapi.yml
   format: yaml
   label: Stack Overflow Articles API
   slug: stack-overflow-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-articles-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-articles-api-openapi.yml
 - filename: stack-overflow-badges-api-openapi.yml
   format: yaml
   label: Stack Overflow Badges API
   slug: stack-overflow-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-badges-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-badges-api-openapi.yml
 - filename: stack-overflow-comments-api-openapi.yml
   format: yaml
   label: Stack Overflow Comments API
   slug: stack-overflow-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-comments-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-comments-api-openapi.yml
 - filename: stack-overflow-questions-api-openapi.yml
   format: yaml
   label: Stack Overflow Questions API
   slug: stack-overflow-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-questions-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-questions-api-openapi.yml
 - filename: stack-overflow-search-api-openapi.yml
   format: yaml
   label: Stack Overflow Search API
   slug: stack-overflow-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-search-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-search-api-openapi.yml
 - filename: stack-overflow-smes-api-openapi.yml
   format: yaml
   label: Stack Overflow SMEs API
   slug: stack-overflow-smes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-smes-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-smes-api-openapi.yml
 - filename: stack-overflow-tags-api-openapi.yml
   format: yaml
   label: Stack Overflow Tags API
   slug: stack-overflow-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-tags-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-tags-api-openapi.yml
 - filename: stack-overflow-user-groups-api-openapi.yml
   format: yaml
   label: Stack Overflow User Groups API
   slug: stack-overflow-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-user-groups-api-openapi.yml
 - filename: stack-overflow-users-api-openapi.yml
   format: yaml
   label: Stack Overflow Users API
   slug: stack-overflow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-users-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-users-api-openapi.yml
 consequence_counts:
   read: 29
   write: 8
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stack-
   \      max-ttl: 3600\n    audit: none\n- path: /answers/{ids}\n  method: get\n  operationId: getAnswersByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comments\n  method: get\n  operationId: getComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{ids}\n  method: get\n  operationId: getUsersByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me\n  method: get\n  operationId: getAuthenticatedUser\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{ids}/questions\n  method: get\n  operationId: getQuestionsByUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{ids}/answers\n  method: get\n  operationId: getAnswersByUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{tags}/info\n  method: get\n  operationId: getTagInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /badges\n  method: get\n  operationId:\
   \ getBadges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchQuestions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/advanced\n  method: get\n  operationId: searchAdvanced\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /similar\n  method: get\n  operationId: findSimilarQuestions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/agentic-access/stack-overflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stack-overflow/agentic-access/stack-overflow-agentic-access.yml
 summary_line: 37 operations · 8 acting
 tags:
 - Answers

@@ -9,37 +9,37 @@ api_specs:
   label: TROLIE Forecasting API
   slug: trolie-forecasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-forecasting-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-forecasting-api-openapi.yml
 - filename: trolie-monitoring-sets-api-openapi.yml
   format: yaml
   label: TROLIE Monitoring Sets API
   slug: trolie-monitoring-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-monitoring-sets-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-monitoring-sets-api-openapi.yml
 - filename: trolie-seasonal-api-openapi.yml
   format: yaml
   label: TROLIE Seasonal API
   slug: trolie-seasonal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-seasonal-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-seasonal-api-openapi.yml
 - filename: trolie-seasonal-overrides-api-openapi.yml
   format: yaml
   label: TROLIE Seasonal Overrides API
   slug: trolie-seasonal-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-seasonal-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-seasonal-overrides-api-openapi.yml
 - filename: trolie-temporary-aar-exceptions-api-openapi.yml
   format: yaml
   label: TROLIE Temporary AAR Exceptions API
   slug: trolie-temporary-aar-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-temporary-aar-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-temporary-aar-exceptions-api-openapi.yml
 - filename: trolie-realtime-api-openapi.yml
   format: yaml
   label: TROLIE Realtime API
   slug: trolie-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-realtime-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 3
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/trolie
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /temporary-aar-exceptions/{id}\n  method: put\n  operationId: updateTemporaryAARException\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:temporary-aar-exceptions\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /monitoring-sets\n  method: post\n  operationId: createMonitoringSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:monitoring-sets\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /monitoring-sets/{id}\n  method: get\n  operationId: getMonitoringSet\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:monitoring-sets\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitoring-sets/{id}\n  method: put\n  operationId: updateMonitoringSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:monitoring-sets\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /monitoring-sets/{id}\n  method: delete\n  operationId: deleteMonitoringSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:monitoring-sets\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /default-monitoring-set\n\
   \  method: get\n  operationId: getDefaultMonitoringSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:monitoring-sets\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/agentic-access/trolie-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trolie/agentic-access/trolie-agentic-access.yml
 summary_line: 28 operations · 13 acting · 3 human-in-the-loop
 tags:
 - Company

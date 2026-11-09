@@ -9,67 +9,67 @@ api_specs:
   label: Zelto Action checks API
   slug: zelto-action-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-action-checks-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-action-checks-api-openapi.yml
 - filename: zelto-agents-api-openapi.yml
   format: yaml
   label: Zelto Agents API
   slug: zelto-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-agents-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-agents-api-openapi.yml
 - filename: zelto-buckets-api-openapi.yml
   format: yaml
   label: Zelto Buckets API
   slug: zelto-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-buckets-api-openapi.yml
 - filename: zelto-companies-api-openapi.yml
   format: yaml
   label: Zelto Companies API
   slug: zelto-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-companies-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-companies-api-openapi.yml
 - filename: zelto-conversations-api-openapi.yml
   format: yaml
   label: Zelto Conversations API
   slug: zelto-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-conversations-api-openapi.yml
 - filename: zelto-customer-metrics-api-openapi.yml
   format: yaml
   label: Zelto Customer Metrics API
   slug: zelto-customer-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-customer-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-customer-metrics-api-openapi.yml
 - filename: zelto-experiments-api-openapi.yml
   format: yaml
   label: Zelto Experiments API
   slug: zelto-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-experiments-api-openapi.yml
 - filename: zelto-findings-api-openapi.yml
   format: yaml
   label: Zelto Findings API
   slug: zelto-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-findings-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-findings-api-openapi.yml
 - filename: zelto-organizations-api-openapi.yml
   format: yaml
   label: Zelto Organizations API
   slug: zelto-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-organizations-api-openapi.yml
 - filename: zelto-reports-api-openapi.yml
   format: yaml
   label: Zelto Reports API
   slug: zelto-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-reports-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-reports-api-openapi.yml
 - filename: zelto-reviews-api-openapi.yml
   format: yaml
   label: Zelto Reviews API
   slug: zelto-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/openapi/zelto-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/zelto/openapi/zelto-reviews-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 26
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/zelto-
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/experiments/{id}/evaluations\n  method: get\n  operationId: listExperimentEvaluations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/experiments/{id}/evaluations\n  method: post\n  operationId: startExperimentEvaluation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/experiments/{id}/evaluations/{runId}\n  method: get\n  operationId: getExperimentEvaluation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/experiments/{id}/conversations\n  method: get\n  operationId: listExperimentConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations\n  method: post\n  operationId: createOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/action-checks\n  method: post\n  operationId: checkProposedAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/costs\n  method: get\n  operationId: getCostReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports/transfers\n  method: get\n  operationId: getTransferReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agents/{id}/versions\n  method: post\n  operationId: registerAgentVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/heads/main/agentic-access/zelto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zelto/agentic-access/zelto-agentic-access.yml
 summary_line: 49 operations · 23 acting
 tags:
 - Company

@@ -9,49 +9,49 @@ api_specs:
   label: Ticket Tailor Check-ins API
   slug: tickettailor-check-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-check-ins-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-check-ins-api-openapi.yml
 - filename: tickettailor-event-series-api-openapi.yml
   format: yaml
   label: Ticket Tailor Event Series API
   slug: tickettailor-event-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-event-series-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-event-series-api-openapi.yml
 - filename: tickettailor-events-api-openapi.yml
   format: yaml
   label: Ticket Tailor Events API
   slug: tickettailor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-events-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-events-api-openapi.yml
 - filename: tickettailor-issued-tickets-api-openapi.yml
   format: yaml
   label: Ticket Tailor Issued Tickets API
   slug: tickettailor-issued-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-issued-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-issued-tickets-api-openapi.yml
 - filename: tickettailor-orders-api-openapi.yml
   format: yaml
   label: Ticket Tailor Orders API
   slug: tickettailor-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-orders-api-openapi.yml
 - filename: tickettailor-ticket-types-api-openapi.yml
   format: yaml
   label: Ticket Tailor Ticket Types API
   slug: tickettailor-ticket-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-ticket-types-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-ticket-types-api-openapi.yml
 - filename: tickettailor-utility-api-openapi.yml
   format: yaml
   label: Ticket Tailor Utility API
   slug: tickettailor-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-utility-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-utility-api-openapi.yml
 - filename: tickettailor-vouchers-api-openapi.yml
   format: yaml
   label: Ticket Tailor Vouchers API
   slug: tickettailor-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/openapi/tickettailor-vouchers-api-openapi.yml
+  url: https://artifacts.apis.io/tickettailor/openapi/tickettailor-vouchers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ticket
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issued_tickets/{id}\n  method: get\n  operationId: getIssuedTicket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issued_tickets/{id}/void\n  method: post\n  operationId: voidIssuedTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vouchers\n  method: get\n  operationId: getAllVouchers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vouchers\n  method: post\n  operationId: createVoucher\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vouchers/{id}\n  method: get\n  operationId: getVoucher\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vouchers/{id}\n  method: put\n  operationId: updateVoucher\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vouchers/{id}\n  method: delete\n  operationId: deleteVoucher\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voucher-codes\n  method: get\n  operationId: getVoucherCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /check_ins\n  method: get\n  operationId: getCheckIns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /check_ins\n  method: post\n  operationId: createCheckIn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/agentic-access/tickettailor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tickettailor/agentic-access/tickettailor-agentic-access.yml
 summary_line: 26 operations · 13 acting
 tags:
 - Event Ticketing

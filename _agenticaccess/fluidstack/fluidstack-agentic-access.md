@@ -9,43 +9,43 @@ api_specs:
   label: Fluidstack Clusters API
   slug: fluidstack-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/fluidstack/openapi/fluidstack-clusters-api-openapi.yml
 - filename: fluidstack-instances-api-openapi.yml
   format: yaml
   label: Fluidstack Instances API
   slug: fluidstack-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-instances-api-openapi.yml
+  url: https://artifacts.apis.io/fluidstack/openapi/fluidstack-instances-api-openapi.yml
 - filename: fluidstack-invitations-api-openapi.yml
   format: yaml
   label: Fluidstack Invitations API
   slug: fluidstack-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/fluidstack/openapi/fluidstack-invitations-api-openapi.yml
 - filename: fluidstack-members-api-openapi.yml
   format: yaml
   label: Fluidstack Members API
   slug: fluidstack-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-members-api-openapi.yml
+  url: https://artifacts.apis.io/fluidstack/openapi/fluidstack-members-api-openapi.yml
 - filename: fluidstack-organizations-api-openapi.yml
   format: yaml
   label: Fluidstack Organizations API
   slug: fluidstack-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/fluidstack/openapi/fluidstack-organizations-api-openapi.yml
 - filename: fluidstack-regions-api-openapi.yml
   format: yaml
   label: Fluidstack Regions API
   slug: fluidstack-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-regions-api-openapi.yml
+  url: https://artifacts.apis.io/fluidstack/openapi/fluidstack-regions-api-openapi.yml
 - filename: fluidstack-user-api-openapi.yml
   format: yaml
   label: Fluidstack User API
   slug: fluidstack-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/openapi/fluidstack-user-api-openapi.yml
+  url: https://artifacts.apis.io/fluidstack/openapi/fluidstack-user-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fluids
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invitations\n  method: post\n  operationId: CreateInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invitations\n  method: get\n  operationId: ListInvitations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invitations/{id}\n  method: delete\n  operationId: DeleteInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /instances\n  method: get\n  operationId: ListInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{id}\n  method: get\n  operationId: GetInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/keys\n  method: get\n  operationId: ListKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/keys\n  method: post\n  operationId: RegisterKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/keys/{name}\n  method:\
   \ delete\n  operationId: DeregisterKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/agentic-access/fluidstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fluidstack/agentic-access/fluidstack-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Artificial Intelligence

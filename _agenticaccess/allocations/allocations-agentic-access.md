@@ -9,145 +9,145 @@ api_specs:
   label: Allocations Accreditations API
   slug: allocations-accreditations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-accreditations-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-accreditations-api-openapi.yml
 - filename: allocations-announcements-api-openapi.yml
   format: yaml
   label: Allocations Announcements API
   slug: allocations-announcements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-announcements-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-announcements-api-openapi.yml
 - filename: allocations-assets-api-openapi.yml
   format: yaml
   label: Allocations Assets API
   slug: allocations-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-assets-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-assets-api-openapi.yml
 - filename: allocations-banking-api-openapi.yml
   format: yaml
   label: Allocations Banking API
   slug: allocations-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-banking-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-banking-api-openapi.yml
 - filename: allocations-closes-api-openapi.yml
   format: yaml
   label: Allocations Closes API
   slug: allocations-closes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-closes-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-closes-api-openapi.yml
 - filename: allocations-deals-api-openapi.yml
   format: yaml
   label: Allocations Deals API
   slug: allocations-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-deals-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-deals-api-openapi.yml
 - filename: allocations-distributions-api-openapi.yml
   format: yaml
   label: Allocations Distributions API
   slug: allocations-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-distributions-api-openapi.yml
 - filename: allocations-distributionsinvestments-api-openapi.yml
   format: yaml
   label: Allocations Distributions Investments API
   slug: allocations-distributionsinvestments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-distributionsinvestments-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-distributionsinvestments-api-openapi.yml
 - filename: allocations-documents-api-openapi.yml
   format: yaml
   label: Allocations Documents API
   slug: allocations-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-documents-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-documents-api-openapi.yml
 - filename: allocations-entities-api-openapi.yml
   format: yaml
   label: Allocations Entities API
   slug: allocations-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-entities-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-entities-api-openapi.yml
 - filename: allocations-files-api-openapi.yml
   format: yaml
   label: Allocations Files API
   slug: allocations-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-files-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-files-api-openapi.yml
 - filename: allocations-identities-api-openapi.yml
   format: yaml
   label: Allocations Identities API
   slug: allocations-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-identities-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-identities-api-openapi.yml
 - filename: allocations-investments-api-openapi.yml
   format: yaml
   label: Allocations Investments API
   slug: allocations-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-investments-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-investments-api-openapi.yml
 - filename: allocations-ledger-api-openapi.yml
   format: yaml
   label: Allocations Ledger API
   slug: allocations-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-ledger-api-openapi.yml
 - filename: allocations-notifications-api-openapi.yml
   format: yaml
   label: Allocations Notifications API
   slug: allocations-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-notifications-api-openapi.yml
 - filename: allocations-organizations-api-openapi.yml
   format: yaml
   label: Allocations Organizations API
   slug: allocations-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-organizations-api-openapi.yml
 - filename: allocations-providers-api-openapi.yml
   format: yaml
   label: Allocations Providers API
   slug: allocations-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-providers-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-providers-api-openapi.yml
 - filename: allocations-static-references-api-openapi.yml
   format: yaml
   label: Allocations Static References API
   slug: allocations-static-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-static-references-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-static-references-api-openapi.yml
 - filename: allocations-support-tickets-api-openapi.yml
   format: yaml
   label: Allocations Support Tickets API
   slug: allocations-support-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-support-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-support-tickets-api-openapi.yml
 - filename: allocations-taxes-api-openapi.yml
   format: yaml
   label: Allocations Taxes API
   slug: allocations-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-taxes-api-openapi.yml
 - filename: allocations-transfer-requests-api-openapi.yml
   format: yaml
   label: Allocations Transfer Requests API
   slug: allocations-transfer-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-transfer-requests-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-transfer-requests-api-openapi.yml
 - filename: allocations-transferinformation-api-openapi.yml
   format: yaml
   label: Allocations Transfer Information API
   slug: allocations-transferinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-transferinformation-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-transferinformation-api-openapi.yml
 - filename: allocations-xeroauthcontroller-api-openapi.yml
   format: yaml
   label: Allocations Xero Auth Controller API
   slug: allocations-xeroauthcontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-xeroauthcontroller-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-xeroauthcontroller-api-openapi.yml
 - filename: allocations-xeroinvoicescontroller-api-openapi.yml
   format: yaml
   label: Allocations Xero Invoices Controller API
   slug: allocations-xeroinvoicescontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/openapi/allocations-xeroinvoicescontroller-api-openapi.yml
+  url: https://artifacts.apis.io/allocations/openapi/allocations-xeroinvoicescontroller-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 90
@@ -277,8 +277,8 @@ source_yaml: "generated: '2026-10-05'\nmethod: generated\nsource: openapi/alloca
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accreditations/{id}\n  method: delete\n  operationId: softDeleteAccreditation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accreditations\n  method: post\n  operationId: createAccreditation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accreditations\n  method: get\n  operationId: getAccreditations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v2/bank-accounts/available-providers/{assetType}\n  method: get\n  operationId: getAvailableProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bank-accounts/bank-accounts/count\n  method: get\n  operationId: getBankAccountsCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bank-accounts/bank-accounts/updates-required-count\n  method: get\n  operationId: getUpdatesRequiredBankAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bank-accounts/bank-accounts/{id}\n  method: patch\n  operationId: updateBankAccountById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bank-accounts/bank-accounts/{id}\n  method: get\n  operationId: getBankAccountById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bank-accounts/bank-accounts\n  method: get\n  operationId: getBankAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bank-accounts/create-application\n  method: post\n  operationId: createApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/agentic-access/allocations-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/agentic-access/allocations-agentic-access.yml
+  \    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://artifacts.apis.io/allocations/agentic-access/allocations-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/allocations/agentic-access/allocations-agentic-access.yml
 summary_line: 167 operations · 77 acting · 1 human-in-the-loop
 tags:
 - Fintech

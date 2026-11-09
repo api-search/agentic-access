@@ -9,67 +9,67 @@ api_specs:
   label: Digits Chart of Accounts API
   slug: digits-com-chart-of-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-chart-of-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-chart-of-accounts-api-openapi.yml
 - filename: digits-com-connections-api-openapi.yml
   format: yaml
   label: Digits Connections API
   slug: digits-com-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-connections-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-connections-api-openapi.yml
 - filename: digits-com-financial-statements-api-openapi.yml
   format: yaml
   label: Digits Financial Statements API
   slug: digits-com-financial-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-financial-statements-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-financial-statements-api-openapi.yml
 - filename: digits-com-organizations-api-openapi.yml
   format: yaml
   label: Digits Organizations API
   slug: digits-com-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-organizations-api-openapi.yml
 - filename: digits-com-parties-api-openapi.yml
   format: yaml
   label: Digits Parties API
   slug: digits-com-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-parties-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-parties-api-openapi.yml
 - filename: digits-com-sources-api-openapi.yml
   format: yaml
   label: Digits Sources API
   slug: digits-com-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-sources-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-sources-api-openapi.yml
 - filename: digits-com-transactions-api-openapi.yml
   format: yaml
   label: Digits Transactions API
   slug: digits-com-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-transactions-api-openapi.yml
 - filename: digits-com-webhooks-api-openapi.yml
   format: yaml
   label: Digits Webhooks API
   slug: digits-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-webhooks-api-openapi.yml
 - filename: digits-com-llms-txt-api-openapi.yml
   format: yaml
   label: Digits Llms.txt API
   slug: digits-com-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-llms-txt-api-openapi.yml
 - filename: digits-com-sitemap-xml-api-openapi.yml
   format: yaml
   label: Digits Sitemap.xml API
   slug: digits-com-sitemap-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-sitemap-xml-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-sitemap-xml-api-openapi.yml
 - filename: digits-com-well-known-api-openapi.yml
   format: yaml
   label: Digits .well Known API
   slug: digits-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/digits-com/openapi/digits-com-well-known-api-openapi.yml
 consequence_counts:
   read: 21
   write: 7
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/digits
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sitemap.xml\n  method: get\n  operationId: getSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources/transactions/sync\n  method: post\n  operationId: sourceTransactionServiceSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sources/parties/sync\n  method: post\n  operationId: sourcePartyServiceSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /ledger/transactions/entries\n  method: get\n  operationId: ledgerTransactionServiceEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ledger/transactions/query\n  method: post\n  operationId: ledgerTransactionServiceQueryEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ledger/transactions/{transactionId}\n  method: get\n  operationId: ledgerTransactionServiceGetTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/events\n  method: post\n  operationId: receiveWebhookEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /.well-known/mcp.json\n  method: get\n  operationId: getMcpConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/mcp/server.json\n  method: get\n  operationId: getMcpServerCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/agentic-access/digits-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/digits-com/agentic-access/digits-com-agentic-access.yml
 summary_line: 28 operations · 7 acting
 tags:
 - Accounting

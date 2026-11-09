@@ -9,61 +9,61 @@ api_specs:
   label: Loggi Details API
   slug: loggi-detailsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-detailsapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-detailsapi-api-openapi.yml
 - filename: loggi-dropofflocationsapi-api-openapi.yml
   format: yaml
   label: Loggi Dropoff Locations API
   slug: loggi-dropofflocationsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-dropofflocationsapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-dropofflocationsapi-api-openapi.yml
 - filename: loggi-integratorcompanyapi-api-openapi.yml
   format: yaml
   label: Loggi Integrator Company API
   slug: loggi-integratorcompanyapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-integratorcompanyapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-integratorcompanyapi-api-openapi.yml
 - filename: loggi-labelapi-api-openapi.yml
   format: yaml
   label: Loggi Label API
   slug: loggi-labelapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-labelapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-labelapi-api-openapi.yml
 - filename: loggi-packagecancelapi-api-openapi.yml
   format: yaml
   label: Loggi Package Cancel API
   slug: loggi-packagecancelapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-packagecancelapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-packagecancelapi-api-openapi.yml
 - filename: loggi-packageupdateapi-api-openapi.yml
   format: yaml
   label: Loggi Package Update API
   slug: loggi-packageupdateapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-packageupdateapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-packageupdateapi-api-openapi.yml
 - filename: loggi-quotationapi-api-openapi.yml
   format: yaml
   label: Loggi Quotation API
   slug: loggi-quotationapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-quotationapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-quotationapi-api-openapi.yml
 - filename: loggi-shipmentapi-api-openapi.yml
   format: yaml
   label: Loggi Shipment API
   slug: loggi-shipmentapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-shipmentapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-shipmentapi-api-openapi.yml
 - filename: loggi-trackingapi-api-openapi.yml
   format: yaml
   label: Loggi Tracking API
   slug: loggi-trackingapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-trackingapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-trackingapi-api-openapi.yml
 - filename: loggi-oauth2token-api-openapi.yml
   format: yaml
   label: Loggi O Auth2 Token API
   slug: loggi-oauth2token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-oauth2token-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-oauth2token-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 3
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/loggi-
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companies/{company_id}/labels\n  method: post\n  operationId: CriarEtiqueta\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companies/{company_id}/packages/{tracking_code}\n  method: get\n  operationId: PackageDetailsTrackingCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companies/{company_id}/packages\n  method: patch\n  operationId: PackageUpdate\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companies/{company_id}/packages/cancel\n  method: post\n  operationId: PackageCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dropoff/locations\n  method: post\n  operationId: ListDropoffLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companies/{company_id}/async-shipments\n  method: post\n  operationId: CreateAsyncShipment\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companies/{company_id}/packages/{tracking_code}/tracking\n  method: get\n  operationId: TrackPackageTrackingCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/agentic-access/loggi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loggi/agentic-access/loggi-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - Company

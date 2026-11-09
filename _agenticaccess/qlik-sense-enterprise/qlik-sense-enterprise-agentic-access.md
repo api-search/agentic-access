@@ -9,181 +9,181 @@ api_specs:
   label: Qlik Sense Enterprise About API
   slug: qlik-sense-enterprise-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-about-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-about-api-openapi.yml
 - filename: qlik-sense-enterprise-access-type-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Access Type API
   slug: qlik-sense-enterprise-access-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-access-type-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-access-type-api-openapi.yml
 - filename: qlik-sense-enterprise-app-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise App API
   slug: qlik-sense-enterprise-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-app-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-app-api-openapi.yml
 - filename: qlik-sense-enterprise-app-object-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise App Object API
   slug: qlik-sense-enterprise-app-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-app-object-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-app-object-api-openapi.yml
 - filename: qlik-sense-enterprise-components-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Components API
   slug: qlik-sense-enterprise-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-components-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-components-api-openapi.yml
 - filename: qlik-sense-enterprise-content-library-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Content Library API
   slug: qlik-sense-enterprise-content-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-content-library-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-content-library-api-openapi.yml
 - filename: qlik-sense-enterprise-custom-property-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Custom Property API
   slug: qlik-sense-enterprise-custom-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-custom-property-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-custom-property-api-openapi.yml
 - filename: qlik-sense-enterprise-data-connection-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Data Connection API
   slug: qlik-sense-enterprise-data-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-data-connection-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-data-connection-api-openapi.yml
 - filename: qlik-sense-enterprise-extension-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Extension API
   slug: qlik-sense-enterprise-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-extension-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-extension-api-openapi.yml
 - filename: qlik-sense-enterprise-external-urls-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise External URLs API
   slug: qlik-sense-enterprise-external-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-external-urls-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-external-urls-api-openapi.yml
 - filename: qlik-sense-enterprise-health-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Health API
   slug: qlik-sense-enterprise-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-health-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-health-api-openapi.yml
 - filename: qlik-sense-enterprise-license-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise License API
   slug: qlik-sense-enterprise-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-license-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-license-api-openapi.yml
 - filename: qlik-sense-enterprise-license-audit-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise License Audit API
   slug: qlik-sense-enterprise-license-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-license-audit-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-license-audit-api-openapi.yml
 - filename: qlik-sense-enterprise-license-rule-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise License Rule API
   slug: qlik-sense-enterprise-license-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-license-rule-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-license-rule-api-openapi.yml
 - filename: qlik-sense-enterprise-links-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Links API
   slug: qlik-sense-enterprise-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-links-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-links-api-openapi.yml
 - filename: qlik-sense-enterprise-load-balancing-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Load Balancing API
   slug: qlik-sense-enterprise-load-balancing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-load-balancing-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-load-balancing-api-openapi.yml
 - filename: qlik-sense-enterprise-notification-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Notification API
   slug: qlik-sense-enterprise-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-notification-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-notification-api-openapi.yml
 - filename: qlik-sense-enterprise-reload-task-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Reload Task API
   slug: qlik-sense-enterprise-reload-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-reload-task-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-reload-task-api-openapi.yml
 - filename: qlik-sense-enterprise-requests-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Requests API
   slug: qlik-sense-enterprise-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-requests-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-requests-api-openapi.yml
 - filename: qlik-sense-enterprise-security-rule-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Security Rule API
   slug: qlik-sense-enterprise-security-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-security-rule-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-security-rule-api-openapi.yml
 - filename: qlik-sense-enterprise-server-node-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Server Node API
   slug: qlik-sense-enterprise-server-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-server-node-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-server-node-api-openapi.yml
 - filename: qlik-sense-enterprise-session-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Session API
   slug: qlik-sense-enterprise-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-session-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-session-api-openapi.yml
 - filename: qlik-sense-enterprise-stream-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Stream API
   slug: qlik-sense-enterprise-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-stream-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-stream-api-openapi.yml
 - filename: qlik-sense-enterprise-system-info-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise System Info API
   slug: qlik-sense-enterprise-system-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-system-info-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-system-info-api-openapi.yml
 - filename: qlik-sense-enterprise-tag-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Tag API
   slug: qlik-sense-enterprise-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-tag-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-tag-api-openapi.yml
 - filename: qlik-sense-enterprise-task-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Task API
   slug: qlik-sense-enterprise-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-task-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-task-api-openapi.yml
 - filename: qlik-sense-enterprise-third-party-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Third Party API
   slug: qlik-sense-enterprise-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-third-party-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-third-party-api-openapi.yml
 - filename: qlik-sense-enterprise-user-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise User API
   slug: qlik-sense-enterprise-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-user-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-user-api-openapi.yml
 - filename: qlik-sense-enterprise-user-directory-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise User Directory API
   slug: qlik-sense-enterprise-user-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-user-directory-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-user-directory-api-openapi.yml
 - filename: qlik-sense-enterprise-virtual-proxy-api-openapi.yml
   format: yaml
   label: Qlik Sense Enterprise Virtual Proxy API
   slug: qlik-sense-enterprise-virtual-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/openapi/qlik-sense-enterprise-virtual-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/qlik-sense-enterprise/openapi/qlik-sense-enterprise-virtual-proxy-api-openapi.yml
 consequence_counts:
   read: 73
   safety-critical: 1
@@ -252,8 +252,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/qlik-s
   \ path: /reloadtask/{id}\n  method: get\n  operationId: getReloadTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reloadtask/{id}\n  method: put\n  operationId: updateReloadTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reloadtask/{id}\n  method: delete\n  operationId: deleteReloadTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /securityrule\n  method: get\n  operationId: getSecurityRules\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityrule\n  method: post\n  operationId: createSecurityRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /securityrule/full\n  method: get\n  operationId: getSecurityRulesFull\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityrule/{id}\n  method: get\n  operationId: getSecurityRule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityrule/{id}\n  method: put\n  operationId: updateSecurityRule\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /securityrule/{id}\n  method: delete\n  operationId: deleteSecurityRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag\n  method: get\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tag\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/agentic-access/qlik-sense-enterprise-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/agentic-access/qlik-sense-enterprise-agentic-access.yml
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://artifacts.apis.io/qlik-sense-enterprise/agentic-access/qlik-sense-enterprise-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/qlik-sense-enterprise/agentic-access/qlik-sense-enterprise-agentic-access.yml
 summary_line: 138 operations · 65 acting · 1 human-in-the-loop
 tags:
 - Analytics

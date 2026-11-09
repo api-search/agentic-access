@@ -9,103 +9,103 @@ api_specs:
   label: Frax Finance v1-gauge API
   slug: frax-v1-gauge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v1-gauge-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v1-gauge-api-openapi.yml
 - filename: frax-v1-prices-api-openapi.yml
   format: yaml
   label: Frax Finance v1-prices API
   slug: frax-v1-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v1-prices-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v1-prices-api-openapi.yml
 - filename: frax-v1-protocol-api-openapi.yml
   format: yaml
   label: Frax Finance v1-protocol API
   slug: frax-v1-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v1-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v1-protocol-api-openapi.yml
 - filename: frax-v1-staking-api-openapi.yml
   format: yaml
   label: Frax Finance v1-staking API
   slug: frax-v1-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v1-staking-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v1-staking-api-openapi.yml
 - filename: frax-v1-vefpis-api-openapi.yml
   format: yaml
   label: Frax Finance v1-vefpis API
   slug: frax-v1-vefpis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v1-vefpis-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v1-vefpis-api-openapi.yml
 - filename: frax-v1-vefxs-api-openapi.yml
   format: yaml
   label: Frax Finance v1-vefxs API
   slug: frax-v1-vefxs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v1-vefxs-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v1-vefxs-api-openapi.yml
 - filename: frax-v2-fpifpis-api-openapi.yml
   format: yaml
   label: Frax Finance v2-fpifpis API
   slug: frax-v2-fpifpis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-fpifpis-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-fpifpis-api-openapi.yml
 - filename: frax-v2-frax-api-openapi.yml
   format: yaml
   label: Frax Finance v2-frax API
   slug: frax-v2-frax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-frax-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-frax-api-openapi.yml
 - filename: frax-v2-fraxferry-api-openapi.yml
   format: yaml
   label: Frax Finance v2-fraxferry API
   slug: frax-v2-fraxferry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-fraxferry-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-fraxferry-api-openapi.yml
 - filename: frax-v2-fraxswap-api-openapi.yml
   format: yaml
   label: Frax Finance v2-fraxswap API
   slug: frax-v2-fraxswap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-fraxswap-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-fraxswap-api-openapi.yml
 - filename: frax-v2-frxeth-api-openapi.yml
   format: yaml
   label: Frax Finance v2-frxeth API
   slug: frax-v2-frxeth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-frxeth-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-frxeth-api-openapi.yml
 - filename: frax-v2-frxusd-api-openapi.yml
   format: yaml
   label: Frax Finance v2-frxusd API
   slug: frax-v2-frxusd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-frxusd-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-frxusd-api-openapi.yml
 - filename: frax-v2-fxb-api-openapi.yml
   format: yaml
   label: Frax Finance v2-fxb API
   slug: frax-v2-fxb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-fxb-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-fxb-api-openapi.yml
 - filename: frax-v2-gauges-api-openapi.yml
   format: yaml
   label: Frax Finance v2-gauges API
   slug: frax-v2-gauges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-gauges-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-gauges-api-openapi.yml
 - filename: frax-v2-gov-api-openapi.yml
   format: yaml
   label: Frax Finance v2-gov API
   slug: frax-v2-gov-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-gov-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-gov-api-openapi.yml
 - filename: frax-v2-lfrax-api-openapi.yml
   format: yaml
   label: Frax Finance v2-lfrax API
   slug: frax-v2-lfrax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-lfrax-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-lfrax-api-openapi.yml
 - filename: frax-v2-sfrxusd-api-openapi.yml
   format: yaml
   label: Frax Finance v2-sfrxusd API
   slug: frax-v2-sfrxusd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/openapi/frax-v2-sfrxusd-api-openapi.yml
+  url: https://artifacts.apis.io/frax/openapi/frax-v2-sfrxusd-api-openapi.yml
 consequence_counts:
   read: 93
   write: 3
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/frax-f
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/frxusd/summary-stats/latest\n  method: get\n  operationId: getLatestFrxusdSummaryData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/frxusd/summary-stats/history\n  method: get\n  operationId: listHistoricalFrxusdSummaryData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sfrxusd/balance-sheet/latest\n  method: get\n  operationId: getSfrxusdBalanceSheetLatestData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sfrxusd/balance-sheet/latest/export\n  method: get\n  operationId: exportSfrxusdBalanceSheetLatestData\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sfrxusd/summary-stats/latest\n  method: get\n  operationId: getLatestSfrxusdSummaryData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sfrxusd/summary-stats/history\n  method: get\n  operationId: listHistoricalSfrxusdSummaryData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/lfrax/balance-sheet/latest\n  method: get\n  operationId: getLegacyFraxBalanceSheetLatestData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/lfrax/balance-sheet/latest/export\n  method: get\n  operationId: exportLegacyFraxDollarBalanceSheetLatestData\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/agentic-access/frax-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/frax/agentic-access/frax-agentic-access.yml
 summary_line: 96 operations · 3 acting
 tags:
 - DeFi

@@ -8,13 +8,13 @@ api_specs:
   label: Sophos Alerts API
   slug: sophos-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sophos/openapi/sophos-alerts-api-openapi.yml
 - filename: sophos-events-api-openapi.yml
   format: yaml
   label: Sophos Events API
   slug: sophos-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-events-api-openapi.yml
+  url: https://artifacts.apis.io/sophos/openapi/sophos-events-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -40,7 +40,7 @@ source_filename: sophos-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sophos-central-siem-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    connected: 2\n  by_consequence:\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /siem/v1/alerts\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /siem/v1/events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/agentic-access/sophos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sophos/agentic-access/sophos-agentic-access.yml
 summary_line: 2 operations
 tags:
 - Cybersecurity

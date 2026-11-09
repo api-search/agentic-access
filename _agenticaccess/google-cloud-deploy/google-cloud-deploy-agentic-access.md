@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud Deploy DeliveryPipelines API
   slug: google-cloud-deploy-deliverypipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-deliverypipelines-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-deliverypipelines-api-openapi.yml
 - filename: google-cloud-deploy-releases-api-openapi.yml
   format: yaml
   label: Google Cloud Deploy Releases API
   slug: google-cloud-deploy-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-releases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-releases-api-openapi.yml
 - filename: google-cloud-deploy-rollouts-api-openapi.yml
   format: yaml
   label: Google Cloud Deploy Rollouts API
   slug: google-cloud-deploy-rollouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-rollouts-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-rollouts-api-openapi.yml
 - filename: google-cloud-deploy-targets-api-openapi.yml
   format: yaml
   label: Google Cloud Deploy Targets API
   slug: google-cloud-deploy-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-targets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-targets-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 5
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloud-
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/deliveryPipelines/{pipelineId}/releases\n  method: get\n  operationId: listReleases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/deliveryPipelines/{pipelineId}/releases\n  method: post\n  operationId: createRelease\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/deliveryPipelines/{pipelineId}/releases/{releaseId}/rollouts\n\
   \  method: get\n  operationId: listRollouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/deliveryPipelines/{pipelineId}/releases/{releaseId}/rollouts\n  method: post\n  operationId: createRollout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/deliveryPipelines/{pipelineId}/releases/{releaseId}/rollouts/{rolloutId}:approve\n  method: post\n  operationId: approveRollout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/agentic-access/google-cloud-deploy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-deploy/agentic-access/google-cloud-deploy-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Continuous Delivery

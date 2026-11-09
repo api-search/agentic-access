@@ -9,37 +9,37 @@ api_specs:
   label: Nuclino Collections API
   slug: nuclino-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-collections-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-collections-api-openapi.yml
 - filename: nuclino-files-api-openapi.yml
   format: yaml
   label: Nuclino Files API
   slug: nuclino-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-files-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-files-api-openapi.yml
 - filename: nuclino-items-api-openapi.yml
   format: yaml
   label: Nuclino Items API
   slug: nuclino-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-items-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-items-api-openapi.yml
 - filename: nuclino-teams-api-openapi.yml
   format: yaml
   label: Nuclino Teams API
   slug: nuclino-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-teams-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-teams-api-openapi.yml
 - filename: nuclino-users-api-openapi.yml
   format: yaml
   label: Nuclino Users API
   slug: nuclino-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-users-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-users-api-openapi.yml
 - filename: nuclino-workspaces-api-openapi.yml
   format: yaml
   label: Nuclino Workspaces API
   slug: nuclino-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-workspaces-api-openapi.yml
 consequence_counts:
   read: 8
   write: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nuclin
   \      - abnormal\n      - high-value\n    audit: required\n- path: /items/{id}\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items/{id}\n  method: put\n  operationId: updateItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /items/{id}\n  method: delete\n  operationId: deleteItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: get\n  operationId:\
   \ listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{id}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /files/{id}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/agentic-access/nuclino-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nuclino/agentic-access/nuclino-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
 - Knowledge Management

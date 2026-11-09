@@ -9,37 +9,37 @@ api_specs:
   label: Grapes Finance Contacts API
   slug: grapes-finance-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/grapes-finance/openapi/grapes-finance-contacts-api-openapi.yml
 - filename: grapes-finance-kyc-api-openapi.yml
   format: yaml
   label: Grapes Finance KYC API
   slug: grapes-finance-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/grapes-finance/openapi/grapes-finance-kyc-api-openapi.yml
 - filename: grapes-finance-orders-api-openapi.yml
   format: yaml
   label: Grapes Finance Orders API
   slug: grapes-finance-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-orders-api-openapi.yml
+  url: https://artifacts.apis.io/grapes-finance/openapi/grapes-finance-orders-api-openapi.yml
 - filename: grapes-finance-organizations-api-openapi.yml
   format: yaml
   label: Grapes Finance Organizations API
   slug: grapes-finance-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/grapes-finance/openapi/grapes-finance-organizations-api-openapi.yml
 - filename: grapes-finance-users-api-openapi.yml
   format: yaml
   label: Grapes Finance Users API
   slug: grapes-finance-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-users-api-openapi.yml
+  url: https://artifacts.apis.io/grapes-finance/openapi/grapes-finance-users-api-openapi.yml
 - filename: grapes-finance-wallets-api-openapi.yml
   format: yaml
   label: Grapes Finance Wallets API
   slug: grapes-finance-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/openapi/grapes-finance-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/grapes-finance/openapi/grapes-finance-wallets-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/grapes
   \  - high-value\n    audit: required\n- path: /users/{userId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kyc\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /orders\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /organizations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/agentic-access/grapes-finance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/grapes-finance/agentic-access/grapes-finance-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Stablecoins

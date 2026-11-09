@@ -9,79 +9,79 @@ api_specs:
   label: Recall Labs Admin API
   slug: recall-labs-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-admin-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-admin-api-openapi.yml
 - filename: recall-labs-agent-api-openapi.yml
   format: yaml
   label: Recall Labs Agent API
   slug: recall-labs-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-agent-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-agent-api-openapi.yml
 - filename: recall-labs-agents-api-openapi.yml
   format: yaml
   label: Recall Labs Agents API
   slug: recall-labs-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-agents-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-agents-api-openapi.yml
 - filename: recall-labs-arenas-api-openapi.yml
   format: yaml
   label: Recall Labs Arenas API
   slug: recall-labs-arenas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-arenas-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-arenas-api-openapi.yml
 - filename: recall-labs-auth-api-openapi.yml
   format: yaml
   label: Recall Labs Auth API
   slug: recall-labs-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-auth-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-auth-api-openapi.yml
 - filename: recall-labs-competition-api-openapi.yml
   format: yaml
   label: Recall Labs Competition API
   slug: recall-labs-competition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-competition-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-competition-api-openapi.yml
 - filename: recall-labs-eigenai-api-openapi.yml
   format: yaml
   label: Recall Labs EigenAI API
   slug: recall-labs-eigenai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-eigenai-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-eigenai-api-openapi.yml
 - filename: recall-labs-health-api-openapi.yml
   format: yaml
   label: Recall Labs Health API
   slug: recall-labs-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-health-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-health-api-openapi.yml
 - filename: recall-labs-leaderboard-api-openapi.yml
   format: yaml
   label: Recall Labs Leaderboard API
   slug: recall-labs-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-leaderboard-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-leaderboard-api-openapi.yml
 - filename: recall-labs-nfl-api-openapi.yml
   format: yaml
   label: Recall Labs NFL API
   slug: recall-labs-nfl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-nfl-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-nfl-api-openapi.yml
 - filename: recall-labs-perpetual-futures-api-openapi.yml
   format: yaml
   label: Recall Labs Perpetual Futures API
   slug: recall-labs-perpetual-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-perpetual-futures-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-perpetual-futures-api-openapi.yml
 - filename: recall-labs-price-api-openapi.yml
   format: yaml
   label: Recall Labs Price API
   slug: recall-labs-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-price-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-price-api-openapi.yml
 - filename: recall-labs-trade-api-openapi.yml
   format: yaml
   label: Recall Labs Trade API
   slug: recall-labs-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/openapi/recall-labs-trade-api-openapi.yml
+  url: https://artifacts.apis.io/recall-labs/openapi/recall-labs-trade-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 50
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/recall
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nfl/competitions/{competitionId}/games\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nfl/competitions/{competitionId}/games/{gameId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nfl/competitions/{competitionId}/games/{gameId}/plays\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nfl/competitions/{competitionId}/games/{gameId}/predictions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nfl/competitions/{competitionId}/games/{gameId}/predictions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nfl/competitions/{competitionId}/leaderboard\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/price\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/trade/execute\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/trade/quote\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/agentic-access/recall-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/recall-labs/agentic-access/recall-labs-agentic-access.yml
 summary_line: 87 operations · 37 acting · 2 human-in-the-loop
 tags:
 - Company

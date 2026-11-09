@@ -8,73 +8,73 @@ api_specs:
   label: Grid Status API Info API
   slug: gridstatus-api-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-api-info-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-api-info-api-openapi.yml
 - filename: gridstatus-api-usage-api-openapi.yml
   format: yaml
   label: Grid Status API Usage API
   slug: gridstatus-api-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-api-usage-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-api-usage-api-openapi.yml
 - filename: gridstatus-block-pricing-data-api-openapi.yml
   format: yaml
   label: Grid Status Block Pricing Data API
   slug: gridstatus-block-pricing-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-block-pricing-data-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-block-pricing-data-api-openapi.yml
 - filename: gridstatus-constraints-api-openapi.yml
   format: yaml
   label: Grid Status Constraints API
   slug: gridstatus-constraints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-constraints-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-constraints-api-openapi.yml
 - filename: gridstatus-csv-exports-api-openapi.yml
   format: yaml
   label: Grid Status CSV Exports API
   slug: gridstatus-csv-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-csv-exports-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-csv-exports-api-openapi.yml
 - filename: gridstatus-dataset-audit-api-openapi.yml
   format: yaml
   label: Grid Status Dataset Audit API
   slug: gridstatus-dataset-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-dataset-audit-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-dataset-audit-api-openapi.yml
 - filename: gridstatus-dataset-metadata-api-openapi.yml
   format: yaml
   label: Grid Status Dataset Metadata API
   slug: gridstatus-dataset-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-dataset-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-dataset-metadata-api-openapi.yml
 - filename: gridstatus-dataset-updates-api-openapi.yml
   format: yaml
   label: Grid Status Dataset Updates API
   slug: gridstatus-dataset-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-dataset-updates-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-dataset-updates-api-openapi.yml
 - filename: gridstatus-pricing-locations-api-openapi.yml
   format: yaml
   label: Grid Status Pricing Locations API
   slug: gridstatus-pricing-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-pricing-locations-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-pricing-locations-api-openapi.yml
 - filename: gridstatus-query-data-api-openapi.yml
   format: yaml
   label: Grid Status Query Data API
   slug: gridstatus-query-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-query-data-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-query-data-api-openapi.yml
 - filename: gridstatus-reports-api-openapi.yml
   format: yaml
   label: Grid Status Reports API
   slug: gridstatus-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-reports-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-reports-api-openapi.yml
 - filename: gridstatus-outages-api-openapi.yml
   format: yaml
   label: Grid Status Outages API
   slug: gridstatus-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-outages-api-openapi.yml
+  url: https://artifacts.apis.io/gridstatus/openapi/gridstatus-outages-api-openapi.yml
 consequence_counts:
   read: 25
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gridst
   \ listConstraintBindingCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constraints/binding/costs\n  method: get\n  operationId: listConstraintBindingCosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constraints/binding/heat_map\n  method: get\n  operationId: getConstraintBindingHeatMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constraints/{gs_entity_id}\n  method: get\n  operationId: getConstraint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constraints/{constraint_id}/shift-factors\n  method: get\n  operationId: listShiftFactors\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constraints/{constraint_id}/stats\n  method: get\n  operationId: listConstraintStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /constraints/locations/{location_gs_entity_id}/shift-factors\n  method: get\n  operationId: listShiftFactorsForLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /csv-exports/{dataset_id}\n  method: get\n  operationId: listCsvExports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /csv-exports/{dataset_id}/{export_date}\n  method: get\n  operationId: getCsvExportUrl\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api_usage\n  method: get\n  operationId: getApiUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/agentic-access/gridstatus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gridstatus/agentic-access/gridstatus-agentic-access.yml
 summary_line: 25 operations
 tags:
 - Day-Ahead Prices

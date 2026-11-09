@@ -8,13 +8,13 @@ api_specs:
   label: Wolfram|Alpha Classification API
   slug: wolframalpha-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-classification-api-openapi.yml
+  url: https://artifacts.apis.io/wolframalpha/openapi/wolframalpha-classification-api-openapi.yml
 - filename: wolframalpha-queries-api-openapi.yml
   format: yaml
   label: Wolfram|Alpha Queries API
   slug: wolframalpha-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/openapi/wolframalpha-queries-api-openapi.yml
+  url: https://artifacts.apis.io/wolframalpha/openapi/wolframalpha-queries-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -42,7 +42,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wolframalpha-fast-query-recognizer-api-openapi.yml, openapi/wolframalpha-full-results-api-openapi.yml,\n  openapi/wolframalpha-llm-api-openapi.yml, openapi/wolframalpha-short-answers-api-openapi.yml,\n  openapi/wolframalpha-simple-api-openapi.yml, openapi/wolframalpha-spoken-results-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /query.jsp\n  method: get\n  operationId: recognizeQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query\n\
   \  method: get\n  operationId: queryFullResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llm-api\n  method: get\n  operationId: queryLlmApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /result\n  method: get\n  operationId: queryShortAnswer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /simple\n  method: get\n  operationId: querySimpleApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spoken\n  method: get\n  operationId: querySpokenResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/agentic-access/wolframalpha-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wolframalpha/agentic-access/wolframalpha-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Artificial Intelligence

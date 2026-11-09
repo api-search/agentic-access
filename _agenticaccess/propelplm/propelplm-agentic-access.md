@@ -9,85 +9,85 @@ api_specs:
   label: Propel Software (Propel PLM) assets API
   slug: propelplm-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-assets-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-assets-api-openapi.yml
 - filename: propelplm-attachment-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Attachment API
   slug: propelplm-attachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-attachment-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-attachment-api-openapi.yml
 - filename: propelplm-bill-of-material-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Bill of Material API
   slug: propelplm-bill-of-material-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-bill-of-material-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-bill-of-material-api-openapi.yml
 - filename: propelplm-bom-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) BOM API
   slug: propelplm-bom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-bom-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-bom-api-openapi.yml
 - filename: propelplm-categories-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) categories API
   slug: propelplm-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-categories-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-categories-api-openapi.yml
 - filename: propelplm-change-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Change API
   slug: propelplm-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-change-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-change-api-openapi.yml
 - filename: propelplm-channels-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Channels API
   slug: propelplm-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-channels-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-channels-api-openapi.yml
 - filename: propelplm-configuration-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Configuration API
   slug: propelplm-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-configuration-api-openapi.yml
 - filename: propelplm-item-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Item API
   slug: propelplm-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-item-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-item-api-openapi.yml
 - filename: propelplm-manufactureritem-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) ManufacturerItem API
   slug: propelplm-manufactureritem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-manufactureritem-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-manufactureritem-api-openapi.yml
 - filename: propelplm-manufacturerpart-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) ManufacturerPart API
   slug: propelplm-manufacturerpart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-manufacturerpart-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-manufacturerpart-api-openapi.yml
 - filename: propelplm-markup-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Markup API
   slug: propelplm-markup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-markup-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-markup-api-openapi.yml
 - filename: propelplm-products-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Products API
   slug: propelplm-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-products-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-products-api-openapi.yml
 - filename: propelplm-variants-api-openapi.yml
   format: yaml
   label: Propel Software (Propel PLM) Variants API
   slug: propelplm-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/openapi/propelplm-variants-api-openapi.yml
+  url: https://artifacts.apis.io/propelplm/openapi/propelplm-variants-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 24
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/propel
   \ 3600\n    audit: none\n- path: /categories/{categoryId}\n  method: get\n  operationId: getCategoryInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories/{categoryId}/products\n  method: get\n  operationId: getCategorySProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels\n  method: get\n  operationId: getAllChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{channelId}\n  method: get\n  operationId: getChannelInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{channelId}/products\n  method: get\n  operationId: getChannelSProducts\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variants/{variantValueId}\n  method: get\n  operationId: getVariantValueInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variants/{variantValueId}/attributes\n  method: get\n  operationId: getVariantValueSAttributeAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variants/{variantValueId}/attributes/{primaryKey}\n  method: get\n  operationId: getVariantValueSAttributeOne\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /variants/{variantValueId}/assets\n  method: get\n  operationId: getVariantValueSAssets\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/{assetId}\n  method: get\n  operationId: getAssetInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /change/{changeId}\n  method: get\n  operationId: getChangeOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/agentic-access/propelplm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/propelplm/agentic-access/propelplm-agentic-access.yml
 summary_line: 33 operations · 9 acting
 tags:
 - Company

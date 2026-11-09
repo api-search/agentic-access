@@ -9,13 +9,13 @@ api_specs:
   label: Atrato Ecommerce API
   slug: atrato-ecommerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/openapi/atrato-ecommerce-api-openapi.yml
+  url: https://artifacts.apis.io/atrato/openapi/atrato-ecommerce-api-openapi.yml
 - filename: atrato-integration-api-openapi.yml
   format: yaml
   label: Atrato Integration API
   slug: atrato-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/openapi/atrato-integration-api-openapi.yml
+  url: https://artifacts.apis.io/atrato/openapi/atrato-integration-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 7
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/atrato
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/integration/cash-in/payment-details/{paymentId}\n  method: get\n  operationId: get_api-v4-integration-cash-in-payment-details-paymentid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/ecommerce/integration/{partner-key}/login\n  method: post\n  operationId: obtener-token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/ecommerce/integration/{partner-key}/application\n  method: post\n  operationId: generar-orden\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/ecommerce/integration/{partner-key}/order/{order-id}\n  method: get\n  operationId: consulta-de-orden\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/ecommerce/integration/{partner-key}/order/{order-id}/delivery\n  method: post\n  operationId: registrar-entrega\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/ecommerce/integration/{partner-key}/order/{order-id}/cancel\n\
   \  method: post\n  operationId: solicitar-cancelacion\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/ecommerce/integration/{partner-key}/disbursement\n  method: get\n  operationId: consulta-de-desembolsos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/ecommerce/integration/{partner-key}/disbursement/{transaction-id}\n  method: get\n  operationId: consulta-de-desembolsos-orden\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/agentic-access/atrato-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/atrato/agentic-access/atrato-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Company

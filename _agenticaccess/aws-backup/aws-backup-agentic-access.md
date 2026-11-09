@@ -9,61 +9,133 @@ api_specs:
   label: AWS Backup Jobs API
   slug: aws-backup-backup-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-backup-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-backup-jobs-api-openapi.yml
 - filename: aws-backup-backup-plans-api-openapi.yml
   format: yaml
   label: AWS Backup Plans API
   slug: aws-backup-backup-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-backup-plans-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-backup-plans-api-openapi.yml
 - filename: aws-backup-backup-selections-api-openapi.yml
   format: yaml
   label: AWS Backup Selections API
   slug: aws-backup-backup-selections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-backup-selections-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-backup-selections-api-openapi.yml
 - filename: aws-backup-backup-vaults-api-openapi.yml
   format: yaml
   label: AWS Backup Vaults API
   slug: aws-backup-backup-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-backup-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-backup-vaults-api-openapi.yml
 - filename: aws-backup-copy-jobs-api-openapi.yml
   format: yaml
   label: AWS Backup Copy Jobs API
   slug: aws-backup-copy-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-copy-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-copy-jobs-api-openapi.yml
 - filename: aws-backup-frameworks-api-openapi.yml
   format: yaml
   label: AWS Backup Frameworks API
   slug: aws-backup-frameworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-frameworks-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-frameworks-api-openapi.yml
 - filename: aws-backup-recovery-points-api-openapi.yml
   format: yaml
   label: AWS Backup Recovery Points API
   slug: aws-backup-recovery-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-recovery-points-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-recovery-points-api-openapi.yml
 - filename: aws-backup-report-plans-api-openapi.yml
   format: yaml
   label: AWS Backup Report Plans API
   slug: aws-backup-report-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-report-plans-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-report-plans-api-openapi.yml
 - filename: aws-backup-restore-jobs-api-openapi.yml
   format: yaml
   label: AWS Backup Restore Jobs API
   slug: aws-backup-restore-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-restore-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-restore-jobs-api-openapi.yml
 - filename: aws-backup-tags-api-openapi.yml
   format: yaml
   label: AWS Backup Tags API
   slug: aws-backup-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/openapi/aws-backup-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-tags-api-openapi.yml
+- filename: aws-backup-access-policy-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Access Policy API
+  slug: aws-backup-access-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-access-policy-api-openapi.yml
+- filename: aws-backup-audit-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Audit API
+  slug: aws-backup-audit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-audit-api-openapi.yml
+- filename: aws-backup-backup-access-point-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Backup Access Point API
+  slug: aws-backup-backup-access-point-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-backup-access-point-api-openapi.yml
+- filename: aws-backup-legal-holds-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Legal Holds API
+  slug: aws-backup-legal-holds-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-legal-holds-api-openapi.yml
+- filename: aws-backup-notification-configuration-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Notification Configuration API
+  slug: aws-backup-notification-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-notification-configuration-api-openapi.yml
+- filename: aws-backup-operations-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Operations API
+  slug: aws-backup-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-operations-api-openapi.yml
+- filename: aws-backup-resources-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Resources API
+  slug: aws-backup-resources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-resources-api-openapi.yml
+- filename: aws-backup-restore-access-backup-vaults-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Restore Access Backup Vaults API
+  slug: aws-backup-restore-access-backup-vaults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-restore-access-backup-vaults-api-openapi.yml
+- filename: aws-backup-restore-testing-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Restore Testing API
+  slug: aws-backup-restore-testing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-restore-testing-api-openapi.yml
+- filename: aws-backup-scan-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Scan API
+  slug: aws-backup-scan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-scan-api-openapi.yml
+- filename: aws-backup-selections-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Selections API
+  slug: aws-backup-selections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-selections-api-openapi.yml
+- filename: aws-backup-tiering-configurations-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Tiering Configurations API
+  slug: aws-backup-tiering-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-tiering-configurations-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -107,12 +179,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aws-ba
   \ required\n- path: /copy-jobs\n  method: get\n  operationId: ListCopyJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /copy-jobs\n  method: put\n  operationId: StartCopyJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restore-jobs\n  method: get\n  operationId: ListRestoreJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restore-jobs\n  method: put\n  operationId: StartRestoreJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audit/frameworks\n  method: get\n  operationId: ListFrameworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit/frameworks\n  method: post\n  operationId: CreateFramework\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audit/report-plans\n  method: get\n  operationId: ListReportPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit/report-plans\n  method: post\n  operationId: CreateReportPlan\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/agentic-access/aws-backup-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-backup/agentic-access/aws-backup-agentic-access.yml
 summary_line: 28 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Backup
 - Data Protection
 - Disaster Recovery
+- Amazon Web Services
 - Managed Service
 - Compliance
 ---

@@ -9,85 +9,85 @@ api_specs:
   label: VideoAmp Ad Measurements API
   slug: videoamp-admeasurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-admeasurements-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-admeasurements-api-openapi.yml
 - filename: videoamp-audiences-api-openapi.yml
   format: yaml
   label: VideoAmp Audiences API
   slug: videoamp-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-audiences-api-openapi.yml
 - filename: videoamp-campaigns-api-openapi.yml
   format: yaml
   label: VideoAmp Campaigns API
   slug: videoamp-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-campaigns-api-openapi.yml
 - filename: videoamp-consents-api-openapi.yml
   format: yaml
   label: VideoAmp Consents API
   slug: videoamp-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-consents-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-consents-api-openapi.yml
 - filename: videoamp-content-api-openapi.yml
   format: yaml
   label: VideoAmp Content API
   slug: videoamp-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-content-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-content-api-openapi.yml
 - filename: videoamp-currency-of-record-api-openapi.yml
   format: yaml
   label: VideoAmp Currency Of Record API
   slug: videoamp-currency-of-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-currency-of-record-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-currency-of-record-api-openapi.yml
 - filename: videoamp-datastreamtypes-api-openapi.yml
   format: yaml
   label: VideoAmp Data Stream Types API
   slug: videoamp-datastreamtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-datastreamtypes-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-datastreamtypes-api-openapi.yml
 - filename: videoamp-inventories-api-openapi.yml
   format: yaml
   label: VideoAmp Inventories API
   slug: videoamp-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-inventories-api-openapi.yml
 - filename: videoamp-library-api-openapi.yml
   format: yaml
   label: VideoAmp Library API
   slug: videoamp-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-library-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-library-api-openapi.yml
 - filename: videoamp-me-api-openapi.yml
   format: yaml
   label: VideoAmp Me API
   slug: videoamp-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-me-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-me-api-openapi.yml
 - filename: videoamp-plans-api-openapi.yml
   format: yaml
   label: VideoAmp Plans API
   slug: videoamp-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-plans-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-plans-api-openapi.yml
 - filename: videoamp-reports-api-openapi.yml
   format: yaml
   label: VideoAmp Reports API
   slug: videoamp-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-reports-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-reports-api-openapi.yml
 - filename: videoamp-shares-api-openapi.yml
   format: yaml
   label: VideoAmp Shares API
   slug: videoamp-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-shares-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-shares-api-openapi.yml
 - filename: videoamp-data-streams-api-openapi.yml
   format: yaml
   label: VideoAmp Data Streams API
   slug: videoamp-data-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-data-streams-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-data-streams-api-openapi.yml
 consequence_counts:
   read: 68
   safety-critical: 4
@@ -171,8 +171,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/videoa
   - path: /v1beta/plans\n  method: get\n  operationId: plan_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/plans/{planId}\n  method: delete\n  operationId: plan_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta/plans/{planId}\n  method: get\n  operationId: plan_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2beta/plans\n  method: post\n  operationId: plan_draft_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2beta/plans/{planId}\n  method: patch\n  operationId: draft_plan_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2beta/plans/{planId}:approve\n  method: post\n  operationId: draft_plan_approve\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha/reports/{reportId}:createQuery\n  method: post\n  operationId: report_query_create\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha/reports/{reportId}:searchContext\n  method: get\n  operationId: report_context_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shares\n  method: get\n  operationId: share_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shares\n  method: post\n  operationId: share_resource_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/agentic-access/videoamp-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/agentic-access/videoamp-agentic-access.yml
+  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/videoamp/agentic-access/videoamp-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/videoamp/agentic-access/videoamp-agentic-access.yml
 summary_line: 118 operations · 50 acting · 4 human-in-the-loop
 tags:
 - Media Measurement

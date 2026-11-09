@@ -9,13 +9,13 @@ api_specs:
   label: Exactly Ai Images v1 API
   slug: exactly-ai-images-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/exactly-ai-images-v1-api-openapi.yml
+  url: https://artifacts.apis.io/exactly-ai/openapi/exactly-ai-images-v1-api-openapi.yml
 - filename: exactly-ai-models-v1-api-openapi.yml
   format: yaml
   label: Exactly Ai Models v1 API
   slug: exactly-ai-models-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/exactly-ai-models-v1-api-openapi.yml
+  url: https://artifacts.apis.io/exactly-ai/openapi/exactly-ai-models-v1-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/exactl
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/images/{uid}/\n  method: get\n  operationId: durer_backend_public_api_api_routes_images_get_image\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/images/{uid}/upscales/\n  method: post\n  operationId: durer_backend_public_api_api_routes_images_upscale_image\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/images/{uid}/upscales/{scale}/\n\
   \  method: get\n  operationId: durer_backend_public_api_api_routes_images_get_image_upscale\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/images/{uid}/vectors/\n  method: post\n  operationId: durer_backend_public_api_api_routes_images_vectorize_image\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/images/{uid}/vectors/\n  method: get\n  operationId: durer_backend_public_api_api_routes_images_get_image_vector\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/images/{uid}/remove-bg/\n  method: post\n  operationId:\
   \ durer_backend_public_api_api_routes_images_remove_bg_image\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/images/{uid}/remove-bg/\n  method: get\n  operationId: durer_backend_public_api_api_routes_images_get_removed_bg_image\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/agentic-access/exactly-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/exactly-ai/agentic-access/exactly-ai-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
 - Company

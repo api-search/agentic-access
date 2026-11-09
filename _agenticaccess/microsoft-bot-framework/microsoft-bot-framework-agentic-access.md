@@ -9,25 +9,37 @@ api_specs:
   label: Microsoft Bot Framework Activities API
   slug: microsoft-bot-framework-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-activities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-activities-api-openapi.yml
 - filename: microsoft-bot-framework-attachments-api-openapi.yml
   format: yaml
   label: Microsoft Bot Framework Attachments API
   slug: microsoft-bot-framework-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-attachments-api-openapi.yml
 - filename: microsoft-bot-framework-conversations-api-openapi.yml
   format: yaml
   label: Microsoft Bot Framework Conversations API
   slug: microsoft-bot-framework-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-conversations-api-openapi.yml
 - filename: microsoft-bot-framework-members-api-openapi.yml
   format: yaml
   label: Microsoft Bot Framework Members API
   slug: microsoft-bot-framework-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/openapi/microsoft-bot-framework-members-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-members-api-openapi.yml
+- filename: microsoft-bot-framework-botsignin-api-openapi.yml
+  format: yaml
+  label: Microsoft Bot Framework Bot Sign In API
+  slug: microsoft-bot-framework-botsignin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-botsignin-api-openapi.yml
+- filename: microsoft-bot-framework-user-token-api-openapi.yml
+  format: yaml
+  label: Microsoft Bot Framework User Token API
+  slug: microsoft-bot-framework-user-token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-bot-framework/openapi/microsoft-bot-framework-user-token-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7
@@ -70,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/conversations/{conversationId}/activities/{activityId}/members\n  method: get\n  operationId: getActivityMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/conversations/{conversationId}/members\n  method: get\n  operationId: getConversationMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/conversations/{conversationId}/pagedmembers\n  method: get\n  operationId: getConversationPagedMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/conversations/{conversationId}/members/{memberId}\n\
   \  method: get\n  operationId: getConversationMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/conversations/{conversationId}/members/{memberId}\n  method: delete\n  operationId: deleteConversationMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/conversations/{conversationId}/attachments\n  method: post\n  operationId: uploadAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/attachments/{attachmentId}\n\
   \  method: get\n  operationId: getAttachmentInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/attachments/{attachmentId}/views/{viewId}\n  method: get\n  operationId: getAttachment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/agentic-access/microsoft-bot-framework-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-bot-framework/agentic-access/microsoft-bot-framework-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Bots

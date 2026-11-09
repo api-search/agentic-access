@@ -9,13 +9,13 @@ api_specs:
   label: AIScan Agent API
   slug: getaiscan-app-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-agent-api-openapi.yml
+  url: https://artifacts.apis.io/getaiscan-app/openapi/getaiscan-app-agent-api-openapi.yml
 - filename: getaiscan-app-ai-visibility-api-openapi.yml
   format: yaml
   label: AIScan AI Visibility API
   slug: getaiscan-app-ai-visibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-ai-visibility-api-openapi.yml
+  url: https://artifacts.apis.io/getaiscan-app/openapi/getaiscan-app-ai-visibility-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 1
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/getais
   \  method: post\n  operationId: fix_pack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agent/generate_skill\n  method: post\n  operationId: generate_skill\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/agent/compare\n  method: post\n  operationId: compare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/agent/full_report\n  method: post\n  operationId: full_report\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agent/visibility_check\n  method: post\n  operationId: visibility_check\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agent/visibility_vs_competitor\n  method: post\n  operationId: visibility_vs_competitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agent/visibility_fix_pack\n  method: post\n  operationId: visibility_fix_pack\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agent/index\n  method: get\n  operationId: index\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/agentic-access/getaiscan-app-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/getaiscan-app/agentic-access/getaiscan-app-agentic-access.yml
 summary_line: 20 operations · 19 acting · 1 human-in-the-loop
 tags:
 - AI Visibility

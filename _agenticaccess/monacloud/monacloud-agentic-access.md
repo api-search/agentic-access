@@ -9,55 +9,55 @@ api_specs:
   label: The MONA Group Apps API
   slug: monacloud-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/openapi/monacloud-apps-api-openapi.yml
+  url: https://artifacts.apis.io/monacloud/openapi/monacloud-apps-api-openapi.yml
 - filename: monacloud-auth-api-openapi.yml
   format: yaml
   label: The MONA Group Auth API
   slug: monacloud-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/openapi/monacloud-auth-api-openapi.yml
+  url: https://artifacts.apis.io/monacloud/openapi/monacloud-auth-api-openapi.yml
 - filename: monacloud-billing-api-openapi.yml
   format: yaml
   label: The MONA Group Billing API
   slug: monacloud-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/openapi/monacloud-billing-api-openapi.yml
+  url: https://artifacts.apis.io/monacloud/openapi/monacloud-billing-api-openapi.yml
 - filename: monacloud-databases-api-openapi.yml
   format: yaml
   label: The MONA Group Databases API
   slug: monacloud-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/openapi/monacloud-databases-api-openapi.yml
+  url: https://artifacts.apis.io/monacloud/openapi/monacloud-databases-api-openapi.yml
 - filename: monacloud-jobs-api-openapi.yml
   format: yaml
   label: The MONA Group Jobs API
   slug: monacloud-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/openapi/monacloud-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/monacloud/openapi/monacloud-jobs-api-openapi.yml
 - filename: monacloud-lxc-api-openapi.yml
   format: yaml
   label: The MONA Group Lxc API
   slug: monacloud-lxc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/openapi/monacloud-lxc-api-openapi.yml
+  url: https://artifacts.apis.io/monacloud/openapi/monacloud-lxc-api-openapi.yml
 - filename: monacloud-prices-api-openapi.yml
   format: yaml
   label: The MONA Group Prices API
   slug: monacloud-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/openapi/monacloud-prices-api-openapi.yml
+  url: https://artifacts.apis.io/monacloud/openapi/monacloud-prices-api-openapi.yml
 - filename: monacloud-sandbox-api-openapi.yml
   format: yaml
   label: The MONA Group Sandbox API
   slug: monacloud-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/openapi/monacloud-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/monacloud/openapi/monacloud-sandbox-api-openapi.yml
 - filename: monacloud-services-api-openapi.yml
   format: yaml
   label: The MONA Group Services API
   slug: monacloud-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/openapi/monacloud-services-api-openapi.yml
+  url: https://artifacts.apis.io/monacloud/openapi/monacloud-services-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 110
@@ -246,8 +246,8 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/monacl
   \  method: get\n  operationId: get_auto_deploy_api_apps__app_id__auto_deploy_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/apps/{app_id}/webhook\n  method: post\n  operationId: github_webhook_api_apps__app_id__webhook_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/apps/{app_id}/deploy\n  method: post\n  operationId: deploy_app_api_apps__app_id__deploy_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/apps/{app_id}/deployments\n  method: get\n  operationId: app_deployments_api_apps__app_id__deployments_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/apps/{app_id}/rollback\n  method: post\n  operationId: rollback_app_api_apps__app_id__rollback_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/apps/{app_id}/env\n  method: put\n  operationId: update_env_api_apps__app_id__env_put\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/apps/{app_id}/domains\n  method: post\n  operationId: add_domain_api_apps__app_id__domains_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/apps/{app_id}/logs\n  method: get\n  operationId: app_logs_api_apps__app_id__logs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bases\n  method: get\n  operationId: list_bases_api_bases_get\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bases\n  method: post\n  operationId: create_base_api_bases_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bases/{base_id}\n  method: get\n  operationId: get_base_api_bases__base_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (82 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/agentic-access/monacloud-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monacloud/refs/heads/main/agentic-access/monacloud-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bases\n  method: post\n  operationId: create_base_api_bases_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bases/{base_id}\n  method: get\n  operationId: get_base_api_bases__base_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (82 KB total) ---\n# Full source: https://artifacts.apis.io/monacloud/agentic-access/monacloud-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/monacloud/agentic-access/monacloud-agentic-access.yml
 summary_line: 258 operations · 148 acting · 21 human-in-the-loop
 tags:
 - Cloud

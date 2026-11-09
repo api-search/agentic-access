@@ -9,157 +9,157 @@ api_specs:
   label: Vaquill AI Board Watches API
   slug: vaquill-ai-board-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-board-watches-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-board-watches-api-openapi.yml
 - filename: vaquill-ai-chronology-api-openapi.yml
   format: yaml
   label: Vaquill AI Chronology API
   slug: vaquill-ai-chronology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-chronology-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-chronology-api-openapi.yml
 - filename: vaquill-ai-clients-api-openapi.yml
   format: yaml
   label: Vaquill AI Clients API
   slug: vaquill-ai-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-clients-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-clients-api-openapi.yml
 - filename: vaquill-ai-comparisons-api-openapi.yml
   format: yaml
   label: Vaquill AI Comparisons API
   slug: vaquill-ai-comparisons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-comparisons-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-comparisons-api-openapi.yml
 - filename: vaquill-ai-compliance-api-openapi.yml
   format: yaml
   label: Vaquill AI Compliance API
   slug: vaquill-ai-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-compliance-api-openapi.yml
 - filename: vaquill-ai-credits-api-openapi.yml
   format: yaml
   label: Vaquill AI Credits API
   slug: vaquill-ai-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-credits-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-credits-api-openapi.yml
 - filename: vaquill-ai-documents-api-openapi.yml
   format: yaml
   label: Vaquill AI Documents API
   slug: vaquill-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-documents-api-openapi.yml
 - filename: vaquill-ai-drafting-api-openapi.yml
   format: yaml
   label: Vaquill AI Drafting API
   slug: vaquill-ai-drafting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-drafting-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-drafting-api-openapi.yml
 - filename: vaquill-ai-facts-api-openapi.yml
   format: yaml
   label: Vaquill AI Facts API
   slug: vaquill-ai-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-facts-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-facts-api-openapi.yml
 - filename: vaquill-ai-folders-api-openapi.yml
   format: yaml
   label: Vaquill AI Folders API
   slug: vaquill-ai-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-folders-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-folders-api-openapi.yml
 - filename: vaquill-ai-india-credits-api-openapi.yml
   format: yaml
   label: Vaquill AI India Credits API
   slug: vaquill-ai-india-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-india-credits-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-india-credits-api-openapi.yml
 - filename: vaquill-ai-india-pricing-api-openapi.yml
   format: yaml
   label: Vaquill AI India Pricing API
   slug: vaquill-ai-india-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-india-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-india-pricing-api-openapi.yml
 - filename: vaquill-ai-indian-acts-and-legislation-api-openapi.yml
   format: yaml
   label: Vaquill AI Indian Acts and Legislation API
   slug: vaquill-ai-indian-acts-and-legislation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-indian-acts-and-legislation-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-indian-acts-and-legislation-api-openapi.yml
 - filename: vaquill-ai-matrices-api-openapi.yml
   format: yaml
   label: Vaquill AI Matrices API
   slug: vaquill-ai-matrices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-matrices-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-matrices-api-openapi.yml
 - filename: vaquill-ai-matter-summary-api-openapi.yml
   format: yaml
   label: Vaquill AI Matter summary API
   slug: vaquill-ai-matter-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-matter-summary-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-matter-summary-api-openapi.yml
 - filename: vaquill-ai-matters-api-openapi.yml
   format: yaml
   label: Vaquill AI Matters API
   slug: vaquill-ai-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-matters-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-matters-api-openapi.yml
 - filename: vaquill-ai-nda-triage-api-openapi.yml
   format: yaml
   label: Vaquill AI NDA triage API
   slug: vaquill-ai-nda-triage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-nda-triage-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-nda-triage-api-openapi.yml
 - filename: vaquill-ai-operations-api-openapi.yml
   format: yaml
   label: Vaquill AI Operations API
   slug: vaquill-ai-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-operations-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-operations-api-openapi.yml
 - filename: vaquill-ai-playbooks-api-openapi.yml
   format: yaml
   label: Vaquill AI Playbooks API
   slug: vaquill-ai-playbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-playbooks-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-playbooks-api-openapi.yml
 - filename: vaquill-ai-pricing-api-openapi.yml
   format: yaml
   label: Vaquill AI Pricing API
   slug: vaquill-ai-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-pricing-api-openapi.yml
 - filename: vaquill-ai-research-api-openapi.yml
   format: yaml
   label: Vaquill AI Research API
   slug: vaquill-ai-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-research-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-research-api-openapi.yml
 - filename: vaquill-ai-reviews-api-openapi.yml
   format: yaml
   label: Vaquill AI Reviews API
   slug: vaquill-ai-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-reviews-api-openapi.yml
 - filename: vaquill-ai-uploads-api-openapi.yml
   format: yaml
   label: Vaquill AI Uploads API
   slug: vaquill-ai-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-uploads-api-openapi.yml
 - filename: vaquill-ai-us-session-laws-api-openapi.yml
   format: yaml
   label: Vaquill AI US Session Laws API
   slug: vaquill-ai-us-session-laws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-us-session-laws-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-us-session-laws-api-openapi.yml
 - filename: vaquill-ai-us-statutes-api-openapi.yml
   format: yaml
   label: Vaquill AI US Statutes API
   slug: vaquill-ai-us-statutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-us-statutes-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-us-statutes-api-openapi.yml
 - filename: vaquill-ai-workflows-api-openapi.yml
   format: yaml
   label: Vaquill AI Workflows API
   slug: vaquill-ai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-workflows-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 103
@@ -229,8 +229,8 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/vaquil
   \  method: post\n  operationId: drafts.saveAsDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/matters/{matterId}/fact-sets\n  method: get\n  operationId: factSets.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/{matterId}/fact-sets\n  method: post\n  operationId: factSets.generate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/matters/{matterId}/fact-sets/{factSetId}\n  method: get\n\
   \  operationId: factSets.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/{matterId}/fact-sets/{factSetId}/facts\n  method: get\n  operationId: factSets.facts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/{matterId}/fact-sets/{factSetId}/exports\n  method: post\n  operationId: factSets.export\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/folders\n  method: get\n  operationId: folders.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/folders\n  method: post\n  operationId: folders.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/folders/{folderId}\n  method: get\n  operationId: folders.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/folders/{folderId}\n  method: patch\n  operationId: folders.update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/folders/{folderId}\n  method: delete\n \
-  \ operationId: folders.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/matters/{matterId}/matrices\n  method: post\n  operationId: matrices.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/agentic-access/vaquill-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/agentic-access/vaquill-ai-agentic-access.yml
+  \ operationId: folders.delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/matters/{matterId}/matrices\n  method: post\n  operationId: matrices.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/vaquill-ai/agentic-access/vaquill-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/vaquill-ai/agentic-access/vaquill-ai-agentic-access.yml
 summary_line: 185 operations · 82 acting
 tags:
 - Legal

@@ -9,61 +9,61 @@ api_specs:
   label: Amazon Ad Groups API
   slug: amazon-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-ad-groups-api-openapi.yml
 - filename: amazon-campaigns-api-openapi.yml
   format: yaml
   label: Amazon Campaigns API
   slug: amazon-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-campaigns-api-openapi.yml
 - filename: amazon-charge-permissions-api-openapi.yml
   format: yaml
   label: Amazon Charge Permissions API
   slug: amazon-charge-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-charge-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-charge-permissions-api-openapi.yml
 - filename: amazon-charges-api-openapi.yml
   format: yaml
   label: Amazon Charges API
   slug: amazon-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-charges-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-charges-api-openapi.yml
 - filename: amazon-checkout-sessions-api-openapi.yml
   format: yaml
   label: Amazon Checkout Sessions API
   slug: amazon-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-checkout-sessions-api-openapi.yml
 - filename: amazon-keywords-api-openapi.yml
   format: yaml
   label: Amazon Keywords API
   slug: amazon-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-keywords-api-openapi.yml
 - filename: amazon-profiles-api-openapi.yml
   format: yaml
   label: Amazon Profiles API
   slug: amazon-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-profiles-api-openapi.yml
 - filename: amazon-refunds-api-openapi.yml
   format: yaml
   label: Amazon Refunds API
   slug: amazon-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-refunds-api-openapi.yml
 - filename: amazon-reports-api-openapi.yml
   format: yaml
   label: Amazon Ads Reports API
   slug: amazon-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-reports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-reports-api-openapi.yml
 - filename: amazon-targets-api-openapi.yml
   format: yaml
   label: Amazon Targets API
   slug: amazon-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-targets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon/openapi/amazon-targets-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 22
@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listings/2021-08-01/items/{sellerId}/{sku}\n  method: patch\n  operationId: patchListingsItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listings/2021-08-01/items/{sellerId}/{sku}\n  method: delete\n  operationId: deleteListingsItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fba/inventory/v1/summaries\n  method: get\n  operationId: getInventorySummaries\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/2021-06-30/reports\n  method: get\n  operationId: getReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/2021-06-30/reports\n  method: post\n  operationId: createReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/2021-06-30/reports/{reportId}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/2021-06-30/documents/{reportDocumentId}\n  method: get\n\
   \  operationId: getReportDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finances/2024-06-19/transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/agentic-access/amazon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon/agentic-access/amazon-agentic-access.yml
 summary_line: 42 operations · 20 acting
 tags:
 - Amazon

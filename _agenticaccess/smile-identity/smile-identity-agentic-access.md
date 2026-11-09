@@ -9,73 +9,73 @@ api_specs:
   label: Smile Identity Authentication API
   slug: smile-identity-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-authentication-api-openapi.yml
 - filename: smile-identity-biometric-authentication-api-openapi.yml
   format: yaml
   label: Smile Identity Biometric Authentication API
   slug: smile-identity-biometric-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-biometric-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-biometric-authentication-api-openapi.yml
 - filename: smile-identity-biometric-enrollment-api-openapi.yml
   format: yaml
   label: Smile Identity Biometric Enrollment API
   slug: smile-identity-biometric-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-biometric-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-biometric-enrollment-api-openapi.yml
 - filename: smile-identity-biometric-kyc-api-openapi.yml
   format: yaml
   label: Smile Identity Biometric KYC API
   slug: smile-identity-biometric-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-biometric-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-biometric-kyc-api-openapi.yml
 - filename: smile-identity-callback-replay-api-openapi.yml
   format: yaml
   label: Smile Identity Callback Replay API
   slug: smile-identity-callback-replay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-callback-replay-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-callback-replay-api-openapi.yml
 - filename: smile-identity-document-verification-api-openapi.yml
   format: yaml
   label: Smile Identity Document Verification API
   slug: smile-identity-document-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-document-verification-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-document-verification-api-openapi.yml
 - filename: smile-identity-enhanced-document-verification-api-openapi.yml
   format: yaml
   label: Smile Identity Enhanced Document Verification API
   slug: smile-identity-enhanced-document-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-enhanced-document-verification-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-enhanced-document-verification-api-openapi.yml
 - filename: smile-identity-enhanced-kyc-api-openapi.yml
   format: yaml
   label: Smile Identity Enhanced KYC API
   slug: smile-identity-enhanced-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-enhanced-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-enhanced-kyc-api-openapi.yml
 - filename: smile-identity-services-api-openapi.yml
   format: yaml
   label: Smile Identity Services API
   slug: smile-identity-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-services-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-services-api-openapi.yml
 - filename: smile-identity-smart-selfie-compare-api-openapi.yml
   format: yaml
   label: Smile Identity Smart Selfie Compare API
   slug: smile-identity-smart-selfie-compare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-smart-selfie-compare-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-smart-selfie-compare-api-openapi.yml
 - filename: smile-identity-users-api-openapi.yml
   format: yaml
   label: Smile Identity Users API
   slug: smile-identity-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-users-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-users-api-openapi.yml
 - filename: smile-identity-verification-status-api-openapi.yml
   format: yaml
   label: Smile Identity Verification Status API
   slug: smile-identity-verification-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/openapi/smile-identity-verification-status-api-openapi.yml
+  url: https://artifacts.apis.io/smile-identity/openapi/smile-identity-verification-status-api-openapi.yml
 consequence_counts:
   read: 5
   write: 10
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/smile-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v3/compare\n  method: post\n  operationId: v3SmartSelfieCompare\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/services/bank_codes\n  method: get\n  operationId: getBankCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/services/supported_id_types\n  method: get\n  operationId: getSupportedIdTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/services/id_status\n  method: get\n  operationId: getIdStatus\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/services/supported_documents\n  method: get\n  operationId: getSupportedDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/users/{user_id}/report_fraud\n  method: post\n  operationId: reportUserFraud\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/replay/{job_id}\n  method: post\n  operationId: replayCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /v3/status/{jobId}\n  method: get\n  operationId: getVerificationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/agentic-access/smile-identity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smile-identity/agentic-access/smile-identity-agentic-access.yml
 summary_line: 15 operations · 10 acting
 tags:
 - Company

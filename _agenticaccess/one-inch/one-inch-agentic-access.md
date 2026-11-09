@@ -9,43 +9,43 @@ api_specs:
   label: 1inch Balance API
   slug: one-inch-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-balance-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-balance-api-openapi.yml
 - filename: one-inch-orderbook-api-openapi.yml
   format: yaml
   label: 1inch Orderbook API
   slug: one-inch-orderbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-orderbook-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-orderbook-api-openapi.yml
 - filename: one-inch-portfolio-api-openapi.yml
   format: yaml
   label: 1inch Portfolio API
   slug: one-inch-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-portfolio-api-openapi.yml
 - filename: one-inch-spotprice-api-openapi.yml
   format: yaml
   label: 1inch SpotPrice API
   slug: one-inch-spotprice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-spotprice-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-spotprice-api-openapi.yml
 - filename: one-inch-swap-api-openapi.yml
   format: yaml
   label: 1inch Swap API
   slug: one-inch-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-swap-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-swap-api-openapi.yml
 - filename: one-inch-token-api-openapi.yml
   format: yaml
   label: 1inch Token API
   slug: one-inch-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-token-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-token-api-openapi.yml
 - filename: one-inch-gas-price-api-openapi.yml
   format: yaml
   label: 1inch Gas Price API
   slug: one-inch-gas-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/openapi/one-inch-gas-price-api-openapi.yml
+  url: https://artifacts.apis.io/one-inch/openapi/one-inch-gas-price-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/one-in
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swap/v6.0/{chain}/approve/spender\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swap/v6.0/{chain}/approve/transaction\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swap/v6.0/{chain}/approve/allowance\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swap/v6.0/{chain}/liquidity-sources\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swap/v6.0/{chain}/tokens\n  method: get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orderbook/v4.0/{chain}/order\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orderbook/v4.0/{chain}/orders\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /balance/v1.2/{chain}/balances/{walletAddress}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price/v1.1/{chain}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token/v1.2/{chain}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolio/portfolio/v4/general/current_value\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gas-price/v1.5/{chain}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/agentic-access/one-inch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/one-inch/agentic-access/one-inch-agentic-access.yml
 summary_line: 15 operations · 1 acting
 tags:
 - Web3

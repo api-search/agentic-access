@@ -9,19 +9,19 @@ api_specs:
   label: FinOps Foundation Contract Commitments API
   slug: finops-foundation-contract-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-contract-commitments-api-openapi.yml
+  url: https://artifacts.apis.io/finops-foundation/openapi/finops-foundation-contract-commitments-api-openapi.yml
 - filename: finops-foundation-cost-and-usage-api-openapi.yml
   format: yaml
   label: FinOps Foundation Cost and Usage API
   slug: finops-foundation-cost-and-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-cost-and-usage-api-openapi.yml
+  url: https://artifacts.apis.io/finops-foundation/openapi/finops-foundation-cost-and-usage-api-openapi.yml
 - filename: finops-foundation-schema-metadata-api-openapi.yml
   format: yaml
   label: FinOps Foundation Schema Metadata API
   slug: finops-foundation-schema-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/openapi/finops-foundation-schema-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/finops-foundation/openapi/finops-foundation-schema-metadata-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/finops-foundation-focus-cost-and-usage-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /cost-and-usage\n  method: get\n  operationId: listCostAndUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cost-and-usage/export\n  method: post\n  operationId: exportCostAndUsage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cost-and-usage/export/{jobId}\n  method: get\n  operationId: getCostAndUsageExportStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contract-commitments\n  method: get\n  operationId: listContractCommitments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema\n  method: get\n  operationId: getSchemaMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/agentic-access/finops-foundation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/finops-foundation/agentic-access/finops-foundation-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Budgets

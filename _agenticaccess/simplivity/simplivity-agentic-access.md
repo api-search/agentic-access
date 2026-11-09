@@ -9,61 +9,61 @@ api_specs:
   label: SimpliVity Backups API
   slug: simplivity-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-backups-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-backups-api-openapi.yml
 - filename: simplivity-cluster-groups-api-openapi.yml
   format: yaml
   label: SimpliVity Cluster Groups API
   slug: simplivity-cluster-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-cluster-groups-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-cluster-groups-api-openapi.yml
 - filename: simplivity-datastores-api-openapi.yml
   format: yaml
   label: SimpliVity Datastores API
   slug: simplivity-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-datastores-api-openapi.yml
 - filename: simplivity-external-stores-api-openapi.yml
   format: yaml
   label: SimpliVity External Stores API
   slug: simplivity-external-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-external-stores-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-external-stores-api-openapi.yml
 - filename: simplivity-hosts-api-openapi.yml
   format: yaml
   label: SimpliVity Hosts API
   slug: simplivity-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-hosts-api-openapi.yml
 - filename: simplivity-omnistack-clusters-api-openapi.yml
   format: yaml
   label: SimpliVity Omnistack Clusters API
   slug: simplivity-omnistack-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-omnistack-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-omnistack-clusters-api-openapi.yml
 - filename: simplivity-policies-api-openapi.yml
   format: yaml
   label: SimpliVity Policies API
   slug: simplivity-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-policies-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-policies-api-openapi.yml
 - filename: simplivity-security-api-openapi.yml
   format: yaml
   label: SimpliVity Security API
   slug: simplivity-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-security-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-security-api-openapi.yml
 - filename: simplivity-tasks-api-openapi.yml
   format: yaml
   label: SimpliVity Tasks API
   slug: simplivity-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-tasks-api-openapi.yml
 - filename: simplivity-virtual-machines-api-openapi.yml
   format: yaml
   label: SimpliVity Virtual Machines API
   slug: simplivity-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-virtual-machines-api-openapi.yml
 consequence_counts:
   read: 36
   safety-critical: 3
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/simpli
   - path: /virtual_machines/{vmId}/backups\n  method: get\n  operationId: listVMBackups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virtual_machines/{vmId}/clone\n  method: post\n  operationId: cloneVm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual_machines/{vmId}/metrics\n  method: get\n  operationId: getVmMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virtual_machines/{vmId}/move\n  method: post\n  operationId: moveVm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual_machines/{vmId}/power_off\n  method: post\n  operationId: powerOffVMUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual_machines/{vmId}/power_on\n  method: post\n  operationId: powerOnVMUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual_machines/{vmId}/set_policy\n  method: post\n  operationId: setPolicyForVm\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual_machines/{vmId}/validate_backup_credentials\n  method: post\n  operationId: validateBackupCred\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/agentic-access/simplivity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simplivity/agentic-access/simplivity-agentic-access.yml
 summary_line: 87 operations · 51 acting · 3 human-in-the-loop
 tags:
 - Company

@@ -9,7 +9,7 @@ api_specs:
   label: OpenKruise APIS API
   slug: openkruise-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/openapi/openkruise-apis-api-openapi.yml
+  url: https://artifacts.apis.io/openkruise/openapi/openkruise-apis-api-openapi.yml
 consequence_counts:
   read: 9
   write: 8
@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openkr
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/apps.kruise.io/v1alpha1/sidecarsets\n  method: get\n  operationId: listSidecarSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/apps.kruise.io/v1alpha1/sidecarsets\n  method: post\n  operationId: createSidecarSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/apps.kruise.io/v1alpha1/namespaces/{namespace}/broadcastjobs\n  method: get\n  operationId: listBroadcastJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/apps.kruise.io/v1alpha1/namespaces/{namespace}/broadcastjobs\n  method: post\n  operationId: createBroadcastJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/apps.kruise.io/v1alpha1/imagepulljobs\n  method: get\n  operationId: listImagePullJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/apps.kruise.io/v1alpha1/imagepulljobs\n  method: post\n  operationId: createImagePullJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/agentic-access/openkruise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openkruise/agentic-access/openkruise-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
 - Cloud-Native

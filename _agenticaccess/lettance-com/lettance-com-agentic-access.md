@@ -3,36 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: lettance-com-address-check-api-openapi.yml
-  format: yaml
-  label: lettance-com Address check API
-  slug: lettance-com-address-check-api
+- filename: lettance-com-openapi.json
+  format: json
+  label: Lettance Public API
+  slug: lettance-public-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/lettance-com/openapi/lettance-com-address-check-api-openapi.yml
-- filename: lettance-com-compare-and-market-api-openapi.yml
-  format: yaml
-  label: lettance-com Compare and market API
-  slug: lettance-com-compare-and-market-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lettance-com/openapi/lettance-com-compare-and-market-api-openapi.yml
-- filename: lettance-com-councils-api-openapi.yml
-  format: yaml
-  label: lettance-com Councils API
-  slug: lettance-com-councils-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lettance-com/openapi/lettance-com-councils-api-openapi.yml
-- filename: lettance-com-rental-plan-api-openapi.yml
-  format: yaml
-  label: lettance-com Rental plan API
-  slug: lettance-com-rental-plan-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lettance-com/openapi/lettance-com-rental-plan-api-openapi.yml
-- filename: lettance-com-rules-api-openapi.yml
-  format: yaml
-  label: lettance-com Rules API
-  slug: lettance-com-rules-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lettance-com/openapi/lettance-com-rules-api-openapi.yml
+  url: https://artifacts.apis.io/lettance-com/openapi/lettance-com-openapi.json
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -64,8 +40,7 @@ source_yaml_url: https://artifacts.apis.io/lettance-com/agentic-access/lettance-
 summary_line: 9 operations
 tags:
 - Company
-- Landlord
-- Compliance
-- Software
-- England
+- Leasing
+- Subscription
+- Automation
 ---

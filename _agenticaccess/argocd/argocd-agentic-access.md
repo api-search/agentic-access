@@ -9,79 +9,79 @@ api_specs:
   label: Argo CD AccountService API
   slug: argocd-accountservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-accountservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-accountservice-api-openapi.yml
 - filename: argocd-applicationservice-api-openapi.yml
   format: yaml
   label: Argo CD ApplicationService API
   slug: argocd-applicationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-applicationservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-applicationservice-api-openapi.yml
 - filename: argocd-applicationsetservice-api-openapi.yml
   format: yaml
   label: Argo CD ApplicationSetService API
   slug: argocd-applicationsetservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-applicationsetservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-applicationsetservice-api-openapi.yml
 - filename: argocd-certificateservice-api-openapi.yml
   format: yaml
   label: Argo CD CertificateService API
   slug: argocd-certificateservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-certificateservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-certificateservice-api-openapi.yml
 - filename: argocd-clusterservice-api-openapi.yml
   format: yaml
   label: Argo CD ClusterService API
   slug: argocd-clusterservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-clusterservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-clusterservice-api-openapi.yml
 - filename: argocd-gpgkeyservice-api-openapi.yml
   format: yaml
   label: Argo CD GPGKeyService API
   slug: argocd-gpgkeyservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-gpgkeyservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-gpgkeyservice-api-openapi.yml
 - filename: argocd-projectservice-api-openapi.yml
   format: yaml
   label: Argo CD ProjectService API
   slug: argocd-projectservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-projectservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-projectservice-api-openapi.yml
 - filename: argocd-repocredsservice-api-openapi.yml
   format: yaml
   label: Argo CD RepoCredsService API
   slug: argocd-repocredsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-repocredsservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-repocredsservice-api-openapi.yml
 - filename: argocd-repositoryservice-api-openapi.yml
   format: yaml
   label: Argo CD RepositoryService API
   slug: argocd-repositoryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-repositoryservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-repositoryservice-api-openapi.yml
 - filename: argocd-sessionservice-api-openapi.yml
   format: yaml
   label: Argo CD SessionService API
   slug: argocd-sessionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-sessionservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-sessionservice-api-openapi.yml
 - filename: argocd-settingsservice-api-openapi.yml
   format: yaml
   label: Argo CD SettingsService API
   slug: argocd-settingsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-settingsservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-settingsservice-api-openapi.yml
 - filename: argocd-versionservice-api-openapi.yml
   format: yaml
   label: Argo CD VersionService API
   slug: argocd-versionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-versionservice-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-versionservice-api-openapi.yml
 - filename: argocd-notification-service-api-openapi.yml
   format: yaml
   label: Argo CD Notification Service API
   slug: argocd-notification-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/openapi/argocd-notification-service-api-openapi.yml
+  url: https://artifacts.apis.io/argocd/openapi/argocd-notification-service-api-openapi.yml
 consequence_counts:
   read: 58
   safety-critical: 1
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/argocd
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/write-repositories/{repo}\n  method: get\n  operationId: RepositoryService_GetWrite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/write-repositories/{repo}\n  method: delete\n  operationId: RepositoryService_DeleteWriteRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/write-repositories/{repo}/validate\n  method: post\n  operationId: RepositoryService_ValidateWriteAccess\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/session\n  method: post\n  operationId: SessionService_Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/session\n  method: delete\n  operationId: SessionService_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/session/userinfo\n  method: get\n  operationId: SessionService_GetUserInfo\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/settings\n  method: get\n  operationId: SettingsService_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/settings/plugins\n  method: get\n  operationId: SettingsService_GetPlugins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/version\n  method: get\n  operationId: VersionService_Version\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/agentic-access/argocd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/argocd/agentic-access/argocd-agentic-access.yml
 summary_line: 106 operations · 48 acting · 1 human-in-the-loop
 tags:
 - ArgoCD

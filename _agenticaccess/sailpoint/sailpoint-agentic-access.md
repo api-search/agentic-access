@@ -9,25 +9,25 @@ api_specs:
   label: SailPoint Access Profiles API
   slug: sailpoint-access-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-access-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-access-profiles-api-openapi.yml
 - filename: sailpoint-certifications-api-openapi.yml
   format: yaml
   label: SailPoint Certifications API
   slug: sailpoint-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-certifications-api-openapi.yml
 - filename: sailpoint-identities-api-openapi.yml
   format: yaml
   label: SailPoint Identities API
   slug: sailpoint-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-identities-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-identities-api-openapi.yml
 - filename: sailpoint-roles-api-openapi.yml
   format: yaml
   label: SailPoint Roles API
   slug: sailpoint-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-roles-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-roles-api-openapi.yml
 consequence_counts:
   read: 16
   write: 14
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/identi
   \ get\n  operationId: getIdentityCertification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - idn:certification:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certifications/{id}/access-review-items\n  method: get\n  operationId: listCertificationAccessReviewItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - idn:certification:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certifications/{id}/decide\n  method: post\n  operationId: makeCertificationDecision\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - idn:certification:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /certifications/{id}/reassign\n  method:\
   \ post\n  operationId: reassignIdentityCertification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - idn:certification:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /certifications/{id}/sign-off\n  method: post\n  operationId: signOffIdentityCertification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - idn:certification:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /certifications/{id}/reviewers\n  method: get\n  operationId: listCertificationReviewers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n\
   \    - idn:certification:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certifications/{id}/tasks\n  method: get\n  operationId: listCertificationTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - idn:certification:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certifications/{id}/tasks/{taskId}\n  method: get\n  operationId: getCertificationTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - idn:certification:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/agentic-access/sailpoint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sailpoint/agentic-access/sailpoint-agentic-access.yml
 summary_line: 30 operations · 14 acting
 tags:
 - Access Governance

@@ -9,67 +9,67 @@ api_specs:
   label: Giphy Analytics API
   slug: giphy-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-analytics-api-openapi.yml
 - filename: giphy-animate-api-openapi.yml
   format: yaml
   label: Giphy Animate API
   slug: giphy-animate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-animate-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-animate-api-openapi.yml
 - filename: giphy-categories-api-openapi.yml
   format: yaml
   label: Giphy Categories API
   slug: giphy-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-categories-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-categories-api-openapi.yml
 - filename: giphy-channels-api-openapi.yml
   format: yaml
   label: Giphy Channels API
   slug: giphy-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-channels-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-channels-api-openapi.yml
 - filename: giphy-clips-api-openapi.yml
   format: yaml
   label: Giphy Clips API
   slug: giphy-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-clips-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-clips-api-openapi.yml
 - filename: giphy-emoji-api-openapi.yml
   format: yaml
   label: Giphy Emoji API
   slug: giphy-emoji-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-emoji-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-emoji-api-openapi.yml
 - filename: giphy-gifs-api-openapi.yml
   format: yaml
   label: Giphy GIFs API
   slug: giphy-gifs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-gifs-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-gifs-api-openapi.yml
 - filename: giphy-search-discovery-api-openapi.yml
   format: yaml
   label: Giphy Search Discovery API
   slug: giphy-search-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-search-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-search-discovery-api-openapi.yml
 - filename: giphy-stickers-api-openapi.yml
   format: yaml
   label: Giphy Stickers API
   slug: giphy-stickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-stickers-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-stickers-api-openapi.yml
 - filename: giphy-upload-api-openapi.yml
   format: yaml
   label: Giphy Upload API
   slug: giphy-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-upload-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-upload-api-openapi.yml
 - filename: giphy-utilities-api-openapi.yml
   format: yaml
   label: Giphy Utilities API
   slug: giphy-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/openapi/giphy-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/giphy/openapi/giphy-utilities-api-openapi.yml
 consequence_counts:
   read: 21
   write: 2
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/giphy-
   \  method: get\n  operationId: translateSticker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stickers/random\n  method: get\n  operationId: getRandomSticker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/emoji\n  method: get\n  operationId: listEmoji\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/emoji/{gif_id}/variations\n  method: get\n  operationId: getEmojiVariations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/clips/search\n  method: get\n  operationId: searchClips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/clips/trending\n  method: get\n  operationId: getTrendingClips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/animate\n  method: get\n  operationId: animateText\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/channels/search\n  method: get\n  operationId: searchChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/randomid\n  method: get\n  operationId: createRandomId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gifs/search/actions\n  method: post\n  operationId:\
   \ registerSearchAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/gifs\n  method: get\n  operationId: getGifsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gifs\n  method: post\n  operationId: uploadGif\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/agentic-access/giphy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/giphy/agentic-access/giphy-agentic-access.yml
 summary_line: 23 operations · 2 acting
 tags:
 - Photography

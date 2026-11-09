@@ -9,139 +9,139 @@ api_specs:
   label: X Account Activity API
   slug: x-account-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-account-activity-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-account-activity-api-openapi.yml
 - filename: x-account-api-openapi.yml
   format: yaml
   label: X Account API
   slug: x-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-account-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-account-api-openapi.yml
 - filename: x-activity-api-openapi.yml
   format: yaml
   label: X Activity API
   slug: x-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-activity-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-activity-api-openapi.yml
 - filename: x-articles-api-openapi.yml
   format: yaml
   label: X Articles API
   slug: x-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-articles-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-articles-api-openapi.yml
 - filename: x-bots-api-openapi.yml
   format: yaml
   label: X Bots API
   slug: x-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-bots-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-bots-api-openapi.yml
 - filename: x-broadcasts-api-openapi.yml
   format: yaml
   label: X Broadcasts API
   slug: x-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-broadcasts-api-openapi.yml
 - filename: x-chat-api-openapi.yml
   format: yaml
   label: X Chat API
   slug: x-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-chat-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-chat-api-openapi.yml
 - filename: x-communities-api-openapi.yml
   format: yaml
   label: X Communities API
   slug: x-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-communities-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-communities-api-openapi.yml
 - filename: x-community-notes-api-openapi.yml
   format: yaml
   label: X Community Notes API
   slug: x-community-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-community-notes-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-community-notes-api-openapi.yml
 - filename: x-compliance-api-openapi.yml
   format: yaml
   label: X Compliance API
   slug: x-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-compliance-api-openapi.yml
 - filename: x-connections-api-openapi.yml
   format: yaml
   label: X Connections API
   slug: x-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-connections-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-connections-api-openapi.yml
 - filename: x-direct-messages-api-openapi.yml
   format: yaml
   label: X Direct Messages API
   slug: x-direct-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-direct-messages-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-direct-messages-api-openapi.yml
 - filename: x-general-api-openapi.yml
   format: yaml
   label: X General API
   slug: x-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-general-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-general-api-openapi.yml
 - filename: x-lists-api-openapi.yml
   format: yaml
   label: X Lists API
   slug: x-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-lists-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-lists-api-openapi.yml
 - filename: x-media-api-openapi.yml
   format: yaml
   label: X Media API
   slug: x-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-media-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-media-api-openapi.yml
 - filename: x-news-api-openapi.yml
   format: yaml
   label: X News API
   slug: x-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-news-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-news-api-openapi.yml
 - filename: x-posts-api-openapi.yml
   format: yaml
   label: X Posts API
   slug: x-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-posts-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-posts-api-openapi.yml
 - filename: x-spaces-api-openapi.yml
   format: yaml
   label: X Spaces API
   slug: x-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-spaces-api-openapi.yml
 - filename: x-stream-api-openapi.yml
   format: yaml
   label: X Stream API
   slug: x-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-stream-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-stream-api-openapi.yml
 - filename: x-trends-api-openapi.yml
   format: yaml
   label: X Trends API
   slug: x-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-trends-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-trends-api-openapi.yml
 - filename: x-usage-api-openapi.yml
   format: yaml
   label: X Usage API
   slug: x-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-usage-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-usage-api-openapi.yml
 - filename: x-users-api-openapi.yml
   format: yaml
   label: X Users API
   slug: x-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-users-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-users-api-openapi.yml
 - filename: x-webhooks-api-openapi.yml
   format: yaml
   label: X Webhooks API
   slug: x-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 104
@@ -241,8 +241,8 @@ source_yaml: "generated: '2026-08-28'\nmethod: generated\nsource: openapi/x-acco
   \      - abnormal\n      - high-value\n    audit: required\n- path: /2/lists/{id}/members/{user_id}\n  method: delete\n  operationId: removeListsMemberByUserId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - list.write\n    - tweet.read\n    - users.read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2/lists/{id}/tweets\n  method: get\n  operationId: getListsPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - list.read\n    - tweet.read\n    - users.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2/media\n  method: get\n  operationId: getMediaByMediaKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tweet.read\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /2/media/analytics\n  method: get\n  operationId: getMediaAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - tweet.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2/media/metadata\n  method: post\n  operationId: createMediaMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - media.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2/media/subtitles\n  method: post\n  operationId: createMediaSubtitles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - media.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /2/media/subtitles\n  method: delete\n  operationId: deleteMediaSubtitles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - media.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2/media/upload\n  method: get\n  operationId: getMediaUploadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - media.write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2/media/upload\n  method: post\n  operationId: mediaUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - media.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (60 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/agentic-access/x-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/agentic-access/x-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (60 KB total) ---\n# Full source: https://artifacts.apis.io/x/agentic-access/x-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/x/agentic-access/x-agentic-access.yml
 summary_line: 190 operations · 86 acting · 4 human-in-the-loop
 tags:
 - Spaces

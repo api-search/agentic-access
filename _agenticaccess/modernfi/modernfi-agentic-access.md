@@ -9,43 +9,43 @@ api_specs:
   label: ModernFi Accounts API
   slug: modernfi-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-accounts-api-openapi.yml
 - filename: modernfi-auth-api-openapi.yml
   format: yaml
   label: ModernFi Auth API
   slug: modernfi-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-auth-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-auth-api-openapi.yml
 - filename: modernfi-custombenchmarks-api-openapi.yml
   format: yaml
   label: ModernFi Custom Benchmarks API
   slug: modernfi-custombenchmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-custombenchmarks-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-custombenchmarks-api-openapi.yml
 - filename: modernfi-depositors-api-openapi.yml
   format: yaml
   label: ModernFi Depositors API
   slug: modernfi-depositors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-depositors-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-depositors-api-openapi.yml
 - filename: modernfi-files-api-openapi.yml
   format: yaml
   label: ModernFi Files API
   slug: modernfi-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-files-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-files-api-openapi.yml
 - filename: modernfi-pricinggroups-api-openapi.yml
   format: yaml
   label: ModernFi Pricing Groups API
   slug: modernfi-pricinggroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-pricinggroups-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-pricinggroups-api-openapi.yml
 - filename: modernfi-transactions-api-openapi.yml
   format: yaml
   label: ModernFi Transactions API
   slug: modernfi-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/openapi/modernfi-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/modernfi/openapi/modernfi-transactions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 18
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/modern
   \    audit: required\n- path: /digital-banking/v1/pricing-groups/{pricing_group_id}\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /digital-banking/v1/pricing-groups/{pricing_group_id}\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digital-banking/v1/pricing-groups/{pricing_group_id}\n  method: patch\n  operationId: updateMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n- path: /digital-banking/v1/pricing-groups/{pricing_group_id}/rates\n  method: put\n  operationId: updateRates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digital-banking/v1/pricing-groups/{pricing_group_id}/accounts\n  method: post\n  operationId: assignAccounts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digital-banking/v1/pricing-groups/{pricing_group_id}/accounts\n  method: delete\n  operationId: unassignAccounts\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/token\n  method: post\n  operationId: getToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/agentic-access/modernfi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/modernfi/agentic-access/modernfi-agentic-access.yml
 summary_line: 37 operations · 19 acting
 tags:
 - Company

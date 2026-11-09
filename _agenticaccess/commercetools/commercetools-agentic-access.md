@@ -9,85 +9,85 @@ api_specs:
   label: commercetools Carts API
   slug: commercetools-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-carts-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-carts-api-openapi.yml
 - filename: commercetools-categories-api-openapi.yml
   format: yaml
   label: commercetools Categories API
   slug: commercetools-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-categories-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-categories-api-openapi.yml
 - filename: commercetools-customers-api-openapi.yml
   format: yaml
   label: commercetools Customers API
   slug: commercetools-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-customers-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-customers-api-openapi.yml
 - filename: commercetools-importcontainers-api-openapi.yml
   format: yaml
   label: commercetools ImportContainers API
   slug: commercetools-importcontainers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-importcontainers-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-importcontainers-api-openapi.yml
 - filename: commercetools-importoperations-api-openapi.yml
   format: yaml
   label: commercetools ImportOperations API
   slug: commercetools-importoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-importoperations-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-importoperations-api-openapi.yml
 - filename: commercetools-inventory-api-openapi.yml
   format: yaml
   label: commercetools Inventory API
   slug: commercetools-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-inventory-api-openapi.yml
 - filename: commercetools-orders-api-openapi.yml
   format: yaml
   label: commercetools Orders API
   slug: commercetools-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-orders-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-orders-api-openapi.yml
 - filename: commercetools-payments-api-openapi.yml
   format: yaml
   label: commercetools Payments API
   slug: commercetools-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-payments-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-payments-api-openapi.yml
 - filename: commercetools-products-api-openapi.yml
   format: yaml
   label: commercetools Products API
   slug: commercetools-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-products-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-products-api-openapi.yml
 - filename: commercetools-project-api-openapi.yml
   format: yaml
   label: commercetools Project API
   slug: commercetools-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-project-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-project-api-openapi.yml
 - filename: commercetools-standaloneprices-api-openapi.yml
   format: yaml
   label: commercetools StandalonePrices API
   slug: commercetools-standaloneprices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-standaloneprices-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-standaloneprices-api-openapi.yml
 - filename: commercetools-subscriptions-api-openapi.yml
   format: yaml
   label: commercetools Subscriptions API
   slug: commercetools-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-subscriptions-api-openapi.yml
 - filename: commercetools-change-history-api-openapi.yml
   format: yaml
   label: commercetools Change History API
   slug: commercetools-change-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-change-history-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-change-history-api-openapi.yml
 - filename: commercetools-product-variants-api-openapi.yml
   format: yaml
   label: commercetools Product Variants API
   slug: commercetools-product-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-product-variants-api-openapi.yml
+  url: https://artifacts.apis.io/commercetools/openapi/commercetools-product-variants-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 23
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/commer
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{projectKey}/categories/import-containers/{importContainerKey}\n  method: post\n  operationId: importCategories\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{projectKey}/customers/import-containers/{importContainerKey}\n  method: post\n  operationId: importCustomers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{projectKey}/orders/import-containers/{importContainerKey}\n  method: post\n  operationId: importOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{projectKey}/inventories/import-containers/{importContainerKey}\n  method: post\n  operationId: importInventoryEntries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{projectKey}/standalone-prices/import-containers/{importContainerKey}\n\
   \  method: post\n  operationId: importStandalonePrices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{projectKey}/import-containers/{importContainerKey}/import-operations\n  method: get\n  operationId: listImportOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{projectKey}/import-containers/{importContainerKey}/import-operations/{id}\n  method: get\n  operationId: getImportOperationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/agentic-access/commercetools-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/commercetools/agentic-access/commercetools-agentic-access.yml
 summary_line: 54 operations · 31 acting
 tags:
 - Commerce

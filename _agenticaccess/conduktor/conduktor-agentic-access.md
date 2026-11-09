@@ -9,43 +9,43 @@ api_specs:
   label: Conduktor Certificates API
   slug: conduktor-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-certificates-api-openapi.yml
 - filename: conduktor-clusters-api-openapi.yml
   format: yaml
   label: Conduktor Clusters API
   slug: conduktor-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-clusters-api-openapi.yml
 - filename: conduktor-groups-api-openapi.yml
   format: yaml
   label: Conduktor Groups API
   slug: conduktor-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-groups-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-groups-api-openapi.yml
 - filename: conduktor-interceptors-api-openapi.yml
   format: yaml
   label: Conduktor Interceptors API
   slug: conduktor-interceptors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-interceptors-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-interceptors-api-openapi.yml
 - filename: conduktor-self-service-api-openapi.yml
   format: yaml
   label: Conduktor Self-Service API
   slug: conduktor-self-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-self-service-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-self-service-api-openapi.yml
 - filename: conduktor-users-api-openapi.yml
   format: yaml
   label: Conduktor Users API
   slug: conduktor-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-users-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-users-api-openapi.yml
 - filename: conduktor-virtual-clusters-api-openapi.yml
   format: yaml
   label: Conduktor Virtual Clusters API
   slug: conduktor-virtual-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/openapi/conduktor-virtual-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/conduktor/openapi/conduktor-virtual-clusters-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/conduk
   \      - abnormal\n      - high-value\n    audit: required\n- path: /public/self-serve/v1/topic-policy\n  method: put\n  operationId: upsertTopicPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateway/v2/interceptor\n  method: get\n  operationId: listInterceptors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateway/v2/interceptor\n  method: put\n  operationId: upsertInterceptor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /gateway/v2/virtual-cluster\n  method: put\n  operationId: upsertVirtualCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateway/v2/virtual-cluster/{name}\n  method: get\n  operationId: getVirtualCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateway/v2/service-account\n  method: put\n  operationId: upsertServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateway/v2/token\n\
   \  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/agentic-access/conduktor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/conduktor/agentic-access/conduktor-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
 - Apache Kafka

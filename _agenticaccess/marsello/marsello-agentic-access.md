@@ -3,79 +3,6 @@ acting_count: 44
 action_class_counts:
   acting: 44
   connected: 46
-api_specs:
-- filename: marsello-account-api-openapi.yml
-  format: yaml
-  label: Marsello Account API
-  slug: marsello-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-account-api-openapi.yml
-- filename: marsello-activities-api-openapi.yml
-  format: yaml
-  label: Marsello Activities API
-  slug: marsello-activities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-activities-api-openapi.yml
-- filename: marsello-apps-api-openapi.yml
-  format: yaml
-  label: Marsello Apps API
-  slug: marsello-apps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-apps-api-openapi.yml
-- filename: marsello-checkins-api-openapi.yml
-  format: yaml
-  label: Marsello Check Ins API
-  slug: marsello-checkins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-checkins-api-openapi.yml
-- filename: marsello-customerdisplayactivecustomer-api-openapi.yml
-  format: yaml
-  label: Marsello Customer Display Active Customer API
-  slug: marsello-customerdisplayactivecustomer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-customerdisplayactivecustomer-api-openapi.yml
-- filename: marsello-customerdisplaysettings-api-openapi.yml
-  format: yaml
-  label: Marsello Customer Display Settings API
-  slug: marsello-customerdisplaysettings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-customerdisplaysettings-api-openapi.yml
-- filename: marsello-customers-api-openapi.yml
-  format: yaml
-  label: Marsello Customers API
-  slug: marsello-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-customers-api-openapi.yml
-- filename: marsello-devices-api-openapi.yml
-  format: yaml
-  label: Marsello Devices API
-  slug: marsello-devices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-devices-api-openapi.yml
-- filename: marsello-orderdumps-api-openapi.yml
-  format: yaml
-  label: Marsello Order Dumps API
-  slug: marsello-orderdumps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-orderdumps-api-openapi.yml
-- filename: marsello-orders-api-openapi.yml
-  format: yaml
-  label: Marsello Orders API
-  slug: marsello-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-orders-api-openapi.yml
-- filename: marsello-rewards-api-openapi.yml
-  format: yaml
-  label: Marsello Rewards API
-  slug: marsello-rewards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-rewards-api-openapi.yml
-- filename: marsello-stores-api-openapi.yml
-  format: yaml
-  label: Marsello Stores API
-  slug: marsello-stores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/openapi/marsello-stores-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 46
@@ -196,13 +123,13 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/marsel
   \    - write:orders\n    - write:rewards\n- path: /v1/stores/{storeId}/check-ins\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://dev.marsello.com/scope/read.all\n    - https://dev.marsello.com/scope/write.all\n    - read:account\n    - read:activities\n    - read:customers\n    - read:orders\n    - read:rewards\n    - read:stores\n    - write:activities\n    - write:customers\n    - write:devices\n    - write:orders\n    - write:rewards\n- path: /v1/customers/{customerId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://dev.marsello.com/scope/read.all\n    - https://dev.marsello.com/scope/write.all\n\
   \    - read:account\n    - read:activities\n    - read:customers\n    - read:orders\n    - read:rewards\n    - read:stores\n    - write:activities\n    - write:customers\n    - write:devices\n    - write:orders\n    - write:rewards\n- path: /v1/customers/{customerId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://dev.marsello.com/scope/read.all\n    - https://dev.marsello.com/scope/write.all\n    - read:account\n    - read:activities\n    - read:customers\n    - read:orders\n    - read:rewards\n    - read:stores\n    - write:activities\n    - write:customers\n    - write:devices\n    - write:orders\n    - write:rewards\n- path: /v1/customers/email/{email}\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://dev.marsello.com/scope/read.all\n    - https://dev.marsello.com/scope/write.all\n    - read:account\n    - read:activities\n    - read:customers\n    - read:orders\n    - read:rewards\n    - read:stores\n    - write:activities\n    - write:customers\n    - write:devices\n    - write:orders\n    - write:rewards\n- path: /v1/customers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://dev.marsello.com/scope/read.all\n    - https://dev.marsello.com/scope/write.all\n    - read:account\n    - read:activities\n    - read:customers\n    - read:orders\n    - read:rewards\n    - read:stores\n    - write:activities\n    - write:customers\n    - write:devices\n    - write:orders\n    - write:rewards\n\n\n# --- truncated at 32 KB (52 KB total)\
-  \ ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/agentic-access/marsello-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marsello/refs/heads/main/agentic-access/marsello-agentic-access.yml
+  \ ---\n# Full source: https://artifacts.apis.io/marsello/agentic-access/marsello-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/marsello/agentic-access/marsello-agentic-access.yml
 summary_line: 90 operations · 44 acting
 tags:
+- Company
 - Loyalty
 - Marketing
 - Retail
 - Hospitality
-- Platform
 ---

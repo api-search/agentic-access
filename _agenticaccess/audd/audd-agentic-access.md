@@ -9,25 +9,25 @@ api_specs:
   label: AudD Recognition API
   slug: audd-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/audd/openapi/audd-recognition-api-openapi.yml
 - filename: audd-custom-catalog-api-openapi.yml
   format: yaml
   label: AudD Custom Catalog API
   slug: audd-custom-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-custom-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/audd/openapi/audd-custom-catalog-api-openapi.yml
 - filename: audd-streams-api-openapi.yml
   format: yaml
   label: AudD Streams API
   slug: audd-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-streams-api-openapi.yml
+  url: https://artifacts.apis.io/audd/openapi/audd-streams-api-openapi.yml
 - filename: audd-agent-payments-api-openapi.yml
   format: yaml
   label: AudD Agent payments API
   slug: audd-agent-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-agent-payments-api-openapi.yml
+  url: https://artifacts.apis.io/audd/openapi/audd-agent-payments-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-10-08'\nmethod: searched\nsource: openapi/audd-cu
   - path: /upload/\n  method: post\n  operationId: customCatalogAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: recognize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: recognizeGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enterprise/\n  method: post\n  operationId: recognizeEnterprise\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /setCallbackUrl/\n  method:\
   \ post\n  operationId: setCallbackUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getCallbackUrl/\n  method: post\n  operationId: getCallbackUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /addStream/\n  method: post\n  operationId: addStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getStreams/\n  method: post\n  operationId: getStreams\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /setStreamUrl/\n  method: post\n  operationId: setStreamUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deleteStream/\n  method: post\n  operationId: deleteStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /longpoll/\n  method: get\n  operationId: longpoll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/agentic-access/audd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/audd/agentic-access/audd-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Music

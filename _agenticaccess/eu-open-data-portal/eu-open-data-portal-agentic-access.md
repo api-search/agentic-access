@@ -9,193 +9,193 @@ api_specs:
   label: EU Open Data Portal Statistics API
   slug: eu-open-data-portal-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/_original/eu-open-data-portal-hub-statistics-swagger.json
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/_original/eu-open-data-portal-hub-statistics-swagger.json
 - filename: eu-open-data-portal-action-api-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Action API
   slug: eu-open-data-portal-action-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-action-api-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-action-api-api-openapi.yml
 - filename: eu-open-data-portal-actions-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Actions API
   slug: eu-open-data-portal-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-actions-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-actions-api-openapi.yml
 - filename: eu-open-data-portal-administration-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Administration API
   slug: eu-open-data-portal-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-administration-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-administration-api-openapi.yml
 - filename: eu-open-data-portal-catalogues-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Catalogues API
   slug: eu-open-data-portal-catalogues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-catalogues-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-catalogues-api-openapi.yml
 - filename: eu-open-data-portal-ckan-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Ckan API
   slug: eu-open-data-portal-ckan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-ckan-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-ckan-api-openapi.yml
 - filename: eu-open-data-portal-countries-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Countries API
   slug: eu-open-data-portal-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-countries-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-countries-api-openapi.yml
 - filename: eu-open-data-portal-custom-resources-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Custom Resources API
   slug: eu-open-data-portal-custom-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-custom-resources-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-custom-resources-api-openapi.yml
 - filename: eu-open-data-portal-data-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Data API
   slug: eu-open-data-portal-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-data-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-data-api-openapi.yml
 - filename: eu-open-data-portal-data-services-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Data Services API
   slug: eu-open-data-portal-data-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-data-services-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-data-services-api-openapi.yml
 - filename: eu-open-data-portal-dataset-series-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Dataset Series API
   slug: eu-open-data-portal-dataset-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-dataset-series-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-dataset-series-api-openapi.yml
 - filename: eu-open-data-portal-datasets-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Datasets API
   slug: eu-open-data-portal-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-datasets-api-openapi.yml
 - filename: eu-open-data-portal-dcat-resources-api-openapi.yml
   format: yaml
   label: EU Open Data Portal DCAT Resources API
   slug: eu-open-data-portal-dcat-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-dcat-resources-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-dcat-resources-api-openapi.yml
 - filename: eu-open-data-portal-distributions-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Distributions API
   slug: eu-open-data-portal-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-distributions-api-openapi.yml
 - filename: eu-open-data-portal-drafts-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Drafts API
   slug: eu-open-data-portal-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-drafts-api-openapi.yml
 - filename: eu-open-data-portal-editorialcontent-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Editorial Content API
   slug: eu-open-data-portal-editorialcontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-editorialcontent-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-editorialcontent-api-openapi.yml
 - filename: eu-open-data-portal-feeds-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Feeds API
   slug: eu-open-data-portal-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-feeds-api-openapi.yml
 - filename: eu-open-data-portal-gazetteer-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Gazetteer API
   slug: eu-open-data-portal-gazetteer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-gazetteer-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-gazetteer-api-openapi.yml
 - filename: eu-open-data-portal-generate-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Generate API
   slug: eu-open-data-portal-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-generate-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-generate-api-openapi.yml
 - filename: eu-open-data-portal-global-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Global API
   slug: eu-open-data-portal-global-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-global-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-global-api-openapi.yml
 - filename: eu-open-data-portal-maintenance-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Maintenance API
   slug: eu-open-data-portal-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-maintenance-api-openapi.yml
 - filename: eu-open-data-portal-organizations-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Organizations API
   slug: eu-open-data-portal-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-organizations-api-openapi.yml
 - filename: eu-open-data-portal-persistent-identifiers-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Persistent Identifiers API
   slug: eu-open-data-portal-persistent-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-persistent-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-persistent-identifiers-api-openapi.yml
 - filename: eu-open-data-portal-report-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Report API
   slug: eu-open-data-portal-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-report-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-report-api-openapi.yml
 - filename: eu-open-data-portal-reports-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Reports API
   slug: eu-open-data-portal-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-reports-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-reports-api-openapi.yml
 - filename: eu-open-data-portal-resources-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Resources API
   slug: eu-open-data-portal-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-resources-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-resources-api-openapi.yml
 - filename: eu-open-data-portal-search-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Search API
   slug: eu-open-data-portal-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-search-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-search-api-openapi.yml
 - filename: eu-open-data-portal-sitemap-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Sitemap API
   slug: eu-open-data-portal-sitemap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-sitemap-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-sitemap-api-openapi.yml
 - filename: eu-open-data-portal-test-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Test API
   slug: eu-open-data-portal-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-test-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-test-api-openapi.yml
 - filename: eu-open-data-portal-translation-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Translation API
   slug: eu-open-data-portal-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-translation-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-translation-api-openapi.yml
 - filename: eu-open-data-portal-validation-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Validation API
   slug: eu-open-data-portal-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-validation-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-validation-api-openapi.yml
 - filename: eu-open-data-portal-vocabularies-api-openapi.yml
   format: yaml
   label: EU Open Data Portal Vocabularies API
   slug: eu-open-data-portal-vocabularies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/openapi/eu-open-data-portal-vocabularies-api-openapi.yml
+  url: https://artifacts.apis.io/eu-open-data-portal/openapi/eu-open-data-portal-vocabularies-api-openapi.yml
 consequence_counts:
   read: 100
   write: 72
@@ -255,8 +255,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/eu-ope
   \ 3600\n    audit: none\n- path: /resources/{resourceId}/metrics\n  method: head\n  operationId: headGetDCATResourceMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resources/{resourceId}/metrics\n  method: put\n  operationId: putDCATResourceMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resources/{resourceId}/metrics\n  method: delete\n  operationId: deleteDCATResourceMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /distributions/{distributionId}\n  method: get\n  operationId: getDistribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /distributions/{distributionId}\n  method: head\n  operationId: headGetDistribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /distributions/{distributionId}\n  method: put\n  operationId: putDistribution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /distributions/{distributionId}\n  method: delete\n  operationId: deleteDistribution\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{id}/distributions\n  method: get\n  operationId: getDistributionMetricsv2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /distributions/{id}\n  method: get\n  operationId: getDistributionMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /distributions/{id}/validations\n  method: get\n  operationId: getDistributionValidationCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full\
-  \ source: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/agentic-access/eu-open-data-portal-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/agentic-access/eu-open-data-portal-agentic-access.yml
+  \ source: https://artifacts.apis.io/eu-open-data-portal/agentic-access/eu-open-data-portal-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/eu-open-data-portal/agentic-access/eu-open-data-portal-agentic-access.yml
 summary_line: 172 operations · 72 acting
 tags:
 - Government

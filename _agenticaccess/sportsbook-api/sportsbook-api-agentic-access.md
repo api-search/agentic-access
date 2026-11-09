@@ -8,19 +8,19 @@ api_specs:
   label: Sportsbook API Betting Analysis API
   slug: sportsbook-api-betting-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-betting-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/sportsbook-api/openapi/sportsbook-api-betting-analysis-api-openapi.yml
 - filename: sportsbook-api-odds-api-openapi.yml
   format: yaml
   label: Sportsbook API Odds API
   slug: sportsbook-api-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-odds-api-openapi.yml
+  url: https://artifacts.apis.io/sportsbook-api/openapi/sportsbook-api-odds-api-openapi.yml
 - filename: sportsbook-api-reference-api-openapi.yml
   format: yaml
   label: Sportsbook API Reference API
   slug: sportsbook-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/openapi/sportsbook-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/sportsbook-api/openapi/sportsbook-api-reference-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sportsbook-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/odds\n  method: get\n  operationId: getOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/odds/{eventId}\n  method: get\n  operationId: getEventOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/arbitrage\n  method: get\n  operationId: getArbitrage\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/positive-ev\n  method: get\n  operationId: getPositiveEV\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/middles\n  method: get\n  operationId: getMiddles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sports\n  method: get\n  operationId: listSports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/bookmakers\n  method: get\n  operationId: listBookmakers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/agentic-access/sportsbook-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sportsbook-api/agentic-access/sportsbook-api-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Sports Betting

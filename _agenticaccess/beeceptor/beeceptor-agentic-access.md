@@ -9,25 +9,25 @@ api_specs:
   label: Beeceptor Endpoint Settings API
   slug: beeceptor-endpoint-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-endpoint-settings-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-endpoint-settings-api-openapi.yml
 - filename: beeceptor-mock-rules-api-openapi.yml
   format: yaml
   label: Beeceptor Mock Rules API
   slug: beeceptor-mock-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-mock-rules-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-mock-rules-api-openapi.yml
 - filename: beeceptor-request-history-api-openapi.yml
   format: yaml
   label: Beeceptor Request History API
   slug: beeceptor-request-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-request-history-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-request-history-api-openapi.yml
 - filename: beeceptor-state-store-api-openapi.yml
   format: yaml
   label: Beeceptor State Store API
   slug: beeceptor-state-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/openapi/beeceptor-state-store-api-openapi.yml
+  url: https://artifacts.apis.io/beeceptor/openapi/beeceptor-state-store-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/beecep
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/endpoints/{endpoint}/state\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/endpoints/{endpoint}/state/{type}/{key}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/endpoints/{endpoint}/state/{type}/{key}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v2/endpoints/{endpoint}/specs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/endpoints/{endpoint}/specs\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/endpoints/{endpoint}/specs\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/endpoints/{endpoint}/jobs/{jobId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/endpoints/{endpoint}/mtls/certificates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/endpoints/{endpoint}/mtls/certificates\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/endpoints/{endpoint}/mtls/certificates/{certId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/agentic-access/beeceptor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beeceptor/agentic-access/beeceptor-agentic-access.yml
 summary_line: 29 operations · 18 acting
 tags:
 - API Mocking

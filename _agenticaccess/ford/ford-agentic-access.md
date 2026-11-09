@@ -9,37 +9,37 @@ api_specs:
   label: Ford Charging API
   slug: ford-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-charging-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-charging-api-openapi.yml
 - filename: ford-commands-api-openapi.yml
   format: yaml
   label: Ford Commands API
   slug: ford-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-commands-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-commands-api-openapi.yml
 - filename: ford-images-api-openapi.yml
   format: yaml
   label: Ford Images API
   slug: ford-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-images-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-images-api-openapi.yml
 - filename: ford-status-api-openapi.yml
   format: yaml
   label: Ford Status API
   slug: ford-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-status-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-status-api-openapi.yml
 - filename: ford-vehicles-api-openapi.yml
   format: yaml
   label: Ford Vehicles API
   slug: ford-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-vehicles-api-openapi.yml
 - filename: ford-oauth-api-openapi.yml
   format: yaml
   label: Ford O Auth API
   slug: ford-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-oauth-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ford-o
   \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/fordconnect/vehicles/v1/{vehicleId}/wake\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fordconnect/vehicles/v1/{vehicleId}/startCharge\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fordconnect/vehicles/v1/{vehicleId}/stopCharge\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/fordconnect/vehicles/v1/{vehicleId}/chargeSchedules\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/fordconnect/vehicles/v1/{vehicleId}/departureTimes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/fordconnect/vehicles/v1/{vehicleId}/status\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fordconnect/vehicles/v1/{vehicleId}/location\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fordconnect/vehicles/v1/{vehicleId}/images/thumbnail\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/fordconnect/vehicles/v1/{vehicleId}/images/full\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/agentic-access/ford-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ford/agentic-access/ford-agentic-access.yml
 summary_line: 18 operations · 10 acting · 2 human-in-the-loop
 tags:
 - Automobiles

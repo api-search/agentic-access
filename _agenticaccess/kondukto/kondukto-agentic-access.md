@@ -9,67 +9,79 @@ api_specs:
   label: Kondukto Authorization Managers API
   slug: kondukto-authorization-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-authorization-managers-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-authorization-managers-api-openapi.yml
 - filename: kondukto-events-api-openapi.yml
   format: yaml
   label: Kondukto Events API
   slug: kondukto-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-events-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-events-api-openapi.yml
 - filename: kondukto-health-api-openapi.yml
   format: yaml
   label: Kondukto Health API
   slug: kondukto-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-health-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-health-api-openapi.yml
 - filename: kondukto-labels-api-openapi.yml
   format: yaml
   label: Kondukto Labels API
   slug: kondukto-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-labels-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-labels-api-openapi.yml
 - filename: kondukto-products-api-openapi.yml
   format: yaml
   label: Kondukto Products API
   slug: kondukto-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-products-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-products-api-openapi.yml
 - filename: kondukto-projects-api-openapi.yml
   format: yaml
   label: Kondukto Projects API
   slug: kondukto-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-projects-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-projects-api-openapi.yml
 - filename: kondukto-scanners-api-openapi.yml
   format: yaml
   label: Kondukto Scanners API
   slug: kondukto-scanners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-scanners-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-scanners-api-openapi.yml
 - filename: kondukto-scans-api-openapi.yml
   format: yaml
   label: Kondukto Scans API
   slug: kondukto-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-scans-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-scans-api-openapi.yml
 - filename: kondukto-teams-api-openapi.yml
   format: yaml
   label: Kondukto Teams API
   slug: kondukto-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-teams-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-teams-api-openapi.yml
 - filename: kondukto-users-api-openapi.yml
   format: yaml
   label: Kondukto Users API
   slug: kondukto-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-users-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-users-api-openapi.yml
 - filename: kondukto-vulnerabilities-api-openapi.yml
   format: yaml
   label: Kondukto Vulnerabilities API
   slug: kondukto-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/openapi/kondukto-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-vulnerabilities-api-openapi.yml
+- filename: kondukto-import-api-openapi.yml
+  format: yaml
+  label: Kondukto Import API
+  slug: kondukto-import-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-import-api-openapi.yml
+- filename: kondukto-screenshots-api-openapi.yml
+  format: yaml
+  label: Kondukto Screenshots API
+  slug: kondukto-screenshots-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-screenshots-api-openapi.yml
 consequence_counts:
   read: 30
   write: 21
@@ -111,7 +123,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/konduk
   \ path: /api/v2/vulnerabilities/import/pentest\n  method: post\n  operationId: create-a-pentest-vulnerability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/vulnerabilities/import/sast\n  method: post\n  operationId: create-a-sast-vulnerability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/vulnerabilities/import/sca\n  method: post\n  operationId: create-a-sca-vulnerability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/vulnerabilities/{vulnerabilityID}\n  method: get\n  operationId: get-vulnerability-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/vulnerabilities/{vulnerabilityID}/screenshots\n  method: post\n  operationId: upload-screenshots\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/vulnerabilities/{vulnerabilityID}/screenshots/{attachmentID}\n  method: delete\n  operationId: delete-a-screenshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/agentic-access/kondukto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kondukto/agentic-access/kondukto-agentic-access.yml
 summary_line: 51 operations · 21 acting
 tags:
 - Company

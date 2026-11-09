@@ -9,19 +9,19 @@ api_specs:
   label: HHAeXchange Configuration API
   slug: hhaexchange-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/hhaexchange/openapi/hhaexchange-configuration-api-openapi.yml
 - filename: hhaexchange-internal-api-openapi.yml
   format: yaml
   label: HHAeXchange Internal API
   slug: hhaexchange-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-internal-api-openapi.yml
+  url: https://artifacts.apis.io/hhaexchange/openapi/hhaexchange-internal-api-openapi.yml
 - filename: hhaexchange-onboarding-api-openapi.yml
   format: yaml
   label: HHAeXchange Onboarding API
   slug: hhaexchange-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/hhaexchange/openapi/hhaexchange-onboarding-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hhaexc
   \  method: post\n  operationId: migrate_client_v1_fhir_onboarding_client_migrate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - full_access\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fhir-onboarding/client/{client_id}\n  method: get\n  operationId: get_client_v1_fhir_onboarding_client__client_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - full_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fhir-onboarding/client/{client_id}\n  method: patch\n  operationId: update_client_v1_fhir_onboarding_client__client_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - full_access\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/internal/provider\n  method: get\n  operationId: get_provider_v1_internal_provider_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - full_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/internal/generic-references\n  method: get\n  operationId: get_generic_references_v1_internal_generic_references_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - full_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/internal/payer\n  method: get\n  operationId: get_payer_v1_internal_payer_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - full_access\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/rate-limits/config\n  method: get\n  operationId: get_rate_limit_config_v1_rate_limits_config_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - full_access\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/agentic-access/hhaexchange-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hhaexchange/agentic-access/hhaexchange-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Home Care

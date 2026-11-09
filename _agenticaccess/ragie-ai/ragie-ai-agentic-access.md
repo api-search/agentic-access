@@ -9,31 +9,31 @@ api_specs:
   label: Ragie Connections API
   slug: ragie-ai-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-connections-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-connections-api-openapi.yml
 - filename: ragie-ai-documents-api-openapi.yml
   format: yaml
   label: Ragie Documents API
   slug: ragie-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-documents-api-openapi.yml
 - filename: ragie-ai-entities-api-openapi.yml
   format: yaml
   label: Ragie Entities API
   slug: ragie-ai-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-entities-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-entities-api-openapi.yml
 - filename: ragie-ai-partitions-api-openapi.yml
   format: yaml
   label: Ragie Partitions API
   slug: ragie-ai-partitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-partitions-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-partitions-api-openapi.yml
 - filename: ragie-ai-retrievals-api-openapi.yml
   format: yaml
   label: Ragie Retrievals API
   slug: ragie-ai-retrievals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/openapi/ragie-ai-retrievals-api-openapi.yml
+  url: https://artifacts.apis.io/ragie-ai/openapi/ragie-ai-retrievals-api-openapi.yml
 consequence_counts:
   read: 17
   write: 21
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ragie-
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partitions\n  method: get\n  operationId: listPartitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partitions/{partition_id}\n  method: get\n  operationId: getPartition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partitions/{partition_id}\n  method: patch\n  operationId: updatePartition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partitions/{partition_id}\n  method: delete\n  operationId: deletePartition\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partitions/{partition_id}/limits\n  method: put\n  operationId: setPartitionLimits\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /retrievals\n  method: post\n  operationId: retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /responses\n  method: post\n  operationId: createResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/agentic-access/ragie-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ragie-ai/agentic-access/ragie-ai-agentic-access.yml
 summary_line: 38 operations · 21 acting
 tags:
 - Artificial Intelligence

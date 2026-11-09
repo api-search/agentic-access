@@ -9,25 +9,25 @@ api_specs:
   label: Pusher Channels API
   slug: channels-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/asyncapi/pusher-asyncapi.yml
+  url: https://artifacts.apis.io/pusher/asyncapi/pusher-asyncapi.yml
 - filename: pusher-channels-api-openapi.yml
   format: yaml
   label: Pusher Channels API
   slug: pusher-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-channels-api-openapi.yml
+  url: https://artifacts.apis.io/pusher/openapi/pusher-channels-api-openapi.yml
 - filename: pusher-events-api-openapi.yml
   format: yaml
   label: Pusher Events API
   slug: pusher-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-events-api-openapi.yml
+  url: https://artifacts.apis.io/pusher/openapi/pusher-events-api-openapi.yml
 - filename: pusher-users-api-openapi.yml
   format: yaml
   label: Pusher Users API
   slug: pusher-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/openapi/pusher-users-api-openapi.yml
+  url: https://artifacts.apis.io/pusher/openapi/pusher-users-api-openapi.yml
 consequence_counts:
   read: 3
   safety-critical: 1
@@ -65,7 +65,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pusher-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 3\n    connected: 3\n  by_consequence:\n    write: 2\n    read: 3\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /apps/{app_id}/events\n  method: post\n  operationId: triggerEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{app_id}/batch_events\n  method: post\n  operationId: triggerBatchEvents\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{app_id}/channels\n  method: get\n  operationId: listChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{app_id}/channels/{channel_name}\n  method: get\n  operationId: getChannel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{app_id}/channels/{channel_name}/users\n  method: get\n  operationId: listChannelUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{app_id}/users/{user_id}/terminate_connections\n\
   \  method: post\n  operationId: terminateUserConnections\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/agentic-access/pusher-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pusher/agentic-access/pusher-agentic-access.yml
 summary_line: 6 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Real-Time

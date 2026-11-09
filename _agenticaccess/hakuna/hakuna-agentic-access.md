@@ -9,61 +9,61 @@ api_specs:
   label: Hakuna Absences API
   slug: hakuna-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-absences-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-absences-api-openapi.yml
 - filename: hakuna-company-api-openapi.yml
   format: yaml
   label: Hakuna Company API
   slug: hakuna-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-company-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-company-api-openapi.yml
 - filename: hakuna-management-api-openapi.yml
   format: yaml
   label: Hakuna Management API
   slug: hakuna-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-management-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-management-api-openapi.yml
 - filename: hakuna-organization-api-openapi.yml
   format: yaml
   label: Hakuna Organization API
   slug: hakuna-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-organization-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-organization-api-openapi.yml
 - filename: hakuna-overview-api-openapi.yml
   format: yaml
   label: Hakuna Overview API
   slug: hakuna-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-overview-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-overview-api-openapi.yml
 - filename: hakuna-projects-api-openapi.yml
   format: yaml
   label: Hakuna Projects API
   slug: hakuna-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-projects-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-projects-api-openapi.yml
 - filename: hakuna-tasks-api-openapi.yml
   format: yaml
   label: Hakuna Tasks API
   slug: hakuna-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-tasks-api-openapi.yml
 - filename: hakuna-time-entries-api-openapi.yml
   format: yaml
   label: Hakuna Time Entries API
   slug: hakuna-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-time-entries-api-openapi.yml
 - filename: hakuna-timer-api-openapi.yml
   format: yaml
   label: Hakuna Timer API
   slug: hakuna-timer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-timer-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-timer-api-openapi.yml
 - filename: hakuna-users-api-openapi.yml
   format: yaml
   label: Hakuna Users API
   slug: hakuna-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/openapi/hakuna-users-api-openapi.yml
+  url: https://artifacts.apis.io/hakuna/openapi/hakuna-users-api-openapi.yml
 consequence_counts:
   read: 18
   safety-critical: 1
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/hakuna
   \  operationId: createManagedClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/clients/{id}\n  method: get\n  operationId: getManagedClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/clients/{id}\n  method: patch\n  operationId: updateManagedClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/clients/{id}\n  method: delete\n  operationId: deleteManagedClient\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/tasks\n  method: get\n  operationId: listManagedTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/tasks\n  method: post\n  operationId: createManagedTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/tasks/{id}\n  method: get\n  operationId: getManagedTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/tasks/{id}\n  method: patch\n  operationId: updateManagedTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/tasks/{id}\n  method: delete\n  operationId: deleteManagedTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/agentic-access/hakuna-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hakuna/agentic-access/hakuna-agentic-access.yml
 summary_line: 33 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Company

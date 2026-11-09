@@ -9,121 +9,121 @@ api_specs:
   label: Binarly Assistant API
   slug: binarly-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-assistant-api-openapi.yml
 - filename: binarly-chart-api-openapi.yml
   format: yaml
   label: Binarly Chart API
   slug: binarly-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-chart-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-chart-api-openapi.yml
 - filename: binarly-escalation-api-openapi.yml
   format: yaml
   label: Binarly Escalation API
   slug: binarly-escalation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-escalation-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-escalation-api-openapi.yml
 - filename: binarly-file-api-openapi.yml
   format: yaml
   label: Binarly File API
   slug: binarly-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-file-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-file-api-openapi.yml
 - filename: binarly-finding-api-openapi.yml
   format: yaml
   label: Binarly Finding API
   slug: binarly-finding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-finding-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-finding-api-openapi.yml
 - filename: binarly-grid-api-openapi.yml
   format: yaml
   label: Binarly Grid API
   slug: binarly-grid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-grid-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-grid-api-openapi.yml
 - filename: binarly-group-api-openapi.yml
   format: yaml
   label: Binarly Group API
   slug: binarly-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-group-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-group-api-openapi.yml
 - filename: binarly-image-api-openapi.yml
   format: yaml
   label: Binarly Image API
   slug: binarly-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-image-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-image-api-openapi.yml
 - filename: binarly-integration-api-openapi.yml
   format: yaml
   label: Binarly Integration API
   slug: binarly-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-integration-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-integration-api-openapi.yml
 - filename: binarly-notification-api-openapi.yml
   format: yaml
   label: Binarly Notification API
   slug: binarly-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-notification-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-notification-api-openapi.yml
 - filename: binarly-product-api-openapi.yml
   format: yaml
   label: Binarly Product API
   slug: binarly-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-product-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-product-api-openapi.yml
 - filename: binarly-rolebinding-api-openapi.yml
   format: yaml
   label: Binarly RoleBinding API
   slug: binarly-rolebinding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-rolebinding-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-rolebinding-api-openapi.yml
 - filename: binarly-scan-api-openapi.yml
   format: yaml
   label: Binarly Scan API
   slug: binarly-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-scan-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-scan-api-openapi.yml
 - filename: binarly-search-api-openapi.yml
   format: yaml
   label: Binarly Search API
   slug: binarly-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-search-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-search-api-openapi.yml
 - filename: binarly-subscription-api-openapi.yml
   format: yaml
   label: Binarly Subscription API
   slug: binarly-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-subscription-api-openapi.yml
 - filename: binarly-tempfile-api-openapi.yml
   format: yaml
   label: Binarly TempFile API
   slug: binarly-tempfile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-tempfile-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-tempfile-api-openapi.yml
 - filename: binarly-user-api-openapi.yml
   format: yaml
   label: Binarly User API
   slug: binarly-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-user-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-user-api-openapi.yml
 - filename: binarly-userstorage-api-openapi.yml
   format: yaml
   label: Binarly UserStorage API
   slug: binarly-userstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-userstorage-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-userstorage-api-openapi.yml
 - filename: binarly-vulnerability-api-openapi.yml
   format: yaml
   label: Binarly Vulnerability API
   slug: binarly-vulnerability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-vulnerability-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-vulnerability-api-openapi.yml
 - filename: binarly-custom-rules-api-openapi.yml
   format: yaml
   label: Binarly Custom Rules API
   slug: binarly-custom-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/openapi/binarly-custom-rules-api-openapi.yml
+  url: https://artifacts.apis.io/binarly/openapi/binarly-custom-rules-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 45
@@ -197,8 +197,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/binarl
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/groups/{groupId}/members\n  method: get\n  operationId: ListGroupMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/groups/{groupId}/members\n  method: post\n  operationId: AddGroupMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/grids/groupMembers:gridList\n  method: post\n  operationId: GridListGroupMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/groups/{groupId}/members:bulkDelete\n  method: post\n  operationId: BulkDeleteGroupMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/roleBindings\n  method: get\n  operationId: ListRoleBindings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/roleBindings\n  method: post\n  operationId: CreateRoleBinding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/roleBindings/{roleBindingId}\n  method: delete\n  operationId: DeleteRoleBinding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/roleBindings/{roleBindingId}\n  method: patch\n  operationId: UpdateRoleBinding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v4/search\n  method: get\n  operationId: GetSearch\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/searchTokens\n  method: get\n  operationId: GetSearchTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/vulnerabilities\n  method: get\n  operationId: ListVulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/vulnerabilities/{vulnerabilityId}\n  method: get\n  operationId: GetVulnerability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/agentic-access/binarly-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/agentic-access/binarly-agentic-access.yml
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/searchTokens\n  method: get\n  operationId: GetSearchTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/vulnerabilities\n  method: get\n  operationId: ListVulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v4/vulnerabilities/{vulnerabilityId}\n  method: get\n  operationId: GetVulnerability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/binarly/agentic-access/binarly-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/binarly/agentic-access/binarly-agentic-access.yml
 summary_line: 109 operations · 64 acting · 1 human-in-the-loop
 tags:
 - Company

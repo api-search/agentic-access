@@ -9,55 +9,55 @@ api_specs:
   label: Exec Collections API
   slug: exec-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-collections-api-openapi.yml
+  url: https://artifacts.apis.io/exec/openapi/exec-collections-api-openapi.yml
 - filename: exec-knowledge-hub-folders-api-openapi.yml
   format: yaml
   label: Exec Knowledge Hub - Folders API
   slug: exec-knowledge-hub-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-knowledge-hub-folders-api-openapi.yml
+  url: https://artifacts.apis.io/exec/openapi/exec-knowledge-hub-folders-api-openapi.yml
 - filename: exec-knowledge-hub-pages-api-openapi.yml
   format: yaml
   label: Exec Knowledge Hub - Pages API
   slug: exec-knowledge-hub-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-knowledge-hub-pages-api-openapi.yml
+  url: https://artifacts.apis.io/exec/openapi/exec-knowledge-hub-pages-api-openapi.yml
 - filename: exec-knowledge-hub-sources-api-openapi.yml
   format: yaml
   label: Exec Knowledge Hub - Sources API
   slug: exec-knowledge-hub-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-knowledge-hub-sources-api-openapi.yml
+  url: https://artifacts.apis.io/exec/openapi/exec-knowledge-hub-sources-api-openapi.yml
 - filename: exec-scenario-studio-api-openapi.yml
   format: yaml
   label: Exec Scenario Studio API
   slug: exec-scenario-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-scenario-studio-api-openapi.yml
+  url: https://artifacts.apis.io/exec/openapi/exec-scenario-studio-api-openapi.yml
 - filename: exec-scenarios-api-openapi.yml
   format: yaml
   label: Exec Scenarios API
   slug: exec-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/exec/openapi/exec-scenarios-api-openapi.yml
 - filename: exec-sessions-api-openapi.yml
   format: yaml
   label: Exec Sessions API
   slug: exec-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/exec/openapi/exec-sessions-api-openapi.yml
 - filename: exec-skills-api-openapi.yml
   format: yaml
   label: Exec Skills API
   slug: exec-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-skills-api-openapi.yml
+  url: https://artifacts.apis.io/exec/openapi/exec-skills-api-openapi.yml
 - filename: exec-workspace-api-openapi.yml
   format: yaml
   label: Exec Workspace API
   slug: exec-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/exec-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/exec/openapi/exec-workspace-api-openapi.yml
 consequence_counts:
   read: 21
   write: 11
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/exec-o
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /knowledge-hub/pages/{page_id}\n  method: put\n  operationId: replaceKnowledgeHubPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /knowledge-hub/pages/{page_id}\n  method: delete\n  operationId: archiveKnowledgeHubPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /knowledge-hub/pages/{page_id}/versions\n\
   \  method: get\n  operationId: listKnowledgeHubPageVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /knowledge-hub/sources\n  method: get\n  operationId: listKnowledgeHubSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /knowledge-hub/sources\n  method: post\n  operationId: createKnowledgeHubSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /knowledge-hub/sources/{source_id}\n  method: get\n  operationId: getKnowledgeHubSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /knowledge-hub/sources/{source_id}\n  method: delete\n  operationId: deleteKnowledgeHubSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/agentic-access/exec-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/exec/agentic-access/exec-agentic-access.yml
 summary_line: 32 operations · 11 acting
 tags:
 - Company

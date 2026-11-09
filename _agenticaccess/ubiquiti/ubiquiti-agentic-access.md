@@ -8,31 +8,31 @@ api_specs:
   label: Ubiquiti Devices API
   slug: ubiquiti-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-devices-api-openapi.yml
+  url: https://artifacts.apis.io/ubiquiti/openapi/ubiquiti-devices-api-openapi.yml
 - filename: ubiquiti-hosts-api-openapi.yml
   format: yaml
   label: Ubiquiti Hosts API
   slug: ubiquiti-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/ubiquiti/openapi/ubiquiti-hosts-api-openapi.yml
 - filename: ubiquiti-isp-metrics-api-openapi.yml
   format: yaml
   label: Ubiquiti ISP Metrics API
   slug: ubiquiti-isp-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-isp-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ubiquiti/openapi/ubiquiti-isp-metrics-api-openapi.yml
 - filename: ubiquiti-sd-wan-api-openapi.yml
   format: yaml
   label: Ubiquiti SD-WAN API
   slug: ubiquiti-sd-wan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-sd-wan-api-openapi.yml
+  url: https://artifacts.apis.io/ubiquiti/openapi/ubiquiti-sd-wan-api-openapi.yml
 - filename: ubiquiti-sites-api-openapi.yml
   format: yaml
   label: Ubiquiti Sites API
   slug: ubiquiti-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/openapi/ubiquiti-sites-api-openapi.yml
+  url: https://artifacts.apis.io/ubiquiti/openapi/ubiquiti-sites-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ubiquiti-devices-api-openapi.yml, openapi/ubiquiti-hosts-api-openapi.yml, openapi/ubiquiti-isp-metrics-api-openapi.yml,\n  openapi/ubiquiti-sd-wan-api-openapi.yml, openapi/ubiquiti-sites-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hosts\n  method: get\n  operationId: listHosts\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/hosts/{id}\n  method: get\n  operationId: getHostById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ea/isp-metrics/{type}\n  method: get\n  operationId: getIspMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ea/isp-metrics/{type}/query\n  method: post\n  operationId: queryIspMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ea/sd-wan-configs\n  method: get\n  operationId: listSdwanConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ea/sd-wan-configs/{id}\n\
   \  method: get\n  operationId: getSdwanConfigById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ea/sd-wan-configs/{id}/status\n  method: get\n  operationId: getSdwanConfigStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sites\n  method: get\n  operationId: listSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/agentic-access/ubiquiti-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ubiquiti/agentic-access/ubiquiti-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Networking

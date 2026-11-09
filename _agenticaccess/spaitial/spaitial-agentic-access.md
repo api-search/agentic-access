@@ -9,25 +9,25 @@ api_specs:
   label: SpAItial Files API
   slug: spaitial-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-files-api-openapi.yml
+  url: https://artifacts.apis.io/spaitial/openapi/spaitial-files-api-openapi.yml
 - filename: spaitial-models-api-openapi.yml
   format: yaml
   label: SpAItial Models API
   slug: spaitial-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-models-api-openapi.yml
+  url: https://artifacts.apis.io/spaitial/openapi/spaitial-models-api-openapi.yml
 - filename: spaitial-panoramas-api-openapi.yml
   format: yaml
   label: SpAItial Panoramas API
   slug: spaitial-panoramas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-panoramas-api-openapi.yml
+  url: https://artifacts.apis.io/spaitial/openapi/spaitial-panoramas-api-openapi.yml
 - filename: spaitial-worlds-api-openapi.yml
   format: yaml
   label: SpAItial Worlds API
   slug: spaitial-worlds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-worlds-api-openapi.yml
+  url: https://artifacts.apis.io/spaitial/openapi/spaitial-worlds-api-openapi.yml
 consequence_counts:
   read: 12
   write: 6
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/spaiti
   \  method: get\n  operationId: V1Worlds_listExports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/worlds/requests/{requestId}/splat\n  method: get\n  operationId: V1Worlds_getSplatDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/worlds/requests/{requestId}/panorama\n  method: get\n  operationId: V1Worlds_getPanoramaDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/files\n  method: get\n  operationId: V1Files_listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/files\n  method: post\n  operationId: V1Files_uploadFile\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models\n  method: get\n  operationId: V1Models_listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/panoramas/edit\n  method: post\n  operationId: V1Panoramas_editPanorama\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/panoramas\n  method: get\n  operationId: V1Panoramas_listPanoramas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/panoramas/{panoramaId}\n  method: get\n  operationId: V1Panoramas_getPanorama\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/panoramas/{panoramaId}/download\n  method: get\n  operationId: V1Panoramas_downloadPanorama\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/agentic-access/spaitial-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spaitial/agentic-access/spaitial-agentic-access.yml
 summary_line: 18 operations · 6 acting
 tags:
 - Company

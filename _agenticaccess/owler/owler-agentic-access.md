@@ -8,19 +8,19 @@ api_specs:
   label: Owler Company Premium API
   slug: owler-company-premium-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-company-premium-api-api-openapi.yml
+  url: https://artifacts.apis.io/owler/openapi/owler-company-premium-api-api-openapi.yml
 - filename: owler-competitor-premium-api-api-openapi.yml
   format: yaml
   label: Owler Competitor Premium API
   slug: owler-competitor-premium-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-competitor-premium-api-api-openapi.yml
+  url: https://artifacts.apis.io/owler/openapi/owler-competitor-premium-api-api-openapi.yml
 - filename: owler-feed-api-api-openapi.yml
   format: yaml
   label: Owler Feed API
   slug: owler-feed-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-feed-api-api-openapi.yml
+  url: https://artifacts.apis.io/owler/openapi/owler-feed-api-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/owler-enterprise-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/companypremium/url/{website}\n  method: get\n  operationId: getCompanyByWebsite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companypremium/id/{companyId}\n  method: get\n  operationId: getCompanyById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/company/competitorpremium/url/{website}\n\
   \  method: get\n  operationId: getCompetitorsForWebsite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/company/competitorpremium/id/{companyId}\n  method: get\n  operationId: getCompetitorsForId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/feed/url\n  method: get\n  operationId: getFeedsByWebsite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/feed\n  method: get\n  operationId: getFeeds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/agentic-access/owler-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/owler/agentic-access/owler-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Company

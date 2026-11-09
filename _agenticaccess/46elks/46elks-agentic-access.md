@@ -9,31 +9,31 @@ api_specs:
   label: 46elks Calls API
   slug: 46elks-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-calls-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-calls-api-openapi.yml
 - filename: 46elks-media-api-openapi.yml
   format: yaml
   label: 46elks Media API
   slug: 46elks-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-media-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-media-api-openapi.yml
 - filename: 46elks-mms-api-openapi.yml
   format: yaml
   label: 46elks MMS API
   slug: 46elks-mms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-mms-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-mms-api-openapi.yml
 - filename: 46elks-numbers-api-openapi.yml
   format: yaml
   label: 46elks Numbers API
   slug: 46elks-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-numbers-api-openapi.yml
 - filename: 46elks-sms-api-openapi.yml
   format: yaml
   label: 46elks SMS API
   slug: 46elks-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/openapi/46elks-sms-api-openapi.yml
+  url: https://artifacts.apis.io/46elks/openapi/46elks-sms-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/46elks
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calls\n  method: post\n  operationId: makeCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calls\n  method: get\n  operationId: listCalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calls/{id}\n  method: get\n  operationId: getCall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /numbers\n  method: post\n  operationId: allocateNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /numbers\n  method: get\n  operationId: listNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /numbers/{id}\n  method: post\n  operationId: updateNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /numbers/{id}\n  method: delete\n  operationId: deallocateNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recordings\n  method: get\n  operationId: listRecordings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images\n  method: get\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/agentic-access/46elks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/46elks/agentic-access/46elks-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - CPaaS

@@ -9,37 +9,37 @@ api_specs:
   label: Ondemand Chat API
   slug: ondemand-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-chat-api-openapi.yml
+  url: https://artifacts.apis.io/ondemand/openapi/ondemand-chat-api-openapi.yml
 - filename: ondemand-config-api-openapi.yml
   format: yaml
   label: Ondemand Config API
   slug: ondemand-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-config-api-openapi.yml
+  url: https://artifacts.apis.io/ondemand/openapi/ondemand-config-api-openapi.yml
 - filename: ondemand-execute-api-openapi.yml
   format: yaml
   label: Ondemand Execute API
   slug: ondemand-execute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-execute-api-openapi.yml
+  url: https://artifacts.apis.io/ondemand/openapi/ondemand-execute-api-openapi.yml
 - filename: ondemand-media-api-openapi.yml
   format: yaml
   label: Ondemand Media API
   slug: ondemand-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-media-api-openapi.yml
+  url: https://artifacts.apis.io/ondemand/openapi/ondemand-media-api-openapi.yml
 - filename: ondemand-user-api-openapi.yml
   format: yaml
   label: Ondemand User API
   slug: ondemand-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-user-api-openapi.yml
+  url: https://artifacts.apis.io/ondemand/openapi/ondemand-user-api-openapi.yml
 - filename: ondemand-workflow-api-openapi.yml
   format: yaml
   label: Ondemand Workflow API
   slug: ondemand-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/openapi/ondemand-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/ondemand/openapi/ondemand-workflow-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/ondema
   \  audit: required\n- path: /execute/language_translation\n  method: post\n  operationId: translateText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/v1/public/mqtt_user\n  method: post\n  operationId: createMqttUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/v1/public/mqtt_user/{userId}\n  method: delete\n  operationId: deleteMqttUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/v1/public/user/apiKey/create\n  method: post\n  operationId: generateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/v1/public/user/apiKey/revoke/{apiKeyId}\n  method: delete\n  operationId: deleteApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /workflow\n  method: post\n  operationId: createWorkflow\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow/{id}\n  method: patch\n  operationId: updateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ondemand/refs/heads/main/agentic-access/ondemand-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ondemand/agentic-access/ondemand-agentic-access.yml
 summary_line: 22 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Company

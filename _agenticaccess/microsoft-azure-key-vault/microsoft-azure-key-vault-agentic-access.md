@@ -9,19 +9,19 @@ api_specs:
   label: Azure Key Vault Certificates API
   slug: microsoft-azure-key-vault-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/openapi/microsoft-azure-key-vault-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-key-vault/openapi/microsoft-azure-key-vault-certificates-api-openapi.yml
 - filename: microsoft-azure-key-vault-keys-api-openapi.yml
   format: yaml
   label: Azure Key Vault Keys API
   slug: microsoft-azure-key-vault-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/openapi/microsoft-azure-key-vault-keys-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-key-vault/openapi/microsoft-azure-key-vault-keys-api-openapi.yml
 - filename: microsoft-azure-key-vault-secrets-api-openapi.yml
   format: yaml
   label: Azure Key Vault Secrets API
   slug: microsoft-azure-key-vault-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/openapi/microsoft-azure-key-vault-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-key-vault/openapi/microsoft-azure-key-vault-secrets-api-openapi.yml
 consequence_counts:
   read: 9
   write: 20
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /certificates\n  method: get\n  operationId: Certificates_GetCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certificates/{certificate-name}/import\n  method: post\n  operationId: Certificates_ImportCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /certificates/{certificate-name}/policy\n  method: get\n  operationId: Certificates_GetCertificatePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certificates/{certificate-name}/policy\n  method: patch\n  operationId: Certificates_UpdateCertificatePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /certificates/{certificate-name}/pending\n  method: get\n  operationId: Certificates_GetCertificateOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certificates/{certificate-name}/pending\n  method: delete\n  operationId: Certificates_DeleteCertificateOperation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/agentic-access/microsoft-azure-key-vault-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-key-vault/agentic-access/microsoft-azure-key-vault-agentic-access.yml
 summary_line: 29 operations · 20 acting
 tags:
 - Certificates

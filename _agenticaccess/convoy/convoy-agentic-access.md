@@ -9,67 +9,67 @@ api_specs:
   label: Convoy Delivery Attempts API
   slug: convoy-delivery-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-delivery-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-delivery-attempts-api-openapi.yml
 - filename: convoy-endpoints-api-openapi.yml
   format: yaml
   label: Convoy Endpoints API
   slug: convoy-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-endpoints-api-openapi.yml
 - filename: convoy-event-deliveries-api-openapi.yml
   format: yaml
   label: Convoy Event Deliveries API
   slug: convoy-event-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-event-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-event-deliveries-api-openapi.yml
 - filename: convoy-events-api-openapi.yml
   format: yaml
   label: Convoy Events API
   slug: convoy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-events-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-events-api-openapi.yml
 - filename: convoy-filters-api-openapi.yml
   format: yaml
   label: Convoy Filters API
   slug: convoy-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-filters-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-filters-api-openapi.yml
 - filename: convoy-meta-events-api-openapi.yml
   format: yaml
   label: Convoy Meta Events API
   slug: convoy-meta-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-meta-events-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-meta-events-api-openapi.yml
 - filename: convoy-onboard-api-openapi.yml
   format: yaml
   label: Convoy Onboard API
   slug: convoy-onboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-onboard-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-onboard-api-openapi.yml
 - filename: convoy-portal-links-api-openapi.yml
   format: yaml
   label: Convoy Portal Links API
   slug: convoy-portal-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-portal-links-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-portal-links-api-openapi.yml
 - filename: convoy-sources-api-openapi.yml
   format: yaml
   label: Convoy Sources API
   slug: convoy-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-sources-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-sources-api-openapi.yml
 - filename: convoy-subscriptions-api-openapi.yml
   format: yaml
   label: Convoy Subscriptions API
   slug: convoy-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-subscriptions-api-openapi.yml
 - filename: convoy-event-types-api-openapi.yml
   format: yaml
   label: Convoy Event Types API
   slug: convoy-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/openapi/convoy-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/convoy/openapi/convoy-event-types-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 20
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/convoy
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectID}/subscriptions/{subscriptionID}/filters/bulk_update\n  method: put\n  operationId: BulkUpdateFilters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectID}/subscriptions/{subscriptionID}/filters/test/{eventType}\n  method: post\n  operationId: TestFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectID}/subscriptions/{subscriptionID}/filters/{filterID}\n  method: delete\n  operationId: DeleteFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectID}/subscriptions/{subscriptionID}/filters/{filterID}\n  method: get\n  operationId: GetFilter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectID}/subscriptions/{subscriptionID}/filters/{filterID}\n  method: put\n  operationId: UpdateFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/agentic-access/convoy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/convoy/agentic-access/convoy-agentic-access.yml
 summary_line: 60 operations · 40 acting · 1 human-in-the-loop
 tags:
 - Webhook

@@ -8,61 +8,61 @@ api_specs:
   label: SocialAPIs Account API
   slug: socialapis-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-account-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-account-api-openapi.yml
 - filename: socialapis-facebook-groups-api-openapi.yml
   format: yaml
   label: SocialAPIs Facebook Groups API
   slug: socialapis-facebook-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-facebook-groups-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-facebook-groups-api-openapi.yml
 - filename: socialapis-facebook-marketplace-api-openapi.yml
   format: yaml
   label: SocialAPIs Facebook Marketplace API
   slug: socialapis-facebook-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-facebook-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-facebook-marketplace-api-openapi.yml
 - filename: socialapis-facebook-media-api-openapi.yml
   format: yaml
   label: SocialAPIs Facebook Media API
   slug: socialapis-facebook-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-facebook-media-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-facebook-media-api-openapi.yml
 - filename: socialapis-facebook-pages-api-openapi.yml
   format: yaml
   label: SocialAPIs Facebook Pages API
   slug: socialapis-facebook-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-facebook-pages-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-facebook-pages-api-openapi.yml
 - filename: socialapis-facebook-posts-api-openapi.yml
   format: yaml
   label: SocialAPIs Facebook Posts API
   slug: socialapis-facebook-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-facebook-posts-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-facebook-posts-api-openapi.yml
 - filename: socialapis-facebook-search-api-openapi.yml
   format: yaml
   label: SocialAPIs Facebook Search API
   slug: socialapis-facebook-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-facebook-search-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-facebook-search-api-openapi.yml
 - filename: socialapis-instagram-api-openapi.yml
   format: yaml
   label: SocialAPIs Instagram API
   slug: socialapis-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-instagram-api-openapi.yml
 - filename: socialapis-meta-ads-library-api-openapi.yml
   format: yaml
   label: SocialAPIs Meta Ads Library API
   slug: socialapis-meta-ads-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-meta-ads-library-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-meta-ads-library-api-openapi.yml
 - filename: socialapis-other-api-openapi.yml
   format: yaml
   label: SocialAPIs Other API
   slug: socialapis-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/openapi/socialapis-other-api-openapi.yml
+  url: https://artifacts.apis.io/socialapis/openapi/socialapis-other-api-openapi.yml
 consequence_counts:
   read: 53
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/social
   \  method: get\n  operationId: instagram_get_profile_reels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instagram/profile/highlights\n  method: get\n  operationId: instagram_get_profile_highlights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instagram/highlight/details\n  method: get\n  operationId: instagram_get_highlight_details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instagram/post/id\n  method: get\n  operationId: instagram_get_post_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instagram/post/details\n  method: get\n  operationId: instagram_get_post_details\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instagram/reels/feed\n  method: get\n  operationId: instagram_get_reels_feed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instagram/reels/audio\n  method: get\n  operationId: instagram_get_reels_by_audio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instagram/search\n  method: get\n  operationId: instagram_popular_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instagram/location/posts\n  method: get\n  operationId: instagram_get_location_posts\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instagram/location/nearby\n  method: get\n  operationId: instagram_get_nearby_locations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: account_get_usage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/top-ups\n  method: get\n  operationId: account_get_top_ups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/limits\n  method: get\n  operationId: account_get_limits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/socialapis/refs/heads/main/agentic-access/socialapis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/socialapis/agentic-access/socialapis-agentic-access.yml
 summary_line: 53 operations
 tags:
 - Company

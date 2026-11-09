@@ -9,37 +9,37 @@ api_specs:
   label: Wells Fargo ACH Payments API
   slug: ach-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-ach-payments-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-ach-payments-api-openapi.yml
 - filename: wells-fargo-accounts-api-openapi.yml
   format: yaml
   label: wells-fargo Accounts API
   slug: wells-fargo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-accounts-api-openapi.yml
 - filename: wells-fargo-payment-batches-api-openapi.yml
   format: yaml
   label: wells-fargo Payment Batches API
   slug: wells-fargo-payment-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-payment-batches-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-payment-batches-api-openapi.yml
 - filename: wells-fargo-payment-returns-api-openapi.yml
   format: yaml
   label: wells-fargo Payment Returns API
   slug: wells-fargo-payment-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-payment-returns-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-payment-returns-api-openapi.yml
 - filename: wells-fargo-payments-api-openapi.yml
   format: yaml
   label: wells-fargo Payments API
   slug: wells-fargo-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-payments-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-payments-api-openapi.yml
 - filename: wells-fargo-transactions-api-openapi.yml
   format: yaml
   label: wells-fargo Transactions API
   slug: wells-fargo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-transactions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 10
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wells-
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/ach/payments\n  method: get\n  operationId: listAchPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/ach/payments/{paymentId}\n  method: get\n  operationId: getAchPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/ach/payments/{paymentId}\n  method: delete\n  operationId: cancelAchPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n \
   \     purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/ach/batches\n  method: post\n  operationId: submitAchBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/ach/returns\n  method: get\n  operationId: listAchReturns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/agentic-access/wells-fargo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wells-fargo/agentic-access/wells-fargo-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - Fortune 100

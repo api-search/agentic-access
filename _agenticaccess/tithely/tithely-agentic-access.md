@@ -9,37 +9,37 @@ api_specs:
   label: Tithe.ly Accounts API
   slug: tithely-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-accounts-api-openapi.yml
 - filename: tithely-mail-api-openapi.yml
   format: yaml
   label: Tithe.ly Mail API
   slug: tithely-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-mail-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-mail-api-openapi.yml
 - filename: tithely-organizations-api-openapi.yml
   format: yaml
   label: Tithe.ly Organizations API
   slug: tithely-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-organizations-api-openapi.yml
 - filename: tithely-payment-categories-api-openapi.yml
   format: yaml
   label: Tithe.ly Payment Categories API
   slug: tithely-payment-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-payment-categories-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-payment-categories-api-openapi.yml
 - filename: tithely-payments-api-openapi.yml
   format: yaml
   label: Tithe.ly Payments API
   slug: tithely-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-payments-api-openapi.yml
 - filename: tithely-transactions-api-openapi.yml
   format: yaml
   label: Tithe.ly Transactions API
   slug: tithely-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/openapi/tithely-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/tithely/openapi/tithely-transactions-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 3
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tithel
   \  method: post\n  operationId: createPaymentCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction\n  method: post\n  operationId: createTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mail\n  method: post\n  operationId: sendMail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-methods\n  method: post\n  operationId: createPaymentMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /charge\n  method: post\n  operationId: charge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /charge-once\n  method: post\n  operationId: chargeOnce\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/agentic-access/tithely-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tithely/agentic-access/tithely-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - Church Giving

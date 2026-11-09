@@ -9,109 +9,109 @@ api_specs:
   label: Commune Articles API
   slug: usecommune-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-articles-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-articles-api-openapi.yml
 - filename: usecommune-engagement-api-openapi.yml
   format: yaml
   label: Commune Engagement API
   slug: usecommune-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-engagement-api-openapi.yml
 - filename: usecommune-event-delivery-api-openapi.yml
   format: yaml
   label: Commune Event delivery API
   slug: usecommune-event-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-event-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-event-delivery-api-openapi.yml
 - filename: usecommune-highlights-api-openapi.yml
   format: yaml
   label: Commune Highlights API
   slug: usecommune-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-highlights-api-openapi.yml
 - filename: usecommune-messages-api-openapi.yml
   format: yaml
   label: Commune Messages API
   slug: usecommune-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-messages-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-messages-api-openapi.yml
 - filename: usecommune-metrics-api-openapi.yml
   format: yaml
   label: Commune Metrics API
   slug: usecommune-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-metrics-api-openapi.yml
 - filename: usecommune-newsletters-api-openapi.yml
   format: yaml
   label: Commune Newsletters API
   slug: usecommune-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-newsletters-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-newsletters-api-openapi.yml
 - filename: usecommune-platform-api-openapi.yml
   format: yaml
   label: Commune Platform API
   slug: usecommune-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-platform-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-platform-api-openapi.yml
 - filename: usecommune-search-api-openapi.yml
   format: yaml
   label: Commune Search API
   slug: usecommune-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-search-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-search-api-openapi.yml
 - filename: usecommune-senders-api-openapi.yml
   format: yaml
   label: Commune Senders API
   slug: usecommune-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-senders-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-senders-api-openapi.yml
 - filename: usecommune-sends-api-openapi.yml
   format: yaml
   label: Commune Sends API
   slug: usecommune-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-sends-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-sends-api-openapi.yml
 - filename: usecommune-subscriber-tags-api-openapi.yml
   format: yaml
   label: Commune Subscriber tags API
   slug: usecommune-subscriber-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-subscriber-tags-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-subscriber-tags-api-openapi.yml
 - filename: usecommune-subscribers-api-openapi.yml
   format: yaml
   label: Commune Subscribers API
   slug: usecommune-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-subscribers-api-openapi.yml
 - filename: usecommune-team-api-openapi.yml
   format: yaml
   label: Commune Team API
   slug: usecommune-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-team-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-team-api-openapi.yml
 - filename: usecommune-threads-api-openapi.yml
   format: yaml
   label: Commune Threads API
   slug: usecommune-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-threads-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-threads-api-openapi.yml
 - filename: usecommune-users-api-openapi.yml
   format: yaml
   label: Commune Users API
   slug: usecommune-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-users-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-users-api-openapi.yml
 - filename: usecommune-webhooks-api-openapi.yml
   format: yaml
   label: Commune Webhooks API
   slug: usecommune-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-webhooks-api-openapi.yml
 - filename: usecommune-website-domains-api-openapi.yml
   format: yaml
   label: Commune Website domains API
   slug: usecommune-website-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/openapi/usecommune-website-domains-api-openapi.yml
+  url: https://artifacts.apis.io/usecommune/openapi/usecommune-website-domains-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 44
@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/usecom
   \      - high-value\n    audit: required\n- path: /newsletters/{newsletter}/portal-session\n  method: post\n  operationId: createPortalSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhooks:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /newsletters/{newsletter}/community\n  method: get\n  operationId: listNewsletterCommunity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - audience:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsletters/{newsletter}/sends\n  method: get\n  operationId: listNewsletterSends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sending:read\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /sends/{send}\n  method: get\n  operationId: getSend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sending:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsletters/{newsletter}/entitlements\n  method: get\n  operationId: getNewsletterEntitlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - settings:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsletters/{newsletter}/api-keys\n  method: get\n  operationId: listNewsletterApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - settings:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys/{key}\n  method: get\n  operationId: getApiKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - settings:write\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys/{key}\n  method: delete\n  operationId: revokeApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - settings:write\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/agentic-access/usecommune-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/usecommune/agentic-access/usecommune-agentic-access.yml
 summary_line: 63 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Newsletters

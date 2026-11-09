@@ -9,25 +9,25 @@ api_specs:
   label: LeadIQ Account API
   slug: leadiq-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-account-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-account-api-openapi.yml
 - filename: leadiq-lists-api-openapi.yml
   format: yaml
   label: LeadIQ Lists API
   slug: leadiq-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-lists-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-lists-api-openapi.yml
 - filename: leadiq-prospects-api-openapi.yml
   format: yaml
   label: LeadIQ Prospects API
   slug: leadiq-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-prospects-api-openapi.yml
 - filename: leadiq-graph-ql-api-openapi.yml
   format: yaml
   label: LeadIQ Graph QL API
   slug: leadiq-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-graph-ql-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/leadiq
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lists/{listId}/prospects/batch\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lists/{listId}/prospects/{prospectId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/prospects\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v1/prospects\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/verify-email\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prospects/{prospectId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prospects/{prospectId}/verify-email\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
   \  - high-value\n    audit: required\n- path: /v1/prospects/{prospectId}/export/salesforce\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/whoami\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/agentic-access/leadiq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/leadiq/agentic-access/leadiq-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Sales Intelligence

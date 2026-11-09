@@ -9,187 +9,187 @@ api_specs:
   label: Telesign Accounts API
   slug: accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-accounts-api-openapi.yml
 - filename: telesign-deactivated-numbers-api-openapi.yml
   format: yaml
   label: Telesign Deactivated Numbers API
   slug: deactivated-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-deactivated-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-deactivated-numbers-api-openapi.yml
 - filename: telesign-email-intelligence-api-openapi.yml
   format: yaml
   label: Telesign Email Intelligence API
   slug: email-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-email-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-email-intelligence-api-openapi.yml
 - filename: telesign-flow-builder-api-openapi.yml
   format: yaml
   label: Telesign Flow Builder API
   slug: flow-builder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-flow-builder-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-flow-builder-api-openapi.yml
 - filename: telesign-api-keys-api-openapi.yml
   format: yaml
   label: Telesign API Keys API
   slug: telesign-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-api-keys-api-openapi.yml
 - filename: telesign-bulk-sms-api-openapi.yml
   format: yaml
   label: Telesign Bulk SMS API
   slug: telesign-bulk-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-bulk-sms-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-bulk-sms-api-openapi.yml
 - filename: telesign-bulk-sms-callbacks-api-openapi.yml
   format: yaml
   label: Telesign Bulk SMS Callbacks API
   slug: telesign-bulk-sms-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-bulk-sms-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-bulk-sms-callbacks-api-openapi.yml
 - filename: telesign-calls-api-openapi.yml
   format: yaml
   label: Telesign Calls API
   slug: telesign-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-calls-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-calls-api-openapi.yml
 - filename: telesign-completions-api-openapi.yml
   format: yaml
   label: Telesign Completions API
   slug: telesign-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-completions-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-completions-api-openapi.yml
 - filename: telesign-delivery-reports-api-openapi.yml
   format: yaml
   label: Telesign Delivery Reports API
   slug: telesign-delivery-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-delivery-reports-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-delivery-reports-api-openapi.yml
 - filename: telesign-email-intelligence-extended-response-api-openapi.yml
   format: yaml
   label: Telesign Email Intelligence Extended Response API
   slug: telesign-email-intelligence-extended-response-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-email-intelligence-extended-response-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-email-intelligence-extended-response-api-openapi.yml
 - filename: telesign-finalize-api-openapi.yml
   format: yaml
   label: Telesign Finalize API
   slug: telesign-finalize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-finalize-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-finalize-api-openapi.yml
 - filename: telesign-initiate-api-openapi.yml
   format: yaml
   label: Telesign Initiate API
   slug: telesign-initiate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-initiate-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-initiate-api-openapi.yml
 - filename: telesign-intelligence-api-openapi.yml
   format: yaml
   label: Telesign Intelligence API
   slug: telesign-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-intelligence-api-openapi.yml
 - filename: telesign-messages-api-openapi.yml
   format: yaml
   label: Telesign Messages API
   slug: telesign-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-messages-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-messages-api-openapi.yml
 - filename: telesign-messaging-api-openapi.yml
   format: yaml
   label: Telesign Messaging API
   slug: telesign-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-messaging-api-openapi.yml
 - filename: telesign-messaging-callbacks-api-openapi.yml
   format: yaml
   label: Telesign Messaging Callbacks API
   slug: telesign-messaging-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-messaging-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-messaging-callbacks-api-openapi.yml
 - filename: telesign-number-masking-api-openapi.yml
   format: yaml
   label: Telesign Number Masking API
   slug: telesign-number-masking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-number-masking-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-number-masking-api-openapi.yml
 - filename: telesign-one-time-passcodes-api-openapi.yml
   format: yaml
   label: Telesign One-time passcodes API
   slug: telesign-one-time-passcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-one-time-passcodes-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-one-time-passcodes-api-openapi.yml
 - filename: telesign-phone-id-api-openapi.yml
   format: yaml
   label: Telesign Phone ID API
   slug: telesign-phone-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-phone-id-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-phone-id-api-openapi.yml
 - filename: telesign-phone-id-contact-api-openapi.yml
   format: yaml
   label: Telesign Phone ID Contact API
   slug: telesign-phone-id-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-phone-id-contact-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-phone-id-contact-api-openapi.yml
 - filename: telesign-phone-id-number-deactivation-api-openapi.yml
   format: yaml
   label: Telesign Phone ID Number Deactivation API
   slug: telesign-phone-id-number-deactivation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-phone-id-number-deactivation-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-phone-id-number-deactivation-api-openapi.yml
 - filename: telesign-protect-api-authentication-api-openapi.yml
   format: yaml
   label: Telesign Protect API Authentication API
   slug: telesign-protect-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-protect-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-protect-api-authentication-api-openapi.yml
 - filename: telesign-recordings-api-openapi.yml
   format: yaml
   label: Telesign Recordings API
   slug: telesign-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-recordings-api-openapi.yml
 - filename: telesign-sms-api-openapi.yml
   format: yaml
   label: Telesign SMS API
   slug: telesign-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-sms-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-sms-api-openapi.yml
 - filename: telesign-sms-callbacks-api-openapi.yml
   format: yaml
   label: Telesign SMS Callbacks API
   slug: telesign-sms-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-sms-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-sms-callbacks-api-openapi.yml
 - filename: telesign-templates-api-openapi.yml
   format: yaml
   label: Telesign Templates API
   slug: telesign-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-templates-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-templates-api-openapi.yml
 - filename: telesign-templates-callbacks-api-openapi.yml
   format: yaml
   label: Telesign Templates Callbacks API
   slug: telesign-templates-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-templates-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-templates-callbacks-api-openapi.yml
 - filename: telesign-transaction-status-api-openapi.yml
   format: yaml
   label: Telesign Transaction Status API
   slug: telesign-transaction-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-transaction-status-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-transaction-status-api-openapi.yml
 - filename: telesign-verification-process-api-openapi.yml
   format: yaml
   label: Telesign Verification Process API
   slug: telesign-verification-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-verification-process-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-verification-process-api-openapi.yml
 - filename: telesign-voice-api-openapi.yml
   format: yaml
   label: Telesign Voice API
   slug: telesign-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/openapi/telesign-voice-api-openapi.yml
+  url: https://artifacts.apis.io/telesign/openapi/telesign-voice-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 19
@@ -280,7 +280,7 @@ source_yaml: "generated: '2026-10-17'\nmethod: generated\nsource: openapi/telesi
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/verify/auto/voice/{reference_id}\n  method: get\n  operationId: getAppVerifyStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/verify/{reference_id}\n  method: get\n  operationId: getSMSVerifyStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification\n  method: post\n  operationId: createVerificationProcess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /verification/{reference_id}\n  method: get\n  operationId: getVerificationProcess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification/{reference_id}/state\n  method: patch\n  operationId: updateVerificationProcess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voice\n  method: post\n  operationId: sendVoiceAction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/agentic-access/telesign-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/telesign/agentic-access/telesign-agentic-access.yml
 summary_line: 63 operations · 44 acting
 tags:
 - Authentication

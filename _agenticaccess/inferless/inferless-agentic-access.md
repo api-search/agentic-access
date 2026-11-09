@@ -9,13 +9,13 @@ api_specs:
   label: Inferless Inference API
   slug: inferless-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-inference-api-openapi.yml
+  url: https://artifacts.apis.io/inferless/openapi/inferless-inference-api-openapi.yml
 - filename: inferless-model-management-api-openapi.yml
   format: yaml
   label: Inferless Model Management API
   slug: inferless-model-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-model-management-api-openapi.yml
+  url: https://artifacts.apis.io/inferless/openapi/inferless-model-management-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 1
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/inferless-inference-api-openapi.yml, openapi/inferless-model-management-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 2\n    connected: 1\n  by_consequence:\n    physical: 1\n    write: 1\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/inference/{model_name}/infer\n  method: post\n  operationId: runInference\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /rest/model/settings/update/\n  method: post\n  operationId: updateModelSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/model/logs/get/\n  method: post\n  operationId: getModelLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/agentic-access/inferless-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/inferless/agentic-access/inferless-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
 - Artificial Intelligence

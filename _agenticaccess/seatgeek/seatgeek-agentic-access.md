@@ -8,31 +8,31 @@ api_specs:
   label: SeatGeek Events API
   slug: seatgeek-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-events-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-events-api-openapi.yml
 - filename: seatgeek-performers-api-openapi.yml
   format: yaml
   label: SeatGeek Performers API
   slug: seatgeek-performers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-performers-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-performers-api-openapi.yml
 - filename: seatgeek-recommendations-api-openapi.yml
   format: yaml
   label: SeatGeek Recommendations API
   slug: seatgeek-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-recommendations-api-openapi.yml
 - filename: seatgeek-taxonomies-api-openapi.yml
   format: yaml
   label: SeatGeek Taxonomies API
   slug: seatgeek-taxonomies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-taxonomies-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-taxonomies-api-openapi.yml
 - filename: seatgeek-venues-api-openapi.yml
   format: yaml
   label: SeatGeek Venues API
   slug: seatgeek-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/openapi/seatgeek-venues-api-openapi.yml
+  url: https://artifacts.apis.io/seatgeek/openapi/seatgeek-venues-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/seatgeek-platform-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{event_id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /performers\n  method: get\n  operationId: listPerformers\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /performers/{performer_id}\n  method: get\n  operationId: getPerformer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /venues\n  method: get\n  operationId: listVenues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /venues/{venue_id}\n  method: get\n  operationId: getVenue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxonomies\n  method: get\n  operationId: listTaxonomies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recommendations\n\
   \  method: get\n  operationId: getRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recommendations/performers\n  method: get\n  operationId: getPerformerRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/agentic-access/seatgeek-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/seatgeek/agentic-access/seatgeek-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Event

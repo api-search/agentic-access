@@ -9,79 +9,79 @@ api_specs:
   label: Forage EBT SNAP Payments API
   slug: forage-ebt-snap-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-payments-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-payments-api-openapi.yml
 - filename: forage-bearer-tokens-api-openapi.yml
   format: yaml
   label: Forage Bearer Tokens API
   slug: forage-bearer-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-bearer-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-bearer-tokens-api-openapi.yml
 - filename: forage-card-details-api-openapi.yml
   format: yaml
   label: Forage Card Details API
   slug: forage-card-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-card-details-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-card-details-api-openapi.yml
 - filename: forage-custom-sessions-api-openapi.yml
   format: yaml
   label: Forage Custom Sessions API
   slug: forage-custom-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-custom-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-custom-sessions-api-openapi.yml
 - filename: forage-deferred-capture-api-openapi.yml
   format: yaml
   label: Forage Deferred Capture API
   slug: forage-deferred-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-deferred-capture-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-deferred-capture-api-openapi.yml
 - filename: forage-fully-hosted-sessions-api-openapi.yml
   format: yaml
   label: Forage Fully Hosted Sessions API
   slug: forage-fully-hosted-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-fully-hosted-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-fully-hosted-sessions-api-openapi.yml
 - filename: forage-order-payments-api-openapi.yml
   format: yaml
   label: Forage Order Payments API
   slug: forage-order-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-order-payments-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-order-payments-api-openapi.yml
 - filename: forage-order-refunds-api-openapi.yml
   format: yaml
   label: Forage Order Refunds API
   slug: forage-order-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-order-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-order-refunds-api-openapi.yml
 - filename: forage-orders-api-openapi.yml
   format: yaml
   label: Forage Orders API
   slug: forage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-orders-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-orders-api-openapi.yml
 - filename: forage-payment-methods-api-openapi.yml
   format: yaml
   label: Forage Payment Methods API
   slug: forage-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-payment-methods-api-openapi.yml
 - filename: forage-payment-refunds-api-openapi.yml
   format: yaml
   label: Forage Payment Refunds API
   slug: forage-payment-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-payment-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-payment-refunds-api-openapi.yml
 - filename: forage-reports-api-openapi.yml
   format: yaml
   label: Forage Reports API
   slug: forage-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-reports-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-reports-api-openapi.yml
 - filename: forage-sandbox-testing-api-openapi.yml
   format: yaml
   label: Forage Sandbox Testing API
   slug: forage-sandbox-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-sandbox-testing-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-sandbox-testing-api-openapi.yml
 consequence_counts:
   physical: 21
   read: 16
@@ -245,7 +245,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/forage
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/state_card_details\n  method: get\n  operationId: Retrieve state card details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - hosted_checkout\n    - internal\n    - pinpad_only\n    - reporting\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /o/bulk_revoke/\n  method: post\n  operationId: forage_oauth:forage_bulk_revoke_token\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /o/revoke_token/\n  method: post\n  operationId: forage_oauth:forage_revoke_token\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /o/token/\n  method: post\n  operationId: forage_oauth:forage_token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reporting/orders/\n  method: get\n  operationId: reporting:orders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - internal\n    - reporting\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/payouts/\n  method: get\n  operationId: reporting:payouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    scope:\n    - internal\n    - reporting\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/payouts/{payout_id}/transactions/\n  method: get\n  operationId: reporting:transactions_by_payout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - internal\n    - reporting\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/transactions/\n  method: get\n  operationId: reporting:transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - internal\n    - reporting\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/agentic-access/forage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/forage/agentic-access/forage-agentic-access.yml
 summary_line: 43 operations · 27 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -9,25 +9,25 @@ api_specs:
   label: Voiceflow Interact API
   slug: voiceflow-interact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-interact-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-interact-api-openapi.yml
 - filename: voiceflow-session-api-openapi.yml
   format: yaml
   label: Voiceflow Session API
   slug: voiceflow-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-session-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-session-api-openapi.yml
 - filename: voiceflow-state-api-openapi.yml
   format: yaml
   label: Voiceflow State API
   slug: voiceflow-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-state-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-state-api-openapi.yml
 - filename: voiceflow-variables-api-openapi.yml
   format: yaml
   label: Voiceflow Variables API
   slug: voiceflow-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/openapi/voiceflow-variables-api-openapi.yml
+  url: https://artifacts.apis.io/voiceflow/openapi/voiceflow-variables-api-openapi.yml
 consequence_counts:
   read: 1
   write: 7
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/voicef
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /state/user/{userID}\n  method: get\n  operationId: getConversationState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /state/user/{userID}\n  method: put\n  operationId: updateConversationState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /state/user/{userID}\n  method: delete\n  operationId: deleteConversationState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /state/user/{userID}/variables\n  method: patch\n  operationId: updateVariables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/state/user/{userID}/session/start\n  method: post\n  operationId: startSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/state/user/{userID}/session/emit\n  method: post\n\
   \  operationId: emitSessionEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/agentic-access/voiceflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/voiceflow/agentic-access/voiceflow-agentic-access.yml
 summary_line: 8 operations · 7 acting
 tags:
 - Artificial Intelligence

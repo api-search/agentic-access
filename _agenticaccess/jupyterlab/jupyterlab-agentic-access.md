@@ -9,37 +9,37 @@ api_specs:
   label: JupyterLab Licenses API
   slug: jupyterlab-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-licenses-api-openapi.yml
 - filename: jupyterlab-listings-api-openapi.yml
   format: yaml
   label: JupyterLab Listings API
   slug: jupyterlab-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-listings-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-listings-api-openapi.yml
 - filename: jupyterlab-settings-api-openapi.yml
   format: yaml
   label: JupyterLab Settings API
   slug: jupyterlab-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-settings-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-settings-api-openapi.yml
 - filename: jupyterlab-themes-api-openapi.yml
   format: yaml
   label: JupyterLab Themes API
   slug: jupyterlab-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-themes-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-themes-api-openapi.yml
 - filename: jupyterlab-translations-api-openapi.yml
   format: yaml
   label: JupyterLab Translations API
   slug: jupyterlab-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-translations-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-translations-api-openapi.yml
 - filename: jupyterlab-workspaces-api-openapi.yml
   format: yaml
   label: JupyterLab Workspaces API
   slug: jupyterlab-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/openapi/jupyterlab-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterlab/openapi/jupyterlab-workspaces-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jupyte
   \  method: put\n  operationId: updateSetting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{space_name}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{space_name}\n  method: put\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{space_name}\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /themes/{theme_file}\n  method: get\n  operationId: getThemeAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translations\n  method: get\n  operationId: listTranslations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translations/{locale}\n  method: get\n  operationId: getTranslation\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /licenses\n  method: get\n  operationId: getLicenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/@jupyterlab/extensionmanager-extension/listings.json\n  method: get\n  operationId: getListings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/agentic-access/jupyterlab-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jupyterlab/agentic-access/jupyterlab-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
 - Data Science

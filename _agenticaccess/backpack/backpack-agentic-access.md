@@ -9,85 +9,85 @@ api_specs:
   label: Backpack Account API
   slug: backpack-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-account-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-account-api-openapi.yml
 - filename: backpack-assets-api-openapi.yml
   format: yaml
   label: Backpack Assets API
   slug: backpack-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-assets-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-assets-api-openapi.yml
 - filename: backpack-borrow-lend-api-openapi.yml
   format: yaml
   label: Backpack Borrow Lend API
   slug: backpack-borrow-lend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-borrow-lend-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-borrow-lend-api-openapi.yml
 - filename: backpack-borrow-lend-markets-api-openapi.yml
   format: yaml
   label: Backpack Borrow Lend Markets API
   slug: backpack-borrow-lend-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-borrow-lend-markets-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-borrow-lend-markets-api-openapi.yml
 - filename: backpack-capital-api-openapi.yml
   format: yaml
   label: Backpack Capital API
   slug: backpack-capital-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-capital-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-capital-api-openapi.yml
 - filename: backpack-markets-api-openapi.yml
   format: yaml
   label: Backpack Markets API
   slug: backpack-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-markets-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-markets-api-openapi.yml
 - filename: backpack-order-api-openapi.yml
   format: yaml
   label: Backpack Order API
   slug: backpack-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-order-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-order-api-openapi.yml
 - filename: backpack-position-api-openapi.yml
   format: yaml
   label: Backpack Position API
   slug: backpack-position-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-position-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-position-api-openapi.yml
 - filename: backpack-rfq-api-openapi.yml
   format: yaml
   label: Backpack RFQ API
   slug: backpack-rfq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-rfq-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-rfq-api-openapi.yml
 - filename: backpack-strategy-api-openapi.yml
   format: yaml
   label: Backpack Strategy API
   slug: backpack-strategy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-strategy-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-strategy-api-openapi.yml
 - filename: backpack-system-api-openapi.yml
   format: yaml
   label: Backpack System API
   slug: backpack-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-system-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-system-api-openapi.yml
 - filename: backpack-trades-api-openapi.yml
   format: yaml
   label: Backpack Trades API
   slug: backpack-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-trades-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-trades-api-openapi.yml
 - filename: backpack-vaults-api-openapi.yml
   format: yaml
   label: Backpack Vaults API
   slug: backpack-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-vaults-api-openapi.yml
 - filename: backpack-withdrawal-delays-api-openapi.yml
   format: yaml
   label: Backpack Withdrawal Delays API
   slug: backpack-withdrawal-delays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/openapi/backpack-withdrawal-delays-api-openapi.yml
+  url: https://artifacts.apis.io/backpack/openapi/backpack-withdrawal-delays-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 60
@@ -171,7 +171,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/backpa
   \ get\n  operationId: get_fills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wapi/v1/history/funding\n  method: get\n  operationId: get_funding_payments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wapi/v1/history/orders\n  method: get\n  operationId: get_order_history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wapi/v1/history/rfq\n  method: get\n  operationId: get_rfq_history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wapi/v1/history/quote\n  method: get\n  operationId: get_quote_history\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wapi/v1/history/rfq/fill\n  method: get\n  operationId: get_rfq_fill_history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wapi/v1/history/quote/fill\n  method: get\n  operationId: get_quote_fill_history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wapi/v1/history/settlement\n  method: get\n  operationId: get_settlement_history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wapi/v1/history/strategies\n  method: get\n  operationId: get_strategies_history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /wapi/v1/history/position\n  method: get\n  operationId: get_position_history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/klines\n  method: get\n  operationId: get_klines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ticker\n  method: get\n  operationId: get_ticker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tickers\n  method: get\n  operationId: get_tickers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/agentic-access/backpack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/backpack/agentic-access/backpack-agentic-access.yml
 summary_line: 81 operations · 21 acting
 tags:
 - Cryptocurrency

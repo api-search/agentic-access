@@ -9,55 +9,55 @@ api_specs:
   label: US Bancorp Accounts API
   slug: us-bancorp-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/us-bancorp/openapi/us-bancorp-accounts-api-openapi.yml
 - filename: us-bancorp-balances-api-openapi.yml
   format: yaml
   label: US Bancorp Balances API
   slug: us-bancorp-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-balances-api-openapi.yml
+  url: https://artifacts.apis.io/us-bancorp/openapi/us-bancorp-balances-api-openapi.yml
 - filename: us-bancorp-credit-transfers-api-openapi.yml
   format: yaml
   label: US Bancorp Credit Transfers API
   slug: us-bancorp-credit-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-credit-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/us-bancorp/openapi/us-bancorp-credit-transfers-api-openapi.yml
 - filename: us-bancorp-exception-history-api-openapi.yml
   format: yaml
   label: US Bancorp Exception History API
   slug: us-bancorp-exception-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-exception-history-api-openapi.yml
+  url: https://artifacts.apis.io/us-bancorp/openapi/us-bancorp-exception-history-api-openapi.yml
 - filename: us-bancorp-exceptions-api-openapi.yml
   format: yaml
   label: US Bancorp Exceptions API
   slug: us-bancorp-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/us-bancorp/openapi/us-bancorp-exceptions-api-openapi.yml
 - filename: us-bancorp-push-to-card-payments-api-openapi.yml
   format: yaml
   label: US Bancorp Push to Card Payments API
   slug: us-bancorp-push-to-card-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-push-to-card-payments-api-openapi.yml
+  url: https://artifacts.apis.io/us-bancorp/openapi/us-bancorp-push-to-card-payments-api-openapi.yml
 - filename: us-bancorp-request-for-payment-api-openapi.yml
   format: yaml
   label: US Bancorp Request for Payment API
   slug: us-bancorp-request-for-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-request-for-payment-api-openapi.yml
+  url: https://artifacts.apis.io/us-bancorp/openapi/us-bancorp-request-for-payment-api-openapi.yml
 - filename: us-bancorp-rtp-eligibility-api-openapi.yml
   format: yaml
   label: US Bancorp RTP Eligibility API
   slug: us-bancorp-rtp-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-rtp-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/us-bancorp/openapi/us-bancorp-rtp-eligibility-api-openapi.yml
 - filename: us-bancorp-transactions-api-openapi.yml
   format: yaml
   label: US Bancorp Transactions API
   slug: us-bancorp-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/openapi/us-bancorp-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/us-bancorp/openapi/us-bancorp-transactions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 11
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/us-ban
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /push-to-card/payments\n  method: post\n  operationId: initiatePushToCardPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /push-to-card/payments/{paymentId}\n  method: get\n  operationId: getPushToCardPaymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rtp/requests-for-payment\n  method: post\n  operationId: initiateRTPRequestForPayment\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rtp/requests-for-payment/{requestId}\n  method: get\n  operationId: getRTPRequestForPaymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rtp/eligibility\n  method: get\n  operationId: getRTPEligibility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}/current-day-transactions\n  method: get\n  operationId: getCurrentDayTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}/transactions\n  method: get\n  operationId: getAccountTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/agentic-access/us-bancorp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/us-bancorp/agentic-access/us-bancorp-agentic-access.yml
 summary_line: 15 operations · 4 acting
 tags:
 - Banking

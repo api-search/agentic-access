@@ -8,43 +8,43 @@ api_specs:
   label: Vehicle API Inventory API
   slug: vehicle-api-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/openapi/vehicle-api-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-api/openapi/vehicle-api-inventory-api-openapi.yml
 - filename: vehicle-api-makes-api-openapi.yml
   format: yaml
   label: Vehicle API Makes API
   slug: vehicle-api-makes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/openapi/vehicle-api-makes-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-api/openapi/vehicle-api-makes-api-openapi.yml
 - filename: vehicle-api-media-api-openapi.yml
   format: yaml
   label: Vehicle API Media API
   slug: vehicle-api-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/openapi/vehicle-api-media-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-api/openapi/vehicle-api-media-api-openapi.yml
 - filename: vehicle-api-models-api-openapi.yml
   format: yaml
   label: Vehicle API Models API
   slug: vehicle-api-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/openapi/vehicle-api-models-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-api/openapi/vehicle-api-models-api-openapi.yml
 - filename: vehicle-api-pricing-api-openapi.yml
   format: yaml
   label: Vehicle API Pricing API
   slug: vehicle-api-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/openapi/vehicle-api-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-api/openapi/vehicle-api-pricing-api-openapi.yml
 - filename: vehicle-api-specs-api-openapi.yml
   format: yaml
   label: Vehicle API Specs API
   slug: vehicle-api-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/openapi/vehicle-api-specs-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-api/openapi/vehicle-api-specs-api-openapi.yml
 - filename: vehicle-api-styles-api-openapi.yml
   format: yaml
   label: Vehicle API Styles API
   slug: vehicle-api-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/openapi/vehicle-api-styles-api-openapi.yml
+  url: https://artifacts.apis.io/vehicle-api/openapi/vehicle-api-styles-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vehicle-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /vehicle/v2/makes\n  method: get\n  operationId: listMakes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/v2/makes/{makeNiceName}/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/v2/makes/{makeNiceName}/models/{modelNiceName}/years\n\
   \  method: get\n  operationId: listModelYears\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/v2/styles/{styleId}\n  method: get\n  operationId: getStyle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/v2/price/tmv/simple\n  method: get\n  operationId: getTMVPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/v2/media/{styleId}/photos\n  method: get\n  operationId: getStylePhotos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/v2/inventory\n  method: get\n  operationId: searchInventory\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/agentic-access/vehicle-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vehicle-api/agentic-access/vehicle-api-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Automotive

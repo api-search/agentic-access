@@ -9,67 +9,67 @@ api_specs:
   label: GitHub Actions Artifacts API
   slug: github-actions-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-artifacts-api-openapi.yml
 - filename: github-actions-cache-api-openapi.yml
   format: yaml
   label: GitHub Actions Cache API
   slug: github-actions-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-cache-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-cache-api-openapi.yml
 - filename: github-actions-jobs-api-openapi.yml
   format: yaml
   label: GitHub Actions Jobs API
   slug: github-actions-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-jobs-api-openapi.yml
 - filename: github-actions-oidc-api-openapi.yml
   format: yaml
   label: GitHub Actions OIDC API
   slug: github-actions-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-oidc-api-openapi.yml
 - filename: github-actions-permissions-api-openapi.yml
   format: yaml
   label: GitHub Actions Permissions API
   slug: github-actions-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-permissions-api-openapi.yml
 - filename: github-actions-secrets-api-openapi.yml
   format: yaml
   label: GitHub Actions Secrets API
   slug: github-actions-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-secrets-api-openapi.yml
 - filename: github-actions-self-hosted-runner-groups-api-openapi.yml
   format: yaml
   label: GitHub Actions Self-Hosted Runner Groups API
   slug: github-actions-self-hosted-runner-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-self-hosted-runner-groups-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-self-hosted-runner-groups-api-openapi.yml
 - filename: github-actions-self-hosted-runners-api-openapi.yml
   format: yaml
   label: GitHub Actions Self-Hosted Runners API
   slug: github-actions-self-hosted-runners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-self-hosted-runners-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-self-hosted-runners-api-openapi.yml
 - filename: github-actions-variables-api-openapi.yml
   format: yaml
   label: GitHub Actions Variables API
   slug: github-actions-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-variables-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-variables-api-openapi.yml
 - filename: github-actions-workflow-runs-api-openapi.yml
   format: yaml
   label: GitHub Actions Workflow Runs API
   slug: github-actions-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-workflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-workflow-runs-api-openapi.yml
 - filename: github-actions-workflows-api-openapi.yml
   format: yaml
   label: GitHub Actions Workflows API
   slug: github-actions-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-workflows-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 43
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-07-16'\nmethod: generated\nsource: openapi/github
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/actions/permissions\n  method: put\n  operationId: setGithubActionsPermissionsOrg\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/actions/runner-groups\n  method: get\n  operationId: listSelfHostedRunnerGroupsForOrg\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/actions/runner-groups\n  method: post\n  operationId: createSelfHostedRunnerGroupForOrg\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/actions/runner-groups/{runner_group_id}\n  method: get\n  operationId: getSelfHostedRunnerGroupForOrg\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org}/actions/runner-groups/{runner_group_id}\n  method: patch\n  operationId: updateSelfHostedRunnerGroupForOrg\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/actions/runner-groups/{runner_group_id}\n  method: delete\n  operationId: deleteSelfHostedRunnerGroupFromOrg\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/agentic-access/github-actions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/github-actions/agentic-access/github-actions-agentic-access.yml
 summary_line: 82 operations · 39 acting · 2 human-in-the-loop
 tags:
 - CI/CD

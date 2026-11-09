@@ -9,43 +9,43 @@ api_specs:
   label: Apple CloudKit Assets API
   slug: cloudkit-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-assets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkit/openapi/cloudkit-assets-api-openapi.yml
 - filename: cloudkit-changes-api-openapi.yml
   format: yaml
   label: Apple CloudKit Changes API
   slug: cloudkit-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-changes-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkit/openapi/cloudkit-changes-api-openapi.yml
 - filename: cloudkit-records-api-openapi.yml
   format: yaml
   label: Apple CloudKit Records API
   slug: cloudkit-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-records-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkit/openapi/cloudkit-records-api-openapi.yml
 - filename: cloudkit-subscriptions-api-openapi.yml
   format: yaml
   label: Apple CloudKit Subscriptions API
   slug: cloudkit-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkit/openapi/cloudkit-subscriptions-api-openapi.yml
 - filename: cloudkit-tokens-api-openapi.yml
   format: yaml
   label: Apple CloudKit Tokens API
   slug: cloudkit-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkit/openapi/cloudkit-tokens-api-openapi.yml
 - filename: cloudkit-users-api-openapi.yml
   format: yaml
   label: Apple CloudKit Users API
   slug: cloudkit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-users-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkit/openapi/cloudkit-users-api-openapi.yml
 - filename: cloudkit-zones-api-openapi.yml
   format: yaml
   label: Apple CloudKit Zones API
   slug: cloudkit-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-zones-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkit/openapi/cloudkit-zones-api-openapi.yml
 consequence_counts:
   read: 13
   write: 10
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cloudk
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/caller\n  method: post\n  operationId: callerUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/discover\n  method: post\n  operationId: discoverUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/lookup/email\n  method: post\n  operationId: lookupUsersByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/lookup/id\n  method: post\n  operationId: lookupUsersById\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/list\n  method: post\n  operationId: listZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/lookup\n  method: post\n  operationId: lookupZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zones/modify\n  method: post\n  operationId: modifyZones\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /zones/changes\n  method: post\n  operationId: zoneChanges\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/agentic-access/cloudkit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudkit/agentic-access/cloudkit-agentic-access.yml
 summary_line: 23 operations · 10 acting
 tags:
 - Apple

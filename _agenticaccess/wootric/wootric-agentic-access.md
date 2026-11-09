@@ -9,49 +9,49 @@ api_specs:
   label: Wootric Declines API
   slug: wootric-declines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-declines-api-openapi.yml
+  url: https://artifacts.apis.io/wootric/openapi/wootric-declines-api-openapi.yml
 - filename: wootric-email-surveys-api-openapi.yml
   format: yaml
   label: Wootric Email Surveys API
   slug: wootric-email-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-email-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/wootric/openapi/wootric-email-surveys-api-openapi.yml
 - filename: wootric-end-users-api-openapi.yml
   format: yaml
   label: Wootric End Users API
   slug: wootric-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/wootric/openapi/wootric-end-users-api-openapi.yml
 - filename: wootric-metrics-api-openapi.yml
   format: yaml
   label: Wootric Metrics API
   slug: wootric-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/wootric/openapi/wootric-metrics-api-openapi.yml
 - filename: wootric-responses-api-openapi.yml
   format: yaml
   label: Wootric Responses API
   slug: wootric-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-responses-api-openapi.yml
+  url: https://artifacts.apis.io/wootric/openapi/wootric-responses-api-openapi.yml
 - filename: wootric-segments-api-openapi.yml
   format: yaml
   label: Wootric Segments API
   slug: wootric-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-segments-api-openapi.yml
+  url: https://artifacts.apis.io/wootric/openapi/wootric-segments-api-openapi.yml
 - filename: wootric-settings-api-openapi.yml
   format: yaml
   label: Wootric Settings API
   slug: wootric-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-settings-api-openapi.yml
+  url: https://artifacts.apis.io/wootric/openapi/wootric-settings-api-openapi.yml
 - filename: wootric-survey-templates-api-openapi.yml
   format: yaml
   label: Wootric Survey Templates API
   slug: wootric-survey-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/openapi/wootric-survey-templates-api-openapi.yml
+  url: https://artifacts.apis.io/wootric/openapi/wootric-survey-templates-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 19
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wootri
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/end_users/{id}/settings\n  method: put\n  operationId: updateEndUserSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/nps_summary\n  method: get\n  operationId: getNpsSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/segments\n  method: get\n  operationId: listSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/survey_templates\n  method: get\n  operationId: listSurveyTemplates\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/email_survey\n  method: post\n  operationId: sendEmailSurvey\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/email_survey_csv\n  method: post\n  operationId: sendEmailSurveyCsv\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/email_stats\n  method: get\n  operationId: getEmailStats\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/email_stats/sources\n  method: get\n  operationId: getEmailStatsSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/email_stats/bounce_report\n  method: post\n  operationId: generateBounceReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/agentic-access/wootric-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wootric/agentic-access/wootric-agentic-access.yml
 summary_line: 32 operations · 13 acting
 tags:
 - Customer Experience

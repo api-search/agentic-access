@@ -9,175 +9,175 @@ api_specs:
   label: Sitecore CDP Stream API
   slug: cdp-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/asyncapi/sitecore-cdp-stream-api-asyncapi.yml
+  url: https://artifacts.apis.io/sitecore/asyncapi/sitecore-cdp-stream-api-asyncapi.yml
 - filename: sitecore-audit-api-openapi.yml
   format: yaml
   label: sitecore Audit API
   slug: sitecore-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-audit-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-audit-api-openapi.yml
 - filename: sitecore-authentication-api-openapi.yml
   format: yaml
   label: sitecore Authentication API
   slug: sitecore-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-authentication-api-openapi.yml
 - filename: sitecore-buyers-api-openapi.yml
   format: yaml
   label: sitecore Buyers API
   slug: sitecore-buyers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-buyers-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-buyers-api-openapi.yml
 - filename: sitecore-collections-api-openapi.yml
   format: yaml
   label: sitecore Collections API
   slug: sitecore-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-collections-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-collections-api-openapi.yml
 - filename: sitecore-connections-api-openapi.yml
   format: yaml
   label: sitecore Connections API
   slug: sitecore-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-connections-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-connections-api-openapi.yml
 - filename: sitecore-decision-models-api-openapi.yml
   format: yaml
   label: sitecore Decision Models API
   slug: sitecore-decision-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-decision-models-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-decision-models-api-openapi.yml
 - filename: sitecore-download-orders-api-openapi.yml
   format: yaml
   label: sitecore Download Orders API
   slug: sitecore-download-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-download-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-download-orders-api-openapi.yml
 - filename: sitecore-entities-api-openapi.yml
   format: yaml
   label: sitecore Entities API
   slug: sitecore-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-entities-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-entities-api-openapi.yml
 - filename: sitecore-events-api-openapi.yml
   format: yaml
   label: sitecore Events API
   slug: sitecore-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-events-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-events-api-openapi.yml
 - filename: sitecore-flow-definitions-api-openapi.yml
   format: yaml
   label: sitecore Flow Definitions API
   slug: sitecore-flow-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-flow-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-flow-definitions-api-openapi.yml
 - filename: sitecore-guest-data-extensions-api-openapi.yml
   format: yaml
   label: sitecore Guest Data Extensions API
   slug: sitecore-guest-data-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-guest-data-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-guest-data-extensions-api-openapi.yml
 - filename: sitecore-guests-api-openapi.yml
   format: yaml
   label: sitecore Guests API
   slug: sitecore-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-guests-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-guests-api-openapi.yml
 - filename: sitecore-incremental-feed-api-openapi.yml
   format: yaml
   label: sitecore Incremental Feed API
   slug: sitecore-incremental-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-incremental-feed-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-incremental-feed-api-openapi.yml
 - filename: sitecore-jobs-api-openapi.yml
   format: yaml
   label: sitecore Jobs API
   slug: sitecore-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-jobs-api-openapi.yml
 - filename: sitecore-languages-api-openapi.yml
   format: yaml
   label: sitecore Languages API
   slug: sitecore-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-languages-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-languages-api-openapi.yml
 - filename: sitecore-order-items-api-openapi.yml
   format: yaml
   label: sitecore Order Items API
   slug: sitecore-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-order-items-api-openapi.yml
 - filename: sitecore-orders-api-openapi.yml
   format: yaml
   label: sitecore Orders API
   slug: sitecore-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-orders-api-openapi.yml
 - filename: sitecore-pages-api-openapi.yml
   format: yaml
   label: sitecore Pages API
   slug: sitecore-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-pages-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-pages-api-openapi.yml
 - filename: sitecore-products-api-openapi.yml
   format: yaml
   label: sitecore Products API
   slug: sitecore-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-products-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-products-api-openapi.yml
 - filename: sitecore-promotions-api-openapi.yml
   format: yaml
   label: sitecore Promotions API
   slug: sitecore-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-promotions-api-openapi.yml
 - filename: sitecore-publishing-jobs-api-openapi.yml
   format: yaml
   label: sitecore Publishing Jobs API
   slug: sitecore-publishing-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-publishing-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-publishing-jobs-api-openapi.yml
 - filename: sitecore-querying-api-openapi.yml
   format: yaml
   label: sitecore Querying API
   slug: sitecore-querying-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-querying-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-querying-api-openapi.yml
 - filename: sitecore-search-and-recommendations-api-openapi.yml
   format: yaml
   label: sitecore Search and Recommendations API
   slug: sitecore-search-and-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-search-and-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-search-and-recommendations-api-openapi.yml
 - filename: sitecore-search-api-openapi.yml
   format: yaml
   label: sitecore Search API
   slug: sitecore-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-search-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-search-api-openapi.yml
 - filename: sitecore-selections-api-openapi.yml
   format: yaml
   label: sitecore Selections API
   slug: sitecore-selections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-selections-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-selections-api-openapi.yml
 - filename: sitecore-sites-api-openapi.yml
   format: yaml
   label: sitecore Sites API
   slug: sitecore-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-sites-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-sites-api-openapi.yml
 - filename: sitecore-templates-api-openapi.yml
   format: yaml
   label: sitecore Templates API
   slug: sitecore-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-templates-api-openapi.yml
 - filename: sitecore-upload-api-openapi.yml
   format: yaml
   label: sitecore Upload API
   slug: sitecore-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/openapi/sitecore-upload-api-openapi.yml
+  url: https://artifacts.apis.io/sitecore/openapi/sitecore-upload-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 45
@@ -287,8 +287,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/siteco
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search\n  method: post\n  operationId: searchEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selections\n  method: get\n  operationId: listSelections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selections\n  method: post\n  operationId: createSelection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/v1/sites\n  method: get\n  operationId: listSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sites\n  method: post\n  operationId: createSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sites/{siteId}\n  method: get\n  operationId: getSite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sites/{siteId}\n  method: delete\n  operationId: deleteSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sites/name/validate\n  method: post\n  operationId: validateSiteName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sites/sort\n  method: post\n  operationId: sortSites\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sites/{siteId}/renderinghosts\n  method: get\n  operationId: listSiteRenderingHosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/templates/{id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/agentic-access/sitecore-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/agentic-access/sitecore-agentic-access.yml
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/templates/{id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/sitecore/agentic-access/sitecore-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/sitecore/agentic-access/sitecore-agentic-access.yml
 summary_line: 107 operations · 62 acting
 tags:
 - Headless CMS

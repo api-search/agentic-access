@@ -8,43 +8,43 @@ api_specs:
   label: Nominatim Deletable API
   slug: nominatim-deletable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-deletable-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-deletable-api-openapi.yml
 - filename: nominatim-details-api-openapi.yml
   format: yaml
   label: Nominatim Details API
   slug: nominatim-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-details-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-details-api-openapi.yml
 - filename: nominatim-lookup-api-openapi.yml
   format: yaml
   label: Nominatim Lookup API
   slug: nominatim-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-lookup-api-openapi.yml
 - filename: nominatim-polygons-api-openapi.yml
   format: yaml
   label: Nominatim Polygons API
   slug: nominatim-polygons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-polygons-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-polygons-api-openapi.yml
 - filename: nominatim-reverse-api-openapi.yml
   format: yaml
   label: Nominatim Reverse API
   slug: nominatim-reverse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-reverse-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-reverse-api-openapi.yml
 - filename: nominatim-search-api-openapi.yml
   format: yaml
   label: Nominatim Search API
   slug: nominatim-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-search-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-search-api-openapi.yml
 - filename: nominatim-status-api-openapi.yml
   format: yaml
   label: Nominatim Status API
   slug: nominatim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-status-api-openapi.yml
+  url: https://artifacts.apis.io/nominatim/openapi/nominatim-status-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -71,7 +71,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nominatim-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reverse\n  method: get\n  operationId: reverse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup\n  method: get\n  operationId: lookup\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /details\n  method: get\n  operationId: details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deletable\n  method: get\n  operationId: deletable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /polygons\n  method: get\n  operationId: polygons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/agentic-access/nominatim-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nominatim/agentic-access/nominatim-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Geocoding

@@ -9,37 +9,37 @@ api_specs:
   label: Triplit Advanced API
   slug: triplit-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-advanced-api-openapi.yml
 - filename: triplit-auth-api-openapi.yml
   format: yaml
   label: Triplit Auth API
   slug: triplit-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-auth-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-auth-api-openapi.yml
 - filename: triplit-data-api-openapi.yml
   format: yaml
   label: Triplit Data API
   slug: triplit-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-data-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-data-api-openapi.yml
 - filename: triplit-schema-api-openapi.yml
   format: yaml
   label: Triplit Schema API
   slug: triplit-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-schema-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-schema-api-openapi.yml
 - filename: triplit-system-api-openapi.yml
   format: yaml
   label: Triplit System API
   slug: triplit-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-system-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-system-api-openapi.yml
 - filename: triplit-webhooks-api-openapi.yml
   format: yaml
   label: Triplit Webhooks API
   slug: triplit-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/openapi/triplit-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/triplit/openapi/triplit-webhooks-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tripli
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /healthcheck\n  method: get\n  operationId: healthcheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats\n  method: post\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clear\n  method: post\n  operationId: clearDatabase\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks-get\n  method: post\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks-push\n  method: post\n  operationId: pushWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks-clear\n  method: post\n  operationId: clearWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triplit/refs/heads/main/agentic-access/triplit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/triplit/agentic-access/triplit-agentic-access.yml
 summary_line: 18 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Database

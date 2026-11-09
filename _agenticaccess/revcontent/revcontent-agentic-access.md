@@ -9,67 +9,67 @@ api_specs:
   label: RevContent Access API
   slug: revcontent-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-access-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-access-api-openapi.yml
 - filename: revcontent-ccpa-api-openapi.yml
   format: yaml
   label: RevContent CCPA API
   slug: revcontent-ccpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-ccpa-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-ccpa-api-openapi.yml
 - filename: revcontent-content-api-openapi.yml
   format: yaml
   label: RevContent Content API
   slug: revcontent-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-content-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-content-api-openapi.yml
 - filename: revcontent-conversions-api-openapi.yml
   format: yaml
   label: RevContent Conversions API
   slug: revcontent-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-conversions-api-openapi.yml
 - filename: revcontent-helpers-api-openapi.yml
   format: yaml
   label: RevContent Helpers API
   slug: revcontent-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-helpers-api-openapi.yml
 - filename: revcontent-targeting-api-openapi.yml
   format: yaml
   label: RevContent Targeting API
   slug: revcontent-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-targeting-api-openapi.yml
 - filename: revcontent-widget-internal-content-api-openapi.yml
   format: yaml
   label: RevContent Widget Internal Content API
   slug: revcontent-widget-internal-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-internal-content-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-widget-internal-content-api-openapi.yml
 - filename: revcontent-widget-optimizer-api-openapi.yml
   format: yaml
   label: RevContent Widget Optimizer API
   slug: revcontent-widget-optimizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-optimizer-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-widget-optimizer-api-openapi.yml
 - filename: revcontent-campaigns-api-openapi.yml
   format: yaml
   label: RevContent Campaigns API
   slug: revcontent-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-campaigns-api-openapi.yml
 - filename: revcontent-widget-api-openapi.yml
   format: yaml
   label: RevContent Widget API
   slug: revcontent-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-widget-api-openapi.yml
 - filename: revcontent-subaccounts-api-openapi.yml
   format: yaml
   label: RevContent Subaccounts API
   slug: revcontent-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-subaccounts-api-openapi.yml
 consequence_counts:
   read: 23
   write: 20
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/revcon
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/api/v1.0/widgets/{widget_id}/internal_content/add\n  method: post\n  operationId: postWidgetInternalContentAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stats/api/v1.0/widgets/{widget_id}/internal_content/update\n  method: post\n  operationId: postWidgetInternalContentUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stats/api/v1.0/boosts/{boost_id}/targets/blacklist/widgets\n\
   \  method: get\n  operationId: getTargetsOptimizerWidgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/api/v1.0/boosts/{boost_id}/targets/blacklist/widgets/add\n  method: post\n  operationId: postTargetsWidgetsOptimizerAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stats/api/v1.0/boosts/{boost_id}/targets/blacklist/widgets/remove\n  method: post\n  operationId: postTargetsWidgetsOptimizerRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/agentic-access/revcontent-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/revcontent/agentic-access/revcontent-agentic-access.yml
 summary_line: 43 operations · 20 acting
 tags:
 - Native Advertising

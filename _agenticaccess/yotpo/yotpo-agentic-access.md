@@ -9,25 +9,25 @@ api_specs:
   label: Yotpo Authentication API
   slug: yotpo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/yotpo/openapi/yotpo-authentication-api-openapi.yml
 - filename: yotpo-loyalty-api-openapi.yml
   format: yaml
   label: Yotpo Loyalty API
   slug: yotpo-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/yotpo/openapi/yotpo-loyalty-api-openapi.yml
 - filename: yotpo-reviews-api-openapi.yml
   format: yaml
   label: Yotpo Reviews API
   slug: yotpo-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/yotpo/openapi/yotpo-reviews-api-openapi.yml
 - filename: yotpo-subscriptions-api-openapi.yml
   format: yaml
   label: Yotpo Subscriptions API
   slug: yotpo-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/openapi/yotpo-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/yotpo/openapi/yotpo-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/yotpo-
   \  method: post\n  operationId: createProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/v3/stores/{store_id}/orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/v3/stores/{store_id}/customers\n  method: post\n  operationId: createOrUpdateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/v3/stores/{store_id}/webhook_subscriptions\n  method: get\n  operationId: retrieveWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/v3/stores/{store_id}/webhook_subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers\n  method: get\n  operationId: getLoyaltyCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n\
   \  method: post\n  operationId: createLoyaltyOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /redemptions\n  method: post\n  operationId: createRedemption\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /redemption_options\n  method: get\n  operationId: listRedemptionOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/agentic-access/yotpo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yotpo/agentic-access/yotpo-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - E-Commerce

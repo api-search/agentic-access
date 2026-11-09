@@ -9,55 +9,55 @@ api_specs:
   label: Azure Event Hubs Messaging API
   slug: azure-event-hubs-messaging-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/asyncapi/azure-event-hubs-messaging-asyncapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/asyncapi/azure-event-hubs-messaging-asyncapi.yml
 - filename: microsoft-azure-event-hubs-authorization-rules-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Authorization Rules API
   slug: microsoft-azure-event-hubs-authorization-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-authorization-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-authorization-rules-api-openapi.yml
 - filename: microsoft-azure-event-hubs-consumer-groups-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Consumer Groups API
   slug: microsoft-azure-event-hubs-consumer-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-consumer-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-consumer-groups-api-openapi.yml
 - filename: microsoft-azure-event-hubs-disaster-recovery-configs-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Disaster Recovery Configs API
   slug: microsoft-azure-event-hubs-disaster-recovery-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-disaster-recovery-configs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-disaster-recovery-configs-api-openapi.yml
 - filename: microsoft-azure-event-hubs-event-hubs-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Event Hubs API
   slug: microsoft-azure-event-hubs-event-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-event-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-event-hubs-api-openapi.yml
 - filename: microsoft-azure-event-hubs-events-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Events API
   slug: microsoft-azure-event-hubs-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-events-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-events-api-openapi.yml
 - filename: microsoft-azure-event-hubs-namespaces-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Namespaces API
   slug: microsoft-azure-event-hubs-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-namespaces-api-openapi.yml
 - filename: microsoft-azure-event-hubs-operations-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Operations API
   slug: microsoft-azure-event-hubs-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-operations-api-openapi.yml
 - filename: microsoft-azure-event-hubs-schema-registry-api-openapi.yml
   format: yaml
   label: Azure Event Hubs Schema Registry API
   slug: microsoft-azure-event-hubs-schema-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/openapi/microsoft-azure-event-hubs-schema-registry-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-event-hubs/openapi/microsoft-azure-event-hubs-schema-registry-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 15
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \  method: post\n  operationId: DisasterRecoveryConfigs_FailOver\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/schemagroups\n  method: get\n  operationId: SchemaRegistry_ListByNamespace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/schemagroups/{schemaGroupName}\n  method: put\n  operationId: SchemaRegistry_CreateOrUpdate\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/schemagroups/{schemaGroupName}\n  method: get\n  operationId: SchemaRegistry_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/schemagroups/{schemaGroupName}\n  method: delete\n  operationId: SchemaRegistry_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /providers/Microsoft.EventHub/operations\n  method: get\n  operationId: Operations_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/agentic-access/microsoft-azure-event-hubs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-event-hubs/agentic-access/microsoft-azure-event-hubs-agentic-access.yml
 summary_line: 37 operations · 22 acting
 tags:
 - Big Data

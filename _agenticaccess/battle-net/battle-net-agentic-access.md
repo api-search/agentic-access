@@ -8,25 +8,25 @@ api_specs:
   label: Battle.net Card Backs API
   slug: battle-net-card-backs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-card-backs-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-card-backs-api-openapi.yml
 - filename: battle-net-cards-api-openapi.yml
   format: yaml
   label: Battle.net Cards API
   slug: battle-net-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-cards-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-cards-api-openapi.yml
 - filename: battle-net-decks-api-openapi.yml
   format: yaml
   label: Battle.net Decks API
   slug: battle-net-decks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-decks-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-decks-api-openapi.yml
 - filename: battle-net-metadata-api-openapi.yml
   format: yaml
   label: Battle.net Metadata API
   slug: battle-net-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-metadata-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/battle-net-hearthstone-game-data.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /hearthstone/cards\n  method: get\n  operationId: searchCards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hearthstone/cards/{idOrSlug}\n  method: get\n  operationId: getCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hearthstone/cardbacks\n  method: get\n\
   \  operationId: searchCardBacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hearthstone/cardbacks/{idOrSlug}\n  method: get\n  operationId: getCardBack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hearthstone/deck\n  method: get\n  operationId: getDeck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hearthstone/metadata\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hearthstone/metadata/{type}\n  method: get\n  operationId: getMetadataType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/agentic-access/battle-net-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/battle-net/agentic-access/battle-net-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Games

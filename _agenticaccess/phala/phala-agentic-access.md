@@ -9,61 +9,61 @@ api_specs:
   label: Phala Network Apps API
   slug: phala-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-apps-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-apps-api-openapi.yml
 - filename: phala-apps-kms-info-api-openapi.yml
   format: yaml
   label: Phala Network Apps Kms Info API
   slug: phala-apps-kms-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-apps-kms-info-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-apps-kms-info-api-openapi.yml
 - filename: phala-apps-pending-updates-api-openapi.yml
   format: yaml
   label: Phala Network Apps Pending Updates API
   slug: phala-apps-pending-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-apps-pending-updates-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-apps-pending-updates-api-openapi.yml
 - filename: phala-attestations-api-openapi.yml
   format: yaml
   label: Phala Network Attestations API
   slug: phala-attestations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-attestations-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-attestations-api-openapi.yml
 - filename: phala-cvms-api-openapi.yml
   format: yaml
   label: Phala Network CVMs API
   slug: phala-cvms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-cvms-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-cvms-api-openapi.yml
 - filename: phala-cvms-network-config-api-openapi.yml
   format: yaml
   label: Phala Network Cvms Network Config API
   slug: phala-cvms-network-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-cvms-network-config-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-cvms-network-config-api-openapi.yml
 - filename: phala-instance-types-api-openapi.yml
   format: yaml
   label: Phala Network Instance Types API
   slug: phala-instance-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-instance-types-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-instance-types-api-openapi.yml
 - filename: phala-kms-api-openapi.yml
   format: yaml
   label: Phala Network KMS API
   slug: phala-kms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-kms-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-kms-api-openapi.yml
 - filename: phala-ssh-keys-api-openapi.yml
   format: yaml
   label: Phala Network SSH Keys API
   slug: phala-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-ssh-keys-api-openapi.yml
 - filename: phala-webhooks-api-openapi.yml
   format: yaml
   label: Phala Network Webhooks API
   slug: phala-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-webhooks-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 52
@@ -197,8 +197,8 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/phala-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspace/webhooks\n  method: post\n  operationId: create_webhook_api_v1_workspace_webhooks_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspace/webhooks/{webhook_id}\n  method: get\n  operationId: get_webhook_api_v1_workspace_webhooks__webhook_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspace/webhooks/{webhook_id}\n  method: put\n  operationId: update_webhook_api_v1_workspace_webhooks__webhook_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspace/webhooks/{webhook_id}\n  method: delete\n  operationId: delete_webhook_api_v1_workspace_webhooks__webhook_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspace/webhooks/{webhook_id}/reveal-secret\n  method: post\n  operationId: reveal_webhook_secret_api_v1_workspace_webhooks__webhook_id__reveal_secret_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspace/webhooks/{webhook_id}/rotate-secret\n  method: post\n  operationId: rotate_webhook_secret_api_v1_workspace_webhooks__webhook_id__rotate_secret_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspace/webhooks/{webhook_id}/test\n  method: post\n  operationId: test_webhook_api_v1_workspace_webhooks__webhook_id__test_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /api/v1/workspace/webhooks/{webhook_id}/deliveries\n  method: get\n  operationId: list_deliveries_api_v1_workspace_webhooks__webhook_id__deliveries_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/agentic-access/phala-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/agentic-access/phala-agentic-access.yml
+  - path: /api/v1/workspace/webhooks/{webhook_id}/deliveries\n  method: get\n  operationId: list_deliveries_api_v1_workspace_webhooks__webhook_id__deliveries_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/phala/agentic-access/phala-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/phala/agentic-access/phala-agentic-access.yml
 summary_line: 102 operations · 50 acting · 3 human-in-the-loop
 tags:
 - Company

@@ -9,49 +9,49 @@ api_specs:
   label: Zot Blobs API
   slug: zot-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/zot/openapi/zot-blobs-api-openapi.yml
 - filename: zot-catalog-api-openapi.yml
   format: yaml
   label: Zot Catalog API
   slug: zot-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zot/openapi/zot-catalog-api-openapi.yml
 - filename: zot-manifests-api-openapi.yml
   format: yaml
   label: Zot Manifests API
   slug: zot-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/zot/openapi/zot-manifests-api-openapi.yml
 - filename: zot-oci-api-openapi.yml
   format: yaml
   label: Zot Oci API
   slug: zot-oci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-oci-api-openapi.yml
+  url: https://artifacts.apis.io/zot/openapi/zot-oci-api-openapi.yml
 - filename: zot-open-container-initiative-distribution-specification-api-openapi.yml
   format: yaml
   label: Zot Open Container Initiative Distribution Specification API
   slug: zot-open-container-initiative-distribution-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-open-container-initiative-distribution-specification-api-openapi.yml
+  url: https://artifacts.apis.io/zot/openapi/zot-open-container-initiative-distribution-specification-api-openapi.yml
 - filename: zot-referrers-api-openapi.yml
   format: yaml
   label: Zot Referrers API
   slug: zot-referrers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-referrers-api-openapi.yml
+  url: https://artifacts.apis.io/zot/openapi/zot-referrers-api-openapi.yml
 - filename: zot-tags-api-openapi.yml
   format: yaml
   label: Zot Tags API
   slug: zot-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-tags-api-openapi.yml
+  url: https://artifacts.apis.io/zot/openapi/zot-tags-api-openapi.yml
 - filename: zot-zot-api-openapi.yml
   format: yaml
   label: Zot API
   slug: zot-zot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-zot-api-openapi.yml
+  url: https://artifacts.apis.io/zot/openapi/zot-zot-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zot-op
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{name}/manifests/{reference}\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{name}/manifests/{reference}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{name}/referrers/{digest}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{name}/tags/list\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zot/auth/apikey\n\
   \  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /zot/auth/apikey\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zot/auth/apikey\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /zot/auth/logout\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/agentic-access/zot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zot/agentic-access/zot-agentic-access.yml
 summary_line: 25 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Decentralized

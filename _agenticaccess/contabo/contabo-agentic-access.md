@@ -9,235 +9,235 @@ api_specs:
   label: Contabo Check Collection Templates API
   slug: contabo-check-collection-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-check-collection-templates-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-check-collection-templates-api-openapi.yml
 - filename: contabo-check-collections-api-openapi.yml
   format: yaml
   label: Contabo Check Collections API
   slug: contabo-check-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-check-collections-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-check-collections-api-openapi.yml
 - filename: contabo-checks-api-openapi.yml
   format: yaml
   label: Contabo Checks API
   slug: contabo-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-checks-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-checks-api-openapi.yml
 - filename: contabo-dns-api-openapi.yml
   format: yaml
   label: Contabo DNS API
   slug: contabo-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-dns-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-dns-api-openapi.yml
 - filename: contabo-dns-audits-api-openapi.yml
   format: yaml
   label: Contabo DNS Audits API
   slug: contabo-dns-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-dns-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-dns-audits-api-openapi.yml
 - filename: contabo-domains-api-openapi.yml
   format: yaml
   label: Contabo Domains API
   slug: contabo-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-domains-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-domains-api-openapi.yml
 - filename: contabo-domains-audits-api-openapi.yml
   format: yaml
   label: Contabo Domains Audits API
   slug: contabo-domains-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-domains-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-domains-audits-api-openapi.yml
 - filename: contabo-firewalls-api-openapi.yml
   format: yaml
   label: Contabo Firewalls API
   slug: contabo-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-firewalls-api-openapi.yml
 - filename: contabo-firewalls-audits-api-openapi.yml
   format: yaml
   label: Contabo Firewalls Audits API
   slug: contabo-firewalls-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-firewalls-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-firewalls-audits-api-openapi.yml
 - filename: contabo-handles-api-openapi.yml
   format: yaml
   label: Contabo Handles API
   slug: contabo-handles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-handles-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-handles-api-openapi.yml
 - filename: contabo-handles-audits-api-openapi.yml
   format: yaml
   label: Contabo Handles Audits API
   slug: contabo-handles-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-handles-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-handles-audits-api-openapi.yml
 - filename: contabo-images-api-openapi.yml
   format: yaml
   label: Contabo Images API
   slug: contabo-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-images-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-images-api-openapi.yml
 - filename: contabo-images-audits-api-openapi.yml
   format: yaml
   label: Contabo Images Audits API
   slug: contabo-images-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-images-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-images-audits-api-openapi.yml
 - filename: contabo-instance-actions-api-openapi.yml
   format: yaml
   label: Contabo Instance Actions API
   slug: contabo-instance-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-instance-actions-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-instance-actions-api-openapi.yml
 - filename: contabo-instance-actions-audits-api-openapi.yml
   format: yaml
   label: Contabo Instance Actions Audits API
   slug: contabo-instance-actions-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-instance-actions-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-instance-actions-audits-api-openapi.yml
 - filename: contabo-instances-api-openapi.yml
   format: yaml
   label: Contabo Instances API
   slug: contabo-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-instances-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-instances-api-openapi.yml
 - filename: contabo-instances-audits-api-openapi.yml
   format: yaml
   label: Contabo Instances Audits API
   slug: contabo-instances-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-instances-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-instances-audits-api-openapi.yml
 - filename: contabo-instances-products-api-openapi.yml
   format: yaml
   label: Contabo Instances Products API
   slug: contabo-instances-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-instances-products-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-instances-products-api-openapi.yml
 - filename: contabo-object-storages-api-openapi.yml
   format: yaml
   label: Contabo Object Storages API
   slug: contabo-object-storages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-object-storages-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-object-storages-api-openapi.yml
 - filename: contabo-object-storages-audits-api-openapi.yml
   format: yaml
   label: Contabo Object Storages Audits API
   slug: contabo-object-storages-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-object-storages-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-object-storages-audits-api-openapi.yml
 - filename: contabo-private-networks-api-openapi.yml
   format: yaml
   label: Contabo Private Networks API
   slug: contabo-private-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-private-networks-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-private-networks-api-openapi.yml
 - filename: contabo-private-networks-audits-api-openapi.yml
   format: yaml
   label: Contabo Private Networks Audits API
   slug: contabo-private-networks-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-private-networks-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-private-networks-audits-api-openapi.yml
 - filename: contabo-remedies-api-openapi.yml
   format: yaml
   label: Contabo Remedies API
   slug: contabo-remedies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-remedies-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-remedies-api-openapi.yml
 - filename: contabo-roles-api-openapi.yml
   format: yaml
   label: Contabo Roles API
   slug: contabo-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-roles-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-roles-api-openapi.yml
 - filename: contabo-roles-audits-api-openapi.yml
   format: yaml
   label: Contabo Roles Audits API
   slug: contabo-roles-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-roles-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-roles-audits-api-openapi.yml
 - filename: contabo-secrets-api-openapi.yml
   format: yaml
   label: Contabo Secrets API
   slug: contabo-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-secrets-api-openapi.yml
 - filename: contabo-secrets-audits-api-openapi.yml
   format: yaml
   label: Contabo Secrets Audits API
   slug: contabo-secrets-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-secrets-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-secrets-audits-api-openapi.yml
 - filename: contabo-snapshots-api-openapi.yml
   format: yaml
   label: Contabo Snapshots API
   slug: contabo-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-snapshots-api-openapi.yml
 - filename: contabo-snapshots-audits-api-openapi.yml
   format: yaml
   label: Contabo Snapshots Audits API
   slug: contabo-snapshots-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-snapshots-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-snapshots-audits-api-openapi.yml
 - filename: contabo-tag-assignments-api-openapi.yml
   format: yaml
   label: Contabo Tag Assignments API
   slug: contabo-tag-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-tag-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-tag-assignments-api-openapi.yml
 - filename: contabo-tag-assignments-audits-api-openapi.yml
   format: yaml
   label: Contabo Tag Assignments Audits API
   slug: contabo-tag-assignments-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-tag-assignments-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-tag-assignments-audits-api-openapi.yml
 - filename: contabo-tags-api-openapi.yml
   format: yaml
   label: Contabo Tags API
   slug: contabo-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-tags-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-tags-api-openapi.yml
 - filename: contabo-tags-audits-api-openapi.yml
   format: yaml
   label: Contabo Tags Audits API
   slug: contabo-tags-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-tags-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-tags-audits-api-openapi.yml
 - filename: contabo-user-accounts-api-openapi.yml
   format: yaml
   label: Contabo User Accounts API
   slug: contabo-user-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-user-accounts-api-openapi.yml
 - filename: contabo-users-api-openapi.yml
   format: yaml
   label: Contabo Users API
   slug: contabo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-users-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-users-api-openapi.yml
 - filename: contabo-users-audits-api-openapi.yml
   format: yaml
   label: Contabo Users Audits API
   slug: contabo-users-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-users-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-users-audits-api-openapi.yml
 - filename: contabo-users-object-storage-credentials-api-openapi.yml
   format: yaml
   label: Contabo Users Object Storage Credentials API
   slug: contabo-users-object-storage-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-users-object-storage-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-users-object-storage-credentials-api-openapi.yml
 - filename: contabo-vip-api-openapi.yml
   format: yaml
   label: Contabo VIP API
   slug: contabo-vip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-vip-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-vip-api-openapi.yml
 - filename: contabo-vip-audits-api-openapi.yml
   format: yaml
   label: Contabo Vip Audits API
   slug: contabo-vip-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/openapi/contabo-vip-audits-api-openapi.yml
+  url: https://artifacts.apis.io/contabo/openapi/contabo-vip-audits-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 73
@@ -346,8 +346,8 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/contab
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/compute/instances/{instanceId}/actions/restart\n  method: post\n  operationId: restart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/compute/instances/{instanceId}/actions/stop\n  method: post\n  operationId: stop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/compute/instances/{instanceId}/actions/shutdown\n  method: post\n  operationId: shutdown\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/compute/instances/{instanceId}/actions/rescue\n  method: post\n  operationId: rescue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/compute/instances/{instanceId}/actions/resetPassword\n  method: post\n  operationId: resetPasswordAction\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/compute/instances\n  method: get\n  operationId: retrieveInstancesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/compute/instances\n  method: post\n  operationId: createInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/compute/instances/{instanceId}/regionChange/check\n  method: get\n  operationId: checkSetNewHost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/compute/instances/{instanceId}/regionChange\n  method: post\n  operationId:\
-  \ requestRegionChange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/compute/instances/{instanceId}\n  method: get\n  operationId: retrieveInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/compute/instances/{instanceId}\n  method: patch\n  operationId: patchInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/agentic-access/contabo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contabo/refs/heads/main/agentic-access/contabo-agentic-access.yml
+  \ requestRegionChange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/compute/instances/{instanceId}\n  method: get\n  operationId: retrieveInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/compute/instances/{instanceId}\n  method: patch\n  operationId: patchInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://artifacts.apis.io/contabo/agentic-access/contabo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/contabo/agentic-access/contabo-agentic-access.yml
 summary_line: 157 operations · 84 acting · 6 human-in-the-loop
 tags:
 - Company

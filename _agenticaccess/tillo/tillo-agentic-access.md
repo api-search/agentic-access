@@ -9,31 +9,31 @@ api_specs:
   label: Tillo Balance API
   slug: tillo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-balance-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-balance-api-openapi.yml
 - filename: tillo-brands-api-openapi.yml
   format: yaml
   label: Tillo Brands API
   slug: tillo-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-brands-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-brands-api-openapi.yml
 - filename: tillo-digital-cards-api-openapi.yml
   format: yaml
   label: Tillo Digital Cards API
   slug: tillo-digital-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-digital-cards-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-digital-cards-api-openapi.yml
 - filename: tillo-float-api-openapi.yml
   format: yaml
   label: Tillo Float API
   slug: tillo-float-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-float-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-float-api-openapi.yml
 - filename: tillo-orders-api-openapi.yml
   format: yaml
   label: Tillo Orders API
   slug: tillo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/openapi/tillo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tillo/openapi/tillo-orders-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 5
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tillo-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digital/check-stock\n  method: post\n  operationId: checkStock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digital/cancel\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digital/refund\n  method: post\n  operationId: refundOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order-status\n  method: get\n  operationId: getOrderStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /float\n  method: get\n  operationId: getFloatBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /float/request-payment-transfer\n  method: post\n  operationId: requestPaymentTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /float/transfer-requests\n  method: get\n  operationId: listTransferRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/agentic-access/tillo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tillo/agentic-access/tillo-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Finance

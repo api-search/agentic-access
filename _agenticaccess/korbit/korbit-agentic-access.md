@@ -9,49 +9,49 @@ api_specs:
   label: Korbit Open API v2 WebSocket
   slug: korbit-open-api-v2-websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/asyncapi/korbit-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/korbit/asyncapi/korbit-websocket-asyncapi.yml
 - filename: korbit-asset-api-openapi.yml
   format: yaml
   label: Korbit Asset API
   slug: korbit-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-asset-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-asset-api-openapi.yml
 - filename: korbit-deposit-crypto-api-openapi.yml
   format: yaml
   label: Korbit Deposit (Crypto) API
   slug: korbit-deposit-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-deposit-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-deposit-crypto-api-openapi.yml
 - filename: korbit-deposit-withdrawal-krw-api-openapi.yml
   format: yaml
   label: Korbit Deposit/Withdrawal (KRW) API
   slug: korbit-deposit-withdrawal-krw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-deposit-withdrawal-krw-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-deposit-withdrawal-krw-api-openapi.yml
 - filename: korbit-other-api-openapi.yml
   format: yaml
   label: Korbit Other API
   slug: korbit-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-other-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-other-api-openapi.yml
 - filename: korbit-quotation-api-openapi.yml
   format: yaml
   label: Korbit Quotation API
   slug: korbit-quotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-quotation-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-quotation-api-openapi.yml
 - filename: korbit-trading-api-openapi.yml
   format: yaml
   label: Korbit Trading API
   slug: korbit-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-trading-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-trading-api-openapi.yml
 - filename: korbit-withdrawal-crypto-api-openapi.yml
   format: yaml
   label: Korbit Withdrawal (Crypto) API
   slug: korbit-withdrawal-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/korbit-withdrawal-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/korbit/openapi/korbit-withdrawal-crypto-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 27
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/korbit
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/krw/sendKrwWithdrawalPush\n  method: post\n  operationId: createKrwSendKrwWithdrawalPush\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/krw/recentDeposits\n  method: get\n  operationId: getKrwRecentDeposits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/krw/recentWithdrawals\n  method: get\n  operationId: getKrwRecentWithdrawals\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/currencies\n  method: get\n  operationId: getCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/time\n  method: get\n  operationId: getTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tradingFeePolicy\n  method: get\n  operationId: getTradingFeePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/currentKeyInfo\n  method: get\n  operationId: getCurrentKeyInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/notices\n  method: get\n\
   \  operationId: getNotices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/marketAlerts\n  method: get\n  operationId: getMarketAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/agentic-access/korbit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/korbit/agentic-access/korbit-agentic-access.yml
 summary_line: 34 operations · 7 acting
 tags:
 - Company

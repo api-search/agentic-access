@@ -9,19 +9,19 @@ api_specs:
   label: Fama Public Endpoints API
   slug: fama-public-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/openapi/fama-public-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/fama/openapi/fama-public-endpoints-api-openapi.yml
 - filename: fama-publicapi-api-openapi.yml
   format: yaml
   label: Fama Public API
   slug: fama-publicapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/openapi/fama-publicapi-api-openapi.yml
+  url: https://artifacts.apis.io/fama/openapi/fama-publicapi-api-openapi.yml
 - filename: fama-report-api-openapi.yml
   format: yaml
   label: Fama Report API
   slug: fama-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/openapi/fama-report-api-openapi.yml
+  url: https://artifacts.apis.io/fama/openapi/fama-report-api-openapi.yml
 consequence_counts:
   read: 24
   write: 2
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/fama-e
   - path: /api/flagKits/all\n  method: get\n  operationId: get_flag_kit_all_api_flagKits_all_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/person\n  method: post\n  operationId: create_person_api_person_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/person/{report_id}\n  method: get\n  operationId: get_person_api_person__report_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/person/{report_id}/all\n  method: get\n  operationId: get_person_all_api_person__report_id__all_get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/person/{report_id}/post\n  method: get\n  operationId: get_person_posts_api_person__report_id__post_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/person/{report_id}/profile\n  method: get\n  operationId: get_person_profiles_api_person__report_id__profile_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/person/{report_id}/report\n  method: get\n  operationId: get_report_pdf_api_person__report_id__report_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/person/{report_id}/searchContent\n  method: get\n  operationId: get_person_articles_api_person__report_id__searchContent_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user\n  method: get\n  operationId: get_user_api_user_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/agentic-access/fama-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fama/agentic-access/fama-agentic-access.yml
 summary_line: 26 operations · 2 acting
 tags:
 - Company

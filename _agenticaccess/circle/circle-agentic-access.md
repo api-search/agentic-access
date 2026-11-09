@@ -9,7 +9,7 @@ api_specs:
   label: Circle Audit Logs API
   slug: circle-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/circle/openapi/circle-audit-logs-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/circle
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/w3s/transactions/validateAddress\n  method: post\n  operationId: validateAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/w3s/developer/transactions/contractExecution\n  method: post\n  operationId: createContractExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/w3s/developer/transactions/walletUpgrade\n  method: post\n  operationId: createWalletUpgrade\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/w3s/developer/transactions/{id}/cancel\n  method: post\n  operationId: cancelTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/w3s/developer/transactions/{id}/accelerate\n  method: post\n  operationId: accelerateTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/w3s/tokens/{id}\n  method: get\n  operationId: getToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/agentic-access/circle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/circle/agentic-access/circle-agentic-access.yml
 summary_line: 30 operations · 18 acting · 3 human-in-the-loop
 tags:
 - Blockchain

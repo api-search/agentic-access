@@ -9,43 +9,43 @@ api_specs:
   label: Soundstripe Categories API
   slug: soundstripe-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-categories-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-categories-api-openapi.yml
 - filename: soundstripe-playlists-api-openapi.yml
   format: yaml
   label: Soundstripe Playlists API
   slug: soundstripe-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-playlists-api-openapi.yml
 - filename: soundstripe-private-playlists-api-openapi.yml
   format: yaml
   label: Soundstripe Private Playlists API
   slug: soundstripe-private-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-private-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-private-playlists-api-openapi.yml
 - filename: soundstripe-songs-api-openapi.yml
   format: yaml
   label: Soundstripe Songs API
   slug: soundstripe-songs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-songs-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-songs-api-openapi.yml
 - filename: soundstripe-sound-effects-api-openapi.yml
   format: yaml
   label: Soundstripe Sound Effects API
   slug: soundstripe-sound-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-sound-effects-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-sound-effects-api-openapi.yml
 - filename: soundstripe-supe-assets-api-openapi.yml
   format: yaml
   label: Soundstripe Supe Assets API
   slug: soundstripe-supe-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-supe-assets-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-supe-assets-api-openapi.yml
 - filename: soundstripe-supe-search-api-openapi.yml
   format: yaml
   label: Soundstripe Supe Search API
   slug: soundstripe-supe-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-supe-search-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-supe-search-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 2
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sounds
   \      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/my_media/playlists/{playlist_id}/songs\n  method: delete\n  operationId: removeSongsFromPrivatePlaylist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/my_media/playlists/{playlist_id}/sound_effects\n  method: post\n  operationId: addSoundEffectsToPrivatePlaylist\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/my_media/playlists/{playlist_id}/sound_effects\n\
   \  method: delete\n  operationId: removeSoundEffectsFromPrivatePlaylist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/supe/search\n  method: post\n  operationId: createSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/supe/search/{search_id}\n  method: get\n  operationId: retrieveSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supe/assets\n  method: post\n  operationId: uploadAsset\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/supe/assets/{asset_id}\n  method: get\n  operationId: retrieveAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/agentic-access/soundstripe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/soundstripe/agentic-access/soundstripe-agentic-access.yml
 summary_line: 20 operations · 9 acting · 2 human-in-the-loop
 tags:
 - Music

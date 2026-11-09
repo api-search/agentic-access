@@ -9,7 +9,7 @@ api_specs:
   label: Harmony Tickets API
   slug: harmony-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/openapi/harmony-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/harmony/openapi/harmony-tickets-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/harmon
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tickets/{ticket_id}\n  method: get\n  operationId: getTicketByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tickets/{ticket_id}\n  method: patch\n  operationId: updateTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tickets/query\n  method: post\n  operationId: queryTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tickets/bulk-update\n  method: post\n  operationId: bulkUpdateTickets\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tickets/{ticket_id}/custom-fields\n  method: get\n  operationId: getTicketCustomFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tickets/{ticket_id}/custom-fields\n  method: put\n  operationId: setTicketCustomFields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tickets/{ticket_id}/activity\n  method: get\n  operationId: getTicketActivity\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/agentic-access/harmony-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/harmony/agentic-access/harmony-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - ITSM

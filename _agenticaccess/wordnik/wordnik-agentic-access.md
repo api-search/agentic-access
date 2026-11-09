@@ -9,31 +9,31 @@ api_specs:
   label: Wordnik Account API
   slug: wordnik-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-account-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-account-api-openapi.yml
 - filename: wordnik-word-api-openapi.yml
   format: yaml
   label: Wordnik Word API
   slug: wordnik-word-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-word-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-word-api-openapi.yml
 - filename: wordnik-word-list-api-openapi.yml
   format: yaml
   label: Wordnik Word List API
   slug: wordnik-word-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-word-list-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-word-list-api-openapi.yml
 - filename: wordnik-word-lists-api-openapi.yml
   format: yaml
   label: Wordnik Word Lists API
   slug: wordnik-word-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-word-lists-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-word-lists-api-openapi.yml
 - filename: wordnik-words-api-openapi.yml
   format: yaml
   label: Wordnik Words API
   slug: wordnik-words-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-words-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-words-api-openapi.yml
 consequence_counts:
   read: 22
   write: 6
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wordni
   - path: /account.json/user\n  method: get\n  operationId: getLoggedInUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account.json/wordLists\n  method: get\n  operationId: getWordListsForLoggedInUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wordLists.json\n  method: post\n  operationId: createWordList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wordList.json/{permalink}\n  method: get\n  operationId: getWordListByPermalink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /wordList.json/{permalink}\n  method: put\n  operationId: updateWordList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wordList.json/{permalink}\n  method: delete\n  operationId: deleteWordList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wordList.json/{permalink}/words\n  method: get\n  operationId: getWordListWords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /wordList.json/{permalink}/words\n  method: post\n  operationId: addWordsToWordList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wordList.json/{permalink}/deleteWords\n  method: post\n  operationId: deleteWordsFromWordList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/agentic-access/wordnik-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wordnik/agentic-access/wordnik-agentic-access.yml
 summary_line: 28 operations · 6 acting
 tags:
 - Dictionaries

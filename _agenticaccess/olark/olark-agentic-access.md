@@ -8,31 +8,31 @@ api_specs:
   label: Olark Box API
   slug: olark-box-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-box-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-box-api-openapi.yml
 - filename: olark-chat-api-openapi.yml
   format: yaml
   label: Olark Chat API
   slug: olark-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-chat-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-chat-api-openapi.yml
 - filename: olark-configure-api-openapi.yml
   format: yaml
   label: Olark Configure API
   slug: olark-configure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-configure-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-configure-api-openapi.yml
 - filename: olark-rules-api-openapi.yml
   format: yaml
   label: Olark Rules API
   slug: olark-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-rules-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-rules-api-openapi.yml
 - filename: olark-visitor-api-openapi.yml
   format: yaml
   label: Olark Visitor API
   slug: olark-visitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/openapi/olark-visitor-api-openapi.yml
+  url: https://artifacts.apis.io/olark/openapi/olark-visitor-api-openapi.yml
 consequence_counts:
   physical: 1
   write: 14
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/olark-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chat/setOperatorGroup\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chat/onBeginConversation\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /visitor/getDetails\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /visitor/updateFullName\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /visitor/updateEmailAddress\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /visitor/updatePhoneNumber\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /rules/defineRule\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/agentic-access/olark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/olark/agentic-access/olark-agentic-access.yml
 summary_line: 15 operations · 15 acting
 tags:
 - Live Chat

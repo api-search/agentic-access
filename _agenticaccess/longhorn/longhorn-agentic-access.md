@@ -9,55 +9,55 @@ api_specs:
   label: Longhorn BackingImages API
   slug: longhorn-backingimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-backingimages-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-backingimages-api-openapi.yml
 - filename: longhorn-backups-api-openapi.yml
   format: yaml
   label: Longhorn Backups API
   slug: longhorn-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-backups-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-backups-api-openapi.yml
 - filename: longhorn-engineimages-api-openapi.yml
   format: yaml
   label: Longhorn EngineImages API
   slug: longhorn-engineimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-engineimages-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-engineimages-api-openapi.yml
 - filename: longhorn-nodes-api-openapi.yml
   format: yaml
   label: Longhorn Nodes API
   slug: longhorn-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-nodes-api-openapi.yml
 - filename: longhorn-recurringjobs-api-openapi.yml
   format: yaml
   label: Longhorn RecurringJobs API
   slug: longhorn-recurringjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-recurringjobs-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-recurringjobs-api-openapi.yml
 - filename: longhorn-settings-api-openapi.yml
   format: yaml
   label: Longhorn Settings API
   slug: longhorn-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-settings-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-settings-api-openapi.yml
 - filename: longhorn-snapshots-api-openapi.yml
   format: yaml
   label: Longhorn Snapshots API
   slug: longhorn-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-snapshots-api-openapi.yml
 - filename: longhorn-systembackups-api-openapi.yml
   format: yaml
   label: Longhorn SystemBackups API
   slug: longhorn-systembackups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-systembackups-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-systembackups-api-openapi.yml
 - filename: longhorn-volumes-api-openapi.yml
   format: yaml
   label: Longhorn Volumes API
   slug: longhorn-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/openapi/longhorn-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/longhorn/openapi/longhorn-volumes-api-openapi.yml
 consequence_counts:
   read: 16
   write: 18
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/longho
   \ none\n- path: /v1/recurringjobs/{recurringJobName}\n  method: put\n  operationId: updateRecurringJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/recurringjobs/{recurringJobName}\n  method: delete\n  operationId: deleteRecurringJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/settings\n  method: get\n  operationId: listSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/settings/{settingName}\n\
   \  method: get\n  operationId: getSetting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/settings/{settingName}\n  method: put\n  operationId: updateSetting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/backingimages\n  method: get\n  operationId: listBackingImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/backingimages\n  method: post\n  operationId: createBackingImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/systembackups\n  method: get\n  operationId: listSystemBackups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/systembackups\n  method: post\n  operationId: createSystemBackup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/agentic-access/longhorn-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/longhorn/agentic-access/longhorn-agentic-access.yml
 summary_line: 34 operations · 18 acting
 tags:
 - Backup

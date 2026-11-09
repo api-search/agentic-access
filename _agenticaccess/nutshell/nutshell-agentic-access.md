@@ -9,145 +9,145 @@ api_specs:
   label: Nutshell Activities API
   slug: nutshell-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-activities-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-activities-api-openapi.yml
 - filename: nutshell-audiences-api-openapi.yml
   format: yaml
   label: Nutshell Audiences API
   slug: nutshell-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-audiences-api-openapi.yml
 - filename: nutshell-competitors-api-openapi.yml
   format: yaml
   label: Nutshell Competitors API
   slug: nutshell-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-competitors-api-openapi.yml
 - filename: nutshell-editions-api-openapi.yml
   format: yaml
   label: Nutshell Editions API
   slug: nutshell-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-editions-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-editions-api-openapi.yml
 - filename: nutshell-emails-api-openapi.yml
   format: yaml
   label: Nutshell Emails API
   slug: nutshell-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-emails-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-emails-api-openapi.yml
 - filename: nutshell-forms-api-openapi.yml
   format: yaml
   label: Nutshell Forms API
   slug: nutshell-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-forms-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-forms-api-openapi.yml
 - filename: nutshell-industries-api-openapi.yml
   format: yaml
   label: Nutshell Industries API
   slug: nutshell-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-industries-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-industries-api-openapi.yml
 - filename: nutshell-invoices-api-openapi.yml
   format: yaml
   label: Nutshell Invoices API
   slug: nutshell-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-invoices-api-openapi.yml
 - filename: nutshell-leads-api-openapi.yml
   format: yaml
   label: Nutshell Leads API
   slug: nutshell-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-leads-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-leads-api-openapi.yml
 - filename: nutshell-markets-api-openapi.yml
   format: yaml
   label: Nutshell Markets API
   slug: nutshell-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-markets-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-markets-api-openapi.yml
 - filename: nutshell-notes-api-openapi.yml
   format: yaml
   label: Nutshell Notes API
   slug: nutshell-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-notes-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-notes-api-openapi.yml
 - filename: nutshell-products-api-openapi.yml
   format: yaml
   label: Nutshell Products API
   slug: nutshell-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-products-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-products-api-openapi.yml
 - filename: nutshell-quotes-api-openapi.yml
   format: yaml
   label: Nutshell Quotes API
   slug: nutshell-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-quotes-api-openapi.yml
 - filename: nutshell-sources-api-openapi.yml
   format: yaml
   label: Nutshell Sources API
   slug: nutshell-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-sources-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-sources-api-openapi.yml
 - filename: nutshell-tags-api-openapi.yml
   format: yaml
   label: Nutshell Tags API
   slug: nutshell-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-tags-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-tags-api-openapi.yml
 - filename: nutshell-tasks-api-openapi.yml
   format: yaml
   label: Nutshell Tasks API
   slug: nutshell-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-tasks-api-openapi.yml
 - filename: nutshell-territories-api-openapi.yml
   format: yaml
   label: Nutshell Territories API
   slug: nutshell-territories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-territories-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-territories-api-openapi.yml
 - filename: nutshell-users-api-openapi.yml
   format: yaml
   label: Nutshell Users API
   slug: nutshell-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-users-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-users-api-openapi.yml
 - filename: nutshell-accounts-companies-api-openapi.yml
   format: yaml
   label: Nutshell Accounts (Companies) API
   slug: nutshell-accounts-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-accounts-companies-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-accounts-companies-api-openapi.yml
 - filename: nutshell-contacts-people-api-openapi.yml
   format: yaml
   label: Nutshell Contacts (People) API
   slug: nutshell-contacts-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-contacts-people-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-contacts-people-api-openapi.yml
 - filename: nutshell-events-timeline-api-openapi.yml
   format: yaml
   label: Nutshell Events (Timeline) API
   slug: nutshell-events-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-events-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-events-timeline-api-openapi.yml
 - filename: nutshell-filter-api-openapi.yml
   format: yaml
   label: Nutshell Filter API
   slug: nutshell-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-filter-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-filter-api-openapi.yml
 - filename: nutshell-stagesets-pipelines-api-openapi.yml
   format: yaml
   label: Nutshell Stagesets (Pipelines) API
   slug: nutshell-stagesets-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-stagesets-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-stagesets-pipelines-api-openapi.yml
 - filename: nutshell-product-categories-api-openapi.yml
   format: yaml
   label: Nutshell Product Categories API
   slug: nutshell-product-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-product-categories-api-openapi.yml
+  url: https://artifacts.apis.io/nutshell/openapi/nutshell-product-categories-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 69
@@ -237,8 +237,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/nutshe
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes\n  method: get\n  operationId: 1aee48fe1472d38116c60c87e2ca4161\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources/{id}\n  method: delete\n  operationId: 4d0d83bd963cdf17734d5dacc8fe4235\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sources/{id}/undelete\n  method: post\n  operationId: 80894cc152322d74d5a4115aca5297f9\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sources\n  method: get\n  operationId: 2d07cb07b45de2ae13701b873b26cf9e\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources\n  method: post\n  operationId: cd431c40f2b57127c71b15044d270a13\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{id}\n  method: delete\n  operationId: 796b8e738949a2a0563da5032e29a12c\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /tags\n  method: get\n  operationId: 422aa2c0d6493b41248e46c6ac93a43b\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: post\n  operationId: 88c135d662e0a79e2a0c5fdf337ba537\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{id}/undelete\n  method: post\n  operationId: f09a0e050d70fe8d55b68a0ddddd3df0\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method:\
-  \ get\n  operationId: 04c249286f1032bdf6d8178e0e9f384c\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{id}\n  method: delete\n  operationId: 8df89ef1ffa672b94c860d2b6b77ee16\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: patch\n  operationId: fab5f8833c76cb64c8e82ec09416f467\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/agentic-access/nutshell-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/agentic-access/nutshell-agentic-access.yml
+  \ get\n  operationId: 04c249286f1032bdf6d8178e0e9f384c\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{id}\n  method: delete\n  operationId: 8df89ef1ffa672b94c860d2b6b77ee16\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: patch\n  operationId: fab5f8833c76cb64c8e82ec09416f467\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/nutshell/agentic-access/nutshell-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/nutshell/agentic-access/nutshell-agentic-access.yml
 summary_line: 116 operations · 47 acting
 tags:
 - CRM

@@ -9,97 +9,97 @@ api_specs:
   label: MixRank Account API
   slug: mixrank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-account-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-account-api-openapi.yml
 - filename: mixrank-audience-segments-api-openapi.yml
   format: yaml
   label: MixRank Audience Segments API
   slug: mixrank-audience-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-audience-segments-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-audience-segments-api-openapi.yml
 - filename: mixrank-companies-api-openapi.yml
   format: yaml
   label: MixRank Companies API
   slug: mixrank-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-companies-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-companies-api-openapi.yml
 - filename: mixrank-email-api-openapi.yml
   format: yaml
   label: MixRank Email API
   slug: mixrank-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-email-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-email-api-openapi.yml
 - filename: mixrank-ios-app-privacy-api-openapi.yml
   format: yaml
   label: MixRank iOS App Privacy API
   slug: mixrank-ios-app-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-ios-app-privacy-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-ios-app-privacy-api-openapi.yml
 - filename: mixrank-ios-apps-api-openapi.yml
   format: yaml
   label: MixRank iOS Apps API
   slug: mixrank-ios-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-ios-apps-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-ios-apps-api-openapi.yml
 - filename: mixrank-ios-developers-api-openapi.yml
   format: yaml
   label: MixRank iOS Developers API
   slug: mixrank-ios-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-ios-developers-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-ios-developers-api-openapi.yml
 - filename: mixrank-ios-rankings-api-openapi.yml
   format: yaml
   label: MixRank iOS Rankings API
   slug: mixrank-ios-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-ios-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-ios-rankings-api-openapi.yml
 - filename: mixrank-ios-sdks-api-openapi.yml
   format: yaml
   label: MixRank iOS SDKs API
   slug: mixrank-ios-sdks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-ios-sdks-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-ios-sdks-api-openapi.yml
 - filename: mixrank-people-api-openapi.yml
   format: yaml
   label: MixRank People API
   slug: mixrank-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-people-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-people-api-openapi.yml
 - filename: mixrank-play-store-apps-api-openapi.yml
   format: yaml
   label: MixRank Play Store Apps API
   slug: mixrank-play-store-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-play-store-apps-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-play-store-apps-api-openapi.yml
 - filename: mixrank-play-store-developers-api-openapi.yml
   format: yaml
   label: MixRank Play Store Developers API
   slug: mixrank-play-store-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-play-store-developers-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-play-store-developers-api-openapi.yml
 - filename: mixrank-play-store-rankings-api-openapi.yml
   format: yaml
   label: MixRank Play Store Rankings API
   slug: mixrank-play-store-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-play-store-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-play-store-rankings-api-openapi.yml
 - filename: mixrank-play-store-sdks-api-openapi.yml
   format: yaml
   label: MixRank Play Store SDKs API
   slug: mixrank-play-store-sdks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-play-store-sdks-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-play-store-sdks-api-openapi.yml
 - filename: mixrank-web-tags-api-openapi.yml
   format: yaml
   label: MixRank Web Tags API
   slug: mixrank-web-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-web-tags-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-web-tags-api-openapi.yml
 - filename: mixrank-websites-api-openapi.yml
   format: yaml
   label: MixRank Websites API
   slug: mixrank-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/openapi/mixrank-websites-api-openapi.yml
+  url: https://artifacts.apis.io/mixrank/openapi/mixrank-websites-api-openapi.yml
 consequence_counts:
   read: 73
   write: 4
@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mixran
   \ 3600\n    audit: none\n- path: /playstore/sdks/{sdk_slug}\n  method: get\n  operationId: getPlaystoreSdk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playstore/sdks/{sdk_slug}/installs\n  method: get\n  operationId: getPlaystoreSdkInstalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playstore/sdks/{sdk_slug}/install-trend\n  method: get\n  operationId: getPlaystoreSdkInstallTrend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playstore/sdks/{sdk_slug}/uninstalls\n  method: get\n  operationId: getPlaystoreSdkUninstalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /playstore/sdks/{sdk_slug}/categories\n  method: get\n  operationId: getPlaystoreSdkCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playstore/sdks/{sdk_slug}/downloads\n  method: get\n  operationId: getPlaystoreSdkDownloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/tags\n  method: get\n  operationId: listWebTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/tags/{slug}\n  method: get\n  operationId: getWebTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/tags/{slug}/sites\n  method: get\n  operationId: getWebTagSites\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/sites\n  method: get\n  operationId: listWebSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/sites/{domain}\n  method: get\n  operationId: getWebSite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/sites/{domain}/tags\n  method: get\n  operationId: getWebSiteTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/agentic-access/mixrank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mixrank/agentic-access/mixrank-agentic-access.yml
 summary_line: 77 operations · 4 acting
 tags:
 - Company

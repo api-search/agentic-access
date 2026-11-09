@@ -9,73 +9,73 @@ api_specs:
   label: Workday Security Account Signons API
   slug: workday-security-account-signons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-account-signons-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-account-signons-api-openapi.yml
 - filename: workday-security-audit-logs-api-openapi.yml
   format: yaml
   label: Workday Security Audit Logs API
   slug: workday-security-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-audit-logs-api-openapi.yml
 - filename: workday-security-authentication-configuration-api-openapi.yml
   format: yaml
   label: Workday Security Authentication Configuration API
   slug: workday-security-authentication-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-authentication-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-authentication-configuration-api-openapi.yml
 - filename: workday-security-compliance-reports-api-openapi.yml
   format: yaml
   label: Workday Security Compliance Reports API
   slug: workday-security-compliance-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-compliance-reports-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-compliance-reports-api-openapi.yml
 - filename: workday-security-domain-security-policies-api-openapi.yml
   format: yaml
   label: Workday Security Domain Security Policies API
   slug: workday-security-domain-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-domain-security-policies-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-domain-security-policies-api-openapi.yml
 - filename: workday-security-oauth-tokens-api-openapi.yml
   format: yaml
   label: Workday Security OAuth Tokens API
   slug: workday-security-oauth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-oauth-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-oauth-tokens-api-openapi.yml
 - filename: workday-security-security-audit-api-openapi.yml
   format: yaml
   label: Workday Security Audit API
   slug: workday-security-security-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-security-audit-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-security-audit-api-openapi.yml
 - filename: workday-security-security-group-members-api-openapi.yml
   format: yaml
   label: Workday Security Group Members API
   slug: workday-security-security-group-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-security-group-members-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-security-group-members-api-openapi.yml
 - filename: workday-security-security-groups-api-openapi.yml
   format: yaml
   label: Workday Security Groups API
   slug: workday-security-security-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-security-groups-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-security-groups-api-openapi.yml
 - filename: workday-security-sessions-api-openapi.yml
   format: yaml
   label: Workday Security Sessions API
   slug: workday-security-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-sessions-api-openapi.yml
 - filename: workday-security-unidentified-signons-api-openapi.yml
   format: yaml
   label: Workday Security Unidentified Signons API
   slug: workday-security-unidentified-signons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-unidentified-signons-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-unidentified-signons-api-openapi.yml
 - filename: workday-security-user-accounts-api-openapi.yml
   format: yaml
   label: Workday Security User Accounts API
   slug: workday-security-user-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/openapi/workday-security-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/workday-security/openapi/workday-security-user-accounts-api-openapi.yml
 consequence_counts:
   read: 16
   write: 1
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workda
   \  method: get\n  operationId: listActiveSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/{tenant}/authenticationPolicies\n  method: get\n  operationId: listAuthenticationPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accountSignons\n  method: get\n  operationId: listAccountSignons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accountSignons/{signonId}\n  method: get\n  operationId: getAccountSignon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /unidentifiedSignons\n  method: get\n  operationId: listUnidentifiedSignons\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userAccounts\n  method: get\n  operationId: listUserAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userAccounts/{accountId}\n  method: get\n  operationId: getUserAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityGroups\n  method: get\n  operationId: listSecurityGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securityGroups/{securityGroupId}\n  method: get\n  operationId: getSecurityGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /securityGroups/{securityGroupId}/members\n  method: get\n  operationId: listSecurityGroupMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domainSecurityPolicies\n  method: get\n  operationId: listDomainSecurityPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domainSecurityPolicies/{policyId}\n  method: get\n  operationId: getDomainSecurityPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/agentic-access/workday-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workday-security/agentic-access/workday-security-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
 - Access Control

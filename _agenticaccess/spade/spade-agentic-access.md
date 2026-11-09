@@ -9,49 +9,49 @@ api_specs:
   label: Spade Card Enrichment API
   slug: spade-card-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-card-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-card-enrichment-api-openapi.yml
 - filename: spade-category-action-triggers-api-openapi.yml
   format: yaml
   label: Spade Category Action Triggers API
   slug: spade-category-action-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-category-action-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-category-action-triggers-api-openapi.yml
 - filename: spade-category-personalization-api-openapi.yml
   format: yaml
   label: Spade Category Personalization API
   slug: spade-category-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-category-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-category-personalization-api-openapi.yml
 - filename: spade-feedback-and-reporting-api-openapi.yml
   format: yaml
   label: Spade Feedback and Reporting API
   slug: spade-feedback-and-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-feedback-and-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-feedback-and-reporting-api-openapi.yml
 - filename: spade-merchant-action-triggers-api-openapi.yml
   format: yaml
   label: Spade Merchant Action Triggers API
   slug: spade-merchant-action-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-merchant-action-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-merchant-action-triggers-api-openapi.yml
 - filename: spade-merchant-search-api-openapi.yml
   format: yaml
   label: Spade Merchant Search API
   slug: spade-merchant-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-merchant-search-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-merchant-search-api-openapi.yml
 - filename: spade-transfer-enrichment-api-openapi.yml
   format: yaml
   label: Spade Transfer Enrichment API
   slug: spade-transfer-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-transfer-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-transfer-enrichment-api-openapi.yml
 - filename: spade-universal-enrichment-api-openapi.yml
   format: yaml
   label: Spade Universal Enrichment API
   slug: spade-universal-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/openapi/spade-universal-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/spade/openapi/spade-universal-enrichment-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 22
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/spade-
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches/transactions/transfers/enrich\n  method: post\n  operationId: batchesTransferEnrich\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batches/transactions/transfers/enrich\n  method: options\n  operationId: batchesTransferEnrichOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/transfers/enrich\n  method: post\n  operationId: transferEnrich\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batches/{transferEnrichmentBatchId}/results\n  method: get\n  operationId: batchesTransactionsTransfersEnrichGetResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches/{transferEnrichmentBatchId}\n  method: get\n  operationId: batchesTransactionsTransfersEnrichGetStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batches/transactions/universal/enrich\n  method: post\n  operationId: batchesUniversalEnrich\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batches/transactions/universal/enrich\n  method: options\n  operationId: batchesUniversalEnrichOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/universal/enrich\n  method: post\n  operationId: universalEnrich\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batches/{universalEnrichmentBatchId}/results\n  method: get\n  operationId: batchesUniversalEnrichGetResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/agentic-access/spade-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spade/agentic-access/spade-agentic-access.yml
 summary_line: 73 operations · 51 acting
 tags:
 - Company

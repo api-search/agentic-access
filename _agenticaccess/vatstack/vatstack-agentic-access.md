@@ -9,43 +9,43 @@ api_specs:
   label: Vatstack Batches API
   slug: vatstack-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-batches-api-openapi.yml
+  url: https://artifacts.apis.io/vatstack/openapi/vatstack-batches-api-openapi.yml
 - filename: vatstack-evidences-api-openapi.yml
   format: yaml
   label: Vatstack Evidences API
   slug: vatstack-evidences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-evidences-api-openapi.yml
+  url: https://artifacts.apis.io/vatstack/openapi/vatstack-evidences-api-openapi.yml
 - filename: vatstack-hits-api-openapi.yml
   format: yaml
   label: Vatstack Hits API
   slug: vatstack-hits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-hits-api-openapi.yml
+  url: https://artifacts.apis.io/vatstack/openapi/vatstack-hits-api-openapi.yml
 - filename: vatstack-quotes-api-openapi.yml
   format: yaml
   label: Vatstack Quotes API
   slug: vatstack-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/vatstack/openapi/vatstack-quotes-api-openapi.yml
 - filename: vatstack-rates-api-openapi.yml
   format: yaml
   label: Vatstack Rates API
   slug: vatstack-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-rates-api-openapi.yml
+  url: https://artifacts.apis.io/vatstack/openapi/vatstack-rates-api-openapi.yml
 - filename: vatstack-supplies-api-openapi.yml
   format: yaml
   label: Vatstack Supplies API
   slug: vatstack-supplies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-supplies-api-openapi.yml
+  url: https://artifacts.apis.io/vatstack/openapi/vatstack-supplies-api-openapi.yml
 - filename: vatstack-validations-api-openapi.yml
   format: yaml
   label: Vatstack Validations API
   slug: vatstack-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/openapi/vatstack-validations-api-openapi.yml
+  url: https://artifacts.apis.io/vatstack/openapi/vatstack-validations-api-openapi.yml
 consequence_counts:
   read: 13
   write: 10
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vatsta
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rates\n  method: get\n  operationId: getAllRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rates/geolocate\n  method: get\n  operationId: getRateByIPAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /supplies\n  method: post\n  operationId: createSupply\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /supplies\n  method: get\n  operationId: getAllSupplies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /supplies/{id}\n  method: get\n  operationId: getSupplyById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /supplies/{id}\n  method: put\n  operationId: updateSupplyById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /supplies/{id}\n  method: delete\n  operationId: deleteSupplyById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validations\n  method: post\n\
   \  operationId: createValidation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validations\n  method: get\n  operationId: getAllValidations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /validations/{id}\n  method: get\n  operationId: getValidationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/agentic-access/vatstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vatstack/agentic-access/vatstack-agentic-access.yml
 summary_line: 23 operations · 10 acting
 tags:
 - VAT

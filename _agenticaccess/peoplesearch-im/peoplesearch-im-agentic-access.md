@@ -9,37 +9,37 @@ api_specs:
   label: PeopleSearch.im Credits API
   slug: peoplesearch-im-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-credits-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-credits-api-openapi.yml
 - filename: peoplesearch-im-deliver-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Deliver API
   slug: peoplesearch-im-deliver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-deliver-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-deliver-api-openapi.yml
 - filename: peoplesearch-im-email-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Email API
   slug: peoplesearch-im-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-email-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-email-api-openapi.yml
 - filename: peoplesearch-im-reveal-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Reveal API
   slug: peoplesearch-im-reveal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-reveal-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-reveal-api-openapi.yml
 - filename: peoplesearch-im-search-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Search API
   slug: peoplesearch-im-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-search-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-search-api-openapi.yml
 - filename: peoplesearch-im-tools-api-openapi.yml
   format: yaml
   label: PeopleSearch.im Tools API
   slug: peoplesearch-im-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/openapi/peoplesearch-im-tools-api-openapi.yml
+  url: https://artifacts.apis.io/peoplesearch-im/openapi/peoplesearch-im-tools-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/peoplesearch-im-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 3\n    acting: 3\n  by_consequence:\n    read: 3\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/search\n  method: post\n  operationId: searchPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/deliver\n  method: post\n  operationId: deliverProfiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/reveal\n  method: post\n  operationId: revealProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/email\n  method: post\n  operationId: fetchEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools\n  method: post\n  operationId: runTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/credits\n\
   \  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/agentic-access/peoplesearch-im-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/peoplesearch-im/agentic-access/peoplesearch-im-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
 - Company

@@ -9,25 +9,25 @@ api_specs:
   label: Kubeflow Experiments API
   slug: kubeflow-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/openapi/kubeflow-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow/openapi/kubeflow-experiments-api-openapi.yml
 - filename: kubeflow-health-api-openapi.yml
   format: yaml
   label: Kubeflow Health API
   slug: kubeflow-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/openapi/kubeflow-health-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow/openapi/kubeflow-health-api-openapi.yml
 - filename: kubeflow-pipelines-api-openapi.yml
   format: yaml
   label: Kubeflow Pipelines API
   slug: kubeflow-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/openapi/kubeflow-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow/openapi/kubeflow-pipelines-api-openapi.yml
 - filename: kubeflow-pipeline-versions-api-openapi.yml
   format: yaml
   label: Kubeflow Pipeline Versions API
   slug: kubeflow-pipeline-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/openapi/kubeflow-pipeline-versions-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow/openapi/kubeflow-pipeline-versions-api-openapi.yml
 consequence_counts:
   read: 8
   write: 5
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kubefl
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v2beta1/pipelines\n  method: get\n  operationId: listPipelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/v2beta1/pipelines\n  method: post\n  operationId: createPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v2beta1/pipelines/{pipeline_id}\n  method: get\n  operationId: getPipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/v2beta1/pipelines/{pipeline_id}\n\
   \  method: delete\n  operationId: deletePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v2beta1/pipelines/{pipeline_id}/versions\n  method: get\n  operationId: listPipelineVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/v2beta1/pipelines/{pipeline_id}/versions\n  method: post\n  operationId: createPipelineVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v2beta1/runs\n  method:\
   \ get\n  operationId: listRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/agentic-access/kubeflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kubeflow/agentic-access/kubeflow-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
 - Artificial Intelligence

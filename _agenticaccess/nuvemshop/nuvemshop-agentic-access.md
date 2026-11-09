@@ -9,61 +9,61 @@ api_specs:
   label: Nuvemshop / Tiendanube Categories API
   slug: nuvemshop-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-categories-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-categories-api-openapi.yml
 - filename: nuvemshop-coupons-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Coupons API
   slug: nuvemshop-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-coupons-api-openapi.yml
 - filename: nuvemshop-customers-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Customers API
   slug: nuvemshop-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-customers-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-customers-api-openapi.yml
 - filename: nuvemshop-orders-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Orders API
   slug: nuvemshop-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-orders-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-orders-api-openapi.yml
 - filename: nuvemshop-product-images-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Product Images API
   slug: nuvemshop-product-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-product-images-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-product-images-api-openapi.yml
 - filename: nuvemshop-product-variants-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Product Variants API
   slug: nuvemshop-product-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-product-variants-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-product-variants-api-openapi.yml
 - filename: nuvemshop-products-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Products API
   slug: nuvemshop-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-products-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-products-api-openapi.yml
 - filename: nuvemshop-scripts-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Scripts API
   slug: nuvemshop-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-scripts-api-openapi.yml
 - filename: nuvemshop-store-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Store API
   slug: nuvemshop-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-store-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-store-api-openapi.yml
 - filename: nuvemshop-webhooks-api-openapi.yml
   format: yaml
   label: Nuvemshop / Tiendanube Webhooks API
   slug: nuvemshop-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/openapi/nuvemshop-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nuvemshop/openapi/nuvemshop-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 23
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nuvems
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scripts\n  method: get\n  operationId: listScripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /scripts\n  method: post\n  operationId: createScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scripts/{id}\n  method: get\n  operationId: getScript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scripts/{id}\n  method: put\n  operationId: updateScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scripts/{id}\n  method: delete\n  operationId: deleteScript\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /store\n  method: get\n  operationId: getStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/agentic-access/nuvemshop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nuvemshop/agentic-access/nuvemshop-agentic-access.yml
 summary_line: 56 operations · 33 acting
 tags:
 - E-Commerce

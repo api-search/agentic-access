@@ -9,37 +9,37 @@ api_specs:
   label: Walgreens Appointments API
   slug: walgreens-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-appointments-api-openapi.yml
 - filename: walgreens-eligibility-api-openapi.yml
   format: yaml
   label: Walgreens Eligibility API
   slug: walgreens-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-eligibility-api-openapi.yml
 - filename: walgreens-patients-api-openapi.yml
   format: yaml
   label: Walgreens Patients API
   slug: walgreens-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-patients-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-patients-api-openapi.yml
 - filename: walgreens-refills-api-openapi.yml
   format: yaml
   label: Walgreens Refills API
   slug: walgreens-refills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-refills-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-refills-api-openapi.yml
 - filename: walgreens-stores-api-openapi.yml
   format: yaml
   label: Walgreens Stores API
   slug: walgreens-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-stores-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-stores-api-openapi.yml
 - filename: walgreens-transfers-api-openapi.yml
   format: yaml
   label: Walgreens Transfers API
   slug: walgreens-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/openapi/walgreens-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/walgreens/openapi/walgreens-transfers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/walgre
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/vaccine/scheduling/patient/v1\n  method: post\n  operationId: attachPatientToAppointment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/util/mweb5url\n  method: post\n  operationId: obtainRefillUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/rx/refill\n  method: post\n  operationId: submitRefill\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/stores/search/v2\n  method: post\n  operationId: searchStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stores/details/v1\n  method: post\n  operationId: getStoreDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/util/storenumber/v1\n  method: post\n  operationId: listStoreNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rx/transfer\n  method: post\n  operationId: submitTransfer\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/agentic-access/walgreens-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/walgreens/agentic-access/walgreens-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
 - Pharmacy

@@ -9,31 +9,31 @@ api_specs:
   label: Argil Assets API
   slug: argil-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-assets-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-assets-api-openapi.yml
 - filename: argil-avatars-api-openapi.yml
   format: yaml
   label: Argil Avatars API
   slug: argil-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-avatars-api-openapi.yml
 - filename: argil-videos-api-openapi.yml
   format: yaml
   label: Argil Videos API
   slug: argil-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-videos-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-videos-api-openapi.yml
 - filename: argil-voices-api-openapi.yml
   format: yaml
   label: Argil Voices API
   slug: argil-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-voices-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-voices-api-openapi.yml
 - filename: argil-webhooks-api-openapi.yml
   format: yaml
   label: Argil Webhooks API
   slug: argil-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/openapi/argil-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/argil/openapi/argil-webhooks-api-openapi.yml
 consequence_counts:
   read: 9
   write: 11
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/argil-
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets\n  method: get\n  operationId: listAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/{id}\n  method: get\n  operationId: getAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/{id}\n  method: delete\n  operationId: deleteAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/agentic-access/argil-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/argil/agentic-access/argil-agentic-access.yml
 summary_line: 20 operations · 11 acting
 tags:
 - Artificial Intelligence

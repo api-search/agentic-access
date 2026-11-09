@@ -9,61 +9,61 @@ api_specs:
   label: Kanban Tool Attachments API
   slug: kanban-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-attachments-api-openapi.yml
 - filename: kanban-attachments-json-api-openapi.yml
   format: yaml
   label: Kanban Tool Attachments.json API
   slug: kanban-attachments-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-attachments-json-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-attachments-json-api-openapi.yml
 - filename: kanban-boards-api-openapi.yml
   format: yaml
   label: Kanban Tool Boards API
   slug: kanban-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-boards-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-boards-api-openapi.yml
 - filename: kanban-subtasks-api-openapi.yml
   format: yaml
   label: Kanban Tool Subtasks API
   slug: kanban-subtasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-subtasks-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-subtasks-api-openapi.yml
 - filename: kanban-subtasks-json-api-openapi.yml
   format: yaml
   label: Kanban Tool Subtasks.json API
   slug: kanban-subtasks-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-subtasks-json-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-subtasks-json-api-openapi.yml
 - filename: kanban-tasks-api-openapi.yml
   format: yaml
   label: Kanban Tool Tasks API
   slug: kanban-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-tasks-api-openapi.yml
 - filename: kanban-tasks-json-api-openapi.yml
   format: yaml
   label: Kanban Tool Tasks.json API
   slug: kanban-tasks-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-tasks-json-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-tasks-json-api-openapi.yml
 - filename: kanban-time-trackers-api-openapi.yml
   format: yaml
   label: Kanban Tool Time Trackers API
   slug: kanban-time-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-time-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-time-trackers-api-openapi.yml
 - filename: kanban-time-trackers-json-api-openapi.yml
   format: yaml
   label: Kanban Tool Time Trackers.json API
   slug: kanban-time-trackers-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-time-trackers-json-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-time-trackers-json-api-openapi.yml
 - filename: kanban-users-api-openapi.yml
   format: yaml
   label: Kanban Tool Users API
   slug: kanban-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/openapi/kanban-users-api-openapi.yml
+  url: https://artifacts.apis.io/kanban/openapi/kanban-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kanban
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /attachments.json\n  method: post\n  operationId: createAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /attachments/{attachment_id}/detach.json\n  method: delete\n  operationId: detachAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /attachments/{attachment_id}/set_mode.json\n \
   \ method: patch\n  operationId: setAttachmentMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time_trackers.json\n  method: post\n  operationId: createTimeTracker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time_trackers/{time_tracker_id}.json\n  method: put\n  operationId: updateTimeTracker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /time_trackers/{time_tracker_id}.json\n  method: delete\n  operationId: deleteTimeTracker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/agentic-access/kanban-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kanban/agentic-access/kanban-agentic-access.yml
 summary_line: 22 operations · 14 acting
 tags:
 - Agile

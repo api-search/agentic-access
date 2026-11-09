@@ -9,169 +9,169 @@ api_specs:
   label: Wikipedia / MediaWiki articles API
   slug: wikipedia-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-articles-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-articles-api-openapi.yml
 - filename: wikipedia-batches-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki batches API
   slug: wikipedia-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-batches-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-batches-api-openapi.yml
 - filename: wikipedia-citation-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Citation API
   slug: wikipedia-citation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-citation-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-citation-api-openapi.yml
 - filename: wikipedia-codes-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Codes API
   slug: wikipedia-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-codes-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-codes-api-openapi.yml
 - filename: wikipedia-languages-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Languages API
   slug: wikipedia-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-languages-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-languages-api-openapi.yml
 - filename: wikipedia-math-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Math API
   slug: wikipedia-math-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-math-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-math-api-openapi.yml
 - filename: wikipedia-mobile-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Mobile API
   slug: wikipedia-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-mobile-api-openapi.yml
 - filename: wikipedia-namespaces-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Namespaces API
   slug: wikipedia-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-namespaces-api-openapi.yml
 - filename: wikipedia-offline-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Offline API
   slug: wikipedia-offline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-offline-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-offline-api-openapi.yml
 - filename: wikipedia-page-content-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Page content API
   slug: wikipedia-page-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-page-content-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-page-content-api-openapi.yml
 - filename: wikipedia-projects-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Projects API
   slug: wikipedia-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-projects-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-projects-api-openapi.yml
 - filename: wikipedia-reading-lists-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Reading lists API
   slug: wikipedia-reading-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-reading-lists-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-reading-lists-api-openapi.yml
 - filename: wikipedia-recommendation-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Recommendation API
   slug: wikipedia-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-recommendation-api-openapi.yml
 - filename: wikipedia-snapshots-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Snapshots API
   slug: wikipedia-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-snapshots-api-openapi.yml
 - filename: wikipedia-structured-contents-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Structured Contents API
   slug: wikipedia-structured-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-structured-contents-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-structured-contents-api-openapi.yml
 - filename: wikipedia-structured-snapshots-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Structured Snapshots API
   slug: wikipedia-structured-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-structured-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-structured-snapshots-api-openapi.yml
 - filename: wikipedia-talk-pages-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Talk pages API
   slug: wikipedia-talk-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-talk-pages-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-talk-pages-api-openapi.yml
 - filename: wikipedia-transforms-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Transforms API
   slug: wikipedia-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-transforms-api-openapi.yml
 - filename: wikipedia-wikidata-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Wikidata API
   slug: wikipedia-wikidata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-wikidata-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-wikidata-api-openapi.yml
 - filename: wikipedia-edit-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Edit API
   slug: wikipedia-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-edit-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-edit-api-openapi.yml
 - filename: wikipedia-files-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Files API
   slug: wikipedia-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-files-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-files-api-openapi.yml
 - filename: wikipedia-history-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki History API
   slug: wikipedia-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-history-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-history-api-openapi.yml
 - filename: wikipedia-links-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Links API
   slug: wikipedia-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-links-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-links-api-openapi.yml
 - filename: wikipedia-pages-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Pages API
   slug: wikipedia-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-pages-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-pages-api-openapi.yml
 - filename: wikipedia-query-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Query API
   slug: wikipedia-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-query-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-query-api-openapi.yml
 - filename: wikipedia-revisions-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Revisions API
   slug: wikipedia-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-revisions-api-openapi.yml
 - filename: wikipedia-search-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki Search API
   slug: wikipedia-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-search-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-search-api-openapi.yml
 - filename: wikipedia-sparql-api-openapi.yml
   format: yaml
   label: Wikipedia / MediaWiki SPARQL API
   slug: wikipedia-sparql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/openapi/wikipedia-sparql-api-openapi.yml
+  url: https://artifacts.apis.io/wikipedia/openapi/wikipedia-sparql-api-openapi.yml
 consequence_counts:
   read: 78
   safety-critical: 1
@@ -240,7 +240,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/wikipe
   \      - abnormal\n      - high-value\n    audit: required\n- path: /transform/wikitext/to/lint/{title}/{revision}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transform/wikitext/to/mobile-html/{title}\n  method: post\n  operationId: transformWikitextToMobileHtml\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/wikidata/items/{identifier}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v2/wikidata/items/{identifier}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/wikidata/properties/{identifier}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wikidata/properties/{identifier}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/wikidata/labels/{identifier}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/wikidata/labels/{identifier}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/agentic-access/wikipedia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wikipedia/agentic-access/wikipedia-agentic-access.yml
 summary_line: 124 operations · 46 acting · 1 human-in-the-loop
 tags:
 - Open Data

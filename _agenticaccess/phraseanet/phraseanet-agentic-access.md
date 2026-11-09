@@ -9,55 +9,55 @@ api_specs:
   label: Phraseanet Account API
   slug: phraseanet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-account-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-account-api-openapi.yml
 - filename: phraseanet-baskets-api-openapi.yml
   format: yaml
   label: Phraseanet Baskets API
   slug: phraseanet-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-baskets-api-openapi.yml
 - filename: phraseanet-databoxes-api-openapi.yml
   format: yaml
   label: Phraseanet Databoxes API
   slug: phraseanet-databoxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-databoxes-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-databoxes-api-openapi.yml
 - filename: phraseanet-feeds-api-openapi.yml
   format: yaml
   label: Phraseanet Feeds API
   slug: phraseanet-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-feeds-api-openapi.yml
 - filename: phraseanet-metadata-api-openapi.yml
   format: yaml
   label: Phraseanet Metadata API
   slug: phraseanet-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-metadata-api-openapi.yml
 - filename: phraseanet-quarantine-api-openapi.yml
   format: yaml
   label: Phraseanet Quarantine API
   slug: phraseanet-quarantine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-quarantine-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-quarantine-api-openapi.yml
 - filename: phraseanet-records-api-openapi.yml
   format: yaml
   label: Phraseanet Records API
   slug: phraseanet-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-records-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-records-api-openapi.yml
 - filename: phraseanet-search-api-openapi.yml
   format: yaml
   label: Phraseanet Search API
   slug: phraseanet-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-search-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-search-api-openapi.yml
 - filename: phraseanet-stories-api-openapi.yml
   format: yaml
   label: Phraseanet Stories API
   slug: phraseanet-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-stories-api-openapi.yml
+  url: https://artifacts.apis.io/phraseanet/openapi/phraseanet-stories-api-openapi.yml
 consequence_counts:
   read: 21
   write: 13
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/phrase
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /records/{databox_id}/{record_id}/delete\n  method: post\n  operationId: deleteRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stories/add\n  method: post\n  operationId: addStory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stories/{databox_id}/{story_id}\n  method: get\n  operationId: getStory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stories/{databox_id}/{story_id}/addrecords\n  method: post\n  operationId: addRecordsToStory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stories/{databox_id}/{story_id}/delrecords\n  method: post\n  operationId: removeRecordsFromStory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stories/{databox_id}/{story_id}/setcover\n  method: post\n  operationId: setStoryCover\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/agentic-access/phraseanet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/phraseanet/agentic-access/phraseanet-agentic-access.yml
 summary_line: 34 operations · 13 acting
 tags:
 - Digital Asset Management

@@ -8,7 +8,7 @@ api_specs:
   label: Federal Motor Carrier Safety Administration Carriers API
   slug: federal-motor-carrier-safety-administration-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/openapi/federal-motor-carrier-safety-administration-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/federal-motor-carrier-safety-administration/openapi/federal-motor-carrier-safety-administration-carriers-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -36,7 +36,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/federal-motor-carrier-safety-administration-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /carriers/{dotNumber}\n  method: get\n  operationId: getCarrierByDotNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers/name/{name}\n  method: get\n  operationId: searchCarriersByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers/{dotNumber}/cargo-carried\n\
   \  method: get\n  operationId: getCarrierCargoCarried\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers/{dotNumber}/operation-classification\n  method: get\n  operationId: getCarrierOperationClassification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers/{dotNumber}/oos\n  method: get\n  operationId: getCarrierOos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers/{dotNumber}/docket-numbers\n  method: get\n  operationId: getCarrierDocketNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers/{dotNumber}/authority\n  method: get\n  operationId:\
   \ getCarrierAuthority\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/agentic-access/federal-motor-carrier-safety-administration-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/federal-motor-carrier-safety-administration/agentic-access/federal-motor-carrier-safety-administration-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Federal Government

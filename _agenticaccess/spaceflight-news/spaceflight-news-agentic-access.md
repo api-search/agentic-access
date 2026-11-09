@@ -8,25 +8,25 @@ api_specs:
   label: Spaceflight News Articles API
   slug: spaceflight-news-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/openapi/spaceflight-news-articles-api-openapi.yml
+  url: https://artifacts.apis.io/spaceflight-news/openapi/spaceflight-news-articles-api-openapi.yml
 - filename: spaceflight-news-blogs-api-openapi.yml
   format: yaml
   label: Spaceflight News Blogs API
   slug: spaceflight-news-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/openapi/spaceflight-news-blogs-api-openapi.yml
+  url: https://artifacts.apis.io/spaceflight-news/openapi/spaceflight-news-blogs-api-openapi.yml
 - filename: spaceflight-news-info-api-openapi.yml
   format: yaml
   label: Spaceflight News Info API
   slug: spaceflight-news-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/openapi/spaceflight-news-info-api-openapi.yml
+  url: https://artifacts.apis.io/spaceflight-news/openapi/spaceflight-news-info-api-openapi.yml
 - filename: spaceflight-news-reports-api-openapi.yml
   format: yaml
   label: Spaceflight News Reports API
   slug: spaceflight-news-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/openapi/spaceflight-news-reports-api-openapi.yml
+  url: https://artifacts.apis.io/spaceflight-news/openapi/spaceflight-news-reports-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spaceflight-news-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /articles/\n  method: get\n  operationId: listArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /articles/{id}/\n  method: get\n  operationId: retrieveArticle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blogs/\n  method: get\n  operationId: listBlogs\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blogs/{id}/\n  method: get\n  operationId: retrieveBlog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/\n  method: get\n  operationId: retrieveInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{id}/\n  method: get\n  operationId: retrieveReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/agentic-access/spaceflight-news-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spaceflight-news/agentic-access/spaceflight-news-agentic-access.yml
 summary_line: 7 operations
 tags:
 - News

@@ -9,61 +9,61 @@ api_specs:
   label: Traiana Allocations API
   slug: traiana-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-allocations-api-openapi.yml
 - filename: traiana-compression-api-openapi.yml
   format: yaml
   label: Traiana Compression API
   slug: traiana-compression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-compression-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-compression-api-openapi.yml
 - filename: traiana-credit-limits-api-openapi.yml
   format: yaml
   label: Traiana Credit Limits API
   slug: traiana-credit-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-credit-limits-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-credit-limits-api-openapi.yml
 - filename: traiana-designation-notices-api-openapi.yml
   format: yaml
   label: Traiana Designation Notices API
   slug: traiana-designation-notices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-designation-notices-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-designation-notices-api-openapi.yml
 - filename: traiana-give-ups-api-openapi.yml
   format: yaml
   label: Traiana Give-Ups API
   slug: traiana-give-ups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-give-ups-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-give-ups-api-openapi.yml
 - filename: traiana-matching-api-openapi.yml
   format: yaml
   label: Traiana Matching API
   slug: traiana-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-matching-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-matching-api-openapi.yml
 - filename: traiana-netting-api-openapi.yml
   format: yaml
   label: Traiana Netting API
   slug: traiana-netting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-netting-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-netting-api-openapi.yml
 - filename: traiana-settlement-api-openapi.yml
   format: yaml
   label: Traiana Settlement API
   slug: traiana-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-settlement-api-openapi.yml
 - filename: traiana-trades-api-openapi.yml
   format: yaml
   label: Traiana Trades API
   slug: traiana-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-trades-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-trades-api-openapi.yml
 - filename: traiana-utilization-api-openapi.yml
   format: yaml
   label: Traiana Utilization API
   slug: traiana-utilization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/openapi/traiana-utilization-api-openapi.yml
+  url: https://artifacts.apis.io/traiana/openapi/traiana-utilization-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/traian
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trades\n  method: get\n  operationId: listTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trades\n  method: post\n  operationId: submitTrade\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trades/{tradeId}\n  method: get\n  operationId: getTrade\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trades/{tradeId}/confirm\n  method: post\n  operationId: confirmTrade\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /allocations\n  method: get\n  operationId: listAllocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /allocations\n  method: post\n  operationId: submitAllocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /give-ups\n  method: get\n  operationId: listGiveUps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /give-ups\n  method: post\n  operationId: submitGiveUp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /matching\n  method: get\n  operationId: listMatchResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/agentic-access/traiana-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/traiana/agentic-access/traiana-agentic-access.yml
 summary_line: 26 operations · 10 acting
 tags:
 - Fintech

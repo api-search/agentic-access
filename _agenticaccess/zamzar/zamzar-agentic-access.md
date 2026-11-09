@@ -9,37 +9,37 @@ api_specs:
   label: Zamzar Account API
   slug: zamzar-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-account-api-openapi.yml
+  url: https://artifacts.apis.io/zamzar/openapi/zamzar-account-api-openapi.yml
 - filename: zamzar-files-api-openapi.yml
   format: yaml
   label: Zamzar Files API
   slug: zamzar-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-files-api-openapi.yml
+  url: https://artifacts.apis.io/zamzar/openapi/zamzar-files-api-openapi.yml
 - filename: zamzar-formats-api-openapi.yml
   format: yaml
   label: Zamzar Formats API
   slug: zamzar-formats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-formats-api-openapi.yml
+  url: https://artifacts.apis.io/zamzar/openapi/zamzar-formats-api-openapi.yml
 - filename: zamzar-imports-api-openapi.yml
   format: yaml
   label: Zamzar Imports API
   slug: zamzar-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-imports-api-openapi.yml
+  url: https://artifacts.apis.io/zamzar/openapi/zamzar-imports-api-openapi.yml
 - filename: zamzar-jobs-api-openapi.yml
   format: yaml
   label: Zamzar Jobs API
   slug: zamzar-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zamzar/openapi/zamzar-jobs-api-openapi.yml
 - filename: zamzar-welcome-api-openapi.yml
   format: yaml
   label: Zamzar Welcome API
   slug: zamzar-welcome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/openapi/zamzar-welcome-api-openapi.yml
+  url: https://artifacts.apis.io/zamzar/openapi/zamzar-welcome-api-openapi.yml
 consequence_counts:
   read: 12
   write: 5
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zamzar
   \    audit: required\n- path: /files/{fileId}/content\n  method: get\n  operationId: getFileContentById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /formats\n  method: get\n  operationId: listFormats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /formats/{format}\n  method: get\n  operationId: getFormatById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /imports\n  method: get\n  operationId: listImports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /imports\n  method: post\n  operationId: startImport\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /imports/{importId}\n  method: get\n  operationId: getImportById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: post\n  operationId: submitJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/successful\n  method:\
   \ get\n  operationId: listSuccessfulJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}\n  method: get\n  operationId: getJobById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}\n  method: delete\n  operationId: cancelJobById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/agentic-access/zamzar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zamzar/agentic-access/zamzar-agentic-access.yml
 summary_line: 17 operations · 5 acting
 tags:
 - File Conversion

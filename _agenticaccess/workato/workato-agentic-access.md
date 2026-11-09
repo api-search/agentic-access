@@ -9,61 +9,61 @@ api_specs:
   label: Workato Data Tables API
   slug: workato-data-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-data-tables-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-data-tables-api-openapi.yml
 - filename: workato-genies-api-openapi.yml
   format: yaml
   label: Workato Genies API
   slug: workato-genies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-genies-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-genies-api-openapi.yml
 - filename: workato-knowledge-bases-api-openapi.yml
   format: yaml
   label: Workato Knowledge Bases API
   slug: workato-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-knowledge-bases-api-openapi.yml
 - filename: workato-mcp-servers-api-openapi.yml
   format: yaml
   label: Workato MCP Servers API
   slug: workato-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-mcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-mcp-servers-api-openapi.yml
 - filename: workato-messages-api-openapi.yml
   format: yaml
   label: Workato Messages API
   slug: workato-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-messages-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-messages-api-openapi.yml
 - filename: workato-policies-api-openapi.yml
   format: yaml
   label: Workato Policies API
   slug: workato-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-policies-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-policies-api-openapi.yml
 - filename: workato-recipes-api-openapi.yml
   format: yaml
   label: Workato Recipes API
   slug: workato-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-recipes-api-openapi.yml
 - filename: workato-skills-api-openapi.yml
   format: yaml
   label: Workato Skills API
   slug: workato-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-skills-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-skills-api-openapi.yml
 - filename: workato-tools-api-openapi.yml
   format: yaml
   label: Workato Tools API
   slug: workato-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-tools-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-tools-api-openapi.yml
 - filename: workato-user-groups-api-openapi.yml
   format: yaml
   label: Workato User Groups API
   slug: workato-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-user-groups-api-openapi.yml
 consequence_counts:
   read: 20
   safety-critical: 5
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workat
   - path: /api/mcp/mcp_servers/{handle}/update_folder\n  method: put\n  operationId: moveMcpServerToFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mcp/mcp_servers/{mcp_server_handle}/server_policies\n  method: get\n  operationId: getMcpServerPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/mcp/mcp_servers/{mcp_server_handle}/server_policies\n  method: put\n  operationId: updateMcpServerPolicies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/mcp/mcp_servers/{mcp_server_handle}/tools\n  method: get\n  operationId: listMcpServerTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/mcp/mcp_servers/{mcp_server_handle}/tools/{id}\n  method: put\n  operationId: updateMcpServerTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mcp/mcp_servers/{mcp_server_handle}/tools/{id}\n  method: delete\n  operationId: removeMcpServerTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mcp/user_groups\n  method: get\n  operationId: listMcpUserGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/agentic-access/workato-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workato/agentic-access/workato-agentic-access.yml
 summary_line: 60 operations · 40 acting · 5 human-in-the-loop
 tags:
 - AI Agents

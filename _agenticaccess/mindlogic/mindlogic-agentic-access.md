@@ -9,43 +9,43 @@ api_specs:
   label: Mindlogic Audio API
   slug: mindlogic-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-audio-api-openapi.yml
+  url: https://artifacts.apis.io/mindlogic/openapi/mindlogic-audio-api-openapi.yml
 - filename: mindlogic-credits-api-openapi.yml
   format: yaml
   label: Mindlogic Credits API
   slug: mindlogic-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-credits-api-openapi.yml
+  url: https://artifacts.apis.io/mindlogic/openapi/mindlogic-credits-api-openapi.yml
 - filename: mindlogic-gateway-api-openapi.yml
   format: yaml
   label: Mindlogic Gateway API
   slug: mindlogic-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/mindlogic/openapi/mindlogic-gateway-api-openapi.yml
 - filename: mindlogic-images-api-openapi.yml
   format: yaml
   label: Mindlogic Images API
   slug: mindlogic-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-images-api-openapi.yml
+  url: https://artifacts.apis.io/mindlogic/openapi/mindlogic-images-api-openapi.yml
 - filename: mindlogic-models-api-openapi.yml
   format: yaml
   label: Mindlogic Models API
   slug: mindlogic-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-models-api-openapi.yml
+  url: https://artifacts.apis.io/mindlogic/openapi/mindlogic-models-api-openapi.yml
 - filename: mindlogic-video-api-openapi.yml
   format: yaml
   label: Mindlogic Video API
   slug: mindlogic-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-video-api-openapi.yml
+  url: https://artifacts.apis.io/mindlogic/openapi/mindlogic-video-api-openapi.yml
 - filename: mindlogic-chat-completions-api-openapi.yml
   format: yaml
   label: Mindlogic Chat Completions API
   slug: mindlogic-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/openapi/mindlogic-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/mindlogic/openapi/mindlogic-chat-completions-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/mindlo
   \      - high-value\n    audit: required\n- path: /responses/{response_id}/\n  method: get\n  operationId: GetResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /responses/{response_id}/cancel/\n  method: post\n  operationId: CancelResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audio/speech/\n  method: post\n  operationId: text_to_speech_audio_speech__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /images/generate/\n  method: post\n  operationId: generate_image_images_generate__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/generate/{operation_id}/\n  method: get\n  operationId: poll_image_status_images_generate__operation_id___get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video/generation/\n  method: post\n  operationId: create_video_video_generation__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /video/generation/{operation_id}/download/\n  method: get\n  operationId: download_video_file_video_generation__operation_id__download__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video/generation/{operation_id}/\n  method: get\n  operationId: get_video_generation_status_video_generation__operation_id___get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credits/\n  method: get\n  operationId: get_credit_balance_credits__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/agentic-access/mindlogic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mindlogic/agentic-access/mindlogic-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: CMS Blue Button 2.0 Coverage API
   slug: cms-blue-button-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-coverage-api-openapi.yml
 - filename: cms-blue-button-explanationofbenefit-api-openapi.yml
   format: yaml
   label: CMS Blue Button 2.0 ExplanationOfBenefit API
   slug: cms-blue-button-explanationofbenefit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-explanationofbenefit-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-explanationofbenefit-api-openapi.yml
 - filename: cms-blue-button-metadata-api-openapi.yml
   format: yaml
   label: CMS Blue Button 2.0 Metadata API
   slug: cms-blue-button-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-metadata-api-openapi.yml
 - filename: cms-blue-button-patient-api-openapi.yml
   format: yaml
   label: CMS Blue Button 2.0 Patient API
   slug: cms-blue-button-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-patient-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-patient-api-openapi.yml
 - filename: cms-blue-button-user-info-api-openapi.yml
   format: yaml
   label: CMS Blue Button 2.0 User Info API
   slug: cms-blue-button-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-user-info-api-openapi.yml
+  url: https://artifacts.apis.io/cms-blue-button/openapi/cms-blue-button-user-info-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cms-bl
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Coverage.read\n    - patient/ExplanationOfBenefit.read\n    - patient/Patient.read\n- path: /Patient\n  method: get\n  operationId: searchPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Coverage.read\n    - patient/ExplanationOfBenefit.read\n    - patient/Patient.read\n- path: /Patient/{id}\n  method: get\n  operationId: readPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Coverage.read\n    - patient/ExplanationOfBenefit.read\n    - patient/Patient.read\n- path: /Coverage\n  method: get\n  operationId: searchCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Coverage.read\n    - patient/ExplanationOfBenefit.read\n    - patient/Patient.read\n- path: /Coverage/{id}\n  method: get\n  operationId: readCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Coverage.read\n    - patient/ExplanationOfBenefit.read\n    - patient/Patient.read\n- path: /metadata\n  method: get\n  operationId: getCapabilityStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Coverage.read\n    - patient/ExplanationOfBenefit.read\n    - patient/Patient.read\n- path: /connect/userinfo\n  method: get\n  operationId: getUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n    scope:\n    - patient/Coverage.read\n    - patient/ExplanationOfBenefit.read\n    - patient/Patient.read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/agentic-access/cms-blue-button-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cms-blue-button/agentic-access/cms-blue-button-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Blue Button

@@ -9,37 +9,37 @@ api_specs:
   label: Solana Accounts API
   slug: solana-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-accounts-api-openapi.yml
 - filename: solana-blocks-api-openapi.yml
   format: yaml
   label: Solana Blocks API
   slug: solana-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-blocks-api-openapi.yml
 - filename: solana-cluster-api-openapi.yml
   format: yaml
   label: Solana Cluster API
   slug: solana-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-cluster-api-openapi.yml
 - filename: solana-economics-api-openapi.yml
   format: yaml
   label: Solana Economics API
   slug: solana-economics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-economics-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-economics-api-openapi.yml
 - filename: solana-tokens-api-openapi.yml
   format: yaml
   label: Solana Tokens API
   slug: solana-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-tokens-api-openapi.yml
 - filename: solana-transactions-api-openapi.yml
   format: yaml
   label: Solana Transactions API
   slug: solana-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/solana/openapi/solana-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 41
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/solana
   \ max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /simulateTransaction\n  method: post\n  operationId: simulateTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getTransaction\n  method: post\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSignaturesForAddress\n  method: post\n  operationId: getSignaturesForAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /getSignatureStatuses\n  method: post\n  operationId: getSignatureStatuses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFeeForMessage\n  method: post\n  operationId: getFeeForMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getLatestBlockhash\n  method: post\n  operationId: getLatestBlockhash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /isBlockhashValid\n  method: post\n  operationId: isBlockhashValid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /getRecentPrioritizationFees\n  method: post\n  operationId: getRecentPrioritizationFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getTransactionCount\n  method: post\n  operationId: getTransactionCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /requestAirdrop\n  method: post\n  operationId: requestAirdrop\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/agentic-access/solana-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/solana/agentic-access/solana-agentic-access.yml
 summary_line: 52 operations · 11 acting
 tags:
 - Solana

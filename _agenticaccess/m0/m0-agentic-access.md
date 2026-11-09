@@ -9,25 +9,25 @@ api_specs:
   label: M0 Order API
   slug: m0-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-order-api-openapi.yml
+  url: https://artifacts.apis.io/m0/openapi/m0-order-api-openapi.yml
 - filename: m0-permit-api-openapi.yml
   format: yaml
   label: M0 Permit API
   slug: m0-permit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-permit-api-openapi.yml
+  url: https://artifacts.apis.io/m0/openapi/m0-permit-api-openapi.yml
 - filename: m0-quote-api-openapi.yml
   format: yaml
   label: M0 Quote API
   slug: m0-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-quote-api-openapi.yml
+  url: https://artifacts.apis.io/m0/openapi/m0-quote-api-openapi.yml
 - filename: m0-topology-api-openapi.yml
   format: yaml
   label: M0 Topology API
   slug: m0-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/openapi/m0-topology-api-openapi.yml
+  url: https://artifacts.apis.io/m0/openapi/m0-topology-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/m0-orc
   \  method: get\n  operationId: order_getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: order_getOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /permit/quote\n  method: post\n  operationId: permit_permitQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /permit/build\n  method: post\n  operationId: permit_permitBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quote\n  method: post\n  operationId: quote_quote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /supported-assets\n  method: get\n  operationId: quote_getSupportedAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topology/routes\n  method: get\n  operationId: topology_getRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topology/stats\n  method: get\n  operationId: topology_getRouteStats\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/m0/refs/heads/main/agentic-access/m0-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/m0/agentic-access/m0-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Company

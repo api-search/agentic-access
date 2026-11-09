@@ -9,25 +9,25 @@ api_specs:
   label: Dacast Analytics API
   slug: dacast-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/dacast/openapi/dacast-analytics-api-openapi.yml
 - filename: dacast-live-channels-api-openapi.yml
   format: yaml
   label: Dacast Live Channels API
   slug: dacast-live-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-live-channels-api-openapi.yml
+  url: https://artifacts.apis.io/dacast/openapi/dacast-live-channels-api-openapi.yml
 - filename: dacast-playlists-api-openapi.yml
   format: yaml
   label: Dacast Playlists API
   slug: dacast-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/dacast/openapi/dacast-playlists-api-openapi.yml
 - filename: dacast-vod-api-openapi.yml
   format: yaml
   label: Dacast VOD API
   slug: dacast-vod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/openapi/dacast-vod-api-openapi.yml
+  url: https://artifacts.apis.io/dacast/openapi/dacast-vod-api-openapi.yml
 consequence_counts:
   read: 8
   write: 11
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dacast
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/channel/{channelId}/simulcast\n  method: get\n  operationId: listSimulcastDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/channel/{channelId}/simulcast\n  method: post\n  operationId: addSimulcastDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/channel/{channelId}/simulcast/{destinationId}\n  method: delete\n  operationId: deleteSimulcastDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/playlist\n  method: post\n  operationId: createPlaylist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/playlist/{playlistId}\n  method: get\n  operationId: getPlaylist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/playlist/{playlistId}\n  method: put\n  operationId: setPlaylistContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v2/analytics\n  method: get\n  operationId: getAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/agentic-access/dacast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dacast/agentic-access/dacast-agentic-access.yml
 summary_line: 19 operations · 11 acting
 tags:
 - Live Streaming

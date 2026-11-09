@@ -9,43 +9,43 @@ api_specs:
   label: ShootProof Clients API
   slug: shootproof-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-clients-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-clients-api-openapi.yml
 - filename: shootproof-contracts-api-openapi.yml
   format: yaml
   label: ShootProof Contracts API
   slug: shootproof-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-contracts-api-openapi.yml
 - filename: shootproof-events-galleries-api-openapi.yml
   format: yaml
   label: ShootProof Events & Galleries API
   slug: shootproof-events-galleries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-events-galleries-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-events-galleries-api-openapi.yml
 - filename: shootproof-orders-api-openapi.yml
   format: yaml
   label: ShootProof Orders API
   slug: shootproof-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-orders-api-openapi.yml
 - filename: shootproof-photos-api-openapi.yml
   format: yaml
   label: ShootProof Photos API
   slug: shootproof-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-photos-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-photos-api-openapi.yml
 - filename: shootproof-service-description-api-openapi.yml
   format: yaml
   label: ShootProof Service Description API
   slug: shootproof-service-description-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-service-description-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-service-description-api-openapi.yml
 - filename: shootproof-studios-api-openapi.yml
   format: yaml
   label: ShootProof Studios API
   slug: shootproof-studios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-studios-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-studios-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 30
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shootp
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - studio\n- path: /brand/{brandId}/contract/template\n  method: get\n  operationId: listContractTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - studio\n- path: /brand/{brandId}/contract/template\n  method: post\n  operationId: createContractTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - studio\n- path: /brand/{brandId}/contract/{contractId}\n\
   \  method: get\n  operationId: getContract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - studio\n- path: /brand/{brandId}/contract/{contractId}\n  method: patch\n  operationId: updateContractPartial\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - studio\n- path: /brand/{brandId}/contract/{contractId}\n  method: delete\n  operationId: deleteContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n   \
   \ scope:\n    - studio\n- path: /brand/{brandId}/contract/{contractId}/email\n  method: post\n  operationId: sendContractEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - studio\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/agentic-access/shootproof-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shootproof/agentic-access/shootproof-agentic-access.yml
 summary_line: 67 operations · 37 acting
 tags:
 - Photography

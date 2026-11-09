@@ -9,49 +9,49 @@ api_specs:
   label: AeroDataBox Aircraft API
   slug: aerodatabox-aircraft-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-aircraft-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-aircraft-api-api-openapi.yml
 - filename: aerodatabox-airport-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Airport API
   slug: aerodatabox-airport-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-airport-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-airport-api-api-openapi.yml
 - filename: aerodatabox-flight-alert-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Flight Alert API
   slug: aerodatabox-flight-alert-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-flight-alert-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-flight-alert-api-api-openapi.yml
 - filename: aerodatabox-flight-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Flight API
   slug: aerodatabox-flight-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-flight-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-flight-api-api-openapi.yml
 - filename: aerodatabox-healthcheck-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Healthcheck API
   slug: aerodatabox-healthcheck-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-healthcheck-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-healthcheck-api-api-openapi.yml
 - filename: aerodatabox-industry-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Industry API
   slug: aerodatabox-industry-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-industry-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-industry-api-api-openapi.yml
 - filename: aerodatabox-miscellaneous-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Miscellaneous API
   slug: aerodatabox-miscellaneous-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-miscellaneous-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-miscellaneous-api-api-openapi.yml
 - filename: aerodatabox-statistical-api-api-openapi.yml
   format: yaml
   label: AeroDataBox Statistical API
   slug: aerodatabox-statistical-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-statistical-api-api-openapi.yml
+  url: https://artifacts.apis.io/aerodatabox/openapi/aerodatabox-statistical-api-api-openapi.yml
 consequence_counts:
   read: 38
   write: 4
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aeroda
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airports/{codeType}/{codeFrom}/distance-time/{codeTo}\n  method: get\n  operationId: GetAirportDistanceTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airports/{codeType}/{code}/delays\n  method: get\n  operationId: GetAirportDelay_DelaysCurrent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airports/{codeType}/{code}/delays/{dateLocal}\n  method: get\n  operationId: GetAirportDelay_DelaysHistorical\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airports/{codeType}/{code}/delays/{dateFromLocal}/{dateToLocal}\n  method: get\n  operationId: GetAirportDelays\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airports/{codeType}/{code}/stats/routes/daily\n  method: get\n  operationId: GetRouteDailyStatistics_RoutesDailyCurrent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airports/{codeType}/{code}/stats/routes/daily/{dateLocal}\n  method: get\n  operationId: GetRouteDailyStatistics_RoutesDailAtSpecificDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airports/delays\n  method: get\n  operationId: GetGlobalDelays_GlobalDelaysCurent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airports/delays/{dateUtc}\n  method:\
   \ get\n  operationId: GetGlobalDelays_GlobalDelaysAtSpecificDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights/{number}/delays\n  method: get\n  operationId: GetFlightDelays\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/agentic-access/aerodatabox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aerodatabox/agentic-access/aerodatabox-agentic-access.yml
 summary_line: 42 operations · 4 acting
 tags:
 - Aviation

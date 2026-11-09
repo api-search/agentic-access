@@ -9,55 +9,55 @@ api_specs:
   label: Zeebe Cluster API
   slug: zeebe-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-cluster-api-openapi.yml
 - filename: zeebe-deployments-api-openapi.yml
   format: yaml
   label: Zeebe Deployments API
   slug: zeebe-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-deployments-api-openapi.yml
 - filename: zeebe-incidents-api-openapi.yml
   format: yaml
   label: Zeebe Incidents API
   slug: zeebe-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-incidents-api-openapi.yml
 - filename: zeebe-jobs-api-openapi.yml
   format: yaml
   label: Zeebe Jobs API
   slug: zeebe-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-jobs-api-openapi.yml
 - filename: zeebe-messages-api-openapi.yml
   format: yaml
   label: Zeebe Messages API
   slug: zeebe-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-messages-api-openapi.yml
 - filename: zeebe-process-instances-api-openapi.yml
   format: yaml
   label: Zeebe Process Instances API
   slug: zeebe-process-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-process-instances-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-process-instances-api-openapi.yml
 - filename: zeebe-resources-api-openapi.yml
   format: yaml
   label: Zeebe Resources API
   slug: zeebe-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-resources-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-resources-api-openapi.yml
 - filename: zeebe-signals-api-openapi.yml
   format: yaml
   label: Zeebe Signals API
   slug: zeebe-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-signals-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-signals-api-openapi.yml
 - filename: zeebe-user-tasks-api-openapi.yml
   format: yaml
   label: Zeebe User Tasks API
   slug: zeebe-user-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/openapi/zeebe-user-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/zeebe/openapi/zeebe-user-tasks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 1
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zeebe-
   \  audit: required\n- path: /messages/publication\n  method: post\n  operationId: publishMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /signals/broadcast\n  method: post\n  operationId: broadcastSignal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/{incidentKey}/resolution\n  method: post\n  operationId: resolveIncident\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resources/deletion\n  method: post\n  operationId: deleteResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user-tasks/{userTaskKey}/assignment\n  method: post\n  operationId: assignUserTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user-tasks/{userTaskKey}/completion\n  method: post\n  operationId: completeUserTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/agentic-access/zeebe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zeebe/agentic-access/zeebe-agentic-access.yml
 summary_line: 16 operations · 15 acting
 tags:
 - BPMN

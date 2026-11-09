@@ -9,37 +9,37 @@ api_specs:
   label: Saasment Alerts API
   slug: saasment-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/openapi/saasment-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/saasment/openapi/saasment-alerts-api-openapi.yml
 - filename: saasment-compliance-api-openapi.yml
   format: yaml
   label: Saasment Compliance API
   slug: saasment-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/openapi/saasment-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/saasment/openapi/saasment-compliance-api-openapi.yml
 - filename: saasment-cost-optimization-api-openapi.yml
   format: yaml
   label: Saasment Cost Optimization API
   slug: saasment-cost-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/openapi/saasment-cost-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/saasment/openapi/saasment-cost-optimization-api-openapi.yml
 - filename: saasment-integrations-api-openapi.yml
   format: yaml
   label: Saasment Integrations API
   slug: saasment-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/openapi/saasment-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/saasment/openapi/saasment-integrations-api-openapi.yml
 - filename: saasment-misconfigurations-api-openapi.yml
   format: yaml
   label: Saasment Misconfigurations API
   slug: saasment-misconfigurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/openapi/saasment-misconfigurations-api-openapi.yml
+  url: https://artifacts.apis.io/saasment/openapi/saasment-misconfigurations-api-openapi.yml
 - filename: saasment-security-posture-api-openapi.yml
   format: yaml
   label: Saasment Security Posture API
   slug: saasment-security-posture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/openapi/saasment-security-posture-api-openapi.yml
+  url: https://artifacts.apis.io/saasment/openapi/saasment-security-posture-api-openapi.yml
 consequence_counts:
   read: 10
   write: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/saasme
   \  method: get\n  operationId: listMisconfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /misconfigurations/{id}\n  method: get\n  operationId: getMisconfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /misconfigurations/{id}\n  method: patch\n  operationId: updateMisconfigurationStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance/frameworks\n  method: get\n  operationId: listComplianceFrameworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /compliance/assessments\n  method: get\n  operationId: listComplianceAssessments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cost/recommendations\n  method: get\n  operationId: listCostRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cost/summary\n  method: get\n  operationId: getCostSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations\n  method: post\n  operationId: createIntegration\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/{id}\n  method: delete\n  operationId: deleteIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /alerts\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/agentic-access/saasment-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/saasment/agentic-access/saasment-agentic-access.yml
 summary_line: 13 operations · 3 acting
 tags:
 - SaaS Security

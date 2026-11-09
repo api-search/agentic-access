@@ -9,37 +9,37 @@ api_specs:
   label: Corridor Dashboard API
   slug: corridor-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-dashboard-api-openapi.yml
 - filename: corridor-findings-api-openapi.yml
   format: yaml
   label: Corridor Findings API
   slug: corridor-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-findings-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-findings-api-openapi.yml
 - filename: corridor-guardrails-api-openapi.yml
   format: yaml
   label: Corridor Guardrails API
   slug: corridor-guardrails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-guardrails-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-guardrails-api-openapi.yml
 - filename: corridor-pr-reviews-api-openapi.yml
   format: yaml
   label: Corridor PR Reviews API
   slug: corridor-pr-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-pr-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-pr-reviews-api-openapi.yml
 - filename: corridor-projects-api-openapi.yml
   format: yaml
   label: Corridor Projects API
   slug: corridor-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-projects-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-projects-api-openapi.yml
 - filename: corridor-teams-api-openapi.yml
   format: yaml
   label: Corridor Teams API
   slug: corridor-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-teams-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-teams-api-openapi.yml
 consequence_counts:
   read: 18
   write: 9
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/corrid
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}/invite\n  method: post\n  operationId: inviteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{teamId}/users/{userId}\n  method: delete\n  operationId: removeUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{id}/dashboard-data\n  method: get\n  operationId: getDashboardData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}/list-requests\n  method: get\n  operationId: listLlmRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}/guardrail-invocations-staging\n  method: get\n  operationId: getGuardrailInvocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{id}/stop-hook-invocations\n  method: get\n  operationId: getStopHookInvocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /log\n  method: post\n  operationId: logExtensionData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{id}/findings\n  method: get\n  operationId: getProjectFindings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/agentic-access/corridor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/corridor/agentic-access/corridor-agentic-access.yml
 summary_line: 27 operations · 9 acting
 tags:
 - Company

@@ -8,7 +8,7 @@ api_specs:
   label: Replicant API
   slug: replicant-replicant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/replicant-replicant-api-openapi.yml
+  url: https://artifacts.apis.io/replicant/openapi/replicant-replicant-api-openapi.yml
 consequence_counts:
   physical: 1
   write: 1
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/replicant-outbound-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    acting: 2\n  by_consequence:\n    write: 1\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /campaigns/{campaignId}/calls\n  method: post\n  operationId: placeCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns/{campaignId}/sms\n  method: post\n  operationId: sendSMS\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/agentic-access/replicant-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/replicant/agentic-access/replicant-agentic-access.yml
 summary_line: 2 operations · 2 acting
 tags:
 - Company

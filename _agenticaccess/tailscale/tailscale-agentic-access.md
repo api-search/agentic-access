@@ -9,43 +9,43 @@ api_specs:
   label: Tailscale Devices API
   slug: tailscale-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-devices-api-openapi.yml
 - filename: tailscale-dns-api-openapi.yml
   format: yaml
   label: Tailscale DNS API
   slug: tailscale-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-dns-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-dns-api-openapi.yml
 - filename: tailscale-invites-api-openapi.yml
   format: yaml
   label: Tailscale Invites API
   slug: tailscale-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-invites-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-invites-api-openapi.yml
 - filename: tailscale-keys-api-openapi.yml
   format: yaml
   label: Tailscale Keys API
   slug: tailscale-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-keys-api-openapi.yml
 - filename: tailscale-logging-api-openapi.yml
   format: yaml
   label: Tailscale Logging API
   slug: tailscale-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-logging-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-logging-api-openapi.yml
 - filename: tailscale-policy-api-openapi.yml
   format: yaml
   label: Tailscale Policy API
   slug: tailscale-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-policy-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-policy-api-openapi.yml
 - filename: tailscale-tailnet-api-openapi.yml
   format: yaml
   label: Tailscale Tailnet API
   slug: tailscale-tailnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/openapi/tailscale-tailnet-api-openapi.yml
+  url: https://artifacts.apis.io/tailscale/openapi/tailscale-tailnet-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 19
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tailsc
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tailnet/{tailnet}/dns/searchpaths\n  method: post\n  operationId: setDnsSearchPaths\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tailnet/{tailnet}/acl\n  method: get\n  operationId: getAclPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tailnet/{tailnet}/acl\n  method: post\n  operationId: setAclPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tailnet/{tailnet}/acl/validate\n  method: post\n  operationId: validateAclPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tailnet/{tailnet}/keys\n  method: get\n  operationId: listKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tailnet/{tailnet}/keys\n  method: post\n  operationId: createKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /tailnet/{tailnet}/keys/{keyId}\n  method: get\n  operationId: getKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tailnet/{tailnet}/keys/{keyId}\n  method: delete\n  operationId: deleteKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/agentic-access/tailscale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tailscale/agentic-access/tailscale-agentic-access.yml
 summary_line: 45 operations · 26 acting
 tags:
 - VPN

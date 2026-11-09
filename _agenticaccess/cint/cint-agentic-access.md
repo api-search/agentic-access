@@ -9,151 +9,151 @@ api_specs:
   label: Cint Accounts API
   slug: cint-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-accounts-api-openapi.yml
 - filename: cint-allocation-templates-admin-api-openapi.yml
   format: yaml
   label: Cint Allocation Templates Admin API
   slug: cint-allocation-templates-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-allocation-templates-admin-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-allocation-templates-admin-api-openapi.yml
 - filename: cint-definitions-api-openapi.yml
   format: yaml
   label: Cint Definitions API
   slug: cint-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-definitions-api-openapi.yml
 - filename: cint-exclusive-endpoints-api-openapi.yml
   format: yaml
   label: Cint Exclusive Endpoints API
   slug: cint-exclusive-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-exclusive-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-exclusive-endpoints-api-openapi.yml
 - filename: cint-feasibility-api-openapi.yml
   format: yaml
   label: Cint Feasibility API
   slug: cint-feasibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-feasibility-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-feasibility-api-openapi.yml
 - filename: cint-fielding-api-openapi.yml
   format: yaml
   label: Cint Fielding API
   slug: cint-fielding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-fielding-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-fielding-api-openapi.yml
 - filename: cint-fielding-assistant-api-openapi.yml
   format: yaml
   label: Cint Fielding Assistant API
   slug: cint-fielding-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-fielding-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-fielding-assistant-api-openapi.yml
 - filename: cint-fielding-batch-api-openapi.yml
   format: yaml
   label: Cint Fielding (Batch) API
   slug: cint-fielding-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-fielding-batch-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-fielding-batch-api-openapi.yml
 - filename: cint-fulfillment-api-openapi.yml
   format: yaml
   label: Cint Fulfillment API
   slug: cint-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-fulfillment-api-openapi.yml
 - filename: cint-intelligent-calendar-api-openapi.yml
   format: yaml
   label: Cint Intelligent Calendar API
   slug: cint-intelligent-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-intelligent-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-intelligent-calendar-api-openapi.yml
 - filename: cint-manage-profiles-for-launched-target-groups-api-openapi.yml
   format: yaml
   label: Cint Manage Profiles for Launched Target Groups API
   slug: cint-manage-profiles-for-launched-target-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-manage-profiles-for-launched-target-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-manage-profiles-for-launched-target-groups-api-openapi.yml
 - filename: cint-notifications-webhooks-api-openapi.yml
   format: yaml
   label: Cint Notifications Webhooks API
   slug: cint-notifications-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-notifications-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-notifications-webhooks-api-openapi.yml
 - filename: cint-profiling-helper-api-openapi.yml
   format: yaml
   label: Cint Profiling Helper API
   slug: cint-profiling-helper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-profiling-helper-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-profiling-helper-api-openapi.yml
 - filename: cint-profiling-library-api-openapi.yml
   format: yaml
   label: Cint Profiling Library API
   slug: cint-profiling-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-profiling-library-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-profiling-library-api-openapi.yml
 - filename: cint-profiling-quotas-by-supplier-api-openapi.yml
   format: yaml
   label: Cint Profiling Quotas By Supplier API
   slug: cint-profiling-quotas-by-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-profiling-quotas-by-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-profiling-quotas-by-supplier-api-openapi.yml
 - filename: cint-profiling-templates-api-openapi.yml
   format: yaml
   label: Cint Profiling Templates API
   slug: cint-profiling-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-profiling-templates-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-profiling-templates-api-openapi.yml
 - filename: cint-projects-api-openapi.yml
   format: yaml
   label: Cint Projects API
   slug: cint-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-projects-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-projects-api-openapi.yml
 - filename: cint-reconciliations-api-openapi.yml
   format: yaml
   label: Cint Reconciliations API
   slug: cint-reconciliations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-reconciliations-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-reconciliations-api-openapi.yml
 - filename: cint-recontacts-api-openapi.yml
   format: yaml
   label: Cint Recontacts API
   slug: cint-recontacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-recontacts-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-recontacts-api-openapi.yml
 - filename: cint-reports-api-openapi.yml
   format: yaml
   label: Cint Reports API
   slug: cint-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-reports-api-openapi.yml
 - filename: cint-respondent-exclusions-api-openapi.yml
   format: yaml
   label: Cint Respondent Exclusions API
   slug: cint-respondent-exclusions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-respondent-exclusions-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-respondent-exclusions-api-openapi.yml
 - filename: cint-respondent-unique-codes-api-openapi.yml
   format: yaml
   label: Cint Respondent Unique Codes API
   slug: cint-respondent-unique-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-respondent-unique-codes-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-respondent-unique-codes-api-openapi.yml
 - filename: cint-target-group-allocations-api-openapi.yml
   format: yaml
   label: Cint Target Group Allocations API
   slug: cint-target-group-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-target-group-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-target-group-allocations-api-openapi.yml
 - filename: cint-target-groups-api-openapi.yml
   format: yaml
   label: Cint Target Groups API
   slug: cint-target-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-target-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-target-groups-api-openapi.yml
 - filename: cint-target-groups-batch-api-openapi.yml
   format: yaml
   label: Cint Target Groups (Batch) API
   slug: cint-target-groups-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/openapi/cint-target-groups-batch-api-openapi.yml
+  url: https://artifacts.apis.io/cint/openapi/cint-target-groups-batch-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 94
@@ -218,8 +218,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cint-a
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /demand/accounts/{account_id}/reconciliations\n  method: get\n  operationId: get_reconciliations_by_account_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /demand/accounts/{account_id}/reconciliations\n  method: post\n  operationId: post_reconciliations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /demand/accounts/{account_id}/reconciliations/{request_id}\n  method: get\n  operationId: get_reconciliation_by_request_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /demand/accounts/{account_id}/reconciliations/{request_id}/target-groups\n  method: get\n  operationId: get_target_groups_by_request_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /demand/accounts/{account_id}/reconciliations/{request_id}/target-groups/{target_group_id}\n  method: get\n  operationId: get_target_group_by_request_id_and_target_group_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /demand/accounts/{account_id}/reconciliations/{request_id}/downloads/{download_type}\n  method: get\n  operationId: get_recon_downloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /demand/accounts/{account_id}/reconciliations/eligible-target-groups\n\
   \  method: get\n  operationId: get_eligible_target_groups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /demand/accounts/{account_id}/projects/{project_id}/reconciliations/completes\n  method: post\n  operationId: post_reconciliations_completes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /demand/accounts/{account_id}/reconciliations/reason-codes\n  method: get\n  operationId: request_reconciliation_reason_codes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /demand/accounts/{account_id}/projects/{project_id}/target-groups/{target_group_id}/recontacts/jobs/remove-all-rsids\n\
-  \  method: post\n  operationId: create_all_recontact_rsids_removal_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (53 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/agentic-access/cint-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/agentic-access/cint-agentic-access.yml
+  \  method: post\n  operationId: create_all_recontact_rsids_removal_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (53 KB total) ---\n# Full source: https://artifacts.apis.io/cint/agentic-access/cint-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/cint/agentic-access/cint-agentic-access.yml
 summary_line: 158 operations · 64 acting
 tags:
 - Company

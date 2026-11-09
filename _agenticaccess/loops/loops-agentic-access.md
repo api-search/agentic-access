@@ -9,121 +9,121 @@ api_specs:
   label: Loops API key API
   slug: loops-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-api-key-api-openapi.yml
 - filename: loops-audience-segments-api-openapi.yml
   format: yaml
   label: Loops Audience segments API
   slug: loops-audience-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-audience-segments-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-audience-segments-api-openapi.yml
 - filename: loops-campaign-groups-api-openapi.yml
   format: yaml
   label: Loops Campaign groups API
   slug: loops-campaign-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-campaign-groups-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-campaign-groups-api-openapi.yml
 - filename: loops-campaigns-api-openapi.yml
   format: yaml
   label: Loops Campaigns API
   slug: loops-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-campaigns-api-openapi.yml
 - filename: loops-components-api-openapi.yml
   format: yaml
   label: Loops Components API
   slug: loops-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-components-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-components-api-openapi.yml
 - filename: loops-configuration-api-openapi.yml
   format: yaml
   label: Loops Configuration API
   slug: loops-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-configuration-api-openapi.yml
 - filename: loops-contact-properties-api-openapi.yml
   format: yaml
   label: Loops Contact properties API
   slug: loops-contact-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-contact-properties-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-contact-properties-api-openapi.yml
 - filename: loops-contacts-api-openapi.yml
   format: yaml
   label: Loops Contacts API
   slug: loops-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-contacts-api-openapi.yml
 - filename: loops-email-messages-api-openapi.yml
   format: yaml
   label: Loops Email messages API
   slug: loops-email-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-email-messages-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-email-messages-api-openapi.yml
 - filename: loops-event-patterns-api-openapi.yml
   format: yaml
   label: Loops Event patterns API
   slug: loops-event-patterns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-event-patterns-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-event-patterns-api-openapi.yml
 - filename: loops-events-api-openapi.yml
   format: yaml
   label: Loops Events API
   slug: loops-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-events-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-events-api-openapi.yml
 - filename: loops-mailing-lists-api-openapi.yml
   format: yaml
   label: Loops Mailing lists API
   slug: loops-mailing-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-mailing-lists-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-mailing-lists-api-openapi.yml
 - filename: loops-themes-api-openapi.yml
   format: yaml
   label: Loops Themes API
   slug: loops-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-themes-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-themes-api-openapi.yml
 - filename: loops-transactional-emails-api-openapi.yml
   format: yaml
   label: Loops Transactional emails API
   slug: loops-transactional-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-transactional-emails-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-transactional-emails-api-openapi.yml
 - filename: loops-transactional-groups-api-openapi.yml
   format: yaml
   label: Loops Transactional groups API
   slug: loops-transactional-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-transactional-groups-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-transactional-groups-api-openapi.yml
 - filename: loops-uploads-api-openapi.yml
   format: yaml
   label: Loops Uploads API
   slug: loops-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-uploads-api-openapi.yml
 - filename: loops-workflow-nodes-api-openapi.yml
   format: yaml
   label: Loops Workflow nodes API
   slug: loops-workflow-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-workflow-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-workflow-nodes-api-openapi.yml
 - filename: loops-workflows-api-openapi.yml
   format: yaml
   label: Loops Workflows API
   slug: loops-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-workflows-api-openapi.yml
 - filename: loops-webhooks-asyncapi.yml
   format: yaml
   label: Loops Webhooks
   slug: loops-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/asyncapi/loops-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/loops/asyncapi/loops-webhooks-asyncapi.yml
 - filename: loops-webhooks-api-openapi.yml
   format: yaml
   label: Loops Webhooks API
   slug: loops-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/loops/openapi/loops-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 29
@@ -187,7 +187,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/loops-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workflows/{workflowId}/nodes/{nodeId}/recursive\n  method: delete\n  operationId: deleteWorkflowNodeRecursively\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workflows\n  method: get\n  operationId: listWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflows\n  method: post\n  operationId: createWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /v1/workflows/{workflowId}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workflows/{workflowId}\n  method: post\n  operationId: updateWorkflowProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/workflows/{workflowId}/mailing-list\n  method: post\n  operationId: changeWorkflowMailingList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/agentic-access/loops-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loops/agentic-access/loops-agentic-access.yml
 summary_line: 64 operations · 35 acting
 tags:
 - Email

@@ -8,73 +8,73 @@ api_specs:
   label: API League Art API
   slug: api-league-art-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-art-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-art-api-openapi.yml
 - filename: api-league-books-api-openapi.yml
   format: yaml
   label: API League Books API
   slug: api-league-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-books-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-books-api-openapi.yml
 - filename: api-league-food-api-openapi.yml
   format: yaml
   label: API League Food API
   slug: api-league-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-food-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-food-api-openapi.yml
 - filename: api-league-games-api-openapi.yml
   format: yaml
   label: API League Games API
   slug: api-league-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-games-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-games-api-openapi.yml
 - filename: api-league-humor-api-openapi.yml
   format: yaml
   label: API League Humor API
   slug: api-league-humor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-humor-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-humor-api-openapi.yml
 - filename: api-league-knowledge-api-openapi.yml
   format: yaml
   label: API League Knowledge API
   slug: api-league-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-knowledge-api-openapi.yml
 - filename: api-league-math-api-openapi.yml
   format: yaml
   label: API League Math API
   slug: api-league-math-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-math-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-math-api-openapi.yml
 - filename: api-league-media-api-openapi.yml
   format: yaml
   label: API League Media API
   slug: api-league-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-media-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-media-api-openapi.yml
 - filename: api-league-news-api-openapi.yml
   format: yaml
   label: API League News API
   slug: api-league-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-news-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-news-api-openapi.yml
 - filename: api-league-storage-api-openapi.yml
   format: yaml
   label: API League Storage API
   slug: api-league-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-storage-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-storage-api-openapi.yml
 - filename: api-league-text-api-openapi.yml
   format: yaml
   label: API League Text API
   slug: api-league-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-text-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-text-api-openapi.yml
 - filename: api-league-web-api-openapi.yml
   format: yaml
   label: API League Web API
   slug: api-league-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/openapi/api-league-web-api-openapi.yml
+  url: https://artifacts.apis.io/api-league/openapi/api-league-web-api-openapi.yml
 consequence_counts:
   read: 55
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: generated\nsource: openapi/api-le
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /singularize-word\n  method: get\n  operationId: singularizeWordAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pluralize-word\n  method: get\n  operationId: pluralizeWordAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extract-entities\n  method: get\n  operationId: extractEntitiesAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extract-content\n  method: get\n  operationId: extractContentFromAWebPageAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extract-publish-date\n  method:\
   \ get\n  operationId: extractPublishDateAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extract-authors\n  method: get\n  operationId: extractAuthorsAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search-web\n  method: get\n  operationId: searchWebAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /retrieve-page-rank\n  method: get\n  operationId: retrievePageRankAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify-email\n  method: get\n  operationId: verifyEmailAddressAPI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/agentic-access/api-league-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/api-league/agentic-access/api-league-agentic-access.yml
 summary_line: 55 operations
 tags:
 - API Marketplace

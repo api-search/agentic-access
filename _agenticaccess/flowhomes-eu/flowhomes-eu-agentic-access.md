@@ -9,139 +9,139 @@ api_specs:
   label: Qorevia A2a API
   slug: flowhomes-eu-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-a2a-api-openapi.yml
 - filename: flowhomes-eu-amplifier-api-openapi.yml
   format: yaml
   label: Qorevia Amplifier API
   slug: flowhomes-eu-amplifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-amplifier-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-amplifier-api-openapi.yml
 - filename: flowhomes-eu-backtest-api-openapi.yml
   format: yaml
   label: Qorevia Backtest API
   slug: flowhomes-eu-backtest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-backtest-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-backtest-api-openapi.yml
 - filename: flowhomes-eu-catalog-api-openapi.yml
   format: yaml
   label: Qorevia Catalog API
   slug: flowhomes-eu-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-catalog-api-openapi.yml
 - filename: flowhomes-eu-club-api-openapi.yml
   format: yaml
   label: Qorevia Club API
   slug: flowhomes-eu-club-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-club-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-club-api-openapi.yml
 - filename: flowhomes-eu-csv-api-openapi.yml
   format: yaml
   label: Qorevia CSV API
   slug: flowhomes-eu-csv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-csv-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-csv-api-openapi.yml
 - filename: flowhomes-eu-data-api-openapi.yml
   format: yaml
   label: Qorevia Data API
   slug: flowhomes-eu-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-data-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-data-api-openapi.yml
 - filename: flowhomes-eu-developer-tools-api-openapi.yml
   format: yaml
   label: Qorevia Developer Tools API
   slug: flowhomes-eu-developer-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-developer-tools-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-developer-tools-api-openapi.yml
 - filename: flowhomes-eu-distribution-api-openapi.yml
   format: yaml
   label: Qorevia Distribution API
   slug: flowhomes-eu-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-distribution-api-openapi.yml
 - filename: flowhomes-eu-finance-api-openapi.yml
   format: yaml
   label: Qorevia Finance API
   slug: flowhomes-eu-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-finance-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-finance-api-openapi.yml
 - filename: flowhomes-eu-find-api-openapi.yml
   format: yaml
   label: Qorevia Find API
   slug: flowhomes-eu-find-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-find-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-find-api-openapi.yml
 - filename: flowhomes-eu-gold-api-openapi.yml
   format: yaml
   label: Qorevia Gold API
   slug: flowhomes-eu-gold-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-gold-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-gold-api-openapi.yml
 - filename: flowhomes-eu-json-api-openapi.yml
   format: yaml
   label: Qorevia JSON API
   slug: flowhomes-eu-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-json-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-json-api-openapi.yml
 - filename: flowhomes-eu-magnet-api-openapi.yml
   format: yaml
   label: Qorevia Magnet API
   slug: flowhomes-eu-magnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-magnet-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-magnet-api-openapi.yml
 - filename: flowhomes-eu-mcp-api-openapi.yml
   format: yaml
   label: Qorevia MCP API
   slug: flowhomes-eu-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-mcp-api-openapi.yml
 - filename: flowhomes-eu-onchain-api-openapi.yml
   format: yaml
   label: Qorevia Onchain API
   slug: flowhomes-eu-onchain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-onchain-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-onchain-api-openapi.yml
 - filename: flowhomes-eu-quant-api-openapi.yml
   format: yaml
   label: Qorevia Quant API
   slug: flowhomes-eu-quant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-quant-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-quant-api-openapi.yml
 - filename: flowhomes-eu-risk-api-openapi.yml
   format: yaml
   label: Qorevia Risk API
   slug: flowhomes-eu-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-risk-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-risk-api-openapi.yml
 - filename: flowhomes-eu-route-api-openapi.yml
   format: yaml
   label: Qorevia Route API
   slug: flowhomes-eu-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-route-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-route-api-openapi.yml
 - filename: flowhomes-eu-trading-api-openapi.yml
   format: yaml
   label: Qorevia Trading API
   slug: flowhomes-eu-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-trading-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-trading-api-openapi.yml
 - filename: flowhomes-eu-try-api-openapi.yml
   format: yaml
   label: Qorevia Try API
   slug: flowhomes-eu-try-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-try-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-try-api-openapi.yml
 - filename: flowhomes-eu-utility-api-openapi.yml
   format: yaml
   label: Qorevia Utility API
   slug: flowhomes-eu-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-utility-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-utility-api-openapi.yml
 - filename: flowhomes-eu-well-known-api-openapi.yml
   format: yaml
   label: Qorevia .well Known API
   slug: flowhomes-eu-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/openapi/flowhomes-eu-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/flowhomes-eu/openapi/flowhomes-eu-well-known-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 20
@@ -197,7 +197,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/flowho
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/agent.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/magnet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/magnet/stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/qorevia-club.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/club\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/club/status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/club/referral/create\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/club/referral/{code}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/club/lounge\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/club/lounge/check-in\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flowhomes-eu/refs/heads/main/agentic-access/flowhomes-eu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flowhomes-eu/agentic-access/flowhomes-eu-agentic-access.yml
 summary_line: 34 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Market Data
@@ -213,7 +213,7 @@ tags:
 - USDC
 - Base L2
 - Agentic Commerce
-- pay-per-call
+- Pay-per-call
 - MCP
 - A2A
 - Agents

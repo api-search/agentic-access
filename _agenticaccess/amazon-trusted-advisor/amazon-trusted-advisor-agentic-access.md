@@ -8,97 +8,97 @@ api_specs:
   label: Amazon Trusted Advisor AddAttachmentsToSet API
   slug: amazon-trusted-advisor-addattachmentstoset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-addattachmentstoset-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-addattachmentstoset-api-openapi.yml
 - filename: amazon-trusted-advisor-addcommunicationtocase-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor AddCommunicationToCase API
   slug: amazon-trusted-advisor-addcommunicationtocase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-addcommunicationtocase-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-addcommunicationtocase-api-openapi.yml
 - filename: amazon-trusted-advisor-createcase-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor CreateCase API
   slug: amazon-trusted-advisor-createcase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-createcase-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-createcase-api-openapi.yml
 - filename: amazon-trusted-advisor-describeattachment-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeAttachment API
   slug: amazon-trusted-advisor-describeattachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describeattachment-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describeattachment-api-openapi.yml
 - filename: amazon-trusted-advisor-describecases-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeCases API
   slug: amazon-trusted-advisor-describecases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describecases-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describecases-api-openapi.yml
 - filename: amazon-trusted-advisor-describecommunications-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeCommunications API
   slug: amazon-trusted-advisor-describecommunications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describecommunications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describecommunications-api-openapi.yml
 - filename: amazon-trusted-advisor-describecreatecaseoptions-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeCreateCaseOptions API
   slug: amazon-trusted-advisor-describecreatecaseoptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describecreatecaseoptions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describecreatecaseoptions-api-openapi.yml
 - filename: amazon-trusted-advisor-describeservices-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeServices API
   slug: amazon-trusted-advisor-describeservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describeservices-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describeservices-api-openapi.yml
 - filename: amazon-trusted-advisor-describeseveritylevels-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeSeverityLevels API
   slug: amazon-trusted-advisor-describeseveritylevels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describeseveritylevels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describeseveritylevels-api-openapi.yml
 - filename: amazon-trusted-advisor-describesupportedlanguages-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeSupportedLanguages API
   slug: amazon-trusted-advisor-describesupportedlanguages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describesupportedlanguages-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describesupportedlanguages-api-openapi.yml
 - filename: amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeTrustedAdvisorCheckRefreshStatuses API
   slug: amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api-openapi.yml
 - filename: amazon-trusted-advisor-describetrustedadvisorcheckresult-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeTrustedAdvisorCheckResult API
   slug: amazon-trusted-advisor-describetrustedadvisorcheckresult-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describetrustedadvisorcheckresult-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describetrustedadvisorcheckresult-api-openapi.yml
 - filename: amazon-trusted-advisor-describetrustedadvisorchecks-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeTrustedAdvisorChecks API
   slug: amazon-trusted-advisor-describetrustedadvisorchecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describetrustedadvisorchecks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describetrustedadvisorchecks-api-openapi.yml
 - filename: amazon-trusted-advisor-describetrustedadvisorchecksummaries-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor DescribeTrustedAdvisorCheckSummaries API
   slug: amazon-trusted-advisor-describetrustedadvisorchecksummaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-describetrustedadvisorchecksummaries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-describetrustedadvisorchecksummaries-api-openapi.yml
 - filename: amazon-trusted-advisor-refreshtrustedadvisorcheck-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor RefreshTrustedAdvisorCheck API
   slug: amazon-trusted-advisor-refreshtrustedadvisorcheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-refreshtrustedadvisorcheck-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-refreshtrustedadvisorcheck-api-openapi.yml
 - filename: amazon-trusted-advisor-resolvecase-api-openapi.yml
   format: yaml
   label: Amazon Trusted Advisor ResolveCase API
   slug: amazon-trusted-advisor-resolvecase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-resolvecase-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-resolvecase-api-openapi.yml
 consequence_counts:
   write: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -130,9 +130,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DescribeTrustedAdvisorCheckRefreshStatuses\n  method: post\n  operationId: DescribeTrustedAdvisorCheckRefreshStatuses\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DescribeTrustedAdvisorCheckResult\n  method: post\n  operationId: DescribeTrustedAdvisorCheckResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DescribeTrustedAdvisorChecks\n  method: post\n  operationId: DescribeTrustedAdvisorChecks\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DescribeTrustedAdvisorCheckSummaries\n  method: post\n  operationId: DescribeTrustedAdvisorCheckSummaries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /RefreshTrustedAdvisorCheck\n  method: post\n  operationId: RefreshTrustedAdvisorCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /ResolveCase\n  method: post\n  operationId: ResolveCase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/agentic-access/amazon-trusted-advisor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-trusted-advisor/agentic-access/amazon-trusted-advisor-agentic-access.yml
 summary_line: 16 operations · 16 acting
 tags:
+- Amazon Web Services
 - Best Practices
 - Cloud Optimization
 - Security

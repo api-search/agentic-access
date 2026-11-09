@@ -9,37 +9,37 @@ api_specs:
   label: SimpleLegal Cost Codes API
   slug: simplelegal-cost-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-cost-codes-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-cost-codes-api-openapi.yml
 - filename: simplelegal-invoices-api-openapi.yml
   format: yaml
   label: SimpleLegal Invoices API
   slug: simplelegal-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-invoices-api-openapi.yml
 - filename: simplelegal-matters-api-openapi.yml
   format: yaml
   label: SimpleLegal Matters API
   slug: simplelegal-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-matters-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-matters-api-openapi.yml
 - filename: simplelegal-payments-api-openapi.yml
   format: yaml
   label: SimpleLegal Payments API
   slug: simplelegal-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-payments-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-payments-api-openapi.yml
 - filename: simplelegal-users-api-openapi.yml
   format: yaml
   label: SimpleLegal Users API
   slug: simplelegal-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-users-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-users-api-openapi.yml
 - filename: simplelegal-vendors-api-openapi.yml
   format: yaml
   label: SimpleLegal Vendors API
   slug: simplelegal-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/openapi/simplelegal-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/simplelegal/openapi/simplelegal-vendors-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/simple
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendors\n  method: post\n  operationId: create-vendor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vendors/{id}\n  method: get\n  operationId: get-vendor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendors/{id}\n  method: patch\n  operationId: update-vendor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cost-codes\n\
   \  method: get\n  operationId: list-cost-codes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: list-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: create-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments\n  method: get\n  operationId: list-payments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: post\n  operationId: create-payment\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/agentic-access/simplelegal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simplelegal/agentic-access/simplelegal-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
 - E-Billing

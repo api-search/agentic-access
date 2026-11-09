@@ -8,31 +8,31 @@ api_specs:
   label: Squid Cache Statistics API
   slug: squid-cache-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-cache-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-cache-statistics-api-openapi.yml
 - filename: squid-configuration-api-openapi.yml
   format: yaml
   label: Squid Configuration API
   slug: squid-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-configuration-api-openapi.yml
 - filename: squid-connections-api-openapi.yml
   format: yaml
   label: Squid Connections API
   slug: squid-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-connections-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-connections-api-openapi.yml
 - filename: squid-memory-api-openapi.yml
   format: yaml
   label: Squid Memory API
   slug: squid-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-memory-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-memory-api-openapi.yml
 - filename: squid-operations-api-openapi.yml
   format: yaml
   label: Squid Operations API
   slug: squid-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-operations-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-operations-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/squid-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /60min\n  method: get\n  operationId: get60MinStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utilization\n  method: get\n  operationId: getCacheUtilization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mem\n  method: get\n  operationId: getMemoryUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /active_requests\n  method: get\n  operationId: getActiveRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connections\n\
   \  method: get\n  operationId: getConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config\n  method: get\n  operationId: getCacheConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acl_list\n  method: get\n  operationId: getACLList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /store_digest\n  method: get\n  operationId: getStoreDigest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /objects\n  method: get\n  operationId: getCacheObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /shutdown\n  method: get\n  operationId: shutdownSquid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reconfigure\n  method: get\n  operationId: reconfigureSquid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rotate\n  method: get\n  operationId: rotateLogFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/agentic-access/squid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/squid/agentic-access/squid-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Caching Proxy

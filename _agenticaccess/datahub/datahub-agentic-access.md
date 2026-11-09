@@ -9,37 +9,37 @@ api_specs:
   label: DataHub Actions Framework
   slug: datahub-actions-framework
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/asyncapi/datahub-actions-asyncapi.yml
+  url: https://artifacts.apis.io/datahub/asyncapi/datahub-actions-asyncapi.yml
 - filename: datahub-batch-api-openapi.yml
   format: yaml
   label: DataHub Batch API
   slug: datahub-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-batch-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-batch-api-openapi.yml
 - filename: datahub-entities-api-openapi.yml
   format: yaml
   label: DataHub Entities API
   slug: datahub-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-entities-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-entities-api-openapi.yml
 - filename: datahub-platform-api-openapi.yml
   format: yaml
   label: DataHub Platform API
   slug: datahub-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-platform-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-platform-api-openapi.yml
 - filename: datahub-relationships-api-openapi.yml
   format: yaml
   label: DataHub Relationships API
   slug: datahub-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-relationships-api-openapi.yml
 - filename: datahub-timeline-api-openapi.yml
   format: yaml
   label: DataHub Timeline API
   slug: datahub-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/openapi/datahub-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/datahub/openapi/datahub-timeline-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/datahub-openapi-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 4\n    connected: 3\n  by_consequence:\n    write: 4\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /entities/v1/\n  method: post\n  operationId: upsertEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entities/v1/\n  method: delete\n  operationId: deleteEntities\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entities/v1/latest\n  method: get\n  operationId: getEntityLatestAspects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /relationships/v1/\n  method: get\n  operationId: getRelationships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timeline/\n  method: get\n  operationId: getTimeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /platform/entities/v1\n  method: post\n  operationId: emitPlatformEvents\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/entity/{entityName}/batchGet\n  method: post\n  operationId: batchGetEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/agentic-access/datahub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datahub/agentic-access/datahub-agentic-access.yml
 summary_line: 7 operations · 4 acting
 tags:
 - Data Catalog

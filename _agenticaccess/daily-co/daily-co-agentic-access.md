@@ -9,79 +9,79 @@ api_specs:
   label: Daily Domain API
   slug: daily-co-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-domain-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-domain-api-openapi.yml
 - filename: daily-co-meetings-api-openapi.yml
   format: yaml
   label: Daily Meetings API
   slug: daily-co-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-meetings-api-openapi.yml
 - filename: daily-co-presence-api-openapi.yml
   format: yaml
   label: Daily Presence API
   slug: daily-co-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-presence-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-presence-api-openapi.yml
 - filename: daily-co-recordings-api-openapi.yml
   format: yaml
   label: Daily Recordings API
   slug: daily-co-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-recordings-api-openapi.yml
 - filename: daily-co-rooms-api-openapi.yml
   format: yaml
   label: Daily Rooms API
   slug: daily-co-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-rooms-api-openapi.yml
 - filename: daily-co-webhooks-api-openapi.yml
   format: yaml
   label: Daily Webhooks API
   slug: daily-co-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-webhooks-api-openapi.yml
 - filename: daily-co-meeting-tokens-api-openapi.yml
   format: yaml
   label: Daily Meeting Tokens API
   slug: daily-co-meeting-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-meeting-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-meeting-tokens-api-openapi.yml
 - filename: daily-co-phone-numbers-api-openapi.yml
   format: yaml
   label: Daily Phone Numbers API
   slug: daily-co-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-phone-numbers-api-openapi.yml
 - filename: daily-co-batch-rooms-api-openapi.yml
   format: yaml
   label: Daily Batch/rooms API
   slug: daily-co-batch-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-batch-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-batch-rooms-api-openapi.yml
 - filename: daily-co-domain-dialin-config-api-openapi.yml
   format: yaml
   label: Daily Domain Dialin Config API
   slug: daily-co-domain-dialin-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-domain-dialin-config-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-domain-dialin-config-api-openapi.yml
 - filename: daily-co-logs-api-openapi.yml
   format: yaml
   label: Daily Logs API
   slug: daily-co-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-logs-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-logs-api-openapi.yml
 - filename: daily-co-transcript-api-openapi.yml
   format: yaml
   label: Daily Transcript API
   slug: daily-co-transcript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-transcript-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-transcript-api-openapi.yml
 - filename: daily-co-dial-in-api-openapi.yml
   format: yaml
   label: Daily Dial In API
   slug: daily-co-dial-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-dial-in-api-openapi.yml
+  url: https://artifacts.apis.io/daily-co/openapi/daily-co-dial-in-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 20
@@ -178,7 +178,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/daily-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{uuid}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{uuid}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /list-available-numbers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buy-phone-number\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /release-phone-number/{id}\n\
   \  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /purchased-phone-numbers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/agentic-access/daily-co-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/daily-co/agentic-access/daily-co-agentic-access.yml
 summary_line: 53 operations · 33 acting · 4 human-in-the-loop
 tags:
 - Daily

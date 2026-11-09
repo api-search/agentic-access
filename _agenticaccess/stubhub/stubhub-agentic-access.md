@@ -9,91 +9,91 @@ api_specs:
   label: StubHub Addressess API
   slug: stubhub-addressess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-addressess-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-addressess-api-openapi.yml
 - filename: stubhub-categories-api-openapi.yml
   format: yaml
   label: StubHub Categories API
   slug: stubhub-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-categories-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-categories-api-openapi.yml
 - filename: stubhub-e-tickets-api-openapi.yml
   format: yaml
   label: StubHub E-Tickets API
   slug: stubhub-e-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-e-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-e-tickets-api-openapi.yml
 - filename: stubhub-events-api-openapi.yml
   format: yaml
   label: StubHub Events API
   slug: stubhub-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-events-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-events-api-openapi.yml
 - filename: stubhub-listingconstraints-api-openapi.yml
   format: yaml
   label: StubHub ListingConstraints API
   slug: stubhub-listingconstraints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-listingconstraints-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-listingconstraints-api-openapi.yml
 - filename: stubhub-payments-api-openapi.yml
   format: yaml
   label: StubHub Payments API
   slug: stubhub-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-payments-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-payments-api-openapi.yml
 - filename: stubhub-sales-api-openapi.yml
   format: yaml
   label: StubHub Sales API
   slug: stubhub-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-sales-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-sales-api-openapi.yml
 - filename: stubhub-sellerevents-api-openapi.yml
   format: yaml
   label: StubHub SellerEvents API
   slug: stubhub-sellerevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-sellerevents-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-sellerevents-api-openapi.yml
 - filename: stubhub-sellerlistings-api-openapi.yml
   format: yaml
   label: StubHub SellerListings API
   slug: stubhub-sellerlistings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-sellerlistings-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-sellerlistings-api-openapi.yml
 - filename: stubhub-shipments-api-openapi.yml
   format: yaml
   label: StubHub Shipments API
   slug: stubhub-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-shipments-api-openapi.yml
 - filename: stubhub-ticketholders-api-openapi.yml
   format: yaml
   label: StubHub TicketHolders API
   slug: stubhub-ticketholders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-ticketholders-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-ticketholders-api-openapi.yml
 - filename: stubhub-user-api-openapi.yml
   format: yaml
   label: StubHub User API
   slug: stubhub-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-user-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-user-api-openapi.yml
 - filename: stubhub-venues-api-openapi.yml
   format: yaml
   label: StubHub Venues API
   slug: stubhub-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-venues-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-venues-api-openapi.yml
 - filename: stubhub-webhooks-api-openapi.yml
   format: yaml
   label: StubHub Webhooks API
   slug: stubhub-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-webhooks-api-openapi.yml
 - filename: stubhub-payment-methods-api-openapi.yml
   format: yaml
   label: StubHub Payment Methods API
   slug: stubhub-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/openapi/stubhub-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/stubhub/openapi/stubhub-payment-methods-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 44
@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/stubhu
   \      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: Webhooks_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:webhooks\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: Webhooks_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: Webhooks_Get2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:webhooks\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: patch\n  operationId: Webhooks_Patch\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: Webhooks_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}/ping\n  method: post\n  operationId: Webhooks_PingWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:webhooks\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/agentic-access/stubhub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stubhub/agentic-access/stubhub-agentic-access.yml
 summary_line: 81 operations · 37 acting
 tags:
 - Company

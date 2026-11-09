@@ -9,49 +9,49 @@ api_specs:
   label: UP42 Catalog API
   slug: up42-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-catalog-api-openapi.yml
 - filename: up42-orders-api-openapi.yml
   format: yaml
   label: UP42 Orders API
   slug: up42-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-orders-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-orders-api-openapi.yml
 - filename: up42-processing-api-openapi.yml
   format: yaml
   label: UP42 Processing API
   slug: up42-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-processing-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-processing-api-openapi.yml
 - filename: up42-stac-data-management-api-openapi.yml
   format: yaml
   label: UP42 STAC Data Management API
   slug: up42-stac-data-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-stac-data-management-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-stac-data-management-api-openapi.yml
 - filename: up42-storage-assets-api-openapi.yml
   format: yaml
   label: UP42 Storage Assets API
   slug: up42-storage-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-storage-assets-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-storage-assets-api-openapi.yml
 - filename: up42-tasking-api-openapi.yml
   format: yaml
   label: UP42 Tasking API
   slug: up42-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-tasking-api-openapi.yml
 - filename: up42-webhooks-api-openapi.yml
   format: yaml
   label: UP42 Webhooks API
   slug: up42-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-webhooks-api-openapi.yml
 - filename: up42-workspaces-account-api-openapi.yml
   format: yaml
   label: UP42 Workspaces & Account API
   slug: up42-workspaces-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/openapi/up42-workspaces-account-api-openapi.yml
+  url: https://artifacts.apis.io/up42/openapi/up42-workspaces-account-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 28
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/up42-c
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks/{webhookId}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/events\n  method: get\n  operationId: listWebhookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/account\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/budgets\n  method: get\n  operationId: listBudgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/agentic-access/up42-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/up42/agentic-access/up42-agentic-access.yml
 summary_line: 42 operations · 14 acting
 tags:
 - Geospatial

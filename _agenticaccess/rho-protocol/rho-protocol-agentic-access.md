@@ -9,25 +9,25 @@ api_specs:
   label: Rho Protocol Market Data API
   slug: rho-protocol-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/openapi/rho-protocol-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/rho-protocol/openapi/rho-protocol-market-data-api-openapi.yml
 - filename: rho-protocol-stats-api-openapi.yml
   format: yaml
   label: Rho Protocol Stats API
   slug: rho-protocol-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/openapi/rho-protocol-stats-api-openapi.yml
+  url: https://artifacts.apis.io/rho-protocol/openapi/rho-protocol-stats-api-openapi.yml
 - filename: rho-protocol-trading-api-openapi.yml
   format: yaml
   label: Rho Protocol Trading API
   slug: rho-protocol-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/openapi/rho-protocol-trading-api-openapi.yml
+  url: https://artifacts.apis.io/rho-protocol/openapi/rho-protocol-trading-api-openapi.yml
 - filename: rho-protocol-user-data-api-openapi.yml
   format: yaml
   label: Rho Protocol User Data API
   slug: rho-protocol-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/openapi/rho-protocol-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/rho-protocol/openapi/rho-protocol-user-data-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 19
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/rho-pr
   \      max-ttl: 3600\n    audit: none\n- path: /symbols/{symbol}/order-book\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /symbols/{symbol}/trades\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tickers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tickers/{symbol}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/account\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/account/candles\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/balances\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/balances/withdrawable\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/orders\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/positions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/trades\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/transfers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/withdrawals\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/agentic-access/rho-protocol-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rho-protocol/agentic-access/rho-protocol-agentic-access.yml
 summary_line: 23 operations · 4 acting
 tags:
 - Company

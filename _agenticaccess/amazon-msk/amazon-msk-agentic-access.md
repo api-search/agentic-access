@@ -9,37 +9,67 @@ api_specs:
   label: Amazon MSK Clusters API
   slug: amazon-msk-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-clusters-api-openapi.yml
 - filename: amazon-msk-compatible-kafka-versions-api-openapi.yml
   format: yaml
   label: Amazon MSK Compatible Kafka Versions API
   slug: amazon-msk-compatible-kafka-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-compatible-kafka-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-compatible-kafka-versions-api-openapi.yml
 - filename: amazon-msk-configurations-api-openapi.yml
   format: yaml
   label: Amazon MSK Configurations API
   slug: amazon-msk-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-configurations-api-openapi.yml
 - filename: amazon-msk-kafka-versions-api-openapi.yml
   format: yaml
   label: Amazon MSK Kafka Versions API
   slug: amazon-msk-kafka-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-kafka-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-kafka-versions-api-openapi.yml
 - filename: amazon-msk-operations-api-openapi.yml
   format: yaml
   label: Amazon MSK Operations API
   slug: amazon-msk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-operations-api-openapi.yml
 - filename: amazon-msk-tags-api-openapi.yml
   format: yaml
   label: Amazon MSK Tags API
   slug: amazon-msk-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-tags-api-openapi.yml
+- filename: amazon-msk-channels-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Channels API
+  slug: amazon-msk-channels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-channels-api-openapi.yml
+- filename: amazon-msk-policy-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Policy API
+  slug: amazon-msk-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-policy-api-openapi.yml
+- filename: amazon-msk-replication-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Replication API
+  slug: amazon-msk-replication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-replication-api-openapi.yml
+- filename: amazon-msk-topics-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Topics API
+  slug: amazon-msk-topics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-topics-api-openapi.yml
+- filename: amazon-msk-vpc-connection-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Vpc Connection API
+  slug: amazon-msk-vpc-connection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-vpc-connection-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -86,9 +116,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/clusters/{clusterArn}/nodes/storage\n  method: put\n  operationId: UpdateBrokerStorage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/clusters/{clusterArn}/connectivity\n  method: put\n  operationId: UpdateConnectivity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/clusters/{clusterArn}/configuration\n  method: put\n  operationId: UpdateClusterConfiguration\n  x-agentic-access:\n    action-class: acting\n  \
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/clusters/{clusterArn}/version\n  method: put\n  operationId: UpdateClusterKafkaVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/clusters/{clusterArn}/monitoring\n  method: put\n  operationId: UpdateMonitoring\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/clusters/{clusterArn}/security\n\
   \  method: patch\n  operationId: UpdateSecurity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/clusters/{clusterArn}/storage\n  method: put\n  operationId: UpdateStorage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/agentic-access/amazon-msk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-msk/agentic-access/amazon-msk-agentic-access.yml
 summary_line: 36 operations · 20 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Streaming
 - Kafka
 - Apache Kafka

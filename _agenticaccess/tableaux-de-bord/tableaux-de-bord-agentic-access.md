@@ -9,49 +9,49 @@ api_specs:
   label: Tableaux De Bord Alerting API
   slug: tableaux-de-bord-alerting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-alerting-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-alerting-api-openapi.yml
 - filename: tableaux-de-bord-annotations-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Annotations API
   slug: tableaux-de-bord-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-annotations-api-openapi.yml
 - filename: tableaux-de-bord-dashboards-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Dashboards API
   slug: tableaux-de-bord-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-dashboards-api-openapi.yml
 - filename: tableaux-de-bord-folders-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Folders API
   slug: tableaux-de-bord-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-folders-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-folders-api-openapi.yml
 - filename: tableaux-de-bord-organizations-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Organizations API
   slug: tableaux-de-bord-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-organizations-api-openapi.yml
 - filename: tableaux-de-bord-teams-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Teams API
   slug: tableaux-de-bord-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-teams-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-teams-api-openapi.yml
 - filename: tableaux-de-bord-users-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Users API
   slug: tableaux-de-bord-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-users-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-users-api-openapi.yml
 - filename: tableaux-de-bord-data-sources-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Data Sources API
   slug: tableaux-de-bord-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-data-sources-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/grafan
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs\n  method: get\n  operationId: listOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs\n  method: post\n  operationId: createOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/users\n  method: get\n  operationId: listOrgUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/search\n  method: get\n  operationId:\
   \ searchTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /annotations\n  method: get\n  operationId: listAnnotations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /annotations\n  method: post\n  operationId: createAnnotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folders\n  method: get\n  operationId: listFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folders\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/provisioning/alert-rules\n  method: get\n  operationId: listAlertRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/provisioning/alert-rules\n  method: post\n  operationId: createAlertRule\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/agentic-access/tableaux-de-bord-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tableaux-de-bord/agentic-access/tableaux-de-bord-agentic-access.yml
 summary_line: 19 operations · 9 acting
 tags:
 - Dashboards

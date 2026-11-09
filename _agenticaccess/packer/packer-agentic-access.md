@@ -9,7 +9,7 @@ api_specs:
   label: Packer PackerService API
   slug: packer-packerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packer/refs/heads/main/openapi/packer-packerservice-api-openapi.yml
+  url: https://artifacts.apis.io/packer/openapi/packer-packerservice-api-openapi.yml
 consequence_counts:
   read: 11
   write: 13
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/packer
   \ none\n- path: /packer/2021-04-30/organizations/{location.organization_id}/projects/{location.project_id}/images/{bucket_slug}/iterations/{incremental_version}/children\n  method: get\n  operationId: GetChildImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packer/2021-04-30/organizations/{location.organization_id}/projects/{location.project_id}/images/{bucket_slug}/iterations/{iteration_id}\n  method: post\n  operationId: CreateBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /packer/2021-04-30/organizations/{location.organization_id}/projects/{location.project_id}/images/{bucket_slug}/iterations/{iteration_id}/builds\n  method: get\n\
   \  operationId: ListBuilds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packer/2021-04-30/organizations/{location.organization_id}/projects/{location.project_id}/iterations/{iteration_id}\n  method: delete\n  operationId: DeleteIteration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /packer/2021-04-30/organizations/{location.organization_id}/projects/{location.project_id}/iterations/{iteration_id}\n  method: patch\n  operationId: UpdateIteration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /packer/2021-04-30/organizations/{location.organization_id}/projects/{location.project_id}/registry\n  method: get\n  operationId: GetRegistry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packer/2021-04-30/organizations/{location.organization_id}/projects/{location.project_id}/registry\n  method: put\n  operationId: CreateRegistry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packer/refs/heads/main/agentic-access/packer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/packer/agentic-access/packer-agentic-access.yml
 summary_line: 24 operations · 13 acting
 tags:
 - Automation

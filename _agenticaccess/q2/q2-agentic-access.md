@@ -9,169 +9,169 @@ api_specs:
   label: Q2 Account API
   slug: q2-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-account-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-account-api-openapi.yml
 - filename: q2-account-beneficiary-api-openapi.yml
   format: yaml
   label: Q2 Account Beneficiary API
   slug: q2-account-beneficiary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-account-beneficiary-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-account-beneficiary-api-openapi.yml
 - filename: q2-account-entitlement-api-openapi.yml
   format: yaml
   label: Q2 Account - Entitlement API
   slug: q2-account-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-account-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-account-entitlement-api-openapi.yml
 - filename: q2-account-hold-api-openapi.yml
   format: yaml
   label: Q2 Account - Hold API
   slug: q2-account-hold-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-account-hold-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-account-hold-api-openapi.yml
 - filename: q2-account-limit-api-openapi.yml
   format: yaml
   label: Q2 Account - Limit API
   slug: q2-account-limit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-account-limit-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-account-limit-api-openapi.yml
 - filename: q2-account-stop-pay-api-openapi.yml
   format: yaml
   label: Q2 Account - Stop Pay API
   slug: q2-account-stop-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-account-stop-pay-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-account-stop-pay-api-openapi.yml
 - filename: q2-bank-document-api-openapi.yml
   format: yaml
   label: Q2 Bank Document API
   slug: q2-bank-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-bank-document-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-bank-document-api-openapi.yml
 - filename: q2-card-api-openapi.yml
   format: yaml
   label: Q2 Card API
   slug: q2-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-card-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-card-api-openapi.yml
 - filename: q2-card-control-api-openapi.yml
   format: yaml
   label: Q2 Card Control API
   slug: q2-card-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-card-control-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-card-control-api-openapi.yml
 - filename: q2-card-fraud-text-alert-api-openapi.yml
   format: yaml
   label: Q2 Card - Fraud Text Alert API
   slug: q2-card-fraud-text-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-card-fraud-text-alert-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-card-fraud-text-alert-api-openapi.yml
 - filename: q2-card-limit-api-openapi.yml
   format: yaml
   label: Q2 Card - Limit API
   slug: q2-card-limit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-card-limit-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-card-limit-api-openapi.yml
 - filename: q2-card-mock-api-openapi.yml
   format: yaml
   label: Q2 Card - Mock API
   slug: q2-card-mock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-card-mock-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-card-mock-api-openapi.yml
 - filename: q2-card-provision-api-openapi.yml
   format: yaml
   label: Q2 Card - Provision API
   slug: q2-card-provision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-card-provision-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-card-provision-api-openapi.yml
 - filename: q2-card-risk-factor-api-openapi.yml
   format: yaml
   label: Q2 Card - Risk Factor API
   slug: q2-card-risk-factor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-card-risk-factor-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-card-risk-factor-api-openapi.yml
 - filename: q2-customer-api-openapi.yml
   format: yaml
   label: Q2 Customer API
   slug: q2-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-customer-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-customer-api-openapi.yml
 - filename: q2-customer-beneficiary-api-openapi.yml
   format: yaml
   label: Q2 Customer Beneficiary API
   slug: q2-customer-beneficiary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-customer-beneficiary-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-customer-beneficiary-api-openapi.yml
 - filename: q2-customer-document-api-openapi.yml
   format: yaml
   label: Q2 Customer Document API
   slug: q2-customer-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-customer-document-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-customer-document-api-openapi.yml
 - filename: q2-customer-due-diligence-api-openapi.yml
   format: yaml
   label: Q2 Customer - Due Diligence API
   slug: q2-customer-due-diligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-customer-due-diligence-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-customer-due-diligence-api-openapi.yml
 - filename: q2-customer-relationship-api-openapi.yml
   format: yaml
   label: Q2 Customer Relationship API
   slug: q2-customer-relationship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-customer-relationship-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-customer-relationship-api-openapi.yml
 - filename: q2-external-account-api-openapi.yml
   format: yaml
   label: Q2 External Account API
   slug: q2-external-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-external-account-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-external-account-api-openapi.yml
 - filename: q2-external-account-document-api-openapi.yml
   format: yaml
   label: Q2 External Account Document API
   slug: q2-external-account-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-external-account-document-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-external-account-document-api-openapi.yml
 - filename: q2-fee-api-openapi.yml
   format: yaml
   label: Q2 Fee API
   slug: q2-fee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-fee-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-fee-api-openapi.yml
 - filename: q2-program-api-openapi.yml
   format: yaml
   label: Q2 Program API
   slug: q2-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-program-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-program-api-openapi.yml
 - filename: q2-statement-api-openapi.yml
   format: yaml
   label: Q2 Statement API
   slug: q2-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-statement-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-statement-api-openapi.yml
 - filename: q2-transaction-api-openapi.yml
   format: yaml
   label: Q2 Transaction API
   slug: q2-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-transaction-api-openapi.yml
 - filename: q2-transaction-wire-api-openapi.yml
   format: yaml
   label: Q2 Transaction - Wire API
   slug: q2-transaction-wire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-transaction-wire-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-transaction-wire-api-openapi.yml
 - filename: q2-transfer-api-openapi.yml
   format: yaml
   label: Q2 Transfer API
   slug: q2-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-transfer-api-openapi.yml
 - filename: q2-transfer-wire-api-openapi.yml
   format: yaml
   label: Q2 Transfer - Wire API
   slug: q2-transfer-wire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/openapi/q2-transfer-wire-api-openapi.yml
+  url: https://artifacts.apis.io/q2/openapi/q2-transfer-wire-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 51
@@ -360,8 +360,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/q2-hel
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customerBeneficiary/create\n  method: post\n  operationId: customerBeneficiaryCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customerBeneficiary/deactivate\n  method: post\n  operationId: customerBeneficiaryDeactivate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customerBeneficiary/get/{customerId}/{customerBeneficiaryId}\n  method: get\n  operationId:\
   \ customerBeneficiaryGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customerBeneficiary/list/{customerId}\n  method: get\n  operationId: customerBeneficiaryList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customerBeneficiary/update\n  method: post\n  operationId: customerBeneficiaryUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customerDocument/get/{customerId}/{documentId}\n  method: get\n  operationId: customerDocumentGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /customerDocument/list/{customerId}\n  method: get\n  operationId: customerDocumentList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customerDocument/updateStatus\n  method: post\n  operationId: customerDocumentUpdateStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customerDocument/upload\n  method: post\n  operationId: customerDocumentUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
-  \  - high-value\n    audit: required\n- path: /customerRelationship/archive\n  method: post\n  operationId: customerRelationshipArchive\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customerRelationship/create\n  method: post\n  operationId: customerRelationshipCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/agentic-access/q2-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/q2/refs/heads/main/agentic-access/q2-agentic-access.yml
+  \  - high-value\n    audit: required\n- path: /customerRelationship/archive\n  method: post\n  operationId: customerRelationshipArchive\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customerRelationship/create\n  method: post\n  operationId: customerRelationshipCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/q2/agentic-access/q2-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/q2/agentic-access/q2-agentic-access.yml
 summary_line: 137 operations · 86 acting · 10 human-in-the-loop
 tags:
 - Company

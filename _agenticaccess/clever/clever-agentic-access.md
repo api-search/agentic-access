@@ -9,61 +9,91 @@ api_specs:
   label: Clever Events API
   slug: clever-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-events-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-events-api-openapi.yml
 - filename: clever-assignments-api-openapi.yml
   format: yaml
   label: Clever Assignments API
   slug: clever-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-assignments-api-openapi.yml
 - filename: clever-courses-api-openapi.yml
   format: yaml
   label: Clever Courses API
   slug: clever-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-courses-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-courses-api-openapi.yml
 - filename: clever-districts-api-openapi.yml
   format: yaml
   label: Clever Districts API
   slug: clever-districts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-districts-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-districts-api-openapi.yml
 - filename: clever-resources-api-openapi.yml
   format: yaml
   label: Clever Resources API
   slug: clever-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-resources-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-resources-api-openapi.yml
 - filename: clever-schools-api-openapi.yml
   format: yaml
   label: Clever Schools API
   slug: clever-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-schools-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-schools-api-openapi.yml
 - filename: clever-sections-api-openapi.yml
   format: yaml
   label: Clever Sections API
   slug: clever-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-sections-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-sections-api-openapi.yml
 - filename: clever-submissions-api-openapi.yml
   format: yaml
   label: Clever Submissions API
   slug: clever-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-submissions-api-openapi.yml
 - filename: clever-terms-api-openapi.yml
   format: yaml
   label: Clever Terms API
   slug: clever-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-terms-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-terms-api-openapi.yml
 - filename: clever-users-api-openapi.yml
   format: yaml
   label: Clever Users API
   slug: clever-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-users-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-users-api-openapi.yml
+- filename: clever-contacts-api-openapi.yml
+  format: yaml
+  label: Clever Contacts API
+  slug: clever-contacts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-contacts-api-openapi.yml
+- filename: clever-district-admins-api-openapi.yml
+  format: yaml
+  label: Clever District Admins API
+  slug: clever-district-admins-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-district-admins-api-openapi.yml
+- filename: clever-school-admins-api-openapi.yml
+  format: yaml
+  label: Clever School Admins API
+  slug: clever-school-admins-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-school-admins-api-openapi.yml
+- filename: clever-students-api-openapi.yml
+  format: yaml
+  label: Clever Students API
+  slug: clever-students-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-students-api-openapi.yml
+- filename: clever-teachers-api-openapi.yml
+  format: yaml
+  label: Clever Teachers API
+  slug: clever-teachers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-teachers-api-openapi.yml
 consequence_counts:
   read: 47
   write: 4
@@ -102,7 +132,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/clever
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sections/{section_id}/assignments\n  method: post\n  operationId: createAssignmentForSection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sections/{section_id}/assignments/{assignment_id}\n  method: delete\n  operationId: deleteAssignmentForSection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sections/{section_id}/assignments/{assignment_id}\n  method: get\n  operationId: getAssignmentForSection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sections/{section_id}/assignments/{assignment_id}\n  method: patch\n  operationId: updateAssignmentForSection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sections/{section_id}/assignments/{assignment_id}/submissions\n  method: get\n  operationId: getSubmissionsForAssignment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /sections/{section_id}/assignments/{assignment_id}/submissions/{user_id}\n  method: get\n  operationId: getSubmissionForAssignment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sections/{section_id}/assignments/{assignment_id}/submissions/{user_id}\n  method: patch\n  operationId: updateSubmissionForAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/agentic-access/clever-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clever/agentic-access/clever-agentic-access.yml
 summary_line: 51 operations · 4 acting
 tags:
 - Education

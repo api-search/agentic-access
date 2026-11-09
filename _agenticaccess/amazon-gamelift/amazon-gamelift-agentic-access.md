@@ -9,7 +9,25 @@ api_specs:
   label: Amazon GameLift Amazon GameLift API
   slug: amazon-gamelift-amazon-gamelift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/openapi/amazon-gamelift-amazon-gamelift-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-amazon-gamelift-api-openapi.yml
+- filename: amazon-gamelift-container-fleet-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Container Fleet API
+  slug: amazon-gamelift-container-fleet-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-container-fleet-api-openapi.yml
+- filename: amazon-gamelift-container-group-definition-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Container Group Definition API
+  slug: amazon-gamelift-container-group-definition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-container-group-definition-api-openapi.yml
+- filename: amazon-gamelift-operations-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Operations API
+  slug: amazon-gamelift-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-operations-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 3
@@ -87,10 +105,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GameLift.DescribePlayerSessions\n  method: post\n  operationId: DescribePlayerSessions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GameLift.DescribeRuntimeConfiguration\n  method: post\n  operationId: DescribeRuntimeConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GameLift.DescribeScalingPolicies\n  method: post\n\
   \  operationId: DescribeScalingPolicies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GameLift.DescribeScript\n  method: post\n  operationId: DescribeScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GameLift.DescribeVpcPeeringAuthorizations\n  method: post\n  operationId: DescribeVpcPeeringAuthorizations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GameLift.DescribeVpcPeeringConnections\n  method: post\n  operationId: DescribeVpcPeeringConnections\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=GameLift.GetComputeAccess\n  method: post\n  operationId: GetComputeAccess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=GameLift.GetComputeAuthToken\n  method: post\n  operationId: GetComputeAuthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/agentic-access/amazon-gamelift-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/agentic-access/amazon-gamelift-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-gamelift/agentic-access/amazon-gamelift-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-gamelift/agentic-access/amazon-gamelift-agentic-access.yml
 summary_line: 104 operations · 93 acting · 3 human-in-the-loop
 tags:
+- Amazon Web Services
 - Cloud Computing
 - Game Servers
 - Gaming

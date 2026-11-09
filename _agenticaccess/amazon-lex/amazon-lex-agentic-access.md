@@ -9,67 +9,67 @@ api_specs:
   label: Amazon Lex Bots API
   slug: amazon-lex-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-bots-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-bots-api-openapi.yml
 - filename: amazon-lex-builtins-api-openapi.yml
   format: yaml
   label: Amazon Lex Builtins API
   slug: amazon-lex-builtins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-builtins-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-builtins-api-openapi.yml
 - filename: amazon-lex-createuploadurl-api-openapi.yml
   format: yaml
   label: Amazon Lex Createuploadurl API
   slug: amazon-lex-createuploadurl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-createuploadurl-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-createuploadurl-api-openapi.yml
 - filename: amazon-lex-exports-api-openapi.yml
   format: yaml
   label: Amazon Lex Exports API
   slug: amazon-lex-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-exports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-exports-api-openapi.yml
 - filename: amazon-lex-imports-api-openapi.yml
   format: yaml
   label: Amazon Lex Imports API
   slug: amazon-lex-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-imports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-imports-api-openapi.yml
 - filename: amazon-lex-policy-api-openapi.yml
   format: yaml
   label: Amazon Lex Policy API
   slug: amazon-lex-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-policy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-policy-api-openapi.yml
 - filename: amazon-lex-tags-api-openapi.yml
   format: yaml
   label: Amazon Lex Tags API
   slug: amazon-lex-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-tags-api-openapi.yml
 - filename: amazon-lex-testexecutions-api-openapi.yml
   format: yaml
   label: Amazon Lex Testexecutions API
   slug: amazon-lex-testexecutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testexecutions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-testexecutions-api-openapi.yml
 - filename: amazon-lex-testsetdiscrepancy-api-openapi.yml
   format: yaml
   label: Amazon Lex Testsetdiscrepancy API
   slug: amazon-lex-testsetdiscrepancy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testsetdiscrepancy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-testsetdiscrepancy-api-openapi.yml
 - filename: amazon-lex-testsetgenerations-api-openapi.yml
   format: yaml
   label: Amazon Lex Testsetgenerations API
   slug: amazon-lex-testsetgenerations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testsetgenerations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-testsetgenerations-api-openapi.yml
 - filename: amazon-lex-testsets-api-openapi.yml
   format: yaml
   label: Amazon Lex Testsets API
   slug: amazon-lex-testsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/amazon-lex-testsets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-testsets-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 50
@@ -158,8 +158,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceARN}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceARN}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceARN}\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /testexecutions\n  method: post\n  operationId: ListTestExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /testexecutions/{testExecutionId}\n  method: get\n  operationId: DescribeTestExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /testexecutions/{testExecutionId}/artifacturl\n  method: get\n  operationId: GetTestExecutionArtifactsUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /testexecutions/{testExecutionId}/results\n  method: post\n  operationId: ListTestExecutionResultItems\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /testsetdiscrepancy/{testSetDiscrepancyReportId}\n  method: get\n  operationId: DescribeTestSetDiscrepancyReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /testsetgenerations\n  method: put\n  operationId: StartTestSetGeneration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /testsetgenerations/{testSetGenerationId}\n  method: get\n  operationId: DescribeTestSetGeneration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
-  \ none\n- path: /testsets\n  method: post\n  operationId: ListTestSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /testsets/{testSetId}\n  method: delete\n  operationId: DeleteTestSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /testsets/{testSetId}\n  method: get\n  operationId: DescribeTestSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/agentic-access/amazon-lex-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/agentic-access/amazon-lex-agentic-access.yml
+  \ none\n- path: /testsets\n  method: post\n  operationId: ListTestSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /testsets/{testSetId}\n  method: delete\n  operationId: DeleteTestSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /testsets/{testSetId}\n  method: get\n  operationId: DescribeTestSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-lex/agentic-access/amazon-lex-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-lex/agentic-access/amazon-lex-agentic-access.yml
 summary_line: 113 operations · 63 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence
@@ -170,4 +170,5 @@ tags:
 - Voice
 - Contact Center
 - Customer Service
+- Amazon Web Services
 ---

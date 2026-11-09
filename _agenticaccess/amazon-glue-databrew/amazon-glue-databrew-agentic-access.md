@@ -9,61 +9,61 @@ api_specs:
   label: Amazon Glue DataBrew Datasets API
   slug: amazon-glue-databrew-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-datasets-api-openapi.yml
 - filename: amazon-glue-databrew-jobs-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Jobs API
   slug: amazon-glue-databrew-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-jobs-api-openapi.yml
 - filename: amazon-glue-databrew-projects-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Projects API
   slug: amazon-glue-databrew-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-projects-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-projects-api-openapi.yml
 - filename: amazon-glue-databrew-recipes-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Recipes API
   slug: amazon-glue-databrew-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-recipes-api-openapi.yml
 - filename: amazon-glue-databrew-rulesets-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Rulesets API
   slug: amazon-glue-databrew-rulesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-rulesets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-rulesets-api-openapi.yml
 - filename: amazon-glue-databrew-schedules-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Schedules API
   slug: amazon-glue-databrew-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-schedules-api-openapi.yml
 - filename: amazon-glue-databrew-tags-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Tags API
   slug: amazon-glue-databrew-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-tags-api-openapi.yml
 - filename: amazon-glue-databrew-recipeversions-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Recipe Versions API
   slug: amazon-glue-databrew-recipeversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-recipeversions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-recipeversions-api-openapi.yml
 - filename: amazon-glue-databrew-profile-jobs-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Profile Jobs API
   slug: amazon-glue-databrew-profile-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-profile-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-profile-jobs-api-openapi.yml
 - filename: amazon-glue-databrew-recipe-jobs-api-openapi.yml
   format: yaml
   label: Amazon Glue DataBrew Recipe Jobs API
   slug: amazon-glue-databrew-recipe-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-recipe-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-glue-databrew/openapi/amazon-glue-databrew-recipe-jobs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -119,9 +119,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{name}/startProjectSession\n  method: put\n  operationId: StartProjectSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{name}/jobRun/{runId}/stopJobRun\n  method: post\n  operationId: StopJobRun\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tags/{ResourceArn}#tagKeys\n  method: delete\n\
   \  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profileJobs/{name}\n  method: put\n  operationId: UpdateProfileJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recipeJobs/{name}\n  method: put\n  operationId: UpdateRecipeJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/agentic-access/amazon-glue-databrew-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-glue-databrew/agentic-access/amazon-glue-databrew-agentic-access.yml
 summary_line: 44 operations · 28 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Data Analytics
 - Data Preparation
 - ETL

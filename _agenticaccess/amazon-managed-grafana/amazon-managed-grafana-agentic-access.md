@@ -9,19 +9,31 @@ api_specs:
   label: Amazon Managed Grafana Tags API
   slug: amazon-managed-grafana-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-tags-api-openapi.yml
 - filename: amazon-managed-grafana-versions-api-openapi.yml
   format: yaml
   label: Amazon Managed Grafana Versions API
   slug: amazon-managed-grafana-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-versions-api-openapi.yml
 - filename: amazon-managed-grafana-workspaces-api-openapi.yml
   format: yaml
   label: Amazon Managed Grafana Workspaces API
   slug: amazon-managed-grafana-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-workspaces-api-openapi.yml
+- filename: amazon-managed-grafana-serviceaccounts-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Grafana Managed Grafana Serviceaccounts API
+  slug: amazon-managed-grafana-serviceaccounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-serviceaccounts-api-openapi.yml
+- filename: amazon-managed-grafana-tokens-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Grafana Managed Grafana Tokens API
+  slug: amazon-managed-grafana-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-grafana/openapi/amazon-managed-grafana-tokens-api-openapi.yml
 consequence_counts:
   read: 7
   write: 12
@@ -54,9 +66,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/configuration\n  method: get\n  operationId: DescribeWorkspaceConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/configuration\n  method: put\n  operationId: UpdateWorkspaceConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/permissions\n  method: get\n  operationId: ListPermissions\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/permissions\n  method: patch\n  operationId: UpdatePermissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /versions\n  method: get\n  operationId: ListVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/agentic-access/amazon-managed-grafana-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-managed-grafana/agentic-access/amazon-managed-grafana-agentic-access.yml
 summary_line: 19 operations · 12 acting
 tags:
+- Amazon Web Services
 - Dashboards
 - Monitoring
 - Observability

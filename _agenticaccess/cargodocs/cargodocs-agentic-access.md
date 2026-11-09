@@ -9,43 +9,43 @@ api_specs:
   label: CargoDocs Common API
   slug: cargodocs-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-common-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-common-api-openapi.yml
 - filename: cargodocs-documents-api-openapi.yml
   format: yaml
   label: CargoDocs Documents API
   slug: cargodocs-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-documents-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-documents-api-openapi.yml
 - filename: cargodocs-exchange-api-openapi.yml
   format: yaml
   label: CargoDocs Exchange API
   slug: cargodocs-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-exchange-api-openapi.yml
 - filename: cargodocs-import-api-openapi.yml
   format: yaml
   label: CargoDocs Import API
   slug: cargodocs-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-import-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-import-api-openapi.yml
 - filename: cargodocs-issuance-api-openapi.yml
   format: yaml
   label: CargoDocs Issuance API
   slug: cargodocs-issuance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-issuance-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-issuance-api-openapi.yml
 - filename: cargodocs-surrender-api-openapi.yml
   format: yaml
   label: CargoDocs Surrender API
   slug: cargodocs-surrender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-surrender-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-surrender-api-openapi.yml
 - filename: cargodocs-transactions-api-openapi.yml
   format: yaml
   label: CargoDocs Transactions API
   slug: cargodocs-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cargod
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issuer/issue\n  method: post\n  operationId: issueDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issuer/re-issue\n  method: post\n  operationId: reIssue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issuer/surrender\n  method: post\n  operationId: receiveSurrender\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /exchange/customers\n  method: get\n  operationId: getPartnerCustomerIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange/employees\n  method: get\n  operationId: getPartnerCustomerEmployeeIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /common/counterparties\n  method: get\n  operationId: getCounterparties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange/documents/{documentId}/pdf\n  method: get\n  operationId: getSinglePdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/agentic-access/cargodocs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cargodocs/agentic-access/cargodocs-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Bills of Lading

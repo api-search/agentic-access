@@ -9,19 +9,19 @@ api_specs:
   label: GOV.UK Notify Notifications API
   slug: gov-uk-notify-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-notify/openapi/gov-uk-notify-notifications-api-openapi.yml
 - filename: gov-uk-notify-received-text-messages-api-openapi.yml
   format: yaml
   label: GOV.UK Notify Received Text Messages API
   slug: gov-uk-notify-received-text-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-received-text-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-notify/openapi/gov-uk-notify-received-text-messages-api-openapi.yml
 - filename: gov-uk-notify-templates-api-openapi.yml
   format: yaml
   label: GOV.UK Notify Templates API
   slug: gov-uk-notify-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/openapi/gov-uk-notify-templates-api-openapi.yml
+  url: https://artifacts.apis.io/gov-uk-notify/openapi/gov-uk-notify-templates-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 7
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ sendEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/notifications/letter\n  method: post\n  operationId: sendLetter\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/notifications/{notification_id}\n  method: get\n  operationId: getNotification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v2/notifications/{notification_id}/pdf\n  method: get\n  operationId: getLetterPdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/notifications\n  method: get\n  operationId: listNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/template/{template_id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/template/{template_id}/version/{version}\n  method: get\n  operationId: getTemplateVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/templates\n  method: get\n  operationId: listTemplates\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/template/{template_id}/preview\n  method: post\n  operationId: previewTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/received-text-messages\n  method: get\n  operationId: listReceivedTextMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/agentic-access/gov-uk-notify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gov-uk-notify/agentic-access/gov-uk-notify-agentic-access.yml
 summary_line: 11 operations · 4 acting
 tags:
 - Notification

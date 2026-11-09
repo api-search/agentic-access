@@ -9,25 +9,43 @@ api_specs:
   label: Amazon Secrets Manager Passwords API
   slug: amazon-secrets-manager-passwords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-passwords-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-secrets-manager/openapi/amazon-secrets-manager-passwords-api-openapi.yml
 - filename: amazon-secrets-manager-rotation-api-openapi.yml
   format: yaml
   label: Amazon Secrets Manager Rotation API
   slug: amazon-secrets-manager-rotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-rotation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-secrets-manager/openapi/amazon-secrets-manager-rotation-api-openapi.yml
 - filename: amazon-secrets-manager-secrets-api-openapi.yml
   format: yaml
   label: Amazon Secrets Manager Secrets API
   slug: amazon-secrets-manager-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-secrets-manager/openapi/amazon-secrets-manager-secrets-api-openapi.yml
 - filename: amazon-secrets-manager-amazon-secrets-manager-api-api-openapi.yml
   format: yaml
   label: Amazon Secrets Manager Amazon Secrets Manager API
   slug: amazon-secrets-manager-amazon-secrets-manager-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-amazon-secrets-manager-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-secrets-manager/openapi/amazon-secrets-manager-amazon-secrets-manager-api-api-openapi.yml
+- filename: amazon-secrets-manager-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Secrets Manager Secrets Manager Operations API
+  slug: amazon-secrets-manager-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-secrets-manager/openapi/amazon-secrets-manager-operations-api-openapi.yml
+- filename: amazon-secrets-manager-resource-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Secrets Manager Secrets Manager Resource Policy API
+  slug: amazon-secrets-manager-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-secrets-manager/openapi/amazon-secrets-manager-resource-policy-api-openapi.yml
+- filename: amazon-secrets-manager-secret-value-api-openapi.yml
+  format: yaml
+  label: Amazon Secrets Manager Secrets Manager Secret Value API
+  slug: amazon-secrets-manager-secret-value-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-secrets-manager/openapi/amazon-secrets-manager-secret-value-api-openapi.yml
 consequence_counts:
   read: 2
   write: 10
@@ -58,9 +76,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /#PutSecretValue\n  method: post\n  operationId: PutSecretValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#UpdateSecret\n  method: post\n  operationId: UpdateSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DeleteSecret\n  method: post\n  operationId: DeleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#ListSecrets\n  method: post\n  operationId: ListSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#DescribeSecret\n  method: post\n  operationId: DescribeSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#RestoreSecret\n  method: post\n  operationId: RestoreSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /#TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/agentic-access/amazon-secrets-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-secrets-manager/agentic-access/amazon-secrets-manager-agentic-access.yml
 summary_line: 12 operations · 10 acting
 tags:
+- Amazon Web Services
 - Configuration
 - Credentials
 - Rotation

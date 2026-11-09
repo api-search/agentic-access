@@ -9,361 +9,361 @@ api_specs:
   label: Delphix Algorithms API
   slug: delphix-algorithms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-algorithms-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-algorithms-api-openapi.yml
 - filename: delphix-bookmarks-api-openapi.yml
   format: yaml
   label: Delphix Bookmarks API
   slug: delphix-bookmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-bookmarks-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-bookmarks-api-openapi.yml
 - filename: delphix-cdb-dsources-api-openapi.yml
   format: yaml
   label: Delphix CDB DSources API
   slug: delphix-cdb-dsources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-cdb-dsources-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-cdb-dsources-api-openapi.yml
 - filename: delphix-cdbs-api-openapi.yml
   format: yaml
   label: Delphix CDBs API
   slug: delphix-cdbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-cdbs-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-cdbs-api-openapi.yml
 - filename: delphix-classifiers-api-openapi.yml
   format: yaml
   label: Delphix Classifiers API
   slug: delphix-classifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-classifiers-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-classifiers-api-openapi.yml
 - filename: delphix-compliancejobcollections-api-openapi.yml
   format: yaml
   label: Delphix ComplianceJobCollections API
   slug: delphix-compliancejobcollections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-compliancejobcollections-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-compliancejobcollections-api-openapi.yml
 - filename: delphix-compliancejobs-api-openapi.yml
   format: yaml
   label: Delphix ComplianceJobs API
   slug: delphix-compliancejobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-compliancejobs-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-compliancejobs-api-openapi.yml
 - filename: delphix-compliancenodes-api-openapi.yml
   format: yaml
   label: Delphix ComplianceNodes API
   slug: delphix-compliancenodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-compliancenodes-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-compliancenodes-api-openapi.yml
 - filename: delphix-connectivity-api-openapi.yml
   format: yaml
   label: Delphix Connectivity API
   slug: delphix-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-connectivity-api-openapi.yml
 - filename: delphix-connectors-api-openapi.yml
   format: yaml
   label: Delphix Connectors API
   slug: delphix-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-connectors-api-openapi.yml
 - filename: delphix-databasetemplates-api-openapi.yml
   format: yaml
   label: Delphix DatabaseTemplates API
   slug: delphix-databasetemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-databasetemplates-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-databasetemplates-api-openapi.yml
 - filename: delphix-datalayouts-api-openapi.yml
   format: yaml
   label: Delphix DataLayouts API
   slug: delphix-datalayouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-datalayouts-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-datalayouts-api-openapi.yml
 - filename: delphix-discoveryexpressions-api-openapi.yml
   format: yaml
   label: Delphix DiscoveryExpressions API
   slug: delphix-discoveryexpressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-discoveryexpressions-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-discoveryexpressions-api-openapi.yml
 - filename: delphix-discoverypolicies-api-openapi.yml
   format: yaml
   label: Delphix DiscoveryPolicies API
   slug: delphix-discoverypolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-discoverypolicies-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-discoverypolicies-api-openapi.yml
 - filename: delphix-dsources-api-openapi.yml
   format: yaml
   label: Delphix DSources API
   slug: delphix-dsources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-dsources-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-dsources-api-openapi.yml
 - filename: delphix-environments-api-openapi.yml
   format: yaml
   label: Delphix Environments API
   slug: delphix-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-environments-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-environments-api-openapi.yml
 - filename: delphix-executions-api-openapi.yml
   format: yaml
   label: Delphix Executions API
   slug: delphix-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-executions-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-executions-api-openapi.yml
 - filename: delphix-file-mapping-api-openapi.yml
   format: yaml
   label: Delphix File Mapping API
   slug: delphix-file-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-file-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-file-mapping-api-openapi.yml
 - filename: delphix-groups-api-openapi.yml
   format: yaml
   label: Delphix Groups API
   slug: delphix-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-groups-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-groups-api-openapi.yml
 - filename: delphix-heldspace-api-openapi.yml
   format: yaml
   label: Delphix HeldSpace API
   slug: delphix-heldspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-heldspace-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-heldspace-api-openapi.yml
 - filename: delphix-hooktemplates-api-openapi.yml
   format: yaml
   label: Delphix HookTemplates API
   slug: delphix-hooktemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-hooktemplates-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-hooktemplates-api-openapi.yml
 - filename: delphix-hyperscaleinstance-api-openapi.yml
   format: yaml
   label: Delphix HyperscaleInstance API
   slug: delphix-hyperscaleinstance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-hyperscaleinstance-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-hyperscaleinstance-api-openapi.yml
 - filename: delphix-hyperscaleobjects-api-openapi.yml
   format: yaml
   label: Delphix HyperscaleObjects API
   slug: delphix-hyperscaleobjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-hyperscaleobjects-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-hyperscaleobjects-api-openapi.yml
 - filename: delphix-jobcollectionexecutions-api-openapi.yml
   format: yaml
   label: Delphix JobCollectionExecutions API
   slug: delphix-jobcollectionexecutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-jobcollectionexecutions-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-jobcollectionexecutions-api-openapi.yml
 - filename: delphix-joborchestrators-api-openapi.yml
   format: yaml
   label: Delphix JobOrchestrators API
   slug: delphix-joborchestrators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-joborchestrators-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-joborchestrators-api-openapi.yml
 - filename: delphix-kerberosconfig-api-openapi.yml
   format: yaml
   label: Delphix KerberosConfig API
   slug: delphix-kerberosconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-kerberosconfig-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-kerberosconfig-api-openapi.yml
 - filename: delphix-management-api-openapi.yml
   format: yaml
   label: Delphix Management API
   slug: delphix-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-management-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-management-api-openapi.yml
 - filename: delphix-maskingenvironments-api-openapi.yml
   format: yaml
   label: Delphix MaskingEnvironments API
   slug: delphix-maskingenvironments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-maskingenvironments-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-maskingenvironments-api-openapi.yml
 - filename: delphix-maskingfiles-api-openapi.yml
   format: yaml
   label: Delphix MaskingFiles API
   slug: delphix-maskingfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-maskingfiles-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-maskingfiles-api-openapi.yml
 - filename: delphix-maskingjobs-api-openapi.yml
   format: yaml
   label: Delphix MaskingJobs API
   slug: delphix-maskingjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-maskingjobs-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-maskingjobs-api-openapi.yml
 - filename: delphix-maskingplugins-api-openapi.yml
   format: yaml
   label: Delphix MaskingPlugins API
   slug: delphix-maskingplugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-maskingplugins-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-maskingplugins-api-openapi.yml
 - filename: delphix-migrationjobs-api-openapi.yml
   format: yaml
   label: Delphix MigrationJobs API
   slug: delphix-migrationjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-migrationjobs-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-migrationjobs-api-openapi.yml
 - filename: delphix-namespace-api-openapi.yml
   format: yaml
   label: Delphix Namespace API
   slug: delphix-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-namespace-api-openapi.yml
 - filename: delphix-network-performance-tool-api-openapi.yml
   format: yaml
   label: Delphix Network Performance Tool API
   slug: delphix-network-performance-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-network-performance-tool-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-network-performance-tool-api-openapi.yml
 - filename: delphix-paasdatabases-api-openapi.yml
   format: yaml
   label: Delphix PaaSDatabases API
   slug: delphix-paasdatabases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-paasdatabases-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-paasdatabases-api-openapi.yml
 - filename: delphix-paasinstances-api-openapi.yml
   format: yaml
   label: Delphix PaaSInstances API
   slug: delphix-paasinstances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-paasinstances-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-paasinstances-api-openapi.yml
 - filename: delphix-paasplugins-api-openapi.yml
   format: yaml
   label: Delphix PaaSPlugins API
   slug: delphix-paasplugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-paasplugins-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-paasplugins-api-openapi.yml
 - filename: delphix-paassnapshots-api-openapi.yml
   format: yaml
   label: Delphix PaaSSnapshots API
   slug: delphix-paassnapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-paassnapshots-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-paassnapshots-api-openapi.yml
 - filename: delphix-paastimeflows-api-openapi.yml
   format: yaml
   label: Delphix PaaSTimeflows API
   slug: delphix-paastimeflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-paastimeflows-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-paastimeflows-api-openapi.yml
 - filename: delphix-passwordvaults-api-openapi.yml
   format: yaml
   label: Delphix PasswordVaults API
   slug: delphix-passwordvaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-passwordvaults-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-passwordvaults-api-openapi.yml
 - filename: delphix-replication-api-openapi.yml
   format: yaml
   label: Delphix Replication API
   slug: delphix-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-replication-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-replication-api-openapi.yml
 - filename: delphix-reporting-api-openapi.yml
   format: yaml
   label: Delphix Reporting API
   slug: delphix-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-reporting-api-openapi.yml
 - filename: delphix-rulesets-api-openapi.yml
   format: yaml
   label: Delphix RuleSets API
   slug: delphix-rulesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-rulesets-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-rulesets-api-openapi.yml
 - filename: delphix-snapshots-api-openapi.yml
   format: yaml
   label: Delphix Snapshots API
   slug: delphix-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-snapshots-api-openapi.yml
 - filename: delphix-sources-api-openapi.yml
   format: yaml
   label: Delphix Sources API
   slug: delphix-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-sources-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-sources-api-openapi.yml
 - filename: delphix-stagingcdbs-api-openapi.yml
   format: yaml
   label: Delphix StagingCdbs API
   slug: delphix-stagingcdbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-stagingcdbs-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-stagingcdbs-api-openapi.yml
 - filename: delphix-stagingsources-api-openapi.yml
   format: yaml
   label: Delphix StagingSources API
   slug: delphix-stagingsources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-stagingsources-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-stagingsources-api-openapi.yml
 - filename: delphix-storageusage-api-openapi.yml
   format: yaml
   label: Delphix StorageUsage API
   slug: delphix-storageusage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-storageusage-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-storageusage-api-openapi.yml
 - filename: delphix-timeflows-api-openapi.yml
   format: yaml
   label: Delphix Timeflows API
   slug: delphix-timeflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-timeflows-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-timeflows-api-openapi.yml
 - filename: delphix-toolkits-api-openapi.yml
   format: yaml
   label: Delphix Toolkits API
   slug: delphix-toolkits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-toolkits-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-toolkits-api-openapi.yml
 - filename: delphix-vcdbs-api-openapi.yml
   format: yaml
   label: Delphix VCDBs API
   slug: delphix-vcdbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-vcdbs-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-vcdbs-api-openapi.yml
 - filename: delphix-vdbgroups-api-openapi.yml
   format: yaml
   label: Delphix VDBGroups API
   slug: delphix-vdbgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-vdbgroups-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-vdbgroups-api-openapi.yml
 - filename: delphix-vdbs-api-openapi.yml
   format: yaml
   label: Delphix VDBs API
   slug: delphix-vdbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-vdbs-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-vdbs-api-openapi.yml
 - filename: delphix-virtualizationactions-api-openapi.yml
   format: yaml
   label: Delphix VirtualizationActions API
   slug: delphix-virtualizationactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-virtualizationactions-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-virtualizationactions-api-openapi.yml
 - filename: delphix-virtualizationalerts-api-openapi.yml
   format: yaml
   label: Delphix VirtualizationAlerts API
   slug: delphix-virtualizationalerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-virtualizationalerts-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-virtualizationalerts-api-openapi.yml
 - filename: delphix-virtualizationfaults-api-openapi.yml
   format: yaml
   label: Delphix VirtualizationFaults API
   slug: delphix-virtualizationfaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-virtualizationfaults-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-virtualizationfaults-api-openapi.yml
 - filename: delphix-virtualizationjobs-api-openapi.yml
   format: yaml
   label: Delphix VirtualizationJobs API
   slug: delphix-virtualizationjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-virtualizationjobs-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-virtualizationjobs-api-openapi.yml
 - filename: delphix-virtualizationpolicies-api-openapi.yml
   format: yaml
   label: Delphix VirtualizationPolicies API
   slug: delphix-virtualizationpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-virtualizationpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-virtualizationpolicies-api-openapi.yml
 - filename: delphix-cloud-accounts-api-openapi.yml
   format: yaml
   label: Delphix Cloud Accounts API
   slug: delphix-cloud-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-cloud-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-cloud-accounts-api-openapi.yml
 - filename: delphix-data-classes-api-openapi.yml
   format: yaml
   label: Delphix Data Classes API
   slug: delphix-data-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/openapi/delphix-data-classes-api-openapi.yml
+  url: https://artifacts.apis.io/delphix/openapi/delphix-data-classes-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 322
@@ -552,8 +552,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/delphi
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance-job-collections/{complianceJobCollectionId}/jobs/search\n  method: post\n  operationId: search_compliance_job_collection_jobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance-job-collections/{complianceJobCollectionId}/tags\n  method: get\n  operationId: get_compliance_job_collection_tags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance-job-collections/{complianceJobCollectionId}/tags\n  method: post\n  operationId: create_compliance_job_collection_tags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance-job-collections/{complianceJobCollectionId}/tags/delete\n  method: post\n  operationId: delete_compliance_job_collection_tags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance-jobs\n  method: get\n  operationId: get_compliance_jobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance-jobs\n  method: post\n  operationId: create_compliance_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance-jobs/search\n  method: post\n  operationId: search_compliance_jobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance-jobs/{complianceJobId}\n  method: get\n  operationId: get_compliance_job_by_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance-jobs/{complianceJobId}\n  method: patch\n  operationId: update_compliance_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance-jobs/{complianceJobId}\n  method:\
-  \ delete\n  operationId: delete_compliance_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance-jobs/{complianceJobId}/connectors\n  method: get\n  operationId: get_compliance_job_connectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (222 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/agentic-access/delphix-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/agentic-access/delphix-agentic-access.yml
+  \ delete\n  operationId: delete_compliance_job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance-jobs/{complianceJobId}/connectors\n  method: get\n  operationId: get_compliance_job_connectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (222 KB total) ---\n# Full source: https://artifacts.apis.io/delphix/agentic-access/delphix-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/delphix/agentic-access/delphix-agentic-access.yml
 summary_line: 730 operations · 408 acting · 15 human-in-the-loop
 tags:
 - Company

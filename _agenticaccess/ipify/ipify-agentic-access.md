@@ -8,19 +8,19 @@ api_specs:
   label: ipify Account API
   slug: ipify-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-account-api-openapi.yml
+  url: https://artifacts.apis.io/ipify/openapi/ipify-account-api-openapi.yml
 - filename: ipify-geolocation-api-openapi.yml
   format: yaml
   label: ipify Geolocation API
   slug: ipify-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-geolocation-api-openapi.yml
+  url: https://artifacts.apis.io/ipify/openapi/ipify-geolocation-api-openapi.yml
 - filename: ipify-ip-address-api-openapi.yml
   format: yaml
   label: ipify IP Address API
   slug: ipify-ip-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-ip-address-api-openapi.yml
+  url: https://artifacts.apis.io/ipify/openapi/ipify-ip-address-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ipify-geolocation-api.yml, openapi/ipify-ip-api.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /country\n  method: get\n  operationId: getCountryLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /country,city\n  method: get\n  operationId: getCountryCityLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /country,city,vpn\n  method:\
   \ get\n  operationId: getCountryCityVpnLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service/account-balance\n  method: get\n  operationId: getAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: getPublicIp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/agentic-access/ipify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ipify/agentic-access/ipify-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Development

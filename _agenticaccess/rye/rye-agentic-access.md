@@ -9,79 +9,79 @@ api_specs:
   label: Rye Betas API
   slug: rye-betas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-betas-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-betas-api-openapi.yml
 - filename: rye-billing-api-openapi.yml
   format: yaml
   label: Rye Billing API
   slug: rye-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-billing-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-billing-api-openapi.yml
 - filename: rye-brands-api-openapi.yml
   format: yaml
   label: Rye Brands API
   slug: rye-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-brands-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-brands-api-openapi.yml
 - filename: rye-checkout-intents-api-openapi.yml
   format: yaml
   label: Rye Checkout Intents API
   slug: rye-checkout-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-checkout-intents-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-checkout-intents-api-openapi.yml
 - filename: rye-commissions-api-openapi.yml
   format: yaml
   label: Rye Commissions API
   slug: rye-commissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-commissions-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-commissions-api-openapi.yml
 - filename: rye-events-api-openapi.yml
   format: yaml
   label: Rye Events API
   slug: rye-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-events-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-events-api-openapi.yml
 - filename: rye-merchant-connectors-api-openapi.yml
   format: yaml
   label: Rye Merchant Connectors API
   slug: rye-merchant-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-merchant-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-merchant-connectors-api-openapi.yml
 - filename: rye-orders-api-openapi.yml
   format: yaml
   label: Rye Orders API
   slug: rye-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-orders-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-orders-api-openapi.yml
 - filename: rye-payment-gateways-api-openapi.yml
   format: yaml
   label: Rye Payment Gateways API
   slug: rye-payment-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-payment-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-payment-gateways-api-openapi.yml
 - filename: rye-products-api-openapi.yml
   format: yaml
   label: Rye Products API
   slug: rye-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-products-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-products-api-openapi.yml
 - filename: rye-returns-api-openapi.yml
   format: yaml
   label: Rye Returns API
   slug: rye-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-returns-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-returns-api-openapi.yml
 - filename: rye-shipments-api-openapi.yml
   format: yaml
   label: Rye Shipments API
   slug: rye-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-shipments-api-openapi.yml
 - filename: rye-test-helpers-api-openapi.yml
   format: yaml
   label: Rye Test Helpers API
   slug: rye-test-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/openapi/rye-test-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/rye/openapi/rye-test-helpers-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 20
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/rye-ch
   \ CreateSimulatedReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - test_helpers:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/test-helpers/returns/{returnId}/approve\n  method: post\n  operationId: ApproveReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - test_helpers:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/test-helpers/returns/{returnId}/deny\n  method: post\n  operationId: DenyReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - test_helpers:write\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/test-helpers/returns/{returnId}/refund\n  method: post\n  operationId: RefundReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - test_helpers:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/test-helpers/returns/{returnId}/fail\n  method: post\n  operationId: FailReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - test_helpers:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/agentic-access/rye-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rye/agentic-access/rye-agentic-access.yml
 summary_line: 39 operations · 19 acting
 tags:
 - Company

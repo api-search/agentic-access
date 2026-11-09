@@ -9,37 +9,37 @@ api_specs:
   label: TinyFish Automation API
   slug: tinyfish-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-automation-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-automation-api-openapi.yml
 - filename: tinyfish-runs-api-openapi.yml
   format: yaml
   label: TinyFish Runs API
   slug: tinyfish-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-runs-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-runs-api-openapi.yml
 - filename: tinyfish-tinyfish-browser-api-api-openapi.yml
   format: yaml
   label: TinyFish Browser API
   slug: tinyfish-tinyfish-browser-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-browser-api-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-tinyfish-browser-api-api-openapi.yml
 - filename: tinyfish-tinyfish-search-api-api-openapi.yml
   format: yaml
   label: TinyFish Search API
   slug: tinyfish-tinyfish-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-tinyfish-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-tinyfish-search-api-api-openapi.yml
 - filename: tinyfish-usage-api-openapi.yml
   format: yaml
   label: TinyFish Usage API
   slug: tinyfish-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-usage-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-usage-api-openapi.yml
 - filename: tinyfish-vault-api-openapi.yml
   format: yaml
   label: TinyFish Vault API
   slug: tinyfish-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/openapi/tinyfish-vault-api-openapi.yml
+  url: https://artifacts.apis.io/tinyfish/openapi/tinyfish-vault-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tinyfi
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/runs/{id}/cancel\n  method: post\n  operationId: cancelRunById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: createBrowserSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
   \     max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: listBrowserUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vault/connections\n  method: post\n  operationId: connectVault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vault/connections\n  method: get\n  operationId: listVaultConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vault/connections/{connectionId}\n  method: delete\n  operationId: disconnectVault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vault/items\n  method: get\n  operationId: listVaultItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vault/items/sync\n  method: post\n  operationId: syncVaultItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/agentic-access/tinyfish-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tinyfish/agentic-access/tinyfish-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Company

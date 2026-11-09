@@ -9,49 +9,49 @@ api_specs:
   label: Toornament Disciplines API
   slug: toornament-disciplines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-disciplines-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-disciplines-api-openapi.yml
 - filename: toornament-matches-api-openapi.yml
   format: yaml
   label: Toornament Matches API
   slug: toornament-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-matches-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-matches-api-openapi.yml
 - filename: toornament-participants-api-openapi.yml
   format: yaml
   label: Toornament Participants API
   slug: toornament-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-participants-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-participants-api-openapi.yml
 - filename: toornament-rankings-api-openapi.yml
   format: yaml
   label: Toornament Rankings API
   slug: toornament-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-rankings-api-openapi.yml
 - filename: toornament-registrations-api-openapi.yml
   format: yaml
   label: Toornament Registrations API
   slug: toornament-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-registrations-api-openapi.yml
 - filename: toornament-stages-api-openapi.yml
   format: yaml
   label: Toornament Stages API
   slug: toornament-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-stages-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-stages-api-openapi.yml
 - filename: toornament-tournaments-api-openapi.yml
   format: yaml
   label: Toornament Tournaments API
   slug: toornament-tournaments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-tournaments-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-tournaments-api-openapi.yml
 - filename: toornament-webhooks-api-openapi.yml
   format: yaml
   label: Toornament Webhooks API
   slug: toornament-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/toornament/openapi/toornament-webhooks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toorna
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tournaments/{tournament_id}/stages/{stage_id}/matches\n  method: get\n  operationId: listMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tournaments/{tournament_id}/matches/{match_id}\n  method: patch\n  operationId: reportMatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tournaments/{tournament_id}/stages/{stage_id}/ranking-items\n  method: get\n  operationId: listRankingItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /tournaments/{tournament_id}/registrations\n  method: get\n  operationId: listRegistrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disciplines\n  method: get\n  operationId: listDisciplines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/agentic-access/toornament-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/toornament/agentic-access/toornament-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - Esports

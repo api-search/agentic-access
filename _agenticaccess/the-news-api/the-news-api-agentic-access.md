@@ -8,37 +8,37 @@ api_specs:
   label: The News API All News API
   slug: the-news-api-all-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-all-news-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-all-news-api-openapi.yml
 - filename: the-news-api-articles-api-openapi.yml
   format: yaml
   label: The News API Articles API
   slug: the-news-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-articles-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-articles-api-openapi.yml
 - filename: the-news-api-headlines-api-openapi.yml
   format: yaml
   label: The News API Headlines API
   slug: the-news-api-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-headlines-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-headlines-api-openapi.yml
 - filename: the-news-api-similar-news-api-openapi.yml
   format: yaml
   label: The News API Similar News API
   slug: the-news-api-similar-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-similar-news-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-similar-news-api-openapi.yml
 - filename: the-news-api-sources-api-openapi.yml
   format: yaml
   label: The News API Sources API
   slug: the-news-api-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-sources-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-sources-api-openapi.yml
 - filename: the-news-api-top-stories-api-openapi.yml
   format: yaml
   label: The News API Top Stories API
   slug: the-news-api-top-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-top-stories-api-openapi.yml
+  url: https://artifacts.apis.io/the-news-api/openapi/the-news-api-top-stories-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/the-news-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /news/headlines\n  method: get\n  operationId: getHeadlines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/top\n  method: get\n  operationId: getTopStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/all\n  method: get\n  operationId: getAllNews\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/similar/{uuid}\n  method: get\n  operationId: getSimilarNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/uuid/{uuid}\n  method: get\n  operationId: getNewsByUUID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news/sources\n  method: get\n  operationId: getNewsSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/agentic-access/the-news-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/the-news-api/agentic-access/the-news-api-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Articles

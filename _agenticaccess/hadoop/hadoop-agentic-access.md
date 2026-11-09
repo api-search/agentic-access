@@ -9,25 +9,25 @@ api_specs:
   label: Apache Hadoop WebHDFS API
   slug: hadoop-webhdfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-webhdfs-api-openapi.yml
+  url: https://artifacts.apis.io/hadoop/openapi/hadoop-webhdfs-api-openapi.yml
 - filename: hadoop-yarn-applications-api-openapi.yml
   format: yaml
   label: Apache Hadoop YARN Applications API
   slug: hadoop-yarn-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-yarn-applications-api-openapi.yml
+  url: https://artifacts.apis.io/hadoop/openapi/hadoop-yarn-applications-api-openapi.yml
 - filename: hadoop-yarn-cluster-api-openapi.yml
   format: yaml
   label: Apache Hadoop YARN Cluster API
   slug: hadoop-yarn-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-yarn-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/hadoop/openapi/hadoop-yarn-cluster-api-openapi.yml
 - filename: hadoop-yarn-nodes-api-openapi.yml
   format: yaml
   label: Apache Hadoop YARN Nodes API
   slug: hadoop-yarn-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/openapi/hadoop-yarn-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/hadoop/openapi/hadoop-yarn-nodes-api-openapi.yml
 consequence_counts:
   read: 10
   write: 7
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hadoop
   \    audit: required\n- path: /ws/v1/cluster/apps/{appid}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/v1/cluster/apps/{appid}/state\n  method: put\n  operationId: updateAppState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/v1/cluster/apps/{appid}/queue\n  method: put\n  operationId: updateAppQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/v1/cluster/apps/{appid}/priority\n\
   \  method: put\n  operationId: updateAppPriority\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/v1/cluster/apps/{appid}/appattempts\n  method: get\n  operationId: listAppAttempts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/v1/cluster/nodes\n  method: get\n  operationId: listNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/v1/cluster/nodes/{nodeid}\n  method: get\n  operationId: getNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /ws/v1/cluster/appstatistics\n  method: get\n  operationId: getAppStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/agentic-access/hadoop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hadoop/agentic-access/hadoop-agentic-access.yml
 summary_line: 17 operations · 7 acting
 tags:
 - Big Data

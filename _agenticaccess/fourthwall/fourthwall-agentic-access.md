@@ -9,73 +9,73 @@ api_specs:
   label: Fourthwall Collections API
   slug: fourthwall-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-collections-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-collections-api-openapi.yml
 - filename: fourthwall-gifting-api-openapi.yml
   format: yaml
   label: Fourthwall Gifting API
   slug: fourthwall-gifting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-gifting-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-gifting-api-openapi.yml
 - filename: fourthwall-giveaways-api-openapi.yml
   format: yaml
   label: Fourthwall Giveaways API
   slug: fourthwall-giveaways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-giveaways-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-giveaways-api-openapi.yml
 - filename: fourthwall-memberships-api-openapi.yml
   format: yaml
   label: Fourthwall Memberships API
   slug: fourthwall-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-memberships-api-openapi.yml
 - filename: fourthwall-orders-api-openapi.yml
   format: yaml
   label: Fourthwall Orders API
   slug: fourthwall-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-orders-api-openapi.yml
 - filename: fourthwall-products-api-openapi.yml
   format: yaml
   label: Fourthwall Products API
   slug: fourthwall-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-products-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-products-api-openapi.yml
 - filename: fourthwall-promotions-api-openapi.yml
   format: yaml
   label: Fourthwall Promotions API
   slug: fourthwall-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-promotions-api-openapi.yml
 - filename: fourthwall-storefront-carts-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Carts API
   slug: fourthwall-storefront-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-carts-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-carts-api-openapi.yml
 - filename: fourthwall-storefront-collections-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Collections API
   slug: fourthwall-storefront-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-collections-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-collections-api-openapi.yml
 - filename: fourthwall-storefront-products-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Products API
   slug: fourthwall-storefront-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-products-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-products-api-openapi.yml
 - filename: fourthwall-storefront-shop-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Shop API
   slug: fourthwall-storefront-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-shop-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-shop-api-openapi.yml
 - filename: fourthwall-webhooks-api-openapi.yml
   format: yaml
   label: Fourthwall Webhooks API
   slug: fourthwall-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 25
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fourth
   \ consequence: read\n    subject: optional\n    scope:\n    - memberships_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /open-api/v1.0/webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhook_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /open-api/v1.0/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhook_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /open-api/v1.0/webhooks/{webhookConfigurationId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhook_read\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /open-api/v1.0/webhooks/{webhookConfigurationId}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhook_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /open-api/v1.0/webhooks/{webhookConfigurationId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - webhook_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /open-api/v1.0/webhook-events\n  method: get\n  operationId: getWebhookEvents\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - webhook_read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/agentic-access/fourthwall-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fourthwall/agentic-access/fourthwall-agentic-access.yml
 summary_line: 43 operations · 18 acting
 tags:
 - Creator Commerce

@@ -9,55 +9,55 @@ api_specs:
   label: Restate Cluster Health API
   slug: restate-cluster-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-cluster-health-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-cluster-health-api-openapi.yml
 - filename: restate-deployment-api-openapi.yml
   format: yaml
   label: Restate Deployment API
   slug: restate-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-deployment-api-openapi.yml
 - filename: restate-health-api-openapi.yml
   format: yaml
   label: Restate Health API
   slug: restate-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-health-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-health-api-openapi.yml
 - filename: restate-invocation-api-openapi.yml
   format: yaml
   label: Restate Invocation API
   slug: restate-invocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-invocation-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-invocation-api-openapi.yml
 - filename: restate-service-api-openapi.yml
   format: yaml
   label: Restate Service API
   slug: restate-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-service-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-service-api-openapi.yml
 - filename: restate-service-handler-api-openapi.yml
   format: yaml
   label: Restate Service Handler API
   slug: restate-service-handler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-service-handler-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-service-handler-api-openapi.yml
 - filename: restate-subscription-api-openapi.yml
   format: yaml
   label: Restate Subscription API
   slug: restate-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-subscription-api-openapi.yml
 - filename: restate-version-api-openapi.yml
   format: yaml
   label: Restate Version API
   slug: restate-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-version-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-version-api-openapi.yml
 - filename: restate-open-api-api-openapi.yml
   format: yaml
   label: Restate Open API
   slug: restate-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/openapi/restate-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/restate/openapi/restate-open-api-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 13
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/restat
   \ get\n  operationId: get_service\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{service}\n  method: patch\n  operationId: modify_service\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{service}/handlers\n  method: get\n  operationId: list_service_handlers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{service}/handlers/{handler}\n  method: get\n  operationId: get_service_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /services/{service}/openapi\n  method: get\n  operationId: get_service_openapi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{service}/state\n  method: post\n  operationId: modify_service_state\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions\n  method: get\n  operationId: list_subscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: create_subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscription}\n  method: get\n  operationId: get_subscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscription}\n  method: delete\n  operationId: delete_subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /version\n  method: get\n  operationId: version\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/agentic-access/restate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/restate/agentic-access/restate-agentic-access.yml
 summary_line: 25 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Durable Execution

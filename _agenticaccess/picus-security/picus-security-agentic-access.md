@@ -9,85 +9,85 @@ api_specs:
   label: Picus Security Activity Logs API
   slug: picus-security-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-activity-logs-api-openapi.yml
 - filename: picus-security-agents-api-openapi.yml
   format: yaml
   label: Picus Security Agents API
   slug: picus-security-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-agents-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-agents-api-openapi.yml
 - filename: picus-security-authentication-api-openapi.yml
   format: yaml
   label: Picus Security Authentication API
   slug: picus-security-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-authentication-api-openapi.yml
 - filename: picus-security-instances-api-openapi.yml
   format: yaml
   label: Picus Security Instances API
   slug: picus-security-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-instances-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-instances-api-openapi.yml
 - filename: picus-security-integrations-api-openapi.yml
   format: yaml
   label: Picus Security Integrations API
   slug: picus-security-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-integrations-api-openapi.yml
 - filename: picus-security-mitigation-api-openapi.yml
   format: yaml
   label: Picus Security Mitigation API
   slug: picus-security-mitigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-mitigation-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-mitigation-api-openapi.yml
 - filename: picus-security-simulation-latest-result-api-openapi.yml
   format: yaml
   label: Picus Security Simulation Latest Result API
   slug: picus-security-simulation-latest-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulation-latest-result-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-simulation-latest-result-api-openapi.yml
 - filename: picus-security-simulation-result-api-openapi.yml
   format: yaml
   label: Picus Security Simulation Result API
   slug: picus-security-simulation-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulation-result-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-simulation-result-api-openapi.yml
 - filename: picus-security-simulation-result-reports-api-openapi.yml
   format: yaml
   label: Picus Security Simulation Result Reports API
   slug: picus-security-simulation-result-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulation-result-reports-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-simulation-result-reports-api-openapi.yml
 - filename: picus-security-simulations-api-openapi.yml
   format: yaml
   label: Picus Security Simulations API
   slug: picus-security-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-simulations-api-openapi.yml
 - filename: picus-security-summary-api-openapi.yml
   format: yaml
   label: Picus Security Summary API
   slug: picus-security-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-summary-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-summary-api-openapi.yml
 - filename: picus-security-templates-api-openapi.yml
   format: yaml
   label: Picus Security Templates API
   slug: picus-security-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-templates-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-templates-api-openapi.yml
 - filename: picus-security-threats-api-openapi.yml
   format: yaml
   label: Picus Security Threats API
   slug: picus-security-threats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-threats-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-threats-api-openapi.yml
 - filename: picus-security-users-api-openapi.yml
   format: yaml
   label: Picus Security Users API
   slug: picus-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-users-api-openapi.yml
 consequence_counts:
   read: 60
   write: 24
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/picus-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/threat-library/threats/{ThreatId}\n  method: put\n  operationId: updateThreatParams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/threat-library/threats/{ThreatId}\n  method: delete\n  operationId: deleteThreatParams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/threat-library/threats/{ThreatId}/export\n  method: get\n  operationId: exportThreatParams\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/threat-library/actions\n  method: get\n  operationId: actionListParams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users\n  method: get\n  operationId: usersFilterParams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/invite\n  method: post\n  operationId: InviteUserParams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/roles\n  method: get\n  operationId: RolesFilterParams\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}\n  method: delete\n  operationId: deleteUserFilterParams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{userId}/role\n  method: put\n  operationId: assignRoleParams\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/agentic-access/picus-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/picus-security/agentic-access/picus-security-agentic-access.yml
 summary_line: 84 operations · 24 acting
 tags:
 - Cybersecurity

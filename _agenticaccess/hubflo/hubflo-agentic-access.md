@@ -9,169 +9,169 @@ api_specs:
   label: Hubflo Chat Room API
   slug: hubflo-chat-room-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-chat-room-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-chat-room-api-openapi.yml
 - filename: hubflo-comment-api-openapi.yml
   format: yaml
   label: Hubflo Comment API
   slug: hubflo-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-comment-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-comment-api-openapi.yml
 - filename: hubflo-company-api-openapi.yml
   format: yaml
   label: Hubflo Company API
   slug: hubflo-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-company-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-company-api-openapi.yml
 - filename: hubflo-contact-api-openapi.yml
   format: yaml
   label: Hubflo Contact API
   slug: hubflo-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-contact-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-contact-api-openapi.yml
 - filename: hubflo-custom-field-api-openapi.yml
   format: yaml
   label: Hubflo Custom Field API
   slug: hubflo-custom-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-custom-field-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-custom-field-api-openapi.yml
 - filename: hubflo-custom-field-value-api-openapi.yml
   format: yaml
   label: Hubflo Custom Field Value API
   slug: hubflo-custom-field-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-custom-field-value-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-custom-field-value-api-openapi.yml
 - filename: hubflo-folder-api-openapi.yml
   format: yaml
   label: Hubflo Folder API
   slug: hubflo-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-folder-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-folder-api-openapi.yml
 - filename: hubflo-form-api-openapi.yml
   format: yaml
   label: Hubflo Form API
   slug: hubflo-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-form-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-form-api-openapi.yml
 - filename: hubflo-invoice-api-openapi.yml
   format: yaml
   label: Hubflo Invoice API
   slug: hubflo-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-invoice-api-openapi.yml
 - filename: hubflo-invoicing-profile-api-openapi.yml
   format: yaml
   label: Hubflo Invoicing Profile API
   slug: hubflo-invoicing-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-invoicing-profile-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-invoicing-profile-api-openapi.yml
 - filename: hubflo-item-api-openapi.yml
   format: yaml
   label: Hubflo Item API
   slug: hubflo-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-item-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-item-api-openapi.yml
 - filename: hubflo-member-api-openapi.yml
   format: yaml
   label: Hubflo Member API
   slug: hubflo-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-member-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-member-api-openapi.yml
 - filename: hubflo-message-api-openapi.yml
   format: yaml
   label: Hubflo Message API
   slug: hubflo-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-message-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-message-api-openapi.yml
 - filename: hubflo-note-api-openapi.yml
   format: yaml
   label: Hubflo Note API
   slug: hubflo-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-note-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-note-api-openapi.yml
 - filename: hubflo-organizations-api-openapi.yml
   format: yaml
   label: Hubflo Organizations API
   slug: hubflo-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-organizations-api-openapi.yml
 - filename: hubflo-ping-api-openapi.yml
   format: yaml
   label: Hubflo Ping API
   slug: hubflo-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-ping-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-ping-api-openapi.yml
 - filename: hubflo-portals-api-openapi.yml
   format: yaml
   label: Hubflo Portals API
   slug: hubflo-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-portals-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-portals-api-openapi.yml
 - filename: hubflo-project-api-openapi.yml
   format: yaml
   label: Hubflo Project API
   slug: hubflo-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-project-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-project-api-openapi.yml
 - filename: hubflo-project-section-api-openapi.yml
   format: yaml
   label: Hubflo Project Section API
   slug: hubflo-project-section-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-project-section-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-project-section-api-openapi.yml
 - filename: hubflo-project-type-api-openapi.yml
   format: yaml
   label: Hubflo Project Type API
   slug: hubflo-project-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-project-type-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-project-type-api-openapi.yml
 - filename: hubflo-proposal-api-openapi.yml
   format: yaml
   label: Hubflo Proposal API
   slug: hubflo-proposal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-proposal-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-proposal-api-openapi.yml
 - filename: hubflo-smartdoc-api-openapi.yml
   format: yaml
   label: Hubflo Smartdoc API
   slug: hubflo-smartdoc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-smartdoc-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-smartdoc-api-openapi.yml
 - filename: hubflo-tag-api-openapi.yml
   format: yaml
   label: Hubflo Tag API
   slug: hubflo-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-tag-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-tag-api-openapi.yml
 - filename: hubflo-task-api-openapi.yml
   format: yaml
   label: Hubflo Task API
   slug: hubflo-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-task-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-task-api-openapi.yml
 - filename: hubflo-task-template-api-openapi.yml
   format: yaml
   label: Hubflo Task Template API
   slug: hubflo-task-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-task-template-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-task-template-api-openapi.yml
 - filename: hubflo-time-tracking-api-openapi.yml
   format: yaml
   label: Hubflo Time Tracking API
   slug: hubflo-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-time-tracking-api-openapi.yml
 - filename: hubflo-webhook-api-openapi.yml
   format: yaml
   label: Hubflo Webhook API
   slug: hubflo-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-webhook-api-openapi.yml
 - filename: hubflo-workspace-api-openapi.yml
   format: yaml
   label: Hubflo Workspace API
   slug: hubflo-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/openapi/hubflo-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/hubflo/openapi/hubflo-workspace-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 94
@@ -276,8 +276,8 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/hubflo
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/seal_templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/seal_templates/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/tags\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/tags\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/tags/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/tags/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/task_templates/{task_template_id}/subtask_templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/task_templates/{task_template_id}/subtask_templates\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/task_templates/{task_template_id}/subtask_templates/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/task_templates/{task_template_id}/subtask_templates/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /api/v2/task_templates/{task_template_id}/subtask_templates/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/task_templates/{task_template_id}/users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/task_templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/agentic-access/hubflo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/agentic-access/hubflo-agentic-access.yml
+  \ required\n- path: /api/v2/task_templates/{task_template_id}/subtask_templates/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/task_templates/{task_template_id}/users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/task_templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/hubflo/agentic-access/hubflo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/hubflo/agentic-access/hubflo-agentic-access.yml
 summary_line: 192 operations · 98 acting
 tags:
 - Client Portal

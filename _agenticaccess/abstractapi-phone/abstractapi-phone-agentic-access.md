@@ -8,7 +8,7 @@ api_specs:
   label: Abstract API Phone Validation Phone Validation API
   slug: abstractapi-phone-phone-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/openapi/abstractapi-phone-phone-validation-api-openapi.yml
+  url: https://artifacts.apis.io/abstractapi-phone/openapi/abstractapi-phone-phone-validation-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -34,7 +34,7 @@ source_filename: abstractapi-phone-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/abstractapi-phone-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1\n  by_action_class:\n    connected: 1\n  by_consequence:\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: validatePhone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/agentic-access/abstractapi-phone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/abstractapi-phone/agentic-access/abstractapi-phone-agentic-access.yml
 summary_line: 1 operation
 tags:
 - Number Verification

@@ -9,49 +9,49 @@ api_specs:
   label: Galileo Financial Technologies Config API
   slug: galileo-fs-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-config-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-config-api-openapi.yml
 - filename: galileo-fs-dispute-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Dispute API
   slug: galileo-fs-dispute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-dispute-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-dispute-api-openapi.yml
 - filename: galileo-fs-events-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Events API
   slug: galileo-fs-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-events-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-events-api-openapi.yml
 - filename: galileo-fs-externaltransactions-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies ExternalTransactions API
   slug: galileo-fs-externaltransactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-externaltransactions-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-externaltransactions-api-openapi.yml
 - filename: galileo-fs-loan-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Loan API
   slug: galileo-fs-loan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-loan-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-loan-api-openapi.yml
 - filename: galileo-fs-paymenthub-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies PaymentHub API
   slug: galileo-fs-paymenthub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-paymenthub-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-paymenthub-api-openapi.yml
 - filename: galileo-fs-program-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Program API
   slug: galileo-fs-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-program-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-program-api-openapi.yml
 - filename: galileo-fs-risk-api-openapi.yml
   format: yaml
   label: Galileo Financial Technologies Risk API
   slug: galileo-fs-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/openapi/galileo-fs-risk-api-openapi.yml
+  url: https://artifacts.apis.io/galileo-fs/openapi/galileo-fs-risk-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 6
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/galile
   \      - abnormal\n      - high-value\n    audit: required\n- path: /pro/program/accounts\n  method: post\n  operationId: createAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pro/program/accounts/get\n  method: post\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pro/program/cards\n  method: post\n  operationId: createCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pro/program/cards/get\n\
   \  method: post\n  operationId: getCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pro/program/transactions\n  method: post\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pro/program/authorization_controls\n  method: post\n  operationId: setAuthorizationControls\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /pro/risk/screen\n  method: post\n  operationId: screenRisk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/agentic-access/galileo-fs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/galileo-fs/agentic-access/galileo-fs-agentic-access.yml
 summary_line: 19 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Fintech

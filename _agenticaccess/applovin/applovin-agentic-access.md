@@ -9,67 +9,67 @@ api_specs:
   label: AppLovin Ad Units API
   slug: applovin-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-ad-units-api-openapi.yml
 - filename: applovin-asset-reporting-api-openapi.yml
   format: yaml
   label: AppLovin Asset Reporting API
   slug: applovin-asset-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-asset-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-asset-reporting-api-openapi.yml
 - filename: applovin-assets-api-openapi.yml
   format: yaml
   label: AppLovin Assets API
   slug: applovin-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-assets-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-assets-api-openapi.yml
 - filename: applovin-campaigns-api-openapi.yml
   format: yaml
   label: AppLovin Campaigns API
   slug: applovin-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-campaigns-api-openapi.yml
 - filename: applovin-conversion-events-api-openapi.yml
   format: yaml
   label: AppLovin Conversion Events API
   slug: applovin-conversion-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-conversion-events-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-conversion-events-api-openapi.yml
 - filename: applovin-creative-sets-api-openapi.yml
   format: yaml
   label: AppLovin Creative Sets API
   slug: applovin-creative-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-creative-sets-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-creative-sets-api-openapi.yml
 - filename: applovin-experiments-api-openapi.yml
   format: yaml
   label: AppLovin Experiments API
   slug: applovin-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-experiments-api-openapi.yml
 - filename: applovin-growth-reporting-api-openapi.yml
   format: yaml
   label: AppLovin Growth Reporting API
   slug: applovin-growth-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-growth-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-growth-reporting-api-openapi.yml
 - filename: applovin-revenue-reporting-api-openapi.yml
   format: yaml
   label: AppLovin Revenue Reporting API
   slug: applovin-revenue-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-revenue-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-revenue-reporting-api-openapi.yml
 - filename: applovin-test-devices-api-openapi.yml
   format: yaml
   label: AppLovin Test Devices API
   slug: applovin-test-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-test-devices-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-test-devices-api-openapi.yml
 - filename: applovin-waterfalls-api-openapi.yml
   format: yaml
   label: AppLovin Waterfalls API
   slug: applovin-waterfalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-waterfalls-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-waterfalls-api-openapi.yml
 consequence_counts:
   read: 16
   write: 14
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/applov
   \  method: post\n  operationId: upsertAdUnitExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ad_unit_experiment/{ad_unit_id}/{segment_id}\n  method: get\n  operationId: getAdUnitExperimentWaterfall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ad_unit_experiment/{ad_unit_id}/{segment_id}\n  method: post\n  operationId: updateAdUnitExperimentWaterfall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /test_devices\n\
   \  method: get\n  operationId: listTestDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /test_device\n  method: post\n  operationId: createTestDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /test_device/{test_device_id}\n  method: get\n  operationId: getTestDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /test_device/{test_device_id}\n  method: post\n  operationId: updateTestDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maxReport\n  method: get\n  operationId: getMaxRevenueReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/agentic-access/applovin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/applovin/agentic-access/applovin-agentic-access.yml
 summary_line: 30 operations · 14 acting
 tags:
 - Advertising

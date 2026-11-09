@@ -9,55 +9,55 @@ api_specs:
   label: Salt Edge Accounts API
   slug: salt-edge-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/salt-edge/openapi/salt-edge-accounts-api-openapi.yml
 - filename: salt-edge-connect-sessions-api-openapi.yml
   format: yaml
   label: Salt Edge Connect Sessions API
   slug: salt-edge-connect-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-connect-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/salt-edge/openapi/salt-edge-connect-sessions-api-openapi.yml
 - filename: salt-edge-connections-api-openapi.yml
   format: yaml
   label: Salt Edge Connections API
   slug: salt-edge-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-connections-api-openapi.yml
+  url: https://artifacts.apis.io/salt-edge/openapi/salt-edge-connections-api-openapi.yml
 - filename: salt-edge-consents-api-openapi.yml
   format: yaml
   label: Salt Edge Consents API
   slug: salt-edge-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-consents-api-openapi.yml
+  url: https://artifacts.apis.io/salt-edge/openapi/salt-edge-consents-api-openapi.yml
 - filename: salt-edge-countries-api-openapi.yml
   format: yaml
   label: Salt Edge Countries API
   slug: salt-edge-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-countries-api-openapi.yml
+  url: https://artifacts.apis.io/salt-edge/openapi/salt-edge-countries-api-openapi.yml
 - filename: salt-edge-customers-api-openapi.yml
   format: yaml
   label: Salt Edge Customers API
   slug: salt-edge-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-customers-api-openapi.yml
+  url: https://artifacts.apis.io/salt-edge/openapi/salt-edge-customers-api-openapi.yml
 - filename: salt-edge-holder-info-api-openapi.yml
   format: yaml
   label: Salt Edge Holder Info API
   slug: salt-edge-holder-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-holder-info-api-openapi.yml
+  url: https://artifacts.apis.io/salt-edge/openapi/salt-edge-holder-info-api-openapi.yml
 - filename: salt-edge-providers-api-openapi.yml
   format: yaml
   label: Salt Edge Providers API
   slug: salt-edge-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-providers-api-openapi.yml
+  url: https://artifacts.apis.io/salt-edge/openapi/salt-edge-providers-api-openapi.yml
 - filename: salt-edge-transactions-api-openapi.yml
   format: yaml
   label: Salt Edge Transactions API
   slug: salt-edge-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/openapi/salt-edge-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/salt-edge/openapi/salt-edge-transactions-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/salt-e
   \ method: put\n  operationId: reconnectConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connections/{id}/refresh\n  method: put\n  operationId: refreshConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers\n  method: get\n  operationId: listProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers/{id}\n  method: get\n  operationId: showProvider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consents\n  method: get\n  operationId: listConsents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consents/{id}/revoke\n  method: put\n\
   \  operationId: revokeConsent\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /holder_info\n  method: get\n  operationId: getHolderInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/agentic-access/salt-edge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/salt-edge/agentic-access/salt-edge-agentic-access.yml
 summary_line: 18 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Fintech

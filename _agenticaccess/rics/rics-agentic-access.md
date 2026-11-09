@@ -9,43 +9,43 @@ api_specs:
   label: RICS (Royal Institution of Chartered Surveyors) Azure Storage API
   slug: rics-azurestorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-azurestorage-api-openapi.yml
+  url: https://artifacts.apis.io/rics/openapi/rics-azurestorage-api-openapi.yml
 - filename: rics-olamerchantpost-api-openapi.yml
   format: yaml
   label: RICS (Royal Institution of Chartered Surveyors) Ola Merchant Post API
   slug: rics-olamerchantpost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-olamerchantpost-api-openapi.yml
+  url: https://artifacts.apis.io/rics/openapi/rics-olamerchantpost-api-openapi.yml
 - filename: rics-payment-api-openapi.yml
   format: yaml
   label: RICS (Royal Institution of Chartered Surveyors) Payment API
   slug: rics-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-payment-api-openapi.yml
+  url: https://artifacts.apis.io/rics/openapi/rics-payment-api-openapi.yml
 - filename: rics-profile-api-openapi.yml
   format: yaml
   label: RICS (Royal Institution of Chartered Surveyors) Profile API
   slug: rics-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-profile-api-openapi.yml
+  url: https://artifacts.apis.io/rics/openapi/rics-profile-api-openapi.yml
 - filename: rics-regulation-api-openapi.yml
   format: yaml
   label: RICS (Royal Institution of Chartered Surveyors) Regulation API
   slug: rics-regulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-regulation-api-openapi.yml
+  url: https://artifacts.apis.io/rics/openapi/rics-regulation-api-openapi.yml
 - filename: rics-surveywriter-api-openapi.yml
   format: yaml
   label: RICS (Royal Institution of Chartered Surveyors) Survey Writer API
   slug: rics-surveywriter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-surveywriter-api-openapi.yml
+  url: https://artifacts.apis.io/rics/openapi/rics-surveywriter-api-openapi.yml
 - filename: rics-token-api-openapi.yml
   format: yaml
   label: RICS (Royal Institution of Chartered Surveyors) Token API
   slug: rics-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-token-api-openapi.yml
+  url: https://artifacts.apis.io/rics/openapi/rics-token-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/rics-d
   \ 3600\n    audit: none\n- path: /api/AzureStorage/DeleteLogData\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/OlaMerchantPost\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Payment/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Payment/{id}/reference/{reference}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Payment/update\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Profile/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Regulation/{schemeNumber}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Regulation/Subscriptions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Regulation/PaymentInformation\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/SurveyWriter/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/agentic-access/rics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rics/agentic-access/rics-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - Real Estate

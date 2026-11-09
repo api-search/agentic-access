@@ -9,49 +9,49 @@ api_specs:
   label: Salsa Companies API
   slug: salsa-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-companies-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-companies-api-openapi.yml
 - filename: salsa-onboarding-sessions-api-openapi.yml
   format: yaml
   label: Salsa Onboarding & Sessions API
   slug: salsa-onboarding-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-onboarding-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-onboarding-sessions-api-openapi.yml
 - filename: salsa-pay-schedules-api-openapi.yml
   format: yaml
   label: Salsa Pay Schedules API
   slug: salsa-pay-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-pay-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-pay-schedules-api-openapi.yml
 - filename: salsa-payments-api-openapi.yml
   format: yaml
   label: Salsa Payments API
   slug: salsa-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-payments-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-payments-api-openapi.yml
 - filename: salsa-payrolls-api-openapi.yml
   format: yaml
   label: Salsa Payrolls API
   slug: salsa-payrolls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-payrolls-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-payrolls-api-openapi.yml
 - filename: salsa-tax-api-openapi.yml
   format: yaml
   label: Salsa Tax API
   slug: salsa-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-tax-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-tax-api-openapi.yml
 - filename: salsa-webhooks-api-openapi.yml
   format: yaml
   label: Salsa Webhooks API
   slug: salsa-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-webhooks-api-openapi.yml
 - filename: salsa-workers-api-openapi.yml
   format: yaml
   label: Salsa Workers API
   slug: salsa-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/openapi/salsa-workers-api-openapi.yml
+  url: https://artifacts.apis.io/salsa/openapi/salsa-workers-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 17
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/salsa-
   \  method: post\n  operationId: mockOnboardEmployer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employers/{employerId}/workers/mock-onboard\n  method: post\n  operationId: mockOnboardWorker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employers/{employerId}/taxes-setup\n  method: get\n  operationId: getEmployerTaxSetup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-endpoints\n  method: post\n  operationId:\
   \ createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-endpoints\n  method: get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-endpoints/{webhookEndpointId}\n  method: get\n  operationId: getWebhookEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-endpoints/{webhookEndpointId}\n  method: patch\n  operationId: updateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/agentic-access/salsa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/salsa/agentic-access/salsa-agentic-access.yml
 summary_line: 42 operations · 25 acting
 tags:
 - Payroll

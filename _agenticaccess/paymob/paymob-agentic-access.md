@@ -9,61 +9,61 @@ api_specs:
   label: Paymob Accounts API
   slug: paymob-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-accounts-api-openapi.yml
 - filename: paymob-authentication-api-openapi.yml
   format: yaml
   label: Paymob Authentication API
   slug: paymob-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-authentication-api-openapi.yml
 - filename: paymob-capture-api-openapi.yml
   format: yaml
   label: Paymob Capture API
   slug: paymob-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-capture-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-capture-api-openapi.yml
 - filename: paymob-disbursement-api-openapi.yml
   format: yaml
   label: Paymob Disbursement API
   slug: paymob-disbursement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-disbursement-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-disbursement-api-openapi.yml
 - filename: paymob-orders-api-openapi.yml
   format: yaml
   label: Paymob Orders API
   slug: paymob-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-orders-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-orders-api-openapi.yml
 - filename: paymob-payment-keys-api-openapi.yml
   format: yaml
   label: Paymob Payment Keys API
   slug: paymob-payment-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-payment-keys-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-payment-keys-api-openapi.yml
 - filename: paymob-payment-links-api-openapi.yml
   format: yaml
   label: Paymob Payment Links API
   slug: paymob-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-payment-links-api-openapi.yml
 - filename: paymob-payments-api-openapi.yml
   format: yaml
   label: Paymob Payments API
   slug: paymob-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-payments-api-openapi.yml
 - filename: paymob-transactions-api-openapi.yml
   format: yaml
   label: Paymob Transactions API
   slug: paymob-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-transactions-api-openapi.yml
 - filename: paymob-top-up-api-openapi.yml
   format: yaml
   label: Paymob Top Up API
   slug: paymob-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/openapi/paymob-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/paymob/openapi/paymob-top-up-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 2
@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/paymob
   \ createPaymentLink\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/ecommerce/payment-links/cancel\n  method: post\n  operationId: cancelPaymentLink\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/acceptance/payments/pay\n  method: post\n  operationId: payWithPaymentMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /disburse/api/v1/topup/request/\n  method: post\n  operationId: topupRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /disburse/api/v1/topup/inquire/\n  method: post\n  operationId: topupInquiry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/acceptance/transactions/{transaction_id}\n  method: get\n\
   \  operationId: retrieveTransactionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ecommerce/orders/transaction_inquiry\n  method: post\n  operationId: transactionInquiryByOrderId\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/agentic-access/paymob-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paymob/agentic-access/paymob-agentic-access.yml
 summary_line: 20 operations · 18 acting
 tags:
 - Payments

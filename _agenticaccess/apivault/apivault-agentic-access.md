@@ -9,73 +9,73 @@ api_specs:
   label: Apivault All API
   slug: apivault-all-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-all-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-all-api-openapi.yml
 - filename: apivault-auth-api-openapi.yml
   format: yaml
   label: Apivault Auth API
   slug: apivault-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-auth-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-auth-api-openapi.yml
 - filename: apivault-categories-api-openapi.yml
   format: yaml
   label: Apivault Categories API
   slug: apivault-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-categories-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-categories-api-openapi.yml
 - filename: apivault-category-api-openapi.yml
   format: yaml
   label: Apivault Category API
   slug: apivault-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-category-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-category-api-openapi.yml
 - filename: apivault-count-api-openapi.yml
   format: yaml
   label: Apivault Count API
   slug: apivault-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-count-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-count-api-openapi.yml
 - filename: apivault-create-api-openapi.yml
   format: yaml
   label: Apivault Create API
   slug: apivault-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-create-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-create-api-openapi.yml
 - filename: apivault-detail-api-openapi.yml
   format: yaml
   label: Apivault Detail API
   slug: apivault-detail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-detail-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-detail-api-openapi.yml
 - filename: apivault-interaction-api-openapi.yml
   format: yaml
   label: Apivault Interaction API
   slug: apivault-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-interaction-api-openapi.yml
 - filename: apivault-my-api-api-openapi.yml
   format: yaml
   label: Apivault My API
   slug: apivault-my-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-my-api-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-my-api-api-openapi.yml
 - filename: apivault-pending-api-openapi.yml
   format: yaml
   label: Apivault Pending API
   slug: apivault-pending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-pending-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-pending-api-openapi.yml
 - filename: apivault-random-api-openapi.yml
   format: yaml
   label: Apivault Random API
   slug: apivault-random-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-random-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-random-api-openapi.yml
 - filename: apivault-search-api-openapi.yml
   format: yaml
   label: Apivault Search API
   slug: apivault-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/openapi/apivault-search-api-openapi.yml
+  url: https://artifacts.apis.io/apivault/openapi/apivault-search-api-openapi.yml
 consequence_counts:
   read: 11
   write: 7
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: generated\nsource: openapi/apivau
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/detail/{id}\n  method: get\n  operationId: detail_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/interaction/feedback\n  method: post\n  operationId: interaction_feedback_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/interaction/like/{api_id}\n  method: post\n  operationId: interaction_like_create\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/interaction/like/{api_id}\n  method: delete\n  operationId: interaction_like_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/my_api\n  method: get\n  operationId: my_api_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/pending/my_api\n  method: get\n  operationId: pending_my_api_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/random\n  method: get\n  operationId: random_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search\n  method: get\n  operationId: search_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/agentic-access/apivault-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apivault/agentic-access/apivault-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - API Catalog

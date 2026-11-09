@@ -9,55 +9,55 @@ api_specs:
   label: Smithery Connect API
   slug: smithery-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-connect-api-openapi.yml
+  url: https://artifacts.apis.io/smithery/openapi/smithery-connect-api-openapi.yml
 - filename: smithery-connect-mcp-api-openapi.yml
   format: yaml
   label: Smithery connect.mcp API
   slug: smithery-connect-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-connect-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/smithery/openapi/smithery-connect-mcp-api-openapi.yml
 - filename: smithery-domains-api-openapi.yml
   format: yaml
   label: Smithery Domains API
   slug: smithery-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-domains-api-openapi.yml
+  url: https://artifacts.apis.io/smithery/openapi/smithery-domains-api-openapi.yml
 - filename: smithery-health-api-openapi.yml
   format: yaml
   label: Smithery Health API
   slug: smithery-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-health-api-openapi.yml
+  url: https://artifacts.apis.io/smithery/openapi/smithery-health-api-openapi.yml
 - filename: smithery-namespaces-api-openapi.yml
   format: yaml
   label: Smithery Namespaces API
   slug: smithery-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/smithery/openapi/smithery-namespaces-api-openapi.yml
 - filename: smithery-organizations-api-openapi.yml
   format: yaml
   label: Smithery Organizations API
   slug: smithery-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/smithery/openapi/smithery-organizations-api-openapi.yml
 - filename: smithery-servers-api-openapi.yml
   format: yaml
   label: Smithery Servers API
   slug: smithery-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-servers-api-openapi.yml
+  url: https://artifacts.apis.io/smithery/openapi/smithery-servers-api-openapi.yml
 - filename: smithery-skills-api-openapi.yml
   format: yaml
   label: Smithery Skills API
   slug: smithery-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-skills-api-openapi.yml
+  url: https://artifacts.apis.io/smithery/openapi/smithery-skills-api-openapi.yml
 - filename: smithery-tokens-api-openapi.yml
   format: yaml
   label: Smithery Tokens API
   slug: smithery-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/openapi/smithery-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/smithery/openapi/smithery-tokens-api-openapi.yml
 consequence_counts:
   read: 47
   safety-critical: 12
@@ -180,8 +180,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smithe
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connect/{namespace}/.subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSmithery.run:namespace.subscriptions:subscriptionId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connect/{namespace}/{connectionId}/.triggers\n  method: get\n  operationId: getSmithery.run:namespace:connectionId.triggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connect/{namespace}/{connectionId}/.triggers/{triggerName}\n  method:\
   \ get\n  operationId: getSmithery.run:namespace:connectionId.triggers:triggerName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connect/{namespace}/{connectionId}/.triggers/{triggerName}\n  method: post\n  operationId: postSmithery.run:namespace:connectionId.triggers:triggerName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connect/{namespace}/{connectionId}/.triggers/{triggerName}/{triggerId}\n  method: get\n  operationId: getSmithery.run:namespace:connectionId.triggers:triggerName:triggerId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /connect/{namespace}/{connectionId}/.triggers/{triggerName}/{triggerId}\n  method: delete\n  operationId: deleteSmithery.run:namespace:connectionId.triggers:triggerName:triggerId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connect/{namespace}/{connectionId}/.subscriptions\n  method: get\n  operationId: getSmithery.run:namespace:connectionId.subscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connect/{namespace}/{connectionId}/.subscriptions\n  method: post\n  operationId: postSmithery.run:namespace:connectionId.subscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connect/{namespace}/{connectionId}/.subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSmithery.run:namespace:connectionId.subscriptions:subscriptionId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/agentic-access/smithery-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/agentic-access/smithery-agentic-access.yml
+  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connect/{namespace}/{connectionId}/.subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSmithery.run:namespace:connectionId.subscriptions:subscriptionId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/smithery/agentic-access/smithery-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/smithery/agentic-access/smithery-agentic-access.yml
 summary_line: 107 operations · 60 acting · 12 human-in-the-loop
 tags:
 - Artificial Intelligence

@@ -9,31 +9,31 @@ api_specs:
   label: At-Bay Documents API
   slug: at-bay-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-documents-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-documents-api-openapi.yml
 - filename: at-bay-health-api-openapi.yml
   format: yaml
   label: At-Bay Health API
   slug: at-bay-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-health-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-health-api-openapi.yml
 - filename: at-bay-policies-api-openapi.yml
   format: yaml
   label: At-Bay Policies API
   slug: at-bay-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-policies-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-policies-api-openapi.yml
 - filename: at-bay-quotes-api-openapi.yml
   format: yaml
   label: At-Bay Quotes API
   slug: at-bay-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-quotes-api-openapi.yml
 - filename: at-bay-webhooks-api-openapi.yml
   format: yaml
   label: At-Bay Webhooks API
   slug: at-bay-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/openapi/at-bay-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/at-bay/openapi/at-bay-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/at-bay
   \ uploadDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policies/{policy_id}/pause-auto-renewal\n  method: post\n  operationId: pauseAutoRenewal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: registerWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: unregisterWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/secret\n  method: put\n  operationId: setWebhookSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/agentic-access/at-bay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/at-bay/agentic-access/at-bay-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Insurance

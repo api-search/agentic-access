@@ -9,73 +9,73 @@ api_specs:
   label: Carnegie Mellon University Articles API
   slug: carnegie-mellon-university-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-articles-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-articles-api-openapi.yml
 - filename: carnegie-mellon-university-covidcast-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Covidcast API
   slug: carnegie-mellon-university-covidcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-covidcast-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-covidcast-api-openapi.yml
 - filename: carnegie-mellon-university-feeds-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Feeds API
   slug: carnegie-mellon-university-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-feeds-api-openapi.yml
 - filename: carnegie-mellon-university-fluview-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Fluview API
   slug: carnegie-mellon-university-fluview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-fluview-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-fluview-api-openapi.yml
 - filename: carnegie-mellon-university-forecasts-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Forecasts API
   slug: carnegie-mellon-university-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-forecasts-api-openapi.yml
 - filename: carnegie-mellon-university-issues-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Issues API
   slug: carnegie-mellon-university-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-issues-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-issues-api-openapi.yml
 - filename: carnegie-mellon-university-journals-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Journals API
   slug: carnegie-mellon-university-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-journals-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-journals-api-openapi.yml
 - filename: carnegie-mellon-university-meta-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Meta API
   slug: carnegie-mellon-university-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-meta-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-meta-api-openapi.yml
 - filename: carnegie-mellon-university-notes-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Notes API
   slug: carnegie-mellon-university-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-notes-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-notes-api-openapi.yml
 - filename: carnegie-mellon-university-oai-pmh-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Oai Pmh API
   slug: carnegie-mellon-university-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-oai-pmh-api-openapi.yml
 - filename: carnegie-mellon-university-preprints-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Preprints API
   slug: carnegie-mellon-university-preprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-preprints-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-preprints-api-openapi.yml
 - filename: carnegie-mellon-university-vendors-api-openapi.yml
   format: yaml
   label: Carnegie Mellon University Vendors API
   slug: carnegie-mellon-university-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/carnegie-mellon-university/openapi/carnegie-mellon-university-vendors-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 0
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: derived\nsource: openapi/carnegie
   \ /api/journals/\n  method: get\n  operationId: listJournals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: none\n    token: none\n    human-in-the-loop: false\n    rationale: Public, anonymous, read-only GET on an institution-operated host.\n- aid: carnegie-mellon-university:library-publishing\n  server: https://lps.library.cmu.edu\n  path: /api/issues/\n  method: get\n  operationId: listIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: none\n    token: none\n    human-in-the-loop: false\n    rationale: Public, anonymous, read-only GET on an institution-operated host.\n- aid: carnegie-mellon-university:library-publishing\n  server: https://lps.library.cmu.edu\n  path: /api/articles/\n  method: get\n  operationId: listArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: none\n    token: none\n    human-in-the-loop: false\n    rationale: Public, anonymous, read-only\
   \ GET on an institution-operated host.\n- aid: carnegie-mellon-university:library-publishing\n  server: https://lps.library.cmu.edu\n  path: /api/preprints/\n  method: get\n  operationId: listPreprints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: none\n    token: none\n    human-in-the-loop: false\n    rationale: Public, anonymous, read-only GET on an institution-operated host.\n- aid: carnegie-mellon-university:library-publishing\n  server: https://lps.library.cmu.edu\n  path: /api/keywords/\n  method: get\n  operationId: listKeywords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: none\n    token: none\n    human-in-the-loop: false\n    rationale: Public, anonymous, read-only GET on an institution-operated host.\n- aid: carnegie-mellon-university:library-publishing\n  server: https://lps.library.cmu.edu\n  path: /api/oai/\n  method: get\n  operationId: oaiPmh\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: none\n    token: none\n    human-in-the-loop: false\n    rationale: Public, anonymous, read-only GET on an institution-operated host.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/agentic-access/carnegie-mellon-university-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/carnegie-mellon-university/agentic-access/carnegie-mellon-university-agentic-access.yml
 summary_line: 16 operations
 tags:
 - University

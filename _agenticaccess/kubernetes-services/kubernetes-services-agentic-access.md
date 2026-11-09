@@ -9,73 +9,73 @@ api_specs:
   label: Kubernetes Services EndpointSlices API
   slug: kubernetes-services-endpointslices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-endpointslices-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-endpointslices-api-openapi.yml
 - filename: kubernetes-services-gateway-api-openapi.yml
   format: yaml
   label: Kubernetes Services Gateway API
   slug: kubernetes-services-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-gateway-api-openapi.yml
 - filename: kubernetes-services-gatewayclass-api-openapi.yml
   format: yaml
   label: Kubernetes Services GatewayClass API
   slug: kubernetes-services-gatewayclass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-gatewayclass-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-gatewayclass-api-openapi.yml
 - filename: kubernetes-services-grpcroute-api-openapi.yml
   format: yaml
   label: Kubernetes Services GRPCRoute API
   slug: kubernetes-services-grpcroute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-grpcroute-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-grpcroute-api-openapi.yml
 - filename: kubernetes-services-httproute-api-openapi.yml
   format: yaml
   label: Kubernetes Services HTTPRoute API
   slug: kubernetes-services-httproute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-httproute-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-httproute-api-openapi.yml
 - filename: kubernetes-services-ingress-api-openapi.yml
   format: yaml
   label: Kubernetes Services Ingress API
   slug: kubernetes-services-ingress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-ingress-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-ingress-api-openapi.yml
 - filename: kubernetes-services-ingressclass-api-openapi.yml
   format: yaml
   label: Kubernetes Services IngressClass API
   slug: kubernetes-services-ingressclass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-ingressclass-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-ingressclass-api-openapi.yml
 - filename: kubernetes-services-ingressstatus-api-openapi.yml
   format: yaml
   label: Kubernetes Services IngressStatus API
   slug: kubernetes-services-ingressstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-ingressstatus-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-ingressstatus-api-openapi.yml
 - filename: kubernetes-services-namespaces-api-openapi.yml
   format: yaml
   label: Kubernetes Services Namespaces API
   slug: kubernetes-services-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-namespaces-api-openapi.yml
 - filename: kubernetes-services-services-api-openapi.yml
   format: yaml
   label: Kubernetes Services API
   slug: kubernetes-services-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-services-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-services-api-openapi.yml
 - filename: kubernetes-services-network-policy-api-openapi.yml
   format: yaml
   label: Kubernetes Services Network Policy API
   slug: kubernetes-services-network-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-network-policy-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-network-policy-api-openapi.yml
 - filename: kubernetes-services-service-status-api-openapi.yml
   format: yaml
   label: Kubernetes Services Service Status API
   slug: kubernetes-services-service-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/openapi/kubernetes-services-service-status-api-openapi.yml
+  url: https://artifacts.apis.io/kubernetes-services/openapi/kubernetes-services-service-status-api-openapi.yml
 consequence_counts:
   read: 23
   write: 29
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kubern
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/namespaces/{namespace}/services/{name}\n  method: get\n  operationId: getNamespacedService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/{namespace}/services/{name}\n  method: put\n  operationId: replaceNamespacedService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/namespaces/{namespace}/services/{name}\n  method: patch\n  operationId: patchNamespacedService\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/namespaces/{namespace}/services/{name}\n  method: delete\n  operationId: deleteNamespacedService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/namespaces/{namespace}/services/{name}/status\n  method: get\n  operationId: getNamespacedServiceStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/{namespace}/services/{name}/status\n  method: put\n  operationId:\
   \ replaceNamespacedServiceStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/services\n  method: get\n  operationId: listServicesAllNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/agentic-access/kubernetes-services-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kubernetes-services/agentic-access/kubernetes-services-agentic-access.yml
 summary_line: 52 operations · 29 acting
 tags:
 - Container Orchestration

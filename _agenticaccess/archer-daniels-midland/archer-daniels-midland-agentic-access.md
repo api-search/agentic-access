@@ -8,19 +8,19 @@ api_specs:
   label: Archer Daniels Midland Commodities API
   slug: archer-daniels-midland-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-commodities-api-openapi.yml
+  url: https://artifacts.apis.io/archer-daniels-midland/openapi/archer-daniels-midland-commodities-api-openapi.yml
 - filename: archer-daniels-midland-locations-api-openapi.yml
   format: yaml
   label: Archer Daniels Midland Locations API
   slug: archer-daniels-midland-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-locations-api-openapi.yml
+  url: https://artifacts.apis.io/archer-daniels-midland/openapi/archer-daniels-midland-locations-api-openapi.yml
 - filename: archer-daniels-midland-products-api-openapi.yml
   format: yaml
   label: Archer Daniels Midland Products API
   slug: archer-daniels-midland-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-products-api-openapi.yml
+  url: https://artifacts.apis.io/archer-daniels-midland/openapi/archer-daniels-midland-products-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/archer-daniels-midland-commodity-data-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /commodities\n  method: get\n  operationId: listCommodities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commodities/{commodityId}\n  method: get\n  operationId: getCommodity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method:\
   \ get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/agentic-access/archer-daniels-midland-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/archer-daniels-midland/agentic-access/archer-daniels-midland-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Agriculture

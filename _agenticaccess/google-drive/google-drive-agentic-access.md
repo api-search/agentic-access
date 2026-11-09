@@ -9,7 +9,85 @@ api_specs:
   label: Google Drive Files API
   slug: google-drive-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/openapi/google-drive-files-api-openapi.yml
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-files-api-openapi.yml
+- filename: google-drive-about-api-openapi.yml
+  format: yaml
+  label: Google Drive About API
+  slug: google-drive-about-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-about-api-openapi.yml
+- filename: google-drive-accessproposals-api-openapi.yml
+  format: yaml
+  label: Google Drive Accessproposals API
+  slug: google-drive-accessproposals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-accessproposals-api-openapi.yml
+- filename: google-drive-approvals-api-openapi.yml
+  format: yaml
+  label: Google Drive Approvals API
+  slug: google-drive-approvals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-approvals-api-openapi.yml
+- filename: google-drive-apps-api-openapi.yml
+  format: yaml
+  label: Google Drive Apps API
+  slug: google-drive-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-apps-api-openapi.yml
+- filename: google-drive-changes-api-openapi.yml
+  format: yaml
+  label: Google Drive Changes API
+  slug: google-drive-changes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-changes-api-openapi.yml
+- filename: google-drive-channels-api-openapi.yml
+  format: yaml
+  label: Google Drive Channels API
+  slug: google-drive-channels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-channels-api-openapi.yml
+- filename: google-drive-comments-api-openapi.yml
+  format: yaml
+  label: Google Drive Comments API
+  slug: google-drive-comments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-comments-api-openapi.yml
+- filename: google-drive-drives-api-openapi.yml
+  format: yaml
+  label: Google Drive Drives API
+  slug: google-drive-drives-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-drives-api-openapi.yml
+- filename: google-drive-operations-api-openapi.yml
+  format: yaml
+  label: Google Drive Operations API
+  slug: google-drive-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-operations-api-openapi.yml
+- filename: google-drive-permissions-api-openapi.yml
+  format: yaml
+  label: Google Drive Permissions API
+  slug: google-drive-permissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-permissions-api-openapi.yml
+- filename: google-drive-replies-api-openapi.yml
+  format: yaml
+  label: Google Drive Replies API
+  slug: google-drive-replies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-replies-api-openapi.yml
+- filename: google-drive-revisions-api-openapi.yml
+  format: yaml
+  label: Google Drive Revisions API
+  slug: google-drive-revisions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-revisions-api-openapi.yml
+- filename: google-drive-teamdrives-api-openapi.yml
+  format: yaml
+  label: Google Drive Teamdrives API
+  slug: google-drive-teamdrives-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-teamdrives-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -38,7 +116,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google-drive-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 3\n    acting: 5\n  by_consequence:\n    read: 3\n    write: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /files\n  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files\n  method: post\n  operationId: createFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /files/{fileId}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{fileId}\n  method: patch\n  operationId: updateFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{fileId}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{fileId}/copy\n  method:\
   \ post\n  operationId: copyFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{fileId}/permissions\n  method: get\n  operationId: listPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{fileId}/permissions\n  method: post\n  operationId: createPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/agentic-access/google-drive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-drive/agentic-access/google-drive-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Cloud Storage

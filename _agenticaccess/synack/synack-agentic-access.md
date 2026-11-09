@@ -9,133 +9,133 @@ api_specs:
   label: Synack Assessment Groups API
   slug: synack-assessment-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessment-groups-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assessment-groups-api-openapi.yml
 - filename: synack-assessment-lifecycle-api-openapi.yml
   format: yaml
   label: Synack Assessment Lifecycle API
   slug: synack-assessment-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessment-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assessment-lifecycle-api-openapi.yml
 - filename: synack-assessments-api-openapi.yml
   format: yaml
   label: Synack Assessments API
   slug: synack-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assessments-api-openapi.yml
 - filename: synack-asset-relationships-api-openapi.yml
   format: yaml
   label: Synack Asset Relationships API
   slug: synack-asset-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-asset-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-asset-relationships-api-openapi.yml
 - filename: synack-assetproviders-api-openapi.yml
   format: yaml
   label: Synack Assetproviders API
   slug: synack-assetproviders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assetproviders-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assetproviders-api-openapi.yml
 - filename: synack-assets-api-openapi.yml
   format: yaml
   label: Synack Assets API
   slug: synack-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assets-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assets-api-openapi.yml
 - filename: synack-comments-api-openapi.yml
   format: yaml
   label: Synack Comments API
   slug: synack-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-comments-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-comments-api-openapi.yml
 - filename: synack-credentials-api-openapi.yml
   format: yaml
   label: Synack Credentials API
   slug: synack-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-credentials-api-openapi.yml
 - filename: synack-external-relationships-api-openapi.yml
   format: yaml
   label: Synack External Relationships API
   slug: synack-external-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-external-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-external-relationships-api-openapi.yml
 - filename: synack-health-api-openapi.yml
   format: yaml
   label: Synack Health API
   slug: synack-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-health-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-health-api-openapi.yml
 - filename: synack-hosts-api-openapi.yml
   format: yaml
   label: Synack Hosts API
   slug: synack-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-hosts-api-openapi.yml
 - filename: synack-missions-api-openapi.yml
   format: yaml
   label: Synack Missions API
   slug: synack-missions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-missions-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-missions-api-openapi.yml
 - filename: synack-patch-verifications-api-openapi.yml
   format: yaml
   label: Synack Patch Verifications API
   slug: synack-patch-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-patch-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-patch-verifications-api-openapi.yml
 - filename: synack-seeds-api-openapi.yml
   format: yaml
   label: Synack Seeds API
   slug: synack-seeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-seeds-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-seeds-api-openapi.yml
 - filename: synack-suspected-vulnerabilities-api-openapi.yml
   format: yaml
   label: Synack Suspected Vulnerabilities API
   slug: synack-suspected-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-suspected-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-suspected-vulnerabilities-api-openapi.yml
 - filename: synack-tags-api-openapi.yml
   format: yaml
   label: Synack Tags API
   slug: synack-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-tags-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-tags-api-openapi.yml
 - filename: synack-tests-api-openapi.yml
   format: yaml
   label: Synack Tests API
   slug: synack-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-tests-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-tests-api-openapi.yml
 - filename: synack-users-api-openapi.yml
   format: yaml
   label: Synack Users API
   slug: synack-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-users-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-users-api-openapi.yml
 - filename: synack-vulnerabilities-api-openapi.yml
   format: yaml
   label: Synack Vulnerabilities API
   slug: synack-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-vulnerabilities-api-openapi.yml
 - filename: synack-vulnerability-statuses-api-openapi.yml
   format: yaml
   label: Synack Vulnerability Statuses API
   slug: synack-vulnerability-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-vulnerability-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-vulnerability-statuses-api-openapi.yml
 - filename: synack-mobile-apps-api-openapi.yml
   format: yaml
   label: Synack Mobile Apps API
   slug: synack-mobile-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-mobile-apps-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-mobile-apps-api-openapi.yml
 - filename: synack-web-apps-api-openapi.yml
   format: yaml
   label: Synack Web Apps API
   slug: synack-web-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-web-apps-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-web-apps-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 68
@@ -235,8 +235,8 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/synack
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/external-relationships/{assetRelationshipUid}\n  method: patch\n  operationId: patchExternalRelationship\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - asset_boss_lw\n    - asset_boss_ow\n    - asset_client_lw\n    - asset_client_ow\n    - asset_gw\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/external-relationships/{assetRelationshipUid}\n  method: delete\n  operationId: deleteExternalRelationship\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n   \
   \ subject: required\n    scope:\n    - asset_boss_lw\n    - asset_boss_ow\n    - asset_client_lw\n    - asset_client_ow\n    - asset_gw\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/asset-stats\n  method: get\n  operationId: getAssetStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - asset_gr\n    - asset_lr\n    - asset_or\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/organizations/{organizationUid}/discovered-assets\n  method: get\n  operationId: getDiscoveredAssetSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - asset_gr\n    - asset_lr\n    - asset_or\n    - asset_scan_gr\n    - asset_srt_lr\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v2/listing-webapps/{listingUid}\n  method: get\n  operationId: getWebApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - asset_gr\n    - asset_lr\n    - asset_scan_gr\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webapps/{assetUid}\n  method: get\n  operationId: getWebApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - asset_gr\n    - asset_scan_gr\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/campaigns/\n  method: get\n  operationId: GetCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/campaigns/{campaignID}\n  method: get\n  operationId: GetCampaignByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/agentic-access/synack-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/agentic-access/synack-agentic-access.yml
+  \ 3600\n    audit: none\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/synack/agentic-access/synack-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/synack/agentic-access/synack-agentic-access.yml
 summary_line: 143 operations · 75 acting · 1 human-in-the-loop
 tags:
 - Company

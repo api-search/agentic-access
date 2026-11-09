@@ -9,97 +9,97 @@ api_specs:
   label: Sublime Security BinExplode API
   slug: sublime-security-binexplode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-binexplode-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-binexplode-api-openapi.yml
 - filename: sublime-security-email-bombs-api-openapi.yml
   format: yaml
   label: Sublime Security Email Bombs API
   slug: sublime-security-email-bombs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-email-bombs-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-email-bombs-api-openapi.yml
 - filename: sublime-security-enrichment-api-openapi.yml
   format: yaml
   label: Sublime Security Enrichment API
   slug: sublime-security-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-enrichment-api-openapi.yml
 - filename: sublime-security-events-in-the-audit-log-api-openapi.yml
   format: yaml
   label: Sublime Security Events in the audit log API
   slug: sublime-security-events-in-the-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-events-in-the-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-events-in-the-audit-log-api-openapi.yml
 - filename: sublime-security-hunt-jobs-api-openapi.yml
   format: yaml
   label: Sublime Security Hunt Jobs API
   slug: sublime-security-hunt-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-hunt-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-hunt-jobs-api-openapi.yml
 - filename: sublime-security-lists-api-openapi.yml
   format: yaml
   label: Sublime Security Lists API
   slug: sublime-security-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-lists-api-openapi.yml
 - filename: sublime-security-live-flow-api-openapi.yml
   format: yaml
   label: Sublime Security Live flow API
   slug: sublime-security-live-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-live-flow-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-live-flow-api-openapi.yml
 - filename: sublime-security-mailboxes-api-openapi.yml
   format: yaml
   label: Sublime Security Mailboxes API
   slug: sublime-security-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-mailboxes-api-openapi.yml
 - filename: sublime-security-message-groups-api-openapi.yml
   format: yaml
   label: Sublime Security Message Groups API
   slug: sublime-security-message-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-message-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-message-groups-api-openapi.yml
 - filename: sublime-security-messages-api-openapi.yml
   format: yaml
   label: Sublime Security Messages API
   slug: sublime-security-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-messages-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-messages-api-openapi.yml
 - filename: sublime-security-organizations-api-openapi.yml
   format: yaml
   label: Sublime Security Organizations API
   slug: sublime-security-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-organizations-api-openapi.yml
 - filename: sublime-security-roles-api-openapi.yml
   format: yaml
   label: Sublime Security Roles API
   slug: sublime-security-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-roles-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-roles-api-openapi.yml
 - filename: sublime-security-rules-api-openapi.yml
   format: yaml
   label: Sublime Security Rules API
   slug: sublime-security-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-rules-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-rules-api-openapi.yml
 - filename: sublime-security-scim-api-openapi.yml
   format: yaml
   label: Sublime Security SCIM API
   slug: sublime-security-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-scim-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-scim-api-openapi.yml
 - filename: sublime-security-tasks-api-openapi.yml
   format: yaml
   label: Sublime Security Tasks API
   slug: sublime-security-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-tasks-api-openapi.yml
 - filename: sublime-security-user-reports-api-openapi.yml
   format: yaml
   label: Sublime Security User Reports API
   slug: sublime-security-user-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/openapi/sublime-security-user-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sublime-security/openapi/sublime-security-user-reports-api-openapi.yml
 consequence_counts:
   read: 44
   write: 47
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sublim
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/scim/Users\n  method: post\n  operationId: createSCIMUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/scim/Users/{id}\n  method: delete\n  operationId: deleteSCIMUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/scim/Users/{id}\n  method: get\n  operationId: getSCIMUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v0/scim/Users/{id}\n  method: patch\n  operationId: patchSCIMUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/scim/Users/{id}\n  method: put\n  operationId: updateSCIMUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/scim/validate_auth\n  method: get\n  operationId: validateSCIMAuth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tasks/{id}\n  method: get\n  operationId:\
   \ getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/user-reports\n  method: get\n  operationId: listUserReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/agentic-access/sublime-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sublime-security/agentic-access/sublime-security-agentic-access.yml
 summary_line: 91 operations · 47 acting
 tags:
 - Company

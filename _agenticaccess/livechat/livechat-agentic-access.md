@@ -15,43 +15,43 @@ api_specs:
   label: LiveChat Chats API
   slug: livechat-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-chats-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-chats-api-openapi.yml
 - filename: livechat-customers-api-openapi.yml
   format: yaml
   label: LiveChat Customers API
   slug: livechat-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-customers-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-customers-api-openapi.yml
 - filename: livechat-events-api-openapi.yml
   format: yaml
   label: LiveChat Events API
   slug: livechat-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-events-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-events-api-openapi.yml
 - filename: livechat-other-api-openapi.yml
   format: yaml
   label: LiveChat Other API
   slug: livechat-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-other-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-other-api-openapi.yml
 - filename: livechat-properties-api-openapi.yml
   format: yaml
   label: LiveChat Properties API
   slug: livechat-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-properties-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-properties-api-openapi.yml
 - filename: livechat-status-api-openapi.yml
   format: yaml
   label: LiveChat Status API
   slug: livechat-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-status-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-status-api-openapi.yml
 - filename: livechat-threads-api-openapi.yml
   format: yaml
   label: LiveChat Threads API
   slug: livechat-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-threads-api-openapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-threads-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 6
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/livech
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/action/set_routing_status\n  method: post\n  operationId: setRoutingStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/action/list_routing_statuses\n  method: post\n  operationId: listRoutingStatuses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/action/list_threads\n  method: post\n  operationId: listThreads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/action/tag_thread\n  method: post\n  operationId: tagThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/action/untag_thread\n  method: post\n  operationId: untagThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agent/action/request_thread_summary\n  method: post\n  operationId: requestThreadSummary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/agentic-access/livechat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/livechat/agentic-access/livechat-agentic-access.yml
 summary_line: 35 operations · 29 acting
 tags:
 - Live Chat

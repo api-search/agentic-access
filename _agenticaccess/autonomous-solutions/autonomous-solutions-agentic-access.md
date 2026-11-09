@@ -9,151 +9,151 @@ api_specs:
   label: VenHub Banners API
   slug: autonomous-solutions-banners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-banners-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-banners-api-openapi.yml
 - filename: autonomous-solutions-bg-tasks-api-openapi.yml
   format: yaml
   label: VenHub Bg Tasks API
   slug: autonomous-solutions-bg-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-bg-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-bg-tasks-api-openapi.yml
 - filename: autonomous-solutions-categories-api-openapi.yml
   format: yaml
   label: VenHub Categories API
   slug: autonomous-solutions-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-categories-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-categories-api-openapi.yml
 - filename: autonomous-solutions-deals-api-openapi.yml
   format: yaml
   label: VenHub Deals API
   slug: autonomous-solutions-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-deals-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-deals-api-openapi.yml
 - filename: autonomous-solutions-diagnostics-api-openapi.yml
   format: yaml
   label: VenHub Diagnostics API
   slug: autonomous-solutions-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-diagnostics-api-openapi.yml
 - filename: autonomous-solutions-guest-checkout-api-openapi.yml
   format: yaml
   label: VenHub Guest Checkout API
   slug: autonomous-solutions-guest-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-guest-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-guest-checkout-api-openapi.yml
 - filename: autonomous-solutions-hls-api-openapi.yml
   format: yaml
   label: VenHub HLS API
   slug: autonomous-solutions-hls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-hls-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-hls-api-openapi.yml
 - filename: autonomous-solutions-hubs-api-openapi.yml
   format: yaml
   label: VenHub Hubs API
   slug: autonomous-solutions-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-hubs-api-openapi.yml
 - filename: autonomous-solutions-jobs-api-openapi.yml
   format: yaml
   label: VenHub Jobs API
   slug: autonomous-solutions-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-jobs-api-openapi.yml
 - filename: autonomous-solutions-logs-api-openapi.yml
   format: yaml
   label: VenHub Logs API
   slug: autonomous-solutions-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-logs-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-logs-api-openapi.yml
 - filename: autonomous-solutions-loyalty-points-api-openapi.yml
   format: yaml
   label: VenHub Loyalty Points API
   slug: autonomous-solutions-loyalty-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-loyalty-points-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-loyalty-points-api-openapi.yml
 - filename: autonomous-solutions-orders-api-openapi.yml
   format: yaml
   label: VenHub Orders API
   slug: autonomous-solutions-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-orders-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-orders-api-openapi.yml
 - filename: autonomous-solutions-products-api-openapi.yml
   format: yaml
   label: VenHub Products API
   slug: autonomous-solutions-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-products-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-products-api-openapi.yml
 - filename: autonomous-solutions-root-api-openapi.yml
   format: yaml
   label: VenHub Root API
   slug: autonomous-solutions-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-root-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-root-api-openapi.yml
 - filename: autonomous-solutions-selected-hub-api-openapi.yml
   format: yaml
   label: VenHub selected hub API
   slug: autonomous-solutions-selected-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-selected-hub-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-selected-hub-api-openapi.yml
 - filename: autonomous-solutions-user-api-openapi.yml
   format: yaml
   label: VenHub User API
   slug: autonomous-solutions-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-user-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-user-api-openapi.yml
 - filename: autonomous-solutions-user-favorites-api-openapi.yml
   format: yaml
   label: VenHub User Favorites API
   slug: autonomous-solutions-user-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-user-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-user-favorites-api-openapi.yml
 - filename: autonomous-solutions-user-notifications-api-openapi.yml
   format: yaml
   label: VenHub User Notifications API
   slug: autonomous-solutions-user-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-user-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-user-notifications-api-openapi.yml
 - filename: autonomous-solutions-user-payment-api-openapi.yml
   format: yaml
   label: VenHub User Payment API
   slug: autonomous-solutions-user-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-user-payment-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-user-payment-api-openapi.yml
 - filename: autonomous-solutions-user-profile-api-openapi.yml
   format: yaml
   label: VenHub user profile API
   slug: autonomous-solutions-user-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-user-profile-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-user-profile-api-openapi.yml
 - filename: autonomous-solutions-user-wallet-api-openapi.yml
   format: yaml
   label: VenHub User Wallet API
   slug: autonomous-solutions-user-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-user-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-user-wallet-api-openapi.yml
 - filename: autonomous-solutions-vensmart-api-openapi.yml
   format: yaml
   label: VenHub Vensmart API
   slug: autonomous-solutions-vensmart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-vensmart-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-vensmart-api-openapi.yml
 - filename: autonomous-solutions-zendesk-api-openapi.yml
   format: yaml
   label: VenHub Zendesk API
   slug: autonomous-solutions-zendesk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-zendesk-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-zendesk-api-openapi.yml
 - filename: autonomous-solutions-zendesk-webhook-api-openapi.yml
   format: yaml
   label: VenHub Zendesk Webhook API
   slug: autonomous-solutions-zendesk-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-zendesk-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-zendesk-webhook-api-openapi.yml
 - filename: autonomous-solutions-health-check-api-openapi.yml
   format: yaml
   label: VenHub Health Check API
   slug: autonomous-solutions-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/openapi/autonomous-solutions-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/autonomous-solutions/openapi/autonomous-solutions-health-check-api-openapi.yml
 consequence_counts:
   physical: 22
   read: 57
@@ -323,8 +323,8 @@ source_yaml: "generated: '2026-09-26'\nmethod: generated\nsource: openapi/autono
   \  method: get\n  operationId: list_streams_cameras_stream_streams_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deals/active/{hub_id}\n  method: get\n  operationId: get_active_deals_for_display_deals_active__hub_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deals/check-eligibility\n  method: post\n  operationId: check_deal_eligibility_deals_check_eligibility_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/apply-reward\n  method: post\n  operationId: apply_deal_reward_deals_apply_reward_post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/{deal_id}\n  method: get\n  operationId: get_deal_by_id_deals__deal_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deals/{deal_id}\n  method: put\n  operationId: update_deal_deals__deal_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/{deal_id}\n  method: delete\n  operationId: delete_deal_deals__deal_id__delete\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/{deal_id}/redemption-status\n  method: get\n  operationId: get_deal_redemption_status_deals__deal_id__redemption_status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deals/hub/{hub_id}\n  method: get\n  operationId: get_deals_by_hub_deals_hub__hub_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deals/\n  method: post\n  operationId: create_deal_deals__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/create-from-owner\n  method: post\n  operationId: create_deal_from_owner_deals_create_from_owner_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/promo-products/{hub_id}\n  method: get\n  operationId: get_promo_product_ids_deals_promo_products__hub_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/agentic-access/autonomous-solutions-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/agentic-access/autonomous-solutions-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/create-from-owner\n  method: post\n  operationId: create_deal_from_owner_deals_create_from_owner_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/promo-products/{hub_id}\n  method: get\n  operationId: get_promo_product_ids_deals_promo_products__hub_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/autonomous-solutions/agentic-access/autonomous-solutions-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/autonomous-solutions/agentic-access/autonomous-solutions-agentic-access.yml
 summary_line: 111 operations · 54 acting
 tags:
 - Retail

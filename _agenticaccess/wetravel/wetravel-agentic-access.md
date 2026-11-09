@@ -9,103 +9,103 @@ api_specs:
   label: WeTravel Access token API
   slug: wetravel-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-access-token-api-openapi.yml
 - filename: wetravel-add-ons-api-openapi.yml
   format: yaml
   label: WeTravel Add-ons API
   slug: wetravel-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-add-ons-api-openapi.yml
 - filename: wetravel-discounts-api-openapi.yml
   format: yaml
   label: WeTravel Discounts API
   slug: wetravel-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-discounts-api-openapi.yml
 - filename: wetravel-images-api-openapi.yml
   format: yaml
   label: WeTravel Images API
   slug: wetravel-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-images-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-images-api-openapi.yml
 - filename: wetravel-included-items-api-openapi.yml
   format: yaml
   label: WeTravel Included items API
   slug: wetravel-included-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-included-items-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-included-items-api-openapi.yml
 - filename: wetravel-leads-api-openapi.yml
   format: yaml
   label: WeTravel Leads API
   slug: wetravel-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-leads-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-leads-api-openapi.yml
 - filename: wetravel-not-included-items-api-openapi.yml
   format: yaml
   label: WeTravel Not Included items API
   slug: wetravel-not-included-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-not-included-items-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-not-included-items-api-openapi.yml
 - filename: wetravel-orders-api-openapi.yml
   format: yaml
   label: WeTravel Orders API
   slug: wetravel-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-orders-api-openapi.yml
 - filename: wetravel-packages-api-openapi.yml
   format: yaml
   label: WeTravel Packages API
   slug: wetravel-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-packages-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-packages-api-openapi.yml
 - filename: wetravel-paragraphs-api-openapi.yml
   format: yaml
   label: WeTravel Paragraphs API
   slug: wetravel-paragraphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-paragraphs-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-paragraphs-api-openapi.yml
 - filename: wetravel-participant-information-api-openapi.yml
   format: yaml
   label: WeTravel Participant Information API
   slug: wetravel-participant-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-participant-information-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-participant-information-api-openapi.yml
 - filename: wetravel-payment-links-api-openapi.yml
   format: yaml
   label: WeTravel Payment Links API
   slug: wetravel-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-payment-links-api-openapi.yml
 - filename: wetravel-payment-plans-api-openapi.yml
   format: yaml
   label: WeTravel Payment Plans API
   slug: wetravel-payment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-payment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-payment-plans-api-openapi.yml
 - filename: wetravel-suppliers-api-openapi.yml
   format: yaml
   label: WeTravel Suppliers API
   slug: wetravel-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-suppliers-api-openapi.yml
 - filename: wetravel-transactions-api-openapi.yml
   format: yaml
   label: WeTravel Transactions API
   slug: wetravel-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-transactions-api-openapi.yml
 - filename: wetravel-trip-overview-api-openapi.yml
   format: yaml
   label: WeTravel Trip Overview API
   slug: wetravel-trip-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-trip-overview-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-trip-overview-api-openapi.yml
 - filename: wetravel-trips-api-openapi.yml
   format: yaml
   label: WeTravel Trips API
   slug: wetravel-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/openapi/wetravel-trips-api-openapi.yml
+  url: https://artifacts.apis.io/wetravel/openapi/wetravel-trips-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 33
@@ -219,7 +219,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wetrav
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /draft_trips\n  method: post\n  operationId: createTrip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /draft_trips\n  method: get\n  operationId: getTrips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /draft_trips/{trip_uuid}\n  method: delete\n  operationId: deleteTrip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /draft_trips/{trip_uuid}\n  method: get\n  operationId: getTripById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /draft_trips/{trip_uuid}\n  method: patch\n  operationId: updateTrip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /draft_trips/{trip_uuid}/publish\n  method: post\n  operationId: publishTrip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/agentic-access/wetravel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wetravel/agentic-access/wetravel-agentic-access.yml
 summary_line: 77 operations · 44 acting
 tags:
 - Company

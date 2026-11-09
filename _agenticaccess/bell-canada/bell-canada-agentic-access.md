@@ -9,55 +9,55 @@ api_specs:
   label: Bell Canada Cancel Service Order API
   slug: bell-canada-cancelserviceorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-cancelserviceorder-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-cancelserviceorder-api-openapi.yml
 - filename: bell-canada-changerequest-api-openapi.yml
   format: yaml
   label: Bell Canada Change Request API
   slug: bell-canada-changerequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-changerequest-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-changerequest-api-openapi.yml
 - filename: bell-canada-events-subscription-api-openapi.yml
   format: yaml
   label: Bell Canada events subscription API
   slug: bell-canada-events-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-events-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-events-subscription-api-openapi.yml
 - filename: bell-canada-logicalresource-api-openapi.yml
   format: yaml
   label: Bell Canada Logical Resource API
   slug: bell-canada-logicalresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-logicalresource-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-logicalresource-api-openapi.yml
 - filename: bell-canada-notification-listeners-client-side-api-openapi.yml
   format: yaml
   label: Bell Canada notification listeners (client side) API
   slug: bell-canada-notification-listeners-client-side-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-notification-listeners-client-side-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-notification-listeners-client-side-api-openapi.yml
 - filename: bell-canada-physicalresource-api-openapi.yml
   format: yaml
   label: Bell Canada Physical Resource API
   slug: bell-canada-physicalresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-physicalresource-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-physicalresource-api-openapi.yml
 - filename: bell-canada-resource-api-openapi.yml
   format: yaml
   label: Bell Canada Resource API
   slug: bell-canada-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-resource-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-resource-api-openapi.yml
 - filename: bell-canada-service-order-api-openapi.yml
   format: yaml
   label: Bell Canada Service Order API
   slug: bell-canada-service-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-service-order-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-service-order-api-openapi.yml
 - filename: bell-canada-trouble-ticket-api-openapi.yml
   format: yaml
   label: Bell Canada Trouble Ticket API
   slug: bell-canada-trouble-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/openapi/bell-canada-trouble-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/bell-canada/openapi/bell-canada-trouble-ticket-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 14
@@ -187,7 +187,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/bell-c
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listener/troubleTicketAttributeValueChangeEvent\n  method: post\n  operationId: listenToTroubleTicketAttributeValueChangeEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listener/troubleTicketStatusChangeEvent\n  method: post\n  operationId: listenToTroubleTicketStatusChangeEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /listener/troubleTicketDeleteEvent\n  method: post\n  operationId: listenToTroubleTicketDeleteEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listener/troubleTicketResolvedEvent\n  method: post\n  operationId: listenToTroubleTicketResolvedEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listener/troubleTicketInformationRequiredEvent\n  method: post\n  operationId: listenToTroubleTicketInformationRequiredEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/agentic-access/bell-canada-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bell-canada/agentic-access/bell-canada-agentic-access.yml
 summary_line: 74 operations · 60 acting
 tags:
 - Telecommunications

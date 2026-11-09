@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Operations Suite Entries:list API
   slug: google-cloud-operations-suite-entries-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/openapi/google-cloud-operations-suite-entries-list-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-operations-suite/openapi/google-cloud-operations-suite-entries-list-api-openapi.yml
 - filename: google-cloud-operations-suite-entries-write-api-openapi.yml
   format: yaml
   label: Google Cloud Operations Suite Entries:write API
   slug: google-cloud-operations-suite-entries-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/openapi/google-cloud-operations-suite-entries-write-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-operations-suite/openapi/google-cloud-operations-suite-entries-write-api-openapi.yml
 - filename: google-cloud-operations-suite-projects-api-openapi.yml
   format: yaml
   label: Google Cloud Operations Suite Projects API
   slug: google-cloud-operations-suite-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/openapi/google-cloud-operations-suite-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-operations-suite/openapi/google-cloud-operations-suite-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{projectId}/timeSeries\n  method: get\n  operationId: listTimeSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{projectId}/timeSeries\n  method: post\n  operationId: createTimeSeries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{projectId}/alertPolicies\n  method: get\n  operationId: listAlertPolicies\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{projectId}/alertPolicies\n  method: post\n  operationId: createAlertPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/dashboards\n  method: get\n  operationId: listDashboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectId}/dashboards\n  method: post\n  operationId: createDashboard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{projectId}/uptimeCheckConfigs\n  method: get\n  operationId: listUptimeCheckConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/agentic-access/google-cloud-operations-suite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-operations-suite/agentic-access/google-cloud-operations-suite-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Error Reporting

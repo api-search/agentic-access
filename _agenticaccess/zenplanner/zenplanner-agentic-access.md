@@ -9,43 +9,43 @@ api_specs:
   label: Zen Planner Classes API
   slug: zenplanner-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-classes-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-classes-api-openapi.yml
 - filename: zenplanner-groups-api-openapi.yml
   format: yaml
   label: Zen Planner Groups API
   slug: zenplanner-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-groups-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-groups-api-openapi.yml
 - filename: zenplanner-locations-api-openapi.yml
   format: yaml
   label: Zen Planner Locations API
   slug: zenplanner-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-locations-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-locations-api-openapi.yml
 - filename: zenplanner-memberships-api-openapi.yml
   format: yaml
   label: Zen Planner Memberships API
   slug: zenplanner-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-memberships-api-openapi.yml
 - filename: zenplanner-people-api-openapi.yml
   format: yaml
   label: Zen Planner People API
   slug: zenplanner-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-people-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-people-api-openapi.yml
 - filename: zenplanner-programs-api-openapi.yml
   format: yaml
   label: Zen Planner Programs API
   slug: zenplanner-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-programs-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-programs-api-openapi.yml
 - filename: zenplanner-prospects-api-openapi.yml
   format: yaml
   label: Zen Planner Prospects API
   slug: zenplanner-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-prospects-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1
@@ -74,7 +74,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zenplanner-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 9\n    acting: 1\n  by_consequence:\n    read: 9\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /people\n  method: get\n  operationId: listPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{personId}\n  method: get\n  operationId: getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{personId}/memberships\n  method: get\n\
   \  operationId: listPersonMemberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /classes\n  method: get\n  operationId: listClasses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /classes/people/{personId}/reservations\n  method: get\n  operationId: listPersonReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /classes/people/{personId}/attendances\n  method: get\n  operationId: listPersonAttendances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /programs\n  method: get\n  operationId: listPrograms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prospects\n  method: post\n  operationId: createProspect\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/agentic-access/zenplanner-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zenplanner/agentic-access/zenplanner-agentic-access.yml
 summary_line: 10 operations · 1 acting
 tags:
 - Fitness

@@ -9,31 +9,31 @@ api_specs:
   label: Kickbox Account API
   slug: kickbox-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-account-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-account-api-openapi.yml
 - filename: kickbox-batch-api-openapi.yml
   format: yaml
   label: Kickbox Batch API
   slug: kickbox-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-batch-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-batch-api-openapi.yml
 - filename: kickbox-open-api-openapi.yml
   format: yaml
   label: Kickbox Open API
   slug: kickbox-open-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-open-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-open-api-openapi.yml
 - filename: kickbox-verification-api-openapi.yml
   format: yaml
   label: Kickbox Verification API
   slug: kickbox-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-verification-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-verification-api-openapi.yml
 - filename: kickbox-disposable-api-openapi.yml
   format: yaml
   label: Kickbox Disposable API
   slug: kickbox-disposable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/openapi/kickbox-disposable-api-openapi.yml
+  url: https://artifacts.apis.io/kickbox/openapi/kickbox-disposable-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -61,7 +61,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kickbox-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/verify\n  method: get\n  operationId: verifyEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/verify-batch\n  method: put\n  operationId: verifyBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/verify-batch/{id}\n  method: get\n  operationId: getBatchResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/disposable/{email}\n  method: get\n  operationId: isDisposable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/agentic-access/kickbox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kickbox/agentic-access/kickbox-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Email Verification

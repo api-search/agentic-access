@@ -9,31 +9,31 @@ api_specs:
   label: UVeye Appraisal API
   slug: uveye-appraisal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-appraisal-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-appraisal-api-openapi.yml
 - filename: uveye-inspections-api-openapi.yml
   format: yaml
   label: UVeye Inspections API
   slug: uveye-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-inspections-api-openapi.yml
 - filename: uveye-media-api-openapi.yml
   format: yaml
   label: UVeye Media API
   slug: uveye-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-media-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-media-api-openapi.yml
 - filename: uveye-merchandise-api-openapi.yml
   format: yaml
   label: UVeye Merchandise API
   slug: uveye-merchandise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-merchandise-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-merchandise-api-openapi.yml
 - filename: uveye-public-links-api-openapi.yml
   format: yaml
   label: UVeye Public Links API
   slug: uveye-public-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-public-links-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-public-links-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/uveye-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /latest-inspections\n  method: post\n  operationId: listLatestInspections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image\n  method: get\n  operationId: getInspectionImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchandise/inventory/vehicles\n  method: post\n  operationId: submitMerchandiseInventory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchandise/inventory/sold\n  method: post\n  operationId:\
   \ markMerchandiseVehiclesSold\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public-link\n  method: post\n  operationId: createInspectionPublicLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inspection-shared\n  method: post\n  operationId: recordInspectionShared\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/agentic-access/uveye-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uveye/agentic-access/uveye-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Automotive

@@ -9,109 +9,109 @@ api_specs:
   label: Xflow Accounts API
   slug: xflow-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-accounts-api-openapi.yml
 - filename: xflow-addresses-api-openapi.yml
   format: yaml
   label: Xflow Addresses API
   slug: xflow-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-addresses-api-openapi.yml
 - filename: xflow-balance-api-openapi.yml
   format: yaml
   label: Xflow Balance API
   slug: xflow-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-balance-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-balance-api-openapi.yml
 - filename: xflow-deposits-api-openapi.yml
   format: yaml
   label: Xflow Deposits API
   slug: xflow-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-deposits-api-openapi.yml
 - filename: xflow-events-api-openapi.yml
   format: yaml
   label: Xflow Events API
   slug: xflow-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-events-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-events-api-openapi.yml
 - filename: xflow-files-api-openapi.yml
   format: yaml
   label: Xflow Files API
   slug: xflow-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-files-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-files-api-openapi.yml
 - filename: xflow-payments-api-openapi.yml
   format: yaml
   label: Xflow Payments API
   slug: xflow-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-payments-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-payments-api-openapi.yml
 - filename: xflow-payouts-api-openapi.yml
   format: yaml
   label: Xflow Payouts API
   slug: xflow-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-payouts-api-openapi.yml
 - filename: xflow-persons-api-openapi.yml
   format: yaml
   label: Xflow Persons API
   slug: xflow-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-persons-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-persons-api-openapi.yml
 - filename: xflow-quotes-api-openapi.yml
   format: yaml
   label: Xflow Quotes API
   slug: xflow-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-quotes-api-openapi.yml
 - filename: xflow-receivables-api-openapi.yml
   format: yaml
   label: Xflow Receivables API
   slug: xflow-receivables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-receivables-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-receivables-api-openapi.yml
 - filename: xflow-transfers-api-openapi.yml
   format: yaml
   label: Xflow Transfers API
   slug: xflow-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-transfers-api-openapi.yml
 - filename: xflow-account-settings-api-openapi.yml
   format: yaml
   label: Xflow Account Settings API
   slug: xflow-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-account-settings-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-account-settings-api-openapi.yml
 - filename: xflow-balance-transactions-api-openapi.yml
   format: yaml
   label: Xflow Balance Transactions API
   slug: xflow-balance-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-balance-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-balance-transactions-api-openapi.yml
 - filename: xflow-exchange-rates-api-openapi.yml
   format: yaml
   label: Xflow Exchange Rates API
   slug: xflow-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-exchange-rates-api-openapi.yml
 - filename: xflow-fee-plans-api-openapi.yml
   format: yaml
   label: Xflow Fee Plans API
   slug: xflow-fee-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-fee-plans-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-fee-plans-api-openapi.yml
 - filename: xflow-payment-links-api-openapi.yml
   format: yaml
   label: Xflow Payment Links API
   slug: xflow-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-payment-links-api-openapi.yml
 - filename: xflow-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Xflow Webhook Endpoints API
   slug: xflow-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/openapi/xflow-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/xflow/openapi/xflow-webhook-endpoints-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 37
@@ -215,7 +215,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/xflow-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transfers/{transfer}\n  method: get\n  operationId: RetrieveTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transfers/{transfer}\n  method: post\n  operationId: UpdateTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook_endpoints\n  method: get\n  operationId: ListWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook_endpoints\n  method: post\n  operationId: CreateWebhookEndpoint\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook_endpoints/{webhook_endpoint}\n  method: get\n  operationId: RetrieveWebhookEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook_endpoints/{webhook_endpoint}\n  method: post\n  operationId: UpdateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook_endpoints/{webhook_endpoint}/activate\n  method: post\n  operationId:\
   \ ActivateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook_endpoints/{webhook_endpoint}/deactivate\n  method: post\n  operationId: DeactivateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/agentic-access/xflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xflow/agentic-access/xflow-agentic-access.yml
 summary_line: 71 operations · 34 acting
 tags:
 - Payments

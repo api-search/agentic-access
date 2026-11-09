@@ -9,55 +9,55 @@ api_specs:
   label: Linkerd Discovery API
   slug: linkerd-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/linkerd/openapi/linkerd-discovery-api-openapi.yml
 - filename: linkerd-edges-api-openapi.yml
   format: yaml
   label: Linkerd Edges API
   slug: linkerd-edges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-edges-api-openapi.yml
+  url: https://artifacts.apis.io/linkerd/openapi/linkerd-edges-api-openapi.yml
 - filename: linkerd-gateways-api-openapi.yml
   format: yaml
   label: Linkerd Gateways API
   slug: linkerd-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/linkerd/openapi/linkerd-gateways-api-openapi.yml
 - filename: linkerd-health-api-openapi.yml
   format: yaml
   label: Linkerd Health API
   slug: linkerd-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-health-api-openapi.yml
+  url: https://artifacts.apis.io/linkerd/openapi/linkerd-health-api-openapi.yml
 - filename: linkerd-lifecycle-api-openapi.yml
   format: yaml
   label: Linkerd Lifecycle API
   slug: linkerd-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/linkerd/openapi/linkerd-lifecycle-api-openapi.yml
 - filename: linkerd-metrics-api-openapi.yml
   format: yaml
   label: Linkerd Metrics API
   slug: linkerd-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/linkerd/openapi/linkerd-metrics-api-openapi.yml
 - filename: linkerd-routes-api-openapi.yml
   format: yaml
   label: Linkerd Routes API
   slug: linkerd-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-routes-api-openapi.yml
+  url: https://artifacts.apis.io/linkerd/openapi/linkerd-routes-api-openapi.yml
 - filename: linkerd-statistics-api-openapi.yml
   format: yaml
   label: Linkerd Statistics API
   slug: linkerd-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/linkerd/openapi/linkerd-statistics-api-openapi.yml
 - filename: linkerd-tap-api-openapi.yml
   format: yaml
   label: Linkerd Tap API
   slug: linkerd-tap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/openapi/linkerd-tap-api-openapi.yml
+  url: https://artifacts.apis.io/linkerd/openapi/linkerd-tap-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/linker
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/edges\n  method: post\n  operationId: getEdges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/gateways\n  method: post\n  operationId: getGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ready\n  method: get\n  operationId: getProxyReadiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /live\n  method: get\n  operationId: getProxyLiveness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shutdown\n  method:\
   \ post\n  operationId: shutdownProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /metrics\n  method: get\n  operationId: getProxyMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/top-routes\n  method: post\n  operationId: getTopRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/stat\n  method: post\n  operationId: getStatSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /watch/namespaces/{namespace}/tap\n  method: post\n  operationId: tapNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watch/namespaces/{namespace}/{resource_type}/{resource_name}/tap\n  method: post\n  operationId: tapResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/agentic-access/linkerd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/linkerd/agentic-access/linkerd-agentic-access.yml
 summary_line: 11 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Kubernetes

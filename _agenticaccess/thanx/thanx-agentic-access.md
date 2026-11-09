@@ -9,85 +9,85 @@ api_specs:
   label: Thanx Account API
   slug: thanx-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-account-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-account-api-openapi.yml
 - filename: thanx-auth-api-openapi.yml
   format: yaml
   label: Thanx Auth API
   slug: thanx-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-auth-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-auth-api-openapi.yml
 - filename: thanx-baskets-api-openapi.yml
   format: yaml
   label: Thanx Baskets API
   slug: thanx-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-baskets-api-openapi.yml
 - filename: thanx-campaigns-api-openapi.yml
   format: yaml
   label: Thanx Campaigns API
   slug: thanx-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-campaigns-api-openapi.yml
 - filename: thanx-cards-api-openapi.yml
   format: yaml
   label: Thanx Cards API
   slug: thanx-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-cards-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-cards-api-openapi.yml
 - filename: thanx-gift-cards-api-openapi.yml
   format: yaml
   label: Thanx Gift Cards API
   slug: thanx-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-gift-cards-api-openapi.yml
 - filename: thanx-issuance-jobs-api-openapi.yml
   format: yaml
   label: Thanx Issuance Jobs API
   slug: thanx-issuance-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-issuance-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-issuance-jobs-api-openapi.yml
 - filename: thanx-locations-api-openapi.yml
   format: yaml
   label: Thanx Locations API
   slug: thanx-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-locations-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-locations-api-openapi.yml
 - filename: thanx-metadata-api-openapi.yml
   format: yaml
   label: Thanx Metadata API
   slug: thanx-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-metadata-api-openapi.yml
 - filename: thanx-points-api-openapi.yml
   format: yaml
   label: Thanx Points API
   slug: thanx-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-points-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-points-api-openapi.yml
 - filename: thanx-purchases-api-openapi.yml
   format: yaml
   label: Thanx Purchases API
   slug: thanx-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-purchases-api-openapi.yml
 - filename: thanx-rewards-api-openapi.yml
   format: yaml
   label: Thanx Rewards API
   slug: thanx-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-rewards-api-openapi.yml
 - filename: thanx-subscribers-api-openapi.yml
   format: yaml
   label: Thanx Subscribers API
   slug: thanx-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-subscribers-api-openapi.yml
 - filename: thanx-users-api-openapi.yml
   format: yaml
   label: Thanx Users API
   slug: thanx-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-users-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/thanx-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/campaigns\n  method: get\n  operationId: listCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/campaigns/{id}\n  method: get\n  operationId: getCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/campaigns/issue\n  method: post\n  operationId: issueRewards\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/issuance_jobs/{id}\n  method: get\n  operationId: getIssuanceJob\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/issuance_jobs/{id}/revoke\n  method: post\n  operationId: revokeIssuanceJob\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /partner/subscribers\n  method: post\n  operationId: createSubscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/users/{id}\n  method: get\n  operationId: getPartnerUser\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/users\n  method: get\n  operationId: getPartnerUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/metadata/merchants\n  method: get\n  operationId: getMerchants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/metadata/locations\n  method: get\n  operationId: getPartnerLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/metadata/scopes\n  method: get\n  operationId: getScopes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/agentic-access/thanx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thanx/agentic-access/thanx-agentic-access.yml
 summary_line: 30 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Restaurant

@@ -9,61 +9,61 @@ api_specs:
   label: Polymath Robotics CANBus API
   slug: polymath-canbus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-canbus-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-canbus-api-openapi.yml
 - filename: polymath-filesystem-api-openapi.yml
   format: yaml
   label: Polymath Robotics Filesystem API
   slug: polymath-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-filesystem-api-openapi.yml
 - filename: polymath-health-check-api-openapi.yml
   format: yaml
   label: Polymath Robotics Health Check API
   slug: polymath-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-health-check-api-openapi.yml
 - filename: polymath-livekit-api-openapi.yml
   format: yaml
   label: Polymath Robotics Livekit API
   slug: polymath-livekit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-livekit-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-livekit-api-openapi.yml
 - filename: polymath-media-api-openapi.yml
   format: yaml
   label: Polymath Robotics Media API
   slug: polymath-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-media-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-media-api-openapi.yml
 - filename: polymath-ros-api-openapi.yml
   format: yaml
   label: Polymath Robotics Ros API
   slug: polymath-ros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-ros-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-ros-api-openapi.yml
 - filename: polymath-systemd-api-openapi.yml
   format: yaml
   label: Polymath Robotics Systemd API
   slug: polymath-systemd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-systemd-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-systemd-api-openapi.yml
 - filename: polymath-teleop-control-api-openapi.yml
   format: yaml
   label: Polymath Robotics Teleop Control API
   slug: polymath-teleop-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-teleop-control-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-teleop-control-api-openapi.yml
 - filename: polymath-vehicle-autonomy-api-openapi.yml
   format: yaml
   label: Polymath Robotics Vehicle Autonomy API
   slug: polymath-vehicle-autonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-vehicle-autonomy-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-vehicle-autonomy-api-openapi.yml
 - filename: polymath-vehicle-operations-api-openapi.yml
   format: yaml
   label: Polymath Robotics Vehicle Operations API
   slug: polymath-vehicle-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/openapi/polymath-vehicle-operations-api-openapi.yml
+  url: https://artifacts.apis.io/polymath/openapi/polymath-vehicle-operations-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 19
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/polyma
   \  exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/teleop-control/status\n  method: get\n  operationId: get_lease_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/systemd/{path}\n  method: get\n  operationId: proxy_systemd_request\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/systemd/{path}\n  method: post\n  operationId: proxy_systemd_request\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/fs/health\n  method:\
   \ get\n  operationId: health_check\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/fs/recursive-list\n  method: get\n  operationId: list_files_and_directories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/fs/{path}\n  method: get\n  operationId: get_file_or_directory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/fs/{path}\n  method: delete\n  operationId: delete_file_or_directory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /v2/ros/{path}\n  method: get\n  operationId: proxy_systemd_request\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/ros/{path}\n  method: post\n  operationId: proxy_systemd_request\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/agentic-access/polymath-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/polymath/agentic-access/polymath-agentic-access.yml
 summary_line: 37 operations · 18 acting · 4 human-in-the-loop
 tags:
 - Robotics

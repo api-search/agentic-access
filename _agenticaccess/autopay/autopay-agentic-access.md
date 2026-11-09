@@ -9,61 +9,61 @@ api_specs:
   label: Autopay Accounting API
   slug: autopay-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-accounting-api-openapi.yml
 - filename: autopay-booking-api-openapi.yml
   format: yaml
   label: Autopay Booking API
   slug: autopay-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-booking-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-booking-api-openapi.yml
 - filename: autopay-customer-club-api-openapi.yml
   format: yaml
   label: Autopay Customer Club API
   slug: autopay-customer-club-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-customer-club-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-customer-club-api-openapi.yml
 - filename: autopay-fleet-api-openapi.yml
   format: yaml
   label: Autopay Fleet API
   slug: autopay-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-fleet-api-openapi.yml
 - filename: autopay-parking-api-openapi.yml
   format: yaml
   label: Autopay Parking API
   slug: autopay-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-parking-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-parking-api-openapi.yml
 - filename: autopay-payment-api-openapi.yml
   format: yaml
   label: Autopay Payment API
   slug: autopay-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-payment-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-payment-api-openapi.yml
 - filename: autopay-permit-api-openapi.yml
   format: yaml
   label: Autopay Permit API
   slug: autopay-permit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-permit-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-permit-api-openapi.yml
 - filename: autopay-statistics-api-openapi.yml
   format: yaml
   label: Autopay Statistics API
   slug: autopay-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-statistics-api-openapi.yml
 - filename: autopay-status-api-openapi.yml
   format: yaml
   label: Autopay Status API
   slug: autopay-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-status-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-status-api-openapi.yml
 - filename: autopay-vehicle-api-openapi.yml
   format: yaml
   label: Autopay Vehicle API
   slug: autopay-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-vehicle-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 15
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/autopa
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /permit/v3/end_user_permit\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /permit/v3/end_user_permit/{permit_id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /permit/v3/end_user_permit/{permit_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /statistics/v1/parking\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/v1/zone/{zone_code}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - zone_status\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/v1/zone_details/{zone_code}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - zone_status\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/v1/permit\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/agentic-access/autopay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/autopay/agentic-access/autopay-agentic-access.yml
 summary_line: 30 operations · 15 acting · 3 human-in-the-loop
 tags:
 - Parking

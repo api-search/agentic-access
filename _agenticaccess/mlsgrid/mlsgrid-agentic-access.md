@@ -8,43 +8,43 @@ api_specs:
   label: mlsgrid Lookup API
   slug: mlsgrid-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-lookup-api-openapi.yml
 - filename: mlsgrid-media-api-openapi.yml
   format: yaml
   label: mlsgrid Media API
   slug: mlsgrid-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-media-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-media-api-openapi.yml
 - filename: mlsgrid-member-api-openapi.yml
   format: yaml
   label: mlsgrid Member API
   slug: mlsgrid-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-member-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-member-api-openapi.yml
 - filename: mlsgrid-metadata-api-openapi.yml
   format: yaml
   label: mlsgrid Metadata API
   slug: mlsgrid-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-metadata-api-openapi.yml
 - filename: mlsgrid-office-api-openapi.yml
   format: yaml
   label: mlsgrid Office API
   slug: mlsgrid-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-office-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-office-api-openapi.yml
 - filename: mlsgrid-openhouse-api-openapi.yml
   format: yaml
   label: mlsgrid OpenHouse API
   slug: mlsgrid-openhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-openhouse-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-openhouse-api-openapi.yml
 - filename: mlsgrid-property-api-openapi.yml
   format: yaml
   label: mlsgrid Property API
   slug: mlsgrid-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/openapi/mlsgrid-property-api-openapi.yml
+  url: https://artifacts.apis.io/mlsgrid/openapi/mlsgrid-property-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mlsgrid-reso-web-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /$metadata\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Property\n  method: get\n  operationId: listProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Property('{ListingKey}')\n  method: get\n  operationId: getProperty\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Member\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Office\n  method: get\n  operationId: listOffices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /OpenHouse\n  method: get\n  operationId: listOpenHouses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Media\n  method: get\n  operationId: listMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Lookup\n  method:\
   \ get\n  operationId: listLookups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/agentic-access/mlsgrid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mlsgrid/agentic-access/mlsgrid-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Real Estate

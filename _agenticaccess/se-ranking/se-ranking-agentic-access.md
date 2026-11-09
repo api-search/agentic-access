@@ -21,43 +21,43 @@ api_specs:
   label: SE Ranking Account & system API
   slug: se-ranking-account-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-account-system-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-account-system-api-openapi.yml
 - filename: se-ranking-ai-search-api-openapi.yml
   format: yaml
   label: SE Ranking AI search API
   slug: se-ranking-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-ai-search-api-openapi.yml
 - filename: se-ranking-backlinks-api-openapi.yml
   format: yaml
   label: SE Ranking Backlinks API
   slug: se-ranking-backlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-backlinks-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-backlinks-api-openapi.yml
 - filename: se-ranking-domain-analysis-api-openapi.yml
   format: yaml
   label: SE Ranking Domain Analysis API
   slug: se-ranking-domain-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-domain-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-domain-analysis-api-openapi.yml
 - filename: se-ranking-keyword-research-api-openapi.yml
   format: yaml
   label: SE Ranking Keyword Research API
   slug: se-ranking-keyword-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-keyword-research-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-keyword-research-api-openapi.yml
 - filename: se-ranking-serp-results-classic-api-openapi.yml
   format: yaml
   label: SE Ranking SERP Results > classic API
   slug: se-ranking-serp-results-classic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-serp-results-classic-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-serp-results-classic-api-openapi.yml
 - filename: se-ranking-website-audit-api-openapi.yml
   format: yaml
   label: SE Ranking Website Audit API
   slug: se-ranking-website-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-website-audit-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-website-audit-api-openapi.yml
 consequence_counts:
   read: 59
   write: 27
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/se-ran
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/site-audit/audits\n  method: delete\n  operationId: deleteSiteAuditAudits\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/site-audit/audits/status\n  method: get\n  operationId: getSiteAuditAuditsStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/site-audit/audits/report\n  method: get\n  operationId: getSiteAuditAuditsReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v1/site-audit/audits/pages\n  method: get\n  operationId: getSiteAuditAuditsPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/site-audit/audits/issue-pages\n  method: get\n  operationId: getSiteAuditAuditsIssuePages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/site-audit/audits/issues\n  method: get\n  operationId: getSiteAuditAuditsIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/site-audit/audits/links\n  method: get\n  operationId: getSiteAuditAuditsLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/site-audit/audits/history\n \
   \ method: get\n  operationId: getSiteAuditAuditsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/site-audit/audits/recheck/standard\n  method: post\n  operationId: createSiteAuditAuditsRecheckStandard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/site-audit/audits/recheck/advanced\n  method: post\n  operationId: createSiteAuditAuditsRecheckAdvanced\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/agentic-access/se-ranking-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/se-ranking/agentic-access/se-ranking-agentic-access.yml
 summary_line: 86 operations · 27 acting
 tags:
 - SEO

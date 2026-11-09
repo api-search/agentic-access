@@ -9,97 +9,97 @@ api_specs:
   label: Zeplin Authorization API
   slug: zeplin-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-authorization-api-openapi.yml
 - filename: zeplin-colors-api-openapi.yml
   format: yaml
   label: Zeplin Colors API
   slug: zeplin-colors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-colors-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-colors-api-openapi.yml
 - filename: zeplin-components-api-openapi.yml
   format: yaml
   label: Zeplin Components API
   slug: zeplin-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-components-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-components-api-openapi.yml
 - filename: zeplin-connected-components-api-openapi.yml
   format: yaml
   label: Zeplin Connected Components API
   slug: zeplin-connected-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-connected-components-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-connected-components-api-openapi.yml
 - filename: zeplin-design-tokens-api-openapi.yml
   format: yaml
   label: Zeplin Design Tokens API
   slug: zeplin-design-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-design-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-design-tokens-api-openapi.yml
 - filename: zeplin-flows-api-openapi.yml
   format: yaml
   label: Zeplin Flows API
   slug: zeplin-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-flows-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-flows-api-openapi.yml
 - filename: zeplin-notifications-api-openapi.yml
   format: yaml
   label: Zeplin Notifications API
   slug: zeplin-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-notifications-api-openapi.yml
 - filename: zeplin-organizations-api-openapi.yml
   format: yaml
   label: Zeplin Organizations API
   slug: zeplin-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-organizations-api-openapi.yml
 - filename: zeplin-projects-api-openapi.yml
   format: yaml
   label: Zeplin Projects API
   slug: zeplin-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-projects-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-projects-api-openapi.yml
 - filename: zeplin-screens-api-openapi.yml
   format: yaml
   label: Zeplin Screens API
   slug: zeplin-screens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-screens-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-screens-api-openapi.yml
 - filename: zeplin-spacing-api-openapi.yml
   format: yaml
   label: Zeplin Spacing API
   slug: zeplin-spacing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-spacing-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-spacing-api-openapi.yml
 - filename: zeplin-styleguides-api-openapi.yml
   format: yaml
   label: Zeplin Styleguides API
   slug: zeplin-styleguides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-styleguides-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-styleguides-api-openapi.yml
 - filename: zeplin-textstyles-api-openapi.yml
   format: yaml
   label: Zeplin TextStyles API
   slug: zeplin-textstyles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-textstyles-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-textstyles-api-openapi.yml
 - filename: zeplin-users-api-openapi.yml
   format: yaml
   label: Zeplin Users API
   slug: zeplin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-users-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-users-api-openapi.yml
 - filename: zeplin-variable-collections-api-openapi.yml
   format: yaml
   label: Zeplin Variable Collections API
   slug: zeplin-variable-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-variable-collections-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-variable-collections-api-openapi.yml
 - filename: zeplin-webhooks-api-openapi.yml
   format: yaml
   label: Zeplin Webhooks API
   slug: zeplin-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/openapi/zeplin-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zeplin/openapi/zeplin-webhooks-api-openapi.yml
 consequence_counts:
   read: 77
   write: 46
@@ -158,8 +158,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zeplin
   \ path: /v1/styleguides/{styleguide_id}/components/{component_id}\n  method: patch\n  operationId: UpdateStyleguideComponent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/styleguides/{styleguide_id}/components/{component_id}/versions/latest\n  method: get\n  operationId: GetStyleguideComponentLatestVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/styleguides/{styleguide_id}/component_sections\n  method: get\n  operationId: GetStyleguideComponentSections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/styleguides/{styleguide_id}/pages\n\
   \  method: get\n  operationId: GetStyleguidePages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/styleguides/{styleguide_id}/spacing_tokens\n  method: get\n  operationId: GetStyleguideSpacingTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/styleguides/{styleguide_id}/spacing_tokens/{spacing_token_id}\n  method: patch\n  operationId: UpdateStyleguideSpacingToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/styleguides/{styleguide_id}/spacing_sections\n  method: get\n  operationId: GetStyleguideSpacingSections\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/styleguides/{styleguide_id}/webhooks\n  method: get\n  operationId: GetStyleguideWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/styleguides/{styleguide_id}/webhooks\n  method: post\n  operationId: CreateStyleguideWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/styleguides/{styleguide_id}/webhooks/{webhook_id}\n  method: get\n  operationId: GetStyleguideWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
-  \    audit: none\n- path: /v1/styleguides/{styleguide_id}/webhooks/{webhook_id}\n  method: delete\n  operationId: DeleteStyleguideWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/styleguides/{styleguide_id}/webhooks/{webhook_id}\n  method: patch\n  operationId: UpdateStyleguideWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/agentic-access/zeplin-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/agentic-access/zeplin-agentic-access.yml
+  \    audit: none\n- path: /v1/styleguides/{styleguide_id}/webhooks/{webhook_id}\n  method: delete\n  operationId: DeleteStyleguideWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/styleguides/{styleguide_id}/webhooks/{webhook_id}\n  method: patch\n  operationId: UpdateStyleguideWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/zeplin/agentic-access/zeplin-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/zeplin/agentic-access/zeplin-agentic-access.yml
 summary_line: 123 operations · 46 acting
 tags:
 - Design

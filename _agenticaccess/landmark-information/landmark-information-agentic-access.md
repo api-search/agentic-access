@@ -9,49 +9,49 @@ api_specs:
   label: Landmark Information Group Activities API
   slug: landmark-information-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-activities-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-activities-api-openapi.yml
 - filename: landmark-information-cases-api-openapi.yml
   format: yaml
   label: Landmark Information Group Cases API
   slug: landmark-information-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-cases-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-cases-api-openapi.yml
 - filename: landmark-information-document-vaults-api-openapi.yml
   format: yaml
   label: Landmark Information Group Document Vaults API
   slug: landmark-information-document-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-document-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-document-vaults-api-openapi.yml
 - filename: landmark-information-documents-api-openapi.yml
   format: yaml
   label: Landmark Information Group Documents API
   slug: landmark-information-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-documents-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-documents-api-openapi.yml
 - filename: landmark-information-milestones-api-openapi.yml
   format: yaml
   label: Landmark Information Group Milestones API
   slug: landmark-information-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-milestones-api-openapi.yml
 - filename: landmark-information-order-experience-api-api-openapi.yml
   format: yaml
   label: Landmark Information Group Order Experience API
   slug: landmark-information-order-experience-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-order-experience-api-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-order-experience-api-api-openapi.yml
 - filename: landmark-information-quotes-api-openapi.yml
   format: yaml
   label: Landmark Information Group Quotes API
   slug: landmark-information-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-quotes-api-openapi.yml
 - filename: landmark-information-transaction-requests-api-openapi.yml
   format: yaml
   label: Landmark Information Group Transaction Requests API
   slug: landmark-information-transaction-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/openapi/landmark-information-transaction-requests-api-openapi.yml
+  url: https://artifacts.apis.io/landmark-information/openapi/landmark-information-transaction-requests-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/landma
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /callbacks/{callbackId}\n  method: put\n  operationId: spn-milestone-update-callback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /callbacks/{callbackId}\n  method: delete\n  operationId: spn-milestone-delete-callback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders\n  method:\
   \ post\n  operationId: order-experience-create-order\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: order-experience-get-order\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/status\n  method: get\n  operationId: order-experience-get-order-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/documents/{documentId}\n  method: get\n  operationId: order-experience-download-order-documents\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/results/override-aml-section\n  method: put\n  operationId: order-experience-override-order-result-aml-section\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/agentic-access/landmark-information-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/landmark-information/agentic-access/landmark-information-agentic-access.yml
 summary_line: 51 operations · 32 acting · 1 human-in-the-loop
 tags:
 - Real Estate

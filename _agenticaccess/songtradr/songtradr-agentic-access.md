@@ -9,19 +9,19 @@ api_specs:
   label: Songtradr Allowed Values API
   slug: songtradr-allowed-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/openapi/songtradr-allowed-values-api-openapi.yml
+  url: https://artifacts.apis.io/songtradr/openapi/songtradr-allowed-values-api-openapi.yml
 - filename: songtradr-similarity-vector-controller-api-openapi.yml
   format: yaml
   label: Songtradr Similarity Vector Controller API
   slug: songtradr-similarity-vector-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/openapi/songtradr-similarity-vector-controller-api-openapi.yml
+  url: https://artifacts.apis.io/songtradr/openapi/songtradr-similarity-vector-controller-api-openapi.yml
 - filename: songtradr-user-api-openapi.yml
   format: yaml
   label: Songtradr User API
   slug: songtradr-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/openapi/songtradr-user-api-openapi.yml
+  url: https://artifacts.apis.io/songtradr/openapi/songtradr-user-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 2
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/songtr
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/folder/{folderName}/tagstrengths\n  method: get\n  operationId: recordingsByFolderWithTagstrengths\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/files\n  method: get\n  operationId: userFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/filesSummary\n  method: get\n  operationId: userFilesSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/filesStatus\n  method: get\n  operationId: userFilesStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/file/{objectKey}\n\
   \  method: get\n  operationId: userFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/file/{objectKey}\n  method: delete\n  operationId: deleteUserFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/similarityVectors/{isrcOrTrackId}\n  method: get\n  operationId: getSimilarityVector\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/allowedValues/musicalFeatures\n  method: get\n  operationId: allowedMusicalFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/agentic-access/songtradr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/songtradr/agentic-access/songtradr-agentic-access.yml
 summary_line: 19 operations · 8 acting · 2 human-in-the-loop
 tags:
 - Music

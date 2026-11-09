@@ -8,13 +8,13 @@ api_specs:
   label: Candid Lookup API
   slug: candid-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/candid/openapi/candid-lookup-api-openapi.yml
 - filename: candid-essentials-api-openapi.yml
   format: yaml
   label: Candid Essentials API
   slug: candid-essentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-essentials-api-openapi.yml
+  url: https://artifacts.apis.io/candid/openapi/candid-essentials-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -42,7 +42,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/candid-lookup-api-openapi.yml, openapi/candid-search-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /lookup\n  method: get\n  operationId: listLookupFilters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/{filter_name}\n  method: get\n  operationId: getLookupByFilter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup/{filter_name}/{key_or_value}\n\
   \  method: get\n  operationId: getLookupByFilterAndKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4\n  method: post\n  operationId: searchEssentialsV4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3\n  method: post\n  operationId: searchEssentialsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2\n  method: post\n  operationId: searchEssentialsV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1\n  method: post\n  operationId: searchEssentialsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/agentic-access/candid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/candid/agentic-access/candid-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Charities

@@ -9,25 +9,25 @@ api_specs:
   label: JumpCloud Application Templates API
   slug: jumpcloud-application-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-application-templates-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-application-templates-api-openapi.yml
 - filename: jumpcloud-applications-api-openapi.yml
   format: yaml
   label: JumpCloud Applications API
   slug: jumpcloud-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-applications-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-applications-api-openapi.yml
 - filename: jumpcloud-command-results-api-openapi.yml
   format: yaml
   label: JumpCloud Command Results API
   slug: jumpcloud-command-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-command-results-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-command-results-api-openapi.yml
 - filename: jumpcloud-commands-api-openapi.yml
   format: yaml
   label: JumpCloud Commands API
   slug: jumpcloud-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-commands-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-commands-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jumpcl
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{id}\n  method: delete\n  operationId: deleteApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commands\n  method: get\n  operationId: listCommands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commands\n  method: post\n  operationId: createCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /commandresults\n  method: get\n  operationId: listCommandResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commandresults/{id}\n  method: get\n  operationId: getCommandResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commandresults/{id}\n  method: delete\n  operationId: deleteCommandResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /command/trigger/{triggername}\n  method: post\n  operationId: triggerCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/agentic-access/jumpcloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jumpcloud/agentic-access/jumpcloud-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Identity

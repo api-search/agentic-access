@@ -9,97 +9,97 @@ api_specs:
   label: Mezmo Classification API
   slug: mezmo-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-classification-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-classification-api-openapi.yml
 - filename: mezmo-deployments-api-openapi.yml
   format: yaml
   label: Mezmo Deployments API
   slug: mezmo-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-deployments-api-openapi.yml
 - filename: mezmo-destinations-api-openapi.yml
   format: yaml
   label: Mezmo Destinations API
   slug: mezmo-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-destinations-api-openapi.yml
 - filename: mezmo-edgeclients-api-openapi.yml
   format: yaml
   label: Mezmo EdgeClients API
   slug: mezmo-edgeclients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-edgeclients-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-edgeclients-api-openapi.yml
 - filename: mezmo-exclusions-api-openapi.yml
   format: yaml
   label: Mezmo Exclusions API
   slug: mezmo-exclusions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-exclusions-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-exclusions-api-openapi.yml
 - filename: mezmo-export-api-openapi.yml
   format: yaml
   label: Mezmo Export API
   slug: mezmo-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-export-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-export-api-openapi.yml
 - filename: mezmo-heartbeats-api-openapi.yml
   format: yaml
   label: Mezmo Heartbeats API
   slug: mezmo-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-heartbeats-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-heartbeats-api-openapi.yml
 - filename: mezmo-logs-api-openapi.yml
   format: yaml
   label: Mezmo Logs API
   slug: mezmo-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-logs-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-logs-api-openapi.yml
 - filename: mezmo-metrics-api-openapi.yml
   format: yaml
   label: Mezmo Metrics API
   slug: mezmo-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-metrics-api-openapi.yml
 - filename: mezmo-pipelines-api-openapi.yml
   format: yaml
   label: Mezmo Pipelines API
   slug: mezmo-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-pipelines-api-openapi.yml
 - filename: mezmo-presetalerts-api-openapi.yml
   format: yaml
   label: Mezmo PresetAlerts API
   slug: mezmo-presetalerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-presetalerts-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-presetalerts-api-openapi.yml
 - filename: mezmo-processors-api-openapi.yml
   format: yaml
   label: Mezmo Processors API
   slug: mezmo-processors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-processors-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-processors-api-openapi.yml
 - filename: mezmo-sources-api-openapi.yml
   format: yaml
   label: Mezmo Sources API
   slug: mezmo-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-sources-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-sources-api-openapi.yml
 - filename: mezmo-suspension-api-openapi.yml
   format: yaml
   label: Mezmo Suspension API
   slug: mezmo-suspension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-suspension-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-suspension-api-openapi.yml
 - filename: mezmo-tasks-api-openapi.yml
   format: yaml
   label: Mezmo Tasks API
   slug: mezmo-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-tasks-api-openapi.yml
 - filename: mezmo-audit-events-api-openapi.yml
   format: yaml
   label: Mezmo Audit Events API
   slug: mezmo-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/openapi/mezmo-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/mezmo/openapi/mezmo-audit-events-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 25
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mezmo-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /classification/regex\n  method: post\n  operationId: generateRegex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/usage/{type}\n  method: get\n  operationId: getUsageByType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/usage\n  method: get\n  operationId: getUsageDetailed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/config/view\n  method: get\n  operationId: listViews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/config/view\n  method: post\n  operationId: createView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/config/view/{viewid}\n  method: get\n  operationId: getView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/config/view/{viewid}\n  method: put\n  operationId: updateView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/config/view/{viewid}\n\
   \  method: delete\n  operationId: deleteView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/agentic-access/mezmo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mezmo/agentic-access/mezmo-agentic-access.yml
 summary_line: 62 operations · 37 acting · 3 human-in-the-loop
 tags:
 - Observability

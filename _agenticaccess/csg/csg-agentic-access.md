@@ -9,25 +9,25 @@ api_specs:
   label: CSG Systems Customers API
   slug: csg-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-customers-api-openapi.yml
+  url: https://artifacts.apis.io/csg/openapi/csg-customers-api-openapi.yml
 - filename: csg-payment-methods-api-openapi.yml
   format: yaml
   label: CSG Systems Payment Methods API
   slug: csg-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/csg/openapi/csg-payment-methods-api-openapi.yml
 - filename: csg-settlements-api-openapi.yml
   format: yaml
   label: CSG Systems Settlements API
   slug: csg-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/csg/openapi/csg-settlements-api-openapi.yml
 - filename: csg-transactions-api-openapi.yml
   format: yaml
   label: CSG Systems Transactions API
   slug: csg-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/csg/openapi/csg-transactions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/csg-fo
   \  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/locations/{locationId}/customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/locations/{locationId}/customers/{customerId}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/locations/{locationId}/customers/{customerId}\n  method: put\n  operationId: updateCustomer\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/locations/{locationId}/customers/{customerId}\n  method: delete\n  operationId: deleteCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/locations/{locationId}/paymentmethods\n  method: get\n  operationId: listPaymentMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/locations/{locationId}/paymentmethods\n\
   \  method: post\n  operationId: createPaymentMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/locations/{locationId}/settlements\n  method: get\n  operationId: listSettlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/agentic-access/csg-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/csg/agentic-access/csg-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Billing

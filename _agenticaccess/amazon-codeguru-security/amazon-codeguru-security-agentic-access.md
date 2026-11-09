@@ -9,49 +9,49 @@ api_specs:
   label: Amazon CodeGuru Security Findings API
   slug: amazon-codeguru-security-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-findings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-findings-api-openapi.yml
 - filename: amazon-codeguru-security-metrics-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Metrics API
   slug: amazon-codeguru-security-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-metrics-api-openapi.yml
 - filename: amazon-codeguru-security-scans-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Scans API
   slug: amazon-codeguru-security-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-scans-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-scans-api-openapi.yml
 - filename: amazon-codeguru-security-tags-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Tags API
   slug: amazon-codeguru-security-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-tags-api-openapi.yml
 - filename: amazon-codeguru-security-account-configuration-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Account Configuration API
   slug: amazon-codeguru-security-account-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-account-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-account-configuration-api-openapi.yml
 - filename: amazon-codeguru-security-batch-get-findings-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Batch Get Findings API
   slug: amazon-codeguru-security-batch-get-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-batch-get-findings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-batch-get-findings-api-openapi.yml
 - filename: amazon-codeguru-security-update-account-configuration-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Update Account Configuration API
   slug: amazon-codeguru-security-update-account-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-update-account-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-update-account-configuration-api-openapi.yml
 - filename: amazon-codeguru-security-upload-url-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Upload URL API
   slug: amazon-codeguru-security-upload-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-upload-url-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-upload-url-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -82,10 +82,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ 3600\n    audit: none\n- path: /findings/{scanName}\n  method: get\n  operationId: GetFindings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/summary#date\n  method: get\n  operationId: GetMetricsSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scans/{scanName}\n  method: get\n  operationId: GetScan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/findings#endDate&startDate\n  method: get\n  operationId: ListFindingsMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updateAccountConfiguration\n  method: put\n  operationId: UpdateAccountConfiguration\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/agentic-access/amazon-codeguru-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-codeguru-security/agentic-access/amazon-codeguru-security-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Amazon
+- Amazon Web Services
 - Security
 - SAST
 - Code Analysis

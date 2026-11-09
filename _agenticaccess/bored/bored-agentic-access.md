@@ -9,31 +9,31 @@ api_specs:
   label: Bored API Activities API
   slug: bored-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-activities-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-activities-api-openapi.yml
 - filename: bored-facts-api-openapi.yml
   format: yaml
   label: Bored API Facts API
   slug: bored-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-facts-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-facts-api-openapi.yml
 - filename: bored-riddles-api-openapi.yml
   format: yaml
   label: Bored API Riddles API
   slug: bored-riddles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-riddles-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-riddles-api-openapi.yml
 - filename: bored-suggestions-api-openapi.yml
   format: yaml
   label: Bored API Suggestions API
   slug: bored-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-suggestions-api-openapi.yml
 - filename: bored-websites-api-openapi.yml
   format: yaml
   label: Bored API Websites API
   slug: bored-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-websites-api-openapi.yml
+  url: https://artifacts.apis.io/bored/openapi/bored-websites-api-openapi.yml
 consequence_counts:
   read: 13
   write: 1
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bored-
   \ none\n- path: /api/v2/activities\n  method: get\n  operationId: getRandomActivityV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/activities/{key}\n  method: get\n  operationId: getActivityByKeyV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/facts\n  method: get\n  operationId: getRandomFact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/facts/{key}\n  method: get\n  operationId: getFactByKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/riddles\n  method: get\n  operationId: getRandomRiddle\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/riddles/{key}\n  method: get\n  operationId: getRiddleByKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/websites\n  method: get\n  operationId: getRandomWebsite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/websites/{key}\n  method: get\n  operationId: getWebsiteByKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/suggestions\n  method: post\n  operationId: submitSuggestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /random\n  method: get\n  operationId: getRandom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /filter\n  method: get\n  operationId: filterActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activity/{key}\n  method: get\n  operationId: getActivityByKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/agentic-access/bored-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bored/agentic-access/bored-agentic-access.yml
 summary_line: 14 operations · 1 acting
 tags:
 - Activities

@@ -9,85 +9,85 @@ api_specs:
   label: Pinwheel Accounts API
   slug: pinwheel-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-accounts-api-openapi.yml
 - filename: pinwheel-api-keys-api-openapi.yml
   format: yaml
   label: Pinwheel API Keys API
   slug: pinwheel-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-api-keys-api-openapi.yml
 - filename: pinwheel-company-connect-api-openapi.yml
   format: yaml
   label: Pinwheel Company Connect API
   slug: pinwheel-company-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-company-connect-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-company-connect-api-openapi.yml
 - filename: pinwheel-direct-deposit-allocations-api-openapi.yml
   format: yaml
   label: Pinwheel Direct Deposit Allocations API
   slug: pinwheel-direct-deposit-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-direct-deposit-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-direct-deposit-allocations-api-openapi.yml
 - filename: pinwheel-earnings-stream-api-openapi.yml
   format: yaml
   label: Pinwheel Earnings Stream API
   slug: pinwheel-earnings-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-earnings-stream-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-earnings-stream-api-openapi.yml
 - filename: pinwheel-employers-and-platforms-api-openapi.yml
   format: yaml
   label: Pinwheel Employers and Platforms API
   slug: pinwheel-employers-and-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-employers-and-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-employers-and-platforms-api-openapi.yml
 - filename: pinwheel-end-users-api-openapi.yml
   format: yaml
   label: Pinwheel End Users API
   slug: pinwheel-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-end-users-api-openapi.yml
 - filename: pinwheel-income-and-employment-api-openapi.yml
   format: yaml
   label: Pinwheel Income and Employment API
   slug: pinwheel-income-and-employment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-income-and-employment-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-income-and-employment-api-openapi.yml
 - filename: pinwheel-jobs-api-openapi.yml
   format: yaml
   label: Pinwheel Jobs API
   slug: pinwheel-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-jobs-api-openapi.yml
 - filename: pinwheel-link-tokens-api-openapi.yml
   format: yaml
   label: Pinwheel Link Tokens API
   slug: pinwheel-link-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-link-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-link-tokens-api-openapi.yml
 - filename: pinwheel-sandbox-api-openapi.yml
   format: yaml
   label: Pinwheel Sandbox API
   slug: pinwheel-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-sandbox-api-openapi.yml
 - filename: pinwheel-tax-forms-api-openapi.yml
   format: yaml
   label: Pinwheel Tax Forms API
   slug: pinwheel-tax-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-tax-forms-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-tax-forms-api-openapi.yml
 - filename: pinwheel-verification-reports-api-openapi.yml
   format: yaml
   label: Pinwheel Verification Reports API
   slug: pinwheel-verification-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-verification-reports-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-verification-reports-api-openapi.yml
 - filename: pinwheel-webhooks-api-openapi.yml
   format: yaml
   label: Pinwheel Webhooks API
   slug: pinwheel-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/openapi/pinwheel-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pinwheel/openapi/pinwheel-webhooks-api-openapi.yml
 consequence_counts:
   read: 33
   safety-critical: 3
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pinwhe
   \  method: get\n  operationId: get_v1_company_connections__company_connection_id__paystubs__employee_external_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company_connect/link_tokens\n  method: post\n  operationId: post_v1_company_connect_link_tokens_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandbox/accounts/{account_id}\n  method: patch\n  operationId: patch_monitoring_status_v1_sandbox_accounts__account_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n  \
   \    proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /admin/token\n  method: post\n  operationId: auth_v1_admin_token_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/api_keys\n  method: get\n  operationId: list_keys_v1_admin_api_keys_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/api_keys\n  method: post\n  operationId: create_key_v1_admin_api_keys_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /admin/api_keys/{api_key}/revoke\n  method: post\n  operationId: revoke_key_v1_admin_api_keys__api_key__revoke_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/agentic-access/pinwheel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pinwheel/agentic-access/pinwheel-agentic-access.yml
 summary_line: 46 operations · 13 acting · 3 human-in-the-loop
 tags:
 - Payroll

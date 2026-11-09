@@ -15,151 +15,151 @@ api_specs:
   label: Seldon AlertingService API
   slug: seldon-alertingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-alertingservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-alertingservice-api-openapi.yml
 - filename: seldon-driftdetector-api-openapi.yml
   format: yaml
   label: Seldon DriftDetector API
   slug: seldon-driftdetector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-driftdetector-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-driftdetector-api-openapi.yml
 - filename: seldon-environment-api-openapi.yml
   format: yaml
   label: Seldon Environment API
   slug: seldon-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-environment-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-environment-api-openapi.yml
 - filename: seldon-experiments-api-openapi.yml
   format: yaml
   label: Seldon Experiments API
   slug: seldon-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-experiments-api-openapi.yml
 - filename: seldon-explain-api-openapi.yml
   format: yaml
   label: Seldon Explain API
   slug: seldon-explain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-explain-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-explain-api-openapi.yml
 - filename: seldon-health-api-openapi.yml
   format: yaml
   label: Seldon Health API
   slug: seldon-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-health-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-health-api-openapi.yml
 - filename: seldon-inferencelogsservice-api-openapi.yml
   format: yaml
   label: Seldon InferenceLogsService API
   slug: seldon-inferencelogsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-inferencelogsservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-inferencelogsservice-api-openapi.yml
 - filename: seldon-internal-api-openapi.yml
   format: yaml
   label: Seldon Internal API
   slug: seldon-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-internal-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-internal-api-openapi.yml
 - filename: seldon-kubernetesresources-api-openapi.yml
   format: yaml
   label: Seldon KubernetesResources API
   slug: seldon-kubernetesresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-kubernetesresources-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-kubernetesresources-api-openapi.yml
 - filename: seldon-loadtestjobs-api-openapi.yml
   format: yaml
   label: Seldon LoadtestJobs API
   slug: seldon-loadtestjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-loadtestjobs-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-loadtestjobs-api-openapi.yml
 - filename: seldon-metadata-api-openapi.yml
   format: yaml
   label: Seldon Metadata API
   slug: seldon-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-metadata-api-openapi.yml
 - filename: seldon-metricsserver-api-openapi.yml
   format: yaml
   label: Seldon MetricsServer API
   slug: seldon-metricsserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-metricsserver-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-metricsserver-api-openapi.yml
 - filename: seldon-modelmetadataservice-api-openapi.yml
   format: yaml
   label: Seldon ModelMetadataService API
   slug: seldon-modelmetadataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-modelmetadataservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-modelmetadataservice-api-openapi.yml
 - filename: seldon-models-api-openapi.yml
   format: yaml
   label: Seldon Models API
   slug: seldon-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-models-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-models-api-openapi.yml
 - filename: seldon-monitor-api-openapi.yml
   format: yaml
   label: Seldon Monitor API
   slug: seldon-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-monitor-api-openapi.yml
 - filename: seldon-outlierdetector-api-openapi.yml
   format: yaml
   label: Seldon OutlierDetector API
   slug: seldon-outlierdetector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-outlierdetector-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-outlierdetector-api-openapi.yml
 - filename: seldon-permissionmanagementservice-api-openapi.yml
   format: yaml
   label: Seldon PermissionManagementService API
   slug: seldon-permissionmanagementservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-permissionmanagementservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-permissionmanagementservice-api-openapi.yml
 - filename: seldon-pipelines-api-openapi.yml
   format: yaml
   label: Seldon Pipelines API
   slug: seldon-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-pipelines-api-openapi.yml
 - filename: seldon-predict-api-openapi.yml
   format: yaml
   label: Seldon Predict API
   slug: seldon-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-predict-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-predict-api-openapi.yml
 - filename: seldon-secretsservice-api-openapi.yml
   format: yaml
   label: Seldon SecretsService API
   slug: seldon-secretsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-secretsservice-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-secretsservice-api-openapi.yml
 - filename: seldon-seldondeployments-api-openapi.yml
   format: yaml
   label: Seldon SeldonDeployments API
   slug: seldon-seldondeployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-seldondeployments-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-seldondeployments-api-openapi.yml
 - filename: seldon-application-logs-api-openapi.yml
   format: yaml
   label: Seldon Application Logs API
   slug: seldon-application-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-application-logs-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-application-logs-api-openapi.yml
 - filename: seldon-batch-jobs-api-openapi.yml
   format: yaml
   label: Seldon Batch Jobs API
   slug: seldon-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-batch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-batch-jobs-api-openapi.yml
 - filename: seldon-git-ops-api-openapi.yml
   format: yaml
   label: Seldon Git Ops API
   slug: seldon-git-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-git-ops-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-git-ops-api-openapi.yml
 - filename: seldon-health-check-service-api-openapi.yml
   format: yaml
   label: Seldon Health Check Service API
   slug: seldon-health-check-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-health-check-service-api-openapi.yml
+  url: https://artifacts.apis.io/seldon/openapi/seldon-health-check-service-api-openapi.yml
 consequence_counts:
   physical: 21
   read: 68
@@ -333,8 +333,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/seldon
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n- path: /model/metadata\n  method: put\n  operationId: ModelMetadataService_UpdateModelMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n- path: /model/metadata/runtime\n  method: get\n  operationId: ModelMetadataService_ListRuntimeMetadataForModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /namespaces/{namespace}/models\n  method: post\n\
   \  operationId: CreateModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n- path: /namespaces/{namespace}/models/{name}\n  method: delete\n  operationId: DeleteModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n- path: /namespaces/{namespace}/models/{name}\n  method: get\n  operationId: ReadModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /namespaces/{namespace}/models/{name}\n\
   \  method: put\n  operationId: UpdateModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n- path: /namespaces/{namespace}/pipelines/{name}/monitor/featuredistributions\n  method: post\n  operationId: SeldonPipelineFeatureDistributions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n- path: /namespaces/{namespace}/pipelines/{name}/monitor/featurestatistics\n  method: post\n  operationId: SeldonPipelineFeatureStatistics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
-  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n- path: /namespaces/{namespace}/seldondeployments/{name}/monitor/featuredistributions\n  method: post\n  operationId: SeldonDeploymentFeatureDistributions\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/agentic-access/seldon-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/agentic-access/seldon-agentic-access.yml
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n- path: /namespaces/{namespace}/seldondeployments/{name}/monitor/featuredistributions\n  method: post\n  operationId: SeldonDeploymentFeatureDistributions\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - '[]'\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/seldon/agentic-access/seldon-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/seldon/agentic-access/seldon-agentic-access.yml
 summary_line: 145 operations · 77 acting · 1 human-in-the-loop
 tags:
 - MLOps

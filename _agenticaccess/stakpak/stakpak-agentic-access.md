@@ -9,121 +9,121 @@ api_specs:
   label: StakPak Account API
   slug: stakpak-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-account-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-account-api-openapi.yml
 - filename: stakpak-account-v2-api-openapi.yml
   format: yaml
   label: StakPak Account (V2) API
   slug: stakpak-account-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-account-v2-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-account-v2-api-openapi.yml
 - filename: stakpak-agents-api-openapi.yml
   format: yaml
   label: StakPak Agents API
   slug: stakpak-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-agents-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-agents-api-openapi.yml
 - filename: stakpak-agents-v2-api-openapi.yml
   format: yaml
   label: StakPak Agents (V2) API
   slug: stakpak-agents-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-agents-v2-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-agents-v2-api-openapi.yml
 - filename: stakpak-billing-v2-api-openapi.yml
   format: yaml
   label: StakPak Billing (V2) API
   slug: stakpak-billing-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-billing-v2-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-billing-v2-api-openapi.yml
 - filename: stakpak-commands-api-openapi.yml
   format: yaml
   label: StakPak Commands API
   slug: stakpak-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-commands-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-commands-api-openapi.yml
 - filename: stakpak-knowledge-api-openapi.yml
   format: yaml
   label: StakPak Knowledge API
   slug: stakpak-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-knowledge-api-openapi.yml
 - filename: stakpak-knowledge-registry-api-openapi.yml
   format: yaml
   label: StakPak Knowledge Registry API
   slug: stakpak-knowledge-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-knowledge-registry-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-knowledge-registry-api-openapi.yml
 - filename: stakpak-mcp-api-openapi.yml
   format: yaml
   label: StakPak MCP API
   slug: stakpak-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-mcp-api-openapi.yml
 - filename: stakpak-memory-api-openapi.yml
   format: yaml
   label: StakPak Memory API
   slug: stakpak-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-memory-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-memory-api-openapi.yml
 - filename: stakpak-memory-v2-api-openapi.yml
   format: yaml
   label: StakPak Memory (V2) API
   slug: stakpak-memory-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-memory-v2-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-memory-v2-api-openapi.yml
 - filename: stakpak-organizations-api-openapi.yml
   format: yaml
   label: StakPak Organizations API
   slug: stakpak-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-organizations-api-openapi.yml
 - filename: stakpak-recovery-api-openapi.yml
   format: yaml
   label: StakPak Recovery API
   slug: stakpak-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-recovery-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-recovery-api-openapi.yml
 - filename: stakpak-rules-api-openapi.yml
   format: yaml
   label: StakPak Rules API
   slug: stakpak-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-rules-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-rules-api-openapi.yml
 - filename: stakpak-rules-v2-api-openapi.yml
   format: yaml
   label: StakPak Rules (V2) API
   slug: stakpak-rules-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-rules-v2-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-rules-v2-api-openapi.yml
 - filename: stakpak-runners-v2-api-openapi.yml
   format: yaml
   label: StakPak Runners (V2) API
   slug: stakpak-runners-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-runners-v2-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-runners-v2-api-openapi.yml
 - filename: stakpak-sessions-api-openapi.yml
   format: yaml
   label: StakPak Sessions API
   slug: stakpak-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-sessions-api-openapi.yml
 - filename: stakpak-telemetry-api-openapi.yml
   format: yaml
   label: StakPak Telemetry API
   slug: stakpak-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-telemetry-api-openapi.yml
 - filename: stakpak-upload-api-openapi.yml
   format: yaml
   label: StakPak Upload API
   slug: stakpak-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-upload-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-upload-api-openapi.yml
 - filename: stakpak-chat-completions-api-openapi.yml
   format: yaml
   label: StakPak Chat Completions API
   slug: stakpak-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/openapi/stakpak-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/stakpak/openapi/stakpak-chat-completions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 48
@@ -212,7 +212,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/stakpa
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sessions/{session_id}\n  method: delete\n  operationId: delete_session_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sessions/{session_id}\n  method: patch\n  operationId: update_session_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sessions/{session_id}/checkpoints\n  method: get\n  operationId: list_checkpoints_handler\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sessions/{session_id}/checkpoints\n  method: post\n  operationId: create_checkpoint_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/telemetry\n  method: post\n  operationId: telemetry_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/upload\n  method: post\n  operationId: upload_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/agentic-access/stakpak-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stakpak/agentic-access/stakpak-agentic-access.yml
 summary_line: 99 operations · 51 acting · 1 human-in-the-loop
 tags:
 - Company

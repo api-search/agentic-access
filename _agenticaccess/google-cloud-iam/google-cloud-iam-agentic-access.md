@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud IAM Permissions API
   slug: google-cloud-iam-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-permissions-api-openapi.yml
 - filename: google-cloud-iam-roles-api-openapi.yml
   format: yaml
   label: Google Cloud IAM Roles API
   slug: google-cloud-iam-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-roles-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-roles-api-openapi.yml
 - filename: google-cloud-iam-service-account-keys-api-openapi.yml
   format: yaml
   label: Google Cloud IAM Service Account Keys API
   slug: google-cloud-iam-service-account-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-service-account-keys-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-service-account-keys-api-openapi.yml
 - filename: google-cloud-iam-service-accounts-api-openapi.yml
   format: yaml
   label: Google Cloud IAM Service Accounts API
   slug: google-cloud-iam-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/openapi/google-cloud-iam-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-service-accounts-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/serviceAccounts/{serviceAccountEmail}/keys\n  method: post\n  operationId: createServiceAccountKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/serviceAccounts\n  method: get\n  operationId: listServiceAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/serviceAccounts\n  method: post\n  operationId: createServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/serviceAccounts/{serviceAccountEmail}\n  method: get\n  operationId: getServiceAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/serviceAccounts/{serviceAccountEmail}\n  method: patch\n  operationId: patchServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/serviceAccounts/{serviceAccountEmail}\n  method: delete\n  operationId: deleteServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/agentic-access/google-cloud-iam-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-iam/agentic-access/google-cloud-iam-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Identity and Access Management

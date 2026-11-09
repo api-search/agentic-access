@@ -9,31 +9,31 @@ api_specs:
   label: Apache BookKeeper Auto Recovery API
   slug: apache-bookkeeper-auto-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-auto-recovery-api-openapi.yml
+  url: https://artifacts.apis.io/apache-bookkeeper/openapi/apache-bookkeeper-auto-recovery-api-openapi.yml
 - filename: apache-bookkeeper-bookies-api-openapi.yml
   format: yaml
   label: Apache BookKeeper Bookies API
   slug: apache-bookkeeper-bookies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-bookies-api-openapi.yml
+  url: https://artifacts.apis.io/apache-bookkeeper/openapi/apache-bookkeeper-bookies-api-openapi.yml
 - filename: apache-bookkeeper-configuration-api-openapi.yml
   format: yaml
   label: Apache BookKeeper Configuration API
   slug: apache-bookkeeper-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/apache-bookkeeper/openapi/apache-bookkeeper-configuration-api-openapi.yml
 - filename: apache-bookkeeper-ledgers-api-openapi.yml
   format: yaml
   label: Apache BookKeeper Ledgers API
   slug: apache-bookkeeper-ledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-ledgers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-bookkeeper/openapi/apache-bookkeeper-ledgers-api-openapi.yml
 - filename: apache-bookkeeper-monitoring-api-openapi.yml
   format: yaml
   label: Apache BookKeeper Monitoring API
   slug: apache-bookkeeper-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/apache-bookkeeper/openapi/apache-bookkeeper-monitoring-api-openapi.yml
 consequence_counts:
   read: 14
   write: 5
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ 3600\n    audit: none\n- path: /api/v1/bookie/cluster_info\n  method: get\n  operationId: getClusterInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bookie/state\n  method: get\n  operationId: getBookieState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bookie/is_ready\n  method: get\n  operationId: isBookieReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bookie/gc\n  method: get\n  operationId: getGcStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bookie/gc\n  method: put\n  operationId: triggerGarbageCollection\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/autorecovery/who_is_auditor\n  method: get\n  operationId: getAuditor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/autorecovery/list_under_replicated_ledger\n  method: get\n  operationId: listUnderReplicatedLedgers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/autorecovery/trigger_audit\n  method: put\n  operationId: triggerAudit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/autorecovery/decommission\n  method: put\n  operationId: decommissionBookie\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/agentic-access/apache-bookkeeper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-bookkeeper/agentic-access/apache-bookkeeper-agentic-access.yml
 summary_line: 19 operations · 5 acting
 tags:
 - Apache

@@ -9,49 +9,49 @@ api_specs:
   label: Advanced Micro Devices Configuration API
   slug: advanced-micro-devices-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-configuration-api-openapi.yml
 - filename: advanced-micro-devices-credits-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Credits API
   slug: advanced-micro-devices-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-credits-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-credits-api-openapi.yml
 - filename: advanced-micro-devices-devices-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices API
   slug: advanced-micro-devices-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-devices-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-devices-api-openapi.yml
 - filename: advanced-micro-devices-health-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Health API
   slug: advanced-micro-devices-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-health-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-health-api-openapi.yml
 - filename: advanced-micro-devices-instances-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Instances API
   slug: advanced-micro-devices-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-instances-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-instances-api-openapi.yml
 - filename: advanced-micro-devices-models-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Models API
   slug: advanced-micro-devices-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-models-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-models-api-openapi.yml
 - filename: advanced-micro-devices-monitoring-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Monitoring API
   slug: advanced-micro-devices-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-monitoring-api-openapi.yml
 - filename: advanced-micro-devices-performance-api-openapi.yml
   format: yaml
   label: Advanced Micro Devices Performance API
   slug: advanced-micro-devices-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/advanced-micro-devices-performance-api-openapi.yml
+  url: https://artifacts.apis.io/advanced-micro-devices/openapi/advanced-micro-devices-performance-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amd-de
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{instanceId}\n  method: get\n  operationId: getInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{instanceId}\n  method: delete\n  operationId: terminateInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /instances/{instanceId}/metrics\n  method: get\n  operationId: getInstanceMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models\n  method: post\n  operationId: deployModel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credits\n  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{deviceId}\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{deviceId}/health\n  method: get\n  operationId: getDeviceHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{deviceId}/performance\n  method: get\n  operationId: getDevicePerformance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system/rocm-version\n  method: get\n  operationId: getRocmVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/agentic-access/advanced-micro-devices-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/advanced-micro-devices/agentic-access/advanced-micro-devices-agentic-access.yml
 summary_line: 13 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

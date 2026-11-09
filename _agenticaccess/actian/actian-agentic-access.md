@@ -9,49 +9,49 @@ api_specs:
   label: Actian Corporation Access Tokens API
   slug: actian-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actian/refs/heads/main/openapi/actian-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/actian/openapi/actian-access-tokens-api-openapi.yml
 - filename: actian-admin-user-api-openapi.yml
   format: yaml
   label: Actian Corporation Admin User API
   slug: actian-admin-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actian/refs/heads/main/openapi/actian-admin-user-api-openapi.yml
+  url: https://artifacts.apis.io/actian/openapi/actian-admin-user-api-openapi.yml
 - filename: actian-collections-api-openapi.yml
   format: yaml
   label: Actian Corporation Collections API
   slug: actian-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actian/refs/heads/main/openapi/actian-collections-api-openapi.yml
+  url: https://artifacts.apis.io/actian/openapi/actian-collections-api-openapi.yml
 - filename: actian-count-api-openapi.yml
   format: yaml
   label: Actian Corporation Count API
   slug: actian-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actian/refs/heads/main/openapi/actian-count-api-openapi.yml
+  url: https://artifacts.apis.io/actian/openapi/actian-count-api-openapi.yml
 - filename: actian-filters-api-openapi.yml
   format: yaml
   label: Actian Corporation Filters API
   slug: actian-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actian/refs/heads/main/openapi/actian-filters-api-openapi.yml
+  url: https://artifacts.apis.io/actian/openapi/actian-filters-api-openapi.yml
 - filename: actian-points-api-openapi.yml
   format: yaml
   label: Actian Corporation Points API
   slug: actian-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actian/refs/heads/main/openapi/actian-points-api-openapi.yml
+  url: https://artifacts.apis.io/actian/openapi/actian-points-api-openapi.yml
 - filename: actian-scroll-api-openapi.yml
   format: yaml
   label: Actian Corporation Scroll API
   slug: actian-scroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actian/refs/heads/main/openapi/actian-scroll-api-openapi.yml
+  url: https://artifacts.apis.io/actian/openapi/actian-scroll-api-openapi.yml
 - filename: actian-search-api-openapi.yml
   format: yaml
   label: Actian Corporation Search API
   slug: actian-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actian/refs/heads/main/openapi/actian-search-api-openapi.yml
+  url: https://artifacts.apis.io/actian/openapi/actian-search-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/authen
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_name}/points/payload\n  method: post\n  operationId: set_payload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_name}/points/payload\n  method: put\n  operationId: overwrite_payload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /collections/{collection_name}/points/payload/delete\n  method: post\n  operationId: delete_payload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_name}/points/payload/clear\n  method: post\n  operationId: clear_payload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_name}/points/search\n  method: post\n  operationId: search_points\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /collections/{collection_name}/points/search/batch\n  method: post\n  operationId: search_batch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_name}/points/scroll\n  method: post\n  operationId: scroll_points\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_name}/points/count\n  method: post\n  operationId: count_points\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actian/refs/heads/main/agentic-access/actian-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/actian/agentic-access/actian-agentic-access.yml
 summary_line: 29 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,145 +9,145 @@ api_specs:
   label: Hiro Accounts API
   slug: hiro-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-accounts-api-openapi.yml
 - filename: hiro-atlas-api-openapi.yml
   format: yaml
   label: Hiro Atlas API
   slug: hiro-atlas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-atlas-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-atlas-api-openapi.yml
 - filename: hiro-blocks-api-openapi.yml
   format: yaml
   label: Hiro Blocks API
   slug: hiro-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-blocks-api-openapi.yml
 - filename: hiro-blocks-proposals-api-openapi.yml
   format: yaml
   label: Hiro Blocks Proposals API
   slug: hiro-blocks-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-blocks-proposals-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-blocks-proposals-api-openapi.yml
 - filename: hiro-burn-blocks-api-openapi.yml
   format: yaml
   label: Hiro Burn Blocks API
   slug: hiro-burn-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-burn-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-burn-blocks-api-openapi.yml
 - filename: hiro-faucets-api-openapi.yml
   format: yaml
   label: Hiro Faucets API
   slug: hiro-faucets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-faucets-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-faucets-api-openapi.yml
 - filename: hiro-fees-api-openapi.yml
   format: yaml
   label: Hiro Fees API
   slug: hiro-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-fees-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-fees-api-openapi.yml
 - filename: hiro-fungible-tokens-api-openapi.yml
   format: yaml
   label: Hiro Fungible Tokens API
   slug: hiro-fungible-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-fungible-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-fungible-tokens-api-openapi.yml
 - filename: hiro-info-api-openapi.yml
   format: yaml
   label: Hiro Info API
   slug: hiro-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-info-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-info-api-openapi.yml
 - filename: hiro-mempool-api-openapi.yml
   format: yaml
   label: Hiro Mempool API
   slug: hiro-mempool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-mempool-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-mempool-api-openapi.yml
 - filename: hiro-mining-api-openapi.yml
   format: yaml
   label: Hiro Mining API
   slug: hiro-mining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-mining-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-mining-api-openapi.yml
 - filename: hiro-names-api-openapi.yml
   format: yaml
   label: Hiro Names API
   slug: hiro-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-names-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-names-api-openapi.yml
 - filename: hiro-non-fungible-tokens-api-openapi.yml
   format: yaml
   label: Hiro Non-Fungible Tokens API
   slug: hiro-non-fungible-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-non-fungible-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-non-fungible-tokens-api-openapi.yml
 - filename: hiro-proof-of-transfer-api-openapi.yml
   format: yaml
   label: Hiro Proof of Transfer API
   slug: hiro-proof-of-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-proof-of-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-proof-of-transfer-api-openapi.yml
 - filename: hiro-search-api-openapi.yml
   format: yaml
   label: Hiro Search API
   slug: hiro-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-search-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-search-api-openapi.yml
 - filename: hiro-signers-api-openapi.yml
   format: yaml
   label: Hiro Signers API
   slug: hiro-signers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-signers-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-signers-api-openapi.yml
 - filename: hiro-smart-contracts-api-openapi.yml
   format: yaml
   label: Hiro Smart Contracts API
   slug: hiro-smart-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-smart-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-smart-contracts-api-openapi.yml
 - filename: hiro-stackerdb-api-openapi.yml
   format: yaml
   label: Hiro StackerDB API
   slug: hiro-stackerdb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-stackerdb-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-stackerdb-api-openapi.yml
 - filename: hiro-stacking-api-openapi.yml
   format: yaml
   label: Hiro Stacking API
   slug: hiro-stacking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-stacking-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-stacking-api-openapi.yml
 - filename: hiro-stacking-rewards-api-openapi.yml
   format: yaml
   label: Hiro Stacking Rewards API
   slug: hiro-stacking-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-stacking-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-stacking-rewards-api-openapi.yml
 - filename: hiro-status-api-openapi.yml
   format: yaml
   label: Hiro Status API
   slug: hiro-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-status-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-status-api-openapi.yml
 - filename: hiro-tokens-api-openapi.yml
   format: yaml
   label: Hiro Tokens API
   slug: hiro-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-tokens-api-openapi.yml
 - filename: hiro-transactions-api-openapi.yml
   format: yaml
   label: Hiro Transactions API
   slug: hiro-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-transactions-api-openapi.yml
 - filename: hiro-micro-blocks-api-openapi.yml
   format: yaml
   label: Hiro Micro Blocks API
   slug: hiro-micro-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/openapi/hiro-micro-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/hiro/openapi/hiro-micro-blocks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 148
@@ -218,8 +218,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hiro-a
   \ /v2/clarity/marf/{marf_key_hash}\n  method: get\n  operationId: getClarityMarfValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/clarity/metadata/{deployer_address}/{contract_name}/{clarity_metadata_key}\n  method: get\n  operationId: getClarityMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/constant_val/{deployer_address}/{contract_name}/{constant_name}\n  method: get\n  operationId: getConstantValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/data_var/{principal}/{contract_name}/{var_name}\n  method: get\n  operationId: getContractDataVariable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stackerdb/{principal}/{contract_name}/{slot_id}\n  method: get\n  operationId: getStackerDbChunk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stackerdb/{principal}/{contract_name}/{slot_id}/{slot_version}\n  method: get\n  operationId: getStackerDbChunkVersioned\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stackerdb/{principal}/{contract_name}\n  method: get\n  operationId: getStackerDbMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stackerdb/{principal}/{contract_name}/chunks\n  method: post\n  operationId: postStackerDbChunk\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/stackerdb/{principal}/{contract_name}/replicas\n  method: get\n  operationId: listStackerDbReplicas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extended/v1/{pox}/events\n  method: get\n  operationId: getExtendedV1ByPoxEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extended/v1/{pox}/tx/{tx_id}\n  method: get\n  operationId: getExtendedV1ByPoxTxByTxId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n\
-  # Full source: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/agentic-access/hiro-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/agentic-access/hiro-agentic-access.yml
+  # Full source: https://artifacts.apis.io/hiro/agentic-access/hiro-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/hiro/agentic-access/hiro-agentic-access.yml
 summary_line: 159 operations · 11 acting
 tags:
 - Web3

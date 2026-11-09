@@ -9,121 +9,121 @@ api_specs:
   label: Schematic Accounts API
   slug: schematic-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-accounts-api-openapi.yml
 - filename: schematic-billing-api-openapi.yml
   format: yaml
   label: Schematic Billing API
   slug: schematic-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-billing-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-billing-api-openapi.yml
 - filename: schematic-checkout-api-openapi.yml
   format: yaml
   label: Schematic Checkout API
   slug: schematic-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-checkout-api-openapi.yml
 - filename: schematic-companies-api-openapi.yml
   format: yaml
   label: Schematic Companies API
   slug: schematic-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-companies-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-companies-api-openapi.yml
 - filename: schematic-components-api-openapi.yml
   format: yaml
   label: Schematic Components API
   slug: schematic-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-components-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-components-api-openapi.yml
 - filename: schematic-componentspublic-api-openapi.yml
   format: yaml
   label: Schematic Componentspublic API
   slug: schematic-componentspublic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-componentspublic-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-componentspublic-api-openapi.yml
 - filename: schematic-credits-api-openapi.yml
   format: yaml
   label: Schematic Credits API
   slug: schematic-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-credits-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-credits-api-openapi.yml
 - filename: schematic-entitlements-api-openapi.yml
   format: yaml
   label: Schematic Entitlements API
   slug: schematic-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-entitlements-api-openapi.yml
 - filename: schematic-events-api-openapi.yml
   format: yaml
   label: Schematic Events API
   slug: schematic-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-events-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-events-api-openapi.yml
 - filename: schematic-features-api-openapi.yml
   format: yaml
   label: Schematic Features API
   slug: schematic-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-features-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-features-api-openapi.yml
 - filename: schematic-insights-api-openapi.yml
   format: yaml
   label: Schematic Insights API
   slug: schematic-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-insights-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-insights-api-openapi.yml
 - filename: schematic-planbundle-api-openapi.yml
   format: yaml
   label: Schematic Planbundle API
   slug: schematic-planbundle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-planbundle-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-planbundle-api-openapi.yml
 - filename: schematic-plangroups-api-openapi.yml
   format: yaml
   label: Schematic Plangroups API
   slug: schematic-plangroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-plangroups-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-plangroups-api-openapi.yml
 - filename: schematic-planmigrations-api-openapi.yml
   format: yaml
   label: Schematic Planmigrations API
   slug: schematic-planmigrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-planmigrations-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-planmigrations-api-openapi.yml
 - filename: schematic-plans-api-openapi.yml
   format: yaml
   label: Schematic Plans API
   slug: schematic-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-plans-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-plans-api-openapi.yml
 - filename: schematic-scheduledcheckout-api-openapi.yml
   format: yaml
   label: Schematic Scheduledcheckout API
   slug: schematic-scheduledcheckout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-scheduledcheckout-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-scheduledcheckout-api-openapi.yml
 - filename: schematic-webhooks-api-openapi.yml
   format: yaml
   label: Schematic Webhooks API
   slug: schematic-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-webhooks-api-openapi.yml
 - filename: schematic-access-tokens-api-openapi.yml
   format: yaml
   label: Schematic Access Tokens API
   slug: schematic-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-access-tokens-api-openapi.yml
 - filename: schematic-data-exports-api-openapi.yml
   format: yaml
   label: Schematic Data Exports API
   slug: schematic-data-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-data-exports-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-data-exports-api-openapi.yml
 - filename: schematic-integrations-api-api-openapi.yml
   format: yaml
   label: Schematic Integrations API
   slug: schematic-integrations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/openapi/schematic-integrations-api-api-openapi.yml
+  url: https://artifacts.apis.io/schematic/openapi/schematic-integrations-api-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 121
@@ -268,8 +268,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/schema
   \      - high-value\n    audit: required\n- path: /environments/{environment_id}\n  method: get\n  operationId: getEnvironment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /environments/{environment_id}\n  method: put\n  operationId: updateEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments/{environment_id}\n  method: delete\n  operationId: deleteEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /event-batch\n  method: post\n  operationId: createEventBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event-types\n  method: get\n  operationId: getEventSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: post\n  operationId: createEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/{event_id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feature-companies\n  method: get\n  operationId: listFeatureCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feature-companies/count\n  method: get\n  operationId: countFeatureCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feature-usage\n  method: get\n  operationId: listFeatureUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  \n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/agentic-access/schematic-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/agentic-access/schematic-agentic-access.yml
+  \n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://artifacts.apis.io/schematic/agentic-access/schematic-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/schematic/agentic-access/schematic-agentic-access.yml
 summary_line: 218 operations · 97 acting · 3 human-in-the-loop
 tags:
 - Billing

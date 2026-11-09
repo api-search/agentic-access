@@ -8,49 +8,49 @@ api_specs:
   label: Bureau of Ocean Energy Management Catalog API
   slug: bureau-of-ocean-energy-management-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/openapi/bureau-of-ocean-energy-management-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-ocean-energy-management/openapi/bureau-of-ocean-energy-management-catalog-api-openapi.yml
 - filename: bureau-of-ocean-energy-management-collection-api-openapi.yml
   format: yaml
   label: Bureau of Ocean Energy Management Collection API
   slug: bureau-of-ocean-energy-management-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/openapi/bureau-of-ocean-energy-management-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-ocean-energy-management/openapi/bureau-of-ocean-energy-management-collection-api-openapi.yml
 - filename: bureau-of-ocean-energy-management-geoservice-beta-api-openapi.yml
   format: yaml
   label: Bureau of Ocean Energy Management Geoservice Beta API
   slug: bureau-of-ocean-energy-management-geoservice-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/openapi/bureau-of-ocean-energy-management-geoservice-beta-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-ocean-energy-management/openapi/bureau-of-ocean-energy-management-geoservice-beta-api-openapi.yml
 - filename: bureau-of-ocean-energy-management-ogcitem-api-openapi.yml
   format: yaml
   label: Bureau of Ocean Energy Management Ogc Item API
   slug: bureau-of-ocean-energy-management-ogcitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/openapi/bureau-of-ocean-energy-management-ogcitem-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-ocean-energy-management/openapi/bureau-of-ocean-energy-management-ogcitem-api-openapi.yml
 - filename: bureau-of-ocean-energy-management-ogcitemaggregation-api-openapi.yml
   format: yaml
   label: Bureau of Ocean Energy Management Ogc Item Aggregation API
   slug: bureau-of-ocean-energy-management-ogcitemaggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/openapi/bureau-of-ocean-energy-management-ogcitemaggregation-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-ocean-energy-management/openapi/bureau-of-ocean-energy-management-ogcitemaggregation-api-openapi.yml
 - filename: bureau-of-ocean-energy-management-ogcroot-api-openapi.yml
   format: yaml
   label: Bureau of Ocean Energy Management Ogc Root API
   slug: bureau-of-ocean-energy-management-ogcroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/openapi/bureau-of-ocean-energy-management-ogcroot-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-ocean-energy-management/openapi/bureau-of-ocean-energy-management-ogcroot-api-openapi.yml
 - filename: bureau-of-ocean-energy-management-ogcrootconformance-api-openapi.yml
   format: yaml
   label: Bureau of Ocean Energy Management Ogc Root Conformance API
   slug: bureau-of-ocean-energy-management-ogcrootconformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/openapi/bureau-of-ocean-energy-management-ogcrootconformance-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-ocean-energy-management/openapi/bureau-of-ocean-energy-management-ogcrootconformance-api-openapi.yml
 - filename: bureau-of-ocean-energy-management-queryable-api-openapi.yml
   format: yaml
   label: Bureau of Ocean Energy Management Queryable API
   slug: bureau-of-ocean-energy-management-queryable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/openapi/bureau-of-ocean-energy-management-queryable-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-ocean-energy-management/openapi/bureau-of-ocean-energy-management-queryable-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/bureau
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1\n  method: get\n  operationId: OgcRootController_getSiteRoot_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/conformance\n  method: get\n  operationId: OgcRootConformanceController_getApiConformance_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/rest/info\n  method: get\n  operationId: GeoserviceController_restInfo_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/rest/services/collections/{collectionId}/geoservice/FeatureServer\n\
   \  method: get\n  operationId: GeoserviceController_featureServer_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/rest/services/collections/{collectionId}/geoservice/FeatureServer/layers\n  method: get\n  operationId: GeoserviceController_featureLayers_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/rest/services/collections/{collectionId}/geoservice/FeatureServer/{layerIndex}\n  method: get\n  operationId: GeoserviceController_featureLayer_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/rest/services/collections/{collectionId}/geoservice/FeatureServer/{layerIndex}/info\n  method: get\n\
   \  operationId: GeoserviceController_featureLayerInfo_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/rest/services/collections/{collectionId}/geoservice/FeatureServer/{layerIndex}/query\n  method: get\n  operationId: GeoserviceController_featureLayerQuery_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/agentic-access/bureau-of-ocean-energy-management-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-ocean-energy-management/agentic-access/bureau-of-ocean-energy-management-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Energy

@@ -9,97 +9,97 @@ api_specs:
   label: Affinda Documents API
   slug: affinda-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-documents-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-documents-api-openapi.yml
 - filename: affinda-document-types-api-openapi.yml
   format: yaml
   label: Affinda Document Types API
   slug: affinda-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-document-types-api-openapi.yml
 - filename: affinda-workspaces-api-openapi.yml
   format: yaml
   label: Affinda Workspaces API
   slug: affinda-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-workspaces-api-openapi.yml
 - filename: affinda-organizations-api-openapi.yml
   format: yaml
   label: Affinda Organizations API
   slug: affinda-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-organizations-api-openapi.yml
 - filename: affinda-data-sources-api-openapi.yml
   format: yaml
   label: Affinda Data Sources API
   slug: affinda-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-data-sources-api-openapi.yml
 - filename: affinda-annotations-api-openapi.yml
   format: yaml
   label: Affinda Annotations API
   slug: affinda-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-annotations-api-openapi.yml
 - filename: affinda-validation-results-api-openapi.yml
   format: yaml
   label: Affinda Validation Results API
   slug: affinda-validation-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-validation-results-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-validation-results-api-openapi.yml
 - filename: affinda-tags-api-openapi.yml
   format: yaml
   label: Affinda Tags API
   slug: affinda-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-tags-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-tags-api-openapi.yml
 - filename: affinda-usage-api-openapi.yml
   format: yaml
   label: Affinda Usage API
   slug: affinda-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-usage-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-usage-api-openapi.yml
 - filename: affinda-webhooks-api-openapi.yml
   format: yaml
   label: Affinda Webhooks API
   slug: affinda-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-webhooks-api-openapi.yml
 - filename: affinda-search-match-api-openapi.yml
   format: yaml
   label: Affinda Search and Match API
   slug: affinda-search-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-search-match-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-search-match-api-openapi.yml
 - filename: affinda-add-x-hidden-to-endpoints-api-openapi.yml
   format: yaml
   label: Affinda Add x-hidden to endpoints API
   slug: affinda-add-x-hidden-to-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-add-x-hidden-to-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-add-x-hidden-to-endpoints-api-openapi.yml
 - filename: affinda-deprecated-end-points-api-openapi.yml
   format: yaml
   label: Affinda Deprecated End Points API
   slug: affinda-deprecated-end-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-deprecated-end-points-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-deprecated-end-points-api-openapi.yml
 - filename: affinda-document-api-extractor-api-openapi.yml
   format: yaml
   label: Affinda Document API - Extractor API
   slug: affinda-document-api-extractor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-api-extractor-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-document-api-extractor-api-openapi.yml
 - filename: affinda-document-api-splitting-api-openapi.yml
   format: yaml
   label: Affinda Document API - Splitting API
   slug: affinda-document-api-splitting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-document-api-splitting-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-document-api-splitting-api-openapi.yml
 - filename: affinda-organization-api-invitation-api-openapi.yml
   format: yaml
   label: Affinda Organization API - Invitation API
   slug: affinda-organization-api-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/openapi/affinda-organization-api-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/affinda/openapi/affinda-organization-api-invitation-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 60
@@ -180,8 +180,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/affind
   \  method: get\n  operationId: getResumeSearchSuggestionSkill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/job_description_search\n  method: post\n  operationId: createJobDescriptionSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/job_description_search/details/{identifier}\n  method: post\n  operationId: getJobDescriptionSearchDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/job_description_search/config\n  method: get\n  operationId: getJobDescriptionSearchConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/job_description_search/config\n\
   \  method: patch\n  operationId: updateJobDescriptionSearchConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/job_description_search/embed\n  method: post\n  operationId: createJobDescriptionSearchEmbedUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/index\n  method: get\n  operationId: getAllIndexes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/index\n  method: post\n  operationId: createIndex\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/index/{name}\n  method: patch\n  operationId: updateIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/index/{name}\n  method: delete\n  operationId: deleteIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32\
-  \ KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/agentic-access/affinda-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/agentic-access/affinda-agentic-access.yml
+  \ KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/affinda/agentic-access/affinda-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/affinda/agentic-access/affinda-agentic-access.yml
 summary_line: 141 operations · 81 acting
 tags:
 - Artificial Intelligence

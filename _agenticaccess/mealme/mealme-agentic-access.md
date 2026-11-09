@@ -9,55 +9,55 @@ api_specs:
   label: MealMe Carts API
   slug: mealme-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-carts-api-openapi.yml
+  url: https://artifacts.apis.io/mealme/openapi/mealme-carts-api-openapi.yml
 - filename: mealme-connect-accounts-api-openapi.yml
   format: yaml
   label: MealMe Connect Accounts API
   slug: mealme-connect-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-connect-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mealme/openapi/mealme-connect-accounts-api-openapi.yml
 - filename: mealme-geocoding-api-openapi.yml
   format: yaml
   label: MealMe Geocoding API
   slug: mealme-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/mealme/openapi/mealme-geocoding-api-openapi.yml
 - filename: mealme-orders-api-openapi.yml
   format: yaml
   label: MealMe Orders API
   slug: mealme-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-orders-api-openapi.yml
+  url: https://artifacts.apis.io/mealme/openapi/mealme-orders-api-openapi.yml
 - filename: mealme-payments-api-openapi.yml
   format: yaml
   label: MealMe Payments API
   slug: mealme-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-payments-api-openapi.yml
+  url: https://artifacts.apis.io/mealme/openapi/mealme-payments-api-openapi.yml
 - filename: mealme-search-api-openapi.yml
   format: yaml
   label: MealMe Search API
   slug: mealme-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-search-api-openapi.yml
+  url: https://artifacts.apis.io/mealme/openapi/mealme-search-api-openapi.yml
 - filename: mealme-stores-api-openapi.yml
   format: yaml
   label: MealMe Stores API
   slug: mealme-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-stores-api-openapi.yml
+  url: https://artifacts.apis.io/mealme/openapi/mealme-stores-api-openapi.yml
 - filename: mealme-support-chat-api-openapi.yml
   format: yaml
   label: MealMe Support Chat API
   slug: mealme-support-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-support-chat-api-openapi.yml
+  url: https://artifacts.apis.io/mealme/openapi/mealme-support-chat-api-openapi.yml
 - filename: mealme-tracking-api-openapi.yml
   format: yaml
   label: MealMe Tracking API
   slug: mealme-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/openapi/mealme-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/mealme/openapi/mealme-tracking-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 16
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mealme
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /utils/add_store\n  method: get\n  operationId: addStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /details/inventory/v4\n  method: get\n  operationId: getInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /details/product/v2\n  method: get\n  operationId: getProductDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat_initiate\n  method: post\n  operationId: initiateChat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /exit_chat\n  method: post\n  operationId: exitChat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /send_message\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /read_message\n  method: post\n  operationId: readMessages\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fetch_chat_ids\n  method: post\n  operationId: fetchChatIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/tracking/add_webhook\n  method: post\n  operationId: addTrackingWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/agentic-access/mealme-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mealme/agentic-access/mealme-agentic-access.yml
 summary_line: 36 operations · 20 acting
 tags:
 - Delivery

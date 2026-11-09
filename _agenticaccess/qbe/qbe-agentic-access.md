@@ -9,13 +9,13 @@ api_specs:
   label: QBE Insurance CTP Switch API
   slug: qbe-ctp-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/openapi/qbe-ctp-switch-api-openapi.yml
+  url: https://artifacts.apis.io/qbe/openapi/qbe-ctp-switch-api-openapi.yml
 - filename: qbe-digital-brokers-api-openapi.yml
   format: yaml
   label: QBE Insurance Digital Brokers API
   slug: qbe-digital-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/openapi/qbe-digital-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/qbe/openapi/qbe-digital-brokers-api-openapi.yml
 consequence_counts:
   read: 2
   write: 15
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/qbe-an
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/quotes/{quoteId}\n  method: put\n  operationId: Modify-an-existing-Quote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/policies/{policyId}/documents\n  method: post\n  operationId: Policy-Document-Upload-API\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/quotes/{quoteId}/documents\n\
   \  method: post\n  operationId: Quote-Document-Upload-API\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/quotes/{quoteId}/refer\n  method: post\n  operationId: Refer-a-quote-to-QBE-Underwriter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/policies/{policyId}/refer\n  method: post\n  operationId: Refer-an-existing-Policy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ctp-documents/appenddata\n  method: post\n  operationId: append-data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ctp-documents/saveddata\n  method: get\n  operationId: get-saved-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/agentic-access/qbe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qbe/agentic-access/qbe-agentic-access.yml
 summary_line: 17 operations · 15 acting
 tags:
 - Insurance

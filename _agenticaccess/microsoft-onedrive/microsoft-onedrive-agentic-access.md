@@ -9,19 +9,19 @@ api_specs:
   label: Microsoft OneDrive Drives API
   slug: microsoft-onedrive-drives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-drives-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drives-api-openapi.yml
 - filename: microsoft-onedrive-sharing-api-openapi.yml
   format: yaml
   label: Microsoft OneDrive Sharing API
   slug: microsoft-onedrive-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-sharing-api-openapi.yml
 - filename: microsoft-onedrive-drive-items-api-openapi.yml
   format: yaml
   label: Microsoft OneDrive Drive Items API
   slug: microsoft-onedrive-drive-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/openapi/microsoft-onedrive-drive-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drive-items-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drives/{driveId}/items/{itemId}/content\n  method: get\n  operationId: downloadDriveItemContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /drives/{driveId}/items/{itemId}/content\n  method: put\n  operationId: uploadDriveItemContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drives/{driveId}/items/{itemId}/copy\n  method: post\n  operationId: copyDriveItem\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drives/{driveId}/items/{itemId}/createLink\n  method: post\n  operationId: createSharingLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drives/{driveId}/items/{itemId}/invite\n  method: post\n  operationId: inviteToDriveItem\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /drives/{driveId}/items/{itemId}/permissions\n  method: get\n  operationId: listDriveItemPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shares/{shareId}\n  method: get\n  operationId: getSharedItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteId}/drive\n  method: get\n  operationId: getSiteDrive\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/agentic-access/microsoft-onedrive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-onedrive/agentic-access/microsoft-onedrive-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - Cloud Storage

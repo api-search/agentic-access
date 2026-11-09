@@ -9,121 +9,121 @@ api_specs:
   label: WakaTime Commits API
   slug: wakatime-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-commits-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-commits-api-openapi.yml
 - filename: wakatime-custom-rules-api-openapi.yml
   format: yaml
   label: WakaTime Custom Rules API
   slug: wakatime-custom-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-custom-rules-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-custom-rules-api-openapi.yml
 - filename: wakatime-data-dumps-api-openapi.yml
   format: yaml
   label: WakaTime Data Dumps API
   slug: wakatime-data-dumps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-data-dumps-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-data-dumps-api-openapi.yml
 - filename: wakatime-durations-api-openapi.yml
   format: yaml
   label: WakaTime Durations API
   slug: wakatime-durations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-durations-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-durations-api-openapi.yml
 - filename: wakatime-editors-api-openapi.yml
   format: yaml
   label: WakaTime Editors API
   slug: wakatime-editors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-editors-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-editors-api-openapi.yml
 - filename: wakatime-external-durations-api-openapi.yml
   format: yaml
   label: WakaTime External Durations API
   slug: wakatime-external-durations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-external-durations-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-external-durations-api-openapi.yml
 - filename: wakatime-goals-api-openapi.yml
   format: yaml
   label: WakaTime Goals API
   slug: wakatime-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-goals-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-goals-api-openapi.yml
 - filename: wakatime-heartbeats-api-openapi.yml
   format: yaml
   label: WakaTime Heartbeats API
   slug: wakatime-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-heartbeats-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-heartbeats-api-openapi.yml
 - filename: wakatime-insights-api-openapi.yml
   format: yaml
   label: WakaTime Insights API
   slug: wakatime-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-insights-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-insights-api-openapi.yml
 - filename: wakatime-languages-api-openapi.yml
   format: yaml
   label: WakaTime Languages API
   slug: wakatime-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-languages-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-languages-api-openapi.yml
 - filename: wakatime-leaderboards-api-openapi.yml
   format: yaml
   label: WakaTime Leaderboards API
   slug: wakatime-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-leaderboards-api-openapi.yml
 - filename: wakatime-machines-api-openapi.yml
   format: yaml
   label: WakaTime Machines API
   slug: wakatime-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-machines-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-machines-api-openapi.yml
 - filename: wakatime-meta-api-openapi.yml
   format: yaml
   label: WakaTime Meta API
   slug: wakatime-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-meta-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-meta-api-openapi.yml
 - filename: wakatime-organizations-api-openapi.yml
   format: yaml
   label: WakaTime Organizations API
   slug: wakatime-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-organizations-api-openapi.yml
 - filename: wakatime-projects-api-openapi.yml
   format: yaml
   label: WakaTime Projects API
   slug: wakatime-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-projects-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-projects-api-openapi.yml
 - filename: wakatime-stats-api-openapi.yml
   format: yaml
   label: WakaTime Stats API
   slug: wakatime-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-stats-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-stats-api-openapi.yml
 - filename: wakatime-status-bar-api-openapi.yml
   format: yaml
   label: WakaTime Status Bar API
   slug: wakatime-status-bar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-status-bar-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-status-bar-api-openapi.yml
 - filename: wakatime-summaries-api-openapi.yml
   format: yaml
   label: WakaTime Summaries API
   slug: wakatime-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-summaries-api-openapi.yml
 - filename: wakatime-user-agents-api-openapi.yml
   format: yaml
   label: WakaTime User Agents API
   slug: wakatime-user-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-user-agents-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-user-agents-api-openapi.yml
 - filename: wakatime-users-api-openapi.yml
   format: yaml
   label: WakaTime Users API
   slug: wakatime-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-users-api-openapi.yml
+  url: https://artifacts.apis.io/wakatime/openapi/wakatime-users-api-openapi.yml
 consequence_counts:
   read: 40
   write: 11
@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wakati
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current/status_bar\n  method: get\n  operationId: getStatusBar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current/orgs\n  method: get\n  operationId: listOrgs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current/orgs/{org}/custom_rules\n  method: get\n  operationId: listOrgCustomRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current/orgs/{org}/custom_rules\n  method: put\n  operationId: putOrgCustomRules\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/current/orgs/{org}/dashboards\n  method: get\n  operationId: listOrgDashboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current/orgs/{org}/dashboards/{dashboard}/members\n  method: get\n  operationId: listDashboardMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current/orgs/{org}/dashboards/{dashboard}/summaries\n  method: get\n  operationId: listDashboardSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current/orgs/{org}/dashboards/{dashboard}/member/{member}/summaries\n\
   \  method: get\n  operationId: listDashboardMemberSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current/orgs/{org}/dashboards/{dashboard}/durations\n  method: get\n  operationId: listDashboardDurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current/orgs/{org}/dashboards/{dashboard}/member/{member}/durations\n  method: get\n  operationId: listDashboardMemberDurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meta\n  method: get\n  operationId: getMeta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/agentic-access/wakatime-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wakatime/agentic-access/wakatime-agentic-access.yml
 summary_line: 51 operations · 11 acting
 tags:
 - Developer Productivity

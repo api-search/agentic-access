@@ -9,61 +9,61 @@ api_specs:
   label: ADT Access Codes API
   slug: adt-access-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-access-codes-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-access-codes-api-openapi.yml
 - filename: adt-access-control-api-openapi.yml
   format: yaml
   label: ADT Access Control API
   slug: adt-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-access-control-api-openapi.yml
 - filename: adt-automation-api-openapi.yml
   format: yaml
   label: ADT Automation API
   slug: adt-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-automation-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-automation-api-openapi.yml
 - filename: adt-devices-api-openapi.yml
   format: yaml
   label: ADT Devices API
   slug: adt-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-devices-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-devices-api-openapi.yml
 - filename: adt-events-api-openapi.yml
   format: yaml
   label: ADT Events API
   slug: adt-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-events-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-events-api-openapi.yml
 - filename: adt-reports-api-openapi.yml
   format: yaml
   label: ADT Reports API
   slug: adt-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-reports-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-reports-api-openapi.yml
 - filename: adt-security-systems-api-openapi.yml
   format: yaml
   label: ADT Security Systems API
   slug: adt-security-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-security-systems-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-security-systems-api-openapi.yml
 - filename: adt-sites-api-openapi.yml
   format: yaml
   label: ADT Sites API
   slug: adt-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-sites-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-sites-api-openapi.yml
 - filename: adt-users-api-openapi.yml
   format: yaml
   label: ADT Users API
   slug: adt-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-users-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-users-api-openapi.yml
 - filename: adt-video-api-openapi.yml
   format: yaml
   label: ADT Video API
   slug: adt-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-video-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-video-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/adt-bu
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /systems/{systemId}/devices\n  method: get\n  operationId: getDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{systemId}/devices/{deviceId}\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{systemId}/events\n  method: get\n  operationId: getEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{systemId}/access-codes\n  method: get\n  operationId:\
   \ getAccessCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{systemId}/access-codes\n  method: post\n  operationId: createAccessCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /systems/{systemId}/access-codes/{codeId}\n  method: delete\n  operationId: deleteAccessCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /systems/{systemId}/cameras/{cameraId}/clips\n  method: get\n  operationId: getVideoClips\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{systemId}/automations\n  method: get\n  operationId: getAutomations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/agentic-access/adt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adt/agentic-access/adt-agentic-access.yml
 summary_line: 18 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Access Control

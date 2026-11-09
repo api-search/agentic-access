@@ -45,31 +45,31 @@ api_specs:
   label: Factiva Content API
   slug: factiva-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-content-api-openapi.yml
 - filename: factiva-content-search-api-openapi.yml
   format: yaml
   label: Factiva Content Search API
   slug: factiva-content-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-search-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-content-search-api-openapi.yml
 - filename: factiva-default-api-openapi.yml
   format: yaml
   label: Factiva Default API
   slug: factiva-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-default-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-default-api-openapi.yml
 - filename: factiva-editions-api-openapi.yml
   format: yaml
   label: Factiva Editions API
   slug: factiva-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-editions-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-editions-api-openapi.yml
 - filename: factiva-newsletters-api-openapi.yml
   format: yaml
   label: Factiva Newsletters API
   slug: factiva-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-newsletters-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-newsletters-api-openapi.yml
 consequence_counts:
   read: 21
   write: 1
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/factiv
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/people/{code}\n  method: get\n  operationId: Search_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/organization/{code}\n  method: get\n  operationId: Search_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/consumer\n  method: get\n  operationId: Search_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/portfolio\n  method: post\n  operationId: postSearchPortfolio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/emerging\n  method: post\n  operationId:\
   \ Search_Post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /content/realtime/search\n  method: post\n  operationId: postContentRealtimeSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /swagger\n  method: get\n  operationId: getSwagger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsletters/{id}/editions\n  method: get\n  operationId: EditionsRead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsletters/{id}/editions/{editionId}\n\
   \  method: get\n  operationId: EditionReadById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsletters\n  method: get\n  operationId: NewslettersRead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsletters/{id}\n  method: get\n  operationId: NewsletterReadById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/agentic-access/factiva-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/factiva/agentic-access/factiva-agentic-access.yml
 summary_line: 22 operations · 1 acting
 tags:
 - Artificial Intelligence

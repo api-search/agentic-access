@@ -9,55 +9,55 @@ api_specs:
   label: Feathery Account API
   slug: feathery-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/openapi/feathery-account-api-openapi.yml
+  url: https://artifacts.apis.io/feathery/openapi/feathery-account-api-openapi.yml
 - filename: feathery-data-hubs-api-openapi.yml
   format: yaml
   label: Feathery Data Hubs API
   slug: feathery-data-hubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/openapi/feathery-data-hubs-api-openapi.yml
+  url: https://artifacts.apis.io/feathery/openapi/feathery-data-hubs-api-openapi.yml
 - filename: feathery-document-intelligence-api-openapi.yml
   format: yaml
   label: Feathery Document Intelligence API
   slug: feathery-document-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/openapi/feathery-document-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/feathery/openapi/feathery-document-intelligence-api-openapi.yml
 - filename: feathery-document-templates-api-openapi.yml
   format: yaml
   label: Feathery Document Templates API
   slug: feathery-document-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/openapi/feathery-document-templates-api-openapi.yml
+  url: https://artifacts.apis.io/feathery/openapi/feathery-document-templates-api-openapi.yml
 - filename: feathery-end-users-api-openapi.yml
   format: yaml
   label: Feathery End Users API
   slug: feathery-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/openapi/feathery-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/feathery/openapi/feathery-end-users-api-openapi.yml
 - filename: feathery-forms-api-openapi.yml
   format: yaml
   label: Feathery Forms API
   slug: feathery-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/openapi/feathery-forms-api-openapi.yml
+  url: https://artifacts.apis.io/feathery/openapi/feathery-forms-api-openapi.yml
 - filename: feathery-hidden-fields-api-openapi.yml
   format: yaml
   label: Feathery Hidden Fields API
   slug: feathery-hidden-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/openapi/feathery-hidden-fields-api-openapi.yml
+  url: https://artifacts.apis.io/feathery/openapi/feathery-hidden-fields-api-openapi.yml
 - filename: feathery-logs-api-openapi.yml
   format: yaml
   label: Feathery Logs API
   slug: feathery-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/openapi/feathery-logs-api-openapi.yml
+  url: https://artifacts.apis.io/feathery/openapi/feathery-logs-api-openapi.yml
 - filename: feathery-workspaces-api-openapi.yml
   format: yaml
   label: Feathery Workspaces API
   slug: feathery-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/openapi/feathery-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/feathery/openapi/feathery-workspaces-api-openapi.yml
 consequence_counts:
   read: 21
   write: 25
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/feathe
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspace/{workspace_id}/\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workspace/{workspace_id}/\n  method: patch\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspace/{workspace_id}/\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/workspace/{workspace_id}/login-token/\n  method: post\n  operationId: generateWorkspaceLoginToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspace/{workspace_id}/populate-form/\n  method: post\n  operationId: populateWorkspaceForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspace/{workspace_id}/form-report/\n  method: get\n  operationId: getWorkspaceFormReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workspace/{workspace_id}/submission-report/\n  method: get\n  operationId: getWorkspaceSubmissionReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/agentic-access/feathery-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/feathery/agentic-access/feathery-agentic-access.yml
 summary_line: 46 operations · 25 acting
 tags:
 - Forms

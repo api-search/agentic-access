@@ -9,49 +9,49 @@ api_specs:
   label: SYSTRAN Corpus API
   slug: systran-corpus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-corpus-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-corpus-api-openapi.yml
 - filename: systran-dictionary-api-openapi.yml
   format: yaml
   label: SYSTRAN Dictionary API
   slug: systran-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-dictionary-api-openapi.yml
 - filename: systran-file-translation-api-openapi.yml
   format: yaml
   label: SYSTRAN File Translation API
   slug: systran-file-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-file-translation-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-file-translation-api-openapi.yml
 - filename: systran-language-detection-api-openapi.yml
   format: yaml
   label: SYSTRAN Language Detection API
   slug: systran-language-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-language-detection-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-language-detection-api-openapi.yml
 - filename: systran-nlp-api-openapi.yml
   format: yaml
   label: SYSTRAN NLP API
   slug: systran-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-nlp-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-nlp-api-openapi.yml
 - filename: systran-profiles-api-openapi.yml
   format: yaml
   label: SYSTRAN Profiles API
   slug: systran-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-profiles-api-openapi.yml
 - filename: systran-supported-languages-api-openapi.yml
   format: yaml
   label: SYSTRAN Supported Languages API
   slug: systran-supported-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-supported-languages-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-supported-languages-api-openapi.yml
 - filename: systran-translation-api-openapi.yml
   format: yaml
   label: SYSTRAN Translation API
   slug: systran-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/openapi/systran-translation-api-openapi.yml
+  url: https://artifacts.apis.io/systran/openapi/systran-translation-api-openapi.yml
 consequence_counts:
   read: 27
   write: 28
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/systra
   \  operationId: listTranslationResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translation/supportedLanguages\n  method: get\n  operationId: getSupportedLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translation/supportedFeatures\n  method: get\n  operationId: getSupportedFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translation/supportedFormats\n  method: get\n  operationId: getSupportedFormats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translation/supportedSelectors\n  method: get\n  operationId: getSupportedSelectors\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translation/text/translate\n  method: post\n  operationId: translateText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /translation/apiVersion\n  method: get\n  operationId: getTranslationApiVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translation/profiles\n  method: get\n  operationId: listTranslationProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translation/feedback/add\n  method: post\n\
   \  operationId: addTranslationFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/agentic-access/systran-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/systran/agentic-access/systran-agentic-access.yml
 summary_line: 55 operations · 28 acting
 tags:
 - Machine Translation

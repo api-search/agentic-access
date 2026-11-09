@@ -9,37 +9,37 @@ api_specs:
   label: Airspace Technologies Address Books API
   slug: airspace-technologies-address-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-address-books-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-address-books-api-openapi.yml
 - filename: airspace-technologies-invoices-api-openapi.yml
   format: yaml
   label: Airspace Technologies Invoices API
   slug: airspace-technologies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-invoices-api-openapi.yml
 - filename: airspace-technologies-labels-api-openapi.yml
   format: yaml
   label: Airspace Technologies Labels API
   slug: airspace-technologies-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-labels-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-labels-api-openapi.yml
 - filename: airspace-technologies-orders-api-openapi.yml
   format: yaml
   label: Airspace Technologies Orders API
   slug: airspace-technologies-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-orders-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-orders-api-openapi.yml
 - filename: airspace-technologies-piece-libraries-api-openapi.yml
   format: yaml
   label: Airspace Technologies Piece Libraries API
   slug: airspace-technologies-piece-libraries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-piece-libraries-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-piece-libraries-api-openapi.yml
 - filename: airspace-technologies-quotes-api-openapi.yml
   format: yaml
   label: Airspace Technologies Quotes API
   slug: airspace-technologies-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/openapi/airspace-technologies-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/airspace-technologies/openapi/airspace-technologies-quotes-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 18
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/airspa
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/events\n  method: get\n  operationId: getOrdersEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{tracking_id}/events\n  method: get\n  operationId: getEventsForOrderById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/quotes/{tracking_id}\n\
   \  method: get\n  operationId: getQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/will_call\n  method: post\n  operationId: createWillCallOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/will_call/{tracking_id}\n  method: patch\n  operationId: updateWillCallOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /invoices\n  method: get\n  operationId: getInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{tracking_id}\n  method: get\n  operationId: getInvoiceById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /piece_libraries\n  method: get\n  operationId: getPieceLibraries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/agentic-access/airspace-technologies-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airspace-technologies/agentic-access/airspace-technologies-agentic-access.yml
 summary_line: 33 operations · 15 acting
 tags:
 - Company

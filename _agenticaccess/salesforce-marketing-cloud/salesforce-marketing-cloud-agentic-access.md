@@ -9,19 +9,19 @@ api_specs:
   label: Salesforce Marketing Cloud Assets API
   slug: salesforce-marketing-cloud-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-assets-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-assets-api-openapi.yml
 - filename: salesforce-marketing-cloud-contacts-api-openapi.yml
   format: yaml
   label: Salesforce Marketing Cloud Contacts API
   slug: salesforce-marketing-cloud-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-contacts-api-openapi.yml
 - filename: salesforce-marketing-cloud-journeys-api-openapi.yml
   format: yaml
   label: Salesforce Marketing Cloud Journeys API
   slug: salesforce-marketing-cloud-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/salesf
   \ abnormal\n      - high-value\n    audit: required\n- path: /interaction/v1/interactions/{id}\n  method: get\n  operationId: getJourney\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interaction/v1/interactions/{id}\n  method: put\n  operationId: updateJourney\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /interaction/v1/interactions/{id}\n  method: delete\n  operationId: deleteJourney\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /interaction/v1/interactions/publishAsync/{id}\n  method: post\n  operationId: publishJourney\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /interaction/v1/interactions/stop/{id}\n  method: post\n  operationId: stopJourney\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /interaction/v1/events\n  method: post\n  operationId: fireEntryEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/agentic-access/salesforce-marketing-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-marketing-cloud/agentic-access/salesforce-marketing-cloud-agentic-access.yml
 summary_line: 21 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Automation

@@ -9,7 +9,7 @@ api_specs:
   label: CloudSight Images API
   slug: cloudsight-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsight/refs/heads/main/openapi/cloudsight-images-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsight/openapi/cloudsight-images-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 1
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/cloudsight-images-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 2\n    connected: 1\n  by_consequence:\n    physical: 1\n    read: 1\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /images\n  method: post\n  operationId: postImages\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/{token}\n  method: get\n  operationId: getImage\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images/{token}/repost\n  method: post\n  operationId: repostImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudsight/refs/heads/main/agentic-access/cloudsight-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudsight/agentic-access/cloudsight-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
 - Company

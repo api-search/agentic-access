@@ -9,37 +9,37 @@ api_specs:
   label: Bloomberg EMSX Brokers API
   slug: bloomberg-emsx-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-brokers-api-openapi.yml
 - filename: bloomberg-emsx-field-lists-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Field Lists API
   slug: bloomberg-emsx-field-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-field-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-field-lists-api-openapi.yml
 - filename: bloomberg-emsx-fills-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Fills API
   slug: bloomberg-emsx-fills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-fills-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-fills-api-openapi.yml
 - filename: bloomberg-emsx-orders-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Orders API
   slug: bloomberg-emsx-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-orders-api-openapi.yml
 - filename: bloomberg-emsx-routes-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Routes API
   slug: bloomberg-emsx-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-routes-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-routes-api-openapi.yml
 - filename: bloomberg-emsx-teams-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Teams API
   slug: bloomberg-emsx-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-teams-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-teams-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 11
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bloomb
   \      - high-value\n    audit: required\n- path: /routes\n  method: get\n  operationId: listRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routes/{routeId}\n  method: get\n  operationId: getRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routes/{routeId}\n  method: patch\n  operationId: modifyRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /routes/{routeId}\n  method: delete\n  operationId: cancelRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /routes/manualFill\n  method: post\n  operationId: createManualFill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fills\n  method: get\n  operationId: listFills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fills/{fillId}\n  method: get\n  operationId: getFill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /brokers\n  method: get\n  operationId: listBrokers\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /brokers/{brokerCode}/strategies\n  method: get\n  operationId: listBrokerStrategies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields/order\n  method: get\n  operationId: listOrderFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields/route\n  method: get\n  operationId: listRouteFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/agentic-access/bloomberg-emsx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bloomberg-emsx/agentic-access/bloomberg-emsx-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Bloomberg

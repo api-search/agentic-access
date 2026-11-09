@@ -9,103 +9,103 @@ api_specs:
   label: anecdotes Analysis Rules API
   slug: anecdotes-analysis-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-analysis-rules-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-analysis-rules-api-openapi.yml
 - filename: anecdotes-authorization-api-openapi.yml
   format: yaml
   label: anecdotes Authorization API
   slug: anecdotes-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-authorization-api-openapi.yml
 - filename: anecdotes-create-controls-api-openapi.yml
   format: yaml
   label: anecdotes Create Controls API
   slug: anecdotes-create-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-create-controls-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-create-controls-api-openapi.yml
 - filename: anecdotes-create-evidence-api-openapi.yml
   format: yaml
   label: anecdotes Create Evidence API
   slug: anecdotes-create-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-create-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-create-evidence-api-openapi.yml
 - filename: anecdotes-custom-fields-api-openapi.yml
   format: yaml
   label: anecdotes Custom Fields API
   slug: anecdotes-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-custom-fields-api-openapi.yml
 - filename: anecdotes-download-evidence-api-openapi.yml
   format: yaml
   label: anecdotes Download Evidence API
   slug: anecdotes-download-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-download-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-download-evidence-api-openapi.yml
 - filename: anecdotes-findings-api-openapi.yml
   format: yaml
   label: anecdotes Findings API
   slug: anecdotes-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-findings-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-findings-api-openapi.yml
 - filename: anecdotes-framework-api-openapi.yml
   format: yaml
   label: anecdotes Framework API
   slug: anecdotes-framework-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-framework-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-framework-api-openapi.yml
 - filename: anecdotes-gated-api-openapi.yml
   format: yaml
   label: anecdotes Gated API
   slug: anecdotes-gated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-gated-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-gated-api-openapi.yml
 - filename: anecdotes-policy-manager-api-openapi.yml
   format: yaml
   label: anecdotes Policy Manager API
   slug: anecdotes-policy-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-policy-manager-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-policy-manager-api-openapi.yml
 - filename: anecdotes-public-api-openapi.yml
   format: yaml
   label: anecdotes Public API
   slug: anecdotes-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-public-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-public-api-openapi.yml
 - filename: anecdotes-read-controls-api-openapi.yml
   format: yaml
   label: anecdotes Read Controls API
   slug: anecdotes-read-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-read-controls-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-read-controls-api-openapi.yml
 - filename: anecdotes-read-evidence-metadata-api-openapi.yml
   format: yaml
   label: anecdotes Read Evidence Metadata API
   slug: anecdotes-read-evidence-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-read-evidence-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-read-evidence-metadata-api-openapi.yml
 - filename: anecdotes-requirements-api-openapi.yml
   format: yaml
   label: anecdotes Requirements API
   slug: anecdotes-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-requirements-api-openapi.yml
 - filename: anecdotes-risk-api-openapi.yml
   format: yaml
   label: anecdotes Risk API
   slug: anecdotes-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-risk-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-risk-api-openapi.yml
 - filename: anecdotes-token-api-openapi.yml
   format: yaml
   label: anecdotes Token API
   slug: anecdotes-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-token-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-token-api-openapi.yml
 - filename: anecdotes-update-control-metadata-api-openapi.yml
   format: yaml
   label: anecdotes Update Control Metadata API
   slug: anecdotes-update-control-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/openapi/anecdotes-update-control-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/anecdotes/openapi/anecdotes-update-control-metadata-api-openapi.yml
 consequence_counts:
   read: 37
   safety-critical: 4
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/anecdo
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /risk/v1/risk/full\n  method: get\n  operationId: getRisks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk/v1/risk/{risk_id}\n  method: get\n  operationId: getRisk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk/v1/risk/{risk_id}\n  method: patch\n  operationId: updateRisk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /identity/v1/apikey/exchange\n  method: get\n  operationId: exchangeApiKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /controls/control/{control_id}\n  method: put\n  operationId: updateCustomControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /controls/control/{control_id}\n  method: delete\n  operationId: deleteCustomControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/agentic-access/anecdotes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/anecdotes/agentic-access/anecdotes-agentic-access.yml
 summary_line: 61 operations · 24 acting · 4 human-in-the-loop
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: Coterie Insurance Applications API
   slug: coterie-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-applications-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-applications-api-openapi.yml
 - filename: coterie-documents-api-openapi.yml
   format: yaml
   label: Coterie Insurance Documents API
   slug: coterie-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-documents-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-documents-api-openapi.yml
 - filename: coterie-industry-api-openapi.yml
   format: yaml
   label: Coterie Insurance Industry API
   slug: coterie-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-industry-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-industry-api-openapi.yml
 - filename: coterie-policies-api-openapi.yml
   format: yaml
   label: Coterie Insurance Policies API
   slug: coterie-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-policies-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-policies-api-openapi.yml
 - filename: coterie-quotes-api-openapi.yml
   format: yaml
   label: Coterie Insurance Quotes API
   slug: coterie-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-quotes-api-openapi.yml
 - filename: coterie-webhooks-api-openapi.yml
   format: yaml
   label: Coterie Insurance Webhooks API
   slug: coterie-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/coterie/openapi/coterie-webhooks-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/coteri
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial/quotes/{quoteId}/underwriting-questions\n  method: get\n  operationId: getUnderwritingQuestions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial/policies\n  method: post\n  operationId: bindPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commercial/policies/{policyId}\n  method: get\n  operationId: getPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /industry-classifications\n  method: get\n  operationId: searchIndustryClassifications\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial/policies/{policyId}/documents\n  method: get\n  operationId: getPolicyDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId:\
   \ deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/agentic-access/coterie-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coterie/agentic-access/coterie-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Insurance

@@ -9,61 +9,61 @@ api_specs:
   label: Quandoo Availabilities API
   slug: quandoo-availabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-availabilities-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-availabilities-api-openapi.yml
 - filename: quandoo-customers-api-openapi.yml
   format: yaml
   label: Quandoo Customers API
   slug: quandoo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-customers-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-customers-api-openapi.yml
 - filename: quandoo-merchants-api-openapi.yml
   format: yaml
   label: Quandoo Merchants API
   slug: quandoo-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-merchants-api-openapi.yml
 - filename: quandoo-reservation-enquiries-api-openapi.yml
   format: yaml
   label: Quandoo Reservation Enquiries API
   slug: quandoo-reservation-enquiries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-reservation-enquiries-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-reservation-enquiries-api-openapi.yml
 - filename: quandoo-reservation-settings-api-openapi.yml
   format: yaml
   label: Quandoo Reservation Settings API
   slug: quandoo-reservation-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-reservation-settings-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-reservation-settings-api-openapi.yml
 - filename: quandoo-reservations-api-openapi.yml
   format: yaml
   label: Quandoo Reservations API
   slug: quandoo-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-reservations-api-openapi.yml
 - filename: quandoo-reservations-tags-api-openapi.yml
   format: yaml
   label: Quandoo Reservations Tags API
   slug: quandoo-reservations-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-reservations-tags-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-reservations-tags-api-openapi.yml
 - filename: quandoo-reviews-api-openapi.yml
   format: yaml
   label: Quandoo Reviews API
   slug: quandoo-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-reviews-api-openapi.yml
 - filename: quandoo-status-api-openapi.yml
   format: yaml
   label: Quandoo Status API
   slug: quandoo-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-status-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-status-api-openapi.yml
 - filename: quandoo-validations-api-openapi.yml
   format: yaml
   label: Quandoo Validations API
   slug: quandoo-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/openapi/quandoo-validations-api-openapi.yml
+  url: https://artifacts.apis.io/quandoo/openapi/quandoo-validations-api-openapi.yml
 consequence_counts:
   read: 18
   write: 6
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quando
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reservations/{reservationId}\n  method: patch\n  operationId: updateReservation_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reservations\n  method: put\n  operationId: createReservation_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reviews\n  method: get\n  operationId: getReviews_2\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reviews\n  method: put\n  operationId: createReview_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reviews\n  method: patch\n  operationId: updateReview_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/validations/phone-numbers\n  method: get\n  operationId: validatePhoneNumber_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/agentic-access/quandoo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quandoo/agentic-access/quandoo-agentic-access.yml
 summary_line: 24 operations · 6 acting
 tags:
 - Restaurant

@@ -9,31 +9,127 @@ api_specs:
   label: Amazon Pinpoint Apps API
   slug: amazon-pinpoint-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-apps-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-apps-api-openapi.yml
 - filename: amazon-pinpoint-phone-api-openapi.yml
   format: yaml
   label: Amazon Pinpoint Phone API
   slug: amazon-pinpoint-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-phone-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-phone-api-openapi.yml
 - filename: amazon-pinpoint-recommenders-api-openapi.yml
   format: yaml
   label: Amazon Pinpoint Recommenders API
   slug: amazon-pinpoint-recommenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-recommenders-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-recommenders-api-openapi.yml
 - filename: amazon-pinpoint-tags-api-openapi.yml
   format: yaml
   label: Amazon Pinpoint Tags API
   slug: amazon-pinpoint-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-tags-api-openapi.yml
 - filename: amazon-pinpoint-templates-api-openapi.yml
   format: yaml
   label: Amazon Pinpoint Templates API
   slug: amazon-pinpoint-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-templates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-templates-api-openapi.yml
+- filename: amazon-pinpoint-campaigns-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Campaigns API
+  slug: amazon-pinpoint-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-campaigns-api-openapi.yml
+- filename: amazon-pinpoint-channels-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Channels API
+  slug: amazon-pinpoint-channels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-channels-api-openapi.yml
+- filename: amazon-pinpoint-email-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Email API
+  slug: amazon-pinpoint-email-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-email-api-openapi.yml
+- filename: amazon-pinpoint-endpoints-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Endpoints API
+  slug: amazon-pinpoint-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-endpoints-api-openapi.yml
+- filename: amazon-pinpoint-eventstream-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Eventstream API
+  slug: amazon-pinpoint-eventstream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-eventstream-api-openapi.yml
+- filename: amazon-pinpoint-execution-metrics-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Execution Metrics API
+  slug: amazon-pinpoint-execution-metrics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-execution-metrics-api-openapi.yml
+- filename: amazon-pinpoint-inapp-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Inapp API
+  slug: amazon-pinpoint-inapp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-inapp-api-openapi.yml
+- filename: amazon-pinpoint-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Jobs API
+  slug: amazon-pinpoint-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-jobs-api-openapi.yml
+- filename: amazon-pinpoint-journeys-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Journeys API
+  slug: amazon-pinpoint-journeys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-journeys-api-openapi.yml
+- filename: amazon-pinpoint-kpis-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Kpis API
+  slug: amazon-pinpoint-kpis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-kpis-api-openapi.yml
+- filename: amazon-pinpoint-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Operations API
+  slug: amazon-pinpoint-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-operations-api-openapi.yml
+- filename: amazon-pinpoint-push-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Push API
+  slug: amazon-pinpoint-push-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-push-api-openapi.yml
+- filename: amazon-pinpoint-segments-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Segments API
+  slug: amazon-pinpoint-segments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-segments-api-openapi.yml
+- filename: amazon-pinpoint-sms-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Sms API
+  slug: amazon-pinpoint-sms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-sms-api-openapi.yml
+- filename: amazon-pinpoint-versions-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Versions API
+  slug: amazon-pinpoint-versions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-versions-api-openapi.yml
+- filename: amazon-pinpoint-voice-api-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint Pinpoint Voice API
+  slug: amazon-pinpoint-voice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-pinpoint/openapi/amazon-pinpoint-voice-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 52
@@ -108,10 +204,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  method: get\n  operationId: GetCampaignDateRangeKpi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/campaigns/{campaign-id}/versions/{version}\n  method: get\n  operationId: GetCampaignVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/campaigns/{campaign-id}/versions\n  method: get\n  operationId: GetCampaignVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/channels\n  method: get\n  operationId: GetChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/jobs/export/{job-id}\n\
   \  method: get\n  operationId: GetExportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/jobs/import/{job-id}\n  method: get\n  operationId: GetImportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/endpoints/{endpoint-id}/inappmessages\n  method: get\n  operationId: GetInAppMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/journeys/{journey-id}/kpis/daterange/{kpi-name}\n  method: get\n  operationId: GetJourneyDateRangeKpi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/journeys/{journey-id}/activities/{journey-activity-id}/execution-metrics\n\
   \  method: get\n  operationId: GetJourneyExecutionActivityMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/journeys/{journey-id}/execution-metrics\n  method: get\n  operationId: GetJourneyExecutionMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/segments/{segment-id}/jobs/export\n  method: get\n  operationId: GetSegmentExportJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/segments/{segment-id}/jobs/import\n  method: get\n  operationId: GetSegmentImportJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /v1/apps/{application-id}/segments/{segment-id}/versions/{version}\n  method: get\n  operationId: GetSegmentVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/segments/{segment-id}/versions\n  method: get\n  operationId: GetSegmentVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/{resource-arn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/agentic-access/amazon-pinpoint-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/agentic-access/amazon-pinpoint-agentic-access.yml
+  \ 3600\n    audit: none\n- path: /v1/apps/{application-id}/segments/{segment-id}/versions/{version}\n  method: get\n  operationId: GetSegmentVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/apps/{application-id}/segments/{segment-id}/versions\n  method: get\n  operationId: GetSegmentVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/{resource-arn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-pinpoint/agentic-access/amazon-pinpoint-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-pinpoint/agentic-access/amazon-pinpoint-agentic-access.yml
 summary_line: 122 operations · 70 acting
 tags:
+- Amazon Web Services
 - Campaigns
 - Communications
 - Email

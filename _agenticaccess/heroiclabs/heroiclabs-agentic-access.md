@@ -9,19 +9,19 @@ api_specs:
   label: Nakama API
   slug: nakama-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-nakama-api-openapi.yml
+  url: https://artifacts.apis.io/heroiclabs/openapi/heroiclabs-nakama-api-openapi.yml
 - filename: heroiclabs-console-api-openapi.yml
   format: yaml
   label: Heroic Labs Console API
   slug: heroiclabs-console-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-console-api-openapi.yml
+  url: https://artifacts.apis.io/heroiclabs/openapi/heroiclabs-console-api-openapi.yml
 - filename: heroiclabs-rpc-api-openapi.yml
   format: yaml
   label: Heroic Labs Rpc API
   slug: heroiclabs-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/heroiclabs/openapi/heroiclabs-rpc-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 63
@@ -200,8 +200,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/heroic
   \    audit: required\n- path: /v2/account\n  method: put\n  operationId: Nakama_UpdateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/authenticate/apple\n  method: post\n  operationId: Nakama_AuthenticateApple\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/authenticate/custom\n  method: post\n  operationId: Nakama_AuthenticateCustom\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/authenticate/device\n  method: post\n  operationId: Nakama_AuthenticateDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/authenticate/email\n  method: post\n  operationId: Nakama_AuthenticateEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/authenticate/facebook\n  method: post\n  operationId: Nakama_AuthenticateFacebook\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/authenticate/facebookinstantgame\n  method: post\n  operationId: Nakama_AuthenticateFacebookInstantGame\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/authenticate/gamecenter\n  method: post\n  operationId: Nakama_AuthenticateGameCenter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /v2/account/authenticate/google\n  method: post\n  operationId: Nakama_AuthenticateGoogle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/authenticate/steam\n  method: post\n  operationId: Nakama_AuthenticateSteam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (101 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/agentic-access/heroiclabs-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/agentic-access/heroiclabs-agentic-access.yml
+  \    audit: required\n- path: /v2/account/authenticate/google\n  method: post\n  operationId: Nakama_AuthenticateGoogle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/authenticate/steam\n  method: post\n  operationId: Nakama_AuthenticateSteam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (101 KB total) ---\n# Full source: https://artifacts.apis.io/heroiclabs/agentic-access/heroiclabs-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/heroiclabs/agentic-access/heroiclabs-agentic-access.yml
 summary_line: 310 operations · 247 acting · 5 human-in-the-loop
 tags:
 - Game Backend

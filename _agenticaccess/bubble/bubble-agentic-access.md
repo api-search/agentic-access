@@ -9,25 +9,25 @@ api_specs:
   label: Bubble Action API
   slug: bubble-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-action-api-openapi.yml
+  url: https://artifacts.apis.io/bubble/openapi/bubble-action-api-openapi.yml
 - filename: bubble-context-api-openapi.yml
   format: yaml
   label: Bubble Context API
   slug: bubble-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-context-api-openapi.yml
+  url: https://artifacts.apis.io/bubble/openapi/bubble-context-api-openapi.yml
 - filename: bubble-element-api-openapi.yml
   format: yaml
   label: Bubble Element API
   slug: bubble-element-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-element-api-openapi.yml
+  url: https://artifacts.apis.io/bubble/openapi/bubble-element-api-openapi.yml
 - filename: bubble-thing-api-openapi.yml
   format: yaml
   label: Bubble Thing API
   slug: bubble-thing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-thing-api-openapi.yml
+  url: https://artifacts.apis.io/bubble/openapi/bubble-thing-api-openapi.yml
 consequence_counts:
   read: 2
   write: 6
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/bubble
   \    audit: required\n- path: /actions/clientSide/{actionName}\n  method: post\n  operationId: invokeClientAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /context/async\n  method: post\n  operationId: contextAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /context/request\n  method: post\n  operationId: contextRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /elements/{elementName}/initialize\n  method: post\n  operationId: initializeElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /elements/{elementName}/update\n  method: post\n  operationId: updateElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /thing/{id}\n  method: get\n  operationId: getThingById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /things\n  method: get\n  operationId: getThingsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/agentic-access/bubble-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bubble/agentic-access/bubble-agentic-access.yml
 summary_line: 8 operations · 6 acting
 tags:
 - No-Code

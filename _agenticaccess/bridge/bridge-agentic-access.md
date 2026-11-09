@@ -9,145 +9,145 @@ api_specs:
   label: Bridge API Keys API
   slug: bridge-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-api-keys-api-openapi.yml
 - filename: bridge-associated-persons-api-openapi.yml
   format: yaml
   label: Bridge Associated Persons API
   slug: bridge-associated-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-associated-persons-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-associated-persons-api-openapi.yml
 - filename: bridge-batch-settlements-api-openapi.yml
   format: yaml
   label: Bridge Batch Settlements API
   slug: bridge-batch-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-batch-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-batch-settlements-api-openapi.yml
 - filename: bridge-bridge-wallets-api-openapi.yml
   format: yaml
   label: Bridge Wallets API
   slug: bridge-bridge-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-bridge-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-bridge-wallets-api-openapi.yml
 - filename: bridge-cards-api-openapi.yml
   format: yaml
   label: Bridge Cards API
   slug: bridge-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-cards-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-cards-api-openapi.yml
 - filename: bridge-crypto-return-policies-api-openapi.yml
   format: yaml
   label: Bridge Crypto Return Policies API
   slug: bridge-crypto-return-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-crypto-return-policies-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-crypto-return-policies-api-openapi.yml
 - filename: bridge-customers-api-openapi.yml
   format: yaml
   label: Bridge Customers API
   slug: bridge-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-customers-api-openapi.yml
 - filename: bridge-developers-api-openapi.yml
   format: yaml
   label: Bridge Developers API
   slug: bridge-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-developers-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-developers-api-openapi.yml
 - filename: bridge-exchange-rates-api-openapi.yml
   format: yaml
   label: Bridge Exchange Rates API
   slug: bridge-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-exchange-rates-api-openapi.yml
 - filename: bridge-external-accounts-api-openapi.yml
   format: yaml
   label: Bridge External Accounts API
   slug: bridge-external-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-external-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-external-accounts-api-openapi.yml
 - filename: bridge-fiat-payout-configuration-api-openapi.yml
   format: yaml
   label: Bridge Fiat Payout Configuration API
   slug: bridge-fiat-payout-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-fiat-payout-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-fiat-payout-configuration-api-openapi.yml
 - filename: bridge-funds-requests-api-openapi.yml
   format: yaml
   label: Bridge Funds Requests API
   slug: bridge-funds-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-funds-requests-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-funds-requests-api-openapi.yml
 - filename: bridge-kyc-links-api-openapi.yml
   format: yaml
   label: Bridge KYC Links API
   slug: bridge-kyc-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-kyc-links-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-kyc-links-api-openapi.yml
 - filename: bridge-liquidation-addresses-api-openapi.yml
   format: yaml
   label: Bridge Liquidation Addresses API
   slug: bridge-liquidation-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-liquidation-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-liquidation-addresses-api-openapi.yml
 - filename: bridge-lists-api-openapi.yml
   format: yaml
   label: Bridge Lists API
   slug: bridge-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-lists-api-openapi.yml
 - filename: bridge-plaid-api-openapi.yml
   format: yaml
   label: Bridge Plaid API
   slug: bridge-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-plaid-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-plaid-api-openapi.yml
 - filename: bridge-prefunded-accounts-api-openapi.yml
   format: yaml
   label: Bridge Prefunded Accounts API
   slug: bridge-prefunded-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-prefunded-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-prefunded-accounts-api-openapi.yml
 - filename: bridge-rewards-api-openapi.yml
   format: yaml
   label: Bridge Rewards API
   slug: bridge-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-rewards-api-openapi.yml
 - filename: bridge-sandbox-api-openapi.yml
   format: yaml
   label: Bridge Sandbox API
   slug: bridge-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-sandbox-api-openapi.yml
 - filename: bridge-static-memos-api-openapi.yml
   format: yaml
   label: Bridge Static Memos API
   slug: bridge-static-memos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-static-memos-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-static-memos-api-openapi.yml
 - filename: bridge-transfers-api-openapi.yml
   format: yaml
   label: Bridge Transfers API
   slug: bridge-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-transfers-api-openapi.yml
 - filename: bridge-travel-rule-api-openapi.yml
   format: yaml
   label: Bridge Travel Rule API
   slug: bridge-travel-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-travel-rule-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-travel-rule-api-openapi.yml
 - filename: bridge-virtual-accounts-api-openapi.yml
   format: yaml
   label: Bridge Virtual Accounts API
   slug: bridge-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-virtual-accounts-api-openapi.yml
 - filename: bridge-webhooks-api-openapi.yml
   format: yaml
   label: Bridge Webhooks API
   slug: bridge-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/openapi/bridge-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bridge/openapi/bridge-webhooks-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 71
@@ -262,8 +262,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/bridge
   \     - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/unfreeze\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/create_mobile_wallet_provisioning_request\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/authorizations\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/transactions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/transactions/{transactionID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/auth_controls\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/deposit_addresses\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/withdrawals\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/withdrawals\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/withdrawals/{cardWithdrawalID}\n\
-  \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/statements/{period}.pdf\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cardholders/{cardholderID}/cards/{cardID}/statements/{period}.pdf\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/agentic-access/bridge-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/agentic-access/bridge-agentic-access.yml
+  \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerID}/card_accounts/{cardAccountID}/statements/{period}.pdf\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cardholders/{cardholderID}/cards/{cardID}/statements/{period}.pdf\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/bridge/agentic-access/bridge-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bridge/agentic-access/bridge-agentic-access.yml
 summary_line: 128 operations · 57 acting
 tags:
 - Company

@@ -9,7 +9,13 @@ api_specs:
   label: Amazon Simple Workflow Service Amazon Simple Workflow Service API
   slug: amazon-swf-amazon-simple-workflow-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/openapi/amazon-swf-amazon-simple-workflow-service-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-swf/openapi/amazon-swf-amazon-simple-workflow-service-api-openapi.yml
+- filename: amazon-swf-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Simple Workflow Service Swf Operations API
+  slug: amazon-swf-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-swf/openapi/amazon-swf-operations-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -62,10 +68,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=SimpleWorkflowService.TerminateWorkflowExecution\n  method: post\n  operationId: TerminateWorkflowExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=SimpleWorkflowService.UndeprecateActivityType\n  method: post\n  operationId: UndeprecateActivityType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=SimpleWorkflowService.UndeprecateDomain\n  method: post\n  operationId: UndeprecateDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=SimpleWorkflowService.UndeprecateWorkflowType\n  method: post\n  operationId: UndeprecateWorkflowType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=SimpleWorkflowService.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/agentic-access/amazon-swf-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-swf/agentic-access/amazon-swf-agentic-access.yml
 summary_line: 37 operations · 26 acting · 1 human-in-the-loop
 tags:
 - Automation
+- Amazon Web Services
 - Task Coordination
 - Workflows
 ---

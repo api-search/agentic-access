@@ -9,43 +9,43 @@ api_specs:
   label: Thunes Account Management API
   slug: thunes-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-account-management-api-openapi.yml
 - filename: thunes-connectivity-api-openapi.yml
   format: yaml
   label: Thunes Connectivity API
   slug: thunes-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-connectivity-api-openapi.yml
 - filename: thunes-credit-parties-api-openapi.yml
   format: yaml
   label: Thunes Credit Parties API
   slug: thunes-credit-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-credit-parties-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-credit-parties-api-openapi.yml
 - filename: thunes-discovery-api-openapi.yml
   format: yaml
   label: Thunes Discovery API
   slug: thunes-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-discovery-api-openapi.yml
 - filename: thunes-quotations-api-openapi.yml
   format: yaml
   label: Thunes Quotations API
   slug: thunes-quotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-quotations-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-quotations-api-openapi.yml
 - filename: thunes-simulation-api-openapi.yml
   format: yaml
   label: Thunes Simulation API
   slug: thunes-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-simulation-api-openapi.yml
 - filename: thunes-transactions-api-openapi.yml
   format: yaml
   label: Thunes Transactions API
   slug: thunes-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-transactions-api-openapi.yml
 consequence_counts:
   read: 24
   write: 10
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/thunes
   \  method: get\n  operationId: listTransactionAttachmentsByExternalId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/ext-{external_id}/attachments\n  method: post\n  operationId: addTransactionAttachmentByExternalId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{id}/confirm\n  method: post\n  operationId: confirmTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/ext-{external_id}/confirm\n\
   \  method: post\n  operationId: confirmTransactionByExternalId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{id}/cancel\n  method: post\n  operationId: cancelTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/ext-{external_id}/cancel\n  method: post\n  operationId: cancelTransactionByExternalId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/agentic-access/thunes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thunes/agentic-access/thunes-agentic-access.yml
 summary_line: 34 operations · 10 acting
 tags:
 - Fintech

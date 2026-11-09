@@ -8,79 +8,79 @@ api_specs:
   label: NOAA CO-OPS Benchmarks API
   slug: noaa-co-ops-benchmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-benchmarks-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-benchmarks-api-openapi.yml
 - filename: noaa-co-ops-datagetter-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Datagetter API
   slug: noaa-co-ops-datagetter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-datagetter-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-datagetter-api-openapi.yml
 - filename: noaa-co-ops-extremewaterlevels-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Extremewaterlevels API
   slug: noaa-co-ops-extremewaterlevels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-extremewaterlevels-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-extremewaterlevels-api-openapi.yml
 - filename: noaa-co-ops-htf-annual-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Htf Annual API
   slug: noaa-co-ops-htf-annual-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-htf-annual-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-htf-annual-api-openapi.yml
 - filename: noaa-co-ops-htf-monthly-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Htf Monthly API
   slug: noaa-co-ops-htf-monthly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-htf-monthly-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-htf-monthly-api-openapi.yml
 - filename: noaa-co-ops-htf-projection-decadal-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Htf Projection Decadal API
   slug: noaa-co-ops-htf-projection-decadal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-htf-projection-decadal-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-htf-projection-decadal-api-openapi.yml
 - filename: noaa-co-ops-peakwaterlevels-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Peakwaterlevels API
   slug: noaa-co-ops-peakwaterlevels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-peakwaterlevels-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-peakwaterlevels-api-openapi.yml
 - filename: noaa-co-ops-ports-json-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Ports.json API
   slug: noaa-co-ops-ports-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-ports-json-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-ports-json-api-openapi.yml
 - filename: noaa-co-ops-sealvltrends-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Sealvltrends API
   slug: noaa-co-ops-sealvltrends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-sealvltrends-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-sealvltrends-api-openapi.yml
 - filename: noaa-co-ops-slr-projections-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Slr Projections API
   slug: noaa-co-ops-slr-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-slr-projections-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-slr-projections-api-openapi.yml
 - filename: noaa-co-ops-stations-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Stations API
   slug: noaa-co-ops-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-stations-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-stations-api-openapi.yml
 - filename: noaa-co-ops-stations-json-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Stations.json API
   slug: noaa-co-ops-stations-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-stations-json-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-stations-json-api-openapi.yml
 - filename: noaa-co-ops-toptenwaterlevels-api-openapi.yml
   format: yaml
   label: NOAA CO-OPS Toptenwaterlevels API
   slug: noaa-co-ops-toptenwaterlevels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/openapi/noaa-co-ops-toptenwaterlevels-api-openapi.yml
+  url: https://artifacts.apis.io/noaa-co-ops/openapi/noaa-co-ops-toptenwaterlevels-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/data-r
   \ /peakwaterlevels\n  method: get\n  operationId: getPeakWaterLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extremewaterlevels\n  method: get\n  operationId: getExtremeWaterLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sealvltrends\n  method: get\n  operationId: getSeaLevelTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /slr_projections\n  method: get\n  operationId: getSeaLevelRiseProjections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /htf_annual\n  method: get\n  operationId: getHighTideFloodingAnnual\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /htf_monthly\n  method: get\n  operationId: getHighTideFloodingMonthly\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /htf_projection_decadal\n  method: get\n  operationId: getHighTideFloodingProjectionDecadal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /benchmarks\n  method: get\n  operationId: getBenchmarks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stations.json\n  method: get\n  operationId: listStations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /stations/{stationId}.json\n  method: get\n  operationId: getStation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stations/{stationId}/{resource}.json\n  method: get\n  operationId: getStationResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ports.json\n  method: get\n  operationId: listPorts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/agentic-access/noaa-co-ops-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/noaa-co-ops/agentic-access/noaa-co-ops-agentic-access.yml
 summary_line: 14 operations
 tags:
 - NOAA

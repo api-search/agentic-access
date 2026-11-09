@@ -9,91 +9,91 @@ api_specs:
   label: Expedia Group Bookings API
   slug: expedia-group-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-bookings-api-openapi.yml
 - filename: expedia-group-content-api-openapi.yml
   format: yaml
   label: Expedia Group Content API
   slug: expedia-group-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-content-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-content-api-openapi.yml
 - filename: expedia-group-deposit-api-openapi.yml
   format: yaml
   label: Expedia Group Deposit API
   slug: expedia-group-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-deposit-api-openapi.yml
 - filename: expedia-group-geography-api-openapi.yml
   format: yaml
   label: Expedia Group Geography API
   slug: expedia-group-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-geography-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-geography-api-openapi.yml
 - filename: expedia-group-loyalty-api-openapi.yml
   format: yaml
   label: Expedia Group Loyalty API
   slug: expedia-group-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-loyalty-api-openapi.yml
 - filename: expedia-group-manage-booking-api-openapi.yml
   format: yaml
   label: Expedia Group Manage Booking API
   slug: expedia-group-manage-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-manage-booking-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-manage-booking-api-openapi.yml
 - filename: expedia-group-notifications-api-openapi.yml
   format: yaml
   label: Expedia Group Notifications API
   slug: expedia-group-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-notifications-api-openapi.yml
 - filename: expedia-group-orderpurchasescreen-api-openapi.yml
   format: yaml
   label: Expedia Group OrderPurchaseScreen API
   slug: expedia-group-orderpurchasescreen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-orderpurchasescreen-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-orderpurchasescreen-api-openapi.yml
 - filename: expedia-group-orderpurchaseupdate-api-openapi.yml
   format: yaml
   label: Expedia Group OrderPurchaseUpdate API
   slug: expedia-group-orderpurchaseupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-orderpurchaseupdate-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-orderpurchaseupdate-api-openapi.yml
 - filename: expedia-group-property-api-openapi.yml
   format: yaml
   label: Expedia Group Property API
   slug: expedia-group-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-property-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-property-api-openapi.yml
 - filename: expedia-group-rate-plan-api-openapi.yml
   format: yaml
   label: Expedia Group Rate Plan API
   slug: expedia-group-rate-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-rate-plan-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-rate-plan-api-openapi.yml
 - filename: expedia-group-rate-verification-thresholds-api-openapi.yml
   format: yaml
   label: Expedia Group Rate Verification Thresholds API
   slug: expedia-group-rate-verification-thresholds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-rate-verification-thresholds-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-rate-verification-thresholds-api-openapi.yml
 - filename: expedia-group-room-type-amenities-api-openapi.yml
   format: yaml
   label: Expedia Group Room Type Amenities API
   slug: expedia-group-room-type-amenities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-room-type-amenities-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-room-type-amenities-api-openapi.yml
 - filename: expedia-group-room-type-api-openapi.yml
   format: yaml
   label: Expedia Group Room Type API
   slug: expedia-group-room-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-room-type-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-room-type-api-openapi.yml
 - filename: expedia-group-shopping-api-openapi.yml
   format: yaml
   label: Expedia Group Shopping API
   slug: expedia-group-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-group-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/expedia-group/openapi/expedia-group-shopping-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 27
@@ -171,7 +171,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/expedi
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /itineraries/{itinerary_id}\n  method: delete\n  operationId: deleteHeldBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /itineraries/{itinerary_id}/payment-sessions\n  method: put\n  operationId: putCompletePaymentSession\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /itineraries/{itinerary_id}/rooms/{room_id}\n  method: put\n  operationId: changeRoomDetails\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /itineraries/{itinerary_id}/rooms/{room_id}\n  method: delete\n  operationId: deleteRoom\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /itineraries/{itinerary_id}/rooms/{room_id}/pricing\n  method: put\n  operationId: commitChange\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chains\n  method: get\n  operationId: getChainReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications\n  method: get\n  operationId: requestUndeliveredNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications\n  method: post\n  operationId: requestTestNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/agentic-access/expedia-group-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/expedia-group/agentic-access/expedia-group-agentic-access.yml
 summary_line: 49 operations · 22 acting
 tags:
 - Flights

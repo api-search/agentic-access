@@ -9,31 +9,31 @@ api_specs:
   label: 3-shake Accounts API
   slug: 3shake-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-accounts-api-openapi.yml
 - filename: 3shake-auth-api-openapi.yml
   format: yaml
   label: 3-shake Auth API
   slug: 3shake-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-auth-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-auth-api-openapi.yml
 - filename: 3shake-integrations-api-openapi.yml
   format: yaml
   label: 3-shake Integrations API
   slug: 3shake-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-integrations-api-openapi.yml
 - filename: 3shake-projects-api-openapi.yml
   format: yaml
   label: 3-shake Projects API
   slug: 3shake-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-projects-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-projects-api-openapi.yml
 - filename: 3shake-workflows-api-openapi.yml
   format: yaml
   label: 3-shake Workflows API
   slug: 3shake-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/openapi/3shake-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/3shake/openapi/3shake-workflows-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: generated\nsource: openapi/3shake
   \  method: get\n  operationId: listWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{workflowId}/export\n  method: get\n  operationId: exportWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/usages\n  method: get\n  operationId: listWorkflowUsages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/projects/{projectId}\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/{serviceName}/{integrationId}\n  method: delete\n  operationId: deleteIntegration\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/accounts\n  method: get\n  operationId: getProjectAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}\n  method: delete\n  operationId: deleteAccount\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/token/refresh\n  method: post\n  operationId: authTokenRefresh\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/agentic-access/3shake-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/3shake/agentic-access/3shake-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Company

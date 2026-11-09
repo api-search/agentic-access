@@ -9,49 +9,49 @@ api_specs:
   label: Anodot Access Token API
   slug: anodot-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/anodot/openapi/anodot-access-token-api-openapi.yml
 - filename: anodot-alert-actions-api-openapi.yml
   format: yaml
   label: Anodot Alert Actions API
   slug: anodot-alert-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-alert-actions-api-openapi.yml
+  url: https://artifacts.apis.io/anodot/openapi/anodot-alert-actions-api-openapi.yml
 - filename: anodot-alerts-api-openapi.yml
   format: yaml
   label: Anodot Alerts API
   slug: anodot-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/anodot/openapi/anodot-alerts-api-openapi.yml
 - filename: anodot-anomalies-api-openapi.yml
   format: yaml
   label: Anodot Anomalies API
   slug: anodot-anomalies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-anomalies-api-openapi.yml
+  url: https://artifacts.apis.io/anodot/openapi/anodot-anomalies-api-openapi.yml
 - filename: anodot-customers-api-openapi.yml
   format: yaml
   label: Anodot Customers API
   slug: anodot-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-customers-api-openapi.yml
+  url: https://artifacts.apis.io/anodot/openapi/anodot-customers-api-openapi.yml
 - filename: anodot-forecast-api-openapi.yml
   format: yaml
   label: Anodot Forecast API
   slug: anodot-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/anodot/openapi/anodot-forecast-api-openapi.yml
 - filename: anodot-groups-api-openapi.yml
   format: yaml
   label: Anodot Groups API
   slug: anodot-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-groups-api-openapi.yml
+  url: https://artifacts.apis.io/anodot/openapi/anodot-groups-api-openapi.yml
 - filename: anodot-users-api-openapi.yml
   format: yaml
   label: Anodot Users API
   slug: anodot-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/openapi/anodot-users-api-openapi.yml
+  url: https://artifacts.apis.io/anodot/openapi/anodot-users-api-openapi.yml
 consequence_counts:
   read: 23
   write: 11
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/anodot
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/alerts/{alertID}/pause\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/alerts/{alertID}/resume\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/alert-actions\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/alert-actions/{actionId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/alert-actions/create\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/alert-actions/{actionID}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/alert-actions/{actionID}\n\
   \  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/alert-actions/usage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/alert-actions/usage/{actionID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/agentic-access/anodot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/anodot/agentic-access/anodot-agentic-access.yml
 summary_line: 34 operations · 11 acting
 tags:
 - Artificial Intelligence

@@ -9,37 +9,37 @@ api_specs:
   label: NowCerts Authentication API
   slug: nowcerts-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nowcerts/openapi/nowcerts-authentication-api-openapi.yml
 - filename: nowcerts-carriers-api-openapi.yml
   format: yaml
   label: NowCerts Carriers API
   slug: nowcerts-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/nowcerts/openapi/nowcerts-carriers-api-openapi.yml
 - filename: nowcerts-endorsements-api-openapi.yml
   format: yaml
   label: NowCerts Endorsements API
   slug: nowcerts-endorsements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-endorsements-api-openapi.yml
+  url: https://artifacts.apis.io/nowcerts/openapi/nowcerts-endorsements-api-openapi.yml
 - filename: nowcerts-insureds-api-openapi.yml
   format: yaml
   label: NowCerts Insureds API
   slug: nowcerts-insureds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-insureds-api-openapi.yml
+  url: https://artifacts.apis.io/nowcerts/openapi/nowcerts-insureds-api-openapi.yml
 - filename: nowcerts-policies-api-openapi.yml
   format: yaml
   label: NowCerts Policies API
   slug: nowcerts-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-policies-api-openapi.yml
+  url: https://artifacts.apis.io/nowcerts/openapi/nowcerts-policies-api-openapi.yml
 - filename: nowcerts-tasks-api-openapi.yml
   format: yaml
   label: NowCerts Tasks API
   slug: nowcerts-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/openapi/nowcerts-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nowcerts/openapi/nowcerts-tasks-api-openapi.yml
 consequence_counts:
   read: 15
   write: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nowcer
   \ insertPolicyWithEndorsementId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PolicyEndorsementDetailList\n  method: get\n  operationId: listPolicyEndorsementDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PolicyEndorsementAgencyCommissionDetailList\n  method: get\n  operationId: listEndorsementAgencyCommissionDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TasksWork/InsertUpdate\n  method: post\n  operationId: insertUpdateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /TasksList\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TasksWorkGroupList\n  method: get\n  operationId: listTaskWorkGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ToDoList\n  method: get\n  operationId: listToDo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /heartbeat\n  method: get\n  operationId: heartbeat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/agentic-access/nowcerts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nowcerts/agentic-access/nowcerts-agentic-access.yml
 summary_line: 21 operations · 6 acting
 tags:
 - Insurance

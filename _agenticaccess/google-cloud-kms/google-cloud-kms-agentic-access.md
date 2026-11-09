@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud KMS Crypto Keys API
   slug: google-cloud-kms-crypto-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-crypto-keys-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-crypto-keys-api-openapi.yml
 - filename: google-cloud-kms-crypto-operations-api-openapi.yml
   format: yaml
   label: Google Cloud KMS Crypto Operations API
   slug: google-cloud-kms-crypto-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-crypto-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-crypto-operations-api-openapi.yml
 - filename: google-cloud-kms-key-rings-api-openapi.yml
   format: yaml
   label: Google Cloud KMS Key Rings API
   slug: google-cloud-kms-key-rings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-key-rings-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-key-rings-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/keyRings/{keyRingId}\n  method: get\n  operationId: getKeyRing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/keyRings/{keyRingId}/cryptoKeys\n  method: get\n  operationId: listCryptoKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/keyRings/{keyRingId}/cryptoKeys\n  method: post\n  operationId: createCryptoKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/keyRings/{keyRingId}/cryptoKeys/{cryptoKeyId}\n  method: get\n  operationId: getCryptoKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/keyRings/{keyRingId}/cryptoKeys/{cryptoKeyId}\n  method: patch\n  operationId: updateCryptoKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/keyRings/{keyRingId}/cryptoKeys/{cryptoKeyId}:encrypt\n  method: post\n  operationId: encrypt\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/keyRings/{keyRingId}/cryptoKeys/{cryptoKeyId}:decrypt\n  method: post\n  operationId: decrypt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/agentic-access/google-cloud-kms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-kms/agentic-access/google-cloud-kms-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Cryptography

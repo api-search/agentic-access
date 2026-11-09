@@ -9,31 +9,133 @@ api_specs:
   label: Amazon Deadline Cloud Farms API
   slug: amazon-deadline-cloud-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-farms-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-farms-api-openapi.yml
 - filename: amazon-deadline-cloud-fleets-api-openapi.yml
   format: yaml
   label: Amazon Deadline Cloud Fleets API
   slug: amazon-deadline-cloud-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-fleets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-fleets-api-openapi.yml
 - filename: amazon-deadline-cloud-jobs-api-openapi.yml
   format: yaml
   label: Amazon Deadline Cloud Jobs API
   slug: amazon-deadline-cloud-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-jobs-api-openapi.yml
 - filename: amazon-deadline-cloud-queues-api-openapi.yml
   format: yaml
   label: Amazon Deadline Cloud Queues API
   slug: amazon-deadline-cloud-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-queues-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-queues-api-openapi.yml
 - filename: amazon-deadline-cloud-workers-api-openapi.yml
   format: yaml
   label: Amazon Deadline Cloud Workers API
   slug: amazon-deadline-cloud-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-workers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-workers-api-openapi.yml
+- filename: amazon-deadline-cloud-budgets-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Budgets API
+  slug: amazon-deadline-cloud-budgets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-budgets-api-openapi.yml
+- filename: amazon-deadline-cloud-environments-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Environments API
+  slug: amazon-deadline-cloud-environments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-environments-api-openapi.yml
+- filename: amazon-deadline-cloud-license-endpoints-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud License Endpoints API
+  slug: amazon-deadline-cloud-license-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-license-endpoints-api-openapi.yml
+- filename: amazon-deadline-cloud-limits-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Limits API
+  slug: amazon-deadline-cloud-limits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-limits-api-openapi.yml
+- filename: amazon-deadline-cloud-members-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Members API
+  slug: amazon-deadline-cloud-members-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-members-api-openapi.yml
+- filename: amazon-deadline-cloud-metered-products-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Metered Products API
+  slug: amazon-deadline-cloud-metered-products-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-metered-products-api-openapi.yml
+- filename: amazon-deadline-cloud-monitors-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Monitors API
+  slug: amazon-deadline-cloud-monitors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-monitors-api-openapi.yml
+- filename: amazon-deadline-cloud-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Operations API
+  slug: amazon-deadline-cloud-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-operations-api-openapi.yml
+- filename: amazon-deadline-cloud-queue-fleet-associations-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Queue Fleet Associations API
+  slug: amazon-deadline-cloud-queue-fleet-associations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-queue-fleet-associations-api-openapi.yml
+- filename: amazon-deadline-cloud-queue-limit-associations-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Queue Limit Associations API
+  slug: amazon-deadline-cloud-queue-limit-associations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-queue-limit-associations-api-openapi.yml
+- filename: amazon-deadline-cloud-search-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Search API
+  slug: amazon-deadline-cloud-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-search-api-openapi.yml
+- filename: amazon-deadline-cloud-sessions-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Sessions API
+  slug: amazon-deadline-cloud-sessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-sessions-api-openapi.yml
+- filename: amazon-deadline-cloud-steps-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Steps API
+  slug: amazon-deadline-cloud-steps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-steps-api-openapi.yml
+- filename: amazon-deadline-cloud-storage-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Storage Profiles API
+  slug: amazon-deadline-cloud-storage-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-storage-profiles-api-openapi.yml
+- filename: amazon-deadline-cloud-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Tags API
+  slug: amazon-deadline-cloud-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-tags-api-openapi.yml
+- filename: amazon-deadline-cloud-tasks-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Tasks API
+  slug: amazon-deadline-cloud-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-tasks-api-openapi.yml
+- filename: amazon-deadline-cloud-volumes-api-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud Deadline Cloud Volumes API
+  slug: amazon-deadline-cloud-volumes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-deadline-cloud/openapi/amazon-deadline-cloud-volumes-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -65,9 +167,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2023-10-12/farms/{farmId}/queues/{queueId}\n  method: delete\n  operationId: deleteQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2023-10-12/farms/{farmId}/fleets\n  method: get\n  operationId: listFleets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2023-10-12/farms/{farmId}/fleets\n  method: post\n  operationId: createFleet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n   \
   \ subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2023-10-12/farms/{farmId}/queues/{queueId}/jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2023-10-12/farms/{farmId}/queues/{queueId}/jobs/{jobId}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2023-10-12/farms/{farmId}/queues/{queueId}/jobs/{jobId}\n  method: patch\n  operationId: updateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2023-10-12/farms/{farmId}/fleets/{fleetId}/workers\n  method: get\n  operationId: listWorkers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/agentic-access/amazon-deadline-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-deadline-cloud/agentic-access/amazon-deadline-cloud-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
+- Amazon Web Services
 - Compute
 - Media
 - Rendering

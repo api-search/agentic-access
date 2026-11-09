@@ -9,109 +9,109 @@ api_specs:
   label: Citizens Accounts API
   slug: citizens-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-accounts-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/_original/citizens-financial-group-accounts-openapi.yml
 - filename: citizens-financial-group-statements-openapi.yml
   format: yaml
   label: Citizens Statements API
   slug: citizens-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-statements-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/_original/citizens-financial-group-statements-openapi.yml
 - filename: citizens-financial-group-authorize-openapi.yml
   format: yaml
   label: Citizens Authorize API
   slug: citizens-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-authorize-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/_original/citizens-financial-group-authorize-openapi.yml
 - filename: citizens-financial-group-atm-locator-openapi.yml
   format: yaml
   label: Citizens ATM Locator API
   slug: citizens-atm-locator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-atm-locator-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/_original/citizens-financial-group-atm-locator-openapi.yml
 - filename: citizens-financial-group-branch-locator-openapi.yml
   format: yaml
   label: Citizens Branch Locator API
   slug: citizens-branch-locator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/_original/citizens-financial-group-branch-locator-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/_original/citizens-financial-group-branch-locator-openapi.yml
 - filename: citizens-financial-group-account-transfer-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Account Transfer API
   slug: citizens-financial-group-account-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-account-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-account-transfer-api-openapi.yml
 - filename: citizens-financial-group-accounts-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Accounts API
   slug: citizens-financial-group-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-accounts-api-openapi.yml
 - filename: citizens-financial-group-get-account-inquiry-status-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Get Account Inquiry Status API
   slug: citizens-financial-group-get-account-inquiry-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-get-account-inquiry-status-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-get-account-inquiry-status-api-openapi.yml
 - filename: citizens-financial-group-information-reporting-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Information Reporting API
   slug: citizens-financial-group-information-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-information-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-information-reporting-api-openapi.yml
 - filename: citizens-financial-group-initiate-account-validation-inquiry-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Initiate Account Validation Inquiry API
   slug: citizens-financial-group-initiate-account-validation-inquiry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-initiate-account-validation-inquiry-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-initiate-account-validation-inquiry-api-openapi.yml
 - filename: citizens-financial-group-initiate-payment-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Initiate Payment API
   slug: citizens-financial-group-initiate-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-initiate-payment-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-initiate-payment-api-openapi.yml
 - filename: citizens-financial-group-latitude-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Latitude API
   slug: citizens-financial-group-latitude-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-latitude-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-latitude-api-openapi.yml
 - filename: citizens-financial-group-participant-status-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Participant Status API
   slug: citizens-financial-group-participant-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-participant-status-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-participant-status-api-openapi.yml
 - filename: citizens-financial-group-payment-status-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Payment Status API
   slug: citizens-financial-group-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-payment-status-api-openapi.yml
 - filename: citizens-financial-group-postalcode-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Postalcode API
   slug: citizens-financial-group-postalcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-postalcode-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-postalcode-api-openapi.yml
 - filename: citizens-financial-group-revoke-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Revoke API
   slug: citizens-financial-group-revoke-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-revoke-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-revoke-api-openapi.yml
 - filename: citizens-financial-group-routingnumber-api-openapi.yml
   format: yaml
   label: Citizens Financial Group Routingnumber API
   slug: citizens-financial-group-routingnumber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-routingnumber-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-routingnumber-api-openapi.yml
 - filename: citizens-financial-group-state-api-openapi.yml
   format: yaml
   label: Citizens Financial Group State API
   slug: citizens-financial-group-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/openapi/citizens-financial-group-state-api-openapi.yml
+  url: https://artifacts.apis.io/citizens-financial-group/openapi/citizens-financial-group-state-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 17
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/citize
   \      - high-value\n    audit: required\n- path: /latitude/\\{latitude}/longitude/{longitude}\n  method: get\n  operationId: getLatitude\\{latitude}LongitudeByLongitude\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /participant-status/query\n  method: post\n  operationId: checkParticipantStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-status/query\n  method: post\n  operationId: retrievePaymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /postalcode/{postalCode}\n  method: get\n  operationId: findBranchesByPostalCode\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /revoke\n  method: post\n  operationId: postRevoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /routingnumber/{routingnumber}\n  method: get\n  operationId: getRoutingnumberByRoutingnumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /state/{state}/city/{city}\n  method: get\n  operationId: getStateByStateCityByCity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/agentic-access/citizens-financial-group-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/citizens-financial-group/agentic-access/citizens-financial-group-agentic-access.yml
 summary_line: 21 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Banking

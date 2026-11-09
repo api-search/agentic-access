@@ -9,25 +9,25 @@ api_specs:
   label: Shippeo ETA and Status API
   slug: shippeo-eta-and-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-eta-and-status-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-eta-and-status-api-openapi.yml
 - filename: shippeo-event-subscriptions-api-openapi.yml
   format: yaml
   label: Shippeo Event Subscriptions API
   slug: shippeo-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-event-subscriptions-api-openapi.yml
 - filename: shippeo-positions-api-openapi.yml
   format: yaml
   label: Shippeo Positions API
   slug: shippeo-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-positions-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-positions-api-openapi.yml
 - filename: shippeo-transport-orders-api-openapi.yml
   format: yaml
   label: Shippeo Transport Orders API
   slug: shippeo-transport-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-transport-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shippeo/openapi/shippeo-transport-orders-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shippe
   \ method: post\n  operationId: createTransportOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transport-orders/{id}\n  method: get\n  operationId: getTransportOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transport-orders/{id}\n  method: patch\n  operationId: updateTransportOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /transport-orders/{id}/eta\n  method: get\n  operationId: getTransportOrderEta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transport-orders/{id}/positions\n  method: get\n  operationId: listPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /positions\n  method: post\n  operationId: submitPosition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event-subscriptions\n  method: get\n  operationId: listEventSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event-subscriptions\n  method: post\n  operationId: createEventSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event-subscriptions/{id}\n  method: delete\n  operationId: deleteEventSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/agentic-access/shippeo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shippeo/agentic-access/shippeo-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Supply Chain

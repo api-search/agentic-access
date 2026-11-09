@@ -8,217 +8,217 @@ api_specs:
   label: USGS Water Services Agency Codes API
   slug: usgs-water-agency-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-agency-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-agency-codes-api-openapi.yml
 - filename: usgs-water-altitude-datums-api-openapi.yml
   format: yaml
   label: USGS Water Services Altitude Datums API
   slug: usgs-water-altitude-datums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-altitude-datums-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-altitude-datums-api-openapi.yml
 - filename: usgs-water-aquifer-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Aquifer Codes API
   slug: usgs-water-aquifer-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-aquifer-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-aquifer-codes-api-openapi.yml
 - filename: usgs-water-aquifer-types-api-openapi.yml
   format: yaml
   label: USGS Water Services Aquifer Types API
   slug: usgs-water-aquifer-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-aquifer-types-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-aquifer-types-api-openapi.yml
 - filename: usgs-water-channel-measurements-api-openapi.yml
   format: yaml
   label: USGS Water Services Channel Measurements API
   slug: usgs-water-channel-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-channel-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-channel-measurements-api-openapi.yml
 - filename: usgs-water-citations-api-openapi.yml
   format: yaml
   label: USGS Water Services Citations API
   slug: usgs-water-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-citations-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-citations-api-openapi.yml
 - filename: usgs-water-combined-metadata-api-openapi.yml
   format: yaml
   label: USGS Water Services Combined Metadata API
   slug: usgs-water-combined-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-combined-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-combined-metadata-api-openapi.yml
 - filename: usgs-water-continuous-api-openapi.yml
   format: yaml
   label: USGS Water Services Continuous API
   slug: usgs-water-continuous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-continuous-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-continuous-api-openapi.yml
 - filename: usgs-water-coordinate-accuracy-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Coordinate Accuracy Codes API
   slug: usgs-water-coordinate-accuracy-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-coordinate-accuracy-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-coordinate-accuracy-codes-api-openapi.yml
 - filename: usgs-water-coordinate-datum-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Coordinate Datum Codes API
   slug: usgs-water-coordinate-datum-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-coordinate-datum-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-coordinate-datum-codes-api-openapi.yml
 - filename: usgs-water-coordinate-method-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Coordinate Method Codes API
   slug: usgs-water-coordinate-method-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-coordinate-method-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-coordinate-method-codes-api-openapi.yml
 - filename: usgs-water-counties-api-openapi.yml
   format: yaml
   label: USGS Water Services Counties API
   slug: usgs-water-counties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-counties-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-counties-api-openapi.yml
 - filename: usgs-water-countries-api-openapi.yml
   format: yaml
   label: USGS Water Services Countries API
   slug: usgs-water-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-countries-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-countries-api-openapi.yml
 - filename: usgs-water-daily-api-openapi.yml
   format: yaml
   label: USGS Water Services Daily API
   slug: usgs-water-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-daily-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-daily-api-openapi.yml
 - filename: usgs-water-field-measurements-api-openapi.yml
   format: yaml
   label: USGS Water Services Field Measurements API
   slug: usgs-water-field-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-field-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-field-measurements-api-openapi.yml
 - filename: usgs-water-field-measurements-metadata-api-openapi.yml
   format: yaml
   label: USGS Water Services Field Measurements Metadata API
   slug: usgs-water-field-measurements-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-field-measurements-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-field-measurements-metadata-api-openapi.yml
 - filename: usgs-water-hydrologic-unit-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Hydrologic Unit Codes API
   slug: usgs-water-hydrologic-unit-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-hydrologic-unit-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-hydrologic-unit-codes-api-openapi.yml
 - filename: usgs-water-latest-continuous-api-openapi.yml
   format: yaml
   label: USGS Water Services Latest Continuous API
   slug: usgs-water-latest-continuous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-latest-continuous-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-latest-continuous-api-openapi.yml
 - filename: usgs-water-latest-daily-api-openapi.yml
   format: yaml
   label: USGS Water Services Latest Daily API
   slug: usgs-water-latest-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-latest-daily-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-latest-daily-api-openapi.yml
 - filename: usgs-water-latest-field-measurements-api-openapi.yml
   format: yaml
   label: USGS Water Services Latest Field Measurements API
   slug: usgs-water-latest-field-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-latest-field-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-latest-field-measurements-api-openapi.yml
 - filename: usgs-water-medium-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Medium Codes API
   slug: usgs-water-medium-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-medium-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-medium-codes-api-openapi.yml
 - filename: usgs-water-method-categories-api-openapi.yml
   format: yaml
   label: USGS Water Services Method Categories API
   slug: usgs-water-method-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-method-categories-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-method-categories-api-openapi.yml
 - filename: usgs-water-method-citations-api-openapi.yml
   format: yaml
   label: USGS Water Services Method Citations API
   slug: usgs-water-method-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-method-citations-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-method-citations-api-openapi.yml
 - filename: usgs-water-methods-api-openapi.yml
   format: yaml
   label: USGS Water Services Methods API
   slug: usgs-water-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-methods-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-methods-api-openapi.yml
 - filename: usgs-water-monitoring-locations-api-openapi.yml
   format: yaml
   label: USGS Water Services Monitoring Locations API
   slug: usgs-water-monitoring-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-monitoring-locations-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-monitoring-locations-api-openapi.yml
 - filename: usgs-water-national-aquifer-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services National Aquifer Codes API
   slug: usgs-water-national-aquifer-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-national-aquifer-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-national-aquifer-codes-api-openapi.yml
 - filename: usgs-water-parameter-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Parameter Codes API
   slug: usgs-water-parameter-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-parameter-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-parameter-codes-api-openapi.yml
 - filename: usgs-water-peaks-api-openapi.yml
   format: yaml
   label: USGS Water Services Peaks API
   slug: usgs-water-peaks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-peaks-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-peaks-api-openapi.yml
 - filename: usgs-water-reliability-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Reliability Codes API
   slug: usgs-water-reliability-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-reliability-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-reliability-codes-api-openapi.yml
 - filename: usgs-water-server-api-openapi.yml
   format: yaml
   label: USGS Water Services Server API
   slug: usgs-water-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-server-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-server-api-openapi.yml
 - filename: usgs-water-site-types-api-openapi.yml
   format: yaml
   label: USGS Water Services Site Types API
   slug: usgs-water-site-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-site-types-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-site-types-api-openapi.yml
 - filename: usgs-water-states-api-openapi.yml
   format: yaml
   label: USGS Water Services States API
   slug: usgs-water-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-states-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-states-api-openapi.yml
 - filename: usgs-water-statistic-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Statistic Codes API
   slug: usgs-water-statistic-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-statistic-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-statistic-codes-api-openapi.yml
 - filename: usgs-water-time-series-metadata-api-openapi.yml
   format: yaml
   label: USGS Water Services Time Series Metadata API
   slug: usgs-water-time-series-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-time-series-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-time-series-metadata-api-openapi.yml
 - filename: usgs-water-time-zone-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Time Zone Codes API
   slug: usgs-water-time-zone-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-time-zone-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-time-zone-codes-api-openapi.yml
 - filename: usgs-water-topographic-codes-api-openapi.yml
   format: yaml
   label: USGS Water Services Topographic Codes API
   slug: usgs-water-topographic-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/openapi/usgs-water-topographic-codes-api-openapi.yml
+  url: https://artifacts.apis.io/usgs-water/openapi/usgs-water-topographic-codes-api-openapi.yml
 consequence_counts:
   read: 284
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -276,8 +276,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/usgs-w
   \  method: get\n  operationId: getDailyQueryables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/daily/schema\n  method: get\n  operationId: getDailySchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements\n  method: get\n  operationId: describeField-measurementsCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/items\n  method: get\n  operationId: getField-measurementsFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/items\n  method: options\n\
   \  operationId: optionsField-measurementsFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/items\n  method: post\n  operationId: getCQL2Field-measurementsFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/items/{featureId}\n  method: get\n  operationId: getField-measurementsFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/items/{featureId}\n  method: options\n  operationId: optionsField-measurementsFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /collections/field-measurements/queryables\n  method: get\n  operationId: getField-measurementsQueryables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/schema\n  method: get\n  operationId: getField-measurementsSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements-metadata\n  method: get\n  operationId: describeField-measurements-metadataCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements-metadata/items\n  method: get\n  operationId: getField-measurements-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements-metadata/items\n  method: options\n  operationId: optionsField-measurements-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements-metadata/items\n  method: post\n  operationId: getCQL2Field-measurements-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (70 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/agentic-access/usgs-water-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/agentic-access/usgs-water-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements-metadata/items\n  method: options\n  operationId: optionsField-measurements-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements-metadata/items\n  method: post\n  operationId: getCQL2Field-measurements-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (70 KB total) ---\n# Full source: https://artifacts.apis.io/usgs-water/agentic-access/usgs-water-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/usgs-water/agentic-access/usgs-water-agentic-access.yml
 summary_line: 284 operations
 tags:
 - Water

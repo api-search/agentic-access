@@ -9,37 +9,55 @@ api_specs:
   label: Azure Stream Analytics Clusters API
   slug: microsoft-azure-stream-analytics-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-clusters-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-functions-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics Functions API
   slug: microsoft-azure-stream-analytics-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-functions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-functions-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-inputs-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics Inputs API
   slug: microsoft-azure-stream-analytics-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-inputs-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-outputs-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics Outputs API
   slug: microsoft-azure-stream-analytics-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-outputs-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-streamingjobs-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics StreamingJobs API
   slug: microsoft-azure-stream-analytics-streamingjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-streamingjobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-streamingjobs-api-openapi.yml
 - filename: microsoft-azure-stream-analytics-transformations-api-openapi.yml
   format: yaml
   label: Azure Stream Analytics Transformations API
   slug: microsoft-azure-stream-analytics-transformations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/openapi/microsoft-azure-stream-analytics-transformations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-transformations-api-openapi.yml
+- filename: microsoft-azure-stream-analytics-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Stream Analytics Subscriptions API
+  slug: microsoft-azure-stream-analytics-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-subscriptions-api-openapi.yml
+- filename: microsoft-azure-stream-analytics-operations-api-openapi.yml
+  format: yaml
+  label: Azure Stream Analytics Operations API
+  slug: microsoft-azure-stream-analytics-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-operations-api-openapi.yml
+- filename: microsoft-azure-stream-analytics-private-endpoints-api-openapi.yml
+  format: yaml
+  label: Azure Stream Analytics Private Endpoints API
+  slug: microsoft-azure-stream-analytics-private-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-stream-analytics/openapi/microsoft-azure-stream-analytics-private-endpoints-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -80,11 +98,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \  method: post\n  operationId: startStreamingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StreamAnalytics/streamingjobs/{jobName}/stop\n  method: post\n  operationId: stopStreamingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StreamAnalytics/streamingjobs/{jobName}/inputs\n  method: get\n  operationId:\
   \ listInputsByStreamingJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StreamAnalytics/streamingjobs/{jobName}/outputs\n  method: get\n  operationId: listOutputsByStreamingJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StreamAnalytics/streamingjobs/{jobName}/transformations/{transformationName}\n  method: get\n  operationId: getTransformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StreamAnalytics/streamingjobs/{jobName}/transformations/{transformationName}\n\
   \  method: put\n  operationId: createOrReplaceTransformation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StreamAnalytics/streamingjobs/{jobName}/functions\n  method: get\n  operationId: listFunctionsByStreamingJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.StreamAnalytics/clusters\n  method: get\n  operationId: listClustersBySubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/agentic-access/microsoft-azure-stream-analytics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-stream-analytics/agentic-access/microsoft-azure-stream-analytics-agentic-access.yml
 summary_line: 14 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Stream Processing
 - Real-Time Analytics
 - IoT
 - Event Processing
+- Microsoft Azure
+- Streaming
 ---

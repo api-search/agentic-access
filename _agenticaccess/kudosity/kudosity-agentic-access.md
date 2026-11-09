@@ -9,73 +9,73 @@ api_specs:
   label: Kudosity Account API
   slug: kudosity-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-account-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-account-api-openapi.yml
 - filename: kudosity-contacts-lists-api-openapi.yml
   format: yaml
   label: Kudosity Contacts & Lists API
   slug: kudosity-contacts-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-contacts-lists-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-contacts-lists-api-openapi.yml
 - filename: kudosity-email-sms-api-openapi.yml
   format: yaml
   label: Kudosity Email SMS API
   slug: kudosity-email-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-email-sms-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-email-sms-api-openapi.yml
 - filename: kudosity-keywords-api-openapi.yml
   format: yaml
   label: Kudosity Keywords API
   slug: kudosity-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-keywords-api-openapi.yml
 - filename: kudosity-mms-api-openapi.yml
   format: yaml
   label: Kudosity MMS API
   slug: kudosity-mms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-mms-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-mms-api-openapi.yml
 - filename: kudosity-numbers-api-openapi.yml
   format: yaml
   label: Kudosity Numbers API
   slug: kudosity-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-numbers-api-openapi.yml
 - filename: kudosity-rcs-api-openapi.yml
   format: yaml
   label: Kudosity RCS API
   slug: kudosity-rcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-rcs-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-rcs-api-openapi.yml
 - filename: kudosity-reporting-api-openapi.yml
   format: yaml
   label: Kudosity Reporting API
   slug: kudosity-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-reporting-api-openapi.yml
 - filename: kudosity-senders-api-openapi.yml
   format: yaml
   label: Kudosity Senders API
   slug: kudosity-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-senders-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-senders-api-openapi.yml
 - filename: kudosity-sms-api-openapi.yml
   format: yaml
   label: Kudosity SMS API
   slug: kudosity-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-sms-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-sms-api-openapi.yml
 - filename: kudosity-webhook-api-openapi.yml
   format: yaml
   label: Kudosity Webhook API
   slug: kudosity-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-webhook-api-openapi.yml
 - filename: kudosity-whats-app-api-openapi.yml
   format: yaml
   label: Kudosity Whats App API
   slug: kudosity-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/openapi/kudosity-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/kudosity/openapi/kudosity-whats-app-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 26
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kudosi
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /get-user-sms-responses.json\n  method: get\n  operationId: getGetUserSmsResponsesJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhook\n  method: post\n  operationId: postV2Webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhook\n  method: get\n  operationId: getV2Webhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhook/{id}\n  method: get\n  operationId: getV2WebhookById\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhook/{id}\n  method: put\n  operationId: putV2WebhookById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhook/{id}\n  method: delete\n  operationId: deleteV2WebhookById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/whatsapp/messages\n  method: get\n  operationId: getV2WhatsappMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/whatsapp/messages\n  method: post\n  operationId: postV2WhatsappMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/whatsapp/messages/{id}\n  method: get\n  operationId: getV2WhatsappMessagesById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/agentic-access/kudosity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kudosity/agentic-access/kudosity-agentic-access.yml
 summary_line: 57 operations · 31 acting · 1 human-in-the-loop
 tags:
 - Messaging

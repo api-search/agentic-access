@@ -9,55 +9,55 @@ api_specs:
   label: QuickNode Core RPC API
   slug: core-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/asyncapi/quicknode-asyncapi.yml
+  url: https://artifacts.apis.io/quicknode/asyncapi/quicknode-asyncapi.yml
 - filename: quicknode-account-api-openapi.yml
   format: yaml
   label: QuickNode Account API
   slug: quicknode-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-account-api-openapi.yml
+  url: https://artifacts.apis.io/quicknode/openapi/quicknode-account-api-openapi.yml
 - filename: quicknode-batch-api-openapi.yml
   format: yaml
   label: QuickNode Batch API
   slug: quicknode-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-batch-api-openapi.yml
+  url: https://artifacts.apis.io/quicknode/openapi/quicknode-batch-api-openapi.yml
 - filename: quicknode-database-api-openapi.yml
   format: yaml
   label: QuickNode Database API
   slug: quicknode-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-database-api-openapi.yml
+  url: https://artifacts.apis.io/quicknode/openapi/quicknode-database-api-openapi.yml
 - filename: quicknode-gateway-api-openapi.yml
   format: yaml
   label: QuickNode Gateway API
   slug: quicknode-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/quicknode/openapi/quicknode-gateway-api-openapi.yml
 - filename: quicknode-keys-api-openapi.yml
   format: yaml
   label: QuickNode Keys API
   slug: quicknode-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-keys-api-openapi.yml
+  url: https://artifacts.apis.io/quicknode/openapi/quicknode-keys-api-openapi.yml
 - filename: quicknode-logs-api-openapi.yml
   format: yaml
   label: QuickNode Logs API
   slug: quicknode-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-logs-api-openapi.yml
+  url: https://artifacts.apis.io/quicknode/openapi/quicknode-logs-api-openapi.yml
 - filename: quicknode-pinning-api-openapi.yml
   format: yaml
   label: QuickNode Pinning API
   slug: quicknode-pinning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-pinning-api-openapi.yml
+  url: https://artifacts.apis.io/quicknode/openapi/quicknode-pinning-api-openapi.yml
 - filename: quicknode-streams-api-openapi.yml
   format: yaml
   label: QuickNode Streams API
   slug: quicknode-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/openapi/quicknode-streams-api-openapi.yml
+  url: https://artifacts.apis.io/quicknode/openapi/quicknode-streams-api-openapi.yml
 consequence_counts:
   read: 9
   write: 13
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quickn
   \  - high-value\n    audit: required\n- path: /streams\n  method: get\n  operationId: listStreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams\n  method: post\n  operationId: createStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{streamId}\n  method: get\n  operationId: getStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/{streamId}\n  method: delete\n  operationId: deleteStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{streamId}/pause\n  method: post\n  operationId: pauseStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{streamId}/resume\n  method: post\n  operationId: resumeStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{streamId}/logs\n  method: get\n  operationId: listStreamLogs\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/agentic-access/quicknode-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quicknode/agentic-access/quicknode-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
 - Web3

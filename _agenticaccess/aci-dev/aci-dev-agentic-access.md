@@ -9,25 +9,25 @@ api_specs:
   label: ACI.dev App Configurations API
   slug: aci-dev-app-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-app-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/aci-dev/openapi/aci-dev-app-configurations-api-openapi.yml
 - filename: aci-dev-apps-api-openapi.yml
   format: yaml
   label: ACI.dev Apps API
   slug: aci-dev-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-apps-api-openapi.yml
+  url: https://artifacts.apis.io/aci-dev/openapi/aci-dev-apps-api-openapi.yml
 - filename: aci-dev-functions-api-openapi.yml
   format: yaml
   label: ACI.dev Functions API
   slug: aci-dev-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-functions-api-openapi.yml
+  url: https://artifacts.apis.io/aci-dev/openapi/aci-dev-functions-api-openapi.yml
 - filename: aci-dev-linked-accounts-api-openapi.yml
   format: yaml
   label: ACI.dev Linked Accounts API
   slug: aci-dev-linked-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/openapi/aci-dev-linked-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aci-dev/openapi/aci-dev-linked-accounts-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aci-de
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/app-configurations\n  method: get\n  operationId: app-configurations-list_app_configurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/app-configurations/{app_name}\n  method: get\n  operationId: app-configurations-get_app_configuration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/app-configurations/{app_name}\n  method: delete\n  operationId: app-configurations-delete_app_configuration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/app-configurations/{app_name}\n  method: patch\n  operationId: app-configurations-update_app_configuration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/linked-accounts/oauth2\n  method: get\n  operationId: linked-accounts-link_oauth2_account\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/linked-accounts/oauth2/callback\n  method: get\n  operationId: linked-accounts-linked_accounts_oauth2_callback\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/linked-accounts\n  method: get\n  operationId: linked-accounts-list_linked_accounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/linked-accounts/{linked_account_id}\n  method: get\n  operationId: linked-accounts-get_linked_account\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/linked-accounts/{linked_account_id}\n  method: delete\n  operationId: linked-accounts-delete_linked_account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/agentic-access/aci-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aci-dev/agentic-access/aci-dev-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Agent Infrastructure
@@ -66,8 +66,9 @@ tags:
 - Artificial Intelligence
 - Function Calling
 - MCP
-- Authentication
+- OAuth
 - Open Source
 - Tool Calling
 - VibeOps
+- Authentication
 ---

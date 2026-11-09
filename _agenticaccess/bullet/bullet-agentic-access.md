@@ -9,55 +9,55 @@ api_specs:
   label: Bullet Account API
   slug: bullet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-account-api-openapi.yml
+  url: https://artifacts.apis.io/bullet/openapi/bullet-account-api-openapi.yml
 - filename: bullet-address-api-openapi.yml
   format: yaml
   label: Bullet Address API
   slug: bullet-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-address-api-openapi.yml
+  url: https://artifacts.apis.io/bullet/openapi/bullet-address-api-openapi.yml
 - filename: bullet-health-api-openapi.yml
   format: yaml
   label: Bullet Health API
   slug: bullet-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-health-api-openapi.yml
+  url: https://artifacts.apis.io/bullet/openapi/bullet-health-api-openapi.yml
 - filename: bullet-market-data-api-openapi.yml
   format: yaml
   label: Bullet Market-Data API
   slug: bullet-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bullet/openapi/bullet-market-data-api-openapi.yml
 - filename: bullet-rollup-api-openapi.yml
   format: yaml
   label: Bullet Rollup API
   slug: bullet-rollup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-rollup-api-openapi.yml
+  url: https://artifacts.apis.io/bullet/openapi/bullet-rollup-api-openapi.yml
 - filename: bullet-solanaoffchaintx-api-openapi.yml
   format: yaml
   label: Bullet SolanaOffchainTx API
   slug: bullet-solanaoffchaintx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-solanaoffchaintx-api-openapi.yml
+  url: https://artifacts.apis.io/bullet/openapi/bullet-solanaoffchaintx-api-openapi.yml
 - filename: bullet-trading-api-openapi.yml
   format: yaml
   label: Bullet Trading API
   slug: bullet-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-trading-api-openapi.yml
+  url: https://artifacts.apis.io/bullet/openapi/bullet-trading-api-openapi.yml
 - filename: bullet-tx-api-openapi.yml
   format: yaml
   label: Bullet Tx API
   slug: bullet-tx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-tx-api-openapi.yml
+  url: https://artifacts.apis.io/bullet/openapi/bullet-tx-api-openapi.yml
 - filename: bullet-user-data-beta-api-openapi.yml
   format: yaml
   label: Bullet User Data (Beta) API
   slug: bullet-user-data-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/openapi/bullet-user-data-beta-api-openapi.yml
+  url: https://artifacts.apis.io/bullet/openapi/bullet-user-data-beta-api-openapi.yml
 consequence_counts:
   read: 34
   write: 3
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/bullet
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fapi/v3/account\n  method: get\n  operationId: account_info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fapi/v3/balance\n  method: get\n  operationId: account_balance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health/ready\n  method: get\n  operationId: ready\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rollup/constants\n  method: get\n  operationId: constants\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rollup/schema\n  method: get\n  operationId: schema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tx/submit\n  method: post\n  operationId: submit_tx\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rollup/simulate\n  method: post\n  operationId: simulate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/agentic-access/bullet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bullet/agentic-access/bullet-agentic-access.yml
 summary_line: 37 operations · 3 acting
 tags:
 - Company

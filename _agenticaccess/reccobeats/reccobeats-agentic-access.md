@@ -9,37 +9,37 @@ api_specs:
   label: ReccoBeats Album API
   slug: reccobeats-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-album-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-album-api-openapi.yml
 - filename: reccobeats-artist-api-openapi.yml
   format: yaml
   label: ReccoBeats Artist API
   slug: reccobeats-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-artist-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-artist-api-openapi.yml
 - filename: reccobeats-audio-analysis-api-openapi.yml
   format: yaml
   label: ReccoBeats Audio Analysis API
   slug: reccobeats-audio-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-audio-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-audio-analysis-api-openapi.yml
 - filename: reccobeats-audio-features-api-openapi.yml
   format: yaml
   label: ReccoBeats Audio Features API
   slug: reccobeats-audio-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-audio-features-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-audio-features-api-openapi.yml
 - filename: reccobeats-recommendation-api-openapi.yml
   format: yaml
   label: ReccoBeats Recommendation API
   slug: reccobeats-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-recommendation-api-openapi.yml
 - filename: reccobeats-track-api-openapi.yml
   format: yaml
   label: ReccoBeats Track API
   slug: reccobeats-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/openapi/reccobeats-track-api-openapi.yml
+  url: https://artifacts.apis.io/reccobeats/openapi/reccobeats-track-api-openapi.yml
 consequence_counts:
   read: 13
   write: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reccob
   \ getTrackAudioFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track/recommendation\n  method: get\n  operationId: getRecommendation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analysis/audio-features\n  method: post\n  operationId: extractAudioFeatures\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /artist\n  method: get\n  operationId: getArtists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artist/search\n  method:\
   \ get\n  operationId: searchArtists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artist/{id}\n  method: get\n  operationId: getArtistById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artist/{id}/album\n  method: get\n  operationId: getArtistAlbums\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artist/{id}/track\n  method: get\n  operationId: getArtistTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /album\n  method: get\n  operationId: getAlbums\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /album/search\n  method: get\n  operationId: searchAlbums\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /album/{id}\n  method: get\n  operationId: getAlbumById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /album/{id}/track\n  method: get\n  operationId: getAlbumTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/agentic-access/reccobeats-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reccobeats/agentic-access/reccobeats-agentic-access.yml
 summary_line: 14 operations · 1 acting
 tags:
 - Music

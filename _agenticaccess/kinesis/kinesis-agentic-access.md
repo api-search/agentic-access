@@ -9,187 +9,187 @@ api_specs:
   label: AWS Kinesis ListStreams API
   slug: kinesis-liststreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-liststreams-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-liststreams-api-openapi.yml
 - filename: kinesis-amazon-kinesis-analytics-api-openapi.yml
   format: yaml
   label: AWS Kinesis Amazon Kinesis Analytics API
   slug: kinesis-amazon-kinesis-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-amazon-kinesis-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-amazon-kinesis-analytics-api-openapi.yml
 - filename: kinesis-amazon-kinesis-api-openapi.yml
   format: yaml
   label: AWS Kinesis Amazon Kinesis API
   slug: kinesis-amazon-kinesis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-amazon-kinesis-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-amazon-kinesis-api-openapi.yml
 - filename: kinesis-amazon-kinesis-firehose-api-openapi.yml
   format: yaml
   label: AWS Kinesis Amazon Kinesis Firehose API
   slug: kinesis-amazon-kinesis-firehose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-amazon-kinesis-firehose-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-amazon-kinesis-firehose-api-openapi.yml
 - filename: kinesis-create-signaling-channel-api-openapi.yml
   format: yaml
   label: AWS Kinesis Create Signaling Channel API
   slug: kinesis-create-signaling-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-create-signaling-channel-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-create-signaling-channel-api-openapi.yml
 - filename: kinesis-create-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis Create Stream API
   slug: kinesis-create-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-create-stream-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-create-stream-api-openapi.yml
 - filename: kinesis-delete-signaling-channel-api-openapi.yml
   format: yaml
   label: AWS Kinesis Delete Signaling Channel API
   slug: kinesis-delete-signaling-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-delete-signaling-channel-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-delete-signaling-channel-api-openapi.yml
 - filename: kinesis-delete-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis Delete Stream API
   slug: kinesis-delete-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-delete-stream-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-delete-stream-api-openapi.yml
 - filename: kinesis-describe-edge-configuration-api-openapi.yml
   format: yaml
   label: AWS Kinesis Describe Edge Configuration API
   slug: kinesis-describe-edge-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-edge-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-edge-configuration-api-openapi.yml
 - filename: kinesis-describe-image-generation-configuration-api-openapi.yml
   format: yaml
   label: AWS Kinesis Describe Image Generation Configuration API
   slug: kinesis-describe-image-generation-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-image-generation-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-image-generation-configuration-api-openapi.yml
 - filename: kinesis-describe-mapped-resource-configuration-api-openapi.yml
   format: yaml
   label: AWS Kinesis Describe Mapped Resource Configuration API
   slug: kinesis-describe-mapped-resource-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-mapped-resource-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-mapped-resource-configuration-api-openapi.yml
 - filename: kinesis-describe-media-storage-configuration-api-openapi.yml
   format: yaml
   label: AWS Kinesis Describe Media Storage Configuration API
   slug: kinesis-describe-media-storage-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-media-storage-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-media-storage-configuration-api-openapi.yml
 - filename: kinesis-describe-notification-configuration-api-openapi.yml
   format: yaml
   label: AWS Kinesis Describe Notification Configuration API
   slug: kinesis-describe-notification-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-notification-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-notification-configuration-api-openapi.yml
 - filename: kinesis-describe-signaling-channel-api-openapi.yml
   format: yaml
   label: AWS Kinesis Describe Signaling Channel API
   slug: kinesis-describe-signaling-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-signaling-channel-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-signaling-channel-api-openapi.yml
 - filename: kinesis-describe-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis Describe Stream API
   slug: kinesis-describe-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-describe-stream-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-stream-api-openapi.yml
 - filename: kinesis-get-data-endpoint-api-openapi.yml
   format: yaml
   label: AWS Kinesis Get Data Endpoint API
   slug: kinesis-get-data-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-get-data-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-get-data-endpoint-api-openapi.yml
 - filename: kinesis-get-signaling-channel-endpoint-api-openapi.yml
   format: yaml
   label: AWS Kinesis Get Signaling Channel Endpoint API
   slug: kinesis-get-signaling-channel-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-get-signaling-channel-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-get-signaling-channel-endpoint-api-openapi.yml
 - filename: kinesis-list-signaling-channels-api-openapi.yml
   format: yaml
   label: AWS Kinesis List Signaling Channels API
   slug: kinesis-list-signaling-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-list-signaling-channels-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-list-signaling-channels-api-openapi.yml
 - filename: kinesis-list-tags-for-resource-api-openapi.yml
   format: yaml
   label: AWS Kinesis List Tags For Resource API
   slug: kinesis-list-tags-for-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-list-tags-for-resource-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-list-tags-for-resource-api-openapi.yml
 - filename: kinesis-list-tags-for-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis List Tags For Stream API
   slug: kinesis-list-tags-for-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-list-tags-for-stream-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-list-tags-for-stream-api-openapi.yml
 - filename: kinesis-start-edge-configuration-update-api-openapi.yml
   format: yaml
   label: AWS Kinesis Start Edge Configuration Update API
   slug: kinesis-start-edge-configuration-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-start-edge-configuration-update-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-start-edge-configuration-update-api-openapi.yml
 - filename: kinesis-tag-resource-api-openapi.yml
   format: yaml
   label: AWS Kinesis Tag Resource API
   slug: kinesis-tag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-tag-resource-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-tag-resource-api-openapi.yml
 - filename: kinesis-tag-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis Tag Stream API
   slug: kinesis-tag-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-tag-stream-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-tag-stream-api-openapi.yml
 - filename: kinesis-untag-resource-api-openapi.yml
   format: yaml
   label: AWS Kinesis Untag Resource API
   slug: kinesis-untag-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-untag-resource-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-untag-resource-api-openapi.yml
 - filename: kinesis-untag-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis Untag Stream API
   slug: kinesis-untag-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-untag-stream-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-untag-stream-api-openapi.yml
 - filename: kinesis-update-data-retention-api-openapi.yml
   format: yaml
   label: AWS Kinesis Update Data Retention API
   slug: kinesis-update-data-retention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-data-retention-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-data-retention-api-openapi.yml
 - filename: kinesis-update-image-generation-configuration-api-openapi.yml
   format: yaml
   label: AWS Kinesis Update Image Generation Configuration API
   slug: kinesis-update-image-generation-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-image-generation-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-image-generation-configuration-api-openapi.yml
 - filename: kinesis-update-media-storage-configuration-api-openapi.yml
   format: yaml
   label: AWS Kinesis Update Media Storage Configuration API
   slug: kinesis-update-media-storage-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-media-storage-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-media-storage-configuration-api-openapi.yml
 - filename: kinesis-update-notification-configuration-api-openapi.yml
   format: yaml
   label: AWS Kinesis update Notification Configuration API
   slug: kinesis-update-notification-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-notification-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-notification-configuration-api-openapi.yml
 - filename: kinesis-update-signaling-channel-api-openapi.yml
   format: yaml
   label: AWS Kinesis Update Signaling Channel API
   slug: kinesis-update-signaling-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-signaling-channel-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-signaling-channel-api-openapi.yml
 - filename: kinesis-update-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis Update Stream API
   slug: kinesis-update-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/openapi/kinesis-update-stream-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-stream-api-openapi.yml
 consequence_counts:
   read: 18
   safety-critical: 4
@@ -272,12 +272,13 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kinesi
   \  method: post\n  operationId: RemoveTagsFromStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Kinesis_20131202.SplitShard\n  method: post\n  operationId: SplitShard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Kinesis_20131202.StartStreamEncryption\n  method: post\n  operationId: StartStreamEncryption\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Kinesis_20131202.StopStreamEncryption\n  method: post\n  operationId: StopStreamEncryption\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=Kinesis_20131202.UpdateShardCount\n  method: post\n  operationId: UpdateShardCount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Kinesis_20131202.UpdateStreamMode\n  method: post\n  operationId: UpdateStreamMode\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=KinesisAnalytics_20180523.AddApplicationCloudWatchLoggingOption\n  method: post\n  operationId: AddApplicationCloudWatchLoggingOption\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=KinesisAnalytics_20180523.AddApplicationInput\n  method: post\n  operationId: AddApplicationInput\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
-  \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/agentic-access/kinesis-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/agentic-access/kinesis-agentic-access.yml
+  \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/kinesis/agentic-access/kinesis-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/kinesis/agentic-access/kinesis-agentic-access.yml
 summary_line: 99 operations · 81 acting · 4 human-in-the-loop
 tags:
 - Analytics
 - Apache Flink
+- Amazon Web Services
 - Big Data
 - Data Processing
 - Real-Time

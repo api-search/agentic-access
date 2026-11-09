@@ -9,31 +9,31 @@ api_specs:
   label: Apache PDFBox Documents API
   slug: apache-pdfbox-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-documents-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pdfbox/openapi/apache-pdfbox-documents-api-openapi.yml
 - filename: apache-pdfbox-forms-api-openapi.yml
   format: yaml
   label: Apache PDFBox Forms API
   slug: apache-pdfbox-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-forms-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pdfbox/openapi/apache-pdfbox-forms-api-openapi.yml
 - filename: apache-pdfbox-operations-api-openapi.yml
   format: yaml
   label: Apache PDFBox Operations API
   slug: apache-pdfbox-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-operations-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pdfbox/openapi/apache-pdfbox-operations-api-openapi.yml
 - filename: apache-pdfbox-pages-api-openapi.yml
   format: yaml
   label: Apache PDFBox Pages API
   slug: apache-pdfbox-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-pages-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pdfbox/openapi/apache-pdfbox-pages-api-openapi.yml
 - filename: apache-pdfbox-signatures-api-openapi.yml
   format: yaml
   label: Apache PDFBox Signatures API
   slug: apache-pdfbox-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pdfbox/openapi/apache-pdfbox-signatures-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache-pdfbox-api.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 4\n    connected: 4\n  by_consequence:\n    write: 4\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /documents\n  method: post\n  operationId: createDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}/text\n  method: get\n  operationId: extractText\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{documentId}/pages\n  method: get\n  operationId: listPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{documentId}/metadata\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{documentId}/merge\n  method: post\n  operationId: mergeDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}/split\n  method: post\n  operationId: splitDocument\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}/sign\n  method: post\n  operationId: signDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}/forms\n  method: get\n  operationId: getFormFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/agentic-access/apache-pdfbox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-pdfbox/agentic-access/apache-pdfbox-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Document Processing

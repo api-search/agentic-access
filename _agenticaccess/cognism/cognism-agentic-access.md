@@ -9,37 +9,37 @@ api_specs:
   label: Cognism Compliance API
   slug: cognism-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-compliance-api-openapi.yml
 - filename: cognism-enrich-api-openapi.yml
   format: yaml
   label: Cognism Enrich API
   slug: cognism-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-enrich-api-openapi.yml
 - filename: cognism-entitlement-api-openapi.yml
   format: yaml
   label: Cognism Entitlement API
   slug: cognism-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-entitlement-api-openapi.yml
 - filename: cognism-filter-api-openapi.yml
   format: yaml
   label: Cognism Filter API
   slug: cognism-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-filter-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-filter-api-openapi.yml
 - filename: cognism-redeem-api-openapi.yml
   format: yaml
   label: Cognism Redeem API
   slug: cognism-redeem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-redeem-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-redeem-api-openapi.yml
 - filename: cognism-search-api-openapi.yml
   format: yaml
   label: Cognism Search API
   slug: cognism-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/openapi/cognism-search-api-openapi.yml
+  url: https://artifacts.apis.io/cognism/openapi/cognism-search-api-openapi.yml
 consequence_counts:
   financial: 1
   read: 24
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/cognism
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/filter/isic\n  method: get\n  operationId: listIsicCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/filter/naics\n  method: get\n  operationId: listNaicsCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/filter/skills\n  method: get\n  operationId: listSkills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/filter/companyTypes\n  method: get\n  operationId: listCompanyTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/search/filter/seniority\n  method: get\n  operationId: listSeniorityLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/contact/optOut\n  method: get\n  operationId: listOptOutContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/contact/optOut/email/{email}\n  method: get\n  operationId: getOptOutByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/contact/optOut/id/{id}\n  method: get\n  operationId: getOptOutById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\ncurated: '2026-08-13'\ncuration_source:\n- https://help.cognism.com/hc/en-gb/articles/37383428888978-API-Authentication-Credits\n\
   - conventions/cognism-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/agentic-access/cognism-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cognism/agentic-access/cognism-agentic-access.yml
 summary_line: 25 operations · 1 acting
 tags:
 - Sales Intelligence

@@ -9,13 +9,13 @@ api_specs:
   label: Azure Machine Learning Operations API
   slug: microsoft-azure-machine-learning-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/openapi/microsoft-azure-machine-learning-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-machine-learning/openapi/microsoft-azure-machine-learning-operations-api-openapi.yml
 - filename: microsoft-azure-machine-learning-workspaces-api-openapi.yml
   format: yaml
   label: Azure Machine Learning Workspaces API
   slug: microsoft-azure-machine-learning-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/openapi/microsoft-azure-machine-learning-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-machine-learning/openapi/microsoft-azure-machine-learning-workspaces-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces\n  method: get\n  operationId: listWorkspacesByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{name}\n  method: get\n  operationId: getWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{name}\n\
   \  method: put\n  operationId: createOrUpdateWorkspaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{name}\n  method: patch\n  operationId: updateWorkspaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{name}\n\
   \  method: delete\n  operationId: deleteWorkspaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/agentic-access/microsoft-azure-machine-learning-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-machine-learning/agentic-access/microsoft-azure-machine-learning-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Artificial Intelligence

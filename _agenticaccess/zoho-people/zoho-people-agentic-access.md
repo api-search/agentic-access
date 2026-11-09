@@ -9,43 +9,43 @@ api_specs:
   label: Zoho People Attendance API
   slug: zoho-people-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-attendance-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-attendance-api-openapi.yml
 - filename: zoho-people-automation-api-openapi.yml
   format: yaml
   label: Zoho People Automation API
   slug: zoho-people-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-automation-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-automation-api-openapi.yml
 - filename: zoho-people-dashboard-api-openapi.yml
   format: yaml
   label: Zoho People Dashboard API
   slug: zoho-people-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-dashboard-api-openapi.yml
 - filename: zoho-people-employee-api-openapi.yml
   format: yaml
   label: Zoho People Employee API
   slug: zoho-people-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-employee-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-employee-api-openapi.yml
 - filename: zoho-people-forms-api-openapi.yml
   format: yaml
   label: Zoho People Forms API
   slug: zoho-people-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-forms-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-forms-api-openapi.yml
 - filename: zoho-people-leave-api-openapi.yml
   format: yaml
   label: Zoho People Leave API
   slug: zoho-people-leave-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-leave-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-leave-api-openapi.yml
 - filename: zoho-people-time-tracker-api-openapi.yml
   format: yaml
   label: Zoho People Time Tracker API
   slug: zoho-people-time-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-time-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-time-tracker-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zoho-p
   \      max-ttl: 3600\n    audit: none\n- path: /attendance/bulkImport\n  method: post\n  operationId: bulkImportAttendance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timetracker/jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timetracker/jobs\n  method: post\n  operationId: createJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timetracker/timelogs\n  method:\
   \ get\n  operationId: listTimeLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timetracker/timelogs\n  method: post\n  operationId: createTimeLog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dashboard/getAnnouncements\n  method: get\n  operationId: listAnnouncements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dashboard/getBirthdays\n  method: get\n  operationId: listBirthdays\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /automation/triggerWorkflow\n  method: post\n  operationId: triggerWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/agentic-access/zoho-people-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zoho-people/agentic-access/zoho-people-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Human Resources
@@ -91,5 +91,6 @@ tags:
 - Performance Management
 - Onboarding
 - Zoho
+- OAuth
 - Authentication
 ---

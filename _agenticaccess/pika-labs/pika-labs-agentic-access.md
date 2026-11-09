@@ -9,25 +9,25 @@ api_specs:
   label: Pika Labs Cancel API
   slug: pika-labs-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/pika-labs/openapi/pika-labs-cancel-api-openapi.yml
 - filename: pika-labs-result-api-openapi.yml
   format: yaml
   label: Pika Labs Result API
   slug: pika-labs-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-result-api-openapi.yml
+  url: https://artifacts.apis.io/pika-labs/openapi/pika-labs-result-api-openapi.yml
 - filename: pika-labs-status-api-openapi.yml
   format: yaml
   label: Pika Labs Status API
   slug: pika-labs-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-status-api-openapi.yml
+  url: https://artifacts.apis.io/pika-labs/openapi/pika-labs-status-api-openapi.yml
 - filename: pika-labs-submission-api-openapi.yml
   format: yaml
   label: Pika Labs Submission API
   slug: pika-labs-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/openapi/pika-labs-submission-api-openapi.yml
+  url: https://artifacts.apis.io/pika-labs/openapi/pika-labs-submission-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pika-labs-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 2\n    connected: 3\n  by_consequence:\n    write: 2\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /{model_id}\n  method: post\n  operationId: submitRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{model_id}/requests/{request_id}/status\n  method: get\n  operationId: getRequestStatus\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{model_id}/requests/{request_id}/status/stream\n  method: get\n  operationId: streamRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{model_id}/requests/{request_id}\n  method: get\n  operationId: getRequestResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{model_id}/requests/{request_id}/cancel\n  method: put\n  operationId: cancelRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/agentic-access/pika-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pika-labs/agentic-access/pika-labs-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - Artificial Intelligence

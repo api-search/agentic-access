@@ -9,25 +9,25 @@ api_specs:
   label: Speechmatics API Keys API
   slug: speechmatics-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-api-keys-api-openapi.yml
 - filename: speechmatics-jobs-api-openapi.yml
   format: yaml
   label: Speechmatics Jobs API
   slug: speechmatics-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-jobs-api-openapi.yml
 - filename: speechmatics-projects-api-openapi.yml
   format: yaml
   label: Speechmatics Projects API
   slug: speechmatics-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-projects-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-projects-api-openapi.yml
 - filename: speechmatics-usage-api-openapi.yml
   format: yaml
   label: Speechmatics Usage API
   slug: speechmatics-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-usage-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-usage-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/speech
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys\n  method: get\n  operationId: listApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-keys\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-keys/{apikey_id}\n  method: delete\n  operationId: deleteApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}\n\
   \  method: put\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/agentic-access/speechmatics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/speechmatics/agentic-access/speechmatics-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Speech Recognition

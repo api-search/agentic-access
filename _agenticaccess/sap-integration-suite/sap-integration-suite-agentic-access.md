@@ -9,67 +9,67 @@ api_specs:
   label: SAP Integration Suite API Products API
   slug: sap-integration-suite-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-api-products-api-openapi.yml
 - filename: sap-integration-suite-api-proxies-api-openapi.yml
   format: yaml
   label: SAP Integration Suite API Proxies API
   slug: sap-integration-suite-api-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-api-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-api-proxies-api-openapi.yml
 - filename: sap-integration-suite-applications-api-openapi.yml
   format: yaml
   label: SAP Integration Suite Applications API
   slug: sap-integration-suite-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-applications-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-applications-api-openapi.yml
 - filename: sap-integration-suite-developers-api-openapi.yml
   format: yaml
   label: SAP Integration Suite Developers API
   slug: sap-integration-suite-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-developers-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-developers-api-openapi.yml
 - filename: sap-integration-suite-integration-flows-api-openapi.yml
   format: yaml
   label: SAP Integration Suite Integration Flows API
   slug: sap-integration-suite-integration-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-integration-flows-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-integration-flows-api-openapi.yml
 - filename: sap-integration-suite-integration-packages-api-openapi.yml
   format: yaml
   label: SAP Integration Suite Integration Packages API
   slug: sap-integration-suite-integration-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-integration-packages-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-integration-packages-api-openapi.yml
 - filename: sap-integration-suite-key-value-maps-api-openapi.yml
   format: yaml
   label: SAP Integration Suite Key Value Maps API
   slug: sap-integration-suite-key-value-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-key-value-maps-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-key-value-maps-api-openapi.yml
 - filename: sap-integration-suite-message-processing-logs-api-openapi.yml
   format: yaml
   label: SAP Integration Suite Message Processing Logs API
   slug: sap-integration-suite-message-processing-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-message-processing-logs-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-message-processing-logs-api-openapi.yml
 - filename: sap-integration-suite-runtime-artifacts-api-openapi.yml
   format: yaml
   label: SAP Integration Suite Runtime Artifacts API
   slug: sap-integration-suite-runtime-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-runtime-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-runtime-artifacts-api-openapi.yml
 - filename: sap-integration-suite-service-endpoints-api-openapi.yml
   format: yaml
   label: SAP Integration Suite Service Endpoints API
   slug: sap-integration-suite-service-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-service-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-service-endpoints-api-openapi.yml
 - filename: sap-integration-suite-variables-api-openapi.yml
   format: yaml
   label: SAP Integration Suite Variables API
   slug: sap-integration-suite-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-variables-api-openapi.yml
+  url: https://artifacts.apis.io/sap-integration-suite/openapi/sap-integration-suite-variables-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 19
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-in
   - path: /IntegrationDesigntimeArtifacts(Id='{Id}',Version='{Version}')\n  method: get\n  operationId: getIntegrationDesigntimeArtifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DeployIntegrationDesigntimeArtifact\n  method: post\n  operationId: deployIntegrationDesigntimeArtifact\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /IntegrationRuntimeArtifacts\n  method: get\n  operationId: listRuntimeArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /IntegrationRuntimeArtifacts('{Id}')\n\
   \  method: get\n  operationId: getRuntimeArtifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /IntegrationRuntimeArtifacts('{Id}')\n  method: delete\n  operationId: undeployRuntimeArtifact\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /MessageProcessingLogs\n  method: get\n  operationId: listMessageProcessingLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MessageProcessingLogs('{MessageGuid}')\n  method: get\n  operationId: getMessageProcessingLog\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MessageProcessingLogs('{MessageGuid}')/AdapterAttributes\n  method: get\n  operationId: getMessageProcessingLogAdapterAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ServiceEndpoints\n  method: get\n  operationId: listServiceEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Variables\n  method: get\n  operationId: listVariables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/agentic-access/sap-integration-suite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-integration-suite/agentic-access/sap-integration-suite-agentic-access.yml
 summary_line: 26 operations · 7 acting
 tags:
 - API Management

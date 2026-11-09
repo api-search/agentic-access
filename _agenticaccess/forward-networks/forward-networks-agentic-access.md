@@ -9,121 +9,121 @@ api_specs:
   label: Forward Networks Aliases API
   slug: forward-networks-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-aliases-api-openapi.yml
 - filename: forward-networks-checks-api-openapi.yml
   format: yaml
   label: Forward Networks Checks API
   slug: forward-networks-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-checks-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-checks-api-openapi.yml
 - filename: forward-networks-classic-devices-api-openapi.yml
   format: yaml
   label: Forward Networks Classic Devices API
   slug: forward-networks-classic-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-classic-devices-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-classic-devices-api-openapi.yml
 - filename: forward-networks-credentials-api-openapi.yml
   format: yaml
   label: Forward Networks Credentials API
   slug: forward-networks-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-credentials-api-openapi.yml
 - filename: forward-networks-current-version-api-openapi.yml
   format: yaml
   label: Forward Networks Current Version API
   slug: forward-networks-current-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-current-version-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-current-version-api-openapi.yml
 - filename: forward-networks-device-tags-api-openapi.yml
   format: yaml
   label: Forward Networks Device Tags API
   slug: forward-networks-device-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-device-tags-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-device-tags-api-openapi.yml
 - filename: forward-networks-jump-servers-api-openapi.yml
   format: yaml
   label: Forward Networks Jump Servers API
   slug: forward-networks-jump-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-jump-servers-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-jump-servers-api-openapi.yml
 - filename: forward-networks-network-collection-api-openapi.yml
   format: yaml
   label: Forward Networks Network Collection API
   slug: forward-networks-network-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-network-collection-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-network-collection-api-openapi.yml
 - filename: forward-networks-network-devices-api-openapi.yml
   format: yaml
   label: Forward Networks Network Devices API
   slug: forward-networks-network-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-network-devices-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-network-devices-api-openapi.yml
 - filename: forward-networks-network-endpoints-api-openapi.yml
   format: yaml
   label: Forward Networks Network Endpoints API
   slug: forward-networks-network-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-network-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-network-endpoints-api-openapi.yml
 - filename: forward-networks-network-locations-api-openapi.yml
   format: yaml
   label: Forward Networks Network Locations API
   slug: forward-networks-network-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-network-locations-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-network-locations-api-openapi.yml
 - filename: forward-networks-network-snapshots-api-openapi.yml
   format: yaml
   label: Forward Networks Network Snapshots API
   slug: forward-networks-network-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-network-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-network-snapshots-api-openapi.yml
 - filename: forward-networks-network-topology-api-openapi.yml
   format: yaml
   label: Forward Networks Network Topology API
   slug: forward-networks-network-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-network-topology-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-network-topology-api-openapi.yml
 - filename: forward-networks-networks-api-openapi.yml
   format: yaml
   label: Forward Networks API
   slug: forward-networks-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-networks-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-networks-api-openapi.yml
 - filename: forward-networks-nqe-api-openapi.yml
   format: yaml
   label: Forward Networks NQE API
   slug: forward-networks-nqe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-nqe-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-nqe-api-openapi.yml
 - filename: forward-networks-path-search-api-openapi.yml
   format: yaml
   label: Forward Networks Path Search API
   slug: forward-networks-path-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-path-search-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-path-search-api-openapi.yml
 - filename: forward-networks-synthetic-devices-api-openapi.yml
   format: yaml
   label: Forward Networks Synthetic Devices API
   slug: forward-networks-synthetic-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-synthetic-devices-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-synthetic-devices-api-openapi.yml
 - filename: forward-networks-system-administration-api-openapi.yml
   format: yaml
   label: Forward Networks System Administration API
   slug: forward-networks-system-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-system-administration-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-system-administration-api-openapi.yml
 - filename: forward-networks-user-accounts-api-openapi.yml
   format: yaml
   label: Forward Networks User Accounts API
   slug: forward-networks-user-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-user-accounts-api-openapi.yml
 - filename: forward-networks-vulnerability-analysis-api-openapi.yml
   format: yaml
   label: Forward Networks Vulnerability Analysis API
   slug: forward-networks-vulnerability-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/openapi/forward-networks-vulnerability-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/forward-networks/openapi/forward-networks-vulnerability-analysis-api-openapi.yml
 consequence_counts:
   read: 72
   safety-critical: 2
@@ -196,8 +196,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/forwar
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/endpoints?action=deleteBatch\n  method: post\n  operationId: deleteNetworkEndpoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/endpoints/{endpointName}\n  method: get\n  operationId: getNetworkEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/endpoints/{endpointName}\n  method: delete\n  operationId: deleteNetworkEndpoint\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/endpoints/{endpointName}?type=CLI\n  method: patch\n  operationId: updateCliNetworkEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/endpoints/{endpointName}?type=HTTP\n  method: patch\n  operationId: updateHttpNetworkEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/endpoints/{endpointName}?type=SNMP\n  method: patch\n  operationId: updateSnmpNetworkEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/atlas\n  method: get\n  operationId: getAtlas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/atlas\n  method: patch\n  operationId: updateAtlas\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /networks/{networkId}/locations\n  method: get\n  operationId: getLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/locations\n  method: post\n  operationId: addLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/agentic-access/forward-networks-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/agentic-access/forward-networks-agentic-access.yml
+  \      - high-value\n    audit: required\n- path: /networks/{networkId}/locations\n  method: get\n  operationId: getLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/locations\n  method: post\n  operationId: addLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://artifacts.apis.io/forward-networks/agentic-access/forward-networks-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/forward-networks/agentic-access/forward-networks-agentic-access.yml
 summary_line: 189 operations · 117 acting · 2 human-in-the-loop
 tags:
 - Company

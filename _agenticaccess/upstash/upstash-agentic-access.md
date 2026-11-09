@@ -9,31 +9,31 @@ api_specs:
   label: Upstash Kafka API
   slug: upstash-kafka-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-kafka-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-kafka-api-openapi.yml
 - filename: upstash-redis-api-openapi.yml
   format: yaml
   label: Upstash Redis API
   slug: upstash-redis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-redis-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-redis-api-openapi.yml
 - filename: upstash-rediscommand-api-openapi.yml
   format: yaml
   label: Upstash RedisCommand API
   slug: upstash-rediscommand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-rediscommand-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-rediscommand-api-openapi.yml
 - filename: upstash-teams-api-openapi.yml
   format: yaml
   label: Upstash Teams API
   slug: upstash-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-teams-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-teams-api-openapi.yml
 - filename: upstash-vector-api-openapi.yml
   format: yaml
   label: Upstash Vector API
   slug: upstash-vector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/openapi/upstash-vector-api-openapi.yml
+  url: https://artifacts.apis.io/upstash/openapi/upstash-vector-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/upstas
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /redis/database/{databaseId}\n  method: get\n  operationId: getRedisDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /redis/database/{databaseId}\n  method: delete\n  operationId: deleteRedisDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kafka/clusters\n  method: get\n  operationId: listKafkaClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vector/index\n  method: get\n  operationId: listVectorIndexes\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipeline\n  method: post\n  operationId: redisPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /multi-exec\n  method: post\n  operationId: redisMultiExec\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /publish/{channel}/{message}\n  method: post\n  operationId: redisPublish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/agentic-access/upstash-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/upstash/agentic-access/upstash-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Serverless

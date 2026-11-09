@@ -9,37 +9,37 @@ api_specs:
   label: PancakeSwap Leaderboard API
   slug: pancakeswap-leaderboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-leaderboard-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-leaderboard-api-openapi.yml
 - filename: pancakeswap-miscellaneous-api-openapi.yml
   format: yaml
   label: PancakeSwap Miscellaneous API
   slug: pancakeswap-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-miscellaneous-api-openapi.yml
 - filename: pancakeswap-pairs-api-openapi.yml
   format: yaml
   label: PancakeSwap Pairs API
   slug: pancakeswap-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-pairs-api-openapi.yml
 - filename: pancakeswap-summary-api-openapi.yml
   format: yaml
   label: PancakeSwap Summary API
   slug: pancakeswap-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-summary-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-summary-api-openapi.yml
 - filename: pancakeswap-tokens-api-openapi.yml
   format: yaml
   label: PancakeSwap Tokens API
   slug: pancakeswap-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-tokens-api-openapi.yml
 - filename: pancakeswap-users-api-openapi.yml
   format: yaml
   label: PancakeSwap Users API
   slug: pancakeswap-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/openapi/pancakeswap-users-api-openapi.yml
+  url: https://artifacts.apis.io/pancakeswap/openapi/pancakeswap-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml, openapi/profile-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 9\n    acting: 1\n  by_consequence:\n    read: 9\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/summary\n  method: get\n  operationId: getSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tokens\n  method: get\n  operationId: getTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tokens/{address}\n  method:\
   \ get\n  operationId: getToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/pairs\n  method: get\n  operationId: getPairs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{address}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/register\n  method: post\n  operationId: registerUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/valid/{username}\n  method: get\n  operationId: validateUsername\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leaderboard/global\n  method: get\n  operationId: getGlobalLeaderboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leaderboard/team/{id}\n  method: get\n  operationId: getTeamLeaderboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/agentic-access/pancakeswap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pancakeswap/agentic-access/pancakeswap-agentic-access.yml
 summary_line: 10 operations · 1 acting
 tags:
 - DeFi

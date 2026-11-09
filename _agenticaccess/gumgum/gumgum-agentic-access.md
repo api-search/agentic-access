@@ -9,31 +9,31 @@ api_specs:
   label: GumGum Image API
   slug: gumgum-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-image-api-openapi.yml
+  url: https://artifacts.apis.io/gumgum/openapi/gumgum-image-api-openapi.yml
 - filename: gumgum-intravideo-api-openapi.yml
   format: yaml
   label: GumGum Intravideo API
   slug: gumgum-intravideo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-intravideo-api-openapi.yml
+  url: https://artifacts.apis.io/gumgum/openapi/gumgum-intravideo-api-openapi.yml
 - filename: gumgum-page-api-openapi.yml
   format: yaml
   label: GumGum Page API
   slug: gumgum-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-page-api-openapi.yml
+  url: https://artifacts.apis.io/gumgum/openapi/gumgum-page-api-openapi.yml
 - filename: gumgum-text-api-openapi.yml
   format: yaml
   label: GumGum Text API
   slug: gumgum-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-text-api-openapi.yml
+  url: https://artifacts.apis.io/gumgum/openapi/gumgum-text-api-openapi.yml
 - filename: gumgum-video-api-openapi.yml
   format: yaml
   label: GumGum Video API
   slug: gumgum-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/openapi/gumgum-video-api-openapi.yml
+  url: https://artifacts.apis.io/gumgum/openapi/gumgum-video-api-openapi.yml
 consequence_counts:
   read: 9
   write: 4
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/gumgum
   \  method: get\n  operationId: getIntravideoClassification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/video/classification/{uuid}/status\n  method: get\n  operationId: getIntravideoClassificationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/classification\n  method: post\n  operationId: submitImageClassification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/classification/{uuid}\n  method: get\n  operationId: getImageClassification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/classification/{uuid}/status\n  method: get\n  operationId: getImageClassificationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/classification\n  method: post\n  operationId: submitTextClassification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text/classification/{uuid}\n  method: get\n  operationId: getTextClassification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/classification/{uuid}/status\n  method: get\n  operationId: getTextClassificationStatus\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/agentic-access/gumgum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gumgum/agentic-access/gumgum-agentic-access.yml
 summary_line: 13 operations · 4 acting
 tags:
 - Advertising

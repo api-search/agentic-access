@@ -8,31 +8,31 @@ api_specs:
   label: OpenMenu Analytics API
   slug: openmenu-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-analytics-api-openapi.yml
 - filename: openmenu-deals-api-openapi.yml
   format: yaml
   label: OpenMenu Deals API
   slug: openmenu-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-deals-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-deals-api-openapi.yml
 - filename: openmenu-ingredients-api-openapi.yml
   format: yaml
   label: OpenMenu Ingredients API
   slug: openmenu-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-ingredients-api-openapi.yml
 - filename: openmenu-restaurants-api-openapi.yml
   format: yaml
   label: OpenMenu Restaurants API
   slug: openmenu-restaurants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-restaurants-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-restaurants-api-openapi.yml
 - filename: openmenu-search-api-openapi.yml
   format: yaml
   label: OpenMenu Search API
   slug: openmenu-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-search-api-openapi.yml
+  url: https://artifacts.apis.io/openmenu/openapi/openmenu-search-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openmenu-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /search.php\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restaurant.php\n  method: get\n  operationId: getRestaurant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /location.php\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deals.php\n  method: get\n  operationId: getDeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingredients.php\n  method: get\n  operationId: searchIngredients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trends.php\n  method: get\n  operationId: getTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gap_analysis.php\n  method: get\n  operationId: getGapAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/agentic-access/openmenu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openmenu/agentic-access/openmenu-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Restaurant

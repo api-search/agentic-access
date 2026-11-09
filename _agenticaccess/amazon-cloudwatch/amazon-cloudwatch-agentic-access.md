@@ -8,25 +8,61 @@ api_specs:
   label: Amazon CloudWatch Alarms API
   slug: amazon-cloudwatch-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-alarms-api-openapi.yml
 - filename: amazon-cloudwatch-dashboards-api-openapi.yml
   format: yaml
   label: Amazon CloudWatch Dashboards API
   slug: amazon-cloudwatch-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-dashboards-api-openapi.yml
 - filename: amazon-cloudwatch-metrics-api-openapi.yml
   format: yaml
   label: Amazon CloudWatch Metrics API
   slug: amazon-cloudwatch-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-metrics-api-openapi.yml
 - filename: amazon-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
   format: yaml
   label: Amazon CloudWatch Amazon CloudWatch API
   slug: amazon-cloudwatch-amazon-cloudwatch-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
+- filename: amazon-cloudwatch-alarm-mute-rule-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Alarm Mute Rule API
+  slug: amazon-cloudwatch-alarm-mute-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-alarm-mute-rule-api-openapi.yml
+- filename: amazon-cloudwatch-anomaly-detector-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Anomaly Detector API
+  slug: amazon-cloudwatch-anomaly-detector-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-anomaly-detector-api-openapi.yml
+- filename: amazon-cloudwatch-insight-rule-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Insight Rule API
+  slug: amazon-cloudwatch-insight-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-insight-rule-api-openapi.yml
+- filename: amazon-cloudwatch-metric-stream-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Metric Stream API
+  slug: amazon-cloudwatch-metric-stream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-metric-stream-api-openapi.yml
+- filename: amazon-cloudwatch-o-tel-enrichment-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch O Tel Enrichment API
+  slug: amazon-cloudwatch-o-tel-enrichment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-o-tel-enrichment-api-openapi.yml
+- filename: amazon-cloudwatch-resource-metrics-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Cloudwatch Resource Metrics Configuration API
+  slug: amazon-cloudwatch-resource-metrics-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudwatch/openapi/amazon-cloudwatch-resource-metrics-configuration-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,9 +90,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-cloudwatch-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /?Action=PutMetricData\n  method: get\n  operationId: putMetricData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=GetMetricData\n  method: get\n  operationId: getMetricData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=GetMetricStatistics\n  method:\
   \ get\n  operationId: getMetricStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=ListMetrics\n  method: get\n  operationId: listMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=PutMetricAlarm\n  method: get\n  operationId: putMetricAlarm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeAlarms\n  method: get\n  operationId: describeAlarms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DeleteAlarms\n  method: get\n  operationId: deleteAlarms\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=PutDashboard\n  method: get\n  operationId: putDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=GetDashboard\n  method: get\n  operationId: getDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=ListDashboards\n  method: get\n  operationId: listDashboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/agentic-access/amazon-cloudwatch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-cloudwatch/agentic-access/amazon-cloudwatch-agentic-access.yml
 summary_line: 10 operations
 tags:
+- Amazon Web Services
 - CloudWatch
 - Monitoring
 - Observability

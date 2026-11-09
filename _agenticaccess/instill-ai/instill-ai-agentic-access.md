@@ -9,43 +9,43 @@ api_specs:
   label: Instill AI Artifact API
   slug: instill-ai-artifact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/openapi/instill-ai-artifact-api-openapi.yml
+  url: https://artifacts.apis.io/instill-ai/openapi/instill-ai-artifact-api-openapi.yml
 - filename: instill-ai-connection-api-openapi.yml
   format: yaml
   label: Instill AI Connection API
   slug: instill-ai-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/openapi/instill-ai-connection-api-openapi.yml
+  url: https://artifacts.apis.io/instill-ai/openapi/instill-ai-connection-api-openapi.yml
 - filename: instill-ai-integration-api-openapi.yml
   format: yaml
   label: Instill AI Integration API
   slug: instill-ai-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/openapi/instill-ai-integration-api-openapi.yml
+  url: https://artifacts.apis.io/instill-ai/openapi/instill-ai-integration-api-openapi.yml
 - filename: instill-ai-metrics-api-openapi.yml
   format: yaml
   label: Instill AI Metrics API
   slug: instill-ai-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/openapi/instill-ai-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/instill-ai/openapi/instill-ai-metrics-api-openapi.yml
 - filename: instill-ai-model-api-openapi.yml
   format: yaml
   label: Instill AI Model API
   slug: instill-ai-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/openapi/instill-ai-model-api-openapi.yml
+  url: https://artifacts.apis.io/instill-ai/openapi/instill-ai-model-api-openapi.yml
 - filename: instill-ai-namespace-api-openapi.yml
   format: yaml
   label: Instill AI Namespace API
   slug: instill-ai-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/openapi/instill-ai-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/instill-ai/openapi/instill-ai-namespace-api-openapi.yml
 - filename: instill-ai-pipeline-api-openapi.yml
   format: yaml
   label: Instill AI Pipeline API
   slug: instill-ai-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/openapi/instill-ai-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/instill-ai/openapi/instill-ai-pipeline-api-openapi.yml
 consequence_counts:
   read: 52
   write: 50
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/instil
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/dashboard/pipelines/runs\n  method: get\n  operationId: PipelinePublicService_ListPipelineRunsByRequester\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/integrations/{integrationId_1}\n  method: get\n  operationId: PipelinePublicService_GetIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/{parent_1}/connections\n  method: get\n  operationId: PipelinePublicService_ListConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/{parent_1}/connections\n  method: post\n  operationId: PipelinePublicService_CreateConnection\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta/{name_6}\n  method: get\n  operationId: PipelinePublicService_GetConnection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta/{connection.name_1}\n  method: patch\n  operationId: PipelinePublicService_UpdateConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta/{name_1}/test\n  method: post\n  operationId: PipelinePublicService_TestConnection\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta/namespaces/{namespaceId_1}/connections/{connectionId}/referenced-pipelines\n  method: get\n  operationId: PipelinePublicService_ListPipelineIDsByConnectionID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instill-ai/refs/heads/main/agentic-access/instill-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instill-ai/agentic-access/instill-ai-agentic-access.yml
 summary_line: 102 operations · 50 acting
 tags:
 - Company

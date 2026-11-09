@@ -9,199 +9,199 @@ api_specs:
   label: Golioth Access API
   slug: golioth-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-access-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-access-api-openapi.yml
 - filename: golioth-api-keys-api-openapi.yml
   format: yaml
   label: Golioth API Keys API
   slug: golioth-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-api-keys-api-openapi.yml
 - filename: golioth-artifacts-api-openapi.yml
   format: yaml
   label: Golioth Artifacts API
   slug: golioth-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-artifacts-api-openapi.yml
 - filename: golioth-billing-api-openapi.yml
   format: yaml
   label: Golioth Billing API
   slug: golioth-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-billing-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-billing-api-openapi.yml
 - filename: golioth-blueprints-api-openapi.yml
   format: yaml
   label: Golioth Blueprints API
   slug: golioth-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-blueprints-api-openapi.yml
 - filename: golioth-boards-api-openapi.yml
   format: yaml
   label: Golioth Boards API
   slug: golioth-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-boards-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-boards-api-openapi.yml
 - filename: golioth-certificates-api-openapi.yml
   format: yaml
   label: Golioth Certificates API
   slug: golioth-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-certificates-api-openapi.yml
 - filename: golioth-cohorts-api-openapi.yml
   format: yaml
   label: Golioth Cohorts API
   slug: golioth-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-cohorts-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-cohorts-api-openapi.yml
 - filename: golioth-credentials-api-openapi.yml
   format: yaml
   label: Golioth Credentials API
   slug: golioth-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-credentials-api-openapi.yml
 - filename: golioth-deployments-api-openapi.yml
   format: yaml
   label: Golioth Deployments API
   slug: golioth-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-deployments-api-openapi.yml
 - filename: golioth-devices-api-openapi.yml
   format: yaml
   label: Golioth Devices API
   slug: golioth-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-devices-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-devices-api-openapi.yml
 - filename: golioth-firmware-api-openapi.yml
   format: yaml
   label: Golioth Firmware API
   slug: golioth-firmware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-firmware-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-firmware-api-openapi.yml
 - filename: golioth-integrations-api-openapi.yml
   format: yaml
   label: Golioth Integrations API
   slug: golioth-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-integrations-api-openapi.yml
 - filename: golioth-lightdb-api-openapi.yml
   format: yaml
   label: Golioth LightDB API
   slug: golioth-lightdb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-lightdb-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-lightdb-api-openapi.yml
 - filename: golioth-lightdb-stream-api-openapi.yml
   format: yaml
   label: Golioth LightDB Stream API
   slug: golioth-lightdb-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-lightdb-stream-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-lightdb-stream-api-openapi.yml
 - filename: golioth-location-api-openapi.yml
   format: yaml
   label: Golioth Location API
   slug: golioth-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-location-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-location-api-openapi.yml
 - filename: golioth-logs-api-openapi.yml
   format: yaml
   label: Golioth Logs API
   slug: golioth-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-logs-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-logs-api-openapi.yml
 - filename: golioth-networks-api-openapi.yml
   format: yaml
   label: Golioth Networks API
   slug: golioth-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-networks-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-networks-api-openapi.yml
 - filename: golioth-notifications-api-openapi.yml
   format: yaml
   label: Golioth Notifications API
   slug: golioth-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-notifications-api-openapi.yml
 - filename: golioth-organizations-api-openapi.yml
   format: yaml
   label: Golioth Organizations API
   slug: golioth-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-organizations-api-openapi.yml
 - filename: golioth-otaevents-api-openapi.yml
   format: yaml
   label: Golioth OTAEvents API
   slug: golioth-otaevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-otaevents-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-otaevents-api-openapi.yml
 - filename: golioth-packages-api-openapi.yml
   format: yaml
   label: Golioth Packages API
   slug: golioth-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-packages-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-packages-api-openapi.yml
 - filename: golioth-pipelines-api-openapi.yml
   format: yaml
   label: Golioth Pipelines API
   slug: golioth-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-pipelines-api-openapi.yml
 - filename: golioth-pki-api-openapi.yml
   format: yaml
   label: Golioth PKI API
   slug: golioth-pki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-pki-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-pki-api-openapi.yml
 - filename: golioth-project-config-api-openapi.yml
   format: yaml
   label: Golioth Project Config API
   slug: golioth-project-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-project-config-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-project-config-api-openapi.yml
 - filename: golioth-projects-api-openapi.yml
   format: yaml
   label: Golioth Projects API
   slug: golioth-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-projects-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-projects-api-openapi.yml
 - filename: golioth-provisioning-api-openapi.yml
   format: yaml
   label: Golioth Provisioning API
   slug: golioth-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-provisioning-api-openapi.yml
 - filename: golioth-releases-api-openapi.yml
   format: yaml
   label: Golioth Releases API
   slug: golioth-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-releases-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-releases-api-openapi.yml
 - filename: golioth-remote-procedure-call-api-openapi.yml
   format: yaml
   label: Golioth Remote Procedure Call API
   slug: golioth-remote-procedure-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-remote-procedure-call-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-remote-procedure-call-api-openapi.yml
 - filename: golioth-secrets-api-openapi.yml
   format: yaml
   label: Golioth Secrets API
   slug: golioth-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-secrets-api-openapi.yml
 - filename: golioth-settings-api-openapi.yml
   format: yaml
   label: Golioth Settings API
   slug: golioth-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-settings-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-settings-api-openapi.yml
 - filename: golioth-tags-api-openapi.yml
   format: yaml
   label: Golioth Tags API
   slug: golioth-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-tags-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-tags-api-openapi.yml
 - filename: golioth-usage-api-openapi.yml
   format: yaml
   label: Golioth Usage API
   slug: golioth-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/openapi/golioth-usage-api-openapi.yml
+  url: https://artifacts.apis.io/golioth/openapi/golioth-usage-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 70
@@ -276,8 +276,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/goliot
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/devices/{deviceId}\n  method: get\n  operationId: Devices_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectId}/devices/{deviceId}\n  method: patch\n  operationId: Devices_Update2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/devices/{deviceId}\n  method: put\n  operationId: Devices_Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/devices/{deviceId}/credentials\n  method: get\n  operationId: Credentials_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectId}/devices/{deviceId}/credentials\n  method: post\n  operationId: Credentials_Create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/devices/{deviceId}/credentials/{credentialId}\n  method: delete\n  operationId: Credentials_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/devices/{deviceId}/data/{path}\n  method: delete\n  operationId: DeviceState_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/devices/{deviceId}/data/{path}\n  method: get\n  operationId: DeviceState_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectId}/devices/{deviceId}/data/{path}\n  method: patch\n  operationId: DeviceState_Update2\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/devices/{deviceId}/data/{path}\n  method: post\n  operationId: DeviceState_Update3\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/agentic-access/golioth-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/agentic-access/golioth-agentic-access.yml
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/devices/{deviceId}/data/{path}\n  method: post\n  operationId: DeviceState_Update3\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://artifacts.apis.io/golioth/agentic-access/golioth-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/golioth/agentic-access/golioth-agentic-access.yml
 summary_line: 153 operations · 83 acting
 tags:
 - IoT

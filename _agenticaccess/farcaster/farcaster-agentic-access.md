@@ -9,55 +9,55 @@ api_specs:
   label: Farcaster Casts API
   slug: farcaster-casts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-casts-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-casts-api-openapi.yml
 - filename: farcaster-events-api-openapi.yml
   format: yaml
   label: Farcaster Events API
   slug: farcaster-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-events-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-events-api-openapi.yml
 - filename: farcaster-info-api-openapi.yml
   format: yaml
   label: Farcaster Info API
   slug: farcaster-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-info-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-info-api-openapi.yml
 - filename: farcaster-links-api-openapi.yml
   format: yaml
   label: Farcaster Links API
   slug: farcaster-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-links-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-links-api-openapi.yml
 - filename: farcaster-reactions-api-openapi.yml
   format: yaml
   label: Farcaster Reactions API
   slug: farcaster-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-reactions-api-openapi.yml
 - filename: farcaster-submit-api-openapi.yml
   format: yaml
   label: Farcaster Submit API
   slug: farcaster-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-submit-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-submit-api-openapi.yml
 - filename: farcaster-verifications-api-openapi.yml
   format: yaml
   label: Farcaster Verifications API
   slug: farcaster-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-verifications-api-openapi.yml
 - filename: farcaster-on-chain-api-openapi.yml
   format: yaml
   label: Farcaster On Chain API
   slug: farcaster-on-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-on-chain-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-on-chain-api-openapi.yml
 - filename: farcaster-user-data-api-openapi.yml
   format: yaml
   label: Farcaster User Data API
   slug: farcaster-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-user-data-api-openapi.yml
 consequence_counts:
   read: 24
   write: 3
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/farcas
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/onChainEventsByFid\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/onChainIdRegistryEventByAddress\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fidAddressType\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/eventById\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/submitMessage\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/submitBulkMessages\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/validateMessage\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
   \  audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/agentic-access/farcaster-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/farcaster/agentic-access/farcaster-agentic-access.yml
 summary_line: 27 operations · 3 acting
 tags:
 - Farcaster

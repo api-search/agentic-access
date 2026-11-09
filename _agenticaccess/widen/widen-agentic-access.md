@@ -9,103 +9,103 @@ api_specs:
   label: Widen Acquia-DAM-Webhooks API
   slug: widen-acquia-dam-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-acquia-dam-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-acquia-dam-webhooks-api-openapi.yml
 - filename: widen-analytics-api-openapi.yml
   format: yaml
   label: Widen Analytics API
   slug: widen-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-analytics-api-openapi.yml
 - filename: widen-assets-api-openapi.yml
   format: yaml
   label: Widen Assets API
   slug: widen-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-assets-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-assets-api-openapi.yml
 - filename: widen-attributes-api-openapi.yml
   format: yaml
   label: Widen Attributes API
   slug: widen-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-attributes-api-openapi.yml
 - filename: widen-categories-api-openapi.yml
   format: yaml
   label: Widen Categories API
   slug: widen-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-categories-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-categories-api-openapi.yml
 - filename: widen-channels-api-openapi.yml
   format: yaml
   label: Widen Channels API
   slug: widen-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-channels-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-channels-api-openapi.yml
 - filename: widen-collections-api-openapi.yml
   format: yaml
   label: Widen Collections API
   slug: widen-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-collections-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-collections-api-openapi.yml
 - filename: widen-file-formats-api-openapi.yml
   format: yaml
   label: Widen File-Formats API
   slug: widen-file-formats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-file-formats-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-file-formats-api-openapi.yml
 - filename: widen-integration-links-api-openapi.yml
   format: yaml
   label: Widen Integration-Links API
   slug: widen-integration-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-integration-links-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-integration-links-api-openapi.yml
 - filename: widen-metadata-api-openapi.yml
   format: yaml
   label: Widen Metadata API
   slug: widen-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-metadata-api-openapi.yml
 - filename: widen-orders-api-openapi.yml
   format: yaml
   label: Widen Orders API
   slug: widen-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-orders-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-orders-api-openapi.yml
 - filename: widen-products-api-openapi.yml
   format: yaml
   label: Widen Products API
   slug: widen-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-products-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-products-api-openapi.yml
 - filename: widen-search-connector-api-openapi.yml
   format: yaml
   label: Widen Search-Connector API
   slug: widen-search-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-search-connector-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-search-connector-api-openapi.yml
 - filename: widen-usage-api-openapi.yml
   format: yaml
   label: Widen Usage API
   slug: widen-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-usage-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-usage-api-openapi.yml
 - filename: widen-users-api-openapi.yml
   format: yaml
   label: Widen Users API
   slug: widen-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-users-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-users-api-openapi.yml
 - filename: widen-workflow-app-projects-api-openapi.yml
   format: yaml
   label: Widen Workflow-App-Projects API
   slug: widen-workflow-app-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-workflow-app-projects-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-workflow-app-projects-api-openapi.yml
 - filename: widen-workflow-webhooks-api-openapi.yml
   format: yaml
   label: Widen Workflow-Webhooks API
   slug: widen-workflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/openapi/widen-workflow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/widen/openapi/widen-workflow-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 47
@@ -200,7 +200,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/widen-
   - path: /workflow/projects/{project_id}/deliverables/{deliverable_id}/close\n  method: put\n  operationId: deliverablesCloseForProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow/projects/{project_id}/deliverables/{deliverable_id}/proofs\n  method: post\n  operationId: deliverablesUploadProof\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow/projects/{project_id}/support-files\n  method: get\n  operationId: retrieveProjectSupportFiles\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/webhooks\n  method: get\n  operationId: workflowListWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/webhooks\n  method: post\n  operationId: workflowAddWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow/webhooks\n  method: delete\n  operationId: workflowDeleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/agentic-access/widen-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/widen/agentic-access/widen-agentic-access.yml
 summary_line: 90 operations · 43 acting · 3 human-in-the-loop
 tags:
 - Digital Asset Management

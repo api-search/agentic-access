@@ -9,31 +9,31 @@ api_specs:
   label: Tano Brand Signups API
   slug: tano-brand-signups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-brand-signups-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-brand-signups-api-openapi.yml
 - filename: tano-contact-api-openapi.yml
   format: yaml
   label: Tano Contact API
   slug: tano-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-contact-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-contact-api-openapi.yml
 - filename: tano-creator-signups-api-openapi.yml
   format: yaml
   label: Tano Creator Signups API
   slug: tano-creator-signups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-creator-signups-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-creator-signups-api-openapi.yml
 - filename: tano-discovery-api-openapi.yml
   format: yaml
   label: Tano Discovery API
   slug: tano-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-discovery-api-openapi.yml
 - filename: tano-events-api-openapi.yml
   format: yaml
   label: Tano Events API
   slug: tano-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-events-api-openapi.yml
+  url: https://artifacts.apis.io/tano/openapi/tano-events-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/tano-o
   \ required\n- path: /api/runna-webinar\n  method: post\n  operationId: runnaWebinarSignup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /llms.txt\n  method: get\n  operationId: getLlmsTxt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llms-full.txt\n  method: get\n  operationId: getLlmsFullTxt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing.md\n  method: get\n  operationId: getPricingMd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /.well-known/agent-card.json\n  method: get\n  operationId: getAgentCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/agent-skills/index.json\n  method: get\n  operationId: getAgentSkills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/mcp/manifest.json\n  method: get\n  operationId: getMcpManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents.md\n  method: get\n  operationId: getAgentsMd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/mcp\n  method: get\n  operationId: getMcpDescriptor\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/mcp\n  method: post\n  operationId: callMcp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/agentic-access/tano-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tano/agentic-access/tano-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Company

@@ -9,85 +9,85 @@ api_specs:
   label: Vector Solutions Courses API
   slug: vectorsolutions-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-courses-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-courses-api-openapi.yml
 - filename: vectorsolutions-credential-assignment-api-openapi.yml
   format: yaml
   label: Vector Solutions Credential Assignment API
   slug: vectorsolutions-credential-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-credential-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-credential-assignment-api-openapi.yml
 - filename: vectorsolutions-credential-categories-api-openapi.yml
   format: yaml
   label: Vector Solutions Credential Categories API
   slug: vectorsolutions-credential-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-credential-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-credential-categories-api-openapi.yml
 - filename: vectorsolutions-credentials-api-openapi.yml
   format: yaml
   label: Vector Solutions Credentials API
   slug: vectorsolutions-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-credentials-api-openapi.yml
 - filename: vectorsolutions-feature-access-api-openapi.yml
   format: yaml
   label: Vector Solutions Feature Access API
   slug: vectorsolutions-feature-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-feature-access-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-feature-access-api-openapi.yml
 - filename: vectorsolutions-profile-categories-api-openapi.yml
   format: yaml
   label: Vector Solutions Profile Categories API
   slug: vectorsolutions-profile-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-profile-categories-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-profile-categories-api-openapi.yml
 - filename: vectorsolutions-profile-group-assignment-api-openapi.yml
   format: yaml
   label: Vector Solutions Profile Group Assignment API
   slug: vectorsolutions-profile-group-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-profile-group-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-profile-group-assignment-api-openapi.yml
 - filename: vectorsolutions-profile-groups-api-openapi.yml
   format: yaml
   label: Vector Solutions Profile Groups API
   slug: vectorsolutions-profile-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-profile-groups-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-profile-groups-api-openapi.yml
 - filename: vectorsolutions-sites-api-openapi.yml
   format: yaml
   label: Vector Solutions Sites API
   slug: vectorsolutions-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-sites-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-sites-api-openapi.yml
 - filename: vectorsolutions-supervisor-access-api-openapi.yml
   format: yaml
   label: Vector Solutions Supervisor Access API
   slug: vectorsolutions-supervisor-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-supervisor-access-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-supervisor-access-api-openapi.yml
 - filename: vectorsolutions-training-assignments-api-openapi.yml
   format: yaml
   label: Vector Solutions Training Assignments API
   slug: vectorsolutions-training-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-training-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-training-assignments-api-openapi.yml
 - filename: vectorsolutions-user-emails-api-openapi.yml
   format: yaml
   label: Vector Solutions User Emails API
   slug: vectorsolutions-user-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-user-emails-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-user-emails-api-openapi.yml
 - filename: vectorsolutions-user-history-api-openapi.yml
   format: yaml
   label: Vector Solutions User History API
   slug: vectorsolutions-user-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-user-history-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-user-history-api-openapi.yml
 - filename: vectorsolutions-users-api-openapi.yml
   format: yaml
   label: Vector Solutions Users API
   slug: vectorsolutions-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/openapi/vectorsolutions-users-api-openapi.yml
+  url: https://artifacts.apis.io/vectorsolutions/openapi/vectorsolutions-users-api-openapi.yml
 consequence_counts:
   read: 51
   safety-critical: 2
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/vector
   \  operationId: getSiteTrainingAssignments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trainingassignments/{transcriptid}\n  method: get\n  operationId: getTrainingAssignment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trainingassignments/{transcriptid}\n  method: put\n  operationId: updateTrainingAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trainingassignments/{transcriptid}\n  method: delete\n  operationId: deleteTrainingAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trainingassignments/user/{userid}/course/{courseid}\n  method: post\n  operationId: createTrainingAssignment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userid}/trainingassignments\n  method: get\n  operationId: getUserTrainingAssignments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteid}/course/{courseid}/trainingassignments\n  method: get\n  operationId: getCourseTrainingAssignments\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/agentic-access/vectorsolutions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vectorsolutions/agentic-access/vectorsolutions-agentic-access.yml
 summary_line: 70 operations · 19 acting · 2 human-in-the-loop
 tags:
 - Training

@@ -8,25 +8,25 @@ api_specs:
   label: Highlight (highlight.io) Logs API
   slug: highlight-io-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-logs-api-openapi.yml
+  url: https://artifacts.apis.io/highlight-io/openapi/highlight-io-logs-api-openapi.yml
 - filename: highlight-io-metrics-api-openapi.yml
   format: yaml
   label: Highlight (highlight.io) Metrics API
   slug: highlight-io-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/highlight-io/openapi/highlight-io-metrics-api-openapi.yml
 - filename: highlight-io-sessions-api-openapi.yml
   format: yaml
   label: Highlight (highlight.io) Sessions API
   slug: highlight-io-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/highlight-io/openapi/highlight-io-sessions-api-openapi.yml
 - filename: highlight-io-traces-api-openapi.yml
   format: yaml
   label: Highlight (highlight.io) Traces API
   slug: highlight-io-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-traces-api-openapi.yml
+  url: https://artifacts.apis.io/highlight-io/openapi/highlight-io-traces-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/highlight-otlp-logs-api-openapi.yml, openapi/highlight-otlp-metrics-api-openapi.yml,\n  openapi/highlight-otlp-traces-api-openapi.yml, openapi/highlight-session-ingestion-api-openapi.yml,\n  openapi/highlight-webhooks-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 5\n  by_consequence:\n    write: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/logs\n  method: post\n  operationId: exportLogs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/metrics\n  method: post\n  operationId: exportMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/traces\n  method: post\n  operationId: exportTraces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: executePublicGraphMutation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: receiveHighlightAlertWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/agentic-access/highlight-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/highlight-io/agentic-access/highlight-io-agentic-access.yml
 summary_line: 5 operations · 5 acting
 tags:
 - Observability

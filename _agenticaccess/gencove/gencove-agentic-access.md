@@ -9,121 +9,121 @@ api_specs:
   label: Gencove Array API
   slug: gencove-array-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-array-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-array-api-openapi.yml
 - filename: gencove-basespace-api-openapi.yml
   format: yaml
   label: Gencove Basespace API
   slug: gencove-basespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-basespace-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-basespace-api-openapi.yml
 - filename: gencove-batch-api-openapi.yml
   format: yaml
   label: Gencove Batch API
   slug: gencove-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-batch-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-batch-api-openapi.yml
 - filename: gencove-billing-api-openapi.yml
   format: yaml
   label: Gencove Billing API
   slug: gencove-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-billing-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-billing-api-openapi.yml
 - filename: gencove-explorer-api-openapi.yml
   format: yaml
   label: Gencove Explorer API
   slug: gencove-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-explorer-api-openapi.yml
 - filename: gencove-file-api-openapi.yml
   format: yaml
   label: Gencove File API
   slug: gencove-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-file-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-file-api-openapi.yml
 - filename: gencove-firstmile-api-openapi.yml
   format: yaml
   label: Gencove Firstmile API
   slug: gencove-firstmile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-firstmile-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-firstmile-api-openapi.yml
 - filename: gencove-invitation-api-openapi.yml
   format: yaml
   label: Gencove Invitation API
   slug: gencove-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-invitation-api-openapi.yml
 - filename: gencove-jwt-api-openapi.yml
   format: yaml
   label: Gencove JWT API
   slug: gencove-jwt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-jwt-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-jwt-api-openapi.yml
 - filename: gencove-mfa-api-openapi.yml
   format: yaml
   label: Gencove Mfa API
   slug: gencove-mfa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-mfa-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-mfa-api-openapi.yml
 - filename: gencove-notification-api-openapi.yml
   format: yaml
   label: Gencove Notification API
   slug: gencove-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-notification-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-notification-api-openapi.yml
 - filename: gencove-organization-api-openapi.yml
   format: yaml
   label: Gencove Organization API
   slug: gencove-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-organization-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-organization-api-openapi.yml
 - filename: gencove-pipeline-api-openapi.yml
   format: yaml
   label: Gencove Pipeline API
   slug: gencove-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-pipeline-api-openapi.yml
 - filename: gencove-project-api-openapi.yml
   format: yaml
   label: Gencove Project API
   slug: gencove-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-project-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-project-api-openapi.yml
 - filename: gencove-role-api-openapi.yml
   format: yaml
   label: Gencove Role API
   slug: gencove-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-role-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-role-api-openapi.yml
 - filename: gencove-s3-api-openapi.yml
   format: yaml
   label: Gencove S3 API
   slug: gencove-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-s3-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-s3-api-openapi.yml
 - filename: gencove-sample-api-openapi.yml
   format: yaml
   label: Gencove Sample API
   slug: gencove-sample-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-sample-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-sample-api-openapi.yml
 - filename: gencove-social-api-openapi.yml
   format: yaml
   label: Gencove Social API
   slug: gencove-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-social-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-social-api-openapi.yml
 - filename: gencove-upload-api-openapi.yml
   format: yaml
   label: Gencove Upload API
   slug: gencove-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-upload-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-upload-api-openapi.yml
 - filename: gencove-user-api-openapi.yml
   format: yaml
   label: Gencove User API
   slug: gencove-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/gencove-user-api-openapi.yml
+  url: https://artifacts.apis.io/gencove/openapi/gencove-user-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 68
@@ -227,8 +227,8 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/gencov
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/projects-delete/\n  method: delete\n  operationId: projects_delete_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/projects-hide/\n  method: post\n  operationId: projects_hide_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/projects-unhide/\n  method: post\n  operationId: projects_unhide_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/projects/{project_id}\n  method: get\n  operationId: projects_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/projects/{project_id}\n  method: patch\n  operationId: projects_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/roles/{applies_to}\n  method: get\n  operationId: roles_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v2/s3-external-id/\n  method: get\n  operationId: s3_external_id_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/s3-external-id/\n  method: post\n  operationId: s3_external_id_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/s3-role/\n  method: get\n  operationId: s3_role_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/s3-role/\n  method: post\n  operationId: s3_role_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
-  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/s3-role/\n  method: delete\n  operationId: s3_role_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/s3-uri-autoimport/\n  method: get\n  operationId: s3_uri_autoimport_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/agentic-access/gencove-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/agentic-access/gencove-agentic-access.yml
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/s3-role/\n  method: delete\n  operationId: s3_role_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/s3-uri-autoimport/\n  method: get\n  operationId: s3_uri_autoimport_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/gencove/agentic-access/gencove-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/gencove/agentic-access/gencove-agentic-access.yml
 summary_line: 151 operations · 83 acting · 7 human-in-the-loop
 tags:
 - Company

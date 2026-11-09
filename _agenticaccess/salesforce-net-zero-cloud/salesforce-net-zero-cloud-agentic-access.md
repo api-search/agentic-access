@@ -9,43 +9,43 @@ api_specs:
   label: Salesforce Net Zero Cloud Carbon Emissions API
   slug: salesforce-net-zero-cloud-carbon-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-carbon-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-carbon-emissions-api-openapi.yml
 - filename: salesforce-net-zero-cloud-emission-factors-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Emission Factors API
   slug: salesforce-net-zero-cloud-emission-factors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-emission-factors-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-emission-factors-api-openapi.yml
 - filename: salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Energy Consumption API
   slug: salesforce-net-zero-cloud-energy-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
 - filename: salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud ESG Reporting API
   slug: salesforce-net-zero-cloud-esg-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
 - filename: salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Sustainability Goals API
   slug: salesforce-net-zero-cloud-sustainability-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
 - filename: salesforce-net-zero-cloud-waste-management-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Waste Management API
   slug: salesforce-net-zero-cloud-waste-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-waste-management-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-waste-management-api-openapi.yml
 - filename: salesforce-net-zero-cloud-water-usage-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Water Usage API
   slug: salesforce-net-zero-cloud-water-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-water-usage-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-water-usage-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/salesf
   \    audit: none\n- path: /sobjects/SustainabilityGoal\n  method: get\n  operationId: listSustainabilityGoals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sobjects/SustainabilityGoal\n  method: post\n  operationId: createSustainabilityGoal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sobjects/EmissionFactor\n  method: get\n  operationId: listEmissionFactors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sobjects/WasteDisposal\n  method: get\n  operationId: listWasteDisposalRecords\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sobjects/WasteDisposal\n  method: post\n  operationId: createWasteDisposalRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sobjects/WaterWithdrawal\n  method: get\n  operationId: listWaterWithdrawalRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sobjects/WaterWithdrawal\n  method: post\n  operationId: createWaterWithdrawalRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /query\n  method: get\n  operationId: querySustainabilityData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/agentic-access/salesforce-net-zero-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-net-zero-cloud/agentic-access/salesforce-net-zero-cloud-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - Carbon Accounting

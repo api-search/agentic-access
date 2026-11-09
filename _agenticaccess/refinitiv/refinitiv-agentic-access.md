@@ -9,157 +9,157 @@ api_specs:
   label: Refinitiv Real-Time WebSocket API
   slug: refinitiv-real-time-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/asyncapi/refinitiv-real-time-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/refinitiv/asyncapi/refinitiv-real-time-websocket-asyncapi.yml
 - filename: refinitiv-news-api-openapi.yml
   format: yaml
   label: Refinitiv News API
   slug: refinitiv-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-news-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-news-api-openapi.yml
 - filename: refinitiv-esg-api-openapi.yml
   format: yaml
   label: Refinitiv ESG API
   slug: refinitiv-esg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-esg-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-esg-api-openapi.yml
 - filename: refinitiv-authentication-api-openapi.yml
   format: yaml
   label: Refinitiv Authentication API
   slug: refinitiv-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-authentication-api-openapi.yml
 - filename: refinitiv-cases-api-openapi.yml
   format: yaml
   label: Refinitiv Cases API
   slug: refinitiv-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-cases-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-cases-api-openapi.yml
 - filename: refinitiv-configuration-api-openapi.yml
   format: yaml
   label: Refinitiv Configuration API
   slug: refinitiv-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-configuration-api-openapi.yml
 - filename: refinitiv-connection-api-openapi.yml
   format: yaml
   label: Refinitiv Connection API
   slug: refinitiv-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-connection-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-connection-api-openapi.yml
 - filename: refinitiv-entity-search-api-openapi.yml
   format: yaml
   label: Refinitiv Entity Search API
   slug: refinitiv-entity-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-entity-search-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-entity-search-api-openapi.yml
 - filename: refinitiv-esg-api-openapi.yml
   format: yaml
   label: Refinitiv ESG API
   slug: refinitiv-esg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-esg-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-esg-api-openapi.yml
 - filename: refinitiv-extractions-api-openapi.yml
   format: yaml
   label: Refinitiv Extractions API
   slug: refinitiv-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-extractions-api-openapi.yml
 - filename: refinitiv-groups-api-openapi.yml
   format: yaml
   label: Refinitiv Groups API
   slug: refinitiv-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-groups-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-groups-api-openapi.yml
 - filename: refinitiv-historical-pricing-api-openapi.yml
   format: yaml
   label: Refinitiv Historical Pricing API
   slug: refinitiv-historical-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-historical-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-historical-pricing-api-openapi.yml
 - filename: refinitiv-instruments-api-openapi.yml
   format: yaml
   label: Refinitiv Instruments API
   slug: refinitiv-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-instruments-api-openapi.yml
 - filename: refinitiv-news-api-openapi.yml
   format: yaml
   label: Refinitiv News API
   slug: refinitiv-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-news-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-news-api-openapi.yml
 - filename: refinitiv-ongoing-screening-api-openapi.yml
   format: yaml
   label: Refinitiv Ongoing Screening API
   slug: refinitiv-ongoing-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-ongoing-screening-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-ongoing-screening-api-openapi.yml
 - filename: refinitiv-pricing-api-openapi.yml
   format: yaml
   label: Refinitiv Pricing API
   slug: refinitiv-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-pricing-api-openapi.yml
 - filename: refinitiv-quantitative-analytics-api-openapi.yml
   format: yaml
   label: Refinitiv Quantitative Analytics API
   slug: refinitiv-quantitative-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-quantitative-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-quantitative-analytics-api-openapi.yml
 - filename: refinitiv-record-matching-api-openapi.yml
   format: yaml
   label: Refinitiv Record Matching API
   slug: refinitiv-record-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-record-matching-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-record-matching-api-openapi.yml
 - filename: refinitiv-reference-api-openapi.yml
   format: yaml
   label: Refinitiv Reference API
   slug: refinitiv-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-reference-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-reference-api-openapi.yml
 - filename: refinitiv-schedules-api-openapi.yml
   format: yaml
   label: Refinitiv Schedules API
   slug: refinitiv-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-schedules-api-openapi.yml
 - filename: refinitiv-screening-results-api-openapi.yml
   format: yaml
   label: Refinitiv Screening Results API
   slug: refinitiv-screening-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-screening-results-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-screening-results-api-openapi.yml
 - filename: refinitiv-search-api-openapi.yml
   format: yaml
   label: Refinitiv Search API
   slug: refinitiv-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-search-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-search-api-openapi.yml
 - filename: refinitiv-streaming-api-openapi.yml
   format: yaml
   label: Refinitiv Streaming API
   slug: refinitiv-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-streaming-api-openapi.yml
 - filename: refinitiv-symbology-api-openapi.yml
   format: yaml
   label: Refinitiv Symbology API
   slug: refinitiv-symbology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-symbology-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-symbology-api-openapi.yml
 - filename: refinitiv-users-api-openapi.yml
   format: yaml
   label: Refinitiv Users API
   slug: refinitiv-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-users-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-users-api-openapi.yml
 - filename: refinitiv-verification-api-openapi.yml
   format: yaml
   label: Refinitiv Verification API
   slug: refinitiv-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/openapi/refinitiv-verification-api-openapi.yml
+  url: https://artifacts.apis.io/refinitiv/openapi/refinitiv-verification-api-openapi.yml
 consequence_counts:
   read: 32
   write: 15
@@ -200,7 +200,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/refini
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Extractions/Schedules\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cases/{caseSystemId}/results\n  method: get\n  operationId: getScreeningResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cases/{caseSystemId}/results/{resultId}/resolution\n  method: put\n  operationId: resolveResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discovery/search/v1/\n  method: post\n  operationId: searchInstruments\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streaming/pricing/v1/\n  method: get\n  operationId: getStreamingEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discovery/symbology/v1/convert\n  method: post\n  operationId: convertSymbology\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Users/Users('{userId}')\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verifications/v1/verify\n \
   \ method: post\n  operationId: verifyIdentity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verifications/v1/transactionrecord/{transactionRecordId}\n  method: get\n  operationId: getTransactionRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/agentic-access/refinitiv-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/refinitiv/agentic-access/refinitiv-agentic-access.yml
 summary_line: 47 operations · 15 acting
 tags:
 - Financial Data

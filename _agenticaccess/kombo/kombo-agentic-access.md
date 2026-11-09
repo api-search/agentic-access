@@ -9,55 +9,55 @@ api_specs:
   label: Kombo AI Apply API
   slug: kombo-ai-apply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-ai-apply-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-ai-apply-api-openapi.yml
 - filename: kombo-custom-endpoints-api-openapi.yml
   format: yaml
   label: Kombo Custom Endpoints API
   slug: kombo-custom-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-custom-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-custom-endpoints-api-openapi.yml
 - filename: kombo-general-api-openapi.yml
   format: yaml
   label: Kombo General API
   slug: kombo-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-general-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-general-api-openapi.yml
 - filename: kombo-kombo-connect-api-openapi.yml
   format: yaml
   label: Kombo Connect API
   slug: kombo-kombo-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-kombo-connect-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-kombo-connect-api-openapi.yml
 - filename: kombo-unified-ats-api-api-openapi.yml
   format: yaml
   label: Kombo Unified ATS API
   slug: kombo-unified-ats-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-ats-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-unified-ats-api-api-openapi.yml
 - filename: kombo-unified-ats-assessment-background-check-api-api-openapi.yml
   format: yaml
   label: Kombo Unified ATS (Assessment & Background Check) API
   slug: kombo-unified-ats-assessment-background-check-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-ats-assessment-background-check-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-unified-ats-assessment-background-check-api-api-openapi.yml
 - filename: kombo-unified-hris-api-api-openapi.yml
   format: yaml
   label: Kombo Unified HRIS API
   slug: kombo-unified-hris-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-hris-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-unified-hris-api-api-openapi.yml
 - filename: kombo-unified-lms-api-api-openapi.yml
   format: yaml
   label: Kombo Unified LMS API
   slug: kombo-unified-lms-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-lms-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-unified-lms-api-api-openapi.yml
 - filename: kombo-kombo-api-api-openapi.yml
   format: yaml
   label: Kombo API
   slug: kombo-kombo-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-kombo-api-api-openapi.yml
+  url: https://artifacts.apis.io/kombo/openapi/kombo-kombo-api-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 60
@@ -166,8 +166,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kombo-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/groups\n  method: get\n  operationId: GetHrisGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/employments\n  method: get\n  operationId: GetHrisEmployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/locations\n  method: get\n  operationId: GetHrisLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/absence-types\n  method: get\n  operationId: GetHrisAbsenceTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /hris/time-off-balances\n  method: get\n  operationId: GetHrisTimeOffBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/absences\n  method: get\n  operationId: GetHrisAbsences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/absences\n  method: post\n  operationId: PostHrisAbsences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hris/absences/{absence_id}\n  method: delete\n  operationId: DeleteHrisAbsencesAbsenceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hris/legal-entities\n  method: get\n  operationId: GetHrisLegalEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/timesheets\n  method: get\n  operationId: GetHrisTimesheets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/performance-review-cycles\n  method: get\n  operationId: GetHrisPerformanceReviewCycles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/performance-reviews\n  method: get\n  operationId: GetHrisPerformanceReviews\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/skills\n  method: get\n  operationId: GetHrisSkills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/skills\n  method: post\n  operationId: PostHrisSkills\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/agentic-access/kombo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/agentic-access/kombo-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/skills\n  method: get\n  operationId: GetHrisSkills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hris/skills\n  method: post\n  operationId: PostHrisSkills\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://artifacts.apis.io/kombo/agentic-access/kombo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/kombo/agentic-access/kombo-agentic-access.yml
 summary_line: 121 operations · 61 acting · 6 human-in-the-loop
 tags:
 - Applicant Tracking

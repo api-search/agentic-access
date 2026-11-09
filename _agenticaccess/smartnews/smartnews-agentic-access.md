@@ -9,91 +9,91 @@ api_specs:
   label: SmartNews Ad API
   slug: smartnews-ad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-ad-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-ad-api-openapi.yml
 - filename: smartnews-ad-group-api-openapi.yml
   format: yaml
   label: SmartNews Ad Group API
   slug: smartnews-ad-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-ad-group-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-ad-group-api-openapi.yml
 - filename: smartnews-article-category-api-openapi.yml
   format: yaml
   label: SmartNews article category API
   slug: smartnews-article-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-article-category-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-article-category-api-openapi.yml
 - filename: smartnews-campaign-api-openapi.yml
   format: yaml
   label: SmartNews Campaign API
   slug: smartnews-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-campaign-api-openapi.yml
 - filename: smartnews-catalog-api-openapi.yml
   format: yaml
   label: SmartNews Catalog API
   slug: smartnews-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-catalog-api-openapi.yml
 - filename: smartnews-channel-alias-label-api-openapi.yml
   format: yaml
   label: SmartNews channel alias label API
   slug: smartnews-channel-alias-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-channel-alias-label-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-channel-alias-label-api-openapi.yml
 - filename: smartnews-custom-audience-api-openapi.yml
   format: yaml
   label: SmartNews Custom Audience API
   slug: smartnews-custom-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-custom-audience-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-custom-audience-api-openapi.yml
 - filename: smartnews-developer-app-api-openapi.yml
   format: yaml
   label: SmartNews Developer App API
   slug: smartnews-developer-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-developer-app-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-developer-app-api-openapi.yml
 - filename: smartnews-insights-api-openapi.yml
   format: yaml
   label: SmartNews Insights API
   slug: smartnews-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-insights-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-insights-api-openapi.yml
 - filename: smartnews-interests-api-openapi.yml
   format: yaml
   label: SmartNews Interests API
   slug: smartnews-interests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-interests-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-interests-api-openapi.yml
 - filename: smartnews-locations-api-openapi.yml
   format: yaml
   label: SmartNews Locations API
   slug: smartnews-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-locations-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-locations-api-openapi.yml
 - filename: smartnews-media-file-api-openapi.yml
   format: yaml
   label: SmartNews Media File API
   slug: smartnews-media-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-media-file-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-media-file-api-openapi.yml
 - filename: smartnews-pixel-api-openapi.yml
   format: yaml
   label: SmartNews Pixel API
   slug: smartnews-pixel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-pixel-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-pixel-api-openapi.yml
 - filename: smartnews-smart-view-article-keyword-api-openapi.yml
   format: yaml
   label: SmartNews smart view article keyword API
   slug: smartnews-smart-view-article-keyword-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-smart-view-article-keyword-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-smart-view-article-keyword-api-openapi.yml
 - filename: smartnews-oauth-api-openapi.yml
   format: yaml
   label: SmartNews OAUTH API
   slug: smartnews-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/smartnews/openapi/smartnews-oauth-api-openapi.yml
 consequence_counts:
   read: 25
   safety-critical: 1
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/smartn
   \ createBusinessCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bm-external/v1/businesses/{business_id}/catalogs/{catalog_id}\n  method: get\n  operationId: getBusinessCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bm-external/v1/businesses/{business_id}/catalogs/{catalog_id}\n  method: patch\n  operationId: updateBusinessCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bm-external/v1/businesses/{business_id}/catalogs/{catalog_id}/product_sets\n\
   \  method: get\n  operationId: listCatalogProductSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bm-external/v1/businesses/{business_id}/catalogs/{catalog_id}/product_sets\n  method: post\n  operationId: createCatalogProductSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bm-external/v1/businesses/{business_id}/catalogs/{catalog_id}/product_sets/{product_set_id}\n  method: get\n  operationId: getCatalogProductSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bm-external/v1/businesses/{business_id}/catalogs/{catalog_id}/product_sets/{product_set_id}\n\
   \  method: patch\n  operationId: updateCatalogProductSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/agentic-access/smartnews-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartnews/agentic-access/smartnews-agentic-access.yml
 summary_line: 46 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Company

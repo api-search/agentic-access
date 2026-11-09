@@ -8,7 +8,7 @@ api_specs:
   label: Blocktorch Hardhat API
   slug: blocktorch-hardhat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/openapi/blocktorch-hardhat-api-openapi.yml
+  url: https://artifacts.apis.io/blocktorch/openapi/blocktorch-hardhat-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -35,7 +35,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/blocktorch-hardhat-forking-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    acting: 2\n  by_consequence:\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /hardhat/{projectId}\n  method: post\n  operationId: createHardhatInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hardhat/{projectId}/{chainId}\n  method: delete\n  operationId: deleteHardhatInstance\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/agentic-access/blocktorch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blocktorch/agentic-access/blocktorch-agentic-access.yml
 summary_line: 2 operations · 2 acting
 tags:
 - Company

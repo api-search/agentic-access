@@ -9,19 +9,19 @@ api_specs:
   label: Factorial Core::Employees::V2 API
   slug: factorial-hr-core-employees-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-employees-v2-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-employees-v2-api-openapi.yml
 - filename: factorial-hr-core-me-api-openapi.yml
   format: yaml
   label: Factorial Core::Me API
   slug: factorial-hr-core-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-me-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-me-api-openapi.yml
 - filename: factorial-hr-resources-api-openapi.yml
   format: yaml
   label: Factorial Resources API
   slug: factorial-hr-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-resources-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-resources-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/factor
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /resources/payroll/supplements\n  method: get\n  operationId: listSupplements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /resources/payroll/supplements\n  method: post\n  operationId: createSupplement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /resources/companies/locations\n  method: get\n  operationId:\
   \ listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /resources/companies/locations\n  method: post\n  operationId: createLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /resources/employees/employee_updates\n  method: get\n  operationId: listEmployeeUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /resources/documents/documents\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /resources/documents/documents\n  method: post\n  operationId: uploadDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/agentic-access/factorial-hr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/factorial-hr/agentic-access/factorial-hr-agentic-access.yml
 summary_line: 35 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Human Resources

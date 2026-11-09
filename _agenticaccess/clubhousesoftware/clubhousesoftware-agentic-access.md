@@ -9,151 +9,151 @@ api_specs:
   label: Clubhousesoftware Categories API
   slug: clubhousesoftware-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-categories-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-categories-api-openapi.yml
 - filename: clubhousesoftware-custom-fields-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Custom Fields API
   slug: clubhousesoftware-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-custom-fields-api-openapi.yml
 - filename: clubhousesoftware-documents-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Documents API
   slug: clubhousesoftware-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-documents-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-documents-api-openapi.yml
 - filename: clubhousesoftware-entity-templates-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Entity Templates API
   slug: clubhousesoftware-entity-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-entity-templates-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-entity-templates-api-openapi.yml
 - filename: clubhousesoftware-epic-workflow-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Epic Workflow API
   slug: clubhousesoftware-epic-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-epic-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-epic-workflow-api-openapi.yml
 - filename: clubhousesoftware-epics-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Epics API
   slug: clubhousesoftware-epics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-epics-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-epics-api-openapi.yml
 - filename: clubhousesoftware-external-link-api-openapi.yml
   format: yaml
   label: Clubhousesoftware External Link API
   slug: clubhousesoftware-external-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-external-link-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-external-link-api-openapi.yml
 - filename: clubhousesoftware-files-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Files API
   slug: clubhousesoftware-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-files-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-files-api-openapi.yml
 - filename: clubhousesoftware-groups-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Groups API
   slug: clubhousesoftware-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-groups-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-groups-api-openapi.yml
 - filename: clubhousesoftware-health-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Health API
   slug: clubhousesoftware-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-health-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-health-api-openapi.yml
 - filename: clubhousesoftware-integrations-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Integrations API
   slug: clubhousesoftware-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-integrations-api-openapi.yml
 - filename: clubhousesoftware-iterations-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Iterations API
   slug: clubhousesoftware-iterations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-iterations-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-iterations-api-openapi.yml
 - filename: clubhousesoftware-key-results-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Key Results API
   slug: clubhousesoftware-key-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-key-results-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-key-results-api-openapi.yml
 - filename: clubhousesoftware-labels-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Labels API
   slug: clubhousesoftware-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-labels-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-labels-api-openapi.yml
 - filename: clubhousesoftware-linked-files-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Linked Files API
   slug: clubhousesoftware-linked-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-linked-files-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-linked-files-api-openapi.yml
 - filename: clubhousesoftware-member-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Member API
   slug: clubhousesoftware-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-member-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-member-api-openapi.yml
 - filename: clubhousesoftware-members-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Members API
   slug: clubhousesoftware-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-members-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-members-api-openapi.yml
 - filename: clubhousesoftware-milestones-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Milestones API
   slug: clubhousesoftware-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-milestones-api-openapi.yml
 - filename: clubhousesoftware-objectives-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Objectives API
   slug: clubhousesoftware-objectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-objectives-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-objectives-api-openapi.yml
 - filename: clubhousesoftware-projects-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Projects API
   slug: clubhousesoftware-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-projects-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-projects-api-openapi.yml
 - filename: clubhousesoftware-repositories-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Repositories API
   slug: clubhousesoftware-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-repositories-api-openapi.yml
 - filename: clubhousesoftware-search-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Search API
   slug: clubhousesoftware-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-search-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-search-api-openapi.yml
 - filename: clubhousesoftware-stories-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Stories API
   slug: clubhousesoftware-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-stories-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-stories-api-openapi.yml
 - filename: clubhousesoftware-story-links-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Story Links API
   slug: clubhousesoftware-story-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-story-links-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-story-links-api-openapi.yml
 - filename: clubhousesoftware-workflows-api-openapi.yml
   format: yaml
   label: Clubhousesoftware Workflows API
   slug: clubhousesoftware-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/openapi/clubhousesoftware-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/clubhousesoftware/openapi/clubhousesoftware-workflows-api-openapi.yml
 consequence_counts:
   read: 71
   safety-critical: 2
@@ -227,8 +227,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/clubho
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/projects/{project-public-id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/projects/{project-public-id}\n  method: put\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/projects/{project-public-id}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/projects/{project-public-id}/stories\n  method: get\n  operationId: listStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/repositories\n  method: get\n  operationId: listRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/repositories/{repo-public-id}\n  method: get\n  operationId: getRepository\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/search/documents\n  method: get\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/search/epics\n  method: get\n  operationId: searchEpics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/search/iterations\n  method: get\n  operationId: searchIterations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/search/milestones\n  method: get\n  operationId: searchMilestones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  \n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/agentic-access/clubhousesoftware-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clubhousesoftware/refs/heads/main/agentic-access/clubhousesoftware-agentic-access.yml
+  \n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/clubhousesoftware/agentic-access/clubhousesoftware-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/clubhousesoftware/agentic-access/clubhousesoftware-agentic-access.yml
 summary_line: 143 operations · 72 acting · 2 human-in-the-loop
 tags:
 - Company

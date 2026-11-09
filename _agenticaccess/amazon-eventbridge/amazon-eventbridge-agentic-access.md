@@ -9,31 +9,73 @@ api_specs:
   label: Amazon EventBridge Archives API
   slug: amazon-eventbridge-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-archives-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-archives-api-openapi.yml
 - filename: amazon-eventbridge-event-buses-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Event Buses API
   slug: amazon-eventbridge-event-buses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-event-buses-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-event-buses-api-openapi.yml
 - filename: amazon-eventbridge-events-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Events API
   slug: amazon-eventbridge-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-events-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-events-api-openapi.yml
 - filename: amazon-eventbridge-rules-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Rules API
   slug: amazon-eventbridge-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-rules-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-rules-api-openapi.yml
 - filename: amazon-eventbridge-targets-api-openapi.yml
   format: yaml
   label: Amazon EventBridge Targets API
   slug: amazon-eventbridge-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-targets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-targets-api-openapi.yml
+- filename: amazon-eventbridge-api-destination-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Api Destination API
+  slug: amazon-eventbridge-api-destination-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-api-destination-api-openapi.yml
+- filename: amazon-eventbridge-connection-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Connection API
+  slug: amazon-eventbridge-connection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-connection-api-openapi.yml
+- filename: amazon-eventbridge-endpoint-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Endpoint API
+  slug: amazon-eventbridge-endpoint-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-endpoint-api-openapi.yml
+- filename: amazon-eventbridge-event-bus-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Event Bus API
+  slug: amazon-eventbridge-event-bus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-event-bus-api-openapi.yml
+- filename: amazon-eventbridge-operations-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Operations API
+  slug: amazon-eventbridge-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-operations-api-openapi.yml
+- filename: amazon-eventbridge-partner-event-source-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Partner Event Source API
+  slug: amazon-eventbridge-partner-event-source-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-partner-event-source-api-openapi.yml
+- filename: amazon-eventbridge-replay-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Eventbridge Replay API
+  slug: amazon-eventbridge-replay-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eventbridge/openapi/amazon-eventbridge-replay-api-openapi.yml
 consequence_counts:
   read: 4
   write: 10
@@ -65,7 +107,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?DescribeRule\n  method: post\n  operationId: DescribeRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?ListRules\n  method: post\n  operationId: ListRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?DeleteRule\n  method: post\n  operationId: DeleteRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?PutTargets\n  method: post\n  operationId: PutTargets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?ListTargetsByRule\n  method: post\n  operationId: ListTargetsByRule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?RemoveTargets\n  method: post\n  operationId: RemoveTargets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/agentic-access/amazon-eventbridge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-eventbridge/agentic-access/amazon-eventbridge-agentic-access.yml
 summary_line: 14 operations · 10 acting
 tags:
 - Amazon Web Services

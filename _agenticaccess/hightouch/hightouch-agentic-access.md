@@ -9,73 +9,73 @@ api_specs:
   label: Hightouch Sources API
   slug: hightouch-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sources-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-sources-api-openapi.yml
 - filename: hightouch-models-api-openapi.yml
   format: yaml
   label: Hightouch Models API
   slug: hightouch-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-models-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-models-api-openapi.yml
 - filename: hightouch-destinations-api-openapi.yml
   format: yaml
   label: Hightouch Destinations API
   slug: hightouch-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-destinations-api-openapi.yml
 - filename: hightouch-syncs-api-openapi.yml
   format: yaml
   label: Hightouch Syncs API
   slug: hightouch-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-syncs-api-openapi.yml
 - filename: hightouch-campaigns-api-openapi.yml
   format: yaml
   label: Hightouch Campaigns API
   slug: hightouch-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-campaigns-api-openapi.yml
 - filename: hightouch-events-api-openapi.yml
   format: yaml
   label: Hightouch Events API
   slug: hightouch-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-events-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-events-api-openapi.yml
 - filename: hightouch-decision-engine-api-openapi.yml
   format: yaml
   label: Hightouch Decision Engine API
   slug: hightouch-decision-engine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-decision-engine-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-decision-engine-api-openapi.yml
 - filename: hightouch-id-graphs-api-openapi.yml
   format: yaml
   label: Hightouch Id Graphs API
   slug: hightouch-id-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-id-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-id-graphs-api-openapi.yml
 - filename: hightouch-idr-api-openapi.yml
   format: yaml
   label: Hightouch Idr API
   slug: hightouch-idr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-idr-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-idr-api-openapi.yml
 - filename: hightouch-sync-sequences-api-openapi.yml
   format: yaml
   label: Hightouch Sync Sequences API
   slug: hightouch-sync-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sync-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-sync-sequences-api-openapi.yml
 - filename: hightouch-signups-api-openapi.yml
   format: yaml
   label: Hightouch Signups API
   slug: hightouch-signups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-signups-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-signups-api-openapi.yml
 - filename: hightouch-sync-templates-api-openapi.yml
   format: yaml
   label: Hightouch Sync Templates API
   slug: hightouch-sync-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sync-templates-api-openapi.yml
+  url: https://artifacts.apis.io/hightouch/openapi/hightouch-sync-templates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/highto
   \ patch\n  operationId: UpdateSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /syncs\n  method: get\n  operationId: ListSync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /syncs\n  method: post\n  operationId: CreateSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /syncs/{syncId}/runs\n  method: get\n  operationId: ListSyncRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /syncs/{syncId}/trigger\n  method: post\n  operationId: TriggerRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /syncs/trigger\n  method: post\n  operationId: TriggerRunCustom\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sync-sequences/{syncSequenceId}/trigger\n  method: post\n  operationId: TriggerSequenceRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sync-sequences/runs/{syncSequenceRunId}\n  method: get\n  operationId: GetSyncSequenceRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/agentic-access/hightouch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hightouch/agentic-access/hightouch-agentic-access.yml
 summary_line: 43 operations · 22 acting
 tags:
 - CDP

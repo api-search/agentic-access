@@ -9,79 +9,79 @@ api_specs:
   label: Open Dental Accounts & Ledger API
   slug: opendental-accounts-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-accounts-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-accounts-ledger-api-openapi.yml
 - filename: opendental-appointments-api-openapi.yml
   format: yaml
   label: Open Dental Appointments API
   slug: opendental-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-appointments-api-openapi.yml
 - filename: opendental-claims-api-openapi.yml
   format: yaml
   label: Open Dental Claims API
   slug: opendental-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-claims-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-claims-api-openapi.yml
 - filename: opendental-documents-api-openapi.yml
   format: yaml
   label: Open Dental Documents API
   slug: opendental-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-documents-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-documents-api-openapi.yml
 - filename: opendental-fees-fee-schedules-api-openapi.yml
   format: yaml
   label: Open Dental Fees & Fee Schedules API
   slug: opendental-fees-fee-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-fees-fee-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-fees-fee-schedules-api-openapi.yml
 - filename: opendental-medications-prescriptions-api-openapi.yml
   format: yaml
   label: Open Dental Medications & Prescriptions API
   slug: opendental-medications-prescriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-medications-prescriptions-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-medications-prescriptions-api-openapi.yml
 - filename: opendental-patients-api-openapi.yml
   format: yaml
   label: Open Dental Patients API
   slug: opendental-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-patients-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-patients-api-openapi.yml
 - filename: opendental-payments-api-openapi.yml
   format: yaml
   label: Open Dental Payments API
   slug: opendental-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-payments-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-payments-api-openapi.yml
 - filename: opendental-procedures-api-openapi.yml
   format: yaml
   label: Open Dental Procedures API
   slug: opendental-procedures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-procedures-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-procedures-api-openapi.yml
 - filename: opendental-providers-api-openapi.yml
   format: yaml
   label: Open Dental Providers API
   slug: opendental-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-providers-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-providers-api-openapi.yml
 - filename: opendental-recalls-api-openapi.yml
   format: yaml
   label: Open Dental Recalls API
   slug: opendental-recalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-recalls-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-recalls-api-openapi.yml
 - filename: opendental-referrals-api-openapi.yml
   format: yaml
   label: Open Dental Referrals API
   slug: opendental-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-referrals-api-openapi.yml
 - filename: opendental-sheets-api-openapi.yml
   format: yaml
   label: Open Dental Sheets API
   slug: opendental-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/openapi/opendental-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/opendental/openapi/opendental-sheets-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 31
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/opende
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /medications\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /medicationpats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /medicationpats\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rxpats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rxpats\n  method: post\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /referrals\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /referrals\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refattaches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sheets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sheets\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/agentic-access/opendental-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opendental/agentic-access/opendental-agentic-access.yml
 summary_line: 68 operations · 37 acting
 tags:
 - Dental

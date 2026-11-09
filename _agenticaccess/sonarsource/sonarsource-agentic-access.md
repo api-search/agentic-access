@@ -9,199 +9,199 @@ api_specs:
   label: SonarSource Authentication API
   slug: sonarsource-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-authentication-api-openapi.yml
 - filename: sonarsource-ce-api-openapi.yml
   format: yaml
   label: SonarSource Ce API
   slug: sonarsource-ce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-ce-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-ce-api-openapi.yml
 - filename: sonarsource-components-api-openapi.yml
   format: yaml
   label: SonarSource Components API
   slug: sonarsource-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-components-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-components-api-openapi.yml
 - filename: sonarsource-duplications-api-openapi.yml
   format: yaml
   label: SonarSource Duplications API
   slug: sonarsource-duplications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-duplications-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-duplications-api-openapi.yml
 - filename: sonarsource-favorites-api-openapi.yml
   format: yaml
   label: SonarSource Favorites API
   slug: sonarsource-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-favorites-api-openapi.yml
 - filename: sonarsource-favourites-api-openapi.yml
   format: yaml
   label: SonarSource Favourites API
   slug: sonarsource-favourites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-favourites-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-favourites-api-openapi.yml
 - filename: sonarsource-hotspots-api-openapi.yml
   format: yaml
   label: SonarSource Hotspots API
   slug: sonarsource-hotspots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-hotspots-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-hotspots-api-openapi.yml
 - filename: sonarsource-issues-api-openapi.yml
   format: yaml
   label: SonarSource Issues API
   slug: sonarsource-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-issues-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-issues-api-openapi.yml
 - filename: sonarsource-languages-api-openapi.yml
   format: yaml
   label: SonarSource Languages API
   slug: sonarsource-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-languages-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-languages-api-openapi.yml
 - filename: sonarsource-measures-api-openapi.yml
   format: yaml
   label: SonarSource Measures API
   slug: sonarsource-measures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-measures-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-measures-api-openapi.yml
 - filename: sonarsource-metrics-api-openapi.yml
   format: yaml
   label: SonarSource Metrics API
   slug: sonarsource-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-metrics-api-openapi.yml
 - filename: sonarsource-notifications-api-openapi.yml
   format: yaml
   label: SonarSource Notifications API
   slug: sonarsource-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-notifications-api-openapi.yml
 - filename: sonarsource-permissions-api-openapi.yml
   format: yaml
   label: SonarSource Permissions API
   slug: sonarsource-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-permissions-api-openapi.yml
 - filename: sonarsource-project-analyses-api-openapi.yml
   format: yaml
   label: SonarSource Project Analyses API
   slug: sonarsource-project-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-project-analyses-api-openapi.yml
 - filename: sonarsource-project-badges-api-openapi.yml
   format: yaml
   label: SonarSource Project Badges API
   slug: sonarsource-project-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-badges-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-project-badges-api-openapi.yml
 - filename: sonarsource-project-branches-api-openapi.yml
   format: yaml
   label: SonarSource Project Branches API
   slug: sonarsource-project-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-branches-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-project-branches-api-openapi.yml
 - filename: sonarsource-project-links-api-openapi.yml
   format: yaml
   label: SonarSource Project Links API
   slug: sonarsource-project-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-links-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-project-links-api-openapi.yml
 - filename: sonarsource-project-pull-requests-api-openapi.yml
   format: yaml
   label: SonarSource Project Pull Requests API
   slug: sonarsource-project-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-project-pull-requests-api-openapi.yml
 - filename: sonarsource-project-tags-api-openapi.yml
   format: yaml
   label: SonarSource Project Tags API
   slug: sonarsource-project-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-project-tags-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-project-tags-api-openapi.yml
 - filename: sonarsource-projects-api-openapi.yml
   format: yaml
   label: SonarSource Projects API
   slug: sonarsource-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-projects-api-openapi.yml
 - filename: sonarsource-properties-api-openapi.yml
   format: yaml
   label: SonarSource Properties API
   slug: sonarsource-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-properties-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-properties-api-openapi.yml
 - filename: sonarsource-qualityprofiles-api-openapi.yml
   format: yaml
   label: SonarSource Qualityprofiles API
   slug: sonarsource-qualityprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-qualityprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-qualityprofiles-api-openapi.yml
 - filename: sonarsource-rules-api-openapi.yml
   format: yaml
   label: SonarSource Rules API
   slug: sonarsource-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-rules-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-rules-api-openapi.yml
 - filename: sonarsource-settings-api-openapi.yml
   format: yaml
   label: SonarSource Settings API
   slug: sonarsource-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-settings-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-settings-api-openapi.yml
 - filename: sonarsource-sources-api-openapi.yml
   format: yaml
   label: SonarSource Sources API
   slug: sonarsource-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-sources-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-sources-api-openapi.yml
 - filename: sonarsource-user-groups-api-openapi.yml
   format: yaml
   label: SonarSource User Groups API
   slug: sonarsource-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-user-groups-api-openapi.yml
 - filename: sonarsource-user-properties-api-openapi.yml
   format: yaml
   label: SonarSource User Properties API
   slug: sonarsource-user-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-user-properties-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-user-properties-api-openapi.yml
 - filename: sonarsource-user-tokens-api-openapi.yml
   format: yaml
   label: SonarSource User Tokens API
   slug: sonarsource-user-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-user-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-user-tokens-api-openapi.yml
 - filename: sonarsource-users-api-openapi.yml
   format: yaml
   label: SonarSource Users API
   slug: sonarsource-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-users-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-users-api-openapi.yml
 - filename: sonarsource-webhooks-api-openapi.yml
   format: yaml
   label: SonarSource Webhooks API
   slug: sonarsource-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-webhooks-api-openapi.yml
 - filename: sonarsource-quality-gates-api-openapi.yml
   format: yaml
   label: SonarSource Quality Gates API
   slug: sonarsource-quality-gates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-quality-gates-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-quality-gates-api-openapi.yml
 - filename: sonarsource-time-machine-api-openapi.yml
   format: yaml
   label: SonarSource Time Machine API
   slug: sonarsource-time-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-time-machine-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-time-machine-api-openapi.yml
 - filename: sonarsource-web-services-api-openapi.yml
   format: yaml
   label: SonarSource Web Services API
   slug: sonarsource-web-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/openapi/sonarsource-web-services-api-openapi.yml
+  url: https://artifacts.apis.io/sonarsource/openapi/sonarsource-web-services-api-openapi.yml
 consequence_counts:
   read: 69
   safety-critical: 2
@@ -275,8 +275,8 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sonars
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/qualitygates/show\n  method: get\n  operationId: qualitygatesShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/qualitygates/unset_default\n  method: post\n  operationId: qualitygatesUnsetDefault\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/qualitygates/update_condition\n  method: post\n  operationId: qualitygatesUpdateCondition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/qualityprofiles/activate_rule\n  method: post\n  operationId: qualityprofilesActivateRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/qualityprofiles/activate_rules\n  method: post\n  operationId: qualityprofilesActivateRules\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/qualityprofiles/add_project\n  method: post\n  operationId: qualityprofilesAddProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/qualityprofiles/backup\n  method: get\n  operationId: qualityprofilesBackup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/qualityprofiles/change_parent\n  method: post\n  operationId: qualityprofilesChangeParent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/qualityprofiles/changelog\n  method: get\n  operationId: qualityprofilesChangelog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/agentic-access/sonarsource-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/agentic-access/sonarsource-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/sonarsource/agentic-access/sonarsource-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/sonarsource/agentic-access/sonarsource-agentic-access.yml
 summary_line: 156 operations · 87 acting · 2 human-in-the-loop
 tags:
 - Company
@@ -288,4 +288,7 @@ tags:
 - DevOps
 - Code Review
 - SonarQube
+- CI/CD
+- Security
+- SonarCloud
 ---

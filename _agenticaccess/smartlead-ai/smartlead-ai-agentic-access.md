@@ -9,67 +9,67 @@ api_specs:
   label: Smartlead Campaign Statistics API
   slug: smartlead-ai-campaign-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-campaign-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-campaign-statistics-api-openapi.yml
 - filename: smartlead-ai-campaigns-api-openapi.yml
   format: yaml
   label: Smartlead Campaigns API
   slug: smartlead-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-campaigns-api-openapi.yml
 - filename: smartlead-ai-analytics-api-openapi.yml
   format: yaml
   label: Smartlead Analytics API
   slug: smartlead-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-analytics-api-openapi.yml
 - filename: smartlead-ai-authentication-api-openapi.yml
   format: yaml
   label: Smartlead Authentication API
   slug: smartlead-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-authentication-api-openapi.yml
 - filename: smartlead-ai-email-accounts-api-openapi.yml
   format: yaml
   label: Smartlead Email Accounts API
   slug: smartlead-ai-email-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-email-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-email-accounts-api-openapi.yml
 - filename: smartlead-ai-leads-api-openapi.yml
   format: yaml
   label: Smartlead Leads API
   slug: smartlead-ai-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-leads-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-leads-api-openapi.yml
 - filename: smartlead-ai-master-inbox-api-openapi.yml
   format: yaml
   label: Smartlead Master Inbox API
   slug: smartlead-ai-master-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-master-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-master-inbox-api-openapi.yml
 - filename: smartlead-ai-smart-delivery-api-openapi.yml
   format: yaml
   label: Smartlead Smart Delivery API
   slug: smartlead-ai-smart-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-smart-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-smart-delivery-api-openapi.yml
 - filename: smartlead-ai-smart-senders-api-openapi.yml
   format: yaml
   label: Smartlead Smart Senders API
   slug: smartlead-ai-smart-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-smart-senders-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-smart-senders-api-openapi.yml
 - filename: smartlead-ai-utilities-api-openapi.yml
   format: yaml
   label: Smartlead Utilities API
   slug: smartlead-ai-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-utilities-api-openapi.yml
 - filename: smartlead-ai-webhooks-api-openapi.yml
   format: yaml
   label: Smartlead Webhooks API
   slug: smartlead-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartlead-ai/openapi/smartlead-ai-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 56
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/smartl
   \  consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/smart-senders/auto-generate\n  method: post\n  operationId: autoGenerateMailboxes\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/send-email/initiate\n  method: post\n  operationId: sendSingleEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/send-email/track-email/{trackId}\n  method: get\n  operationId: trackEmailOpen\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subscription/credits-stats\n  method: get\n  operationId: getCreditsStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook/create\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook/{webhook_id}\n  method: get\n  operationId:\
   \ getWebhookDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook/update/{webhook_id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook/delete/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/agentic-access/smartlead-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartlead-ai/agentic-access/smartlead-ai-agentic-access.yml
 summary_line: 98 operations · 42 acting · 1 human-in-the-loop
 tags:
 - Cold Email

@@ -9,31 +9,31 @@ api_specs:
   label: Progressive Certificates API
   slug: progressive-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/progressive/openapi/progressive-certificates-api-openapi.yml
 - filename: progressive-drivers-api-openapi.yml
   format: yaml
   label: Progressive Drivers API
   slug: progressive-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/progressive/openapi/progressive-drivers-api-openapi.yml
 - filename: progressive-policies-api-openapi.yml
   format: yaml
   label: Progressive Policies API
   slug: progressive-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-policies-api-openapi.yml
+  url: https://artifacts.apis.io/progressive/openapi/progressive-policies-api-openapi.yml
 - filename: progressive-quotes-api-openapi.yml
   format: yaml
   label: Progressive Quotes API
   slug: progressive-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/progressive/openapi/progressive-quotes-api-openapi.yml
 - filename: progressive-vehicles-api-openapi.yml
   format: yaml
   label: Progressive Vehicles API
   slug: progressive-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/openapi/progressive-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/progressive/openapi/progressive-vehicles-api-openapi.yml
 consequence_counts:
   read: 5
   write: 2
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/progressive-auto-quote-api-openapi.yml, openapi/progressive-certificate-of-insurance-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 5\n    acting: 2\n  by_consequence:\n    read: 5\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /quotes\n  method: get\n  operationId: listQuotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vehicles\n  method: get\n  operationId: listVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /drivers\n  method: get\n  operationId: listDrivers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certificates\n  method: get\n  operationId: listCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certificates\n  method: post\n  operationId: createCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/agentic-access/progressive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/progressive/agentic-access/progressive-agentic-access.yml
 summary_line: 7 operations · 2 acting
 tags:
 - Auto Insurance

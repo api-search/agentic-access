@@ -9,127 +9,127 @@ api_specs:
   label: Givebutter Campaign Members API
   slug: givebutter-campaign-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-campaign-members-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-campaign-members-api-openapi.yml
 - filename: givebutter-campaign-teams-api-openapi.yml
   format: yaml
   label: Givebutter Campaign Teams API
   slug: givebutter-campaign-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-campaign-teams-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-campaign-teams-api-openapi.yml
 - filename: givebutter-campaign-tickets-api-openapi.yml
   format: yaml
   label: Givebutter Campaign Tickets API
   slug: givebutter-campaign-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-campaign-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-campaign-tickets-api-openapi.yml
 - filename: givebutter-campaigns-api-openapi.yml
   format: yaml
   label: Givebutter Campaigns API
   slug: givebutter-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-campaigns-api-openapi.yml
 - filename: givebutter-contact-activities-api-openapi.yml
   format: yaml
   label: Givebutter Contact Activities API
   slug: givebutter-contact-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-contact-activities-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-contact-activities-api-openapi.yml
 - filename: givebutter-contact-tags-api-openapi.yml
   format: yaml
   label: Givebutter Contact Tags API
   slug: givebutter-contact-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-contact-tags-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-contact-tags-api-openapi.yml
 - filename: givebutter-contacts-api-openapi.yml
   format: yaml
   label: Givebutter Contacts API
   slug: givebutter-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-contacts-api-openapi.yml
 - filename: givebutter-funds-api-openapi.yml
   format: yaml
   label: Givebutter Funds API
   slug: givebutter-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-funds-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-funds-api-openapi.yml
 - filename: givebutter-household-contacts-api-openapi.yml
   format: yaml
   label: Givebutter Household Contacts API
   slug: givebutter-household-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-household-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-household-contacts-api-openapi.yml
 - filename: givebutter-households-api-openapi.yml
   format: yaml
   label: Givebutter Households API
   slug: givebutter-households-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-households-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-households-api-openapi.yml
 - filename: givebutter-messages-api-openapi.yml
   format: yaml
   label: Givebutter Messages API
   slug: givebutter-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-messages-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-messages-api-openapi.yml
 - filename: givebutter-payouts-api-openapi.yml
   format: yaml
   label: Givebutter Payouts API
   slug: givebutter-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-payouts-api-openapi.yml
 - filename: givebutter-pledges-api-openapi.yml
   format: yaml
   label: Givebutter Pledges API
   slug: givebutter-pledges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-pledges-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-pledges-api-openapi.yml
 - filename: givebutter-sso-accounts-api-openapi.yml
   format: yaml
   label: Givebutter Sso Accounts API
   slug: givebutter-sso-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-sso-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-sso-accounts-api-openapi.yml
 - filename: givebutter-sso-campaigns-api-openapi.yml
   format: yaml
   label: Givebutter Sso Campaigns API
   slug: givebutter-sso-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-sso-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-sso-campaigns-api-openapi.yml
 - filename: givebutter-tickets-api-openapi.yml
   format: yaml
   label: Givebutter Tickets API
   slug: givebutter-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-tickets-api-openapi.yml
 - filename: givebutter-transactions-api-openapi.yml
   format: yaml
   label: Givebutter Transactions API
   slug: givebutter-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-transactions-api-openapi.yml
 - filename: givebutter-webhook-activities-api-openapi.yml
   format: yaml
   label: Givebutter Webhook Activities API
   slug: givebutter-webhook-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-webhook-activities-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-webhook-activities-api-openapi.yml
 - filename: givebutter-webhooks-api-openapi.yml
   format: yaml
   label: Givebutter Webhooks API
   slug: givebutter-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-webhooks-api-openapi.yml
 - filename: givebutter-campaign-discount-codes-api-openapi.yml
   format: yaml
   label: Givebutter Campaign Discount Codes API
   slug: givebutter-campaign-discount-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-campaign-discount-codes-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-campaign-discount-codes-api-openapi.yml
 - filename: givebutter-recurring-plans-api-openapi.yml
   format: yaml
   label: Givebutter Recurring Plans API
   slug: givebutter-recurring-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/openapi/givebutter-recurring-plans-api-openapi.yml
+  url: https://artifacts.apis.io/givebutter/openapi/givebutter-recurring-plans-api-openapi.yml
 consequence_counts:
   destructive: 10
   read: 38
@@ -183,7 +183,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: generated\nsource: openapi/_origi
   \    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n- path: /v1/webhooks\n  method: get\n  operationId: webhooks.index\n  tags:\n  - Webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: webhooks.store\n  tags:\n  - Webhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n- path: /v1/webhooks/{webhook}\n  method: get\n  operationId: webhooks.show\n  tags:\n  - Webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{webhook}\n  method: put\n\
   \  operationId: webhooks.update\n  tags:\n  - Webhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n- path: /v1/webhooks/{webhook}\n  method: delete\n  operationId: webhooks.destroy\n  tags:\n  - Webhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: destructive\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - always\n      why: deletion; only contacts publish a restore path and no retention window is stated\n- path: /v1/webhooks/{webhook}/activities\n  method: get\n  operationId: webhooks.activities.index\n  tags:\n  - Webhook Activities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/webhooks/{webhook}/activities/{activity}\n  method: get\n  operationId: webhooks.activities.show\n  tags:\n  - Webhook Activities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/agentic-access/givebutter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/givebutter/agentic-access/givebutter-agentic-access.yml
 summary_line: 70 operations · 32 acting · 1 human-in-the-loop
 tags:
 - Donations

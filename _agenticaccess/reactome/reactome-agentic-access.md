@@ -9,139 +9,139 @@ api_specs:
   label: Reactome Database API
   slug: reactome-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-database-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-database-api-openapi.yml
 - filename: reactome-discover-api-openapi.yml
   format: yaml
   label: Reactome Discover API
   slug: reactome-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-discover-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-discover-api-openapi.yml
 - filename: reactome-diseases-api-openapi.yml
   format: yaml
   label: Reactome Diseases API
   slug: reactome-diseases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-diseases-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-diseases-api-openapi.yml
 - filename: reactome-download-api-openapi.yml
   format: yaml
   label: Reactome Download API
   slug: reactome-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-download-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-download-api-openapi.yml
 - filename: reactome-entities-api-openapi.yml
   format: yaml
   label: Reactome Entities API
   slug: reactome-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-entities-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-entities-api-openapi.yml
 - filename: reactome-events-api-openapi.yml
   format: yaml
   label: Reactome Events API
   slug: reactome-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-events-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-events-api-openapi.yml
 - filename: reactome-exporter-api-openapi.yml
   format: yaml
   label: Reactome Exporter API
   slug: reactome-exporter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-exporter-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-exporter-api-openapi.yml
 - filename: reactome-identifier-api-openapi.yml
   format: yaml
   label: Reactome Identifier API
   slug: reactome-identifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-identifier-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-identifier-api-openapi.yml
 - filename: reactome-identifiers-api-openapi.yml
   format: yaml
   label: Reactome Identifiers API
   slug: reactome-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-identifiers-api-openapi.yml
 - filename: reactome-import-api-openapi.yml
   format: yaml
   label: Reactome Import API
   slug: reactome-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-import-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-import-api-openapi.yml
 - filename: reactome-interactors-api-openapi.yml
   format: yaml
   label: Reactome Interactors API
   slug: reactome-interactors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-interactors-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-interactors-api-openapi.yml
 - filename: reactome-mapping-api-openapi.yml
   format: yaml
   label: Reactome Mapping API
   slug: reactome-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-mapping-api-openapi.yml
 - filename: reactome-orthology-api-openapi.yml
   format: yaml
   label: Reactome Orthology API
   slug: reactome-orthology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-orthology-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-orthology-api-openapi.yml
 - filename: reactome-participants-api-openapi.yml
   format: yaml
   label: Reactome Participants API
   slug: reactome-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-participants-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-participants-api-openapi.yml
 - filename: reactome-pathways-api-openapi.yml
   format: yaml
   label: Reactome Pathways API
   slug: reactome-pathways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-pathways-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-pathways-api-openapi.yml
 - filename: reactome-person-api-openapi.yml
   format: yaml
   label: Reactome Person API
   slug: reactome-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-person-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-person-api-openapi.yml
 - filename: reactome-query-api-openapi.yml
   format: yaml
   label: Reactome Query API
   slug: reactome-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-query-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-query-api-openapi.yml
 - filename: reactome-references-api-openapi.yml
   format: yaml
   label: Reactome References API
   slug: reactome-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-references-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-references-api-openapi.yml
 - filename: reactome-report-api-openapi.yml
   format: yaml
   label: Reactome Report API
   slug: reactome-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-report-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-report-api-openapi.yml
 - filename: reactome-schema-api-openapi.yml
   format: yaml
   label: Reactome Schema API
   slug: reactome-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-schema-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-schema-api-openapi.yml
 - filename: reactome-search-api-openapi.yml
   format: yaml
   label: Reactome Search API
   slug: reactome-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-search-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-search-api-openapi.yml
 - filename: reactome-species-api-openapi.yml
   format: yaml
   label: Reactome Species API
   slug: reactome-species-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-species-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-species-api-openapi.yml
 - filename: reactome-token-api-openapi.yml
   format: yaml
   label: Reactome Token API
   slug: reactome-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/openapi/reactome-token-api-openapi.yml
+  url: https://artifacts.apis.io/reactome/openapi/reactome-token-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 115
@@ -205,7 +205,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/reacto
   \ 3600\n    audit: none\n- path: /token/{token}/found/entities/{pathway}\n  method: get\n  operationId: getTokenIdentifiersPathway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token/{token}/found/interactors/{pathway}\n  method: get\n  operationId: getTokenInteractorsPathway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token/{token}/notFound\n  method: get\n  operationId: getNotFoundIdentifiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token/{token}/page/{pathway}\n  method: get\n  operationId: getPageOfPathway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /token/{token}/pathways/binned\n  method: get\n  operationId: getPathwaysBinnedBySize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token/{token}/reactions/pathways\n  method: post\n  operationId: getTokenFilterPathwaysReactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /token/{token}/reactions/{pathway}\n  method: get\n  operationId: getTokenFilterPathwayReactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token/{token}/resources\n  method: get\n  operationId: getResources\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/agentic-access/reactome-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reactome/agentic-access/reactome-agentic-access.yml
 summary_line: 122 operations · 7 acting
 tags:
 - Biological Pathways

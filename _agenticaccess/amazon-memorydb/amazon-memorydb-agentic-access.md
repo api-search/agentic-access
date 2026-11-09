@@ -9,73 +9,85 @@ api_specs:
   label: Amazon MemoryDB Clusters API
   slug: amazon-memorydb-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-clusters-api-openapi.yml
 - filename: amazon-memorydb-events-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Events API
   slug: amazon-memorydb-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-events-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-events-api-openapi.yml
 - filename: amazon-memorydb-nodetypes-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB NodeTypes API
   slug: amazon-memorydb-nodetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-nodetypes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-nodetypes-api-openapi.yml
 - filename: amazon-memorydb-reservednodes-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB ReservedNodes API
   slug: amazon-memorydb-reservednodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-reservednodes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-reservednodes-api-openapi.yml
 - filename: amazon-memorydb-shards-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Shards API
   slug: amazon-memorydb-shards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-shards-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-shards-api-openapi.yml
 - filename: amazon-memorydb-snapshots-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Snapshots API
   slug: amazon-memorydb-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-snapshots-api-openapi.yml
 - filename: amazon-memorydb-tags-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Tags API
   slug: amazon-memorydb-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-tags-api-openapi.yml
 - filename: amazon-memorydb-users-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Users API
   slug: amazon-memorydb-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-users-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-users-api-openapi.yml
 - filename: amazon-memorydb-acls-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB AC Ls API
   slug: amazon-memorydb-acls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-acls-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-acls-api-openapi.yml
 - filename: amazon-memorydb-engine-versions-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Engine Versions API
   slug: amazon-memorydb-engine-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-engine-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-engine-versions-api-openapi.yml
 - filename: amazon-memorydb-parameter-groups-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Parameter Groups API
   slug: amazon-memorydb-parameter-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-parameter-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-parameter-groups-api-openapi.yml
 - filename: amazon-memorydb-subnet-groups-api-openapi.yml
   format: yaml
   label: Amazon MemoryDB Subnet Groups API
   slug: amazon-memorydb-subnet-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-subnet-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-subnet-groups-api-openapi.yml
+- filename: amazon-memorydb-multi-region-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Memorydb Multi Region Cluster API
+  slug: amazon-memorydb-multi-region-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-multi-region-cluster-api-openapi.yml
+- filename: amazon-memorydb-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MemoryDB Memorydb Operations API
+  slug: amazon-memorydb-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-memorydb/openapi/amazon-memorydb-operations-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -118,9 +130,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \    audit: none\n- path: /subnetgroups\n  method: post\n  operationId: CreateSubnetGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subnetgroups\n  method: put\n  operationId: UpdateSubnetGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /tags\n  method: get\n  operationId: ListTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: delete\n  operationId: DeleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: DescribeUsers\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: CreateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: put\n  operationId: UpdateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/agentic-access/amazon-memorydb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-memorydb/agentic-access/amazon-memorydb-agentic-access.yml
 summary_line: 34 operations · 22 acting
 tags:
+- Amazon Web Services
 - Database
 - Redis
 - In-Memory

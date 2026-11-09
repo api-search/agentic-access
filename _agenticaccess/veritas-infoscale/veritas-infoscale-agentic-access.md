@@ -9,61 +9,61 @@ api_specs:
   label: Veritas InfoScale Alerts API
   slug: veritas-infoscale-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-alerts-api-openapi.yml
 - filename: veritas-infoscale-clusters-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Clusters API
   slug: veritas-infoscale-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-clusters-api-openapi.yml
 - filename: veritas-infoscale-disk-groups-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Disk Groups API
   slug: veritas-infoscale-disk-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-disk-groups-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-disk-groups-api-openapi.yml
 - filename: veritas-infoscale-disks-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Disks API
   slug: veritas-infoscale-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-disks-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-disks-api-openapi.yml
 - filename: veritas-infoscale-fencing-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Fencing API
   slug: veritas-infoscale-fencing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-fencing-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-fencing-api-openapi.yml
 - filename: veritas-infoscale-jobs-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Jobs API
   slug: veritas-infoscale-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-jobs-api-openapi.yml
 - filename: veritas-infoscale-resources-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Resources API
   slug: veritas-infoscale-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-resources-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-resources-api-openapi.yml
 - filename: veritas-infoscale-service-groups-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Service Groups API
   slug: veritas-infoscale-service-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-service-groups-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-service-groups-api-openapi.yml
 - filename: veritas-infoscale-systems-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Systems API
   slug: veritas-infoscale-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-systems-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-systems-api-openapi.yml
 - filename: veritas-infoscale-volumes-api-openapi.yml
   format: yaml
   label: Veritas InfoScale Volumes API
   slug: veritas-infoscale-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-infoscale/openapi/veritas-infoscale-volumes-api-openapi.yml
 consequence_counts:
   read: 18
   write: 14
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/verita
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /diskgroups/{diskGroupName}/volumes/{volumeName}/snapshot\n  method: post\n  operationId: createVolumeSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /disks\n  method: get\n  operationId: listDisks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disks/{diskName}\n  method: get\n  operationId: getDisk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /alerts\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts/{alertId}\n  method: get\n  operationId: getAlert\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts/{alertId}/acknowledge\n  method: post\n  operationId: acknowledgeAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{jobId}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/agentic-access/veritas-infoscale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/veritas-infoscale/agentic-access/veritas-infoscale-agentic-access.yml
 summary_line: 32 operations · 14 acting
 tags:
 - Clustering

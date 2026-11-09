@@ -9,31 +9,31 @@ api_specs:
   label: CloudHealth AWS Accounts API
   slug: cloudhealth-aws-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-aws-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-aws-accounts-api-openapi.yml
 - filename: cloudhealth-perspectives-api-openapi.yml
   format: yaml
   label: CloudHealth Perspectives API
   slug: cloudhealth-perspectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-perspectives-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-perspectives-api-openapi.yml
 - filename: cloudhealth-reports-api-openapi.yml
   format: yaml
   label: CloudHealth Reports API
   slug: cloudhealth-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-reports-api-openapi.yml
 - filename: cloudhealth-search-api-openapi.yml
   format: yaml
   label: CloudHealth Search API
   slug: cloudhealth-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-search-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-search-api-openapi.yml
 - filename: cloudhealth-sso-api-openapi.yml
   format: yaml
   label: CloudHealth SSO API
   slug: cloudhealth-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-sso-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-sso-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloudh
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/aws_accounts/{id}\n  method: get\n  operationId: getAwsAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/aws_accounts/{id}\n  method: put\n  operationId: updateAwsAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/aws_accounts/{id}\n  method: delete\n  operationId: deleteAwsAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/perspective_schemas\n  method: get\n  operationId: listPerspectives\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/perspective_schemas\n  method: post\n  operationId: createPerspective\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /olap_reports/cost/history\n  method: get\n  operationId: costHistoryReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search\n  method: get\n  operationId: searchAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sso/configuration\n  method: get\n  operationId: getSsoConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/agentic-access/cloudhealth-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudhealth/agentic-access/cloudhealth-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Cloud Cost

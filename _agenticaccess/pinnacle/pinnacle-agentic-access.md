@@ -8,67 +8,67 @@ api_specs:
   label: Pinnacle Lines API
   slug: pinnacle-lines-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-asyncapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-asyncapi.yml
 - filename: pinnacle-cancellationreasons-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Cancellationreasons API'
   slug: pinnacle-cancellationreasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-cancellationreasons-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-cancellationreasons-api-openapi.yml
 - filename: pinnacle-currencies-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Currencies API'
   slug: pinnacle-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-currencies-api-openapi.yml
 - filename: pinnacle-fixtures-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Fixtures API'
   slug: pinnacle-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-fixtures-api-openapi.yml
 - filename: pinnacle-inrunning-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Inrunning API'
   slug: pinnacle-inrunning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-inrunning-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-inrunning-api-openapi.yml
 - filename: pinnacle-leagues-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Leagues API'
   slug: pinnacle-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-leagues-api-openapi.yml
 - filename: pinnacle-line-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Line API'
   slug: pinnacle-line-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-line-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-line-api-openapi.yml
 - filename: pinnacle-odds-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Odds API'
   slug: pinnacle-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-odds-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-odds-api-openapi.yml
 - filename: pinnacle-periods-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Periods API'
   slug: pinnacle-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-periods-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-periods-api-openapi.yml
 - filename: pinnacle-sports-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Sports API'
   slug: pinnacle-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-sports-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-sports-api-openapi.yml
 - filename: pinnacle-teaser-api-openapi.yml
   format: yaml
   label: ' Pinnacle Sports Betting Teaser API'
   slug: pinnacle-teaser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/openapi/pinnacle-teaser-api-openapi.yml
+  url: https://artifacts.apis.io/pinnacle/openapi/pinnacle-teaser-api-openapi.yml
 consequence_counts:
   read: 18
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pinnac
   - path: /v1/fixtures/special/settled\n  method: get\n  operationId: getSettledSpecialFixtures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/inrunning\n  method: get\n  operationId: getInRunning\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/leagues\n  method: get\n  operationId: getLeagues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/line\n  method: get\n  operationId: getStraightLine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/line/parlay\n  method: post\n  operationId: getParlayLine\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/line/teaser\n  method: post\n  operationId: getTeaserLine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/line/special\n  method: get\n  operationId: getSpecialLine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/odds\n  method: get\n  operationId: getStraightOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/odds/teaser\n  method: get\n  operationId: getTeaserOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/odds/special\n  method: get\n  operationId: getSpecialOdds\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/periods\n  method: get\n  operationId: getPeriods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sports\n  method: get\n  operationId: getSports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teaser/groups\n  method: get\n  operationId: getTeaserGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/agentic-access/pinnacle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pinnacle/agentic-access/pinnacle-agentic-access.yml
 summary_line: 18 operations
 tags:
 - Gambling

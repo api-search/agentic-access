@@ -9,67 +9,67 @@ api_specs:
   label: Ryder System Documents API
   slug: ryder-system-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-documents-api-openapi.yml
 - filename: ryder-system-fleet-api-openapi.yml
   format: yaml
   label: Ryder System Fleet API
   slug: ryder-system-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-fleet-api-openapi.yml
 - filename: ryder-system-invoices-api-openapi.yml
   format: yaml
   label: Ryder System Invoices API
   slug: ryder-system-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-invoices-api-openapi.yml
 - filename: ryder-system-load-events-api-openapi.yml
   format: yaml
   label: Ryder System Load Events API
   slug: ryder-system-load-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-load-events-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-load-events-api-openapi.yml
 - filename: ryder-system-loads-api-openapi.yml
   format: yaml
   label: Ryder System Loads API
   slug: ryder-system-loads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-loads-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-loads-api-openapi.yml
 - filename: ryder-system-locations-api-openapi.yml
   format: yaml
   label: Ryder System Locations API
   slug: ryder-system-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-locations-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-locations-api-openapi.yml
 - filename: ryder-system-service-history-api-openapi.yml
   format: yaml
   label: Ryder System Service History API
   slug: ryder-system-service-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-service-history-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-service-history-api-openapi.yml
 - filename: ryder-system-ship-confirmation-api-openapi.yml
   format: yaml
   label: Ryder System Ship Confirmation API
   slug: ryder-system-ship-confirmation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-ship-confirmation-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-ship-confirmation-api-openapi.yml
 - filename: ryder-system-ship-status-api-openapi.yml
   format: yaml
   label: Ryder System Ship Status API
   slug: ryder-system-ship-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-ship-status-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-ship-status-api-openapi.yml
 - filename: ryder-system-shipments-api-openapi.yml
   format: yaml
   label: Ryder System Shipments API
   slug: ryder-system-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-shipments-api-openapi.yml
 - filename: ryder-system-tracking-api-openapi.yml
   format: yaml
   label: Ryder System Tracking API
   slug: ryder-system-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-system-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/ryder-system/openapi/ryder-system-tracking-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 12
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ryder-
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments\n  method: post\n  operationId: createShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments/{shipmentId}\n  method: get\n  operationId: getShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/{shipmentId}\n  method: put\n  operationId: updateShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loads\n  method: get\n  operationId: listLoads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loads/{loadId}\n  method: get\n  operationId: getLoad\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ship-confirmations\n  method: post\n  operationId: confirmShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ship-status/{shipmentId}\n  method: get\n\
   \  operationId: getShipmentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/agentic-access/ryder-system-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ryder-system/agentic-access/ryder-system-agentic-access.yml
 summary_line: 20 operations · 8 acting
 tags:
 - Fleet Management

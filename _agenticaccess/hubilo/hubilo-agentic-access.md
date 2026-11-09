@@ -9,43 +9,43 @@ api_specs:
   label: hubilo Event API
   slug: hubilo-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-event-api-openapi.yml
+  url: https://artifacts.apis.io/hubilo/openapi/hubilo-event-api-openapi.yml
 - filename: hubilo-exhibitor-api-openapi.yml
   format: yaml
   label: hubilo Exhibitor API
   slug: hubilo-exhibitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-exhibitor-api-openapi.yml
+  url: https://artifacts.apis.io/hubilo/openapi/hubilo-exhibitor-api-openapi.yml
 - filename: hubilo-organiser-api-openapi.yml
   format: yaml
   label: hubilo Organiser API
   slug: hubilo-organiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-organiser-api-openapi.yml
+  url: https://artifacts.apis.io/hubilo/openapi/hubilo-organiser-api-openapi.yml
 - filename: hubilo-session-api-openapi.yml
   format: yaml
   label: hubilo Session API
   slug: hubilo-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-session-api-openapi.yml
+  url: https://artifacts.apis.io/hubilo/openapi/hubilo-session-api-openapi.yml
 - filename: hubilo-speaker-api-openapi.yml
   format: yaml
   label: hubilo Speaker API
   slug: hubilo-speaker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-speaker-api-openapi.yml
+  url: https://artifacts.apis.io/hubilo/openapi/hubilo-speaker-api-openapi.yml
 - filename: hubilo-upload-media-api-openapi.yml
   format: yaml
   label: hubilo Upload Media API
   slug: hubilo-upload-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-upload-media-api-openapi.yml
+  url: https://artifacts.apis.io/hubilo/openapi/hubilo-upload-media-api-openapi.yml
 - filename: hubilo-user-api-openapi.yml
   format: yaml
   label: hubilo User API
   slug: hubilo-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/openapi/hubilo-user-api-openapi.yml
+  url: https://artifacts.apis.io/hubilo/openapi/hubilo-user-api-openapi.yml
 consequence_counts:
   read: 16
   write: 14
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hubilo
   \  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{apiVersion}/integration/user/delete\n  method: post\n  operationId: deregisterUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{apiVersion}/integration/user/membergroup/list\n  method: get\n  operationId: listMemberGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{apiVersion}/integration/user/membergroup/create\n \
   \ method: post\n  operationId: addMemberGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{apiVersion}/integration/user/customfieldstructure\n  method: get\n  operationId: customFieldsOfUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{apiVersion}/integration/user/matchmaking/list\n  method: get\n  operationId: listOfMatchmakingFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{apiVersion}/integration/user/deleted/list\n  method: get\n  operationId: listDeletedUsers\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/agentic-access/hubilo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hubilo/agentic-access/hubilo-agentic-access.yml
 summary_line: 30 operations · 14 acting
 tags:
 - Company

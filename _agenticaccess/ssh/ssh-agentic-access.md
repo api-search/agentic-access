@@ -9,31 +9,31 @@ api_specs:
   label: SSH Authorized Keys API
   slug: ssh-authorized-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-authorized-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-authorized-keys-api-openapi.yml
 - filename: ssh-certificates-api-openapi.yml
   format: yaml
   label: SSH Certificates API
   slug: ssh-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-certificates-api-openapi.yml
 - filename: ssh-host-keys-api-openapi.yml
   format: yaml
   label: SSH Host Keys API
   slug: ssh-host-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-host-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-host-keys-api-openapi.yml
 - filename: ssh-keys-api-openapi.yml
   format: yaml
   label: SSH Keys API
   slug: ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-keys-api-openapi.yml
 - filename: ssh-known-hosts-api-openapi.yml
   format: yaml
   label: SSH Known Hosts API
   slug: ssh-known-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/openapi/ssh-known-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/ssh/openapi/ssh-known-hosts-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ssh-ke
   \  operationId: signCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /certificates\n  method: get\n  operationId: listCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authorized-keys/{username}\n  method: get\n  operationId: getAuthorizedKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authorized-keys/{username}\n  method: post\n  operationId: addAuthorizedKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorized-keys/{username}/{keyId}\n  method: delete\n  operationId: removeAuthorizedKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /known-hosts\n  method: get\n  operationId: listKnownHosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /known-hosts\n  method: post\n  operationId: addKnownHost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /host-keys/{hostname}\n  method: get\n  operationId: getHostKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/agentic-access/ssh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ssh/agentic-access/ssh-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - SSH

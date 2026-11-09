@@ -9,37 +9,37 @@ api_specs:
   label: micro1 Interview API
   slug: micro1-interview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-interview-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-interview-api-openapi.yml
 - filename: micro1-interview-reports-api-openapi.yml
   format: yaml
   label: micro1 Interview Reports API
   slug: micro1-interview-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-interview-reports-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-interview-reports-api-openapi.yml
 - filename: micro1-invite-candidate-api-openapi.yml
   format: yaml
   label: micro1 Invite Candidate API
   slug: micro1-invite-candidate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-invite-candidate-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-invite-candidate-api-openapi.yml
 - filename: micro1-job-api-openapi.yml
   format: yaml
   label: micro1 Job API
   slug: micro1-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-job-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-job-api-openapi.yml
 - filename: micro1-job-applicant-api-openapi.yml
   format: yaml
   label: micro1 Job Applicant API
   slug: micro1-job-applicant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-job-applicant-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-job-applicant-api-openapi.yml
 - filename: micro1-webhook-api-openapi.yml
   format: yaml
   label: micro1 Webhook API
   slug: micro1-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/openapi/micro1-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/micro1/openapi/micro1-webhook-api-openapi.yml
 consequence_counts:
   read: 8
   write: 10
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-31'\nmethod: generated\nsource: openapi/micro1
   \ /job/{jobId}/applicant\n  method: post\n  operationId: jobsApplicant-c1ce8fbf-390b-412b-9895-d422b21e823e\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /job/{jobId}/applicants\n  method: get\n  operationId: jobsApplicant-8934b0b6-90a5-42a4-a5e6-c37d3833718e\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job/applicant/{jobApplicantId}\n  method: get\n  operationId: jobsApplicant-e3619770-a47f-4349-838d-a612736b5621\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: post\n  operationId: webhookSetup\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: webhookSetup-51ac71f1-e1da-425d-afa2-d527e716b7e6\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/{webhookId}\n  method: put\n  operationId: webhookSetup-c050afb6-e424-4a49-81a7-839386c17724\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{webhookId}\n  method: delete\n  operationId: webhookSetup-223f3d34-faeb-4c70-91df-a08a2baa2141\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/agentic-access/micro1-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/micro1/agentic-access/micro1-agentic-access.yml
 summary_line: 18 operations · 10 acting
 tags:
 - Company

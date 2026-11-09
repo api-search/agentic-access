@@ -9,121 +9,121 @@ api_specs:
   label: Broadcom Alerts API
   slug: broadcom-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-alerts-api-openapi.yml
 - filename: broadcom-api-tokens-api-openapi.yml
   format: yaml
   label: Broadcom API Tokens API
   slug: broadcom-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-api-tokens-api-openapi.yml
 - filename: broadcom-authentication-api-openapi.yml
   format: yaml
   label: Broadcom Authentication API
   slug: broadcom-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-authentication-api-openapi.yml
 - filename: broadcom-clusters-api-openapi.yml
   format: yaml
   label: Broadcom Clusters API
   slug: broadcom-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-clusters-api-openapi.yml
 - filename: broadcom-content-library-api-openapi.yml
   format: yaml
   label: Broadcom Content Library API
   slug: broadcom-content-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-content-library-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-content-library-api-openapi.yml
 - filename: broadcom-dashboards-api-openapi.yml
   format: yaml
   label: Broadcom Dashboards API
   slug: broadcom-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-dashboards-api-openapi.yml
 - filename: broadcom-datastores-api-openapi.yml
   format: yaml
   label: Broadcom Datastores API
   slug: broadcom-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-datastores-api-openapi.yml
 - filename: broadcom-events-api-openapi.yml
   format: yaml
   label: Broadcom Events API
   slug: broadcom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-events-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-events-api-openapi.yml
 - filename: broadcom-hosts-api-openapi.yml
   format: yaml
   label: Broadcom Hosts API
   slug: broadcom-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-hosts-api-openapi.yml
 - filename: broadcom-network-pools-api-openapi.yml
   format: yaml
   label: Broadcom Network Pools API
   slug: broadcom-network-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-network-pools-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-network-pools-api-openapi.yml
 - filename: broadcom-networks-api-openapi.yml
   format: yaml
   label: Broadcom Networks API
   slug: broadcom-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-networks-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-networks-api-openapi.yml
 - filename: broadcom-proxies-api-openapi.yml
   format: yaml
   label: Broadcom Proxies API
   slug: broadcom-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-proxies-api-openapi.yml
 - filename: broadcom-query-api-openapi.yml
   format: yaml
   label: Broadcom Query API
   slug: broadcom-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-query-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-query-api-openapi.yml
 - filename: broadcom-session-api-openapi.yml
   format: yaml
   label: Broadcom Session API
   slug: broadcom-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-session-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-session-api-openapi.yml
 - filename: broadcom-sources-api-openapi.yml
   format: yaml
   label: Broadcom Sources API
   slug: broadcom-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-sources-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-sources-api-openapi.yml
 - filename: broadcom-tagging-api-openapi.yml
   format: yaml
   label: Broadcom Tagging API
   slug: broadcom-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-tagging-api-openapi.yml
 - filename: broadcom-tasks-api-openapi.yml
   format: yaml
   label: Broadcom Tasks API
   slug: broadcom-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-tasks-api-openapi.yml
 - filename: broadcom-upgrades-api-openapi.yml
   format: yaml
   label: Broadcom Upgrades API
   slug: broadcom-upgrades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-upgrades-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-upgrades-api-openapi.yml
 - filename: broadcom-virtual-machines-api-openapi.yml
   format: yaml
   label: Broadcom Virtual Machines API
   slug: broadcom-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-virtual-machines-api-openapi.yml
 - filename: broadcom-workload-domains-api-openapi.yml
   format: yaml
   label: Broadcom Workload Domains API
   slug: broadcom-workload-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/openapi/broadcom-workload-domains-api-openapi.yml
+  url: https://artifacts.apis.io/broadcom/openapi/broadcom-workload-domains-api-openapi.yml
 consequence_counts:
   read: 29
   safety-critical: 1
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/broadc
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /vcenter/host\n  method: get\n  operationId: listHosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vcenter/cluster\n  method: get\n  operationId: listClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vcenter/datastore\n  method: get\n  operationId: listDatastores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vcenter/network\n  method: get\n  operationId: listNetworks\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cis/session\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cis/session\n  method: delete\n  operationId: deleteSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /content/library\n  method: get\n  operationId: listContentLibraries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vcenter/tag/association\n  method: post\n  operationId: attachTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/agentic-access/broadcom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/broadcom/agentic-access/broadcom-agentic-access.yml
 summary_line: 51 operations · 22 acting · 1 human-in-the-loop
 tags:
 - Cloud Infrastructure

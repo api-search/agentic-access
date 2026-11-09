@@ -9,31 +9,31 @@ api_specs:
   label: Theneo Import API
   slug: theneo-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-import-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-import-api-openapi.yml
 - filename: theneo-projects-api-openapi.yml
   format: yaml
   label: Theneo Projects API
   slug: theneo-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-projects-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-projects-api-openapi.yml
 - filename: theneo-publishing-api-openapi.yml
   format: yaml
   label: Theneo Publishing API
   slug: theneo-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-publishing-api-openapi.yml
 - filename: theneo-users-api-openapi.yml
   format: yaml
   label: Theneo Users API
   slug: theneo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-users-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-users-api-openapi.yml
 - filename: theneo-workspaces-api-openapi.yml
   format: yaml
   label: Theneo Workspaces API
   slug: theneo-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/theneo/openapi/theneo-workspaces-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/theneo
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}\n  method: get\n  operationId: getProjectById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/users\n  method: get\n  operationId: getAccessibleUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/share\n  method: post\n  operationId: shareProject\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/users/{userId}\n  method: patch\n  operationId: changeUserAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/import\n  method: post\n  operationId: importApiSpecification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/publish\n\
   \  method: post\n  operationId: publishProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/preview\n  method: get\n  operationId: getPreviewProjectLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/agentic-access/theneo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/theneo/agentic-access/theneo-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - API Documentation

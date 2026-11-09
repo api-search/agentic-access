@@ -9,55 +9,55 @@ api_specs:
   label: PrintNode Account API
   slug: printnode-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-account-api-openapi.yml
+  url: https://artifacts.apis.io/printnode/openapi/printnode-account-api-openapi.yml
 - filename: printnode-api-keys-api-openapi.yml
   format: yaml
   label: PrintNode API Keys API
   slug: printnode-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/printnode/openapi/printnode-api-keys-api-openapi.yml
 - filename: printnode-clients-api-openapi.yml
   format: yaml
   label: PrintNode Clients API
   slug: printnode-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-clients-api-openapi.yml
+  url: https://artifacts.apis.io/printnode/openapi/printnode-clients-api-openapi.yml
 - filename: printnode-computers-api-openapi.yml
   format: yaml
   label: PrintNode Computers API
   slug: printnode-computers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-computers-api-openapi.yml
+  url: https://artifacts.apis.io/printnode/openapi/printnode-computers-api-openapi.yml
 - filename: printnode-printers-api-openapi.yml
   format: yaml
   label: PrintNode Printers API
   slug: printnode-printers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-printers-api-openapi.yml
+  url: https://artifacts.apis.io/printnode/openapi/printnode-printers-api-openapi.yml
 - filename: printnode-scales-api-openapi.yml
   format: yaml
   label: PrintNode Scales API
   slug: printnode-scales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-scales-api-openapi.yml
+  url: https://artifacts.apis.io/printnode/openapi/printnode-scales-api-openapi.yml
 - filename: printnode-utility-api-openapi.yml
   format: yaml
   label: PrintNode Utility API
   slug: printnode-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-utility-api-openapi.yml
+  url: https://artifacts.apis.io/printnode/openapi/printnode-utility-api-openapi.yml
 - filename: printnode-webhooks-api-openapi.yml
   format: yaml
   label: PrintNode Webhooks API
   slug: printnode-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/printnode/openapi/printnode-webhooks-api-openapi.yml
 - filename: printnode-print-jobs-api-openapi.yml
   format: yaml
   label: PrintNode Print Jobs API
   slug: printnode-print-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/openapi/printnode-print-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/printnode/openapi/printnode-print-jobs-api-openapi.yml
 consequence_counts:
   read: 20
   safety-critical: 2
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/printn
   \  method: get\n  operationId: getPrintJobSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /printjobs/states\n  method: get\n  operationId: getPrintJobStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /printers/{printerSet}/printjobs\n  method: get\n  operationId: getPrintJobsByPrinter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /computer/{computerId}/scales\n  method: get\n  operationId: getScales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /computer/{computerId}/scales/{deviceName}\n  method: get\n  operationId: getScalesByDeviceName\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /computer/{computerId}/scale/{deviceName}/{deviceNumber}\n  method: get\n  operationId: getScale\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook\n  method: patch\n  operationId: modifyWebhook\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /download/clients\n  method: get\n  operationId: getClientDownloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/agentic-access/printnode-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/printnode/agentic-access/printnode-agentic-access.yml
 summary_line: 31 operations · 11 acting · 2 human-in-the-loop
 tags:
 - Printing

@@ -4,72 +4,12 @@ action_class_counts:
   acting: 17
   connected: 18
 api_specs:
-- filename: monerium-addresses-api-openapi.yml
+- filename: monerium-openapi.yml
   format: yaml
-  label: Monerium Addresses API
-  slug: monerium-addresses-api
+  label: Monerium API
+  slug: monerium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-addresses-api-openapi.yml
-- filename: monerium-auth-api-openapi.yml
-  format: yaml
-  label: Monerium Auth API
-  slug: monerium-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-auth-api-openapi.yml
-- filename: monerium-files-api-openapi.yml
-  format: yaml
-  label: Monerium Files API
-  slug: monerium-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-files-api-openapi.yml
-- filename: monerium-ibans-api-openapi.yml
-  format: yaml
-  label: Monerium Ibans API
-  slug: monerium-ibans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-ibans-api-openapi.yml
-- filename: monerium-orders-api-openapi.yml
-  format: yaml
-  label: Monerium Orders API
-  slug: monerium-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-orders-api-openapi.yml
-- filename: monerium-profiles-api-openapi.yml
-  format: yaml
-  label: Monerium Profiles API
-  slug: monerium-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-profiles-api-openapi.yml
-- filename: monerium-signatures-api-openapi.yml
-  format: yaml
-  label: Monerium Signatures API
-  slug: monerium-signatures-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-signatures-api-openapi.yml
-- filename: monerium-start-api-openapi.yml
-  format: yaml
-  label: Monerium Start API
-  slug: monerium-start-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-start-api-openapi.yml
-- filename: monerium-swap-api-openapi.yml
-  format: yaml
-  label: Monerium Swap API
-  slug: monerium-swap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-swap-api-openapi.yml
-- filename: monerium-tokens-api-openapi.yml
-  format: yaml
-  label: Monerium Tokens API
-  slug: monerium-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-tokens-api-openapi.yml
-- filename: monerium-webhooks-api-openapi.yml
-  format: yaml
-  label: Monerium Webhooks API
-  slug: monerium-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/openapi/monerium-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/monerium/openapi/monerium-openapi.yml
 consequence_counts:
   physical: 2
   read: 18
@@ -117,12 +57,12 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/moneri
   \ required\n- path: /orders\n  method: get\n  operationId: orders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: get\n  operationId: order\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/payments\n  method: get\n  operationId: order-payments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/payments\n  method: post\n  operationId: post-order-payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files\n  method: post\n  operationId: upload-file\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens\n  method: get\n  operationId: tokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swap/{chain}/{sellToken}/{buyToken}\n  method: get\n  operationId: create-swap-quote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swap/accept\n  method: post\n  operationId: accept-swap-quote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /signatures\n  method: get\n  operationId: get-signatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monerium/refs/heads/main/agentic-access/monerium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/monerium/agentic-access/monerium-agentic-access.yml
 summary_line: 35 operations · 17 acting
 tags:
+- Fintech
 - Payments
-- Crypto
-- FinTech
-- DigitalCurrency
-- API
+- Blockchain
+- Digital Currency
+- RegulatedMoney
 ---

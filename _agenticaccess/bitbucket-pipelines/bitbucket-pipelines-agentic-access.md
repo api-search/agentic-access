@@ -9,139 +9,139 @@ api_specs:
   label: Bitbucket Pipelines Addon API
   slug: bitbucket-pipelines-addon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-addon-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-addon-api-openapi.yml
 - filename: bitbucket-pipelines-branch-restrictions-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Branch restrictions API
   slug: bitbucket-pipelines-branch-restrictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-branch-restrictions-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-branch-restrictions-api-openapi.yml
 - filename: bitbucket-pipelines-branching-model-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Branching model API
   slug: bitbucket-pipelines-branching-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-branching-model-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-branching-model-api-openapi.yml
 - filename: bitbucket-pipelines-commit-statuses-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Commit statuses API
   slug: bitbucket-pipelines-commit-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-commit-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-commit-statuses-api-openapi.yml
 - filename: bitbucket-pipelines-commits-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Commits API
   slug: bitbucket-pipelines-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-commits-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-commits-api-openapi.yml
 - filename: bitbucket-pipelines-deployments-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Deployments API
   slug: bitbucket-pipelines-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-deployments-api-openapi.yml
 - filename: bitbucket-pipelines-downloads-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Downloads API
   slug: bitbucket-pipelines-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-downloads-api-openapi.yml
 - filename: bitbucket-pipelines-gpg-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines GPG API
   slug: bitbucket-pipelines-gpg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-gpg-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-gpg-api-openapi.yml
 - filename: bitbucket-pipelines-issue-tracker-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Issue tracker API
   slug: bitbucket-pipelines-issue-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-issue-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-issue-tracker-api-openapi.yml
 - filename: bitbucket-pipelines-pipelines-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines API
   slug: bitbucket-pipelines-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-pipelines-api-openapi.yml
 - filename: bitbucket-pipelines-projects-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Projects API
   slug: bitbucket-pipelines-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-projects-api-openapi.yml
 - filename: bitbucket-pipelines-properties-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Properties API
   slug: bitbucket-pipelines-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-properties-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-properties-api-openapi.yml
 - filename: bitbucket-pipelines-refs-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Refs API
   slug: bitbucket-pipelines-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-refs-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-refs-api-openapi.yml
 - filename: bitbucket-pipelines-reports-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Reports API
   slug: bitbucket-pipelines-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-reports-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-reports-api-openapi.yml
 - filename: bitbucket-pipelines-repositories-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Repositories API
   slug: bitbucket-pipelines-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-repositories-api-openapi.yml
 - filename: bitbucket-pipelines-search-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Search API
   slug: bitbucket-pipelines-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-search-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-search-api-openapi.yml
 - filename: bitbucket-pipelines-snippets-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Snippets API
   slug: bitbucket-pipelines-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-snippets-api-openapi.yml
 - filename: bitbucket-pipelines-source-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Source API
   slug: bitbucket-pipelines-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-source-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-source-api-openapi.yml
 - filename: bitbucket-pipelines-ssh-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines SSH API
   slug: bitbucket-pipelines-ssh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-ssh-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-ssh-api-openapi.yml
 - filename: bitbucket-pipelines-users-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Users API
   slug: bitbucket-pipelines-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-users-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-users-api-openapi.yml
 - filename: bitbucket-pipelines-webhooks-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Webhooks API
   slug: bitbucket-pipelines-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-webhooks-api-openapi.yml
 - filename: bitbucket-pipelines-workspaces-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Workspaces API
   slug: bitbucket-pipelines-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-workspaces-api-openapi.yml
 - filename: bitbucket-pipelines-pull-requests-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Pull Requests API
   slug: bitbucket-pipelines-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket-pipelines/openapi/bitbucket-pipelines-pull-requests-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 197
@@ -280,8 +280,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bitbuc
   \ audit: none\n- path: /users/{selected_user}/gpg-keys\n  method: post\n  operationId: postUsersBySelectedUserGpgKeys\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - account:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{selected_user}/gpg-keys/{fingerprint}\n  method: delete\n  operationId: deleteUsersBySelectedUserGpgKeysByFingerprint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - account:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{selected_user}/gpg-keys/{fingerprint}\n  method: get\n  operationId: getUsersBySelectedUserGpgKeysByFingerprint\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - account\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{workspace}/{repo_slug}/components\n  method: get\n  operationId: getRepositoriesByWorkspaceByRepoSlugComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - issue\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{workspace}/{repo_slug}/components/{component_id}\n  method: get\n  operationId: getRepositoriesByWorkspaceByRepoSlugComponentsByComponentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - issue\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{workspace}/{repo_slug}/issues\n  method: get\n  operationId: getRepositoriesByWorkspaceByRepoSlugIssues\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    scope:\n    - issue\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{workspace}/{repo_slug}/issues\n  method: post\n  operationId: postRepositoriesByWorkspaceByRepoSlugIssues\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - issue:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{workspace}/{repo_slug}/issues/export\n  method: post\n  operationId: postRepositoriesByWorkspaceByRepoSlugIssuesExport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - issue\n    - repository:admin\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /repositories/{workspace}/{repo_slug}/issues/export/{repo_name}-issues-{task_id}.zip\n  method: get\n  operationId: getRepositoriesByWorkspaceByRepoSlugIssuesExport{repoName}Issues{taskId}Zip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - issue\n    - repository:admin\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{workspace}/{repo_slug}/issues/import\n  method: get\n  operationId: getRepositoriesByWorkspaceByRepoSlugIssuesImport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - issue:write\n    - repository:admin\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (132 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/agentic-access/bitbucket-pipelines-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/agentic-access/bitbucket-pipelines-agentic-access.yml
+  \ required\n- path: /repositories/{workspace}/{repo_slug}/issues/export/{repo_name}-issues-{task_id}.zip\n  method: get\n  operationId: getRepositoriesByWorkspaceByRepoSlugIssuesExport{repoName}Issues{taskId}Zip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - issue\n    - repository:admin\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{workspace}/{repo_slug}/issues/import\n  method: get\n  operationId: getRepositoriesByWorkspaceByRepoSlugIssuesImport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - issue:write\n    - repository:admin\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (132 KB total) ---\n# Full source: https://artifacts.apis.io/bitbucket-pipelines/agentic-access/bitbucket-pipelines-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bitbucket-pipelines/agentic-access/bitbucket-pipelines-agentic-access.yml
 summary_line: 363 operations · 166 acting · 4 human-in-the-loop
 tags:
 - DevOps

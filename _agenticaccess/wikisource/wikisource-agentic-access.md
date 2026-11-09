@@ -9,43 +9,43 @@ api_specs:
   label: Wikisource Citation API
   slug: wikisource-citation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-citation-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-citation-api-openapi.yml
 - filename: wikisource-math-api-openapi.yml
   format: yaml
   label: Wikisource Math API
   slug: wikisource-math-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-math-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-math-api-openapi.yml
 - filename: wikisource-mobile-api-openapi.yml
   format: yaml
   label: Wikisource Mobile API
   slug: wikisource-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-mobile-api-openapi.yml
 - filename: wikisource-page-content-api-openapi.yml
   format: yaml
   label: Wikisource Page content API
   slug: wikisource-page-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-page-content-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-page-content-api-openapi.yml
 - filename: wikisource-reading-lists-api-openapi.yml
   format: yaml
   label: Wikisource Reading lists API
   slug: wikisource-reading-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-reading-lists-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-reading-lists-api-openapi.yml
 - filename: wikisource-recommendation-api-openapi.yml
   format: yaml
   label: Wikisource Recommendation API
   slug: wikisource-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-recommendation-api-openapi.yml
 - filename: wikisource-transforms-api-openapi.yml
   format: yaml
   label: Wikisource Transforms API
   slug: wikisource-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/openapi/wikisource-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/wikisource/openapi/wikisource-transforms-api-openapi.yml
 consequence_counts:
   read: 21
   write: 19
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wikime
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/lists/{id}/entries/batch\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/lists/pages/{project}/{title}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/lists/changes/since/{date}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/recommendation/article/creation/translation/{from_lang}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/recommendation/article/creation/translation/{from_lang}/{seed_article}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/recommendation/article/creation/morelike/{seed_article}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/css/mobile/{type}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/javascript/mobile/{type}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/i18n/{type}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/agentic-access/wikisource-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wikisource/agentic-access/wikisource-agentic-access.yml
 summary_line: 40 operations · 19 acting
 tags:
 - Open Data

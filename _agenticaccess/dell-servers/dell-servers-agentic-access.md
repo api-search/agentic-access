@@ -9,115 +9,115 @@ api_specs:
   label: Dell Servers Accounts API
   slug: dell-servers-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-accounts-api-openapi.yml
 - filename: dell-servers-alerts-api-openapi.yml
   format: yaml
   label: Dell Servers Alerts API
   slug: dell-servers-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-alerts-api-openapi.yml
 - filename: dell-servers-application-settings-api-openapi.yml
   format: yaml
   label: Dell Servers Application Settings API
   slug: dell-servers-application-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-application-settings-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-application-settings-api-openapi.yml
 - filename: dell-servers-chassis-api-openapi.yml
   format: yaml
   label: Dell Servers Chassis API
   slug: dell-servers-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-chassis-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-chassis-api-openapi.yml
 - filename: dell-servers-configuration-api-openapi.yml
   format: yaml
   label: Dell Servers Configuration API
   slug: dell-servers-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-configuration-api-openapi.yml
 - filename: dell-servers-devices-api-openapi.yml
   format: yaml
   label: Dell Servers Devices API
   slug: dell-servers-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-devices-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-devices-api-openapi.yml
 - filename: dell-servers-discovery-api-openapi.yml
   format: yaml
   label: Dell Servers Discovery API
   slug: dell-servers-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-discovery-api-openapi.yml
 - filename: dell-servers-event-service-api-openapi.yml
   format: yaml
   label: Dell Servers Event Service API
   slug: dell-servers-event-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-event-service-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-event-service-api-openapi.yml
 - filename: dell-servers-firmware-api-openapi.yml
   format: yaml
   label: Dell Servers Firmware API
   slug: dell-servers-firmware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-firmware-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-firmware-api-openapi.yml
 - filename: dell-servers-groups-api-openapi.yml
   format: yaml
   label: Dell Servers Groups API
   slug: dell-servers-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-groups-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-groups-api-openapi.yml
 - filename: dell-servers-jobs-api-openapi.yml
   format: yaml
   label: Dell Servers Jobs API
   slug: dell-servers-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-jobs-api-openapi.yml
 - filename: dell-servers-managers-api-openapi.yml
   format: yaml
   label: Dell Servers Managers API
   slug: dell-servers-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-managers-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-managers-api-openapi.yml
 - filename: dell-servers-reports-api-openapi.yml
   format: yaml
   label: Dell Servers Reports API
   slug: dell-servers-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-reports-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-reports-api-openapi.yml
 - filename: dell-servers-service-root-api-openapi.yml
   format: yaml
   label: Dell Servers Service Root API
   slug: dell-servers-service-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-service-root-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-service-root-api-openapi.yml
 - filename: dell-servers-sessions-api-openapi.yml
   format: yaml
   label: Dell Servers Sessions API
   slug: dell-servers-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-sessions-api-openapi.yml
 - filename: dell-servers-systems-api-openapi.yml
   format: yaml
   label: Dell Servers Systems API
   slug: dell-servers-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-systems-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-systems-api-openapi.yml
 - filename: dell-servers-task-service-api-openapi.yml
   format: yaml
   label: Dell Servers Task Service API
   slug: dell-servers-task-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-task-service-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-task-service-api-openapi.yml
 - filename: dell-servers-telemetry-service-api-openapi.yml
   format: yaml
   label: Dell Servers Telemetry Service API
   slug: dell-servers-telemetry-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-telemetry-service-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-telemetry-service-api-openapi.yml
 - filename: dell-servers-update-service-api-openapi.yml
   format: yaml
   label: Dell Servers Update Service API
   slug: dell-servers-update-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/openapi/dell-servers-update-service-api-openapi.yml
+  url: https://artifacts.apis.io/dell-servers/openapi/dell-servers-update-service-api-openapi.yml
 consequence_counts:
   read: 40
   safety-critical: 1
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dell-s
   \ get\n  operationId: getSystem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Systems/{SystemId}/Actions/ComputerSystem.Reset\n  method: post\n  operationId: resetSystem\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /Systems/{SystemId}/Bios\n  method: get\n  operationId: getSystemBios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Systems/{SystemId}/Bios/Settings\n  method: patch\n  operationId: updateBiosSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Systems/{SystemId}/Storage\n  method: get\n  operationId: listStorageControllers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Systems/{SystemId}/EthernetInterfaces\n  method: get\n  operationId: listEthernetInterfaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TaskService/Tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TelemetryService\n  method: get\n  operationId: getTelemetryService\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TelemetryService/MetricReports\n  method: get\n  operationId: listMetricReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /UpdateService\n  method: get\n  operationId: getUpdateService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /UpdateService/FirmwareInventory\n  method: get\n  operationId: listFirmwareInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/agentic-access/dell-servers-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dell-servers/agentic-access/dell-servers-agentic-access.yml
 summary_line: 46 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Hardware

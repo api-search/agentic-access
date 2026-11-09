@@ -9,37 +9,37 @@ api_specs:
   label: Wompi Merchants API
   slug: wompi-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-merchants-api-openapi.yml
 - filename: wompi-payment-links-api-openapi.yml
   format: yaml
   label: Wompi Payment Links API
   slug: wompi-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-payment-links-api-openapi.yml
 - filename: wompi-payment-sources-api-openapi.yml
   format: yaml
   label: Wompi Payment Sources API
   slug: wompi-payment-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-payment-sources-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-payment-sources-api-openapi.yml
 - filename: wompi-pse-api-openapi.yml
   format: yaml
   label: Wompi PSE API
   slug: wompi-pse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-pse-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-pse-api-openapi.yml
 - filename: wompi-tokenization-api-openapi.yml
   format: yaml
   label: Wompi Tokenization API
   slug: wompi-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-tokenization-api-openapi.yml
 - filename: wompi-transactions-api-openapi.yml
   format: yaml
   label: Wompi Transactions API
   slug: wompi-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-transactions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/wompi-
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - sensitive-data\n    audit: required\n- path: /tokens/nequi\n  method: post\n  operationId: tokenizeNequi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - sensitive-data\n    audit: required\n- path: /tokens/nequi/{token_id}\n  method: get\n  operationId: getNequiToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_sources\n  method: post\n  operationId: createPaymentSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - high-value\n      - recurring-mandate\n    audit: required\n- path: /transactions\n  method: post\n  operationId: createTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - high-value\n    audit: required\n- path: /transactions/{id}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{id}/void\n  method: post\n  operationId: voidTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: required\n      triggers:\n      - money-movement\n      - reversal\n    audit: required\n- path: /pse/financial_institutions\n  method: get\n  operationId: listPseFinancialInstitutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_links\n  method: post\n  operationId: createPaymentLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment_links/{id}\n  method: get\n  operationId: getPaymentLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/agentic-access/wompi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wompi/agentic-access/wompi-agentic-access.yml
 summary_line: 11 operations · 6 acting · 3 human-in-the-loop
 tags:
 - Payments

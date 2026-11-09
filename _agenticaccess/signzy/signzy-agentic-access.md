@@ -9,25 +9,25 @@ api_specs:
   label: Signzy Authentication API
   slug: signzy-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/signzy/openapi/signzy-authentication-api-openapi.yml
 - filename: signzy-banking-api-openapi.yml
   format: yaml
   label: Signzy Banking API
   slug: signzy-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-banking-api-openapi.yml
+  url: https://artifacts.apis.io/signzy/openapi/signzy-banking-api-openapi.yml
 - filename: signzy-identity-india-api-openapi.yml
   format: yaml
   label: Signzy Identity (India) API
   slug: signzy-identity-india-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-identity-india-api-openapi.yml
+  url: https://artifacts.apis.io/signzy/openapi/signzy-identity-india-api-openapi.yml
 - filename: signzy-identity-us-api-openapi.yml
   format: yaml
   label: Signzy Identity (US) API
   slug: signzy-identity-us-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/openapi/signzy-identity-us-api-openapi.yml
+  url: https://artifacts.apis.io/signzy/openapi/signzy-identity-us-api-openapi.yml
 consequence_counts:
   read: 1
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/signzy
   \  method: post\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    audit: required\n- path: /api/v3/aadhaar/verify\n  method: post\n  operationId: verifyAadhaar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 600\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - pii\n    audit: required\n    note: Processes Indian national-ID PII; requires explicit end-user consent.\n- path: /api/v3/pan/simple\n  method: post\n  operationId: verifyPan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 600\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - pii\n    audit:\
   \ required\n    note: Processes Indian tax-identity PII; requires explicit end-user consent.\n- path: /api/v3/us/document-intelligence-advance\n  method: post\n  operationId: usDocumentIntelligenceAdvance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 600\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - pii\n    audit: required\n    note: Processes US identity-document images and biometric-adjacent data.\n- path: /api/v3/underwriting/get-passbook-otp\n  method: post\n  operationId: getPassbookOtp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 600\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    note: Triggers an OTP against a real bank account;\
   \ guard against abuse.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/agentic-access/signzy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/signzy/agentic-access/signzy-agentic-access.yml
 summary_line: 6 operations · 5 acting
 tags:
 - Identity Verification

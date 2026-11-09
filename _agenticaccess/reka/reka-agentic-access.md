@@ -9,55 +9,55 @@ api_specs:
   label: Reka Clips API
   slug: reka-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-clips-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-clips-api-openapi.yml
 - filename: reka-models-api-openapi.yml
   format: yaml
   label: Reka Models API
   slug: reka-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-models-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-models-api-openapi.yml
 - filename: reka-qa-api-openapi.yml
   format: yaml
   label: Reka QA API
   slug: reka-qa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-qa-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-qa-api-openapi.yml
 - filename: reka-research-api-openapi.yml
   format: yaml
   label: Reka Research API
   slug: reka-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-research-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-research-api-openapi.yml
 - filename: reka-search-api-openapi.yml
   format: yaml
   label: Reka Search API
   slug: reka-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-search-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-search-api-openapi.yml
 - filename: reka-speech-api-openapi.yml
   format: yaml
   label: Reka Speech API
   slug: reka-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-speech-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-speech-api-openapi.yml
 - filename: reka-videogroups-api-openapi.yml
   format: yaml
   label: Reka VideoGroups API
   slug: reka-videogroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-videogroups-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-videogroups-api-openapi.yml
 - filename: reka-videos-api-openapi.yml
   format: yaml
   label: Reka Videos API
   slug: reka-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-videos-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-videos-api-openapi.yml
 - filename: reka-chat-completions-api-openapi.yml
   format: yaml
   label: Reka Chat Completions API
   slug: reka-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/openapi/reka-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/reka/openapi/reka-chat-completions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/reka-c
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chat/completions\n  method: post\n  operationId: researchChat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/search\n  method: post\n  operationId: searchVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/speech/transcribe-translate\n  method: post\n  operationId: speechTranscribeTranslate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/video-groups\n  method: get\n  operationId: listVideoGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/video-groups\n  method: post\n  operationId: createVideoGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos/upload\n  method: post\n  operationId: uploadVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos\n  method: get\n  operationId: listVideos\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/videos/{video_id}\n  method: get\n  operationId: getVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/videos/{video_id}\n  method: delete\n  operationId: deleteVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/agentic-access/reka-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reka/agentic-access/reka-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Artificial Intelligence

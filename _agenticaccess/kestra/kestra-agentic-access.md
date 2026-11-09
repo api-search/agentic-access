@@ -9,37 +9,37 @@ api_specs:
   label: Kestra Executions API
   slug: kestra-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-executions-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-executions-api-openapi.yml
 - filename: kestra-files-api-openapi.yml
   format: yaml
   label: Kestra Files API
   slug: kestra-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-files-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-files-api-openapi.yml
 - filename: kestra-flows-api-openapi.yml
   format: yaml
   label: Kestra Flows API
   slug: kestra-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-flows-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-flows-api-openapi.yml
 - filename: kestra-namespaces-api-openapi.yml
   format: yaml
   label: Kestra Namespaces API
   slug: kestra-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-namespaces-api-openapi.yml
 - filename: kestra-triggers-api-openapi.yml
   format: yaml
   label: Kestra Triggers API
   slug: kestra-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-triggers-api-openapi.yml
 - filename: kestra-kv-store-api-openapi.yml
   format: yaml
   label: Kestra KV Store API
   slug: kestra-kv-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/openapi/kestra-kv-store-api-openapi.yml
+  url: https://artifacts.apis.io/kestra/openapi/kestra-kv-store-api-openapi.yml
 consequence_counts:
   read: 12
   write: 7
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kestra
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces\n  method: get\n  operationId: listNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/{namespace}\n  method: get\n  operationId: getNamespace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/triggers\n  method: get\n  operationId: searchTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/{namespace}/kv\n  method: get\n  operationId: listKv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/namespaces/{namespace}/kv/{key}\n  method: get\n  operationId: getKv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/{namespace}/kv/{key}\n  method: put\n  operationId: setKv\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/namespaces/{namespace}/kv/{key}\n  method: delete\n  operationId: deleteKv\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/namespaces/{namespace}/files\n\
   \  method: get\n  operationId: listNamespaceFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/{namespace}/files/file\n  method: get\n  operationId: downloadNamespaceFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/namespaces/{namespace}/files/file\n  method: post\n  operationId: uploadNamespaceFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/agentic-access/kestra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kestra/agentic-access/kestra-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
 - Automation

@@ -9,37 +9,37 @@ api_specs:
   label: Packlink Clients API
   slug: packlink-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-clients-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-clients-api-openapi.yml
 - filename: packlink-customs-api-openapi.yml
   format: yaml
   label: Packlink Customs API
   slug: packlink-customs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-customs-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-customs-api-openapi.yml
 - filename: packlink-integrations-api-openapi.yml
   format: yaml
   label: Packlink Integrations API
   slug: packlink-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-integrations-api-openapi.yml
 - filename: packlink-locations-api-openapi.yml
   format: yaml
   label: Packlink Locations API
   slug: packlink-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-locations-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-locations-api-openapi.yml
 - filename: packlink-services-api-openapi.yml
   format: yaml
   label: Packlink Services API
   slug: packlink-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-services-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-services-api-openapi.yml
 - filename: packlink-shipments-api-openapi.yml
   format: yaml
   label: Packlink Shipments API
   slug: packlink-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/openapi/packlink-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/packlink/openapi/packlink-shipments-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 17
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/packli
   \ get\n  operationId: listPostalZoneDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services\n  method: post\n  operationId: searchServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services/available/{id}/details\n  method: get\n  operationId: getServiceDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipments\n  method: post\n  operationId: createShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/shipments/{reference}\n  method: get\n  operationId: getShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipments/{reference}/labels\n  method: get\n  operationId: getShipmentLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipments/{reference}/track\n  method: get\n  operationId: trackShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipments/callback\n  method: post\n\
   \  operationId: registerShipmentCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/agentic-access/packlink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/packlink/agentic-access/packlink-agentic-access.yml
 summary_line: 24 operations · 7 acting
 tags:
 - Company

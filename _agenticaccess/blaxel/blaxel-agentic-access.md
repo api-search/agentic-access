@@ -9,151 +9,151 @@ api_specs:
   label: Blaxel Agents API
   slug: blaxel-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-agents-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-agents-api-openapi.yml
 - filename: blaxel-compute-api-openapi.yml
   format: yaml
   label: Blaxel Compute API
   slug: blaxel-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-compute-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-compute-api-openapi.yml
 - filename: blaxel-functions-api-openapi.yml
   format: yaml
   label: Blaxel Functions API
   slug: blaxel-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-functions-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-functions-api-openapi.yml
 - filename: blaxel-integrations-api-openapi.yml
   format: yaml
   label: Blaxel Integrations API
   slug: blaxel-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-integrations-api-openapi.yml
 - filename: blaxel-jobs-api-openapi.yml
   format: yaml
   label: Blaxel Jobs API
   slug: blaxel-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-jobs-api-openapi.yml
 - filename: blaxel-locations-api-openapi.yml
   format: yaml
   label: Blaxel Locations API
   slug: blaxel-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-locations-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-locations-api-openapi.yml
 - filename: blaxel-models-api-openapi.yml
   format: yaml
   label: Blaxel Models API
   slug: blaxel-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-models-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-models-api-openapi.yml
 - filename: blaxel-policies-api-openapi.yml
   format: yaml
   label: Blaxel Policies API
   slug: blaxel-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-policies-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-policies-api-openapi.yml
 - filename: blaxel-service-accounts-api-openapi.yml
   format: yaml
   label: Blaxel Service Accounts API
   slug: blaxel-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-service-accounts-api-openapi.yml
 - filename: blaxel-volumes-api-openapi.yml
   format: yaml
   label: Blaxel Volumes API
   slug: blaxel-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-volumes-api-openapi.yml
 - filename: blaxel-workspaces-api-openapi.yml
   format: yaml
   label: Blaxel Workspaces API
   slug: blaxel-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-workspaces-api-openapi.yml
 - filename: blaxel-applications-api-openapi.yml
   format: yaml
   label: Blaxel Applications API
   slug: blaxel-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-applications-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-applications-api-openapi.yml
 - filename: blaxel-changelog-api-openapi.yml
   format: yaml
   label: Blaxel Changelog API
   slug: blaxel-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-changelog-api-openapi.yml
 - filename: blaxel-configurations-api-openapi.yml
   format: yaml
   label: Blaxel Configurations API
   slug: blaxel-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-configurations-api-openapi.yml
 - filename: blaxel-customdomains-api-openapi.yml
   format: yaml
   label: Blaxel Customdomains API
   slug: blaxel-customdomains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-customdomains-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-customdomains-api-openapi.yml
 - filename: blaxel-drives-api-openapi.yml
   format: yaml
   label: Blaxel Drives API
   slug: blaxel-drives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-drives-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-drives-api-openapi.yml
 - filename: blaxel-featureflags-api-openapi.yml
   format: yaml
   label: Blaxel Feature Flags API
   slug: blaxel-featureflags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-featureflags-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-featureflags-api-openapi.yml
 - filename: blaxel-images-api-openapi.yml
   format: yaml
   label: Blaxel Images API
   slug: blaxel-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-images-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-images-api-openapi.yml
 - filename: blaxel-mcphub-api-openapi.yml
   format: yaml
   label: Blaxel Mcphub API
   slug: blaxel-mcphub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-mcphub-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-mcphub-api-openapi.yml
 - filename: blaxel-publicips-list-api-openapi.yml
   format: yaml
   label: Blaxel Public Ips:list API
   slug: blaxel-publicips-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-publicips-list-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-publicips-list-api-openapi.yml
 - filename: blaxel-sandboxhub-api-openapi.yml
   format: yaml
   label: Blaxel Sandboxhub API
   slug: blaxel-sandboxhub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-sandboxhub-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-sandboxhub-api-openapi.yml
 - filename: blaxel-secrets-api-openapi.yml
   format: yaml
   label: Blaxel Secrets API
   slug: blaxel-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-secrets-api-openapi.yml
 - filename: blaxel-templates-api-openapi.yml
   format: yaml
   label: Blaxel Templates API
   slug: blaxel-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-templates-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-templates-api-openapi.yml
 - filename: blaxel-volumetemplates-api-openapi.yml
   format: yaml
   label: Blaxel Volume Templates API
   slug: blaxel-volumetemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-volumetemplates-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-volumetemplates-api-openapi.yml
 - filename: blaxel-vpcs-api-openapi.yml
   format: yaml
   label: Blaxel Vpcs API
   slug: blaxel-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/blaxel/openapi/blaxel-vpcs-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 31
@@ -219,7 +219,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blaxel
   \ high-value\n    audit: required\n- path: /workspaces/{workspace_name}\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listWorkspaceUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: inviteWorkspaceUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /service_accounts\n  method: get\n\
   \  operationId: getWorkspaceServiceAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service_accounts\n  method: post\n  operationId: createWorkspaceServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /service_accounts/{client_id}/api_keys\n  method: get\n  operationId: listApiKeysForServiceAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service_accounts/{client_id}/api_keys\n  method: post\n  operationId: createApiKeyForServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumes\n  method: get\n  operationId: listVolumes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volumes\n  method: post\n  operationId: createVolume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/agentic-access/blaxel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blaxel/agentic-access/blaxel-agentic-access.yml
 summary_line: 65 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

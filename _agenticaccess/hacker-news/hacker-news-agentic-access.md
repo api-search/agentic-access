@@ -8,25 +8,25 @@ api_specs:
   label: Hacker News Items API
   slug: hacker-news-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-items-api-openapi.yml
+  url: https://artifacts.apis.io/hacker-news/openapi/hacker-news-items-api-openapi.yml
 - filename: hacker-news-lists-api-openapi.yml
   format: yaml
   label: Hacker News Lists API
   slug: hacker-news-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-lists-api-openapi.yml
+  url: https://artifacts.apis.io/hacker-news/openapi/hacker-news-lists-api-openapi.yml
 - filename: hacker-news-live-api-openapi.yml
   format: yaml
   label: Hacker News Live API
   slug: hacker-news-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-live-api-openapi.yml
+  url: https://artifacts.apis.io/hacker-news/openapi/hacker-news-live-api-openapi.yml
 - filename: hacker-news-users-api-openapi.yml
   format: yaml
   label: Hacker News Users API
   slug: hacker-news-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-users-api-openapi.yml
+  url: https://artifacts.apis.io/hacker-news/openapi/hacker-news-users-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hacker-news-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /item/{id}.json\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{username}.json\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /maxitem.json\n  method: get\n  operationId: getMaxItem\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topstories.json\n  method: get\n  operationId: getTopStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newstories.json\n  method: get\n  operationId: getNewStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beststories.json\n  method: get\n  operationId: getBestStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /askstories.json\n  method: get\n  operationId: getAskStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /showstories.json\n  method: get\n  operationId: getShowStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobstories.json\n  method: get\n  operationId: getJobStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /updates.json\n  method: get\n  operationId: getUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/agentic-access/hacker-news-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hacker-news/agentic-access/hacker-news-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Developer Community

@@ -9,25 +9,25 @@ api_specs:
   label: Localazy Export API
   slug: localazy-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-export-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-export-api-openapi.yml
 - filename: localazy-files-api-openapi.yml
   format: yaml
   label: Localazy Files API
   slug: localazy-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-files-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-files-api-openapi.yml
 - filename: localazy-import-api-openapi.yml
   format: yaml
   label: Localazy Import API
   slug: localazy-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-import-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-import-api-openapi.yml
 - filename: localazy-projects-api-openapi.yml
   format: yaml
   label: Localazy Projects API
   slug: localazy-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/openapi/localazy-projects-api-openapi.yml
+  url: https://artifacts.apis.io/localazy/openapi/localazy-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/localazy-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 5\n    acting: 2\n  by_consequence:\n    read: 5\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/import\n  method: post\n  operationId: importContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /import/formats\n  method: get\n  operationId: listImportFormats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/files\n  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/files/{fileId}/keys/{lang}\n  method: get\n  operationId: listFileKeys\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/files/{fileId}/download/{lang}\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/agentic-access/localazy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/localazy/agentic-access/localazy-agentic-access.yml
 summary_line: 7 operations · 2 acting
 tags:
 - Localization

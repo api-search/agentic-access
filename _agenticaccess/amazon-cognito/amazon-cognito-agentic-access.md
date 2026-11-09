@@ -9,13 +9,43 @@ api_specs:
   label: Amazon Cognito Amazon Cognito Identity API
   slug: amazon-cognito-amazon-cognito-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/openapi/amazon-cognito-amazon-cognito-identity-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-amazon-cognito-identity-api-openapi.yml
 - filename: amazon-cognito-amazon-cognito-identity-provider-api-openapi.yml
   format: yaml
   label: Amazon Cognito Amazon Cognito Identity Provider API
   slug: amazon-cognito-amazon-cognito-identity-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/openapi/amazon-cognito-amazon-cognito-identity-provider-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-amazon-cognito-identity-provider-api-openapi.yml
+- filename: amazon-cognito-managed-login-branding-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito Managed Login Branding API
+  slug: amazon-cognito-managed-login-branding-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-managed-login-branding-api-openapi.yml
+- filename: amazon-cognito-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito Operations API
+  slug: amazon-cognito-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-operations-api-openapi.yml
+- filename: amazon-cognito-term-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito Term API
+  slug: amazon-cognito-term-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-term-api-openapi.yml
+- filename: amazon-cognito-user-pool-client-secret-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito User Pool Client Secret API
+  slug: amazon-cognito-user-pool-client-secret-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-user-pool-client-secret-api-openapi.yml
+- filename: amazon-cognito-user-pool-replica-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito User Pool Replica API
+  slug: amazon-cognito-user-pool-replica-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-user-pool-replica-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 26
@@ -108,12 +138,14 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSCognitoIdentityProviderService.DeleteGroup\n  method: post\n  operationId: DeleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSCognitoIdentityProviderService.DeleteIdentityProvider\n  method: post\n  operationId: DeleteIdentityProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSCognitoIdentityProviderService.DeleteResourceServer\n  method: post\n  operationId: DeleteResourceServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSCognitoIdentityProviderService.DeleteUser\n  method: post\n  operationId: DeleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSCognitoIdentityProviderService.DeleteUserAttributes\n  method: post\n  operationId: DeleteUserAttributes\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSCognitoIdentityProviderService.DeleteUserPool\n  method: post\n  operationId: DeleteUserPool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSCognitoIdentityProviderService.DeleteUserPoolClient\n  method: post\n  operationId: DeleteUserPoolClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSCognitoIdentityProviderService.DeleteUserPoolDomain\n  method: post\n  operationId: DeleteUserPoolDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/agentic-access/amazon-cognito-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/agentic-access/amazon-cognito-agentic-access.yml
+  \      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSCognitoIdentityProviderService.DeleteUserPoolDomain\n  method: post\n  operationId: DeleteUserPoolDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-cognito/agentic-access/amazon-cognito-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-cognito/agentic-access/amazon-cognito-agentic-access.yml
 summary_line: 126 operations · 100 acting · 5 human-in-the-loop
 tags:
 - Authentication
+- Amazon Web Services
 - Identity
+- OAuth
 - OpenID Connect
 - SAML
 - User Management

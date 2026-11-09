@@ -9,67 +9,67 @@ api_specs:
   label: VideoGen Account API
   slug: videogen-io-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-account-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-account-api-openapi.yml
 - filename: videogen-io-assistant-api-openapi.yml
   format: yaml
   label: VideoGen Assistant API
   slug: videogen-io-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-assistant-api-openapi.yml
 - filename: videogen-io-entities-api-openapi.yml
   format: yaml
   label: VideoGen Entities API
   slug: videogen-io-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-entities-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-entities-api-openapi.yml
 - filename: videogen-io-files-api-openapi.yml
   format: yaml
   label: VideoGen Files API
   slug: videogen-io-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-files-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-files-api-openapi.yml
 - filename: videogen-io-projects-api-openapi.yml
   format: yaml
   label: VideoGen Projects API
   slug: videogen-io-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-projects-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-projects-api-openapi.yml
 - filename: videogen-io-resources-api-openapi.yml
   format: yaml
   label: VideoGen Resources API
   slug: videogen-io-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-resources-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-resources-api-openapi.yml
 - filename: videogen-io-text-api-openapi.yml
   format: yaml
   label: VideoGen Text API
   slug: videogen-io-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-text-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-text-api-openapi.yml
 - filename: videogen-io-tools-api-openapi.yml
   format: yaml
   label: VideoGen Tools API
   slug: videogen-io-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-tools-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-tools-api-openapi.yml
 - filename: videogen-io-webhook-events-api-openapi.yml
   format: yaml
   label: VideoGen Webhook events API
   slug: videogen-io-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-webhook-events-api-openapi.yml
 - filename: videogen-io-webhooks-api-openapi.yml
   format: yaml
   label: VideoGen Webhooks API
   slug: videogen-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-webhooks-api-openapi.yml
 - filename: videogen-io-workflows-api-openapi.yml
   format: yaml
   label: VideoGen Workflows API
   slug: videogen-io-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/openapi/videogen-io-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/videogen-io/openapi/videogen-io-workflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-10-02'\nmethod: generated\nsource: openapi/videog
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/assistant-messages/{messageId}\n  method: get\n  operationId: getAssistantMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/text/generate\n  method: post\n  operationId: generateText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/resources/tts-voices\n  method: get\n  operationId: listTtsVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/resources/languages\n  method: get\n  operationId: listLanguages\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/endpoints\n  method: get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/endpoints\n  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/endpoints/{endpointId}\n  method: delete\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/agentic-access/videogen-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/videogen-io/agentic-access/videogen-io-agentic-access.yml
 summary_line: 59 operations · 38 acting · 1 human-in-the-loop
 tags:
 - Company

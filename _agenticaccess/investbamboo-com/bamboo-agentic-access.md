@@ -9,127 +9,127 @@ api_specs:
   label: Bamboo Invest Account Management API
   slug: investbamboo-com-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-account-management-api-openapi.yml
 - filename: investbamboo-com-authentication-api-openapi.yml
   format: yaml
   label: Bamboo Invest Authentication API
   slug: investbamboo-com-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-authentication-api-openapi.yml
 - filename: investbamboo-com-deposits-api-openapi.yml
   format: yaml
   label: Bamboo Invest Deposits API
   slug: investbamboo-com-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-deposits-api-openapi.yml
 - filename: investbamboo-com-exchange-rate-api-openapi.yml
   format: yaml
   label: Bamboo Invest Exchange Rate API
   slug: investbamboo-com-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-exchange-rate-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-exchange-rate-api-openapi.yml
 - filename: investbamboo-com-featured-themes-api-openapi.yml
   format: yaml
   label: Bamboo Invest Featured Themes API
   slug: investbamboo-com-featured-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-featured-themes-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-featured-themes-api-openapi.yml
 - filename: investbamboo-com-financial-documents-api-openapi.yml
   format: yaml
   label: Bamboo Invest Financial Documents API
   slug: investbamboo-com-financial-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-financial-documents-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-financial-documents-api-openapi.yml
 - filename: investbamboo-com-https-api-openapi.yml
   format: yaml
   label: 'Bamboo Invest Https: API'
   slug: investbamboo-com-https-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-https-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-https-api-openapi.yml
 - filename: investbamboo-com-lsx-api-openapi.yml
   format: yaml
   label: Bamboo Invest Lsx API
   slug: investbamboo-com-lsx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-lsx-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-lsx-api-openapi.yml
 - filename: investbamboo-com-market-activity-api-openapi.yml
   format: yaml
   label: Bamboo Invest Market Activity API
   slug: investbamboo-com-market-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-market-activity-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-market-activity-api-openapi.yml
 - filename: investbamboo-com-ng-deposits-api-openapi.yml
   format: yaml
   label: Bamboo Invest NG Deposits API
   slug: investbamboo-com-ng-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-ng-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-ng-deposits-api-openapi.yml
 - filename: investbamboo-com-ng-securities-api-openapi.yml
   format: yaml
   label: Bamboo Invest NG Securities API
   slug: investbamboo-com-ng-securities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-ng-securities-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-ng-securities-api-openapi.yml
 - filename: investbamboo-com-ng-stock-portfolio-api-openapi.yml
   format: yaml
   label: Bamboo Invest NG Stock Portfolio API
   slug: investbamboo-com-ng-stock-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-ng-stock-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-ng-stock-portfolio-api-openapi.yml
 - filename: investbamboo-com-ng-stock-trading-api-openapi.yml
   format: yaml
   label: Bamboo Invest NG Stock Trading API
   slug: investbamboo-com-ng-stock-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-ng-stock-trading-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-ng-stock-trading-api-openapi.yml
 - filename: investbamboo-com-ng-withdrawals-api-openapi.yml
   format: yaml
   label: Bamboo Invest NG Withdrawals API
   slug: investbamboo-com-ng-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-ng-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-ng-withdrawals-api-openapi.yml
 - filename: investbamboo-com-one-step-registration-api-openapi.yml
   format: yaml
   label: Bamboo Invest One Step Registration API
   slug: investbamboo-com-one-step-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-one-step-registration-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-one-step-registration-api-openapi.yml
 - filename: investbamboo-com-portfolio-reporting-api-openapi.yml
   format: yaml
   label: Bamboo Invest Portfolio Reporting API
   slug: investbamboo-com-portfolio-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-portfolio-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-portfolio-reporting-api-openapi.yml
 - filename: investbamboo-com-stock-trading-api-openapi.yml
   format: yaml
   label: Bamboo Invest Stock Trading API
   slug: investbamboo-com-stock-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-stock-trading-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-stock-trading-api-openapi.yml
 - filename: investbamboo-com-tenant-api-openapi.yml
   format: yaml
   label: Bamboo Invest Tenant API
   slug: investbamboo-com-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-tenant-api-openapi.yml
 - filename: investbamboo-com-us-securities-api-openapi.yml
   format: yaml
   label: Bamboo Invest US Securities API
   slug: investbamboo-com-us-securities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-us-securities-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-us-securities-api-openapi.yml
 - filename: investbamboo-com-us-stock-trading-api-openapi.yml
   format: yaml
   label: Bamboo Invest US Stock Trading API
   slug: investbamboo-com-us-stock-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-us-stock-trading-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-us-stock-trading-api-openapi.yml
 - filename: investbamboo-com-withdrawals-api-openapi.yml
   format: yaml
   label: Bamboo Invest Withdrawals API
   slug: investbamboo-com-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/openapi/investbamboo-com-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/investbamboo-com/openapi/investbamboo-com-withdrawals-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 72
@@ -315,7 +315,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bamboo
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lsx/ng/my_stocks\n  method: get\n  operationId: Web.Api.StockController.index\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lsx/ng/order/calculate\n  method: post\n  operationId: Web.Api.OrderController.calculate_order\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/lsx/ng/order\n  method: post\n  operationId: Web.Api.OrderController.order\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/lsx/ng/order/:order_id\n  method: get\n  operationId: Web.Api.OrderController.status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lsx/ng/order/:order_id/status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lsx/ng/pending_orders\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/lsx/ng/order/:order_id/cancel\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/agentic-access/bamboo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/investbamboo-com/agentic-access/bamboo-agentic-access.yml
 summary_line: 102 operations · 30 acting · 22 human-in-the-loop
 tags:
 - Investment

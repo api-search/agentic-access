@@ -9,7 +9,7 @@ api_specs:
   label: Turquoise Health Consumer Pricing API
   slug: turquoise-health-consumer-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/openapi/turquoise-health-consumer-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/turquoise-health/openapi/turquoise-health-consumer-pricing-api-openapi.yml
 consequence_counts:
   read: 14
   write: 1
@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/turquo
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/packages\n  method: get\n  operationId: v3_list_packages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/packages/{package_id}\n  method: get\n  operationId: v3_get_package\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/packages/{package_id}/line_items\n  method: get\n  operationId: v3_list_package_line_items\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/prices/query\n  method: post\n  operationId: v3_query_prices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v3/prices/compare\n  method: post\n  operationId: v3_compare_prices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/prices/{price_id}\n  method: get\n  operationId: v3_get_price\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/personalized-estimates\n  method: post\n  operationId: v3_list_personalized_estimates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/personalized-estimates/compare\n  method: post\n  operationId: v3_compare_personalized_estimates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/agentic-access/turquoise-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/turquoise-health/agentic-access/turquoise-health-agentic-access.yml
 summary_line: 15 operations · 1 acting
 tags:
 - Healthcare

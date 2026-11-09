@@ -9,97 +9,97 @@ api_specs:
   label: Agent Failure Mode Registry A2a API
   slug: afmr-ai-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-a2a-api-openapi.yml
 - filename: afmr-ai-agents-json-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Agents.json API
   slug: afmr-ai-agents-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-agents-json-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-agents-json-api-openapi.yml
 - filename: afmr-ai-changelog-json-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Changelog.json API
   slug: afmr-ai-changelog-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-changelog-json-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-changelog-json-api-openapi.yml
 - filename: afmr-ai-evidence-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Evidence API
   slug: afmr-ai-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-evidence-api-openapi.yml
 - filename: afmr-ai-feed-xml-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Feed.xml API
   slug: afmr-ai-feed-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-feed-xml-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-feed-xml-api-openapi.yml
 - filename: afmr-ai-lift-evidence-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Lift Evidence API
   slug: afmr-ai-lift-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-lift-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-lift-evidence-api-openapi.yml
 - filename: afmr-ai-llms-full-txt-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Llms Full.txt API
   slug: afmr-ai-llms-full-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-llms-full-txt-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-llms-full-txt-api-openapi.yml
 - filename: afmr-ai-llms-txt-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Llms.txt API
   slug: afmr-ai-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-llms-txt-api-openapi.yml
 - filename: afmr-ai-registries-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Registries API
   slug: afmr-ai-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-registries-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-registries-api-openapi.yml
 - filename: afmr-ai-resources-json-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Resources.json API
   slug: afmr-ai-resources-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-resources-json-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-resources-json-api-openapi.yml
 - filename: afmr-ai-rpc-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Rpc API
   slug: afmr-ai-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-rpc-api-openapi.yml
 - filename: afmr-ai-server-json-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Server.json API
   slug: afmr-ai-server-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-server-json-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-server-json-api-openapi.yml
 - filename: afmr-ai-sitemap-xml-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Sitemap.xml API
   slug: afmr-ai-sitemap-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-sitemap-xml-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-sitemap-xml-api-openapi.yml
 - filename: afmr-ai-standards-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Standards API
   slug: afmr-ai-standards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-standards-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-standards-api-openapi.yml
 - filename: afmr-ai-status-json-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry Status.json API
   slug: afmr-ai-status-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-status-json-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-status-json-api-openapi.yml
 - filename: afmr-ai-well-known-api-openapi.yml
   format: yaml
   label: Agent Failure Mode Registry .well Known API
   slug: afmr-ai-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/openapi/afmr-ai-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/afmr-ai/openapi/afmr-ai-well-known-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/afmr-a
   \ none\n- path: /sitemap.xml\n  method: get\n  operationId: getSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /evidence/index.json\n  method: get\n  operationId: getEvidenceMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lift-evidence/index.json\n  method: get\n  operationId: getLiftEvidenceIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /standards/reputation-attestation/0.1/specification\n  method: get\n  operationId: getReputationAttestationSpecification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /standards/governance-voting/1.0/contract.json\n\
   \  method: get\n  operationId: getGovernanceVotingContract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /standards/reputation-attestation/0.1/schema.json\n  method: get\n  operationId: getReputationAttestationSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /standards/reputation-attestation/0.1/verifier.json\n  method: get\n  operationId: getVerifierRequirements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registries/endpoints/v0.1/index.json\n  method: get\n  operationId: getEndpointConformanceRegistry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rpc\n\
   \  method: post\n  operationId: mcpJsonRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/rpc\n  method: get\n  operationId: mcpListeningStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a\n  method: post\n  operationId: a2aSendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/afmr-ai/refs/heads/main/agentic-access/afmr-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/afmr-ai/agentic-access/afmr-ai-agentic-access.yml
 summary_line: 22 operations · 2 acting
 tags:
 - Company

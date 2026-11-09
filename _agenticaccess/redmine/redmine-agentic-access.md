@@ -9,103 +9,103 @@ api_specs:
   label: Redmine Attachments API
   slug: redmine-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-attachments-api-openapi.yml
 - filename: redmine-custom-fields-json-api-openapi.yml
   format: yaml
   label: Redmine Custom Fields.json API
   slug: redmine-custom-fields-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-custom-fields-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-custom-fields-json-api-openapi.yml
 - filename: redmine-groups-json-api-openapi.yml
   format: yaml
   label: Redmine Groups.json API
   slug: redmine-groups-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-groups-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-groups-json-api-openapi.yml
 - filename: redmine-issue-statuses-json-api-openapi.yml
   format: yaml
   label: Redmine Issue Statuses.json API
   slug: redmine-issue-statuses-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-issue-statuses-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-issue-statuses-json-api-openapi.yml
 - filename: redmine-issues-api-openapi.yml
   format: yaml
   label: Redmine Issues API
   slug: redmine-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-issues-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-issues-api-openapi.yml
 - filename: redmine-issues-json-api-openapi.yml
   format: yaml
   label: Redmine Issues.json API
   slug: redmine-issues-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-issues-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-issues-json-api-openapi.yml
 - filename: redmine-my-api-openapi.yml
   format: yaml
   label: Redmine My API
   slug: redmine-my-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-my-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-my-api-openapi.yml
 - filename: redmine-projects-api-openapi.yml
   format: yaml
   label: Redmine Projects API
   slug: redmine-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-projects-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-projects-api-openapi.yml
 - filename: redmine-projects-json-api-openapi.yml
   format: yaml
   label: Redmine Projects.json API
   slug: redmine-projects-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-projects-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-projects-json-api-openapi.yml
 - filename: redmine-roles-json-api-openapi.yml
   format: yaml
   label: Redmine Roles.json API
   slug: redmine-roles-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-roles-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-roles-json-api-openapi.yml
 - filename: redmine-time-entries-api-openapi.yml
   format: yaml
   label: Redmine Time Entries API
   slug: redmine-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-time-entries-api-openapi.yml
 - filename: redmine-time-entries-json-api-openapi.yml
   format: yaml
   label: Redmine Time Entries.json API
   slug: redmine-time-entries-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-time-entries-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-time-entries-json-api-openapi.yml
 - filename: redmine-trackers-json-api-openapi.yml
   format: yaml
   label: Redmine Trackers.json API
   slug: redmine-trackers-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-trackers-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-trackers-json-api-openapi.yml
 - filename: redmine-uploads-json-api-openapi.yml
   format: yaml
   label: Redmine Uploads.json API
   slug: redmine-uploads-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-uploads-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-uploads-json-api-openapi.yml
 - filename: redmine-users-api-openapi.yml
   format: yaml
   label: Redmine Users API
   slug: redmine-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-users-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-users-api-openapi.yml
 - filename: redmine-users-json-api-openapi.yml
   format: yaml
   label: Redmine Users.json API
   slug: redmine-users-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-users-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-users-json-api-openapi.yml
 - filename: redmine-wiki-pages-json-api-openapi.yml
   format: yaml
   label: Redmine Wiki Pages.json API
   slug: redmine-wiki-pages-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/openapi/redmine-wiki-pages-json-api-openapi.yml
+  url: https://artifacts.apis.io/redmine/openapi/redmine-wiki-pages-json-api-openapi.yml
 consequence_counts:
   read: 16
   write: 16
@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/redmin
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /attachments/{id}.json\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uploads.json\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wiki_pages.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wiki_pages.json\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /issue_statuses.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trackers.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /roles.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups.json\n  method: post\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom_fields.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /my/account.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/agentic-access/redmine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/redmine/agentic-access/redmine-agentic-access.yml
 summary_line: 32 operations · 16 acting
 tags:
 - Project Management

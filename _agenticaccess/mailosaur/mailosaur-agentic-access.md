@@ -9,43 +9,43 @@ api_specs:
   label: Mailosaur Analysis API
   slug: mailosaur-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-analysis-api-openapi.yml
 - filename: mailosaur-devices-api-openapi.yml
   format: yaml
   label: Mailosaur Devices API
   slug: mailosaur-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-devices-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-devices-api-openapi.yml
 - filename: mailosaur-files-api-openapi.yml
   format: yaml
   label: Mailosaur Files API
   slug: mailosaur-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-files-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-files-api-openapi.yml
 - filename: mailosaur-messages-api-openapi.yml
   format: yaml
   label: Mailosaur Messages API
   slug: mailosaur-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-messages-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-messages-api-openapi.yml
 - filename: mailosaur-previews-api-openapi.yml
   format: yaml
   label: Mailosaur Previews API
   slug: mailosaur-previews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-previews-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-previews-api-openapi.yml
 - filename: mailosaur-servers-api-openapi.yml
   format: yaml
   label: Mailosaur Servers API
   slug: mailosaur-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-servers-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-servers-api-openapi.yml
 - filename: mailosaur-usage-api-openapi.yml
   format: yaml
   label: Mailosaur Usage API
   slug: mailosaur-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/openapi/mailosaur-usage-api-openapi.yml
+  url: https://artifacts.apis.io/mailosaur/openapi/mailosaur-usage-api-openapi.yml
 consequence_counts:
   read: 16
   write: 12
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mailos
   \ generateMessagePreviews\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/screenshots/clients\n  method: get\n  operationId: listEmailClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/servers\n  method: get\n  operationId: listServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/servers\n  method: post\n  operationId: createServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/servers/{serverId}\n  method: get\n  operationId: getServer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/servers/{serverId}\n  method: put\n  operationId: updateServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/servers/{serverId}\n  method: delete\n  operationId: deleteServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/servers/{serverId}/password\n  method: get\n  operationId: getServerPassword\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/usage/limits\n  method: get\n  operationId: getUsageLimits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/usage/transactions\n  method: get\n  operationId: getUsageTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/agentic-access/mailosaur-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mailosaur/agentic-access/mailosaur-agentic-access.yml
 summary_line: 28 operations · 12 acting
 tags:
 - Email Testing

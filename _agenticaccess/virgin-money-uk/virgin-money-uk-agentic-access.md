@@ -8,37 +8,37 @@ api_specs:
   label: Virgin Money UK ATM API
   slug: virgin-money-uk-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-atm-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-atm-api-openapi.yml
 - filename: virgin-money-uk-bca-api-openapi.yml
   format: yaml
   label: Virgin Money UK BCA API
   slug: virgin-money-uk-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-bca-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-bca-api-openapi.yml
 - filename: virgin-money-uk-branch-api-openapi.yml
   format: yaml
   label: Virgin Money UK Branch API
   slug: virgin-money-uk-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-branch-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-branch-api-openapi.yml
 - filename: virgin-money-uk-ccc-api-openapi.yml
   format: yaml
   label: Virgin Money UK CCC API
   slug: virgin-money-uk-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-ccc-api-openapi.yml
 - filename: virgin-money-uk-pca-api-openapi.yml
   format: yaml
   label: Virgin Money UK PCA API
   slug: virgin-money-uk-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-pca-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-pca-api-openapi.yml
 - filename: virgin-money-uk-sme-api-openapi.yml
   format: yaml
   label: Virgin Money UK SME API
   slug: virgin-money-uk-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-sme-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-sme-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-opendata-api-standard-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 12\n  by_action_class:\n    connected: 12\n  by_consequence:\n    read: 12\n  human_in_the_loop_required: 0\noperations:\n- path: /branches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /branches\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /atms\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /atms\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal-current-accounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal-current-accounts\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business-current-accounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business-current-accounts\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /unsecured-sme-loans\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /unsecured-sme-loans\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial-credit-cards\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial-credit-cards\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/agentic-access/virgin-money-uk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/virgin-money-uk/agentic-access/virgin-money-uk-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Financial Services

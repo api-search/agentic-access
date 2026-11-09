@@ -9,37 +9,37 @@ api_specs:
   label: GitDealFlow Agents API
   slug: sipi-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sipi/refs/heads/main/openapi/sipi-agents-api-openapi.yml
+  url: https://artifacts.apis.io/sipi/openapi/sipi-agents-api-openapi.yml
 - filename: sipi-approvals-api-openapi.yml
   format: yaml
   label: GitDealFlow Approvals API
   slug: sipi-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sipi/refs/heads/main/openapi/sipi-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/sipi/openapi/sipi-approvals-api-openapi.yml
 - filename: sipi-budget-api-openapi.yml
   format: yaml
   label: GitDealFlow Budget API
   slug: sipi-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sipi/refs/heads/main/openapi/sipi-budget-api-openapi.yml
+  url: https://artifacts.apis.io/sipi/openapi/sipi-budget-api-openapi.yml
 - filename: sipi-evaluate-api-openapi.yml
   format: yaml
   label: GitDealFlow Evaluate API
   slug: sipi-evaluate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sipi/refs/heads/main/openapi/sipi-evaluate-api-openapi.yml
+  url: https://artifacts.apis.io/sipi/openapi/sipi-evaluate-api-openapi.yml
 - filename: sipi-rules-api-openapi.yml
   format: yaml
   label: GitDealFlow Rules API
   slug: sipi-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sipi/refs/heads/main/openapi/sipi-rules-api-openapi.yml
+  url: https://artifacts.apis.io/sipi/openapi/sipi-rules-api-openapi.yml
 - filename: sipi-system-api-openapi.yml
   format: yaml
   label: GitDealFlow System API
   slug: sipi-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sipi/refs/heads/main/openapi/sipi-system-api-openapi.yml
+  url: https://artifacts.apis.io/sipi/openapi/sipi-system-api-openapi.yml
 consequence_counts:
   read: 8
   write: 5
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/sipi-o
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rules\n  method: post\n  operationId: addRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/rules/{rule_id}\n  method: delete\n  operationId: deleteRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/approvals\n  method: get\n  operationId: listApprovals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /api/approvals/{approval_id}\n  method: post\n  operationId: resolveApproval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agents\n  method: get\n  operationId: listAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/agents\n  method: post\n  operationId: registerAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stats\n  method: get\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/status\n  method: get\n  operationId: billingStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/agent-card.json\n  method: get\n  operationId: agentCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sipi/refs/heads/main/agentic-access/sipi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sipi/agentic-access/sipi-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
 - Artificial Intelligence

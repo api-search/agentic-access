@@ -9,25 +9,25 @@ api_specs:
   label: IBM Language Translator Documents API
   slug: ibm-translate-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-documents-api-openapi.yml
 - filename: ibm-translate-languages-api-openapi.yml
   format: yaml
   label: IBM Language Translator Languages API
   slug: ibm-translate-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-languages-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-languages-api-openapi.yml
 - filename: ibm-translate-models-api-openapi.yml
   format: yaml
   label: IBM Language Translator Models API
   slug: ibm-translate-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-models-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-models-api-openapi.yml
 - filename: ibm-translate-translation-api-openapi.yml
   format: yaml
   label: IBM Language Translator Translation API
   slug: ibm-translate-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/openapi/ibm-translate-translation-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-translate/openapi/ibm-translate-translation-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/models/{model_id}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/models/{model_id}\n  method: delete\n  operationId: deleteModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/documents\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v3/documents\n  method: post\n  operationId: translateDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/documents/{document_id}\n  method: get\n  operationId: getDocumentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/documents/{document_id}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/documents/{document_id}/translated_document\n  method:\
   \ get\n  operationId: getTranslatedDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/agentic-access/ibm-translate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ibm-translate/agentic-access/ibm-translate-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Translation

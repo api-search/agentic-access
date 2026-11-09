@@ -9,55 +9,55 @@ api_specs:
   label: Kintsugi Address Validation API
   slug: kintsugi-address-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-address-validation-api-openapi.yml
+  url: https://artifacts.apis.io/kintsugi/openapi/kintsugi-address-validation-api-openapi.yml
 - filename: kintsugi-customers-api-openapi.yml
   format: yaml
   label: Kintsugi Customers API
   slug: kintsugi-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-customers-api-openapi.yml
+  url: https://artifacts.apis.io/kintsugi/openapi/kintsugi-customers-api-openapi.yml
 - filename: kintsugi-exemptions-api-openapi.yml
   format: yaml
   label: Kintsugi Exemptions API
   slug: kintsugi-exemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-exemptions-api-openapi.yml
+  url: https://artifacts.apis.io/kintsugi/openapi/kintsugi-exemptions-api-openapi.yml
 - filename: kintsugi-filings-api-openapi.yml
   format: yaml
   label: Kintsugi Filings API
   slug: kintsugi-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-filings-api-openapi.yml
+  url: https://artifacts.apis.io/kintsugi/openapi/kintsugi-filings-api-openapi.yml
 - filename: kintsugi-nexus-api-openapi.yml
   format: yaml
   label: Kintsugi Nexus API
   slug: kintsugi-nexus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-nexus-api-openapi.yml
+  url: https://artifacts.apis.io/kintsugi/openapi/kintsugi-nexus-api-openapi.yml
 - filename: kintsugi-products-api-openapi.yml
   format: yaml
   label: Kintsugi Products API
   slug: kintsugi-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-products-api-openapi.yml
+  url: https://artifacts.apis.io/kintsugi/openapi/kintsugi-products-api-openapi.yml
 - filename: kintsugi-registrations-api-openapi.yml
   format: yaml
   label: Kintsugi Registrations API
   slug: kintsugi-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/kintsugi/openapi/kintsugi-registrations-api-openapi.yml
 - filename: kintsugi-tax-estimation-api-openapi.yml
   format: yaml
   label: Kintsugi Tax Estimation API
   slug: kintsugi-tax-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-tax-estimation-api-openapi.yml
+  url: https://artifacts.apis.io/kintsugi/openapi/kintsugi-tax-estimation-api-openapi.yml
 - filename: kintsugi-transactions-api-openapi.yml
   format: yaml
   label: Kintsugi Transactions API
   slug: kintsugi-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/openapi/kintsugi-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/kintsugi/openapi/kintsugi-transactions-api-openapi.yml
 consequence_counts:
   read: 22
   write: 17
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kintsu
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registrations\n  method: post\n  operationId: createRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /registrations\n  method: get\n  operationId: getRegistrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registrations/{id}\n  method: get\n  operationId: getRegistrationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registrations/{id}\n  method: patch\n  operationId: updateRegistration\n  x-agentic-access:\n    action-class: acting\n  \
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /registrations/{id}/deregister\n  method: post\n  operationId: deregisterRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /filings\n  method: get\n  operationId: getFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /filings/{id}\n  method: get\n  operationId: getFilingById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /filings/{filing_id}/transactions\n  method: get\n  operationId: getTransactionsByFilingId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registrations/{registration_id}/filings\n  method: get\n  operationId: getFilingsByRegistrationId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/agentic-access/kintsugi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kintsugi/agentic-access/kintsugi-agentic-access.yml
 summary_line: 39 operations · 17 acting
 tags:
 - Sales Tax

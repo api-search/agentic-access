@@ -9,79 +9,79 @@ api_specs:
   label: Zocdoc Appointments API
   slug: zocdoc-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-appointments-api-openapi.yml
 - filename: zocdoc-calendar-integration-timeslots-api-openapi.yml
   format: yaml
   label: Zocdoc Calendar Integration Timeslots API
   slug: zocdoc-calendar-integration-timeslots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-calendar-integration-timeslots-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-calendar-integration-timeslots-api-openapi.yml
 - filename: zocdoc-credentials-api-openapi.yml
   format: yaml
   label: Zocdoc Credentials API
   slug: zocdoc-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-credentials-api-openapi.yml
 - filename: zocdoc-facilities-api-openapi.yml
   format: yaml
   label: Zocdoc Facilities API
   slug: zocdoc-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-facilities-api-openapi.yml
 - filename: zocdoc-insurance-reference-api-openapi.yml
   format: yaml
   label: Zocdoc Insurance Reference API
   slug: zocdoc-insurance-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-insurance-reference-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-insurance-reference-api-openapi.yml
 - filename: zocdoc-provider-locations-api-openapi.yml
   format: yaml
   label: Zocdoc Provider Locations API
   slug: zocdoc-provider-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-provider-locations-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-provider-locations-api-openapi.yml
 - filename: zocdoc-providers-api-openapi.yml
   format: yaml
   label: Zocdoc Providers API
   slug: zocdoc-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-providers-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-providers-api-openapi.yml
 - filename: zocdoc-reference-api-openapi.yml
   format: yaml
   label: Zocdoc Reference API
   slug: zocdoc-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-reference-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-reference-api-openapi.yml
 - filename: zocdoc-schedulable-entities-api-openapi.yml
   format: yaml
   label: Zocdoc Schedulable Entities API
   slug: zocdoc-schedulable-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-schedulable-entities-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-schedulable-entities-api-openapi.yml
 - filename: zocdoc-webhook-api-openapi.yml
   format: yaml
   label: Zocdoc Webhook API
   slug: zocdoc-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-webhook-api-openapi.yml
 - filename: zocdoc-reviews-api-openapi.yml
   format: yaml
   label: Zocdoc Reviews API
   slug: zocdoc-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-reviews-api-openapi.yml
 - filename: zocdoc-specialties-api-openapi.yml
   format: yaml
   label: Zocdoc Specialties API
   slug: zocdoc-specialties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-specialties-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-specialties-api-openapi.yml
 - filename: zocdoc-visit-reasons-api-openapi.yml
   format: yaml
   label: Zocdoc Visit Reasons API
   slug: zocdoc-visit-reasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-visit-reasons-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-visit-reasons-api-openapi.yml
 consequence_counts:
   read: 21
   write: 11
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: generated\nsource: openapi/zocdoc
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reference/npi\n  method: get\n  operationId: getProviderNpis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providers/{provider_id}/reviews\n  method: get\n  operationId: getProviderReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/providers/reviews\n  method: get\n  operationId: getProviderReviewsBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/schedulable_entities\n  method: get\n  operationId: getSchedulableEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    scope:\n    - external.schedulable_entity.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/schedulable_entities/overlaps\n  method: put\n  operationId: putSchedulableEntitiesOverlaps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - external.schedulable_entity.read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/specialties\n  method: get\n  operationId: getSpecialties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/specialties/{specialty_id}\n  method: get\n  operationId: getSpecialtyById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/visit_reasons\n\
   \  method: get\n  operationId: getVisitReasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/visit_reasons/{visit_reason_id}\n  method: get\n  operationId: getVisitReasonById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook/mock-request\n  method: post\n  operationId: mockWebhookRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/agentic-access/zocdoc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zocdoc/agentic-access/zocdoc-agentic-access.yml
 summary_line: 32 operations · 11 acting
 tags:
 - Healthcare

@@ -9,61 +9,61 @@ api_specs:
   label: Shiftmove Custom fields API
   slug: shiftmove-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-custom-fields-api-openapi.yml
 - filename: shiftmove-driver-assignments-api-openapi.yml
   format: yaml
   label: Shiftmove Driver assignments API
   slug: shiftmove-driver-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-driver-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-driver-assignments-api-openapi.yml
 - filename: shiftmove-drivers-api-openapi.yml
   format: yaml
   label: Shiftmove Drivers API
   slug: shiftmove-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-drivers-api-openapi.yml
 - filename: shiftmove-invoices-api-openapi.yml
   format: yaml
   label: Shiftmove Invoices API
   slug: shiftmove-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-invoices-api-openapi.yml
 - filename: shiftmove-organizations-api-openapi.yml
   format: yaml
   label: Shiftmove Organizations API
   slug: shiftmove-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-organizations-api-openapi.yml
 - filename: shiftmove-vehicle-assignments-api-openapi.yml
   format: yaml
   label: Shiftmove Vehicle assignments API
   slug: shiftmove-vehicle-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-vehicle-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-vehicle-assignments-api-openapi.yml
 - filename: shiftmove-vehicle-financing-api-openapi.yml
   format: yaml
   label: Shiftmove Vehicle financing API
   slug: shiftmove-vehicle-financing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-vehicle-financing-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-vehicle-financing-api-openapi.yml
 - filename: shiftmove-vehicle-license-plates-api-openapi.yml
   format: yaml
   label: Shiftmove Vehicle license plates API
   slug: shiftmove-vehicle-license-plates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-vehicle-license-plates-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-vehicle-license-plates-api-openapi.yml
 - filename: shiftmove-vehicle-usages-api-openapi.yml
   format: yaml
   label: Shiftmove Vehicle usages API
   slug: shiftmove-vehicle-usages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-vehicle-usages-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-vehicle-usages-api-openapi.yml
 - filename: shiftmove-vehicles-api-openapi.yml
   format: yaml
   label: Shiftmove Vehicles API
   slug: shiftmove-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/openapi/shiftmove-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/shiftmove/openapi/shiftmove-vehicles-api-openapi.yml
 consequence_counts:
   read: 20
   write: 20
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shiftm
   \     max-ttl: 3600\n    audit: none\n- path: /v1/vehicles/{uuid}\n  method: get\n  operationId: findVehicleByUuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vehicles/{uuid}\n  method: post\n  operationId: updateVehicleByUuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vehicles/{uuid}/archive\n  method: post\n  operationId: archiveVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vehicles/{uuid}/costCenter\n\
   \  method: post\n  operationId: updateVehicleCostCenter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vehicles/{uuid}/customFieldValues/{customFieldUuid}\n  method: post\n  operationId: setVehicleCustomFieldValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vehicles/{uuid}/subCompany\n  method: post\n  operationId: createVehicleSubCompany\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/agentic-access/shiftmove-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shiftmove/agentic-access/shiftmove-agentic-access.yml
 summary_line: 40 operations · 20 acting
 tags:
 - Company

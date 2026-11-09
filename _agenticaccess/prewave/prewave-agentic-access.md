@@ -9,151 +9,151 @@ api_specs:
   label: Prewave Actions API
   slug: prewave-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-actions-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-actions-api-openapi.yml
 - filename: prewave-alerts-api-openapi.yml
   format: yaml
   label: Prewave Alerts API
   slug: prewave-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-alerts-api-openapi.yml
 - filename: prewave-collections-management-api-openapi.yml
   format: yaml
   label: Prewave Collections - Management API
   slug: prewave-collections-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-collections-management-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-collections-management-api-openapi.yml
 - filename: prewave-collections-network-api-openapi.yml
   format: yaml
   label: Prewave Collections - Network API
   slug: prewave-collections-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-collections-network-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-collections-network-api-openapi.yml
 - filename: prewave-collections-targets-api-openapi.yml
   format: yaml
   label: Prewave Collections - Targets API
   slug: prewave-collections-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-collections-targets-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-collections-targets-api-openapi.yml
 - filename: prewave-collections-tier-n-api-openapi.yml
   format: yaml
   label: Prewave Collections - Tier-N API
   slug: prewave-collections-tier-n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-collections-tier-n-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-collections-tier-n-api-openapi.yml
 - filename: prewave-disruptions-api-openapi.yml
   format: yaml
   label: Prewave Disruptions API
   slug: prewave-disruptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-disruptions-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-disruptions-api-openapi.yml
 - filename: prewave-eudr-customers-dds-api-openapi.yml
   format: yaml
   label: Prewave EUDR - Customers - DDS API
   slug: prewave-eudr-customers-dds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-eudr-customers-dds-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-eudr-customers-dds-api-openapi.yml
 - filename: prewave-eudr-customers-origin-requests-api-openapi.yml
   format: yaml
   label: Prewave EUDR - Customers - Origin Requests API
   slug: prewave-eudr-customers-origin-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-eudr-customers-origin-requests-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-eudr-customers-origin-requests-api-openapi.yml
 - filename: prewave-eudr-customers-products-api-openapi.yml
   format: yaml
   label: Prewave EUDR - Customers - Products API
   slug: prewave-eudr-customers-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-eudr-customers-products-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-eudr-customers-products-api-openapi.yml
 - filename: prewave-eudr-customers-suppliers-api-openapi.yml
   format: yaml
   label: Prewave EUDR - Customers - Suppliers API
   slug: prewave-eudr-customers-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-eudr-customers-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-eudr-customers-suppliers-api-openapi.yml
 - filename: prewave-eudr-shared-api-openapi.yml
   format: yaml
   label: Prewave EUDR - Shared API
   slug: prewave-eudr-shared-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-eudr-shared-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-eudr-shared-api-openapi.yml
 - filename: prewave-eudr-suppliers-api-openapi.yml
   format: yaml
   label: Prewave EUDR - Suppliers API
   slug: prewave-eudr-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-eudr-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-eudr-suppliers-api-openapi.yml
 - filename: prewave-exposure-api-openapi.yml
   format: yaml
   label: Prewave Exposure API
   slug: prewave-exposure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-exposure-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-exposure-api-openapi.yml
 - filename: prewave-infotags-api-openapi.yml
   format: yaml
   label: Prewave Infotags API
   slug: prewave-infotags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-infotags-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-infotags-api-openapi.yml
 - filename: prewave-scores-enterprise-export-api-openapi.yml
   format: yaml
   label: Prewave Scores - Enterprise Export API
   slug: prewave-scores-enterprise-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-scores-enterprise-export-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-scores-enterprise-export-api-openapi.yml
 - filename: prewave-scores-externals-api-openapi.yml
   format: yaml
   label: Prewave Scores - Externals API
   slug: prewave-scores-externals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-scores-externals-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-scores-externals-api-openapi.yml
 - filename: prewave-scores-target-api-openapi.yml
   format: yaml
   label: Prewave Scores - Target API
   slug: prewave-scores-target-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-scores-target-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-scores-target-api-openapi.yml
 - filename: prewave-suppliers-connection-contacts-api-openapi.yml
   format: yaml
   label: Prewave Suppliers - Connection Contacts API
   slug: prewave-suppliers-connection-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-suppliers-connection-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-suppliers-connection-contacts-api-openapi.yml
 - filename: prewave-suppliers-management-api-openapi.yml
   format: yaml
   label: Prewave Suppliers - Management API
   slug: prewave-suppliers-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-suppliers-management-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-suppliers-management-api-openapi.yml
 - filename: prewave-suppliers-sites-api-openapi.yml
   format: yaml
   label: Prewave Suppliers - Sites API
   slug: prewave-suppliers-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-suppliers-sites-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-suppliers-sites-api-openapi.yml
 - filename: prewave-suppliers-sites-upsert-api-openapi.yml
   format: yaml
   label: Prewave Suppliers - Sites Upsert API
   slug: prewave-suppliers-sites-upsert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-suppliers-sites-upsert-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-suppliers-sites-upsert-api-openapi.yml
 - filename: prewave-suppliers-supplier-graph-api-openapi.yml
   format: yaml
   label: Prewave Suppliers - Supplier Graph API
   slug: prewave-suppliers-supplier-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-suppliers-supplier-graph-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-suppliers-supplier-graph-api-openapi.yml
 - filename: prewave-users-api-openapi.yml
   format: yaml
   label: Prewave Users API
   slug: prewave-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-users-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-users-api-openapi.yml
 - filename: prewave-users-roles-api-openapi.yml
   format: yaml
   label: Prewave Users - Roles API
   slug: prewave-users-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/openapi/prewave-users-roles-api-openapi.yml
+  url: https://artifacts.apis.io/prewave/openapi/prewave-users-roles-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 71
@@ -232,8 +232,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/prewav
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/infotags\n  method: get\n  operationId: infotags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/infotags/groups\n  method: get\n  operationId: infotagGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/feed\n  method: get\n  operationId: alertFeed_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/enterprise-export/scores\n  method: get\n  operationId: getScoreResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /public/v1/enterprise-export/scores/errors\n  method: get\n  operationId: getScoreGenerationErrors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/disruptions/alerts\n  method: get\n  operationId: findAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/collections/{collectionId}/tier-n/data\n  method: get\n  operationId: getTierNCollectionGraph\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/alpha/exposure/{id}\n  method: get\n  operationId: getExposureAnalysisById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /public/v1/alpha/exposure/{id}/graph\n  method: get\n  operationId: getExposureGraphById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/actions\n  method: get\n  operationId: listActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/actions/{actionId}\n  method: get\n  operationId: getActionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/actions/types\n  method: get\n  operationId: listActionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/actions/types/{typeId}\n  method: get\n  operationId: getActionTypeById\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/actions/statuses\n  method: get\n  operationId: listActionStatusesForType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v2/eudr/customers/supplier-dds/{ddsId}\n  method: delete\n  operationId: deleteSupplierDDS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/agentic-access/prewave-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/agentic-access/prewave-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/actions/statuses\n  method: get\n  operationId: listActionStatusesForType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v2/eudr/customers/supplier-dds/{ddsId}\n  method: delete\n  operationId: deleteSupplierDDS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/prewave/agentic-access/prewave-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/prewave/agentic-access/prewave-agentic-access.yml
 summary_line: 117 operations · 46 acting · 2 human-in-the-loop
 tags:
 - Company

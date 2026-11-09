@@ -9,55 +9,55 @@ api_specs:
   label: Willo Child Organisations API
   slug: willo-child-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-child-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-child-organisations-api-openapi.yml
 - filename: willo-departments-api-openapi.yml
   format: yaml
   label: Willo Departments API
   slug: willo-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-departments-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-departments-api-openapi.yml
 - filename: willo-interview-templates-api-openapi.yml
   format: yaml
   label: Willo Interview Templates API
   slug: willo-interview-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-interview-templates-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-interview-templates-api-openapi.yml
 - filename: willo-interviews-api-openapi.yml
   format: yaml
   label: Willo Interviews API
   slug: willo-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-interviews-api-openapi.yml
 - filename: willo-message-templates-api-openapi.yml
   format: yaml
   label: Willo Message Templates API
   slug: willo-message-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-message-templates-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-message-templates-api-openapi.yml
 - filename: willo-participants-api-openapi.yml
   format: yaml
   label: Willo Participants API
   slug: willo-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-participants-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-participants-api-openapi.yml
 - filename: willo-reference-api-openapi.yml
   format: yaml
   label: Willo Reference API
   slug: willo-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-reference-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-reference-api-openapi.yml
 - filename: willo-users-api-openapi.yml
   format: yaml
   label: Willo Users API
   slug: willo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-users-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-users-api-openapi.yml
 - filename: willo-webhooks-api-openapi.yml
   format: yaml
   label: Willo Webhooks API
   slug: willo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/openapi/willo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/willo/openapi/willo-webhooks-api-openapi.yml
 consequence_counts:
   read: 19
   write: 25
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/willo-
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{key}/\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /categories/\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interview-templates/\n  method: get\n  operationId: listInterviewTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interview-templates/{key}/\n  method: get\n\
   \  operationId: getInterviewTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interview-templates/{key}/interviews/\n  method: post\n  operationId: createInterviewFromTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /children/\n  method: get\n  operationId: listChildOrganisations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /children/\n  method: post\n  operationId: createChildOrganisation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /languages/\n  method: get\n  operationId: listLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /idv-counties/\n  method: get\n  operationId: listIdvCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/agentic-access/willo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/willo/agentic-access/willo-agentic-access.yml
 summary_line: 44 operations · 25 acting
 tags:
 - Video Interviewing

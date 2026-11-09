@@ -9,25 +9,25 @@ api_specs:
   label: Ship24 ➕ API for per-call plans API
   slug: ship24-api-for-per-call-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-api-for-per-call-plans-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-api-for-per-call-plans-api-openapi.yml
 - filename: ship24-couriers-api-openapi.yml
   format: yaml
   label: Ship24 🚚 Couriers API
   slug: ship24-couriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-couriers-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-couriers-api-openapi.yml
 - filename: ship24-trackers-api-openapi.yml
   format: yaml
   label: Ship24 📦 Trackers API
   slug: ship24-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-trackers-api-openapi.yml
 - filename: ship24-ship24-tracking-api-api-openapi.yml
   format: yaml
   label: Ship24 Tracking API
   slug: ship24-ship24-tracking-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/openapi/ship24-ship24-tracking-api-api-openapi.yml
+  url: https://artifacts.apis.io/ship24/openapi/ship24-ship24-tracking-api-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ship24
   \ high-value\n    audit: required\n- path: /public/v1/trackers/track\n  method: post\n  operationId: create-tracker-and-get-tracking-results\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/v1/trackers/{trackerId}\n  method: get\n  operationId: get-tracker-by-trackerId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/trackers/{trackerId}\n  method: patch\n  operationId: update-tracker-by-trackerId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /public/v1/trackers/search/{trackingNumber}/results\n  method: get\n  operationId: get-tracking-results-of-trackers-by-tracking-number\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/trackers/{trackerId}/results\n  method: get\n  operationId: get-tracking-results-of-tracker-by-trackerId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/trackers/{trackerId}/webhook-events/resend\n  method: post\n  operationId: resend-webhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/agentic-access/ship24-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ship24/agentic-access/ship24-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Tracking

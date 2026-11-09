@@ -9,31 +9,31 @@ api_specs:
   label: HawkSoft Agencies API
   slug: hawksoft-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-agencies-api-openapi.yml
 - filename: hawksoft-attachments-api-openapi.yml
   format: yaml
   label: HawkSoft Attachments API
   slug: hawksoft-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-attachments-api-openapi.yml
 - filename: hawksoft-clients-api-openapi.yml
   format: yaml
   label: HawkSoft Clients API
   slug: hawksoft-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-clients-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-clients-api-openapi.yml
 - filename: hawksoft-log-entries-api-openapi.yml
   format: yaml
   label: HawkSoft Log Entries API
   slug: hawksoft-log-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-log-entries-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-log-entries-api-openapi.yml
 - filename: hawksoft-receipts-api-openapi.yml
   format: yaml
   label: HawkSoft Receipts API
   slug: hawksoft-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/openapi/hawksoft-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/hawksoft/openapi/hawksoft-receipts-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hawkso
   \ get\n  operationId: listOffices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/agency/{agencyId}/client/{clientId}/attachment\n  method: post\n  operationId: postAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vendor/agency/{agencyId}/clients\n  method: get\n  operationId: listChangedClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/agency/{agencyId}/clients\n  method: post\n  operationId: getClientList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /vendor/agency/{agencyId}/clients/search\n  method: get\n  operationId: searchClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/agency/{agencyId}/client/{clientId}\n  method: get\n  operationId: getClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/agency/{agencyId}/client/{clientId}/log\n  method: post\n  operationId: postLogNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vendor/agency/{agencyId}/client/{clientId}/receipts\n  method: post\n  operationId: postReceipt\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/agentic-access/hawksoft-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hawksoft/agentic-access/hawksoft-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Insurance

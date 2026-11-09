@@ -9,79 +9,79 @@ api_specs:
   label: Monaco Accounts API
   slug: monaco-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-accounts-api-openapi.yml
 - filename: monaco-audiences-api-openapi.yml
   format: yaml
   label: Monaco Audiences API
   slug: monaco-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-audiences-api-openapi.yml
 - filename: monaco-auth-api-openapi.yml
   format: yaml
   label: Monaco Auth API
   slug: monaco-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-auth-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-auth-api-openapi.yml
 - filename: monaco-campaigns-api-openapi.yml
   format: yaml
   label: Monaco Campaigns API
   slug: monaco-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-campaigns-api-openapi.yml
 - filename: monaco-contacts-api-openapi.yml
   format: yaml
   label: Monaco Contacts API
   slug: monaco-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-contacts-api-openapi.yml
 - filename: monaco-meetings-api-openapi.yml
   format: yaml
   label: Monaco Meetings API
   slug: monaco-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-meetings-api-openapi.yml
 - filename: monaco-opportunities-api-openapi.yml
   format: yaml
   label: Monaco Opportunities API
   slug: monaco-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-opportunities-api-openapi.yml
 - filename: monaco-schemas-api-openapi.yml
   format: yaml
   label: Monaco Schemas API
   slug: monaco-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-schemas-api-openapi.yml
 - filename: monaco-sequence-templates-api-openapi.yml
   format: yaml
   label: Monaco Sequence Templates API
   slug: monaco-sequence-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-sequence-templates-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-sequence-templates-api-openapi.yml
 - filename: monaco-sequences-api-openapi.yml
   format: yaml
   label: Monaco Sequences API
   slug: monaco-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-sequences-api-openapi.yml
 - filename: monaco-tags-api-openapi.yml
   format: yaml
   label: Monaco Tags API
   slug: monaco-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-tags-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-tags-api-openapi.yml
 - filename: monaco-tasks-api-openapi.yml
   format: yaml
   label: Monaco Tasks API
   slug: monaco-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-tasks-api-openapi.yml
 - filename: monaco-users-api-openapi.yml
   format: yaml
   label: Monaco Users API
   slug: monaco-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/openapi/monaco-users-api-openapi.yml
+  url: https://artifacts.apis.io/monaco/openapi/monaco-users-api-openapi.yml
 consequence_counts:
   read: 24
   write: 27
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/monaco
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/{tag_id}\n  method: patch\n  operationId: update_tag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags/{tag_id}\n  method: delete\n  operationId: delete_tag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tasks/list\n  method: post\n  operationId: list_tasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/{task_id}\n\
   \  method: get\n  operationId: get_task\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/{task_id}\n  method: patch\n  operationId: update_task\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tasks/\n  method: post\n  operationId: create_task\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/\n  method: get\n  operationId: list_users\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/agentic-access/monaco-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/monaco/agentic-access/monaco-agentic-access.yml
 summary_line: 51 operations · 27 acting
 tags:
 - Company

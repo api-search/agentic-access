@@ -9,37 +9,37 @@ api_specs:
   label: WireMock Near Misses API
   slug: wiremock-near-misses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-near-misses-api-openapi.yml
+  url: https://artifacts.apis.io/wiremock/openapi/wiremock-near-misses-api-openapi.yml
 - filename: wiremock-recordings-api-openapi.yml
   format: yaml
   label: WireMock Recordings API
   slug: wiremock-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/wiremock/openapi/wiremock-recordings-api-openapi.yml
 - filename: wiremock-requests-api-openapi.yml
   format: yaml
   label: WireMock Requests API
   slug: wiremock-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-requests-api-openapi.yml
+  url: https://artifacts.apis.io/wiremock/openapi/wiremock-requests-api-openapi.yml
 - filename: wiremock-scenarios-api-openapi.yml
   format: yaml
   label: WireMock Scenarios API
   slug: wiremock-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/wiremock/openapi/wiremock-scenarios-api-openapi.yml
 - filename: wiremock-stub-mappings-api-openapi.yml
   format: yaml
   label: WireMock Stub Mappings API
   slug: wiremock-stub-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-stub-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/wiremock/openapi/wiremock-stub-mappings-api-openapi.yml
 - filename: wiremock-system-api-openapi.yml
   format: yaml
   label: WireMock System API
   slug: wiremock-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/openapi/wiremock-system-api-openapi.yml
+  url: https://artifacts.apis.io/wiremock/openapi/wiremock-system-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 6
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wiremo
   \ putAdminMappingsByStubMappingId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /__admin/mappings/{stubMappingId}\n  method: delete\n  operationId: deleteAdminMappingsByStubMappingId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /__admin/mappings/find-by-metadata\n  method: post\n  operationId: postAdminMappingsFindByMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /__admin/mappings/remove-by-metadata\n  method: post\n  operationId: postAdminMappingsRemoveByMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /__admin/settings\n  method: post\n  operationId: postAdminSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /__admin/reset\n  method: post\n  operationId: postAdminReset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /__admin/shutdown\n  method: post\n  operationId: postAdminShutdown\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/agentic-access/wiremock-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wiremock/agentic-access/wiremock-agentic-access.yml
 summary_line: 33 operations · 21 acting · 6 human-in-the-loop
 tags:
 - API Mocking

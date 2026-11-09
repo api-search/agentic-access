@@ -9,79 +9,79 @@ api_specs:
   label: dotloop Account API
   slug: dotloop-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-account-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-account-api-openapi.yml
 - filename: dotloop-activities-api-openapi.yml
   format: yaml
   label: dotloop Activities API
   slug: dotloop-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-activities-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-activities-api-openapi.yml
 - filename: dotloop-contacts-api-openapi.yml
   format: yaml
   label: dotloop Contacts API
   slug: dotloop-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-contacts-api-openapi.yml
 - filename: dotloop-documents-api-openapi.yml
   format: yaml
   label: dotloop Documents API
   slug: dotloop-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-documents-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-documents-api-openapi.yml
 - filename: dotloop-folders-api-openapi.yml
   format: yaml
   label: dotloop Folders API
   slug: dotloop-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-folders-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-folders-api-openapi.yml
 - filename: dotloop-loop-details-api-openapi.yml
   format: yaml
   label: dotloop Loop Details API
   slug: dotloop-loop-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-loop-details-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-loop-details-api-openapi.yml
 - filename: dotloop-loop-it-api-openapi.yml
   format: yaml
   label: dotloop Loop It API
   slug: dotloop-loop-it-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-loop-it-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-loop-it-api-openapi.yml
 - filename: dotloop-loop-templates-api-openapi.yml
   format: yaml
   label: dotloop Loop Templates API
   slug: dotloop-loop-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-loop-templates-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-loop-templates-api-openapi.yml
 - filename: dotloop-loops-api-openapi.yml
   format: yaml
   label: dotloop Loops API
   slug: dotloop-loops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-loops-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-loops-api-openapi.yml
 - filename: dotloop-participants-api-openapi.yml
   format: yaml
   label: dotloop Participants API
   slug: dotloop-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-participants-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-participants-api-openapi.yml
 - filename: dotloop-profiles-api-openapi.yml
   format: yaml
   label: dotloop Profiles API
   slug: dotloop-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-profiles-api-openapi.yml
 - filename: dotloop-tasks-api-openapi.yml
   format: yaml
   label: dotloop Tasks API
   slug: dotloop-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-tasks-api-openapi.yml
 - filename: dotloop-webhooks-api-openapi.yml
   format: yaml
   label: dotloop Webhooks API
   slug: dotloop-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/openapi/dotloop-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dotloop/openapi/dotloop-webhooks-api-openapi.yml
 consequence_counts:
   read: 25
   write: 18
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dotloo
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscription\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscription\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscription/{subscription_id}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscription/{subscription_id}\n  method: patch\n  operationId: updateSubscription\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscription/{subscription_id}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscription/{subscription_id}/event\n  method: get\n  operationId: listSubscriptionEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscription/{subscription_id}/event/{event_id}\n  method: get\n  operationId: getSubscriptionEvent\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/agentic-access/dotloop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dotloop/agentic-access/dotloop-agentic-access.yml
 summary_line: 43 operations · 18 acting
 tags:
 - Real Estate

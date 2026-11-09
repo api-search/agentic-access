@@ -9,31 +9,31 @@ api_specs:
   label: cloro Async API
   slug: cloro-dev-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-async-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-async-api-openapi.yml
 - filename: cloro-dev-countries-api-openapi.yml
   format: yaml
   label: cloro Countries API
   slug: cloro-dev-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-countries-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-countries-api-openapi.yml
 - filename: cloro-dev-credits-api-openapi.yml
   format: yaml
   label: cloro Credits API
   slug: cloro-dev-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-credits-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-credits-api-openapi.yml
 - filename: cloro-dev-monitor-api-openapi.yml
   format: yaml
   label: cloro Monitor API
   slug: cloro-dev-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-monitor-api-openapi.yml
 - filename: cloro-dev-states-api-openapi.yml
   format: yaml
   label: cloro States API
   slug: cloro-dev-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-states-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-states-api-openapi.yml
 consequence_counts:
   read: 5
   write: 12
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/cloro-
   \  method: post\n  operationId: monitorPerplexity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/monitor/aimode\n  method: post\n  operationId: monitorAiMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/countries\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/async/task\n  method: post\n  operationId: createAsyncTask\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/async/task/batch\n  method: post\n  operationId: createBatchAsyncTasks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/async/task/{taskId}\n  method: get\n  operationId: getTaskStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/async/status\n  method: get\n  operationId: getAsyncStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/async/queue\n  method: delete\n  operationId: clearAsyncQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/credits\n  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/states\n  method: get\n  operationId: getStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/agentic-access/cloro-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloro-dev/agentic-access/cloro-dev-agentic-access.yml
 summary_line: 17 operations · 12 acting
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: Parseur Async API
   slug: parseur-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-async-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-async-api-openapi.yml
 - filename: parseur-bootstrap-api-openapi.yml
   format: yaml
   label: Parseur Bootstrap API
   slug: parseur-bootstrap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-bootstrap-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-bootstrap-api-openapi.yml
 - filename: parseur-document-api-openapi.yml
   format: yaml
   label: Parseur Document API
   slug: parseur-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-document-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-document-api-openapi.yml
 - filename: parseur-parser-api-openapi.yml
   format: yaml
   label: Parseur Parser API
   slug: parseur-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-parser-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-parser-api-openapi.yml
 - filename: parseur-template-api-openapi.yml
   format: yaml
   label: Parseur Template API
   slug: parseur-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-template-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-template-api-openapi.yml
 - filename: parseur-webhook-api-openapi.yml
   format: yaml
   label: Parseur Webhook API
   slug: parseur-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-webhook-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/parseu
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parser/{id}/template_set\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /template/{id}/copy/{target_mailbox_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parser/{mailbox_id}/webhook_set/{id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parser/{mailbox_id}/webhook_set/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange:\
   \ true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /webhook/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bootstrap\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/agentic-access/parseur-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parseur/agentic-access/parseur-agentic-access.yml
 summary_line: 29 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

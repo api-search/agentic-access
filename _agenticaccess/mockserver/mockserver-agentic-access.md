@@ -8,19 +8,19 @@ api_specs:
   label: MockServer Control API
   slug: mockserver-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-control-api-openapi.yml
+  url: https://artifacts.apis.io/mockserver/openapi/mockserver-control-api-openapi.yml
 - filename: mockserver-expectation-api-openapi.yml
   format: yaml
   label: MockServer Expectation API
   slug: mockserver-expectation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-expectation-api-openapi.yml
+  url: https://artifacts.apis.io/mockserver/openapi/mockserver-expectation-api-openapi.yml
 - filename: mockserver-verify-api-openapi.yml
   format: yaml
   label: MockServer Verify API
   slug: mockserver-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/openapi/mockserver-verify-api-openapi.yml
+  url: https://artifacts.apis.io/mockserver/openapi/mockserver-verify-api-openapi.yml
 consequence_counts:
   physical: 1
   safety-critical: 6
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/mockse
   \    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /mockserver/bind\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /mockserver/stop\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /mockserver/expectation\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mockserver/openapi\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mockserver/verify\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mockserver/verifySequence\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/agentic-access/mockserver-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mockserver/agentic-access/mockserver-agentic-access.yml
 summary_line: 10 operations · 10 acting · 6 human-in-the-loop
 tags:
 - Mocking

@@ -9,31 +9,31 @@ api_specs:
   label: Google Meet Conference Records API
   slug: meet-conference-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-conference-records-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-conference-records-api-openapi.yml
 - filename: meet-participants-api-openapi.yml
   format: yaml
   label: Google Meet Participants API
   slug: meet-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-participants-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-participants-api-openapi.yml
 - filename: meet-recordings-api-openapi.yml
   format: yaml
   label: Google Meet Recordings API
   slug: meet-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-recordings-api-openapi.yml
 - filename: meet-spaces-api-openapi.yml
   format: yaml
   label: Google Meet Spaces API
   slug: meet-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-spaces-api-openapi.yml
 - filename: meet-transcripts-api-openapi.yml
   format: yaml
   label: Google Meet Transcripts API
   slug: meet-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-transcripts-api-openapi.yml
 consequence_counts:
   read: 13
   write: 3
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/meet-o
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecord}/participants\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecord}/participants/{participant}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecord}/participants/{participant}/participantSessions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecord}/participants/{participant}/participantSessions/{participantSession}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecord}/recordings\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecord}/recordings/{recording}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecord}/transcripts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecord}/transcripts/{transcript}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v2/conferenceRecords/{conferenceRecord}/transcripts/{transcript}/entries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/conferenceRecords/{conferenceRecord}/transcripts/{transcript}/entries/{entry}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/agentic-access/meet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meet/agentic-access/meet-agentic-access.yml
 summary_line: 16 operations · 3 acting
 tags:
 - Video Conferencing
